@@ -105,13 +105,13 @@ Hay release de esta semana: **LinwoodDev/Butterfly** publicó v2.6.2 (2026-10-28
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ente/ente — ★29.859 (+117) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.68 (2-nov-2026)
-• T8RIN/ImageToolbox — ★15.313 (+72) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
-• nextcloud/android — ★5.671 (+15) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
+• ente/ente — ★29.861 (+119) · empujó en las últimas horas · AGPL-3.0 · última release photos-v1.3.68 (2-nov-2026)
+• T8RIN/ImageToolbox — ★15.316 (+75) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
+• nextcloud/android — ★5.672 (+16) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
 • deckerst/aves — ★5.484 (+16) · empujó en las últimas horas · BSD-3-Clause · última release v1.15.8 (21-oct-2026)
 • burhanrashid52/PhotoEditor — ★4.532 (+2) · empujó el 27-sep-2026 (hace 37 días) · MIT · última release v.3.1.1 (17-sep-2026)
 • pulsejet/memories — ★3.873 (+5) · empujó en las últimas horas · AGPL-3.0 · última release v11.0.1 (3-nov-2026)
-• IacobIonut01/ReFra — ★2.977 (+18) · empujó el 27-oct-2026 (hace 7 días) · Apache-2.0 · última release 5.2.2 (4-oct-2026)
+• IacobIonut01/ReFra — ★2.978 (+19) · empujó el 27-oct-2026 (hace 7 días) · Apache-2.0 · última release 5.2.2 (4-oct-2026)
 • anonfaded/FadCam — ★2.873 (+8) · empujó el 31-oct-2026 (hace 3 días) · GPL-3.0 · última release v3.0.1 (16-dic-2025)
 • MMRLApp/MMRL — ★2.227 (+4) · empujó el 25-oct-2026 (hace 9 días) · GPL-3.0 · última release v34296 (8-mar-2026)
 • LinwoodDev/Butterfly — ★2.089 (+7) · empujó en las últimas horas · AGPL-3.0 · última release v2.6.2 (28-oct-2026)

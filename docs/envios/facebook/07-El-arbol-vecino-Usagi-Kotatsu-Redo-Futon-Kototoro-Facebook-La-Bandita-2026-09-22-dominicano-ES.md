@@ -72,7 +72,7 @@ Pulso de hoy sobre los 7 repos de la pieza: 7 vivos, 4 activos este mes. Manda *
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• KotatsuApp/Kotatsu — ★8.951 (+8) · *dormido*: sin empujar desde el 4-nov-2025 (364 días) · GPL-3.0 · *ARCHIVADO*
+• KotatsuApp/Kotatsu — ★8.950 (+7) · *dormido*: sin empujar desde el 4-nov-2025 (364 días) · GPL-3.0 · *ARCHIVADO*
 • Kototoro-app/Kototoro — ★666 (+13) · empujó en las últimas horas · Apache-2.0 · última release v2.3.7 (3-nov-2026)
 • AppFuton/Futon — ★476 (+9) · empujó en las últimas horas · GPL-3.0 · última release v9.9 (21-oct-2026)
 • UsagiApp/Usagi — ★290 (+2) · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)

@@ -91,8 +91,8 @@ Pulso de hoy sobre los 11 repos de la pieza: 11 vivos, 5 activos este mes. Manda
 Medí otra vez, hoy 3 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • zhanghai/MaterialFiles — ★9.384 (+39) · empujó el 15-oct-2026 (hace 19 días) · GPL-3.0 · última release v1.7.5 (20-sep-2026)
-• OpenMinis/OpenMinis — ★5.722 (+124) · empujó en las últimas horas · GPL-3.0 · última release 1.15 (25-oct-2026)
-• GlassHaven/Haven — ★1.410 (+23) · empujó en las últimas horas · AGPL-3.0 · última release v5.94.2 (3-nov-2026)
+• OpenMinis/OpenMinis — ★5.724 (+126) · empujó en las últimas horas · GPL-3.0 · última release 1.15 (25-oct-2026)
+• GlassHaven/Haven — ★1.411 (+24) · empujó en las últimas horas · AGPL-3.0 · última release v5.94.2 (3-nov-2026)
 • nullbytepl/CarrierVanityName — ★699 (+2) · *dormido*: sin empujar desde el 10-feb-2024 (997 días) · sin licencia detectada por la API · última release 1.1 (25-ene-2024)
 • mrYouki/YoukiDex-Android-Desktop — ★606 (sin cambio) · *dormido*: sin empujar desde el 15-sep-2026 (49 días) · GPL-3.0 · última release 3.5 (15-sep-2026) · *ARCHIVADO*
 • rednaga/axmlprinter — ★262 (sin cambio) · *dormido*: sin empujar desde el 25-mar-2026 (223 días) · Apache-2.0 · última release v2.0.1 (25-mar-2026)

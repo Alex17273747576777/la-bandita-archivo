@@ -2,8 +2,8 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/02-La-musica-que-no-se-cae-once-reproductores-un-tronco-seco-y-tres-formas-de-quedarse-sin-catalogo-Facebook-La-Bandita-2026-11-02-dominicano-ES.md`
 - **Fecha de la pieza:** 2-nov-2026 (según dateline; edad hoy: 1 días)
-- **sha256 de la pieza:** `40423960b7eeb20fff10c91492504388b937d089199a6e9df363bcee8d8dd4e1`
-- **Envío generado:** 2026-11-03 · 20 mensajes · el mayor de 3648 caracteres
+- **sha256 de la pieza:** `9b135a58730904510fffd7abe60870e75dad9b21df735fe4b39aa1846ca79c1a`
+- **Envío generado:** 2026-11-03 · 20 mensajes · el mayor de 3686 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 20 · 986 caracteres ═══
@@ -22,7 +22,7 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 20 · 3023 caracteres ═══
+═══ MENSAJE 2 de 20 · 2825 caracteres ═══
 
 [Texto del 2-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
@@ -53,9 +53,9 @@ Un teléfono con música es un teléfono con tres problemas distintos que la gen
 
 Juntos suman ★124.378. La cifra engaña, como siempre: un solo proyecto —Spotube, ★50.557— aporta el cuarenta por ciento de todo el conjunto, y su última publicación es una versión beta del 30 de octubre. Si se quita esa cifra del medio, los diez restantes suman ★73.821, con una mediana de ★6.772. Es decir: la música libre en Android no es un gigante, es una docena de proyectos medianos que llevan años peleando con la misma pared.
 
-La pared tiene nombre y esta noche se puede medir: el catálogo ajeno. Los clientes que leen un servicio de música por streaming no guardan nada: piden, reciben y reproducen, y dependen de que la puerta siga abierta. Los reproductores locales no piden permiso a nadie: leen archivos del teléfono y no pueden ser cerrados por una decisión de otro. Y los de podcast están en el medio: el catálogo es abierto —cada emisora publica su archivo— pero el programa que lo ordena tiene que seguir entendiendo el formato.
+Los clientes que leen un servicio de música por streaming no guardan nada: piden, reciben y reproducen, y dependen de que la puerta siga abierta. Los reproductores locales no piden permiso a nadie: leen archivos del teléfono y no pueden ser cerrados por una decisión de otro. Y los de podcast están en el medio: el catálogo es abierto —cada emisora publica su archivo— pero el programa que lo ordena tiene que seguir entendiendo el formato.
 
-El dato que más sorprendió al cerrar la tabla no es el de las estrellas: es el de un proyecto con ★6.135 que lleva setecientos noventa y dos días sin publicar paquete. No está muerto —su código se empujó hace trescientos cincuenta y cuatro días— y de él salieron otros dos proyectos de esta misma lista, los dos vivos, los dos con paquete este año. El tronco se secó y las ramas siguen dando fruta, y eso solo se ve cuando se mira la fecha del paquete y no la fama del nombre. Al final queda una regla que sirve para cualquier programa de música y para cualquier año: **lo que se puede perder sin aviso no se guarda en el programa, se guarda en el archivo**; un reproductor es una ventana y el archivo es la casa.
+El dato que más sorprendió al cerrar la tabla no es el de las estrellas: es el de un proyecto con ★6.135 que lleva setecientos noventa y dos días sin publicar paquete. No está muerto —su código se empujó hace trescientos cincuenta y cuatro días— y de él salieron otros dos proyectos de esta misma lista, los dos vivos, los dos con paquete este año. Al final queda una regla que sirve para cualquier programa de música y para cualquier año: **lo que se puede perder sin aviso no se guarda en el programa, se guarda en el archivo**; un reproductor es una ventana y el archivo es la casa.
 
 ⏬ sigue abajo · parte 1 de 19
 
@@ -87,11 +87,11 @@ El dato que más sorprendió al cerrar la tabla no es el de las estrellas: es el
 
 ⏬ sigue abajo · parte 3 de 19
 
-═══ MENSAJE 5 de 20 · 3220 caracteres ═══
+═══ MENSAJE 5 de 20 · 3298 caracteres ═══
 
 *🧾 Los once, uno por uno, con su fecha*
 
-*Spotube · KRTirtho/spotube · ★50.557 · AGPL-3.0 en la ficha, MIT en el README · Kotlin · empujón 2 de noviembre de 2026 · v6.0.0-beta.0 del 30 de octubre.* El más famoso de la lista con diferencia: veinte mil estrellas más que el segundo y el cuarenta por ciento de la suma total. Lee un catálogo ajeno por una vía que no es la del cliente oficial y lo acompaña con video cuando hay video disponible. Su caso tiene tres cosas que decir y las tres van juntas: la versión más reciente es **beta**, no estable; su licencia aparece de dos maneras según dónde se mire —la ficha automática devuelve AGPL-3.0 y el archivo del README dice MIT— y su empujón es de hoy mientras su paquete es del 30 de octubre. Tres días de brecha, cero de tranquilidad para quien va a instalarlo.
+*Spotube · KRTirtho/spotube · ★50.557 · AGPL-3.0 en la ficha, MIT en el README · Kotlin · empujón 2 de noviembre de 2026 · v6.0.0-beta.0 del 30 de octubre.* El más famoso de la lista con diferencia: veinte mil estrellas más que el segundo y el cuarenta por ciento de la suma total. Lee un catálogo ajeno por una vía que no es la del cliente oficial y lo acompaña con video cuando hay video disponible. Su caso tiene tres cosas que decir y las tres van juntas: la versión más reciente es **beta**, no estable —su madurez se declara así, beta seis punto cero, sin promesa de estabilidad—; su licencia aparece de dos maneras según dónde se mire —la ficha automática devuelve AGPL-3.0 y el archivo del README dice MIT— y su empujón es de hoy mientras su paquete es del 30 de octubre. Tres días de brecha, cero de tranquilidad para quien va a instalarlo.
 
 *Metrolist · MetrolistGroup/Metrolist · ★13.969 · GPL-3.0 · Kotlin · empujón 2 de noviembre de 2026 · v13.7.0 del 7 de septiembre.* El más alto de la familia heredada y el que hoy lleva la voz cantante entre los clientes de catálogo ajeno. Su numeración de versión —trece punto siete— cuenta una historia que el nombre no cuenta: no nació ayer, viene de una línea larga de iteraciones. Cincuenta y seis días entre su empujón y su paquete: hay trabajo hecho que no está en el archivo que se instala. Su ventaja sobre el resto de la familia es de ritmo: es el que más rápido incorpora lo que el servicio cambia.
 
@@ -104,7 +104,7 @@ El dato que más sorprendió al cerrar la tabla no es el de las estrellas: es el
 
 ⏬ sigue abajo · parte 4 de 19
 
-═══ MENSAJE 6 de 20 · 3427 caracteres ═══
+═══ MENSAJE 6 de 20 · 3503 caracteres ═══
 
 *InnerTune · z-huang/InnerTune · ★6.135 · GPL-3.0 · Kotlin · empujón 13 de noviembre de 2025 · v0.5.10 del 1 de septiembre de 2024.* El tronco. Setecientos noventa y dos días sin publicar paquete y trescientos cincuenta y cuatro sin empujar código: es el proyecto más quieto de la lista y, al mismo tiempo, el padre de dos de los que están vivos. Su versión 0.5.10 sigue descargable y sigue funcionando para quien la tenga; lo que ya no tiene es futuro propio. Se publica aquí con las dos fechas delante porque su historia explica mejor que ningún texto cómo funciona este ecosistema: no muere un proyecto, se abre una rama.
 
@@ -116,11 +116,11 @@ El dato que más sorprendió al cerrar la tabla no es el de las estrellas: es el
 
 *RiMusic · fast4x/RiMusic · ★3.896 · GPL-3.0 · Kotlin · empujón 30 de julio de 2025 · v0.6.76 del 21 de marzo de 2025.* El que más se parece a una aplicación de música comercial: cuenta, listas, reconocimiento, radio. Cuatrocientos sesenta días sin empujar código y quinientos noventa y uno sin paquete nuevo, con cero adjuntos en su última publicación. Es el caso más claro de esta lista para la pregunta incómoda: ¿sigue funcionando? Probablemente sí, porque el catálogo que lee no ha cambiado de forma radical; lo que no hace es evolucionar. Se publica con las dos cifras y sin recomendación entusiasta.
 
-*PixelPlayer · theovilardo/PixelPlayer · ★6.876 · NOASSERTION en la ficha, MIT en el README · Kotlin · empujón 21 de septiembre de 2026 · 0.7.5-beta del 13 de junio.* Reproductor de video con reproducción de audio, que mucha gente busca como reproductor de música por su interfaz. Cien días de brecha entre paquete y empujón, y una versión beta como última publicación. Se incluye en la lista por dos razones concretas: porque aparece en las búsquedas de música y porque su caso de licencia repite el patrón de la noche —ficha sin licencia declarada, README con MIT— y conviene que el lector lo vea dos veces para creérselo.
+*PixelPlayer · theovilardo/PixelPlayer · ★6.876 · NOASSERTION en la ficha, MIT en el README · Kotlin · empujón 21 de septiembre de 2026 · 0.7.5-beta del 13 de junio.* Reproductor de video con reproducción de audio, que mucha gente busca como reproductor de música por su interfaz. Cien días de brecha entre paquete y empujón, y una versión beta como última publicación: su madurez es beta, cero punto siete punto cinco, con cien días de retraso. Se incluye en la lista por dos razones concretas: porque aparece en las búsquedas de música y porque su caso de licencia repite el patrón de la noche —ficha sin licencia declarada, README con MIT— y conviene que el lector lo vea dos veces para creérselo.
 
 ⏬ sigue abajo · parte 5 de 19
 
-═══ MENSAJE 7 de 20 · 3337 caracteres ═══
+═══ MENSAJE 7 de 20 · 3243 caracteres ═══
 
 *🌳 El tronco seco y las ramas vivas: la familia InnerTune*
 
@@ -128,7 +128,7 @@ Esta es la historia que la tabla no cuenta y que explica mejor que cualquier def
 
 *La cronología medida esta noche.* InnerTune publicó su última versión —v0.5.10— el 1 de septiembre de 2024. Su último empujón de código es del 13 de noviembre de 2025, es decir, hubo catorce meses en que el proyecto seguía vivo sin publicar nada nuevo. Hoy, 2 de noviembre de 2026, lleva setecientos noventa y dos días sin paquete y trescientos cincuenta y cuatro sin tocar el código. En el lenguaje de la casa: tronco seco.
 
-*Lo que salió del tronco.* De esa base salieron al menos dos proyectos que están en esta lista y que hoy publican con su propio nombre. Metrolist, con ★13.969, es el más alto de todos los que heredan: cincuenta y seis días de brecha y un empujón de hoy. OuterTune, con ★5.442, es el que más se separó: añadió descarga y listas locales, y su último paquete es del 19 de diciembre de 2025, con doscientos noventa y siete días de brecha. Los dos nacieron del mismo código y ninguno se parece al otro: eso es lo que hace una bifurcación cuando la comunidad es grande y las necesidades distintas.
+*Lo que salió del tronco.* De esa base salieron al menos dos proyectos que están en esta lista y que hoy publican con su propio nombre. Metrolist, con ★13.969, es el más alto de todos los que heredan: cincuenta y seis días de brecha y un empujón de hoy. OuterTune, con ★5.442, es el que más se separó: añadió descarga y listas locales, y su último paquete es del 19 de diciembre de 2025, con doscientos noventa y siete días de brecha. Los dos nacieron del mismo código y ninguno se parece al otro.
 
 *Por qué una bifurcación no es una traición.* En el mundo del software propietario, cuando un producto muere, los usuarios se quedan sin nada: no hay código que continuar y nadie puede continuar lo que no tiene. En el libre, el código es de todos y cualquiera puede recogerlo. Que InnerTune esté quieto y Metrolist esté activo no es una desgracia para el primero: es el mecanismo funcionando. La única condición es que la licencia lo permita, y GPL-3.0 lo permite explícitamente.
 
@@ -140,13 +140,13 @@ Esta es la historia que la tabla no cuenta y que explica mejor que cualquier def
 
 ⏬ sigue abajo · parte 6 de 19
 
-═══ MENSAJE 8 de 20 · 2582 caracteres ═══
+═══ MENSAJE 8 de 20 · 2444 caracteres ═══
 
 *📦 El paquete que no está: dos casos de cero adjuntos*
 
 Dos de los once publicaron una versión sin un solo archivo en la lista del repositorio: AntennaPod con su 3.12.3 del 13 de octubre y RiMusic con su 0.6.76 del 21 de marzo de 2025. Cero adjuntos en los dos casos, y son dos casos completamente distintos. Confundirlos es el error que esta sección evita.
 
-*Caso uno: el que no necesita el repositorio.* AntennaPod tiene su paquete en el catálogo libre de F-Droid y en la tienda oficial de Android, y su página publica además un archivo propio. La publicación del repositorio sin adjuntos no significa que no haya entrega: significa que la entrega va por los canales donde su público la busca. Su empujón es de hoy, su versión es del 13 de octubre y su cadencia —veinte días de brecha— es la más sana de toda la lista. Un proyecto de más de una década que publica sin adjuntos es un proyecto que decidió hace años dónde entrega y no ha cambiado de opinión.
+*Caso uno: el que no necesita el repositorio.* AntennaPod tiene su paquete en el catálogo libre de F-Droid y en la tienda oficial de Android, y su página publica además un archivo propio. La publicación del repositorio sin adjuntos no significa que no haya entrega: significa que la entrega va por los canales donde su público la busca. Su empujón es de hoy, su versión es del 13 de octubre y su cadencia —veinte días de brecha— es la más sana de toda la lista.
 
 *Caso dos: el que dejó de entregar.* RiMusic tiene su última publicación con cero adjuntos y su fecha es del 21 de marzo de 2025. Su último empujón es del 30 de julio de 2025. Quinientos noventa y un días desde el paquete y cuatrocientos sesenta desde el código. Aquí el cero no significa «entrega en otro canal»: significa que el proyecto se detuvo, y la ausencia de archivo es el síntoma. No se puede afirmar que esté abandonado —nadie lo ha declarado— pero sí se puede afirmar lo que se mide: no hay paquete nuevo en un año y medio y no hay código nuevo en quince meses.
 
@@ -156,13 +156,13 @@ Dos de los once publicaron una versión sin un solo archivo en la lista del repo
 
 ⏬ sigue abajo · parte 7 de 19
 
-═══ MENSAJE 9 de 20 · 2377 caracteres ═══
+═══ MENSAJE 9 de 20 · 2235 caracteres ═══
 
 *🧾 Las tres que dicen dos licencias*
 
 En esta lista hay tres proyectos cuya licencia aparece de dos maneras según dónde se mire, y los tres casos no son iguales. Vale la pena verlos juntos porque el patrón se repite en todo el ecosistema y porque la tentación de resolverlo eligiendo la respuesta más cómoda es enorme.
 
-*Spotube: la ficha dice AGPL-3.0 y el archivo del README dice MIT.* Es el caso más serio de los tres, y por una razón que no es formal: la AGPL-3.0 y la MIT no son la misma promesa. La AGPL obliga a quien modifica y ofrece el programa por red a publicar sus cambios; la MIT no obliga a nada parecido. Si el proyecto es en realidad AGPL y alguien lo trata como MIT, puede estar incumpliendo sin saberlo. Aquí se publican las dos versiones con su método —la ficha automática por un lado, el archivo del repositorio por el otro— y no se elige. En la tabla se lee la de la ficha, con la nota al lado, porque en este caso el archivo del README no es el archivo de licencia del proyecto: es su documentación. La regla de la casa es que manda el archivo de licencia, y si el README dice otra cosa, lo que hay es una discrepancia que el autor debería resolver.
+*Spotube: la ficha dice AGPL-3.0 y el archivo del README dice MIT.* Es el caso más serio de los tres, y por una razón que no es formal: la AGPL-3.0 y la MIT no son la misma promesa. La AGPL obliga a quien modifica y ofrece el programa por red a publicar sus cambios; la MIT no obliga a nada parecido. Si el proyecto es en realidad AGPL y alguien lo trata como MIT, puede estar incumpliendo sin saberlo. Se publican las dos versiones con su método y no se elige: en la tabla va la de la ficha, con la nota al lado, porque el README no es el archivo de licencia. La regla de la casa es que manda el archivo de licencia, y si el README dice otra cosa, lo que hay es una discrepancia que el autor debería resolver.
 
 *Namida: la ficha dice ausencia y el README dice MIT.* Más simple y más común de lo que parece: el proyecto no rellena el campo de licencia de la plataforma y, sin embargo, declara MIT en su documentación. Aquí no hay conflicto entre dos licencias: hay una licencia declarada en un sitio y un campo vacío en otro. Se publica la del README como intención del autor y se anota el método, que es lo que permite a cualquiera comprobarlo en un minuto.
 
@@ -210,7 +210,7 @@ Los cinco clientes de la primera familia no fallan por bugs. Fallan por una raz�
 
 ⏬ sigue abajo · parte 10 de 19
 
-═══ MENSAJE 12 de 20 · 2838 caracteres ═══
+═══ MENSAJE 12 de 20 · 3531 caracteres ═══
 
 *🧮 Las cuentas de esta noche*
 
@@ -222,6 +222,8 @@ Los cinco clientes de la primera familia no fallan por bugs. Fallan por una raz�
 
 *El reparto por licencia.* Ocho son GPL-3.0: SimpMusic, Metrolist, InnerTune, OuterTune, Auxio, AntennaPod, RiMusic y Retro Music. Uno es AGPL-3.0 en la ficha: Spotube. Dos aparecen en ausencia con MIT en el README: Namida y PixelPlayer. Ninguno es propietario y ninguno se queda fuera de la lista por su licencia: los tres casos de discrepancia se publican con sus dos versiones y su método.
 
+*El que no estaba en la lista de ayer.* La búsqueda de hoy, sin mínimo de estrellas, sacó un reproductor que no aparecía en esta pieza y que sí pasa el corte de descubrimiento: **resonus · juananzzz/resonus · ★224 · GPL-3.0 · creado el 25 de junio de 2026, hace 131 días · nueve flujos de compilación · veintiún personas empujando · 7.964 descargas en las 10 últimas · v0.8.7 del 1 de noviembre, dos adjuntos · madurez: versión cero, ocho, siete.** Es local y para servidor propio —lo contrario de la primera familia— y su nota, sesenta y dos, supera a cuatro de los once. No entra en la tabla porque la tabla es del 2 de noviembre; entra aquí con fecha de hoy y se remide el 3 de diciembre.
+
 *El reparto por entrega.* Cuatro publicaron paquete en los últimos treinta días: SimpMusic, Spotube, AntennaPod y Namida. Tres entregan con más de cincuenta y menos de ciento cincuenta días: Metrolist, Auxio, Retro Music y PixelPlayer. Uno tiene paquete de diciembre del año pasado: OuterTune. Uno tiene paquete de marzo del año pasado: RiMusic. Y uno tiene paquete de septiembre de 2024: InnerTune, con setecientos noventa y dos días.
 
 *Los que no traen archivo.* Dos publicaciones sin un solo adjunto: AntennaPod y RiMusic. En el primer caso la entrega va por otros canales y su empujón es de hoy; en el segundo, no hay paquete nuevo en un año y medio ni código nuevo en quince meses. Un cero en la misma columna, dos historias opuestas.
@@ -230,7 +232,7 @@ Los cinco clientes de la primera familia no fallan por bugs. Fallan por una raz�
 
 ⏬ sigue abajo · parte 11 de 19
 
-═══ MENSAJE 13 de 20 · 2547 caracteres ═══
+═══ MENSAJE 13 de 20 · 2284 caracteres ═══
 
 *⚖️ La raya legal de la música*
 
@@ -238,9 +240,9 @@ Este tema va en medio de la guía y no al final escondido, porque callarlo serí
 
 *Lo que estos programas son y lo que no.* Un cliente de catálogo ajeno es un programa que pide audio a un servicio y lo reproduce. No trae música: trae la manera de pedirla. Por eso su situación legal no depende del programa sino de la relación entre quien lo usa y el servicio: si el servicio permite ese uso, no hay problema; si sus condiciones lo prohíben, el programa es la herramienta y la decisión es de quien la usa. Esta guía no resuelve esa pregunta por nadie y no la va a disfrazar: la nombra.
 
-*Lo que esta pieza no hace.* No enseña a descargar catálogos completos, no explica cómo saltarse un cobro, no reparte archivos de audio y no enlaza nada que no sea la página del proyecto. Si un programa permite guardar audio, la guía dice que lo permite y no explica cómo llenar un disco de trescientos gigas con la discografía de nadie. La diferencia entre informar sobre una función y montar un sistema para exprimirla es la misma que entre contar que una puerta existe y hacer copias de la llave.
+*Lo que esta pieza no hace.* No enseña a descargar catálogos completos, no explica cómo saltarse un cobro, no reparte archivos de audio y no enlaza nada que no sea la página del proyecto. Si un programa permite guardar audio, la guía dice que lo permite y no explica cómo llenar un disco de trescientos gigas con la discografía de nadie.
 
-*El camino limpio, que además es el más duradero.* Tres cosas no tienen ninguna zona gris: la música que ya es tuya en archivos, los podcast —cuyo catálogo es público por diseño— y los programas libres que leen ambas cosas. Quien construye su biblioteca sobre esas tres columnas puede cambiar de teléfono, de sistema y de año sin perder nada y sin depender de la decisión de una empresa. Quien la construye sobre una ventana, la pierde el día que la ventana se cierre, y ese día no avisa.
+*El camino limpio, que además es el más duradero.* Tres cosas no tienen ninguna zona gris: la música que ya es tuya en archivos, los podcast —cuyo catálogo es público por diseño— y los programas libres que leen ambas cosas. Quien construye su biblioteca sobre esas tres columnas puede cambiar de teléfono, de sistema y de año sin perder nada y sin depender de la decisión de una empresa.
 
 *El detalle de las licencias que sí importa aquí.* Cuando un cliente de catálogo ajeno es GPL-3.0 o AGPL-3.0, su código se puede estudiar y modificar, y cualquiera puede publicar su propia versión si el proyecto original se detiene. Esa es la razón por la que la familia InnerTune sobrevivió: no por la buena voluntad del autor, sino porque la licencia lo permitió. En un programa propietario, la muerte del proyecto es definitiva; en uno libre, es el comienzo de otra rama.
 
@@ -272,7 +274,7 @@ Este tema va en medio de la guía y no al final escondido, porque callarlo serí
 
 ⏬ sigue abajo · parte 13 de 19
 
-═══ MENSAJE 15 de 20 · 3648 caracteres ═══
+═══ MENSAJE 15 de 20 · 3686 caracteres ═══
 
 *📊 Tabla, mitos, glosario y enlaces*
 
@@ -289,6 +291,7 @@ Este tema va en medio de la guía y no al final escondido, porque callarlo serí
 | Retro Music | ★5.381 | GPL-3.0 | Kotlin | 2 nov 2026 | v7.0.3 · 13 ago 2026 | 2 |
 | Auxio | ★4.418 | GPL-3.0 | Kotlin | 2 nov 2026 | v4.1.5 · 4 ago 2026 | 1 |
 | RiMusic | ★3.896 | GPL-3.0 | Kotlin | 30 jul 2025 | v0.6.76 · 21 mar 2025 | 0 |
+La madurez de cada ficha se declara tal como la publica su autor; las etiquetas beta se leen sin suavizarlas.
 
 *Cinco mitos de la música en Android, uno por uno*
 
@@ -316,12 +319,12 @@ Este tema va en medio de la guía y no al final escondido, porque callarlo serí
 
 *Adjuntos.* Archivos que acompañan a una publicación. Cero adjuntos puede significar «entrega en otro canal» o «el proyecto se detuvo», y solo la fecha del empujón lo distingue.
 
-*Brecha de entrega.* Días entre el último paquete y el último empujón.
-
 
 ⏬ sigue abajo · parte 14 de 19
 
-═══ MENSAJE 16 de 20 · 2258 caracteres ═══
+═══ MENSAJE 16 de 20 · 2146 caracteres ═══
+
+*Brecha de entrega.* Días entre el último paquete y el último empujón.
 
 *Bifurcación.* Copia de un proyecto que sigue su propio camino con nombre y paquete propios. Legítima si la licencia lo permite y si no se hace pasar por el original.
 
@@ -351,7 +354,7 @@ Este tema va en medio de la guía y no al final escondido, porque callarlo serí
 - Auxio: https://github.com/OxygenCobalt/Auxio
 - RiMusic: https://github.com/fast4x/RiMusic
 
-*Cómo se midió:* once repositorios pasados por las tres vías de la casa —consulta a la interfaz de búsqueda de GitHub, página del repositorio leída como la ve una persona y contenido crudo del README y del archivo de licencia— con el orden rotado entre recursos. Después se abrió, uno por uno, la lista de publicaciones de cada proyecto para anotar versión, fecha y número de adjuntos, y se calculó la brecha contra el empujón. Tres casos de licencia discrepante se resolvieron publicando las dos versiones con su método, sin promediar ni elegir la más cómoda. Tres proyectos se reconsultaron a mano porque el número de adjuntos de la primera pasada no cuadraba. Corte entre las 18:22 y las 18:44 de Santo Domingo.
+*Cómo se midió:* once repositorios pasados por las tres vías de la casa —consulta a la interfaz de búsqueda de GitHub, página del repositorio leída como la ve una persona y contenido crudo del README y del archivo de licencia— con el orden rotado entre recursos. Se abrió después la lista de publicaciones de cada uno para anotar versión, fecha y adjuntos, y se calculó la brecha contra el empujón. Tres casos de licencia discrepante se resolvieron publicando las dos versiones. Corte entre las 18:22 y las 18:44 de Santo Domingo.
 
 ⏬ sigue abajo · parte 15 de 19
 
@@ -399,8 +402,8 @@ Y queda la frase que sirve para cualquier año: un reproductor es una ventana; e
 Medí otra vez, hoy 3 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • KRTirtho/spotube — sin dato hoy (la API no respondió). No afirmo nada.
-• MetrolistGroup/Metrolist — ★13.982 (+93) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.690 (+161) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• MetrolistGroup/Metrolist — ★13.983 (+94) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.692 (+163) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • AntennaPod/AntennaPod — ★8.260 (+3) · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • theovilardo/PixelPlayer — sin dato hoy (la API no respondió). No afirmo nada.
 • namidaco/namida — ★6.780 · empujó el 1-nov-2026 (hace 2 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)

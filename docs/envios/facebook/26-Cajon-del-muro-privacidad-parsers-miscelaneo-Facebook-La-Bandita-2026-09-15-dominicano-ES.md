@@ -137,18 +137,18 @@ Hay release de esta semana: **Awerkori/manga-extensoes** publicó f4a374c (2026-
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 3048 caracteres ═══
+═══ MENSAJE 5 de 6 · 3049 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 26*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 22 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• iptv-org/iptv — ★143.119 (+390) · empujó en las últimas horas · Unlicense
-• nexu-io/open-design — ★105.677 (+814) · empujó en las últimas horas · Apache-2.0 · última release open-design-v0.26.1 (22-oct-2026)
+• iptv-org/iptv — ★143.121 (+392) · empujó en las últimas horas · Unlicense
+• nexu-io/open-design — ★105.680 (+817) · empujó en las últimas horas · Apache-2.0 · última release open-design-v0.26.1 (22-oct-2026)
 • android/nowinandroid — ★22.002 (+19) · empujó en las últimas horas · Apache-2.0 · última release 0.1.1 (13-jul-2023)
-• JingMatrix/Vector — ★13.020 (+53) · empujó en las últimas horas · GPL-3.0 · última release v2.2 (4-ago-2026)
-• CluvexStudio/Aether — ★2.414 (+40) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.0 (24-oct-2026)
-• meshtastic/Meshtastic-Android — ★1.905 (+9) · empujó en las últimas horas · GPL-3.0 · última release v2.8.3 (19-oct-2026)
+• JingMatrix/Vector — ★13.021 (+54) · empujó en las últimas horas · GPL-3.0 · última release v2.2 (4-ago-2026)
+• CluvexStudio/Aether — ★2.415 (+41) · empujó en las últimas horas · AGPL-3.0 · última release v2.4.0 (24-oct-2026)
+• meshtastic/Meshtastic-Android — ★1.906 (+10) · empujó en las últimas horas · GPL-3.0 · última release v2.8.3 (19-oct-2026)
 • HmnDev-Tech/shevery — ★1.583 (+56) · empujó en las últimas horas · Apache-2.0 · última release 14.6.1 (1-nov-2026)
 • NikhilKain/vyxel-apps — ★958 (+6) · empujó el 25-oct-2026 (hace 9 días) · NOASSERTION · última release v1.1.5 (25-oct-2026)
 • soul-99/SU_IMD — ★530 (+22) · empujó el 8-oct-2026 (hace 26 días) · GPL-3.0 · última release v3 (3-sep-2026)
@@ -156,12 +156,12 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 22 repositorios que cita esta pi
 • winhub-emu/winhub — ★442 (+2) · empujó en las últimas horas · MIT · última release yesysyeysys (6-oct-2026)
 • openflocon/Flocon — ★378 (sin cambio) · empujó en las últimas horas · MIT · última release 1.10.0 (18-oct-2026)
 • wizdom13/WizeStream — ★394 (+16) · empujó en las últimas horas · GPL-3.0 · última release v1.36.0 (30-oct-2026)
-• openAnimeFlow/AnimeFlow — ★404 (+89) · empujó en las últimas horas · AGPL-3.0 · última release v2.6.7 (2-nov-2026)
+• openAnimeFlow/AnimeFlow — ★405 (+90) · empujó en las últimas horas · AGPL-3.0 · última release v2.6.7 (2-nov-2026)
 • mojuru/cursed-manga-repo — ★175 (+1) · empujó el 12-oct-2026 (hace 22 días) · sin licencia detectada por la API · última release 5dad5cf (12-oct-2026)
 • alienware377/RootlessViPER4Android — ★108 (+6) · empujó en las últimas horas · GPL-3.0 · última release v4.4.0 (29-oct-2026)
 • manuelsiuro/GZDoom-Android-2026 — ★35 (sin cambio) · *dormido*: sin empujar desde el 30-jun-2026 (126 días) · GPL-2.0
 • weekanya/Booru — ★20 (sin cambio) · empujó el 27-oct-2026 (hace 7 días) · GPL-3.0 · última release 6.1 (11-oct-2026)
-• qingzhuo-cn/boorunova — ★8 (+2) · empujó en las últimas horas · AGPL-3.0 · última release v1.8.7 (2-nov-2026)
+• qingzhuo-cn/boorunova — ★9 (+3) · empujó en las últimas horas · AGPL-3.0 · última release v1.8.7 (2-nov-2026)
 • Awerkori/manga-extensoes — ★4 (sin cambio) · empujó el 31-oct-2026 (hace 3 días) · sin licencia detectada por la API · última release 4bdbce5 (31-oct-2026)
 • barbosaglibby41-sys/Suicang-EH — ★1 (sin cambio) · *dormido*: sin empujar desde el 22-ago-2026 (73 días) · sin licencia detectada por la API · última release v0.2.0-suicang-stable (22-ago-2026)
 • Fullm3t41/SyncDroid-Mesh — ★1 (sin cambio) · empujó el 6-oct-2026 (hace 28 días) · GPL-3.0 · última release v1.2.14 (3-oct-2026)

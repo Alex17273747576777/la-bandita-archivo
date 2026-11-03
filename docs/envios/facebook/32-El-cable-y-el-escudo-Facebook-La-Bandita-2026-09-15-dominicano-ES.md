@@ -91,8 +91,8 @@ Pulso tranquilo: lo último que se movió fue **emanuele-f/PCAPdroid**, hace 2 d
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• emanuele-f/PCAPdroid — ★5.064 (+54) · empujó en las últimas horas · GPL-3.0 · última release v2.0.2 (20-sep-2026)
-• M66B/NetGuard — ★3.960 (+11) · *dormido*: sin empujar desde el 1-ago-2026 (94 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
+• emanuele-f/PCAPdroid — ★5.065 (+55) · empujó en las últimas horas · GPL-3.0 · última release v2.0.2 (20-sep-2026)
+• M66B/NetGuard — ★3.961 (+12) · *dormido*: sin empujar desde el 1-ago-2026 (94 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
 • TrackerControl/tracker-control-android — ★2.718 (+14) · empujó en las últimas horas · GPL-3.0 · última release 2026110101 (1-nov-2026)
 • badabing2005/PixelFlasher — ★2.345 (+4) · empujó el 30-oct-2026 (hace 4 días) · GPL-3.0 · última release v10.2.0.0 (30-oct-2026)
 • TeamWin/android_bootable_recovery — ★1.725 · empujó en las últimas horas · sin licencia detectada por la API

@@ -67,7 +67,7 @@ Hay release de esta semana: **gotson/komga** publicó 1.29.2 (2026-10-28). Con r
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 5 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• jellyfin/jellyfin — ★58.967 (+180) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• jellyfin/jellyfin — ★58.969 (+182) · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 • Kareadita/Kavita — ★12.003 (+32) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v0.9.1.4 (2-sep-2026)
 • Suwayomi/Suwayomi-Server — ★8.001 (+33) · empujó el 1-nov-2026 (hace 2 días) · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
 • gotson/komga — ★6.813 (+16) · empujó en las últimas horas · MIT · última release 1.29.2 (28-oct-2026)

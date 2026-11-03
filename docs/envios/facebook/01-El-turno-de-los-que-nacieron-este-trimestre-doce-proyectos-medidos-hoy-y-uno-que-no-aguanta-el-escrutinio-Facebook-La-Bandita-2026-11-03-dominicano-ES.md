@@ -2,13 +2,13 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/01-El-turno-de-los-que-nacieron-este-trimestre-doce-proyectos-medidos-hoy-y-uno-que-no-aguanta-el-escrutinio-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`
 - **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `8ded15b17fd87a58eecac8d3a6eb63abb76c7dbe4cef2469064657d176d80e25`
-- **Envío generado:** 2026-11-03 · 20 mensajes · el mayor de 3652 caracteres
+- **sha256 de la pieza:** `2fb1cbce34804c3de7ea6364888f6d94de5404b59202eb8ea2311a7899bc648e`
+- **Envío generado:** 2026-11-03 · 20 mensajes · el mayor de 3641 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 20 · 884 caracteres ═══
+═══ MENSAJE 1 de 20 · 873 caracteres ═══
 
-*El turno de los que nacieron este trimestre: doce proyectos con nota puesta y tres que el escrutinio deja fuera aunque tengan estrellas de sobra*
+*El turno de los que nacieron este trimestre: doce proyectos con nota puesta y tres medidos que se quedan fuera con la nota en la mano*
 
 La Bandita · pieza 01 · guía del 3-nov-2026 · te la mando hoy en 20 mensajes.
 
@@ -20,9 +20,9 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 20 · 2514 caracteres ═══
+═══ MENSAJE 2 de 20 · 2483 caracteres ═══
 
-*El turno de los que nacieron este trimestre: doce proyectos con nota puesta y tres que el escrutinio deja fuera aunque tengan estrellas de sobra*
+*El turno de los que nacieron este trimestre: doce proyectos con nota puesta y tres medidos que se quedan fuera con la nota en la mano*
 
 *La Bandita · martes 3 de noviembre de 2026 · edición dominicano-español · pieza 01 de Facebook*
 
@@ -47,7 +47,7 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 > *Semilla de esta guía:* un muchacho en Los Mina compró un televisor con Android en marzo. En agosto ya venía con anuncios en la pantalla de inicio, dos filas de series que nunca pidió y un botón que abre la tienda de una marca cada vez que lo enciende. Su teléfono, un modelo de 2023, tiene cuarenta y siete aplicaciones instaladas de fábrica y le quedan dos gigabytes libres. Lo que él pregunta no es cómo rootear nada: pregunta si alguien, en algún sitio, está construyendo algo para gente que quiere decidir qué corre en sus aparatos. Esta guía es la respuesta medida a esa pregunta, hecha de proyectos que nacieron hace semanas y que nadie le ha recomendado todavía, porque la recomendación se hace con fechas y números, no con fama.
 
-Todo lo que sigue se midió el 3 de noviembre de 2026, entre las ocho y las catorce horas, en Santo Domingo. Los proyectos son nuevos de verdad —el más viejo tiene ciento siete días, el más joven tres—, y ese es el punto: casi todo lo que la gente instala tiene años y nadie pregunta si sigue vivo. Aquí se invirtió la pregunta: primero se buscó lo que existe desde hace dos o tres meses, después quién sigue trabajando en ello, después se abrió el paquete, la licencia y la presentación, y al final se descartó casi todo. Quedan doce fichas con nota y un caso: un proyecto con cincuenta mil estrellas en diecisiete días que no tiene un archivo descargable.
+Todo lo que sigue se midió el 3 de noviembre de 2026, entre las ocho y las catorce horas, en Santo Domingo. Los proyectos son nuevos de verdad —el más viejo tiene ciento siete días, el más joven tres—, y ese es el punto: casi todo lo que la gente instala tiene años y nadie pregunta si sigue vivo. Aquí se invirtió la pregunta: primero se buscó lo que existe desde hace dos o tres meses, después quién sigue trabajando en ello, después se abrió el paquete, la licencia y la presentación, y al final se descartó casi todo. Quedan doce fichas con nota y un caso: un proyecto de cincuenta mil estrellas que no tiene un archivo descargable.
 
 ⏬ sigue abajo · parte 1 de 19
 
@@ -101,7 +101,7 @@ El registro de la casa —seis mil ochocientas treinta fichas— se volvió a me
 
 ⏬ sigue abajo · parte 4 de 19
 
-═══ MENSAJE 6 de 20 · 3042 caracteres ═══
+═══ MENSAJE 6 de 20 · 3184 caracteres ═══
 
 *🧪 El escrutinio: la nota y sus pesos*
 
@@ -109,13 +109,13 @@ Una recomendación sin criterio declarado es una preferencia. Por eso cada ficha
 
 Los pesos, en corto: quince por una licencia que se pueda leer y nombrar; diez por tener flujos de compilación automática en el árbol; diez por publicar al menos un adjunto con su huella, que es lo que permite comprobar que lo descargado es lo publicado; diez por una entrega en los últimos treinta días; diez por actividad reciente; diez por número de personas; diez por proporción de incidencias atendidas; cinco por un archivo donde reportar un fallo de seguridad; y veinte por el informe de mérito de terceros cuando existe. Las penalizaciones también se dicen: treinta menos por archivado, diez menos por no publicar ningún adjunto, quince menos por atención anómala —menos de catorce días, más de cinco mil estrellas y sin equipo detrás— y cinco menos por una sola persona con más de cincuenta entregas.
 
-Medido hoy sobre doscientas noventa y ocho novedades del trimestre, el resultado desordena la lista que habría dado el olfato: encabezan proyectos que nadie ha puesto en un titular —RustGIS y Kividb con setenta y ocho, Hatchzip con setenta y cinco— y no los que más estrellas tienen. Y entre lo que sirve a un teléfono, la nota pone delante a tres que esta guía no traía en su primera versión y que entran ahora con ficha propia: **android-ad-cleaner, con setenta y uno**, que apaga la publicidad del sistema en los teléfonos de fábrica china sin root y con vuelta atrás; **flectar/mail, con sesenta y ocho**, un cliente de correo nativo construido para arrancar rápido y gastar veinte megabytes en reposo; y **cleanyourtv-app, con sesenta y tres**, la aplicación de teléfono que hace lo que su proyecto hermano de cincuenta mil estrellas promete y no entrega.
+Medido hoy sobre doscientas noventa y ocho novedades del trimestre, el resultado desordena la lista que habría dado el olfato: encabezan proyectos que nadie ha puesto en un titular —RustGIS y Kividb con setenta y ocho, Hatchzip con setenta y cinco— y no los que más estrellas tienen. Y entre lo que sirve a un teléfono, la nota pone delante a tres que esta guía no traía en su primera versión y que entran ahora con ficha propia: **android-ad-cleaner, con setenta y uno**, que apaga la publicidad del sistema en los teléfonos de fábrica china sin root y con vuelta atrás; **flectar/mail, con setenta y ocho**, un cliente de correo nativo construido para arrancar rápido y gastar veinte megabytes en reposo; y **cleanyourtv-app, con sesenta y tres**, la aplicación de teléfono que hace lo que su proyecto hermano de cincuenta mil estrellas promete y no entrega.
 
-Lo que el escrutinio deja al descubierto es más útil que la lista. **kiosk-satellite saca veinticinco**: trescientas diecisiete entregas de una sola mano, ninguna huella en sus adjuntos y una licencia que la plataforma no reconoce. **Husk saca cuarenta**: cero flujos de compilación y cero huellas, o sea que su paquete no se puede comprobar de ninguna manera. Y **cleanyourtv saca cuarenta y tres**, con cincuenta mil estrellas, por la razón más simple del mundo: no publica ni un archivo. Los tres siguen en esta guía, pero con el cartel puesto: uno como caso de estudio, dos como fichas de segunda fila. La nota no decide qué es interesante; decide qué se recomienda, que no es lo mismo.
+Lo que el escrutinio deja al descubierto es más útil que la lista. **kiosk-satellite saca cuarenta**: una sola mano, ninguna huella en sus adjuntos y una licencia que la plataforma no reconoce, aunque su cola esté impecable. **Husk saca cincuenta**: cero flujos de compilación y cero huellas, o sea un paquete que nadie puede comprobar; y además corre aplicaciones de Android sobre iOS, no dentro de Android, así que se queda fuera por tema antes que por nota. **PassPonyAndroid saca sesenta y uno** y aun así no lleva ficha: dieciocho estrellas no hacen una recomendación. Y tres de las doce bajan de sesenta —tellyscope cincuenta y tres, cleanyourtv cuarenta y tres, Fonte treinta y ocho—: van con el cartel puesto, igual que los que no entraron. La nota no decide qué es interesante; decide qué se recomienda, que no es lo mismo.
 
 ⏬ sigue abajo · parte 5 de 19
 
-═══ MENSAJE 7 de 20 · 3506 caracteres ═══
+═══ MENSAJE 7 de 20 · 3474 caracteres ═══
 
 *🖥️ Los tres que hacen el trabajo del día*
 
@@ -129,11 +129,11 @@ Lo que hay que saber antes de instalarlo: la entrega más reciente es una beta �
 
 *Para quién es:* para quien trabaje con una computadora y un teléfono al mismo tiempo y esté cansado de mandarse archivos por mensajería. *Para quién no es:* para quien necesite que funcione en un aparato de trabajo con restricciones de instalación, o para quien no tolere que una beta cambie de comportamiento entre semana y semana.
 
-*Flectar Mail · ★1.747 · AGPL-3.0 certificada · creado el 3 de septiembre de 2026, hace 61 días · 14 personas han empujado código · 4 entregas · 6.493 descargas en las 4 últimas · escrutinio 68/100.*
+*Flectar Mail · ★1.747 · AGPL-3.0 certificada · creado el 3 de septiembre de 2026, hace 61 días · 14 personas han empujado código · 4 entregas · 6.493 descargas en las 4 últimas · escrutinio 78/100.*
 
 Un cliente de correo que se construyó desde cero con una sola obsesión: que abra antes de que uno se arrepienta de haberlo tocado. Su presentación promete veinte megabytes de memoria en reposo y arranque instantáneo, y las dos cosas son comprobables en cualquier teléfono con la ficha del sistema abierta. Trae correo, calendario y contactos en la misma aplicación, con los protocolos abiertos de siempre, y su presentación está traducida a nueve idiomas —entre ellos el español—, lo que en un proyecto de sesenta días dice bastante de quién lo está escribiendo.
 
-Es el proyecto con mejor nota de esta guía entre los que sirven para el trabajo diario: catorce personas empujando código, cinco flujos de compilación automática, tres adjuntos con huella en sus últimas entregas y veintiuna incidencias de las cuales la mayoría están cerradas. Su límite es el que declara su etiqueta: la última entrega es una alfa —0.1.0-alpha.7, del 8 de octubre— y en sesenta y un días ha publicado cuatro veces, o sea que va despacio y con cuidado, que es exactamente lo que se le pide a un programa que va a tener dentro la contraseña del correo.
+Es el de mejor nota de las doce para el trabajo diario: catorce personas empujando código, cinco flujos de compilación automática, tres adjuntos con huella en sus últimas entregas y veintiuna incidencias de las cuales la mayoría están cerradas. Su límite es el que declara su etiqueta: la última entrega es una alfa —0.1.0-alpha.7, del 8 de octubre— y en sesenta y un días ha publicado cuatro veces, o sea que va despacio y con cuidado, que es exactamente lo que se le pide a un programa que va a tener dentro la contraseña del correo.
 
 
 ⏬ sigue abajo · parte 6 de 19
@@ -144,7 +144,7 @@ Su licencia merece un párrafo porque no es la habitual: AGPL-3.0 es la variante
 
 *Para quién es:* para quien tenga el correo en el teléfono y esté cansado de que la aplicación tarde tres segundos en mostrar la bandeja. *Para quién no es:* para quien necesite que sea estable desde el primer día, ni para quien quiera una aplicación terminada; esto es una alfa valiente.
 
-*LastWave-Native · ★2.474 · GPL-3.0 certificada · creado el 30 de julio de 2026, hace 96 días · 38 personas han empujado código · 18 entregas · 402.681 descargas en las 10 últimas · última entrega 5.0.0, del 30 de octubre · escrutinio 56/100.*
+*LastWave-Native · ★2.474 · GPL-3.0 certificada · creado el 30 de julio de 2026, hace 96 días · 38 personas han empujado código · 18 entregas · 402.681 descargas en las 10 últimas · última entrega 5.0.0, del 30 de octubre · escrutinio 76/100.*
 
 Cuatrocientas dos mil seiscientas ochenta y una descargas en las diez últimas entregas lo convierten en el más descargado de la lista, y eso obliga a decirlo primero: la gente lo usa mucho. Es un cliente de música para Android que reproduce el catálogo de un servicio sin aplicación de escritorio, con letras sincronizadas, listas por algoritmo y registro de escuchas. Treinta y ocho personas empujando código, ciento dos incidencias abiertas y diecisiete peticiones esperando: un proyecto grande, con cola.
 
@@ -199,15 +199,15 @@ Las cifras buenas: cinco flujos de compilación, huellas en sus adjuntos, veinti
 
 ⏬ sigue abajo · parte 9 de 19
 
-═══ MENSAJE 11 de 20 · 3652 caracteres ═══
+═══ MENSAJE 11 de 20 · 3641 caracteres ═══
 
 *📄 Los dos que abren lo que sea sin pedir un solo permiso*
 
-*Gander · ★1.356 · MIT certificada · creado el 19 de julio de 2026, hace 107 días · 5 personas han empujado código · 28 entregas · 12.639 descargas en las 10 últimas · paquete de 5,2 MB · última entrega v2.8, del 31 de octubre · escrutinio 56/100.*
+*Gander · ★1.356 · MIT certificada · creado el 19 de julio de 2026, hace 107 días · 5 personas han empujado código · 28 entregas · 12.639 descargas en las 10 últimas · paquete de 5,2 MB · última entrega v2.8, del 31 de octubre · escrutinio 66/100.*
 
 Abrir un archivo en Android debería ser trivial y no lo es: el PDF lo abre una aplicación, el Word otra y cada una pide permisos, muestra publicidad o manda datos a algún sitio. Gander lo hace en cinco megabytes, con **cero permisos declarados** y sin acceso a internet: si no hay permiso de red, no puede mandar nada a ninguna parte, y ese es el único argumento de privacidad que no depende de la palabra del autor.
 
-El catálogo que declara abrir es amplio y concreto: PDF, Word, Excel, PowerPoint, OpenDocument, RTF, comprimidos, modelos de impresión tridimensional, fotos, vídeo, audio, Markdown y código. Tiene veintiocho entregas en ciento siete días, un ritmo sano de una cada cuatro días, y doce mil seiscientas treinta y nueve descargas en las diez últimas. Su presentación menciona además que está en la tienda de aplicaciones de Google, lo que en este terreno significa dos cosas: que pasa las reglas de una tienda que exige declaración de datos y que, si algún día desaparece del repositorio, el paquete seguirá llegando por otra puerta.
+El catálogo que declara abrir es amplio: PDF, Word, Excel, PowerPoint, OpenDocument, RTF, comprimidos, modelos de impresión tridimensional, fotos, vídeo, audio, Markdown y código. Tiene veintiocho entregas en ciento siete días, un ritmo sano de una cada cuatro días, y doce mil seiscientas treinta y nueve descargas en las diez últimas. Su presentación menciona además que está en la tienda de aplicaciones de Google, lo que en este terreno significa dos cosas: que pasa las reglas de una tienda que exige declaración de datos y que, si algún día desaparece del repositorio, el paquete seguirá llegando por otra puerta.
 
 Lo que no dice su presentación: cinco personas es un equipo pequeño y cinco megabytes cargan bastantes bibliotecas dentro. Abrir formatos de oficina implica código de terceros para interpretarlos, y ahí es donde han aparecido históricamente las vulnerabilidades de este tipo de programas. La recomendación es la de siempre: abrir archivos propios o de gente conocida, y no el que llega de un número desconocido.
 
@@ -250,7 +250,7 @@ Nueve días, diez entregas y una persona. Su madurez es la que declara: versión
 
 *Para quién es:* para quien instala aplicaciones desde repositorios y está cansado de bajarse cada paquete a mano. *Para quién no es:* para quien espere una aplicación terminada; esto es una versión cero de nueve días.
 
-*msime · ★1.138 · GPL-3.0 certificada · creado el 2 de septiembre de 2026, hace 62 días · 25 personas han empujado código · 73 entregas · 1.267 descargas en las 10 últimas · 191 MB de repositorio · escrutinio 65/100.*
+*msime · ★1.138 · GPL-3.0 certificada · creado el 2 de septiembre de 2026, hace 62 días · 25 personas han empujado código · 73 entregas · 1.267 descargas en las 10 últimas · 191 MB de repositorio · escrutinio 74/100.*
 
 Un teclado para seis plataformas —Android, iOS, macOS, Linux, Windows y el sistema chino— con motor compartido en Rust y C++ y un repositorio de ciento noventa y un megabytes, el más grande de la lista. Pesa eso porque lleva dentro diccionarios, modelos de idioma y bibliotecas de inferencia para escribir sin conexión. Y trae lo que todo teclado debería traer: una declaración de qué datos salen del aparato, con la respuesta de que diccionario y traducción trabajan contra la copia local.
 
@@ -304,7 +304,7 @@ La tercera es la del cliente de música: reproducir un catálogo ajeno desde un 
 
 ⏬ sigue abajo · parte 14 de 19
 
-═══ MENSAJE 16 de 20 · 3584 caracteres ═══
+═══ MENSAJE 16 de 20 · 3553 caracteres ═══
 
 *❓ Las preguntas del grupo*
 
@@ -331,17 +331,17 @@ La tercera es la del cliente de música: reproducir un catálogo ajeno desde un 
 | Gathin23/cleanyourtv | ★50.995 | **43** | MIT en el archivo · no reconocida | 17 d | v3.3.0 · 1-nov · sin adjuntos | 100 | 0 | — |
 | rddmwmddr/android-ad-cleaner | ★6.041 | **71** | MIT | 10 d | v0.3.1 · 3-nov | 37 | 85.536 | 85,5 MB (2) |
 | InukaAsith/TwinDesk | ★3.176 | **61** | GPL-3.0 | 20 d | v2.5.0-beta.1 · 29-oct · beta | 18 | 44.543 | 24,5 MB |
-| Clash-Projects/LastWave-Native | ★2.474 | **56** | GPL-3.0 | 96 d | 5.0.0 · 30-oct | 38 | 402.681 | 4 adjuntos |
-| flectar/mail | ★1.747 | **68** | AGPL-3.0 | 61 d | v0.1.0-alpha.7 · 8-oct · alfa | 14 | 6.493 | 38,4 MB |
+| Clash-Projects/LastWave-Native | ★2.474 | **76** | GPL-3.0 | 96 d | 5.0.0 · 30-oct | 38 | 402.681 | 4 adjuntos |
+| flectar/mail | ★1.747 | **78** | AGPL-3.0 | 61 d | v0.1.0-alpha.7 · 8-oct · alfa | 14 | 6.493 | 38,4 MB |
 | humblemuzzu/dumbtv | ★1.903 | **64** | MIT en el archivo · no reconocida | 16 d | launcher-v1.7 · 3-nov | 64 | 6.246 | 60,6 KB |
 | Verlintas/NOIR | ★1.693 | **71** | MIT | 3 d | v0.2.5 · 2-nov | 2 | 4.209 | 58–62 MB (36) |
 | udhaykumarbala/cleanyourtv-app | ★1.512 | **63** | MIT | 13 d | v0.4.8 · 3-nov | 1 | 115.920 | 7,3 MB |
-| mokshablr/gander | ★1.356 | **56** | MIT | 107 d | v2.8 · 31-oct | 5 | 12.639 | 5,2 MB |
+| mokshablr/gander | ★1.356 | **66** | MIT | 107 d | v2.8 · 31-oct | 5 | 12.639 | 5,2 MB |
 | man15h/tellyscope | ★1.322 | **53** | GPL-3.0 | 12 d | v0.15.0-alpha.1 · 3-nov · alfa | 3 | 9.565 | 3 MB |
-| metasequoiaime/msime | ★1.138 | **65** | GPL-3.0 | 62 d | windows7-v0.5.1 · 2-nov | 25 | 1.267 | 113 adjuntos |
+| metasequoiaime/msime | ★1.138 | **74** | GPL-3.0 | 62 d | windows7-v0.5.1 · 2-nov | 25 | 1.267 | 113 adjuntos |
 | Turtlecute33/Fonte | ★19 | **38** | GPL-3.0 | 9 d | v0.1.9 · 2-nov · madurez cero | 1 | 479 | 2,5 MB |
 
-La raya en descargas de la primera fila no es un cero: es que no hay ningún archivo que descargar. La columna de la nota es la del escrutinio, sobre cien. La madurez de cada uno se declara en su ficha, y las etiquetas beta, alfa y versión cero se leen tal como vienen, sin suavizarlas.
+La raya de descargas de la primera fila no es un cero: no hay archivo que descargar. La columna de la nota es la del escrutinio, sobre cien. La madurez de cada uno se declara en su ficha, y las etiquetas beta, alfa y versión cero se leen tal como vienen.
 
 ⏬ sigue abajo · parte 15 de 19
 
@@ -384,7 +384,7 @@ La raya en descargas de la primera fila no es un cero: es que no hay ningún arc
 
 ⏬ sigue abajo · parte 16 de 19
 
-═══ MENSAJE 18 de 20 · 2105 caracteres ═══
+═══ MENSAJE 18 de 20 · 2111 caracteres ═══
 
 ## 🗒️ Notas al pie
 
@@ -392,7 +392,7 @@ La raya en descargas de la primera fila no es un cero: es que no hay ningún arc
 
 (3-nov) Los totales suman los doce proyectos y no son un promedio del ecosistema. Las descargas se cuentan solo sobre las diez últimas entregas de cada uno. Las discrepancias de licencia se transcriben con las dos versiones: lo que devuelve la plataforma y lo que dice la primera línea del archivo.
 
-(3-nov) El identificador de revisión de cada proyecto se calculó del commit de su cabeza y se pidió su conservación en el archivo público. Seis solicitudes quedaron aceptadas en el momento de la medición y seis quedaron en cola por límite de peticiones del servicio; el estado de cada una está escrito en su ficha.
+(3-nov) El identificador de revisión de cada proyecto se calculó del commit de su cabeza y se pidió su conservación en el archivo público. Seis quedaron aceptadas al medir y seis en cola por límite de peticiones; las seis se reintentaron espaciadas y hoy las doce están solicitadas. El estado de cada una va en su ficha.
 
 (3-nov) La edad mediana de dieciocho coma cinco días sale de ordenar las doce edades —3, 9, 10, 12, 13, 16, 17, 20, 61, 62, 96 y 107— y tomar los dos valores centrales, 17 y 20. Con doce elementos hay dos valores en el medio y se informa el par, no uno elegido a gusto.
 
@@ -410,16 +410,16 @@ La raya en descargas de la primera fila no es un cero: es que no hay ningún arc
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• InukaAsith/TwinDesk — ★3.183 · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (28-oct-2026)
+• InukaAsith/TwinDesk — ★3.192 · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (28-oct-2026)
 • flectar/mail — ★1.747 · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
-• rddmwmddr/android-ad-cleaner — ★6.042 · empujó en las últimas horas · MIT · última release v0.3.1 (3-nov-2026)
+• rddmwmddr/android-ad-cleaner — ★6.048 · empujó en las últimas horas · MIT · última release v0.3.1 (3-nov-2026)
 • Clash-Projects/LastWave-Native — ★2.477 · empujó en las últimas horas · GPL-3.0 · última release 5.0.0 (30-oct-2026)
-• udhaykumarbala/cleanyourtv-app — ★1.512 · empujó en las últimas horas · MIT · última release v0.4.8 (3-nov-2026)
-• Gathin23/cleanyourtv — ★51.036 · empujó en las últimas horas · NOASSERTION · última release v3.3.0 (1-nov-2026)
+• udhaykumarbala/cleanyourtv-app — ★1.515 · empujó en las últimas horas · MIT · última release v0.4.8 (3-nov-2026)
+• Gathin23/cleanyourtv — ★51.061 · empujó en las últimas horas · NOASSERTION · última release v3.3.0 (1-nov-2026)
 • humblemuzzu/dumbtv — ★1.903 · empujó en las últimas horas · NOASSERTION · última release launcher-v1.7 (3-nov-2026)
-• man15h/tellyscope — ★1.324 · empujó en las últimas horas · GPL-3.0 · última release v0.14.0 (30-oct-2026)
+• man15h/tellyscope — ★1.327 · empujó en las últimas horas · GPL-3.0 · última release v0.14.0 (30-oct-2026)
 • mokshablr/gander — ★1.356 · empujó en las últimas horas · MIT · última release v2.8 (31-oct-2026)
-• Verlintas/NOIR — ★1.707 · empujó en las últimas horas · MIT · última release v0.2.5 (2-nov-2026)
+• Verlintas/NOIR — ★1.723 · empujó en las últimas horas · MIT · última release v0.2.5 (2-nov-2026)
 • metasequoiaime/msime — ★1.139 · empujó en las últimas horas · GPL-3.0 · última release macos-v0.57.0 (2-nov-2026)
 • Turtlecute33/Fonte — ★19 · empujó en las últimas horas · GPL-3.0 · última release v0.1.9 (2-nov-2026)
 

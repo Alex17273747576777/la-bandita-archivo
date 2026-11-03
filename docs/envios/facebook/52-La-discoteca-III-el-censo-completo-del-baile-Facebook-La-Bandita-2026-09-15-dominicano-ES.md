@@ -98,11 +98,11 @@ La noticia fresca es de **PaulWoitaschek/Voice**: release 26.10.8-5410008 (2026-
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• yt-dlp/yt-dlp — ★204.932 (+1246) · empujó el 29-oct-2026 (hace 5 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
-• Predidit/Kazumi — ★40.829 (+725) · empujó en las últimas horas · GPL-3.0 · última release 2.4.2 (23-oct-2026)
+• yt-dlp/yt-dlp — ★204.941 (+1255) · empujó el 29-oct-2026 (hace 5 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
+• Predidit/Kazumi — ★40.833 (+729) · empujó en las últimas horas · GPL-3.0 · última release 2.4.2 (23-oct-2026)
 • JunkFood02/Seal — ★30.303 (+144) · empujó el 25-sep-2026 (hace 39 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
 • libre-tube/LibreTube — ★12.937 (+24) · empujó en las últimas horas · GPL-3.0 · última release v32.1 (20-ago-2026)
-• deniscerri/ytdlnis — ★10.949 (+105) · empujó en las últimas horas · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
+• deniscerri/ytdlnis — ★10.950 (+106) · empujó en las últimas horas · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
 • RetroMusicPlayer/RetroMusicPlayer — ★5.382 (+8) · empujó en las últimas horas · GPL-3.0 · última release v7.0.3 (13-ago-2026)
 • gokadzev/Musify — ★4.398 (+17) · empujó en las últimas horas · GPL-3.0 · última release 10.6.0 (23-oct-2026)
 • PaulWoitaschek/Voice — ★3.245 (+15) · empujó en las últimas horas · GPL-3.0 · última release 26.10.8-5410008 (29-oct-2026)

@@ -94,15 +94,15 @@ Hay release de esta semana: **materializr-cad/materializr** publicó v1.7.5 (202
 
 ⏬ sigue abajo · parte 2 de 4
 
-═══ MENSAJE 4 de 5 · 2126 caracteres ═══
+═══ MENSAJE 4 de 5 · 2124 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 60*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• photoprism/photoprism — ★40.404 (+34) · empujó en las últimas horas · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
+• photoprism/photoprism — ★40.403 (+33) · empujó en las últimas horas · NOASSERTION · última release 261029-963b58c50 (29-oct-2026)
 • pynicolas/FairScan — ★1.009 (+12) · empujó en las últimas horas · GPL-3.0 · última release v2.3.0 (20-sep-2026)
-• leonlatsch/Photok — ★1.000 (+6) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release 3.7.0 (19-oct-2026)
+• leonlatsch/Photok — ★999 (+5) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release 3.7.0 (19-oct-2026)
 • Radiokot/photoprism-android-client — ★620 (-1) · empujó el 27-oct-2026 (hace 7 días) · GPL-3.0 · última release 1.47.1(73) (26-sep-2026)
 • Justwen/NGA-CLIENT-VER-OPEN-SOURCE — ★601 (sin cambio) · empujó el 24-oct-2026 (hace 10 días) · GPL-2.0 · última release 5.0.2 (30-ago-2026)
 • materializr-cad/materializr — ★324 (+122) · empujó en las últimas horas · GPL-3.0 · última release v1.7.7 (1-nov-2026)

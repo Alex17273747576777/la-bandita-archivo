@@ -335,7 +335,7 @@ La raya de descargas de la primera fila no es un cero: no hay archivo que descar
 
 (3-nov) Los totales suman los doce proyectos y no son un promedio del ecosistema. Las descargas se cuentan solo sobre las diez últimas entregas de cada uno. Las discrepancias de licencia se transcriben con las dos versiones: lo que devuelve la plataforma y lo que dice la primera línea del archivo.
 
-(3-nov) El identificador de revisión de cada proyecto se calculó del commit de su cabeza y se pidió su conservación en el archivo público. Seis solicitudes quedaron aceptadas en el momento de la medición y seis quedaron en cola por límite de peticiones del servicio; el estado de cada una está escrito en su ficha.
+(3-nov) El identificador de revisión de cada proyecto se calculó del commit de su cabeza y se pidió su conservación en el archivo público. Seis quedaron aceptadas al medir y seis en cola por límite de peticiones; las seis se reintentaron espaciadas y hoy las doce están solicitadas. El estado de cada una va en su ficha.
 
 (3-nov) La edad mediana de dieciocho coma cinco días sale de ordenar las doce edades —3, 9, 10, 12, 13, 16, 17, 20, 61, 62, 96 y 107— y tomar los dos valores centrales, 17 y 20. Con doce elementos hay dos valores en el medio y se informa el par, no uno elegido a gusto.
 

@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/03-La-caja-fuerte-del-bolsillo-un-autenticador-muerto-mil-seiscientos-dos-dias-de-silencio-y-la-copia-que-salva-Facebook-La-Bandita-2026-11-02-dominicano-ES.md`
 - **Fecha de la pieza:** 2-nov-2026 (según dateline; edad hoy: 1 días)
-- **sha256 de la pieza:** `e0bd54231f3d619e64aa1acbd95fcdfcf45c5e9215e4817858e37c1cf2ef615a`
+- **sha256 de la pieza:** `81d776b17ad01c359a4f8b3de41cda1e9c211746901f69ac32f1da98644edbfc`
 - **Envío generado:** 2026-11-03 · 20 mensajes · el mayor de 3352 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -22,7 +22,7 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 20 · 3263 caracteres ═══
+═══ MENSAJE 2 de 20 · 3050 caracteres ═══
 
 [Texto del 2-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
@@ -51,7 +51,7 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 Hay dos cosas distintas que la gente llama «seguridad» y que se guardan de maneras opuestas: la contraseña, que es un secreto que se recuerda o se guarda para no recordarlo, y el código de seis cifras, que es un número que cambia cada treinta segundos y que no se puede recordar. La primera se guarda en una caja con cerradura; la segunda, en un generador que produce los números en el momento. Esta noche se midieron diez programas que hacen una de las dos cosas, y la primera conclusión es que casi nadie tiene claro cuál de las dos está usando.
 
-Los diez suman ★146.980. La cifra no se reparte como en otras listas: dos proyectos —un servidor de contraseñas con ★70.134 y una aplicación de fotos con caja fuerte incorporada con ★29.844— se llevan dos tercios del total y ninguno de los dos es una aplicación que se instale y se use como las otras. Ese es el primer dato que descoloca: en esta lista, lo más popular no es lo que parece. El segundo dato es el que da título a la pieza. Uno de los diez, andOTP, está muerto hace mil seiscientos dos días: su último empujón de código es del 14 de junio de 2022 y su último paquete del 15 de junio de 2021. Sigue instalado en miles de teléfonos, sigue generando códigos correctos y sigue siendo, para mucha gente, «la aplicación de los códigos». No está roto: está congelado, y mientras el reloj del teléfono siga bien, sus números van a seguir funcionando durante años. El problema no es que falle: es que nadie lo va a actualizar el día que haya que actualizarlo, y la única salida es un botón que muchos nunca tocaron.
+Los diez suman ★146.980. La cifra no se reparte como en otras listas: dos proyectos —un servidor de contraseñas con ★70.134 y una aplicación de fotos con caja fuerte incorporada con ★29.844— se llevan dos tercios del total y ninguno de los dos es una aplicación que se instale y se use como las otras. El segundo dato es el que da título a la pieza. Uno de los diez, andOTP, está muerto hace mil seiscientos dos días: su último empujón de código es del 14 de junio de 2022 y su último paquete del 15 de junio de 2021. Sigue instalado en miles de teléfonos, sigue generando códigos correctos y sigue siendo, para mucha gente, «la aplicación de los códigos». El problema no es que falle: es que nadie lo va a actualizar el día que haya que actualizarlo, y la única salida es un botón que muchos nunca tocaron.
 
 La tercera conclusión es de método. La consulta automática devuelve, para uno de los diez, una licencia que su propio archivo de presentación contradice: GPL-3.0 en la ficha, MIT en el README. Como en las dos piezas anteriores, se publican las dos versiones y se dice de dónde salió cada una. Y un segundo caso aparece con un paquete que la consulta no pudo leer: no está en la lista de publicaciones del repositorio, y se declara como hueco en lugar de rellenarse con una fecha recordada.
 
@@ -120,7 +120,7 @@ Al final queda una frase que sirve para todo lo que viene: **una caja fuerte sin
 
 ⏬ sigue abajo · parte 5 de 19
 
-═══ MENSAJE 7 de 20 · 3083 caracteres ═══
+═══ MENSAJE 7 de 20 · 2812 caracteres ═══
 
 *🪦 El muerto que todavía está en miles de teléfonos*
 
@@ -128,13 +128,13 @@ Este es el caso de estudio de la noche y justifica la pieza completa: un program
 
 *Los hechos, medidos hoy.* El último empujón de código de andOTP es del 14 de junio de 2022. Su última versión publicada, v0.9.0.1, es del 15 de junio de 2021. Es decir: mil seiscientos dos días sin código nuevo y mil ochocientos cincuenta y nueve sin paquete. Su licencia es MIT, su lenguaje Java y tiene ★3.705. No está marcado como abandonado por su autor, no hay un anuncio de cierre: simplemente no hay nada nuevo desde hace cuatro años y medio.
 
-*Por qué sigue funcionando y por qué eso es un problema.* Un generador de códigos hace una cuenta con la hora del teléfono y una semilla guardada. Esa cuenta no depende del programa ni de su actualización: depende de que el reloj sea correcto. Por eso andOTP sigue dando números válidos y por eso mucha gente no ha notado nada. El problema no es el cálculo: es todo lo demás. Las versiones nuevas de Android endurecen los permisos de almacenamiento, cambian la forma de dibujar las pantallas y modifican cómo se hacen las copias. Un programa que no se toca desde 2022 se vuelve, año tras año, un poco más frágil en cada uno de esos frentes.
+*Por qué sigue funcionando y por qué eso es un problema.* Un generador de códigos hace una cuenta con la hora del teléfono y una semilla guardada. Esa cuenta no depende del programa ni de su actualización: depende de que el reloj sea correcto. Por eso andOTP sigue dando números válidos y por eso mucha gente no ha notado nada. El problema no es el cálculo: es todo lo demás. Las versiones nuevas de Android endurecen los permisos de almacenamiento, cambian la forma de dibujar las pantallas y modifican cómo se hacen las copias.
 
-*El escenario que hay que temer, contado sin exagerar.* No es «mañana deja de funcionar». Es: dentro de dos o tres años, el teléfono se rompe o se cambia, y al instalar el programa en el aparato nuevo resulta que ya no abre, o abre sin ver la copia, o el sistema lo bloquea por compatibilidad. En ese momento, las semillas están en un archivo que solo ese programa sabía leer, y el botón de exportación era del programa viejo que ya no abre. Ese es el escenario realista, y se evita en cinco minutos el día que se piensa en ello.
+*El escenario que hay que temer, contado sin exagerar.* No es «mañana deja de funcionar». Es: dentro de dos o tres años, el teléfono se rompe o se cambia, y al instalar el programa en el aparato nuevo resulta que ya no abre, o abre sin ver la copia, o el sistema lo bloquea por compatibilidad. En ese momento, las semillas están en un archivo que solo ese programa sabía leer, y el botón de exportación era del programa viejo que ya no abre. Cuatro pasos de cinco minutos evitan el escenario.
 
 *Lo que hay que hacer si se tiene instalado.* Tres pasos, en este orden. Primero, abrir el programa y buscar la opción de exportar o de copia de seguridad; guardar el archivo en un lugar que no sea el mismo teléfono. Segundo, instalar uno de los dos generadores activos de esta lista —Aegis o Stratum— e importar ese archivo. Tercero, comprobar que los códigos que genera el programa nuevo son los mismos que genera el viejo para las mismas cuentas: si coinciden, la migración está hecha y el viejo se puede desinstalar con tranquilidad.
 
-*Lo que dice de este ecosistema un caso así.* Dice que la salud de un proyecto no se mide por su fama sino por su fecha, y que el software libre tiene una ventaja que no se usa: cuando el autor se cansa, otro puede continuar. Esa ventaja solo se activa si alguien tiene el archivo. Un usuario con la caja dentro de un programa muerto y sin exportación es, en la práctica, un usuario de software propietario: atado a un binario que nadie va a mantener. La licencia libre no salva a nadie por sí sola; salva a quien tiene los datos en un formato que otro programa puede abrir.
+*Lo que dice de este ecosistema un caso así.* Dice que la salud de un proyecto no se mide por su fama sino por su fecha, y que el software libre tiene una ventaja que no se usa: cuando el autor se cansa, otro puede continuar. Esa ventaja solo se activa si alguien tiene el archivo. Un usuario con la caja dentro de un programa muerto y sin exportación es, en la práctica, un usuario de software propietario: atado a un binario que nadie va a mantener.
 
 ⏬ sigue abajo · parte 6 de 19
 
@@ -176,7 +176,7 @@ En la lista de esta noche hay dos programas —KeePassDX y KeePass2Android— qu
 
 ⏬ sigue abajo · parte 8 de 19
 
-═══ MENSAJE 10 de 20 · 3341 caracteres ═══
+═══ MENSAJE 10 de 20 · 3095 caracteres ═══
 
 *🏠 Servidor y cliente: la confusión más cara*
 
@@ -190,15 +190,15 @@ El proyecto más popular de esta lista no es una aplicación de teléfono. Es un
 
 *La combinación que se rompe sola.* Servidor en la casa sin copia, y la casa se va la luz más de lo que dura la batería del aparato. O servidor en la casa y la persona se muda y no lo lleva. O el servidor deja de actualizarse porque nadie se acuerda de él, y un año después ya no arranca. Un servidor casero es un compromiso de mantenimiento, y quien no quiere ese compromiso tiene una opción mejor: usar el cliente con una cuenta en una nube ajena y aceptar que la caja vive fuera de casa.
 
-*El detalle que decide entre un servidor y una nube.* La cuenta de usuario del servidor casero es la puerta más grande de la casa: si esa cuenta no tiene una contraseña larga y un segundo factor, el cifrado de la caja no sirve de mucho, porque el intruso no necesita descifrar nada si puede entrar como dueño. La recomendación práctica es la misma que para el correo: contraseña única y larga, segundo factor activo, y el servidor fuera del alcance de internet abierto salvo que se sepa exactamente lo que se está haciendo. Cuando se instala un servidor casero se instala también la obligación de cuidar esa puerta.
+*El detalle que decide entre un servidor y una nube.* La cuenta de usuario del servidor casero es la puerta más grande de la casa: si esa cuenta no tiene una contraseña larga y un segundo factor, el cifrado de la caja no sirve de mucho, porque el intruso no necesita descifrar nada si puede entrar como dueño. La recomendación práctica es la misma que para el correo: contraseña única y larga, segundo factor activo, y el servidor fuera del alcance de internet abierto salvo que se sepa exactamente lo que se está haciendo.
 
-*Cuándo conviene de verdad un servidor en casa.* Cuando hay más de una persona en la familia con cuentas propias, cuando hay una computadora que ya está encendida todo el día por otro motivo y cuando alguien en la casa sabe actualizar y respaldar. Fuera de esos tres casos, el cliente solo —con la caja en un archivo que viaja en una memoria y en una nube con contraseña— resuelve lo mismo con menos piezas que se pueden romper. Elegir el servidor por prestigio y no por necesidad es la forma más común de terminar con un aparato olvidado en un rincón y una caja que nadie respalda.
+*Cuándo conviene de verdad un servidor en casa.* Cuando hay más de una persona en la familia con cuentas propias, cuando hay una computadora que ya está encendida todo el día por otro motivo y cuando alguien en la casa sabe actualizar y respaldar. Fuera de esos tres casos, el cliente solo —con la caja en un archivo que viaja en una memoria y en una nube con contraseña— resuelve lo mismo con menos piezas que se pueden romper.
 
 *Cómo se explica en una frase para el grupo.* «El de las setenta mil estrellas no se instala en el teléfono: se instala en una computadora y el teléfono se conecta a él. Si no tienes una computadora encendida en casa, ese no es tu programa: es el otro, el cliente.»
 
 ⏬ sigue abajo · parte 9 de 19
 
-═══ MENSAJE 11 de 20 · 2645 caracteres ═══
+═══ MENSAJE 11 de 20 · 2526 caracteres ═══
 
 *🛠️ Montar la caja fuerte en siete pasos*
 
@@ -216,13 +216,15 @@ El proyecto más popular de esta lista no es una aplicación de teléfono. Es un
 
 *Paso siete: desinstale el viejo solo cuando hayan pasado dos semanas.* Dos semanas de uso normal, con los códigos funcionando y la copia hecha, es el margen que separa la tranquilidad de la anécdota. Y si en ese tiempo algo falla, el viejo sigue ahí para sacarlo del apuro.
 
-*Lo que casi nadie hace y es lo que más sirve.* El paso cinco, el del calendario, es el único que no se termina el mismo día. Configurar la copia cifrada toma dos minutos; recordar hacerla dentro de tres meses es lo que separa a quien tiene una caja fuerte de quien tiene una caja fuerte y una copia. Un recordatorio que se repite en el teléfono, con el nombre del archivo y el sitio donde va, vale más que cualquier aplicación de esta lista. Y cuando llegue ese día, la prueba es la misma de siempre: abrir la copia en otro aparato y ver que las cuentas están.
+*Lo que casi nadie hace y es lo que más sirve.* El paso cinco, el del calendario, es el único que no se termina el mismo día. Configurar la copia cifrada toma dos minutos; recordar hacerla dentro de tres meses es lo que separa a quien tiene una caja fuerte de quien tiene una caja fuerte y una copia. Un recordatorio que se repite en el teléfono, con el nombre del archivo y el sitio donde va, vale más que cualquier aplicación de esta lista.
 
 ⏬ sigue abajo · parte 10 de 19
 
-═══ MENSAJE 12 de 20 · 2966 caracteres ═══
+═══ MENSAJE 12 de 20 · 3334 caracteres ═══
 
 *🧮 Las cuentas de esta noche*
+
+*El que no estaba en la lista de ayer.* La búsqueda de hoy, sin mínimo de estrellas, sacó un autenticador que no aparece en la tabla y que sí pasa el corte de descubrimiento: **tokn · tokn-authenticator/tokn · ★93 · GPL-3.0 · creado el 5 de abril de 2026, hace 212 días · tres flujos de compilación · tres personas empujando · 1.135 descargas en las 10 últimas · última entrega v1.8.3, de hoy, con un adjunto · madurez: versión uno punto ocho, tres, pequeña y con una sola función.** Es un generador de códigos de Android sin cuenta, sin nube y sin nada más, y su nota de escrutinio, cincuenta y siete, está por encima de una de las diez fichas. No entra en la tabla porque la tabla es del 2 de noviembre; entra aquí con fecha de hoy y se remide el 3 de diciembre.
 
 *El total.* Diez proyectos suman ★146.980. La mediana es ★6.980, entre Bitwarden y KeePassDX, que están a novecientas setenta y seis estrellas de distancia. El reparto está dominado por dos casos: el servidor con ★70.134 y la aplicación con caja fuerte de fotos con ★29.844 aportan juntos el sesenta y ocho por ciento de la suma.
 
@@ -236,11 +238,12 @@ El proyecto más popular de esta lista no es una aplicación de teléfono. Es un
 
 *Lo que estas cuentas no dicen.* No dicen si el código es bueno, ni si la aplicación respeta la privacidad de quien la usa, ni cuántas de esas estrellas son de personas que la instalaron ayer y cuántas de personas que la miran desde hace cinco años. Tampoco dicen cuánta gente la desinstaló: no existe una cifra pública de abandonos. Sirven para dos cosas concretas y pequeñas: para saber dónde está puesta la atención esta noche y para detectar, comparando dos mediciones separadas por meses, qué proyecto dejó de entregar antes de que la noticia llegara al grupo.
 
-*El esfuerzo de la medición.* Diez repositorios con las tres lecturas completas y el orden rotado, diez listas de publicaciones abiertas una por una para anotar versión, fecha y adjuntos, y dos casos declarados como hueco: un nombre de repositorio que no devolvió un README legible en la primera vía y un paquete que la consulta no pudo leer. Ninguno de los dos se rellenó con una cifra recordada.
 
 ⏬ sigue abajo · parte 11 de 19
 
-═══ MENSAJE 13 de 20 · 1509 caracteres ═══
+═══ MENSAJE 13 de 20 · 1908 caracteres ═══
+
+*El esfuerzo de la medición.* Diez repositorios con las tres lecturas completas y el orden rotado, diez listas de publicaciones abiertas una por una para anotar versión, fecha y adjuntos, y dos casos declarados como hueco: un nombre de repositorio que no devolvió un README legible en la primera vía y un paquete que la consulta no pudo leer. Ninguno de los dos se rellenó con una cifra recordada.
 
 *⚖️ La raya legal y la raya de la honestidad*
 
@@ -410,15 +413,15 @@ Y queda la lección que esta pieza comparte con las anteriores: el archivo impor
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• dani-garcia/vaultwarden — ★70.169 · empujó en las últimas horas · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
+• dani-garcia/vaultwarden — ★70.171 · empujó en las últimas horas · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
 • ente-io/ente — sin dato hoy (la API no respondió). No afirmo nada.
-• beemdevelopment/Aegis — ★13.452 (+10) · *dormido*: sin empujar desde el 6-sep-2026 (58 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• beemdevelopment/Aegis — ★13.453 (+11) · *dormido*: sin empujar desde el 6-sep-2026 (58 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
 • bitwarden/android — ★9.581 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
-• Kunzisoft/KeePassDX — ★7.608 (+27) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
+• Kunzisoft/KeePassDX — ★7.609 (+28) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
 • PhilippC/keepass2android — ★6.364 · empujó el 29-oct-2026 (hace 5 días) · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
-• stratumauth/app — ★4.636 · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.7.0 (1-nov-2026)
+• stratumauth/app — ★4.637 · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.7.0 (1-nov-2026)
 • andOTP/andOTP — ★3.705 · *dormido*: sin empujar desde el 14-jun-2022 (1603 días) · MIT · última release v0.9.0.1 (15-jun-2021) · *ARCHIVADO*
-• open-keychain/open-keychain — ★2.631 · *dormido*: sin empujar desde el 16-may-2024 (901 días) · GPL-3.0
+• open-keychain/open-keychain — ★2.632 · *dormido*: sin empujar desde el 16-may-2024 (901 días) · GPL-3.0
 • freeotp/freeotp-android — ★1.683 (+2) · empujó en las últimas horas · Apache-2.0 · última release v2.0.6 (17-feb-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

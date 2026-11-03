@@ -108,10 +108,10 @@ La noticia fresca es de **wikimedia/apps-android-wikipedia**: release latest (20
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ggml-org/llama.cpp — ★133.262 (+491) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
-• offa/android-foss — ★11.620 (+34) · empujó en las últimas horas · GPL-3.0
+• ggml-org/llama.cpp — ★133.265 (+494) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• offa/android-foss — ★11.621 (+35) · empujó en las últimas horas · GPL-3.0
 • standardnotes/app — ★6.695 (+7) · empujó en las últimas horas · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
-• nextcloud/android — ★5.671 (+15) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
+• nextcloud/android — ★5.672 (+16) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
 • NuvioMedia/NuvioTV — ★3.345 (+74) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
 • researchxxl/syncthing-android — ★3.244 (+52) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • wikimedia/apps-android-wikipedia — ★3.053 (+3) · empujó en las últimas horas · Apache-2.0 · última release latest (3-nov-2026)
