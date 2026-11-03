@@ -65,6 +65,7 @@ jobs:
         run: |
           python3 tools/atestar.py
           PISTA=$(python3 -c "import sys;sys.path.insert(0,'tools');from fecha_casa import hoy;print(hoy())")
+          cp registry/_manifiesto-sha256.tsv "attestations/lote-${PISTA}.tsv"
           curl -sSfL -o cosign https://github.com/sigstore/cosign/releases/latest/download/cosign-linux-amd64
           chmod +x cosign
           ./cosign sign-blob --yes \
@@ -72,6 +73,14 @@ jobs:
             registry/_manifiesto-sha256.tsv
           echo "firmado: attestations/lote-${PISTA}.sigstore.json"
           echo "-Firma verificable en attestations/ (certificado efímero de esta corrida)-" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: La firma se comprueba (G14, sin llave y en frío)
+        if: github.event_name != 'pull_request'
+        run: |
+          PISTA=$(python3 -c "import sys;sys.path.insert(0,'tools');from fecha_casa import hoy;print(hoy())")
+          python3 tools/atestacion_verificar.py "attestations/lote-${PISTA}.sigstore.json" \
+                  "attestations/lote-${PISTA}.tsv" | tee /tmp/firma.txt
+          grep -q 'fallos: 0$' /tmp/firma.txt
 
       - name: Guardar la atestación firmada
         if: github.event_name != 'pull_request'

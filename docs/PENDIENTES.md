@@ -23,19 +23,22 @@ trabajo técnico que sí puedo hacer).
 | F1 | Cliente MCP con los oficiales de referencia, solo lectura | **hecho en política** — lista blanca, versiones fijadas, solo lectura (`docs/POLITICA-MCP.md`) |
 | F2 | GitHub oficial (`github/github-mcp-server`) con lista blanca | **documentado** — requiere que el dueño instale el servidor en su cliente |
 | F3 | Servidor propio `labandita-registro` sobre el registro | **hecho y probado** por el cliente oficial del SDK |
-| F4 | Atestaciones verificables por terceros | **hecho en lo posible sin llaves** — sello SHA-256 encadenado por lote; la firma sin llave (Sigstore) exige identidad OIDC del dueño |
+| F4 | Atestaciones verificables por terceros | **hecho** — sello SHA-256 encadenado por lote + firma Sigstore keyless con identidad OIDC del flujo de CI, verificable en frío por cualquiera (`tools/atestacion_verificar.py`) |
 | F5 | Endpoint remoto con OAuth y cuotas | **no se hace** — exige operación pagada y demanda demostrada |
 
-## Trabajo técnico restante (puedo hacerlo yo)
+## Trabajo técnico restante · estado al 3 de noviembre de 2026 (12:45 AST)
 
-| Tarea | Estado | Nota |
+| Tarea | Estado | Evidencia |
 |---|---|---|
-| Sitio estático con URL por pieza y por ficha, RSS y JSON-LD | pendiente | siguiente hito técnico natural |
-| Medición fresca del registro (hoy el corte es del 15-oct: 17 días) | pendiente | requiere token y una corrida de la API; la compuerta G2 avisará a los 180 días |
-| SWHID por revisión medida (Software Heritage) | pendiente | la API responde; falta archivar cada revisión citada |
-| Verificación de licencias por texto cuando el endpoint no concluye (57 `NOASSERTION`) | pendiente | inspección manual de 57 árboles |
-| Firma sin llave de las atestaciones (Sigstore) | bloqueado por identidad | requiere la cuenta del dueño |
-| Re-medición de Scorecard para sustituir ★ como señal de mérito | pendiente | API pública, sin llave |
+| Integrar M24–M28 en la vara y en CI | **hecho** | `tools/novedad_gate.py` + compuerta **G13** en `tools/vara.py` + 3 casos nuevos en `tools/autoprueba.py` (**14/14**) |
+| Registro de novedades | **hecho** | `docs/CALENDARIO-DE-NOVEDADES.json` con **7 novedades medidas el 3-nov** (NOV-2026-001…007); G13 lo valida y marca rancio a los 90 días |
+| Firma sin llave (Sigstore) | **hecho** | identidad OIDC del flujo; paquete `attestations/lote-2026-11-03.sigstore.json` verificado con `tools/atestacion_verificar.py` (Rekor nº 3.669.131.378); compuerta **G14** |
+| Licencias que no concluían | **hecho en lo resoluble** | `tools/licencias_resolver.py`: 179 → 44; 134 con SPDX, 39 declaradas propietarias con su frase y su fecha (`docs/ACTA-LICENCIAS-2026-11-03.json`) |
+| Scorecard como señal de mérito | **hecho el método, abierta la cobertura** | `tools/merito.py`: 9 de 48 repositorios citados indexados; ★32.705 → 2,7/10 frente a ★1.681 → 5,2/10 (`docs/SCORECARD-2026-11-03.json`) |
+| HdP: carpeta, banda, siglas | **decidido** | publica en `POSTS-COMUNIDAD/` con 4.152 exactos; las siglas no se inventan (CORAZON, §29 y §30.5) |
+| Medición fresca del registro completo (corte 15-oct) | pendiente, del dueño el cuándo | G2 avisa a los 180 días; hoy la mediana es de 19 días |
+| SWHID por revisión medida (Software Heritage) | pendiente | la API responde; falta archivar cada revisión citada, trabajo por lotes |
+| Sitio estático con URL por pieza y por ficha | pendiente | el dueño descartó la página web como producto; `tools/sitio.py` queda como herramienta interna |
 
 ## Decisiones que solo el dueño puede tomar (§11)
 

@@ -22,13 +22,13 @@
  "licencia": {
   "archivo": "COPYING",
   "metodo": "texto-license",
-  "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "spdx": "GPL-3.0-only",
+  "verificado_en": "2026-11-03"
  },
  "medido_en": "2026-10-31",
  "merito": {
-  "scorecard": null,
-  "scorecard_en": null,
+  "scorecard": 4.3,
+  "scorecard_en": "2026-08-24",
   "stars": 9393,
   "stars_por_mes": null
  },

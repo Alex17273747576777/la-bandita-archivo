@@ -20,10 +20,10 @@
  },
  "id": "jhshamim5-dev--re-zorotsu",
  "licencia": {
-  "archivo": null,
-  "metodo": "endpoint-license",
-  "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-15"
+  "archivo": "LICENSE.md",
+  "metodo": "texto-license",
+  "spdx": "GPL-3.0-only",
+  "verificado_en": "2026-11-03"
  },
  "medido_en": "2026-10-15",
  "merito": {

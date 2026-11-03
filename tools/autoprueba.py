@@ -124,6 +124,51 @@ def _(raiz):
     p.write_text("Pieza sin firma ni fecha.\n", encoding="utf-8")
 
 
+@caso("G13 novedad: pieza con banda y sin ningún hallazgo de descubrimiento")
+def _(raiz):
+    d = raiz / "docs"
+    d.mkdir(exist_ok=True)
+    pieza = sorted((raiz / "Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES").glob("*.md"))[0]
+    (d / "bandas.json").write_text(
+        '{"whatsapp": {"min": 0, "max": 999999, "piezas": {"99": '
+        '{"archivo": "' + pieza.name + '", "caracteres": ' + str(len(pieza.read_text(encoding="utf-8"))) + '}}}}',
+        encoding="utf-8")
+    (d / "CALENDARIO-DE-NOVEDADES.json").write_text(
+        '{"novedades": [{"id": "NOV-1", "medido_en": "2026-11-03", "titulo": "x", '
+        '"por_que_es_nuevo": "y", "repos": [{"repo": "a/b", "estrellas": 1, "empujon": "2026-11-01"}]}]}',
+        encoding="utf-8")
+
+
+@caso("G13 novedad: calendario sin fecha de medición")
+def _(raiz):
+    d = raiz / "docs"
+    d.mkdir(exist_ok=True)
+    pieza = sorted((raiz / "Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES").glob("*.md"))[0]
+    (d / "bandas.json").write_text(
+        '{"whatsapp": {"min": 0, "max": 999999, "piezas": {"99": '
+        '{"archivo": "' + pieza.name + '", "caracteres": ' + str(len(pieza.read_text(encoding="utf-8"))) + '}}}}',
+        encoding="utf-8")
+    (d / "CALENDARIO-DE-NOVEDADES.json").write_text(
+        '{"novedades": [{"id": "NOV-1", "titulo": "x", "por_que_es_nuevo": "y", "repos": []}]}',
+        encoding="utf-8")
+
+
+@caso("G14 atestación: firma que no cubre el manifiesto")
+def _(raiz):
+    import base64, hashlib
+    d = raiz / "attestations"
+    d.mkdir(exist_ok=True)
+    otro = hashlib.sha256(b"otro manifiesto").hexdigest()
+    (d / "lote-prueba.sigstore.json").write_text(json.dumps({
+        "mediaType": "application/vnd.dev.sigstore.bundle+json;version=0.3",
+        "verificationMaterial": {"certificate": {"rawBytes": base64.b64encode(b"no-es-un-cert").decode()},
+                                 "tlogEntries": []},
+        "messageSignature": {"messageDigest": {"digest": base64.b64encode(bytes.fromhex(otro)).decode()},
+                             "signature": base64.b64encode(b"firma").decode()},
+    }), encoding="utf-8")
+    (d / "lote-prueba.tsv").write_text("00  x\n", encoding="utf-8")
+
+
 def main() -> int:
     fallos = []
     for nombre, fn in CASOS.items():

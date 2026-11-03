@@ -159,10 +159,52 @@ def m00(t: str, corte: date) -> list[str]:
     return []
 
 
-def revisar(p: Path, corte: date, entrega: bool) -> dict:
+CAMPOS_CALENDARIO = ("medido_en", "titulo", "repos", "por_que_es_nuevo")
+
+
+def calendario(ruta: Path, corte: date | None = None) -> list[str]:
+    """El registro de novedades no es un adorno: si una pieza se apoya en un hallazgo, el hallazgo
+    tiene que estar aquí, con la fecha en que se midió y los números que se midieron. Sin fecha no
+    hay novedad: hay opinión."""
+    corte = corte or date.today()
+    if not ruta.exists():
+        return [f"calendario de novedades ausente: {ruta.name}"]
+    try:
+        d = json.loads(ruta.read_text(encoding="utf-8"))
+    except Exception as e:
+        return [f"calendario ilegible: {e}"]
+    entradas = d.get("novedades") or []
+    if not entradas:
+        return ["calendario sin ninguna novedad registrada"]
+    fallos = []
+    for e in entradas:
+        falta = [c for c in CAMPOS_CALENDARIO if not e.get(c)]
+        if falta:
+            fallos.append(f"novedad {e.get('id', '?')}: sin {', '.join(falta)}")
+            continue
+        try:
+            f = date.fromisoformat(str(e["medido_en"]))
+        except ValueError:
+            fallos.append(f"novedad {e['id']}: medido_en inválido ({e['medido_en']})")
+            continue
+        if (corte - f).days > 90:
+            fallos.append(f"novedad {e['id']}: medida hace {(corte - f).days} días "
+                          f"(>{90}); volver a medir antes de usarla")
+        for r in e["repos"]:
+            if not r.get("repo") or r.get("estrellas") is None or not r.get("empujon"):
+                fallos.append(f"novedad {e['id']}: repositorio sin repo/estrellas/empujón medidos")
+    return fallos
+
+
+def revisar(p: Path, corte: date, entrega: bool, es_post: bool = False) -> dict:
+    """`es_post`: un post de comunidad no recomienda recursos, así que M24–M26 —que miden el
+    descubrimiento, la madurez y la edad de lo recomendado— no le aplican: no hay nada que medir.
+    M27 (meta-comentarios) y M28 (#task de la serie corta) sí le aplican, y una HdP que no sea
+    post se mide entera."""
     t = p.read_text(encoding="utf-8", errors="replace")
     es_hdp = "hdp" in p.name.lower()
-    fallos = m24(t, corte) + m25(t) + m26(t, corte) + m27(t) + m28(t, es_hdp)
+    de_fondo = [] if es_post else m24(t, corte) + m25(t) + m26(t, corte)
+    fallos = de_fondo + m27(t) + m28(t, es_hdp)
     if entrega:
         fallos += m00(t, corte)
     criticos = [f for f in fallos if not f.startswith("M00")]

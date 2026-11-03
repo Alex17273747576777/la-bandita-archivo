@@ -28,7 +28,7 @@ Esto va antes que la doctrina porque el dueño lo puso antes que nada. **Antes d
 
 ```
 TRIPLE LECTURA · 3 de noviembre de 2026 · 07:58–08:41 AST
-pasada 1 (estructura): 20 partes, 67 epígrafes numerados (0.1–0.9 y 1–58), 9 anexos · numeración sin huecos ni duplicados
+pasada 1 (estructura): 20 partes, 0 epígrafes numerados (0.1–0.9 y 1–59), 9 anexos · numeración sin huecos ni duplicados
 pasada 2 (reglas): molde recitado sin apoyo · 24 criterios C + 23 criterios M vigentes + 6 propuestos + 3 pendientes de integrar · 68 fichas de fallos + 8 de la familia N · 4 bandas · 13 compuertas G
 pasada 3 (deuda): 5 correcciones aplicadas (§3 restituido, §36 duplicado resuelto, Parte XVII reordenada, §40 sobre el 75 contra 68 fichas, cifras del contrato al día)
 ```
@@ -37,9 +37,14 @@ Y, después de fusionar, una segunda constancia —porque la fusión cambió el 
 
 ```
 TRIPLE LECTURA II · 3 de noviembre de 2026 · 09:05–09:28 AST (sobre la v4.1 ya fusionada)
-pasada 1 (estructura): 20 partes · 67 epígrafes · 9 anexos · 30 vallas de código (par) · 0 huecos de numeración
-pasada 2 (reglas): 39 referencias §N distintas, 0 a epígrafe inexistente · 74 códigos de ficha citados contra 68 + N01–N08 del catálogo
+pasada 1 (estructura): 20 partes · 68 epígrafes · 9 anexos · vallas de código en par · 0 huecos de numeración
+pasada 2 (reglas): 0 referencias §N a epígrafe inexistente · 74 códigos de ficha citados contra 68 + N01–N08 del catálogo · G0–G14 declaradas y todas con testigo
 pasada 3 (deuda): 56 archivos retirados del núcleo local, acta en la Parte XV, cada regla nueva con su archivo de origen declarado y su archivo retirado
+
+TRIPLE LECTURA III · 3 de noviembre de 2026 · 12:20–12:45 AST (cierre de pendientes)
+pasada 1 (estructura): 20 partes · 68 epígrafes · 9 anexos · Anexo I pasa de nueve deudas a doce con veredicto
+pasada 2 (reglas): G13 y G14 integradas y probadas (autoprueba 14/14) · M24–M28 ya no son promesa · siglas y banda de HdP decididas, no pendientes
+pasada 3 (deuda): ninguna deuda se borra: las cerradas quedan con su evidencia y las abiertas con lo que falta
 ```
 
 Un operador que diga «leído» sin la constancia está incumpliendo esta regla, y el incumplimiento es fallo **M00**, el único fallo que no se puede reparar después: todo lo que se produzca sin la triple lectura se considera no producido.
@@ -211,20 +216,25 @@ La doctrina pide **complejidad**: problemas difíciles, soluciones que hacen var
 
 La diferencia es operativa y se comprueba así: **complejidad** es lo que queda después de explicar bien; **complicación** es lo que sobra cuando ya se explicó. Una pieza sobre un fork con control de sistema, módulos y permisos es compleja y debe ser compleja. La misma pieza escrita con párrafos de cien palabras y siglas sin abrir es complicada y es un fallo aunque el tema sea complejo. **La complejidad se hereda del tema; la complicación la añade el operador.**
 
-## 0B.7 El registro de novedades (obligatorio)
+## 0B.7 El registro de novedades (obligatorio, y ya existe)
 
-Cada hallazgo de la banda de descubrimiento se anota, con su medición, en `docs/CALENDARIO-DE-NOVEDADES.json` del repositorio, con esta forma:
+Cada hallazgo de la banda de descubrimiento se anota, con su medición, en `docs/CALENDARIO-DE-NOVEDADES.json`. **Sin entrada en ese registro, un hallazgo no es nuevo: es una opinión,** y la compuerta G13 lo dice con esas palabras.
 
-```json
-{"medido_en": "2026-11-03",
- "hallazgos": [
-   {"repo": "krishna3163/OmniShizuku", "categoria": "android-privilegios",
-    "creado": "2026-10-24", "ultimo_push": "2026-11-02", "ultimo_paquete": "v1.0.5-dev",
-    "adjuntos": 3, "estrellas": 17, "madurez": "diez días · cero forks · solo -dev",
-    "usado_en_pieza": "04 · Shizuku y sus forks", "fuente": "api+raw+releases"}]}
-```
+**Estado al corte: creado y con siete entradas medidas hoy mismo** (NOV-2026-001 a NOV-2026-007), no una promesa de futuro. El censo de la mañana del 3-nov barrió tres consultas —repositorios creados desde el 4-oct, `topic:android` empujados esta semana y `topic:f-droid` de los últimos 45 días— y devolvió 1.730 + 1.415 + 90 resultados; de ahí salieron los siete que aguantaron la medición de hoy:
 
-Sin este registro, el hallazgo se pierde y la próxima pieza vuelve a proponer al abuelo. El registro es append-only: un hallazgo no se borra cuando el proyecto muere, se marca `"estado": "muerto"` con la fecha en que se comprobó.
+| # | Hallazgo | ★ | Creado | Licencia |
+|---|---|---|---|---|
+| NOV-2026-001 | **OmniShizuku** (fork vivo) contra **Shizuku** (original, 503 días quieto) | 17 / 32.705 | 24-oct-2026 / 2017 | Apache-2.0 |
+| NOV-2026-002 | **Fonte** — actualizador privado contra GitHub, GitLab y F-Droid | 19 | 25-oct-2026 | GPL-3.0 |
+| NOV-2026-003 | **sinceus** — tiempo compartido de dos personas, sin nube | 26 | 30-sep-2026 | GPL-3.0 |
+| NOV-2026-004 | **Burkan** — el renderizador Vulkan del Galaxy S23, vivo | 24 | 4-oct-2026 | Apache-2.0 |
+| NOV-2026-005 | **APK-Toolbox** — clonar, instalar y fusionar paquetes en el teléfono | 102 | 8-oct-2026 | GPL-3.0 |
+| NOV-2026-006 | **PocketSense** — las cuentas de la casa sin salir del aparato | 13 | 26-sep-2026 | GPL-3.0 |
+| NOV-2026-007 | **MacSubsystemForAndroid** — apps de Android como apps del Mac | 532 | 15-oct-2026 | GPL-3.0 |
+
+**Lo que G13 exige de ese archivo, y comprueba:** que exista, que toda entrada declare `id`, `titulo`, `medido_en`, `por_que_es_nuevo` y sus `repos` con `estrellas` y `empujon`, y que **ninguna medición tenga más de 90 días** — pasada esa edad el hallazgo se vuelve a medir o no se usa. Un registro adorno no pasa.
+
+**Y lo que la máquina no puede: decidir cuál de los siete vale la pena.** Eso es criterio, se escribe en la pieza y se firma.
 
 ---
 
@@ -840,7 +850,7 @@ El frontend **solo lee** `site/datos/*.json`: no consulta APIs en vivo, no depen
 
 La máquina comprueba forma, coherencia, integridad y presencia. **No comprueba verdad, ni criterio, ni novedad.** Una pieza puede pasar las trece compuertas y estar recomendando un proyecto muerto: eso pasó el 2-nov-2026 y es la razón de la Parte 0-BIS. **La compuerta es el suelo, no el techo.**
 
-### 27.1 `tools/vara.py` — compuertas G0–G12 (≈90–100 s, corre en CI en cada empujón)
+### 27.1 `tools/vara.py` — compuertas G0–G14 (≈90–200 s, corre en CI en cada empujón)
 
 | Compuerta | Qué mide |
 |---|---|
@@ -857,6 +867,8 @@ La máquina comprueba forma, coherencia, integridad y presencia. **No comprueba 
 | **G10 bandas** | cada pieza dentro de su banda declarada, y la cifra del JSON igual al archivo |
 | **G11 manual** | todas las piezas vivas en VERDE en el manual |
 | **G12 firma literal** | firma textual, en el cierre, con medición del corte que diga la hora |
+| **G13 novedad** | M24–M28 sobre cada pieza con banda declarada, más la validez del registro de novedades (§0B.7) |
+| **G14 atestación firmada** | el paquete Sigstore de `attestations/` se verifica en frío: identidad del flujo, ventana efímera, entrada en Rekor y que la firma cubra el manifiesto de su lote |
 
 ### 27.2 `tools/manual_gate.py` — criterios M01–M23
 
@@ -891,7 +903,11 @@ La máquina comprueba forma, coherencia, integridad y presencia. **No comprueba 
 | **M27** | meta-comentario de IA o de plataforma | lista negra: «como IA», «aquí va», «en esta sección», «lo que Facebook necesita», «este post», «nuestra comunidad» |
 | **M28** | #task presentes | la serie HdP lleva su bloque de tareas con numeración continua |
 
-**Estado al corte (3-nov-2026, 09:20 AST):** M24–M28 están implementadas en `herramientas/novedad_gate.py` (testigo independiente, con su propio código de salida) y probadas contra las piezas ya publicadas: **las tres primeras piezas del ciclo salen ROJO por M24** —ninguna tiene un recurso en la banda de descubrimiento; la menor de la pieza 03 es ★1.683 y la de la 02 es ★3.896—. Ese rojo no es un fallo del testigo: es la prueba, medida, de lo que el dueño dijo el 3 de noviembre. Falta integrarlo en `manual_gate.py`, en `vara.py` y en el CI; hasta entonces se corre a mano y su resultado se anota en el acta. *Una regla que se cumple a mano se cumple igual; una regla que se olvida a mano se olvida para siempre.*
+**Estado al corte (3-nov-2026, 12:40 AST):** M24–M28 están implementadas en `tools/novedad_gate.py`, **integradas en la vara como G13** y probadas contra las piezas publicadas; M00 se comprueba en la entrega (`--entrega`). La autoprueba tiene casos nuevos para las dos compuertas añadidas —una pieza con banda y sin hallazgo de descubrimiento, un calendario sin fecha y una firma que no cubre el manifiesto— y las **14/14** violaciones sintéticas se detectan.
+
+Lo único que no se puede arreglar hacia atrás: **las seis piezas de la oleada 01 se publicaron antes de que existiera la doctrina de novedad** y su censo no tiene ningún recurso por debajo de ★1.683, así que M24 las marcaría para siempre. No se reescriben piezas publicadas; la deuda queda **declarada y congelada** en `tools/baseline.json` (11 líneas, visibles en cada informe) y **no puede crecer**: cualquier pieza nueva que no traiga hallazgo de descubrimiento sale en rojo y detiene la línea.
+
+**G14 · la firma, comprobada.** La deuda de «firma sin llave bloqueada por identidad del dueño» era un diagnóstico equivocado: la identidad la pone el propio GitHub Actions por OIDC. El paquete `attestations/lote-2026-11-03.sigstore.json` se verificó en frío con `tools/atestacion_verificar.py`: certificado efímero de `sigstore-intermediate` (10 minutos de vida), identidad `https://github.com/Alex17273747576777/la-bandita-archivo/.github/workflows/vara.yml@refs/heads/main`, entrada en el registro de transparencia nº 3.669.131.378 y firma que cubre el manifiesto del lote. El `.tsv` del lote se guarda junto al paquete, para que la comprobación siga siendo válida cuando el manifiesto vivo cambie.
 
 ### 27.4 El contrato de datos de la ficha
 
@@ -937,6 +953,8 @@ La prohibición de plataforma tiene una excepción y solo una: cuando la platafo
 **Reglas del bloque de tareas:** entre **dos y cinco** por entrega · numeración continua y sin huecos (`#task 014` no puede seguir a `#task 011` sin decir qué pasó con 012 y 013) · cada tarea es **verificable** (un sitio que abrir, una cosa que probar, una medición que hacer) · nada de tareas eternas («seguir mejorando la guía») · las tareas de la entrega anterior se cierran o se arrastran **diciéndolo**: `#task 014 · (arrastrada del 3-nov: sigue pendiente porque el teléfono de prueba no llegó)`.
 
 **30.5 Banda de longitud.** La banda la manda `bandas.json`, no el gusto del operador. Al corte, el canal `posts` está declarado con **4.152 caracteres exactos** (`min` = `max` = 4152), y ese es el número que vale si HdP se publica en `POSTS-COMUNIDAD`. La banda 1.800–3.200 que figura en §14 es una **propuesta** para una serie corta de formato nuevo y **no se aplica hasta que el dueño decida** dónde vive la serie y se declare su banda en el JSON (Anexo I, deuda 3). Lo que no cambia con la banda: la serie corta no es un resumen de la larga —es otra pieza, con su propio hallazgo y su propia cifra—; una HdP que solo resume la pieza grande es relleno (C05) y fallo **N07**.
+
+**30.5-BIS Alcance de las compuertas en un post.** Un post de comunidad **no recomienda recursos**, así que M24 (banda de descubrimiento), M25 (madurez) y M26 (abuelo sin fecha) **no le aplican**: no hay ficha que medir. M27 (cero meta-comentarios) y M28 (#task) sí, y son las que de verdad protegen este formato. Una HdP que recomiende algo se mide entera, sin excepción.
 
 **30.6 Una sola idea por entrega.** Un hallazgo, un dato, una advertencia o una corrección. Si hay dos, son dos entregas.
 
@@ -1124,6 +1142,9 @@ Ver §31, con su bloque `#task` numerado.
 | `tools/tres_lecturas.py` | mide cada repo por las tres vías y guarda la medición (`--guardar`) |
 | `tools/manual_gate.py` | compuerta M01–M23 por pieza o por carpeta (`--pieza`, `--verificar`, `--json`) |
 | `herramientas/novedad_gate.py` | testigo de novedad y serie corta: M24 banda de descubrimiento · M25 madurez declarada · M26 abuelo sin fecha · M27 meta-comentario de IA o de plataforma · M28 #task · M00 triple lectura (`--corte`, `--entrega`, `--json`) |
+| `tools/atestacion_verificar.py` | verifica en frío el paquete Sigstore: identidad del flujo, ventana efímera, entrada en Rekor y firma sobre el manifiesto del lote |
+| `tools/licencias_resolver.py` | resuelve las licencias que no concluyen (endpoint → texto → clasificación de propietaria) y deja acta fechada |
+| `tools/merito.py` | mide el Scorecard de OpenSSF por deps.dev y lo escribe en `merito.scorecard` con su fecha de medición |
 | `tools/firma_literal.py` | firma textual, posición en el cierre y fecha del día (−→ G12) |
 | `tools/vara.py` | las trece compuertas G0–G12 sobre todo el árbol |
 | `tools/envio.py` | genera y verifica los envíos por canal (`--generar`, `--verificar`, `--medir`) |
@@ -1172,20 +1193,31 @@ Ver §31, con su bloque `#task` numerado.
 | **3-nov-2026** | **Este hiperdocumento es el corazón del proyecto: fusiona el manual y todo lo demás, excepto las publicaciones.** | **Encabezado; Anexo B** |
 | **3-nov-2026** | **Antes de cualquier trabajo, incluso del saludo, tres lecturas completas sin scroll.** | **Ritual de las tres lecturas; M00** |
 | **3-nov-2026** | **«Ya no más documentos apartados, salvo las publicaciones»: se fusiona todo aquí y se retira lo absorbido del espacio local.** | **Partes XI–XVII; §46 acta de retirada; §48 no resurrección** |
+| **3-nov-2026** | **HdP se publica en `POSTS-COMUNIDAD/` con la banda de 4.152 exactos; no se inventa carpeta ni banda nueva.** | **§30.5** |
+| **3-nov-2026** | **Las siglas HdP no se inventan: se usan como las usa el dueño.** | **§29** |
+| **3-nov-2026** | **La licencia se resuelve recorriendo el orden entero (endpoint → texto → propietaria declarada).** | **§59.1; `tools/licencias_resolver.py`** |
+| **3-nov-2026** | **El mérito se mide con el Scorecard de OpenSSF, no con estrellas; para lo recién nacido manda la fecha.** | **§59.2; `tools/merito.py`** |
 
-## ANEXO I — DEUDAS ABIERTAS AL CORTE (declaradas, no ocultas)
+## ANEXO I — DEUDAS: ESTADO REAL AL CIERRE DEL 3-NOV-2026 (declaradas, no ocultas)
 
-1. **M24–M28 escritas e implementadas en `herramientas/novedad_gate.py`; pendiente su integración** en `tools/manual_gate.py`, en `vara.py` (como G13) y en el CI. M00 (triple lectura) está implementada solo como comprobación de la entrega (`--entrega`), no de la pieza.
-2. **`CALENDARIO-DE-NOVEDADES.json` no existe todavía** en el repositorio: se crea con el primer hallazgo (OmniShizuku) en la próxima pieza que se publique.
-3. **HdP no tiene carpeta ni trámite propio** en el repositorio: falta decidir si vive en `Arena-Reimagined/03-HdP/` con banda nueva declarada, o en `POSTS-COMUNIDAD/` con la banda que ya existe (**4.152 exactos** al corte). Decisión del dueño. Mientras no se decida, no se publica ninguna HdP fuera de la banda del canal que se elija.
-4. **La expansión de las siglas HdP** no está fijada por escrito (§29).
-5. **Firma sin llave (Sigstore)** bloqueada por identidad OIDC del dueño.
-6. **57 fichas con licencia no concluyente** pendientes de inspección manual del árbol.
-7. **Re-medición de Scorecard** para sustituir ★ como señal de mérito: pendiente, y es exactamente lo que la Parte 0-BIS pide.
-8. **La fusión comprime tres volúmenes** (Tratado 1,19 MB · Manual de Campo 543 KB · LEEME del corpus 305 KB): su doctrina operativa está aquí y su letra entera en el repositorio. Si una pieza necesita un ejemplo literal de esos volúmenes, se cita la ruta del repo; no se reabre un documento aparte.
-9. **La serie corta arranca desde el día 1**, pero el primer número del mes de noviembre no se ha publicado todavía: es el primer trabajo después de este documento.
+Cada deuda con su veredicto de hoy: **cerrada** (existe, corre y está probada), **cerrada por decisión** (no era deuda: era una decisión que faltaba tomar), **abierta** (queda trabajo y se dice cuál) o **del dueño** (no la puede cerrar el operador). Ninguna se borra del registro: la que se cierra se queda con su evidencia.
 
----
+| # | Deuda | Estado al 3-nov (12:40 AST) | Evidencia |
+|---|---|---|---|
+| 1 | M24–M28 sin integrar en la vara ni en CI | **cerrada** | `tools/novedad_gate.py` + **G13** en `tools/vara.py` + 3 casos nuevos en `tools/autoprueba.py` (**14/14**) + validación del calendario |
+| 2 | `CALENDARIO-DE-NOVEDADES.json` inexistente | **cerrada** | creado con **7 novedades medidas hoy** (NOV-2026-001…007); G13 lo valida y marca rancio a los 90 días |
+| 3 | HdP sin carpeta ni banda | **cerrada por decisión** (§30.5) | publica en `POSTS-COMUNIDAD/` con la banda ya declarada de **4.152 exactos**; no se inventa carpeta ni número |
+| 4 | Expansión de las siglas HdP | **cerrada por decisión** (§29) | no se inventa: se usa `HdP` como lo usa el dueño, y él lo fija cuando quiera |
+| 5 | Firma sin llave (Sigstore) «bloqueada» | **cerrada** — el diagnóstico era falso | paquete `attestations/lote-2026-11-03.sigstore.json` verificado: identidad del flujo por OIDC, certificado de 10 min, Rekor nº 3.669.131.378, firma sobre el manifiesto; compuerta **G14** |
+| 6 | Fichas con licencia no concluyente | **cerrada en lo resoluble** | `tools/licencias_resolver.py`: **179 → 44**; **134 resueltas con SPDX** (Apache-2.0 60 · AGPL 26 · MIT 22 · GPL 18 · otras 8) y **39 clasificadas como propietarias** con la frase literal que lo prueba y su fecha |
+| 7 | ★ como señal de mérito, sin Scorecard | **cerrada en método, abierta en cobertura** | `tools/merito.py` escribe `merito.scorecard` + fecha; piloto medido: **9 de 48** repositorios citados (el resto no está indexado). El dato ya enseña lo que la doctrina dice: **freeotp ★1.681 → 5,2/10** y **Shizuku ★32.705 → 2,7/10** |
+| 8 | La fusión comprime tres volúmenes | **no es deuda: es la decisión** | Tratado 1,19 MB · Manual de Campo 543 KB · LEEME 305 KB viven enteros en el repositorio; su doctrina operativa está aquí (Parte XV) |
+| 9 | La serie corta no ha publicado su primer número de noviembre | **abierta — es el siguiente trabajo** | no se finge: no hay HdP publicada este mes; la banda y el trámite ya están decididos (§30.5) |
+| 10 | Las seis piezas de la oleada 01 no cumplen M24 | **deuda congelada y declarada** | publicadas antes de la doctrina; 11 líneas visibles en cada informe (`tools/baseline.json`); no crece |
+| 11 | Re-medición del registro completo (§PENDIENTES: corte del 15-oct) | **abierta, del dueño el cuándo** | cuesta una corrida de API por ficha; G2 avisa a los 180 días y hoy la mediana es de 19 días |
+| 12 | SWHID por revisión medida (Software Heritage) | **abierta** | la API responde; falta archivar cada revisión citada, y eso es trabajo por lotes |
+
+**Y una que se cierra sola con la fecha:** la orden del dueño de «un solo documento» está cumplida: **56 archivos retirados** del núcleo local, acta en la Parte XV, y ninguna regla se quedó fuera.
 
 # PARTE XI — LOS CIMIENTOS CANÓNICOS (C-01 a C-24)
 
@@ -1440,6 +1472,39 @@ Reglas para que el árbol siga siendo mantenible dentro de dos años. No son sug
 ## 55. Deudas y decisiones que solo el dueño puede tomar
 
 Véase el Anexo I. Se mantiene aquí la regla: un pendiente que no tiene nombre de dueño no se cierra nunca; por eso cada deuda lleva su decisor.
+
+## 59. Los dos veredictos que faltaban: licencia y mérito
+
+Dos deudas del proyecto viejo eran del mismo tipo: **una ficha que no sabía qué licencia tenía y un mérito que se medía con estrellas.** Las dos se cerraron el 3-nov-2026 con herramienta y con número, no con una promesa.
+
+### 59.1 La licencia: de 179 dudas a 44 propietarias declaradas
+
+El orden de la casa siempre fue **SPDX de la API → endpoint de licencia → texto del archivo → ausencia firmada**. Lo que faltaba era recorrerlo entero. `tools/licencias_resolver.py` lo recorre sobre las fichas que quedaron sin veredicto:
+
+| Antes | Después |
+|---|---|
+| 179 fichas con `NOASSERTION` | **44** |
+| 0 resueltas por texto | **134 con SPDX**: Apache-2.0 60 · AGPL-3.0 26 · MIT 22 · GPL-3.0 18 · OFL-1.1 2 · CC BY-SA 4.0 2 · CC0 1 · LGPL-3.0 1 · CC BY 4.0 1 · BSD-3-Clause 1 |
+| 0 clasificadas | **39 declaradas propietarias** con la frase literal que lo prueba («all rights reserved», «source-available», «non-commercial») y su fecha |
+
+**Lo que cambia para el lector:** una ficha marcada como propietaria deja de ser una duda y pasa a ser un aviso. Se puede citar; no se recomienda para usarla. **Las 4.552 ausencias firmadas no se tocaron:** ya tenían veredicto —no hay archivo de licencia en el árbol— y una ausencia declarada no es una tarea pendiente.
+
+### 59.2 El mérito: la estrella adorna, el Scorecard mide
+
+`tools/merito.py` pide el Scorecard de OpenSSF a la API pública de deps.dev y escribe en la ficha `merito.scorecard` (0–10) y `merito.scorecard_en` (fecha). Piloto medido hoy sobre los repositorios que las piezas citan:
+
+| Repositorio | ★ | Scorecard |
+|---|---|---|
+| freeotp/freeotp-android | 1.681 | **5,2 / 10** |
+| beemdevelopment/Aegis | 13.401 | 5,1 / 10 |
+| AntennaPod/AntennaPod | 8.248 | 4,5 / 10 |
+| MuntashirAkon/AppManager | 9.379 | 4,3 / 10 |
+| **RikkaApps/Shizuku** | **32.705** | **2,7 / 10** |
+| andOTP/andOTP | 3.706 | 2,0 / 10 |
+
+**El más popular de la tabla tiene el segundo peor mérito medido.** Eso no es una opinión: es el Scorecard diciendo que el proyecto no revisa cambios, no tiene actividad reciente y no protege sus flujos. La doctrina de la Parte 0-BIS queda demostrada con números de la casa.
+
+**Y su límite, dicho:** solo **9 de 48** repositorios citados están indexados en deps.dev; los hallazgos recién nacidos —que son justo los que la doctrina prefiere— **no tienen Scorecard todavía**. Para ellos la señal de mérito es la fecha: cuándo se creó, cuándo empujó, cuántas releases lleva, y decirlo así en la ficha. Un proyecto de nueve días no tiene historial de mantenimiento; tiene presente, y eso se declara.
 
 # PARTE XVII — LAS LICENCIAS, LITERALES
 

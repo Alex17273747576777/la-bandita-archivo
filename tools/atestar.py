@@ -90,7 +90,8 @@ def main() -> int:
         print(f"sello viejo: {'; '.join(motivo)}; se re-sella")
     huella_sello = sellar()
     LOTES.mkdir(exist_ok=True)
-    anteriores = sorted(LOTES.glob("lote-*.json"))
+    # los paquetes de firma Sigstore también se llaman lote-*.json y no son fichas de sello
+    anteriores = sorted(x for x in LOTES.glob("lote-*.json") if not x.name.endswith(".sigstore.json"))
     anterior = json.loads(anteriores[-1].read_text(encoding="utf-8"))["huella"] if anteriores else None
     ficha = {
         "lote": f"lote-{fecha_casa_hoy()}",

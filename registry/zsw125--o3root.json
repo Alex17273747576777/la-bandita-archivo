@@ -21,9 +21,9 @@
  "id": "zsw125--o3root",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "metodo": "endpoint-license",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
  "medido_en": "2026-10-31",
  "merito": {

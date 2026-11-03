@@ -1,8 +1,21 @@
 {
- "_nota": "Deuda conocida y declarada al activar la vara (2026-11-01). Sigue apareciendo en cada informe; solo deja de bloquear y no puede crecer. Se retira cuando la pieza se rehaga.",
+ "_nota": "Deuda conocida y declarada al activar la vara (2026-11-01) y al integrar la compuerta de novedad (2026-11-03). Sigue apareciendo en cada informe; solo deja de bloquear y no puede crecer. Se retira cuando la pieza se rehaga. Las seis piezas de la oleada 01 se publicaron ANTES de que el dueño dictara la doctrina de novedad (3-nov, Parte 0-BIS): su censo no tiene ningún recurso por debajo de ★1.683, así que M24 las marcaría para siempre. No se reescriben piezas publicadas: se declara la deuda y se exige cumplimiento a las siguientes.",
  "congelados": {
   "G0 piezas": [
    "01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-09-15-dominicano-ES.md: sin 💓 (firma de la casa)"
+  ],
+  "G13 novedad": [
+   "01-La-puerta-y-el-recibo-instalar-sin-tienda-y-el-pa · M24 ninguna ficha en la banda de descubrimiento (<500★ · <12 meses · paquete <30 d): 12 fichas, la menor con ★2305",
+   "01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierd · M24 ninguna ficha en la banda de descubrimiento (<500★ · <12 meses · paquete <30 d): 11 fichas, la menor con ★2305",
+   "02-La-musica-que-no-se-cae-el-inventario-que-nadie-h · M24 ninguna ficha en la banda de descubrimiento (<500★ · <12 meses · paquete <30 d): 11 fichas, la menor con ★3896",
+   "02-La-musica-que-no-se-cae-el-inventario-que-nadie-h · M25 ficha con ★50557 y tag -dev/beta sin «madurez» declarada: *Spotube · ★50.557 · la ficha dice AGPL-3.0 y su…",
+   "02-La-musica-que-no-se-cae-el-inventario-que-nadie-h · M25 ficha con ★6876 y tag -dev/beta sin «madurez» declarada: *PixelPlayer · ★6.876 · la ficha no declara lice…",
+   "02-La-musica-que-no-se-cae-once-reproductores-un-tro · M24 ninguna ficha en la banda de descubrimiento (<500★ · <12 meses · paquete <30 d): 13 fichas, la menor con ★3896",
+   "02-La-musica-que-no-se-cae-once-reproductores-un-tro · M25 ficha con ★3896 y tag -dev/beta sin «madurez» declarada: | Recurso | Estrellas | Licencia | Lenguaje | Em…",
+   "02-La-musica-que-no-se-cae-once-reproductores-un-tro · M25 ficha con ★50557 y tag -dev/beta sin «madurez» declarada: *Spotube · KRTirtho/spotube · ★50.557 · AGPL-3.0…",
+   "02-La-musica-que-no-se-cae-once-reproductores-un-tro · M25 ficha con ★6876 y tag -dev/beta sin «madurez» declarada: *PixelPlayer · theovilardo/PixelPlayer · ★6.876 …",
+   "03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-co · M24 ninguna ficha en la banda de descubrimiento (<500★ · <12 meses · paquete <30 d): 14 fichas, la menor con ★1683",
+   "03-La-caja-fuerte-del-bolsillo-un-autenticador-muert · M24 ninguna ficha en la banda de descubrimiento (<500★ · <12 meses · paquete <30 d): 11 fichas, la menor con ★1683"
   ]
  }
 }

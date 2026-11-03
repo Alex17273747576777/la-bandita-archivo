@@ -371,6 +371,69 @@ def g11_manual() -> tuple[list[str], str]:
     return fallos, f"{verdes}/{len(ps)} piezas VERDE en el manual v3.0"
 
 
+def g13_novedad() -> tuple[list[str], str]:
+    """G13 · NOVEDAD DE LA CASA (M24–M28) sobre las piezas con banda declarada, más el registro de
+    novedades. Es la compuerta que faltaba: `manual_gate` mide la forma, esta mide si lo que la
+    pieza recomienda es nuevo, si declara su madurez y si no vende fama.
+
+    Lee el árbol de ESTA corrida (`RAIZ`), no el del repositorio vivo: si no, la autoprueba sobre
+    un árbol de mentira estaría midiendo las piezas de verdad.
+    """
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import novedad_gate as ng
+
+    f = RAIZ / "docs" / "bandas.json"
+    if not f.exists():
+        return [], "sin bandas declaradas"
+    try:
+        bk = json.loads(f.read_text(encoding="utf-8"))
+    except Exception as e:
+        return [f"bandas.json ilegible: {e}"], "ilegible"
+    nombres = set()
+    for canal, cfg in bk.items():
+        if not isinstance(cfg, dict):
+            continue
+        for ent in (cfg.get("piezas") or {}).values():
+            if isinstance(ent, dict) and ent.get("archivo"):
+                nombres.add(ent["archivo"])
+    ps = [p for p in piezas() if p.name in nombres]
+    if not ps:
+        return [], "sin piezas con banda"
+    corte = date.fromisoformat(fecha_casa_hoy())
+    fallos, rojos = [], 0
+    for p in ps:
+        r = ng.revisar(p, corte, entrega=False, es_post="POSTS-COMUNIDAD" in str(p))
+        if r["veredicto"] == "ROJO":
+            rojos += 1
+        for x in r["fallos"]:
+            fallos.append(f"{p.name[:52]} · {x}")
+    fallos += ng.calendario(RAIZ / "docs" / "CALENDARIO-DE-NOVEDADES.json", corte)
+    return fallos, f"{len(ps) - rojos}/{len(ps)} piezas pasan M24–M28 · calendario de novedades"
+
+
+def g14_atestacion() -> tuple[list[str], str]:
+    """G14 · LA FIRMA SE COMPRUEBA, no se supone. Verifica en frío los paquetes Sigstore que estén
+    en `attestations/`: identidad del flujo, ventana efímera, registro de transparencia y que la
+    firma cubra el manifiesto de hoy."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import atestacion_verificar as av
+
+    bundles = sorted((RAIZ / "attestations").glob("*.sigstore.json"))
+    manifiesto = RAIZ / "registry" / "_manifiesto-sha256.tsv"
+    if not bundles:
+        return [], "sin atestaciones firmadas en el árbol (declarado)"
+    if not manifiesto.exists():
+        return ["G14 sin manifiesto que verificar"], "sin manifiesto"
+    fallos: list[str] = []
+    for b in bundles:
+        m = av.manifiesto_del_lote(b, manifiesto)
+        if not m.exists():
+            fallos.append(f"G14 sin manifiesto para {b.name}")
+            continue
+        fallos += av.verificar(b, m)
+    return fallos, f"{len(bundles)} atestaciones firmadas verificadas"
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--json", action="store_true")
@@ -393,6 +456,8 @@ def main() -> int:
         ("G10 bandas", "puerta", g10_bandas()),
         ("G11 manual v3.0", "puerta", g11_manual()),
         ("G12 firma literal", "puerta", g12_firma_literal()),
+        ("G13 novedad", "puerta", g13_novedad()),
+        ("G14 atestación firmada", "puerta", g14_atestacion()),
     ]
     congelados = deuda_congelada()
     total_fallos = 0

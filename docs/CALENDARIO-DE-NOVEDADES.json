@@ -1,0 +1,177 @@
+{
+ "_nota": "Registro de novedades de la casa. Cada entrada es un hallazgo MEDIDO contra la API de GitHub, con fecha. Una pieza no puede presentar como nuevo nada que no esté aquí: el testigo G13 lo comprueba (docs/CALENDARIO-DE-NOVEDADES.json). Sin fecha no hay novedad, hay opinión.",
+ "_regla": "Se mide el día que se usa. Si la medida tiene más de 90 días, G13 la marca rancias y obliga a re-medir.",
+ "_corte": "2026-11-03",
+ "novedades": [
+  {
+   "id": "NOV-2026-001",
+   "medido_en": "2026-11-03",
+   "titulo": "El fork que está vivo y el original que lleva 503 días quieto: OmniShizuku contra Shizuku",
+   "repos": [
+    {
+     "repo": "krishna3163/OmniShizuku",
+     "estrellas": 17,
+     "creado": "2026-10-24",
+     "empujon": "2026-11-02",
+     "licencia": "Apache-2.0",
+     "archivado": false,
+     "madurez": "beta temprana: v1.0.5-dev del 2-nov-2026, tres releases en un día, cero forks; se recomienda como hallazgo, nunca como reemplazo de nada instalado",
+     "ultima_release": {
+      "tag": "v1.0.5-dev",
+      "fecha": "2026-11-02",
+      "adjuntos": 3
+     },
+     "rol": "fork vivo"
+    },
+    {
+     "repo": "RikkaApps/Shizuku",
+     "estrellas": 32705,
+     "creado": "2017-05-24",
+     "empujon": "2025-06-18",
+     "licencia": "Apache-2.0",
+     "archivado": false,
+     "madurez": "maduro pero sin movimiento: última release v13.6.0 del 25-may-2025, último empujón 18-jun-2025",
+     "ultima_release": {
+      "tag": "v13.6.0",
+      "fecha": "2025-05-25",
+      "adjuntos": 1
+     },
+     "rol": "original dormido"
+    }
+   ],
+   "por_que_es_nuevo": "Creado el 24-oct-2026 y empujado ayer: es el único fork verificado del proyecto, amplía Shizuku con utilidades y ajustes de sistema, y se mide contra un original con 503 días de silencio. Es el caso que fundó la doctrina de novedad (Parte 0-BIS) y el que se cita como ejemplo de cómo se elige."
+  },
+  {
+   "id": "NOV-2026-002",
+   "medido_en": "2026-11-03",
+   "titulo": "Fonte: el actualizador que no es tienda y no pide cuenta",
+   "repos": [
+    {
+     "repo": "Turtlecute33/Fonte",
+     "estrellas": 19,
+     "creado": "2026-10-25",
+     "empujon": "2026-11-02",
+     "licencia": "GPL-3.0",
+     "archivado": false,
+     "madurez": "beta temprana: ★19, creado 25-oct-2026, v0.1.9; se declara inmaduro y se recomienda solo a quien sepa volver atrás",
+     "ultima_release": {
+      "tag": "v0.1.9",
+      "fecha": "2026-11-02",
+      "adjuntos": 1
+     }
+    }
+   ],
+   "por_que_es_nuevo": "Un actualizador de apps Android contra GitHub, GitLab y F-Droid, privado, mínimo, de 19 estrellas y nueve días de vida. Va al mismo problema que Obtainium con otra arquitectura, y no aparece en ninguna lista de las de siempre."
+  },
+  {
+   "id": "NOV-2026-003",
+   "medido_en": "2026-11-03",
+   "titulo": "sinceus: privacidad dentro de una pareja, medida sin nube",
+   "repos": [
+    {
+     "repo": "DerDieDasLian/sinceus",
+     "estrellas": 26,
+     "creado": "2026-09-30",
+     "empujon": "2026-11-02",
+     "licencia": "GPL-3.0",
+     "archivado": false,
+     "madurez": "madurez media: ★26, catorce releases hasta v2.15.1, empujón de ayer",
+     "ultima_release": {
+      "tag": "v2.15.1",
+      "fecha": "2026-11-02",
+      "adjuntos": 3
+     }
+    }
+   ],
+   "por_que_es_nuevo": "Cuenta el tiempo compartido de dos personas sin subirlo a ningún servidor. Nació el 30-sep-2026 y no está en el radar de nadie; el tema (privacidad afectiva) no lo cubre ninguna pieza del archivo."
+  },
+  {
+   "id": "NOV-2026-004",
+   "medido_en": "2026-11-03",
+   "titulo": "Burkan: mantener vivo el renderizador Vulkan de un Galaxy S23",
+   "repos": [
+    {
+     "repo": "barq-al-layl/Burkan",
+     "estrellas": 24,
+     "creado": "2026-10-04",
+     "empujon": "2026-10-27",
+     "licencia": "Apache-2.0",
+     "archivado": false,
+     "madurez": "beta: ★24, creado 4-oct-2026, v1.1.1",
+     "ultima_release": {
+      "tag": "v1.1.1",
+      "fecha": "2026-10-21",
+      "adjuntos": 1
+     }
+    }
+   ],
+   "por_que_es_nuevo": "Un módulo de un solo propósito para un solo teléfono: la clase de hallazgo que ninguna lista de moda recoge y que sí resuelve un problema concreto a quien tiene ese aparato."
+  },
+  {
+   "id": "NOV-2026-005",
+   "medido_en": "2026-11-03",
+   "titulo": "APK-Toolbox: clonar, instalar y fusionar paquetes desde el propio teléfono",
+   "repos": [
+    {
+     "repo": "bl3xand/APK-Toolbox",
+     "estrellas": 102,
+     "creado": "2026-10-08",
+     "empujon": "2026-10-28",
+     "licencia": "GPL-3.0",
+     "archivado": false,
+     "madurez": "madurez media-alta: ★102, creado 8-oct-2026, catorce releases hasta v1.1.6",
+     "ultima_release": {
+      "tag": "v1.1.6",
+      "fecha": "2026-10-28",
+      "adjuntos": 5
+     }
+    }
+   ],
+   "por_que_es_nuevo": "Hace en el teléfono lo que normalmente exige una computadora: rastrear, clonar y fusionar APK. Es de las pocas herramientas nuevas de esta cosecha con trabajo técnico real detrás."
+  },
+  {
+   "id": "NOV-2026-006",
+   "medido_en": "2026-11-03",
+   "titulo": "PocketSense: las cuentas de la casa sin salir del aparato",
+   "repos": [
+    {
+     "repo": "software-ace/PocketSense",
+     "estrellas": 13,
+     "creado": "2026-09-26",
+     "empujon": "2026-11-01",
+     "licencia": "GPL-3.0",
+     "archivado": false,
+     "madurez": "beta: ★13, creado 26-sep-2026, v2.4.2, escritorio y Android",
+     "ultima_release": {
+      "tag": "v2.4.2",
+      "fecha": "2026-11-01",
+      "adjuntos": 8
+     }
+    }
+   ],
+   "por_que_es_nuevo": "Finanzas personales offline, sin cuenta ni sincronización. Cierra un hueco que la serie no había tocado y lo hace con el criterio de la casa: nada sale del teléfono."
+  },
+  {
+   "id": "NOV-2026-007",
+   "medido_en": "2026-11-03",
+   "titulo": "MacSubsystemForAndroid: apps de Android como apps del Mac",
+   "repos": [
+    {
+     "repo": "harkhowalia-1/MacSubsystemForAndroid",
+     "estrellas": 532,
+     "creado": "2026-10-15",
+     "empujon": "2026-11-02",
+     "licencia": "GPL-3.0",
+     "archivado": false,
+     "madurez": "beta: ★532, creado 15-oct-2026, v0.3.5",
+     "ultima_release": {
+      "tag": "v0.3.5",
+      "fecha": "2026-11-02",
+      "adjuntos": 1
+     }
+    }
+   ],
+   "por_que_es_nuevo": "La cosecha más alta de este censo y aun así fuera de las listas conocidas: cada app en su ventana, sin emulador de escritorio completo. Sirve de contraste contra las soluciones viejas de virtualización."
+  }
+ ]
+}
