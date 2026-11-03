@@ -40,8 +40,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "6be43f3ec854f18c14d8236872606740f12be2a6",
-  "swh_estado": "solicitud 429",
-  "swh_solicitud": null,
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
   "swhid": "swh:1:rev:6be43f3ec854f18c14d8236872606740f12be2a6"
  },
  "repo": "norsehorse-dev/PassPonyAndroid"

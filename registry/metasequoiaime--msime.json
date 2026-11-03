@@ -40,8 +40,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "a5fb2c668bd509af45f11d7912a921dc70e54d98",
-  "swh_estado": "solicitud 429",
-  "swh_solicitud": null,
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
   "swhid": "swh:1:rev:a5fb2c668bd509af45f11d7912a921dc70e54d98"
  },
  "repo": "metasequoiaime/msime"

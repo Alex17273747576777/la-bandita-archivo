@@ -43,38 +43,39 @@
   {
    "repo": "Verlintas/NOIR",
    "swhid": "swh:1:rev:04646aac7870cd00cbff8b9f6f0f7805fe8b342a",
-   "estado": "solicitud 429",
-   "solicitud": null
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
   },
   {
    "repo": "mokshablr/gander",
    "swhid": "swh:1:rev:89bf8106f581960d161baf73514ce41657a27177",
-   "estado": "solicitud 429",
-   "solicitud": null
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
   },
   {
    "repo": "man15h/tellyscope",
    "swhid": "swh:1:rev:442330d85a84d8bad0930883693e14a36fe6cd09",
-   "estado": "solicitud 429",
-   "solicitud": null
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
   },
   {
    "repo": "metasequoiaime/msime",
    "swhid": "swh:1:rev:a5fb2c668bd509af45f11d7912a921dc70e54d98",
-   "estado": "solicitud 429",
-   "solicitud": null
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
   },
   {
    "repo": "Turtlecute33/Fonte",
    "swhid": "swh:1:rev:24149e8a94090bc5de9abefa388638ebde49286e",
-   "estado": "solicitud 429",
-   "solicitud": null
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
   },
   {
    "repo": "norsehorse-dev/PassPonyAndroid",
    "swhid": "swh:1:rev:6be43f3ec854f18c14d8236872606740f12be2a6",
-   "estado": "solicitud 429",
-   "solicitud": null
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
   }
- ]
+ ],
+ "pendientes_429": []
 }

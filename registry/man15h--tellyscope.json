@@ -40,8 +40,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "442330d85a84d8bad0930883693e14a36fe6cd09",
-  "swh_estado": "solicitud 429",
-  "swh_solicitud": null,
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
   "swhid": "swh:1:rev:442330d85a84d8bad0930883693e14a36fe6cd09"
  },
  "repo": "man15h/tellyscope"

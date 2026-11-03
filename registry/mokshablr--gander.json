@@ -40,8 +40,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "89bf8106f581960d161baf73514ce41657a27177",
-  "swh_estado": "solicitud 429",
-  "swh_solicitud": null,
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
   "swhid": "swh:1:rev:89bf8106f581960d161baf73514ce41657a27177"
  },
  "repo": "mokshablr/gander"
