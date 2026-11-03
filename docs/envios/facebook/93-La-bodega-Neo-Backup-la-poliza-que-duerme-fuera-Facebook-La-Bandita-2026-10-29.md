@@ -52,7 +52,7 @@ Pulso tranquilo: lo último que se movió fue **NeoApplications/Neo-Backup**, ha
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 1 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• NeoApplications/Neo-Backup — ★3.892 (+11) · empujó el 17-oct-2026 (hace 17 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
+• NeoApplications/Neo-Backup — ★3.893 (+12) · empujó el 17-oct-2026 (hace 17 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

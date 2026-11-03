@@ -97,7 +97,7 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 11 repositorios que cita esta pi
 • muzei/muzei — ★4.962 (+8) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release api3.4.2 (16-jun-2024)
 • KieronQuinn/TapTap — ★4.060 (+2) · *dormido*: sin empujar desde el 26-oct-2024 (738 días) · GPL-3.0 · última release 1.6.2 (26-oct-2024)
 • KieronQuinn/Smartspacer — ★3.590 (+12) · empujó el 23-oct-2026 (hace 11 días) · GPL-3.0 · última release 1.11.4 (2-oct-2026)
-• openboard-team/openboard — ★2.757 (+3) · *dormido*: sin empujar desde el 16-may-2024 (901 días) · GPL-3.0 · última release v1.4.5 (5-ago-2022)
+• openboard-team/openboard — ★2.758 (+4) · *dormido*: sin empujar desde el 16-may-2024 (901 días) · GPL-3.0 · última release v1.4.5 (5-ago-2022)
 • Mahmud0808/ColorBlendr — ★2.583 (+14) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v3.1.2 (31-oct-2026)
 • KieronQuinn/AmbientMusicMod — ★2.527 (+3) · *dormido*: sin empujar desde el 7-sep-2024 (787 días) · GPL-3.0 · última release 2.4 (7-sep-2024)
 • NeoApplications/Neo-Launcher — ★2.155 (+4) · empujó en las últimas horas · GPL-3.0 · última release 0.9.3 (18-dic-2023)

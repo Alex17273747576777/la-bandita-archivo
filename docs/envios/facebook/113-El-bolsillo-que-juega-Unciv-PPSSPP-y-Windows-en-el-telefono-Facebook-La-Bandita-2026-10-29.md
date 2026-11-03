@@ -59,7 +59,7 @@ La noticia fresca es de **yairm210/Unciv**: release 4.22.15 (2026-10-28). El emp
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• brunodev85/winlator — ★19.793 (+109) · empujó en las últimas horas · LGPL-2.1 · última release v11.2.0 (19-ago-2026)
+• brunodev85/winlator — ★19.794 (+110) · empujó en las últimas horas · LGPL-2.1 · última release v11.2.0 (19-ago-2026)
 • hrydgard/ppsspp — ★14.817 (+35) · empujó en las últimas horas · NOASSERTION · última release v1.20.4 (16-may-2026)
 • yairm210/Unciv — ★11.518 (+19) · empujó en las últimas horas · MPL-2.0 · última release 4.22.16 (31-oct-2026)
 

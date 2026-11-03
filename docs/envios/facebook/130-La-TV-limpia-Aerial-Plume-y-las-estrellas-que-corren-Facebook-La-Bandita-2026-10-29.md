@@ -54,7 +54,7 @@ Pulso de hoy sobre los 2 repos de la pieza: 2 vivos, 2 activos este mes. Manda *
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• pengchujin/aerial-tv — ★9.277 (+1553) · empujó en las últimas horas · MIT · última release v1.82 (3-nov-2026)
+• pengchujin/aerial-tv — ★9.286 (+1562) · empujó en las últimas horas · MIT · última release v1.82 (3-nov-2026)
 • aradhyas8/Plume_Launcher — ★321 (+52) · empujó en las últimas horas · GPL-3.0 · última release v1.7.1 (3-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

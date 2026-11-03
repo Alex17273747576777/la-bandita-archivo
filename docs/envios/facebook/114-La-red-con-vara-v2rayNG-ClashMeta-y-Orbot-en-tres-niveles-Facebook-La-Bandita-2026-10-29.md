@@ -59,8 +59,8 @@ El grupo respira despacio; su empuje más reciente, **2dust/v2rayNG**, fue hace 
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• 2dust/v2rayNG — ★65.240 (+300) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release 2.3.14 (28-oct-2026)
-• MetaCubeX/ClashMetaForAndroid — ★48.886 (+279) · empujó el 30-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.11.36 (21-oct-2026)
+• 2dust/v2rayNG — ★65.242 (+302) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release 2.3.14 (28-oct-2026)
+• MetaCubeX/ClashMetaForAndroid — ★48.888 (+281) · empujó el 30-oct-2026 (hace 4 días) · GPL-3.0 · última release v2.11.36 (21-oct-2026)
 • guardianproject/orbot-android — ★3.675 (+14) · empujó el 26-oct-2026 (hace 8 días) · NOASSERTION · última release 17.9.7-RC-1-tor-0.4.9.14 (9-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

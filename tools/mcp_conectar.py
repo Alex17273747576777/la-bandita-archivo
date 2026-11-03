@@ -26,6 +26,26 @@ REGISTRO = "https://registry.modelcontextprotocol.io/v0/servers?limit=100"
 UA = {"Content-Type": "application/json", "Accept": "application/json, text/event-stream",
       "User-Agent": "la-bandita-mcp/1.0"}
 
+def _llave(nombre: str) -> str:
+    """Lee una llave local de la bóveda sin imprimirla."""
+    env = Path.home() / ".boveda" / "tokens.env"
+    if not env.exists():
+        return ""
+    for linea in env.read_text().splitlines():
+        if linea.startswith(nombre + "="):
+            return linea.split("=", 1)[1].strip().strip('"')
+    return ""
+
+
+# Los que piden credencial se intentan igual, con la llave que la casa tenga para ese servicio.
+AUTENTICADOS = {
+    "https://api.githubcopilot.com/mcp/": _llave("PAT_FINO") or _llave("GHP_A"),
+    "https://api.inference.sh/mcp": _llave("INFERENCE_KEY"),
+    "https://mcp.linear.app/mcp": _llave("LINEAR_KEY"),
+    "https://mcp.notion.com/mcp": _llave("NOTION_KEY"),
+    "https://mcp.snag.ac/mcp": _llave("SNAG_KEY"),
+}
+
 ENDPOINTS = [
     "https://mcp.deepwiki.com/mcp",
     "https://mcp.context7.com/mcp",
@@ -60,6 +80,8 @@ def _parsear(cuerpo: str, tipo: str) -> list[dict]:
 
 def _post(url: str, carga: dict, sesion: str | None = None) -> tuple[int, list[dict], str | None]:
     cab = dict(UA)
+    if AUTENTICADOS.get(url):
+        cab["Authorization"] = "Bearer " + AUTENTICADOS[url]
     if sesion:
         cab["Mcp-Session-Id"] = sesion
     req = urllib.request.Request(url, data=json.dumps(carga).encode(), headers=cab, method="POST")

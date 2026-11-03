@@ -399,8 +399,8 @@ Y queda la frase que sirve para cualquier año: un reproductor es una ventana; e
 Medí otra vez, hoy 3 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • KRTirtho/spotube — sin dato hoy (la API no respondió). No afirmo nada.
-• MetrolistGroup/Metrolist — ★13.979 (+90) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.688 (+159) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• MetrolistGroup/Metrolist — ★13.982 (+93) · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.690 (+161) · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • AntennaPod/AntennaPod — ★8.260 (+3) · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • theovilardo/PixelPlayer — sin dato hoy (la API no respondió). No afirmo nada.
 • namidaco/namida — ★6.780 · empujó el 1-nov-2026 (hace 2 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)

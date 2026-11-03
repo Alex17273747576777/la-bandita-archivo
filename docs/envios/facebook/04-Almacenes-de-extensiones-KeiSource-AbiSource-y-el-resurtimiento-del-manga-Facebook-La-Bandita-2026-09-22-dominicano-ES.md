@@ -65,15 +65,15 @@ Pulso de hoy sobre los 6 repos de la pieza: 6 vivos, 5 activos este mes. Manda *
 
 ⏬ sigue abajo · parte 1 de 3
 
-═══ MENSAJE 3 de 4 · 1059 caracteres ═══
+═══ MENSAJE 3 de 4 · 1057 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 6 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• keiyoushi/extensions — ★15.427 (+58) · empujó en las últimas horas · sin licencia detectada por la API · última release 726723b-2 (3-nov-2026)
+• keiyoushi/extensions — ★15.427 (+58) · empujó en las últimas horas · sin licencia detectada por la API · última release 6296017 (3-nov-2026)
 • keiyoushi/extensions-source — ★4.860 (+29) · empujó en las últimas horas · Apache-2.0
-• LittleSurvival/copymanga-copy20 — ★2.993 (+21) · empujó el 11-oct-2026 (hace 23 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
+• LittleSurvival/copymanga-copy20 — ★2.992 (+20) · empujó el 11-oct-2026 (hace 23 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • yuzono/anime-extensions — ★529 (+7) · empujó en las últimas horas · Apache-2.0
 • cuong-tran/manga-repo — ★466 (+1) · empujó en las últimas horas · sin licencia detectada por la API · última release f7d844c-2 (2-nov-2026)
 • Suwayomi/tachiyomi-extension — ★346 (sin cambio) · empujó el 19-sep-2026 (hace 45 días) · Apache-2.0

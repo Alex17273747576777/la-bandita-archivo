@@ -100,11 +100,11 @@ La noticia fresca es de **KolbyML/Manatan**: release v6.2.21 (2026-10-29). 11 re
 Medí otra vez, hoy 3 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • mihonapp/mihon — ★24.998 (+159) · empujó el 26-oct-2026 (hace 8 días) · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• zyddnys/manga-image-translator — ★10.569 (+19) · empujó el 11-oct-2026 (hace 23 días) · GPL-3.0 · última release beta-0.3 (23-abr-2022)
-• komikku-app/komikku — ★4.973 (+18) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• zyddnys/manga-image-translator — ★10.570 (+20) · empujó el 11-oct-2026 (hace 23 días) · GPL-3.0 · última release beta-0.3 (23-abr-2022)
+• komikku-app/komikku — ★4.974 (+19) · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
 • Aidoku/Aidoku — ★4.692 (+17) · empujó el 31-oct-2026 (hace 3 días) · GPL-3.0 · última release v0.9-4 (16-oct-2026)
 • null2264/yokai — ★1.915 (+3) · empujó en las últimas horas · Apache-2.0 · última release v1.10.2 (23-sep-2026)
-• KolbyML/Manatan — ★622 (+3) · empujó en las últimas horas · MIT · última release v6.3.3 (3-nov-2026)
+• KolbyML/Manatan — ★623 (+4) · empujó en las últimas horas · MIT · última release v6.3.3 (3-nov-2026)
 • HaoweiLi97/mihon_img_upscale — ★246 (+4) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.3.17 (1-nov-2026)
 • yomihon/yomihon — ★143 (+3) · empujó el 18-oct-2026 (hace 16 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
 • nardjes5/kumo-surreal — ★115 (sin cambio) · empujó en las últimas horas · sin licencia detectada por la API

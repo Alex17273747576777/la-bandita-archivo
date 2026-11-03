@@ -132,25 +132,25 @@ Pulso de hoy sobre los 20 repos de la pieza: 20 vivos, 15 activos este mes. Mand
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 20 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Genymobile/scrcpy — ★153.913 (+412) · empujó en las últimas horas · Apache-2.0 · última release v5.0.1 (8-oct-2026)
-• termux/termux-app — ★64.012 (+334) · empujó el 26-sep-2026 (hace 38 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
-• topjohnwu/Magisk — ★63.728 (+133) · empujó el 27-oct-2026 (hace 7 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
-• RikkaApps/Shizuku — ★32.712 (+327) · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• LSPosed/LSPosed — ★25.317 (+77) · empujó el 14-oct-2026 (hace 20 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
+• Genymobile/scrcpy — ★153.916 (+415) · empujó en las últimas horas · Apache-2.0 · última release v5.0.1 (8-oct-2026)
+• termux/termux-app — ★64.014 (+336) · empujó el 26-sep-2026 (hace 38 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• topjohnwu/Magisk — ★63.731 (+136) · empujó el 27-oct-2026 (hace 7 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
+• RikkaApps/Shizuku — ★32.714 (+329) · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• LSPosed/LSPosed — ★25.319 (+79) · empujó el 14-oct-2026 (hace 20 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
 • ImranR98/Obtainium — ★21.172 (+153) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
-• komi-store/komi-store — ★20.290 (+200) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
-• tiann/KernelSU — ★20.034 (+224) · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
+• komi-store/komi-store — ★20.292 (+202) · empujó el 1-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.9.4 (24-oct-2026)
+• tiann/KernelSU — ★20.036 (+226) · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
 • bmax121/APatch — ★8.123 (+19) · empujó en las últimas horas · GPL-3.0 · última release 11282 (15-oct-2026)
 • Droid-ify/client — ★7.686 (+25) · *dormido*: sin empujar desde el 12-sep-2026 (52 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
 • wxxsfxyzm/InstallerX-Revived — ★7.292 (+72) · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
 • aistra0528/Hail — ★7.093 (+56) · empujó el 27-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
-• NeoApplications/Neo-Store — ★5.617 (+47) · empujó el 23-oct-2026 (hace 11 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
+• NeoApplications/Neo-Store — ★5.620 (+50) · empujó el 23-oct-2026 (hace 11 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
 • RikkaApps/Sui — ★4.347 (+10) · *dormido*: sin empujar desde el 12-ago-2024 (813 días) · GPL-3.0 · última release v13.5.1 (19-sep-2023)
 • iamr0s/Dhizuku — ★4.079 (+29) · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
 • Aefyr/SAI — ★3.960 (+10) · *dormido*: sin empujar desde el 3-jun-2024 (883 días) · GPL-3.0 · última release 4.5 (25-feb-2021)
 • zacharee/InstallWithOptions — ★3.404 (+19) · empujó el 24-oct-2026 (hace 10 días) · MIT · última release 0.9.2 (14-mar-2026)
 • whyorean/AuroraStore — ★3.229 (+31) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0
-• accrescent/accrescent — ★2.304 (-2) · empujó en las últimas horas · Apache-2.0 · última release 0.28.1 (10-nov-2025)
+• accrescent/accrescent — ★2.305 (-1) · empujó en las últimas horas · Apache-2.0 · última release 0.28.1 (10-nov-2025)
 • solkin/appteka-android — ★1.379 (+20) · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v23.0 (13-ago-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

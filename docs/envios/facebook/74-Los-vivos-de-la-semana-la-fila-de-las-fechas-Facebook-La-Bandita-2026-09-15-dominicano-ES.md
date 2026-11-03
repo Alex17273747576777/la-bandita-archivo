@@ -108,14 +108,14 @@ La noticia fresca es de **wikimedia/apps-android-wikipedia**: release latest (20
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 16 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ggml-org/llama.cpp — ★133.259 (+488) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
+• ggml-org/llama.cpp — ★133.262 (+491) · empujó en las últimas horas · MIT · última release v0.8.0 (28-oct-2026)
 • offa/android-foss — ★11.620 (+34) · empujó en las últimas horas · GPL-3.0
-• standardnotes/app — ★6.696 (+8) · empujó en las últimas horas · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
+• standardnotes/app — ★6.695 (+7) · empujó en las últimas horas · AGPL-3.0 · última release @standardnotes/desktop@3.202.11 (23-oct-2026)
 • nextcloud/android — ★5.671 (+15) · empujó en las últimas horas · GPL-2.0 · última release stable-35.0.2 (28-oct-2026)
-• NuvioMedia/NuvioTV — ★3.344 (+73) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
+• NuvioMedia/NuvioTV — ★3.345 (+74) · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
 • researchxxl/syncthing-android — ★3.244 (+52) · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
-• wikimedia/apps-android-wikipedia — ★3.052 (+2) · empujó en las últimas horas · Apache-2.0 · última release latest (3-nov-2026)
-• dongdongbh/Mindwtr — ★2.365 (+24) · empujó en las últimas horas · AGPL-3.0 · última release v1.3.7 (22-oct-2026)
+• wikimedia/apps-android-wikipedia — ★3.053 (+3) · empujó en las últimas horas · Apache-2.0 · última release latest (3-nov-2026)
+• dongdongbh/Mindwtr — ★2.366 (+25) · empujó en las últimas horas · AGPL-3.0 · última release v1.3.7 (22-oct-2026)
 • TeamWin/Team-Win-Recovery-Project — ★2.071 (+3) · *dormido*: sin empujar desde el 6-feb-2022 (1731 días) · sin licencia detectada por la API
 • plateaukao/einkbro — ★2.053 (+5) · empujó el 30-oct-2026 (hace 4 días) · NOASSERTION · última release v16.7.1 (11-oct-2026)
 • axiel7/AniHyou-android — ★628 (+1) · empujó en las últimas horas · GPL-3.0 · última release 1.6.3 (26-sep-2026)

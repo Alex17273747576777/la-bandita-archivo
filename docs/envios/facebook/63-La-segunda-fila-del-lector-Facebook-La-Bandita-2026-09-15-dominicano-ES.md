@@ -105,13 +105,13 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 11 repositorios que cita esta pi
 • samuelclay/NewsBlur — ★7.677 (+3) · empujó en las últimas horas · MIT · última release v0.2.2 (11-ago-2026)
 • ReadYouApp/ReadYou — ★7.633 (+9) · *dormido*: sin empujar desde el 11-ago-2026 (84 días) · GPL-3.0 · última release 0.16.2 (3-jun-2026)
 • spacecowboy/Feeder — ★3.107 (+11) · empujó en las últimas horas · GPL-3.0 · última release 2.25.0 (23-oct-2026)
-• wikimedia/apps-android-wikipedia — ★3.052 (+2) · empujó en las últimas horas · Apache-2.0 · última release latest (3-nov-2026)
+• wikimedia/apps-android-wikipedia — ★3.053 (+3) · empujó en las últimas horas · Apache-2.0 · última release latest (3-nov-2026)
 • SimonSchubert/LinuxCommandLibrary — ★2.093 (+7) · empujó en las últimas horas · Apache-2.0 · última release v4.9.1 (14-oct-2026)
 • plateaukao/einkbro — ★2.053 (+5) · empujó el 30-oct-2026 (hace 4 días) · NOASSERTION · última release v16.7.1 (11-oct-2026)
 • mateusz-bak/openreads — ★1.668 (+4) · *dormido*: sin empujar desde el 14-sep-2026 (50 días) · GPL-2.0 · última release v2.11.0 (9-sep-2025)
 • Livinglist/Hacki — ★1.640 (+4) · empujó en las últimas horas · GPL-3.0 · última release v3.8.2 (11-oct-2026)
 • astubenbord/paperless-mobile — ★1.495 (+4) · *dormido*: sin empujar desde el 1-jun-2026 (155 días) · GPL-3.0 · última release v4.5.0 (16-abr-2026)
-• jocmp/capyreader — ★1.442 (+9) · empujó en las últimas horas · GPL-3.0 · última release 2026.11.1216 (2-nov-2026)
+• jocmp/capyreader — ★1.441 (+8) · empujó en las últimas horas · GPL-3.0 · última release 2026.11.1216 (2-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
