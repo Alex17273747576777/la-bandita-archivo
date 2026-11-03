@@ -1,0 +1,72 @@
+{
+ "id": "canta",
+ "nombre": "Canta",
+ "repo": "samolego/Canta",
+ "autores": [
+  {
+   "nombre": "samolego",
+   "enlace": "https://github.com/samolego"
+  }
+ ],
+ "licencia": {
+  "spdx": "LGPL-3.0",
+  "archivo": "https://github.com/samolego/Canta/blob/master/LICENSE"
+ },
+ "nivel": "principiante",
+ "tarea": "Quitar del teléfono las aplicaciones de fábrica que nadie pidió, sin root y con vuelta atrás.",
+ "capitulo": 2,
+ "orden": 1,
+ "para_quien": {
+  "es": "para quien tenga un teléfono con aplicaciones preinstaladas que no se pueden desinstalar desde los ajustes.",
+  "no_es": "para quien quiera solo esconderlas un tiempo: para eso sirve congelar, y está en la ficha de Hail."
+ },
+ "manos": [
+  "Concede el permiso con Shizuku o con el método que uses; Canta lo detecta y lo explica en su pantalla inicial.",
+  "Abre la lista y ordena por categoría: las aplicaciones marcadas como seguras de quitar son las que el proyecto ha verificado con otros usuarios.",
+  "Antes de quitar, anota el nombre de paquete de cada una: es lo único que te permitirá reinstalarla después.",
+  "Desinstala de una en una las dos primeras y comprueba el teléfono: reinicia, abre el lanzador, manda un mensaje. Si todo va bien, sigue.",
+  "Guarda al final la lista de lo quitado en un archivo fuera del teléfono, con la fecha."
+ ],
+ "resultado_esperado": "Las aplicaciones de fábrica desaparecen del cajón y del sistema, el teléfono arranca normal y no se pierde ninguna función que uses.",
+ "si_sale_mal": [
+  "Si algo deja de funcionar, reinstala con la orden de reversión usando el nombre de paquete que anotaste.",
+  "Si el teléfono no arranca bien, el modo seguro o la recuperación del fabricante es la salida; por eso se prueba en dos aplicaciones y no en veinte."
+ ],
+ "deshacer": "La aplicación quitada se devuelve con `cmd package install-existing <paquete>`, que la reinstala desde la copia del sistema.",
+ "cabeza": [
+  "Una aplicación de fábrica vive en una partición que no se puede borrar sin root. Lo que hace Canta es quitarla para tu usuario: deja de existir para ti, deja de ejecutarse, libera sus datos, y el archivo original sigue en el sistema esperando a que lo devuelvas.",
+  "Eso es lo que hace la operación reversible y lo que la distingue de un formateo: el sistema conserva el paquete, y la vuelta atrás es una orden."
+ ],
+ "limites": [
+  "No borra el paquete del sistema: el espacio de la partición no se recupera.",
+  "Algunas aplicaciones de fábrica son dependencias de otras: quitarlas rompe funciones que no parecen relacionadas.",
+  "Necesita el permiso prestado activo para cada sesión."
+ ],
+ "oficio": {
+  "dato": "Quitar para el usuario no libera el espacio de la partición del sistema: el paquete sigue ahí, y lo que se recupera es el espacio de datos y la memoria que consumía al ejecutarse. Si el objetivo es espacio, esto casi no ayuda; si el objetivo es que no moleste, que no mande datos y que no gaste batería, es exactamente la herramienta. Y hay una comprobación que casi nadie hace: después de quitar, la aplicación sigue apareciendo en la lista de paquetes del sistema si se consulta con la orden correcta, lo que demuestra que la vuelta atrás es posible.",
+  "como_comprobar": "Después de quitar una, busca su paquete en la lista que incluye las desinstaladas para el usuario: si aparece ahí, está lista para volver con una sola orden. Si no aparece en ninguna lista, se desinstaló de verdad y no hay vuelta atrás.",
+  "comando": "adb shell pm list packages -u | grep <paquete>"
+ },
+ "riesgos": [
+  "Quitar una aplicación de la que depende el lanzador, el teclado o el sistema de actualizaciones puede dejar el teléfono inutilizable.",
+  "Quitar a ciegas lo que otra persona recomienda en un foro para otro modelo de teléfono."
+ ],
+ "alternativas": [
+  "aistra0528/Hail",
+  "Universal-Debloater-Alliance/universal-android-debloater-next-generation"
+ ],
+ "senal": {
+  "estrellas": 6446,
+  "nota": 71,
+  "edad_dias": 1162,
+  "ultima_entrega": "2026-10-29",
+  "descargas_10": 585210,
+  "contribuyentes": 18,
+  "repo_mb": 6.6,
+  "ci": 5,
+  "incidencias": "185/216"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de samolego · LGPL-3.0 · medido el 3 de noviembre de 2026"
+}

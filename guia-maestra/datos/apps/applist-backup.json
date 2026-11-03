@@ -1,0 +1,71 @@
+{
+ "id": "applist-backup",
+ "nombre": "AppListBackup",
+ "repo": "AndroidLabs-org/AppListBackup",
+ "autores": [
+  {
+   "nombre": "AndroidLabs-org",
+   "enlace": "https://github.com/AndroidLabs-org"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/AndroidLabs-org/AppListBackup/blob/main/LICENSE"
+ },
+ "nivel": "principiante",
+ "tarea": "Guardar la lista exacta de aplicaciones instaladas antes de formatear el teléfono, para saber qué volver a poner después.",
+ "capitulo": 1,
+ "orden": 1,
+ "para_quien": {
+  "es": "para cualquiera, antes de un formateo o de un cambio de teléfono: es el primer paso y el más barato.",
+  "no_es": "para quien quiera copiar los datos de sus aplicaciones: esto guarda los nombres, no el contenido."
+ },
+ "manos": [
+  "Instala la aplicación desde su repositorio y ábrela. No pide permisos especiales ni root.",
+  "Toca el botón de exportar y elige el formato de tabla, que es el único que se puede abrir con cualquier programa después.",
+  "Guarda el archivo fuera del teléfono: mándalo a tu correo o cópialo a la computadora. Una lista que vive en el aparato que vas a formatear no es una lista.",
+  "Abre el archivo en la computadora y comprueba que tiene una fila por aplicación y que aparecen las de fábrica, no solo las que instalaste tú.",
+  "Repite la exportación inmediatamente antes de formatear: la lista de marzo no sirve para el teléfono de noviembre."
+ ],
+ "resultado_esperado": "Un archivo de texto con una fila por aplicación, con su nombre visible y su nombre de paquete, que se abre en cualquier hoja de cálculo.",
+ "si_sale_mal": [
+  "Si el archivo sale vacío, comprueba que le diste permiso de almacenamiento la primera vez.",
+  "Si solo aparecen tus aplicaciones, activa la opción de incluir las del sistema: son las que más cuesta recordar después."
+ ],
+ "deshacer": "No hay nada que deshacer: la aplicación solo lee la lista y escribe un archivo.",
+ "cabeza": [
+  "El nombre visible de una aplicación y su nombre de paquete son dos cosas distintas: «Galería» es una etiqueta, `com.fabricante.gallery` es la identidad. Cuando dentro de un año quieras volver a poner esa aplicación, el nombre visible no te sirve de nada: solo el paquete te dice cuál era.",
+  "Por eso esta ficha va primero en el capítulo aunque parezca poca cosa: es la única que convierte una decisión irreversible en una reversible."
+ ],
+ "limites": [
+  "No copia datos ni archivos: solo la lista.",
+  "No sirve para restaurar nada por sí sola.",
+  "Un solo autor y un solo flujo de compilación."
+ ],
+ "oficio": {
+  "dato": "La lista de paquetes se puede sacar sin instalar ninguna aplicación, con una orden, y esa lista incluye las aplicaciones del sistema que no aparecen en ningún menú: `pm list packages -s` muestra solo las del sistema y `pm list packages -u` incluye las que ya desinstalaste para tu usuario. Guardar esa salida en un archivo de texto es la copia de seguridad más pequeña y más útil que existe: unos pocos kilobytes que caben en un correo y que permiten reconstruir el teléfono semanas después.",
+  "como_comprobar": "Con el permiso de depuración activo, ejecuta la orden de abajo y guarda la salida en un archivo. Compara el número de líneas con las aplicaciones que ves en el menú: la diferencia son las del sistema, y esas son las que se olvidan.",
+  "comando": "adb shell pm list packages -u > lista-de-paquetes.txt && wc -l lista-de-paquetes.txt"
+ },
+ "riesgos": [
+  "Creer que una lista de nombres es una copia de seguridad: no lo es, y confundirlas se paga al restaurar."
+ ],
+ "alternativas": [
+  "NeoApplications/Neo-Backup",
+  "XayahSuSuSu/Android-DataBackup"
+ ],
+ "senal": {
+  "estrellas": 196,
+  "nota": 47,
+  "edad_dias": 852,
+  "ultima_entrega": "2026-10-09",
+  "descargas_10": 4065,
+  "contribuyentes": 1,
+  "repo_mb": 5.3,
+  "ci": 1,
+  "incidencias": "28/35"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de AndroidLabs-org · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

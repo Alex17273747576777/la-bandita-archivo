@@ -1,0 +1,72 @@
+{
+ "id": "neo-backup",
+ "nombre": "Neo Backup",
+ "repo": "NeoApplications/Neo-Backup",
+ "autores": [
+  {
+   "nombre": "NeoApplications",
+   "enlace": "https://github.com/NeoApplications"
+  }
+ ],
+ "licencia": {
+  "spdx": "AGPL-3.0",
+  "archivo": "https://github.com/NeoApplications/Neo-Backup/blob/main/LICENSE"
+ },
+ "nivel": "intermedio",
+ "tarea": "Copiar las aplicaciones y sus datos antes de formatear o de cambiar de teléfono, con root o con el permiso prestado.",
+ "capitulo": 1,
+ "orden": 2,
+ "para_quien": {
+  "es": "para quien vaya a cambiar de teléfono y quiera llevarse las aplicaciones con sus datos, no solo la lista.",
+  "no_es": "para quien espere una copia completa del sistema: eso es otra cosa y necesita otro tipo de herramienta."
+ },
+ "manos": [
+  "Instala la aplicación y dale acceso: con root funciona completa; sin root, con el permiso prestado, funciona para las aplicaciones que permiten copia.",
+  "Elige la carpeta de destino. Que sea una carpeta que sobreviva al formateo: tarjeta externa o almacenamiento compartido, nunca la memoria interna a secas.",
+  "Selecciona las aplicaciones y elige copiar aplicación y datos. Empieza por dos o tres para probar antes de lanzar las doscientas.",
+  "Espera a que termine y anota el número de aplicaciones copiadas: es el dato que después te dirá si la copia sirvió.",
+  "Restaura primero una aplicación de prueba en el teléfono nuevo. Si esa vuelve con sus datos, el resto también."
+ ],
+ "resultado_esperado": "Una carpeta con una subcarpeta por aplicación, y al restaurar en el teléfono nuevo las aplicaciones vuelven con su configuración.",
+ "si_sale_mal": [
+  "Si una aplicación falla al restaurar, casi siempre es porque el paquete instalado tiene otra firma: reinstala el mismo paquete que tenías, no uno de otra tienda.",
+  "Si la copia se corta a medias, revisa el espacio libre: la aplicación avisa, pero después de haber copiado media lista."
+ ],
+ "deshacer": "Restaurar no borra lo que hay: sobrescribe los datos de la aplicación elegida. Para volver atrás de una restauración, se restaura la copia anterior, y por eso conviene no borrar la primera.",
+ "cabeza": [
+  "Una copia de aplicación tiene dos mitades que se pueden perder por separado: el paquete instalable y los datos. La mayoría de la gente copia los datos y olvida el paquete, y después descubre que la aplicación ya no existe en la tienda.",
+  "La otra mitad del problema es la firma: Android comprueba que el paquete instalado esté firmado por el mismo autor que el que generó los datos. Si reinstalas desde otro sitio, la restauración se niega aunque el archivo esté intacto."
+ ],
+ "limites": [
+  "Sin root, las aplicaciones que declaran no permitir copia no se copian: solo se listan.",
+  "No copia los archivos de la tarjeta ni las fotos.",
+  "Su última entrega es de mayo de 2026 y su cola tiene más de la mitad abierta."
+ ],
+ "oficio": {
+  "dato": "El tamaño de una copia no dice si está completa: estas herramientas comprimen y no guardan dos veces el mismo archivo, así que doscientas aplicaciones pueden pesar menos que una sola aplicación grande. Lo que hay que comparar no es el tamaño, es el recuento: cuántas aplicaciones hay en la copia frente a cuántas hay en el teléfono. Si los dos números coinciden y la fecha es de hoy, la copia está entera; si el tamaño te parece pequeño, es que comprime bien.",
+  "como_comprobar": "Cuenta las aplicaciones del teléfono con la orden de abajo y compara con el número que te dio la copia al terminar. Si difieren, mira cuáles faltan antes de formatear, no después.",
+  "comando": "adb shell pm list packages -3 | wc -l"
+ },
+ "riesgos": [
+  "Guardar la copia en la memoria interna y formatear el teléfono: la copia se va con lo demás.",
+  "Restaurar datos de una versión más nueva de la aplicación en una más vieja puede corromper su base de datos."
+ ],
+ "alternativas": [
+  "XayahSuSuSu/Android-DataBackup",
+  "hddq/restoid"
+ ],
+ "senal": {
+  "estrellas": 3893,
+  "nota": 57,
+  "edad_dias": 2523,
+  "ultima_entrega": "2026-05-03",
+  "descargas_10": 84161,
+  "contribuyentes": 100,
+  "repo_mb": 93.1,
+  "ci": 2,
+  "incidencias": "452/691"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de NeoApplications · AGPL-3.0 · medido el 3 de noviembre de 2026"
+}

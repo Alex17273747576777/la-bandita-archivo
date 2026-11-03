@@ -1,0 +1,72 @@
+{
+ "id": "hail",
+ "nombre": "Hail",
+ "repo": "aistra0528/Hail",
+ "autores": [
+  {
+   "nombre": "aistra0528",
+   "enlace": "https://github.com/aistra0528"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/aistra0528/Hail/blob/main/LICENSE"
+ },
+ "nivel": "principiante",
+ "tarea": "Congelar, esconder o suspender aplicaciones sin desinstalarlas, para que no molesten pero vuelvan cuando quieras.",
+ "capitulo": 2,
+ "orden": 2,
+ "para_quien": {
+  "es": "para quien quiera que una aplicación deje de correr sin perderla: la versión reversible de la limpieza.",
+  "no_es": "para quien quiera recuperar espacio en el almacenamiento: congelar no libera nada."
+ },
+ "manos": [
+  "Concede el permiso prestado, o activa el modo de administrador si tu caso lo permite.",
+  "Elige una aplicación que no uses y aplica el modo de congelado, no el de desinstalación.",
+  "Comprueba el resultado abriendo el cajón de aplicaciones: debe aparecer atenuada o desaparecer, según el modo elegido.",
+  "Verifica que no se ejecuta: en los ajustes de batería no debe aparecer consumiendo desde el último arranque.",
+  "Descongela y comprueba que vuelve tal como estaba, con sus datos y su sesión abierta."
+ ],
+ "resultado_esperado": "La aplicación deja de ejecutarse y de gastar batería, y al descongelarla vuelve con todo lo que tenía.",
+ "si_sale_mal": [
+  "Si la aplicación vuelve a aparecer sola después de reiniciar, usa el modo de administrador del aparato en lugar del permiso prestado.",
+  "Si el teléfono se pone lento al congelar muchas de golpe, hazlo de cinco en cinco y reinicia entre tandas."
+ ],
+ "deshacer": "En la misma lista, la aplicación congelada tiene su interruptor de vuelta. Cada modo se revierte por separado.",
+ "cabeza": [
+  "Congelar es un estado intermedio que el sistema conoce: la aplicación existe, aparece en los ajustes y no se puede ejecutar. Es lo más parecido a apagarla sin quitarla, y por eso es el modo más seguro para probar.",
+  "Su punto débil es de fecha: su última entrega es de agosto de 2026 aunque el repositorio sigue moviéndose, y su cola tiene más de la mitad abierta. Un proyecto con ochenta y siete personas y una sola integración continua publica menos de lo que su tamaño sugiere."
+ ],
+ "limites": [
+  "No libera espacio: el paquete y los datos siguen ocupando lo mismo.",
+  "Sin el permiso activo, la mayoría de las funciones no responden.",
+  "No publica desde agosto, y su cola de incidencias está a la mitad."
+ ],
+ "oficio": {
+  "dato": "Congelar y suspender no son lo mismo, y el sistema los trata distinto: una aplicación congelada no puede ejecutarse pero sigue visible en los ajustes; una suspendida además desaparece del cajón y se le cortan las notificaciones como si no existiera. La diferencia práctica aparece al intentar abrirla desde otra aplicación: la congelada falla, la suspendida se comporta como si no estuviera instalada. Para callar algo que manda notificaciones sin perderlo, la suspendida es la correcta.",
+  "como_comprobar": "Consulta el estado del paquete: el sistema informa si está deshabilitado, suspendido o normal. Ese dato no lo da la interfaz de la herramienta, lo da el propio teléfono.",
+  "comando": "adb shell dumpsys package <paquete> | grep -E \"enabled=|suspended=\" | head"
+ },
+ "riesgos": [
+  "Congelar aplicaciones del sistema por error puede dejar sin notificaciones a otras que sí usas.",
+  "Confundir congelar con desinstalar y quedarse sin el espacio que se esperaba recuperar."
+ ],
+ "alternativas": [
+  "samolego/Canta",
+  "SysAdminDoc/AppManagerNG"
+ ],
+ "senal": {
+  "estrellas": 7095,
+  "nota": 47,
+  "edad_dias": 1909,
+  "ultima_entrega": "2026-08-26",
+  "descargas_10": 333892,
+  "contribuyentes": 87,
+  "repo_mb": 4.0,
+  "ci": 1,
+  "incidencias": "147/318"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de aistra0528 · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

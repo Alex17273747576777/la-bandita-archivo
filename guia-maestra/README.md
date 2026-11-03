@@ -2,7 +2,7 @@
 
 **Aplicaciones y recursos de código abierto, en español, con el oficio explicado.**
 
-_Estado: 12 capítulos planificados · 6 fichas verificadas · última medición 3 de noviembre de 2026_
+_Estado: 12 capítulos planificados · 16 fichas verificadas · última medición 3 de noviembre de 2026_
 
 Cada ficha tiene tres capas: **Manos** (los pasos, para quien empieza), **Cabeza** (cómo funciona y
 dónde se rompe) y **Oficio** (un dato que casi nadie sabe y que se puede comprobar). Sin la tercera,
@@ -12,8 +12,8 @@ la aplicación no entra.
 
 | # | Capítulo | Estado | Fichas |
 |---:|---|---|---:|
-| 1 | Antes de tocar nada | en preparación | 0 |
-| 2 | El teléfono que decide por ti | en preparación | 0 |
+| 1 | Antes de tocar nada | publicado | 5 |
+| 2 | El teléfono que decide por ti | publicado | 5 |
 | 3 | El permiso prestado | publicado | 6 |
 | 4 | Instalar fuera de la tienda | en preparación | 0 |
 | 5 | Privacidad que se puede comprobar | en preparación | 0 |
@@ -29,6 +29,16 @@ la aplicación no entra.
 
 | Aplicación | Nivel | Nota | Licencia | Autor | Medido |
 |---|---|---:|---|---|---|
+| [AppListBackup](https://github.com/AndroidLabs-org/AppListBackup) | principiante | **47** | GPL-3.0 | AndroidLabs-org | 3 de noviembre de 2026 |
+| [Neo Backup](https://github.com/NeoApplications/Neo-Backup) | intermedio | **57** | AGPL-3.0 | NeoApplications | 3 de noviembre de 2026 |
+| [DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup) | intermedio | **48** | GPL-3.0 | XayahSuSuSu | 3 de noviembre de 2026 |
+| [restoid](https://github.com/hddq/restoid) | experto | **54** | GPL-3.0 | hddq | 3 de noviembre de 2026 |
+| [Seedvault](https://github.com/seedvault-app/seedvault) | intermedio | **26** | Apache-2.0 (declarada en el proyecto; GitHub no la detecta) | Seedvault | 3 de noviembre de 2026 |
+| [Canta](https://github.com/samolego/Canta) | principiante | **71** | LGPL-3.0 | samolego | 3 de noviembre de 2026 |
+| [Hail](https://github.com/aistra0528/Hail) | principiante | **47** | GPL-3.0 | aistra0528 | 3 de noviembre de 2026 |
+| [Universal Android Debloater NG](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation) | intermedio | **59** | GPL-3.0 | Universal-Debloater-Alliance | 3 de noviembre de 2026 |
+| [Uraam](https://github.com/Ruraam/Uraam) | experto | **59** | GPL-3.0 | Ruraam | 3 de noviembre de 2026 |
+| [App Manager NG](https://github.com/SysAdminDoc/AppManagerNG) | experto | **33** | GPL-3.0 | SysAdminDoc | 3 de noviembre de 2026 |
 | [Shizuku](https://github.com/RikkaApps/Shizuku) | principiante | **40** | Apache-2.0 | RikkaApps (RikkaW) | 3 de noviembre de 2026 |
 | [Shevery](https://github.com/HmnDev-Tech/shevery) | intermedio | **70** | Apache-2.0 | HmnDev-Tech | 3 de noviembre de 2026 |
 | [Shizuku-Next](https://github.com/rushiranpise/Shizuku-Next) | principiante | **70** | Apache-2.0 | rushiranpise | 3 de noviembre de 2026 |

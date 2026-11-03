@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import html
 import json
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -313,9 +314,50 @@ def generar() -> int:
     (RAIZ / "CREDITOS.md").write_text(creditos(fs), encoding="utf-8")
     SITIO.mkdir(exist_ok=True)
     (SITIO / "index.html").write_text(html_indice(fs), encoding="utf-8")
-    # capítulo 3 como página propia, a partir del texto escrito a mano
-    cap = TEXTO / "03-el-permiso-prestado.md"
-    if cap.exists():
+    # una página por capítulo escrito, a partir del texto de `texto/capitulos`
+    caps_hechos = []
+    for c in capitulos():
+        cap = TEXTO / c["archivo"]
+        if not cap.exists():
+            continue
+        fichas_pub = [f for f in fs if f["capitulo"] == c["numero"]]
+        fichas_html = "\n".join(html_ficha(f) for f in sorted(fichas_pub, key=lambda x: x["orden"]))
+        bloques = []
+        for bl in cap.read_text(encoding="utf-8").split("\n\n"):
+            bl = bl.strip()
+            if not bl:
+                continue
+            if bl.startswith("### "):
+                bloques.append(f"<h3>{html.escape(bl[4:])}</h3>")
+            elif bl.startswith("## "):
+                bloques.append(f"<h2>{html.escape(bl[3:])}</h2>")
+            elif bl.startswith("# "):
+                bloques.append(f"<h1>{html.escape(bl[2:])}</h1>")
+            elif bl.startswith("```"):
+                bloques.append(f"<pre><code>{html.escape(bl.strip('`').strip())}</code></pre>")
+            elif bl.startswith("- "):
+                lis = "".join(f"<li>{html.escape(x[2:])}</li>" for x in bl.splitlines() if x.startswith("- "))
+                bloques.append(f"<ul>{lis}</ul>")
+            elif bl.startswith("**") and bl.endswith("**") and "\n" not in bl:
+                bloques.append(f"<h3>{html.escape(bl.strip('*'))}</h3>")
+            else:
+                txt = html.escape(bl)
+                txt = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", txt)
+                bloques.append(f"<p>{txt}</p>")
+        pagina = f"capitulo-{c['numero']:02d}.html"
+        (SITIO / pagina).write_text(
+            f"""<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Capítulo {c['numero']} · {html.escape(c['titulo'])} · Guía Maestra</title><style>{CSS}</style></head>
+<body><div class="hoja"><p class="meta"><a href="index.html">← Guía Maestra</a> · capítulo {c['numero']}</p>
+{''.join(bloques)}
+<h2>Las {len(fichas_pub)} fichas del capítulo</h2>
+{fichas_html}
+<footer><p>Texto CC BY-SA 4.0 · datos CC BY 4.0 · La Bandita. Mediciones del {bon(date.today().isoformat())}.</p></footer>
+</div></body></html>""", encoding="utf-8")
+        caps_hechos.append(pagina)
+    cap = (SITIO / "capitulo-03.html")
+    if False:
         cuerpo = cap.read_text(encoding="utf-8")
         fichas_pub = [f for f in fs if f["capitulo"] == 3]
         fichas_html = "\n".join(html_ficha(f) for f in sorted(fichas_pub, key=lambda x: x["orden"]))
@@ -349,8 +391,8 @@ def generar() -> int:
 {fichas_html}
 <footer><p>Texto CC BY-SA 4.0 · datos CC BY 4.0 · La Bandita. Mediciones del {bon(date.today().isoformat())}.</p></footer>
 </div></body></html>""", encoding="utf-8")
-    print(f"generado: README.md · CREDITOS.md · sitio/index.html"
-          f"{' · sitio/capitulo-03.html' if cap.exists() else ''} · {len(fs)} fichas")
+    print(f"generado: README.md · CREDITOS.md · sitio/index.html · "
+          f"{len(caps_hechos)} páginas de capítulo ({', '.join(caps_hechos)}) · {len(fs)} fichas")
     return 0
 
 

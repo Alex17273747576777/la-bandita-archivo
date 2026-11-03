@@ -1,0 +1,72 @@
+{
+ "id": "uraam",
+ "nombre": "Uraam",
+ "repo": "Ruraam/Uraam",
+ "autores": [
+  {
+   "nombre": "Ruraam",
+   "enlace": "https://github.com/Ruraam"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/Ruraam/Uraam/blob/main/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Tener en el bolsillo un cajón de órdenes de ADB listas, sin computadora, para cuando algo se rompe.",
+ "capitulo": 2,
+ "orden": 4,
+ "para_quien": {
+  "es": "para quien ya se maneje con órdenes y quiera tenerlas a mano sin llevar el cable.",
+  "no_es": "para quien empiece: aquí no hay botones que expliquen, hay comandos que se ejecutan."
+ },
+ "manos": [
+  "Instala, concede el permiso prestado y abre el catálogo de acciones.",
+  "Empieza por las de lectura: listar paquetes, ver propiedades del sistema, comprobar el estado de la batería.",
+  "Usa una acción de escritura reversible, como limpiar la caché de una aplicación, y comprueba el resultado.",
+  "Guarda tu propia lista de órdenes frecuentes en la aplicación, con una nota de qué hace cada una.",
+  "Antes de usar cualquier acción marcada como destructiva, lee la orden que ejecuta y compruébala en una libreta."
+ ],
+ "resultado_esperado": "Las acciones se ejecutan y el teléfono responde; las de lectura devuelven información que antes no tenías.",
+ "si_sale_mal": [
+  "Si una acción falla con error de permiso, la sesión se cayó: vuelve a concederla.",
+  "Si una acción deja el teléfono raro, reinicia antes de hacer otra cosa."
+ ],
+ "deshacer": "Las acciones de lectura no cambian nada. Las de escritura dependen de cada una: las de limpieza son reversibles, las de desinstalación se revierten con `install-existing`.",
+ "cabeza": [
+  "Es la versión de bolsillo de un taller: la misma idea que la consola del capítulo 3, pero con las órdenes agrupadas por tarea para no tener que recordarlas.",
+  "Su nota es alta para su tamaño —cincuenta y nueve con dos personas y ciento cincuenta y un días— porque publica: su última entrega es de ayer y su cola está casi vacía."
+ ],
+ "limites": [
+  "Dos personas: es un proyecto joven y pequeño.",
+  "Sin huellas en sus adjuntos.",
+  "La comodidad de tener órdenes listas invita a ejecutarlas sin leerlas."
+ ],
+ "oficio": {
+  "dato": "Una de las órdenes más útiles y menos conocidas no desinstala nada: `pm clear` borra todos los datos de una aplicación y la deja como recién instalada, sin quitarla. Es la forma más rápida de arreglar una aplicación que se quedó en un estado imposible —sin perder el paquete, sin reinstalar, sin buscar el archivo— y también la forma más rápida de perder una sesión que no se quiere perder. La regla: se usa cuando la aplicación ya no funciona, nunca para 'limpiar' por gusto.",
+  "como_comprobar": "Antes de ejecutarla, comprueba que la aplicación no tiene datos que no puedas recuperar: si tiene una sesión abierta o archivos dentro, esos se van con la orden. Después, el sistema informa de cuántos datos se borraron.",
+  "comando": "adb shell pm clear <paquete>"
+ },
+ "riesgos": [
+  "Ejecutar una orden destructiva sin leerla. En este capítulo, ese es el riesgo real.",
+  "Proyecto de dos personas: si se detiene, las órdenes siguen existiendo pero nadie las mantiene."
+ ],
+ "alternativas": [
+  "samolego/Canta",
+  "DP-Hridayan/aShellYou"
+ ],
+ "senal": {
+  "estrellas": 52,
+  "nota": 59,
+  "edad_dias": 151,
+  "ultima_entrega": "2026-11-01",
+  "descargas_10": 62,
+  "contribuyentes": 2,
+  "repo_mb": 19.9,
+  "ci": 2,
+  "incidencias": "1/1"
+ },
+ "medido_en": "2026-11-03",
+ "swhid": null,
+ "credito": "Programa de Ruraam · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

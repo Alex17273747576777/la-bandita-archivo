@@ -39,8 +39,8 @@ Cada ficha lleva su autor, su licencia y la fecha en que se midió.</p>
 </div></div></header>
 <main class="rejilla"><div class="col-12">
 <h2>Capítulos</h2><table><thead><tr><th>#</th><th>Capítulo</th><th>Estado</th><th>Fichas</th></tr></thead>
-<tbody><tr><td>1</td><td>Antes de tocar nada</td><td>pendiente</td><td>0</td></tr>
-<tr><td>2</td><td>El teléfono que decide por ti</td><td>pendiente</td><td>0</td></tr>
+<tbody><tr><td>1</td><td>Antes de tocar nada</td><td>publicado</td><td>5</td></tr>
+<tr><td>2</td><td>El teléfono que decide por ti</td><td>publicado</td><td>5</td></tr>
 <tr><td>3</td><td>El permiso prestado</td><td>publicado</td><td>6</td></tr>
 <tr><td>4</td><td>Instalar fuera de la tienda</td><td>pendiente</td><td>0</td></tr>
 <tr><td>5</td><td>Privacidad que se puede comprobar</td><td>pendiente</td><td>0</td></tr>
@@ -55,6 +55,89 @@ Cada ficha lleva su autor, su licencia y la fecha en que se midió.</p>
 <p><a href="capitulo-03.html"><strong>3 · El permiso prestado</strong></a> — qué es el permiso de depuración,
 cómo se concede, cómo se revoca y seis aplicaciones que lo usan, con sus tres capas.</p>
 <h2>Fichas</h2>
+
+<article class="ficha">
+  <h3>AppListBackup <span class="meta">· AndroidLabs-org/AppListBackup</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>47/100</strong> ·
+    ★196 · 852 días · última entrega 2026-10-09 ·
+    4,065 descargas en 10 entregas · 1 personas ·
+    1 flujos de compilación · incidencias 28/35.
+  </p>
+  <p>Guardar la lista exacta de aplicaciones instaladas antes de formatear el teléfono, para saber qué volver a poner después.</p>
+  <p class="meta"><strong>Para quién es:</strong> para cualquiera, antes de un formateo o de un cambio de teléfono: es el primer paso y el más barato.
+     <br><strong>Para quién no es:</strong> para quien quiera copiar los datos de sus aplicaciones: esto guarda los nombres, no el contenido.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instala la aplicación desde su repositorio y ábrela. No pide permisos especiales ni root.</li>
+<li>Toca el botón de exportar y elige el formato de tabla, que es el único que se puede abrir con cualquier programa después.</li>
+<li>Guarda el archivo fuera del teléfono: mándalo a tu correo o cópialo a la computadora. Una lista que vive en el aparato que vas a formatear no es una lista.</li>
+<li>Abre el archivo en la computadora y comprueba que tiene una fila por aplicación y que aparecen las de fábrica, no solo las que instalaste tú.</li>
+<li>Repite la exportación inmediatamente antes de formatear: la lista de marzo no sirve para el teléfono de noviembre.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Un archivo de texto con una fila por aplicación, con su nombre visible y su nombre de paquete, que se abre en cualquier hoja de cálculo.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si el archivo sale vacío, comprueba que le diste permiso de almacenamiento la primera vez.</li>
+<li>Si solo aparecen tus aplicaciones, activa la opción de incluir las del sistema: son las que más cuesta recordar después.</li></ul>
+    <p><strong>Cómo se deshace:</strong> No hay nada que deshacer: la aplicación solo lee la lista y escribe un archivo.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>El nombre visible de una aplicación y su nombre de paquete son dos cosas distintas: «Galería» es una etiqueta, `com.fabricante.gallery` es la identidad. Cuando dentro de un año quieras volver a poner esa aplicación, el nombre visible no te sirve de nada: solo el paquete te dice cuál era.</p>
+<p>Por eso esta ficha va primero en el capítulo aunque parezca poca cosa: es la única que convierte una decisión irreversible en una reversible.</p>
+    <p><strong>Límites:</strong></p><ul><li>No copia datos ni archivos: solo la lista.</li>
+<li>No sirve para restaurar nada por sí sola.</li>
+<li>Un solo autor y un solo flujo de compilación.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>La lista de paquetes se puede sacar sin instalar ninguna aplicación, con una orden, y esa lista incluye las aplicaciones del sistema que no aparecen en ningún menú: `pm list packages -s` muestra solo las del sistema y `pm list packages -u` incluye las que ya desinstalaste para tu usuario. Guardar esa salida en un archivo de texto es la copia de seguridad más pequeña y más útil que existe: unos pocos kilobytes que caben en un correo y que permiten reconstruir el teléfono semanas después.</p>
+    <p><strong>Cómo se comprueba:</strong> Con el permiso de depuración activo, ejecuta la orden de abajo y guarda la salida en un archivo. Compara el número de líneas con las aplicaciones que ves en el menú: la diferencia son las del sistema, y esas son las que se olvidan.</p>
+    <pre><code>adb shell pm list packages -u &gt; lista-de-paquetes.txt &amp;&amp; wc -l lista-de-paquetes.txt</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Creer que una lista de nombres es una copia de seguridad: no lo es, y confundirlas se paga al restaurar.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/NeoApplications/Neo-Backup">NeoApplications/Neo-Backup</a>, <a href="https://github.com/XayahSuSuSu/Android-DataBackup">XayahSuSuSu/Android-DataBackup</a></p></div>
+
+  <p class="meta">Programa de AndroidLabs-org · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/AndroidLabs-org/AppListBackup/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Canta <span class="meta">· samolego/Canta</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>71/100</strong> ·
+    ★6,446 · 1162 días · última entrega 2026-10-29 ·
+    585,210 descargas en 10 entregas · 18 personas ·
+    5 flujos de compilación · incidencias 185/216.
+  </p>
+  <p>Quitar del teléfono las aplicaciones de fábrica que nadie pidió, sin root y con vuelta atrás.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien tenga un teléfono con aplicaciones preinstaladas que no se pueden desinstalar desde los ajustes.
+     <br><strong>Para quién no es:</strong> para quien quiera solo esconderlas un tiempo: para eso sirve congelar, y está en la ficha de Hail.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Concede el permiso con Shizuku o con el método que uses; Canta lo detecta y lo explica en su pantalla inicial.</li>
+<li>Abre la lista y ordena por categoría: las aplicaciones marcadas como seguras de quitar son las que el proyecto ha verificado con otros usuarios.</li>
+<li>Antes de quitar, anota el nombre de paquete de cada una: es lo único que te permitirá reinstalarla después.</li>
+<li>Desinstala de una en una las dos primeras y comprueba el teléfono: reinicia, abre el lanzador, manda un mensaje. Si todo va bien, sigue.</li>
+<li>Guarda al final la lista de lo quitado en un archivo fuera del teléfono, con la fecha.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Las aplicaciones de fábrica desaparecen del cajón y del sistema, el teléfono arranca normal y no se pierde ninguna función que uses.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si algo deja de funcionar, reinstala con la orden de reversión usando el nombre de paquete que anotaste.</li>
+<li>Si el teléfono no arranca bien, el modo seguro o la recuperación del fabricante es la salida; por eso se prueba en dos aplicaciones y no en veinte.</li></ul>
+    <p><strong>Cómo se deshace:</strong> La aplicación quitada se devuelve con `cmd package install-existing &lt;paquete&gt;`, que la reinstala desde la copia del sistema.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Una aplicación de fábrica vive en una partición que no se puede borrar sin root. Lo que hace Canta es quitarla para tu usuario: deja de existir para ti, deja de ejecutarse, libera sus datos, y el archivo original sigue en el sistema esperando a que lo devuelvas.</p>
+<p>Eso es lo que hace la operación reversible y lo que la distingue de un formateo: el sistema conserva el paquete, y la vuelta atrás es una orden.</p>
+    <p><strong>Límites:</strong></p><ul><li>No borra el paquete del sistema: el espacio de la partición no se recupera.</li>
+<li>Algunas aplicaciones de fábrica son dependencias de otras: quitarlas rompe funciones que no parecen relacionadas.</li>
+<li>Necesita el permiso prestado activo para cada sesión.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Quitar para el usuario no libera el espacio de la partición del sistema: el paquete sigue ahí, y lo que se recupera es el espacio de datos y la memoria que consumía al ejecutarse. Si el objetivo es espacio, esto casi no ayuda; si el objetivo es que no moleste, que no mande datos y que no gaste batería, es exactamente la herramienta. Y hay una comprobación que casi nadie hace: después de quitar, la aplicación sigue apareciendo en la lista de paquetes del sistema si se consulta con la orden correcta, lo que demuestra que la vuelta atrás es posible.</p>
+    <p><strong>Cómo se comprueba:</strong> Después de quitar una, busca su paquete en la lista que incluye las desinstaladas para el usuario: si aparece ahí, está lista para volver con una sola orden. Si no aparece en ninguna lista, se desinstaló de verdad y no hay vuelta atrás.</p>
+    <pre><code>adb shell pm list packages -u | grep &lt;paquete&gt;</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Quitar una aplicación de la que depende el lanzador, el teclado o el sistema de actualizaciones puede dejar el teléfono inutilizable.</li>
+<li>Quitar a ciegas lo que otra persona recomienda en un foro para otro modelo de teléfono.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/aistra0528/Hail">aistra0528/Hail</a>, <a href="https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation">Universal-Debloater-Alliance/universal-android-debloater-next-generation</a></p></div>
+
+  <p class="meta">Programa de samolego · LGPL-3.0 · medido el 3 de noviembre de 2026 · licencia LGPL-3.0
+     (<a href="https://github.com/samolego/Canta/blob/master/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
 
 <article class="ficha">
   <h3>Shizuku <span class="meta">· RikkaApps/Shizuku</span></h3>
@@ -102,6 +185,90 @@ cómo se concede, cómo se revoca y seis aplicaciones que lo usan, con sus tres 
 </article>
 
 <article class="ficha">
+  <h3>Hail <span class="meta">· aistra0528/Hail</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>47/100</strong> ·
+    ★7,095 · 1909 días · última entrega 2026-08-26 ·
+    333,892 descargas en 10 entregas · 87 personas ·
+    1 flujos de compilación · incidencias 147/318.
+  </p>
+  <p>Congelar, esconder o suspender aplicaciones sin desinstalarlas, para que no molesten pero vuelvan cuando quieras.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien quiera que una aplicación deje de correr sin perderla: la versión reversible de la limpieza.
+     <br><strong>Para quién no es:</strong> para quien quiera recuperar espacio en el almacenamiento: congelar no libera nada.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Concede el permiso prestado, o activa el modo de administrador si tu caso lo permite.</li>
+<li>Elige una aplicación que no uses y aplica el modo de congelado, no el de desinstalación.</li>
+<li>Comprueba el resultado abriendo el cajón de aplicaciones: debe aparecer atenuada o desaparecer, según el modo elegido.</li>
+<li>Verifica que no se ejecuta: en los ajustes de batería no debe aparecer consumiendo desde el último arranque.</li>
+<li>Descongela y comprueba que vuelve tal como estaba, con sus datos y su sesión abierta.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> La aplicación deja de ejecutarse y de gastar batería, y al descongelarla vuelve con todo lo que tenía.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si la aplicación vuelve a aparecer sola después de reiniciar, usa el modo de administrador del aparato en lugar del permiso prestado.</li>
+<li>Si el teléfono se pone lento al congelar muchas de golpe, hazlo de cinco en cinco y reinicia entre tandas.</li></ul>
+    <p><strong>Cómo se deshace:</strong> En la misma lista, la aplicación congelada tiene su interruptor de vuelta. Cada modo se revierte por separado.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Congelar es un estado intermedio que el sistema conoce: la aplicación existe, aparece en los ajustes y no se puede ejecutar. Es lo más parecido a apagarla sin quitarla, y por eso es el modo más seguro para probar.</p>
+<p>Su punto débil es de fecha: su última entrega es de agosto de 2026 aunque el repositorio sigue moviéndose, y su cola tiene más de la mitad abierta. Un proyecto con ochenta y siete personas y una sola integración continua publica menos de lo que su tamaño sugiere.</p>
+    <p><strong>Límites:</strong></p><ul><li>No libera espacio: el paquete y los datos siguen ocupando lo mismo.</li>
+<li>Sin el permiso activo, la mayoría de las funciones no responden.</li>
+<li>No publica desde agosto, y su cola de incidencias está a la mitad.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Congelar y suspender no son lo mismo, y el sistema los trata distinto: una aplicación congelada no puede ejecutarse pero sigue visible en los ajustes; una suspendida además desaparece del cajón y se le cortan las notificaciones como si no existiera. La diferencia práctica aparece al intentar abrirla desde otra aplicación: la congelada falla, la suspendida se comporta como si no estuviera instalada. Para callar algo que manda notificaciones sin perderlo, la suspendida es la correcta.</p>
+    <p><strong>Cómo se comprueba:</strong> Consulta el estado del paquete: el sistema informa si está deshabilitado, suspendido o normal. Ese dato no lo da la interfaz de la herramienta, lo da el propio teléfono.</p>
+    <pre><code>adb shell dumpsys package &lt;paquete&gt; | grep -E &quot;enabled=|suspended=&quot; | head</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Congelar aplicaciones del sistema por error puede dejar sin notificaciones a otras que sí usas.</li>
+<li>Confundir congelar con desinstalar y quedarse sin el espacio que se esperaba recuperar.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/samolego/Canta">samolego/Canta</a>, <a href="https://github.com/SysAdminDoc/AppManagerNG">SysAdminDoc/AppManagerNG</a></p></div>
+
+  <p class="meta">Programa de aistra0528 · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/aistra0528/Hail/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Neo Backup <span class="meta">· NeoApplications/Neo-Backup</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>57/100</strong> ·
+    ★3,893 · 2523 días · última entrega 2026-05-03 ·
+    84,161 descargas en 10 entregas · 100 personas ·
+    2 flujos de compilación · incidencias 452/691.
+  </p>
+  <p>Copiar las aplicaciones y sus datos antes de formatear o de cambiar de teléfono, con root o con el permiso prestado.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien vaya a cambiar de teléfono y quiera llevarse las aplicaciones con sus datos, no solo la lista.
+     <br><strong>Para quién no es:</strong> para quien espere una copia completa del sistema: eso es otra cosa y necesita otro tipo de herramienta.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instala la aplicación y dale acceso: con root funciona completa; sin root, con el permiso prestado, funciona para las aplicaciones que permiten copia.</li>
+<li>Elige la carpeta de destino. Que sea una carpeta que sobreviva al formateo: tarjeta externa o almacenamiento compartido, nunca la memoria interna a secas.</li>
+<li>Selecciona las aplicaciones y elige copiar aplicación y datos. Empieza por dos o tres para probar antes de lanzar las doscientas.</li>
+<li>Espera a que termine y anota el número de aplicaciones copiadas: es el dato que después te dirá si la copia sirvió.</li>
+<li>Restaura primero una aplicación de prueba en el teléfono nuevo. Si esa vuelve con sus datos, el resto también.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Una carpeta con una subcarpeta por aplicación, y al restaurar en el teléfono nuevo las aplicaciones vuelven con su configuración.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si una aplicación falla al restaurar, casi siempre es porque el paquete instalado tiene otra firma: reinstala el mismo paquete que tenías, no uno de otra tienda.</li>
+<li>Si la copia se corta a medias, revisa el espacio libre: la aplicación avisa, pero después de haber copiado media lista.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Restaurar no borra lo que hay: sobrescribe los datos de la aplicación elegida. Para volver atrás de una restauración, se restaura la copia anterior, y por eso conviene no borrar la primera.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Una copia de aplicación tiene dos mitades que se pueden perder por separado: el paquete instalable y los datos. La mayoría de la gente copia los datos y olvida el paquete, y después descubre que la aplicación ya no existe en la tienda.</p>
+<p>La otra mitad del problema es la firma: Android comprueba que el paquete instalado esté firmado por el mismo autor que el que generó los datos. Si reinstalas desde otro sitio, la restauración se niega aunque el archivo esté intacto.</p>
+    <p><strong>Límites:</strong></p><ul><li>Sin root, las aplicaciones que declaran no permitir copia no se copian: solo se listan.</li>
+<li>No copia los archivos de la tarjeta ni las fotos.</li>
+<li>Su última entrega es de mayo de 2026 y su cola tiene más de la mitad abierta.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>El tamaño de una copia no dice si está completa: estas herramientas comprimen y no guardan dos veces el mismo archivo, así que doscientas aplicaciones pueden pesar menos que una sola aplicación grande. Lo que hay que comparar no es el tamaño, es el recuento: cuántas aplicaciones hay en la copia frente a cuántas hay en el teléfono. Si los dos números coinciden y la fecha es de hoy, la copia está entera; si el tamaño te parece pequeño, es que comprime bien.</p>
+    <p><strong>Cómo se comprueba:</strong> Cuenta las aplicaciones del teléfono con la orden de abajo y compara con el número que te dio la copia al terminar. Si difieren, mira cuáles faltan antes de formatear, no después.</p>
+    <pre><code>adb shell pm list packages -3 | wc -l</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Guardar la copia en la memoria interna y formatear el teléfono: la copia se va con lo demás.</li>
+<li>Restaurar datos de una versión más nueva de la aplicación en una más vieja puede corromper su base de datos.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/XayahSuSuSu/Android-DataBackup">XayahSuSuSu/Android-DataBackup</a>, <a href="https://github.com/hddq/restoid">hddq/restoid</a></p></div>
+
+  <p class="meta">Programa de NeoApplications · AGPL-3.0 · medido el 3 de noviembre de 2026 · licencia AGPL-3.0
+     (<a href="https://github.com/NeoApplications/Neo-Backup/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
   <h3>Shevery <span class="meta">· HmnDev-Tech/shevery</span></h3>
   <p class="meta">
     <span class="sello n1">intermedio</span>
@@ -142,6 +309,48 @@ cómo se concede, cómo se revoca y seis aplicaciones que lo usan, con sus tres 
 
   <p class="meta">Programa de HmnDev-Tech · Apache-2.0 · medido el 3 de noviembre de 2026 · licencia Apache-2.0
      (<a href="https://github.com/HmnDev-Tech/shevery/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>DataBackup <span class="meta">· XayahSuSuSu/Android-DataBackup</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>48/100</strong> ·
+    ★7,556 · 1807 días · última entrega 2025-09-20 ·
+    233,983 descargas en 10 entregas · 100 personas ·
+    4 flujos de compilación · incidencias 251/441.
+  </p>
+  <p>Copiar y restaurar aplicaciones con sus datos en un teléfono con root o con el permiso prestado, con una interfaz más simple.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien quiera una copia con pocas decisiones y muchos valores por defecto sensatos.
+     <br><strong>Para quién no es:</strong> para quien necesite copias programadas automáticas: aquí se hacen a mano.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instala, concede root o el permiso prestado y abre la pestaña de copia.</li>
+<li>Elige la carpeta de destino fuera de la memoria interna: tarjeta o carpeta compartida que sobreviva al formateo.</li>
+<li>Marca las aplicaciones con el filtro de «con datos» y desmarca las del sistema que no quieras tocar.</li>
+<li>Lanza la copia y espera: el primer respaldo es el lento; los siguientes solo añaden lo que cambió.</li>
+<li>Prueba la restauración de una sola aplicación antes de hacerlo con todas.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Una carpeta con las copias, y una restauración de prueba que devuelve la aplicación tal como estaba.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si la copia se detiene en una aplicación concreta, exclúyela y sigue: una aplicación que falla no debe impedir las demás.</li>
+<li>Si al restaurar dice que la firma no coincide, reinstala el mismo paquete original y vuelve a intentarlo.</li></ul>
+    <p><strong>Cómo se deshace:</strong> La restauración sobrescribe los datos de esa aplicación. La copia anterior sigue en la carpeta: no hay que borrarla hasta comprobar que la nueva funciona.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Su valor frente a otras es la comodidad: ocho archivos por entrega y doscientas treinta y tres mil novecientas ochenta y tres descargas en las diez últimas indican que hay mucha gente usándola para lo mismo, y eso se traduce en que los fallos raros están encontrados.</p>
+<p>Lo que no cambia por usar una u otra herramienta es la regla de fondo: sin root, el sistema decide qué aplicaciones permiten copia; con root, la copia es completa pero el aparato tiene que estar desbloqueado.</p>
+    <p><strong>Límites:</strong></p><ul><li>Su última entrega es de septiembre de 2025, aunque el repositorio se mueve.</li>
+<li>Casi doscientos noventa megabytes de repositorio: es de las herramientas más pesadas de esta guía.</li>
+<li>Sin huellas en sus adjuntos: no se puede verificar la descarga.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Al restaurar, el sistema compara la firma del paquete instalado con la que se usó al copiar; si no coincide, se niega aunque los datos estén perfectos. Y hay un caso que sorprende a mucha gente: si la aplicación se actualizó desde una tienda que re-firma los paquetes, la copia de los datos de la versión anterior deja de poder restaurarse hasta que vuelvas a instalar el paquete original. Por eso una copia completa incluye el APK, no solo los datos.</p>
+    <p><strong>Cómo se comprueba:</strong> Antes de restaurar, mira la firma del paquete instalado y compárala con la del original: si el resumen no coincide, no es el mismo firmante.</p>
+    <pre><code>adb shell dumpsys package &lt;paquete&gt; | grep -A3 signatures</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Restaurar datos de una aplicación actualizada dentro de una copia vieja puede dejarla en un estado inconsistente.</li>
+<li>Sin copia del paquete, los datos no valen nada si la aplicación desaparece de la tienda.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/NeoApplications/Neo-Backup">NeoApplications/Neo-Backup</a>, <a href="https://github.com/hddq/restoid">hddq/restoid</a></p></div>
+
+  <p class="meta">Programa de XayahSuSuSu · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/XayahSuSuSu/Android-DataBackup/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
 </article>
 
 <article class="ficha">
@@ -187,6 +396,48 @@ cómo se concede, cómo se revoca y seis aplicaciones que lo usan, con sus tres 
 </article>
 
 <article class="ficha">
+  <h3>Universal Android Debloater NG <span class="meta">· Universal-Debloater-Alliance/universal-android-debloater-next-generation</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>59/100</strong> ·
+    ★9,725 · 1104 días · última entrega 2026-11-02 ·
+    400,084 descargas en 10 entregas · 100 personas ·
+    3 flujos de compilación · incidencias 517/782.
+  </p>
+  <p>Limpiar el teléfono desde la computadora, con listas de lo que se puede quitar en cada fabricante y sin instalar nada en el aparato.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien tenga computadora y quiera ver todo lo que trae el teléfono con nombres y descripciones antes de decidir.
+     <br><strong>Para quién no es:</strong> para quien no pueda conectar el teléfono por cable: esta herramienta vive en la computadora.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Descarga la versión para tu sistema desde las entregas del proyecto: hay cuarenta archivos y hay que elegir el de tu sistema operativo.</li>
+<li>Activa la depuración por USB en el teléfono y conéctalo por cable. Acepta la huella del ordenador en la pantalla del teléfono.</li>
+<li>Abre la herramienta: debe reconocer el aparato y mostrar su modelo. Si no lo reconoce, la depuración no está activa o el cable no transmite datos.</li>
+<li>Filtra por recomendación y empieza por las marcadas como seguras. Lee la descripción de cada paquete antes de marcar: la lista explica qué hace.</li>
+<li>Aplica los cambios de una en una o en tandas pequeñas, y reinicia el teléfono después de cada tanda para ver qué se rompió, si algo se rompió.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> El teléfono arranca normal, las aplicaciones elegidas ya no aparecen y la herramienta lista el historial de lo quitado para poder revertirlo.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si el aparato deja de responder a la herramienta, desconecta y vuelve a conectar: la sesión de depuración se cae con frecuencia.</li>
+<li>Si algo esencial desaparece, la misma herramienta tiene la opción de restaurar el paquete desde su historial.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Cada paquete quitado se restaura desde la propia herramienta, que guarda el registro de la sesión, o con `cmd package install-existing &lt;paquete&gt;`.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Su valor no es la herramienta sino las listas: cientos de paquetes de decenas de fabricantes, cada uno con su descripción y su nivel de riesgo, mantenidas por una comunidad que las prueba en aparatos reales.</p>
+<p>Y su ventaja sobre las aplicaciones de teléfono es la pantalla: en una computadora se ve la lista completa con descripciones, se puede buscar y se puede leer antes de decidir. En el teléfono, la misma decisión se toma a ciegas entre nombres incomprensibles.</p>
+    <p><strong>Límites:</strong></p><ul><li>Necesita computadora y cable: no sirve para limpiar el teléfono en la calle.</li>
+<li>Su cola de incidencias tiene más de doscientas sesenta abiertas.</li>
+<li>La lista de un fabricante no siempre cubre todos sus modelos ni todas sus versiones.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>El paquete que más problemas causa al quitarlo no es el que parece: quitar el servicio de reproducción de Google o el marco de notificaciones del fabricante rompe las notificaciones push de casi todas las demás aplicaciones, y el síntoma aparece días después, cuando un banco deja de avisar de un cobro. La regla práctica que se desprende de las listas: todo lo que lleve en el nombre palabras como servicios, marco, notificaciones o proveedor de contenido se deja; lo que lleva el nombre de una tienda, una red social o un juego, se va.</p>
+    <p><strong>Cómo se comprueba:</strong> Antes de quitar, mira si el paquete tiene dependencias: la propia herramienta muestra qué otras aplicaciones lo referencian. Si una aplicación que usas aparece en esa lista, ese paquete no se toca.</p>
+    <pre><code>adb shell dumpsys package &lt;paquete&gt; | grep -E &quot;required|dependenc&quot; | head</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Quitar un paquete del sistema que otras aplicaciones usan como servicio: el daño aparece semanas después.</li>
+<li>Aplicar una lista de otro modelo de teléfono sin leerla.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/samolego/Canta">samolego/Canta</a>, <a href="https://github.com/aistra0528/Hail">aistra0528/Hail</a></p></div>
+
+  <p class="meta">Programa de Universal-Debloater-Alliance · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
   <h3>aShellYou <span class="meta">· DP-Hridayan/aShellYou</span></h3>
   <p class="meta">
     <span class="sello n2">experto</span>
@@ -229,6 +480,132 @@ cómo se concede, cómo se revoca y seis aplicaciones que lo usan, con sus tres 
 </article>
 
 <article class="ficha">
+  <h3>restoid <span class="meta">· hddq/restoid</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>54/100</strong> ·
+    ★187 · 418 días · última entrega 2026-08-04 ·
+    2,851 descargas en 10 entregas · 8 personas ·
+    2 flujos de compilación · incidencias 22/45.
+  </p>
+  <p>Copiar datos de aplicaciones con root usando restic, con cifrado y deduplicación de verdad.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien ya use restic en la computadora y quiera las copias del teléfono con el mismo formato y la misma disciplina.
+     <br><strong>Para quién no es:</strong> para quien empiece: sin root no funciona y sin entender restic no se aprovecha.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Comprueba que tienes root y un repositorio restic preparado, en la tarjeta o en un servidor de tu red.</li>
+<li>Instala la aplicación y configura la ruta del repositorio y la contraseña del mismo. Guárdala fuera del teléfono.</li>
+<li>Ejecuta una primera copia de una sola aplicación para comprobar que el repositorio se abre y escribe.</li>
+<li>Verifica el repositorio con una comprobación de integridad desde la computadora o desde la propia aplicación.</li>
+<li>Programa una copia periódica y prueba una restauración en un directorio temporal antes de necesitarla de verdad.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Un repositorio restic con las copias dentro, verificable con `restic check`, y una restauración de prueba que devuelve los archivos.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si la contraseña del repositorio se pierde, las copias son irrecuperables: no hay puerta trasera y eso es una virtud, no un fallo.</li>
+<li>Si la copia falla por espacio, el repositorio deduplica, pero necesita sitio libre para el índice.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Las copias quedan en el repositorio y se borran con `restic forget` y `restic prune`. Lo restaurado se puede volver a restaurar de la copia anterior.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>restic no guarda archivos: guarda bloques. Dos copias de la misma aplicación solo almacenan lo que cambió entre una y otra, y cada bloque va cifrado con la clave del repositorio.</p>
+<p>Esa es la diferencia entre esta ficha y las dos anteriores: aquí la copia no vive en una carpeta que cualquiera puede abrir, vive en un repositorio que solo se abre con la contraseña, y que se puede comprobar y podar sin miedo.</p>
+    <p><strong>Límites:</strong></p><ul><li>Sin root no copia datos de aplicaciones.</li>
+<li>Ocho personas y una comunidad pequeña: menos ojos sobre el código.</li>
+<li>La contraseña del repositorio es una llave que no se puede recuperar.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>La comprobación de integridad es lo que separa una copia de una carpeta con archivos. `restic check` lee el índice y verifica que cada bloque referenciado exista y coincida con su resumen; una copia que nunca se comprobó puede estar rota desde el mes pasado y nadie lo sabría hasta el día de restaurar. Y hay un detalle práctico: la comprobación sin `--read-data` no lee los bloques, solo el índice, así que es rápida y sirve para el día a día, mientras que la lectura completa se reserva para una vez al mes.</p>
+    <p><strong>Cómo se comprueba:</strong> Ejecuta la comprobación contra el repositorio del teléfono desde la computadora: si termina sin errores, la copia se puede restaurar. Si dice que faltan bloques, hay que volver a copiar esa aplicación.</p>
+    <pre><code>restic -r &lt;repositorio&gt; check</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Perder la contraseña del repositorio: sin ella no hay restauración posible.</li>
+<li>Guardar el repositorio en el mismo aparato que se va a formatear.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/NeoApplications/Neo-Backup">NeoApplications/Neo-Backup</a>, <a href="https://github.com/XayahSuSuSu/Android-DataBackup">XayahSuSuSu/Android-DataBackup</a></p></div>
+
+  <p class="meta">Programa de hddq · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/hddq/restoid/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Uraam <span class="meta">· Ruraam/Uraam</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>59/100</strong> ·
+    ★52 · 151 días · última entrega 2026-11-01 ·
+    62 descargas en 10 entregas · 2 personas ·
+    2 flujos de compilación · incidencias 1/1.
+  </p>
+  <p>Tener en el bolsillo un cajón de órdenes de ADB listas, sin computadora, para cuando algo se rompe.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien ya se maneje con órdenes y quiera tenerlas a mano sin llevar el cable.
+     <br><strong>Para quién no es:</strong> para quien empiece: aquí no hay botones que expliquen, hay comandos que se ejecutan.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instala, concede el permiso prestado y abre el catálogo de acciones.</li>
+<li>Empieza por las de lectura: listar paquetes, ver propiedades del sistema, comprobar el estado de la batería.</li>
+<li>Usa una acción de escritura reversible, como limpiar la caché de una aplicación, y comprueba el resultado.</li>
+<li>Guarda tu propia lista de órdenes frecuentes en la aplicación, con una nota de qué hace cada una.</li>
+<li>Antes de usar cualquier acción marcada como destructiva, lee la orden que ejecuta y compruébala en una libreta.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Las acciones se ejecutan y el teléfono responde; las de lectura devuelven información que antes no tenías.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si una acción falla con error de permiso, la sesión se cayó: vuelve a concederla.</li>
+<li>Si una acción deja el teléfono raro, reinicia antes de hacer otra cosa.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Las acciones de lectura no cambian nada. Las de escritura dependen de cada una: las de limpieza son reversibles, las de desinstalación se revierten con `install-existing`.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Es la versión de bolsillo de un taller: la misma idea que la consola del capítulo 3, pero con las órdenes agrupadas por tarea para no tener que recordarlas.</p>
+<p>Su nota es alta para su tamaño —cincuenta y nueve con dos personas y ciento cincuenta y un días— porque publica: su última entrega es de ayer y su cola está casi vacía.</p>
+    <p><strong>Límites:</strong></p><ul><li>Dos personas: es un proyecto joven y pequeño.</li>
+<li>Sin huellas en sus adjuntos.</li>
+<li>La comodidad de tener órdenes listas invita a ejecutarlas sin leerlas.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Una de las órdenes más útiles y menos conocidas no desinstala nada: `pm clear` borra todos los datos de una aplicación y la deja como recién instalada, sin quitarla. Es la forma más rápida de arreglar una aplicación que se quedó en un estado imposible —sin perder el paquete, sin reinstalar, sin buscar el archivo— y también la forma más rápida de perder una sesión que no se quiere perder. La regla: se usa cuando la aplicación ya no funciona, nunca para &#x27;limpiar&#x27; por gusto.</p>
+    <p><strong>Cómo se comprueba:</strong> Antes de ejecutarla, comprueba que la aplicación no tiene datos que no puedas recuperar: si tiene una sesión abierta o archivos dentro, esos se van con la orden. Después, el sistema informa de cuántos datos se borraron.</p>
+    <pre><code>adb shell pm clear &lt;paquete&gt;</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Ejecutar una orden destructiva sin leerla. En este capítulo, ese es el riesgo real.</li>
+<li>Proyecto de dos personas: si se detiene, las órdenes siguen existiendo pero nadie las mantiene.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/samolego/Canta">samolego/Canta</a>, <a href="https://github.com/DP-Hridayan/aShellYou">DP-Hridayan/aShellYou</a></p></div>
+
+  <p class="meta">Programa de Ruraam · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/Ruraam/Uraam/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>App Manager NG <span class="meta">· SysAdminDoc/AppManagerNG</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>33/100</strong> ·
+    ★169 · 187 días · última entrega 2026-09-05 ·
+    11,296 descargas en 10 entregas · 3 personas ·
+    0 flujos de compilación · incidencias 9/23.
+  </p>
+  <p>Ver qué componentes tiene cada aplicación y por qué sigue gastando batería aunque esté cerrada.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien quiera entender qué corre dentro de una aplicación antes de decidir si la deja o la quita.
+     <br><strong>Para quién no es:</strong> para quien solo quiera limpiar el teléfono: esta herramienta enseña, no limpia sola.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instala, concede el permiso prestado y abre la lista de aplicaciones.</li>
+<li>Entra en una aplicación concreta y abre la pestaña de componentes: servicios, receptores y actividades.</li>
+<li>Filtra por los que están en ejecución para ver qué sigue vivo después de cerrar la aplicación.</li>
+<li>Desactiva un receptor que no necesites y comprueba durante un día si algo dejó de funcionar.</li>
+<li>Anota cada cambio: es la única manera de revertirlo sin desinstalar todo.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Ves qué componentes mantienen viva una aplicación y puedes apagar los que no uses sin quitarla.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si desactivar un componente rompe la aplicación, vuelve a activarlo en la misma pantalla.</li>
+<li>Si no aparece el estado de ejecución, revisa que el permiso siga activo.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Cada componente desactivado se reactiva en su misma pantalla; los cambios se revierten uno por uno y no afectan a los datos.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Una aplicación no es un programa: es un conjunto de piezas que el sistema puede arrancar por separado. Un receptor puede despertar la aplicación sin que nadie la abra, y un servicio puede seguir corriendo después de &#x27;cerrarla&#x27;.</p>
+<p>Esa es la explicación de la queja más común del teléfono que gasta batería: la aplicación no está abierta, está despierta.</p>
+    <p><strong>Límites:</strong></p><ul><li>Tres personas y ningún flujo de compilación automática: su nota es baja y con razón.</li>
+<li>Su última entrega es de septiembre y su cola tiene más abiertas de las que su equipo puede atender.</li>
+<li>Es una herramienta de diagnóstico, no de limpieza rápida.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Cuando el sistema dice que una aplicación consumió batería &#x27;en segundo plano&#x27;, casi nunca es un proceso suyo: es un receptor de eventos del sistema que la despierta cuando pasa algo. Ese receptor tiene nombre propio en la lista de componentes, y desactivarlo suele resolver el consumo sin tocar la aplicación ni perder sus datos. Es la diferencia entre apagar el fuego y saber quién lo encendió.</p>
+    <p><strong>Cómo se comprueba:</strong> Mira los componentes con estado de ejecución antes y después de cerrar la aplicación: los que siguen activos son los que hay que revisar. Es la misma información que da el sistema, pero con nombre y apellido.</p>
+    <pre><code>adb shell dumpsys package &lt;paquete&gt; | grep -E &quot;Service|Receiver&quot; | head -20</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Desactivar componentes a ciegas puede romper funciones que no parecen relacionadas.</li>
+<li>Confiar en una herramienta sin equipo detrás para decisiones delicadas: lee la cola antes de darle permiso.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/aistra0528/Hail">aistra0528/Hail</a>, <a href="https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation">Universal-Debloater-Alliance/universal-android-debloater-next-generation</a></p></div>
+
+  <p class="meta">Programa de SysAdminDoc · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/SysAdminDoc/AppManagerNG/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
   <h3>Dhizuku <span class="meta">· iamr0s/Dhizuku</span></h3>
   <p class="meta">
     <span class="sello n2">experto</span>
@@ -268,6 +645,48 @@ cómo se concede, cómo se revoca y seis aplicaciones que lo usan, con sus tres 
 
   <p class="meta">Programa de iamr0s · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
      (<a href="https://github.com/iamr0s/Dhizuku/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Seedvault <span class="meta">· seedvault-app/seedvault</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>26/100</strong> ·
+    ★1,876 · 3330 días · última entrega sin entregas en el repositorio ·
+    0 descargas en 10 entregas · 82 personas ·
+    4 flujos de compilación · incidencias 414/560.
+  </p>
+  <p>Usar la copia de seguridad que viene dentro de la ROM, cifrada, sin instalar nada.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien tenga una ROM o un sistema que ya la incluye: se configura y funciona desde los ajustes.
+     <br><strong>Para quién no es:</strong> para quien tenga un teléfono de fábrica sin ella: no se instala como una aplicación normal.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Busca en Ajustes la entrada de copia de seguridad del sistema y comprueba si el proveedor es Seedvault o el servicio del fabricante.</li>
+<li>Si está, entra y elige el destino: almacenamiento externo o una unidad conectada, nunca solo la memoria interna.</li>
+<li>Anota la frase de recuperación de doce palabras que genera. Sin ella, la copia cifrada no se abre.</li>
+<li>Lanza una copia manual y espera a que termine; comprueba la fecha en la pantalla de estado.</li>
+<li>Guarda la frase en un papel fuera del teléfono y prueba a leerla: una frase que no se puede leer no sirve de nada.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> La pantalla de copia dice la fecha de hoy y el destino elegido, y la frase de recuperación está guardada fuera del aparato.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si no aparece en los ajustes, tu ROM no la incluye: no hay manera limpia de añadirla sin cambiar de sistema.</li>
+<li>Si perdiste la frase, la copia existente ya no se puede abrir: hay que generar una nueva y volver a copiar.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Desactivar la copia de seguridad del sistema deja de hacer copias nuevas; las anteriores siguen en el destino hasta que se borren a mano.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Esta aplicación no se instala: se integra en el sistema. Eso explica su número, que parece malo y no lo es: cero descargas contadas y ninguna entrega en su repositorio, porque su canal de distribución es la propia ROM de quien la incluye.</p>
+<p>Su ventaja es la posición: al vivir dentro del sistema puede copiar datos que una aplicación normal no alcanza, y lo hace cifrado por defecto.</p>
+    <p><strong>Límites:</strong></p><ul><li>No se puede instalar en un teléfono que no la traiga.</li>
+<li>Cero entregas descargables en su repositorio: el canal es el sistema.</li>
+<li>Sin una frase de recuperación guardada, la copia es ilegible para siempre.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Una copia cifrada no es más segura si la llave vive en el mismo teléfono: si el aparato se pierde o se formatea, la llave se va con él y la copia queda inservible. Por eso estas herramientas generan una frase de doce palabras y por eso el paso más importante de esta ficha no es configurar la copia, es guardar esa frase en un papel que esté fuera del teléfono. Es el único paso que no se puede repetir después.</p>
+    <p><strong>Cómo se comprueba:</strong> Consulta qué proveedor tiene activo el sistema: si aparece el nombre de esta herramienta, tienes copia cifrada disponible. Si aparece un servicio del fabricante, la copia está en su nube y no en tu destino.</p>
+    <pre><code>adb shell dumpsys backup | head -30</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Guardar la frase de recuperación dentro del teléfono que se va a formatear.</li>
+<li>Creer que una copia reciente existe sin mirar la fecha en la pantalla de estado.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/NeoApplications/Neo-Backup">NeoApplications/Neo-Backup</a>, <a href="https://github.com/XayahSuSuSu/Android-DataBackup">XayahSuSuSu/Android-DataBackup</a></p></div>
+
+  <p class="meta">Programa de Seedvault · licencia declarada Apache-2.0 · medido el 3 de noviembre de 2026 · licencia Apache-2.0 (declarada en el proyecto; GitHub no la detecta)
+     (<a href="https://github.com/seedvault-app/seedvault/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
 </article>
 
 <article class="ficha">

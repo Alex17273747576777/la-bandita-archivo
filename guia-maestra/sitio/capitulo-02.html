@@ -1,0 +1,247 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Capítulo 2 · El teléfono que decide por ti · Guía Maestra</title><style>
+:root{--papel:#f5f7fa;--tinta:#1f2933;--suave:#5b6673;--linea:#e0e5ec;--acento:#2b6cb0;--alerta:#8a2b2b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papel);color:var(--tinta);font:16px/1.68 Georgia,'Times New Roman',serif}
+.hoja{max-width:1080px;margin:0 auto;padding:34px 22px 70px}
+.rejilla{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+.col-12{grid-column:span 12}.col-8{grid-column:span 8}.col-4{grid-column:span 4}
+header{border-bottom:3px double var(--linea);padding-bottom:16px;margin-bottom:26px}
+h1{font-size:2.15rem;line-height:1.18;margin:.2em 0 .3em;letter-spacing:-.01em}
+h2{font-size:1.42rem;margin:2.1em 0 .5em;border-left:5px solid var(--acento);padding-left:12px}
+h3{font-size:1.12rem;margin:1.7em 0 .35em}
+p{margin:.65em 0}
+.ficha{background:#fff;border:1px solid var(--linea);border-radius:10px;padding:20px 22px;margin:22px 0;box-shadow:0 1px 0 #fff inset}
+.sello{display:inline-block;background:var(--tinta);color:#fff;border-radius:999px;padding:2px 11px;font:600 12px/1.9 system-ui,sans-serif;letter-spacing:.03em}
+.n0{background:#2f6b4f}.n1{background:#8a6d1f}.n2{background:#8a2b2b}
+.meta{color:var(--suave);font:13px/1.6 system-ui,sans-serif}
+.capa{border-top:1px dashed var(--linea);margin-top:16px;padding-top:12px}
+.capa h4{margin:.2em 0 .4em;font:700 13px/1.4 system-ui,sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--acento)}
+ol,ul{padding-left:22px}li{margin:.35em 0}
+code,pre{font-family:'DejaVu Sans Mono',ui-monospace,monospace;font-size:.9em}
+code{background:#eef1f5;padding:1px 5px;border-radius:4px}
+pre{background:#1f2933;color:#f5f7fa;padding:12px 14px;border-radius:8px;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font:14px/1.5 system-ui,sans-serif;margin:12px 0}
+th,td{border-bottom:1px solid var(--linea);padding:7px 8px;text-align:left;vertical-align:top}
+th{background:#eef1f5}
+.aviso{background:#fff;border-left:5px solid var(--alerta);padding:12px 16px;margin:16px 0}
+footer{margin-top:44px;border-top:3px double var(--linea);padding-top:14px;color:var(--suave);font:13px/1.6 system-ui,sans-serif}
+a{color:var(--acento)}
+@media(max-width:760px){.col-8,.col-4{grid-column:span 12}}
+</style></head>
+<body><div class="hoja"><p class="meta"><a href="index.html">← Guía Maestra</a> · capítulo 2</p>
+<h1>Capítulo 2 · El teléfono que decide por ti</h1><h2>Qué vas a poder hacer al terminar</h2><p>Quitar del teléfono las aplicaciones que vinieron impuestas y que no se pueden desinstalar desde los ajustes, sin root, sin romper nada y sabiendo cómo devolverlas. Y algo más útil: distinguir entre una aplicación que estorba y una que sostiene a otras diez, que es la diferencia entre limpiar y romper.</p><h2>Antes de empezar</h2><p>Todo lo de este capítulo se apoya en el permiso del capítulo anterior. Si no lo tienes, ve al capítulo 3 y vuelve: son veinte minutos, y sin él nada de esto funciona. Y si no has hecho la copia del capítulo 1, hazla primero: la vuelta atrás existe, pero funciona mucho mejor cuando se sabe qué se tenía.</p><p>Hay una excepción que no necesita permiso: la herramienta de computadora de la tercera ficha. Es la más cuidadosa de las cinco y la que enseña más, aunque exija cable.</p><h2>Por qué viene todo esto preinstalado</h2><p>Un teléfono de operadora trae decenas de aplicaciones que no pediste. No están ahí por descuido: están porque alguien pagó para que estuvieran, o porque el fabricante quiere que uses su tienda, su nube o su asistente. Muchas no se pueden desinstalar desde los ajustes porque ocupan una partición del sistema que solo se puede escribir con root.</p><p>No son inofensivas en todos los casos. Una aplicación de fábrica puede tener permiso para arrancar con el teléfono, leer la lista de lo que tienes instalado o mandar datos de uso. Y aunque no fuera así, ocupan espacio y consumen batería.</p><h2>Los tres estados, que no son lo mismo</h2><p><strong>Desinstalada para tu usuario.</strong> Desaparece de tu teléfono, deja de ejecutarse y libera sus datos. El paquete original sigue en la partición del sistema y vuelve con una orden. Es reversible y es lo que hacen Canta y la herramienta de computadora.</p><p><strong>Congelada.</strong> Sigue instalada y visible en los ajustes, ocupa su espacio y no se puede ejecutar. Es el estado más seguro para probar. Se revierte en un toque.</p><p><strong>Suspendida.</strong> Además de no ejecutarse, desaparece del cajón y el sistema la trata como si no estuviera instalada. Es el modo correcto para callar algo que manda notificaciones sin perderlo.</p><p>Elegir mal entre estos tres es la causa más común de que alguien «limpie» el teléfono y luego no encuentre dónde había estado aquello.</p><h2>La ruta de decisión</h2><p><strong>Tengo computadora y quiero ver todo antes de decidir</strong> → la herramienta de escritorio. Lista completa, con descripciones y niveles de riesgo, y la opción de deshacer desde su propio historial.</p><p><strong>Quiero hacerlo desde el teléfono, sin cable, y con vuelta atrás</strong> → la primera ficha. Es la mejor nota del capítulo y la que tiene un equipo detrás.</p><p><strong>Lo que quiero es que deje de molestar, no quitarlo</strong> → congelar o suspender. Es reversible, no necesita decisiones definitivas y no rompe dependencias.</p><p><strong>Quiero entender por qué el teléfono gasta batería aunque no use nada</strong> → la última ficha, que enseña qué componente está despierto.</p><h2>La regla que evita el desastre</h2><p><strong>No se quita nada que el teléfono use para funcionar.</strong> En la práctica esto se traduce en una lista corta de palabras que, si aparecen en el nombre del paquete, lo descalifican para siempre: servicios, marco o framework, notificaciones, proveedor de contenido, teléfono, mensajes, teclado, lanzador, actualizaciones del sistema.</p><p>Y su reverso: lo que lleva el nombre de una tienda, una red social, un juego, un servicio de vídeo o una aplicación de la operadora, casi siempre se puede quitar.</p><p>Ninguna lista de internet sabe qué teléfono tienes. Las listas de la herramienta de computadora son las más cuidadas que existen, y aun así están organizadas por fabricante y por modelo: aplicar la de otro teléfono es la forma más rápida de dejar el aparato a medias.</p><h2>Cómo se prueba que no se rompió nada</h2><p>Después de cada tanda de cambios —de dos a cinco aplicaciones, nunca veinte de golpe— hay una rutina de cinco cosas que descubre casi todo: reiniciar el teléfono, abrir y cerrar el lanzador, mandar un mensaje, hacer una llamada y recibir una notificación. Si las cinco funcionan, la tanda está bien. Si alguna falla, se devuelve la última aplicación quitada y se vuelve a probar.</p><p>Esa rutina es más útil que cualquier advertencia: convierte una decisión irreversible en un experimento de dos minutos.</p><h2>El mito que más daño hace</h2><p><strong>«Las aplicaciones de fábrica vuelven con la actualización del sistema».</strong> Casi nunca. Si se quitaron para el usuario, la actualización puede reinstalarlas, sí, pero con la misma orden se vuelven a quitar. Lo que no vuelve es lo que se desinstaló con root de verdad.</p><p><strong>«Quitarlas libera mucho espacio».</strong> Casi nada: el paquete sigue en el sistema. Se gana en memoria, en batería y en tranquilidad, no en almacenamiento.</p><p><strong>«Con esto el teléfono queda como recién comprado».</strong> No: queda como un teléfono al que le quitaron cosas. La limpieza no arregla un aparato lento por falta de memoria; para eso hay que mirar qué está corriendo.</p><h2>Lo que no hay que hacer aunque lo diga un foro</h2><p>No quitar el gestor de actualizaciones del sistema: después no se puede actualizar ni el teléfono ni las aplicaciones del fabricante.</p><p>No quitar el proveedor de notificaciones ni el servicio de mensajería del sistema: rompe los avisos de aplicaciones que no tienen nada que ver.</p><p>No usar una lista copiada de un vídeo sin comprobar el modelo: los nombres de paquete cambian entre fabricantes y entre versiones del mismo teléfono.</p><p>No desinstalar con root lo que se puede quitar para el usuario: se pierde la vuelta atrás por un ahorro que no existe.</p><h2>Las cinco fichas</h2><p>Cuatro funcionan desde el teléfono y una desde la computadora. La primera es la que recomiendo a cualquiera que empiece; la segunda es la que recomiendo a quien tenga miedo de romper algo, porque congela en lugar de borrar; la tercera es la que enseña más aunque exija cable; la cuarta es un taller de bolsillo para quien ya sabe; y la quinta explica, más que limpia, y por eso su nota es baja y su utilidad es alta.</p>
+<h2>Las 5 fichas del capítulo</h2>
+
+<article class="ficha">
+  <h3>Canta <span class="meta">· samolego/Canta</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>71/100</strong> ·
+    ★6,446 · 1162 días · última entrega 2026-10-29 ·
+    585,210 descargas en 10 entregas · 18 personas ·
+    5 flujos de compilación · incidencias 185/216.
+  </p>
+  <p>Quitar del teléfono las aplicaciones de fábrica que nadie pidió, sin root y con vuelta atrás.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien tenga un teléfono con aplicaciones preinstaladas que no se pueden desinstalar desde los ajustes.
+     <br><strong>Para quién no es:</strong> para quien quiera solo esconderlas un tiempo: para eso sirve congelar, y está en la ficha de Hail.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Concede el permiso con Shizuku o con el método que uses; Canta lo detecta y lo explica en su pantalla inicial.</li>
+<li>Abre la lista y ordena por categoría: las aplicaciones marcadas como seguras de quitar son las que el proyecto ha verificado con otros usuarios.</li>
+<li>Antes de quitar, anota el nombre de paquete de cada una: es lo único que te permitirá reinstalarla después.</li>
+<li>Desinstala de una en una las dos primeras y comprueba el teléfono: reinicia, abre el lanzador, manda un mensaje. Si todo va bien, sigue.</li>
+<li>Guarda al final la lista de lo quitado en un archivo fuera del teléfono, con la fecha.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Las aplicaciones de fábrica desaparecen del cajón y del sistema, el teléfono arranca normal y no se pierde ninguna función que uses.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si algo deja de funcionar, reinstala con la orden de reversión usando el nombre de paquete que anotaste.</li>
+<li>Si el teléfono no arranca bien, el modo seguro o la recuperación del fabricante es la salida; por eso se prueba en dos aplicaciones y no en veinte.</li></ul>
+    <p><strong>Cómo se deshace:</strong> La aplicación quitada se devuelve con `cmd package install-existing &lt;paquete&gt;`, que la reinstala desde la copia del sistema.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Una aplicación de fábrica vive en una partición que no se puede borrar sin root. Lo que hace Canta es quitarla para tu usuario: deja de existir para ti, deja de ejecutarse, libera sus datos, y el archivo original sigue en el sistema esperando a que lo devuelvas.</p>
+<p>Eso es lo que hace la operación reversible y lo que la distingue de un formateo: el sistema conserva el paquete, y la vuelta atrás es una orden.</p>
+    <p><strong>Límites:</strong></p><ul><li>No borra el paquete del sistema: el espacio de la partición no se recupera.</li>
+<li>Algunas aplicaciones de fábrica son dependencias de otras: quitarlas rompe funciones que no parecen relacionadas.</li>
+<li>Necesita el permiso prestado activo para cada sesión.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Quitar para el usuario no libera el espacio de la partición del sistema: el paquete sigue ahí, y lo que se recupera es el espacio de datos y la memoria que consumía al ejecutarse. Si el objetivo es espacio, esto casi no ayuda; si el objetivo es que no moleste, que no mande datos y que no gaste batería, es exactamente la herramienta. Y hay una comprobación que casi nadie hace: después de quitar, la aplicación sigue apareciendo en la lista de paquetes del sistema si se consulta con la orden correcta, lo que demuestra que la vuelta atrás es posible.</p>
+    <p><strong>Cómo se comprueba:</strong> Después de quitar una, busca su paquete en la lista que incluye las desinstaladas para el usuario: si aparece ahí, está lista para volver con una sola orden. Si no aparece en ninguna lista, se desinstaló de verdad y no hay vuelta atrás.</p>
+    <pre><code>adb shell pm list packages -u | grep &lt;paquete&gt;</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Quitar una aplicación de la que depende el lanzador, el teclado o el sistema de actualizaciones puede dejar el teléfono inutilizable.</li>
+<li>Quitar a ciegas lo que otra persona recomienda en un foro para otro modelo de teléfono.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/aistra0528/Hail">aistra0528/Hail</a>, <a href="https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation">Universal-Debloater-Alliance/universal-android-debloater-next-generation</a></p></div>
+
+  <p class="meta">Programa de samolego · LGPL-3.0 · medido el 3 de noviembre de 2026 · licencia LGPL-3.0
+     (<a href="https://github.com/samolego/Canta/blob/master/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Hail <span class="meta">· aistra0528/Hail</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>47/100</strong> ·
+    ★7,095 · 1909 días · última entrega 2026-08-26 ·
+    333,892 descargas en 10 entregas · 87 personas ·
+    1 flujos de compilación · incidencias 147/318.
+  </p>
+  <p>Congelar, esconder o suspender aplicaciones sin desinstalarlas, para que no molesten pero vuelvan cuando quieras.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien quiera que una aplicación deje de correr sin perderla: la versión reversible de la limpieza.
+     <br><strong>Para quién no es:</strong> para quien quiera recuperar espacio en el almacenamiento: congelar no libera nada.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Concede el permiso prestado, o activa el modo de administrador si tu caso lo permite.</li>
+<li>Elige una aplicación que no uses y aplica el modo de congelado, no el de desinstalación.</li>
+<li>Comprueba el resultado abriendo el cajón de aplicaciones: debe aparecer atenuada o desaparecer, según el modo elegido.</li>
+<li>Verifica que no se ejecuta: en los ajustes de batería no debe aparecer consumiendo desde el último arranque.</li>
+<li>Descongela y comprueba que vuelve tal como estaba, con sus datos y su sesión abierta.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> La aplicación deja de ejecutarse y de gastar batería, y al descongelarla vuelve con todo lo que tenía.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si la aplicación vuelve a aparecer sola después de reiniciar, usa el modo de administrador del aparato en lugar del permiso prestado.</li>
+<li>Si el teléfono se pone lento al congelar muchas de golpe, hazlo de cinco en cinco y reinicia entre tandas.</li></ul>
+    <p><strong>Cómo se deshace:</strong> En la misma lista, la aplicación congelada tiene su interruptor de vuelta. Cada modo se revierte por separado.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Congelar es un estado intermedio que el sistema conoce: la aplicación existe, aparece en los ajustes y no se puede ejecutar. Es lo más parecido a apagarla sin quitarla, y por eso es el modo más seguro para probar.</p>
+<p>Su punto débil es de fecha: su última entrega es de agosto de 2026 aunque el repositorio sigue moviéndose, y su cola tiene más de la mitad abierta. Un proyecto con ochenta y siete personas y una sola integración continua publica menos de lo que su tamaño sugiere.</p>
+    <p><strong>Límites:</strong></p><ul><li>No libera espacio: el paquete y los datos siguen ocupando lo mismo.</li>
+<li>Sin el permiso activo, la mayoría de las funciones no responden.</li>
+<li>No publica desde agosto, y su cola de incidencias está a la mitad.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Congelar y suspender no son lo mismo, y el sistema los trata distinto: una aplicación congelada no puede ejecutarse pero sigue visible en los ajustes; una suspendida además desaparece del cajón y se le cortan las notificaciones como si no existiera. La diferencia práctica aparece al intentar abrirla desde otra aplicación: la congelada falla, la suspendida se comporta como si no estuviera instalada. Para callar algo que manda notificaciones sin perderlo, la suspendida es la correcta.</p>
+    <p><strong>Cómo se comprueba:</strong> Consulta el estado del paquete: el sistema informa si está deshabilitado, suspendido o normal. Ese dato no lo da la interfaz de la herramienta, lo da el propio teléfono.</p>
+    <pre><code>adb shell dumpsys package &lt;paquete&gt; | grep -E &quot;enabled=|suspended=&quot; | head</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Congelar aplicaciones del sistema por error puede dejar sin notificaciones a otras que sí usas.</li>
+<li>Confundir congelar con desinstalar y quedarse sin el espacio que se esperaba recuperar.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/samolego/Canta">samolego/Canta</a>, <a href="https://github.com/SysAdminDoc/AppManagerNG">SysAdminDoc/AppManagerNG</a></p></div>
+
+  <p class="meta">Programa de aistra0528 · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/aistra0528/Hail/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Universal Android Debloater NG <span class="meta">· Universal-Debloater-Alliance/universal-android-debloater-next-generation</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>59/100</strong> ·
+    ★9,725 · 1104 días · última entrega 2026-11-02 ·
+    400,084 descargas en 10 entregas · 100 personas ·
+    3 flujos de compilación · incidencias 517/782.
+  </p>
+  <p>Limpiar el teléfono desde la computadora, con listas de lo que se puede quitar en cada fabricante y sin instalar nada en el aparato.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien tenga computadora y quiera ver todo lo que trae el teléfono con nombres y descripciones antes de decidir.
+     <br><strong>Para quién no es:</strong> para quien no pueda conectar el teléfono por cable: esta herramienta vive en la computadora.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Descarga la versión para tu sistema desde las entregas del proyecto: hay cuarenta archivos y hay que elegir el de tu sistema operativo.</li>
+<li>Activa la depuración por USB en el teléfono y conéctalo por cable. Acepta la huella del ordenador en la pantalla del teléfono.</li>
+<li>Abre la herramienta: debe reconocer el aparato y mostrar su modelo. Si no lo reconoce, la depuración no está activa o el cable no transmite datos.</li>
+<li>Filtra por recomendación y empieza por las marcadas como seguras. Lee la descripción de cada paquete antes de marcar: la lista explica qué hace.</li>
+<li>Aplica los cambios de una en una o en tandas pequeñas, y reinicia el teléfono después de cada tanda para ver qué se rompió, si algo se rompió.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> El teléfono arranca normal, las aplicaciones elegidas ya no aparecen y la herramienta lista el historial de lo quitado para poder revertirlo.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si el aparato deja de responder a la herramienta, desconecta y vuelve a conectar: la sesión de depuración se cae con frecuencia.</li>
+<li>Si algo esencial desaparece, la misma herramienta tiene la opción de restaurar el paquete desde su historial.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Cada paquete quitado se restaura desde la propia herramienta, que guarda el registro de la sesión, o con `cmd package install-existing &lt;paquete&gt;`.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Su valor no es la herramienta sino las listas: cientos de paquetes de decenas de fabricantes, cada uno con su descripción y su nivel de riesgo, mantenidas por una comunidad que las prueba en aparatos reales.</p>
+<p>Y su ventaja sobre las aplicaciones de teléfono es la pantalla: en una computadora se ve la lista completa con descripciones, se puede buscar y se puede leer antes de decidir. En el teléfono, la misma decisión se toma a ciegas entre nombres incomprensibles.</p>
+    <p><strong>Límites:</strong></p><ul><li>Necesita computadora y cable: no sirve para limpiar el teléfono en la calle.</li>
+<li>Su cola de incidencias tiene más de doscientas sesenta abiertas.</li>
+<li>La lista de un fabricante no siempre cubre todos sus modelos ni todas sus versiones.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>El paquete que más problemas causa al quitarlo no es el que parece: quitar el servicio de reproducción de Google o el marco de notificaciones del fabricante rompe las notificaciones push de casi todas las demás aplicaciones, y el síntoma aparece días después, cuando un banco deja de avisar de un cobro. La regla práctica que se desprende de las listas: todo lo que lleve en el nombre palabras como servicios, marco, notificaciones o proveedor de contenido se deja; lo que lleva el nombre de una tienda, una red social o un juego, se va.</p>
+    <p><strong>Cómo se comprueba:</strong> Antes de quitar, mira si el paquete tiene dependencias: la propia herramienta muestra qué otras aplicaciones lo referencian. Si una aplicación que usas aparece en esa lista, ese paquete no se toca.</p>
+    <pre><code>adb shell dumpsys package &lt;paquete&gt; | grep -E &quot;required|dependenc&quot; | head</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Quitar un paquete del sistema que otras aplicaciones usan como servicio: el daño aparece semanas después.</li>
+<li>Aplicar una lista de otro modelo de teléfono sin leerla.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/samolego/Canta">samolego/Canta</a>, <a href="https://github.com/aistra0528/Hail">aistra0528/Hail</a></p></div>
+
+  <p class="meta">Programa de Universal-Debloater-Alliance · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Uraam <span class="meta">· Ruraam/Uraam</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>59/100</strong> ·
+    ★52 · 151 días · última entrega 2026-11-01 ·
+    62 descargas en 10 entregas · 2 personas ·
+    2 flujos de compilación · incidencias 1/1.
+  </p>
+  <p>Tener en el bolsillo un cajón de órdenes de ADB listas, sin computadora, para cuando algo se rompe.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien ya se maneje con órdenes y quiera tenerlas a mano sin llevar el cable.
+     <br><strong>Para quién no es:</strong> para quien empiece: aquí no hay botones que expliquen, hay comandos que se ejecutan.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instala, concede el permiso prestado y abre el catálogo de acciones.</li>
+<li>Empieza por las de lectura: listar paquetes, ver propiedades del sistema, comprobar el estado de la batería.</li>
+<li>Usa una acción de escritura reversible, como limpiar la caché de una aplicación, y comprueba el resultado.</li>
+<li>Guarda tu propia lista de órdenes frecuentes en la aplicación, con una nota de qué hace cada una.</li>
+<li>Antes de usar cualquier acción marcada como destructiva, lee la orden que ejecuta y compruébala en una libreta.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Las acciones se ejecutan y el teléfono responde; las de lectura devuelven información que antes no tenías.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si una acción falla con error de permiso, la sesión se cayó: vuelve a concederla.</li>
+<li>Si una acción deja el teléfono raro, reinicia antes de hacer otra cosa.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Las acciones de lectura no cambian nada. Las de escritura dependen de cada una: las de limpieza son reversibles, las de desinstalación se revierten con `install-existing`.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Es la versión de bolsillo de un taller: la misma idea que la consola del capítulo 3, pero con las órdenes agrupadas por tarea para no tener que recordarlas.</p>
+<p>Su nota es alta para su tamaño —cincuenta y nueve con dos personas y ciento cincuenta y un días— porque publica: su última entrega es de ayer y su cola está casi vacía.</p>
+    <p><strong>Límites:</strong></p><ul><li>Dos personas: es un proyecto joven y pequeño.</li>
+<li>Sin huellas en sus adjuntos.</li>
+<li>La comodidad de tener órdenes listas invita a ejecutarlas sin leerlas.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Una de las órdenes más útiles y menos conocidas no desinstala nada: `pm clear` borra todos los datos de una aplicación y la deja como recién instalada, sin quitarla. Es la forma más rápida de arreglar una aplicación que se quedó en un estado imposible —sin perder el paquete, sin reinstalar, sin buscar el archivo— y también la forma más rápida de perder una sesión que no se quiere perder. La regla: se usa cuando la aplicación ya no funciona, nunca para &#x27;limpiar&#x27; por gusto.</p>
+    <p><strong>Cómo se comprueba:</strong> Antes de ejecutarla, comprueba que la aplicación no tiene datos que no puedas recuperar: si tiene una sesión abierta o archivos dentro, esos se van con la orden. Después, el sistema informa de cuántos datos se borraron.</p>
+    <pre><code>adb shell pm clear &lt;paquete&gt;</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Ejecutar una orden destructiva sin leerla. En este capítulo, ese es el riesgo real.</li>
+<li>Proyecto de dos personas: si se detiene, las órdenes siguen existiendo pero nadie las mantiene.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/samolego/Canta">samolego/Canta</a>, <a href="https://github.com/DP-Hridayan/aShellYou">DP-Hridayan/aShellYou</a></p></div>
+
+  <p class="meta">Programa de Ruraam · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/Ruraam/Uraam/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>App Manager NG <span class="meta">· SysAdminDoc/AppManagerNG</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>33/100</strong> ·
+    ★169 · 187 días · última entrega 2026-09-05 ·
+    11,296 descargas en 10 entregas · 3 personas ·
+    0 flujos de compilación · incidencias 9/23.
+  </p>
+  <p>Ver qué componentes tiene cada aplicación y por qué sigue gastando batería aunque esté cerrada.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien quiera entender qué corre dentro de una aplicación antes de decidir si la deja o la quita.
+     <br><strong>Para quién no es:</strong> para quien solo quiera limpiar el teléfono: esta herramienta enseña, no limpia sola.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instala, concede el permiso prestado y abre la lista de aplicaciones.</li>
+<li>Entra en una aplicación concreta y abre la pestaña de componentes: servicios, receptores y actividades.</li>
+<li>Filtra por los que están en ejecución para ver qué sigue vivo después de cerrar la aplicación.</li>
+<li>Desactiva un receptor que no necesites y comprueba durante un día si algo dejó de funcionar.</li>
+<li>Anota cada cambio: es la única manera de revertirlo sin desinstalar todo.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Ves qué componentes mantienen viva una aplicación y puedes apagar los que no uses sin quitarla.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si desactivar un componente rompe la aplicación, vuelve a activarlo en la misma pantalla.</li>
+<li>Si no aparece el estado de ejecución, revisa que el permiso siga activo.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Cada componente desactivado se reactiva en su misma pantalla; los cambios se revierten uno por uno y no afectan a los datos.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Una aplicación no es un programa: es un conjunto de piezas que el sistema puede arrancar por separado. Un receptor puede despertar la aplicación sin que nadie la abra, y un servicio puede seguir corriendo después de &#x27;cerrarla&#x27;.</p>
+<p>Esa es la explicación de la queja más común del teléfono que gasta batería: la aplicación no está abierta, está despierta.</p>
+    <p><strong>Límites:</strong></p><ul><li>Tres personas y ningún flujo de compilación automática: su nota es baja y con razón.</li>
+<li>Su última entrega es de septiembre y su cola tiene más abiertas de las que su equipo puede atender.</li>
+<li>Es una herramienta de diagnóstico, no de limpieza rápida.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Cuando el sistema dice que una aplicación consumió batería &#x27;en segundo plano&#x27;, casi nunca es un proceso suyo: es un receptor de eventos del sistema que la despierta cuando pasa algo. Ese receptor tiene nombre propio en la lista de componentes, y desactivarlo suele resolver el consumo sin tocar la aplicación ni perder sus datos. Es la diferencia entre apagar el fuego y saber quién lo encendió.</p>
+    <p><strong>Cómo se comprueba:</strong> Mira los componentes con estado de ejecución antes y después de cerrar la aplicación: los que siguen activos son los que hay que revisar. Es la misma información que da el sistema, pero con nombre y apellido.</p>
+    <pre><code>adb shell dumpsys package &lt;paquete&gt; | grep -E &quot;Service|Receiver&quot; | head -20</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Desactivar componentes a ciegas puede romper funciones que no parecen relacionadas.</li>
+<li>Confiar en una herramienta sin equipo detrás para decisiones delicadas: lee la cola antes de darle permiso.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/aistra0528/Hail">aistra0528/Hail</a>, <a href="https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation">Universal-Debloater-Alliance/universal-android-debloater-next-generation</a></p></div>
+
+  <p class="meta">Programa de SysAdminDoc · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/SysAdminDoc/AppManagerNG/blob/main/LICENSE">archivo</a>) · ficha medida el 3 de noviembre de 2026</p>
+</article>
+<footer><p>Texto CC BY-SA 4.0 · datos CC BY 4.0 · La Bandita. Mediciones del 3 de noviembre de 2026.</p></footer>
+</div></body></html>
