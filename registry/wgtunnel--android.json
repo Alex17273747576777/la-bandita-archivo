@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-19",
+  "release_en": "2023-07-02",
   "semantica_http": 200,
-  "ultima_release": "5.8.2",
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "1.1.5",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "An advanced, open-source client for WireGuard and AmneziaWG on Android.",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3320,
+  "stars": 3326,
   "stars_por_mes": null
  },
  "nombre": "android",
@@ -39,7 +39,7 @@
   "commit": "9daa19397c2c1e96bdbc6aac7e0551017237f0b8",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:9daa19397c2c1e96bdbc6aac7e0551017237f0b8"
  },
  "repo": "wgtunnel/android",
  "web": "https://wgtunnel.com"

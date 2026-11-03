@@ -1,8 +1,8 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "muerto",
   "release_en": "2026-10-17",
-  "semantica_http": 200,
+  "semantica_http": 404,
   "ultima_release": "4.2",
   "ultimo_push": "2026-10-17"
  },
@@ -25,11 +25,11 @@
   "spdx": "GPL-3.0",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1470,
+  "stars": null,
   "stars_por_mes": null
  },
  "nombre": "SwitchAI",

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#zenspinjewelry/web-to-app",
   "sha256": "ff1f14361f3d079d8c56f09096b244c40eee43dfe44fb06ad8277bd7137c237e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "zenspinjewelry--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "36728b1d1839bb04f0ae38d5775c1cafb3862882",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:36728b1d1839bb04f0ae38d5775c1cafb3862882"
  },
  "repo": "zenspinjewelry/web-to-app"
 }

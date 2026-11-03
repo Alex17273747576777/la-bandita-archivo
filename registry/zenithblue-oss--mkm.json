@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-06-29",
+  "release_en": "2026-02-10",
   "semantica_http": 200,
-  "ultima_release": "v1.7",
+  "ultima_release": "v1.0",
   "ultimo_push": "2026-10-10"
  },
  "descripcion": "Minimal Android kernel management and system monitoring application",
@@ -21,11 +21,11 @@
  "id": "zenithblue-oss--mkm",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "AGPL-3.0-only",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -39,7 +39,7 @@
   "commit": "153dae86c804241a394512c88d00f4591378ca72",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:153dae86c804241a394512c88d00f4591378ca72"
  },
  "repo": "zenithblue-oss/mkm"
 }

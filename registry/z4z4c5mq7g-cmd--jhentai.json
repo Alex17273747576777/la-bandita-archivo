@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#z4z4c5mq7g-cmd/JHenTai",
   "sha256": "8bdca21e5a6f85fdbe9519b729d9832f336f55017016eb2c98692bfd8bf8bd55"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "z4z4c5mq7g-cmd--jhentai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c6cb964bd6427d500b16b10208f9d5d213b5ca0c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c6cb964bd6427d500b16b10208f9d5d213b5ca0c"
  },
  "repo": "z4z4c5mq7g-cmd/JHenTai"
 }

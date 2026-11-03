@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#yunho-c/mangayomi",
   "sha256": "f1627c6aef5207073cafd59e5e37bfccf25afb257e30bd6b39c7dbb7fc6d7c80"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "yunho-c--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "cf871f5d7c6ac4ec67737a07eacf8364b173e349",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:cf871f5d7c6ac4ec67737a07eacf8364b173e349"
  },
  "repo": "yunho-c/mangayomi"
 }

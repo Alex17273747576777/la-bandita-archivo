@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-10",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-13"
  },
  "descripcion": "RE:Amachiromaker 安卓原生版 —— Kotlin + Jetpack Compose 重写的捏脸工坊（非 WebView 套壳），支持分层 PSD 导出与多节点智能下载",
@@ -21,11 +21,11 @@
  "id": "ynlp0624--re-amachiromaker-android",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "MIT",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a68d018150c9a1fc80854963360c2ac0ce6fed98",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a68d018150c9a1fc80854963360c2ac0ce6fed98"
  },
  "repo": "ynlp0624/RE-Amachiromaker-Android",
  "web": "https://gallery.shizuku.plus"

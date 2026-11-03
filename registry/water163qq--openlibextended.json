@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#water163qq/OpenlibExtended",
   "sha256": "ffb52b5f52ea9e9b50b0803a7b35967e7ec922949a095ee2e4079218e34f7a93"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "water163qq--openlibextended",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "84240e5d4a50f4eb37d9fa0ed4ab9d5b0906260e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:84240e5d4a50f4eb37d9fa0ed4ab9d5b0906260e"
  },
  "repo": "water163qq/OpenlibExtended"
 }

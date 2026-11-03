@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 443,
+  "stars": 444,
   "stars_por_mes": null
  },
  "nombre": "kakehashi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "490c5fb9a10ead928ef590cef58a6da792616a82",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:490c5fb9a10ead928ef590cef58a6da792616a82"
  },
  "repo": "wie-project/kakehashi"
 }

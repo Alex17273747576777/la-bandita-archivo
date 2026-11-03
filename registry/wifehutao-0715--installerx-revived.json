@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-06-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "packageinstaller-online-stable-26.05.01",
   "ultimo_push": "2026-08-07"
  },
  "descripcion": "Make InstallerX Great Again!",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#wifehutao-0715/InstallerX-Revived",
   "sha256": "71839963e4513f3bcaa05148df44e5c34ce1ba80bdadece19a73de242d2657cb"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "wifehutao-0715--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "93886f9db5acf765a33f80d461c965f74b071eb9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:93886f9db5acf765a33f80d461c965f74b071eb9"
  },
  "repo": "wifehutao-0715/InstallerX-Revived"
 }

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v17",
   "ultimo_push": "2026-10-20"
  },
  "descripcion": "让你的shortcut背景模糊换成更加美观的动态模糊",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "61493b72f8f13bc7340053c9b1c51464b4f0d6e1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:61493b72f8f13bc7340053c9b1c51464b4f0d6e1"
  },
  "repo": "wisely-leo/ColorOS_Blur_Enhance"
 }

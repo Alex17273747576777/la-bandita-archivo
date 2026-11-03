@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Yukaii/Suwayomi-Tsumiru",
   "sha256": "b7d8c2709b41bf5e1e26f713356254c901a87109bd4d20651761a7fa1ba92742"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "yukaii--suwayomi-tsumiru",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "d0333e9e1c588cc439453c2176bc1c42f1dacbb2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d0333e9e1c588cc439453c2176bc1c42f1dacbb2"
  },
  "repo": "Yukaii/Suwayomi-Tsumiru"
 }

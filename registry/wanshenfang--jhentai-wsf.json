@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#wanshenfang/JHenTai-WSF",
   "sha256": "8ff45c510c47ae65a7f105771be057e5ec4d6d6cdfb1d9b12c7072ca13da327b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "wanshenfang--jhentai-wsf",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "c6cb964bd6427d500b16b10208f9d5d213b5ca0c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c6cb964bd6427d500b16b10208f9d5d213b5ca0c"
  },
  "repo": "wanshenfang/JHenTai-WSF"
 }

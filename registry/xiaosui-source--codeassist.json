@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#xiaosui-source/CodeAssist",
   "sha256": "3900a548f259222ccd4b78676e29885107f7d0b6af2a7e87156dc53a77bc2a5c"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "xiaosui-source--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "33e6e9089cc4a1915de6534cab8ba81af9ec801b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:33e6e9089cc4a1915de6534cab8ba81af9ec801b"
  },
  "repo": "xiaosui-source/CodeAssist"
 }

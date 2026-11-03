@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "watchface-build-90",
   "ultimo_push": "2026-10-30"
  },
  "descripcion": "小米表盘工具（Xiaomi-BiaoPan）：接入微验原生 SDK 网络验证",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "70d9d9d9f3a6c3e61a818adaf205198c9685d1bf",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:70d9d9d9f3a6c3e61a818adaf205198c9685d1bf"
  },
  "repo": "wanfeng090525/Xiaomi-BiaoPan"
 }

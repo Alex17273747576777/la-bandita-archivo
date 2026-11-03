@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#XenriseZPH/mangayomi",
   "sha256": "963d112d42939a155c47ae454eed232af93e00ba3ccc73d4061fbee726585760"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "xenrisezph--mangayomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "89dd50dc25a45c2cb86c2fa4dbe808e9a5624cd9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:89dd50dc25a45c2cb86c2fa4dbe808e9a5624cd9"
  },
  "repo": "XenriseZPH/mangayomi"
 }

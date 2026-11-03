@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#zyl6932/InstallerX-Revived",
   "sha256": "114b53ab7134fba27691be0d9f1fd795cae0c62e615d1fa380832caf2e8bb4f9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "zyl6932--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f48394ab0cd76e8e45c991f37ca8011faf3c9ebf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f48394ab0cd76e8e45c991f37ca8011faf3c9ebf"
  },
  "repo": "zyl6932/InstallerX-Revived"
 }

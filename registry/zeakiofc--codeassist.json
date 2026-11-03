@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#ZeakiOFC/CodeAssist",
   "sha256": "22b5b083337c736ccf61de952975413926a92290a9d31da3d5d0e7019ab5102a"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "zeakiofc--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "ee413b9c9a173b0c07b4c091eff0208542a4adfc",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ee413b9c9a173b0c07b4c091eff0208542a4adfc"
  },
  "repo": "ZeakiOFC/CodeAssist"
 }

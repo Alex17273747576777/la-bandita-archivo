@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#WhocryzX/InstallerX-Revived",
   "sha256": "4b0ae57a9849edd1c87ac995b57a777e14edefa251c11ee7ea0d6fdf5d24c397"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "whocryzx--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "cb9a24de14b79a29f47dd505b9ac845ef1077f78",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:cb9a24de14b79a29f47dd505b9ac845ef1077f78"
  },
  "repo": "WhocryzX/InstallerX-Revived"
 }

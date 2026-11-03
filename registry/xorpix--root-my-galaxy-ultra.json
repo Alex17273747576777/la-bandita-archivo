@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-27",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "1.0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Fork of Root My Galaxy Next by @rushiranpise for temporary root on Samsung Galaxy S26 Ultra models. Supports One UI 8.5 using GhostLock exploit and One UI 9 using DirtyFrag exploit. Includes KernelSU, KernelSU-Next, KowSU and BakaSU (former ReSukiSU).",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13,
+  "stars": 14,
   "stars_por_mes": null
  },
  "nombre": "Root-My-Galaxy-Ultra",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3c1394edcbc49e40cc46b0c31eb4d09f0be4c42b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3c1394edcbc49e40cc46b0c31eb4d09f0be4c42b"
  },
  "repo": "xorpix/Root-My-Galaxy-Ultra"
 }

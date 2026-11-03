@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#wazeerc/MicroG-RE",
   "sha256": "01933b8f236bd2fdc355e59bd370e900c08b525b9b8cd07716a9f81606704c81"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "wazeerc--microg-re",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4d4ee00fc9909f8b036d64f89ebaaf3979ccf412",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4d4ee00fc9909f8b036d64f89ebaaf3979ccf412"
  },
  "repo": "wazeerc/MicroG-RE"
 }

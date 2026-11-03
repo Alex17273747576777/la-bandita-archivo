@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-05-21",
+  "release_en": "2026-05-18",
   "semantica_http": 200,
-  "ultima_release": "clawgui-app-v0.3.1",
+  "ultima_release": "clawgui-app-v0.2.0",
   "ultimo_push": "2026-06-03"
  },
  "descripcion": "Build, Evaluate, and Deploy GUI Agents — online RL training, standardized benchmarks, and real-device deployment in one framework.",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1366,
+  "stars": 1369,
   "stars_por_mes": null
  },
  "nombre": "ClawGUI",
@@ -39,7 +39,7 @@
   "commit": "d990d3e3f2390ced708771d9681d3c4f9a6cbef5",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:d990d3e3f2390ced708771d9681d3c4f9a6cbef5"
  },
  "repo": "ZJU-REAL/ClawGUI"
 }

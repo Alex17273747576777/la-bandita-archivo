@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2019-08-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0",
   "ultimo_push": "2025-11-07"
  },
  "descripcion": "This repository contains the iOS and Android sample apps and API for creating third party sticker packs for WhatsApp.",
@@ -21,25 +21,25 @@
  "id": "whatsapp--stickers",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "BSD-3-Clause",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2922,
+  "stars": 2923,
   "stars_por_mes": null
  },
  "nombre": "stickers",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "06144a1f6077bbb346e1230032fc4e0bce996d03",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:06144a1f6077bbb346e1230032fc4e0bce996d03"
  },
  "repo": "WhatsApp/stickers"
 }

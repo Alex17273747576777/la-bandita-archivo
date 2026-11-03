@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-05-13",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.9.1-fix3",
   "ultimo_push": "2026-10-18"
  },
  "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2763,
+  "stars": 2771,
   "stars_por_mes": null
  },
  "nombre": "Vectras-VM-Android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ae909bd22ab019faccdd4ef15a27833ff426119d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ae909bd22ab019faccdd4ef15a27833ff426119d"
  },
  "repo": "xoureldeen/Vectras-VM-Android",
  "web": "https://getvectras.com"

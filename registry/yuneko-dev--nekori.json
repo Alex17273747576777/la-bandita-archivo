@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-18",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-24"
+  "ultima_release": "v0.0.1",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "Free and open source novel reader for Android",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b752cb9d171aa8d942a0aa12e8c9117ac2fc95eb",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b752cb9d171aa8d942a0aa12e8c9117ac2fc95eb"
  },
  "repo": "Yuneko-dev/Nekori",
  "web": "https://nekori.yuneko.dev"

@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-15"
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Maple - Private AI Chat",
  "evidencia": {
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#w3irdrobot/Maple",
   "sha256": "11caadacecc13f73ef453366399a8eeb87c7e231182b40be99d33765b2639fda"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "w3irdrobot--maple",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "148898481dca0d4bd4cd4d157b1b286f6eaeca22",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:148898481dca0d4bd4cd4d157b1b286f6eaeca22"
  },
  "repo": "w3irdrobot/Maple"
 }

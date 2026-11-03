@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#yoli95520-lab/WinNative",
   "sha256": "4d26122095e5c64b9b8574ccc6fb226f1e0197b0a5b98989e5f9774a060f31d8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "yoli95520-lab--winnative",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8409085f706acbc0749881d9bf1e85f2f347dfd4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8409085f706acbc0749881d9bf1e85f2f347dfd4"
  },
  "repo": "yoli95520-lab/WinNative"
 }

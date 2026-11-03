@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-02",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.0.1beta",
   "ultimo_push": "2026-10-22"
  },
  "descripcion": "Android on-device Traditional-to-Simplified patcher for Chaos Zero Nightmare (Shizuku, GPLv3)",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "68df36c81e16142468631eec272bdb130f7a34ac",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:68df36c81e16142468631eec272bdb130f7a34ac"
  },
  "repo": "yporoc/ChaosZeroNightmare-Toolkit-Android"
 }

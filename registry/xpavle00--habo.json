@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2021-09-30",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.6.0-beta",
   "ultimo_push": "2026-10-14"
  },
  "descripcion": "Privacy-first habit tracker for iOS and Android. E2EE sync, self-hostable, built with Flutter.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1554,
+  "stars": 1557,
   "stars_por_mes": null
  },
  "nombre": "Habo",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1ddf4c43075f0f13121a44ae91a01ca8185cedb9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1ddf4c43075f0f13121a44ae91a01ca8185cedb9"
  },
  "repo": "xpavle00/Habo",
  "web": "https://habo.space"

@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2021-02-22",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-24"
+  "ultima_release": "v1.1",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "KeyPass: Open Source Project & An Offline Password Manager. Store, manage, and take control securely.",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 788,
+  "stars": 787,
   "stars_por_mes": null
  },
  "nombre": "KeyPass",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ca9adca05c5a73bd854e4dec52cf46415602514f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ca9adca05c5a73bd854e4dec52cf46415602514f"
  },
  "repo": "yogeshpaliyal/KeyPass",
  "web": "https://github.yogeshpaliyal.com/KeyPass/"

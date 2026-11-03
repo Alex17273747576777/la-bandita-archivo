@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.0.4",
   "ultimo_push": "2026-10-24"
  },
  "descripcion": "Open-source Android AI chat, on-device agent, local models, Live2D, Skills, MCP, and Vibe Coding",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "31de70f3048914a0c68021617e2b1bdb5b6ddeea",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:31de70f3048914a0c68021617e2b1bdb5b6ddeea"
  },
  "repo": "Wayne1145/yachiyo-claw"
 }

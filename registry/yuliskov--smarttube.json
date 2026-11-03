@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2020-09-26",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-28"
+  "ultima_release": "beta",
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Browse media content with your own rules on Android TV",
  "evidencia": {
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 35780,
+  "stars": 35878,
   "stars_por_mes": null
  },
  "nombre": "SmartTube",
@@ -40,10 +40,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4557e4c3e76cf4a00f9c9359ffc73696050f6031",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4557e4c3e76cf4a00f9c9359ffc73696050f6031"
  },
  "repo": "yuliskov/SmartTube",
  "web": "https://smarttubeapp.github.io"

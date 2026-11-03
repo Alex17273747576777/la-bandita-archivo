@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-12-17",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.7.0-beta",
   "ultimo_push": "2026-10-29"
  },
  "descripcion": "💡 Auto dark mode based on ambient light sensor for Android.",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 304,
+  "stars": 309,
   "stars_por_mes": null
  },
  "nombre": "Adaptive-Theme",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3501158cfe2544cc7f049f1be6b785b74f67c8fe",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3501158cfe2544cc7f049f1be6b785b74f67c8fe"
  },
  "repo": "xLexip/Adaptive-Theme",
  "web": "https://play.google.com/store/apps/details?id=dev.lexip.hecate&referrer=utm_source%3Dgithub%26utm_medium%3Drepolink"

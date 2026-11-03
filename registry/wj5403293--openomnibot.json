@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#wj5403293/OpenOmniBot",
   "sha256": "da007f5c4661e3c66c61ddf97363141dd3db8fa595d4958d494841b92e0bdb49"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "wj5403293--openomnibot",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "7e4299678a2fce19c4d4b49f64d482314bec5d1d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7e4299678a2fce19c4d4b49f64d482314bec5d1d"
  },
  "repo": "wj5403293/OpenOmniBot"
 }

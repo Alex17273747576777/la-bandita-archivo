@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-06",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.2.0",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "Shizuku 版 Android 界面锁定 + 自律工具：锁住任意 App 的任意界面（推荐流/朋友圈），限额到点锁死，数据可云端迁移。",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7d258ea9c375e9f62cf2e9c128653ae35876e98a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7d258ea9c375e9f62cf2e9c128653ae35876e98a"
  },
  "repo": "Whyms1998/ActivityLocking",
  "web": "https://github.com/Whyms1998/ActivityLocking/releases/latest"

@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-09-13",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "1.1.2",
   "ultimo_push": "2026-10-28"
  },
  "descripcion": "利用本地AI模型，清理你的手机通知栏",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "909e2b68894169e896f937a2a3263564a7c01efa",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:909e2b68894169e896f937a2a3263564a7c01efa"
  },
  "repo": "ytdttj/NotificationCleaner"
 }

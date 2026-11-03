@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-02",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.8.3",
   "ultimo_push": "2026-09-28"
  },
  "descripcion": "Get Android app updates straight from the source. And install it any way you wan",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#You236929/ObtainX",
   "sha256": "5d7879ecf5afb891e011677ab1779bd6743e3c687d5830bebe4b54f701b05818"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "you236929--obtainx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "acaeca0d137557af4c0777608eab21d9a9ee05e9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:acaeca0d137557af4c0777608eab21d9a9ee05e9"
  },
  "repo": "You236929/ObtainX"
 }

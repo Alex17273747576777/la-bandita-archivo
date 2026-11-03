@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#WayneKent/mpvRx",
   "sha256": "0e9fe3783504ad40cb4c63e7eb63b1313898e89573a23b2abb0ae435d4eac4e6"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "waynekent--mpvrx",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "fdb0c933dd66f51b9985df4be5eb0e0cab514c05",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:fdb0c933dd66f51b9985df4be5eb0e0cab514c05"
  },
  "repo": "WayneKent/mpvRx"
 }

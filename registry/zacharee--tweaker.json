@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2024-02-17",
+  "release_en": "2022-06-20",
   "semantica_http": 200,
-  "ultima_release": "362",
+  "ultima_release": "341",
   "ultimo_push": "2026-10-21"
  },
  "descripcion": "",
@@ -25,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1760,
+  "stars": 1762,
   "stars_por_mes": null
  },
  "nombre": "Tweaker",

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#zarozr1/orion-store",
   "sha256": "f2c87c9f8ece99d03d0c7a0360d7b0c30f196e2675a9c39958acaa52a869a1c9"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "zarozr1--orion-store",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a4ef151ffbfc8d2655408d8ae54f9e6ffd769be6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a4ef151ffbfc8d2655408d8ae54f9e6ffd769be6"
  },
  "repo": "zarozr1/orion-store"
 }

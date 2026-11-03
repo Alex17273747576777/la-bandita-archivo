@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#WhenMarkers/Nekoyomi",
   "sha256": "7c12093d3a6c16800482a4947fcd570242fe1e1e99b90661868522c36a775d51"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "whenmarkers--nekoyomi",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "680e243e3d3410fdc75d038c15abeacee7d61069",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:680e243e3d3410fdc75d038c15abeacee7d61069"
  },
  "repo": "WhenMarkers/Nekoyomi"
 }

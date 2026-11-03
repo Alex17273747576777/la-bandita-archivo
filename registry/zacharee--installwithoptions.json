@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2024-01-31",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "0.2.2",
   "ultimo_push": "2026-10-24"
  },
  "descripcion": "Simple-ish app using Shizuku to install APKs on-device with advanced options",
@@ -23,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3393,
+  "stars": 3404,
   "stars_por_mes": null
  },
  "nombre": "InstallWithOptions",
@@ -38,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "bd26a0fb26ec77bdbc0dd1fe3bb6890098e7e5f1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:bd26a0fb26ec77bdbc0dd1fe3bb6890098e7e5f1"
  },
  "repo": "zacharee/InstallWithOptions"
 }

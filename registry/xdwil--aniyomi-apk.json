@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#xdwil/aniyomi-apk",
   "sha256": "e6a4c708df7f4ce15f0574132fe874eb7492d977fd9085e8387aacd29f0d662e"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "xdwil--aniyomi-apk",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4f3992194ed265cd43e5781d8bc5f455ace930e6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4f3992194ed265cd43e5781d8bc5f455ace930e6"
  },
  "repo": "xdwil/aniyomi-apk"
 }

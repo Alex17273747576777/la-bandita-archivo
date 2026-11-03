@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2026-01-04",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.2.2",
   "ultimo_push": "2026-01-11"
  },
  "descripcion": "A 1 click solution for reading Manga with OCR'ed textboxs,  works seamless with",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#yuukibarns/Mangatan",
   "sha256": "42647a0b7be0c7dcc3793c6f024c40ebd06f2e8306657067abfcaf0c337a9e87"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "yuukibarns--mangatan",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "86d009d6dfec10e1beb58e9adc02406e0ba7b47c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:86d009d6dfec10e1beb58e9adc02406e0ba7b47c"
  },
  "repo": "yuukibarns/Mangatan"
 }

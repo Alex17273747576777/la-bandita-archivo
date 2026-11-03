@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-25",
+  "release_en": "2026-08-17",
   "semantica_http": 200,
-  "ultima_release": "v1.8.1",
-  "ultimo_push": "2026-10-25"
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "安卓我的世界JAVA版服务器启动器",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -39,7 +39,7 @@
   "commit": "5834b72df1609423600a550223df929132b1ac47",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:5834b72df1609423600a550223df929132b1ac47"
  },
  "repo": "WLudy1012/RolithaxLauncher"
 }

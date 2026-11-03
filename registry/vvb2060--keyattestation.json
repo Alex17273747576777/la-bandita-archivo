@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2020-12-07",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.2.0",
   "ultimo_push": "2025-09-30"
  },
  "descripcion": "",
@@ -26,11 +26,11 @@
   "spdx": "mit",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2180,
+  "stars": 2181,
   "stars_por_mes": null
  },
  "nombre": "KeyAttestation",

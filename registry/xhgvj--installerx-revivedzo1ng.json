@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2026-02-28",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "zo1ng",
   "ultimo_push": "2026-03-01"
  },
  "descripcion": "More Expressive InstallerX !",
@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#XHGVJ/InstallerX-Revivedzo1ng",
   "sha256": "3eea07f86f61f8ccda8e50f18885c23d1ea9654a18959750c10136a8628c6b3d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "xhgvj--installerx-revivedzo1ng",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "1428e9381618eea8ec8b42f58d5787e308c0a29c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1428e9381618eea8ec8b42f58d5787e308c0a29c"
  },
  "repo": "XHGVJ/InstallerX-Revivedzo1ng"
 }

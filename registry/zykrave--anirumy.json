@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-08-20",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.6.0",
   "ultimo_push": "2026-09-13"
  },
  "descripcion": "An unofficial AniList client for Android — track anime & manga, beautifully.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b1015ded513bc5381a3c9bf29781128747544f4e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b1015ded513bc5381a3c9bf29781128747544f4e"
  },
  "repo": "Zykrave/Anirumy",
  "web": "https://zykrave-omniverse.vercel.app/"

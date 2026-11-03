@@ -4,7 +4,7 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-26"
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "NovaFiles is a modern Android file manager built with Google AI Studio and Material Design 3, featuring dual-pane browsing, archive support, media previews, and intelligent storage analysis.",
  "evidencia": {
@@ -21,11 +21,11 @@
  "id": "xan45--novafiles",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-31"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a357cc50fa861ca19a1add1be276ff200b056fe3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a357cc50fa861ca19a1add1be276ff200b056fe3"
  },
  "repo": "xan45/NovaFiles"
 }

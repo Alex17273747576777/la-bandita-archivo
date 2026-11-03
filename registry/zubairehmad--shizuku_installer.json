@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-05-31",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-21"
  },
  "descripcion": "A package installer for Android that uses shizuku service to install apps through ADB without requiring a computer.",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 24,
+  "stars": 25,
   "stars_por_mes": null
  },
  "nombre": "shizuku_installer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "fa0187da4dba90f0f7d36754feea2260d25b0630",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:fa0187da4dba90f0f7d36754feea2260d25b0630"
  },
  "repo": "zubairehmad/shizuku_installer"
 }

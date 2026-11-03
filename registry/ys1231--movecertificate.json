@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2022-10-09",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-09-02"
+  "ultima_release": "movecert_iyue",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "支持Android7-16移动证书，兼容magiskv20.4+/kernelsu/APatch, Support Android7-16, compatible with magiskv20.4+/kernelsu/APatch",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2008,
+  "stars": 2011,
   "stars_por_mes": null
  },
  "nombre": "MoveCertificate",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3e360b3062eef463a36c67e0758067d31475a179",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3e360b3062eef463a36c67e0758067d31475a179"
  },
  "repo": "ys1231/MoveCertificate",
  "web": "https://github.com/ys1231/MoveCertificate"

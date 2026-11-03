@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Zeyn482/Tadami-fork",
   "sha256": "cf0eb8de46fb1e3bb09044e22be3a9170c771777791c93b68eca60c62dacd1f1"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "zeyn482--tadami-fork",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "4f193fd98e6c7cd9d405f4aba9c13de1009f51e2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4f193fd98e6c7cd9d405f4aba9c13de1009f51e2"
  },
  "repo": "Zeyn482/Tadami-fork"
 }

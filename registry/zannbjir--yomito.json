@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-02-20",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "nightly-20022026",
   "ultimo_push": "2026-10-12"
  },
  "descripcion": "Manga reader for Android",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "96b40b4300e25a79659053dc85fdb9fec331bfcc",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:96b40b4300e25a79659053dc85fdb9fec331bfcc"
  },
  "repo": "zannbjir/yomito"
 }

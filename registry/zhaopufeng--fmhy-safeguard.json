@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#zhaopufeng/FMHY-SafeGuard",
   "sha256": "01b7cdaa61b3e241e6e05397de4af888e6dbb9e397f77fd96879e88c36c6177b"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "zhaopufeng--fmhy-safeguard",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "43915ee69a5557dba11316fd7728d7cb9878a1c0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:43915ee69a5557dba11316fd7728d7cb9878a1c0"
  },
  "repo": "zhaopufeng/FMHY-SafeGuard"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#zhgddm/morphe-manager",
   "sha256": "36d5ba3055f8502f768aedfaa1f1582ef1bc516f3c17b5ec64b667925b38bece"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "zhgddm--morphe-manager",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "a8d4980348b8e7057e8aa4e038e3f5579ec7b626",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a8d4980348b8e7057e8aa4e038e3f5579ec7b626"
  },
  "repo": "zhgddm/morphe-manager"
 }

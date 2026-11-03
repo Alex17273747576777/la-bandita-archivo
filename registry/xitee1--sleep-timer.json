@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-04-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-27"
  },
  "descripcion": "A fancy Android app that pauses / fades out music, disables things like WiFi and Bluetooth when the timer ends",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 67,
+  "stars": 68,
   "stars_por_mes": null
  },
  "nombre": "sleep-timer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "fee6a4927868575a1f2f8caf0f7300eff808923a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:fee6a4927868575a1f2f8caf0f7300eff808923a"
  },
  "repo": "Xitee1/sleep-timer"
 }

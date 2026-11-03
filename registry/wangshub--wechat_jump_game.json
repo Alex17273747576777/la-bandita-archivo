@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2018-01-03",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v1.1.1",
   "ultimo_push": "2022-11-22"
  },
  "descripcion": "微信《跳一跳》Python 辅助",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "3cbbb07957901821542fcfc231a09b4f3c9318c9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:3cbbb07957901821542fcfc231a09b4f3c9318c9"
  },
  "repo": "wangshub/wechat_jump_game",
  "web": "https://zhuanlan.zhihu.com/p/32452473"

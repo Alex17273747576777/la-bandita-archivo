@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#wahello/strumok",
   "sha256": "9d01452b8997637913af356db8c8de53d2a5631a6568a5aa00d921125f978954"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "46c7d91ae800c0ff7672700c0ec603d46d63af91",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:46c7d91ae800c0ff7672700c0ec603d46d63af91"
  },
  "repo": "wahello/strumok"
 }

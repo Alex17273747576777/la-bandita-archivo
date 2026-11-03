@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-07-29",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "apk-1785325399-faff0fe",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Android lyrics companion with overlay, secondary-display rendering, multi-source lyrics, and customizable layouts",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7902e140ead55d624716cc25cb11ccabbbe8f7cd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7902e140ead55d624716cc25cb11ccabbbe8f7cd"
  },
  "repo": "zuo-qirun/Lyrics-Companion",
  "web": "lyrics-companion.zuoqirun.top"

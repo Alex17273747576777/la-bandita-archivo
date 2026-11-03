@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#vpnlate703-star/komikku",
   "sha256": "ee2b3bcd98578ccbc6804a117a6b5d6455d6a5d5d6399a8e99703a61fa699a42"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "vpnlate703-star--komikku",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8f725d4ef3e43ad11d76fff19e7d3d3540a5c5ca",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8f725d4ef3e43ad11d76fff19e7d3d3540a5c5ca"
  },
  "repo": "vpnlate703-star/komikku"
 }

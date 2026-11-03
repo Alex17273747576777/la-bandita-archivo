@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2023-03-04",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-28"
+  "ultima_release": "v1.2-alpha",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Android app that disables unused apps, while still allowing convenient access to them",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 145,
+  "stars": 146,
   "stars_por_mes": null
  },
  "nombre": "DisabledLauncher",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "6a61945912365d57e658b9d2ba011d8e992c467f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:6a61945912365d57e658b9d2ba011d8e992c467f"
  },
  "repo": "voruti/DisabledLauncher"
 }

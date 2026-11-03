@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#whoami22888/CodeAssist",
   "sha256": "98c5c0e856ec95e09b2fe8a0e09880392d358b3ee0f2a3ab25d63eb280739276"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "whoami22888--codeassist",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b4e0934eb68f39433a0081f2894f424acd0dfdf4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b4e0934eb68f39433a0081f2894f424acd0dfdf4"
  },
  "repo": "whoami22888/CodeAssist"
 }

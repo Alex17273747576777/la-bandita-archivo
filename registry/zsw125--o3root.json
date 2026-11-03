@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-25",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v2.1",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
  "evidencia": {
@@ -21,25 +21,25 @@
  "id": "zsw125--o3root",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "endpoint-license",
+  "metodo": "spdx-api",
   "spdx": "MIT",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 29,
+  "stars": 31,
   "stars_por_mes": null
  },
  "nombre": "o3root",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ea892ae6d741d8b1617e8a2a2f3feaeff1c4036f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ea892ae6d741d8b1617e8a2a2f3feaeff1c4036f"
  },
  "repo": "zsw125/o3root"
 }

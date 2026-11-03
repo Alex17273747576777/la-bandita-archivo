@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-07-02",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "ultima_release": "1-1.0",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Zafiro | 小布换源自定模型 •支持 MCP、Skills、命令运行、无障碍手机控制",
  "evidencia": {
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 166,
+  "stars": 167,
   "stars_por_mes": null
  },
  "nombre": "com.niki914.zafiro",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "73201c501e90eec673df9dd7398ce74194e1c94a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:73201c501e90eec673df9dd7398ce74194e1c94a"
  },
  "repo": "Xposed-Modules-Repo/com.niki914.zafiro"
 }

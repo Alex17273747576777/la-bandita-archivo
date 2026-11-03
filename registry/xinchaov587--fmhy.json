@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#xinchaov587/FMHY",
   "sha256": "581e5f76dd5701a50eb66601a5c9e51c64997348a4c364c8f4b5c07479d5adc8"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "3ef79bcd2f4ae4b788d776970721b73a739e3d2d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3ef79bcd2f4ae4b788d776970721b73a739e3d2d"
  },
  "repo": "xinchaov587/FMHY"
 }

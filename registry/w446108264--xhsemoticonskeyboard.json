@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2016-03-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "2.0.0",
   "ultimo_push": "2019-05-17"
  },
  "descripcion": "android emoticonsKeyboard support emoji and user-defined emoticon. easy to integrated into your project ",
@@ -26,7 +26,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -37,10 +37,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "5eb2877c5b90d62e0e0d7c6c3eb0feaffa85c678",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:5eb2877c5b90d62e0e0d7c6c3eb0feaffa85c678"
  },
  "repo": "w446108264/XhsEmoticonsKeyboard"
 }

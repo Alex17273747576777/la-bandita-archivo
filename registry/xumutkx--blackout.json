@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-08",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.17",
   "ultimo_push": "2026-10-13"
  },
  "descripcion": "Turn the grey surfaces of your apps into pure AMOLED black: root, accessibility layer or LSPosed module",
@@ -25,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ad75fac43670e77673b20bf1f85116c4beabceef",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ad75fac43670e77673b20bf1f85116c4beabceef"
  },
  "repo": "xUmutKx/BlackOut"
 }

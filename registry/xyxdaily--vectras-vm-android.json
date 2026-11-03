@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#xyxdaily/Vectras-VM-Android",
   "sha256": "3aba4b2ff371e19b0466c49745eb3bc66e4d927756c335c8ea7a993bc5bd4cc4"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "xyxdaily--vectras-vm-android",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "283b7592aa2fb6ae9f730f746baece18975639fb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:283b7592aa2fb6ae9f730f746baece18975639fb"
  },
  "repo": "xyxdaily/Vectras-VM-Android"
 }

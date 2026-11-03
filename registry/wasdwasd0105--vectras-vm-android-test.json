@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#wasdwasd0105/Vectras-VM-Android-test",
   "sha256": "135f6db4de22027e00aa889a1cd76b972858c7c011178aec41b87745eedac70d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "wasdwasd0105--vectras-vm-android-test",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f7093df107b4c1168be8ad09803ad6283a72676b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f7093df107b4c1168be8ad09803ad6283a72676b"
  },
  "repo": "wasdwasd0105/Vectras-VM-Android-test"
 }

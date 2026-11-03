@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-24",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v0.2.6",
   "ultimo_push": "2026-10-31"
  },
  "descripcion": "Unofficial STmall Android client for campus dorm, water, QR scanner and local BLE door control.",
@@ -21,12 +21,12 @@
  "id": "yunanriv-hub--stmall",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -37,10 +37,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ee1fe31ad4f30d4bdda0d4361884068833bf7868",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ee1fe31ad4f30d4bdda0d4361884068833bf7868"
  },
  "repo": "Yunanriv-hub/STmall",
  "web": "https://github.com/Yunanriv-hub/STmall/releases/latest"

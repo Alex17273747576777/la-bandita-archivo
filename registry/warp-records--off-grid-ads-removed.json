@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#warp-records/off-grid-ads-removed",
   "sha256": "ade6a906c3e8e5b89e05eddd0206390f16c3e3d94545c1aeb5a418e56da49b1d"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "warp-records--off-grid-ads-removed",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "47b357a60ca311536fa33f89b64718dd174cebe5",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:47b357a60ca311536fa33f89b64718dd174cebe5"
  },
  "repo": "warp-records/off-grid-ads-removed"
 }

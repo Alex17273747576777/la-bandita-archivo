@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "dormido",
-  "release_en": null,
+  "release_en": "2017-12-05",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "v2.2",
   "ultimo_push": "2022-09-07"
  },
  "descripcion": "Implement screen capture without root on Android 5.0+ by using MediaProjectionManager, VirtualDisplay, AudioRecord, MediaCodec and MediaMuxer APIs",
@@ -25,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1908,
+  "stars": 1909,
   "stars_por_mes": null
  },
  "nombre": "ScreenRecorder",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f71b7b0c72050dfc836a185f3a532d0ea9fcc30c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f71b7b0c72050dfc836a185f3a532d0ea9fcc30c"
  },
  "repo": "yrom/ScreenRecorder"
 }

@@ -12,7 +12,7 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#vugy0212/web-to-app",
   "sha256": "f76e99d18f79f6aac8c5dcad82c8055a396f77a147e03bb2b746f7489e8e5292"
  },
- "frescura_dias": 17,
+ "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
   "primaria": "github-api",
@@ -21,11 +21,11 @@
  "id": "vugy0212--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-15",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,8 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "05dcaa5dcb57e2fe6c8bdef73af03ac4585c602d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:05dcaa5dcb57e2fe6c8bdef73af03ac4585c602d"
  },
  "repo": "vugy0212/web-to-app"
 }

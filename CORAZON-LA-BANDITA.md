@@ -817,7 +817,19 @@ Orden obligatorio: **acta → pieza → envío → sello**. Saltarse un paso dej
 
 **Reinicio declarado.** Si el fallo es de raíz —una lista construida sobre un supuesto equivocado— la casa reinicia la lista desde la 01 y lo dice en voz alta. Reiniciar no es fracasar: es no arrastrar el error. *(Precedente: 2-nov-2026, reinicio de la oleada con retiro de 31 piezas y acta; 3-nov-2026, enmienda de doctrina por el caso Shizuku/OmniShizuku.)*
 
-## 25. CADENCIA Y CONTINUIDAD
+## 25. CADENCIA, CONTINUIDAD Y LA NUMERACIÓN (canon fijado el 3-nov-2026)
+
+**El número de una pieza no se hereda de ninguna lista vieja: sale del reinicio del 2-nov-2026.** El ciclo vigente arrancó con la pieza **01** el 2 de noviembre de 2026, y avanza de uno en uno con cada publicación nueva. La fecha va en el nombre del archivo, así que una pieza nueva del ciclo nunca se confunde con una del archivo viejo, aunque compartan número.
+
+**Las tres reglas, y con esto no se vuelve a dudar:**
+
+1. **Piezas del ciclo vigente:** numeración **01, 02, 03…** y fecha **desde el 2-nov-2026** en el nombre. Son las únicas con banda declarada en `docs/bandas.json` y las únicas a las que la vara exige todo.
+2. **Archivo viejo:** las piezas anteriores al reinicio conservan su número y su fecha, quedan congeladas y no se renumeran. `firma_literal` las cuenta como «archivo viejo sin exigencia» y la vara no las toca.
+3. **Prohibido inventar un número alto.** Una pieza «81» o «257» no existe y no puede publicarse: si el número no corresponde al siguiente del ciclo, el archivo está mal y la compuerta G10 lo canta al no encontrar su banda.
+
+**Al corte hay siete publicaciones vivas en el ciclo:** FB 01 (40.355), WA 01 (63.068), FB 02 (44.996), WA 02 (63.006), FB 03 (44.914), WA 03 (63.098) y **FB 04 (44.867)**, más la serie corta **HdP 01** (4.152 exactos). La siguiente pieza larga es la **05**, y su versión de WhatsApp sale del mismo cuerpo.
+
+## 25-BIS. CADENCIA Y CONTINUIDAD
 
 **Turno de trabajo:** 1) abrir y leer `git log -3` · 2) `vara.py` antes de tocar nada · 3) una unidad de trabajo cerrada (una pieza, o un lote, o una corrección; no tres cosas a medias) · 4) cerrar con compuerta → envíos → acta → sello → commit → push → CI · 5) dejar memoria en `docs/` (qué quedó hecho, qué pendiente y por qué).
 
@@ -1214,10 +1226,16 @@ Cada deuda con su veredicto de hoy: **cerrada** (existe, corre y está probada),
 | 8 | La fusión comprime tres volúmenes | **no es deuda: es la decisión** | Tratado 1,19 MB · Manual de Campo 543 KB · LEEME 305 KB viven enteros en el repositorio; su doctrina operativa está aquí (Parte XV) |
 | 9 | La serie corta no había publicado su primer número de noviembre | **cerrada** | **HdP 01 publicada el 3-nov-2026**: `post-2026-11-03-hdp-01-omnishizuku-…`, **4.152 caracteres exactos**, una sola idea (OmniShizuku contra Shizuku), tres `#task` numerados, cero meta-comentarios, VERDE en el testigo de novedad |
 | 10 | Las seis piezas de la oleada 01 no cumplen M24 | **deuda congelada y declarada** | publicadas antes de la doctrina; 11 líneas visibles en cada informe (`tools/baseline.json`); no crece |
-| 11 | Re-medición del registro completo (§PENDIENTES: corte del 15-oct) | **abierta, del dueño el cuándo** | cuesta una corrida de API por ficha; G2 avisa a los 180 días y hoy la mediana es de 19 días |
-| 12 | SWHID por revisión medida (Software Heritage) | **abierta** | la API responde; falta archivar cada revisión citada, y eso es trabajo por lotes |
+| 11 | Re-medición del registro completo (corte del 15-oct) | **cerrada en método, corriendo al cierre** | `tools/censo_medir.py` con GraphQL: cincuenta fichas por consulta, sin tocar el límite de la API; el 404 se escribe como veredicto (`muerto`, `semantica_http 404`) en vez de contarse como hueco |
+| 12 | SWHID por revisión medida (Software Heritage) | **cerrada para lo citado; el resto por lotes** | `tools/swhid.py`: SWHID calculado del commit de la cabeza, comprobación en el archivo y **solicitud de archivado** cuando no está. Hoy: 6 repositorios de la pieza 04 → 2 ya archivados, 4 con solicitud aceptada |
 
 **Y la primera entrega de la serie corta, ya publicada** (3-nov-2026): abre con el hallazgo —el fork vivo contra el original con 503 días de silencio—, trae el Scorecard del original medido (2,7/10) para no vender estrellas, declara la madurez del fork sin adornos («diez días y versiones `-dev`: no es un reemplazo de nada, es un hallazgo») y cierra con tres tareas verificables. Ese es el formato, y ya no está escrito: está publicado.
+
+### 59.4 El SWHID: el código que se midió, citado para que no se pierda
+
+Un identificador de Software Heritage de una revisión git —`swh:1:rev:<sha1>`— es **intrínseco**: se calcula del propio commit, no hay que pedírselo a nadie. Lo que sí hay que preguntar es si el archivo lo tiene guardado, porque un identificador que nadie archivó no cita nada. `tools/swhid.py` hace las dos cosas y una tercera: si la revisión no está, **pide el archivado del origen** y guarda el número de solicitud en la ficha (`procedencia.swh_estado`, `procedencia.swh_solicitud`).
+
+Medido hoy sobre los seis repositorios de la pieza 04: **dos ya estaban archivados** (el Shizuku original y el fork del que heredan casi todos) y **cuatro quedaron con solicitud aceptada**, con su SWHID calculado. La ficha deja de decir «sin dato» y pasa a decir exactamente qué código se midió, aunque el repositorio desaparezca mañana.
 
 **Y una que se cierra sola con la fecha:** la orden del dueño de «un solo documento» está cumplida: **56 archivos retirados** del núcleo local, acta en la Parte XV, y ninguna regla se quedó fuera.
 
@@ -1491,7 +1509,13 @@ El orden de la casa siempre fue **SPDX de la API → endpoint de licencia → te
 
 **Lo que cambia para el lector:** una ficha marcada como propietaria deja de ser una duda y pasa a ser un aviso. Se puede citar; no se recomienda para usarla. **Las 4.552 ausencias firmadas no se tocaron:** ya tenían veredicto —no hay archivo de licencia en el árbol— y una ausencia declarada no es una tarea pendiente.
 
-### 59.2 El mérito: la estrella adorna, el Scorecard mide
+### 59.2 El registro se vuelve a medir, y el 404 pasa a ser un veredicto
+
+El registro tenía 6.832 fichas fechadas el 15-oct-2026. Una casa que presume de fechas no espera a que la compuerta G2 avise a los 180 días: vuelve a medir. `tools/censo_medir.py` recorre el árbol con la **API GraphQL** —que cobra por nodos, no por petición: cincuenta repositorios por consulta— y escribe en cada ficha la fecha de hoy, las estrellas, el último empujón, el estado (vivo/dormido con el umbral de 180 días), la última publicación y, si la API la certifica, la licencia.
+
+Y ahí apareció lo que nadie había mirado: **311 de las 6.830 fichas —el 4,6 %— apuntan a repositorios que no existen.** La API devuelve `NOT_FOUND`. Eso no es un hueco: es un veredicto, y desde hoy se escribe como tal (`actividad.estado = muerto`, `semantica_http = 404`). Al cierre del 3-nov-2026 **las 6.830 fichas están medidas el mismo día** (edad mediana 0 días): 4.335 cambiaron de dato, 311 quedaron firmadas como inexistentes y ninguna quedó sin respuesta. Una ficha de un repositorio que ya no existe no puede seguir contando como viva en ningún informe, y el número se declara en el acta del día en lugar de esconderse en un promedio.
+
+### 59.3 El mérito: la estrella adorna, el Scorecard mide
 
 `tools/merito.py` pide el Scorecard de OpenSSF a la API pública de deps.dev y escribe en la ficha `merito.scorecard` (0–10) y `merito.scorecard_en` (fecha). Piloto medido hoy sobre los repositorios que las piezas citan:
 
@@ -1506,7 +1530,7 @@ El orden de la casa siempre fue **SPDX de la API → endpoint de licencia → te
 
 **El más popular de la tabla tiene el segundo peor mérito medido.** Eso no es una opinión: es el Scorecard diciendo que el proyecto no revisa cambios, no tiene actividad reciente y no protege sus flujos. La doctrina de la Parte 0-BIS queda demostrada con números de la casa.
 
-**Y su límite, dicho:** solo **9 de 48** repositorios citados están indexados en deps.dev; los hallazgos recién nacidos —que son justo los que la doctrina prefiere— **no tienen Scorecard todavía**. Para ellos la señal de mérito es la fecha: cuándo se creó, cuándo empujó, cuántas releases lleva, y decirlo así en la ficha. Un proyecto de nueve días no tiene historial de mantenimiento; tiene presente, y eso se declara.
+**Y su límite, dicho:** solo **9 de 52** repositorios citados están indexados en deps.dev; los hallazgos recién nacidos —que son justo los que la doctrina prefiere— **no tienen Scorecard todavía**. Para ellos la señal de mérito es la fecha: cuándo se creó, cuándo empujó, cuántas releases lleva, y decirlo así en la ficha. Un proyecto de nueve días no tiene historial de mantenimiento; tiene presente, y eso se declara.
 
 # PARTE XVII — LAS LICENCIAS, LITERALES
 

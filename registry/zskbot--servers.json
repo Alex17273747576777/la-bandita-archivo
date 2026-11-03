@@ -21,11 +21,11 @@
  "id": "zskbot--servers",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "Apache-2.0",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "2a4d0f97bab8cb27e8c6c0441c2f3113c6aa530a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:2a4d0f97bab8cb27e8c6c0441c2f3113c6aa530a"
  },
  "repo": "zskbot/servers",
  "web": "https://modelcontextprotocol.io"

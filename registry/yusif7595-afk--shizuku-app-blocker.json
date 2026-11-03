@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-18",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "V1.0.8",
   "ultimo_push": "2026-10-18"
  },
  "descripcion": "An Android application blocker powered by Shizuku, featuring automatic blacklist enforcement and app management without requiring root.",
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1fe024286a28a36dfd9a0cfba191d496a1838978",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1fe024286a28a36dfd9a0cfba191d496a1838978"
  },
  "repo": "yusif7595-afk/Shizuku-App-Blocker"
 }

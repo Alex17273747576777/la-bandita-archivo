@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-10-11",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-25"
+  "ultima_release": "v2026.10.11",
+  "ultimo_push": "2026-11-01"
  },
  "descripcion": "本地 AI 工作站：用 Root/Shizuku 操作 Android，用 LinuxHub 连接本机 Linux 主机。",
  "evidencia": {
@@ -23,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -36,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "ae40bbbca8c2b32843cc2211b9a3cbf991967663",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ae40bbbca8c2b32843cc2211b9a3cbf991967663"
  },
  "repo": "xishanp/LotusAI"
 }

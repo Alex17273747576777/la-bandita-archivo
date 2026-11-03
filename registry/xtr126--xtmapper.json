@@ -1,10 +1,10 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2022-10-21",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-28"
+  "ultima_release": "v1",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "Keyboard and mouse input mapper",
  "evidencia": {
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 456,
+  "stars": 457,
   "stars_por_mes": null
  },
  "nombre": "XtMapper",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "4cb42205841d5329cf9907ce87d56a5ff0e2a1da",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:4cb42205841d5329cf9907ce87d56a5ff0e2a1da"
  },
  "repo": "Xtr126/XtMapper",
  "web": "https://xtr126.github.io/XtMapper-docs"

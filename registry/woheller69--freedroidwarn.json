@@ -1,9 +1,9 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2025-08-26",
   "semantica_http": 200,
-  "ultima_release": null,
+  "ultima_release": "V1.0",
   "ultimo_push": "2026-10-28"
  },
  "descripcion": "",
@@ -23,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3728,
+  "stars": 3741,
   "stars_por_mes": null
  },
  "nombre": "FreeDroidWarn",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "de9875962ce530191ab6bf94255bd7d537f5fc3f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:de9875962ce530191ab6bf94255bd7d537f5fc3f"
  },
  "repo": "woheller69/FreeDroidWarn"
 }

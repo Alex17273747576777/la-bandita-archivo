@@ -1,10 +1,10 @@
 {
  "actividad": {
-  "estado": "dormido",
-  "release_en": null,
+  "estado": "vivo",
+  "release_en": "2025-07-27",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2025-08-12"
+  "ultima_release": "1.4",
+  "ultimo_push": "2026-11-02"
  },
  "descripcion": "A lightweight yet powerful package installer for Android.",
  "evidencia": {
@@ -26,21 +26,21 @@
   "spdx": "mit",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-10-31",
+ "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 716,
+  "stars": 730,
   "stars_por_mes": null
  },
  "nombre": "PackageInstaller",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "a43b37a22493969be2c8161f3e0551bd462b0d30",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:a43b37a22493969be2c8161f3e0551bd462b0d30"
  },
  "repo": "vvb2060/PackageInstaller"
 }
