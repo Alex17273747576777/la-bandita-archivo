@@ -28,9 +28,18 @@ Esto va antes que la doctrina porque el dueño lo puso antes que nada. **Antes d
 
 ```
 TRIPLE LECTURA · 3 de noviembre de 2026 · 07:58–08:41 AST
-pasada 1 (estructura): 20 partes, 73 epígrafes numerados, 9 anexos
+pasada 1 (estructura): 20 partes, 67 epígrafes numerados (0.1–0.9 y 1–58), 9 anexos · numeración sin huecos ni duplicados
 pasada 2 (reglas): molde recitado sin apoyo · 24 criterios C + 23 criterios M vigentes + 6 propuestos + 3 pendientes de integrar · 68 fichas de fallos + 8 de la familia N · 4 bandas · 13 compuertas G
-pasada 3 (deuda): 4 correcciones aplicadas (§7.4 banda de WhatsApp, §16.6 referencia cruzada, §30.5 banda de HdP, §39 cifra 75 contra 68 fichas reales)
+pasada 3 (deuda): 5 correcciones aplicadas (§3 restituido, §36 duplicado resuelto, Parte XVII reordenada, §40 sobre el 75 contra 68 fichas, cifras del contrato al día)
+```
+
+Y, después de fusionar, una segunda constancia —porque la fusión cambió el documento entero y una lectura hecha sobre la versión vieja no certifica la nueva:
+
+```
+TRIPLE LECTURA II · 3 de noviembre de 2026 · 09:05–09:28 AST (sobre la v4.1 ya fusionada)
+pasada 1 (estructura): 20 partes · 67 epígrafes · 9 anexos · 30 vallas de código (par) · 0 huecos de numeración
+pasada 2 (reglas): 39 referencias §N distintas, 0 a epígrafe inexistente · 74 códigos de ficha citados contra 68 + N01–N08 del catálogo
+pasada 3 (deuda): 56 archivos retirados del núcleo local, acta en la Parte XV, cada regla nueva con su archivo de origen declarado y su archivo retirado
 ```
 
 Un operador que diga «leído» sin la constancia está incumpliendo esta regla, y el incumplimiento es fallo **M00**, el único fallo que no se puede reparar después: todo lo que se produzca sin la triple lectura se considera no producido.
@@ -320,6 +329,16 @@ En las piezas va precedida del emoji 💓 y seguida, en la misma línea, de un *
 ### 2.8 El humor de la casa
 
 Tres reglas: **verdad** (se ríe de lo que pasó, no de lo que podría haber pasado), **simpatía** (se ríe con el lector, no de él; el blanco es la situación), **proporción** (un riesgo serio no se convierte en chiste). La ironía NO DEBE confundir al lector nuevo, rebajar una advertencia de seguridad ni convertir una crítica legítima en burla personal.
+
+---
+
+## 3. EL DINERO Y LA LICENCIA — LO QUE NO SE ACEPTA
+
+Hay dos cosas que definen a La Bandita antes que cualquier regla de estilo: **de quién es** (§1) y **qué no se compra**.
+
+**No se acepta dinero, en ninguna forma.** Ni patrocinio, ni canje, ni «colaboración», ni enlace pagado, ni equipo prestado a cambio de una mención. No es una postura estética: es la condición que hace verificable todo lo demás. El día que una pieza recomienda algo porque pagó, las fechas y los ceros dejan de significar algo y el archivo entero se vuelve papel. Si algún día la casa necesita financiarse, se dirá en portada, con nombre y cantidad, y esa decisión la toma el dueño (§55), no el operador.
+
+**La licencia está puesta desde el 31-oct-2026** y su literal vive en la Parte XVII: contenido CC BY-SA 4.0 · datos CC BY 4.0 · código MIT · **marca y nombre reservados**. La consecuencia práctica para el operador es una sola: **la licencia abre el archivo, no la certificación.** Cualquiera puede copiar, verificar y republicar una pieza con su crédito; nadie puede decir que La Bandita certificó lo que La Bandita no midió. Eso es lo que se reserva, y es lo único que se reserva.
 
 ---
 
@@ -1017,6 +1036,8 @@ Toda entrega DEBE incluir: 1) el cuerpo en bloque limpio para copiar; 2) el cont
 
 ## ANEXO B — LOS DOCUMENTOS NORMATIVOS Y QUÉ SUSTITUYE ESTE
 
+**Al 3-nov-2026 no queda ningún documento normativo suelto en el espacio local.** Los seis históricos que la IA operadora tenía que tener a mano no desaparecieron: viven en el repositorio, y su sustancia está dentro de este documento. La tabla de qué se conservó, qué se comprimió y dónde sigue cada original está en la **Parte XV (§46)**; lo que este anexo conserva es el mapa corto de los seis.
+
 **Los seis documentos históricos** que la IA operadora necesitaba tener a mano siguen existiendo como archivo: 1) Next Tratado Bandita Open Source V.0.03 (norma madre) · 2) Manual de Campo — Edición Completa · 3) Fichas de Fallos (Uso Diario) · 4) Lecciones de Alexis · 5) Ampliación al Tratado — Almendra · 6) Lecciones extraídas de textos personales (archivo, **no** norma).
 
 **Regla de precedencia desde la 4.0:** manda el dueño; después este hiperdocumento; después el Tratado y el Manual de Campo cuando este documento no cubra un caso; las Lecciones de Alexis se citan siempre que se pueda fechar; las Almendras son doctrina de ánimo, no de operación; las lecciones de textos personales no son norma y no se citan como si lo fueran.
@@ -1027,8 +1048,8 @@ Toda entrega DEBE incluir: 1) el cuerpo en bloque limpio para copiar; 2) el cont
 |---|---|---|
 | `CIMIENTOS/00-06` | índice, precedencia, contrato de datos, licencias, voz, método, errores | **absorbido** (§16, §27.4, §3, §2, §12, §5.8, §24) |
 | `PROCESOS/00-05` | pieza, lote, publicación, cadencia, frontend | **absorbido** (§19–§26) |
-| `SKILLS/00-07` | las siete habilidades ejecutables | **absorbido** como pasos con comando (§21, §22, §23, §36) |
-| `normas/` | bandas, canal, MCP, duplicados, manifiesto, pendientes | **absorbido** (§14, §23, §38, §39) |
+| `SKILLS/00-07` | las siete habilidades ejecutables | **absorbido** como pasos con comando (§21, §22, §23, §37) |
+| `normas/` | bandas, canal, MCP, duplicados, manifiesto, pendientes | **absorbido** (§14, §23, §39, §40) |
 | `licencias/` | CC BY-SA 4.0 · CC BY 4.0 · MIT · marca | **absorbido** (§3) |
 | `esquema/ficha.schema.json` | contrato de datos | **absorbido en prosa** (§27.4); el JSON sigue siendo la fuente que lee la máquina |
 | `herramientas/` | 20 herramientas | **inventariadas** (§27, Anexo D) |
@@ -1130,7 +1151,7 @@ Ver §31, con su bloque `#task` numerado.
 | Versión | Fecha | Qué cambió |
 |---|---|---|
 | **V3.0** | 1-nov-2026 | Manual de Estilo y Operaciones con criterios M01–M23 y cimientos C-01…C-24. Vara de la pieza. |
-| **V4.1** | **3-nov-2026 (09:20 AST)** | **Fusión única, sin documentos aparte.** Se absorben aquí, con su sustancia y retirando el archivo suelto: los **21 documentos de `corpus-la-bandita/`** (Partes XI–XV y XVII), las **políticas de `normas/`** (Parte XVI), las **68 fichas de fallos** con su catálogo completo (Parte XII), los **criterios C-01…C-24** (Parte XI), las **Lecciones de Alexis** completas (Parte XIII) y la **doctrina de Almendra + prompt de concientización** (Parte XIV). Se documenta el **mapa de fusión** (Parte XV), la **regla de no resurrección** (§47) y el **hallazgo del 75 contra 68** (§39). El archivo pasa a llamarse `CORAZON-LA-BANDITA.md`: **un solo documento**. |
+| **V4.1** | **3-nov-2026 (09:20 AST)** | **Fusión única, sin documentos aparte.** Se absorben aquí, con su sustancia y retirando el archivo suelto: los **21 documentos de `corpus-la-bandita/`** (Partes XI–XV y XVII), las **políticas de `normas/`** (Parte XVI), las **68 fichas de fallos** con su catálogo completo (Parte XII), los **criterios C-01…C-24** (Parte XI), las **Lecciones de Alexis** completas (Parte XIII) y la **doctrina de Almendra + prompt de concientización** (Parte XIV). Se documenta el **mapa de fusión** (Parte XV), la **regla de no resurrección** (§48) y el **hallazgo del 75 contra 68** (§40). El archivo pasa a llamarse `CORAZON-LA-BANDITA.md`: **un solo documento**. |
 | **V4.0** | **3-nov-2026** | **Fusión total.** Se absorben CIMIENTOS, PROCESOS, SKILLS, normas, licencias y esquema en un solo documento. Se añade: **Ritual de las tres lecturas (M00)** · **Parte 0-BIS: doctrina de la novedad y la complejidad** · preguntas de admisión **N1–N5** · **banda de descubrimiento** · **familia de fallos N (N01–N08)** · ficha de novedad con **madurez declarada** · compuertas propuestas **M24–M28** · **Parte VIII: HdP** con prohibición de meta-comentarios de IA y de plataforma y **#task obligatorios** · registro `CALENDARIO-DE-NOVEDADES.json` · métrica de salud «edad media del paquete propuesto» · auditoría mensual de deriva de novedad. Corregida la contradicción de bandas (`CIMIENTOS/04` decía 4.000–7.000 para WhatsApp; manda `docs/bandas.json`: 63.000–63.099). |
 
 ## ANEXO G — GLOSARIO DEL OFICIO
@@ -1150,6 +1171,7 @@ Ver §31, con su bloque `#task` numerado.
 | **3-nov-2026** | **HdP vuelve a publicar a partir del día 1, sin meta-comentarios genéricos de IA ni de Facebook, con #task.** | **Parte VIII; M27–M28** |
 | **3-nov-2026** | **Este hiperdocumento es el corazón del proyecto: fusiona el manual y todo lo demás, excepto las publicaciones.** | **Encabezado; Anexo B** |
 | **3-nov-2026** | **Antes de cualquier trabajo, incluso del saludo, tres lecturas completas sin scroll.** | **Ritual de las tres lecturas; M00** |
+| **3-nov-2026** | **«Ya no más documentos apartados, salvo las publicaciones»: se fusiona todo aquí y se retira lo absorbido del espacio local.** | **Partes XI–XVII; §46 acta de retirada; §48 no resurrección** |
 
 ## ANEXO I — DEUDAS ABIERTAS AL CORTE (declaradas, no ocultas)
 
@@ -1169,7 +1191,7 @@ Ver §31, con su bloque `#task` numerado.
 
 Estos veinticuatro criterios venían en `corpus-la-bandita/CIMIENTOS — criterios obligatorios y precedencia (1-nov-2026).md`, documento que **queda absorbido aquí y retirado del espacio local**. Si un criterio de esta lista no se cumple, la pieza **NO** está lista, diga lo que diga cualquier informe anterior, cualquier compuerta parcial o cualquier elogio.
 
-## 36. Los veinticuatro
+## 37. Los veinticuatro
 
 **C-01 · Cada dato tiene fuente abierta con fecha.** Origen: Tratado · Manual V3.0 §13. Comprobación: fichas con URL y fecha de corte; enlaces con código HTTP registrado.
 **C-02 · Nada de verificación fingida.** Origen: Libro 2 (F05). Comprobación: la pieza no afirma haber abierto lo que no está en el registro del día.
@@ -1196,7 +1218,7 @@ Estos veinticuatro criterios venían en `corpus-la-bandita/CIMIENTOS — criteri
 **C-23 · Cero párrafos compartidos entre piezas.** Ni entre canales ni entre números.
 **C-24 · Medición del día con hora.** El cierre declara la hora de la casa (America/Santo_Domingo) y qué se midió.
 
-## 37. Las tres tensiones ya resueltas (no se vuelven a discutir)
+## 38. Las tres tensiones ya resueltas (no se vuelven a discutir)
 
 **37.1 Mapa largo contra mapa corto.** El manual limita el mapa a 12 entradas; hubo piezas con hasta 32 secciones. **Resolución:** el mapa lista como máximo 12 entradas agrupadas y el cuerpo puede desarrollar más secciones que las que aparecen agrupadas.
 
@@ -1204,7 +1226,7 @@ Estos veinticuatro criterios venían en `corpus-la-bandita/CIMIENTOS — criteri
 
 **37.3 Meta-comentarios.** Ver C-19. El método de medición es evidencia (permitido); el relato del acto de escribir es relleno (prohibido). Nadie lo aplica a gusto: está registrado.
 
-## 38. Precedencia entre documentos
+## 39. Precedencia entre documentos
 
 1. **El dueño**, siempre, y su orden posterior manda sobre cualquier norma anterior.
 2. **Este hiperdocumento.**
@@ -1220,11 +1242,11 @@ Estos veinticuatro criterios venían en `corpus-la-bandita/CIMIENTOS — criteri
 
 Absorbido de `Manual de Campo La Bandita — Fichas de Fallos (Uso Diario).md`. **Hallazgo de la fusión, declarado:** el título de aquel archivo dice «Las 75 fichas del Libro 2», pero el archivo contiene **68 fichas** (15 + 10 + 13 + 12 + 10 + 8), y el Tratado confirma las mismas 68: no existen A16, B11, C14, D13, E11 ni F09. La cifra 75 del título no se sostiene contra el propio documento. Se conserva la cifra medida (**68**) y se anota la discrepancia como lo que es: una cifra heredada que nadie contó. *(Es exactamente el fallo A04: cifra precisa sin fuente. Que ocurra en el libro que legisla contra A04 es la razón por la que la casa se mide a sí misma.)*
 
-## 39. Las cuatro severidades
+## 40. Las cuatro severidades
 
 **Crítica** — la salida no se publica ni se usa; se rehace desde la fuente. **Alta** — se publica solo después de corregir y verificar el punto señalado. **Media** — se corrige antes de entregar; si no hay tiempo, se declara. **Baja** — se anota y se corrige en la siguiente pasada.
 
-## 40. El esqueleto común (una sola vez, no 68)
+## 41. El esqueleto común (una sola vez, no 68)
 
 *Estas dos piezas de análisis son idénticas palabra por palabra en las 68 fichas; se imprimen una vez, y al leer cualquier ficha se aplican enteras.*
 
@@ -1232,7 +1254,7 @@ Absorbido de `Manual de Campo La Bandita — Fichas de Fallos (Uso Diario).md`. 
 
 **Análisis del ejemplo correcto.** La salida declara lo sabido y lo ignorado en el mismo lugar donde se decide, aporta fuente exacta con fecha y método, y ofrece el siguiente paso verificable. Cumple honestidad, evidencia y autonomía informada porque permite al lector decidir también esperar o comprobar por sí mismo.
 
-## 41. Catálogo completo por familia
+## 42. Catálogo completo por familia
 
 **Familia A — Veracidad y evidencia (15).** A01 Alucinación factual pura · Crítica. A02 Dirección web inventada o adivinada · Crítica. A03 Cita académica o documental fantasma · Alta. A04 Cifra precisa sin fuente · Alta. A05 Persona o autoría inexistente · Crítica. A06 Licencia o versión inventada · Crítica. A07 Fecha o cronología falsa · Media. A08 Funcionalidad inexistente atribuida · Alta. A09 Falsa declaración de compatibilidad · Alta. A10 Resumen que añade hechos nuevos · Alta. A11 Traducción que inventa o altera datos · Alta. A12 Atribución errónea de autoría u origen · Media. A13 Falso «según fuentes» sin fuente · Alta. A14 Confusión entre fork, espejo y original · Alta. A15 Rumor comunitario presentado como hecho · Media.
 
@@ -1246,7 +1268,7 @@ Absorbido de `Manual de Campo La Bandita — Fichas de Fallos (Uso Diario).md`. 
 
 **Familia F — Interacción y rol (8).** F01 Sicofancia que deforma el juicio · Media. F02 Antropomorfismo experiencial · Media. F03 Memoria fingida entre sesiones · Media. F04 Aprobación humana fingida · Crítica. F05 Ejecución fingida de comprobación · Crítica. F06 Promesa de vigilancia futura · Media. F07 Ocultación de participación de IA · Media. F08 Tono inadecuado ante riesgo · Media.
 
-## 42. La familia N, añadida por esta versión
+## 43. La familia N, añadida por esta versión
 
 Ver §18.6. **N01** el abuelo como respuesta · Crítica. **N02** la moda como mérito · Media. **N03** novedad de fachada · Alta. **N04** madurez escondida · Alta. **N05** estrella como argumento · Alta. **N06** meta-comentario de proceso, de IA o de plataforma · Crítica. **N07** plaza ocupada sin mover · Alta. **N08** descubrimiento perezoso · Crítica.
 
@@ -1304,7 +1326,7 @@ Absorbido de `Lecciones de Alexis — para recordar entre sesiones.md`. El dueñ
 
 # PARTE XIV — DOCTRINA DE ALMENDRA Y PROMPT DE CONCIENTIZACIÓN
 
-## 43. La doctrina de Almendra (absorbida)
+## 44. La doctrina de Almendra (absorbida)
 
 Absorbido de `Ampliación al Tratado — las canciones de Almendra (15-sep).md`. Naturaleza: **anexo doctrinal**, no norma operativa. Nació porque el Tratado V.0.03 está sellado y la regla G-004 prohíbe editarlo: lo que se añade vive al lado, fechado, y si algún día se fusiona, es edición nueva con acta, **nunca enmienda silenciosa**.
 
@@ -1314,7 +1336,7 @@ Absorbido de `Ampliación al Tratado — las canciones de Almendra (15-sep).md`.
 
 **Uso permitido:** abrir o cerrar una pieza con una imagen, citar un título como llave de una lección, y nada más. **Prohibido:** transcribir letras, usar el cancionero como relleno o como adorno sin lección.
 
-## 44. El prompt de concientización (absorbido)
+## 45. El prompt de concientización (absorbido)
 
 Absorbido de `Prompt de Concientización — La Bandita V1.0.md` (10-sep-2026). Sirve para cualquier modelo, antes de publicar cualquier cosa.
 
@@ -1330,27 +1352,27 @@ Absorbido de `Prompt de Concientización — La Bandita V1.0.md` (10-sep-2026). 
 
 # PARTE XV — EL ARCHIVO HISTÓRICO Y SU MAPA DE FUSIÓN
 
-**Al corte de esta fusión se retiraron 41 documentos** (7 CIMIENTOS + 6 PROCESOS + 8 SKILLS + 10 normas + 21 de `corpus-la-bandita/` + LEEME + MAPA-REMOTO = 53 archivos, de los cuales 41 eran documentos normativos y 12 eran duplicados de otros tantos; ver la tabla). Esta parte es la que hace posible que **no existan documentos aparte**. Cada documento que se retiró del espacio local está aquí identificado, con lo que se conservó, lo que se comprimió y dónde sigue vivo el original. **Nada se borró sin dejar rastro; nada se comprimió sin decirlo.**
+**Acta de retirada local (3-nov-2026, 09:20 AST).** Medido con `du` y `find` antes y después: el núcleo local pasó de **91 archivos · 3,5 MB** a **35 archivos · 468 KB**; **56 archivos retirados** — 7 `CIMIENTOS/` · 6 `PROCESOS/` · 8 `SKILLS/` · 10 `normas/` · **21 `corpus-la-bandita/`** · `LEEME.md` · `MAPA-REMOTO.md` · `licencias/LEGAL/PROPUESTA-LICENCIA.md` · `mcp/mcp-labandita-registro/README.md`. **No se borró nada de la historia:** los originales siguen enteros en el repositorio (cabeza al retirar: `f8b7fd71`), y esta parte declara dónde vive la sustancia de cada uno. Lo que se queda en local es solo lo que una máquina o una ley tienen que leer tal cual: `LICENSE`, `LICENSE-CONTENIDO`, `LICENSE-DATOS`, `NOTICE`, `esquema/ficha.schema.json`, las herramientas, el servidor MCP y `activar.sh`.
 
-## 45. Tabla de fusión (origen, destino, destino del archivo)
+## 46. Tabla de fusión (origen, destino, destino del archivo)
 
 | Documento retirado | Qué era | Dónde vive su sustancia aquí | Original |
 |---|---|---|---|
 | `CIMIENTOS/00-06` (7) | norma operativa en hojas sueltas | §16, §27.4, §3, §2, §12, §5.8, §24, Parte XI | repo `CIMIENTOS/` |
 | `PROCESOS/00-05` (6) | flujos: pieza, lote, publicación, cadencia, frontend | §19–§26, §21.1 | repo `PROCESOS/` |
-| `SKILLS/README + 7` (8) | las siete habilidades ejecutables | §21 (pasos con comando), §22, §23, §33–§36 | repo `SKILLS/` |
+| `SKILLS/README + 7` (8) | las siete habilidades ejecutables | §21 (pasos con comando), §22, §23, §33–§37 | repo `SKILLS/` |
 | `corpus-la-bandita/CIMIENTOS — criterios…` | C-01…C-24 | **Parte XI completa** | repo `corpus-la-bandita/` |
 | `corpus-la-bandita/Manual de Campo — Fichas de Fallos` | 68 fichas del Libro 2 | **Parte XII completa** (código, título, severidad) | repo `corpus-la-bandita/` |
 | `corpus-la-bandita/Lecciones de Alexis` | la voz del dueño, fechada | **Parte XIII** (§1.2 + el resto vivo) | repo `corpus-la-bandita/` |
-| `corpus-la-bandita/Ampliación — Almendra` | doctrina de ánimo | **§43** | repo `corpus-la-bandita/` |
-| `corpus-la-bandita/Prompt de Concientización` | regla del modelo débil | **§44** | repo `corpus-la-bandita/` |
+| `corpus-la-bandita/Ampliación — Almendra` | doctrina de ánimo | **§44** | repo `corpus-la-bandita/` |
+| `corpus-la-bandita/Prompt de Concientización` | regla del modelo débil | **§45** | repo `corpus-la-bandita/` |
 | `corpus-la-bandita/Manual de Estilo V3.0` (67 KB) | la vara de la pieza | §2–§13, §27.2 | repo `corpus-la-bandita/` |
-| `corpus-la-bandita/Next Tratado V.0.03` (1,19 MB) | norma madre | **comprimido**: §38 precedencia; su doctrina operativa está absorbida en las Partes 0 a XII | repo `corpus-la-bandita/` |
+| `corpus-la-bandita/Next Tratado V.0.03` (1,19 MB) | norma madre | **comprimido**: §39 precedencia; su doctrina operativa está absorbida en las Partes 0 a XII | repo `corpus-la-bandita/` |
 | `corpus-la-bandita/Manual de Campo — Edición Completa` (543 KB) | manual operativo extenso | **comprimido**: procedimientos vigentes en §19–§28 | repo `corpus-la-bandita/` |
 | `corpus-la-bandita/Manual de Campo V1.0` (98 KB) | versión anterior del mismo | **no absorbido**: superado por la Edición Completa; queda en el repo como historia | repo |
-| `corpus-la-bandita/LEEME — Corpus` (305 KB) | índice y catálogo del corpus | **comprimido**: §38 y el Anexo E | repo |
+| `corpus-la-bandita/LEEME — Corpus` (305 KB) | índice y catálogo del corpus | **comprimido**: §39 y el Anexo E | repo |
 | `corpus-la-bandita/Inventario V25 — 1.029 fichas` (92 KB) | inventario histórico de fichas | **no absorbido**: es dato histórico, no norma; el registro vivo está en `registry/` | repo |
-| `corpus-la-bandita/Clasificador general de la Biblioteca` (44 KB) | rango y clase de cada texto | **comprimido**: §38 | repo |
+| `corpus-la-bandita/Clasificador general de la Biblioteca` (44 KB) | rango y clase de cada texto | **comprimido**: §39 | repo |
 | `corpus-la-bandita/Registro de verificación 14-sep` (149 KB) | evidencia de un día de verificación | **no absorbido**: es evidencia fechada, no norma | repo |
 | `corpus-la-bandita/Handoff de Sesión 10-sep` (71 KB) | traspaso de una sesión | **no absorbido**: historia | repo |
 | `corpus-la-bandita/ENTREGA-DE-CONTINUIDAD 20-sep` (18 KB) | traspaso | **no absorbido**: historia | repo |
@@ -1362,14 +1384,14 @@ Absorbido de `Prompt de Concientización — La Bandita V1.0.md` (10-sep-2026). 
 | `normas/` (10) | políticas ya aprobadas | **Parte XVI** | `docs/` |
 | `licencias/` (6) | las tres licencias y la reserva | **Parte XVII**; los archivos `LICENSE*` y `NOTICE` se conservan en local porque la ley exige que existan como archivo | `LICENSE*`, `NOTICE` |
 | `esquema/ficha.schema.json` | contrato de datos | **§27.4**; el JSON se conserva porque lo lee la máquina | `schemas/` |
-| `normas/MANIFIESTO-ARQUITECTURA.md` | principios de mantenibilidad del árbol | **§53** (actualizado a la ley única) | solo local (absorbido) |
+| `normas/MANIFIESTO-ARQUITECTURA.md` | principios de mantenibilidad del árbol | **§54** (actualizado a la ley única) | solo local (absorbido) |
 | `LEEME.md` · `MAPA-REMOTO.md` | portada y mapa del núcleo local | **§19, Anexo E** | — (retirados) |
 
-## 46. Lo que la compresión pierde, dicho sin adornos
+## 47. Lo que la compresión pierde, dicho sin adornos
 
 Tres documentos grandes —el Tratado (1,19 MB), la Edición Completa del Manual de Campo (543 KB) y el LEEME del corpus (305 KB)— **no están completos aquí**. Se conserva su doctrina operativa y su rango; se pierden sus ejemplos extensos, sus duplicaciones internas y su historia de redacción. **No se pierde nada que no esté en el repositorio**, que es donde viven enteros y fechados. Si una pieza futura necesita un ejemplo concreto de esos volúmenes, se busca en el repositorio por su ruta —que está en la tabla de arriba— y se cita. Lo que **no** se hace es reabrir un documento aparte para operar: para operar está este.
 
-## 47. Regla de no resurrección
+## 48. Regla de no resurrección
 
 Si alguien propone volver a tener «un documento aparte» para cualquier asunto operativo, la respuesta es esta parte del documento, y la respuesta se escribe en el acta. **La única excepción son las publicaciones** —que son el corpus vivo, en GitHub— y los archivos que una máquina o una ley exigen leer tal cual: `LICENSE`, `LICENSE-CONTENIDO`, `LICENSE-DATOS`, `NOTICE`, `schemas/ficha.schema.json`, `docs/bandas.json` y las herramientas de `tools/`.
 
@@ -1377,7 +1399,7 @@ Si alguien propone volver a tener «un documento aparte» para cualquier asunto 
 
 # PARTE XVI — LAS POLÍTICAS VIGENTES
 
-## 48. Duplicados (medido, no borrado)
+## 49. Duplicados (medido, no borrado)
 
 Medición del 31-oct-2026 con `tools/duplicados.py`: **2.333 archivos censados · 277 grupos idénticos · 441 copias sobrantes · 3,2 MB repetidos · 163 piezas con varias fechas para el mismo número y plataforma**.
 
@@ -1385,25 +1407,25 @@ Diagnóstico: un archivo idéntico no es un daño; un archivo idéntico **que na
 
 Reglas: **una pieza, una fuente** (toda pieza nueva entra una sola vez) · borrar es decisión del dueño, no del operador · toda fusión o retirada deja acta.
 
-## 49. MCP (lista blanca, solo lectura)
+## 50. MCP (lista blanca, solo lectura)
 
 **Se usan** los servidores oficiales de referencia: `fetch`, `filesystem`, `git`, `memory`, `time`, `sequentialthinking`, `everything`. **Del proveedor, sí:** `github/github-mcp-server` (MIT, mantenido). **No se usa** el servidor de GitHub del repositorio de referencia: está archivado, y adoptar código muerto teniendo el oficial vivo es justo el error que la vara existe para impedir.
 
 **Prohibiciones:** ningún servidor sin repositorio enlazado y mantenedor identificable · ninguna versión flotante (etiqueta inmutable o hash) · ningún token en variable de entorno global (uno por herramienta, con alcance mínimo) · ningún permiso de escritura donde solo hace falta lectura.
 
-## 50. Canal WhatsApp (el principal)
+## 51. Canal WhatsApp (el principal)
 
 Decidido el 31-oct-2026: **WhatsApp es el canal principal**, no por estrategia de crecimiento sino porque el dueño está enfermo y su energía es el recurso más escaso del proyecto. **Regla de oro: una pieza por envío, nunca dos.** WhatsApp no es un feed: es una conversación; dos piezas juntas se leen como un folleto y se abandonan. La pieza se parte en trozos y se comprueba el último.
 
-## 51. Limpieza del espacio local (2-nov-2026)
+## 52. Limpieza del espacio local (2-nov-2026)
 
 De **29.545 archivos / 471 MB a 97 archivos / 4,7 MB**, con 88/88 archivos del núcleo cotejados por SHA-256 contra el árbol remoto (0 diferencias). Principio que la motivó: *la fuente es GitHub; aquí solo vive la ley*. Techo local: 128 MB y 10.000 archivos. Con la fusión del 3-nov-2026 el espacio local queda en **un documento + herramientas + licencias + esquema + llaves**.
 
-## 52. Erratas y correcciones
+## 53. Erratas y correcciones
 
 Toda errata vive en `docs/ERRATA-AAAA-MM-DD.md` con cuatro datos: qué estaba mal, cómo se detectó, qué se cambió y qué compuerta lo confirma. La última registrada al corte es del 31-oct-2026. **Una corrección sin acta es una corrección que volverá.**
 
-## 53. Manifiesto de arquitectura (absorbido y actualizado al 3-nov-2026)
+## 54. Manifiesto de arquitectura (absorbido y actualizado al 3-nov-2026)
 
 Reglas para que el árbol siga siendo mantenible dentro de dos años. No son sugerencias: son el criterio con el que se acepta o se rechaza un cambio.
 
@@ -1415,23 +1437,24 @@ Reglas para que el árbol siga siendo mantenible dentro de dos años. No son sug
 6. **Las llaves no entran.** Tokens fuera del árbol; ninguna herramienta los escribe en un archivo versionado. Si aparece uno en un `git status`, se rota y se limpia el commit.
 7. **Regla de fusión** *(nueva)*. Un documento nuevo no se crea si su contenido cabe en este. Si hay que crear algo, primero se pregunta: ¿esto es una publicación? Si no lo es, va aquí, con fecha y número de sección.
 
-## 54. Deudas y decisiones que solo el dueño puede tomar
+## 55. Deudas y decisiones que solo el dueño puede tomar
 
 Véase el Anexo I. Se mantiene aquí la regla: un pendiente que no tiene nombre de dueño no se cierra nunca; por eso cada deuda lleva su decisor.
 
-## 55-BIS. La decisión de licencia, con su historia
+# PARTE XVII — LAS LICENCIAS, LITERALES
+
+## 56. La decisión de licencia, con su historia
 
 *Absorbido de `licencias/LEGAL/PROPUESTA-LICENCIA.md`, que queda retirado.*
 
 Cuando se hizo la propuesta, el repositorio **no tenía `LICENSE`**, y ese era el pendiente más caro: sin licencia nadie puede reutilizar el archivo legalmente, ningún fondo abierto puede financiarlo y ninguna empresa puede comprar un informe sin abrir un expediente aparte. **Una licencia es un acto de propiedad del dueño, no un detalle técnico**; el oficio dejó el paquete listo para que la decisión costara un comando.
 
-La propuesta tenía cuatro opciones sobre la mesa y recomendaba una mezcla de *open core* honesto: **se abre el método y el registro, se reserva el servicio y la firma; cualquiera puede verificar, solo la casa certifica.** El dueño decidió el 31-oct-2026 y la decisión es la que hoy está aplicada (§56): contenido CC BY-SA 4.0 · código MIT · datos CC BY 4.0 · marca y nombre reservados. *Titular registrado: «Alexis (La Bandita)», suposición declarada.*
+La propuesta tenía cuatro opciones sobre la mesa y recomendaba una mezcla de *open core* honesto: **se abre el método y el registro, se reserva el servicio y la firma; cualquiera puede verificar, solo la casa certifica.** El dueño decidió el 31-oct-2026 y la decisión es la que hoy está aplicada (§57): contenido CC BY-SA 4.0 · código MIT · datos CC BY 4.0 · marca y nombre reservados. *Titular registrado: «Alexis (La Bandita)», suposición declarada.*
 
 ---
 
-# PARTE XVII — LAS LICENCIAS, LITERALES
 
-## 56. Lo que se cede y lo que se reserva
+## 57. Lo que se cede y lo que se reserva
 
 | Pieza | Licencia | Archivo que la prueba |
 |---|---|---|
@@ -1442,7 +1465,7 @@ La propuesta tenía cuatro opciones sobre la mesa y recomendaba una mezcla de *o
 
 Se puede copiar, mezclar, publicar y **vender** lo que salga de las tres primeras, citando la fuente y su fecha. La marca no viaja con ninguna de las tres. **No se acepta dinero, en ninguna forma** (decisión del 31-oct-2026, escrita en `NOTICE`).
 
-## 57. Cómo se aplica en las piezas
+## 58. Cómo se aplica en las piezas
 
 Cada pieza con software lleva **columna de licencia**; si la ficha automática y el archivo del repositorio discrepan, se publican **las dos versiones**. Cuando una licencia no es libre al uso, se nombra textual y no se resume como «libre». Cuando el programa es libre pero el contenido que lee no lo es, se separa: **el programa es libre, la obra tiene dueño**. La línea de licencia de cada pieza se redacta propia, nunca calcada (M23).
 
