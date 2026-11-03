@@ -480,7 +480,7 @@ una licencia. La búsqueda filtra al escribir; no hace ninguna llamada a la red.
                       raiz="../"), encoding="utf-8")
 
     # ── REDES · qué se publicó en cada red y qué interacción se ha medido ──
-    multi = RAIZ / "04-VERSIONES-MULTIIDIOMA"
+    multi = RAIZ / "ARCHIVO-HISTORICO" / "04-VERSIONES-MULTIIDIOMA"
     versos: dict[str, dict[str, int]] = {}
     if multi.exists():
         for red in sorted(d for d in multi.iterdir() if d.is_dir()):

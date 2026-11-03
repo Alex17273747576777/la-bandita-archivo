@@ -20,8 +20,8 @@ PATRONES = {
     "a_tilde": re.compile(r"Ã¡|Ã©|Ã­|Ã³|Ãº|Ã±"),
     "c2_c3": re.compile(r"Â[«»º°]"),
 }
-CUBIERTAS = ("Arena-Reimagined/01-PUBLICACIONES", "corpus-la-bandita", "03-PUBLICACIONES-2026-09-15",
-             "04-VERSIONES-MULTIIDIOMA", "Arena-Reimagined/PROPUESTA-2026-10-31", "docs")
+CUBIERTAS = ("Arena-Reimagined/01-PUBLICACIONES", "corpus-la-bandita", "ARCHIVO-HISTORICO/03-PUBLICACIONES-2026-09-15",
+             "ARCHIVO-HISTORICO/04-VERSIONES-MULTIIDIOMA", "Arena-Reimagined/PROPUESTA-2026-10-31", "docs")
 
 
 def main() -> int:

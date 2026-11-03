@@ -19,7 +19,8 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[1]
 CUBIERTAS = ("Arena-Reimagined/01-PUBLICACIONES", "Arena-Reimagined/00-CANON", "corpus-la-bandita",
-             "03-PUBLICACIONES-2026-09-15", "04-VERSIONES-MULTIIDIOMA")
+             "ARCHIVO-HISTORICO/03-PUBLICACIONES-2026-09-15",
+             "ARCHIVO-HISTORICO/04-VERSIONES-MULTIIDIOMA")
 
 
 def archivos() -> list[Path]:

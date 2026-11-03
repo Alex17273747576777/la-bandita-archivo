@@ -50,6 +50,15 @@ jobs:
           fi
           echo "vara aprobada: fallos NINGUNO verificado en el texto del informe"
 
+      - name: Tablero de tareas al día
+        run: python3 tools/tareas.py --revisar
+
+      - name: Índice de documentos generado
+        run: |
+          python3 tools/indice_docs.py
+          git diff --exit-code -- docs/INDICE.md docs/TAREAS.md \
+            || { echo "::error::docs/INDICE.md o docs/TAREAS.md no están regenerados; corré 'make libro'"; exit 1; }
+
       - name: Autoprueba de compuertas
         run: python3 tools/autoprueba.py | tee /tmp/autoprueba.txt
 

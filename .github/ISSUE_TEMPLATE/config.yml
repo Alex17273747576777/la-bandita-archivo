@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Fallo de seguridad
+    url: https://github.com/Alex17273747576777/la-bandita-archivo/security/advisories/new
+    about: Reporte privado. No abras una incidencia pública para esto.
+  - name: Cómo se contribuye
+    url: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/CONTRIBUTING.md
+    about: Reglas de entrada, revisión y salida.
+  - name: Ayuda y soporte
+    url: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/SUPPORT.md
+    about: Cinco puertas según lo que te pase.

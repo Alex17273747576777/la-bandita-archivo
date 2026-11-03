@@ -19,7 +19,18 @@ CUBIERTAS = ("registry", "schemas", "Arena-Reimagined/01-PUBLICACIONES",
              "CIMIENTOS", "SKILLS", "PROCESOS", "corpus-la-bandita",
              # la guía maestra es contenido publicado: sus fichas y su texto se sellan igual
              "guia-maestra",
-             "MANIFIESTO-ARQUITECTURA.md", "README.md")
+             # el gobierno del repositorio también se sella. Antes quedaba fuera y por eso
+             # el README podía cambiar sin que el sello lo notara: exactamente el agujero
+             # que este archivo existe para cerrar.
+             ".github", "LICENSES", ".reuse",
+             "README.md", "ARQUITECTURA.md", "MAPA-DEL-ARCHIVO.md",
+             "MANIFIESTO-ARQUITECTURA.md", "CORAZON-LA-BANDITA.md",
+             "CONTRIBUTING.md", "CODE_OF_CONDUCT.md", "SECURITY.md", "SUPPORT.md",
+             "CHANGELOG.md", "NOTICE", "LICENSE")
+
+# Archivos sin sufijo que también se sellan (el `Makefile` es la puerta de entrada: si cambia
+# un destino, cambia lo que cualquiera ejecuta con confianza).
+EXACTOS = {"Makefile"}
 
 SUFIJOS = {".json", ".md", ".tsv", ".yml", ".html", ".schema", ".txt"}
 
@@ -33,7 +44,7 @@ def archivos(raiz: Path, manifiesto: Path | None = None) -> list[Path]:
         rel = p.relative_to(raiz).as_posix()
         if not any(rel.startswith(c) for c in CUBIERTAS):
             continue
-        if p.suffix not in SUFIJOS:
+        if p.suffix not in SUFIJOS and rel not in EXACTOS:
             continue
         if manifiesto is not None and p == manifiesto:
             continue
