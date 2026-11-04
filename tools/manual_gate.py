@@ -133,7 +133,8 @@ def seccion(t: str, claves: tuple[str, ...]) -> str:
 
 def bloque_etiquetas(t: str) -> list[str]:
     """Devuelve las etiquetas del bloque rotulado, o [] si no hay bloque."""
-    m = re.search(r"🏷️[^\n]*\n+(.+?)(?:\n\n|\n───|\Z)", t, re.S)
+    # busca el bloque ROTULADO, no el primer icono del mapa (error E20)
+    m = re.search(r"🏷️\s*Etiquetas estratégicas\*?\s*\n+(.+?)(?:\n\n|\n───|\Z)", t, re.S)
     if not m:
         return []
     return re.findall(r"#([^\s#,.;:()\[\]]+)", m.group(1))
@@ -160,7 +161,8 @@ def m29(t: str) -> tuple[list[str], list[str]]:
         fallos.append("M29 etiquetas con acento, ñ, espacio o guion: " + ", ".join("#" + x for x in malas[:4]))
     if len(bajas) != len(tags):
         fallos.append("M29 etiquetas repetidas")
-    cuerpo = re.sub(r"[^a-z0-9]", "", sin_tildes(t.split("🏷️")[0]))
+    corte_cuerpo = re.search(r"🏷️\s*Etiquetas estratégicas", t)
+    cuerpo = re.sub(r"[^a-z0-9]", "", sin_tildes(t[:corte_cuerpo.start()] if corte_cuerpo else t))
     en_cuerpo = sum(1 for x in tags if re.sub(r"[^a-z0-9]", "", sin_tildes(x)) in cuerpo)
     if en_cuerpo / max(1, len(tags)) < ETIQUETAS_CUERPO_MIN:
         fallos.append(f"M29 solo {en_cuerpo} de {len(tags)} etiquetas aparecen en el cuerpo "

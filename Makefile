@@ -27,6 +27,18 @@ verificar:  ## Las compuertas completas: registro, sello, vara y autoprueba
 	@$(PY) tools/vara.py
 	@$(PY) tools/autoprueba.py
 
+ritual:  ## Verifica, sella y vuelve a verificar — el orden importa (H05, errores E16 y E23)
+	-@$(PY) tools/registro_construir.py --verificar
+	-@$(PY) tools/vara.py >/dev/null
+	-@$(PY) tools/autoprueba.py >/dev/null
+	@$(PY) tools/atestar.py
+	@$(PY) tools/atestar.py --verificar
+	@echo "ritual completo: la primera pasada puede fallar por archivos sin sellar; la segunda no"
+
+
+remedir-pieza:  ## Remide la pieza y escribe su medición con fecha y hora (habilidad H01)
+	LBT="$${LBT:?falta LBT}" $(PY) tools/remedir.py --escribir "docs/MEDICION-$$(date +%F).json" --pieza "$${PIEZA:?falta PIEZA}"
+
 vencer:  ## Calcula qué ficha está vigente, cuál por vencer y cuál hay que remedir
 	@$(PY) tools/vencimiento.py --aplicar
 

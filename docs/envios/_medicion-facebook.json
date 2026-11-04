@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-04",
- "medido_en_utc": "2026-11-04T12:56:27+00:00",
+ "medido_en_utc": "2026-11-04T13:18:35+00:00",
  "repos": {
   "coldMEW/Hush": {
    "estado": "vivo",
@@ -86,6 +86,18 @@
    "release_fecha": "2026-11-02",
    "stars_pieza": null
   },
+  "krishna3163/OmniShizuku": {
+   "estado": "vivo",
+   "stars": 18,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "An open-source Android utility for Shizuku, ADB, and Dhizuku workflows, with tools for Android phones, Android TV, and Wear OS.",
+   "release": "latest",
+   "release_fecha": "2026-10-25",
+   "stars_pieza": null
+  },
   "wized2/Latch": {
    "estado": "vivo",
    "stars": 17,
@@ -110,16 +122,16 @@
    "release_fecha": "",
    "stars_pieza": null
   },
-  "krishna3163/OmniShizuku": {
+  "rdevz-ph/RedirectGuard": {
    "estado": "vivo",
-   "stars": 18,
+   "stars": 16,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
-   "desc": "An open-source Android utility for Shizuku, ADB, and Dhizuku workflows, with tools for Android phones, Android TV, and Wear OS.",
-   "release": "latest",
-   "release_fecha": "2026-10-25",
+   "desc": "An open-source Android tool that helps prevent unwanted ad redirects and deep links to external apps, with permission prompts and automatic return to the previous app.",
+   "release": "v1.6",
+   "release_fecha": "2026-11-02",
    "stars_pieza": null
   },
   "capitan0n/droynis": {
@@ -132,18 +144,6 @@
    "desc": "Offline Android security audit tool. 75 read-only checks across multiple privilege levels (base, ADB, Shizuku, root), 0–100 score and saved reports. Privacy-oriented, no internet permission, zero telemetry, fully local.",
    "release": "v0.15.0",
    "release_fecha": "2026-11-01",
-   "stars_pieza": null
-  },
-  "rdevz-ph/RedirectGuard": {
-   "estado": "vivo",
-   "stars": 16,
-   "push": "2026-11-03",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "An open-source Android tool that helps prevent unwanted ad redirects and deep links to external apps, with permission prompts and automatic return to the previous app.",
-   "release": "v1.6",
-   "release_fecha": "2026-11-02",
    "stars_pieza": null
   },
   "Ghostpanter/ghost-files": {
@@ -328,7 +328,7 @@
   },
   "rukamori/ArchiveTune": {
    "estado": "vivo",
-   "stars": 7958,
+   "stars": 7960,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -352,7 +352,7 @@
   },
   "MetrolistGroup/Metrolist": {
    "estado": "vivo",
-   "stars": 14001,
+   "stars": 14000,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -417,7 +417,7 @@
   },
   "RikkaApps/Shizuku": {
    "estado": "vivo",
-   "stars": 32769,
+   "stars": 32772,
    "push": "2025-06-18",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -477,7 +477,7 @@
   },
   "bitwarden/android": {
    "estado": "vivo",
-   "stars": 9584,
+   "stars": 9585,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -609,7 +609,7 @@
   },
   "Foxlape/GhostMode": {
    "estado": "vivo",
-   "stars": 96,
+   "stars": 97,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -633,7 +633,7 @@
   },
   "samolego/Canta": {
    "estado": "vivo",
-   "stars": 6460,
+   "stars": 6461,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "LGPL-3.0",
@@ -657,7 +657,7 @@
   },
   "HmnDev-Tech/shevery": {
    "estado": "vivo",
-   "stars": 1597,
+   "stars": 1598,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -669,7 +669,7 @@
   },
   "rushiranpise/Shizuku-Next": {
    "estado": "vivo",
-   "stars": 1432,
+   "stars": 1433,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -729,7 +729,7 @@
   },
   "aistra0528/Hail": {
    "estado": "vivo",
-   "stars": 7097,
+   "stars": 7098,
    "push": "2026-10-27",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -741,7 +741,7 @@
   },
   "wxxsfxyzm/InstallerX-Revived": {
    "estado": "vivo",
-   "stars": 7311,
+   "stars": 7312,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -902,7 +902,7 @@
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
-   "stars": 21196,
+   "stars": 21197,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -998,7 +998,7 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 118205,
+   "stars": 118206,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1010,7 +1010,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97278,
+   "stars": 97279,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1130,7 +1130,7 @@
   },
   "cli/cli": {
    "estado": "vivo",
-   "stars": 46870,
+   "stars": 46871,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -1154,7 +1154,7 @@
   },
   "rclone/rclone": {
    "estado": "vivo",
-   "stars": 60792,
+   "stars": 60793,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -1178,7 +1178,7 @@
   },
   "Jman-Github/Patch-Bundle-Registry": {
    "estado": "vivo",
-   "stars": 726,
+   "stars": 725,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Unlicense",
@@ -1202,7 +1202,7 @@
   },
   "MorpheApp/morphe-patches": {
    "estado": "vivo",
-   "stars": 4546,
+   "stars": 4547,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1214,7 +1214,7 @@
   },
   "ReVanced/revanced-manager": {
    "estado": "vivo",
-   "stars": 30069,
+   "stars": 30070,
    "push": "2026-07-29",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1290,6 +1290,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://api.github.com/repos/aaron-gh/SandFly/releases": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://api.github.com/repos/coldMEW/Hush": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1303,8 +1307,8 @@
    "veredicto": "responde"
   },
   "https://archive.softwareheritage.org/": {
-   "codigo": "500",
-   "veredicto": "responde con codigo 500"
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://creativecommons.org/licenses/by-sa/4.0/": {
    "codigo": "200",
@@ -1331,8 +1335,8 @@
    "veredicto": "responde"
   },
   "https://github.com/AChep/keyguard-app/blob/master/LICENSE": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/AChep/keyguard-app/blob/master/SAPCLA.md": {
    "codigo": "200",
@@ -1419,8 +1423,8 @@
    "veredicto": "responde"
   },
   "https://github.com/Jman-Github/Universal-Patch-Manager/blob/main/LICENSE": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/Jman-Github/Universal-Patch-Manager/issues": {
    "codigo": "200",
@@ -1811,12 +1815,12 @@
    "veredicto": "responde"
   },
   "https://www.gnu.org/licenses/agpl-3.0.html": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "000",
+   "veredicto": "no respondio en 25 s"
   },
   "https://www.gnu.org/licenses/gpl-3.0.html": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "000",
+   "veredicto": "no respondio en 25 s"
   }
  },
  "nota": "estado medido con la API de GitHub y con peticiones HTTP el día indicado; un 404 se registra como muerto, un 403/429 nunca"

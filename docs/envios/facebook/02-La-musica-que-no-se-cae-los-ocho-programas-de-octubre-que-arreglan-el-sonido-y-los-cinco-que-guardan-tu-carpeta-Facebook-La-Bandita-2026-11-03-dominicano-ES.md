@@ -395,7 +395,7 @@ Lo que hay que llevarse cabe en cuatro frases. La primera: el catálogo se cae, 
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 2616 caracteres ═══
+═══ MENSAJE 18 de 19 · 2727 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
@@ -411,20 +411,21 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 19 repositorios que cita esta pi
 • AlphadogRSA/spotifyplus-tv-patch — ★21 · empujó el 27-oct-2026 (hace 8 días) · MIT · última release v1.3.0.9 (27-oct-2026)
 • Moriafly/SaltPlayerSource — ★7.597 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release 12.6.0 (2-nov-2026)
 • namidaco/namida — ★6.786 · empujó el 1-nov-2026 (hace 3 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
-• rukamori/ArchiveTune — ★7.958 · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
+• rukamori/ArchiveTune — ★7.960 · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
 • maxrave-dev/SimpMusic — ★12.733 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
-• MetrolistGroup/Metrolist — ★14.001 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• MetrolistGroup/Metrolist — ★14.000 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
 • AntennaPod/AntennaPod — ★8.263 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • z-huang/InnerTune — ★6.139 · *dormido*: sin empujar desde el 13-nov-2025 (356 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • naman14/Timber — ★7.036 · *dormido*: sin empujar desde el 28-abr-2023 (1286 días) · sin licencia detectada por la API · última release v1.7 (5-oct-2020)
 • james34602/JamesDSPManager — ★989 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · sin licencia detectada por la API · última release 28Nov2023 (2-dic-2023)
 • thepbone/RootlessJamesDSP — sin dato hoy (la API no respondió). No afirmo nada.
-• RikkaApps/Shizuku — ★32.769 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.772 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 24 enlaces de esta pieza, *24 responden*.
-Ninguno roto.
+De los 24 enlaces de esta pieza, *23 responden*.
+
+• https://www.gnu.org/licenses/gpl-3.0.html — no respondió en 25 segundos. No digo que esté caído: digo que no me contestó.
 
 ⏬ sigue abajo · parte 17 de 18
 

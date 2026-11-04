@@ -411,27 +411,29 @@ Lo que le falta está escrito arriba sin adornos: avisos en el momento justo, un
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1556 caracteres ═══
+═══ MENSAJE 19 de 20 · 1822 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 06*
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • Jman-Github/Universal-Patch-Manager — ★1.410 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
-• Jman-Github/Patch-Bundle-Registry — ★726 · empujó en las últimas horas · Unlicense
+• Jman-Github/Patch-Bundle-Registry — ★725 · empujó en las últimas horas · Unlicense
 • MorpheApp/morphe-manager — ★9.950 · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (4-nov-2026)
-• MorpheApp/morphe-patches — ★4.546 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (30-oct-2026)
-• ReVanced/revanced-manager — ★30.069 · *dormido*: sin empujar desde el 29-jul-2026 (98 días) · GPL-3.0 · última release v2.6.0 (26-abr-2026)
+• MorpheApp/morphe-patches — ★4.547 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (30-oct-2026)
+• ReVanced/revanced-manager — ★30.070 · *dormido*: sin empujar desde el 29-jul-2026 (98 días) · GPL-3.0 · última release v2.6.0 (26-abr-2026)
 • ReVanced/where-is-revanced-patches — ★157 · *dormido*: sin empujar desde el 24-mar-2026 (225 días) · sin licencia detectada por la API
-• RikkaApps/Shizuku — ★32.769 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.772 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • timschneeb/awesome-shizuku — ★10.699 · empujó el 31-oct-2026 (hace 4 días) · NOASSERTION
 • rushiranpise/helper-for-morphe — ★427 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v5.2.0 (1-nov-2026)
 • brosssh/revanced-manager-downloaders — ★118 · *dormido*: sin empujar desde el 4-dic-2025 (335 días) · GPL-3.0 · última release v1.1.0 (4-dic-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 22 enlaces de esta pieza, *22 responden*.
-Ninguno roto.
+De los 22 enlaces de esta pieza, *20 responden*.
+
+• https://github.com/Jman-Github/Universal-Patch-Manager/blob/main/LICENSE — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://www.gnu.org/licenses/gpl-3.0.html — no respondió en 25 segundos. No digo que esté caído: digo que no me contestó.
 
 ⏬ sigue abajo · parte 18 de 19
 

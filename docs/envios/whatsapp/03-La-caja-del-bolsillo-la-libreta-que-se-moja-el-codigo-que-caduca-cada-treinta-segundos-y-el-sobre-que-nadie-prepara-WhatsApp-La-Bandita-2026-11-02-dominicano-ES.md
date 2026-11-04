@@ -504,10 +504,10 @@ Y queda la frase que sirve para cualquier año y cualquier teléfono: la caja fu
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• dani-garcia/vaultwarden — ★70.215 · empujó el 2-nov-2026 (hace 2 días) · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
+• dani-garcia/vaultwarden — ★70.217 · empujó el 2-nov-2026 (hace 2 días) · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
 • ente-io/ente — sin dato hoy (la API no respondió). No afirmo nada.
 • beemdevelopment/Aegis — ★13.466 · *dormido*: sin empujar desde el 6-sep-2026 (59 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
-• bitwarden/android — ★9.584 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
+• bitwarden/android — ★9.585 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
 • Kunzisoft/KeePassDX — ★7.613 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
 • PhilippC/keepass2android — ★6.367 · empujó el 29-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
 • stratumauth/app — ★4.636 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.0 (1-nov-2026)
