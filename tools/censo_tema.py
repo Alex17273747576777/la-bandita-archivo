@@ -41,6 +41,9 @@ TEMAS = {
     "red": "vpn,proxy,wireguard,tailscale,dns,firewall,adblock,adblocker,tunnel,sing-box,xray,doh,dot,mesh",
     # pieza 09: archivos, copias y nubes propias
     "archivos": "archivo,file,sync,sincroniz,backup,copia,nube,cloud,storage,almacenamiento,sftp,ftp,nextcloud,immich,rclone,restic,rsync,drive",
+    # pieza 10: repositorios de extensiones, parsers y plugins (solo tiendas, no aplicaciones).
+    # Palabras declaradas a la vista: extension, plugin, parser, source, repo, addon, provider, index.
+    "extensiones": "extension,extensions,plugin,plugins,parser,parsers,source,sources,repo,repositorio,addon,addons,provider,providers,tachiyomi,mihon,aniyomi,cloudstream,mangayomi,kotatsu,lnreader,aidoku,seanime,hayase,nuvio",
 }
 
 

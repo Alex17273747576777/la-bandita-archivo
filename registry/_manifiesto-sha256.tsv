@@ -15,6 +15,7 @@ cd6d4e097b58ee840b6406f3612c834393a0b3e994f35576d13218c1463ba634  .github/PULL_R
 f2e9559ced7a5a0c8f7af8f4821068d4103edcb622ca2e4ba9aaa1c80c8ea820  Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/07-La-pantalla-grande-y-la-casa-que-no-hace-ruido-cinco-gigantes-sin-un-solo-adjunto-y-cinco-proyectos-de-un-mes-que-firman-el-suyo-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
 465db8a4f3db818ec5f69135a2580b728275bbcd288b805b8e320d43ddcc5b09  Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/08-La-red-seis-caminos-seis-precios-el-programa-mas-nuevo-del-tema-saca-ochenta-y-los-dos-mas-instalados-no-firman-nada-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
 6293991f1ceaa33a432116dc201bf8ac0513d0eb95e6300937c2ac5a2e47ea45  Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/09-Archivos-copias-y-nubes-propias-cuatro-de-diecisiete-dan-la-huella-y-las-dos-herramientas-de-copia-llevan-410-y-185-dias-sin-publicar-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
+265c9962c35cc14b3904299a991943bbfe22cc17382adb457fa9d6cc716356ad  Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/10-Las-tiendas-cincuenta-y-seis-repositorios-vivos-doce-mil-cuatrocientos-ochenta-y-siete-archivos-y-diez-sumas-de-comprobacion-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
 95fbc249274954a19d6f8c7a4907714d761f939c2d7f8ceae2fa2b4bd56e780a  Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/LEEME-de-la-carpeta.md
 0926bf43e36d95de98c30655b12dba12738b4c34d05eabbdfce73bd841e71350  Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/_ARCHIVO-HISTORICO/2026-09/00-LA-LISTA-ecosistema-libre-en-16-guias-Facebook-La-Bandita-2026-09-15-dominicano-ES.md
 a2a921024642c0b10c442cf1ce71ba08b6bbe9b37d04c7b5d051a183a5f37ded  Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/_ARCHIVO-HISTORICO/2026-09/05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-22-dominicano-ES.md
@@ -374,6 +375,7 @@ e13f30291654b8e7cb401595f3a4e220d0b67a0a37bda7406165d812c527295e  docs/BARRIDO-A
 8e24aac5786e04301ec94fe56d96ab973d733f2c0ee974c90e778146ad151ea1  docs/CENSO-audio-2026-11-04-tarde.json
 8e24aac5786e04301ec94fe56d96ab973d733f2c0ee974c90e778146ad151ea1  docs/CENSO-audio-2026-11-04.json
 4b3dd67146df7c6d364af282ecb37a0c022a5abaafc45d757238aec7cb846619  docs/CENSO-casa-2026-11-04-tarde.json
+52c64085a501d9fd412cd0b0cb9a9575cd02918d2e60ebbe8306acc56dbc6a1c  docs/CENSO-extensiones-2026-11-04-noche.json
 4f7a1a8c2ddfb16dc0896d34be65a6e80bafbca8636a49c2fbe433c68be68eda  docs/CENSO-parches-2026-11-04-tarde.json
 ed070d3c1bba2d8952c429c93672b8621ed5d29bd21708603fc12a848eaa5638  docs/CENSO-red-2026-11-04-noche.json
 730ca9cc88322108807fd07d998e9a42eb19003e0f67e3a31cd8e0569a26a4ed  docs/CENSO-seguridad-2026-11-04-tarde.json
@@ -389,13 +391,13 @@ f4f6d29d365999aa1adad36cbdb70a31b97f0cb55030078cb638a6ed8520464d  docs/CODIGO.md
 31ca80bea520c0addacf8f9182d281e34049a349a656bacbecc7c14d601a240c  docs/ERRATA-2026-10-31.md
 b374d11cbbae0e4fc732eaa03c65ce3ce12c84ac6a83db5b6d7fceb9275dd196  docs/ERRORES.md
 47fe1a7e3a48b42e29771ce05377d7602bbe5caa80a0ed056f95b4ae10997d32  docs/ESCRUTINIO-2026-11-03.json
-9aa30ca39af7053e5503c86b464931b7a2fd0c7579e2e16994a3a4a45d36cd6f  docs/ESCRUTINIO-2026-11-04.json
-aba830d24586781466383d00582aa8ac3e06358dd699f3dd3f40d384fd6e98e8  docs/FECHA-VIVA.json
+d4e28668eab9cfa305ace742d801ce293d0e99fc656879e5b5b22ab2ee95594e  docs/ESCRUTINIO-2026-11-04.json
+3eed27cec2cc03bf95dbb9dad57b525e62d38af2f2ae509a6bb9e37f94c2dcb9  docs/FECHA-VIVA.json
 85aafeca1ef5dc55762bf95e44a79421e1af3e13645bbe8b4a3890d22c0a566d  docs/FICHA-PROFUNDA-2026-11-03.json
 7cb85c619a2e2562d282516a589cc5db6780dc9c493c80ba01b56296bc106114  docs/FRESCO-2026-11-03-movers.json
 81408789afb7ffcb59e696aeafe46c64ee6b80d7220860687b06df3b632fac38  docs/FRESCO-2026-11-03-nuevos.json
 5eb0e49bc8175207f090008eb2db4ecc85c7e5dc49960d3e9978bd5b17c4dc3b  docs/HABILIDADES.md
-5a90c669ecb2e5960d036c91a4e72f0eb520c5c9dfc3eafcd2702a4e6f10c1ed  docs/INDICE.md
+2b9c9e8a8b86c5b137705112449bbea73389f1034051bf861fc29321b4358902  docs/INDICE.md
 8334e0fd2645d2c83313492c5b3ba721aa04784adcf881553a1f0a953de049b9  docs/INFORME-DE-CIERRE-2026-10-31.md
 4fd6b25b1092e4dd32ffcec30c3fb7aa32189de951273ea18a66d09d1a36db19  docs/INTELIGENCIA.md
 719a84871a4b31878297ece3b817a17219ca6c7f465fbba465307cf298311d44  docs/INVENTARIO-ENLACES-01-10-2026-11-01.md
@@ -418,6 +420,7 @@ f4f10e3baee9ac07dd90e9c0083817add2eed1879e2be7d88caeac5638f7f80c  docs/MEDICION-
 5eddc9797671a51bdb04374b9c69efa9066301f8ce2da006afd982d61efd15ad  docs/MEDICION-07-tarde-2026-11-04.json
 8157fd7dca9c35ae3c3e46961d9fa9cbccb7bc2fbdf2a8b320fb08313a24b9d6  docs/MEDICION-08-noche-2026-11-04.json
 2e06468becf1319e1a34b720cc7ffdd0b55b2e815edf8cbe988df3110367c6b5  docs/MEDICION-09-noche-2026-11-04.json
+2737063f7e63fbf38ca998758e0874827da7510fd29f8b070af3a6047c330cf1  docs/MEDICION-10-noche-2026-11-04.json
 e26b7349fd7ffb47244ea52cf96d8ff720f69043042568cff8ea1c3d6e6672fc  docs/NLNET-BORRADOR.md
 d0b738669d2943532fac072d70289c8a5f899730dc6e4d65865fac57765ab30a  docs/NLNET-REGISTRO-PROMPTS.md
 29b2a7606de1f447599bd0c13e58c3617fd070e78683d2d2f0884d0fa273f9b2  docs/NUEVOS-RECURSOS-2026-11-01.md
@@ -434,11 +437,11 @@ bddf7d25478a3f3e41e07dae97dfd9a62b0b4ee6ce27085681d61dfe6e1c498b  docs/REVISION-
 b6239f8bfc7799e7f8421cca3ca29d97dac7fc05955253f03c2c43b489c6d950  docs/SCORECARD-2026-11-03.json
 2d6b91d4a924af9b0ed4589e128f4325c22c19f29f3478e6497349027da5ceb1  docs/SWHID-2026-11-03.json
 f4a76c7fab4a8797ff4c5947703a387bed6977be612277d7bb301aa725ba89ca  docs/SWHID-2026-11-04.json
-55cf9d60b0ed2cec185d7d49e3ac0a1bb017babdd4b25e8efea88eecef24c902  docs/TAREAS.md
+e91dc7786e69f83aa7100239326fcc76a2b23a9c5dc5860b25bb5e42bd64176e  docs/TAREAS.md
 49e943f24a4d4a837a3a08cb13c9ad760b6799dfab02378acf37e08df2e51d15  docs/TMO-2026-11-01.md
 8f09331714c9c5de56d8fb06e7cafa0f4788991c7acbd352fea6e366e91ae5da  docs/VENCIMIENTOS.md
 94f608675a285b7ec2993b3e07e2f33a4ec3a169e978799e5f557d57394a67c5  docs/_remedicion.json
-bc40db5fb12a6914a6ed8915f5ce2c0590f3b28600e4997c30d367ebbab5ac0c  docs/bandas.json
+ff52fe357ca7cee7f510b83cc2e116ab30f7fe568560fc77ddd1bc2cf67c844d  docs/bandas.json
 fbd39abb2be29ce5e3c31e56c2b2a9ee7476205b9c733944d477584b18b9727f  docs/candidatos-2026-10-31-nuevos.txt
 d1d868235ab9c429d994e8e4e2a261b0c09e6ae61631f2558c2a0e1ae02eef10  docs/candidatos-2026-10-31.tsv
 5a27ae522804bd78516ac6cd1ddcd9fbfda4640d9830d1fff1a6e96989f545f8  docs/envios/COMO-SE-MANDA.md

@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 40 tareas abiertas en 14 piezas vivas, numeradas dentro de cada pieza, de 007 a 046. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 44 tareas abiertas en 15 piezas vivas, numeradas dentro de cada pieza, de 007 a 054. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -52,6 +52,10 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 044 | medir el 4 de febrero de 2027 si AF-File-Manager puso la licencia en el formulario y si Immich publicó la versión estable de su 3.4. | Facebook · 09 | 2026-11-04 |
 | 045 | repetir el censo de archivos con la herramienta y comparar con las 114 fichas de hoy, para ver cuánto crece el tema en tres meses. | Facebook · 09 | 2026-11-04 |
 | 046 | hacer el ensayo de restauración de la regla 3-2-1 antes del 30 de noviembre de 2026 y anotar la fecha, el archivo y su suma. | Facebook · 09 | 2026-11-04 |
+| 051 | volver a medir las 57 direcciones el 4 de diciembre de 2026 y decir qué tiendas publicaron su primera suma de comprobación desde hoy. | Facebook · 10 | 2026-11-04 |
+| 052 | contar de verdad las fuentes de Keiyoushi, Yūzōnō y m2k3a descargando su índice con la orden cinco, para sustituir las cifras declaradas por cifras propias. | Facebook · 10 | 2026-11-04 |
+| 053 | comprobar el 4 de febrero de 2027 si `mojuru/anime-repo` sigue en su nuevo dueño o se ha vuelto a mudar, y cuántas tiendas cambiaron de dirección en el trimestre. | Facebook · 10 | 2026-11-04 |
+| 054 | medir en diciembre si el 451 de `yuzono/aniyomi-extensions` se levanta o se convierte en el segundo cementerio de esta serie. | Facebook · 10 | 2026-11-04 |
 
 ## Numeración: la regla y lo declarado
 
@@ -65,6 +69,7 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 > **Declarado:** 07-La-pantalla-grande-y-la-casa-que-no-h: numera desde 034 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 08-La-red-seis-caminos-seis-precios-el-p: numera desde 038 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 09-Archivos-copias-y-nubes-propias-cuatr: numera desde 042 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 10-Las-tiendas-cincuenta-y-seis-reposito: numera desde 051 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 
 La numeración es **por pieza**, no global: cada pieza numera sus tareas desde 001 porque la compuerta de novedad (M28) las cuenta dentro de la pieza. Por eso la misma cifra puede aparecer en dos piezas distintas y no es un error: la tarea se identifica por su número **y** su pieza.
 
