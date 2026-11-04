@@ -1,10 +1,10 @@
 {
  "medido_en": "2026-11-04",
- "medido_en_utc": "2026-11-04T12:11:02+00:00",
+ "medido_en_utc": "2026-11-04T12:56:11+00:00",
  "repos": {
   "ImranR98/Obtainium": {
    "estado": "vivo",
-   "stars": 21193,
+   "stars": 21196,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -16,7 +16,7 @@
   },
   "Droid-ify/client": {
    "estado": "vivo",
-   "stars": 7693,
+   "stars": 7694,
    "push": "2026-09-12",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -40,7 +40,7 @@
   },
   "MuntashirAkon/AppManager": {
    "estado": "vivo",
-   "stars": 9434,
+   "stars": 9437,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -52,7 +52,7 @@
   },
   "RikkaApps/Shizuku": {
    "estado": "vivo",
-   "stars": 32765,
+   "stars": 32769,
    "push": "2025-06-18",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -129,7 +129,7 @@
   },
   "MetrolistGroup/Metrolist": {
    "estado": "vivo",
-   "stars": 14000,
+   "stars": 14001,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -141,7 +141,7 @@
   },
   "maxrave-dev/SimpMusic": {
    "estado": "vivo",
-   "stars": 12728,
+   "stars": 12733,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -283,7 +283,7 @@
   },
   "Kunzisoft/KeePassDX": {
    "estado": "vivo",
-   "stars": 7614,
+   "stars": 7613,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -379,7 +379,7 @@
   },
   "rushiranpise/Shizuku-Next": {
    "estado": "vivo",
-   "stars": 1431,
+   "stars": 1432,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -456,7 +456,7 @@
   },
   "readest/readest": {
    "estado": "vivo",
-   "stars": 25933,
+   "stars": 25934,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -480,7 +480,7 @@
   },
   "samolego/Canta": {
    "estado": "vivo",
-   "stars": 6459,
+   "stars": 6460,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "LGPL-3.0",
@@ -540,7 +540,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 154000,
+   "stars": 154001,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -552,7 +552,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 64071,
+   "stars": 64073,
    "push": "2026-09-26",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -564,7 +564,7 @@
   },
   "termux/termux-packages": {
    "estado": "vivo",
-   "stars": 17302,
+   "stars": 17303,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -576,7 +576,7 @@
   },
   "skylot/jadx": {
    "estado": "vivo",
-   "stars": 51584,
+   "stars": 51586,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -588,7 +588,7 @@
   },
   "iBotPeaches/Apktool": {
    "estado": "vivo",
-   "stars": 26990,
+   "stars": 26991,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -612,7 +612,7 @@
   },
   "yuliskov/SmartTube": {
    "estado": "vivo",
-   "stars": 35906,
+   "stars": 35908,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -636,7 +636,7 @@
   },
   "jellyfin/jellyfin": {
    "estado": "vivo",
-   "stars": 58990,
+   "stars": 58992,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -648,7 +648,7 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 118204,
+   "stars": 118205,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -660,7 +660,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97270,
+   "stars": 97278,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -672,7 +672,7 @@
   },
   "rclone/rclone": {
    "estado": "vivo",
-   "stars": 60791,
+   "stars": 60792,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -684,7 +684,7 @@
   },
   "restic/restic": {
    "estado": "vivo",
-   "stars": 36995,
+   "stars": 36996,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "BSD-2-Clause",
@@ -792,7 +792,7 @@
   },
   "cli/cli": {
    "estado": "vivo",
-   "stars": 46868,
+   "stars": 46870,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -833,8 +833,8 @@
    "veredicto": "responde"
   },
   "https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/guia-maestra/CREDITOS.md": {
-   "codigo": "429",
-   "veredicto": "no deja entrar a un robot"
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://github.com/Alex17273747576777/la-bandita-archivo/tree/main/guia-maestra": {
    "codigo": "200",

@@ -14,6 +14,7 @@ trabajo técnico que sí puedo hacer).
 | Duplicación sin gobierno (§1.3 deuda 4) | **podado y reglado** — los 20 grupos de archivos idénticos ≥50 KB quedaron resueltos; siguen las 163 piezas históricas con varias fechas, que son decisión del dueño | `docs/POLITICA-DUPLICADOS.md` |
 | Reescritura de las piezas 01–06 de Facebook | **04 rehecha el 4-nov** — 44.932 car., VERDE en las dos compuertas, la vieja archivada con `git mv` | `docs/ACTA-PIEZA-04-REHECHA-2026-11-04.md` |
 | Etiquetas estratégicas (#pings) | **Facebook hecho el 4-nov** — política, compuerta M29 y las seis piezas etiquetadas · **WhatsApp pendiente**: la banda 63.000–63.099 no admite 250 caracteres sin recortar otros tantos | `docs/POLITICA-ETIQUETAS.md`, `docs/ACTA-ETIQUETAS-2026-11-04.md` |
+| Remedición cifra por cifra de las piezas ya publicadas | **01 hecha el 4-nov** — catorce repos abiertos otra vez, 598→614 estrellas, censo 852→865 y tres errores propios corregidos | `docs/ACTA-PIEZA-01-REMEDIDA-2026-11-04.md` |
 | README desactualizado | **hecho** — estado al 4-nov, piezas 01–06, poda declarada | `README.md` |
 
 ### Lo que sigue abierto, con nombre y con motivo

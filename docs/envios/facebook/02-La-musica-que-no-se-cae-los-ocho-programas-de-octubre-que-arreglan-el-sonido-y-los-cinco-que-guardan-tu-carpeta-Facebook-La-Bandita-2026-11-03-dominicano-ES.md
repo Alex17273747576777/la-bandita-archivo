@@ -409,17 +409,17 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 19 repositorios que cita esta pi
 • ibrahim91015/AudioScope — ★1 · empujó el 6-oct-2026 (hace 29 días) · GPL-3.0 · última release v0.5.2 (6-oct-2026)
 • bunbun-midi/RootlessJamesDSP-SKDSP — ★1 · empujó el 27-oct-2026 (hace 8 días) · GPL-3.0 · última release v1 (27-oct-2026)
 • AlphadogRSA/spotifyplus-tv-patch — ★21 · empujó el 27-oct-2026 (hace 8 días) · MIT · última release v1.3.0.9 (27-oct-2026)
-• Moriafly/SaltPlayerSource — ★7.596 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release 12.6.0 (2-nov-2026)
+• Moriafly/SaltPlayerSource — ★7.597 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release 12.6.0 (2-nov-2026)
 • namidaco/namida — ★6.786 · empujó el 1-nov-2026 (hace 3 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
-• rukamori/ArchiveTune — ★7.956 · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
-• maxrave-dev/SimpMusic — ★12.728 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
-• MetrolistGroup/Metrolist — ★14.000 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• rukamori/ArchiveTune — ★7.958 · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
+• maxrave-dev/SimpMusic — ★12.733 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• MetrolistGroup/Metrolist — ★14.001 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
 • AntennaPod/AntennaPod — ★8.263 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • z-huang/InnerTune — ★6.139 · *dormido*: sin empujar desde el 13-nov-2025 (356 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • naman14/Timber — ★7.036 · *dormido*: sin empujar desde el 28-abr-2023 (1286 días) · sin licencia detectada por la API · última release v1.7 (5-oct-2020)
 • james34602/JamesDSPManager — ★989 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · sin licencia detectada por la API · última release 28Nov2023 (2-dic-2023)
 • thepbone/RootlessJamesDSP — sin dato hoy (la API no respondió). No afirmo nada.
-• RikkaApps/Shizuku — ★32.765 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.769 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

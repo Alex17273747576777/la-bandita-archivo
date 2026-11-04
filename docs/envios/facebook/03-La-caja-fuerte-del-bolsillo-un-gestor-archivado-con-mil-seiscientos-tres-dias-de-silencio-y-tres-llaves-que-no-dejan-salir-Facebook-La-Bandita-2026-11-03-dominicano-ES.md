@@ -385,7 +385,7 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 13 repositorios que cita esta pi
 
 • Monica-Pass/Monica — ★1.209 · empujó en las últimas horas · GPL-3.0 · última release V1.0.324 (3-nov-2026)
 • AChep/keyguard-app — ★3.604 · empujó en las últimas horas · NOASSERTION · última release r20261103 (3-nov-2026)
-• Kunzisoft/KeePassDX — ★7.614 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
+• Kunzisoft/KeePassDX — ★7.613 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
 • PhilippC/keepass2android — ★6.367 · empujó el 29-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
 • bitwarden/android — ★9.584 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
 • beemdevelopment/Aegis — ★13.466 · *dormido*: sin empujar desde el 6-sep-2026 (59 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
