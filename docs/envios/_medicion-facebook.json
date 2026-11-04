@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-04",
- "medido_en_utc": "2026-11-04T22:17:12+00:00",
+ "medido_en_utc": "2026-11-04T22:33:04+00:00",
  "repos": {
   "capitan0n/droynis": {
    "estado": "vivo",
@@ -100,7 +100,7 @@
   },
   "coldMEW/Hush": {
    "estado": "vivo",
-   "stars": 140,
+   "stars": 141,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -124,7 +124,7 @@
   },
   "WEIHEWU/shizuku-sam": {
    "estado": "vivo",
-   "stars": 41,
+   "stars": 42,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -304,7 +304,7 @@
   },
   "MetrolistGroup/Metrolist": {
    "estado": "vivo",
-   "stars": 14017,
+   "stars": 14018,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -316,7 +316,7 @@
   },
   "maxrave-dev/SimpMusic": {
    "estado": "vivo",
-   "stars": 12763,
+   "stars": 12764,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -328,7 +328,7 @@
   },
   "rukamori/ArchiveTune": {
    "estado": "vivo",
-   "stars": 7971,
+   "stars": 7972,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -460,7 +460,7 @@
   },
   "dani-garcia/vaultwarden": {
    "estado": "vivo",
-   "stars": 70243,
+   "stars": 70244,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -628,7 +628,7 @@
   },
   "Foxlape/GhostMode": {
    "estado": "vivo",
-   "stars": 118,
+   "stars": 119,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -892,7 +892,7 @@
   },
   "TrackerControl/tracker-control-android": {
    "estado": "vivo",
-   "stars": 2721,
+   "stars": 2722,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -904,7 +904,7 @@
   },
   "juanfont/headscale": {
    "estado": "vivo",
-   "stars": 45370,
+   "stars": 45371,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "BSD-3-Clause",
@@ -928,7 +928,7 @@
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
-   "stars": 21210,
+   "stars": 21211,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1084,7 +1084,7 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 118251,
+   "stars": 118252,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1120,7 +1120,7 @@
   },
   "netbirdio/netbird": {
    "estado": "vivo",
-   "stars": 30680,
+   "stars": 30679,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1156,7 +1156,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 154032,
+   "stars": 154033,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1377,7 +1377,7 @@
   },
   "timschneeb/awesome-shizuku": {
    "estado": "vivo",
-   "stars": 10700,
+   "stars": 10701,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1551,8 +1551,8 @@
    "licencia": "NOASSERTION",
    "lenguaje": "Dart",
    "desc": "Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.",
-   "release": "v4.1.1",
-   "release_fecha": "2026-03-05",
+   "release": "v5.5.5",
+   "release_fecha": "2026-11-04",
    "stars_pieza": null
   },
   "celzero/rethink-app": {
@@ -1710,6 +1710,138 @@
    "release": "v3.5",
    "release_fecha": "2026-10-30",
    "stars_pieza": null
+  },
+  "nextcloud/server": {
+   "estado": "vivo",
+   "stars": 37417,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "PHP",
+   "desc": "☁️ Nextcloud server, a safe home for all your data",
+   "release": "v33.0.10",
+   "release_fecha": "2026-10-15",
+   "stars_pieza": null
+  },
+  "researchxxl/syncthing-android": {
+   "estado": "vivo",
+   "stars": 3250,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "MPL-2.0",
+   "lenguaje": "Java",
+   "desc": "Syncthing-Fork - A Syncthing Wrapper for Android.",
+   "release": "v2.1.7.0",
+   "release_fecha": "2026-10-21",
+   "stars_pieza": null
+  },
+  "ZENINXOP/Hexora": {
+   "estado": "vivo",
+   "stars": 29,
+   "push": "2026-10-17",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "desc": "Hexora — an open-source Android dual-pane file manager with ZIP/APK tools, a built-in editor, and customizable light and dark themes.",
+   "release": "v0.1.4",
+   "release_fecha": "2026-10-17",
+   "stars_pieza": null
+  },
+  "BugeStudioTeam/Buge-Files": {
+   "estado": "vivo",
+   "stars": 41,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Buge Files is a modern Android file manager built with Material Design 3 Expressive.",
+   "release": "1.16.19",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "sinegard/AF-File-Manager": {
+   "estado": "vivo",
+   "stars": 18,
+   "push": "2026-10-29",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Kotlin",
+   "desc": "Privacy-first Android file manager with secure operations and signed self-updates",
+   "release": "v0.47.0",
+   "release_fecha": "2026-10-30",
+   "stars_pieza": null
+  },
+  "Mahmud0808/TeleDrive": {
+   "estado": "vivo",
+   "stars": 436,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Turn a private Telegram channel into your personal cloud drive. Android, Windows, Linux and macOS, auto backup, optional E2E encryption, built-in file manager and player.",
+   "release": "v1.5.0",
+   "release_fecha": "2026-10-19",
+   "stars_pieza": null
+  },
+  "sysrv64/KArchiver": {
+   "estado": "vivo",
+   "stars": 23,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Kotlin",
+   "desc": "KArchiver - Android file manager and archiver built with Kotlin / Rust and Material 3 Expressive",
+   "release": "v1.5-beta",
+   "release_fecha": "2026-10-31",
+   "stars_pieza": null
+  },
+  "dev2ex/twig": {
+   "estado": "vivo",
+   "stars": 102,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Dual-pane Android file manager: local storage, archives, FTP, SFTP, SMB, WebDAV, S3, restic and Jellyfin/Emby in one tree. Plain Kotlin, compact APK.",
+   "release": "v1.17.0",
+   "release_fecha": "2026-11-01",
+   "stars_pieza": null
+  },
+  "xtt-xt/MCPBox": {
+   "estado": "vivo",
+   "stars": 7,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Turn an Android phone into an MCP file server — AI clients read & write files and run commands, with per-call approval popups. 手机端 MCP 文件服务器：逐权限审批 / 文件网关 / 终端 / UI 自动化/ssh工作区",
+   "release": "v1.4.0",
+   "release_fecha": "2026-10-25",
+   "stars_pieza": null
+  },
+  "zhanghai/MaterialFiles": {
+   "estado": "vivo",
+   "stars": 9390,
+   "push": "2026-10-15",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Material Design file manager for Android",
+   "release": "v1.7.5",
+   "release_fecha": "2026-09-20",
+   "stars_pieza": null
+  },
+  "XayahSuSuSu/Android-DataBackup": {
+   "estado": "vivo",
+   "stars": 7559,
+   "push": "2026-10-25",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "DataBackup for Android 7.0+",
+   "release": "2.0.12",
+   "release_fecha": "2025-09-20",
+   "stars_pieza": null
   }
  },
  "enlaces": {
@@ -1746,6 +1878,10 @@
    "veredicto": "responde"
   },
   "https://github.com/Bingblop/ADB-Root-Toolbox": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/BugeStudioTeam/Buge-Files": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1822,6 +1958,10 @@
    "veredicto": "responde"
   },
   "https://github.com/M66B/NetGuard": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Mahmud0808/TeleDrive": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1913,7 +2053,15 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/XayahSuSuSu/Android-DataBackup": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Yukstarlight/guang-lab": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/ZENINXOP/Hexora": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1994,6 +2142,10 @@
    "veredicto": "responde"
   },
   "https://github.com/destradess/tv-home-universal": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/dev2ex/twig": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -2149,6 +2301,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/nextcloud/server": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/nixolas1/bluecodec": {
    "codigo": "200",
    "veredicto": "responde"
@@ -2174,6 +2330,10 @@
    "veredicto": "responde"
   },
   "https://github.com/readest/readest": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/researchxxl/syncthing-android": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -2213,11 +2373,19 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/sinegard/AF-File-Manager": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/sloccy/morphe-tv-patcher": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/stratumauth/app": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/sysrv64/KArchiver": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -2277,6 +2445,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/xtt-xt/MCPBox": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/yuliskov/SmartTube": {
    "codigo": "200",
    "veredicto": "responde"
@@ -2286,6 +2458,10 @@
    "veredicto": "responde"
   },
   "https://github.com/z-huang/InnerTune": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/zhanghai/MaterialFiles": {
    "codigo": "200",
    "veredicto": "responde"
   },

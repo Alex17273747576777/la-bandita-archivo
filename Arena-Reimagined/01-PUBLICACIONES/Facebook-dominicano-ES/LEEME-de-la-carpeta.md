@@ -30,7 +30,7 @@ El número es el del ciclo (01–14), la fecha es la del corte de medición de l
 | 06 | El taller de los parches (**rehecha**) | 2026-11-04 | 40.967 | Escrita de nuevo el 4-nov, 14:30 · 16 repos vivos, 55 de 257 con huella · los parches: 0 de 40 · el 451 comprobado en vivo · la anterior, en `_ARCHIVO-HISTORICO/_reemplazadas-2026-11-04/` |
 | 07 | La pantalla grande y la casa que no hace ruido (**escrita de nuevo el 4-nov, 14:44**) | 2026-11-04 | 40.923 | Publicada y en banda · 17 repos medidos, 5 con huella · censos nuevos: 83 de televisor y 16 de casa · primera versión, no reemplaza a ninguna |
 | 08 | La red: seis caminos, seis precios (**escrita de nuevo el 4-nov, 18:14**) | 2026-11-04 | 41.588 | Publicada y en banda · 20 repos medidos, 5 con huella (107 de 2.938) · tachyon, 114 días, nota 80 · censo nuevo de red: 48 fichas |
-| 09 | Archivos, copias y nubes propias | — | — | En cola |
+| 09 | Archivos, copias y nubes propias (**escrita de nuevo el 4-nov, 18:27**) | 2026-11-04 | 44.791 | Publicada y en banda · 17 repos medidos, 4 con huella (108 de 1.449) · AF-File-Manager firma 40 de 80 con 18★ · las dos copias del teléfono, 410 y 185 días paradas · censo nuevo de archivos: 114 fichas |
 | 10 | La privacidad que se puede comprobar | — | — | En cola |
 | 11 | Cuando algo se rompe: los cinco sitios y el parte | — | — | En cola |
 | 12 | El oficio: cómo comprobarme sin creerme | — | — | En cola |

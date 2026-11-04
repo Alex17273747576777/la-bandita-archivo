@@ -1,6 +1,6 @@
 {
  "fecha": "2026-11-04",
- "medido_en": "2026-11-04T22:15:22+00:00",
+ "medido_en": "2026-11-04T22:28:12+00:00",
  "pesos": {
   "licencia": 15,
   "ci": 10,
@@ -18,7 +18,7 @@
   "atencion_anomala": -15,
   "una_sola_persona": -5
  },
- "medidos": 163,
+ "medidos": 170,
  "fichas": [
   {
    "repo": "Dushnilin/tachyon",
@@ -388,7 +388,7 @@
    "adjuntos": 510,
    "con_huella": 30,
    "ultima_entrega": "2026-10-09",
-   "commits_30d": 254,
+   "commits_30d": 256,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 949,
@@ -403,7 +403,7 @@
     "integración continua con 5 flujo(s) +10",
     "adjunto con huella (MD5SUMS) +10",
     "entrega en los últimos 30 días +10",
-    "254 cambios en 30 días +10",
+    "256 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 5370/6319 +8",
     "sin Scorecard en deps.dev +0"
@@ -1073,11 +1073,11 @@
    "adjuntos": 100,
    "con_huella": 0,
    "ultima_entrega": "2026-11-04",
-   "commits_30d": 284,
+   "commits_30d": 286,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 500,
-    "cerradas": 9191
+    "abiertas": 499,
+    "cerradas": 9194
    },
    "security_md": false,
    "scorecard": null,
@@ -1088,9 +1088,9 @@
     "integración continua con 27 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "284 cambios en 30 días +10",
+    "286 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 9191/9691 +9",
+    "incidencias cerradas 9194/9693 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -1679,6 +1679,39 @@
    ]
   },
   {
+   "repo": "Mahmud0808/TeleDrive",
+   "puntos": 60,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "build.yml",
+    "pages.yml",
+    "release.yml"
+   ],
+   "adjuntos": 59,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-19",
+   "commits_30d": 42,
+   "contribuyentes": 7,
+   "incidencias": {
+    "abiertas": 14,
+    "cerradas": 79
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 75,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 3 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "42 cambios en 30 días +10",
+    "7 personas empujando +7",
+    "incidencias cerradas 79/93 +8",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "restic/restic",
    "puntos": 60,
    "licencia": "BSD-2-Clause",
@@ -1695,7 +1728,7 @@
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 493,
-    "cerradas": 2558
+    "cerradas": 2559
    },
    "security_md": false,
    "scorecard": null,
@@ -1708,7 +1741,7 @@
     "sin entrega reciente +0",
     "15 cambios en 30 días +7",
     "100 personas empujando +10",
-    "incidencias cerradas 2558/3051 +8",
+    "incidencias cerradas 2559/3052 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -1726,11 +1759,11 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-10-15",
-   "commits_30d": 820,
+   "commits_30d": 846,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 2792,
-    "cerradas": 19047
+    "abiertas": 2788,
+    "cerradas": 19051
    },
    "security_md": true,
    "scorecard": null,
@@ -1741,9 +1774,9 @@
     "integración continua con 51 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "820 cambios en 30 días +10",
+    "846 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 19047/21839 +9",
+    "incidencias cerradas 19051/21839 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -2314,6 +2347,38 @@
     "92 cambios en 30 días +10",
     "1 personas empujando +0",
     "incidencias cerradas 7/7 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "BugeStudioTeam/Buge-Files",
+   "puntos": 55,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "auto-build.yml",
+    "build-release.yml"
+   ],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-04",
+   "commits_30d": 47,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 11
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 74,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 2 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "47 cambios en 30 días +10",
+    "1 personas empujando +0",
+    "incidencias cerradas 11/11 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2911,6 +2976,39 @@
     "entrega en los últimos 30 días +10",
     "28 cambios en 30 días +7",
     "1 personas empujando +0",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "sinegard/AF-File-Manager",
+   "puntos": 52,
+   "licencia": "NOASSERTION",
+   "flujos_ci": [
+    "group-http-tests.yml",
+    "release.yml"
+   ],
+   "adjuntos": 80,
+   "con_huella": 40,
+   "ultima_entrega": "2026-10-30",
+   "commits_30d": 18,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 8,
+    "cerradas": 261
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 82,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "integración continua con 2 flujo(s) +10",
+    "adjunto con huella (AF-File-Manager-0.47.0-arm64-v8a.apk.sha256) +10",
+    "entrega en los últimos 30 días +10",
+    "18 cambios en 30 días +7",
+    "1 personas empujando +0",
+    "incidencias cerradas 261/269 +10",
+    "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -3541,6 +3639,35 @@
    ]
   },
   {
+   "repo": "dev2ex/twig",
+   "puntos": 46,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [],
+   "adjuntos": 30,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-01",
+   "commits_30d": 356,
+   "contribuyentes": 3,
+   "incidencias": {
+    "abiertas": 13,
+    "cerradas": 26
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 58,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "356 cambios en 30 días +10",
+    "3 personas empujando +4",
+    "incidencias cerradas 26/39 +7",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "HakaI963/bliss",
    "puntos": 45,
    "licencia": "Apache-2.0",
@@ -3654,6 +3781,36 @@
     "sin entrega reciente +0",
     "69 cambios en 30 días +10",
     "100 personas empujando +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "xtt-xt/MCPBox",
+   "puntos": 45,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "build.yml"
+   ],
+   "adjuntos": 24,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-25",
+   "commits_30d": 69,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 53,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 1 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "69 cambios en 30 días +10",
+    "1 personas empujando +0",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -4225,6 +4382,34 @@
    ]
   },
   {
+   "repo": "ZENINXOP/Hexora",
+   "puntos": 39,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [],
+   "adjuntos": 28,
+   "con_huella": 8,
+   "ultima_entrega": "2026-10-17",
+   "commits_30d": 5,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 26,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "sin flujos de integración +0",
+    "adjunto con huella (Hexora.0.1.4.apk.sha256) +10",
+    "entrega en los últimos 30 días +10",
+    "5 cambios en 30 días +4",
+    "1 personas empujando +0",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "brosssh/revanced-manager-downloaders",
    "puntos": 39,
    "licencia": "GPL-3.0",
@@ -4253,6 +4438,38 @@
     "sin entrega reciente +0",
     "0 cambios en 30 días +0",
     "4 personas empujando +4",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "sysrv64/KArchiver",
+   "puntos": 37,
+   "licencia": "NOASSERTION",
+   "flujos_ci": [
+    "ai-triage.yml",
+    "build.yml"
+   ],
+   "adjuntos": 5,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-31",
+   "commits_30d": 10,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 15
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 54,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "integración continua con 2 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "10 cambios en 30 días +7",
+    "1 personas empujando +0",
+    "incidencias cerradas 15/15 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },

@@ -405,7 +405,7 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 18 repositorios que cita esta pi
 • ReVanced/revanced-patches — sin dato hoy (la API no respondió). No afirmo nada.
 • ReVanced/where-is-revanced-patches — ★157 · *dormido*: sin empujar desde el 24-mar-2026 (225 días) · sin licencia detectada por la API
 • RikkaApps/Shizuku — ★32.798 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• timschneeb/awesome-shizuku — ★10.700 · empujó el 31-oct-2026 (hace 4 días) · NOASSERTION
+• timschneeb/awesome-shizuku — ★10.701 · empujó el 31-oct-2026 (hace 4 días) · NOASSERTION
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

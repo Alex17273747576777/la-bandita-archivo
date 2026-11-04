@@ -14,7 +14,8 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 06 | El taller de los parches: los gestores firman cincuenta y cinco de sus | 18 | 3653 | 18 | 0 | no | `06-El-taller-los-gestores-de-parches-firman-cincuenta-y-cinco-de-sus-ciento-noventa-archivos-y-los-conjuntos-de-parches-no-firman-ninguno-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 07 | La pantalla grande y la casa que no hace ruido: cinco gigantes sin un  | 17 | 3626 | 17 | 0 | no | `07-La-pantalla-grande-y-la-casa-que-no-hace-ruido-cinco-gigantes-sin-un-solo-adjunto-y-cinco-proyectos-de-un-mes-que-firman-el-suyo-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 08 | La red: seis caminos, seis precios — el programa más nuevo del tema sa | 17 | 3625 | 20 | 0 | no | `08-La-red-seis-caminos-seis-precios-el-programa-mas-nuevo-del-tema-saca-ochenta-y-los-dos-mas-instalados-no-firman-nada-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
+| 09 | Archivos, copias y nubes propias: cuatro de diecisiete dan la huella,  | 20 | 3647 | 17 | 0 | no | `09-Archivos-copias-y-nubes-propias-cuatro-de-diecisiete-dan-la-huella-y-las-dos-herramientas-de-copia-llevan-410-y-185-dias-sin-publicar-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 
-**8 piezas · 150 mensajes** · el mayor de todos: 3941 caracteres.
+**9 piezas · 170 mensajes** · el mayor de todos: 3941 caracteres.
 
 

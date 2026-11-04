@@ -39,6 +39,8 @@ TEMAS = {
     # pieza 08: la red. Se declaran pocas palabras a propósito (H15): vpn, proxy, wireguard,
     # tailscale, dns, firewall, adblock, adblocker, tunnel, sing-box, xray, doh, dot, mesh
     "red": "vpn,proxy,wireguard,tailscale,dns,firewall,adblock,adblocker,tunnel,sing-box,xray,doh,dot,mesh",
+    # pieza 09: archivos, copias y nubes propias
+    "archivos": "archivo,file,sync,sincroniz,backup,copia,nube,cloud,storage,almacenamiento,sftp,ftp,nextcloud,immich,rclone,restic,rsync,drive",
 }
 
 
