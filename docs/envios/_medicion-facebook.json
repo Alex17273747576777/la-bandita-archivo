@@ -1,17 +1,17 @@
 {
  "medido_en": "2026-11-04",
- "medido_en_utc": "2026-11-04T14:08:27+00:00",
+ "medido_en_utc": "2026-11-04T16:49:01+00:00",
  "repos": {
-  "coldMEW/Hush": {
+  "capitan0n/droynis": {
    "estado": "vivo",
-   "stars": 138,
-   "push": "2026-11-02",
+   "stars": 15,
+   "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
-   "lenguaje": "Java",
-   "desc": "Ad-free listening for Spotify on Android: skips ad breaks without root or a modified Spotify app.",
-   "release": "v2.0.5",
-   "release_fecha": "2026-11-02",
+   "lenguaje": "Kotlin",
+   "desc": "Offline Android security audit tool. 75 read-only checks across multiple privilege levels (base, ADB, Shizuku, root), 0–100 score and saved reports. Privacy-oriented, no internet permission, zero telemetry, fully local.",
+   "release": "v0.15.0",
+   "release_fecha": "2026-11-01",
    "stars_pieza": null
   },
   "Bingblop/ADB-Root-Toolbox": {
@@ -26,52 +26,28 @@
    "release_fecha": "2026-10-31",
    "stars_pieza": null
   },
-  "bl3xand/APK-Toolbox": {
+  "krishna3163/OmniShizuku": {
    "estado": "vivo",
-   "stars": 101,
-   "push": "2026-10-28",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "Track, clone, install and merge Android apps right on the phone: updates straight from GitHub, F-Droid and other sources, second copies of apps, split APK installer, APKS export and split merging. No root.",
-   "release": "v1.1.6",
-   "release_fecha": "2026-10-28",
-   "stars_pieza": null
-  },
-  "henry-97/MineApp": {
-   "estado": "vivo",
-   "stars": 72,
-   "push": "2026-10-31",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Java",
-   "desc": "Root-free, Shizuku-free lightweight Android app manager (<1MB APK, <10MB storage). Boost laggy & legacy devices with app freezing, background restriction, AOT compilation, and sustained performance mode—slashing battery drain while locking in peak smoothness. Free, open source. 免 Root、免 Shizuku 的超轻量 Android 应用管理器（APK <1MB，总占用 <10MB），唤醒卡顿安卓机型的原生流畅度!",
-   "release": "v3.8.5",
-   "release_fecha": "2026-10-31",
-   "stars_pieza": null
-  },
-  "WEIHEWU/shizuku-sam": {
-   "estado": "vivo",
-   "stars": 40,
-   "push": "2026-11-04",
+   "stars": 18,
+   "push": "2026-11-03",
    "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
-   "desc": "Samsung One UI 8.5 Enhanced Shizuku & System Tuning Suite",
-   "release": "v13.8.40",
-   "release_fecha": "2026-11-04",
+   "desc": "An open-source Android utility for Shizuku, ADB, and Dhizuku workflows, with tools for Android phones, Android TV, and Wear OS.",
+   "release": "latest",
+   "release_fecha": "2026-10-25",
    "stars_pieza": null
   },
-  "HellzYeahh/earshot": {
+  "zsw125/o3root": {
    "estado": "vivo",
-   "stars": 37,
-   "push": "2026-11-01",
+   "stars": 46,
+   "push": "2026-11-02",
    "archivado": false,
    "licencia": "MIT",
-   "lenguaje": "Kotlin",
-   "desc": "One Android app for any Bluetooth headset: Bose, Sony, Sennheiser, Soundcore, Skullcandy and more. No account, no internet permission.",
-   "release": "v0.9.0",
-   "release_fecha": "2026-10-28",
+   "lenguaje": "C",
+   "desc": "Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
+   "release": "v3.2",
+   "release_fecha": "2026-10-31",
    "stars_pieza": null
   },
   "aaron-gh/SandFly": {
@@ -86,16 +62,16 @@
    "release_fecha": "2026-11-02",
    "stars_pieza": null
   },
-  "krishna3163/OmniShizuku": {
+  "rdevz-ph/RedirectGuard": {
    "estado": "vivo",
-   "stars": 18,
+   "stars": 16,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
-   "desc": "An open-source Android utility for Shizuku, ADB, and Dhizuku workflows, with tools for Android phones, Android TV, and Wear OS.",
-   "release": "latest",
-   "release_fecha": "2026-10-25",
+   "desc": "An open-source Android tool that helps prevent unwanted ad redirects and deep links to external apps, with permission prompts and automatic return to the previous app.",
+   "release": "v1.6",
+   "release_fecha": "2026-11-02",
    "stars_pieza": null
   },
   "wized2/Latch": {
@@ -122,40 +98,52 @@
    "release_fecha": "",
    "stars_pieza": null
   },
-  "rdevz-ph/RedirectGuard": {
+  "coldMEW/Hush": {
    "estado": "vivo",
-   "stars": 16,
-   "push": "2026-11-03",
+   "stars": 138,
+   "push": "2026-11-02",
    "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "An open-source Android tool that helps prevent unwanted ad redirects and deep links to external apps, with permission prompts and automatic return to the previous app.",
-   "release": "v1.6",
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "desc": "Ad-free listening for Spotify on Android: skips ad breaks without root or a modified Spotify app.",
+   "release": "v2.0.5",
    "release_fecha": "2026-11-02",
    "stars_pieza": null
   },
-  "capitan0n/droynis": {
+  "HellzYeahh/earshot": {
    "estado": "vivo",
-   "stars": 15,
-   "push": "2026-11-04",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "Offline Android security audit tool. 75 read-only checks across multiple privilege levels (base, ADB, Shizuku, root), 0–100 score and saved reports. Privacy-oriented, no internet permission, zero telemetry, fully local.",
-   "release": "v0.15.0",
-   "release_fecha": "2026-11-01",
-   "stars_pieza": null
-  },
-  "Ghostpanter/ghost-files": {
-   "estado": "vivo",
-   "stars": 13,
-   "push": "2026-11-02",
+   "stars": 37,
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Kotlin",
-   "desc": "Android dual-pane file manager (MT/MiXplorer style): root/Shizuku, SMB/FTP/SFTP/WebDAV with a stall-proof resumable transfer queue",
-   "release": "v0.7.2",
-   "release_fecha": "2026-10-27",
+   "desc": "One Android app for any Bluetooth headset: Bose, Sony, Sennheiser, Soundcore, Skullcandy and more. No account, no internet permission.",
+   "release": "v0.9.0",
+   "release_fecha": "2026-10-28",
+   "stars_pieza": null
+  },
+  "WEIHEWU/shizuku-sam": {
+   "estado": "vivo",
+   "stars": 40,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Samsung One UI 8.5 Enhanced Shizuku & System Tuning Suite",
+   "release": "v13.8.40",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "bl3xand/APK-Toolbox": {
+   "estado": "vivo",
+   "stars": 101,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Track, clone, install and merge Android apps right on the phone: updates straight from GitHub, F-Droid and other sources, second copies of apps, split APK installer, APKS export and split merging. No root.",
+   "release": "v1.1.6",
+   "release_fecha": "2026-10-28",
    "stars_pieza": null
   },
   "wlmosv-png/wpaforge": {
@@ -170,52 +158,52 @@
    "release_fecha": "2026-11-03",
    "stars_pieza": null
   },
-  "zsw125/o3root": {
-   "estado": "vivo",
-   "stars": 33,
-   "push": "2026-11-02",
-   "archivado": false,
-   "licencia": "MIT",
-   "lenguaje": "C",
-   "desc": "Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
-   "release": "v3.2",
-   "release_fecha": "2026-10-31",
-   "stars_pieza": null
-  },
-  "timschneeb/awesome-shizuku": {
-   "estado": "vivo",
-   "stars": 10699,
-   "push": "2026-10-31",
-   "archivado": false,
-   "licencia": "NOASSERTION",
-   "lenguaje": "Python",
-   "desc": "Curated list of awesome Android apps making use of Shizuku",
-   "release": null,
-   "release_fecha": "",
-   "stars_pieza": null
-  },
-  "trypsynth/backtalk": {
-   "estado": "vivo",
-   "stars": 72,
-   "push": "2026-11-02",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Java",
-   "desc": "A fork of Google's TalkBack screen reader for Android",
-   "release": null,
-   "release_fecha": "",
-   "stars_pieza": null
-  },
-  "monarchsofchaos004-gif/splitaudio": {
+  "Ghostpanter/ghost-files": {
    "estado": "vivo",
    "stars": 13,
-   "push": "2026-11-04",
+   "push": "2026-11-02",
    "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Kotlin",
-   "desc": "Android: keep the music app on Bluetooth, route every other app to the phone speaker (Shizuku, no root) / 藍牙只放音樂，其他 App 走手機喇叭",
-   "release": "v0.5.6",
-   "release_fecha": "2026-11-04",
+   "desc": "Android dual-pane file manager (MT/MiXplorer style): root/Shizuku, SMB/FTP/SFTP/WebDAV with a stall-proof resumable transfer queue",
+   "release": "v0.7.2",
+   "release_fecha": "2026-10-27",
+   "stars_pieza": null
+  },
+  "henry-97/MineApp": {
+   "estado": "vivo",
+   "stars": 73,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "desc": "Root-free, Shizuku-free lightweight Android app manager (<1MB APK, <10MB storage). Boost laggy & legacy devices with app freezing, background restriction, AOT compilation, and sustained performance mode—slashing battery drain while locking in peak smoothness. Free, open source. 免 Root、免 Shizuku 的超轻量 Android 应用管理器（APK <1MB，总占用 <10MB），唤醒卡顿安卓机型的原生流畅度!",
+   "release": "v3.8.5",
+   "release_fecha": "2026-10-31",
+   "stars_pieza": null
+  },
+  "mkatadev/GoogleTVAirPlay": {
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-10-16",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Free, open-source AirPlay receiver for Google TV / Chromecast — mirroring, video, music",
+   "release": "v1.3.6",
+   "release_fecha": "2026-10-16",
+   "stars_pieza": null
+  },
+  "AlphadogRSA/spotifyplus-tv-patch": {
+   "estado": "vivo",
+   "stars": 21,
+   "push": "2026-10-27",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Java",
+   "desc": "Open-source Android TV extension: native Spotify settings, themes, artwork blur, EQ, sleep timer and optional Hush helper. ARMv7 build and Windows ADB installer.",
+   "release": "v1.3.0.9",
+   "release_fecha": "2026-10-27",
    "stars_pieza": null
   },
   "xTudoS/dual-audio": {
@@ -230,18 +218,6 @@
    "release_fecha": "2026-10-19",
    "stars_pieza": null
   },
-  "saikiran9185/BudsFirst": {
-   "estado": "vivo",
-   "stars": 1,
-   "push": "2026-10-18",
-   "archivado": false,
-   "licencia": "MIT",
-   "lenguaje": "Java",
-   "desc": "Stop Android from moving your music and calls to every Bluetooth device that connects. Rank your devices; the rest stay connected on standby.",
-   "release": "v0.4.0",
-   "release_fecha": "2026-10-18",
-   "stars_pieza": null
-  },
   "milkei/audio-focus-mixer": {
    "estado": "vivo",
    "stars": 1,
@@ -252,6 +228,42 @@
    "desc": "A lightweight Shizuku-powered Android app for per-app audio focus control.",
    "release": null,
    "release_fecha": "",
+   "stars_pieza": null
+  },
+  "nixolas1/bluecodec": {
+   "estado": "vivo",
+   "stars": 1,
+   "push": "2026-10-30",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Java",
+   "desc": "Bluetooth codec preferences and optional automatic reconnect blocking for Android, powered by Shizuku.",
+   "release": "v0.1.7",
+   "release_fecha": "2026-10-30",
+   "stars_pieza": null
+  },
+  "altarafiya/Sukut": {
+   "estado": "vivo",
+   "stars": 4,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "C++",
+   "desc": "Sukut · سُكوت — Enjoy the internet. Without the music. Windows and Android; Linux coming soon.",
+   "release": "v0.4.2",
+   "release_fecha": "2026-11-01",
+   "stars_pieza": null
+  },
+  "monarchsofchaos004-gif/splitaudio": {
+   "estado": "vivo",
+   "stars": 13,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "Android: keep the music app on Bluetooth, route every other app to the phone speaker (Shizuku, no root) / 藍牙只放音樂，其他 App 走手機喇叭",
+   "release": "v0.5.6",
+   "release_fecha": "2026-11-04",
    "stars_pieza": null
   },
   "AQUALaforet/AudioPolicyOverride": {
@@ -290,28 +302,52 @@
    "release_fecha": "2026-10-27",
    "stars_pieza": null
   },
-  "timschneeb/RootlessJamesDSP": {
+  "MetrolistGroup/Metrolist": {
    "estado": "vivo",
-   "stars": 1723,
-   "push": "2026-08-31",
+   "stars": 14008,
+   "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
-   "lenguaje": "C",
-   "desc": "An implementation of the system-wide JamesDSP audio processing engine for non-rooted Android devices",
-   "release": "v1.6.13",
-   "release_fecha": "2024-12-23",
+   "lenguaje": "Kotlin",
+   "desc": "YouTube Music client for Android",
+   "release": "v13.7.0",
+   "release_fecha": "2026-09-07",
    "stars_pieza": null
   },
-  "AlphadogRSA/spotifyplus-tv-patch": {
+  "maxrave-dev/SimpMusic": {
    "estado": "vivo",
-   "stars": 21,
-   "push": "2026-10-27",
+   "stars": 12745,
+   "push": "2026-11-03",
    "archivado": false,
-   "licencia": "MIT",
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "A cross-platform music app using YouTube Music for backend",
+   "release": "v2.5.0",
+   "release_fecha": "2026-11-01",
+   "stars_pieza": null
+  },
+  "rukamori/ArchiveTune": {
+   "estado": "vivo",
+   "stars": 7965,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "🌸 The Cutest Music Player With Support Local File and Youtube Music for Android!",
+   "release": "v15.1.0",
+   "release_fecha": "2026-09-26",
+   "stars_pieza": null
+  },
+  "AntennaPod/AntennaPod": {
+   "estado": "vivo",
+   "stars": 8264,
+   "push": "2026-11-02",
+   "archivado": false,
+   "licencia": "GPL-3.0",
    "lenguaje": "Java",
-   "desc": "Open-source Android TV extension: native Spotify settings, themes, artwork blur, EQ, sleep timer and optional Hush helper. ARMv7 build and Windows ADB installer.",
-   "release": "v1.3.0.9",
-   "release_fecha": "2026-10-27",
+   "desc": "A podcast manager for Android",
+   "release": "3.12.3",
+   "release_fecha": "2026-10-13",
    "stars_pieza": null
   },
   "Moriafly/SaltPlayerSource": {
@@ -338,52 +374,16 @@
    "release_fecha": "2026-09-19",
    "stars_pieza": null
   },
-  "rukamori/ArchiveTune": {
+  "timschneeb/RootlessJamesDSP": {
    "estado": "vivo",
-   "stars": 7961,
-   "push": "2026-11-04",
+   "stars": 1723,
+   "push": "2026-08-31",
    "archivado": false,
    "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "🌸 The Cutest Music Player With Support Local File and Youtube Music for Android!",
-   "release": "v15.1.0",
-   "release_fecha": "2026-09-26",
-   "stars_pieza": null
-  },
-  "maxrave-dev/SimpMusic": {
-   "estado": "vivo",
-   "stars": 12735,
-   "push": "2026-11-03",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "A cross-platform music app using YouTube Music for backend",
-   "release": "v2.5.0",
-   "release_fecha": "2026-11-01",
-   "stars_pieza": null
-  },
-  "MetrolistGroup/Metrolist": {
-   "estado": "vivo",
-   "stars": 14003,
-   "push": "2026-11-02",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "YouTube Music client for Android",
-   "release": "v13.7.0",
-   "release_fecha": "2026-09-07",
-   "stars_pieza": null
-  },
-  "AntennaPod/AntennaPod": {
-   "estado": "vivo",
-   "stars": 8263,
-   "push": "2026-11-02",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Java",
-   "desc": "A podcast manager for Android",
-   "release": "3.12.3",
-   "release_fecha": "2026-10-13",
+   "lenguaje": "C",
+   "desc": "An implementation of the system-wide JamesDSP audio processing engine for non-rooted Android devices",
+   "release": "v1.6.13",
+   "release_fecha": "2024-12-23",
    "stars_pieza": null
   },
   "z-huang/InnerTune": {
@@ -422,16 +422,28 @@
    "release_fecha": "2023-12-02",
    "stars_pieza": null
   },
-  "RikkaApps/Shizuku": {
+  "bitwarden/android": {
    "estado": "vivo",
-   "stars": 32775,
-   "push": "2025-06-18",
+   "stars": 9585,
+   "push": "2026-11-04",
    "archivado": false,
-   "licencia": "Apache-2.0",
+   "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
-   "desc": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
-   "release": "v13.6.0",
-   "release_fecha": "2025-05-25",
+   "desc": "Bitwarden mobile apps (Password Manager and Authenticator) for Android.",
+   "release": "v2026.10.1-bwpm",
+   "release_fecha": "2026-10-29",
+   "stars_pieza": null
+  },
+  "stratumauth/app": {
+   "estado": "vivo",
+   "stars": 4636,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "C#",
+   "desc": "📱 Two-Factor Authentication (2FA) client for Android + Wear OS",
+   "release": "v1.7.0",
+   "release_fecha": "2026-11-01",
    "stars_pieza": null
   },
   "Monica-Pass/Monica": {
@@ -446,28 +458,16 @@
    "release_fecha": "2026-11-03",
    "stars_pieza": null
   },
-  "AChep/keyguard-app": {
+  "dani-garcia/vaultwarden": {
    "estado": "vivo",
-   "stars": 3604,
-   "push": "2026-11-04",
+   "stars": 70224,
+   "push": "2026-11-02",
    "archivado": false,
-   "licencia": "NOASSERTION",
-   "lenguaje": "Kotlin",
-   "desc": "A password manager that supports Bitwarden platform and KeePass (KDBX) files. It autofills your logins, supports passkeys, works offline, and runs a Watchtower that finds leaked and reused passwords and other issues.",
-   "release": "r20261103",
-   "release_fecha": "2026-11-03",
-   "stars_pieza": null
-  },
-  "Kunzisoft/KeePassDX": {
-   "estado": "vivo",
-   "stars": 7613,
-   "push": "2026-11-01",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.",
-   "release": "4.5.8",
-   "release_fecha": "2026-10-31",
+   "licencia": "AGPL-3.0",
+   "lenguaje": "Rust",
+   "desc": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+   "release": "1.37.5",
+   "release_fecha": "2026-11-01",
    "stars_pieza": null
   },
   "PhilippC/keepass2android": {
@@ -482,21 +482,33 @@
    "release_fecha": "2026-10-15",
    "stars_pieza": null
   },
-  "bitwarden/android": {
+  "Kunzisoft/KeePassDX": {
    "estado": "vivo",
-   "stars": 9585,
-   "push": "2026-11-04",
+   "stars": 7617,
+   "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
-   "desc": "Bitwarden mobile apps (Password Manager and Authenticator) for Android.",
-   "release": "v2026.10.1-bwpm",
-   "release_fecha": "2026-10-29",
+   "desc": "Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.",
+   "release": "4.5.8",
+   "release_fecha": "2026-10-31",
+   "stars_pieza": null
+  },
+  "AChep/keyguard-app": {
+   "estado": "vivo",
+   "stars": 3606,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Kotlin",
+   "desc": "A password manager that supports Bitwarden platform and KeePass (KDBX) files. It autofills your logins, supports passkeys, works offline, and runs a Watchtower that finds leaked and reused passwords and other issues.",
+   "release": "r20261103",
+   "release_fecha": "2026-11-03",
    "stars_pieza": null
   },
   "beemdevelopment/Aegis": {
    "estado": "vivo",
-   "stars": 13466,
+   "stars": 13468,
    "push": "2026-09-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -506,16 +518,16 @@
    "release_fecha": "2026-09-06",
    "stars_pieza": null
   },
-  "stratumauth/app": {
+  "Lucent-Project/Lucent": {
    "estado": "vivo",
-   "stars": 4636,
-   "push": "2026-11-01",
+   "stars": 12,
+   "push": "2026-11-02",
    "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "C#",
-   "desc": "📱 Two-Factor Authentication (2FA) client for Android + Wear OS",
-   "release": "v1.7.0",
-   "release_fecha": "2026-11-01",
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "Lucent 📝 — Notes, tasks & an AI assistant that respects your privacy 🔒 Encrypted & offline-first ✨",
+   "release": "v3.1.2",
+   "release_fecha": "2026-10-20",
    "stars_pieza": null
   },
   "freeotp/freeotp-android": {
@@ -578,16 +590,16 @@
    "release_fecha": "2024-02-04",
    "stars_pieza": null
   },
-  "Lucent-Project/Lucent": {
+  "RikkaApps/Shizuku": {
    "estado": "vivo",
-   "stars": 12,
-   "push": "2026-11-02",
+   "stars": 32783,
+   "push": "2025-06-18",
    "archivado": false,
-   "licencia": "MIT",
+   "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
-   "desc": "Lucent 📝 — Notes, tasks & an AI assistant that respects your privacy 🔒 Encrypted & offline-first ✨",
-   "release": "v3.1.2",
-   "release_fecha": "2026-10-20",
+   "desc": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
+   "release": "v13.6.0",
+   "release_fecha": "2025-05-25",
    "stars_pieza": null
   },
   "RikkaApps/Shizuku-API": {
@@ -616,7 +628,7 @@
   },
   "Foxlape/GhostMode": {
    "estado": "vivo",
-   "stars": 97,
+   "stars": 109,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -640,7 +652,7 @@
   },
   "samolego/Canta": {
    "estado": "vivo",
-   "stars": 6461,
+   "stars": 6463,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "LGPL-3.0",
@@ -664,19 +676,19 @@
   },
   "HmnDev-Tech/shevery": {
    "estado": "vivo",
-   "stars": 1598,
+   "stars": 1601,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
    "desc": "Shevery - Modernized Android manager with Jetpack Compose, Material 3, and compatibility enhancements.",
-   "release": "14.6.2",
-   "release_fecha": "2026-11-03",
+   "release": "14.6.3",
+   "release_fecha": "2026-11-04",
    "stars_pieza": null
   },
   "rushiranpise/Shizuku-Next": {
    "estado": "vivo",
-   "stars": 1437,
+   "stars": 1447,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -688,7 +700,7 @@
   },
   "thejaustin/ShizukuPlus": {
    "estado": "vivo",
-   "stars": 1690,
+   "stars": 1696,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -700,7 +712,7 @@
   },
   "kerneldroid/Nightzuku": {
    "estado": "vivo",
-   "stars": 331,
+   "stars": 332,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -736,7 +748,7 @@
   },
   "aistra0528/Hail": {
    "estado": "vivo",
-   "stars": 7098,
+   "stars": 7100,
    "push": "2026-10-27",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -748,7 +760,7 @@
   },
   "wxxsfxyzm/InstallerX-Revived": {
    "estado": "vivo",
-   "stars": 7313,
+   "stars": 7319,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -760,7 +772,7 @@
   },
   "pass-with-high-score/universal-installer": {
    "estado": "vivo",
-   "stars": 1681,
+   "stars": 1682,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -784,7 +796,7 @@
   },
   "yume-chan/VolumeManager": {
    "estado": "vivo",
-   "stars": 603,
+   "stars": 604,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -796,13 +808,13 @@
   },
   "Yukstarlight/guang-lab": {
    "estado": "vivo",
-   "stars": 3,
+   "stars": 4,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Shell",
    "desc": "光 · 实验室 — 终极 Android 工具箱：Shizuku / 无线调试 ADB / Root 三通道 shell 直写，一键授权、冻结卸载、任意命令。GPL-3.0",
-   "release": "v1.39",
+   "release": "v1.40",
    "release_fecha": "2026-11-04",
    "stars_pieza": null
   },
@@ -814,13 +826,13 @@
    "licencia": "Apache-2.0",
    "lenguaje": "Shell",
    "desc": "Bliss — Linux distros, terminal, and a Shizuku virtual-display app cloner",
-   "release": "v1.3.0-7ec822b",
+   "release": "v1.3.0-2cc5900",
    "release_fecha": "2026-11-04",
    "stars_pieza": null
   },
   "Benimaru-x1k/Benimaru": {
    "estado": "vivo",
-   "stars": 42,
+   "stars": 43,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "MIT",
@@ -892,7 +904,7 @@
   },
   "readest/readest": {
    "estado": "vivo",
-   "stars": 25940,
+   "stars": 25951,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -916,7 +928,7 @@
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
-   "stars": 21198,
+   "stars": 21206,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -928,7 +940,7 @@
   },
   "skylot/jadx": {
    "estado": "vivo",
-   "stars": 51586,
+   "stars": 51591,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -940,7 +952,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 154007,
+   "stars": 154020,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -964,7 +976,7 @@
   },
   "yuliskov/SmartTube": {
    "estado": "vivo",
-   "stars": 35911,
+   "stars": 35912,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -988,7 +1000,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 64076,
+   "stars": 64084,
    "push": "2026-09-26",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1000,7 +1012,7 @@
   },
   "termux/termux-packages": {
    "estado": "vivo",
-   "stars": 17303,
+   "stars": 17304,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1012,7 +1024,7 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 118213,
+   "stars": 118231,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1024,7 +1036,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97286,
+   "stars": 97307,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1072,7 +1084,7 @@
   },
   "tswistak/Battery-Monitor": {
    "estado": "vivo",
-   "stars": 108,
+   "stars": 109,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1108,7 +1120,7 @@
   },
   "sigstore/cosign": {
    "estado": "vivo",
-   "stars": 6408,
+   "stars": 6409,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1120,7 +1132,7 @@
   },
   "ossf/scorecard": {
    "estado": "vivo",
-   "stars": 5813,
+   "stars": 5814,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1144,7 +1156,7 @@
   },
   "cli/cli": {
    "estado": "vivo",
-   "stars": 46871,
+   "stars": 46872,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -1156,7 +1168,7 @@
   },
   "iBotPeaches/Apktool": {
    "estado": "vivo",
-   "stars": 26992,
+   "stars": 26996,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1168,7 +1180,7 @@
   },
   "rclone/rclone": {
    "estado": "vivo",
-   "stars": 60795,
+   "stars": 60797,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -1204,7 +1216,7 @@
   },
   "MorpheApp/morphe-manager": {
    "estado": "vivo",
-   "stars": 9949,
+   "stars": 9956,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1216,7 +1228,7 @@
   },
   "MorpheApp/morphe-patches": {
    "estado": "vivo",
-   "stars": 4549,
+   "stars": 4552,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1228,7 +1240,7 @@
   },
   "ReVanced/revanced-manager": {
    "estado": "vivo",
-   "stars": 30070,
+   "stars": 30069,
    "push": "2026-07-29",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1246,6 +1258,18 @@
    "licencia": null,
    "lenguaje": null,
    "desc": "https://gitlab.com/revanced/revanced-patches",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "timschneeb/awesome-shizuku": {
+   "estado": "vivo",
+   "stars": 10699,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Python",
+   "desc": "Curated list of awesome Android apps making use of Shizuku",
    "release": null,
    "release_fecha": "",
    "stars_pieza": null
@@ -1276,47 +1300,11 @@
   }
  },
  "enlaces": {
-  "https://api.github.com/repos/AChep/keyguard-app/license": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
   "https://api.github.com/repos/Jman-Github/Universal-Patch-Manager": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://api.github.com/repos/Jman-Github/Universal-Patch-Manager/releases?per_page=100": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://api.github.com/repos/Monica-Pass/Monica": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://api.github.com/repos/Monica-Pass/Monica/releases?per_page=100": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://api.github.com/repos/Moriafly/SaltPlayerSource": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://api.github.com/repos/Moriafly/SaltPlayerSource/releases?per_page=3": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://api.github.com/repos/aaron-gh/SandFly/releases": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://api.github.com/repos/coldMEW/Hush": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://api.github.com/repos/coldMEW/Hush/releases?per_page=3": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://api.github.com/repos/henry-97/MineApp/license": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1345,14 +1333,6 @@
    "veredicto": "responde"
   },
   "https://github.com/AChep/keyguard-app": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/AChep/keyguard-app/blob/master/LICENSE": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/AChep/keyguard-app/blob/master/SAPCLA.md": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1524,6 +1504,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/altarafiya/Sukut": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/andOTP/andOTP": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1569,6 +1553,10 @@
    "veredicto": "responde"
   },
   "https://github.com/d4rken-org/porter": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/dani-garcia/vaultwarden": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1648,6 +1636,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/mkatadev/GoogleTVAirPlay": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/monarchsofchaos004-gif/splitaudio": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1657,6 +1649,10 @@
    "veredicto": "responde"
   },
   "https://github.com/namidaco/namida": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/nixolas1/bluecodec": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1701,10 +1697,6 @@
    "veredicto": "responde"
   },
   "https://github.com/rushiranpise/helper-for-morphe": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/saikiran9185/BudsFirst": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1756,10 +1748,6 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://github.com/trypsynth/backtalk": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
   "https://github.com/tswistak/Battery-Monitor": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1804,18 +1792,6 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://keepass.info/": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://keepassxc.org/": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://opensource.org/license/mit": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
   "https://patch-bundles.jmancentral.com": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1829,12 +1805,12 @@
    "veredicto": "responde"
   },
   "https://www.gnu.org/licenses/agpl-3.0.html": {
-   "codigo": "000",
-   "veredicto": "no respondio en 25 s"
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://www.gnu.org/licenses/gpl-3.0.html": {
-   "codigo": "000",
-   "veredicto": "no respondio en 25 s"
+   "codigo": "200",
+   "veredicto": "responde"
   }
  },
  "nota": "estado medido con la API de GitHub y con peticiones HTTP el día indicado; un 404 se registra como muerto, un 403/429 nunca"

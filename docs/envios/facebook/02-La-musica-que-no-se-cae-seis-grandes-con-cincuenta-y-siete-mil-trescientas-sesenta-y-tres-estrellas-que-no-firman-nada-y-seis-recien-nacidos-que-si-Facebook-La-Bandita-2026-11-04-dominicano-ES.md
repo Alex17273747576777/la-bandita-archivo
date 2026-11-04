@@ -12,9 +12,9 @@
 
 La Bandita · pieza 02 · guía del 4-nov-2026 · te la mando hoy en 20 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *22 repositorios, 19 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *22 repositorios, 22 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: GPL-3.0 11 · MIT 5 · sin licencia 2 · NOASSERTION 1.
+Licencias de lo que recomienda: GPL-3.0 12 · MIT 6 · NOASSERTION 2 · sin licencia 2.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/02-La-musica-que-no-se-cae-seis-grandes-con-cincuenta-y-siete-mil-trescientas-sesenta-y-tres-estrellas-que-no-firman-nada-y-seis-recien-nacidos-que-si-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
 
@@ -456,27 +456,28 @@ Los tres parados, para que quede el registro:
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 2744 caracteres ═══
+═══ MENSAJE 19 de 20 · 2979 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 22 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-(De 3 no tengo dato de hoy y lo digo: mkatadev/GoogleTVAirPlay, nixolas1/bluecodec, altarafiya/Sukut.)
-
+• mkatadev/GoogleTVAirPlay — ★0 · empujó el 16-oct-2026 (hace 19 días) · GPL-3.0 · última release v1.3.6 (16-oct-2026)
 • AlphadogRSA/spotifyplus-tv-patch — ★21 · empujó el 27-oct-2026 (hace 8 días) · MIT · última release v1.3.0.9 (27-oct-2026)
 • xTudoS/dual-audio — ★3 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.0.1 (19-oct-2026)
 • milkei/audio-focus-mixer — ★1 · empujó el 31-oct-2026 (hace 4 días) · MIT
+• nixolas1/bluecodec — ★1 · empujó el 30-oct-2026 (hace 5 días) · MIT · última release v0.1.7 (30-oct-2026)
+• altarafiya/Sukut — ★4 · empujó el 1-nov-2026 (hace 3 días) · NOASSERTION · última release v0.4.2 (1-nov-2026)
 • coldMEW/Hush — ★138 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.0.5 (2-nov-2026)
 • monarchsofchaos004-gif/splitaudio — ★13 · empujó en las últimas horas · MIT · última release v0.5.6 (4-nov-2026)
 • HellzYeahh/earshot — ★37 · empujó el 1-nov-2026 (hace 3 días) · MIT · última release v0.9.0 (28-oct-2026)
 • AQUALaforet/AudioPolicyOverride — ★5 · empujó el 25-oct-2026 (hace 10 días) · GPL-3.0 · última release v1.2.3 (25-oct-2026)
 • ibrahim91015/AudioScope — ★1 · empujó el 6-oct-2026 (hace 29 días) · GPL-3.0 · última release v0.5.2 (6-oct-2026)
 • bunbun-midi/RootlessJamesDSP-SKDSP — ★1 · empujó el 27-oct-2026 (hace 8 días) · GPL-3.0 · última release v1 (27-oct-2026)
-• MetrolistGroup/Metrolist — ★14.003 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.735 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
-• rukamori/ArchiveTune — ★7.961 · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
-• AntennaPod/AntennaPod — ★8.263 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release 3.12.3 (13-oct-2026)
+• MetrolistGroup/Metrolist — ★14.008 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.745 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• rukamori/ArchiveTune — ★7.965 · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
+• AntennaPod/AntennaPod — ★8.264 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • Moriafly/SaltPlayerSource — ★7.597 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release 12.6.0 (2-nov-2026)
 • namidaco/namida — ★6.786 · empujó el 1-nov-2026 (hace 3 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
 • timschneeb/RootlessJamesDSP — ★1.723 · *dormido*: sin empujar desde el 31-ago-2026 (65 días) · GPL-3.0 · última release v1.6.13 (23-dic-2024)
@@ -486,7 +487,7 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 22 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 19 enlaces de esta pieza, *19 responden*.
+De los 22 enlaces de esta pieza, *22 responden*.
 Ninguno roto.
 
 ⏬ sigue abajo · parte 18 de 19
