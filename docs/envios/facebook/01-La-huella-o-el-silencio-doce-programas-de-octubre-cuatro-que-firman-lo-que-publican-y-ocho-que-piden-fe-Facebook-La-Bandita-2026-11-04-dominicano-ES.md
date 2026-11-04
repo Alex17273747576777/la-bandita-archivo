@@ -453,7 +453,7 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 15 repositorios que cita esta pi
 • capitan0n/droynis — ★15 · empujó en las últimas horas · GPL-3.0 · última release v0.15.0 (1-nov-2026)
 • Bingblop/ADB-Root-Toolbox — ★122 · empujó el 31-oct-2026 (hace 4 días) · GPL-3.0 · última release v7.22.1 (31-oct-2026)
 • krishna3163/OmniShizuku — ★18 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
-• zsw125/o3root — ★46 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release v3.2 (31-oct-2026)
+• zsw125/o3root — ★49 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release v3.2 (31-oct-2026)
 • aaron-gh/SandFly — ★21 · empujó en las últimas horas · Apache-2.0 · última release v0.3.1 (2-nov-2026)
 • rdevz-ph/RedirectGuard — ★16 · empujó en las últimas horas · Apache-2.0 · última release v1.6 (2-nov-2026)
 • wized2/Latch — ★17 · empujó el 29-oct-2026 (hace 6 días) · MIT · última release v0.6.3 (22-oct-2026)

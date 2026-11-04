@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 24 tareas abiertas en 11 piezas vivas, numeradas dentro de cada pieza, de 001 a 021. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 25 tareas abiertas en 11 piezas vivas, numeradas dentro de cada pieza, de 001 a 025. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -12,11 +12,8 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 
 | # | Tarea | Origen | Corte |
 |---|---|---|---|
-| 001 | volver a medir el 3 de diciembre de 2026 los veintiséis programas y publicar cuántos siguieron publicando entrega, con la fecha exacta de cada una y el hueco entre empujón y entrega. | Facebook · 04 | 2026-11-04 |
 | 001 | pedir al autor del programa, en su repositorio, que el flujo de publicación escriba un archivo de sumas SHA-256 al lado de cada entrega, y anotar la respuesta en el acta del 4 de diciembre de 2026. | Facebook · 06 | 2026-11-03 |
-| 002 | correr las tres órdenes de comprobación en el teléfono de repuesto y guardar las tres fotografías del inventario con su huella, para tener la primera comparación mensual con fecha. | Facebook · 04 | 2026-11-04 |
 | 002 | remedir el 3 de diciembre de 2026 las tres entregas del linaje —el gestor original, el de Morphe y este— y publicar cuál de los tres publicó más seguido en el mes, con la fecha del empujón de cada uno. | Facebook · 06 | 2026-11-03 |
-| 003 | escribir una nota cortés a los autores de porter y de droynis agradeciendo que publiquen la huella de sus adjuntos, y preguntar a droynis si su lista de comprobaciones puede crecer sin pedir el permiso de internet; anotar la respuesta en el acta del 3 de diciembre. | Facebook · 04 | 2026-11-04 |
 | 003 | escribir la versión de WhatsApp de esta pieza, más corta, con los cinco pasos reducidos a tres y el episodio del 451 contado en dos párrafos, y comprobar que su banda de longitud se cumple antes de enviarla. | Facebook · 06 | 2026-11-03 |
 | 004 | remedir el 3 de diciembre de 2026 las nueve fichas de menos de quinientas estrellas, empezando por OmniShizuku y TVSlim, y publicar cuáles siguieron publicando. | Facebook · 05 | 2026-11-03 |
 | 005 | pedir al archivo público la conservación de las doce revisiones de los capítulos y anotar el número de solicitud en cada acta. | Facebook · 05 | 2026-11-03 |
@@ -36,12 +33,17 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 019 | medir el tema de las cajas fuertes con palabras de búsqueda más anchas y ampliar el censo, hoy limitado a once fichas, antes del 4 de diciembre de 2026. | Facebook · 03 | 2026-11-04 |
 | 020 | comprobar el 4 de mayo de 2027 si alguna de las catorce publica una atestación verificable y, si la hay, correr la orden cuatro contra ella. | Facebook · 03 | 2026-11-04 |
 | 021 | pedir el Scorecard de las dieciséis a OpenSSF por la vía pública, para que la próxima medición use cien puntos y no ochenta. | Facebook · 03 | 2026-11-04 |
+| 022 | volver a contar las huellas de los veintiséis el 11 de noviembre de 2026 y publicar cuántos respondieron, con la misma vara de hoy: adjunto con suma en las últimas entregas. | Facebook · 04 | 2026-11-04 |
+| 023 | comprobar el 4 de diciembre de 2026 si el tronco, Shizuku, sigue en quinientos treinta y cinco días sin empujar o si volvió a moverse, y decirlo con la fecha nueva. | Facebook · 04 | 2026-11-04 |
+| 024 | medir el 4 de febrero de 2027 si alguna de las bifurcaciones nuevas —porter, Shizuku-Next, Nightzuku, Shizako— publica atestación verificable además de la suma, y correr contra ella la orden cinco. | Facebook · 04 | 2026-11-04 |
+| 025 | ampliar el censo del tema con palabras más anchas antes del 4 de mayo de 2027: hoy son 454 fichas por nombre y descripción, y el registro creció por otra puerta. | Facebook · 04 | 2026-11-04 |
 
 ## Numeración: la regla y lo declarado
 
 > **Declarado:** 01-La-huella-o-el-silencio-doce-programa: numera desde 010 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 02-La-musica-que-no-se-cae-seis-grandes-: numera desde 014 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 03-La-caja-fuerte-del-bolsillo-una-de-ca: numera desde 018 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 04-La-lista-del-permiso-seis-de-veintise: numera desde 022 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 05-La-guia-maestra-contada-despacio-doce: numera desde 007 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 05-La-guia-maestra-doce-capitulos-setent: numera desde 004 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 

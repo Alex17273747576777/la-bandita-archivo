@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-04",
- "medido_en_utc": "2026-11-04T16:49:01+00:00",
+ "medido_en_utc": "2026-11-04T17:21:38+00:00",
  "repos": {
   "capitan0n/droynis": {
    "estado": "vivo",
@@ -40,7 +40,7 @@
   },
   "zsw125/o3root": {
    "estado": "vivo",
-   "stars": 46,
+   "stars": 49,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "MIT",
@@ -304,7 +304,7 @@
   },
   "MetrolistGroup/Metrolist": {
    "estado": "vivo",
-   "stars": 14008,
+   "stars": 14009,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -316,7 +316,7 @@
   },
   "maxrave-dev/SimpMusic": {
    "estado": "vivo",
-   "stars": 12745,
+   "stars": 12750,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -340,7 +340,7 @@
   },
   "AntennaPod/AntennaPod": {
    "estado": "vivo",
-   "stars": 8264,
+   "stars": 8265,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -460,8 +460,8 @@
   },
   "dani-garcia/vaultwarden": {
    "estado": "vivo",
-   "stars": 70224,
-   "push": "2026-11-02",
+   "stars": 70227,
+   "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
    "lenguaje": "Rust",
@@ -590,9 +590,14 @@
    "release_fecha": "2024-02-04",
    "stars_pieza": null
   },
+  "registry/_evidencia": {
+   "estado": "muerto",
+   "motivo": "Not Found",
+   "stars_pieza": null
+  },
   "RikkaApps/Shizuku": {
    "estado": "vivo",
-   "stars": 32783,
+   "stars": 32784,
    "push": "2025-06-18",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -616,7 +621,7 @@
   },
   "d4rken-org/porter": {
    "estado": "vivo",
-   "stars": 245,
+   "stars": 246,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -628,7 +633,7 @@
   },
   "Foxlape/GhostMode": {
    "estado": "vivo",
-   "stars": 109,
+   "stars": 110,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -636,210 +641,6 @@
    "desc": "Turn your Android device 'unavailable' for incoming calls while keeping LTE/5G mobile data fully working. Supports Shizuku & Root.",
    "release": "v0.2.3",
    "release_fecha": "2026-11-04",
-   "stars_pieza": null
-  },
-  "tgvdufuture/Aura": {
-   "estado": "vivo",
-   "stars": 18,
-   "push": "2026-11-04",
-   "archivado": false,
-   "licencia": "MIT",
-   "lenguaje": "Kotlin",
-   "desc": "Custom notification LED app for the POCO X8 Pro (HyperOS / Xiaomi) — per-app, per-contact and per-group RGB colors and animations on the back LED rings, no root required (Shizuku).",
-   "release": "v0.8.0",
-   "release_fecha": "2026-11-04",
-   "stars_pieza": null
-  },
-  "samolego/Canta": {
-   "estado": "vivo",
-   "stars": 6463,
-   "push": "2026-10-31",
-   "archivado": false,
-   "licencia": "LGPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "Uninstall any Android app without root (with power of Shizuku). Debloat your device as you wish, with Android app or even from your browser!",
-   "release": "v4.1.0",
-   "release_fecha": "2026-10-29",
-   "stars_pieza": null
-  },
-  "iamr0s/Dhizuku": {
-   "estado": "vivo",
-   "stars": 4085,
-   "push": "2026-11-03",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "A tool that can share DeviceOwner permissions to other application.",
-   "release": "v2.13.0",
-   "release_fecha": "2026-10-30",
-   "stars_pieza": null
-  },
-  "HmnDev-Tech/shevery": {
-   "estado": "vivo",
-   "stars": 1601,
-   "push": "2026-11-04",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "Shevery - Modernized Android manager with Jetpack Compose, Material 3, and compatibility enhancements.",
-   "release": "14.6.3",
-   "release_fecha": "2026-11-04",
-   "stars_pieza": null
-  },
-  "rushiranpise/Shizuku-Next": {
-   "estado": "vivo",
-   "stars": 1447,
-   "push": "2026-11-04",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "A feature-rich Shizuku fork with improved setup, reliability, UI, and additional start methods.",
-   "release": "v14.0.32-next",
-   "release_fecha": "2026-11-03",
-   "stars_pieza": null
-  },
-  "thejaustin/ShizukuPlus": {
-   "estado": "vivo",
-   "stars": 1696,
-   "push": "2026-11-04",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "Shizuku+ brings Root/ADB/Dhizuku unification, a Plus API suite, OneUI/Android 16+ support, M3E theming, TCP connectivity, improved customization, & more.",
-   "release": "v13.6.0.r2551",
-   "release_fecha": "2026-09-13",
-   "stars_pieza": null
-  },
-  "kerneldroid/Nightzuku": {
-   "estado": "vivo",
-   "stars": 332,
-   "push": "2026-11-04",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "Shizuku fork with Material 3 Expressive and Android SDK 37 updates",
-   "release": "v13.7.1-r60",
-   "release_fecha": "2026-11-04",
-   "stars_pieza": null
-  },
-  "cr1437/Shizako": {
-   "estado": "vivo",
-   "stars": 97,
-   "push": "2026-11-04",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "猫耳看板娘的系统权限助手：不 Root 也能用特权 API，兼容 Shizuku-API 生态（官方 SDK 应用零改动直连）| A catgirl-mascot privileged-API assistant for Android. Shizuku-API compatible — apps built on the official SDK connect unchanged. Apache-2.0",
-   "release": "zako3.17",
-   "release_fecha": "2026-10-31",
-   "stars_pieza": null
-  },
-  "Hamza417/Inure": {
-   "estado": "vivo",
-   "stars": 1986,
-   "push": "2026-11-04",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "An elegant and beautiful premium Android app manager with Root and Shizuku support, a built-in terminal, analytics, virustotal, debloat, stats and various other features with a custom theme engine, developed with purely custom UI design and reproducible build.",
-   "release": "build107.3.1",
-   "release_fecha": "2026-11-02",
-   "stars_pieza": null
-  },
-  "aistra0528/Hail": {
-   "estado": "vivo",
-   "stars": 7100,
-   "push": "2026-10-27",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "Disable / Hide / Suspend / Uninstall Android apps without root.",
-   "release": "v1.11.0",
-   "release_fecha": "2026-08-26",
-   "stars_pieza": null
-  },
-  "wxxsfxyzm/InstallerX-Revived": {
-   "estado": "vivo",
-   "stars": 7319,
-   "push": "2026-11-04",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "More Expressive InstallerX !",
-   "release": "26.09",
-   "release_fecha": "2026-09-30",
-   "stars_pieza": null
-  },
-  "pass-with-high-score/universal-installer": {
-   "estado": "vivo",
-   "stars": 1682,
-   "push": "2026-11-03",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "A modern Android app for installing and managing APK packages with split APK support, silent install via Shizuku, and VirusTotal malware scanning.",
-   "release": "v1.21.0",
-   "release_fecha": "2026-11-01",
-   "stars_pieza": null
-  },
-  "eyalm2000/adns": {
-   "estado": "vivo",
-   "stars": 743,
-   "push": "2026-11-03",
-   "archivado": false,
-   "licencia": "MIT",
-   "lenguaje": "Kotlin",
-   "desc": "Android's Private DNS Supercharged",
-   "release": "v2.1.9",
-   "release_fecha": "2026-11-03",
-   "stars_pieza": null
-  },
-  "yume-chan/VolumeManager": {
-   "estado": "vivo",
-   "stars": 604,
-   "push": "2026-10-31",
-   "archivado": false,
-   "licencia": "GPL-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "Control each app's volume independently.",
-   "release": "v0.3",
-   "release_fecha": "2026-10-31",
-   "stars_pieza": null
-  },
-  "Yukstarlight/guang-lab": {
-   "estado": "vivo",
-   "stars": 4,
-   "push": "2026-11-04",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Shell",
-   "desc": "光 · 实验室 — 终极 Android 工具箱：Shizuku / 无线调试 ADB / Root 三通道 shell 直写，一键授权、冻结卸载、任意命令。GPL-3.0",
-   "release": "v1.40",
-   "release_fecha": "2026-11-04",
-   "stars_pieza": null
-  },
-  "HakaI963/bliss": {
-   "estado": "vivo",
-   "stars": 0,
-   "push": "2026-11-04",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Shell",
-   "desc": "Bliss — Linux distros, terminal, and a Shizuku virtual-display app cloner",
-   "release": "v1.3.0-2cc5900",
-   "release_fecha": "2026-11-04",
-   "stars_pieza": null
-  },
-  "Benimaru-x1k/Benimaru": {
-   "estado": "vivo",
-   "stars": 43,
-   "push": "2026-11-04",
-   "archivado": false,
-   "licencia": "MIT",
-   "lenguaje": null,
-   "desc": "An Android utility app that leverages Shizuku to apply advanced ADB performance tweaks, optimize refresh rates, and safely change screen resolution. all without requiring root access.",
-   "release": "v4.5",
-   "release_fecha": "2026-11-02",
    "stars_pieza": null
   },
   "emi-ran/flowpilot": {
@@ -866,9 +667,213 @@
    "release_fecha": "2026-11-04",
    "stars_pieza": null
   },
+  "HmnDev-Tech/shevery": {
+   "estado": "vivo",
+   "stars": 1602,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Shevery - Modernized Android manager with Jetpack Compose, Material 3, and compatibility enhancements.",
+   "release": "14.6.3",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "cr1437/Shizako": {
+   "estado": "vivo",
+   "stars": 97,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "猫耳看板娘的系统权限助手：不 Root 也能用特权 API，兼容 Shizuku-API 生态（官方 SDK 应用零改动直连）| A catgirl-mascot privileged-API assistant for Android. Shizuku-API compatible — apps built on the official SDK connect unchanged. Apache-2.0",
+   "release": "zako3.17",
+   "release_fecha": "2026-10-31",
+   "stars_pieza": null
+  },
+  "rushiranpise/Shizuku-Next": {
+   "estado": "vivo",
+   "stars": 1450,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "A feature-rich Shizuku fork with improved setup, reliability, UI, and additional start methods.",
+   "release": "v14.0.32-next",
+   "release_fecha": "2026-11-03",
+   "stars_pieza": null
+  },
+  "kerneldroid/Nightzuku": {
+   "estado": "vivo",
+   "stars": 332,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Shizuku fork with Material 3 Expressive and Android SDK 37 updates",
+   "release": "v13.7.1-r60",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "thejaustin/ShizukuPlus": {
+   "estado": "vivo",
+   "stars": 1697,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Shizuku+ brings Root/ADB/Dhizuku unification, a Plus API suite, OneUI/Android 16+ support, M3E theming, TCP connectivity, improved customization, & more.",
+   "release": "v13.6.0.r2551",
+   "release_fecha": "2026-09-13",
+   "stars_pieza": null
+  },
+  "iamr0s/Dhizuku": {
+   "estado": "vivo",
+   "stars": 4085,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "A tool that can share DeviceOwner permissions to other application.",
+   "release": "v2.13.0",
+   "release_fecha": "2026-10-30",
+   "stars_pieza": null
+  },
+  "samolego/Canta": {
+   "estado": "vivo",
+   "stars": 6463,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "LGPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Uninstall any Android app without root (with power of Shizuku). Debloat your device as you wish, with Android app or even from your browser!",
+   "release": "v4.1.0",
+   "release_fecha": "2026-10-29",
+   "stars_pieza": null
+  },
+  "wxxsfxyzm/InstallerX-Revived": {
+   "estado": "vivo",
+   "stars": 7319,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "More Expressive InstallerX !",
+   "release": "26.09",
+   "release_fecha": "2026-09-30",
+   "stars_pieza": null
+  },
+  "pass-with-high-score/universal-installer": {
+   "estado": "vivo",
+   "stars": 1683,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "A modern Android app for installing and managing APK packages with split APK support, silent install via Shizuku, and VirusTotal malware scanning.",
+   "release": "v1.21.0",
+   "release_fecha": "2026-11-01",
+   "stars_pieza": null
+  },
+  "aistra0528/Hail": {
+   "estado": "vivo",
+   "stars": 7100,
+   "push": "2026-10-27",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Disable / Hide / Suspend / Uninstall Android apps without root.",
+   "release": "v1.11.0",
+   "release_fecha": "2026-08-26",
+   "stars_pieza": null
+  },
+  "Hamza417/Inure": {
+   "estado": "vivo",
+   "stars": 1986,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "An elegant and beautiful premium Android app manager with Root and Shizuku support, a built-in terminal, analytics, virustotal, debloat, stats and various other features with a custom theme engine, developed with purely custom UI design and reproducible build.",
+   "release": "build107.3.1",
+   "release_fecha": "2026-11-02",
+   "stars_pieza": null
+  },
+  "yume-chan/VolumeManager": {
+   "estado": "vivo",
+   "stars": 604,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "GPL-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Control each app's volume independently.",
+   "release": "v0.3",
+   "release_fecha": "2026-10-31",
+   "stars_pieza": null
+  },
+  "tgvdufuture/Aura": {
+   "estado": "vivo",
+   "stars": 18,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "Custom notification LED app for the POCO X8 Pro (HyperOS / Xiaomi) — per-app, per-contact and per-group RGB colors and animations on the back LED rings, no root required (Shizuku).",
+   "release": "v0.8.0",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "eyalm2000/adns": {
+   "estado": "vivo",
+   "stars": 743,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "Android's Private DNS Supercharged",
+   "release": "v2.1.9",
+   "release_fecha": "2026-11-03",
+   "stars_pieza": null
+  },
+  "Benimaru-x1k/Benimaru": {
+   "estado": "vivo",
+   "stars": 43,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": null,
+   "desc": "An Android utility app that leverages Shizuku to apply advanced ADB performance tweaks, optimize refresh rates, and safely change screen resolution. all without requiring root access.",
+   "release": "v4.5",
+   "release_fecha": "2026-11-02",
+   "stars_pieza": null
+  },
+  "HakaI963/bliss": {
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Shell",
+   "desc": "Bliss — Linux distros, terminal, and a Shizuku virtual-display app cloner",
+   "release": "v1.3.0-7320ecd",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "Yukstarlight/guang-lab": {
+   "estado": "vivo",
+   "stars": 4,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Shell",
+   "desc": "光 · 实验室 — 终极 Android 工具箱：Shizuku / 无线调试 ADB / Root 三通道 shell 直写，一键授权、冻结卸载、任意命令。GPL-3.0",
+   "release": "v1.40",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
   "krishna3163/best-root-apps-for-android": {
    "estado": "vivo",
-   "stars": 52,
+   "stars": 53,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "MIT",
@@ -904,7 +909,7 @@
   },
   "readest/readest": {
    "estado": "vivo",
-   "stars": 25951,
+   "stars": 25952,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -952,7 +957,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 154020,
+   "stars": 154021,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -976,7 +981,7 @@
   },
   "yuliskov/SmartTube": {
    "estado": "vivo",
-   "stars": 35912,
+   "stars": 35913,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -1024,7 +1029,7 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 118231,
+   "stars": 118232,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1036,7 +1041,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97307,
+   "stars": 97313,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1156,7 +1161,7 @@
   },
   "cli/cli": {
    "estado": "vivo",
-   "stars": 46872,
+   "stars": 46874,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -1181,7 +1186,7 @@
   "rclone/rclone": {
    "estado": "vivo",
    "stars": 60797,
-   "push": "2026-11-03",
+   "push": "2026-11-04",
    "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Go",
@@ -1216,7 +1221,7 @@
   },
   "MorpheApp/morphe-manager": {
    "estado": "vivo",
-   "stars": 9956,
+   "stars": 9958,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1228,7 +1233,7 @@
   },
   "MorpheApp/morphe-patches": {
    "estado": "vivo",
-   "stars": 4552,
+   "stars": 4554,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1240,7 +1245,7 @@
   },
   "ReVanced/revanced-manager": {
    "estado": "vivo",
-   "stars": 30069,
+   "stars": 30070,
    "push": "2026-07-29",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1276,7 +1281,7 @@
   },
   "rushiranpise/helper-for-morphe": {
    "estado": "vivo",
-   "stars": 429,
+   "stars": 430,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1313,14 +1318,6 @@
    "veredicto": "responde"
   },
   "https://creativecommons.org/licenses/by-sa/4.0/": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://developer.android.com/reference/android/app/AppOpsManager": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://developer.android.com/tools/adb": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1417,8 +1414,8 @@
    "veredicto": "responde"
   },
   "https://github.com/Jman-Github/Universal-Patch-Manager/blob/main/LICENSE": {
-   "codigo": "429",
-   "veredicto": "no deja entrar a un robot"
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://github.com/Jman-Github/Universal-Patch-Manager/issues": {
    "codigo": "200",
@@ -1797,10 +1794,6 @@
    "veredicto": "responde"
   },
   "https://unlicense.org/": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://www.apache.org/licenses/LICENSE-2.0": {
    "codigo": "200",
    "veredicto": "responde"
   },

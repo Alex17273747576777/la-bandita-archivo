@@ -1,6 +1,6 @@
 {
  "fecha": "2026-11-04",
- "medido_en": "2026-11-04T16:46:09+00:00",
+ "medido_en": "2026-11-04T17:17:29+00:00",
  "pesos": {
   "licencia": 15,
   "ci": 10,
@@ -141,7 +141,7 @@
    "adjuntos": 20,
    "con_huella": 4,
    "ultima_entrega": "2026-10-07",
-   "commits_30d": 31,
+   "commits_30d": 32,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 5,
@@ -156,7 +156,7 @@
     "integración continua con 6 flujo(s) +10",
     "adjunto con huella (SHA256SUMS) +10",
     "entrega en los últimos 30 días +10",
-    "31 cambios en 30 días +10",
+    "32 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 6/11 +5",
     "SECURITY.md presente +5",
@@ -386,7 +386,7 @@
    "commits_30d": 12,
    "contribuyentes": 18,
    "incidencias": {
-    "abiertas": 31,
+    "abiertas": 32,
     "cerradas": 185
    },
    "security_md": false,
@@ -400,7 +400,7 @@
     "entrega en los últimos 30 días +10",
     "12 cambios en 30 días +7",
     "18 personas empujando +10",
-    "incidencias cerradas 185/216 +9",
+    "incidencias cerradas 185/217 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -453,8 +453,8 @@
    ],
    "adjuntos": 10,
    "con_huella": 0,
-   "ultima_entrega": "2026-11-03",
-   "commits_30d": 198,
+   "ultima_entrega": "2026-11-04",
+   "commits_30d": 206,
    "contribuyentes": 16,
    "incidencias": {
     "abiertas": 3,
@@ -469,7 +469,7 @@
     "integración continua con 7 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "198 cambios en 30 días +10",
+    "206 cambios en 30 días +10",
     "16 personas empujando +10",
     "incidencias cerradas 124/127 +10",
     "SECURITY.md presente +5",
@@ -526,7 +526,7 @@
    "adjuntos": 20,
    "con_huella": 0,
    "ultima_entrega": "2026-11-02",
-   "commits_30d": 504,
+   "commits_30d": 505,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 29,
@@ -541,7 +541,7 @@
     "integración continua con 7 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "504 cambios en 30 días +10",
+    "505 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 540/569 +9",
     "SECURITY.md presente +5",
@@ -955,6 +955,41 @@
    ]
   },
   {
+   "repo": "wxxsfxyzm/InstallerX-Revived",
+   "puntos": 64,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "auto-preview-dev.yml",
+    "auto-preview-release.yml",
+    "codeql.yml",
+    "manual-stable-release.yml",
+    "pr-check.yml"
+   ],
+   "adjuntos": 17,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-04",
+   "commits_30d": 30,
+   "contribuyentes": 50,
+   "incidencias": {
+    "abiertas": 31,
+    "cerradas": 361
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 728,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 5 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "30 cambios en 30 días +10",
+    "50 personas empujando +10",
+    "incidencias cerradas 361/392 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "cli/cli",
    "puntos": 63,
    "licencia": "MIT",
@@ -1177,7 +1212,7 @@
    "contribuyentes": 1,
    "incidencias": {
     "abiertas": 1,
-    "cerradas": 3
+    "cerradas": 4
    },
    "security_md": true,
    "scorecard": null,
@@ -1190,7 +1225,7 @@
     "entrega en los últimos 30 días +10",
     "6 cambios en 30 días +4",
     "1 personas empujando +0",
-    "incidencias cerradas 3/4 +8",
+    "incidencias cerradas 4/5 +8",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -1258,41 +1293,6 @@
     "23 cambios en 30 días +7",
     "100 personas empujando +10",
     "incidencias cerradas 141/150 +9",
-    "sin Scorecard en deps.dev +0"
-   ]
-  },
-  {
-   "repo": "wxxsfxyzm/InstallerX-Revived",
-   "puntos": 61,
-   "licencia": "GPL-3.0",
-   "flujos_ci": [
-    "auto-preview-dev.yml",
-    "auto-preview-release.yml",
-    "codeql.yml",
-    "manual-stable-release.yml",
-    "pr-check.yml"
-   ],
-   "adjuntos": 17,
-   "con_huella": 0,
-   "ultima_entrega": "2026-10-20",
-   "commits_30d": 16,
-   "contribuyentes": 50,
-   "incidencias": {
-    "abiertas": 31,
-    "cerradas": 361
-   },
-   "security_md": false,
-   "scorecard": null,
-   "edad_dias": 728,
-   "archivado": false,
-   "notas": [
-    "licencia legible (GPL-3.0) +15",
-    "integración continua con 5 flujo(s) +10",
-    "adjuntos sin huella +0",
-    "entrega en los últimos 30 días +10",
-    "16 cambios en 30 días +7",
-    "50 personas empujando +10",
-    "incidencias cerradas 361/392 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -3076,7 +3076,7 @@
    "adjuntos": 10,
    "con_huella": 0,
    "ultima_entrega": "2026-11-04",
-   "commits_30d": 347,
+   "commits_30d": 357,
    "contribuyentes": 1,
    "incidencias": {
     "abiertas": 0,
@@ -3091,7 +3091,7 @@
     "integración continua con 2 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "347 cambios en 30 días +10",
+    "357 cambios en 30 días +10",
     "1 personas empujando +0",
     "sin Scorecard en deps.dev +0"
    ]
@@ -3570,7 +3570,7 @@
    "commits_30d": 0,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 608,
+    "abiertas": 609,
     "cerradas": 628
    },
    "security_md": false,
@@ -3584,7 +3584,7 @@
     "sin entrega reciente +0",
     "0 cambios en 30 días +0",
     "100 personas empujando +10",
-    "incidencias cerradas 628/1236 +5",
+    "incidencias cerradas 628/1237 +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -3973,7 +3973,7 @@
    "adjuntos": 1,
    "con_huella": 0,
    "ultima_entrega": "2026-11-04",
-   "commits_30d": 6,
+   "commits_30d": 7,
    "contribuyentes": 1,
    "incidencias": {
     "abiertas": 0,
@@ -3988,7 +3988,7 @@
     "sin flujos de integración +0",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "6 cambios en 30 días +4",
+    "7 cambios en 30 días +4",
     "1 personas empujando +0",
     "sin Scorecard en deps.dev +0"
    ]
