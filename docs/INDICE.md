@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 66 documentos en `docs/`, agrupados en 19 familias, y 38 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 66 documentos en `docs/`, agrupados en 19 familias, y 39 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -94,14 +94,14 @@
 | Documento | Título | De qué va | Líneas |
 |---|---|---|---|
 | [`CODIGO.md`](CODIGO.md) | EL CÓDIGO, EXPLICADO | Un programa es una receta: entra un ingrediente, se hace un paso, sale un plato. | 212 |
-| [`ERRORES.md`](ERRORES.md) | Registro de errores · lo que se rompió, cómo se cazó y qué habilidad salió de ahí | Cada error de esta casa, con su número, queda aquí **para siempre**. | 58 |
-| [`HABILIDADES.md`](HABILIDADES.md) | Habilidades · lo que esta casa sabe hacer porque antes se equivocó | Una habilidad no es una intención: es un procedimiento con un comando que se puede correr y un veredicto que se puede perder. | 154 |
+| [`ERRORES.md`](ERRORES.md) | Registro de errores · lo que se rompió, cómo se cazó y qué habilidad salió de ahí | Cada error de esta casa, con su número, queda aquí **para siempre**. | 59 |
+| [`HABILIDADES.md`](HABILIDADES.md) | Habilidades · lo que esta casa sabe hacer porque antes se equivocó | Una habilidad no es una intención: es un procedimiento con un comando que se puede correr y un veredicto que se puede perder. | 170 |
 | [`INVESTIGACION-RECURSOS-2026-11-01.md`](INVESTIGACION-RECURSOS-2026-11-01.md) | INVESTIGACIÓN DE RECURSOS NUEVOS · domingo 1 de noviembre de 2026, 07:00 (Santo Domingo) | Cuatro consultas a la API de GitHub, ordenadas por estrellas, filtrando por fecha de creación: | 145 |
 | [`MAPA-125-FACEBOOK.md`](MAPA-125-FACEBOOK.md) | MAPA DE LAS 125 PIEZAS DE FACEBOOK · propuesta para aprobación | Cada línea es una pieza: **número · título · el gancho** —la tensión medida que la justifica, no un adjetivo— y **la materia prima**, que son… | 317 |
-| [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 54 |
+| [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 56 |
 | [`VENCIMIENTOS.md`](VENCIMIENTOS.md) | VENCIMIENTOS DEL REGISTRO | Las **0** fichas sin respaldo no están desactualizadas: están mal fechadas. | 63 |
 | [`COMO-SE-MANDA.md`](envios/COMO-SE-MANDA.md) | CÓMO SE MANDA · reglas y mapa de los envíos | Esto no es un catálogo de archivos: es la decisión de cómo sale el archivo a la calle. | 103 |
-| [`01-El-turno-de-los-que-nacieron-este-trimestre-doce-apps-de-octubre-medidas-tres-veces-en-un-dia-y-los-dos-que-no-pasan-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`](envios/facebook/01-El-turno-de-los-que-nacieron-este-trimestre-doce-apps-de-octubre-medidas-tres-veces-en-un-dia-y-los-dos-que-no-pasan-Facebook-La-Bandita-2026-11-04-dominicano-ES.md) | PIEZA 01 · envío para Facebook | La Bandita · pieza 01 · guía del 4-nov-2026 · te la mando hoy en 20 mensajes. | 450 |
+| [`01-La-huella-o-el-silencio-doce-programas-de-octubre-cuatro-que-firman-lo-que-publican-y-ocho-que-piden-fe-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`](envios/facebook/01-La-huella-o-el-silencio-doce-programas-de-octubre-cuatro-que-firman-lo-que-publican-y-ocho-que-piden-fe-Facebook-La-Bandita-2026-11-04-dominicano-ES.md) | PIEZA 01 · envío para Facebook | La Bandita · pieza 01 · guía del 4-nov-2026 · te la mando hoy en 20 mensajes. | 483 |
 | [`02-La-musica-que-no-se-cae-los-ocho-programas-de-octubre-que-arreglan-el-sonido-y-los-cinco-que-guardan-tu-carpeta-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/02-La-musica-que-no-se-cae-los-ocho-programas-de-octubre-que-arreglan-el-sonido-y-los-cinco-que-guardan-tu-carpeta-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 02 · envío para Facebook | La Bandita · pieza 02 · guía del 3-nov-2026 · te la mando hoy en 19 mensajes. | 440 |
 | [`03-La-caja-fuerte-del-bolsillo-un-gestor-archivado-con-mil-seiscientos-cuatro-dias-de-silencio-y-tres-llaves-que-no-dejan-salir-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/03-La-caja-fuerte-del-bolsillo-un-gestor-archivado-con-mil-seiscientos-cuatro-dias-de-silencio-y-tres-llaves-que-no-dejan-salir-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 03 · envío para Facebook | La Bandita · pieza 03 · guía del 3-nov-2026 · te la mando hoy en 17 mensajes. | 415 |
 | [`04-La-lista-del-permiso-veintiseis-medidos-hoy-trece-nacidos-en-el-trimestre-y-el-tronco-que-lleva-quinientos-cuatro-dias-sin-empujar-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`](envios/facebook/04-La-lista-del-permiso-veintiseis-medidos-hoy-trece-nacidos-en-el-trimestre-y-el-tronco-que-lleva-quinientos-cuatro-dias-sin-empujar-Facebook-La-Bandita-2026-11-04-dominicano-ES.md) | PIEZA 04 · envío para Facebook | La Bandita · pieza 04 · guía del 4-nov-2026 · te la mando hoy en 19 mensajes. | 453 |
@@ -174,6 +174,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`escrutinio.py`](../tools/escrutinio.py) | ESCRUTINIO · la nota que decide qué merece una ficha, dicha en voz alta. | 269 |
 | [`extraer_fresco.py`](../tools/extraer_fresco.py) | EXTRACCIÓN FRESCA · lo que existe hoy, medido hoy, con el reloj puesto. | 218 |
 | [`fecha_casa.py`](../tools/fecha_casa.py) | FECHA DE LA CASA · una sola fuente de verdad para el día. | 45 |
+| [`fecha_viva.py`](../tools/fecha_viva.py) | FECHA VIVA · la fecha se lee en vivo al empezar y al terminar, no se recuerda. | 133 |
 | [`ficha_profunda.py`](../tools/ficha_profunda.py) | FICHA PROFUNDA · lo que hay que abrir antes de recomendar algo. | 195 |
 | [`firma_literal.py`](../tools/firma_literal.py) | TESTIGO DE FIRMA · comprueba lo que M01 no puede comprobar con una regex. | 114 |
 | [`html_archivo.py`](../tools/html_archivo.py) | Genera el HTML único con todas las publicaciones de la serie: WhatsApp, Facebook y el post de comunidad. | 247 |

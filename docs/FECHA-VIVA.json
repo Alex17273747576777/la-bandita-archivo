@@ -1,0 +1,33 @@
+{
+ "fecha": "2026-11-04",
+ "veces": [
+  {
+   "momento": "inicio",
+   "casa": "2026-11-04T11:58:05",
+   "utc": "2026-11-04T15:58:05",
+   "fuera": "2026-11-04T15:58:00",
+   "dia_de_la_semana": "miércoles"
+  },
+  {
+   "momento": "fin",
+   "casa": "2026-11-04T11:59:16",
+   "utc": "2026-11-04T15:59:16",
+   "fuera": "2026-11-04T15:59:12",
+   "dia_de_la_semana": "miércoles"
+  },
+  {
+   "momento": "inicio",
+   "casa": "2026-11-04T12:01:57",
+   "utc": "2026-11-04T16:01:57",
+   "fuera": "2026-11-04T16:01:48",
+   "dia_de_la_semana": "miércoles"
+  },
+  {
+   "momento": "fin",
+   "casa": "2026-11-04T12:04:43",
+   "utc": "2026-11-04T16:04:43",
+   "fuera": "2026-11-04T16:04:30",
+   "dia_de_la_semana": "miércoles"
+  }
+ ]
+}

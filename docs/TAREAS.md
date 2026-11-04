@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 21 tareas abiertas en 11 piezas vivas, numeradas dentro de cada pieza, de 001 a 009. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 22 tareas abiertas en 11 piezas vivas, numeradas dentro de cada pieza, de 001 a 013. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -12,17 +12,14 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 
 | # | Tarea | Origen | Corte |
 |---|---|---|---|
-| 001 | volver a correr las tres pasadas el 3 de diciembre de 2026 sobre los doce y publicar cuántas estrellas y cuántas descargas se movieron en un mes, con la hora de cada medición. | Facebook · 01 | 2026-11-04 |
 | 001 | volver a medir el 3 de diciembre de 2026 los ocho programas de octubre y publicar cuántos siguieron publicando entrega y cuántos se durmieron, con la fecha de su último empujón. | Facebook · 02 | 2026-11-03 |
 | 001 | volver a medir el 3 de diciembre de 2026 los doce programas y publicar cuáles siguieron publicando entrega, con la fecha exacta de cada una. | Facebook · 03 | 2026-11-03 |
 | 001 | volver a medir el 3 de diciembre de 2026 los veintiséis programas y publicar cuántos siguieron publicando entrega, con la fecha exacta de cada una y el hueco entre empujón y entrega. | Facebook · 04 | 2026-11-04 |
 | 001 | pedir al autor del programa, en su repositorio, que el flujo de publicación escriba un archivo de sumas SHA-256 al lado de cada entrega, y anotar la respuesta en el acta del 4 de diciembre de 2026. | Facebook · 06 | 2026-11-03 |
-| 002 | abrir una nota pública a los autores de WPAForge y de O3 Root que explique el criterio de exclusión sin acusar a nadie, y anotar su respuesta en el acta del 3 de diciembre. | Facebook · 01 | 2026-11-04 |
 | 002 | abrir en el repositorio de namida una petición cortés para que declare licencia, explicando que su ausencia es lo único que impide que la comunidad continúe el proyecto si su autor se cansa, y anotar la respuesta en el acta del 3 de diciembre. | Facebook · 02 | 2026-11-03 |
 | 002 | escribir al autor de Keyguard una nota cortés con una sola pregunta: si su licencia «All Rights Reserved» es una decisión definitiva o si consideraría una licencia libre para que su programa pueda continuarse, y anotar la respuesta en el acta del 3 de diciembre. | Facebook · 03 | 2026-11-03 |
 | 002 | correr las tres órdenes de comprobación en el teléfono de repuesto y guardar las tres fotografías del inventario con su huella, para tener la primera comparación mensual con fecha. | Facebook · 04 | 2026-11-04 |
 | 002 | remedir el 3 de diciembre de 2026 las tres entregas del linaje —el gestor original, el de Morphe y este— y publicar cuál de los tres publicó más seguido en el mes, con la fecha del empujón de cada uno. | Facebook · 06 | 2026-11-03 |
-| 003 | traducir al español la ficha de MineApp y la de ghost-files y ofrecer la traducción a sus autores, porque la barrera del idioma es la razón por la que la mitad de lo nuevo no llega a este público. | Facebook · 01 | 2026-11-04 |
 | 003 | escribir a los autores de SplitAudio y de Audio Policy Override para ofrecerles la traducción de su presentación al español, porque su documentación en un solo idioma es la única barrera entre esos programas y este público. | Facebook · 02 | 2026-11-03 |
 | 003 | ofrecer a los autores de Monica y de Lucent la revisión de su presentación en español y la traducción de esta ficha, porque son los dos programas nuevos del tema y su documentación en varios idiomas ya es mejor que la media del ecosistema. | Facebook · 03 | 2026-11-03 |
 | 003 | escribir una nota cortés a los autores de porter y de droynis agradeciendo que publiquen la huella de sus adjuntos, y preguntar a droynis si su lista de comprobaciones puede crecer sin pedir el permiso de internet; anotar la respuesta en el acta del 3 de diciembre. | Facebook · 04 | 2026-11-04 |
@@ -33,9 +30,14 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 007 | remedir el 3 de diciembre de 2026 las nueve fichas de menos de quinientas estrellas, empezando por OmniShizuku y TVSlim, y publicar cuáles siguieron publicando. | WhatsApp · 05 | 2026-11-03 |
 | 008 | pedir al archivo público la conservación de las doce revisiones de los capítulos y anotar el número de solicitud en cada acta. | WhatsApp · 05 | 2026-11-03 |
 | 009 | abrir en sus repositorios los cuatro casos de nota por debajo de treinta, proponiendo la corrección del archivo de licencia o del canal de seguridad, que es lo que la nota señala. | WhatsApp · 05 | 2026-11-03 |
+| 010 | volver a contar las huellas de los doce el 11 de noviembre de 2026 y publicar cuántos proyectos respondieron al pedido de la orden cinco. | Facebook · 01 | 2026-11-04 |
+| 011 | repetir el censo de las 875 fichas del trimestre el 4 de diciembre de 2026 con la misma orden, y comparar cuántas siguieron publicando y cuántas se quedaron quietas. | Facebook · 01 | 2026-11-04 |
+| 012 | pedir el Scorecard de los quince a OpenSSF por la vía pública, para que la próxima medición pueda usar los cien puntos y no ochenta. | Facebook · 01 | 2026-11-04 |
+| 013 | comprobar el 4 de mayo de 2027 si alguno de los quince publica una atestación verificable, y si la hay, correr la orden seis contra ella y publicar el resultado. | Facebook · 01 | 2026-11-04 |
 
 ## Numeración: la regla y lo declarado
 
+> **Declarado:** 01-La-huella-o-el-silencio-doce-programa: numera desde 010 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 05-La-guia-maestra-contada-despacio-doce: numera desde 007 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 05-La-guia-maestra-doce-capitulos-setent: numera desde 004 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 

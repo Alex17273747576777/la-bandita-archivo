@@ -40,6 +40,7 @@ la publicación.
 | E28 | 4-nov | Piezas 02 y 05 | Dos enlaces del 3-nov ya no existen como se citaban: `krishna3163/best_shizuku_apps_for_android` cambió a `…_no_root` y `thepbone/RootlessJamesDSP` pasó a `timschneeb/RootlessJamesDSP`. Se publicó una dirección que hoy da página no encontrada. | medir los enlaces, no solo las estrellas | H01 |
 | E29 | 4-nov | Piezas 03 y 06 | Los títulos llevaban cifras que se mueven solas: «mil seiscientos tres días de silencio» y «mil cuatrocientas siete estrellas». Al remedir cambiaron, y con ellas el nombre del archivo. El título no puede llevar la cifra que cambia cada noche sin que el archivo se renombre. | remedir antes de publicar el título | H01 |
 | E30 | 4-nov | Pieza 02 | El censo de audio («ciento doce proyectos, veintitrés de octubre, noventa y tres por debajo de quinientas estrellas») no se podía repetir: la consulta no estaba escrita en ninguna parte. Se retiró y se sustituyó por `tools/censo_tema.py --tema audio`, que imprime sus palabras y su ventana. | intento de repetir la cuenta | H10 |
+| E31 | 4-nov | Toda la casa | Un apagón de dos horas dejó la jornada sin fecha comprobada: la medición se firma con la fecha del reloj local, y ese reloj es justo el que se queda atrás cuando se va la luz. Desde hoy la fecha se lee **en vivo, de una fuente de fuera, al empezar y al terminar**. | un apagón | H12 |
 
 ## Cómo se usa este registro
 

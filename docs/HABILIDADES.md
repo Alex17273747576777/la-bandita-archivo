@@ -16,6 +16,7 @@ puede perder. Cada una nace de un error concreto de `docs/ERRORES.md`, y si el e
 | H09 | **Alinear la cifra en su línea** | E26, E27 | `tools/alinear.py` | remedir |
 | H10 | **Un censo se repite o no se publica** | E30 | `tools/censo_tema.py` | lectura del censo |
 | H11 | **La guía también se mide** | E25 | `tools/medir_guia.py --aplicar` | `guia-maestra` + remedir |
+| H12 | **La fecha se lee en vivo, al empezar y al terminar** | E31 | `tools/fecha_viva.py --inicio` / `--fin` | `docs/FECHA-VIVA.json` |
 
 ## H01 · Medir antes de tocar
 
@@ -137,6 +138,21 @@ escribe `guia-maestra/datos/medicion-<fecha>.json` y guarda la señal anterior e
 Después, `guia_maestra.py --generar` rehace créditos, índice, sitio y páginas.
 
 **Cómo se pierde.** Aplicando sin generar: los datos cambian y el sitio sigue diciendo lo de ayer.
+
+## H12 · La fecha se lee en vivo, al empezar y al terminar
+
+**Qué impide.** Firmar un censo con la fecha del reloj de la casa cuando ese reloj es justo el que
+se queda atrás: un apagón de dos horas basta para que una medición de la tarde se publique con el
+día de ayer, o para que dos piezas del mismo día lleven fechas distintas.
+
+**Cómo se hace.** `python3 tools/fecha_viva.py --inicio` antes de tocar nada, y `--fin` al cerrar.
+El programa pregunta la hora **a GitHub** —fuente de fuera, no de esta máquina—, compara con el
+reloj local y dice el desfase en minutos. Anota las dos lecturas en `docs/FECHA-VIVA.json` y, al
+cerrar, exige que el censo haya empezado y terminado **el mismo día**: si no, se vuelve a medir.
+
+**Cómo se pierde.** Escribiendo la fecha de memoria en el encabezado de la pieza mientras el
+programa dice otra cosa. La pieza y el acta tienen que decir lo mismo, y las dos salen de la
+misma lectura.
 
 ## El ritual completo, con las habilidades dentro
 

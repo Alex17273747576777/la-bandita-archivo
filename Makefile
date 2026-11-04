@@ -28,12 +28,14 @@ verificar:  ## Las compuertas completas: registro, sello, vara y autoprueba
 	@$(PY) tools/autoprueba.py
 
 ritual:  ## Verifica, sella y vuelve a verificar — el orden importa (H05, errores E16 y E23)
+	@$(PY) tools/fecha_viva.py --inicio
 	-@$(MAKE) --no-print-directory libro
 	-@$(PY) tools/registro_construir.py --verificar
 	-@$(PY) tools/vara.py >/dev/null
 	-@$(PY) tools/autoprueba.py >/dev/null
 	@$(PY) tools/atestar.py
 	@$(PY) tools/atestar.py --verificar
+	@$(PY) tools/fecha_viva.py --fin
 	@echo "ritual completo: la primera pasada puede fallar por archivos sin sellar; la segunda no"
 
 
