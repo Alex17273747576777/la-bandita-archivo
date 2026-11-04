@@ -1,6 +1,6 @@
 {
  "fecha": "2026-11-04",
- "medido_en": "2026-11-04T16:34:21+00:00",
+ "medido_en": "2026-11-04T16:46:09+00:00",
  "pesos": {
   "licencia": 15,
   "ci": 10,
@@ -18,7 +18,7 @@
   "atencion_anomala": -15,
   "una_sola_persona": -5
  },
- "medidos": 118,
+ "medidos": 128,
  "fichas": [
   {
    "repo": "readest/readest",
@@ -52,6 +52,42 @@
     "321 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 3296/3387 +10",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "bitwarden/android",
+   "puntos": 79,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "_version.yml",
+    "build-authenticator.yml",
+    "build-testharness.yml",
+    "build.yml",
+    "cron-stale-issue-cleanup.yml"
+   ],
+   "adjuntos": 40,
+   "con_huella": 15,
+   "ultima_entrega": "2026-10-29",
+   "commits_30d": 61,
+   "contribuyentes": 83,
+   "incidencias": {
+    "abiertas": 130,
+    "cerradas": 2138
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 3840,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 21 flujo(s) +10",
+    "adjunto con huella (com.x8bit.bitwarden-fdroid.apk-sha256.txt) +10",
+    "entrega en los últimos 30 días +10",
+    "61 cambios en 30 días +10",
+    "83 personas empujando +10",
+    "incidencias cerradas 2138/2268 +9",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -886,6 +922,39 @@
    ]
   },
   {
+   "repo": "stratumauth/app",
+   "puntos": 64,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "crowdin.yml",
+    "main.yml",
+    "release.yml"
+   ],
+   "adjuntos": 49,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-01",
+   "commits_30d": 72,
+   "contribuyentes": 47,
+   "incidencias": {
+    "abiertas": 73,
+    "cerradas": 552
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 3004,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 3 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "72 cambios en 30 días +10",
+    "47 personas empujando +10",
+    "incidencias cerradas 552/625 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "cli/cli",
    "puntos": 63,
    "licencia": "MIT",
@@ -917,6 +986,41 @@
     "271 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 5615/6665 +8",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "Monica-Pass/Monica",
+   "puntos": 63,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "Android-Preview.yml",
+    "Android.yml",
+    "Browser-CI.yml",
+    "Browser-Extension.yml",
+    "Browser-Release.yml"
+   ],
+   "adjuntos": 20,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 117,
+   "contribuyentes": 14,
+   "incidencias": {
+    "abiertas": 17,
+    "cerradas": 87
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 395,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 17 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "117 cambios en 30 días +10",
+    "14 personas empujando +10",
+    "incidencias cerradas 87/104 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -1101,11 +1205,11 @@
    "adjuntos": 22,
    "con_huella": 0,
    "ultima_entrega": "2026-11-02",
-   "commits_30d": 1779,
+   "commits_30d": 1785,
    "contribuyentes": 26,
    "incidencias": {
-    "abiertas": 5,
-    "cerradas": 7
+    "abiertas": 6,
+    "cerradas": 8
    },
    "security_md": false,
    "scorecard": null,
@@ -1116,9 +1220,9 @@
     "integración continua con 1 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "1779 cambios en 30 días +10",
+    "1785 cambios en 30 días +10",
     "26 personas empujando +10",
-    "incidencias cerradas 7/12 +6",
+    "incidencias cerradas 8/14 +6",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -1221,6 +1325,42 @@
     "46 cambios en 30 días +10",
     "7 personas empujando +7",
     "incidencias cerradas 140/165 +8",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "dani-garcia/vaultwarden",
+   "puntos": 60,
+   "licencia": "AGPL-3.0",
+   "flujos_ci": [
+    "build.yml",
+    "check-templates.yml",
+    "hadolint.yml",
+    "release.yml",
+    "releasecache-cleanup.yml"
+   ],
+   "adjuntos": 0,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-01",
+   "commits_30d": 43,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 15,
+    "cerradas": 2825
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 3182,
+   "archivado": false,
+   "notas": [
+    "licencia legible (AGPL-3.0) +15",
+    "integración continua con 8 flujo(s) +10",
+    "ninguna entrega con adjuntos −10",
+    "entrega en los últimos 30 días +10",
+    "43 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 2825/2840 +10",
+    "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -1494,6 +1634,38 @@
     "13 personas empujando +10",
     "incidencias cerradas 112/141 +8",
     "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "PhilippC/keepass2android",
+   "puntos": 58,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "build.yml",
+    "release.yml"
+   ],
+   "adjuntos": 100,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-15",
+   "commits_30d": 25,
+   "contribuyentes": 55,
+   "incidencias": {
+    "abiertas": 1163,
+    "cerradas": 1845
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 3332,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 2 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "25 cambios en 30 días +7",
+    "55 personas empujando +10",
+    "incidencias cerradas 1845/3008 +6",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2067,6 +2239,35 @@
    ]
   },
   {
+   "repo": "Kunzisoft/KeePassDX",
+   "puntos": 53,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [],
+   "adjuntos": 18,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-31",
+   "commits_30d": 130,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 555,
+    "cerradas": 1897
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 3305,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "130 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 1897/2452 +8",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "koreader/koreader",
    "puntos": 53,
    "licencia": "AGPL-3.0",
@@ -2130,6 +2331,42 @@
     "45 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 171/212 +8",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "AChep/keyguard-app",
+   "puntos": 52,
+   "licencia": "NOASSERTION",
+   "flujos_ci": [
+    "check_apple_tests.yaml",
+    "check_bitwarden_e2e.yaml",
+    "check_gpg.yaml",
+    "check_gradle_wrapper.yml",
+    "check_ios_simulator_tests.yaml"
+   ],
+   "adjuntos": 182,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-03",
+   "commits_30d": 236,
+   "contribuyentes": 25,
+   "incidencias": {
+    "abiertas": 156,
+    "cerradas": 417
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 1200,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "integración continua con 39 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "236 cambios en 30 días +10",
+    "25 personas empujando +10",
+    "incidencias cerradas 417/573 +7",
+    "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2394,6 +2631,40 @@
     "51 personas empujando +10",
     "incidencias cerradas 335/343 +10",
     "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "Lucent-Project/Lucent",
+   "puntos": 49,
+   "licencia": "MIT",
+   "flujos_ci": [
+    "build-apk-user.yml",
+    "build-exe-user.yml",
+    "build-preview.yml",
+    "build-release.yml",
+    "check.yml"
+   ],
+   "adjuntos": 20,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-02",
+   "commits_30d": 431,
+   "contribuyentes": 2,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 108,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "integración continua con 5 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "431 cambios en 30 días +10",
+    "2 personas empujando +4",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -3032,6 +3303,39 @@
    ]
   },
   {
+   "repo": "beemdevelopment/Aegis",
+   "puntos": 44,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "build-app-workflow.yaml",
+    "codeql-analysis.yml",
+    "crowdin.yml"
+   ],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-09-06",
+   "commits_30d": 0,
+   "contribuyentes": 62,
+   "incidencias": {
+    "abiertas": 117,
+    "cerradas": 1161
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 3733,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 3 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "62 personas empujando +10",
+    "incidencias cerradas 1161/1278 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "termux/termux-app",
    "puntos": 43,
    "licencia": "NOASSERTION",
@@ -3374,6 +3678,37 @@
     "entrega en los últimos 30 días +10",
     "6 cambios en 30 días +4",
     "1 personas empujando +0",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "freeotp/freeotp-android",
+   "puntos": 36,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [
+    "build.yml"
+   ],
+   "adjuntos": 0,
+   "con_huella": 0,
+   "ultima_entrega": "2026-02-17",
+   "commits_30d": 4,
+   "contribuyentes": 36,
+   "incidencias": {
+    "abiertas": 111,
+    "cerradas": 227
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 3663,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "integración continua con 1 flujo(s) +10",
+    "ninguna entrega con adjuntos −10",
+    "sin entrega reciente +0",
+    "4 cambios en 30 días +4",
+    "36 personas empujando +10",
+    "incidencias cerradas 227/338 +7",
     "sin Scorecard en deps.dev +0"
    ]
   },

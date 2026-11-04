@@ -154,6 +154,22 @@ cerrar, exige que el censo haya empezado y terminado **el mismo día**: si no, s
 programa dice otra cosa. La pieza y el acta tienen que decir lo mismo, y las dos salen de la
 misma lectura.
 
+## H13 · Buscar la palabra, no la forma del nombre
+
+**Qué impide.** Que una compuerta cuente cero porque el archivo se llama de una manera que el
+detector no previó: Bitwarden publica `com.x8bit.bitwarden.apk-sha256.txt` y el detector, que
+buscaba `.sha256` con punto o `sha256sum`, no lo veía. Una pieza habría publicado «ninguna de las
+catorce firma» con una de ellas firmando quince archivos.
+
+**Cómo se hace.** Antes de creer un cero, mirar **los nombres reales** de lo que se está contando,
+a mano, en la página de entregas de un repositorio del lote. Y en el código, buscar la palabra en
+cualquier posición (`MARCAS = ("sha256", "sha512", "sha1", "checksum", ".sig", ".asc", "sums")`)
+en lugar de componer sufijos.
+
+**Cómo se pierde.** Confiando en el cero: un cero es el resultado más sospechoso que da un
+detector, porque es también lo que devuelve cuando está roto. Y cuando se cambia un detector, se
+vuelven a pasar las piezas ya publicadas de la serie para ver si sus cifras se mueven.
+
 ## El ritual completo, con las habilidades dentro
 
 ```

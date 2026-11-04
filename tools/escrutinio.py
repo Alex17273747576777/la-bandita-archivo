@@ -142,8 +142,11 @@ def evaluar(repo: str, b: dict, contribuyentes: int | None, sc: float | None, ho
     else:
         notas.append("sin flujos de integración +0")
     adj = [a for rel in (entregas or []) for a in (rel.get("adjuntos") or [])]
-    huella = [a for a in adj if any(x in (a.get("name") or "").lower()
-                                    for x in (".sha256", ".sig", ".asc", "sha256sum", ".sha512"))]
+    #  El nombre de un archivo de sumas no siempre lleva el punto: Bitwarden publica
+    #  «com.x8bit.bitwarden.apk-sha256.txt» y el patrón viejo no lo veía (error E33).
+    #  Se busca la palabra, no la forma: sha256, sha512, checksum, .sig, .asc.
+    MARCAS = ("sha256", "sha512", "sha1", "checksum", ".sig", ".asc", "sums")
+    huella = [a for a in adj if any(x in (a.get("name") or "").lower() for x in MARCAS)]
     if huella:
         r += 10; notas.append(f"adjunto con huella ({huella[0]['name']}) +10")
     elif adj:
