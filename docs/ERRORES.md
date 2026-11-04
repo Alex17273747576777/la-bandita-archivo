@@ -33,6 +33,7 @@ la publicación.
 | E21 | 4-nov | `tools/remedir.py` | La comprobación de estrellas exigía la cifra a **todo** repositorio citado, incluidos los que solo aparecen como enlace de apoyo (un catálogo). Se separó: cifra exigida a los programas que la pieza presenta, aviso para los de apoyo. | primera corrida de la herramienta | H02 |
 | E22 | 4-nov | Pieza 01 | Se escribieron de cabeza los totales de descargas («28.986» y «29.008») y la suma de incrementos («cuarenta y una»). Los reales: **42.330 → 42.335**, +24 y −19. Se cazó al comprobar la aritmética antes de seguir. | revisión propia | H03 |
 | E23 | 4-nov | `Makefile` | El objetivo `ritual` verificaba **antes** de sellar, así que fallaba siempre por archivos sin sellar: el mismo error E16 metido dentro de la herramienta que venía a arreglarlo. Ahora la primera pasada puede fallar a propósito y la segunda comprueba el sello. | la primera corrida del ritual | H05 |
+| E24 | 4-nov | `Makefile` · CI | El ritual sellaba sin regenerar antes el índice y el tablero: el CI los regenera y compara, así que una fila de más en `ERRORES.md` tumbaba la línea. Ahora `libro` es el primer paso del ritual. | CI rojo en `e3781f10` | H05 |
 
 ## Cómo se usa este registro
 
