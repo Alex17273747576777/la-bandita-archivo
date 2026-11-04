@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 26 tareas abiertas en 11 piezas vivas, numeradas dentro de cada pieza, de 001 a 029. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 27 tareas abiertas en 11 piezas vivas, numeradas dentro de cada pieza, de 007 a 033. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -12,9 +12,6 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 
 | # | Tarea | Origen | Corte |
 |---|---|---|---|
-| 001 | pedir al autor del programa, en su repositorio, que el flujo de publicación escriba un archivo de sumas SHA-256 al lado de cada entrega, y anotar la respuesta en el acta del 4 de diciembre de 2026. | Facebook · 06 | 2026-11-03 |
-| 002 | remedir el 3 de diciembre de 2026 las tres entregas del linaje —el gestor original, el de Morphe y este— y publicar cuál de los tres publicó más seguido en el mes, con la fecha del empujón de cada uno. | Facebook · 06 | 2026-11-03 |
-| 003 | escribir la versión de WhatsApp de esta pieza, más corta, con los cinco pasos reducidos a tres y el episodio del 451 contado en dos párrafos, y comprobar que su banda de longitud se cumple antes de enviarla. | Facebook · 06 | 2026-11-03 |
 | 007 | remedir el 3 de diciembre de 2026 las nueve fichas de menos de quinientas estrellas, empezando por OmniShizuku y TVSlim, y publicar cuáles siguieron publicando. | WhatsApp · 05 | 2026-11-03 |
 | 008 | pedir al archivo público la conservación de las doce revisiones de los capítulos y anotar el número de solicitud en cada acta. | WhatsApp · 05 | 2026-11-03 |
 | 009 | abrir en sus repositorios los cuatro casos de nota por debajo de treinta, proponiendo la corrección del archivo de licencia o del canal de seguridad, que es lo que la nota señala. | WhatsApp · 05 | 2026-11-03 |
@@ -38,6 +35,10 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 027 | comprobar el 4 de diciembre de 2026 si el capítulo del permiso prestado consigue su primera suma de comprobación; hoy son cero de seis y es la deuda más cara de la guía. | Facebook · 05 | 2026-11-04 |
 | 028 | pedir el mérito independiente de las setenta a la fundación de seguridad por la vía pública antes del 4 de mayo de 2027, para que la nota pueda volver a ser sobre cien. | Facebook · 05 | 2026-11-04 |
 | 029 | revisar el 4 de febrero de 2027 las seis fichas que llevan más de un año sin entrega —F-Droid, AppVerifier, Termux, Shizuku, DataBackup y AdAway— y decir cuáles se movieron. | Facebook · 05 | 2026-11-04 |
+| 030 | volver a contar las sumas de los dieciséis el 11 de noviembre de 2026 y decir si algún conjunto de parches publicó la primera, que hoy son cero de cuarenta. | Facebook · 06 | 2026-11-04 |
+| 031 | comprobar el 4 de diciembre de 2026 si Morphe Manager mantiene la entrega diaria y si universal-installer y Patch Bundle Registry ganan huella; y si el 451 sigue en pie. | Facebook · 06 | 2026-11-04 |
+| 032 | añadir la palabra «parches» a la herramienta de censos de la casa antes del 4 de diciembre, para que el recuento de este tema no haya que hacerlo a mano. | Facebook · 06 | 2026-11-04 |
+| 033 | medir el 4 de febrero de 2027 el estado de las dos bifurcaciones archivadas y de ReVanced Integrations, que hoy lleva setecientos cuarenta y un días sin entrega, y publicar si alguna volvió. | Facebook · 06 | 2026-11-04 |
 
 ## Numeración: la regla y lo declarado
 
@@ -47,6 +48,7 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 > **Declarado:** 04-La-lista-del-permiso-seis-de-veintise: numera desde 022 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 05-La-guia-maestra-contada-despacio-doce: numera desde 007 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 05-La-guia-maestra-doce-capitulos-sesent: numera desde 026 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 06-El-taller-los-gestores-de-parches-fir: numera desde 030 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 
 La numeración es **por pieza**, no global: cada pieza numera sus tareas desde 001 porque la compuerta de novedad (M28) las cuenta dentro de la pieza. Por eso la misma cifra puede aparecer en dos piezas distintas y no es un error: la tarea se identifica por su número **y** su pieza.
 

@@ -3,14 +3,14 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/05-La-guia-maestra-doce-capitulos-sesenta-y-seis-cifras-que-se-movieron-y-veintidos-fichas-que-te-dan-con-que-comprobar-el-archivo-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
 - **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `1eb7f826b9575ada9b25f766102bcc32d3d471aa33f481c97304cadef0bb20c7`
-- **Envío generado:** 2026-11-04 · 20 mensajes · el mayor de 3841 caracteres
+- **Envío generado:** 2026-11-04 · 19 mensajes · el mayor de 3941 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 20 · 881 caracteres ═══
+═══ MENSAJE 1 de 19 · 881 caracteres ═══
 
 *La guía maestra: doce capítulos, setenta fichas medidas hoy y veintidós que te dan con qué comprobar el archivo*
 
-La Bandita · pieza 05 · guía del 4-nov-2026 · te la mando hoy en 20 mensajes.
+La Bandita · pieza 05 · guía del 4-nov-2026 · te la mando hoy en 19 mensajes.
 
 Antes de mandártela volví a medir lo que afirma: *31 repositorios, 31 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
@@ -20,7 +20,7 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 💓 4 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 20 · 2668 caracteres ═══
+═══ MENSAJE 2 de 19 · 2668 caracteres ═══
 
 *La guía maestra: doce capítulos, setenta fichas medidas hoy y veintidós que te dan con qué comprobar el archivo*
 
@@ -50,9 +50,9 @@ Lo que sigue es la guía maestra de esta casa —doce capítulos, setenta fichas
 
 Y hay un detalle que ordena todo lo demás. El capítulo donde más importa —el tercero, el del permiso prestado, ese programa que puede desinstalar cosas del sistema— tiene **seis fichas y ninguna publica una sola suma de comprobación**. Cero de seis, en el capítulo que da permiso. El capítulo del oficio, el doce, donde se enseña a verificar, tiene cuatro de seis y una mediana de setenta y dos puntos, la más alta de la guía. La casa predica donde sabe y descuida donde debería predicar: eso es lo que dicen los números, y es incómodo decirlo justo aquí.
 
-⏬ sigue abajo · parte 1 de 19
+⏬ sigue abajo · parte 1 de 18
 
-═══ MENSAJE 3 de 20 · 2343 caracteres ═══
+═══ MENSAJE 3 de 19 · 2343 caracteres ═══
 
 *⚡ En una página*
 
@@ -64,9 +64,9 @@ Lo otro que se movió hoy es la salud del conjunto: **treinta y nueve de las set
 
 La guía no es un catálogo de lo mejor: es un mapa de lo que hay, con la fecha de hoy en cada casilla. Donde una ficha dice ochenta, ese ochenta se calculó esta tarde con los pesos que están escritos más abajo; donde dice cero huellas, se contaron los adjuntos uno por uno. Y donde la plataforma no supo leer la licencia —nueve casos—, alguien abrió el archivo y la leyó: Kodi es GPL-2.0-o-posterior, ESPHome mezcla MIT y GPL-3.0, Termux es GPL-3.0 con excepciones escritas, sing-box y Hiddify son GPL-3.0, APKiD es GPL-3.0-only, Battery Monitor es GPL-3.0-o-posterior y Seedvault es Apache-2.0 declarada en su propio archivo.
 
-⏬ sigue abajo · parte 2 de 19
+⏬ sigue abajo · parte 2 de 18
 
-═══ MENSAJE 4 de 20 · 1820 caracteres ═══
+═══ MENSAJE 4 de 19 · 1820 caracteres ═══
 
 *🕰️ La medición de las 17:56 · sesenta y seis fichas se movieron*
 
@@ -85,9 +85,9 @@ Estas son seis, para que se vea de qué clase de movimiento se trata:
 
 Las estrellas se mueven siempre y no significan nada por sí solas: catorce en Shizuku, que lleva un año y medio quieto, y veintidós en scrcpy, que publicó hace cuatro semanas. Lo que sí significa algo es que **testssl.sh subiera diez puntos en una tarde**: su última entrega era de hace meses y hoy publicó la versión 3.2.5, así que la señal de «entrega reciente» pasó de cero a diez y la nota lo siguió. Eso no es que el programa sea mejor que ayer: es que el paquete se puede bajar hoy, y la nota mide eso.
 
-⏬ sigue abajo · parte 3 de 19
+⏬ sigue abajo · parte 3 de 18
 
-═══ MENSAJE 5 de 20 · 2849 caracteres ═══
+═══ MENSAJE 5 de 19 · 2849 caracteres ═══
 
 *🔍 El método y sus pesos · nueve señales y cuatro castigos*
 
@@ -115,9 +115,9 @@ Los cuatro castigos, también declarados: **treinta puntos** si el repositorio e
 
 **Y una trampa con las descargas:** son acumuladas y cuentan archivos, no personas, así que diez millones de descargas pueden ser diez mil usuarios. Comparar dos proyectos por ese número no dice nada; comparar un proyecto consigo mismo sí: cuando una entrega multiplica por diez las descargas de la anterior, algo ha pasado, y merece mirarse antes de recomendarlo.
 
-⏬ sigue abajo · parte 4 de 19
+⏬ sigue abajo · parte 4 de 18
 
-═══ MENSAJE 6 de 20 · 3490 caracteres ═══
+═══ MENSAJE 6 de 19 · 3490 caracteres ═══
 
 *📚 Los doce capítulos, uno por línea, con su cuenta de huellas*
 
@@ -140,9 +140,9 @@ Los capítulos se ordenan por la tarea que resuelven, no por el tipo de programa
 **08 · La red.** VPN, proxy, bloqueo y lo que no hace falta. **Seis fichas**, tres con huella, mediana **59**, **184.456★**. Mullvad VPN ★7.743 firma cuarenta y seis de noventa y dos —la mitad—, NetBird ★30.671 cuarenta de seiscientas noventa y nueve, Headscale ★45.366 diez de noventa. sing-box ★39.633 publica mil seiscientas setenta y cinco sin ninguna, y Hiddify ★33.643 ciento treinta y siete.
 
 
-⏬ sigue abajo · parte 5 de 19
+⏬ sigue abajo · parte 5 de 18
 
-═══ MENSAJE 7 de 20 · 1679 caracteres ═══
+═══ MENSAJE 7 de 19 · 1679 caracteres ═══
 
 **09 · El televisor y la casa.** **Seis fichas**, una con huella, mediana **54,5**, **220.362★**. Home Assistant ★91.960, Jellyfin ★59.006, SmartTube ★35.913, Kodi ★21.434 y ESPHome ★12.014 no publican ninguna suma. La única que firma es TVSlim ★35, con cincuenta y dos días de vida y dieciocho adjuntos firmados de treinta y ocho: el más pequeño del capítulo es el único que deja comprobar.
 
@@ -154,9 +154,9 @@ Los capítulos se ordenan por la tarea que resuelven, no por el tipo de programa
 
 Los doce capítulos, sumados: **setenta fichas**, **veintidós con huella**, **1.396.664 estrellas**, mediana general de **55**. La huella no sigue a la fama ni al tamaño: sigue a la costumbre de quien publica.
 
-⏬ sigue abajo · parte 6 de 19
+⏬ sigue abajo · parte 6 de 18
 
-═══ MENSAJE 8 de 20 · 3601 caracteres ═══
+═══ MENSAJE 8 de 19 · 3601 caracteres ═══
 
 *🎓 Las diez fichas que abren aquí*
 
@@ -173,9 +173,9 @@ Diez de las setenta, abiertas con su ficha completa: las que mejor puntúan, las
 **rclone · diez millones de descargas y treinta sumas** — ★60.798 · nació el 23 de julio de 2014, **cuatro mil seiscientos dieciséis días de madurez** · MIT · entrega v1.75.2 de hace veintiséis días · 10.722.459 descargas · 252,2 mebibytes · **treinta sumas de quinientas diez** · cinco flujos · cien personas · cinco mil trescientas setenta cerradas de seis mil trescientas diecinueve · nota **73**. Copia y sincroniza carpetas contra cualquier servicio que se te ocurra. Doce años de oficio y el 5,9 % de sus adjuntos firmados: no es desidia, es que nadie lo pide.
 
 
-⏬ sigue abajo · parte 7 de 19
+⏬ sigue abajo · parte 7 de 18
 
-═══ MENSAJE 9 de 20 · 3276 caracteres ═══
+═══ MENSAJE 9 de 19 · 3276 caracteres ═══
 
 **Obtainium · el instalador que sí firma** — ★21.206 · nació el 12 de agosto de 2022, **mil quinientos cuarenta y seis días de madurez** · GPL-3.0 · entrega v1.7.4 de hace tres días · 7.302.697 descargas · 19,1 mebibytes · **ciento sesenta sumas de trescientas veinte** · tres flujos · cien personas · mil setecientas sesenta y seis cerradas de dos mil ciento veinticuatro · nota **73**. Instala y actualiza aplicaciones desde la página de sus autores, sin tienda. Es el programa que hace de puente entre «bajar un paquete» y «saber qué paquete bajaste», y firma la mitad de lo que publica.
 
@@ -187,9 +187,9 @@ Diez de las setenta, abiertas con su ficha completa: las que mejor puntúan, las
 
 **Seedvault · el respaldo del sistema que no publica** — ★1.876 · nació el 21 de septiembre de 2017, **tres mil trescientos treinta y un días de madurez** · Apache-2.0 declarada en su propio archivo de licencia · **sin ninguna entrega publicada** · cero descargas contables · 375,1 mebibytes · cero adjuntos · cuatro flujos de compilación · ochenta y dos personas · cuatrocientas catorce cerradas de quinientas sesenta · nota **26**, la penúltima. Es la aplicación de copia de seguridad que viene integrada en algunas distribuciones de Android y el respaldo que la propia guía recomienda en el capítulo uno. No publica paquetes: se compila o se instala con el sistema. Un cero sin explicación es un dato malo, así que se explica: aquí el cero no es abandono, es que el paquete no existe como archivo que bajar.
 
-⏬ sigue abajo · parte 8 de 19
+⏬ sigue abajo · parte 8 de 18
 
-═══ MENSAJE 10 de 20 · 3653 caracteres ═══
+═══ MENSAJE 10 de 19 · 3653 caracteres ═══
 
 *📊 La tabla de las setenta*
 
@@ -237,9 +237,9 @@ Las setenta fichas de la guía, ordenadas por la nota de hoy. «Cap.» es el cap
 | Jellyfin | 9 | ★59.006 | 2887 | GPL-2.0 | v12.4 (9) | 0/0 | 5 | **54** |
 | KOReader | 6 | ★30.864 | 4973 | AGPL-3.0 | ota (36) | 0/385 | 5 | **53** |
 
-⏬ sigue abajo · parte 9 de 19
+⏬ sigue abajo · parte 9 de 18
 
-═══ MENSAJE 11 de 20 · 3021 caracteres ═══
+═══ MENSAJE 11 de 19 · 3021 caracteres ═══
 
 | Accrescent | 4 | ★2.306 | 1785 | Apache-2.0 | 0.28.1 (359) | 0/9 | 2 | **53** |
 | AntennaPod | 6 | ★8.265 | 5209 | GPL-3.0 | 3.12.3 (22) | 0/0 | 5 | **51** |
@@ -275,9 +275,9 @@ Las setenta fichas de la guía, ordenadas por la nota de hoy. «Cap.» es el cap
 
 Leídas en columna, la tabla dice tres cosas. La primera: **la nota ordena distinto que las estrellas** —arriba está Readest con veinticinco mil y abajo Aurora Store con setenta y cinco, que es un espejo—. La segunda: **las fichas con huella se reparten por todos los capítulos** salvo el tercero, que no tiene ninguna. Y la tercera: **el capítulo doce, el del oficio, tiene la mediana más alta de los doce**, setenta y dos, porque en él están las herramientas con las que se verifica todo lo demás.
 
-⏬ sigue abajo · parte 10 de 19
+⏬ sigue abajo · parte 10 de 18
 
-═══ MENSAJE 12 de 20 · 3021 caracteres ═══
+═══ MENSAJE 12 de 19 · 3021 caracteres ═══
 
 *🧨 Los cinco casos incómodos*
 
@@ -293,9 +293,9 @@ Una guía que solo enseña lo que funciona se parece demasiado a un catálogo de
 
 **NetGuard · el firewall veterano con la cola vacía** — ★3.963 · **cuatro mil veintinueve días de madurez** · GPL-3.0 · entrega 2.337 de hace **noventa y cinco días** · 34.881 descargas · un adjunto y ninguna suma · sin flujos · cero incidencias registradas · nota **25**. Un cortafuegos por aplicación que lleva once años funcionando. Otra vez: cero incidencias no es que no haya fallos, es que el trabajo no pasa por aquí. La nota mide el repositorio, no la reputación.
 
-⏬ sigue abajo · parte 11 de 19
+⏬ sigue abajo · parte 11 de 18
 
-═══ MENSAJE 13 de 20 · 2600 caracteres ═══
+═══ MENSAJE 13 de 19 · 2600 caracteres ═══
 
 *🛠️ La fontanería · cómo se regenera esto sin creerme*
 
@@ -310,9 +310,9 @@ Esta guía no se escribe a mano: se mide. Cada ficha vive en un archivo con su a
 
 Lo que la fontanería no arregla: **una fuente que miente**. Si un autor publica una suma que no corresponde a su paquete, ninguna orden de esta casa lo detecta por ti. Lo que sí hace es que el engaño tenga que ser deliberado y quede fechado.
 
-⏬ sigue abajo · parte 12 de 19
+⏬ sigue abajo · parte 12 de 18
 
-═══ MENSAJE 14 de 20 · 1741 caracteres ═══
+═══ MENSAJE 14 de 19 · 1741 caracteres ═══
 
 *🚪 Lo que esta pieza no tiene*
 
@@ -328,9 +328,9 @@ Para quien quiera usar esto sin perderse:
 - **Día cuatro.** Capítulo cuatro. Baja un paquete con Obtainium y comprueba su suma con `sha256sum`. Si el proyecto no publica suma, verifica el certificado con `apksigner` y compara con la página del autor.
 - **Día cinco.** Capítulo doce. Elige un programa de los que usas a diario y hazle la pregunta de toda la guía: ¿puedo comprobar que este archivo es el que su autor publicó? Con la respuesta escrita, ya sabes qué instalar y qué no.
 
-⏬ sigue abajo · parte 13 de 19
+⏬ sigue abajo · parte 13 de 18
 
-═══ MENSAJE 15 de 20 · 3315 caracteres ═══
+═══ MENSAJE 15 de 19 · 3315 caracteres ═══
 
 *❓ Las preguntas del grupo*
 
@@ -364,9 +364,9 @@ Cada vez que se mide. La señal de las fichas se vuelve a medir y la anterior qu
 
 💓 *La Bandita informa a partir de fuentes fechadas.* Setenta fichas remedidas esta tarde una por una, con sus pesos publicados y su licencia leída en el archivo cuando la plataforma no la ve, para que la próxima vez que alguien pregunte si un programa es bueno la respuesta se pueda discutir con números y no con opiniones.
 
-⏬ sigue abajo · parte 14 de 19
+⏬ sigue abajo · parte 14 de 18
 
-═══ MENSAJE 16 de 20 · 2339 caracteres ═══
+═══ MENSAJE 16 de 19 · 2339 caracteres ═══
 
 *Medición del corte:* miércoles 4 de noviembre de 2026, 17:56 de la tarde en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · quinta medición del día · setenta fichas remedidas una por una · sesenta y seis con alguna cifra movida · veintidós con huella y cuarenta y ocho sin ella · doce capítulos con sus compuertas en verde · cero paquetes alojados.
 
@@ -413,9 +413,9 @@ Los que completan los doce capítulos:
 - Scorecard: https://github.com/ossf/scorecard
 - testssl.sh: https://github.com/testssl/testssl.sh
 
-⏬ sigue abajo · parte 15 de 19
+⏬ sigue abajo · parte 15 de 18
 
-═══ MENSAJE 17 de 20 · 3074 caracteres ═══
+═══ MENSAJE 17 de 19 · 3074 caracteres ═══
 
 *🗒️ Notas al pie*
 
@@ -443,9 +443,9 @@ Los que completan los doce capítulos:
 
 #task 029 · revisar el 4 de febrero de 2027 las seis fichas que llevan más de un año sin entrega —F-Droid, AppVerifier, Termux, Shizuku, DataBackup y AdAway— y decir cuáles se movieron.
 
-⏬ sigue abajo · parte 16 de 19
+⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 20 · 3841 caracteres ═══
+═══ MENSAJE 18 de 19 · 3941 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 05*
 
@@ -455,10 +455,10 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 31 repositorios que cita esta pi
 • sigstore/cosign — ★6.409 · empujó en las últimas horas · Apache-2.0 · última release v3.1.4 (20-oct-2026)
 • TrackerControl/tracker-control-android — ★2.721 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release 2026110101 (1-nov-2026)
 • juanfont/headscale — ★45.366 · empujó en las últimas horas · BSD-3-Clause · última release v0.29.7 (30-oct-2026)
-• rclone/rclone — ★60.798 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
-• ImranR98/Obtainium — ★21.206 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• rclone/rclone — ★60.799 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
+• ImranR98/Obtainium — ★21.205 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • samolego/Canta — ★6.463 · empujó el 31-oct-2026 (hace 4 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
-• RikkaApps/Shizuku — ★32.788 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.790 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • jolabs40/TVSlim — ★35 · empujó el 20-oct-2026 (hace 15 días) · Apache-2.0 · última release windows-v1.7.0 (20-oct-2026)
 • seedvault-app/seedvault — ★1.876 · empujó el 16-oct-2026 (hace 19 días) · sin licencia detectada por la API
 • AuroraOSS/AuroraStore — ★75 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0
@@ -467,34 +467,30 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 31 repositorios que cita esta pi
 • SagerNet/sing-box — ★39.633 · empujó en las últimas horas · NOASSERTION · última release v1.14.4 (24-oct-2026)
 • M66B/NetGuard — ★3.963 · *dormido*: sin empujar desde el 1-ago-2026 (95 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
 • f-droid/fdroidclient — ★3.255 · empujó en las últimas horas · GPL-3.0 · última release 1.18.0 (24-ene-2024)
-• NeoApplications/Neo-Backup — ★3.894 · empujó en las últimas horas · AGPL-3.0 · última release 8.3.18 (3-may-2026)
+• NeoApplications/Neo-Backup — ★3.895 · empujó en las últimas horas · AGPL-3.0 · última release 8.3.18 (3-may-2026)
 • hddq/restoid — ★187 · empujó en las últimas horas · GPL-3.0 · última release v0.7.0 (4-nov-2026)
-• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.740 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.3.1 (2-nov-2026)
-• rushiranpise/Shizuku-Next — ★1.449 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
+• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.741 · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (2-nov-2026)
+• rushiranpise/Shizuku-Next — ★1.450 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
 • iamr0s/Dhizuku — ★4.085 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
-• localsend/localsend — ★97.317 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• immich-app/immich — ★118.233 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
-• restic/restic — ★36.996 · empujó el 1-nov-2026 (hace 3 días) · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
+• localsend/localsend — ★97.319 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• immich-app/immich — ★118.235 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
+• restic/restic — ★36.997 · empujó el 1-nov-2026 (hace 3 días) · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
 • mullvad/mullvadvpn-app — ★7.743 · empujó en las últimas horas · GPL-3.0 · última release android/2026.12 (30-sep-2026)
 • netbirdio/netbird — ★30.671 · empujó en las últimas horas · NOASSERTION · última release v0.82.0 (29-oct-2026)
 • home-assistant/core — ★91.960 · empujó en las últimas horas · Apache-2.0 · última release 2026.11.0 (4-nov-2026)
-• termux/termux-app — ★64.090 · empujó el 26-sep-2026 (hace 39 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
-• Genymobile/scrcpy — ★154.026 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v5.0.1 (8-oct-2026)
+• termux/termux-app — ★64.091 · empujó el 26-sep-2026 (hace 39 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• Genymobile/scrcpy — ★154.025 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v5.0.1 (8-oct-2026)
 • VREMSoftwareDevelopment/WiFiAnalyzer — ★5.067 · empujó el 3-oct-2026 (hace 32 días) · GPL-3.0 · última release V3.3.1-F-DROID (1-jul-2026)
 • ossf/scorecard — ★5.814 · empujó en las últimas horas · Apache-2.0 · última release v5.6.0 (12-oct-2026)
-
-⏬ sigue abajo · parte 17 de 19
-
-═══ MENSAJE 19 de 20 · 137 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
 De los 32 enlaces de esta pieza, *32 responden*.
 Ninguno roto.
 
-⏬ sigue abajo · parte 18 de 19
+⏬ sigue abajo · parte 17 de 18
 
-═══ MENSAJE 20 de 20 · 275 caracteres ═══
+═══ MENSAJE 19 de 19 · 275 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.
 

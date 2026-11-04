@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-04",
- "medido_en_utc": "2026-11-04T18:04:09+00:00",
+ "medido_en_utc": "2026-11-04T18:34:45+00:00",
  "repos": {
   "capitan0n/droynis": {
    "estado": "vivo",
@@ -16,7 +16,7 @@
   },
   "Bingblop/ADB-Root-Toolbox": {
    "estado": "vivo",
-   "stars": 123,
+   "stars": 124,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -52,7 +52,7 @@
   },
   "aaron-gh/SandFly": {
    "estado": "vivo",
-   "stars": 22,
+   "stars": 23,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -304,7 +304,7 @@
   },
   "MetrolistGroup/Metrolist": {
    "estado": "vivo",
-   "stars": 14011,
+   "stars": 14012,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -316,7 +316,7 @@
   },
   "maxrave-dev/SimpMusic": {
    "estado": "vivo",
-   "stars": 12755,
+   "stars": 12758,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -328,7 +328,7 @@
   },
   "rukamori/ArchiveTune": {
    "estado": "vivo",
-   "stars": 7965,
+   "stars": 7967,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -460,7 +460,7 @@
   },
   "dani-garcia/vaultwarden": {
    "estado": "vivo",
-   "stars": 70230,
+   "stars": 70231,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -592,7 +592,7 @@
   },
   "RikkaApps/Shizuku": {
    "estado": "vivo",
-   "stars": 32788,
+   "stars": 32790,
    "push": "2025-06-18",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -604,7 +604,7 @@
   },
   "RikkaApps/Shizuku-API": {
    "estado": "vivo",
-   "stars": 2741,
+   "stars": 2742,
    "push": "2025-05-29",
    "archivado": false,
    "licencia": "MIT",
@@ -628,7 +628,7 @@
   },
   "Foxlape/GhostMode": {
    "estado": "vivo",
-   "stars": 115,
+   "stars": 116,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -664,7 +664,7 @@
   },
   "HmnDev-Tech/shevery": {
    "estado": "vivo",
-   "stars": 1602,
+   "stars": 1603,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -688,7 +688,7 @@
   },
   "rushiranpise/Shizuku-Next": {
    "estado": "vivo",
-   "stars": 1449,
+   "stars": 1450,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -916,7 +916,7 @@
   },
   "rclone/rclone": {
    "estado": "vivo",
-   "stars": 60798,
+   "stars": 60799,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "MIT",
@@ -928,7 +928,7 @@
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
-   "stars": 21206,
+   "stars": 21205,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1036,7 +1036,7 @@
   },
   "NeoApplications/Neo-Backup": {
    "estado": "vivo",
-   "stars": 3894,
+   "stars": 3895,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1060,8 +1060,8 @@
   },
   "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
    "estado": "vivo",
-   "stars": 9740,
-   "push": "2026-11-02",
+   "stars": 9741,
+   "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Rust",
@@ -1072,7 +1072,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97317,
+   "stars": 97319,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1084,7 +1084,7 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 118233,
+   "stars": 118235,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1096,7 +1096,7 @@
   },
   "restic/restic": {
    "estado": "vivo",
-   "stars": 36996,
+   "stars": 36997,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "BSD-2-Clause",
@@ -1144,7 +1144,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 64090,
+   "stars": 64091,
    "push": "2026-09-26",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1156,7 +1156,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 154026,
+   "stars": 154025,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1190,6 +1190,54 @@
    "release_fecha": "2026-10-12",
    "stars_pieza": null
   },
+  "anddea/revanced-patches": {
+   "estado": "vivo",
+   "stars": 1935,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "desc": "🧩 Patches for ReVanced",
+   "release": "v4.3.0",
+   "release_fecha": "2026-09-28",
+   "stars_pieza": null
+  },
+  "hoo-dles/morphe-patches": {
+   "estado": "vivo",
+   "stars": 1305,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "🍃 Human-made patches for Morphe",
+   "release": "v1.47.0",
+   "release_fecha": "2026-10-04",
+   "stars_pieza": null
+  },
+  "inotia00/revanced-patches": {
+   "estado": "vivo",
+   "stars": 2258,
+   "push": "2026-03-10",
+   "archivado": true,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "desc": "🧩 Patches for ReVanced",
+   "release": "v5.14.1",
+   "release_fecha": "2025-12-31",
+   "stars_pieza": null
+  },
+  "MorpheApp/morphe-manager": {
+   "estado": "vivo",
+   "stars": 9962,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Morphe app patcher for Android",
+   "release": "v2.4.0",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
   "Jman-Github/Universal-Patch-Manager": {
    "estado": "vivo",
    "stars": 1411,
@@ -1202,28 +1250,76 @@
    "release_fecha": "2026-10-29",
    "stars_pieza": null
   },
-  "Jman-Github/Patch-Bundle-Registry": {
+  "ReVanced/revanced-manager": {
    "estado": "vivo",
-   "stars": 725,
-   "push": "2026-11-04",
-   "archivado": false,
-   "licencia": "Unlicense",
-   "lenguaje": "Python",
-   "desc": "Patch bundle registry for ReVanced, Morphe, and Reseam, with searchable patches, app compatibility, historical releases, prereleases, and changelogs retrievable through a REST and GraphQL API plus a user friendly frontend.",
-   "release": null,
-   "release_fecha": "",
-   "stars_pieza": null
-  },
-  "MorpheApp/morphe-manager": {
-   "estado": "vivo",
-   "stars": 9961,
-   "push": "2026-11-04",
+   "stars": 30070,
+   "push": "2026-07-29",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
-   "desc": "Morphe app patcher for Android",
-   "release": "v2.4.0",
-   "release_fecha": "2026-11-04",
+   "desc": "💊 Application to use ReVanced on Android",
+   "release": "v2.6.0",
+   "release_fecha": "2026-04-26",
+   "stars_pieza": null
+  },
+  "ReVanced/revanced-cli": {
+   "estado": "vivo",
+   "stars": 1600,
+   "push": "2026-06-02",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "💻 Command-line application to use ReVanced",
+   "release": "v6.0.0",
+   "release_fecha": "2026-03-14",
+   "stars_pieza": null
+  },
+  "ReVanced/revanced-integrations": {
+   "estado": "vivo",
+   "stars": 746,
+   "push": "2024-10-26",
+   "archivado": true,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "desc": "🔩 ReVanced Integrations containing classes to be merged by ReVanced Patcher",
+   "release": "v1.16.0",
+   "release_fecha": "2024-10-20",
+   "stars_pieza": null
+  },
+  "ReVanced/revanced-api": {
+   "estado": "vivo",
+   "stars": 186,
+   "push": "2026-07-19",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "TypeScript",
+   "desc": "🚀 API server for ReVanced",
+   "release": "v1.6.1",
+   "release_fecha": "2025-07-11",
+   "stars_pieza": null
+  },
+  "brosssh/revanced-manager-downloaders": {
+   "estado": "vivo",
+   "stars": 118,
+   "push": "2025-12-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "🔌 ReVanced Manager downloaders",
+   "release": "v1.1.0",
+   "release_fecha": "2025-12-04",
+   "stars_pieza": null
+  },
+  "rushiranpise/helper-for-morphe": {
+   "estado": "vivo",
+   "stars": 430,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Standalone APK download helper for Morphe Manager",
+   "release": "v5.2.0",
+   "release_fecha": "2026-11-01",
    "stars_pieza": null
   },
   "MorpheApp/morphe-patches": {
@@ -1238,16 +1334,33 @@
    "release_fecha": "2026-10-30",
    "stars_pieza": null
   },
-  "ReVanced/revanced-manager": {
+  "Jman-Github/Patch-Bundle-Registry": {
    "estado": "vivo",
-   "stars": 30070,
-   "push": "2026-07-29",
+   "stars": 725,
+   "push": "2026-11-04",
    "archivado": false,
+   "licencia": "Unlicense",
+   "lenguaje": "Python",
+   "desc": "Patch bundle registry for ReVanced, Morphe, and Reseam, with searchable patches, app compatibility, historical releases, prereleases, and changelogs retrievable through a REST and GraphQL API plus a user friendly frontend.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "inotia00/revanced-manager": {
+   "estado": "vivo",
+   "stars": 1700,
+   "push": "2025-12-29",
+   "archivado": true,
    "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
+   "lenguaje": "Dart",
    "desc": "💊 Application to use ReVanced on Android",
-   "release": "v2.6.0",
-   "release_fecha": "2026-04-26",
+   "release": "v1.25.7",
+   "release_fecha": "2025-12-29",
+   "stars_pieza": null
+  },
+  "ReVanced/revanced-patches": {
+   "estado": "error",
+   "motivo": "Repository access blocked",
    "stars_pieza": null
   },
   "ReVanced/where-is-revanced-patches": {
@@ -1273,48 +1386,12 @@
    "release": null,
    "release_fecha": "",
    "stars_pieza": null
-  },
-  "rushiranpise/helper-for-morphe": {
-   "estado": "vivo",
-   "stars": 430,
-   "push": "2026-11-01",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "Standalone APK download helper for Morphe Manager",
-   "release": "v5.2.0",
-   "release_fecha": "2026-11-01",
-   "stars_pieza": null
-  },
-  "brosssh/revanced-manager-downloaders": {
-   "estado": "vivo",
-   "stars": 118,
-   "push": "2025-12-04",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "🔌 ReVanced Manager downloaders",
-   "release": "v1.1.0",
-   "release_fecha": "2025-12-04",
-   "stars_pieza": null
   }
  },
  "enlaces": {
-  "https://api.github.com/repos/Jman-Github/Universal-Patch-Manager": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://api.github.com/repos/Jman-Github/Universal-Patch-Manager/releases?per_page=100": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://developer.android.com/tools/apksigner": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://docs.github.com/en/rest": {
-   "codigo": "200",
-   "veredicto": "responde"
+  "https://api.github.com/repos/ReVanced/revanced-patches": {
+   "codigo": "451",
+   "veredicto": "responde con codigo 451"
   },
   "https://github.com/AChep/keyguard-app": {
    "codigo": "200",
@@ -1388,22 +1465,6 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://github.com/Jman-Github/Universal-Patch-Manager/blob/main/LICENSE": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/Jman-Github/Universal-Patch-Manager/issues": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/Jman-Github/Universal-Patch-Manager/releases": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/Jman-Github/Universal-Patch-Manager/releases/tag/v2.0.0": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
   "https://github.com/Kunzisoft/KeePassDX": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1444,9 +1505,25 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/ReVanced/revanced-api": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/ReVanced/revanced-cli": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/ReVanced/revanced-integrations": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/ReVanced/revanced-manager": {
    "codigo": "200",
    "veredicto": "responde"
+  },
+  "https://github.com/ReVanced/revanced-patches": {
+   "codigo": "451",
+   "veredicto": "responde con codigo 451"
   },
   "https://github.com/ReVanced/where-is-revanced-patches": {
    "codigo": "200",
@@ -1497,6 +1574,10 @@
    "veredicto": "responde"
   },
   "https://github.com/andOTP/andOTP": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/anddea/revanced-patches": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1576,6 +1657,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/hoo-dles/morphe-patches": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/iamr0s/Dhizuku": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1585,6 +1670,14 @@
    "veredicto": "responde"
   },
   "https://github.com/immich-app/immich": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/inotia00/revanced-manager": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/inotia00/revanced-patches": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1765,22 +1858,6 @@
    "veredicto": "responde"
   },
   "https://github.com/zsw125/o3root": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://gitlab.com/revanced/revanced-patches": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://patch-bundles.jmancentral.com": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://unlicense.org/": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://www.gnu.org/licenses/gpl-3.0.html": {
    "codigo": "200",
    "veredicto": "responde"
   }

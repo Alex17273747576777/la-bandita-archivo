@@ -279,7 +279,7 @@ def check(p: Path, bk: dict, firmas_vistas: dict, todos: dict[str, set[str]]) ->
         def urls(x: str) -> set[str]:
             # una URL citada dentro de una frase puede venir con » o un punto pegado:
             # se limpia antes de comparar, o el cotejo acusa un enlace que sí está.
-            return {re.sub(r"[»\.,;:!\?\)\]]+$", "", u)
+            return {re.sub(r"[»\.,;:!\?\)\]`]+$", "", u)
                     for u in re.findall(r"https?://[^\s\)]+", x)}
         en_lista = urls(enl)
         en_cuerpo = urls(t) - en_lista

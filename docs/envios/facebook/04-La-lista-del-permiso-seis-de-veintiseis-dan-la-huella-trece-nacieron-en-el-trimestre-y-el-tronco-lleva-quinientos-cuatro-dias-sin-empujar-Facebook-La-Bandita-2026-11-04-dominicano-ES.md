@@ -393,16 +393,16 @@ Porque se midió hoy y tiene veintiún días, trescientas cincuenta y siete conf
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.788 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• RikkaApps/Shizuku-API — ★2.741 · *dormido*: sin empujar desde el 29-may-2025 (524 días) · MIT · última release v12.1.0 (7-oct-2022)
+• RikkaApps/Shizuku — ★32.790 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku-API — ★2.742 · *dormido*: sin empujar desde el 29-may-2025 (524 días) · MIT · última release v12.1.0 (7-oct-2022)
 • d4rken-org/porter — ★246 · empujó en las últimas horas · Apache-2.0 · última release v0.8.1-rc0 (7-oct-2026)
 • capitan0n/droynis — ★16 · empujó en las últimas horas · GPL-3.0 · última release v0.15.0 (1-nov-2026)
-• Foxlape/GhostMode — ★115 · empujó en las últimas horas · Apache-2.0 · última release v0.2.3 (4-nov-2026)
+• Foxlape/GhostMode — ★116 · empujó en las últimas horas · Apache-2.0 · última release v0.2.3 (4-nov-2026)
 • emi-ran/flowpilot — ★16 · empujó en las últimas horas · GPL-3.0 · última release v2.2.0 (4-nov-2026)
 • Dreamucxe/GameCore — ★27 · empujó en las últimas horas · MIT · última release v4.5 (4-nov-2026)
-• HmnDev-Tech/shevery — ★1.602 · empujó en las últimas horas · Apache-2.0 · última release 14.6.3 (4-nov-2026)
+• HmnDev-Tech/shevery — ★1.603 · empujó en las últimas horas · Apache-2.0 · última release 14.6.3 (4-nov-2026)
 • cr1437/Shizako — ★97 · empujó en las últimas horas · Apache-2.0 · última release zako3.17 (31-oct-2026)
-• rushiranpise/Shizuku-Next — ★1.449 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
+• rushiranpise/Shizuku-Next — ★1.450 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
 • kerneldroid/Nightzuku — ★333 · empujó en las últimas horas · Apache-2.0 · última release v13.7.1-r60 (4-nov-2026)
 • thejaustin/ShizukuPlus — ★1.698 · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
 • iamr0s/Dhizuku — ★4.085 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)

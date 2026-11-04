@@ -27,7 +27,7 @@ El número es el del ciclo (01–14), la fecha es la del corte de medición de l
 | 03 | La caja fuerte del bolsillo: una de catorce da la huella y dos se reservan los derechos (**escrita de nuevo el 4-nov, 12:44**) | 2026-11-04 | 40.396 | Publicada y en banda · 16 repos medidos, 1 con huella (15 adjuntos) · censo de 11 · la versión anterior, en `_ARCHIVO-HISTORICO/` |
 | 04 | La lista del permiso (**rehecha**) | 2026-11-04 | 44.513 | Escrita de nuevo el 4-nov, 13:16 · 26 repos medidos, 6 con huella · censo de 454 · la anterior, en `_ARCHIVO-HISTORICO/_reemplazadas-2026-11-04/` |
 | 05 | La guía maestra (**rehecha**) | 2026-11-04 | 44.429 | Escrita de nuevo el 4-nov, 17:56 · 70 fichas remedidas, 22 con huella · capítulo del permiso: 0 de 6 · la anterior, en `_ARCHIVO-HISTORICO/_reemplazadas-2026-11-04/` |
-| 06 | El taller: un gestor de parches y un módulo que perdió su casa | 2026-11-03 | 44.703 | Publicada y en banda |
+| 06 | El taller de los parches (**rehecha**) | 2026-11-04 | 40.967 | Escrita de nuevo el 4-nov, 14:30 · 16 repos vivos, 55 de 257 con huella · los parches: 0 de 40 · el 451 comprobado en vivo · la anterior, en `_ARCHIVO-HISTORICO/_reemplazadas-2026-11-04/` |
 | 07 | La pantalla grande y la casa que no hace ruido | — | — | Siguiente |
 | 08 | La red: seis caminos, seis precios | — | — | En cola |
 | 09 | Archivos, copias y nubes propias | — | — | En cola |

@@ -191,7 +191,13 @@ def comparar(pieza: Path, medicion: Path) -> int:
         fallos.append(f"la medición es del {med.get('medido_en')} y hoy es {date.today()}")
     datos = {k: v for k, v in (med.get("repos") or {}).items() if v.get("estado") == "vivo"}
     citados = repos_citados(texto)
-    faltan = [r for r in citados if r not in datos]
+    # un repositorio que hoy no existe o está bloqueado por la plataforma no es una cifra
+    # desactualizada: es un dato. Se declara y se sigue (error E34, la pieza 06).
+    no_vivos = {k: v for k, v in (med.get("repos") or {}).items() if v.get("estado") != "vivo"}
+    for r, v in no_vivos.items():
+        if r in citados:
+            avisos.append(f"{r}: sin objeto hoy ({str(v.get('detalle'))[:40]}); se declara en la pieza")
+    faltan = [r for r in citados if r not in datos and r not in no_vivos]
     if faltan:
         fallos.append(f"{len(faltan)} repositorios citados sin medir: " + ", ".join(faltan[:4]))
     # el mapa del principio también lleva el icono: el corte tiene que ser la sección de

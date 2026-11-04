@@ -44,6 +44,8 @@ la publicación.
 | E32 | 4-nov | `Makefile` | El ritual sellaba el árbol y **después** escribía la fecha viva de cierre, así que el sello quedaba con un archivo ya alterado y la compuerta G5 protestaba con razón. La fecha de fin se anota antes de sellar. | primera corrida del ritual con fecha viva | H05 |
 | E33 | 4-nov | `tools/escrutinio.py` | El detector de huellas buscaba las formas `.sha256` y `sha256sum` como sufijo del nombre de archivo, y no veía `com.x8bit.bitwarden.apk-sha256.txt`: Bitwarden salía con **cero** huellas cuando tiene **quince**. Se corrigió para buscar la **palabra** (`sha256`, `sha512`, `sha1`, `checksum`, `.sig`, `.asc`, `sums`) en cualquier posición. Repasadas las quince fichas de la pieza 01 y las veintiuna de la 02: los recuentos publicados no cambian. | la pieza 03, al ver que la única que firma salía sin firma | H13 |
 
+| E34 | 4-nov | `tools/remedir.py` · `tools/manual_gate.py` | Dos compuertas trataban lo excepcional como avería. Una: el repositorio bloqueado por la plataforma (código 451, aviso legal) salía como «cifra desactualizada», así que una pieza que **cuenta** el bloqueo no podía pasar la comprobación. Otra: una dirección pegada a un acento grave de código en línea (`…patches\``) no casaba con la lista de enlaces y M07 daba la URL por perdida. Se separó lo declarado de lo fallado: un repositorio sin objeto **medido hoy** se avisa y se cita en la pieza, y el detector de enlaces recorta también el acento grave. | la pieza 06, que gira alrededor del 451 | H14 |
+
 ## Cómo se usa este registro
 
 1. Antes de escribir una pieza nueva se leen los errores de su misma familia.

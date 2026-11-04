@@ -170,6 +170,21 @@ en lugar de componer sufijos.
 detector, porque es también lo que devuelve cuando está roto. Y cuando se cambia un detector, se
 vuelven a pasar las piezas ya publicadas de la serie para ver si sus cifras se mueven.
 
+## H14 · Separar lo declarado de lo fallado
+
+**Nace de E34.** Una compuerta que solo sabe decir «bien» o «mal» obliga a esconder el caso raro, y
+el caso raro suele ser el que da interés a la pieza: un repositorio bloqueado por un aviso legal, un
+paquete que no existe porque el proyecto nunca publicó, una dirección que redirige a otro nombre.
+
+**La regla.** Si una fuente responde algo distinto de lo esperado **hoy y de forma comprobable**
+(451, 404, archivado, sin entregas), eso no es un dato viejo: es un dato. La herramienta lo avisa, la
+pieza lo declara con su código y su fecha, y la compuerta no lo cuenta como fallo. Lo que sí sigue
+siendo fallo es una cifra que no coincide con lo medido.
+
+**Cómo se pierde.** Metiendo el caso raro en el mismo saco que el error: la pieza acaba ocultando lo
+que más enseña para poder pasar en verde. Y al revés: marcando como «declarado» cualquier cosa, hasta
+que la compuerta no sirve para nada. La frontera es la fecha: se declara lo que se midió hoy.
+
 ## El ritual completo, con las habilidades dentro
 
 ```
