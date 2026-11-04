@@ -1,9 +1,9 @@
 # PIEZA 02 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`
-- **Fecha de la pieza:** 2-nov-2026 (según dateline; edad hoy: 1 días)
+- **Fecha de la pieza:** 2-nov-2026 (según dateline; edad hoy: 2 días)
 - **sha256 de la pieza:** `6f10c22d91adaa74f2f062e51bfc60e0565d40065791e4039dc13a53f4a9bf2e`
-- **Envío generado:** 2026-11-03 · 29 mensajes · el mayor de 3628 caracteres
+- **Envío generado:** 2026-11-04 · 29 mensajes · el mayor de 3628 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 29 · 991 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 8 · NOASSERTION 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md
 
-💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 4 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 29 · 1869 caracteres ═══
 
@@ -612,23 +612,23 @@ Queda una cosa más, que es la que más se olvida: la ventana y la casa. Cinco d
 
 ⏬ sigue abajo · parte 26 de 28
 
-═══ MENSAJE 28 de 29 · 1572 caracteres ═══
+═══ MENSAJE 28 de 29 · 1593 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
-Medí otra vez, hoy 3 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 4 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • KRTirtho/spotube — sin dato hoy (la API no respondió). No afirmo nada.
-• MetrolistGroup/Metrolist — ★13.997 · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.714 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
-• AntennaPod/AntennaPod — ★8.261 · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
+• MetrolistGroup/Metrolist — ★14.000 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.728 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• AntennaPod/AntennaPod — ★8.263 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • theovilardo/PixelPlayer — sin dato hoy (la API no respondió). No afirmo nada.
-• namidaco/namida — ★6.783 · empujó el 1-nov-2026 (hace 2 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
-• z-huang/InnerTune — ★6.138 · *dormido*: sin empujar desde el 13-nov-2025 (355 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
-• OuterTune/OuterTune — ★5.442 · empujó el 12-oct-2026 (hace 22 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
-• RetroMusicPlayer/RetroMusicPlayer — ★5.382 · empujó en las últimas horas · GPL-3.0 · última release v7.0.3 (13-ago-2026)
-• OxygenCobalt/Auxio — ★4.420 · empujó en las últimas horas · GPL-3.0 · última release v4.1.5 (4-ago-2026)
-• fast4x/RiMusic — ★3.897 · *dormido*: sin empujar desde el 30-jul-2025 (461 días) · GPL-3.0 · última release v0.6.76 (21-mar-2025) · *ARCHIVADO*
+• namidaco/namida — ★6.786 · empujó el 1-nov-2026 (hace 3 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
+• z-huang/InnerTune — ★6.139 · *dormido*: sin empujar desde el 13-nov-2025 (356 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• OuterTune/OuterTune — ★5.443 · empujó el 12-oct-2026 (hace 23 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
+• RetroMusicPlayer/RetroMusicPlayer — ★5.383 · empujó en las últimas horas · GPL-3.0 · última release v7.0.3 (13-ago-2026)
+• OxygenCobalt/Auxio — ★4.420 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
+• fast4x/RiMusic — ★3.897 · *dormido*: sin empujar desde el 30-jul-2025 (462 días) · GPL-3.0 · última release v0.6.76 (21-mar-2025) · *ARCHIVADO*
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,12 +1,12 @@
 # PIEZA 06 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/06-El-taller-un-gestor-de-parches-con-mil-cuatrocientas-siete-estrellas-sesenta-y-cinco-entregas-y-un-modulo-que-perdio-su-casa-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`
-- **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `965e9256420c9716730b6965aa5fee3a52af0972c667c799f4a8f3c3ec6a0b7c`
-- **Envío generado:** 2026-11-03 · 20 mensajes · el mayor de 3507 caracteres
+- **Envío generado:** 2026-11-04 · 20 mensajes · el mayor de 3507 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 20 · 904 caracteres ═══
+═══ MENSAJE 1 de 20 · 1083 caracteres ═══
 
 *El taller: un gestor de parches con mil cuatrocientas siete estrellas, sesenta y cinco entregas y un módulo que perdió su casa en GitHub*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *10 repositorios, 10 vivos*, 
 
 Licencias de lo que recomienda: GPL-3.0 6 · Unlicense 1 · sin licencia 1 · Apache-2.0 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 3-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/06-El-taller-un-gestor-de-parches-con-mil-cuatrocientas-siete-estrellas-sesenta-y-cinco-entregas-y-un-modulo-que-perdio-su-casa-Facebook-La-Bandita-2026-11-03-dominicano-ES.md
 
-💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 4 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 20 · 2626 caracteres ═══
+═══ MENSAJE 2 de 20 · 2716 caracteres ═══
+
+[Texto del 3-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *El taller: un gestor de parches con mil cuatrocientas siete estrellas, sesenta y cinco entregas y un módulo que perdió su casa en GitHub*
 
@@ -405,27 +409,28 @@ Lo que le falta está escrito arriba sin adornos: avisos en el momento justo, un
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1525 caracteres ═══
+═══ MENSAJE 19 de 20 · 1698 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 06*
 
-Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 4 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Jman-Github/Universal-Patch-Manager — ★1.407 · sin fecha de empuje · GPL-3.0 · última release v2.0.0 (29-oct-2026)
-• Jman-Github/Patch-Bundle-Registry — ★726 · sin fecha de empuje · Unlicense
-• MorpheApp/morphe-manager — ★9.932 · sin fecha de empuje · GPL-3.0 · última release v2.3.0 (30-oct-2026)
-• MorpheApp/morphe-patches — ★4.534 · sin fecha de empuje · GPL-3.0 · última release v2.0.0 (30-oct-2026)
-• ReVanced/revanced-manager — ★30.065 · *dormido*: sin empujar desde el 29-jul-2026 (97 días) · GPL-3.0 · última release v2.6.0 (26-abr-2026)
-• ReVanced/where-is-revanced-patches — ★157 · *dormido*: sin empujar desde el 24-mar-2026 (224 días) · sin licencia detectada por la API
-• RikkaApps/Shizuku — ★32.728 · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• timschneeb/awesome-shizuku — ★10.692 · empujó el 31-oct-2026 (hace 3 días) · NOASSERTION
-• rushiranpise/helper-for-morphe — ★416 · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v5.2.0 (1-nov-2026)
-• brosssh/revanced-manager-downloaders — ★118 · *dormido*: sin empujar desde el 4-dic-2025 (334 días) · GPL-3.0 · última release v1.1.0 (4-dic-2025)
+• Jman-Github/Universal-Patch-Manager — ★1.410 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
+• Jman-Github/Patch-Bundle-Registry — ★726 · empujó en las últimas horas · Unlicense
+• MorpheApp/morphe-manager — ★9.950 · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (4-nov-2026)
+• MorpheApp/morphe-patches — ★4.545 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (30-oct-2026)
+• ReVanced/revanced-manager — ★30.069 · *dormido*: sin empujar desde el 29-jul-2026 (98 días) · GPL-3.0 · última release v2.6.0 (26-abr-2026)
+• ReVanced/where-is-revanced-patches — ★157 · *dormido*: sin empujar desde el 24-mar-2026 (225 días) · sin licencia detectada por la API
+• RikkaApps/Shizuku — ★32.765 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• timschneeb/awesome-shizuku — ★10.699 · empujó el 31-oct-2026 (hace 4 días) · NOASSERTION
+• rushiranpise/helper-for-morphe — ★426 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v5.2.0 (1-nov-2026)
+• brosssh/revanced-manager-downloaders — ★118 · *dormido*: sin empujar desde el 4-dic-2025 (335 días) · GPL-3.0 · última release v1.1.0 (4-dic-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 22 enlaces de esta pieza, *22 responden*.
-Ninguno roto.
+De los 22 enlaces de esta pieza, *21 responden*.
+
+• https://github.com/Jman-Github/Universal-Patch-Manager/blob/main/LICENSE — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 18 de 19
 

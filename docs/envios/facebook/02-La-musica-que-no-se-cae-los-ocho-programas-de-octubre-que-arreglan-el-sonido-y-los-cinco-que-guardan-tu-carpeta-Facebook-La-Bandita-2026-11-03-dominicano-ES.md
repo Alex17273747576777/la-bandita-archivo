@@ -1,12 +1,12 @@
 # PIEZA 02 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/02-La-musica-que-no-se-cae-los-ocho-programas-de-octubre-que-arreglan-el-sonido-y-los-cinco-que-guardan-tu-carpeta-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`
-- **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `5031e6a1a129aec64e4797470c519b03524352821278480de9b12461c07cc48f`
-- **Envío generado:** 2026-11-03 · 19 mensajes · el mayor de 3669 caracteres
+- **Envío generado:** 2026-11-04 · 19 mensajes · el mayor de 3669 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 19 · 913 caracteres ═══
+═══ MENSAJE 1 de 19 · 1092 caracteres ═══
 
 *La música que no se cae: ocho programas de octubre que arreglan el sonido del teléfono, cinco que guardan tu carpeta, y los tres que se murieron dejando un injerto*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *19 repositorios, 18 vivos*, 
 
 Licencias de lo que recomienda: GPL-3.0 9 · MIT 5 · sin licencia 2 · NOASSERTION 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 3-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/02-La-musica-que-no-se-cae-los-ocho-programas-de-octubre-que-arreglan-el-sonido-y-los-cinco-que-guardan-tu-carpeta-Facebook-La-Bandita-2026-11-03-dominicano-ES.md
 
-💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 4 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 19 · 2423 caracteres ═══
+═══ MENSAJE 2 de 19 · 2513 caracteres ═══
+
+[Texto del 3-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *La música que no se cae: ocho programas de octubre que arreglan el sonido del teléfono, cinco que guardan tu carpeta, y los tres que se murieron dejando un injerto*
 
@@ -389,31 +393,31 @@ Lo que hay que llevarse cabe en cuatro frases. La primera: el catálogo se cae, 
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 2579 caracteres ═══
+═══ MENSAJE 18 de 19 · 2616 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
-Medí otra vez, hoy 3 de noviembre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 4 de noviembre de 2026, los 19 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• monarchsofchaos004-gif/splitaudio — ★13 · sin fecha de empuje · MIT · última release v0.5.5 (4-nov-2026)
-• xTudoS/dual-audio — ★3 · empujó en las últimas horas · GPL-3.0 · última release v1.0.1 (19-oct-2026)
-• saikiran9185/BudsFirst — ★1 · empujó el 18-oct-2026 (hace 16 días) · MIT · última release v0.4.0 (18-oct-2026)
-• milkei/audio-focus-mixer — ★1 · empujó el 31-oct-2026 (hace 3 días) · MIT
-• AQUALaforet/AudioPolicyOverride — ★5 · empujó el 25-oct-2026 (hace 9 días) · GPL-3.0 · última release v1.2.3 (25-oct-2026)
-• ibrahim91015/AudioScope — ★1 · empujó el 6-oct-2026 (hace 28 días) · GPL-3.0 · última release v0.5.2 (6-oct-2026)
-• bunbun-midi/RootlessJamesDSP-SKDSP — ★1 · empujó el 27-oct-2026 (hace 7 días) · GPL-3.0 · última release v1 (27-oct-2026)
-• AlphadogRSA/spotifyplus-tv-patch — ★21 · empujó el 27-oct-2026 (hace 7 días) · MIT · última release v1.3.0.9 (27-oct-2026)
-• Moriafly/SaltPlayerSource — ★7.594 · empujó en las últimas horas · MIT · última release 12.6.0 (2-nov-2026)
-• namidaco/namida — ★6.783 · empujó el 1-nov-2026 (hace 2 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
-• rukamori/ArchiveTune — ★7.948 · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
-• maxrave-dev/SimpMusic — ★12.714 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
-• MetrolistGroup/Metrolist — ★13.997 · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• AntennaPod/AntennaPod — ★8.261 · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
-• z-huang/InnerTune — ★6.138 · *dormido*: sin empujar desde el 13-nov-2025 (355 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
-• naman14/Timber — ★7.036 · *dormido*: sin empujar desde el 28-abr-2023 (1285 días) · sin licencia detectada por la API · última release v1.7 (5-oct-2020)
-• james34602/JamesDSPManager — ★989 · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · sin licencia detectada por la API · última release 28Nov2023 (2-dic-2023)
+• monarchsofchaos004-gif/splitaudio — ★13 · empujó en las últimas horas · MIT · última release v0.5.6 (4-nov-2026)
+• xTudoS/dual-audio — ★3 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.0.1 (19-oct-2026)
+• saikiran9185/BudsFirst — ★1 · empujó el 18-oct-2026 (hace 17 días) · MIT · última release v0.4.0 (18-oct-2026)
+• milkei/audio-focus-mixer — ★1 · empujó el 31-oct-2026 (hace 4 días) · MIT
+• AQUALaforet/AudioPolicyOverride — ★5 · empujó el 25-oct-2026 (hace 10 días) · GPL-3.0 · última release v1.2.3 (25-oct-2026)
+• ibrahim91015/AudioScope — ★1 · empujó el 6-oct-2026 (hace 29 días) · GPL-3.0 · última release v0.5.2 (6-oct-2026)
+• bunbun-midi/RootlessJamesDSP-SKDSP — ★1 · empujó el 27-oct-2026 (hace 8 días) · GPL-3.0 · última release v1 (27-oct-2026)
+• AlphadogRSA/spotifyplus-tv-patch — ★21 · empujó el 27-oct-2026 (hace 8 días) · MIT · última release v1.3.0.9 (27-oct-2026)
+• Moriafly/SaltPlayerSource — ★7.596 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release 12.6.0 (2-nov-2026)
+• namidaco/namida — ★6.786 · empujó el 1-nov-2026 (hace 3 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
+• rukamori/ArchiveTune — ★7.956 · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
+• maxrave-dev/SimpMusic — ★12.728 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• MetrolistGroup/Metrolist — ★14.000 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• AntennaPod/AntennaPod — ★8.263 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release 3.12.3 (13-oct-2026)
+• z-huang/InnerTune — ★6.139 · *dormido*: sin empujar desde el 13-nov-2025 (356 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• naman14/Timber — ★7.036 · *dormido*: sin empujar desde el 28-abr-2023 (1286 días) · sin licencia detectada por la API · última release v1.7 (5-oct-2020)
+• james34602/JamesDSPManager — ★989 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · sin licencia detectada por la API · última release 28Nov2023 (2-dic-2023)
 • thepbone/RootlessJamesDSP — sin dato hoy (la API no respondió). No afirmo nada.
-• RikkaApps/Shizuku — ★32.728 · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.765 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

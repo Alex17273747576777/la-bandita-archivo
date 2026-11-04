@@ -1,9 +1,9 @@
 # PIEZA 01 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`
-- **Fecha de la pieza:** 2-nov-2026 (según dateline; edad hoy: 1 días)
+- **Fecha de la pieza:** 2-nov-2026 (según dateline; edad hoy: 2 días)
 - **sha256 de la pieza:** `49bb71194d12c6c18f063ac9d8ee1518612cc21658605b31bed4831fcbad239a`
-- **Envío generado:** 2026-11-03 · 27 mensajes · el mayor de 3676 caracteres
+- **Envío generado:** 2026-11-04 · 27 mensajes · el mayor de 3676 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 27 · 1010 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 6 · Apache-2.0 2 · NOASSERTION 1 · AG
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md
 
-💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 4 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 27 · 3481 caracteres ═══
 
@@ -582,22 +582,22 @@ Y queda la parte que no depende de ninguna herramienta: cuando alguien mande un 
 
 ⏬ sigue abajo · parte 24 de 26
 
-═══ MENSAJE 26 de 27 · 1583 caracteres ═══
+═══ MENSAJE 26 de 27 · 1575 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
-Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 4 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ImranR98/Obtainium — ★21.188 · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
-• Droid-ify/client — ★7.689 · *dormido*: sin empujar desde el 12-sep-2026 (52 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
-• NeoApplications/Neo-Store — ★5.622 · empujó el 23-oct-2026 (hace 11 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
-• MuntashirAkon/AppManager — ★9.428 · empujó en las últimas horas · NOASSERTION · última release v4.1.1 (4-sep-2026)
-• RikkaApps/Shizuku — ★32.728 · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• NeoApplications/Neo-Backup — ★3.893 · empujó el 17-oct-2026 (hace 17 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
-• XayahSuSuSu/Android-DataBackup — ★7.556 · empujó el 25-oct-2026 (hace 9 días) · GPL-3.0 · última release 2.0.12 (20-sep-2025)
-• 0x192/universal-android-debloater — ★20.323 · *dormido*: sin empujar desde el 2-ago-2024 (823 días) · GPL-3.0
-• rumboalla/apkupdater — ★4.063 · *dormido*: sin empujar desde el 28-may-2026 (159 días) · GPL-3.0 · última release 0.0.604-ci (28-may-2026)
-• accrescent/accrescent — ★2.305 · empujó en las últimas horas · Apache-2.0 · última release 0.28.1 (10-nov-2025)
+• ImranR98/Obtainium — ★21.193 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• Droid-ify/client — ★7.693 · *dormido*: sin empujar desde el 12-sep-2026 (53 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
+• NeoApplications/Neo-Store — ★5.624 · empujó el 23-oct-2026 (hace 12 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
+• MuntashirAkon/AppManager — ★9.434 · empujó en las últimas horas · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• RikkaApps/Shizuku — ★32.765 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• NeoApplications/Neo-Backup — ★3.894 · empujó en las últimas horas · AGPL-3.0 · última release 8.3.18 (3-may-2026)
+• XayahSuSuSu/Android-DataBackup — ★7.558 · empujó el 25-oct-2026 (hace 10 días) · GPL-3.0 · última release 2.0.12 (20-sep-2025)
+• 0x192/universal-android-debloater — ★20.326 · *dormido*: sin empujar desde el 2-ago-2024 (824 días) · GPL-3.0
+• rumboalla/apkupdater — ★4.064 · *dormido*: sin empujar desde el 28-may-2026 (160 días) · GPL-3.0 · última release 0.0.604-ci (28-may-2026)
+• accrescent/accrescent — ★2.306 · empujó en las últimas horas · Apache-2.0 · última release 0.28.1 (10-nov-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,12 +1,12 @@
 # PIEZA 04 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/04-Los-cinco-herederos-de-Shizuku-el-original-que-no-se-mueve-y-los-cuatro-que-publican-todos-los-dias-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md`
-- **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `09f6ae34fe1e2b24dac74487ed0d604103b54067abfc18766eb743732c675a08`
-- **Envío generado:** 2026-11-03 · 26 mensajes · el mayor de 3553 caracteres
+- **Envío generado:** 2026-11-04 · 26 mensajes · el mayor de 3553 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 26 · 870 caracteres ═══
+═══ MENSAJE 1 de 26 · 1049 caracteres ═══
 
 *Los cinco herederos de Shizuku — versión de WhatsApp: el teléfono que pide permiso, el original con quinientos tres días de silencio y los cuatro que sí empujan*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *7 repositorios, 7 vivos*, m�
 
 Licencias de lo que recomienda: Apache-2.0 6 · GPL-3.0 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 3-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/04-Los-cinco-herederos-de-Shizuku-el-original-que-no-se-mueve-y-los-cuatro-que-publican-todos-los-dias-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md
 
-💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 4 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 26 · 2327 caracteres ═══
+═══ MENSAJE 2 de 26 · 2417 caracteres ═══
+
+[Texto del 3-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *Los cinco herederos de Shizuku — versión de WhatsApp: el teléfono que pide permiso, el original con quinientos tres días de silencio y los cuatro que sí empujan*
 
@@ -501,15 +505,15 @@ El ecosistema, medido hoy, dice tres cosas a la vez y las tres son ciertas: el o
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
-Medí otra vez, hoy 3 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 4 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.728 · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• thedjchi/Shizuku — ★6.703 · *dormido*: sin empujar desde el 15-jul-2026 (111 días) · Apache-2.0 · última release v13.7.0-thedjchi (2-jul-2026)
-• thejaustin/ShizukuPlus — ★1.687 · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
-• rushiranpise/Shizuku-Next — ★1.414 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
-• kerneldroid/Nightzuku — ★330 · empujó en las últimas horas · Apache-2.0 · última release v13.7.1-r59 (2-nov-2026)
-• krishna3163/OmniShizuku — ★17 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
-• iamr0s/Dhizuku — ★4.082 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• RikkaApps/Shizuku — ★32.765 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• thedjchi/Shizuku — ★6.717 · *dormido*: sin empujar desde el 15-jul-2026 (112 días) · Apache-2.0 · última release v13.7.0-thedjchi (2-jul-2026)
+• thejaustin/ShizukuPlus — ★1.690 · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
+• rushiranpise/Shizuku-Next — ★1.431 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
+• kerneldroid/Nightzuku — ★331 · empujó en las últimas horas · Apache-2.0 · última release v13.7.1-r60 (4-nov-2026)
+• krishna3163/OmniShizuku — ★18 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
+• iamr0s/Dhizuku — ★4.084 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

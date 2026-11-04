@@ -1,12 +1,12 @@
 # PIEZA 01 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/01-El-turno-de-los-que-nacieron-este-trimestre-doce-apps-de-octubre-que-casi-nadie-conoce-y-dos-que-no-aguantan-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`
-- **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `725e407b101ea275c787837f422c083a6a203ba90e721d4ee785ddcf753db5e0`
-- **Envío generado:** 2026-11-03 · 20 mensajes · el mayor de 3537 caracteres
+- **Envío generado:** 2026-11-04 · 20 mensajes · el mayor de 3537 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 20 · 909 caracteres ═══
+═══ MENSAJE 1 de 20 · 1088 caracteres ═══
 
 *El turno de los que nacieron este trimestre: doce aplicaciones de octubre que casi nadie conoce, seiscientas estrellas entre todas, y dos que no aguantan el escrutinio*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *17 repositorios, 17 vivos*, 
 
 Licencias de lo que recomienda: Apache-2.0 6 · GPL-3.0 5 · MIT 4 · AGPL-3.0 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 3-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/01-El-turno-de-los-que-nacieron-este-trimestre-doce-apps-de-octubre-que-casi-nadie-conoce-y-dos-que-no-aguantan-Facebook-La-Bandita-2026-11-03-dominicano-ES.md
 
-💓 3 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 4 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 20 · 2349 caracteres ═══
+═══ MENSAJE 2 de 20 · 2439 caracteres ═══
+
+[Texto del 3-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *El turno de los que nacieron este trimestre: doce aplicaciones de octubre que casi nadie conoce, seiscientas estrellas entre todas, y dos que no aguantan el escrutinio*
 
@@ -387,29 +391,29 @@ Los dos que se quedaron fuera enseñan la otra mitad. Que un programa esté bien
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 2079 caracteres ═══
+═══ MENSAJE 19 de 20 · 2107 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
-Medí otra vez, hoy 3 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 4 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• coldMEW/Hush — ★132 · empujó en las últimas horas · GPL-3.0 · última release v2.0.5 (2-nov-2026)
-• Bingblop/ADB-Root-Toolbox — ★121 · empujó el 31-oct-2026 (hace 3 días) · GPL-3.0 · última release v7.22.1 (31-oct-2026)
-• bl3xand/APK-Toolbox — ★101 · empujó el 28-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.1.6 (28-oct-2026)
-• henry-97/MineApp — ★70 · empujó el 31-oct-2026 (hace 3 días) · GPL-3.0 · última release v3.8.5 (31-oct-2026)
-• WEIHEWU/shizuku-sam — ★37 · empujó en las últimas horas · Apache-2.0 · última release v13.8.39 (2-nov-2026)
-• HellzYeahh/earshot — ★36 · empujó el 1-nov-2026 (hace 2 días) · MIT · última release v0.9.0 (28-oct-2026)
-• aaron-gh/SandFly — ★20 · empujó en las últimas horas · Apache-2.0 · última release v0.3.1 (2-nov-2026)
-• wized2/Latch — ★17 · empujó el 29-oct-2026 (hace 5 días) · MIT · última release v0.6.3 (22-oct-2026)
-• sidnvy/8bercue — ★17 · empujó el 26-oct-2026 (hace 8 días) · AGPL-3.0
-• krishna3163/OmniShizuku — ★17 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
+• coldMEW/Hush — ★138 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.0.5 (2-nov-2026)
+• Bingblop/ADB-Root-Toolbox — ★122 · empujó el 31-oct-2026 (hace 4 días) · GPL-3.0 · última release v7.22.1 (31-oct-2026)
+• bl3xand/APK-Toolbox — ★101 · empujó el 28-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.1.6 (28-oct-2026)
+• henry-97/MineApp — ★72 · empujó el 31-oct-2026 (hace 4 días) · GPL-3.0 · última release v3.8.5 (31-oct-2026)
+• WEIHEWU/shizuku-sam — ★40 · empujó en las últimas horas · Apache-2.0 · última release v13.8.40 (4-nov-2026)
+• HellzYeahh/earshot — ★37 · empujó el 1-nov-2026 (hace 3 días) · MIT · última release v0.9.0 (28-oct-2026)
+• aaron-gh/SandFly — ★21 · empujó en las últimas horas · Apache-2.0 · última release v0.3.1 (2-nov-2026)
+• wized2/Latch — ★17 · empujó el 29-oct-2026 (hace 6 días) · MIT · última release v0.6.3 (22-oct-2026)
+• sidnvy/8bercue — ★17 · empujó el 26-oct-2026 (hace 9 días) · AGPL-3.0
+• krishna3163/OmniShizuku — ★18 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
 • capitan0n/droynis — ★15 · empujó en las últimas horas · GPL-3.0 · última release v0.15.0 (1-nov-2026)
-• rdevz-ph/RedirectGuard — ★15 · empujó en las últimas horas · Apache-2.0 · última release v1.6 (2-nov-2026)
-• Ghostpanter/ghost-files — ★13 · empujó en las últimas horas · MIT · última release v0.7.2 (27-oct-2026)
-• wlmosv-png/wpaforge — ★150 · empujó en las últimas horas · Apache-2.0 · última release v1.9.40 (3-nov-2026)
-• zsw125/o3root — ★31 · empujó en las últimas horas · MIT · última release v3.2 (31-oct-2026)
-• timschneeb/awesome-shizuku — ★10.692 · empujó el 31-oct-2026 (hace 3 días) · NOASSERTION
-• trypsynth/backtalk — ★72 · empujó en las últimas horas · Apache-2.0
+• rdevz-ph/RedirectGuard — ★16 · empujó en las últimas horas · Apache-2.0 · última release v1.6 (2-nov-2026)
+• Ghostpanter/ghost-files — ★13 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release v0.7.2 (27-oct-2026)
+• wlmosv-png/wpaforge — ★153 · empujó en las últimas horas · Apache-2.0 · última release v1.9.40 (3-nov-2026)
+• zsw125/o3root — ★33 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release v3.2 (31-oct-2026)
+• timschneeb/awesome-shizuku — ★10.699 · empujó el 31-oct-2026 (hace 4 días) · NOASSERTION
+• trypsynth/backtalk — ★72 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
