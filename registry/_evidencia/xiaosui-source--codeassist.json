@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-27T00:45:42Z",
+   "oid": "33e6e9089cc4a1915de6534cab8ba81af9ec801b"
+  }
+ },
+ "diskUsage": 49159,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "xiaosui-source/CodeAssist",
+ "pushedAt": "2026-08-27T07:59:32Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

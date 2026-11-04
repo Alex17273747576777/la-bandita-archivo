@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#morocoeltopo/anikku-Preview-personal",
-  "sha256": "a4d86e3a20f4e9ec4f3b6f62bbabbf3fc262b1b56467e22e2f31480c8f2225c1"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/morocoeltopo--anikku-preview-personal.json",
+  "sha256": "96c87e22993bc5472e3c328dafad043f2cf748cac2243eadb083c9df543edfeb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

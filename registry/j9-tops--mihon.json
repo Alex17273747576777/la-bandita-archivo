@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#J9-tops/mihon",
-  "sha256": "8aacb248de66ff58c3a4812933723f4758d5a8e0a81b8b4805f08d576d40b0cd"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/j9-tops--mihon.json",
+  "sha256": "2fce08e2f9e82102c337944aabacf3846397efb8fe7f21546bc0cdc0baa01604"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

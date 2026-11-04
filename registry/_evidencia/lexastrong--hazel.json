@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-07T12:21:01Z",
+   "oid": "8a04614ae4828b3c8a645b9d1278f499a7b91709"
+  }
+ },
+ "diskUsage": 14000,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "LexaStrong/Hazel",
+ "pushedAt": "2026-10-07T12:21:03Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

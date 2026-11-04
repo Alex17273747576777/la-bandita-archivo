@@ -8,9 +8,16 @@
  },
  "descripcion": "MicroG fork designed for ReVanced apps with beautiful design and improvements",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#disini/MicroG-RE",
-  "sha256": "4f54def5ca62a20a6d660878b047ce1a7267135db063787633929becd65e6368"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/disini--microg-re.json",
+  "sha256": "9824af1e1fa42b85cad1116b15cbba4ea4ba3b307316b9f57d78e2845c6ffe67"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

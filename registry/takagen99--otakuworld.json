@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/takagen99--otakuworld.json",
   "sha256": "d51f8f1cefb24deb291a2514a26fa12286c751f121498e7bc2480c8aa8586b3b"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

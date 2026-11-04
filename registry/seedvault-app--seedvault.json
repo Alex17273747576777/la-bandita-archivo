@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/seedvault-app--seedvault.json",
   "sha256": "c84ad01268601cdbeab3595f8f72c6812547873d9426b9dd2bebb4f2d0f3aaeb"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

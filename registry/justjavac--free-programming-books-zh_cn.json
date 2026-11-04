@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/justjavac--free-programming-books-zh_cn.json",
   "sha256": "eb513e722cf05143b8a256a2eb9f89c31f40950b782a99d996a0fd270441d398"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

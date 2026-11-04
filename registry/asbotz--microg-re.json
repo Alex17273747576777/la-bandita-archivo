@@ -8,9 +8,16 @@
  },
  "descripcion": "MicroG fork designed for ReVanced apps with beautiful design and improvements",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Asbotz/MicroG-RE",
-  "sha256": "3ce5777a4942530054f2c5962e736160c6ec141a1b15d46409e84d696aad48eb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/asbotz--microg-re.json",
+  "sha256": "00ec60a91595ea39b61de8bfeb45b5e80b986c74ee3160e80ba8076615d79c27"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

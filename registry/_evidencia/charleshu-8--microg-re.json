@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-04-19T10:58:14Z",
+   "oid": "13bb63e3cc2bab751843b29160111034361e21b2"
+  }
+ },
+ "diskUsage": 47348,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "charleshu-8/MicroG-RE",
+ "pushedAt": "2026-04-19T11:04:58Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

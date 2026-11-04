@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2025-02-02T15:56:00Z",
+   "oid": "d592ab2e8712d13169942a7e7f53ef0c29a77a7b"
+  }
+ },
+ "diskUsage": 65208,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "pureology/mihon",
+ "pushedAt": "2025-02-02T15:56:01Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

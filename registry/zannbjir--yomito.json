@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/zannbjir--yomito.json",
   "sha256": "37c7f9df7e85b1abdcfdb279d3f4f980b585de5eaa47c8999d9fe680ad6ed1f1"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

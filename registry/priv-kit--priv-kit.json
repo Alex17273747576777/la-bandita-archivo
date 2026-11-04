@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/priv-kit--priv-kit.json",
   "sha256": "1c4910ee562a4dbb2fe6790821b6d11491cc4c3140b2f50ef870b8548bd8267e"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

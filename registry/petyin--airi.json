@@ -8,9 +8,16 @@
  },
  "descripcion": "Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livi",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#PetYin/airi",
-  "sha256": "683c3bc1186355a97ed7a5fcb1d7a058a31c9dcea62499f85c90e3514ca08d81"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/petyin--airi.json",
+  "sha256": "57745aa0fdbeb1c310a72c6852562447ac776bf72dbf375f510efcd91879b165"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

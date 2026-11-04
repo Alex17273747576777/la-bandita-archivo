@@ -8,9 +8,16 @@
  },
  "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop th",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#MaestroX23/web-to-app",
-  "sha256": "b11b84361b201d665c647f852a7cd3894ecb42a027d1a62ba54321e3ab06659f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/maestrox23--web-to-app.json",
+  "sha256": "7f898fb03ba32b10cbf24158a6fc152e93a129c4bd653b9d71b581ee83c627bc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

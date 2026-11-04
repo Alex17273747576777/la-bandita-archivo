@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#lunamoonlitsky/yokai",
-  "sha256": "702af92d965cb1aaad30024d624291ebd61aa29948ba7071f1e79927ae356500"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lunamoonlitsky--yokai.json",
+  "sha256": "cd0344c9da91c9998c25a33a217b8a57259e8a771e13deb8589e76b96698deb5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/sackman404--airi.json",
   "sha256": "e6f1d6e4ddfef425f3b8b33e37ccced1d9de78a527c6506f9ed3e75d353ad12b"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

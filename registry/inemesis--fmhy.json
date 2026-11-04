@@ -8,9 +8,16 @@
  },
  "descripcion": "https://fmhy.net/",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#iNemesis/FMHY",
-  "sha256": "0272d83538dffa9f4981dd4c85794f2a89f61240398d557982ae7bc72350271f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/inemesis--fmhy.json",
+  "sha256": "5ac2963530a91e80398fc797c6ca070572fa9d00f526b8dee36148b8d8550f7b"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

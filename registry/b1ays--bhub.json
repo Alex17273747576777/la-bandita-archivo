@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/b1ays--bhub.json",
   "sha256": "f329a34278749b1ad86795f74ec5b6ff95c05a3939be2d5b41649d38b579942f"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

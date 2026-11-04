@@ -8,9 +8,16 @@
  },
  "descripcion": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber l",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#K1fu/airi",
-  "sha256": "d83c31ce2fb913b29eff3a2ad2cc140e4efa87fdcea009cc611e67cbfdc17a54"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/k1fu--airi.json",
+  "sha256": "6e8f8c6aab2bc958221c1037b619c743df85b677dc731de32a17a84dc97c3064"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

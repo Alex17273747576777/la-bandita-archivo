@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/feigecode--navop.json",
   "sha256": "fcddb194dfe26bef1e5374d588064e6077b1706addc95ed6f67d879df4142d27"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

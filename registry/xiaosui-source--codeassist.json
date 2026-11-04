@@ -8,9 +8,16 @@
  },
  "descripcion": "An IDE for building Android applicatons on Android.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#xiaosui-source/CodeAssist",
-  "sha256": "3900a548f259222ccd4b78676e29885107f7d0b6af2a7e87156dc53a77bc2a5c"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/xiaosui-source--codeassist.json",
+  "sha256": "d683ce2f32d002f092b47098119d6eaa5c6c9e93efd291c876a40609e46de820"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

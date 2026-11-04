@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/san9-dunes--yokai.json",
   "sha256": "aaff8f3998ab807bae88ad4dc03b08b1d576188f98c8414918034a3157c9feca"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

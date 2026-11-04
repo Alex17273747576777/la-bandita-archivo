@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source anime watcher for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#nexority-dev/anikku",
-  "sha256": "9850b8a8de6a49f0fe436cf3a151c7b232882ed9661a8cba0044ba800484e585"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/nexority-dev--anikku.json",
+  "sha256": "eeffb4ad3d6d26b9c7e00b353445301bd255b3717b9e372a5f9ea64818814925"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "Android video and audio downloader built on yt-dlp. Paste a URL, see every forma",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#sub314xxl/Hazel",
-  "sha256": "1762b80100fc68eed71050107bd8d89f4c994aace0676ff0a0e7af3002eea614"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/sub314xxl--hazel.json",
+  "sha256": "4cb129b6950c0024d89afd48b9f704ded48df1a36bd9f511a445320495b87b1c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

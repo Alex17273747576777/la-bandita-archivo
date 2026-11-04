@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/awerkori--anime-extensoes.json",
   "sha256": "60448b7e2bf4dc3f66ca590ee04102ac6bcc2ca48c45a5a0f88d454898499a8b"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

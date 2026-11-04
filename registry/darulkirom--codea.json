@@ -8,9 +8,16 @@
  },
  "descripcion": "An IDE for building Android applicatons on Android.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#darulkirom/codea",
-  "sha256": "9281f401f8c419955be4b6f1b162e9808e3ba9b4dbe6ccd2edd010a6d5920194"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/darulkirom--codea.json",
+  "sha256": "339bfd503b2a82328d586eb054495c9c48b6340717657106c57bac8a976b2f2b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

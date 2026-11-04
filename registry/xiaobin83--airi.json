@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/xiaobin83--airi.json",
   "sha256": "96476bc18a481a2b0ff3df6b2fce8a697c7ce99474563eff64312a904d5be9d7"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

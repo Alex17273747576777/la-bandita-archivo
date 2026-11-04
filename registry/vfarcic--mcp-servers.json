@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/vfarcic--mcp-servers.json",
   "sha256": "a2ffee245d98a4f2e48f153b6481dc3a499b4ac1053f792846639d756c391655"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

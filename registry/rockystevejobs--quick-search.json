@@ -8,9 +8,16 @@
  },
  "descripcion": "An all-in-one search app for Android which can search apps, contacts, files and",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#RockySteveJobs/quick-search",
-  "sha256": "13c2a6645063c6dcbdc14e0620f25ae7a79d053e6aefca9c4e9ca5d7c8b44d83"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/rockystevejobs--quick-search.json",
+  "sha256": "a94ffdda9bbbdf853926e810dfb77617ddf52913bba3f4c415734b5abce006dc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

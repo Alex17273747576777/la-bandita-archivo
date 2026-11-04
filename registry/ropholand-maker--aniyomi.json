@@ -8,9 +8,16 @@
  },
  "descripcion": "An app for manga and anime",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ropholand-maker/aniyomi",
-  "sha256": "90fdc223fc73b17c1ea1d8133d9ee7aa3240a1ff2c1399898dad1519c9f94b2d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ropholand-maker--aniyomi.json",
+  "sha256": "8a80620de8fe921225aa2cb713dc593302e4bfdc2028ef1f08e826ef0cff2976"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

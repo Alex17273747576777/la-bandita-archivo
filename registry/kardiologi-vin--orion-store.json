@@ -8,9 +8,16 @@
  },
  "descripcion": "The ultimate home for modded apps. OrionStore offers instant access to YouTube M",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#kardiologi-vin/Orion-Store",
-  "sha256": "ffbb0bd791185f50db6f8b563aef69744f6ad99e6309f1b5983000083b733121"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kardiologi-vin--orion-store.json",
+  "sha256": "edab90ae51415c63b10c6156109f76e6c2cb05e27e89de6362fe5409a08ad58a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

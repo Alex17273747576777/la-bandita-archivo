@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-06-19T13:37:35Z",
+   "oid": "d8fcd5a18646506d6c33a357485f2c049dfa3f96"
+  }
+ },
+ "diskUsage": 72600,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "CrimsonCubeLab/web-to-app",
+ "pushedAt": "2026-06-19T13:37:42Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

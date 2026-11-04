@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/phong711--airi.json",
   "sha256": "3ff636a7b3302976a0667d563e80b26cf6d42ad27f9c776963cc8d29d523c391"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

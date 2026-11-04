@@ -8,9 +8,16 @@
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#kasdals/InstallerX-Revived",
-  "sha256": "59490d5f9555193208dd16b18bfc3bcd05c6472859b2d89e48341c6612617052"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kasdals--installerx-revived.json",
+  "sha256": "255a6719370f1b80630000ce16526e8af6de5d49ce0dcc5a794a33f1265d91ce"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

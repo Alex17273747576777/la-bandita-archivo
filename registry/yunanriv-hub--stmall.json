@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/yunanriv-hub--stmall.json",
   "sha256": "c6eb0e38c3f11dfb6101143f98aa471e572e7bf8fdc54ee664ed71c70817ac0a"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

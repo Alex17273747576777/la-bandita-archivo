@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/mattcode2--jishoyomi.json",
   "sha256": "61753ca78a4dde0f714f449c7d98df3d7220b01025da0c123dbc87b8e405c6cd"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

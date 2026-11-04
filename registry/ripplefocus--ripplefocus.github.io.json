@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ripplefocus--ripplefocus.github.io.json",
   "sha256": "22a28fa56dc7252fa049ba244d60c2508883610aaaab8ef9c73d2c1d4beb9a38"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

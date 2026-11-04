@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/shidaxinyyds--shuaituzhibin.json",
   "sha256": "9d9babc2dc9fc61cd865976625ca519439e287b7110d831eec20d555e5e13c18"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

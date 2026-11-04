@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/mzlogin--awesome-adb.json",
   "sha256": "a590828b2108902cfd4db4a458d2837d1388700fd70fcddca90e82b2dc8ce387"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

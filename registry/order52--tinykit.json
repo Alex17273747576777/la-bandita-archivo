@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/order52--tinykit.json",
   "sha256": "67a2d775742df84e03395ffe354bbeef4ea16d2775c12ab382ba328d59bc6fa2"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

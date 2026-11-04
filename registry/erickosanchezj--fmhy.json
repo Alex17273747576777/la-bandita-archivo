@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/erickosanchezj--fmhy.json",
   "sha256": "5d70a92f3e77906cf9fd87cab5ef678142a7979a3a683b371cb64a211ac7d49a"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

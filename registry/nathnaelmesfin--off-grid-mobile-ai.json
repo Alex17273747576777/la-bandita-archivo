@@ -8,9 +8,16 @@
  },
  "descripcion": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy F",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Nathnaelmesfin/off-grid-mobile-ai",
-  "sha256": "d96367f63003e8c29e0faba12d69ddd3f09cbdb7204c70fcfb13dd4d2e54c12e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/nathnaelmesfin--off-grid-mobile-ai.json",
+  "sha256": "96c59194cc3218ae2ef8977821eac05c7173ae3010a632e862b8ffeb9d5e101f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

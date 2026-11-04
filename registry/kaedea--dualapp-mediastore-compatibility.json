@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/kaedea--dualapp-mediastore-compatibility.json",
   "sha256": "b61747a842268e08398edc961cc5ab60e59363574e7d9db1ad652044f2738999"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

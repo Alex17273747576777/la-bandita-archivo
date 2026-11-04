@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/twilightstarr--terminalf.json",
   "sha256": "4fac0102e77d30b671f951989aa9e9e7f9d17da678b46b768e01f901db41bacd"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

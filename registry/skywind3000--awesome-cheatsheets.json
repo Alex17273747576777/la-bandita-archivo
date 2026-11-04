@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/skywind3000--awesome-cheatsheets.json",
   "sha256": "e60bf555c68b7385d8a698b7e4b2bb0212d3cfd61f1e102c45f52a876502c4d9"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

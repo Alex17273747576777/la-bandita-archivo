@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/nyzeep--orchestella-studio.json",
   "sha256": "f10d6bfe607e60261873c10ac75bca87086fbf6b6c6f4b58987e5e22c24a7812"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/openstf--stf.json",
   "sha256": "507ebe7c9368d447da61bca9f5fd4bd406d4540b756042fd467b511fc7e1967c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

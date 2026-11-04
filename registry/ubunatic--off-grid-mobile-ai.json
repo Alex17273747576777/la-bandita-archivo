@@ -8,9 +8,16 @@
  },
  "descripcion": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy F",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ubunatic/off-grid-mobile-ai",
-  "sha256": "e12d72c357e51a4e862c60b036d3a90f5733ec91b37049a1e25bf82b099dfed9"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ubunatic--off-grid-mobile-ai.json",
+  "sha256": "52e45c778506e1dc2cf230995c8f178eb75fdda5f7a6fece9285bf8ecb6c4a5f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

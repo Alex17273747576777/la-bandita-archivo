@@ -8,9 +8,16 @@
  },
  "descripcion": "A gui to download anime & manga in batches & its fast :3",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#wolferm86/StrawVerse",
-  "sha256": "de59f3671f56c781fb043f731fd01b7bd79f352c5b1128f24e66cbf710e223aa"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/wolferm86--strawverse.json",
+  "sha256": "fbc30c4ee21703fd786d9844c615a30c09106ef94ff3a200ad060973b24eeb90"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

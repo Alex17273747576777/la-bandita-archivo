@@ -8,9 +8,16 @@
  },
  "descripcion": "A local-first personal AI agent that lives on your Android phone. Permanent memo",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#bhagaban/j-android-ai-agent",
-  "sha256": "6773a9d97e4796f53aaa1119739b3a695842c4d3bfca40d928915241baff7a6d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/bhagaban--j-android-ai-agent.json",
+  "sha256": "7c0159c6f5a0b2f54f7cecb7a60225fba132df44bdab0af180f338c49e1a4504"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

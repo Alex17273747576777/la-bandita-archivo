@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/soundsguyza--kai.json",
   "sha256": "45bb1e4016fd64adcbe63e06703e105b41204a2f0aea6d52868976bfe1124467"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

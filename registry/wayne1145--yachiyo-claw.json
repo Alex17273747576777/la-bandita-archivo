@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/wayne1145--yachiyo-claw.json",
   "sha256": "96d02f2470251340b962f0e5a3039904047007abea154a6e0e86dc93556bb32c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

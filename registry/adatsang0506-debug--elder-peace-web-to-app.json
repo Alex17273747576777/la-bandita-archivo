@@ -8,9 +8,16 @@
  },
  "descripcion": "A native Android application that converts any website URL into a standalone And",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#adatsang0506-debug/Elder-peace-web-to-app",
-  "sha256": "13695d1c819c780cd6e1dc224375d85c2c17c1364330277a584e46891bbfc308"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/adatsang0506-debug--elder-peace-web-to-app.json",
+  "sha256": "32fdad01613f3474eea6c8260860a55a4846d6e9a20170b71c6ba5490cb34e28"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

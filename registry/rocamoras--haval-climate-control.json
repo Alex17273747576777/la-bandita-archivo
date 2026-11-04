@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/rocamoras--haval-climate-control.json",
   "sha256": "0af2ce8ba19ad17e372491dabd1780ca8f87ea0d367ef0b1e6434184af2138a7"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

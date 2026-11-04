@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ipf-sinon--dsh-folk.json",
   "sha256": "54bfdbc8f40f3d7013815eb40023fc161ef0f20e0d5f33480dd5b22e95bc3b15"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

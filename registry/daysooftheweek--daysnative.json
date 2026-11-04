@@ -8,9 +8,16 @@
  },
  "descripcion": "In Development",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#daysooftheweek/Daysnative",
-  "sha256": "197b9eedd35510f78ffbda4e387abb28917ac047257907f27f0101ccb50ff889"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/daysooftheweek--daysnative.json",
+  "sha256": "371017b28bf92856c5de6cc28a56bbcfdec062c26dd8d9e25801eb128523e123"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

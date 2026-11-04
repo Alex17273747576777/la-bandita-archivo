@@ -8,9 +8,16 @@
  },
  "descripcion": "An AI Agent that lives in your pocket. Local-first and privacy focused.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#KevalGajjar-1/anythingllm-mobile",
-  "sha256": "8d8495a391033a29933a930d2602ded61923f8e72e953f5724d551b02cc5d519"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kevalgajjar-1--anythingllm-mobile.json",
+  "sha256": "a7b13e3290e01effb28c6a8c9d65412faa5e9b56ea7cfc23be5f198a77356f6a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

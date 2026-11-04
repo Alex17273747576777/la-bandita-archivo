@@ -77,6 +77,7 @@ Arena-Reimagined/
     POSTS-COMUNIDAD/          las historias del muro, que no son piezas de la serie
   00-CANON/                   los cuatro archivos de la casa
   02-ARCHIVO/                 registro de hitos y evidencia de las jornadas
+    _etapas-anteriores/       la memoria de Arena: versiones, packs, herramientas, referencia
 registry/                     las 6.838 fichas medidas, la materia prima de todo
 schemas/                      el contrato de datos: la forma que toda ficha debe cumplir
 docs/                         compuertas, bandas, envíos, actas, tableros
@@ -127,13 +128,29 @@ Las tres herramientas que apuntaban a las rutas viejas —`tools/duplicados.py`,
 
 ---
 
+## Lo que se movió el 3 de noviembre (segunda pasada)
+
+`Arena-Reimagined/` tenía cinco carpetas de etapas anteriores al mismo nivel que el presente. Ahora viven bajo `02-ARCHIVO/_etapas-anteriores/`, que es donde el propio proyecto guarda su memoria:
+
+| Antes | Ahora | Qué es |
+|---|---|---|
+| `Arena-Reimagined/_versiones/` | `Arena-Reimagined/02-ARCHIVO/_etapas-anteriores/_versiones/` | manual, tratado y lecciones congelados |
+| `Arena-Reimagined/packs/` | `…/_etapas-anteriores/packs/` | extras de las series viejas |
+| `Arena-Reimagined/_herramientas/` | `…/_etapas-anteriores/_herramientas/` | la lupa, las forjas, el montador |
+| `Arena-Reimagined/_herramientas-casa/` | `…/_etapas-anteriores/_herramientas-casa/` | una copia suelta de `verificar-suelo.py` |
+| `Arena-Reimagined/_referencia/` | `…/_etapas-anteriores/_referencia/` | consulta local, fuera del versionado |
+
+**Cómo se comprueba que no quedó nada roto.** No basta con mirar: hay una compuerta. `tools/referencias.py` guarda la tabla de mudanzas y separa dos cosas que no son lo mismo —una ruta vieja citada por un archivo que hoy se lee (fallo) y una citada por un acta o un registro histórico (cita que se conserva y se traduce)—. Su veredicto hoy: **0 rutas vivas rotas**, 307 citas históricas en 47 documentos, y **G17** en la vara impide que la próxima mudanza se olvide de esto.
+
+Lo archivable que no se movió, y por qué:
+
+- **`uploads/`** sigue en la raíz: es la carpeta de entrada de material nuevo, no memoria.
+- **`Arena-Reimagined/ENTREGA-29OCT-2026/`, los ZIP y `ENTREGA-La-Bandita-COMPLETA.html`** se quedan donde están: son entregas firmadas con su propio manifiesto de SHA-256, y moverlas rompería los hashes que las acreditan.
+
 ## Deuda declarada
 
-No todo se movió, y decirlo es parte del arreglo:
-
-- **`Arena-Reimagined/`** conserva carpetas de etapas anteriores (`_versiones/` 43 referencias, `packs/` 81, `_herramientas/` 26, más las entregas en zip). Se moverán en una pasada dedicada, con las referencias corregidas en el mismo cambio. Hoy este mapa las nombra en vez de fingir que no existen.
-- **`uploads/`** se mantiene en la raíz porque es la carpeta de entrada de material nuevo; su contenido está declarado, no disperso.
 - **Dos deudas congeladas** en `tools/baseline.json`: una pieza del histórico sin latido (G0) y cinco sin novedad medida (G13). Están a la vista y no crecen.
+- **278 fichas sin objeto**: el repositorio que describen ya no existe (404). No se borran —borrar una ficha es perder la prueba de que se midió— y no se pueden remedir. Llevan su motivo escrito en `frescura.motivo`.
 
 ---
 

@@ -8,9 +8,16 @@
  },
  "descripcion": "an anime/manga streaming web app",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#sapphirme/Yorumi",
-  "sha256": "14d69607ac1a5a3b11779cfa5d796af2d941b71a91514b5ff4dc643d54c92e46"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/sapphirme--yorumi.json",
+  "sha256": "614a09a02d49af5c6f9ab9d0a75b17802e0a96a32f10991c505abec2657f2d2f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

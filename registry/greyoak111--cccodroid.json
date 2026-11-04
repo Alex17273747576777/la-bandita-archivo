@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/greyoak111--cccodroid.json",
   "sha256": "b20504d86d6af64a749b300d81499e24dc6d7aed493e2f0c3871162a06b3c8af"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

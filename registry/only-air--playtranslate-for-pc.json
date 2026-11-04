@@ -8,9 +8,16 @@
  },
  "descripcion": "Real-time screen translation app for PC for both language learners and casual ga",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Only-Air/playtranslate-for-PC",
-  "sha256": "91022ca4476e13c7d8a4c2b9a1edaa75ccebe3c3d0f57a6bf70495c4dc4f75a3"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/only-air--playtranslate-for-pc.json",
+  "sha256": "3b952af0652e36ce31e38a5d51ef10e0dd6d96f96ac75d0a63592b2797bd5e82"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

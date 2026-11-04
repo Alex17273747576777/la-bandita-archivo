@@ -8,9 +8,16 @@
  },
  "descripcion": "/r/FREEMEDIAHECKYEAH",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#neuroradiology/FMHY",
-  "sha256": "0f6a2eaeab96e82466a45884cfa22615dd3827bd8fb526f5d20ee832cc99b902"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/neuroradiology--fmhy.json",
+  "sha256": "a0bb2c462a003ab15b2445e74a3ba5610909e792c13775b926a363b3ebb540ce"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

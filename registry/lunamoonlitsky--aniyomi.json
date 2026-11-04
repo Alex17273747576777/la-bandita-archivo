@@ -8,9 +8,16 @@
  },
  "descripcion": "An app for manga and anime",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#lunamoonlitsky/aniyomi",
-  "sha256": "65245f06a70ff36250e25f3d0b21bf2cdfde53cf1efb9332331d7d4ef5913c78"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lunamoonlitsky--aniyomi.json",
+  "sha256": "7f998005e07a8dbd01f73edecc4faf179dc3372d9b5ed0e949d08c45a5bacdb8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

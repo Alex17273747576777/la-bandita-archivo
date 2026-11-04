@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Ayomicun/mangayomi",
-  "sha256": "bfbc2f3bfc009933a2723b45ae295bcd491d70a780cc3dc935f2f3e43f9c6deb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ayomicun--mangayomi.json",
+  "sha256": "7c5b2d023eedc4b12c43c1cd3d93389e01e148d582ff5cd9a878b71ca0a98212"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

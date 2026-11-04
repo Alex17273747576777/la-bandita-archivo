@@ -8,9 +8,16 @@
  },
  "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anyw",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#SSIDHul/mpvRx",
-  "sha256": "432844f6128b1fa5cccd5e9b869c73ac7d44f389dedb0af163048e5d6903074c"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ssidhul--mpvrx.json",
+  "sha256": "a8b6c5edc168f2fa6d8dfac391314bb733cf5efbc40e7ca4aa6f404d7b29b9fd"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

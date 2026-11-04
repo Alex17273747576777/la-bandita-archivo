@@ -8,9 +8,16 @@
  },
  "descripcion": "An app for manga, anime and ranobe",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#yoyski/Tadami-Aniyomi-fork",
-  "sha256": "7b2989cc2920c68108b17e41470793bbf2c0681c8e1763a248a6b50164bf81cc"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/yoyski--tadami-aniyomi-fork.json",
+  "sha256": "0277b1d92bad0ca7408b4605851d4d6d666dd1a6bbb3a2ebb364cee4d103077c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/kw-bivanov--mcp-servers.json",
   "sha256": "8ceb0349c2b1c3eebd92386f4b844982c6b5155f7ee77463e49c3616f6d59b84"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

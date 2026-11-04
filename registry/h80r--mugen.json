@@ -8,9 +8,16 @@
  },
  "descripcion": "An app for manga, anime and ranobe",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#h80r/mugen",
-  "sha256": "3ef1902ecc36017a47d5a6592aeaaf5c308f5012deccdd910e3ef2561a551768"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/h80r--mugen.json",
+  "sha256": "301ac555d69a9d8516712b5e37fac3c9880f476ff2b1ce0bc6022a17b2e2a6bd"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

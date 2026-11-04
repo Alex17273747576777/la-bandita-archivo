@@ -1,5 +1,10 @@
 {
- "medido_en": "2026-10-15",
- "fichas": 5684,
- "esquema": "schemas/ficha.schema.json"
+ "medido_en": "2026-11-03",
+ "medido_en_rango": [
+  "2026-11-03",
+  "2026-11-03"
+ ],
+ "fichas": 6838,
+ "esquema": "schemas/ficha.schema.json",
+ "nota": "medido_en es la fecha más reciente del registro; medido_en_rango dice la más vieja y la más nueva. Un registro medido en un solo día tiene un solo valor."
 }

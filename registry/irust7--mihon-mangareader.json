@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/irust7--mihon-mangareader.json",
   "sha256": "4add46d08191f37eff488a38c1db7d84d9534bbe82446ace17c65c43e9e4e4d5"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

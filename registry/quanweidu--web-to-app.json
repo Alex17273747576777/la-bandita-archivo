@@ -1,16 +1,23 @@
 {
  "actividad": {
-  "estado": "muerto",
+  "estado": "vivo",
   "release_en": null,
-  "semantica_http": 404,
+  "semantica_http": 200,
   "ultima_release": null,
   "ultimo_push": "2026-09-06"
  },
  "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop th",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#quanweiDu/web-to-app",
-  "sha256": "41be27ae032ad96c8979a5307f9273532d78fc00fd58eab696ed39e0ebf36ecb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/quanweidu--web-to-app.json",
+  "sha256": "96bfbc6b85046925135bdb5f80be8b1dc1345012ec5234fd0f32142a74d7e505"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {
@@ -21,23 +28,24 @@
  "id": "quanweidu--web-to-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
  },
  "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 0,
   "stars_por_mes": 0.0
  },
  "nombre": "web-to-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "56629926fac416c17f3cf237a1729c29922fba44",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:56629926fac416c17f3cf237a1729c29922fba44"
  },
  "repo": "quanweiDu/web-to-app"
 }

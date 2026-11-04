@@ -12,6 +12,14 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#moonsinnn/Tadami-Aniyomi-fork",
   "sha256": "b4112eb094fb7f8a08f659d9432a7b7feda9e6a473077eddae34b87a9a9537d9"
  },
+ "frescura": {
+  "dias": 19,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-10-15",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-11-14",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",

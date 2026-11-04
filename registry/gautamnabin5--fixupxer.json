@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#gautamnabin5/fixupxer",
-  "sha256": "8187ec1f5180a1705480f5dbe2606dd4074dcbbf41618f33aabbd6575feb81e4"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/gautamnabin5--fixupxer.json",
+  "sha256": "ec8e81634e6cbded347d29b53a983d755f836d855984f846967b17df67f1a4de"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

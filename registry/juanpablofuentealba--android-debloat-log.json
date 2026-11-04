@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/juanpablofuentealba--android-debloat-log.json",
   "sha256": "e3661bff86bc6553e82ae39b779270b24ca033212d375fbc02de1769b47c0775"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "OpenClaw alternative in your pocket",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Deadendev/PocketClaw",
-  "sha256": "e7ec67281e46bb425c1044542d28ba1a8f6e8d693c81fa7a3fd7487f141fae09"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/deadendev--pocketclaw.json",
+  "sha256": "82a28f9b269be9dc7c9abb79952d481109af55dfa6a84c7d00002984d238b770"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

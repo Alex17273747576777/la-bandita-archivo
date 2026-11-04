@@ -8,9 +8,16 @@
  },
  "descripcion": "Flint grab the matches, we are all going down!",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#bdenefowler-netizen/Kai-custom-Flint",
-  "sha256": "0e363536d71c2cacf7aa8cdf6be9728c53846a48fd53ee6e69d32e04677be9f4"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/bdenefowler-netizen--kai-custom-flint.json",
+  "sha256": "6ad441072e018a6670d86f57ae8bd5e506549810a5b8553b8674ca278e02c457"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

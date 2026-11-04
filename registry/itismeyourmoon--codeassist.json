@@ -8,9 +8,16 @@
  },
  "descripcion": "An IDE for building Android applicatons on Android.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ItIsMeYourMoon/CodeAssist",
-  "sha256": "545d7c2c3b443543916c4a8098203f4f4264862906e95465a7bdacf5b4bf6aa9"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/itismeyourmoon--codeassist.json",
+  "sha256": "234d15c79980d57c92adf332b2c3bfe915b5639f32f3415fa4ca726157a8163b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

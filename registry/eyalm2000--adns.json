@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/eyalm2000--adns.json",
   "sha256": "f4cff095d26df5a9d3bea8b6115ba0da446ea36a93b2f0623c58a4939b49c1a1"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

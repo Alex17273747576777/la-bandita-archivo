@@ -8,9 +8,16 @@
  },
  "descripcion": "Real-time game translation app for Android for both language learners and casual",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#furbi963/playtranslate",
-  "sha256": "fcdbe019ae9f331ac3ca464f507a9cd3dfb65b2340aec32f201b56f0b9a12560"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/furbi963--playtranslate.json",
+  "sha256": "059f1db96966380acd3068f6a0ebc94f615646e5dade6abd63c0ac3900b1279f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

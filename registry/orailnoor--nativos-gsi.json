@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/orailnoor--nativos-gsi.json",
   "sha256": "6a54318c1348f2f15127b0ba65a3481201d645da1423ed8a44822b98b3e8f77b"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

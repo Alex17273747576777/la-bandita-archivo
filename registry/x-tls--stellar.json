@@ -1,16 +1,23 @@
 {
  "actividad": {
-  "estado": "muerto",
+  "estado": "vivo",
   "release_en": null,
-  "semantica_http": 404,
+  "semantica_http": 200,
   "ultima_release": null,
   "ultimo_push": "2026-09-19"
  },
  "descripcion": "分支",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#X-TLS/Stellar",
-  "sha256": "16b36e5f7a5173660ea2c5746adaa40d223a3bec30fbd7f6598baf3b90381bdf"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/x-tls--stellar.json",
+  "sha256": "ca3a0b2602956bf38df29ff529d5dd7c06a83439132583f226f55f57b5f30748"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {
@@ -21,23 +28,24 @@
  "id": "x-tls--stellar",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
  },
  "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 0,
   "stars_por_mes": 0.0
  },
  "nombre": "Stellar",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "80b471d290e23c860ed29c731fe342392f8a3654",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:80b471d290e23c860ed29c731fe342392f8a3654"
  },
  "repo": "X-TLS/Stellar"
 }

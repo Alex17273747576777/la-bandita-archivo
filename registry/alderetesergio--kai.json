@@ -8,9 +8,16 @@
  },
  "descripcion": "Clon de SimonSchubert",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#AldereteSergio/Kai",
-  "sha256": "f4b8455cc156a091ffb5a765e96725320e2f1fcb4024fb7f86698b884e85a0e2"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/alderetesergio--kai.json",
+  "sha256": "44b5af53fb57fcb4a0492e0f4003fc10ae942f0d4fc641eaf1cf5505412d6c0d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

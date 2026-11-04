@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-11-02T17:28:35Z",
+   "oid": "fcc8509ba16d9f86a1807f1c2729582ece978926"
+  }
+ },
+ "diskUsage": 39662,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Mozilla Public License 2.0",
+  "spdxId": "MPL-2.0"
+ },
+ "nameWithOwner": "tahouse/Suwayomi-Tsumiru",
+ "pushedAt": "2026-11-02T17:28:35Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

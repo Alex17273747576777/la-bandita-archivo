@@ -27,6 +27,15 @@ verificar:  ## Las compuertas completas: registro, sello, vara y autoprueba
 	@$(PY) tools/vara.py
 	@$(PY) tools/autoprueba.py
 
+vencer:  ## Calcula qué ficha está vigente, cuál por vencer y cuál hay que remedir
+	@$(PY) tools/vencimiento.py --aplicar
+
+remedir:  ## Vuelve a medir en fuente primaria las fichas vencidas o sin respaldo (exige LBT)
+	LBT="$${LBT:?falta LBT: exportá el token de lectura}" $(PY) tools/censo_medir.py --vencidas --lote 50
+
+referencias:  ## Comprueba que ninguna carpeta movida siga citada por su ruta vieja
+	@$(PY) tools/referencias.py
+
 licencias:  ## Comprueba la licencia de cada archivo con REUSE (requiere: pip install reuse)
 	@command -v reuse >/dev/null || { echo "falta reuse: pip install reuse"; exit 1; }
 	@reuse lint | tail -12
@@ -66,4 +75,4 @@ push:  ## Empuja con el token de la bóveda (nunca se imprime)
 	@git push -q "https://x-access-token:$${GHP_A}@github.com/Alex17273747576777/la-bandita-archivo.git" HEAD:main
 	@echo "empujado: $$(git rev-parse --short HEAD)"
 
-.PHONY: ayuda doctor verificar licencias sellar compuertas generar sitio tareas indice libro medir publicar push
+.PHONY: ayuda doctor verificar vencer remedir referencias licencias sellar compuertas generar sitio tareas indice libro medir publicar push

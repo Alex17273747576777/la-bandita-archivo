@@ -8,9 +8,16 @@
  },
  "descripcion": "Ultimate File Manager Pro",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#vaimalaviya1233/ultimate-file-manager-pro",
-  "sha256": "a865e3ba0a3e5e4b30ccd134aa5527c0fca09157368159bb2add12483286887d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/vaimalaviya1233--ultimate-file-manager-pro.json",
+  "sha256": "90b13f5b555af6756132450433dbfa2e430181900f97cbebf032e99f7d91bc05"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

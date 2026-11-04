@@ -8,9 +8,16 @@
  },
  "descripcion": "Hitori is a fork of Kotatsu-Redo.  |  Manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#feli19honk-pixel/Hitori",
-  "sha256": "c40e299301ec1266138e42c61726b60c22c68f983cdfc81aea02e18161871ce8"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/feli19honk-pixel--hitori.json",
+  "sha256": "7bc73ad8af0581db26f28e8938ea5131ab94834df95f50a16a756fdbd4ab4d26"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

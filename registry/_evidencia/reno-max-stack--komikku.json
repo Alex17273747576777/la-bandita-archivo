@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-02-24T05:11:58Z",
+   "oid": "3fa1cf9e0714c9440d24a52e3cc7fc19de56ad2e"
+  }
+ },
+ "diskUsage": 124526,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "Reno-max-stack/komikku",
+ "pushedAt": "2026-03-11T11:22:28Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

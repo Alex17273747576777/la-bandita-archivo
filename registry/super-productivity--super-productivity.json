@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/super-productivity--super-productivity.json",
   "sha256": "f91017543cc5c8996ca12e55612e6a4cb4c09735da10f55e4f47b6ca0e8a21d2"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

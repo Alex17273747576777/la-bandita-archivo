@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/jqssun--android-display-extend.json",
   "sha256": "e8cb25d8d77b840c2f17235e194666872d5cdaa1361a2aaf75c0e02eefbba337"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

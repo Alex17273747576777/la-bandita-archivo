@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/hoangkienpr--hk-super-tools-releases.json",
   "sha256": "7535ac53c4f8ffdd856b6fa71e65bf4d86c85e9f9d4eac26b3f047ddd692883f"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

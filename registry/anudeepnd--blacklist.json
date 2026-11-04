@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/anudeepnd--blacklist.json",
   "sha256": "2274420575e52d432cf222bd270b9f4e0365e727404ea7a4e0038510ad98a189"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

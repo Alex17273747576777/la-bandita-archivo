@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/xav-ie--tetherbug.json",
   "sha256": "4e0cdad527f6a519c655e0d4c8b02a63b68ad676a53c48297cfe9dc6d3f61ac8"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/v-modal--vmodal_sdk_android.json",
   "sha256": "a60f2d0b1afc62cb7909e4f5363e030e5a361e153edbad4cb5c79c352a6dc9db"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Bring local AI intelligence to your device. No rate limits & local first.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#absolute206/anythingllm-mobile",
-  "sha256": "a8cc943be9e4b1f5f31a4127d0ea0282af5ee19177e36957edb5560348c2b445"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/absolute206--anythingllm-mobile.json",
+  "sha256": "42e7070996ac3cdab148de4489be40381786bbd176800948fd1aff0e2a3d8992"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

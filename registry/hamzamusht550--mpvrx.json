@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/hamzamusht550--mpvrx.json",
   "sha256": "33d3ec585c3c041a22f587341e7261d0f26198233cbb1b2a9d73ebc75fe5ca28"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

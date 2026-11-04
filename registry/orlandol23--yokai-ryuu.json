@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#orlandol23/yokai-ryuu",
-  "sha256": "0e9989a588bb01da100a0299bcb323de2159c9f810c47fad60b20a537a83f72d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/orlandol23--yokai-ryuu.json",
+  "sha256": "83e41e677c49417219e67ca76facacccacc81cefffb126fd9cb2f62471fcd43d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

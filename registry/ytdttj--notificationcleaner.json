@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ytdttj--notificationcleaner.json",
   "sha256": "0e262fdd2955b6f82667dcb0a424aaf6eb08ac7951c9c9c7011f43ecfec3585d"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

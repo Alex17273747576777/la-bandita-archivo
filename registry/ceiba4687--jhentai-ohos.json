@@ -8,9 +8,16 @@
  },
  "descripcion": "JHenTai 的 HarmonyOS / OpenHarmony 移植版，目标 HarmonyOS 7 / API 26",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ceiba4687/JHenTai-ohos",
-  "sha256": "ad087219dc59f2a7270352e71c2134de49ac9a39e6b06231643d95f7973961a6"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ceiba4687--jhentai-ohos.json",
+  "sha256": "de3b10ffc4fc6f131b6a2c062e48a81958cc5d118df992c34265b3d18885d7b6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

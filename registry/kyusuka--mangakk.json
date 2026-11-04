@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/kyusuka--mangakk.json",
   "sha256": "2f968e761b551d4728a256a2ee306ce06598aeeeae42342cd3118a49c51e25f8"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

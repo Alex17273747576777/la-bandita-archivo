@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/recloudstream--cs-repos.json",
   "sha256": "081ad03df284e4068ec0409aa5fbc39d778a35a3538359966ed0b09091e816df"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

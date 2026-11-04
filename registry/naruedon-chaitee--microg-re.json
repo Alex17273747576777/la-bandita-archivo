@@ -8,9 +8,16 @@
  },
  "descripcion": "GmsCore fork for Morphe patched apps",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#naruedon-chaitee/MicroG-RE",
-  "sha256": "a736e3780c7b9342209867b325b46eb6f20714cf0185c10e4e4bdd3821cd29f8"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/naruedon-chaitee--microg-re.json",
+  "sha256": "c90b2814cc0a59654fa89930e9e65b1273ee1f7345cd471ae08e1ab89424600c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

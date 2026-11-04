@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#SRCHIX9/mihon",
-  "sha256": "73b96a6b7dbc36f99c1fc7a4714a187405c4fffcdf536621fb2ce6a031d38a27"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/srchix9--mihon.json",
+  "sha256": "65a0d1c70dc639b656c454301bb618772f9ea1d6a7fb735a402e1a9b4f7055b9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/nicklatrick--mcp-servers.json",
   "sha256": "349de4ce6ed8f2576d5d6c83e31aac80734e2171296440666b1d9a7b1d43c3ea"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

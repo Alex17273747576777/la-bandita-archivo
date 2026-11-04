@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#jyotidwi/ProPDA",
-  "sha256": "af408ffdb27d992b84776f96ced0db4b46ce9b374e7322def135197d22616b5d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/jyotidwi--propda.json",
+  "sha256": "a1f132f0a4c65a29007e44aa939130b19bdc7714c6f12e7fe7ad5ba8adc96acb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

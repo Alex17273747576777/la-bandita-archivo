@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/gufan0000--cs2-customizer.json",
   "sha256": "38832d081c15df6147c21d202c014509e5bac1b3986f934e59e1a59a0f2f64b0"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

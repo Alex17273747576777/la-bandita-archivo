@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/mrboomdeveloper--awery.json",
   "sha256": "413941b046497ed389e1ce953a05bdb0614982c50b125e7474b26d6ef1e0009e"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "A cross-platform manga app made for e-hentai & exhentai by Flutter",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Justanavidreader/JHenTai",
-  "sha256": "dd2e0f0de0e058a1bdc9b1873dedcd9d33075957d8f181cbe92809f1b3f2cd13"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/justanavidreader--jhentai.json",
+  "sha256": "f974aab74b194bd6c776976f8862919c0e41b02910e17bd1aefd523c02bd58ba"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/gi-tuu--ambrace.json",
   "sha256": "09af51b9690d6df16be9372660f02771b1dafa78b6a92404c6d54a404159d252"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

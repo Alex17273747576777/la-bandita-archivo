@@ -8,9 +8,16 @@
  },
  "descripcion": "一款本地优先的个人AI助手，常驻于您的Android手机。它具备永久记忆、可定时执行的自主任务、可自我编写的小型应用，并可选作为主屏幕启动器。您的数据始终保留在",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#syx23690-ctrl/jenny-android-ai-agent",
-  "sha256": "05cc0a5410e7392415411186a7e78533c501af485116dfe29e8b446437112344"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/syx23690-ctrl--jenny-android-ai-agent.json",
+  "sha256": "5217f1babc289f68a145d7a3daad6e6d787ffbbdd3b97d99ac38b682a0845034"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

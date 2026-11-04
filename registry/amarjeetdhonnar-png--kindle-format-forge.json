@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/amarjeetdhonnar-png--kindle-format-forge.json",
   "sha256": "2fdf04b35db903b62eaacca2e1d703ce23b6453448877bcd240f79281cdbebdc"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

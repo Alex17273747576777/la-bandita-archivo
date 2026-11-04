@@ -8,9 +8,16 @@
  },
  "descripcion": "Morphe app patcher for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#yonggamer/morphe-manager",
-  "sha256": "f1d5ee4a6075870902cc00acaa6bfdff9620bb383b377ce0d99977a359dd5243"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/yonggamer--morphe-manager.json",
+  "sha256": "54b92c03243c2937d9e1c93aae9ec1b187fbde1fb33f87c53407d64b378c8404"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

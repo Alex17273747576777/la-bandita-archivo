@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/xitee1--sleep-timer.json",
   "sha256": "e4ddfa5ea3a1b8c9e470078f4b168543da18b744ada6c19936231bab85e0c0ff"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

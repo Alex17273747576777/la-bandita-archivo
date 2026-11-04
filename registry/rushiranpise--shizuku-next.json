@@ -12,6 +12,13 @@
   "payload_ref": "consulta GraphQL del 2026-11-03 sobre rushiranpise/Shizuku-Next",
   "sha256": "a9917fa40e8b8d46e090e2e0ed262fecebcb2b25fb0d7ff326b69bf5d2eec4aa"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "consulta GraphQL del nodo repository; campos exactos, sin inferencias",

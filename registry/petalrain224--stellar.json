@@ -8,9 +8,16 @@
  },
  "descripcion": "Another Shizuku impl",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Petalrain224/Stellar",
-  "sha256": "ceaef737798d2bd9772a921c7e5a3b07090d3b164418428426826fea56a4e103"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/petalrain224--stellar.json",
+  "sha256": "94fd57ba94ae99a7639648e84383d40ad93d4c3c2b7e4f5c44dafa2db78561fb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

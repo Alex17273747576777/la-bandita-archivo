@@ -8,9 +8,16 @@
  },
  "descripcion": "Manga, Novel, and Video reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#zay448345045/Kototoro",
-  "sha256": "1df2d194d5b32ead6f64f763ed868249cfe7c613228d585dd3120239c7b04972"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/zay448345045--kototoro.json",
+  "sha256": "72f3b46edc80771c39b00afe0f54b8e61b93a49147b36fc755755d11d4d425aa"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

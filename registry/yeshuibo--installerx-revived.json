@@ -1,16 +1,23 @@
 {
  "actividad": {
-  "estado": "muerto",
+  "estado": "vivo",
   "release_en": null,
-  "semantica_http": 404,
+  "semantica_http": 200,
   "ultima_release": null,
   "ultimo_push": "2026-08-02"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#yeshuibo/InstallerX-Revived",
-  "sha256": "6680b0f723fc81a184ead5c58594bcfe2077efb7bd813f800145d9265a3c8e53"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/yeshuibo--installerx-revived.json",
+  "sha256": "ab422fb7dde1b11aa809450829591be44b08589fe57e9467119b983de2b5e689"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {
@@ -21,23 +28,24 @@
  "id": "yeshuibo--installerx-revived",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
  },
  "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 0,
   "stars_por_mes": 0.0
  },
  "nombre": "InstallerX-Revived",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "b041b876618dd06305c8d7d17dfb82e47c9444ee",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b041b876618dd06305c8d7d17dfb82e47c9444ee"
  },
  "repo": "yeshuibo/InstallerX-Revived"
 }

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/seguaz--nekoyomi.json",
   "sha256": "f1cec8a75a0001d4e42685b7b1edf1e0b2bbc8872250b8a2a70e483de8446ad7"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

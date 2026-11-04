@@ -8,9 +8,16 @@
  },
  "descripcion": "Real-time game translation app for Android for both language learners and casual",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ljy1993227/playtranslate",
-  "sha256": "ac0470558ba6754bb980153155733cee559578c4cbcaad86a52133b6e2df9d5a"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ljy1993227--playtranslate.json",
+  "sha256": "23beb24907cb74a5d811bb97ea670af505189396b4c8174703e53fcda6472afa"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

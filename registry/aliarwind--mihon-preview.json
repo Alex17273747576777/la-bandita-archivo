@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#aliarwind/mihon-preview",
-  "sha256": "a2a99f2d87c435b54f4e7bac9f7f33bfdba7333c9c1fe1222a6a3168e71bee7c"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/aliarwind--mihon-preview.json",
+  "sha256": "0f069fabbf5c961e5b43a1a1ace3b60c74b4efa0ca9c7b2cff8a65aa74b9ba32"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

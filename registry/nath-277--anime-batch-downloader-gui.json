@@ -8,9 +8,16 @@
  },
  "descripcion": "A gui to download anime in batches , and auto track to my anime list & its fast",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#nath-277/Anime-batch-downloader-gui",
-  "sha256": "4a33980cd21f34ce974316428192f9d00566d59a2766409748ec8a66240c3c17"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/nath-277--anime-batch-downloader-gui.json",
+  "sha256": "f571a3dc68fc475840ef291863481b9972fd0a768aeb488626539382c8a95d9b"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/wodenas--fmhy.json",
   "sha256": "e2c5fd1335531f8c1257e3ae3b7e9c62599ef24d6641b2fad51e15c463b6c3ee"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

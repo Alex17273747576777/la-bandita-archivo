@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/endiq-jar--turtlelauncher.json",
   "sha256": "7f641a168c4c7d3405452c9d46d5a31ead183852c1d610a2e683f3704fd451ac"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

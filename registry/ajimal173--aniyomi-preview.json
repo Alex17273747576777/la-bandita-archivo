@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ajimal173/aniyomi-preview",
-  "sha256": "84f08b0507b3bd3494c0ca7634f264cc52f24ec9253689e97841e13e222df60f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ajimal173--aniyomi-preview.json",
+  "sha256": "abefa326396bc16ca75ca25ec1f19dce9089b847cd027590dec503f7eeee05da"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

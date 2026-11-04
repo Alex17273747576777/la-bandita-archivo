@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/jehan593--termux-config.json",
   "sha256": "5b3540a184ece66f84faf5c3602e6a666592563f219cea77fb63ee624167cd63"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

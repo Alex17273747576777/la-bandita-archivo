@@ -8,9 +8,16 @@
  },
  "descripcion": "Your on-device AI assistant, capable of operating terminals and performing a wid",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Nayuta403/OpenOmniBot",
-  "sha256": "42345f1a5777cc66760dd448e19331da0ea17b893c14aaa0671548198d874f60"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/nayuta403--openomnibot.json",
+  "sha256": "47b6bfaf054499018be1ce67547991253afdbb4f18ec4ef46ac6b2293f42fc03"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

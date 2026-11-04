@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-31T21:45:47Z",
+   "oid": "c4a9b5c647beb4bad9b7d79256114aef6ce15675"
+  }
+ },
+ "diskUsage": 18973,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU Affero General Public License v3.0",
+  "spdxId": "AGPL-3.0"
+ },
+ "nameWithOwner": "Hetling/RemarkableOpenlib",
+ "pushedAt": "2026-09-01T10:38:20Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

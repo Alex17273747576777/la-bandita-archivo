@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/eyru--dsh-mobile-android.json",
   "sha256": "a086047ee7da308c3cbe477a235b614b379fb13081c248476589562b10f51ab9"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

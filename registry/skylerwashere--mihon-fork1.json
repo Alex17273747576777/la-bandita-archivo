@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/skylerwashere--mihon-fork1.json",
   "sha256": "eb161052e5ffbb2548f6c3e560ee47e8c28c74f662f34c3d93319484ea687b4c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

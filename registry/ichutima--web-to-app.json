@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ichutima--web-to-app.json",
   "sha256": "dc5ae6f80805e6d572c80dc7fd50416adc9b9bc92a9a86fb918ee526fce9d3e9"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

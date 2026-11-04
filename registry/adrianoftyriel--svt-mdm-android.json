@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/adrianoftyriel--svt-mdm-android.json",
   "sha256": "2509463c0beb61f0dcd4b323b4c5aa58a072a82d045c09212748fa82d31cb1bd"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ikirby--pixelcarriersettings.json",
   "sha256": "92da0e48b12777074f6b7c149586d1b254db7b4cf3c41073ebfce68cce69d649"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

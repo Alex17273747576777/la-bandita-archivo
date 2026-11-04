@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/dhananjaybhosale--hilight-studio.json",
   "sha256": "ae88883616d8e020303adc3d0a1d2e0523d7f647ee5895e9e4c49afd39105332"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

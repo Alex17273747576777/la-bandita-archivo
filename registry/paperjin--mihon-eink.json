@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/paperjin--mihon-eink.json",
   "sha256": "4bc7849789ef04c9afaa3cc2e835587813d926d9a8857dcd74c489d1e9205b6b"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

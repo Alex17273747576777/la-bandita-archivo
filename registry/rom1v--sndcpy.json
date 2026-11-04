@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/rom1v--sndcpy.json",
   "sha256": "9c27a208bdddcca3132a4617fae663d0c377553a370d14dbcc29f7b75ad23e7e"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

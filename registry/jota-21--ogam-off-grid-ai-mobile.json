@@ -8,9 +8,16 @@
  },
  "descripcion": "The Swiss Army Knife of Offline AI. Chat, see, speak, and generate images on you",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Jota-21/OGAM-Off-Grid-AI-mobile",
-  "sha256": "c256279484688b12e35a9942045702c6cb706b500f3bc90ec6b602b782f9309d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/jota-21--ogam-off-grid-ai-mobile.json",
+  "sha256": "9d20f6222d6eb0549fbcee0413e5caef20e1dfb01fd30166baed4e8aac83a228"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

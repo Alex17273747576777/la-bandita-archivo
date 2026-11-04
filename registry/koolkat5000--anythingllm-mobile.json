@@ -8,9 +8,16 @@
  },
  "descripcion": "An AI Agent that lives in your pocket. Local-first and privacy focused.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#koolkat5000/anythingllm-mobile",
-  "sha256": "156c95843d86522148b6e3c26c7d8d23e0abddffd403a939bfb1f43e6456428f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/koolkat5000--anythingllm-mobile.json",
+  "sha256": "2a037cd0dc1ffa63423d098450fb929d48915627d999573718d15c6d2d39851f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

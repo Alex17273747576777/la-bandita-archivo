@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ayzlol--bdsu-adb-dsu.json",
   "sha256": "ebd1eb2462ad1b1af082c19c16d6d0c1ba901e3474a22bfb4847bc314cd3e36f"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

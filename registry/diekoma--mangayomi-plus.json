@@ -8,9 +8,16 @@
  },
  "descripcion": "A fork of mangayomi with some ui changes and additional features",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#DiekoMA/mangayomi-plus",
-  "sha256": "09b5372175986be698681d4cd3f26e98b19c7b321594dd6d3987a0b588336480"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/diekoma--mangayomi-plus.json",
+  "sha256": "90972ef948db5f19104301f2990930f80542e7ac8c5aaee98d465ac2978a5765"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

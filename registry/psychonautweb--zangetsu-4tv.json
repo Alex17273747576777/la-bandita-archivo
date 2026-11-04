@@ -8,9 +8,16 @@
  },
  "descripcion": "Zangetsu is an anime and movie/series streaming app.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#psychonautweb/Zangetsu-4tv",
-  "sha256": "76e4719cf26f31476d54cc8dcb8409c090f6a17a574a777b90291fda9c35c8fd"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/psychonautweb--zangetsu-4tv.json",
+  "sha256": "682f522f972bfbe4840ee41e0adce77604a7fd084f6d350bf9e16b23aa420515"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

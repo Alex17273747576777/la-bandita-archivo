@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/tenzonkz--jexfyz-app.json",
   "sha256": "c5561acfad688a11e0d5b3eb3657b0248f0fb7f485c99e80db033203756cdbfd"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

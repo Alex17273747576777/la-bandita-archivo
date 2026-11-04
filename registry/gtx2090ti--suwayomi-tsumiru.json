@@ -8,9 +8,16 @@
  },
  "descripcion": "A native manga & manhwa reader for Suwayomi-Server - enhanced fork of Tachidesk-",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#GTX2090ti/Suwayomi-Tsumiru",
-  "sha256": "0109f2a650ec04ff36914042dd92e84054b957778cdb1c9b22aad52601c5c4c0"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/gtx2090ti--suwayomi-tsumiru.json",
+  "sha256": "8d303eb31f0b8023da9e80ae6bae63c265ca49e269d05375e220fbe20c90b733"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "In Development",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#shabiaparveen194-rgb/WinNative",
-  "sha256": "ffd0ed5fae9e595d27c34d4391c81385a0c8d8e13a76da1db0a1d14ef15a34b6"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/shabiaparveen194-rgb--winnative.json",
+  "sha256": "78f42b1cc3b5ac24cf8cb9e5dfd58a9edf53542843baa6676efd35060133793e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

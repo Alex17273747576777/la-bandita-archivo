@@ -8,9 +8,16 @@
  },
  "descripcion": "Sozo-Read Manga,Novel etc... Multiple sources, offline downloads, cloud sync.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#JulyandAugust/Sozo-Read",
-  "sha256": "75c56aefe5cd051e09df940b67025abdb45279976c0bb7570b565bc488f62480"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/julyandaugust--sozo-read.json",
+  "sha256": "f561f3001ac5801237408950ec1a781fef7fbffc7fc0578e020604569e706a6c"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

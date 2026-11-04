@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/kmmao--airi.json",
   "sha256": "440f2cfd4d39700b65047d34423c5b0af37793ac59843bf3a75620bd3ce0579d"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -1,8 +1,8 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "muerto",
   "release_en": null,
-  "semantica_http": 200,
+  "semantica_http": 404,
   "ultima_release": null,
   "ultimo_push": "2026-10-02"
  },
@@ -11,6 +11,14 @@
   "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#Fiskers/Kai",
   "sha256": "83430acdb6e29c785092209585a4d5c3dd57632a2cb30ce06cf6e347fc973883"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-10-15",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-11-14",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {
@@ -29,7 +37,7 @@
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": null,
   "stars_por_mes": 0.0
  },
  "nombre": "Kai",

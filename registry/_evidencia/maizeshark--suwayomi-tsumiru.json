@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-20T04:19:30Z",
+   "oid": "e3d3cd0ac243bf3584e4b687da9c40b7def08b18"
+  }
+ },
+ "diskUsage": 37323,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Mozilla Public License 2.0",
+  "spdxId": "MPL-2.0"
+ },
+ "nameWithOwner": "MaizeShark/Suwayomi-Tsumiru",
+ "pushedAt": "2026-09-20T04:19:40Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

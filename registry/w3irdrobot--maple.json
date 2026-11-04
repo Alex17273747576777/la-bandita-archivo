@@ -4,13 +4,20 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Maple - Private AI Chat",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#w3irdrobot/Maple",
-  "sha256": "11caadacecc13f73ef453366399a8eeb87c7e231182b40be99d33765b2639fda"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/w3irdrobot--maple.json",
+  "sha256": "e7f1f27d98498fb941fe8713011f8d0f5912d0f6dddbec24035ea4b7a4f49ec9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

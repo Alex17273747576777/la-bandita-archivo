@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source anime watcher for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#TheReaper-404/anikku",
-  "sha256": "895260229f3b3cd4f71361b1e9e4438a068303f17b23c46a7d0c7d4641465493"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/thereaper-404--anikku.json",
+  "sha256": "731879bb74a811719d9f78d5ab9e92ad5d1a64331d55ea074429515911a3292b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

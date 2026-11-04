@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/zykrave--aniyomi-kuro.json",
   "sha256": "e94c1147984952e3636be6b1c686e969d8179ee88a9daa5a71c153de8cf603b7"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

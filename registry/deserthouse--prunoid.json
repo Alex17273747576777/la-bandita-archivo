@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/deserthouse--prunoid.json",
   "sha256": "274939f8d67f3945196c80fef0f82915f090ccfc0a0e9eec049e0b026db30ed3"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

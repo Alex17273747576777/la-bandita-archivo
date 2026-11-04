@@ -2,7 +2,7 @@
 
 *Cómo está hecho este repositorio, por qué está hecho así y qué se puede comprobar de lo que declara. Actualizado el 3 de noviembre de 2026.*
 
-**TL;DR —** el repositorio tiene **tres capas** (ley, oficio, producto) y **un solo sentido del dato**: se mide, se guarda, se escribe la enseñanza, se genera el producto y se sella todo. La regla que decide qué es código y qué es texto es una sola frase: **lo que es dato se genera, lo que es enseñanza se escribe**. Hoy: 31 herramientas, 10.196 archivos sellados, 70 fichas medidas, 12 capítulos y 2 canales con 5 piezas publicadas cada uno. Quien quiera el detalle de cada programa tiene `docs/CODIGO.md`; quien quiera el mapa de carpetas tiene `MAPA-DEL-ARCHIVO.md`.
+**TL;DR —** el repositorio tiene **tres capas** (ley, oficio, producto) y **un solo sentido del dato**: se mide, se guarda, se escribe la enseñanza, se genera el producto y se sella todo. La regla que decide qué es código y qué es texto es una sola frase: **lo que es dato se genera, lo que es enseñanza se escribe**. Hoy: 33 herramientas, 17 compuertas, 6.838 fichas medidas, 70 fichas de guía en 12 capítulos y 2 canales con 5 piezas publicadas cada uno. Quien quiera el detalle de cada programa tiene `docs/CODIGO.md`; quien quiera el mapa de carpetas tiene `MAPA-DEL-ARCHIVO.md`.
 
 ---
 
@@ -68,12 +68,13 @@ La separación no es decorativa. Una ley que se puede tocar mientras se publica 
 
 **Contexto.** Un repositorio con 31 herramientas y 15 compuertas es hostil para quien llega. La documentación perfecta no arregla eso si el primer comando no está claro.
 
-**Decisión.** Un `Makefile` con catorce destinos y un `doctor.py` que dice en cinco bloques si la máquina puede trabajar y en qué estado está el árbol.
+**Decisión.** Un `Makefile` con diecisiete destinos y un `doctor.py` que dice en cinco bloques si la máquina puede trabajar y en qué estado está el árbol.
 
 ```
 make doctor      # ¿está todo en su sitio?
 make verificar   # registro + sello + vara + autoprueba
 make libro       # tablero de tareas e índice de documentos
+make vencer      # qué ficha está vigente y cuál hay que volver a medir
 make publicar    # sellar + libro + verificar, listo para empujar
 ```
 
@@ -81,17 +82,41 @@ make publicar    # sellar + libro + verificar, listo para empujar
 
 ---
 
-## 6 · Divulgación de ingeniería: los números de hoy
+## 6 · Decisión: la fecha la sostiene un archivo, no una promesa
+
+**Contexto.** El registro declaraba 6.838 fichas medidas «hoy» cuando 4.186 tenían como única evidencia una fila del censo del 15 de octubre. La compuerta de frescura leía el campo `medido_en` —el mismo que estaba mal— y daba todo por bueno. Una compuerta que confía en el campo que vigila no vigila nada.
+
+**Decisión.** Cada medición guarda su payload crudo en `registry/_evidencia/`, con la fecha **dentro del archivo**, y la ficha lleva su SHA-256. Una compuerta nueva (G16) compara la fecha declarada con la de la evidencia y detiene la línea cuando no coinciden.
+
+**Consecuencia.** El repositorio crece con cada medición —unos 4 MB por tanda completa— y el árbol tarda más en sellarse. A cambio, «medido hoy» deja de ser una afirmación y pasa a ser un archivo que se puede abrir, fechar y verificar. La alternativa —confiar en el campo— es gratis y es lo que produjo el problema.
+
+**Alternativa descartada.** Marcar como vencidas las fichas dudosas y seguir adelante. Se descartó porque no eran dudosas: eran medibles. Declarar vencido lo que se puede volver a medir es cambiar un dato malo por una etiqueta.
+
+---
+
+## 7 · Decisión: la memoria de un proyecto va dentro de su archivo
+
+**Contexto.** `Arena-Reimagined/` tenía cinco carpetas de etapas anteriores al mismo nivel que el presente: `_versiones/`, `packs/`, `_herramientas/`, `_herramientas-casa/` y `_referencia/`. Quien abría esa carpeta veía catorce entradas donde tres eran el presente.
+
+**Decisión.** Todo eso pasa a `02-ARCHIVO/_etapas-anteriores/`, que es la carpeta donde el propio proyecto ya guarda su memoria, y cada mudanza se anota en una tabla que una compuerta sostiene (G17). Las referencias se corrigen en el mismo cambio, y el auditor distingue una ruta vieja citada por un archivo vivo —fallo— de una citada por un acta —cita que se conserva—.
+
+**Consecuencia.** Las rutas vivas son más largas, y un documento histórico que cite la ruta antigua necesita el mapa para traducirla. Se paga con un mapa y se gana lo único que importa: que la memoria no compita con el presente.
+
+**Alternativa descartada.** Borrar lo que no se usa. Se descartó por la misma razón por la que no se borran las actas: la lupa de la etapa anterior y los packs viejos son la prueba de cómo se llegó hasta aquí, y una casa que borra su historia no puede explicar sus reglas.
+
+---
+
+## 8 · Divulgación de ingeniería: los números de hoy
 
 Lo que se declara aquí se puede volver a medir con `make verificar`.
 
 | Métrica | Valor del corte | Cómo se obtiene |
 |---|---|---|
-| Archivos sellados | **10.196** | `atestar.py`, manifiesto SHA-256 |
-| Fichas del registro | 9.472 | `registry/*.json` |
+| Archivos sellados | ver el corte del sello | `atestar.py`, manifiesto SHA-256 |
+| Fichas del registro | **6.838**: 6.560 vigentes y 278 sin objeto | `vencimiento.py` |
 | Fichas de la guía | **70** en 12 capítulos | `guia-maestra/datos/apps/` |
-| Herramientas | **31** en `tools/` + 1 generador | `indice_docs.py` |
-| Compuertas de la vara | **15** (G0–G15) | `vara.py` |
+| Herramientas | **33** en `tools/` + 1 generador | `indice_docs.py` |
+| Compuertas de la vara | **17** (G0–G17) | `vara.py` |
 | Piezas vivas por canal | **5 de 14** | `LEEME-de-la-carpeta.md` |
 | Envíos verificados | **5 + 5**, cero fallos | `envio.py --verificar` |
 | Documentos en `docs/` | 47 en 19 familias | `indice_docs.py` |
@@ -103,11 +128,12 @@ Lo que se declara aquí se puede volver a medir con `make verificar`.
 
 ---
 
-## 7 · Mapa de componentes
+## 9 · Mapa de componentes
 
 | Componente | Responsabilidad | Documento |
 |---|---|---|
-| `tools/` | Medir, compuertas, sellar, publicar | [`docs/CODIGO.md`](docs/CODIGO.md) |
+| `tools/` | Medir, compuertas, sellar, publicar, decidir frescura | [`docs/CODIGO.md`](docs/CODIGO.md) |
+| `registry/` + `_evidencia/` | La materia prima medida y el payload que la respalda | [`docs/VENCIMIENTOS.md`](docs/VENCIMIENTOS.md) |
 | `registry/` + `schemas/` | La materia prima medida y su contrato | [`docs/INDICE.md`](docs/INDICE.md) |
 | `guia-maestra/` | Datos, textos y páginas de la guía | `guia-maestra/README.md` |
 | `Arena-Reimagined/01-PUBLICACIONES/` | Piezas del ciclo vivo, dos canales | `LEEME-de-la-carpeta.md` de cada canal |
@@ -117,7 +143,7 @@ Lo que se declara aquí se puede volver a medir con `make verificar`.
 
 ---
 
-## 8 · Convenciones, con su fuente
+## 10 · Convenciones, con su fuente
 
 No se inventan aquí: se adoptan convenciones que ya existen, para que un recién llegado no tenga que aprender un idioma nuevo.
 
@@ -131,7 +157,7 @@ Adoptar una convención no es obedecerla por moda: es que otro pueda auditar sin
 
 ---
 
-## 9 · Lo que este repositorio no hace
+## 11 · Lo que este repositorio no hace
 
 - **No aloja paquetes de terceros.** Ni copia, ni espejo, ni enlace a un espejo cómodo.
 - **No recomienda por fama.** Nueve de las setenta fichas tienen menos de 500 estrellas y cuatro menos de 100, y están porque resolvieron una tarea mejor que sus competidores famosos.

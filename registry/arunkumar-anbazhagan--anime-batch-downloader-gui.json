@@ -8,9 +8,16 @@
  },
  "descripcion": "A gui to download anime in batches , and auto track to my anime list & its fast",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Arunkumar-Anbazhagan/Anime-batch-downloader-gui",
-  "sha256": "f36bb7ac3e5ec4ea5161a0d1fd162583f2e0c5dfda6c1b35ab9784073e41ab19"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/arunkumar-anbazhagan--anime-batch-downloader-gui.json",
+  "sha256": "74f21a0c5bd4260bc20003c8697e9ac83d8a91d1ac2e7764534c284ebfaf832f"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "Real-time game translation app for Android for both language learners and casual",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#kkeenee/dominostars-playtranslate",
-  "sha256": "75aabe40c1655d72d0be34ce6e81c9e93c84fcdee535b62159e5d0723c132379"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kkeenee--dominostars-playtranslate.json",
+  "sha256": "e7ffded141ccd2baa22d7f560c131d9fae167aa7fc7875591393743d26e822b5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

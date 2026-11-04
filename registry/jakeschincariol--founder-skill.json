@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/jakeschincariol--founder-skill.json",
   "sha256": "8532c74e9c5b02dc21aad9f95e9296b131b6e8dd29e5e5604dd98e606a8c1dc3"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

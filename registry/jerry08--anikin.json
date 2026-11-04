@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/jerry08--anikin.json",
   "sha256": "34987c98c4bff45057ccfe8a3b2d965f6094c97637a8f07cacdb6189cca0b7a8"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Free, open-source app for anime, movies, series, manga and light novels — on And",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Muneersahel/Zangetsu",
-  "sha256": "d268377766eb063c8062f810c96fc80941c3db7bbbf66ac9fe3998098b3a1c13"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/muneersahel--zangetsu.json",
+  "sha256": "2cc4fba99cffbf8a07895a25678353adfdade8f0dc8d7d535f9e8aeb147b63a0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

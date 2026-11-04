@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/astarivi--kaizoyu.json",
   "sha256": "f40a565dd56c3d54b597f3f17640950256897344e19d5201259bfff52a86e691"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

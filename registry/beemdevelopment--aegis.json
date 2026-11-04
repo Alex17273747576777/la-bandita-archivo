@@ -8,9 +8,16 @@
  },
  "descripcion": "A free, secure and open source app for Android to manage your 2-step verification tokens.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/beemdevelopment--aegis.json",
-  "sha256": "b9ac3e1d55c3f6c1a02ec2caf63e357c1d0325dac1169c3fd99428bbafeabc97"
+  "sha256": "b480e4958923703ca92441b0ac4a1169a081a4753bcac90de94d73924bbf79cb"
+ },
+ "frescura": {
+  "dias": 71,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-11-22",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {
@@ -31,7 +38,7 @@
  "merito": {
   "scorecard": 5.1,
   "scorecard_en": "2026-08-24",
-  "stars": 13452,
+  "stars": 13459,
   "stars_por_mes": null
  },
  "nombre": "Aegis",

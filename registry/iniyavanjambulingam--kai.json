@@ -8,9 +8,16 @@
  },
  "descripcion": "OpenClaw alternative in your pocket",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#iniyavanjambulingam/Kai",
-  "sha256": "3cd1494e3a35b1378d6efb07ada51760eef00894ae4681e1140889e4dc2bb45a"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/iniyavanjambulingam--kai.json",
+  "sha256": "3412e2b25630016ce2cfda6ddd44d3349a1ccb8f7375b9b208ffd7a5d232d004"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

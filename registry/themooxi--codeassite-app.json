@@ -8,9 +8,16 @@
  },
  "descripcion": "An IDE for building Android applicatons on Android.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ThemooXi/CodeAssite-app",
-  "sha256": "b0f4f332fcbbe7aa45de2cb50323e6c02827a6872b6db03cdc178e3851433a3e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/themooxi--codeassite-app.json",
+  "sha256": "e3086642ec2effffb0207646ba7827e406c6a4e15eebdbf578c7858f646e1eb6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

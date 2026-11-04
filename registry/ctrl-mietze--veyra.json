@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ctrl-mietze--veyra.json",
   "sha256": "3b2297948bb45927f254c6e0c51b4c11c854c095bf1a86ccaee5cecebf4d45d0"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

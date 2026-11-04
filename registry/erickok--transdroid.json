@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/erickok--transdroid.json",
   "sha256": "1e007b3cb310d795f86fc90be6e63fa162f71225787bc28167756f5e26431e4f"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

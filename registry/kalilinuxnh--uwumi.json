@@ -8,9 +8,16 @@
  },
  "descripcion": "A feature-rich anime, manga and movie streaming app built with React Native and",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Kalilinuxnh/uwumi",
-  "sha256": "9514fb76fdc058f5ead21af0827c5739da6c70ed5bc221274bcc9138549cd87a"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kalilinuxnh--uwumi.json",
+  "sha256": "513d257647742289dd1e5cf19f2837bb687b7b9fd5c5d085ec41e753ae203996"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "A multilingual YouTube Music frontend for Android, focused on performance, UI/UX",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#JUBAL-byte/N-Zik",
-  "sha256": "5821cfc917cad29ba0654624576705cfdccc3757848910b244a237406adeb90b"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/jubal-byte--n-zik.json",
+  "sha256": "aace561c2c10c6a83113a18c69bf9f8f054512a884b125ab0f7efabb57b06dec"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

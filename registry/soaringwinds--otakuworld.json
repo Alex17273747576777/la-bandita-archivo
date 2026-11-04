@@ -8,9 +8,16 @@
  },
  "descripcion": "Anime Watcher, Manga Reader, and Novel Reader as three separate apps, same UI",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#SoaringWinds/OtakuWorld",
-  "sha256": "4cf6dabefedf823525bc4e6c3c319c96062b3028ea7c5229fbdb6a5987e42496"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/soaringwinds--otakuworld.json",
+  "sha256": "04940ab1c358f41c4a199f8a9ac6583aafa47cb57c3fc30af3b5ecd1a9e1eabc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

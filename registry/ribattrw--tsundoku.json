@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source novel and manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#RibatTRW/tsundoku",
-  "sha256": "5cedc1428f49eab489f12d681d45ef3f849f8b920c187ecdeb6d9674d4fc5f44"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ribattrw--tsundoku.json",
+  "sha256": "a711ff79cdfe51168ef367038efb068c427e8df275833b31801813dc691c94ab"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

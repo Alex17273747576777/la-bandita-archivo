@@ -8,9 +8,16 @@
  },
  "descripcion": "Real-time game translation app for Android for both language learners and casual",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#shiki-tm/playtranslate",
-  "sha256": "4cb963dd54e9320274751f566193749ddf8dbb8226f0c4eea5a7b388adac7fa0"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/shiki-tm--playtranslate.json",
+  "sha256": "86e6161329ba978f6ae135b726dbf64e0e918dacb3db93195bc2bca03c6d0878"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

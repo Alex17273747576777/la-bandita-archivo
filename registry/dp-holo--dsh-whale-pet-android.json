@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/dp-holo--dsh-whale-pet-android.json",
   "sha256": "31cc3b0e2bc55e217384ce19507e6d66f39286ef205bace364b1a2e2a1a8ace0"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

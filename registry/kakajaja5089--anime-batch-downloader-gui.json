@@ -8,9 +8,16 @@
  },
  "descripcion": "A gui to download anime in batches , and auto track to my anime list & its fast",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Kakajaja5089/Anime-batch-downloader-gui",
-  "sha256": "20f361067b47697275cb9a6bd7c4f40e4ae8f73e28d003ac82ab49c55fd2f122"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kakajaja5089--anime-batch-downloader-gui.json",
+  "sha256": "46a4160a5263f07e9797a36f87f3d15a1e89e27d2bc6ed6fa64083691057295e"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

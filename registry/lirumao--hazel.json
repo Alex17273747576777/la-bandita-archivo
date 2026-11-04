@@ -8,9 +8,16 @@
  },
  "descripcion": "A feature-packed Android media downloader. View all native stream formats, downl",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#lirumao/Hazel",
-  "sha256": "f0567149cdac4ecd4ba7dc7905039ef52b64bdb20ce9feab323cbc069670786c"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lirumao--hazel.json",
+  "sha256": "83e8b55edebffe6830fb06cd156b6ee4e0d7f526e787b81fae51f6b09f8f4938"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

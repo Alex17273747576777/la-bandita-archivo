@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/brianjr03--jarngreipr.json",
   "sha256": "3bd631d1b6f97d32340f93ba3ef72abc7788d67b694fd5da45d7ebd0039569d7"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

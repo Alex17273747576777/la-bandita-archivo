@@ -8,9 +8,16 @@
  },
  "descripcion": "an anime/manga streaming web app",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#EljieGoc-ong/Yorumi",
-  "sha256": "366c0567254d348c556703908a647e4396d66fa52cd4bbcd3eaee4c2c5135067"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/eljiegoc-ong--yorumi.json",
+  "sha256": "cb04b5c17500554c5c83361d8ddc1862a1ae31807079c2cecc6b69ab0ebc1554"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/skepsun--mihon.json",
   "sha256": "19483a5770f6eb03af4c868ac2a1c0aaaeebd7b4eeb305b384948d58f1660d6e"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

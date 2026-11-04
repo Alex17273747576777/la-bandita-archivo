@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/dictatora0--rin.json",
   "sha256": "30cfa4449e808a15101d0b7b194dc7f4c4fc2107ad04195284f5f1d15f0e9e9d"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Booru is your all-in-one app for viewing content from the most popular booru sit",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Ero-gamer/Booru-Next",
-  "sha256": "88c19fb631e32a53aaf4e90160cf3f0d48b96038d8a40e46533a17289c472762"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ero-gamer--booru-next.json",
+  "sha256": "a03ee974fb280e5deccc7eb9ccd716e4e39015098ef88a3f00bb9233ff4b3cfa"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

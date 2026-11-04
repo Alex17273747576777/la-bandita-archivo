@@ -8,9 +8,16 @@
  },
  "descripcion": "OpenClaw alternative in your pocket",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#cptunderpantsmoons/Praxis-Ai-mobile-",
-  "sha256": "aba7de55af0c6750df918eb2f23dbefd6dba770cfe8e339ea4d190a5641f7295"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/cptunderpantsmoons--praxis-ai-mobile.json",
+  "sha256": "ca323ebe89bde665551dcee0ef00f88fd740f61f77893007770167e4e09e72f0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -4,13 +4,20 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and perfo",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#123eyu/OmniBot",
-  "sha256": "6ac3d5a5247942b0408f57f95354aa7a43a9639b9b73f90ec89de2ec4c96e378"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/123eyu--omnibot.json",
+  "sha256": "45c503b1920d2a873040904b0369e5411cb0793d4a0299a29c1bf3739c93796f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {
@@ -36,9 +43,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "488a417cd65b1274c705ac75db7d2e282295f21d",
+  "commit": "62f44014bdbb6477312dc3880399581265bfaf23",
   "swh_estado": null,
-  "swhid": "swh:1:rev:488a417cd65b1274c705ac75db7d2e282295f21d"
+  "swhid": "swh:1:rev:62f44014bdbb6477312dc3880399581265bfaf23"
  },
  "repo": "123eyu/OmniBot"
 }

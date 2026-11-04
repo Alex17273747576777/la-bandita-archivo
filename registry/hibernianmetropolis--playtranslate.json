@@ -8,9 +8,16 @@
  },
  "descripcion": "Real-time game translation app for Android for both language learners and casual",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#HibernianMetropolis/playtranslate",
-  "sha256": "d0485668c48535f34b5a31d45afacec39ae50392e53928bb44e799a160ecc7e2"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hibernianmetropolis--playtranslate.json",
+  "sha256": "d0c1ba82ff141ab3064b32d61e3258533283b7ab3db0988b16a0d9eb26a01153"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

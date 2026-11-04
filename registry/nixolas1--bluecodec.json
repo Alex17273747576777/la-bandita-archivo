@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/nixolas1--bluecodec.json",
   "sha256": "d1aac6a0bf58550cc59b85f87a95d07974eb1d4530b62411546a808600244f7b"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

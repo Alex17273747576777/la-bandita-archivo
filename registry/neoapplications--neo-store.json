@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/neoapplications--neo-store.json",
   "sha256": "4856d170b96aade675cf845cbd77885f17b8c284b20a63ec8444dad61f9b43e8"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

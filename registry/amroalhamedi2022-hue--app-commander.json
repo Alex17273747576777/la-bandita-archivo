@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/amroalhamedi2022-hue--app-commander.json",
   "sha256": "546fe14a1a7d10df7e75afd71bb4d058fa0c4f1d83ed0212ebe46411654d0fa1"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Just for Fun",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#asepngrh/Komikuv2",
-  "sha256": "1de786160f821dc8622fdd13d44ea675fa60d6a7c705a7fed48711fb36f3b0c8"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/asepngrh--komikuv2.json",
+  "sha256": "ceccc57547b200380d9c1c5db54452180a6bea7ca9dc6c75a347a65cb7acb554"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

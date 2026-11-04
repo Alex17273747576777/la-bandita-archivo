@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ohmygaugh-crypto--off-grid-mobile.json",
   "sha256": "4a7d20b3b81b72f80cdaf73fa07a60f3009841494c6172d76eb1ef2d28c8ff14"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "/r/FREEMEDIAHECKYEAH",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#codigopromocionalaliexp/FMHY",
-  "sha256": "80b92834a601740cf47ee09c5533114bdf0a27bf643c27e579b5511fd27b5a64"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/codigopromocionalaliexp--fmhy.json",
+  "sha256": "180265b8c26585d1fb33de6ac9fc0013f27b0267497694598ceafb358524cf91"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

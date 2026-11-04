@@ -8,9 +8,16 @@
  },
  "descripcion": "Anime, Manga & Movies — By Natty Tech",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#petersmith2024-cmd/Nattyflix-",
-  "sha256": "95357f684f52606c78fd5de1329232b15358a84c1544509f2d58c826fc12b5cd"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/petersmith2024-cmd--nattyflix.json",
+  "sha256": "9d2d95bd3b8e25f41f8ecf055da093054ed507a7834627f47ee1d4c762eb10a3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

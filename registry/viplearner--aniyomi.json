@@ -8,9 +8,16 @@
  },
  "descripcion": "An app for manga and anime",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#VIPlearner/aniyomi",
-  "sha256": "630c23fffb98bec3a35c803be1e412ed929b1a29b3c48df2b372d8a5ed65827f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/viplearner--aniyomi.json",
+  "sha256": "ac684b43cabc4f1266975cbfe1459b0d850d6010cb1a7153e632aa32a8abed7d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

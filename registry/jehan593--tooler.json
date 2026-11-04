@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/jehan593--tooler.json",
   "sha256": "2e24c1715296cb89263390e14bb0b4418cb52ee6a10ed951bc679bed0caf1864"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

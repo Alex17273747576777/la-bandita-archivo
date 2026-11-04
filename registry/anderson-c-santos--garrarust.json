@@ -8,9 +8,16 @@
  },
  "descripcion": "O framework seguro e leve de código aberto para agentes de IA desenvolvido 100%",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#anderson-c-santos/GarraRUST",
-  "sha256": "3bca3e8d76221c5286d243066164f60c088c83e298b0e57a7cbea908fc94558d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/anderson-c-santos--garrarust.json",
+  "sha256": "2bf4a41f80da11cf6edf3510cc287dd528f7495d83d6cfbf7030025037a5c2d4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "猫耳看板娘版的 Shizuku | A catgirl-mascot edition of Shizuku — use privileged Android A",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#justadri/Shizako",
-  "sha256": "adad5a58e0a8572a5ea38a38abded1e203a1465203aa38a02b40e56b4958c538"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/justadri--shizako.json",
+  "sha256": "052046c83a78fc7275b6b8971e854ee7663a6a6ed02e61118ed7c9b0cfd0fed3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

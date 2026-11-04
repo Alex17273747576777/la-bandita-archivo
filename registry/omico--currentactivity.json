@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/omico--currentactivity.json",
   "sha256": "a0b0c502289f301fdcbfd019fb0f2ff2d3d5ab8e1e2346709f10894fe4ebb8e2"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

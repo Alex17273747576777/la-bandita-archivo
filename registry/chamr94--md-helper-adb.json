@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/chamr94--md-helper-adb.json",
   "sha256": "c54d255a2314af07f1b84ac0fb1f60ee78d12a74a8503b26a85ea7c321df614e"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

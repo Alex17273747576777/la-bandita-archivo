@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/htwmedia--htv.json",
   "sha256": "9285f9aa168c72a7edfcd0a22bd4c841f92e0c5f6b4be5290fab61c933a45cf6"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

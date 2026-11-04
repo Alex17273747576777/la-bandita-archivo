@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/automattic--mcp-servers.json",
   "sha256": "20c4dacfba9c0c9e5e96f83a5398c82bea8105051e87107102d320741cf3aba2"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

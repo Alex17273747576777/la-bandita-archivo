@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/lucksiege--pictureselector.json",
   "sha256": "cad065002d54a3c7fc3cbe7df46d25659653241d3df120cb485a0d8281a82bc7"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

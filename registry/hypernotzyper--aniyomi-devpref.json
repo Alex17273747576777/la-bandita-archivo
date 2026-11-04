@@ -8,9 +8,16 @@
  },
  "descripcion": "HxH is best anime",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#HyperNotZyper/aniyomi-devpref",
-  "sha256": "91d9a5a194e66ded7ef21cb678459d713334871d8d3de9a4d47cc0b916b00b29"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hypernotzyper--aniyomi-devpref.json",
+  "sha256": "3cd324150625db96ad5938d5e278349ef2e785234381816972ecee1ad0413c03"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

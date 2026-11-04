@@ -26,7 +26,8 @@ REGISTRO = RAIZ / "registry"
 ESQUEMA = RAIZ / "schemas/ficha.schema.json"
 MANIFIESTO = RAIZ / "registry" / "_manifiesto-sha256.tsv"
 BASELINE = RAIZ / "tools/baseline.json"
-UMBRAL_FRESCURA = 180          # días que un dato puede presentarse como vigente
+UMBRAL_FRESCURA = 180
+POLITICA_FRESCURA = "docs/POLITICA-FRESCURA.json"          # días que un dato puede presentarse como vigente
 
 
 def fijar_raiz(nueva: Path) -> None:
@@ -337,6 +338,8 @@ COMPUERTAS = [
     ("G6 anti-plantilla", "medidor", None),
     ("G7 enlaces", "puerta", None),
     ("G8 presupuesto", "medidor", None),
+    ("G16 fecha respaldada", "puerta", None),
+    ("G17 rutas vivas", "puerta", None),
 ]
 
 
@@ -434,6 +437,70 @@ def g14_atestacion() -> tuple[list[str], str]:
     return fallos, f"{len(bundles)} atestaciones firmadas verificadas"
 
 
+def g17_rutas_vivas() -> tuple[list[str], str]:
+    """G17 · NINGÚN ARCHIVO VIVO CITA UNA CARPETA QUE YA SE MOVIÓ.
+
+    Mover una carpeta con `git mv` no toca una sola línea de los documentos que la citan: el
+    árbol queda con rutas muertas y nadie se entera. Esta compuerta sostiene la tabla de
+    mudanzas de `tools/referencias.py` contra la realidad. Lo histórico se cita y se traduce;
+    lo vivo se corrige antes de empujar.
+    """
+    herramienta = RAIZ / "tools" / "referencias.py"
+    if not herramienta.exists():
+        return ["falta tools/referencias.py: no hay quien compruebe las rutas movidas"], "sin herramienta"
+    r = subprocess.run([sys.executable, str(herramienta), "--json"],
+                       capture_output=True, text=True, cwd=RAIZ)
+    try:
+        datos = json.loads(r.stdout)
+    except json.JSONDecodeError:
+        return ["el informe de referencias no es JSON legible"], "informe ilegible"
+    fallos = [f"{f['archivo']}:{f['linea']} cita «{f['cita']}» (va a «{f['destino']}»)"
+              for f in datos.get("fallos", [])[:20]]
+    mudanzas = datos.get("mudanzas", 0)
+    return fallos, (f"{mudanzas} mudanzas · {len(datos.get('fallos', []))} rutas vivas rotas · "
+                    f"{datos.get('archivos_historicos', 0)} archivos históricos que las citan")
+
+
+def g16_fecha_respaldada() -> tuple[list[str], str]:
+    """G16 · NINGUNA FICHA DECLARA UNA FECHA QUE SU EVIDENCIA NO RESPALDA.
+
+    Nació de un hallazgo, no de una idea: 4.186 fichas declaraban el 3 de noviembre teniendo
+    como única evidencia una fila del censo del 15 de octubre. G2 las contaba como recién
+    medidas porque mira `medido_en`, y `medido_en` se puede escribir sin medir nada.
+
+    Esta compuerta pregunta lo otro: ¿la fecha que declaras la sostiene el archivo que citas?
+    Y de paso exige que lo que se declara vencido tenga su motivo escrito, para que «vencida»
+    no sea una etiqueta cómoda sino una frase con su razón.
+    """
+    herramienta = RAIZ / "tools" / "vencimiento.py"
+    if not herramienta.exists():
+        return ["falta tools/vencimiento.py: no hay quien compruebe el respaldo de las fechas"], \
+               "sin herramienta"
+    r = subprocess.run([sys.executable, str(herramienta), "--json"],
+                       capture_output=True, text=True, cwd=RAIZ)
+    if r.returncode != 0:
+        return ["el informe de vencimientos no se pudo generar"], "sin informe"
+    try:
+        resumen = json.loads(r.stdout)
+    except json.JSONDecodeError:
+        return ["el informe de vencimientos no es JSON legible"], "informe ilegible"
+    fallos = []
+    if not (RAIZ / POLITICA_FRESCURA).exists():
+        fallos.append(f"falta {POLITICA_FRESCURA}: las ventanas no están declaradas")
+    sin = resumen.get("sin_respaldo", 0)
+    ven = resumen.get("vencidas", 0)
+    for f in resumen.get("fichas_sin_respaldo", [])[:20]:
+        fallos.append(f"{f}: declara una fecha que su evidencia no respalda")
+    for f in resumen.get("fichas_vencidas_sin_motivo", [])[:20]:
+        fallos.append(f"{f}: declarada vencida sin motivo escrito")
+    estados = resumen.get("estados", {})
+    detalle = (f"sin respaldo {sin} · vencidas {ven} · por vencer {estados.get('por_vencer', 0)} · "
+               f"vigentes {estados.get('vigente', 0)}")
+    if sin == 0 and ven == 0:
+        return fallos, detalle
+    return fallos or [f"{sin} fichas sin respaldo de fecha · {ven} vencidas"], detalle
+
+
 def g15_guia() -> tuple[list[str], str]:
     """G15 · LA GUÍA MAESTRA NO PUBLICA FICHA SIN CRÉDITO NI SIN OFICIO (M30–M34).
 
@@ -477,6 +544,8 @@ def main() -> int:
         ("G13 novedad", "puerta", g13_novedad()),
         ("G14 atestación firmada", "puerta", g14_atestacion()),
         ("G15 guía maestra", "puerta", g15_guia()),
+        ("G16 fecha respaldada", "puerta", g16_fecha_respaldada()),
+        ("G17 rutas vivas", "puerta", g17_rutas_vivas()),
     ]
     congelados = deuda_congelada()
     total_fallos = 0

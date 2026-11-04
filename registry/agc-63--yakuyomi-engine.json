@@ -8,9 +8,16 @@
  },
  "descripcion": "On-device manga-translation engine — detection, OCR and text removal all on NCNN",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#agc-63/yakuyomi-engine",
-  "sha256": "fb6b31ae7575d15e3513e8365cc82a2828215145df23c65baae008252eadf541"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/agc-63--yakuyomi-engine.json",
+  "sha256": "999f1e73904611a72553442594dc320bb269d4c1453afaa049a94b0d1d6d7587"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

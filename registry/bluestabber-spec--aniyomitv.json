@@ -8,9 +8,16 @@
  },
  "descripcion": "An app for manga and anime on TV",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#bluestabber-spec/aniyomiTV",
-  "sha256": "bbf195d03926c3eebdd8efcc65d53289845bef5bbdc9cb48996681d78ed26e7b"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/bluestabber-spec--aniyomitv.json",
+  "sha256": "3b1165da674fe4a457f83e4bdbaf5a552ab3a8fb78655e80ad0bc6374e4e3252"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

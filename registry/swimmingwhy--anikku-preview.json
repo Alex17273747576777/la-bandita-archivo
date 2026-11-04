@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#swimmingwhy/anikku-preview",
-  "sha256": "016057b78632982e4d916d4bd499532b4fbd9f0484f7ff4e80c5c87b82450253"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/swimmingwhy--anikku-preview.json",
+  "sha256": "bdd8010f185a6d53baff2cc3f6812af0a0efec4801e704491c6d78568867186d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

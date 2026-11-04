@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/hallohawaii25-droid--airi.json",
   "sha256": "391cb87bead2900eb4559aef887b5e7a1baeab0b6a8a5f850b0a30e74a7f2bfb"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

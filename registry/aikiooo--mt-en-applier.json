@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/aikiooo--mt-en-applier.json",
   "sha256": "e664f7b91f610cf270fd7deeb525d68b6e466d407a4e49c1bf113d73e610fa4b"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

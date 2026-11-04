@@ -8,9 +8,16 @@
  },
  "descripcion": "Free & Open Source Local Coding Agent for Android.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#JDMD21/Syntac",
-  "sha256": "8ea3ef6466a97a0bf96ea3be5f157f741886b9d745f2d5efb26f000bcd181a38"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/jdmd21--syntac.json",
+  "sha256": "b5638a34490673bd7622b3ad2600f46d0179741babdc24a020967d0467aec138"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "Anime Watcher (Android TV), Manga Reader, and Novel Reader as three separate app",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#HarishRaghav234/OtakuWorld",
-  "sha256": "1630d78c7ee46943a766aba2306a0642b96ceef878bdf326a6c9a8e4db015886"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/harishraghav234--otakuworld.json",
+  "sha256": "52d03efafd8d83d8d919adf0ec6411588a161ced1dfe1f84ce7e5fd12cf44a7f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -4,13 +4,20 @@
   "release_en": "2026-10-01",
   "semantica_http": 200,
   "ultima_release": "v1.33.0-fork.1",
-  "ultimo_push": "2026-10-02"
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Morphe app patcher for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#andersonlucasg3/morphe-manager",
-  "sha256": "cd3759b1164550df536d8b9c43e16e5c88a661cd5877f6c03aa379c8ff3c5005"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/andersonlucasg3--morphe-manager.json",
+  "sha256": "9daae1923b5d00e0d85d10629fa2cf9476d21e393e468e41eca07e2a3f8e65f5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {
@@ -36,9 +43,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "922e068a20ad578ecb26a2f0cdb2a806362bd55d",
+  "commit": "ea98a7f90c8ed5cecf578f3d8bb592fb370b6020",
   "swh_estado": null,
-  "swhid": "swh:1:rev:922e068a20ad578ecb26a2f0cdb2a806362bd55d"
+  "swhid": "swh:1:rev:ea98a7f90c8ed5cecf578f3d8bb592fb370b6020"
  },
  "repo": "andersonlucasg3/morphe-manager"
 }

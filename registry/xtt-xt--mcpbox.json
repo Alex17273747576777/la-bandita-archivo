@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/xtt-xt--mcpbox.json",
   "sha256": "73075ecf5f8663c04ecdce61a1bfa4b74ca6125d2c2c8ec26c91c2fa33924619"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

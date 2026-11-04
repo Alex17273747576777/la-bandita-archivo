@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/supermonster003--autojs6-plugin-mcp-server.json",
   "sha256": "2edfd0ea4170ee3fbfb749531752c46a1937936e100159f249e93ce22b65687e"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

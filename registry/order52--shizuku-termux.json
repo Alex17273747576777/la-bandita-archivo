@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/order52--shizuku-termux.json",
   "sha256": "39c709f4ce22a78363e2d1e3b388ba4f56371e661f57c247f9bef63ed2c17b21"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

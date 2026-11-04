@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/hqw700--scrcpyoverwebrtc.json",
   "sha256": "45e02fbaadc0581e34191c76974017511b40ba3519e1b90a3e13d7d31d81b8ec"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

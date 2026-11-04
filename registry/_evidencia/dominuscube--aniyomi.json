@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-07-07T11:58:16Z",
+   "oid": "1fb17be820469497de323d37947df5990aa98a34"
+  }
+ },
+ "diskUsage": 83337,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "DominusCube/aniyomi",
+ "pushedAt": "2026-07-07T11:58:18Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/shankarpentyala07--servers.json",
   "sha256": "7471f485f8bb7e79c3c9d21bd79466cf93bc99ff6a5f9ea7d21c64a506e5ad4e"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

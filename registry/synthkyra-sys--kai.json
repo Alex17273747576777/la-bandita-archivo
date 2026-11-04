@@ -8,9 +8,16 @@
  },
  "descripcion": "OpenClaw alternative in your pocket",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#synthkyra-sys/Kai",
-  "sha256": "fd744f6271b6b145be947c39ebb31a0da80aa062f039fd156f0f4db525eb3ef3"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/synthkyra-sys--kai.json",
+  "sha256": "1f8f9ce9cfdd817c51258eff8dbfb4f5321f005fb5436a6e7fd51f2109ac5a08"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

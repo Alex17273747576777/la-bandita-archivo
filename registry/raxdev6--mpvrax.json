@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/raxdev6--mpvrax.json",
   "sha256": "83f9990ed10b4da11f072a2c4e0658b65727d225ceff455e4a3227308601521c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

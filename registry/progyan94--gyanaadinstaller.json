@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/progyan94--gyanaadinstaller.json",
   "sha256": "eb724836ccc66cdcb5e47bffd6d0440c3a1a65bfac20d777c79cb2b1f4b5f28a"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

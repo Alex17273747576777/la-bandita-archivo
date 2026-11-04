@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/gokadzev--musify.json",
   "sha256": "dc47904be0dc914df92c5763e82c977ddc1c0df6f374420fe2d16e1575243a58"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

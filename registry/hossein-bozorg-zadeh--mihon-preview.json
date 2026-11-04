@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#hossein-bozorg-zadeh/mihon-preview",
-  "sha256": "d51ddba162aa329b5b7a959fb57c16c90be8f34bf73209bd7cdca48ccd4c4ed2"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hossein-bozorg-zadeh--mihon-preview.json",
+  "sha256": "60a4f396f69f0f26a3d7b49885303c681bb1fc5a39f5ad0a0a4f707767aa88eb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

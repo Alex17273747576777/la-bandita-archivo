@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/bropines--jhentai.json",
   "sha256": "a4875889dcb10ef60009cc42cec6d0cbb7c24afe06b8ce419934cfd379e8a298"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

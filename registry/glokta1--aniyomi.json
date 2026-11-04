@@ -8,9 +8,16 @@
  },
  "descripcion": "Unofficial fork of Tachiyomi for anime",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#glokta1/aniyomi",
-  "sha256": "2119cd5a4c8acf1afb1f166d5034282fa43bfb59a680debe3435dde2c580a3af"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/glokta1--aniyomi.json",
+  "sha256": "f929f856f1a28e019854d5b14e06ed8a8539a053ae1f5670e0f0e27d489743c7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

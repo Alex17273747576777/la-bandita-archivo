@@ -8,9 +8,16 @@
  },
  "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#renatapetan61-ops/ApoloVM",
-  "sha256": "00541532470d4a5947d06274b7a29b2a2d856b0a025cc1a05d9ae28e20998ed0"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/renatapetan61-ops--apolovm.json",
+  "sha256": "c95adeda52bb2cd870c6ef23018e7ef5cea53a306b1271f57b937ada10d4f4fb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

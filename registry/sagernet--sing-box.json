@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/sagernet--sing-box.json",
   "sha256": "7070565149321868e750371fde120ec1f557f1fb4a0da97f6e1d807bf8875ca3"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

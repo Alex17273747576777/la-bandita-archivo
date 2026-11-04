@@ -8,9 +8,16 @@
  },
  "descripcion": "A gui to download anime & manga in batches & its fast :3",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#DarwinOsingo/StrawVerse",
-  "sha256": "b6227faccc795a180eee730d319f6837240ba4f3684edeb45cb6cc528985d523"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/darwinosingo--strawverse.json",
+  "sha256": "88451aa72ad76e141d769ecf0d958abdb2dfa6a73d5579225ce5466289bc1616"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/sfg5453--orchard.json",
   "sha256": "3c8d011e9b5f4ae18b91d413baa7f0910cec388ea1391d9fe5f5e8d3bc967083"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

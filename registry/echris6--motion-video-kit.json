@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/echris6--motion-video-kit.json",
   "sha256": "a627b0a02eb5767307e5815f408ffdbc8682abaff8992bbf475c2ccdc56fe754"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

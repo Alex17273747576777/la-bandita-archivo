@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/luriastars--airi-based.json",
   "sha256": "e7fede0ba5672c763bbbe447efc1968e1e97512a591a6fb7a1ce4c46f79f042c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

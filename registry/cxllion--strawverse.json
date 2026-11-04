@@ -8,9 +8,16 @@
  },
  "descripcion": "A gui to download anime & manga in batches & its fast :3",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Cxllion/StrawVerse",
-  "sha256": "995e75ae76a198fffa606895b406982324bc61b61ccfec5c36f8335c5f23c189"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/cxllion--strawverse.json",
+  "sha256": "bfdb0df3ac19f19804b6fb9a7a37abaa27c5877fcc63a939efe7fef7a8d98d19"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

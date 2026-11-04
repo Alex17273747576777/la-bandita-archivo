@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#drol666/mangayomi",
-  "sha256": "c4a7b5bc93e7a49563a06084aac8e0c1d19d42a3a41ef0bd106c9652373556a9"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/drol666--mangayomi.json",
+  "sha256": "eb2c6c1a3a81ff301d28a30b067cc159e2d41f4d0d8dc76747ef4e79e6de8bbc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

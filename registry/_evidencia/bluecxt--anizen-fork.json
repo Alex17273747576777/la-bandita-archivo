@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-09T13:18:43Z",
+   "oid": "efe2bba8279d26b8b044ad4be5c4880ddd121a5a"
+  }
+ },
+ "diskUsage": 78565,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "bluecxt/AniZen-fork",
+ "pushedAt": "2026-10-25T20:13:25Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 1
+}

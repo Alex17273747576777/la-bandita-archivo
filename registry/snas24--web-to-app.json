@@ -8,9 +8,16 @@
  },
  "descripcion": "A native Android application that converts any website URL into a standalone And",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#SNAS24/web-to-app",
-  "sha256": "625afdd9167cd81ffe49861353aac7fe09ffeb6c1c9626af0bf8503a3e38164c"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/snas24--web-to-app.json",
+  "sha256": "e613e39a44c44f50b40457c247608c2b176d5e39706530164d95e81e3a206f85"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "APKUpdater is an open source tool that simplifies the process of finding updates",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#mazen5445/apkupdater",
-  "sha256": "977c535713f003b3de0070029722835d3fcf9d7b07dc3ce7b245d67b2046c495"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mazen5445--apkupdater.json",
+  "sha256": "ce9e42d2ab298b26a1ed9829f13f97bd4640675c8b3c522483fec6d304f3e90c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

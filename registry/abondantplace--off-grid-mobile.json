@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/abondantplace--off-grid-mobile.json",
   "sha256": "772b0708933bae2b30295f624eddbb2bc21976aba102bd73b6cff9171364aa53"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

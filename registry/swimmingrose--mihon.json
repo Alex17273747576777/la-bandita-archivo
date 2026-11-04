@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#swimmingrose/mihon",
-  "sha256": "479c5039e21e10f6da8e0e37756ecfc0bd4965e0db6154293e371110b4c453c6"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/swimmingrose--mihon.json",
+  "sha256": "c08d9ae22e7be4a7ca198dbef4bac1ce2da4332474c7b2f898c3b623610d8b7d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

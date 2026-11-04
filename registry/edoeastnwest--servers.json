@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/edoeastnwest--servers.json",
   "sha256": "443762e557d6e1a764d186f8da377b0e20d126342492ad9e2e3ff2d7676286b4"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

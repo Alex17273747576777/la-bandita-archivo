@@ -8,9 +8,16 @@
  },
  "descripcion": "一个强大的模拟器软件",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#blankofmu/Vectras-VM-Android",
-  "sha256": "1900d4936f8c40b3fcecebcc8a6f5be383b06a6fe4b8f9044e9a43aace3b3f05"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/blankofmu--vectras-vm-android.json",
+  "sha256": "0ec92344bc695e42e0830e915d88a5cbf9a7032fb924e63ed34a01f1ec334647"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

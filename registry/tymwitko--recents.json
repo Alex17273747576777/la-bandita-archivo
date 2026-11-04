@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/tymwitko--recents.json",
   "sha256": "4deedfae3b72b82d73f8d89c13beb0bb8fe146b50153c3660e5738a727116864"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

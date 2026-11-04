@@ -8,9 +8,16 @@
  },
  "descripcion": "Another Shizuku impl",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#lovelmxa/Stellar",
-  "sha256": "8a6b7a51a45ec4f9f4b09c17b5661255a18709c1ded5c6a535dbe3737997336a"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lovelmxa--stellar.json",
+  "sha256": "4beef7883c69e75e4e92b16934cf215226a0c53b57c03aa5168a6728d8af070f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

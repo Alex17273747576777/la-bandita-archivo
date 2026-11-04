@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 49 documentos en `docs/`, agrupados en 19 familias, y 31 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 51 documentos en `docs/`, agrupados en 19 familias, y 33 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -25,6 +25,7 @@
 | [`ACTA-PIEZA-04-WA-2026-11-03.md`](ACTA-PIEZA-04-WA-2026-11-03.md) | Acta de la pieza 04 de WhatsApp · 3 de noviembre de 2026 | — sin primera oración con cuerpo — | 30 |
 | [`ACTA-REFINADO-Y-VERIFICACION-2026-11-03-B.md`](ACTA-REFINADO-Y-VERIFICACION-2026-11-03-B.md) | ACTA · refinado del repositorio y verificación triple (segunda pasada) | Quince archivos de gobierno descargados con la API sobre el commit publicado y comparados por SHA-256 contra el manifiesto local. **13 iguales en la… | 83 |
 | [`ACTA-REINICIO-CICLO-2026-11-02.md`](ACTA-REINICIO-CICLO-2026-11-02.md) | Acta de reinicio del ciclo de publicaciones · 2 de noviembre de 2026 | Una pieza publicada es evidencia: se midió, se gateó y salió a la calle. | 87 |
+| [`ACTA-REMEDICION-2026-11-03.md`](ACTA-REMEDICION-2026-11-03.md) | ACTA · la memoria a su sitio y el registro remedido | La regla que decide el destino es la misma que ya ordenaba la raíz: **el presente en la puerta, la memoria con su fecha.** `02-ARCHIVO/` ya era la… | 113 |
 ### Barridos · barridos de error
 
 | Documento | Título | De qué va | Líneas |
@@ -82,9 +83,10 @@
 
 | Documento | Título | De qué va | Líneas |
 |---|---|---|---|
-| [`CODIGO.md`](CODIGO.md) | EL CÓDIGO, EXPLICADO | Un programa es una receta: entra un ingrediente, se hace un paso, sale un plato. | 182 |
+| [`CODIGO.md`](CODIGO.md) | EL CÓDIGO, EXPLICADO | Un programa es una receta: entra un ingrediente, se hace un paso, sale un plato. | 200 |
 | [`INVESTIGACION-RECURSOS-2026-11-01.md`](INVESTIGACION-RECURSOS-2026-11-01.md) | INVESTIGACIÓN DE RECURSOS NUEVOS · domingo 1 de noviembre de 2026, 07:00 (Santo Domingo) | Cuatro consultas a la API de GitHub, ordenadas por estrellas, filtrando por fecha de creación: | 145 |
 | [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 45 |
+| [`VENCIMIENTOS.md`](VENCIMIENTOS.md) | VENCIMIENTOS DEL REGISTRO | Las **0** fichas sin respaldo no están desactualizadas: están mal fechadas. | 63 |
 | [`COMO-SE-MANDA.md`](envios/COMO-SE-MANDA.md) | CÓMO SE MANDA · reglas y mapa de los envíos | Esto no es un catálogo de archivos: es la decisión de cómo sale el archivo a la calle. | 103 |
 | [`01-El-turno-de-los-que-nacieron-este-trimestre-doce-proyectos-medidos-hoy-y-uno-que-no-aguanta-el-escrutinio-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/01-El-turno-de-los-que-nacieron-este-trimestre-doce-proyectos-medidos-hoy-y-uno-que-no-aguanta-el-escrutinio-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 01 · envío para Facebook | La Bandita · pieza 01 · guía del 3-nov-2026 · te la mando hoy en 20 mensajes. | 436 |
 | [`02-La-musica-que-no-se-cae-once-reproductores-un-tronco-seco-y-tres-formas-de-quedarse-sin-catalogo-Facebook-La-Bandita-2026-11-02-dominicano-ES.md`](envios/facebook/02-La-musica-que-no-se-cae-once-reproductores-un-tronco-seco-y-tres-formas-de-quedarse-sin-catalogo-Facebook-La-Bandita-2026-11-02-dominicano-ES.md) | PIEZA 02 · envío para Facebook | La Bandita · pieza 02 · guía del 2-nov-2026 · te la mando hoy en 20 mensajes. | 426 |
@@ -145,8 +147,8 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`acta_conformidad.py`](../tools/acta_conformidad.py) | ACTA DE CONFORMIDAD · genera docs/CONFORMIDAD-MANUAL-<fecha>.md a partir de una corrida real. | 125 |
 | [`atestacion_verificar.py`](../tools/atestacion_verificar.py) | VERIFICADOR DE LA ATESTACIÓN FIRMADA SIN LLAVE (Sigstore keyless). | 174 |
 | [`atestar.py`](../tools/atestar.py) | ATESTACIÓN · sella el registro con SHA-256 y encadena el lote anterior. | 113 |
-| [`autoprueba.py`](../tools/autoprueba.py) | AUTOPRUEBA DE LA VARA · una compuerta que no falla ante un fallo sintético no es una compuerta. | 196 |
-| [`censo_medir.py`](../tools/censo_medir.py) | RE-MEDICIÓN DEL REGISTRO · deja de mirar el censo del 15-oct y lo vuelve a medir hoy. | 220 |
+| [`autoprueba.py`](../tools/autoprueba.py) | AUTOPRUEBA DE LA VARA · una compuerta que no falla ante un fallo sintético no es una compuerta. | 222 |
+| [`censo_medir.py`](../tools/censo_medir.py) | RE-MEDICIÓN DEL REGISTRO · deja de mirar el censo del 15-oct y lo vuelve a medir hoy. | 281 |
 | [`descubrir.py`](../tools/descubrir.py) | DESCUBRIR · extrae repositorios de una fuente y los cruza contra el registro. | 105 |
 | [`diseno.py`](../tools/diseno.py) | DISEÑO · el sistema visual de la casa, en un solo sitio. | 477 |
 | [`doctor.py`](../tools/doctor.py) | DOCTOR · el primer comando que se corre en una máquina nueva, y el último antes de publicar. | 168 |
@@ -166,13 +168,15 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`merito.py`](../tools/merito.py) | MÉRITO MEDIDO · el Scorecard de OpenSSF sustituye a ★ como señal de mérito. | 150 |
 | [`novedad_gate.py`](../tools/novedad_gate.py) | TESTIGO DE NOVEDAD Y DE SERIE CORTA — N01–N08, M24–M28, M00. | 248 |
 | [`pulso.py`](../tools/pulso.py) | PULSO · mide repositorios en fuente primaria y escribe fichas con evidencia cruda. | 430 |
-| [`registro_construir.py`](../tools/registro_construir.py) | REGISTRO · construye las fichas JSON del activo vendible desde el censo medido. | 201 |
+| [`referencias.py`](../tools/referencias.py) | REFERENCIAS · comprueba que ninguna carpeta movida siga citada por su ruta vieja. | 210 |
+| [`registro_construir.py`](../tools/registro_construir.py) | REGISTRO · construye las fichas JSON del activo vendible desde el censo medido. | 220 |
 | [`sello_reglas.py`](../tools/sello_reglas.py) | REGLAS DEL SELLO · en un solo sitio, para que la vara y la atestación no se contradigan. | 54 |
 | [`sitio.py`](../tools/sitio.py) | SITIO · genera el sitio estático de La Bandita desde las piezas y el registro. | 617 |
 | [`swhid.py`](../tools/swhid.py) | SWHID POR REVISIÓN MEDIDA · el código que se midió, citado de forma que no se pueda perder. | 155 |
 | [`tareas.py`](../tools/tareas.py) | TAREAS · el extractor del archivo: de las piezas al tablero, sin copiar a mano. | 163 |
 | [`tres_lecturas.py`](../tools/tres_lecturas.py) | TRES LECTURAS · la misma medición, tres veces y por tres caminos distintos. | 207 |
-| [`vara.py`](../tools/vara.py) | LA VARA · las ocho compuertas de la casa, ejecutables en un solo comando. | 513 |
+| [`vara.py`](../tools/vara.py) | LA VARA · las ocho compuertas de la casa, ejecutables en un solo comando. | 582 |
+| [`vencimiento.py`](../tools/vencimiento.py) | VENCIMIENTO · qué ficha sigue vigente, cuál está por vencer y cuál hay que volver a medir. | 375 |
 
 ## Cómo se mantiene
 

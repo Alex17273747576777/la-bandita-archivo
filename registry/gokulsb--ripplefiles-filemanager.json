@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/gokulsb--ripplefiles-filemanager.json",
   "sha256": "65d15c0c5f5b6061b6d263e2a915b61864681904adb1267341d1353010dc7897"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

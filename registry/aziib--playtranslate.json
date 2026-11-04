@@ -8,9 +8,16 @@
  },
  "descripcion": "Real-time game translation app for the Ayn Thor dual-screen Android device",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#aziib/playtranslate",
-  "sha256": "0bee1b2ef16a6f43e11b0a28257378e27c77470cc84178073aa1fd844c2dff5f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/aziib--playtranslate.json",
+  "sha256": "95bbb78e75216f29a6a68391f19e7cb3b9cc2b690b97f212c594119155766ad0"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

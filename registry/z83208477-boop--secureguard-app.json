@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/z83208477-boop--secureguard-app.json",
   "sha256": "854193763fd5841bbc4534bff853fdc870cd61c26807a7b31c3972424d6482cc"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

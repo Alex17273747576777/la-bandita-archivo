@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#FamTheMystery/mangayomi",
-  "sha256": "0f4fe3c165af87a6fb0b3b165fb44bf592f9ca2625aabe3caa95ed5e65b64bcf"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/famthemystery--mangayomi.json",
+  "sha256": "60d80dbc76ee3a5ca4bd07d022b06fe27bde54b0ff553844ea5a8bb588ece244"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

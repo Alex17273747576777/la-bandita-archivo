@@ -8,9 +8,16 @@
  },
  "descripcion": "Hikari — a universal streaming app: Stremio addons, universal scrapers, CloudStr",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#malidheeraj830-jpg/hikari",
-  "sha256": "75ff2e90b0c0119e9dae9852df4720f871e87931119854f490e29c8ad2476a6e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/malidheeraj830-jpg--hikari.json",
+  "sha256": "1d56d2806140a2e73767ce2b1cbe2f912f01536c101d70b8cef3bf66426a6366"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

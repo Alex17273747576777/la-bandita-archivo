@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android. Fork of Yōkai/TachiyomiJ2K/Mihon",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Sacha1016/rokku",
-  "sha256": "912efb9fe4bfba42f737a05333282e6c0d45513e5178fb5d9ae9117d23ebee17"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/sacha1016--rokku.json",
+  "sha256": "6a4208c109e201b63a67256e0e3a939b0b6a467bfea3f3c1c3af11ef14205c12"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

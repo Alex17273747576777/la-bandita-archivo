@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/kushro--komikku-image-scaling.json",
   "sha256": "51fdf78cffe7c16a2178f0d14eb5af5dcb2773c8b7e9ffa88c5aec8ff516e56f"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

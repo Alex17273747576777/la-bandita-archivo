@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/privshell--privshell.github.io.json",
   "sha256": "8ff2dcb89abc53da6d2ff45613663d74ef6054f5780893394bd4966806fb0446"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Password manager app for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/philippc--keepass2android.json",
-  "sha256": "ed995b6a2dbd44e78a0eb2563167e9b37d3fbe5cf6e82a35bccff540d326da65"
+  "sha256": "4e5afe4f8350d67fb7c26f1b109bd7a5a031f61e4c8677d35158996e6022d3db"
+ },
+ "frescura": {
+  "dias": 71,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-11-22",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {
@@ -29,7 +36,7 @@
  "merito": {
   "scorecard": 2.8,
   "scorecard_en": "2026-08-24",
-  "stars": 6364,
+  "stars": 6365,
   "stars_por_mes": null
  },
  "nombre": "keepass2android",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/moekyawaung-designer--web-to-app.json",
   "sha256": "1ee1beb80b90d1c8dc744d7d3c30705d33fd629fb72877453e25706d9b75dfce"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

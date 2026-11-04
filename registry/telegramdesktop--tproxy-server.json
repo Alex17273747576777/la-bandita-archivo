@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/telegramdesktop--tproxy-server.json",
   "sha256": "79e45c793f78501e4636bc268503e7762778ae6676f8a8b423c3428db7010d7f"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

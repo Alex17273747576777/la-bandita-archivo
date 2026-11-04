@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/fdzaki-dev--lagfix.json",
   "sha256": "38032067b7c996e8ca74ca70d6c1d53c09fc27a40a2e35345e4de7eb81d20b90"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

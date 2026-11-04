@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#dibradouane/AniZen",
-  "sha256": "c8163e63020c6ac0c3495f450259edd11e91a076373fd8ffc78a0cc44c3a8449"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/dibradouane--anizen.json",
+  "sha256": "41937edcf886623a179b10d6e84c8cf7d0d366dcc2278c6605b8b36fd8ad29db"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

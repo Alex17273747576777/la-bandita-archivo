@@ -8,9 +8,16 @@
  },
  "descripcion": "Hayai is a TachiyomiJ2K-based Android manga and light-novel reader with Tachiyom",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Creepppper/hayai",
-  "sha256": "b7a45c77ef7ba2df26d2c86be9775f36b1574cbd0b9a6a892fad2ab44ed212a4"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/creepppper--hayai.json",
+  "sha256": "ab5c5012b7512c4cd255e6bf64e9e8a76fb351bafd19131212e3a8b5916aa56e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

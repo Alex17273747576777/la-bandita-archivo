@@ -8,9 +8,16 @@
  },
  "descripcion": "A native Android application that converts any website URL into a standalone And",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#JINGOROANDPUNCHI/web-to-app",
-  "sha256": "25f4311b7bb86ba298b56f01d44192f9326345dcf76837e04ec60bd125270a6f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/jingoroandpunchi--web-to-app.json",
+  "sha256": "a8e6e2084713c00d13e7df20d3b0dbcc60747ae379168095ef69b2f483bf9a62"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

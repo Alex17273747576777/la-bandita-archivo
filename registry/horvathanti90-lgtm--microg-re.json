@@ -8,9 +8,16 @@
  },
  "descripcion": "GmsCore fork for Morphe patched apps",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#horvathanti90-lgtm/MicroG-RE",
-  "sha256": "6a374e512d96bd3b581bf5174c141508b3fe63cef2d6cdc5268e74761fbb2dd3"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/horvathanti90-lgtm--microg-re.json",
+  "sha256": "a606e0a38254725775749d51db32413104216eed64cba212ded370137d43f013"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

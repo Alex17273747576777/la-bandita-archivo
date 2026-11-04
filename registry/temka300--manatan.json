@@ -8,9 +8,16 @@
  },
  "descripcion": "Seamless immersion language learning for anime, manga, novels on all platforms",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Temka300/Manatan",
-  "sha256": "91240e8ce03b947f8b4090489da25c3ff34cb275481b22a1155fa816f00406bc"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/temka300--manatan.json",
+  "sha256": "cff8f38b9fc6e82ce4d34f3a0d085c5e935150caa89bcd3c1bfd9dd47db88005"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

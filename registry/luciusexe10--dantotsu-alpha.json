@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#luciusexe10/Dantotsu-Alpha",
-  "sha256": "ff043c5f0fa09ee854f8db5ac486b0f612ed79a6cbceffe18a1a7104f2e25515"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/luciusexe10--dantotsu-alpha.json",
+  "sha256": "cd58eeeb569e1346ff9c0862d67324a8f677c0ced013cacc39e5b5f69e1da7f4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

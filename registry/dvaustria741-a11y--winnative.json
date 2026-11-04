@@ -8,9 +8,16 @@
  },
  "descripcion": "An Android app for playing Windows games from Steam, Epic Games, GOG, and more o",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#dvaustria741-a11y/WinNative",
-  "sha256": "76344ebeb31f4e4ac42c72c7de6a44ded7318c3ff0b040498035527914141f92"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/dvaustria741-a11y--winnative.json",
+  "sha256": "c64dbf6cf392adefa70fd50e57d12d44d0feefa5489988eaa0434c04d61ba6cc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

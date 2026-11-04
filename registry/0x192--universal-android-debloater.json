@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/0x192--universal-android-debloater.json",
   "sha256": "f97e924dfa4954fb1e71c9bbe037ffc079d6ad913991ae38ad8c70f8ddca3175"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

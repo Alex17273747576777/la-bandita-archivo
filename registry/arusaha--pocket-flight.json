@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/arusaha--pocket-flight.json",
   "sha256": "bea3987a029e9cccfaa9d2b9b7313fc31237296e5dc9d62b9e91877435fa4ca6"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

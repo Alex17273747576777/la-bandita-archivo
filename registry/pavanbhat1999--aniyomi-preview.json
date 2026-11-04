@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/pavanbhat1999--aniyomi-preview.json",
   "sha256": "0ef2be50a62af115a4ff73720d495f06fe4a82b0e2cd97e13425f14f87ddd1ea"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

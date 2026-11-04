@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/awkwardpeak7--mihon.json",
   "sha256": "38cb5b06ed8b7d7225bc0f6e646119e5719acd7054cd5c9d6c02a6cac3386716"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

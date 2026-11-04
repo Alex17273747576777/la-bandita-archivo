@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/cianlaw--pet-agent.json",
   "sha256": "8b07d7da7fd32a1e2ab8e8318261726d4395860986de8d64f6c98453d664165f"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/sihooney--spotify-ad-skipper.json",
   "sha256": "b35c975c5ba4ae47e36bf53cc904b7cfa952dc0266b6c11d8270b57937888ec1"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

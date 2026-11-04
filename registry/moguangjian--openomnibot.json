@@ -8,9 +8,16 @@
  },
  "descripcion": "你的端侧 AI 助手，她可以操作终端，也可以完成 Android 世界的广泛任务 || Your on-device AI assistant, capable",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#moguangjian/OpenOmniBot",
-  "sha256": "1cd1d32b9077c161f6e67e87f6248e2f194dd01d4ee352206cd3e8efd7481189"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/moguangjian--openomnibot.json",
+  "sha256": "6db839e8a5f1f7344c5818def5f3c17fc7e9c221843c3a3119819312e691c95c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

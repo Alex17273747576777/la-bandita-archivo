@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/snake-4--zygisk-assistant.json",
   "sha256": "29ee7986751d4a3bc79782bae1b28a11b43e315d18e1ba352123bd73a3041ea8"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

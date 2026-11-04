@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ccch1mneyyy--dsh-go.json",
   "sha256": "9ae3711b34c9f9747da004e7cc313e8ca5a9ddf4b7282758fd29819a97eb7eb1"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

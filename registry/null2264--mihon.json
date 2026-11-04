@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/null2264--mihon.json",
   "sha256": "652019fe832fd19eeca7d34f9eb1446cb7aaf57f4e1c7eb71424c3c607a31aeb"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

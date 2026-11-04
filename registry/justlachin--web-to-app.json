@@ -8,9 +8,16 @@
  },
  "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop th",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#JustLachin/web-to-app",
-  "sha256": "5c9d6f867c91893c321be9b829c8b3a562fd3c9f3b10c8eec08a57f3258b7754"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/justlachin--web-to-app.json",
+  "sha256": "0e79e90beee4b2db3d7a81f000aec476688dac293e5c230c627ca769699604ea"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

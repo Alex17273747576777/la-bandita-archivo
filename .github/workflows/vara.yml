@@ -50,6 +50,12 @@ jobs:
           fi
           echo "vara aprobada: fallos NINGUNO verificado en el texto del informe"
 
+      - name: Cada fecha, respaldada por su evidencia
+        run: python3 tools/vencimiento.py --peor
+
+      - name: Ninguna ruta movida citada por su nombre viejo
+        run: python3 tools/referencias.py --peor
+
       - name: Tablero de tareas al día
         run: python3 tools/tareas.py --revisar
 

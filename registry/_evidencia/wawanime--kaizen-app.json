@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2025-07-23T16:40:33Z",
+   "oid": "6e85f8d4188abe580d769450ad936b554f6100ec"
+  }
+ },
+ "diskUsage": 1414,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "wawanime/kaizen-app",
+ "pushedAt": "2025-07-23T16:40:41Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

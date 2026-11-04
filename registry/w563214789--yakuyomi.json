@@ -8,9 +8,16 @@
  },
  "descripcion": "A manga reader with on-device AI translation — a mihon fork powered by yakuyomi-",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#w563214789/Yakuyomi",
-  "sha256": "c1e67b26ff594633f2d3e42968ff64325cd389f216ef0059ad9df4b346460a6e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/w563214789--yakuyomi.json",
+  "sha256": "16d868514472607085cd8d43533c489eff8f77c6ab874b082a5a61369345620e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

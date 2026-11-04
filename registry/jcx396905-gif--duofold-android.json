@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/jcx396905-gif--duofold-android.json",
   "sha256": "a57fdcf8e0e6f26d5332ce53ba164852ffaa07b1fd5954b1d0198d2fc403dc9e"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

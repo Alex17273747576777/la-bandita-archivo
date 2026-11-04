@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/skydeckai--rememberizer-mcp-servers.json",
   "sha256": "58d5ddcf46e4175858b2ac56e09ac0cbb24e07de17d4404f4019c85d3be642f2"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

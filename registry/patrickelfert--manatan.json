@@ -8,9 +8,16 @@
  },
  "descripcion": "Seamless immersion language learning for anime, manga, novels on all platforms",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#PatrickElfert/Manatan",
-  "sha256": "c714df19c10d9c54dddfdd570aafa649f086b51cdab29854ba47139adf69183c"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/patrickelfert--manatan.json",
+  "sha256": "b4f64952dcac08ce11549757fd76acbc2f33e9a03c508437b7b953bda76cbdaa"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

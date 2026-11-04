@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/gevky--classic-dockmode.json",
   "sha256": "2faabf9175c9bc2ff2734644331036dd139362417f81bb23610ea3fe3ff66517"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

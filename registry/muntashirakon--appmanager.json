@@ -8,9 +8,16 @@
  },
  "descripcion": "A full-featured package manager and viewer for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/muntashirakon--appmanager.json",
-  "sha256": "c7d5ca38fb79f082cc612f06b4ee4a27e15453bfc7e14d38871661d626088c22"
+  "sha256": "ba3ca100d15a8c47f375dc5e9284fa76305c7fea0a5ce01cfe2a034abdbfffff"
+ },
+ "frescura": {
+  "dias": 71,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-11-22",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {
@@ -29,7 +36,7 @@
  "merito": {
   "scorecard": 4.3,
   "scorecard_en": "2026-08-24",
-  "stars": 9424,
+  "stars": 9427,
   "stars_por_mes": null
  },
  "nombre": "AppManager",
@@ -38,10 +45,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "bd91c92c6df8e46b05ffdd39cdc6222d334472f3",
+  "commit": "dc4154f4c04399602895f31f9390bb66b25ea8a0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:bd91c92c6df8e46b05ffdd39cdc6222d334472f3"
+  "swhid": "swh:1:rev:dc4154f4c04399602895f31f9390bb66b25ea8a0"
  },
  "repo": "MuntashirAkon/AppManager",
  "web": "http://muntashir.dev/AppManager/"

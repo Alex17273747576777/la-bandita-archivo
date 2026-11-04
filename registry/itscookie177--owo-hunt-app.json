@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/itscookie177--owo-hunt-app.json",
   "sha256": "293b2b67a804c9c3200bc57dbd77bd940750637c5d5d581f0843f0989bb2dd08"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

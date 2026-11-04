@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/k3x1n--android-show-taps.json",
   "sha256": "96a4d075843cf0e1dd9cde632e5d7247ccf70e366eaaef720187bf06bd37009e"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

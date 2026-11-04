@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/serpyz--airi.json",
   "sha256": "c13518cae33d86b9d2c121388470785eba85bc36ae3ee6df18f60e2b7f096451"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

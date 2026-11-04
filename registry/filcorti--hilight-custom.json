@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/filcorti--hilight-custom.json",
   "sha256": "25f41b6c4a3ad21fd38cd71fb6fb1b8c237c29c5131801f36f933dd57f385e9e"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

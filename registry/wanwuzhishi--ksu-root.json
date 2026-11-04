@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/wanwuzhishi--ksu-root.json",
   "sha256": "2f00be7797dc21876fbb1f56226349698419b32109777f47c1a03d43b04913fb"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

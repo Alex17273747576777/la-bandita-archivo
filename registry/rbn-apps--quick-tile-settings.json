@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/rbn-apps--quick-tile-settings.json",
   "sha256": "1df4f671a65399ca43d601f87ba32bd3bc53763c186fac03dbe657648ef851e8"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

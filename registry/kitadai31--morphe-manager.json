@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#kitadai31/morphe-manager",
-  "sha256": "8bb082e236e8668e943ea0ed6292230e487a144d0da7bb7417305b727e7d7ce2"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kitadai31--morphe-manager.json",
+  "sha256": "c874a62d635658c01aa5cd443a178ebe0e190a5942b389ee92aa717af96a868a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

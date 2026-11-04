@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/mojuru--cursed-manga-repo.json",
   "sha256": "4a10a232b2e82eecd1810d9db8205446dd0276409ea35847ab073aebd55f6583"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

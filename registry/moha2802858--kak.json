@@ -8,9 +8,16 @@
  },
  "descripcion": "ذكاء اصطناعي محترف محلي",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Moha2802858/KaK",
-  "sha256": "c61580561338661262022613e1e6be4b10c9465b6ab0ec012af239339b037aed"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/moha2802858--kak.json",
+  "sha256": "6313eb1cac3d6b5d11283cfcf9191a65111c61f4439ff3b0c1cfc88b44b5542e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

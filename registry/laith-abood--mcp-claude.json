@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/laith-abood--mcp-claude.json",
   "sha256": "b021cb161b5807f11ae7de0f38639012c61c27c63a67ef9af0c47493330920c0"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Android URL cleaner: strips tracking, rewrites social links for better previews,",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#MTGVim/fixupxer",
-  "sha256": "f448e1e77391d8c9f6ec2f7dc3872b3b0a269bd0d76ea6f68e462fee62a127bd"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mtgvim--fixupxer.json",
+  "sha256": "d1f8b921fe510cc0629c29948a1fe284deab88c57790a1fef69863c6dbe1181d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

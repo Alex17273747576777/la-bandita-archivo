@@ -2,7 +2,7 @@
 
 *Una casa que verifica antes de recomendar. Todo dato que aparece aquí tiene fecha, método y evidencia; lo que no se pudo medir se publica como hueco declarado, nunca rellenado.*
 
-**TL;DR —** este repositorio es un **archivo de divulgación técnica en español** sobre aplicaciones y recursos de código abierto para Android, con **una guía maestra de 70 fichas en 12 capítulos** y **dos series de canal** (Facebook y WhatsApp) que van por la pieza 5 de 14. Todo lo que declara se puede comprobar con un comando: `make verificar`. Si venís con prisa, empezá por `make doctor` y por la tabla de estado de abajo. Si venís a leer, la puerta es `guia-maestra/`. Si venís a auditar, la puerta es `ARQUITECTURA.md`.
+**TL;DR —** este repositorio es un **archivo de divulgación técnica en español** sobre aplicaciones y recursos de código abierto para Android, con **una guía maestra de 70 fichas en 12 capítulos** y **dos series de canal** (Facebook y WhatsApp) que van por la pieza 5 de 14. Todo lo que declara se puede comprobar con un comando: `make verificar` (diecisiete compuertas, G0 a G17). Si venís con prisa, empezá por `make doctor` y por la tabla de estado de abajo. Si venís a leer, la puerta es `guia-maestra/`. Si venís a auditar, la puerta es `ARQUITECTURA.md`.
 
 ---
 
@@ -22,7 +22,7 @@ Se corrigió: el presente quedó en la puerta, el pasado en `ARCHIVO-HISTORICO/`
 | **Serie de Facebook** | `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/` | piezas **01 a 05** publicadas, en banda · siguiente: **06 · El taller** |
 | **Serie de WhatsApp** | `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/` | piezas **01 a 05** publicadas, en banda · siguiente: **06 · El taller en el bolsillo** |
 | **Todo lo anterior** | `_ARCHIVO-HISTORICO/` de cada canal · `ARCHIVO-HISTORICO/` en la raíz | archivado por mes, con su fecha; no se borra, no se retoca |
-| **Registro medido** | `registry/` | **6.838 fichas** conformes al contrato de datos v1 |
+| **Registro medido** | `registry/` | **6.838 fichas**: 6.560 vigentes medidas hoy · 278 sin objeto (el repositorio no existe) · 0 vencidas |
 | **Sello** | `registry/_manifiesto-sha256.tsv` · `attestations/` | SHA-256 encadenado + firma sin llave de Sigstore |
 
 El mapa completo, con la traducción de rutas antiguas, está en **[`MAPA-DEL-ARCHIVO.md`](MAPA-DEL-ARCHIVO.md)**. El estado pieza por pieza está en el `LEEME-de-la-carpeta.md` de cada canal; la comprobación de todo eso, en `docs/ACTA-ORDEN-Y-VERIFICACION-2026-11-03.md`; el porqué de cada decisión de estructura, en **[`ARQUITECTURA.md`](ARQUITECTURA.md)**.
@@ -33,8 +33,8 @@ El mapa completo, con la traducción de rutas antiguas, está en **[`MAPA-DEL-AR
 
 ```bash
 make doctor      # ¿está todo en su sitio? cinco bloques y un veredicto
-make verificar   # registro + sello + 16 compuertas + autoprueba → «fallos: NINGUNO»
-make ayuda       # los catorce destinos del Makefile, con una línea cada uno
+make verificar   # registro + sello + 17 compuertas + autoprueba → «fallos: NINGUNO»
+make ayuda       # los diecisiete destinos del Makefile, con una línea cada uno
 ```
 
 No hace falta instalar nada más que Python 3.11 o superior. El sitio que se genera no usa CDN, ni fuentes externas, ni una sola dependencia de terceros: sale HTML y CSS propios.
@@ -44,8 +44,12 @@ No hace falta instalar nada más que Python 3.11 o superior. El sitio que se gen
 ```bash
 python3 tools/sitio.py            # escribe site/ — índice, piezas, fichas, RSS
 python3 tools/tareas.py           # escribe docs/TAREAS.md — el tablero de tareas abiertas
-python3 tools/indice_docs.py      # escribe docs/INDICE.md — 49 documentos con su resumen
+python3 tools/indice_docs.py      # escribe docs/INDICE.md — 51 documentos con su resumen
+python3 tools/vencimiento.py      # escribe docs/VENCIMIENTOS.md — qué ficha está vigente y cuál no
+python3 tools/referencias.py      # ¿alguna carpeta movida sigue citada por su ruta vieja?
 ```
+
+**Si sos de los que desconfían de una fecha escrita a mano** —y hacés bien—, ésta es la parte que importa: cada ficha guarda el payload crudo que la mide en `registry/_evidencia/`, con la fecha **dentro del archivo** y su SHA-256 en la ficha. Una ficha no puede declarar un día que su evidencia no respalde: lo comprueba la compuerta **G16**. Se añadió porque pasó lo contrario: 4.186 fichas declaraban estar medidas el 3 de noviembre con una fila del censo del 15 de octubre como única prueba. Está contado en `docs/ACTA-REMEDICION-2026-11-03.md`.
 
 **Si vas a publicar una pieza:**
 
@@ -87,7 +91,7 @@ ARCHIVO-HISTORICO/         la memoria: ocho carpetas de etapas anteriores, con s
 
 **Regla de oro del árbol:** el Markdown es la fuente y el HTML es la salida. Nada se corrige en `site/`; se corrige en la pieza y se regenera. Y la regla que decide qué es código y qué es texto: **lo que es dato se genera, lo que es enseñanza se escribe.**
 
-*Deuda declarada, no oculta:* `Arena-Reimagined/` conserva carpetas de etapas anteriores (`_versiones/`, `packs/`, `_herramientas/`) que hoy tienen 43, 81 y 26 referencias vivas. Se moverán en una pasada dedicada, con sus referencias corregidas en el mismo cambio; hasta entonces este mapa las nombra en vez de fingir que no están.
+*La memoria del proyecto, en su sitio:* las cinco carpetas de etapas anteriores que vivían al mismo nivel que el presente (`_versiones/`, `packs/`, `_herramientas/`, `_herramientas-casa/`, `_referencia/`) se movieron a `Arena-Reimagined/02-ARCHIVO/_etapas-anteriores/` el 3 de noviembre, con **cero referencias vivas rotas** y una compuerta nueva (G17) que lo sostiene. Lo que se queda donde estaba —las entregas en ZIP y el HTML completo— se queda porque tiene su propio manifiesto de SHA-256 y moverlo rompería los hashes que lo acreditan.
 
 ---
 
@@ -126,12 +130,13 @@ El orden no es opcional: cada paso produce la evidencia que el siguiente comprue
 
 | Indicador | Valor del corte | Cómo se comprueba |
 |---|---|---|
-| Archivos sellados | **10.196** | `tools/atestar.py --verificar` |
-| Fichas del registro | 6.838 | `tools/vara.py`, compuerta G1 |
-| Compuertas | **G0 a G15**, ninguna en rojo | `tools/vara.py` |
+| Archivos sellados | ver el corte del sello | `tools/atestar.py --verificar` |
+| Fichas del registro | 6.838 · 6.560 vigentes · 278 sin objeto · 0 vencidas | `tools/vencimiento.py --json` |
+| Compuertas | **G0 a G17**, ninguna en rojo | `tools/vara.py` |
 | Piezas del archivo | 258 (5 + 5 vivas, el resto en histórico) | G0 |
 | Envíos verificados | 5 + 5, cero fallos | `tools/envio.py --verificar` |
 | Tareas abiertas | 12 | `tools/tareas.py` |
+| Referencias vivas rotas tras la mudanza | 0 de 5 carpetas movidas | `tools/referencias.py` |
 | Dependencias externas del sitio | 0 | `tools/sitio.py` |
 | Paquetes de terceros alojados | 0 | política de la raya legal |
 

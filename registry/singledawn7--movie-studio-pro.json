@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#SingleDawn7/Movie-Studio-Pro",
-  "sha256": "6c33cd63fa893ae693580b0f6f7e3aa01acebf271e1f57ae0584c7727164261a"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/singledawn7--movie-studio-pro.json",
+  "sha256": "1ec2ca6579c4d9d9dfc7bb757f3e651d002187da317fc9190a696445386c7002"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

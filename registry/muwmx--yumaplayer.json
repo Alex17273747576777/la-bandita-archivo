@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/muwmx--yumaplayer.json",
   "sha256": "e5fc6345a554003a5187902eef392fb731db9a16cfd0b395fb95662abb414a60"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/soul-99--su_imd.json",
   "sha256": "61465507bcf821ae2b932d89f7b11bf00749ad1929f9feb056c005c1c6eda536"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

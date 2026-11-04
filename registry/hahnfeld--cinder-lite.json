@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/hahnfeld--cinder-lite.json",
   "sha256": "efb05b06d785f2a0460fa5f01cbdc6aa860f591416a4b59ad2f84762edc755a2"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

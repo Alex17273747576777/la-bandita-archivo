@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/anasvhora284--input-leaf.json",
   "sha256": "496818e569ccd9b21a771815325baab9d3f3e926eaa18f1f53a4a5243e8d5955"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

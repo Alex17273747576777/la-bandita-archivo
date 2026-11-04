@@ -12,6 +12,13 @@
   "payload_ref": "ficha profunda del 2026-11-03",
   "sha256": "b2cf914f380ccb27a571a0aabf042a1d0db763ac999d21096de2d4552bc93263"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "nodo REST + GraphQL el 3-nov-2026, con README y LICENSE leídos en crudo",

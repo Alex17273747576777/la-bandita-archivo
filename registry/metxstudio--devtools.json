@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/metxstudio--devtools.json",
   "sha256": "45149673080118d5540ad384e9fb285bae459811177a491553f27db467a2c3f0"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

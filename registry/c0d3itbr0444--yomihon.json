@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android - now with OCR (text recognition)",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#C0d3ItBr0444/yomihon",
-  "sha256": "8095cc74273e5ed62ac7bab0310cb4ec3f79c127f08204e31ab480d3b6482179"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/c0d3itbr0444--yomihon.json",
+  "sha256": "7b8cb039daaf08b4678713ecbcd1faf82150c925a5e73e7eb7d3eda275d26193"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

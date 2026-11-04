@@ -8,9 +8,16 @@
  },
  "descripcion": "Maple - Private AI Chat",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ANT0071/Maple",
-  "sha256": "8b661e93bef5b9a85ecb1117cc87b9ef2a297eed67155cac9b573508e3019766"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ant0071--maple.json",
+  "sha256": "0f589c89b3e9da9aa495e8a1a05451f03a62fde6e09bd9fda13ae71d8ad0b878"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

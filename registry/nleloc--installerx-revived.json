@@ -8,9 +8,16 @@
  },
  "descripcion": "build as system package installer",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#nleloc/InstallerX-Revived",
-  "sha256": "043c78d607f42de391341e9a0d90181389d758f18c5d40171d7aa01e829a0176"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/nleloc--installerx-revived.json",
+  "sha256": "868962cd713046b99e721f491a2f11a3d55a5791fc1c50a85b1569446b83cef4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

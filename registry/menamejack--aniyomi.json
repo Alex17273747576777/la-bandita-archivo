@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/menamejack--aniyomi.json",
   "sha256": "cb29a654e95405b0672e16adb92e1259acd8dfcecd220be6a1a9c5e4c017403f"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Real-time screen translation app for Android for both language learners and casu",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#tchelocarp-bit/playtranslate",
-  "sha256": "84de2b8083618fe07a46669ada50fc0ee62a0632a7044ec36eaa1e62133f52ee"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/tchelocarp-bit--playtranslate.json",
+  "sha256": "4aaf9bba5c7b3fdef3e5850b0b2f6fa9aa81097edac70014f3c292547de09334"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

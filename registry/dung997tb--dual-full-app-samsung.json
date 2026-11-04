@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/dung997tb--dual-full-app-samsung.json",
   "sha256": "27cf586439c8f896f95ee23389bf4da8cac86973b0bd452244baecb4e8630f9a"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

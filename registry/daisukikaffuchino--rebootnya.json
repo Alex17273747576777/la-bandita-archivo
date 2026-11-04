@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/daisukikaffuchino--rebootnya.json",
   "sha256": "126be232b3114180946d271b5cc12652d33cee10c76da551f60eea5c61a03bff"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

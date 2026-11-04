@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/kukirin-ui--meridian.json",
   "sha256": "00adc15c1d88ffcf4b69695712a7a78582e25f0aed8ccc2be582061d4d3521cc"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

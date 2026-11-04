@@ -8,9 +8,16 @@
  },
  "descripcion": "This is community version of OmniMind Xiaowan app",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#xzhp/OpenOmniBot",
-  "sha256": "daff32421d6a88232f0807a332ad72bd70264856b600a7eda37e2d2e5a2e7ed9"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/xzhp--openomnibot.json",
+  "sha256": "c428d941e5566367765dfd9fe1434a78ea7006466140ec27f234b1e54490a29c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

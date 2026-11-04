@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/mian196--strawverse.json",
   "sha256": "97b7adc376d966e6b553f58585d3baecacb5cc00928d514809095ffee3999244"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

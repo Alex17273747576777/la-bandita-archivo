@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/mh241--servers.json",
   "sha256": "1c975f18f0f05b6432b1b3f05eeaa08ce46beae923b1b93c5aa0b8fa523dd46f"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ClrsDream/Vectras-VM-Android",
-  "sha256": "0572d9713ef381439946590b3bbd96e1f177fba89d8b2abd90b47afc1ae35f7f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/clrsdream--vectras-vm-android.json",
+  "sha256": "6d91d280b58796f7608e0c97f0b3b8d012ffb038e7e9f8ec1de4ca72b22594d7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

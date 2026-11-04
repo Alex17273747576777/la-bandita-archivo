@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/batestinha--kdeconnect-android-shizuku.json",
   "sha256": "b8833fb31a33183c150db6258831edba850c6f6a5d4f31151a1932ef6fb45228"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

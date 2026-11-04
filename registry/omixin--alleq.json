@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/omixin--alleq.json",
   "sha256": "609d9112643d6d0c2b8e9fc9fa9e487a26a6df3b0dd4a0069b5cb134eb058a05"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

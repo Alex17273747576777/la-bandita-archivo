@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/trelisresearch--mcp.json",
   "sha256": "db9e99ce771a73580a9cd12f7e5747afbab7df57ef0484e86e1920e42aa7c059"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

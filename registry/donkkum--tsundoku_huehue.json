@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source novel and manga reader for Android (personal use)",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#donkkum/tsundoku_huehue",
-  "sha256": "5ec727af1c6c4b25f61fea36b1ebbb9ca466e2e45bb364ecbf217d602f3e619e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/donkkum--tsundoku_huehue.json",
+  "sha256": "a318412e1112e81c22c515390abf7ee8fffbaed80b94c9ba9aab02ce03a31516"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

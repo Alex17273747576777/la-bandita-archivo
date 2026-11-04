@@ -8,9 +8,16 @@
  },
  "descripcion": "test dev",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#PSYDN26/off-grid-mobcopy",
-  "sha256": "eaef48421ecd6112bc8e0b439397fb630195a9bb554d980b0cf68e1a607f6e2c"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/psydn26--off-grid-mobcopy.json",
+  "sha256": "c65b224600c00c46b500a99f6efef321a6857521617c167a75dffa20f938c363"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

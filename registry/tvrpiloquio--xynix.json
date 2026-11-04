@@ -8,9 +8,16 @@
  },
  "descripcion": "An app for manga and anime",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#tvrpiloquio/xynix",
-  "sha256": "80cade4a332a8c73cb334b98203ce64156e2fda300efe4bb6c609569d1a5e1d3"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/tvrpiloquio--xynix.json",
+  "sha256": "e5b07da0a70a78bbe4b1422d6736c625da72a74ae29f9dd36694fb19ef0d4744"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

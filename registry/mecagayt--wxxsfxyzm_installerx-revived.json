@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/mecagayt--wxxsfxyzm_installerx-revived.json",
   "sha256": "5eae100be748e150c51ecf88b8234c06ab450ca90d41b08ece37f230dd7209e6"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source novel and manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#heavenlydaovenerable/tsundoku",
-  "sha256": "13b8db4d348d3cb48faadfc6a7cf1ede38f5e66b7e2c06f2dd558867bf895ebf"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/heavenlydaovenerable--tsundoku.json",
+  "sha256": "20d3d65673bb08d7faff354ad9c147997546a688f9c270922a6d6d7865cc95fd"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

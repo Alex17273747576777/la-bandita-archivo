@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/supersapple2013-sys--airi.json",
   "sha256": "0d5795bde2f609f7be479c0e64302c7b9437e8d2b977044c9a311ef893afac4c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/gregnr--mcp-servers.json",
   "sha256": "e459cb7cadf067daf031cd39258aabec2677ad034528547fb1102c95acce6219"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

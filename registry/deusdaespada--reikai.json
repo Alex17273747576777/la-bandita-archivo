@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android — a Y2K-flavored Yokai fork with m",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#deusdaespada/Reikai",
-  "sha256": "8337b33e8165e826ec7f4bb6e3a23eb12c377326d1a4e6f7f8ce5f4f4bc2c24c"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/deusdaespada--reikai.json",
+  "sha256": "b10a38ff195007143bc256a11665034dba4d70bef3e943092a546d577642dd46"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

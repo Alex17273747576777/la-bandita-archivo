@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/slimenull--oppocustomsidebuttonfunctions.json",
   "sha256": "5c3c14b7f00f125d4285c8d8df815b33ba5ca84d8d8a2bb72875a6bd45e7b8d0"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

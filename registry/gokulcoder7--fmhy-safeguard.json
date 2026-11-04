@@ -8,9 +8,16 @@
  },
  "descripcion": "An extension that detects starred, safe, unsafe or potentially unsafe sites usin",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#gokulcoder7/FMHY-SafeGuard",
-  "sha256": "3d22d1ca54e1e361f140bf249043275fe65cc323bf2c0a950fd51beb3a827fcb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/gokulcoder7--fmhy-safeguard.json",
+  "sha256": "f34398b0e8be8c4216e7e51acd9a6ff5312d615f0472006334961604a059bd85"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

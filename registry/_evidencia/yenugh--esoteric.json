@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2025-12-06T21:10:16Z",
+   "oid": "0ed9150d4637a435d1a0a6b48b71caa0d439269e"
+  }
+ },
+ "diskUsage": 70029,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "yenuGH/esoteric",
+ "pushedAt": "2025-12-06T21:24:05Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

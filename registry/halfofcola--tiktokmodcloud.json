@@ -8,9 +8,16 @@
  },
  "descripcion": "Automated archive of TikTok Mod and Plugin APK files from TikTokModCloud. This r",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#halfofcola/tiktokmodcloud",
-  "sha256": "8bdde89edc8a77de4080b3df9ca87468b5670d1b0d4db97c1e9f16d69e46a49b"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/halfofcola--tiktokmodcloud.json",
+  "sha256": "b77afd87acebfa8895e7a022311643092c4a2f491f3ba42c1cf7a4e4dea2c86b"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

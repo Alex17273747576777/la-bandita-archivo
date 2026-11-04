@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/myruldev--android-universal-debloat.json",
   "sha256": "60cc7efc163f32cc9095b3ac1069eab0aa2bbc5b7f49f38f789bf6c414e81f62"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

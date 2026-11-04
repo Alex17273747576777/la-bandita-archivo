@@ -12,6 +12,13 @@
   "payload_ref": "consulta GraphQL del 2026-11-03 sobre thedjchi/Shizuku",
   "sha256": "b5a94bbd0d39809d5f50fe472224b5831f29c42232df0a4276be7061a023ee2c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "consulta GraphQL del nodo repository; campos exactos, sin inferencias",

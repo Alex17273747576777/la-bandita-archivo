@@ -8,9 +8,16 @@
  },
  "descripcion": "App store for Shizuku apps. Based on my awesome-shizuku list and installs APKs s",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#mnindrabudiman/ShizuStore",
-  "sha256": "4714f0cccdfe8f64d6fdaff871e8fc32ffaf6c0838c246958d0cd38c3719f88f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mnindrabudiman--shizustore.json",
+  "sha256": "b4912508f0849a7e7b0f1a400936921379532c7acadc58ccb576f25e6d36d20a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

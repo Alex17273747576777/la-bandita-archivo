@@ -8,9 +8,16 @@
  },
  "descripcion": "Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga and a",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#saulcr59/chimahon",
-  "sha256": "056ce1bd24c562dc5b056aa835dc2f864df5317ac9aaad8ef0daff1bef124ebb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/saulcr59--chimahon.json",
+  "sha256": "5608c70031378bfc3307c91786d4791ff186b775c1eb34ece84d7d52af2dccb7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

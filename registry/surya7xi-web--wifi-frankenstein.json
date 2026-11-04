@@ -8,9 +8,16 @@
  },
  "descripcion": "New generation of 3Wifi Locator. With support for custom databases, a WiFi netwo",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#surya7xi-web/WIFI-Frankenstein",
-  "sha256": "6f5e7e82af751deb6b82e1ab96fd7ef3910e772aec8921b4aa35b8b8e0f43be0"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/surya7xi-web--wifi-frankenstein.json",
+  "sha256": "baba794f4784648ffcb6d4d5f8cfabce5014ef60b1da7d65798fffe2c40a59ad"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

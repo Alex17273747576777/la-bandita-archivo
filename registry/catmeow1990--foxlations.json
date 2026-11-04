@@ -8,9 +8,16 @@
  },
  "descripcion": "An all in one reading and streaming app for manga, anime and light novels",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Catmeow1990/Foxlations",
-  "sha256": "aa8f108f8f53fd6429d42fdfeb10ef7fcf28baf08b1daa9c196ffe13937ec3c4"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/catmeow1990--foxlations.json",
+  "sha256": "185de05c689d4fb0a67bf5c6ffa4567c8b171cca94c609ae7228cd1681aca6b5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#sashahino14/Eburnie-kai-fork",
-  "sha256": "9242215eedb0704474fd0a49508c2896c45791d67cdf964439aa9be2ad19f916"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/sashahino14--eburnie-kai-fork.json",
+  "sha256": "edc519c2457aeb29184969ee5778f19f7d789413b918a9af1dd078b23c2f26bb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

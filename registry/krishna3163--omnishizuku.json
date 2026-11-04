@@ -12,6 +12,13 @@
   "payload_ref": "consulta GraphQL del 2026-11-03 sobre krishna3163/OmniShizuku",
   "sha256": "06f2769a80dca9b12eede6bd2122d5d82eb3c1713df81a4a021d941ea7765f27"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "consulta GraphQL del nodo repository; campos exactos, sin inferencias",

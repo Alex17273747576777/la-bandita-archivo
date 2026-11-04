@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/unsignedcpp--fmhy.json",
   "sha256": "48ba18008aaf73a0cd2c01dc9d3cc26240b2ae041d1466d4a5fdf546d3f59fc7"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

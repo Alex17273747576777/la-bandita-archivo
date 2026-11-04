@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/hoo-dles--morphe-patches.json",
   "sha256": "1c577f44c06f889e8f56775945c2a9d01c2fc1b6bd108d28c5d8c96e3ab639cc"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

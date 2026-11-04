@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/rockerhieu--emojicon.json",
   "sha256": "56ed19a0774b7980ea6f51f510b27394a2e70f754811fb823f5cd468b8a2dc14"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

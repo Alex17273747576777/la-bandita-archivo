@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/gekkoushi--plugin-source.json",
   "sha256": "05cb701d5901183fde23dda965e3c2b4587c8f5b18721cb42d63966a8b485a6c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

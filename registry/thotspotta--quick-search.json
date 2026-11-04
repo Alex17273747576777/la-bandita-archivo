@@ -8,9 +8,16 @@
  },
  "descripcion": "An universal search app for Android which can search apps, shortcuts, contacts,",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ThotSpotta/quick-search",
-  "sha256": "85e5d035c0fc52c62a133050219e3bff767945613e07a1a88c05114d9594ba2c"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/thotspotta--quick-search.json",
+  "sha256": "8d3c9be11430e6432519c3e6c837ab1cc8af44ab54f59df2694d81f888bcc323"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

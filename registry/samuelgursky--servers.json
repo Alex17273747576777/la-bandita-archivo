@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/samuelgursky--servers.json",
   "sha256": "ea4d1e8fc87e6ab285ca83be61133e71f46a6e5b6a7a51964a7e89ca3be8f440"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

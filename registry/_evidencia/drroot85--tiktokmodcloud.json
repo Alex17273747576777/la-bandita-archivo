@@ -1,0 +1,29 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-03-14T17:42:35Z",
+   "oid": "21921d6c4da209678747010eb941a90ad3327c70"
+  }
+ },
+ "diskUsage": 160,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": null,
+ "nameWithOwner": "DrRoot85/tiktokmodcloud",
+ "pushedAt": "2026-06-07T05:23:17Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-06-03T00:30:46Z",
+    "tagName": "v2.43-plugin"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

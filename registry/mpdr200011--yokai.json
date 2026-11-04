@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#MPDR200011/yokai",
-  "sha256": "b961d41cb2a5217a9729bf93a8934e5b98d16ef416c1e3dc47d2e8c71df01972"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mpdr200011--yokai.json",
+  "sha256": "9d02ba598421ea7f53c87f2e56753b0e87b691fa6092a03a95fb04f598a3f715"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/muneebwanee--dash.json",
   "sha256": "6be3fa179f0be57100c82a89f80745b6d810a0a9399f7bdd712b162bc1b119ac"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Your on-device AI assistant, capable of operating terminals and performing a wid",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Yukeaaa/OpenOmniBot",
-  "sha256": "c701a52e393896f1261d0adefb515aa079bb864fefdc4898795682de731c69a3"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/yukeaaa--openomnibot.json",
+  "sha256": "810d7326df918ed4e3d937589b3b5cfc474b3d9609cd5ef9ab6bd8df3c219fb8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

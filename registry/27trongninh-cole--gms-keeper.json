@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/27trongninh-cole--gms-keeper.json",
   "sha256": "6ec7d7f9ab49d594da3f7a2c84e864690dd26113484252a5c63255caa7f637c4"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

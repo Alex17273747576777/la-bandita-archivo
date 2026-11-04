@@ -8,9 +8,16 @@
  },
  "descripcion": "/r/FREEMEDIAHECKYEAH",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#CloudRealm/FMHY",
-  "sha256": "3f23d8b7ece5762b3d2d414e903a3e33af5837229aa081d68ab517a3a67df8fb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/cloudrealm--fmhy.json",
+  "sha256": "8fc22f6eeeafd085d11c328a46a867d54ef279cd9899fc8dae0a38d9b91cdf2f"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

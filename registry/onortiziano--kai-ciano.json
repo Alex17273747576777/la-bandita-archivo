@@ -8,9 +8,16 @@
  },
  "descripcion": "OpenClaw alternative in your pocket",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#onortiziano/Kai-Ciano",
-  "sha256": "8d540af50eaca8d4b17d47d558a4852e7e8933f131cf01333fbd37326105fd7f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/onortiziano--kai-ciano.json",
+  "sha256": "8088ea71bd5d759f098f3f367b7346f464ee63efa37802f75a65c654f8b67651"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

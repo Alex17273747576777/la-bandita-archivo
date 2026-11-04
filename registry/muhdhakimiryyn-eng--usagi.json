@@ -8,9 +8,16 @@
  },
  "descripcion": "Usagi source code. Usagi is a manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#muhdhakimiryyn-eng/Usagi",
-  "sha256": "f331f2317b099bb60fb1cd172d85c024bd29023f818e0d70690ee609bda5c54e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/muhdhakimiryyn-eng--usagi.json",
+  "sha256": "6bddedf32a4d56f82ca12124297438f93f8ee4b4e880a9b31d9ca5036ea5311d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

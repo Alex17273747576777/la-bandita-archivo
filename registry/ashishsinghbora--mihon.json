@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ashishsinghbora--mihon.json",
   "sha256": "971f3f75ae68eff37ccb6c181b1c7aa9750193848396b26badc7775417310c5c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

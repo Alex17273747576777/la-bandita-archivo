@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/sanjarbeksaminjonov--android-call-recorder-app.json",
   "sha256": "bb4266bbe0b4d1ea8629fa58bde90b03f84a70d0d3bd92a95b2eeaeb5b48dffd"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

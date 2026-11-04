@@ -8,9 +8,16 @@
  },
  "descripcion": "Anime Watcher, Manga Reader, and Novel Reader as three separate apps, same UI",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Beat-All-Repo/OtakuWorld",
-  "sha256": "2778c0637255aee9dbbddd4eb374849185323d1c43b78aa6666ce886750a96cb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/beat-all-repo--otakuworld.json",
+  "sha256": "b0970ad54581e50bcea2eb5a8815ad26492481353ee981d009b6f209d7e00cc9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "An app for manga and anime",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Cryartgame/aniyomi",
-  "sha256": "5124781938e901923dd94823eca6c8e8d3cc4d828f49f4e7516d8a5f0e6afdb0"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/cryartgame--aniyomi.json",
+  "sha256": "455ab3ba7f16f71904073025df421a4b9bbf8fd20536b6f8760265db6e776465"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

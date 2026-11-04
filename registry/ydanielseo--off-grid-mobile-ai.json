@@ -1,16 +1,23 @@
 {
  "actividad": {
-  "estado": "muerto",
+  "estado": "dormido",
   "release_en": null,
-  "semantica_http": 404,
+  "semantica_http": 200,
   "ultima_release": null,
   "ultimo_push": "2026-03-06"
  },
  "descripcion": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy F",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ydanielseo/off-grid-mobile-ai",
-  "sha256": "9d254bef002a4b4d82eade2f24f226b83c2e6b05d05414d8336139898f859ea6"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ydanielseo--off-grid-mobile-ai.json",
+  "sha256": "d752241b83d6f7496b3a38a8c1b38f8a9e7a9f109f7c05d52868b7f3793b3238"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {
@@ -21,23 +28,24 @@
  "id": "ydanielseo--off-grid-mobile-ai",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
  },
  "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 0,
   "stars_por_mes": 0.0
  },
  "nombre": "off-grid-mobile-ai",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "24398440ff3b2daa0082d4b5de2bdab8fdade9a2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:24398440ff3b2daa0082d4b5de2bdab8fdade9a2"
  },
  "repo": "ydanielseo/off-grid-mobile-ai"
 }

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/duguyue8--servers.json",
   "sha256": "9451dfcefafb3eb01f89864ceae5c7702d477b26e30a707359e5f80bf1463077"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-17T19:51:12Z",
+   "oid": "37e9b799d7b655d00611ed5b9f6d26f932f85094"
+  }
+ },
+ "diskUsage": 28393,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU Affero General Public License v3.0",
+  "spdxId": "AGPL-3.0"
+ },
+ "nameWithOwner": "bhagaban/j-android-ai-agent",
+ "pushedAt": "2026-08-18T14:45:41Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

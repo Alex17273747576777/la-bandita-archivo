@@ -4,13 +4,20 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-10"
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "In Development",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Snap888/WinNative",
-  "sha256": "842b1f465508eafdc55dcee2bd006e67826b680b6c166e40bfb7a06f5424c3e0"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/snap888--winnative.json",
+  "sha256": "399f12fe8ea0f3d1e229832035fd6abfdab694a9fdd92de07d2e49fba1d6d718"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

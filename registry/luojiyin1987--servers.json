@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/luojiyin1987--servers.json",
   "sha256": "65cbc734b764e8bbc6bf4e21fb6f55dc04a25666350430b7d37e2905cee8227b"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

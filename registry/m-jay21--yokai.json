@@ -8,9 +8,16 @@
  },
  "descripcion": "Yōkai fork with custom Folders (multi-series collections, reorder, backup/restor",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#m-jay21/yokai",
-  "sha256": "54b6c83a46ae88990f48bc85004fc1c343e530ec6c78ff3cba46acbb6e5dbad7"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/m-jay21--yokai.json",
+  "sha256": "806098d13e91b654961ffeaab8e17e67490e47156036d213ac6de22e99f067b0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

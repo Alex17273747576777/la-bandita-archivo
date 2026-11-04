@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-22T15:03:26Z",
+   "oid": "d6c466f77a6c71a7c6a23f22997f3588cd47fba9"
+  }
+ },
+ "diskUsage": 128211,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "Maple-Ling/web-to-app",
+ "pushedAt": "2026-09-22T15:11:22Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

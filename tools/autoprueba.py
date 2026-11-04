@@ -23,9 +23,23 @@ def arbol_base(destino: Path) -> None:
     piezas = destino / "Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES"
     piezas.mkdir(parents=True)
     shutil.copy(RAIZ / "schemas/ficha.schema.json", destino / "schemas/ficha.schema.json")
+    # las herramientas enteras: las compuertas G16 y G17 ejecutan programas que viven en tools/
+    for herramienta in sorted((RAIZ / "tools").glob("*.py")):
+        shutil.copy(herramienta, destino / "tools" / herramienta.name)
+    # las ventanas de frescura, sin las cuales vencimiento.py no puede juzgar
+    (destino / "docs").mkdir(exist_ok=True)
+    shutil.copy(RAIZ / "docs/POLITICA-FRESCURA.json", destino / "docs/POLITICA-FRESCURA.json")
     fuente = sorted((RAIZ / "registry").glob("*.json"))
     fuente = [f for f in fuente if not f.name.startswith("_")][0]
     shutil.copy(fuente, destino / "registry/ficha.json")
+    # y el payload que respalda esa ficha: sin él nace «sin respaldo» y el árbol no estaría sano
+    datos = json.loads(fuente.read_text(encoding="utf-8"))
+    ref = ((datos.get("evidencia") or {}).get("payload_ref") or "")
+    if ref.startswith("registry/"):
+        origen = RAIZ / ref
+        if origen.exists():
+            (destino / "registry" / "_evidencia").mkdir(exist_ok=True)
+            shutil.copy(origen, destino / "registry" / "_evidencia" / origen.name)
     pieza = sorted((RAIZ / "Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES").glob("*.md"))[0]
     shutil.copy(pieza, piezas / pieza.name)
     (destino / "tools/baseline.json").write_text('{"congelados": {}}\n', encoding="utf-8")
@@ -167,6 +181,18 @@ def _(raiz):
                              "signature": base64.b64encode(b"firma").decode()},
     }), encoding="utf-8")
     (d / "lote-prueba.tsv").write_text("00  x\n", encoding="utf-8")
+
+
+@caso("G16 fecha respaldada: medido_en cambiado sin volver a medir")
+def _(raiz):
+    editar_json(raiz / "registry/ficha.json", lambda d: d.update(medido_en="2026-10-15"))
+
+
+@caso("G17 rutas vivas: un documento vivo cita la carpeta que se movió")
+def _(raiz):
+    (raiz / "ARQUITECTURA.md").write_text(
+        "Mapa: el manual congelado vive en `Arena-Reimagined/_versiones/MANUAL-V1.md`.\n",
+        encoding="utf-8")
 
 
 def main() -> int:

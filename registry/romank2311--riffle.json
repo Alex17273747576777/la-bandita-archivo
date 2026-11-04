@@ -8,9 +8,16 @@
  },
  "descripcion": "An Android ebook reader and audbook player for Audiobookshelf and Storyteller se",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#RomanK2311/riffle",
-  "sha256": "3cdaaaf1570ad62c2b840178d689cbfd5ea6de4016ea8378e0465f70f552857c"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/romank2311--riffle.json",
+  "sha256": "441317c08866b6c609dd17f50313c8548e622fcc21fd56853349ea824f6f41ca"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

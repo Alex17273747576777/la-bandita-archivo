@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/gracethings--bubble-notice-android.json",
   "sha256": "b8dcf7063811ad8b88f46579df594d7d76bd23ff9e29a6bf0b22462f068ad074"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

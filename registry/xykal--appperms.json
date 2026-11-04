@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/xykal--appperms.json",
   "sha256": "864857f233a9e3b6df0346a9ecd752165007d9e63b708a46206a74da8a1e7b95"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-28T15:01:39Z",
+   "oid": "612f0e03609fc6ecfc5824f4cc7ef925b4f19989"
+  }
+ },
+ "diskUsage": 130501,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "amrsentafe-svg/web-to-app",
+ "pushedAt": "2026-09-28T15:01:50Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

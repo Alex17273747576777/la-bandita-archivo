@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/pharaoh1--web-to-app.json",
   "sha256": "bf6c3e405a65ceaf04d69144ae64b138f3551fea2991c32873d97f3e0fa813e8"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

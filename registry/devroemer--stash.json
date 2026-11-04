@@ -8,9 +8,16 @@
  },
  "descripcion": "Your Spotify + YouTube Music library & daily mixes. Free and open source forever",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#devRoemer/Stash",
-  "sha256": "796adc6056e02f0f04cbd2a763c787b5219974aacf81d0acf218afad2b76304a"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/devroemer--stash.json",
+  "sha256": "ac8498cc5daed2e2d0482210d34731d83e615bd60734a7933d43b223c256dab6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

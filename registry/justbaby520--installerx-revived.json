@@ -8,9 +8,16 @@
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Justbaby520/InstallerX-Revived",
-  "sha256": "345eb955700b0f82c04529b49b45bca22d089ae5c2081be0d4a478c6a85b8916"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/justbaby520--installerx-revived.json",
+  "sha256": "34b8a9f1bfc17735c53325823847e2e2825758a30bc27a50b6f9bc7758fa243f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

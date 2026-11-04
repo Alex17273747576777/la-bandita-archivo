@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/senzaproject--senzatools.json",
   "sha256": "7d04ac3a5f990220f2d325feac4a9a2d09a0a867e5bcaa504f8123eeffbf63ce"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

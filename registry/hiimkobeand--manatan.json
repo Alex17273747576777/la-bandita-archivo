@@ -8,9 +8,16 @@
  },
  "descripcion": "Seamless immersion language learning for anime, manga, novels on all platforms",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#HiImKobeAnd/Manatan",
-  "sha256": "25471cd25a757c0b556e1024df5c1c9d35dde7e5c3d51a59ab4be4a4b0966443"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hiimkobeand--manatan.json",
+  "sha256": "7ee5533cde744f22af2a9a9eab26a92eb0f8c450e09f1cee29f0cf1920d04164"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

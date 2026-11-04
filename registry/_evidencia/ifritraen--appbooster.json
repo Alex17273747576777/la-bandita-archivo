@@ -1,0 +1,29 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-07-29T02:58:07Z",
+   "oid": "80500990de072d4566633b6db6350d1f0897c980"
+  }
+ },
+ "diskUsage": 1081,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": null,
+ "nameWithOwner": "ifritraen/AppBooster",
+ "pushedAt": "2026-07-29T02:58:30Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-07-28T21:18:52Z",
+    "tagName": "v1.7.0"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/unseensnick--reikai.json",
   "sha256": "e8c7f4816f07d6884c908be148d117bc5e05ab7e7fd6cd523227420303838f1c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

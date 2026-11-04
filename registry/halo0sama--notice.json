@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/halo0sama--notice.json",
   "sha256": "68e4b6f26594e605c15f222347ced90df9dc2408db519556f4ee5ca01ff698ba"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

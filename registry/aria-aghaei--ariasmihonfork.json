@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android forked by aria",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#aria-aghaei/ariasmihonfork",
-  "sha256": "6e1b951e5626f0aa9a1e57382d573e2d3ef861b6a12e534a1c19f314923d4363"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/aria-aghaei--ariasmihonfork.json",
+  "sha256": "6a362660328c9638cb8cb2bbcf281fc54cff11662430fab21be73421f58b3532"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

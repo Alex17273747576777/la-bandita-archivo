@@ -8,9 +8,16 @@
  },
  "descripcion": "A native manga & manhwa reader for Suwayomi-Server - enhanced fork of Tachidesk-",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ArcoLuck/Suwayomi-Tsumiru",
-  "sha256": "07cd37acfec41c66e06c0dd0fdd102197fe9ff0da38b3f2f1b6a8cd7879aa3fb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/arcoluck--suwayomi-tsumiru.json",
+  "sha256": "2fd7dfc71cc5fba9f9604daad5e14afd382471def3fa6b6a9790b560dc6d0729"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

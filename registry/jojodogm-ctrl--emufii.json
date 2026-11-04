@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/jojodogm-ctrl--emufii.json",
   "sha256": "e93ff870f519723c71b647d99a7641235d36b975a481eaaaff77be1c175b4dce"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

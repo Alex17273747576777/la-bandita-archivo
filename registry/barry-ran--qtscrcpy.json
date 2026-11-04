@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/barry-ran--qtscrcpy.json",
   "sha256": "c7f97bf5292a773b15d6ef00aa99e503a5f4fcbfafce0137ee763cc41aeb690c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

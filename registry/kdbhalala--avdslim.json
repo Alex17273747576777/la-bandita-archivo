@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/kdbhalala--avdslim.json",
   "sha256": "a821dd441d09efc46f6294183932baeac8e9e0765914fea51936d7248628e53c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

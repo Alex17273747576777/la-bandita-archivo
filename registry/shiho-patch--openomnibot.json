@@ -8,9 +8,16 @@
  },
  "descripcion": "This is community version of OmniMind Xiaowan app || 或者你也可以叫她 OOB！她可以操作终端，也可以完成",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Shiho-Patch/OpenOmniBot",
-  "sha256": "bb1308d41583f451b2cfe58d022394df2fcc10d48ff2d61c8de3d770fa0d4f7f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/shiho-patch--openomnibot.json",
+  "sha256": "6edc549344918afe3a0d30a0e8cdcfc8b216bd2126c0fa0644da8269e58cadba"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "Alternative Grid AI. Chat, see, speak, and generate images on your phone or Mac",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#SteamPublishers/AGAM",
-  "sha256": "edff7c6b106bf575cc52a58a74dd378cd1c6a698a816f854170505db165be921"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/steampublishers--agam.json",
+  "sha256": "b62d434987570426d6df6730b175ddcc036949fd14b6cc24ce05a81fb0bfb8e8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

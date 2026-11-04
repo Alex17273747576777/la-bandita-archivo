@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/firefly-sylestia--tool-hubs.json",
   "sha256": "1cf40991dc77490214abc4d86bd6e970b9e29e906f3cb732114a00541ea23efa"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

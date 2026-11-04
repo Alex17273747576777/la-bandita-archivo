@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/520huxiangli--aharou.json",
   "sha256": "d4a2a9bfd1ccc56ae73bdcef5503054b1a073e5b735a8508ab9fcb8805b4f4b3"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

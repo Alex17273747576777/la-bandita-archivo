@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/jjuugk--carptocarl.json",
   "sha256": "f02ece0817044412fd6882f3b57697653ec9c8343c86beb9e2a53bd5fd36e09f"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

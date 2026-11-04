@@ -8,9 +8,16 @@
  },
  "descripcion": "这是一个基于QEMU的安卓虚拟机应用。",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#zunyuange/Vectras-VM-Android",
-  "sha256": "9edbcec8ca73471152503c0c717c4408ae057a08b37502f2b475087aed9cb78b"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/zunyuange--vectras-vm-android.json",
+  "sha256": "f10450dacfb8d9fd5cd41169cb46699170ab319fbf6fc17e0507d3d75381a614"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

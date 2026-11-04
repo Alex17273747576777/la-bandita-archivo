@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/yumlevi--glasses-mode.json",
   "sha256": "dd6ae34f4a50f7259e0900c9d035e8c338715f6e9b018b2a3b90c32a96f07737"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

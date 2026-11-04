@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/re7gog--shizuku_apk_installer.json",
   "sha256": "ba44558953e5153668aa32b2699ebb3fdfa9efbde94d5b622f03a7f9fa935f09"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source anime watcher for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Guaxinim5573/anikku",
-  "sha256": "0c08de8b7d76d8d5b378718ab58b88e3af9f0320317976e59381e0e0f2a6da4b"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/guaxinim5573--anikku.json",
+  "sha256": "4f3725c4e93d9e1562961d37cba63053b20eefb9c5f66f4651ca54095ae73d60"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

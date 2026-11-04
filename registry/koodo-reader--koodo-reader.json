@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/koodo-reader--koodo-reader.json",
   "sha256": "f88ae4f6089d02b37bdeee971c9ddfc406cf8b495f05b4b058f57d7b84cbac5d"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

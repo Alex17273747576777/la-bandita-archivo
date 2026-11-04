@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/nautymac--redmagic-3d-launcher.json",
   "sha256": "c9e3e664cd95bc74208ae8522acb56984dcdfeaeeb6098a32b1e3e57ca20ae5e"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Just a simple, free and open-source manga reader for Android 5.0+",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#OmfgItsJesus/Usagi",
-  "sha256": "072f93b824efd07b362ce3bc6938422252849c69c30c5ff770af1ee81de7857d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/omfgitsjesus--usagi.json",
+  "sha256": "8fe7c738f77a38aca9801979bc0bb74b7b8ca014fb0266f6e3ce8303fca65732"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

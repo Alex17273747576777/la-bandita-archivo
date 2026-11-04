@@ -8,9 +8,16 @@
  },
  "descripcion": "A podcast manager for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/antennapod--antennapod.json",
-  "sha256": "db000c584a04c354146ca803306a5704caec1ac7ef248c81f3147ae48ad4f492"
+  "sha256": "4206ccc23b8d51f1b63c1669bf65f6b0ac4ff8653e81c427f55dbcabd003992a"
+ },
+ "frescura": {
+  "dias": 71,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-11-22",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

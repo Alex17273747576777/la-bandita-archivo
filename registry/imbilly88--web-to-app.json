@@ -8,9 +8,16 @@
  },
  "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop th",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#imbilly88/web-to-app",
-  "sha256": "a32bebfc1559968b6ab9078e06948360104eca07e263dfe4f673b41b6d65533f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/imbilly88--web-to-app.json",
+  "sha256": "ca7232538b52a0ba0f58094780b03a9729b3e0696a40158ba7accd72aaf1ef9c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

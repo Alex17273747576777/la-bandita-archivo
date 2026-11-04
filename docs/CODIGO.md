@@ -31,8 +31,8 @@ Recibe nada. Devuelve el día de la casa —Santo Domingo, no el del servidor—
 **`pulso.py`** · *430 líneas*
 Recibe una lista de repositorios. Pregunta a la fuente primaria **doce cosas por repositorio** —estrellas, fecha de creación, último empujón, licencia, tamaño, incidencias, entregas, descargas, equipo— y las guarda con la respuesta cruda al lado. **No hace:** no opina ni puntúa; solo mide y archiva. La puntuación es de otro.
 
-**`censo_medir.py`** · *220 líneas*
-Recibe el registro anterior. Vuelve a medir lo que había y añade lo que no estaba, sin pisar la historia. **No hace:** no borra una ficha porque el proyecto se murió; la marca.
+**`censo_medir.py`** · *el que mide de verdad* — explicado entero en la §7
+Recibe el registro anterior y vuelve a medir contra la fuente primaria, cincuenta repositorios por consulta. **No hace:** no borra una ficha porque el proyecto se murió; la marca.
 
 **`extraer_fresco.py`** · *218 líneas*
 Recibe una fuente —una búsqueda, una lista, un archivo— y se queda solo con lo que existe **hoy**, medido hoy. **No hace:** no recicla números de una corrida anterior, y por eso se llama fresco: si un dato es de ayer, no entra.
@@ -145,7 +145,7 @@ Recibe setenta fichas en JSON y doce capítulos escritos a mano, valida cada fic
 
 ## 6 · La puerta de entrada, que no es un programa
 
-**`Makefile`** · *catorce destinos*
+**`Makefile`** · *diecisiete destinos*
 No es una herramienta más: es lo primero que ejecuta quien llega, y por eso está escrito en el idioma que ya existe en vez de en uno propio. Cada destino es **idempotente** —correrlo dos veces no rompe nada— y ninguno adivina: si falta un token o una dependencia, se detiene y lo dice antes de tocar el árbol.
 
 | Destino | Qué hace | Qué no hace |
@@ -160,6 +160,9 @@ No es una herramienta más: es lo primero que ejecuta quien llega, y por eso est
 | `make tareas` | Reescribe `docs/TAREAS.md` | no cierra tareas |
 | `make indice` | Reescribe `docs/INDICE.md` | no ordena por importancia |
 | `make libro` | `tareas` + `indice` | no sella |
+| `make vencer` | Recalcula el estado de frescura de cada ficha | no mide: decide |
+| `make remedir` | Vuelve a medir lo vencido (exige `LBT`) | no decide el estado |
+| `make referencias` | Audita las rutas movidas | no corrige |
 | `make medir` | Mide y regenera envíos (exige `LBT`) | no publica |
 | `make publicar` | `sellar` + `libro` + `verificar` | no empuja: eso se decide aparte |
 | `make push` | Empuja con `GHP_A`, sin imprimirlo | no confirma: eso se mira en la CI |
@@ -170,9 +173,24 @@ Decide **qué se sella**, y existe separado para que la vara y la atestación no
 
 ---
 
+## 7 · La fecha y la evidencia
+
+Aquí vive lo que separa un archivo que presume de fechas de uno que las puede probar.
+
+**`vencimiento.py`** · *el que decide qué hay que volver a medir*
+Lee las 6.838 fichas, mide la edad de cada campo **contra su evidencia** y no contra lo que la ficha declara, aplica las ventanas de `docs/POLITICA-FRESCURA.json` y escribe tres cosas: el tablero `docs/VENCIMIENTOS.md`, el índice `registry/_vencimientos.json` y el bloque `frescura` de cada ficha. **No hace:** no mide repositorios. Decide qué hay que medir y lo deja escrito; medir es el oficio de `censo_medir.py`. Un programa que decide y mide en el mismo gesto no se puede auditar: cuando dice «vigente» nadie sabe si lo comprobó o se lo creyó.
+
+**`referencias.py`** · *el que impide que una mudanza rompa algo en silencio*
+Guarda la tabla de carpetas movidas y audita el árbol contra ella, distinguiendo lo que hay que arreglar de lo que hay que respetar: una ruta vieja citada por un archivo vivo es un fallo (detiene la línea), y citada por un acta o un registro histórico es una cita (se conserva y el mapa la traduce). **No hace:** no corrige rutas por su cuenta. Corregir una ruta exige saber qué quería decir la frase que la cita, y eso no lo sabe un programa.
+
+**`censo_medir.py`** · *el que mide de verdad, cincuenta repositorios por consulta*
+Pregunta a la API GraphQL —que cobra por nodos y no por petición, así que 6.838 fichas caben en ~137 consultas— y actualiza estrellas, último empujón, estado, licencia y revisión. Desde esta pasada guarda además el payload crudo en `registry/_evidencia/<id>.json` con la fecha **dentro del archivo**, y su SHA-256 en la ficha; acepta `--vencidas` y `--solo` para remedir únicamente lo que hace falta; y fecha con la hora de Santo Domingo, no con la del servidor. **No hace:** no inventa. Cuando la API devuelve 404 lo escribe como veredicto —`sin_objeto`— y no como dato ausente.
+
+---
+
 ## Las tres invariantes que sostienen todo esto
 
-Si algún día alguien tiene que auditar esta casa sin leer los 31 archivos, con estas tres frases alcanza:
+Si algún día alguien tiene que auditar esta casa sin leer los 33 archivos, con estas tres frases alcanza:
 
 1. **Nada se aprueba por silencio.** Un programa que sale con cero no dice nada; la aprobación es una frase concreta que la integración continua busca letra por letra.
 2. **Nada se corrige sin dejar rastro.** Lo que se sella encadena con lo anterior; lo que se archiva conserva su fecha; lo que se rehace deja la versión anterior en `_reemplazadas/`.

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/thejaustin--pearity.json",
   "sha256": "ead17ca79d6faeb6e75b3509f0ae01b4915f1f2978a9a13c80cb85000eda4c63"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/sethforprivacy--dc1-lineage-gsi.json",
   "sha256": "2d50e41667f51bfafb130006feb9eb63a5c210460a1e6ec2c754df9293b215fc"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

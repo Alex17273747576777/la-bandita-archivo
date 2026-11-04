@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Chiru-Dey/mangayomi",
-  "sha256": "2cc2b73f0c24d26c3bc1db0b84585e1a699c3fb0ee9cda2f0c39773717ae1da3"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/chiru-dey--mangayomi.json",
+  "sha256": "0415ef576d74eda861a00f10fe7704b62b243aaeb2dc098f56d087a50bc02db9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

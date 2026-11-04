@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/turtlepaw--blueskyredirect.json",
   "sha256": "577e3993fb8a63a0e02eb492858717b0f3255cdf9b653327e5eb3f148a05cd12"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Lanchenbi/aniyomi-preview",
-  "sha256": "7c5e64d55f1db68698a4a771c8b94d1373e5c0210038854babe6d2390cabcc29"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lanchenbi--aniyomi-preview.json",
+  "sha256": "5fea5faf285f0ac1cdc2231c385b21781929af018e938cec4d26cf030a35c78b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

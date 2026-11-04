@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ddgksf2013--ddgksf2013.json",
   "sha256": "3cd4e48cdd183ee153c9ca8dbe03d75c7d9bcdf5d307d95f4f36c77f03f5a6c3"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

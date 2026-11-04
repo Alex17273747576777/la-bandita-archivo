@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2022-09-10T17:56:40Z",
+   "oid": "e779b8b52c0fb41942d21c9cd23cce6d8ba7c1e4"
+  }
+ },
+ "diskUsage": 687216,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "BanDroid/CodeAssist",
+ "pushedAt": "2022-09-10T22:17:31Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

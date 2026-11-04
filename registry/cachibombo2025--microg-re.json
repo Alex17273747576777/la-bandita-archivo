@@ -8,9 +8,16 @@
  },
  "descripcion": "GmsCore fork for ReVanced with Material You, features and improvements",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#CACHIBOMBO2025/MicroG-RE",
-  "sha256": "cd199a05f565c5ca86292484fb3b66f62de1ea99f6b6733b7a604a61be21ee29"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/cachibombo2025--microg-re.json",
+  "sha256": "5c0c05423109d94af060d436d67e878715d6c0c6759283009e99f9bce47946bf"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

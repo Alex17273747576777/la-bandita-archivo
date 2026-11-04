@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android with page turn animation",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#lceburn/komikku-Page-Curl",
-  "sha256": "1363675df3c3abccdd0ff7a1a4ce69a9e73c26d50c3e95053f8b7195bde89b3c"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lceburn--komikku-page-curl.json",
+  "sha256": "0be9e67324a4d1cb5606ca60c38ecdacc1e2e899524e12815c336829decd926c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

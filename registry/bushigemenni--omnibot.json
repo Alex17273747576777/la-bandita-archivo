@@ -8,9 +8,16 @@
  },
  "descripcion": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and perfo",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#BUSHIGEMENNI/OmniBot",
-  "sha256": "1e7c2683b9e8e33d9b2dadd8ff1832f70c88888ba8a8f8609d89a675507a786a"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/bushigemenni--omnibot.json",
+  "sha256": "2dd1e9ec581ee8bc5956ce139f3ef54b58bf083d515cac7b57f03304a8930786"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

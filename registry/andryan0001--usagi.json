@@ -8,9 +8,16 @@
  },
  "descripcion": "Just a simple, free and open-source manga reader for Android 5.0+",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#andryan0001/Usagi",
-  "sha256": "0b1ffbc732bec9e2a6f00500b37b21edb0aefb8dec910c28ec5d027faf578569"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/andryan0001--usagi.json",
+  "sha256": "2136e03a1ce24f031f1dc76a573629154899b9522eaa55efd1093ec9999f90e2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

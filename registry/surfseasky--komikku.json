@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#SurfSeaSky/komikku",
-  "sha256": "bc35e5ab2ca5a1b74ea7c9d30c16bb4f396d51e6457d5d3c0af1d1b022f34dbb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/surfseasky--komikku.json",
+  "sha256": "029c4239caf17dbe0960af7a132424d2eeb79fb1c8cdd795c0ed610c9629b102"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/shrey113--android-dex.json",
   "sha256": "e8a9356c87c6e6504832d0d4561d6382ff6963920b341647d857d9f056a9cf59"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

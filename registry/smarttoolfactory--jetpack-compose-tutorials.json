@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/smarttoolfactory--jetpack-compose-tutorials.json",
   "sha256": "f573fa4ffdf9e96d7a122e5e3c978a41868731a691a62287b3d56acffcdaf52e"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

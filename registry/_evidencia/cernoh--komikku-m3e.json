@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-20T22:14:21Z",
+   "oid": "d02dec31d33fd9de89274593e6dd9331b1439238"
+  }
+ },
+ "diskUsage": 98527,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 1
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "cernoh/komikku-M3E",
+ "pushedAt": "2026-09-20T23:09:37Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": true,
+    "publishedAt": "2026-09-20T22:17:20Z",
+    "tagName": "komikku-expressive"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

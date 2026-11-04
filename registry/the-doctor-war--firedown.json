@@ -8,9 +8,16 @@
  },
  "descripcion": "Android browser and downloader.  Built on GeckoView, FFmpeg, uBlock Origin built",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#The-Doctor-War/firedown",
-  "sha256": "0a295369e6cb0f9355a5257786cec394db3b6265fad2b60c27f728ce675f380e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/the-doctor-war--firedown.json",
+  "sha256": "c33862d768d67e8af0e7f83b9d970b3f5d789a1113435222c897c1a39a2a42c0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

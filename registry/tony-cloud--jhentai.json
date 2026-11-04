@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/tony-cloud--jhentai.json",
   "sha256": "702d1911d6553ae9a010580f6cecc8f4c9496d4c2e49d1ff41dd8cfa9258ee7b"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

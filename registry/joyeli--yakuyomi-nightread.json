@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/joyeli--yakuyomi-nightread.json",
   "sha256": "9362325c9abb82c56303f356ca31498d5b622fde08a2415b3ae92019214be950"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

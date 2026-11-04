@@ -8,9 +8,16 @@
  },
  "descripcion": "Another Shizuku impl",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#smz2011/Stellar",
-  "sha256": "eaba772f4bcad1699c1d2fcbfa7ac5ab29285a70ec8543eec1af8cf8913bc2fb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/smz2011--stellar.json",
+  "sha256": "5e4b4bd4387d3ba2ed4695acea9f0fbfba5a1aac746eb6b97e6599e7a40ee029"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

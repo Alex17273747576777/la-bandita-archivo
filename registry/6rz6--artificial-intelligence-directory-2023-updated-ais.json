@@ -8,9 +8,16 @@
  },
  "descripcion": "/r/FREEMEDIAHECKYEAH",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#6rz6/Artificial-Intelligence-Directory-2023-updated-AIs",
-  "sha256": "bfec1ced54850e257e02b059dafd7c8672ae4a47924b5758f77197b33a85e017"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/6rz6--artificial-intelligence-directory-2023-updated-ais.json",
+  "sha256": "c2fbe584f8dce73625db8f5e4b3cb1935c92617b87df1d0da200852d1eefc6ac"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

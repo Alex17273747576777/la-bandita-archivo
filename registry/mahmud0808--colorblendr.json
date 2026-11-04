@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/mahmud0808--colorblendr.json",
   "sha256": "49b947fca0e9424b4fd70746e6be6095292f817069cbe0ce8364dafbf0f923de"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

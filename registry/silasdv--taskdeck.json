@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/silasdv--taskdeck.json",
   "sha256": "5e4f70d9ac506468cb7415600531f495120d210998ae8645adc670a70db4fe9f"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

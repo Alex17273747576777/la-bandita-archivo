@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/horsemail--yourtv.json",
   "sha256": "3f9a39bb46e42ddfc2995d3222848ea4af123302a4be1265c4fa46ecb991596a"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

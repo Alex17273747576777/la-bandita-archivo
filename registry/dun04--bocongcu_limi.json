@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/dun04--bocongcu_limi.json",
   "sha256": "39ec18b58f0a02d02bc7eb0ed4f1af908a5459a24542f8d14650c96c859cb2dd"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

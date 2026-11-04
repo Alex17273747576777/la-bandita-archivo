@@ -8,9 +8,16 @@
  },
  "descripcion": "A manga viewer.support realtime Coloring  and Anime4kSR and OCR translation.All",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Qing-Novel/Venera-SSR-icon",
-  "sha256": "b605b048c84a5334f0d8e912753494f399c35c5bbe42e40088040368f6bf49f4"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/qing-novel--venera-ssr-icon.json",
+  "sha256": "71f948d93e547d682b9b1db205f9b37a552eec5c5a2ed2cb4ddadbdf79c572e0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

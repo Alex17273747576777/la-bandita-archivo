@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/baweston101-tvp--servers.json",
   "sha256": "c734201ea8240c105334e9c719d482d8b17b6ead3daa4a00363923e6b9420126"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

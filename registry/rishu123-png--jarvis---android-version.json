@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/rishu123-png--jarvis---android-version.json",
   "sha256": "6f1531847352812e0f0f0381c07595334da29be924fd17abebdd6c96be7f5dfa"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

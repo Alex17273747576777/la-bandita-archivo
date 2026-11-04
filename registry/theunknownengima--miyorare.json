@@ -8,9 +8,16 @@
  },
  "descripcion": "Belum final bang",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#TheUnknownEngima/Miyorare",
-  "sha256": "a88388424c0661f49fec48ba58787d39bede07acf310c6b5e573e3426cb1bea4"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/theunknownengima--miyorare.json",
+  "sha256": "2c688f04205929cf9edd98eb23a6203b31d80b6882fc69c29e96d1d916337883"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

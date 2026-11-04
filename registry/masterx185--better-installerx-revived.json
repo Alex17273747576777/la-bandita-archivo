@@ -8,9 +8,16 @@
  },
  "descripcion": "InstallerX-Revived with more features",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#MasterX185/better-InstallerX-Revived",
-  "sha256": "db775bd04697b931bbad863955caac65be3424a7f835db7b69222c01d1e7b9cf"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/masterx185--better-installerx-revived.json",
+  "sha256": "a417c7d5683fe5be5d8b4bfa1881c96e7c1d2b873d1bfa2154e4cc19f79c9cec"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

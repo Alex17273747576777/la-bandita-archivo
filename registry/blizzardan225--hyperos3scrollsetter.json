@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/blizzardan225--hyperos3scrollsetter.json",
   "sha256": "3c401e6c94a504555494c410bac01310a2a013ee8e7caa50f5cbd91635f57605"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

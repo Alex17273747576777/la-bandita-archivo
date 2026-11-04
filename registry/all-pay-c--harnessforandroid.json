@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/all-pay-c--harnessforandroid.json",
   "sha256": "a1dc87254178f63335867c4fb94912a1f6fa9de0797ebe4d31096146b0614083"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

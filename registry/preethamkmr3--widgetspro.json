@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/preethamkmr3--widgetspro.json",
   "sha256": "2952932543a4b11bb9c0682c35c78ecf8ab3be083a8b9c5c2d4dd8a7b0db9a49"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

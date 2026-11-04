@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/surajit474--mihon-kmp.json",
   "sha256": "a80854b59b408d4ecc67f2ff899c7f4004bf48a7e1b36da4756dd25cf79cffad"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

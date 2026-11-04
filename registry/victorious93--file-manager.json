@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/victorious93--file-manager.json",
   "sha256": "8238527a33e00dd6f485ba9058669fa57e8ccf99b27f77d2f1fc5035d3ef3c4b"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

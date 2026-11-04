@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/djbclark--stayturgid.json",
   "sha256": "ef6db365c013d87fd393f693222d6c3e6a27b101b5234af6f948bca5be9c89ad"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

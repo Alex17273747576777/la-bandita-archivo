@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-29T11:14:50Z",
+   "oid": "cdd1a4f622e4903fd6897868866bad901c0cc52b"
+  }
+ },
+ "diskUsage": 9079,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "SA-SUJON/Orion-Store",
+ "pushedAt": "2026-10-29T13:06:39Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-10-03T21:29:11Z",
+    "tagName": "1.5.0"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

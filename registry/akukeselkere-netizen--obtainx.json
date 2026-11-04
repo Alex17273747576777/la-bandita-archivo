@@ -8,9 +8,16 @@
  },
  "descripcion": "Get Android app updates straight from the source. And install it any way you wan",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#akukeselkere-netizen/ObtainX",
-  "sha256": "3cdc95d01d36264e4c0c1e7e2b163d942beeffb2376b6c3ac1662cf2a5a957f5"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/akukeselkere-netizen--obtainx.json",
+  "sha256": "9d7bc632a204b871a0bb0fccb03d33e4647139f6eb2ab848965656ef76c60a12"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

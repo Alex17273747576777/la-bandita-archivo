@@ -8,9 +8,16 @@
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#NetrunerGirl/InstallerX-Vanced-",
-  "sha256": "7bd30470156abcb6c4373cb80d94349d920f432040dad7608d011a426e57340f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/netrunergirl--installerx-vanced.json",
+  "sha256": "ad3b807d0ddbc0463977d6085166f1f1624410095b7cfcd2a41ea41ac2add5ba"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

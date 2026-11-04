@@ -8,9 +8,16 @@
  },
  "descripcion": "A 1 click solution for reading Manga with OCR'ed textboxs,  works seamless with",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#HUYDGD/Mangatan",
-  "sha256": "01711e0dedef8c84fe1044580a76303fc753f9e2d8db4bf32a8080ef0cc81330"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/huydgd--mangatan.json",
+  "sha256": "380df9b3851d6f0dfecd6bd808dbc8983725089d26fbed0b8be2f8d407341d58"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

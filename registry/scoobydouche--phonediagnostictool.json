@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/scoobydouche--phonediagnostictool.json",
   "sha256": "36db30d2504c88f563822c727f7e96f48c3805beb8356d156d1fc5f79c0a4be7"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

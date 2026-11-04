@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/keithvassallomt--nc-media-provider.json",
   "sha256": "4461ab2bd89ce30d57ccb5c0e0ad8aefd2b7fb27d571586ca9d05c5f40d7ac75"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2024-03-03T12:00:48Z",
+   "oid": "10499c4334d4ebc00c7ac62a5d58786d93b0f5d9"
+  }
+ },
+ "diskUsage": 64044,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "swimmingwinds/yokai",
+ "pushedAt": "2024-03-03T12:00:48Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

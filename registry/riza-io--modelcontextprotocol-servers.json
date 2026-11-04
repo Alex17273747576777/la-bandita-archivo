@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/riza-io--modelcontextprotocol-servers.json",
   "sha256": "b841ade7c7ffae8478f659508a61877787e36083cc23e9b751a6e219081d374e"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

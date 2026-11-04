@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#NauvalMaulana-damn/mangayomi",
-  "sha256": "e8ce62c2a925f9f9e28eccba63700b074667b083590182b34956c4d2a5b069aa"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/nauvalmaulana-damn--mangayomi.json",
+  "sha256": "19ce24462ebb61c305619f7a224bc84c385b857449698099cbb71ab1ec16c1d1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

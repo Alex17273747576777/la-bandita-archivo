@@ -8,9 +8,16 @@
  },
  "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop th",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Hanadiz-Technologies/web-to-app",
-  "sha256": "a2135585a74ae955fc33c978c3cc120b117e5a2a87d90d12d2be5742c07b0c04"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hanadiz-technologies--web-to-app.json",
+  "sha256": "d1c1bc09ad6fc4435a8acaf319671e61496dd92a54a1ae1b4f21d124f6707f90"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

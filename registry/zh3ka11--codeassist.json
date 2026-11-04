@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/zh3ka11--codeassist.json",
   "sha256": "dd0be6fef10ae0b35a27984ef1889f00641fc29d44cf5c7f676964e279565c0b"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

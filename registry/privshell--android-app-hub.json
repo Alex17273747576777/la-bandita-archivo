@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/privshell--android-app-hub.json",
   "sha256": "3dc900fa8d4cbc0962cbebef08e8d251f25ac5d6462c6681d680e21959c11ff6"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

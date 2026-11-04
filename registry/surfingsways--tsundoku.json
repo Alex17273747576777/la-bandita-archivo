@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/surfingsways--tsundoku.json",
   "sha256": "7dc9633c31d31daa45dc957fb07e8195590bdcdf3112b1c1f13f2dc49b8b96b3"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

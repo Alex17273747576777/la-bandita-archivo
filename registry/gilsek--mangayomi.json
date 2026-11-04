@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#gilsek/mangayomi",
-  "sha256": "40328b64a3429f6371ea8aa6b2191e1cf7c5d4c0efe7bd7f23ab8ebdabd37bbd"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/gilsek--mangayomi.json",
+  "sha256": "dea9e82d66467128ebc0a185d352b5ac49a1a649ce8cc6837c8fb9834a046e93"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

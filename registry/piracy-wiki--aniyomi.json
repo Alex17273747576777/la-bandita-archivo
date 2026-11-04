@@ -8,9 +8,16 @@
  },
  "descripcion": "Unofficial fork of Tachiyomi for anime",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Piracy-Wiki/aniyomi",
-  "sha256": "085b6dbc09d65b0e6b4b281bc6c3c90c85fe7c435312662e6232ecc2a5317e31"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/piracy-wiki--aniyomi.json",
+  "sha256": "8ce75ec5ae945bdc0327a931262e12110f370ebb34b62d64a52c61e946ca9b7f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

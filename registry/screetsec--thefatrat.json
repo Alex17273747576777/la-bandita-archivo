@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/screetsec--thefatrat.json",
   "sha256": "c05229e1e5834e940de8c844d6b8707e3039a7c67635f2b774b91bcde3ed3d72"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

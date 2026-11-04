@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/usagiapp--usagi.json",
   "sha256": "9816a05a54a181cfc03d04be3d7048ea317fd6e8002cc1adcc32ec623389f19d"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

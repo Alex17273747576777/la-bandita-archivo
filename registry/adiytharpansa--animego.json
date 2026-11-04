@@ -8,9 +8,16 @@
  },
  "descripcion": "AnimeZe an android anime /manga/manhwa app",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#adiytharpansa/AnimeGO",
-  "sha256": "8a970f9c3593af89a508ddc56f3c0483d50a9ba292f51f09abcb264829ed7559"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/adiytharpansa--animego.json",
+  "sha256": "f570055912e7e8cdbb980d72a2dce452add5b084a21bbe0f8ca0b012fa2da372"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

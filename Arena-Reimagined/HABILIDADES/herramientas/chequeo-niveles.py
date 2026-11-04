@@ -17,7 +17,7 @@ res['L0 suelo']=('OK' if mal==0 else f'{mal} problemas')
 # L1 — la lupa v6 solo imprime medidas y siempre sale 0: aquí se miden, no se aplaude.
 if '--con-lupa' in sys.argv:
     import importlib.util
-    spec=importlib.util.spec_from_file_location('lupa',R/'_herramientas/lupa-v6-aire.py'); lupa=importlib.util.module_from_spec(spec); spec.loader.exec_module(lupa)
+    spec=importlib.util.spec_from_file_location('lupa',R/'02-ARCHIVO/_etapas-anteriores/_herramientas/lupa-v6-aire.py'); lupa=importlib.util.module_from_spec(spec); spec.loader.exec_module(lupa)
     resumen=[]
     for serie in ['WhatsApp-dominicano-ES','Facebook-dominicano-ES']:
         ms=[lupa.medir(str(f)) for f in sorted((R/'01-PUBLICACIONES'/serie).glob('*.md')) if not f.name.startswith('LEEME')]

@@ -8,9 +8,16 @@
  },
  "descripcion": "Support Multiple Library Directories for Steam/Epic/GOG",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Meloon33/WinNative",
-  "sha256": "955714db05d223daf46820d994484aac624e86938cb7e9b8e999b0f243f1fb7c"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/meloon33--winnative.json",
+  "sha256": "65704b2e91efa301ad86b197011dcc65a4303eb9b1f9376ee1e5e878edf344b2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

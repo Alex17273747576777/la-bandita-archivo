@@ -8,9 +8,16 @@
  },
  "descripcion": "OpenClaw alternative in your pocket",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#C2R-Marketing/Kai",
-  "sha256": "52145675d67ff7455d443a96da9844e7b7fbf60224c3561bffa9b005cfbeb581"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/c2r-marketing--kai.json",
+  "sha256": "92a85e12f1dcfbdb8691d251d025c7b1d553d3a64b05b2f8371b9ed4b09cb6a3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

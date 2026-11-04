@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/shoalapps--shoal.json",
   "sha256": "2734e60ace057b40d51b2dfb04d6febbf439f4481b51978d965d2048a685bb7f"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/pranavpurwar--applock.json",
   "sha256": "aff61dd1e8d1ddedd3a434118a70ad453975d21f6dbf1e97189379c8024e57d3"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

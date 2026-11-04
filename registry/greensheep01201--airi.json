@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/greensheep01201--airi.json",
   "sha256": "53f8ada0f5cdf120881f0e2b013a3228214ba9240259cbb60ab793376d811ba8"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

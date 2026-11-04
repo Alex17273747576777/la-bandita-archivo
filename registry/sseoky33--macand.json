@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/sseoky33--macand.json",
   "sha256": "9be31d39a77093cc7dd3d2fd08688b81a02679f095e831fc23aad584dd524964"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

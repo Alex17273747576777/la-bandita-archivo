@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/insxnsive--airi.json",
   "sha256": "9d1882c708ae766b80a152541ff4c6d149ad799c85de4b889aeac5f92de53553"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Anime and Manga tracking platform based around AniList. Mangayomi extensions sup",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ashurajo/zenbu",
-  "sha256": "5b550c4dc3870f4d7afdbefcea331663500bb14cfced0d13a6a17e2ba1a5580d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ashurajo--zenbu.json",
+  "sha256": "9e359ec806b8edafe7f125f6d3e09c7f2ae33b65d13ea69fe06ef4ea23fe35f8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

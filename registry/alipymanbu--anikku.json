@@ -8,9 +8,16 @@
  },
  "descripcion": "官网版安卓版APP下载安装",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#alipymanbu/anikku",
-  "sha256": "4d4e16ff83dae77bc3a4569a97c724cbade7d4b2a808c53e5617acf69409fec5"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/alipymanbu--anikku.json",
+  "sha256": "854424f13b83feb9edae3bfa44a7c1140a06fcb729d1c072bcd123a1fc80ab73"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

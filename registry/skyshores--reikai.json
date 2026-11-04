@@ -8,9 +8,16 @@
  },
  "descripcion": "One library for manga and light novels. A free and open source reader for Androi",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#SkyShores/Reikai",
-  "sha256": "fa1b70b2f0eddf2bbe1b1af9b6cade998e20e0348836560aaf995bbc4ca62de1"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/skyshores--reikai.json",
+  "sha256": "f5c0cd64d494fc8895c6d01e7ad84a56be701b10f956001d93f7bc06f9ec6036"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

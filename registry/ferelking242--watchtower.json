@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ferelking242--watchtower.json",
   "sha256": "342870bf3d0f6203211d09be44b38963f8f0cf28b820c2cd1f35fa824e25c06d"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

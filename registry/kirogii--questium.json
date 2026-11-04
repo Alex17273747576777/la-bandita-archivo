@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android (With a attempt to vibecode vr sup",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Kirogii/Questium",
-  "sha256": "d813b7805d97fcfbe1bb13a820d2ef7902337fa4e401e10f74e77afa3920bb25"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kirogii--questium.json",
+  "sha256": "604c416d6d12d8208808e0248afbd46571325d208f464572379883751540633d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

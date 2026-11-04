@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/isam1011--airi.json",
   "sha256": "290f5c31738f9c8943f025dfa64135f229d5f485a7180bc14c897d820abd0329"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

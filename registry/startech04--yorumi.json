@@ -8,9 +8,16 @@
  },
  "descripcion": "an anime/manga streaming web app",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#startech04/Yorumi",
-  "sha256": "c6b511504d5bbdc9ad4ebd40b19623bee02f42e9e9836d65b0bac74e0b12d01d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/startech04--yorumi.json",
+  "sha256": "f6c5b1f53582bd4dfffbaa107a53d9be39b2b87500c149c7015213fb1ef8f681"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

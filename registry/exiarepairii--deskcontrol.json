@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/exiarepairii--deskcontrol.json",
   "sha256": "5e550c1e0bbcddd2db9d2bb5beef1e09597eb62433d3b9df9d2210ee48a36c06"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

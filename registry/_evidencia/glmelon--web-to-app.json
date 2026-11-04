@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-06-07T06:40:56Z",
+   "oid": "7789c0568947880be85b9a8bc50ecdbdcde8424b"
+  }
+ },
+ "diskUsage": 72954,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "GlMelon/web-to-app",
+ "pushedAt": "2026-06-07T06:42:39Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

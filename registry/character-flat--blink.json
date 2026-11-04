@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/character-flat--blink.json",
   "sha256": "a108b04e6bf8c02c992418171036e28970b793a6b027f860a8e734029a83c8d7"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

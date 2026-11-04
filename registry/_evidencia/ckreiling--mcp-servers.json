@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2024-12-06T13:33:21Z",
+   "oid": "2ecb382a02d7921511180dfbadcef24eb66a052f"
+  }
+ },
+ "diskUsage": 623,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "ckreiling/mcp-servers",
+ "pushedAt": "2024-12-07T17:53:47Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 1
+}

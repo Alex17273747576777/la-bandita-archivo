@@ -8,9 +8,16 @@
  },
  "descripcion": "The ultimate home for Open Source and Cleaned apps. OrionStore offers instant ac",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#bloodyboy804/Orion-Store",
-  "sha256": "115dff522167294ef7a41562da0fc46bc9fa25d29c2a891626bfe8d2dafd00e3"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/bloodyboy804--orion-store.json",
+  "sha256": "86ab0818ff2e209538a81c3c0a45eaf4b20a4eef8a04fe6fc2d13337db524240"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

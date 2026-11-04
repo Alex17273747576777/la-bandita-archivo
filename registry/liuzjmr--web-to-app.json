@@ -8,9 +8,16 @@
  },
  "descripcion": "一个 Web 项目打包成安卓 APK，不用电脑，不用远程编译服务器。  我第一反应是：这也太狠了吧。市面上那些所谓「网页转 App」的工具，基本都是拿个 Web",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#liuzjMr/web-to-app",
-  "sha256": "8dae6e1dbc88f1e2fbe89c086a0ffe4c6973a30d3716af83e05a65d279bd6e26"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/liuzjmr--web-to-app.json",
+  "sha256": "80d2edec2a160be5e77b691e3367a0fb39dd836a157cf30cc6bf968b19548f47"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

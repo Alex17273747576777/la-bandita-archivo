@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/kupieaceh--airi.json",
   "sha256": "e5422c804274df1650b3e4ef373048c7a601443f132b832620b91592ff590a73"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

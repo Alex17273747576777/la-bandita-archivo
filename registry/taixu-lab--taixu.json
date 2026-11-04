@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/taixu-lab--taixu.json",
   "sha256": "94e1d72201fc70fddb14b9637e73c9359643d64ce1d0f37fc58421b0d8405325"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

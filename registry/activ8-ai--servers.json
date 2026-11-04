@@ -8,9 +8,16 @@
  },
  "descripcion": "Model Context Protocol Servers",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Activ8-AI/servers",
-  "sha256": "ac71dc6612bbc5666f381a47403fc0e56b0b7b1b1a409f48500c8eeaa6432a46"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/activ8-ai--servers.json",
+  "sha256": "3ed554ed925f8fcb2f1c8f39b25188fd6431b1c10a7bf9e1d36cfdac45143ab9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

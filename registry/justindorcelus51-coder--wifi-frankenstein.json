@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/justindorcelus51-coder--wifi-frankenstein.json",
   "sha256": "e35542dbc601488f8707a56332f13a233cf06b4e6c47845badd36cc815c30d35"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

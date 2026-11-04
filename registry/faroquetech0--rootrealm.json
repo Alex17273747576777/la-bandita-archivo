@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/faroquetech0--rootrealm.json",
   "sha256": "18aff2fa76723bc5d9b23de921fd40bf720aaa755b38b5ec805c40455e70dbb2"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

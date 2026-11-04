@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/hedanbaomi--mobile-agent-runtime.json",
   "sha256": "e06e25e9625b0d6779bab367c64fd82d9992af9a9848d28ef716fd32d44aed13"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

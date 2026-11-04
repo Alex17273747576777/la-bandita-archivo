@@ -8,9 +8,16 @@
  },
  "descripcion": "Free, open-source app for anime, movies, series, manga and light novels — on And",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Bortus-AI/Zangetsu",
-  "sha256": "ab9f407f59afa030ad36af9d54a5840948a914af4cd18da630c42e2adce0ad92"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/bortus-ai--zangetsu.json",
+  "sha256": "78e8a10906345e385d6f4f02a92649a668e10e36687a536b57f828de3524ef3c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

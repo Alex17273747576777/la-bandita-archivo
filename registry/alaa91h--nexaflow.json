@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/alaa91h--nexaflow.json",
   "sha256": "72b99ee39f1054fc16819e72f8a5da9697f48a2abf849dc894ce138c073ee187"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

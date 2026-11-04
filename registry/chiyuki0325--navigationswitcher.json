@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/chiyuki0325--navigationswitcher.json",
   "sha256": "0829e9fe61f8744bce9140bebef2c3b7786b1d63b1267e19a1227bf8f9232a3e"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/animetailapp--animetail.json",
   "sha256": "3303ebab7f27efcc2af6776078aca2e2be1e116d26668ddfe39d8965cdb0ff33"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

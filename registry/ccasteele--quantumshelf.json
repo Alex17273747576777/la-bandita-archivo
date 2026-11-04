@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ccasteele/Quantumshelf",
-  "sha256": "9172d079b5b9e2649ae360b1e6691eeb2ff3ff1bd9d9cd43420f9cd38cafdb1b"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ccasteele--quantumshelf.json",
+  "sha256": "28aaee544105ae3c1b8a5087ca383ccbecf2e694a1a89f38b4d620ad49dbf134"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

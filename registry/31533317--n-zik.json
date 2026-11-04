@@ -8,9 +8,16 @@
  },
  "descripcion": "A multilingual YouTube Music frontend for Android, focused on UI, UX, and featur",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#31533317/N-Zik",
-  "sha256": "63a5ff1267f90ccbf91745d19966b4303cccdc9f1a4dcf814ec5444593762adf"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/31533317--n-zik.json",
+  "sha256": "a16cc56d58595dca938952627c708e2e96a90648e6239a636576119bd4bcea28"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

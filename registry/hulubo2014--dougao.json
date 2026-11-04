@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/hulubo2014--dougao.json",
   "sha256": "c313593bbf71641c4d66419c806afc27dbd2e5013d433db2d8d5f90fb74495aa"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

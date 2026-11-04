@@ -8,9 +8,16 @@
  },
  "descripcion": "Anime, Manga, & Novel Recommender (Website and Android Application). Also includ",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#imosmdrk58/Kanshi-Anime-Recommender",
-  "sha256": "2b3f4cddcf1da6f723eeea93680c52a42823b0cbf237a0ad209e467351581f8f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/imosmdrk58--kanshi-anime-recommender.json",
+  "sha256": "bd8b0ab9cb1297966e2630ea8e24a638b6e7b85920636eb076dfb0b7e46e7e9a"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

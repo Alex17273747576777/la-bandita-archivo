@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/sayaaibaru--orion-store.json",
   "sha256": "1a791dd5bb03232b6add62ea3f8cdc42dfb2b1b3aa4df882fb1ca7d469d99ecc"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

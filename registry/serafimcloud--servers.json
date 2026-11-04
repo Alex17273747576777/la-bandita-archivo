@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/serafimcloud--servers.json",
   "sha256": "5ae58a2cb6f2ce93824169767ea32fa39f5573b5ffa4889c70af0800c35f3ac3"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

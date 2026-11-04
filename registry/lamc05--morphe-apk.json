@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/lamc05--morphe-apk.json",
   "sha256": "0fdef2525e577438c5848b94dce1ef5ab67fd8a7bd789b9ef4449b7df1e1afcc"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

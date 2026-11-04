@@ -8,9 +8,16 @@
  },
  "descripcion": "A local-first personal AI agent that lives on your Android phone. Permanent memo",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Qiskdbwob/char-agent-mobile",
-  "sha256": "1c8e0dd41d5b4eb6949dcfc09353b2084a084d3ea80542be7966f129f175329d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/qiskdbwob--char-agent-mobile.json",
+  "sha256": "7ae8d2d56fec74cbe8f02c24a68f4f7519c1134399edbcc66e7033db30e5e6c0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

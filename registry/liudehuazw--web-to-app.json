@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/liudehuazw--web-to-app.json",
   "sha256": "2963e70aec5c96851aae165fb767af1ef166ebedb42a9c5a2143b5d16f6f2472"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

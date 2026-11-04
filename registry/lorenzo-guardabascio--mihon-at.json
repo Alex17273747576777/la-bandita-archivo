@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/lorenzo-guardabascio--mihon-at.json",
   "sha256": "34747fe708ee5a7e2fc18265ae01ada1ee249375c9b3eca8460bda7a72422f40"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Usagi source code.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#farahbyy/Usagi",
-  "sha256": "14a1ddf153a4c7dfb251e0b2d2e387291b3b16f3d4892479b095e60c7f7127f3"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/farahbyy--usagi.json",
+  "sha256": "749adf13b0d9173318c6bb187e424e364236f1f3f371cda78ead45fb4649e229"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

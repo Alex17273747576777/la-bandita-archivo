@@ -8,9 +8,16 @@
  },
  "descripcion": "An Android app for playing Windows games from Steam, Epic Games, GOG, and more o",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Vower2993/WinNative-wayland",
-  "sha256": "99f2356ad5cc298a5a12a9277316c80774c49db498f8d9cf756f5af97861538c"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/vower2993--winnative-wayland.json",
+  "sha256": "3f7d9f0aa74b7066eb4a915c1f5cee4ed0b4a7017f2100f6b6f37f0b7ccc04fe"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/zfkirke0109--appbooster.json",
   "sha256": "8c3d51f8dbed385c8b58fc02c6316aaaaad7288ef073098c8541f2dde37e91b3"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

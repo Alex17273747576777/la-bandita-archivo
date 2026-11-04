@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/localforage--localforage.json",
   "sha256": "5dfa96e7881d4f87b56eb4ddf0922af4e4fd05f5b7d4de3587235f6257e28f25"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

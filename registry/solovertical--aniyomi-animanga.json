@@ -8,9 +8,16 @@
  },
  "descripcion": "An app for manga and anime",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Solovertical/aniyomi-animanga",
-  "sha256": "96b0700c7bcea6fc1b7fa0607aee776923771a3bfc59fba8fc118ad44d65d8d9"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/solovertical--aniyomi-animanga.json",
+  "sha256": "8a08b1632884b9045319c7c2b07cf056c983c9ef3e34006c74847f4d4a29022b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

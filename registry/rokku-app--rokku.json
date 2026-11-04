@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/rokku-app--rokku.json",
   "sha256": "e4cd170957619966c1e50c253bfdbee5c0bc3189c1c6ad746aef24cf614a8776"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

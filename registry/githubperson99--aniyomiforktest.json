@@ -8,9 +8,16 @@
  },
  "descripcion": "a test",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#GitHubPerson99/aniyomiforktest",
-  "sha256": "b4a09d5c760c25a66ccdb950cd1cf4972652716fa51b2a9ec2885347ff57de44"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/githubperson99--aniyomiforktest.json",
+  "sha256": "ea6f19809b7ef5b2c7c134a37ea543e3e61a57b0db7c601b20233cd5db19ea92"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/fhshaik--typesafe-mario.json",
   "sha256": "3fe2340f398d88920243faa79b407638535a47b581bcbf891767f68f45f0dd04"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

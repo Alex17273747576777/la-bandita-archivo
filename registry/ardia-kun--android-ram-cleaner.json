@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ardia-kun--android-ram-cleaner.json",
   "sha256": "ce6545b0dd218dead7df541a9d1152b6ee615aea80b885cda7a6f49e42c871c2"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

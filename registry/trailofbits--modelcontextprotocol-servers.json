@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/trailofbits--modelcontextprotocol-servers.json",
   "sha256": "a0d545b0c1e2c02407748ef207e742b90744f3dd1de5b3b9d8416b701f683962"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

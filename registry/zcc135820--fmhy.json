@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/zcc135820--fmhy.json",
   "sha256": "d9834116a98b45e548314a6796efe887e0e7d43f40b14e3eea09f5bada054c42"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

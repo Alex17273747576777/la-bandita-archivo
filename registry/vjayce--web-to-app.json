@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/vjayce--web-to-app.json",
   "sha256": "84f47fc5a063000d335d47c9f11c445e2ecf7e97242e485c33437620af6f3bd2"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "OpenClaw alternative in your pocket",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#HloniHypnotiseMe/Kai",
-  "sha256": "54601d91a4d83d4ee633e05843fd4de2433a23d4e45fb99f61d276cd60871bbb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hlonihypnotiseme--kai.json",
+  "sha256": "6128f79bbefedfad29aaee4572cf78502d7816e16a2a81da22492c772f86fe10"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

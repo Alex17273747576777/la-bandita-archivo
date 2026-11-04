@@ -8,9 +8,16 @@
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#HeiBail-w/InstallerX-Revived",
-  "sha256": "bed70c7b93b62d781436f2a05a2da6ed41e6111669847e7bb05bd301937b02fe"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/heibail-w--installerx-revived.json",
+  "sha256": "09eaf75da69c53c74e869eda9237c97bee9e9e80de14b3cb63fdcae522d40e19"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

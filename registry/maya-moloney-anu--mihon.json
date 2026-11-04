@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Maya-Moloney-ANU/mihon",
-  "sha256": "cd6e37bf6d8bdfd81f2b97ab6b7eb1e4908ef81bbae9c5c5bf109ab198c4d311"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/maya-moloney-anu--mihon.json",
+  "sha256": "c5771090a20c15c02d106524c7c64fe78c8c73b48768568f14a7de557d1eaf80"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

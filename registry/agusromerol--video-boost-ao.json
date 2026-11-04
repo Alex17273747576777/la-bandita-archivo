@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/agusromerol--video-boost-ao.json",
   "sha256": "31aa1ca5efe8da4aa918b71fd0c7c7eb20de9c6b7fd46c29013e894f3aeac076"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "In Development",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Juan-Antonio-Doe/WinNative",
-  "sha256": "20d4a878d0435e8ba54559ee1ad58dbb85e6070d34e04706f9fa58ba7b753fc8"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/juan-antonio-doe--winnative.json",
+  "sha256": "621d69e1a3266b4a2bcd51e81672589dc7c100b031549240217773a4662b6f64"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

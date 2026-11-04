@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/sitong-zhang--deviceperfmonitor.json",
   "sha256": "fa866d7ad77a06e6b70637eafb803594dffe4e6692c6e035779ceadf0d1d61f1"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

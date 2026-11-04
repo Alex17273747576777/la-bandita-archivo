@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/linksheet--linksheet.json",
   "sha256": "40082693e1ec50cdcc93735e75bcd62d295d3988045ee01b89cbb330d5bb17fc"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

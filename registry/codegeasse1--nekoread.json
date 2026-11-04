@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/codegeasse1--nekoread.json",
   "sha256": "3a84a2410f095f7e74bc544592c9e8a55eb98c195a3bff8b7d8b366f15ff8146"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

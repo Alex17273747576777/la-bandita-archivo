@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ultra-guru--android-guru-agent.json",
   "sha256": "85f7e738a5315e10be7c4f71d6ff5c6140e6f6b438bbc3595baf64640b999554"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

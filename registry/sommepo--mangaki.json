@@ -8,9 +8,16 @@
  },
  "descripcion": "Android manga reader for Japanese immersion, derived from Manatan",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#sommepo/Mangaki",
-  "sha256": "8c710286e0fafd30476b6d371f7d30405796a85afd5ad56dfde3c58b4d1eab28"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/sommepo--mangaki.json",
+  "sha256": "75bc3d508e371f8f90a56e10d509f6a6cc297ab05c9a2418d0684f94fa1f92af"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

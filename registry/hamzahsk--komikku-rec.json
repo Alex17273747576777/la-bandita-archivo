@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/hamzahsk--komikku-rec.json",
   "sha256": "4cc0c5ca68379c343051c26d4f90c87fcb0dd4929ed934f96cc257aec20867e3"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

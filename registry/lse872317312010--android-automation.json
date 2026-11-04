@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/lse872317312010--android-automation.json",
   "sha256": "fa8eec7851a5ff1f45295367d878ac959d88bb6e81e75cbaa2c47db50fa636bd"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

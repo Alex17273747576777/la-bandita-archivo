@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/xxz3312--fixredirectstorage.json",
   "sha256": "d4ee70c014ac093985eb1f872e9b6d1b0e022f882cb31d544eaf7b19747c086f"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

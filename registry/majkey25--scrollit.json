@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/majkey25--scrollit.json",
   "sha256": "f55bc24f9f2943ad96023c1ef6a3b4f8b6c41d8e6be8a24b9624eb5234619a4a"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/huaji2333dada--installerx-revived.json",
   "sha256": "4303592576d890c12001a64abe8c926f39b8d67045fa4c57ea8e7418e41acba1"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

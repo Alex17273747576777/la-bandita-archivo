@@ -8,9 +8,16 @@
  },
  "descripcion": "All in one media/image downloader app based on yt-dlp and gallery-dl python libr",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#RomanK2311/gabi",
-  "sha256": "1d2ac3df3bbb93d16a78a562c92cc85bb855e64d44d5caa222844d06cf55a08b"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/romank2311--gabi.json",
+  "sha256": "f11dcd33eaffe905a99017f79944e1046f5312a2435e5107d06519a5b77cfc20"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

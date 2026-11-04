@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/sammeeeeeeee--budi.json",
   "sha256": "fa70d9cadb2542f2258efe5d8c1bcbc8455fb060c6c0df0e031b1d2a6f7eb109"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

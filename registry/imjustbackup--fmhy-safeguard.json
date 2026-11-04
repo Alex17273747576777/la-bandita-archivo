@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/imjustbackup--fmhy-safeguard.json",
   "sha256": "382c9023e6cc5e773e0dbea3e575bb864df1caf07f20cfbb7d2d2c8d57d83322"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

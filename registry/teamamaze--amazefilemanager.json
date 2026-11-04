@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/teamamaze--amazefilemanager.json",
   "sha256": "47a0ee2ba14203f4d446697f32f829ccd6bd93f0e427edf4a04585e117a039ca"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

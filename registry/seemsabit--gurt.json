@@ -8,9 +8,16 @@
  },
  "descripcion": "Copy (dont use this)",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#seemsabit/gurt",
-  "sha256": "1aba0c08e96d1a81dd3b98bd2d121b5b5a8d556c140ccbead41d9c4e29d45794"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/seemsabit--gurt.json",
+  "sha256": "5d54694985d8617e4224f4fb80757e2fe79742df41ac4945a44df8beb8ca15c1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

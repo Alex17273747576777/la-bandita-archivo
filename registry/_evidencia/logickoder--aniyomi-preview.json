@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2022-07-09T09:52:34Z",
+   "oid": "501aacffb18867e924c6c18ef2792bc4ef7a1257"
+  }
+ },
+ "diskUsage": 33,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "logickoder/aniyomi-preview",
+ "pushedAt": "2022-08-25T23:36:08Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

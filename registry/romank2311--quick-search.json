@@ -8,9 +8,16 @@
  },
  "descripcion": "An all-in-one search app for Android which can search apps, contacts, files and",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#RomanK2311/quick-search",
-  "sha256": "e8715c69f80bc3c534554742283d041cfe06b30b3ae078a86921195de73ccbaf"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/romank2311--quick-search.json",
+  "sha256": "1bdb8926e3f18bc250778831c985c836979874ba4c6f091c8d1e4dd462b63630"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/0ranko0p--autodark.json",
   "sha256": "48a0c16bc7e2c0954f2db57cbdfa8e10010cfc813c7a59982cf31cb04f6cf655"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "An Open source app to download and read books from shadow library (Anna’s Archiv",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ByYudkowskysTentacle/OpenLibFrozen",
-  "sha256": "7b9568c1007bfa11928e5031bca74556c1edb9a99ea906f7e56f548ed5bf75d6"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/byyudkowskystentacle--openlibfrozen.json",
+  "sha256": "1804fa1d76f64125d6e1d9491751533e999da83085632f933b86702f8f7796bb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

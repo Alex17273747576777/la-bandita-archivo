@@ -8,9 +8,16 @@
  },
  "descripcion": "A manga reader app built purely with kotlin and jetpack compose, features latest",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Dutaeko/miko",
-  "sha256": "c37ef44de454d37c1f935578e0e91803fc53d9e54a2e3355e000f9c44df16018"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/dutaeko--miko.json",
+  "sha256": "db615161ca807bbb5733b6675565ae597382c97af3e1ece968fe96e2bb7a0446"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

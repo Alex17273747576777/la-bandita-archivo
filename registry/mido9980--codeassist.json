@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/mido9980--codeassist.json",
   "sha256": "0ba88e9d852fb3566d636f359be56a3c9bcaaebbd36c18ef70e827c83013458c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

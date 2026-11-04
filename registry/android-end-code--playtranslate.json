@@ -8,9 +8,16 @@
  },
  "descripcion": "Real-time screen translation app for Android for both language learners and casu",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#android-end-code/playtranslate",
-  "sha256": "93c8a43e56e198f83c64fc43055f106036f0001488086af270d24ec3c64df5f2"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/android-end-code--playtranslate.json",
+  "sha256": "6d3bda87e501a1d20b3ad305b2f29e2ff61792c89e9103872f908f32ccb288ba"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

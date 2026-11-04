@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/karthick-sk20--jenny-android-ai-agent.json",
   "sha256": "6e65fc35ccd4213c3399f7de10e6427dba02c6fcc4381a47f9f5dfa83064e546"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

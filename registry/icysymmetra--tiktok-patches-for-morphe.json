@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/icysymmetra--tiktok-patches-for-morphe.json",
   "sha256": "02401ba114daf12e8629084d41593454c03be6c2df4f90d01a916ae84d6ea5c0"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

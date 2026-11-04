@@ -8,9 +8,16 @@
  },
  "descripcion": "An app for manga and anime with yomitan",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#paoulo21/AniyomiJPDB",
-  "sha256": "b2f07e02e26b7ff710a998376866d48e9f4ee7b8afcab5a4e018a06a901112bb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/paoulo21--aniyomijpdb.json",
+  "sha256": "8813896634698fc2e9572904493e4e2738a300dcbf73a79efd1b7b428afa1f7a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

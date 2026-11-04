@@ -8,9 +8,16 @@
  },
  "descripcion": "ReDantotsu is a Remake version of the original Dantotsu app. Fork by Nahiro18 -",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#alekybg-pixel/ReDantotsu",
-  "sha256": "f5726a77512d2127a7b6af8d02d0f07892d00efd50750ead6812ace0ad749102"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/alekybg-pixel--redantotsu.json",
+  "sha256": "21632a2d3f914e5b630b05ed27f9d4178c50d9f16dff626dc206b5c38cf58360"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "Real-time game translation app for Android for both language learners and casual",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#garlicvread/playtranslate",
-  "sha256": "c2e12cea22c09ea3c90fb02756cdb877b3c97f9004d10d4df84127d4d05a3384"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/garlicvread--playtranslate.json",
+  "sha256": "27f317ff85d3a650e86bebfb0fc214437a6a742f6ed218f9e2a1beca2c1964c3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

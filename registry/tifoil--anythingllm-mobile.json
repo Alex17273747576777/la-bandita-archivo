@@ -8,9 +8,16 @@
  },
  "descripcion": "Bring local AI intelligence to your device. No rate limits & local first.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#TiFoil/anythingllm-mobile",
-  "sha256": "eb7dc6f4e73fb93060a4a0094186aa76875b6f62f281ae4489cca395aded6f19"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/tifoil--anythingllm-mobile.json",
+  "sha256": "c599f3c216d3d0f69054a4a836aed4cb5aa646ddb73e2c77a680c3ed55e0788b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

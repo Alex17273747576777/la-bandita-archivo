@@ -8,9 +8,16 @@
  },
  "descripcion": "an anime/manga/ln cross-platform app",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#svoj28/Yorumi",
-  "sha256": "546ba5c769003c814a4ad23a23c42ee5dcdc4ed6480d8e55b12c0966860ba09f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/svoj28--yorumi.json",
+  "sha256": "a86883083947cfb9350cf59a634fc1b0e909428ef75a9b056bfd7fdf7b68fb3c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

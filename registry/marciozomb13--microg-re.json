@@ -8,9 +8,16 @@
  },
  "descripcion": "GmsCore fork for ReVanced with beautiful UI, features and improvements",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#marciozomb13/MicroG-RE",
-  "sha256": "72e6bdd40d34705cdc79385ffbd8152dc63286a08a05da3e963afc68e6a21678"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/marciozomb13--microg-re.json",
+  "sha256": "ca82f61c281f3485dcef34c6d1b9753103936885a7d2890e0a046b3a17b89fce"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-28T06:48:17Z",
+   "oid": "07e3d01de745e968319ee1f27afff2949a4aa63e"
+  }
+ },
+ "diskUsage": 184073,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "FacePrintPay/CodeAssist",
+ "pushedAt": "2026-10-28T22:33:27Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

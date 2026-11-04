@@ -8,9 +8,16 @@
  },
  "descripcion": "The ultimate home for modded apps. OrionStore offers instant access to YouTube M",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#johnpetersa19/Orion-Store",
-  "sha256": "ad74fa1388aebac3b934ca3bbe2abcf9dc5195220cf423d5e2c7924957cdacc1"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/johnpetersa19--orion-store.json",
+  "sha256": "a91ef8cc13eb427cbdcfd4ff29d21523d963902a116018bc45c67ab4c04a7e19"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#perezfiles01-droid/AvePlay",
-  "sha256": "178e00b3a52e96ac3d8087a81fcfbcc52ec85d24631ad818a80294f33d3e1da0"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/perezfiles01-droid--aveplay.json",
+  "sha256": "0d4ad2e23510713978c6a9eaf3665046e33329994bddd33e2b885cf1df48bb0d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

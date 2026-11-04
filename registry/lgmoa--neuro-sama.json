@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/lgmoa--neuro-sama.json",
   "sha256": "4b8b8ecf4c8856e4fb7412062d5c64a0753e9527f90fbc18a091276940da6a41"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

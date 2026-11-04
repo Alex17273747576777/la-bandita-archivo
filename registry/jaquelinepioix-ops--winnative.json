@@ -8,9 +8,16 @@
  },
  "descripcion": "In Development",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#jaquelinepioix-ops/WinNative",
-  "sha256": "13527a6801c1cde39313165ee5c0b70da378ed9c1099a3800ef337e25f162214"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/jaquelinepioix-ops--winnative.json",
+  "sha256": "047fbe340fbddff41fdaf73a1b5adb36ea437f5357da7c1589dc356c431bf43f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

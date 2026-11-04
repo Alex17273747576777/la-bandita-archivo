@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/b3rr7--wuwa-config-android.json",
   "sha256": "dbfb773759bb12e7569c4bbc1f91b4c77782af8fda9861e92c13d71f29b97128"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

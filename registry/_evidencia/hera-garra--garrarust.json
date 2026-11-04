@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-28T20:14:50Z",
+   "oid": "b4c45343e2c0cc1fd82f885c533dc48a3f80d3ce"
+  }
+ },
+ "diskUsage": 49928,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "hera-garra/GarraRUST",
+ "pushedAt": "2026-09-29T07:22:50Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

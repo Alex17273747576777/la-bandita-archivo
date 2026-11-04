@@ -8,9 +8,16 @@
  },
  "descripcion": "Your Spotify + YouTube Music library & daily mixes. Stream or download in lossle",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#hhjkjkjk/Stash-Alt-app-rq-to-Spotify-",
-  "sha256": "ce6d4bb9222d6656fa91bfffae78077e85dc4b01097369af31283e6ff8f8c8c8"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hhjkjkjk--stash-alt-app-rq-to-spotify.json",
+  "sha256": "02e40e71adca7c003a26f2c33e6a145e794f2d409039216eb9dda4601b62575d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

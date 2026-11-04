@@ -8,9 +8,16 @@
  },
  "descripcion": "Experimental code editor based on javac APIs.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ani1nonly/CodeAssist",
-  "sha256": "bb97ca4c093d969f1967becfa5ea6fc1f257c60c790a59a38f4c6e1238fe9640"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ani1nonly--codeassist.json",
+  "sha256": "c05474a4c803cc1bb262ba2342f582993a6adf7c9d97912eb7b3386854804b1f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

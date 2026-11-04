@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#hollow-frenk/mangayomi",
-  "sha256": "f3c7306ba6c77e64d1c0cf527a4df134bd0356a341950890fdfef9a4d25955b1"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hollow-frenk--mangayomi.json",
+  "sha256": "bdd9e632791a533d85cb2067e6ab680c9d87f42fa3db1cf433e6b0a9a2f38c5c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

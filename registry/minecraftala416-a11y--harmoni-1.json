@@ -8,9 +8,16 @@
  },
  "descripcion": "**Harmoni** – El reproductor para android que combina streaming desde YouTube Mu",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#minecraftala416-a11y/harmoni-1",
-  "sha256": "58d70c8bffca5d0f200f6495d6de120ca23f5320b470a3af5c70d28080ca9513"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/minecraftala416-a11y--harmoni-1.json",
+  "sha256": "7954c0c766a0b8c5663d1ab13215523f47976b16d1a2ad45ee6979b2977ce6a3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

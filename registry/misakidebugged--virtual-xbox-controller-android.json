@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/misakidebugged--virtual-xbox-controller-android.json",
   "sha256": "e4d29163b0447adf71caa929a83c853f03a15bf633df102588332539adf55d4e"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

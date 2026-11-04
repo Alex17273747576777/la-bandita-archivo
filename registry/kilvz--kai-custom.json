@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/kilvz--kai-custom.json",
   "sha256": "59c45ce4357001a0da8841c5f411f49172b9a343d36f60c70480bc971ea3fb8b"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

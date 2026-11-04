@@ -8,9 +8,16 @@
  },
  "descripcion": "Experimental IDE for building Android applicatons on Android.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#bitolodeonai7/CodeAssist",
-  "sha256": "4fae58322dba44ded6b27a9db7990a735571c16728800fb3d6f0923b851b290b"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/bitolodeonai7--codeassist.json",
+  "sha256": "56ed4d46d65ef0f0925bb7a931d503faa0ecd3e0c41e1432823bf8bcf19f6fa1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

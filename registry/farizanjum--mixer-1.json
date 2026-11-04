@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/farizanjum--mixer-1.json",
   "sha256": "e54136699225fca4ff5340960fe3e1e8b0bf5508dcd035656607eb892bf1a719"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

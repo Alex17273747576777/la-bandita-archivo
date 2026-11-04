@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/incognito009--fmhy.json",
   "sha256": "15a51d6b204a6d583c59817b3183755bcd1f3d7910151fac8fc07b26f5ad294d"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#veljko-vulovic/komikku_plus",
-  "sha256": "fc0f7ad83aed52d1d40927b4ca297e5d6a14093432f127e23c741abf37ed4011"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/veljko-vulovic--komikku_plus.json",
+  "sha256": "5b53dc7ce1514f4327bb28a9303eda87a32b7840441f1b369aee93efa4cd1542"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

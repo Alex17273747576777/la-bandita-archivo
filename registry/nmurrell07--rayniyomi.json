@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and Open source  anime/manga/light novel reader. Based of aniyomi",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#nmurrell07/rayniyomi",
-  "sha256": "e7e17f0375747756a779cb4fe9913afafeeb2e00b4a25ed11bcc45bc8989d83d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/nmurrell07--rayniyomi.json",
+  "sha256": "ec524cef934995485ecc49e229fb94b72f06ce07795bd4832f143c994c453f16"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

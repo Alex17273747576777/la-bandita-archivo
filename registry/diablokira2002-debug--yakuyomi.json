@@ -8,9 +8,16 @@
  },
  "descripcion": "A manga reader with on-device AI translation — a mihon fork powered by yakuyomi-",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#diablokira2002-debug/Yakuyomi",
-  "sha256": "6a87a4eb48c77958aaf8be7dd5ebb4eea6eaf30c0c68e6e6d17ddf65a3df7f0e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/diablokira2002-debug--yakuyomi.json",
+  "sha256": "1dce145e1d187f24abe1c7cc322fba9ebc794559d04b3613e2fa03c33470390e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android - now with OCR (text recognition)",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#TheWeebSamurai/yomihon",
-  "sha256": "c639e29d3f016cd2bfa4e1bbb08c5bb611ceb689097b0e6d66fedef3f28d5046"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/theweebsamurai--yomihon.json",
+  "sha256": "34afb4884628893e8c789f613def0e45e757d39135df31d1b4a99e755090f797"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

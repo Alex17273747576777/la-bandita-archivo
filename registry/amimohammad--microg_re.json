@@ -8,9 +8,16 @@
  },
  "descripcion": "GmsCore fork for Morphe patched apps",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#amiMohammad/MicroG_RE",
-  "sha256": "7c709c1af5bf4cc33fa0d0aed0474afe90a8b887f93230c6aabe04fcd4ead8f2"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/amimohammad--microg_re.json",
+  "sha256": "b4379db9f569a4158aff7b408f8ef4316461a5c41042381632acd8b51eefaa55"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "aniyomi is anime streaming app",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#gokulcoder7/aniyomi-preview",
-  "sha256": "94ea14d9bd99ffa088bbe83cd2f27030b71cea6cc0ca7be194aa30a33962d3bf"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/gokulcoder7--aniyomi-preview.json",
+  "sha256": "e5bb0a7b0caa15371805f3798de1d9c0c973370c1cad8de1bbb7fe74051693b9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

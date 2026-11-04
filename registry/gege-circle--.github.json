@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/gege-circle--.github.json",
   "sha256": "9672569b1640081074196bc199d6aa8b6aaa81cbcf4ff5c4259af70f1c9e627f"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

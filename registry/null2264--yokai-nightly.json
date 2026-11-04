@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/null2264--yokai-nightly.json",
   "sha256": "8e99eaed2bc8dd477e1a79ec0eec3ea80ed05d6ff444b6e4f855221fe7ef0e02"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

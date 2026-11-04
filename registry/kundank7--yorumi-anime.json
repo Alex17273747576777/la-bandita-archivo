@@ -8,9 +8,16 @@
  },
  "descripcion": "an anime/manga streaming web app",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Kundank7/Yorumi-anime",
-  "sha256": "c0e91b5236fa41b792c53a4fa602f338b7d435b2f04989237380ed60e8676b05"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kundank7--yorumi-anime.json",
+  "sha256": "eabbb854403f640829b0a2e3c7343ecbdb3905e1638f051579ef7b7c5794c0ca"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

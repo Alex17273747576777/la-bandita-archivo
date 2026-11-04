@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/leobastiani--mobile-data-auto-off.json",
   "sha256": "7b11b9f42daf5e7acf16d6617d8143e238311d0fe4bdbb8e29b9df38630d0b37"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

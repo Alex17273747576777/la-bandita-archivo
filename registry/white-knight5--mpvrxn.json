@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/white-knight5--mpvrxn.json",
   "sha256": "ec3620494a85e23d8121ad325272f2c0683c91c40ed959b086cb6e2cae5985cb"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#albyatysjad74-art/idkmanga",
-  "sha256": "0d3bc5bcb6550ea0e195f8f591ea252e405401a41d8eceffc9b955d5ba7a71db"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/albyatysjad74-art--idkmanga.json",
+  "sha256": "d4adbce2cfeba4c4db54425559d8075e5795d5ecbe39b4cf9a3bdd16a152b2e6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

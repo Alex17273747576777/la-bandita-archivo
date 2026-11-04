@@ -4,13 +4,20 @@
   "release_en": "2026-07-25",
   "semantica_http": 200,
   "ultima_release": "r7841",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#raziel100/mihon-preview",
-  "sha256": "c95fd1a7c40b6ccf1b4a142793356b684ef2d19dc170a1e27296ef44188ec4bb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/raziel100--mihon-preview.json",
+  "sha256": "50eebe677b3fb6ab7e63582e3edafcc37a0dfb5268e4a4d754c0a8ad864a015a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

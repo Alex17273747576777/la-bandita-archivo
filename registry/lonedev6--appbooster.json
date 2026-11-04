@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#LoneDev6/AppBooster",
-  "sha256": "eb9b3be2ff6233a1baa1af2dd8cb2df371ec3cb43c438ba9a0aa748fa42c369a"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lonedev6--appbooster.json",
+  "sha256": "8570ec1185ff5e554e3c8d4b6022f64d736c1af773ce2c4ef89620d08544c7e9"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

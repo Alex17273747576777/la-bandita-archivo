@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/meteor149--kcode.json",
   "sha256": "d9c8fb8870880440cec9dd425a4754e1e5e14ba1ee949bf32145e85682511786"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

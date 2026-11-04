@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/nikitat21--quest-home-switcher.json",
   "sha256": "5c5ddcaac9a6756e47d13ae733511f4f858972b7312e76b312f843f909fa2703"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

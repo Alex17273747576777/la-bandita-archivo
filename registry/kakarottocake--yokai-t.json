@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android with torrent streaming and downloa",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#KakarottoCake/yokai-T",
-  "sha256": "5ec16a4e9f9d040b7b2fb0278cec30b2aa4005304da244f3438a4dd5eccd1c1a"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kakarottocake--yokai-t.json",
+  "sha256": "c97994ed26018ae9ec2ef2d51560d40582f0016197dca29af0c11ff700a0b5d6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

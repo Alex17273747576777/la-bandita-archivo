@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/aicoding-caret--airi.json",
   "sha256": "37d3c81ce6c9caf320ab8f3d4b643cbf879b52df43b434a60708a8e0faa3124c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

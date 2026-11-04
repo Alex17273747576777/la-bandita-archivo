@@ -8,9 +8,16 @@
  },
  "descripcion": "Manga reader for Android supporting BYOK AI assistance.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#niki914/cole",
-  "sha256": "ea11c153683fcaf9be4c0aa206aed6a7e590db0b7af640c8348d61b6f551259d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/niki914--cole.json",
+  "sha256": "3de6de0541224b012f4ec2a5327e5a01d2e0ad92485ab8cbbdcc31a9d19beaca"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

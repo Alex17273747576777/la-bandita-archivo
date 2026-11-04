@@ -8,9 +8,16 @@
  },
  "descripcion": "An Open Source app for watching anime, reading mangas and novels",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ABdelrahmanAlaa1/AnymeX-Preview",
-  "sha256": "8875f50efedd91701561adc200ecda9e44d6ca5fda381698c1de767a7ebf3635"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/abdelrahmanalaa1--anymex-preview.json",
+  "sha256": "aa19d43327d04eebde68787f701b59bdaf92c9f7995c8b523894e9505ce0f357"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

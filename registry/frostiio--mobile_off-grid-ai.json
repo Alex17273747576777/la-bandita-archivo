@@ -8,9 +8,16 @@
  },
  "descripcion": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy F",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#frostiio/mobile_off-grid-ai",
-  "sha256": "582a91651e62dff4ba05fa464b82d71d2bbc1b37b79fe9fa8a4ce1a5016c1ffa"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/frostiio--mobile_off-grid-ai.json",
+  "sha256": "119cb7550110225a10a3752e68230cee21c3b37485ce85f882cc9ee0d3c6da37"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

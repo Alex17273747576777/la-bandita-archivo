@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/codegeasse1--yomi-reader.json",
   "sha256": "5537bb7cd8a379e1291caed6de29ddc7f152ad08adb7ceb874762530681ab95c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

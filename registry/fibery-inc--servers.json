@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/fibery-inc--servers.json",
   "sha256": "c83eb48545ff6f3e9d7da96f387f3ad0f1c4148f98de55bcd0b1c041d1aa5bb7"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

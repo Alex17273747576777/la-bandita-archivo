@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/nach0-bit--universal-mtk-vbmeta-patcher.json",
   "sha256": "9bcb8b883c83ef7675f992c78b51020c4be5ea4330487148c2893c7ff7e64513"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

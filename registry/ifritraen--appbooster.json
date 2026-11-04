@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ifritraen/AppBooster",
-  "sha256": "67110915ce23ad88da89bc955380aba71f6a667fa5c4082fb77d5eb0d99cd452"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ifritraen--appbooster.json",
+  "sha256": "7a866c3bac1c89ea4e04b6eef4c1d61ac25fbd222d8d7ea5d809168da1563235"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

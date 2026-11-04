@@ -8,9 +8,16 @@
  },
  "descripcion": "AI That Builds Screens, Not Just Text",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ahzabke-dot/Kai",
-  "sha256": "ad178c32b1883a3a0395de76f81a4a81f6058961116cfa1a2bdd20c579b04cc1"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ahzabke-dot--kai.json",
+  "sha256": "47d8ebc10a58526a07b2099ea179b58134bfe5c7f0800559525da7a6072b0e46"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

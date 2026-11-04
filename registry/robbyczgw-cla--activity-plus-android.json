@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/robbyczgw-cla--activity-plus-android.json",
   "sha256": "7d86f01d395bfd55f625f104e2bef64ee0b497578599762e19425f297b50ef3a"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

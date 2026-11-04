@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/srythm--installerx-revived.json",
   "sha256": "1490049f69322ef1407b034225339e2a7447849304e7e2c79df75470668cf1b3"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

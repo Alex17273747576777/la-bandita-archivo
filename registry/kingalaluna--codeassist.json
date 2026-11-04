@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/kingalaluna--codeassist.json",
   "sha256": "8b9cbb51b9d7072e91da9be7eb60e8b861a7de869b6f81c8acd5554893bf997a"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

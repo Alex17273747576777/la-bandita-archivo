@@ -8,9 +8,16 @@
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Genshin-Impact-Momo/InstallerX-Revived",
-  "sha256": "476b592de5f54433484ee440ea2e3e5b1c1c22965664e52c3fad3e78b7e56633"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/genshin-impact-momo--installerx-revived.json",
+  "sha256": "030cd643130ab368d9da65f67667c52640d582905b52e0be1e17937cdda75568"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/mrdfour--kototoro.json",
   "sha256": "e9e5a295a6008836743b6e77f3e40495859a387ecfac41995b9f6dcd9eb05890"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

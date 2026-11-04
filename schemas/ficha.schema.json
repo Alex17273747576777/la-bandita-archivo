@@ -265,6 +265,56 @@
     "frescura_dias": {
       "type": "integer",
       "minimum": 0
+    },
+    "frescura": {
+      "type": "object",
+      "description": "El veredicto de frescura que calcula tools/vencimiento.py. Lo escribe la herramienta, no la mano: si se edita a mano, la compuerta G16 lo delata.",
+      "additionalProperties": false,
+      "required": [
+        "estado"
+      ],
+      "properties": {
+        "estado": {
+          "enum": [
+            "vigente",
+            "por_vencer",
+            "vencida",
+            "sin_respaldo",
+            "sin_objeto"
+          ]
+        },
+        "dias": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "evidencia_en": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "proxima_remedicion": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "ventana_dias": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "motivo": {
+          "type": "string",
+          "description": "Por qué está vencida o sin respaldo. Sin motivo no hay veredicto: hay etiqueta."
+        }
+      }
     }
   }
 }

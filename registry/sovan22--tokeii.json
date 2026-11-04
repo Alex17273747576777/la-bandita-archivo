@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/sovan22--tokeii.json",
   "sha256": "21ed8ddd91d2ab44c9f1bb679b62ec241ea95647e0dbf15191178f556ade622b"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

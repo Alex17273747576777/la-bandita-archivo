@@ -8,9 +8,16 @@
  },
  "descripcion": "Manga, Novel, and Video reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#MuhamadSyabitHidayattulloh/Kototoro",
-  "sha256": "55c122feeabb8a16bf6b24c62ce527aa68496fc64f47d5f0f9f3133b5ed30575"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/muhamadsyabithidayattulloh--kototoro.json",
+  "sha256": "b6ded4919349d227db0c6b5836430f673e1d66eb4fd4b75dea880fdb46fe10c3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

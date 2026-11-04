@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2022-09-14T17:02:00Z",
+   "oid": "743a070b7794735ea072a54ce138f02f8aa9f9a0"
+  }
+ },
+ "diskUsage": 44533,
+ "forkCount": 1,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "Quackdoc/JHenTai",
+ "pushedAt": "2023-02-28T15:06:38Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

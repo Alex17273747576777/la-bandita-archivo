@@ -8,9 +8,16 @@
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#marshalkovalera-code/InstallerX-Revived",
-  "sha256": "4dd40dd6dfa6336b55dc66705f420a67a21522bf5fba321d14067f79642e2603"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/marshalkovalera-code--installerx-revived.json",
+  "sha256": "237288769cca0141eb57de41410668f5238b45d1b2f261e0549bb83213782722"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

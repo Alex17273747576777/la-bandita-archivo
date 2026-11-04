@@ -8,9 +8,16 @@
  },
  "descripcion": "An universal search app for Android which can search apps, shortcuts, contacts,",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#oodzchen/quick-search",
-  "sha256": "6e4b99d793501437580842d4fe8e9f07a7274afee5cdf22e031f79c0f8885a03"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/oodzchen--quick-search.json",
+  "sha256": "a32ed781abb677cbe7b1c16ad38e26d489d95ca217697fc1a9ecf937b5525888"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

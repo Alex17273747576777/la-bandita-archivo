@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/dreamry2c--alas-aos.json",
   "sha256": "47be3542ca9b04f4fbd6dfc6f6ad2f245b3b3035ef3a017a218a9eadbc0f49d4"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

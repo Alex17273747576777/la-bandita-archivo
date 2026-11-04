@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/manzi-labs--moye.json",
   "sha256": "49a023ce0330ca911a523fe1e079f804a9fa22eab6ec29ba369ab04a42ef4ebd"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

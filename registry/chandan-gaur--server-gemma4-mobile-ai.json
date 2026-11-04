@@ -8,9 +8,16 @@
  },
  "descripcion": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy F",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Chandan-Gaur/server-gemma4-mobile-ai",
-  "sha256": "7fd071f4da66c39da28b5027ccfd50f58d818453157139cc3c7e39ff2c6f065d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/chandan-gaur--server-gemma4-mobile-ai.json",
+  "sha256": "ee8840436da6752deba7e657a340823f3504fe4b4e6b9963db0aa89c65318965"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

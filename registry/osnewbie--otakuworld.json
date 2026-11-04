@@ -8,9 +8,16 @@
  },
  "descripcion": "动漫观察者、漫画阅读器和小说阅读器作为三个独立的应用程序，用户界面相同",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#OSNewbie/OtakuWorld-",
-  "sha256": "eb55f8f7baa84a4c7b0b129d1070e70066a6af102f010e687851f5016d4e1969"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/osnewbie--otakuworld.json",
+  "sha256": "eca2e7f07c12caf36f7c74bfe9ed87c716fac40eadddd36b7994579181603a3e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

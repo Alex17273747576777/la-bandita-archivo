@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/marx161-cmd--karl-9000.json",
   "sha256": "5277128579a8dfbc17a250b45b6d196a007164bb3f9b630147c232555f7ce7e6"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

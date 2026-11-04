@@ -8,9 +8,16 @@
  },
  "descripcion": "GmsCore fork for ReVanced with Material You, features and improvements",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#RamboLeo/MicroG-RE",
-  "sha256": "5c4f5077f197e898e4ccd0f4532c39cb5e8ab00cd6d00d4ea20b329c9a599c9e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ramboleo--microg-re.json",
+  "sha256": "5a57fc86331e7d30b9ef7351d6f5afaece4ad39629f48d7a0efa5b09d7bf0e4e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

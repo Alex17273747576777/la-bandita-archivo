@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/abapqlcm--auroravpn.json",
   "sha256": "f9956076af10cb56147dc63d8ed26ef7e81ccaad39fae698bb7469bd87fbda02"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

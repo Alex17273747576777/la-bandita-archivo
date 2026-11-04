@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/briiick--mcp-servers.json",
   "sha256": "0c76b438991ed1a17aa801c4e9089b5fb4fa8a7aa3703577a2f7b5c78266ea7c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

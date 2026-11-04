@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/pineappletwilight--houri.json",
   "sha256": "4123eae2dc3d6d87678e024e97707474e917195e00830c0155754490e8834041"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

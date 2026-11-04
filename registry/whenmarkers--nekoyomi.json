@@ -8,9 +8,16 @@
  },
  "descripcion": "Nekoyomi — anime and manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#WhenMarkers/Nekoyomi",
-  "sha256": "7c12093d3a6c16800482a4947fcd570242fe1e1e99b90661868522c36a775d51"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/whenmarkers--nekoyomi.json",
+  "sha256": "eb400b9c9e9075ce990049913be6e7d522304ba42cacfe0f0bb42cd36d289317"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

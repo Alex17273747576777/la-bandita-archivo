@@ -8,9 +8,16 @@
  },
  "descripcion": "An all-in-one search app for Android which can search apps, contacts, files, cal",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Ayaanh001/quick-search",
-  "sha256": "75ca3888033ed06a96a9bab5b13b50d5f784ee02a24e106391a04c2f0a50dd0e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ayaanh001--quick-search.json",
+  "sha256": "17e27c5abf06fc5723a8d2771b9613757bcdf53a3b345e8e347389d5385923e1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

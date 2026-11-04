@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/aminoda--amino.json",
   "sha256": "448fb1f7b0688f2dd85d013539416998fae955c7789567860be93aac3b3d1be0"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

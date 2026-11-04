@@ -8,9 +8,16 @@
  },
  "descripcion": "In Development",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Beirusone/WinNative",
-  "sha256": "19379a97f778893e32dbc40accb6471f35fad27562c91f5c65229e446ed12834"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/beirusone--winnative.json",
+  "sha256": "d5605aade04ee05704ae50c1f5e1513117d65262c92cc1f2dfcdb8437e764b0b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

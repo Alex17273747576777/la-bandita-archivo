@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/katiusu--netpilot.json",
   "sha256": "1b5891d63beef77b1de4548566201351f3831b25699d5f759ddd2f3bd903e2ce"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

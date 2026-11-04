@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/mir-majid01--clahbot.json",
   "sha256": "60adf83268ca22134d7e1f3a850782148d4ab76392bb1c220717a1e330c42585"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

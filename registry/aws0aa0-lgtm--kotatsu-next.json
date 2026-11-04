@@ -8,9 +8,16 @@
  },
  "descripcion": "Full featured lightweight FOSS Manga/Manhua/Manhwa reader app for Android.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#aws0aa0-lgtm/Kotatsu-Next",
-  "sha256": "d904db99da4625db0919cc7fb3b3545d4926bb3cd2b7a053e8fab87269d23fba"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/aws0aa0-lgtm--kotatsu-next.json",
+  "sha256": "c43fef08fb83070e569de4654fd643270fa3663ce27f3cc2215232876900fdae"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

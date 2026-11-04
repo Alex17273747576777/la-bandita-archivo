@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android。A local-first manga reader for And",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#IOruning/Mekuri",
-  "sha256": "e86c8022d5bf6fbc9a7203b8604fa55ef3404a37a0d46b2b059d84428ce41df4"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ioruning--mekuri.json",
+  "sha256": "2060286b5ffb499e6feee2f6214926bec4d9305f1385d899bb5110e2f7f7bce4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

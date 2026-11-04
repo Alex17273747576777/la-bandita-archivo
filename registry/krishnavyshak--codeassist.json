@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/krishnavyshak--codeassist.json",
   "sha256": "89f4023db24cbedd8bb19c4ba0b0d135a1020dd1fb952aa8e27abb3d55b543aa"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "A free and open-source Android manga reader, Forked on Yōkai.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Eisenwu001/Hermes",
-  "sha256": "2bad7a455d2ae9311564dab592a4abc3a1a441c4f53dd0555048e3b88a7a734d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/eisenwu001--hermes.json",
+  "sha256": "236ed760c4485461daa03a0573e2dbd69bdba9f5509f72e28a5fe5f30fb6d2b5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

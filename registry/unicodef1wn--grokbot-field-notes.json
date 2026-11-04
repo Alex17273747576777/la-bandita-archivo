@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/unicodef1wn--grokbot-field-notes.json",
   "sha256": "b87fb55b7e1ce3ddc3fc3d5e0cb6bcc18d34b0558ba96809420008703df71c2d"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

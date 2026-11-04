@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/teemo4621--origin-tweaks.json",
   "sha256": "a4ef3e53515542905df18560bd089cd64a4f6a77eaeb2ad418c1b1f9349e08e4"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

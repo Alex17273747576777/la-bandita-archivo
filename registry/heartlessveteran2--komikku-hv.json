@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/heartlessveteran2--komikku-hv.json",
   "sha256": "df4d303685e3ebf1396f5b37827deeb9cbba8b3d755f3f545a7ceb3b1a246cc3"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

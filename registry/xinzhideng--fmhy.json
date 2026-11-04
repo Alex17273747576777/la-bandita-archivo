@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/xinzhideng--fmhy.json",
   "sha256": "da744253fc2499738fbfe3207d5af1d50d68fda2b6a274eae1f52219913a8ba5"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

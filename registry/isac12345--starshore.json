@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/isac12345--starshore.json",
   "sha256": "ad512985827fbb0c5cb4d205f204b829f751d7cb68d5e74791ef67a9b69121b8"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

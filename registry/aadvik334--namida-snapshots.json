@@ -8,9 +8,16 @@
  },
  "descripcion": "beta builds for namida",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#aadvik334/namida-snapshots",
-  "sha256": "8e05efd8b33564878e8b946e3e546c16ca4e69dd760054540646bf19d118561d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/aadvik334--namida-snapshots.json",
+  "sha256": "e7bdb555942e2b8e3b3512048bafde0db0c6363862d0971e413107606ec9f2b1"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

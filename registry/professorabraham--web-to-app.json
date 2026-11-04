@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/professorabraham--web-to-app.json",
   "sha256": "b3a92d0a2f1b504c5bc3cef28e46c246ba8886cee74329986e8fbdc6a6613347"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

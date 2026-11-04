@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/oddbyte--installerx-revived.json",
   "sha256": "af8051188c8b6440591c7591bf06c7f053428289489709792561dd656996ef71"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

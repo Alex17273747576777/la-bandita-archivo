@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/project00710--microg-re.json",
   "sha256": "33174f9fe1e3bb775b34c9d1e3584bdb2141c9f5b8e84563935ae4513260ace5"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

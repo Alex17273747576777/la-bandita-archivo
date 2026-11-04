@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/mendel5--alternative-front-ends.json",
   "sha256": "47162c906efdd4e933c22c623bd4c8aacaa990dbf76ff30cd85ee58f2d97f813"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

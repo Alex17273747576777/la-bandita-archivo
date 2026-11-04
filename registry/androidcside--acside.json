@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/androidcside--acside.json",
   "sha256": "7c3e7af2e542380685b7d806d74e5d357cd2bd14dc18ca7ff2e57ca39a07d3a9"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

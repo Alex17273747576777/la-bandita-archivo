@@ -8,9 +8,16 @@
  },
  "descripcion": "GrimCore — personal on-device Android AI agent. Fork of omnimind-ai/OmniBot (AGP",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#mishaqp/GrimCore",
-  "sha256": "6e702a10e479c3d58ac485f8426116ac54c9ec45a74edb79554aecbeefafae2f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mishaqp--grimcore.json",
+  "sha256": "a5619b345f77826bd56c0e48673eac7d2659683cde3d7a318d1134eb8adfd919"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

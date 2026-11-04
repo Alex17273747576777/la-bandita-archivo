@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/leekleak--traffic-light.json",
   "sha256": "b8d0853bc78d4c54ef051cba0205062af8df72c41552666e9493cce50cd7759c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

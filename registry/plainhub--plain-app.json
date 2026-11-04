@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/plainhub--plain-app.json",
   "sha256": "9adb3c39590b47979666b8fa28117ab18b2626e361ffaca987ebad709b4a0bec"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

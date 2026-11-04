@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/lucent-project--lucent.json",
   "sha256": "5649be3c657b0c2074b1d83b18512c001b63fdba90a63936d3fc5a650c655ca8"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

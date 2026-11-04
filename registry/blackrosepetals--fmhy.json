@@ -8,9 +8,16 @@
  },
  "descripcion": "/r/FREEMEDIAHECKYEAH",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#BlackRosePetals/FMHY",
-  "sha256": "d7b79cac24f14ad71f63ba34ffb2ee34b30870952701f5ba15bcee1d3696ef92"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/blackrosepetals--fmhy.json",
+  "sha256": "bd4abf6b03d4ed01506475ee1d8d6fc7478e25ca548fa2e7b63d05a7348fb125"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "GmsCore fork for ReVanced with Material You, features and improvements",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#MoniMatrixx/MicroG-RE",
-  "sha256": "3b1759c605e16a7e7e73ad5a81bcc7ee499fbdf1cf5b914241b6f0a4b4ea4cce"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/monimatrixx--microg-re.json",
+  "sha256": "e0fb9fd05f74ac0c4f3661aad8188bbe2f434b5c9397983b10fc0a2d3af80542"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

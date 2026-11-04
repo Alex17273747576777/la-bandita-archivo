@@ -8,9 +8,16 @@
  },
  "descripcion": "One library for manga and light novels. A free and open source reader for Androi",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#apauruseya7866er/Reikai",
-  "sha256": "142a422a19335a52a2177cd3197323484ca9dacd6ce172954595f72fbb4113de"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/apauruseya7866er--reikai.json",
+  "sha256": "59c65a0325d9ca6a3f2b85cfbe76e91b90541d61614aea1ad5f2727cf6173bab"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "Sozo-Read Manga,Novel etc... Multiple sources, offline downloads, cloud sync.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#hichamelmounaim/Sozo-Read",
-  "sha256": "7723bbddee420511f4d43b7b96f35b9be5ff23f2414d75c162d85239102d29f1"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hichamelmounaim--sozo-read.json",
+  "sha256": "81de474d9901372d2f2caa5cb721a1f80a2e82685a86466be529d8fbe21ed19b"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

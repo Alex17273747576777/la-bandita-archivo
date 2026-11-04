@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/d4rken-org--porter.json",
   "sha256": "5afa00e811a6c96708aa65e88c421c0ca04838a2d3db79719da7b85c774e98e1"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

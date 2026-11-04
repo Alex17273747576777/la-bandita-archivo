@@ -8,9 +8,16 @@
  },
  "descripcion": "Model Context Protocol Servers",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#AndyManastorm/smithery-reference-servers",
-  "sha256": "a7dc6969987ba77a3e0c2b5819439f39ae8d7cbb9277626ad20cc6a7a800ad98"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/andymanastorm--smithery-reference-servers.json",
+  "sha256": "f10fb744cba7b79f3d04e503eed67273cf53dbd2574017861cb1e47a5e3b91dc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

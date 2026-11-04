@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-08T13:44:56Z",
+   "oid": "46a99ac27b396642b8f0cdc7d2d682e38e1707f0"
+  }
+ },
+ "diskUsage": 37431,
+ "forkCount": 0,
+ "isArchived": true,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Mozilla Public License 2.0",
+  "spdxId": "MPL-2.0"
+ },
+ "nameWithOwner": "GTX2090ti/Suwayomi-Tsumiru",
+ "pushedAt": "2026-10-01T08:03:08Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-09-08T14:15:39Z",
+    "tagName": "v1.2.1"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

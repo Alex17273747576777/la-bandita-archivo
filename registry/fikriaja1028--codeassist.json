@@ -1,8 +1,8 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "muerto",
   "release_en": null,
-  "semantica_http": 200,
+  "semantica_http": 404,
   "ultima_release": null,
   "ultimo_push": "2026-09-21"
  },
@@ -11,6 +11,14 @@
   "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#fikriaja1028/CodeAssist",
   "sha256": "353aa08e5fa40cc21e73741fb5737d502982958a0cac9d7c8bd50458bc29f323"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-10-15",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-11-14",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {
@@ -29,7 +37,7 @@
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": null,
   "stars_por_mes": 0.0
  },
  "nombre": "CodeAssist",

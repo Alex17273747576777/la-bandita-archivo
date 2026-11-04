@@ -8,9 +8,16 @@
  },
  "descripcion": "a fork",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#sewolonX/InstallerX-Revived",
-  "sha256": "eaa2e796391e679f2407b493438a941d73661dd6590170ad3f9a35607f0e1067"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/sewolonx--installerx-revived.json",
+  "sha256": "ca6683bde708159a4a3bbcd119cae28bf6fd7aa54c2c0a0b755dd997229c8651"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

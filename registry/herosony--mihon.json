@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android, tachiyomi",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#HeroSony/mihon",
-  "sha256": "9601534fd2774c4a92afb564bd4333d4dd175e704c02a711e23eff28938d4a91"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/herosony--mihon.json",
+  "sha256": "ab01acc42ef3b7f9e7bc0bcd6622f6b9cc9c04e17e1f5ab3b9a6b168ff94549b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

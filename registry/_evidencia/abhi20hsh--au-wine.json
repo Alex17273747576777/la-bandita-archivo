@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-03-11T21:10:23Z",
+   "oid": "9ca3e7c427e88ea9a948f4958856ab352a8a05ba"
+  }
+ },
+ "diskUsage": 830597,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "abhi20hsh/Au-Wine",
+ "pushedAt": "2026-03-11T21:10:31Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

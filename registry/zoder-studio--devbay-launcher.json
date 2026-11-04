@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/zoder-studio--devbay-launcher.json",
   "sha256": "f96bf21225931360f2567b71c4baa7adb1d1e94d124ae2f4f17b60692083d021"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

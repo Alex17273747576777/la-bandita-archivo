@@ -8,9 +8,16 @@
  },
  "descripcion": "🅰 PlayTranslate - 一个开源的 Android 实时游戏翻译应用  PlayTranslate 可在玩游戏时实时捕捉屏幕文字并进行翻译，完全离线",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#GeekFusion/playtranslate",
-  "sha256": "7d18fe8d019ca6dbf3a5c08e6cbeb562ac2c65e980fe81138c1978f1150e918e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/geekfusion--playtranslate.json",
+  "sha256": "5bbb7816c39801297749b61ee9ff694c214d9eb48ce60e210f286d84254c26f1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

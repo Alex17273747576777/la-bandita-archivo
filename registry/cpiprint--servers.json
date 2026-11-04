@@ -8,9 +8,16 @@
  },
  "descripcion": "Model Context Protocol Servers",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#cpiprint/servers",
-  "sha256": "319f214d9c9a7e2725dc8aee94d7a10a18812b6190e82d1ae4cdb7abf47966c7"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/cpiprint--servers.json",
+  "sha256": "5aca78be135a6c5aebbd1fdb2f74fc4a1ce47c0e6c7e2ebc6a12798231e4bcda"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

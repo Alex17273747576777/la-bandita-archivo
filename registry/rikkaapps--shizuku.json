@@ -8,9 +8,16 @@
  },
  "descripcion": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
  "evidencia": {
-  "nota": "ficha creada el 3-nov-2026 al medir los herederos de Shizuku para la pieza 04",
-  "payload_ref": "consulta GraphQL del 2026-11-03 sobre RikkaApps/Shizuku",
-  "sha256": "5b86c5e1cdc7aa45c89e00b85f852f0d630a66e1d730abfeef271a96a8f6e864"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/rikkaapps--shizuku.json",
+  "sha256": "39786b28b1101f511b44ec66a8e9859afdc27f98d39748c9ed8b1c2e1b2dd0f0"
+ },
+ "frescura": {
+  "dias": 71,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-11-22",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,7 +37,7 @@
  "merito": {
   "scorecard": 2.7,
   "scorecard_en": "2026-08-24",
-  "stars": 32708,
+  "stars": 32726,
   "stars_por_mes": null
  },
  "nombre": "Shizuku",

@@ -8,9 +8,16 @@
  },
  "descripcion": "All in one media/image downloader app for android based on yt-dlp, gallery-dl py",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#kyoyacchi/gabi",
-  "sha256": "a0adf67c54fc280fd414fa725d1df60a90530ec00c89f4349800acda1139ed48"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kyoyacchi--gabi.json",
+  "sha256": "61a5f9939925446de8dc63fd84d703336bfe8329bdb6f3b261d01c61e6db18e2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

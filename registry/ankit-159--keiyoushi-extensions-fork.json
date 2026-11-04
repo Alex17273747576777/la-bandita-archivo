@@ -8,9 +8,16 @@
  },
  "descripcion": "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.json change to work on ReDantotsu",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Ankit-159/keiyoushi-extensions-fork",
-  "sha256": "f95ed7e9d586ff68f5642e05c671d9c6200d673136e9a180107f81de3a2c0188"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ankit-159--keiyoushi-extensions-fork.json",
+  "sha256": "421d213a5a0b84ab42d50f6674d18fbc9ea454eefa79bba98caf7a1943b65212"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

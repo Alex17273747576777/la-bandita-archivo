@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/habibtalib--web-to-app.json",
   "sha256": "036cbe69d5de67975a1301185181ef35a5579ac6c1ff54b3e8fabe231431cd08"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

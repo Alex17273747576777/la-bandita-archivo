@@ -8,9 +8,16 @@
  },
  "descripcion": "Dexxicon Reader for audiobooks, eBooks, and Comics (including Manga)",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#RobinD42/dexxicon-reader",
-  "sha256": "dd30c95da0bdff6bc3a8bcb2a1f0634a4b56e1e7322950df7347a7d258e1e6c4"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/robind42--dexxicon-reader.json",
+  "sha256": "fc704250de028503a18b77ca41c346a2f83de735c40af5a3a6354e9a82ea3636"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

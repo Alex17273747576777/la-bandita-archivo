@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/nanqian--installerx-revived-systemapp.json",
   "sha256": "8cf5af0339994365ba6a3d295a2477d6ed0e1b2c39eef140a2de665f63999e04"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

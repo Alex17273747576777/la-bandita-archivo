@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/carlelieser--shizzi.json",
   "sha256": "029f4e02bbd4a0b7e450e314bf61805808f7189a5253a4f5c91449a9cbdfd1d0"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

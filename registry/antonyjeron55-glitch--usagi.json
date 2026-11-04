@@ -8,9 +8,16 @@
  },
  "descripcion": "Usagi is a free and open-source manga reader for Android. This repository contai",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#antonyjeron55-glitch/Usagi",
-  "sha256": "8d0b45f08b41853d3148ed8cf10297d0114345666db7867c256b7f152a740ea6"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/antonyjeron55-glitch--usagi.json",
+  "sha256": "30b25c2a762e87552f089283e80f943ad776d6e32f3dda1c28f5ae4bfa73892d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

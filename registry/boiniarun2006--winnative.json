@@ -8,9 +8,16 @@
  },
  "descripcion": "WinNative fork with Aurora Mali GPU support + device-tier performance tuning for",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#boiniArun2006/WinNative",
-  "sha256": "9cda8da92f2d9e2d5d098c67d08e3f2c95c51b8b62026891a7c890544c1cdf53"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/boiniarun2006--winnative.json",
+  "sha256": "f3c7d4f86ba99d96e3b217c6c4e56bdf7e829b8fd83ae50edff07848de4e0617"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

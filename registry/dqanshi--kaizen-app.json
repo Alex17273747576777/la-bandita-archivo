@@ -8,9 +8,16 @@
  },
  "descripcion": "A modern manga + anime streaming mobile app built with React Native and Expo, co",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#dqanshi/kaizen-app",
-  "sha256": "b851d439dcded0240876ec52e71877b690483d55faf19f153018e26b8d7611a0"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/dqanshi--kaizen-app.json",
+  "sha256": "04e612ff8ed2f5c3045d6649a794046b3c77691757a056d0967789469ad27474"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

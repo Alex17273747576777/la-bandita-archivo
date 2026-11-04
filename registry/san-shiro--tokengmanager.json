@@ -8,9 +8,16 @@
  },
  "descripcion": "GmsCore fork for ReVanced with Material 3 Expressive design and enhanced feature",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#San-Shiro/TokenGManager",
-  "sha256": "7ec529a5b01f5377a2dea6eea935f01dd876ad077ad7a91986fad46f2650f015"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/san-shiro--tokengmanager.json",
+  "sha256": "6c1ba3c27ee6a1e829a2cb2d27a3dce0de9ee963325cea6a03ae9b0770813adb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

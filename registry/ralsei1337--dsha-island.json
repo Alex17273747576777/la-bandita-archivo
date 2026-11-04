@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ralsei1337--dsha-island.json",
   "sha256": "dccc302f968c48187c520654115a82911f233a8651218a0f71eafc87ab4cc38d"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

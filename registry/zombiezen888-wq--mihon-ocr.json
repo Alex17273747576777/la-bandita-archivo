@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#zombiezen888-wq/mihon-ocr",
-  "sha256": "f3205705353701b0f3f2893840bd65a7963dcb6d60ded949599d83d2e4d21edf"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/zombiezen888-wq--mihon-ocr.json",
+  "sha256": "d113108a118c961216d59ec7fa6ff2de01554fc8b1be0c0e5f16819ae0eea422"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

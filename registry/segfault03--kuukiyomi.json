@@ -8,9 +8,16 @@
  },
  "descripcion": "Fork of Aniyomi with extra features",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#SegFault03/kuukiyomi",
-  "sha256": "72347caaddba037d60510ac9404555104c08f36c10554fd010d145ab18aa0198"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/segfault03--kuukiyomi.json",
+  "sha256": "aed3fc24e854ae3114688af3361c00448c9bcb2153bd29e19404fe9fee324503"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

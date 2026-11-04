@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-07-29T06:33:20Z",
+   "oid": "0673eef87ee3e2b7133cea2af5a9b95030cc81e8"
+  }
+ },
+ "diskUsage": 80254,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "KalipheGTU/web-to-app",
+ "pushedAt": "2026-07-29T06:33:24Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

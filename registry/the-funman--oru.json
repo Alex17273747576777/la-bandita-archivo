@@ -4,13 +4,20 @@
   "release_en": "2026-10-16",
   "semantica_http": 200,
   "ultima_release": "v0.0.1-dev.1",
-  "ultimo_push": "2026-10-16"
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Morphe app patcher for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#The-FunMan/oru",
-  "sha256": "8f9da0f55b18b6e43c16e7e6a99c525ecba95a4081ac75cd5e8e8360f7bc5095"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/the-funman--oru.json",
+  "sha256": "1ecc91b9b2196d087d04af389fd1e4d57aeadfcae6e27a88e6d75934b4e44f48"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

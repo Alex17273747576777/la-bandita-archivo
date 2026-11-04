@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ubuntu-flutter-community--musicpod.json",
   "sha256": "3dfa4201a55a952b00f4c750cc32280a2041c138647f53451e728d68ae01db85"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

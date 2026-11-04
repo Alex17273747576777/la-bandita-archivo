@@ -1,16 +1,23 @@
 {
  "actividad": {
-  "estado": "muerto",
+  "estado": "vivo",
   "release_en": null,
-  "semantica_http": 404,
+  "semantica_http": 200,
   "ultima_release": null,
   "ultimo_push": "2026-08-30"
  },
  "descripcion": "An all in one reading and streaming app for manga, anime and light novels",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#wotaku-ship-it/Foxlations",
-  "sha256": "bfd416a23cbbcac16fcb7a4e44ebcebe6ef44b23e65c8ec7cd41e50558a92ea3"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/wotaku-ship-it--foxlations.json",
+  "sha256": "d45590d3c60c330549f86a9fad3e038c794e4403eff1644371d0ccee0a30b17e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {
@@ -21,23 +28,24 @@
  "id": "wotaku-ship-it--foxlations",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
  },
  "medido_en": "2026-11-03",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 0,
   "stars_por_mes": 0.0
  },
  "nombre": "Foxlations",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "f3d3c826f270760b02bd3c09ce0e04aad677553f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f3d3c826f270760b02bd3c09ce0e04aad677553f"
  },
  "repo": "wotaku-ship-it/Foxlations"
 }

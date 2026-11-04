@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/zmz125000--localviewer.json",
   "sha256": "46b46ffffb246b19db77953e73f07bd2b2bec081810b391bd7108b82013b8031"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

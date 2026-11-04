@@ -8,9 +8,16 @@
  },
  "descripcion": "A 1 binary solution for https://github.com/kaihouguide/Mangatan",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#shoui520/Mangatan",
-  "sha256": "04828c073b745f19b9c7ddaa96c1fbe01cd6988c613a3631cf161a61cc63b600"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/shoui520--mangatan.json",
+  "sha256": "90847fd4a7660c3933e30ce01ede2e716c332f9dcca6cd9442430c5c96760d86"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

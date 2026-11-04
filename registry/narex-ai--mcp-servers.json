@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/narex-ai--mcp-servers.json",
   "sha256": "c325308b846b4b6df764b8a39c42c5e3679667b3a10da4e9a7a3a6132c359c36"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2022-05-20T10:28:23Z",
+   "oid": "70e58d55387f1fef7046f4c812b48cf9a3a42381"
+  }
+ },
+ "diskUsage": 34537,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "Kadantte/OtakuWorld",
+ "pushedAt": "2024-08-19T14:48:06Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

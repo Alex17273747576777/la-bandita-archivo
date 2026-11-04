@@ -1,16 +1,23 @@
 {
  "actividad": {
-  "estado": "muerto",
+  "estado": "vivo",
   "release_en": null,
-  "semantica_http": 404,
+  "semantica_http": 200,
   "ultima_release": null,
   "ultimo_push": "2026-05-13"
  },
  "descripcion": "https://fmhy.net/",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#yangrong-gog/FMHY",
-  "sha256": "591fffec7a61177ccaf095758c84ba52582b60b804595da329644845efa985ad"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/yangrong-gog--fmhy.json",
+  "sha256": "30b1e647ec024980602713461c3ec2e52d59e195cede9a77ff18565939afc7de"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {
@@ -29,15 +36,16 @@
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 0,
   "stars_por_mes": 0.0
  },
  "nombre": "FMHY",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "8af7be5e4f120b953b92b5766a4ff404b76b2b3e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8af7be5e4f120b953b92b5766a4ff404b76b2b3e"
  },
  "repo": "yangrong-gog/FMHY"
 }

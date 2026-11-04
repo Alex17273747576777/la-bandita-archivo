@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/stophobia--web-to-app.json",
   "sha256": "85d37227b0cb1ca153b9c72bd8f627a3fb56df69bbc3f9d3f4b5b7be94c11ff5"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

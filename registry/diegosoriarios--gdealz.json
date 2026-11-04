@@ -8,9 +8,16 @@
  },
  "descripcion": "PC GAME deals application.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#diegosoriarios/GDealz",
-  "sha256": "dbfb3ae53313b8c97517947793b0246234026b0cba988b9e4837bb85ed954abb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/diegosoriarios--gdealz.json",
+  "sha256": "f01a816b0da9243ddfc7b5835c79cee4129c4753d4f7d7ed0fd07731fe169c2b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

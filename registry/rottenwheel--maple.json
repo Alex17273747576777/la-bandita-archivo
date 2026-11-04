@@ -8,9 +8,16 @@
  },
  "descripcion": "Maple - Private AI Chat",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#rottenwheel/Maple",
-  "sha256": "4997fa176b9f6355b0baa137a1b30ceed792570697f3dc7da39a32de8bd0d995"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/rottenwheel--maple.json",
+  "sha256": "8a9c20e9e9c2f4de705b9e971f7556da37cb633ff97edd7dae74c06bfdca6352"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

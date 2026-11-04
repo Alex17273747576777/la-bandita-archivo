@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source novel and manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#BokuNoAkku/tsundoku",
-  "sha256": "295fade3f493c1e6152f9542855c5fb0faf390c3a2ce84caeed4f7f450f43951"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/bokunoakku--tsundoku.json",
+  "sha256": "8e14a0728e8c191b4c679440ba5cc7712f87f1a27a0fe5f2e5f19c5628f45db9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

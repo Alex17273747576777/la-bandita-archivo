@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#llostfromlight/mangayomi_fork",
-  "sha256": "f8a64152ab4ecb5785a84aee08641e34212961ef2ce4414a0da8bf0044a4812f"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/llostfromlight--mangayomi_fork.json",
+  "sha256": "1c919431f8af82af0331c871512b34b8a8b0dbe4b3a961d44bfb81adc8efa9cd"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

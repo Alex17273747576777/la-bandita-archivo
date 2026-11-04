@@ -12,6 +12,14 @@
   "payload_ref": "censo-ecosistema-2026-10-15.tsv#shakenbake604/anythingllm-mobile",
   "sha256": "e9e00442547fb8b34be67f0f804ea5d1038add6ef97b4cddad3cc8eabfe813dd"
  },
+ "frescura": {
+  "dias": 19,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-10-15",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-11-14",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",

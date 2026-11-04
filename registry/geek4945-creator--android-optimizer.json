@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/geek4945-creator--android-optimizer.json",
   "sha256": "dbcf8414daecf9f2d916a8e1819ce17c632c2bbd81c4f703118cdc072b2b485b"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

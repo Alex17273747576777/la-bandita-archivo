@@ -8,9 +8,16 @@
  },
  "descripcion": "Morphe app patcher for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Hero7749/morphe-manager",
-  "sha256": "68bd1c9c1585ed6b68898739a9c89cd9b41795552c25f7e0e20aebb2459a4149"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hero7749--morphe-manager.json",
+  "sha256": "80b4096a6dc9ac17729f0c09f78bcbd9b4889be68b750a260a342cc86b1aa855"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

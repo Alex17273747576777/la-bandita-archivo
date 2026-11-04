@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/fangkampanat--microg-re-byd.json",
   "sha256": "bb863ca27c6436f907d1a01440778a7a4cfe149d2b71f6ddb1124da12a720d88"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

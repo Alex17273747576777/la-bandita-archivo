@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/lnreader--lnreader.json",
   "sha256": "f3e34ba71feebeb3a6ec983cf7b0ee6a3bd92485c558ba8feee0a498d92f5494"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

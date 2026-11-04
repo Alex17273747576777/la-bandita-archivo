@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/far7tw--fmhy.json",
   "sha256": "56efaea89ceb7b1d92d8cddffbd668811f01df306b35a89a94b5fce7a81fe41d"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

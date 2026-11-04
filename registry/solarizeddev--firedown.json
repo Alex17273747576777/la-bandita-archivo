@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/solarizeddev--firedown.json",
   "sha256": "394fee29a240675a17f57f697a2e8273cd8a7c2a423f10380334813584eef437"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

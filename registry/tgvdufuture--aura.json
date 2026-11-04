@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/tgvdufuture--aura.json",
   "sha256": "07e041ea6097f6a21c22535a342e19644b9c56d67a44b212221df0881ebd6674"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

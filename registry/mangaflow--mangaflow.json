@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/mangaflow--mangaflow.json",
   "sha256": "33f17b59a0d632106f4d9a72582ff3d33d054ccca1ea544915a1da67155d604a"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

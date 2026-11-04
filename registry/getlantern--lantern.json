@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/getlantern--lantern.json",
   "sha256": "a90e68f2c62ab1432d09d9259d466ff38d8a5d2071dd0ff0da58597fc3636140"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

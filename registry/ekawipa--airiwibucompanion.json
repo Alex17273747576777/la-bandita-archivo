@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ekawipa--airiwibucompanion.json",
   "sha256": "c13fd156e2879eb07a05b09f77d2c3aa5b26e18b48c848800b7eed4cbbc4333f"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop th",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#gjcluoye/web-to-app",
-  "sha256": "2e142fc0d615ed0d697ea2ad6c31c5f10e4c18b56528304c76dead03f6913b53"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/gjcluoye--web-to-app.json",
+  "sha256": "f5c5b8ca199ebc51da4bbd8878c50e99968d1cbc4adfff7f9e3513899cb2a7ef"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

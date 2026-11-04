@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#M-r-N-o-b-o-d-y/Kototoro-Nightly",
-  "sha256": "7372efd15baae66ffcdcf71789fdb6e5e5b9aac1439eb52eb0b487656eca2f90"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/m-r-n-o-b-o-d-y--kototoro-nightly.json",
+  "sha256": "681ff39cdb0c6b768e7957fd7ab1b078a347fa1cdca7e65bb22508ba99558423"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

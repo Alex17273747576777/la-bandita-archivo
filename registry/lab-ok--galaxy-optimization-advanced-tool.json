@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/lab-ok--galaxy-optimization-advanced-tool.json",
   "sha256": "ef6babc929fb9b4ae27b72a1e641f66dbfd07738f63d42a18e70995bd5f74b7a"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

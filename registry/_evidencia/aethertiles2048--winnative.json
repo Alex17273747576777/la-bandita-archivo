@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-27T02:17:05Z",
+   "oid": "c9fbbb342f2689c852046804f4f5c9afa45b5dcb"
+  }
+ },
+ "diskUsage": 1102638,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "AetherTiles2048/WinNative",
+ "pushedAt": "2026-09-28T14:06:01Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

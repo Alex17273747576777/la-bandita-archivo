@@ -8,9 +8,16 @@
  },
  "descripcion": "On-device AI assistant for Android built with Kotlin, featuring local LLM infere",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#akramraza2/TinyAI",
-  "sha256": "f5e9c15d4e19c94bbb19a9a6bef799457e8a0eb8efe83cba93f584129cb330ae"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/akramraza2--tinyai.json",
+  "sha256": "effda129dbd576a42ac45e101af34aaad76ef072564f4d58d7c9a42c2e6ddb78"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

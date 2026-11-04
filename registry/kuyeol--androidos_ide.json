@@ -8,9 +8,16 @@
  },
  "descripcion": "An IDE for building Android applicatons on Android.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#kuyeol/AndroidOS_IDE",
-  "sha256": "7d971b1fa2b0800cd1487c159c6cefc7b5fa15e2b82c76c565d43f5844caea21"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kuyeol--androidos_ide.json",
+  "sha256": "0fd0fbfa9bca28d076d83c8d56547b55ee8a0682399e17edc2b6da77d8b406db"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

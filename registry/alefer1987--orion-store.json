@@ -8,9 +8,16 @@
  },
  "descripcion": "The ultimate home for Open Source and Cleaned apps. OrionStore offers instant ac",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#alefer1987/Orion-Store",
-  "sha256": "ebf38177d15fdaca4960a8a3ba0fa99caee66e3185add70c2f82d403b2d70cc8"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/alefer1987--orion-store.json",
+  "sha256": "2b915acbb8d205a3713b898917ff9a3c8fbb986db40971c820a5d3ede74844a9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

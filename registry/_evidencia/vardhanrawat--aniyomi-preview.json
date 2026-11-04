@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2021-10-09T21:35:51Z",
+   "oid": "e0cb23578388ade69dd5dcca1ebc3139aeb35de9"
+  }
+ },
+ "diskUsage": 51,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "VardhanRawat/aniyomi-preview",
+ "pushedAt": "2021-11-29T21:41:37Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

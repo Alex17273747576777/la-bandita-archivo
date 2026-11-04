@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/felipegatoloko10--punk-app.json",
   "sha256": "4a095f487ab28338d57dbccbd7a3483e87642dfb1a91b964d0c945fd62c8b1a3"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Universal search app for Android which can search apps, shortcuts, contacts, fil",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#LimpidMo/quick-search-app",
-  "sha256": "9e3f3c4d2ad3af8d33a1825936b3dba990aa63d0d327f838ff100b491dcef96e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/limpidmo--quick-search-app.json",
+  "sha256": "b3c7d9a9b4c90f9309e860d31c803202b52e70e37b33a239b278c799da57bc13"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

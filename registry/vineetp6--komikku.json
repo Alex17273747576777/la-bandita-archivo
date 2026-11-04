@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/vineetp6--komikku.json",
   "sha256": "1798043111c2fb8f7c852ec1542da4b5e7c64c8d884cf3476e830f6cfd80d70d"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

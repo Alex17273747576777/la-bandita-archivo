@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/roanh47--roans-hyperos-cn-fixer.json",
   "sha256": "7ff4d4495f29d83c96818f0a756c3ef38a82311b29f45f04e443f8aaa6e32618"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

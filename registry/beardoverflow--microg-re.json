@@ -8,9 +8,16 @@
  },
  "descripcion": "GmsCore fork for Morphe patched apps",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#BeardOverflow/MicroG-RE",
-  "sha256": "6201295eeac980407cc46769719bfa08f89ba3b864ea8b08a0cb85ab647e1420"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/beardoverflow--microg-re.json",
+  "sha256": "d7df02447ef8963be7897be2e38a9ad2b60c1e3ffc15d68337c7f73186eb7c75"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

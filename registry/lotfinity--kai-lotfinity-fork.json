@@ -8,9 +8,16 @@
  },
  "descripcion": "OpenClaw alternative in your pocket",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#lotfinity/Kai-lotfinity-fork",
-  "sha256": "d0f385d3f34e2d05ccec4f51e7509fec4f869a1a18d41df9f074b227a2f07571"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lotfinity--kai-lotfinity-fork.json",
+  "sha256": "639552061d28db3c60b149b6f0b910f68d1e252a67011f2fbd8d68c779c60fb0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

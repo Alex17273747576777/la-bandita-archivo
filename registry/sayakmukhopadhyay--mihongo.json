@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#SayakMukhopadhyay/mihongo",
-  "sha256": "0e931cfcc520afc1fe1b558297ffda927e55d9668c202ae3de21ea73e63381f5"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/sayakmukhopadhyay--mihongo.json",
+  "sha256": "812c8cda44e79b294eadd73eae6a0a8fe67b5fa45cab37f65a9f5deb884a6e70"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

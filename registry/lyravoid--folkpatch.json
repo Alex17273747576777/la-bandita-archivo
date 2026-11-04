@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/lyravoid--folkpatch.json",
   "sha256": "c451dbf2a2df02c1d7f65028835c40d9409cc3a22d49773e8f03afee31a46cd5"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

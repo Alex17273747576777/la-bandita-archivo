@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ankitchanki--led.json",
   "sha256": "df4babd66f1166b780ae13054d832c48aed0e570d5faaf07dceaab01b30853b1"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

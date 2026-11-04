@@ -8,9 +8,16 @@
  },
  "descripcion": "Real-time screen translation app for Android for both language learners and casu",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Karimera1924/playtranslate",
-  "sha256": "c792c48930d81b83fb7920d437bb8f76863b5d66fa2e948aff6ed17534261231"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/karimera1924--playtranslate.json",
+  "sha256": "7a242d81c2d84dcdf6438436a3c8d714461313e62f8bba6329e6694fea30d899"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

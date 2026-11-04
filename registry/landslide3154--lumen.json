@@ -8,9 +8,16 @@
  },
  "descripcion": "Lumen · 安卓漫画阅读器（Komikku 的 fork）：SyncYomi v2 多设备同步、Komga 增量书库更新、中文界面补全。Android ma",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Landslide3154/Lumen",
-  "sha256": "23d20438621f250f483ee266aff85909dba8c974ef5d7bc3a438265f281d86b0"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/landslide3154--lumen.json",
+  "sha256": "4fab03a6bd1b1204e8246248c0c0598046974c38e499b5092ce37d490de1cf10"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

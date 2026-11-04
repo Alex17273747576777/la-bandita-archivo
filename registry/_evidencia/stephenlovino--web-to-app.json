@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-04-05T11:43:32Z",
+   "oid": "a3fb9474b882e09553d8d80fccb6405b6ea203ca"
+  }
+ },
+ "diskUsage": 19043,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "StephenLovino/web-to-app",
+ "pushedAt": "2026-04-07T01:04:47Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

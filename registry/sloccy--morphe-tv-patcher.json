@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/sloccy--morphe-tv-patcher.json",
   "sha256": "eb5548d0c6f40975b5d77afe95108a6ea0998165bfc9254648c9e55b8e2b2560"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

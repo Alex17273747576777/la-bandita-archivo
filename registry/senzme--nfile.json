@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/senzme--nfile.json",
   "sha256": "07f70423a53cec1e7d13ea7c89e99636981da658391082f6e386ca585e8da74c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

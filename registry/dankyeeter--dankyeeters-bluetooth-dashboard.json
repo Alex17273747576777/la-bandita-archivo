@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/dankyeeter--dankyeeters-bluetooth-dashboard.json",
   "sha256": "0d98fb71fbfca919d22da45c0150c25722739ed2a985a0cc5b8b5cc79682448b"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

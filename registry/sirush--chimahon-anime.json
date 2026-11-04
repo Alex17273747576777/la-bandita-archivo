@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/sirush--chimahon-anime.json",
   "sha256": "cd7713807818f28511908714d245d5cb0a88263b75baa95fbbac5bf2a86dca41"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

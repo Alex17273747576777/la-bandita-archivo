@@ -8,9 +8,16 @@
  },
  "descripcion": "Experimental IDE based on ASTs produced by compilers",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#jixiaolou/CodeAssist",
-  "sha256": "342724b07ea5f492a3ee6dda34685ab0ede402035c28b205ec11d070b244bd93"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/jixiaolou--codeassist.json",
+  "sha256": "edeb18c34d74be4f47afaa20c8bb81d59ad231c2c0af09539a1c1e2f1d6d496f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

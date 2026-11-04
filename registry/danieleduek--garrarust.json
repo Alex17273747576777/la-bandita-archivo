@@ -8,9 +8,16 @@
  },
  "descripcion": "All state — conversations, memory, config, credentials — is stored on your machi",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#danieleduek/GarraRUST",
-  "sha256": "30c6e837d7a872b6cf3434b63e661f90107060a896a386d15ba53dc520567d63"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/danieleduek--garrarust.json",
+  "sha256": "f7a849ee98a9b10cc5fe75194d27b76a7cd6322fe0480ddccc3f67557d6bfd72"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

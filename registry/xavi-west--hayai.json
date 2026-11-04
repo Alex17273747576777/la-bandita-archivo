@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga & novel reader for Android — fork of Yōkai/TachiyomiJ",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Xavi-West/hayai",
-  "sha256": "3863ecc2124b1c97eeb42a7376729a412f54dfa440f72e545f6d03e8959150ab"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/xavi-west--hayai.json",
+  "sha256": "a976475ce00b66a1f07bec5b00e60d57ae7e25b3d43a63a7594eb8a2a0788f81"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

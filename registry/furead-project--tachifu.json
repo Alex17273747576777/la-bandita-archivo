@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/furead-project--tachifu.json",
   "sha256": "074abdbf0cef3bef0b3f31601c8d82867a8f4630d7ee649fbd5813d8e2e878b8"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

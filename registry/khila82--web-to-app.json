@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/khila82--web-to-app.json",
   "sha256": "3c630d92d8dcc5a72138cc2b95dc84a7e86aab7350dc57c5f7bb1de48e563fca"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

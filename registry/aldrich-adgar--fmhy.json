@@ -8,9 +8,16 @@
  },
  "descripcion": "资源整合网站（学习，娱乐，影视等等）",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Aldrich-Adgar/FMHY",
-  "sha256": "036b9b81c0284473d81c0b0dfcec12b0ed988d9cafb83b5e881afca8bee0c7c0"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/aldrich-adgar--fmhy.json",
+  "sha256": "0398f6d9ca1825e2ed4c62d7723fe537a9b0ccea8ee4f0004c889a6536a172d0"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

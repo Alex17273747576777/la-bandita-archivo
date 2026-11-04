@@ -8,9 +8,16 @@
  },
  "descripcion": "Real-time game translation app for Android for both language learners and casual",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#HughNonymous/playtranslate-fork",
-  "sha256": "8589b1a4c5bf57052b25c9d9d76be92bc8d9a17965400e6b80803d72c90498af"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hughnonymous--playtranslate-fork.json",
+  "sha256": "9b300db71f7143bc1cabce96dd2ca519ed56286ebda6043525e5e5065b1666af"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

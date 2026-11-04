@@ -1,16 +1,23 @@
 {
  "actividad": {
-  "estado": "muerto",
+  "estado": "dormido",
   "release_en": null,
-  "semantica_http": 404,
+  "semantica_http": 200,
   "ultima_release": null,
   "ultimo_push": "2024-11-01"
  },
  "descripcion": "/r/FREEMEDIAHECKYEAH",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#yangwenyuan/FMHY",
-  "sha256": "9ab3dd897cb8ec1b4eb2899010ece1df07af642c884bf89c0a5a229b70ff3938"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/yangwenyuan--fmhy.json",
+  "sha256": "79ec78ae2589de6506670937821d480d1c8d9e97a539bfcda3b54f1877c70046"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {
@@ -29,15 +36,16 @@
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 0,
   "stars_por_mes": 0.0
  },
  "nombre": "FMHY",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "66459efce28d41e843bb3e2f905119b9aa47e4b3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:66459efce28d41e843bb3e2f905119b9aa47e4b3"
  },
  "repo": "yangwenyuan/FMHY"
 }

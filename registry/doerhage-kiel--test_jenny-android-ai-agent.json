@@ -8,9 +8,16 @@
  },
  "descripcion": "A local-first personal AI agent that lives on your Android phone. Permanent memo",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Doerhage-Kiel/test_jenny-android-ai-agent",
-  "sha256": "8ace549c93612765adc75a3d0f8832c6560476ea9092ae20ea42723f4e1ddbad"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/doerhage-kiel--test_jenny-android-ai-agent.json",
+  "sha256": "9625a08818a900da3d65434a58a58c2eec6bc028d87927ab7556b12f07bbffbe"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

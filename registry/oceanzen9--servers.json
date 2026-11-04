@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/oceanzen9--servers.json",
   "sha256": "60e5686f083ad0bf28fc055e17c6be97ee0cb46357f1e56916b3e38e3a7cd9ae"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

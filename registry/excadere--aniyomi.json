@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/excadere--aniyomi.json",
   "sha256": "ef69071734cc5fc89d8db9b4828d7ba61496d4e721c63309230a78699a6919bd"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

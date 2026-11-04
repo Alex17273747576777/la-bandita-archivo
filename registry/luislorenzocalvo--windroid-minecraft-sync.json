@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/luislorenzocalvo--windroid-minecraft-sync.json",
   "sha256": "b7fc5cba3adc24e20b64ec3eb95e491bc36e5668b91591a6a58e591aff3352ba"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

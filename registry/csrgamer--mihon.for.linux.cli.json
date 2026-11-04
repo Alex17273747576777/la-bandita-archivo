@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Linux CLI",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Csrgamer/mihon.for.linux.cli",
-  "sha256": "ecad7fc2a2d1326056e3b8b4e676cc1b98bb419590333d5573c639515769d32c"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/csrgamer--mihon.for.linux.cli.json",
+  "sha256": "d4a6dd94a8f2a9315e821ab77b853037e2b49c82958f0c90cab4448c920f1edf"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

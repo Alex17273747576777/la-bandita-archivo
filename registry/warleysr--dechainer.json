@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/warleysr--dechainer.json",
   "sha256": "3d749dc762356d6117e241370a4c991622bf8382b39505a7080ad4c55ebfe5d5"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

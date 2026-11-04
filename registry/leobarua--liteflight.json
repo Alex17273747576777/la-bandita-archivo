@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/leobarua--liteflight.json",
   "sha256": "7d380886da32a86885d8bb81a1d76bfb66334c47cfb701e5d934a10015cdf99c"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

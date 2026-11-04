@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/finall1008--rear-card-bridge.json",
   "sha256": "4bb33f259e8bc82a3096aee62b355171ca3df536d9647d3841be6fee0802cc9e"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

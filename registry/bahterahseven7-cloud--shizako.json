@@ -8,9 +8,16 @@
  },
  "descripcion": "猫耳看板娘的系统权限助手：不 Root 也能用特权 API，兼容 Shizuku-API 生态（官方 SDK 应用零改动直连）| A catgirl-masco",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#bahterahseven7-cloud/Shizako",
-  "sha256": "aebb1a5cb011f62eff75f7e0c6fc315436f56f1dd60376c66405495c22ca4730"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/bahterahseven7-cloud--shizako.json",
+  "sha256": "2f92ebdbf4aa4e1009f55dbad9d58b841dedb23e05897dd8c8eafa1568fb3f21"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

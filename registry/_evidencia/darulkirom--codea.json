@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-13T19:31:15Z",
+   "oid": "006ba505533bcdd78bee7badef914693f45bf900"
+  }
+ },
+ "diskUsage": 887206,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "darulkirom/codea",
+ "pushedAt": "2026-10-13T19:31:16Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

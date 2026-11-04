@@ -8,9 +8,16 @@
  },
  "descripcion": "资源",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ZeroTwoKurisu/resources",
-  "sha256": "96a4406c5f5941149ca4835f7dafbea2f2da631883fbc5720441c7738a529136"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/zerotwokurisu--resources.json",
+  "sha256": "432619ecf421751bbbb5e352633f7162583bdc21f9a22dd7d2c2de37bf35f9ca"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#jang-geon/mangayomi-translate-ko",
-  "sha256": "5c1643351a9acb95772561cb9a570cf41ad69d606d83d71287386e617ff1e9fc"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/jang-geon--mangayomi-translate-ko.json",
+  "sha256": "7fcb2c961df2390fea33fb9c1d4c102c16fc5b90993a9f429b2b0a1305195251"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

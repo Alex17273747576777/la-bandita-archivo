@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/riozee--airi.json",
   "sha256": "50c86bcd0a9e3bb0fe8d48a83368a63e68cb624b33f92853a7a45adb18fb470a"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

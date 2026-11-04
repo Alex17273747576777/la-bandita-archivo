@@ -8,9 +8,16 @@
  },
  "descripcion": "Your on-device AI assistant, capable of operating terminals and performing a wid",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Meow-Emperor/OpenOmniBot",
-  "sha256": "612d51f0920deeaf80e8dafaba75850a748322182d93bcf1a1f655e7dda068ea"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/meow-emperor--openomnibot.json",
+  "sha256": "811d25411bf04f6ae43d5fa62267a69770eec1ef3933cffb452fcf040f1b2ab9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

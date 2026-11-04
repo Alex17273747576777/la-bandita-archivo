@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/lucky2356--loli_ai.json",
   "sha256": "c918dbc5e323a8c48d9b55fbcfc31a31d9077038167e8bf87730b8823df0fc30"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

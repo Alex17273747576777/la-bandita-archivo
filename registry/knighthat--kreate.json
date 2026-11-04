@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/knighthat--kreate.json",
   "sha256": "ae27fea598c889a2039298cc789263af65ddafb9effd45080859ed706dde6843"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

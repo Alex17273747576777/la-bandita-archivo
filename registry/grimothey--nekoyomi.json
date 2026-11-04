@@ -8,9 +8,16 @@
  },
  "descripcion": "Nekoyomi — anime and manga reader for Android by grim",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Grimothey/Nekoyomi",
-  "sha256": "8f11497e683f842cfa8ea60f8ea598f9420854b09dcf8151c0d1f0b64ca64694"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/grimothey--nekoyomi.json",
+  "sha256": "b328f9cfb1d628a200d99aa2c9d947bc83b0b07aa6c64f482672e899c48743a7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "An app for manga and anime",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#xdwil/aniyomi-apk",
-  "sha256": "e6a4c708df7f4ce15f0574132fe874eb7492d977fd9085e8387aacd29f0d662e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/xdwil--aniyomi-apk.json",
+  "sha256": "6ce64e0ea6980610895aaaf732e86f1b073fc7c3c37f6146da68d2326a463130"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

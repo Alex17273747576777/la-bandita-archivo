@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/xychenci182-web--maa-hotta.json",
   "sha256": "a24afad4d43b2a18ba8f8edf7ece4f9f696ef160bf9fc719d8824bec7f51b64f"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

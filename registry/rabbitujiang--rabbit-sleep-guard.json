@@ -12,6 +12,14 @@
   "payload_ref": "registry/_evidencia/rabbitujiang--rabbit-sleep-guard.json",
   "sha256": "21bb3a2fa2389c0d943eb2bf5af6b7a1091b0070ec72cc9a3dc2192ff06e8947"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-11-03",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

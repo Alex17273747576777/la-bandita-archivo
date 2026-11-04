@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/sonnylazuardi--servers.json",
   "sha256": "0a0fea70b6e9870135cc388f222b819b12e29d34810bddd2ac09f0af55adb4a9"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

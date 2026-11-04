@@ -8,9 +8,16 @@
  },
  "descripcion": "A manga viewer.support realtime Coloring  and Anime4kSR and OCR translation.All",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#saber1008611/Venera-SSR",
-  "sha256": "e5521bc83e11abe5f1a6e67a5c0290d62bdbcb00b73b70293f11495a793a24cb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/saber1008611--venera-ssr.json",
+  "sha256": "18b05d653b6ec366da9d9e62331e3d4fa59adf85e1fe64c98b0055e90df050a0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

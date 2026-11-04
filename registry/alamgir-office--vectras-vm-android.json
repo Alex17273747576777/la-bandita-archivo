@@ -8,9 +8,16 @@
  },
  "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Alamgir-Office/Vectras-VM-Android",
-  "sha256": "72a1dc1caa941b1e545f2de79d85ecbcaa31b104af29222ea90ec8447a1b0dfb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/alamgir-office--vectras-vm-android.json",
+  "sha256": "ad78becce1d73f516261525cbeab11fa1aebb3fbbe27ecca19666414791de4dc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

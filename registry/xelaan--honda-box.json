@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/xelaan--honda-box.json",
   "sha256": "712f98121f1b7e7676990fcb9e1be4add98f59ad9a3764a9412119512e134927"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/xm418--airi.json",
   "sha256": "4f4dc1f414131169a514bc4d1f8e46b9aec5306e0c5ef4a9bd5b455e5bae5b84"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

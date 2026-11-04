@@ -8,9 +8,16 @@
  },
  "descripcion": "Your Spotify + YouTube Music library & daily mixes. Free and open source forever",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Official-Husko/Stash-Desktop",
-  "sha256": "f4a56a784931ea0327e748db02e4690e51ab9d4c531ac9c2eb5de1bea319367b"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/official-husko--stash-desktop.json",
+  "sha256": "c0c948fb5b39914ce6ea3e53ee42e144239b33bb0aacc57c2d503544a9279a48"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

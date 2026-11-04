@@ -8,9 +8,16 @@
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#China-BlueFat/InstallerX-Pirated",
-  "sha256": "4916a74af280e8fea50be80367257f562e7be01a5c61fbf67abccfe81c818dfb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/china-bluefat--installerx-pirated.json",
+  "sha256": "224996ed70b9701e16a33661d9e8eb6a201575e51ea70e8e4995bb7fc9225528"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

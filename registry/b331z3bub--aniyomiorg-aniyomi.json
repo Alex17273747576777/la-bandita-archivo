@@ -8,9 +8,16 @@
  },
  "descripcion": "An app for manga and anime",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#b331z3bub/aniyomiorg-aniyomi",
-  "sha256": "d650f0e3885eaecbee7a58e2a843ce9a31caa8e5c56a8aeceda944000348fb60"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/b331z3bub--aniyomiorg-aniyomi.json",
+  "sha256": "8f015c7f942ebe3ad42b7b3513e7eb348efa71177862bd6f80f55fff15deb4a4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

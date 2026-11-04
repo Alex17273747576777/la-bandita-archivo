@@ -8,9 +8,16 @@
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Jamel317/InstallerX-Revived",
-  "sha256": "3831096c4a9dec894978aa2d5bf834558affe2f7f929894693ae6d28aa0cfb90"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/jamel317--installerx-revived.json",
+  "sha256": "13fa71f0b87db0b869863e1f346f27c33ba928c7b716dbddad2c12c86c0eb997"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "GmsCore fork for Morphe patched apps",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#lxsdd/gmscore-cast",
-  "sha256": "eecffce5becff0937bb8e24fe33aef7b5ffbe2910a43e745a2cc7a91a26b2651"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lxsdd--gmscore-cast.json",
+  "sha256": "5a7a89875c4cdd17f6f2ba8deb333fa2fd0f89d9cc958282dc0e838ec4a65ca9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

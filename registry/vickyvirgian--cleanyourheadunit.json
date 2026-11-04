@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/vickyvirgian--cleanyourheadunit.json",
   "sha256": "47d2b739102d51d68c43ce55af3489866a73f0e5d9fb6cddd3cd4d612e955224"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

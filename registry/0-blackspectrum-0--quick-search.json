@@ -8,9 +8,16 @@
  },
  "descripcion": "An all-in-one search app for Android which can search apps, contacts, files, set",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#0-BlackSpectrum-0/quick-search",
-  "sha256": "405366d4bfd838d2e1718f8be4d0cd84505868f88f4574cc6a9116954813c8cc"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/0-blackspectrum-0--quick-search.json",
+  "sha256": "6f1954133e4efe83c223140afb7228f9c9075a3a24a64f87d89af5c8008b6e3a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

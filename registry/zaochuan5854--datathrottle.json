@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/zaochuan5854--datathrottle.json",
   "sha256": "99c7c92bb6b4daaa5d90191dde401da18ac6311247ca4cd671b45fc21d4f6535"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

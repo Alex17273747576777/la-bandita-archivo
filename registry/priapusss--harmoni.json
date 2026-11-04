@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#priapusss/harmoni",
-  "sha256": "1f8f6dd8ac347b445cc0f829ead0a60e09286610c195296b0b1c6ba6a6ea63db"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/priapusss--harmoni.json",
+  "sha256": "825560c80459fdfefd61239c59f3c3e3a9914e5eaafa56fd30c229a2746781a9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

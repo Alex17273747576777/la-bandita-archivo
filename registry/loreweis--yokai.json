@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#loreweis/yokai",
-  "sha256": "18dcb9be4122d15d1f0b28fa37e2af93e61b86d5573439a6cdabdb4d0c3f8389"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/loreweis--yokai.json",
+  "sha256": "8c0abf4bf7aa0dd85b530fb35d22c1d311c1c5a6cf94f635d9d4ed4127b814b5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

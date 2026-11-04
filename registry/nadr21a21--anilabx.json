@@ -8,9 +8,16 @@
  },
  "descripcion": "AniLabX - android app for watching anime/dramas/cartoons and reading manga/comic",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#nadr21a21/anilabx",
-  "sha256": "3c1737b8fef3de893b32661e71745a99c561d2501a3c1e3b1cbdb6a5f5f39b77"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/nadr21a21--anilabx.json",
+  "sha256": "676e06af93e59cff236a8389dd7abd8371c1aa123a4cb8d86a6a0dc0181a8165"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -8,9 +8,16 @@
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Kwisma/InstallerX-Revived",
-  "sha256": "54e6834391f432c06b411239bc5b4ffa6e7bc320b0d134c55305dab58cb87e49"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kwisma--installerx-revived.json",
+  "sha256": "b4513905cd5e9d6c23b6f150ff2a965f3e54374eaaae3707c67c2a3d1a78d0f1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

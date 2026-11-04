@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/deepakpant93--servers.json",
   "sha256": "0c52b49d746583160bc0ea7c738308cd829edd1c87192d33f51643b7da2210dd"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

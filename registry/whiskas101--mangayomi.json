@@ -8,9 +8,16 @@
  },
  "descripcion": "Fork of mangayomi, with added support for handling Manga OCR metadata and tap to",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Whiskas101/mangayomi",
-  "sha256": "e7ccc122a49c44f435e91ff8a2426db3be422ee4713213d6c4aa1fe43c94a786"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/whiskas101--mangayomi.json",
+  "sha256": "8922f817b56cf79da80a1382ff7d5423e2f3eef4b059c266dd6d1f8666bd8802"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

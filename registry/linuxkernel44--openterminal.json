@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/linuxkernel44--openterminal.json",
   "sha256": "bb7cf555f498568d456d1af791ff4f21aa651b2a3c35fb53e16d3317c624fa09"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/burkeholland--servers.json",
   "sha256": "ebbb696668efa64fc4cbd78c65284cc23006ae5ec811e4491d909df745b3d6c2"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

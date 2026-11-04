@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/jakepurple13--mihon.json",
   "sha256": "9969b5b9516db1660085e31058ed9f53d1541f4c3f9e6a1dfbe101d9aa393168"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

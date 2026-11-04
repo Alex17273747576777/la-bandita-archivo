@@ -8,9 +8,16 @@
  },
  "descripcion": "Anime, Manga, & Novel Recommender Website and Application - User and Content-Bas",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#thetungclone/Kanshi-Anime-Recommender",
-  "sha256": "9d232ce13b4570c01a6a4540acde442a3e09299844aa3b48f84a63aafed4e2eb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/thetungclone--kanshi-anime-recommender.json",
+  "sha256": "52d589d88907c0864acbfc1626008011be04a783806d2082dadfb8b4f5ec5e84"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

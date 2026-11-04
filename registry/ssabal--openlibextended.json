@@ -8,9 +8,16 @@
  },
  "descripcion": "An Open source app to download and read books from shadow library (Anna’s Archiv",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Ssabal/openlibextended",
-  "sha256": "66a29ad96bd0f400266aab53f71986e3d9953390d7017b3e246e19d3468c899d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ssabal--openlibextended.json",
+  "sha256": "2a30a836eec794ce322787dd5bfa687cd67eac41b2db534a1c32e17268658f8d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

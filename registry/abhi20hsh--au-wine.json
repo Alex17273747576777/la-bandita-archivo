@@ -8,9 +8,16 @@
  },
  "descripcion": "A MULTILINGUAL YouTube Music FRONTEND For Android, Focused on UI, UX, and FEATUR",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#abhi20hsh/Au-Wine",
-  "sha256": "7ab4bf236a26aa061533dbe051fc75e68b581f1543562036d5be914cffd7df8b"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/abhi20hsh--au-wine.json",
+  "sha256": "5c4566e8d3b86d2ae2398292a70c75bb815f42ab242a5a2aee2d1fd90d4597e0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/flashsphere--private-dns-qs.json",
   "sha256": "5beb2f517e181db019a34f2293a572a1835a0b0226b6df93db25225b75f64a72"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

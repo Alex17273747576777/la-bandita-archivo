@@ -8,9 +8,16 @@
  },
  "descripcion": "Zangetsu is an anime and movie/series streaming app.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#NeighborhoodNerd/Zangetsu",
-  "sha256": "8d34da7a9855fc13652d4412f2a04e62ef8f01ccba31006284c40d702d5d85d8"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/neighborhoodnerd--zangetsu.json",
+  "sha256": "ff369e299e774353d7037be6e21384e724b0a4755522efda9305d3d10d6daa27"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

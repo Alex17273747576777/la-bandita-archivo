@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/hash-asterisk--tsundoku-psp.json",
   "sha256": "81df5b20c682d14699b3b6ec05b7df6ac89552e01effc2a4a7c366468a765866"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "You see, I just need a motherfucking fork. BTW fuck Microdick.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#skylerwashere/aniyomi-fork1",
-  "sha256": "d61d03400ceb2ab2a7a4a39f1805319c6f6f5af291119692a83166b59aa96cc2"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/skylerwashere--aniyomi-fork1.json",
+  "sha256": "20e0d9fd051a2fc25483ee79d35ec13a869b94a50125eb15f1b76712f39372a4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

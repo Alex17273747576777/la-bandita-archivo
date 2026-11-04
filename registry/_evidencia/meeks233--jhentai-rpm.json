@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-02T13:14:35Z",
+   "oid": "771c55d2de3494bac372e9c8b2a4511cb0ca82a4"
+  }
+ },
+ "diskUsage": 62950,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "Meeks233/Jhentai-rpm",
+ "pushedAt": "2026-10-23T16:22:17Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": true,
+    "publishedAt": "2026-06-29T02:55:23Z",
+    "tagName": "repo"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

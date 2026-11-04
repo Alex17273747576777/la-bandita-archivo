@@ -8,9 +8,16 @@
  },
  "descripcion": "Model Context Protocol Servers",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Candy-S99/Community-MCP",
-  "sha256": "da5866a419ab3a834c2a027ab964c82f9e1e07254dc3acf47839adaabfb4440c"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/candy-s99--community-mcp.json",
+  "sha256": "8834a285eaedc2fd61fb2acf2ed556a49e3fd9c5e71cf537024869bb2771094b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

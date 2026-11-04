@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-05-09T02:12:16Z",
+   "oid": "56032623c72c81c79edd937fe6ada45277b7a076"
+  }
+ },
+ "diskUsage": 1361,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Mozilla Public License 2.0",
+  "spdxId": "MPL-2.0"
+ },
+ "nameWithOwner": "ChanDao715/Stellar",
+ "pushedAt": "2026-05-09T02:12:25Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

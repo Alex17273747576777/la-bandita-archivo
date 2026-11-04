@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/andreconde21--yoke-launcher.json",
   "sha256": "55fba63a862d4937b2f7f10d991b2242726671eeff8ef62ac3fb0b55d2418292"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

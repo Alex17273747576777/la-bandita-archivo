@@ -8,9 +8,16 @@
  },
  "descripcion": "Model Context Protocol Servers",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#0xsarawut/servers",
-  "sha256": "097cfd0c041b5e91e44c6c0588cb2e3a9c6874c266f2ed4d6f56a4d762d2ed24"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/0xsarawut--servers.json",
+  "sha256": "7b61b6178cc7ee4d1ba4e1569f837ba1c14a4da6cfa9a4014431b411ff59fa3b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

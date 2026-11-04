@@ -8,9 +8,16 @@
  },
  "descripcion": "Your Spotify + YouTube Music library & daily mixes. Free and open source forever",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#gabrielepetteno/Stash",
-  "sha256": "056f293f9b4fbc6469639c756fc45b98fb93e21985b11019be8a1fc9f1e94ee2"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/gabrielepetteno--stash.json",
+  "sha256": "8d3b7d7c061f2d27e8f86cfa279ab4b48a9dc8a96c32d676e98198a450f4847c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/android-hacker--virtualxposed.json",
   "sha256": "5ecf356048c7e2942ef6f75cec5b0f3f88ab116317e1087fe1a1cf64ce95550b"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

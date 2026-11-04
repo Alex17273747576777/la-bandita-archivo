@@ -8,9 +8,16 @@
  },
  "descripcion": "/r/FREEMEDIAHECKYEAH",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#hercules261188/FMHY-movies",
-  "sha256": "4ec9703be533c98cd4e3b27a7bf3a19584c2b1ecd663da283b5e5a76af0e5c84"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hercules261188--fmhy-movies.json",
+  "sha256": "5da9125b283312e6f9376e4253885e13eaf50a8042d2371b704814cfafa6ae79"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

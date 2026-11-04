@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/kaitongxx--thor-pathfinder.json",
   "sha256": "22c8f772be93085d8bb31c286c21b5a31f59f9308ae1304d78af3b1cc52723df"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

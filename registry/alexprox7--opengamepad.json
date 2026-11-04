@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/alexprox7--opengamepad.json",
   "sha256": "284d9ff576d653d8686267ac24d4ba0c055c3be212a1d976e0d3a7fa7ead8610"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Watch tv shows, movies, anime and read manga in singe app. On android (with andr",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#wahello/strumok",
-  "sha256": "9d01452b8997637913af356db8c8de53d2a5631a6568a5aa00d921125f978954"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/wahello--strumok.json",
+  "sha256": "65c83a96eef311ad42fa9af73f4031225b0fbd345ce3cc239a7cfe313afc59d2"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

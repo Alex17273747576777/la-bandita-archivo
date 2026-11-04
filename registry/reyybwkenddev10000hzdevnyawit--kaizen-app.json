@@ -8,9 +8,16 @@
  },
  "descripcion": "A modern anime streaming mobile app built with React Native and Expo, continuing",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ReyyBwkEndDev10000hzDevNyawit/kaizen-app",
-  "sha256": "03da09414d47d535efe3b191e1e5ae14ecc74d8dd93fd77598d7dd0cb05d8594"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/reyybwkenddev10000hzdevnyawit--kaizen-app.json",
+  "sha256": "36f9df815afd9b0b28e5eeec74c1e09806d8ca687550b8c84353b91c0b3beff1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/fw867--hypercar.json",
   "sha256": "825ea136017fcc97e9b02b64875b724a4f2a5c9b566e5e8471d6109c5b42ab6d"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

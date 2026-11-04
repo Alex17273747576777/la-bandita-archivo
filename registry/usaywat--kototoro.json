@@ -8,9 +8,16 @@
  },
  "descripcion": "(L10N) Multimedia browser for Android. Compatible with Legado, IReader, LNReader",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#usaywat/Kototoro",
-  "sha256": "220371b35bae168650b059c703fe56890efdec9b1135951b2d373d1e8f3a952e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/usaywat--kototoro.json",
+  "sha256": "028dd0d027777b453177a1933fc54f1a6849f3813ac2c0d2b7ade2c84c3aaed7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

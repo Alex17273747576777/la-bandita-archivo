@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/dorumrr--privacyflip.json",
   "sha256": "89a8008743f9d51fe21e7794b46b63be4b65619a13bbfcf4e51559557c8750e1"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

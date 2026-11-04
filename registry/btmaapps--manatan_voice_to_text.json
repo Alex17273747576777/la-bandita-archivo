@@ -8,9 +8,16 @@
  },
  "descripcion": "Seamless immersion language learning for anime, manga, novels on all platforms",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#BtmaApps/Manatan_voice_to_text",
-  "sha256": "580132bec3c9658aeb96d19d7ebc4e46d935b1d742c2db3dfd7fd772c2bcb8bf"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/btmaapps--manatan_voice_to_text.json",
+  "sha256": "b17a8cd608e6986bf92c39d9833aa9d76d08df2eb6dbbce3d393689ac4e82df9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

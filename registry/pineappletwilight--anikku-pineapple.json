@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source anime watcher for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#PineappleTwilight/anikku-pineapple",
-  "sha256": "b53eae16c1df76ec3d55ea49939ad63de49c53c728b7da1afa3bd4622fd06034"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/pineappletwilight--anikku-pineapple.json",
+  "sha256": "0cbc9b8d47bc71ee3fe453d519865f0a2723dd77fb4aca1d83da5cc0a6db6735"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

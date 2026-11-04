@@ -8,9 +8,16 @@
  },
  "descripcion": "App đọc truyện tranh Hentai vn",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#yushichivnllc/Hentai-VN",
-  "sha256": "4dcedf8bb927ed228e1994438add493135949e2c617dd26fa932b92387a2b889"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/yushichivnllc--hentai-vn.json",
+  "sha256": "653470de645087d413b690461020bb96aa0222a1cf43dd2265c024b8f4bd6f33"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

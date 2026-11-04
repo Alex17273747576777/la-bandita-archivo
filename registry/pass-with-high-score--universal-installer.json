@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/pass-with-high-score--universal-installer.json",
   "sha256": "95d0d4e94cabc143b9c854f742d114d83a03a4b8fced787a9409cf3b6d303513"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/mastermach50--mihon-preview.json",
   "sha256": "e75e7fe781b43190f4484956972bcdd5c0b5f8458bfa6e6ad9244e67db0a1841"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

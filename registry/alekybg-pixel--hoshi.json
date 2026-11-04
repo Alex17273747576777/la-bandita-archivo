@@ -8,9 +8,16 @@
  },
  "descripcion": "Clean, lightweight cross-platform tracker for anime, manga and light novels.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#alekybg-pixel/hoshi",
-  "sha256": "609ef2af9e69e2ba1f4553c1dd3e7fd69e051951b2963c7f764dbc1e3f9c2e94"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/alekybg-pixel--hoshi.json",
+  "sha256": "b82381af3bd94a58be692f8ff10df64c865da87f83582c785a2e3daf2dfec8a8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

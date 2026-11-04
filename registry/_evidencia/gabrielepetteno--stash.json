@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-24T01:48:47Z",
+   "oid": "430514e2daa30403e3d66be42f4ca16e58c7fe65"
+  }
+ },
+ "diskUsage": 24435,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "gabrielepetteno/Stash",
+ "pushedAt": "2026-08-30T12:04:11Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

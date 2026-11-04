@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/mahmud0808--teledrive.json",
   "sha256": "7379ef8c20a503a51e23733f86e5663f1756ad9a7637d7ce1c6c6497bce2d124"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/hipexscape--gsi-action_toolkit.json",
   "sha256": "98afce83c7818513e5e43a62c14263298d0d9426b88bad9c505bcbd372080178"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

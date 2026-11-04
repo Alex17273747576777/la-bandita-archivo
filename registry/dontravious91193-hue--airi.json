@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/dontravious91193-hue--airi.json",
   "sha256": "e76a3ce66946388fbf83dc4f3b92c26259204e6624bb623eef0af0b6a3bc155d"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

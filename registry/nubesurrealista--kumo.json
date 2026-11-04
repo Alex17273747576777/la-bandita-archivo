@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/nubesurrealista--kumo.json",
   "sha256": "8a1b32fbecf537dd22c4864616d678481ecb26b6345b7f30060381e78f1c8bf8"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

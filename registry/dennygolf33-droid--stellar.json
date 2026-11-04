@@ -8,9 +8,16 @@
  },
  "descripcion": "Another Shizuku impl",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#dennygolf33-droid/Stellar",
-  "sha256": "64ba9241448dc546e0026c4722f7adcead1b10792f653ec6586e97f22bd04b9e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/dennygolf33-droid--stellar.json",
+  "sha256": "415dd6f822ba1b717a66a264aa4366ba9b98607dd2e257943abc51c5a0011caf"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

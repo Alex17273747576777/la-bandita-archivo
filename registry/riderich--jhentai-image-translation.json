@@ -8,9 +8,16 @@
  },
  "descripcion": "JHenTai 漫画图片翻译版：Windows 阅读器内完成日文 OCR、AI/本地翻译、擦字与中文嵌字，支持右键翻译和 CUDA 加速。",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Riderich/JHenTai-Image-Translation",
-  "sha256": "2d60809877106c9af51cdb3c8b00bf0e2a84508bce19995af0b040bf37bb9877"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/riderich--jhentai-image-translation.json",
+  "sha256": "2a04cdf9aee2bd18046b338c2ca0bf8e352e97fb178dce4b3478cd8fe6edf4ca"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

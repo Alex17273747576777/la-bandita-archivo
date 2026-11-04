@@ -4,13 +4,20 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-18"
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Experimental code editor based on javac APIs.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#dewee-dev/CodeAssist",
-  "sha256": "0bee2769108ff0a297b69d96ac6e07c7918c03db1933f523378571f4d2e54aac"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/dewee-dev--codeassist.json",
+  "sha256": "7b798ba4ad4a19828bb16abb09f49f5ed8d529dd8a115db1b385dc01d80a2188"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {
@@ -36,9 +43,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3a362172d8fb1e23eb819261e1b5d9143a162cba",
+  "commit": "63d5e236a196989cf7c919f25cbff208c9c645b3",
   "swh_estado": null,
-  "swhid": "swh:1:rev:3a362172d8fb1e23eb819261e1b5d9143a162cba"
+  "swhid": "swh:1:rev:63d5e236a196989cf7c919f25cbff208c9c645b3"
  },
  "repo": "dewee-dev/CodeAssist"
 }

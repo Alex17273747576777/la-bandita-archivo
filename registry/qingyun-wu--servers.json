@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/qingyun-wu--servers.json",
   "sha256": "a43ee40628bbc82a461f3884109c4e4dc801b8ed4f3e0b9d737dcbc5bad22177"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

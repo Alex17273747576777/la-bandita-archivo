@@ -8,9 +8,16 @@
  },
  "descripcion": "cross-plat manga app by Flutter",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#mattycm1193-sys/JHNT",
-  "sha256": "d1301b41df08edebe35d903ea1d3a3f0ea4a779af54a577c5f9d508fc51888c1"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mattycm1193-sys--jhnt.json",
+  "sha256": "85813622557eb669b7cffc15f60c139f809b4c2e54c87ff5ffb62352e78c44bc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

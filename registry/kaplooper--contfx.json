@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/kaplooper--contfx.json",
   "sha256": "466066e7ca1c2bba132ff9028f92903f7791c853e0e630892a1f1caa20e2e21f"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

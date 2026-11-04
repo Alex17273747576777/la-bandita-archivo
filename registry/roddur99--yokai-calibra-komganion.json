@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android + Gallery Features + Only Komga in",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#roddur99/yokai-calibra-komganion",
-  "sha256": "f766faf94bee3686ba692a000ba7b97409f6e8cdc6c9d5e89849548e70bffb11"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/roddur99--yokai-calibra-komganion.json",
+  "sha256": "2b37b6f19d9542ed52189cb10eff52cff9c16051736c28a7079620c3314df5cb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

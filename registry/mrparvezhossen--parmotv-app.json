@@ -8,9 +8,16 @@
  },
  "descripcion": "A modern manga + anime streaming mobile app built with React Native and Expo, co",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#MrParvezHossen/ParmoTv-app",
-  "sha256": "94b6bf41a8cbdf3c88a83f17ed09f54f1e46bed4214bc7f7951ee96b608d4787"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mrparvezhossen--parmotv-app.json",
+  "sha256": "977c7b0861f57bb2e052b716bbb8154663053a9234a60ec70b80826ba31e29e6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

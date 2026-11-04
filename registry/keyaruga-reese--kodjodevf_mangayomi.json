@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Keyaruga-Reese/kodjodevf_mangayomi",
-  "sha256": "c23de95c12a139782f274b5fcfa66ee8da2cd433570b7098259d491a4d38b8e0"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/keyaruga-reese--kodjodevf_mangayomi.json",
+  "sha256": "422f30e9e4929935d8b1a95f05c7a3fde8818dfc2e46ad648b2f71be32d6eb1a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

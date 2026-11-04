@@ -8,9 +8,16 @@
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#psyche314/InstallerX-Revived",
-  "sha256": "110637a7bf41056a77225adbe71503717556ebb68c9cb24e7aaf5b32414ac2ce"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/psyche314--installerx-revived.json",
+  "sha256": "1c6125961ae1712b0a5572a4ee9e737ec030812b1facf6c77b46e5cbf56aed8d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

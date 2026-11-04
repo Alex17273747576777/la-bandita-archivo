@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/fareedkhan-dev--kimi-k3-in-c.json",
   "sha256": "45dcbd8d93fcf284f8e5f04bf928fe07ca67959b634b4bf6acb2e53bb36468d9"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

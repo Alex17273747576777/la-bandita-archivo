@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-01-08T06:51:22Z",
+   "oid": "822f92b3b41d3665c7bdd343bc93a20396f07cf9"
+  }
+ },
+ "diskUsage": 601,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "bobdavis84/Orion-Store",
+ "pushedAt": "2026-02-18T06:28:01Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

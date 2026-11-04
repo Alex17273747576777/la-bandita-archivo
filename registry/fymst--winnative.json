@@ -8,9 +8,16 @@
  },
  "descripcion": "In Development",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Fymst/WinNative",
-  "sha256": "b49b2706060bb4fff4c21f6a0480c7a9407acdd4d0d95b57fd9c959a80974b2c"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/fymst--winnative.json",
+  "sha256": "b823ade08bb7fdce2881d1980b3162b0de06bd8d6cdc4eac60a989a86ca3a5ac"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

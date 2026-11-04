@@ -8,9 +8,16 @@
  },
  "descripcion": "An Open source app to download and read books from shadow library's (Anna’s Arch",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#kkkkkino123/OpenlibExtended",
-  "sha256": "dd6a09f51ef960141f8c37383d84fa1f92c9004ba312f7e19d78b2f01ae3e798"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kkkkkino123--openlibextended.json",
+  "sha256": "fa915714f6292951285f0ca1b0739eca557293566243737d17a9247432f05cdb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

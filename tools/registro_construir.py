@@ -184,8 +184,27 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--medido-en", default=MEDIDO_EN)
     ap.add_argument("--verificar", action="store_true", help="no escribe: comprueba que el registro está al día")
+    ap.add_argument("--indice", action="store_true",
+                    help="refresca solo registry/_indice.json desde el disco (no toca las fichas)")
     args = ap.parse_args()
     MEDIDO_EN = args.medido_en
+    if args.indice:
+        # El índice cuenta lo que HAY, no lo que se construyó: tras una re-medición las fichas
+        # cambian de fecha y el índice se quedaba diciendo la del censo. Reconstruir el registro
+        # entero desde el censo borraría la re-medición, así que este modo solo toca el índice.
+        fichas = [p for p in SALIDA.glob("*.json") if not p.name.startswith("_")]
+        fechas = sorted({json.loads(p.read_text(encoding="utf-8")).get("medido_en")
+                         for p in fichas if json.loads(p.read_text(encoding="utf-8")).get("medido_en")})
+        indice = {"medido_en": fechas[-1] if fechas else MEDIDO_EN,
+                  "medido_en_rango": [fechas[0], fechas[-1]] if fechas else [],
+                  "fichas": len(fichas),
+                  "esquema": "schemas/ficha.schema.json",
+                  "nota": "medido_en es la fecha más reciente del registro; medido_en_rango dice la más vieja y la más nueva. Un registro medido en un solo día tiene un solo valor."}
+        (SALIDA / "_indice.json").write_text(json.dumps(indice, ensure_ascii=False, indent=1) + "\n",
+                                              encoding="utf-8")
+        print(f"índice refrescado: {len(fichas)} fichas · medido_en {indice['medido_en']} · "
+              f"rango {indice['medido_en_rango']}")
+        return 0
     if args.verificar:
         actuales = len(list(SALIDA.glob("*.json"))) - 1
         print(f"registro en disco: {actuales} fichas · medido_en declarado: "

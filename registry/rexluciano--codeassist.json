@@ -8,9 +8,16 @@
  },
  "descripcion": "Experimental code editor based on javac APIs.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#rexluciano/CodeAssist",
-  "sha256": "09d4e27c755b32a06519495333db2c0810da929e89ec5d802a6c535982788b41"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/rexluciano--codeassist.json",
+  "sha256": "2f1601326a73fe34b085babcbfbb837650966b67754b2fd130c5ef1e5cd82dcd"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

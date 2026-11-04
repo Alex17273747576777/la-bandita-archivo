@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/grand151--codeassist.json",
   "sha256": "c221f9074722eb84ac6487ac51e5a8df763eef2564daddd6a90303c213ed021f"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

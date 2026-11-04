@@ -8,9 +8,16 @@
  },
  "descripcion": "Your Spotify + YouTube Music library & daily mixes, offline in lossless FLAC. Fr",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#vishnoe115/Stash",
-  "sha256": "87c703f3c2422b39e8e2cd567a2b4f516fd8ec335e6ca729a9058cb45e274175"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/vishnoe115--stash.json",
+  "sha256": "630a8c92bd2d657d5a855deca5d0145ce500df8a22a89c600fce301c60911985"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

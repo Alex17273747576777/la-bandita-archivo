@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/phantom-xotic--codeassist.json",
   "sha256": "f1fc57545f8b2c75cf1291552456c864305fb579c03e4fae5780e88311656661"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

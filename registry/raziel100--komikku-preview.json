@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#raziel100/komikku-preview",
-  "sha256": "abb8b923b8ebce3c2577c5e78e8290585909358e9c1cab38bfb7e9ddb777f02d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/raziel100--komikku-preview.json",
+  "sha256": "c25aa9894c91d9fe52c83de1c48a4c19516bc5ab95ccd091037661c6caef744d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

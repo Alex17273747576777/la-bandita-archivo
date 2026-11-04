@@ -12,6 +12,14 @@
   "payload_ref": "registry/_evidencia/wqry085--poc-deployer-system.json",
   "sha256": "293b6836c293a52e61d3715194954fae7f965f0f3f0beb419c9867668235cf9a"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-11-03",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

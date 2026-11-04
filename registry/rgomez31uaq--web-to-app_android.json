@@ -8,9 +8,16 @@
  },
  "descripcion": "Una aplicación nativa para Android que convierte cualquier URL de un sitio web e",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#rgomez31UAQ/Web-to-App_Android",
-  "sha256": "11ba475d995dab3080737cdf249039a1a783f8ca302859db5dd1742226db1e6e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/rgomez31uaq--web-to-app_android.json",
+  "sha256": "e5b4fad3cf1bdeead4fc4c9681130380aea0ed16eef57ba4dd6e0e41594d7672"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

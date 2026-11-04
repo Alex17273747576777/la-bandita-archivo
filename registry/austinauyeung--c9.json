@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/austinauyeung--c9.json",
   "sha256": "53917e108d21e8f3c99e9980ba6425682b9d0bb80f023376a6400210f95c496e"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

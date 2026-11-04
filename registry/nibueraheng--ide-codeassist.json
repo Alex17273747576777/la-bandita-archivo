@@ -8,9 +8,16 @@
  },
  "descripcion": "สร้างIDE for building Android applicatons on Android.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Nibueraheng/IDE-CodeAssist",
-  "sha256": "6a69b9c78cbdf1dd281a6f7c18eddb7395aa15d9e1fc74bc5442f8b20402423e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/nibueraheng--ide-codeassist.json",
+  "sha256": "169366acfb2227ccf393c912223172708b4e6a8c0351c75cdb3ef16f4ec5a8d4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

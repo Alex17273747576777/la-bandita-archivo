@@ -8,9 +8,16 @@
  },
  "descripcion": "Own your intelligence on the go. Chat, RAG, Agents, and more using small models",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#LeonardoGastiaburu/anythingllm-mobile",
-  "sha256": "608eb2f3631047076a094c6d62059306ebb5a7850361afa995ff1df7273429eb"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/leonardogastiaburu--anythingllm-mobile.json",
+  "sha256": "2304b3a7e473a317d3afd6086235910303b0426ceb0cf5f8f6b9218d9f2ea7db"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/tifoil--anthropic-mcp-servers.json",
   "sha256": "9c7b829d58bdb06f2480dbe4d6b0710c7dab26ad6d750ee2a0bdcb155b4553f5"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

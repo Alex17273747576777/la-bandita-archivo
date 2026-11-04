@@ -8,9 +8,16 @@
  },
  "descripcion": "A cross-platform app made for e-hentai & exhentai by Flutter",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Cqcsldl/JHenTai",
-  "sha256": "8d30e111902f9cb9beaf2b6dc9035e7c51158cdd65e1f3795b7ee48f031c3554"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/cqcsldl--jhentai.json",
+  "sha256": "721c5e9b1ec95d1df3c0c9162e70fdbe3335eaa1ba9c17a93915270e69b4950f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

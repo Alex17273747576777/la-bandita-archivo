@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-05-05T02:25:13Z",
+   "oid": "cb92c8c8c55eb6f57c5d96c5627511080d42da2d"
+  }
+ },
+ "diskUsage": 904350,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "farkerwork/WinNative",
+ "pushedAt": "2026-05-05T02:25:14Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

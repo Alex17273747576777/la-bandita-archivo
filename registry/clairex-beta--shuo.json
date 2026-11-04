@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source novel reader for Android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ClaireX-beta/shuo",
-  "sha256": "08baba655f6d746b8d3aacf8f2390a812d752fe09b2ef7a35e9f15deca8f54d7"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/clairex-beta--shuo.json",
+  "sha256": "b97c2491cb1a1f9ba56f540fa116635509f21a58b639bd004b119ac4b90f9d8a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -42,10 +42,13 @@ with tempfile.TemporaryDirectory(dir='/home/user') as td:  # /tmp se llena con c
     hab=destino/'HABILIDADES'
     if hab.exists(): shutil.rmtree(hab)
     shutil.copytree(PROY/'HABILIDADES',hab)
-    for taller in ['_herramientas','_herramientas-casa']:
+    for taller in ['02-ARCHIVO/_etapas-anteriores/_herramientas',
+                   '02-ARCHIVO/_etapas-anteriores/_herramientas-casa']:
         td2=destino/taller
         if td2.exists(): shutil.rmtree(td2)
-        if (PROY/taller).exists(): shutil.copytree(PROY/taller,td2)
+        if (PROY/taller).exists():
+            td2.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copytree(PROY/taller,td2)
     # ÁRBOL COMPLETO (cierre 29-oct-2026): el remoto queda byte a byte igual al
     # proyecto, no solo en las zonas de la lista. Exclusiones técnicas únicas:
     # __pycache__ (regenerable), git-backup-19oct-106 (contiene un .git anidado:

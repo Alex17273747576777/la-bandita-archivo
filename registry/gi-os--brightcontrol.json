@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/gi-os--brightcontrol.json",
   "sha256": "aa04b0e7d8e4bbab75bbfc7777cd4dfd7c635fba603a1aa6b7a0c1895d8a1666"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

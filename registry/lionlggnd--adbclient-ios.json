@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/lionlggnd--adbclient-ios.json",
   "sha256": "fc6208ce176d2a71d04727534511526251b2d5e82c173e779c6737b5f7fb2f21"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

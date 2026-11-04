@@ -8,9 +8,16 @@
  },
  "descripcion": "An IDE for building Android applicatons on Android.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#janu37937-arch/CodeAssist",
-  "sha256": "e4b2e42f9c4f889b85d38e2ee9b8ace73cca0c3cdb82b90498e03bdcbe23a0c8"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/janu37937-arch--codeassist.json",
+  "sha256": "67eb1def81f4b544db59d1a61f65c0ed5689d1bc22b57de5c33d408986f4854c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

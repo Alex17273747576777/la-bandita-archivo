@@ -12,6 +12,14 @@
   "payload_ref": "registry/_evidencia/xajyyds--installerx-revived.json",
   "sha256": "9d6e80c5b23c8b05c973f3781f81352be2b1a803db53286e2e3886cd0cef82b7"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-11-03",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

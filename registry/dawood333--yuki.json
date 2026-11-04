@@ -8,9 +8,16 @@
  },
  "descripcion": "Catalog of open-source Android applications that use the Shizuku permission fram",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#dawood333/yuki",
-  "sha256": "8c0e75d7f1bdfab1da1f57e4cb5f4455255c52ee3e1a1088dfbd9617b5b7a6ed"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/dawood333--yuki.json",
+  "sha256": "b64218506daa391eb3ac37238cb097ee1615907c6173e1d3e8b746563d2c95e0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

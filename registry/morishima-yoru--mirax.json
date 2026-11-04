@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/morishima-yoru--mirax.json",
   "sha256": "8935f7cb99a7c5f477a46851ce4c17554c7519d9dd3d1be6209213620855095e"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

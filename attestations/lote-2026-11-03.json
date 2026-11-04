@@ -1,9 +1,9 @@
 {
  "lote": "lote-2026-11-03",
- "sellado_en": "2026-11-03T23:52:53Z",
- "huella": "a0ff94fc6a906dbb112c03ffe083abda8323b8b45307ef3aa70d87a24f673264",
- "huella_lote_anterior": "c85218ec7fe99fcda017c14a51a55c4e766f73e23412f91170abd67fd6197eba",
- "archivos": 10196,
+ "sellado_en": "2026-11-04T00:32:49Z",
+ "huella": "992eef34232969c60d277f9af71cffd5ffee89061518c4b74932a804a4e6d653",
+ "huella_lote_anterior": "74c31d202ae48562196dee7e4c2dcdd0aa59b8a9227ece62ee48b34b740437b6",
+ "archivos": 14192,
  "manifiesto": "registry/_manifiesto-sha256.tsv",
  "nota": "prueba que los archivos no cambiaron después de sellarse; no prueba que la medición sea correcta"
 }

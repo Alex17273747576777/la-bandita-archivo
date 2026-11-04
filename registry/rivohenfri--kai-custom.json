@@ -8,9 +8,16 @@
  },
  "descripcion": "Android-only fork of Kai — an open-source AI assistant with persistent memory.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#RivoHenfri/Kai-custom",
-  "sha256": "0eca86cd1140dccda6a7a4147be195dd9f10e2f8ac6185f6274452b0d1993e6b"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/rivohenfri--kai-custom.json",
+  "sha256": "577b4e3c6fe3d916f78459fbb4755080b601e790dbf124b551c1763aa95b9ff8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

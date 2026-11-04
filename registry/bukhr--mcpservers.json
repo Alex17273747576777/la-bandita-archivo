@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/bukhr--mcpservers.json",
   "sha256": "45c1d7ae45c94dfd14452b0e374588b8e8d8c8b26f85415b1953fec5d627abe5"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

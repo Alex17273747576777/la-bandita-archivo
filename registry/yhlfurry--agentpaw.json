@@ -12,6 +12,14 @@
   "payload_ref": "registry/_evidencia/yhlfurry--agentpaw.json",
   "sha256": "206e9917a0c9e19630a43d058c2e2b16715e69352e2cad117f19ff85291259cb"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-11-03",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

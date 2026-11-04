@@ -8,9 +8,16 @@
  },
  "descripcion": "Zangetsu fork",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#BloodStalkPyooon/Mugetsu",
-  "sha256": "d6cb8b016f7604e6f00dde7eaa8cf2c4f6bc8d02e3dd564ba3df26e50a6f13d3"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/bloodstalkpyooon--mugetsu.json",
+  "sha256": "0198aa6489e449ba3d03f07cec7dee2402c2092bfb29088763a16780a24c2160"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/voodoohop--servers.json",
   "sha256": "c92d216a36fdcbace659fbb6c6dae1e0426cee17b78efcf414f29e477c47c2cc"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

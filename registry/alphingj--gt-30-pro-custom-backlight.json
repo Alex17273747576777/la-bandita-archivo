@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/alphingj--gt-30-pro-custom-backlight.json",
   "sha256": "a0a956baf70d6ed77f1990df722f4e4a0af700db259367a17c0e23bcb4baca5c"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

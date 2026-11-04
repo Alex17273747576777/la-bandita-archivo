@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/lucas-explica--mcp-servers.json",
   "sha256": "a56f9d516ee29f7abe9da23c794fafb45e6b0ef337baa73197a18bc2b6e919b3"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

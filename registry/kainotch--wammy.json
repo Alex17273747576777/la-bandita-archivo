@@ -8,9 +8,16 @@
  },
  "descripcion": "Free open source manga and novel reader for android",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#kainotch/Wammy",
-  "sha256": "03c91fbdd25d2eff0c0e6e7724c664b5ade478ef4269d8d986ddb22f41eafae4"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kainotch--wammy.json",
+  "sha256": "0bac30522cc7c30a1f524514e4af407f31d547e292f8ce52edcd44b2af0cdce2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

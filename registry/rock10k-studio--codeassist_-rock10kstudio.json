@@ -8,9 +8,16 @@
  },
  "descripcion": "Experimental IDE for building Android applicatons on Android.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Rock10k-Studio/CodeAssist_-Rock10kStudio",
-  "sha256": "b635f6c7c40d8d94b5f73d850b0ed8df85865d595d26ef5afdbc741ee76ffaf1"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/rock10k-studio--codeassist_-rock10kstudio.json",
+  "sha256": "e9e930e13766f0bc668910c6ffc45f30a758c116c45ee5e8ad4c6c943f8ba168"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

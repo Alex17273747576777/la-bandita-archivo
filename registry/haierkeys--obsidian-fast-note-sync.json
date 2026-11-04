@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/haierkeys--obsidian-fast-note-sync.json",
   "sha256": "a83f8df0cee610414f64d80a80f84024f977943caebd2fccb471c444bb63f5bb"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

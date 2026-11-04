@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2025-06-10T22:28:37Z",
+   "oid": "ff15d1e9cb112c0065ae2a8a4f12970799a6083a"
+  }
+ },
+ "diskUsage": 68283,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "violin-suzutsuki/yokai",
+ "pushedAt": "2025-06-10T22:28:41Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

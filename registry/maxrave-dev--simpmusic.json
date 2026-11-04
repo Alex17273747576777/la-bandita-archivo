@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/maxrave-dev--simpmusic.json",
   "sha256": "15519b61a38c928b1d12f5723583c7602d5134b6e3a65fec0d689699377bb4bf"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "A 1 click solution for reading Manga with OCR textboxs, seemless with Yomitan",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#shiki-tm/Mangatan",
-  "sha256": "57d8b35f1edbaf221d11133ab0571e8a813d98cd11a7e42e8b885f4faeaf9b25"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/shiki-tm--mangatan.json",
+  "sha256": "7412d45e8cc0b327244f6110174192a593a3db6f69c6429d3190396b3602e460"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

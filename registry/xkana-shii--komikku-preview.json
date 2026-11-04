@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/xkana-shii--komikku-preview.json",
   "sha256": "141f7de95dee4d13d7a78af3a76d1ec477e1f4f69217c84d533c3d41318aabec"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

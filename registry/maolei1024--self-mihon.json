@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/maolei1024--self-mihon.json",
   "sha256": "0f1a22adff32843a0466a03229527fd7b5b091a71486f2e210b4bdac81dc0ec1"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/ryoitabashi--shelly.json",
   "sha256": "6a3fb25821d64ead6e6b5845db0d9c963bee4eb3f264ae3f4f237df0d97f5a10"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

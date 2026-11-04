@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/orangezscb--airi.json",
   "sha256": "d50ed205894a5fbd085319731340fc2c49eb584b751f904e53e99239bee9255d"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

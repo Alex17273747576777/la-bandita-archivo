@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/dajeovv--opencode-android.json",
   "sha256": "7c03875220cd9914e293719483c311fc78cfcfacfa6af5e8964a4b2ecab4a5de"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

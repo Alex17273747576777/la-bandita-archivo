@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/wess09--azurpilot-for-android.json",
   "sha256": "e197797e66aa606017ec4af6d46eda61f709a0edb143dadb8430c5a1b4dc5980"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

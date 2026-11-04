@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for iOS",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#JeremieCz/MangaiOS",
-  "sha256": "6c7bfd5a9e4ed0e365e10aef73567366a31f07f5f97eaf8a9ee5f40d5324ba34"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/jeremiecz--mangaios.json",
+  "sha256": "355a543b1ad8dd0da42edd409b906b538c05fb04513eb669bb8a1cfa7c613844"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

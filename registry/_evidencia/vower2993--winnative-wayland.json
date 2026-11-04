@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-06-27T20:11:03Z",
+   "oid": "13414291e1ecbd1170e67657b64a66a23c2774e4"
+  }
+ },
+ "diskUsage": 1022155,
+ "forkCount": 1,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "Vower2993/WinNative-wayland",
+ "pushedAt": "2026-07-14T15:02:36Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

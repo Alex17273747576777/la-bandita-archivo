@@ -8,9 +8,16 @@
  },
  "descripcion": "An app for manga and anime",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#ladykakay/Tadami-Aniyomi-fork",
-  "sha256": "31e3ea683d408fae4c6d5854f3d3e3c0db817e392ef16bb382f6d5c28ce8344d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ladykakay--tadami-aniyomi-fork.json",
+  "sha256": "22124183fe1bad4945b82bbd519c5eba07a0cc8d3d1f47461953febb5aacb870"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

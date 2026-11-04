@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#matsukiender-star/mangayomi",
-  "sha256": "ec08edb96d812311d629c7bb673cf6311ee84f6982a4bb01d75940158eec35a0"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/matsukiender-star--mangayomi.json",
+  "sha256": "885cd4c0204d2b6bc7211cffb4dbb3ed0d1040ddad7da413b57a850699347062"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

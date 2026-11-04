@@ -8,9 +8,16 @@
  },
  "descripcion": "mpv player with streaming capabilities.",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#optimus-anu/mpvRx-Stream",
-  "sha256": "a9178fa9bce3e403c0185d29b052627df353b7b14e732ad3b456bfc195202d52"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/optimus-anu--mpvrx-stream.json",
+  "sha256": "ed015a70b02187198d74e322090f432e03b5149996af257c0c61fe1c775179f5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

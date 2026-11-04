@@ -8,9 +8,16 @@
  },
  "descripcion": "Real-time game translation app for Android for both language learners and casual",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#mikelscofild2-collab/playtranslate",
-  "sha256": "0b2f28e289e875734f47dcf07f34d7c4cb60d68e8f9d96b6b04324d8597dcd48"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mikelscofild2-collab--playtranslate.json",
+  "sha256": "dd7f9d050be7ebf081c9221b0e1610d5a29110a27f49e7378d9edc60cbfbc18d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

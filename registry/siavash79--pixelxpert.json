@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/siavash79--pixelxpert.json",
   "sha256": "4c783f6e87eedec2c02363fd59142a091d73385cef83a6f56eb56d5d6eb06d66"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

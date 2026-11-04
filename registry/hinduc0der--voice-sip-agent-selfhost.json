@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/hinduc0der--voice-sip-agent-selfhost.json",
   "sha256": "d4dce25cdb3b5e6b5aa3f8e34dd234ab5a2fd047724809f290638f773eabbe0d"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

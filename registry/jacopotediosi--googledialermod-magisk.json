@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/jacopotediosi--googledialermod-magisk.json",
   "sha256": "0e91f13b439b8994a8877322546d4b2926ec90deed28e72e6a0679184cdb5c9d"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

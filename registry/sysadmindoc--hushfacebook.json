@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/sysadmindoc--hushfacebook.json",
   "sha256": "516d9bd3252c5e45073d81c612401c5365955ad62649e628c6bacc1e2590a168"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

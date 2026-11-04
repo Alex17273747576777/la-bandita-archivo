@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/innerconcernsx--airi-ai-agent.json",
   "sha256": "20f4e6dee47badfb79465609dea8a5e1637265746452da5ff5a3b14b8f5282e8"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

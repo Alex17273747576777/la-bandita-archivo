@@ -8,9 +8,16 @@
  },
  "descripcion": "Free and open source manga reader for Android, AI code",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#lehvictor24/vikomikku",
-  "sha256": "e3d2dd8f6241f291109c237aa3946420f110c7fd34a7753f4bf91826fa37d12b"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lehvictor24--vikomikku.json",
+  "sha256": "fcab05782d0dfa3a33e330e2fabd461c31a4cebe07a9ea652c87f7b370ad14e2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

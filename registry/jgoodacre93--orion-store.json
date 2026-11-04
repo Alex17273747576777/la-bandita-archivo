@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/jgoodacre93--orion-store.json",
   "sha256": "049f4877da2172ed85715210420b133bd7aecf832cf06954e0b70f6de0f7dda5"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

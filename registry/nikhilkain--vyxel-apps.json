@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/nikhilkain--vyxel-apps.json",
   "sha256": "2e9d8b7cbcf3fd6127a31452c5e53cf295a3b7d1de4408d01f94962abe62d334"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

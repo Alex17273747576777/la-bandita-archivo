@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/paulsnuff--betternightlight.json",
   "sha256": "4d27c9bd1e1809343189e42e6639d53e2255664af93bca093cc7b0e957382654"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

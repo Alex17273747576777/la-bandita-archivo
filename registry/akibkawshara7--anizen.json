@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#akibkawshara7/AniZen",
-  "sha256": "96e29a3317c1c90997a277d05a50b32cef9814ef7aaf3a0ab8b95e355b9893dd"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/akibkawshara7--anizen.json",
+  "sha256": "0d99eca2bb8fca87a3f8c43c531bc139defd6315a9ed2cbaf9babdf368b52d5c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

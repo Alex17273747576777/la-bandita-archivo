@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/joarpu--fmhy.json",
   "sha256": "43da857210691c3492181e34d2d0411c2265e2762cc3cd24a61d33c8997e1146"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

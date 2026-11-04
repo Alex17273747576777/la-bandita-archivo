@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/yomihon--yomihon.json",
   "sha256": "338cc95dd2ea4f91caae1ab2830caa9f4e1b73b80334463f8d76a2d0091c40c0"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

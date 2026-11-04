@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/0xdracula--airi.json",
   "sha256": "e86f6607f5b509c4c4e72b696aa350e11370c76ab316ec6d1fd7cb1e5a4b3b18"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

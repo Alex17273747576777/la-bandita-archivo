@@ -8,9 +8,16 @@
  },
  "descripcion": "Modern cross-platform client for Booru & Creator archives (Pawchive, Gelbooru, e",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Ero-gamer/Prisma-Next",
-  "sha256": "0f340d23051bc5c205bac31b8f86b352f9aeb41931a7ccd989466695f9b71038"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ero-gamer--prisma-next.json",
+  "sha256": "c5e2140ce99799b94be9973fa3f4ea1b34daa7b4bf0240fcc0402ad05b976859"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

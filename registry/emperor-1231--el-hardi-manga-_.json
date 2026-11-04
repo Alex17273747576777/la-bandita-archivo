@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/emperor-1231--el-hardi-manga-_.json",
   "sha256": "892659296541892bc0a3f4a46e59eb14d812e95cfd296e358b7d42269b38e64e"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "/r/FREEMEDIAHECKYEAH",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#mr-sagar-bedi/FMHY",
-  "sha256": "25e863a55231cb2162f9c74dce916f8500a584b9f1dbdf038adc1d688a41d40a"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mr-sagar-bedi--fmhy.json",
+  "sha256": "8314d8a1fd0aa64a079fce94d5febd0cfbda17793e7309ca69424380e85e6437"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

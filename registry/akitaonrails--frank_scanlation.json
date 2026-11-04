@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/akitaonrails--frank_scanlation.json",
   "sha256": "965d559e9363563e1fc65f6a2806348ad1a5fc7feeb6dea788f3f97ac55b4276"
  },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -8,9 +8,16 @@
  },
  "descripcion": "Free open source manga and novel reader. (Android only)",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Arelse/Kaimono",
-  "sha256": "c16584222ce5a7c55053d12b1facad3d66c56610afc2e6a9b74411a242708330"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/arelse--kaimono.json",
+  "sha256": "9f0d837b84cf21b61c2d20dfaab5d793f7d7d81db0ec91831a61449f2489efa1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

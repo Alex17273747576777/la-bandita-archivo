@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/rookieenough--orion-store.json",
   "sha256": "11a8f764ad0d22b90ede1d35c771eac1958a7721adc81a1d07540fba8a624407"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

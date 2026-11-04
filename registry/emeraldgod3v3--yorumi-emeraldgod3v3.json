@@ -8,9 +8,16 @@
  },
  "descripcion": "an anime/manga streaming web app",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#emeraldgod3v3/Yorumi-Emeraldgod3v3",
-  "sha256": "99de8a2e8b109c596cad20d0cca687f8332d4eeccff58c076fa284210cc25922"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/emeraldgod3v3--yorumi-emeraldgod3v3.json",
+  "sha256": "322131c8df4dd7412a60b2bbe199acd1c8c2290b331d2f942f1e1f2d80ef0d54"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

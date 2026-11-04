@@ -8,9 +8,16 @@
  },
  "descripcion": "Get in shape and great health",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#BaihasDUS/Fit",
-  "sha256": "5cf66503120788bbd2152a7294fb60ab7cad0add71b5203930be92e6a84d349d"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/baihasdus--fit.json",
+  "sha256": "4f115ad79e15b3d961c6ad8afe484eb26d9c7ba25f9c5b19352794245bcd5f61"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

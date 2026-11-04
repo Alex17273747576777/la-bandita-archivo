@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/fossifyorg--gallery.json",
   "sha256": "bff272b7d1d47e2d16f72531f96dee89b895d5399888cd5817a86d90e44ee021"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

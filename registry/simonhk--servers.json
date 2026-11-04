@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/simonhk--servers.json",
   "sha256": "bacf18e7e7c87b45f62b27ccb27f61ebab17871878b7688b344da47626f15f2c"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

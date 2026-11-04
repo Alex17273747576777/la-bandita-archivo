@@ -8,9 +8,16 @@
  },
  "descripcion": "Universal search app for Android which can search apps, shortcuts, contacts, fil",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#bauti3311-sys/quick-search",
-  "sha256": "3fd5794ec783c6d71ea6a7dbb692ea765f96e0c589c36661ab19affc0e6bc2f6"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/bauti3311-sys--quick-search.json",
+  "sha256": "ff3753328cfe4a4abfcfa18a7852222334705ffd0491dcf5f6107a979268187b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/najah69--camaps-guardian.json",
   "sha256": "6530e12fad4781ef5b5d0978b64963ffb6e41c66f387f81bdbb2a6bb846bc6a6"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

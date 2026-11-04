@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/rohith-e-s--hypergesture.json",
   "sha256": "7df4ee51407a1822a36232e07f514d1b32d8226210baabaec8dff65ce3c22d7e"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

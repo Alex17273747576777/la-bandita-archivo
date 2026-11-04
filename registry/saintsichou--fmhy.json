@@ -8,9 +8,16 @@
  },
  "descripcion": "网站合集",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#saintsichou/FMHY",
-  "sha256": "f11ba4d88952fdf51dcc466cabe8ed3e1cf06986d7ad50f1ef65b31f9e70f8b1"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/saintsichou--fmhy.json",
+  "sha256": "e9b4843f1fe4ca68513a15a128e0b8dfd61aa83a417c1c4f4e64196e186032fd"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

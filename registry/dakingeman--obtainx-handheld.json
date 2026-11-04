@@ -8,9 +8,16 @@
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#dakingeman/obtainx-handheld",
-  "sha256": "898b82037c90f17a4f1eb0007828eb75facb1e4f27c8087c6d2bc9ec1fa1b87e"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/dakingeman--obtainx-handheld.json",
+  "sha256": "79609654e2cea331c807eeb713fe3086301f7e080412f592ebd75233f3b24cee"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

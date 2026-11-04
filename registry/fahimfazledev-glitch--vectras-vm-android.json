@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/fahimfazledev-glitch--vectras-vm-android.json",
   "sha256": "11373df401be94f1b430c11e3f72af316616550d40a4f08ef8e48d4e07ff5901"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

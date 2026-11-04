@@ -8,9 +8,16 @@
  },
  "descripcion": "Universal search app for Android which can search apps, shortcuts, contacts, fil",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#kerollosmakary-ai/quick-search",
-  "sha256": "1a7a2413a835b74280921578de19309318ef158961809531ea5d67129e1f181a"
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kerollosmakary-ai--quick-search.json",
+  "sha256": "29d2ff48eaf9ee940f2b572a2fe6139ceec8235a04f0d9673d7b43a8996a1756"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
  },
  "frescura_dias": 0,
  "fuente": {

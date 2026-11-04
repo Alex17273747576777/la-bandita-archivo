@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/hellzyeahh--earshot.json",
   "sha256": "0de46154444d5dbc9718c4c951bfc11e0a8113427e13d7596b0deaafda69f9a3"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

@@ -12,6 +12,13 @@
   "payload_ref": "registry/_evidencia/iacobionut01--refra.json",
   "sha256": "c81cae79007a94cf4724a11181c8f1e57755b53f9289827defcd9925147135be"
  },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
  "frescura_dias": 0,
  "fuente": {
   "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",

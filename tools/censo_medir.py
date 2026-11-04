@@ -15,18 +15,28 @@ Qué escribe, por ficha: `medido_en` (hoy), `merito.stars`, `actividad.ultimo_pu
 `procedencia.swhid` (el SWHID de una revisión git es `swh:1:rev:<sha1 del commit>`, que es
 intrínseco: no hay que preguntárselo a nadie para calcularlo).
 
+Qué guarda como prueba, y por qué: cada ficha medida deja su payload crudo en
+`registry/_evidencia/<id>.json` con la fecha de la medición **dentro** del propio archivo
+(`_medido_en`) y el SHA-256 de esos bytes en la ficha. Sin eso, una ficha puede declarar una
+fecha que nada respalda —que es exactamente lo que pasó con 4.186 fichas del censo del 15-oct,
+fechadas el 3-nov sin haber vuelto a mirar la API—.
+
 Uso:
   LBT=<token> python3 tools/censo_medir.py --lote 50            # todas las fichas
   LBT=<token> python3 tools/censo_medir.py --lote 50 --limite 500   # prueba
+  LBT=<token> python3 tools/censo_medir.py --vencidas          # solo las que hay que remedir
+  LBT=<token> python3 tools/censo_medir.py --solo ids.txt      # una lista explícita
   python3 tools/censo_medir.py --estado                         # qué hay hecho
 """
 from __future__ import annotations
 
 import argparse
 import glob
+import hashlib
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import urllib.error
@@ -35,8 +45,12 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from fecha_casa import hoy as fecha_casa_hoy  # noqa: E402
+
 RAIZ = Path(__file__).resolve().parents[1]
 REGISTRO = RAIZ / "registry"
+EVIDENCIA = REGISTRO / "_evidencia"
 API = "https://api.github.com/graphql"
 ESTADO = RAIZ / "docs" / "_remedicion.json"
 UMBRAL_DORMIDO = 180
@@ -100,6 +114,26 @@ def pedir(tok: str, repos: list[str]) -> dict:
     return salida
 
 
+def guardar_evidencia(ficha: dict, v: dict, hoy: str) -> None:
+    """Guarda la respuesta cruda con su fecha dentro y sella sus bytes en la ficha.
+
+    La fecha del payload es la que manda: si el archivo dice `_medido_en: 2026-11-03`, la
+    ficha puede declarar ese día sin pedir permiso a la memoria de nadie.
+    """
+    EVIDENCIA.mkdir(exist_ok=True)
+    ruta = EVIDENCIA / f"{ficha['id']}.json"
+    cuerpo = dict(v)
+    cuerpo["_medido_en"] = hoy
+    cuerpo["_fuente"] = "github-graphql"
+    texto = json.dumps(cuerpo, ensure_ascii=False, indent=1, sort_keys=True) + "\n"
+    ruta.write_text(texto, encoding="utf-8")
+    ficha["evidencia"] = {
+        "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+        "payload_ref": f"registry/_evidencia/{ficha['id']}.json",
+        "sha256": hashlib.sha256(texto.encode("utf-8")).hexdigest(),
+    }
+
+
 def estado_de(push: str, corte: date) -> str:
     if not push or not re.match(r"^\d{4}-\d{2}-\d{2}", push):
         return "indeterminado"
@@ -119,6 +153,9 @@ def marcar_inexistente(ficha: dict, hoy: str) -> bool:
     act["semantica_http"] = 404
     mer = ficha.setdefault("merito", {})
     mer["stars"] = None
+    ficha["frescura"] = {"estado": "vencida", "dias": 0, "evidencia_en": hoy,
+                         "proxima_remedicion": None, "ventana_dias": None,
+                         "motivo": "el repositorio no existe: la API devolvió 404"}
     despues = json.dumps({k: ficha.get(k) for k in ("medido_en", "actividad", "merito")},
                          sort_keys=True, ensure_ascii=False)
     return antes != despues
@@ -126,10 +163,15 @@ def marcar_inexistente(ficha: dict, hoy: str) -> bool:
 
 def aplicar(ficha: dict, v: dict, hoy: str) -> bool:
     corte = date.fromisoformat(hoy)
-    antes = json.dumps({k: ficha.get(k) for k in ("medido_en", "actividad", "merito", "procedencia")},
+    antes = json.dumps({k: ficha.get(k) for k in ("medido_en", "actividad", "merito", "procedencia",
+                                                  "evidencia", "frescura")},
                        sort_keys=True, ensure_ascii=False)
+    guardar_evidencia(ficha, v, hoy)
     ficha["medido_en"] = hoy
     ficha["frescura_dias"] = 0
+    # Una ficha remedida deja de estar vencida: el bloque lo vuelve a escribir
+    # `tools/vencimiento.py --aplicar`, que es el único que decide el estado.
+    ficha.pop("frescura", None)
     mer = ficha.setdefault("merito", {})
     mer["stars"] = v.get("stargazerCount")
     act = ficha.setdefault("actividad", {})
@@ -151,7 +193,8 @@ def aplicar(ficha: dict, v: dict, hoy: str) -> bool:
         proc["commit"] = commit
         proc["swhid"] = f"swh:1:rev:{commit}"
         proc.setdefault("swh_estado", None)
-    despues = json.dumps({k: ficha.get(k) for k in ("medido_en", "actividad", "merito", "procedencia")},
+    despues = json.dumps({k: ficha.get(k) for k in ("medido_en", "actividad", "merito", "procedencia",
+                                                   "evidencia", "frescura")},
                          sort_keys=True, ensure_ascii=False)
     return antes != despues
 
@@ -162,22 +205,40 @@ def main() -> int:
     ap.add_argument("--limite", type=int, default=0)
     ap.add_argument("--estado", action="store_true")
     ap.add_argument("--seco", action="store_true")
+    ap.add_argument("--vencidas", action="store_true",
+                    help="solo las fichas sin respaldo o vencidas, según tools/vencimiento.py")
+    ap.add_argument("--solo", metavar="ARCHIVO", help="un archivo con ids, uno por línea")
     a = ap.parse_args()
     fs = fichas()
     if a.estado:
-        hechas = sum(1 for p in fs if json.loads(p.read_text(encoding="utf-8")).get("medido_en") == date.today().isoformat())
-        print(f"fichas: {len(fs)} · medidas hoy ({date.today().isoformat()}): {hechas}")
+        hechas = sum(1 for p in fs if json.loads(p.read_text(encoding="utf-8")).get("medido_en") == fecha_casa_hoy())
+        print(f"fichas: {len(fs)} · medidas hoy ({fecha_casa_hoy()}): {hechas}")
         return 0
     tok = os.environ.get("LBT") or ""
     if not tok:
         print("falta LBT")
         return 1
-    hoy = date.today().isoformat()
+    # La fecha es la de la casa (Santo Domingo), no la del servidor: el entorno corre en UTC
+    # y a las 20:30 del 3 de noviembre ya dice 4. Fechar con UTC puso un día de más una vez.
+    hoy = fecha_casa_hoy()
+    solo: set[str] | None = None
+    if a.solo:
+        solo = {l.strip() for l in Path(a.solo).read_text(encoding="utf-8").splitlines() if l.strip()}
+        print(f"lista explícita: {len(solo)} ids")
+    if a.vencidas:
+        solo = set()
+        for estado in ("sin_respaldo", "vencida"):
+            salida = subprocess.run([sys.executable, str(Path(__file__).with_name("vencimiento.py")),
+                                     "--lista", estado], capture_output=True, text=True)
+            solo.update(l.strip() for l in salida.stdout.splitlines() if l.strip())
+        print(f"a remedir por vencimiento: {len(solo)} fichas")
     pendientes = []
     for p in fs:
         d = json.loads(p.read_text(encoding="utf-8"))
         # ya medida hoy: no se vuelve a pedir (el 404 también es una medida del día)
-        if d.get("medido_en") == hoy:
+        if solo is not None and d.get("id") not in solo:
+            continue
+        if solo is None and d.get("medido_en") == hoy:
             continue
         repo = d.get("repo") or d.get("id", "").replace("--", "/", 1)
         if repo:
