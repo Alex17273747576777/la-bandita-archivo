@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/01-El-turno-de-los-que-nacieron-este-trimestre-doce-apps-de-octubre-que-casi-nadie-conoce-y-dos-que-no-aguantan-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`
 - **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 1 días)
-- **sha256 de la pieza:** `725e407b101ea275c787837f422c083a6a203ba90e721d4ee785ddcf753db5e0`
+- **sha256 de la pieza:** `8317146f6c2f89c8ffbf3303c67e84caeb38c70c0bcb7df8c4c8cd05e0563343`
 - **Envío generado:** 2026-11-04 · 20 mensajes · el mayor de 3537 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -369,7 +369,7 @@ Los dos que se quedaron fuera enseñan la otra mitad. Que un programa esté bien
 
 ⏬ sigue abajo · parte 16 de 19
 
-═══ MENSAJE 18 de 20 · 2527 caracteres ═══
+═══ MENSAJE 18 de 20 · 2530 caracteres ═══
 
 ## 🗒️ Notas al pie
 
@@ -388,6 +388,8 @@ Los dos que se quedaron fuera enseñan la otra mitad. Que un programa esté bien
 #task 001 · volver a correr el selector el 3 de diciembre de 2026 sobre los doce y publicar cuántos siguieron publicando entrega, con la cifra de los que se quedaron dormidos.
 #task 002 · abrir en los dos rechazados —WPAForge y O3 Root— una nota pública que explique el criterio de exclusión sin acusar a sus autores, y anotar su respuesta en el acta del 3 de diciembre.
 #task 003 · traducir la ficha de MineApp y la de ghost-files al español y ofrecer la traducción a sus autores, porque la barrera del idioma es la razón por la que la mitad de lo nuevo no llega a este público.
+
+*
 
 ⏬ sigue abajo · parte 17 de 19
 
@@ -422,6 +424,10 @@ Ninguno roto.
 
 ⏬ sigue abajo · parte 18 de 19
 
-═══ MENSAJE 20 de 20 · 152 caracteres ═══
+═══ MENSAJE 20 de 20 · 298 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.
+
+*🏷️ Etiquetas estratégicas*
+
+#Hush #MineApp #ShizukuSam #Earshot #SandFly #Latch #8bercue #OmniShizuku #Droynis #RedirectGuard #WPAForge #O3Root

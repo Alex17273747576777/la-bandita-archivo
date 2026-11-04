@@ -320,3 +320,9 @@ Los dos que se quedaron fuera enseñan la otra mitad. Que un programa esté bien
 #task 001 · volver a correr el selector el 3 de diciembre de 2026 sobre los doce y publicar cuántos siguieron publicando entrega, con la cifra de los que se quedaron dormidos.
 #task 002 · abrir en los dos rechazados —WPAForge y O3 Root— una nota pública que explique el criterio de exclusión sin acusar a sus autores, y anotar su respuesta en el acta del 3 de diciembre.
 #task 003 · traducir la ficha de MineApp y la de ghost-files al español y ofrecer la traducción a sus autores, porque la barrera del idioma es la razón por la que la mitad de lo nuevo no llega a este público.
+
+───────────────────
+
+*🏷️ Etiquetas estratégicas*
+
+#Hush #MineApp #ShizukuSam #Earshot #SandFly #Latch #8bercue #OmniShizuku #Droynis #RedirectGuard #WPAForge #O3Root

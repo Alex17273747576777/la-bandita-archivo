@@ -325,3 +325,9 @@ Lo que hay que llevarse cabe en cuatro frases. La primera: el catálogo se cae, 
 #task 001 · volver a medir el 3 de diciembre de 2026 los ocho programas de octubre y publicar cuántos siguieron publicando entrega y cuántos se durmieron, con la fecha de su último empujón.
 #task 002 · abrir en el repositorio de namida una petición cortés para que declare licencia, explicando que su ausencia es lo único que impide que la comunidad continúe el proyecto si su autor se cansa, y anotar la respuesta en el acta del 3 de diciembre.
 #task 003 · escribir a los autores de SplitAudio y de Audio Policy Override para ofrecerles la traducción de su presentación al español, porque su documentación en un solo idioma es la única barrera entre esos programas y este público.
+
+───────────────────
+
+*🏷️ Etiquetas estratégicas*
+
+#SaltPlayer #Namida #ArchiveTune #SimpMusic #Metrolist #AntennaPod #SplitAudio #DualAudio #BudsFirst #AudioScope #RootlessJamesDSP #Shizuku

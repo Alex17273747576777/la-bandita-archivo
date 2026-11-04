@@ -149,9 +149,9 @@ La nota que decide el orden de esta guía no es una opinión: es una suma con pe
 | seguridad | 5 | un canal para reportar un fallo |
 | mérito | 20 | Scorecard de OpenSSF cuando existe, que hoy no existe para casi nadie |
 
-Los castigos: **−30** si el repositorio está archivado; **−10** si ninguna entrega trae adjuntos con huella; **−15** por atención anómala —menos de catorce días y más de cinco mil estrellas sin equipo detrás—; **−5** si una sola persona lleva más de cincuenta entregas.
+Castigos: **−30** si el repositorio está archivado; **−10** sin adjuntos con huella; **−15** por atención anómala —menos de catorce días y más de cinco mil estrellas sin equipo—; **−5** si una persona lleva más de cincuenta entregas.
 
-Lo que la tabla deja ver, aplicada a los veintiséis de hoy, es incómodo y útil a la vez. El **mérito** no sumó un solo punto para nadie: el Scorecard de OpenSSF no tiene indexado a ninguno de los veintiséis, así que veinte puntos quedaron sin usar en todos. La señal que más separó a los buenos de los demás fue **la huella**: cinco programas la traen y cuatro de ellos están entre los nueve primeros. Y la que más castigó fue la **cola**: Hail tiene ciento setenta y una incidencias abiertas frente a ciento cuarenta y siete cerradas, y su última entrega tiene setenta días; sacó cuarenta y siete puntos, la mitad de un fork de dos meses.
+Aplicada a los veintiséis de hoy, la tabla deja ver algo incómodo. El **mérito** no sumó un punto para nadie: el Scorecard de OpenSSF no tiene indexado a ninguno, así que veinte puntos quedaron sin usar en todos. La señal que más separó a los buenos de los demás fue **la huella**: cinco programas la traen y cuatro de ellos están entre los nueve primeros. Y la que más castigó fue la **cola**: Hail tiene ciento setenta y una incidencias abiertas frente a ciento cuarenta y siete cerradas, y su última entrega tiene setenta días; sacó cuarenta y siete puntos, la mitad de un fork de dos meses.
 
 Hay una lectura fácil de esta nota y una difícil. La fácil es que el número lo ordena todo y basta con mirar la columna. La difícil es que el número mide **salud del repositorio**, no bondad del programa: un proyecto puede ser excelente, pequeño y honesto, y sacar cincuenta porque nadie le reporta fallos. Por eso cada ficha de esta guía lleva además la columna de **para quién es**, que es la que ningún número puede calcular.
 
@@ -240,7 +240,7 @@ Porque la nota mide salud del repositorio y no fama. El tronco tiene nueve años
 Es un archivo de texto que publica el autor junto a la descarga, con una cadena de sesenta y cuatro caracteres que se calcula a partir del archivo. Si la que sale en tu teléfono coincide, el archivo que tienes es el que él publicó; si no, alguien lo cambió por el camino. Cinco de los veintiséis la publican, y por eso aparecen arriba aunque tengan pocas estrellas.
 
 **¿Es peligroso darle este permiso a un programa?**
-Es el permiso más alto al que se llega sin root, y sí: quien lo tenga puede tocar cosas que se notan. La prudencia práctica es concreta: se lo das a uno solo, de un autor que publica con fecha, y antes de dárselo corres las tres órdenes de esta guía para saber cómo estaba el teléfono. Y si un día deja de publicar, lo retiras con el mismo cable con que lo concediste.
+Es el permiso más alto al que se llega sin root: quien lo tenga puede tocar cosas que se notan. La prudencia es concreta: se lo das a uno solo, de un autor que publica con fecha, y antes corres las tres órdenes para saber cómo estaba el teléfono. Si un día deja de publicar, lo retiras con el mismo cable.
 
 **¿Puedo tener dos a la vez?**
 Puedes, y no conviene. Dos programas administrando el mismo permiso se pisan: uno congela lo que el otro quiere activo y las políticas se contradicen. Elige uno, y si pruebas un segundo, hazlo en un teléfono de repuesto.
@@ -336,3 +336,9 @@ Lo demás lo dice la columna de fechas: once de veintiséis publicaron hoy o aye
 #task 001 · volver a medir el 3 de diciembre de 2026 los veintiséis programas y publicar cuántos siguieron publicando entrega, con la fecha exacta de cada una y el hueco entre empujón y entrega.
 #task 002 · correr las tres órdenes de comprobación en el teléfono de repuesto y guardar las tres fotografías del inventario con su huella, para tener la primera comparación mensual con fecha.
 #task 003 · escribir una nota cortés a los autores de porter y de droynis agradeciendo que publiquen la huella de sus adjuntos, y preguntar a droynis si su lista de comprobaciones puede crecer sin pedir el permiso de internet; anotar la respuesta en el acta del 3 de diciembre.
+
+───────────────────
+
+*🏷️ Etiquetas estratégicas*
+
+#Shizuku #ShizukuNext #Porter #Droynis #OmniShizuku #GhostMode #Aura #Canta #Dhizuku #Shevery #Nightzuku #ShizukuPlus

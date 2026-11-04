@@ -310,3 +310,9 @@ El programa más querido del tema está archivado desde hace mil seiscientos tre
 #task 001 · volver a medir el 3 de diciembre de 2026 los doce programas y publicar cuáles siguieron publicando entrega, con la fecha exacta de cada una.
 #task 002 · escribir al autor de Keyguard una nota cortés con una sola pregunta: si su licencia «All Rights Reserved» es una decisión definitiva o si consideraría una licencia libre para que su programa pueda continuarse, y anotar la respuesta en el acta del 3 de diciembre.
 #task 003 · ofrecer a los autores de Monica y de Lucent la revisión de su presentación en español y la traducción de esta ficha, porque son los dos programas nuevos del tema y su documentación en varios idiomas ya es mejor que la media del ecosistema.
+
+───────────────────
+
+*🏷️ Etiquetas estratégicas*
+
+#Monica #Keyguard #AegisAuthenticator #Stratum #KeePassDX #KeePass2Android #Bitwarden #FreeOTP #andOTP #Authorizer #OpenKeychain #AuthPass

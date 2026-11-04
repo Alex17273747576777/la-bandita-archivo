@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/06-El-taller-un-gestor-de-parches-con-mil-cuatrocientas-siete-estrellas-sesenta-y-cinco-entregas-y-un-modulo-que-perdio-su-casa-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`
 - **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 1 días)
-- **sha256 de la pieza:** `965e9256420c9716730b6965aa5fee3a52af0972c667c799f4a8f3c3ec6a0b7c`
+- **sha256 de la pieza:** `bb215c2392ad6c04a264dec587eec2b111191ea4781a274946a4a5181631dda2`
 - **Envío generado:** 2026-11-04 · 20 mensajes · el mayor de 3507 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -387,7 +387,7 @@ Lo que le falta está escrito arriba sin adornos: avisos en el momento justo, un
 
 ⏬ sigue abajo · parte 16 de 19
 
-═══ MENSAJE 18 de 20 · 2537 caracteres ═══
+═══ MENSAJE 18 de 20 · 2540 caracteres ═══
 
 ## 🗒️ Notas al pie
 
@@ -406,6 +406,8 @@ Lo que le falta está escrito arriba sin adornos: avisos en el momento justo, un
 #task 001 · pedir al autor del programa, en su repositorio, que el flujo de publicación escriba un archivo de sumas SHA-256 al lado de cada entrega, y anotar la respuesta en el acta del 4 de diciembre de 2026.
 #task 002 · remedir el 3 de diciembre de 2026 las tres entregas del linaje —el gestor original, el de Morphe y este— y publicar cuál de los tres publicó más seguido en el mes, con la fecha del empujón de cada uno.
 #task 003 · escribir la versión de WhatsApp de esta pieza, más corta, con los cinco pasos reducidos a tres y el episodio del 451 contado en dos párrafos, y comprobar que su banda de longitud se cumple antes de enviarla.
+
+*
 
 ⏬ sigue abajo · parte 17 de 19
 
@@ -434,6 +436,10 @@ De los 22 enlaces de esta pieza, *21 responden*.
 
 ⏬ sigue abajo · parte 18 de 19
 
-═══ MENSAJE 20 de 20 · 152 caracteres ═══
+═══ MENSAJE 20 de 20 · 328 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.
+
+*🏷️ Etiquetas estratégicas*
+
+#UniversalPatchManager #PatchBundleRegistry #MorpheManager #MorphePatches #UniversalInstaller #ReVanced #ReVancedManager #Shizuku #Morphe #Bundle

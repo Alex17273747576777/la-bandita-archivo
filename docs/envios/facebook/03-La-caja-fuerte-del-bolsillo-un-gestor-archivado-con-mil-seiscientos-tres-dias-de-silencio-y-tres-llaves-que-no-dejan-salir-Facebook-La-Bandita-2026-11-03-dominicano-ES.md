@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/03-La-caja-fuerte-del-bolsillo-un-gestor-archivado-con-mil-seiscientos-tres-dias-de-silencio-y-tres-llaves-que-no-dejan-salir-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`
 - **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 1 días)
-- **sha256 de la pieza:** `9779d30994a534c4243f6b49ccbb85f9d8056fce0e40f876908b52e96c51f959`
+- **sha256 de la pieza:** `13ccccc422a03b789b6af7a069471805c1c769706821a6f571f0430ad5d95be0`
 - **Envío generado:** 2026-11-04 · 17 mensajes · el mayor de 3673 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -353,7 +353,7 @@ El programa más querido del tema está archivado desde hace mil seiscientos tre
 
 ⏬ sigue abajo · parte 13 de 16
 
-═══ MENSAJE 15 de 17 · 2517 caracteres ═══
+═══ MENSAJE 15 de 17 · 2520 caracteres ═══
 
 ## 🗒️ Notas al pie
 
@@ -372,6 +372,8 @@ El programa más querido del tema está archivado desde hace mil seiscientos tre
 #task 001 · volver a medir el 3 de diciembre de 2026 los doce programas y publicar cuáles siguieron publicando entrega, con la fecha exacta de cada una.
 #task 002 · escribir al autor de Keyguard una nota cortés con una sola pregunta: si su licencia «All Rights Reserved» es una decisión definitiva o si consideraría una licencia libre para que su programa pueda continuarse, y anotar la respuesta en el acta del 3 de diciembre.
 #task 003 · ofrecer a los autores de Monica y de Lucent la revisión de su presentación en español y la traducción de esta ficha, porque son los dos programas nuevos del tema y su documentación en varios idiomas ya es mejor que la media del ecosistema.
+
+*
 
 ⏬ sigue abajo · parte 14 de 16
 
@@ -402,6 +404,10 @@ Ninguno roto.
 
 ⏬ sigue abajo · parte 15 de 16
 
-═══ MENSAJE 17 de 17 · 152 caracteres ═══
+═══ MENSAJE 17 de 17 · 321 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.
+
+*🏷️ Etiquetas estratégicas*
+
+#Monica #Keyguard #AegisAuthenticator #Stratum #KeePassDX #KeePass2Android #Bitwarden #FreeOTP #andOTP #Authorizer #OpenKeychain #AuthPass

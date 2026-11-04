@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 59 documentos en `docs/`, agrupados en 19 familias, y 34 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 61 documentos en `docs/`, agrupados en 19 familias, y 34 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -16,6 +16,7 @@
 |---|---|---|---|
 | [`ACTA-DUPLICADOS-Y-RECURSOS-2026-11-01.md`](ACTA-DUPLICADOS-Y-RECURSOS-2026-11-01.md) | Acta — duplicados retirados y recursos nuevos | Regla aplicada: **la serie nueva (2026-10-31 en adelante) es la canónica** para cada número. | 45 |
 | [`ACTA-ESCRUTINIO-2026-11-03.md`](ACTA-ESCRUTINIO-2026-11-03.md) | Acta del escrutinio · 3 de noviembre de 2026 | La primera corrida pedía las entregas dentro de una consulta agrupada de veinte repositorios por llamada. | 43 |
+| [`ACTA-ETIQUETAS-2026-11-04.md`](ACTA-ETIQUETAS-2026-11-04.md) | Acta de etiquetas estratégicas · 4 de noviembre de 2026 | Regla 7 aplicada: 01 y 04 comparten dos (#OmniShizuku, #Droynis), que es el máximo permitido y está justificado porque la 04 vuelve a medirlos. 02 y… | 49 |
 | [`ACTA-INTEGRACION-LOCAL-2026-11-02.md`](ACTA-INTEGRACION-LOCAL-2026-11-02.md) | Acta de integración de documentos locales · 2 de noviembre de 2026 | El contenido **no se editó**: entran byte por byte como se escribieron. | 53 |
 | [`ACTA-LIMPIEZA-2026-11-02.md`](ACTA-LIMPIEZA-2026-11-02.md) | Acta de limpieza · 2 de noviembre de 2026 | Si hace falta otra vez el paquete de septiembre, se **regenera** desde el árbol en lugar de recuperar el ZIP: es más honesto y no arrastra el riesgo… | 81 |
 | [`ACTA-MCP-2026-11-03.md`](ACTA-MCP-2026-11-03.md) | Acta de conexión MCP · 3 de noviembre de 2026 (actualizada) | Sin llave, el estado es `401` y así queda escrito. | 35 |
@@ -95,12 +96,12 @@
 | [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 54 |
 | [`VENCIMIENTOS.md`](VENCIMIENTOS.md) | VENCIMIENTOS DEL REGISTRO | Las **0** fichas sin respaldo no están desactualizadas: están mal fechadas. | 63 |
 | [`COMO-SE-MANDA.md`](envios/COMO-SE-MANDA.md) | CÓMO SE MANDA · reglas y mapa de los envíos | Esto no es un catálogo de archivos: es la decisión de cómo sale el archivo a la calle. | 103 |
-| [`01-El-turno-de-los-que-nacieron-este-trimestre-doce-apps-de-octubre-que-casi-nadie-conoce-y-dos-que-no-aguantan-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/01-El-turno-de-los-que-nacieron-este-trimestre-doce-apps-de-octubre-que-casi-nadie-conoce-y-dos-que-no-aguantan-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 01 · envío para Facebook | La Bandita · pieza 01 · guía del 3-nov-2026 · te la mando hoy en 20 mensajes. | 428 |
-| [`02-La-musica-que-no-se-cae-los-ocho-programas-de-octubre-que-arreglan-el-sonido-y-los-cinco-que-guardan-tu-carpeta-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/02-La-musica-que-no-se-cae-los-ocho-programas-de-octubre-que-arreglan-el-sonido-y-los-cinco-que-guardan-tu-carpeta-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 02 · envío para Facebook | La Bandita · pieza 02 · guía del 3-nov-2026 · te la mando hoy en 19 mensajes. | 432 |
-| [`03-La-caja-fuerte-del-bolsillo-un-gestor-archivado-con-mil-seiscientos-tres-dias-de-silencio-y-tres-llaves-que-no-dejan-salir-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/03-La-caja-fuerte-del-bolsillo-un-gestor-archivado-con-mil-seiscientos-tres-dias-de-silencio-y-tres-llaves-que-no-dejan-salir-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 03 · envío para Facebook | La Bandita · pieza 03 · guía del 3-nov-2026 · te la mando hoy en 17 mensajes. | 408 |
-| [`04-La-lista-del-permiso-veintiseis-medidos-hoy-trece-nacidos-en-el-trimestre-y-el-tronco-que-lleva-quinientos-cuatro-dias-sin-empujar-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`](envios/facebook/04-La-lista-del-permiso-veintiseis-medidos-hoy-trece-nacidos-en-el-trimestre-y-el-tronco-que-lleva-quinientos-cuatro-dias-sin-empujar-Facebook-La-Bandita-2026-11-04-dominicano-ES.md) | PIEZA 04 · envío para Facebook | La Bandita · pieza 04 · guía del 4-nov-2026 · te la mando hoy en 19 mensajes. | 446 |
-| [`05-La-guia-maestra-doce-capitulos-setenta-fichas-y-el-metodo-para-no-tener-que-creerme-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/05-La-guia-maestra-doce-capitulos-setenta-fichas-y-el-metodo-para-no-tener-que-creerme-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 05 · envío para Facebook | La Bandita · pieza 05 · guía del 3-nov-2026 · te la mando hoy en 19 mensajes. | 533 |
-| [`06-El-taller-un-gestor-de-parches-con-mil-cuatrocientas-siete-estrellas-sesenta-y-cinco-entregas-y-un-modulo-que-perdio-su-casa-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/06-El-taller-un-gestor-de-parches-con-mil-cuatrocientas-siete-estrellas-sesenta-y-cinco-entregas-y-un-modulo-que-perdio-su-casa-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 06 · envío para Facebook | La Bandita · pieza 06 · guía del 3-nov-2026 · te la mando hoy en 20 mensajes. | 440 |
+| [`01-El-turno-de-los-que-nacieron-este-trimestre-doce-apps-de-octubre-que-casi-nadie-conoce-y-dos-que-no-aguantan-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/01-El-turno-de-los-que-nacieron-este-trimestre-doce-apps-de-octubre-que-casi-nadie-conoce-y-dos-que-no-aguantan-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 01 · envío para Facebook | La Bandita · pieza 01 · guía del 3-nov-2026 · te la mando hoy en 20 mensajes. | 434 |
+| [`02-La-musica-que-no-se-cae-los-ocho-programas-de-octubre-que-arreglan-el-sonido-y-los-cinco-que-guardan-tu-carpeta-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/02-La-musica-que-no-se-cae-los-ocho-programas-de-octubre-que-arreglan-el-sonido-y-los-cinco-que-guardan-tu-carpeta-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 02 · envío para Facebook | La Bandita · pieza 02 · guía del 3-nov-2026 · te la mando hoy en 19 mensajes. | 438 |
+| [`03-La-caja-fuerte-del-bolsillo-un-gestor-archivado-con-mil-seiscientos-tres-dias-de-silencio-y-tres-llaves-que-no-dejan-salir-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/03-La-caja-fuerte-del-bolsillo-un-gestor-archivado-con-mil-seiscientos-tres-dias-de-silencio-y-tres-llaves-que-no-dejan-salir-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 03 · envío para Facebook | La Bandita · pieza 03 · guía del 3-nov-2026 · te la mando hoy en 17 mensajes. | 414 |
+| [`04-La-lista-del-permiso-veintiseis-medidos-hoy-trece-nacidos-en-el-trimestre-y-el-tronco-que-lleva-quinientos-cuatro-dias-sin-empujar-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`](envios/facebook/04-La-lista-del-permiso-veintiseis-medidos-hoy-trece-nacidos-en-el-trimestre-y-el-tronco-que-lleva-quinientos-cuatro-dias-sin-empujar-Facebook-La-Bandita-2026-11-04-dominicano-ES.md) | PIEZA 04 · envío para Facebook | La Bandita · pieza 04 · guía del 4-nov-2026 · te la mando hoy en 19 mensajes. | 452 |
+| [`05-La-guia-maestra-doce-capitulos-setenta-fichas-y-el-metodo-para-no-tener-que-creerme-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/05-La-guia-maestra-doce-capitulos-setenta-fichas-y-el-metodo-para-no-tener-que-creerme-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 05 · envío para Facebook | La Bandita · pieza 05 · guía del 3-nov-2026 · te la mando hoy en 19 mensajes. | 539 |
+| [`06-El-taller-un-gestor-de-parches-con-mil-cuatrocientas-siete-estrellas-sesenta-y-cinco-entregas-y-un-modulo-que-perdio-su-casa-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/06-El-taller-un-gestor-de-parches-con-mil-cuatrocientas-siete-estrellas-sesenta-y-cinco-entregas-y-un-modulo-que-perdio-su-casa-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 06 · envío para Facebook | La Bandita · pieza 06 · guía del 3-nov-2026 · te la mando hoy en 20 mensajes. | 446 |
 | [`_INDICE.md`](envios/facebook/_INDICE.md) | ENVÍOS DE FACEBOOK · índice | Generado el 2026-11-04 a partir de la medición del mismo día (`docs/envios/_medicion-facebook.json`). | 19 |
 | [`01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`](envios/whatsapp/01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md) | PIEZA 01 · envío para WhatsApp | La Bandita · pieza 01 · guía del 2-nov-2026 · te la mando hoy en 27 mensajes. | 612 |
 | [`02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`](envios/whatsapp/02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md) | PIEZA 02 · envío para WhatsApp | La Bandita · pieza 02 · guía del 2-nov-2026 · te la mando hoy en 29 mensajes. | 643 |
@@ -112,7 +113,7 @@
 
 | Documento | Título | De qué va | Líneas |
 |---|---|---|---|
-| [`PENDIENTES.md`](PENDIENTES.md) | MATRIZ DE PENDIENTES · estado al 3 de noviembre de 2026 | Cada pendiente con su estado real: **hecho** (existe, corre y está probado), **medido** (hay cifra publicada, no decisión), **bloqueado por el… | 123 |
+| [`PENDIENTES.md`](PENDIENTES.md) | MATRIZ DE PENDIENTES · estado al 3 de noviembre de 2026 | Cada pendiente con su estado real: **hecho** (existe, corre y está probado), **medido** (hay cifra publicada, no decisión), **bloqueado por el… | 124 |
 ### Planes · trabajo por delante
 
 | Documento | Título | De qué va | Líneas |
@@ -123,6 +124,7 @@
 | Documento | Título | De qué va | Líneas |
 |---|---|---|---|
 | [`POLITICA-DUPLICADOS.md`](POLITICA-DUPLICADOS.md) | POLÍTICA DE DUPLICADOS · medida, no borrada | La duplicación es el mayor pasivo técnico del archivo y el más fácil de detener: basta con no crear el siguiente. | 47 |
+| [`POLITICA-ETIQUETAS.md`](POLITICA-ETIQUETAS.md) | Política de etiquetas estratégicas · «#pings» | Esta política convierte esa decisión en una regla medible. | 65 |
 | [`POLITICA-MCP.md`](POLITICA-MCP.md) | POLÍTICA MCP · lista blanca, permisos mínimos, solo lectura | Decidido el 31 de octubre de 2026, antes de conectar nada. | 32 |
 ### Prompts · encargos largos
 
@@ -161,7 +163,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`diseno.py`](../tools/diseno.py) | DISEÑO · el sistema visual de la casa, en un solo sitio. | 477 |
 | [`doctor.py`](../tools/doctor.py) | DOCTOR · el primer comando que se corre en una máquina nueva, y el último antes de publicar. | 168 |
 | [`duplicados.py`](../tools/duplicados.py) | DUPLICADOS · censo de copias por contenido, para gobernar sin borrar a ciegas. | 86 |
-| [`envio.py`](../tools/envio.py) | ENVÍO · convierte una pieza del archivo en mensajes que WhatsApp no corta. | 788 |
+| [`envio.py`](../tools/envio.py) | ENVÍO · convierte una pieza del archivo en mensajes que WhatsApp no corta. | 803 |
 | [`escrutinio.py`](../tools/escrutinio.py) | ESCRUTINIO · la nota que decide qué merece una ficha, dicha en voz alta. | 269 |
 | [`extraer_fresco.py`](../tools/extraer_fresco.py) | EXTRACCIÓN FRESCA · lo que existe hoy, medido hoy, con el reloj puesto. | 218 |
 | [`fecha_casa.py`](../tools/fecha_casa.py) | FECHA DE LA CASA · una sola fuente de verdad para el día. | 45 |
@@ -171,7 +173,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`idioma_mojibake.py`](../tools/idioma_mojibake.py) | MOJIBAKE · mide la salud de codificación del corpus. No corrige: señala. | 71 |
 | [`indice_docs.py`](../tools/indice_docs.py) | ÍNDICE · el mapa de la carpeta docs y del juego de herramientas, sin escribirlo a mano. | 206 |
 | [`licencias_resolver.py`](../tools/licencias_resolver.py) | RESUELVE LAS LICENCIAS QUE NO CONCLUYEN · cierra la deuda de las fichas NOASSERTION. | 222 |
-| [`manual_gate.py`](../tools/manual_gate.py) | Compuerta del MANUAL DE ESTILO Y OPERACIONES V3.0 (1-nov-2026). | 361 |
+| [`manual_gate.py`](../tools/manual_gate.py) | Compuerta del MANUAL DE ESTILO Y OPERACIONES V3.0 (1-nov-2026). | 420 |
 | [`mcp_conectar.py`](../tools/mcp_conectar.py) | CONEXIÓN REAL A SERVIDORES MCP · handshake, listado de herramientas y llamada de prueba. | 195 |
 | [`merito.py`](../tools/merito.py) | MÉRITO MEDIDO · el Scorecard de OpenSSF sustituye a ★ como señal de mérito. | 150 |
 | [`novedad.py`](../tools/novedad.py) | SELECTOR DE NOVEDAD — encuentra lo nuevo, lo recién publicado y lo desconocido. | 263 |

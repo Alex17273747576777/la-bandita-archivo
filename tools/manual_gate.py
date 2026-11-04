@@ -18,7 +18,7 @@ Códigos de la compuerta:
     M07 enlaces completos    M08 fichas con campos   M09 frases prohibidas
     M10 notas al pie         M11 banda de longitud   M12 meta-comentarios
     M13 cabecera             M14 signos dobles       M15 secretos / mods
-    M16 promesas             M23 párrafos compartidos
+    M16 promesas             M23 párrafos compartidos   M29 etiquetas estratégicas
 """
 from __future__ import annotations
 
@@ -51,6 +51,17 @@ META_EXENTO = ["cómo se midió", "cómo se mide", "cómo comprobar", "el métod
 
 PROMESAS = ["te avisaré", "te aviso cuando", "te avisamos cuando", "volveré a avisarte",
             "te mantendré informado", "te informaré cuando"]
+
+
+# M29 · etiquetas estratégicas (decisión del dueño, 4-nov-2026)
+ETIQUETAS_ROTULO = ("🏷️", "etiquetas estratégicas")
+ETIQUETAS_NEGRA = {
+    "android", "apps", "aplicaciones", "tecnologia", "gratis", "opensource", "software", "libre",
+    "movil", "celular", "internet", "tips", "recomendaciones", "util", "novedades", "actualidad",
+    "seguridad", "privacidad", "productividad", "descarga", "apk", "androidapp", "sincostos",
+}
+ETIQUETAS_MIN, ETIQUETAS_MAX = 8, 12
+ETIQUETAS_CUERPO_MIN = 0.70
 
 SECRETOS = [r"gh[pousr]_[A-Za-z0-9]{20,}", r"github_pat_[A-Za-z0-9_]{20,}",
             r"AKIA[0-9A-Z]{16}", r"-----BEGIN [A-Z ]*PRIVATE KEY-----"]
@@ -117,6 +128,46 @@ def seccion(t: str, claves: tuple[str, ...]) -> str:
         return (cabecera, b.count("http"), -candidatos.index(b))
 
     return max(candidatos, key=peso)
+
+
+
+def bloque_etiquetas(t: str) -> list[str]:
+    """Devuelve las etiquetas del bloque rotulado, o [] si no hay bloque."""
+    m = re.search(r"🏷️[^\n]*\n+(.+?)(?:\n\n|\n───|\Z)", t, re.S)
+    if not m:
+        return []
+    return re.findall(r"#([^\s#,.;:()\[\]]+)", m.group(1))
+
+
+def sin_tildes(s: str) -> str:
+    tabla = str.maketrans("áéíóúüñÁÉÍÓÚÜÑ", "aeiouunAEIOUUN")
+    return s.translate(tabla).lower()
+
+
+def m29(t: str) -> tuple[list[str], list[str]]:
+    fallos, ok = [], []
+    tags = bloque_etiquetas(t)
+    if not tags:
+        return ["M29 sin bloque «🏷️ Etiquetas estratégicas» al final de la pieza"], ok
+    if not (ETIQUETAS_MIN <= len(tags) <= ETIQUETAS_MAX):
+        fallos.append(f"M29 {len(tags)} etiquetas (se exigen {ETIQUETAS_MIN} a {ETIQUETAS_MAX})")
+    bajas = {sin_tildes(x) for x in tags}
+    negras = sorted(bajas & ETIQUETAS_NEGRA)
+    if negras:
+        fallos.append("M29 etiquetas genéricas: " + ", ".join("#" + x for x in negras[:5]))
+    malas = [x for x in tags if not re.fullmatch(r"[A-Za-z0-9]+", x)]
+    if malas:
+        fallos.append("M29 etiquetas con acento, ñ, espacio o guion: " + ", ".join("#" + x for x in malas[:4]))
+    if len(bajas) != len(tags):
+        fallos.append("M29 etiquetas repetidas")
+    cuerpo = re.sub(r"[^a-z0-9]", "", sin_tildes(t.split("🏷️")[0]))
+    en_cuerpo = sum(1 for x in tags if re.sub(r"[^a-z0-9]", "", sin_tildes(x)) in cuerpo)
+    if en_cuerpo / max(1, len(tags)) < ETIQUETAS_CUERPO_MIN:
+        fallos.append(f"M29 solo {en_cuerpo} de {len(tags)} etiquetas aparecen en el cuerpo "
+                      f"(se exige {int(ETIQUETAS_CUERPO_MIN*100)} %)")
+    if not fallos:
+        ok.append(f"M29 {len(tags)} etiquetas específicas, todas ganadas en el texto")
+    return fallos, ok
 
 
 def check(p: Path, bk: dict, firmas_vistas: dict, todos: dict[str, set[str]]) -> dict:
@@ -310,6 +361,14 @@ def check(p: Path, bk: dict, firmas_vistas: dict, todos: dict[str, set[str]]) ->
         f.append(("M23", "critica", f"{compartidos} párrafos compartidos con otras piezas"))
     else:
         ok.append("M23 cero párrafos compartidos")
+
+    # M29 · etiquetas estratégicas (por ahora solo en Facebook; WhatsApp queda declarado pendiente)
+    if canal(p) == "facebook":
+        for det in m29(t)[0]:
+            f.append(("M29", "critica", det))
+        ok.extend(m29(t)[1])
+    else:
+        ok.append("M29 aplazada en este canal: la pasada de WhatsApp va después")
 
     critica = any(s == "critica" for _, s, _ in f)
     forma = any(s == "forma" for _, s, _ in f)

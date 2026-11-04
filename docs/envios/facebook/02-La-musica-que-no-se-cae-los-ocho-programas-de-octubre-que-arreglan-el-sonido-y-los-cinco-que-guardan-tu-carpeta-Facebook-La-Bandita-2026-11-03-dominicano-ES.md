@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/02-La-musica-que-no-se-cae-los-ocho-programas-de-octubre-que-arreglan-el-sonido-y-los-cinco-que-guardan-tu-carpeta-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`
 - **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 1 días)
-- **sha256 de la pieza:** `5031e6a1a129aec64e4797470c519b03524352821278480de9b12461c07cc48f`
+- **sha256 de la pieza:** `5f622c2fdad22a49fae72e3af5b30f5d4fc9b42bcf6082c768184789b1b866dc`
 - **Envío generado:** 2026-11-04 · 19 mensajes · el mayor de 3669 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -371,7 +371,7 @@ Lo que hay que llevarse cabe en cuatro frases. La primera: el catálogo se cae, 
 
 ⏬ sigue abajo · parte 15 de 18
 
-═══ MENSAJE 17 de 19 · 2766 caracteres ═══
+═══ MENSAJE 17 de 19 · 2769 caracteres ═══
 
 ## 🗒️ Notas al pie
 
@@ -390,6 +390,8 @@ Lo que hay que llevarse cabe en cuatro frases. La primera: el catálogo se cae, 
 #task 001 · volver a medir el 3 de diciembre de 2026 los ocho programas de octubre y publicar cuántos siguieron publicando entrega y cuántos se durmieron, con la fecha de su último empujón.
 #task 002 · abrir en el repositorio de namida una petición cortés para que declare licencia, explicando que su ausencia es lo único que impide que la comunidad continúe el proyecto si su autor se cansa, y anotar la respuesta en el acta del 3 de diciembre.
 #task 003 · escribir a los autores de SplitAudio y de Audio Policy Override para ofrecerles la traducción de su presentación al español, porque su documentación en un solo idioma es la única barrera entre esos programas y este público.
+
+*
 
 ⏬ sigue abajo · parte 16 de 18
 
@@ -426,6 +428,10 @@ Ninguno roto.
 
 ⏬ sigue abajo · parte 17 de 18
 
-═══ MENSAJE 19 de 19 · 152 caracteres ═══
+═══ MENSAJE 19 de 19 · 322 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.
+
+*🏷️ Etiquetas estratégicas*
+
+#SaltPlayer #Namida #ArchiveTune #SimpMusic #Metrolist #AntennaPod #SplitAudio #DualAudio #BudsFirst #AudioScope #RootlessJamesDSP #Shizuku

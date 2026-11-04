@@ -554,6 +554,21 @@ def una(p: Path, med: dict, escribir: bool = True) -> dict:
     # el cierre se agrupa: mensajes cortos seguidos se pegan si caben
     while len(cierre) > 2 and len(cierre[0]) + len(cierre[1]) + 2 <= TOPE - MARGEN:
         cierre = [cierre[0] + "\n\n" + cierre[1]] + cierre[2:]
+    # las etiquetas estratégicas viajan en el ÚLTIMO mensaje: enterradas en medio no las ve nadie
+    etiquetas = []
+    for i, parte in enumerate(partes):
+        if "🏷️" in parte and "Etiquetas estratégicas" in parte:
+            cabeza, _, cola = parte.partition("🏷️")
+            m = re.search(r"#\w[\w\s#]*$", cola.strip())
+            if m:
+                etiquetas.append("*🏷️ Etiquetas estratégicas*\n\n" + " ".join(m.group(0).split()))
+            resto = cabeza.strip().strip("─").strip()   # el cuerpo NO se pierde: solo se va el bloque
+            partes[i] = resto
+            if not resto:
+                partes.pop(i)
+            break
+    if etiquetas and cierre:
+        cierre[-1] = cierre[-1] + "\n\n" + etiquetas[0]
     f_real, _ = fecha_real(cuerpo, p)
     if f_real and f_real != hoy_efectivo() and partes:
         partes[0] = (f"[Texto del {bon(f_real)}: cuando dice «hoy», es ese día. La medición de hoy está "
