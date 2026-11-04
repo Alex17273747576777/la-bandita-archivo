@@ -413,7 +413,7 @@ Y queda la lección que esta pieza comparte con las anteriores: el archivo impor
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• dani-garcia/vaultwarden — ★70.188 · empujó en las últimas horas · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
+• dani-garcia/vaultwarden — ★70.189 · empujó en las últimas horas · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
 • ente-io/ente — sin dato hoy (la API no respondió). No afirmo nada.
 • beemdevelopment/Aegis — ★13.460 · *dormido*: sin empujar desde el 6-sep-2026 (58 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
 • bitwarden/android — ★9.582 · sin fecha de empuje · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)

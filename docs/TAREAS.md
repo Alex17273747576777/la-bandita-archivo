@@ -12,13 +12,13 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 
 | # | Tarea | Origen | Corte |
 |---|---|---|---|
-| 001 | volver a medir los doce proyectos de esta pieza el 3 de diciembre de 2026 y publicar qué cambió, incluida la suerte de cleanyourtv y de la cola de cleanyourtv-app. | Facebook · 01 | 2026-11-03 |
+| 001 | volver a correr el selector el 3 de diciembre de 2026 sobre los doce y publicar cuántos siguieron publicando entrega, con la cifra de los que se quedaron dormidos. | Facebook · 01 | 2026-11-03 |
 | 001 | volver a medir los cuarenta y cuatro el 3 de diciembre de 2026 y publicar cuáles siguen publicando, con atención especial a OmniShizuku, que hoy tiene diez días y sesenta y siete. | Facebook · 04 | 2026-11-03 |
 | 001 | pedir al autor del programa, en su repositorio, que el flujo de publicación escriba un archivo de sumas SHA-256 al lado de cada entrega, y anotar la respuesta en el acta del 4 de diciembre de 2026. | Facebook · 06 | 2026-11-03 |
-| 002 | abrir las tres discrepancias de licencia en sus repositorios respectivos, proponiendo la corrección del archivo de detección y no del texto de la licencia. | Facebook · 01 | 2026-11-03 |
+| 002 | abrir en los dos rechazados —WPAForge y O3 Root— una nota pública que explique el criterio de exclusión sin acusar a sus autores, y anotar su respuesta en el acta del 3 de diciembre. | Facebook · 01 | 2026-11-03 |
 | 002 | pedir al archivo público la conservación de las catorce revisiones de las fichas y anotar el número de solicitud en cada una. | Facebook · 04 | 2026-11-03 |
 | 002 | remedir el 3 de diciembre de 2026 las tres entregas del linaje —el gestor original, el de Morphe y este— y publicar cuál de los tres publicó más seguido en el mes, con la fecha del empujón de cada uno. | Facebook · 06 | 2026-11-03 |
-| 003 | completar la conservación en el archivo público de las seis revisiones que quedaron en cola hoy, y anotar el número de solicitud en cada ficha. | Facebook · 01 | 2026-11-03 |
+| 003 | traducir la ficha de MineApp y la de ghost-files al español y ofrecer la traducción a sus autores, porque la barrera del idioma es la razón por la que la mitad de lo nuevo no llega a este público. | Facebook · 01 | 2026-11-03 |
 | 003 | abrir en sus repositorios los cuatro casos de licencia sin resolver que aparecen en la tabla, proponiendo la corrección del archivo de detección y no del texto de la licencia. | Facebook · 04 | 2026-11-03 |
 | 003 | escribir la versión de WhatsApp de esta pieza, más corta, con los cinco pasos reducidos a tres y el episodio del 451 contado en dos párrafos, y comprobar que su banda de longitud se cumple antes de enviarla. | Facebook · 06 | 2026-11-03 |
 | 004 | remedir el 3 de diciembre de 2026 las nueve fichas de menos de quinientas estrellas, empezando por OmniShizuku y TVSlim, y publicar cuáles siguieron publicando. | Facebook · 05 | 2026-11-03 |

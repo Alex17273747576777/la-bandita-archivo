@@ -60,6 +60,9 @@ indice:  ## Reescribe el índice de docs y de herramientas
 
 libro:  tareas indice  ## Los documentos derivados: tareas e índice
 
+novedad:  ## Encuentra lo nuevo, lo recién publicado y lo desconocido del registro
+	@$(PY) tools/novedad.py --joyas 25 --min-calidad 0.6
+
 medir:  ## Mide los repositorios citados y regenera los envíos de canal
 	LBT="$${LBT:?falta LBT: exportá el token de lectura}" $(PY) tools/envio.py --medir
 	$(PY) tools/envio.py --generar --canal ambos

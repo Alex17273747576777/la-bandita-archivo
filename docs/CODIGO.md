@@ -197,3 +197,15 @@ Si algún día alguien tiene que auditar esta casa sin leer los 33 archivos, con
 3. **Nada se mide una sola vez.** Toda cifra que se publica tiene un método que otro puede repetir con un comando, y ese comando está escrito al lado de la cifra.
 
 *La Bandita informa a partir de fuentes fechadas.*
+
+### `tools/novedad.py` · el selector de novedad
+
+Responde a la regla editorial que el dueño fijó el 3-nov-2026: **primero lo recién nacido, lo recién
+publicado y lo desconocido**. No mide: lee la evidencia sellada de cada ficha (`registry/_evidencia/`),
+de donde saca la fecha de nacimiento del repositorio, el último empujón, la última entrega y el tamaño, y
+clasifica cada proyecto en `nacido` (≤90 días), `joven` (≤365), `desconocido` (≤300★ y vivo), `recien`
+(entrega ≤30 días), `dormido` (>365 sin empujón) y `muerto` (404).
+
+Ordena por **juventud × actividad**, nunca por estrellas, y exige una **señal de calidad** mínima —entrega
+publicada, tamaño, descripción, licencia legible, tema Android— para que un repositorio vacío de tres días
+no encabece la lista. Es el programa que produjo las doce fichas de la pieza 01 de Facebook.

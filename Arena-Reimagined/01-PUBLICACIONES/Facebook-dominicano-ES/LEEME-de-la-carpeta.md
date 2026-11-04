@@ -22,7 +22,7 @@ El número es el del ciclo (01–14), la fecha es la del corte de medición de l
 
 | # | Pieza | Corte | Caracteres | Estado |
 |---|---|---|---|---|
-| 01 | El turno de los que nacieron este trimestre | 2026-11-03 | 44.994 | Publicada y en banda |
+| 01 | El turno de los que nacieron este trimestre (**rehecha**) | 2026-11-03 | 43.593 | Publicada y en banda · la anterior, en `_ARCHIVO-HISTORICO/_reemplazadas-2026-11-03/` |
 | 02 | La música que no se cae | 2026-11-02 | 44.934 | Publicada y en banda |
 | 03 | La caja fuerte del bolsillo | 2026-11-02 | 44.831 | Publicada y en banda |
 | 04 | La lista del permiso | 2026-11-03 | 44.151 | Publicada y en banda |
@@ -73,3 +73,15 @@ No se aloja ni un paquete ajeno. No se escribe aquí nada que no sea una pieza, 
 ## Cambio de tema en la pieza 06, declarado
 
 El programa original de la serie daba a la pieza 06 el título «El taller: lo que se puede leer, se puede arreglar», sobre el derecho a reparar. El dueño pidió el 4 de noviembre una publicación específica del gestor de parches Universal Patch Manager, y ese programa **es** el taller: la herramienta con la que se abre un paquete ajeno y se vuelve a cerrar. Se publicó como 06 con ese tema y el título se ajustó para que diga lo que la pieza hace. El tema de reparabilidad no se pierde: pasa a la pieza 11, «Cuando algo se rompe», donde ya estaba previsto el título de los cinco sitios y el parte de avería.
+
+## La regla que manda desde el 3 de noviembre: lo nuevo primero
+
+El dueño fijó una regla editorial que ordena la serie entera: **enfocarse en los recursos más nuevos,
+actualizados, recién lanzados y desconocidos**. No es una preferencia de estilo, es un cambio de método, y
+por eso la casa construyó `tools/novedad.py`: lee la evidencia sellada de las 6.838 fichas, saca la fecha
+de nacimiento de cada repositorio y clasifica en nacido, joven, desconocido, recién, dormido y muerto.
+Ordena por juventud × actividad, nunca por estrellas.
+
+La pieza 01 rehecha es la primera que se escribió con esa regla: doce programas nacidos en octubre de 2026,
+ninguno por encima de ★132, y dos rechazos razonados. Las piezas 02 a 06 se rehacen en las tandas
+siguientes, y de la 07 en adelante el mapa de 125 ya está ordenado por la misma regla.

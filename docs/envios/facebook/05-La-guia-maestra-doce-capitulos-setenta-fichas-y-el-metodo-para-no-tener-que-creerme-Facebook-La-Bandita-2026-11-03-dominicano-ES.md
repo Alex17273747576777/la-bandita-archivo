@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/05-La-guia-maestra-doce-capitulos-setenta-fichas-y-el-metodo-para-no-tener-que-creerme-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`
 - **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `baeecceb35cca3b4ba5b3a640dac93d949eb1c9e2b13139d1a98cc3149e82d7d`
-- **Envío generado:** 2026-11-03 · 19 mensajes · el mayor de 3845 caracteres
+- **Envío generado:** 2026-11-03 · 19 mensajes · el mayor de 3837 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 19 · 817 caracteres ═══
@@ -472,7 +472,7 @@ Doce capítulos, setenta fichas, treinta y ocho enlaces al repositorio de quien 
 
 ⏬ sigue abajo · parte 15 de 18
 
-═══ MENSAJE 17 de 19 · 3845 caracteres ═══
+═══ MENSAJE 17 de 19 · 3837 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 05*
 
@@ -481,18 +481,18 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 32 repositorios que cita esta pi
 • krishna3163/best-root-apps-for-android — ★51 · empujó en las últimas horas · MIT · última release sukisu-ultra-v4.3.0-r1 (3-nov-2026)
 • krishna3163/best_shizuku_apps_for_android — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 • Alex17273747576777/la-bandita-archivo — ★1 · sin fecha de empuje · MIT
-• readest/readest — ★25.916 · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
+• readest/readest — ★25.917 · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
 • TrackerControl/tracker-control-android — ★2.719 · empujó en las últimas horas · GPL-3.0 · última release 2026110101 (1-nov-2026)
 • samolego/Canta — ★6.448 · empujó el 31-oct-2026 (hace 3 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
-• ImranR98/Obtainium — ★21.186 · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• ImranR98/Obtainium — ★21.187 · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • skylot/jadx — ★51.560 · empujó en las últimas horas · Apache-2.0 · última release v1.5.6 (10-jul-2026)
-• RikkaApps/Shizuku — ★32.725 · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.727 · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • krishna3163/OmniShizuku — ★17 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
-• rushiranpise/Shizuku-Next — ★1.411 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
-• HmnDev-Tech/shevery — ★1.588 · empujó en las últimas horas · Apache-2.0 · última release 14.6.2 (3-nov-2026)
-• Genymobile/scrcpy — ★153.944 · empujó en las últimas horas · Apache-2.0 · última release v5.0.1 (8-oct-2026)
+• rushiranpise/Shizuku-Next — ★1.412 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
+• HmnDev-Tech/shevery — ★1.589 · empujó en las últimas horas · Apache-2.0 · última release 14.6.2 (3-nov-2026)
+• Genymobile/scrcpy — ★153.947 · empujó en las últimas horas · Apache-2.0 · última release v5.0.1 (8-oct-2026)
 • xbmc/xbmc — ★21.431 · sin fecha de empuje · NOASSERTION · última release 21.3-Omega (31-oct-2025)
-• yuliskov/SmartTube — ★35.892 · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• yuliskov/SmartTube — ★35.893 · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • jolabs40/TVSlim — ★35 · empujó el 20-oct-2026 (hace 14 días) · Apache-2.0 · última release windows-v1.7.0 (20-oct-2026)
 • termux/termux-app — ★64.039 · empujó el 26-sep-2026 (hace 38 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
 • termux/termux-packages — ★17.301 · sin fecha de empuje · NOASSERTION · última release bootstrap-2026.11.01-r1+apt.android-7 (1-nov-2026)
@@ -506,19 +506,20 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 32 repositorios que cita esta pi
 • rednaga/APKiD — ★2.611 · empujó el 21-oct-2026 (hace 13 días) · NOASSERTION · última release v3.2.0 (21-oct-2026)
 • sigstore/cosign — ★6.405 · sin fecha de empuje · Apache-2.0 · última release v3.1.4 (20-oct-2026)
 • ossf/scorecard — ★5.809 · empujó en las últimas horas · Apache-2.0 · última release v5.6.0 (12-oct-2026)
-• oss-review-toolkit/ort — ★2.117 · empujó en las últimas horas · Apache-2.0 · última release 97.3.0 (29-oct-2026)
-• cli/cli — ★46.859 · empujó en las últimas horas · MIT · última release v2.103.3 (26-oct-2026)
-• iBotPeaches/Apktool — ★26.978 · empujó en las últimas horas · Apache-2.0 · última release v3.0.3 (20-jul-2026)
+• oss-review-toolkit/ort — ★2.117 · sin fecha de empuje · Apache-2.0 · última release 97.3.0 (29-oct-2026)
+• cli/cli — ★46.860 · empujó en las últimas horas · MIT · última release v2.103.3 (26-oct-2026)
+• iBotPeaches/Apktool — ★26.979 · empujó en las últimas horas · Apache-2.0 · última release v3.0.3 (20-jul-2026)
 • rclone/rclone — ★60.776 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 240 caracteres ═══
+═══ MENSAJE 18 de 19 · 414 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 37 enlaces de esta pieza, *36 responden*.
+De los 37 enlaces de esta pieza, *35 responden*.
 
+• https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/guia-maestra/CREDITOS.md — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/krishna3163/best_shizuku_apps_for_android — 404. No existe hoy: no lo abras, no lo recomiendo.
 
 ⏬ sigue abajo · parte 17 de 18
