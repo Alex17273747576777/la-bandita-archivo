@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 57 documentos en `docs/`, agrupados en 19 familias, y 34 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 58 documentos en `docs/`, agrupados en 19 familias, y 34 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -23,6 +23,7 @@
 | [`ACTA-PIEZA-01-2026-11-03.md`](ACTA-PIEZA-01-2026-11-03.md) | Acta de la pieza 01 de Facebook · segunda versión · 3 de noviembre de 2026 | La primera eligió doce proyectos a ojo entre los medidos. | 52 |
 | [`ACTA-PIEZA-01-REHECHA-2026-11-03.md`](ACTA-PIEZA-01-REHECHA-2026-11-03.md) | Acta de la pieza 01 rehecha · Facebook · 3 de noviembre de 2026 | Al preparar la lista supuse que `btsearch/bunnylock` era un troyano por la sigla «RAT» de su descripción. | 44 |
 | [`ACTA-PIEZA-02-REHECHA-2026-11-03.md`](ACTA-PIEZA-02-REHECHA-2026-11-03.md) | Acta de la pieza 02 rehecha · Facebook · 3 de noviembre de 2026 | Al pasar el selector de novedad sobre el tema de música, la ola de octubre de 2026 no eran reproductores: eran **programas de fontanería de audio**… | 47 |
+| [`ACTA-PIEZA-03-REHECHA-2026-11-03.md`](ACTA-PIEZA-03-REHECHA-2026-11-03.md) | Acta de la pieza 03 rehecha · Facebook · 3 de noviembre de 2026 | La pieza vieja contaba un autenticador muerto. | 65 |
 | [`ACTA-PIEZA-04-2026-11-03.md`](ACTA-PIEZA-04-2026-11-03.md) | Acta de la pieza 04 · Facebook · 3 de noviembre de 2026 | — sin primera oración con cuerpo — | 48 |
 | [`ACTA-PIEZA-04-WA-2026-11-03.md`](ACTA-PIEZA-04-WA-2026-11-03.md) | Acta de la pieza 04 de WhatsApp · 3 de noviembre de 2026 | — sin primera oración con cuerpo — | 30 |
 | [`ACTA-PIEZA-06-2026-11-03.md`](ACTA-PIEZA-06-2026-11-03.md) | Acta de la pieza 06 · Facebook · 3 de noviembre de 2026 | Tres `#task` dentro del texto: el archivo de sumas de comprobación (001), la remedición de los tres linajes el 3 de diciembre (002) y la versión de… | 49 |
@@ -90,12 +91,12 @@
 | [`CODIGO.md`](CODIGO.md) | EL CÓDIGO, EXPLICADO | Un programa es una receta: entra un ingrediente, se hace un paso, sale un plato. | 212 |
 | [`INVESTIGACION-RECURSOS-2026-11-01.md`](INVESTIGACION-RECURSOS-2026-11-01.md) | INVESTIGACIÓN DE RECURSOS NUEVOS · domingo 1 de noviembre de 2026, 07:00 (Santo Domingo) | Cuatro consultas a la API de GitHub, ordenadas por estrellas, filtrando por fecha de creación: | 145 |
 | [`MAPA-125-FACEBOOK.md`](MAPA-125-FACEBOOK.md) | MAPA DE LAS 125 PIEZAS DE FACEBOOK · propuesta para aprobación | Cada línea es una pieza: **número · título · el gancho** —la tensión medida que la justifica, no un adjetivo— y **la materia prima**, que son… | 317 |
-| [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 51 |
+| [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 54 |
 | [`VENCIMIENTOS.md`](VENCIMIENTOS.md) | VENCIMIENTOS DEL REGISTRO | Las **0** fichas sin respaldo no están desactualizadas: están mal fechadas. | 63 |
 | [`COMO-SE-MANDA.md`](envios/COMO-SE-MANDA.md) | CÓMO SE MANDA · reglas y mapa de los envíos | Esto no es un catálogo de archivos: es la decisión de cómo sale el archivo a la calle. | 103 |
 | [`01-El-turno-de-los-que-nacieron-este-trimestre-doce-apps-de-octubre-que-casi-nadie-conoce-y-dos-que-no-aguantan-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/01-El-turno-de-los-que-nacieron-este-trimestre-doce-apps-de-octubre-que-casi-nadie-conoce-y-dos-que-no-aguantan-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 01 · envío para Facebook | La Bandita · pieza 01 · guía del 3-nov-2026 · te la mando hoy en 20 mensajes. | 424 |
 | [`02-La-musica-que-no-se-cae-los-ocho-programas-de-octubre-que-arreglan-el-sonido-y-los-cinco-que-guardan-tu-carpeta-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/02-La-musica-que-no-se-cae-los-ocho-programas-de-octubre-que-arreglan-el-sonido-y-los-cinco-que-guardan-tu-carpeta-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 02 · envío para Facebook | La Bandita · pieza 02 · guía del 3-nov-2026 · te la mando hoy en 19 mensajes. | 428 |
-| [`03-La-caja-fuerte-del-bolsillo-un-autenticador-muerto-mil-seiscientos-dos-dias-de-silencio-y-la-copia-que-salva-Facebook-La-Bandita-2026-11-02-dominicano-ES.md`](envios/facebook/03-La-caja-fuerte-del-bolsillo-un-autenticador-muerto-mil-seiscientos-dos-dias-de-silencio-y-la-copia-que-salva-Facebook-La-Bandita-2026-11-02-dominicano-ES.md) | PIEZA 03 · envío para Facebook | La Bandita · pieza 03 · guía del 2-nov-2026 · te la mando hoy en 20 mensajes. | 437 |
+| [`03-La-caja-fuerte-del-bolsillo-un-gestor-archivado-con-mil-seiscientos-tres-dias-de-silencio-y-tres-llaves-que-no-dejan-salir-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/03-La-caja-fuerte-del-bolsillo-un-gestor-archivado-con-mil-seiscientos-tres-dias-de-silencio-y-tres-llaves-que-no-dejan-salir-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 03 · envío para Facebook | La Bandita · pieza 03 · guía del 3-nov-2026 · te la mando hoy en 17 mensajes. | 405 |
 | [`04-La-lista-del-permiso-cuarenta-y-cuatro-medidos-catorce-con-ficha-y-los-nueve-de-la-lista-del-dia-uno-por-uno-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/04-La-lista-del-permiso-cuarenta-y-cuatro-medidos-catorce-con-ficha-y-los-nueve-de-la-lista-del-dia-uno-por-uno-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 04 · envío para Facebook | La Bandita · pieza 04 · guía del 3-nov-2026 · te la mando hoy en 20 mensajes. | 470 |
 | [`05-La-guia-maestra-doce-capitulos-setenta-fichas-y-el-metodo-para-no-tener-que-creerme-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/05-La-guia-maestra-doce-capitulos-setenta-fichas-y-el-metodo-para-no-tener-que-creerme-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 05 · envío para Facebook | La Bandita · pieza 05 · guía del 3-nov-2026 · te la mando hoy en 19 mensajes. | 529 |
 | [`06-El-taller-un-gestor-de-parches-con-mil-cuatrocientas-siete-estrellas-sesenta-y-cinco-entregas-y-un-modulo-que-perdio-su-casa-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/06-El-taller-un-gestor-de-parches-con-mil-cuatrocientas-siete-estrellas-sesenta-y-cinco-entregas-y-un-modulo-que-perdio-su-casa-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 06 · envío para Facebook | La Bandita · pieza 06 · guía del 3-nov-2026 · te la mando hoy en 20 mensajes. | 435 |
@@ -110,7 +111,7 @@
 
 | Documento | Título | De qué va | Líneas |
 |---|---|---|---|
-| [`PENDIENTES.md`](PENDIENTES.md) | MATRIZ DE PENDIENTES · estado al 3 de noviembre de 2026 | Cada pendiente con su estado real: **hecho** (existe, corre y está probado), **medido** (hay cifra publicada, no decisión), **bloqueado por el… | 122 |
+| [`PENDIENTES.md`](PENDIENTES.md) | MATRIZ DE PENDIENTES · estado al 3 de noviembre de 2026 | Cada pendiente con su estado real: **hecho** (existe, corre y está probado), **medido** (hay cifra publicada, no decisión), **bloqueado por el… | 123 |
 ### Planes · trabajo por delante
 
 | Documento | Título | De qué va | Líneas |

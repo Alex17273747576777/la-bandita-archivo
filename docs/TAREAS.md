@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 18 tareas abiertas en 11 piezas vivas, numeradas dentro de cada pieza, de 001 a 009. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 21 tareas abiertas en 11 piezas vivas, numeradas dentro de cada pieza, de 001 a 009. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -14,14 +14,17 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 |---|---|---|---|
 | 001 | volver a correr el selector el 3 de diciembre de 2026 sobre los doce y publicar cuántos siguieron publicando entrega, con la cifra de los que se quedaron dormidos. | Facebook · 01 | 2026-11-03 |
 | 001 | volver a medir el 3 de diciembre de 2026 los ocho programas de octubre y publicar cuántos siguieron publicando entrega y cuántos se durmieron, con la fecha de su último empujón. | Facebook · 02 | 2026-11-03 |
+| 001 | volver a medir el 3 de diciembre de 2026 los doce programas y publicar cuáles siguieron publicando entrega, con la fecha exacta de cada una. | Facebook · 03 | 2026-11-03 |
 | 001 | volver a medir los cuarenta y cuatro el 3 de diciembre de 2026 y publicar cuáles siguen publicando, con atención especial a OmniShizuku, que hoy tiene diez días y sesenta y siete. | Facebook · 04 | 2026-11-03 |
 | 001 | pedir al autor del programa, en su repositorio, que el flujo de publicación escriba un archivo de sumas SHA-256 al lado de cada entrega, y anotar la respuesta en el acta del 4 de diciembre de 2026. | Facebook · 06 | 2026-11-03 |
 | 002 | abrir en los dos rechazados —WPAForge y O3 Root— una nota pública que explique el criterio de exclusión sin acusar a sus autores, y anotar su respuesta en el acta del 3 de diciembre. | Facebook · 01 | 2026-11-03 |
 | 002 | abrir en el repositorio de namida una petición cortés para que declare licencia, explicando que su ausencia es lo único que impide que la comunidad continúe el proyecto si su autor se cansa, y anotar la respuesta en el acta del 3 de diciembre. | Facebook · 02 | 2026-11-03 |
+| 002 | escribir al autor de Keyguard una nota cortés con una sola pregunta: si su licencia «All Rights Reserved» es una decisión definitiva o si consideraría una licencia libre para que su programa pueda continuarse, y anotar la respuesta en el acta del 3 de diciembre. | Facebook · 03 | 2026-11-03 |
 | 002 | pedir al archivo público la conservación de las catorce revisiones de las fichas y anotar el número de solicitud en cada una. | Facebook · 04 | 2026-11-03 |
 | 002 | remedir el 3 de diciembre de 2026 las tres entregas del linaje —el gestor original, el de Morphe y este— y publicar cuál de los tres publicó más seguido en el mes, con la fecha del empujón de cada uno. | Facebook · 06 | 2026-11-03 |
 | 003 | traducir la ficha de MineApp y la de ghost-files al español y ofrecer la traducción a sus autores, porque la barrera del idioma es la razón por la que la mitad de lo nuevo no llega a este público. | Facebook · 01 | 2026-11-03 |
 | 003 | escribir a los autores de SplitAudio y de Audio Policy Override para ofrecerles la traducción de su presentación al español, porque su documentación en un solo idioma es la única barrera entre esos programas y este público. | Facebook · 02 | 2026-11-03 |
+| 003 | ofrecer a los autores de Monica y de Lucent la revisión de su presentación en español y la traducción de esta ficha, porque son los dos programas nuevos del tema y su documentación en varios idiomas ya es mejor que la media del ecosistema. | Facebook · 03 | 2026-11-03 |
 | 003 | abrir en sus repositorios los cuatro casos de licencia sin resolver que aparecen en la tabla, proponiendo la corrección del archivo de detección y no del texto de la licencia. | Facebook · 04 | 2026-11-03 |
 | 003 | escribir la versión de WhatsApp de esta pieza, más corta, con los cinco pasos reducidos a tres y el episodio del 451 contado en dos párrafos, y comprobar que su banda de longitud se cumple antes de enviarla. | Facebook · 06 | 2026-11-03 |
 | 004 | remedir el 3 de diciembre de 2026 las nueve fichas de menos de quinientas estrellas, empezando por OmniShizuku y TVSlim, y publicar cuáles siguieron publicando. | Facebook · 05 | 2026-11-03 |

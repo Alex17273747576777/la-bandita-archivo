@@ -404,7 +404,7 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 19 repositorios que cita esta pi
 • bunbun-midi/RootlessJamesDSP-SKDSP — ★1 · empujó el 27-oct-2026 (hace 7 días) · GPL-3.0 · última release v1 (27-oct-2026)
 • AlphadogRSA/spotifyplus-tv-patch — ★21 · empujó el 27-oct-2026 (hace 7 días) · MIT · última release v1.3.0.9 (27-oct-2026)
 • Moriafly/SaltPlayerSource — ★7.594 · empujó en las últimas horas · MIT · última release 12.6.0 (2-nov-2026)
-• namidaco/namida — ★6.782 · empujó el 1-nov-2026 (hace 2 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
+• namidaco/namida — ★6.783 · empujó el 1-nov-2026 (hace 2 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
 • rukamori/ArchiveTune — ★7.948 · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
 • maxrave-dev/SimpMusic — ★12.714 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • MetrolistGroup/Metrolist — ★13.997 · empujó en las últimas horas · GPL-3.0 · última release v13.7.0 (7-sep-2026)

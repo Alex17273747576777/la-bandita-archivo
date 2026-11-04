@@ -405,13 +405,13 @@ Lo que le falta está escrito arriba sin adornos: avisos en el momento justo, un
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1540 caracteres ═══
+═══ MENSAJE 19 de 20 · 1525 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 06*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Jman-Github/Universal-Patch-Manager — ★1.407 · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.0.0 (29-oct-2026)
+• Jman-Github/Universal-Patch-Manager — ★1.407 · sin fecha de empuje · GPL-3.0 · última release v2.0.0 (29-oct-2026)
 • Jman-Github/Patch-Bundle-Registry — ★726 · sin fecha de empuje · Unlicense
 • MorpheApp/morphe-manager — ★9.932 · sin fecha de empuje · GPL-3.0 · última release v2.3.0 (30-oct-2026)
 • MorpheApp/morphe-patches — ★4.534 · sin fecha de empuje · GPL-3.0 · última release v2.0.0 (30-oct-2026)

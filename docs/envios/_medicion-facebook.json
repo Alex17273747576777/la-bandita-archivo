@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-03",
- "medido_en_utc": "2026-11-04T01:53:37+00:00",
+ "medido_en_utc": "2026-11-04T02:08:40+00:00",
  "repos": {
   "coldMEW/Hush": {
    "estado": "vivo",
@@ -316,7 +316,7 @@
   },
   "namidaco/namida": {
    "estado": "vivo",
-   "stars": 6782,
+   "stars": 6783,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -427,45 +427,28 @@
    "release_fecha": "2025-05-25",
    "stars_pieza": null
   },
-  "dani-garcia/vaultwarden": {
+  "Monica-Pass/Monica": {
    "estado": "vivo",
-   "stars": 70193,
-   "push": "2026-11-02",
-   "archivado": false,
-   "licencia": "AGPL-3.0",
-   "lenguaje": "Rust",
-   "desc": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
-   "release": "1.37.5",
-   "release_fecha": "2026-11-01",
-   "stars_pieza": null
-  },
-  "ente-io/ente": {
-   "estado": "error",
-   "motivo": "Moved Permanently",
-   "stars_pieza": null
-  },
-  "beemdevelopment/Aegis": {
-   "estado": "vivo",
-   "stars": 13461,
-   "push": "2026-09-06",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Java",
-   "desc": "A free, secure and open source app for Android to manage your 2-step verification tokens.",
-   "release": "v3.4.3",
-   "release_fecha": "2026-09-06",
-   "stars_pieza": null
-  },
-  "bitwarden/android": {
-   "estado": "vivo",
-   "stars": 9582,
-   "push": "2026-11-04",
+   "stars": 1207,
+   "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
-   "desc": "Bitwarden mobile apps (Password Manager and Authenticator) for Android.",
-   "release": "v2026.10.1-bwpm",
-   "release_fecha": "2026-10-29",
+   "desc": "Monica Pass，Password Management, 2FA Generator",
+   "release": "V1.0.324",
+   "release_fecha": "2026-11-03",
+   "stars_pieza": null
+  },
+  "AChep/keyguard-app": {
+   "estado": "vivo",
+   "stars": 3603,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Kotlin",
+   "desc": "A password manager that supports Bitwarden platform and KeePass (KDBX) files. It autofills your logins, supports passkeys, works offline, and runs a Watchtower that finds leaked and reused passwords and other issues.",
+   "release": "r20261103",
+   "release_fecha": "2026-11-03",
    "stars_pieza": null
   },
   "Kunzisoft/KeePassDX": {
@@ -492,6 +475,30 @@
    "release_fecha": "2026-10-15",
    "stars_pieza": null
   },
+  "bitwarden/android": {
+   "estado": "vivo",
+   "stars": 9583,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Bitwarden mobile apps (Password Manager and Authenticator) for Android.",
+   "release": "v2026.10.1-bwpm",
+   "release_fecha": "2026-10-29",
+   "stars_pieza": null
+  },
+  "beemdevelopment/Aegis": {
+   "estado": "vivo",
+   "stars": 13461,
+   "push": "2026-09-06",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "desc": "A free, secure and open source app for Android to manage your 2-step verification tokens.",
+   "release": "v3.4.3",
+   "release_fecha": "2026-09-06",
+   "stars_pieza": null
+  },
   "stratumauth/app": {
    "estado": "vivo",
    "stars": 4638,
@@ -502,6 +509,18 @@
    "desc": "📱 Two-Factor Authentication (2FA) client for Android + Wear OS",
    "release": "v1.7.0",
    "release_fecha": "2026-11-01",
+   "stars_pieza": null
+  },
+  "freeotp/freeotp-android": {
+   "estado": "vivo",
+   "stars": 1683,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Java",
+   "desc": "",
+   "release": "v2.0.6",
+   "release_fecha": "2026-02-17",
    "stars_pieza": null
   },
   "andOTP/andOTP": {
@@ -516,6 +535,18 @@
    "release_fecha": "2021-06-15",
    "stars_pieza": null
   },
+  "tejado/Authorizer": {
+   "estado": "vivo",
+   "stars": 572,
+   "push": "2024-04-19",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "Java",
+   "desc": "Authorizer is a Password Manager for Android. It emulates an HID keyboard over USB and enters your credentials on your target device. Additionally it supports OTP :key::mobile_phone_off:",
+   "release": "v0.5.0",
+   "release_fecha": "2023-05-07",
+   "stars_pieza": null
+  },
   "open-keychain/open-keychain": {
    "estado": "vivo",
    "stars": 2632,
@@ -528,16 +559,28 @@
    "release_fecha": "",
    "stars_pieza": null
   },
-  "freeotp/freeotp-android": {
+  "authpass/authpass": {
    "estado": "vivo",
-   "stars": 1683,
-   "push": "2026-11-03",
+   "stars": 2809,
+   "push": "2026-09-15",
    "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Java",
-   "desc": "",
-   "release": "v2.0.6",
-   "release_fecha": "2026-02-17",
+   "licencia": "GPL-3.0",
+   "lenguaje": "Dart",
+   "desc": "AuthPass - Password Manager based on Flutter for all platforms. Keepass 2.x (KDBX 3 and KDBX 4) compatible.",
+   "release": "v1.9.11",
+   "release_fecha": "2024-02-04",
+   "stars_pieza": null
+  },
+  "Lucent-Project/Lucent": {
+   "estado": "vivo",
+   "stars": 12,
+   "push": "2026-11-02",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "Lucent 📝 — Notes, tasks & an AI assistant that respects your privacy 🔒 Encrypted & offline-first ✨",
+   "release": "v3.1.2",
+   "release_fecha": "2026-10-20",
    "stars_pieza": null
   },
   "RikkaApps/Shizuku-API": {
@@ -554,7 +597,7 @@
   },
   "d4rken-org/porter": {
    "estado": "vivo",
-   "stars": 243,
+   "stars": 244,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -566,7 +609,7 @@
   },
   "HmnDev-Tech/shevery": {
    "estado": "vivo",
-   "stars": 1589,
+   "stars": 1590,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -578,7 +621,7 @@
   },
   "rushiranpise/Shizuku-Next": {
    "estado": "vivo",
-   "stars": 1413,
+   "stars": 1414,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -638,7 +681,7 @@
   },
   "wxxsfxyzm/InstallerX-Revived": {
    "estado": "vivo",
-   "stars": 7297,
+   "stars": 7298,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -698,7 +741,7 @@
   },
   "thejaustin/ShizukuPlus": {
    "estado": "vivo",
-   "stars": 1686,
+   "stars": 1687,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -751,7 +794,7 @@
   },
   "readest/readest": {
    "estado": "vivo",
-   "stars": 25918,
+   "stars": 25919,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -799,7 +842,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 153949,
+   "stars": 153950,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -823,7 +866,7 @@
   },
   "yuliskov/SmartTube": {
    "estado": "vivo",
-   "stars": 35893,
+   "stars": 35894,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -847,7 +890,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 64039,
+   "stars": 64040,
    "push": "2026-09-26",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -871,7 +914,7 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 118134,
+   "stars": 118135,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -883,7 +926,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97211,
+   "stars": 97212,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1003,7 +1046,7 @@
   },
   "cli/cli": {
    "estado": "vivo",
-   "stars": 46860,
+   "stars": 46861,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -1015,7 +1058,7 @@
   },
   "iBotPeaches/Apktool": {
    "estado": "vivo",
-   "stars": 26979,
+   "stars": 26980,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1040,7 +1083,7 @@
   "Jman-Github/Universal-Patch-Manager": {
    "estado": "vivo",
    "stars": 1407,
-   "push": "2026-11-01",
+   "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -1135,11 +1178,23 @@
   }
  },
  "enlaces": {
+  "https://api.github.com/repos/AChep/keyguard-app/license": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://api.github.com/repos/Jman-Github/Universal-Patch-Manager": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://api.github.com/repos/Jman-Github/Universal-Patch-Manager/releases?per_page=100": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://api.github.com/repos/Monica-Pass/Monica": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://api.github.com/repos/Monica-Pass/Monica/releases?per_page=100": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1178,6 +1233,18 @@
   "https://docs.github.com/en/rest": {
    "codigo": "200",
    "veredicto": "responde"
+  },
+  "https://github.com/AChep/keyguard-app": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/AChep/keyguard-app/blob/master/LICENSE": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/AChep/keyguard-app/blob/master/SAPCLA.md": {
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/AQUALaforet/AudioPolicyOverride": {
    "codigo": "200",
@@ -1263,11 +1330,19 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Lucent-Project/Lucent": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/M66B/NetGuard": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/MetrolistGroup/Metrolist": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Monica-Pass/Monica": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1323,6 +1398,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/authpass/authpass": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/beemdevelopment/Aegis": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1360,14 +1439,6 @@
    "veredicto": "responde"
   },
   "https://github.com/d4rken-org/porter": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/dani-garcia/vaultwarden": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/ente-io/ente": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1523,6 +1594,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/tejado/Authorizer": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/termux/termux-app": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1592,6 +1667,10 @@
    "veredicto": "responde"
   },
   "https://keepass.info/": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://keepassxc.org/": {
    "codigo": "200",
    "veredicto": "responde"
   },

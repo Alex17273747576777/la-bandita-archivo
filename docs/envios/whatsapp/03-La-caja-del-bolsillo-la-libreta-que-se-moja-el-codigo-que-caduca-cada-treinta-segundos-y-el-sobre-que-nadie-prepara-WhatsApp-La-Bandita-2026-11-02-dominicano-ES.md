@@ -498,19 +498,19 @@ Y queda la frase que sirve para cualquier año y cualquier teléfono: la caja fu
 
 ⏬ sigue abajo · parte 26 de 28
 
-═══ MENSAJE 28 de 29 · 1487 caracteres ═══
+═══ MENSAJE 28 de 29 · 1479 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 03*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• dani-garcia/vaultwarden — ★70.184 · empujó en las últimas horas · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
+• dani-garcia/vaultwarden — ★70.194 · empujó en las últimas horas · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
 • ente-io/ente — sin dato hoy (la API no respondió). No afirmo nada.
-• beemdevelopment/Aegis — ★13.458 · *dormido*: sin empujar desde el 6-sep-2026 (58 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
-• bitwarden/android — ★9.582 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
-• Kunzisoft/KeePassDX — ★7.612 · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
-• PhilippC/keepass2android — ★6.364 · empujó el 29-oct-2026 (hace 5 días) · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
-• stratumauth/app — ★4.637 · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.7.0 (1-nov-2026)
+• beemdevelopment/Aegis — ★13.461 · *dormido*: sin empujar desde el 6-sep-2026 (58 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• bitwarden/android — ★9.583 · sin fecha de empuje · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
+• Kunzisoft/KeePassDX — ★7.613 · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
+• PhilippC/keepass2android — ★6.366 · empujó el 29-oct-2026 (hace 5 días) · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
+• stratumauth/app — ★4.638 · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.7.0 (1-nov-2026)
 • andOTP/andOTP — ★3.704 · *dormido*: sin empujar desde el 14-jun-2022 (1603 días) · MIT · última release v0.9.0.1 (15-jun-2021) · *ARCHIVADO*
 • open-keychain/open-keychain — ★2.632 · *dormido*: sin empujar desde el 16-may-2024 (901 días) · GPL-3.0
 • freeotp/freeotp-android — ★1.683 · empujó en las últimas horas · Apache-2.0 · última release v2.0.6 (17-feb-2026)
