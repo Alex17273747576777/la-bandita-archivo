@@ -375,17 +375,17 @@ Los nuevos del trimestre:
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• yuliskov/SmartTube — ★35.913 · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• yuliskov/SmartTube — ★35.923 · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • jolabs40/TVSlim — ★35 · empujó el 20-oct-2026 (hace 15 días) · Apache-2.0 · última release windows-v1.7.0 (20-oct-2026)
-• xbmc/xbmc — ★21.434 · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
-• jellyfin/jellyfin — ★59.007 · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• xbmc/xbmc — ★21.435 · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
+• jellyfin/jellyfin — ★59.014 · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 • meta-tabchen/MoonCast — ★6 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v0.9 (17-oct-2026)
 • mkatadev/GoogleTVAirPlay — ★0 · empujó el 16-oct-2026 (hace 19 días) · GPL-3.0 · última release v1.3.6 (16-oct-2026)
-• home-assistant/core — ★91.960 · empujó en las últimas horas · Apache-2.0 · última release 2026.11.0 (4-nov-2026)
+• home-assistant/core — ★91.971 · empujó en las últimas horas · Apache-2.0 · última release 2026.11.0 (4-nov-2026)
 • esphome/esphome — ★12.014 · empujó en las últimas horas · NOASSERTION · última release 2026.10.2 (2-nov-2026)
-• jxlarrea/kiosk-satellite — ★2.484 · empujó en las últimas horas · NOASSERTION · última release 2026.11.5 (4-nov-2026)
+• jxlarrea/kiosk-satellite — ★2.489 · empujó en las últimas horas · NOASSERTION · última release 2026.11.5 (4-nov-2026)
 • schaumann-byte/hy300-projector-homeassistant — ★0 · empujó el 18-oct-2026 (hace 17 días) · MIT · última release v0.2.3 (18-oct-2026)
-• Sygix/Tsuyu — ★1 · empujó en las últimas horas · AGPL-3.0 · última release v0.3.1 (4-nov-2026)
+• Sygix/Tsuyu — ★1 · empujó en las últimas horas · AGPL-3.0 · última release v0.3.2 (4-nov-2026)
 • Gingerbreadfork/lounge — ★3 · empujó el 1-nov-2026 (hace 3 días) · MIT · última release v0.4.4 (29-oct-2026)
 • destradess/tv-home-universal — ★22 · empujó el 25-oct-2026 (hace 10 días) · NOASSERTION
 • mahmutaunal/TVPilot — ★9 · empujó el 21-sep-2026 (hace 44 días) · NOASSERTION · última release v1.0.0 (21-sep-2026)

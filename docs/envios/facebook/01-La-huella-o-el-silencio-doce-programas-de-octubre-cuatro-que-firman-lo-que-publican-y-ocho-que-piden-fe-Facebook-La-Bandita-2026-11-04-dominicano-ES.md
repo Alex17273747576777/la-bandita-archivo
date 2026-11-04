@@ -451,14 +451,14 @@ Los tres que se quedan fuera, con su cifra:
 Medí otra vez, hoy 4 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • capitan0n/droynis — ★16 · empujó en las últimas horas · GPL-3.0 · última release v0.15.0 (1-nov-2026)
-• Bingblop/ADB-Root-Toolbox — ★124 · empujó el 31-oct-2026 (hace 4 días) · GPL-3.0 · última release v7.22.1 (31-oct-2026)
+• Bingblop/ADB-Root-Toolbox — ★125 · empujó el 31-oct-2026 (hace 4 días) · GPL-3.0 · última release v7.22.1 (31-oct-2026)
 • krishna3163/OmniShizuku — ★18 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
-• zsw125/o3root — ★53 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release v3.2 (31-oct-2026)
-• aaron-gh/SandFly — ★23 · empujó en las últimas horas · Apache-2.0 · última release v0.3.1 (2-nov-2026)
+• zsw125/o3root — ★56 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release v3.2 (31-oct-2026)
+• aaron-gh/SandFly — ★25 · empujó en las últimas horas · Apache-2.0 · última release v0.3.1 (2-nov-2026)
 • rdevz-ph/RedirectGuard — ★17 · empujó en las últimas horas · Apache-2.0 · última release v1.6 (2-nov-2026)
 • wized2/Latch — ★18 · empujó el 29-oct-2026 (hace 6 días) · MIT · última release v0.6.3 (22-oct-2026)
 • sidnvy/8bercue — ★18 · empujó el 26-oct-2026 (hace 9 días) · AGPL-3.0
-• coldMEW/Hush — ★139 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.0.5 (2-nov-2026)
+• coldMEW/Hush — ★140 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.0.5 (2-nov-2026)
 • HellzYeahh/earshot — ★38 · empujó el 1-nov-2026 (hace 3 días) · MIT · última release v0.9.0 (28-oct-2026)
 • WEIHEWU/shizuku-sam — ★41 · empujó en las últimas horas · Apache-2.0 · última release v13.8.40 (4-nov-2026)
 • bl3xand/APK-Toolbox — ★102 · empujó el 28-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.1.6 (28-oct-2026)

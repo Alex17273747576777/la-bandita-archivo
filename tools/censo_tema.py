@@ -36,6 +36,9 @@ TEMAS = {
     "parches": "patch,parche,patches,parches,revanced,morphe,reseam,patcher,apk-mods",
     "televisor": "tv,televisor,television,android-tv,google-tv,roku,chromecast,cast,launcher,media-center,smarttube,kodi",
     "casa": "home-assistant,domotica,esphome,zigbee,mqtt,sensor,smart-home,kiosk,dashboard,homekit",
+    # pieza 08: la red. Se declaran pocas palabras a propósito (H15): vpn, proxy, wireguard,
+    # tailscale, dns, firewall, adblock, adblocker, tunnel, sing-box, xray, doh, dot, mesh
+    "red": "vpn,proxy,wireguard,tailscale,dns,firewall,adblock,adblocker,tunnel,sing-box,xray,doh,dot,mesh",
 }
 
 

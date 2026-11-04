@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 31 tareas abiertas en 12 piezas vivas, numeradas dentro de cada pieza, de 007 a 037. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 35 tareas abiertas en 13 piezas vivas, numeradas dentro de cada pieza, de 007 a 041. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -43,6 +43,10 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 035 | comprobar el 4 de diciembre de 2026 si tv-debloat y morphe-tv-patcher, que hoy no declaran licencia ni publican paquete, han puesto alguna de las dos cosas. | Facebook · 07 | 2026-11-04 |
 | 036 | medir el 4 de febrero de 2027 si kiosk-satellite mantiene su cola —mil ocho cerradas de mil nueve— y si ya declara licencia en el formulario. | Facebook · 07 | 2026-11-04 |
 | 037 | repetir el censo del televisor con la herramienta y comparar con las 83 fichas de hoy, para ver cuánto crece el tema en tres meses. | Facebook · 07 | 2026-11-04 |
+| 038 | volver a contar las sumas de los veinte el 11 de noviembre de 2026 y decir si sing-box o hiddify publicaron la primera de sus cientos. | Facebook · 08 | 2026-11-04 |
+| 039 | comprobar el 4 de diciembre de 2026 si tachyon mantiene la entrega diaria y su cola de doscientas nueve cerradas de doscientas once. | Facebook · 08 | 2026-11-04 |
+| 040 | medir el 4 de febrero de 2027 si NetControl, DNSSwitch y AppDNS —los tres nuevos con un solo paquete publicado— han declarado licencia y publicado una segunda entrega. | Facebook · 08 | 2026-11-04 |
+| 041 | repetir el censo de la red con la herramienta y comparar con las 48 fichas de hoy, para ver cuánto crece el tema en tres meses. | Facebook · 08 | 2026-11-04 |
 
 ## Numeración: la regla y lo declarado
 
@@ -54,6 +58,7 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 > **Declarado:** 05-La-guia-maestra-doce-capitulos-sesent: numera desde 026 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 06-El-taller-los-gestores-de-parches-fir: numera desde 030 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 07-La-pantalla-grande-y-la-casa-que-no-h: numera desde 034 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 08-La-red-seis-caminos-seis-precios-el-p: numera desde 038 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 
 La numeración es **por pieza**, no global: cada pieza numera sus tareas desde 001 porque la compuerta de novedad (M28) las cuenta dentro de la pieza. Por eso la misma cifra puede aparecer en dos piezas distintas y no es un error: la tarea se identifica por su número **y** su pieza.
 

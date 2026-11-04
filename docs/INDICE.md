@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 67 documentos en `docs/`, agrupados en 19 familias, y 39 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 68 documentos en `docs/`, agrupados en 19 familias, y 39 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -98,7 +98,7 @@
 | [`HABILIDADES.md`](HABILIDADES.md) | Habilidades · lo que esta casa sabe hacer porque antes se equivocó | Una habilidad no es una intención: es un procedimiento con un comando que se puede correr y un veredicto que se puede perder. | 229 |
 | [`INVESTIGACION-RECURSOS-2026-11-01.md`](INVESTIGACION-RECURSOS-2026-11-01.md) | INVESTIGACIÓN DE RECURSOS NUEVOS · domingo 1 de noviembre de 2026, 07:00 (Santo Domingo) | Cuatro consultas a la API de GitHub, ordenadas por estrellas, filtrando por fecha de creación: | 145 |
 | [`MAPA-125-FACEBOOK.md`](MAPA-125-FACEBOOK.md) | MAPA DE LAS 125 PIEZAS DE FACEBOOK · propuesta para aprobación | Cada línea es una pieza: **número · título · el gancho** —la tensión medida que la justifica, no un adjetivo— y **la materia prima**, que son… | 317 |
-| [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 70 |
+| [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 75 |
 | [`VENCIMIENTOS.md`](VENCIMIENTOS.md) | VENCIMIENTOS DEL REGISTRO | Las **0** fichas sin respaldo no están desactualizadas: están mal fechadas. | 63 |
 | [`COMO-SE-MANDA.md`](envios/COMO-SE-MANDA.md) | CÓMO SE MANDA · reglas y mapa de los envíos | Esto no es un catálogo de archivos: es la decisión de cómo sale el archivo a la calle. | 103 |
 | [`01-La-huella-o-el-silencio-doce-programas-de-octubre-cuatro-que-firman-lo-que-publican-y-ocho-que-piden-fe-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`](envios/facebook/01-La-huella-o-el-silencio-doce-programas-de-octubre-cuatro-que-firman-lo-que-publican-y-ocho-que-piden-fe-Facebook-La-Bandita-2026-11-04-dominicano-ES.md) | PIEZA 01 · envío para Facebook | La Bandita · pieza 01 · guía del 4-nov-2026 · te la mando hoy en 20 mensajes. | 483 |
@@ -108,7 +108,8 @@
 | [`05-La-guia-maestra-doce-capitulos-sesenta-y-seis-cifras-que-se-movieron-y-veintidos-fichas-que-te-dan-con-que-comprobar-el-archivo-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`](envios/facebook/05-La-guia-maestra-doce-capitulos-sesenta-y-seis-cifras-que-se-movieron-y-veintidos-fichas-que-te-dan-con-que-comprobar-el-archivo-Facebook-La-Bandita-2026-11-04-dominicano-ES.md) | PIEZA 05 · envío para Facebook | La Bandita · pieza 05 · guía del 4-nov-2026 · te la mando hoy en 19 mensajes. | 500 |
 | [`06-El-taller-los-gestores-de-parches-firman-cincuenta-y-cinco-de-sus-ciento-noventa-archivos-y-los-conjuntos-de-parches-no-firman-ninguno-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`](envios/facebook/06-El-taller-los-gestores-de-parches-firman-cincuenta-y-cinco-de-sus-ciento-noventa-archivos-y-los-conjuntos-de-parches-no-firman-ninguno-Facebook-La-Bandita-2026-11-04-dominicano-ES.md) | PIEZA 06 · envío para Facebook | La Bandita · pieza 06 · guía del 4-nov-2026 · te la mando hoy en 18 mensajes. | 426 |
 | [`07-La-pantalla-grande-y-la-casa-que-no-hace-ruido-cinco-gigantes-sin-un-solo-adjunto-y-cinco-proyectos-de-un-mes-que-firman-el-suyo-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`](envios/facebook/07-La-pantalla-grande-y-la-casa-que-no-hace-ruido-cinco-gigantes-sin-un-solo-adjunto-y-cinco-proyectos-de-un-mes-que-firman-el-suyo-Facebook-La-Bandita-2026-11-04-dominicano-ES.md) | PIEZA 07 · envío para Facebook | La Bandita · pieza 07 · guía del 4-nov-2026 · te la mando hoy en 17 mensajes. | 410 |
-| [`_INDICE.md`](envios/facebook/_INDICE.md) | ENVÍOS DE FACEBOOK · índice | Generado el 2026-11-04 a partir de la medición del mismo día (`docs/envios/_medicion-facebook.json`). | 20 |
+| [`08-La-red-seis-caminos-seis-precios-el-programa-mas-nuevo-del-tema-saca-ochenta-y-los-dos-mas-instalados-no-firman-nada-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`](envios/facebook/08-La-red-seis-caminos-seis-precios-el-programa-mas-nuevo-del-tema-saca-ochenta-y-los-dos-mas-instalados-no-firman-nada-Facebook-La-Bandita-2026-11-04-dominicano-ES.md) | PIEZA 08 · envío para Facebook | La Bandita · pieza 08 · guía del 4-nov-2026 · te la mando hoy en 17 mensajes. | 433 |
+| [`_INDICE.md`](envios/facebook/_INDICE.md) | ENVÍOS DE FACEBOOK · índice | Generado el 2026-11-04 a partir de la medición del mismo día (`docs/envios/_medicion-facebook.json`). | 21 |
 | [`01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`](envios/whatsapp/01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md) | PIEZA 01 · envío para WhatsApp | La Bandita · pieza 01 · guía del 2-nov-2026 · te la mando hoy en 27 mensajes. | 616 |
 | [`02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`](envios/whatsapp/02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md) | PIEZA 02 · envío para WhatsApp | La Bandita · pieza 02 · guía del 2-nov-2026 · te la mando hoy en 29 mensajes. | 647 |
 | [`03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-codigo-que-caduca-cada-treinta-segundos-y-el-sobre-que-nadie-prepara-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`](envios/whatsapp/03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-codigo-que-caduca-cada-treinta-segundos-y-el-sobre-que-nadie-prepara-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md) | PIEZA 03 · envío para WhatsApp | La Bandita · pieza 03 · guía del 2-nov-2026 · te la mando hoy en 29 mensajes. | 532 |
@@ -166,7 +167,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`atestar.py`](../tools/atestar.py) | ATESTACIÓN · sella el registro con SHA-256 y encadena el lote anterior. | 113 |
 | [`autoprueba.py`](../tools/autoprueba.py) | AUTOPRUEBA DE LA VARA · una compuerta que no falla ante un fallo sintético no es una compuerta. | 222 |
 | [`censo_medir.py`](../tools/censo_medir.py) | RE-MEDICIÓN DEL REGISTRO · deja de mirar el censo del 15-oct y lo vuelve a medir hoy. | 281 |
-| [`censo_tema.py`](../tools/censo_tema.py) | CENSO DE UN TEMA · contar sin pedir permiso a la memoria (error E12). | 105 |
+| [`censo_tema.py`](../tools/censo_tema.py) | CENSO DE UN TEMA · contar sin pedir permiso a la memoria (error E12). | 108 |
 | [`descubrir.py`](../tools/descubrir.py) | DESCUBRIR · extrae repositorios de una fuente y los cruza contra el registro. | 105 |
 | [`diseno.py`](../tools/diseno.py) | DISEÑO · el sistema visual de la casa, en un solo sitio. | 477 |
 | [`doctor.py`](../tools/doctor.py) | DOCTOR · el primer comando que se corre en una máquina nueva, y el último antes de publicar. | 168 |

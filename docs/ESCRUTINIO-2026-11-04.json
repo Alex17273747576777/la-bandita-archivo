@@ -1,6 +1,6 @@
 {
  "fecha": "2026-11-04",
- "medido_en": "2026-11-04T18:45:50+00:00",
+ "medido_en": "2026-11-04T22:15:22+00:00",
  "pesos": {
   "licencia": 15,
   "ci": 10,
@@ -18,8 +18,43 @@
   "atencion_anomala": -15,
   "una_sola_persona": -5
  },
- "medidos": 153,
+ "medidos": 163,
  "fichas": [
+  {
+   "repo": "Dushnilin/tachyon",
+   "puntos": 80,
+   "licencia": "GPL-2.0",
+   "flujos_ci": [
+    "backend-ci.yml",
+    "build.yml",
+    "frontend-ci.yml",
+    "shellcheck.yml"
+   ],
+   "adjuntos": 70,
+   "con_huella": 10,
+   "ultima_entrega": "2026-11-04",
+   "commits_30d": 388,
+   "contribuyentes": 24,
+   "incidencias": {
+    "abiertas": 2,
+    "cerradas": 209
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 114,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-2.0) +15",
+    "integración continua con 4 flujo(s) +10",
+    "adjunto con huella (sha256sums.txt) +10",
+    "entrega en los últimos 30 días +10",
+    "388 cambios en 30 días +10",
+    "24 personas empujando +10",
+    "incidencias cerradas 209/211 +10",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
   {
    "repo": "readest/readest",
    "puntos": 80,
@@ -990,6 +1025,41 @@
    ]
   },
   {
+   "repo": "ELowry/DNSToggle",
+   "puntos": 65,
+   "licencia": "MIT",
+   "flujos_ci": [
+    "dependency-submission.yml",
+    "fdroid_lint.yml",
+    "pr-cleanup.yml",
+    "pr-route.yml",
+    "release.yml"
+   ],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-01",
+   "commits_30d": 37,
+   "contribuyentes": 11,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 15
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 194,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "integración continua con 6 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "37 cambios en 30 días +10",
+    "11 personas empujando +10",
+    "incidencias cerradas 15/15 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "immich-app/immich",
    "puntos": 64,
    "licencia": "AGPL-3.0",
@@ -1211,7 +1281,7 @@
    "adjuntos": 699,
    "con_huella": 40,
    "ultima_entrega": "2026-10-29",
-   "commits_30d": 155,
+   "commits_30d": 157,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 468,
@@ -1226,7 +1296,7 @@
     "integración continua con 29 flujo(s) +10",
     "adjunto con huella (netbird-ui_0.82.0_checksums.txt) +10",
     "entrega en los últimos 30 días +10",
-    "155 cambios en 30 días +10",
+    "157 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 2421/2889 +8",
     "SECURITY.md presente +5",
@@ -2951,14 +3021,14 @@
     "virustotal_scan.yml",
     "windows-store-sync.yml"
    ],
-   "adjuntos": 137,
+   "adjuntos": 140,
    "con_huella": 0,
-   "ultima_entrega": "2026-11-03",
-   "commits_30d": 410,
+   "ultima_entrega": "2026-11-04",
+   "commits_30d": 415,
    "contribuyentes": 79,
    "incidencias": {
-    "abiertas": 36,
-    "cerradas": 1833
+    "abiertas": 34,
+    "cerradas": 1835
    },
    "security_md": false,
    "scorecard": null,
@@ -2969,9 +3039,9 @@
     "integración continua con 6 flujo(s) +10",
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
-    "410 cambios en 30 días +10",
+    "415 cambios en 30 días +10",
     "79 personas empujando +10",
-    "incidencias cerradas 1833/1869 +10",
+    "incidencias cerradas 1835/1869 +10",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -4282,6 +4352,34 @@
    ]
   },
   {
+   "repo": "lenox108/NetModeSwitch",
+   "puntos": 34,
+   "licencia": null,
+   "flujos_ci": [],
+   "adjuntos": 15,
+   "con_huella": 1,
+   "ultima_entrega": "2026-10-30",
+   "commits_30d": 84,
+   "contribuyentes": 3,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 13,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "sin flujos de integración +0",
+    "adjunto con huella (SHA256SUMS-3.5.txt) +10",
+    "entrega en los últimos 30 días +10",
+    "84 cambios en 30 días +10",
+    "3 personas empujando +4",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "SysAdminDoc/AppManagerNG",
    "puntos": 33,
    "licencia": "GPL-3.0",
@@ -4339,6 +4437,34 @@
     "0 cambios en 30 días +0",
     "1 personas empujando +0",
     "incidencias cerradas 6/8 +8",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "Shishir-ip/AppDNS",
+   "puntos": 32,
+   "licencia": "Apache-2.0",
+   "flujos_ci": [],
+   "adjuntos": 2,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-10",
+   "commits_30d": 18,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 25,
+   "archivado": false,
+   "notas": [
+    "licencia legible (Apache-2.0) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "18 cambios en 30 días +7",
+    "1 personas empujando +0",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -4401,6 +4527,37 @@
    ]
   },
   {
+   "repo": "codegeasse1/hikari-adblock",
+   "puntos": 31,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "build.yml"
+   ],
+   "adjuntos": 58,
+   "con_huella": 0,
+   "ultima_entrega": "2026-09-11",
+   "commits_30d": 0,
+   "contribuyentes": 2,
+   "incidencias": {
+    "abiertas": 3,
+    "cerradas": 1
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 68,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 1 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "2 personas empujando +4",
+    "incidencias cerradas 1/4 +2",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "timschneeb/awesome-shizuku",
    "puntos": 30,
    "licencia": "NOASSERTION",
@@ -4430,6 +4587,40 @@
     "61 cambios en 30 días +10",
     "66 personas empujando +10",
     "incidencias cerradas 69/71 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "abapqlcm/AuroraVPN",
+   "puntos": 30,
+   "licencia": "AGPL-3.0",
+   "flujos_ci": [
+    "ci.yml",
+    "fdroid-repo.yml",
+    "release.yml"
+   ],
+   "adjuntos": 6,
+   "con_huella": 0,
+   "ultima_entrega": "2026-09-20",
+   "commits_30d": 0,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 1,
+    "cerradas": 0
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 60,
+   "archivado": false,
+   "notas": [
+    "licencia legible (AGPL-3.0) +15",
+    "integración continua con 3 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "1 personas empujando +0",
+    "incidencias cerradas 0/1 +0",
+    "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -4527,6 +4718,90 @@
     "adjuntos sin huella +0",
     "entrega en los últimos 30 días +10",
     "7 cambios en 30 días +4",
+    "1 personas empujando +0",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "jason5545/tailgate",
+   "puntos": 29,
+   "licencia": "MIT",
+   "flujos_ci": [],
+   "adjuntos": 1,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-18",
+   "commits_30d": 6,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 17,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "6 cambios en 30 días +4",
+    "1 personas empujando +0",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "georgechou0517/DNSSwitch",
+   "puntos": 29,
+   "licencia": "MIT-0",
+   "flujos_ci": [],
+   "adjuntos": 2,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-14",
+   "commits_30d": 3,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 22,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT-0) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "3 cambios en 30 días +4",
+    "1 personas empujando +0",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "haintrainn/grapheneos-firewall-app",
+   "puntos": 29,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [],
+   "adjuntos": 2,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-19",
+   "commits_30d": 3,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 16,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "3 cambios en 30 días +4",
     "1 personas empujando +0",
     "sin Scorecard en deps.dev +0"
    ]
@@ -4921,6 +5196,36 @@
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0",
     "archivado −30"
+   ]
+  },
+  {
+   "repo": "mimbasher/NetControl",
+   "puntos": 10,
+   "licencia": null,
+   "flujos_ci": [
+    "build.yml"
+   ],
+   "adjuntos": 3,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-02",
+   "commits_30d": 0,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 34,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "integración continua con 1 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "1 personas empujando +0",
+    "sin Scorecard en deps.dev +0"
    ]
   },
   {
