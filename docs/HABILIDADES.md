@@ -17,6 +17,8 @@ puede perder. Cada una nace de un error concreto de `docs/ERRORES.md`, y si el e
 | H10 | **Un censo se repite o no se publica** | E30 | `tools/censo_tema.py` | lectura del censo |
 | H11 | **La guía también se mide** | E25 | `tools/medir_guia.py --aplicar` | `guia-maestra` + remedir |
 | H12 | **La fecha se lee en vivo, al empezar y al terminar** | E31 | `tools/fecha_viva.py --inicio` / `--fin` | `docs/FECHA-VIVA.json` |
+| H16 | **La banda se mide en caracteres** | E36 | `python3 tools/manual_gate.py --pieza` | M11 |
+| H17 | **La madurez se declara ficha a ficha** | E37 | `python3 tools/novedad_gate.py` | M25 |
 
 ## H01 · Medir antes de tocar
 
@@ -200,20 +202,35 @@ palabras y su ventana, así que el número lleva su método pegado.
 «cuatrocientas fichas» y no dice nada. La disciplina es la contraria: pocas palabras, declaradas, y
 la diferencia entre la cuenta a mano y la de la máquina se publica en vez de esconderse.
 
+## H16 · La banda se mide en caracteres, no en bytes
+
+**Nace de E36.** `wc -c` devuelve bytes y la compuerta M11 compara caracteres. En esta casa el texto
+va lleno de acentos, estrellas y rayas largas, así que la diferencia entre las dos cuentas pasa de dos
+mil unidades en una pieza de cuarenta mil: suficiente para recortar media sección de más o para
+publicarse fuera de banda creyendo que se va dentro.
+
+**La regla.** La longitud se consulta **con la compuerta**, nunca con `wc -c` ni a ojo:
+`python3 tools/manual_gate.py --pieza <archivo>` imprime el número exacto que se compara con la banda.
+Se recorta y se vuelve a preguntar, en ese orden y no al revés.
+
+**Cómo se pierde.** Recortando a ciegas hasta que «parezca» que cabe: el resultado es una pieza más
+pobre y la misma duda. La compuerta existe para que esa duda no se resuelva adivinando.
+
+## H17 · La madurez se declara ficha a ficha
+
+**Nace de E37.** El testigo de novedad no lee la pieza entera: lee párrafos. Un bloque con una ficha
+joven —menos de cien estrellas— tiene que llevar la palabra «madurez» dentro, y no vale que esté en
+la sección de método tres pantallas más arriba.
+
+**La regla.** Cada ficha que baja de cien estrellas declara sus días de vida en su propia línea, y el
+generador lo hace solo (`ficha_c` en el taller de la pieza): la cifra no se escribe a mano, se toma de
+la medición del día. Así la pieza no puede declarar una madurez que no midió.
+
+**Cómo se pierde.** Escribiendo «madurez» una vez en la cabecera del bloque para callar la compuerta.
+El lector de la ficha se queda sin el dato y la compuerta pasa: forma sin oficio, que es el error que
+esta casa lleva todo el día cazando.
+
 ## El ritual completo, con las habilidades dentro
-
-```
-make libro                                     # tablero, índice y tareas
-LBT=… python3 tools/remedir.py --escribir docs/MEDICION-<pieza>-<fecha>.json --pieza <pieza>
-LBT=… python3 tools/remedir.py --pieza <pieza> --medicion docs/MEDICION-<pieza>-<fecha>.json
-python3 tools/manual_gate.py --pieza <pieza>   # forma y M29
-python3 tools/novedad_gate.py <pieza> --corte <fecha>
-python3 tools/remedir.py --solape <pieza-nueva> <pieza-vieja>     # si reemplaza a otra
-LBT=… python3 tools/envio.py --medir --generar --verificar
-make ritual                                    # verificar y después sellar
-git commit && git push                         # y esperar el CI
-```
-
 
 ```
 make libro                                     # tablero, índice y tareas

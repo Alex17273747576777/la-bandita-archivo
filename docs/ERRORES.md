@@ -48,6 +48,9 @@ la publicación.
 
 | E35 | 4-nov | `tools/censo_tema.py` | El censo de la pieza 06 se contó **a mano** porque la herramienta de temas solo tenía cuatro palabras declaradas y «parches» no estaba entre ellas: un número que no se puede repetir con una orden no es un censo. Se añadieron los temas **parches**, **televisor** y **casa**, con sus palabras a la vista. Al repetir la cuenta, la herramienta da **58** donde la mano dio **57**: la diferencia es la palabra «patcher», que la mano no buscó. | el censo de la pieza 07 | H15 |
 
+| E36 | 4-nov | Pieza 10 · medición de longitud | La banda se comprobó con `wc -c`, que cuenta **bytes**, y la vara cuenta **caracteres**: en un texto con acentos, estrellas y rayas cada carácter pesa dos o tres bytes. Se recortaron más de dos mil caracteres de prosa buena creyendo que sobraban, y al pasar la compuerta la pieza salió con 43.370 caracteres cuando el cálculo a ojo decía 45.167. | la compuerta M11, después de tres rondas de recorte | H16 |
+| E37 | 4-nov | Pieza 10 · fichas en bloque | `novedad_gate` comprueba M25 **por párrafo**: si en un párrafo hay una ficha con menos de cien estrellas, ese párrafo entero tiene que declarar «madurez». Las fichas de la pieza van en un solo bloque por familia, así que ocho familias salieron en rojo con la madurez escrita en otra parte del texto. Se declaró ficha a ficha, solo en las jóvenes, y el rojo se fue. | novedad_gate, primera corrida | H17 |
+
 ## Cómo se usa este registro
 
 1. Antes de escribir una pieza nueva se leen los errores de su misma familia.

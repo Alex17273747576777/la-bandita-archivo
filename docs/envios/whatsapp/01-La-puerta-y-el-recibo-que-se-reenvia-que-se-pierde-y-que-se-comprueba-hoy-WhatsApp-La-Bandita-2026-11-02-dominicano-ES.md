@@ -582,22 +582,22 @@ Y queda la parte que no depende de ninguna herramienta: cuando alguien mande un 
 
 ⏬ sigue abajo · parte 24 de 26
 
-═══ MENSAJE 26 de 27 · 1575 caracteres ═══
+═══ MENSAJE 26 de 27 · 1574 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ImranR98/Obtainium — ★21.198 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
-• Droid-ify/client — ★7.694 · *dormido*: sin empujar desde el 12-sep-2026 (53 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
-• NeoApplications/Neo-Store — ★5.624 · empujó el 23-oct-2026 (hace 12 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
-• MuntashirAkon/AppManager — ★9.440 · empujó en las últimas horas · NOASSERTION · última release v4.1.1 (4-sep-2026)
-• RikkaApps/Shizuku — ★32.775 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• NeoApplications/Neo-Backup — ★3.894 · empujó en las últimas horas · AGPL-3.0 · última release 8.3.18 (3-may-2026)
+• ImranR98/Obtainium — ★21.215 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• Droid-ify/client — ★7.698 · *dormido*: sin empujar desde el 12-sep-2026 (53 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
+• NeoApplications/Neo-Store — ★5.625 · empujó el 23-oct-2026 (hace 12 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
+• MuntashirAkon/AppManager — ★9.448 · empujó en las últimas horas · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• RikkaApps/Shizuku — ★32.801 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• NeoApplications/Neo-Backup — ★3.895 · empujó en las últimas horas · AGPL-3.0 · última release 8.3.18 (3-may-2026)
 • XayahSuSuSu/Android-DataBackup — ★7.559 · empujó el 25-oct-2026 (hace 10 días) · GPL-3.0 · última release 2.0.12 (20-sep-2025)
-• 0x192/universal-android-debloater — ★20.326 · *dormido*: sin empujar desde el 2-ago-2024 (824 días) · GPL-3.0
-• rumboalla/apkupdater — ★4.063 · *dormido*: sin empujar desde el 28-may-2026 (160 días) · GPL-3.0 · última release 0.0.604-ci (28-may-2026)
-• accrescent/accrescent — ★2.306 · empujó en las últimas horas · Apache-2.0 · última release 0.28.1 (10-nov-2025)
+• 0x192/universal-android-debloater — ★20.331 · *dormido*: sin empujar desde el 2-ago-2024 (824 días) · GPL-3.0
+• rumboalla/apkupdater — ★4.064 · *dormido*: sin empujar desde el 28-may-2026 (160 días) · GPL-3.0 · última release 0.0.604-ci (28-may-2026)
+• accrescent/accrescent — ★2.306 · empujó en las últimas horas · Apache-2.0 · última release 0.29.1 (4-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -498,21 +498,21 @@ Y queda la frase que sirve para cualquier año y cualquier teléfono: la caja fu
 
 ⏬ sigue abajo · parte 26 de 28
 
-═══ MENSAJE 28 de 29 · 1494 caracteres ═══
+═══ MENSAJE 28 de 29 · 1487 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 03*
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• dani-garcia/vaultwarden — ★70.218 · empujó el 2-nov-2026 (hace 2 días) · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
+• dani-garcia/vaultwarden — ★70.246 · empujó en las últimas horas · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
 • ente-io/ente — sin dato hoy (la API no respondió). No afirmo nada.
-• beemdevelopment/Aegis — ★13.466 · *dormido*: sin empujar desde el 6-sep-2026 (59 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
-• bitwarden/android — ★9.585 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
-• Kunzisoft/KeePassDX — ★7.613 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
+• beemdevelopment/Aegis — ★13.470 · *dormido*: sin empujar desde el 6-sep-2026 (59 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• bitwarden/android — ★9.586 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
+• Kunzisoft/KeePassDX — ★7.619 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
 • PhilippC/keepass2android — ★6.367 · empujó el 29-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
 • stratumauth/app — ★4.636 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.0 (1-nov-2026)
 • andOTP/andOTP — ★3.704 · *dormido*: sin empujar desde el 14-jun-2022 (1604 días) · MIT · última release v0.9.0.1 (15-jun-2021) · *ARCHIVADO*
-• open-keychain/open-keychain — ★2.632 · *dormido*: sin empujar desde el 16-may-2024 (902 días) · GPL-3.0
+• open-keychain/open-keychain — ★2.633 · *dormido*: sin empujar desde el 16-may-2024 (902 días) · GPL-3.0
 • freeotp/freeotp-android — ★1.683 · empujó en las últimas horas · Apache-2.0 · última release v2.0.6 (17-feb-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

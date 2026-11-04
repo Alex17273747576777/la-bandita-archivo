@@ -619,13 +619,13 @@ Queda una cosa más, que es la que más se olvida: la ventana y la casa. Cinco d
 Medí otra vez, hoy 4 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • KRTirtho/spotube — sin dato hoy (la API no respondió). No afirmo nada.
-• MetrolistGroup/Metrolist — ★14.003 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.735 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
-• AntennaPod/AntennaPod — ★8.263 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release 3.12.3 (13-oct-2026)
+• MetrolistGroup/Metrolist — ★14.019 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.766 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• AntennaPod/AntennaPod — ★8.265 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • theovilardo/PixelPlayer — sin dato hoy (la API no respondió). No afirmo nada.
-• namidaco/namida — ★6.786 · empujó el 1-nov-2026 (hace 3 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
+• namidaco/namida — ★6.787 · empujó el 1-nov-2026 (hace 3 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
 • z-huang/InnerTune — ★6.139 · *dormido*: sin empujar desde el 13-nov-2025 (356 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
-• OuterTune/OuterTune — ★5.442 · empujó el 12-oct-2026 (hace 23 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
+• OuterTune/OuterTune — ★5.443 · empujó el 12-oct-2026 (hace 23 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
 • RetroMusicPlayer/RetroMusicPlayer — ★5.383 · empujó en las últimas horas · GPL-3.0 · última release v7.0.3 (13-ago-2026)
 • OxygenCobalt/Auxio — ★4.421 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
 • fast4x/RiMusic — ★3.897 · *dormido*: sin empujar desde el 30-jul-2025 (462 días) · GPL-3.0 · última release v0.6.76 (21-mar-2025) · *ARCHIVADO*
