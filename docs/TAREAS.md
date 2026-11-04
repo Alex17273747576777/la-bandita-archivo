@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 22 tareas abiertas en 11 piezas vivas, numeradas dentro de cada pieza, de 001 a 013. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 23 tareas abiertas en 11 piezas vivas, numeradas dentro de cada pieza, de 001 a 017. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -12,15 +12,12 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 
 | # | Tarea | Origen | Corte |
 |---|---|---|---|
-| 001 | volver a medir el 3 de diciembre de 2026 los ocho programas de octubre y publicar cuántos siguieron publicando entrega y cuántos se durmieron, con la fecha de su último empujón. | Facebook · 02 | 2026-11-03 |
 | 001 | volver a medir el 3 de diciembre de 2026 los doce programas y publicar cuáles siguieron publicando entrega, con la fecha exacta de cada una. | Facebook · 03 | 2026-11-03 |
 | 001 | volver a medir el 3 de diciembre de 2026 los veintiséis programas y publicar cuántos siguieron publicando entrega, con la fecha exacta de cada una y el hueco entre empujón y entrega. | Facebook · 04 | 2026-11-04 |
 | 001 | pedir al autor del programa, en su repositorio, que el flujo de publicación escriba un archivo de sumas SHA-256 al lado de cada entrega, y anotar la respuesta en el acta del 4 de diciembre de 2026. | Facebook · 06 | 2026-11-03 |
-| 002 | abrir en el repositorio de namida una petición cortés para que declare licencia, explicando que su ausencia es lo único que impide que la comunidad continúe el proyecto si su autor se cansa, y anotar la respuesta en el acta del 3 de diciembre. | Facebook · 02 | 2026-11-03 |
 | 002 | escribir al autor de Keyguard una nota cortés con una sola pregunta: si su licencia «All Rights Reserved» es una decisión definitiva o si consideraría una licencia libre para que su programa pueda continuarse, y anotar la respuesta en el acta del 3 de diciembre. | Facebook · 03 | 2026-11-03 |
 | 002 | correr las tres órdenes de comprobación en el teléfono de repuesto y guardar las tres fotografías del inventario con su huella, para tener la primera comparación mensual con fecha. | Facebook · 04 | 2026-11-04 |
 | 002 | remedir el 3 de diciembre de 2026 las tres entregas del linaje —el gestor original, el de Morphe y este— y publicar cuál de los tres publicó más seguido en el mes, con la fecha del empujón de cada uno. | Facebook · 06 | 2026-11-03 |
-| 003 | escribir a los autores de SplitAudio y de Audio Policy Override para ofrecerles la traducción de su presentación al español, porque su documentación en un solo idioma es la única barrera entre esos programas y este público. | Facebook · 02 | 2026-11-03 |
 | 003 | ofrecer a los autores de Monica y de Lucent la revisión de su presentación en español y la traducción de esta ficha, porque son los dos programas nuevos del tema y su documentación en varios idiomas ya es mejor que la media del ecosistema. | Facebook · 03 | 2026-11-03 |
 | 003 | escribir una nota cortés a los autores de porter y de droynis agradeciendo que publiquen la huella de sus adjuntos, y preguntar a droynis si su lista de comprobaciones puede crecer sin pedir el permiso de internet; anotar la respuesta en el acta del 3 de diciembre. | Facebook · 04 | 2026-11-04 |
 | 003 | escribir la versión de WhatsApp de esta pieza, más corta, con los cinco pasos reducidos a tres y el episodio del 451 contado en dos párrafos, y comprobar que su banda de longitud se cumple antes de enviarla. | Facebook · 06 | 2026-11-03 |
@@ -34,10 +31,15 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 011 | repetir el censo de las 875 fichas del trimestre el 4 de diciembre de 2026 con la misma orden, y comparar cuántas siguieron publicando y cuántas se quedaron quietas. | Facebook · 01 | 2026-11-04 |
 | 012 | pedir el Scorecard de los quince a OpenSSF por la vía pública, para que la próxima medición pueda usar los cien puntos y no ochenta. | Facebook · 01 | 2026-11-04 |
 | 013 | comprobar el 4 de mayo de 2027 si alguno de los quince publica una atestación verificable, y si la hay, correr la orden seis contra ella y publicar el resultado. | Facebook · 01 | 2026-11-04 |
+| 014 | volver a contar las huellas de los veintiuno el 11 de noviembre de 2026 y publicar cuántos proyectos respondieron al pedido de la orden seis. | Facebook · 02 | 2026-11-04 |
+| 015 | repetir el censo de audio el 4 de diciembre de 2026 con la misma orden y comparar cuántos de los 121 siguieron publicando y cuántos se quedaron quietos. | Facebook · 02 | 2026-11-04 |
+| 016 | pedir el Scorecard de los veintiuno a OpenSSF por la vía pública, para que la próxima medición use cien puntos y no ochenta. | Facebook · 02 | 2026-11-04 |
+| 017 | comprobar el 4 de mayo de 2027 si alguno de los veintiuno publica una atestación verificable, y si la hay, correr la orden cuatro contra ella y publicar el resultado. | Facebook · 02 | 2026-11-04 |
 
 ## Numeración: la regla y lo declarado
 
 > **Declarado:** 01-La-huella-o-el-silencio-doce-programa: numera desde 010 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 02-La-musica-que-no-se-cae-seis-grandes-: numera desde 014 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 05-La-guia-maestra-contada-despacio-doce: numera desde 007 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 05-La-guia-maestra-doce-capitulos-setent: numera desde 004 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 
