@@ -12,7 +12,8 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 04 | La lista del permiso: seis de veintiséis dan la huella, trece nacieron | 20 | 3645 | 26 | 0 | no | `04-La-lista-del-permiso-seis-de-veintiseis-dan-la-huella-trece-nacieron-en-el-trimestre-y-el-tronco-lleva-quinientos-cuatro-dias-sin-empujar-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 05 | La guía maestra: doce capítulos, setenta fichas medidas hoy y veintidó | 19 | 3941 | 31 | 0 | no | `05-La-guia-maestra-doce-capitulos-sesenta-y-seis-cifras-que-se-movieron-y-veintidos-fichas-que-te-dan-con-que-comprobar-el-archivo-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 06 | El taller de los parches: los gestores firman cincuenta y cinco de sus | 18 | 3653 | 18 | 0 | no | `06-El-taller-los-gestores-de-parches-firman-cincuenta-y-cinco-de-sus-ciento-noventa-archivos-y-los-conjuntos-de-parches-no-firman-ninguno-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
+| 07 | La pantalla grande y la casa que no hace ruido: cinco gigantes sin un  | 17 | 3626 | 17 | 0 | no | `07-La-pantalla-grande-y-la-casa-que-no-hace-ruido-cinco-gigantes-sin-un-solo-adjunto-y-cinco-proyectos-de-un-mes-que-firman-el-suyo-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 
-**6 piezas · 116 mensajes** · el mayor de todos: 3941 caracteres.
+**7 piezas · 133 mensajes** · el mayor de todos: 3941 caracteres.
 
 

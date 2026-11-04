@@ -46,6 +46,8 @@ la publicación.
 
 | E34 | 4-nov | `tools/remedir.py` · `tools/manual_gate.py` | Dos compuertas trataban lo excepcional como avería. Una: el repositorio bloqueado por la plataforma (código 451, aviso legal) salía como «cifra desactualizada», así que una pieza que **cuenta** el bloqueo no podía pasar la comprobación. Otra: una dirección pegada a un acento grave de código en línea (`…patches\``) no casaba con la lista de enlaces y M07 daba la URL por perdida. Se separó lo declarado de lo fallado: un repositorio sin objeto **medido hoy** se avisa y se cita en la pieza, y el detector de enlaces recorta también el acento grave. | la pieza 06, que gira alrededor del 451 | H14 |
 
+| E35 | 4-nov | `tools/censo_tema.py` | El censo de la pieza 06 se contó **a mano** porque la herramienta de temas solo tenía cuatro palabras declaradas y «parches» no estaba entre ellas: un número que no se puede repetir con una orden no es un censo. Se añadieron los temas **parches**, **televisor** y **casa**, con sus palabras a la vista. Al repetir la cuenta, la herramienta da **58** donde la mano dio **57**: la diferencia es la palabra «patcher», que la mano no buscó. | el censo de la pieza 07 | H15 |
+
 ## Cómo se usa este registro
 
 1. Antes de escribir una pieza nueva se leen los errores de su misma familia.

@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-04",
- "medido_en_utc": "2026-11-04T18:34:45+00:00",
+ "medido_en_utc": "2026-11-04T18:47:56+00:00",
  "repos": {
   "capitan0n/droynis": {
    "estado": "vivo",
@@ -316,7 +316,7 @@
   },
   "maxrave-dev/SimpMusic": {
    "estado": "vivo",
-   "stars": 12758,
+   "stars": 12759,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -484,7 +484,7 @@
   },
   "Kunzisoft/KeePassDX": {
    "estado": "vivo",
-   "stars": 7617,
+   "stars": 7618,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -508,7 +508,7 @@
   },
   "beemdevelopment/Aegis": {
    "estado": "vivo",
-   "stars": 13468,
+   "stars": 13469,
    "push": "2026-09-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -724,7 +724,7 @@
   },
   "iamr0s/Dhizuku": {
    "estado": "vivo",
-   "stars": 4085,
+   "stars": 4086,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -736,7 +736,7 @@
   },
   "samolego/Canta": {
    "estado": "vivo",
-   "stars": 6463,
+   "stars": 6464,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "LGPL-3.0",
@@ -904,7 +904,7 @@
   },
   "juanfont/headscale": {
    "estado": "vivo",
-   "stars": 45366,
+   "stars": 45367,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "BSD-3-Clause",
@@ -916,7 +916,7 @@
   },
   "rclone/rclone": {
    "estado": "vivo",
-   "stars": 60799,
+   "stars": 60800,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "MIT",
@@ -1012,7 +1012,7 @@
   },
   "M66B/NetGuard": {
    "estado": "vivo",
-   "stars": 3963,
+   "stars": 3964,
    "push": "2026-08-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1060,7 +1060,7 @@
   },
   "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
    "estado": "vivo",
-   "stars": 9741,
+   "stars": 9742,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1072,7 +1072,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97319,
+   "stars": 97320,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1084,7 +1084,7 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 118235,
+   "stars": 118236,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1120,7 +1120,7 @@
   },
   "netbirdio/netbird": {
    "estado": "vivo",
-   "stars": 30671,
+   "stars": 30673,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1144,7 +1144,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 64091,
+   "stars": 64092,
    "push": "2026-09-26",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1156,7 +1156,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 154025,
+   "stars": 154027,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1386,6 +1386,150 @@
    "release": null,
    "release_fecha": "",
    "stars_pieza": null
+  },
+  "yuliskov/SmartTube": {
+   "estado": "vivo",
+   "stars": 35913,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Java",
+   "desc": "Browse media content with your own rules on Android TV",
+   "release": "32.68s",
+   "release_fecha": "2026-10-20",
+   "stars_pieza": null
+  },
+  "jellyfin/jellyfin": {
+   "estado": "vivo",
+   "stars": 59007,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-2.0",
+   "lenguaje": "C#",
+   "desc": "The Free Software Media System - Server Backend & API",
+   "release": "v12.4",
+   "release_fecha": "2026-10-26",
+   "stars_pieza": null
+  },
+  "meta-tabchen/MoonCast": {
+   "estado": "vivo",
+   "stars": 6,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "C",
+   "desc": "One Android app for phone sending and TV receiving: AirPlay, DLNA, GameStream, video framing, themes and trusted-LAN APK transfer. Experimental preview.",
+   "release": "v0.9",
+   "release_fecha": "2026-10-17",
+   "stars_pieza": null
+  },
+  "jxlarrea/kiosk-satellite": {
+   "estado": "vivo",
+   "stars": 2484,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Dart",
+   "desc": "Turn any Android device into a beautiful, dedicated Home Assistant kiosk. Purpose-built for Home Assistant from the ground up.",
+   "release": "2026.11.5",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "schaumann-byte/hy300-projector-homeassistant": {
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-10-18",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Python",
+   "desc": "Local Home Assistant control of HY300 Pro+ / Magcubic Android projectors (Lumina Go API + IR power-on + ADB), plus a tiny app that keeps wireless ADB alive and fixes the boot launcher",
+   "release": "v0.2.3",
+   "release_fecha": "2026-10-18",
+   "stars_pieza": null
+  },
+  "Sygix/Tsuyu": {
+   "estado": "vivo",
+   "stars": 1,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Shizuku-API-compatible privileged service for Android TV, driven with the remote",
+   "release": "v0.3.1",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "Gingerbreadfork/lounge": {
+   "estado": "vivo",
+   "stars": 3,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Rust",
+   "desc": "Android TV and Google TV launcher, ad-free and open source. A home screen built around what you watch.",
+   "release": "v0.4.4",
+   "release_fecha": "2026-10-29",
+   "stars_pieza": null
+  },
+  "destradess/tv-home-universal": {
+   "estado": "vivo",
+   "stars": 22,
+   "push": "2026-10-25",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Java",
+   "desc": "A minimal Android TV & Google TV launcher with a liquid glass UI, customizable widgets, animated screensavers, and remote-friendly controls.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "mahmutaunal/TVPilot": {
+   "estado": "vivo",
+   "stars": 9,
+   "push": "2026-09-21",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Kotlin",
+   "desc": "Remote-first system control and app management utility for Android TV / Google TV, with optional Shizuku-powered advanced actions.",
+   "release": "v1.0.0",
+   "release_fecha": "2026-09-21",
+   "stars_pieza": null
+  },
+  "sloccy/morphe-tv-patcher": {
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "Go",
+   "desc": "Auto-patch and install Morphe Android TV apps over wireless ADB",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "JoaoAntunesss/tv-debloat": {
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-10-30",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "Python",
+   "desc": "Desktop app (Python + Tkinter) that cleans up an Android TV over wireless ADB, reversibly. First version; see TV-Debloat-designUNIQUE.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "usnraver/website-to-tv-app": {
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-10-19",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "JavaScript",
+   "desc": "Turn any website into a fullscreen Chromecast / Android TV app tile. ~31 KB WebView app with a D-pad focus ring, working fullscreen video and sane Back handling. Built with Claude Code over wireless adb.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
   }
  },
  "enlaces": {
@@ -1437,6 +1581,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Gingerbreadfork/lounge": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/HakaI963/bliss": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1462,6 +1610,10 @@
    "veredicto": "responde"
   },
   "https://github.com/Jman-Github/Universal-Patch-Manager": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/JoaoAntunesss/tv-debloat": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1538,6 +1690,10 @@
    "veredicto": "responde"
   },
   "https://github.com/SagerNet/sing-box": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Sygix/Tsuyu": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1625,6 +1781,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/destradess/tv-home-universal": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/emi-ran/flowpilot": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1685,11 +1845,19 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/jellyfin/jellyfin": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/jolabs40/TVSlim": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/juanfont/headscale": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/jxlarrea/kiosk-satellite": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1705,7 +1873,15 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/mahmutaunal/TVPilot": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/maxrave-dev/SimpMusic": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/meta-tabchen/MoonCast": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1785,6 +1961,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/schaumann-byte/hy300-projector-homeassistant": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/seedvault-app/seedvault": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1794,6 +1974,10 @@
    "veredicto": "responde"
   },
   "https://github.com/sigstore/cosign": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/sloccy/morphe-tv-patcher": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1829,6 +2013,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/usnraver/website-to-tv-app": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/wized2/Latch": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1846,6 +2034,10 @@
    "veredicto": "responde"
   },
   "https://github.com/xbmc/xbmc": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/yuliskov/SmartTube": {
    "codigo": "200",
    "veredicto": "responde"
   },

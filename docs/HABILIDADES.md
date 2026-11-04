@@ -185,7 +185,35 @@ siendo fallo es una cifra que no coincide con lo medido.
 que más enseña para poder pasar en verde. Y al revés: marcando como «declarado» cualquier cosa, hasta
 que la compuerta no sirve para nada. La frontera es la fecha: se declara lo que se midió hoy.
 
+## H15 · Un censo es una orden, no una tarde
+
+**Nace de E35.** Contar a mano se siente como rigor y es lo contrario: el número existe, pero no se
+puede repetir, y lo que no se repite no se puede discutir ni corregir. La pieza 06 publicó un censo
+de 57 fichas que solo vivía en la memoria de quien lo contó.
+
+**La regla.** Ninguna pieza publica un total de fichas que no salga de una orden escrita en el
+repositorio. Si el tema no está en la herramienta, se añade **antes** de escribir la pieza, con sus
+palabras a la vista, y se corre delante de quien quiera comprobarlo. La herramienta imprime sus
+palabras y su ventana, así que el número lleva su método pegado.
+
+**Cómo se pierde.** Añadiendo palabras hasta que el tema lo abarque todo: entonces el censo dice
+«cuatrocientas fichas» y no dice nada. La disciplina es la contraria: pocas palabras, declaradas, y
+la diferencia entre la cuenta a mano y la de la máquina se publica en vez de esconderse.
+
 ## El ritual completo, con las habilidades dentro
+
+```
+make libro                                     # tablero, índice y tareas
+LBT=… python3 tools/remedir.py --escribir docs/MEDICION-<pieza>-<fecha>.json --pieza <pieza>
+LBT=… python3 tools/remedir.py --pieza <pieza> --medicion docs/MEDICION-<pieza>-<fecha>.json
+python3 tools/manual_gate.py --pieza <pieza>   # forma y M29
+python3 tools/novedad_gate.py <pieza> --corte <fecha>
+python3 tools/remedir.py --solape <pieza-nueva> <pieza-vieja>     # si reemplaza a otra
+LBT=… python3 tools/envio.py --medir --generar --verificar
+make ritual                                    # verificar y después sellar
+git commit && git push                         # y esperar el CI
+```
+
 
 ```
 make libro                                     # tablero, índice y tareas

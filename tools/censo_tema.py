@@ -31,6 +31,11 @@ TEMAS = {
     "seguridad": "vault,cifrado,encrypt,2fa,totp,password,contraseña,keystore,clave",
     "descargas": "download,descarga,torrent,magnet,streaming,seed",
     "sistema": "root,shizuku,adb,kernel,su,permiso,permission,magisk",
+    # añadidos el 4-nov-2026 para que los censos de las piezas 06 y 07 se repitan con una orden
+    # y no con una tarde contando a mano (error E35, habilidad H15)
+    "parches": "patch,parche,patches,parches,revanced,morphe,reseam,patcher,apk-mods",
+    "televisor": "tv,televisor,television,android-tv,google-tv,roku,chromecast,cast,launcher,media-center,smarttube,kodi",
+    "casa": "home-assistant,domotica,esphome,zigbee,mqtt,sensor,smart-home,kiosk,dashboard,homekit",
 }
 
 

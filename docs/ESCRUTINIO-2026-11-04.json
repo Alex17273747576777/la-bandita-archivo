@@ -1,6 +1,6 @@
 {
  "fecha": "2026-11-04",
- "medido_en": "2026-11-04T18:31:46+00:00",
+ "medido_en": "2026-11-04T18:45:50+00:00",
  "pesos": {
   "licencia": 15,
   "ci": 10,
@@ -18,7 +18,7 @@
   "atencion_anomala": -15,
   "una_sola_persona": -5
  },
- "medidos": 143,
+ "medidos": 153,
  "fichas": [
   {
    "repo": "readest/readest",
@@ -1021,6 +1021,41 @@
     "284 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 9191/9691 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "meta-tabchen/MoonCast",
+   "puntos": 64,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "android.yml",
+    "initialize-community-identity.yml",
+    "receiver-candidate.yml",
+    "receiver-kvm-once.yml",
+    "receiver-kvm-second.yml"
+   ],
+   "adjuntos": 47,
+   "con_huella": 10,
+   "ultima_entrega": "2026-10-17",
+   "commits_30d": 95,
+   "contribuyentes": 2,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 28,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 11 flujo(s) +10",
+    "adjunto con huella (SHA256SUMS) +10",
+    "entrega en los últimos 30 días +10",
+    "95 cambios en 30 días +10",
+    "2 personas empujando +4",
+    "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2125,11 +2160,11 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-11-04",
-   "commits_30d": 4791,
+   "commits_30d": 4806,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 2439,
-    "cerradas": 73311
+    "abiertas": 2438,
+    "cerradas": 73314
    },
    "security_md": false,
    "scorecard": null,
@@ -2140,9 +2175,40 @@
     "integración continua con 20 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "4791 cambios en 30 días +10",
+    "4806 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 73311/75750 +10",
+    "incidencias cerradas 73314/75752 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "Gingerbreadfork/lounge",
+   "puntos": 55,
+   "licencia": "MIT",
+   "flujos_ci": [
+    "check.yml",
+    "release.yml"
+   ],
+   "adjuntos": 20,
+   "con_huella": 10,
+   "ultima_entrega": "2026-10-29",
+   "commits_30d": 386,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 17,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "integración continua con 2 flujo(s) +10",
+    "adjunto con huella (SHA256SUMS) +10",
+    "entrega en los últimos 30 días +10",
+    "386 cambios en 30 días +10",
+    "1 personas empujando +0",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2346,6 +2412,39 @@
     "75 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 8623/9116 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "Sygix/Tsuyu",
+   "puntos": 54,
+   "licencia": "AGPL-3.0",
+   "flujos_ci": [
+    "codeql.yml",
+    "release.yml",
+    "test.yml"
+   ],
+   "adjuntos": 8,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-04",
+   "commits_30d": 70,
+   "contribuyentes": 2,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 23,
+   "archivado": false,
+   "notas": [
+    "licencia legible (AGPL-3.0) +15",
+    "integración continua con 3 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "70 cambios en 30 días +10",
+    "2 personas empujando +4",
+    "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -3899,6 +3998,39 @@
    ]
   },
   {
+   "repo": "jxlarrea/kiosk-satellite",
+   "puntos": 40,
+   "licencia": "NOASSERTION",
+   "flujos_ci": [
+    "release.yml",
+    "require-logs.yml",
+    "stale.yml"
+   ],
+   "adjuntos": 40,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-04",
+   "commits_30d": 430,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 1,
+    "cerradas": 1008
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 112,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "integración continua con 3 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "430 cambios en 30 días +10",
+    "1 personas empujando +0",
+    "incidencias cerradas 1008/1009 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "RikkaApps/Shizuku",
    "puntos": 40,
    "licencia": "Apache-2.0",
@@ -3943,10 +4075,10 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-11-04",
-   "commits_30d": 1842,
+   "commits_30d": 1851,
    "contribuyentes": 100,
    "incidencias": {
-    "abiertas": 248,
+    "abiertas": 249,
     "cerradas": 2221
    },
    "security_md": false,
@@ -3958,9 +4090,9 @@
     "integración continua con 24 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "entrega en los últimos 30 días +10",
-    "1842 cambios en 30 días +10",
+    "1851 cambios en 30 días +10",
     "100 personas empujando +10",
-    "incidencias cerradas 2221/2469 +9",
+    "incidencias cerradas 2221/2470 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -4315,7 +4447,7 @@
    "adjuntos": 0,
    "con_huella": 0,
    "ultima_entrega": "2026-09-27",
-   "commits_30d": 914,
+   "commits_30d": 916,
    "contribuyentes": 100,
    "incidencias": {
     "abiertas": 292,
@@ -4330,7 +4462,7 @@
     "integración continua con 5 flujo(s) +10",
     "ninguna entrega con adjuntos −10",
     "sin entrega reciente +0",
-    "914 cambios en 30 días +10",
+    "916 cambios en 30 días +10",
     "100 personas empujando +10",
     "incidencias cerradas 5028/5320 +9",
     "sin Scorecard en deps.dev +0"
@@ -4400,6 +4532,34 @@
    ]
   },
   {
+   "repo": "schaumann-byte/hy300-projector-homeassistant",
+   "puntos": 29,
+   "licencia": "MIT",
+   "flujos_ci": [],
+   "adjuntos": 2,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-18",
+   "commits_30d": 2,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 41,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "2 cambios en 30 días +4",
+    "1 personas empujando +0",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "saikiran9185/BudsFirst",
    "puntos": 29,
    "licencia": "MIT",
@@ -4453,6 +4613,34 @@
     "0 cambios en 30 días +0",
     "2 personas empujando +4",
     "incidencias cerradas 63/69 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "destradess/tv-home-universal",
+   "puntos": 27,
+   "licencia": "NOASSERTION",
+   "flujos_ci": [],
+   "adjuntos": 8,
+   "con_huella": 3,
+   "ultima_entrega": "2026-10-25",
+   "commits_30d": 19,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 13,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "sin flujos de integración +0",
+    "adjunto con huella (SHA256SUMS-0.2.1.txt) +10",
+    "entrega en los últimos 30 días +10",
+    "19 cambios en 30 días +7",
+    "1 personas empujando +0",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -4583,6 +4771,39 @@
    ]
   },
   {
+   "repo": "sloccy/morphe-tv-patcher",
+   "puntos": 24,
+   "licencia": null,
+   "flujos_ci": [
+    "build.yml",
+    "live-checks.yml",
+    "security.yml"
+   ],
+   "adjuntos": 0,
+   "con_huella": 0,
+   "ultima_entrega": "",
+   "commits_30d": 71,
+   "contribuyentes": 2,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 1
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 13,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "integración continua con 3 flujo(s) +10",
+    "ninguna entrega con adjuntos −10",
+    "sin entrega reciente +0",
+    "71 cambios en 30 días +10",
+    "2 personas empujando +4",
+    "incidencias cerradas 1/1 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "Yaseen91479/EchoRoute",
    "puntos": 24,
    "licencia": "NOASSERTION",
@@ -4703,6 +4924,34 @@
    ]
   },
   {
+   "repo": "usnraver/website-to-tv-app",
+   "puntos": 9,
+   "licencia": "MIT",
+   "flujos_ci": [],
+   "adjuntos": 0,
+   "con_huella": 0,
+   "ultima_entrega": "",
+   "commits_30d": 2,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 16,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "sin flujos de integración +0",
+    "ninguna entrega con adjuntos −10",
+    "sin entrega reciente +0",
+    "2 cambios en 30 días +4",
+    "1 personas empujando +0",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "inotia00/revanced-patches",
    "puntos": 5,
    "licencia": "GPL-3.0",
@@ -4735,6 +4984,63 @@
     "67 personas empujando +10",
     "sin Scorecard en deps.dev +0",
     "archivado −30"
+   ]
+  },
+  {
+   "repo": "mahmutaunal/TVPilot",
+   "puntos": 5,
+   "licencia": "NOASSERTION",
+   "flujos_ci": [],
+   "adjuntos": 1,
+   "con_huella": 0,
+   "ultima_entrega": "2026-09-21",
+   "commits_30d": 0,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 44,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "0 cambios en 30 días +0",
+    "1 personas empujando +0",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "JoaoAntunesss/tv-debloat",
+   "puntos": 0,
+   "licencia": null,
+   "flujos_ci": [],
+   "adjuntos": 0,
+   "con_huella": 0,
+   "ultima_entrega": "",
+   "commits_30d": 8,
+   "contribuyentes": 1,
+   "incidencias": {
+    "abiertas": 0,
+    "cerradas": 0
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 9,
+   "archivado": false,
+   "notas": [
+    "sin licencia reconocida +0",
+    "sin flujos de integración +0",
+    "ninguna entrega con adjuntos −10",
+    "sin entrega reciente +0",
+    "8 cambios en 30 días +4",
+    "1 personas empujando +0",
+    "sin Scorecard en deps.dev +0"
    ]
   }
  ]
