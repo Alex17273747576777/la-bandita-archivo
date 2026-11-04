@@ -417,7 +417,7 @@ Medí otra vez, hoy 3 de noviembre de 2026, los 10 repositorios que cita esta pi
 • MorpheApp/morphe-patches — ★4.534 · sin fecha de empuje · GPL-3.0 · última release v2.0.0 (30-oct-2026)
 • ReVanced/revanced-manager — ★30.065 · *dormido*: sin empujar desde el 29-jul-2026 (97 días) · GPL-3.0 · última release v2.6.0 (26-abr-2026)
 • ReVanced/where-is-revanced-patches — ★157 · *dormido*: sin empujar desde el 24-mar-2026 (224 días) · sin licencia detectada por la API
-• RikkaApps/Shizuku — ★32.727 · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.728 · *dormido*: sin empujar desde el 18-jun-2025 (503 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • timschneeb/awesome-shizuku — ★10.692 · empujó el 31-oct-2026 (hace 3 días) · NOASSERTION
 • rushiranpise/helper-for-morphe — ★416 · empujó el 1-nov-2026 (hace 2 días) · GPL-3.0 · última release v5.2.0 (1-nov-2026)
 • brosssh/revanced-manager-downloaders — ★118 · *dormido*: sin empujar desde el 4-dic-2025 (334 días) · GPL-3.0 · última release v1.1.0 (4-dic-2025)

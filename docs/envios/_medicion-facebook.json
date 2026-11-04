@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-03",
- "medido_en_utc": "2026-11-04T01:26:34+00:00",
+ "medido_en_utc": "2026-11-04T01:53:37+00:00",
  "repos": {
   "coldMEW/Hush": {
    "estado": "vivo",
@@ -206,50 +206,112 @@
    "release_fecha": "",
    "stars_pieza": null
   },
-  "KRTirtho/spotube": {
-   "estado": "error",
-   "motivo": "Moved Permanently",
-   "stars_pieza": null
-  },
-  "MetrolistGroup/Metrolist": {
+  "monarchsofchaos004-gif/splitaudio": {
    "estado": "vivo",
-   "stars": 13997,
-   "push": "2026-11-02",
+   "stars": 13,
+   "push": "2026-11-04",
    "archivado": false,
-   "licencia": "GPL-3.0",
+   "licencia": "MIT",
    "lenguaje": "Kotlin",
-   "desc": "YouTube Music client for Android",
-   "release": "v13.7.0",
-   "release_fecha": "2026-09-07",
+   "desc": "Android: keep the music app on Bluetooth, route every other app to the phone speaker (Shizuku, no root) / 藍牙只放音樂，其他 App 走手機喇叭",
+   "release": "v0.5.5",
+   "release_fecha": "2026-11-04",
    "stars_pieza": null
   },
-  "maxrave-dev/SimpMusic": {
+  "xTudoS/dual-audio": {
    "estado": "vivo",
-   "stars": 12714,
-   "push": "2026-11-03",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "A cross-platform music app using YouTube Music for backend",
-   "release": "v2.5.0",
-   "release_fecha": "2026-11-01",
-   "stars_pieza": null
-  },
-  "AntennaPod/AntennaPod": {
-   "estado": "vivo",
-   "stars": 8261,
+   "stars": 3,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Java",
-   "desc": "A podcast manager for Android",
-   "release": "3.12.3",
-   "release_fecha": "2026-10-13",
+   "desc": "Play Android audio on USB and Bluetooth headphones at the same time. No root, uses Shizuku.",
+   "release": "v1.0.1",
+   "release_fecha": "2026-10-19",
    "stars_pieza": null
   },
-  "theovilardo/PixelPlayer": {
-   "estado": "error",
-   "motivo": "Moved Permanently",
+  "saikiran9185/BudsFirst": {
+   "estado": "vivo",
+   "stars": 1,
+   "push": "2026-10-18",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Java",
+   "desc": "Stop Android from moving your music and calls to every Bluetooth device that connects. Rank your devices; the rest stay connected on standby.",
+   "release": "v0.4.0",
+   "release_fecha": "2026-10-18",
+   "stars_pieza": null
+  },
+  "milkei/audio-focus-mixer": {
+   "estado": "vivo",
+   "stars": 1,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "A lightweight Shizuku-powered Android app for per-app audio focus control.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "AQUALaforet/AudioPolicyOverride": {
+   "estado": "vivo",
+   "stars": 5,
+   "push": "2026-10-25",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Android audio policy override with Shizuku, Compose, and per-app automation",
+   "release": "v1.2.3",
+   "release_fecha": "2026-10-25",
+   "stars_pieza": null
+  },
+  "ibrahim91015/AudioScope": {
+   "estado": "vivo",
+   "stars": 1,
+   "push": "2026-10-06",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "desc": "Offline Android multitrack audio capture console with live sources and Material 3 controls",
+   "release": "v0.5.2",
+   "release_fecha": "2026-10-06",
+   "stars_pieza": null
+  },
+  "bunbun-midi/RootlessJamesDSP-SKDSP": {
+   "estado": "vivo",
+   "stars": 1,
+   "push": "2026-10-27",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "C",
+   "desc": "RootlessJamesDSP fork with new features: speed shifting live, pitch shifters, floating record buttons, two recorders, effects reordering, bpm display, and a compressor.",
+   "release": "v1",
+   "release_fecha": "2026-10-27",
+   "stars_pieza": null
+  },
+  "AlphadogRSA/spotifyplus-tv-patch": {
+   "estado": "vivo",
+   "stars": 21,
+   "push": "2026-10-27",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Java",
+   "desc": "Open-source Android TV extension: native Spotify settings, themes, artwork blur, EQ, sleep timer and optional Hush helper. ARMv7 build and Windows ADB installer.",
+   "release": "v1.3.0.9",
+   "release_fecha": "2026-10-27",
+   "stars_pieza": null
+  },
+  "Moriafly/SaltPlayerSource": {
+   "estado": "vivo",
+   "stars": 7594,
+   "push": "2026-11-02",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": null,
+   "desc": "A multi-platform local music player in continuous development since 2020, serving over one million users. This repository is used for issue tracking and official Android package releases.",
+   "release": "12.6.0",
+   "release_fecha": "2026-11-02",
    "stars_pieza": null
   },
   "namidaco/namida": {
@@ -264,9 +326,57 @@
    "release_fecha": "2026-09-19",
    "stars_pieza": null
   },
+  "rukamori/ArchiveTune": {
+   "estado": "vivo",
+   "stars": 7948,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "🌸 The Cutest Music Player With Support Local File and Youtube Music for Android!",
+   "release": "v15.1.0",
+   "release_fecha": "2026-09-26",
+   "stars_pieza": null
+  },
+  "maxrave-dev/SimpMusic": {
+   "estado": "vivo",
+   "stars": 12714,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "A cross-platform music app using YouTube Music for backend",
+   "release": "v2.5.0",
+   "release_fecha": "2026-11-01",
+   "stars_pieza": null
+  },
+  "MetrolistGroup/Metrolist": {
+   "estado": "vivo",
+   "stars": 13997,
+   "push": "2026-11-02",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "YouTube Music client for Android",
+   "release": "v13.7.0",
+   "release_fecha": "2026-09-07",
+   "stars_pieza": null
+  },
+  "AntennaPod/AntennaPod": {
+   "estado": "vivo",
+   "stars": 8261,
+   "push": "2026-11-02",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "desc": "A podcast manager for Android",
+   "release": "3.12.3",
+   "release_fecha": "2026-10-13",
+   "stars_pieza": null
+  },
   "z-huang/InnerTune": {
    "estado": "vivo",
-   "stars": 6137,
+   "stars": 6138,
    "push": "2025-11-13",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -276,57 +386,50 @@
    "release_fecha": "2024-09-01",
    "stars_pieza": null
   },
-  "OuterTune/OuterTune": {
+  "naman14/Timber": {
    "estado": "vivo",
-   "stars": 5442,
-   "push": "2026-10-12",
+   "stars": 7036,
+   "push": "2023-04-28",
    "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "A Material 3 Music Player for Android with local file & YouTube Music support. Forked from InnerTune",
-   "release": "v0.10.1",
-   "release_fecha": "2025-12-19",
+   "licencia": null,
+   "lenguaje": "Java",
+   "desc": "Material Design Music Player",
+   "release": "v1.7",
+   "release_fecha": "2020-10-05",
    "stars_pieza": null
   },
-  "RetroMusicPlayer/RetroMusicPlayer": {
+  "james34602/JamesDSPManager": {
    "estado": "vivo",
-   "stars": 5382,
-   "push": "2026-11-02",
+   "stars": 989,
+   "push": "2025-06-18",
    "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "Best Material You Design music player for Android",
-   "release": "v7.0.3",
-   "release_fecha": "2026-08-13",
+   "licencia": null,
+   "lenguaje": "C",
+   "desc": "Audio DSP effects build on Android system framework layer. This is a repository contains a pack of high quality DSP algorithms specialized for audio processing.",
+   "release": "28Nov2023",
+   "release_fecha": "2023-12-02",
    "stars_pieza": null
   },
-  "OxygenCobalt/Auxio": {
-   "estado": "vivo",
-   "stars": 4420,
-   "push": "2026-11-02",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "A simple, rational music player for android",
-   "release": "v4.1.5",
-   "release_fecha": "2026-08-04",
+  "thepbone/RootlessJamesDSP": {
+   "estado": "error",
+   "motivo": "Moved Permanently",
    "stars_pieza": null
   },
-  "fast4x/RiMusic": {
+  "RikkaApps/Shizuku": {
    "estado": "vivo",
-   "stars": 3897,
-   "push": "2025-07-30",
-   "archivado": true,
-   "licencia": "GPL-3.0",
+   "stars": 32728,
+   "push": "2025-06-18",
+   "archivado": false,
+   "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
-   "desc": "RiMusic is a multilingual and multiplatform application for streaming music",
-   "release": "v0.6.76",
-   "release_fecha": "2025-03-21",
+   "desc": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
+   "release": "v13.6.0",
+   "release_fecha": "2025-05-25",
    "stars_pieza": null
   },
   "dani-garcia/vaultwarden": {
    "estado": "vivo",
-   "stars": 70189,
+   "stars": 70193,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -343,7 +446,7 @@
   },
   "beemdevelopment/Aegis": {
    "estado": "vivo",
-   "stars": 13460,
+   "stars": 13461,
    "push": "2026-09-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -367,7 +470,7 @@
   },
   "Kunzisoft/KeePassDX": {
    "estado": "vivo",
-   "stars": 7612,
+   "stars": 7613,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -391,7 +494,7 @@
   },
   "stratumauth/app": {
    "estado": "vivo",
-   "stars": 4637,
+   "stars": 4638,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -437,18 +540,6 @@
    "release_fecha": "2026-02-17",
    "stars_pieza": null
   },
-  "RikkaApps/Shizuku": {
-   "estado": "vivo",
-   "stars": 32727,
-   "push": "2025-06-18",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
-   "release": "v13.6.0",
-   "release_fecha": "2025-05-25",
-   "stars_pieza": null
-  },
   "RikkaApps/Shizuku-API": {
    "estado": "vivo",
    "stars": 2738,
@@ -487,7 +578,7 @@
   },
   "rushiranpise/Shizuku-Next": {
    "estado": "vivo",
-   "stars": 1412,
+   "stars": 1413,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -535,7 +626,7 @@
   },
   "iamr0s/Dhizuku": {
    "estado": "vivo",
-   "stars": 4081,
+   "stars": 4082,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -660,7 +751,7 @@
   },
   "readest/readest": {
    "estado": "vivo",
-   "stars": 25917,
+   "stars": 25918,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -684,7 +775,7 @@
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
-   "stars": 21187,
+   "stars": 21188,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -708,7 +799,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 153947,
+   "stars": 153949,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -780,7 +871,7 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 118128,
+   "stars": 118134,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -792,7 +883,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97208,
+   "stars": 97211,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1052,6 +1143,14 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://api.github.com/repos/Moriafly/SaltPlayerSource": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://api.github.com/repos/Moriafly/SaltPlayerSource/releases?per_page=3": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://api.github.com/repos/coldMEW/Hush": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1080,15 +1179,23 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/AQUALaforet/AudioPolicyOverride": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Alex17273747576777/la-bandita-archivo": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/guia-maestra/CREDITOS.md": {
-   "codigo": "429",
-   "veredicto": "no deja entrar a un robot"
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://github.com/Alex17273747576777/la-bandita-archivo/tree/main/guia-maestra": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/AlphadogRSA/spotifyplus-tv-patch": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1152,10 +1259,6 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://github.com/KRTirtho/spotube": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
   "https://github.com/Kunzisoft/KeePassDX": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1168,19 +1271,15 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Moriafly/SaltPlayerSource": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/MorpheApp/morphe-manager": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/MorpheApp/morphe-patches": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/OuterTune/OuterTune": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/OxygenCobalt/Auxio": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1193,10 +1292,6 @@
    "veredicto": "responde"
   },
   "https://github.com/ReVanced/where-is-revanced-patches": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
-  "https://github.com/RetroMusicPlayer/RetroMusicPlayer": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1244,6 +1339,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/bunbun-midi/RootlessJamesDSP-SKDSP": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/capitan0n/droynis": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1276,10 +1375,6 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://github.com/fast4x/RiMusic": {
-   "codigo": "200",
-   "veredicto": "responde"
-  },
   "https://github.com/freeotp/freeotp-android": {
    "codigo": "200",
    "veredicto": "responde"
@@ -1296,7 +1391,15 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/ibrahim91015/AudioScope": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/immich-app/immich": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/james34602/JamesDSPManager": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1332,7 +1435,19 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/milkei/audio-focus-mixer": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/mirfatif/PermissionManagerX": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/monarchsofchaos004-gif/splitaudio": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/naman14/Timber": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1372,11 +1487,19 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/rukamori/ArchiveTune": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/rushiranpise/Shizuku-Next": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/rushiranpise/helper-for-morphe": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/saikiran9185/BudsFirst": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1412,7 +1535,7 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://github.com/theovilardo/PixelPlayer": {
+  "https://github.com/thepbone/RootlessJamesDSP": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1437,6 +1560,10 @@
    "veredicto": "responde"
   },
   "https://github.com/wxxsfxyzm/InstallerX-Revived": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/xTudoS/dual-audio": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -1465,6 +1592,10 @@
    "veredicto": "responde"
   },
   "https://keepass.info/": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://opensource.org/license/mit": {
    "codigo": "200",
    "veredicto": "responde"
   },

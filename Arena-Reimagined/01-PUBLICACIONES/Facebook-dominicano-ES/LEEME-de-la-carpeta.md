@@ -23,7 +23,7 @@ El número es el del ciclo (01–14), la fecha es la del corte de medición de l
 | # | Pieza | Corte | Caracteres | Estado |
 |---|---|---|---|---|
 | 01 | El turno de los que nacieron este trimestre (**rehecha**) | 2026-11-03 | 43.593 | Publicada y en banda · la anterior, en `_ARCHIVO-HISTORICO/_reemplazadas-2026-11-03/` |
-| 02 | La música que no se cae | 2026-11-02 | 44.934 | Publicada y en banda |
+| 02 | La música que no se cae (**rehecha**) | 2026-11-03 | 43.340 | Publicada y en banda · la anterior, en `_ARCHIVO-HISTORICO/_reemplazadas-2026-11-03/` |
 | 03 | La caja fuerte del bolsillo | 2026-11-02 | 44.831 | Publicada y en banda |
 | 04 | La lista del permiso | 2026-11-03 | 44.151 | Publicada y en banda |
 | 05 | La guía maestra | 2026-11-03 | 40.253 | Publicada y en banda |
