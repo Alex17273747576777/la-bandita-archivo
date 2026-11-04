@@ -417,14 +417,14 @@ Lo que le falta está escrito arriba sin adornos: avisos en el momento justo, un
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Jman-Github/Universal-Patch-Manager — ★1.410 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
+• Jman-Github/Universal-Patch-Manager — ★1.411 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
 • Jman-Github/Patch-Bundle-Registry — ★725 · empujó en las últimas horas · Unlicense
-• MorpheApp/morphe-manager — ★9.958 · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (4-nov-2026)
-• MorpheApp/morphe-patches — ★4.554 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (30-oct-2026)
+• MorpheApp/morphe-manager — ★9.961 · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (4-nov-2026)
+• MorpheApp/morphe-patches — ★4.553 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (30-oct-2026)
 • ReVanced/revanced-manager — ★30.070 · *dormido*: sin empujar desde el 29-jul-2026 (98 días) · GPL-3.0 · última release v2.6.0 (26-abr-2026)
 • ReVanced/where-is-revanced-patches — ★157 · *dormido*: sin empujar desde el 24-mar-2026 (225 días) · sin licencia detectada por la API
-• RikkaApps/Shizuku — ★32.784 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• timschneeb/awesome-shizuku — ★10.699 · empujó el 31-oct-2026 (hace 4 días) · NOASSERTION
+• RikkaApps/Shizuku — ★32.788 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• timschneeb/awesome-shizuku — ★10.700 · empujó el 31-oct-2026 (hace 4 días) · NOASSERTION
 • rushiranpise/helper-for-morphe — ★430 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v5.2.0 (1-nov-2026)
 • brosssh/revanced-manager-downloaders — ★118 · *dormido*: sin empujar desde el 4-dic-2025 (335 días) · GPL-3.0 · última release v1.1.0 (4-dic-2025)
 

@@ -2,17 +2,17 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/04-La-lista-del-permiso-seis-de-veintiseis-dan-la-huella-trece-nacieron-en-el-trimestre-y-el-tronco-lleva-quinientos-cuatro-dias-sin-empujar-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
 - **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `9603d938ef0cc1082b6017f5396d40f11739e0719b0bdfd59fd4d3731a148563`
+- **sha256 de la pieza:** `440077f868498b7d6da6c7869ca6933084aaadec9c53d167891abaab8abb6a04`
 - **Envío generado:** 2026-11-04 · 20 mensajes · el mayor de 3645 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 20 · 922 caracteres ═══
+═══ MENSAJE 1 de 20 · 911 caracteres ═══
 
 *La lista del permiso: seis de veintiséis dan la huella, trece nacieron en el trimestre y el tronco lleva quinientos cuatro días sin empujar*
 
 La Bandita · pieza 04 · guía del 4-nov-2026 · te la mando hoy en 20 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *27 repositorios, 26 vivos y 1 muerto*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *26 repositorios, 26 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
 Licencias de lo que recomienda: Apache-2.0 11 · GPL-3.0 8 · MIT 5 · LGPL-3.0 1.
 
@@ -364,14 +364,14 @@ Porque se midió hoy y tiene veintiún días, trescientas cincuenta y siete conf
 
 ⏬ sigue abajo · parte 16 de 19
 
-═══ MENSAJE 18 de 20 · 2567 caracteres ═══
+═══ MENSAJE 18 de 20 · 2568 caracteres ═══
 
 *🗒️ Notas al pie*
 
 (4-nov) Medición hecha el **4 de noviembre de 2026 a la 1:16 de la tarde** en Santo Domingo (17:16 UTC), y guardada en `docs/MEDICION-04-tarde-2026-11-04.json`: veintiséis repositorios, cada uno con sus estrellas, su fecha de nacimiento, su último empujón, su licencia, su última entrega y sus descargas contables.
 2. El escrutinio —la nota de cero a cien— se corrió el mismo día con el registro en `docs/ESCRUTINIO-2026-11-04.json`. Los pesos están declarados en la herramienta: licencia 15, compilación automática 10, adjunto con huella 10, entrega reciente 10, actividad del mes 10, tamaño del equipo 10, cola de incidencias 10, canal de seguridad 5 y Scorecard de OpenSSF 20 cuando existe.
 3. La cuenta de adjuntos con huella la hace `tools/escrutinio.py` buscando las palabras `sha256`, `sha512`, `sha1`, `checksum`, `.sig`, `.asc` y `sums` en el nombre de cada adjunto de las últimas cien entregas. La corrección de ese detector, hecha hoy mismo y anotada como E33, es la que permite contar las quince sumas de Bitwarden y las cinco de droynis.
-4. El censo del tema sale de `tools/censo_tema.py --tema sistema`, sobre las fichas guardadas en `registry/_evidencia`: 454 fichas que casan por nombre o descripción, 387 nacidas en los últimos 365 días, 197 el mes pasado, 369 por debajo de quinientas estrellas y 98 sin licencia.
+4. El censo del tema sale de `tools/censo_tema.py --tema sistema`, sobre las fichas guardadas en el registro de la casa: 454 fichas que casan por nombre o descripción, 387 nacidas en los últimos 365 días, 197 el mes pasado, 369 por debajo de quinientas estrellas y 98 sin licencia.
 5. Las descargas son las que GitHub cuenta en los adjuntos de las últimas cien entregas del repositorio. No cuentan las instalaciones desde tiendas ni las copias repartidas por mensajería, así que siempre son menos que las reales.
 6. Las edades se cuentan en días corridos desde la fecha de creación del repositorio hasta el 4 de noviembre de 2026, y se llaman «madurez» en toda la tabla para no confundirlas con la calidad.
 
@@ -387,39 +387,38 @@ Porque se midió hoy y tiene veintiún días, trescientas cincuenta y siete conf
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 3364 caracteres ═══
+═══ MENSAJE 19 de 20 · 3252 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
-Medí otra vez, hoy 4 de noviembre de 2026, los 27 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 4 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• registry/_evidencia — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• RikkaApps/Shizuku — ★32.784 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.788 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • RikkaApps/Shizuku-API — ★2.741 · *dormido*: sin empujar desde el 29-may-2025 (524 días) · MIT · última release v12.1.0 (7-oct-2022)
 • d4rken-org/porter — ★246 · empujó en las últimas horas · Apache-2.0 · última release v0.8.1-rc0 (7-oct-2026)
-• capitan0n/droynis — ★15 · empujó en las últimas horas · GPL-3.0 · última release v0.15.0 (1-nov-2026)
-• Foxlape/GhostMode — ★110 · empujó en las últimas horas · Apache-2.0 · última release v0.2.3 (4-nov-2026)
+• capitan0n/droynis — ★16 · empujó en las últimas horas · GPL-3.0 · última release v0.15.0 (1-nov-2026)
+• Foxlape/GhostMode — ★115 · empujó en las últimas horas · Apache-2.0 · última release v0.2.3 (4-nov-2026)
 • emi-ran/flowpilot — ★16 · empujó en las últimas horas · GPL-3.0 · última release v2.2.0 (4-nov-2026)
 • Dreamucxe/GameCore — ★27 · empujó en las últimas horas · MIT · última release v4.5 (4-nov-2026)
 • HmnDev-Tech/shevery — ★1.602 · empujó en las últimas horas · Apache-2.0 · última release 14.6.3 (4-nov-2026)
 • cr1437/Shizako — ★97 · empujó en las últimas horas · Apache-2.0 · última release zako3.17 (31-oct-2026)
-• rushiranpise/Shizuku-Next — ★1.450 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
-• kerneldroid/Nightzuku — ★332 · empujó en las últimas horas · Apache-2.0 · última release v13.7.1-r60 (4-nov-2026)
-• thejaustin/ShizukuPlus — ★1.697 · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
+• rushiranpise/Shizuku-Next — ★1.449 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
+• kerneldroid/Nightzuku — ★333 · empujó en las últimas horas · Apache-2.0 · última release v13.7.1-r60 (4-nov-2026)
+• thejaustin/ShizukuPlus — ★1.698 · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
 • iamr0s/Dhizuku — ★4.085 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
 • samolego/Canta — ★6.463 · empujó el 31-oct-2026 (hace 4 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
 • wxxsfxyzm/InstallerX-Revived — ★7.319 · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
 • pass-with-high-score/universal-installer — ★1.683 · empujó en las últimas horas · GPL-3.0 · última release v1.21.0 (1-nov-2026)
-• aistra0528/Hail — ★7.100 · empujó el 27-oct-2026 (hace 8 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
+• aistra0528/Hail — ★7.101 · empujó el 27-oct-2026 (hace 8 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
 • Hamza417/Inure — ★1.986 · empujó en las últimas horas · GPL-3.0 · última release build107.3.1 (2-nov-2026)
 • yume-chan/VolumeManager — ★604 · empujó el 31-oct-2026 (hace 4 días) · GPL-2.0 · última release v0.3 (31-oct-2026)
-• WEIHEWU/shizuku-sam — ★40 · empujó en las últimas horas · Apache-2.0 · última release v13.8.40 (4-nov-2026)
+• WEIHEWU/shizuku-sam — ★41 · empujó en las últimas horas · Apache-2.0 · última release v13.8.40 (4-nov-2026)
 • krishna3163/OmniShizuku — ★18 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
 • tgvdufuture/Aura — ★18 · empujó en las últimas horas · MIT · última release v0.8.0 (4-nov-2026)
 • eyalm2000/adns — ★743 · empujó en las últimas horas · MIT · última release v2.1.9 (3-nov-2026)
 • Benimaru-x1k/Benimaru — ★43 · empujó en las últimas horas · MIT · última release v4.5 (2-nov-2026)
 • HakaI963/bliss — ★0 · empujó en las últimas horas · Apache-2.0 · última release v1.3.0-7320ecd (4-nov-2026)
-• Yukstarlight/guang-lab — ★4 · empujó en las últimas horas · GPL-3.0 · última release v1.40 (4-nov-2026)
+• Yukstarlight/guang-lab — ★5 · empujó en las últimas horas · GPL-3.0 · última release v1.40 (4-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

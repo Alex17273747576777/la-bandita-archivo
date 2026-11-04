@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 25 tareas abiertas en 11 piezas vivas, numeradas dentro de cada pieza, de 001 a 025. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 26 tareas abiertas en 11 piezas vivas, numeradas dentro de cada pieza, de 001 a 029. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -15,9 +15,6 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 001 | pedir al autor del programa, en su repositorio, que el flujo de publicación escriba un archivo de sumas SHA-256 al lado de cada entrega, y anotar la respuesta en el acta del 4 de diciembre de 2026. | Facebook · 06 | 2026-11-03 |
 | 002 | remedir el 3 de diciembre de 2026 las tres entregas del linaje —el gestor original, el de Morphe y este— y publicar cuál de los tres publicó más seguido en el mes, con la fecha del empujón de cada uno. | Facebook · 06 | 2026-11-03 |
 | 003 | escribir la versión de WhatsApp de esta pieza, más corta, con los cinco pasos reducidos a tres y el episodio del 451 contado en dos párrafos, y comprobar que su banda de longitud se cumple antes de enviarla. | Facebook · 06 | 2026-11-03 |
-| 004 | remedir el 3 de diciembre de 2026 las nueve fichas de menos de quinientas estrellas, empezando por OmniShizuku y TVSlim, y publicar cuáles siguieron publicando. | Facebook · 05 | 2026-11-03 |
-| 005 | pedir al archivo público la conservación de las doce revisiones de los capítulos y anotar el número de solicitud en cada acta. | Facebook · 05 | 2026-11-03 |
-| 006 | abrir en sus repositorios los cuatro casos de nota por debajo de treinta, proponiendo la corrección del archivo de licencia o del canal de seguridad, que es lo que la nota señala. | Facebook · 05 | 2026-11-03 |
 | 007 | remedir el 3 de diciembre de 2026 las nueve fichas de menos de quinientas estrellas, empezando por OmniShizuku y TVSlim, y publicar cuáles siguieron publicando. | WhatsApp · 05 | 2026-11-03 |
 | 008 | pedir al archivo público la conservación de las doce revisiones de los capítulos y anotar el número de solicitud en cada acta. | WhatsApp · 05 | 2026-11-03 |
 | 009 | abrir en sus repositorios los cuatro casos de nota por debajo de treinta, proponiendo la corrección del archivo de licencia o del canal de seguridad, que es lo que la nota señala. | WhatsApp · 05 | 2026-11-03 |
@@ -37,6 +34,10 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 023 | comprobar el 4 de diciembre de 2026 si el tronco, Shizuku, sigue en quinientos treinta y cinco días sin empujar o si volvió a moverse, y decirlo con la fecha nueva. | Facebook · 04 | 2026-11-04 |
 | 024 | medir el 4 de febrero de 2027 si alguna de las bifurcaciones nuevas —porter, Shizuku-Next, Nightzuku, Shizako— publica atestación verificable además de la suma, y correr contra ella la orden cinco. | Facebook · 04 | 2026-11-04 |
 | 025 | ampliar el censo del tema con palabras más anchas antes del 4 de mayo de 2027: hoy son 454 fichas por nombre y descripción, y el registro creció por otra puerta. | Facebook · 04 | 2026-11-04 |
+| 026 | volver a medir las setenta fichas el 11 de noviembre de 2026 y publicar cuántas de las veintidós que firman siguen firmando y si alguna de las cuarenta y ocho empezó. | Facebook · 05 | 2026-11-04 |
+| 027 | comprobar el 4 de diciembre de 2026 si el capítulo del permiso prestado consigue su primera suma de comprobación; hoy son cero de seis y es la deuda más cara de la guía. | Facebook · 05 | 2026-11-04 |
+| 028 | pedir el mérito independiente de las setenta a la fundación de seguridad por la vía pública antes del 4 de mayo de 2027, para que la nota pueda volver a ser sobre cien. | Facebook · 05 | 2026-11-04 |
+| 029 | revisar el 4 de febrero de 2027 las seis fichas que llevan más de un año sin entrega —F-Droid, AppVerifier, Termux, Shizuku, DataBackup y AdAway— y decir cuáles se movieron. | Facebook · 05 | 2026-11-04 |
 
 ## Numeración: la regla y lo declarado
 
@@ -45,7 +46,7 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 > **Declarado:** 03-La-caja-fuerte-del-bolsillo-una-de-ca: numera desde 018 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 04-La-lista-del-permiso-seis-de-veintise: numera desde 022 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 05-La-guia-maestra-contada-despacio-doce: numera desde 007 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
-> **Declarado:** 05-La-guia-maestra-doce-capitulos-setent: numera desde 004 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 05-La-guia-maestra-doce-capitulos-sesent: numera desde 026 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 
 La numeración es **por pieza**, no global: cada pieza numera sus tareas desde 001 porque la compuerta de novedad (M28) las cuenta dentro de la pieza. Por eso la misma cifra puede aparecer en dos piezas distintas y no es un error: la tarea se identifica por su número **y** su pieza.
 
