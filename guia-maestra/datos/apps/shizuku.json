@@ -2,8 +2,16 @@
  "id": "shizuku",
  "nombre": "Shizuku",
  "repo": "RikkaApps/Shizuku",
- "autores": [{"nombre": "RikkaApps (RikkaW)", "enlace": "https://github.com/RikkaApps"}],
- "licencia": {"spdx": "Apache-2.0", "archivo": "https://github.com/RikkaApps/Shizuku/blob/master/LICENSE"},
+ "autores": [
+  {
+   "nombre": "RikkaApps (RikkaW)",
+   "enlace": "https://github.com/RikkaApps"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/RikkaApps/Shizuku/blob/master/LICENSE"
+ },
  "nivel": "principiante",
  "tarea": "Conceder el permiso de depuración a las aplicaciones que lo necesitan, sin root y sin computadora después del primer emparejamiento.",
  "capitulo": 3,
@@ -46,9 +54,23 @@
   "Conceder el permiso a un paquete que llegó por un enlace de un grupo de mensajería es la forma más común de entregar el teléfono.",
   "El proyecto original no publica desde mayo de 2025; los derivados sí. Instala desde el repositorio y no desde un espejo."
  ],
- "alternativas": ["HmnDev-Tech/shevery", "rushiranpise/Shizuku-Next", "krishna3163/OmniShizuku"],
- "senal": {"estrellas": 32721, "nota": 40, "edad_dias": 3450, "ultima_entrega": "2025-05-25", "descargas_10": 4956190, "contribuyentes": 100, "repo_mb": 38.1, "ci": 1, "incidencias": "628/1234"},
- "medido_en": "2026-11-03",
+ "alternativas": [
+  "HmnDev-Tech/shevery",
+  "rushiranpise/Shizuku-Next",
+  "krishna3163/OmniShizuku"
+ ],
+ "senal": {
+  "estrellas": 32773,
+  "nota": 40,
+  "edad_dias": 3451,
+  "ultima_entrega": "2025-05-25",
+  "descargas_10": 4973045,
+  "contribuyentes": 100,
+  "repo_mb": 38.1,
+  "ci": 1,
+  "incidencias": "608 abiertas"
+ },
+ "medido_en": "2026-11-04",
  "swhid": null,
  "credito": "Programa de RikkaApps (RikkaW) · Apache-2.0 · medido el 3 de noviembre de 2026"
 }

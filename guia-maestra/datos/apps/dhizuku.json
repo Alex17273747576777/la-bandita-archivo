@@ -2,8 +2,16 @@
  "id": "dhizuku",
  "nombre": "Dhizuku",
  "repo": "iamr0s/Dhizuku",
- "autores": [{"nombre": "iamr0s", "enlace": "https://github.com/iamr0s"}],
- "licencia": {"spdx": "GPL-3.0", "archivo": "https://github.com/iamr0s/Dhizuku/blob/main/LICENSE"},
+ "autores": [
+  {
+   "nombre": "iamr0s",
+   "enlace": "https://github.com/iamr0s"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/iamr0s/Dhizuku/blob/main/LICENSE"
+ },
  "nivel": "experto",
  "tarea": "Repartir el permiso de dueño del aparato entre aplicaciones, para políticas de bloqueo y administración.",
  "capitulo": 3,
@@ -43,9 +51,22 @@
   "Aplicar una política global sin probar una reversible puede dejar el aparato inutilizable.",
   "Es el permiso que más se presta a abusos: solo a programas con código auditable y equipo visible."
  ],
- "alternativas": ["RikkaApps/Shizuku", "DP-Hridayan/aShellYou"],
- "senal": {"estrellas": 4079, "nota": 65, "edad_dias": 1303, "ultima_entrega": "2026-10-30", "descargas_10": 153340, "contribuyentes": 69, "repo_mb": 3.0, "ci": 2, "incidencias": "171/174"},
- "medido_en": "2026-11-03",
+ "alternativas": [
+  "RikkaApps/Shizuku",
+  "DP-Hridayan/aShellYou"
+ ],
+ "senal": {
+  "estrellas": 4084,
+  "nota": 65,
+  "edad_dias": 1304,
+  "ultima_entrega": "2026-10-30",
+  "descargas_10": 153799,
+  "contribuyentes": 69,
+  "repo_mb": 3.0,
+  "ci": 2,
+  "incidencias": "3 abiertas"
+ },
+ "medido_en": "2026-11-04",
  "swhid": null,
  "credito": "Programa de iamr0s · GPL-3.0 · medido el 3 de noviembre de 2026"
 }

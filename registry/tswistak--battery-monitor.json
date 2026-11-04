@@ -44,8 +44,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "ca4ec1084f42a737a82e98c89002704cd08d239a",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "archivada",
+  "swh_solicitud": "ca4ec1084f42a737a82e98c89002704cd08d239a",
   "swhid": "swh:1:rev:ca4ec1084f42a737a82e98c89002704cd08d239a"
  },
  "repo": "tswistak/Battery-Monitor"

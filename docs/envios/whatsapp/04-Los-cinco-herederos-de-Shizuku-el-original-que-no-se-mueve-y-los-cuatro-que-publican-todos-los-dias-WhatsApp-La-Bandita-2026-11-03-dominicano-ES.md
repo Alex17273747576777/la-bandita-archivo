@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/04-Los-cinco-herederos-de-Shizuku-el-original-que-no-se-mueve-y-los-cuatro-que-publican-todos-los-dias-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md`
 - **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 1 días)
-- **sha256 de la pieza:** `09f6ae34fe1e2b24dac74487ed0d604103b54067abfc18766eb743732c675a08`
+- **sha256 de la pieza:** `377c535b231a28979755316ec7447fd80575fd6095dbaf517b65831a1b642c08`
 - **Envío generado:** 2026-11-04 · 26 mensajes · el mayor de 3553 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -481,7 +481,7 @@ El ecosistema, medido hoy, dice tres cosas a la vez y las tres son ciertas: el o
 
 ⏬ sigue abajo · parte 22 de 25
 
-═══ MENSAJE 24 de 26 · 2309 caracteres ═══
+═══ MENSAJE 24 de 26 · 2156 caracteres ═══
 
 ## 🗒️ Notas al pie
 
@@ -493,11 +493,11 @@ El ecosistema, medido hoy, dice tres cosas a la vez y las tres son ciertas: el o
 
 (3-nov) Las descargas de los herederos —5.230— se comparan contra las 3.515.333 del original y dan el 0,15 por ciento. La comparación mezcla periodos distintos de vida de cada proyecto y por eso se usa solo como orden de magnitud, no como cuota de mercado.
 
-(3-nov) El identificador de revisión se calcula del propio repositorio y no se pide a nadie: lo que se pregunta al archivo público es si lo tiene. Dos de los seis ya estaban archivados y cuatro quedaron con solicitud aceptada hoy, con su número de solicitud guardado en la ficha.
+(3-nov) El identificador de revisión se calcula del propio repositorio: lo que se pregunta al archivo público es si lo tiene. Dos de los seis ya estaban archivados y cuatro quedaron con solicitud aceptada hoy, con su número de solicitud guardado en la ficha.
 
-(3-nov) Los paquetes de depuración de dos de los herederos suman 33,9 y 55,5 megabytes. Se citan porque explican por qué un paquete pesa cinco veces más que otro, y se advierte que no hacen falta para usar el programa.
+(3-nov) Los paquetes de depuración de dos de los herederos suman 33,9 y 55,5 megabytes. Se citan porque explican por qué un paquete pesa cinco veces más que otro, y no hacen falta para usar el programa.
 
-(3-nov) El registro de la casa se volvió a medir completo: seis mil ochocientas treinta fichas, todas con fecha de hoy, cuatro mil trescientas treinta y cinco con algún dato cambiado y trescientas once que resultaron ser repositorios inexistentes. Esas trescientas once quedan marcadas como tales y no se cuentan como proyectos vivos en ninguna cuenta de esta guía.
+(3-nov) El registro se midió completo: seis mil ochocientas treinta fichas con fecha de hoy, cuatro mil trescientas treinta y cinco con algún dato cambiado y trescientas once que resultaron inexistentes. Esas quedan marcadas y no cuentan como vivos.
 
 ⏬ sigue abajo · parte 23 de 25
 
@@ -507,13 +507,13 @@ El ecosistema, medido hoy, dice tres cosas a la vez y las tres son ciertas: el o
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.772 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• thedjchi/Shizuku — ★6.717 · *dormido*: sin empujar desde el 15-jul-2026 (112 días) · Apache-2.0 · última release v13.7.0-thedjchi (2-jul-2026)
+• RikkaApps/Shizuku — ★32.775 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• thedjchi/Shizuku — ★6.719 · *dormido*: sin empujar desde el 15-jul-2026 (112 días) · Apache-2.0 · última release v13.7.0-thedjchi (2-jul-2026)
 • thejaustin/ShizukuPlus — ★1.690 · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
-• rushiranpise/Shizuku-Next — ★1.433 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
+• rushiranpise/Shizuku-Next — ★1.436 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
 • kerneldroid/Nightzuku — ★331 · empujó en las últimas horas · Apache-2.0 · última release v13.7.1-r60 (4-nov-2026)
 • krishna3163/OmniShizuku — ★18 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
-• iamr0s/Dhizuku — ★4.084 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• iamr0s/Dhizuku — ★4.085 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
@@ -522,6 +522,10 @@ Ninguno roto.
 
 ⏬ sigue abajo · parte 24 de 25
 
-═══ MENSAJE 26 de 26 · 152 caracteres ═══
+═══ MENSAJE 26 de 26 · 299 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.
+
+*🏷️ Etiquetas estratégicas*
+
+#Shizuku #ShizukuNext #ShizukuPlus #OmniShizuku #Nightzuku #HerenciaApache #CongelarAplicaciones #SolicitudDeArchivo

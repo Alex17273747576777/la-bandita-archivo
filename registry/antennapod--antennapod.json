@@ -44,8 +44,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "08107984b83fa0def9f6a1d2c244b1d9d1161322",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
   "swhid": "swh:1:rev:08107984b83fa0def9f6a1d2c244b1d9d1161322"
  },
  "repo": "AntennaPod/AntennaPod",

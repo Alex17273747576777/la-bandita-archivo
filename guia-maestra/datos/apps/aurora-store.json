@@ -60,17 +60,17 @@
   "f-droid/fdroidclient"
  ],
  "senal": {
-  "estrellas": 74,
+  "estrellas": 75,
   "nota": 25,
-  "edad_dias": 296,
+  "edad_dias": 297,
   "ultima_entrega": "sin entregas en el espejo",
   "descargas_10": 0,
   "contribuyentes": 100,
   "repo_mb": 42.5,
   "ci": 0,
-  "incidencias": "3 abiertas en el espejo; la casa es GitLab"
+  "incidencias": "3 abiertas"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-04",
  "swhid": null,
  "credito": "Programa de Aurora OSS · GPL-3.0 · medido el 3 de noviembre de 2026: 74 estrellas en el espejo, 2.284 en la casa de GitLab"
 }

@@ -44,8 +44,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "ceb3b3ea22f64ead1eb93b31b1f0657b7844631a",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "archivada",
+  "swh_solicitud": "ceb3b3ea22f64ead1eb93b31b1f0657b7844631a",
   "swhid": "swh:1:rev:ceb3b3ea22f64ead1eb93b31b1f0657b7844631a"
  },
  "repo": "authpass/authpass",

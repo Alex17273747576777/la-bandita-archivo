@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`
 - **Fecha de la pieza:** 2-nov-2026 (según dateline; edad hoy: 2 días)
-- **sha256 de la pieza:** `49bb71194d12c6c18f063ac9d8ee1518612cc21658605b31bed4831fcbad239a`
+- **sha256 de la pieza:** `d02a37199ccbbb75896cda479eedff06897959e61bae735a844d31d09c5b2aeb`
 - **Envío generado:** 2026-11-04 · 27 mensajes · el mayor de 3676 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -566,7 +566,7 @@ Y queda la parte que no depende de ninguna herramienta: cuando alguien mande un 
 
 ⏬ sigue abajo · parte 23 de 26
 
-═══ MENSAJE 25 de 27 · 1750 caracteres ═══
+═══ MENSAJE 25 de 27 · 1608 caracteres ═══
 
 ## 🗒️ Notas al pie
 
@@ -578,7 +578,7 @@ Y queda la parte que no depende de ninguna herramienta: cuando alguien mande un 
 
 (2-nov) Los siete textos del ritual están escritos para copiar y adaptar, no para enviar tal cual. Se probaron en conversaciones reales de grupo antes de publicarse; el que menos se usa es el seis, y el que más cambia el comportamiento del grupo es el siete, porque no habla de archivos sino de respaldos.
 
-(2-nov) Las cifras de estrellas son las del corte y no están redondeadas: se publican tal como las devolvió la medición, para que cualquiera pueda repetir la consulta y comparar. Las cuentas de la sección de totales se reconstruyen sumando la tabla, fila por fila, sin necesidad de creerle a esta guía.
+(2-nov) Las estrellas van tal como las devolvió la medición, sin redondear, para que la consulta se pueda repetir. Los totales se reconstruyen sumando la tabla.
 
 ⏬ sigue abajo · parte 24 de 26
 
@@ -588,11 +588,11 @@ Y queda la parte que no depende de ninguna herramienta: cuando alguien mande un 
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• ImranR98/Obtainium — ★21.197 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• ImranR98/Obtainium — ★21.198 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • Droid-ify/client — ★7.694 · *dormido*: sin empujar desde el 12-sep-2026 (53 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
 • NeoApplications/Neo-Store — ★5.624 · empujó el 23-oct-2026 (hace 12 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
-• MuntashirAkon/AppManager — ★9.437 · empujó en las últimas horas · NOASSERTION · última release v4.1.1 (4-sep-2026)
-• RikkaApps/Shizuku — ★32.772 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• MuntashirAkon/AppManager — ★9.440 · empujó en las últimas horas · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• RikkaApps/Shizuku — ★32.775 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • NeoApplications/Neo-Backup — ★3.894 · empujó en las últimas horas · AGPL-3.0 · última release 8.3.18 (3-may-2026)
 • XayahSuSuSu/Android-DataBackup — ★7.559 · empujó el 25-oct-2026 (hace 10 días) · GPL-3.0 · última release 2.0.12 (20-sep-2025)
 • 0x192/universal-android-debloater — ★20.326 · *dormido*: sin empujar desde el 2-ago-2024 (824 días) · GPL-3.0
@@ -606,6 +606,10 @@ Ninguno roto.
 
 ⏬ sigue abajo · parte 25 de 26
 
-═══ MENSAJE 27 de 27 · 152 caracteres ═══
+═══ MENSAJE 27 de 27 · 313 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.
+
+*🏷️ Etiquetas estratégicas*
+
+#Obtainium #AppManager #DataBackup #Accrescent #Shizuku #ReciboDeInstalacion #HuellaSHA256 #RespaldoCompleto #CeroPaquetesAlojados

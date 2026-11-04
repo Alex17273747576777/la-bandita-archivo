@@ -44,8 +44,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "b53a7d54682e100acaefb41cd181b40f5db59f64",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "archivada",
+  "swh_solicitud": "b53a7d54682e100acaefb41cd181b40f5db59f64",
   "swhid": "swh:1:rev:b53a7d54682e100acaefb41cd181b40f5db59f64"
  },
  "repo": "naman14/Timber"

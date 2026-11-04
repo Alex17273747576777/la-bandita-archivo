@@ -46,8 +46,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "dc4154f4c04399602895f31f9390bb66b25ea8a0",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "archivada",
+  "swh_solicitud": "dc4154f4c04399602895f31f9390bb66b25ea8a0",
   "swhid": "swh:1:rev:dc4154f4c04399602895f31f9390bb66b25ea8a0"
  },
  "repo": "MuntashirAkon/AppManager",

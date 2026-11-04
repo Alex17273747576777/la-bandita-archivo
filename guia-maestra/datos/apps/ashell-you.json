@@ -2,8 +2,16 @@
  "id": "ashell-you",
  "nombre": "aShellYou",
  "repo": "DP-Hridayan/aShellYou",
- "autores": [{"nombre": "DP-Hridayan", "enlace": "https://github.com/DP-Hridayan"}],
- "licencia": {"spdx": "GPL-3.0", "archivo": "https://github.com/DP-Hridayan/aShellYou/blob/main/LICENSE"},
+ "autores": [
+  {
+   "nombre": "DP-Hridayan",
+   "enlace": "https://github.com/DP-Hridayan"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/DP-Hridayan/aShellYou/blob/main/LICENSE"
+ },
  "nivel": "experto",
  "tarea": "Ejecutar órdenes del sistema desde el teléfono, con el permiso prestado, sin computadora ni cable.",
  "capitulo": 3,
@@ -43,9 +51,22 @@
   "Una orden mal escrita puede dejar el teléfono sin lanzador o sin teclado.",
   "Ejecutar órdenes copiadas de un grupo sin leerlas es la forma más rápida de romper el aparato."
  ],
- "alternativas": ["RikkaApps/Shizuku", "krishna3163/OmniShizuku"],
- "senal": {"estrellas": 2546, "nota": 58, "edad_dias": 1015, "ultima_entrega": "2026-05-22", "descargas_10": 210355, "contribuyentes": 13, "repo_mb": 73.4, "ci": 16, "incidencias": "112/141"},
- "medido_en": "2026-11-03",
+ "alternativas": [
+  "RikkaApps/Shizuku",
+  "krishna3163/OmniShizuku"
+ ],
+ "senal": {
+  "estrellas": 2549,
+  "nota": 58,
+  "edad_dias": 1016,
+  "ultima_entrega": "2026-05-22",
+  "descargas_10": 211023,
+  "contribuyentes": 13,
+  "repo_mb": 73.5,
+  "ci": 5,
+  "incidencias": "29 abiertas"
+ },
+ "medido_en": "2026-11-04",
  "swhid": null,
  "credito": "Programa de DP-Hridayan · GPL-3.0 · medido el 3 de noviembre de 2026"
 }

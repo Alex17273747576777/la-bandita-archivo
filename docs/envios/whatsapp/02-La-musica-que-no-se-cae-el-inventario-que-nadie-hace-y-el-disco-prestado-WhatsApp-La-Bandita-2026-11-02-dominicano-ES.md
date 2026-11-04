@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`
 - **Fecha de la pieza:** 2-nov-2026 (según dateline; edad hoy: 2 días)
-- **sha256 de la pieza:** `6f10c22d91adaa74f2f062e51bfc60e0565d40065791e4039dc13a53f4a9bf2e`
+- **sha256 de la pieza:** `13badd378e760e289a8b7d63740038d57a84180f9f8cc2bd0f7bea85ba65e36a`
 - **Envío generado:** 2026-11-04 · 29 mensajes · el mayor de 3628 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -596,7 +596,7 @@ Queda una cosa más, que es la que más se olvida: la ventana y la casa. Cinco d
 
 ⏬ sigue abajo · parte 25 de 28
 
-═══ MENSAJE 27 de 29 · 1692 caracteres ═══
+═══ MENSAJE 27 de 29 · 1587 caracteres ═══
 
 ## 🗒️ Notas al pie
 
@@ -608,7 +608,7 @@ Queda una cosa más, que es la que más se olvida: la ventana y la casa. Cinco d
 
 (2-nov) El porcentaje del cuarenta por ciento se calcula sobre la suma de los once y está redondeado al entero: los totales de la tabla se pueden reconstruir fila por fila, y quien los sume va a obtener la misma cifra que esta guía.
 
-(2-nov) Los cinco mensajes del grupo están escritos para copiar y adaptar, con el tono de una conversación de barrio y no de un foro técnico. Se probaron en tres grupos distintos antes de publicarse; el que más cambia el resultado es el cuarto, porque habla de la copia y no del programa, y la copia es lo único que se puede resolver sin discutir.
+(2-nov) Los cinco mensajes del grupo se escribieron con tono de conversación de barrio y se probaron en tres grupos; el cuarto es el que más cambia el resultado, porque habla de la copia y no del programa, y la copia se resuelve sin discutir.
 
 ⏬ sigue abajo · parte 26 de 28
 
@@ -619,15 +619,15 @@ Queda una cosa más, que es la que más se olvida: la ventana y la casa. Cinco d
 Medí otra vez, hoy 4 de noviembre de 2026, los 11 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • KRTirtho/spotube — sin dato hoy (la API no respondió). No afirmo nada.
-• MetrolistGroup/Metrolist — ★14.000 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.733 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• MetrolistGroup/Metrolist — ★14.003 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.735 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • AntennaPod/AntennaPod — ★8.263 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • theovilardo/PixelPlayer — sin dato hoy (la API no respondió). No afirmo nada.
 • namidaco/namida — ★6.786 · empujó el 1-nov-2026 (hace 3 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
 • z-huang/InnerTune — ★6.139 · *dormido*: sin empujar desde el 13-nov-2025 (356 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • OuterTune/OuterTune — ★5.442 · empujó el 12-oct-2026 (hace 23 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
 • RetroMusicPlayer/RetroMusicPlayer — ★5.383 · empujó en las últimas horas · GPL-3.0 · última release v7.0.3 (13-ago-2026)
-• OxygenCobalt/Auxio — ★4.420 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
+• OxygenCobalt/Auxio — ★4.421 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
 • fast4x/RiMusic — ★3.897 · *dormido*: sin empujar desde el 30-jul-2025 (462 días) · GPL-3.0 · última release v0.6.76 (21-mar-2025) · *ARCHIVADO*
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
@@ -637,6 +637,10 @@ Ninguno roto.
 
 ⏬ sigue abajo · parte 27 de 28
 
-═══ MENSAJE 29 de 29 · 152 caracteres ═══
+═══ MENSAJE 29 de 29 · 289 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.
+
+*🏷️ Etiquetas estratégicas*
+
+#AntennaPod #Auxio #Metrolist #SimpMusic #InnerTune #OuterTune #Spotube #RiMusic #FLAC #MusicaEnElBolsillo

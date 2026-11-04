@@ -1,36 +1,8 @@
-# PIEZA 03 · envío para Facebook
+*La caja fuerte del bolsillo: un gestor archivado con mil seiscientos cuatro días de silencio, dos que no declaran licencia y uno que se reserva todos los derechos*
 
-- **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/03-La-caja-fuerte-del-bolsillo-un-gestor-archivado-con-mil-seiscientos-tres-dias-de-silencio-y-tres-llaves-que-no-dejan-salir-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`
-- **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 1 días)
-- **sha256 de la pieza:** `13ccccc422a03b789b6af7a069471805c1c769706821a6f571f0430ad5d95be0`
-- **Envío generado:** 2026-11-04 · 17 mensajes · el mayor de 3673 caracteres
-- **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
+*La Bandita · martes 3 de noviembre de 2026, cifras remedidas el miércoles 4 · edición dominicano-español · pieza 03 de Facebook*
 
-═══ MENSAJE 1 de 17 · 1098 caracteres ═══
-
-*La caja fuerte del bolsillo: un gestor archivado con mil seiscientos tres días de silencio, dos que no declaran licencia y uno que se reserva todos los derechos*
-
-La Bandita · pieza 03 · guía del 3-nov-2026 · te la mando hoy en 17 mensajes.
-
-Antes de mandártela volví a medir lo que afirma: *13 repositorios, 13 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
-
-Licencias de lo que recomienda: GPL-3.0 8 · MIT 2 · NOASSERTION 1 · Apache-2.0 1.
-
-⚠️ *Aviso de fecha:* este texto se escribió el 3-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
-
-La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/03-La-caja-fuerte-del-bolsillo-un-gestor-archivado-con-mil-seiscientos-tres-dias-de-silencio-y-tres-llaves-que-no-dejan-salir-Facebook-La-Bandita-2026-11-03-dominicano-ES.md
-
-💓 4 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
-
-═══ MENSAJE 2 de 17 · 2532 caracteres ═══
-
-[Texto del 3-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
-
-*La caja fuerte del bolsillo: un gestor archivado con mil seiscientos tres días de silencio, dos que no declaran licencia y uno que se reserva todos los derechos*
-
-*La Bandita · martes 3 de noviembre de 2026 · edición dominicano-español · pieza 03 de Facebook*
-
-⏱️ *Lectura total: 30 minutos · doce programas de llaves medidos hoy uno por uno · noventa y tres entregas contadas en el más nuevo · mil seiscientos tres días de silencio en el más querido · tres puertas de salida que no existen · cinco pasos para mudar la caja sin perder una cuenta · cero paquetes alojados*
+⏱️ *Lectura total: 30 minutos · doce programas de llaves medidos hoy uno por uno · noventa y tres entregas contadas en el más nuevo · mil seiscientos cuatro días de silencio en el más querido · tres puertas de salida que no existen · cinco pasos para mudar la caja sin perder una cuenta · cero paquetes alojados*
 
 *🗺️ Mapa de esta guía*
 
@@ -52,11 +24,9 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 Esa pregunta se contestó hoy doce veces, una por programa, abriendo cada repositorio y mirando dos cosas que no son funciones: qué formato escribe y qué licencia tiene. El resultado no es una lista de recomendaciones. Es un mapa de puertas: los que dejan salir, los que dejan salir pero con la puerta a medio cerrar, y los que se quedaron sin nadie que las abra.
 
-Y hay una historia que se lleva la pieza entera: el gestor de segundo factor más querido del ecosistema libre, el que medio mundo instaló cuando los códigos de seis dígitos se volvieron obligatorios en todas partes, está **archivado** en su repositorio. Su último empujón de código es del 14 de junio de 2022. Hoy hace mil seiscientos tres días. Su última entrega es de junio de 2021, hace mil novecientos sesenta y siete días. Y sigue instalado en teléfonos que generan códigos para bancos.
+Y hay una historia que se lleva la pieza entera: el gestor de segundo factor más querido del ecosistema libre, el que medio mundo instaló cuando los códigos de seis dígitos se volvieron obligatorios en todas partes, está **archivado** en su repositorio. Su último empujón de código es del 14 de junio de 2022. Hoy hace mil seiscientos cuatro días. Su última entrega es de junio de 2021, hace mil novecientos sesenta y siete días. Y sigue instalado en teléfonos que generan códigos para bancos.
 
-⏬ sigue abajo · parte 1 de 16
-
-═══ MENSAJE 3 de 17 · 3066 caracteres ═══
+───────────────────
 
 *En una página · ⚡*
 
@@ -66,13 +36,11 @@ De los doce programas medidos hoy, **cinco leen o escriben el formato abierto Ke
 
 La regla de novedad de esta serie, aplicada aquí, encontró dos programas que valen la pena. **Monica**, nacido el 5 de octubre de 2025: trece meses de vida, mil doscientas siete estrellas, licencia GPL versión 3, **noventa y tres entregas publicadas** y dieciséis mil seiscientas setenta y ocho descargas. Y **Keyguard**, con tres mil seiscientas tres estrellas, una entrega publicada hoy mismo y las funciones más completas del grupo. Los dos son nuevos en el sentido que importa: el primero por edad, el segundo porque llegó a este público hace poco. Pero Keyguard trae un detalle que hay que decir en la primera página y no esconder en una nota: su archivo de licencia dice, en tres palabras, **«All Rights Reserved»**. Todos los derechos reservados. Su código está a la vista, no puedes modificarlo, no puedes redistribuirlo y, sobre todo, **no puedes continuarlo si su autor se cansa**: es el mejor programa de la lista por funciones y el único de los doce que, si desaparece, se lleva las llaves de su propia puerta.
 
-Los cuatro que se pararon son la otra mitad de la lección. **andOTP**, archivado y con mil seiscientos tres días de silencio. **Authorizer**, con novecientos veintiocho días parado y sin licencia declarada. **OpenKeychain**, que avisa en su propia presentación de que ya no se desarrolla. Y **AuthPass**, que empuja código pero no publica una entrega desde febrero de 2024. Los cuatro siguen teniendo más estrellas que Monica y que medio ecosistema nuevo junto, y ninguno se puede recomendar hoy sin poner la fecha al lado.
+Los cuatro que se pararon son la otra mitad de la lección. **andOTP**, archivado y con mil seiscientos cuatro días de silencio. **Authorizer**, con novecientos veintiocho días parado y sin licencia declarada. **OpenKeychain**, que avisa en su propia presentación de que ya no se desarrolla. Y **AuthPass**, que empuja código pero no publica una entrega desde febrero de 2024. Los cuatro siguen teniendo más estrellas que Monica y que medio ecosistema nuevo junto, y ninguno se puede recomendar hoy sin poner la fecha al lado.
 
 Lo que queda, y es lo que se puede usar: si tu caja fuerte es un archivo `.kdbx`, tienes cuatro programas vivos que lo abren —KeePassDX, keepass2android, Monica y AuthPass— y el día que uno se muera te mudas en una tarde. Si tu caja fuerte es un servicio, tu seguro es el botón de exportar, y conviene probarlo antes de necesitarlo.
 
-⏬ sigue abajo · parte 2 de 16
-
-═══ MENSAJE 4 de 17 · 3264 caracteres ═══
+───────────────────
 
 *🧳 La prueba de la maleta · el archivo que se puede llevar*
 
@@ -92,97 +60,83 @@ Hay un matiz técnico que conviene conocer porque decide el resultado de la prue
 
 Y un detalle que casi nadie mira y que esta casa subraya: el archivo pesa. Una caja fuerte con doscientas entradas ocupa unos pocos cientos de kilobytes, no megabytes. Si el archivo que exportas pesa mucho más, probablemente lleva dentro cosas que no esperabas —adjuntos, historial, miniaturas— y conviene revisar qué se está llevando. Una caja fuerte no engorda sola.
 
-⏬ sigue abajo · parte 3 de 16
-
-═══ MENSAJE 5 de 17 · 2783 caracteres ═══
+───────────────────
 
 *🆕 Los dos nuevos · Monica y Keyguard*
 
-**Monica · trece meses y noventa y tres entregas** — ★1.207 · nació el 5 de octubre de 2025 · GPL-3.0 · última entrega V1.0.324, publicada hoy · dieciséis mil seiscientas setenta y ocho descargas sumadas. Su madurez es de trescientos noventa y cuatro días y su ritmo es el más alto que esta serie ha medido en este tema: **noventa y tres entregas en trece meses**, o sea una cada cuatro días, y la primera salió el mismo día en que nació el repositorio. Su presentación está en seis idiomas, entre ellos español, inglés, japonés, vietnamita y ruso, más una versión de broma que su autor mantiene por gusto.
+**Monica · trece meses y noventa y tres entregas** — ★1.209 · nació el 5 de octubre de 2025 · GPL-3.0 · última entrega V1.0.324, publicada ayer · dieciséis mil setecientas cincuenta y una descargas sumadas. Su madurez es de trescientos noventa y cinco días y su ritmo es el más alto que esta serie ha medido en este tema: **noventa y tres entregas en trece meses**, o sea una cada cuatro días, y la primera salió el mismo día en que nació el repositorio. Su presentación está en seis idiomas, entre ellos español, inglés, japonés, vietnamita y ruso, más una versión de broma que su autor mantiene por gusto.
 
 Lo que hace: una caja fuerte local que reúne Bitwarden y KeePass, con generador de códigos de segundo factor y copia de seguridad por WebDAV. Lo que le falta, y se dice con la misma claridad: su base de datos principal no es un archivo KeePass, así que la prueba de la maleta se contesta exportando. Para el público de esta serie tiene un valor particular: es el único programa de la lista que nació después de 2023, está bajo GPL versión 3 —o sea que se puede continuar— y publica casi todas las semanas.
 
-**Keyguard · el más completo y el que se reserva los derechos** — ★3.603 · nació el 23 de julio de 2023 · última entrega r20261103, publicada hoy · mil ciento noventa y nueve días de vida. Es un cliente de la plataforma Bitwarden y de archivos KeePass, con autocompletado, llaves de acceso —las passkeys, que son la forma nueva de entrar sin contraseña—, funcionamiento sin conexión y una función llamada Watchtower que busca contraseñas filtradas, repetidas y débiles. Corre en Android, en reloj, en escritorio, en iOS y en Mac, y su repositorio tiene la estructura más completa de los doce: veinte carpetas de código, contratos de firma, pruebas y una wiki.
+**Keyguard · el más completo y el que se reserva los derechos** — ★3.604 · nació el 23 de julio de 2023 · última entrega r20261103, publicada ayer · mil doscientos días de vida. Es un cliente de la plataforma Bitwarden y de archivos KeePass, con autocompletado, llaves de acceso —las passkeys, que son la forma nueva de entrar sin contraseña—, funcionamiento sin conexión y una función llamada Watchtower que busca contraseñas filtradas, repetidas y débiles. Corre en Android, en reloj, en escritorio, en iOS y en Mac, y su repositorio tiene la estructura más completa de los doce: veinte carpetas de código, contratos de firma, pruebas y una wiki.
 
 Y aquí está el hallazgo de la pieza. Su licencia no es una licencia libre. El archivo `LICENSE` de su repositorio dice, en su primera línea y en toda su extensión, **«All Rights Reserved»**: todos los derechos reservados. Al lado hay un segundo archivo, `SAPCLA.md`, que es un acuerdo de contribución en el que quien manda código **cede al autor todos los derechos** sobre lo que aporta. Es decir: el código está a la vista para leerlo y auditarlo, y eso es valioso en un programa que guarda tus contraseñas; pero no puedes modificarlo, no puedes redistribuirlo, no puedes hacer una bifurcación si el autor abandona el proyecto, y no puedes meterlo en una tienda libre que exija licencia libre.
 
 Eso no lo convierte en un mal programa. Lo convierte en un programa con una puerta de salida que depende de una sola persona, y en el tema de esta pieza eso pesa más que en ningún otro: aquí lo que se guarda son las llaves de todo lo demás.
 
-⏬ sigue abajo · parte 4 de 16
-
-═══ MENSAJE 6 de 17 · 3604 caracteres ═══
+───────────────────
 
 *🟢 Los cinco que siguen empujando*
 
 Los cinco de esta sección no son nuevos, y se incluyen por la razón contraria a la regla de novedad: son los que sostienen el tema mientras lo nuevo madura. Cada uno con su fecha, porque sin fecha una recomendación es un rumor.
 
-**Aegis Authenticator · el que todo el mundo copió** — ★13.461 · nació el 15 de agosto de 2016 · GPL-3.0 · última entrega v3.4.3 del 6 de septiembre de 2026 · último empujón hace cincuenta y ocho días. Madurez de diez años. Es el generador de códigos de segundo factor de referencia del ecosistema libre: cifrado, exportable, sin cuenta y sin nube. Cincuenta y ocho días sin empujar no es abandono en un programa que lleva una década: es una entrega estable reciente y un ritmo tranquilo. Es la respuesta directa a la primera historia de esta pieza, la del programa archivado, y por eso encabeza la sección.
+**Aegis Authenticator · el que todo el mundo copió** — ★13.466 · nació el 15 de agosto de 2016 · GPL-3.0 · última entrega v3.4.3 del 6 de septiembre de 2026 · último empujón hace cincuenta y nueve días. Madurez de diez años. Es el generador de códigos de segundo factor de referencia del ecosistema libre: cifrado, exportable, sin cuenta y sin nube. Cincuenta y ocho días sin empujar no es abandono en un programa que lleva una década: es una entrega estable reciente y un ritmo tranquilo. Es la respuesta directa a la primera historia de esta pieza, la del programa archivado, y por eso encabeza la sección.
 
-**Stratum · el que publicó anteayer** — ★4.638 · nació el 14 de agosto de 2018 · GPL-3.0 · última entrega v1.7.0 del 1 de noviembre de 2026 · último empujón hace dos días. Madurez de ocho años. Es el otro gran generador de códigos del ecosistema, con bóveda cifrada, exportación y un diseño que muchos consideran el mejor cuidado del grupo. La entrega de anteayer y el empujón de ayer lo ponen en el grupo de los que se mueven, y su antigüedad en el de los que ya demostraron que aguantan.
+**Stratum · el que publicó hace tres días** — ★4.636 · nació el 14 de agosto de 2018 · GPL-3.0 · última entrega v1.7.0 del 1 de noviembre de 2026 · último empujón hace tres días. Madurez de ocho años. Es el otro gran generador de códigos del ecosistema, con bóveda cifrada, exportación y un diseño que muchos consideran el mejor cuidado del grupo. La entrega de anteayer y el empujón de ayer lo ponen en el grupo de los que se mueven, y su antigüedad en el de los que ya demostraron que aguantan.
 
-**KeePassDX · el lector de maletas de Android** — ★7.613 · nació el 17 de octubre de 2017 · GPL-3.0 · última entrega 4.5.8 del 31 de octubre de 2026 · último empujón hace dos días. Madurez de nueve años. Es el programa que convierte el teléfono en un lector de archivos `.kdbx` completo, con edición, adjuntos y campos personalizados. Si tu caja fuerte es un archivo, este es el que la abre sin pedirte una cuenta y sin tocar la nube.
+**KeePassDX · el lector de maletas de Android** — ★7.613 · nació el 17 de octubre de 2017 · GPL-3.0 · última entrega 4.5.8 del 31 de octubre de 2026 · último empujón hace tres días. Madurez de nueve años. Es el programa que convierte el teléfono en un lector de archivos `.kdbx` completo, con edición, adjuntos y campos personalizados. Si tu caja fuerte es un archivo, este es el que la abre sin pedirte una cuenta y sin tocar la nube.
 
-**KeePass2Android · el que lleva más tiempo abriendo KDBX** — ★6.366 · nació el 20 de septiembre de 2017 · GPL-3.0 · última entrega v1.15-r6 del 15 de octubre de 2026 · último empujón hace cinco días. Madurez de nueve años. Su nombre lo dice todo y su función también: lee los archivos de KeePass del escritorio, con integración de teclado y de autocompletado. Es la opción conservadora, la que existe desde antes de las nubes y seguirá existiendo después.
+**KeePass2Android · el que lleva más tiempo abriendo KDBX** — ★6.367 · nació el 20 de septiembre de 2017 · GPL-3.0 · última entrega v1.15-r6 del 15 de octubre de 2026 · último empujón hace seis días. Madurez de nueve años. Su nombre lo dice todo y su función también: lee los archivos de KeePass del escritorio, con integración de teclado y de autocompletado. Es la opción conservadora, la que existe desde antes de las nubes y seguirá existiendo después.
 
-**Bitwarden · la consigna con marca** — ★9.583 · nació el 30 de abril de 2016 · GPL-3.0 · última entrega v2026.10.1-bwpm del 29 de octubre de 2026 · último empujón hace menos de un día. Madurez de diez años. Es la aplicación oficial de la plataforma, y su licencia es libre —lo cual es notable, porque el servidor también lo es y se puede montar en casa—. Aquí la puerta de salida no es un archivo que abres con otro programa: es el botón de exportar de la plataforma, y la prueba consiste en usarlo una vez antes de confiar en él.
+**Bitwarden · la consigna con marca** — ★9.585 · nació el 30 de abril de 2016 · GPL-3.0 · última entrega v2026.10.1-bwpm del 29 de octubre de 2026 · último empujón hoy mismo. Madurez de diez años. Es la aplicación oficial de la plataforma, y su licencia es libre —lo cual es notable, porque el servidor también lo es y se puede montar en casa—. Aquí la puerta de salida no es un archivo que abres con otro programa: es el botón de exportar de la plataforma, y la prueba consiste en usarlo una vez antes de confiar en él.
 
-**FreeOTP · el más pequeño y el más callado** — ★1.683 · nació el 24 de octubre de 2016 · Apache-2.0 · última entrega v2.0.6 del 17 de febrero de 2026 · último empujón hace menos de un día. Madurez de diez años. Es el generador de códigos más austero del grupo: sin nube, sin sincronización, sin adornos, mantenido por una fundación. Su última entrega tiene doscientos cincuenta y nueve días, y esa distancia entre empujón y entrega merece explicarse más abajo, porque es un patrón que se repite y que casi nadie mira.
+**FreeOTP · el más pequeño y el más callado** — ★1.683 · nació el 24 de octubre de 2016 · Apache-2.0 · última entrega v2.0.6 del 17 de febrero de 2026 · último empujón ayer. Madurez de diez años. Es el generador de códigos más austero del grupo: sin nube, sin sincronización, sin adornos, mantenido por una fundación. Su última entrega tiene doscientos cincuenta y nueve días, y esa distancia entre empujón y entrega merece explicarse más abajo, porque es un patrón que se repite y que casi nadie mira.
 
 **La tabla de los que siguen**
 
 | Programa | ★ | Nace | Última entrega | Días sin empujón | Licencia | Prueba de la maleta |
 |---|---|---|---|---|---|---|
-| Aegis | ★13.461 | 15-ago-2016 | v3.4.3 · 6-sep-2026 | 58 | GPL-3.0 | exporta su propio formato cifrado |
-
-⏬ sigue abajo · parte 5 de 16
-
-═══ MENSAJE 7 de 17 · 1202 caracteres ═══
-
-| Bitwarden | ★9.583 | 30-abr-2016 | v2026.10.1 · 29-oct-2026 | 0 | GPL-3.0 | exporta desde la plataforma |
-| KeePassDX | ★7.613 | 17-oct-2017 | 4.5.8 · 31-oct-2026 | 2 | GPL-3.0 | lee y escribe KDBX |
-| KeePass2Android | ★6.366 | 20-sep-2017 | v1.15-r6 · 15-oct-2026 | 5 | GPL-3.0 | lee y escribe KDBX |
-| Stratum | ★4.638 | 14-ago-2018 | v1.7.0 · 1-nov-2026 | 2 | GPL-3.0 | exporta su propio formato cifrado |
-| Keyguard | ★3.603 | 23-jul-2023 | r20261103 · hoy | 0 | todos los derechos reservados | lee KDBX y Bitwarden |
-| FreeOTP | ★1.683 | 24-oct-2016 | v2.0.6 · 17-feb-2026 | 0 | Apache-2.0 | exporta su formato |
-| Monica | ★1.207 | 5-oct-2025 | V1.0.324 · hoy | 0 | GPL-3.0 | exporta; su base no es KDBX |
+| Aegis | ★13.466 | 15-ago-2016 | v3.4.3 · 6-sep-2026 | 59 | GPL-3.0 | exporta su propio formato cifrado |
+| Bitwarden | ★9.585 | 30-abr-2016 | v2026.10.1 · 29-oct-2026 | 0 | GPL-3.0 | exporta desde la plataforma |
+| KeePassDX | ★7.613 | 17-oct-2017 | 4.5.8 · 31-oct-2026 | 3 | GPL-3.0 | lee y escribe KDBX |
+| KeePass2Android | ★6.367 | 20-sep-2017 | v1.15-r6 · 15-oct-2026 | 6 | GPL-3.0 | lee y escribe KDBX |
+| Stratum | ★4.636 | 14-ago-2018 | v1.7.0 · 1-nov-2026 | 3 | GPL-3.0 | exporta su propio formato cifrado |
+| Keyguard | ★3.604 | 23-jul-2023 | r20261103 · 3-nov | 0 | todos los derechos reservados | lee KDBX y Bitwarden |
+| FreeOTP | ★1.683 | 24-oct-2016 | v2.0.6 · 17-feb-2026 | 1 | Apache-2.0 | exporta su formato |
+| Monica | ★1.209 | 5-oct-2025 | V1.0.324 · 3-nov | 0 | GPL-3.0 | exporta; su base no es KDBX |
 
 Esa tabla dice algo que ninguna lista de recomendaciones dice: **empujar código y publicar entregas son dos cosas distintas**. FreeOTP empujó hoy y su última entrega tiene ocho meses y medio. AuthPass, que viene en la sección siguiente, empujó hace cuarenta y nueve días y su última entrega tiene mil tres días. Un proyecto con código reciente y sin paquete reciente está en un limbo muy concreto: el autor trabaja, pero tú no puedes instalar lo que hizo.
 
-⏬ sigue abajo · parte 6 de 16
-
-═══ MENSAJE 8 de 17 · 3673 caracteres ═══
+───────────────────
 
 *⚰️ Los cuatro que se pararon, con su fecha*
 
-**andOTP · el querido que está archivado** — ★3.704 · nació el 5 de julio de 2017 · MIT · **archivado** en su repositorio · último empujón el 14 de junio de 2022, hace **mil seiscientos tres días** · última entrega v0.9.0.1 de junio de 2021, hace **mil novecientos sesenta y siete días**. Su propia descripción empieza con una palabra entre corchetes: «[Unmaintained]», sin mantenimiento. Y aun así tiene tres mil setecientas cuatro estrellas, más que los dos nuevos de esta pieza juntos, porque durante años fue la respuesta obvia a la pregunta «¿con qué genero los códigos de seis dígitos?».
+**andOTP · el querido que está archivado** — ★3.704 · nació el 5 de julio de 2017 · MIT · **archivado** en su repositorio · último empujón el 14 de junio de 2022, hace **mil seiscientos cuatro días** · última entrega v0.9.0.1 de junio de 2021, hace **mil novecientos sesenta y siete días**. Su propia descripción empieza con una palabra entre corchetes: «[Unmaintained]», sin mantenimiento. Y aun así tiene tres mil setecientas cuatro estrellas, más que los dos nuevos de esta pieza juntos, porque durante años fue la respuesta obvia a la pregunta «¿con qué genero los códigos de seis dígitos?».
 
 Lo bueno: su licencia es MIT, así que **cualquiera puede continuarlo**, y de hecho su formato de exportación cifrada es lo que han usado los programas que lo relevaron. Lo malo: el repositorio está archivado, que en la práctica significa cerrado a cambios públicos. Un programa archivado que genera códigos para acceder a tu banco es una dependencia que se sostiene en que nadie tenga que arreglarla.
 
-**Authorizer · el que se quedó sin licencia y sin nadie** — ★572 · nació el 28 de septiembre de 2016 · **sin licencia declarada** · último empujón el 19 de abril de 2024, hace **novecientos veintiocho días** · última entrega v0.5.0 de mayo de 2023. Su idea era buena y poco común: convertir el teléfono en un teclado que se conecta por USB o Bluetooth y escribe solo la contraseña que elijas, con códigos de un solo uso y soporte de llaves de seguridad. Es decir, un gestor que no necesita instalar nada en la computadora.
+**Authorizer · el que se quedó sin licencia y sin nadie** — ★572 · nació el 28 de septiembre de 2016 · **sin licencia declarada** · último empujón el 19 de abril de 2024, hace **novecientos veintinueve días** · última entrega v0.5.0 de mayo de 2023. Su idea era buena y poco común: convertir el teléfono en un teclado que se conecta por USB o Bluetooth y escribe solo la contraseña que elijas, con códigos de un solo uso y soporte de llaves de seguridad. Es decir, un gestor que no necesita instalar nada en la computadora.
 
 Su problema no es el silencio: es la combinación. **Sin licencia, el código no se puede reutilizar**, y **sin actividad, tampoco hay quien lo mantenga**. De los cuatro de esta sección es el único que está doblemente cerrado, y por eso su ficha sirve de ejemplo en la sección siguiente.
 
-**OpenKeychain · el que lo avisa él mismo** — ★2.632 · nació el 9 de marzo de 2012 · GPL-3.0 · último empujón el 16 de mayo de 2024, hace **novecientos un días** · sin entregas publicadas en la página del repositorio. Es una implementación de OpenPGP para Android, o sea cifrado de correo y de archivos con llaves propias, y su caso es distinto: **su propia presentación empieza con un aviso**: este software ya no se desarrolla activamente, se aplicarán correcciones de seguridad si alguien las reporta y se hará mantenimiento básico, pero no habrá funciones nuevas.
+**OpenKeychain · el que lo avisa él mismo** — ★2.632 · nació el 9 de marzo de 2012 · GPL-3.0 · último empujón el 16 de mayo de 2024, hace **novecientos dos días** · sin entregas publicadas en la página del repositorio. Es una implementación de OpenPGP para Android, o sea cifrado de correo y de archivos con llaves propias, y su caso es distinto: **su propia presentación empieza con un aviso**: este software ya no se desarrolla activamente, se aplicarán correcciones de seguridad si alguien las reporta y se hará mantenimiento básico, pero no habrá funciones nuevas.
 
 Ese aviso es un acto de honestidad que merece reconocerse, y también es la razón por la que esta pieza no lo recomienda para empezar. Catorce años de historia, dos mil seiscientas treinta y dos estrellas, licencia libre, y una frase en la primera línea que ahorra a quien lee la sorpresa de descubrirlo dos años después.
 
-**AuthPass · el que empuja pero no publica** — ★2.809 · nació el 22 de agosto de 2019 · GPL-3.0 · último empujón el 15 de septiembre de 2026, hace cuarenta y nueve días · **última entrega v1.9.11 del 4 de febrero de 2024, hace mil tres días**. Este es el caso más instructivo de los cuatro y el más difícil de clasificar. Lee archivos KeePass, funciona en todas las plataformas y su código se movió hace mes y medio.
+**AuthPass · el que empuja pero no publica** — ★2.810 · nació el 22 de agosto de 2019 · GPL-3.0 · último empujón el 15 de septiembre de 2026, hace cincuenta días · **última entrega v1.9.11 del 4 de febrero de 2024, hace mil cuatro días**. Este es el caso más instructivo de los cuatro y el más difícil de clasificar. Lee archivos KeePass, funciona en todas las plataformas y su código se movió hace mes y medio.
 
 Pero su último paquete para instalar tiene casi tres años. Quien lo recomienda está recomendando software que ya no recibe entregas, aunque su repositorio parezca vivo. Es exactamente el tipo de detalle que se ve abriendo dos puertas distintas de la misma fuente: la del código y la de las entregas. Un programa puede estar trabajando en su próxima versión durante años, y mientras tanto el usuario está usando una foto de hace tres.
 
 **Los cuatro, en una tabla, con el motivo**
-
-
-⏬ sigue abajo · parte 7 de 16
-
-═══ MENSAJE 9 de 17 · 3436 caracteres ═══
 
 | Programa | ★ | Último empujón | Última entrega | Licencia | Motivo de la ficha |
 |---|---|---|---|---|---|
 | andOTP | ★3.704 | 14-jun-2022 | jun-2021 | MIT | archivado, se puede continuar pero nadie lo hace |
 | Authorizer | ★572 | 19-abr-2024 | may-2023 | sin declarar | parado y sin licencia: doblemente cerrado |
 | OpenKeychain | ★2.632 | 16-may-2024 | sin entregas | GPL-3.0 | se declara sin desarrollo activo |
-| AuthPass | ★2.809 | 15-sep-2026 | 4-feb-2024 | GPL-3.0 | empuja código, no publica paquete |
+| AuthPass | ★2.810 | 15-sep-2026 | 4-feb-2024 | GPL-3.0 | empuja código, no publica paquete |
+
+───────────────────
 
 *🔑 El segundo factor, que es otra caja*
 
@@ -202,9 +156,7 @@ Aquí el detalle duele: los cuatro programas que se pararon de la sección anter
 
 Y una nota sobre los estándares, porque el tema se mueve. El formato de exportación estándar para mover semillas entre programas es una especificación abierta y varios de los grandes la respetan, lo que significa que mudarse de un generador a otro es posible sin volver a dar de alta cada cuenta. La recomendación práctica es la misma que con las contraseñas: antes de elegir un generador nuevo, comprueba que puede importar ese formato, porque el día que lo necesites no vas a querer investigar.
 
-⏬ sigue abajo · parte 8 de 16
-
-═══ MENSAJE 10 de 17 · 3658 caracteres ═══
+───────────────────
 
 *🚚 Los cinco pasos de la mudanza*
 
@@ -239,19 +191,14 @@ Lo que debes ver: los mismos seis dígitos en los dos programas, contando el mis
 **Paso cinco · desinstalar el viejo, pero no hoy.** La tentación es borrar el programa anterior en cuanto el nuevo funciona. No se hace. Se deja instalado una semana, con la exportación guardada en dos sitios distintos y la huella apuntada, y se desinstala cuando hayas entrado a tus cuentas importantes con el programa nuevo al menos una vez cada una.
 
 ```
-```
-
-⏬ sigue abajo · parte 9 de 16
-
-═══ MENSAJE 11 de 17 · 3633 caracteres ═══
-
-```
 adb uninstall com.ejemplo.viejo
 ```
 
 Lo que debes ver: la confirmación de desinstalación. Antes de llegar aquí, comprueba que tienes la copia en dos sitios que no sean el teléfono: un pendrive y una carpeta de tu computadora, por ejemplo. Y no borres las exportaciones del paso dos y del paso cuatro aunque el programa nuevo funcione: son tu copia de seguridad, no un residuo de la mudanza.
 
 **Las tres formas de arruinarlo, con su salida exacta.** Primera: exportaste en texto plano y el archivo quedó en la carpeta de descargas; te darás cuenta cuando alguna aplicación rara empiece a pedir permisos de almacenamiento. Segunda: importaste el archivo en el programa nuevo y no comprobaste el número de entradas; el día que busques una cuenta que faltaba, ya no sabrás en qué paso se perdió. Tercera: desinstalaste el viejo el mismo día; si el nuevo tiene un fallo de importación que descubres a la semana, la exportación es tu única salida y hay que haberla probado antes.
+
+───────────────────
 
 *📊 El censo del dominio*
 
@@ -265,9 +212,7 @@ Y el número que más me hizo pensar al escribirlo: de los doce programas medido
 
 **Un caso aparte que merece mención: las notas cifradas.** En el límite de este tema hay una familia de programas que no son cajas fuertes de contraseñas pero resuelven el problema de al lado: guardar texto privado sin que nadie lo lea. Uno de ellos es **Lucent** ★12, nacido el 19 de julio de 2026, licencia MIT, último empujón de ayer; su madurez es de ciento siete días y su propuesta es notas, tareas y un asistente que trabaja sin conexión sobre datos cifrados. Doce estrellas y cuatro meses de vida: es exactamente el tipo de proyecto que la regla de esta serie pone delante, y también el tipo que hay que probar sabiendo que su historia no ha empezado.
 
-⏬ sigue abajo · parte 10 de 16
-
-═══ MENSAJE 12 de 17 · 3561 caracteres ═══
+───────────────────
 
 *❓ Las preguntas del grupo*
 
@@ -296,15 +241,12 @@ Una caja fuerte de doscientas entradas ocupa unos pocos cientos de kilobytes y n
 Son un método nuevo para entrar sin contraseña, apoyado en llaves que quedan en el teléfono, y ya hay programas de esta lista que las soportan. La idea es buena y su punto débil es el de siempre: si la llave vive en un solo aparato y no hay copia, pierdes el acceso. Mientras la adopción se asienta, la recomendación de esta casa es mantener las contraseñas y el segundo factor funcionando en paralelo, y no ser el primero de tu familia en quedarse fuera.
 
 **¿Por qué los cuatro muertos siguen teniendo más estrellas que los nuevos?**
-
-⏬ sigue abajo · parte 11 de 16
-
-═══ MENSAJE 13 de 17 · 2869 caracteres ═══
-
 Porque las estrellas son un contador de historia acumulada, no de salud actual. andOTP fue la respuesta correcta durante años y tiene tres mil setecientas cuatro estrellas ganadas en esa época. Monica tiene mil doscientas en trece meses. Comparar los dos números sin la fecha al lado es comparar una biblioteca con un recién nacido.
 
 **¿Cada cuánto vas a repetir esta lista?**
 La remisión del 3 de diciembre medirá otra vez los ciento veinticinco temas de la serie, y este es uno de ellos. Pero la comprobación no requiere esperar: las cuatro puertas de la fuente —ficha, entregas, licencia y archivo de licencia— se abren en dos minutos, y la sección de la mudanza enseña a usar lo que devuelvan.
+
+───────────────────
 
 *🌅 Cierre · la llave de la puerta de salida*
 
@@ -312,7 +254,7 @@ De todos los temas que lleva esta serie, este es el único donde una decisión m
 
 Lo que hay que llevarse cabe en cuatro frases. La primera: **el archivo es tuyo, el servicio no**; si puedes abrir tu caja con otro programa, tienes una caja, y si no, tienes una llave que alguien más guarda. La segunda: **la licencia es el seguro de vida del programa**, y aquí hay tres ejemplos seguidos —uno sin licencia, uno con todos los derechos reservados, uno con GPL que se puede continuar—. La tercera: **empujar código no es publicar entregas**, y AuthPass lo demuestra con tres años de diferencia entre una cosa y la otra. Y la cuarta: **las semillas del segundo factor son la verdadera llave**, se guardan aparte, se copian fuera del teléfono y se prueban antes de necesitarlas.
 
-El programa más querido del tema está archivado desde hace mil seiscientos tres días. El más completo se reserva todos los derechos. El más nuevo lleva trece meses publicando cada cuatro días y tiene una licencia que permite que cualquiera lo continúe. Con esos tres datos, y sin mirar una sola captura de pantalla, ya se puede elegir.
+El programa más querido del tema está archivado desde hace mil seiscientos cuatro días. El más completo se reserva todos los derechos. El más nuevo lleva trece meses publicando cada cuatro días y tiene una licencia que permite que cualquiera lo continúe. Con esos tres datos, y sin mirar una sola captura de pantalla, ya se puede elegir.
 
 *Medición del corte:* 3 de noviembre de 2026, entre las 23:10 y las 23:55 de Santo Domingo · doce programas de llaves medidos uno por uno · treinta y dos fichas del dominio contadas en el registro · nueve con formato abierto y tres tras un servicio · cuatro parados con su fecha exacta · cinco pasos de mudanza con su salida esperada · cero paquetes alojados.
 
@@ -321,9 +263,7 @@ El programa más querido del tema está archivado desde hace mil seiscientos tre
 
 💓 *La Bandita informa a partir de fuentes fechadas.* Doce cajas fuertes con su licencia y su fecha, cuatro paradas con el día del último latido y cinco pasos para mudarse sin perder una cuenta: la puerta de salida, medida.
 
-⏬ sigue abajo · parte 12 de 16
-
-═══ MENSAJE 14 de 17 · 2178 caracteres ═══
+───────────────────
 
 *🔗 Enlaces*
 
@@ -337,7 +277,7 @@ El programa más querido del tema está archivado desde hace mil seiscientos tre
 - Aegis, el generador de códigos de referencia: https://github.com/beemdevelopment/Aegis
 - Stratum, el que publicó anteayer: https://github.com/stratumauth/app
 - FreeOTP, el austero de la fundación: https://github.com/freeotp/freeotp-android
-- andOTP, archivado y con mil seiscientos tres días de silencio: https://github.com/andOTP/andOTP
+- andOTP, archivado y con mil seiscientos cuatro días de silencio: https://github.com/andOTP/andOTP
 - Authorizer, parado y sin licencia: https://github.com/tejado/Authorizer
 - OpenKeychain, el que avisa de que ya no se desarrolla: https://github.com/open-keychain/open-keychain
 - AuthPass, el que empuja pero no publica: https://github.com/authpass/authpass
@@ -351,9 +291,7 @@ El programa más querido del tema está archivado desde hace mil seiscientos tre
 - La puerta del archivo de licencia: https://api.github.com/repos/AChep/keyguard-app/license
 - La documentación de esa interfaz, para repetir la medición: https://docs.github.com/en/rest
 
-⏬ sigue abajo · parte 13 de 16
-
-═══ MENSAJE 15 de 17 · 2520 caracteres ═══
+───────────────────
 
 ## 🗒️ Notas al pie
 
@@ -361,7 +299,7 @@ El programa más querido del tema está archivado desde hace mil seiscientos tre
 
 (3-nov) La distinción entre «empujar código» y «publicar una entrega» se comprobó con dos puertas distintas de la misma fuente, y es la que deja fuera a AuthPass pese a tener actividad reciente: mil tres días entre su último paquete y hoy.
 
-(3-nov) El número de mil seiscientos tres días de andOTP se calcula desde su último empujón, el 14 de junio de 2022, hasta la fecha de corte. Su última entrega es aún más vieja, de junio de 2021, y el repositorio figura como archivado, lo cual es un estado que la plataforma declara y no una interpretación de esta casa.
+(3-nov) El número de mil seiscientos cuatro días de andOTP se calcula desde su último empujón, el 14 de junio de 2022, hasta la fecha de corte. Su última entrega es aún más vieja, de junio de 2021, y el repositorio figura como archivado, lo cual es un estado que la plataforma declara y no una interpretación de esta casa.
 
 (3-nov) El censo de treinta y dos fichas cuenta solo las que llevan el tema en su descripción, y por eso es una cifra conservadora: hay programas de cifrado que no usan esas palabras y quedan fuera. Se declara así para que nadie la lea como un total absoluto del ecosistema.
 
@@ -373,42 +311,7 @@ El programa más querido del tema está archivado desde hace mil seiscientos tre
 #task 002 · escribir al autor de Keyguard una nota cortés con una sola pregunta: si su licencia «All Rights Reserved» es una decisión definitiva o si consideraría una licencia libre para que su programa pueda continuarse, y anotar la respuesta en el acta del 3 de diciembre.
 #task 003 · ofrecer a los autores de Monica y de Lucent la revisión de su presentación en español y la traducción de esta ficha, porque son los dos programas nuevos del tema y su documentación en varios idiomas ya es mejor que la media del ecosistema.
 
-*
-
-⏬ sigue abajo · parte 14 de 16
-
-═══ MENSAJE 16 de 17 · 2179 caracteres ═══
-
-💓 *EL ESTADO DE HOY · pieza 03*
-
-Medí otra vez, hoy 4 de noviembre de 2026, los 13 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
-
-• Monica-Pass/Monica — ★1.209 · empujó en las últimas horas · GPL-3.0 · última release V1.0.324 (3-nov-2026)
-• AChep/keyguard-app — ★3.604 · empujó en las últimas horas · NOASSERTION · última release r20261103 (3-nov-2026)
-• Kunzisoft/KeePassDX — ★7.613 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
-• PhilippC/keepass2android — ★6.367 · empujó el 29-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
-• bitwarden/android — ★9.585 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
-• beemdevelopment/Aegis — ★13.466 · *dormido*: sin empujar desde el 6-sep-2026 (59 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
-• stratumauth/app — ★4.636 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.0 (1-nov-2026)
-• freeotp/freeotp-android — ★1.683 · empujó en las últimas horas · Apache-2.0 · última release v2.0.6 (17-feb-2026)
-• andOTP/andOTP — ★3.704 · *dormido*: sin empujar desde el 14-jun-2022 (1604 días) · MIT · última release v0.9.0.1 (15-jun-2021) · *ARCHIVADO*
-• tejado/Authorizer — ★572 · *dormido*: sin empujar desde el 19-abr-2024 (929 días) · sin licencia detectada por la API · última release v0.5.0 (7-may-2023)
-• open-keychain/open-keychain — ★2.632 · *dormido*: sin empujar desde el 16-may-2024 (902 días) · GPL-3.0
-• authpass/authpass — ★2.810 · *dormido*: sin empujar desde el 15-sep-2026 (50 días) · GPL-3.0 · última release v1.9.11 (4-feb-2024)
-• Lucent-Project/Lucent — ★12 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release v3.1.2 (20-oct-2026)
-
-💓 *LOS ENLACES · medidos hoy uno por uno*
-
-De los 23 enlaces de esta pieza, *21 responden*.
-
-• https://github.com/AChep/keyguard-app/blob/master/LICENSE — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://www.gnu.org/licenses/gpl-3.0.html — no respondió en 25 segundos. No digo que esté caído: digo que no me contestó.
-
-⏬ sigue abajo · parte 15 de 16
-
-═══ MENSAJE 17 de 17 · 321 caracteres ═══
-
-💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.
+───────────────────
 
 *🏷️ Etiquetas estratégicas*
 

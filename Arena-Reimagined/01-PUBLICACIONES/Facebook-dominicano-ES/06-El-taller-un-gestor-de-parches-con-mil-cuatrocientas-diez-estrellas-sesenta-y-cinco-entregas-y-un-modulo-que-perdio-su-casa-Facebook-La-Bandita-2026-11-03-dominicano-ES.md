@@ -1,8 +1,8 @@
-*El taller: un gestor de parches con mil cuatrocientas siete estrellas, sesenta y cinco entregas y un módulo que perdió su casa en GitHub*
+*El taller: un gestor de parches con mil cuatrocientas diez estrellas, sesenta y cinco entregas y un módulo que perdió su casa en GitHub*
 
-*La Bandita · martes 3 de noviembre de 2026 · edición dominicano-español · pieza 06 de Facebook*
+*La Bandita · martes 3 de noviembre de 2026, cifras remedidas el miércoles 4 · edición dominicano-español · pieza 06 de Facebook*
 
-⏱️ *Lectura total: 31 minutos · un programa medido contra su propia fuente · sesenta y cinco entregas abiertas una por una · dos mil trescientas cincuenta y cinco confirmaciones de código contadas · ciento veintidós mil setecientas sesenta y nueve descargas sumadas · un aviso de retirada comprobado en vivo · cinco pasos con su salida esperada · cero paquetes alojados*
+⏱️ *Lectura total: 31 minutos · un programa medido contra su propia fuente · sesenta y cinco entregas abiertas una por una · dos mil trescientas cincuenta y cinco confirmaciones de código contadas · ciento veintitrés mil cincuenta y ocho descargas sumadas · un aviso de retirada comprobado en vivo · cinco pasos con su salida esperada · cero paquetes alojados*
 
 *🗺️ Mapa de esta guía*
 
@@ -31,9 +31,9 @@ No es una app más de la lista. Es la app que casi nadie explica, porque para ex
 
 Universal Patch Manager es un programa de Android que aplica parches a otras aplicaciones. Un parche, en este mundo, es un conjunto de instrucciones que modifica el paquete de una app —le quita el anuncio, le desbloquea una función de pago, le cambia el comportamiento— sin tocar el código fuente, que casi nunca se tiene. El gestor es la herramienta que elige el parche, lo aplica, firma el resultado con una llave propia y lo instala. Lo que hace especial a este gestor y no a los otros es que acepta tres formatos de parche en el mismo sitio: el `.rvp` de ReVanced, el `.mpp` de Morphe y el `.reseam` de Reseam. Los otros gestores aceptan el suyo y punto.
 
-Los números del corte, medidos hoy: mil cuatrocientas siete estrellas, cincuenta y una bifurcaciones, cuarenta hilos abiertos, veinte personas suscritas a los avisos, setenta y ocho contribuidores con nombre, licencia GPL versión 3, siete coma setenta y cinco mebibytes de código Kotlin y sesenta y cinco entregas publicadas desde el 13 de octubre de 2025. La entrega estable más reciente es la 2.0.0, del 29 de octubre, y suma seis mil seiscientas setenta y tres descargas entre sus siete archivos. La última de pruebas es la 2.1.0-dev.2, del 31 de octubre, y su madurez es la que declara su etiqueta: es una entrega de desarrollo, no una estable.
+Los números del corte, medidos hoy: mil cuatrocientas diez estrellas, cincuenta y una bifurcaciones, cuarenta y dos hilos abiertos, veinte personas suscritas a los avisos, setenta y ocho contribuidores con nombre, licencia GPL versión 3, siete coma setenta y cinco mebibytes de código Kotlin y sesenta y cinco entregas publicadas desde el 13 de octubre de 2025. La entrega estable más reciente es la 2.0.0, del 29 de octubre, y suma seis mil seiscientas setenta y tres descargas entre sus siete archivos. La última de pruebas es la 2.1.0-dev.2, del 31 de octubre, y su madurez es la que declara su etiqueta: es una entrega de desarrollo, no una estable.
 
-Hay dos cosas que a mí me hicieron levantar la ceja, y las digo aquí arriba porque son el corazón del asunto. La primera: el módulo de parches de ReVanced, que es el combustible de la mitad de este programa, devuelve hoy el código 451 en GitHub —«no disponible por razones legales»— y el desarrollo se mudó a GitLab en marzo de 2026. La segunda: el programa trae su propio registro de paquetes de parches, con setecientas veintiséis estrellas y una licencia que renuncia a todo derecho, precisamente para que un módulo no pueda desaparecer otra vez sin que nadie sepa dónde buscarlo.
+Hay dos cosas que a mí me hicieron levantar la ceja, y las digo aquí arriba porque son el corazón del asunto. La primera: el módulo de parches de ReVanced, que es el combustible de la mitad de este programa, devuelve hoy el código 451 en GitHub —«no disponible por razones legales»— y el desarrollo se mudó a GitLab en marzo de 2026. La segunda: el programa trae su propio registro de paquetes de parches, con setecientas veinticinco estrellas y una licencia que renuncia a todo derecho, precisamente para que un módulo no pueda desaparecer otra vez sin que nadie sepa dónde buscarlo.
 
 Y hay una tercera cosa, que es la que decide si esto te sirve o no: parchear una app cambia su firma. Android no deja instalar encima un paquete firmado por otra llave. Eso significa que el primer paso, antes de tocar nada, es guardar una copia del paquete original, porque al parchear hay que desinstalar. Quien no hace esa copia pierde los datos de esa app y llama a la desgracia «un bug del gestor». No es un bug del gestor: es el orden de las operaciones.
 
@@ -97,7 +97,7 @@ El motivo, comprobado y público: en marzo de dos mil veintiséis un tercero pre
 
 Ahora póngase en el lugar de la app que tiene que buscar parches. Usted le pregunta a una dirección de GitHub y le contestan 451. ¿Qué hace? Un gestor mal hecho se queda en blanco, o peor, se queda con una lista vieja en la memoria y le ofrece al usuario parches de hace ocho meses. Un gestor bien hecho tiene que saber que esa dirección puede dejar de contestar cualquier día, y tiene que tener una segunda puerta.
 
-Esa segunda puerta es la parte de este programa que menos se cuenta y que más vale. Se llama registro de paquetes de parches, tiene setecientas veintiséis estrellas, está publicado bajo la licencia Unlicense —que renuncia a todo derecho y por tanto es la más permisiva que existe— y ofrece dos puertas de consulta, una de estilo REST y otra de estilo GraphQL, con búsqueda de parches, compatibilidad por app, entregas históricas, versiones previas y registros de cambios. Su sitio público, en patch-bundles.jmancentral.com, contestó hoy con normalidad. Y como es un registro independiente, el día que una de las fuentes se caiga, la otra sigue en pie y el usuario ni se entera.
+Esa segunda puerta es la parte de este programa que menos se cuenta y que más vale. Se llama registro de paquetes de parches, tiene setecientas veinticinco estrellas, está publicado bajo la licencia Unlicense —que renuncia a todo derecho y por tanto es la más permisiva que existe— y ofrece dos puertas de consulta, una de estilo REST y otra de estilo GraphQL, con búsqueda de parches, compatibilidad por app, entregas históricas, versiones previas y registros de cambios. Su sitio público, en patch-bundles.jmancentral.com, contestó hoy con normalidad. Y como es un registro independiente, el día que una de las fuentes se caiga, la otra sigue en pie y el usuario ni se entera.
 
 Hay un detalle que a mí me parece el más honesto de todo el diseño, y es que el programa no esconde de dónde saca el combustible. En la pantalla se elige el paquete de parches, y cada paquete trae su origen. Eso significa que si mañana el paquete de ReVanced se muda otra vez, lo que hay que corregir es una dirección, no una app. Y significa algo más importante para quien lee: que el programa no puede garantizar que los parches existan. Solo puede garantizar que va a decir la verdad sobre dónde los buscó.
 
@@ -113,20 +113,20 @@ Todo lo que sigue se midió hoy, 3 de noviembre de 2026, entre las veinte y cuar
 
 El programa nació el 13 de octubre de 2025, a las ocho y treinta y un minutos de la mañana en tiempo universal. Su primera entrega salió el mismo día, treinta y siete minutos después. Es un dato que dice mucho del origen: un proyecto que publica su versión 1.0.0 media hora después de existir no está empezando de cero, está mudando algo que ya funcionaba. Efectivamente: era el gestor de ReVanced con otro nombre.
 
-Desde entonces acumula dos mil trescientas cincuenta y cinco confirmaciones de código en trescientos ochenta y siete días, o sea seis coma uno por día, contando domingos y el robot de liberación. Sesenta y cinco entregas, de las cuales dieciocho son estables. Doscientos treinta y ocho archivos publicados, entre paquetes de Android y complementos. Y ciento veintidós mil setecientas sesenta y nueve descargas sumadas archivo por archivo, que es una cifra que nadie publica y que se obtiene recorriendo las entregas una por una.
+Desde entonces acumula dos mil trescientas cincuenta y cinco confirmaciones de código en trescientos ochenta y siete días, o sea seis coma uno por día, contando domingos y el robot de liberación. Sesenta y cinco entregas, de las cuales dieciocho son estables. Doscientos treinta y ocho archivos publicados, entre paquetes de Android y complementos. Y ciento veintitrés mil cincuenta y ocho descargas sumadas archivo por archivo, que es una cifra que nadie publica y que se obtiene recorriendo las entregas una por una.
 
 La tabla de las fichas que esta pieza mide, con su licencia y su último empujón:
 
 | Repositorio | ★ | Licencia | Último empujón | Qué es |
 |---|---|---|---|---|
-| Jman-Github/Universal-Patch-Manager | ★1.407 | GPL-3.0 | 1-nov-2026 | el gestor de esta pieza |
-| Jman-Github/Patch-Bundle-Registry | ★726 | Unlicense | 3-nov-2026 | su registro de paquetes de parches |
-| MorpheApp/morphe-manager | ★9.932 | GPL-3.0 | 4-nov-2026 | el gestor del linaje Morphe |
-| MorpheApp/morphe-patches | ★4.533 | GPL-3.0 | 4-nov-2026 | el paquete de parches de ese linaje |
-| ReVanced/revanced-manager | ★30.064 | GPL-3.0 | 29-jul-2026 | el gestor original, sin movimiento desde hace noventa y ocho días |
-| RikkaApps/Shizuku | ★32.725 | Apache-2.0 | 18-jun-2025 | el instalador con permisos prestados, sin movimiento desde hace quinientos cuatro días |
-| timschneeb/awesome-shizuku | ★10.692 | sin licencia declarada | 31-oct-2026 | el catálogo de la familia Shizuku |
-| rushiranpise/helper-for-morphe | ★413 | GPL-3.0 | 1-nov-2026 | ayudante de instalación del linaje Morphe |
+| Jman-Github/Universal-Patch-Manager | ★1.410 | GPL-3.0 | 4-nov-2026 | el gestor de esta pieza |
+| Jman-Github/Patch-Bundle-Registry | ★725 | Unlicense | 4-nov-2026 | su registro de paquetes de parches |
+| MorpheApp/morphe-manager | ★9.950 | GPL-3.0 | 4-nov-2026 | el gestor del linaje Morphe |
+| MorpheApp/morphe-patches | ★4.548 | GPL-3.0 | 4-nov-2026 | el paquete de parches de ese linaje |
+| ReVanced/revanced-manager | ★30.070 | GPL-3.0 | 29-jul-2026 | el gestor original, sin movimiento desde hace noventa y ocho días |
+| RikkaApps/Shizuku | ★32.773 | Apache-2.0 | 18-jun-2025 | el instalador con permisos prestados, sin movimiento desde hace quinientos cuatro días |
+| timschneeb/awesome-shizuku | ★10.699 | sin licencia declarada | 31-oct-2026 | el catálogo de la familia Shizuku |
+| rushiranpise/helper-for-morphe | ★427 | GPL-3.0 | 1-nov-2026 | ayudante de instalación del linaje Morphe |
 | brosssh/revanced-manager-downloaders | ★118 | GPL-3.0 | 4-dic-2025 | descargadores de paquetes para ese gestor |
 
 De esa tabla salen tres cosas que no se ven a simple vista. La primera: el programa que esta pieza cuenta tiene una quinta parte de las estrellas del gestor del que nació, y sin embargo publica más seguido que él. La segunda: el ecosistema está partido en tres linajes vivos y uno de ellos, el original, lleva desde julio sin empujar código. La tercera: hay un proyecto de ciento dieciocho estrellas que lleva once meses parado y que sigue siendo útil porque su tarea —bajar paquetes— no caduca; y hay un catálogo de diez mil seiscientas noventa y dos estrellas que no declara licencia, lo que en esta casa se anota como deuda, no como defecto.
@@ -147,7 +147,7 @@ curl -sH "Authorization: Bearer $T" \
   | python3 -c "import json,sys;r=json.load(sys.stdin);print(len(r),sum(a['download_count'] for x in r for a in x['assets']))"
 ```
 
-La primera orden devuelve las estrellas, las bifurcaciones y la fecha del último empujón. La segunda devuelve sesenta y cinco y ciento veintidós mil setecientas sesenta y nueve. Si mañana alguien vuelve a correrlas y los números cambiaron, no es que la pieza mintiera: es que la pieza tiene fecha, y la fecha está arriba, en la primera línea.
+La primera orden devuelve las estrellas, las bifurcaciones y la fecha del último empujón. La segunda devuelve sesenta y cinco y ciento veintitrés mil cincuenta y ocho. Si mañana alguien vuelve a correrlas y los números cambiaron, no es que la pieza mintiera: es que la pieza tiene fecha, y la fecha está arriba, en la primera línea.
 
 ───────────────────
 
@@ -220,11 +220,11 @@ Los datos que había antes de desinstalar no vuelven: por eso la copia de seguri
 
 *⚖️ Lo que no me gusta · y lo que le falta*
 
-Un programa de mil cuatrocientas siete estrellas y sesenta y cinco entregas se puede recomendar sin decir nada de esto, y la recomendación valdría menos. Aquí va lo que la medición de hoy deja mal parado, ordenado de lo que más pesa a lo que menos.
+Un programa de mil cuatrocientas diez estrellas y sesenta y cinco entregas se puede recomendar sin decir nada de esto, y la recomendación valdría menos. Aquí va lo que la medición de hoy deja mal parado, ordenado de lo que más pesa a lo que menos.
 
 **Los avisos de instalación no están escritos en la pantalla donde hacen falta.** El programa sabe que parchear exige desinstalar y perder datos, porque su propio archivo de presentación lo dice en una sección aparte. Pero el usuario que llega por primera vez choca con eso en el último paso, cuando ya invirtió una hora. Un aviso en el primer arranque, antes de elegir la app, con la frase «guarda tu paquete original», habría ahorrado más disgustos que cualquier función nueva.
 
-**Cuarenta hilos abiertos y ni una página de preguntas.** El repositorio tiene cuarenta hilos abiertos entre incidencias y propuestas, y no tiene ni wiki ni foro de discusión. Para un programa que reescribe paquetes ajenos y depende de tres linajes de parches, la documentación vive en el archivo de presentación y en las conversaciones de los hilos. Eso significa que cada novato pregunta lo mismo, y que la respuesta se pierde en el hilo ciento veinte.
+**Cuarenta hilos abiertos y ni una página de preguntas.** El repositorio tiene cuarenta y dos hilos abiertos entre incidencias y propuestas, y no tiene ni wiki ni foro de discusión. Para un programa que reescribe paquetes ajenos y depende de tres linajes de parches, la documentación vive en el archivo de presentación y en las conversaciones de los hilos. Eso significa que cada novato pregunta lo mismo, y que la respuesta se pierde en el hilo ciento veinte.
 
 **No hay sumas de comprobación publicadas.** Lo dije en el paso tres y lo repito aquí porque es la ausencia más fácil de arreglar de toda la lista: un archivo de texto con el hash de cada paquete de cada entrega, generado por el flujo de publicación, cuesta veinte líneas de configuración y convierte «bajé un archivo» en «bajé este archivo». El registro de paquetes del propio autor demuestra que sabe hacerlo; solo falta aplicarlo a sus propias entregas.
 
@@ -276,9 +276,9 @@ Un gestor de parches es la herramienta menos glamorosa del ecosistema y la que d
 
 El corte de hoy deja tres frases para llevarse. La primera: un año, sesenta y cinco entregas y ciento veintidós mil descargas no son fama, son costumbre; la gente vuelve porque funciona. La segunda: el ecosistema está partido en tres linajes y el original lleva noventa y ocho días sin empujar código, así que la pregunta «¿cuál uso?» tiene hoy una respuesta distinta de la que tenía en 2024. La tercera: la mitad de este programa depende de un módulo que perdió su casa en GitHub por un aviso de retirada, y eso no es una anécdota: es la razón por la que conviene que un gestor tenga más de una puerta.
 
-Lo que le falta está escrito arriba sin adornos: avisos en el momento justo, una página de preguntas, sumas de comprobación publicadas y una guía de compatibilidad hecha por la gente que lo usa. Nada de eso es caro. Todo eso depende de que alguien lo escriba, y el programa tiene setenta y ocho contribuidores y cuarenta hilos abiertos, así que el sitio donde escribirlo ya existe.
+Lo que le falta está escrito arriba sin adornos: avisos en el momento justo, una página de preguntas, sumas de comprobación publicadas y una guía de compatibilidad hecha por la gente que lo usa. Nada de eso es caro. Todo eso depende de que alguien lo escriba, y el programa tiene setenta y ocho contribuidores y cuarenta y dos hilos abiertos, así que el sitio donde escribirlo ya existe.
 
-*Medición del corte:* 3 de noviembre de 2026, entre las 20:40 y las 21:00 de Santo Domingo · un programa medido contra su fuente · sesenta y cinco entregas abiertas una por una · doscientas treinta y ocho archivos contados · ciento veintidós mil setecientas sesenta y nueve descargas sumadas · setenta y ocho contribuidores · dos mil trescientas cincuenta y cinco confirmaciones · un código 451 comprobado en vivo · cero paquetes alojados · cero espejos.
+*Medición del corte:* 3 de noviembre de 2026, entre las 20:40 y las 21:00 de Santo Domingo · un programa medido contra su fuente · sesenta y cinco entregas abiertas una por una · doscientas treinta y ocho archivos contados · ciento veintitrés mil cincuenta y ocho descargas sumadas · setenta y ocho contribuidores · dos mil trescientas cincuenta y cinco confirmaciones · un código 451 comprobado en vivo · cero paquetes alojados · cero espejos.
 
 > —¿Y si el módulo de parches se cae otra vez?
 > —Entonces el gestor te lo dice y busca en el registro propio. Eso es todo lo que un programa puede prometer: no que la fuente dure, sino que te va a decir la verdad cuando no dure.
@@ -292,7 +292,7 @@ Lo que le falta está escrito arriba sin adornos: avisos en el momento justo, un
 - Universal Patch Manager, el gestor de esta pieza: https://github.com/Jman-Github/Universal-Patch-Manager
 - Sus entregas, con los paquetes por arquitectura: https://github.com/Jman-Github/Universal-Patch-Manager/releases
 - La entrega estable 2.0.0, del 29 de octubre: https://github.com/Jman-Github/Universal-Patch-Manager/releases/tag/v2.0.0
-- Sus cuarenta hilos abiertos: https://github.com/Jman-Github/Universal-Patch-Manager/issues
+- Sus cuarenta y dos hilos abiertos: https://github.com/Jman-Github/Universal-Patch-Manager/issues
 - su licencia, GPL versión 3: https://github.com/Jman-Github/Universal-Patch-Manager/blob/main/LICENSE
 - El registro de paquetes de parches: https://github.com/Jman-Github/Patch-Bundle-Registry
 - El sitio público de ese registro: https://patch-bundles.jmancentral.com

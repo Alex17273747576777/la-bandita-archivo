@@ -2,8 +2,8 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/04-La-lista-del-permiso-veintiseis-medidos-hoy-trece-nacidos-en-el-trimestre-y-el-tronco-que-lleva-quinientos-cuatro-dias-sin-empujar-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
 - **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `c2fc09414acbdd8ebe2dfdeb268a8e8c64d1690c28833de280d2dc9520633165`
-- **Envío generado:** 2026-11-04 · 19 mensajes · el mayor de 3628 caracteres
+- **sha256 de la pieza:** `a689eac7acab62934d777ce9615e8ee6a909e434e037e430b7044053debdd47b`
+- **Envío generado:** 2026-11-04 · 19 mensajes · el mayor de 3634 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 19 · 897 caracteres ═══
@@ -53,7 +53,7 @@ No es una provocación: es lo que devuelve la medición. El tronco es el más fa
 
 ⏬ sigue abajo · parte 1 de 18
 
-═══ MENSAJE 3 de 19 · 2359 caracteres ═══
+═══ MENSAJE 3 de 19 · 2377 caracteres ═══
 
 *⚡ En una página*
 
@@ -63,7 +63,7 @@ Lo nuevo de este trimestre no son copias del tronco. Es lo que se construye enci
 
 Los cinco que publican la huella de lo que bajan son porter, droynis, GhostMode, flowpilot y GameCore, y ninguno pasa de los ochenta días de vida. De los veintiséis medidos, **once publicaron una entrega hoy o ayer**, y **tres no publican nada desde hace más de un mes**: el tronco, su biblioteca de desarrollo y Hail. La casa que sostiene el tema está partida en dos mitades por una raya de fechas, y la raya no coincide con la de las estrellas.
 
-Lo que se puede usar hoy, sin rodeos: para debloat, Canta —novecientas sesenta y tres mil descargas, ciento ochenta y cinco incidencias cerradas de doscientas dieciséis, LGPL—; para administrar aparatos de una casa, Dhizuku; para instalar paquetes sin pelear, InstallerX-Revived y universal-installer; para el permiso en sí, porter si quieres verificar lo que baja, shevery si quieres un equipo detrás. Y si tienes un teléfono de repuesto y ganas de probar, droynis, que no toca nada y solo mira.
+Lo que se puede usar hoy, sin rodeos: para debloat, Canta —novecientas sesenta y tres mil descargas, ciento ochenta y cinco incidencias cerradas de doscientas dieciséis, LGPL—; para administrar aparatos de una casa, Dhizuku; para instalar paquetes sin pelear, InstallerX-Revived (★7.312) y universal-installer (★1.681); para el permiso en sí, porter si quieres verificar lo que baja, shevery si quieres un equipo detrás. Y si tienes un teléfono de repuesto y ganas de probar, droynis, que no toca nada y solo mira.
 
 ⏬ sigue abajo · parte 2 de 18
 
@@ -73,7 +73,7 @@ Lo que se puede usar hoy, sin rodeos: para debloat, Canta —novecientas sesenta
 
 Hay temas donde el proyecto original es el que manda y los demás son adornos. Este no es uno de ellos, y la medición de hoy lo deja escrito con números que no admiten discusión.
 
-**Shizuku · el estándar que ya no se mueve** — ★32.765 · nació el 24 de mayo de 2017, hace tres mil cuatrocientos cincuenta y un días · Apache-2.0 · último empujón el 18 de junio de 2025, **sin movimiento desde entonces**: quinientos cuatro días · última entrega v13.6.0 del 25 de mayo de 2025, hace quinientos veintiocho días · cinco millones ciento sesenta y nueve mil quinientas treinta y dos descargas en sus diez últimas entregas · seiscientas ocho incidencias abiertas frente a seiscientas veintiocho cerradas · un solo flujo de compilación · escrutinio 40/100.
+**Shizuku · el estándar que ya no se mueve** — ★32.773 · nació el 24 de mayo de 2017, hace tres mil cuatrocientos cincuenta y un días · Apache-2.0 · último empujón el 18 de junio de 2025, **sin movimiento desde entonces**: quinientos cuatro días · última entrega v13.6.0 del 25 de mayo de 2025, hace quinientos veintiocho días · cinco millones ciento sesenta y nueve mil quinientas treinta y dos descargas en sus diez últimas entregas · seiscientas ocho incidencias abiertas frente a seiscientas veintiocho cerradas · un solo flujo de compilación · escrutinio 40/100.
 
 Es el programa que inventó la idea: en vez de pedir root, se concede por cable el mismo permiso que tiene el depurador, y desde ahí una aplicación puede hablar con el sistema con la voz del sistema. Durante nueve años ha sido el puente, y sigue siendo el puente: sin él, ninguno de los catorce herederos existiría. Lo que ya no es, es el que se actualiza. Su cola tiene más casos abiertos que cerrados, y esa sola cifra dice lo que ninguna despedida: quien atiende está mirando hacia otro lado, y tiene derecho a hacerlo después de nueve años de regalar el trabajo.
 
@@ -99,7 +99,7 @@ La regla de esta serie manda mirar primero lo nacido hace noventa días o menos.
 
 *Para quién es:* para quien quiera saber qué tiene abierto su teléfono antes de darle un permiso a otro programa, y para quien tenga un aparato de repuesto y curiosidad. *Para quién no es:* para quien busque un gestor de permisos con interfaz bonita; esto es un informe, no un panel de control.
 
-**GhostMode · esconderse de las llamadas sin perder los datos** — ★95 · nació el 17 de agosto de 2026, hace setenta y nueve días · Apache-2.0 · última entrega v0.2.3 de hoy mismo · cinco mil ciento cincuenta y nueve descargas · veinte adjuntos, **diez con huella** · dos flujos de compilación · seis cambios en treinta días · una persona · una incidencia abierta frente a tres cerradas · **escrutinio 62/100**. Su madurez es de setenta y nueve días y su idea es de las que se entienden en una frase: pone el teléfono en «no disponible» para las llamadas entrantes y **mantiene el LTE y el 5G funcionando**, que es exactamente lo que el modo avión no hace y lo que el modo no molestar tampoco resuelve.
+**GhostMode · esconderse de las llamadas sin perder los datos** — ★97 · nació el 17 de agosto de 2026, hace setenta y nueve días · Apache-2.0 · última entrega v0.2.3 de hoy mismo · cinco mil ciento cincuenta y nueve descargas · veinte adjuntos, **diez con huella** · dos flujos de compilación · seis cambios en treinta días · una persona · una incidencia abierta frente a tres cerradas · **escrutinio 62/100**. Su madurez es de setenta y nueve días y su idea es de las que se entienden en una frase: pone el teléfono en «no disponible» para las llamadas entrantes y **mantiene el LTE y el 5G funcionando**, que es exactamente lo que el modo avión no hace y lo que el modo no molestar tampoco resuelve.
 
 
 ⏬ sigue abajo · parte 4 de 18
@@ -120,25 +120,25 @@ La regla de esta serie manda mirar primero lo nacido hace noventa días o menos.
 
 ⏬ sigue abajo · parte 5 de 18
 
-═══ MENSAJE 7 de 19 · 3621 caracteres ═══
+═══ MENSAJE 7 de 19 · 3634 caracteres ═══
 
 *🟢 Los seis que sostienen la casa*
 
 No son nuevos y se incluyen por la razón contraria a la regla: son los que aguantan el tema mientras lo nuevo se prueba. Cada uno con su fecha, porque una recomendación sin fecha es un rumor con buena letra.
 
-**Canta · el que borra con permiso y con equipo** — ★6.459 · nació el 29 de agosto de 2023, hace mil ciento sesenta y tres días · LGPL-3.0 · última entrega v4.1.0 del 29 de octubre, hace seis días · **novecientas sesenta y tres mil ciento tres descargas** · quince adjuntos, tres con huella · cinco flujos de compilación · doce cambios en treinta días · dieciocho personas empujando · **ciento ochenta y cinco incidencias cerradas de doscientas dieciséis** · escrutinio 71/100. Madurez de tres años. Desinstala lo que vino de fábrica sin root, con aplicación y también desde el navegador, que es una rareza del tema. Su cola es la mejor atendida de los veintiséis: deja treinta y una abiertas de doscientas dieciséis.
+**Canta · el que borra con permiso y con equipo** — ★6.461 · nació el 29 de agosto de 2023, hace mil ciento sesenta y tres días · LGPL-3.0 · última entrega v4.1.0 del 29 de octubre, hace seis días · **novecientas sesenta y tres mil ciento tres descargas** · quince adjuntos, tres con huella · cinco flujos de compilación · doce cambios en treinta días · dieciocho personas empujando · **ciento ochenta y cinco incidencias cerradas de doscientas dieciséis** · escrutinio 71/100. Madurez de tres años. Desinstala lo que vino de fábrica sin root, con aplicación y también desde el navegador, que es una rareza del tema. Su cola es la mejor atendida de los veintiséis: deja treinta y una abiertas de doscientas dieciséis.
 
-*Para quién es:* para quitar de una vez las aplicaciones que nadie pidió, con un programa que contesta. *Para quién no es:* para quien quiera solo congelar y poder volver atrás: eso lo hacen Hail e Inure, y con menos consecuencias.
+*Para quién es:* para quitar de una vez las aplicaciones que nadie pidió, con un programa que contesta. *Para quién no es:* para quien quiera solo congelar y poder volver atrás: eso lo hacen Hail, con ★7.098, e Inure, y con menos consecuencias.
 
 **Dhizuku · el que reparte el permiso de dueño** — ★4.084 · nació el 10 de abril de 2023, hace mil trescientos cuatro días · GPL-3.0 · última entrega v2.13.0 del 30 de octubre, hace cinco días · ciento noventa y tres mil novecientas treinta y seis descargas · veintiún adjuntos sin huella · dos flujos de compilación · doscientos doce cambios en treinta días · sesenta y nueve personas empujando · ciento setenta y una cerradas de ciento setenta y cuatro · escrutinio 65/100. Madurez de tres años y medio. Hace una sola cosa y la hace grande: comparte el permiso de propietario del aparato con otras aplicaciones, que es el nivel más alto al que se puede llegar sin root y el que permite políticas de toda la casa.
 
 *Para quién es:* para quien administre varios aparatos y necesite reglas, no solo instalar. *Para quién no es:* para quien solo quiera apagar anuncios: hay caminos más cortos y menos definitivos, y este reparte un permiso que después hay que recuperar.
 
-**shevery · el heredero con equipo** — ★1.597 · nació el 15 de mayo de 2026, hace ciento setenta y tres días · Apache-2.0 · última entrega 14.6.2 de ayer · ciento cuarenta y siete mil ochocientas noventa y cinco descargas · diez adjuntos sin huella · cinco flujos de compilación · ciento noventa y ocho cambios en treinta días · dieciséis personas empujando · ciento veintitrés cerradas de ciento veintisiete · **escrutinio 70/100**. Madurez de ciento setenta y tres días. Es un gestor moderno del permiso, con interfaz actual y Android 17, y su cola cerrada casi entera es la mejor señal del grupo.
+**shevery · el heredero con equipo** — ★1.598 · nació el 15 de mayo de 2026, hace ciento setenta y tres días · Apache-2.0 · última entrega 14.6.2 de ayer · ciento cuarenta y siete mil ochocientas noventa y cinco descargas · diez adjuntos sin huella · cinco flujos de compilación · ciento noventa y ocho cambios en treinta días · dieciséis personas empujando · ciento veintitrés cerradas de ciento veintisiete · **escrutinio 70/100**. Madurez de ciento setenta y tres días. Es un gestor moderno del permiso, con interfaz actual y Android 17, y su cola cerrada casi entera es la mejor señal del grupo.
 
 *Para quién es:* para quien quiera un programa con equipo y una interfaz que no parezca un experimento. *Para quién no es:* para quien exija verificar por huella lo que descarga: sus diez adjuntos no la traen.
 
-**Shizuku-Next · el que empuja todos los días** — ★1.431 · nació el 26 de septiembre de 2026, hace treinta y nueve días · Apache-2.0 · última entrega v14.0.32-next de ayer · **doscientas veintiséis mil quinientas sesenta y cinco descargas** · veinte adjuntos sin huella · cinco flujos de compilación · doscientos cincuenta y cinco cambios en treinta días · cinco incidencias abiertas frente a cien cerradas · escrutinio 70/100. Madurez de treinta y nueve días. Añade métodos de arranque que el tronco no tiene y publica cada pocos días; el aviso está en el nombre, `-next`, y en que el aviso está, se agradece.
+**Shizuku-Next · el que empuja todos los días** — ★1.436 · nació el 26 de septiembre de 2026, hace treinta y nueve días · Apache-2.0 · última entrega v14.0.32-next de ayer · **doscientas veintiséis mil quinientas sesenta y cinco descargas** · veinte adjuntos sin huella · cinco flujos de compilación · doscientos cincuenta y cinco cambios en treinta días · cinco incidencias abiertas frente a cien cerradas · escrutinio 70/100. Madurez de treinta y nueve días. Añade métodos de arranque que el tronco no tiene y publica cada pocos días; el aviso está en el nombre, `-next`, y en que el aviso está, se agradece.
 
 
 ⏬ sigue abajo · parte 6 de 18
@@ -408,7 +408,7 @@ Lo demás lo dice la columna de fechas: once de veintiséis publicaron hoy o aye
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.772 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.775 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • RikkaApps/Shizuku-API — ★2.741 · *dormido*: sin empujar desde el 29-may-2025 (524 días) · MIT · última release v12.1.0 (7-oct-2022)
 • d4rken-org/porter — ★245 · empujó en las últimas horas · Apache-2.0 · última release v0.8.1-rc0 (7-oct-2026)
 • capitan0n/droynis — ★15 · empujó en las últimas horas · GPL-3.0 · última release v0.15.0 (1-nov-2026)
@@ -416,16 +416,16 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 26 repositorios que cita esta pi
 • tgvdufuture/Aura — ★18 · empujó en las últimas horas · MIT · última release v0.8.0 (4-nov-2026)
 • krishna3163/OmniShizuku — ★18 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
 • samolego/Canta — ★6.461 · empujó el 31-oct-2026 (hace 4 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
-• iamr0s/Dhizuku — ★4.084 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• iamr0s/Dhizuku — ★4.085 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
 • HmnDev-Tech/shevery — ★1.598 · empujó en las últimas horas · Apache-2.0 · última release 14.6.2 (3-nov-2026)
-• rushiranpise/Shizuku-Next — ★1.433 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
+• rushiranpise/Shizuku-Next — ★1.437 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
 • thejaustin/ShizukuPlus — ★1.690 · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
 • kerneldroid/Nightzuku — ★331 · empujó en las últimas horas · Apache-2.0 · última release v13.7.1-r60 (4-nov-2026)
 • cr1437/Shizako — ★97 · empujó en las últimas horas · Apache-2.0 · última release zako3.17 (31-oct-2026)
 • Hamza417/Inure — ★1.986 · empujó en las últimas horas · GPL-3.0 · última release build107.3.1 (2-nov-2026)
 • aistra0528/Hail — ★7.098 · empujó el 27-oct-2026 (hace 8 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
-• wxxsfxyzm/InstallerX-Revived — ★7.312 · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
-• pass-with-high-score/universal-installer — ★1.680 · empujó en las últimas horas · GPL-3.0 · última release v1.21.0 (1-nov-2026)
+• wxxsfxyzm/InstallerX-Revived — ★7.313 · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
+• pass-with-high-score/universal-installer — ★1.681 · empujó en las últimas horas · GPL-3.0 · última release v1.21.0 (1-nov-2026)
 • eyalm2000/adns — ★743 · empujó en las últimas horas · MIT · última release v2.1.9 (3-nov-2026)
 • yume-chan/VolumeManager — ★603 · empujó el 31-oct-2026 (hace 4 días) · GPL-2.0 · última release v0.3 (31-oct-2026)
 • Yukstarlight/guang-lab — ★3 · empujó en las últimas horas · GPL-3.0 · última release v1.39 (4-nov-2026)

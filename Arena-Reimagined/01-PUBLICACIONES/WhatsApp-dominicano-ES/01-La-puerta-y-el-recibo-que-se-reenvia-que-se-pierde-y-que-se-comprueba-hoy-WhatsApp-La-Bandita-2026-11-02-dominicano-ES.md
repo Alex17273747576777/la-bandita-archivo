@@ -502,4 +502,7 @@ Y queda la parte que no depende de ninguna herramienta: cuando alguien mande un 
 
 (2-nov) Los siete textos del ritual están escritos para copiar y adaptar, no para enviar tal cual. Se probaron en conversaciones reales de grupo antes de publicarse; el que menos se usa es el seis, y el que más cambia el comportamiento del grupo es el siete, porque no habla de archivos sino de respaldos.
 
-(2-nov) Las cifras de estrellas son las del corte y no están redondeadas: se publican tal como las devolvió la medición, para que cualquiera pueda repetir la consulta y comparar. Las cuentas de la sección de totales se reconstruyen sumando la tabla, fila por fila, sin necesidad de creerle a esta guía.
+(2-nov) Las estrellas van tal como las devolvió la medición, sin redondear, para que la consulta se pueda repetir. Los totales se reconstruyen sumando la tabla.
+
+🏷️ Etiquetas estratégicas
+#Obtainium #AppManager #DataBackup #Accrescent #Shizuku #ReciboDeInstalacion #HuellaSHA256 #RespaldoCompleto #CeroPaquetesAlojados

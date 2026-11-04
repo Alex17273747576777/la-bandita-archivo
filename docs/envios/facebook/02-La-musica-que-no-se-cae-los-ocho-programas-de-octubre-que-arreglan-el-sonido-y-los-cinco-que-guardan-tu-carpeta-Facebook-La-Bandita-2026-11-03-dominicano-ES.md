@@ -2,19 +2,19 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/02-La-musica-que-no-se-cae-los-ocho-programas-de-octubre-que-arreglan-el-sonido-y-los-cinco-que-guardan-tu-carpeta-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`
 - **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 1 días)
-- **sha256 de la pieza:** `5f622c2fdad22a49fae72e3af5b30f5d4fc9b42bcf6082c768184789b1b866dc`
+- **sha256 de la pieza:** `8658683140745acbb2f02dc975121023734be7d86bb51c6301b87fb41d8df494`
 - **Envío generado:** 2026-11-04 · 19 mensajes · el mayor de 3669 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 19 · 1092 caracteres ═══
+═══ MENSAJE 1 de 19 · 1093 caracteres ═══
 
 *La música que no se cae: ocho programas de octubre que arreglan el sonido del teléfono, cinco que guardan tu carpeta, y los tres que se murieron dejando un injerto*
 
 La Bandita · pieza 02 · guía del 3-nov-2026 · te la mando hoy en 19 mensajes.
 
-Antes de mandártela volví a medir lo que afirma: *19 repositorios, 18 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
+Antes de mandártela volví a medir lo que afirma: *19 repositorios, 19 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
-Licencias de lo que recomienda: GPL-3.0 9 · MIT 5 · sin licencia 2 · NOASSERTION 1.
+Licencias de lo que recomienda: GPL-3.0 10 · MIT 5 · sin licencia 2 · NOASSERTION 1.
 
 ⚠️ *Aviso de fecha:* este texto se escribió el 3-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
 
@@ -22,13 +22,13 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 💓 4 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 19 · 2513 caracteres ═══
+═══ MENSAJE 2 de 19 · 2546 caracteres ═══
 
 [Texto del 3-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *La música que no se cae: ocho programas de octubre que arreglan el sonido del teléfono, cinco que guardan tu carpeta, y los tres que se murieron dejando un injerto*
 
-*La Bandita · martes 3 de noviembre de 2026 · edición dominicano-español · pieza 02 de Facebook*
+*La Bandita · martes 3 de noviembre de 2026, cifras remedidas el miércoles 4 · edición dominicano-español · pieza 02 de Facebook*
 
 ⏱️ *Lectura total: 31 minutos · ocho programas de fontanería de audio nacidos en octubre · entre uno y veintiún estrellas · cinco reproductores que sí siguen vivos · tres difuntos con la fecha del último latido · cuatro órdenes para comprobar tu propio teléfono · cero paquetes alojados*
 
@@ -63,61 +63,61 @@ Android tiene un solo mezclador de sonido y todas las aplicaciones compiten por 
 
 En octubre de dos mil veintiséis apareció otra vía, y es la noticia de esta pieza: **Shizuku**, el permiso prestado que se activa una vez por el cable, permite hoy tocar partes del sistema que antes exigían root. Con eso, ocho proyectos pequeños empezaron a resolver problemas concretos en semanas: mandar la música al Bluetooth y todo lo demás al altavoz del teléfono; sacar sonido por USB y por Bluetooth a la vez; impedir que el teléfono robe la música al aparato equivocado; darle a cada aplicación su propio foco de audio; grabar varias pistas a la vez sin conexión; y cambiar la política de audio entera según qué app esté en pantalla. Sumados, los ocho tienen cuarenta y cinco estrellas. Ninguno aparece en un artículo de «las mejores apps de música».
 
-La segunda mitad es el catálogo, y aquí la regla de novedad se aplica con otra pregunta: no cuál es el mejor reproductor, sino cuál sigue vivo y **de quién es la música**. Los cinco que entran leen archivos que están en tu teléfono o en tu servidor: Salt Player, con siete mil quinientos noventa y cuatro estrellas y seis años en pie; namida, con seis mil setecientos ochenta y dos y una deuda de licencia; ArchiveTune, el más joven de los grandes; SimpMusic y Metrolist, que son otra cosa —clientes de YouTube Music, o sea catálogo ajeno— y que entran con su advertencia escrita.
+La segunda mitad es el catálogo, y aquí la regla de novedad se aplica con otra pregunta: no cuál es el mejor reproductor, sino cuál sigue vivo y **de quién es la música**. Los cinco que entran leen archivos que están en tu teléfono o en tu servidor: Salt Player, con siete mil quinientos noventa y siete estrellas y seis años en pie; namida, con seis mil setecientos ochenta y dos y una deuda de licencia; ArchiveTune, el más joven de los grandes; SimpMusic y Metrolist, que son otra cosa —clientes de YouTube Music, o sea catálogo ajeno— y que entran con su advertencia escrita.
 
-Y la última parte es la que casi nadie escribe: tres proyectos grandes de este tema están muertos. Timber, con siete mil treinta y seis estrellas, no empuja código desde abril de dos mil veintitrés. InnerTune, con seis mil ciento treinta y ocho, desde noviembre de dos mil veinticinco. Y JamesDSP, el del audio del sistema, quinientos tres días de silencio. De los tres, uno ya tiene injerto: una bifurcación publicada hace seis días que añade lo que el original nunca tuvo. Ese injerto es la prueba de que en el código abierto la muerte de un proyecto no siempre es el final, y de que el relevo casi nunca viene del autor original.
+Y la última parte es la que casi nadie escribe: tres proyectos grandes de este tema están muertos. Timber, con siete mil treinta y seis estrellas, no empuja código desde abril de dos mil veintitrés. InnerTune, con seis mil ciento treinta y nueve, desde noviembre de dos mil veinticinco. Y JamesDSP, el del audio del sistema, quinientos tres días de silencio. De los tres, uno ya tiene injerto: una bifurcación publicada hace seis días que añade lo que el original nunca tuvo. Ese injerto es la prueba de que en el código abierto la muerte de un proyecto no siempre es el final, y de que el relevo casi nunca viene del autor original.
 
 ⏬ sigue abajo · parte 2 de 18
 
-═══ MENSAJE 4 de 19 · 2629 caracteres ═══
+═══ MENSAJE 4 de 19 · 2653 caracteres ═══
 
 *🔌 La ola de octubre · ocho programas que arreglan el cableado*
 
 Estos ocho comparten tres cosas y las tres importan: nacieron todos entre el cinco y el veintisiete de octubre de dos mil veintiséis, ninguno necesita root, y todos usan Shizuku para pedir prestados los permisos del sistema. Su madurez es de días, no de años, y por eso cada ficha la declara: son programas para probar sabiendo lo que son.
 
-**1 · SplitAudio · la música en el audífono y todo lo demás en el altavoz** — ★13 · nació el 21 de octubre de 2026 · MIT · última entrega v0.5.5 · setecientos cuarenta y un kibibytes. Su madurez es de trece días y su propia presentación la declara en la primera línea: **alfa, experimental, verificada solo en un Xiaomi 15 con HyperOS 3 y Android 16**. Hace una cosa y la hace bien: mantiene la aplicación de música en el Bluetooth y manda todas las demás al altavoz del teléfono. Suena a capricho hasta que estás cocinando con música en el audífono y entra un audio de voz de un grupo: con esto, el audio sale por el altavoz y la música no se corta. La última entrega salió el cuatro de noviembre en tiempo universal, o sea anoche en Santo Domingo, con lo cual el proyecto está tan vivo como es posible estarlo.
+**1 · SplitAudio · la música en el audífono y todo lo demás en el altavoz** — ★13 · nació el 21 de octubre de 2026 · MIT · última entrega v0.5.6, publicada hoy · ochocientos cuarenta y cuatro kibibytes. Su madurez es de catorce días y su propia presentación la declara en la primera línea: **alfa, experimental, verificada solo en un Xiaomi 15 con HyperOS 3 y Android 16**. Hace una cosa y la hace bien: mantiene la aplicación de música en el Bluetooth y manda todas las demás al altavoz del teléfono. Suena a capricho hasta que estás cocinando con música en el audífono y entra un audio de voz de un grupo: con esto, el audio sale por el altavoz y la música no se corta. La última entrega salió el cuatro de noviembre en tiempo universal, o sea anoche en Santo Domingo, con lo cual el proyecto está tan vivo como es posible estarlo.
 
-**2 · Dual Audio · sonido por cable y por aire a la vez** — ★3 · nació el 19 de octubre de 2026 · GPL-3.0 · última entrega v1.0.1 · ciento setenta y siete kibibytes · ciento noventa y ocho descargas. Madurez de quince días. Reproduce el audio de cualquier aplicación —música, video, juegos— en un audífono USB y en unos audífonos Bluetooth al mismo tiempo. El caso de uso que lo justifica es de casa: dos personas escuchando lo mismo en un viaje, cada una con sus audífonos, sin partir un cable. Usa Shizuku o ADB y no pide root, y su tamaño lo dice todo: es un envoltorio alrededor de una orden del sistema, no una aplicación con menús.
+**2 · Dual Audio · sonido por cable y por aire a la vez** — ★3 · nació el 19 de octubre de 2026 · GPL-3.0 · última entrega v1.0.1 · ciento setenta y siete kibibytes · doscientas dieciséis descargas. Madurez de dieciséis días. Reproduce el audio de cualquier aplicación —música, video, juegos— en un audífono USB y en unos audífonos Bluetooth al mismo tiempo. El caso de uso que lo justifica es de casa: dos personas escuchando lo mismo en un viaje, cada una con sus audífonos, sin partir un cable. Usa Shizuku o ADB y no pide root, y su tamaño lo dice todo: es un envoltorio alrededor de una orden del sistema, no una aplicación con menús.
 
-**3 · BudsFirst · el que impide que el teléfono te robe la música** — ★1 · nació el 18 de octubre de 2026 · MIT · última entrega v0.4.0 · ciento treinta y cinco kibibytes · veintidós descargas. Madurez de dieciséis días, la más corta junto con la de los dos anteriores. Resuelve una molestia que tiene nombre propio en la vida real: estás en una llamada con los audífonos, entras a la habitación y el teléfono cambia el audio a los audífonos grandes que están sobre la mesa, porque están emparejados y encendidos. Este programa deja ordenar los aparatos por prioridad: el primero se queda con la música y las llamadas, y los demás siguen conectados pero en espera. Un programa de una estrella que arregla algo que debería venir de fábrica.
+**3 · BudsFirst · el que impide que el teléfono te robe la música** — ★1 · nació el 18 de octubre de 2026 · MIT · última entrega v0.4.0 · ciento treinta y cinco kibibytes · veintidós descargas. Madurez de diecisiete días, la más corta junto con la de los dos anteriores. Resuelve una molestia que tiene nombre propio en la vida real: estás en una llamada con los audífonos, entras a la habitación y el teléfono cambia el audio a los audífonos grandes que están sobre la mesa, porque están emparejados y encendidos. Este programa deja ordenar los aparatos por prioridad: el primero se queda con la música y las llamadas, y los demás siguen conectados pero en espera. Un programa de una estrella que arregla algo que debería venir de fábrica.
 
 ⏬ sigue abajo · parte 3 de 18
 
-═══ MENSAJE 5 de 19 · 3047 caracteres ═══
+═══ MENSAJE 5 de 19 · 3096 caracteres ═══
 
-**4 · Audio Focus Mixer · el foco de audio, aplicación por aplicación** — ★1 · nació el 15 de octubre de 2026 · MIT · última entrega v0.2.0, marcada como previa por su autor · doscientos cuarenta y cuatro kibibytes · sesenta y ocho descargas. Madurez de diecinueve días. Su descripción es la más honesta de esta lista: «control de foco de audio para las aplicaciones que elijas. Nada más». El foco es el mecanismo por el que una app le dice al sistema «voy a sonar, baja o calla las demás»; cuando una app lo pide mal, la música se corta sola o no se corta cuando debería. Este programa deja decidir, por aplicación, si puede pedir el foco. Es una herramienta de fontanero: no se ve, no tiene pantalla bonita y arregla una de las cosas más molestas del teléfono.
+**4 · Audio Focus Mixer · el foco de audio, aplicación por aplicación** — ★1 · nació el 15 de octubre de 2026 · MIT · última entrega v0.2.0, v0.2.0 del 16 de octubre y marcada como previa por su autor · doscientos cuarenta y cuatro kibibytes · sesenta y ocho descargas. Madurez de veinte días. Su descripción es la más honesta de esta lista: «control de foco de audio para las aplicaciones que elijas. Nada más». El foco es el mecanismo por el que una app le dice al sistema «voy a sonar, baja o calla las demás»; cuando una app lo pide mal, la música se corta sola o no se corta cuando debería. Este programa deja decidir, por aplicación, si puede pedir el foco. Es una herramienta de fontanero: no se ve, no tiene pantalla bonita y arregla una de las cosas más molestas del teléfono.
 
-**5 · Audio Policy Override · cambiar la política entera según la app** — ★5 · nació el 8 de octubre de 2026 · GPL-3.0 · última entrega v1.2.3 · ciento ochenta y siete kibibytes · treinta y nueve descargas. Madurez de veintiséis días. Es el más ambicioso de los ocho y el que hay que instalar con más cuidado: sobrescribe la política de audio del sistema, a mano o de forma automática según qué aplicación esté en primer plano. Su presentación está **solo en japonés**, y su paquete distribuido va **firmado en modo de depuración**, dos cosas que su autor declara en la primera pantalla del archivo. Pide Android 8 o superior y Shizuku versión 12 o superior. Para un teléfono viejo que se niega a sacar sonido por donde debe, es la última carta; para un teléfono que funciona bien, es riesgo innecesario.
+**5 · Audio Policy Override · cambiar la política entera según la app** — ★5 · nació el 8 de octubre de 2026 · GPL-3.0 · última entrega v1.2.3 · ciento ochenta y siete kibibytes · ciento sesenta y dos descargas. Madurez de veintisiete días. Es el más ambicioso de los ocho y el que hay que instalar con más cuidado: sobrescribe la política de audio del sistema, a mano o de forma automática según qué aplicación esté en primer plano. Su presentación está **solo en japonés**, y su paquete distribuido va **firmado en modo de depuración**, dos cosas que su autor declara en la primera pantalla del archivo. Pide Android 8 o superior y Shizuku versión 12 o superior. Para un teléfono viejo que se niega a sacar sonido por donde debe, es la última carta; para un teléfono que funciona bien, es riesgo innecesario.
 
-**6 · AudioScope · grabar cuatro cosas a la vez sin conexión** — ★1 · nació el 5 de octubre de 2026 · GPL-3.0 · última entrega v0.5.2 · cinco mebibytes · cuarenta y dos descargas. Madurez de veintinueve días. Es lo que su nombre dice: una consola de grabación de varias pistas, sin conexión, con medidores en vivo y canales separados, para Android 13 o superior. No es una app de música: es una herramienta para quien graba una entrevista, un ensayo o el sonido de la calle y después necesita separar lo que grabó. En un teléfono moderno, que tiene dos o tres micrófonos, eso es más útil de lo que parece, y no hay muchas opciones libres que lo hagan sin mandar el audio a un servidor.
+**6 · AudioScope · grabar cuatro cosas a la vez sin conexión** — ★1 · nació el 5 de octubre de 2026 · GPL-3.0 · última entrega v0.5.2 · cinco coma dos mebibytes · cuarenta y nueve descargas. Madurez de treinta días. Es lo que su nombre dice: una consola de grabación de varias pistas, sin conexión, con medidores en vivo y canales separados, para Android 13 o superior. No es una app de música: es una herramienta para quien graba una entrevista, un ensayo o el sonido de la calle y después necesita separar lo que grabó. En un teléfono moderno, que tiene dos o tres micrófonos, eso es más útil de lo que parece, y no hay muchas opciones libres que lo hagan sin mandar el audio a un servidor.
 
-**7 · RootlessJamesDSP-SKDSP · el ecualizador de sistema, injertado** — ★1 · nació el 27 de octubre de 2026 · GPL-3.0 · última entrega v1 · once mebibytes · veinte descargas. Madurez de siete días, la más corta de la pieza, y una historia detrás que merece párrafo aparte: es una bifurcación de RootlessJamesDSP, el proyecto que lleva el procesamiento de audio de JamesDSP a teléfonos sin root. Esta bifurcación añade lo que el original no tiene: cambio de velocidad y de tono en vivo, botones flotantes de grabación, dos grabadoras, reordenación de efectos, visualización de pulsaciones por minuto y un compresor. Es un injerto hecho con prisa y con criterio, y como todo injerto de siete días hay que probarlo en un teléfono que no sea el único que tienes.
+**7 · RootlessJamesDSP-SKDSP · el ecualizador de sistema, injertado** — ★1 · nació el 27 de octubre de 2026 · GPL-3.0 · última entrega v1 · once coma cinco mebibytes · veintiuna descargas. Madurez de ocho días, la más corta de la pieza, y una historia detrás que merece párrafo aparte: es una bifurcación de RootlessJamesDSP, el proyecto que lleva el procesamiento de audio de JamesDSP a teléfonos sin root. Esta bifurcación añade lo que el original no tiene: cambio de velocidad y de tono en vivo, botones flotantes de grabación, dos grabadoras, reordenación de efectos, visualización de pulsaciones por minuto y un compresor. Es un injerto hecho con prisa y con criterio, y como todo injerto de siete días hay que probarlo en un teléfono que no sea el único que tienes.
 
 
 ⏬ sigue abajo · parte 4 de 18
 
-═══ MENSAJE 6 de 19 · 2372 caracteres ═══
+═══ MENSAJE 6 de 19 · 2388 caracteres ═══
 
-**8 · Spotify+ TV · el parche para la tele que sí trae ecualizador** — ★21 · nació el 26 de octubre de 2026 · MIT · última entrega v1.3.0.9 · cuatrocientos diecinueve kibibytes · doscientas diez descargas. Madurez de ocho días y la única de las ocho que trabaja sobre otra aplicación en vez de sobre el sistema: es una extensión para el cliente de Spotify de Android TV, en su versión 1.134.2 para ARMv7, que añade ajustes propios dentro del menú de Spotify, temas, desenfoque de carátula, ecualizador, temporizador de apagado y un ayudante opcional para saltarse los cortes publicitarios. Su presentación es explícita sobre el riesgo: trabaja sobre una versión concreta de una aplicación de un tercero, y cuando esa aplicación se actualice, el parche puede dejar de encajar. Es el ejemplo perfecto de por qué esta serie escribe la fecha de nacimiento al lado de cada programa.
+**8 · Spotify+ TV · el parche para la tele que sí trae ecualizador** — ★21 · nació el 26 de octubre de 2026 · MIT · última entrega v1.3.0.9 · cuatrocientos diecinueve kibibytes · doscientas setenta y ocho descargas. Madurez de nueve días y la única de las ocho que trabaja sobre otra aplicación en vez de sobre el sistema: es una extensión para el cliente de Spotify de Android TV, en su versión 1.134.2 para ARMv7, que añade ajustes propios dentro del menú de Spotify, temas, desenfoque de carátula, ecualizador, temporizador de apagado y un ayudante opcional para saltarse los cortes publicitarios. Su presentación es explícita sobre el riesgo: trabaja sobre una versión concreta de una aplicación de un tercero, y cuando esa aplicación se actualice, el parche puede dejar de encajar. Es el ejemplo perfecto de por qué esta serie escribe la fecha de nacimiento al lado de cada programa.
 
 **La tabla de la ola, con su madurez declarada**
 
 | Programa | ★ | Nace | Entrega · madurez | Licencia | Qué arregla | Descargas |
 |---|---|---|---|---|---|---|
-| SplitAudio | ★13 | 21-oct-2026 | v0.5.5 | MIT | música en Bluetooth, resto en el altavoz | 1 |
-| Dual Audio | ★3 | 19-oct-2026 | v1.0.1 | GPL-3.0 | USB y Bluetooth a la vez | 198 |
+| SplitAudio | ★13 | 21-oct-2026 | v0.5.6 | MIT | música en Bluetooth, resto en el altavoz | 1.109 |
+| Dual Audio | ★3 | 19-oct-2026 | v1.0.1 | GPL-3.0 | USB y Bluetooth a la vez | 216 |
 | BudsFirst | ★1 | 18-oct-2026 | v0.4.0 | MIT | prioridad de audífonos | 22 |
 | Audio Focus Mixer | ★1 | 15-oct-2026 | v0.2.0 previa | MIT | foco de audio por aplicación | 68 |
-| Audio Policy Override | ★5 | 8-oct-2026 | v1.2.3 | GPL-3.0 | la política de audio entera | 39 |
-| AudioScope | ★1 | 5-oct-2026 | v0.5.2 | GPL-3.0 | grabar varias pistas sin conexión | 42 |
-| RootlessJamesDSP-SKDSP | ★1 | 27-oct-2026 | v1 | GPL-3.0 | ecualización de sistema, sin root | 20 |
-| Spotify+ TV | ★21 | 26-oct-2026 | v1.3.0.9 | MIT | parche del Spotify de la tele | 210 |
+| Audio Policy Override | ★5 | 8-oct-2026 | v1.2.3 | GPL-3.0 | la política de audio entera | 162 |
+| AudioScope | ★1 | 5-oct-2026 | v0.5.2 | GPL-3.0 | grabar varias pistas sin conexión | 49 |
+| RootlessJamesDSP-SKDSP | ★1 | 27-oct-2026 | v1 | GPL-3.0 | ecualización de sistema, sin root | 21 |
+| Spotify+ TV | ★21 | 26-oct-2026 | v1.3.0.9 | MIT | parche del Spotify de la tele | 278 |
 
 Su madurez va desde los siete hasta los veintinueve días, y se declara en cada ficha. Cuarenta y cinco estrellas entre los ocho, y ochocientas nueve descargas sumadas. Para que se vea la escala: un solo reproductor famoso de la lista de abajo tiene más estrellas que eso, y no arregla ninguno de estos ocho problemas. La cifra de descargas de SplitAudio dice uno, y hay que explicarlo para que no se lea como fracaso: su última entrega salió anoche y el contador todavía no ha corrido. Un programa puede tener una descarga y ser el que más te sirva mañana.
 
 ⏬ sigue abajo · parte 5 de 18
 
-═══ MENSAJE 7 de 19 · 2883 caracteres ═══
+═══ MENSAJE 7 de 19 · 3177 caracteres ═══
 
 *🎛️ El injerto · cuando un muerto sigue dando ramas*
 
@@ -125,7 +125,7 @@ Hay una historia en esta pieza que explica el ecosistema entero mejor que cualqu
 
 **JamesDSP** es un procesador de audio que se instalaba como módulo de root: ecualizador de muchas bandas, reverberación, compresor, efectos que en un teléfono solo existen si uno los mete a la fuerza. Es de dos mil quince, tiene novecientas ochenta y nueve estrellas, **no declara licencia** y lleva **sin movimiento desde el 18 de junio de 2025**: quinientos tres días sin un empujón, con su última entrega de noviembre de dos mil veintitrés. Tres años sin paquete nuevo en un programa que la gente sigue instalando.
 
-De ahí salió **RootlessJamesDSP**, que hizo lo imposible en su momento: llevar ese procesamiento a teléfonos sin root. Y de ahí salió, el veintisiete de octubre, la bifurcación de esta pieza: **RootlessJamesDSP-SKDSP**, siete días de vida, con velocidad y tono en vivo, dos grabadoras y un compresor que el original no traía.
+De ahí salió **RootlessJamesDSP** —★1.723 y ocho coma nueve mebibytes hoy—, que hizo lo imposible en su momento: llevar ese procesamiento a teléfonos sin root. Un detalle que cambió desde ayer: ese repositorio ya no vive donde vivía; pasó de la cuenta de su autor a la de otro mantenedor y la dirección vieja solo redirige. Quien copió el enlace de ayer tiene una redirección; quien copie la de hoy, el original. Y de ahí salió, el veintisiete de octubre, la bifurcación de esta pieza: **RootlessJamesDSP-SKDSP**, siete días de vida, con velocidad y tono en vivo, dos grabadoras y un compresor que el original no traía.
 
 Eso es un injerto, en el sentido de jardinería: se corta una rama de un árbol y se prende en otro. Y funciona porque la licencia lo permite. Aquí está el detalle que casi nadie mira: JamesDSP, el original, **no declara licencia**. Cuando un proyecto no declara licencia, el derecho de autor se aplica por defecto y nadie tiene permiso de hacer nada con él salvo mirarlo. Que existan RootlessJamesDSP y su bifurcación no es un permiso explícito del autor: es que el ecosistema aprendió a vivir con esa ambigüedad y a reescribir el código cuando hizo falta.
 
@@ -135,40 +135,40 @@ Los tres difuntos de este tema, para que quede el registro:
 
 | Programa | ★ | Último empujón | Estado | Licencia |
 |---|---|---|---|---|
-| Timber | ★7.036 | 28-abr-2023 | sin movimiento desde hace mil doscientos ochenta y cinco días | sin declarar |
-| InnerTune | ★6.138 | 13-nov-2025 | sin movimiento desde hace trescientos cincuenta y cinco días | GPL-3.0 |
-| JamesDSP | ★989 | 18-jun-2025 | sin movimiento desde hace quinientos tres días | sin declarar |
+| Timber | ★7.036 | 28-abr-2023 | sin movimiento desde hace mil doscientos ochenta y seis días | sin declarar |
+| InnerTune | ★6.139 | 13-nov-2025 | sin movimiento desde hace trescientos cincuenta y seis días | GPL-3.0 |
+| JamesDSP | ★989 | 18-jun-2025 | sin movimiento desde hace quinientos cuatro días | sin declarar |
 
 Los tres siguen teniendo más estrellas que los ocho programas nuevos de arriba juntos —trece mil ciento sesenta y tres frente a cuarenta y cinco— y ninguno de los tres ha publicado nada en más de un año. Si alguien te recomienda hoy uno de estos tres sin decirte la fecha, no te está recomendando: te está repitiendo.
 
 ⏬ sigue abajo · parte 6 de 18
 
-═══ MENSAJE 8 de 19 · 3656 caracteres ═══
+═══ MENSAJE 8 de 19 · 3048 caracteres ═══
 
 *🗄️ El catálogo · cinco que leen tu carpeta*
 
 Aquí cambia la pregunta. En la sección anterior el asunto era el cableado; en esta es la propiedad: **de quién son las canciones**. Un reproductor que lee archivos de tu teléfono funciona aunque cierre la empresa que lo hizo, aunque se caiga el servidor y aunque te quedes sin datos. Uno que pide el catálogo a un servicio funciona mientras ese servicio quiera. Los cinco de abajo están ordenados por eso, y los dos últimos llevan su advertencia porque son de la segunda clase.
 
-**Salt Player · seis años leyendo tu carpeta** — ★7.594 · nació el 29 de julio de 2021 · MIT · última entrega 12.6.0 · tres mebibytes de repositorio. Su madurez es la de un veterano: cinco años de repositorio y un programa que, según su propia presentación, viene de dos mil veinte y sirve a más de un millón de personas —cifra del autor, no medida por esta casa—. Lo importante es lo que **no** hace: no pide cuenta, no pide suscripción y no necesita internet para reproducir lo que ya está en tu teléfono. Su presentación está en cuatro idiomas, entre ellos español, ruso, indonesio e hindi, y el repositorio es solo para incidencias y paquetes: el código no se distribuye ahí, lo cual es un matiz importante que su ficha deja claro. Licencia MIT y un programa que lleva seis años publicando sin dramas es exactamente lo que uno quiere de un reproductor local.
+**Salt Player · seis años leyendo tu carpeta** — ★7.597 · nació el 29 de julio de 2021 · MIT · última entrega 12.6.0 del 2 de noviembre de 2026 · tres coma ocho mebibytes de repositorio. Su madurez es la de un veterano: cinco años de repositorio y un programa que, según su propia presentación, viene de dos mil veinte y sirve a más de un millón de personas —cifra del autor, no medida por esta casa—. Lo importante es lo que **no** hace: no pide cuenta, no pide suscripción y no necesita internet para reproducir lo que ya está en tu teléfono. Su presentación está en cuatro idiomas, entre ellos español, ruso, indonesio e hindi, y el repositorio es solo para incidencias y paquetes: el código no se distribuye ahí, lo cual es un matiz importante que su ficha deja claro. Licencia MIT y un programa que lleva seis años publicando sin dramas es exactamente lo que uno quiere de un reproductor local.
 
-**namida · el más completo y el que debe una licencia** — ★6.782 · nació el 12 de febrero de 2023 · **sin licencia declarada** · última entrega v7.1.2 del 19 de septiembre de 2026 · ciento setenta y cinco mebibytes. Su madurez es de tres años y medio y su lista de funciones es la más larga del tema: música, video, soporte de YouTube, construido en Flutter. Noventa y cuatro mil seiscientas ochenta y siete descargas en su última entrega. Y ahí está el problema, que se dice sin rodeos: **no declara licencia**, o sea que su código está a la vista pero nadie tiene permiso para usarlo, copiarlo ni continuarlo. Es un programa excelente que un día puede dejar de existir sin que nadie pueda hacer nada. Esta serie lo recomienda con la advertencia puesta y con la esperanza de que su autor añada el archivo que falta.
+**namida · el más completo y el que debe una licencia** — ★6.786 · nació el 12 de febrero de 2023 · **sin licencia declarada** · última entrega v7.1.2 del 19 de septiembre de 2026 · ciento setenta y un coma dos mebibytes. Su madurez es de tres años y medio y su lista de funciones es la más larga del tema: música, video, soporte de YouTube, construido en Flutter. Noventa y cuatro mil seiscientas ochenta y siete descargas en su última entrega. Y ahí está el problema, que se dice sin rodeos: **no declara licencia**, o sea que su código está a la vista pero nadie tiene permiso para usarlo, copiarlo ni continuarlo. Es un programa excelente que un día puede dejar de existir sin que nadie pueda hacer nada. Esta serie lo recomienda con la advertencia puesta y con la esperanza de que su autor añada el archivo que falta.
 
-**ArchiveTune · el más joven de los grandes** — ★7.948 · nació el 1 de septiembre de 2025 · GPL-3.0 · última entrega v15.1.0 del 26 de septiembre de 2026 · ciento tres mebibytes. Su madurez es de catorce meses, la más corta entre los cinco grandes, y su número de versión quince no significa quince años: significa que su autor publica mucho. Es el que más descargas tiene de toda la lista en su última entrega: **doscientas treinta y nueve mil doscientas veinte**. Reproduce archivos locales y además trae un cliente de YouTube Music, y esa mezcla lo pone en el límite de las dos categorías: la parte local es tuya para siempre; la otra depende de lo que dure el servicio. Su licencia GPL versión 3 garantiza que, si su autor desaparece, alguien puede seguir.
-
-**SimpMusic · cliente de YouTube Music, con su advertencia** — ★12.714 · nació el 15 de abril de 2023 · GPL-3.0 · última entrega v2.5.0 del 1 de noviembre de 2026 · doscientos cuarenta y cinco mebibytes. Madurez de tres años y medio y cuarenta y cuatro mil sesenta y seis descargas en su última entrega. Es un cliente de YouTube Music para Android y escritorio, con las funciones que la gente pide —saltar patrocinios, ver los «no me gusta» que el servicio escondió— y una dependencia que hay que decir en voz alta: **no tiene catálogo propio**. Lo que suena depende de un servicio ajeno, y si ese servicio cambia sus reglas, el programa se queda mirando.
+**ArchiveTune · el más joven de los grandes** — ★7.960 · nació el 1 de septiembre de 2025 · GPL-3.0 · última entrega v15.1.0 del 26 de septiembre de 2026 · ciento coma nueve mebibytes. Su madurez es de catorce meses, la más corta entre los cinco grandes, y su número de versión quince no significa quince años: significa que su autor publica mucho. Es el que más descargas tiene de toda la lista en su última entrega: **doscientas treinta y nueve mil doscientas veinte**. Reproduce archivos locales y además trae un cliente de YouTube Music, y esa mezcla lo pone en el límite de las dos categorías: la parte local es tuya para siempre; la otra depende de lo que dure el servicio. Su licencia GPL versión 3 garantiza que, si su autor desaparece, alguien puede seguir.
 
 
 ⏬ sigue abajo · parte 7 de 18
 
-═══ MENSAJE 9 de 19 · 2195 caracteres ═══
+═══ MENSAJE 9 de 19 · 2995 caracteres ═══
 
-**Metrolist · el que publica cada noche** — ★13.997 · nació el 11 de agosto de 2023 · GPL-3.0 · última entrega etiquetada «nightly» del 2 de noviembre de 2026 · ciento veintiocho mebibytes. Madurez de tres años y tres meses, y la cifra más alta de estrellas de esta pieza. Su última entrega es una compilación nocturna marcada como previa, con ochocientas veinte descargas: es decir, la gente que lo usa está corriendo el código de anoche. Eso tiene dos lecturas y las dos son ciertas: el proyecto está vivo como pocos, y el que lo instala está probando software sin garantía. Cliente de YouTube Music, misma advertencia que el anterior.
+**SimpMusic · cliente de YouTube Music, con su advertencia** — ★12.734 · nació el 15 de abril de 2023 · GPL-3.0 · última entrega v2.5.0 del 1 de noviembre de 2026 · doscientas cuarenta coma un mebibytes. Madurez de tres años y medio y cuarenta y cuatro mil sesenta y seis descargas en su última entrega. Es un cliente de YouTube Music para Android y escritorio, con las funciones que la gente pide —saltar patrocinios, ver los «no me gusta» que el servicio escondió— y una dependencia que hay que decir en voz alta: **no tiene catálogo propio**. Lo que suena depende de un servicio ajeno, y si ese servicio cambia sus reglas, el programa se queda mirando.
 
-**AntennaPod · el podcast, que es el formato que sí se queda** — ★8.261 · nació el 31 de julio de 2012 · GPL-3.0 · última entrega 3.12.3 del 13 de octubre de 2026 · ciento diecisiete mebibytes. Madurez: catorce años. Es el más viejo de la pieza y el que mejor ilustra la idea del catálogo que no se cae, porque un podcast es una suscripción por dirección: el archivo está en el servidor de quien lo publica, con una dirección fija, y ningún intermediario puede quitártelo. Su repositorio no publica paquetes descargables —cero archivos en su última entrega— porque se distribuye por las tiendas libres; eso no es una ausencia, es una decisión de distribución.
+**Metrolist · el que publica cada noche** — ★14.003 · nació el 11 de agosto de 2023 · GPL-3.0 · última entrega etiquetada «nightly» del 2 de noviembre de 2026 · ciento veinticinco coma seis mebibytes. Madurez de tres años y tres meses, y la cifra más alta de estrellas de esta pieza. Su última entrega es una compilación nocturna marcada como previa, con ochocientas veinte descargas: es decir, la gente que lo usa está corriendo el código de anoche. Eso tiene dos lecturas y las dos son ciertas: el proyecto está vivo como pocos, y el que lo instala está probando software sin garantía. Cliente de YouTube Music, misma advertencia que el anterior.
+
+**AntennaPod · el podcast, que es el formato que sí se queda** — ★8.263 · nació el 31 de julio de 2012 · GPL-3.0 · última entrega 3.12.3 del 13 de octubre de 2026 · ciento catorce coma nueve mebibytes. Madurez: catorce años. Es el más viejo de la pieza y el que mejor ilustra la idea del catálogo que no se cae, porque un podcast es una suscripción por dirección: el archivo está en el servidor de quien lo publica, con una dirección fija, y ningún intermediario puede quitártelo. Su repositorio no publica paquetes descargables —cero archivos en su última entrega— porque se distribuye por las tiendas libres; eso no es una ausencia, es una decisión de distribución.
 
 **Lo que dice el censo de audio de este año**
 
-Antes de cerrar la sección, el número que pone todo esto en escala. En el registro de esta casa hay **ciento doce proyectos de audio nacidos en los últimos doce meses**; de ellos, **veintitrés nacieron en octubre de dos mil veintiséis**, o sea el mes pasado. **Noventa y tres no llegan a quinientas estrellas** —el ochenta y tres por ciento— y **quince no declaran licencia**. Solo **veintisiete publicaron entrega en los últimos treinta días**.
+Antes de cerrar la sección, el número que pone todo esto en escala, contado hoy sobre el registro entero. Hay **ciento veintiún proyectos de audio** fichados en esta casa; de ellos, **setenta y tres nacieron en los últimos doce meses** y **catorce en octubre de dos mil veintiséis**, el mes pasado. **Cincuenta y ocho no llegan a quinientas estrellas** —el setenta y nueve por ciento— y **nueve no declaran licencia**. **Cincuenta y seis recibieron un empujón de código en los últimos treinta días**, y la mediana de edad del tema es de doscientos treinta y cinco días.
 
 Ese último dato es el que separa la afición del proyecto: de ciento doce ideas nacidas en un año, veintisiete siguen publicando algo. Las demás están ahí, con su código, esperando. Y es la razón por la que esta pieza empieza por ocho programas de una estrella: la probabilidad de que uno de ellos sea el que todos usen dentro de dos años no es baja, es la única que hay.
 
@@ -182,24 +182,24 @@ Primero los cinco del catálogo y el podcast, con lo que de verdad decide: de qu
 
 | Programa | ★ | Nace | Entrega | Licencia | Música | Si su autor desaparece |
 |---|---|---|---|---|---|---|
-| Salt Player | ★7.594 | 29-jul-2021 | 12.6.0 | MIT | tu carpeta | otro puede continuarlo |
-| namida | ★6.782 | 12-feb-2023 | v7.1.2 | sin declarar | tu carpeta y YouTube | no se puede continuar legalmente |
-| ArchiveTune | ★7.948 | 1-sep-2025 | v15.1.0 | GPL-3.0 | tu carpeta y YouTube Music | otro puede continuarlo |
-| SimpMusic | ★12.714 | 15-abr-2023 | v2.5.0 | GPL-3.0 | catálogo ajeno | otro puede continuarlo, el catálogo no |
-| Metrolist | ★13.997 | 11-ago-2023 | compilación nocturna | GPL-3.0 | catálogo ajeno | otro puede continuarlo, el catálogo no |
-| AntennaPod | ★8.261 | 31-jul-2012 | 3.12.3 | GPL-3.0 | suscripciones abiertas | otro puede continuarlo |
+| Salt Player | ★7.597 | 29-jul-2021 | 12.6.0 | MIT | tu carpeta | otro puede continuarlo |
+| namida | ★6.786 | 12-feb-2023 | v7.1.2 | sin declarar | tu carpeta y YouTube | no se puede continuar legalmente |
+| ArchiveTune | ★7.960 | 1-sep-2025 | v15.1.0 | GPL-3.0 | tu carpeta y YouTube Music | otro puede continuarlo |
+| SimpMusic | ★12.734 | 15-abr-2023 | v2.5.0 | GPL-3.0 | catálogo ajeno | otro puede continuarlo, el catálogo no |
+| Metrolist | ★14.003 | 11-ago-2023 | compilación nocturna | GPL-3.0 | catálogo ajeno | otro puede continuarlo, el catálogo no |
+| AntennaPod | ★8.263 | 31-jul-2012 | 3.12.3 | GPL-3.0 | suscripciones abiertas | otro puede continuarlo |
 
 Y ahora la comparación que ordena todo el tema. Las dos columnas que importan no son las estrellas ni las descargas: son **cuántos días hace que nació** y **cuántos días hace que alguien escribió código**. Un programa de catorce años que empujó ayer vale más que uno de tres años que empujó hace un año, y eso no se ve en ninguna lista.
 
 | Programa | Días de vida | Días desde el último empujón | Veredicto de la casa |
 |---|---|---|---|
-| AntennaPod | 5.208 | 1 | veterano vivo |
-| Salt Player | 1.923 | 1 | veterano vivo |
-| Metrolist | 1.180 | 1 | grande y vivo |
-| SimpMusic | 1.298 | 0 | grande y vivo |
-| namida | 1.361 | 2 | grande y vivo, con la licencia debiendo |
-| ArchiveTune | 428 | 0 | joven y vivo |
-| SplitAudio y los siete de la ola | entre 7 y 29 | entre 0 y 6 | nuevos, con todo por demostrar |
+| AntennaPod | 5.209 | 1 | veterano vivo |
+| Salt Player | 1.924 | 1 | veterano vivo |
+| Metrolist | 1.181 | 1 | grande y vivo |
+| SimpMusic | 1.299 | 0 | grande y vivo |
+| namida | 1.362 | 2 | grande y vivo, con la licencia debiendo |
+| ArchiveTune | 429 | 0 | joven y vivo |
+| SplitAudio y los siete de la ola | entre 8 y 30 | entre 0 y 7 | nuevos, con todo por demostrar |
 | InnerTune | 2.457 | 355 | dormido |
 | JamesDSP | 4.111 | 503 | sin movimiento desde hace un año y medio |
 | Timber | 4.162 | 1.285 | sin movimiento desde hace tres años y medio |
@@ -250,7 +250,7 @@ Y una quinta, que no es una orden sino una costumbre: apunta el modelo de tu tel
 
 ⏬ sigue abajo · parte 10 de 18
 
-═══ MENSAJE 12 de 19 · 2110 caracteres ═══
+═══ MENSAJE 12 de 19 · 2123 caracteres ═══
 
 *⚖️ Las tres licencias que hay que mirar*
 
@@ -262,7 +262,7 @@ En un tema donde todo el mundo discute funciones, esta casa mira tres cosas ante
 
 **La firmada en modo de depuración: Audio Policy Override.** Su autor lo dice en su propia presentación, y es de agradecer. Un paquete firmado en modo de depuración lleva una llave que cualquiera tiene, así que su identidad no se puede comprobar y no se puede actualizar encima de otra versión sin desinstalar. Para un experimento de veintiséis días está bien; para el teléfono del trabajo, no.
 
-Y la que hay que mirar en los ocho de la ola: **Shizuku**. Seis de los ocho lo usan para pedir prestados permisos del sistema, y eso significa que el permiso real está en otra aplicación que se instala una vez y se activa por el cable. No es root, pero es un permiso poderoso: quien controle ese canal puede hacer casi lo mismo que con root, con una diferencia importante: se puede cerrar en cualquier momento reiniciando el teléfono. Ese detalle —que el permiso se pueda quitar— es lo que hace que esta ola sea razonable y lo que hay que entender antes de instalar el primero.
+Y la que hay que mirar en los ocho de la ola: **Shizuku**, ★32.773 hoy. Seis de los ocho lo usan para pedir prestados permisos del sistema, y eso significa que el permiso real está en otra aplicación que se instala una vez y se activa por el cable. No es root, pero es un permiso poderoso: quien controle ese canal puede hacer casi lo mismo que con root, con una diferencia importante: se puede cerrar en cualquier momento reiniciando el teléfono. Ese detalle —que el permiso se pueda quitar— es lo que hace que esta ola sea razonable y lo que hay que entender antes de instalar el primero.
 
 ⏬ sigue abajo · parte 11 de 18
 
@@ -340,7 +340,7 @@ Lo que hay que llevarse cabe en cuatro frases. La primera: el catálogo se cae, 
 
 ⏬ sigue abajo · parte 14 de 18
 
-═══ MENSAJE 16 de 19 · 2258 caracteres ═══
+═══ MENSAJE 16 de 19 · 2366 caracteres ═══
 
 *🔗 Enlaces*
 
@@ -351,6 +351,7 @@ Lo que hay que llevarse cabe en cuatro frases. La primera: el catálogo se cae, 
 - Audio Policy Override, la política entera del sistema: https://github.com/AQUALaforet/AudioPolicyOverride
 - AudioScope, la grabación de varias pistas sin conexión: https://github.com/ibrahim91015/AudioScope
 - RootlessJamesDSP-SKDSP, el injerto del ecualizador: https://github.com/bunbun-midi/RootlessJamesDSP-SKDSP
+- RootlessJamesDSP, el original sin root y con nueva casa: https://github.com/timschneeb/RootlessJamesDSP
 - Spotify+ TV, el parche de la tele: https://github.com/AlphadogRSA/spotifyplus-tv-patch
 - Salt Player, seis años leyendo tu carpeta: https://github.com/Moriafly/SaltPlayerSource
 - namida, el completo que debe una licencia: https://github.com/namidaco/namida
@@ -361,7 +362,7 @@ Lo que hay que llevarse cabe en cuatro frases. La primera: el catálogo se cae, 
 - InnerTune, dormido desde noviembre de 2025: https://github.com/z-huang/InnerTune
 - Timber, sin movimiento desde abril de 2023: https://github.com/naman14/Timber
 - JamesDSP, el original sin licencia: https://github.com/james34602/JamesDSPManager
-- RootlessJamesDSP, el que lo llevó a teléfonos sin root: https://github.com/thepbone/RootlessJamesDSP
+- RootlessJamesDSP, el que lo llevó a teléfonos sin root: https://github.com/timschneeb/RootlessJamesDSP
 - Shizuku, el permiso prestado que usan seis de los ocho: https://github.com/RikkaApps/Shizuku
 - La licencia GPL versión 3, en su texto de referencia: https://www.gnu.org/licenses/gpl-3.0.html
 - La licencia MIT, en su texto de referencia: https://opensource.org/license/mit
@@ -371,13 +372,13 @@ Lo que hay que llevarse cabe en cuatro frases. La primera: el catálogo se cae, 
 
 ⏬ sigue abajo · parte 15 de 18
 
-═══ MENSAJE 17 de 19 · 2769 caracteres ═══
+═══ MENSAJE 17 de 19 · 2745 caracteres ═══
 
 ## 🗒️ Notas al pie
 
 (3-nov) Los catorce programas de esta pieza se midieron hoy uno por uno contra la puerta pública de GitHub: fecha de nacimiento, último empujón, estrellas, licencia, última entrega, descargas de la entrega y tamaño del repositorio. También se leyó la presentación de cada uno: donde el autor advierte de algo —que es alfa, que solo se probó en un teléfono, que va firmado en modo de depuración—, la advertencia está en la ficha y no en una nota al final.
 
-(3-nov) Las cifras del censo de audio —ciento doce proyectos nacidos en el año, noventa y tres por debajo de quinientas estrellas, quince sin licencia, veintisiete con entrega en el último mes— salen de las seis mil ochocientas treinta y ocho fichas del registro y de su evidencia sellada, contadas con la misma herramienta que produjo la pieza número uno.
+Las cifras del censo de audio salen de las fichas del registro y de su evidencia sellada, y se cuentan con una orden que cualquiera puede repetir: `python3 tools/censo_tema.py --tema audio`. La herramienta imprime sus palabras de búsqueda y su ventana, así que el número no depende de que me creas: depende de que corras el comando.
 
 (3-nov) La división del tema en dos mitades —el cableado y el catálogo— es una decisión editorial y se declara como tal: la otra forma de escribir esta pieza sería una lista de reproductores ordenada por número de estrellas, que es lo que hace todo el mundo y no ayuda a nadie a decidir.
 
@@ -395,7 +396,7 @@ Lo que hay que llevarse cabe en cuatro frases. La primera: el catálogo se cae, 
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 2727 caracteres ═══
+═══ MENSAJE 18 de 19 · 2789 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
@@ -408,18 +409,18 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 19 repositorios que cita esta pi
 • AQUALaforet/AudioPolicyOverride — ★5 · empujó el 25-oct-2026 (hace 10 días) · GPL-3.0 · última release v1.2.3 (25-oct-2026)
 • ibrahim91015/AudioScope — ★1 · empujó el 6-oct-2026 (hace 29 días) · GPL-3.0 · última release v0.5.2 (6-oct-2026)
 • bunbun-midi/RootlessJamesDSP-SKDSP — ★1 · empujó el 27-oct-2026 (hace 8 días) · GPL-3.0 · última release v1 (27-oct-2026)
+• timschneeb/RootlessJamesDSP — ★1.723 · *dormido*: sin empujar desde el 31-ago-2026 (65 días) · GPL-3.0 · última release v1.6.13 (23-dic-2024)
 • AlphadogRSA/spotifyplus-tv-patch — ★21 · empujó el 27-oct-2026 (hace 8 días) · MIT · última release v1.3.0.9 (27-oct-2026)
 • Moriafly/SaltPlayerSource — ★7.597 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release 12.6.0 (2-nov-2026)
 • namidaco/namida — ★6.786 · empujó el 1-nov-2026 (hace 3 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
-• rukamori/ArchiveTune — ★7.960 · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
-• maxrave-dev/SimpMusic — ★12.733 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
-• MetrolistGroup/Metrolist — ★14.000 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• rukamori/ArchiveTune — ★7.961 · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
+• maxrave-dev/SimpMusic — ★12.735 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• MetrolistGroup/Metrolist — ★14.003 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
 • AntennaPod/AntennaPod — ★8.263 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • z-huang/InnerTune — ★6.139 · *dormido*: sin empujar desde el 13-nov-2025 (356 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • naman14/Timber — ★7.036 · *dormido*: sin empujar desde el 28-abr-2023 (1286 días) · sin licencia detectada por la API · última release v1.7 (5-oct-2020)
 • james34602/JamesDSPManager — ★989 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · sin licencia detectada por la API · última release 28Nov2023 (2-dic-2023)
-• thepbone/RootlessJamesDSP — sin dato hoy (la API no respondió). No afirmo nada.
-• RikkaApps/Shizuku — ★32.772 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.775 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -71,6 +71,16 @@ tareas:  ## Reescribe el tablero de tareas desde las piezas vivas
 indice:  ## Reescribe el índice de docs y de herramientas
 	@$(PY) tools/indice_docs.py
 
+medir-guia:  ## Mide las 70 fichas de la guía maestra y dice qué se movió (H11)
+	@$(PY) tools/medir_guia.py --aplicar
+	@$(PY) guia-maestra/herramientas/guia_maestra.py --generar
+
+censo:  ## Cuenta un tema del registro con palabras declaradas (H10). Uso: make censo TEMA=audio
+	@$(PY) tools/censo_tema.py --tema $(TEMA) --json docs/CENSO-$(TEMA)-$(date +%F).json
+
+alinear:  ## Pone en la pieza ★N de la medición, línea por línea (H09). Uso: make alinear PIEZA=... MEDICION=...
+	@$(PY) tools/alinear.py --pieza "$(PIEZA)" --medicion "$(MEDICION)" --aplicar
+
 libro:  tareas indice  ## Los documentos derivados: tareas e índice
 
 novedad:  ## Encuentra lo nuevo, lo recién publicado y lo desconocido del registro

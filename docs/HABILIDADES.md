@@ -13,6 +13,9 @@ puede perder. Cada una nace de un error concreto de `docs/ERRORES.md`, y si el e
 | H06 | **Etiqueta específica o no hay etiqueta** | E01 | `tools/manual_gate.py` | M29 |
 | H07 | **Las etiquetas viajan en el último mensaje** | E15, E18 | `tools/envio.py --verificar` | envio |
 | H08 | **Una medición, un archivo, con hora** | E17 | `tools/remedir.py --escribir` | nombre con fecha |
+| H09 | **Alinear la cifra en su línea** | E26, E27 | `tools/alinear.py` | remedir |
+| H10 | **Un censo se repite o no se publica** | E30 | `tools/censo_tema.py` | lectura del censo |
+| H11 | **La guía también se mide** | E25 | `tools/medir_guia.py --aplicar` | `guia-maestra` + remedir |
 
 ## H01 · Medir antes de tocar
 
@@ -103,6 +106,37 @@ se sobrescribe la anterior: si dos mediciones del mismo día discrepan, es un da
 **Cómo.** `--escribir docs/MEDICION-01-2026-11-04.json` y, si hace falta otra, `…-2026-11-04-b.json`.
 
 **Por qué nació.** De un archivo de medición sobrescrito con un subconjunto de veintiséis repos.
+
+## H09 · Alinear la cifra en su línea
+
+**Qué impide.** Que la fuente mueva siete estrellas y la pieza siga publicando las de ayer en siete párrafos distintos.
+
+**Cómo se hace.** `python3 tools/alinear.py --pieza <pieza.md> --medicion docs/MEDICION-XX-2026-11-04.json --aplicar`.
+Solo toca el número pegado a ★, y solo en líneas que nombran **un** repositorio medido; si la línea nombra dos, no
+toca nada e informa. Imprime cada cambio con su número de línea.
+
+**Cómo se pierde.** Cuando alguien «arregla» a mano y olvida una línea. El programa no se olvida, pero tampoco adivina:
+si una cifra no está pegada a ★, la cambia una persona, no esta habilidad.
+
+## H10 · Un censo se repite o no se publica
+
+**Qué impide.** Publicar «ciento doce proyectos de audio nacidos en el año» sin que nadie pueda volver a contar ciento doce.
+
+**Cómo se hace.** `python3 tools/censo_tema.py --tema audio --json docs/CENSO-audio-2026-11-04.json`. El programa
+declara sus palabras de búsqueda, su ventana y el denominador (las fichas del registro con su evidencia sellada).
+
+**Cómo se pierde.** Cambiando las palabras entre una medición y otra sin decirlo. Por eso las palabras van en el
+archivo de salida y en la pieza.
+
+## H11 · La guía también se mide
+
+**Qué impide.** Que las setenta fichas de la guía maestra envejezcan en silencio, porque el texto se lee bien igual.
+
+**Cómo se hace.** `python3 tools/medir_guia.py --aplicar` mide las setenta con la API y con `tools/escrutinio.py`,
+escribe `guia-maestra/datos/medicion-<fecha>.json` y guarda la señal anterior en `datos/_senal-anterior/<fecha>/`.
+Después, `guia_maestra.py --generar` rehace créditos, índice, sitio y páginas.
+
+**Cómo se pierde.** Aplicando sin generar: los datos cambian y el sitio sigue diciendo lo de ayer.
 
 ## El ritual completo, con las habilidades dentro
 

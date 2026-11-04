@@ -44,8 +44,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "30aa0aaba56e9e78ff0251ba269f4481748a9849",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
   "swhid": "swh:1:rev:30aa0aaba56e9e78ff0251ba269f4481748a9849"
  },
  "repo": "Ghostpanter/ghost-files"

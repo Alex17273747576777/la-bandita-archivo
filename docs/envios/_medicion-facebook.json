@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-04",
- "medido_en_utc": "2026-11-04T13:18:35+00:00",
+ "medido_en_utc": "2026-11-04T14:08:27+00:00",
  "repos": {
   "coldMEW/Hush": {
    "estado": "vivo",
@@ -290,6 +290,18 @@
    "release_fecha": "2026-10-27",
    "stars_pieza": null
   },
+  "timschneeb/RootlessJamesDSP": {
+   "estado": "vivo",
+   "stars": 1723,
+   "push": "2026-08-31",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "C",
+   "desc": "An implementation of the system-wide JamesDSP audio processing engine for non-rooted Android devices",
+   "release": "v1.6.13",
+   "release_fecha": "2024-12-23",
+   "stars_pieza": null
+  },
   "AlphadogRSA/spotifyplus-tv-patch": {
    "estado": "vivo",
    "stars": 21,
@@ -328,7 +340,7 @@
   },
   "rukamori/ArchiveTune": {
    "estado": "vivo",
-   "stars": 7960,
+   "stars": 7961,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -340,7 +352,7 @@
   },
   "maxrave-dev/SimpMusic": {
    "estado": "vivo",
-   "stars": 12733,
+   "stars": 12735,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -352,7 +364,7 @@
   },
   "MetrolistGroup/Metrolist": {
    "estado": "vivo",
-   "stars": 14000,
+   "stars": 14003,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -410,14 +422,9 @@
    "release_fecha": "2023-12-02",
    "stars_pieza": null
   },
-  "thepbone/RootlessJamesDSP": {
-   "estado": "error",
-   "motivo": "Moved Permanently",
-   "stars_pieza": null
-  },
   "RikkaApps/Shizuku": {
    "estado": "vivo",
-   "stars": 32772,
+   "stars": 32775,
    "push": "2025-06-18",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -645,7 +652,7 @@
   },
   "iamr0s/Dhizuku": {
    "estado": "vivo",
-   "stars": 4084,
+   "stars": 4085,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -669,7 +676,7 @@
   },
   "rushiranpise/Shizuku-Next": {
    "estado": "vivo",
-   "stars": 1433,
+   "stars": 1437,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -741,7 +748,7 @@
   },
   "wxxsfxyzm/InstallerX-Revived": {
    "estado": "vivo",
-   "stars": 7312,
+   "stars": 7313,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -753,7 +760,7 @@
   },
   "pass-with-high-score/universal-installer": {
    "estado": "vivo",
-   "stars": 1680,
+   "stars": 1681,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -859,9 +866,16 @@
    "release_fecha": "2026-11-03",
    "stars_pieza": null
   },
-  "krishna3163/best_shizuku_apps_for_android": {
-   "estado": "muerto",
-   "motivo": "Not Found",
+  "krishna3163/best_shizuku_apps_for_android_no_root": {
+   "estado": "vivo",
+   "stars": 161,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "Python",
+   "desc": "Curated Shizuku and no-root Android apps, wireless ADB tools, debloat utilities, privacy tools, and root alternatives.",
+   "release": "device-manager-v1.2.0",
+   "release_fecha": "2026-11-04",
    "stars_pieza": null
   },
   "Alex17273747576777/la-bandita-archivo": {
@@ -878,7 +892,7 @@
   },
   "readest/readest": {
    "estado": "vivo",
-   "stars": 25934,
+   "stars": 25940,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -902,7 +916,7 @@
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
-   "stars": 21197,
+   "stars": 21198,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -926,7 +940,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 154001,
+   "stars": 154007,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -938,7 +952,7 @@
   },
   "xbmc/xbmc": {
    "estado": "vivo",
-   "stars": 21435,
+   "stars": 21434,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -950,7 +964,7 @@
   },
   "yuliskov/SmartTube": {
    "estado": "vivo",
-   "stars": 35908,
+   "stars": 35911,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -974,7 +988,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 64073,
+   "stars": 64076,
    "push": "2026-09-26",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -998,7 +1012,7 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 118206,
+   "stars": 118213,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1010,7 +1024,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97279,
+   "stars": 97286,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1106,7 +1120,7 @@
   },
   "ossf/scorecard": {
    "estado": "vivo",
-   "stars": 5811,
+   "stars": 5813,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1154,7 +1168,7 @@
   },
   "rclone/rclone": {
    "estado": "vivo",
-   "stars": 60793,
+   "stars": 60795,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -1190,7 +1204,7 @@
   },
   "MorpheApp/morphe-manager": {
    "estado": "vivo",
-   "stars": 9950,
+   "stars": 9949,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1202,7 +1216,7 @@
   },
   "MorpheApp/morphe-patches": {
    "estado": "vivo",
-   "stars": 4547,
+   "stars": 4549,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1238,7 +1252,7 @@
   },
   "rushiranpise/helper-for-morphe": {
    "estado": "vivo",
-   "stars": 427,
+   "stars": 429,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1335,8 +1349,8 @@
    "veredicto": "responde"
   },
   "https://github.com/AChep/keyguard-app/blob/master/LICENSE": {
-   "codigo": "429",
-   "veredicto": "no deja entrar a un robot"
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://github.com/AChep/keyguard-app/blob/master/SAPCLA.md": {
    "codigo": "200",
@@ -1610,9 +1624,9 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://github.com/krishna3163/best_shizuku_apps_for_android": {
-   "codigo": "404",
-   "veredicto": "no existe hoy"
+  "https://github.com/krishna3163/best_shizuku_apps_for_android_no_root": {
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://github.com/localsend/localsend": {
    "codigo": "200",
@@ -1734,7 +1748,7 @@
    "codigo": "200",
    "veredicto": "responde"
   },
-  "https://github.com/thepbone/RootlessJamesDSP": {
+  "https://github.com/timschneeb/RootlessJamesDSP": {
    "codigo": "200",
    "veredicto": "responde"
   },

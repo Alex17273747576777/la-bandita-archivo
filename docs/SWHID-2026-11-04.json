@@ -1,0 +1,727 @@
+{
+ "fecha": "2026-11-04",
+ "repositorios": 127,
+ "archivadas": 37,
+ "solicitadas": 47,
+ "detalle": [
+  {
+   "repo": "0x192/universal-android-debloater",
+   "swhid": "swh:1:rev:11f27c671cba278d71296cdef4c5a5dba06add5e",
+   "estado": "archivada",
+   "solicitud": "11f27c671cba278d71296cdef4c5a5dba06add5e"
+  },
+  {
+   "repo": "AChep/keyguard-app",
+   "swhid": "swh:1:rev:ebb23ce047cb7e897a561bd46456f860887917d8",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "AQUALaforet/AudioPolicyOverride",
+   "swhid": "swh:1:rev:451f949d4db2dc00749a73cc9e95fd77e50ea4d4",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "Alex17273747576777/la-bandita-archivo",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "AlphadogRSA/spotifyplus-tv-patch",
+   "swhid": "swh:1:rev:340de091f85a619e506b533bf9557d711fc4c3bf",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "AntennaPod/AntennaPod",
+   "swhid": "swh:1:rev:08107984b83fa0def9f6a1d2c244b1d9d1161322",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "AuroraOSS/AuroraStore",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "Benimaru-x1k/Benimaru",
+   "swhid": "swh:1:rev:2a341c863993c50e443614a7035512f74232e46a",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "Bingblop/ADB-Root-Toolbox",
+   "swhid": "swh:1:rev:f3e109c98e2df0fdbf3a4b1e6c9aed8a82bb3536",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "Dreamucxe/GameCore",
+   "swhid": "swh:1:rev:2a0dde06c7c6a76cbbf2a10858dd5d2440ed8060",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "Droid-ify/client",
+   "swhid": "swh:1:rev:ff1453ed957f3b2382abce9a7eb9a9db8def3a3a",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "Foxlape/GhostMode",
+   "swhid": "swh:1:rev:f63ca057e7283e93af33c094af253ec0ce766d50",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "Genymobile/scrcpy",
+   "swhid": "swh:1:rev:a60891aea193d92e7e5c3942700eca63f9d19a5f",
+   "estado": "archivada",
+   "solicitud": "a60891aea193d92e7e5c3942700eca63f9d19a5f"
+  },
+  {
+   "repo": "Ghostpanter/ghost-files",
+   "swhid": "swh:1:rev:30aa0aaba56e9e78ff0251ba269f4481748a9849",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "HakaI963/bliss",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "Hamza417/Inure",
+   "swhid": "swh:1:rev:717cd1a836d2ee65b242e436843a3acd5082d17a",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "HellzYeahh/earshot",
+   "swhid": "swh:1:rev:a581f96efb5a91b0622a5be9600a02a72b4e1649",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "HmnDev-Tech/shevery",
+   "swhid": "swh:1:rev:010a54527d46cf51e8a1f8d7bf82d1db1f0273f2",
+   "estado": "archivada",
+   "solicitud": "010a54527d46cf51e8a1f8d7bf82d1db1f0273f2"
+  },
+  {
+   "repo": "ImranR98/Obtainium",
+   "swhid": "swh:1:rev:35c3e7fea4f341a716eca4bb3fc625319ce965ab",
+   "estado": "archivada",
+   "solicitud": "35c3e7fea4f341a716eca4bb3fc625319ce965ab"
+  },
+  {
+   "repo": "Jman-Github/Patch-Bundle-Registry",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "Jman-Github/Universal-Patch-Manager",
+   "swhid": "swh:1:rev:9c10aec9707bdbbde76413866613d5935cbe0e95",
+   "estado": "archivada",
+   "solicitud": "9c10aec9707bdbbde76413866613d5935cbe0e95"
+  },
+  {
+   "repo": "KRTirtho/spotube",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "Kunzisoft/KeePassDX",
+   "swhid": "swh:1:rev:77ecfa8654a5bd0d79d512f8fa71c0af8a29b554",
+   "estado": "archivada",
+   "solicitud": "77ecfa8654a5bd0d79d512f8fa71c0af8a29b554"
+  },
+  {
+   "repo": "Lucent-Project/Lucent",
+   "swhid": "swh:1:rev:7d3babbd52c90828632ca7811ce7ff3c21aaa2a3",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "M66B/NetGuard",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "MetrolistGroup/Metrolist",
+   "swhid": "swh:1:rev:e6fea3b36c68841bad21daa6252e1d69ecd3afbe",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "Monica-Pass/Monica",
+   "swhid": "swh:1:rev:2ef9f3d620e261dbb36bbfdc47ffa46af164ad87",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "Moriafly/SaltPlayerSource",
+   "swhid": "swh:1:rev:48b2fde247d6b5529fee14ebf0d4198c9436cd3d",
+   "estado": "archivada",
+   "solicitud": "48b2fde247d6b5529fee14ebf0d4198c9436cd3d"
+  },
+  {
+   "repo": "MorpheApp/morphe-manager",
+   "swhid": "swh:1:rev:d9f78dfbee3f4e1db0cd30b76a57bd10dbaae3f7",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "MorpheApp/morphe-patches",
+   "swhid": "swh:1:rev:0bb704a9a4edb5324f6e607f3fc5a531713c607c",
+   "estado": "archivada",
+   "solicitud": "0bb704a9a4edb5324f6e607f3fc5a531713c607c"
+  },
+  {
+   "repo": "MuntashirAkon/AppManager",
+   "swhid": "swh:1:rev:dc4154f4c04399602895f31f9390bb66b25ea8a0",
+   "estado": "archivada",
+   "solicitud": "dc4154f4c04399602895f31f9390bb66b25ea8a0"
+  },
+  {
+   "repo": "NeoApplications/Neo-Backup",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "NeoApplications/Neo-Store",
+   "swhid": "swh:1:rev:37f8ee314be6d1def7af11b0af5b85a10680645c",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "OuterTune/OuterTune",
+   "swhid": "swh:1:rev:1b91406d758a95271e53c44ddfd9ce88b50a904e",
+   "estado": "archivada",
+   "solicitud": "1b91406d758a95271e53c44ddfd9ce88b50a904e"
+  },
+  {
+   "repo": "OxygenCobalt/Auxio",
+   "swhid": "swh:1:rev:f243bceab0b55fdae7462723a3d14e7eec21a432",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "PhilippC/keepass2android",
+   "swhid": "swh:1:rev:8b60a72fc8eb23e8580df053a49ca813a686c838",
+   "estado": "archivada",
+   "solicitud": "8b60a72fc8eb23e8580df053a49ca813a686c838"
+  },
+  {
+   "repo": "ReVanced/revanced-manager",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "ReVanced/where-is-revanced-patches",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "RetroMusicPlayer/RetroMusicPlayer",
+   "swhid": "swh:1:rev:dcb47cf00238027f03569589b842dcfcd5349dab",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "RikkaApps/Shizuku",
+   "swhid": "swh:1:rev:b844bc491f1790c72328e1a8e5b2349f8978f0ea",
+   "estado": "archivada",
+   "solicitud": "b844bc491f1790c72328e1a8e5b2349f8978f0ea"
+  },
+  {
+   "repo": "RikkaApps/Shizuku-API",
+   "swhid": "swh:1:rev:a27f6e4151ba7b39965ca47edb2bf0aeed7102e5",
+   "estado": "archivada",
+   "solicitud": "a27f6e4151ba7b39965ca47edb2bf0aeed7102e5"
+  },
+  {
+   "repo": "TrackerControl/tracker-control-android",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+   "swhid": "swh:1:rev:e1fff1efa87c54611b52771a31a03f408712deec",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "WEIHEWU/shizuku-sam",
+   "swhid": "swh:1:rev:1c25b2f5b4162d10f1ccea8c49cc46cfd22096fb",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "XayahSuSuSu/Android-DataBackup",
+   "swhid": "swh:1:rev:0c413bd3068ea036753704652ce8baad889f82e2",
+   "estado": "archivada",
+   "solicitud": "0c413bd3068ea036753704652ce8baad889f82e2"
+  },
+  {
+   "repo": "Yukstarlight/guang-lab",
+   "swhid": "swh:1:rev:009b59f822ce794551b46db334831f4850858bfc",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "aaron-gh/SandFly",
+   "swhid": "swh:1:rev:915589f7adb422ef667ab478c56b875ea3c5f7d0",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "accrescent/accrescent",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "aistra0528/Hail",
+   "swhid": "swh:1:rev:67a43c8ea7d43eddf51d840f3615b97ce6079c9b",
+   "estado": "archivada",
+   "solicitud": "67a43c8ea7d43eddf51d840f3615b97ce6079c9b"
+  },
+  {
+   "repo": "andOTP/andOTP",
+   "swhid": "swh:1:rev:6c54b8811f950375c774b2eefebcf1f9fa13d433",
+   "estado": "archivada",
+   "solicitud": "6c54b8811f950375c774b2eefebcf1f9fa13d433"
+  },
+  {
+   "repo": "authpass/authpass",
+   "swhid": "swh:1:rev:ceb3b3ea22f64ead1eb93b31b1f0657b7844631a",
+   "estado": "archivada",
+   "solicitud": "ceb3b3ea22f64ead1eb93b31b1f0657b7844631a"
+  },
+  {
+   "repo": "beemdevelopment/Aegis",
+   "swhid": "swh:1:rev:d6f4e5925a97e4e91593f1542085eae03432a759",
+   "estado": "archivada",
+   "solicitud": "d6f4e5925a97e4e91593f1542085eae03432a759"
+  },
+  {
+   "repo": "bitwarden/android",
+   "swhid": "swh:1:rev:4ecfcd31cf76477893fb81ced9e6a49e214b1ead",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "bl3xand/APK-Toolbox",
+   "swhid": "swh:1:rev:2f799c2e4bb37a8ea1fcf58ddf44cab991876e6e",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "brosssh/revanced-manager-downloaders",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "bunbun-midi/RootlessJamesDSP-SKDSP",
+   "swhid": "swh:1:rev:a90352552980e48720befc87cd3a5758c63cc4ef",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "capitan0n/droynis",
+   "swhid": "swh:1:rev:85f04555bc00bfc8506a715f9bc28f64e8b781f5",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "cli/cli",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "coldMEW/Hush",
+   "swhid": "swh:1:rev:a290e1421e6f7cfc59f959608ff4199b31616a4d",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "cr1437/Shizako",
+   "swhid": "swh:1:rev:2311ebbfd3def24b0c847de131422a8570cbf025",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "d4rken-org/porter",
+   "swhid": "swh:1:rev:ab17ed2ba77197d4b7d1b8e98de2b5cedbd9c1ce",
+   "estado": "archivada",
+   "solicitud": "ab17ed2ba77197d4b7d1b8e98de2b5cedbd9c1ce"
+  },
+  {
+   "repo": "dani-garcia/vaultwarden",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "emi-ran/flowpilot",
+   "swhid": "swh:1:rev:b90956b08b97151fcf2b5e1cf6b646d0068103cf",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "ente-io/ente",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "eyalm2000/adns",
+   "swhid": "swh:1:rev:677a88bc3d62c18d2dbe5341d3c772416a232a85",
+   "estado": "archivada",
+   "solicitud": "677a88bc3d62c18d2dbe5341d3c772416a232a85"
+  },
+  {
+   "repo": "fast4x/RiMusic",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "freeotp/freeotp-android",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "henry-97/MineApp",
+   "swhid": "swh:1:rev:7be18bd59b0c0780b2b5481f7a33c0cb7237386e",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "iBotPeaches/Apktool",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "iamr0s/Dhizuku",
+   "swhid": "swh:1:rev:e9fa39213c4e83029118072bed0772b28095feb4",
+   "estado": "archivada",
+   "solicitud": "e9fa39213c4e83029118072bed0772b28095feb4"
+  },
+  {
+   "repo": "ibrahim91015/AudioScope",
+   "swhid": "swh:1:rev:449d386d8f445d99079c507fbaf527eb397f4b39",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "immich-app/immich",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "james34602/JamesDSPManager",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "jellyfin/jellyfin",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "jolabs40/TVSlim",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "kerneldroid/Nightzuku",
+   "swhid": "swh:1:rev:e6904452b6a2b9a72fac2d1f7fce9978a08bd883",
+   "estado": "archivada",
+   "solicitud": "e6904452b6a2b9a72fac2d1f7fce9978a08bd883"
+  },
+  {
+   "repo": "krishna3163/OmniShizuku",
+   "swhid": "swh:1:rev:153d6ecba28f7974b13a68542b9206197297616a",
+   "estado": "archivada",
+   "solicitud": "153d6ecba28f7974b13a68542b9206197297616a"
+  },
+  {
+   "repo": "krishna3163/best-root-apps-for-android",
+   "swhid": "swh:1:rev:169ca7f1cfdd5ced3debef6472dd703a6f57ad35",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "krishna3163/best_shizuku_apps_for_android",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "krishna3163/best_shizuku_apps_for_android_no_root",
+   "swhid": "swh:1:rev:1374f32354c23e2d9d492c64185d4a443ef1e553",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "localsend/localsend",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "ludoven/QADB",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "maxrave-dev/SimpMusic",
+   "swhid": "swh:1:rev:013db77728e788ae9866d6fa763dfa5aa7025c1e",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "milkei/audio-focus-mixer",
+   "swhid": "swh:1:rev:5ee3a15e7337d30bfca77a707e7cc35cf3384d55",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "mirfatif/PermissionManagerX",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "monarchsofchaos004-gif/splitaudio",
+   "swhid": "swh:1:rev:2c6f168a78f33b4ebbae1df18a708016ed9e1c0a",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "naman14/Timber",
+   "swhid": "swh:1:rev:b53a7d54682e100acaefb41cd181b40f5db59f64",
+   "estado": "archivada",
+   "solicitud": "b53a7d54682e100acaefb41cd181b40f5db59f64"
+  },
+  {
+   "repo": "namidaco/namida",
+   "swhid": "swh:1:rev:10123d91e2527682efc72d877603a121d85d8fbe",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "open-keychain/open-keychain",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "oss-review-toolkit/ort",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "ossf/scorecard",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "pass-with-high-score/universal-installer",
+   "swhid": "swh:1:rev:5bd00f84f6ebd16856e4747b43698269fb7445c8",
+   "estado": "archivada",
+   "solicitud": "5bd00f84f6ebd16856e4747b43698269fb7445c8"
+  },
+  {
+   "repo": "rclone/rclone",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "rdevz-ph/RedirectGuard",
+   "swhid": "swh:1:rev:4ad34f6d54e251ab5f4b833f3fc69a59e8961ea9",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "readest/readest",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "rednaga/APKiD",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "restic/restic",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "rukamori/ArchiveTune",
+   "swhid": "swh:1:rev:c7f0e243c637e039bce4b92fecdf7179804114fb",
+   "estado": "archivada",
+   "solicitud": "c7f0e243c637e039bce4b92fecdf7179804114fb"
+  },
+  {
+   "repo": "rumboalla/apkupdater",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "rushiranpise/Shizuku-Next",
+   "swhid": "swh:1:rev:e1bcc2525f8be047e88e80528c7306e0ee5f88b5",
+   "estado": "archivada",
+   "solicitud": "e1bcc2525f8be047e88e80528c7306e0ee5f88b5"
+  },
+  {
+   "repo": "rushiranpise/helper-for-morphe",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "saikiran9185/BudsFirst",
+   "swhid": "swh:1:rev:8ad6ec874f5e744d35614567959a118e3b51dfb8",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "samolego/Canta",
+   "swhid": "swh:1:rev:e3ed0c9bf90ee6f8bfb7a92ba1e140327cda480f",
+   "estado": "archivada",
+   "solicitud": "e3ed0c9bf90ee6f8bfb7a92ba1e140327cda480f"
+  },
+  {
+   "repo": "sidnvy/8bercue",
+   "swhid": "swh:1:rev:aba774e9a90eae93d8c08788bd615d16c6ac4b75",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "sigstore/cosign",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "skylot/jadx",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "stratumauth/app",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "tejado/Authorizer",
+   "swhid": "swh:1:rev:06e8f7d87ddf9aafc5df5fc7380767d6de596a45",
+   "estado": "archivada",
+   "solicitud": "06e8f7d87ddf9aafc5df5fc7380767d6de596a45"
+  },
+  {
+   "repo": "termux/termux-app",
+   "swhid": "swh:1:rev:8629e632fcb95da272221be327db653fb24befe9",
+   "estado": "archivada",
+   "solicitud": "8629e632fcb95da272221be327db653fb24befe9"
+  },
+  {
+   "repo": "termux/termux-packages",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "tgvdufuture/Aura",
+   "swhid": "swh:1:rev:ba8ff489a1de9326f0827fe452a925ee27c9d2a0",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "thedjchi/Shizuku",
+   "swhid": "swh:1:rev:15ade0e40042dc72f0e502d50b4cb16e3a19095e",
+   "estado": "archivada",
+   "solicitud": "15ade0e40042dc72f0e502d50b4cb16e3a19095e"
+  },
+  {
+   "repo": "thejaustin/ShizukuPlus",
+   "swhid": "swh:1:rev:a2b0077733134fe84c262f4afed176a3d5024df5",
+   "estado": "archivada",
+   "solicitud": "a2b0077733134fe84c262f4afed176a3d5024df5"
+  },
+  {
+   "repo": "theovilardo/PixelPlayer",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "timschneeb/RootlessJamesDSP",
+   "swhid": "swh:1:rev:60d25ae8a53c6f4691c090673df290a73c6b6357",
+   "estado": "archivada",
+   "solicitud": "60d25ae8a53c6f4691c090673df290a73c6b6357"
+  },
+  {
+   "repo": "timschneeb/awesome-shizuku",
+   "swhid": "swh:1:rev:597b70e4aa01bd6a89ab2e2b77b30716a3ceb0a4",
+   "estado": "archivada",
+   "solicitud": "597b70e4aa01bd6a89ab2e2b77b30716a3ceb0a4"
+  },
+  {
+   "repo": "trypsynth/backtalk",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "tswistak/Battery-Monitor",
+   "swhid": "swh:1:rev:ca4ec1084f42a737a82e98c89002704cd08d239a",
+   "estado": "archivada",
+   "solicitud": "ca4ec1084f42a737a82e98c89002704cd08d239a"
+  },
+  {
+   "repo": "wized2/Latch",
+   "swhid": "swh:1:rev:4bafaed836b6177d7311eacb9670d1f9c86b41fd",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "wlmosv-png/wpaforge",
+   "swhid": "swh:1:rev:b7716fdc6e73e32755f69d454d75113709b8c36e",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "wxxsfxyzm/InstallerX-Revived",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "xTudoS/dual-audio",
+   "swhid": "swh:1:rev:b640e46df78b552515596e7c3be33d4a2188093a",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "xbmc/xbmc",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "yuliskov/SmartTube",
+   "swhid": "swh:1:rev:4557e4c3e76cf4a00f9c9359ffc73696050f6031",
+   "estado": "solicitud 429",
+   "solicitud": null
+  },
+  {
+   "repo": "yume-chan/VolumeManager",
+   "swhid": "swh:1:rev:0915776d897a9e93b661d7758e215e64617df694",
+   "estado": "archivada",
+   "solicitud": "0915776d897a9e93b661d7758e215e64617df694"
+  },
+  {
+   "repo": "z-huang/InnerTune",
+   "swhid": "swh:1:rev:bfba5ecb16795cfc93ecce73d94ca583bcec917c",
+   "estado": "archivada",
+   "solicitud": "bfba5ecb16795cfc93ecce73d94ca583bcec917c"
+  },
+  {
+   "repo": "zsw125/o3root",
+   "swhid": "swh:1:rev:ea892ae6d741d8b1617e8a2a2f3feaeff1c4036f",
+   "estado": "solicitud 429",
+   "solicitud": null
+  }
+ ]
+}

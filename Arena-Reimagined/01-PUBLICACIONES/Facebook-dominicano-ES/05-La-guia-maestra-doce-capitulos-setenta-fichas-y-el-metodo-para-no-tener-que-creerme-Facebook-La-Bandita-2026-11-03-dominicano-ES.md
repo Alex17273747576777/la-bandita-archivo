@@ -21,7 +21,7 @@
 └── 🌅 cierre · 🔗 enlaces · 🗒️ notas al pie
 ```
 
-> *Semilla de esta guía:* el encargo llegó en una línea y sin adornos: «con las publicaciones hacer una mega guía de uso para todo tipo de apps y recursos de open source, y adjuntarlos en un repositorio con todos los créditos de los creadores». Y venía con dos modelos: los repositorios de krishna3163 sobre aplicaciones de root y de Shizuku, que son la referencia obligada del tema. Se midieron los dos hoy, antes de escribir una sola palabra. El primero tiene cincuenta y una estrellas y un archivo de presentación de cuatrocientos ochenta y ocho mil seiscientos veintiocho caracteres, en dos mil ochocientos cuarenta y nueve líneas. El segundo tiene ciento sesenta y una estrellas, cuatrocientas catorce mil quinientos cuatro caracteres, mil ochocientas cuarenta y tres filas de tabla y diecinueve secciones. Los dos están en tres idiomas y ninguno de los dos enseña a usar nada: son catálogos, y un catálogo sirve para descubrir, no para aprender.
+> *Semilla de esta guía:* el encargo llegó en una línea y sin adornos: «con las publicaciones hacer una mega guía de uso para todo tipo de apps y recursos de open source, y adjuntarlos en un repositorio con todos los créditos de los creadores». Y venía con dos modelos: los repositorios de krishna3163 sobre aplicaciones de root y de Shizuku, que son la referencia obligada del tema. Se midieron los dos otra vez antes de publicar esta versión, y no salieron los mismos números. El de root tiene hoy cincuenta y dos estrellas y un archivo de presentación de cuatrocientos ochenta y ocho mil seiscientos treinta y cuatro caracteres, en dos mil ochocientos cuarenta y nueve líneas. El de Shizuku tiene ciento sesenta y una estrellas, cuatrocientas veinte mil ochocientos sesenta y un caracteres, dos mil quinientas catorce líneas, mil ochocientas setenta y tres filas de tabla y diecinueve secciones. Y hay un detalle que vale más que las cifras: ese segundo repositorio **cambió de nombre** y la dirección que circulaba hasta ayer devuelve hoy página no encontrada. Quien guardó el enlace viejo tiene una puerta cerrada; el enlace de abajo ya lleva el nombre nuevo. Los dos están en tres idiomas y ninguno de los dos enseña a usar nada: son catálogos, y un catálogo sirve para descubrir, no para aprender.
 
 Lo que sigue es la respuesta a ese encargo, y es lo que quedó publicado hoy en el archivo de la casa: doce capítulos, setenta fichas, cada ficha con su autor, su licencia, su fecha de medición y una nota con pesos publicados. No es un catálogo más largo. Es un método con setenta ejemplos dentro, en un solo idioma y escrito desde cero.
 
@@ -35,7 +35,7 @@ Dentro de cada capítulo van fichas. Una ficha no es una fila de tabla: es una t
 
 La guía no pide fe en ningún punto. Cada afirmación que hace se puede comprobar con una orden que está escrita en la propia ficha, y el capítulo doce enseña a repetir la medición completa: cómo leer una licencia, cómo medir la salud de un proyecto con un número que otros puedan repetir, cómo comprobar una firma anclada en un registro público y cómo revisar el cifrado de tu propio servidor.
 
-Y hay algo que la guía hace al revés de como se hace siempre: **publica las notas malas**. De setenta proyectos, hay cuatro que sacan menos de treinta puntos y están ahí, con el motivo escrito, porque saber qué evitar vale más que una lista de elogios. Un catálogo dice todo lo bueno. Un método dice también lo que no aguanta, y con qué número lo decidió.
+Y hay algo que la guía hace al revés de como se hace siempre: **publica las notas malas**. De setenta proyectos, hay cinco que sacan menos de treinta puntos y están ahí, con el motivo escrito, porque saber qué evitar vale más que una lista de elogios. Un catálogo dice todo lo bueno. Un método dice también lo que no aguanta, y con qué número lo decidió.
 
 ───────────────────
 
@@ -117,45 +117,45 @@ El orden no es temático: es el orden en que se rompen las cosas.
 
 De las setenta se abren diez completas, una por cada cosa que la guía aprende a hacer. Las otras sesenta van en la tabla, con su nota y su razón.
 
-*readest/readest · ★25.914 · AGPL-3.0 certificada · creado el 12 de octubre de 2024, hace setecientos cincuenta y dos días · última entrega del 13 de octubre · 628.630 descargas en las 10 últimas · 100 personas han empujado código · paquete de 359,1 MB · escrutinio 80/100.*
+*readest/readest · ★25.940 · AGPL-3.0 certificada · creado el 12 de octubre de 2024, hace setecientos cincuenta y dos días · última entrega del 13 de octubre · 631.128 descargas en las 10 últimas · 100 personas han empujado código · paquete de 360,9 MB · escrutinio 80/100.*
 
-La nota más alta de las setenta, y no por casualidad: lee libros en cualquier formato, sincroniza entre aparatos y no pide cuenta en ninguna nube ajena. Setecientos cincuenta y dos días de vida, entrega de hace tres semanas, seiscientas veintiocho mil descargas y cien personas detrás. Todo lo que la nota premia está ahí junto. *Para quién es:* para quien quiera una biblioteca que viva en sus aparatos. *Para quién no es:* para quien tenga un teléfono con menos de dos gigabytes libres: el paquete de la aplicación pesa más que muchas fotos.
+La nota más alta de las setenta, y no por casualidad: lee libros en cualquier formato, sincroniza entre aparatos y no pide cuenta en ninguna nube ajena. Setecientos cincuenta y tres días de vida, entrega de hace tres semanas, seiscientas treinta y un mil ciento veintiocho descargas y cien personas detrás. Todo lo que la nota premia está ahí junto. *Para quién es:* para quien quiera una biblioteca que viva en sus aparatos. *Para quién no es:* para quien tenga un teléfono con menos de dos gigabytes libres: el paquete de la aplicación pesa más que muchas fotos.
 
-*TrackerControl/tracker-control-android · ★2.719 · GPL-3.0 certificada · creado el 27 de enero de 2019, hace dos mil quinientos cincuenta días · última entrega del 1 de noviembre · 103.115 descargas en las 10 últimas · 15 personas · paquete de 53,4 MB · escrutinio 75/100.*
+*TrackerControl/tracker-control-android · ★2.720 · GPL-3.0 certificada · creado el 27 de enero de 2019, hace dos mil quinientos cincuenta y un días · última entrega del 1 de noviembre · 103.439 descargas en las 10 últimas · 15 personas · paquete de 53,4 MB · escrutinio 75/100.*
 
-Setenta y cinco puntos con dos mil setecientas estrellas: el más pequeño de los cinco primeros y el que mejor puntúa por trabajo y no por tamaño. Muestra qué empresa habla con cada aplicación y permite cortarle el paso sin root, con la red privada del sistema. Su límite es el de toda herramienta de este tipo: fuera de la red privada no protege nada, y hay que decirlo. *Para quién es:* para quien quiera ver, con nombre y apellido, quién llama desde su teléfono. *Para quién no es:* para quien busque un botón que lo arregle todo sin leer una lista.
+Setenta y cinco puntos con dos mil setecientas veinte estrellas: el más pequeño de los cinco primeros y el que mejor puntúa por trabajo y no por tamaño. Muestra qué empresa habla con cada aplicación y permite cortarle el paso sin root, con la red privada del sistema. Su límite es el de toda herramienta de este tipo: fuera de la red privada no protege nada, y hay que decirlo. *Para quién es:* para quien quiera ver, con nombre y apellido, quién llama desde su teléfono. *Para quién no es:* para quien busque un botón que lo arregle todo sin leer una lista.
 
-*canta · ★6.446 · LGPL-3.0 certificada · última entrega del 29 de octubre · 585.210 descargas en las 10 últimas · 18 personas · paquete de 6,6 MB · escrutinio 71/100.*
+*canta · ★6.461 · LGPL-3.0 certificada · última entrega del 29 de octubre · 586.479 descargas en las 10 últimas · 18 personas · paquete de 6,6 MB · escrutinio 71/100.*
 
 Desinstala cualquier aplicación sin root usando el permiso prestado del capítulo tercero, que es el único camino que el sistema deja abierto para eso. Seis megabytes de paquete y dieciocho personas detrás: el tamaño de un programa que hace una sola cosa bien. *Para quién es:* para quien quiera sacar de su teléfono lo que nunca pidió. *Para quién no es:* para quien no haya activado antes la depuración: sin eso, no ve ni una aplicación.
 
-*obtainium · ★21.181 · GPL-3.0 certificada · última entrega del 1 de noviembre · 1.553.765 descargas en las 10 últimas · 100 personas · paquete de 19,1 MB · escrutinio 73/100.*
+*obtainium · ★21.198 · GPL-3.0 certificada · última entrega del 1 de noviembre · 1.558.735 descargas en las 10 últimas · 100 personas · paquete de 19,1 MB · escrutinio 73/100.*
 
 Instala y actualiza aplicaciones siguiendo el repositorio del propio autor, no una tienda. Es la pieza que hace que un teléfono pueda vivir sin tienda: cada aplicación se actualiza donde se publica. Su riesgo está escrito en su ficha: si el autor cambia de repositorio, la actualización se rompe, y hay que volver a apuntarla. *Para quién es:* para quien quiera sus actualizaciones sin intermediario. *Para quién no es:* para quien no vaya a revisar cada tanto que sus fuentes siguen vivas.
 
-*skylot/jadx · ★51.554 · Apache-2.0 certificada · última entrega del 10 de julio · 5.255.417 descargas en las 10 últimas · 100 personas · repositorio de 25,7 MB · escrutinio 58/100.*
+*skylot/jadx · ★51.586 · Apache-2.0 certificada · última entrega del 10 de julio · 5.274.364 descargas en las 10 últimas · 100 personas · repositorio de 25,7 MB · escrutinio 58/100.*
 
 Lee un paquete y muestra su código como algo parecido a Java, con búsqueda. Es la herramienta con la que se responde «¿a qué dominio llama esta aplicación cuando arranco?». Su presentación avisa de lo que casi nadie avisa: **en la mayoría de los casos no puede descompilar el cien por ciento del código, y habrá errores**. Eso no es un defecto, es la naturaleza del oficio. *Para quién es:* para quien quiera mirar por dentro antes de confiar. *Para quién no es:* para quien espere una respuesta redonda y sin asteriscos.
 
-*shizuku · ★32.721 · Apache-2.0 certificada · creado el 24 de mayo de 2017, hace tres mil cuatrocientos cincuenta días · última entrega del 25 de mayo de 2025 · sin movimiento desde entonces · 4.956.190 descargas en las 10 últimas · 100 personas · paquete de 38,1 MB · escrutinio 40/100.*
+*shizuku · ★32.773 · Apache-2.0 certificada · creado el 24 de mayo de 2017, hace tres mil cuatrocientos cincuenta y un días · última entrega del 25 de mayo de 2025 · sin movimiento desde entonces · 4.973.045 descargas en las 10 últimas · 100 personas · paquete de 38,1 MB · escrutinio 40/100.*
 
-La puerta por la que entra casi todo el mundo, y el proyecto más instalado de la guía con diferencia: cuatro millones novecientas cincuenta y seis mil ciento noventa descargas solo en sus diez últimas entregas. Y lleva más de un año sin que nadie empuje código. No está archivado: está quieto, que en este terreno es peor, porque quien llega nuevo no puede saber si esto terminó o si se abandonó. *Para quién es:* para quien quiera el árbol original sin añadidos. *Para quién no es:* para quien necesite a alguien del otro lado contestando hoy: sus herederos vivos están en el capítulo tercero.
+La puerta por la que entra casi todo el mundo, y el proyecto más instalado de la guía con diferencia: cuatro millones novecientas setenta y tres mil cuarenta y cinco descargas solo en sus diez últimas entregas. Y lleva más de un año sin que nadie empuje código. No está archivado: está quieto, que en este terreno es peor, porque quien llega nuevo no puede saber si esto terminó o si se abandonó. *Para quién es:* para quien quiera el árbol original sin añadidos. *Para quién no es:* para quien necesite a alguien del otro lado contestando hoy: sus herederos vivos están en el capítulo tercero.
 
-*krishna3163/OmniShizuku · ★17 · Apache-2.0 certificada · madurez declarada: versión uno punto cero, cinco, en desarrollo, del 2 de noviembre · creado el 24 de octubre de 2026, hace diez días · 5 personas han empujado código · 5 flujos de compilación · 393 descargas en las 10 últimas · repositorio de 8 MB · escrutinio 67/100.*
+*krishna3163/OmniShizuku · ★18 · Apache-2.0 certificada · madurez declarada: versión uno punto cero, cinco, en desarrollo, del 2 de noviembre · creado el 24 de octubre de 2026, hace once días · 5 personas han empujado código · 5 flujos de compilación · 443 descargas en las 10 últimas · repositorio de 8 MB · escrutinio 67/100.*
 
 El hallazgo del mes y el mejor argumento contra la fama como criterio: diez días de vida, cinco personas empujando y sesenta y siete puntos, veintisiete más que el proyecto del que hereda el permiso. Su madurez es la de un recién nacido, y así se declara: sin historia no hay promesa. Se vuelve a medir el 3 de diciembre para ver si el equipo sigue ahí. *Para quién es:* para quien quiera probar lo nuevo sabiendo que es nuevo. *Para quién no es:* para quien necesite una versión quieta y una comunidad que conteste dudas.
 
-*Genymobile/scrcpy · ★153.936 · Apache-2.0 certificada · última entrega del 8 de octubre · 9.982.397 descargas en las 10 últimas · 100 personas · paquete de 9,1 MB · escrutinio 67/100.*
+*Genymobile/scrcpy · ★154.003 · Apache-2.0 certificada · última entrega del 8 de octubre · 10.005.486 descargas en las 10 últimas · 100 personas · paquete de 9,1 MB · escrutinio 67/100.*
 
 El proyecto más popular de los setenta, por delante de Immich y de LocalSend: muestra la pantalla del teléfono en la computadora, con teclado y mouse, sin instalar nada en el aparato y sin root. Su presentación abre con una advertencia que vale para todo: **su repositorio es la única fuente oficial**. Un programa popular y libre tiene copias falsas en la primera página de cualquier buscador. *Para quién es:* para quien escriba mucho en el teléfono, o enseñe a usarlo estando lejos. *Para quién no es:* para quien quiera administrar el sistema: para eso está la terminal.
 
-*xbmc/xbmc · ★21.431 · GPL-2.0-or-later certificada · última entrega del 27 de septiembre · sin descargas contables en paquetes · 100 personas · repositorio de 1.631,8 MB · escrutinio 29/100.*
+*xbmc/xbmc · ★21.435 · GPL-2.0-or-later certificada · última entrega del 27 de septiembre · sin descargas contables en paquetes · 100 personas · repositorio de 1.632,3 MB · escrutinio 29/100.*
 
-Veintinueve puntos y está en la guía: es el reproductor de la sala de casa y no tiene sustituto real. Mil seiscientos treinta y un megabytes de repositorio, una comunidad enorme y un cuidado desparejo, que es exactamente lo que mide su nota. Se recomienda sabiendo, y la ficha lo dice en la primera línea. *Para quién es:* para quien quiera una biblioteca de video y música en el televisor, con sus carátulas. *Para quién no es:* para quien no quiera pelear con complementos: sin ellos, el programa hace mucho menos de lo que promete.
+Veintinueve puntos y está en la guía: es el reproductor de la sala de casa y no tiene sustituto real. Mil seiscientos treinta y dos megabytes de repositorio, una comunidad enorme y un cuidado desparejo, que es exactamente lo que mide su nota. Se recomienda sabiendo, y la ficha lo dice en la primera línea. *Para quién es:* para quien quiera una biblioteca de video y música en el televisor, con sus carátulas. *Para quién no es:* para quien no quiera pelear con complementos: sin ellos, el programa hace mucho menos de lo que promete.
 
-*termux/termux-app · ★64.037 · GPL-3.0 con excepciones escritas · última entrega del 22 de mayo de 2025 · sin movimiento desde entonces · 11.062.042 descargas en las 10 últimas · 81 personas · paquete de 5,1 MB · escrutinio 43/100.*
+*termux/termux-app · ★64.076 · GPL-3.0 con excepciones escritas · última entrega del 22 de mayo de 2025 · sin movimiento desde entonces · 11.073.365 descargas en las 10 últimas · 81 personas · paquete de 5,1 MB · escrutinio 43/100.*
 
-Un entorno Linux completo en el bolsillo, con su propio gestor de paquetes, y once millones de descargas. Su nota, cuarenta y tres, castiga el silencio y no la utilidad: no hay entrega nueva desde mayo de 2025 y su propio repositorio avisa de que busca mantenedores del cliente. Tres cosas que su presentación dice y casi nadie lee: la versión de la tienda de Google está abandonada, Android 12 y posteriores matan los procesos que gastan de más, y sus rutas no son las de una computadora. *Para quién es:* para quien quiera automatizar lo repetitivo con diez líneas. *Para quién no es:* para quien copie tutoriales de servidor sin mirar la ruta: van a fallar, y no por el tutorial.
+Un entorno Linux completo en el bolsillo, con su propio gestor de paquetes, y once millones setenta y tres mil trescientas sesenta y cinco descargas. Su nota, cuarenta y tres, castiga el silencio y no la utilidad: no hay entrega nueva desde mayo de 2025 y su propio repositorio avisa de que busca mantenedores del cliente. Tres cosas que su presentación dice y casi nadie lee: la versión de la tienda de Google está abandonada, Android 12 y posteriores matan los procesos que gastan de más, y sus rutas no son las de una computadora. *Para quién es:* para quien quiera automatizar lo repetitivo con diez líneas. *Para quién no es:* para quien copie tutoriales de servidor sin mirar la ruta: van a fallar, y no por el tutorial.
 
 ───────────────────
 
@@ -166,77 +166,77 @@ Capítulo, estrella y nota. La licencia faltante en una fila no es un olvido: es
 | Cap. | Programa | ★ | Licencia | Nota |
 |---|---|---|---|---|
 | 01 | AppListBackup | 196 | GPL-3.0 | 47 |
-| 01 | Neo Backup | 3.893 | AGPL-3.0 | 57 |
-| 01 | DataBackup | 7.556 | GPL-3.0 | 48 |
-| 01 | restoid | 187 | GPL-3.0 | 54 |
+| 01 | Neo Backup | 3.894 | AGPL-3.0 | 57 |
+| 01 | DataBackup | 7.559 | GPL-3.0 | 48 |
+| 01 | restoid | 187 | GPL-3.0 | 68 |
 | 01 | Seedvault | 1.876 | Apache-2.0 | 26 |
-| 02 | Canta | 6.446 | LGPL-3.0 | 71 |
-| 02 | Hail | 7.095 | GPL-3.0 | 47 |
-| 02 | UAD NG | 9.725 | GPL-3.0 | 59 |
+| 02 | Canta | 6.461 | LGPL-3.0 | 71 |
+| 02 | Hail | 7.098 | GPL-3.0 | 47 |
+| 02 | UAD NG | 9.737 | GPL-3.0 | 59 |
 | 02 | Uraam | 52 | GPL-3.0 | 59 |
-| 02 | App Manager NG | 169 | GPL-3.0 | 33 |
-| 03 | Shizuku | 32.721 | Apache-2.0 | 40 |
-| 03 | Shevery | 1.586 | Apache-2.0 | 70 |
-| 03 | Shizuku-Next | 1.403 | Apache-2.0 | 70 |
-| 03 | aShellYou | 2.546 | GPL-3.0 | 58 |
-| 03 | Dhizuku | 4.079 | GPL-3.0 | 65 |
-| 03 | OmniShizuku | 17 | Apache-2.0 | 67 |
-| 04 | Obtainium | 21.181 | GPL-3.0 | 73 |
+| 02 | App Manager NG | 170 | GPL-3.0 | 33 |
+| 03 | Shizuku | 32.773 | Apache-2.0 | 40 |
+| 03 | Shevery | 1.598 | Apache-2.0 | 70 |
+| 03 | Shizuku-Next | 1.436 | Apache-2.0 | 70 |
+| 03 | aShellYou | 2.549 | GPL-3.0 | 58 |
+| 03 | Dhizuku | 4.084 | GPL-3.0 | 65 |
+| 03 | OmniShizuku | 18 | Apache-2.0 | 67 |
+| 04 | Obtainium | 21.198 | GPL-3.0 | 73 |
 | 04 | F-Droid | 3.255 | GPL-3.0 | 45 |
-| 04 | Accrescent | 2.305 | Apache-2.0 | 53 |
-| 04 | Universal Installer | 1.677 | GPL-3.0 | 61 |
-| 04 | AppVerifier | 1.221 | ISC | 32 |
-| 04 | Aurora Store | 74 | GPL-3.0 | 25 |
-| 05 | TrackerControl | 2.719 | GPL-3.0 | 75 |
-| 05 | AdAway | 9.592 | GPL-3.0 | 42 |
-| 05 | Rethink | 5.838 | Apache-2.0 | 62 |
-| 05 | personalDNSfilter | 951 | GPL-2.0 | 47 |
-| 05 | NetGuard | 3.962 | GPL-3.0 | 25 |
-| 05 | PCAPdroid | 5.070 | GPL-3.0 | 48 |
-| 06 | Auxio | 4.419 | GPL-3.0 | 47 |
-| 06 | AntennaPod | 8.260 | GPL-3.0 | 51 |
-| 06 | Readest | 25.914 | AGPL-3.0 | 80 |
-| 06 | KOReader | 30.851 | AGPL-3.0 | 53 |
-| 06 | Navidrome | 24.510 | GPL-3.0 | 51 |
-| 06 | Audiobookshelf | 14.902 | GPL-3.0 | 49 |
-| 07 | LocalSend | 97.199 | Apache-2.0 | 50 |
-| 07 | Syncthing (bifurcación) | 3.244 | MPL-2.0 | 61 |
-| 07 | Immich | 118.104 | AGPL-3.0 | 64 |
-| 07 | Nextcloud | 37.405 | AGPL-3.0 | 59 |
-| 07 | restic | 36.981 | BSD-2-Clause | 60 |
-| 07 | rclone | 60.771 | MIT | 74 |
-| 08 | wg-easy | 27.389 | AGPL-3.0 | 55 |
+| 04 | Accrescent | 2.306 | Apache-2.0 | 53 |
+| 04 | Universal Installer | 1.681 | GPL-3.0 | 60 |
+| 04 | AppVerifier | 1.223 | ISC | 32 |
+| 04 | Aurora Store | 75 | GPL-3.0 | 25 |
+| 05 | TrackerControl | 2.720 | GPL-3.0 | 75 |
+| 05 | AdAway | 9.593 | GPL-3.0 | 42 |
+| 05 | Rethink | 5.844 | Apache-2.0 | 62 |
+| 05 | personalDNSfilter | 952 | GPL-2.0 | 47 |
+| 05 | NetGuard | 3.963 | GPL-3.0 | 25 |
+| 05 | PCAPdroid | 5.079 | GPL-3.0 | 48 |
+| 06 | Auxio | 4.421 | GPL-3.0 | 47 |
+| 06 | AntennaPod | 8.263 | GPL-3.0 | 51 |
+| 06 | Readest | 25.940 | AGPL-3.0 | 80 |
+| 06 | KOReader | 30.860 | AGPL-3.0 | 53 |
+| 06 | Navidrome | 24.514 | GPL-3.0 | 51 |
+| 06 | Audiobookshelf | 14.907 | GPL-3.0 | 49 |
+| 07 | LocalSend | 97.284 | Apache-2.0 | 47 |
+| 07 | Syncthing (bifurcación) | 3.248 | MPL-2.0 | 61 |
+| 07 | Immich | 118.210 | AGPL-3.0 | 64 |
+| 07 | Nextcloud | 37.408 | AGPL-3.0 | 59 |
+| 07 | restic | 36.996 | BSD-2-Clause | 60 |
+| 07 | rclone | 60.793 | MIT | 73 |
+| 08 | wg-easy | 27.392 | AGPL-3.0 | 55 |
 | 08 | Mullvad VPN | 7.743 | GPL-3.0 | 69 |
-| 08 | Hiddify | 33.618 | GPL-3.0 | 50 |
-| 08 | sing-box | 39.595 | GPL-3.0 | 49 |
-| 08 | Headscale | 45.337 | BSD-3-Clause | 64 |
-| 08 | NetBird | 30.630 | BSD-3-Clause | 53 |
+| 08 | Hiddify | 33.634 | GPL-3.0 | 50 |
+| 08 | sing-box | 39.625 | GPL-3.0 | 49 |
+| 08 | Headscale | 45.361 | BSD-3-Clause | 64 |
+| 08 | NetBird | 30.657 | BSD-3-Clause | 53 |
 | 09 | TVSlim | 35 | Apache-2.0 | 55 |
-| 09 | SmartTube | 35.890 | MIT | 63 |
-| 09 | Kodi | 21.431 | GPL-2.0-or-later | 29 |
-| 09 | Jellyfin | 58.976 | GPL-2.0 | 54 |
-| 09 | Home Assistant | 91.939 | Apache-2.0 | 55 |
-| 09 | ESPHome | 12.006 | MIT y GPL-3.0 | 39 |
-| 10 | scrcpy | 153.936 | Apache-2.0 | 67 |
-| 10 | Termux | 64.037 | GPL-3.0 | 43 |
-| 10 | ConnectBot | 3.580 | Apache-2.0 | 62 |
-| 10 | Material Files | 9.384 | GPL-3.0 | 44 |
-| 10 | jadx | 51.554 | Apache-2.0 | 58 |
-| 10 | Apktool | 26.977 | Apache-2.0 | 57 |
+| 09 | SmartTube | 35.910 | MIT | 63 |
+| 09 | Kodi | 21.435 | GPL-2.0-or-later | 29 |
+| 09 | Jellyfin | 58.992 | GPL-2.0 | 54 |
+| 09 | Home Assistant | 91.955 | Apache-2.0 | 55 |
+| 09 | ESPHome | 12.012 | MIT y GPL-3.0 | 39 |
+| 10 | scrcpy | 154.003 | Apache-2.0 | 67 |
+| 10 | Termux | 64.076 | GPL-3.0 | 43 |
+| 10 | ConnectBot | 3.581 | Apache-2.0 | 62 |
+| 10 | Material Files | 9.389 | GPL-3.0 | 44 |
+| 10 | jadx | 51.586 | Apache-2.0 | 58 |
+| 10 | Apktool | 26.992 | Apache-2.0 | 57 |
 | 11 | LogFox | 1.380 | GPL-3.0 | 47 |
 | 11 | disky | 971 | GPL-3.0 | 42 |
-| 11 | Permission Manager X | 814 | AGPL-3.0 | 28 |
-| 11 | WiFi Analyzer | 5.065 | GPL-3.0 | 50 |
-| 11 | Battery Monitor | 108 | GPL-3.0-or-later | 46 |
+| 11 | Permission Manager X | 812 | AGPL-3.0 | 28 |
+| 11 | WiFi Analyzer | 5.067 | GPL-3.0 | 50 |
+| 11 | Battery Monitor | 108 | GPL-3.0-or-later | 36 |
 | 11 | QADB | 176 | MIT | 33 |
 | 12 | OSS Review Toolkit | 2.117 | Apache-2.0 | 73 |
-| 12 | Scorecard | 5.809 | Apache-2.0 | 67 |
-| 12 | cosign | 6.405 | Apache-2.0 | 71 |
-| 12 | GitHub CLI | 46.857 | MIT | 63 |
-| 12 | APKiD | 2.611 | GPL-3.0-only | 31 |
-| 12 | testssl.sh | 9.261 | GPL-2.0 | 45 |
+| 12 | Scorecard | 5.813 | Apache-2.0 | 67 |
+| 12 | cosign | 6.408 | Apache-2.0 | 71 |
+| 12 | GitHub CLI | 46.871 | MIT | 63 |
+| 12 | APKiD | 2.612 | GPL-3.0-only | 31 |
+| 12 | testssl.sh | 9.262 | GPL-2.0 | 48 |
 
-Los números del corte, sin adornos: setenta fichas, doce capítulos, veintinueve de nivel experto, veintidós de principiante y veinte de intermedio —las dos últimas suman cuarenta y dos, y la fila de veintidós incluye la que se repite a propósito en la banda de descubrimiento—, mil trescientas noventa y cinco mil quinientas ochenta y tres estrellas, trece millones setecientas cuarenta y un mil treinta y nueve descargas acumuladas en las diez últimas entregas, catorce mil novecientos quince coma un megabytes de repositorios medidos y una mediana de nota de cincuenta y tres coma cinco. Once fichas declaran cero descargas, y está bien: son programas de servidor que no se bajan como paquete, y rellenar ese hueco con una estimación habría hecho la tabla más bonita y menos verdadera.
+Los números del corte, sin adornos: setenta fichas, doce capítulos, veintinueve de nivel experto, veintidós de principiante y veinte de intermedio —las dos últimas suman cuarenta y dos, y la fila de veintidós incluye la que se repite a propósito en la banda de descubrimiento—, un millón trescientas noventa y seis mil trescientas noventa y cinco estrellas, ciento treinta y ocho millones ochenta y un mil quinientas veinte descargas acumuladas en las diez últimas entregas, quince mil ciento ochenta y dos coma un megabytes de repositorios medidos y una mediana de nota de cincuenta y tres coma cinco. Once fichas declaran cero descargas, y está bien: son programas de servidor que no se bajan como paquete, y rellenar ese hueco con una estimación habría hecho la tabla más bonita y menos verdadera.
 
 Y el dato que más dice de la guía: **seis de las setenta no publican nada desde hace más de un año**, y las seis están con ficha, con la fecha al lado y con la advertencia en la primera línea. AdAway, AppVerifier, DataBackup, F-Droid, Shizuku y Termux. Son proyectos que siguen funcionando y que nadie está empujando; nombrarlos así es el servicio, y esconderlo sería el engaño.
 
@@ -348,7 +348,7 @@ Lo que quedó publicado hoy no es una lista más larga de aplicaciones. Es el in
 
 Doce capítulos, setenta fichas, treinta y ocho enlaces al repositorio de quien hizo cada cosa, una nota con pesos publicados, un sello que encadena, y un capítulo final dedicado a enseñar a comprobar todo lo anterior sin pasar por acá. Si dentro de un año la guía está vieja, es porque el ecosistema siguió vivo. Ese es el objetivo.
 
-*Medición del corte:* 3 de noviembre de 2026, entre las 20:10 y las 22:35 de Santo Domingo · setenta fichas · doce capítulos · mil trescientas noventa y cinco mil quinientas ochenta y tres estrellas · trece millones setecientas cuarenta y un mil treinta y nueve descargas en las diez últimas entregas · catorce mil novecientos quince coma un megabytes de repositorios · mediana de nota cincuenta y tres coma cinco · cero paquetes alojados · cero enlaces a espejos.
+*Medición del corte:* 3 de noviembre de 2026, entre las 20:10 y las 22:35 de Santo Domingo · setenta fichas · doce capítulos · un millón trescientas noventa y seis mil trescientas noventa y cinco estrellas · ciento treinta y ocho millones ochenta y un mil quinientas veinte descargas en las diez últimas entregas · quince mil ciento ochenta y dos coma un megabytes de repositorios · mediana de nota cincuenta y tres coma cinco · cero paquetes alojados · cero enlaces a espejos.
 
 > —¿Y si el que mantiene mi programa se cansa mañana?
 > —Cambias de programa en una tarde, porque la licencia es abierta y los datos son tuyos. Lo que no se recupera es el año que pasaste creyendo que una fila de tabla era una guía.
@@ -360,7 +360,7 @@ Doce capítulos, setenta fichas, treinta y ocho enlaces al repositorio de quien 
 ## 🔗 Enlaces
 
 - Los dos repositorios de referencia, el de root: https://github.com/krishna3163/best-root-apps-for-android
-- El de Shizuku, el segundo modelo: https://github.com/krishna3163/best_shizuku_apps_for_android
+- El de Shizuku, el segundo modelo: https://github.com/krishna3163/best_shizuku_apps_for_android_no_root
 - El archivo de la casa, donde vive la guía: https://github.com/Alex17273747576777/la-bandita-archivo
 - La guía maestra completa, capítulo por capítulo: https://github.com/Alex17273747576777/la-bandita-archivo/tree/main/guia-maestra
 - La lista de créditos de los setenta autores: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/guia-maestra/CREDITOS.md
@@ -371,7 +371,7 @@ Doce capítulos, setenta fichas, treinta y ocho enlaces al repositorio de quien 
 - Obtainium, actualizar desde el repositorio del autor: https://github.com/ImranR98/Obtainium
 - jadx, leer un binario: https://github.com/skylot/jadx
 - Shizuku, el tronco quieto: https://github.com/RikkaApps/Shizuku
-- OmniShizuku, diecisiete estrellas y sesenta y siete: https://github.com/krishna3163/OmniShizuku
+- OmniShizuku, dieciocho estrellas y sesenta y siete: https://github.com/krishna3163/OmniShizuku
 - Shizuku-Next, el heredero de las ciento setenta y nueve mil descargas: https://github.com/rushiranpise/Shizuku-Next
 - Shevery, el heredero con equipo propio: https://github.com/HmnDev-Tech/shevery
 - scrcpy, el más popular de los setenta: https://github.com/Genymobile/scrcpy

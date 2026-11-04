@@ -2,8 +2,16 @@
  "id": "omnishizuku",
  "nombre": "OmniShizuku",
  "repo": "krishna3163/OmniShizuku",
- "autores": [{"nombre": "krishna3163", "enlace": "https://github.com/krishna3163"}],
- "licencia": {"spdx": "Apache-2.0", "archivo": "https://github.com/krishna3163/OmniShizuku/blob/main/LICENSE"},
+ "autores": [
+  {
+   "nombre": "krishna3163",
+   "enlace": "https://github.com/krishna3163"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/krishna3163/OmniShizuku/blob/main/LICENSE"
+ },
  "nivel": "experto",
  "tarea": "Probar temprano el derivado que más está trabajando por día, con los ojos abiertos y la fecha en la mano.",
  "capitulo": 3,
@@ -43,9 +51,22 @@
   "Instalar en el aparato principal un proyecto de diez días es asumir un riesgo que nadie ha medido.",
   "El nombre se repite con otro proyecto del mismo nombre y dueño distinto: confundirlos es el error más fácil al copiar una lista."
  ],
- "alternativas": ["RikkaApps/Shizuku", "HmnDev-Tech/shevery"],
- "senal": {"estrellas": 17, "nota": 67, "edad_dias": 10, "ultima_entrega": "2026-11-02", "descargas_10": 393, "contribuyentes": 5, "repo_mb": 8.0, "ci": 5, "incidencias": "1/1"},
- "medido_en": "2026-11-03",
+ "alternativas": [
+  "RikkaApps/Shizuku",
+  "HmnDev-Tech/shevery"
+ ],
+ "senal": {
+  "estrellas": 18,
+  "nota": 67,
+  "edad_dias": 11,
+  "ultima_entrega": "2026-11-02",
+  "descargas_10": 443,
+  "contribuyentes": 5,
+  "repo_mb": 8.0,
+  "ci": 5,
+  "incidencias": "0 abiertas"
+ },
+ "medido_en": "2026-11-04",
  "swhid": null,
  "credito": "Programa de krishna3163 · Apache-2.0 · medido el 3 de noviembre de 2026"
 }

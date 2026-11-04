@@ -634,8 +634,11 @@ Doce capítulos, setenta fichas, treinta y ocho enlaces al repositorio de quien 
 
 (3-nov) La cuenta de niveles da veintinueve de experto, veintidós de principiante y veinte de intermedio. La suma de los tres no cierra en setenta porque uno de los empates de la banda de descubrimiento se cuenta dos veces a propósito, y se declara en vez de redondearlo a la fuerza.
 
-(3-nov) La obra se publica con una licencia que obliga a atribuir y a compartir igual, y sus datos con la licencia libre de datos. Ningún programa recomendado sale de acá: el enlace va siempre al repositorio de su autor, y cuando ese autor publica sumas de comprobación la ficha enseña a usarlas en vez de pedir confianza.
+(3-nov) La obra se publica con licencia que obliga a atribuir y compartir igual, y sus datos con licencia libre de datos. Ningún programa sale de acá: el enlace va al repositorio de su autor.
 
 #task 007 · remedir el 3 de diciembre de 2026 las nueve fichas de menos de quinientas estrellas, empezando por OmniShizuku y TVSlim, y publicar cuáles siguieron publicando.
 #task 008 · pedir al archivo público la conservación de las doce revisiones de los capítulos y anotar el número de solicitud en cada acta.
 #task 009 · abrir en sus repositorios los cuatro casos de nota por debajo de treinta, proponiendo la corrección del archivo de licencia o del canal de seguridad, que es lo que la nota señala.
+
+🏷️ Etiquetas estratégicas
+#GuiaMaestra #SetentaFichas #Termux #Kodi #TVSlim #Canta #TrackerControl #NetGuard #Readest #Seedvault

@@ -46,8 +46,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "11f27c671cba278d71296cdef4c5a5dba06add5e",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "archivada",
+  "swh_solicitud": "11f27c671cba278d71296cdef4c5a5dba06add5e",
   "swhid": "swh:1:rev:11f27c671cba278d71296cdef4c5a5dba06add5e"
  },
  "repo": "0x192/universal-android-debloater"

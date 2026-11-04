@@ -44,8 +44,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "f3e109c98e2df0fdbf3a4b1e6c9aed8a82bb3536",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
   "swhid": "swh:1:rev:f3e109c98e2df0fdbf3a4b1e6c9aed8a82bb3536"
  },
  "repo": "Bingblop/ADB-Root-Toolbox"

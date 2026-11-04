@@ -389,6 +389,9 @@ Y queda la frase que sirve para cualquier año y cualquier teléfono: la caja fu
 
 (2-nov) La discrepancia de licencia del cliente más popular —GPL-3.0 en la ficha, MIT en el README— se transcribe con las dos versiones y sin elegir. En la tabla lleva la marca † y la nota al pie que la acompaña.
 
-(2-nov) Las respuestas del «¿Adivina la casa?» van escritas al revés, como en las dos piezas anteriores de la serie, para que quien quiera jugar pueda hacerlo sin tropezarse con la solución en la misma línea.
+(2-nov) Las respuestas del «¿Adivina la casa?» van al revés, como en las dos piezas anteriores, para que quien quiera jugar no se tropiece con la solución en la misma línea.
 
-(2-nov) Las fechas de empujón son las que devolvió la ficha del repositorio a la hora del corte y no las de la última publicación. En estas diez coinciden casi siempre, salvo en tres casos donde la diferencia es de días y en uno donde es de años: por eso las dos columnas van separadas en la tabla.
+(2-nov) Las fechas de empujón son las de la ficha del repositorio al corte, no las de publicación: coinciden salvo en tres casos de días y uno de años, y por eso van en columnas separadas.
+
+🏷️ Etiquetas estratégicas
+#Aegis #Stratum #KeePassDX #Bitwarden #Vaultwarden #FreeOTP #EnteAuth #KDBX #SegundoFactor #CeroPaquetesAlojados

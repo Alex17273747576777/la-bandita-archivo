@@ -46,17 +46,40 @@ CENTENAS = {1: "ciento", 2: "doscientos", 3: "trescientos", 4: "cuatrocientos", 
             6: "seiscientos", 7: "setecientos", 8: "ochocientos", 9: "novecientos"}
 
 
+def _apocope(dicho: str) -> str:
+    """«veintiuno mil» no existe: delante de mil y millones se dice veintiún y un."""
+    if dicho.endswith("veintiuno"):
+        return dicho[:-9] + "veintiún"
+    if dicho.endswith(" y uno"):
+        return dicho[:-3] + "un"
+    if dicho == "uno":
+        return "un"
+    return dicho
+
+
 def en_palabras(n: int, femenino: bool = False) -> str:
-    """Escribe un entero en español, hasta el millar, como se usa en la serie.
+    """Escribe un entero en español, hasta los millones, como se usa en la serie.
 
     El género importa: son «seiscientas catorce estrellas», no «seiscientos catorce».
+    Y el millón también: «un millón trescientas noventa y seis mil trescientas
+    noventa y cinco», nunca «uno millones». Antes cortaba en mil y devolvía el
+    número en cifras a partir de ahí, que es justo donde fallan las guías largas.
     """
     if n == 0:
         return "cero"
+    if n < 0:
+        return str(n)
+    if n >= 1_000_000:
+        millones, resto = divmod(n, 1_000_000)
+        # delante de «mil» y «millones» el uno se apocopa: veintiún mil, treinta y un millones
+        cabeza = "un millón" if millones == 1 else f"{_apocope(en_palabras(millones))} millones"
+        return cabeza + (f" {en_palabras(resto, femenino)}" if resto else "")
+    if n >= 1000:
+        miles_, resto = divmod(n, 1000)
+        cabeza = "mil" if miles_ == 1 else f"{_apocope(en_palabras(miles_))} mil"
+        return cabeza + (f" {en_palabras(resto, femenino)}" if resto else "")
     if n == 100:
         return "cien"
-    if n < 0 or n >= 1000:
-        return str(n)
     partes = []
     c, resto = divmod(n, 100)
     if c:
@@ -171,11 +194,17 @@ def comparar(pieza: Path, medicion: Path) -> int:
     faltan = [r for r in citados if r not in datos]
     if faltan:
         fallos.append(f"{len(faltan)} repositorios citados sin medir: " + ", ".join(faltan[:4]))
-    corte_enlaces = re.search(r"🔗\s*Enlaces", texto)
+    # el mapa del principio también lleva el icono: el corte tiene que ser la sección de
+    # verdad, con su encabezado (negrita o almohadilla), nunca la línea del mapa
+    corte_enlaces = re.search(r"\n(?:\*|#{1,3} )🔗[^\n]{0,24}?[Ee]nlaces", texto)
     cuerpo = texto[:corte_enlaces.start()] if corte_enlaces else texto
+    # hay piezas que no llevan la estrella pegada al número porque el número vive en una
+    # tabla con su columna ★. La cifra cuenta igual si aparece como celda (error E25).
+    celdas = {c.strip().lstrip("★") for ln in texto.splitlines() if ln.startswith("|")
+              for c in ln.split("|")}
     for r, d in sorted(datos.items()):
         marca = "★" + miles(d["stars"])
-        if marca in texto:
+        if marca in texto or miles(d["stars"]) in celdas:
             continue
         # una cifra solo se exige a los programas que la pieza presenta; un catálogo citado como
         # enlace de apoyo no tiene por qué llevar sus estrellas (decisión de la casa, 4-nov)

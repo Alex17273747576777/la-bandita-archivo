@@ -44,8 +44,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "5bd00f84f6ebd16856e4747b43698269fb7445c8",
-  "swh_estado": "solicitud 200",
-  "swh_solicitud": "accepted",
+  "swh_estado": "archivada",
+  "swh_solicitud": "5bd00f84f6ebd16856e4747b43698269fb7445c8",
   "swhid": "swh:1:rev:5bd00f84f6ebd16856e4747b43698269fb7445c8"
  },
  "repo": "pass-with-high-score/universal-installer",

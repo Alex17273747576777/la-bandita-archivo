@@ -44,8 +44,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "f63ca057e7283e93af33c094af253ec0ce766d50",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
   "swhid": "swh:1:rev:f63ca057e7283e93af33c094af253ec0ce766d50"
  },
  "repo": "Foxlape/GhostMode"

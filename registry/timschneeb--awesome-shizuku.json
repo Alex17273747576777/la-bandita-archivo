@@ -45,8 +45,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "597b70e4aa01bd6a89ab2e2b77b30716a3ceb0a4",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "archivada",
+  "swh_solicitud": "597b70e4aa01bd6a89ab2e2b77b30716a3ceb0a4",
   "swhid": "swh:1:rev:597b70e4aa01bd6a89ab2e2b77b30716a3ceb0a4"
  },
  "repo": "timschneeb/awesome-shizuku"

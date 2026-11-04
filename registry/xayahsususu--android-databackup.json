@@ -44,8 +44,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "0c413bd3068ea036753704652ce8baad889f82e2",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "archivada",
+  "swh_solicitud": "0c413bd3068ea036753704652ce8baad889f82e2",
   "swhid": "swh:1:rev:0c413bd3068ea036753704652ce8baad889f82e2"
  },
  "repo": "XayahSuSuSu/Android-DataBackup",

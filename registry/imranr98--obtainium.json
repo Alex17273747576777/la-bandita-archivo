@@ -48,8 +48,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "35c3e7fea4f341a716eca4bb3fc625319ce965ab",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "archivada",
+  "swh_solicitud": "35c3e7fea4f341a716eca4bb3fc625319ce965ab",
   "swhid": "swh:1:rev:35c3e7fea4f341a716eca4bb3fc625319ce965ab"
  },
  "repo": "ImranR98/Obtainium",

@@ -44,8 +44,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "340de091f85a619e506b533bf9557d711fc4c3bf",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
   "swhid": "swh:1:rev:340de091f85a619e506b533bf9557d711fc4c3bf"
  },
  "repo": "AlphadogRSA/spotifyplus-tv-patch"

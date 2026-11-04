@@ -46,8 +46,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "a60891aea193d92e7e5c3942700eca63f9d19a5f",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "archivada",
+  "swh_solicitud": "a60891aea193d92e7e5c3942700eca63f9d19a5f",
   "swhid": "swh:1:rev:a60891aea193d92e7e5c3942700eca63f9d19a5f"
  },
  "repo": "Genymobile/scrcpy"

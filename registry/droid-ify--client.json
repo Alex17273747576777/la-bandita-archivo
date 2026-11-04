@@ -47,8 +47,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "ff1453ed957f3b2382abce9a7eb9a9db8def3a3a",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
   "swhid": "swh:1:rev:ff1453ed957f3b2382abce9a7eb9a9db8def3a3a"
  },
  "repo": "Droid-ify/client",

@@ -44,8 +44,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "0bb704a9a4edb5324f6e607f3fc5a531713c607c",
-  "swh_estado": "sin archivo (HTTP 429)",
-  "swh_solicitud": null,
+  "swh_estado": "archivada",
+  "swh_solicitud": "0bb704a9a4edb5324f6e607f3fc5a531713c607c",
   "swhid": "swh:1:rev:0bb704a9a4edb5324f6e607f3fc5a531713c607c"
  },
  "repo": "MorpheApp/morphe-patches",

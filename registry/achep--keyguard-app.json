@@ -45,8 +45,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "ebb23ce047cb7e897a561bd46456f860887917d8",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
   "swhid": "swh:1:rev:ebb23ce047cb7e897a561bd46456f860887917d8"
  },
  "repo": "AChep/keyguard-app",

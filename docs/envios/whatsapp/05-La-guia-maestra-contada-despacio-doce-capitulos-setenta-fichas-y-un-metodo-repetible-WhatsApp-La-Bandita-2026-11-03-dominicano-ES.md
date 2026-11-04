@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/05-La-guia-maestra-contada-despacio-doce-capitulos-setenta-fichas-y-un-metodo-repetible-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md`
 - **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 1 días)
-- **sha256 de la pieza:** `8845438bd6683205ceee72419dca8564f726ea26ea54fdd917bc14d42bd9234b`
+- **sha256 de la pieza:** `6d12c4f585330e0f5c245dc994281ea4d056a536b104eb01fc41b04619bc18bd`
 - **Envío generado:** 2026-11-04 · 28 mensajes · el mayor de 3883 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -696,7 +696,7 @@ Doce capítulos, setenta fichas, treinta y ocho enlaces al repositorio de quien 
 
 ⏬ sigue abajo · parte 22 de 27
 
-═══ MENSAJE 24 de 28 · 2275 caracteres ═══
+═══ MENSAJE 24 de 28 · 2144 caracteres ═══
 
 - El servicio que dice desde dónde te ve el mundo, usado en el capítulo ocho: https://1.1.1.1/cdn-cgi/trace
 
@@ -710,7 +710,7 @@ Doce capítulos, setenta fichas, treinta y ocho enlaces al repositorio de quien 
 
 (3-nov) La cuenta de niveles da veintinueve de experto, veintidós de principiante y veinte de intermedio. La suma de los tres no cierra en setenta porque uno de los empates de la banda de descubrimiento se cuenta dos veces a propósito, y se declara en vez de redondearlo a la fuerza.
 
-(3-nov) La obra se publica con una licencia que obliga a atribuir y a compartir igual, y sus datos con la licencia libre de datos. Ningún programa recomendado sale de acá: el enlace va siempre al repositorio de su autor, y cuando ese autor publica sumas de comprobación la ficha enseña a usarlas en vez de pedir confianza.
+(3-nov) La obra se publica con licencia que obliga a atribuir y compartir igual, y sus datos con licencia libre de datos. Ningún programa sale de acá: el enlace va al repositorio de su autor.
 
 #task 007 · remedir el 3 de diciembre de 2026 las nueve fichas de menos de quinientas estrellas, empezando por OmniShizuku y TVSlim, y publicar cuáles siguieron publicando.
 #task 008 · pedir al archivo público la conservación de las doce revisiones de los capítulos y anotar el número de solicitud en cada acta.
@@ -727,29 +727,29 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 36 repositorios que cita esta pi
 • krishna3163/best-root-apps-for-android — ★52 · empujó en las últimas horas · MIT · última release sukisu-ultra-v4.3.0-r1 (3-nov-2026)
 • krishna3163/best_shizuku_apps_for_android — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 • Alex17273747576777/la-bandita-archivo — ★1 · empujó en las últimas horas · MIT
-• readest/readest — ★25.934 · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
+• readest/readest — ★25.940 · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
 • TrackerControl/tracker-control-android — ★2.720 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release 2026110101 (1-nov-2026)
 • samolego/Canta — ★6.461 · empujó el 31-oct-2026 (hace 4 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
 • aistra0528/Hail — ★7.098 · empujó el 27-oct-2026 (hace 8 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
 • Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.737 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.3.1 (2-nov-2026)
-• RikkaApps/Shizuku — ★32.772 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.775 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • krishna3163/OmniShizuku — ★18 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
-• rushiranpise/Shizuku-Next — ★1.433 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
+• rushiranpise/Shizuku-Next — ★1.436 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
 • HmnDev-Tech/shevery — ★1.598 · empujó en las últimas horas · Apache-2.0 · última release 14.6.2 (3-nov-2026)
-• ImranR98/Obtainium — ★21.197 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• ImranR98/Obtainium — ★21.198 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • AuroraOSS/AuroraStore — ★75 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0
-• Genymobile/scrcpy — ★154.001 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v5.0.1 (8-oct-2026)
-• termux/termux-app — ★64.073 · empujó el 26-sep-2026 (hace 39 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• Genymobile/scrcpy — ★154.007 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v5.0.1 (8-oct-2026)
+• termux/termux-app — ★64.076 · empujó el 26-sep-2026 (hace 39 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
 • termux/termux-packages — ★17.303 · empujó en las últimas horas · NOASSERTION · última release bootstrap-2026.11.01-r1+apt.android-7 (1-nov-2026)
 • skylot/jadx — ★51.586 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.5.6 (10-jul-2026)
 • iBotPeaches/Apktool — ★26.992 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v3.0.3 (20-jul-2026)
-• xbmc/xbmc — ★21.435 · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
-• yuliskov/SmartTube — ★35.908 · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• xbmc/xbmc — ★21.434 · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
+• yuliskov/SmartTube — ★35.911 · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • jolabs40/TVSlim — ★35 · empujó el 20-oct-2026 (hace 15 días) · Apache-2.0 · última release windows-v1.7.0 (20-oct-2026)
-• jellyfin/jellyfin — ★58.992 · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• immich-app/immich — ★118.206 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
-• localsend/localsend — ★97.279 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• rclone/rclone — ★60.793 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
+• jellyfin/jellyfin — ★58.993 · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• immich-app/immich — ★118.213 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.5 (21-oct-2026)
+• localsend/localsend — ★97.286 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• rclone/rclone — ★60.795 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
 • restic/restic — ★36.996 · empujó el 1-nov-2026 (hace 3 días) · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
 • mirfatif/PermissionManagerX — ★812 · empujó el 29-sep-2026 (hace 36 días) · AGPL-3.0 · última release v1.34-pro (29-sep-2026)
 • M66B/NetGuard — ★3.963 · *dormido*: sin empujar desde el 1-ago-2026 (95 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
@@ -762,7 +762,7 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 36 repositorios que cita esta pi
 
 • rednaga/APKiD — ★2.612 · empujó el 21-oct-2026 (hace 14 días) · NOASSERTION · última release v3.2.0 (21-oct-2026)
 • sigstore/cosign — ★6.408 · empujó en las últimas horas · Apache-2.0 · última release v3.1.4 (20-oct-2026)
-• ossf/scorecard — ★5.811 · empujó en las últimas horas · Apache-2.0 · última release v5.6.0 (12-oct-2026)
+• ossf/scorecard — ★5.813 · empujó en las últimas horas · Apache-2.0 · última release v5.6.0 (12-oct-2026)
 • oss-review-toolkit/ort — ★2.117 · empujó en las últimas horas · Apache-2.0 · última release 97.3.0 (29-oct-2026)
 • cli/cli — ★46.871 · empujó en las últimas horas · MIT · última release v2.103.3 (26-oct-2026)
 
@@ -778,6 +778,10 @@ De los 41 enlaces de esta pieza, *40 responden*.
 
 ⏬ sigue abajo · parte 26 de 27
 
-═══ MENSAJE 28 de 28 · 152 caracteres ═══
+═══ MENSAJE 28 de 28 · 285 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.
+
+*🏷️ Etiquetas estratégicas*
+
+#GuiaMaestra #SetentaFichas #Termux #Kodi #TVSlim #Canta #TrackerControl #NetGuard #Readest #Seedvault

@@ -44,8 +44,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "010a54527d46cf51e8a1f8d7bf82d1db1f0273f2",
-  "swh_estado": "solicitud 200",
-  "swh_solicitud": "accepted",
+  "swh_estado": "archivada",
+  "swh_solicitud": "010a54527d46cf51e8a1f8d7bf82d1db1f0273f2",
   "swhid": "swh:1:rev:010a54527d46cf51e8a1f8d7bf82d1db1f0273f2"
  },
  "repo": "HmnDev-Tech/shevery",

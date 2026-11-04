@@ -44,8 +44,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "2a0dde06c7c6a76cbbf2a10858dd5d2440ed8060",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
   "swhid": "swh:1:rev:2a0dde06c7c6a76cbbf2a10858dd5d2440ed8060"
  },
  "repo": "Dreamucxe/GameCore"

@@ -2,7 +2,7 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-codigo-que-caduca-cada-treinta-segundos-y-el-sobre-que-nadie-prepara-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`
 - **Fecha de la pieza:** 2-nov-2026 (según dateline; edad hoy: 2 días)
-- **sha256 de la pieza:** `64a9c2083cccdfdeec601311453eab4ffd52f18667a6e4052b280f82a54760b0`
+- **sha256 de la pieza:** `52395748bde5ee603ee0e9a888b94ad87a7003b7f228a7c09204a233245fded3`
 - **Envío generado:** 2026-11-04 · 29 mensajes · el mayor de 3687 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
@@ -480,7 +480,7 @@ Y queda la frase que sirve para cualquier año y cualquier teléfono: la caja fu
 
 ⏬ sigue abajo · parte 25 de 28
 
-═══ MENSAJE 27 de 29 · 1562 caracteres ═══
+═══ MENSAJE 27 de 29 · 1417 caracteres ═══
 
 ## 🗒️ Notas al pie
 
@@ -492,9 +492,9 @@ Y queda la frase que sirve para cualquier año y cualquier teléfono: la caja fu
 
 (2-nov) La discrepancia de licencia del cliente más popular —GPL-3.0 en la ficha, MIT en el README— se transcribe con las dos versiones y sin elegir. En la tabla lleva la marca † y la nota al pie que la acompaña.
 
-(2-nov) Las respuestas del «¿Adivina la casa?» van escritas al revés, como en las dos piezas anteriores de la serie, para que quien quiera jugar pueda hacerlo sin tropezarse con la solución en la misma línea.
+(2-nov) Las respuestas del «¿Adivina la casa?» van al revés, como en las dos piezas anteriores, para que quien quiera jugar no se tropiece con la solución en la misma línea.
 
-(2-nov) Las fechas de empujón son las que devolvió la ficha del repositorio a la hora del corte y no las de la última publicación. En estas diez coinciden casi siempre, salvo en tres casos donde la diferencia es de días y en uno donde es de años: por eso las dos columnas van separadas en la tabla.
+(2-nov) Las fechas de empujón son las de la ficha del repositorio al corte, no las de publicación: coinciden salvo en tres casos de días y uno de años, y por eso van en columnas separadas.
 
 ⏬ sigue abajo · parte 26 de 28
 
@@ -504,7 +504,7 @@ Y queda la frase que sirve para cualquier año y cualquier teléfono: la caja fu
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 10 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• dani-garcia/vaultwarden — ★70.217 · empujó el 2-nov-2026 (hace 2 días) · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
+• dani-garcia/vaultwarden — ★70.218 · empujó el 2-nov-2026 (hace 2 días) · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
 • ente-io/ente — sin dato hoy (la API no respondió). No afirmo nada.
 • beemdevelopment/Aegis — ★13.466 · *dormido*: sin empujar desde el 6-sep-2026 (59 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
 • bitwarden/android — ★9.585 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
@@ -522,6 +522,10 @@ Ninguno roto.
 
 ⏬ sigue abajo · parte 27 de 28
 
-═══ MENSAJE 29 de 29 · 152 caracteres ═══
+═══ MENSAJE 29 de 29 · 295 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.
+
+*🏷️ Etiquetas estratégicas*
+
+#Aegis #Stratum #KeePassDX #Bitwarden #Vaultwarden #FreeOTP #EnteAuth #KDBX #SegundoFactor #CeroPaquetesAlojados

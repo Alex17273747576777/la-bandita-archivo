@@ -409,8 +409,11 @@ El ecosistema, medido hoy, dice tres cosas a la vez y las tres son ciertas: el o
 
 (3-nov) Las descargas de los herederos —5.230— se comparan contra las 3.515.333 del original y dan el 0,15 por ciento. La comparación mezcla periodos distintos de vida de cada proyecto y por eso se usa solo como orden de magnitud, no como cuota de mercado.
 
-(3-nov) El identificador de revisión se calcula del propio repositorio y no se pide a nadie: lo que se pregunta al archivo público es si lo tiene. Dos de los seis ya estaban archivados y cuatro quedaron con solicitud aceptada hoy, con su número de solicitud guardado en la ficha.
+(3-nov) El identificador de revisión se calcula del propio repositorio: lo que se pregunta al archivo público es si lo tiene. Dos de los seis ya estaban archivados y cuatro quedaron con solicitud aceptada hoy, con su número de solicitud guardado en la ficha.
 
-(3-nov) Los paquetes de depuración de dos de los herederos suman 33,9 y 55,5 megabytes. Se citan porque explican por qué un paquete pesa cinco veces más que otro, y se advierte que no hacen falta para usar el programa.
+(3-nov) Los paquetes de depuración de dos de los herederos suman 33,9 y 55,5 megabytes. Se citan porque explican por qué un paquete pesa cinco veces más que otro, y no hacen falta para usar el programa.
 
-(3-nov) El registro de la casa se volvió a medir completo: seis mil ochocientas treinta fichas, todas con fecha de hoy, cuatro mil trescientas treinta y cinco con algún dato cambiado y trescientas once que resultaron ser repositorios inexistentes. Esas trescientas once quedan marcadas como tales y no se cuentan como proyectos vivos en ninguna cuenta de esta guía.
+(3-nov) El registro se midió completo: seis mil ochocientas treinta fichas con fecha de hoy, cuatro mil trescientas treinta y cinco con algún dato cambiado y trescientas once que resultaron inexistentes. Esas quedan marcadas y no cuentan como vivos.
+
+🏷️ Etiquetas estratégicas
+#Shizuku #ShizukuNext #ShizukuPlus #OmniShizuku #Nightzuku #HerenciaApache #CongelarAplicaciones #SolicitudDeArchivo

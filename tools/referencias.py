@@ -60,6 +60,10 @@ MOVED = (
 # ruta vieja**: el mapa que la traduce, el acta que la cuenta y este mismo programa.
 # Eximir sin razón es la forma más rápida de que una compuerta deje de servir.
 EXENTOS = {
+    #  las actas del día citan el nombre con el que la pieza se publicó: si se
+    #  reescribe el acta, deja de servir como prueba (decisión del dueño, 4-nov)
+    "docs/ACTA-PIEZA-03-REHECHA-2026-11-03.md": "acta: cita el nombre publicado",
+    "docs/ACTA-PIEZA-06-2026-11-03.md": "acta: cita el nombre publicado",
     "tools/referencias.py": "la tabla de mudanzas vive aquí",
     "tools/autoprueba.py": "fabrica la violación a propósito, para comprobar que G17 la detecta",
     "MAPA-DEL-ARCHIVO.md": "es el traductor de rutas: cita la vieja a propósito",

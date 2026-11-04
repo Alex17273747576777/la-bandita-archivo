@@ -44,8 +44,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "451f949d4db2dc00749a73cc9e95fd77e50ea4d4",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
   "swhid": "swh:1:rev:451f949d4db2dc00749a73cc9e95fd77e50ea4d4"
  },
  "repo": "AQUALaforet/AudioPolicyOverride"

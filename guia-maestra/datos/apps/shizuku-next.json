@@ -2,8 +2,16 @@
  "id": "shizuku-next",
  "nombre": "Shizuku-Next",
  "repo": "rushiranpise/Shizuku-Next",
- "autores": [{"nombre": "rushiranpise", "enlace": "https://github.com/rushiranpise"}],
- "licencia": {"spdx": "Apache-2.0", "archivo": "https://github.com/rushiranpise/Shizuku-Next/blob/main/LICENSE"},
+ "autores": [
+  {
+   "nombre": "rushiranpise",
+   "enlace": "https://github.com/rushiranpise"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/rushiranpise/Shizuku-Next/blob/main/LICENSE"
+ },
  "nivel": "principiante",
  "tarea": "Instalar el permiso con menos pasos y actualizaciones cada dos o tres días.",
  "capitulo": 3,
@@ -43,9 +51,22 @@
   "Instalar un paquete de un espejo y no del repositorio anula toda la ventaja del proyecto.",
   "La entrega continua implica releer la nota de la versión si algo cambia de comportamiento."
  ],
- "alternativas": ["RikkaApps/Shizuku", "HmnDev-Tech/shevery"],
- "senal": {"estrellas": 1403, "nota": 70, "edad_dias": 38, "ultima_entrega": "2026-11-03", "descargas_10": 179129, "contribuyentes": 100, "repo_mb": 65.7, "ci": 8, "incidencias": "100/105"},
- "medido_en": "2026-11-03",
+ "alternativas": [
+  "RikkaApps/Shizuku",
+  "HmnDev-Tech/shevery"
+ ],
+ "senal": {
+  "estrellas": 1436,
+  "nota": 70,
+  "edad_dias": 39,
+  "ultima_entrega": "2026-11-03",
+  "descargas_10": 188333,
+  "contribuyentes": 100,
+  "repo_mb": 65.7,
+  "ci": 5,
+  "incidencias": "5 abiertas"
+ },
+ "medido_en": "2026-11-04",
  "swhid": null,
  "credito": "Programa de rushiranpise · Apache-2.0 · medido el 3 de noviembre de 2026"
 }

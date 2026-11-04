@@ -49,8 +49,8 @@
  "procedencia": {
   "atestacion": null,
   "commit": "8629e632fcb95da272221be327db653fb24befe9",
-  "swh_estado": null,
-  "swh_solicitud": null,
+  "swh_estado": "archivada",
+  "swh_solicitud": "8629e632fcb95da272221be327db653fb24befe9",
   "swhid": "swh:1:rev:8629e632fcb95da272221be327db653fb24befe9"
  },
  "repo": "termux/termux-app",

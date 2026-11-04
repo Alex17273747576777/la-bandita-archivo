@@ -1,0 +1,1197 @@
+{
+ "medido_en": "2026-11-04",
+ "medido_a_las": "13:50",
+ "fuente": "API de GitHub con LBT + tools/escrutinio.py",
+ "apps": {
+  "accrescent": {
+   "repo": "accrescent/accrescent",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 2306,
+    "nota": 53,
+    "edad_dias": 1785,
+    "ultima_entrega": "2025-11-10",
+    "descargas_10": 57012,
+    "contribuyentes": 100,
+    "repo_mb": 3.9,
+    "ci": 2,
+    "incidencias": "41 abiertas"
+   },
+   "licencia": "Apache-2.0",
+   "push": "2026-11-04"
+  },
+  "adaway": {
+   "repo": "AdAway/AdAway",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 9593,
+    "nota": 42,
+    "edad_dias": 5225,
+    "ultima_entrega": "2024-10-27",
+    "descargas_10": 1646434,
+    "contribuyentes": 50,
+    "repo_mb": 40.2,
+    "ci": 5,
+    "incidencias": "662 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-09-13"
+  },
+  "antennapod": {
+   "repo": "AntennaPod/AntennaPod",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 8263,
+    "nota": 51,
+    "edad_dias": 5209,
+    "ultima_entrega": "2026-10-13",
+    "descargas_10": 0,
+    "contribuyentes": 100,
+    "repo_mb": 114.9,
+    "ci": 5,
+    "incidencias": "357 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-11-02"
+  },
+  "apkid": {
+   "repo": "rednaga/APKiD",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 2612,
+    "nota": 31,
+    "edad_dias": 3786,
+    "ultima_entrega": "2026-10-21",
+    "descargas_10": 993,
+    "contribuyentes": 33,
+    "repo_mb": 10.1,
+    "ci": 0,
+    "incidencias": "82 abiertas"
+   },
+   "licencia": "NOASSERTION",
+   "push": "2026-10-21"
+  },
+  "apktool": {
+   "repo": "iBotPeaches/Apktool",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 26992,
+    "nota": 57,
+    "edad_dias": 5343,
+    "ultima_entrega": "2026-07-20",
+    "descargas_10": 2624069,
+    "contribuyentes": 100,
+    "repo_mb": 353.1,
+    "ci": 3,
+    "incidencias": "72 abiertas"
+   },
+   "licencia": "Apache-2.0",
+   "push": "2026-11-02"
+  },
+  "applist-backup": {
+   "repo": "AndroidLabs-org/AppListBackup",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 196,
+    "nota": 47,
+    "edad_dias": 853,
+    "ultima_entrega": "2026-10-09",
+    "descargas_10": 4070,
+    "contribuyentes": 1,
+    "repo_mb": 5.3,
+    "ci": 1,
+    "incidencias": "7 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-10-09"
+  },
+  "appmanager-ng": {
+   "repo": "SysAdminDoc/AppManagerNG",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 170,
+    "nota": 33,
+    "edad_dias": 188,
+    "ultima_entrega": "2026-09-05",
+    "descargas_10": 11354,
+    "contribuyentes": 3,
+    "repo_mb": 98.8,
+    "ci": 0,
+    "incidencias": "14 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-09-30"
+  },
+  "appverifier": {
+   "repo": "soupslurpr/AppVerifier",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 1223,
+    "nota": 32,
+    "edad_dias": 1043,
+    "ultima_entrega": "2025-04-23",
+    "descargas_10": 74379,
+    "contribuyentes": 11,
+    "repo_mb": 0.4,
+    "ci": 0,
+    "incidencias": "33 abiertas"
+   },
+   "licencia": "ISC",
+   "push": "2026-09-18"
+  },
+  "ashell-you": {
+   "repo": "DP-Hridayan/aShellYou",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 2549,
+    "nota": 58,
+    "edad_dias": 1016,
+    "ultima_entrega": "2026-05-22",
+    "descargas_10": 211023,
+    "contribuyentes": 13,
+    "repo_mb": 73.5,
+    "ci": 5,
+    "incidencias": "29 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-11-04"
+  },
+  "audiobookshelf": {
+   "repo": "advplyr/audiobookshelf",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 14907,
+    "nota": 49,
+    "edad_dias": 1905,
+    "ultima_entrega": "2026-10-23",
+    "descargas_10": 0,
+    "contribuyentes": 100,
+    "repo_mb": 42.6,
+    "ci": 5,
+    "incidencias": "1025 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-11-03"
+  },
+  "aurora-store": {
+   "repo": "AuroraOSS/AuroraStore",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 75,
+    "nota": 25,
+    "edad_dias": 297,
+    "ultima_entrega": "sin entregas en el espejo",
+    "descargas_10": 0,
+    "contribuyentes": 100,
+    "repo_mb": 42.5,
+    "ci": 0,
+    "incidencias": "3 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-11-01"
+  },
+  "auxio": {
+   "repo": "OxygenCobalt/Auxio",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 4421,
+    "nota": 47,
+    "edad_dias": 2270,
+    "ultima_entrega": "2026-08-04",
+    "descargas_10": 98389,
+    "contribuyentes": 42,
+    "repo_mb": 65.1,
+    "ci": 2,
+    "incidencias": "188 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-11-02"
+  },
+  "battery-monitor": {
+   "repo": "tswistak/Battery-Monitor",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 108,
+    "nota": 36,
+    "edad_dias": 187,
+    "ultima_entrega": "2026-10-04",
+    "descargas_10": 4737,
+    "contribuyentes": 8,
+    "repo_mb": 29.1,
+    "ci": 5,
+    "incidencias": "44 abiertas"
+   },
+   "licencia": "NOASSERTION",
+   "push": "2026-11-04"
+  },
+  "canta": {
+   "repo": "samolego/Canta",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 6461,
+    "nota": 71,
+    "edad_dias": 1163,
+    "ultima_entrega": "2026-10-29",
+    "descargas_10": 586479,
+    "contribuyentes": 18,
+    "repo_mb": 6.6,
+    "ci": 5,
+    "incidencias": "31 abiertas"
+   },
+   "licencia": "LGPL-3.0",
+   "push": "2026-10-31"
+  },
+  "connectbot": {
+   "repo": "connectbot/connectbot",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 3581,
+    "nota": 62,
+    "edad_dias": 6480,
+    "ultima_entrega": "2026-11-04",
+    "descargas_10": 1257,
+    "contribuyentes": 68,
+    "repo_mb": 23.9,
+    "ci": 5,
+    "incidencias": "247 abiertas"
+   },
+   "licencia": "Apache-2.0",
+   "push": "2026-11-04"
+  },
+  "cosign": {
+   "repo": "sigstore/cosign",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 6408,
+    "nota": 71,
+    "edad_dias": 2099,
+    "ultima_entrega": "2026-10-20",
+    "descargas_10": 26184737,
+    "contribuyentes": 100,
+    "repo_mb": 26.4,
+    "ci": 5,
+    "incidencias": "110 abiertas"
+   },
+   "licencia": "Apache-2.0",
+   "push": "2026-11-04"
+  },
+  "data-backup": {
+   "repo": "XayahSuSuSu/Android-DataBackup",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 7559,
+    "nota": 48,
+    "edad_dias": 1808,
+    "ultima_entrega": "2025-09-20",
+    "descargas_10": 234247,
+    "contribuyentes": 100,
+    "repo_mb": 288.0,
+    "ci": 4,
+    "incidencias": "190 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-10-25"
+  },
+  "dhizuku": {
+   "repo": "iamr0s/Dhizuku",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 4084,
+    "nota": 65,
+    "edad_dias": 1304,
+    "ultima_entrega": "2026-10-30",
+    "descargas_10": 153799,
+    "contribuyentes": 69,
+    "repo_mb": 3.0,
+    "ci": 2,
+    "incidencias": "3 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-11-03"
+  },
+  "disky": {
+   "repo": "newhinton/disky",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 971,
+    "nota": 42,
+    "edad_dias": 941,
+    "ultima_entrega": "2026-05-31",
+    "descargas_10": 29245,
+    "contribuyentes": 10,
+    "repo_mb": 0.8,
+    "ci": 2,
+    "incidencias": "10 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-05-31"
+  },
+  "esphome": {
+   "repo": "esphome/esphome",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 12012,
+    "nota": 39,
+    "edad_dias": 3134,
+    "ultima_entrega": "2026-11-04",
+    "descargas_10": 0,
+    "contribuyentes": 100,
+    "repo_mb": 125.7,
+    "ci": 5,
+    "incidencias": "249 abiertas"
+   },
+   "licencia": "NOASSERTION",
+   "push": "2026-11-04"
+  },
+  "f-droid": {
+   "repo": "f-droid/fdroidclient",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 3255,
+    "nota": 45,
+    "edad_dias": 4487,
+    "ultima_entrega": "2024-01-24",
+    "descargas_10": 73298,
+    "contribuyentes": 100,
+    "repo_mb": 62.1,
+    "ci": 0,
+    "incidencias": "0 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-11-02"
+  },
+  "gh-cli": {
+   "repo": "cli/cli",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 46871,
+    "nota": 63,
+    "edad_dias": 2589,
+    "ultima_entrega": "2026-10-26",
+    "descargas_10": 13575188,
+    "contribuyentes": 100,
+    "repo_mb": 81.0,
+    "ci": 5,
+    "incidencias": "1050 abiertas"
+   },
+   "licencia": "MIT",
+   "push": "2026-11-03"
+  },
+  "hail": {
+   "repo": "aistra0528/Hail",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 7098,
+    "nota": 47,
+    "edad_dias": 1910,
+    "ultima_entrega": "2026-08-26",
+    "descargas_10": 334423,
+    "contribuyentes": 87,
+    "repo_mb": 4.0,
+    "ci": 1,
+    "incidencias": "171 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-10-27"
+  },
+  "headscale": {
+   "repo": "juanfont/headscale",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 45361,
+    "nota": 64,
+    "edad_dias": 2327,
+    "ultima_entrega": "2026-10-30",
+    "descargas_10": 201091,
+    "contribuyentes": 100,
+    "repo_mb": 68.0,
+    "ci": 5,
+    "incidencias": "71 abiertas"
+   },
+   "licencia": "BSD-3-Clause",
+   "push": "2026-11-04"
+  },
+  "hiddify": {
+   "repo": "hiddify/hiddify-app",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 33634,
+    "nota": 50,
+    "edad_dias": 1263,
+    "ultima_entrega": "2026-11-03",
+    "descargas_10": 9709781,
+    "contribuyentes": 79,
+    "repo_mb": 65.5,
+    "ci": 5,
+    "incidencias": "40 abiertas"
+   },
+   "licencia": "NOASSERTION",
+   "push": "2026-11-03"
+  },
+  "home-assistant": {
+   "repo": "home-assistant/core",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 91955,
+    "nota": 55,
+    "edad_dias": 4796,
+    "ultima_entrega": "2026-11-04",
+    "descargas_10": 0,
+    "contribuyentes": 100,
+    "repo_mb": 911.0,
+    "ci": 5,
+    "incidencias": "2443 abiertas"
+   },
+   "licencia": "Apache-2.0",
+   "push": "2026-11-04"
+  },
+  "immich": {
+   "repo": "immich-app/immich",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 118209,
+    "nota": 64,
+    "edad_dias": 1735,
+    "ultima_entrega": "2026-10-30",
+    "descargas_10": 452040,
+    "contribuyentes": 100,
+    "repo_mb": 313.0,
+    "ci": 5,
+    "incidencias": "502 abiertas"
+   },
+   "licencia": "AGPL-3.0",
+   "push": "2026-11-04"
+  },
+  "jadx": {
+   "repo": "skylot/jadx",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 51586,
+    "nota": 58,
+    "edad_dias": 4979,
+    "ultima_entrega": "2026-07-10",
+    "descargas_10": 5274364,
+    "contribuyentes": 100,
+    "repo_mb": 25.7,
+    "ci": 3,
+    "incidencias": "435 abiertas"
+   },
+   "licencia": "Apache-2.0",
+   "push": "2026-11-02"
+  },
+  "jellyfin": {
+   "repo": "jellyfin/jellyfin",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 58992,
+    "nota": 54,
+    "edad_dias": 2887,
+    "ultima_entrega": "2026-10-26",
+    "descargas_10": 0,
+    "contribuyentes": 100,
+    "repo_mb": 77.2,
+    "ci": 5,
+    "incidencias": "492 abiertas"
+   },
+   "licencia": "GPL-2.0",
+   "push": "2026-11-03"
+  },
+  "kodi": {
+   "repo": "xbmc/xbmc",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 21435,
+    "nota": 29,
+    "edad_dias": 5784,
+    "ultima_entrega": "2026-09-27",
+    "descargas_10": 0,
+    "contribuyentes": 100,
+    "repo_mb": 1632.3,
+    "ci": 5,
+    "incidencias": "292 abiertas"
+   },
+   "licencia": "NOASSERTION",
+   "push": "2026-11-04"
+  },
+  "koreader": {
+   "repo": "koreader/koreader",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 30860,
+    "nota": 53,
+    "edad_dias": 4973,
+    "ultima_entrega": "2026-09-29",
+    "descargas_10": 1333304,
+    "contribuyentes": 100,
+    "repo_mb": 72.8,
+    "ci": 5,
+    "incidencias": "1309 abiertas"
+   },
+   "licencia": "AGPL-3.0",
+   "push": "2026-11-04"
+  },
+  "localsend": {
+   "repo": "localsend/localsend",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 97284,
+    "nota": 47,
+    "edad_dias": 1419,
+    "ultima_entrega": "2026-08-21",
+    "descargas_10": 13225633,
+    "contribuyentes": 100,
+    "repo_mb": 22.4,
+    "ci": 5,
+    "incidencias": "892 abiertas"
+   },
+   "licencia": "Apache-2.0",
+   "push": "2026-11-02"
+  },
+  "logfox": {
+   "repo": "F0x1d/LogFox",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 1380,
+    "nota": 47,
+    "edad_dias": 1609,
+    "ultima_entrega": "2026-03-01",
+    "descargas_10": 24323,
+    "contribuyentes": 14,
+    "repo_mb": 4.7,
+    "ci": 4,
+    "incidencias": "26 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-10-15"
+  },
+  "material-files": {
+   "repo": "zhanghai/MaterialFiles",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 9389,
+    "nota": 44,
+    "edad_dias": 3083,
+    "ultima_entrega": "2026-09-20",
+    "descargas_10": 313300,
+    "contribuyentes": 2,
+    "repo_mb": 15.8,
+    "ci": 1,
+    "incidencias": "608 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-10-15"
+  },
+  "mullvad": {
+   "repo": "mullvad/mullvadvpn-app",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 7743,
+    "nota": 69,
+    "edad_dias": 3242,
+    "ultima_entrega": "2026-09-30",
+    "descargas_10": 184525,
+    "contribuyentes": 91,
+    "repo_mb": 322.1,
+    "ci": 5,
+    "incidencias": "114 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-11-04"
+  },
+  "navidrome": {
+   "repo": "navidrome/navidrome",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 24514,
+    "nota": 51,
+    "edad_dias": 3906,
+    "ultima_entrega": "2026-09-24",
+    "descargas_10": 165136,
+    "contribuyentes": 100,
+    "repo_mb": 71.3,
+    "ci": 5,
+    "incidencias": "139 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-11-04"
+  },
+  "neo-backup": {
+   "repo": "NeoApplications/Neo-Backup",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 3894,
+    "nota": 57,
+    "edad_dias": 2524,
+    "ultima_entrega": "2026-05-03",
+    "descargas_10": 84255,
+    "contribuyentes": 100,
+    "repo_mb": 93.1,
+    "ci": 2,
+    "incidencias": "239 abiertas"
+   },
+   "licencia": "AGPL-3.0",
+   "push": "2026-11-04"
+  },
+  "netbird": {
+   "repo": "netbirdio/netbird",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 30657,
+    "nota": 53,
+    "edad_dias": 2030,
+    "ultima_entrega": "2026-10-29",
+    "descargas_10": 780142,
+    "contribuyentes": 100,
+    "repo_mb": 174.5,
+    "ci": 5,
+    "incidencias": "470 abiertas"
+   },
+   "licencia": "NOASSERTION",
+   "push": "2026-11-04"
+  },
+  "netguard": {
+   "repo": "M66B/NetGuard",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 3963,
+    "nota": 25,
+    "edad_dias": 4029,
+    "ultima_entrega": "2026-08-01",
+    "descargas_10": 34792,
+    "contribuyentes": 32,
+    "repo_mb": 28.2,
+    "ci": 0,
+    "incidencias": "0 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-08-01"
+  },
+  "nextcloud": {
+   "repo": "nextcloud/server",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 37408,
+    "nota": 59,
+    "edad_dias": 3807,
+    "ultima_entrega": "2026-10-15",
+    "descargas_10": 0,
+    "contribuyentes": 100,
+    "repo_mb": 7274.4,
+    "ci": 5,
+    "incidencias": "2793 abiertas"
+   },
+   "licencia": "AGPL-3.0",
+   "push": "2026-11-04"
+  },
+  "obtainium": {
+   "repo": "ImranR98/Obtainium",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 21198,
+    "nota": 73,
+    "edad_dias": 1546,
+    "ultima_entrega": "2026-11-01",
+    "descargas_10": 1558735,
+    "contribuyentes": 100,
+    "repo_mb": 19.1,
+    "ci": 3,
+    "incidencias": "356 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-11-01"
+  },
+  "omnishizuku": {
+   "repo": "krishna3163/OmniShizuku",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 18,
+    "nota": 67,
+    "edad_dias": 11,
+    "ultima_entrega": "2026-11-02",
+    "descargas_10": 443,
+    "contribuyentes": 5,
+    "repo_mb": 8.0,
+    "ci": 5,
+    "incidencias": "0 abiertas"
+   },
+   "licencia": "Apache-2.0",
+   "push": "2026-11-03"
+  },
+  "ort": {
+   "repo": "oss-review-toolkit/ort",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 2117,
+    "nota": 73,
+    "edad_dias": 3303,
+    "ultima_entrega": "2026-10-29",
+    "descargas_10": 3286,
+    "contribuyentes": 100,
+    "repo_mb": 156.2,
+    "ci": 5,
+    "incidencias": "279 abiertas"
+   },
+   "licencia": "Apache-2.0",
+   "push": "2026-11-04"
+  },
+  "pcapdroid": {
+   "repo": "emanuele-f/PCAPdroid",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 5079,
+    "nota": 48,
+    "edad_dias": 2494,
+    "ultima_entrega": "2026-09-20",
+    "descargas_10": 139256,
+    "contribuyentes": 64,
+    "repo_mb": 20.7,
+    "ci": 4,
+    "incidencias": "43 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-11-02"
+  },
+  "permission-manager-x": {
+   "repo": "mirfatif/PermissionManagerX",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 812,
+    "nota": 28,
+    "edad_dias": 2195,
+    "ultima_entrega": "2026-09-29",
+    "descargas_10": 28691,
+    "contribuyentes": 2,
+    "repo_mb": 37.0,
+    "ci": 0,
+    "incidencias": "6 abiertas"
+   },
+   "licencia": "AGPL-3.0",
+   "push": "2026-09-29"
+  },
+  "personaldnsfilter": {
+   "repo": "IngoZenz/personaldnsfilter",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 952,
+    "nota": 47,
+    "edad_dias": 3149,
+    "ultima_entrega": "2026-10-18",
+    "descargas_10": 13237,
+    "contribuyentes": 16,
+    "repo_mb": 3.4,
+    "ci": 0,
+    "incidencias": "66 abiertas"
+   },
+   "licencia": "GPL-2.0",
+   "push": "2026-10-31"
+  },
+  "qadb": {
+   "repo": "ludoven/QADB",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 176,
+    "nota": 33,
+    "edad_dias": 516,
+    "ultima_entrega": "2026-07-29",
+    "descargas_10": 5276,
+    "contribuyentes": 1,
+    "repo_mb": 46.1,
+    "ci": 2,
+    "incidencias": "2 abiertas"
+   },
+   "licencia": "MIT",
+   "push": "2026-10-09"
+  },
+  "rclone": {
+   "repo": "rclone/rclone",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 60793,
+    "nota": 73,
+    "edad_dias": 4616,
+    "ultima_entrega": "2026-10-09",
+    "descargas_10": 1989024,
+    "contribuyentes": 100,
+    "repo_mb": 252.2,
+    "ci": 5,
+    "incidencias": "948 abiertas"
+   },
+   "licencia": "MIT",
+   "push": "2026-11-03"
+  },
+  "readest": {
+   "repo": "readest/readest",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 25940,
+    "nota": 80,
+    "edad_dias": 753,
+    "ultima_entrega": "2026-10-13",
+    "descargas_10": 631128,
+    "contribuyentes": 100,
+    "repo_mb": 360.9,
+    "ci": 5,
+    "incidencias": "91 abiertas"
+   },
+   "licencia": "AGPL-3.0",
+   "push": "2026-11-04"
+  },
+  "restic": {
+   "repo": "restic/restic",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 36996,
+    "nota": 60,
+    "edad_dias": 4574,
+    "ultima_entrega": "2026-07-05",
+    "descargas_10": 24403066,
+    "contribuyentes": 100,
+    "repo_mb": 66.6,
+    "ci": 4,
+    "incidencias": "493 abiertas"
+   },
+   "licencia": "BSD-2-Clause",
+   "push": "2026-11-01"
+  },
+  "restoid": {
+   "repo": "hddq/restoid",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 187,
+    "nota": 68,
+    "edad_dias": 419,
+    "ultima_entrega": "2026-11-04",
+    "descargas_10": 2743,
+    "contribuyentes": 10,
+    "repo_mb": 97.6,
+    "ci": 2,
+    "incidencias": "19 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-11-04"
+  },
+  "rethink": {
+   "repo": "celzero/rethink-app",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 5844,
+    "nota": 62,
+    "edad_dias": 2340,
+    "ultima_entrega": "2026-10-13",
+    "descargas_10": 147262,
+    "contribuyentes": 100,
+    "repo_mb": 82.2,
+    "ci": 5,
+    "incidencias": "649 abiertas"
+   },
+   "licencia": "Apache-2.0",
+   "push": "2026-10-26"
+  },
+  "scorecard": {
+   "repo": "ossf/scorecard",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 5813,
+    "nota": 67,
+    "edad_dias": 2217,
+    "ultima_entrega": "2026-10-12",
+    "descargas_10": 562233,
+    "contribuyentes": 100,
+    "repo_mb": 377.3,
+    "ci": 5,
+    "incidencias": "415 abiertas"
+   },
+   "licencia": "Apache-2.0",
+   "push": "2026-11-03"
+  },
+  "scrcpy": {
+   "repo": "Genymobile/scrcpy",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 154003,
+    "nota": 67,
+    "edad_dias": 3270,
+    "ultima_entrega": "2026-10-08",
+    "descargas_10": 10005486,
+    "contribuyentes": 100,
+    "repo_mb": 9.1,
+    "ci": 1,
+    "incidencias": "2835 abiertas"
+   },
+   "licencia": "Apache-2.0",
+   "push": "2026-11-02"
+  },
+  "seedvault": {
+   "repo": "seedvault-app/seedvault",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 1876,
+    "nota": 26,
+    "edad_dias": 3331,
+    "ultima_entrega": "sin entregas en el repositorio",
+    "descargas_10": 0,
+    "contribuyentes": 82,
+    "repo_mb": 375.1,
+    "ci": 4,
+    "incidencias": "146 abiertas"
+   },
+   "licencia": null,
+   "push": "2026-10-16"
+  },
+  "shevery": {
+   "repo": "HmnDev-Tech/shevery",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 1598,
+    "nota": 70,
+    "edad_dias": 173,
+    "ultima_entrega": "2026-11-03",
+    "descargas_10": 100912,
+    "contribuyentes": 16,
+    "repo_mb": 13.0,
+    "ci": 5,
+    "incidencias": "3 abiertas"
+   },
+   "licencia": "Apache-2.0",
+   "push": "2026-11-04"
+  },
+  "shizuku-next": {
+   "repo": "rushiranpise/Shizuku-Next",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 1436,
+    "nota": 70,
+    "edad_dias": 39,
+    "ultima_entrega": "2026-11-03",
+    "descargas_10": 188333,
+    "contribuyentes": 100,
+    "repo_mb": 65.7,
+    "ci": 5,
+    "incidencias": "5 abiertas"
+   },
+   "licencia": "Apache-2.0",
+   "push": "2026-11-04"
+  },
+  "shizuku": {
+   "repo": "RikkaApps/Shizuku",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 32773,
+    "nota": 40,
+    "edad_dias": 3451,
+    "ultima_entrega": "2025-05-25",
+    "descargas_10": 4973045,
+    "contribuyentes": 100,
+    "repo_mb": 38.1,
+    "ci": 1,
+    "incidencias": "608 abiertas"
+   },
+   "licencia": "Apache-2.0",
+   "push": "2025-06-18"
+  },
+  "sing-box": {
+   "repo": "SagerNet/sing-box",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 39625,
+    "nota": 49,
+    "edad_dias": 1588,
+    "ultima_entrega": "2026-10-24",
+    "descargas_10": 1955267,
+    "contribuyentes": 100,
+    "repo_mb": 29.7,
+    "ci": 5,
+    "incidencias": "364 abiertas"
+   },
+   "licencia": "NOASSERTION",
+   "push": "2026-11-03"
+  },
+  "smarttube": {
+   "repo": "yuliskov/SmartTube",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 35910,
+    "nota": 63,
+    "edad_dias": 2290,
+    "ultima_entrega": "2026-10-20",
+    "descargas_10": 761406,
+    "contribuyentes": 41,
+    "repo_mb": 110.0,
+    "ci": 4,
+    "incidencias": "766 abiertas"
+   },
+   "licencia": "MIT",
+   "push": "2026-11-03"
+  },
+  "syncthing-fork": {
+   "repo": "researchxxl/syncthing-android",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 3248,
+    "nota": 61,
+    "edad_dias": 371,
+    "ultima_entrega": "2026-10-21",
+    "descargas_10": 1203160,
+    "contribuyentes": 100,
+    "repo_mb": 32.9,
+    "ci": 5,
+    "incidencias": "9 abiertas"
+   },
+   "licencia": "MPL-2.0",
+   "push": "2026-11-04"
+  },
+  "termux": {
+   "repo": "termux/termux-app",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 64076,
+    "nota": 43,
+    "edad_dias": 4030,
+    "ultima_entrega": "2025-05-22",
+    "descargas_10": 11073365,
+    "contribuyentes": 81,
+    "repo_mb": 5.1,
+    "ci": 5,
+    "incidencias": "518 abiertas"
+   },
+   "licencia": "NOASSERTION",
+   "push": "2026-09-26"
+  },
+  "testssl": {
+   "repo": "testssl/testssl.sh",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 9262,
+    "nota": 48,
+    "edad_dias": 4509,
+    "ultima_entrega": "2026-07-12",
+    "descargas_10": 0,
+    "contribuyentes": 100,
+    "repo_mb": 129.2,
+    "ci": 5,
+    "incidencias": "237 abiertas"
+   },
+   "licencia": "GPL-2.0",
+   "push": "2026-11-04"
+  },
+  "trackercontrol": {
+   "repo": "TrackerControl/tracker-control-android",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 2720,
+    "nota": 75,
+    "edad_dias": 2551,
+    "ultima_entrega": "2026-11-01",
+    "descargas_10": 103439,
+    "contribuyentes": 15,
+    "repo_mb": 53.4,
+    "ci": 5,
+    "incidencias": "3 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-11-02"
+  },
+  "tvslim": {
+   "repo": "jolabs40/TVSlim",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 35,
+    "nota": 55,
+    "edad_dias": 52,
+    "ultima_entrega": "2026-10-20",
+    "descargas_10": 2463,
+    "contribuyentes": 1,
+    "repo_mb": 4.2,
+    "ci": 2,
+    "incidencias": "6 abiertas"
+   },
+   "licencia": "Apache-2.0",
+   "push": "2026-10-20"
+  },
+  "uad-ng": {
+   "repo": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 9737,
+    "nota": 59,
+    "edad_dias": 1105,
+    "ultima_entrega": "2026-11-02",
+    "descargas_10": 401570,
+    "contribuyentes": 100,
+    "repo_mb": 31.3,
+    "ci": 3,
+    "incidencias": "266 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-11-02"
+  },
+  "universal-installer": {
+   "repo": "pass-with-high-score/universal-installer",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 1681,
+    "nota": 60,
+    "edad_dias": 464,
+    "ultima_entrega": "2026-11-01",
+    "descargas_10": 54267,
+    "contribuyentes": 7,
+    "repo_mb": 26.4,
+    "ci": 2,
+    "incidencias": "25 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-11-03"
+  },
+  "uraam": {
+   "repo": "Ruraam/Uraam",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 52,
+    "nota": 59,
+    "edad_dias": 152,
+    "ultima_entrega": "2026-11-01",
+    "descargas_10": 63,
+    "contribuyentes": 2,
+    "repo_mb": 19.9,
+    "ci": 2,
+    "incidencias": "0 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-11-02"
+  },
+  "wg-easy": {
+   "repo": "wg-easy/wg-easy",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 27392,
+    "nota": 55,
+    "edad_dias": 1992,
+    "ultima_entrega": "2026-10-24",
+    "descargas_10": 0,
+    "contribuyentes": 100,
+    "repo_mb": 11.6,
+    "ci": 5,
+    "incidencias": "37 abiertas"
+   },
+   "licencia": "AGPL-3.0",
+   "push": "2026-11-04"
+  },
+  "wifi-analyzer": {
+   "repo": "VREMSoftwareDevelopment/WiFiAnalyzer",
+   "estado": "vivo",
+   "senal": {
+    "estrellas": 5067,
+    "nota": 50,
+    "edad_dias": 3983,
+    "ultima_entrega": "2026-07-01",
+    "descargas_10": 86545,
+    "contribuyentes": 51,
+    "repo_mb": 27.1,
+    "ci": 5,
+    "incidencias": "8 abiertas"
+   },
+   "licencia": "GPL-3.0",
+   "push": "2026-10-03"
+  }
+ }
+}
