@@ -41,6 +41,7 @@ la publicación.
 | E29 | 4-nov | Piezas 03 y 06 | Los títulos llevaban cifras que se mueven solas: «mil seiscientos tres días de silencio» y «mil cuatrocientas siete estrellas». Al remedir cambiaron, y con ellas el nombre del archivo. El título no puede llevar la cifra que cambia cada noche sin que el archivo se renombre. | remedir antes de publicar el título | H01 |
 | E30 | 4-nov | Pieza 02 | El censo de audio («ciento doce proyectos, veintitrés de octubre, noventa y tres por debajo de quinientas estrellas») no se podía repetir: la consulta no estaba escrita en ninguna parte. Se retiró y se sustituyó por `tools/censo_tema.py --tema audio`, que imprime sus palabras y su ventana. | intento de repetir la cuenta | H10 |
 | E31 | 4-nov | Toda la casa | Un apagón de dos horas dejó la jornada sin fecha comprobada: la medición se firma con la fecha del reloj local, y ese reloj es justo el que se queda atrás cuando se va la luz. Desde hoy la fecha se lee **en vivo, de una fuente de fuera, al empezar y al terminar**. | un apagón | H12 |
+| E32 | 4-nov | `Makefile` | El ritual sellaba el árbol y **después** escribía la fecha viva de cierre, así que el sello quedaba con un archivo ya alterado y la compuerta G5 protestaba con razón. La fecha de fin se anota antes de sellar. | primera corrida del ritual con fecha viva | H05 |
 
 ## Cómo se usa este registro
 

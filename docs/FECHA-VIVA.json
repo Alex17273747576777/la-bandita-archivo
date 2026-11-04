@@ -28,6 +28,20 @@
    "utc": "2026-11-04T16:04:43",
    "fuera": "2026-11-04T16:04:30",
    "dia_de_la_semana": "miércoles"
+  },
+  {
+   "momento": "inicio",
+   "casa": "2026-11-04T12:06:46",
+   "utc": "2026-11-04T16:06:46",
+   "fuera": "2026-11-04T16:06:44",
+   "dia_de_la_semana": "miércoles"
+  },
+  {
+   "momento": "fin",
+   "casa": "2026-11-04T12:09:22",
+   "utc": "2026-11-04T16:09:22",
+   "fuera": "2026-11-04T16:08:46",
+   "dia_de_la_semana": "miércoles"
   }
  ]
 }

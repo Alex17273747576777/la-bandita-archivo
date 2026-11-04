@@ -94,7 +94,7 @@
 | Documento | Título | De qué va | Líneas |
 |---|---|---|---|
 | [`CODIGO.md`](CODIGO.md) | EL CÓDIGO, EXPLICADO | Un programa es una receta: entra un ingrediente, se hace un paso, sale un plato. | 212 |
-| [`ERRORES.md`](ERRORES.md) | Registro de errores · lo que se rompió, cómo se cazó y qué habilidad salió de ahí | Cada error de esta casa, con su número, queda aquí **para siempre**. | 59 |
+| [`ERRORES.md`](ERRORES.md) | Registro de errores · lo que se rompió, cómo se cazó y qué habilidad salió de ahí | Cada error de esta casa, con su número, queda aquí **para siempre**. | 60 |
 | [`HABILIDADES.md`](HABILIDADES.md) | Habilidades · lo que esta casa sabe hacer porque antes se equivocó | Una habilidad no es una intención: es un procedimiento con un comando que se puede correr y un veredicto que se puede perder. | 170 |
 | [`INVESTIGACION-RECURSOS-2026-11-01.md`](INVESTIGACION-RECURSOS-2026-11-01.md) | INVESTIGACIÓN DE RECURSOS NUEVOS · domingo 1 de noviembre de 2026, 07:00 (Santo Domingo) | Cuatro consultas a la API de GitHub, ordenadas por estrellas, filtrando por fecha de creación: | 145 |
 | [`MAPA-125-FACEBOOK.md`](MAPA-125-FACEBOOK.md) | MAPA DE LAS 125 PIEZAS DE FACEBOOK · propuesta para aprobación | Cada línea es una pieza: **número · título · el gancho** —la tensión medida que la justifica, no un adjetivo— y **la materia prima**, que son… | 317 |

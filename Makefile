@@ -33,9 +33,9 @@ ritual:  ## Verifica, sella y vuelve a verificar — el orden importa (H05, erro
 	-@$(PY) tools/registro_construir.py --verificar
 	-@$(PY) tools/vara.py >/dev/null
 	-@$(PY) tools/autoprueba.py >/dev/null
+	@$(PY) tools/fecha_viva.py --fin
 	@$(PY) tools/atestar.py
 	@$(PY) tools/atestar.py --verificar
-	@$(PY) tools/fecha_viva.py --fin
 	@echo "ritual completo: la primera pasada puede fallar por archivos sin sellar; la segunda no"
 
 
