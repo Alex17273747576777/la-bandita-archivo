@@ -12,8 +12,8 @@ trabajo técnico que sí puedo hacer).
 | `uploads/` en la raíz del archivo | **hecho** — pasó a `ARCHIVO-HISTORICO/subidas-2026-09/`; la mudanza entró en la tabla de `tools/referencias.py` | G17 en verde, 0 rutas vivas rotas |
 | Publicación específica de `Jman-Github/Universal-Patch-Manager` | **hecho** — pieza 06 de Facebook, VERDE en `manual_gate` y en `novedad_gate` | `docs/ACTA-PIEZA-06-2026-11-03.md` |
 | Duplicación sin gobierno (§1.3 deuda 4) | **podado y reglado** — los 20 grupos de archivos idénticos ≥50 KB quedaron resueltos; siguen las 163 piezas históricas con varias fechas, que son decisión del dueño | `docs/POLITICA-DUPLICADOS.md` |
-| Reescritura de las piezas 01–06 de Facebook | **04 rehecha el 4-nov** — 44.932 car., VERDE en las dos compuertas, la vieja archivada con `git mv` | `docs/ACTA-PIEZA-04-REHECHA-2026-11-04.md` |
-| Etiquetas estratégicas (#pings) | **Facebook hecho el 4-nov y revisado en la remedición** — política, compuerta M29 y las seis piezas etiquetadas · **WhatsApp pendiente**: la banda 63.000–63.099 no admite 250 caracteres sin recortar otros tantos | `docs/POLITICA-ETIQUETAS.md`, `docs/ACTA-ETIQUETAS-2026-11-04.md` |
+| Reescritura de las piezas 01–06 de Facebook | **01 escrita de nuevo y 02–06 remedidas el 4-nov**, las seis en banda y en verde — 44.932 car., VERDE en las dos compuertas, la vieja archivada con `git mv` | `docs/ACTA-PIEZA-04-REHECHA-2026-11-04.md` |
+| Etiquetas estratégicas (#pings) | **hecho en los dos canales el 4-nov** — política, compuerta M29 y las seis piezas etiquetadas · **WhatsApp pendiente**: la banda 63.000–63.099 no admite 250 caracteres sin recortar otros tantos | `docs/POLITICA-ETIQUETAS.md`, `docs/ACTA-ETIQUETAS-2026-11-04.md` |
 | Remedición cifra por cifra de las piezas ya publicadas | **01 hecha el 4-nov** — catorce repos abiertos otra vez, 598→614 estrellas, censo 852→865 y tres errores propios corregidos | `docs/ACTA-PIEZA-01-REMEDIDA-2026-11-04.md` |
 | E19 · piezas 02, 05 y 06 con cifras del 3-nov | **cerrado el 4-nov** — las seis piezas de Facebook remedidas con hora; `remedir` dice AL DÍA en las seis | `docs/ACTA-REMEDICION-ECOSISTEMA-2026-11-04.md` · `docs/MEDICION-0X-2026-11-04.json` |
 | README desactualizado | **hecho** — estado al 4-nov, piezas 01–06, poda declarada | `README.md` |
@@ -63,7 +63,7 @@ trabajo técnico que sí puedo hacer).
 | Scorecard como señal de mérito | **hecho el método, abierta la cobertura** | `tools/merito.py`: 9 de 48 repositorios citados indexados; ★32.705 → 2,7/10 frente a ★1.681 → 5,2/10 (`docs/SCORECARD-2026-11-03.json`) |
 | HdP: carpeta, banda, siglas | **decidido** | publica en `POSTS-COMUNIDAD/` con 4.152 exactos; las siglas no se inventan (CORAZON, §29 y §30.5) |
 | Medición fresca del registro completo (corte 15-oct) | pendiente, del dueño el cuándo | G2 avisa a los 180 días; hoy la mediana es de 19 días |
-| SWHID por revisión medida (Software Heritage) | pendiente | la API responde; falta archivar cada revisión citada, trabajo por lotes |
+| SWHID por revisión medida (Software Heritage) | **primera tanda hecha el 4-nov** — 127 repositorios: 37 ya archivados, 47 solicitudes (10 aceptadas, 37 en cola por límite de peticiones); queda repetir la cola | `docs/SWHID-2026-11-04.json` |
 | Sitio estático con URL por pieza y por ficha | pendiente | el dueño descartó la página web como producto; `tools/sitio.py` queda como herramienta interna |
 
 ## Decisiones que solo el dueño puede tomar (§11)
