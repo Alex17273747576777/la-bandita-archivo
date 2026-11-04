@@ -25,7 +25,7 @@ El número es el del ciclo (01–14), la fecha es la del corte de medición y el
 | 03 | La caja del bolsillo: la libreta que se moja | 2026-11-02 | 63.098 | Publicada y en banda |
 | 04 | Los cinco herederos de Shizuku | 2026-11-03 | 63.096 | Publicada y en banda |
 | 05 | La guía maestra, contada despacio | 2026-11-03 | 63.096 | Publicada y en banda |
-| 06 | El taller en el bolsillo | — | — | Siguiente |
+| 06 | El taller en el bolsillo | — | — | Base escrita: la de Facebook del 4-nov; falta la versión de este canal |
 | 07 | El televisor limpio y la casa que obedece | — | — | En cola |
 | 08 | La red, contada despacio | — | — | En cola |
 | 09 | Las copias y las nubes propias | — | — | En cola |

@@ -47,7 +47,7 @@ RAIZ = Path(__file__).resolve().parents[1]
 #  dentro. Las dos formas apuntan al mismo sitio y las dos hay que corregirlas.
 # ─────────────────────────────────────────────────────────────────────────────
 MOVED = (
-    #  pasada del 2026-11-04 · Arena-Reimagined, la memoria a su sitio
+    #  pasada del 2026-11-03 · Arena-Reimagined, la memoria a su sitio
     ("_versiones/", "Arena-Reimagined/02-ARCHIVO/_etapas-anteriores/_versiones/"),
     ("packs/", "Arena-Reimagined/02-ARCHIVO/_etapas-anteriores/packs/"),
     ("_herramientas/", "Arena-Reimagined/02-ARCHIVO/_etapas-anteriores/_herramientas/"),
@@ -84,7 +84,7 @@ VIVOS_RAIZ = {"README.md", "MAPA-DEL-ARCHIVO.md", "ARQUITECTURA.md", "CHANGELOG.
 # Lo que se conserva como prueba: se cita, no se reescribe.
 HISTORICOS = ("ARCHIVO-HISTORICO/", "Arena-Reimagined/02-ARCHIVO/",
               "Arena-Reimagined/00-CANON/", "Arena-Reimagined/ENTREGA-29OCT-2026/",
-              "Arena-Reimagined/ENTREGA", "Arena-Reimagined/HABILIDADES/", "uploads/")
+              "Arena-Reimagined/ENTREGA", "Arena-Reimagined/HABILIDADES/")
 
 # Un documento fechado en el nombre es una firma: el acta del día tal como se firmó.
 # No se retoca para que diga otra cosa; si cambió el estado, lo dice el documento de hoy.

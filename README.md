@@ -2,7 +2,7 @@
 
 *Una casa que verifica antes de recomendar. Todo dato que aparece aquí tiene fecha, método y evidencia; lo que no se pudo medir se publica como hueco declarado, nunca rellenado.*
 
-**TL;DR —** este repositorio es un **archivo de divulgación técnica en español** sobre aplicaciones y recursos de código abierto para Android, con **una guía maestra de 70 fichas en 12 capítulos** y **dos series de canal** (Facebook y WhatsApp) que van por la pieza 5 de 14. Todo lo que declara se puede comprobar con un comando: `make verificar` (diecisiete compuertas, G0 a G17). Si venís con prisa, empezá por `make doctor` y por la tabla de estado de abajo. Si venís a leer, la puerta es `guia-maestra/`. Si venís a auditar, la puerta es `ARQUITECTURA.md`.
+**TL;DR —** este repositorio es un **archivo de divulgación técnica en español** sobre aplicaciones y recursos de código abierto para Android, con **una guía maestra de 70 fichas en 12 capítulos** y **dos series de canal** (Facebook y WhatsApp) que van por la pieza 6 de 14 en Facebook y la 5 en WhatsApp. Todo lo que declara se puede comprobar con un comando: `make verificar` (diecisiete compuertas, G0 a G17). Si venís con prisa, empezá por `make doctor` y por la tabla de estado de abajo. Si venís a leer, la puerta es `guia-maestra/`. Si venís a auditar, la puerta es `ARQUITECTURA.md`.
 
 ---
 
@@ -12,6 +12,8 @@ Este archivo llegó a tener la raíz con veintinueve entradas, las dos carpetas 
 
 Se corrigió: el presente quedó en la puerta, el pasado en `ARCHIVO-HISTORICO/` con su fecha y un mapa que traduce las rutas viejas. **Lo ya publicado no se reescribió**: se conserva con sus fallos y se corrige hacia adelante, porque un archivo que se retoca solo es un archivo que no se puede citar. Lo que sigue abierto se declara en [`docs/TAREAS.md`](docs/TAREAS.md), no se esconde.
 
+El 3 de noviembre se dio el segundo paso, que era el que faltaba: **quitar lo inútil**. Salieron once archivos —envases comprimidos cuya copia ya estaba abierta, vistas HTML generadas y dos copias byte por byte— y `uploads/` dejó de estar en la raíz. No se borró ni un documento: los cincuenta y tres que había se mudaron a `ARCHIVO-HISTORICO/subidas-2026-09/`, y cada retirada lleva su hash y su motivo en `ARCHIVO-HISTORICO/_podado-2026-11-03/README.md`.
+
 ---
 
 ## Estado del archivo, hoy (3 de noviembre de 2026)
@@ -19,11 +21,12 @@ Se corrigió: el presente quedó en la puerta, el pasado en `ARCHIVO-HISTORICO/`
 | Qué | Dónde | Estado |
 |---|---|---|
 | **Guía maestra** | `guia-maestra/` | 12 capítulos · **70 fichas** medidas · compuertas en cero fallos |
-| **Serie de Facebook** | `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/` | piezas **01 a 05** publicadas, en banda · siguiente: **06 · El taller** |
-| **Serie de WhatsApp** | `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/` | piezas **01 a 05** publicadas, en banda · siguiente: **06 · El taller en el bolsillo** |
+| **Serie de Facebook** | `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/` | piezas **01 a 06** publicadas, en banda · siguiente: **07 · La pantalla grande** |
+| **Serie de WhatsApp** | `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/` | piezas **01 a 05** publicadas, en banda · siguiente: **06 · El taller en el bolsillo** (la de Facebook ya está escrita y sirve de base) |
 | **Todo lo anterior** | `_ARCHIVO-HISTORICO/` de cada canal · `ARCHIVO-HISTORICO/` en la raíz | archivado por mes, con su fecha; no se borra, no se retoca |
 | **Registro medido** | `registry/` | **6.838 fichas**: 6.560 vigentes medidas hoy · 278 sin objeto (el repositorio no existe) · 0 vencidas |
 | **Sello** | `registry/_manifiesto-sha256.tsv` · `attestations/` | SHA-256 encadenado + firma sin llave de Sigstore |
+| **Poda del 3-nov** | `ARCHIVO-HISTORICO/_podado-2026-11-03/` | 11 archivos retirados (16,6 MB) y 53 reubicados, con hash y motivo de cada uno |
 
 El mapa completo, con la traducción de rutas antiguas, está en **[`MAPA-DEL-ARCHIVO.md`](MAPA-DEL-ARCHIVO.md)**. El estado pieza por pieza está en el `LEEME-de-la-carpeta.md` de cada canal; la comprobación de todo eso, en `docs/ACTA-ORDEN-Y-VERIFICACION-2026-11-03.md`; el porqué de cada decisión de estructura, en **[`ARQUITECTURA.md`](ARQUITECTURA.md)**.
 

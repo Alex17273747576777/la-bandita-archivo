@@ -9,7 +9,7 @@ Mapa vivo del proyecto y del repo. Si una acta vieja cita una ruta anterior, aqu
 - **`02-ARCHIVO/`** — la memoria: `catalogo-la-bandita.html` (el catálogo visual), `registro-2026-10-15.md` (las actas firmadas de cada hito) y **`evidencia-29oct/`** (antes `_rearm-29oct`: la evidencia completa de la jornada del 29-oct-2026 por fases — pulso, creación, datos, aseguramiento, depuración, chequeos, pendientes).
   - **`_etapas-anteriores/`** — desde el 3-nov-2026 vive aquí lo que antes estaba suelto en la raíz de `Arena-Reimagined/`: `_versiones/` (manual, tratado y lecciones congelados), `packs/` (extras de las series viejas), `_herramientas/` (la lupa, las forjas, el montador), `_herramientas-casa/` y `_referencia/`. La traducción de rutas está en `MAPA-DEL-ARCHIVO.md`, y `tools/referencias.py` comprueba que ninguna quede citada por su ruta vieja desde un archivo vivo.
 - **`HABILIDADES/`** — el sistema reutilizable y autoevolutivo: índice, herramientas ejecutables, `EVOLUCION.md` y `bitacora-lecciones.md`.
-- **`ENTREGA-29OCT-2026/`** — el paquete de entrega (guía, series, datos, informes, anexo BitXBit) y su gemelo `ENTREGA-La-Bandita-29oct2026.zip`.
+- **`ENTREGA-29OCT-2026/`** — el paquete de entrega (guía, series, datos, informes, anexo BitXBit). Su envase comprimido se retiró el 4-nov-2026 porque sus 284 entradas están todas abiertas aquí; el acta con el hash está en `ARCHIVO-HISTORICO/_podado-2026-11-03/`.
 - **`MANIFIESTO-DE-ENTREGA-FINAL.md`** — la firma de la entrega con sus SHA-256.
 
 ## Traducción de rutas (reorden 29-oct-2026)

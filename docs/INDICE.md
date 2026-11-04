@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 51 documentos en `docs/`, agrupados en 19 familias, y 33 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 54 documentos en `docs/`, agrupados en 19 familias, y 33 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -23,6 +23,8 @@
 | [`ACTA-PIEZA-01-2026-11-03.md`](ACTA-PIEZA-01-2026-11-03.md) | Acta de la pieza 01 de Facebook · segunda versión · 3 de noviembre de 2026 | La primera eligió doce proyectos a ojo entre los medidos. | 52 |
 | [`ACTA-PIEZA-04-2026-11-03.md`](ACTA-PIEZA-04-2026-11-03.md) | Acta de la pieza 04 · Facebook · 3 de noviembre de 2026 | — sin primera oración con cuerpo — | 48 |
 | [`ACTA-PIEZA-04-WA-2026-11-03.md`](ACTA-PIEZA-04-WA-2026-11-03.md) | Acta de la pieza 04 de WhatsApp · 3 de noviembre de 2026 | — sin primera oración con cuerpo — | 30 |
+| [`ACTA-PIEZA-06-2026-11-03.md`](ACTA-PIEZA-06-2026-11-03.md) | Acta de la pieza 06 · Facebook · 3 de noviembre de 2026 | Tres `#task` dentro del texto: el archivo de sumas de comprobación (001), la remedición de los tres linajes el 3 de diciembre (002) y la versión de… | 49 |
+| [`ACTA-PODA-2026-11-03.md`](ACTA-PODA-2026-11-03.md) | Acta de la poda de residuos · 3 de noviembre de 2026 | Un archivo es residuo cuando **se puede reconstruir** desde otro que se queda, o cuando **es idéntico** a otro que ya está en el árbol. | 45 |
 | [`ACTA-REFINADO-Y-VERIFICACION-2026-11-03-B.md`](ACTA-REFINADO-Y-VERIFICACION-2026-11-03-B.md) | ACTA · refinado del repositorio y verificación triple (segunda pasada) | Quince archivos de gobierno descargados con la API sobre el commit publicado y comparados por SHA-256 contra el manifiesto local. **13 iguales en la… | 83 |
 | [`ACTA-REINICIO-CICLO-2026-11-02.md`](ACTA-REINICIO-CICLO-2026-11-02.md) | Acta de reinicio del ciclo de publicaciones · 2 de noviembre de 2026 | Una pieza publicada es evidencia: se midió, se gateó y salió a la calle. | 87 |
 | [`ACTA-REMEDICION-2026-11-03.md`](ACTA-REMEDICION-2026-11-03.md) | ACTA · la memoria a su sitio y el registro remedido | La regla que decide el destino es la misma que ya ordenaba la raíz: **el presente en la puerta, la memoria con su fecha.** `02-ARCHIVO/` ya era la… | 113 |
@@ -85,7 +87,7 @@
 |---|---|---|---|
 | [`CODIGO.md`](CODIGO.md) | EL CÓDIGO, EXPLICADO | Un programa es una receta: entra un ingrediente, se hace un paso, sale un plato. | 200 |
 | [`INVESTIGACION-RECURSOS-2026-11-01.md`](INVESTIGACION-RECURSOS-2026-11-01.md) | INVESTIGACIÓN DE RECURSOS NUEVOS · domingo 1 de noviembre de 2026, 07:00 (Santo Domingo) | Cuatro consultas a la API de GitHub, ordenadas por estrellas, filtrando por fecha de creación: | 145 |
-| [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 45 |
+| [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 48 |
 | [`VENCIMIENTOS.md`](VENCIMIENTOS.md) | VENCIMIENTOS DEL REGISTRO | Las **0** fichas sin respaldo no están desactualizadas: están mal fechadas. | 63 |
 | [`COMO-SE-MANDA.md`](envios/COMO-SE-MANDA.md) | CÓMO SE MANDA · reglas y mapa de los envíos | Esto no es un catálogo de archivos: es la decisión de cómo sale el archivo a la calle. | 103 |
 | [`01-El-turno-de-los-que-nacieron-este-trimestre-doce-proyectos-medidos-hoy-y-uno-que-no-aguanta-el-escrutinio-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/01-El-turno-de-los-que-nacieron-este-trimestre-doce-proyectos-medidos-hoy-y-uno-que-no-aguanta-el-escrutinio-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 01 · envío para Facebook | La Bandita · pieza 01 · guía del 3-nov-2026 · te la mando hoy en 20 mensajes. | 436 |
@@ -93,7 +95,8 @@
 | [`03-La-caja-fuerte-del-bolsillo-un-autenticador-muerto-mil-seiscientos-dos-dias-de-silencio-y-la-copia-que-salva-Facebook-La-Bandita-2026-11-02-dominicano-ES.md`](envios/facebook/03-La-caja-fuerte-del-bolsillo-un-autenticador-muerto-mil-seiscientos-dos-dias-de-silencio-y-la-copia-que-salva-Facebook-La-Bandita-2026-11-02-dominicano-ES.md) | PIEZA 03 · envío para Facebook | La Bandita · pieza 03 · guía del 2-nov-2026 · te la mando hoy en 20 mensajes. | 437 |
 | [`04-La-lista-del-permiso-cuarenta-y-cuatro-medidos-catorce-con-ficha-y-los-nueve-de-la-lista-del-dia-uno-por-uno-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/04-La-lista-del-permiso-cuarenta-y-cuatro-medidos-catorce-con-ficha-y-los-nueve-de-la-lista-del-dia-uno-por-uno-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 04 · envío para Facebook | La Bandita · pieza 04 · guía del 3-nov-2026 · te la mando hoy en 20 mensajes. | 470 |
 | [`05-La-guia-maestra-doce-capitulos-setenta-fichas-y-el-metodo-para-no-tener-que-creerme-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/05-La-guia-maestra-doce-capitulos-setenta-fichas-y-el-metodo-para-no-tener-que-creerme-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 05 · envío para Facebook | La Bandita · pieza 05 · guía del 3-nov-2026 · te la mando hoy en 19 mensajes. | 529 |
-| [`_INDICE.md`](envios/facebook/_INDICE.md) | ENVÍOS DE FACEBOOK · índice | Generado el 2026-11-03 a partir de la medición del mismo día (`docs/envios/_medicion-facebook.json`). | 18 |
+| [`06-El-taller-un-gestor-de-parches-con-mil-cuatrocientas-siete-estrellas-sesenta-y-cinco-entregas-y-un-modulo-que-perdio-su-casa-Facebook-La-Bandita-2026-11-03-dominicano-ES.md`](envios/facebook/06-El-taller-un-gestor-de-parches-con-mil-cuatrocientas-siete-estrellas-sesenta-y-cinco-entregas-y-un-modulo-que-perdio-su-casa-Facebook-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 06 · envío para Facebook | La Bandita · pieza 06 · guía del 3-nov-2026 · te la mando hoy en 20 mensajes. | 436 |
+| [`_INDICE.md`](envios/facebook/_INDICE.md) | ENVÍOS DE FACEBOOK · índice | Generado el 2026-11-03 a partir de la medición del mismo día (`docs/envios/_medicion-facebook.json`). | 19 |
 | [`01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`](envios/whatsapp/01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md) | PIEZA 01 · envío para WhatsApp | La Bandita · pieza 01 · guía del 2-nov-2026 · te la mando hoy en 27 mensajes. | 612 |
 | [`02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`](envios/whatsapp/02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md) | PIEZA 02 · envío para WhatsApp | La Bandita · pieza 02 · guía del 2-nov-2026 · te la mando hoy en 29 mensajes. | 643 |
 | [`03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-codigo-que-caduca-cada-treinta-segundos-y-el-sobre-que-nadie-prepara-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`](envios/whatsapp/03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-codigo-que-caduca-cada-treinta-segundos-y-el-sobre-que-nadie-prepara-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md) | PIEZA 03 · envío para WhatsApp | La Bandita · pieza 03 · guía del 2-nov-2026 · te la mando hoy en 29 mensajes. | 528 |
@@ -104,7 +107,7 @@
 
 | Documento | Título | De qué va | Líneas |
 |---|---|---|---|
-| [`PENDIENTES.md`](PENDIENTES.md) | MATRIZ DE PENDIENTES · estado al 31 de octubre de 2026 | Cada pendiente con su estado real: **hecho** (existe, corre y está probado), **medido** (hay cifra publicada, no decisión), **bloqueado por el… | 100 |
+| [`PENDIENTES.md`](PENDIENTES.md) | MATRIZ DE PENDIENTES · estado al 3 de noviembre de 2026 | Cada pendiente con su estado real: **hecho** (existe, corre y está probado), **medido** (hay cifra publicada, no decisión), **bloqueado por el… | 122 |
 ### Planes · trabajo por delante
 
 | Documento | Título | De qué va | Líneas |
@@ -114,7 +117,7 @@
 
 | Documento | Título | De qué va | Líneas |
 |---|---|---|---|
-| [`POLITICA-DUPLICADOS.md`](POLITICA-DUPLICADOS.md) | POLÍTICA DE DUPLICADOS · medida, no borrada | La duplicación es el mayor pasivo técnico del archivo y el más fácil de detener: basta con no crear el siguiente. | 41 |
+| [`POLITICA-DUPLICADOS.md`](POLITICA-DUPLICADOS.md) | POLÍTICA DE DUPLICADOS · medida, no borrada | La duplicación es el mayor pasivo técnico del archivo y el más fácil de detener: basta con no crear el siguiente. | 47 |
 | [`POLITICA-MCP.md`](POLITICA-MCP.md) | POLÍTICA MCP · lista blanca, permisos mínimos, solo lectura | Decidido el 31 de octubre de 2026, antes de conectar nada. | 32 |
 ### Prompts · encargos largos
 

@@ -10,8 +10,9 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 02 | La música que no se cae: once reproductores, un tronco seco y tres for | 20 | 3686 | 11 | 0 | no | `02-La-musica-que-no-se-cae-once-reproductores-un-tronco-seco-y-tres-formas-de-quedarse-sin-catalogo-Facebook-La-Bandita-2026-11-02-dominicano-ES` |
 | 03 | La caja fuerte del bolsillo: un autenticador muerto, mil seiscientos d | 20 | 3352 | 10 | 0 | no | `03-La-caja-fuerte-del-bolsillo-un-autenticador-muerto-mil-seiscientos-dos-dias-de-silencio-y-la-copia-que-salva-Facebook-La-Bandita-2026-11-02-dominicano-ES` |
 | 04 | La lista del permiso: cuarenta y cuatro medidos, catorce con ficha y l | 20 | 3595 | 17 | 0 | no | `04-La-lista-del-permiso-cuarenta-y-cuatro-medidos-catorce-con-ficha-y-los-nueve-de-la-lista-del-dia-uno-por-uno-Facebook-La-Bandita-2026-11-03-dominicano-ES` |
-| 05 | La guía maestra: doce capítulos, setenta fichas y el método para no te | 19 | 3885 | 32 | 1 | no | `05-La-guia-maestra-doce-capitulos-setenta-fichas-y-el-metodo-para-no-tener-que-creerme-Facebook-La-Bandita-2026-11-03-dominicano-ES` |
+| 05 | La guía maestra: doce capítulos, setenta fichas y el método para no te | 19 | 3845 | 32 | 1 | no | `05-La-guia-maestra-doce-capitulos-setenta-fichas-y-el-metodo-para-no-tener-que-creerme-Facebook-La-Bandita-2026-11-03-dominicano-ES` |
+| 06 | El taller: un gestor de parches con mil cuatrocientas siete estrellas, | 20 | 3507 | 10 | 0 | no | `06-El-taller-un-gestor-de-parches-con-mil-cuatrocientas-siete-estrellas-sesenta-y-cinco-entregas-y-un-modulo-que-perdio-su-casa-Facebook-La-Bandita-2026-11-03-dominicano-ES` |
 
-**5 piezas · 99 mensajes** · el mayor de todos: 3885 caracteres.
+**6 piezas · 119 mensajes** · el mayor de todos: 3845 caracteres.
 
 

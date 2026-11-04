@@ -38,3 +38,9 @@ Ese es el riesgo que esta política ataca.
 - Decidir si las versiones en portugués, francés e inglés siguen vivas como línea editorial.
 
 Ninguna de esas tres es una decisión técnica. Por eso no la tomé.
+
+## Poda del 3 de noviembre de 2026
+
+La política pedía medir y declarar; el dueño pidió además quitar. Se hizo lo que la política permite sin pedir permiso: **retirar lo reconstruible y lo idéntico**, con acta y con hash. Los veinte grupos de archivos idénticos de más de 50 KB —7,9 MB, con `TRATADO.md`, `MANUAL-COMPLETO.md` y los tres envases `.xhtml` a la cabeza— quedaron resueltos, junto con los envases comprimidos cuya copia ya estaba abierta y las vistas generadas. La cuenta completa, con el motivo de cada uno y con el archivo que se restauró antes de confirmar, está en `ARCHIVO-HISTORICO/_podado-2026-11-03/README.md`.
+
+Lo que la poda **no** tocó, y sigue esperando la palabra del dueño, es lo que las reglas 4 y 5 protegen: las 163 piezas históricas con varias fechas, el corte del 15 de setiembre y las versiones en portugués, francés e inglés. Borrar sigue siendo del dueño; retirar un residuo declarado y reproducible, no.

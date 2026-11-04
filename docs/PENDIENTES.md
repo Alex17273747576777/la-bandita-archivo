@@ -1,8 +1,30 @@
-# MATRIZ DE PENDIENTES · estado al 31 de octubre de 2026
+# MATRIZ DE PENDIENTES · estado al 3 de noviembre de 2026
 
 Cada pendiente con su estado real: **hecho** (existe, corre y está probado), **medido** (hay cifra
 publicada, no decisión), **bloqueado por el dueño** (no lo puedo decidir yo) o **pendiente** (falta
 trabajo técnico que sí puedo hacer).
+
+## Cierre del 3 de noviembre de 2026 · lo que se terminó hoy
+
+| Pendiente | Estado hoy | Evidencia |
+|---|---|---|
+| Eliminar los residuos sin utilidad | **hecho** — 11 archivos retirados (16,6 MB), 53 documentos reubicados, con hash y motivo | `ARCHIVO-HISTORICO/_podado-2026-11-03/README.md`, `docs/ACTA-PODA-2026-11-03.md` |
+| `uploads/` en la raíz del archivo | **hecho** — pasó a `ARCHIVO-HISTORICO/subidas-2026-09/`; la mudanza entró en la tabla de `tools/referencias.py` | G17 en verde, 0 rutas vivas rotas |
+| Publicación específica de `Jman-Github/Universal-Patch-Manager` | **hecho** — pieza 06 de Facebook, VERDE en `manual_gate` y en `novedad_gate` | `docs/ACTA-PIEZA-06-2026-11-03.md` |
+| Duplicación sin gobierno (§1.3 deuda 4) | **podado y reglado** — los 20 grupos de archivos idénticos ≥50 KB quedaron resueltos; siguen las 163 piezas históricas con varias fechas, que son decisión del dueño | `docs/POLITICA-DUPLICADOS.md` |
+| README desactualizado | **hecho** — estado al 4-nov, piezas 01–06, poda declarada | `README.md` |
+
+### Lo que sigue abierto, con nombre y con motivo
+
+| Pendiente | Por qué no se cerró hoy | Quién lo cierra |
+|---|---|---|
+| Archivo de sumas SHA-256 en las entregas del programa 06 | lo tiene que emitir el autor del programa; pedido en la tarea 001 de la pieza | el autor, y esta casa lo anota |
+| Versión de WhatsApp de la pieza 06 | requiere reescribir en banda 63.000–63.099, que es otro registro | esta casa, siguiente sesión (tarea 003 de la pieza) |
+| SWHID por revisión medida (Software Heritage) | la API responde; falta archivar cada revisión citada, por lotes | esta casa, por tandas |
+| Medición fresca del registro completo | cuándo, lo decide el dueño; G2 avisa a los 180 días y hoy la mediana es de 19 días | el dueño |
+| Sitio estático con URL por ficha | **descartado por el dueño** como producto; `tools/sitio.py` queda como herramienta interna | cerrado por decisión |
+| Las cuatro decisiones de duplicados históricos | no son técnicas | el dueño |
+| Las siete decisiones del §11 (licencia de marca, dominio, canal primario, línea de arranque, patrocinio, publicar el MCP, NLnet) | la convocatoria de NLnet cerró el 3-nov; las demás son de marca | el dueño |
 
 ## Deudas estructurales del §1.3 de la propuesta
 
@@ -11,7 +33,7 @@ trabajo técnico que sí puedo hacer).
 | 1 | Sin licencia | **bloqueado por el dueño** — paquete listo para un comando | `LEGAL/PROPUESTA-LICENCIA.md`, `LEGAL/aplicar-licencia.sh` |
 | 2 | Cero integración continua | **hecho** — 11 pasos, ocho compuertas, autoprueba y MCP en cada push | `.github/workflows/vara.yml` |
 | 3 | Sin contrato de datos | **hecho** — esquema v1 y 5.684 fichas validadas | `schemas/ficha.schema.json`, `registry/` |
-| 4 | Duplicación sin gobierno | **medido y reglado** — 277 grupos, 441 copias, 3,2 MB; política escrita; borrar es del dueño | `docs/POLITICA-DUPLICADOS.md`, `tools/duplicados.py` |
+| 4 | Duplicación sin gobierno | **podado el 4-nov** — los 20 grupos de idénticos ≥50 KB resueltos (7,9 MB) y los envases redundantes retirados con acta; queda la decisión del dueño sobre 163 piezas históricas | `docs/POLITICA-DUPLICADOS.md`, `docs/ACTA-PODA-2026-11-03.md` |
 | 5 | Superficie de producto inexistente | **en curso** — el registro ya es consultable (API MCP); falta el sitio estático con URL por pieza | `mcp-labandita-registro/` |
 | 6 | Canal prestado | **bloqueado por el dueño** — requiere dominio, correo y decisiones de marca | — |
 | 7 | Frescura afirmada, no demostrada | **hecho** — cada ficha declara `medido_en`; la compuerta G2 y el servidor MCP dicen «rancio» con la edad exacta | `tools/vara.py`, `registry/` |

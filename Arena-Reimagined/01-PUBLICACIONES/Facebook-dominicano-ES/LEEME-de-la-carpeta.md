@@ -27,8 +27,8 @@ El número es el del ciclo (01–14), la fecha es la del corte de medición de l
 | 03 | La caja fuerte del bolsillo | 2026-11-02 | 44.831 | Publicada y en banda |
 | 04 | La lista del permiso | 2026-11-03 | 44.151 | Publicada y en banda |
 | 05 | La guía maestra | 2026-11-03 | 40.253 | Publicada y en banda |
-| 06 | El taller: lo que se puede leer, se puede arreglar | — | — | Siguiente |
-| 07 | La pantalla grande y la casa que no hace ruido | — | — | En cola |
+| 06 | El taller: un gestor de parches y un módulo que perdió su casa | 2026-11-03 | 44.703 | Publicada y en banda |
+| 07 | La pantalla grande y la casa que no hace ruido | — | — | Siguiente |
 | 08 | La red: seis caminos, seis precios | — | — | En cola |
 | 09 | Archivos, copias y nubes propias | — | — | En cola |
 | 10 | La privacidad que se puede comprobar | — | — | En cola |
@@ -69,3 +69,7 @@ Tres métodos distintos, y los tres tienen que coincidir. Están corridos y anot
 No se aloja ni un paquete ajeno. No se escribe aquí nada que no sea una pieza, un LEEME o el archivo histórico. No se publica una pieza sin pasar las dos compuertas —la de forma y la de novedad— y sin que la vara diga «fallos: NINGUNO».
 
 *La Bandita informa a partir de fuentes fechadas.*
+
+## Cambio de tema en la pieza 06, declarado
+
+El programa original de la serie daba a la pieza 06 el título «El taller: lo que se puede leer, se puede arreglar», sobre el derecho a reparar. El dueño pidió el 4 de noviembre una publicación específica del gestor de parches Universal Patch Manager, y ese programa **es** el taller: la herramienta con la que se abre un paquete ajeno y se vuelve a cerrar. Se publicó como 06 con ese tema y el título se ajustó para que diga lo que la pieza hace. El tema de reparabilidad no se pierde: pasa a la pieza 11, «Cuando algo se rompe», donde ya estaba previsto el título de los cinco sitios y el parte de avería.

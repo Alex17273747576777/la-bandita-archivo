@@ -404,23 +404,23 @@ La raya de descargas de la primera fila no es un cero: no hay archivo que descar
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1661 caracteres ═══
+═══ MENSAJE 19 de 20 · 1645 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
 Medí otra vez, hoy 3 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• InukaAsith/TwinDesk — ★3.246 · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (28-oct-2026)
+• InukaAsith/TwinDesk — ★3.252 · sin fecha de empuje · GPL-3.0 · última release v2.4.0 (28-oct-2026)
 • flectar/mail — ★1.753 · empujó en las últimas horas · AGPL-3.0 · última release v0.1.0-alpha.7 (8-oct-2026)
-• rddmwmddr/android-ad-cleaner — ★6.067 · empujó en las últimas horas · MIT · última release v0.3.1 (3-nov-2026)
-• Clash-Projects/LastWave-Native — ★2.486 · empujó en las últimas horas · GPL-3.0 · última release 5.0.0 (30-oct-2026)
-• udhaykumarbala/cleanyourtv-app — ★1.543 · empujó en las últimas horas · MIT · última release v0.4.8 (3-nov-2026)
-• Gathin23/cleanyourtv — ★51.317 · empujó en las últimas horas · NOASSERTION · última release v3.3.0 (1-nov-2026)
+• rddmwmddr/android-ad-cleaner — ★6.081 · empujó en las últimas horas · MIT · última release v0.3.1 (3-nov-2026)
+• Clash-Projects/LastWave-Native — ★2.487 · empujó en las últimas horas · GPL-3.0 · última release 5.0.0 (30-oct-2026)
+• udhaykumarbala/cleanyourtv-app — ★1.551 · empujó en las últimas horas · MIT · última release v0.4.8 (3-nov-2026)
+• Gathin23/cleanyourtv — ★51.369 · empujó en las últimas horas · NOASSERTION · última release v3.3.0 (1-nov-2026)
 • humblemuzzu/dumbtv — ★1.912 · empujó en las últimas horas · NOASSERTION · última release launcher-v1.7 (3-nov-2026)
-• man15h/tellyscope — ★1.353 · empujó en las últimas horas · GPL-3.0 · última release v0.15.0 (3-nov-2026)
+• man15h/tellyscope — ★1.355 · empujó en las últimas horas · GPL-3.0 · última release v0.15.0 (3-nov-2026)
 • mokshablr/gander — ★1.356 · empujó en las últimas horas · MIT · última release v2.8 (31-oct-2026)
-• Verlintas/NOIR — ★1.756 · empujó en las últimas horas · MIT · última release v0.2.5 (2-nov-2026)
-• metasequoiaime/msime — ★1.142 · empujó en las últimas horas · GPL-3.0 · última release macos-v0.57.0 (2-nov-2026)
+• Verlintas/NOIR — ★1.768 · empujó en las últimas horas · MIT · última release v0.2.5 (2-nov-2026)
+• metasequoiaime/msime — ★1.146 · sin fecha de empuje · GPL-3.0 · última release macos-v0.57.0 (2-nov-2026)
 • Turtlecute33/Fonte — ★19 · empujó en las últimas horas · GPL-3.0 · última release v0.1.9 (2-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

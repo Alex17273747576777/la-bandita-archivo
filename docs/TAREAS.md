@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 12 tareas abiertas en 10 piezas vivas, numeradas dentro de cada pieza, de 001 a 009. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 15 tareas abiertas en 11 piezas vivas, numeradas dentro de cada pieza, de 001 a 009. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -14,10 +14,13 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 |---|---|---|---|
 | 001 | volver a medir los doce proyectos de esta pieza el 3 de diciembre de 2026 y publicar qué cambió, incluida la suerte de cleanyourtv y de la cola de cleanyourtv-app. | Facebook · 01 | 2026-11-03 |
 | 001 | volver a medir los cuarenta y cuatro el 3 de diciembre de 2026 y publicar cuáles siguen publicando, con atención especial a OmniShizuku, que hoy tiene diez días y sesenta y siete. | Facebook · 04 | 2026-11-03 |
+| 001 | pedir al autor del programa, en su repositorio, que el flujo de publicación escriba un archivo de sumas SHA-256 al lado de cada entrega, y anotar la respuesta en el acta del 4 de diciembre de 2026. | Facebook · 06 | 2026-11-03 |
 | 002 | abrir las tres discrepancias de licencia en sus repositorios respectivos, proponiendo la corrección del archivo de detección y no del texto de la licencia. | Facebook · 01 | 2026-11-03 |
 | 002 | pedir al archivo público la conservación de las catorce revisiones de las fichas y anotar el número de solicitud en cada una. | Facebook · 04 | 2026-11-03 |
+| 002 | remedir el 3 de diciembre de 2026 las tres entregas del linaje —el gestor original, el de Morphe y este— y publicar cuál de los tres publicó más seguido en el mes, con la fecha del empujón de cada uno. | Facebook · 06 | 2026-11-03 |
 | 003 | completar la conservación en el archivo público de las seis revisiones que quedaron en cola hoy, y anotar el número de solicitud en cada ficha. | Facebook · 01 | 2026-11-03 |
 | 003 | abrir en sus repositorios los cuatro casos de licencia sin resolver que aparecen en la tabla, proponiendo la corrección del archivo de detección y no del texto de la licencia. | Facebook · 04 | 2026-11-03 |
+| 003 | escribir la versión de WhatsApp de esta pieza, más corta, con los cinco pasos reducidos a tres y el episodio del 451 contado en dos párrafos, y comprobar que su banda de longitud se cumple antes de enviarla. | Facebook · 06 | 2026-11-03 |
 | 004 | remedir el 3 de diciembre de 2026 las nueve fichas de menos de quinientas estrellas, empezando por OmniShizuku y TVSlim, y publicar cuáles siguieron publicando. | Facebook · 05 | 2026-11-03 |
 | 005 | pedir al archivo público la conservación de las doce revisiones de los capítulos y anotar el número de solicitud en cada acta. | Facebook · 05 | 2026-11-03 |
 | 006 | abrir en sus repositorios los cuatro casos de nota por debajo de treinta, proponiendo la corrección del archivo de licencia o del canal de seguridad, que es lo que la nota señala. | Facebook · 05 | 2026-11-03 |

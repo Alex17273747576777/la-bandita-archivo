@@ -144,8 +144,24 @@ Las tres herramientas que apuntaban a las rutas viejas —`tools/duplicados.py`,
 
 Lo archivable que no se movió, y por qué:
 
-- **`uploads/`** sigue en la raíz: es la carpeta de entrada de material nuevo, no memoria.
-- **`Arena-Reimagined/ENTREGA-29OCT-2026/`, los ZIP y `ENTREGA-La-Bandita-COMPLETA.html`** se quedan donde están: son entregas firmadas con su propio manifiesto de SHA-256, y moverlas rompería los hashes que las acreditan.
+- **`uploads/`** dejó de estar en la raíz el 3 de noviembre: sus 53 documentos —la carga inicial de septiembre, con las compilaciones multilingües V25 y el Tratado V.0.02— pasaron a `ARCHIVO-HISTORICO/subidas-2026-09/`, que es donde vive la memoria. Dos archivos eran copia exacta de otros ya archivados y se retiraron; el resto se conservó íntegro.
+- **`Arena-Reimagined/ENTREGA-29OCT-2026/`** se queda donde está: es la entrega firmada, con su manifiesto de SHA-256 al lado.
+- **Los envases comprimidos y las vistas generadas** se podaron el 4 de noviembre: once archivos, 16,6 MB, todos reconstruibles desde lo que ya está abierto en el árbol. La cuenta está en `ARCHIVO-HISTORICO/_podado-2026-11-03/README.md`, con el hash de cada uno y con las dos excepciones razonadas.
+
+## Lo que se podó el 4 de noviembre (tercera pasada)
+
+La pasada anterior ordenó; esta quitó lo que no servía. Se retiraron **once archivos** — 16,6 MB — y **53 documentos** salieron de la raíz:
+
+| Qué | Cuántos | Dónde estaba | Por qué |
+|---|---|---|---|
+| Envases comprimidos ya abiertos en el árbol | 2 | `Arena-Reimagined/` | sus 284 y 36 entradas están todas presentes, cotejadas nombre por nombre |
+| Suma de comprobación de uno de esos envases | 1 | `Arena-Reimagined/` | apuntaba a un archivo retirado en la misma pasada |
+| Vistas HTML generadas desde los `.xhtml` | 5 | `Arena-Reimagined/00-CANON/_envases-xhtml/` | el `.xhtml` de origen sigue al lado; la vista se regenera |
+| Vista HTML de la entrega completa | 1 | `Arena-Reimagined/` | 6,5 MB generados desde el envase, que sí se conserva |
+| Copias byte por byte de documentos ya archivados | 2 | `uploads/` | idénticas al respaldo del 14 de setiembre |
+| Documentos de la carga inicial | 53 | `uploads/` | **no se borraron**: pasaron a `ARCHIVO-HISTORICO/subidas-2026-09/` |
+
+Dos cosas que esta poda **no** hizo, y conviene que se sepan. No retiró `ENTREGA-La-Bandita-COMPLETA.zip`: aunque 454 de sus 456 entradas tienen gemelo en el árbol, las dos que faltan son su propio manifiesto interno, y eso lo convierte en archivo, no en residuo. Y no reescribió ni un acta fechada: `docs/ACTA-LIMPIEZA-2026-11-02.md` sigue diciendo lo que decía el 2 de noviembre, incluso donde ya no es cierto. Lo que cambió se cuenta en el documento de hoy.
 
 ## Deuda declarada
 

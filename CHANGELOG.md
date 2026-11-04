@@ -6,6 +6,40 @@ Criterio de numeración, para que no sea arbitraria: **menor** cuando cambia una
 
 ---
 
+## [2.0.0] — 2026-11-03
+
+La pasada de la poda y de la pieza 06. Se quitaron los residuos que el árbol podía reconstruir
+—once archivos, 16,6 MB— y `uploads/` dejó de estar en la raíz. Se publicó la pieza de Facebook
+sobre el gestor de parches Universal Patch Manager, con el código 451 de su módulo comprobado en
+vivo. Es **mediano** y no **menor** porque cambia la estructura del árbol: una ruta publicada
+(`uploads/`) desaparece de la raíz y se traduce en el mapa y en la tabla de mudanzas.
+
+### Añadido
+
+- **Pieza 06 de Facebook · «El taller: un gestor de parches con mil cuatrocientas siete estrellas, sesenta y cinco entregas y un módulo que perdió su casa»** — 44.716 caracteres, dentro de banda, VERDE en `manual_gate` y en `novedad_gate`. Mide el programa contra su fuente el mismo día: 65 entregas, 238 archivos, 122.769 descargas sumadas, 78 contribuidores, 2.355 confirmaciones, el árbol de 32 carpetas explicado y cinco pasos de uso que se pueden deshacer.
+- **`docs/ACTA-PIEZA-06-2026-11-03.md`**: qué se midió, con qué orden, qué se declara como hueco y la verificación triple del envío.
+- **`docs/ACTA-PODA-2026-11-03.md`** y **`ARCHIVO-HISTORICO/_podado-2026-11-03/README.md`**: el acta de la poda, con el SHA-256 de cada archivo retirado, el motivo, y el envase que se restauró antes de confirmar.
+- **`docs/bandas.json`**: declarada la banda de la pieza 06 con sus 44.716 caracteres, para que la compuerta M11 la exija como a las demás.
+- **`tools/referencias.py`**: la mudanza `uploads/` → `ARCHIVO-HISTORICO/subidas-2026-09/` entra en la tabla de mudanzas, con lo que G17 la vigila como cualquier otra.
+
+### Cambiado
+
+- **`uploads/`** → `ARCHIVO-HISTORICO/subidas-2026-09/`: 53 documentos de la carga inicial de septiembre, con sus nombres originales, movidos con `git mv` para conservar la historia del archivo.
+- **`README.md`**: estado al 4 de noviembre, serie de Facebook hasta la pieza 06, la poda declarada en la sección de la disculpa y en la tabla de estado.
+- **`MAPA-DEL-ARCHIVO.md`**: nueva sección «Lo que se podó el 4 de noviembre», y corregida la frase que decía que los ZIP se quedaban donde estaban.
+- **`Arena-Reimagined/LEEME-ESTRUCTURA.md`**: el envase de la entrega del 29 de octubre ya no está, y el LEEME lo dice con la ruta del acta.
+- **`docs/PENDIENTES.md`**: sección de cierre del 4 de noviembre, con lo terminado y, separado, lo que sigue abierto y por qué.
+- **`docs/POLITICA-DUPLICADOS.md`**: la poda como cumplimiento de las reglas 1 a 3 de la propia política.
+- **`Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/LEEME-de-la-carpeta.md`**: pieza 06 publicada, 07 siguiente, y el cambio de tema de la 06 declarado.
+- **`tools/referencias.py`**: `uploads/` sale de los prefijos históricos porque ya no existe en la raíz.
+
+### Retirado
+
+- **11 archivos · 16,6 MB**, todos reconstruibles o idénticos: dos envases comprimidos cuya copia ya estaba abierta (284 y 36 entradas, cotejadas nombre por nombre), la suma de comprobación de uno de ellos, cinco vistas HTML generadas desde sus `.xhtml`, la vista HTML de 6,5 MB de la entrega completa y dos copias byte por byte de documentos del respaldo del 14 de septiembre. El hash de cada uno queda en el acta; la copia, en la historia de Git.
+- **No se retiró** `ENTREGA-La-Bandita-COMPLETA.zip`: dos de sus 456 entradas son su propio manifiesto interno, y eso lo convierte en archivo. Se restauró antes de confirmar el cambio, y el acta lo explica.
+
+---
+
 ## [1.4.0] — 2026-11-03
 
 La pasada de la memoria y del registro. Se movieron cinco carpetas de etapas anteriores
