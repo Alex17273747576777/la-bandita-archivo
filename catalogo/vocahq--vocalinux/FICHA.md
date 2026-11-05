@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Dictado por voz para **Linux**, sin conexión: se habla y el texto se escribe en la ventana que tenga el foco,
@@ -66,4 +67,5 @@ existencia. Su dependencia del modelo hace que en un equipo modesto la primera f
 
 Si usas Windows o macOS, aquí no hay nada. Y si tu equipo es muy antiguo, mover el modelo en el procesador va
 a ser más lento que escribir.
+
 <!-- GUIA:FIN -->

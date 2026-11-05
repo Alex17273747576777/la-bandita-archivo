@@ -43,10 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de televisión por internet para escritorio —Linux, Windows y macOS— con idea de «abrir y ver»:
+listas de canales y cuentas de portal, guía de programación y biblioteca de series y películas, todo con una
+interfaz oscura pensada para el contenido.
+
+### Cómo se usa
+
+1. Se instala la entrega `v3.2.2`, del 27 de octubre de 2026.
+2. Se añaden las fuentes que tengas derecho a usar.
+3. Se navega por la guía o por la biblioteca y se reproduce.
+
+### Lo que conviene saber antes
+
+71 estrellas, GPL-2.0, creado el 15 de noviembre de 2025, escrito en Rust y con entregas regulares. Al ser
+nativo, arranca rápido y gasta poca memoria: es de los pocos de esta familia en escritorio que no lleva un
+navegador dentro. Aquí no se enlaza ninguna lista ni ninguna cuenta.
+
+### Cuándo no vale la pena
+
+Si ves la televisión en el teléfono o en el televisor, para qué el ordenador. Y si sólo tienes una lista de
+canales pequeña, la biblioteca de series y películas no se va a llenar nunca.
 
 <!-- GUIA:FIN -->

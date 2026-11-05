@@ -37,6 +37,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Aplicación de dictado para Android que **se integra con el teclado que ya usas**: no sustituye tu teclado, sino
@@ -61,4 +62,5 @@ que ir a la fuente del proyecto, y eso es un paso más del que apetece.
 
 Si no te importa cambiar de teclado, un teclado de dictado de este racimo te da lo mismo en una sola
 instalación. Y si tu teléfono es viejo, el modelo local va a ir lento.
+
 <!-- GUIA:FIN -->

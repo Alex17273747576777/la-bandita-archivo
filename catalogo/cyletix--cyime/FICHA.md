@@ -40,6 +40,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Teclado chino para Android construido sobre el motor Rime, con todo lo que ese motor permite: varios métodos
@@ -65,4 +66,5 @@ están al mismo nivel.
 
 Si no escribes chino, la mitad del programa sobra. Y si buscas un teclado estable para años, uno con seis
 semanas de vida no es la elección.
+
 <!-- GUIA:FIN -->

@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Teclado de Android cuyo eje es el dictado: pulsas el micrófono, hablas y el texto entra donde estés
@@ -67,4 +68,5 @@ porque el modelo pesa y el teléfono tiene que moverlo.
 
 Si escribes más de lo que hablas, un teclado con buena predicción te rendirá más. Y si tu teléfono tiene poca
 memoria, los motores locales no van a ir cómodos.
+
 <!-- GUIA:FIN -->

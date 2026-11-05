@@ -39,10 +39,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Guion de Python que **filtra un archivo enorme de guía de programación** y deja sólo los canales que te
+interesan, por nombre o desde una fuente remota. Sirve para que el reproductor no cargue una guía de decenas de
+megas cuando sólo ves quince canales.
+
+### Cómo se usa
+
+1. Se ejecuta con Python; **no tiene entregas publicadas**, así que se toma el código del repositorio.
+2. Se le pasa el archivo de guía y la lista de canales que quieres conservar.
+3. El resultado es un archivo más pequeño que se le da al reproductor.
+
+### Lo que conviene saber antes
+
+**Una estrella** y licencia Apache-2.0, creado en mayo de 2025 y sin cambios desde julio de 2026. Es una
+herramienta de una sola tarea, escrita para resolver el problema de alguien concreto, y su propio texto lo dice
+sin adornos: ideal para servidores de televisión y programas compatibles con ese formato de guía.
+
+### Cuándo no vale la pena
+
+Si tu guía ya es pequeña, no hay nada que recortar. Y si no quieres tocar un archivo por línea de órdenes, esto
+no es para ti.
 
 <!-- GUIA:FIN -->

@@ -44,10 +44,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de radio para Android que se presenta como resistente a la censura: además de la red normal, puede
+usar **redes alternativas** para alcanzar emisoras que en la red abierta no responden. Tiene interfaz Material
+You y catálogo propio.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v1.8.1`, del 25 de mayo de 2026.
+2. Se elige la red por la que salir, si hace falta una alternativa.
+3. Se busca la emisora y se reproduce; las favoritas se guardan.
+
+### Lo que conviene saber antes
+
+78 estrellas, Apache-2.0, y su último cambio es de **mayo de 2026**: medio año quieto. Su propio texto declara
+que se construyó con ayuda de un asistente de programación, y eso no lo hace peor, pero explica el ritmo y el
+estado. Las redes alternativas que ofrece añaden latencia: la emisora puede tardar en sonar más de lo normal.
+
+### Cuándo no vale la pena
+
+Si tu emisora se oye por la red normal, la mitad de la aplicación sobra. Y si necesitas que arranque rápido y
+nunca falle, medio año sin mantenimiento es un dato a tener en cuenta.
 
 <!-- GUIA:FIN -->

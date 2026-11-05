@@ -44,10 +44,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Cliente de terminal para un servicio de música, pensado para **macOS y Linux**, con una pieza aparte que hace
+de puente para que el aparato aparezca como reproductor. La idea es la misma de sus vecinos: escuchar sin salir
+de la consola.
+
+### Cómo se usa
+
+1. Se instala la entrega `v0.5.2`, del 15 de octubre de 2026.
+2. Hace falta cuenta de pago y un llavero del sistema funcionando, que es donde guarda el testigo.
+3. Se arranca el acompañante y luego el cliente; el aparato aparece en la aplicación oficial.
+
+### Lo que conviene saber antes
+
+445 estrellas, MIT, creado el 18 de marzo de 2026: ocho meses. Su propia documentación lista tres requisitos
+estrictos —cuenta de pago, llavero del sistema y el acompañante modificado—, y quien no los cumpla se queda
+fuera sin un mensaje claro. Ese acompañante es una pieza separada que hay que instalar aparte.
+
+### Cuándo no vale la pena
+
+Es el más exigente de su familia en instalación. Si buscas un cliente de terminal que funcione a la primera,
+hay otros dos en este racimo con menos requisitos.
 
 <!-- GUIA:FIN -->

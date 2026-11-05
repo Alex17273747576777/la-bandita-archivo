@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 El modelo de reconocimiento de voz que cambió el terreno: transcribe audio en decenas de idiomas, traduce al
@@ -66,4 +67,5 @@ reimplementaciones.
 
 Si tienes tarjeta gráfica, hay reimplementaciones de este mismo racimo que van mucho más rápido. Y si no
 quieres tocar una terminal, usa una aplicación que lo lleve dentro.
+
 <!-- GUIA:FIN -->

@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Teclado de Android derivado de HeliBoard que añade herramientas de inteligencia artificial a la escritura:
@@ -68,4 +69,5 @@ demás eran cifras sin ejecución detrás.
 
 Si no vas a usar las funciones de IA, HeliBoard, del que deriva, hace lo mismo con menos piezas. Y si las vas
 a usar, ten claro que cada pulsación puede salir de tu teléfono hacia el proveedor del modelo.
+
 <!-- GUIA:FIN -->

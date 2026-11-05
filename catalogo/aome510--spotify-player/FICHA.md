@@ -43,10 +43,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Cliente de un servicio de música para la terminal, con la ambición de tener todo lo que tiene el cliente
+oficial: búsqueda, biblioteca, listas, cola, control de aparatos y letras. Es la alternativa viva al cliente de
+terminal que quedó parado.
+
+### Cómo se usa
+
+1. Se instala con las herramientas de Rust, desde el gestor de paquetes o con el binario de la entrega
+   `v0.25.1`, del 9 de septiembre de 2026.
+2. La primera vez pide autorización: abre el navegador, se concede el permiso y se guarda el testigo.
+3. Se maneja con el teclado; su documentación trae un mapa de atajos que conviene imprimir o tener al lado.
+
+### Lo que conviene saber antes
+
+7.302 estrellas, MIT, y última entrega de septiembre. La autenticación es la parte que más preguntas genera en
+su propio proyecto: el testigo caduca y hay que volver a autorizar cada cierto tiempo, y su documentación lo
+explica con detalle. Necesita cuenta de pago del servicio, como casi todo lo de esta familia.
+
+### Cuándo no vale la pena
+
+Si no vives en la terminal, la curva de atajos no compensa. Y si no tienes cuenta de pago, no funciona: no hay
+plan para cuentas gratuitas.
 
 <!-- GUIA:FIN -->

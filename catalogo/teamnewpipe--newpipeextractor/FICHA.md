@@ -40,10 +40,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+No es una aplicación: es la **biblioteca** que hay debajo de un conocido cliente libre de vídeo, y sirve para
+sacar de un sitio de vídeos lo que hace falta para reproducirlo sin su aplicación oficial: direcciones, pistas
+de audio, subtítulos y metadatos. En este racimo entra por el audio.
+
+### Cómo se usa
+
+1. Se incluye como dependencia en un proyecto de Java o Android; la entrega medida es la `v0.26.5`, del 15 de
+agosto de 2026.
+2. Desde código se pide la información de un enlace y se reciben los objetos con las pistas disponibles.
+3. Hay una aplicación de prueba en el repositorio para ver qué devuelve la biblioteca sin escribir código.
+
+### Lo que conviene saber antes
+
+2.039 estrellas, GPL-3.0, y desarrollo vivo: su último cambio es de noviembre de 2026. La versión importa
+mucho: la biblioteca se publica y los clientes se atan a una versión concreta, porque los cambios internos
+rompen. Si programas un cliente, esto te ahorra la parte más frágil y más sujeta a cambios.
+
+### Cuándo no vale la pena
+
+Si no programas, no hay nada que hacer aquí: usa uno de los clientes que ya la llevan dentro. Esta ficha está
+para entender de dónde salen y por qué se rompen a la vez varios programas cuando el sitio cambia.
 
 <!-- GUIA:FIN -->

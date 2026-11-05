@@ -37,10 +37,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Biblioteca de Python que habla con la interfaz no oficial de un servicio de música: buscar, leer listas,
+obtener la información de un álbum o de un artista y gestionar la biblioteca de una cuenta. Es la pieza que
+usan muchos de los clientes y programas de este racimo por debajo.
+
+### Cómo se usa
+
+1. Se instala con `pip install ytmusicapi`; la entrega medida es la `1.12.3`, del 16 de septiembre de 2026.
+2. Para leer datos públicos basta con crear el objeto y llamar a sus métodos.
+3. Para lo que requiere cuenta hay que generar un archivo de autenticación con su orden de configuración.
+
+### Lo que conviene saber antes
+
+3.103 estrellas, MIT, y mantenimiento activo con cambios de noviembre de 2026. Es una biblioteca, no un
+programa: sin escribir código no hace nada. Y su objeto de trabajo es una interfaz no documentada, así que los
+cambios del servicio la rompen con cierta regularidad.
+
+### Cuándo no vale la pena
+
+Si no programas, no hay nada que hacer aquí. Su utilidad es para quien quiere automatizar algo —una lista, un
+archivo, un informe— sin montar una aplicación entera.
 
 <!-- GUIA:FIN -->

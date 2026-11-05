@@ -39,10 +39,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de radio por internet para Android con una idea de curaduría: en vez de un buscador con miles de
+emisoras, presenta colecciones hechas a mano para estados de ánimo y actividades —trabajar, cocinar, dormir—,
+con carátula y datos de lo que suena.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v0.7.4`, del 7 de octubre de 2026.
+2. Se elige una colección y se navega por las emisoras que la componen.
+3. Se reproduce en segundo plano; los datos del tema suenan en la pantalla de bloqueo.
+
+### Lo que conviene saber antes
+
+165 estrellas, Apache-2.0, creado el 17 de junio de 2026 y con cambios de hoy mismo. Su apuesta por la curaduría
+va contra la moda del catálogo infinito, y para quien no sabe qué poner es más cómodo; a cambio, si buscas una
+emisora concreta, el camino es más largo que en otros programas.
+
+### Cuándo no vale la pena
+
+Si ya tienes tus tres emisoras de siempre, la curaduría no te aporta. Y si quieres buscar por país e idioma con
+filtros finos, hay opciones más completas.
 
 <!-- GUIA:FIN -->

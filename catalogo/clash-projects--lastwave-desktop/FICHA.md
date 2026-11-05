@@ -42,10 +42,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de música de escritorio pensado para archivos sin pérdida, con generación de listas por reglas
+—por tempo, por año, por parecido—, letras sincronizadas en tiempo real y envío de lo escuchado a un servicio
+de estadísticas. Es la versión de ordenador del mismo proyecto que tiene aplicación de Android.
+
+### Cómo se usa
+
+1. Se instala la entrega `v2.0.1`, del 4 de noviembre de 2026.
+2. Se eligen las carpetas de música; el programa las indexa y lee los metadatos de los archivos.
+3. Las listas se crean solas según las reglas que actives, o a mano; las letras se buscan por pista.
+
+### Lo que conviene saber antes
+
+938 estrellas y **sin licencia declarada**: GitHub no le reconoce ninguna, así que si quieres reutilizar su
+código, pregunta antes. El proyecto nació el 10 de septiembre de 2026 —dos meses— y aunque publica versiones
+casi a diario, su texto promete bastante para su edad. La parte de estadísticas necesita cuenta en un servicio
+ajeno.
+
+### Cuándo no vale la pena
+
+Si tu música está en un servicio y no en archivos, no hay nada que ordenar. Y si sólo quieres darle al play
+a cuatro discos, la aplicación de fábrica del sistema hace eso sin instalar nada.
 
 <!-- GUIA:FIN -->

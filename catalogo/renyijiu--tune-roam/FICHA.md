@@ -39,10 +39,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de radio por internet para Android construido con tecnología multiplataforma, de modo que su núcleo
+no depende de Android y puede reutilizarse. Toma las emisoras de una base pública y organiza por país, idioma y
+etiqueta.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v0.4.0`, del 25 de octubre de 2026.
+2. Se navega por países y etiquetas, o se busca por nombre.
+3. Se reproduce y se guardan favoritas; el historial queda en la pantalla principal.
+
+### Lo que conviene saber antes
+
+**10 estrellas**, MIT, creado el **21 de octubre de 2026**: dos semanas antes de esta medición. Su
+documentación está en chino y su texto avisa de que la parte de iOS es un plan, no un hecho. Es el recurso más
+joven de este racimo con diferencia, y eso se nota en todo: versión `0.4`, diez estrellas y una sola persona
+detrás.
+
+### Cuándo no vale la pena
+
+Hoy, para uso diario. Tiene sentido si te interesa cómo se escribe una aplicación de radio con núcleo
+compartido, o si quieres seguir su desarrollo desde el principio.
 
 <!-- GUIA:FIN -->

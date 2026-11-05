@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Dictado por voz para **macOS, Windows y Linux**, local: se mantiene una tecla, se habla y al soltar el texto
@@ -64,4 +65,5 @@ Su alcance multiplataforma es real, cosa que no se puede decir de todos los de e
 
 Si quieres algo con años de rodaje, cuatro meses son pocos. Y si tu equipo no tiene memoria para el modelo,
 la espera entre hablar y ver el texto va a ser incómoda.
+
 <!-- GUIA:FIN -->

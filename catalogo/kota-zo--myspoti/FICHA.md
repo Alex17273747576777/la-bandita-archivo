@@ -43,10 +43,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Cliente de Android para un servicio de música, construido con las herramientas modernas de interfaz, que se
+presenta como la forma de escuchar **con la cuenta gratuita sin anuncios**, con descargas para oír sin conexión
+y el resumen anual del servicio incluido.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v2.3.0`, del 1 de noviembre de 2026.
+2. Se inicia sesión con la cuenta propia del servicio; el programa lee listas y biblioteca.
+3. Las descargas se marcan por lista o por canción y quedan disponibles sin red.
+
+### Lo que conviene saber antes
+
+1.330 estrellas, GPL-3.0 y creado el 14 de octubre de 2026: **tres semanas**. Su propuesta —bloquear los
+anuncios de una cuenta gratuita— va contra las condiciones del servicio, y eso hay que decirlo con todas las
+letras: lo que hace el programa es técnicamente posible y comercialmente prohibido. Cada quien decide, pero la
+cuenta que se juega es la suya.
+
+### Cuándo no vale la pena
+
+Si pagas el servicio, no necesitas esto. Y si tu cuenta te importa —listas de años, historial, recomendaciones—
+puedes perderla por usar un cliente que rompe las condiciones.
 
 <!-- GUIA:FIN -->

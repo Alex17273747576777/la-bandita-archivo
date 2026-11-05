@@ -39,6 +39,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Corrector gramatical que funciona **sin conexión**: revisa lo que escribes y señala errores y frases torpes
@@ -61,4 +62,5 @@ comerciales, y esa comparación es suya, no una medición de esta ficha.
 
 Si escribes en español, hoy no hay nada que hacer aquí. Y si no te importa que la revisión pase por un
 servicio en línea, los correctores de siempre siguen siendo más cómodos de integrar.
+
 <!-- GUIA:FIN -->

@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Teclado de voz para Android que reconoce **en el propio aparato** con la biblioteca Vosk: se pulsa el
@@ -65,4 +66,5 @@ activándose como teclado.
 
 Si necesitas dictar textos largos, la calidad no acompaña. Hoy hay teclados de este racimo, más nuevos y con
 motores mejores, que hacen lo mismo.
+
 <!-- GUIA:FIN -->

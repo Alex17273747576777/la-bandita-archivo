@@ -43,10 +43,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de música nativo para **macOS e iOS**, escrito en SwiftUI, que reproduce la biblioteca del aparato y
+permite buscar y escuchar en línea desde un catálogo que el propio programa arma. Su nombre significa «sonido de
+nube» y su interfaz está pensada para el ecosistema de Apple.
+
+### Cómo se usa
+
+1. Se instala desde la entrega `v0.3.28`, del 4 de noviembre de 2026.
+2. Se concede permiso a la biblioteca de música del sistema, si quieres verla dentro.
+3. Se busca por canción o artista y se encola; las listas se guardan en el propio aparato.
+
+### Lo que conviene saber antes
+
+1.286 estrellas, LGPL-3.0, creado el 16 de agosto de 2026. Su texto trae un aviso explícito: **no tiene relación
+con el servicio chino del que toma el nombre ni contiene sus dominios ni sus direcciones**. Ese cuidado por
+desmarcarse dice mucho de cómo funciona esta familia de programas, y conviene leerlo antes de instalarlo en un
+aparato con la cuenta de Apple configurada.
+
+### Cuándo no vale la pena
+
+Sólo existe para Apple: fuera de ese ecosistema no hay nada. Y si quieres escuchar tu música local sin
+sorpresas, la aplicación de fábrica ya lo hace.
 
 <!-- GUIA:FIN -->

@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Teclado chino para Android construido sobre el motor Rime: lleva los esquemas de entrada tradicionales —pinyin,
@@ -65,4 +66,5 @@ sirve.
 
 Si no escribes chino, no hay nada que hacer aquí. Y si escribes chino pero quieres algo que funcione sin
 configurar, un teclado comercial lo hace en dos toques.
+
 <!-- GUIA:FIN -->

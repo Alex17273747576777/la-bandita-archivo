@@ -44,10 +44,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Gestor de descargas de escritorio que, además de vídeo y música de muchos sitios, está pensado para **cursos**:
+descarga lecciones completas de plataformas de formación en línea y las ordena. Está hecho con Rust y una
+interfaz web empaquetada.
+
+### Cómo se usa
+
+1. Se instala la entrega `v0.14.0`, del 31 de octubre de 2026.
+2. Se pega la dirección del curso o del vídeo; el programa detecta de dónde viene y propone qué bajar.
+3. Se elige calidad y carpeta; las descargas se encolan y se reanudan si se cortan.
+
+### Lo que conviene saber antes
+
+3.978 estrellas, GPL-3.0, creado el 8 de julio de 2026. Su lista de etiquetas del repositorio está llena de
+sinónimos de descargador de vídeo: el proyecto se presenta por lo que hace, no por una función concreta. Ahí
+está también su frontera: bajar un curso que has pagado es una cosa y bajar uno que no, otra; el programa no
+distingue.
+
+### Cuándo no vale la pena
+
+Si sólo descargas vídeos sueltos, un descargador de terminal hace lo mismo con menos peso. Omniget se elige
+cuando quieres ordenar series completas o cursos con su estructura de carpetas.
 
 <!-- GUIA:FIN -->

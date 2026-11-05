@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Aplicación de dictado para **macOS y Windows**: se mantiene pulsada una tecla, se habla y al soltar aparece el
@@ -66,4 +67,5 @@ esta semana. Su requisito real es un equipo con memoria suficiente para mover el
 
 Si usas Linux, aquí no hay nada: el proyecto es para los dos sistemas grandes de escritorio. Y si escribes
 poco, el dictado con pulso mantenido no compensa el hábito de teclear.
+
 <!-- GUIA:FIN -->

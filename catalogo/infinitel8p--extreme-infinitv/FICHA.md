@@ -37,10 +37,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de televisión por internet multiplataforma: lee listas de canales y portales, trae guía de
+programación, permite descargar para ver sin conexión y se maneja con el mando del televisor. Tiene versión para
+Windows, Linux y Android.
+
+### Cómo se usa
+
+1. Se instala la entrega `v1.9.0`, del 31 de agosto de 2026.
+2. Se añaden las fuentes que tengas derecho a usar; el programa no incluye ninguna.
+3. Se navega por la guía y se reproduce; lo que quieras ver después se descarga.
+
+### Lo que conviene saber antes
+
+208 estrellas, GPL-3.0, creado el 25 de agosto de 2025 y con cambios de hoy mismo aunque su última entrega es de
+agosto. Es de los pocos que ofrece descarga para ver sin conexión, algo poco común en esta familia. Aquí no se
+enlaza ninguna lista, ningún portal ni ninguna fuente de contenido.
+
+### Cuándo no vale la pena
+
+Si no vas a usar la descarga ni el mando, un reproductor más simple basta. Y si tu fuente es una sola lista
+pequeña, tanta función alrededor es peso muerto.
 
 <!-- GUIA:FIN -->

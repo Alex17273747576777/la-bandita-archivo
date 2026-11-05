@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Transcripción de voz a texto que funciona **sin conexión**, multiplataforma y con la idea de ser extensible: se
@@ -66,4 +67,5 @@ Su punto fuerte es que **todo ocurre en el equipo**: nada de tu voz sale a un se
 
 Si tu equipo va justo de memoria, el modelo local se va a llevar la peor parte. Y si dictas en un idioma con
 pocos datos, la precisión baja como en todos los motores abiertos.
+
 <!-- GUIA:FIN -->

@@ -42,10 +42,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Cliente de escritorio para un servicio de música con **interfaz gráfica nativa**, sin navegador dentro: rápido
+de arrancar, ligero y con lo esencial —búsqueda, listas, cola y reproducción—. Su autor lo empezó justamente
+para tener eso sin la pesadez de las aplicaciones hechas con tecnologías web.
+
+### Cómo se usa
+
+1. Se instala la entrega `rolling`, del 28 de junio de 2025, o se compila, que es lo que su documentación
+   recomienda para tener lo último.
+2. Se inicia sesión con la cuenta del servicio; las credenciales se guardan en el llavero del sistema.
+3. Se navega por la biblioteca y se reproduce desde la ventana principal.
+
+### Lo que conviene saber antes
+
+9.506 estrellas, MIT, y su propio texto lo dice sin rodeos: **está en desarrollo temprano, le faltan funciones,
+estabilidad y cosas en general**. Tiene cinco años de vida y su última entrega es de junio de 2025, con cambios
+en agosto de 2026: va despacio. Necesita cuenta de pago.
+
+### Cuándo no vale la pena
+
+Si quieres un cliente de escritorio completo y terminado, este no lo es y su autor lo admite. Se elige por su
+ligereza, a sabiendas de que le falta la mitad de lo que un cliente maduro tiene.
 
 <!-- GUIA:FIN -->

@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Teclado de Android que respeta la privacidad, con predicción, deslizar para escribir, temas y una arquitectura
@@ -63,4 +64,5 @@ lleva un año de arreglos. Y sigue diciendo «beta» en su propia descripción, 
 
 Si quieres un teclado que se actualice con frecuencia, la entrega vieja pesa. Hoy `HeliBoard` cubre lo mismo
 con entregas más recientes, y por eso mucha gente ha hecho ese cambio.
+
 <!-- GUIA:FIN -->

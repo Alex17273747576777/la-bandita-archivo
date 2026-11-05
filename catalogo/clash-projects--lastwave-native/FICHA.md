@@ -41,10 +41,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Cliente de música para Android que toma el catálogo de un servicio de vídeo conocido, con una interfaz
+cuidada, generador de listas por reglas, letras sincronizadas y envío de lo escuchado a un servicio de
+estadísticas. Es el hermano de móvil del reproductor de escritorio de la misma casa.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `5.0.0`, del 30 de octubre de 2026.
+2. Se abre sin cuenta; la búsqueda va contra el catálogo del servicio, no contra una biblioteca propia.
+3. Las descargas se marcan por pista o por lista y quedan disponibles sin conexión.
+
+### Lo que conviene saber antes
+
+2.523 estrellas, GPL-3.0 y entregas de esta semana. Nació el 30 de julio de 2026: tres meses. Al depender de
+un servicio ajeno, cuando ese servicio cambia algo, el programa falla de formas que su autor no controla. El
+envío de estadísticas es opcional, pero si lo activas, tu historial de escucha sale del teléfono.
+
+### Cuándo no vale la pena
+
+Si tienes tu música en archivos, aquí no la verás: este cliente vive de un catálogo que no es suyo. Y si ya
+pagas el servicio y su aplicación te sirve, esto es la misma música con otra piel.
 
 <!-- GUIA:FIN -->

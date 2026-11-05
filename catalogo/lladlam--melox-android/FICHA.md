@@ -43,10 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Cliente de música para Android que se presenta como derivado de otro proyecto y con estética tomada de un
+servicio de música comercial: catálogo de un servicio de vídeo, interfaz clara, listas y descargas, más algunas
+funciones propias sobre la base.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `0.7.1`, del 27 de octubre de 2026.
+2. Se busca y se reproduce sin cuenta; la biblioteca se arma con listas propias.
+3. Las descargas se marcan por lista, y lo bajado queda en una pantalla aparte.
+
+### Lo que conviene saber antes
+
+288 estrellas, GPL-3.0, creado el 9 de agosto de 2026. Su texto avisa de que las ediciones de Windows y Linux
+están «en verificación final» y pide estrellas para desbloquear su publicación: es una forma de hacer campaña
+que conviene conocer antes de fiarse de las cifras. La versión `0.7` dice por sí sola en qué punto está.
+
+### Cuándo no vale la pena
+
+Hoy, para uso serio: es una versión temprana de un derivado de otro proyecto, con una plataforma resuelta y dos
+anunciadas. Si buscas algo estable, mira el original del que sale.
 
 <!-- GUIA:FIN -->

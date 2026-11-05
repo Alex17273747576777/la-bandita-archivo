@@ -36,10 +36,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Cliente de escritorio para un servicio de música hecho con Qt: ventana ligera, interfaz nativa, biblioteca,
+listas y reproductor. Es una de las pocas opciones de esta familia que se siente como un programa de escritorio
+y no como una página web en una caja.
+
+### Cómo se usa
+
+1. Se instala la entrega `v4.0.4`, del 1 de mayo de 2026, o el paquete de tu distribución.
+2. Se conecta la cuenta; para ciertas funciones hace falta crear credenciales propias en el panel del servicio.
+3. Se navega la biblioteca y se controla la reproducción desde la ventana o desde la bandeja del sistema.
+
+### Lo que conviene saber antes
+
+1.496 estrellas, GPL-3.0, seis años de proyecto y cambios de octubre de 2026. Es de los pocos que funciona
+igual en Windows, macOS y Linux con la misma interfaz. La parte de credenciales es la que más confunde a quien
+lo instala la primera vez.
+
+### Cuándo no vale la pena
+
+Si escuchas en el teléfono y no en el ordenador, no hay nada que hacer. Y si quieres funciones avanzadas de
+descubrimiento, las aplicaciones oficiales siguen teniendo más.
 
 <!-- GUIA:FIN -->

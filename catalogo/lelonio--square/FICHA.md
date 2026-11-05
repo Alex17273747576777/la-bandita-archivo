@@ -43,10 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Cliente de Android que **te deja elegir el servicio en el primer arranque** —uno de música o uno de vídeo— y
+cambiar después en los ajustes, con la misma interfaz para los dos: inicio, búsqueda, biblioteca y reproductor.
+Añade efectos de audio y control remoto del reproductor en otros aparatos.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v2.8.0`, del 3 de noviembre de 2026.
+2. Al abrir por primera vez se elige el servicio; se puede cambiar luego en ajustes.
+3. Se conecta la cuenta de ese servicio y se navega; los efectos de audio están en el reproductor.
+
+### Lo que conviene saber antes
+
+485 estrellas, GPL-3.0, creado el 6 de agosto de 2026. Es un cliente no oficial de dos servicios a la vez, y su
+propio texto lo dice: «no oficial». Eso significa que puede dejar de funcionar si cualquiera de los dos cambia
+sus condiciones, y que pedir soporte al servicio no sirve de nada.
+
+### Cuándo no vale la pena
+
+Si usas sólo uno de los dos servicios, hay clientes más maduros para cada uno. Y si te preocupa que una
+aplicación de este tipo desaparezca, tres meses de vida es el dato que manda.
 
 <!-- GUIA:FIN -->

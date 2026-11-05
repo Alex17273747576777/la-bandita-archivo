@@ -38,6 +38,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Teclado de Android minúsculo —menos de un mega— con lo esencial: altura ajustable, fila de números, deslizar
@@ -61,4 +62,5 @@ para escribir a mano, no para que adivine.
 
 Si escribes rápido con deslizamiento y corrección, aquí vas a echar de menos todo eso. Se elige por tamaño, por
 permisos y porque no aprende nada de lo que escribes.
+
 <!-- GUIA:FIN -->

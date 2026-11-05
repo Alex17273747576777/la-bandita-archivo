@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Corrector de gramática y estilo para escritorio, con servidor propio y extensiones: revisa textos en más de
@@ -67,4 +68,5 @@ funciona de verdad, que es más de lo que se puede decir de casi todo lo demás 
 
 Si buscas revisión en tu procesador de textos y no te importa que el texto salga a internet, la extensión del
 servicio público basta. Montar el servidor tiene sentido si el texto no puede salir de tu red.
+
 <!-- GUIA:FIN -->

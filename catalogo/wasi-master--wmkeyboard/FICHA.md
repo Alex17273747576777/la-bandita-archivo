@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Teclado de Android con ambición de sustituir al de fábrica: predicción, escritura deslizando, transliteración,
@@ -66,4 +67,5 @@ el proyecto.
 
 Un teclado con tres meses de vida es lo primero que se rompe cuando el sistema cambia. Si quieres estabilidad,
 elige uno con años; si te apetece probar, empieza por desactivar lo que no uses.
+
 <!-- GUIA:FIN -->

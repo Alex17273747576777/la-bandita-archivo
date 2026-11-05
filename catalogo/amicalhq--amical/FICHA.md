@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Aplicación de dictado para escritorio que además **toma notas**: se habla, el texto se escribe en la ventana
@@ -66,4 +67,5 @@ personas.
 
 Si sólo quieres dictar frases sueltas, la mitad de la aplicación —las notas— no la vas a usar. Y si no puedes
 grabar a los demás con permiso, no es tu herramienta.
+
 <!-- GUIA:FIN -->

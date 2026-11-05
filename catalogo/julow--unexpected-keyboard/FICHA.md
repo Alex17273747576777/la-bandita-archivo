@@ -38,6 +38,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Teclado pensado para quien escribe **código y símbolos en el teléfono**: teclas extra en filas adicionales,
@@ -60,4 +61,5 @@ que se quiere al escribir una orden en una terminal, y exactamente lo que no se 
 
 Para escribir mensajes largos en español, la falta de corrección se nota mucho. Se elige para lo que fue
 hecho: símbolos, terminales y administración desde el teléfono.
+
 <!-- GUIA:FIN -->

@@ -169,3 +169,46 @@ aparece atribuida a quien la publica, con la frase que lo dice, y no como medici
 teclado o un dictado recibe **todo lo que escribes o dices**. Por eso cada guía separa lo que el programa hace
 según su proyecto, lo que se midió en GitHub el 5 de noviembre de 2026, y lo que el usuario debe decidir por su
 cuenta —motor en la nube o en el aparato, código propio o paquete ajeno—.
+
+## Sexta tanda · racimos `clientes-de-musica` (27) y `radio-y-directo` (29)
+
+Las **56 guías** que faltaban de los dos racimos que comparten suelo: el de los clientes de música y el de la
+radio y la televisión por internet. Se escribieron en la misma sesión porque comparten piezas —los catálogos de
+donde salen las listas, los motores de reproducción, los servicios ajenos— y arrastran el mismo criterio.
+
+**Total del catálogo:** **247 fichas con guía escrita** de 278 medidas · **31 esperando guía** ·
+`catalogo_lint` **0 fallos**.
+
+**`clientes-de-musica` (27).** Aquí conviven tres familias que no se parecen: los **clientes de servicios
+ajenos** (`LastWave-Native`, `Echo-Music`, `BitChord`, `YumaPlayer`, `Square`, `Leap`, `myspoti`, `MeloX`,
+`kumone`, `riff`, `sonora`, `Leviathan`… en sus nombres reales), los **clientes de terminal** (`spotify-tui`,
+`spotify-player`, `ncspot`, `lazyspotify`), y las **bibliotecas** de las que todo eso vive (`ytmusicapi`,
+`spotipy`, `NewPipeExtractor`). Y en medio, las piezas de infraestructura: `go-librespot` y el demonio clásico
+para hacer de altavoz en la red.
+
+Lo que se dijo sin adornos: **`spotify-tui` lleva parado desde abril de 2024**, `psst` declara en su propio
+texto que le faltan funciones y estabilidad, `MeloX-Android` pide estrellas para publicar sus versiones de
+escritorio, y `myspoti` se presenta como la forma de saltarse los anuncios de una cuenta gratuita — lo que va
+contra las condiciones del servicio, y así está escrito. Tres no declaran licencia reconocible y varias están
+por debajo de la versión 1.
+
+**`radio-y-directo` (29).** Dos mitades muy distintas: **radio** (`InternetRadio`, `deutsia-radio`, `aerial`,
+`receiver`, `omnibeat`, `freqcast`, `tune-roam`, `AetherTune`, `Traydio`, `British-Radio-Player`, `RadioDroid`)
+y **televisión por internet** (`StreamVault`, `OwnTV`, `Lume`, `clubTivi`, `prysm`, `better-iptv`, `mytv`,
+`opentv`, `OKVideoMac`, `webos-iptv-player`, `Extreme-InfiniTV`, `another-iptv-player`, `WoodicIPTV`), más las
+**herramientas de mantenimiento** (`epg-tools`, `xmltv-splitter`, `iptv-doctor`) y las **plataformas de
+emisión** (`AzuraCast`, `LibreTime`, `Icecast`).
+
+Tres guías **empiezan avisando del estado del proyecto**: `WoodicIPTV` (★5, sin licencia, sin un cambio desde el
+día que se publicó), `RadioDroid` (dos años parado) y `tune-roam` (★10, dos semanas de vida). Otras dos tienen
+**una sola estrella** y se dice por qué están igualmente en el catálogo: `epg-tools` y `xmltv-splitter` resuelven
+un problema concreto —una guía de programación de decenas de megas— que ningún otro recurso del racimo toca.
+
+**Vetos respetados, y esta vez con más motivo.** En este racimo casi todo lo que se describe funciona con listas
+de canales, portales o cuentas. En las 29 guías **no se enlaza ninguna lista, ningún portal, ninguna cuenta y
+ninguna fuente de contenido**: se describe el reproductor, se dice qué necesita y se deja claro que el catálogo
+lo pone quien lo use. `grep` de vetos sobre las 56 fichas: cero coincidencias.
+
+**Lo que no está verificado.** Ninguno de los 56 se ha instalado. En los que dependen de fuentes ajenas —casi
+todos los de televisión— eso significa que la guía describe el programa, no el contenido: ni una sola lista se
+ha abierto, ni se abrirá.

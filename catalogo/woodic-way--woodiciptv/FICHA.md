@@ -39,10 +39,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de televisión y radio por internet para Android con interfaz Material, pensado para listas en formato
+de texto: canales de televisión y emisoras de radio en la misma aplicación.
+
+### Cómo se usa
+
+1. Se instala la entrega `v2.0`, del 30 de julio de 2026.
+2. Se añade la fuente de canales que tengas derecho a usar.
+3. Se navega por la lista y se reproduce; los canales de radio aparecen separados de los de vídeo.
+
+### Lo que conviene saber antes
+
+**5 estrellas** y **sin licencia declarada**, creado y publicado el mismo día: el 30 de julio de 2026, sin un solo
+cambio desde entonces. Es, con los datos en la mano, el recurso menos sostenido de este racimo. Aquí no se enlaza
+ninguna lista ni ninguna fuente: sólo se describe el programa, y la advertencia va delante porque el proyecto no
+tiene con qué responder si algo falla.
+
+### Cuándo no vale la pena
+
+Hoy, casi siempre. En este mismo racimo hay reproductores con años, licencia y mantenimiento; este existe en el
+catálogo porque se midió, no porque se recomiende.
 
 <!-- GUIA:FIN -->

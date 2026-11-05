@@ -43,10 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de televisión por internet pensado primero para **televisores y Android TV**: interfaz manejable con
+mando a distancia, guía de programación y reproducción con el motor del sistema. Está hecho en Kotlin con las
+herramientas modernas de interfaz de Android.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v1.2.4`, del 2 de noviembre de 2026, en el televisor o en el aparato de TV.
+2. Se añaden las fuentes que tengas derecho a usar; el reproductor no trae ninguna.
+3. Se navega por la guía con el mando: canales, favoritos y lo que se está emitiendo.
+
+### Lo que conviene saber antes
+
+1.004 estrellas y **sin licencia declarada**: GitHub no le reconoce ninguna, así que si quieres reutilizar su
+código, pregunta antes. Nació el 21 de marzo de 2026 y se actualizó esta semana. Aquí **no se enlaza ninguna
+lista, ningún portal ni ninguna fuente de contenido**: el programa se describe, el catálogo lo pone quien lo use.
+
+### Cuándo no vale la pena
+
+Si no tienes televisor Android ni mando, su diseño no aporta nada frente a un reproductor de teléfono. Y si
+nunca has configurado una fuente de televisión por internet, la primera media hora es cuesta arriba.
 
 <!-- GUIA:FIN -->

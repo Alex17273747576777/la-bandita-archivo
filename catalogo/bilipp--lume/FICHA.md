@@ -44,10 +44,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de televisión por internet para **Apple**, con interfaz nativa en SwiftUI: navega, busca y reproduce
+listas de canales y portales, con guía de programación, metadatos de películas y series, y reproducción en
+directo.
+
+### Cómo se usa
+
+1. Se instala la entrega `v3.0.0`, del 1 de noviembre de 2026.
+2. Se añaden las fuentes que tengas derecho a usar: el programa no trae ninguna.
+3. Se navega por el catálogo: directo, películas y series, con la guía al lado.
+
+### Lo que conviene saber antes
+
+176 estrellas, AGPL-3.0, creado el 9 de abril de 2026 y con entrega mayor —la 3.0— esta semana. Es de los pocos
+de su clase para el ecosistema de Apple, y eso lo hace útil a quien tiene un televisor o un aparato de esa casa.
+Aquí **no se enlaza ninguna fuente ni ninguna lista**: se describe el reproductor y la responsabilidad sobre el
+contenido queda donde corresponde.
+
+### Cuándo no vale la pena
+
+Fuera de Apple no existe. Y si no tienes fuentes propias con derecho de uso, la aplicación se queda vacía: es
+un reproductor, no un catálogo.
 
 <!-- GUIA:FIN -->

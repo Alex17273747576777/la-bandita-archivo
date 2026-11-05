@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Aplicación de dictado por voz que se presenta como **sin conexión y para cualquier sistema**: se habla y el
@@ -63,4 +64,5 @@ hable de «cualquier sistema». Su última entrega es de septiembre de 2026.
 
 Si no estás en un Mac, comprueba los requisitos antes de instalar nada: lo escrito en Swift no corre en
 Windows ni en Linux. Y para dictar cuatro frases al día, el teclado del sistema ya trae micrófono.
+
 <!-- GUIA:FIN -->

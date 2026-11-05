@@ -42,10 +42,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Suite completa para montar una emisora de radio por internet en un servidor: panel de control, gestión de la
+música, programación de parrilla, estadísticas de oyentes y todo lo necesario para emitir en continuo. Su propio
+texto la presenta como una emisora «en una caja», y eso es literal: con un contenedor queda funcionando.
+
+### Cómo se usa
+
+1. Se despliega con contenedores; el proyecto **no publica entregas etiquetadas**, así que se instala desde su
+   imagen o desde su instalador.
+2. En el asistente se crea la emisora, se sube la música y se define la parrilla.
+3. Se conecta un programa emisor externo o se deja que la propia suite emita en continuo.
+4. El panel muestra oyentes, histórico y salud del servidor.
+
+### Lo que conviene saber antes
+
+4.085 estrellas, AGPL-3.0, escrito en PHP y con cambios de hoy mismo. Es infraestructura de verdad: pide un
+servidor, base de datos y algo de administración. Y hay un límite que no se puede olvidar: emitir consume ancho
+de banda por cada oyente, así que el coste crece con la audiencia.
+
+### Cuándo no vale la pena
+
+Si sólo quieres oír radio, esto es del lado del que emite. Y si vas a emitir para veinte amigos una vez al mes,
+un servicio ya montado te ahorra la administración entera.
 
 <!-- GUIA:FIN -->

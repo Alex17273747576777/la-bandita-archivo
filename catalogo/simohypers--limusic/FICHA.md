@@ -43,10 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Cliente de escritorio para un servicio de música, nativo y sin navegador dentro: interfaz propia, búsqueda,
+listas, descargas y letras, construido con Rust y una capa web ligera. Su autor presume —y es comprobable en el
+archivo de compilación— de no arrastrar Electron.
+
+### Cómo se usa
+
+1. Se instala la entrega `v1.3.0`, del 19 de octubre de 2026, para Windows, macOS o Linux.
+2. Se busca por canción, artista o lista; el reproductor vive en una ventana propia.
+3. Lo descargado queda en la carpeta configurada, con los metadatos que traiga la fuente.
+
+### Lo que conviene saber antes
+
+1.809 estrellas, GPL-3.0, creado el 3 de julio de 2026. Cuatro meses y entregas regulares. Al ser nativo pesa
+menos que sus competidores hechos con navegador, y a cambio pierde algo de compatibilidad en equipos antiguos.
+Como todos, depende de un servicio ajeno.
+
+### Cuándo no vale la pena
+
+Si no te importa que la aplicación ocupe 300 MB, este ahorro no te dice nada. Y si tu música está en archivos
+locales, hay reproductores de escritorio que no dependen de nadie.
 
 <!-- GUIA:FIN -->

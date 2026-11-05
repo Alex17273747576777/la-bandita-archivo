@@ -44,10 +44,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Cliente no oficial de la radio pública británica y de sus pódcast: reúne más de ochenta emisoras y más de mil
+programas, con metadatos del directo, favoritos y compatibilidad con el sistema de infoentretenimiento del
+coche.
+
+### Cómo se usa
+
+1. Se instala la entrega `v2.1.4`, del 2 de noviembre de 2026.
+2. Se navega por emisoras o por programas; el directo muestra qué suena en cada momento.
+3. Se marcan favoritos y se descargan episodios de pódcast para oír sin conexión.
+
+### Lo que conviene saber antes
+
+23 estrellas y **licencia que GitHub no reconoce**: si quieres reutilizar su código, lee el archivo antes.
+Creado el 30 de diciembre de 2025. Su punto fuerte es la integración con el coche y lo cuidado del directo; su
+límite, que sólo sirve para un país y depende de que la emisora pública mantenga sus direcciones.
+
+### Cuándo no vale la pena
+
+Si no te interesa la radio británica, no hay nada que hacer aquí. Y si escuchas desde el teléfono, la aplicación
+oficial de esa emisora cubre lo mismo sin depender de un tercero.
 
 <!-- GUIA:FIN -->

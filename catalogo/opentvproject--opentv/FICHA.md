@@ -44,10 +44,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de televisión por internet para Android TV, aparatos de televisión y tablets que se presenta con una
+promesa sencilla y comprobable en su texto: **sin cuenta, sin suscripción y sin servidor propio**. Se instala y
+se le da una lista.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v0.11.10`, del 28 de octubre de 2026.
+2. Se añade la lista de canales que tengas derecho a usar.
+3. Se navega con el mando; la guía aparece si la fuente la incluye.
+
+### Lo que conviene saber antes
+
+146 estrellas, GPL-3.0, creado el 30 de julio de 2026, versión `0.11` y entregas frecuentes. Su propuesta de no
+pedir cuenta ni montar servidor es lo contrario de casi todo lo demás de este racimo, y para mucha gente es
+justo lo que busca. Aquí no se enlaza ninguna lista ni ninguna fuente.
+
+### Cuándo no vale la pena
+
+Si quieres funciones de grabación o de biblioteca de películas, esto no las tiene. Y con cuatro meses de vida,
+la estabilidad aún se está haciendo.
 
 <!-- GUIA:FIN -->

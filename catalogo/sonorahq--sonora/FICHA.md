@@ -43,10 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Cliente de música de escritorio nativo que reúne en una sola ventana la reproducción de **archivos locales** y
+el catálogo de varios servicios, con la misma biblioteca, la misma cola y los mismos controles. Su propia
+presentación lo resume: transmite desde tus servicios y reproduce tus archivos, todo en una aplicación nativa.
+
+### Cómo se usa
+
+1. Se instala la entrega `v0.47.0`, del 2 de noviembre de 2026.
+2. Se apunta a la carpeta de música y se conectan las cuentas de los servicios que quieras.
+3. La búsqueda recorre ambos mundos; la cola mezcla canciones de cualquier origen.
+
+### Lo que conviene saber antes
+
+2.643 estrellas, GPL-3.0, creado el 3 de agosto de 2026 y con versiones casi semanales: la `0.47` en tres meses
+da idea del ritmo. Es de los pocos de este racimo con esa mezcla tan limpia entre local y servicios, y también
+de los más jóvenes.
+
+### Cuándo no vale la pena
+
+Con tres meses y medio y una versión `0.x`, es un programa en construcción. Si tu biblioteca local es lo único
+que te importa, hay reproductores con años encima en este mismo racimo.
 
 <!-- GUIA:FIN -->

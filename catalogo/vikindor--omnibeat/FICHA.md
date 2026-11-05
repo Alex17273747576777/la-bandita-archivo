@@ -40,10 +40,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de radio por internet para Android pensado para emisoras modernas: las que emiten con tecnologías
+recientes y no con el formato antiguo. Busca, reproduce y guarda favoritas, con una interfaz limpia.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v1.17.1`, del 4 de noviembre de 2026.
+2. Se busca la emisora por nombre o se navega por categorías.
+3. Se reproduce en segundo plano con controles en la notificación.
+
+### Lo que conviene saber antes
+
+13 estrellas, AGPL-3.0, creado el 10 de mayo de 2026 y con versiones casi semanales: la `1.17` en seis meses dice
+mucho del ritmo de su autor. Su enfoque en las emisiones modernas lo hace útil donde otros fallan, y también lo
+limita: hay emisoras antiguas que no va a poder abrir.
+
+### Cuándo no vale la pena
+
+Si tus emisoras son antiguas o emiten en un formato que este programa no contempla, no sonará nada. Y con trece
+estrellas, la comunidad es una sola persona.
 
 <!-- GUIA:FIN -->

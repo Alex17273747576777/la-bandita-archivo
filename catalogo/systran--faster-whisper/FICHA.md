@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Biblioteca en Python que ejecuta los modelos de reconocimiento de voz de Whisper **mucho más rápido** que la
@@ -65,4 +66,5 @@ desde un guion. Su límite es la memoria de tu equipo: los modelos grandes piden
 
 Si lo que quieres es dictar, no empieces aquí: instala una de las aplicaciones de este racimo que ya lo
 llevan dentro. Esta ficha existe porque es la pieza que hace posibles a las demás.
+
 <!-- GUIA:FIN -->

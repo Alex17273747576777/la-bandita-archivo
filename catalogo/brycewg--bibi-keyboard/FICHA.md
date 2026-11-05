@@ -40,6 +40,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Teclado de dictado por voz para Android construido alrededor de un motor de reconocimiento: se mantiene
@@ -65,4 +66,5 @@ descargar cientos de megas y depender de la potencia del teléfono.
 
 Si no escribes chino ni necesitas dictado, es una aplicación grande para usar una sola tecla. Y si lo que
 quieres es privacidad, elige un motor local desde el principio y no configures ninguno en la nube.
+
 <!-- GUIA:FIN -->

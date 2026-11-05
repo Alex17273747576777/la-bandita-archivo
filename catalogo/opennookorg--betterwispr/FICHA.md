@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Aplicación de dictado para **macOS**, local: se mantiene una combinación de teclas, se habla y el texto entra en
@@ -65,4 +66,5 @@ existe en Mac.
 
 Hoy, para uso diario: un mes de vida no da para confiarle el dictado de tu trabajo. Si quieres algo parecido con
 más rodaje, en este racimo hay varias opciones con más historia.
+
 <!-- GUIA:FIN -->

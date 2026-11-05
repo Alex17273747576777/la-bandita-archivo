@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Herramienta de Android con dos caras: dictado sin conexión que se ofrece al micrófono del teclado que ya usas,
@@ -65,4 +66,5 @@ dificultades de audición. Su límite es la precisión de un motor pequeño corr
 
 Si quieres dictar textos largos con precisión alta, aquí no está. Y si tu teléfono tiene poca memoria, el
 modelo local va a cortar frases.
+
 <!-- GUIA:FIN -->

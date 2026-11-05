@@ -42,10 +42,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de radio por internet para el escritorio de GNOME que, en vez de obligarte a buscar emisoras por
+nombre, **trae más de treinta mil** ya organizadas por país, idioma y etiqueta, con una colección curada para
+descubrir.
+
+### Cómo se usa
+
+1. Se instala la entrega `v0.8.0`, del 12 de julio de 2026, o el paquete de tu distribución.
+2. Al abrir, se navega por las colecciones o se busca por país e idioma.
+3. Se reproduce y se guardan favoritas; el historial queda en la ventana.
+
+### Lo que conviene saber antes
+
+51 estrellas, GPL-3.0, creado el 18 de febrero de 2026, escrito en un lenguaje poco frecuente para aplicaciones
+de escritorio. Su planteamiento —catálogo primero, búsqueda después— es justo lo contrario de casi todo lo demás
+de este racimo, y para quien no sabe qué poner, es una ventaja real.
+
+### Cuándo no vale la pena
+
+Está hecho para GNOME: fuera de ese entorno funciona, pero arrastra bibliotecas. Y si ya sabes qué emisora
+quieres, la búsqueda por nombre de cualquier otro reproductor es más corta.
 
 <!-- GUIA:FIN -->

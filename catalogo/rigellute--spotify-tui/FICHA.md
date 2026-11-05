@@ -42,10 +42,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Cliente de música para la terminal, escrito en Rust: se conecta a tu cuenta de un servicio de música y permite
+buscar, navegar listas, ver el reproductor actual y controlar la reproducción sin salir de la consola. Fue,
+durante años, la forma de usar ese servicio desde un servidor sin escritorio.
+
+### Cómo se usa
+
+1. Se instala con el gestor de paquetes de tu sistema o con las herramientas de Rust; la entrega medida es la
+`v0.25.0`, del 24 de agosto de 2021.
+2. Se crea una credencial de aplicación en el panel del servicio y se pega en el archivo de configuración.
+3. Se abre `spt` en la terminal, se elige el aparato de reproducción y se navega con el teclado.
+
+### Lo que conviene saber antes
+
+19.416 estrellas, MIT, y **su último cambio es de abril de 2024**: dos años y medio sin tocarlo. Para un cliente
+de un servicio que cambia sus reglas a menudo, eso es mucho. La autenticación exige crear credenciales propias
+en el panel del servicio, y ese trámite ha cambiado varias veces desde que el programa se escribió.
+
+### Cuándo no vale la pena
+
+Hoy, en la mayoría de los casos: hay clientes de terminal con el mismo enfoque que siguen publicando. Esta
+ficha existe porque el programa existe, se midió y mucha gente lo busca todavía por su nombre.
 
 <!-- GUIA:FIN -->

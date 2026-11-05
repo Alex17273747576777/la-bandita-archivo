@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Es una **modificación del teclado de Google** que desbloquea en teléfonos de otras marcas la voz nueva del
@@ -70,4 +71,5 @@ confianza. Si decides probarlo, no lo pongas en el teléfono donde entras a tu b
 Casi siempre. Si lo que quieres es dictar sin conexión y sin depender de nadie, en este mismo racimo hay
 teclados con su código a la vista y sin red, y esa diferencia —código propio frente a paquete ajeno
 reempaquetado— pesa más que cualquier función desbloqueada.
+
 <!-- GUIA:FIN -->

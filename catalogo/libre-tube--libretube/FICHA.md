@@ -40,10 +40,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Cliente alternativo de un sitio de vídeo para Android, hecho para ver y escuchar sin cuenta, sin anuncios y sin
+el rastreo de la aplicación oficial. En este racimo entra por el audio: permite suscribirse a canales, escuchar
+sólo el sonido y descargar para oír sin conexión.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v32.1`, del 20 de agosto de 2026.
+2. Se abre sin cuenta; se pueden importar las suscripciones desde un archivo o desde la cuenta del sitio.
+3. En el reproductor se elige la calidad y el modo de audio; las descargas se marcan por elemento.
+
+### Lo que conviene saber antes
+
+12.945 estrellas, GPL-3.0, y cinco años de historia. Su proyecto pide expresamente que los fallos y las
+peticiones se manden por su repositorio y no por otras plataformas, una señal de que la bandeja de entrada se
+les desborda. Se apoya en la biblioteca de extracción que también está en este racimo: cuando esa cambia, aquí
+se nota.
+
+### Cuándo no vale la pena
+
+Si quieres ver vídeo con la máxima calidad y funciones modernas, la aplicación oficial está mejor hecha para
+eso. LibreTube se elige por privacidad y por escuchar sin anuncios, aceptando que la interfaz va un paso por
+detrás.
 
 <!-- GUIA:FIN -->

@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Entorno de escritura chino multiplataforma construido sobre Rime, con tres ideas propias: una memoria del texto
@@ -64,4 +65,5 @@ declara. Es un proyecto ambicioso y joven; la ambición, hoy, va por delante de 
 
 Si no escribes chino, no hay nada que hacer. Y si escribes chino en Mac o Windows y quieres algo probado, hay
 proyectos de este mismo racimo con años encima.
+
 <!-- GUIA:FIN -->

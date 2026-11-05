@@ -42,10 +42,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Herramienta para **revisar y limpiar listas de canales**: comprueba qué direcciones siguen respondiendo, quita
+las muertas, arregla la guía de programación y deja un archivo más sano. Es mantenimiento de listas, no
+reproducción.
+
+### Cómo se usa
+
+1. Se abre su versión web o se ejecuta desde el repositorio; la entrega medida es la `v0.1.0`, del 20 de junio
+   de 2026.
+2. Se le da la lista y, si se quiere, la guía.
+3. El programa prueba cada dirección, marca las que no responden y devuelve la lista limpia.
+
+### Lo que conviene saber antes
+
+**6 estrellas**, MIT, creado y entregado el mismo día: el 20 de junio de 2026, con cambios en noviembre. Su
+utilidad es real y muy concreta: una lista de mil canales tiene siempre un tercio de direcciones muertas, y
+probarlas a mano es imposible. Su versión `0.1` avisa de que aún puede cambiar todo.
+
+### Cuándo no vale la pena
+
+Si tu lista es de veinte canales, se revisa a mano en diez minutos. Y si no quieres que un programa haga
+peticiones a todas las direcciones de tu lista, hazlo tú mismo.
 
 <!-- GUIA:FIN -->

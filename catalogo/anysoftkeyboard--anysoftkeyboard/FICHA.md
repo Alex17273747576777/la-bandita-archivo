@@ -39,6 +39,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Teclado de Android con una idea vieja y sólida: **muchos idiomas y ningún permiso de red**. Trae corrección,
@@ -61,4 +62,5 @@ parecer pequeñas hasta que se ajustan. A cambio, no hay nada que envíe lo que 
 
 Si escribes en un solo idioma y el teclado de fábrica ya te corrige bien, no hay razón para cambiar. Tiene
 sentido si escribes en varios idiomas mezclados o si no quieres un teclado con red en el teléfono.
+
 <!-- GUIA:FIN -->

@@ -39,10 +39,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de televisión por internet para Android y Android TV, con tres motores de reproducción distintos
+—el del sistema, uno alternativo y uno que reproduce casi cualquier cosa— para que los canales que fallan en un
+motor funcionen en otro. Su interfaz sigue el estilo visual más reciente de Android.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `V2.2.0.219`, del 21 de agosto de 2026.
+2. Se añade la lista de canales que tengas derecho a usar.
+3. Si un canal no se ve, se cambia el motor de reproducción en los ajustes de ese canal.
+4. La guía de programación se carga aparte, si la fuente la trae.
+
+### Lo que conviene saber antes
+
+3.006 estrellas, MIT, creado el 20 de febrero de 2025. Su documentación y su comunidad están en chino; la
+interfaz tiene traducción parcial. La combinación de tres motores es lo que lo hace útil con listas
+desiguales, y también lo que lo hace más pesado que un reproductor simple. Aquí no se enlaza ninguna lista.
+
+### Cuándo no vale la pena
+
+Si tu lista es estable y se ve bien con un motor normal, los otros dos no aportan. Y si no lees chino, algunas
+pantallas de configuración se hacen cuesta arriba.
 
 <!-- GUIA:FIN -->

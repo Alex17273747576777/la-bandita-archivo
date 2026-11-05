@@ -39,6 +39,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Teclado de Android sin conexión a internet, heredero de un teclado libre clásico: distribución ajustable,
@@ -61,4 +62,5 @@ predicción no es la de los gigantes, y la configuración inicial tiene más pas
 
 Si quieres deslizar el dedo y que acierte casi siempre, un teclado comercial lo hace mejor. HeliBoard se
 elige por privacidad y por control, no por comodidad máxima.
+
 <!-- GUIA:FIN -->

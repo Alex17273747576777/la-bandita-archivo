@@ -43,10 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor multiplataforma con una idea distinta a la de sus vecinos: en vez de un catálogo fijo, admite
+**complementos** que añaden fuentes, y a la vez reproduce lo que tengas en el teléfono. Está escrito en Flutter
+por fuera y Rust por dentro.
+
+### Cómo se usa
+
+1. Se instala desde la entrega `v3.1.0`, del 21 de octubre de 2026; hay paquete para Android, Windows y Linux.
+2. Se añaden las fuentes como complementos, una por una, o se apunta a la carpeta de música local.
+3. Se navega por las pestañas y se encola; lo que venga de una fuente se puede descargar.
+
+### Lo que conviene saber antes
+
+2.301 estrellas, GPL-2.0, y nació el 7 de diciembre de 2023: casi tres años, de los pocos con recorrido. Su
+arquitectura de complementos es su fuerza y su desgracia: cuando una fuente cambia, el complemento se rompe y
+hay que esperar a que alguien lo arregle. Nunca ha superado la versión 3.
+
+### Cuándo no vale la pena
+
+Si quieres instalar y escuchar sin configurar nada, esto pide montar fuentes a mano. Y si sólo usas archivos
+locales, hay reproductores más directos en este mismo racimo.
 
 <!-- GUIA:FIN -->

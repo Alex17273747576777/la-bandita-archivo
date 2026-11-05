@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Dictado por voz con pulsar-para-hablar en **Wayland**, el sistema de ventanas de las distribuciones Linux
@@ -65,4 +66,5 @@ propio texto habla de velocidad en tiempo real sobre el procesador; eso es una d
 
 Si sigues con X11, busca otra opción de este racimo: aquí el objetivo es Wayland. Y si tu compositor no está
 entre los contemplados, la integración del atajo puede no funcionar.
+
 <!-- GUIA:FIN -->

@@ -37,10 +37,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de televisión por internet ligero y multiplataforma: lee listas de canales y las reproduce con una
+interfaz sencilla, sin adornos ni funciones de más. Existe para iOS, Android y escritorio.
+
+### Cómo se usa
+
+1. Se instala la entrega `ios-v2.4.0`, del 1 de agosto de 2026.
+2. Se añade la lista de canales que tengas derecho a usar.
+3. Se navega por la lista y se elige canal; la reproducción usa el motor del sistema.
+
+### Lo que conviene saber antes
+
+157 estrellas, MIT, creado el 10 de junio de 2025 y con cambios de finales de octubre de 2026. Su nombre lo dice
+todo: es «otro» reproductor más, y su ventaja es la sencillez y la licencia permisiva. Su punto flojo es que no
+hay guía de programación elaborada ni metadatos: es una lista y un reproductor.
+
+### Cuándo no vale la pena
+
+Si quieres guía, metadatos y ordenar películas y series, aquí no están. Se elige cuando lo único que hace falta
+es abrir una lista y verla.
 
 <!-- GUIA:FIN -->

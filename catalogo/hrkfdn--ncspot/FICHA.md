@@ -42,10 +42,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Cliente de terminal para un servicio de música, con la mirada puesta en los reproductores de consola clásicos:
+pantalla única, teclas de siempre, cola y biblioteca. Funciona en Linux, macOS y Windows, y usa por debajo la
+biblioteca libre que implementa el protocolo del servicio.
+
+### Cómo se usa
+
+1. Se instala desde el gestor de paquetes de tu distribución o con las herramientas de Rust; la entrega medida
+   es la `v1.5.0`, del 1 de octubre de 2026.
+2. Se arranca y se sigue el enlace de autorización que muestra; hay soporte para teclas multimedia.
+3. Se navega con el teclado: buscar, añadir a la cola, cambiar de lista.
+
+### Lo que conviene saber antes
+
+6.806 estrellas, licencia BSD de dos cláusulas —permisiva y poco habitual—, con ocho años de historia y
+entregas este año. Necesita cuenta de pago. Su ventaja sobre otros clientes de terminal es que compila en casi
+cualquier sistema y su configuración cabe en un archivo de texto.
+
+### Cuándo no vale la pena
+
+Si no tienes cuenta de pago, no hay nada que hacer. Y si prefieres ver carátulas y mover cosas con el ratón,
+esto no es para ti: aquí todo es texto y teclas.
 
 <!-- GUIA:FIN -->

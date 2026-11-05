@@ -41,10 +41,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de radio por internet para Android que, en vez de tirar de una base de datos, **busca la emisión en
+la propia página de la emisora**: se le da el nombre o la dirección del sitio y encuentra el flujo de audio que
+hay dentro. Eso le permite alcanzar emisoras que no están en ningún catálogo.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v3.17.2`, del 2 de noviembre de 2026.
+2. Se busca la emisora por nombre o se pega la dirección de su página.
+3. El programa encuentra el flujo, lo guarda como favorita y lo reproduce.
+
+### Lo que conviene saber antes
+
+14 estrellas, GPL-3.0, creado el 18 de enero de 2026 y con versiones constantes. Su método tiene una ventaja
+grande —no depende de ninguna base de datos de terceros— y una pega del mismo tamaño: si la página de la emisora
+cambia su reproductor, la búsqueda puede dejar de encontrarlo hasta que se actualice el programa.
+
+### Cuándo no vale la pena
+
+Si tus emisoras están en los catálogos de siempre, otros reproductores las encuentran en un toque. Esta se
+elige para las que no aparecen en ningún sitio.
 
 <!-- GUIA:FIN -->

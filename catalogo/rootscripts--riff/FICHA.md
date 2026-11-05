@@ -43,10 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de música con dos bibliotecas —un servicio de vídeo y otro de sonido— en la misma aplicación, con
+visualizaciones hechas con sombreadores en tiempo real y una interfaz muy cuidada. Se instala desde el
+navegador o como programa de escritorio.
+
+### Cómo se usa
+
+1. Se abre su versión web o se instala la entrega `v44.2.0`, del 4 de noviembre de 2026.
+2. Se busca por canción o artista; los resultados de las dos fuentes aparecen juntos.
+3. Se encola y se reproduce; las visualizaciones se activan en el reproductor.
+
+### Lo que conviene saber antes
+
+825 estrellas, MIT, creado el 4 de octubre de 2026: **un mes**. Su texto avisa de que el proyecto lo mantiene
+sólo su equipo y que **no acepta contribuciones externas**: los fallos se reportan, los cambios no. Eso no lo
+hace peor, pero sí más dependiente de una sola voluntad.
+
+### Cuándo no vale la pena
+
+Para escuchar música con calma y sin distracciones, las visualizaciones sobran. Y con un mes de vida y sin
+contribuciones abiertas, es un programa que puede quedarse quieto cualquier día.
 
 <!-- GUIA:FIN -->

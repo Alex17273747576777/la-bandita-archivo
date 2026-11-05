@@ -42,10 +42,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Programa que hace que un equipo aparezca como **altavoz** dentro de un servicio de música: se monta en una
+Raspberry Pi o en un ordenador sin pantalla, y desde la aplicación oficial del teléfono se le manda la música.
+Está escrito en Go, que en este caso significa un solo binario sin dependencias.
+
+### Cómo se usa
+
+1. Se descarga el binario de la entrega `v0.10.5`, del 16 de octubre de 2026, o se compila.
+2. Se escribe un archivo de configuración con el nombre del aparato y la salida de audio.
+3. Se arranca como servicio; en la aplicación oficial aparece como un dispositivo más de la red.
+
+### Lo que conviene saber antes
+
+386 estrellas, GPL-3.0 y entregas de este mes. Admite varias salidas de audio y, a diferencia de otras piezas
+parecidas, su autor lo documenta con ejemplos. Necesita cuenta de pago del servicio. Y hay que tener claro qué
+es: no reproduce tu propia biblioteca, reproduce lo que le manden desde la aplicación oficial.
+
+### Cuándo no vale la pena
+
+Si no tienes un equipo dedicado sin pantalla, no aporta nada frente a usar el teléfono. Y en una red inestable,
+el aparato aparece y desaparece de la lista.
 
 <!-- GUIA:FIN -->

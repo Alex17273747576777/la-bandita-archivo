@@ -44,10 +44,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de música para Android y Windows que junta dos mundos: lo que escuchas en un servicio y lo que ya
+tienes en archivos, en la misma biblioteca y con la misma cola. Su propia descripción lo resume mejor que
+cualquier resumen: hecho para escuchar, no para iniciar sesión.
+
+### Cómo se usa
+
+1. Se instala la entrega `v3.0.7`, del 3 de noviembre de 2026.
+2. Se elige la carpeta de música local y, si quieres, se conecta el servicio.
+3. La búsqueda recorre las dos fuentes a la vez; las descargas se marcan por lista o por canción.
+
+### Lo que conviene saber antes
+
+2.084 estrellas, GPL-3.0, creado el 28 de junio de 2026 y con entregas de esta semana. Tiene versión de
+escritorio además de la de Android, cosa poco habitual en esta familia. La mitad del servicio depende de un
+tercero; la mitad local no.
+
+### Cuándo no vale la pena
+
+Si no mezclas las dos cosas, hay reproductores más simples para cada una. Y si tu prioridad es la estabilidad
+a años, el proyecto aún no los tiene.
 
 <!-- GUIA:FIN -->

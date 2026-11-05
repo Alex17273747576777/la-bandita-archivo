@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Aplicación de dictado para **macOS** con reconocimiento hecho en el propio equipo y un paso de mejora con un
@@ -67,4 +68,5 @@ declaración del autor, no una medición de esta ficha.
 
 Si no usas Mac, hoy no hay versión que instalar por mucho que la descripción lo anuncie. Y en un Mac con poca
 memoria, el paso de mejora con modelo de lenguaje se come el beneficio.
+
 <!-- GUIA:FIN -->

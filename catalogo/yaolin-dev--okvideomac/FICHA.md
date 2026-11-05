@@ -43,10 +43,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de televisión por internet nativo para **macOS con chip de Apple**: reproduce listas de canales y
+cuentas de portal, con guía, catálogo de películas y series, y compatibilidad con varios formatos de fuente muy
+usados en ese ecosistema.
+
+### Cómo se usa
+
+1. Se instala la entrega `v0.9.2`, del 5 de noviembre de 2026, en un Mac con chip de Apple.
+2. Se añaden las fuentes que tengas derecho a usar; el programa no trae ninguna.
+3. Se navega por directo, películas y series; la guía aparece cuando la fuente la trae.
+
+### Lo que conviene saber antes
+
+119 estrellas, GPL-3.0, creado el 15 de agosto de 2026 y con entrega de hoy mismo. Sólo funciona en chips de
+Apple: no hay versión para los Mac antiguos. Aquí no se enlaza ninguna lista ni ninguna cuenta, y su propio texto
+menciona formatos de fuente que circulan por la red sin que su origen esté claro: eso queda del lado de quien lo
+use.
+
+### Cuándo no vale la pena
+
+Si tu Mac no es de chip Apple, no existe para ti. Y si no tienes fuentes propias con derecho de uso, la
+aplicación se queda vacía.
 
 <!-- GUIA:FIN -->

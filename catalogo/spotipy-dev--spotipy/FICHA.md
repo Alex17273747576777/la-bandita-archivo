@@ -43,10 +43,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Biblioteca de Python para la interfaz pública de un servicio de música: consultar artistas, álbumes, listas,
+gestionar la reproducción y automatizar cualquier cosa que esa interfaz permita. Es la vía más corta para
+escribir un programa de pocas líneas que haga algo con tu cuenta.
+
+### Cómo se usa
+
+1. Se instala con `pip install spotipy`; la entrega medida es la `2.26.0`, del 3 de marzo de 2026.
+2. Se crea una aplicación en el panel del servicio y se obtienen dos claves.
+3. Desde código se instancia el cliente con esas claves y se llaman sus métodos; para acciones de cuenta hace
+   falta el flujo de autorización.
+
+### Lo que conviene saber antes
+
+5.486 estrellas, MIT, doce años de proyecto y cambios de junio de 2026. Necesita que el usuario cree sus propias
+credenciales en el servicio, y eso ha cambiado de sitio varias veces. Los límites de peticiones del servicio son
+reales y hay que respetarlos.
+
+### Cuándo no vale la pena
+
+Si no escribes código, no sirve. Y si sólo quieres escuchar, un cliente de este racimo te ahorra todo el
+trámite de credenciales.
 
 <!-- GUIA:FIN -->

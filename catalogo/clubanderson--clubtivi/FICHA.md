@@ -40,10 +40,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de televisión por internet multiplataforma que presume de dos cosas técnicas: **cambio automático de
+fuente cuando una se cae** y mapeo inteligente de la guía de programación. Reúne varias fuentes en una sola
+interfaz con canales unificados.
+
+### Cómo se usa
+
+1. Se instala la entrega semanal `weekly-2026.43`, del 1 de noviembre de 2026.
+2. Se añaden las fuentes que tengas derecho a usar; el programa no trae ninguna.
+3. Se navega por los canales unificados; si una fuente falla, el reproductor prueba la siguiente.
+4. Se puede controlar desde el móvil como mando a distancia de la pantalla.
+
+### Lo que conviene saber antes
+
+108 estrellas, Apache-2.0, creado el 21 de febrero de 2026, con entregas semanales. Su texto presume de «no
+almacenar nunca» —eso es lo que dice su autor, no una medición—. Y su descripción menciona servicios de descarga
+y fuentes de pago: aquí se nombran **sin enlazar ninguna**, y se advierte de que combinar fuentes de pago con
+otras gratuitas puede acabar en un catálogo que no es lo que uno cree.
+
+### Cuándo no vale la pena
+
+Si tienes una sola fuente estable, el cambio automático no se nota. Y si te preocupa de dónde sale lo que ves,
+una aplicación que junta muchas fuentes hace esa pregunta más difícil, no más fácil.
 
 <!-- GUIA:FIN -->

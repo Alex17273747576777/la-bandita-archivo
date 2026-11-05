@@ -43,10 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de radio por internet para la **terminal**, con visualización del audio en tiempo real: busca
+emisoras en una base pública, las reproduce en consola y pinta el espectro mientras suena. Es una curiosidad
+deliberada, y funciona.
+
+### Cómo se usa
+
+1. Se instala con las herramientas de Rust o desde la entrega `v0.12.0`, del 1 de octubre de 2026.
+2. Se busca por nombre, país o etiqueta desde la propia terminal.
+3. Se elige emisora y suena; el espectro se dibuja en la misma pantalla.
+
+### Lo que conviene saber antes
+
+129 estrellas, MIT, creado el 14 de marzo de 2026 y con cambios de octubre. Su descripción y su texto de
+presentación son la misma frase, así que no hay más documentación que la del propio programa. Las emisoras
+salen de una base mantenida por voluntarios: hay estaciones muertas que nadie retira.
+
+### Cuándo no vale la pena
+
+Si no vives en una terminal, no hay razón para escuchar radio ahí. Y si quieres carátulas y favoritas visuales,
+este no es el sitio.
 
 <!-- GUIA:FIN -->

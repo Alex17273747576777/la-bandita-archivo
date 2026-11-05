@@ -41,10 +41,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de música para Android con biblioteca local, búsqueda en línea, descargas y reproducción en
+segundo plano, con una interfaz que sigue el sistema de diseño actual y varios idiomas, entre ellos el español.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `10.6.0`, del 23 de octubre de 2026.
+2. La primera vez se concede permiso al almacenamiento y se elige qué carpetas entran en la biblioteca.
+3. La búsqueda en línea trae resultados del servicio que uses; lo que quieras guardar se descarga.
+
+### Lo que conviene saber antes
+
+4.403 estrellas, GPL-3.0, y nació el 5 de diciembre de 2021: es de los veteranos de este racimo y ha
+sobrevivido a varias roturas del servicio en el que se apoya. Su descripción y su texto de presentación son la
+misma frase, así que de ahí no se saca más información: lo que hay es lo que se ve al usarlo.
+
+### Cuándo no vale la pena
+
+Si sólo quieres tu música local, la mitad de la aplicación sobra. Y si el servicio del que toma la música
+cambia sus reglas, la parte en línea se apaga y queda el reproductor local.
 
 <!-- GUIA:FIN -->

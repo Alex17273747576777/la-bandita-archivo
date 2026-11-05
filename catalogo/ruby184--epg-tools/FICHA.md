@@ -41,10 +41,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Juego de herramientas para la **guía de programación**: recoge los datos de una o varias fuentes, los guarda por
+días con caché, y los une y valida en un archivo único que cualquier reproductor pueda leer. Es fontanería para
+quien mantiene una lista grande y no quiere volver a descargarla entera cada vez.
+
+### Cómo se usa
+
+1. Se instala con las herramientas de Node; la entrega medida es la `v0.9.0`, del 16 de octubre de 2026.
+2. Se escriben las fuentes en su configuración, una por una.
+3. Se ejecuta el recogedor; los días ya descargados se reutilizan y sólo se piden los que faltan.
+4. El resultado se sirve al reproductor como una guía más.
+
+### Lo que conviene saber antes
+
+**Una estrella** y licencia MIT: es una herramienta recién nacida, de agosto de 2026, hecha por una persona para
+su propio problema. Lo interesante no es su tamaño sino su idea: la caché por día y por canal, que es lo que
+hace viable una guía de dos semanas sin descargar un archivo enorme cada mañana.
+
+### Cuándo no vale la pena
+
+Si tienes cuatro canales, el reproductor se apaña con su propia descarga. Esto se justifica con listas grandes o
+con fuentes que tardan en responder.
 
 <!-- GUIA:FIN -->

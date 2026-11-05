@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Es un paquete de instalación de un teclado de dictado por voz, **recompilado por una persona que declara no
@@ -64,4 +65,5 @@ descargarlo de quien lo escribe.
 
 Siempre. Esta entrada está en el catálogo porque el recurso existe y se midió; la guía sirve para que nadie
 lo confunda con el proyecto del que sale.
+
 <!-- GUIA:FIN -->

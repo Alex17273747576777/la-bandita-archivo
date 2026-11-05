@@ -39,6 +39,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Expansor de texto: escribes una palabra corta y el programa la sustituye por lo que hayas definido —una firma,
@@ -62,4 +63,5 @@ detectar la palabra clave, así que es un programa con acceso de teclado: se ins
 
 Si escribes las mismas cinco cosas al mes, no compensa configurarlo. Y si compartes el equipo, un expansor con
 acceso al teclado es una decisión que hay que tomar entre todos.
+
 <!-- GUIA:FIN -->

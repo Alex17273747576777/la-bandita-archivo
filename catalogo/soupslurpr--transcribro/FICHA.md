@@ -39,6 +39,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Teclado de Android que reconoce la voz **en el propio aparato**: incluye la detección de cuándo empiezas y
@@ -61,4 +62,5 @@ detección de actividad de voz es lo que lo hace cómodo, y su límite es la pre
 
 Si buscas la última versión de cada arreglo, la entrega tiene más de un año. Y si tu teléfono es modesto, el
 modelo local y la detección de voz compiten por la misma memoria.
+
 <!-- GUIA:FIN -->

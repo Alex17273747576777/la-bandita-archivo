@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Implementación de los modelos de reconocimiento de voz de Whisper en C y C++, sin dependencias y capaz de
@@ -68,4 +69,5 @@ tarjeta gráfica, los modelos grandes tardan lo suyo.
 
 Si lo que quieres es dictar y ya, instala una aplicación que lo lleve dentro: esto es el motor, no el
 volante.
+
 <!-- GUIA:FIN -->

@@ -40,10 +40,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Plataforma para emitir radio: programación de parrilla, gestión de la biblioteca de audio, emisión automática,
+estadísticas y publicación de pódcast. Nació como bifurcación mantenida por la comunidad de un proyecto anterior
+y hoy es la opción libre de referencia para montar una emisora completa.
+
+### Cómo se usa
+
+1. Se despliega con contenedores o con el instalador de su documentación; la entrega medida es la `4.5.0`, del 16
+   de julio de 2025.
+2. En el panel se sube la música, se definen bloques horarios y se programa la parrilla.
+3. Se conecta con el servidor de emisión que tengas y se comprueba la señal.
+
+### Lo que conviene saber antes
+
+938 estrellas, AGPL-3.0, escrito en PHP, con cambios de noviembre de 2026 pero **entrega de julio de 2025**: el
+programa se arregla y no se publica. Es infraestructura de verdad: pide servidor, base de datos y paciencia. Su
+ventaja frente a otras suites es que no obliga a un servicio de pago para empezar.
+
+### Cuándo no vale la pena
+
+Si vas a emitir unas horas al mes, montar una plataforma entera es desproporcionado. Y si no tienes un servidor
+donde dejarla corriendo, no llegará el primer día.
 
 <!-- GUIA:FIN -->

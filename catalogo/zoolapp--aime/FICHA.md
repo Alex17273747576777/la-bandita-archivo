@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Método de entrada chino para **macOS**, construido sobre el motor Rime, con lo local por delante y funciones de
@@ -63,4 +64,5 @@ una bifurcación del teclado chino clásico de Mac, sino un proyecto aparte que 
 
 Si no escribes chino, no aplica. Y si buscas un método de entrada para años, un mes de vida es poco, por muy
 bien firmado que venga el paquete.
+
 <!-- GUIA:FIN -->

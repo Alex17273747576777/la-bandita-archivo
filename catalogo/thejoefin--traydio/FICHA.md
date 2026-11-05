@@ -43,10 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de radio por internet para Windows que vive **en la bandeja del sistema**: no tiene ventana grande,
+se abre desde el icono y deja sonando la emisora mientras trabajas. Su nombre anterior era Trdo y cambió en la
+versión 2.0.
+
+### Cómo se usa
+
+1. Se instala la entrega `v2.2.3`, del 4 de noviembre de 2026, en Windows.
+2. Se busca la emisora por nombre o se pega su dirección; las favoritas quedan guardadas.
+3. Se controla desde la bandeja: play, pausa, siguiente y volumen.
+
+### Lo que conviene saber antes
+
+204 estrellas, escrito en C#, creado el 25 de septiembre de 2025 y actualizado hoy mismo. Es pequeño y hace una
+sola cosa, que es exactamente lo que promete. Su límite es el del sistema: sólo Windows, y depende de las
+libertades que dé la bandeja de notificaciones en cada versión.
+
+### Cuándo no vale la pena
+
+En Linux o macOS no existe. Y si quieres buscar emisoras por país, idioma y etiqueta, hay programas de este
+racimo con catálogo propio; aquí buscas por nombre o pegas la dirección.
 
 <!-- GUIA:FIN -->

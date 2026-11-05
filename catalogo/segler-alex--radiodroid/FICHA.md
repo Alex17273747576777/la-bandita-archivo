@@ -37,10 +37,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de radio por internet para Android que usa la base pública de emisoras más conocida: busca por
+nombre, país, idioma y etiqueta, guarda favoritas y permite grabar lo que suena. Fue durante años la aplicación
+de referencia de su categoría.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `0.86`, del 28 de septiembre de 2023.
+2. Se busca por país o por nombre; los resultados vienen de esa base pública.
+3. Se marca favorita y se reproduce; la grabación se activa desde el menú.
+
+### Lo que conviene saber antes
+
+1.081 estrellas, GPL-3.0, creado en 2013 y **sin cambios desde junio de 2024**: dos años parado. Su última
+entrega es de 2023, y Android ha cambiado lo suficiente desde entonces como para que los permisos y la
+reproducción en segundo plano den problemas en versiones recientes.
+
+### Cuándo no vale la pena
+
+Hoy, para instalar de nuevo: hay reproductores de este racimo que usan la misma base de emisoras y siguen
+publicando. Esta ficha se conserva porque el programa existe, se midió y mucha gente lo busca por su nombre.
 
 <!-- GUIA:FIN -->

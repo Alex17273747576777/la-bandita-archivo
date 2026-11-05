@@ -43,10 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor de televisión por internet para **televisores LG con webOS**: se instala en el propio televisor y
+lee listas de canales y cuentas de portal, con guía de programación y subtítulos en línea.
+
+### Cómo se usa
+
+1. Se instala siguiendo las instrucciones de su repositorio —en webOS se instala por el modo de desarrollo del
+   televisor—; la entrega medida es la `v1.17.0`, del 20 de octubre de 2026.
+2. Se cargan las listas o cuentas que tengas derecho a usar.
+3. Se navega con el mando del televisor: canales, favoritos y guía.
+
+### Lo que conviene saber antes
+
+145 estrellas, Apache-2.0, creado el 28 de marzo de 2026 y con entregas regulares. Es de los pocos proyectos que
+ataca un televisor concreto en vez de Android en general, y eso se agradece; a cambio, el proceso de instalación
+en webOS no es el de una tienda y hay que activar el modo de desarrollo del aparato.
+
+### Cuándo no vale la pena
+
+Si tu televisor no es LG con webOS, no sirve. Y si no quieres activar el modo de desarrollo del televisor, mejor
+un aparato externo con Android.
 
 <!-- GUIA:FIN -->

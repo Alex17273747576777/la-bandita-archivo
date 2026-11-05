@@ -40,10 +40,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Aplicación de Android para descubrir y escuchar emisoras de radio de todo el mundo: catálogo por países e
+idiomas, favoritas, historial y búsqueda. Usa una base pública de emisoras, así que no hay que pegar direcciones
+a mano.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v0.9.0`, del 22 de octubre de 2026.
+2. Se elige país o idioma y se navega; al tocar una emisora, suena.
+3. Las que te gusten se marcan como favoritas y quedan en la pantalla de inicio.
+
+### Lo que conviene saber antes
+
+180 estrellas, GPL-3.0, creado el 12 de junio de 2026, versión `0.9`: un paso antes de la primera. La calidad
+depende de la base pública de emisoras, que es mantenida por voluntarios: hay estaciones que aparecen y ya no
+emiten, y nadie las quita el mismo día.
+
+### Cuándo no vale la pena
+
+Si escuchas dos emisoras concretas, guárdalas en el navegador y evítate la aplicación. Y si quieres grabar o
+programar, aquí no hay nada de eso.
 
 <!-- GUIA:FIN -->
