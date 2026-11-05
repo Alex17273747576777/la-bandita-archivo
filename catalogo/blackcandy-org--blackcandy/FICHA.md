@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Servidor de música autoalojado con interfaz web moderna: se instala, apunta a la carpeta de música y sirve la
@@ -63,4 +64,5 @@ hay que usar el suyo o la web.
 
 Si ya tienes clientes que hablan ese protocolo, mejor un servidor compatible. Y si sólo escuchas en el
 ordenador donde está la música, no necesitas servidor.
+
 <!-- GUIA:FIN -->

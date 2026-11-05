@@ -40,6 +40,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Servidor de audio que reparte el sonido por la casa: envía lo que suena a altavoces AirPlay 1 y 2, a
@@ -63,4 +64,5 @@ red: con cable va mejor que con wifi.
 
 Si sólo escuchas en un aparato, no hay nada que repartir. Y si tus altavoces no hablan ninguno de esos
 protocolos, esto no los va a hacer compatibles.
+
 <!-- GUIA:FIN -->

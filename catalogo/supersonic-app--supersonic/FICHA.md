@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Cliente de escritorio ligero para servidores de música autoalojados: se conecta a uno compatible con el
@@ -62,4 +63,5 @@ el peso: arranca rápido y no lleva un navegador dentro. Su límite, el de todos
 
 Si no tienes servidor montado, no sirve de nada. Y si ya usas la web del servidor, esto añade comodidad de
 escritorio y descarga local, nada más.
+
 <!-- GUIA:FIN -->

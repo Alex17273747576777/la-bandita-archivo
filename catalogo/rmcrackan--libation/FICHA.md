@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Programa de escritorio para **descargar y ordenar los audiolibros comprados en Audible**: entra en la cuenta,
@@ -63,4 +64,5 @@ otros no. Aquí se describe lo que el programa hace; la decisión y la responsab
 
 Si tus audiolibros no vienen de esa tienda, no sirve. Y si te vale escuchar dentro de la aplicación oficial,
 no hay nada que liberar.
+
 <!-- GUIA:FIN -->

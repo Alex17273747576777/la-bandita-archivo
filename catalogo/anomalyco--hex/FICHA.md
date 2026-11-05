@@ -42,11 +42,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Dictado por voz para **macOS, Windows y Linux**, local: se mantiene una tecla, se habla y al soltar el texto
+se pega donde estés escribiendo. Sin cuenta, sin nube y sin ventana que estorbe.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la entrega `v3.3.0`, del 2 de noviembre de 2026.
+2. Se elige el atajo, el modelo y el idioma; la primera vez se descarga el modelo.
+3. Se concede el permiso de accesibilidad —o el equivalente en cada sistema— y se prueba en un editor de texto.
+4. Se mantiene la tecla, se habla y se suelta.
+
+### Lo que conviene saber antes
+
+5.181 estrellas, MIT, escrito en Rust, y creado el 17 de julio de 2026: tiene cuatro meses. Es el ejemplo de la
+tanda de aplicaciones de dictado que aparecieron en 2026, todas parecidas por fuera y distintas por dentro.
+Su alcance multiplataforma es real, cosa que no se puede decir de todos los de este racimo.
+
+### Cuándo no vale la pena
+
+Si quieres algo con años de rodaje, cuatro meses son pocos. Y si tu equipo no tiene memoria para el modelo,
+la espera entre hablar y ver el texto va a ser incómoda.
 <!-- GUIA:FIN -->

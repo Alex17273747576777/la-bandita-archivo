@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Reproductor de escritorio para servidores de música compatibles, con biblioteca, listas, cola y controles
@@ -61,4 +62,5 @@ estrellas y su última entrega es de 2023. No recibirá más cambios.
 
 Hoy, siempre: su sucesor hace lo mismo, se mantiene y está en este mismo racimo. Esta ficha se conserva
 porque el recurso existe, está medido y hay quien todavía lo busca por su nombre viejo.
+
 <!-- GUIA:FIN -->

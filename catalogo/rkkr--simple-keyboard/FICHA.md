@@ -38,11 +38,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Teclado de Android minúsculo —menos de un mega— con lo esencial: altura ajustable, fila de números, deslizar
+la barra espaciadora para mover el cursor, borrado por gesto y colores de tema propios. Sus permisos se reducen
+a la vibración.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `149`, del 22 de octubre de 2026.
+2. Se activa como teclado y se elige el tema y la altura en sus ajustes.
+3. Los gestos: deslizar sobre la barra espaciadora mueve el cursor; deslizar sobre la tecla de borrar selecciona
+   texto hacia atrás.
+
+### Lo que conviene saber antes
+
+1.607 estrellas, Apache-2.0, y nueve años de proyecto. Su descripción está vacía en GitHub, así que lo que se
+sabe de él es su lista de funciones y su código. No tiene predicción ni descarga de diccionarios: es un teclado
+para escribir a mano, no para que adivine.
+
+### Cuándo no vale la pena
+
+Si escribes rápido con deslizamiento y corrección, aquí vas a echar de menos todo eso. Se elige por tamaño, por
+permisos y porque no aprende nada de lo que escribes.
 <!-- GUIA:FIN -->

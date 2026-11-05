@@ -41,11 +41,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Método de entrada chino para **macOS**, construido sobre el motor Rime, con lo local por delante y funciones de
+asistencia opcionales. Escribe en chino con los esquemas de siempre y añade ayudas que se pueden desconectar.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la entrega `v0.1.10`, del 20 de octubre de 2026.
+2. Se añade como método de entrada en los ajustes del sistema y se eligen los esquemas.
+3. Las funciones opcionales se activan una por una en sus preferencias.
+
+### Lo que conviene saber antes
+
+255 estrellas, MIT, creado el 1 de octubre de 2026: un mes. Su propio proyecto avisa de que es una versión
+temprana `0.1.x` en iteración rápida, y a la vez indica algo poco habitual en proyectos tan jóvenes: el paquete
+va firmado y notarizado por Apple, y publica archivo de verificación para comprobarlo. Declara además no ser
+una bifurcación del teclado chino clásico de Mac, sino un proyecto aparte que puede convivir con él.
+
+### Cuándo no vale la pena
+
+Si no escribes chino, no aplica. Y si buscas un método de entrada para años, un mes de vida es poco, por muy
+bien firmado que venga el paquete.
 <!-- GUIA:FIN -->

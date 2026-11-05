@@ -40,6 +40,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Servidor de música por web, escrito en PHP y pensado para instalar en un alojamiento normal: sube tu
@@ -62,4 +63,5 @@ que la reproducción es sobre todo por web: no habla el protocolo de los cliente
 
 Si quieres escuchar en el teléfono con una aplicación de verdad y descargas sin conexión, necesitas otro
 servidor. Koel es para escuchar en el navegador, en cualquier parte, sin instalar nada.
+
 <!-- GUIA:FIN -->

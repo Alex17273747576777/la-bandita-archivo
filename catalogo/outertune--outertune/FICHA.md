@@ -40,6 +40,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Reproductor de Android para música local y para YouTube Music, con interfaz Material 3 y buena parte de las
@@ -61,4 +62,5 @@ mientras el servicio no cambie, pero no esperes arreglos.
 
 Hoy, si buscas algo vivo: usa uno de los que el propio proyecto señala. Sigue teniendo sentido si ya lo
 tienes configurado y te va bien, o si lo que quieres es sobre todo música local con una interfaz agradable.
+
 <!-- GUIA:FIN -->

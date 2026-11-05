@@ -37,6 +37,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Reproductor de música del escritorio KDE, sencillo a propósito: abre la carpeta que le indiques, la ordena
@@ -60,4 +61,5 @@ sincronización con el teléfono: sólo reproduce lo que ya está bien ordenado.
 
 Si tu música está revuelta o sin etiquetas, aquí se va a ver exactamente así. Y si quieres escuchar en el
 móvil lo mismo que en el ordenador, necesitas además un servidor, que es otra pieza.
+
 <!-- GUIA:FIN -->

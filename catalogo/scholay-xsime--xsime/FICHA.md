@@ -42,11 +42,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Entorno de escritura chino multiplataforma construido sobre Rime, con tres ideas propias: una memoria del texto
+que va escribiendo, un archivo de lo copiado y de capturas, y una ventana aparte que recibe lo que llega de
+fuera. En la práctica, un teclado chino con herramientas alrededor.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la entrega `v1.2.0`, del 27 de octubre de 2026.
+2. Se activa como método de entrada en el sistema y se eligen los esquemas de Rime.
+3. Las herramientas —historial de copiado, capturas, cuaderno— se abren desde su propia ventana.
+
+### Lo que conviene saber antes
+
+1.179 estrellas, Apache-2.0, creado el 8 de agosto de 2026: menos de tres meses de vida y entregas seguidas. Su
+texto está íntegramente en chino, y su código base de entrada procede del motor Rime, cosa que el proyecto
+declara. Es un proyecto ambicioso y joven; la ambición, hoy, va por delante de la estabilidad.
+
+### Cuándo no vale la pena
+
+Si no escribes chino, no hay nada que hacer. Y si escribes chino en Mac o Windows y quieres algo probado, hay
+proyectos de este mismo racimo con años encima.
 <!-- GUIA:FIN -->

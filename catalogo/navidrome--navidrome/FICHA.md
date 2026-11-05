@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Servidor de música autoalojado, ligero y con interfaz web: indexa tu colección, la sirve por el protocolo
@@ -64,4 +65,5 @@ entregas que conviene leer. No tiene aplicación propia: vive de los clientes co
 
 Si escuchas sólo en el equipo donde tienes la música, sobra. Y si tu red no sale de casa, un reproductor
 local hace lo mismo sin montar nada.
+
 <!-- GUIA:FIN -->

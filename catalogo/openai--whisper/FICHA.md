@@ -41,11 +41,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+El modelo de reconocimiento de voz que cambió el terreno: transcribe audio en decenas de idiomas, traduce al
+inglés lo que oye en otro idioma y funciona razonablemente con ruido y acentos. Este repositorio trae el modelo
+y una orden de terminal para usarlo.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala con `pip install -U openai-whisper`; la entrega medida es `v20250625`, del 26 de junio de 2025.
+2. Se transcribe un archivo: `whisper audio.mp3 --model medium --language es`.
+3. Con `--task translate` traduce al inglés; con `--output_format srt` saca subtítulos.
+4. Para dictado en vivo hace falta otra pieza: esto trabaja sobre archivos o sobre una entrada de audio
+   continua que hay que preparar.
+
+### Lo que conviene saber antes
+
+112.000 estrellas y licencia MIT: es la referencia de todo el racimo, y casi todos los demás programas lo usan
+por debajo, en alguna de sus versiones optimizadas. Su último cambio es de **agosto de 2026** y su entrega de
+junio de 2025: el proyecto va despacio porque el modelo ya está publicado y lo que evoluciona son las
+reimplementaciones.
+
+### Cuándo no vale la pena
+
+Si tienes tarjeta gráfica, hay reimplementaciones de este mismo racimo que van mucho más rápido. Y si no
+quieres tocar una terminal, usa una aplicación que lo lleve dentro.
 <!-- GUIA:FIN -->

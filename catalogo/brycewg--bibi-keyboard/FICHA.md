@@ -40,11 +40,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Teclado de dictado por voz para Android construido alrededor de un motor de reconocimiento: se mantiene
+pulsada la tecla, se habla y el texto aparece. Admite varios proveedores de reconocimiento, unos en la nube y
+otros en el propio teléfono, y modelos locales de varios fabricantes.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `v4.5.3`, del 26 de octubre de 2026.
+2. En sus ajustes se elige el motor: en la nube hace falta una clave del proveedor; en local hay que
+   descargar el modelo, que ocupa bastante.
+3. Se activa como teclado y se pulsa la tecla de micrófono; el envío es al soltar, y se puede configurar el
+   silencio para que corte solo.
+
+### Lo que conviene saber antes
+
+862 estrellas, Apache-2.0, y su documentación está en chino; la interfaz tiene traducción parcial al inglés.
+Su propio texto dice que admite **18 motores** —doce en la nube y seis locales—, y eso es una declaración del
+autor: aquí no se ha probado ninguno. Los motores en la nube implican mandar tu voz fuera; los locales,
+descargar cientos de megas y depender de la potencia del teléfono.
+
+### Cuándo no vale la pena
+
+Si no escribes chino ni necesitas dictado, es una aplicación grande para usar una sola tecla. Y si lo que
+quieres es privacidad, elige un motor local desde el principio y no configures ninguno en la nube.
 <!-- GUIA:FIN -->

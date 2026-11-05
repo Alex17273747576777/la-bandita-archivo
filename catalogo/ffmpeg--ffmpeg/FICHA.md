@@ -37,6 +37,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 El juego de programas que convierte, corta, une, recodifica y mide audio y vídeo. No es una aplicación con
@@ -63,4 +64,5 @@ porque no todas tienen las mismas.
 Para convertir una canción una vez, cualquier web lo hace sin instalar 300 MB de herramientas. `FFmpeg` se
 justifica cuando repites la operación, cuando automatizas, o cuando quieres saber exactamente qué se le hace
 al archivo.
+
 <!-- GUIA:FIN -->

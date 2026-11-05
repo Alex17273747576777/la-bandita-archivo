@@ -39,6 +39,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Demonio que hace que un equipo —una Raspberry Pi, un ordenador sin pantalla— aparezca como **dispositivo de
@@ -62,4 +63,5 @@ necesita cuenta de pago; la versión gratuita no se soporta.
 
 Si no tienes un equipo dedicado sin pantalla, no aporta nada frente a la aplicación oficial. Y si no pagas
 la cuenta, directamente no funciona.
+
 <!-- GUIA:FIN -->

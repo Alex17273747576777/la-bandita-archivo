@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Reproductor de música de escritorio con una pretensión poco habitual: sonar bien y no estorbar. Trae
@@ -65,4 +66,5 @@ comunidad grande: eso explica tanto su carácter como su ritmo.
 
 Si tu biblioteca es enorme y sólo quieres buscar y darle al play, otros reproductores de este racimo son más
 directos. Y si no te importan las visualizaciones ni el aspecto, la mitad de lo que ofrece no la vas a usar.
+
 <!-- GUIA:FIN -->

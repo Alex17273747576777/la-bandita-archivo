@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Servidor de medios libre: organiza películas, series, música y libros, y los sirve a aplicaciones en
@@ -66,4 +67,5 @@ archivos: no trae contenido, sólo lo ordena.
 
 Si sólo quieres oír música en casa, hay servidores de este racimo mucho más ligeros. Jellyfin se justifica
 cuando además hay vídeo y varios aparatos en la casa.
+
 <!-- GUIA:FIN -->

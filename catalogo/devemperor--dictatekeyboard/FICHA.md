@@ -43,11 +43,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Teclado de Android cuyo eje es el dictado: pulsas el micrófono, hablas y el texto entra donde estés
+escribiendo. Admite varios motores de reconocimiento, incluido Whisper, unos en la nube y otros en el propio
+teléfono, y guarda historial de lo dictado.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `v6.4.0`, del 7 de octubre de 2026.
+2. En ajustes se elige el motor y el modelo; para los motores en la nube se pega la clave del proveedor.
+3. Se activa como teclado y se dicta; también funciona en el modo de escritura normal, con su distribución de
+   teclas.
+
+### Lo que conviene saber antes
+
+315 estrellas, Apache-2.0, con desarrollo activo desde 2024. Es el **original** del que salen las copias que
+circulan por ahí, y por eso mismo es el que conviene instalar. Su punto delicado es el de todo dictado: si
+usas un motor en la nube, tu voz sale del teléfono; si usas uno local, cambias privacidad por paciencia,
+porque el modelo pesa y el teléfono tiene que moverlo.
+
+### Cuándo no vale la pena
+
+Si escribes más de lo que hablas, un teclado con buena predicción te rendirá más. Y si tu teléfono tiene poca
+memoria, los motores locales no van a ir cómodos.
 <!-- GUIA:FIN -->

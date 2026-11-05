@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Servicio web para **guardar lo que quieres**, sin anuncios, sin rastreo y sin ventanas emergentes: se pega
@@ -65,4 +66,5 @@ que cuando uno cambia, la instancia pública falla hasta que se arregla, y las i
 
 Si lo que quieres es un programa en tu equipo, no es esto: es una web. Y para un uso intensivo, un
 descargador de terminal de este racimo te dará más control y menos esperas.
+
 <!-- GUIA:FIN -->

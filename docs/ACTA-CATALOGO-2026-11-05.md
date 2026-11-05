@@ -126,3 +126,46 @@ fichas: cero coincidencias con los vetos.
 
 **Lo que no está verificado.** Ninguno de los 52 se ha instalado. Cada guía separa lo que el programa hace
 según su propio proyecto de lo que se ha medido aquí, que es su estado en GitHub el 5 de noviembre de 2026.
+
+## Quinta tanda · racimo `teclados-y-dictado` completo (34 recursos)
+
+Las **34 guías** del racimo, escritas a mano una por una. El racimo se ordenó por lo que el recurso es, porque
+bajo un mismo título conviven cosas muy distintas:
+
+- **Teclados de Android, con código propio** (8): `HeliBoard`, `AnySoftKeyboard`, `florisboard`,
+  `Unexpected-Keyboard`, `simple-keyboard`, `LeanType`, `wmkeyboard`, `trime`.
+- **Teclados con dictado** (5): `DictateKeyboard`, `BiBi-Keyboard`, `Sayboard`, `Transcribro`, `CyIME`.
+- **Dictado que no cambia tu teclado** (2): `futo-org/voice-input`, `android_transcribe_app`.
+- **Dictado de escritorio** (8): `Handy`, `hex`, `openless`, `betterwispr`, `speaktype`, `FluidVoice`,
+  `amical`, `vocalinux`, `voxtype`.
+- **Motores y modelos** (4): `whisper.cpp`, `openai/whisper`, `faster-whisper`, `whisper` como familia.
+- **Corrección y expansión de texto** (3): `harper`, `languagetool`, `espanso`.
+- **Entradas chinas sobre Rime** (3): `CyIME`, `trime`, `xsime`, `aime`.
+- **Dos que no son lo que parecen** (2): `PixelBoard` y `Batmancpu/Dictator-`.
+
+**Total del catálogo:** **191 fichas con guía escrita** de 278 medidas · **87 esperando guía** ·
+`catalogo_lint` **0 fallos**.
+
+**Lo que este racimo obligó a decir en voz alta.**
+
+- `Akshayykadam/PixelBoard` **no es software libre**: es el teclado de Google reempaquetado por un tercero. Su
+  guía lo dice en la primera línea útil, porque un teclado ve todo lo que escribes y aquí lo que se instala es
+  una compilación ajena.
+- `Batmancpu/Dictator-` **es una copia recompilada** de `DevEmperor/DictateKeyboard`, hecha por alguien que
+  declara no ser programador. Tiene 3 estrellas. Las dos fichas se escribieron para que no se confundan.
+- `LeanType` arrastra la corrección de **E45**: no tiene «75 teclas de IA», tiene **diez** huecos
+  `CUSTOM_AI_1`…`CUSTOM_AI_10`. La guía lo corrige con el dato, no con una negación.
+- `FluidVoice` **anuncia cuatro plataformas y entrega dos**: medido hoy sólo hay macOS y una prueba de iOS.
+- `betterwispr` se creó el **7 de octubre de 2026**: un mes de vida, y la guía lo pone delante de las estrellas.
+- `speaktype` dice «cualquier sistema» y está escrito en **Swift**: el alcance real es el de Apple.
+- Cuatro tienen **entrega por detrás del código** y se explica: `florisboard` (nov-2025), `Sayboard`
+  (ago-2024), `Transcribro` (ago-2025), `faster-whisper` (oct-2025).
+
+**Números del autor que no se repiten como propios.** `wmkeyboard` dice «seiscientos idiomas» y «89
+herramientas»; `BiBi-Keyboard`, «18 motores»; `voxtype`, velocidad en tiempo real. En las cuatro guías la cifra
+aparece atribuida a quien la publica, con la frase que lo dice, y no como medición de este catálogo.
+
+**Lo que no está verificado.** Ninguno de los 34 se ha instalado. Y hay un motivo de peso en este racimo: un
+teclado o un dictado recibe **todo lo que escribes o dices**. Por eso cada guía separa lo que el programa hace
+según su proyecto, lo que se midió en GitHub el 5 de noviembre de 2026, y lo que el usuario debe decidir por su
+cuenta —motor en la nube o en el aparato, código propio o paquete ajeno—.

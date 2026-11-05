@@ -42,11 +42,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Teclado chino para Android construido sobre el motor Rime: lleva los esquemas de entrada tradicionales —pinyin,
+zhuyin, cangjie, wubi, trazos— y permite añadir o escribir los tuyos. Su objetivo declarado es proteger la
+lengua china en el teléfono, con diccionarios que el usuario controla.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `v3.3.13`, del 1 de noviembre de 2026.
+2. Se activa como teclado; la primera vez hay que dejar que prepare los esquemas.
+3. Los esquemas y diccionarios viven en una carpeta accesible: se pueden copiar, editar y compartir.
+4. En su pantalla de ajustes se elige el esquema activo y el aspecto del teclado.
+
+### Lo que conviene saber antes
+
+4.771 estrellas, GPL-3.0, once años de proyecto, y nació como interfaz de un teclado tradicional chino sobre
+Rime. Es potente y exigente: configurar un esquema nuevo requiere editar archivos de texto. Para español no
+sirve.
+
+### Cuándo no vale la pena
+
+Si no escribes chino, no hay nada que hacer aquí. Y si escribes chino pero quieres algo que funcione sin
+configurar, un teclado comercial lo hace en dos toques.
 <!-- GUIA:FIN -->

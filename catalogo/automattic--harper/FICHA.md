@@ -39,11 +39,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Corrector gramatical que funciona **sin conexión**: revisa lo que escribes y señala errores y frases torpes
+mientras escribes, sin enviar el texto a ningún servidor. Se puede usar como programa de escritorio, como
+extensión del navegador o dentro de tu editor de código.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la entrega `v3.0.0`, del 27 de octubre de 2026, o la extensión desde la tienda del navegador.
+2. En escritorio, se escribe en su ventana o se activa la revisión en las aplicaciones compatibles.
+3. En el editor de código se instala como complemento y revisa comentarios y documentación.
+
+### Lo que conviene saber antes
+
+17.416 estrellas, Apache-2.0, escrito en Rust: rápido y con muy poco consumo. Su límite grande es el idioma:
+**trabaja en inglés**, y en español no te sirve. Su autor lo presenta como alternativa a los correctores
+comerciales, y esa comparación es suya, no una medición de esta ficha.
+
+### Cuándo no vale la pena
+
+Si escribes en español, hoy no hay nada que hacer aquí. Y si no te importa que la revisión pase por un
+servicio en línea, los correctores de siempre siguen siendo más cómodos de integrar.
 <!-- GUIA:FIN -->

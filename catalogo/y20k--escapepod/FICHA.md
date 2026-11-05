@@ -36,6 +36,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Fue un reproductor de pódcast para Android, pequeño y sin adornos: suscripciones, descarga, cola y
@@ -57,4 +58,5 @@ esperes que aguante los cambios de Android de estos años.
 
 Para escuchar pódcast hoy, no. Está aquí como pieza histórica y como código de ejemplo, y la ficha lo dice en
 lugar de presentarlo como una opción viva.
+
 <!-- GUIA:FIN -->

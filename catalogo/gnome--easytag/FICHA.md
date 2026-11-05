@@ -35,6 +35,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Editor de etiquetas de audio para el escritorio de GNOME: abre un archivo o una carpeta entera y permite
@@ -59,4 +60,5 @@ el de todos los editores manuales: no busca los datos por ti.
 
 Si tu biblioteca es grande, escribir etiquetas a mano es un castigo: `Picard` o `beets` las buscan en una
 base de datos y las rellenan solas. Easytag se elige cuando sabes exactamente lo que quieres escribir.
+
 <!-- GUIA:FIN -->

@@ -41,11 +41,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Teclado de Android que respeta la privacidad, con predicción, deslizar para escribir, temas y una arquitectura
+pensada para añadir funciones sin pedir permiso de red. Su propio proyecto lo declara en estado de prueba.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `v0.5.2`, del 28 de noviembre de 2025.
+2. Se activa como teclado; el asistente guía los permisos y la descarga de diccionarios.
+3. En ajustes se eligen idiomas, distribución, gestos y temas; el editor de temas permite cambiar colores y
+   formas sin tocar código.
+
+### Lo que conviene saber antes
+
+8.755 estrellas, Apache-2.0, seis años de proyecto. El dato incómodo: **su última entrega es de noviembre de
+2025**, aunque el repositorio sigue recibiendo cambios en noviembre de 2026; el programa que se descarga no
+lleva un año de arreglos. Y sigue diciendo «beta» en su propia descripción, después de todo este tiempo.
+
+### Cuándo no vale la pena
+
+Si quieres un teclado que se actualice con frecuencia, la entrega vieja pesa. Hoy `HeliBoard` cubre lo mismo
+con entregas más recientes, y por eso mucha gente ha hecho ese cambio.
 <!-- GUIA:FIN -->

@@ -36,6 +36,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Gestor de biblioteca musical desde la terminal: importa carpetas, **identifica cada disco en una base de
@@ -62,4 +63,5 @@ se hace sobre una copia.
 
 Con dos discos, no: es más tiempo configurarlo que ordenarlo a mano. Y si no te sientes cómodo con la
 terminal, `Picard` hace la mitad del trabajo con ventana.
+
 <!-- GUIA:FIN -->

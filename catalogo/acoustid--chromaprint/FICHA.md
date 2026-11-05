@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Biblioteca en C que calcula la **huella acústica** de un archivo de audio: un resumen matemático del sonido
@@ -65,4 +66,5 @@ parecidos. GitHub **no le reconoce la licencia** en la ficha, aunque el proyecto
 
 Si lo que quieres es etiquetar música, no empieces aquí: usa un programa que ya lo haga, como `Picard`. Esta
 biblioteca es para quien escribe el programa.
+
 <!-- GUIA:FIN -->

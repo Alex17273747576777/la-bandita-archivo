@@ -42,11 +42,25 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Aplicación de dictado por voz que se presenta como **sin conexión y para cualquier sistema**: se habla y el
+texto se escribe en la aplicación activa.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la entrega `v2.0.0`, del 22 de septiembre de 2026.
+2. Se concede el permiso de micrófono y el de escribir en otras ventanas.
+3. Se elige el atajo y el modelo; se dicta manteniendo la tecla.
+
+### Lo que conviene saber antes
+
+573 estrellas, MIT, y un detalle que conviene mirar antes de descargar: el proyecto está escrito en **Swift** y
+nació el 6 de enero de 2026, así que su alcance real es el ecosistema de Apple, por mucho que su descripción
+hable de «cualquier sistema». Su última entrega es de septiembre de 2026.
+
+### Cuándo no vale la pena
+
+Si no estás en un Mac, comprueba los requisitos antes de instalar nada: lo escrito en Swift no corre en
+Windows ni en Linux. Y para dictar cuatro frases al día, el teclado del sistema ya trae micrófono.
 <!-- GUIA:FIN -->

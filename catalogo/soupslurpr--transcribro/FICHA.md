@@ -39,11 +39,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Teclado de Android que reconoce la voz **en el propio aparato**: incluye la detección de cuándo empiezas y
+acabas de hablar, de modo que no hay que pulsar nada para empezar ni para cortar. Se puede usar como teclado
+completo o sólo como servicio de reconocimiento para el teclado que ya tengas.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `7`, del 7 de agosto de 2025.
+2. En la primera ejecución se descarga un modelo; hay varios tamaños.
+3. Se activa como teclado o como servicio de voz, y se habla: la detección de voz corta sola cuando callas.
+
+### Lo que conviene saber antes
+
+761 estrellas, licencia ISC —permisiva y poco habitual—, con desarrollo en 2026 pero **entrega de agosto de
+2025**. Es decir: el código va por delante de lo que puedes descargar. Su mezcla de reconocimiento local y
+detección de actividad de voz es lo que lo hace cómodo, y su límite es la precisión de los modelos pequeños.
+
+### Cuándo no vale la pena
+
+Si buscas la última versión de cada arreglo, la entrega tiene más de un año. Y si tu teléfono es modesto, el
+modelo local y la detección de voz compiten por la misma memoria.
 <!-- GUIA:FIN -->

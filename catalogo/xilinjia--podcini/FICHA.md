@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Gestor de pódcast para Android que, además de las fuentes de siempre, acepta canales y listas de vídeo como
@@ -65,4 +66,5 @@ Android no apriete los permisos.
 
 Hoy, para uso nuevo: AntennaPod, del que deriva, sigue vivo y hace lo mismo con los pódcast normales. Podcini
 tiene sentido si te interesa mezclar canales de vídeo en la misma cola.
+
 <!-- GUIA:FIN -->

@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Servidor de **radiodifusión por internet**: recibe un flujo de audio de un programa emisor y lo reparte a
@@ -65,4 +66,5 @@ contraseña emite. Ojo con el ancho de banda: cada oyente consume lo suyo.
 
 Para escuchar tu música en casa no hace falta: esto es para emitir a otros. Y si sólo quieres oír una radio,
 eres oyente, no servidor.
+
 <!-- GUIA:FIN -->

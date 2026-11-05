@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Reproductor de escritorio para servidores de música autoalojados: se conecta a uno que ya tengas —de los que
@@ -66,4 +67,5 @@ hay que tener claro antes de instalarlo.
 
 Si tu música está en el disco de tu ordenador, esto no la ve. Y si ya usas la web del servidor, el cliente de
 escritorio añade comodidad, no contenido.
+
 <!-- GUIA:FIN -->

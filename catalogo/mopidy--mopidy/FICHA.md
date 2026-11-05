@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Servidor de música escrito en Python, pensado para ser **extensible**: reproduce archivos locales, radio por
@@ -64,4 +65,5 @@ suena en el equipo donde corre, no un servicio de música.
 
 Si sólo quieres oír música en el ordenador, un reproductor con ventana es más corto. Mopidy se elige cuando
 quieres mezclar fuentes distintas en una sola cola controlada desde el móvil.
+
 <!-- GUIA:FIN -->

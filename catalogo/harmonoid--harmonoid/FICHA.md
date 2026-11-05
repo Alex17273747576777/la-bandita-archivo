@@ -40,6 +40,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Reproductor y gestor de biblioteca escrito en Flutter: la misma aplicación en Windows, Linux, macOS, Android
@@ -61,4 +62,5 @@ la vez justamente porque Flutter lo permite, y eso mismo hace que en algunas se 
 
 Si quieres un reproductor maduro y terminado, la versión `0.3` lo dice todo. Y si sólo usas un sistema, hay
 programas hechos para él que funcionan mejor.
+
 <!-- GUIA:FIN -->

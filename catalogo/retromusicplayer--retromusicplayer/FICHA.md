@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Reproductor de música local para Android con mucha atención a la presentación: temas, colores que salen de
@@ -62,4 +63,5 @@ está asegurada por un equipo grande.
 
 Si quieres reproducir y ya, trae demasiadas cosas. Y si tu prioridad es la estabilidad a cinco años, otros
 reproductores de este racimo tienen un equipo detrás más claro.
+
 <!-- GUIA:FIN -->

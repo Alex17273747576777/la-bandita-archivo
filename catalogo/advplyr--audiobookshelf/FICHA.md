@@ -36,6 +36,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Servidor autoalojado de **audiolibros y pódcast**: guarda los archivos, ordena la biblioteca por autor y
@@ -60,4 +61,5 @@ la base de datos, se pierde el progreso de todo lo escuchado.
 
 Con cuatro libros y un solo teléfono, es demasiada infraestructura para lo que da. Se justifica cuando la
 biblioteca crece o cuando son varias personas las que escuchan.
+
 <!-- GUIA:FIN -->

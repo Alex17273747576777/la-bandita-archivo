@@ -39,6 +39,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Cliente de música para Android con interfaz Material 3, pensado para escuchar desde un servicio sin cuenta,
@@ -60,4 +61,5 @@ Además es un cliente de un servicio ajeno, así que no controla nada de lo que 
 
 Para uso nuevo, no: usa uno de sus derivados, que siguen publicando. Sigue sirviendo como referencia de
 código y como opción si ya lo tienes instalado y te funciona.
+
 <!-- GUIA:FIN -->

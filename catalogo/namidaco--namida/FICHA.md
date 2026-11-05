@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Reproductor de música y vídeo para Android escrito en Flutter, con una ambición poco común: además de la
@@ -65,4 +66,5 @@ que se rompe.
 
 Si lo que quieres es sólo tu música, `Auxio` o `RetroMusicPlayer` hacen eso con menos piezas y menos
 sorpresas. Namida se elige por tener las dos cosas en un solo sitio.
+
 <!-- GUIA:FIN -->

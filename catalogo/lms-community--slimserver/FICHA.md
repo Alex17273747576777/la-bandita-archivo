@@ -38,6 +38,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Servidor de música pensado para los aparatos de Logitech —Squeezebox, Boom, Radio, Transporter— y para todo
@@ -61,4 +62,5 @@ aparatos de Logitech quedan inservibles, y con él vuelven a ser lo que eran.
 
 Si no tienes un aparato de esos, no hay razón para montarlo: para lo demás hay servidores más modernos y
 más fáciles de instalar en este mismo racimo.
+
 <!-- GUIA:FIN -->

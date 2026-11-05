@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Reproductor de audiolibros **sin protección** para iPhone y iPad, con lo que hace falta en ese formato:
@@ -63,4 +64,5 @@ versión para Android: si tu casa es mixta, necesitarás dos programas.
 
 Si compras los audiolibros en una tienda con su propia aplicación, esta no los lee: es para archivos que ya
 son tuyos y sin protección.
+
 <!-- GUIA:FIN -->

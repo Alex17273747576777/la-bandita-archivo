@@ -42,11 +42,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Herramienta de Android con dos caras: dictado sin conexión que se ofrece al micrófono del teclado que ya usas,
+y **subtítulos en vivo** en pantalla para lo que se oye por el micrófono. El reconocimiento ocurre en el propio
+teléfono.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `v0.2.3`, del 17 de octubre de 2026.
+2. Se activa como servicio de reconocimiento de voz, o se abre el modo de subtítulos.
+3. En el modo de subtítulos se elige el tamaño del texto y el idioma; la transcripción va apareciendo mientras
+   se habla.
+
+### Lo que conviene saber antes
+
+338 estrellas, MIT, escrito en Rust, con versión `0.2.x` y nacido en noviembre de 2025: es un proyecto joven y
+pequeño. Su punto interesante es el modo de subtítulos, útil para ver una charla sin sonido o para quien tiene
+dificultades de audición. Su límite es la precisión de un motor pequeño corriendo en un teléfono.
+
+### Cuándo no vale la pena
+
+Si quieres dictar textos largos con precisión alta, aquí no está. Y si tu teléfono tiene poca memoria, el
+modelo local va a cortar frases.
 <!-- GUIA:FIN -->

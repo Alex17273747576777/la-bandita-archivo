@@ -40,6 +40,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Demonio reproductor: se queda corriendo en el equipo, tiene tu música indexada y la reproduce por la salida
@@ -64,4 +65,5 @@ pega —si te equivocas en una línea, no hay ventana que te lo diga.
 Para escuchar música en el ordenador de casa, es fontanería innecesaria: un reproductor con ventana hace
 eso. MPD tiene sentido en un equipo sin pantalla, en una casa con varios clientes, o cuando quieres que la
 música siga sonando al cerrar la sesión.
+
 <!-- GUIA:FIN -->

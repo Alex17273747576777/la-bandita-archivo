@@ -43,11 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Aplicación de dictado para **macOS y Windows**: se mantiene pulsada una tecla, se habla y al soltar aparece el
+texto —ya pulido— en la aplicación donde estuvieras escribiendo. Usa modelos de reconocimiento locales y un
+paso de modelo de lenguaje para quitar muletillas y ordenar la frase.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la entrega `v2.0.1-tauri`, del 16 de octubre de 2026.
+2. Se elige la combinación de teclas y el modelo de reconocimiento; en la primera ejecución se descarga.
+3. Se concede permiso de micrófono y de accesibilidad, que es el que le permite escribir en otras ventanas.
+4. Se mantiene la tecla, se habla, se suelta.
+
+### Lo que conviene saber antes
+
+4.053 estrellas, AGPL-3.0, escrito en Rust. Su propio texto lo sitúa como alternativa libre a herramientas
+comerciales de dictado, y esa comparación es suya. La versión medida es la `2.0.1`, reciente y con cambios de
+esta semana. Su requisito real es un equipo con memoria suficiente para mover el modelo sin esperas.
+
+### Cuándo no vale la pena
+
+Si usas Linux, aquí no hay nada: el proyecto es para los dos sistemas grandes de escritorio. Y si escribes
+poco, el dictado con pulso mantenido no compensa el hábito de teclear.
 <!-- GUIA:FIN -->

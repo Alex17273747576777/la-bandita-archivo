@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Sistema de audio **multisala sincronizado**: un servidor toma el sonido de un reproductor y lo reparte a
@@ -65,4 +66,5 @@ nunca es tan fino como con cable.
 
 Con un solo altavoz o con dos aparatos que ya suenan juntos, esto es complicación sin premio. Se justifica en
 una casa con varias habitaciones y cable donde se pueda.
+
 <!-- GUIA:FIN -->

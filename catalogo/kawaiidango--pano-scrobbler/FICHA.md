@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Programa que **anota lo que escuchas** en un servicio de estadísticas musicales, para Windows, Linux y
@@ -65,4 +66,5 @@ En Android, además, el ahorro de batería del sistema puede desconectar el serv
 
 Si no llevas estadísticas de lo que escuchas, no hay nada que anotar. Y si usas un servidor de música, muchos
 ya envían esas estadísticas por su cuenta.
+
 <!-- GUIA:FIN -->

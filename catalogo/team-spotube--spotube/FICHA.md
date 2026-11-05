@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Aplicación de música multiplataforma que **separa las dos cosas que un servicio junta**: toma los datos de
@@ -64,4 +65,5 @@ Cuando una cambia, la aplicación falla de formas que el usuario no puede arregl
 
 Si quieres algo que simplemente suene, hay programas en este racimo con menos piezas móviles. Spotube se
 elige por su idea, no por su estabilidad.
+
 <!-- GUIA:FIN -->

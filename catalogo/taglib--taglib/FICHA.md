@@ -38,6 +38,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Biblioteca en C++ para **leer y escribir metadatos** de audio: etiquetas, carátulas, propiedades técnicas del
@@ -60,4 +61,5 @@ usar esto te ahorra implementar cinco formatos a mano.
 
 Si no programas, no hay nada que hacer aquí: usa `Picard` o `easytag`. Esta ficha existe porque es la pieza
 que sostiene a los demás.
+
 <!-- GUIA:FIN -->

@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Cliente de pódcast de escritorio: suscripciones, descarga de episodios, cola y reproducción, además de una
@@ -67,4 +68,5 @@ servidor del proyecto: hace falta uno compatible que pongas tú.
 
 Si escuchas pódcast en el teléfono, un cliente de Android de este racimo es más directo. gPodder se elige
 para el ordenador, sobre todo en Linux.
+
 <!-- GUIA:FIN -->

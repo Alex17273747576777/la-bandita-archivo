@@ -41,11 +41,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Teclado de voz para Android que reconoce **en el propio aparato** con la biblioteca Vosk: se pulsa el
+micrófono, se habla y el texto se escribe en la aplicación que tengas abierta. Sin conexión y sin enviar
+audio a ningún sitio.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `v4.2.1`, del 23 de agosto de 2024.
+2. En su asistente se descarga el modelo del idioma: hay que elegirlo bien, porque cada uno ocupa espacio y
+   determina lo que entiende.
+3. Se activa como teclado y se dicta; la primera carga del modelo tarda unos segundos.
+
+### Lo que conviene saber antes
+
+586 estrellas, GPL-3.0, y **su último cambio es de julio de 2025**: año y medio sin tocarlo. Su última
+entrega es de agosto de 2024. Como se apoya en Vosk, su precisión no es la de los motores grandes: sirve para
+frases cortas y claras, no para dictar un capítulo. En un Android actual conviene comprobar que sigue
+activándose como teclado.
+
+### Cuándo no vale la pena
+
+Si necesitas dictar textos largos, la calidad no acompaña. Hoy hay teclados de este racimo, más nuevos y con
+motores mejores, que hacen lo mismo.
 <!-- GUIA:FIN -->

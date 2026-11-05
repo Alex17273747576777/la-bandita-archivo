@@ -38,6 +38,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Aplicación de música multiplataforma escrita en Flutter, con la idea de ser un reproductor y buscador propio:
@@ -60,4 +61,5 @@ esta familia, no tiene catálogo propio: toma la música de servicios ajenos, qu
 
 Si buscas algo que se mantenga al día, hay opciones más activas en este racimo. Y si tienes tu música en
 local, este programa no es para eso.
+
 <!-- GUIA:FIN -->

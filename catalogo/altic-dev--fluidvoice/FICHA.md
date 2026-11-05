@@ -42,11 +42,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Aplicación de dictado para **macOS** con reconocimiento hecho en el propio equipo y un paso de mejora con un
+modelo de lenguaje también local: se pulsa un atajo, se habla y el texto aparece donde estabas escribiendo,
+con puntuación y sin muletillas.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la entrega `v1.6.12`, del 22 de octubre de 2026.
+2. Se concede permiso de micrófono y de accesibilidad, que es el que le deja escribir en otras aplicaciones.
+3. Se elige el atajo y el modelo; en la primera ejecución se descargan los archivos.
+4. Se mantiene el atajo, se habla y se suelta.
+
+### Lo que conviene saber antes
+
+12.818 estrellas, GPL-3.0, escrito en Swift, y nacido en septiembre de 2025: creció muy rápido. Su descripción
+promete versiones para Windows, iOS, Android y Linux; medido hoy, **sólo hay versión para macOS y una prueba
+para iOS**. Es decir: lo anunciado no es lo entregado, y esa distancia conviene tenerla delante antes de
+instalarlo con expectativas. Su propio texto dice ser «el más rápido y el único» de su clase: eso es una
+declaración del autor, no una medición de esta ficha.
+
+### Cuándo no vale la pena
+
+Si no usas Mac, hoy no hay versión que instalar por mucho que la descripción lo anuncie. Y en un Mac con poca
+memoria, el paso de mejora con modelo de lenguaje se come el beneficio.
 <!-- GUIA:FIN -->

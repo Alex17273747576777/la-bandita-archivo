@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Biblioteca en Rust que implementa el protocolo del reproductor de Spotify: sirve para construir un cliente
@@ -65,4 +66,5 @@ buena; como programa para el usuario final, no está pensada.
 
 Si no programas y no tienes cuenta de pago, no hay nada que hacer con esto. Para el caso de «aparato que
 aparece en la aplicación oficial» hay un programa ya hecho en este racimo, y es más corto de instalar.
+
 <!-- GUIA:FIN -->

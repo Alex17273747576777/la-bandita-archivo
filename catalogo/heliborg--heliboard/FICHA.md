@@ -39,11 +39,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Teclado de Android sin conexión a internet, heredero de un teclado libre clásico: distribución ajustable,
+deslizar para escribir, corrección y diccionarios por idioma, temas y ninguna llamada a la red. Es la opción
+de referencia para quien quiere un teclado normal que no hable con nadie.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `v4.2`, del 12 de octubre de 2026.
+2. Se activa como teclado y se elige el idioma; el diccionario se descarga aparte, como archivo, y se importa.
+3. En ajustes se afinan la altura, el número de filas, el gesto de deslizar y el tema.
+
+### Lo que conviene saber antes
+
+6.501 estrellas, GPL-3.0, y desarrollo vivo. Su gran ventaja es que **no pide permiso de red**, así que lo que
+escribes no puede salir de ahí ni por descuido. Su pega es la de siempre en este tipo de teclado: la
+predicción no es la de los gigantes, y la configuración inicial tiene más pasos de los que apetece.
+
+### Cuándo no vale la pena
+
+Si quieres deslizar el dedo y que acierte casi siempre, un teclado comercial lo hace mejor. HeliBoard se
+elige por privacidad y por control, no por comodidad máxima.
 <!-- GUIA:FIN -->

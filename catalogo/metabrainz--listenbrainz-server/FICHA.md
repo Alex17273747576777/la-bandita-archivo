@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Servidor del proyecto ListenBrainz: guarda el historial de lo que escuchas y lo convierte en estadísticas e
@@ -65,4 +66,5 @@ tuyos y además se publican para que cualquiera los analice.
 
 Montarlo por gusto, casi nunca: para llevar tus propias estadísticas basta la instancia pública. Se justifica
 si quieres los datos en casa o si investigas con ellos.
+
 <!-- GUIA:FIN -->

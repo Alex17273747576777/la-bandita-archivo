@@ -42,11 +42,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Aplicación de dictado para escritorio que además **toma notas**: se habla, el texto se escribe en la ventana
+activa y queda un registro de lo dictado que se puede organizar en notas y resúmenes. Funciona con modelos
+locales y avisa de cuándo algo sale a la red.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la entrega `v1.12.5`, del 25 de septiembre de 2026.
+2. Se conecta el modelo —local o por clave de un proveedor— y se elige el atajo de dictado.
+3. Se habla; lo dictado entra en la aplicación activa y, además, en su historial de notas.
+4. Las notas se ordenan por proyecto dentro de la propia aplicación.
+
+### Lo que conviene saber antes
+
+1.598 estrellas, MIT, escrito en TypeScript y nacido en mayo de 2025. Es de los pocos que añade algo al dictado
+en vez de sólo transcribir, y eso lo hace útil para reuniones. Su parte delicada es la de siempre: si eliges
+un modelo en la nube, lo que dices sale de tu equipo, y con reuniones eso significa conversaciones de otras
+personas.
+
+### Cuándo no vale la pena
+
+Si sólo quieres dictar frases sueltas, la mitad de la aplicación —las notas— no la vas a usar. Y si no puedes
+grabar a los demás con permiso, no es tu herramienta.
 <!-- GUIA:FIN -->

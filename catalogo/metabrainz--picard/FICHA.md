@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Etiquetador oficial de la base de datos abierta: abre tus archivos, calcula una huella del audio, busca el
@@ -65,4 +66,5 @@ mano.
 
 Si vas a ordenar miles de discos y no te importa la terminal, `beets` hace el trabajo en bloque. Picard
 brilla con doscientos discos y paciencia.
+
 <!-- GUIA:FIN -->

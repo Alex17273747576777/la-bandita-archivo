@@ -42,11 +42,32 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Es una **modificación del teclado de Google** que desbloquea en teléfonos de otras marcas la voz nueva del
+asistente y las herramientas de redacción, con la promesa de que no hace falta root. Se instala como una
+aplicación aparte y se activa como teclado.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se descarga el paquete de la entrega `1.3.3`, del 28 de octubre de 2026.
+2. Se instala con el permiso de «instalar aplicaciones desconocidas» activado, que el sistema pedirá una vez.
+3. Se activa en los ajustes de teclado del teléfono y se elige como método de entrada.
+4. La voz del asistente necesita además el paquete de idioma correspondiente, que el programa descarga por su
+   cuenta.
+
+### Lo que conviene saber antes
+
+Aquí hay que ser claro, porque es lo más importante de esta ficha. **El código no es de quien lo publica**: es
+el teclado de Google, empaquetado de nuevo. Eso significa dos cosas. La primera, que estás instalando una
+compilación hecha por una persona a la que no conoces, sobre una aplicación que **ve todo lo que escribes**.
+La segunda, que la condición legal de redistribuir así un paquete ajeno no está resuelta en ningún sitio. El
+proyecto nació el 17 de septiembre de 2026 y tiene 1.423 estrellas: es muy nuevo para algo que pide tanta
+confianza. Si decides probarlo, no lo pongas en el teléfono donde entras a tu banco.
+
+### Cuándo no vale la pena
+
+Casi siempre. Si lo que quieres es dictar sin conexión y sin depender de nadie, en este mismo racimo hay
+teclados con su código a la vista y sin red, y esa diferencia —código propio frente a paquete ajeno
+reempaquetado— pesa más que cualquier función desbloqueada.
 <!-- GUIA:FIN -->

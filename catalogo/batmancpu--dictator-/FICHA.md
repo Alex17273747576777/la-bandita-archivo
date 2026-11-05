@@ -43,11 +43,25 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Es un paquete de instalación de un teclado de dictado por voz, **recompilado por una persona que declara no
+ser programadora** y que lo dice en su propia descripción, atribuyendo el trabajo al autor original.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+Se instala el paquete de la entrega `dictator-40297638051`, del 26 de octubre de 2026, y se activa como
+teclado igual que cualquier otro.
+
+### Lo que conviene saber antes
+
+Tiene **3 estrellas**. No es un proyecto: es la recompilación de otro. En este mismo racimo está el original
+—con su código, sus autores y su historial— y aquí lo que hay es una copia de un paquete ajeno hecha por
+alguien sin relación con él. Instalar un teclado es dar acceso a todo lo que escribes: la regla razonable es
+descargarlo de quien lo escribe.
+
+### Cuándo no vale la pena
+
+Siempre. Esta entrada está en el catálogo porque el recurso existe y se midió; la guía sirve para que nadie
+lo confunda con el proyecto del que sale.
 <!-- GUIA:FIN -->

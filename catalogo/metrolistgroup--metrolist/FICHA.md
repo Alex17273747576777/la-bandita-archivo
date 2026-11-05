@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Cliente de YouTube Music para Android, escrito en Kotlin y con la interfaz del sistema de diseño actual:
@@ -66,4 +67,5 @@ no un catálogo propio, y el servicio puede cambiar cuando quiera.
 
 Si ya pagas el servicio y su aplicación te sirve, esto es la misma música con otra piel. Se elige cuando
 quieres descargar y escuchar sin anuncios, a sabiendas de que el proyecto no va a evolucionar.
+
 <!-- GUIA:FIN -->

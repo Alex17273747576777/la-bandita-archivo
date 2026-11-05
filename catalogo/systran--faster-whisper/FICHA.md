@@ -42,11 +42,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Biblioteca en Python que ejecuta los modelos de reconocimiento de voz de Whisper **mucho más rápido** que la
+implementación original, usando un motor de inferencia optimizado. Es la pieza que usan muchos programas de
+dictado de este racimo por debajo.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala con `pip install faster-whisper`; la entrega medida es la `v1.2.1`, del 31 de octubre de 2025.
+2. Desde código se carga un modelo —hay varios tamaños— y se le pasa el audio, o se usa su orden de ejemplo
+   para transcribir un archivo.
+3. En una tarjeta gráfica compatible va muy rápido; en procesador, más lento pero funciona.
+
+### Lo que conviene saber antes
+
+26.496 estrellas, licencia MIT, y su última entrega es de **octubre de 2025**, aunque el repositorio recibe
+cambios en noviembre de 2026. No es un programa: no tiene ventana ni teclado. Se usa desde otro programa o
+desde un guion. Su límite es la memoria de tu equipo: los modelos grandes piden varios gigas.
+
+### Cuándo no vale la pena
+
+Si lo que quieres es dictar, no empieces aquí: instala una de las aplicaciones de este racimo que ya lo
+llevan dentro. Esta ficha existe porque es la pieza que hace posibles a las demás.
 <!-- GUIA:FIN -->

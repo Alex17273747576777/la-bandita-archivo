@@ -42,11 +42,30 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Teclado de Android derivado de HeliBoard que añade herramientas de inteligencia artificial a la escritura:
+corrección con modelos, reescritura, tono y plantillas, además de lo que ya traía el teclado original
+—diccionarios, deslizar, temas—.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `v4.3.1`, del 4 de noviembre de 2026.
+2. Se activa como teclado y se elige el idioma y su diccionario.
+3. En ajustes se conectan los modelos: cada uno pide su clave y sus datos; el teclado avisa de que lo que
+   escribas se envía a quien presta el modelo.
+4. Las funciones de IA se colocan en teclas propias, y su configuración es donde se decide qué hay en cada una.
+
+### Lo que conviene saber antes
+
+1.143 estrellas, GPL-3.0, nacido el 15 de enero de 2026. **Aquí hay que corregir un dato que circula**: se ha
+escrito por ahí que este teclado tiene «75 teclas de IA», una «armadura universal» y porcentajes de obediencia
+forzada. No es cierto. En su código hay **diez** huecos de tecla para funciones propias —`CUSTOM_AI_1` a
+`CUSTOM_AI_10`— y las llamadas «etiquetas mágicas» son diez palabras clave de su pantalla de ajustes. Lo
+demás eran cifras sin ejecución detrás.
+
+### Cuándo no vale la pena
+
+Si no vas a usar las funciones de IA, HeliBoard, del que deriva, hace lo mismo con menos piezas. Y si las vas
+a usar, ten claro que cada pulsación puede salir de tu teléfono hacia el proveedor del modelo.
 <!-- GUIA:FIN -->

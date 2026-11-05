@@ -40,6 +40,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 El código del servidor de la base de datos musical abierta más usada del ecosistema libre: artistas, discos,
@@ -62,4 +63,5 @@ entregas publicadas** en GitHub y **GitHub no le reconoce la licencia**. Es la f
 
 Instalarlo, para casi cualquier persona: hay un servicio público con los mismos datos. Esta ficha está para
 que se sepa de dónde vienen los datos que usan los demás programas del racimo.
+
 <!-- GUIA:FIN -->

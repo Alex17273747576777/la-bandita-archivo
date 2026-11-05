@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Servidor de música por web compatible con el protocolo Subsonic: se instala en un equipo, apunta a una
@@ -64,4 +65,5 @@ licencia GPL-3.0. Es un proyecto que en su día mejoró a Airsonic y que hoy no 
 
 Hoy, para empezar de cero: `Navidrome` y `supersonic` cubren lo mismo y siguen vivos. Esta entrada está en el
 catálogo porque el recurso existe y se midió, no porque se recomiende.
+
 <!-- GUIA:FIN -->

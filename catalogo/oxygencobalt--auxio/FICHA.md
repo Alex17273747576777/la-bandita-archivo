@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Reproductor de música **local** para Android, deliberadamente estrecho: ordena tu biblioteca por carpetas,
@@ -64,4 +65,5 @@ racimo que no puede romperse porque otra empresa cambie algo.
 
 Si tu música está en un servidor y quieres oírla desde el móvil, esto no la ve. Y si te gustan las listas
 compartidas en línea, aquí no hay.
+
 <!-- GUIA:FIN -->

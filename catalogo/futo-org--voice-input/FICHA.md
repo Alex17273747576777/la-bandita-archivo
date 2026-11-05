@@ -37,11 +37,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Aplicación de dictado para Android que **se integra con el teclado que ya usas**: no sustituye tu teclado, sino
+que se ofrece como servicio de reconocimiento al botón de micrófono del sistema. Reconocimiento en el propio
+teléfono, sin enviar el audio fuera.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala el paquete desde la fuente que indica su proyecto; aquí **no hay entregas publicadas**, porque
+   este repositorio es un espejo del original que vive en GitLab y sirve sobre todo para reportar fallos.
+2. Se activa como servicio de reconocimiento de voz en los ajustes del sistema.
+3. Se pulsa el micrófono en tu teclado de siempre y se dicta.
+4. Se descarga el modelo de idioma que corresponda dentro de la propia aplicación.
+
+### Lo que conviene saber antes
+
+350 estrellas y **GitHub no le reconoce la licencia** en la ficha. Su ventaja es enorme y sencilla: no tienes
+que cambiar de teclado para dictar. Su límite es que la instalación no está en este repositorio, así que hay
+que ir a la fuente del proyecto, y eso es un paso más del que apetece.
+
+### Cuándo no vale la pena
+
+Si no te importa cambiar de teclado, un teclado de dictado de este racimo te da lo mismo en una sola
+instalación. Y si tu teléfono es viejo, el modelo local va a ir lento.
 <!-- GUIA:FIN -->

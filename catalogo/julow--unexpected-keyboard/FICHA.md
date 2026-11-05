@@ -38,11 +38,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Teclado pensado para quien escribe **código y símbolos en el teléfono**: teclas extra en filas adicionales,
+muchos caracteres por tecla con pulsación larga, gestos para mover el cursor y atajos. Ocupa muy poco y no
+tiene red.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `2.2.0`, del 1 de noviembre de 2026.
+2. Se activa como teclado y se elige la distribución: la de programación, la de terminal o la normal.
+3. Los símbolos se alcanzan con pulsación larga o deslizando desde las teclas de la esquina.
+
+### Lo que conviene saber antes
+
+3.337 estrellas, GPL-3.0, once años de historia y una entrega de hace cuatro días. Su diseño va contra la
+moda: sin predicción agresiva, sin corrección que adivine, sin diccionario que aprenda. Eso es exactamente lo
+que se quiere al escribir una orden en una terminal, y exactamente lo que no se quiere al mandar mensajes.
+
+### Cuándo no vale la pena
+
+Para escribir mensajes largos en español, la falta de corrección se nota mucho. Se elige para lo que fue
+hecho: símbolos, terminales y administración desde el teléfono.
 <!-- GUIA:FIN -->

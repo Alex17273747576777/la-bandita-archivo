@@ -38,6 +38,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Fue el cliente de música de Android que puso de moda la interfaz limpia para escuchar desde un servicio sin
@@ -58,4 +59,5 @@ Instalarlo hoy en un Android actual puede fallar por permisos o por cambios del 
 
 Para uso nuevo, no: usa uno de sus derivados vivos. Esta ficha se conserva porque el recurso existió, se
 midió y mucha gente lo busca todavía por su nombre.
+
 <!-- GUIA:FIN -->

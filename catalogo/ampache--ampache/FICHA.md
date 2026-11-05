@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Servidor de música y vídeo por web, escrito en PHP: se instala en un alojamiento normal, apunta a la carpeta
@@ -66,4 +67,5 @@ alojamiento barato, y eso es justo lo que otros servidores de este racimo no per
 
 Si no tienes ya un servidor web con PHP, montar el entorno cuesta más que instalar otro servidor con un solo
 comando. Y si tu colección es pequeña, sobra potencia.
+
 <!-- GUIA:FIN -->

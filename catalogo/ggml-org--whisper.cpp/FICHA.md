@@ -42,11 +42,30 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Implementación de los modelos de reconocimiento de voz de Whisper en C y C++, sin dependencias y capaz de
+correr en un teléfono, una Raspberry Pi o un portátil modesto. Es la pieza que hace posible el dictado local en
+casi todas las aplicaciones de este racimo.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se compila —son dos órdenes con `cmake`— o se toma el binario de la entrega `v1.9.5`, del 6 de octubre de
+   2026.
+2. Se descarga un modelo en el formato del proyecto; hay varios tamaños, de unos cientos de megas a varios
+   gigas.
+3. Se transcribe un archivo con la orden de ejemplo, o se levanta su servidor local para que otros programas le
+   manden audio.
+4. Admite el micrófono del sistema para dictado en vivo.
+
+### Lo que conviene saber antes
+
+54.948 estrellas, licencia MIT, y desarrollo diario. Su virtud es correr donde otros no corren; su precio es
+que hay que compilar y elegir el modelo a mano, y que la calidad depende de ese tamaño. En un equipo sin
+tarjeta gráfica, los modelos grandes tardan lo suyo.
+
+### Cuándo no vale la pena
+
+Si lo que quieres es dictar y ya, instala una aplicación que lo lleve dentro: esto es el motor, no el
+volante.
 <!-- GUIA:FIN -->

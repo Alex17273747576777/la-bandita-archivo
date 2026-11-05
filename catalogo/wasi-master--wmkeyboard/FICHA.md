@@ -42,11 +42,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Teclado de Android con ambición de sustituir al de fábrica: predicción, escritura deslizando, transliteración,
+búsqueda de emojis y una caja de herramientas con muchas utilidades, todo hecho en el teléfono y con la promesa
+de no enviar nada fuera. Presume de cubrir más de seiscientos idiomas.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `v0.6.5`, publicada hoy, 5 de noviembre de 2026.
+2. Se activa como teclado y se eligen los idiomas; cada uno trae su diccionario.
+3. Las herramientas se abren desde su propia caja: conversores, cálculos, textos de plantilla.
+4. En ajustes se activa o desactiva la predicción y el deslizamiento, que consumen memoria.
+
+### Lo que conviene saber antes
+
+736 estrellas, MIT, creado el 10 de agosto de 2026: tres meses. Su texto habla de **seiscientos idiomas** y de
+**89 herramientas**; son cifras del autor y aquí no se han contado una por una. En un teclado, la cantidad de
+funciones no es una ventaja por sí sola: cada una ocupa sitio en la memoria y en la atención de quien mantiene
+el proyecto.
+
+### Cuándo no vale la pena
+
+Un teclado con tres meses de vida es lo primero que se rompe cuando el sistema cambia. Si quieres estabilidad,
+elige uno con años; si te apetece probar, empieza por desactivar lo que no uses.
 <!-- GUIA:FIN -->

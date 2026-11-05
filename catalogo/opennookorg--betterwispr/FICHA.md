@@ -42,11 +42,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Aplicación de dictado para **macOS**, local: se mantiene una combinación de teclas, se habla y el texto entra en
+la aplicación donde estés escribiendo, sin pasar por ningún servicio.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la entrega `v0.1.5`, del 12 de octubre de 2026.
+2. Se concede permiso de micrófono y de accesibilidad.
+3. Se elige el atajo y el modelo; en la primera ejecución se descargan los archivos.
+4. Se mantiene el atajo, se habla y se suelta.
+
+### Lo que conviene saber antes
+
+506 estrellas, Apache-2.0. El dato que manda: **el repositorio se creó el 7 de octubre de 2026**, o sea, un mes
+antes de esta medición, y va por la `0.1.5`. Es un proyecto recién nacido, con todo lo que eso significa:
+puede cambiar entero en la próxima entrega y puede no haber una próxima. Está escrito en Swift, así que sólo
+existe en Mac.
+
+### Cuándo no vale la pena
+
+Hoy, para uso diario: un mes de vida no da para confiarle el dictado de tu trabajo. Si quieres algo parecido con
+más rodaje, en este racimo hay varias opciones con más historia.
 <!-- GUIA:FIN -->

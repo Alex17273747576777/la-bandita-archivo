@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Aplicación de música multiplataforma —Android y ahora también escritorio— que usa un servicio de música como
@@ -66,4 +67,5 @@ decidir si instalarla.
 
 Si quieres escuchar tu propia biblioteca, esto no la ve. Y si el servicio cambia sus reglas, la aplicación
 puede dejar de funcionar aunque siga publicando versiones.
+
 <!-- GUIA:FIN -->

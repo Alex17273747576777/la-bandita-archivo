@@ -43,11 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Transcripción de voz a texto que funciona **sin conexión**, multiplataforma y con la idea de ser extensible: se
+pulsa un atajo, se habla y el texto aparece en la aplicación activa. Se puede ampliar con modelos y con
+ajustes de puntuación.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la entrega `v0.10.0`, del 2 de noviembre de 2026, para Windows, macOS o Linux.
+2. Se descarga un modelo en la primera ejecución y se elige el atajo.
+3. Se habla y se suelta; el texto se escribe solo, y en ajustes se añade puntuación automática.
+4. Su documentación explica cómo cambiar de modelo y cómo ampliarlo.
+
+### Lo que conviene saber antes
+
+37.597 estrellas, MIT, escrito en Rust: es el más popular de su familia en este racimo y eso se nota en la
+cantidad de incidencias resueltas. Sigue siendo una versión `0.x`, así que la interfaz cambia entre entregas.
+Su punto fuerte es que **todo ocurre en el equipo**: nada de tu voz sale a un servidor ajeno.
+
+### Cuándo no vale la pena
+
+Si tu equipo va justo de memoria, el modelo local se va a llevar la peor parte. Y si dictas en un idioma con
+pocos datos, la precisión baja como en todos los motores abiertos.
 <!-- GUIA:FIN -->

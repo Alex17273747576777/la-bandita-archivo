@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Reproductor y organizador de colecciones para quien cuida el archivo: lee FLAC, ALAC y demás formatos sin
@@ -64,4 +65,5 @@ portátiles antiguos, cosa rara hoy.
 
 Si tu música está en un servicio y no en archivos, no hay nada que ordenar. Y si sólo quieres darle al play a
 unos mp3, es más programa del que necesitas.
+
 <!-- GUIA:FIN -->

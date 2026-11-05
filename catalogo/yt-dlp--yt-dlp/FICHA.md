@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Descargador de audio y vídeo desde la línea de órdenes, con soporte de miles de sitios. En este racimo entra
@@ -68,4 +69,5 @@ hace un año puede no valer. Su lista de sitios la mantiene la comunidad, y los 
 Para una canción suelta, cualquier web hace el trabajo. `yt-dlp` se elige cuando repites, cuando quieres el
 audio tal cual —sin recomprimir— o cuando quieres automatizar. Y siempre: descarga lo que tengas derecho a
 descargar.
+
 <!-- GUIA:FIN -->

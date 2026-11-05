@@ -36,6 +36,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Reproductor y gestor de biblioteca para Linux, Windows y macOS: ordenar, buscar con consultas escritas,
@@ -60,4 +61,5 @@ ventanas, sin nada de nube.
 
 Si no vas a usar la búsqueda por consultas ni el etiquetado en bloque, un reproductor más simple basta. Y en
 Windows su instalación es menos cómoda que en Linux.
+
 <!-- GUIA:FIN -->

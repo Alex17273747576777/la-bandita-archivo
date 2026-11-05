@@ -42,11 +42,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Corrector de gramática y estilo para escritorio, con servidor propio y extensiones: revisa textos en más de
+veinticinco idiomas, entre ellos el español, y señala errores que un corrector ortográfico no ve —concordancias,
+preposiciones, frases mal construidas—.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se descarga desde la web del proyecto: **este repositorio no publica entregas**. Hay paquete de escritorio y
+   servidor.
+2. En escritorio se pega el texto o se abre un archivo; las sugerencias aparecen subrayadas.
+3. Como servidor, se levanta en el equipo y las suyas propias —editor de código, procesador de textos— se
+   conectan a él.
+4. Las extensiones del navegador y del procesador de textos usan la instancia pública o la tuya.
+
+### Lo que conviene saber antes
+
+15.234 estrellas, LGPL-2.1, escrito en Java, y trece años de proyecto. Su versión libre tiene menos reglas que
+el servicio comercial del mismo nombre: si comparas, mira qué conjunto de reglas estás usando. Y en español
+funciona de verdad, que es más de lo que se puede decir de casi todo lo demás de este racimo.
+
+### Cuándo no vale la pena
+
+Si buscas revisión en tu procesador de textos y no te importa que el texto salga a internet, la extensión del
+servicio público basta. Montar el servidor tiene sentido si el texto no puede salir de tu red.
 <!-- GUIA:FIN -->

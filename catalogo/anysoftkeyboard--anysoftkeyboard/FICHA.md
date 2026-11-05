@@ -39,11 +39,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Teclado de Android con una idea vieja y sólida: **muchos idiomas y ningún permiso de red**. Trae corrección,
+predicción y diccionarios por idioma como paquetes separados, y su propio texto presume de que no tiene acceso
+a internet, cosa que se puede comprobar en su manifiesto.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `1.13-r2`, del 8 de septiembre de 2026.
+2. Se activa como teclado y, en su asistente, se añaden los idiomas: cada uno descarga su diccionario.
+3. En ajustes se decide la distribución de teclas, el tamaño, la predicción y el gesto de deslizar.
+
+### Lo que conviene saber antes
+
+3.393 estrellas, Apache-2.0 y catorce años de vida: es de los proyectos más veteranos de este racimo. Su
+interfaz no es la más moderna —se nota que viene de otra época— y en un teléfono grande las teclas pueden
+parecer pequeñas hasta que se ajustan. A cambio, no hay nada que envíe lo que escribes a ningún sitio.
+
+### Cuándo no vale la pena
+
+Si escribes en un solo idioma y el teclado de fábrica ya te corrige bien, no hay razón para cambiar. Tiene
+sentido si escribes en varios idiomas mezclados o si no quieres un teclado con red en el teléfono.
 <!-- GUIA:FIN -->

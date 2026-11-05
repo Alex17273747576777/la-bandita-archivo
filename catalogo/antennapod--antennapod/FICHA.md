@@ -39,6 +39,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Gestor de pódcast para Android, de los que llevan más tiempo vivos: suscripciones, cola, descarga automática
@@ -63,4 +64,5 @@ racimo), y esa pieza la tienes que montar aparte.
 
 Si oyes dos pódcast al mes, la aplicación que ya trae el teléfono hace eso y no ocupa sitio. AntennaPod se
 justifica cuando sigues diez y quieres cola, descargas y velocidad fina.
+
 <!-- GUIA:FIN -->

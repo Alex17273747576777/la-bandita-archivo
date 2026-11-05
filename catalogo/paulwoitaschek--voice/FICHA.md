@@ -39,6 +39,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Reproductor de **audiolibros** para Android, pensado para lo que necesita ese formato y no tiene un
@@ -63,4 +64,5 @@ que se monta por separado.
 Si oyes audiolibros desde una aplicación de tienda con su propia reproducción, el cambio tiene sentido sólo
 si tus archivos son tuyos y están en el teléfono. Y para música no sirve: cada libro es una carpeta y una
 posición.
+
 <!-- GUIA:FIN -->

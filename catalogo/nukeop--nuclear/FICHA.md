@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Reproductor de escritorio que **busca música por su cuenta**: se escribe un artista o un tema y el programa
@@ -63,4 +64,5 @@ no del programa. El programa, en sí, es un reproductor con una capa de búsqued
 
 Si tienes tu música en local o pagas un servicio con su aplicación, esto añade incertidumbre. Se elige por
 la búsqueda inmediata, a sabiendas de lo que ello implica.
+
 <!-- GUIA:FIN -->

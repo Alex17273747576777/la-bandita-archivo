@@ -43,11 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Dictado por voz para **Linux**, sin conexión: se habla y el texto se escribe en la ventana que tenga el foco,
+funcione con X11 o con Wayland. Admite varios motores locales —el de referencia es `whisper.cpp`, pero
+también Whisper y VOSK— y aprovecha la tarjeta gráfica cuando la hay.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala desde la entrega `v0.18.5`, del 27 de octubre de 2026, o desde el paquete de tu distribución.
+2. La primera vez se descarga un modelo; el tamaño decide la precisión y la memoria que ocupa.
+3. Se elige el atajo de teclado y el motor; al pulsarlo se empieza a dictar y al soltarlo se escribe.
+4. En Wayland conviene revisar los permisos de la sesión: es la parte que más falla en ese entorno.
+
+### Lo que conviene saber antes
+
+994 estrellas, AGPL-3.0, escrito en Python, y versión `0.18`: está en construcción activa desde abril de 2025.
+Es de los pocos proyectos de dictado que trata Wayland como ciudadano de primera, y eso ya justifica su
+existencia. Su dependencia del modelo hace que en un equipo modesto la primera frase tarde.
+
+### Cuándo no vale la pena
+
+Si usas Windows o macOS, aquí no hay nada. Y si tu equipo es muy antiguo, mover el modelo en el procesador va
+a ser más lento que escribir.
 <!-- GUIA:FIN -->
