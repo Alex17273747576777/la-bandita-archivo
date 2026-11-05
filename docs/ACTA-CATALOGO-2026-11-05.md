@@ -255,3 +255,14 @@ lleva una dirección dentro; para los índices de extensiones se describe *dónd
 **Lo que sigue sin estar verificado.** Ninguno de los 278 se ha instalado. En este último bloque eso pesa
 especialmente en los lectores con extensiones: se describe el mecanismo, no se ha probado ninguna fuente, y
 **ninguna lista de contenido se ha abierto ni se abrirá**.
+
+## Octava tanda · cierre del catálogo · índice y acta
+
+Últimos dos cambios de esta sesión:
+
+1. `tools/catalogo_ficha.py`: el resumen del índice ahora dice **"ninguna pendiente"** cuando todas las fichas llevan guía, en vez del genérico «el resto, medidos y esperando su guía». Es el cambio que cierra el catálogo con el número completo.
+
+2. `catalogo/INDICE.md`: regenerado con el mismo `catalogo_ficha.py --indice` que regenera el índice de `docs/`: ahora lee
+   `**278 recursos** en 10 racimos · **278 con guía escrita** · ninguna pendiente.`
+
+Ambos cambios están ya en el commit que sigue, con el ritual y las compuertas pasados. El catálogo deja de ser un trabajo en curso y pasa a ser un archivo terminado: 278 fichas, 10 racimos, 0 pendientes.

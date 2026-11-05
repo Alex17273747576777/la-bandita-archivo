@@ -216,7 +216,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`atestar.py`](../tools/atestar.py) | ATESTACIÓN · sella el registro con SHA-256 y encadena el lote anterior. | 113 |
 | [`auditar_tienda.py`](../tools/auditar_tienda.py) | auditar_tienda.py · clonar una tienda de extensiones y leerla como la lee la app. | 450 |
 | [`autoprueba.py`](../tools/autoprueba.py) | AUTOPRUEBA DE LA VARA · una compuerta que no falla ante un fallo sintético no es una compuerta. | 222 |
-| [`catalogo_ficha.py`](../tools/catalogo_ficha.py) | catalogo_ficha.py · escribe o actualiza la ficha de cada recurso medido. | 242 |
+| [`catalogo_ficha.py`](../tools/catalogo_ficha.py) | catalogo_ficha.py · escribe o actualiza la ficha de cada recurso medido. | 244 |
 | [`catalogo_lint.py`](../tools/catalogo_lint.py) | catalogo_lint.py · revisa las fichas del catálogo y dice cuáles se sostienen. | 171 |
 | [`catalogo_medir.py`](../tools/catalogo_medir.py) | catalogo_medir.py · mide los recursos del catálogo y guarda la evidencia. | 212 |
 | [`catalogo_sync.py`](../tools/catalogo_sync.py) | catalogo_sync.py · pone al día el catálogo con los repositorios que cita. | 150 |

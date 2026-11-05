@@ -183,8 +183,10 @@ def escribir_indice(medido: dict) -> Path:
                    if (CATALOGO / slug(f["repo"]) / "FICHA.md").exists()
                    and INICIO in (CATALOGO / slug(f["repo"]) / "FICHA.md").read_text(encoding="utf-8")
                    and GUIA_PENDIENTE.split("\n")[0] not in (CATALOGO / slug(f["repo"]) / "FICHA.md").read_text(encoding="utf-8"))
+    cola = (f"el resto, medidos y esperando su guía." if escritas < total
+            else "ninguna pendiente.")
     lineas += [f"**{total} recursos** en {len(por_racimo)} racimos · **{escritas} con guía escrita** · "
-               f"el resto, medidos y esperando su guía.", ""]
+               f"{cola}", ""]
 
     for racimo in sorted(por_racimo):
         fichas = sorted(por_racimo[racimo], key=lambda x: -(x.get("estrellas") or 0))
