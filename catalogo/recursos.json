@@ -1,926 +1,938 @@
 {
- "version": "2026-11-05",
- "nota": "un recurso, un racimo; el racimo es el tema de la pieza del que sale o el banco de prueba del que se parte",
- "racimos": {
-  "reemplazo-del-stack": [
-   {
-    "repo": "4gray/iptvnator"
-   },
-   {
-    "repo": "Accrescent/Accrescent"
-   },
-   {
-    "repo": "Chimahon/chimahon"
-   },
-   {
-    "repo": "Eful97/Pictorium"
-   },
-   {
-    "repo": "Exodus-Privacy/exodus"
-   },
-   {
-    "repo": "HatriGt/flix-launcher"
-   },
-   {
-    "repo": "ImranR98/Obtainium"
-   },
-   {
-    "repo": "JJDizz1L/NuvioLinux-unofficial"
-   },
-   {
-    "repo": "MegaNexusMediaPlayer/MegaNexus"
-   },
-   {
-    "repo": "NuvioMedia/NuvioDesktop"
-   },
-   {
-    "repo": "NuvioMedia/NuvioMobile"
-   },
-   {
-    "repo": "NuvioMedia/NuvioTV"
-   },
-   {
-    "repo": "NuvioMedia/NuvioTVSmart"
-   },
-   {
-    "repo": "Pulsariums/pulsar-trmangahub"
-   },
-   {
-    "repo": "SkipDB-TV/skipdb"
-   },
-   {
-    "repo": "Stiven-Gjekaj/Moekoma"
-   },
-   {
-    "repo": "TaisenDev/aidoku-bridge-builder"
-   },
-   {
-    "repo": "TrackerControl/tracker-control-android"
-   },
-   {
-    "repo": "Viren070/AIOStreams"
-   },
-   {
-    "repo": "ahXN00/OwnTV"
-   },
-   {
-    "repo": "ahrm/sioyek"
-   },
-   {
-    "repo": "akachiina/wotoha"
-   },
-   {
-    "repo": "alpinezx/easy-aiostreams"
-   },
-   {
-    "repo": "arranoust/yomu"
-   },
-   {
-    "repo": "atharvkharbade/anisync-addon"
-   },
-   {
-    "repo": "booklore-app/booklore"
-   },
-   {
-    "repo": "cenodude/CrossWatch"
-   },
-   {
-    "repo": "coveninja/cove"
-   },
-   {
-    "repo": "debpalash/Opal"
-   },
-   {
-    "repo": "doctorhetfield-cmd/simpleui.koplugin"
-   },
-   {
-    "repo": "edrlab/thorium-reader"
-   },
-   {
-    "repo": "ellite/scrob"
-   },
-   {
-    "repo": "f-droid/fdroidclient"
-   },
-   {
-    "repo": "frederikemmer/MediaLyze"
-   },
-   {
-    "repo": "grimmory-tools/grimmory"
-   },
-   {
-    "repo": "iptv-org/iptv"
-   },
-   {
-    "repo": "ito-community/sources"
-   },
-   {
-    "repo": "janlery/MANGA-TENSEI"
-   },
-   {
-    "repo": "joaotolovi/m3u-mux-addon-stremio"
-   },
-   {
-    "repo": "johnfactotum/foliate"
-   },
-   {
-    "repo": "koodo-reader/koodo-reader"
-   },
-   {
-    "repo": "koreader/koreader"
-   },
-   {
-    "repo": "kovidgoyal/calibre"
-   },
-   {
-    "repo": "kuiti/manga-source-index"
-   },
-   {
-    "repo": "lipexama/lipex-reader"
-   },
-   {
-    "repo": "lnreader/cli"
-   },
-   {
-    "repo": "mochi-plugins/repository"
-   },
-   {
-    "repo": "ohadhaviv92/streamgram"
-   },
-   {
-    "repo": "readest/readest"
-   },
-   {
-    "repo": "s4pp1/stremhu-source"
-   },
-   {
-    "repo": "samyak2403/RepoStore"
-   },
-   {
-    "repo": "stupside/castor"
-   }
-  ],
-  "audio": [
-   {
-    "repo": "AntennaPod/AntennaPod"
-   },
-   {
-    "repo": "FFmpeg/FFmpeg"
-   },
-   {
-    "repo": "GNOME/easytag"
-   },
-   {
-    "repo": "KDE/elisa"
-   },
-   {
-    "repo": "LMS-Community/slimserver"
-   },
-   {
-    "repo": "MetrolistGroup/Metrolist"
-   },
-   {
-    "repo": "MusicPlayerDaemon/MPD"
-   },
-   {
-    "repo": "OuterTune/OuterTune"
-   },
-   {
-    "repo": "OxygenCobalt/Auxio"
-   },
-   {
-    "repo": "PaulWoitaschek/Voice"
-   },
-   {
-    "repo": "RetroMusicPlayer/RetroMusicPlayer"
-   },
-   {
-    "repo": "Spotifyd/spotifyd"
-   },
-   {
-    "repo": "Taiko2k/Tauon"
-   },
-   {
-    "repo": "TortugaPower/BookPlayer"
-   },
-   {
-    "repo": "XilinJia/Podcini"
-   },
-   {
-    "repo": "acoustid/chromaprint"
-   },
-   {
-    "repo": "advplyr/audiobookshelf"
-   },
-   {
-    "repo": "airsonic-advanced/airsonic-advanced"
-   },
-   {
-    "repo": "ampache/ampache"
-   },
-   {
-    "repo": "anandnet/Harmony-Music"
-   },
-   {
-    "repo": "beetbox/beets"
-   },
-   {
-    "repo": "blackcandy-org/blackcandy"
-   },
-   {
-    "repo": "gpodder/gpodder"
-   },
-   {
-    "repo": "harmonoid/harmonoid"
-   },
-   {
-    "repo": "imputnet/cobalt"
-   },
-   {
-    "repo": "jeffvli/feishin"
-   },
-   {
-    "repo": "jeffvli/sonixd"
-   },
-   {
-    "repo": "jellyfin/jellyfin"
-   },
-   {
-    "repo": "kawaiiDango/pano-scrobbler"
-   },
-   {
-    "repo": "koel/koel"
-   },
-   {
-    "repo": "librespot-org/librespot"
-   },
-   {
-    "repo": "maxrave-dev/SimpMusic"
-   },
-   {
-    "repo": "metabrainz/listenbrainz-server"
-   },
-   {
-    "repo": "metabrainz/musicbrainz-server"
-   },
-   {
-    "repo": "metabrainz/picard"
-   },
-   {
-    "repo": "mopidy/mopidy"
-   },
-   {
-    "repo": "namidaco/namida"
-   },
-   {
-    "repo": "navidrome/navidrome"
-   },
-   {
-    "repo": "nukeop/nuclear"
-   },
-   {
-    "repo": "owntone/owntone-server"
-   },
-   {
-    "repo": "quodlibet/quodlibet"
-   },
-   {
-    "repo": "rmcrackan/Libation"
-   },
-   {
-    "repo": "snapcast/snapcast"
-   },
-   {
-    "repo": "strawberrymusicplayer/strawberry"
-   },
-   {
-    "repo": "supersonic-app/supersonic"
-   },
-   {
-    "repo": "taglib/taglib"
-   },
-   {
-    "repo": "team-spotube/spotube"
-   },
-   {
-    "repo": "vfsfitvnm/ViMusic"
-   },
-   {
-    "repo": "xiph/Icecast-Server"
-   },
-   {
-    "repo": "y20k/escapepod"
-   },
-   {
-    "repo": "yt-dlp/yt-dlp"
-   },
-   {
-    "repo": "z-huang/InnerTune"
-   }
-  ],
-  "clientes-de-musica": [
-   {
-    "repo": "Clash-Projects/LastWave-Desktop"
-   },
-   {
-    "repo": "Clash-Projects/LastWave-Native"
-   },
-   {
-    "repo": "EchoMusicApp/Echo-Music"
-   },
-   {
-    "repo": "HemantKArya/BloomeeTunes"
-   },
-   {
-    "repo": "LUC4N3X/Levyra-deepsound"
-   },
-   {
-    "repo": "Lelonio/Square"
-   },
-   {
-    "repo": "MetrolistGroup/Metrolist"
-   },
-   {
-    "repo": "MuwMx/YumaPlayer"
-   },
-   {
-    "repo": "OpenSelena/omniget"
-   },
-   {
-    "repo": "OuterTune/OuterTune"
-   },
-   {
-    "repo": "Rigellute/spotify-tui"
-   },
-   {
-    "repo": "SimoHypers/limusic"
-   },
-   {
-    "repo": "Spotifyd/spotifyd"
-   },
-   {
-    "repo": "TeamNewPipe/NewPipeExtractor"
-   },
-   {
-    "repo": "anandnet/Harmony-Music"
-   },
-   {
-    "repo": "aome510/spotify-player"
-   },
-   {
-    "repo": "devgianlu/go-librespot"
-   },
-   {
-    "repo": "dubeyKartikay/lazyspotify"
-   },
-   {
-    "repo": "gokadzev/Musify"
-   },
-   {
-    "repo": "hrkfdn/ncspot"
-   },
-   {
-    "repo": "jpochyla/psst"
-   },
-   {
-    "repo": "kota-zo/myspoti"
-   },
-   {
-    "repo": "kraxarn/spotify-qt"
-   },
-   {
-    "repo": "kushagrasinghx/BitChord"
-   },
-   {
-    "repo": "libre-tube/LibreTube"
-   },
-   {
-    "repo": "librespot-org/librespot"
-   },
-   {
-    "repo": "lladlam/MeloX-Android"
-   },
-   {
-    "repo": "maxrave-dev/SimpMusic"
-   },
-   {
-    "repo": "missuo/kumone"
-   },
-   {
-    "repo": "nukeop/nuclear"
-   },
-   {
-    "repo": "rootscripts/riff"
-   },
-   {
-    "repo": "sigma67/ytmusicapi"
-   },
-   {
-    "repo": "sonorahq/sonora"
-   },
-   {
-    "repo": "spotipy-dev/spotipy"
-   },
-   {
-    "repo": "team-spotube/spotube"
-   },
-   {
-    "repo": "vfsfitvnm/ViMusic"
-   },
-   {
-    "repo": "z-huang/InnerTune"
-   }
-  ],
-  "descargas": [
-   {
-    "repo": "AnInsomniacy/rayburst"
-   },
-   {
-    "repo": "BareBrowser/bare-browser"
-   },
-   {
-    "repo": "Downvid/downvid"
-   },
-   {
-    "repo": "FortoGraphy/prism-download-manager"
-   },
-   {
-    "repo": "GopeedLab/gopeed"
-   },
-   {
-    "repo": "JunkFood02/Seal"
-   },
-   {
-    "repo": "Tyrrrz/YoutubeDownloader"
-   },
-   {
-    "repo": "Xmader/aria-ng-gui"
-   },
-   {
-    "repo": "Xmader/aria-ng-gui-android"
-   },
-   {
-    "repo": "agalwood/Motrix"
-   },
-   {
-    "repo": "aria2/aria2"
-   },
-   {
-    "repo": "arnoldhao/xiadown"
-   },
-   {
-    "repo": "axel-download-accelerator/axel"
-   },
-   {
-    "repo": "binux/yaaw"
-   },
-   {
-    "repo": "deniscerri/ytdlnis"
-   },
-   {
-    "repo": "iawia002/lux"
-   },
-   {
-    "repo": "lwthiker/curl-impersonate"
-   },
-   {
-    "repo": "mayswind/AriaNg"
-   },
-   {
-    "repo": "mayswind/AriaNg-Native"
-   },
-   {
-    "repo": "mesamirh/MovieBox-Tui"
-   },
-   {
-    "repo": "mikf/gallery-dl"
-   },
-   {
-    "repo": "nilaoda/N_m3u8DL-RE"
-   },
-   {
-    "repo": "persepolisdm/persepolis"
-   },
-   {
-    "repo": "pixel-point/media-downloader"
-   },
-   {
-    "repo": "rawnaldclark/Stash"
-   },
-   {
-    "repo": "rockdaboot/wget2"
-   },
-   {
-    "repo": "soimort/you-get"
-   },
-   {
-    "repo": "subhra74/xdm"
-   },
-   {
-    "repo": "uget/uget"
-   },
-   {
-    "repo": "yausername/youtubedl-android"
-   },
-   {
-    "repo": "yt-dlp/yt-dlp"
-   }
-  ],
-  "torrentes": [
-   {
-    "repo": "rhash/RHash"
-   },
-   {
-    "repo": "smartmontools/smartmontools"
-   },
-   {
-    "repo": "uutils/coreutils"
-   }
-  ],
-  "teclados-y-dictado": [
-   {
-    "repo": "Akshayykadam/PixelBoard"
-   },
-   {
-    "repo": "AnySoftKeyboard/AnySoftKeyboard"
-   },
-   {
-    "repo": "Automattic/harper"
-   },
-   {
-    "repo": "Batmancpu/Dictator-"
-   },
-   {
-    "repo": "BryceWG/BiBi-Keyboard"
-   },
-   {
-    "repo": "Cyletix/CyIME"
-   },
-   {
-    "repo": "DevEmperor/DictateKeyboard"
-   },
-   {
-    "repo": "ElishaAz/Sayboard"
-   },
-   {
-    "repo": "HeliBorg/HeliBoard"
-   },
-   {
-    "repo": "Julow/Unexpected-Keyboard"
-   },
-   {
-    "repo": "LeanBitLab/LeanType"
-   },
-   {
-    "repo": "Open-Less/openless"
-   },
-   {
-    "repo": "SYSTRAN/faster-whisper"
-   },
-   {
-    "repo": "VocaHQ/vocalinux"
-   },
-   {
-    "repo": "altic-dev/FluidVoice"
-   },
-   {
-    "repo": "amicalhq/amical"
-   },
-   {
-    "repo": "anomalyco/hex"
-   },
-   {
-    "repo": "cjpais/Handy"
-   },
-   {
-    "repo": "espanso/espanso"
-   },
-   {
-    "repo": "florisboard/florisboard"
-   },
-   {
-    "repo": "futo-org/voice-input"
-   },
-   {
-    "repo": "ggml-org/whisper.cpp"
-   },
-   {
-    "repo": "karansinghgit/speaktype"
-   },
-   {
-    "repo": "languagetool-org/languagetool"
-   },
-   {
-    "repo": "notune/android_transcribe_app"
-   },
-   {
-    "repo": "openai/whisper"
-   },
-   {
-    "repo": "opennookorg/betterwispr"
-   },
-   {
-    "repo": "osfans/trime"
-   },
-   {
-    "repo": "peteonrails/voxtype"
-   },
-   {
-    "repo": "rkkr/simple-keyboard"
-   },
-   {
-    "repo": "scholay-xsime/xsime"
-   },
-   {
-    "repo": "soupslurpr/Transcribro"
-   },
-   {
-    "repo": "wasi-master/wmkeyboard"
-   },
-   {
-    "repo": "zoolapp/aime"
-   }
-  ],
-  "radio-y-directo": [
-   {
-    "repo": "AntennaPod/AntennaPod"
-   },
-   {
-    "repo": "AzuraCast/AzuraCast"
-   },
-   {
-    "repo": "Davidona/StreamVault-IPTV"
-   },
-   {
-    "repo": "Ruby184/epg-tools"
-   },
-   {
-    "repo": "TheJoeFin/Traydio"
-   },
-   {
-    "repo": "Woodic-Way/WoodicIPTV"
-   },
-   {
-    "repo": "ahXN00/OwnTV"
-   },
-   {
-    "repo": "armanmaurya/InternetRadio"
-   },
-   {
-    "repo": "bilipp/Lume"
-   },
-   {
-    "repo": "bsogulcan/another-iptv-player"
-   },
-   {
-    "repo": "clubanderson/clubTivi"
-   },
-   {
-    "repo": "dereferencex/prysm"
-   },
-   {
-    "repo": "deutsia/deutsia-radio"
-   },
-   {
-    "repo": "hyliankid14/British-Radio-Player"
-   },
-   {
-    "repo": "infinitel8p/Extreme-InfiniTV"
-   },
-   {
-    "repo": "lennylxx/webos-iptv-player"
-   },
-   {
-    "repo": "libretime/libretime"
-   },
-   {
-    "repo": "meehow/receiver"
-   },
-   {
-    "repo": "mewset/better-iptv"
-   },
-   {
-    "repo": "mytv-android/mytv-android"
-   },
-   {
-    "repo": "nevermore23274/AetherTune"
-   },
-   {
-    "repo": "opentvproject/opentv"
-   },
-   {
-    "repo": "renyijiu/tune-roam"
-   },
-   {
-    "repo": "segler-alex/RadioDroid"
-   },
-   {
-    "repo": "shapeshed/aerial"
-   },
-   {
-    "repo": "streamlink/streamlink"
-   },
-   {
-    "repo": "suuhm/xmltv-splitter"
-   },
-   {
-    "repo": "vikindor/omnibeat"
-   },
-   {
-    "repo": "xiph/Icecast-Server"
-   },
-   {
-    "repo": "xyzs996/iptv-doctor"
-   },
-   {
-    "repo": "yaolin-dev/OKVideoMac"
-   },
-   {
-    "repo": "z0rats/freqcast"
-   }
-  ],
-  "tiendas-de-extensiones": [
-   {
-    "repo": "AppFuton/Futon"
-   },
-   {
-    "repo": "HuzaifaKhalid1311/DropSauce"
-   },
-   {
-    "repo": "KotatsuApp/Kotatsu"
-   },
-   {
-    "repo": "LittleSurvival/copymanga-copy20"
-   },
-   {
-    "repo": "Mallyd11/mangayomi-anime-extensions"
-   },
-   {
-    "repo": "Secozzi/aniyomi-extensions"
-   },
-   {
-    "repo": "Swakshan/mangayomi-swak-extensions"
-   },
-   {
-    "repo": "UsagiApp/Usagi"
-   },
-   {
-    "repo": "animiruorg/Animiru"
-   },
-   {
-    "repo": "dragonx943/manga-repo"
-   },
-   {
-    "repo": "keiyoushi/extensions"
-   },
-   {
-    "repo": "keiyoushi/extensions-source"
-   },
-   {
-    "repo": "kodjodevf/mangayomi"
-   },
-   {
-    "repo": "kodjodevf/mangayomi-extensions"
-   },
-   {
-    "repo": "lnreader/lnreader-plugins"
-   },
-   {
-    "repo": "m2k3a/mangayomi-extensions"
-   },
-   {
-    "repo": "mihonapp/mihon"
-   },
-   {
-    "repo": "mochi-plugins/repository"
-   },
-   {
-    "repo": "mojuru/anime-repo"
-   },
-   {
-    "repo": "recloudstream/cloudstream"
-   },
-   {
-    "repo": "salmanbappi/extensions-repo"
-   },
-   {
-    "repo": "self-similarity/MegaRepo"
-   },
-   {
-    "repo": "yuzono/anime-repo"
-   },
-   {
-    "repo": "yuzono/cursed-manga-extensions"
-   },
-   {
-    "repo": "yuzono/manga-repo"
-   }
-  ],
-  "teclados-con-ia": [
-   {
-    "repo": "AnySoftKeyboard/AnySoftKeyboard"
-   },
-   {
-    "repo": "HeliBorg/HeliBoard"
-   },
-   {
-    "repo": "Julow/Unexpected-Keyboard"
-   },
-   {
-    "repo": "LeanBitLab/LeanType"
-   },
-   {
-    "repo": "SvReenen/Deskdrop"
-   },
-   {
-    "repo": "dessalines/thumb-key"
-   },
-   {
-    "repo": "fcitx5-android/fcitx5-android"
-   },
-   {
-    "repo": "florisboard/florisboard"
-   },
-   {
-    "repo": "futo-org/android-keyboard"
-   },
-   {
-    "repo": "osfans/trime"
-   },
-   {
-    "repo": "rkkr/simple-keyboard"
-   }
-  ],
-  "shizuku-y-herederos": [
-   {
-    "repo": "RikkaApps/Shizuku"
-   },
-   {
-    "repo": "RikkaApps/Sui"
-   },
-   {
-    "repo": "RikkaApps/Shizuku-API"
-   },
-   {
-    "repo": "RikkaApps/Riru"
-   },
-   {
-    "repo": "roro2239/Stellar"
-   },
-   {
-    "repo": "rushiranpise/Shizuku-Next"
-   },
-   {
-    "repo": "thejaustin/ShizukuPlus"
-   },
-   {
-    "repo": "iamr0s/Dhizuku"
-   },
-   {
-    "repo": "aistra0528/Hail"
-   },
-   {
-    "repo": "samolego/Canta"
-   },
-   {
-    "repo": "MuntashirAkon/AppManager"
-   },
-   {
-    "repo": "zacharee/InstallWithOptions"
-   },
-   {
-    "repo": "legendsayantan/ShizuTools"
-   },
-   {
-    "repo": "kitsumed/ShizuCallRecorder"
-   },
-   {
-    "repo": "Hamza417/Inure"
-   },
-   {
-    "repo": "xjunz/AutoTask"
-   },
-   {
-    "repo": "iamr0s/InstallerX"
-   },
-   {
-    "repo": "wxxsfxyzm/InstallerX-Revived"
-   },
-   {
-    "repo": "pass-with-high-score/universal-installer"
-   },
-   {
-    "repo": "0x192/universal-android-debloater"
-   },
-   {
-    "repo": "Universal-Debloater-Alliance/universal-android-debloater-next-generation"
-   },
-   {
-    "repo": "sunilpaulmathew/De-Bloater"
-   },
-   {
-    "repo": "timschneeb/awesome-shizuku"
-   }
-  ]
- }
+  "version": "2026-11-05",
+  "nota": "un recurso, un racimo; el racimo es el tema de la pieza del que sale o el banco de prueba del que se parte",
+  "racimos": {
+    "reemplazo-del-stack": [
+      {
+        "repo": "4gray/iptvnator"
+      },
+      {
+        "repo": "Accrescent/Accrescent"
+      },
+      {
+        "repo": "Chimahon/chimahon"
+      },
+      {
+        "repo": "Eful97/Pictorium"
+      },
+      {
+        "repo": "Exodus-Privacy/exodus"
+      },
+      {
+        "repo": "HatriGt/flix-launcher"
+      },
+      {
+        "repo": "ImranR98/Obtainium"
+      },
+      {
+        "repo": "JJDizz1L/NuvioLinux-unofficial"
+      },
+      {
+        "repo": "MegaNexusMediaPlayer/MegaNexus"
+      },
+      {
+        "repo": "NuvioMedia/NuvioDesktop"
+      },
+      {
+        "repo": "NuvioMedia/NuvioMobile"
+      },
+      {
+        "repo": "NuvioMedia/NuvioTV"
+      },
+      {
+        "repo": "NuvioMedia/NuvioTVSmart"
+      },
+      {
+        "repo": "Pulsariums/pulsar-trmangahub"
+      },
+      {
+        "repo": "SkipDB-TV/skipdb"
+      },
+      {
+        "repo": "Stiven-Gjekaj/Moekoma"
+      },
+      {
+        "repo": "TaisenDev/aidoku-bridge-builder"
+      },
+      {
+        "repo": "TrackerControl/tracker-control-android"
+      },
+      {
+        "repo": "Viren070/AIOStreams"
+      },
+      {
+        "repo": "ahXN00/OwnTV"
+      },
+      {
+        "repo": "ahrm/sioyek"
+      },
+      {
+        "repo": "akachiina/wotoha"
+      },
+      {
+        "repo": "alpinezx/easy-aiostreams"
+      },
+      {
+        "repo": "arranoust/yomu"
+      },
+      {
+        "repo": "atharvkharbade/anisync-addon"
+      },
+      {
+        "repo": "booklore-app/booklore"
+      },
+      {
+        "repo": "cenodude/CrossWatch"
+      },
+      {
+        "repo": "coveninja/cove"
+      },
+      {
+        "repo": "debpalash/Opal"
+      },
+      {
+        "repo": "doctorhetfield-cmd/simpleui.koplugin"
+      },
+      {
+        "repo": "edrlab/thorium-reader"
+      },
+      {
+        "repo": "ellite/scrob"
+      },
+      {
+        "repo": "f-droid/fdroidclient"
+      },
+      {
+        "repo": "frederikemmer/MediaLyze"
+      },
+      {
+        "repo": "grimmory-tools/grimmory"
+      },
+      {
+        "repo": "iptv-org/iptv"
+      },
+      {
+        "repo": "ito-community/sources"
+      },
+      {
+        "repo": "janlery/MANGA-TENSEI"
+      },
+      {
+        "repo": "joaotolovi/m3u-mux-addon-stremio"
+      },
+      {
+        "repo": "johnfactotum/foliate"
+      },
+      {
+        "repo": "koodo-reader/koodo-reader"
+      },
+      {
+        "repo": "koreader/koreader"
+      },
+      {
+        "repo": "kovidgoyal/calibre"
+      },
+      {
+        "repo": "kuiti/manga-source-index"
+      },
+      {
+        "repo": "lipexama/lipex-reader"
+      },
+      {
+        "repo": "lnreader/cli"
+      },
+      {
+        "repo": "mochi-plugins/repository"
+      },
+      {
+        "repo": "ohadhaviv92/streamgram"
+      },
+      {
+        "repo": "readest/readest"
+      },
+      {
+        "repo": "s4pp1/stremhu-source"
+      },
+      {
+        "repo": "samyak2403/RepoStore"
+      },
+      {
+        "repo": "stupside/castor"
+      }
+    ],
+    "audio": [
+      {
+        "repo": "AntennaPod/AntennaPod"
+      },
+      {
+        "repo": "FFmpeg/FFmpeg"
+      },
+      {
+        "repo": "GNOME/easytag"
+      },
+      {
+        "repo": "KDE/elisa"
+      },
+      {
+        "repo": "LMS-Community/slimserver"
+      },
+      {
+        "repo": "MetrolistGroup/Metrolist"
+      },
+      {
+        "repo": "MusicPlayerDaemon/MPD"
+      },
+      {
+        "repo": "OuterTune/OuterTune"
+      },
+      {
+        "repo": "OxygenCobalt/Auxio"
+      },
+      {
+        "repo": "PaulWoitaschek/Voice"
+      },
+      {
+        "repo": "RetroMusicPlayer/RetroMusicPlayer"
+      },
+      {
+        "repo": "Spotifyd/spotifyd"
+      },
+      {
+        "repo": "Taiko2k/Tauon"
+      },
+      {
+        "repo": "TortugaPower/BookPlayer"
+      },
+      {
+        "repo": "XilinJia/Podcini"
+      },
+      {
+        "repo": "acoustid/chromaprint"
+      },
+      {
+        "repo": "advplyr/audiobookshelf"
+      },
+      {
+        "repo": "airsonic-advanced/airsonic-advanced"
+      },
+      {
+        "repo": "ampache/ampache"
+      },
+      {
+        "repo": "anandnet/Harmony-Music"
+      },
+      {
+        "repo": "beetbox/beets"
+      },
+      {
+        "repo": "blackcandy-org/blackcandy"
+      },
+      {
+        "repo": "gpodder/gpodder"
+      },
+      {
+        "repo": "harmonoid/harmonoid"
+      },
+      {
+        "repo": "imputnet/cobalt"
+      },
+      {
+        "repo": "jeffvli/feishin"
+      },
+      {
+        "repo": "jeffvli/sonixd"
+      },
+      {
+        "repo": "jellyfin/jellyfin"
+      },
+      {
+        "repo": "kawaiiDango/pano-scrobbler"
+      },
+      {
+        "repo": "koel/koel"
+      },
+      {
+        "repo": "librespot-org/librespot"
+      },
+      {
+        "repo": "maxrave-dev/SimpMusic"
+      },
+      {
+        "repo": "metabrainz/listenbrainz-server"
+      },
+      {
+        "repo": "metabrainz/musicbrainz-server"
+      },
+      {
+        "repo": "metabrainz/picard"
+      },
+      {
+        "repo": "mopidy/mopidy"
+      },
+      {
+        "repo": "namidaco/namida"
+      },
+      {
+        "repo": "navidrome/navidrome"
+      },
+      {
+        "repo": "nukeop/nuclear"
+      },
+      {
+        "repo": "owntone/owntone-server"
+      },
+      {
+        "repo": "quodlibet/quodlibet"
+      },
+      {
+        "repo": "rmcrackan/Libation"
+      },
+      {
+        "repo": "snapcast/snapcast"
+      },
+      {
+        "repo": "strawberrymusicplayer/strawberry"
+      },
+      {
+        "repo": "supersonic-app/supersonic"
+      },
+      {
+        "repo": "taglib/taglib"
+      },
+      {
+        "repo": "team-spotube/spotube"
+      },
+      {
+        "repo": "vfsfitvnm/ViMusic"
+      },
+      {
+        "repo": "xiph/Icecast-Server"
+      },
+      {
+        "repo": "y20k/escapepod"
+      },
+      {
+        "repo": "yt-dlp/yt-dlp"
+      },
+      {
+        "repo": "z-huang/InnerTune"
+      }
+    ],
+    "clientes-de-musica": [
+      {
+        "repo": "Clash-Projects/LastWave-Desktop"
+      },
+      {
+        "repo": "Clash-Projects/LastWave-Native"
+      },
+      {
+        "repo": "EchoMusicApp/Echo-Music"
+      },
+      {
+        "repo": "HemantKArya/BloomeeTunes"
+      },
+      {
+        "repo": "LUC4N3X/Levyra-deepsound"
+      },
+      {
+        "repo": "Lelonio/Square"
+      },
+      {
+        "repo": "MetrolistGroup/Metrolist"
+      },
+      {
+        "repo": "MuwMx/YumaPlayer"
+      },
+      {
+        "repo": "OpenSelena/omniget"
+      },
+      {
+        "repo": "OuterTune/OuterTune"
+      },
+      {
+        "repo": "Rigellute/spotify-tui"
+      },
+      {
+        "repo": "SimoHypers/limusic"
+      },
+      {
+        "repo": "Spotifyd/spotifyd"
+      },
+      {
+        "repo": "TeamNewPipe/NewPipeExtractor"
+      },
+      {
+        "repo": "anandnet/Harmony-Music"
+      },
+      {
+        "repo": "aome510/spotify-player"
+      },
+      {
+        "repo": "devgianlu/go-librespot"
+      },
+      {
+        "repo": "dubeyKartikay/lazyspotify"
+      },
+      {
+        "repo": "gokadzev/Musify"
+      },
+      {
+        "repo": "hrkfdn/ncspot"
+      },
+      {
+        "repo": "jpochyla/psst"
+      },
+      {
+        "repo": "kota-zo/myspoti"
+      },
+      {
+        "repo": "kraxarn/spotify-qt"
+      },
+      {
+        "repo": "kushagrasinghx/BitChord"
+      },
+      {
+        "repo": "libre-tube/LibreTube"
+      },
+      {
+        "repo": "librespot-org/librespot"
+      },
+      {
+        "repo": "lladlam/MeloX-Android"
+      },
+      {
+        "repo": "maxrave-dev/SimpMusic"
+      },
+      {
+        "repo": "missuo/kumone"
+      },
+      {
+        "repo": "nukeop/nuclear"
+      },
+      {
+        "repo": "rootscripts/riff"
+      },
+      {
+        "repo": "sigma67/ytmusicapi"
+      },
+      {
+        "repo": "sonorahq/sonora"
+      },
+      {
+        "repo": "spotipy-dev/spotipy"
+      },
+      {
+        "repo": "team-spotube/spotube"
+      },
+      {
+        "repo": "vfsfitvnm/ViMusic"
+      },
+      {
+        "repo": "z-huang/InnerTune"
+      }
+    ],
+    "descargas": [
+      {
+        "repo": "AnInsomniacy/rayburst"
+      },
+      {
+        "repo": "BareBrowser/bare-browser"
+      },
+      {
+        "repo": "Downvid/downvid"
+      },
+      {
+        "repo": "FortoGraphy/prism-download-manager"
+      },
+      {
+        "repo": "GopeedLab/gopeed"
+      },
+      {
+        "repo": "JunkFood02/Seal"
+      },
+      {
+        "repo": "Tyrrrz/YoutubeDownloader"
+      },
+      {
+        "repo": "Xmader/aria-ng-gui"
+      },
+      {
+        "repo": "Xmader/aria-ng-gui-android"
+      },
+      {
+        "repo": "agalwood/Motrix"
+      },
+      {
+        "repo": "aria2/aria2"
+      },
+      {
+        "repo": "arnoldhao/xiadown"
+      },
+      {
+        "repo": "axel-download-accelerator/axel"
+      },
+      {
+        "repo": "binux/yaaw"
+      },
+      {
+        "repo": "deniscerri/ytdlnis"
+      },
+      {
+        "repo": "iawia002/lux"
+      },
+      {
+        "repo": "lwthiker/curl-impersonate"
+      },
+      {
+        "repo": "mayswind/AriaNg"
+      },
+      {
+        "repo": "mayswind/AriaNg-Native"
+      },
+      {
+        "repo": "mesamirh/MovieBox-Tui"
+      },
+      {
+        "repo": "mikf/gallery-dl"
+      },
+      {
+        "repo": "nilaoda/N_m3u8DL-RE"
+      },
+      {
+        "repo": "persepolisdm/persepolis"
+      },
+      {
+        "repo": "pixel-point/media-downloader"
+      },
+      {
+        "repo": "rawnaldclark/Stash"
+      },
+      {
+        "repo": "rockdaboot/wget2"
+      },
+      {
+        "repo": "soimort/you-get"
+      },
+      {
+        "repo": "subhra74/xdm"
+      },
+      {
+        "repo": "uget/uget"
+      },
+      {
+        "repo": "yausername/youtubedl-android"
+      },
+      {
+        "repo": "yt-dlp/yt-dlp"
+      }
+    ],
+    "torrentes": [
+      {
+        "repo": "rhash/RHash"
+      },
+      {
+        "repo": "smartmontools/smartmontools"
+      },
+      {
+        "repo": "uutils/coreutils"
+      }
+    ],
+    "teclados-y-dictado": [
+      {
+        "repo": "Akshayykadam/PixelBoard"
+      },
+      {
+        "repo": "AnySoftKeyboard/AnySoftKeyboard"
+      },
+      {
+        "repo": "Automattic/harper"
+      },
+      {
+        "repo": "Batmancpu/Dictator-"
+      },
+      {
+        "repo": "BryceWG/BiBi-Keyboard"
+      },
+      {
+        "repo": "Cyletix/CyIME"
+      },
+      {
+        "repo": "DevEmperor/DictateKeyboard"
+      },
+      {
+        "repo": "ElishaAz/Sayboard"
+      },
+      {
+        "repo": "HeliBorg/HeliBoard"
+      },
+      {
+        "repo": "Julow/Unexpected-Keyboard"
+      },
+      {
+        "repo": "LeanBitLab/LeanType"
+      },
+      {
+        "repo": "Open-Less/openless"
+      },
+      {
+        "repo": "SYSTRAN/faster-whisper"
+      },
+      {
+        "repo": "VocaHQ/vocalinux"
+      },
+      {
+        "repo": "altic-dev/FluidVoice"
+      },
+      {
+        "repo": "amicalhq/amical"
+      },
+      {
+        "repo": "anomalyco/hex"
+      },
+      {
+        "repo": "cjpais/Handy"
+      },
+      {
+        "repo": "espanso/espanso"
+      },
+      {
+        "repo": "florisboard/florisboard"
+      },
+      {
+        "repo": "futo-org/voice-input"
+      },
+      {
+        "repo": "ggml-org/whisper.cpp"
+      },
+      {
+        "repo": "karansinghgit/speaktype"
+      },
+      {
+        "repo": "languagetool-org/languagetool"
+      },
+      {
+        "repo": "notune/android_transcribe_app"
+      },
+      {
+        "repo": "openai/whisper"
+      },
+      {
+        "repo": "opennookorg/betterwispr"
+      },
+      {
+        "repo": "osfans/trime"
+      },
+      {
+        "repo": "peteonrails/voxtype"
+      },
+      {
+        "repo": "rkkr/simple-keyboard"
+      },
+      {
+        "repo": "scholay-xsime/xsime"
+      },
+      {
+        "repo": "soupslurpr/Transcribro"
+      },
+      {
+        "repo": "wasi-master/wmkeyboard"
+      },
+      {
+        "repo": "zoolapp/aime"
+      }
+    ],
+    "radio-y-directo": [
+      {
+        "repo": "AntennaPod/AntennaPod"
+      },
+      {
+        "repo": "AzuraCast/AzuraCast"
+      },
+      {
+        "repo": "Davidona/StreamVault-IPTV"
+      },
+      {
+        "repo": "Ruby184/epg-tools"
+      },
+      {
+        "repo": "TheJoeFin/Traydio"
+      },
+      {
+        "repo": "Woodic-Way/WoodicIPTV"
+      },
+      {
+        "repo": "ahXN00/OwnTV"
+      },
+      {
+        "repo": "armanmaurya/InternetRadio"
+      },
+      {
+        "repo": "bilipp/Lume"
+      },
+      {
+        "repo": "bsogulcan/another-iptv-player"
+      },
+      {
+        "repo": "clubanderson/clubTivi"
+      },
+      {
+        "repo": "dereferencex/prysm"
+      },
+      {
+        "repo": "deutsia/deutsia-radio"
+      },
+      {
+        "repo": "hyliankid14/British-Radio-Player"
+      },
+      {
+        "repo": "infinitel8p/Extreme-InfiniTV"
+      },
+      {
+        "repo": "lennylxx/webos-iptv-player"
+      },
+      {
+        "repo": "libretime/libretime"
+      },
+      {
+        "repo": "meehow/receiver"
+      },
+      {
+        "repo": "mewset/better-iptv"
+      },
+      {
+        "repo": "mytv-android/mytv-android"
+      },
+      {
+        "repo": "nevermore23274/AetherTune"
+      },
+      {
+        "repo": "opentvproject/opentv"
+      },
+      {
+        "repo": "renyijiu/tune-roam"
+      },
+      {
+        "repo": "segler-alex/RadioDroid"
+      },
+      {
+        "repo": "shapeshed/aerial"
+      },
+      {
+        "repo": "streamlink/streamlink"
+      },
+      {
+        "repo": "suuhm/xmltv-splitter"
+      },
+      {
+        "repo": "vikindor/omnibeat"
+      },
+      {
+        "repo": "xiph/Icecast-Server"
+      },
+      {
+        "repo": "xyzs996/iptv-doctor"
+      },
+      {
+        "repo": "yaolin-dev/OKVideoMac"
+      },
+      {
+        "repo": "z0rats/freqcast"
+      }
+    ],
+    "tiendas-de-extensiones": [
+      {
+        "repo": "AppFuton/Futon"
+      },
+      {
+        "repo": "HuzaifaKhalid1311/DropSauce"
+      },
+      {
+        "repo": "KotatsuApp/Kotatsu"
+      },
+      {
+        "repo": "LittleSurvival/copymanga-copy20"
+      },
+      {
+        "repo": "Mallyd11/mangayomi-anime-extensions"
+      },
+      {
+        "repo": "Secozzi/aniyomi-extensions"
+      },
+      {
+        "repo": "Swakshan/mangayomi-swak-extensions"
+      },
+      {
+        "repo": "UsagiApp/Usagi"
+      },
+      {
+        "repo": "animiruorg/Animiru"
+      },
+      {
+        "repo": "dragonx943/manga-repo"
+      },
+      {
+        "repo": "keiyoushi/extensions"
+      },
+      {
+        "repo": "keiyoushi/extensions-source"
+      },
+      {
+        "repo": "kodjodevf/mangayomi"
+      },
+      {
+        "repo": "kodjodevf/mangayomi-extensions"
+      },
+      {
+        "repo": "lnreader/lnreader-plugins"
+      },
+      {
+        "repo": "m2k3a/mangayomi-extensions"
+      },
+      {
+        "repo": "mihonapp/mihon"
+      },
+      {
+        "repo": "mochi-plugins/repository"
+      },
+      {
+        "repo": "mojuru/anime-repo"
+      },
+      {
+        "repo": "recloudstream/cloudstream"
+      },
+      {
+        "repo": "salmanbappi/extensions-repo"
+      },
+      {
+        "repo": "self-similarity/MegaRepo"
+      },
+      {
+        "repo": "yuzono/anime-repo"
+      },
+      {
+        "repo": "yuzono/cursed-manga-extensions"
+      },
+      {
+        "repo": "yuzono/manga-repo"
+      },
+      {
+        "repo": "Hotaro26/miko"
+      },
+      {
+        "repo": "Hynf5/Hitori"
+      },
+      {
+        "repo": "Noirero/Miyorare"
+      },
+      {
+        "repo": "Torro101/MIYO"
+      }
+    ],
+    "teclados-con-ia": [
+      {
+        "repo": "AnySoftKeyboard/AnySoftKeyboard"
+      },
+      {
+        "repo": "HeliBorg/HeliBoard"
+      },
+      {
+        "repo": "Julow/Unexpected-Keyboard"
+      },
+      {
+        "repo": "LeanBitLab/LeanType"
+      },
+      {
+        "repo": "SvReenen/Deskdrop"
+      },
+      {
+        "repo": "dessalines/thumb-key"
+      },
+      {
+        "repo": "fcitx5-android/fcitx5-android"
+      },
+      {
+        "repo": "florisboard/florisboard"
+      },
+      {
+        "repo": "futo-org/android-keyboard"
+      },
+      {
+        "repo": "osfans/trime"
+      },
+      {
+        "repo": "rkkr/simple-keyboard"
+      }
+    ],
+    "shizuku-y-herederos": [
+      {
+        "repo": "RikkaApps/Shizuku"
+      },
+      {
+        "repo": "RikkaApps/Sui"
+      },
+      {
+        "repo": "RikkaApps/Shizuku-API"
+      },
+      {
+        "repo": "RikkaApps/Riru"
+      },
+      {
+        "repo": "roro2239/Stellar"
+      },
+      {
+        "repo": "rushiranpise/Shizuku-Next"
+      },
+      {
+        "repo": "thejaustin/ShizukuPlus"
+      },
+      {
+        "repo": "iamr0s/Dhizuku"
+      },
+      {
+        "repo": "aistra0528/Hail"
+      },
+      {
+        "repo": "samolego/Canta"
+      },
+      {
+        "repo": "MuntashirAkon/AppManager"
+      },
+      {
+        "repo": "zacharee/InstallWithOptions"
+      },
+      {
+        "repo": "legendsayantan/ShizuTools"
+      },
+      {
+        "repo": "kitsumed/ShizuCallRecorder"
+      },
+      {
+        "repo": "Hamza417/Inure"
+      },
+      {
+        "repo": "xjunz/AutoTask"
+      },
+      {
+        "repo": "iamr0s/InstallerX"
+      },
+      {
+        "repo": "wxxsfxyzm/InstallerX-Revived"
+      },
+      {
+        "repo": "pass-with-high-score/universal-installer"
+      },
+      {
+        "repo": "0x192/universal-android-debloater"
+      },
+      {
+        "repo": "Universal-Debloater-Alliance/universal-android-debloater-next-generation"
+      },
+      {
+        "repo": "sunilpaulmathew/De-Bloater"
+      },
+      {
+        "repo": "timschneeb/awesome-shizuku"
+      }
+    ]
+  }
 }

@@ -11575,5 +11575,160 @@
   ],
   "medido": "2026-11-05 11:45 UTC",
   "racimo": "teclados-con-ia"
+ },
+ "Hotaro26/miko": {
+  "repo": "Hotaro26/miko",
+  "existe": true,
+  "nombre": "miko",
+  "descripcion": "A manga reader app built purely with kotlin and jetpack compose, features latest material 3 expressive  ui and online catalogue manga library",
+  "estrellas": 34,
+  "forks": 4,
+  "archivado": false,
+  "deshabilitado": false,
+  "licencia": null,
+  "empujon": "2026-09-11",
+  "creado": "2026-04-26",
+  "incidencias_abiertas": 0,
+  "lenguaje": "Kotlin",
+  "temas": [
+   "android",
+   "anime",
+   "aniyomi",
+   "fdroid",
+   "foss",
+   "kotatsu"
+  ],
+  "entrega": {
+   "tag": "v3.3",
+   "fecha": "2026-08-03",
+   "adjuntos": 1
+  },
+  "web": "https://hotaro26.github.io/miko/",
+  "leeme_bytes": 4553,
+  "claim": "[!CAUTION] After careful consideration I've decided to pause this project, this was only intended for learning purpose and as of now I'm unable to maintain it due to time cap as well as juggling other projects. If you are looking for alts, refer to kotatsu-redo, mihon or their respective forks!",
+  "instalacion": [
+   "3. **Install on Device**:",
+   "./gradlew installDebug"
+  ],
+  "plataformas": [
+   "Android"
+  ],
+  "banderas": [],
+  "medido": "2026-11-05 21:38 UTC",
+  "racimo": "tiendas-de-extensiones"
+ },
+ "Hynf5/Hitori": {
+  "repo": "Hynf5/Hitori",
+  "existe": true,
+  "nombre": "Hitori",
+  "descripcion": "Hitori is a fork of Kotatsu-Redo.  |  Manga reader for Android",
+  "estrellas": 16,
+  "forks": 1,
+  "archivado": false,
+  "deshabilitado": false,
+  "licencia": "GPL-3.0",
+  "empujon": "2026-10-26",
+  "creado": "2025-12-16",
+  "incidencias_abiertas": 0,
+  "lenguaje": "Kotlin",
+  "temas": [],
+  "entrega": {
+   "tag": "v9.2.5",
+   "fecha": "2026-10-26",
+   "adjuntos": 1
+  },
+  "web": "https://kotatsu.app",
+  "leeme_bytes": 4349,
+  "claim": "[!IMPORTANT] Hitori is a fork of Kotatsu-Redo. Please don’t ask for new sources or parsers. I’m not a parser developer — this fork was made mostly out of spare time and curiosity.",
+  "instalacion": [
+   "Download manga and read it offline. Third-party CBZ archives are also supported",
+   "install instructions."
+  ],
+  "plataformas": [
+   "Android"
+  ],
+  "banderas": [
+   "abandono declarado",
+   "espejo declarado",
+   "aviso de retirada"
+  ],
+  "medido": "2026-11-05 21:38 UTC",
+  "racimo": "tiendas-de-extensiones"
+ },
+ "Noirero/Miyorare": {
+  "repo": "Noirero/Miyorare",
+  "existe": true,
+  "nombre": "Miyorare",
+  "descripcion": "A comic/novel reader forked DropSauce - based on Kotatsu, built to my own taste: fast downloads, non-flat UI, dual library, unified sources/extensions, local image files, and feature requests welcome.",
+  "estrellas": 21,
+  "forks": 2,
+  "archivado": false,
+  "deshabilitado": false,
+  "licencia": "GPL-3.0",
+  "empujon": "2026-11-05",
+  "creado": "2026-09-04",
+  "incidencias_abiertas": 3,
+  "lenguaje": "Kotlin",
+  "temas": [],
+  "entrega": {
+   "tag": "v1.4.19",
+   "fecha": "2026-11-05",
+   "adjuntos": 1
+  },
+  "web": null,
+  "leeme_bytes": 10761,
+  "claim": "🌸 Welcome to Miyorare! An Android reader for when you mean to read one chapter and suddenly realize you've gone through many more. 📖☕",
+  "instalacion": [
+   "Read • Save • Download • Enjoy ✨",
+   "<a href=\"https://github.com/Noirero/Miyorare/releases/latest\"><strong>📦 Download Miyorare</strong></a>",
+   "💾 Download and read offline when supported by the source.",
+   "📦 Installation"
+  ],
+  "plataformas": [
+   "Android"
+  ],
+  "banderas": [
+   "pide shizuku"
+  ],
+  "medido": "2026-11-05 21:38 UTC",
+  "racimo": "tiendas-de-extensiones"
+ },
+ "Torro101/MIYO": {
+  "repo": "Torro101/MIYO",
+  "existe": true,
+  "nombre": "MIYO",
+  "descripcion": "",
+  "estrellas": 10,
+  "forks": 0,
+  "archivado": false,
+  "deshabilitado": false,
+  "licencia": "GPL-3.0",
+  "empujon": "2026-10-26",
+  "creado": "2026-04-27",
+  "incidencias_abiertas": 6,
+  "lenguaje": "Kotlin",
+  "temas": [],
+  "entrega": {
+   "tag": "v0.0.5-1",
+   "fecha": "2026-06-15",
+   "adjuntos": 3
+  },
+  "web": "https://miyo-wine.vercel.app",
+  "leeme_bytes": 6773,
+  "claim": "A fast, extensible, open-source comic and manga reader for Android.",
+  "instalacion": [
+   "Downloaded and cached pages can be read offline.",
+   "Install and manage source plugins, including external GitHub-hosted plugins.",
+   "Downloads**",
+   "Smart queue orchestration spreads downloads across sources to reduce source-specific stalls."
+  ],
+  "plataformas": [
+   "Android"
+  ],
+  "banderas": [
+   "abandono declarado"
+  ],
+  "medido": "2026-11-05 21:38 UTC",
+  "racimo": "tiendas-de-extensiones"
  }
 }

@@ -242,7 +242,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`guias_shizuku.py`](../tools/guias_shizuku.py) | guias_shizuku.py · escribe a mano la guía de las fichas del racimo de Shizuku. | 595 |
 | [`guias_teclado_ia.py`](../tools/guias_teclado_ia.py) | guias_teclado_ia.py · las guías escritas a mano del racimo «teclados-con-ia» (4 recursos). | 178 |
 | [`guias_teclados.py`](../tools/guias_teclados.py) | guias_teclados.py · las guías escritas a mano del racimo «teclados-y-dictado» (34 recursos). | 945 |
-| [`guias_tiendas.py`](../tools/guias_tiendas.py) | guias_tiendas.py · las guías escritas a mano del racimo «tiendas-de-extensiones» (24 recursos). | 748 |
+| [`guias_tiendas.py`](../tools/guias_tiendas.py) | guias_tiendas.py · las guías escritas a mano del racimo «tiendas-de-extensiones» (24 recursos). | 835 |
 | [`guias_torrentes.py`](../tools/guias_torrentes.py) | guias_torrentes.py · las guías escritas a mano del racimo «torrentes» (3 recursos). | 149 |
 | [`html_archivo.py`](../tools/html_archivo.py) | Genera el HTML único con todas las publicaciones de la serie: WhatsApp, Facebook y el post de comunidad. | 247 |
 | [`idioma_mojibake.py`](../tools/idioma_mojibake.py) | MOJIBAKE · mide la salud de codificación del corpus. No corrige: señala. | 71 |

@@ -717,6 +717,93 @@ Si no lees en chino, no hay nada aquí para ti. Y si te importa poder arreglar l
 código fuente es la peor base posible.
 """
 
+GUIA["Hotaro26/miko"] = """
+### Para qué sirve
+
+Lector de manga para Android construido enteramente con Kotlin y Jetpack Compose, con interfaz Material 3 Expressive y un catálogo en línea de manga. Está pensado para navegar y leer manga desde fuentes externas; el programa no trae contenido propio.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v3.3`, del 3 de agosto de 2026.
+2. Se abre el lector y se añade el catálogo de manga que se quiera consultar.
+3. Se busca el título y se lee en línea o se descarga para leer sin conexión, según lo que permita la fuente.
+
+### Lo que conviene saber antes
+
+34 estrellas y **sin licencia declarada**. Creado el 26 de abril de 2026, con un empujón del 11 de septiembre de 2026: cinco meses sin movimiento en el repositorio. GitHub no reconoce ninguna licencia, así que no está claro qué se puede reutilizar del código.
+
+Sin entrega reciente desde agosto, el proyecto está quieto. Un lector sin empujones recientes puede seguir funcionando, pero si una fuente deja de funcionar, puede que nadie la arregle.
+
+### Cuándo no vale la pena
+
+Si buscas un lector que reciba actualizaciones frecuentes, este no da esa garantía. Y si no quieres agregar catálogos tú mismo, al instalarlo no encontrarás nada que leer.
+"""
+
+GUIA["Hynf5/Hitori"] = """
+### Para qué sirve
+
+Fork de Kotatsu-Redo: lector de manga para Android. Hereda la estructura del lector que se archivó en 2025 y la continúa con otro nombre, manteniendo el enfoque de biblioteca local y lecturas descargadas.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v9.2.5`, del 26 de octubre de 2026.
+2. Se configuran las fuentes de manga que se quieran leer.
+3. Se descargan los capítulos para leer sin conexión y se organiza la biblioteca local.
+
+### Lo que conviene saber antes
+
+16 estrellas, GPL-3.0, creado el 16 de diciembre de 2025, con un empujón del 26 de octubre de 2026. Es un proyecto pequeño: una bifurcación y cero incidencias abiertas.
+
+Al ser un fork de Kotatsu-Redo, comparte su lógica de extensiones y su forma de organizar la biblioteca. El medidor no detectó abandono declarado: tiene movimiento reciente.
+
+### Cuándo no vale la pena
+
+Si ya usas otro lector de la familia Kotatsu con tu biblioteca montada, cambiar solo por el nombre no aporta nada. Y si necesitas muchas fuentes ya integradas, este es pequeño y las tendrás que añadir tú.
+"""
+
+GUIA["Noirero/Miyorare"] = """
+### Para qué sirve
+
+Fork de DropSauce basado en Kotatsu: lector de cómics y novelas para Android. Se presenta como una versión ajustada al gusto de su autor, con descargas rápidas y una interfaz que no es plana. Trabaja con extensiones y fuentes que el usuario añade.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v1.4.19`, del 5 de noviembre de 2026.
+2. Se añaden las fuentes de manga y novela que se quieran leer.
+3. Se descarga para leer sin conexión y se organiza la biblioteca.
+
+### Lo que conviene saber antes
+
+21 estrellas, GPL-3.0, creado el 4 de septiembre de 2026, con un empujón de hoy mismo (5 de noviembre de 2026). Es un proyecto joven, dos meses de vida, con entrega publicada esta semana.
+
+Viene de DropSauce y de Kotatsu, así que hereda su ecosistema de extensiones y su forma de manejar la biblioteca. Con solo dos meses, no hay historial largo que avale que siga recibiendo actualizaciones dentro de seis meses.
+
+### Cuándo no vale la pena
+
+Si ya usas DropSauce y te funciona, cambiar a este fork solo tiene sentido si te interesa su interfaz específica. Y si buscas un lector con años de trayectoria, este todavía no la tiene.
+"""
+
+GUIA["Torro101/MIYO"] = """
+### Para qué sirve
+
+Lector de manga para Android. Su repositorio no trae descripción, así que lo que se sabe de él viene de su código y de sus entregas: es un lector con APKs publicados.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v0.0.5-1`, del 15 de junio de 2026, con tres adjuntos.
+2. Se abre el lector y se configuran las fuentes de manga que se quieran leer.
+3. Se lee y se descarga para usar sin conexión.
+
+### Lo que conviene saber antes
+
+10 estrellas, GPL-3.0, creado el 27 de abril de 2026, con un empujón del 26 de octubre de 2026. Sin descripción en el repositorio y sin incidencias abiertas. El medidor no pudo extraer una descripción clara de qué hace ni de qué fuentes usa.
+
+Con cero bifurcaciones y ninguna incidencia, es un proyecto de una sola persona que no ha llamado la atención. Eso no significa que no funcione, pero tampoco hay evidencia de que lo haga bien.
+
+### Cuándo no vale la pena
+
+Si buscas un lector con comunidad detrás, respuestas a incidencias y documentación clara, este no la tiene todavía. Y sin descripción, instalarlo es comprar a ciegas.
+"""
 
 def main() -> int:
     medido = json.loads(MEDIDO.read_text(encoding="utf-8"))
