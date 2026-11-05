@@ -36,11 +36,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Servidor autoalojado de **audiolibros y pódcast**: guarda los archivos, ordena la biblioteca por autor y
+serie, guarda la posición de escucha y sirve todo a sus aplicaciones de Android e iOS. Es la pieza central
+si quieres oír tus audiolibros desde varios aparatos sin copiarlos.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala con contenedor o con el paquete de su web; la versión medida es la `v2.37.2`, del 23 de octubre
+   de 2026.
+2. Se crea una biblioteca y se apunta a la carpeta donde están los libros, ordenada por autor y título.
+3. Se instalan las aplicaciones para el teléfono, se conecta cada una al servidor y se descarga lo que se
+   quiera oír sin conexión.
+
+### Lo que conviene saber antes
+
+14.918 estrellas, GPL-3.0, escrito en JavaScript. Su punto fuerte es la posición de escucha compartida entre
+aparatos; su punto débil, que hay que mantener un servidor encendido y con copia de seguridad: si se pierde
+la base de datos, se pierde el progreso de todo lo escuchado.
+
+### Cuándo no vale la pena
+
+Con cuatro libros y un solo teléfono, es demasiada infraestructura para lo que da. Se justifica cuando la
+biblioteca crece o cuando son varias personas las que escuchan.
 <!-- GUIA:FIN -->

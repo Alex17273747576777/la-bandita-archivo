@@ -41,11 +41,24 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Reproductor de escritorio para servidores de música compatibles, con biblioteca, listas, cola y controles
+finos. Fue durante años la opción de referencia para ese protocolo en Windows y Linux.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+Se instalaba desde la entrega `v0.15.5`, del 14 de marzo de 2023, se conectaba al servidor con su dirección y
+usuario, y se navegaba la biblioteca del servidor.
+
+### Lo que conviene saber antes
+
+**El repositorio está archivado** y su propio texto lo dice: la aplicación se está reescribiendo entera con
+otro nombre, y ese otro nombre es el programa del mismo autor que sí está vivo en este racimo. Tiene 1.907
+estrellas y su última entrega es de 2023. No recibirá más cambios.
+
+### Cuándo no vale la pena
+
+Hoy, siempre: su sucesor hace lo mismo, se mantiene y está en este mismo racimo. Esta ficha se conserva
+porque el recurso existe, está medido y hay quien todavía lo busca por su nombre viejo.
 <!-- GUIA:FIN -->

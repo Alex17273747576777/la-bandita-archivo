@@ -42,11 +42,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Aplicación de música multiplataforma que **separa las dos cosas que un servicio junta**: toma los datos de
+tus listas de un servicio y el audio de otra fuente, con la idea de que la aplicación sea sólo la capa de
+control. Trae además complementos de la comunidad.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la entrega `v6.0.0-beta.0`, del 30 de octubre de 2026.
+2. Se conecta la cuenta de donde vienen las listas y se elige la fuente de audio.
+3. Se navega y se reproduce; las descargas se marcan desde el menú de cada lista.
+
+### Lo que conviene saber antes
+
+50.610 estrellas, AGPL-3.0, y una etiqueta que dice **beta**: la versión 6 todavía se está probando. Su
+planteamiento depende de que las dos mitades —datos y audio— sigan disponibles, y ninguna de las dos es suya.
+Cuando una cambia, la aplicación falla de formas que el usuario no puede arreglar.
+
+### Cuándo no vale la pena
+
+Si quieres algo que simplemente suene, hay programas en este racimo con menos piezas móviles. Spotube se
+elige por su idea, no por su estabilidad.
 <!-- GUIA:FIN -->

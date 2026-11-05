@@ -43,11 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Reproductor de escritorio para servidores de música autoalojados: se conecta a uno que ya tengas —de los que
+hablan el protocolo habitual o Jellyfin— y da una interfaz moderna con cola, letras, listas inteligentes y
+envío de lo escuchado al servidor.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la entrega `v1.17.0`, del 15 de septiembre de 2026, para Windows, macOS o Linux.
+2. Al abrir, se introduce la dirección del servidor y las credenciales.
+3. Se navega la biblioteca del servidor; la reproducción puede usar el motor del sistema o el del navegador,
+   y se elige en ajustes.
+
+### Lo que conviene saber antes
+
+10.332 estrellas, GPL-3.0. Su autor lo tiene además como reemplazo de su programa anterior, que quedó
+archivado. Es un cliente, no un servidor: sin uno de esos funcionando no hace nada, y eso es lo primero que
+hay que tener claro antes de instalarlo.
+
+### Cuándo no vale la pena
+
+Si tu música está en el disco de tu ordenador, esto no la ve. Y si ya usas la web del servidor, el cliente de
+escritorio añade comodidad, no contenido.
 <!-- GUIA:FIN -->

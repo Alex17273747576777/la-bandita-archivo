@@ -37,11 +37,30 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+El juego de programas que convierte, corta, une, recodifica y mide audio y vídeo. No es una aplicación con
+ventana: es la pieza que hay dentro de casi todas las demás de este racimo. Cuando un programa te pregunta
+«¿con qué convierto esto?», la respuesta suele ser `ffmpeg`.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala desde el gestor de paquetes de la distribución, o se descarga una compilación ya hecha. Este
+   repositorio es **un espejo**: el original vive en `git.ffmpeg.org` y así lo dice su descripción.
+2. Convertir un archivo: `ffmpeg -i entrada.wav -codec:a libopus -b:a 96k salida.opus`.
+3. Sacar sólo el sonido de un vídeo: `ffmpeg -i video.mp4 -vn -codec:a copy audio.m4a`.
+4. Mirar qué trae un archivo, sin tocar nada: `ffprobe archivo.mp3`.
+
+### Lo que conviene saber antes
+
+66.537 estrellas y **ninguna entrega publicada en GitHub**: las versiones se cogen de la web del proyecto o
+del paquete de tu sistema. GitHub **no le reconoce la licencia** («NOASSERTION») porque convive con
+bibliotecas de varias condiciones; si vas a distribuirlo dentro de algo tuyo, revisa qué compilación coges,
+porque no todas tienen las mismas.
+
+### Cuándo no vale la pena
+
+Para convertir una canción una vez, cualquier web lo hace sin instalar 300 MB de herramientas. `FFmpeg` se
+justifica cuando repites la operación, cuando automatizas, o cuando quieres saber exactamente qué se le hace
+al archivo.
 <!-- GUIA:FIN -->

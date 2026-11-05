@@ -41,11 +41,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Reproductor de música **local** para Android, deliberadamente estrecho: ordena tu biblioteca por carpetas,
+álbumes, artistas y etiquetas, y reproduce bien. Su autor lo presenta como el reproductor sin las funciones
+que no usa nadie, y eso es exactamente lo que es.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `v4.1.5`, del 4 de agosto de 2026.
+2. La primera vez se concede permiso al almacenamiento y se elige qué carpetas entran en la biblioteca.
+3. Se navega por las pestañas; la búsqueda está arriba y el menú de cada pista ofrece encolar, añadir a
+   lista y ver la ruta del archivo.
+
+### Lo que conviene saber antes
+
+4.425 estrellas, GPL-3.0, y desarrollo activo con cambios de esta misma semana. No hay nube, ni cuentas, ni
+sincronización: sólo lo que hay en el teléfono. Al no arrastrar servicios ajenos, es de los pocos de este
+racimo que no puede romperse porque otra empresa cambie algo.
+
+### Cuándo no vale la pena
+
+Si tu música está en un servidor y quieres oírla desde el móvil, esto no la ve. Y si te gustan las listas
+compartidas en línea, aquí no hay.
 <!-- GUIA:FIN -->

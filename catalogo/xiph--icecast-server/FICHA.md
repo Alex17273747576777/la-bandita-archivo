@@ -42,11 +42,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Servidor de **radiodifusión por internet**: recibe un flujo de audio de un programa emisor y lo reparte a
+tantos oyentes como aguante el equipo, en varios formatos. Es la pieza clásica para montar una radio propia o
+para retransmitir una señal interna.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala desde el gestor de paquetes de la distribución. Este repositorio es **un espejo**: los fallos se
+   reportan en GitLab y aquí no hay entregas.
+2. Se configura el punto de montaje, la contraseña de emisión y los límites de oyentes.
+3. Se conecta un programa emisor con esas credenciales y se comprueba desde la página de estado del servidor.
+
+### Lo que conviene saber antes
+
+557 estrellas, GPL-2.0, con cambios en agosto de 2026. Es infraestructura con veinte años encima: fiable y
+sin sorpresas si se configura bien, y expuesta a abuso si se deja abierta, porque cualquiera con la
+contraseña emite. Ojo con el ancho de banda: cada oyente consume lo suyo.
+
+### Cuándo no vale la pena
+
+Para escuchar tu música en casa no hace falta: esto es para emitir a otros. Y si sólo quieres oír una radio,
+eres oyente, no servidor.
 <!-- GUIA:FIN -->

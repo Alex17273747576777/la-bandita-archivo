@@ -42,11 +42,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Reproductor y organizador de colecciones para quien cuida el archivo: lee FLAC, ALAC y demás formatos sin
+pérdida, escribe etiquetas, muestra información técnica del archivo, convierte y ordena. Nació como
+continuación de un reproductor clásico y conserva su forma de trabajar.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala desde la entrega `1.2.31`, del 2 de octubre de 2026, o desde el gestor de paquetes.
+2. Se añaden las carpetas; en ajustes se decide qué formatos entran y cómo se nombran los archivos.
+3. Se reproduce, se encola y se editan etiquetas desde el propio programa.
+
+### Lo que conviene saber antes
+
+4.059 estrellas, GPL-3.0, escrito en C++ con Qt. Es de los pocos de este racimo que piensa en el **archivo**
+—calidad, formatos, etiquetas— y no en el servicio. Trae además transcodificación para reproductores
+portátiles antiguos, cosa rara hoy.
+
+### Cuándo no vale la pena
+
+Si tu música está en un servicio y no en archivos, no hay nada que ordenar. Y si sólo quieres darle al play a
+unos mp3, es más programa del que necesitas.
 <!-- GUIA:FIN -->

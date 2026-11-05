@@ -43,11 +43,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Cliente de pódcast de escritorio: suscripciones, descarga de episodios, cola y reproducción, además de una
+herramienta aparte para bajar los archivos sin el reproductor. Existe para Linux, Windows y macOS, y es de
+los pocos de su clase con esa cobertura.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala desde el gestor de paquetes de la distribución o desde su web; la entrega es la `3.11.5`, del
+   20 de diciembre de 2024.
+2. Se añaden las direcciones de las fuentes o se importa una lista de suscripciones.
+3. Se marcan las descargas y la carpeta de destino; los episodios se escuchan en el programa o se abren en
+   otro reproductor.
+
+### Lo que conviene saber antes
+
+1.455 estrellas y GPL-3.0. La entrega es de **diciembre de 2024**, aunque el repositorio recibe cambios en
+noviembre de 2026: el programa se arregla y no se publica. La sincronización entre aparatos no depende de un
+servidor del proyecto: hace falta uno compatible que pongas tú.
+
+### Cuándo no vale la pena
+
+Si escuchas pódcast en el teléfono, un cliente de Android de este racimo es más directo. gPodder se elige
+para el ordenador, sobre todo en Linux.
 <!-- GUIA:FIN -->

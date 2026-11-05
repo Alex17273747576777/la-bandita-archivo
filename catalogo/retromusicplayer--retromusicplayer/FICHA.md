@@ -41,11 +41,25 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Reproductor de música local para Android con mucha atención a la presentación: temas, colores que salen de
+la carátula, ecualizador, etiquetas editables y una pantalla de reproducción cuidada.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `v7.0.3`, del 13 de agosto de 2026.
+2. Se concede permiso al almacenamiento y se elige qué carpetas entran.
+3. En ajustes se cambia el tema, se activa el ecualizador y se decide qué pestañas aparecen.
+
+### Lo que conviene saber antes
+
+5.384 estrellas y GPL-3.0. Su propio texto pide colaboradores y **mantenedores**: es la señal de que el
+proyecto se sostiene con esfuerzo. Funciona bien y se actualiza, pero conviene saber que su continuidad no
+está asegurada por un equipo grande.
+
+### Cuándo no vale la pena
+
+Si quieres reproducir y ya, trae demasiadas cosas. Y si tu prioridad es la estabilidad a cinco años, otros
+reproductores de este racimo tienen un equipo detrás más claro.
 <!-- GUIA:FIN -->

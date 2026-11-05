@@ -41,11 +41,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Sistema de audio **multisala sincronizado**: un servidor toma el sonido de un reproductor y lo reparte a
+varios clientes —Raspberry Pi, ordenadores, móviles— de modo que todos suenan a la vez y sin eco entre
+habitaciones.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala el servidor en el equipo que tenga la música y un cliente en cada aparato que vaya a sonar; la
+   entrega medida es la `v0.35.0`, del 10 de marzo de 2026.
+2. Se configura el servidor para que tome la entrada de audio del reproductor que uses.
+3. Los clientes se conectan solos por la red; desde una aplicación de control se ajusta el volumen de cada uno
+   y el retardo, que es lo que corrige la diferencia entre aparatos.
+
+### Lo que conviene saber antes
+
+8.044 estrellas, GPL-3.0. **No es un reproductor**: sin una fuente de audio no hace nada, y eso hay que
+entenderlo antes de instalarlo. En redes wifi inestables el retardo hay que ajustarlo a mano, y el resultado
+nunca es tan fino como con cable.
+
+### Cuándo no vale la pena
+
+Con un solo altavoz o con dos aparatos que ya suenan juntos, esto es complicación sin premio. Se justifica en
+una casa con varias habitaciones y cable donde se pueda.
 <!-- GUIA:FIN -->

@@ -41,11 +41,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Servidor de música por web compatible con el protocolo Subsonic: se instala en un equipo, apunta a una
+carpeta de música y sirve la biblioteca a cualquier cliente que hable ese protocolo, con reproducción en el
+navegador y listas.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala con contenedor o con el paquete de Java; la entrega medida es la `v10.6.0`, del 24 de abril de
+   2020.
+2. Se configura la carpeta, el usuario y la contraseña en el panel.
+3. Se conecta un cliente Subsonic —hay varios en este racimo— y se escucha desde cualquier sitio.
+
+### Lo que conviene saber antes
+
+**Está parado**: su último cambio es de abril de 2024 y su última entrega de 2020, con 1.404 estrellas y
+licencia GPL-3.0. Es un proyecto que en su día mejoró a Airsonic y que hoy no recibe arreglos. Instalarlo en
+2026 significa asumir su mantenimiento: piezas antiguas de Java, y sin nadie al otro lado.
+
+### Cuándo no vale la pena
+
+Hoy, para empezar de cero: `Navidrome` y `supersonic` cubren lo mismo y siguen vivos. Esta entrada está en el
+catálogo porque el recurso existe y se midió, no porque se recomiende.
 <!-- GUIA:FIN -->

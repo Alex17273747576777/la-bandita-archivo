@@ -42,11 +42,25 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Servidor de música autoalojado con interfaz web moderna: se instala, apunta a la carpeta de música y sirve la
+biblioteca desde el navegador o desde sus aplicaciones, con listas, búsqueda y reproducción en continuo.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se despliega con contenedor; la entrega medida es la `v3.2.1`, del 26 de agosto de 2026.
+2. En el panel se añaden las carpetas de música y se espera a que indexe.
+3. Se escucha desde la web o se conecta la aplicación móvil con la dirección del servidor y el usuario.
+
+### Lo que conviene saber antes
+
+4.429 estrellas, MIT, escrito en Ruby. Es de los servidores más fáciles de levantar de este racimo y su
+licencia permisiva permite adaptarlo. No habla el protocolo Subsonic, así que no vale con cualquier cliente:
+hay que usar el suyo o la web.
+
+### Cuándo no vale la pena
+
+Si ya tienes clientes que hablan ese protocolo, mejor un servidor compatible. Y si sólo escuchas en el
+ordenador donde está la música, no necesitas servidor.
 <!-- GUIA:FIN -->

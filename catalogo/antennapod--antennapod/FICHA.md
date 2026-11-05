@@ -39,11 +39,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Gestor de pódcast para Android, de los que llevan más tiempo vivos: suscripciones, cola, descarga automática
+de los episodios nuevos, velocidad de reproducción y sincronización de lo escuchado con un servidor que
+elijas. Sin cuenta, sin publicidad y sin nada que pida registro.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `3.12.3`, del 13 de octubre de 2026.
+2. Se busca el pódcast por nombre, o se pega su dirección de fuente; con un archivo de suscripciones se
+   importa la lista entera de golpe.
+3. En ajustes se decide qué se descarga solo, cuándo y con qué límite de espacio; eso es lo que evita que el
+   teléfono se llene de episodios que no vas a oír.
+
+### Lo que conviene saber antes
+
+8.266 estrellas, GPL-3.0 y catorce años de historia. La sincronización no va contra un servicio del proyecto:
+necesita un servidor compatible que pongas tú (por ejemplo, uno de los que tienen ficha en este mismo
+racimo), y esa pieza la tienes que montar aparte.
+
+### Cuándo no vale la pena
+
+Si oyes dos pódcast al mes, la aplicación que ya trae el teléfono hace eso y no ocupa sitio. AntennaPod se
+justifica cuando sigues diez y quieres cola, descargas y velocidad fina.
 <!-- GUIA:FIN -->

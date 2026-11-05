@@ -42,11 +42,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Servidor de medios libre: organiza películas, series, música y libros, y los sirve a aplicaciones en
+televisores, móviles, consolas y navegadores. En este racimo entra por la música: es uno de los servidores a
+los que se conectan varios clientes de los que tienen ficha aquí.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala con contenedor, paquete o instalador; la entrega medida es la `v12.4`, del 26 de octubre de
+   2026.
+2. En el asistente se crean las bibliotecas —una de música, por ejemplo— y se apunta a sus carpetas.
+3. Se instalan las aplicaciones cliente y se conectan al servidor por su dirección local o por fuera, con
+   acceso remoto configurado a conciencia.
+
+### Lo que conviene saber antes
+
+59.028 estrellas, GPL-2.0, escrito en C#. Es grande y maduro, y eso tiene un precio: mantenerlo pide un
+equipo encendido, copias de seguridad y actualizaciones con cuidado. Su catálogo se construye con tus
+archivos: no trae contenido, sólo lo ordena.
+
+### Cuándo no vale la pena
+
+Si sólo quieres oír música en casa, hay servidores de este racimo mucho más ligeros. Jellyfin se justifica
+cuando además hay vídeo y varios aparatos en la casa.
 <!-- GUIA:FIN -->

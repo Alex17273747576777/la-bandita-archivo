@@ -43,11 +43,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Reproductor de música de escritorio con una pretensión poco habitual: sonar bien y no estorbar. Trae
+ecualizador, visualizaciones, reproducción sin cortes entre pistas, listas por carpetas y por etiquetas, y
+una paleta que cambia con la carátula. Está escrito en Python.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala desde la entrega `v13.1.1`, del 30 de octubre de 2026, o con el paquete de tu distribución.
+2. La primera vez se añaden las carpetas de música; el indexado tarda según el tamaño.
+3. Se ordena por álbum, artista o carpeta, y se arrastran pistas a la cola.
+
+### Lo que conviene saber antes
+
+2.954 estrellas, GPL-3.0, y desarrollo vivo con entrega de esta semana. En Linux se instala fácil; en Windows
+y macOS requiere más pasos porque arrastra Python y sus bibliotecas. Es un programa de autor, no de
+comunidad grande: eso explica tanto su carácter como su ritmo.
+
+### Cuándo no vale la pena
+
+Si tu biblioteca es enorme y sólo quieres buscar y darle al play, otros reproductores de este racimo son más
+directos. Y si no te importan las visualizaciones ni el aspecto, la mitad de lo que ofrece no la vas a usar.
 <!-- GUIA:FIN -->

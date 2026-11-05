@@ -38,11 +38,24 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Fue el cliente de música de Android que puso de moda la interfaz limpia para escuchar desde un servicio sin
+cuenta y con descarga. Ligero, sin publicidad y con buen manejo de listas y cola.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+Se instalaba desde la entrega `v0.5.4`, del 4 de noviembre de 2022, y se usaba sin configurar nada: buscar,
+reproducir, descargar.
+
+### Lo que conviene saber antes
+
+**El repositorio está archivado desde julio de 2024** y su última entrega es de 2022: no habrá más cambios.
+Tiene 9.468 estrellas y GPL-3.0, y de él salieron varios derivados, alguno con ficha en este mismo racimo.
+Instalarlo hoy en un Android actual puede fallar por permisos o por cambios del servicio.
+
+### Cuándo no vale la pena
+
+Para uso nuevo, no: usa uno de sus derivados vivos. Esta ficha se conserva porque el recurso existió, se
+midió y mucha gente lo busca todavía por su nombre.
 <!-- GUIA:FIN -->

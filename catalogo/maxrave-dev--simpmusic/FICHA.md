@@ -43,11 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Aplicación de música multiplataforma —Android y ahora también escritorio— que usa un servicio de música como
+fuente: busca, reproduce, hace listas y descarga. Trae letras sincronizadas y una interfaz cuidada, y su
+proyecto presume de funcionar sin cuenta.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la entrega `v2.5.0`, del 1 de noviembre de 2026.
+2. Se busca por canción, artista o lista; todo se reproduce en continuo.
+3. Las descargas se activan por elemento y quedan disponibles sin conexión.
+
+### Lo que conviene saber antes
+
+12.797 estrellas, GPL-3.0 y entregas muy seguidas: es de los más vivos de su familia en este racimo. No tiene
+catálogo propio: depende de un servicio ajeno, así que su continuidad no la decide su equipo. Y conviene
+saber que su texto de presentación mezcla la aplicación con notas técnicas del desarrollo, que no sirven para
+decidir si instalarla.
+
+### Cuándo no vale la pena
+
+Si quieres escuchar tu propia biblioteca, esto no la ve. Y si el servicio cambia sus reglas, la aplicación
+puede dejar de funcionar aunque siga publicando versiones.
 <!-- GUIA:FIN -->

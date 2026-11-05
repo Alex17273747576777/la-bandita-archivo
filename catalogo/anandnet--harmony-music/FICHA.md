@@ -38,11 +38,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Aplicación de música multiplataforma escrita en Flutter, con la idea de ser un reproductor y buscador propio:
+interfaz para buscar, listas, descarga y reproducción en Android, escritorio y web, con un módulo que
+reconoce la canción que está sonando.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala desde la entrega `v1.12.2`, del 7 de diciembre de 2025.
+2. Se busca por canción o artista y se reproduce en streaming; las listas se crean dentro de la aplicación.
+3. Lo descargado queda disponible sin conexión desde la pestaña de descargas.
+
+### Lo que conviene saber antes
+
+3.087 estrellas, GPL-3.0, con traducciones gestionadas en una plataforma abierta, señal de comunidad
+internacional. Su último cambio es de **diciembre de 2025**: casi un año sin movimiento. Y como todos los de
+esta familia, no tiene catálogo propio: toma la música de servicios ajenos, que pueden cambiar de reglas.
+
+### Cuándo no vale la pena
+
+Si buscas algo que se mantenga al día, hay opciones más activas en este racimo. Y si tienes tu música en
+local, este programa no es para eso.
 <!-- GUIA:FIN -->

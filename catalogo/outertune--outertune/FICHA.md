@@ -40,11 +40,25 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Reproductor de Android para música local y para YouTube Music, con interfaz Material 3 y buena parte de las
+comodidades que la gente busca hoy: cola, letras, descargas y controles en la pantalla de bloqueo.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `v0.10.1`, del 19 de diciembre de 2025.
+2. Se elige la carpeta de música local, o se conecta la cuenta del servicio para lo de la nube.
+3. La cola se arma con pulsación larga; el resto se parece bastante a cualquier reproductor moderno.
+
+### Lo que conviene saber antes
+
+Su propio texto lo dice sin rodeos: **el proyecto ya no está en desarrollo activo**, y remite a otros
+clientes derivados para quien busque uno mantenido. Tiene 5.443 estrellas y GPL-3.0. Funciona, y funcionará
+mientras el servicio no cambie, pero no esperes arreglos.
+
+### Cuándo no vale la pena
+
+Hoy, si buscas algo vivo: usa uno de los que el propio proyecto señala. Sigue teniendo sentido si ya lo
+tienes configurado y te va bien, o si lo que quieres es sobre todo música local con una interfaz agradable.
 <!-- GUIA:FIN -->

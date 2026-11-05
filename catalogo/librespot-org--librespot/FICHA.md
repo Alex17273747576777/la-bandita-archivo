@@ -42,11 +42,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Biblioteca en Rust que implementa el protocolo del reproductor de Spotify: sirve para construir un cliente
+propio, para montar un aparato que aparezca como dispositivo en la aplicación oficial, o para entender cómo
+funciona ese protocolo por dentro.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se compila con las herramientas de Rust, o se instala el paquete de tu distribución; la entrega medida es
+   la `v0.8.0`, del 10 de noviembre de 2025.
+2. Trae una orden de ejemplo que arranca como dispositivo: se le dan credenciales y una salida de audio.
+3. Para integrarlo en un programa propio se usa como biblioteca y se controlan sus eventos desde el código.
+
+### Lo que conviene saber antes
+
+7.369 estrellas, MIT. Su propio texto lo dice sin ambigüedad: **sólo funciona con cuentas de pago**, y no
+habrá soporte para las gratuitas. Eso no es un detalle, es la premisa del proyecto. Como biblioteca es muy
+buena; como programa para el usuario final, no está pensada.
+
+### Cuándo no vale la pena
+
+Si no programas y no tienes cuenta de pago, no hay nada que hacer con esto. Para el caso de «aparato que
+aparece en la aplicación oficial» hay un programa ya hecho en este racimo, y es más corto de instalar.
 <!-- GUIA:FIN -->

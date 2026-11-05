@@ -40,11 +40,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Servidor de música por web, escrito en PHP y pensado para instalar en un alojamiento normal: sube tu
+colección, la ordena por artista y álbum, y la reproduce desde el navegador con listas y búsqueda.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se despliega en un servidor con PHP y base de datos; la entrega medida es la `v9.15.0`, del 28 de
+   septiembre de 2026.
+2. Se ejecuta su orden de inicialización, se crea el usuario administrador y se apunta a la carpeta de música.
+3. Se lanza la exploración y, cuando termina, la biblioteca aparece en la web y en sus aplicaciones.
+
+### Lo que conviene saber antes
+
+17.334 estrellas, licencia MIT, once años de proyecto y entregas regulares. Es de los pocos servidores de
+este racimo que corre en alojamiento compartido sin contenedores, y esa es su ventaja práctica. Su límite es
+que la reproducción es sobre todo por web: no habla el protocolo de los clientes de música móviles.
+
+### Cuándo no vale la pena
+
+Si quieres escuchar en el teléfono con una aplicación de verdad y descargas sin conexión, necesitas otro
+servidor. Koel es para escuchar en el navegador, en cualquier parte, sin instalar nada.
 <!-- GUIA:FIN -->

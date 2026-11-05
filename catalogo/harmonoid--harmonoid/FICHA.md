@@ -40,11 +40,25 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Reproductor y gestor de biblioteca escrito en Flutter: la misma aplicación en Windows, Linux, macOS, Android
+e iOS. Lee la música local, la ordena, muestra carátulas y letras, y permite listas y cola.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala desde la entrega `v0.3.37`, del 4 de noviembre de 2026.
+2. Se elige la carpeta de música; el programa indexa y muestra la biblioteca por álbum, artista y carpeta.
+3. Se reproduce desde la cola, y en las plataformas que lo permiten aparecen controles del sistema.
+
+### Lo que conviene saber antes
+
+4.801 estrellas y versión `0.3.x`, todavía por debajo de la 1.0 después de seis años de proyecto: es el dato
+que mejor lo describe. GitHub **no le reconoce la licencia** en la ficha. Funciona en muchas plataformas a
+la vez justamente porque Flutter lo permite, y eso mismo hace que en algunas se sienta menos nativo.
+
+### Cuándo no vale la pena
+
+Si quieres un reproductor maduro y terminado, la versión `0.3` lo dice todo. Y si sólo usas un sistema, hay
+programas hechos para él que funcionan mejor.
 <!-- GUIA:FIN -->

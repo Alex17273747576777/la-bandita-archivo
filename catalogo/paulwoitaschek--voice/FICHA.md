@@ -39,11 +39,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Reproductor de **audiolibros** para Android, pensado para lo que necesita ese formato y no tiene un
+reproductor de música: pausa automática al dormirte, salto por capítulo, velocidad fina, memoria de la
+posición exacta y un valor de posición que no se pierde al cambiar de archivo.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `26.10.8`, del 29 de octubre de 2026.
+2. Se elige la carpeta donde están los audiolibros; cada subcarpeta se toma como un libro y los archivos se
+   ordenan por nombre.
+3. Se marca el temporizador de sueño, la velocidad y el salto; el progreso se guarda solo.
+
+### Lo que conviene saber antes
+
+3.246 estrellas, GPL-3.0 y doce años de desarrollo. Su enfoque es la carpeta, no la nube: no hay descargas ni
+sincronización de posición entre aparatos. Eso lo cumple otro de los recursos de este racimo, el servidor
+que se monta por separado.
+
+### Cuándo no vale la pena
+
+Si oyes audiolibros desde una aplicación de tienda con su propia reproducción, el cambio tiene sentido sólo
+si tus archivos son tuyos y están en el teléfono. Y para música no sirve: cada libro es una carpeta y una
+posición.
 <!-- GUIA:FIN -->

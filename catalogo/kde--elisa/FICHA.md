@@ -37,11 +37,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Reproductor de música del escritorio KDE, sencillo a propósito: abre la carpeta que le indiques, la ordena
+por artista y álbum, y reproduce. Sin biblioteca complicada, sin ajustes escondidos, con la estética del
+entorno al que pertenece.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala desde el gestor de paquetes de la distribución, o desde la tienda de aplicaciones de KDE. Aquí
+   no hay entregas: el repositorio es de desarrollo.
+2. La primera vez se elige la carpeta de música; el programa la indexa y tarda un rato según el tamaño.
+3. Se reproduce, se encola y se busca por el panel lateral.
+
+### Lo que conviene saber antes
+
+370 estrellas, LGPL-3.0, escrito en C++ y con cambios de esta semana. Está pensado para un escritorio
+concreto: fuera de KDE funciona, pero arrastra sus bibliotecas. No lleva etiquetado, ni conversión, ni
+sincronización con el teléfono: sólo reproduce lo que ya está bien ordenado.
+
+### Cuándo no vale la pena
+
+Si tu música está revuelta o sin etiquetas, aquí se va a ver exactamente así. Y si quieres escuchar en el
+móvil lo mismo que en el ordenador, necesitas además un servidor, que es otra pieza.
 <!-- GUIA:FIN -->

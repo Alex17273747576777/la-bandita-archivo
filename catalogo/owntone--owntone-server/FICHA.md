@@ -40,11 +40,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Servidor de audio que reparte el sonido por la casa: envía lo que suena a altavoces AirPlay 1 y 2, a
+Chromecast y al equipo donde corre, con varios destinos a la vez y sincronizados. Lee archivos locales, radio
+por internet y alguna fuente conectada.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala desde el gestor de paquetes de la distribución o se compila; la entrega medida es la `29.3`, del
+   22 de julio de 2026.
+2. Se configura la carpeta de música y los nombres de los aparatos de la red.
+3. Se controla por su interfaz web o desde un cliente compatible; los altavoces aparecen como destinos.
+
+### Lo que conviene saber antes
+
+2.585 estrellas, GPL-2.0, escrito en C y con una configuración por archivo. Funciona muy bien en Linux y en
+una Raspberry Pi, y es más exigente en otros sistemas. Al ser un servidor de red, su calidad depende de tu
+red: con cable va mejor que con wifi.
+
+### Cuándo no vale la pena
+
+Si sólo escuchas en un aparato, no hay nada que repartir. Y si tus altavoces no hablan ninguno de esos
+protocolos, esto no los va a hacer compatibles.
 <!-- GUIA:FIN -->

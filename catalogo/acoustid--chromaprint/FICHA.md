@@ -41,11 +41,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Biblioteca en C que calcula la **huella acústica** de un archivo de audio: un resumen matemático del sonido
+que permite reconocer la misma canción aunque esté recomprimida, cortada o con otro nombre. Es la pieza que
+usan los programas de reconocimiento para decir «esto es tal tema».
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Normalmente no se usa sola: se instala como dependencia del programa que la necesita, o se compila con
+   `cmake` y se enlaza desde tu propio código.
+2. Trae una orden de ejemplo en sus herramientas que calcula la huella de un archivo.
+3. Para identificar de verdad hace falta además consultar la base de datos pública del proyecto AcoustID, con
+   la huella y la duración.
+
+### Lo que conviene saber antes
+
+1.415 estrellas y entrega `v1.6.2` publicada el 15 de octubre de 2026, la misma semana en que se midió. Su
+texto aclara que **no es una huella de propósito general**: sirve para audio casi idéntico, no para
+parecidos. GitHub **no le reconoce la licencia** en la ficha, aunque el proyecto declare la suya.
+
+### Cuándo no vale la pena
+
+Si lo que quieres es etiquetar música, no empieces aquí: usa un programa que ya lo haga, como `Picard`. Esta
+biblioteca es para quien escribe el programa.
 <!-- GUIA:FIN -->

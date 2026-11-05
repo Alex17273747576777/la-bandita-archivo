@@ -42,11 +42,25 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Reproductor de escritorio que **busca música por su cuenta**: se escribe un artista o un tema y el programa
+consulta servicios públicos para encontrar el audio y reproducirlo, con listas, cola y scrobbling.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la entrega `player@1.54.1`, del 4 de noviembre de 2026.
+2. Se busca en la caja superior; los resultados se añaden a la cola.
+3. Las listas se guardan en local y se pueden enviar a un servicio de estadísticas.
+
+### Lo que conviene saber antes
+
+18.878 estrellas y AGPL-3.0, con entrega de esta misma semana. Aquí no se enlaza ninguna de las fuentes que
+usa, y conviene decirlo claro: la condición legal de lo que reproduce depende de esos servicios y de tu país,
+no del programa. El programa, en sí, es un reproductor con una capa de búsqueda.
+
+### Cuándo no vale la pena
+
+Si tienes tu música en local o pagas un servicio con su aplicación, esto añade incertidumbre. Se elige por
+la búsqueda inmediata, a sabiendas de lo que ello implica.
 <!-- GUIA:FIN -->

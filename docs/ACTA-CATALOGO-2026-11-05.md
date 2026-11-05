@@ -87,3 +87,42 @@ coincidencias.
 **Lo que no está verificado.** Ninguno de los 30 se ha instalado. La ficha lo repite, y la guía distingue
 siempre entre lo que hace el programa según quien lo hace y lo que se ha comprobado aquí, que es su estado
 en GitHub.
+
+## Cuarta tanda · racimo `audio` completo (52 recursos)
+
+Las **52 guías** del racimo `audio`, escritas a mano una por una. Es el racimo más mezclado del catálogo y
+se ordenó por lo que el recurso hace, no por su fama:
+
+- **Pódcast** (5): `AntennaPod`, `gpodder`, `Podcini`, `escapepod`, más el servidor `audiobookshelf`.
+- **Audiolibros** (4): `Voice`, `BookPlayer`, `Libation`, `audiobookshelf`.
+- **Servidores autoalojados** (11): `Navidrome`, `Jellyfin`, `Koel`, `Ampache`, `BlackCandy`,
+  `airsonic-advanced`, `Mopidy`, `slimserver`, `MPD`, `owntone`, `snapcast`, más `Icecast` para emitir.
+- **Clientes de esos servidores** (4): `feishin`, `supersonic`, `sonixd`, `cider`-familia vía `spotifyd` y
+  `librespot` como piezas de protocolo.
+- **Reproductores de Android** (10): `Auxio`, `RetroMusicPlayer`, `namida`, `Metrolist`, `OuterTune`,
+  `InnerTune`, `ViMusic`, `SimpMusic`, `namida`, `Harmony-Music`.
+- **Reproductores de escritorio** (5): `Elisa`, `Tauon`, `Strawberry`, `quodlibet`, `harmonoid`.
+- **Etiquetado y datos** (7): `beets`, `Picard`, `easytag`, `taglib`, `chromaprint`, `musicbrainz-server`,
+  `listenbrainz-server`, más `pano-scrobbler` para las estadísticas.
+- **Herramientas** (3): `FFmpeg`, `yt-dlp`, `cobalt`.
+
+**Total del catálogo:** **157 fichas con guía escrita** de 278 medidas · **121 esperando guía** ·
+`catalogo_lint` **0 fallos**.
+
+**Lo que este racimo obligó a decir sin adornos.** Siete recursos llevan guía que **empieza avisando de que
+están parados o archivados**: `airsonic-advanced` (entrega de 2020, cambios de 2024), `sonixd` (archivado, y
+su sucesor está en el mismo racimo), `ViMusic` (archivado en 2024), `escapepod` (archivado en 2022),
+`Podcini` (sin cambios desde enero de 2025), `OuterTune` (su propio texto dice que no está en desarrollo
+activo) y `InnerTune` (entrega de septiembre de 2024). Cuatro tienen la **entrega por detrás del código** y
+se explica: `gpodder`, `quodlibet`, `librespot`, `spotifyd`. Tres **no declaran licencia reconocible**:
+`FFmpeg`, `chromaprint`, `harmonoid`, `namida`, `musicbrainz-server`. Dos son **beta o por debajo de la 1.0**
+pese a su fama: `spotube` (`6.0.0-beta.0`) y `harmonoid` (`0.3.37`).
+
+**Frontera que se respetó en todo el racimo.** Los recursos que dependen de servicios ajenos —`Metrolist`,
+`SimpMusic`, `InnerTune`, `OuterTune`, `ViMusic`, `Harmony-Music`, `nuclear`, `spotube`, `cobalt`— llevan
+escrito en su guía que **no tienen catálogo propio** y que su continuidad no la deciden sus autores. No se
+enlaza ninguna fuente de contenido, ni ningún servicio de música, ni ninguna lista. `grep` sobre las 52
+fichas: cero coincidencias con los vetos.
+
+**Lo que no está verificado.** Ninguno de los 52 se ha instalado. Cada guía separa lo que el programa hace
+según su propio proyecto de lo que se ha medido aquí, que es su estado en GitHub el 5 de noviembre de 2026.

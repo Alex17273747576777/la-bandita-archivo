@@ -38,11 +38,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Servidor de música pensado para los aparatos de Logitech —Squeezebox, Boom, Radio, Transporter— y para todo
+lo que hable su protocolo. Hoy se llama **Lyrion Music Server** y sigue sirviendo música a esos aparatos,
+que llevan más de una década descatalogados y siguen funcionando gracias a él.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala en el equipo que hará de servidor: hay paquetes para varias distribuciones y para Windows y
+   macOS. Aquí no hay entregas; el proyecto publica fuera de GitHub.
+2. Se abre su panel en el navegador, se añade la carpeta de música y se espera a que indexe.
+3. Los aparatos de la red se encuentran solos; desde el panel se les manda música o se controlan uno por uno.
+
+### Lo que conviene saber antes
+
+1.815 estrellas y está escrito en Perl, lo cual explica que su instalación sea más delicada que la de otros
+servidores de este racimo. GitHub **no le reconoce la licencia**. Su valor es único: sin este programa, los
+aparatos de Logitech quedan inservibles, y con él vuelven a ser lo que eran.
+
+### Cuándo no vale la pena
+
+Si no tienes un aparato de esos, no hay razón para montarlo: para lo demás hay servidores más modernos y
+más fáciles de instalar en este mismo racimo.
 <!-- GUIA:FIN -->

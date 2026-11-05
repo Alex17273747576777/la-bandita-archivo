@@ -41,11 +41,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Servidor de música escrito en Python, pensado para ser **extensible**: reproduce archivos locales, radio por
+internet y fuentes que se añaden con extensiones, y se controla desde cualquier cliente compatible con el
+protocolo del reproductor de siempre.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala con `pip` o desde el gestor de paquetes de la distribución; la entrega medida es la `v4.0.5`,
+   del 16 de octubre de 2026.
+2. Se escribe un archivo de configuración con las fuentes activadas y el modo de control.
+3. Se arranca el servicio y se conecta un cliente —web o móvil— para buscar y encolar.
+
+### Lo que conviene saber antes
+
+8.610 estrellas, Apache-2.0, nacido en 2009. Su fuerza son las extensiones; su pega, que cada extensión trae
+sus propias dependencias y a veces se rompen entre versiones. Y hay que tener claro qué es: un servidor que
+suena en el equipo donde corre, no un servicio de música.
+
+### Cuándo no vale la pena
+
+Si sólo quieres oír música en el ordenador, un reproductor con ventana es más corto. Mopidy se elige cuando
+quieres mezclar fuentes distintas en una sola cola controlada desde el móvil.
 <!-- GUIA:FIN -->

@@ -36,11 +36,25 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Fue un reproductor de pódcast para Android, pequeño y sin adornos: suscripciones, descarga, cola y
+reproducción. Su código sigue disponible como referencia para quien quiera ver cómo se hace un cliente de
+pódcast sencillo.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+Se instalaba desde la entrega `v1.1.0`, del 12 de abril de 2022, se añadían fuentes por su dirección y se
+escuchaba.
+
+### Lo que conviene saber antes
+
+**El repositorio está archivado** desde julio de 2022 y no habrá más versiones. Tiene 124 estrellas y licencia
+MIT, lo cual lo hace cómodo de leer y reutilizar. Su último cambio es de hace más de cuatro años, así que no
+esperes que aguante los cambios de Android de estos años.
+
+### Cuándo no vale la pena
+
+Para escuchar pódcast hoy, no. Está aquí como pieza histórica y como código de ejemplo, y la ficha lo dice en
+lugar de presentarlo como una opción viva.
 <!-- GUIA:FIN -->

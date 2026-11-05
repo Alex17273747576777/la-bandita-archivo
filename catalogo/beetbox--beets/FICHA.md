@@ -36,11 +36,30 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Gestor de biblioteca musical desde la terminal: importa carpetas, **identifica cada disco en una base de
+datos pública**, escribe las etiquetas correctas, renombra y ordena los archivos según un patrón que tú
+definas, y mantiene un catálogo consultable. Es la herramienta de quien tiene miles de archivos y quiere
+dejarlos en orden de una vez.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala con `pip install beets` o desde el gestor de paquetes; la entrega es la `v2.14.1`, del 17 de
+   septiembre de 2026.
+2. Se escribe un archivo de configuración con la carpeta de la biblioteca y el patrón de nombres.
+3. `beet import` sobre una carpeta: pregunta por cada disco dudoso y escribe lo que confirmes.
+4. `beet ls`, `beet stats` y `beet modify` sirven para consultar y corregir en bloque.
+
+### Lo que conviene saber antes
+
+15.895 estrellas, licencia MIT, dieciséis años de historia. Su fuerza son los complementos: hay decenas para
+traer letras, portadas, estadísticas o sincronizar con otros reproductores. Su riesgo es el contrario al de
+un programa con ventana: una orden mal escrita toca cientos de archivos a la vez, así que la primera prueba
+se hace sobre una copia.
+
+### Cuándo no vale la pena
+
+Con dos discos, no: es más tiempo configurarlo que ordenarlo a mano. Y si no te sientes cómodo con la
+terminal, `Picard` hace la mitad del trabajo con ventana.
 <!-- GUIA:FIN -->

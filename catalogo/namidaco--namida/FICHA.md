@@ -42,11 +42,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Reproductor de música y vídeo para Android escrito en Flutter, con una ambición poco común: además de la
+biblioteca local, busca y reproduce vídeo de un servicio conocido, con letras, cola, temas y edición de
+etiquetas dentro de la misma aplicación.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `v7.1.2`, del 19 de septiembre de 2026.
+2. Se elige la carpeta de música local; el programa indexa y muestra pestañas por álbum, artista y carpeta.
+3. Para el vídeo, se busca desde la propia aplicación y se reproduce o se descarga.
+
+### Lo que conviene saber antes
+
+6.788 estrellas y **GitHub no le reconoce la licencia**, así que si vas a reutilizar su código mira el
+archivo antes. Su versión va por la 7 y las entregas son regulares. Al juntar música local con vídeo de un
+servicio ajeno, es más frágil que un reproductor puro: cuando ese servicio cambia, la parte de vídeo es la
+que se rompe.
+
+### Cuándo no vale la pena
+
+Si lo que quieres es sólo tu música, `Auxio` o `RetroMusicPlayer` hacen eso con menos piezas y menos
+sorpresas. Namida se elige por tener las dos cosas en un solo sitio.
 <!-- GUIA:FIN -->

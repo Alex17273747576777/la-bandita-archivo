@@ -40,11 +40,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Demonio reproductor: se queda corriendo en el equipo, tiene tu música indexada y la reproduce por la salida
+de sonido del servidor. No tiene ventana propia; se le controla desde cualquier cliente —hay decenas— por
+red, y por eso es la pieza que sostiene a otros programas de este racimo.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala desde el gestor de paquetes de la distribución; aquí no hay entregas.
+2. Se edita su archivo de configuración con la carpeta de música, la salida de audio y, si hace falta, el
+   acceso por red.
+3. Se arranca el servicio y se conecta un cliente; desde él se busca, se encola y se reproduce.
+
+### Lo que conviene saber antes
+
+2.812 estrellas, GPL-2.0, y una estabilidad que viene de su edad: nació en 2003 y su interfaz no ha cambiado.
+Todo se configura en un archivo de texto, y eso es a la vez su virtud —se puede automatizar entero— y su
+pega —si te equivocas en una línea, no hay ventana que te lo diga.
+
+### Cuándo no vale la pena
+
+Para escuchar música en el ordenador de casa, es fontanería innecesaria: un reproductor con ventana hace
+eso. MPD tiene sentido en un equipo sin pantalla, en una casa con varios clientes, o cuando quieres que la
+música siga sonando al cerrar la sesión.
 <!-- GUIA:FIN -->

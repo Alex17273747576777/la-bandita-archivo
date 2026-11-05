@@ -43,11 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Servidor de música y vídeo por web, escrito en PHP: se instala en un alojamiento normal, apunta a la carpeta
+de archivos y da acceso a la colección desde el navegador o desde clientes que hablen su interfaz. Lleva
+años en el ecosistema y tiene fama de aguantar bibliotecas grandes.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se despliega en un servidor web con PHP y base de datos; la entrega medida es la `8.3.0`, del 20 de octubre
+   de 2026.
+2. En el instalador se define la carpeta de música, el usuario administrador y el modo de catalogación.
+3. Se añade un cliente o se usa la web; la catalogación inicial hay que lanzarla a mano y puede tardar.
+
+### Lo que conviene saber antes
+
+3.845 estrellas, AGPL-3.0. Su texto avisa de que la versión 8 es la línea principal y todavía está en
+construcción, así que conviene leer las notas de cada entrega. Al ser PHP, se instala en cualquier
+alojamiento barato, y eso es justo lo que otros servidores de este racimo no permiten.
+
+### Cuándo no vale la pena
+
+Si no tienes ya un servidor web con PHP, montar el entorno cuesta más que instalar otro servidor con un solo
+comando. Y si tu colección es pequeña, sobra potencia.
 <!-- GUIA:FIN -->

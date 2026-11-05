@@ -36,11 +36,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Reproductor y gestor de biblioteca para Linux, Windows y macOS: ordenar, buscar con consultas escritas,
+etiquetar en bloque, editar patrones de nombre y reproducir. Su motor de búsqueda es lo que lo distingue de un
+reproductor corriente: se le pueden pedir cosas como «discos de 1998 que tengan menos de diez temas».
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala desde el gestor de paquetes de la distribución; la entrega medida es la `release-4.7.1`, del 31
+   de mayo de 2025.
+2. La primera vez se apunta a la carpeta de música y se deja indexar.
+3. Se busca con la barra superior, y las vistas de álbum, artista o explorador de archivos se cambian con las
+   pestañas.
+
+### Lo que conviene saber antes
+
+1.771 estrellas, GPL-2.0 y escrito en Python. Su entrega es de **mayo de 2025**, aunque el repositorio recibe
+cambios en octubre de 2026. Es un programa de escritorio clásico: teclado, atajos y configuración por
+ventanas, sin nada de nube.
+
+### Cuándo no vale la pena
+
+Si no vas a usar la búsqueda por consultas ni el etiquetado en bloque, un reproductor más simple basta. Y en
+Windows su instalación es menos cómoda que en Linux.
 <!-- GUIA:FIN -->

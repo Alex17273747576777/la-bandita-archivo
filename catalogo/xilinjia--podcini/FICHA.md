@@ -42,11 +42,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Gestor de pódcast para Android que, además de las fuentes de siempre, acepta canales y listas de vídeo como
+si fueran pódcast: suscripción, descarga y reproducción en la misma aplicación. Nace como derivado de
+AntennaPod y conserva su forma de trabajar.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `7.3.5`, del 13 de enero de 2025.
+2. Se añade una fuente normal por su dirección, o un canal por su enlace; cada uno aparece como una
+   suscripción más.
+3. Se marca la descarga automática por suscripción y se escucha desde la cola.
+
+### Lo que conviene saber antes
+
+**Su último cambio es de enero de 2025**: no se ha tocado desde entonces, y tiene 238 estrellas. Es decir:
+un proyecto pequeño, parado, sobre una base buena. Funcionará mientras las fuentes no cambien y mientras
+Android no apriete los permisos.
+
+### Cuándo no vale la pena
+
+Hoy, para uso nuevo: AntennaPod, del que deriva, sigue vivo y hace lo mismo con los pódcast normales. Podcini
+tiene sentido si te interesa mezclar canales de vídeo en la misma cola.
 <!-- GUIA:FIN -->

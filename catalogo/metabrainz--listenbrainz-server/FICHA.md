@@ -41,11 +41,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Servidor del proyecto ListenBrainz: guarda el historial de lo que escuchas y lo convierte en estadísticas e
+recomendaciones, con los datos publicados en abierto. Aquí está el código del servidor, no una aplicación
+para el usuario.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Para usarlo, lo normal es **no instalarlo**: el proyecto ofrece su instancia pública y basta con conectar
+   un programa que envíe lo escuchado.
+2. Para montarlo, se despliega con contenedores y una base de datos; la entrega medida es la
+   `v-2026-10-28.0`, del 28 de octubre de 2026.
+3. Una vez arriba, los clientes se conectan con un testigo de usuario y le envían cada escucha.
+
+### Lo que conviene saber antes
+
+1.052 estrellas y GPL-2.0. Es infraestructura, no aplicación: pesa, necesita base de datos y su instalación
+es un trabajo de administración. Su valor es el contrario del de los servicios comerciales: los datos son
+tuyos y además se publican para que cualquiera los analice.
+
+### Cuándo no vale la pena
+
+Montarlo por gusto, casi nunca: para llevar tus propias estadísticas basta la instancia pública. Se justifica
+si quieres los datos en casa o si investigas con ellos.
 <!-- GUIA:FIN -->

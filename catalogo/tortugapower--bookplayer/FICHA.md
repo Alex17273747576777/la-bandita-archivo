@@ -41,11 +41,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Reproductor de audiolibros **sin protección** para iPhone y iPad, con lo que hace falta en ese formato:
+posición por libro, velocidad, temporizador de sueño, lista de reproducción y una biblioteca que se ordena
+sola. Se le pasan los archivos por el explorador, por el cable o desde un servidor de archivos.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala desde la entrega `6.0.0`, del 24 de octubre de 2026, o desde la tienda de Apple.
+2. Se añaden los archivos con el botón de importar, o se conecta una carpeta en red.
+3. Se empieza a oír y la posición queda guardada por libro; la velocidad se ajusta en la barra inferior.
+
+### Lo que conviene saber antes
+
+2.275 estrellas, GPL-3.0 y escrito en Swift, o sea, sólo Apple. Es uno de los pocos reproductores de
+audiolibros libres para ese sistema, y su comunidad mantiene una wiki con guías de temas e iconos. No hay
+versión para Android: si tu casa es mixta, necesitarás dos programas.
+
+### Cuándo no vale la pena
+
+Si compras los audiolibros en una tienda con su propia aplicación, esta no los lee: es para archivos que ya
+son tuyos y sin protección.
 <!-- GUIA:FIN -->

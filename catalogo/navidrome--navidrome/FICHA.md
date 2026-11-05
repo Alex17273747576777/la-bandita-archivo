@@ -42,11 +42,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Servidor de música autoalojado, ligero y con interfaz web: indexa tu colección, la sirve por el protocolo
+habitual y permite escuchar desde cualquier sitio con decenas de clientes ya hechos, para móvil y escritorio.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala con un solo contenedor o con el binario; la entrega medida es la `v0.64.2`, del 24 de septiembre
+   de 2026.
+2. Se apunta a la carpeta de música con un archivo de configuración o variables de entorno; indexa solo.
+3. Se conecta un cliente con la dirección y el usuario, o se usa la web para comprobar que responde.
+
+### Lo que conviene saber antes
+
+24.535 estrellas, GPL-3.0, escrito en Go: un solo archivo ejecutable y muy poco consumo, que es justo lo que
+otros servidores de este racimo no ofrecen. Su versión sigue por debajo de la 1.0, así que hay cambios entre
+entregas que conviene leer. No tiene aplicación propia: vive de los clientes compatibles.
+
+### Cuándo no vale la pena
+
+Si escuchas sólo en el equipo donde tienes la música, sobra. Y si tu red no sale de casa, un reproductor
+local hace lo mismo sin montar nada.
 <!-- GUIA:FIN -->

@@ -42,11 +42,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Etiquetador oficial de la base de datos abierta: abre tus archivos, calcula una huella del audio, busca el
+disco al que pertenecen y **escribe las etiquetas correctas** —título, artista, álbum, año, carátula— en
+todos los archivos de una vez. También ordena y renombra según un patrón.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala desde la entrega `release-3.0.4`, del 1 de noviembre de 2026, para Windows, macOS y Linux.
+2. Se arrastran los archivos o la carpeta; el programa agrupa por disco y consulta la base de datos.
+3. Se revisa lo que propone —a veces hay varias ediciones del mismo disco—, se elige y se guarda.
+4. En opciones se define el patrón de nombres y qué etiquetas se escriben.
+
+### Lo que conviene saber antes
+
+5.350 estrellas, GPL-2.0, y entrega de este mes. Es la puerta de entrada al etiquetado automático para quien
+no quiere terminal. Su límite es el de la base de datos: lo que no esté catalogado allí, hay que escribirlo a
+mano.
+
+### Cuándo no vale la pena
+
+Si vas a ordenar miles de discos y no te importa la terminal, `beets` hace el trabajo en bloque. Picard
+brilla con doscientos discos y paciencia.
 <!-- GUIA:FIN -->

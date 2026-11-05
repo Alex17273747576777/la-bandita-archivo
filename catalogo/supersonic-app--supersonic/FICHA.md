@@ -41,11 +41,25 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Cliente de escritorio ligero para servidores de música autoalojados: se conecta a uno compatible con el
+protocolo habitual o a Jellyfin y ofrece biblioteca, cola, letras, listas y descarga para oír sin conexión.
+Está escrito en Go y se nota en lo poco que pesa.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la entrega `v0.22.1`, del 9 de agosto de 2026, para Windows, macOS o Linux.
+2. Al abrir, se introduce la dirección del servidor y las credenciales.
+3. Se navega la biblioteca remota; se puede marcar música para tenerla en el equipo y escucharla sin red.
+
+### Lo que conviene saber antes
+
+2.416 estrellas, GPL-3.0, versión `0.22` y desarrollo activo. Su ventaja frente a otros clientes del racimo es
+el peso: arranca rápido y no lleva un navegador dentro. Su límite, el de todos: sin servidor no hay música.
+
+### Cuándo no vale la pena
+
+Si no tienes servidor montado, no sirve de nada. Y si ya usas la web del servidor, esto añade comodidad de
+escritorio y descarga local, nada más.
 <!-- GUIA:FIN -->

@@ -39,11 +39,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Demonio que hace que un equipo —una Raspberry Pi, un ordenador sin pantalla— aparezca como **dispositivo de
+Spotify** en la aplicación oficial. Se controla desde el teléfono, suena por el equipo, y no necesita
+interfaz en él.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala desde el gestor de paquetes o se compila; la entrega es la `v0.4.2`, del 19 de noviembre de
+   2025.
+2. Se crea un archivo de configuración con el usuario, el nombre del aparato y la salida de audio.
+3. Se arranca como servicio y, en la aplicación oficial, el equipo aparece en la lista de dispositivos.
+
+### Lo que conviene saber antes
+
+10.822 estrellas, GPL-3.0, escrito en Rust. Su último cambio es de **mayo de 2026** y su entrega de noviembre
+de 2025: va despacio. Y hay algo que su propio proyecto deja claro en el ecosistema: este tipo de cliente
+necesita cuenta de pago; la versión gratuita no se soporta.
+
+### Cuándo no vale la pena
+
+Si no tienes un equipo dedicado sin pantalla, no aporta nada frente a la aplicación oficial. Y si no pagas
+la cuenta, directamente no funciona.
 <!-- GUIA:FIN -->

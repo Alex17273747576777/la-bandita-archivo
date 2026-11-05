@@ -42,11 +42,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Programa que **anota lo que escuchas** en un servicio de estadísticas musicales, para Windows, Linux y
+Android. Toma lo que suena en el reproductor del sistema y lo envía, con corrección de nombres por reglas,
+gráficas de lo escuchado y presencia en el chat.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la entrega `447`, del 6 de octubre de 2026.
+2. Se conecta la cuenta del servicio en ajustes y se autoriza.
+3. En escritorio se activa el modo que lee el reproductor del sistema; en Android se concede el permiso de
+   notificaciones, que es de donde saca qué suena.
+
+### Lo que conviene saber antes
+
+2.344 estrellas, GPL-3.0, y desarrollo activo. Su punto delicado son las reglas de corrección: si tu
+reproductor informa mal el artista, el programa anota mal, y hay que escribir reglas a mano para arreglarlo.
+En Android, además, el ahorro de batería del sistema puede desconectar el servicio.
+
+### Cuándo no vale la pena
+
+Si no llevas estadísticas de lo que escuchas, no hay nada que anotar. Y si usas un servidor de música, muchos
+ya envían esas estadísticas por su cuenta.
 <!-- GUIA:FIN -->

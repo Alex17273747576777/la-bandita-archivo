@@ -35,11 +35,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Editor de etiquetas de audio para el escritorio de GNOME: abre un archivo o una carpeta entera y permite
+escribir título, artista, álbum, año, número de pista, carátula y letra, con renombrado de los archivos a
+partir de esas etiquetas.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala desde el gestor de paquetes de la distribución; **aquí no hay entregas**, porque este
+   repositorio es un espejo de sólo lectura de GitLab.
+2. Se abre la carpeta; los archivos aparecen en una lista con los campos a la derecha.
+3. Se rellenan los que falten y se guarda; si hay varias pistas iguales, se aplica el mismo valor a todas de
+   una vez.
+
+### Lo que conviene saber antes
+
+83 estrellas y GPL-2.0. Está en modo mantenimiento desde hace años: se arregla lo que se rompe, no se añaden
+funciones. Su último cambio es de octubre de 2026, así que sigue compilando. Su punto flojo es el mismo que
+el de todos los editores manuales: no busca los datos por ti.
+
+### Cuándo no vale la pena
+
+Si tu biblioteca es grande, escribir etiquetas a mano es un castigo: `Picard` o `beets` las buscan en una
+base de datos y las rellenan solas. Easytag se elige cuando sabes exactamente lo que quieres escribir.
 <!-- GUIA:FIN -->

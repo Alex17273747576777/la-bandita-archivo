@@ -43,11 +43,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Descargador de audio y vídeo desde la línea de órdenes, con soporte de miles de sitios. En este racimo entra
+por lo suyo de audio: sacar el sonido de cualquier dirección en el formato que quieras, con etiquetas y
+carátula puestas si se lo pides.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala con `pip install yt-dlp`, desde el gestor de paquetes o bajando el binario de la entrega
+   `2026.10.26`, del 26 de octubre de 2026.
+2. Sólo el sonido, en el formato de más calidad disponible y convertido: `yt-dlp -x --audio-format opus <dirección>`.
+3. Con `--embed-thumbnail` y `--embed-metadata` se añaden carátula y etiquetas al archivo.
+4. Con `-f bestaudio` se elige directamente la pista de audio sin tocar el vídeo.
+
+### Lo que conviene saber antes
+
+205.397 estrellas, licencia Unlicense, entrega de hace diez días y cambios casi diarios: es el proyecto que
+marca el ritmo de todo el ecosistema. Su ritmo es también su problema: las opciones cambian y lo que leíste
+hace un año puede no valer. Su lista de sitios la mantiene la comunidad, y los sitios se defienden.
+
+### Cuándo no vale la pena
+
+Para una canción suelta, cualquier web hace el trabajo. `yt-dlp` se elige cuando repites, cuando quieres el
+audio tal cual —sin recomprimir— o cuando quieres automatizar. Y siempre: descarga lo que tengas derecho a
+descargar.
 <!-- GUIA:FIN -->

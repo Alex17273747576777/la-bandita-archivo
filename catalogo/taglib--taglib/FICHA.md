@@ -38,11 +38,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Biblioteca en C++ para **leer y escribir metadatos** de audio: etiquetas, carátulas, propiedades técnicas del
+archivo. Es la pieza que hay debajo de muchos reproductores y etiquetadores, incluidos varios de este racimo.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Normalmente se instala como dependencia del programa que la usa, o se compila con `cmake`; la entrega
+   medida es la `v2.3.2`, del 5 de septiembre de 2026.
+2. Desde código se abre el archivo, se leen o escriben las etiquetas y se guarda.
+3. Las herramientas de ejemplo que trae permiten ver y cambiar etiquetas desde la terminal.
+
+### Lo que conviene saber antes
+
+1.467 estrellas, LGPL-2.1, quince años de historia. Su límite es el que declara su propio texto: cubre
+contenedores y etiquetas conocidos, no cualquier formato exótico. Si escribes un programa que toca etiquetas,
+usar esto te ahorra implementar cinco formatos a mano.
+
+### Cuándo no vale la pena
+
+Si no programas, no hay nada que hacer aquí: usa `Picard` o `easytag`. Esta ficha existe porque es la pieza
+que sostiene a los demás.
 <!-- GUIA:FIN -->

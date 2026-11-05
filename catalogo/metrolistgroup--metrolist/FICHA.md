@@ -42,11 +42,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+### Para qué sirve
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+Cliente de YouTube Music para Android, escrito en Kotlin y con la interfaz del sistema de diseño actual:
+escucha, listas, radio, letras y descarga para oír sin conexión.
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+### Cómo se usa
 
+1. Se instala la APK de la entrega `v13.7.0`, del 7 de septiembre de 2026.
+2. Se abre y se navega sin cuenta; si quieres que se guarden tus listas, se puede iniciar sesión con la
+   cuenta del servicio.
+3. La descarga se activa por lista o por canción en el menú de cada elemento; lo bajado queda en la pantalla
+   de descargas.
+
+### Lo que conviene saber antes
+
+**El propio proyecto avisa de que está en modo mantenimiento**: se arreglan fallos y se hacen mejoras
+pequeñas, y no se aceptan funciones nuevas. No está muerto, dice, pero tampoco crece. Tiene 14.026 estrellas
+y licencia GPL-3.0. Y conviene recordar lo de siempre en este racimo: es un cliente de un servicio ajeno,
+no un catálogo propio, y el servicio puede cambiar cuando quiera.
+
+### Cuándo no vale la pena
+
+Si ya pagas el servicio y su aplicación te sirve, esto es la misma música con otra piel. Se elige cuando
+quieres descargar y escuchar sin anuncios, a sabiendas de que el proyecto no va a evolucionar.
 <!-- GUIA:FIN -->
