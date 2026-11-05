@@ -14,7 +14,7 @@
 
 | Documento | Título | De qué va | Líneas |
 |---|---|---|---|
-| [`ACTA-CATALOGO-2026-11-05.md`](ACTA-CATALOGO-2026-11-05.md) | Acta · el catálogo por recurso (5-nov-2026, 11:30–11:55 UTC) | Las **30 guías** del racimo `descargas`, escritas a mano una por una: motores de terminal (`aria2`, `axel`, `wget2`, `lux`, `you-get`, `gallery-dl`,… | 258 |
+| [`ACTA-CATALOGO-2026-11-05.md`](ACTA-CATALOGO-2026-11-05.md) | Acta · el catálogo por recurso (5-nov-2026, 11:30–11:55 UTC) | Las **30 guías** del racimo `descargas`, escritas a mano una por una: motores de terminal (`aria2`, `axel`, `wget2`, `lux`, `you-get`, `gallery-dl`,… | 269 |
 | [`ACTA-DUPLICADOS-Y-RECURSOS-2026-11-01.md`](ACTA-DUPLICADOS-Y-RECURSOS-2026-11-01.md) | Acta — duplicados retirados y recursos nuevos | Regla aplicada: **la serie nueva (2026-10-31 en adelante) es la canónica** para cada número. | 45 |
 | [`ACTA-ESCRUTINIO-2026-11-03.md`](ACTA-ESCRUTINIO-2026-11-03.md) | Acta del escrutinio · 3 de noviembre de 2026 | La primera corrida pedía las entregas dentro de una consulta agrupada de veinte repositorios por llamada. | 43 |
 | [`ACTA-ETIQUETAS-2026-11-04.md`](ACTA-ETIQUETAS-2026-11-04.md) | Acta de etiquetas estratégicas · 4 de noviembre de 2026 | Regla 7 aplicada: 01 y 04 comparten dos (#OmniShizuku, #Droynis), que es el máximo permitido y está justificado porque la 04 vuelve a medirlos. 02 y… | 49 |
