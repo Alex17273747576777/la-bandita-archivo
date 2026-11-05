@@ -44,10 +44,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Descargador de terminal escrito en Python, veterano y de una sola orden: le das una dirección de vídeo o de
+audio y lo baja, con las calidades que encuentre. Su fuerte histórico son los sitios chinos, aunque cubre
+muchos más.
+
+### Cómo se usa
+
+1. Se instala con `pip install you-get`, o desde el gestor de paquetes del sistema.
+2. `you-get -i` y la dirección muestra lo que hay disponible, sin descargar.
+3. `you-get` y la dirección descarga; con `-o` se fija la carpeta y con `--format` la calidad.
+
+### Lo que conviene saber antes
+
+56.862 estrellas y una entrega `v0.4.1743` de **enero de 2025**, con cambios en el repositorio hasta
+octubre de 2026. **GitHub no le reconoce la licencia** —aparece como «NOASSERTION»—, así que si vas a
+reutilizar su código, mira el archivo antes. Su propio texto avisa de que dejará de admitir versiones viejas
+de Python; conviene tener una versión reciente.
+
+### Cuándo no vale la pena
+
+Para YouTube y los sitios grandes, `yt-dlp` está más al día. `you-get` sigue teniendo sentido en su terreno
+—los sitios chinos— y por la sencillez: una orden, sin configuración.
 
 <!-- GUIA:FIN -->

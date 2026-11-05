@@ -43,10 +43,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Ventana de escritorio para `aria2`: la terminal desaparece y queda una lista de descargas con barra de
+progreso, cola, historial y límite de velocidad. Trae `aria2` dentro, así que no hay que instalarlo aparte.
+
+### Cómo se usa
+
+1. Se descarga la entrega `v3.1.2` —del **27 de septiembre de 2020**, con el repositorio parado desde ese
+   mismo día— y se instala.
+2. Se añade una descarga pegando la dirección, o arrastrando un archivo de torrente.
+3. En ajustes se fijan conexiones por archivo, carpeta de destino y límite de velocidad.
+
+### Lo que conviene saber antes
+
+**Está abandonado desde 2020.** No es que vaya mal: es que no ha recibido un solo cambio en seis años y
+las webs de hoy no son las de entonces. Se puede usar para descargar archivos directos, que es una técnica
+que no ha cambiado, pero no esperes arreglos. La licencia es MIT y funciona en Windows, Linux y macOS.
+
+### Cuándo no vale la pena
+
+Hoy, casi siempre. Para lo mismo con mantenimiento vivo está `AriaNg`, o `Motrix` si prefieres algo con
+ventana propia y desarrollo reciente. Esta entrada existe en el catálogo porque el recurso existe, no
+porque se recomiende.
 
 <!-- GUIA:FIN -->

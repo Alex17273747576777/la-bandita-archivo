@@ -43,10 +43,30 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Gestor de descargas de escritorio con motor de línea de órdenes por debajo y ventana propia. Es lo que
+antes se llamaba **Motrix Next**, con nombre nuevo y a partir de aquí con vida propia: descarga por HTTP
+y por enlaces de una sola vía, reparte el archivo en varios trozos a la vez y permite pausar y reanudar
+sin perder lo bajado.
+
+### Cómo se instala
+
+1. Desde la última entrega —`v4.1.1`, del 25 de octubre de 2026— hay paquete para Windows, macOS y Linux.
+2. Si tenías la versión anterior, **desinstálala primero**: lo pide el propio proyecto. Los ajustes, las
+   tareas y el historial **no se importan**, y los archivos descargados se quedan donde estaban.
+3. La primera vez se elige la carpeta de destino y, si vas a usar el navegador, se instala la extensión que
+   empuja los enlaces a la aplicación.
+
+### Lo que conviene saber antes
+
+Es un proyecto **de marzo de 2026**. Tiene 11.383 estrellas y entrega reciente, pero su historial es de
+meses, no de años: si buscas algo que lleve una década funcionando igual, no es éste. La licencia es MIT,
+así que puedes mirarlo por dentro con tranquilidad.
+
+### Cuándo no vale la pena
+
+En un teléfono no existe: es escritorio. Y si lo único que descargas son archivos aislados de una web que
+nunca falla, la descarga del propio navegador ya hace eso y no hay nada que configurar.
 
 <!-- GUIA:FIN -->

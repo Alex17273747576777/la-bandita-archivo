@@ -42,10 +42,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Descargador de **emisiones por trozos**: toma la lista de fragmentos de una emisión (HLS, DASH o ISM) y los
+une en un solo archivo, con las pistas de audio y subtítulos que elijas. Es lo que se usa cuando el vídeo no
+es un archivo sino una retransmisión partida en mil pedazos.
+
+### Cómo se usa
+
+1. Se descarga el binario de la entrega `v0.6.0-beta`, del 28 de junio de 2026, para Windows, Linux o macOS.
+2. Se le pasa la dirección de la lista de fragmentos y, opcionalmente, la del audio por separado.
+3. Se eligen pistas con `--select-video`, `--select-audio` y `--select-subtitle`, y el programa descarga en
+   paralelo y une con `FFmpeg`.
+
+### Lo que conviene saber antes
+
+La etiqueta dice **beta** y así hay que tomarlo, aunque lleve 9.038 estrellas y dos años de entregas. Su
+documentación está en chino, inglés y chino tradicional; la ayuda de la propia orden, en inglés. Aquí **no
+se enlaza ninguna lista de fragmentos ni ninguna emisión concreta**: la herramienta vale para lo que sea
+que tengas derecho a descargar, y eso no lo decide el programa.
+
+### Cuándo no vale la pena
+
+Si el vídeo ya es un archivo, esto es un rodeo: usa `aria2` o el navegador. Y sin `FFmpeg` instalado no une
+nada, así que la instalación son dos piezas, no una.
 
 <!-- GUIA:FIN -->

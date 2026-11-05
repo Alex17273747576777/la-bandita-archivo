@@ -40,10 +40,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Página web suelta que se conecta a un `aria2` ya en marcha y lo maneja desde el navegador: lista de
+descargas, progreso, pausa, reanudar y borrar. No trae servidor, ni programa que instalar: es un archivo que
+se abre y habla con el motor por su interfaz de control.
+
+### Cómo se usa
+
+1. Hay que tener `aria2` arrancado con el control remoto activo y un secreto configurado.
+2. Se abre la página —o su demostración pública— y se pega la dirección del motor y el secreto en ajustes.
+3. A partir de ahí se añaden descargas desde la propia página.
+
+### Lo que conviene saber antes
+
+**No declara licencia**, así que no se sabe qué puedes hacer con su código; GitHub la marca como ausente.
+Su último cambio es de **octubre de 2023** y **no tiene ninguna entrega publicada**. Funciona, pero es una
+página de hace años y hoy cualquier cosa que exponga el control de `aria2` fuera de tu red es un riesgo: el
+secreto tiene que ser largo y el acceso, local.
+
+### Cuándo no vale la pena
+
+Hoy, casi siempre: `AriaNg` hace lo mismo, con licencia declarada, entregas y mantenimiento. `yaaw` se
+entiende como pieza histórica de cómo se manejaba `aria2` desde el navegador.
 
 <!-- GUIA:FIN -->

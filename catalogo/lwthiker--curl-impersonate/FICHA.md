@@ -42,10 +42,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Una compilación de `curl` que se presenta ante el servidor **igual que un navegador de verdad**: mismo
+saludo de cifrado, mismas cabeceras, mismo orden. Sirve para los sitios que responden distinto según quién
+llama, no según lo que pide.
+
+### Cómo se usa
+
+1. Hay paquetes para varias distribuciones y una imagen de contenedor; también se puede compilar.
+2. Se usa como `curl`, con un guion añadido al nombre del ejecutable para elegir a quién imita: el de Chrome,
+   el de Edge, el de Safari o el de Firefox.
+3. Las mismas opciones de siempre —`-o`, `-H`, `-L`— valen igual.
+
+### Lo que conviene saber antes
+
+Su último cambio es de **julio de 2024** y su última entrega, `v0.6.1`, de marzo de 2024: los navegadores
+han cambiado de versión muchas veces desde entonces, y la huella que imita se queda atrás. Licencia MIT.
+No es un descargador: es una herramienta para que otro programa pueda pasar por navegador. Y sirve para
+entender por qué tu descargador falla en una web concreta.
+
+### Cuándo no vale la pena
+
+Si el sitio no te bloquea, esto no cambia nada. Y si lo que quieres es bajar vídeo, no empieces por aquí:
+esto es fontanería, no una aplicación.
 
 <!-- GUIA:FIN -->

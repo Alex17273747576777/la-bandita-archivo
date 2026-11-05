@@ -44,10 +44,30 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Programa de terminal que busca películas, series y emisiones en directo, y las reproduce o descarga usando
+los reproductores que ya tienes instalados. La gracia es que no tiene interfaz gráfica: se maneja con el
+teclado y se ve igual en una terminal remota.
+
+### Cómo se usa
+
+1. Se instala desde la entrega `v0.1.28`, del 29 de octubre de 2026, o con el gestor de paquetes de tu
+   sistema si lo tiene.
+2. Al abrirlo, se busca por nombre; los resultados se navegan con las flechas.
+3. Al elegir uno se puede reproducir —delegando en el reproductor del sistema— o descargar el archivo.
+
+### Lo que conviene saber antes
+
+Tres cosas, y las tres importan. **Una:** la versión es `0.1.x`, o sea, que el proyecto aún no se considera
+terminado, pese a sus 2.764 estrellas. **Dos:** la fuente de donde saca el catálogo no es pública ni
+verificable aquí; este catálogo describe el programa y **no enlaza ninguna fuente de contenido**, y la
+decisión de qué se descarga con él es de quien lo use. **Tres:** buena parte de ese catálogo es material con
+derechos, así que el uso que se le dé es cosa tuya y de la ley de tu país. Licencia Apache-2.0.
+
+### Cuándo no vale la pena
+
+Si no vives en una terminal, la curva no compensa. Y si lo que quieres es ver algo hoy, un reproductor
+normal es más rápido que cualquier descarga.
 
 <!-- GUIA:FIN -->

@@ -42,10 +42,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Programa de terminal escrito en Go para bajar vídeo de bastantes sitios —los chinos, sobre todo— sin
+dependencias: un solo archivo ejecutable. Hace listas de reproducción, varias direcciones a la vez, reanudar
+y reintentar solo.
+
+### Cómo se usa
+
+1. Se instala desde el gestor de paquetes de tu sistema, con `go install`, o se baja el binario de la
+   entrega `v0.24.1`, del 6 de mayo de 2024.
+2. `lux` y la dirección muestra las calidades disponibles sin descargar nada.
+3. Con `-f` se elige la calidad; con `-p` se baja la lista entera; `-o` fija la carpeta.
+
+### Lo que conviene saber antes
+
+31.827 estrellas, licencia MIT, pero su entrega es de **mayo de 2024** y su último cambio, de marzo de 2026.
+Para sitios que cambian a menudo eso es un problema: cuando la web cambia, `lux` falla y no siempre hay
+prisa por arreglarlo. Es muy bueno en lo suyo —Go, un binario, sin instalar nada más— y flojo en
+actualidad.
+
+### Cuándo no vale la pena
+
+Si tu sitio principal es YouTube, `yt-dlp` lo cubre mejor y con más mantenimiento. `lux` se elige por sus
+sitios y por no necesitar intérprete.
 
 <!-- GUIA:FIN -->

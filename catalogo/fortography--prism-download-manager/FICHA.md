@@ -44,10 +44,31 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Gestor de descargas con conexiones en paralelo —hasta 32 por archivo, según su autor—, pensado para
+archivos grandes que se cortan: sobrevive a un cierre inesperado, a la suspensión del equipo y al cable
+desconectado, y retoma por el byte exacto donde se quedó. Trae además extensión de navegador y un botón
+que aparece sobre los vídeos de una página para bajarlos en MP4 o en MP3.
+
+### Cómo se usa
+
+1. Se instala la entrega `v1.2.4`, del 1 de noviembre de 2026, y se elige la carpeta de descargas.
+2. Se instala la extensión en el navegador; a partir de ahí, cada descarga del navegador se ofrece a Prism
+   en vez de irse por su cuenta.
+3. Para un vídeo incrustado se pasa el ratón por encima y se elige la calidad en el menú que aparece.
+
+### Lo que conviene saber antes
+
+El repositorio se creó el **15 de octubre de 2026**: tres semanas de vida y 752 estrellas. Es un proyecto
+que está empezando, escrito en Rust y con licencia MIT, y su propio texto promete bastante —«bonito»,
+«líquido», «rápido»—; eso es lo que dice su autor, no una medición. Si lo pruebas, que sea con archivos
+que puedas volver a bajar.
+
+### Cuándo no vale la pena
+
+Con archivos pequeños o con una conexión que no se cae nunca, 32 conexiones no cambian nada: el cuello de
+botella es el servidor, no tu programa. Y en Linux mucha gente acaba antes con el gestor que ya trae su
+escritorio.
 
 <!-- GUIA:FIN -->

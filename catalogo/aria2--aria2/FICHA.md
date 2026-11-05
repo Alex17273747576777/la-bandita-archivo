@@ -37,10 +37,31 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+El motor. Una orden que descarga por HTTP, HTTPS, FTP, SFTP y por enlaces de una sola vía, partiendo cada
+archivo en varios trozos y usando varias fuentes a la vez. No tiene ventana: se maneja por comandos o
+dejándolo como servicio y hablándole por su interfaz de control, que es lo que usan casi todas las ventanas
+de este racimo.
+
+### Cómo se usa
+
+1. Se instala desde el gestor de paquetes de tu sistema —está en todas las distribuciones— o se compila; la
+   última entrega etiquetada es `release-1.37.0`, del 15 de noviembre de 2023.
+2. Una descarga normal: `aria2c` seguido de la dirección y el número de conexiones (`-x 8 -s 8`).
+3. Para dejarlo de servicio se arranca con el control remoto activo y un secreto; desde ahí, `AriaNg` o
+   cualquier otra ventana se conecta a él.
+
+### Lo que conviene saber antes
+
+Que las entregas estén paradas desde 2023 **no significa abandono**: el repositorio recibe cambios en 2026
+y el programa está terminado, no a medias. Tiene 43.414 estrellas, licencia GPL-2.0 y 1.186 incidencias
+abiertas, la mayoría dudas de uso. No es un programa para principiantes: es la pieza que hay debajo de los
+programas para principiantes.
+
+### Cuándo no vale la pena
+
+Si no quieres abrir una terminal, no empieces por aquí: instala una de las ventanas del racimo, que ya lo
+llevan dentro. `aria2` se justifica en un servidor, en un equipo sin escritorio o para automatizar.
 
 <!-- GUIA:FIN -->

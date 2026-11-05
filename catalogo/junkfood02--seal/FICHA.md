@@ -42,10 +42,31 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Descargador de vídeo y audio para Android: pega una dirección y guarda el vídeo en la calidad que elijas o
+sólo el sonido en MP3. Por dentro es `yt-dlp`, así que hereda su lista de sitios, y su interfaz está
+pensada para el dedo y no para la terminal.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v1.13.1`. Ojo: esa entrega es del **16 de octubre de 2024**, aunque el
+   repositorio haya recibido cambios en 2026; el programa instalado no lleva dos años de arreglos.
+2. Se pega la dirección; Seal consulta la web y ofrece las calidades disponibles.
+3. Se elige vídeo o audio, se marca la carpeta y se descarga. Si el sitio necesita sesión, se puede pasar
+   la cookie del navegador.
+4. La primera vez que se usa una web que necesita combinar audio y vídeo, el programa pide un componente
+   extra y lo instala por su cuenta.
+
+### Lo que conviene saber antes
+
+Es el más conocido de su clase: 30.353 estrellas, GPL-3.0, y sirve en cualquier Android moderno. Pero la
+distancia entre la última entrega y el último cambio es el dato que de verdad importa aquí: si algo deja
+de funcionar porque la web cambió, el arreglo ya está en el código y no en la versión que se descarga.
+
+### Cuándo no vale la pena
+
+Para bajar una canción suelta cada mucho tiempo, hay aplicaciones más ligeras. Y si tu teléfono es viejo y
+con poca memoria, `yt-dlp` en una terminal de Android hace lo mismo gastando menos.
 
 <!-- GUIA:FIN -->

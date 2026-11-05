@@ -41,10 +41,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Pretendía ser un descargador universal escrito en Go, desde la terminal, con una sola orden para cualquier
+fuente. Fichado aquí por completitud del racimo, no por utilidad: su propio texto lo presenta como trabajo
+en curso.
+
+### Cómo se usa
+
+Según su documentación: compilación con las herramientas de Go y ejecución desde la terminal con la
+dirección del archivo.
+
+### Lo que conviene saber antes
+
+**Está parado desde mayo de 2019.** Tiene **50 estrellas**, **no tiene ninguna entrega publicada** y su
+licencia tampoco aparece reconocida por GitHub. No se ha probado, porque no hay nada que instalar: no hay
+binarios. No es un recurso recomendable en 2026 y esta ficha lo dice sin rodeos en lugar de disimularlo.
+
+### Cuándo no vale la pena
+
+Siempre, hoy. Para lo mismo y con mantenimiento: `wget2`, `aria2` o `curl`. Esta entrada se conserva para
+que quien llegue aquí sepa que el proyecto existió y en qué estado quedó, no para que lo use.
 
 <!-- GUIA:FIN -->

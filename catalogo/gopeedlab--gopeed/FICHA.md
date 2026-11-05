@@ -44,10 +44,31 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Gestor de descargas multiplataforma —escritorio, móvil y navegador— que además de HTTP acepta enlaces
+BitTorrent, magnet y ed2k. Está escrito en Go por dentro y Flutter por fuera, así que la misma aplicación
+existe en Android, en Windows y en macOS. Es de los pocos de este racimo con versión de teléfono seria.
+
+### Cómo se usa
+
+1. Se instala desde la última entrega, `v1.9.3`, publicada el **18 de marzo de 2026** pese a que el
+   repositorio sigue recibiendo cambios.
+2. Se pega la dirección o se abre el enlace desde el navegador; el programa pregunta dónde guardar y con
+   cuántas conexiones.
+3. En el móvil, la aplicación se queda escuchando y las descargas se añaden desde ahí o desde su extensión
+   de navegador.
+
+### Lo que conviene saber antes
+
+La entrega tiene **ocho meses** y el repositorio 356 incidencias abiertas: se usa mucho y se mantiene,
+pero conviene saber que lo que instalarás no es de esta semana. Licencia GPL-3.0. Sobre los enlaces
+BitTorrent y magnet, aquí no se enlaza ningún cliente ni ningún índice: se nombran, se explican y se deja
+fuera todo lo demás.
+
+### Cuándo no vale la pena
+
+Si sólo descargas por HTTP desde Linux, `aria2` y una ventana para manejarlo ocupan menos y consumen menos.
+Gopeed se justifica cuando quieres **la misma aplicación** en el teléfono y en el ordenador.
 
 <!-- GUIA:FIN -->

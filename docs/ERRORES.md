@@ -68,6 +68,8 @@ la publicación.
 
 | E46 | 5-nov | Catálogo, primera pasada | Un catálogo de 279 recursos generado de golpe salió con **una frase plantilla repetida en 49 fichas** y con **tres recursos que no existían** —nombres que supuse y que no están en GitHub—. El linter los cazó: 54 fallos. | el propio linter antes de publicar | H27 |
 
+| E47 | 5-nov | Catálogo, racimo `descargas` | En `tools/guias_descargas.py` la clave de un recurso estaba escrita a mano como `nuget/uget` cuando el slug medido es `uget/uget`. El programa no falló: escribió **29 de 30** y siguió. Sin el contador al final, la guía que faltaba se habría quedado en blanco sin que nadie lo notara. | el propio contador de la herramienta, antes de commitear | H28 |
+
 ## Cómo se usa este registro
 
 1. Antes de escribir una pieza nueva se leen los errores de su misma familia.

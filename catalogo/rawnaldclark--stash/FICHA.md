@@ -44,10 +44,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Aplicación de Android que toma tus listas de música de dos servicios conocidos y las **trae al teléfono**:
+las descarga, las mantiene ordenadas y las reproduce, con las mezclas diarias incluidas y audio de alta
+resolución cuando el archivo lo trae. Es una biblioteca musical local construida a partir de lo que ya
+escuchas.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v0.9.123`, del 3 de noviembre de 2026.
+2. Se conectan las cuentas de los servicios en ajustes; el programa lee las listas y busca las pistas.
+3. Se elige qué listas bajar y con qué calidad; lo descargado queda disponible sin conexión.
+
+### Lo que conviene saber antes
+
+Dos avisos. **El primero:** la versión es `0.9.x`, todavía por debajo de la 1.0, y cambia casi a diario
+—tres entregas en una semana—, así que es un programa que se está haciendo. **El segundo:** que un archivo
+se pueda descargar no significa que su licencia lo permita; la aplicación facilita la operación, la
+responsabilidad de lo que guardes es de quien la usa. Licencia GPL-3.0.
+
+### Cuándo no vale la pena
+
+Si no pagas ninguno de esos dos servicios, no hay biblioteca que traer. Y si te basta con escuchar en línea,
+descargar sólo te complica la vida.
 
 <!-- GUIA:FIN -->

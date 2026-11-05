@@ -43,10 +43,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Descargador de vídeo y audio para Android con la idea contraria a la de sus competidores: en vez de
+esconder el motor, deja al usuario elegir y actualizar cada pieza por separado —el intérprete de Python, el
+motor de JavaScript, `FFmpeg` y `aria2c`—. Cuando una web cambia y algo deja de funcionar, se actualiza el
+componente y se sigue, sin esperar a que salga versión.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v1.9.1.1`, del 19 de octubre de 2026.
+2. En ajustes, sección de componentes, se descargan las piezas: Python, `FFmpeg` y, si quieres, `aria2c`.
+3. Se pega la dirección, se eligen formato y calidad, y se descarga. Tiene cola, descargas simultáneas y
+   guarda el historial.
+
+### Lo que conviene saber antes
+
+10.974 estrellas, GPL-3.0, escrita en Kotlin y con desarrollo diario. Es más exigente que `Seal` al
+principio —hay que entender qué es cada componente— y a cambio envejece mejor. Su web propia mantiene la
+documentación al día.
+
+### Cuándo no vale la pena
+
+Si quieres instalar y usar, sin tocar nada más, `Seal` es más corto. YTDlnis se justifica cuando descargas
+mucho y de sitios variados, o cuando te has cansado de que una aplicación deje de funcionar de golpe.
 
 <!-- GUIA:FIN -->

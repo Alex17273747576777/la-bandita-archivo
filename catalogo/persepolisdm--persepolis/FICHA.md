@@ -43,10 +43,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Gestor de descargas con ventana, escrito en Python, para Linux, BSD, macOS y Windows. Su rasgo propio es que
+puede añadir una descarga a un programa de cola —`aria2` u otro— en vez de hacerla él, y que cuida la
+integración con el entorno: icono de bandeja y notificaciones del sistema.
+
+### Cómo se usa
+
+1. En Linux se instala desde el paquete de la distribución o con el instalador de su web; la entrega es la
+   `5.2.0`, del 14 de julio de 2025.
+2. Se pega la dirección y se elige si la descarga la hace el propio programa o se delega en el motor.
+3. En ajustes se fijan conexiones, carpeta y comportamiento de la cola.
+
+### Lo que conviene saber antes
+
+Su último cambio es de **octubre de 2025** y su entrega, de julio de 2025: lleva un año sin movimiento, con
+7.491 estrellas y 320 incidencias abiertas. Como el programa está en Python, arrastra las versiones de las
+bibliotecas de tu sistema, y es lo primero que se rompe tras una actualización grande de la distribución.
+Licencia GPL-3.0.
+
+### Cuándo no vale la pena
+
+Si no usas Linux ni BSD, hay opciones más vivas. Y si ya usas `aria2`, esta ventana añade comodidad pero no
+capacidad: el motor es el mismo.
 
 <!-- GUIA:FIN -->

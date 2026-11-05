@@ -43,10 +43,31 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Ventana para `yt-dlp` y `FFmpeg` en el escritorio: las dos herramientas de siempre, pero sin escribir
+órdenes ni recordar opciones. Se pega la dirección, se elige formato y calidad, y el programa arma por
+debajo la orden que haría falta escribir a mano.
+
+### Cómo se usa
+
+1. Se descarga la entrega `v1.9.1`, del 4 de noviembre de 2026, para Windows, macOS o Linux.
+2. Se pega la dirección en la barra de arriba y se pulsa analizar; el programa pregunta a la web qué
+   calidades hay y las lista.
+3. Se marca la que quieras —vídeo, solo audio, o los dos— y se le da a descargar. La cola permite varias
+   cosas a la vez y deja el historial a la vista.
+
+### Lo que conviene saber antes
+
+Está escrito en Go, con licencia MIT, y es de **agosto de 2026**: joven, aunque con 1.201 estrellas y
+entregas muy seguidas. Su interfaz y su documentación están en chino y en inglés; el español no aparece.
+Su propio texto, que aquí se copia sin adornos, se parece más a un anuncio de formas de donar que a una
+descripción del programa, así que de la ficha no se puede sacar más de lo medido.
+
+### Cuándo no vale la pena
+
+Si ya usas `yt-dlp` en una terminal, esto te ahorra la memoria de las opciones y te quita el control fino.
+Y si vas a descargar tres cosas al año, la versión web de cualquier servicio hace lo mismo sin instalar
+nada.
 
 <!-- GUIA:FIN -->

@@ -39,10 +39,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+La misma idea que su versión de escritorio, en Android: una pantalla para manejar `aria2` desde el teléfono,
+con `aria2` incluido, cola de descargas y tema oscuro.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v1.3.1`, del **18 de abril de 2021**.
+2. Se pega la dirección y se pulsa añadir; la descarga sigue aunque cierres la pantalla.
+3. En ajustes se cambia el número de conexiones y la carpeta, que por defecto es la del almacenamiento
+   compartido.
+
+### Lo que conviene saber antes
+
+Está **parado desde enero de 2023** y su última entrega tiene más de cinco años. Además su propio proyecto
+marca varias funciones como pendientes y arrastra un fallo conocido: hay que pausar una tarea para que
+guarde el progreso. En un Android actual puede fallar por permisos de almacenamiento, que han cambiado
+desde 2021. Licencia MIT.
+
+### Cuándo no vale la pena
+
+Salvo que ya lo conozcas y te sirva para archivos directos, hoy no: `Gopeed` o `YTDLnis` hacen lo mismo en
+el teléfono y siguen vivos.
 
 <!-- GUIA:FIN -->

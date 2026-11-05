@@ -43,10 +43,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Gestor de descargas con ventana y extensión de navegador, con una idea muy clara: **la descarga se captura
+donde nace**. La extensión detecta el archivo o el vídeo en la página y lo pasa al programa, que lo baja en
+varios trozos y lo retoma exacto si se corta.
+
+### Cómo se usa
+
+1. Se instala la entrega `v9.0.9`, del 1 de noviembre de 2026, y su extensión desde la tienda del navegador
+   que uses.
+2. La primera vez, la extensión pide permiso para enviar las descargas al programa; a partir de ahí, cada
+   descarga del navegador pasa por XDM.
+3. Para un vídeo incrustado, el botón de la extensión se ilumina y ofrece las calidades detectadas.
+
+### Lo que conviene saber antes
+
+Es veterano —8.301 estrellas, con entregas desde 2013— y sigue vivo, con entrega de este mes. Está escrito
+en Kotlin y su licencia es GPL-3.0. Su instalación en Linux tiene más pasos que en Windows, y la extensión
+puede pedir más permisos de los que apetece darle: se instala a sabiendas o no se instala.
+
+### Cuándo no vale la pena
+
+Si tu navegador ya baja bien y no te importa no reanudar, esto es una capa más. Y si no quieres una
+extensión con acceso a todas las pestañas, no es para ti.
 
 <!-- GUIA:FIN -->

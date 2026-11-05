@@ -44,10 +44,31 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Gestor de descargas con ventana propia, cómodo para el uso diario: HTTP, FTP y enlaces de una sola vía, con
+cola, categorías por tipo de archivo, límite de velocidad y bandeja del sistema. Por debajo lleva `aria2`,
+así que la fiabilidad viene de ahí y lo que añade es la comodidad.
+
+### Cómo se usa
+
+1. Se instala la entrega `v2.3.0`, publicada **hoy mismo, 5 de noviembre de 2026**, con paquetes para
+   Windows, macOS y Linux.
+2. Se elige la carpeta de descargas y, si quieres, se instala la extensión del navegador para que capture
+   los enlaces.
+3. Las descargas se añaden pegando la dirección o arrastrando el archivo; la cola de la izquierda agrupa
+   por tipo.
+
+### Lo que conviene saber antes
+
+Es el más usado de su clase en escritorio: 57.830 estrellas y 5.135 bifurcaciones. GitHub **no le reconoce
+la licencia** —aparece como «NOASSERTION»—, aunque su proyecto declare que es abierta; si la licencia te
+importa para reutilizar código, mira el archivo antes de fiarte. Y hay un detalle de familia: su autor
+impulsa también `rayburst`, el antiguo Motrix Next, que hoy va por separado.
+
+### Cuándo no vale la pena
+
+En un equipo con poca memoria, `aria2` a secas gasta una cuarta parte. Y en Linux, si sólo bajas cosas de
+vez en cuando, el gestor del escritorio ya lo hace.
 
 <!-- GUIA:FIN -->

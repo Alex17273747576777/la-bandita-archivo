@@ -44,10 +44,30 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+La ventana web de referencia para `aria2`: una página que se conecta al motor y lo maneja entera —cola,
+progreso por archivo, velocidad, historial, ajustes del propio `aria2`— sin instalar nada más que un
+archivo. Es la que más se usa cuando `aria2` corre en un servidor o en un equipo sin escritorio.
+
+### Cómo se usa
+
+1. Se descarga el paquete de la entrega `1.3.15`, del 5 de octubre de 2026, y se sirve como página, o se
+   usa la versión publicada en su web.
+2. Se configura la dirección del motor y el secreto; si están en la misma máquina, basta el valor por
+   defecto.
+3. Ya se pueden añadir descargas, cambiar la velocidad global y ver el reparto de conexiones.
+
+### Lo que conviene saber antes
+
+13.272 estrellas, licencia MIT, y sigue viva: la última entrega es de este octubre. Hay dos versiones, una
+completa y otra mínima, y también compilaciones diarias para quien quiera lo último. Su punto débil es el
+de todas: si expones el control de `aria2` en una red abierta, cualquiera manda en tu equipo. Secreto largo
+y acceso cerrado.
+
+### Cuándo no vale la pena
+
+Si no tienes `aria2` funcionando, esto no hace nada: es la ventana, no el motor. Y si usas el escritorio con
+ventanas propias como `Motrix`, tener otra pestaña abierta para lo mismo es un estorbo.
 
 <!-- GUIA:FIN -->

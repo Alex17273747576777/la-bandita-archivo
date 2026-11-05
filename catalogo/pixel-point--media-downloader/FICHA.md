@@ -43,10 +43,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Aplicación nativa para macOS que descarga vídeo **y lo recorta en la misma ventana**: se pega la dirección,
+se elige la calidad y, antes de guardar, se marcan los minutos de entrada y salida. Para bajar un fragmento
+de una charla larga sin abrir un editor aparte.
+
+### Cómo se usa
+
+1. Se instala la entrega `v0.2.0`, del 7 de mayo de 2026, en un Mac.
+2. Se pega la dirección y se espera a que analice las calidades.
+3. Se elige la calidad, se marcan los extremos del recorte y se guarda.
+
+### Lo que conviene saber antes
+
+**No declara licencia**, así que no se sabe qué se puede hacer con su código. Su versión es `0.2.0` y su
+último cambio, el mismo día de la entrega: **mayo de 2026**, sin movimiento desde entonces. Es un proyecto
+pequeño —1.220 estrellas— y con una sola plataforma: fuera de macOS no existe.
+
+### Cuándo no vale la pena
+
+Si no tienes Mac, no hay nada que hablar. Y si tienes Mac y no necesitas recortar, `yt-dlp` instalado con
+un gestor de paquetes hace lo mismo y se mantiene solo.
 
 <!-- GUIA:FIN -->

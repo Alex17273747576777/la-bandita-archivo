@@ -43,10 +43,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Aplicación de escritorio que junta dos cosas que suelen ir separadas: una biblioteca de lo que descargas
+—con ficha, portada y orden propio— y las descargas en sí, incluidas las que detecta mientras navegas.
+Además funciona como cliente de YouTube y de fuentes de sindicación, de modo que puedes ver algo y guardarlo
+desde la misma pantalla.
+
+### Cómo se usa
+
+1. Se instala la entrega `v1.0.4`, del 27 de julio de 2026.
+2. Se pega la dirección en la barra de búsqueda o se navega por las fuentes que trae.
+3. Lo descargado entra en la biblioteca, donde se etiqueta y se ordena.
+
+### Lo que conviene saber antes
+
+Su último cambio fue el **27 de julio de 2026**: tres meses sin tocarlo, con 759 estrellas y licencia
+Apache-2.0. Su documentación está en chino. Y la versión es 1.0.4, es decir, el proyecto aún está
+asentándose. Es de los pocos del racimo que piensa en la biblioteca y no sólo en la cola.
+
+### Cuándo no vale la pena
+
+Si sólo quieres bajar archivos sueltos, aquí hay demasiadas cosas encima. Y si tu biblioteca ya vive en
+otro sitio —un servidor de medios, por ejemplo— no vas a querer una segunda.
 
 <!-- GUIA:FIN -->

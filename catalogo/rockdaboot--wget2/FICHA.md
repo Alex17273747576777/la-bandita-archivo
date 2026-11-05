@@ -42,10 +42,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+El sucesor de `wget`: descarga archivos y **sitios completos**, con soporte de conexiones en paralelo,
+compresión y reanudación. Es la herramienta de terminal para espejar una web entera o para automatizar
+descargas dentro de un guion.
+
+### Cómo se usa
+
+1. Está en el gestor de paquetes de casi todas las distribuciones; si no, se compila. La entrega es la
+   `v2.3.0`, del 21 de septiembre de 2026.
+2. Un archivo: `wget2` y la dirección. Un sitio: `--recursive` con los límites que quieras —profundidad,
+   tipo de archivo, dominio.
+3. Con `--continue` se retoma lo cortado y con `--max-threads` se fija el paralelismo.
+
+### Lo que conviene saber antes
+
+El desarrollo principal vive en **GitLab**, no aquí: este repositorio es un espejo que acepta
+contribuciones, y así lo dice su propio texto. 800 estrellas, licencia LGPL-3.0. Para espejar un sitio hay
+que ser cuidadoso: sin límites, `wget2` se trae la web entera y también lo que no querías.
+
+### Cuándo no vale la pena
+
+Para bajar un archivo suelto, `curl` es más corto de recordar. Y contra sitios que generan el contenido al
+vuelo, un espejo no sirve: se trae el cascarón.
 
 <!-- GUIA:FIN -->

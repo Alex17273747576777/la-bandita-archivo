@@ -37,10 +37,30 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Programa de escritorio para bajar vídeos y listas **sólo de YouTube**: vídeo suelto, lista entera o el
+canal, en la calidad y el contenedor que elijas, con carátula y metadatos dentro del archivo cuando el
+formato lo admite.
+
+### Cómo se usa
+
+1. Se descarga la entrega `1.17.1`, del 25 de octubre de 2026, para Windows, macOS o Linux.
+2. Se pega la dirección del vídeo o de la lista en la caja de arriba y se pulsa buscar.
+3. Se elige entre vídeo y sólo audio, la calidad y la carpeta; si es una lista, se pueden marcar elementos
+   concretos en lugar de bajarla entera.
+
+### Lo que conviene saber antes
+
+Tiene 16.631 estrellas, licencia MIT y está escrito en C#: eso significa que en Linux necesita el entorno
+de .NET o la versión publicada como ejecutable autónomo. Su alcance es deliberadamente estrecho —YouTube y
+nada más—, cosa que a cambio le permite cuidar los detalles de esa única web. Su repositorio no trae texto
+de presentación medido: lo que se sabe de él es lo que declara su descripción y lo que se ve en sus
+entregas.
+
+### Cuándo no vale la pena
+
+Fuera de YouTube no sirve, y si tu lista de sitios es larga acabarás necesitando `yt-dlp` igualmente. Para
+bajar dos vídeos en Windows, es más rápido que cualquier instalación.
 
 <!-- GUIA:FIN -->

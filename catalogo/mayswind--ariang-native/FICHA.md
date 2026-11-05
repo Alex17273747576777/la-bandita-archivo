@@ -43,10 +43,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+La misma ventana que `AriaNg`, pero empaquetada como programa de escritorio: se abre como una aplicación
+más, arranca `aria2` si hace falta y añade lo que una página no puede —abrir un torrente o un metalink
+desde el explorador de archivos, y abrir la carpeta de la descarga terminada.
+
+### Cómo se usa
+
+1. Se instala la entrega `1.3.15`, del 5 de octubre de 2026; hay paquete para Windows, macOS y Linux.
+2. Al abrir, busca un `aria2` local; si no lo encuentra, se le indica dónde está o se deja que lo use
+   incluido.
+3. Se arrastra el archivo de torrente a la ventana, o se pasa la dirección desde el navegador.
+
+### Lo que conviene saber antes
+
+2.729 estrellas, MIT, del mismo autor que `AriaNg` y con la misma numeración de versión: lo que aprendas en
+una vale en la otra. Su ventaja sobre el motor suelto es que aquí, al terminar, puedes abrir la carpeta con
+un clic. Su desventaja es el peso: lleva un navegador entero dentro.
+
+### Cuándo no vale la pena
+
+En un equipo con poca memoria, la versión web conectada al motor gasta mucho menos. Y si ya usas `Motrix` o
+`Gopeed`, esto es otra aplicación para lo mismo.
 
 <!-- GUIA:FIN -->

@@ -41,10 +41,27 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+No es una aplicación: es una **biblioteca para programadores** que quieran meter `yt-dlp` dentro de su app
+de Android sin pelearse con Python. Trae los binarios y un envoltorio para llamarlos desde Java o Kotlin.
+
+### Cómo se usa
+
+1. Se añade como dependencia en el proyecto de Android, siguiendo lo que indica su documentación.
+2. Se inicializa la biblioteca en la aplicación, que descarga las piezas la primera vez.
+3. Desde el código se lanza una orden de `yt-dlp` y se recoge la salida para mostrarla en tu interfaz.
+4. El archivo de configuración se coloca como `config.txt` dentro de la carpeta de la biblioteca.
+
+### Lo que conviene saber antes
+
+1.381 estrellas, GPL-3.0, último cambio en **noviembre de 2025**. **No tiene entregas** porque no es un
+programa: se integra en el tuyo. Y si lo integras, heredas su licencia y su mantenimiento: cuando una web
+cambie, tendrás que actualizar tú.
+
+### Cuándo no vale la pena
+
+Si no programas para Android, no hay nada que hacer con esto. Y si programas, valora antes si te conviene
+llevar Python dentro de tu aplicación: pesa y complica la publicación en la tienda.
 
 <!-- GUIA:FIN -->

@@ -42,10 +42,32 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Un navegador Chromium para Android **sin la parte de Google**: sin inicio de sesión, sin telemetría, sin
+los añadidos de inteligencia artificial que Chromium trae hoy. A cambio mantiene lo que casi ningún
+navegador de Android conserva: extensiones de escritorio y un bloqueador instalado desde el primer día.
+En este racimo entra por lo suyo de descargas: guarda el vídeo que la página intenta no dejar guardar y
+deja elegir con qué descargador lo hace.
+
+### Cómo se instala
+
+1. La entrega es la `v1.0.1`, del 21 de octubre de 2026; se instala la APK.
+2. Al abrir por primera vez se importa el marcador que quieras y se revisa el bloqueador, que ya va puesto.
+3. Para descargar un vídeo incrustado se mantiene pulsado sobre él o se usa el menú del propio navegador;
+   si hay un gestor de descargas instalado, se puede mandar ahí.
+
+### Lo que conviene saber antes
+
+El proyecto nació en **agosto de 2026** y tiene **125 incidencias abiertas** con 714 estrellas: mucha gente
+probándolo a la vez y bastante sin resolver todavía. La licencia BSD-3-Clause permite reutilizarlo. No
+sustituye a tu banco, ni a la aplicación de tu trabajo, ni a nada donde guardes sesiones: un navegador
+recién nacido no es todavía un sitio donde dejar las contraseñas.
+
+### Cuándo no vale la pena
+
+Si no te importan las extensiones en el móvil y Chrome o Firefox ya te sirven, es un cambio de navegador
+para ganar dos cosas concretas. Y si lo que quieres es descargar vídeo de páginas, hay aplicaciones de este
+mismo racimo que lo hacen mejor y sin cambiar de navegador.
 
 <!-- GUIA:FIN -->

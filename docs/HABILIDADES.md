@@ -393,3 +393,22 @@ LBT=… python3 tools/envio.py --medir --generar --verificar
 make ritual                                    # verificar y después sellar
 git commit && git push                         # y esperar el CI
 ```
+
+## H28 · Que la herramienta cuente lo que ha hecho, y leer el número
+
+**Origen:** E47. Una clave mal escrita no produce ningún error: produce silencio.
+
+Toda herramienta que escribe de golpe sobre muchos archivos termina imprimiendo **cuántos de cuántos**. El
+número no es decoración: es la única señal de que el trabajo está completo. `29 de 30` es un fallo, no un
+éxito parcial.
+
+La comprobación, en este orden:
+
+```
+python3 tools/guias_descargas.py        # debe decir «30 de 30»
+python3 tools/catalogo_ficha.py --indice # 105 con guía escrita
+python3 tools/catalogo_lint.py          # 0 fallos
+```
+
+Y cuando la herramienta avisa `! sin medir en el racimo`, el nombre que imprime es el dato: se copia de
+`recursos.json` y se vuelve a medir el slug, nunca se escribe de memoria.

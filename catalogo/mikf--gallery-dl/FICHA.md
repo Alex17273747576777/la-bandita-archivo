@@ -37,10 +37,30 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Descargador de **colecciones de imágenes**, no de vídeos: recorre un perfil, un álbum o una etiqueta de un
+sitio de imágenes y se trae todo, con los nombres y la estructura de carpetas que le pidas. Es la
+herramienta de referencia para archivar galerías enteras sin ir clic a clic.
+
+### Cómo se usa
+
+1. Se instala con `pip install gallery-dl`, o desde el gestor de paquetes de tu sistema.
+2. `gallery-dl` y la dirección del perfil o del álbum: descarga lo que encuentra con la configuración por
+   defecto.
+3. Con un archivo de configuración se ajustan carpeta, nombre de archivo, filtros por etiqueta, número de
+   elementos y cookies para lo que exige sesión.
+
+### Lo que conviene saber antes
+
+20.384 estrellas, GPL-2.0, entrega `v1.32.19` del 31 de octubre de 2026 y **1.085 incidencias abiertas**:
+se usa muchísimo y se mantiene al día. No publica binarios —su entrega no lleva adjuntos—, así que se
+instala como paquete de Python. Cada sitio tiene sus límites; su documentación los explica uno por uno y
+conviene leerla antes de lanzarlo contra un perfil con miles de imágenes.
+
+### Cuándo no vale la pena
+
+Para cuatro imágenes, cualquiera lo hace a mano. Y contra un sitio que no permite descargar en serie, esto
+tampoco: ni es lo que promete ni es lo que quieres.
 
 <!-- GUIA:FIN -->

@@ -58,3 +58,32 @@ lado, y cuando un proyecto está parado o en `alpha` se escribe en la guía, no 
 **Lo que no se ha hecho y no se va a fingir.** No se ha instalado ninguna de las 75. La guía dice cómo se
 usa según el propio proyecto, no según una prueba propia; el apartado «Qué no está verificado» de cada
 ficha lo repite en cada una.
+
+## Tercera tanda · racimo `descargas` completo (30 recursos)
+
+Las **30 guías** del racimo `descargas`, escritas a mano una por una: motores de terminal (`aria2`, `axel`,
+`wget2`, `lux`, `you-get`, `gallery-dl`, `N_m3u8DL-RE`, `curl-impersonate`, `youtubedl-android`), ventanas
+para el motor (`AriaNg`, `AriaNg-Native`, `yaaw`, `aria-ng-gui`, `aria-ng-gui-android`), gestores de
+escritorio (`Motrix`, `rayburst`, `gopeed`, `prism-download-manager`, `persepolis`, `xdm`, `uget`), los de
+vídeo por web (`yt-dlp` como dependencia de casi todos, `Seal`, `YTDLnis`, `YoutubeDownloader`, `Downvid`,
+`MovieBox-Tui`, `media-downloader`, `xiadown`), y los dos que entran por la puerta de al lado
+(`bare-browser`, el navegador que descarga, y `Stash`, la biblioteca musical que se trae las listas).
+
+**Total del catálogo:** **105 fichas con guía escrita** de 278 medidas · **173 esperando guía** ·
+`catalogo_lint` **0 fallos**.
+
+**Lo que este racimo obligó a decir en voz alta.** Tres recursos de esta lista están **parados** y así están
+escritos: `aria-ng-gui` desde 2020, `aria-ng-gui-android` desde 2023, `uget` desde 2019. Dos **no declaran
+licencia** (`yaaw`, `media-downloader`). Dos tienen la **entrega muy por detrás del código** (`Seal`, entrega
+de octubre de 2024 y cambios en 2026; `persepolis`, un año parado) y eso se explica en la guía, no en una
+nota al pie. Y cinco son **de 2026**, con meses de vida: `rayburst`, `prism-download-manager`, `bare-browser`,
+`downvid`, `xiadown`; en sus guías se dice la fecha de creación al lado de las estrellas, porque un número de
+estrellas sin fecha es una cifra disfrazada.
+
+**Vetos respetados.** Se nombran enlaces de una sola vía y no se enlaza ningún cliente de torrentes, ni
+ningún índice, ni ninguna lista de fragmentos o de canales. Comprobado con `grep` sobre las 30 fichas: cero
+coincidencias.
+
+**Lo que no está verificado.** Ninguno de los 30 se ha instalado. La ficha lo repite, y la guía distingue
+siempre entre lo que hace el programa según quien lo hace y lo que se ha comprobado aquí, que es su estado
+en GitHub.
