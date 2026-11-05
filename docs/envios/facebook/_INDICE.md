@@ -10,7 +10,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 02 | La musica que no se cae seis grandes con cincuenta y siete mil trescie | 20 | 3633 | 22 | 0 | no | `02-La-musica-que-no-se-cae-seis-grandes-con-cincuenta-y-siete-mil-trescientas-sesenta-y-tres-estrellas-que-no-firman-nada-y-seis-recien-nacidos-que-si-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 03 | La caja fuerte del bolsillo: una de catorce te da la huella, cuatro ll | 19 | 3526 | 14 | 0 | no | `03-La-caja-fuerte-del-bolsillo-una-de-catorce-te-da-la-huella-cuatro-llevan-anos-paradas-y-dos-se-reservan-los-derechos-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 04 | La lista del permiso: seis de veintiséis dan la huella, trece nacieron | 20 | 3645 | 26 | 0 | no | `04-La-lista-del-permiso-seis-de-veintiseis-dan-la-huella-trece-nacieron-en-el-trimestre-y-el-tronco-lleva-quinientos-cuatro-dias-sin-empujar-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
-| 05 | La guía maestra: doce capítulos, setenta fichas medidas hoy y veintidó | 19 | 3946 | 31 | 0 | no | `05-La-guia-maestra-doce-capitulos-sesenta-y-seis-cifras-que-se-movieron-y-veintidos-fichas-que-te-dan-con-que-comprobar-el-archivo-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
+| 05 | La guía maestra: doce capítulos, setenta fichas medidas hoy y veintidó | 19 | 3937 | 31 | 0 | no | `05-La-guia-maestra-doce-capitulos-sesenta-y-seis-cifras-que-se-movieron-y-veintidos-fichas-que-te-dan-con-que-comprobar-el-archivo-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 06 | El taller de los parches: los gestores firman cincuenta y cinco de sus | 18 | 3653 | 18 | 0 | no | `06-El-taller-los-gestores-de-parches-firman-cincuenta-y-cinco-de-sus-ciento-noventa-archivos-y-los-conjuntos-de-parches-no-firman-ninguno-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 07 | La pantalla grande y la casa que no hace ruido: cinco gigantes sin un  | 17 | 3626 | 17 | 0 | no | `07-La-pantalla-grande-y-la-casa-que-no-hace-ruido-cinco-gigantes-sin-un-solo-adjunto-y-cinco-proyectos-de-un-mes-que-firman-el-suyo-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 08 | La red: seis caminos, seis precios — el programa más nuevo del tema sa | 17 | 3625 | 20 | 0 | no | `08-La-red-seis-caminos-seis-precios-el-programa-mas-nuevo-del-tema-saca-ochenta-y-los-dos-mas-instalados-no-firman-nada-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
@@ -24,7 +24,8 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 16 | El torrent que no se rinde: veintidós piezas medidas hoy —nueve de 202 | 17 | 3683 | 4 | 0 | no | `16-El-torrent-que-no-se-rinde-veintidos-piezas-medidas-hoy-nueve-de-2026-y-la-proporcion-de-firma-mas-baja-del-ano-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 17 | El teclado que escribe por ti treinta y cuatro teclados y dictados med | 20 | 3928 | 33 | 0 | no | `17-El-teclado-que-escribe-por-ti-treinta-y-cuatro-teclados-y-dictados-medidos-hoy-diez-de-2026-y-la-proporcion-de-firma-mas-alta-del-ano-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 18 | La radio y el directo: treinta y dos piezas medidas hoy —el enlace que | 22 | 3874 | 33 | 1 | no | `18-La-radio-y-el-directo-treinta-y-dos-piezas-medidas-hoy-el-enlace-que-dura-un-minuto-y-la-guia-que-hay-que-mantener-a-mano-Facebook-La-Bandita-2026-11-05-dominicano-ES` |
+| 19 | Las tiendas de extensiones, con el listón arriba: veinte piezas medida | 19 | 3506 | 19 | 0 | no | `19-Las-tiendas-de-extensiones-con-el-liston-arriba-veinte-piezas-medidas-hoy-5481-extensiones-contadas-y-diez-repositorios-que-no-se-indexan-Facebook-La-Bandita-2026-11-05-dominicano-ES` |
 
-**18 piezas · 349 mensajes** · el mayor de todos: 3946 caracteres.
+**19 piezas · 368 mensajes** · el mayor de todos: 3937 caracteres.
 
 

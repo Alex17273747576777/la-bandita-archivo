@@ -24,6 +24,7 @@ puede perder. Cada una nace de un error concreto de `docs/ERRORES.md`, y si el e
 | H21 | **El historial y el ecosistema se revisan antes de sondear** | E41 + regla del dueño | `tools/preflight.py --tema` | el punto de partida de cada pieza |
 | H22 | **El almacén es GitHub; el disco de trabajo es efímero** | E41 | `git push` en el mismo turno · talleres en `docs/talleres/` | todos los resultados |
 | H23 | **La cifra se busca en el diccionario que la tiene** | E42 | `E` = escrutinio (sumas, adjuntos, commits, incidencias) · `R` = medición (estrellas, entregas, licencia, días) · `python3 b16.py` antes de ensamblar | cada taller nuevo |
+| H24 | **Una tienda se cuenta, no se cita** | E43 | `repo.json` → `index.json` → contar entradas · `archived` y `pushed_at` de la API · `signingKey` · seguir la redirección · leer la descripción del autor | cada lista de repositorios o tiendas |
 | H17 | **La madurez se declara ficha a ficha** | E37 | `python3 tools/novedad_gate.py` | M25 |
 
 ## H01 · Medir antes de tocar
@@ -316,6 +317,24 @@ no corre a la primera se arregla en el taller y no se toca el texto publicado.
 
 **Cómo se pierde.** Sustituyendo el `KeyError` por un `R.get(campo, 0)`: el texto sale, y con un cero
 donde había una cifra. Ese sí llega a la calle.
+
+## H24 · Una tienda se cuenta, no se cita
+
+**Nace de E43.** La lista de tiendas de extensiones que circulaba tenía seis cifras de seis mal,
+porque venía de una wiki que nadie volvía a medir. No hubo error de cálculo: hubo **cita sin
+comprobación**.
+
+**La regla.** Antes de nombrar una tienda se abren su `repo.json` y su índice, se cuentan las
+entradas, se mira si el repositorio está archivado, si el índice declara clave de firma y si la
+dirección que circula redirige a otra. Y antes de incluir un repositorio se lee su descripción: si
+el autor dice que no programa, que no hay soporte o que es un espejo, se cree al autor.
+
+**Lo que no se hace.** No se indexa por estrellas —hay un plugin de 24 estrellas con **una** sola
+extensión—, no se duplican clones renombrados y no se meten repositorios cuyo nombre es una
+dirección. **El listón sube con menos y mejores**, no con más enlaces.
+
+**Cómo se pierde.** Volcando: cuando una lista crece más rápido de lo que se comprueba, deja de ser
+una lista y pasa a ser ruido, y el trabajo de comprobarlo se le cae encima a quien la lee.
 
 ## El ritual completo, con las habilidades dentro
 

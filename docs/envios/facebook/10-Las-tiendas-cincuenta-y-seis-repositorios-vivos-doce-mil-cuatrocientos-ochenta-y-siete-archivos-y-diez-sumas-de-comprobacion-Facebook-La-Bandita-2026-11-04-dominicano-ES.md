@@ -507,7 +507,7 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 58 repositorios que cita esta pi
 • keiyoushi/extensions-source — ★4.865 · empujó en las últimas horas · Apache-2.0
 • yuzono/tachiyomi-extensions — ★958 · empujó el 2-nov-2026 (hace 3 días) · Apache-2.0
 • cuong-tran/manga-repo — ★468 · empujó el 2-nov-2026 (hace 3 días) · sin licencia detectada por la API · última release f7d844c-2 (2-nov-2026)
-• LittleSurvival/copymanga-copy20 — ★2.995 · empujó el 11-oct-2026 (hace 25 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
+• LittleSurvival/copymanga-copy20 — ★2.994 · empujó el 11-oct-2026 (hace 25 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • cofedream/extensions-copymanga — ★498 · *dormido*: sin empujar desde el 8-ago-2026 (89 días) · sin licencia detectada por la API · última release v1.4.11 (7-jun-2025)
 • FelipeGFA/extensoes — ★43 · empujó el 28-sep-2026 (hace 38 días) · sin licencia detectada por la API · última release d90cba1-2 (28-sep-2026)
 • mojuru/cursed-manga-repo — ★176 · empujó el 12-oct-2026 (hace 24 días) · sin licencia detectada por la API · última release 5dad5cf (12-oct-2026)

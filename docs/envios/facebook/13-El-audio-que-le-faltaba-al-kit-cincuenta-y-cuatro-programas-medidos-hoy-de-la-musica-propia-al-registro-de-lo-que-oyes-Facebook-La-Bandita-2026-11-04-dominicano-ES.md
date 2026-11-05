@@ -479,19 +479,19 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 52 repositorios que cita esta pi
 • supersonic-app/supersonic — ★2.416 · empujó el 19-oct-2026 (hace 17 días) · GPL-3.0 · última release v0.22.1 (9-ago-2026)
 • strawberrymusicplayer/strawberry — ★4.059 · empujó el 23-oct-2026 (hace 13 días) · GPL-3.0 · última release 1.2.31 (2-oct-2026)
 • quodlibet/quodlibet — ★1.771 · empujó el 24-oct-2026 (hace 12 días) · GPL-2.0 · última release release-4.7.1 (31-may-2025)
-• nukeop/nuclear — ★18.877 · empujó en las últimas horas · AGPL-3.0 · última release player@1.54.1 (4-nov-2026)
-• team-spotube/spotube — ★50.608 · empujó el 3-nov-2026 (hace 2 días) · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• nukeop/nuclear — ★18.878 · empujó en las últimas horas · AGPL-3.0 · última release player@1.54.1 (4-nov-2026)
+• team-spotube/spotube — ★50.609 · empujó el 3-nov-2026 (hace 2 días) · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
 • Taiko2k/Tauon — ★2.954 · empujó en las últimas horas · GPL-3.0 · última release v13.1.1 (30-oct-2026)
 • KDE/elisa — ★370 · empujó en las últimas horas · LGPL-3.0
 • harmonoid/harmonoid — ★4.801 · empujó en las últimas horas · NOASSERTION · última release v0.3.37 (4-nov-2026)
 • jeffvli/sonixd — ★1.907 · *dormido*: sin empujar desde el 17-feb-2024 (992 días) · GPL-3.0 · última release v0.15.5 (14-mar-2023) · *ARCHIVADO*
-• MetrolistGroup/Metrolist — ★14.025 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.790 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• MetrolistGroup/Metrolist — ★14.026 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.791 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • OuterTune/OuterTune — ★5.443 · empujó el 12-oct-2026 (hace 24 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
 • z-huang/InnerTune — ★6.139 · *dormido*: sin empujar desde el 13-nov-2025 (357 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • namidaco/namida — ★6.788 · empujó el 1-nov-2026 (hace 4 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
 • RetroMusicPlayer/RetroMusicPlayer — ★5.384 · empujó en las últimas horas · GPL-3.0 · última release v7.0.3 (13-ago-2026)
-• OxygenCobalt/Auxio — ★4.424 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
+• OxygenCobalt/Auxio — ★4.425 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
 • anandnet/Harmony-Music — ★3.087 · *dormido*: sin empujar desde el 8-dic-2025 (332 días) · GPL-3.0 · última release v1.12.2 (7-dic-2025)
 • vfsfitvnm/ViMusic — ★9.468 · *dormido*: sin empujar desde el 15-jul-2024 (843 días) · GPL-3.0 · última release v0.5.4 (4-nov-2022) · *ARCHIVADO*
 • advplyr/audiobookshelf — ★14.915 · empujó en las últimas horas · GPL-3.0 · última release v2.37.2 (23-oct-2026)
@@ -512,10 +512,10 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 52 repositorios que cita esta pi
 • acoustid/chromaprint — ★1.414 · empujó el 15-oct-2026 (hace 21 días) · NOASSERTION · última release v1.6.2 (15-oct-2026)
 • metabrainz/musicbrainz-server — ★1.112 · empujó el 3-nov-2026 (hace 2 días) · NOASSERTION
 • taglib/taglib — ★1.467 · empujó en las últimas horas · LGPL-2.1 · última release v2.3.2 (5-sep-2026)
-• FFmpeg/FFmpeg — ★66.532 · empujó en las últimas horas · NOASSERTION
+• FFmpeg/FFmpeg — ★66.534 · empujó en las últimas horas · NOASSERTION
 • GNOME/easytag — ★83 · empujó el 10-oct-2026 (hace 26 días) · GPL-2.0
-• yt-dlp/yt-dlp — ★205.364 · empujó en las últimas horas · Unlicense · última release 2026.10.26 (26-oct-2026)
-• imputnet/cobalt — ★45.812 · *dormido*: sin empujar desde el 6-abr-2026 (213 días) · AGPL-3.0
+• yt-dlp/yt-dlp — ★205.372 · empujó en las últimas horas · Unlicense · última release 2026.10.26 (26-oct-2026)
+• imputnet/cobalt — ★45.813 · *dormido*: sin empujar desde el 6-abr-2026 (213 días) · AGPL-3.0
 • librespot-org/librespot — ★7.368 · empujó el 21-oct-2026 (hace 15 días) · MIT · última release v0.8.0 (10-nov-2025)
 • Spotifyd/spotifyd — ★10.822 · *dormido*: sin empujar desde el 28-may-2026 (161 días) · GPL-3.0 · última release v0.4.2 (19-nov-2025)
 • MusicPlayerDaemon/MPD — ★2.812 · empujó en las últimas horas · GPL-2.0

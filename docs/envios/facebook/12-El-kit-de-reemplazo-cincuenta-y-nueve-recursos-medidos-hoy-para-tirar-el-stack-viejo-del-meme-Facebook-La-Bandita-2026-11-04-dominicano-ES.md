@@ -484,8 +484,8 @@ Y lo cuarto: **lo más nuevo no es lo mejor, pero es lo que está vivo**. El lan
 
 Medí otra vez, hoy 5 de noviembre de 2026, los 51 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• iptv-org/iptv — ★143.275 · empujó en las últimas horas · Unlicense
-• ImranR98/Obtainium — ★21.222 · empujó el 1-nov-2026 (hace 4 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• iptv-org/iptv — ★143.279 · empujó en las últimas horas · Unlicense
+• ImranR98/Obtainium — ★21.223 · empujó el 1-nov-2026 (hace 4 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • Accrescent/Accrescent — ★2.308 · empujó en las últimas horas · Apache-2.0 · última release 0.29.1 (4-nov-2026)
 • f-droid/fdroidclient — ★3.255 · empujó en las últimas horas · GPL-3.0 · última release 1.18.0 (24-ene-2024)
 • TrackerControl/tracker-control-android — ★2.723 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release 2026110101 (1-nov-2026)
@@ -494,7 +494,7 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 51 repositorios que cita esta pi
 • NuvioMedia/NuvioMobile — ★4.407 · empujó en las últimas horas · GPL-3.0 · última release 0.6.7-beta (4-nov-2026)
 • NuvioMedia/NuvioTV — ★3.368 · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
 • NuvioMedia/NuvioDesktop — ★1.937 · empujó en las últimas horas · GPL-3.0 · última release 0.1.34-alpha (2-nov-2026)
-• NuvioMedia/NuvioTVSmart — ★847 · empujó en las últimas horas · GPL-3.0 · última release 1.3.6 (2-nov-2026)
+• NuvioMedia/NuvioTVSmart — ★848 · empujó en las últimas horas · GPL-3.0 · última release 1.3.6 (2-nov-2026)
 • JJDizz1L/NuvioLinux-unofficial — ★51 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v0.1.34alpha-1 (2-nov-2026)
 • Viren070/AIOStreams — ★3.105 · empujó en las últimas horas · AGPL-3.0 · última release v2.37.0 (23-oct-2026)
 • alpinezx/easy-aiostreams — ★57 · empujó en las últimas horas · MIT · última release v1.5.2 (3-nov-2026)
@@ -508,7 +508,7 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 51 repositorios que cita esta pi
 • MegaNexusMediaPlayer/MegaNexus — ★34 · empujó en las últimas horas · NOASSERTION · última release v9.0.8 (4-nov-2026)
 • stupside/castor — ★2.528 · empujó el 28-oct-2026 (hace 8 días) · MIT · última release v2.5.0 (27-oct-2026)
 • grimmory-tools/grimmory — ★4.657 · empujó en las últimas horas · AGPL-3.0 · última release v3.5.0 (21-sep-2026)
-• readest/readest — ★25.965 · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
+• readest/readest — ★25.966 · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
 • koreader/koreader — ★30.878 · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
 • koodo-reader/koodo-reader — ★28.731 · empujó en las últimas horas · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
 • edrlab/thorium-reader — ★2.932 · empujó en las últimas horas · BSD-3-Clause · última release v3.5.1 (2-sep-2026)

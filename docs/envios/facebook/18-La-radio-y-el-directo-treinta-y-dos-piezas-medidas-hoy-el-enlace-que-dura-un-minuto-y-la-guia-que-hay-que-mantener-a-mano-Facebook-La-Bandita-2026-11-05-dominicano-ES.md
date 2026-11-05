@@ -509,7 +509,7 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 33 repositorios que cita esta pi
 • nevermore23274/AetherTune — ★129 · empujó el 26-oct-2026 (hace 10 días) · MIT · última release v0.12.0 (1-oct-2026)
 • ahXN00/OwnTV — ★729 · empujó en las últimas horas · GPL-3.0 · última release v5.2.1 (21-oct-2026)
 • yaolin-dev/OKVideoMac — ★119 · empujó en las últimas horas · GPL-3.0 · última release v0.9.2 (5-nov-2026)
-• Davidona/StreamVault-IPTV — ★1.000 · empujó el 2-nov-2026 (hace 3 días) · NOASSERTION · última release v1.2.4 (2-nov-2026)
+• Davidona/StreamVault-IPTV — ★1.002 · empujó el 2-nov-2026 (hace 3 días) · NOASSERTION · última release v1.2.4 (2-nov-2026)
 • bilipp/Lume — ★176 · empujó el 3-nov-2026 (hace 2 días) · AGPL-3.0 · última release v3.0.0 (1-nov-2026)
 • infinitel8p/Extreme-InfiniTV — ★208 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.9.0 (31-ago-2026)
 • clubanderson/clubTivi — ★108 · empujó el 1-nov-2026 (hace 4 días) · Apache-2.0 · última release weekly-2026.43 (1-nov-2026)

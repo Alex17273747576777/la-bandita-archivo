@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 76 tareas abiertas en 23 piezas vivas, numeradas dentro de cada pieza, de 007 a 086. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 80 tareas abiertas en 24 piezas vivas, numeradas dentro de cada pieza, de 007 a 090. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -88,6 +88,10 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 084 | probar iptv-doctor con una lista propia de canales abiertos y contar cuántos enlaces muertos quita y cuántos nombres de guía arregla. | Facebook · 18 | 2026-11-05 |
 | 085 | montar Icecast más AzuraCast en un equipo de casa y medir cuánto pesa una emisora de una sola calidad durante una hora. | Facebook · 18 | 2026-11-05 |
 | 086 | escribir la pieza 19 —el vídeo que abre todo— con el mismo método: preflight previo, medición fechada y ninguna cifra escrita a mano. | Facebook · 18 | 2026-11-05 |
+| 087 | volver a contar los seis índices el 5 de diciembre y publicar la tabla de diferencias: cuántas extensiones ganó o perdió cada tienda en un mes. | Facebook · 19 | 2026-11-05 |
+| 088 | comprobar con la orden 3 qué tiendas declaran clave de firma y añadir esa columna a la lista pública del repositorio. | Facebook · 19 | 2026-11-05 |
+| 089 | probar DropSauce con una tienda en formato Mihon y un plugin de Usagi, y dejar en un acta qué conserva y qué pierde al migrar desde Kotatsu. | Facebook · 19 | 2026-11-05 |
+| 090 | escribir la pieza 20 —los subtítulos y el doblaje, que este corte dejó pendientes— con el mismo método: preflight previo, medición fechada y ninguna cifra escrita a mano. | Facebook · 19 | 2026-11-05 |
 
 ## Numeración: la regla y lo declarado
 
@@ -110,6 +114,7 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 > **Declarado:** 16-El-torrent-que-no-se-rinde-veintidos-: numera desde 075 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 17-El-teclado-que-escribe-por-ti-treinta: numera desde 079 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 18-La-radio-y-el-directo-treinta-y-dos-p: numera desde 083 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 19-Las-tiendas-de-extensiones-con-el-lis: numera desde 087 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 
 La numeración es **por pieza**, no global: cada pieza numera sus tareas desde 001 porque la compuerta de novedad (M28) las cuenta dentro de la pieza. Por eso la misma cifra puede aparecer en dos piezas distintas y no es un error: la tarea se identifica por su número **y** su pieza.
 

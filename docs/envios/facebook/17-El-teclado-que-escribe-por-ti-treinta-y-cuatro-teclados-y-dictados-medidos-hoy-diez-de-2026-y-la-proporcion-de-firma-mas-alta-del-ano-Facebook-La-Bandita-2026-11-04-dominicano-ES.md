@@ -496,8 +496,8 @@ Y lo cuarto: **el nombre que más suena no es el que mejor está**. `openai/whis
 Medí otra vez, hoy 5 de noviembre de 2026, los 33 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • Batmancpu/Dictator- — ★3 · empujó el 26-oct-2026 (hace 10 días) · Apache-2.0 · última release dictator-40297638051 (26-oct-2026)
-• openai/whisper — ★111.993 · *dormido*: sin empujar desde el 31-ago-2026 (66 días) · MIT · última release v20250625 (26-jun-2025)
-• HeliBorg/HeliBoard — ★6.500 · empujó en las últimas horas · GPL-3.0 · última release v4.2 (12-oct-2026)
+• openai/whisper — ★111.992 · *dormido*: sin empujar desde el 31-ago-2026 (66 días) · MIT · última release v20250625 (26-jun-2025)
+• HeliBorg/HeliBoard — ★6.501 · empujó en las últimas horas · GPL-3.0 · última release v4.2 (12-oct-2026)
 • florisboard/florisboard — ★8.755 · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
 • Julow/Unexpected-Keyboard — ★3.337 · empujó en las últimas horas · GPL-3.0 · última release 2.2.0 (1-nov-2026)
 • AnySoftKeyboard/AnySoftKeyboard — ★3.393 · empujó en las últimas horas · Apache-2.0 · última release 1.13-r2 (8-sep-2026)
@@ -511,23 +511,23 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 33 repositorios que cita esta pi
 • futo-org/voice-input — ★350 · empujó el 2-nov-2026 (hace 3 días) · NOASSERTION
 • BryceWG/BiBi-Keyboard — ★861 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v4.5.3 (26-oct-2026)
 • Akshayykadam/PixelBoard — ★1.423 · empujó el 28-oct-2026 (hace 8 días) · GPL-3.0 · última release 1.3.3 (28-oct-2026)
-• wasi-master/wmkeyboard — ★731 · empujó en las últimas horas · MIT · última release v0.6.5 (5-nov-2026)
+• wasi-master/wmkeyboard — ★732 · empujó en las últimas horas · MIT · última release v0.6.5 (5-nov-2026)
 • LeanBitLab/LeanType — ★1.143 · empujó en las últimas horas · GPL-3.0 · última release v4.3.1 (4-nov-2026)
-• Cyletix/CyIME — ★655 · empujó en las últimas horas · GPL-3.0 · última release 1.15.63 (5-nov-2026)
+• Cyletix/CyIME — ★658 · empujó en las últimas horas · GPL-3.0 · última release 1.15.63 (5-nov-2026)
 • zoolapp/aime — ★255 · empujó el 20-oct-2026 (hace 16 días) · MIT · última release v0.1.10 (20-oct-2026)
-• cjpais/Handy — ★37.577 · empujó el 2-nov-2026 (hace 3 días) · MIT · última release v0.10.0 (2-nov-2026)
-• anomalyco/hex — ★5.152 · empujó en las últimas horas · MIT · última release v3.3.0 (2-nov-2026)
+• cjpais/Handy — ★37.580 · empujó el 2-nov-2026 (hace 3 días) · MIT · última release v0.10.0 (2-nov-2026)
+• anomalyco/hex — ★5.156 · empujó en las últimas horas · MIT · última release v3.3.0 (2-nov-2026)
 • Open-Less/openless — ★4.052 · empujó el 2-nov-2026 (hace 3 días) · AGPL-3.0 · última release v2.0.1-tauri (16-oct-2026)
-• altic-dev/FluidVoice — ★12.818 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.6.12 (22-oct-2026)
+• altic-dev/FluidVoice — ★12.817 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.6.12 (22-oct-2026)
 • amicalhq/amical — ★1.598 · empujó el 27-oct-2026 (hace 9 días) · MIT · última release v1.12.5 (25-sep-2026)
 • peteonrails/voxtype — ★1.745 · empujó en las últimas horas · MIT · última release v1.1.1 (15-oct-2026)
 • VocaHQ/vocalinux — ★994 · empujó en las últimas horas · AGPL-3.0 · última release v0.18.5 (27-oct-2026)
 • karansinghgit/speaktype — ★573 · empujó el 29-oct-2026 (hace 7 días) · MIT · última release v2.0.0 (22-sep-2026)
 • opennookorg/betterwispr — ★505 · empujó el 24-oct-2026 (hace 12 días) · Apache-2.0 · última release v0.1.5 (12-oct-2026)
-• SYSTRAN/faster-whisper — ★26.490 · empujó el 2-nov-2026 (hace 3 días) · MIT · última release v1.2.1 (31-oct-2025)
+• SYSTRAN/faster-whisper — ★26.492 · empujó el 2-nov-2026 (hace 3 días) · MIT · última release v1.2.1 (31-oct-2025)
 • Automattic/harper — ★17.416 · empujó en las últimas horas · Apache-2.0 · última release v3.0.0 (27-oct-2026)
 • languagetool-org/languagetool — ★15.235 · empujó en las últimas horas · LGPL-2.1
-• espanso/espanso — ★14.719 · empujó el 1-nov-2026 (hace 4 días) · GPL-3.0 · última release v2.4.1 (2-sep-2026)
+• espanso/espanso — ★14.718 · empujó el 1-nov-2026 (hace 4 días) · GPL-3.0 · última release v2.4.1 (2-sep-2026)
 
 ⏬ sigue abajo · parte 17 de 19
 

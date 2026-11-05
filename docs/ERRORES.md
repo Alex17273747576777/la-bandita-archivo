@@ -60,6 +60,8 @@ la publicación.
 
 | E42 | 4-nov | Taller de la pieza 16 · `b16.py` y `c16.py` | Dos guiones de la pieza 16 murieron en la primera ejecución por leer un campo del diccionario equivocado: `R[...]['con_huella']` y `R[...]['commits_30d']` cuando los dos viven en `E[...]` (escrutinio), no en `R[...]` (medición). El `KeyError` paró la ejecución antes de escribir nada, así que no salió una cifra mala: salió un guion que no corría. | la propia ejecución, antes de publicar | H23 |
 
+| E43 | 5-nov | Piezas 10, 11 y 19 · listas de tiendas | La lista de tiendas de extensiones que circulaba tenía **seis cifras de seis mal**: Cursed figure como 131 extensiones cuando su índice publica **6**; Keiyoushi como «1503» cuando publica **1.458**; Kotatsu aparecía viva y está **archivada desde el 4-nov-2025**; el enlace de publicación de Yūzōnō **responde 301** desde hace meses. La causa no fue un error de cálculo: fue **copiar de una wiki sin volver a contar**. | la comunidad del ecosistema, en un escrito público | H24 |
+
 ## Cómo se usa este registro
 
 1. Antes de escribir una pieza nueva se leen los errores de su misma familia.
