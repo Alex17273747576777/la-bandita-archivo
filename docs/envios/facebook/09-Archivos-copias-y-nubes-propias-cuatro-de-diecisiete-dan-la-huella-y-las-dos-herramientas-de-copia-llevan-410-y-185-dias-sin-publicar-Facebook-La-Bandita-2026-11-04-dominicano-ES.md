@@ -408,20 +408,20 @@ Y los tres que cierran la lista:
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 2275 caracteres ═══
+═══ MENSAJE 19 de 20 · 2267 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 09*
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• rclone/rclone — ★60.801 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
-• immich-app/immich — ★118.254 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
-• localsend/localsend — ★97.327 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• nextcloud/server — ★37.417 · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
-• restic/restic — ★37.003 · empujó el 1-nov-2026 (hace 3 días) · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
+• rclone/rclone — ★60.803 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
+• immich-app/immich — ★118.258 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
+• localsend/localsend — ★97.330 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• nextcloud/server — ★37.418 · sin fecha de empuje · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• restic/restic — ★37.005 · empujó el 1-nov-2026 (hace 3 días) · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
 • researchxxl/syncthing-android — ★3.250 · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • Ghostpanter/ghost-files — ★14 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release v0.7.2 (27-oct-2026)
-• ZENINXOP/Hexora — ★29 · empujó el 17-oct-2026 (hace 18 días) · GPL-3.0 · última release v0.1.4 (17-oct-2026)
+• ZENINXOP/Hexora — ★30 · empujó el 17-oct-2026 (hace 18 días) · GPL-3.0 · última release v0.1.4 (17-oct-2026)
 • BugeStudioTeam/Buge-Files — ★41 · empujó en las últimas horas · GPL-3.0 · última release 1.16.19 (4-nov-2026)
 • sinegard/AF-File-Manager — ★18 · empujó el 29-oct-2026 (hace 6 días) · NOASSERTION · última release v0.47.0 (30-oct-2026)
 • Mahmud0808/TeleDrive — ★436 · empujó en las últimas horas · Apache-2.0 · última release v1.5.0 (19-oct-2026)

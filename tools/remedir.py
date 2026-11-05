@@ -131,9 +131,17 @@ def medir(repo: str, tok: str) -> dict:
     rel = api(f"{API}/repos/{repo}/releases?per_page=100", tok)
     rels = rel if isinstance(rel, list) else []
     ult = rels[0] if rels else None
-    hoy = date.today()
+    # E39 · la casa fecha en Santo Domingo (UTC−4) y GitHub fecha en UTC: a las 20:38 locales
+    # ya es el día siguiente en UTC, y un empujón «de mañana» salía con −1 días.
+    try:
+        from zoneinfo import ZoneInfo
+        hoy = datetime.now(ZoneInfo("America/Santo_Domingo")).date()
+    except Exception:
+        hoy = date.today()
     def dias(f):
-        return (hoy - date.fromisoformat(f[:10])).days if f else None
+        if not f:
+            return None
+        return max(0, (hoy - date.fromisoformat(f[:10])).days)
     return {
         "estado": "vivo",
         "stars": d["stargazers_count"],

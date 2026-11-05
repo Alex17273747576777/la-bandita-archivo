@@ -507,9 +507,9 @@ El ecosistema, medido hoy, dice tres cosas a la vez y las tres son ciertas: el o
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.801 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.803 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • thedjchi/Shizuku — ★6.727 · *dormido*: sin empujar desde el 15-jul-2026 (112 días) · Apache-2.0 · última release v13.7.0-thedjchi (2-jul-2026)
-• thejaustin/ShizukuPlus — ★1.699 · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
+• thejaustin/ShizukuPlus — ★1.700 · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
 • rushiranpise/Shizuku-Next — ★1.452 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
 • kerneldroid/Nightzuku — ★333 · empujó en las últimas horas · Apache-2.0 · última release v13.7.1-r60 (4-nov-2026)
 • krishna3163/OmniShizuku — ★18 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)

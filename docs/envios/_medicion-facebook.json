@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-04",
- "medido_en_utc": "2026-11-04T23:50:06+00:00",
+ "medido_en_utc": "2026-11-05T00:46:56+00:00",
  "repos": {
   "capitan0n/droynis": {
    "estado": "vivo",
@@ -40,7 +40,7 @@
   },
   "zsw125/o3root": {
    "estado": "vivo",
-   "stars": 59,
+   "stars": 60,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "MIT",
@@ -328,7 +328,7 @@
   },
   "rukamori/ArchiveTune": {
    "estado": "vivo",
-   "stars": 7973,
+   "stars": 7974,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -352,7 +352,7 @@
   },
   "Moriafly/SaltPlayerSource": {
    "estado": "vivo",
-   "stars": 7598,
+   "stars": 7599,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "MIT",
@@ -425,7 +425,7 @@
   "bitwarden/android": {
    "estado": "vivo",
    "stars": 9586,
-   "push": "2026-11-04",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -436,7 +436,7 @@
   },
   "stratumauth/app": {
    "estado": "vivo",
-   "stars": 4636,
+   "stars": 4637,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -592,7 +592,7 @@
   },
   "RikkaApps/Shizuku": {
    "estado": "vivo",
-   "stars": 32801,
+   "stars": 32803,
    "push": "2025-06-18",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -664,7 +664,7 @@
   },
   "HmnDev-Tech/shevery": {
    "estado": "vivo",
-   "stars": 1603,
+   "stars": 1604,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -676,7 +676,7 @@
   },
   "cr1437/Shizako": {
    "estado": "vivo",
-   "stars": 97,
+   "stars": 98,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -712,7 +712,7 @@
   },
   "thejaustin/ShizukuPlus": {
    "estado": "vivo",
-   "stars": 1699,
+   "stars": 1700,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -772,7 +772,7 @@
   },
   "aistra0528/Hail": {
    "estado": "vivo",
-   "stars": 7100,
+   "stars": 7101,
    "push": "2026-10-27",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -868,7 +868,7 @@
   },
   "readest/readest": {
    "estado": "vivo",
-   "stars": 25955,
+   "stars": 25957,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -881,7 +881,7 @@
   "sigstore/cosign": {
    "estado": "vivo",
    "stars": 6411,
-   "push": "2026-11-04",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Go",
@@ -904,7 +904,7 @@
   },
   "juanfont/headscale": {
    "estado": "vivo",
-   "stars": 45372,
+   "stars": 45371,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "BSD-3-Clause",
@@ -916,7 +916,7 @@
   },
   "rclone/rclone": {
    "estado": "vivo",
-   "stars": 60801,
+   "stars": 60803,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "MIT",
@@ -928,7 +928,7 @@
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
-   "stars": 21215,
+   "stars": 21217,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -976,7 +976,7 @@
   },
   "xbmc/xbmc": {
    "estado": "vivo",
-   "stars": 21435,
+   "stars": 21436,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -989,7 +989,7 @@
   "esphome/esphome": {
    "estado": "vivo",
    "stars": 12014,
-   "push": "2026-11-04",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
    "lenguaje": "C++",
@@ -1000,7 +1000,7 @@
   },
   "SagerNet/sing-box": {
    "estado": "vivo",
-   "stars": 39632,
+   "stars": 39633,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1060,7 +1060,7 @@
   },
   "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
    "estado": "vivo",
-   "stars": 9745,
+   "stars": 9746,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1072,7 +1072,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97327,
+   "stars": 97330,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1084,7 +1084,7 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 118254,
+   "stars": 118258,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1096,7 +1096,7 @@
   },
   "restic/restic": {
    "estado": "vivo",
-   "stars": 37003,
+   "stars": 37005,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "BSD-2-Clause",
@@ -1109,7 +1109,7 @@
   "mullvad/mullvadvpn-app": {
    "estado": "vivo",
    "stars": 7742,
-   "push": "2026-11-04",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Rust",
@@ -1120,8 +1120,8 @@
   },
   "netbirdio/netbird": {
    "estado": "vivo",
-   "stars": 30680,
-   "push": "2026-11-04",
+   "stars": 30682,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
    "lenguaje": "Go",
@@ -1132,8 +1132,8 @@
   },
   "home-assistant/core": {
    "estado": "vivo",
-   "stars": 91975,
-   "push": "2026-11-04",
+   "stars": 91976,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Python",
@@ -1144,7 +1144,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 64102,
+   "stars": 64106,
    "push": "2026-09-26",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1156,7 +1156,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 154040,
+   "stars": 154042,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1228,8 +1228,8 @@
   },
   "MorpheApp/morphe-manager": {
    "estado": "vivo",
-   "stars": 9968,
-   "push": "2026-11-04",
+   "stars": 9969,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -1325,7 +1325,7 @@
   "MorpheApp/morphe-patches": {
    "estado": "vivo",
    "stars": 4560,
-   "push": "2026-11-04",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Java",
@@ -1377,7 +1377,7 @@
   },
   "timschneeb/awesome-shizuku": {
    "estado": "vivo",
-   "stars": 10702,
+   "stars": 10704,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1389,7 +1389,7 @@
   },
   "yuliskov/SmartTube": {
    "estado": "vivo",
-   "stars": 35925,
+   "stars": 35929,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -1401,7 +1401,7 @@
   },
   "jellyfin/jellyfin": {
    "estado": "vivo",
-   "stars": 59013,
+   "stars": 59014,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -1533,7 +1533,7 @@
   },
   "wg-easy/wg-easy": {
    "estado": "vivo",
-   "stars": 27406,
+   "stars": 27408,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1545,7 +1545,7 @@
   },
   "hiddify/hiddify-app": {
    "estado": "vivo",
-   "stars": 33644,
+   "stars": 33645,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1713,8 +1713,8 @@
   },
   "nextcloud/server": {
    "estado": "vivo",
-   "stars": 37417,
-   "push": "2026-11-04",
+   "stars": 37418,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
    "lenguaje": "PHP",
@@ -1737,7 +1737,7 @@
   },
   "ZENINXOP/Hexora": {
    "estado": "vivo",
-   "stars": 29,
+   "stars": 30,
    "push": "2026-10-17",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1846,13 +1846,13 @@
   "amrkmn/x": {
    "estado": "vivo",
    "stars": 41,
-   "push": "2026-11-04",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "MIT",
    "lenguaje": "TypeScript",
    "desc": "Mihon & Aniyomi Extensions",
-   "release": "v0.777.0",
-   "release_fecha": "2026-11-04",
+   "release": "v0.778.0",
+   "release_fecha": "2026-11-05",
    "stars_pieza": 41
   },
   "yuzono/aniyomi-extensions": {
@@ -2048,13 +2048,13 @@
   "bangxingni/mycomic-extensions": {
    "estado": "vivo",
    "stars": 182,
-   "push": "2026-10-08",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": null,
    "lenguaje": null,
    "desc": "看漫画插件",
-   "release": "v1.0.20",
-   "release_fecha": "2026-09-07",
+   "release": "build-1",
+   "release_fecha": "2026-11-05",
    "stars_pieza": null
   },
   "AngeloSha/uchiyomi": {
@@ -2524,9 +2524,639 @@
    "release": null,
    "release_fecha": "",
    "stars_pieza": null
+  },
+  "skepsun/kototoro": {
+   "estado": "error",
+   "motivo": "Moved Permanently",
+   "stars_pieza": null
+  },
+  "Kototoro-app/Kototoro": {
+   "estado": "vivo",
+   "stars": 668,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Manga, Novel, and Video reader for Android",
+   "release": "v2.3.9",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "itsmechinmoy/echo": {
+   "estado": "error",
+   "motivo": "Moved Permanently",
+   "stars_pieza": null
+  },
+  "itsmechinmoy/echo-nightly": {
+   "estado": "vivo",
+   "stars": 390,
+   "push": "2026-08-22",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Kotlin",
+   "desc": "Nightly Updates For Echo",
+   "release": "nightly-20260402-172557-aafa008",
+   "release_fecha": "2026-04-02",
+   "stars_pieza": null
+  },
+  "mihonapp/mihon": {
+   "estado": "vivo",
+   "stars": 25031,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Free and open source manga reader for Android",
+   "release": "v0.21.3",
+   "release_fecha": "2026-10-25",
+   "stars_pieza": null
+  },
+  "komikku-app/anikku": {
+   "estado": "vivo",
+   "stars": 1129,
+   "push": "2026-10-22",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Free and open source anime watcher for Android",
+   "release": "v0.2.0",
+   "release_fecha": "2026-09-11",
+   "stars_pieza": null
+  },
+  "recloudstream/cloudstream": {
+   "estado": "vivo",
+   "stars": 11160,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Android app for streaming and downloading media.",
+   "release": "v4.8.0",
+   "release_fecha": "2026-07-10",
+   "stars_pieza": null
+  },
+  "kodjodevf/mangayomi": {
+   "estado": "vivo",
+   "stars": 4355,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Dart",
+   "desc": "Free and open source application for reading manga, novels, and watching animes available on Android, iOS, macOS, Linux and Windows",
+   "release": "v0.9.95",
+   "release_fecha": "2026-11-01",
+   "stars_pieza": null
+  },
+  "UsagiApp/usagi": {
+   "estado": "vivo",
+   "stars": 290,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Just a simple, free and open-source manga reader for Android 5.0+",
+   "release": "v1.2",
+   "release_fecha": "2026-10-03",
+   "stars_pieza": null
+  },
+  "LNReader/lnreader": {
+   "estado": "vivo",
+   "stars": 2956,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "TypeScript",
+   "desc": "Light novel reader for Android.",
+   "release": "v2.1.4",
+   "release_fecha": "2026-09-26",
+   "stars_pieza": null
+  },
+  "Aidoku/Aidoku": {
+   "estado": "vivo",
+   "stars": 4697,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Swift",
+   "desc": "Manga reading app for iOS, iPadOS, and macOS",
+   "release": "v0.9-4",
+   "release_fecha": "2026-10-16",
+   "stars_pieza": null
+  },
+  "Suwayomi/Suwayomi-Server": {
+   "estado": "vivo",
+   "stars": 8008,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "MPL-2.0",
+   "lenguaje": "Java",
+   "desc": "A rewrite of Tachiyomi for the Desktop",
+   "release": "v2.4.2366",
+   "release_fecha": "2026-09-30",
+   "stars_pieza": null
+  },
+  "Jays2Kings/tachiyomiJ2K": {
+   "estado": "vivo",
+   "stars": 5404,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Free and open source manga reader for Android",
+   "release": "v1.8.1",
+   "release_fecha": "2026-08-15",
+   "stars_pieza": null
+  },
+  "jobobby04/TachiyomiSY": {
+   "estado": "vivo",
+   "stars": 4201,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Free and open source manga reader for Android",
+   "release": "1.13.2",
+   "release_fecha": "2026-07-13",
+   "stars_pieza": null
+  },
+  "komikku-app/komikku": {
+   "estado": "vivo",
+   "stars": 4981,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Free and open source manga reader for Android",
+   "release": "v1.14.1",
+   "release_fecha": "2026-07-17",
+   "stars_pieza": null
+  },
+  "nekomangaorg/Neko": {
+   "estado": "vivo",
+   "stars": 2823,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Unofficial MangaDex Reader for Android 8+",
+   "release": "3.8.5",
+   "release_fecha": "2026-10-30",
+   "stars_pieza": null
+  },
+  "null2264/yokai": {
+   "estado": "vivo",
+   "stars": 1916,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Free and open source manga reader for Android",
+   "release": "v1.10.2",
+   "release_fecha": "2026-09-23",
+   "stars_pieza": null
+  },
+  "ruzhe85/MihonSY": {
+   "estado": "vivo",
+   "stars": 50,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "MihonSY — A Mihon Fork focused on image enhancement, an enhanced webtoon experience and multi-device sync",
+   "release": "v1.3.0",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "unseensnick/Reikai": {
+   "estado": "vivo",
+   "stars": 45,
+   "push": "2026-11-05",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "One library for manga and light novels. A free and open source reader for Android, built on Mihon, with multi-source grouping and merge.",
+   "release": "v0.5.1",
+   "release_fecha": "2026-10-26",
+   "stars_pieza": null
+  },
+  "yomihon/yomihon": {
+   "estado": "vivo",
+   "stars": 144,
+   "push": "2026-10-18",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Free and open source manga reader for Android - now with OCR (text recognition)",
+   "release": "v0.4.3",
+   "release_fecha": "2026-10-18",
+   "stars_pieza": null
+  },
+  "HayaiApp/hayai": {
+   "estado": "vivo",
+   "stars": 49,
+   "push": "2026-10-03",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Hayai is a TachiyomiJ2K-based Android manga and light-novel reader with TachiyomiSY adult-source support and a Tsundoku-derived novel reader.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "Seguaz/Nekoyomi": {
+   "estado": "vivo",
+   "stars": 48,
+   "push": "2026-09-11",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Nekoyomi — anime and manga reader for Android",
+   "release": "v0.20.6",
+   "release_fecha": "2026-09-11",
+   "stars_pieza": null
+  },
+  "Ero-gamer/Kotatsu-Next": {
+   "estado": "vivo",
+   "stars": 33,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Full featured lightweight FOSS Manga/Manhua/Manhwa reader app for Android.",
+   "release": "9.9.1",
+   "release_fecha": "2026-09-21",
+   "stars_pieza": null
+  },
+  "RecordXenon/Kotatsu-Ultra": {
+   "estado": "vivo",
+   "stars": 118,
+   "push": "2026-10-22",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "HTML",
+   "desc": "Full Featured Open Source Manga Reader App for Android 2026",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "Hotaro26/miko": {
+   "estado": "vivo",
+   "stars": 34,
+   "push": "2026-09-11",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "Kotlin",
+   "desc": "A manga reader app built purely with kotlin and jetpack compose, features latest material 3 expressive  ui and online catalogue manga library",
+   "release": "v3.3",
+   "release_fecha": "2026-08-03",
+   "stars_pieza": null
+  },
+  "Ero-gamer/Weeber": {
+   "estado": "vivo",
+   "stars": 1,
+   "push": "2026-11-02",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Weeber is Kotatsu Next re-born. A free, lightweight, open-source manga · webtoon & manhua full featured reader for Android. Built on Kotatsu Next and enriched with the best features from Kotatsu ecosystem — plus Mihon extensions support, an in-app Browser Source, and 1200+ built-in manga sources.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "Nyora-Manga/nyora-android": {
+   "estado": "vivo",
+   "stars": 59,
+   "push": "2026-09-23",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Nyora for Android — free, ad-free, open-source manga/manhwa/manhua reader with AI page translation, offline downloads and cloud sync.",
+   "release": "v2.7.3",
+   "release_fecha": "2026-07-31",
+   "stars_pieza": null
+  },
+  "KotatsuApp/Kotatsu": {
+   "estado": "vivo",
+   "stars": 8951,
+   "push": "2025-11-04",
+   "archivado": true,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Manga reader for Android",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "Suwayomi/Suwayomi-Tsumiru": {
+   "estado": "vivo",
+   "stars": 112,
+   "push": "2026-11-05",
+   "archivado": false,
+   "licencia": "MPL-2.0",
+   "lenguaje": "Dart",
+   "desc": "A manga and webtoon reader for your Suwayomi server",
+   "release": "v1.6.4",
+   "release_fecha": "2026-11-02",
+   "stars_pieza": null
+  },
+  "Suwayomi/Suwayomi-JUI": {
+   "estado": "vivo",
+   "stars": 498,
+   "push": "2026-10-15",
+   "archivado": false,
+   "licencia": "MPL-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "A Suwayomi-Server client built in Compose Multiplatform",
+   "release": "v1.3.3",
+   "release_fecha": "2024-03-31",
+   "stars_pieza": null
+  },
+  "Suwayomi/Suwayomi-VaadinUI": {
+   "estado": "vivo",
+   "stars": 50,
+   "push": "2026-10-18",
+   "archivado": false,
+   "licencia": "MPL-2.0",
+   "lenguaje": "Java",
+   "desc": "A simple Client for Suwayomi written in Java with Vaadin",
+   "release": "v2.0.3",
+   "release_fecha": "2026-10-18",
+   "stars_pieza": null
+  },
+  "SeoMavares/miwayomi": {
+   "estado": "vivo",
+   "stars": 31,
+   "push": "2026-08-14",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Run Tachiyomi/Aniyomi extensions on PC, Mac or Linux — no Android or emulator needed. Manga & anime, streaming, web UI and REST API.",
+   "release": "v0.2.9",
+   "release_fecha": "2026-08-13",
+   "stars_pieza": null
+  },
+  "Sumidoku/Sumidoku": {
+   "estado": "vivo",
+   "stars": 8,
+   "push": "2026-11-05",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Rust",
+   "desc": "Self-hosted manga server: Aidoku WASM sources, REST + OPDS API, shipped as a single binary or a Docker image",
+   "release": "v1.21.0",
+   "release_fecha": "2026-11-03",
+   "stars_pieza": null
+  },
+  "Suwayomi/Tachidesk-Sorayomi": {
+   "estado": "vivo",
+   "stars": 1571,
+   "push": "2025-07-09",
+   "archivado": true,
+   "licencia": "MPL-2.0",
+   "lenguaje": "Dart",
+   "desc": "A free and open source manga reader app to read manga from a Tachidesk-Server instance.",
+   "release": "0.6.3",
+   "release_fecha": "2025-02-22",
+   "stars_pieza": null
+  },
+  "aniyomiorg/aniyomi": {
+   "estado": "vivo",
+   "stars": 7866,
+   "push": "2026-09-14",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "An app for manga and anime",
+   "release": "v0.18.2.1",
+   "release_fecha": "2026-09-14",
+   "stars_pieza": null
+  },
+  "professorDeveloper/sozo": {
+   "estado": "vivo",
+   "stars": 111,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Dart",
+   "desc": "Sozo focuses on a cinematic mobile experience: fast browsing, clean visuals, smooth playback, and a layout that feels made for everyday watching. From home discovery to offline downloads, every screen is designed to keep the content first.",
+   "release": "v3.2.0",
+   "release_fecha": "2026-09-27",
+   "stars_pieza": null
+  },
+  "itsmechinmoy/Dantotsu": {
+   "estado": "vivo",
+   "stars": 93,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Kotlin",
+   "desc": "Anilist client based on Saikou",
+   "release": "v3.2.2+74ae756",
+   "release_fecha": "2026-10-29",
+   "stars_pieza": null
+  },
+  "Nekomo-App/Nekomo": {
+   "estado": "vivo",
+   "stars": 35,
+   "push": "2026-11-02",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": null,
+   "desc": "The official Nekomo Android and Android TV anime & manga client. Discover, track, watch, and read using your own external sources and extensions.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "kiritsuguxs/yomotsu": {
+   "estado": "vivo",
+   "stars": 12,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Central de mangás, novels e animes para Android com player MPV, OCR, tradução por IA nos balões e backup na Nuvem Telegram em PT-BR.",
+   "release": "v0.21.4-Y8",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "harshtries-code/etsume": {
+   "estado": "vivo",
+   "stars": 4,
+   "push": "2026-05-16",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "A free, open-source manga reader and anime player for Android. Browse, read, and watch from extension-based sources — all in one app.",
+   "release": "v0.18.1.2",
+   "release_fecha": "2026-05-15",
+   "stars_pieza": null
+  },
+  "kurosensei2090/ZenYomi": {
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Free and open source video player & content reader for Android",
+   "release": "v1.0.2",
+   "release_fecha": "2026-11-01",
+   "stars_pieza": null
+  },
+  "5rahim/seanime": {
+   "estado": "vivo",
+   "stars": 4305,
+   "push": "2026-10-14",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Go",
+   "desc": "Open-source media server with a web interface and desktop app for anime and manga.",
+   "release": "v3.10.4",
+   "release_fecha": "2026-10-14",
+   "stars_pieza": null
+  },
+  "5rahim/seanime-tenji": {
+   "estado": "vivo",
+   "stars": 93,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "TypeScript",
+   "desc": "Open-source Seanime client for iOS, Android, tvOS and Android TV.",
+   "release": "v0.4.0-24.24-20261031-cc29022",
+   "release_fecha": "2026-10-31",
+   "stars_pieza": null
+  },
+  "AMRGAMAL-1/CloudStream-Desktop-Linux": {
+   "estado": "vivo",
+   "stars": 7,
+   "push": "2026-10-10",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "CloudStream Desktop for Linux — free, ad-free media center (movies, TV & anime) with mpv playback.",
+   "release": "linux-v0.1.10",
+   "release_fecha": "2026-10-10",
+   "stars_pieza": null
+  },
+  "krishnasinghrao/cloudstream-macos": {
+   "estado": "vivo",
+   "stars": 4,
+   "push": "2026-10-25",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Swift",
+   "desc": "Native macOS client for the CloudStream extension ecosystem. Swift 6 + SwiftUI, Metal/libmpv player, sandboxed Kotlin/JVM engine. Apple Silicon, macOS 15+.",
+   "release": "v1.0.0",
+   "release_fecha": "2026-10-11",
+   "stars_pieza": null
+  },
+  "SMRiaz-SA/Auras-Orbit": {
+   "estado": "vivo",
+   "stars": 1,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Independent Windows desktop and Android media library for CloudStream-compatible extensions, Stremio catalogs, personal watchlists, and integrated playback.",
+   "release": "v1.0.0.06",
+   "release_fecha": "2026-10-28",
+   "stars_pieza": null
+  },
+  "1Selxo/Mangatan": {
+   "estado": "vivo",
+   "stars": 97,
+   "push": "2026-11-02",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Dart",
+   "desc": "Mangayomi fork focused on Yomitan-style dictionary lookup, OCR overlays, subtitle mining, and Anki export.",
+   "release": "v1.2.26",
+   "release_fecha": "2026-10-18",
+   "stars_pieza": null
+  },
+  "MenaHere/Yuri-Reader": {
+   "estado": "vivo",
+   "stars": 2,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Dart",
+   "desc": "A small fork from Mangayomi to incorporate MALsync because it is fun to do so.",
+   "release": "v0.7.3+1",
+   "release_fecha": "2026-10-07",
+   "stars_pieza": null
+  },
+  "IReaderorg/IReader": {
+   "estado": "vivo",
+   "stars": 984,
+   "push": "2026-10-28",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "Free and open source novel reader for Android and Desktop.",
+   "release": "v2.0.26",
+   "release_fecha": "2026-09-07",
+   "stars_pieza": null
+  },
+  "Stiven-Gjekaj/Asabunko": {
+   "estado": "vivo",
+   "stars": 5,
+   "push": "2026-10-24",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Swift",
+   "desc": "A calm reader for manga, comics, light novels, and web novels, with OPDS, LNReader, Suwayomi, Aidoku, and Paperback sources. iOS, sideloaded.",
+   "release": "v3.0.0",
+   "release_fecha": "2026-10-24",
+   "stars_pieza": null
+  },
+  "AtiinLabs/Ito": {
+   "estado": "vivo",
+   "stars": 8,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "MPL-2.0",
+   "lenguaje": "Swift",
+   "desc": "Open source manga, Anime and Novel viewer for iOS",
+   "release": "v1.4.0",
+   "release_fecha": "2026-11-02",
+   "stars_pieza": null
+  },
+  "Nyora-Manga/nyora-ios": {
+   "estado": "vivo",
+   "stars": 17,
+   "push": "2026-08-08",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Swift",
+   "desc": "Nyora for iOS & iPadOS — free, open-source manga reader; Aidoku-based UI with Nyora cloud sources and sync.",
+   "release": "v2.7.3",
+   "release_fecha": "2026-08-05",
+   "stars_pieza": null
+  },
+  "Nyora-Manga/nyora-docker": {
+   "estado": "vivo",
+   "stars": 2,
+   "push": "2026-07-23",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "HTML",
+   "desc": "Run Nyora (manga reader) fully locally in Docker — the web UI + the kotatsu-parsers helper in one container, no cloud. docker compose up.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
   }
  },
  "enlaces": {
+  "https://api.github.com/repos/Kototoro-app/Kototoro/releases?per_page=100": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://api.github.com/repos/LNReader/lnreader/contributors?per_page=100": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://api.github.com/repos/ReVanced/revanced-patches": {
    "codigo": "451",
    "veredicto": "responde con codigo 451"
@@ -2543,11 +3173,39 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://api.github.com/repos/mihonapp/mihon": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://api.github.com/repos/mihonapp/mihon/releases?per_page=100": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://api.github.com/repos/phisher98/cloudstream-extensions-phisher": {
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://api.github.com/repos/recloudstream/cloudstream": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/1Selxo/Mangatan": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/5rahim/seanime": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/5rahim/seanime-tenji": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/AChep/keyguard-app": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/AMRGAMAL-1/CloudStream-Desktop-Linux": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -2567,6 +3225,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Aidoku/Aidoku": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/AlphadogRSA/spotifyplus-tv-patch": {
    "codigo": "200",
    "veredicto": "responde"
@@ -2580,6 +3242,10 @@
    "veredicto": "responde"
   },
   "https://github.com/Asm0d3usX/CloudX-V2": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/AtiinLabs/Ito": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -2623,6 +3289,14 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Ero-gamer/Kotatsu-Next": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Ero-gamer/Weeber": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/FelipeGFA/extensoes": {
    "codigo": "200",
    "veredicto": "responde"
@@ -2651,11 +3325,23 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/HayaiApp/hayai": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/HellzYeahh/earshot": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/HmnDev-Tech/shevery": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Hotaro26/miko": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/IReaderorg/IReader": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -2668,6 +3354,10 @@
    "veredicto": "responde"
   },
   "https://github.com/IngoZenz/personaldnsfilter": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Jays2Kings/tachiyomiJ2K": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -2687,11 +3377,23 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/KotatsuApp/Kotatsu": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/KotatsuApp/kotatsu-parsers": {
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Kototoro-app/Kototoro": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Kunzisoft/KeePassDX": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/LNReader/lnreader": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -2715,6 +3417,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/MenaHere/Yuri-Reader": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/MetrolistGroup/Metrolist": {
    "codigo": "200",
    "veredicto": "responde"
@@ -2735,6 +3441,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Nekomo-App/Nekomo": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/NeoApplications/Neo-Backup": {
    "codigo": "200",
    "veredicto": "responde"
@@ -2744,6 +3454,18 @@
    "veredicto": "responde"
   },
   "https://github.com/NovelSourcery/extensions": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Nyora-Manga/nyora-android": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Nyora-Manga/nyora-docker": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Nyora-Manga/nyora-ios": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -2783,11 +3505,19 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/RecordXenon/Kotatsu-Ultra": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/RikkaApps/Shizuku": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/RikkaApps/Shizuku-API": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/SMRiaz-SA/Auras-Orbit": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -2807,15 +3537,51 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Seguaz/Nekoyomi": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/SeoMavares/miwayomi": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Shebyyy/kotatsu-multi-parsers": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/ShiroKazane/kotatsu-parsers": {
-   "codigo": "500",
-   "veredicto": "responde con codigo 500"
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://github.com/Shishir-ip/AppDNS": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Stiven-Gjekaj/Asabunko": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Sumidoku/Sumidoku": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Suwayomi/Suwayomi-JUI": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Suwayomi/Suwayomi-Server": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Suwayomi/Suwayomi-Tsumiru": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Suwayomi/Suwayomi-VaadinUI": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Suwayomi/Tachidesk-Sorayomi": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -2840,6 +3606,10 @@
    "veredicto": "responde"
   },
   "https://github.com/UsagiApp/plugins": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/UsagiApp/usagi": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -2892,6 +3662,10 @@
    "veredicto": "responde"
   },
   "https://github.com/anh9000/anitorrent": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/aniyomiorg/aniyomi": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3003,6 +3777,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/harshtries-code/etsume": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/hddq/restoid": {
    "codigo": "200",
    "veredicto": "responde"
@@ -3047,7 +3825,15 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/itsmechinmoy/Dantotsu": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/itsmechinmoy/echo-extensions": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/itsmechinmoy/echo-nightly": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3064,6 +3850,10 @@
    "veredicto": "responde"
   },
   "https://github.com/jobobby04/ShosetsuExtensions": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/jobobby04/TachiyomiSY": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3091,11 +3881,35 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/kiritsuguxs/yomotsu": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/kodjodevf/mangayomi": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/kodjodevf/mangayomi-extensions": {
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/komikku-app/anikku": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/komikku-app/komikku": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/krishna3163/OmniShizuku": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/krishnasinghrao/cloudstream-macos": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/kurosensei2090/ZenYomi": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3139,6 +3953,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/mihonapp/mihon": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/milkei/audio-focus-mixer": {
    "codigo": "200",
    "veredicto": "responde"
@@ -3175,6 +3993,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/nekomangaorg/Neko": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/netbirdio/netbird": {
    "codigo": "200",
    "veredicto": "responde"
@@ -3188,6 +4010,10 @@
    "veredicto": "responde"
   },
   "https://github.com/noaione/shosetsu-extensions": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/null2264/yokai": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3207,6 +4033,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/professorDeveloper/sozo": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/rclone/rclone": {
    "codigo": "200",
    "veredicto": "responde"
@@ -3216,6 +4046,10 @@
    "veredicto": "responde"
   },
   "https://github.com/readest/readest": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/recloudstream/cloudstream": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3236,6 +4070,10 @@
    "veredicto": "responde"
   },
   "https://github.com/rushiranpise/helper-for-morphe": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/ruzhe85/MihonSY": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3319,6 +4157,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/unseensnick/Reikai": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/usnraver/website-to-tv-app": {
    "codigo": "200",
    "veredicto": "responde"
@@ -3352,6 +4194,10 @@
    "veredicto": "responde"
   },
   "https://github.com/xtt-xt/MCPBox": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/yomihon/yomihon": {
    "codigo": "200",
    "veredicto": "responde"
   },

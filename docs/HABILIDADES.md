@@ -18,6 +18,8 @@ puede perder. Cada una nace de un error concreto de `docs/ERRORES.md`, y si el e
 | H11 | **La guía también se mide** | E25 | `tools/medir_guia.py --aplicar` | `guia-maestra` + remedir |
 | H12 | **La fecha se lee en vivo, al empezar y al terminar** | E31 | `tools/fecha_viva.py --inicio` / `--fin` | `docs/FECHA-VIVA.json` |
 | H16 | **La banda se mide en caracteres** | E36 | `python3 tools/manual_gate.py --pieza` | M11 |
+| H18 | **El título se calcula, no se recuerda** | E38 | `python3 tools/manual_gate.py --pieza` | el nombre del archivo |
+| H19 | **El día se cuenta en la hora de la casa** | E39 | `tools/remedir.py --escribir` | la columna del empujón |
 | H17 | **La madurez se declara ficha a ficha** | E37 | `python3 tools/novedad_gate.py` | M25 |
 
 ## H01 · Medir antes de tocar
@@ -229,6 +231,33 @@ la medición del día. Así la pieza no puede declarar una madurez que no midió
 **Cómo se pierde.** Escribiendo «madurez» una vez en la cabecera del bloque para callar la compuerta.
 El lector de la ficha se queda sin el dato y la compuerta pasa: forma sin oficio, que es el error que
 esta casa lleva todo el día cazando.
+
+## H18 · El título se calcula, no se recuerda
+
+**Nace de E38.** El nombre de la pieza es lo primero que se lee —índice, envío, tablero— y es también lo
+último que se revisa. En la pieza 11 llevaba una cifra que no era la de la medición: ciento diecisiete
+mil descargas donde el archivo decía cincuenta y ocho millones. El texto estaba bien; el título, no.
+
+**La regla.** La cifra del nombre se copia de la variable que ya salió de la medición, nunca se teclea.
+Y antes de sellar, el nombre se lee en voz alta contra la tabla: si la cifra del título no está en el
+cuerpo, el título está inventando.
+
+**Cómo se pierde.** Escribiendo el nombre al final, con prisa, cuando ya está todo lo demás hecho. El
+título es parte del dato, no la etiqueta del dato.
+
+## H19 · El día se cuenta en la hora de la casa
+
+**Nace de E39.** GitHub fecha en UTC y la casa fecha en Santo Domingo. A las 20:38 locales ya es el día
+siguiente en UTC, así que tres repositorios con empujón reciente salieron con «−1 días» y el recuento
+de empujones del día se quedó tres corto. Un número negativo no es un detalle: es una compuerta que
+miente hacia abajo.
+
+**La regla.** Toda resta de fechas se hace contra el día de la casa (`America/Santo_Domingo`), y un
+empujón con fecha posterior al corte se cuenta como hoy, no como mañana. La herramienta ya lo hace:
+`tools/remedir.py` toma la zona de la casa y recorta el negativo a cero.
+
+**Cómo se pierde.** Usando `date.today()` a secas, que en el servidor devuelve UTC y en la computadora
+del dueño no. La fecha de la casa es la única que vale, y por eso hay un programa que la lee en vivo.
 
 ## El ritual completo, con las habilidades dentro
 

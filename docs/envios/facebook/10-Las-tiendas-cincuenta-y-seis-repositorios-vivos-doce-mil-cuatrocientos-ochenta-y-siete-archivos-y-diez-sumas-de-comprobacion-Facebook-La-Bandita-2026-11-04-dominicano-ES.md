@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/10-Las-tiendas-cincuenta-y-seis-repositorios-vivos-doce-mil-cuatrocientos-ochenta-y-siete-archivos-y-diez-sumas-de-comprobacion-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
 - **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `265c9962c35cc14b3904299a991943bbfe22cc17382adb457fa9d6cc716356ad`
-- **Envío generado:** 2026-11-04 · 20 mensajes · el mayor de 3883 caracteres
+- **Envío generado:** 2026-11-04 · 20 mensajes · el mayor de 3859 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 20 · 906 caracteres ═══
@@ -489,13 +489,13 @@ Y lo cuarto, la frase que esta serie repite porque en cada tema se cumple: **lo 
 
 ⏬ sigue abajo · parte 15 de 19
 
-═══ MENSAJE 17 de 20 · 3883 caracteres ═══
+═══ MENSAJE 17 de 20 · 3859 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 10*
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 58 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• amrkmn/x — ★41 (sin cambio) · empujó en las últimas horas · MIT · última release v0.777.0 (4-nov-2026)
+• amrkmn/x — ★41 (sin cambio) · sin fecha de empuje · MIT · última release v0.778.0 (5-nov-2026)
 • yuzono/aniyomi-extensions — sin dato hoy (la API no respondió). No afirmo nada.
 • yuzono/anime-repo — sin dato hoy (la API no respondió). No afirmo nada.
 • mojuru/anime-repo — ★72 · empujó en las últimas horas · sin licencia detectada por la API
@@ -513,7 +513,7 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 58 repositorios que cita esta pi
 • marbou92/MHRepo — ★8 · empujó en las últimas horas · Apache-2.0
 • Nyora-Manga/nyora-mihon — ★14 · *dormido*: sin empujar desde el 19-jul-2026 (108 días) · sin licencia detectada por la API
 • manti-X/extensions — ★9 · empujó en las últimas horas · sin licencia detectada por la API
-• bangxingni/mycomic-extensions — ★182 · empujó el 8-oct-2026 (hace 27 días) · sin licencia detectada por la API · última release v1.0.20 (7-sep-2026)
+• bangxingni/mycomic-extensions — ★182 · sin fecha de empuje · sin licencia detectada por la API · última release build-1 (5-nov-2026)
 • AngeloSha/uchiyomi — ★99 · empujó el 2-nov-2026 (hace 2 días) · MPL-2.0 · última release v0.103.1 (31-oct-2026)
 • Shebyyy/kotatsu-multi-parsers — ★19 · empujó el 21-oct-2026 (hace 14 días) · sin licencia detectada por la API · última release build-2026.10.21-1056 (21-oct-2026)
 • dragonx943/manga-repo — ★24 · empujó el 23-oct-2026 (hace 12 días) · GPL-3.0 · última release d605625 (23-oct-2026)
@@ -561,13 +561,12 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 58 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 322 caracteres ═══
+═══ MENSAJE 19 de 20 · 222 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 62 enlaces de esta pieza, *60 responden*.
+De los 62 enlaces de esta pieza, *61 responden*.
 
-• https://github.com/ShiroKazane/kotatsu-parsers — 500. Error del servidor; no es culpa del enlace.
 • https://github.com/yuzono/aniyomi-extensions — 451. Error del servidor; no es culpa del enlace.
 
 ⏬ sigue abajo · parte 18 de 19
