@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/10-Las-tiendas-cincuenta-y-seis-repositorios-vivos-doce-mil-cuatrocientos-ochenta-y-siete-archivos-y-diez-sumas-de-comprobacion-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
 - **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `265c9962c35cc14b3904299a991943bbfe22cc17382adb457fa9d6cc716356ad`
-- **Envío generado:** 2026-11-05 · 20 mensajes · el mayor de 3897 caracteres
+- **Envío generado:** 2026-11-05 · 20 mensajes · el mayor de 3892 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 20 · 1085 caracteres ═══
@@ -493,19 +493,19 @@ Y lo cuarto, la frase que esta serie repite porque en cada tema se cumple: **lo 
 
 ⏬ sigue abajo · parte 15 de 19
 
-═══ MENSAJE 17 de 20 · 3897 caracteres ═══
+═══ MENSAJE 17 de 20 · 3892 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 10*
 
 Medí otra vez, hoy 5 de noviembre de 2026, los 58 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• amrkmn/x — ★41 (sin cambio) · empujó en las últimas horas · MIT · última release v0.778.0 (5-nov-2026)
+• amrkmn/x — ★41 (sin cambio) · empujó en las últimas horas · MIT · última release v0.779.0 (5-nov-2026)
 • yuzono/aniyomi-extensions — sin dato hoy (la API no respondió). No afirmo nada.
 • yuzono/anime-repo — sin dato hoy (la API no respondió). No afirmo nada.
 • mojuru/anime-repo — ★72 · empujó en las últimas horas · sin licencia detectada por la API
-• keiyoushi/extensions — ★15.438 · empujó en las últimas horas · sin licencia detectada por la API · última release ee661f5 (4-nov-2026)
+• keiyoushi/extensions — ★15.439 · empujó en las últimas horas · sin licencia detectada por la API · última release 4591fbc-1 (5-nov-2026)
 • keiyoushi/extensions-source — ★4.865 · empujó en las últimas horas · Apache-2.0
-• yuzono/tachiyomi-extensions — ★958 · empujó el 2-nov-2026 (hace 3 días) · Apache-2.0
+• yuzono/tachiyomi-extensions — ★959 · empujó el 2-nov-2026 (hace 3 días) · Apache-2.0
 • cuong-tran/manga-repo — ★468 · empujó el 2-nov-2026 (hace 3 días) · sin licencia detectada por la API · última release f7d844c-2 (2-nov-2026)
 • LittleSurvival/copymanga-copy20 — ★2.994 · empujó el 11-oct-2026 (hace 25 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • cofedream/extensions-copymanga — ★498 · *dormido*: sin empujar desde el 8-ago-2026 (89 días) · sin licencia detectada por la API · última release v1.4.11 (7-jun-2025)
@@ -521,7 +521,7 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 58 repositorios que cita esta pi
 • AngeloSha/uchiyomi — ★100 · empujó el 2-nov-2026 (hace 3 días) · MPL-2.0 · última release v0.103.1 (31-oct-2026)
 • Shebyyy/kotatsu-multi-parsers — ★19 · empujó el 21-oct-2026 (hace 15 días) · sin licencia detectada por la API · última release build-2026.10.21-1056 (21-oct-2026)
 • dragonx943/manga-repo — ★24 · empujó el 23-oct-2026 (hace 13 días) · GPL-3.0 · última release d605625 (23-oct-2026)
-• ShiroKazane/kotatsu-parsers — ★1 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release latest (1-nov-2026)
+• ShiroKazane/kotatsu-parsers — ★1 · empujó en las últimas horas · GPL-3.0 · última release latest (1-nov-2026)
 • UsagiApp/plugins — ★10 · *dormido*: sin empujar desde el 27-jul-2026 (101 días) · GPL-3.0 · última release 1.0.3 (27-jul-2026)
 • skepsun/kototoro-parsers — ★17 · empujó en las últimas horas · GPL-3.0
 • KotatsuApp/kotatsu-parsers — ★324 · *dormido*: sin empujar desde el 3-nov-2025 (367 días) · GPL-3.0 · última release 1.7 (15-mar-2025) · *ARCHIVADO*

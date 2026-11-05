@@ -507,13 +507,13 @@ El ecosistema, medido hoy, dice tres cosas a la vez y las tres son ciertas: el o
 
 Medí otra vez, hoy 5 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.838 · *dormido*: sin empujar desde el 18-jun-2025 (505 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• thedjchi/Shizuku — ★6.734 · *dormido*: sin empujar desde el 15-jul-2026 (113 días) · Apache-2.0 · última release v13.7.0-thedjchi (2-jul-2026)
-• thejaustin/ShizukuPlus — ★1.709 · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
-• rushiranpise/Shizuku-Next — ★1.469 · empujó en las últimas horas · Apache-2.0 · última release v14.0.33-next (5-nov-2026)
+• RikkaApps/Shizuku — ★32.849 · *dormido*: sin empujar desde el 18-jun-2025 (505 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• thedjchi/Shizuku — ★6.736 · *dormido*: sin empujar desde el 15-jul-2026 (113 días) · Apache-2.0 · última release v13.7.0-thedjchi (2-jul-2026)
+• thejaustin/ShizukuPlus — ★1.711 · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
+• rushiranpise/Shizuku-Next — ★1.475 · empujó en las últimas horas · Apache-2.0 · última release v14.0.33-next (5-nov-2026)
 • kerneldroid/Nightzuku — ★333 · empujó en las últimas horas · Apache-2.0 · última release v13.7.1-r60 (4-nov-2026)
 • krishna3163/OmniShizuku — ★19 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
-• iamr0s/Dhizuku — ★4.087 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• iamr0s/Dhizuku — ★4.089 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.13.0 (30-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,17 +1,17 @@
 {
  "medido_en": "2026-11-05",
- "medido_en_utc": "2026-11-05T11:03:01+00:00",
+ "medido_en_utc": "2026-11-05T15:09:37+00:00",
  "repos": {
   "capitan0n/droynis": {
    "estado": "vivo",
-   "stars": 16,
+   "stars": 17,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
-   "desc": "Offline Android security audit tool. 75 read-only checks across multiple privilege levels (base, ADB, Shizuku, root), 0–100 score and saved reports. Privacy-oriented, no internet permission, zero telemetry, fully local.",
-   "release": "v0.15.0",
-   "release_fecha": "2026-11-01",
+   "desc": "Offline Android security audit tool. 90 read-only checks across multiple privilege levels (base, ADB, Shizuku, root), 0–100 score and saved reports. Privacy-oriented, no internet permission, zero telemetry, fully local.",
+   "release": "v0.16.0",
+   "release_fecha": "2026-11-05",
    "stars_pieza": null
   },
   "Bingblop/ADB-Root-Toolbox": {
@@ -40,7 +40,7 @@
   },
   "zsw125/o3root": {
    "estado": "vivo",
-   "stars": 74,
+   "stars": 79,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "MIT",
@@ -52,8 +52,8 @@
   },
   "aaron-gh/SandFly": {
    "estado": "vivo",
-   "stars": 25,
-   "push": "2026-11-04",
+   "stars": 26,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Java",
@@ -64,8 +64,8 @@
   },
   "rdevz-ph/RedirectGuard": {
    "estado": "vivo",
-   "stars": 17,
-   "push": "2026-11-03",
+   "stars": 18,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
@@ -172,7 +172,7 @@
   },
   "henry-97/MineApp": {
    "estado": "vivo",
-   "stars": 80,
+   "stars": 83,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -304,7 +304,7 @@
   },
   "MetrolistGroup/Metrolist": {
    "estado": "vivo",
-   "stars": 14026,
+   "stars": 14027,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -316,7 +316,7 @@
   },
   "maxrave-dev/SimpMusic": {
    "estado": "vivo",
-   "stars": 12794,
+   "stars": 12806,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -328,7 +328,7 @@
   },
   "rukamori/ArchiveTune": {
    "estado": "vivo",
-   "stars": 7991,
+   "stars": 7995,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -364,7 +364,7 @@
   },
   "namidaco/namida": {
    "estado": "vivo",
-   "stars": 6788,
+   "stars": 6789,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -388,7 +388,7 @@
   },
   "z-huang/InnerTune": {
    "estado": "vivo",
-   "stars": 6139,
+   "stars": 6141,
    "push": "2025-11-13",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -424,7 +424,7 @@
   },
   "bitwarden/android": {
    "estado": "vivo",
-   "stars": 9588,
+   "stars": 9590,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -448,7 +448,7 @@
   },
   "Monica-Pass/Monica": {
    "estado": "vivo",
-   "stars": 1211,
+   "stars": 1213,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -460,7 +460,7 @@
   },
   "dani-garcia/vaultwarden": {
    "estado": "vivo",
-   "stars": 70269,
+   "stars": 70276,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -473,7 +473,7 @@
   "PhilippC/keepass2android": {
    "estado": "vivo",
    "stars": 6368,
-   "push": "2026-10-29",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "C#",
@@ -508,7 +508,7 @@
   },
   "beemdevelopment/Aegis": {
    "estado": "vivo",
-   "stars": 13470,
+   "stars": 13475,
    "push": "2026-09-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -580,7 +580,7 @@
   },
   "authpass/authpass": {
    "estado": "vivo",
-   "stars": 2810,
+   "stars": 2811,
    "push": "2026-09-15",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -592,7 +592,7 @@
   },
   "RikkaApps/Shizuku": {
    "estado": "vivo",
-   "stars": 32838,
+   "stars": 32849,
    "push": "2025-06-18",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -616,7 +616,7 @@
   },
   "d4rken-org/porter": {
    "estado": "vivo",
-   "stars": 247,
+   "stars": 248,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -628,7 +628,7 @@
   },
   "Foxlape/GhostMode": {
    "estado": "vivo",
-   "stars": 126,
+   "stars": 128,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -664,7 +664,7 @@
   },
   "HmnDev-Tech/shevery": {
    "estado": "vivo",
-   "stars": 1605,
+   "stars": 1606,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -676,7 +676,7 @@
   },
   "cr1437/Shizako": {
    "estado": "vivo",
-   "stars": 98,
+   "stars": 100,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -688,7 +688,7 @@
   },
   "rushiranpise/Shizuku-Next": {
    "estado": "vivo",
-   "stars": 1469,
+   "stars": 1475,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -712,7 +712,7 @@
   },
   "thejaustin/ShizukuPlus": {
    "estado": "vivo",
-   "stars": 1709,
+   "stars": 1711,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -724,7 +724,7 @@
   },
   "iamr0s/Dhizuku": {
    "estado": "vivo",
-   "stars": 4087,
+   "stars": 4089,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -736,8 +736,8 @@
   },
   "samolego/Canta": {
    "estado": "vivo",
-   "stars": 6482,
-   "push": "2026-10-31",
+   "stars": 6485,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "LGPL-3.0",
    "lenguaje": "Kotlin",
@@ -748,7 +748,7 @@
   },
   "wxxsfxyzm/InstallerX-Revived": {
    "estado": "vivo",
-   "stars": 7327,
+   "stars": 7332,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -760,8 +760,8 @@
   },
   "pass-with-high-score/universal-installer": {
    "estado": "vivo",
-   "stars": 1686,
-   "push": "2026-11-03",
+   "stars": 1687,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -772,7 +772,7 @@
   },
   "aistra0528/Hail": {
    "estado": "vivo",
-   "stars": 7110,
+   "stars": 7111,
    "push": "2026-10-27",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -784,7 +784,7 @@
   },
   "Hamza417/Inure": {
    "estado": "vivo",
-   "stars": 1989,
+   "stars": 1988,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -796,7 +796,7 @@
   },
   "yume-chan/VolumeManager": {
    "estado": "vivo",
-   "stars": 605,
+   "stars": 606,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -820,7 +820,7 @@
   },
   "eyalm2000/adns": {
    "estado": "vivo",
-   "stars": 743,
+   "stars": 745,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "MIT",
@@ -850,7 +850,7 @@
    "licencia": "Apache-2.0",
    "lenguaje": "Shell",
    "desc": "Bliss — Linux distros, terminal, and a Shizuku virtual-display app cloner",
-   "release": "v1.3.0-527979d",
+   "release": "v1.3.0-4eebfb7",
    "release_fecha": "2026-11-05",
    "stars_pieza": null
   },
@@ -868,7 +868,7 @@
   },
   "readest/readest": {
    "estado": "vivo",
-   "stars": 25969,
+   "stars": 25973,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -880,7 +880,7 @@
   },
   "sigstore/cosign": {
    "estado": "vivo",
-   "stars": 6412,
+   "stars": 6413,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -904,7 +904,7 @@
   },
   "juanfont/headscale": {
    "estado": "vivo",
-   "stars": 45393,
+   "stars": 45397,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "BSD-3-Clause",
@@ -916,7 +916,7 @@
   },
   "rclone/rclone": {
    "estado": "vivo",
-   "stars": 60813,
+   "stars": 60816,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "MIT",
@@ -928,7 +928,7 @@
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
-   "stars": 21224,
+   "stars": 21234,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -952,8 +952,8 @@
   },
   "seedvault-app/seedvault": {
    "estado": "vivo",
-   "stars": 1875,
-   "push": "2026-10-16",
+   "stars": 1877,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": null,
    "lenguaje": "Kotlin",
@@ -988,7 +988,7 @@
   },
   "esphome/esphome": {
    "estado": "vivo",
-   "stars": 12025,
+   "stars": 12027,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1000,7 +1000,7 @@
   },
   "SagerNet/sing-box": {
    "estado": "vivo",
-   "stars": 39651,
+   "stars": 39661,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1012,7 +1012,7 @@
   },
   "M66B/NetGuard": {
    "estado": "vivo",
-   "stars": 3964,
+   "stars": 3965,
    "push": "2026-08-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1048,7 +1048,7 @@
   },
   "hddq/restoid": {
    "estado": "vivo",
-   "stars": 187,
+   "stars": 188,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1060,7 +1060,7 @@
   },
   "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
    "estado": "vivo",
-   "stars": 9750,
+   "stars": 9753,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1072,7 +1072,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97394,
+   "stars": 97411,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1084,7 +1084,7 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 118289,
+   "stars": 118302,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1096,7 +1096,7 @@
   },
   "restic/restic": {
    "estado": "vivo",
-   "stars": 37013,
+   "stars": 37012,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "BSD-2-Clause",
@@ -1108,7 +1108,7 @@
   },
   "mullvad/mullvadvpn-app": {
    "estado": "vivo",
-   "stars": 7742,
+   "stars": 7744,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1120,7 +1120,7 @@
   },
   "netbirdio/netbird": {
    "estado": "vivo",
-   "stars": 30701,
+   "stars": 30708,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1132,7 +1132,7 @@
   },
   "home-assistant/core": {
    "estado": "vivo",
-   "stars": 91987,
+   "stars": 91992,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1144,7 +1144,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 64129,
+   "stars": 64146,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1156,7 +1156,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 154085,
+   "stars": 154104,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1168,7 +1168,7 @@
   },
   "VREMSoftwareDevelopment/WiFiAnalyzer": {
    "estado": "vivo",
-   "stars": 5069,
+   "stars": 5071,
    "push": "2026-10-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1180,7 +1180,7 @@
   },
   "ossf/scorecard": {
    "estado": "vivo",
-   "stars": 5814,
+   "stars": 5813,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1192,7 +1192,7 @@
   },
   "anddea/revanced-patches": {
    "estado": "vivo",
-   "stars": 1935,
+   "stars": 1936,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1228,7 +1228,7 @@
   },
   "MorpheApp/morphe-manager": {
    "estado": "vivo",
-   "stars": 9992,
+   "stars": 9998,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1252,7 +1252,7 @@
   },
   "ReVanced/revanced-manager": {
    "estado": "vivo",
-   "stars": 30072,
+   "stars": 30074,
    "push": "2026-07-29",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1312,7 +1312,7 @@
   },
   "rushiranpise/helper-for-morphe": {
    "estado": "vivo",
-   "stars": 437,
+   "stars": 441,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1324,7 +1324,7 @@
   },
   "MorpheApp/morphe-patches": {
    "estado": "vivo",
-   "stars": 4569,
+   "stars": 4575,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1336,7 +1336,7 @@
   },
   "Jman-Github/Patch-Bundle-Registry": {
    "estado": "vivo",
-   "stars": 726,
+   "stars": 725,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Unlicense",
@@ -1377,7 +1377,7 @@
   },
   "timschneeb/awesome-shizuku": {
    "estado": "vivo",
-   "stars": 10708,
+   "stars": 10707,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1389,8 +1389,8 @@
   },
   "yuliskov/SmartTube": {
    "estado": "vivo",
-   "stars": 35942,
-   "push": "2026-11-03",
+   "stars": 35947,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Java",
@@ -1401,7 +1401,7 @@
   },
   "jellyfin/jellyfin": {
    "estado": "vivo",
-   "stars": 59027,
+   "stars": 59033,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -1425,7 +1425,7 @@
   },
   "jxlarrea/kiosk-satellite": {
    "estado": "vivo",
-   "stars": 2496,
+   "stars": 2497,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1533,8 +1533,8 @@
   },
   "wg-easy/wg-easy": {
    "estado": "vivo",
-   "stars": 27420,
-   "push": "2026-11-04",
+   "stars": 27421,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
    "lenguaje": "TypeScript",
@@ -1545,7 +1545,7 @@
   },
   "hiddify/hiddify-app": {
    "estado": "vivo",
-   "stars": 33658,
+   "stars": 33660,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1569,7 +1569,7 @@
   },
   "AdAway/AdAway": {
    "estado": "vivo",
-   "stars": 9590,
+   "stars": 9589,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1599,8 +1599,8 @@
    "licencia": "GPL-2.0",
    "lenguaje": "ucode",
    "desc": "The Swiss Army knife of OpenWrt networking — sing-box proxy, DPI bypass, Telegram control, atomic self-healing, and per-device routing — all managed from a single Web UI",
-   "release": "1.7.13",
-   "release_fecha": "2026-11-04",
+   "release": "1.7.14",
+   "release_fecha": "2026-11-05",
    "stars_pieza": null
   },
   "ELowry/DNSToggle": {
@@ -1713,7 +1713,7 @@
   },
   "nextcloud/server": {
    "estado": "vivo",
-   "stars": 37424,
+   "stars": 37425,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1725,7 +1725,7 @@
   },
   "researchxxl/syncthing-android": {
    "estado": "vivo",
-   "stars": 3253,
+   "stars": 3255,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "MPL-2.0",
@@ -1797,7 +1797,7 @@
   },
   "dev2ex/twig": {
    "estado": "vivo",
-   "stars": 102,
+   "stars": 103,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1821,7 +1821,7 @@
   },
   "zhanghai/MaterialFiles": {
    "estado": "vivo",
-   "stars": 9393,
+   "stars": 9396,
    "push": "2026-10-15",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1833,7 +1833,7 @@
   },
   "XayahSuSuSu/Android-DataBackup": {
    "estado": "vivo",
-   "stars": 7563,
+   "stars": 7566,
    "push": "2026-10-25",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1851,7 +1851,7 @@
    "licencia": "MIT",
    "lenguaje": "TypeScript",
    "desc": "Mihon & Aniyomi Extensions",
-   "release": "v0.778.0",
+   "release": "v0.779.0",
    "release_fecha": "2026-11-05",
    "stars_pieza": 41
   },
@@ -1879,14 +1879,14 @@
   },
   "keiyoushi/extensions": {
    "estado": "vivo",
-   "stars": 15438,
-   "push": "2026-11-04",
+   "stars": 15439,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": null,
    "lenguaje": "HTML",
    "desc": "Extension repository for Mihon and variants",
-   "release": "ee661f5",
-   "release_fecha": "2026-11-04",
+   "release": "4591fbc-1",
+   "release_fecha": "2026-11-05",
    "stars_pieza": null
   },
   "keiyoushi/extensions-source": {
@@ -1903,7 +1903,7 @@
   },
   "yuzono/tachiyomi-extensions": {
    "estado": "vivo",
-   "stars": 958,
+   "stars": 959,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2096,7 +2096,7 @@
   "ShiroKazane/kotatsu-parsers": {
    "estado": "vivo",
    "stars": 1,
-   "push": "2026-11-02",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -2532,7 +2532,7 @@
   },
   "Kototoro-app/Kototoro": {
    "estado": "vivo",
-   "stars": 671,
+   "stars": 672,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2561,7 +2561,7 @@
   },
   "mihonapp/mihon": {
    "estado": "vivo",
-   "stars": 25042,
+   "stars": 25044,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2573,7 +2573,7 @@
   },
   "komikku-app/anikku": {
    "estado": "vivo",
-   "stars": 1130,
+   "stars": 1133,
    "push": "2026-10-22",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2585,7 +2585,7 @@
   },
   "recloudstream/cloudstream": {
    "estado": "vivo",
-   "stars": 11162,
+   "stars": 11163,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2597,7 +2597,7 @@
   },
   "kodjodevf/mangayomi": {
    "estado": "vivo",
-   "stars": 4372,
+   "stars": 4380,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2610,7 +2610,7 @@
   "UsagiApp/usagi": {
    "estado": "vivo",
    "stars": 290,
-   "push": "2026-11-03",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -2621,7 +2621,7 @@
   },
   "LNReader/lnreader": {
    "estado": "vivo",
-   "stars": 2956,
+   "stars": 2957,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
@@ -2633,7 +2633,7 @@
   },
   "Aidoku/Aidoku": {
    "estado": "vivo",
-   "stars": 4701,
+   "stars": 4703,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2645,7 +2645,7 @@
   },
   "Suwayomi/Suwayomi-Server": {
    "estado": "vivo",
-   "stars": 8015,
+   "stars": 8018,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MPL-2.0",
@@ -2657,7 +2657,7 @@
   },
   "Jays2Kings/tachiyomiJ2K": {
    "estado": "vivo",
-   "stars": 5405,
+   "stars": 5406,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2669,7 +2669,7 @@
   },
   "jobobby04/TachiyomiSY": {
    "estado": "vivo",
-   "stars": 4201,
+   "stars": 4203,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2681,7 +2681,7 @@
   },
   "komikku-app/komikku": {
    "estado": "vivo",
-   "stars": 4984,
+   "stars": 4985,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2693,8 +2693,8 @@
   },
   "nekomangaorg/Neko": {
    "estado": "vivo",
-   "stars": 2823,
-   "push": "2026-11-04",
+   "stars": 2824,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
@@ -2705,7 +2705,7 @@
   },
   "null2264/yokai": {
    "estado": "vivo",
-   "stars": 1916,
+   "stars": 1917,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2717,7 +2717,7 @@
   },
   "ruzhe85/MihonSY": {
    "estado": "vivo",
-   "stars": 50,
+   "stars": 51,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2729,7 +2729,7 @@
   },
   "unseensnick/Reikai": {
    "estado": "vivo",
-   "stars": 45,
+   "stars": 46,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2753,7 +2753,7 @@
   },
   "HayaiApp/hayai": {
    "estado": "vivo",
-   "stars": 49,
+   "stars": 50,
    "push": "2026-10-03",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2765,7 +2765,7 @@
   },
   "Seguaz/Nekoyomi": {
    "estado": "vivo",
-   "stars": 48,
+   "stars": 49,
    "push": "2026-09-11",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2777,7 +2777,7 @@
   },
   "Ero-gamer/Kotatsu-Next": {
    "estado": "vivo",
-   "stars": 33,
+   "stars": 34,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2825,7 +2825,7 @@
   },
   "Nyora-Manga/nyora-android": {
    "estado": "vivo",
-   "stars": 59,
+   "stars": 60,
    "push": "2026-09-23",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2849,7 +2849,7 @@
   },
   "Suwayomi/Suwayomi-Tsumiru": {
    "estado": "vivo",
-   "stars": 112,
+   "stars": 113,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "MPL-2.0",
@@ -2921,7 +2921,7 @@
   },
   "aniyomiorg/aniyomi": {
    "estado": "vivo",
-   "stars": 7868,
+   "stars": 7871,
    "push": "2026-09-14",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2933,7 +2933,7 @@
   },
   "professorDeveloper/sozo": {
    "estado": "vivo",
-   "stars": 111,
+   "stars": 112,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3005,7 +3005,7 @@
   },
   "5rahim/seanime": {
    "estado": "vivo",
-   "stars": 4306,
+   "stars": 4307,
    "push": "2026-10-14",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3089,7 +3089,7 @@
   },
   "IReaderorg/IReader": {
    "estado": "vivo",
-   "stars": 985,
+   "stars": 986,
    "push": "2026-10-28",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3149,7 +3149,7 @@
   },
   "iptv-org/iptv": {
    "estado": "vivo",
-   "stars": 143285,
+   "stars": 143311,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Unlicense",
@@ -3161,7 +3161,7 @@
   },
   "Accrescent/Accrescent": {
    "estado": "vivo",
-   "stars": 2308,
+   "stars": 2307,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3185,7 +3185,7 @@
   },
   "samyak2403/RepoStore": {
    "estado": "vivo",
-   "stars": 1380,
+   "stars": 1381,
    "push": "2026-10-29",
    "archivado": false,
    "licencia": "MIT",
@@ -3197,8 +3197,8 @@
   },
   "NuvioMedia/NuvioMobile": {
    "estado": "vivo",
-   "stars": 4408,
-   "push": "2026-11-04",
+   "stars": 4411,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -3209,7 +3209,7 @@
   },
   "NuvioMedia/NuvioTV": {
    "estado": "vivo",
-   "stars": 3369,
+   "stars": 3368,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3233,7 +3233,7 @@
   },
   "NuvioMedia/NuvioTVSmart": {
    "estado": "vivo",
-   "stars": 848,
+   "stars": 849,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3257,8 +3257,8 @@
   },
   "Viren070/AIOStreams": {
    "estado": "vivo",
-   "stars": 3105,
-   "push": "2026-11-04",
+   "stars": 3104,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
    "lenguaje": "TypeScript",
@@ -3270,7 +3270,7 @@
   "alpinezx/easy-aiostreams": {
    "estado": "vivo",
    "stars": 57,
-   "push": "2026-11-04",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Shell",
@@ -3306,7 +3306,7 @@
   "Eful97/Pictorium": {
    "estado": "vivo",
    "stars": 91,
-   "push": "2026-11-04",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
    "lenguaje": "TypeScript",
@@ -3318,13 +3318,13 @@
   "SkipDB-TV/skipdb": {
    "estado": "vivo",
    "stars": 38,
-   "push": "2026-11-04",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
    "lenguaje": "TypeScript",
    "desc": "Open, crowdsourced skip timestamps for movies & TV.  Intros, recaps, outros and \"next-time\" previews - contributed by people, reviewed by the community, and **published openly** so the data can never be quietly locked away or sold off.",
-   "release": "data-2026-11-04",
-   "release_fecha": "2026-11-04",
+   "release": "data-2026-11-05",
+   "release_fecha": "2026-11-05",
    "stars_pieza": null
   },
   "atharvkharbade/anisync-addon": {
@@ -3377,7 +3377,7 @@
   },
   "stupside/castor": {
    "estado": "vivo",
-   "stars": 2528,
+   "stars": 2529,
    "push": "2026-10-28",
    "archivado": false,
    "licencia": "MIT",
@@ -3389,7 +3389,7 @@
   },
   "grimmory-tools/grimmory": {
    "estado": "vivo",
-   "stars": 4657,
+   "stars": 4659,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3401,7 +3401,7 @@
   },
   "koreader/koreader": {
    "estado": "vivo",
-   "stars": 30880,
+   "stars": 30885,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3425,8 +3425,8 @@
   },
   "edrlab/thorium-reader": {
    "estado": "vivo",
-   "stars": 2932,
-   "push": "2026-11-04",
+   "stars": 2933,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "BSD-3-Clause",
    "lenguaje": "TypeScript",
@@ -3437,7 +3437,7 @@
   },
   "kovidgoyal/calibre": {
    "estado": "vivo",
-   "stars": 26351,
+   "stars": 26353,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3449,7 +3449,7 @@
   },
   "ahrm/sioyek": {
    "estado": "vivo",
-   "stars": 9976,
+   "stars": 9975,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3473,7 +3473,7 @@
   },
   "booklore-app/booklore": {
    "estado": "vivo",
-   "stars": 1333,
+   "stars": 1334,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3497,7 +3497,7 @@
   },
   "ahXN00/OwnTV": {
    "estado": "vivo",
-   "stars": 729,
+   "stars": 730,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3605,7 +3605,7 @@
   },
   "Chimahon/chimahon": {
    "estado": "vivo",
-   "stars": 246,
+   "stars": 247,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3713,7 +3713,7 @@
   },
   "navidrome/navidrome": {
    "estado": "vivo",
-   "stars": 24535,
+   "stars": 24539,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3725,7 +3725,7 @@
   },
   "ampache/ampache": {
    "estado": "vivo",
-   "stars": 3844,
+   "stars": 3845,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3737,7 +3737,7 @@
   },
   "koel/koel": {
    "estado": "vivo",
-   "stars": 17334,
+   "stars": 17333,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -3749,7 +3749,7 @@
   },
   "blackcandy-org/blackcandy": {
    "estado": "vivo",
-   "stars": 4429,
+   "stars": 4430,
    "push": "2026-10-21",
    "archivado": false,
    "licencia": "MIT",
@@ -3773,7 +3773,7 @@
   },
   "mopidy/mopidy": {
    "estado": "vivo",
-   "stars": 8610,
+   "stars": 8609,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3833,7 +3833,7 @@
   },
   "jeffvli/feishin": {
    "estado": "vivo",
-   "stars": 10332,
+   "stars": 10336,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3857,7 +3857,7 @@
   },
   "strawberrymusicplayer/strawberry": {
    "estado": "vivo",
-   "stars": 4059,
+   "stars": 4061,
    "push": "2026-10-23",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3881,8 +3881,8 @@
   },
   "nukeop/nuclear": {
    "estado": "vivo",
-   "stars": 18878,
-   "push": "2026-11-04",
+   "stars": 18877,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
    "lenguaje": "TypeScript",
@@ -3893,7 +3893,7 @@
   },
   "team-spotube/spotube": {
    "estado": "vivo",
-   "stars": 50610,
+   "stars": 50608,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3905,7 +3905,7 @@
   },
   "Taiko2k/Tauon": {
    "estado": "vivo",
-   "stars": 2954,
+   "stars": 2956,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3929,7 +3929,7 @@
   },
   "harmonoid/harmonoid": {
    "estado": "vivo",
-   "stars": 4801,
+   "stars": 4803,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -3953,7 +3953,7 @@
   },
   "OuterTune/OuterTune": {
    "estado": "vivo",
-   "stars": 5443,
+   "stars": 5444,
    "push": "2026-10-12",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3977,7 +3977,7 @@
   },
   "OxygenCobalt/Auxio": {
    "estado": "vivo",
-   "stars": 4425,
+   "stars": 4426,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4001,7 +4001,7 @@
   },
   "vfsfitvnm/ViMusic": {
    "estado": "vivo",
-   "stars": 9468,
+   "stars": 9467,
    "push": "2024-07-15",
    "archivado": true,
    "licencia": "GPL-3.0",
@@ -4013,7 +4013,7 @@
   },
   "advplyr/audiobookshelf": {
    "estado": "vivo",
-   "stars": 14916,
+   "stars": 14919,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4038,7 +4038,7 @@
   "TortugaPower/BookPlayer": {
    "estado": "vivo",
    "stars": 2275,
-   "push": "2026-11-02",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Swift",
@@ -4049,7 +4049,7 @@
   },
   "rmcrackan/Libation": {
    "estado": "vivo",
-   "stars": 6401,
+   "stars": 6402,
    "push": "2026-10-27",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4098,7 +4098,7 @@
   "metabrainz/picard": {
    "estado": "vivo",
    "stars": 5350,
-   "push": "2026-11-04",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-2.0",
    "lenguaje": "Python",
@@ -4109,8 +4109,8 @@
   },
   "beetbox/beets": {
    "estado": "vivo",
-   "stars": 15895,
-   "push": "2026-11-04",
+   "stars": 15894,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Python",
@@ -4157,7 +4157,7 @@
   },
   "FFmpeg/FFmpeg": {
    "estado": "vivo",
-   "stars": 66537,
+   "stars": 66551,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -4181,7 +4181,7 @@
   },
   "yt-dlp/yt-dlp": {
    "estado": "vivo",
-   "stars": 205388,
+   "stars": 205445,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Unlicense",
@@ -4193,7 +4193,7 @@
   },
   "imputnet/cobalt": {
    "estado": "vivo",
-   "stars": 45811,
+   "stars": 45813,
    "push": "2026-04-06",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -4205,7 +4205,7 @@
   },
   "librespot-org/librespot": {
    "estado": "vivo",
-   "stars": 7368,
+   "stars": 7370,
    "push": "2026-10-21",
    "archivado": false,
    "licencia": "MIT",
@@ -4217,7 +4217,7 @@
   },
   "Spotifyd/spotifyd": {
    "estado": "vivo",
-   "stars": 10822,
+   "stars": 10824,
    "push": "2026-05-28",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4289,7 +4289,7 @@
   },
   "OpenSelena/omniget": {
    "estado": "vivo",
-   "stars": 3952,
+   "stars": 4107,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4301,19 +4301,19 @@
   },
   "Clash-Projects/LastWave-Native": {
    "estado": "vivo",
-   "stars": 2523,
+   "stars": 2534,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
-   "desc": "Next-Gen YouTube Music Client with Liquid Glass UI , Algorithmic Smart Playlist Generator, Real-Time Synced Lyrics & Universal Last.fm Scrobbler for Android.",
+   "desc": "Simple Android YouTube Music client with Material UI, Liquid Glass, Bit-Perfect playback, Automix, Lossless addons & advanced audiophile features.",
    "release": "5.0.0",
    "release_fecha": "2026-10-30",
    "stars_pieza": null
   },
   "SimoHypers/limusic": {
    "estado": "vivo",
-   "stars": 1809,
+   "stars": 1810,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4325,7 +4325,7 @@
   },
   "kushagrasinghx/BitChord": {
    "estado": "vivo",
-   "stars": 5721,
+   "stars": 5764,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4337,7 +4337,7 @@
   },
   "sonorahq/sonora": {
    "estado": "vivo",
-   "stars": 2640,
+   "stars": 2649,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4349,7 +4349,7 @@
   },
   "LUC4N3X/Levyra-deepsound": {
    "estado": "vivo",
-   "stars": 2083,
+   "stars": 2039,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4361,7 +4361,7 @@
   },
   "EchoMusicApp/Echo-Music": {
    "estado": "vivo",
-   "stars": 2295,
+   "stars": 2299,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4373,7 +4373,7 @@
   },
   "Clash-Projects/LastWave-Desktop": {
    "estado": "vivo",
-   "stars": 938,
+   "stars": 946,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": null,
@@ -4397,7 +4397,7 @@
   },
   "missuo/kumone": {
    "estado": "vivo",
-   "stars": 1286,
+   "stars": 1288,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "LGPL-3.0",
@@ -4409,7 +4409,7 @@
   },
   "kota-zo/myspoti": {
    "estado": "vivo",
-   "stars": 1320,
+   "stars": 1364,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4433,7 +4433,7 @@
   },
   "Lelonio/Square": {
    "estado": "vivo",
-   "stars": 485,
+   "stars": 484,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4482,13 +4482,13 @@
   "aome510/spotify-player": {
    "estado": "vivo",
    "stars": 7302,
-   "push": "2026-09-19",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Rust",
    "desc": "A Spotify player in the terminal with full feature parity",
-   "release": "v0.25.1",
-   "release_fecha": "2026-09-09",
+   "release": "v0.25.2",
+   "release_fecha": "2026-11-05",
    "stars_pieza": null
   },
   "kraxarn/spotify-qt": {
@@ -4505,7 +4505,7 @@
   },
   "jpochyla/psst": {
    "estado": "vivo",
-   "stars": 9506,
+   "stars": 9507,
    "push": "2026-08-18",
    "archivado": false,
    "licencia": "MIT",
@@ -4529,7 +4529,7 @@
   },
   "Rigellute/spotify-tui": {
    "estado": "vivo",
-   "stars": 19416,
+   "stars": 19417,
    "push": "2024-04-04",
    "archivado": false,
    "licencia": "MIT",
@@ -4565,7 +4565,7 @@
   },
   "TeamNewPipe/NewPipeExtractor": {
    "estado": "vivo",
-   "stars": 2039,
+   "stars": 2040,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4589,7 +4589,7 @@
   },
   "aria2/aria2": {
    "estado": "vivo",
-   "stars": 43413,
+   "stars": 43412,
    "push": "2026-06-25",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -4637,7 +4637,7 @@
   },
   "lwthiker/curl-impersonate": {
    "estado": "vivo",
-   "stars": 7172,
+   "stars": 7173,
    "push": "2024-07-18",
    "archivado": false,
    "licencia": "MIT",
@@ -4685,7 +4685,7 @@
   },
   "Xmader/aria-ng-gui-android": {
    "estado": "vivo",
-   "stars": 880,
+   "stars": 879,
    "push": "2023-01-04",
    "archivado": false,
    "licencia": "MIT",
@@ -4709,7 +4709,7 @@
   },
   "GopeedLab/gopeed": {
    "estado": "vivo",
-   "stars": 27403,
+   "stars": 27402,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4721,7 +4721,7 @@
   },
   "agalwood/Motrix": {
    "estado": "vivo",
-   "stars": 57827,
+   "stars": 57837,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -4733,7 +4733,7 @@
   },
   "subhra74/xdm": {
    "estado": "vivo",
-   "stars": 8301,
+   "stars": 8306,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4745,7 +4745,7 @@
   },
   "Tyrrrz/YoutubeDownloader": {
    "estado": "vivo",
-   "stars": 16631,
+   "stars": 16633,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "MIT",
@@ -4781,7 +4781,7 @@
   },
   "deniscerri/ytdlnis": {
    "estado": "vivo",
-   "stars": 10972,
+   "stars": 10976,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4805,7 +4805,7 @@
   },
   "JunkFood02/Seal": {
    "estado": "vivo",
-   "stars": 30353,
+   "stars": 30357,
    "push": "2026-09-25",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4829,7 +4829,7 @@
   },
   "soimort/you-get": {
    "estado": "vivo",
-   "stars": 56862,
+   "stars": 56863,
    "push": "2026-10-06",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -4841,7 +4841,7 @@
   },
   "mikf/gallery-dl": {
    "estado": "vivo",
-   "stars": 20384,
+   "stars": 20386,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -4853,7 +4853,7 @@
   },
   "AnInsomniacy/rayburst": {
    "estado": "vivo",
-   "stars": 11382,
+   "stars": 11384,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "MIT",
@@ -4865,7 +4865,7 @@
   },
   "rawnaldclark/Stash": {
    "estado": "vivo",
-   "stars": 1557,
+   "stars": 1559,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4889,7 +4889,7 @@
   },
   "FortoGraphy/prism-download-manager": {
    "estado": "vivo",
-   "stars": 752,
+   "stars": 754,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "MIT",
@@ -4901,14 +4901,14 @@
   },
   "mesamirh/MovieBox-Tui": {
    "estado": "vivo",
-   "stars": 2764,
-   "push": "2026-11-04",
+   "stars": 2765,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Rust",
    "desc": "Terminal interface to find, download, and stream movies, TV shows, and live TV using local media players.",
-   "release": "v0.1.28",
-   "release_fecha": "2026-10-29",
+   "release": "v0.1.29",
+   "release_fecha": "2026-11-05",
    "stars_pieza": null
   },
   "arnoldhao/xiadown": {
@@ -4949,7 +4949,7 @@
   },
   "anacrolix/torrent": {
    "estado": "vivo",
-   "stars": 6132,
+   "stars": 6133,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "MPL-2.0",
@@ -4961,7 +4961,7 @@
   },
   "uutils/coreutils": {
    "estado": "vivo",
-   "stars": 24331,
+   "stars": 24332,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "MIT",
@@ -5009,7 +5009,7 @@
   },
   "openai/whisper": {
    "estado": "vivo",
-   "stars": 111998,
+   "stars": 112016,
    "push": "2026-08-31",
    "archivado": false,
    "licencia": "MIT",
@@ -5021,7 +5021,7 @@
   },
   "HeliBorg/HeliBoard": {
    "estado": "vivo",
-   "stars": 6501,
+   "stars": 6502,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5033,7 +5033,7 @@
   },
   "florisboard/florisboard": {
    "estado": "vivo",
-   "stars": 8755,
+   "stars": 8756,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -5081,7 +5081,7 @@
   },
   "osfans/trime": {
    "estado": "vivo",
-   "stars": 4771,
+   "stars": 4772,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5093,7 +5093,7 @@
   },
   "scholay-xsime/xsime": {
    "estado": "vivo",
-   "stars": 1179,
+   "stars": 1187,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -5165,7 +5165,7 @@
   },
   "BryceWG/BiBi-Keyboard": {
    "estado": "vivo",
-   "stars": 861,
+   "stars": 862,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -5177,7 +5177,7 @@
   },
   "Akshayykadam/PixelBoard": {
    "estado": "vivo",
-   "stars": 1423,
+   "stars": 1426,
    "push": "2026-10-28",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5189,7 +5189,7 @@
   },
   "wasi-master/wmkeyboard": {
    "estado": "vivo",
-   "stars": 734,
+   "stars": 737,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "MIT",
@@ -5213,7 +5213,7 @@
   },
   "Cyletix/CyIME": {
    "estado": "vivo",
-   "stars": 659,
+   "stars": 670,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5237,7 +5237,7 @@
   },
   "cjpais/Handy": {
    "estado": "vivo",
-   "stars": 37592,
+   "stars": 37621,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "MIT",
@@ -5249,7 +5249,7 @@
   },
   "anomalyco/hex": {
    "estado": "vivo",
-   "stars": 5172,
+   "stars": 5219,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "MIT",
@@ -5261,8 +5261,8 @@
   },
   "Open-Less/openless": {
    "estado": "vivo",
-   "stars": 4052,
-   "push": "2026-11-02",
+   "stars": 4054,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
    "lenguaje": "Rust",
@@ -5273,7 +5273,7 @@
   },
   "altic-dev/FluidVoice": {
    "estado": "vivo",
-   "stars": 12818,
+   "stars": 12825,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5333,7 +5333,7 @@
   },
   "opennookorg/betterwispr": {
    "estado": "vivo",
-   "stars": 505,
+   "stars": 507,
    "push": "2026-10-24",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -5345,7 +5345,7 @@
   },
   "SYSTRAN/faster-whisper": {
    "estado": "vivo",
-   "stars": 26495,
+   "stars": 26500,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "MIT",
@@ -5357,7 +5357,7 @@
   },
   "Automattic/harper": {
    "estado": "vivo",
-   "stars": 17416,
+   "stars": 17421,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -5369,7 +5369,7 @@
   },
   "languagetool-org/languagetool": {
    "estado": "vivo",
-   "stars": 15234,
+   "stars": 15233,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "LGPL-2.1",
@@ -5398,7 +5398,7 @@
   },
   "mytv-android/mytv-android": {
    "estado": "vivo",
-   "stars": 3006,
+   "stars": 3007,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "MIT",
@@ -5446,7 +5446,7 @@
   },
   "armanmaurya/InternetRadio": {
    "estado": "vivo",
-   "stars": 180,
+   "stars": 181,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5566,7 +5566,7 @@
   },
   "Davidona/StreamVault-IPTV": {
    "estado": "vivo",
-   "stars": 1002,
+   "stars": 1006,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -5578,7 +5578,7 @@
   },
   "bilipp/Lume": {
    "estado": "vivo",
-   "stars": 176,
+   "stars": 177,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -5591,7 +5591,7 @@
   "infinitel8p/Extreme-InfiniTV": {
    "estado": "vivo",
    "stars": 208,
-   "push": "2026-11-02",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "TypeScript",
@@ -5710,7 +5710,7 @@
   },
   "AzuraCast/AzuraCast": {
    "estado": "vivo",
-   "stars": 4085,
+   "stars": 4084,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -5734,7 +5734,7 @@
   },
   "streamlink/streamlink": {
    "estado": "vivo",
-   "stars": 11896,
+   "stars": 11895,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "BSD-2-Clause",
@@ -5751,7 +5751,7 @@
   },
   "animiruorg/Animiru": {
    "estado": "vivo",
-   "stars": 907,
+   "stars": 908,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5764,7 +5764,7 @@
   "UsagiApp/Usagi": {
    "estado": "vivo",
    "stars": 290,
-   "push": "2026-11-03",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -5775,7 +5775,7 @@
   },
   "HuzaifaKhalid1311/DropSauce": {
    "estado": "vivo",
-   "stars": 229,
+   "stars": 230,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5787,7 +5787,7 @@
   },
   "AppFuton/Futon": {
    "estado": "vivo",
-   "stars": 477,
+   "stars": 478,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5817,7 +5817,7 @@
   "dessalines/thumb-key": {
    "estado": "vivo",
    "stars": 1572,
-   "push": "2026-11-04",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
    "lenguaje": "Kotlin",
@@ -5828,7 +5828,7 @@
   },
   "fcitx5-android/fcitx5-android": {
    "estado": "vivo",
-   "stars": 5842,
+   "stars": 5843,
    "push": "2026-10-13",
    "archivado": false,
    "licencia": "LGPL-2.1",
@@ -5840,7 +5840,7 @@
   },
   "futo-org/android-keyboard": {
    "estado": "vivo",
-   "stars": 3440,
+   "stars": 3441,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -5848,6 +5848,280 @@
    "desc": "Official FUTO Keyboard Issue Tracker and Source Mirror of https://gitlab.futo.org/keyboard/latinime",
    "release": "0.1.30",
    "release_fecha": "2026-08-04",
+   "stars_pieza": null
+  },
+  "system/bin": {
+   "estado": "muerto",
+   "motivo": "Not Found",
+   "stars_pieza": null
+  },
+  "system/etc": {
+   "estado": "muerto",
+   "motivo": "Not Found",
+   "stars_pieza": null
+  },
+  "fahrez182/AxManager": {
+   "estado": "vivo",
+   "stars": 1553,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "AxManager is an Android application designed to provide deeper control over apps and the system.",
+   "release": "v3.0.0",
+   "release_fecha": "2026-10-29",
+   "stars_pieza": null
+  },
+  "fahrez182/Axeron-API": {
+   "estado": "vivo",
+   "stars": 22,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "Axeron API to connect with axeron_server",
+   "release": "3.0.0",
+   "release_fecha": "2026-10-29",
+   "stars_pieza": null
+  },
+  "corvexis/Axora": {
+   "estado": "vivo",
+   "stars": 19,
+   "push": "2026-10-21",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "A fork of AxManager aimed at minimalism",
+   "release": "26.10.21",
+   "release_fecha": "2026-10-21",
+   "stars_pieza": null
+  },
+  "abysssnare/Axmanager-modle": {
+   "estado": "vivo",
+   "stars": 28,
+   "push": "2026-10-05",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Shell",
+   "desc": "AXManager 30个系统工具插件 - ADB Shell - Material 3 WebUI - 免Root",
+   "release": "v2.1.0",
+   "release_fecha": "2026-09-12",
+   "stars_pieza": null
+  },
+  "ScarletHanami/Network_Enhance": {
+   "estado": "vivo",
+   "stars": 25,
+   "push": "2026-07-29",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Shell",
+   "desc": "AxManager 免Root网络优化模块 | 5G假满格自动降级4G | 游戏模式锁定LTE防4G+跳频 | 多品牌兼容",
+   "release": "v1.1.6",
+   "release_fecha": "2026-07-29",
+   "stars_pieza": null
+  },
+  "bufanchen121101/AxManagerD": {
+   "estado": "vivo",
+   "stars": 51,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Kotlin",
+   "desc": "AxManagerD｜免 Root 的模块化扩展框架。以 Magisk 式模块系统为核心：系统属性注入、开机自启、自定义脚本、运行时模块与数据采集，内置免 Root Xposed 注入引擎与 AI 脚本追踪；设备所有者（DO / PO / DP）为附加能力，提供应用隐藏、挂起、权限管控与一键重启。",
+   "release": "v1.4.0",
+   "release_fecha": "2026-10-31",
+   "stars_pieza": null
+  },
+  "topjohnwu/Magisk": {
+   "estado": "vivo",
+   "stars": 63786,
+   "push": "2026-10-27",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "The Magic Mask for Android",
+   "release": "v31.1",
+   "release_fecha": "2026-10-25",
+   "stars_pieza": null
+  },
+  "tiann/KernelSU": {
+   "estado": "vivo",
+   "stars": 20128,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "A Kernel based root solution for Android",
+   "release": "v3.3.1",
+   "release_fecha": "2026-10-12",
+   "stars_pieza": null
+  },
+  "KernelSU-Next/KernelSU-Next": {
+   "estado": "vivo",
+   "stars": 4732,
+   "push": "2026-11-05",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "C",
+   "desc": "An advanced Kernel based root solution for Android",
+   "release": "v3.4.2",
+   "release_fecha": "2026-10-13",
+   "stars_pieza": null
+  },
+  "SukiSU-Ultra/SukiSU-Ultra": {
+   "estado": "vivo",
+   "stars": 6898,
+   "push": "2026-11-05",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Kernel-based Android Root Solution & KPM",
+   "release": "v4.3.0-r1",
+   "release_fecha": "2026-11-03",
+   "stars_pieza": null
+  },
+  "bmax121/APatch": {
+   "estado": "vivo",
+   "stars": 8129,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "The patching of Android kernel and Android system",
+   "release": "11282",
+   "release_fecha": "2026-10-15",
+   "stars_pieza": null
+  },
+  "Baka-SU/BakaSU": {
+   "estado": "vivo",
+   "stars": 2112,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "A KernelSU based root solution for Android",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "Magisk-Modules-Alt-Repo/json": {
+   "estado": "vivo",
+   "stars": 131,
+   "push": "2026-11-05",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Python",
+   "desc": "Magisk Manager JSON file generation for the repository list",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "Magisk-Modules-Alt-Repo/submission": {
+   "estado": "vivo",
+   "stars": 290,
+   "push": "2026-09-27",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": null,
+   "desc": "Information regarding the submission of Magisk Modules to the Alt-Repo.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "MMRLApp/MMRL": {
+   "estado": "vivo",
+   "stars": 2237,
+   "push": "2026-10-25",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "A app for managing, sharing, and exploring Magisk modules across repositories",
+   "release": "v34296",
+   "release_fecha": "2026-03-08",
+   "stars_pieza": null
+  },
+  "Fox2Code/FoxMagiskModuleManager": {
+   "estado": "vivo",
+   "stars": 2208,
+   "push": "2023-05-03",
+   "archivado": true,
+   "licencia": "LGPL-3.0",
+   "lenguaje": "Java",
+   "desc": "A module manager for Magisk because the official app dropped support for it",
+   "release": "v2.0.2",
+   "release_fecha": "2023-05-02",
+   "stars_pieza": null
+  },
+  "MRepoApp/MRepo": {
+   "estado": "vivo",
+   "stars": 1118,
+   "push": "2024-07-02",
+   "archivado": true,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "A modules manager for Magisk, KernelSU and APatch",
+   "release": "v2.5.0",
+   "release_fecha": "2024-07-02",
+   "stars_pieza": null
+  },
+  "Androidacy/MagiskModuleManager": {
+   "estado": "vivo",
+   "stars": 1240,
+   "push": "2026-04-09",
+   "archivado": false,
+   "licencia": "LGPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Previously known as Fox's Magisk Module Manager (FoxMMM), this app helps users find, install \"Magisk Modules\" - powerful little zips/apps for your device that plug into the Magisk framework.",
+   "release": "v2.3.8-1",
+   "release_fecha": "2025-03-31",
+   "stars_pieza": null
+  },
+  "LSPosed/LSPosed": {
+   "estado": "vivo",
+   "stars": 25351,
+   "push": "2026-10-14",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "desc": "LSPosed Framework",
+   "release": "v1.9.2",
+   "release_fecha": "2023-10-11",
+   "stars_pieza": null
+  },
+  "JingMatrix/Vector": {
+   "estado": "vivo",
+   "stars": 13042,
+   "push": "2026-11-05",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Modern Xposed Framework",
+   "release": "v2.2",
+   "release_fecha": "2026-08-04",
+   "stars_pieza": null
+  },
+  "Dr-TSNG/ZygiskNext": {
+   "estado": "vivo",
+   "stars": 10817,
+   "push": "2026-10-15",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "C",
+   "desc": "Standalone implementation of Zygisk",
+   "release": "v1.5.2",
+   "release_fecha": "2026-10-15",
+   "stars_pieza": null
+  },
+  "5ec1cff/TrickyStore": {
+   "estado": "vivo",
+   "stars": 6455,
+   "push": "2025-11-30",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": null,
+   "desc": "",
+   "release": "1.4.1",
+   "release_fecha": "2025-11-02",
    "stars_pieza": null
   }
  },
@@ -5980,6 +6254,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/5ec1cff/TrickyStore": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/5rahim/seanime": {
    "codigo": "200",
    "veredicto": "responde"
@@ -6032,6 +6310,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Androidacy/MagiskModuleManager": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/AngeloSha/uchiyomi": {
    "codigo": "200",
    "veredicto": "responde"
@@ -6045,8 +6327,8 @@
    "veredicto": "responde"
   },
   "https://github.com/AnySoftKeyboard/AnySoftKeyboard/blob/main/ime/addons/quick_text/src/main/res/xml/quick_text_keys.xml": {
-   "codigo": "429",
-   "veredicto": "no deja entrar a un robot"
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://github.com/AppFuton/Futon": {
    "codigo": "200",
@@ -6069,6 +6351,10 @@
    "veredicto": "responde"
   },
   "https://github.com/AzuraCast/AzuraCast": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Baka-SU/BakaSU": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -6136,6 +6422,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Dr-TSNG/ZygiskNext": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Dreamucxe/GameCore": {
    "codigo": "200",
    "veredicto": "responde"
@@ -6181,6 +6471,10 @@
    "veredicto": "responde"
   },
   "https://github.com/FortoGraphy/prism-download-manager": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Fox2Code/FoxMagiskModuleManager": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -6272,6 +6566,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/JingMatrix/Vector": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Jman-Github/Patch-Bundle-Registry": {
    "codigo": "200",
    "veredicto": "responde"
@@ -6300,6 +6598,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/KernelSU-Next/KernelSU-Next": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/KotatsuApp/Kotatsu": {
    "codigo": "200",
    "veredicto": "responde"
@@ -6321,6 +6623,10 @@
    "veredicto": "responde"
   },
   "https://github.com/LNReader/lnreader": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/LSPosed/LSPosed": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -6353,6 +6659,22 @@
    "veredicto": "responde"
   },
   "https://github.com/M66B/NetGuard": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/MMRLApp/MMRL": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/MRepoApp/MRepo": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Magisk-Modules-Alt-Repo/json": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Magisk-Modules-Alt-Repo/submission": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -6540,6 +6862,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/ScarletHanami/Network_Enhance": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Schnitzel5/ApkBridge": {
    "codigo": "200",
    "veredicto": "responde"
@@ -6589,6 +6915,10 @@
    "veredicto": "responde"
   },
   "https://github.com/Stiven-Gjekaj/Moekoma": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/SukiSU-Ultra/SukiSU-Ultra": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -6725,6 +7055,10 @@
    "veredicto": "responde"
   },
   "https://github.com/abapqlcm/AuroraVPN": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/abysssnare/Axmanager-modle": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -6876,6 +7210,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/bmax121/APatch": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/booklore-app/booklore": {
    "codigo": "200",
    "veredicto": "responde"
@@ -6885,6 +7223,10 @@
    "veredicto": "responde"
   },
   "https://github.com/bsogulcan/another-iptv-player": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/bufanchen121101/AxManagerD": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -6921,6 +7263,10 @@
    "veredicto": "responde"
   },
   "https://github.com/coldMEW/Hush": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/corvexis/Axora": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -7013,6 +7359,14 @@
    "veredicto": "responde"
   },
   "https://github.com/f-droid/fdroidclient": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/fahrez182/AxManager": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/fahrez182/Axeron-API": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -7281,6 +7635,58 @@
    "veredicto": "responde"
   },
   "https://github.com/krishna3163/OmniShizuku": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/krishna3163/OmniShizuku/blob/main/.github/workflows/apk-build.yml": {
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
+  },
+  "https://github.com/krishna3163/OmniShizuku/blob/main/PONYTAIL.md": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/krishna3163/OmniShizuku/blob/main/README.es.md": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/krishna3163/OmniShizuku/blob/main/build.gradle": {
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
+  },
+  "https://github.com/krishna3163/OmniShizuku/blob/main/manager/build.gradle": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/krishna3163/OmniShizuku/blob/main/manager/src/main/java/moe/shizuku/manager/ShizukuApplication.kt": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/krishna3163/OmniShizuku/blob/main/remaining.md": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/krishna3163/OmniShizuku/blob/main/stub/build.gradle": {
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
+  },
+  "https://github.com/krishna3163/OmniShizuku/commit/937fc143": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/krishna3163/OmniShizuku/commit/cce6249a": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/krishna3163/OmniShizuku/releases": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/krishna3163/OmniShizuku/releases/tag/1.0v": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/krishna3163/OmniShizuku/releases/tag/latest": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -7788,6 +8194,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/tiann/KernelSU": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/timschneeb/RootlessJamesDSP": {
    "codigo": "200",
    "veredicto": "responde"
@@ -7797,6 +8207,10 @@
    "veredicto": "responde"
   },
   "https://github.com/timschneeb/tachiyomi-extensions-archive": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/topjohnwu/Magisk": {
    "codigo": "200",
    "veredicto": "responde"
   },

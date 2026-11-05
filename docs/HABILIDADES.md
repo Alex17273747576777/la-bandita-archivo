@@ -412,3 +412,20 @@ python3 tools/catalogo_lint.py          # 0 fallos
 
 Y cuando la herramienta avisa `! sin medir en el racimo`, el nombre que imprime es el dato: se copia de
 `recursos.json` y se vuelve a medir el slug, nunca se escribe de memoria.
+
+## H29 · Medir antes de generar, y no dar por bueno un cierre vacío
+
+**Origen:** E48. Un envío sin cierre no falla: se genera igual, más corto y sin etiquetas.
+
+El cierre de un envío se construye con lo medido **ese día**. Si la pieza cita repositorios que no están en la
+medición, el cierre sale vacío y las etiquetas —que viajan pegadas al cierre— se quedan por el camino. El
+orden es fijo:
+
+```
+LBT=… python3 tools/envio.py --medir        # mide repos y enlaces del día (3-5 min)
+python3 tools/envio.py --generar --pieza N --canal facebook
+python3 tools/envio.py --verificar          # si el último mensaje no lleva firma, falta la medición
+```
+
+Y la señal de alarma está en la primera línea de `--generar`: si imprime «citan repositorios sin medición de
+hoy», no se sigue. Un cierre vacío no es un envío corto: es un envío incompleto.

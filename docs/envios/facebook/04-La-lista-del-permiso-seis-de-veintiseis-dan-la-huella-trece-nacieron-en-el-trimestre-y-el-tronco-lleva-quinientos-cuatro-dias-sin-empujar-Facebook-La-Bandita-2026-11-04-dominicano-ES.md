@@ -391,37 +391,37 @@ Porque se midió hoy y tiene veintiún días, trescientas cincuenta y siete conf
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 3266 caracteres ═══
+═══ MENSAJE 19 de 20 · 3252 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
 Medí otra vez, hoy 5 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.838 · *dormido*: sin empujar desde el 18-jun-2025 (505 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.849 · *dormido*: sin empujar desde el 18-jun-2025 (505 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • RikkaApps/Shizuku-API — ★2.745 · *dormido*: sin empujar desde el 29-may-2025 (525 días) · MIT · última release v12.1.0 (7-oct-2022)
-• d4rken-org/porter — ★247 · empujó en las últimas horas · Apache-2.0 · última release v0.8.1-rc0 (7-oct-2026)
-• capitan0n/droynis — ★16 · empujó en las últimas horas · GPL-3.0 · última release v0.15.0 (1-nov-2026)
-• Foxlape/GhostMode — ★126 · empujó en las últimas horas · Apache-2.0 · última release v0.2.3 (4-nov-2026)
+• d4rken-org/porter — ★248 · empujó en las últimas horas · Apache-2.0 · última release v0.8.1-rc0 (7-oct-2026)
+• capitan0n/droynis — ★17 · empujó en las últimas horas · GPL-3.0 · última release v0.16.0 (5-nov-2026)
+• Foxlape/GhostMode — ★128 · empujó en las últimas horas · Apache-2.0 · última release v0.2.3 (4-nov-2026)
 • emi-ran/flowpilot — ★16 · empujó en las últimas horas · GPL-3.0 · última release v2.2.1 (5-nov-2026)
 • Dreamucxe/GameCore — ★27 · empujó en las últimas horas · MIT · última release v4.5 (4-nov-2026)
-• HmnDev-Tech/shevery — ★1.605 · empujó en las últimas horas · Apache-2.0 · última release 14.6.3 (4-nov-2026)
-• cr1437/Shizako — ★98 · empujó en las últimas horas · Apache-2.0 · última release zako3.17 (31-oct-2026)
-• rushiranpise/Shizuku-Next — ★1.469 · empujó en las últimas horas · Apache-2.0 · última release v14.0.33-next (5-nov-2026)
+• HmnDev-Tech/shevery — ★1.606 · empujó en las últimas horas · Apache-2.0 · última release 14.6.3 (4-nov-2026)
+• cr1437/Shizako — ★100 · empujó en las últimas horas · Apache-2.0 · última release zako3.17 (31-oct-2026)
+• rushiranpise/Shizuku-Next — ★1.475 · empujó en las últimas horas · Apache-2.0 · última release v14.0.33-next (5-nov-2026)
 • kerneldroid/Nightzuku — ★333 · empujó en las últimas horas · Apache-2.0 · última release v13.7.1-r60 (4-nov-2026)
-• thejaustin/ShizukuPlus — ★1.709 · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
-• iamr0s/Dhizuku — ★4.087 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.13.0 (30-oct-2026)
-• samolego/Canta — ★6.482 · empujó el 31-oct-2026 (hace 5 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
-• wxxsfxyzm/InstallerX-Revived — ★7.327 · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
-• pass-with-high-score/universal-installer — ★1.686 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.21.0 (1-nov-2026)
-• aistra0528/Hail — ★7.110 · empujó el 27-oct-2026 (hace 9 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
-• Hamza417/Inure — ★1.989 · empujó en las últimas horas · GPL-3.0 · última release build107.3.1 (2-nov-2026)
-• yume-chan/VolumeManager — ★605 · empujó el 31-oct-2026 (hace 5 días) · GPL-2.0 · última release v0.3 (31-oct-2026)
+• thejaustin/ShizukuPlus — ★1.711 · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
+• iamr0s/Dhizuku — ★4.089 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• samolego/Canta — ★6.485 · empujó en las últimas horas · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
+• wxxsfxyzm/InstallerX-Revived — ★7.332 · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
+• pass-with-high-score/universal-installer — ★1.687 · empujó en las últimas horas · GPL-3.0 · última release v1.21.0 (1-nov-2026)
+• aistra0528/Hail — ★7.111 · empujó el 27-oct-2026 (hace 9 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
+• Hamza417/Inure — ★1.988 · empujó en las últimas horas · GPL-3.0 · última release build107.3.1 (2-nov-2026)
+• yume-chan/VolumeManager — ★606 · empujó el 31-oct-2026 (hace 5 días) · GPL-2.0 · última release v0.3 (31-oct-2026)
 • WEIHEWU/shizuku-sam — ★42 · empujó en las últimas horas · Apache-2.0 · última release v13.8.40 (4-nov-2026)
 • krishna3163/OmniShizuku — ★19 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
 • tgvdufuture/Aura — ★18 · empujó en las últimas horas · MIT · última release v0.8.0 (4-nov-2026)
-• eyalm2000/adns — ★743 · empujó en las últimas horas · MIT · última release v2.1.9 (3-nov-2026)
+• eyalm2000/adns — ★745 · empujó en las últimas horas · MIT · última release v2.1.9 (3-nov-2026)
 • Benimaru-x1k/Benimaru — ★44 · empujó en las últimas horas · MIT · última release v4.5 (2-nov-2026)
-• HakaI963/bliss — ★0 · empujó en las últimas horas · Apache-2.0 · última release v1.3.0-527979d (5-nov-2026)
+• HakaI963/bliss — ★0 · empujó en las últimas horas · Apache-2.0 · última release v1.3.0-4eebfb7 (5-nov-2026)
 • Yukstarlight/guang-lab — ★6 · empujó en las últimas horas · GPL-3.0 · última release v1.40 (4-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

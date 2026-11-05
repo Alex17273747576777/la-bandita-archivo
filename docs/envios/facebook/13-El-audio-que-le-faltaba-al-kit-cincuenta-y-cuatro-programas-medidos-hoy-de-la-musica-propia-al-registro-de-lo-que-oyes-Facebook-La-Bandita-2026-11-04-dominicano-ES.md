@@ -464,60 +464,60 @@ Y lo cuarto, la frase que esta serie repite porque es verdad: **lo más nuevo no
 
 Medí otra vez, hoy 5 de noviembre de 2026, los 52 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• navidrome/navidrome — ★24.535 · empujó en las últimas horas · GPL-3.0 · última release v0.64.2 (24-sep-2026)
-• jellyfin/jellyfin — ★59.027 · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• ampache/ampache — ★3.844 · empujó en las últimas horas · AGPL-3.0 · última release 8.3.0 (20-oct-2026)
-• koel/koel — ★17.334 · empujó el 3-nov-2026 (hace 2 días) · MIT · última release v9.15.0 (28-sep-2026)
-• blackcandy-org/blackcandy — ★4.429 · empujó el 21-oct-2026 (hace 15 días) · MIT · última release v3.2.1 (26-ago-2026)
+• navidrome/navidrome — ★24.539 · empujó en las últimas horas · GPL-3.0 · última release v0.64.2 (24-sep-2026)
+• jellyfin/jellyfin — ★59.033 · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• ampache/ampache — ★3.845 · empujó en las últimas horas · AGPL-3.0 · última release 8.3.0 (20-oct-2026)
+• koel/koel — ★17.333 · empujó el 3-nov-2026 (hace 2 días) · MIT · última release v9.15.0 (28-sep-2026)
+• blackcandy-org/blackcandy — ★4.430 · empujó el 21-oct-2026 (hace 15 días) · MIT · última release v3.2.1 (26-ago-2026)
 • airsonic-advanced/airsonic-advanced — ★1.404 · *dormido*: sin empujar desde el 24-abr-2024 (925 días) · GPL-3.0 · última release v10.6.0 (24-abr-2020)
-• mopidy/mopidy — ★8.610 · empujó el 2-nov-2026 (hace 3 días) · Apache-2.0 · última release v4.0.5 (16-oct-2026)
+• mopidy/mopidy — ★8.609 · empujó el 2-nov-2026 (hace 3 días) · Apache-2.0 · última release v4.0.5 (16-oct-2026)
 • owntone/owntone-server — ★2.585 · empujó el 31-oct-2026 (hace 5 días) · GPL-2.0 · última release 29.3 (22-jul-2026)
 • snapcast/snapcast — ★8.044 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v0.35.0 (10-mar-2026)
 • xiph/Icecast-Server — ★557 · *dormido*: sin empujar desde el 19-ago-2026 (78 días) · GPL-2.0
 • LMS-Community/slimserver — ★1.815 · empujó en las últimas horas · NOASSERTION
-• jeffvli/feishin — ★10.332 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.17.0 (15-sep-2026)
+• jeffvli/feishin — ★10.336 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.17.0 (15-sep-2026)
 • supersonic-app/supersonic — ★2.416 · empujó el 19-oct-2026 (hace 17 días) · GPL-3.0 · última release v0.22.1 (9-ago-2026)
-• strawberrymusicplayer/strawberry — ★4.059 · empujó el 23-oct-2026 (hace 13 días) · GPL-3.0 · última release 1.2.31 (2-oct-2026)
+• strawberrymusicplayer/strawberry — ★4.061 · empujó el 23-oct-2026 (hace 13 días) · GPL-3.0 · última release 1.2.31 (2-oct-2026)
 • quodlibet/quodlibet — ★1.771 · empujó el 24-oct-2026 (hace 12 días) · GPL-2.0 · última release release-4.7.1 (31-may-2025)
-• nukeop/nuclear — ★18.878 · empujó en las últimas horas · AGPL-3.0 · última release player@1.54.1 (4-nov-2026)
-• team-spotube/spotube — ★50.610 · empujó el 3-nov-2026 (hace 2 días) · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
-• Taiko2k/Tauon — ★2.954 · empujó en las últimas horas · GPL-3.0 · última release v13.1.1 (30-oct-2026)
+• nukeop/nuclear — ★18.877 · empujó en las últimas horas · AGPL-3.0 · última release player@1.54.1 (4-nov-2026)
+• team-spotube/spotube — ★50.608 · empujó el 3-nov-2026 (hace 2 días) · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• Taiko2k/Tauon — ★2.956 · empujó en las últimas horas · GPL-3.0 · última release v13.1.1 (30-oct-2026)
 • KDE/elisa — ★370 · empujó en las últimas horas · LGPL-3.0
-• harmonoid/harmonoid — ★4.801 · empujó en las últimas horas · NOASSERTION · última release v0.3.37 (4-nov-2026)
+• harmonoid/harmonoid — ★4.803 · empujó en las últimas horas · NOASSERTION · última release v0.3.37 (4-nov-2026)
 • jeffvli/sonixd — ★1.907 · *dormido*: sin empujar desde el 17-feb-2024 (992 días) · GPL-3.0 · última release v0.15.5 (14-mar-2023) · *ARCHIVADO*
-• MetrolistGroup/Metrolist — ★14.026 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.794 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.5.0 (1-nov-2026)
-• OuterTune/OuterTune — ★5.443 · empujó el 12-oct-2026 (hace 24 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
-• z-huang/InnerTune — ★6.139 · *dormido*: sin empujar desde el 13-nov-2025 (357 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
-• namidaco/namida — ★6.788 · empujó el 1-nov-2026 (hace 4 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
+• MetrolistGroup/Metrolist — ★14.027 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.806 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• OuterTune/OuterTune — ★5.444 · empujó el 12-oct-2026 (hace 24 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
+• z-huang/InnerTune — ★6.141 · *dormido*: sin empujar desde el 13-nov-2025 (357 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• namidaco/namida — ★6.789 · empujó el 1-nov-2026 (hace 4 días) · NOASSERTION · última release v7.1.2 (19-sep-2026)
 • RetroMusicPlayer/RetroMusicPlayer — ★5.384 · empujó en las últimas horas · GPL-3.0 · última release v7.0.3 (13-ago-2026)
-• OxygenCobalt/Auxio — ★4.425 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
+• OxygenCobalt/Auxio — ★4.426 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
 • anandnet/Harmony-Music — ★3.087 · *dormido*: sin empujar desde el 8-dic-2025 (332 días) · GPL-3.0 · última release v1.12.2 (7-dic-2025)
-• vfsfitvnm/ViMusic — ★9.468 · *dormido*: sin empujar desde el 15-jul-2024 (843 días) · GPL-3.0 · última release v0.5.4 (4-nov-2022) · *ARCHIVADO*
-• advplyr/audiobookshelf — ★14.916 · empujó en las últimas horas · GPL-3.0 · última release v2.37.2 (23-oct-2026)
+• vfsfitvnm/ViMusic — ★9.467 · *dormido*: sin empujar desde el 15-jul-2024 (843 días) · GPL-3.0 · última release v0.5.4 (4-nov-2022) · *ARCHIVADO*
+• advplyr/audiobookshelf — ★14.919 · empujó en las últimas horas · GPL-3.0 · última release v2.37.2 (23-oct-2026)
 
 ⏬ sigue abajo · parte 16 de 19
 
-═══ MENSAJE 18 de 20 · 2338 caracteres ═══
+═══ MENSAJE 18 de 20 · 2331 caracteres ═══
 
 • PaulWoitaschek/Voice — ★3.246 · empujó en las últimas horas · GPL-3.0 · última release 26.10.8-5410008 (29-oct-2026)
-• TortugaPower/BookPlayer — ★2.275 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release 6.0.0 (24-oct-2026)
-• rmcrackan/Libation — ★6.401 · empujó el 27-oct-2026 (hace 9 días) · GPL-3.0 · última release v14.2.5 (27-oct-2026)
+• TortugaPower/BookPlayer — ★2.275 · empujó en las últimas horas · GPL-3.0 · última release 6.0.0 (24-oct-2026)
+• rmcrackan/Libation — ★6.402 · empujó el 27-oct-2026 (hace 9 días) · GPL-3.0 · última release v14.2.5 (27-oct-2026)
 • AntennaPod/AntennaPod — ★8.266 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • gpodder/gpodder — ★1.455 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release 3.11.5 (20-dic-2024)
 • XilinJia/Podcini — ★238 · *dormido*: sin empujar desde el 15-ene-2025 (659 días) · GPL-3.0 · última release 7.3.5 (13-ene-2025)
 • y20k/escapepod — ★124 · *dormido*: sin empujar desde el 19-jul-2022 (1570 días) · MIT · última release v1.1.0 (12-abr-2022) · *ARCHIVADO*
 • metabrainz/picard — ★5.350 · empujó en las últimas horas · GPL-2.0 · última release release-3.0.4 (1-nov-2026)
-• beetbox/beets — ★15.895 · empujó en las últimas horas · MIT · última release v2.14.1 (17-sep-2026)
+• beetbox/beets — ★15.894 · empujó en las últimas horas · MIT · última release v2.14.1 (17-sep-2026)
 • acoustid/chromaprint — ★1.415 · empujó el 15-oct-2026 (hace 21 días) · NOASSERTION · última release v1.6.2 (15-oct-2026)
 • metabrainz/musicbrainz-server — ★1.112 · empujó el 3-nov-2026 (hace 2 días) · NOASSERTION
 • taglib/taglib — ★1.467 · empujó en las últimas horas · LGPL-2.1 · última release v2.3.2 (5-sep-2026)
-• FFmpeg/FFmpeg — ★66.537 · empujó en las últimas horas · NOASSERTION
+• FFmpeg/FFmpeg — ★66.551 · empujó en las últimas horas · NOASSERTION
 • GNOME/easytag — ★83 · empujó el 10-oct-2026 (hace 26 días) · GPL-2.0
-• yt-dlp/yt-dlp — ★205.388 · empujó en las últimas horas · Unlicense · última release 2026.10.26 (26-oct-2026)
-• imputnet/cobalt — ★45.811 · *dormido*: sin empujar desde el 6-abr-2026 (213 días) · AGPL-3.0
-• librespot-org/librespot — ★7.368 · empujó el 21-oct-2026 (hace 15 días) · MIT · última release v0.8.0 (10-nov-2025)
-• Spotifyd/spotifyd — ★10.822 · *dormido*: sin empujar desde el 28-may-2026 (161 días) · GPL-3.0 · última release v0.4.2 (19-nov-2025)
+• yt-dlp/yt-dlp — ★205.445 · empujó en las últimas horas · Unlicense · última release 2026.10.26 (26-oct-2026)
+• imputnet/cobalt — ★45.813 · *dormido*: sin empujar desde el 6-abr-2026 (213 días) · AGPL-3.0
+• librespot-org/librespot — ★7.370 · empujó el 21-oct-2026 (hace 15 días) · MIT · última release v0.8.0 (10-nov-2025)
+• Spotifyd/spotifyd — ★10.824 · *dormido*: sin empujar desde el 28-may-2026 (161 días) · GPL-3.0 · última release v0.4.2 (19-nov-2025)
 • MusicPlayerDaemon/MPD — ★2.812 · empujó en las últimas horas · GPL-2.0
 • kawaiiDango/pano-scrobbler — ★2.344 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release 447 (6-oct-2026)
 • metabrainz/listenbrainz-server — ★1.052 · empujó en las últimas horas · GPL-2.0 · última release v-2026-10-28.0 (28-oct-2026)

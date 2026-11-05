@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 88 tareas abiertas en 26 piezas vivas, numeradas dentro de cada pieza, de 007 a 102. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 92 tareas abiertas en 27 piezas vivas, numeradas dentro de cada pieza, de 007 a 106. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -100,6 +100,10 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 100 | medir el tráfico de la primera media hora de uso con un registro de red del propio aparato, para separar lo que se envía de lo que el README dice que no se envía. | Facebook · 21 | 2026-11-05 |
 | 101 | volver a medir el reparto de las entregas dentro de dos semanas: si el paquete ligero vuelve, si la firma se estabiliza y cuántas funciones nuevas han entrado. La fecha propuesta es el 19 de noviembre de 2026. | Facebook · 21 | 2026-11-05 |
 | 102 | escribir la ficha del proyecto en el catálogo del archivo —una carpeta por recurso, con su guía y su estado— con los datos de hoy y la advertencia del paquete de depuración en la primera línea útil, no en una nota al final. | Facebook · 21 | 2026-11-05 |
+| 103 | abrir los cinco repositorios de plugins de AxManager con las seis comprobaciones de esta pieza y anotar en un acta qué llama a la red, qué escribe fuera de su carpeta y qué licencia declara cada uno de verdad. | Facebook · 22 | 2026-11-05 |
+| 104 | instalar el plugin de ejemplo `test_function` en un aparato de repuesto y recoger sus informes de `[PASS]` y `[FAIL]`: es la única forma de saber qué partes del entorno funcionan en un teléfono real y no sólo en el texto. | Facebook · 22 | 2026-11-05 |
+| 105 | repetir el censo de etiquetas dentro de un mes —3 de diciembre de 2026— para ver si `axmanager` crece de cinco, si `axeron` deja de estar a cero y si el catálogo alterno pasa de dos actualizaciones mensuales. | Facebook · 22 | 2026-11-05 |
+| 106 | escribir la ficha de AxManager en el catálogo del archivo, con su guía y su estado, y la advertencia de que sus plugins no son módulos de Magisk en la primera línea útil. | Facebook · 22 | 2026-11-05 |
 
 ## Numeración: la regla y lo declarado
 
@@ -125,6 +129,7 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 > **Declarado:** 19-La-tienda-que-le-sirve-a-tu-app-quinc: numera desde 091 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 20-El-teclado-que-obedece-once-teclados-: numera desde 095 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 21-La-variante-que-cambio-OmniShizuku-de: numera desde 099 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 22-El-modulo-que-no-necesita-root-AxMana: numera desde 103 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 
 La numeración es **por pieza**, no global: cada pieza numera sus tareas desde 001 porque la compuerta de novedad (M28) las cuenta dentro de la pieza. Por eso la misma cifra puede aparecer en dos piezas distintas y no es un error: la tarea se identifica por su número **y** su pieza.
 

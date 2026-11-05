@@ -70,6 +70,8 @@ la publicación.
 
 | E47 | 5-nov | Catálogo, racimo `descargas` | En `tools/guias_descargas.py` la clave de un recurso estaba escrita a mano como `nuget/uget` cuando el slug medido es `uget/uget`. El programa no falló: escribió **29 de 30** y siguió. Sin el contador al final, la guía que faltaba se habría quedado en blanco sin que nadie lo notara. | el propio contador de la herramienta, antes de commitear | H28 |
 
+| E48 | 5-nov | Pieza 22 · envío de Facebook | El envío salió con el bloque de etiquetas perdido y sin firma en el último mensaje. `envio.py` arma el cierre con los repositorios medidos **hoy**; los de la pieza no estaban en la medición del día, el cierre quedó vacío y las etiquetas —que se anexan a él— no llegaron. El cuerpo de la pieza estaba entero: el fallo era del orden de los pasos. | `envio.py --verificar`, antes de publicar | H29 |
+
 ## Cómo se usa este registro
 
 1. Antes de escribir una pieza nueva se leen los errores de su misma familia.

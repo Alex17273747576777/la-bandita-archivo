@@ -448,18 +448,18 @@ Los tres que se quedan fuera, con su cifra:
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1938 caracteres ═══
+═══ MENSAJE 19 de 20 · 1931 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
 Medí otra vez, hoy 5 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• capitan0n/droynis — ★16 · empujó en las últimas horas · GPL-3.0 · última release v0.15.0 (1-nov-2026)
+• capitan0n/droynis — ★17 · empujó en las últimas horas · GPL-3.0 · última release v0.16.0 (5-nov-2026)
 • Bingblop/ADB-Root-Toolbox — ★125 · empujó el 31-oct-2026 (hace 5 días) · GPL-3.0 · última release v7.22.1 (31-oct-2026)
 • krishna3163/OmniShizuku — ★19 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
-• zsw125/o3root — ★74 · empujó en las últimas horas · MIT · última release v3.3 (5-nov-2026)
-• aaron-gh/SandFly — ★25 · empujó en las últimas horas · Apache-2.0 · última release v0.3.1 (2-nov-2026)
-• rdevz-ph/RedirectGuard — ★17 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.6 (2-nov-2026)
+• zsw125/o3root — ★79 · empujó en las últimas horas · MIT · última release v3.3 (5-nov-2026)
+• aaron-gh/SandFly — ★26 · empujó en las últimas horas · Apache-2.0 · última release v0.3.1 (2-nov-2026)
+• rdevz-ph/RedirectGuard — ★18 · empujó en las últimas horas · Apache-2.0 · última release v1.6 (2-nov-2026)
 • wized2/Latch — ★18 · empujó el 29-oct-2026 (hace 7 días) · MIT · última release v0.6.3 (22-oct-2026)
 • sidnvy/8bercue — ★18 · empujó el 26-oct-2026 (hace 10 días) · AGPL-3.0
 • coldMEW/Hush — ★141 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v2.0.5 (2-nov-2026)
@@ -468,7 +468,7 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 15 repositorios que cita esta pi
 • bl3xand/APK-Toolbox — ★102 · empujó el 28-oct-2026 (hace 8 días) · GPL-3.0 · última release v1.1.6 (28-oct-2026)
 • wlmosv-png/wpaforge — ★156 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.9.40 (3-nov-2026)
 • Ghostpanter/ghost-files — ★14 · empujó en las últimas horas · MIT · última release v0.7.3 (5-nov-2026)
-• henry-97/MineApp — ★80 · empujó el 31-oct-2026 (hace 5 días) · GPL-3.0 · última release v3.8.5 (31-oct-2026)
+• henry-97/MineApp — ★83 · empujó el 31-oct-2026 (hace 5 días) · GPL-3.0 · última release v3.8.5 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

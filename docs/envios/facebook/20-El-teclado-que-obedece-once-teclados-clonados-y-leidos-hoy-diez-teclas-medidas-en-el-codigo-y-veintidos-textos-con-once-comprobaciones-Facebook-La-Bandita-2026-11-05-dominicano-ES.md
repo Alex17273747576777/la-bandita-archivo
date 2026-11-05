@@ -507,7 +507,7 @@ Y lo cuarto: cuando alguien te venda un método con porcentajes de obediencia, p
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 1877 caracteres ═══
+═══ MENSAJE 18 de 19 · 1688 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 20*
 
@@ -517,20 +517,19 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 12 repositorios que cita esta pi
 • LeanBitLab/LeanType — ★1.143 · empujó en las últimas horas · GPL-3.0 · última release v4.3.1 (4-nov-2026)
 • SvReenen/Deskdrop — ★59 · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (21-abr-2026)
 • AnySoftKeyboard/AnySoftKeyboard — ★3.393 · empujó en las últimas horas · Apache-2.0 · última release 1.13-r2 (8-sep-2026)
-• HeliBorg/HeliBoard — ★6.501 · empujó en las últimas horas · GPL-3.0 · última release v4.2 (12-oct-2026)
-• florisboard/florisboard — ★8.755 · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
+• HeliBorg/HeliBoard — ★6.502 · empujó en las últimas horas · GPL-3.0 · última release v4.2 (12-oct-2026)
+• florisboard/florisboard — ★8.756 · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
 • Julow/Unexpected-Keyboard — ★3.337 · empujó en las últimas horas · GPL-3.0 · última release 2.2.0 (1-nov-2026)
 • dessalines/thumb-key — ★1.572 · empujó en las últimas horas · AGPL-3.0 · última release 5.1.20 (2-nov-2026)
-• osfans/trime — ★4.771 · empujó en las últimas horas · GPL-3.0 · última release v3.3.13 (1-nov-2026)
-• fcitx5-android/fcitx5-android — ★5.842 · empujó el 13-oct-2026 (hace 23 días) · LGPL-2.1 · última release 0.1.3 (26-jul-2026)
-• futo-org/android-keyboard — ★3.440 · empujó el 2-nov-2026 (hace 3 días) · NOASSERTION · última release 0.1.30 (4-ago-2026)
+• osfans/trime — ★4.772 · empujó en las últimas horas · GPL-3.0 · última release v3.3.13 (1-nov-2026)
+• fcitx5-android/fcitx5-android — ★5.843 · empujó el 13-oct-2026 (hace 23 días) · LGPL-2.1 · última release 0.1.3 (26-jul-2026)
+• futo-org/android-keyboard — ★3.441 · empujó el 2-nov-2026 (hace 3 días) · NOASSERTION · última release 0.1.30 (4-ago-2026)
 • rkkr/simple-keyboard — ★1.607 · empujó el 22-oct-2026 (hace 14 días) · Apache-2.0 · última release 149 (22-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 14 enlaces de esta pieza, *13 responden*.
-
-• https://github.com/AnySoftKeyboard/AnySoftKeyboard/blob/main/ime/addons/quick_text/src/main/res/xml/quick_text_keys.xml — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 14 enlaces de esta pieza, *14 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 17 de 18
 
