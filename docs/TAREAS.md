@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 92 tareas abiertas en 27 piezas vivas, numeradas dentro de cada pieza, de 007 a 106. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 95 tareas abiertas en 28 piezas vivas, numeradas dentro de cada pieza, de 007 a 109. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -104,6 +104,9 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 104 | instalar el plugin de ejemplo `test_function` en un aparato de repuesto y recoger sus informes de `[PASS]` y `[FAIL]`: es la única forma de saber qué partes del entorno funcionan en un teléfono real y no sólo en el texto. | Facebook · 22 | 2026-11-05 |
 | 105 | repetir el censo de etiquetas dentro de un mes —3 de diciembre de 2026— para ver si `axmanager` crece de cinco, si `axeron` deja de estar a cero y si el catálogo alterno pasa de dos actualizaciones mensuales. | Facebook · 22 | 2026-11-05 |
 | 106 | escribir la ficha de AxManager en el catálogo del archivo, con su guía y su estado, y la advertencia de que sus plugins no son módulos de Magisk en la primera línea útil. | Facebook · 22 | 2026-11-05 |
+| 107 | verificar que las seis comprobaciones de apertura de APK (ficha, licencia, permisos, extensiones, firma, historial) se puedan hacer en un teléfono sin instalar nada, y anotar en un acta qué pasa con cada una de las cinco ramas de la familia Kotatsu. | Facebook · 23 | 2026-11-05 |
+| 108 | medir la familia Kotatsu de nuevo dentro de un mes —3 de diciembre de 2026— para ver si DeepSync crece de una estrella, si Kototoro sigue siendo la única Apache-2.0, y si alguna rama nueva nace del padre archivado. | Facebook · 23 | 2026-11-05 |
+| 109 | escribir la ficha de DeepSync en el catálogo del archivo, con su guía y su estado, y la advertencia de que sus plugins y extensiones vienen de fuera, no del programa. | Facebook · 23 | 2026-11-05 |
 
 ## Numeración: la regla y lo declarado
 
@@ -130,6 +133,7 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 > **Declarado:** 20-El-teclado-que-obedece-once-teclados-: numera desde 095 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 21-La-variante-que-cambio-OmniShizuku-de: numera desde 099 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 22-El-modulo-que-no-necesita-root-AxMana: numera desde 103 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 23-Deepsync-y-la-familia-kotatsu-lectore: numera desde 107 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 
 La numeración es **por pieza**, no global: cada pieza numera sus tareas desde 001 porque la compuerta de novedad (M28) las cuenta dentro de la pieza. Por eso la misma cifra puede aparecer en dos piezas distintas y no es un error: la tarea se identifica por su número **y** su pieza.
 

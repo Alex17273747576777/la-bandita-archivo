@@ -514,16 +514,16 @@ Y lo cuarto: cuando alguien te venda un método con porcentajes de obediencia, p
 Medí otra vez, hoy 5 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • N/D — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• LeanBitLab/LeanType — ★1.143 · empujó en las últimas horas · GPL-3.0 · última release v4.3.1 (4-nov-2026)
+• LeanBitLab/LeanType — ★1.144 · empujó en las últimas horas · GPL-3.0 · última release v4.3.1 (4-nov-2026)
 • SvReenen/Deskdrop — ★59 · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (21-abr-2026)
 • AnySoftKeyboard/AnySoftKeyboard — ★3.393 · empujó en las últimas horas · Apache-2.0 · última release 1.13-r2 (8-sep-2026)
-• HeliBorg/HeliBoard — ★6.502 · empujó en las últimas horas · GPL-3.0 · última release v4.2 (12-oct-2026)
+• HeliBorg/HeliBoard — ★6.504 · empujó en las últimas horas · GPL-3.0 · última release v4.2 (12-oct-2026)
 • florisboard/florisboard — ★8.756 · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
-• Julow/Unexpected-Keyboard — ★3.337 · empujó en las últimas horas · GPL-3.0 · última release 2.2.0 (1-nov-2026)
-• dessalines/thumb-key — ★1.572 · empujó en las últimas horas · AGPL-3.0 · última release 5.1.20 (2-nov-2026)
-• osfans/trime — ★4.772 · empujó en las últimas horas · GPL-3.0 · última release v3.3.13 (1-nov-2026)
+• Julow/Unexpected-Keyboard — ★3.338 · empujó en las últimas horas · GPL-3.0 · última release 2.2.0 (1-nov-2026)
+• dessalines/thumb-key — ★1.571 · empujó en las últimas horas · AGPL-3.0 · última release 5.1.20 (2-nov-2026)
+• osfans/trime — ★4.774 · empujó en las últimas horas · GPL-3.0 · última release v3.3.13 (1-nov-2026)
 • fcitx5-android/fcitx5-android — ★5.843 · empujó el 13-oct-2026 (hace 23 días) · LGPL-2.1 · última release 0.1.3 (26-jul-2026)
-• futo-org/android-keyboard — ★3.441 · empujó el 2-nov-2026 (hace 3 días) · NOASSERTION · última release 0.1.30 (4-ago-2026)
+• futo-org/android-keyboard — ★3.442 · empujó el 2-nov-2026 (hace 3 días) · NOASSERTION · última release 0.1.30 (4-ago-2026)
 • rkkr/simple-keyboard — ★1.607 · empujó el 22-oct-2026 (hace 14 días) · Apache-2.0 · última release 149 (22-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

@@ -78,7 +78,7 @@ El bloque más grande de materia prima del registro: 239 fichas de música y 605
 
 | # | Pieza | El gancho | Materia prima |
 |---|---|---|---|
-| **23** | Galería sin nube | la foto que no sale del teléfono y la que ya salió sin permiso | `deckerst/aves` · `FossifyOrg/Gallery` · `SimpleMobileTools/Simple-Gallery` |
+| **23** | DeepSync y la familia Kotatsu | cuando un lector de 8952 estrellas se apaga y nace un lector de dos días | `Arthurpendragon9876/DeepSync` · `KotatsuApp/Kotatsu` · `AppFuton/Futon` · `Ero-gamer/Kotatsu-Next` · `Kototoro-app/Kototoro` |
 | **24** | Editar la foto sin pagar | cuatro herramientas, dos que piden cuenta y una que no pide nada | `T8RIN/ImageToolbox` · `ArthurHub/Android-Image-Cropper` |
 | **25** | El escáner de bolsillo | del papel al PDF legible sin mandar el papel a un servidor | `hiroi-sora/Umi-OCR` · `Aryan-Raj3112/episteme` |
 | **26** | Capturas, recortes y el visor | lo que se guarda por defecto y lo que hay que apagar | herramientas de captura del sistema medidas una por una |
