@@ -513,7 +513,7 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 58 repositorios que cita esta pi
 • marbou92/MHRepo — ★8 · empujó en las últimas horas · Apache-2.0
 • Nyora-Manga/nyora-mihon — ★14 · *dormido*: sin empujar desde el 19-jul-2026 (108 días) · sin licencia detectada por la API
 • manti-X/extensions — ★9 · empujó en las últimas horas · sin licencia detectada por la API
-• bangxingni/mycomic-extensions — ★182 · sin fecha de empuje · sin licencia detectada por la API · última release build-1 (5-nov-2026)
+• bangxingni/mycomic-extensions — ★181 · sin fecha de empuje · sin licencia detectada por la API · última release build-1 (5-nov-2026)
 • AngeloSha/uchiyomi — ★99 · empujó el 2-nov-2026 (hace 2 días) · MPL-2.0 · última release v0.103.1 (31-oct-2026)
 • Shebyyy/kotatsu-multi-parsers — ★19 · empujó el 21-oct-2026 (hace 14 días) · sin licencia detectada por la API · última release build-2026.10.21-1056 (21-oct-2026)
 • dragonx943/manga-repo — ★24 · empujó el 23-oct-2026 (hace 12 días) · GPL-3.0 · última release d605625 (23-oct-2026)

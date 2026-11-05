@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-04",
- "medido_en_utc": "2026-11-05T00:46:56+00:00",
+ "medido_en_utc": "2026-11-05T01:07:52+00:00",
  "repos": {
   "capitan0n/droynis": {
    "estado": "vivo",
@@ -208,7 +208,7 @@
   },
   "xTudoS/dual-audio": {
    "estado": "vivo",
-   "stars": 3,
+   "stars": 4,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -460,7 +460,7 @@
   },
   "dani-garcia/vaultwarden": {
    "estado": "vivo",
-   "stars": 70246,
+   "stars": 70247,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -688,7 +688,7 @@
   },
   "rushiranpise/Shizuku-Next": {
    "estado": "vivo",
-   "stars": 1452,
+   "stars": 1453,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -712,7 +712,7 @@
   },
   "thejaustin/ShizukuPlus": {
    "estado": "vivo",
-   "stars": 1700,
+   "stars": 1701,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -736,7 +736,7 @@
   },
   "samolego/Canta": {
    "estado": "vivo",
-   "stars": 6466,
+   "stars": 6467,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "LGPL-3.0",
@@ -928,7 +928,7 @@
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
-   "stars": 21217,
+   "stars": 21218,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -988,7 +988,7 @@
   },
   "esphome/esphome": {
    "estado": "vivo",
-   "stars": 12014,
+   "stars": 12015,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1072,7 +1072,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97330,
+   "stars": 97332,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1144,7 +1144,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 64106,
+   "stars": 64109,
    "push": "2026-09-26",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1156,7 +1156,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 154042,
+   "stars": 154043,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1228,7 +1228,7 @@
   },
   "MorpheApp/morphe-manager": {
    "estado": "vivo",
-   "stars": 9969,
+   "stars": 9970,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1389,7 +1389,7 @@
   },
   "yuliskov/SmartTube": {
    "estado": "vivo",
-   "stars": 35929,
+   "stars": 35930,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -1533,7 +1533,7 @@
   },
   "wg-easy/wg-easy": {
    "estado": "vivo",
-   "stars": 27408,
+   "stars": 27409,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1545,7 +1545,7 @@
   },
   "hiddify/hiddify-app": {
    "estado": "vivo",
-   "stars": 33645,
+   "stars": 33647,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1593,7 +1593,7 @@
   },
   "Dushnilin/tachyon": {
    "estado": "vivo",
-   "stars": 560,
+   "stars": 561,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -2047,7 +2047,7 @@
   },
   "bangxingni/mycomic-extensions": {
    "estado": "vivo",
-   "stars": 182,
+   "stars": 181,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": null,
@@ -3146,9 +3146,589 @@
    "release": null,
    "release_fecha": "",
    "stars_pieza": null
+  },
+  "iptv-org/iptv": {
+   "estado": "vivo",
+   "stars": 143229,
+   "push": "2026-11-05",
+   "archivado": false,
+   "licencia": "Unlicense",
+   "lenguaje": "TypeScript",
+   "desc": "Collection of publicly available IPTV channels from all over the world",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "Accrescent/Accrescent": {
+   "estado": "vivo",
+   "stars": 2306,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Kotlin",
+   "desc": "A novel Android app store focused on security, privacy, and usability",
+   "release": "0.29.1",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "Exodus-Privacy/exodus": {
+   "estado": "vivo",
+   "stars": 814,
+   "push": "2026-09-13",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "Python",
+   "desc": "Platform to audit trackers used by Android application",
+   "release": "v1.33.0",
+   "release_fecha": "2026-09-13",
+   "stars_pieza": null
+  },
+  "NuvioMedia/NuvioMobile": {
+   "estado": "vivo",
+   "stars": 4402,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Official Nuvio Mobile Repository",
+   "release": "0.6.7-beta",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "NuvioMedia/NuvioTV": {
+   "estado": "vivo",
+   "stars": 3364,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Official Nuvio Android TV Repository",
+   "release": "1.0.0",
+   "release_fecha": "2026-09-19",
+   "stars_pieza": null
+  },
+  "NuvioMedia/NuvioDesktop": {
+   "estado": "vivo",
+   "stars": 1936,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "⚠️ Alpha Software - Testers Only",
+   "release": "0.1.34-alpha",
+   "release_fecha": "2026-11-02",
+   "stars_pieza": null
+  },
+  "NuvioMedia/NuvioTVSmart": {
+   "estado": "vivo",
+   "stars": 845,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "JavaScript",
+   "desc": "Official Nuvio WebOS, TizenOS Repository",
+   "release": "1.3.6",
+   "release_fecha": "2026-11-02",
+   "stars_pieza": null
+  },
+  "JJDizz1L/NuvioLinux-unofficial": {
+   "estado": "vivo",
+   "stars": 51,
+   "push": "2026-11-02",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Arch Linux packaging for Nuvio (NuvioDesktop) — packages built from unmodified upstream source; AUR + signed releases",
+   "release": "v0.1.34alpha-1",
+   "release_fecha": "2026-11-02",
+   "stars_pieza": null
+  },
+  "Viren070/AIOStreams": {
+   "estado": "vivo",
+   "stars": 3104,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "TypeScript",
+   "desc": "AIOStreams brings your Stremio addons, debrid services and Usenet together into one list, filtered, sorted and formatted your way, and plays it in Stremio or in its own apps for every screen.",
+   "release": "v2.37.0",
+   "release_fecha": "2026-10-23",
+   "stars_pieza": null
+  },
+  "alpinezx/easy-aiostreams": {
+   "estado": "vivo",
+   "stars": 57,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Shell",
+   "desc": "One-command installer for a self-hosted AIOStreams instance, on a VPS or a computer at home",
+   "release": "v1.5.2",
+   "release_fecha": "2026-11-03",
+   "stars_pieza": null
+  },
+  "s4pp1/stremhu-source": {
+   "estado": "vivo",
+   "stars": 177,
+   "push": "2026-10-23",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Python",
+   "desc": "Self-hosted torrent streaming szerver • Stremio / Nuvio / Kodi • nCore / BitHUmen / iNSANE / Majomparádé",
+   "release": "v0.25.5",
+   "release_fecha": "2026-10-17",
+   "stars_pieza": null
+  },
+  "ohadhaviv92/streamgram": {
+   "estado": "vivo",
+   "stars": 24,
+   "push": "2026-10-24",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "TypeScript",
+   "desc": "A self-hosted addon for Stremio, Nuvio, and compatible streaming apps that streams media directly from your personal Telegram account.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "Eful97/Pictorium": {
+   "estado": "vivo",
+   "stars": 91,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "TypeScript",
+   "desc": "Dynamic Movie & TV Poster Generator for Stremio & Media Centers",
+   "release": "v1.26.8",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "SkipDB-TV/skipdb": {
+   "estado": "vivo",
+   "stars": 38,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "TypeScript",
+   "desc": "Open, crowdsourced skip timestamps for movies & TV.  Intros, recaps, outros and \"next-time\" previews - contributed by people, reviewed by the community, and **published openly** so the data can never be quietly locked away or sold off.",
+   "release": "data-2026-11-04",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "atharvkharbade/anisync-addon": {
+   "estado": "vivo",
+   "stars": 25,
+   "push": "2026-11-02",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Python",
+   "desc": "An anime addon for Stremio and Nuvio offering tracking, rich metadata, recommendations, and much more!",
+   "release": "v1.5.1",
+   "release_fecha": "2026-09-18",
+   "stars_pieza": null
+  },
+  "debpalash/Opal": {
+   "estado": "vivo",
+   "stars": 124,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Zig",
+   "desc": "Opal — The open-source everything media player & browser. Jellyfin/Stremio/Kodi alternative for macOS, Linux & Windows.",
+   "release": "v0.9.3",
+   "release_fecha": "2026-11-03",
+   "stars_pieza": null
+  },
+  "coveninja/cove": {
+   "estado": "vivo",
+   "stars": 158,
+   "push": "2026-10-30",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "A media streaming app for Linux, Windows, macOS, Android & Android TV. Discover, track, and stream movies and TV shows - powered by TMDB metadata, Stremio & Nuvio compatible addons & plugins, and a built-in mpv player.",
+   "release": "v1.6.0",
+   "release_fecha": "2026-10-09",
+   "stars_pieza": null
+  },
+  "MegaNexusMediaPlayer/MegaNexus": {
+   "estado": "vivo",
+   "stars": 34,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "C++",
+   "desc": "MegaNexus for Kodi — a streaming app on Kodi's player: Stremio & Nuvio add-ons, debrid, AI subtitles, Watch Party, live TV. Set up from your phone.",
+   "release": "v9.0.8",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "qbittorrent/qBittorrent": {
+   "estado": "vivo",
+   "stars": 41361,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "C++",
+   "desc": "qBittorrent BitTorrent client",
+   "release": "release-5.3.0",
+   "release_fecha": "2026-10-20",
+   "stars_pieza": null
+  },
+  "transmission/transmission": {
+   "estado": "vivo",
+   "stars": 15383,
+   "push": "2026-11-02",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "C++",
+   "desc": "Official Transmission BitTorrent client repository",
+   "release": "4.1.4",
+   "release_fecha": "2026-10-24",
+   "stars_pieza": null
+  },
+  "Jackett/Jackett": {
+   "estado": "vivo",
+   "stars": 16323,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-2.0",
+   "lenguaje": "C#",
+   "desc": "API Support for your favorite torrent trackers",
+   "release": "v0.24.3009",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "Prowlarr/Prowlarr": {
+   "estado": "vivo",
+   "stars": 7504,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "C#",
+   "desc": "Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps, supporting management of both Torrent Trackers and Usenet Indexers.",
+   "release": "v2.7.0.5723",
+   "release_fecha": "2026-10-27",
+   "stars_pieza": null
+  },
+  "cross-seed/cross-seed": {
+   "estado": "vivo",
+   "stars": 1583,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "TypeScript",
+   "desc": "Fully-automatic cross-seeding with Torznab",
+   "release": "v6.13.9",
+   "release_fecha": "2026-10-22",
+   "stars_pieza": null
+  },
+  "aria2/aria2": {
+   "estado": "vivo",
+   "stars": 43413,
+   "push": "2026-06-25",
+   "archivado": false,
+   "licencia": "GPL-2.0",
+   "lenguaje": "C++",
+   "desc": "aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.",
+   "release": "release-1.37.0",
+   "release_fecha": "2023-11-15",
+   "stars_pieza": null
+  },
+  "webtorrent/webtorrent": {
+   "estado": "vivo",
+   "stars": 31471,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "JavaScript",
+   "desc": "⚡️ Streaming torrent client for the web",
+   "release": "v3.0.21",
+   "release_fecha": "2026-07-27",
+   "stars_pieza": null
+  },
+  "koreader/koreader": {
+   "estado": "vivo",
+   "stars": 30868,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "Lua",
+   "desc": "An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices",
+   "release": "v2026.07.1",
+   "release_fecha": "2026-08-01",
+   "stars_pieza": null
+  },
+  "koodo-reader/koodo-reader": {
+   "estado": "vivo",
+   "stars": 28726,
+   "push": "2026-11-05",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "JavaScript",
+   "desc": "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web",
+   "release": "v2.4.6",
+   "release_fecha": "2026-10-07",
+   "stars_pieza": null
+  },
+  "edrlab/thorium-reader": {
+   "estado": "vivo",
+   "stars": 2930,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "BSD-3-Clause",
+   "lenguaje": "TypeScript",
+   "desc": "A cross platform desktop reading app, based on the Readium Desktop toolkit",
+   "release": "v3.5.1",
+   "release_fecha": "2026-09-02",
+   "stars_pieza": null
+  },
+  "kovidgoyal/calibre": {
+   "estado": "vivo",
+   "stars": 26350,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Python",
+   "desc": "The official source code repository for the calibre ebook manager",
+   "release": "v9.17.0",
+   "release_fecha": "2026-10-23",
+   "stars_pieza": null
+  },
+  "ahrm/sioyek": {
+   "estado": "vivo",
+   "stars": 9976,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "C",
+   "desc": "Sioyek is a PDF viewer with a focus on textbooks and research papers",
+   "release": "v2.0.0",
+   "release_fecha": "2022-12-16",
+   "stars_pieza": null
+  },
+  "johnfactotum/foliate": {
+   "estado": "vivo",
+   "stars": 8868,
+   "push": "2026-04-08",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "JavaScript",
+   "desc": "Read e-books in style",
+   "release": "3.3.0",
+   "release_fecha": "2025-04-01",
+   "stars_pieza": null
+  },
+  "booklore-app/booklore": {
+   "estado": "vivo",
+   "stars": 1334,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "Java",
+   "desc": "BookLore: A self-hosted, multi-user digital library with smart shelves, auto metadata, Kobo & KOReader sync, BookDrop imports, OPDS support, and a built-in reader for EPUB, PDF, and comics.",
+   "release": "v2.4.0",
+   "release_fecha": "2026-09-19",
+   "stars_pieza": null
+  },
+  "4gray/iptvnator": {
+   "estado": "vivo",
+   "stars": 7604,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "TypeScript",
+   "desc": ":tv: Cross-platform IPTV player application with multiple features, such as support of m3u and m3u8 playlists, favorites, TV guide, TV archive/catchup and more.",
+   "release": "v0.24.0",
+   "release_fecha": "2026-09-24",
+   "stars_pieza": null
+  },
+  "HatriGt/flix-launcher": {
+   "estado": "vivo",
+   "stars": 20,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Kotlin",
+   "desc": "Flix Launcher: an ad-free Android TV launcher made for watching. Resume your shows, start films and open your streaming apps from one fast home screen. About 700 KB.",
+   "release": "v1.0.14",
+   "release_fecha": "2026-11-03",
+   "stars_pieza": null
+  },
+  "joaotolovi/m3u-mux-addon-stremio": {
+   "estado": "vivo",
+   "stars": 19,
+   "push": "2026-09-01",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": null,
+   "desc": "Turn your playlist into an addon.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "mochi-plugins/repository": {
+   "estado": "vivo",
+   "stars": 49,
+   "push": "2026-09-13",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": null,
+   "desc": "This repository is for plugin artifacts (For Usagi and other applications to load plugins, archive)",
+   "release": "bae934b",
+   "release_fecha": "2026-06-19",
+   "stars_pieza": null
+  },
+  "kuiti/manga-source-index": {
+   "estado": "vivo",
+   "stars": 6,
+   "push": "2026-10-18",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "JavaScript",
+   "desc": "Cross-ecosystem index of manga/comic sources from 7 open-source readers: Mihon, Aidoku, Kotatsu, Legado, Venera, Cimoc, MangaReader. 3126 records deduplicated into 1593 unique sites, with Chinese-source filtering, quality scoring and 3-tier ranking. Data only, no content.",
+   "release": "v1.0.0-all-sources",
+   "release_fecha": "2026-09-23",
+   "stars_pieza": null
+  },
+  "akachiina/wotoha": {
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-10-22",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Python",
+   "desc": "Manga downloader CLI with Aidoku (WASM) extensions",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "arranoust/yomu": {
+   "estado": "vivo",
+   "stars": 2,
+   "push": "2026-08-15",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Indonesian Plugin for the Usagi App or other Kotatsu Forks.",
+   "release": "46cf5ad",
+   "release_fecha": "2026-08-15",
+   "stars_pieza": null
+  },
+  "Pulsariums/pulsar-trmangahub": {
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "HTML",
+   "desc": "Türkçe manga kaynakları deposu (Kototoro/Kotatsu jar + Mihon/Keiyoushi tarzı)",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "janlery/MANGA-TENSEI": {
+   "estado": "vivo",
+   "stars": 3,
+   "push": "2026-07-14",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "TypeScript",
+   "desc": "漫画备份格式转换器:Mihon/Tachiyomi、Tachimanga (.tmb)、Aidoku (.aib) 备份互转,浏览器本地完成 | Convert manga backups between Mihon/Tachiyomi forks, Tachimanga and Aidoku — fully in your browser",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "Stiven-Gjekaj/Moekoma": {
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-10-24",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "A calm reader for manga, comics, light novels, and web novels on Android and e-ink, with Mihon, Kotatsu, OPDS, LNReader, Suwayomi, Aidoku, and Paperback sources.",
+   "release": "v2.1.0",
+   "release_fecha": "2026-10-24",
+   "stars_pieza": null
+  },
+  "ito-community/sources": {
+   "estado": "vivo",
+   "stars": 2,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Rust",
+   "desc": "Community build sources for Ito",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "TaisenDev/aidoku-bridge-builder": {
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-10-27",
+   "archivado": false,
+   "licencia": "MPL-2.0",
+   "lenguaje": "Python",
+   "desc": "Turns a Suwayomi-Server catalog into a self-updating Aidoku source repo: one .aix per site, hourly.",
+   "release": "v0.2.24",
+   "release_fecha": "2026-10-26",
+   "stars_pieza": null
+  },
+  "lnreader/cli": {
+   "estado": "vivo",
+   "stars": 0,
+   "push": "2026-10-24",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "TypeScript",
+   "desc": "Search, read and download web novels as EPUBs from your terminal, powered by LNReader plugins. Includes an MCP server for AI agents.",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "lipexama/lipex-reader": {
+   "estado": "vivo",
+   "stars": 1,
+   "push": "2026-07-24",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": null,
+   "desc": "Lipex Reader — a beautiful light novel reader for iOS",
+   "release": "v1.21",
+   "release_fecha": "2026-07-24",
+   "stars_pieza": null
+  },
+  "cenodude/CrossWatch": {
+   "estado": "vivo",
+   "stars": 993,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "AGPL-3.0",
+   "lenguaje": "Python",
+   "desc": "Synchronize your data across media servers, media agents and trackers. Keep your movies and shows in sync, no matter where you watch.",
+   "release": "v0.14.1",
+   "release_fecha": "2026-11-03",
+   "stars_pieza": null
+  },
+  "ellite/scrob": {
+   "estado": "vivo",
+   "stars": 588,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Python",
+   "desc": "Scrob - Self-hosted media tracking app. It syncs your libraries from Jellyfin, Plex, and Emby, tracks your watch history, ratings, and personal lists - Your own private Letterboxd + Trakt",
+   "release": "v2.37.0",
+   "release_fecha": "2026-10-31",
+   "stars_pieza": null
   }
  },
  "enlaces": {
+  "https://api.github.com/repos/ImranR98/Obtainium": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://api.github.com/repos/Kototoro-app/Kototoro/releases?per_page=100": {
    "codigo": "200",
    "veredicto": "responde"
@@ -3160,6 +3740,10 @@
   "https://api.github.com/repos/ReVanced/revanced-patches": {
    "codigo": "451",
    "veredicto": "responde con codigo 451"
+  },
+  "https://api.github.com/repos/TrackerControl/tracker-control-android": {
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://api.github.com/repos/keiyoushi/extensions-source": {
    "codigo": "200",
@@ -3185,11 +3769,19 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://api.github.com/repos/readest/readest/releases?per_page=100": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://api.github.com/repos/recloudstream/cloudstream": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/1Selxo/Mangatan": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/4gray/iptvnator": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3214,6 +3806,10 @@
    "veredicto": "responde"
   },
   "https://github.com/Abodabodd/re-3arabi": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Accrescent/Accrescent": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3289,11 +3885,19 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Eful97/Pictorium": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Ero-gamer/Kotatsu-Next": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/Ero-gamer/Weeber": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Exodus-Privacy/exodus": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3322,6 +3926,10 @@
    "veredicto": "responde"
   },
   "https://github.com/Hamza417/Inure": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/HatriGt/flix-launcher": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3354,6 +3962,14 @@
    "veredicto": "responde"
   },
   "https://github.com/IngoZenz/personaldnsfilter": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/JJDizz1L/NuvioLinux-unofficial": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Jackett/Jackett": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3417,6 +4033,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/MegaNexusMediaPlayer/MegaNexus": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/MenaHere/Yuri-Reader": {
    "codigo": "200",
    "veredicto": "responde"
@@ -3457,6 +4077,22 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/NuvioMedia/NuvioDesktop": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/NuvioMedia/NuvioMobile": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/NuvioMedia/NuvioTV": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/NuvioMedia/NuvioTVSmart": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Nyora-Manga/nyora-android": {
    "codigo": "200",
    "veredicto": "responde"
@@ -3474,6 +4110,14 @@
    "veredicto": "responde"
   },
   "https://github.com/PhilippC/keepass2android": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Prowlarr/Prowlarr": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Pulsariums/pulsar-trmangahub": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3557,7 +4201,15 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/SkipDB-TV/skipdb": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Stiven-Gjekaj/Asabunko": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Stiven-Gjekaj/Moekoma": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3597,6 +4249,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/TaisenDev/aidoku-bridge-builder": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/TrackerControl/tracker-control-android": {
    "codigo": "200",
    "veredicto": "responde"
@@ -3614,6 +4270,10 @@
    "veredicto": "responde"
   },
   "https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Viren070/AIOStreams": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3641,7 +4301,19 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/ahrm/sioyek": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/aistra0528/Hail": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/akachiina/wotoha": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/alpinezx/easy-aiostreams": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3669,6 +4341,18 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/aria2/aria2": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/arranoust/yomu": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/atharvkharbade/anisync-addon": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/authpass/authpass": {
    "codigo": "200",
    "veredicto": "responde"
@@ -3689,6 +4373,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/booklore-app/booklore": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/brosssh/revanced-manager-downloaders": {
    "codigo": "200",
    "veredicto": "responde"
@@ -3705,6 +4393,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/cenodude/CrossWatch": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/codegeasse1/hikari-adblock": {
    "codigo": "200",
    "veredicto": "responde"
@@ -3717,7 +4409,15 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/coveninja/cove": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/cr1437/Shizako": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/cross-seed/cross-seed": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3733,6 +4433,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/debpalash/Opal": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/destradess/tv-home-universal": {
    "codigo": "200",
    "veredicto": "responde"
@@ -3742,6 +4446,14 @@
    "veredicto": "responde"
   },
   "https://github.com/dragonx943/manga-repo": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/edrlab/thorium-reader": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/ellite/scrob": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3825,6 +4537,14 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/iptv-org/iptv": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/ito-community/sources": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/itsmechinmoy/Dantotsu": {
    "codigo": "200",
    "veredicto": "responde"
@@ -3841,6 +4561,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/janlery/MANGA-TENSEI": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/jason5545/tailgate": {
    "codigo": "200",
    "veredicto": "responde"
@@ -3849,11 +4573,19 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/joaotolovi/m3u-mux-addon-stremio": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/jobobby04/ShosetsuExtensions": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/jobobby04/TachiyomiSY": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/johnfactotum/foliate": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3901,6 +4633,18 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/koodo-reader/koodo-reader": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/koreader/koreader": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/kovidgoyal/calibre": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/krishna3163/OmniShizuku": {
    "codigo": "200",
    "veredicto": "responde"
@@ -3909,11 +4653,23 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/kuiti/manga-source-index": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/kurosensei2090/ZenYomi": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/lenox108/NetModeSwitch": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/lipexama/lipex-reader": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/lnreader/cli": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -3969,6 +4725,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/mochi-plugins/repository": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/mojuru/anime-repo": {
    "codigo": "200",
    "veredicto": "responde"
@@ -4017,6 +4777,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/ohadhaviv92/streamgram": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/open-keychain/open-keychain": {
    "codigo": "200",
    "veredicto": "responde"
@@ -4034,6 +4798,10 @@
    "veredicto": "responde"
   },
   "https://github.com/professorDeveloper/sozo": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/qbittorrent/qBittorrent": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -4074,6 +4842,10 @@
    "veredicto": "responde"
   },
   "https://github.com/ruzhe85/MihonSY": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/s4pp1/stremhu-source": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -4157,6 +4929,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/transmission/transmission": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/unseensnick/Reikai": {
    "codigo": "200",
    "veredicto": "responde"
@@ -4166,6 +4942,10 @@
    "veredicto": "responde"
   },
   "https://github.com/wasu-code/novel-compat-shosetsu": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/webtorrent/webtorrent": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -4244,6 +5024,10 @@
   "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json": {
    "codigo": "200",
    "veredicto": "responde"
+  },
+  "https://reports.exodus-privacy.eu.org/api/search/xuper": {
+   "codigo": "401",
+   "veredicto": "no deja entrar a un robot"
   }
  },
  "nota": "estado medido con la API de GitHub y con peticiones HTTP el día indicado; un 404 se registra como muerto, un 403/429 nunca"

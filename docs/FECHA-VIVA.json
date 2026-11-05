@@ -364,6 +364,34 @@
    "utc": "2026-11-05T00:49:55",
    "fuera": "2026-11-05T00:49:39",
    "dia_de_la_semana": "miércoles"
+  },
+  {
+   "momento": "inicio",
+   "casa": "2026-11-04T21:00:38",
+   "utc": "2026-11-05T01:00:38",
+   "fuera": "2026-11-05T01:00:36",
+   "dia_de_la_semana": "miércoles"
+  },
+  {
+   "momento": "fin",
+   "casa": "2026-11-04T21:07:55",
+   "utc": "2026-11-05T01:07:55",
+   "fuera": "2026-11-05T01:07:50",
+   "dia_de_la_semana": "miércoles"
+  },
+  {
+   "momento": "inicio",
+   "casa": "2026-11-04T21:07:55",
+   "utc": "2026-11-05T01:07:55",
+   "fuera": "2026-11-05T01:07:50",
+   "dia_de_la_semana": "miércoles"
+  },
+  {
+   "momento": "fin",
+   "casa": "2026-11-04T21:11:05",
+   "utc": "2026-11-05T01:11:05",
+   "fuera": "2026-11-05T01:10:47",
+   "dia_de_la_semana": "miércoles"
   }
  ]
 }

@@ -464,7 +464,7 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 22 repositorios que cita esta pi
 
 • mkatadev/GoogleTVAirPlay — ★0 · empujó el 16-oct-2026 (hace 19 días) · GPL-3.0 · última release v1.3.6 (16-oct-2026)
 • AlphadogRSA/spotifyplus-tv-patch — ★21 · empujó el 27-oct-2026 (hace 8 días) · MIT · última release v1.3.0.9 (27-oct-2026)
-• xTudoS/dual-audio — ★3 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.0.1 (19-oct-2026)
+• xTudoS/dual-audio — ★4 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.0.1 (19-oct-2026)
 • milkei/audio-focus-mixer — ★1 · empujó el 31-oct-2026 (hace 4 días) · MIT
 • nixolas1/bluecodec — ★1 · empujó el 30-oct-2026 (hace 5 días) · MIT · última release v0.1.7 (30-oct-2026)
 • altarafiya/Sukut — ★4 · empujó el 1-nov-2026 (hace 3 días) · NOASSERTION · última release v0.4.2 (1-nov-2026)

@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 48 tareas abiertas en 16 piezas vivas, numeradas dentro de cada pieza, de 007 a 058. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 52 tareas abiertas en 17 piezas vivas, numeradas dentro de cada pieza, de 007 a 062. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -60,6 +60,10 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 056 | instalar Mihon, Kototoro y Sumidoku y comparar con `apksigner verify --print-certs` la huella de cada paquete con la que anuncia su repositorio. | Facebook · 11 | 2026-11-04 |
 | 057 | comprobar en febrero de 2027 si `skepsun/kototoro` y `itsmechinmoy/echo` siguen en sus direcciones nuevas o se han vuelto a mudar. | Facebook · 11 | 2026-11-04 |
 | 058 | medir en enero si Aniyomi sigue con cero cambios en treinta días y qué bifurcación de vídeo recogió a sus usuarios. | Facebook · 11 | 2026-11-04 |
+| 059 | volver a medir los 52 recursos el 4 de diciembre de 2026 y decir cuántos publicaron su primera suma de comprobación desde hoy. | Facebook · 12 | 2026-11-04 |
+| 060 | comprobar con `apksigner` la huella de Nuvio Mobile, Readest e IPTVnator contra la que anuncian sus repositorios. | Facebook · 12 | 2026-11-04 |
+| 061 | buscar en diciembre si existe un reemplazo medible para la música: el kit se queda corto ahí y conviene decirlo con datos. | Facebook · 12 | 2026-11-04 |
+| 062 | medir en enero si el lanzador de televisor de ocho días sigue publicando, y si el cliente de iOS de doce días mantiene sus cinco formatos. | Facebook · 12 | 2026-11-04 |
 
 ## Numeración: la regla y lo declarado
 
@@ -75,6 +79,7 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 > **Declarado:** 09-Archivos-copias-y-nubes-propias-cuatr: numera desde 042 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 10-Las-tiendas-cincuenta-y-seis-reposito: numera desde 051 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 11-Las-aplicaciones-que-leen-lo-que-la-p: numera desde 055 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 12-El-kit-de-reemplazo-cincuenta-y-dos-r: numera desde 059 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 
 La numeración es **por pieza**, no global: cada pieza numera sus tareas desde 001 porque la compuerta de novedad (M28) las cuenta dentro de la pieza. Por eso la misma cifra puede aparecer en dos piezas distintas y no es un error: la tarea se identifica por su número **y** su pieza.
 
