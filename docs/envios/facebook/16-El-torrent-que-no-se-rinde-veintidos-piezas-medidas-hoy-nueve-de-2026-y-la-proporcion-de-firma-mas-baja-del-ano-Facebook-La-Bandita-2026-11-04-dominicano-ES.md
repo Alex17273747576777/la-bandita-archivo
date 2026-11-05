@@ -1,12 +1,12 @@
 # PIEZA 16 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/16-El-torrent-que-no-se-rinde-veintidos-piezas-medidas-hoy-nueve-de-2026-y-la-proporcion-de-firma-mas-baja-del-ano-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
-- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `b4b655ef12778657f0714fcb8b65f7176520841710c6f4ca5d914520573c18e1`
-- **Envío generado:** 2026-11-04 · 17 mensajes · el mayor de 3683 caracteres
+- **Envío generado:** 2026-11-05 · 17 mensajes · el mayor de 3683 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 17 · 870 caracteres ═══
+═══ MENSAJE 1 de 17 · 1049 caracteres ═══
 
 *El torrent que no se rinde: veintidós piezas medidas hoy —nueve de 2026, un protocolo de veinte años y la parte que nadie quiere leer—*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *4 repositorios, 4 vivos*, m�
 
 Licencias de lo que recomienda: MPL-2.0 1 · MIT 1 · 0BSD 1 · GPL-2.0 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 4-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/16-El-torrent-que-no-se-rinde-veintidos-piezas-medidas-hoy-nueve-de-2026-y-la-proporcion-de-firma-mas-baja-del-ano-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
 
-💓 4 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 17 · 3500 caracteres ═══
+═══ MENSAJE 2 de 17 · 3590 caracteres ═══
+
+[Texto del 4-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *El torrent que no se rinde: veintidós piezas medidas hoy —nueve de 2026, un protocolo de veinte años y la parte que nadie quiere leer—*
 
@@ -432,16 +436,16 @@ Y lo cuarto: **nueve piezas de 2026 en un tema que parecía cerrado**. Escribir 
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 742 caracteres ═══
+═══ MENSAJE 16 de 17 · 765 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 16*
 
-Medí otra vez, hoy 4 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 5 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• anacrolix/torrent — ★6.132 (sin cambio) · sin fecha de empuje · MPL-2.0
-• uutils/coreutils — ★24.332 (sin cambio) · sin fecha de empuje · MIT · última release 0.12.0 (17-sep-2026)
-• rhash/RHash — ★735 · empujó el 28-oct-2026 (hace 7 días) · 0BSD · última release v1.4.6 (13-may-2025)
-• smartmontools/smartmontools — ★1.460 · empujó en las últimas horas · GPL-2.0 · última release RELEASE_7_5 (12-may-2025)
+• anacrolix/torrent — ★6.132 (sin cambio) · empujó en las últimas horas · MPL-2.0
+• uutils/coreutils — ★24.332 (sin cambio) · empujó en las últimas horas · MIT · última release 0.12.0 (17-sep-2026)
+• rhash/RHash — ★735 · empujó el 28-oct-2026 (hace 8 días) · 0BSD · última release v1.4.6 (13-may-2025)
+• smartmontools/smartmontools — ★1.460 · empujó el 3-nov-2026 (hace 2 días) · GPL-2.0 · última release RELEASE_7_5 (12-may-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

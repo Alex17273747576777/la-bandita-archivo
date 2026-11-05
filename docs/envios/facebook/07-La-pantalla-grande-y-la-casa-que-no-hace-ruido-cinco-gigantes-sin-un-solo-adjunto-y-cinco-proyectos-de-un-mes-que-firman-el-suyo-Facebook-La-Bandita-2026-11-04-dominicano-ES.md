@@ -1,12 +1,12 @@
 # PIEZA 07 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/07-La-pantalla-grande-y-la-casa-que-no-hace-ruido-cinco-gigantes-sin-un-solo-adjunto-y-cinco-proyectos-de-un-mes-que-firman-el-suyo-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
-- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `f2e9559ced7a5a0c8f7af8f4821068d4103edcb622ca2e4ba9aaa1c80c8ea820`
-- **Envío generado:** 2026-11-04 · 17 mensajes · el mayor de 3626 caracteres
+- **Envío generado:** 2026-11-05 · 17 mensajes · el mayor de 3626 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 17 · 894 caracteres ═══
+═══ MENSAJE 1 de 17 · 1073 caracteres ═══
 
 *La pantalla grande y la casa que no hace ruido: cinco gigantes sin un solo adjunto y cinco proyectos de un mes que firman el suyo*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *17 repositorios, 17 vivos*, 
 
 Licencias de lo que recomienda: NOASSERTION 5 · MIT 4 · Apache-2.0 2 · GPL-3.0 2.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 4-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/07-La-pantalla-grande-y-la-casa-que-no-hace-ruido-cinco-gigantes-sin-un-solo-adjunto-y-cinco-proyectos-de-un-mes-que-firman-el-suyo-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
 
-💓 4 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 17 · 2938 caracteres ═══
+═══ MENSAJE 2 de 17 · 3028 caracteres ═══
+
+[Texto del 4-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *La pantalla grande y la casa que no hace ruido: cinco gigantes sin un solo adjunto y cinco proyectos de un mes que firman el suyo*
 
@@ -369,29 +373,29 @@ Los nuevos del trimestre:
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 2158 caracteres ═══
+═══ MENSAJE 16 de 17 · 2196 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 07*
 
-Medí otra vez, hoy 4 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 5 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• yuliskov/SmartTube — ★35.934 · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
-• jolabs40/TVSlim — ★35 · empujó el 20-oct-2026 (hace 15 días) · Apache-2.0 · última release windows-v1.7.0 (20-oct-2026)
-• xbmc/xbmc — ★21.436 · sin fecha de empuje · NOASSERTION · última release 21.3-Omega (31-oct-2025)
-• jellyfin/jellyfin — ★59.016 · sin fecha de empuje · GPL-2.0 · última release v12.4 (26-oct-2026)
-• meta-tabchen/MoonCast — ★6 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v0.9 (17-oct-2026)
-• mkatadev/GoogleTVAirPlay — ★0 · empujó el 16-oct-2026 (hace 19 días) · GPL-3.0 · última release v1.3.6 (16-oct-2026)
-• home-assistant/core — ★91.980 · sin fecha de empuje · Apache-2.0 · última release 2026.11.0 (4-nov-2026)
-• esphome/esphome — ★12.019 · sin fecha de empuje · NOASSERTION · última release 2026.10.2 (2-nov-2026)
-• jxlarrea/kiosk-satellite — ★2.492 · sin fecha de empuje · NOASSERTION · última release 2026.11.6 (4-nov-2026)
-• schaumann-byte/hy300-projector-homeassistant — ★0 · empujó el 18-oct-2026 (hace 17 días) · MIT · última release v0.2.3 (18-oct-2026)
+• yuliskov/SmartTube — ★35.938 · empujó el 3-nov-2026 (hace 2 días) · MIT · última release 32.68s (20-oct-2026)
+• jolabs40/TVSlim — ★35 · empujó en las últimas horas · Apache-2.0 · última release windows-v1.7.0 (20-oct-2026)
+• xbmc/xbmc — ★21.437 · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
+• jellyfin/jellyfin — ★59.026 · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• meta-tabchen/MoonCast — ★6 · empujó el 1-nov-2026 (hace 4 días) · GPL-3.0 · última release v0.9 (17-oct-2026)
+• mkatadev/GoogleTVAirPlay — ★0 · empujó el 16-oct-2026 (hace 20 días) · GPL-3.0 · última release v1.3.6 (16-oct-2026)
+• home-assistant/core — ★91.986 · empujó en las últimas horas · Apache-2.0 · última release 2026.11.0 (4-nov-2026)
+• esphome/esphome — ★12.022 · empujó en las últimas horas · NOASSERTION · última release 2026.10.2 (2-nov-2026)
+• jxlarrea/kiosk-satellite — ★2.494 · empujó en las últimas horas · NOASSERTION · última release 2026.11.7 (5-nov-2026)
+• schaumann-byte/hy300-projector-homeassistant — ★0 · empujó el 18-oct-2026 (hace 18 días) · MIT · última release v0.2.3 (18-oct-2026)
 • Sygix/Tsuyu — ★1 · empujó en las últimas horas · AGPL-3.0 · última release v0.3.2 (4-nov-2026)
-• Gingerbreadfork/lounge — ★3 · empujó el 1-nov-2026 (hace 3 días) · MIT · última release v0.4.4 (29-oct-2026)
-• destradess/tv-home-universal — ★22 · empujó el 25-oct-2026 (hace 10 días) · NOASSERTION
-• mahmutaunal/TVPilot — ★9 · empujó el 21-sep-2026 (hace 44 días) · NOASSERTION · última release v1.0.0 (21-sep-2026)
-• sloccy/morphe-tv-patcher — ★0 · empujó el 1-nov-2026 (hace 3 días) · sin licencia detectada por la API
-• JoaoAntunesss/tv-debloat — ★0 · empujó el 30-oct-2026 (hace 5 días) · sin licencia detectada por la API
-• usnraver/website-to-tv-app — ★0 · empujó el 19-oct-2026 (hace 16 días) · MIT
+• Gingerbreadfork/lounge — ★3 · empujó el 1-nov-2026 (hace 4 días) · MIT · última release v0.4.4 (29-oct-2026)
+• destradess/tv-home-universal — ★22 · empujó el 25-oct-2026 (hace 11 días) · NOASSERTION
+• mahmutaunal/TVPilot — ★9 · empujó el 21-sep-2026 (hace 45 días) · NOASSERTION · última release v1.0.0 (21-sep-2026)
+• sloccy/morphe-tv-patcher — ★0 · empujó el 1-nov-2026 (hace 4 días) · sin licencia detectada por la API
+• JoaoAntunesss/tv-debloat — ★0 · empujó el 30-oct-2026 (hace 6 días) · sin licencia detectada por la API
+• usnraver/website-to-tv-app — ★0 · empujó el 19-oct-2026 (hace 17 días) · MIT
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

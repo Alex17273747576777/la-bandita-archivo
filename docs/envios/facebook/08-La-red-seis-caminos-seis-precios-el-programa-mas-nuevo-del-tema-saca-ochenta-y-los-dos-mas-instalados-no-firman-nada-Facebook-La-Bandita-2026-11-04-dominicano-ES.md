@@ -1,12 +1,12 @@
 # PIEZA 08 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/08-La-red-seis-caminos-seis-precios-el-programa-mas-nuevo-del-tema-saca-ochenta-y-los-dos-mas-instalados-no-firman-nada-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
-- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `465db8a4f3db818ec5f69135a2580b728275bbcd288b805b8e320d43ddcc5b09`
-- **Envío generado:** 2026-11-04 · 17 mensajes · el mayor de 3625 caracteres
+- **Envío generado:** 2026-11-05 · 17 mensajes · el mayor de 3625 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 17 · 878 caracteres ═══
+═══ MENSAJE 1 de 17 · 1057 caracteres ═══
 
 *La red: seis caminos, seis precios — el programa más nuevo del tema saca ochenta y los dos más instalados no firman nada*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *20 repositorios, 20 vivos*, 
 
 Licencias de lo que recomienda: GPL-3.0 5 · NOASSERTION 3 · AGPL-3.0 2 · Apache-2.0 2.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 4-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/08-La-red-seis-caminos-seis-precios-el-programa-mas-nuevo-del-tema-saca-ochenta-y-los-dos-mas-instalados-no-firman-nada-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
 
-💓 4 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 17 · 2834 caracteres ═══
+═══ MENSAJE 2 de 17 · 2924 caracteres ═══
+
+[Texto del 4-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *La red: seis caminos, seis precios — el programa más nuevo del tema saca ochenta y los dos más instalados no firman nada*
 
@@ -389,32 +393,32 @@ Los nuevos del trimestre:
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 2666 caracteres ═══
+═══ MENSAJE 16 de 17 · 2671 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 08*
 
-Medí otra vez, hoy 4 de noviembre de 2026, los 20 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 5 de noviembre de 2026, los 20 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mullvad/mullvadvpn-app — ★7.742 · sin fecha de empuje · GPL-3.0 · última release android/2026.12 (30-sep-2026)
-• wg-easy/wg-easy — ★27.411 · empujó en las últimas horas · AGPL-3.0 · última release v15.5.0 (24-oct-2026)
-• juanfont/headscale — ★45.377 · empujó en las últimas horas · BSD-3-Clause · última release v0.29.7 (30-oct-2026)
-• netbirdio/netbird — ★30.687 · sin fecha de empuje · NOASSERTION · última release v0.82.0 (29-oct-2026)
-• SagerNet/sing-box — ★39.637 · empujó en las últimas horas · NOASSERTION · última release v1.14.4 (24-oct-2026)
-• hiddify/hiddify-app — ★33.648 · empujó en las últimas horas · NOASSERTION · última release v5.5.5 (4-nov-2026)
-• celzero/rethink-app — ★5.849 · empujó el 26-oct-2026 (hace 9 días) · Apache-2.0 · última release v0.5.8 (13-oct-2026)
-• M66B/NetGuard — ★3.964 · *dormido*: sin empujar desde el 1-ago-2026 (95 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
-• AdAway/AdAway — ★9.593 · *dormido*: sin empujar desde el 13-sep-2026 (52 días) · GPL-3.0 · última release v6.1.4 (27-oct-2024)
-• IngoZenz/personaldnsfilter — ★952 · empujó el 31-oct-2026 (hace 4 días) · GPL-2.0 · última release 1.50.61.5 (18-oct-2026)
-• Dushnilin/tachyon — ★562 · empujó en las últimas horas · GPL-2.0 · última release 1.7.13 (4-nov-2026)
-• ELowry/DNSToggle — ★164 · empujó el 1-nov-2026 (hace 3 días) · MIT · última release v3.0.8 (1-nov-2026)
-• Shishir-ip/AppDNS — ★22 · empujó el 12-oct-2026 (hace 23 días) · Apache-2.0 · última release v2.0 (10-oct-2026)
-• codegeasse1/hikari-adblock — ★37 · *dormido*: sin empujar desde el 11-sep-2026 (54 días) · GPL-3.0 · última release v1.2.3 (11-sep-2026)
-• abapqlcm/AuroraVPN — ★8 · empujó el 30-oct-2026 (hace 5 días) · AGPL-3.0
-• mimbasher/NetControl — ★7 · empujó el 4-oct-2026 (hace 31 días) · sin licencia detectada por la API · última release v2.8 (2-oct-2026)
-• georgechou0517/DNSSwitch — ★1 · empujó el 14-oct-2026 (hace 21 días) · MIT-0 · última release v26.10.2 (14-oct-2026)
-• jason5545/tailgate — ★0 · empujó el 18-oct-2026 (hace 17 días) · MIT · última release v1.1.0 (18-oct-2026)
-• haintrainn/grapheneos-firewall-app — ★0 · empujó el 19-oct-2026 (hace 16 días) · GPL-3.0 · última release v1.1 (19-oct-2026)
-• lenox108/NetModeSwitch — ★1 · empujó en las últimas horas · sin licencia detectada por la API · última release v3.5 (30-oct-2026)
+• mullvad/mullvadvpn-app — ★7.741 · empujó en las últimas horas · GPL-3.0 · última release android/2026.12 (30-sep-2026)
+• wg-easy/wg-easy — ★27.420 · empujó en las últimas horas · AGPL-3.0 · última release v15.5.0 (24-oct-2026)
+• juanfont/headscale — ★45.389 · empujó en las últimas horas · BSD-3-Clause · última release v0.29.7 (30-oct-2026)
+• netbirdio/netbird — ★30.700 · empujó en las últimas horas · NOASSERTION · última release v0.82.0 (29-oct-2026)
+• SagerNet/sing-box — ★39.648 · empujó el 3-nov-2026 (hace 2 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
+• hiddify/hiddify-app — ★33.658 · empujó en las últimas horas · NOASSERTION · última release v5.5.5 (4-nov-2026)
+• celzero/rethink-app — ★5.849 · empujó el 26-oct-2026 (hace 10 días) · Apache-2.0 · última release v0.5.8 (13-oct-2026)
+• M66B/NetGuard — ★3.964 · *dormido*: sin empujar desde el 1-ago-2026 (96 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
+• AdAway/AdAway — ★9.591 · empujó en las últimas horas · GPL-3.0 · última release v6.1.4 (27-oct-2024)
+• IngoZenz/personaldnsfilter — ★952 · empujó el 31-oct-2026 (hace 5 días) · GPL-2.0 · última release 1.50.61.5 (18-oct-2026)
+• Dushnilin/tachyon — ★563 · empujó en las últimas horas · GPL-2.0 · última release 1.7.13 (4-nov-2026)
+• ELowry/DNSToggle — ★164 · empujó el 1-nov-2026 (hace 4 días) · MIT · última release v3.0.8 (1-nov-2026)
+• Shishir-ip/AppDNS — ★22 · empujó el 12-oct-2026 (hace 24 días) · Apache-2.0 · última release v2.0 (10-oct-2026)
+• codegeasse1/hikari-adblock — ★37 · *dormido*: sin empujar desde el 11-sep-2026 (55 días) · GPL-3.0 · última release v1.2.3 (11-sep-2026)
+• abapqlcm/AuroraVPN — ★8 · empujó el 30-oct-2026 (hace 6 días) · AGPL-3.0
+• mimbasher/NetControl — ★7 · empujó el 4-oct-2026 (hace 32 días) · sin licencia detectada por la API · última release v2.8 (2-oct-2026)
+• georgechou0517/DNSSwitch — ★1 · empujó el 14-oct-2026 (hace 22 días) · MIT-0 · última release v26.10.2 (14-oct-2026)
+• jason5545/tailgate — ★0 · empujó el 18-oct-2026 (hace 18 días) · MIT · última release v1.1.0 (18-oct-2026)
+• haintrainn/grapheneos-firewall-app — ★0 · empujó el 19-oct-2026 (hace 17 días) · GPL-3.0 · última release v1.1 (19-oct-2026)
+• lenox108/NetModeSwitch — ★1 · empujó el 3-nov-2026 (hace 2 días) · sin licencia detectada por la API · última release v3.5 (30-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

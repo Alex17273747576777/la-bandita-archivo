@@ -1,12 +1,12 @@
 # PIEZA 10 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/10-Las-tiendas-cincuenta-y-seis-repositorios-vivos-doce-mil-cuatrocientos-ochenta-y-siete-archivos-y-diez-sumas-de-comprobacion-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
-- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `265c9962c35cc14b3904299a991943bbfe22cc17382adb457fa9d6cc716356ad`
-- **Envío generado:** 2026-11-04 · 20 mensajes · el mayor de 3860 caracteres
+- **Envío generado:** 2026-11-05 · 20 mensajes · el mayor de 3897 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 20 · 906 caracteres ═══
+═══ MENSAJE 1 de 20 · 1085 caracteres ═══
 
 *Los repositorios de extensiones: cincuenta y seis tiendas vivas, doce mil cuatrocientos ochenta y siete archivos y diez sumas de comprobación*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *58 repositorios, 56 vivos*, 
 
 Licencias de lo que recomienda: sin licencia 19 · Apache-2.0 17 · GPL-3.0 12 · MIT 4.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 4-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/10-Las-tiendas-cincuenta-y-seis-repositorios-vivos-doce-mil-cuatrocientos-ochenta-y-siete-archivos-y-diez-sumas-de-comprobacion-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
 
-💓 4 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 20 · 2383 caracteres ═══
+═══ MENSAJE 2 de 20 · 2473 caracteres ═══
+
+[Texto del 4-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *Los repositorios de extensiones: cincuenta y seis tiendas vivas, doce mil cuatrocientos ochenta y siete archivos y diez sumas de comprobación*
 
@@ -489,75 +493,75 @@ Y lo cuarto, la frase que esta serie repite porque en cada tema se cumple: **lo 
 
 ⏬ sigue abajo · parte 15 de 19
 
-═══ MENSAJE 17 de 20 · 3860 caracteres ═══
+═══ MENSAJE 17 de 20 · 3897 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 10*
 
-Medí otra vez, hoy 4 de noviembre de 2026, los 58 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 5 de noviembre de 2026, los 58 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• amrkmn/x — ★41 (sin cambio) · sin fecha de empuje · MIT · última release v0.778.0 (5-nov-2026)
+• amrkmn/x — ★41 (sin cambio) · empujó en las últimas horas · MIT · última release v0.778.0 (5-nov-2026)
 • yuzono/aniyomi-extensions — sin dato hoy (la API no respondió). No afirmo nada.
 • yuzono/anime-repo — sin dato hoy (la API no respondió). No afirmo nada.
 • mojuru/anime-repo — ★72 · empujó en las últimas horas · sin licencia detectada por la API
-• keiyoushi/extensions — ★15.434 · empujó en las últimas horas · sin licencia detectada por la API · última release ee661f5 (4-nov-2026)
-• keiyoushi/extensions-source — ★4.863 · empujó en las últimas horas · Apache-2.0
-• yuzono/tachiyomi-extensions — ★958 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0
-• cuong-tran/manga-repo — ★468 · empujó el 2-nov-2026 (hace 2 días) · sin licencia detectada por la API · última release f7d844c-2 (2-nov-2026)
-• LittleSurvival/copymanga-copy20 — ★2.993 · empujó el 11-oct-2026 (hace 24 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
-• cofedream/extensions-copymanga — ★498 · *dormido*: sin empujar desde el 8-ago-2026 (88 días) · sin licencia detectada por la API · última release v1.4.11 (7-jun-2025)
-• FelipeGFA/extensoes — ★43 · empujó el 28-sep-2026 (hace 37 días) · sin licencia detectada por la API · última release d90cba1-2 (28-sep-2026)
-• mojuru/cursed-manga-repo — ★176 · empujó el 12-oct-2026 (hace 23 días) · sin licencia detectada por la API · última release 5dad5cf (12-oct-2026)
+• keiyoushi/extensions — ★15.439 · empujó en las últimas horas · sin licencia detectada por la API · última release ee661f5 (4-nov-2026)
+• keiyoushi/extensions-source — ★4.865 · empujó en las últimas horas · Apache-2.0
+• yuzono/tachiyomi-extensions — ★958 · empujó el 2-nov-2026 (hace 3 días) · Apache-2.0
+• cuong-tran/manga-repo — ★468 · empujó el 2-nov-2026 (hace 3 días) · sin licencia detectada por la API · última release f7d844c-2 (2-nov-2026)
+• LittleSurvival/copymanga-copy20 — ★2.995 · empujó el 11-oct-2026 (hace 25 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
+• cofedream/extensions-copymanga — ★498 · *dormido*: sin empujar desde el 8-ago-2026 (89 días) · sin licencia detectada por la API · última release v1.4.11 (7-jun-2025)
+• FelipeGFA/extensoes — ★43 · empujó el 28-sep-2026 (hace 38 días) · sin licencia detectada por la API · última release d90cba1-2 (28-sep-2026)
+• mojuru/cursed-manga-repo — ★176 · empujó el 12-oct-2026 (hace 24 días) · sin licencia detectada por la API · última release 5dad5cf (12-oct-2026)
 • yuzono/cursed-manga-extensions — ★221 · empujó en las últimas horas · Apache-2.0
-• Kareadita/tach-extension — ★137 · empujó el 1-nov-2026 (hace 3 días) · Apache-2.0 · última release v1.4.27 (1-nov-2026)
-• Suwayomi/tachiyomi-extension — ★345 · *dormido*: sin empujar desde el 19-sep-2026 (46 días) · Apache-2.0
-• marbou92/MHRepo — ★8 · empujó en las últimas horas · Apache-2.0
-• Nyora-Manga/nyora-mihon — ★14 · *dormido*: sin empujar desde el 19-jul-2026 (108 días) · sin licencia detectada por la API
+• Kareadita/tach-extension — ★137 · empujó el 1-nov-2026 (hace 4 días) · Apache-2.0 · última release v1.4.27 (1-nov-2026)
+• Suwayomi/tachiyomi-extension — ★345 · *dormido*: sin empujar desde el 19-sep-2026 (47 días) · Apache-2.0
+• marbou92/MHRepo — ★8 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0
+• Nyora-Manga/nyora-mihon — ★14 · *dormido*: sin empujar desde el 19-jul-2026 (109 días) · sin licencia detectada por la API
 • manti-X/extensions — ★9 · empujó en las últimas horas · sin licencia detectada por la API
-• bangxingni/mycomic-extensions — ★181 · sin fecha de empuje · sin licencia detectada por la API · última release build-1 (5-nov-2026)
-• AngeloSha/uchiyomi — ★100 · empujó el 2-nov-2026 (hace 2 días) · MPL-2.0 · última release v0.103.1 (31-oct-2026)
-• Shebyyy/kotatsu-multi-parsers — ★19 · empujó el 21-oct-2026 (hace 14 días) · sin licencia detectada por la API · última release build-2026.10.21-1056 (21-oct-2026)
-• dragonx943/manga-repo — ★24 · empujó el 23-oct-2026 (hace 12 días) · GPL-3.0 · última release d605625 (23-oct-2026)
-• ShiroKazane/kotatsu-parsers — ★1 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release latest (1-nov-2026)
-• UsagiApp/plugins — ★10 · *dormido*: sin empujar desde el 27-jul-2026 (100 días) · GPL-3.0 · última release 1.0.3 (27-jul-2026)
+• bangxingni/mycomic-extensions — ★181 · empujó en las últimas horas · sin licencia detectada por la API · última release build-1 (5-nov-2026)
+• AngeloSha/uchiyomi — ★100 · empujó el 2-nov-2026 (hace 3 días) · MPL-2.0 · última release v0.103.1 (31-oct-2026)
+• Shebyyy/kotatsu-multi-parsers — ★19 · empujó el 21-oct-2026 (hace 15 días) · sin licencia detectada por la API · última release build-2026.10.21-1056 (21-oct-2026)
+• dragonx943/manga-repo — ★24 · empujó el 23-oct-2026 (hace 13 días) · GPL-3.0 · última release d605625 (23-oct-2026)
+• ShiroKazane/kotatsu-parsers — ★1 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release latest (1-nov-2026)
+• UsagiApp/plugins — ★10 · *dormido*: sin empujar desde el 27-jul-2026 (101 días) · GPL-3.0 · última release 1.0.3 (27-jul-2026)
 • skepsun/kototoro-parsers — ★17 · empujó en las últimas horas · GPL-3.0
-• KotatsuApp/kotatsu-parsers — ★324 · *dormido*: sin empujar desde el 3-nov-2025 (366 días) · GPL-3.0 · última release 1.7 (15-mar-2025) · *ARCHIVADO*
-• m2k3a/mangayomi-extensions — ★115 · empujó en las últimas horas · Apache-2.0
-• gato404/kegareta-sauces — ★14 · *dormido*: sin empujar desde el 22-jul-2025 (470 días) · Apache-2.0
-• Swakshan/mangayomi-swak-extensions — ★54 · empujó el 24-oct-2026 (hace 11 días) · Apache-2.0
-• Mallyd11/mangayomi-anime-extensions — ★28 · empujó el 1-nov-2026 (hace 3 días) · Apache-2.0
-• meesam4687/zenbu — ★18 · empujó en las últimas horas · Apache-2.0 · última release v0.3.8 (17-oct-2026)
-• Schnitzel5/ApkBridge — ★36 · *dormido*: sin empujar desde el 11-feb-2026 (266 días) · Apache-2.0 · última release v1.8 (11-sep-2025)
+• KotatsuApp/kotatsu-parsers — ★324 · *dormido*: sin empujar desde el 3-nov-2025 (367 días) · GPL-3.0 · última release 1.7 (15-mar-2025) · *ARCHIVADO*
+• m2k3a/mangayomi-extensions — ★116 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0
+• gato404/kegareta-sauces — ★14 · *dormido*: sin empujar desde el 22-jul-2025 (471 días) · Apache-2.0
+• Swakshan/mangayomi-swak-extensions — ★54 · empujó el 24-oct-2026 (hace 12 días) · Apache-2.0
+• Mallyd11/mangayomi-anime-extensions — ★28 · empujó el 1-nov-2026 (hace 4 días) · Apache-2.0
+• meesam4687/zenbu — ★18 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.3.8 (17-oct-2026)
+• Schnitzel5/ApkBridge — ★36 · *dormido*: sin empujar desde el 11-feb-2026 (267 días) · Apache-2.0 · última release v1.8 (11-sep-2025)
 
 ⏬ sigue abajo · parte 16 de 19
 
-═══ MENSAJE 18 de 20 · 2732 caracteres ═══
+═══ MENSAJE 18 de 20 · 2778 caracteres ═══
 
-• kodjodevf/mangayomi-extensions — ★359 · *dormido*: sin empujar desde el 1-oct-2025 (399 días) · Apache-2.0 · *ARCHIVADO*
-• lnreader/lnreader-plugins — ★367 · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
-• IReaderorg/IReader-extensions — ★32 · empujó el 27-oct-2026 (hace 8 días) · MPL-2.0
-• NovelSourcery/extensions — ★21 · empujó el 28-oct-2026 (hace 7 días) · sin licencia detectada por la API · última release d31198f (28-oct-2026)
-• jobobby04/ShosetsuExtensions — ★18 · empujó en las últimas horas · GPL-3.0
-• noaione/shosetsu-extensions — ★20 · *dormido*: sin empujar desde el 20-may-2026 (168 días) · GPL-3.0
-• wasu-code/novel-compat-shosetsu — ★10 · *dormido*: sin empujar desde el 12-ago-2026 (84 días) · GPL-3.0
+• kodjodevf/mangayomi-extensions — ★360 · *dormido*: sin empujar desde el 1-oct-2025 (400 días) · Apache-2.0 · *ARCHIVADO*
+• lnreader/lnreader-plugins — ★368 · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
+• IReaderorg/IReader-extensions — ★32 · empujó el 27-oct-2026 (hace 9 días) · MPL-2.0
+• NovelSourcery/extensions — ★21 · empujó el 28-oct-2026 (hace 8 días) · sin licencia detectada por la API · última release d31198f (28-oct-2026)
+• jobobby04/ShosetsuExtensions — ★18 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0
+• noaione/shosetsu-extensions — ★20 · *dormido*: sin empujar desde el 20-may-2026 (169 días) · GPL-3.0
+• wasu-code/novel-compat-shosetsu — ★10 · *dormido*: sin empujar desde el 12-ago-2026 (85 días) · GPL-3.0
 • yuzono/anime-extensions — ★530 · empujó en las últimas horas · Apache-2.0
-• Secozzi/aniyomi-extensions — ★130 · empujó el 20-sep-2026 (hace 45 días) · Apache-2.0 · última release 7717051 (20-sep-2026)
-• salmanbappi/extensions-repo — ★52 · empujó el 2-nov-2026 (hace 2 días) · sin licencia detectada por la API
-• CranberrySoup/AniyomiCompat — ★17 · *dormido*: sin empujar desde el 14-nov-2025 (355 días) · sin licencia detectada por la API
-• phisher98/cloudstream-extensions-phisher — ★533 · empujó el 2-nov-2026 (hace 2 días) · sin licencia detectada por la API
-• CakesTwix/cloudstream-extensions-uk — ★178 · empujó en las últimas horas · GPL-3.0
-• NivinCNC/CNCVerse-Bridge — ★189 · empujó el 1-nov-2026 (hace 3 días) · NOASSERTION · última release v1.2.0 (29-oct-2026)
-• Asm0d3usX/CloudX-V2 — ★62 · empujó en las últimas horas · MIT
-• Abodabodd/re-3arabi — ★92 · empujó en las últimas horas · sin licencia detectada por la API
-• hexated/cloudstream-extensions-hexated — ★397 · *dormido*: sin empujar desde el 17-ago-2024 (809 días) · GPL-3.0
+• Secozzi/aniyomi-extensions — ★130 · *dormido*: sin empujar desde el 20-sep-2026 (46 días) · Apache-2.0 · última release 7717051 (20-sep-2026)
+• salmanbappi/extensions-repo — ★52 · empujó el 2-nov-2026 (hace 3 días) · sin licencia detectada por la API
+• CranberrySoup/AniyomiCompat — ★17 · *dormido*: sin empujar desde el 14-nov-2025 (356 días) · sin licencia detectada por la API
+• phisher98/cloudstream-extensions-phisher — ★533 · empujó el 2-nov-2026 (hace 3 días) · sin licencia detectada por la API
+• CakesTwix/cloudstream-extensions-uk — ★178 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0
+• NivinCNC/CNCVerse-Bridge — ★189 · empujó el 1-nov-2026 (hace 4 días) · NOASSERTION · última release v1.2.0 (29-oct-2026)
+• Asm0d3usX/CloudX-V2 — ★62 · empujó el 3-nov-2026 (hace 2 días) · MIT
+• Abodabodd/re-3arabi — ★92 · empujó el 3-nov-2026 (hace 2 días) · sin licencia detectada por la API
+• hexated/cloudstream-extensions-hexated — ★397 · *dormido*: sin empujar desde el 17-ago-2024 (810 días) · GPL-3.0
 • Bas1874/Seanime-Marketplace — ★113 · empujó en las últimas horas · NOASSERTION
 • Seanime-contributions/Seanime-Providers — ★74 · empujó en las últimas horas · MIT
-• ReWelp/HayasexShiru-Extensions — ★99 · *dormido*: sin empujar desde el 2-feb-2026 (275 días) · GPL-3.0
-• anh9000/anitorrent — ★54 · empujó el 17-oct-2026 (hace 18 días) · GPL-3.0
+• ReWelp/HayasexShiru-Extensions — ★100 · *dormido*: sin empujar desde el 2-feb-2026 (276 días) · GPL-3.0
+• anh9000/anitorrent — ★54 · empujó el 17-oct-2026 (hace 19 días) · GPL-3.0
 • itsmechinmoy/echo-extensions — ★164 · empujó en las últimas horas · sin licencia detectada por la API
-• timschneeb/tachiyomi-extensions-archive — ★1.803 · *dormido*: sin empujar desde el 23-mar-2026 (226 días) · Apache-2.0 · *ARCHIVADO*
-• yuzono/manga-repo — ★13 · *dormido*: sin empujar desde el 18-ago-2026 (78 días) · sin licencia detectada por la API
+• timschneeb/tachiyomi-extensions-archive — ★1.803 · *dormido*: sin empujar desde el 23-mar-2026 (227 días) · Apache-2.0 · *ARCHIVADO*
+• yuzono/manga-repo — ★13 · *dormido*: sin empujar desde el 18-ago-2026 (79 días) · sin licencia detectada por la API
 • Aidoku-Community/sources — ★620 · empujó en las últimas horas · Apache-2.0
-• self-similarity/MegaRepo — ★142 · *dormido*: sin empujar desde el 3-oct-2025 (397 días) · sin licencia detectada por la API
+• self-similarity/MegaRepo — ★142 · *dormido*: sin empujar desde el 3-oct-2025 (398 días) · sin licencia detectada por la API
 
 ⏬ sigue abajo · parte 17 de 19
 

@@ -1,12 +1,12 @@
 # PIEZA 17 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/17-El-teclado-que-escribe-por-ti-treinta-y-cuatro-teclados-y-dictados-medidos-hoy-diez-de-2026-y-la-proporcion-de-firma-mas-alta-del-ano-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
-- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `57a35dba7bd2e7a04d8847ce43b7d077d863a38f574c7305e1391e5ac1318e8a`
-- **Envío generado:** 2026-11-04 · 20 mensajes · el mayor de 3895 caracteres
+- **Envío generado:** 2026-11-05 · 20 mensajes · el mayor de 3928 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 20 · 946 caracteres ═══
+═══ MENSAJE 1 de 20 · 1125 caracteres ═══
 
 *El teclado que escribe por ti treinta y cuatro teclados y dictados medidos hoy diez de 2026 y la proporcion de firma mas alta del ano Facebook La Bandita 2026 11 04 dominicano ES*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *33 repositorios, 33 vivos*, 
 
 Licencias de lo que recomienda: MIT 10 · Apache-2.0 9 · GPL-3.0 9 · AGPL-3.0 2.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 4-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/17-El-teclado-que-escribe-por-ti-treinta-y-cuatro-teclados-y-dictados-medidos-hoy-diez-de-2026-y-la-proporcion-de-firma-mas-alta-del-ano-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
 
-💓 4 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 20 · 3640 caracteres ═══
+═══ MENSAJE 2 de 20 · 3730 caracteres ═══
+
+[Texto del 4-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *El teclado que escribe por ti: treinta y cuatro teclados y dictados medidos hoy —diez de 2026, un APK que compiló un desconocido y la proporción de firma más alta del año—*
 
@@ -485,45 +489,45 @@ Y lo cuarto: **el nombre que más suena no es el que mejor está**. `openai/whis
 
 ⏬ sigue abajo · parte 16 de 19
 
-═══ MENSAJE 18 de 20 · 3895 caracteres ═══
+═══ MENSAJE 18 de 20 · 3928 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 17*
 
-Medí otra vez, hoy 4 de noviembre de 2026, los 33 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 5 de noviembre de 2026, los 33 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• Batmancpu/Dictator- — ★3 · empujó el 26-oct-2026 (hace 9 días) · Apache-2.0 · última release dictator-40297638051 (26-oct-2026)
-• openai/whisper — ★111.973 · *dormido*: sin empujar desde el 31-ago-2026 (65 días) · MIT · última release v20250625 (26-jun-2025)
-• HeliBorg/HeliBoard — ★6.498 · empujó en las últimas horas · GPL-3.0 · última release v4.2 (12-oct-2026)
-• florisboard/florisboard — ★8.755 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.5.2 (28-nov-2025)
+• Batmancpu/Dictator- — ★3 · empujó el 26-oct-2026 (hace 10 días) · Apache-2.0 · última release dictator-40297638051 (26-oct-2026)
+• openai/whisper — ★111.993 · *dormido*: sin empujar desde el 31-ago-2026 (66 días) · MIT · última release v20250625 (26-jun-2025)
+• HeliBorg/HeliBoard — ★6.500 · empujó en las últimas horas · GPL-3.0 · última release v4.2 (12-oct-2026)
+• florisboard/florisboard — ★8.755 · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
 • Julow/Unexpected-Keyboard — ★3.337 · empujó en las últimas horas · GPL-3.0 · última release 2.2.0 (1-nov-2026)
-• AnySoftKeyboard/AnySoftKeyboard — ★3.393 · sin fecha de empuje · Apache-2.0 · última release 1.13-r2 (8-sep-2026)
-• rkkr/simple-keyboard — ★1.607 · empujó el 22-oct-2026 (hace 13 días) · Apache-2.0 · última release 149 (22-oct-2026)
+• AnySoftKeyboard/AnySoftKeyboard — ★3.393 · empujó en las últimas horas · Apache-2.0 · última release 1.13-r2 (8-sep-2026)
+• rkkr/simple-keyboard — ★1.607 · empujó el 22-oct-2026 (hace 14 días) · Apache-2.0 · última release 149 (22-oct-2026)
 • osfans/trime — ★4.771 · empujó en las últimas horas · GPL-3.0 · última release v3.3.13 (1-nov-2026)
-• scholay-xsime/xsime — ★1.177 · empujó en las últimas horas · Apache-2.0 · última release v1.2.0 (27-oct-2026)
+• scholay-xsime/xsime — ★1.178 · empujó en las últimas horas · Apache-2.0 · última release v1.2.0 (27-oct-2026)
 • DevEmperor/DictateKeyboard — ★315 · empujó en las últimas horas · Apache-2.0 · última release v6.4.0 (7-oct-2026)
-• soupslurpr/Transcribro — ★761 · empujó el 29-sep-2026 (hace 36 días) · ISC · última release 7 (7-ago-2025)
-• ElishaAz/Sayboard — ★586 · *dormido*: sin empujar desde el 1-jul-2025 (491 días) · GPL-3.0 · última release v4.2.1 (23-ago-2024)
-• notune/android_transcribe_app — ★338 · empujó el 17-oct-2026 (hace 18 días) · MIT · última release v0.2.3 (17-oct-2026)
-• futo-org/voice-input — ★350 · empujó el 2-nov-2026 (hace 2 días) · NOASSERTION
-• BryceWG/BiBi-Keyboard — ★861 · empujó en las últimas horas · Apache-2.0 · última release v4.5.3 (26-oct-2026)
-• Akshayykadam/PixelBoard — ★1.420 · empujó el 28-oct-2026 (hace 7 días) · GPL-3.0 · última release 1.3.3 (28-oct-2026)
-• wasi-master/wmkeyboard — ★726 · sin fecha de empuje · MIT · última release v0.6.5 (5-nov-2026)
-• LeanBitLab/LeanType — ★1.142 · empujó en las últimas horas · GPL-3.0 · última release v4.3.1 (4-nov-2026)
-• Cyletix/CyIME — ★632 · empujó en las últimas horas · GPL-3.0 · última release 1.15.58 (4-nov-2026)
-• zoolapp/aime — ★254 · empujó el 20-oct-2026 (hace 15 días) · MIT · última release v0.1.10 (20-oct-2026)
-• cjpais/Handy — ★37.554 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release v0.10.0 (2-nov-2026)
-• anomalyco/hex — ★5.079 · sin fecha de empuje · MIT · última release v3.3.0 (2-nov-2026)
-• Open-Less/openless — ★4.048 · empujó el 2-nov-2026 (hace 2 días) · AGPL-3.0 · última release v2.0.1-tauri (16-oct-2026)
-• altic-dev/FluidVoice — ★12.808 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.6.12 (22-oct-2026)
-• amicalhq/amical — ★1.597 · empujó el 27-oct-2026 (hace 8 días) · MIT · última release v1.12.5 (25-sep-2026)
-• peteonrails/voxtype — ★1.743 · empujó en las últimas horas · MIT · última release v1.1.1 (15-oct-2026)
+• soupslurpr/Transcribro — ★761 · empujó el 29-sep-2026 (hace 37 días) · ISC · última release 7 (7-ago-2025)
+• ElishaAz/Sayboard — ★586 · *dormido*: sin empujar desde el 1-jul-2025 (492 días) · GPL-3.0 · última release v4.2.1 (23-ago-2024)
+• notune/android_transcribe_app — ★338 · empujó el 17-oct-2026 (hace 19 días) · MIT · última release v0.2.3 (17-oct-2026)
+• futo-org/voice-input — ★350 · empujó el 2-nov-2026 (hace 3 días) · NOASSERTION
+• BryceWG/BiBi-Keyboard — ★861 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v4.5.3 (26-oct-2026)
+• Akshayykadam/PixelBoard — ★1.423 · empujó el 28-oct-2026 (hace 8 días) · GPL-3.0 · última release 1.3.3 (28-oct-2026)
+• wasi-master/wmkeyboard — ★731 · empujó en las últimas horas · MIT · última release v0.6.5 (5-nov-2026)
+• LeanBitLab/LeanType — ★1.143 · empujó en las últimas horas · GPL-3.0 · última release v4.3.1 (4-nov-2026)
+• Cyletix/CyIME — ★655 · empujó en las últimas horas · GPL-3.0 · última release 1.15.63 (5-nov-2026)
+• zoolapp/aime — ★255 · empujó el 20-oct-2026 (hace 16 días) · MIT · última release v0.1.10 (20-oct-2026)
+• cjpais/Handy — ★37.577 · empujó el 2-nov-2026 (hace 3 días) · MIT · última release v0.10.0 (2-nov-2026)
+• anomalyco/hex — ★5.152 · empujó en las últimas horas · MIT · última release v3.3.0 (2-nov-2026)
+• Open-Less/openless — ★4.052 · empujó el 2-nov-2026 (hace 3 días) · AGPL-3.0 · última release v2.0.1-tauri (16-oct-2026)
+• altic-dev/FluidVoice — ★12.818 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.6.12 (22-oct-2026)
+• amicalhq/amical — ★1.598 · empujó el 27-oct-2026 (hace 9 días) · MIT · última release v1.12.5 (25-sep-2026)
+• peteonrails/voxtype — ★1.745 · empujó en las últimas horas · MIT · última release v1.1.1 (15-oct-2026)
 • VocaHQ/vocalinux — ★994 · empujó en las últimas horas · AGPL-3.0 · última release v0.18.5 (27-oct-2026)
-• karansinghgit/speaktype — ★573 · empujó el 29-oct-2026 (hace 6 días) · MIT · última release v2.0.0 (22-sep-2026)
-• opennookorg/betterwispr — ★504 · empujó el 24-oct-2026 (hace 11 días) · Apache-2.0 · última release v0.1.5 (12-oct-2026)
-• SYSTRAN/faster-whisper — ★26.487 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release v1.2.1 (31-oct-2025)
-• Automattic/harper — ★17.411 · sin fecha de empuje · Apache-2.0 · última release v3.0.0 (27-oct-2026)
+• karansinghgit/speaktype — ★573 · empujó el 29-oct-2026 (hace 7 días) · MIT · última release v2.0.0 (22-sep-2026)
+• opennookorg/betterwispr — ★505 · empujó el 24-oct-2026 (hace 12 días) · Apache-2.0 · última release v0.1.5 (12-oct-2026)
+• SYSTRAN/faster-whisper — ★26.490 · empujó el 2-nov-2026 (hace 3 días) · MIT · última release v1.2.1 (31-oct-2025)
+• Automattic/harper — ★17.416 · empujó en las últimas horas · Apache-2.0 · última release v3.0.0 (27-oct-2026)
 • languagetool-org/languagetool — ★15.235 · empujó en las últimas horas · LGPL-2.1
-• espanso/espanso — ★14.717 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v2.4.1 (2-sep-2026)
+• espanso/espanso — ★14.719 · empujó el 1-nov-2026 (hace 4 días) · GPL-3.0 · última release v2.4.1 (2-sep-2026)
 
 ⏬ sigue abajo · parte 17 de 19
 

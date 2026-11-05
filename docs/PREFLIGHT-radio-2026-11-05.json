@@ -1,0 +1,176 @@
+{
+ "fecha": "2026-11-05",
+ "medido_en": "2026-11-05T09:23:35+00:00",
+ "fecha_viva": {
+  "salida": [
+   "FECHA VIVA · jueves 5 de noviembre de 2026 · 05:23:29 en Santo Domingo (09:23:29 UTC) · semana ISO 45 de 2026",
+   "  · reloj en hora con la fuente de fuera (+0.1 min)",
+   "  · anotado en docs/FECHA-VIVA.json como «inicio» (1 vez/veces hoy)"
+  ],
+  "codigo": 0
+ },
+ "historial": {
+  "publicadas": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17
+  ],
+  "siguiente": 18,
+  "pendientes": [
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27
+  ]
+ },
+ "ecosistema": {
+  "tema": "radio",
+  "consultas": [
+   "internet radio android created:>2026-01-01",
+   "iptv player created:>2026-01-01"
+  ],
+  "candidatos": [
+   {
+    "repo": "mesamirh/MovieBox-Tui",
+    "stars": 2764,
+    "creado": "2026-07-16",
+    "dias_nace": 112,
+    "push": "2026-11-04",
+    "licencia": "Apache-2.0",
+    "archivado": false,
+    "consulta": "directo y listas"
+   },
+   {
+    "repo": "Davidona/StreamVault-IPTV",
+    "stars": 1000,
+    "creado": "2026-03-21",
+    "dias_nace": 229,
+    "push": "2026-11-02",
+    "licencia": "NOASSERTION",
+    "archivado": false,
+    "consulta": "directo y listas"
+   },
+   {
+    "repo": "ahXN00/OwnTV",
+    "stars": 729,
+    "creado": "2026-06-11",
+    "dias_nace": 147,
+    "push": "2026-11-04",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "directo y listas"
+   },
+   {
+    "repo": "tbeezy/ynotv",
+    "stars": 442,
+    "creado": "2026-02-17",
+    "dias_nace": 261,
+    "push": "2026-10-08",
+    "licencia": "AGPL-3.0",
+    "archivado": false,
+    "consulta": "directo y listas"
+   },
+   {
+    "repo": "superuser404notfound/AetherEngine",
+    "stars": 377,
+    "creado": "2026-04-12",
+    "dias_nace": 207,
+    "push": "2026-11-05",
+    "licencia": "NOASSERTION",
+    "archivado": false,
+    "consulta": "directo y listas"
+   },
+   {
+    "repo": "armanmaurya/InternetRadio",
+    "stars": 180,
+    "creado": "2026-06-12",
+    "dias_nace": 146,
+    "push": "2026-11-04",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "radio por internet"
+   },
+   {
+    "repo": "bilipp/Lume",
+    "stars": 176,
+    "creado": "2026-04-09",
+    "dias_nace": 210,
+    "push": "2026-11-03",
+    "licencia": "AGPL-3.0",
+    "archivado": false,
+    "consulta": "directo y listas"
+   },
+   {
+    "repo": "shapeshed/aerial",
+    "stars": 165,
+    "creado": "2026-06-17",
+    "dias_nace": 141,
+    "push": "2026-11-05",
+    "licencia": "Apache-2.0",
+    "archivado": false,
+    "consulta": "radio por internet"
+   },
+   {
+    "repo": "lennylxx/webos-iptv-player",
+    "stars": 145,
+    "creado": "2026-03-28",
+    "dias_nace": 222,
+    "push": "2026-11-03",
+    "licencia": "Apache-2.0",
+    "archivado": false,
+    "consulta": "directo y listas"
+   },
+   {
+    "repo": "opentvproject/opentv",
+    "stars": 145,
+    "creado": "2026-07-30",
+    "dias_nace": 98,
+    "push": "2026-10-28",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "directo y listas"
+   },
+   {
+    "repo": "ounben/AMARadio",
+    "stars": 35,
+    "creado": "2026-06-07",
+    "dias_nace": 151,
+    "push": "2026-11-04",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "radio por internet"
+   },
+   {
+    "repo": "c77Xa7/static_internet_radio",
+    "stars": 30,
+    "creado": "2026-07-20",
+    "dias_nace": 108,
+    "push": "2026-09-06",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "radio por internet"
+   }
+  ]
+ },
+ "regla": "siempre GitHub; nunca almacenamiento local con pérdida (H22)"
+}

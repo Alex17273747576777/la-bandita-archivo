@@ -1,12 +1,12 @@
 # PIEZA 06 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/06-El-taller-los-gestores-de-parches-firman-cincuenta-y-cinco-de-sus-ciento-noventa-archivos-y-los-conjuntos-de-parches-no-firman-ninguno-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
-- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `52173b1267815e0ad04b9e7503e387a373e349092ba626e9141094e40cadda5c`
-- **Envío generado:** 2026-11-04 · 18 mensajes · el mayor de 3653 caracteres
+- **Envío generado:** 2026-11-05 · 18 mensajes · el mayor de 3653 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 18 · 916 caracteres ═══
+═══ MENSAJE 1 de 18 · 1095 caracteres ═══
 
 *El taller de los parches: los gestores firman cincuenta y cinco de sus ciento noventa archivos y los conjuntos de parches no firman ninguno*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *18 repositorios, 17 vivos*, 
 
 Licencias de lo que recomienda: GPL-3.0 12 · AGPL-3.0 1 · Unlicense 1 · sin licencia 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 4-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/06-El-taller-los-gestores-de-parches-firman-cincuenta-y-cinco-de-sus-ciento-noventa-archivos-y-los-conjuntos-de-parches-no-firman-ninguno-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
 
-💓 4 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 18 · 2830 caracteres ═══
+═══ MENSAJE 2 de 18 · 2920 caracteres ═══
+
+[Texto del 4-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *El taller de los parches: los gestores firman cincuenta y cinco de sus ciento noventa archivos y los conjuntos de parches no firman ninguno*
 
@@ -382,29 +386,29 @@ El permiso y la lista que hacen falta:
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 2780 caracteres ═══
+═══ MENSAJE 17 de 18 · 2811 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 06*
 
-Medí otra vez, hoy 4 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 5 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• anddea/revanced-patches — ★1.935 · empujó en las últimas horas · GPL-3.0 · última release v4.3.0 (28-sep-2026)
-• hoo-dles/morphe-patches — ★1.307 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.47.0 (4-oct-2026)
-• inotia00/revanced-patches — ★2.259 · *dormido*: sin empujar desde el 10-mar-2026 (239 días) · GPL-3.0 · última release v5.14.1 (31-dic-2025) · *ARCHIVADO*
-• MorpheApp/morphe-manager — ★9.977 · sin fecha de empuje · GPL-3.0 · última release v2.4.0 (4-nov-2026)
+• anddea/revanced-patches — ★1.935 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.3.0 (28-sep-2026)
+• hoo-dles/morphe-patches — ★1.307 · empujó el 1-nov-2026 (hace 4 días) · GPL-3.0 · última release v1.47.0 (4-oct-2026)
+• inotia00/revanced-patches — ★2.259 · *dormido*: sin empujar desde el 10-mar-2026 (240 días) · GPL-3.0 · última release v5.14.1 (31-dic-2025) · *ARCHIVADO*
+• MorpheApp/morphe-manager — ★9.990 · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (4-nov-2026)
 • Jman-Github/Universal-Patch-Manager — ★1.411 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
-• ReVanced/revanced-manager — ★30.072 · *dormido*: sin empujar desde el 29-jul-2026 (98 días) · GPL-3.0 · última release v2.6.0 (26-abr-2026)
-• ReVanced/revanced-cli — ★1.600 · *dormido*: sin empujar desde el 2-jun-2026 (155 días) · GPL-3.0 · última release v6.0.0 (14-mar-2026)
-• ReVanced/revanced-integrations — ★746 · *dormido*: sin empujar desde el 26-oct-2024 (739 días) · GPL-3.0 · última release v1.16.0 (20-oct-2024) · *ARCHIVADO*
-• ReVanced/revanced-api — ★186 · *dormido*: sin empujar desde el 19-jul-2026 (108 días) · AGPL-3.0 · última release v1.6.1 (11-jul-2025)
-• brosssh/revanced-manager-downloaders — ★118 · *dormido*: sin empujar desde el 4-dic-2025 (335 días) · GPL-3.0 · última release v1.1.0 (4-dic-2025)
-• rushiranpise/helper-for-morphe — ★433 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v5.2.0 (1-nov-2026)
-• MorpheApp/morphe-patches — ★4.562 · sin fecha de empuje · GPL-3.0 · última release v2.0.0 (30-oct-2026)
-• Jman-Github/Patch-Bundle-Registry — ★725 · sin fecha de empuje · Unlicense
-• inotia00/revanced-manager — ★1.700 · *dormido*: sin empujar desde el 29-dic-2025 (310 días) · GPL-3.0 · última release v1.25.7 (29-dic-2025) · *ARCHIVADO*
+• ReVanced/revanced-manager — ★30.073 · *dormido*: sin empujar desde el 29-jul-2026 (99 días) · GPL-3.0 · última release v2.6.0 (26-abr-2026)
+• ReVanced/revanced-cli — ★1.600 · *dormido*: sin empujar desde el 2-jun-2026 (156 días) · GPL-3.0 · última release v6.0.0 (14-mar-2026)
+• ReVanced/revanced-integrations — ★746 · *dormido*: sin empujar desde el 26-oct-2024 (740 días) · GPL-3.0 · última release v1.16.0 (20-oct-2024) · *ARCHIVADO*
+• ReVanced/revanced-api — ★186 · *dormido*: sin empujar desde el 19-jul-2026 (109 días) · AGPL-3.0 · última release v1.6.1 (11-jul-2025)
+• brosssh/revanced-manager-downloaders — ★118 · *dormido*: sin empujar desde el 4-dic-2025 (336 días) · GPL-3.0 · última release v1.1.0 (4-dic-2025)
+• rushiranpise/helper-for-morphe — ★436 · empujó el 1-nov-2026 (hace 4 días) · GPL-3.0 · última release v5.2.0 (1-nov-2026)
+• MorpheApp/morphe-patches — ★4.569 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (30-oct-2026)
+• Jman-Github/Patch-Bundle-Registry — ★726 · empujó en las últimas horas · Unlicense
+• inotia00/revanced-manager — ★1.700 · *dormido*: sin empujar desde el 29-dic-2025 (311 días) · GPL-3.0 · última release v1.25.7 (29-dic-2025) · *ARCHIVADO*
 • ReVanced/revanced-patches — sin dato hoy (la API no respondió). No afirmo nada.
-• ReVanced/where-is-revanced-patches — ★157 · *dormido*: sin empujar desde el 24-mar-2026 (225 días) · sin licencia detectada por la API
-• RikkaApps/Shizuku — ★32.811 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• ReVanced/where-is-revanced-patches — ★158 · *dormido*: sin empujar desde el 24-mar-2026 (226 días) · sin licencia detectada por la API
+• RikkaApps/Shizuku — ★32.832 · *dormido*: sin empujar desde el 18-jun-2025 (505 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • timschneeb/awesome-shizuku — ★10.706 · empujó en las últimas horas · NOASSERTION
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
