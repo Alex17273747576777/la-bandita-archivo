@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/05-La-guia-maestra-contada-despacio-doce-capitulos-setenta-fichas-y-un-metodo-repetible-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md`
 - **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `6d12c4f585330e0f5c245dc994281ea4d056a536b104eb01fc41b04619bc18bd`
-- **Envío generado:** 2026-11-04 · 28 mensajes · el mayor de 3851 caracteres
+- **Envío generado:** 2026-11-04 · 28 mensajes · el mayor de 3843 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 28 · 1010 caracteres ═══
@@ -718,7 +718,7 @@ Doce capítulos, setenta fichas, treinta y ocho enlaces al repositorio de quien 
 
 ⏬ sigue abajo · parte 23 de 27
 
-═══ MENSAJE 25 de 28 · 3851 caracteres ═══
+═══ MENSAJE 25 de 28 · 3843 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 05*
 
@@ -729,27 +729,27 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 36 repositorios que cita esta pi
 • Alex17273747576777/la-bandita-archivo — ★1 · sin fecha de empuje · MIT
 • readest/readest — ★25.959 · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
 • TrackerControl/tracker-control-android — ★2.722 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release 2026110101 (1-nov-2026)
-• samolego/Canta — ★6.468 · empujó el 31-oct-2026 (hace 4 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
-• aistra0528/Hail — ★7.101 · empujó el 27-oct-2026 (hace 8 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
+• samolego/Canta — ★6.469 · empujó el 31-oct-2026 (hace 4 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
+• aistra0528/Hail — ★7.102 · empujó el 27-oct-2026 (hace 8 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
 • Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.747 · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (2-nov-2026)
-• RikkaApps/Shizuku — ★32.806 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.807 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • krishna3163/OmniShizuku — ★18 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
-• rushiranpise/Shizuku-Next — ★1.453 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
+• rushiranpise/Shizuku-Next — ★1.454 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
 • HmnDev-Tech/shevery — ★1.604 · empujó en las últimas horas · Apache-2.0 · última release 14.6.3 (4-nov-2026)
-• ImranR98/Obtainium — ★21.218 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• ImranR98/Obtainium — ★21.219 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • AuroraOSS/AuroraStore — ★75 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0
 • Genymobile/scrcpy — ★154.046 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v5.0.1 (8-oct-2026)
-• termux/termux-app — ★64.111 · empujó el 26-sep-2026 (hace 39 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• termux/termux-app — ★64.112 · empujó el 26-sep-2026 (hace 39 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
 • termux/termux-packages — ★17.305 · sin fecha de empuje · NOASSERTION · última release bootstrap-2026.11.01-r1+apt.android-7 (1-nov-2026)
-• skylot/jadx — ★51.596 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.5.6 (10-jul-2026)
-• iBotPeaches/Apktool — ★27.002 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v3.0.3 (20-jul-2026)
+• skylot/jadx — ★51.597 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.5.6 (10-jul-2026)
+• iBotPeaches/Apktool — ★27.003 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v3.0.3 (20-jul-2026)
 • xbmc/xbmc — ★21.436 · sin fecha de empuje · NOASSERTION · última release 21.3-Omega (31-oct-2025)
 • yuliskov/SmartTube — ★35.933 · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • jolabs40/TVSlim — ★35 · empujó el 20-oct-2026 (hace 15 días) · Apache-2.0 · última release windows-v1.7.0 (20-oct-2026)
-• jellyfin/jellyfin — ★59.013 · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
-• immich-app/immich — ★118.265 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
-• localsend/localsend — ★97.340 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• rclone/rclone — ★60.804 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
+• jellyfin/jellyfin — ★59.013 · sin fecha de empuje · GPL-2.0 · última release v12.4 (26-oct-2026)
+• immich-app/immich — ★118.268 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
+• localsend/localsend — ★97.342 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• rclone/rclone — ★60.805 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
 • restic/restic — ★37.006 · empujó el 1-nov-2026 (hace 3 días) · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
 • mirfatif/PermissionManagerX — ★812 · empujó el 29-sep-2026 (hace 36 días) · AGPL-3.0 · última release v1.34-pro (29-sep-2026)
 • M66B/NetGuard — ★3.964 · *dormido*: sin empujar desde el 1-ago-2026 (95 días) · GPL-3.0 · última release 2.337 (1-ago-2026)

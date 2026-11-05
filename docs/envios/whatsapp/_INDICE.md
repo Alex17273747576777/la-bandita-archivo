@@ -10,8 +10,8 @@ Cada archivo de `docs/envios/whatsapp/` es un envío listo para copiar: portada,
 | 02 | La música que no se cae — versión de WhatsApp: el inventario que nadie | 29 | 3628 | 11 | 0 | no | `02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES` |
 | 03 | La caja del bolsillo — versión de WhatsApp: la libreta que se moja, el | 29 | 3687 | 10 | 0 | no | `03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-codigo-que-caduca-cada-treinta-segundos-y-el-sobre-que-nadie-prepara-WhatsApp-La-Bandita-2026-11-02-dominicano-ES` |
 | 04 | Los cinco herederos de Shizuku — versión de WhatsApp: el teléfono que  | 26 | 3553 | 7 | 0 | no | `04-Los-cinco-herederos-de-Shizuku-el-original-que-no-se-mueve-y-los-cuatro-que-publican-todos-los-dias-WhatsApp-La-Bandita-2026-11-03-dominicano-ES` |
-| 05 | La guía maestra, contada despacio: doce capítulos, setenta fichas y un | 28 | 3851 | 36 | 1 | no | `05-La-guia-maestra-contada-despacio-doce-capitulos-setenta-fichas-y-un-metodo-repetible-WhatsApp-La-Bandita-2026-11-03-dominicano-ES` |
+| 05 | La guía maestra, contada despacio: doce capítulos, setenta fichas y un | 28 | 3843 | 36 | 1 | no | `05-La-guia-maestra-contada-despacio-doce-capitulos-setenta-fichas-y-un-metodo-repetible-WhatsApp-La-Bandita-2026-11-03-dominicano-ES` |
 
-**5 piezas · 139 mensajes** · el mayor de todos: 3851 caracteres.
+**5 piezas · 139 mensajes** · el mayor de todos: 3843 caracteres.
 
 

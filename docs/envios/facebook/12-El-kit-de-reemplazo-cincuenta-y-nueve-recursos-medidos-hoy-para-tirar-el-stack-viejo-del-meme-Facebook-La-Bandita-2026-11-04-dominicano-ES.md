@@ -480,8 +480,8 @@ Y lo cuarto: **lo más nuevo no es lo mejor, pero es lo que está vivo**. El lan
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 51 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• iptv-org/iptv — ★143.231 · sin fecha de empuje · Unlicense
-• ImranR98/Obtainium — ★21.218 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• iptv-org/iptv — ★143.232 · sin fecha de empuje · Unlicense
+• ImranR98/Obtainium — ★21.219 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • Accrescent/Accrescent — ★2.306 · sin fecha de empuje · Apache-2.0 · última release 0.29.1 (4-nov-2026)
 • f-droid/fdroidclient — ★3.255 · empujó en las últimas horas · GPL-3.0 · última release 1.18.0 (24-ene-2024)
 • TrackerControl/tracker-control-android — ★2.722 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release 2026110101 (1-nov-2026)
@@ -505,8 +505,8 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 51 repositorios que cita esta pi
 • stupside/castor — ★2.526 · empujó el 28-oct-2026 (hace 7 días) · MIT · última release v2.5.0 (27-oct-2026)
 • grimmory-tools/grimmory — ★4.656 · empujó en las últimas horas · AGPL-3.0 · última release v3.5.0 (21-sep-2026)
 • readest/readest — ★25.959 · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
-• koreader/koreader — ★30.870 · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
-• koodo-reader/koodo-reader — ★28.726 · sin fecha de empuje · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
+• koreader/koreader — ★30.871 · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• koodo-reader/koodo-reader — ★28.727 · sin fecha de empuje · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
 • edrlab/thorium-reader — ★2.930 · empujó en las últimas horas · BSD-3-Clause · última release v3.5.1 (2-sep-2026)
 • kovidgoyal/calibre — ★26.351 · empujó en las últimas horas · GPL-3.0 · última release v9.17.0 (23-oct-2026)
 • ahrm/sioyek — ★9.976 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (16-dic-2022)

@@ -16,10 +16,11 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 08 | La red: seis caminos, seis precios — el programa más nuevo del tema sa | 17 | 3625 | 20 | 0 | no | `08-La-red-seis-caminos-seis-precios-el-programa-mas-nuevo-del-tema-saca-ochenta-y-los-dos-mas-instalados-no-firman-nada-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 09 | Archivos, copias y nubes propias: cuatro de diecisiete dan la huella,  | 20 | 3647 | 17 | 0 | no | `09-Archivos-copias-y-nubes-propias-cuatro-de-diecisiete-dan-la-huella-y-las-dos-herramientas-de-copia-llevan-410-y-185-dias-sin-publicar-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 10 | Los repositorios de extensiones: cincuenta y seis tiendas vivas, doce  | 20 | 3859 | 58 | 0 | no | `10-Las-tiendas-cincuenta-y-seis-repositorios-vivos-doce-mil-cuatrocientos-ochenta-y-siete-archivos-y-diez-sumas-de-comprobacion-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
-| 11 | Las aplicaciones que leen lo que la pieza 10 midió: cincuenta y uno pr | 20 | 3875 | 56 | 0 | no | `11-Las-aplicaciones-que-leen-lo-que-la-pieza-10-midio-cincuenta-y-una-aplicaciones-y-cincuenta-y-ocho-millones-de-descargas-con-ciento-dieciseis-archivos-firmados-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
+| 11 | Las aplicaciones que leen lo que la pieza 10 midió: cincuenta y uno pr | 20 | 3867 | 56 | 0 | no | `11-Las-aplicaciones-que-leen-lo-que-la-pieza-10-midio-cincuenta-y-una-aplicaciones-y-cincuenta-y-ocho-millones-de-descargas-con-ciento-dieciseis-archivos-firmados-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 12 | El kit de reemplazo: cincuenta y nueve recursos medidos hoy para tirar | 21 | 3897 | 51 | 0 | no | `12-El-kit-de-reemplazo-cincuenta-y-nueve-recursos-medidos-hoy-para-tirar-el-stack-viejo-del-meme-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
-| 13 | El audio que le faltaba al kit: cincuenta y cuatro programas de música | 20 | 3934 | 52 | 0 | no | `13-El-audio-que-le-faltaba-al-kit-cincuenta-y-cuatro-programas-medidos-hoy-de-la-musica-propia-al-registro-de-lo-que-oyes-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
+| 13 | El audio que le faltaba al kit: cincuenta y cuatro programas de música | 20 | 3918 | 52 | 0 | no | `13-El-audio-que-le-faltaba-al-kit-cincuenta-y-cuatro-programas-medidos-hoy-de-la-musica-propia-al-registro-de-lo-que-oyes-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
+| 14 | Spotify sin Spotify cuarenta y cinco clientes medidos hoy quince nacid | 19 | 3822 | 37 | 0 | no | `14-Spotify-sin-Spotify-cuarenta-y-cinco-clientes-medidos-hoy-quince-nacidos-en-2026-tres-muertos-y-la-proporcion-de-firma-mas-alta-de-la-serie-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 
-**13 piezas · 251 mensajes** · el mayor de todos: 3934 caracteres.
+**14 piezas · 270 mensajes** · el mayor de todos: 3918 caracteres.
 
 

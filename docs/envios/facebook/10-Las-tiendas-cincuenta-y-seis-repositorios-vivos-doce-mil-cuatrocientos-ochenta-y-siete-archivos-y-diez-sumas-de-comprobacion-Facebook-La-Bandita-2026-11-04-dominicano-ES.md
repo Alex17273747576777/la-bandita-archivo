@@ -539,8 +539,8 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 58 repositorios que cita esta pi
 • jobobby04/ShosetsuExtensions — ★18 · empujó en las últimas horas · GPL-3.0
 • noaione/shosetsu-extensions — ★20 · *dormido*: sin empujar desde el 20-may-2026 (168 días) · GPL-3.0
 • wasu-code/novel-compat-shosetsu — ★10 · *dormido*: sin empujar desde el 12-ago-2026 (84 días) · GPL-3.0
-• yuzono/anime-extensions — ★529 · empujó en las últimas horas · Apache-2.0
-• Secozzi/aniyomi-extensions — ★129 · empujó el 20-sep-2026 (hace 45 días) · Apache-2.0 · última release 7717051 (20-sep-2026)
+• yuzono/anime-extensions — ★530 · empujó en las últimas horas · Apache-2.0
+• Secozzi/aniyomi-extensions — ★130 · empujó el 20-sep-2026 (hace 45 días) · Apache-2.0 · última release 7717051 (20-sep-2026)
 • salmanbappi/extensions-repo — ★52 · empujó el 2-nov-2026 (hace 2 días) · sin licencia detectada por la API
 • CranberrySoup/AniyomiCompat — ★17 · *dormido*: sin empujar desde el 14-nov-2025 (355 días) · sin licencia detectada por la API
 • phisher98/cloudstream-extensions-phisher — ★533 · empujó el 2-nov-2026 (hace 2 días) · sin licencia detectada por la API

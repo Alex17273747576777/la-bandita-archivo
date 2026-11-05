@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-04",
- "medido_en_utc": "2026-11-04T21:58:03-04:00",
+ "medido_en_utc": "2026-11-04T22:15:11-04:00",
  "repos": {
   "capitan0n/droynis": {
    "estado": "vivo",
@@ -161,13 +161,13 @@
   "Ghostpanter/ghost-files": {
    "estado": "vivo",
    "stars": 14,
-   "push": "2026-11-02",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Kotlin",
    "desc": "Android dual-pane file manager (MT/MiXplorer style): root/Shizuku, SMB/FTP/SFTP/WebDAV with a stall-proof resumable transfer queue",
-   "release": "v0.7.2",
-   "release_fecha": "2026-10-27",
+   "release": "v0.7.3",
+   "release_fecha": "2026-11-05",
    "stars_pieza": null
   },
   "henry-97/MineApp": {
@@ -328,7 +328,7 @@
   },
   "rukamori/ArchiveTune": {
    "estado": "vivo",
-   "stars": 7976,
+   "stars": 7978,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -592,7 +592,7 @@
   },
   "RikkaApps/Shizuku": {
    "estado": "vivo",
-   "stars": 32806,
+   "stars": 32807,
    "push": "2025-06-18",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -688,7 +688,7 @@
   },
   "rushiranpise/Shizuku-Next": {
    "estado": "vivo",
-   "stars": 1453,
+   "stars": 1454,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -736,7 +736,7 @@
   },
   "samolego/Canta": {
    "estado": "vivo",
-   "stars": 6468,
+   "stars": 6469,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "LGPL-3.0",
@@ -772,7 +772,7 @@
   },
   "aistra0528/Hail": {
    "estado": "vivo",
-   "stars": 7101,
+   "stars": 7102,
    "push": "2026-10-27",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -796,7 +796,7 @@
   },
   "yume-chan/VolumeManager": {
    "estado": "vivo",
-   "stars": 604,
+   "stars": 605,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -904,7 +904,7 @@
   },
   "juanfont/headscale": {
    "estado": "vivo",
-   "stars": 45372,
+   "stars": 45374,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "BSD-3-Clause",
@@ -916,7 +916,7 @@
   },
   "rclone/rclone": {
    "estado": "vivo",
-   "stars": 60804,
+   "stars": 60805,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "MIT",
@@ -928,7 +928,7 @@
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
-   "stars": 21218,
+   "stars": 21219,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -988,7 +988,7 @@
   },
   "esphome/esphome": {
    "estado": "vivo",
-   "stars": 12016,
+   "stars": 12018,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1000,7 +1000,7 @@
   },
   "SagerNet/sing-box": {
    "estado": "vivo",
-   "stars": 39633,
+   "stars": 39634,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1072,7 +1072,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97340,
+   "stars": 97342,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1084,7 +1084,7 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 118265,
+   "stars": 118268,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1132,7 +1132,7 @@
   },
   "home-assistant/core": {
    "estado": "vivo",
-   "stars": 91977,
+   "stars": 91979,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1144,7 +1144,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 64111,
+   "stars": 64112,
    "push": "2026-09-26",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1324,7 +1324,7 @@
   },
   "MorpheApp/morphe-patches": {
    "estado": "vivo",
-   "stars": 4561,
+   "stars": 4562,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1377,7 +1377,7 @@
   },
   "timschneeb/awesome-shizuku": {
    "estado": "vivo",
-   "stars": 10704,
+   "stars": 10706,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1402,7 +1402,7 @@
   "jellyfin/jellyfin": {
    "estado": "vivo",
    "stars": 59013,
-   "push": "2026-11-04",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-2.0",
    "lenguaje": "C#",
@@ -2299,7 +2299,7 @@
   },
   "yuzono/anime-extensions": {
    "estado": "vivo",
-   "stars": 529,
+   "stars": 530,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2311,7 +2311,7 @@
   },
   "Secozzi/aniyomi-extensions": {
    "estado": "vivo",
-   "stars": 129,
+   "stars": 130,
    "push": "2026-09-20",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2561,7 +2561,7 @@
   },
   "mihonapp/mihon": {
    "estado": "vivo",
-   "stars": 25033,
+   "stars": 25034,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -2778,7 +2778,7 @@
   "Ero-gamer/Kotatsu-Next": {
    "estado": "vivo",
    "stars": 33,
-   "push": "2026-11-04",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Kotlin",
@@ -2903,8 +2903,8 @@
    "licencia": "MIT",
    "lenguaje": "Rust",
    "desc": "Self-hosted manga server: Aidoku WASM sources, REST + OPDS API, shipped as a single binary or a Docker image",
-   "release": "v1.21.0",
-   "release_fecha": "2026-11-03",
+   "release": "v1.21.1",
+   "release_fecha": "2026-11-05",
    "stars_pieza": null
   },
   "Suwayomi/Tachidesk-Sorayomi": {
@@ -3149,7 +3149,7 @@
   },
   "iptv-org/iptv": {
    "estado": "vivo",
-   "stars": 143231,
+   "stars": 143232,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Unlicense",
@@ -3401,7 +3401,7 @@
   },
   "koreader/koreader": {
    "estado": "vivo",
-   "stars": 30870,
+   "stars": 30871,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3413,7 +3413,7 @@
   },
   "koodo-reader/koodo-reader": {
    "estado": "vivo",
-   "stars": 28726,
+   "stars": 28727,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3713,7 +3713,7 @@
   },
   "navidrome/navidrome": {
    "estado": "vivo",
-   "stars": 24529,
+   "stars": 24530,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3893,7 +3893,7 @@
   },
   "team-spotube/spotube": {
    "estado": "vivo",
-   "stars": 50599,
+   "stars": 50600,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3918,7 +3918,7 @@
   "KDE/elisa": {
    "estado": "vivo",
    "stars": 369,
-   "push": "2026-11-04",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "LGPL-3.0",
    "lenguaje": "C++",
@@ -4157,7 +4157,7 @@
   },
   "FFmpeg/FFmpeg": {
    "estado": "vivo",
-   "stars": 66508,
+   "stars": 66510,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -4181,7 +4181,7 @@
   },
   "yt-dlp/yt-dlp": {
    "estado": "vivo",
-   "stars": 205269,
+   "stars": 205273,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Unlicense",
@@ -4193,7 +4193,7 @@
   },
   "imputnet/cobalt": {
    "estado": "vivo",
-   "stars": 45802,
+   "stars": 45803,
    "push": "2026-04-06",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -4262,6 +4262,330 @@
    "release": "v-2026-10-28.0",
    "release_fecha": "2026-10-28",
    "stars_pieza": null
+  },
+  "gokadzev/Musify": {
+   "estado": "vivo",
+   "stars": 4404,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Dart",
+   "desc": "Unlock the full potential of music: Stream effortlessly with one app!",
+   "release": "10.6.0",
+   "release_fecha": "2026-10-23",
+   "stars_pieza": null
+  },
+  "HemantKArya/BloomeeTunes": {
+   "estado": "vivo",
+   "stars": 2300,
+   "push": "2026-10-21",
+   "archivado": false,
+   "licencia": "GPL-2.0",
+   "lenguaje": "Dart",
+   "desc": "🌸Bloomee is a cross-platform music app designed to bring you ad-free tunes from various sources. 🌼🎵",
+   "release": "v3.1.0+207",
+   "release_fecha": "2026-10-21",
+   "stars_pieza": null
+  },
+  "OpenSelena/omniget": {
+   "estado": "vivo",
+   "stars": 3407,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Rust",
+   "desc": "Open-source download manager for courses (Udemy/Hotmart), YouTube, music & 1,800+ sites. Built with Tauri 2.0, Rust & Svelte.",
+   "release": "v0.14.0",
+   "release_fecha": "2026-10-31",
+   "stars_pieza": null
+  },
+  "Clash-Projects/LastWave-Native": {
+   "estado": "vivo",
+   "stars": 2512,
+   "push": "2026-11-05",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Next-Gen YouTube Music Client with Liquid Glass UI , Algorithmic Smart Playlist Generator, Real-Time Synced Lyrics & Universal Last.fm Scrobbler for Android.",
+   "release": "5.0.0",
+   "release_fecha": "2026-10-30",
+   "stars_pieza": null
+  },
+  "SimoHypers/limusic": {
+   "estado": "vivo",
+   "stars": 1801,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Rust",
+   "desc": "Feature rich, native desktop, YouTube Music client.",
+   "release": "v1.3.0",
+   "release_fecha": "2026-10-19",
+   "stars_pieza": null
+  },
+  "kushagrasinghx/BitChord": {
+   "estado": "vivo",
+   "stars": 5668,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "BitChord - A modern YouTube music client with clean aesthetics inspired from Apple Music",
+   "release": "v1.9",
+   "release_fecha": "2026-10-30",
+   "stars_pieza": null
+  },
+  "sonorahq/sonora": {
+   "estado": "vivo",
+   "stars": 2620,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Rust",
+   "desc": "A native, familiar music streaming client",
+   "release": "v0.47.0",
+   "release_fecha": "2026-11-02",
+   "stars_pieza": null
+  },
+  "LUC4N3X/Levyra-deepsound": {
+   "estado": "vivo",
+   "stars": 2065,
+   "push": "2026-11-05",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Made for listening, not logging in. Levyra is an open-source music player for Android and Windows, bringing music discovery, synced lyrics, radio and beautiful artwork together. No ads, no tracking, just music ♫",
+   "release": "v3.0.7",
+   "release_fecha": "2026-11-03",
+   "stars_pieza": null
+  },
+  "EchoMusicApp/Echo-Music": {
+   "estado": "vivo",
+   "stars": 2285,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "An YouTube Music Client",
+   "release": "v1.4.4",
+   "release_fecha": "2026-10-23",
+   "stars_pieza": null
+  },
+  "Clash-Projects/LastWave-Desktop": {
+   "estado": "vivo",
+   "stars": 934,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "Dart",
+   "desc": "High-Resolution Lossless Desktop Music Player for Windows, Linux & macOS",
+   "release": "v2.0.1",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "MuwMx/YumaPlayer": {
+   "estado": "vivo",
+   "stars": 1117,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "🎵 Hybrid music client for Android: Spotify discovery & UI + YouTube Music library + Hi-Res Lossless (FLAC) streaming with fluid Glassmorphism💫",
+   "release": "v1.2.0-RC.1",
+   "release_fecha": "2026-10-17",
+   "stars_pieza": null
+  },
+  "missuo/kumone": {
+   "estado": "vivo",
+   "stars": 1278,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "LGPL-3.0",
+   "lenguaje": "Swift",
+   "desc": "雲の音 — A native music player for macOS and iOS, built with SwiftUI",
+   "release": "v0.3.28",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "kota-zo/myspoti": {
+   "estado": "vivo",
+   "stars": 1251,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Native Android client for Spotify, built with Jetpack Compose",
+   "release": "v2.3.0",
+   "release_fecha": "2026-11-01",
+   "stars_pieza": null
+  },
+  "rootscripts/riff": {
+   "estado": "vivo",
+   "stars": 823,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "JavaScript",
+   "desc": "Riff is the best music player with YouTube Music & SoundCloud library and WebGL shader visuals.",
+   "release": "v44.2.0",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "Lelonio/Square": {
+   "estado": "vivo",
+   "stars": 482,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Unofficial YouTube Music / Spotify Premium client for Android, built in Liquid Glass. Audio effects, Spotify Connect, listening history, 8 languages. Rust core on librespot.",
+   "release": "v2.8.0",
+   "release_fecha": "2026-11-03",
+   "stars_pieza": null
+  },
+  "lladlam/MeloX-Android": {
+   "estado": "vivo",
+   "stars": 286,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "A third-party music client based on MeloX, styled after Apple Music and featuring unique functions.",
+   "release": "0.7.1",
+   "release_fecha": "2026-10-27",
+   "stars_pieza": null
+  },
+  "dubeyKartikay/lazyspotify": {
+   "estado": "vivo",
+   "stars": 446,
+   "push": "2026-10-19",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Go",
+   "desc": "Terminal Spotify client for macOS and Linux",
+   "release": "v0.5.2",
+   "release_fecha": "2026-10-15",
+   "stars_pieza": null
+  },
+  "hrkfdn/ncspot": {
+   "estado": "vivo",
+   "stars": 6808,
+   "push": "2026-11-02",
+   "archivado": false,
+   "licencia": "BSD-2-Clause",
+   "lenguaje": "Rust",
+   "desc": "Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.",
+   "release": "v1.5.0",
+   "release_fecha": "2026-10-01",
+   "stars_pieza": null
+  },
+  "aome510/spotify-player": {
+   "estado": "vivo",
+   "stars": 7301,
+   "push": "2026-09-19",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Rust",
+   "desc": "A Spotify player in the terminal with full feature parity",
+   "release": "v0.25.1",
+   "release_fecha": "2026-09-09",
+   "stars_pieza": null
+  },
+  "kraxarn/spotify-qt": {
+   "estado": "vivo",
+   "stars": 1496,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "C++",
+   "desc": "Lightweight Spotify client using Qt",
+   "release": "v4.0.4",
+   "release_fecha": "2026-05-01",
+   "stars_pieza": null
+  },
+  "jpochyla/psst": {
+   "estado": "vivo",
+   "stars": 9505,
+   "push": "2026-08-18",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Rust",
+   "desc": "Fast and multi-platform Spotify client with native GUI",
+   "release": "rolling",
+   "release_fecha": "2025-06-28",
+   "stars_pieza": null
+  },
+  "devgianlu/go-librespot": {
+   "estado": "vivo",
+   "stars": 386,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Go",
+   "desc": "Yet another open source Spotify client, written in Go.",
+   "release": "v0.10.5",
+   "release_fecha": "2026-10-16",
+   "stars_pieza": null
+  },
+  "Rigellute/spotify-tui": {
+   "estado": "vivo",
+   "stars": 19415,
+   "push": "2024-04-04",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Rust",
+   "desc": "Spotify for the terminal written in Rust 🚀",
+   "release": "v0.25.0",
+   "release_fecha": "2021-08-24",
+   "stars_pieza": null
+  },
+  "sigma67/ytmusicapi": {
+   "estado": "vivo",
+   "stars": 3103,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Python",
+   "desc": "Unofficial API for YouTube Music",
+   "release": "1.12.3",
+   "release_fecha": "2026-09-16",
+   "stars_pieza": null
+  },
+  "spotipy-dev/spotipy": {
+   "estado": "vivo",
+   "stars": 5486,
+   "push": "2026-06-29",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Python",
+   "desc": "A light weight Python library for the Spotify Web API",
+   "release": "2.26.0",
+   "release_fecha": "2026-03-03",
+   "stars_pieza": null
+  },
+  "TeamNewPipe/NewPipeExtractor": {
+   "estado": "vivo",
+   "stars": 2039,
+   "push": "2026-11-02",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Java",
+   "desc": "NewPipe's core library for extracting data from streaming sites",
+   "release": "v0.26.5",
+   "release_fecha": "2026-08-15",
+   "stars_pieza": null
+  },
+  "libre-tube/LibreTube": {
+   "estado": "vivo",
+   "stars": 12946,
+   "push": "2026-11-02",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "An alternative frontend for YouTube, for Android.",
+   "release": "v32.1",
+   "release_fecha": "2026-08-20",
+   "stars_pieza": null
   }
  },
  "enlaces": {
@@ -4281,11 +4605,19 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://api.github.com/repos/MetrolistGroup/Metrolist/releases?per_page=100": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://api.github.com/repos/ReVanced/revanced-patches": {
    "codigo": "451",
    "veredicto": "responde con codigo 451"
   },
   "https://api.github.com/repos/Spotifyd/spotifyd/releases/latest": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://api.github.com/repos/Spotifyd/spotifyd/releases?per_page=100": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -4433,6 +4765,14 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Clash-Projects/LastWave-Desktop": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Clash-Projects/LastWave-Native": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/CranberrySoup/AniyomiCompat": {
    "codigo": "200",
    "veredicto": "responde"
@@ -4446,6 +4786,10 @@
    "veredicto": "responde"
   },
   "https://github.com/ELowry/DNSToggle": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/EchoMusicApp/Echo-Music": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -4510,6 +4854,10 @@
    "veredicto": "responde"
   },
   "https://github.com/HellzYeahh/earshot": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/HemantKArya/BloomeeTunes": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -4589,6 +4937,14 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/LUC4N3X/Levyra-deepsound": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Lelonio/Square": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/LittleSurvival/copymanga-copy20": {
    "codigo": "200",
    "veredicto": "responde"
@@ -4641,6 +4997,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/MuwMx/YumaPlayer": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Nekomo-App/Nekomo": {
    "codigo": "200",
    "veredicto": "responde"
@@ -4686,6 +5046,10 @@
    "veredicto": "responde"
   },
   "https://github.com/Nyora-Manga/nyora-mihon": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/OpenSelena/omniget": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -4745,6 +5109,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Rigellute/spotify-tui": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/RikkaApps/Shizuku": {
    "codigo": "200",
    "veredicto": "responde"
@@ -4790,6 +5158,10 @@
    "veredicto": "responde"
   },
   "https://github.com/Shishir-ip/AppDNS": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/SimoHypers/limusic": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -4850,6 +5222,10 @@
    "veredicto": "responde"
   },
   "https://github.com/TaisenDev/aidoku-bridge-builder": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/TeamNewPipe/NewPipeExtractor": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -4973,6 +5349,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/aome510/spotify-player": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/arranoust/yomu": {
    "codigo": "200",
    "veredicto": "responde"
@@ -5077,11 +5457,19 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/devgianlu/go-librespot": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/doctorhetfield-cmd/simpleui.koplugin": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/dragonx943/manga-repo": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/dubeyKartikay/lazyspotify": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -5122,6 +5510,10 @@
    "veredicto": "responde"
   },
   "https://github.com/georgechou0517/DNSSwitch": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/gokadzev/Musify": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -5166,6 +5558,10 @@
    "veredicto": "responde"
   },
   "https://github.com/hoo-dles/morphe-patches": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/hrkfdn/ncspot": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -5257,6 +5653,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/jpochyla/psst": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/juanfont/headscale": {
    "codigo": "200",
    "veredicto": "responde"
@@ -5313,7 +5713,15 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/kota-zo/myspoti": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/kovidgoyal/calibre": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/kraxarn/spotify-qt": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -5333,7 +5741,15 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/kushagrasinghx/BitChord": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/lenox108/NetModeSwitch": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/libre-tube/LibreTube": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -5342,6 +5758,10 @@
    "veredicto": "responde"
   },
   "https://github.com/lipexama/lipex-reader": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/lladlam/MeloX-Android": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -5406,6 +5826,10 @@
    "veredicto": "responde"
   },
   "https://github.com/mimbasher/NetControl": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/missuo/kumone": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -5537,6 +5961,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/rootscripts/riff": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/rukamori/ArchiveTune": {
    "codigo": "200",
    "veredicto": "responde"
@@ -5585,6 +6013,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/sigma67/ytmusicapi": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/sigstore/cosign": {
    "codigo": "200",
    "veredicto": "responde"
@@ -5602,6 +6034,14 @@
    "veredicto": "responde"
   },
   "https://github.com/snapcast/snapcast": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/sonorahq/sonora": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/spotipy-dev/spotipy": {
    "codigo": "200",
    "veredicto": "responde"
   },

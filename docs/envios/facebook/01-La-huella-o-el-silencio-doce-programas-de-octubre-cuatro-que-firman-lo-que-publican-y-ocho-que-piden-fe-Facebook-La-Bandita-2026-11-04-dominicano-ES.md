@@ -444,7 +444,7 @@ Los tres que se quedan fuera, con su cifra:
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 1939 caracteres ═══
+═══ MENSAJE 19 de 20 · 1923 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
@@ -463,7 +463,7 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 15 repositorios que cita esta pi
 • WEIHEWU/shizuku-sam — ★42 · empujó en las últimas horas · Apache-2.0 · última release v13.8.40 (4-nov-2026)
 • bl3xand/APK-Toolbox — ★102 · empujó el 28-oct-2026 (hace 7 días) · GPL-3.0 · última release v1.1.6 (28-oct-2026)
 • wlmosv-png/wpaforge — ★154 · empujó en las últimas horas · Apache-2.0 · última release v1.9.40 (3-nov-2026)
-• Ghostpanter/ghost-files — ★14 · empujó el 2-nov-2026 (hace 2 días) · MIT · última release v0.7.2 (27-oct-2026)
+• Ghostpanter/ghost-files — ★14 · sin fecha de empuje · MIT · última release v0.7.3 (5-nov-2026)
 • henry-97/MineApp — ★74 · empujó el 31-oct-2026 (hace 4 días) · GPL-3.0 · última release v3.8.5 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
