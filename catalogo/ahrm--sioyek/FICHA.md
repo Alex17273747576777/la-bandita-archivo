@@ -43,10 +43,23 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Visor de PDF pensado para estudiar: salto entre referencias y figuras, historial de navegación por
+teclado, marcas en los márgenes y vista de dos páginas. Es el lector de quien lee artículos y manuales,
+no novelas.
+
+### Cómo se usa
+
+1. Instalador para Windows, macOS y Linux desde la página de entregas; en macOS también por `brew`.
+2. Se abre el PDF y se maneja con teclado: `j` y `k` para moverse, `o` para saltar a una figura, `f` para
+   buscar.
+3. Las teclas se cambian en su archivo de configuración, y hay un modo de presentación para dar clase.
+
+### Lo que conviene saber antes
+
+Su última entrega etiquetada es `v2.0.0`, del 16 de diciembre de 2022, y el repositorio se movió en
+noviembre de 2026: hay trabajo sin etiquetar, así que quien quiera lo último tiene que compilar. La
+versión de 2022 sigue funcionando, y es lo que instala casi todo el mundo.
 
 <!-- GUIA:FIN -->

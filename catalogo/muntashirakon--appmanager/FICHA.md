@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Es el navaja suiza de las aplicaciones de Android: ver permisos, revocarlos, ver qué hace una app por
@@ -67,4 +68,5 @@ lee el archivo de licencia y no se fía de la etiqueta.
 
 Es mucha herramienta para quien solo quiere congelar una app: para eso, Hail o Canta son tres pantallas
 menos. AppManager se justifica cuando de verdad quieres mirar dentro.
+
 <!-- GUIA:FIN -->

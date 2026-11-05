@@ -40,6 +40,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 No es una aplicación: es la documentación y la librería para quien escribe apps que quieren usar los
@@ -62,4 +63,5 @@ puede contar.
 ### Cuándo no vale la pena
 
 Si solo quieres instalar una app que use Shizuku, esto te sobra por completo: instala Shizuku y la app.
+
 <!-- GUIA:FIN -->

@@ -44,10 +44,20 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Base de datos abierta y colaborativa de marcas de tiempo para saltar intros, resúmenes y avances de
+series y películas. Las apps compatibles la consultan y ponen un botón de «saltar» donde toca.
+
+### Cómo se usa
+
+1. No se instala: se consume. Las apps compatibles traen una dirección que apunta aquí.
+2. Para contribuir hay que crear cuenta en su instancia, o levantar una propia y editar desde ahí.
+3. Las marcas se revisan por la comunidad antes de publicarse.
+
+### Lo que conviene saber antes
+
+Su valor depende de cuánta gente contribuya: en series populares acierta, en el resto hay huecos. Y no es
+una app: si buscas el botón de saltar, lo tiene que traer tu reproductor.
 
 <!-- GUIA:FIN -->

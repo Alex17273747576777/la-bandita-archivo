@@ -44,10 +44,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Empaquetado **no oficial** de Nuvio Desktop para Arch Linux: paquete firmado, publicado también en AUR,
+construido desde el código original sin modificarlo.
+
+### Lo que conviene saber antes
+
+Tres cosas que su propio nombre admite. **No es oficial**: si algo falla, el proyecto de Nuvio no te debe
+soporte. **Depende de un proyecto en fase alpha**, así que el paquete envejece rápido. Y **hay que
+comprobar la firma** antes de instalar: el propio proyecto publica la clave con la que firma, y ese paso
+no es opcional cuando se instala un binario ajeno.
+
+### Cuándo no vale la pena
+
+Si usas otra distribución, o si prefieres compilar el original. Se justifica en Arch, donde no hay paquete
+oficial.
 
 <!-- GUIA:FIN -->

@@ -43,10 +43,22 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor IPTV nativo para **Android TV**, escrito en Kotlin con Compose y reproductores ExoPlayer y
+mpv: admite Xtream, M3U y portales Stalker, con guía de programación, catch-up, perfiles y descargas.
+
+### Cómo se usa
+
+1. Se instala la APK de su última entrega (`v5.2.1`, del 4 de noviembre de 2026) en el televisor o en la
+   caja de Android TV.
+2. Se añade el perfil con los datos de la fuente; cada perfil guarda su propio orden de filas y sus
+   favoritos.
+3. La guía se carga por perfil y el catch-up solo aparece si la fuente lo soporta.
+
+### Lo que conviene saber antes
+
+El programa no trae ni enlaza ninguna lista: lo que se ve es lo que se configure. Su repositorio está vivo
+y su licencia es GPL-3.0.
 
 <!-- GUIA:FIN -->

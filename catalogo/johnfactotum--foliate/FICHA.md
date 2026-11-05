@@ -44,10 +44,23 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Lector de libros para el escritorio de Linux, con interfaz de GNOME: limpio, con tipografía cuidada,
+anotaciones, diccionario y lectura en voz alta si el sistema tiene las voces instaladas. Fue el punto de
+partida de Readest.
+
+### Cómo se usa
+
+1. En Debian y Ubuntu se instala el paquete `foliate`; si no está, hay Flatpak oficial.
+2. Necesita las bibliotecas de GNOME que su README lista —`gjs`, `gtk4`, `libadwaita` y `webkitgtk-6.0`—;
+   sin ellas no arranca, y ese es el fallo más común.
+3. Para la voz hay que instalar `speech-dispatcher` y una voz como `espeak-ng`.
+
+### Lo que conviene saber antes
+
+El repositorio se movió por última vez en abril de 2026 y su última entrega es del 1 de abril de 2025:
+va despacio, porque su autor está trabajando en Readest. No está muerto; está en segundo plano, y eso en
+una ficha se escribe.
 
 <!-- GUIA:FIN -->

@@ -41,10 +41,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Tienda de aplicaciones de Android que apuesta por la seguridad: verificación de paquetes, sin cuentas, sin
+telemetría y con un método de firma que impide que un tercero publique en nombre de un desarrollador.
+Es pequeña a propósito: su catálogo es corto y curado.
+
+### Cómo se usa
+
+1. Se instala su APK desde la web o desde su última entrega (`0.29.1`, del 4 de noviembre de 2026).
+2. Al abrir, se añade su repositorio y se navega por el catálogo; no hay que registrarse.
+3. Las actualizaciones llegan por la propia tienda, como en cualquier otra.
+
+### Cuándo no vale la pena
+
+Si esperas encontrar ahí todo lo que usas, no: su catálogo es corto y muchas apps conocidas no están. Su
+valor es el contrario del de una tienda grande: menos apps, más comprobadas.
 
 <!-- GUIA:FIN -->

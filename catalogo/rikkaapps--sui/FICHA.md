@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Es la otra forma de darle permisos de sistema a las apps de Shizuku, y la más cómoda **si ya tienes
@@ -66,4 +67,5 @@ permisos que nadie ha actualizado. No está archivado, y eso no significa que es
 Si no tienes root, Sui no es una opción: su camino es Magisk. Y si lo tienes, Shizuku con root hace
 casi lo mismo sin convertir el asunto en un módulo del sistema que hay que quitar antes de una
 actualización grande.
+
 <!-- GUIA:FIN -->

@@ -43,10 +43,20 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Repositorio de complementos en indonesio para Usagi y otros derivados de Kotatsu. Cubre fuentes locales
+que no están en ningún catálogo grande.
+
+### Cómo se usa
+
+1. Se abre Usagi y se va a la sección de complementos.
+2. Se importa desde GitHub, que es su método recomendado, o desde un archivo descargado.
+3. Los complementos aparecen como una lista más dentro de la app.
+
+### Lo que conviene saber antes
+
+★2 y última actividad en agosto de 2026: es un proyecto personal de un solo autor, y eso hay que saberlo
+antes de depender de él. Su valor es la cobertura de un idioma que los catálogos grandes no tocan.
 
 <!-- GUIA:FIN -->

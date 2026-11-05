@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Reúne en una sola app un montón de operaciones que normalmente exigen terminal: congelar, desinstalar,
@@ -57,4 +58,5 @@ vieja funciona hasta que el sistema cambie una regla.
 
 Si de todo lo que trae solo vas a usar «congelar», Hail hace eso con menos superficie. Las herramientas
 multiuso se justifican cuando de verdad se usan cinco de sus diez botones.
+
 <!-- GUIA:FIN -->

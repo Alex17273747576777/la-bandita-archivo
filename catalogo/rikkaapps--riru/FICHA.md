@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Fue el sistema para inyectar módulos de Magisk dentro de las aplicaciones y del servidor del sistema
@@ -59,4 +60,5 @@ módulo que lo soporte.
 Porque el catálogo no es una lista de recomendaciones: es un archivo con fecha. Un recurso archivado
 con su fecha al lado evita que alguien lo instale creyendo que está vivo, y explica por qué se rompió
 la receta de un tutorial que circula.
+
 <!-- GUIA:FIN -->

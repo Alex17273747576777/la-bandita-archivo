@@ -39,10 +39,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Convierte una lista M3U en un complemento de Stremio. En lugar de abrir un reproductor aparte para la
+televisión por internet, la lista aparece como un catálogo más dentro de la app que ya usas.
+
+### Cómo se usa
+
+1. Se abre su configurador basado en navegador —sin exponer la lista en la dirección de instalación, que
+   es su ventaja—.
+2. Se pega la lista, se deja indexar y se genera la dirección del complemento.
+3. Se instala esa dirección en Stremio o en una app compatible.
+
+### Lo que conviene saber antes
+
+Indexar una lista grande tarda, y el resultado hereda todos sus problemas: direcciones muertas incluidas.
+Y no tiene entregas etiquetadas: se actualiza siguiendo el repositorio.
 
 <!-- GUIA:FIN -->

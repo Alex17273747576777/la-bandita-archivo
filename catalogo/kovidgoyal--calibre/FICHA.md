@@ -41,10 +41,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+No es un lector: es **el taller** de los libros electrónicos. Convierte entre formatos, corrige
+metadatos, edita el EPUB por dentro, genera catálogos, descarga portadas y noticias, y sincroniza con
+casi cualquier lector que se le ponga delante. ★26.352 y una entrega nueva cada pocas semanas: `v9.17.0`
+del 23 de octubre de 2026.
+
+### Cómo se usa
+
+1. Se instala el paquete de la web oficial o el de la distribución; en Linux está en los repositorios de
+   todas.
+2. Se añaden libros arrastrándolos o por la carpeta de «Añadir libros».
+3. La conversión está en «Convertir libros»: se elige formato de salida y, en «Buscar y reemplazar»,
+   los ajustes finos de cada aparato.
+4. Para servir la biblioteca por wifi a un lector o a la app de un teléfono, está el «servidor de
+   contenido» que trae dentro.
+
+### Cuándo no vale la pena
+
+Para leer un libro, no: Calibre es pesado, su interfaz es densa y arranca lento. Se instala cuando hay
+que **arreglar** libros, no cuando hay que leerlos.
 
 <!-- GUIA:FIN -->

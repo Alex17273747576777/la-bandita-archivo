@@ -44,10 +44,23 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Mide y corta los rastreadores que llevan dentro las aplicaciones de Android. Usa la red privada local
+—una VPN que corre en el propio teléfono— para ver a qué servidores llama cada app, y deja bloquear por
+aplicación o por rastreador.
+
+### Cómo se usa
+
+1. Se instala la APK de su última entrega (`2026110101`, del 1 de noviembre de 2026).
+2. Se concede el permiso de VPN local cuando lo pida; no hay que contratar nada.
+3. En la lista de aplicaciones se ve cuántos rastreadores tiene cada una, quién los firma y qué dominios
+   toca; se bloquea con un interruptor.
+4. Con root se puede además bloquear a nivel de sistema, pero **no es necesario**.
+
+### Lo que conviene saber antes
+
+Solo puede vigilar una VPN a la vez: si usas otra, la sustituye. Y no es un antivirus: ve conexiones, no
+intenciones.
 
 <!-- GUIA:FIN -->

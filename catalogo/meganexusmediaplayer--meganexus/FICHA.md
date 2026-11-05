@@ -44,10 +44,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Convierte Kodi en otra cosa: reemplaza inicio, menús, fichas, reproductor y salvapantallas por una
+interfaz pensada para el mando a distancia, con complementos de Stremio y Nuvio, nube, subtítulos por IA
+y fiesta de visionado.
+
+### Cómo se usa
+
+1. Se instala su repositorio en Kodi desde un zip: Ajustes → Complementos → Instalar desde archivo zip.
+2. Se instala después el complemento MegaNexus y se reinicia Kodi.
+3. La primera vez pide configurar las fuentes; sin ellas, la interfaz está pero no hay nada que ver.
+
+### Lo que conviene saber antes
+
+Es un envoltorio completo: quien no conozca Kodi se va a perder y quien lo conozca va a echar de menos sus
+menús. Su licencia aparece como NOASSERTION porque usa una propia; quien reutilice código, la lee.
 
 <!-- GUIA:FIN -->

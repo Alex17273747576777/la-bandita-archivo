@@ -39,10 +39,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Es —o era— el repositorio de artefactos de complementos para la aplicación Usagi y sus derivados. Su
+descripción dice «archivo», y esa palabra es exacta.
+
+### Lo que se midió
+
+Hoy tiene **dos archivos**: una licencia y un README. Cero complementos, cero catálogo, una sola rama. La
+medición de esta ficha lo dejó así de claro, y la pieza 19 lo contó con nombre y motivo. Si alguien llega
+aquí buscando «los complementos de Usagi», esto no es.
+
+### Qué hacer en su lugar
+
+La propia organización de Usagi publica la plantilla y la biblioteca para escribir complementos; los
+repositorios de autores concretos son los que tienen contenido. Un repositorio vacío con ★49 se repite en
+las listas por copia, no por comprobación: esta ficha existe para cortar esa cadena.
 
 <!-- GUIA:FIN -->

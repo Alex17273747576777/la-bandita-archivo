@@ -44,10 +44,20 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor y explorador de medios para escritorio —macOS, Linux y Windows— que junta en una ventana la
+biblioteca local, las fuentes de Stremio o Kodi y la reproducción con subtítulos y pistas de audio.
+
+### Cómo se usa
+
+1. Se descarga de su última entrega (`v0.9.3`, del 4 de noviembre de 2026).
+2. Se abre un archivo local o se añade una fuente; el reproductor guarda la sesión para retomarla.
+3. Los subtítulos se cargan por archivo o por búsqueda, según la fuente.
+
+### Lo que conviene saber antes
+
+Está en `0.9`, sin llegar a 1.0, y se nota en los detalles. Su licencia GPL-3.0 y su repositorio vivo son
+lo mejor que tiene; la estabilidad, lo que le falta.
 
 <!-- GUIA:FIN -->

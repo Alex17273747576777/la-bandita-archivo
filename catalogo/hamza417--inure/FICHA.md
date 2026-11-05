@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Un gestor de aplicaciones con interfaz cuidada: congelar, desinstalar, ver permisos, limpiar, todo en
@@ -57,4 +58,5 @@ hace difícil comparar: en este racimo, la fecha manda sobre el número.
 
 Frente a AppManager, que lleva quince años de funciones, Inure gana en diseño y pierde en profundidad.
 Si vas a mirar dentro del sistema, AppManager; si vas a ordenar el cajón de apps, Inure.
+
 <!-- GUIA:FIN -->

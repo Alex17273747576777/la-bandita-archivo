@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Fue el instalador de APK con opciones avanzadas de su generación: diálogo, notificación, instalar en
@@ -57,4 +58,5 @@ borra: lo deja con fecha y una flecha al que sigue.
 
 Porque está en chino: su autor lo escribió así y no hay versión en español. Traducirlo aquí sería
 inventar una fuente; se deja constancia y se resume lo que el propio texto dice del programa.
+
 <!-- GUIA:FIN -->

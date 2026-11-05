@@ -44,10 +44,23 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+La versión de Nuvio para televisores **webOS (LG) y Tizen (Samsung)**, que no son Android y por eso
+necesitan un empaquetado distinto. Incluye además un instalador para Windows, macOS y Linux que sirve
+para cargar la app en el televisor.
+
+### Cómo se usa
+
+1. Se descarga el instalador de escritorio o el paquete `wgt` para Tizen de la última entrega
+   (`1.3.6`, del 5 de noviembre de 2026).
+2. En LG se instala en modo desarrollador; en Samsung, con el instalador y el televisor en el mismo modo.
+3. Los complementos se añaden después, igual que en las otras versiones.
+
+### Lo que conviene saber antes
+
+El modo desarrollador de estos televisores **caduca** y hay que renovarlo cada cierto tiempo; eso no lo
+arregla la app. Y cada televisor es un mundo: lo que funciona en un LG de 2023 puede no arrancar en uno de
+2020.
 
 <!-- GUIA:FIN -->

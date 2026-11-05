@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Es un fork de Shizuku con el arranque reescrito: la promesa de su autor es que empareja mejor y falla
@@ -62,4 +63,5 @@ esta ficha: es el recurso más reciente de todo el racimo.
 Lleva la etiqueta `-next` en la versión, y eso se lee como lo que es: una línea de desarrollo. Un fork
 que publica hoy puede dejar de publicar el mes que viene, y entonces tu servicio deja de actualizarse
 sin que te enteres. Anota la fecha en la que lo instalaste.
+
 <!-- GUIA:FIN -->

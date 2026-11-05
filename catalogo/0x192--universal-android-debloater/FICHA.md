@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Fue el programa de escritorio que se conectaba por ADB y desinstalaba el relleno del fabricante desde
@@ -57,4 +58,5 @@ está parado. Y no está archivado, lo que es peor: parece vivo.
 `Universal-Debloater-Alliance/universal-android-debloater-next-generation`, con ficha en este racimo:
 entrega `v1.3.1` del 2 de noviembre de 2026 y empujón del 5 de noviembre. El heredero es más joven y
 más activo que el original, que es el patrón de medio racimo.
+
 <!-- GUIA:FIN -->

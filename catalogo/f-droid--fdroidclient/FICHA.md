@@ -43,10 +43,24 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+El cliente oficial de F-Droid: la tienda de aplicaciones libres de Android. Firma las actualizaciones con
+la clave del repositorio, avisa de versiones con cambios de permisos y no pide cuenta. Es el «otro
+camino» completo frente a la tienda de Google.
+
+### Cómo se usa
+
+1. Se descarga el APK desde su web y se instala —es el único momento en que hace falta permitir fuentes
+   desconocidas—.
+2. Al abrir, se actualiza el índice; tarda un rato la primera vez.
+3. Para apps que no están en el repositorio principal, se añaden repositorios de terceros con su
+   dirección, sabiendo lo que eso significa: firmas y decisiones de otros.
+
+### Lo que conviene saber antes
+
+Dos cosas que su propia web explica y que casi nadie lee: la tienda prioriza software libre y su catálogo
+es más pequeño que el de Google; y las apps que llegan por F-Droid se actualizan por F-Droid, así que
+mezclar tiendas con la misma app instalada dos veces es una fuente de líos.
 
 <!-- GUIA:FIN -->

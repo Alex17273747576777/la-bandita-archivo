@@ -44,10 +44,23 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Junta muchos complementos de Stremio, servicios de nube y fuentes en **una sola lista**, filtrada y
+ordenada por sus propias reglas. En vez de instalar diez complementos que devuelven resultados
+desordenados, se configura este una vez y se instala como si fuera el único.
+
+### Cómo se usa
+
+1. Se despliega la instancia —propia o la que su proyecto ofrece— y se abre el configurador.
+2. Se conectan las cuentas y servicios que se quieran usar, y se eligen las plantillas de filtros.
+3. Se instala el complemento resultante en Stremio o en cualquier app compatible, y desde ese momento
+   las listas se actualizan solas.
+
+### Lo que conviene saber antes
+
+Es un **agregador**: no tiene contenido propio y depende por completo de lo que le conectes. Con una
+instancia pública, tus claves pasan por un servidor ajeno; con la tuya, no. Su licencia es AGPL-3.0 y
+su repositorio se mueve a diario.
 
 <!-- GUIA:FIN -->

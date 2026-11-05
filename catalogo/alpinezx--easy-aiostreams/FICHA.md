@@ -43,10 +43,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Instalador de un comando para levantar AIOStreams en un servidor propio o en un ordenador de casa, sin
+tener que escribir el archivo de composición ni recordar los pasos.
+
+### Cómo se usa
+
+1. En un VPS o en un equipo con Docker, se ejecuta el instalador de su última entrega (`v1.5.2`, del 4 de
+   noviembre de 2026).
+2. El asistente pide dominio o IP, puerto y poco más, y deja el servicio levantado.
+3. Después se entra en el configurador de AIOStreams y se sigue por ahí.
+
+### Cuándo no vale la pena
+
+Si no vas a usar AIOStreams, esto no sirve para nada: es su instalador. Y si ya sabes usar Docker
+Compose, sus veinte líneas hacen lo mismo con menos capas de confianza.
 
 <!-- GUIA:FIN -->

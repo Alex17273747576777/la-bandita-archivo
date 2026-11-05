@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Instalador de paquetes con soporte de APK divididas (split APKs), que es el formato con el que llegan
@@ -64,4 +65,5 @@ racimo.
 
 Si solo instalas desde una tienda, esto no tiene trabajo. Su terreno son los paquetes partidos y las
 apps que no están en ninguna tienda.
+
 <!-- GUIA:FIN -->

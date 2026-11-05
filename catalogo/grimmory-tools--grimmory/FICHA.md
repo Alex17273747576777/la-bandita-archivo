@@ -42,10 +42,22 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Biblioteca autoalojada para libros, cómics y audiolibros, con estanterías, metadatos automáticos y
+sincronización con lectores. Se instala en un servidor de casa o en un NAS y se usa desde el navegador o
+desde la app de lectura que ya tengas.
+
+### Cómo se usa
+
+1. Hace falta Docker y Docker Compose, nada más.
+2. Se levanta con su archivo de composición y se abre en el navegador del equipo de la red.
+3. Se apunta a la carpeta donde están los libros; el programa indexa, busca portadas y ordena por autor
+   y serie.
+
+### Lo que conviene saber antes
+
+Es un servicio con autenticación: si lo publicas en internet sin HTTPS ni contraseña decente, estás
+regalando tu biblioteca. Y su licencia AGPL-3.0 obliga a publicar cambios si lo ofreces como servicio.
 
 <!-- GUIA:FIN -->

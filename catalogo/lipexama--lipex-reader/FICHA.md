@@ -40,10 +40,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Lector de novelas ligeras para iOS: biblioteca con categorías, búsqueda, progreso, temas y tipografías
+personalizables, y lectura en voz alta.
+
+### Cómo se usa
+
+1. Se instala desde la App Store, que es el único camino en iOS.
+2. Se importan los archivos o se añaden fuentes; el lector recuerda el punto exacto de cada libro.
+3. El modo de lectura y la voz se configuran por libro o de forma global.
+
+### Lo que conviene saber antes
+
+Tiene ★1, una sola entrega (`v1.21`, del 24 de julio de 2026) y **no declara licencia**: tres señales que
+en este catálogo significan «proyecto de una persona, sin garantías». En iOS, además, el código no se
+puede auditar desde el teléfono, así que la confianza depende del desarrollador.
 
 <!-- GUIA:FIN -->

@@ -39,6 +39,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Es el programa que le da a otras aplicaciones los permisos del sistema sin que el teléfono esté
@@ -74,4 +75,5 @@ Si el teléfono es de trabajo, si tiene una cuenta de empresa o si no puedes act
 Shizuku no arranca y su función estrella —desinstalar sin root— se queda en nada. En ese caso la
 alternativa es el camino de ADB desde un ordenador, que hace lo mismo de una vez y no hay que
 mantenerlo encendido.
+
 <!-- GUIA:FIN -->

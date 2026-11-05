@@ -43,10 +43,22 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Sincroniza el historial de lo que ves entre servidores de medios y servicios de seguimiento: lo que
+marcas visto en Jellyfin aparece en Plex, y lo que puntúas en un rastreador llega al otro. Su terreno es
+la casa con varias fuentes de reproducción.
+
+### Cómo se usa
+
+1. Se despliega en un servidor con Docker.
+2. Se conectan los servicios por su API —cada uno con su token— y se eligen qué datos se sincronizan.
+3. La primera sincronización tarda: está emparejando bibliotecas enteras.
+
+### Lo que conviene saber antes
+
+Su propia documentación avisa de que **no todas las integraciones soportan todo**: unas sincronizan
+listas, otras historial, otras solo actividad. Antes de fiarse, se prueba con una serie y se mira qué
+llegó al otro lado.
 
 <!-- GUIA:FIN -->

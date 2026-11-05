@@ -39,10 +39,22 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Fork de Mihon centrado en el estudio de idiomas: diccionario nativo tipo Yomitan, soporte de manga
+digitalizado con Mokuro, lector de novelas en EPUB y creación de tarjetas de Anki sin salir de la
+pantalla. Es la herramienta de quien lee para aprender, no solo para entretenerse.
+
+### Cómo se usa
+
+1. Se instala la APK de su última entrega (`v2.4.8`, del 3 de noviembre de 2026).
+2. Se añaden las extensiones de Mihon como en cualquier Mihon —las fuentes no cambian—.
+3. Se configura el diccionario y, si se usa, la conexión con Anki o AnkiDroid.
+4. Para Mokuro hay que haber procesado antes el manga con esa herramienta.
+
+### Lo que conviene saber antes
+
+Un fork más significa una app más que se puede quedar atrás: si Mihon cambia su formato de copia de
+seguridad, este fork tarda en seguirlo. Y hereda del original todo lo que se dice en su ficha.
 
 <!-- GUIA:FIN -->

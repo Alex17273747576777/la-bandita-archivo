@@ -43,10 +43,22 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reproductor IPTV de escritorio y navegador: lee listas M3U, cuentas Xtream Codes y portales Stalker, con
+favoritos, guía de programación y varias fuentes a la vez. Es la pieza que convierte una lista de
+direcciones en algo que se puede ver cómodamente en un ordenador.
+
+### Cómo se usa
+
+1. Se descarga de su página de entregas (`v0.24.0`, del 24 de septiembre de 2026).
+2. Al abrir, se añade una playlist por dirección o por archivo; el programa pide el tipo de fuente
+   —M3U, Xtream o Stalker— porque cada una se lee distinto.
+3. La guía de programación se activa por fuente y tarda en cargar la primera vez.
+
+### Lo que conviene saber antes
+
+El reproductor no trae contenido: lo pone quien lo usa. Aquí no se enlaza ninguna lista. Su licencia es
+MIT, la más permisiva del racimo, y su repositorio está vivo.
 
 <!-- GUIA:FIN -->

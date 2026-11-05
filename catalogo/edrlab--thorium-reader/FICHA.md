@@ -44,10 +44,23 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Lector de EPUB de escritorio con estándares por delante: lo mantiene EDRLab, la organización que empuja
+la lectura digital accesible, y su fuerte son los EPUB con diseño complejo, los audiolibros y las
+funciones de accesibilidad —lectura en voz alta, navegación por teclado, contraste—.
+
+### Cómo se usa
+
+1. Instalador para Windows, macOS y Linux desde su página de entregas (`v3.5.1`, del 2 de septiembre de
+   2026).
+2. Se importan libros desde una carpeta o desde una fuente OPDS; la biblioteca se ordena por estanterías.
+3. Para leer en voz alta hay que activar la síntesis del sistema y elegir voz.
+
+### Cuándo no vale la pena
+
+Su interfaz es sobria hasta lo austero y no sincroniza entre aparatos. Si lo que quieres es leer novelas
+en el móvil, Readest o Koodo son más cómodos; Thorium se justifica con libros técnicos, con
+accesibilidad o con EPUB que otros lectores rompen.
 
 <!-- GUIA:FIN -->

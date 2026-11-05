@@ -41,10 +41,24 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Instala y actualiza aplicaciones de Android **directamente desde la página de entregas del proyecto**, sin
+tienda de por medio. Es la pieza que hace usable todo lo demás: si una app publica sus APK en GitHub,
+Obtainium la sigue, avisa cuando hay versión nueva y la instala.
+
+### Cómo se usa
+
+1. Se instala la APK de su última entrega (`v1.7.4`, del 1 de noviembre de 2026).
+2. Se pulsa «Añadir aplicación» y se pega la dirección del repositorio; Obtainium detecta las entregas y
+   elige el archivo que corresponde al teléfono.
+3. En «Ajustes» se pone cada cuánto comprueba y si quiere instalar sola o solo avisar.
+
+### Lo que conviene saber antes
+
+Requiere permitir la instalación desde fuentes desconocidas, que es exactamente lo que hace falta para
+cualquier app que no venga de una tienda. Y una advertencia de paciencia: si el proyecto publica
+archivos con nombres irregulares, Obtainium puede elegir el equivocado; se revisa al añadirlo, no
+después.
 
 <!-- GUIA:FIN -->

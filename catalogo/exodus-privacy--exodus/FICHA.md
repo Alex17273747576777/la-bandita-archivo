@@ -41,10 +41,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Es el motor del análisis de rastreadores de Exodus Privacy: una plataforma para auditar qué bibliotecas de
+seguimiento lleva dentro una aplicación de Android, con un catálogo público de informes por app. No es
+una app para el usuario final: es el servicio que produce los informes que consultan otras.
+
+### Cómo se usa
+
+1. Se despliega con Docker o a mano, siguiendo su documentación de entorno de desarrollo.
+2. Se le dan APK y devuelve el análisis: rastreadores detectados, firmas y permisos.
+3. Para consultar resultados ya hechos, se usa su sitio público; para generarlos tú, esto.
+
+### Cuándo no vale la pena
+
+Si solo quieres saber qué lleva una app, el informe público existe y no hay que montar nada. Esto se
+instala cuando quieres análisis propios, en lote, o en una red cerrada.
 
 <!-- GUIA:FIN -->

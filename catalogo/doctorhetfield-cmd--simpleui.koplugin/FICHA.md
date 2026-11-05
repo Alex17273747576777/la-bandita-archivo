@@ -43,10 +43,22 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Reemplaza la interfaz de KOReader por una de pantalla de inicio con barra inferior, barra superior y
+modo escritorio. Es un complemento —termina en `.koplugin`— y su público es quien ya usa KOReader y
+quiere que se parezca a un lector moderno.
+
+### Cómo se instala
+
+1. Hace falta tener KOReader funcionando y una versión reciente del lector.
+2. Se descarga el archivo `.koplugin` de su última entrega (`3.0.2`, del 30 de octubre de 2026).
+3. Se copia dentro de la carpeta `koreader/plugins/` del aparato y se reinicia KOReader.
+4. Se activa desde el menú de complementos del propio lector.
+
+### Cuándo no vale la pena
+
+En un lector con pantalla pequeña, la barra inferior se come la página. Y si KOReader te parece feo pero
+funciona, este complemento no arregla lo que molesta: solo lo tapa.
 
 <!-- GUIA:FIN -->

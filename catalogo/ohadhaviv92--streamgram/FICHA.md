@@ -43,10 +43,20 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Complemento autoalojado que sirve a Stremio y a apps compatibles el contenido de **tu propio canal de
+Telegram**. Se despliega en un servidor y se instala con una dirección privada por usuario.
+
+### Cómo se usa
+
+1. Se levanta con Docker o en su plataforma de despliegue.
+2. Se configuran las credenciales del canal en las variables de entorno.
+3. Se instala con la dirección `/:token/manifest.json` que genera para tu cuenta.
+
+### Lo que conviene saber antes
+
+Ese token privado **es la llave**: quien lo tenga ve tu catálogo. No se comparte, no se pega en un chat y
+se cambia si se filtra. Y no publica entregas etiquetadas: para actualizarlo hay que seguir su repositorio.
 
 <!-- GUIA:FIN -->

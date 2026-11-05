@@ -43,10 +43,24 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Lector moderno, multiplataforma y reescritura de Foliate: interfaz nueva, sincronización entre aparatos,
+notas, diccionario, traducción y modo de lectura doble para pantallas grandes. En Android, iOS, Windows,
+macOS, Linux y navegador, con licencia AGPL-3.0.
+
+### Cómo se usa
+
+1. Se descarga de su web o de la última entrega (`v0.12.16`, del 13 de octubre de 2026).
+2. Se importan los EPUB y PDF desde el propio lector; la biblioteca se queda local hasta que actives la
+   sincronización.
+3. Los atajos y el diseño de lectura están en ajustes, y el diccionario y la traducción funcionan
+   offline una vez descargados los paquetes.
+
+### Cuándo no vale la pena
+
+Su versión sigue en `0.12`, y eso se traduce en detalles: algún formato raro se abre torcido y la
+sincronización depende de su servicio. Para PDF técnico, KOReader hace más; para EPUB de novela, este
+es más bonito y más rápido.
 
 <!-- GUIA:FIN -->

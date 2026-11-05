@@ -42,10 +42,22 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+El cliente Nuvio para escritorio, en Windows, macOS y Linux. Misma biblioteca y mismos complementos que
+la versión móvil, con ventana grande y atajos de teclado.
+
+### Cómo se usa
+
+1. Se descarga el instalador de la última entrega (`0.1.34-alpha`, del 4 de noviembre de 2026):
+   `.msi` en Windows, paquete de sistema en macOS y Linux.
+2. En Arch hay un empaquetado no oficial con ficha propia en este racimo.
+3. Al abrir, se añaden complementos por dirección, igual que en el móvil.
+
+### Lo que conviene saber antes
+
+Su propio repositorio lo dice en la primera línea: **«Alpha Software - Testers Only»**. Se cae, cambia y
+a veces no arranca; no es para el salón de casa. Las versiones `alpha` del proyecto son la norma, no la
+excepción.
 
 <!-- GUIA:FIN -->

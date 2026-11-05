@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 113 documentos en `docs/`, agrupados en 19 familias, y 48 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 113 documentos en `docs/`, agrupados en 19 familias, y 49 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -14,7 +14,7 @@
 
 | Documento | Título | De qué va | Líneas |
 |---|---|---|---|
-| [`ACTA-CATALOGO-2026-11-05.md`](ACTA-CATALOGO-2026-11-05.md) | Acta · el catálogo por recurso (5-nov-2026, 11:30–11:55 UTC) | — sin primera oración con cuerpo — | 39 |
+| [`ACTA-CATALOGO-2026-11-05.md`](ACTA-CATALOGO-2026-11-05.md) | Acta · el catálogo por recurso (5-nov-2026, 11:30–11:55 UTC) | — sin primera oración con cuerpo — | 61 |
 | [`ACTA-DUPLICADOS-Y-RECURSOS-2026-11-01.md`](ACTA-DUPLICADOS-Y-RECURSOS-2026-11-01.md) | Acta — duplicados retirados y recursos nuevos | Regla aplicada: **la serie nueva (2026-10-31 en adelante) es la canónica** para cada número. | 45 |
 | [`ACTA-ESCRUTINIO-2026-11-03.md`](ACTA-ESCRUTINIO-2026-11-03.md) | Acta del escrutinio · 3 de noviembre de 2026 | La primera corrida pedía las entregas dentro de una consulta agrupada de veinte repositorios por llamada. | 43 |
 | [`ACTA-ETIQUETAS-2026-11-04.md`](ACTA-ETIQUETAS-2026-11-04.md) | Acta de etiquetas estratégicas · 4 de noviembre de 2026 | Regla 7 aplicada: 01 y 04 comparten dos (#OmniShizuku, #Droynis), que es el máximo permitido y está justificado porque la 04 vuelve a medirlos. 02 y… | 49 |
@@ -229,6 +229,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`fecha_viva.py`](../tools/fecha_viva.py) | FECHA VIVA · la fecha se lee en vivo al empezar y al terminar, no se recuerda. | 133 |
 | [`ficha_profunda.py`](../tools/ficha_profunda.py) | FICHA PROFUNDA · lo que hay que abrir antes de recomendar algo. | 195 |
 | [`firma_literal.py`](../tools/firma_literal.py) | TESTIGO DE FIRMA · comprueba lo que M01 no puede comprobar con una regex. | 114 |
+| [`guias_reemplazo.py`](../tools/guias_reemplazo.py) | guias_reemplazo.py · las guías escritas a mano del racimo «reemplazo-del-stack». | 1082 |
 | [`guias_shizuku.py`](../tools/guias_shizuku.py) | guias_shizuku.py · escribe a mano la guía de las fichas del racimo de Shizuku. | 595 |
 | [`html_archivo.py`](../tools/html_archivo.py) | Genera el HTML único con todas las publicaciones de la serie: WhatsApp, Facebook y el post de comunidad. | 247 |
 | [`idioma_mojibake.py`](../tools/idioma_mojibake.py) | MOJIBAKE · mide la salud de codificación del corpus. No corrige: señala. | 71 |

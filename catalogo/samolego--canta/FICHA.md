@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Desinstala aplicaciones del sistema sin root, apoyándose en Shizuku, y está pensado para el trabajo de
@@ -64,4 +65,5 @@ Funciona también con root si lo tienes, pero su gracia es no necesitarlo.
 
 Si el teléfono es nuevo y no tiene relleno del fabricante, Canta no tiene trabajo. Si es un Xiaomi,
 un Samsung o un operador con veinte apps pregrabadas, es la primera que se instala.
+
 <!-- GUIA:FIN -->

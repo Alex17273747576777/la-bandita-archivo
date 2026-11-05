@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Congela, esconde, suspende y desinstala aplicaciones **sin root**, usando Shizuku o Dhizuku como
@@ -66,4 +67,5 @@ es de los vivos. Su README es corto y sin promesas raras, que en este ecosistema
 
 Para desinstalar dos apps que no usas, el panel de aplicaciones del sistema basta. Hail se justifica
 cuando congelas de forma habitual, o cuando el fabricante no te deja desactivar lo que quieres quitar.
+
 <!-- GUIA:FIN -->

@@ -35,6 +35,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Comparte los permisos de **propietario del dispositivo** (DeviceOwner) con otras aplicaciones. Es un
@@ -63,4 +64,5 @@ prosa que no existe.
 
 En un teléfono personal ya configurado, sin ganas de borrarlo todo. Dhizuku es para un aparato que se
 prepara desde cero o para quien acepta reiniciar el camino.
+
 <!-- GUIA:FIN -->

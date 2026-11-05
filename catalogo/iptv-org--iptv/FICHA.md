@@ -39,10 +39,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Es el mayor índice de listas de canales IPTV públicas que existe: ★143.288, licencia Unlicense, actualizado
+cada día. No es un reproductor ni una lista de canales de pago: es un repositorio de archivos de texto
+donde cada cadena es una dirección de emisión que alguien encontró publicada.
+
+### Cómo se usa
+
+1. Necesitas un reproductor que lea listas M3U: en Android, un reproductor IPTV cualquiera de los que
+   tienen ficha en este mismo racimo.
+2. Del repositorio se toma el archivo de la región que te interese, no el «todo».
+3. En el reproductor se importa la dirección del archivo —o el archivo descargado— y se refresca cuando
+   haga falta: las direcciones caducan a diario.
+
+### Lo que conviene saber antes
+
+Dos advertencias serias. **La primera:** de cada cien direcciones, muchas no responden y otras emiten sin
+permiso del titular; el repositorio lo dice en su propio aviso. Aquí no se enlaza ninguna lista ni se
+señala ninguna cadena concreta: se describe el programa y se deja la decisión a quien lo use. **La
+segunda:** una lista de canales no es una app; si conectas eso a un televisor y no funciona, el
+repositorio no tiene la culpa, porque nunca prometió emisión, solo direcciones.
 
 <!-- GUIA:FIN -->

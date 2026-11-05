@@ -42,10 +42,23 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Manda a la televisión un vídeo que está incrustado en una página web que no ofrece Chromecast. Encuentra
+el vídeo en la página que le indiques, lo transcodifica al vuelo y lo emite a un Chromecast o a un
+televisor compatible.
+
+### Cómo se usa
+
+1. Se instala con `brew install --cask stupside/tap/castor` en macOS, con `npm install -g @castor-dev/cli`
+   en cualquier sistema con Node 20 o superior, o desde su última entrega (`v2.5.0`, del 27 de octubre de
+   2026).
+2. Se le pasa la dirección de la página y el destino; opcionalmente, subtítulos para incrustar.
+3. La transcodificación se hace en el equipo donde corre: con vídeo pesado, el ventilador se entera.
+
+### Lo que conviene saber antes
+
+Solo sirve para contenido que la propia página te deja ver: no salta muros de pago ni protecciones. Y
+hace falta estar en la misma red que el televisor.
 
 <!-- GUIA:FIN -->

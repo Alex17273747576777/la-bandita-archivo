@@ -42,10 +42,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Complemento de metadatos para anime en Stremio y Nuvio: seguimiento, fichas ricas, recomendaciones y
+calendario de emisión. No emite nada; ordena y describe.
+
+### Cómo se usa
+
+1. Se copia la dirección de su manifiesto.
+2. En Stremio o en Nuvio se añade como complemento por esa dirección.
+3. Para el seguimiento hay que conectar la cuenta del rastreador; sin cuenta funciona igual, con menos
+   funciones, según su propio README.
+
+### Cuándo no vale la pena
+
+Si no ves anime, es un complemento que añade ruido a la pantalla de inicio. Si ves mucho, es de los pocos
+que entiende temporadas y películas de una franquicia como lo que son.
 
 <!-- GUIA:FIN -->

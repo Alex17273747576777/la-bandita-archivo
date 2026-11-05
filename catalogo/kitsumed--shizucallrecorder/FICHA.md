@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Graba llamadas usando los permisos que da Shizuku, sin root y sin depender de la grabadora del
@@ -59,4 +60,5 @@ legal y no la va a dar.
 
 Si el teléfono ya trae grabadora integrada y funciona, esto añade una app más y un servicio que
 mantener encendido.
+
 <!-- GUIA:FIN -->

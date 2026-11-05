@@ -40,10 +40,23 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Cliente de vídeo para Android y iOS del ecosistema Nuvio: reproduce lo que le den los complementos que
+elijas, con biblioteca, historial y controles de reproducción. Es la puerta de entrada a esa familia, y
+la que más se instala.
+
+### Cómo se usa
+
+1. En Android, la APK de su última entrega (`0.6.7-beta`, del 4 de noviembre de 2026) o desde su tienda.
+2. En iOS, por AltStore o SideStore: se añade la dirección de su fuente y se instala desde ahí, porque no
+   está en la App Store.
+3. Al abrir, se añaden complementos por dirección; **el programa no trae ninguno**, y las fuentes que se
+   añadan son responsabilidad de quien las añade.
+
+### Lo que conviene saber antes
+
+La versión lleva `beta` en el nombre: la aplicación está en obras y cambia de comportamiento entre
+semanas. Aquí se describe el programa y no se enlaza ninguna fuente de contenido.
 
 <!-- GUIA:FIN -->

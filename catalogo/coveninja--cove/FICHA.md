@@ -43,10 +43,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Aplicación de vídeo para escritorio, Android y Android TV que descubre, rastrea y reproduce películas y
+series con metadatos de TMDB y, según su descripción, fuentes de Stremio. Su propia instalación dice algo
+importante: **no incluye fuentes de terceros**.
+
+### Cómo se usa
+
+1. Se descarga la versión de su última entrega (`v1.6.0`, del 30 de octubre de 2026).
+2. Se conectan las fuentes que se quieran usar; sin ellas, el programa es un catálogo bonito de fichas.
+3. El historial y las listas se guardan en local.
+
+### Lo que conviene saber antes
+
+Es de los pocos que lo dice por escrito en su README: la instalación no trae fuentes. Eso lo deja del lado
+de las herramientas y no del de los enlaces, que es donde este catálogo puede hablar de él.
 
 <!-- GUIA:FIN -->

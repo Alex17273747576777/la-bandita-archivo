@@ -40,6 +40,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Desinstala aplicaciones del sistema desde el teléfono, con la potencia de **Magisk**: es de la familia
@@ -55,4 +56,5 @@ aparece es la descarga directa de su APK, que es toda la documentación que da.
 
 Sin root no funciona, y con root hay al menos tres maneras mejores de hacer lo mismo desde un
 ordenador. Se justifica si quieres limpiar sin cable y ya vives en Magisk.
+
 <!-- GUIA:FIN -->

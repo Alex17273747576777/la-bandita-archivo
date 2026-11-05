@@ -41,10 +41,22 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Índice cruzado de fuentes de manga de siete lectores distintos —Mihon, Aidoku, Kotatsu, Legado, Venera,
+Cimoc y otros—, con la idea de que una fuente escrita para uno se pueda aprovechar en otro. Trae una guía
+de inicio de tres pasos pensada para quien no programa.
+
+### Cómo se usa
+
+1. Se lee su `START-HERE.md`, que existe justo para no tener que clonar nada.
+2. Se pega una dirección en el lector correspondiente y se añaden las fuentes de una en una.
+3. Las que ya están instaladas aparecen marcadas.
+
+### Lo que conviene saber antes
+
+Su propio texto admite que **solo una parte está lista y el resto hay que escribirlo**: es un índice en
+construcción, con ★6 y tres meses de vida. Y es de los proyectos que mezclan fuentes de varios
+ecosistemas, así que la calidad de cada entrada depende de su autor original, no de este.
 
 <!-- GUIA:FIN -->

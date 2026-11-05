@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Instala APK en el teléfono con las opciones que el instalador del sistema no te deja elegir: instalar
@@ -64,4 +65,5 @@ entregas salen más despacio que los cambios.
 ### Cuándo no vale la pena
 
 Para instalar la APK normal de una app normal, el instalador del sistema hace lo mismo y no pide nada.
+
 <!-- GUIA:FIN -->

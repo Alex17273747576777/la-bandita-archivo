@@ -41,10 +41,20 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Descargador de manga por línea de órdenes que usa las extensiones WebAssembly de Aidoku: más de 140
+fuentes y salida en cinco formatos —raw, EPUB, CBZ, CB7 y PDF— con metadatos `ComicInfo.xml`.
+
+### Cómo se usa
+
+1. Se instala con Python; no necesita Java, que es su ventaja frente a otros descargadores.
+2. Se busca el título, se elige la fuente y se descarga la serie o los capítulos.
+3. El formato se elige al final, y se puede reconvertir una carpeta ya descargada sin volver a bajar.
+
+### Cuándo no vale la pena
+
+Si lo que quieres es leer al vuelo, un lector es mejor. Esto es para archivar, y para quien se maneja en
+una terminal.
 
 <!-- GUIA:FIN -->

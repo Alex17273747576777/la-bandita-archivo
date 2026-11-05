@@ -39,6 +39,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Es una implementación alternativa de Shizuku, escrita de nuevo y publicada bajo MPL-2.0 —una licencia
@@ -57,4 +58,5 @@ medir, y por eso Stellar tiene ficha propia y no una nota al pie.
 Una reimplementación no es una actualización: si la app que usas depende de un detalle de Shizuku que
 Stellar no copió, fallará en silencio. Se instala uno de los dos, no los dos, y se prueba la app que
 te importa antes de dar el cambio por bueno.
+
 <!-- GUIA:FIN -->

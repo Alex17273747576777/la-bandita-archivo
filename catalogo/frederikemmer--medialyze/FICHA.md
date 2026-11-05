@@ -44,10 +44,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Analiza bibliotecas de medios grandes y dice qué está mal: archivos duplicados, faltantes de una serie,
+metadatos inconsistentes, tamaños desproporcionados. Tiene versión de escritorio y versión web.
+
+### Cómo se usa
+
+1. Se descarga el programa de escritorio de su última entrega (`v0.20.0`, del 2 de noviembre de 2026), o
+   se despliega la versión web.
+2. Se apunta a la carpeta o a la biblioteca del servidor de medios.
+3. El análisis se puede lanzar entero o por secciones, y el resultado se exporta.
+
+### Cuándo no vale la pena
+
+Con doscientas películas bien ordenadas, un listado a mano basta. MediaLyze se justifica a partir de
+miles de archivos, que es cuando los duplicados se vuelven invisibles.
 
 <!-- GUIA:FIN -->

@@ -36,6 +36,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Continúa InstallerX: instala APK con las opciones que el instalador del sistema esconde —elegir usuario,
@@ -60,4 +61,5 @@ que el padre en menos tiempo.
 
 Si nunca has necesitado instalar para otro usuario ni degradar una versión, el instalador del sistema
 va sobrado.
+
 <!-- GUIA:FIN -->

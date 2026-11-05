@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Es un fork de Shizuku que unifica los tres caminos —root, ADB y Dhizuku— en un solo programa, con su
@@ -61,4 +62,5 @@ este racimo.
 Si tu teléfono no tiene una capa que estorbe y el Shizuku original te enciende sin problema, este fork
 añade piezas que no vas a usar. Los forks se justifican por un problema concreto; si no lo tienes, no
 hace falta.
+
 <!-- GUIA:FIN -->

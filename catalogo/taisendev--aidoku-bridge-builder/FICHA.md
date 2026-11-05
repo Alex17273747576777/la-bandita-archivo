@@ -43,10 +43,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Convierte el catálogo de extensiones de un servidor Suwayomi en un repositorio de fuentes para **Aidoku**
+(iOS), con un archivo `.aix` por sitio y actualización cada hora. Evita tener que compilar extensiones a
+mano para leer en un iPhone.
+
+### Cómo se usa
+
+1. Se despliega junto a un servidor Suwayomi.
+2. Se elige qué extensiones compilar; el programa las descubre del catálogo del servidor.
+3. Se añade la dirección del repositorio resultante en Aidoku, y este se actualiza solo.
+
+### Lo que conviene saber antes
+
+Añade una capa más entre el sitio y tu lector: si Suwayomi falla, el puente falla. Y compilar cada hora
+consume recursos del servidor donde corra.
 
 <!-- GUIA:FIN -->

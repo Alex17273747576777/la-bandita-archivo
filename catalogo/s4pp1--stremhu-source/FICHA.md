@@ -40,10 +40,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Servidor autoalojado que sirve como fuente a Stremio, Nuvio o Kodi y que, según su descripción, trabaja
+con **trackers privados húngaros**. Es una pieza muy concreta de un ecosistema muy concreto.
+
+### Lo que conviene saber antes
+
+Esta ficha se queda corta a propósito: el recurso depende de acceso a trackers privados —cuentas que se
+piden por invitación— y su función es enlazar torrentes. Aquí no se enlaza ninguna fuente de contenido ni
+se explica cómo obtener acceso, y esa no es una decisión técnica: es la misma raya que separa este
+catálogo de una lista de enlaces.
+
+### Cuándo no vale la pena
+
+Para casi todo el mundo. Si no tienes cuenta en esos trackers, el programa no tiene nada que servir, y
+montarlo para descubrirlo cuesta una tarde.
 
 <!-- GUIA:FIN -->

@@ -41,10 +41,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Lleva los complementos de LNReader a la terminal: busca en cientos de fuentes de novelas web y descarga
+el resultado como EPUB 3 limpio para Apple Books, Calibre o KOReader. Incluye además un servidor MCP para
+que un asistente pueda usarlo.
+
+### Cómo se usa
+
+1. Sin instalar nada: `npx @lnreader/cli --help`. O con `npm i -g @lnreader/cli`.
+2. Se busca por título, se elige la fuente y se descarga; el EPUB lleva portada, índice y capítulos.
+3. Para automatizar, el modo MCP se levanta como servidor y se conecta desde el cliente que se use.
+
+### Lo que conviene saber antes
+
+Las fuentes son las de LNReader: funcionan mientras funcionen, y dependen de que alguien mantenga el
+complemento del sitio. ★0 y sin entregas etiquetadas: es nuevo, y se puede leer entero porque es corto.
 
 <!-- GUIA:FIN -->

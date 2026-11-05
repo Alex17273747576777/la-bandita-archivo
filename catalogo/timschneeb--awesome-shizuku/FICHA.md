@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Es **la lista**: un catálogo curado de aplicaciones que usan Shizuku, con ★10.708 y actualización de
@@ -63,4 +64,5 @@ tiene ficha, es que aún no se ha medido: se pide y se mide, que es más trabajo
 
 GitHub la marca como NOASSERTION: no declara una licencia estándar. Para copiar su selección hay que
 leer su archivo de licencia o pedir permiso; para leerla y seguir sus enlaces, no hace falta nada.
+
 <!-- GUIA:FIN -->

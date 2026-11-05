@@ -39,10 +39,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Convierte archivos de copia de seguridad de lectores de manga entre sí: Mihon y Tachiyomi, Tachimanga
+(`.tmb`) y Aidoku (`.aib`). Todo se hace **en el navegador**, sin subir los archivos a ningún servidor.
+
+### Cómo se usa
+
+1. Se abre la página del proyecto.
+2. Se arrastra el archivo de copia de seguridad y se elige el formato de destino.
+3. Se descarga el resultado y se restaura en el lector nuevo.
+
+### Lo que conviene saber antes
+
+Es la herramienta exacta para el momento de cambiar de app sin perder la biblioteca, y ese momento llega:
+los lectores se archivan y la gente migra. Tiene ★3 y su interfaz está en chino, con traducción en la
+descripción; el código es corto y se puede leer.
 
 <!-- GUIA:FIN -->

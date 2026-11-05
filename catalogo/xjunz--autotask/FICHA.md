@@ -38,6 +38,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Automatiza toques y flujos en pantalla apoyándose en accesibilidad o en Shizuku: rellenar formularios,
@@ -54,4 +55,5 @@ estructura de una pantalla concreta envejecen rápido, y dos años son muchos.
 La automatización por accesibilidad lee lo que hay en la pantalla, incluidas contraseñas y mensajes. Si
 lo que quieres automatizar es delicado, la alternativa es un ADB puntual desde un ordenador, que no
 deja un servicio escuchando todo el día.
+
 <!-- GUIA:FIN -->

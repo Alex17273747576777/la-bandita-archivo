@@ -38,10 +38,20 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Repositorio de fuentes de manga en turco, con formato doble: APK para Mihon y Tachiyomi, y JAR para
+Kototoro. Su público es quien lee en turco, que no está bien cubierto en los catálogos generales.
+
+### Cómo se usa
+
+1. En Mihon se añade la dirección del índice del repositorio.
+2. En Kototoro se usa el archivo JAR correspondiente.
+3. Las fuentes aparecen como una lista más; se eligen las que tengan el contenido que buscas.
+
+### Lo que conviene saber antes
+
+★0, sin licencia declarada y sin entregas etiquetadas: es un repositorio nuevo que puede desaparecer sin
+avisar. Aquí está porque el hueco idiomático es real, no porque tenga historial.
 
 <!-- GUIA:FIN -->

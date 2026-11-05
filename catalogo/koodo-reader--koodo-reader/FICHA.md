@@ -44,10 +44,23 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Gestor y lector de libros con sincronización y copia de seguridad, en Windows, macOS, Linux, Android, iOS
+y navegador. Su gracia frente a un lector simple es que ordena una biblioteca grande: portadas,
+metadatos, estanterías y progreso de lectura que viaja de un aparato a otro.
+
+### Cómo se usa
+
+1. Se instala desde la última entrega —`v2.4.6`, del 7 de octubre de 2026— o se abre la versión web.
+2. Se importa la carpeta donde estén los libros; el programa extrae portada y datos de los EPUB y PDF.
+3. La sincronización se activa en ajustes y guarda el progreso; el respaldo se puede hacer a un archivo
+   local o a la nube que ya uses.
+
+### Lo que conviene saber antes
+
+Abre sin problema formatos sin DRM; los libros comprados con protección no los va a abrir, y conviene
+saberlo antes de mover una biblioteca entera. Su licencia es AGPL-3.0, la más estricta de la familia: si
+alguien la modifica y la publica como servicio, tiene que publicar el código.
 
 <!-- GUIA:FIN -->

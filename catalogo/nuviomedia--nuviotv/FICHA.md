@@ -40,10 +40,22 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+La versión para **Android TV** del cliente Nuvio, pensada para manejarse con el mando a distancia:
+filas horizontales, foco grande y reanudación de lo que estabas viendo.
+
+### Cómo se usa
+
+1. La APK se instala en el televisor o en el aparato de TV —en Android TV se copia y se abre con un
+   explorador—, o se compila desde el código con Gradle.
+2. Se añaden los complementos por dirección igual que en el móvil, y se sincroniza la biblioteca si usas
+   cuenta.
+3. El mando hace casi todo; el teclado en pantalla aparece solo para escribir direcciones.
+
+### Lo que conviene saber antes
+
+Android TV tiene menos memoria que un teléfono y apps así se notan: si el aparato es de 2019 con 1 GB,
+va a ir mal. Su última entrega es la 1.0.0, del 19 de septiembre de 2026, y el repositorio está vivo.
 
 <!-- GUIA:FIN -->

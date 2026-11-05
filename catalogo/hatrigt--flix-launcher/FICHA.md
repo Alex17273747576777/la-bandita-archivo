@@ -44,10 +44,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Lanzador para Android TV sin anuncios ni apps promocionadas: al encender, muestra lo que estabas viendo,
+tus películas y el acceso directo a las apps de streaming, en vez de la pantalla llena de recomendaciones
+de Google.
+
+### Cómo se usa
+
+1. Se descarga el APK de su última entrega (`v1.0.14`, del 3 de noviembre de 2026).
+2. Se instala y, en el televisor, se elige como lanzador predeterminado.
+3. Se ordenan las apps y se eligen qué filas se muestran.
+
+### Cuándo no vale la pena
+
+Si el televisor es rápido y no te molesta la pantalla de Google. Y si el aparato es lento, ningún lanzador
+lo hace rápido: cambia la sensación, no el hardware.
 
 <!-- GUIA:FIN -->

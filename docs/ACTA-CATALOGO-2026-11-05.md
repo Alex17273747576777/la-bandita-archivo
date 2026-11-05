@@ -36,3 +36,25 @@ venían de citas del autor, no de mi prosa (se eximen las citas). Segunda pasada
 `make ritual` sella los ficheros nuevos · `make compuertas` y `autoprueba` antes del push.
 
 **Registros.** **E46** → **H27** («un catálogo se mide por recurso, no se copia por lista»).
+
+## Segunda tanda · racimo 12 completo (12:05–12:40 UTC)
+
+**52 guías más escritas a mano**, todas las del racimo `reemplazo-del-stack` (los recursos de la pieza 12):
+lectores y gestores de libros (KOReader, Calibre, Koodo, Readest, Foliate, Thorium, Booklore, Grimmory),
+tiendas y actualizadores (Obtainium, F-Droid, Accrescent, RepoStore), reproductores y clientes de vídeo
+(Iptvnator, OwnTV, Nuvio en sus cuatro variantes, Cove, Opal), agregadores y complementos (AIOStreams,
+easy-aiostreams, AniSync, StreamGram, M3U Mux, MegaNexus, SkipDB), herramientas de escritorio (Sioyek,
+Castor, MediaLyze, CrossWatch, Pictorium) y lectores/fuentes de manga y novela de la cola del racimo.
+
+**Total del catálogo:** **75 fichas con guía escrita** de 278 medidas · **203 esperando guía** ·
+`catalogo_lint` **0 fallos**.
+
+**Reglas que se aplicaron en este racimo.** (1) Los recursos que dependen de listas de canales o de
+fuentes de contenido se describen **sin enlazar ninguna lista** y se dice por qué (`iptv-org`, `OwnTV`,
+`Iptvnator`, `stremhu-source`). (2) Ningún recurso se recomienda por estrellas: se dan con la fecha al
+lado, y cuando un proyecto está parado o en `alpha` se escribe en la guía, no en una nota al pie.
+(3) Los que no declaran licencia (`lipex-reader`, `pulsar-trmangahub`) se señalan como lo que son.
+
+**Lo que no se ha hecho y no se va a fingir.** No se ha instalado ninguna de las 75. La guía dice cómo se
+usa según el propio proyecto, no según una prueba propia; el apartado «Qué no está verificado» de cada
+ficha lo repite en cada una.

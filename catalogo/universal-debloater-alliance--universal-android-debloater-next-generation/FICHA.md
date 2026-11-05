@@ -39,6 +39,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 La continuación de UAD: conecta por ADB desde un ordenador y desinstala o desactiva paquetes del
@@ -64,4 +65,5 @@ del racimo junto con Shizuku-Next. Funciona sin root y sin Shizuku: solo necesit
 Si no tienes un ordenador a mano, o si el teléfono no deja activar la depuración. Y si el teléfono es
 de otra persona, o está en garantía: desinstalar paquetes del sistema se nota cuando llega una
 actualización.
+
 <!-- GUIA:FIN -->

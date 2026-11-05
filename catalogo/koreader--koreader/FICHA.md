@@ -42,10 +42,25 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Es el lector de libros electrónicos de referencia para aparatos con tinta electrónica —Kindle, Kobo,
+PocketBook, Cervantes, reMarkable— y también corre en Android y en Linux. Lee PDF, EPUB, DJVU, FB2 y casi
+cualquier formato de libro, y su fuerte es el PDF: reflow, recorte de márgenes y contraste que ningún
+lector de fábrica hace bien.
+
+### Cómo se instala en un lector
+
+1. En Kindle o Kobo hay que **desbloquear el aparato** por el camino de cada fabricante (jailbreak); en
+   Kobo, además, hay que copiar una carpeta y reiniciar.
+2. En Android se instala la APK de la última entrega, que hoy es la `v2026.07.1` del 1 de agosto de 2026.
+3. La primera vez hay que dejar que genere su base de datos: tarda unos minutos y en ese rato el lector
+   va lento.
+
+### Cuándo no vale la pena
+
+Si lees EPUB en un teléfono y con la app de fábrica te apañas, KOReader es una molestia: su interfaz es
+de otra época y su configuración tiene cien opciones. Se justifica en tinta electrónica, con PDF, o
+cuando quieres diccionario, traducción y estadísticas de lectura en el mismo sitio.
 
 <!-- GUIA:FIN -->

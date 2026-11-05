@@ -41,10 +41,22 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Biblioteca digital autoalojada y multiusuario: estanterías inteligentes, metadatos automáticos,
+sincronización con Kobo y KOReader, importación por carpeta («BookDrop»), OPDS y una interfaz web para
+toda la casa.
+
+### Cómo se usa
+
+1. Hace falta Docker y Docker Compose.
+2. Se levanta el servicio y se abre en el navegador; el primer arranque crea la cuenta de administración.
+3. Se apunta a la carpeta de libros y se deja que indexe; las estanterías se pueden hacer por reglas.
+4. Para el Kobo o el KOReader se usa la sincronización que trae, que es su función más apreciada.
+
+### Lo que conviene saber antes
+
+Es un servicio con cuentas y datos: fuera de casa, con HTTPS y contraseñas decentes. Su licencia es
+AGPL-3.0.
 
 <!-- GUIA:FIN -->

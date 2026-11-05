@@ -44,10 +44,21 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Rastreador de series y películas autoalojado: toma las bibliotecas de Jellyfin, Plex o Emby y lleva el
+historial, las notas y las listas personales, en web y como aplicación instalable (PWA) en cualquier
+aparato.
+
+### Cómo se usa
+
+1. Se despliega con Docker y se abre en el navegador.
+2. Se conectan los servidores de medios con su dirección y su token.
+3. Se instala como PWA desde el propio navegador para tener icono y pantalla completa.
+
+### Lo que conviene saber antes
+
+Su punto fuerte y su límite son el mismo: depende de los servidores que conectes, así que si no tienes
+ninguno, no hay nada que rastrear. Alternativa con más funciones: Trakt; con más privacidad: esto.
 
 <!-- GUIA:FIN -->

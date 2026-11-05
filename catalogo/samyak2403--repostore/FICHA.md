@@ -44,10 +44,23 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Explorador de aplicaciones publicadas en GitHub: busca repositorios que publiquen APK en sus entregas,
+muestra qué versión hay y las instala. Es como Obtainium pero con catálogo, en vez de tener que añadir
+cada repositorio a mano.
+
+### Cómo se usa
+
+1. Se instala la APK de su última entrega (`v1.0.22`, del 29 de octubre de 2026).
+2. En la pantalla principal se busca por nombre; el programa solo muestra repositorios que de verdad
+   tengan APK descargables, según su propia descripción.
+3. Al elegir una app se ve la versión instalada y la disponible, y se actualiza desde ahí.
+
+### Lo que conviene saber antes
+
+Encontrar una app en un catálogo no la hace buena: el programa muestra lo que hay en GitHub, sin filtro de
+calidad. Y su lista de APK la decide un programa, no una persona: conviene mirar la fecha del último
+empujón antes de instalar.
 
 <!-- GUIA:FIN -->
