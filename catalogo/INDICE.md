@@ -3,7 +3,7 @@
 Una ficha por recurso, con lo medido y, cuando la hay, la guía escrita a mano.
 Este índice lo genera `tools/catalogo_ficha.py`; no se edita.
 
-**282 recursos** en 10 racimos · **282 con guía escrita** · ninguna pendiente.
+**284 recursos** en 10 racimos · **284 con guía escrita** · ninguna pendiente.
 
 ## audio
 
@@ -330,7 +330,7 @@ Este índice lo genera `tools/catalogo_ficha.py`; no se edita.
 
 ## tiendas-de-extensiones
 
-28 recursos · 25 con movimiento en el último año · 2 archivados
+30 recursos · 27 con movimiento en el último año · 2 archivados
 
 ```
 ● mihonapp/mihon                               ★25042   2026-11-05
@@ -354,6 +354,8 @@ Este índice lo genera `tools/catalogo_ficha.py`; no se edita.
 ● yuzono/anime-repo                            ★72      2026-11-05
 ● Swakshan/mangayomi-swak-extensions           ★54      2026-10-24
 ● salmanbappi/extensions-repo                  ★52      2026-11-02
+◐ salmanbappi/Tsukimi                          ★49      2026-09-05
+● TsukiAndroid/Tsuki                           ★40      2026-11-02
 ◐ Hotaro26/miko                                ★34      2026-09-11
 ● Mallyd11/mangayomi-anime-extensions          ★28      2026-11-01
 ● dragonx943/manga-repo                        ★24      2026-10-23

@@ -805,6 +805,51 @@ Con cero bifurcaciones y ninguna incidencia, es un proyecto de una sola persona 
 Si buscas un lector con comunidad detrás, respuestas a incidencias y documentación clara, este no la tiene todavía. Y sin descripción, instalarlo es comprar a ciegas.
 """
 
+GUIA["TsukiAndroid/Tsuki"] = """
+### Para qué sirve
+
+Lector de manga y novelas ligeras para Android con más de mil doscientas fuentes integradas, detección automática de analizadores y soporte desde Android 6. Se presenta como un lector que «lee de todo»: manga, novelas ligeras y cómics, con un motor de extensiones que reconoce las fuentes por sí solo.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `alpha-latest`, del 2 de noviembre de 2026, con cuatro adjuntos.
+2. Al abrirlo, el lector detecta las fuentes disponibles y las propone para añadir.
+3. Se eligen las fuentes que se quieren leer y se navega por el catálogo de cada una.
+4. Se descargan capítulos para leer sin conexión.
+
+### Lo que conviene saber antes
+
+40 estrellas, GPL-3.0, creado el 29 de abril de 2026, con un empujón del 2 de noviembre de 2026. Tiene una bifurcación y una incidencia abierta. Publica tres canales de entrega: estable, beta y alpha, todos con fecha de hace días.
+
+Es un lector joven (menos de un año de vida) pero con movimiento reciente y muchas fuentes declaradas. Como todo lector joven, el riesgo es que una fuente deje de funcionar y nadie la arregle a tiempo.
+
+### Cuándo no vale la pena
+
+Si buscas un lector con años de historial y miles de usuarios detrás, este todavía no los tiene. Y si ya usas otro lector de la familia con tu biblioteca montada, cambiar solo por el número de fuentes no aporta nada.
+"""
+
+GUIA["salmanbappi/Tsukimi"] = """
+### Para qué sirve
+
+Lector de manga de alto rendimiento para Android, con muchas funciones y enfoque en lecturas rápidas. Es una aplicación de una sola persona que lleva meses sin actualizar, pero que sigue publicada con entregas desde marzo de 2026.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v3.0.109`, del 31 de marzo de 2026, con cinco adjuntos.
+2. Se abre el lector y se configuran las fuentes de manga que se quieran leer.
+3. Se lee y se descarga para usar sin conexión.
+
+### Lo que conviene saber antes
+
+49 estrellas, GPL-3.0, creado el 29 de enero de 2026, con un empujón del 5 de septiembre de 2026. **Más de medio año sin movimiento en el repositorio**: desde septiembre de 2026 no hay un solo empujón. Tiene una bifurcación y dos incidencias abiertas.
+
+La última entrega es de marzo de 2026, y el código no se toca desde septiembre. Eso significa que el lector puede seguir funcionando, pero si una fuente deja de funcionar o Android cambia algo que rompe la app, puede que nadie lo arregle.
+
+### Cuándo no vale la pena
+
+Si buscas un lector que reciba actualizaciones frecuentes, este no las da: lleva más de seis meses sin moverse. Y si te importa que haya alguien detrás que responda incidencias, este tiene solo dos abiertas y un solo mantenedor visible.
+"""
+
 def main() -> int:
     medido = json.loads(MEDIDO.read_text(encoding="utf-8"))
     escritas = 0

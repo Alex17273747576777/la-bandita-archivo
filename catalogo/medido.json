@@ -11730,5 +11730,86 @@
   ],
   "medido": "2026-11-05 21:38 UTC",
   "racimo": "tiendas-de-extensiones"
+ },
+ "TsukiAndroid/Tsuki": {
+  "repo": "TsukiAndroid/Tsuki",
+  "existe": true,
+  "nombre": "Tsuki",
+  "descripcion": "🌙 Android Manga and Light Novel Reader with 1200+ sources, auto parser detection, Android 6+",
+  "estrellas": 40,
+  "forks": 1,
+  "archivado": false,
+  "deshabilitado": false,
+  "licencia": "GPL-3.0",
+  "empujon": "2026-11-02",
+  "creado": "2026-04-29",
+  "incidencias_abiertas": 1,
+  "lenguaje": "Kotlin",
+  "temas": [
+   "android",
+   "auto-parser-detection",
+   "light-novel-reader",
+   "manga",
+   "mangareader",
+   "manhua"
+  ],
+  "entrega": {
+   "tag": "stable-latest",
+   "fecha": "2026-10-26",
+   "adjuntos": 4
+  },
+  "web": "https://tsukiapp.vercel.app/",
+  "leeme_bytes": 5840,
+  "claim": "A free and open-source manga / manhwa / manhua and novel reader for Android.",
+  "instalacion": [
+   "⬇️ Download manga for offline reading"
+  ],
+  "plataformas": [
+   "Android",
+   "Web"
+  ],
+  "banderas": [
+   "espejo declarado"
+  ],
+  "medido": "2026-11-05 21:55 UTC",
+  "racimo": "tiendas-de-extensiones"
+ },
+ "salmanbappi/Tsukimi": {
+  "repo": "salmanbappi/Tsukimi",
+  "existe": true,
+  "nombre": "Tsukimi",
+  "descripcion": "A high-performance, feature-rich manga reader for Android.",
+  "estrellas": 49,
+  "forks": 1,
+  "archivado": false,
+  "deshabilitado": false,
+  "licencia": "GPL-3.0",
+  "empujon": "2026-09-05",
+  "creado": "2026-01-29",
+  "incidencias_abiertas": 2,
+  "lenguaje": "Kotlin",
+  "temas": [],
+  "entrega": {
+   "tag": "v3.0.109",
+   "fecha": "2026-03-31",
+   "adjuntos": 5
+  },
+  "web": null,
+  "leeme_bytes": 2921,
+  "claim": "Tsukimi is a high-performance, feature-rich manga reader for Android, designed with a focus on speed, customization, and a premium user experience.",
+  "instalacion": [
+   "Intuitive Controls:** Standard trash bin icon for easy identification of downloaded content.",
+   "Instant UI Feedback:** Zero-latency interface updates during download and deletion operations.",
+   "Visual Progress:** Circular progress indicators directly on download buttons.",
+   "Optimized Downloads:** Granular control over parallel source (up to 10) and page (up to 15) downloads."
+  ],
+  "plataformas": [
+   "Android"
+  ],
+  "banderas": [
+   "aviso de retirada"
+  ],
+  "medido": "2026-11-05 21:55 UTC",
+  "racimo": "tiendas-de-extensiones"
  }
 }
