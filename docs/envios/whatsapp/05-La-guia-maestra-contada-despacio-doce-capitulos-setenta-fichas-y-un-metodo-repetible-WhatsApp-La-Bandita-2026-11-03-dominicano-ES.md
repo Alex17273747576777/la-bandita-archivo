@@ -731,25 +731,25 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 36 repositorios que cita esta pi
 • TrackerControl/tracker-control-android — ★2.723 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release 2026110101 (1-nov-2026)
 • samolego/Canta — ★6.469 · empujó el 31-oct-2026 (hace 4 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
 • aistra0528/Hail — ★7.102 · empujó el 27-oct-2026 (hace 8 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
-• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.749 · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (2-nov-2026)
-• RikkaApps/Shizuku — ★32.810 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.750 · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (2-nov-2026)
+• RikkaApps/Shizuku — ★32.811 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • krishna3163/OmniShizuku — ★18 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
-• rushiranpise/Shizuku-Next — ★1.456 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
-• HmnDev-Tech/shevery — ★1.604 · empujó en las últimas horas · Apache-2.0 · última release 14.6.3 (4-nov-2026)
+• rushiranpise/Shizuku-Next — ★1.457 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
+• HmnDev-Tech/shevery — ★1.605 · empujó en las últimas horas · Apache-2.0 · última release 14.6.3 (4-nov-2026)
 • ImranR98/Obtainium — ★21.219 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • AuroraOSS/AuroraStore — ★75 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0
-• Genymobile/scrcpy — ★154.050 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v5.0.1 (8-oct-2026)
+• Genymobile/scrcpy — ★154.052 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v5.0.1 (8-oct-2026)
 • termux/termux-app — ★64.114 · empujó el 26-sep-2026 (hace 39 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
 • termux/termux-packages — ★17.305 · sin fecha de empuje · NOASSERTION · última release bootstrap-2026.11.01-r1+apt.android-7 (1-nov-2026)
-• skylot/jadx — ★51.600 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.5.6 (10-jul-2026)
-• iBotPeaches/Apktool — ★27.006 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v3.0.3 (20-jul-2026)
+• skylot/jadx — ★51.599 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.5.6 (10-jul-2026)
+• iBotPeaches/Apktool — ★27.007 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v3.0.3 (20-jul-2026)
 • xbmc/xbmc — ★21.436 · sin fecha de empuje · NOASSERTION · última release 21.3-Omega (31-oct-2025)
-• yuliskov/SmartTube — ★35.933 · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
+• yuliskov/SmartTube — ★35.934 · empujó en las últimas horas · MIT · última release 32.68s (20-oct-2026)
 • jolabs40/TVSlim — ★35 · empujó el 20-oct-2026 (hace 15 días) · Apache-2.0 · última release windows-v1.7.0 (20-oct-2026)
-• jellyfin/jellyfin — ★59.014 · sin fecha de empuje · GPL-2.0 · última release v12.4 (26-oct-2026)
-• immich-app/immich — ★118.269 · sin fecha de empuje · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
-• localsend/localsend — ★97.350 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• rclone/rclone — ★60.806 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
+• jellyfin/jellyfin — ★59.016 · sin fecha de empuje · GPL-2.0 · última release v12.4 (26-oct-2026)
+• immich-app/immich — ★118.270 · sin fecha de empuje · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
+• localsend/localsend — ★97.354 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• rclone/rclone — ★60.807 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
 • restic/restic — ★37.007 · empujó el 1-nov-2026 (hace 3 días) · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
 • mirfatif/PermissionManagerX — ★812 · empujó el 29-sep-2026 (hace 36 días) · AGPL-3.0 · última release v1.34-pro (29-sep-2026)
 • M66B/NetGuard — ★3.964 · *dormido*: sin empujar desde el 1-ago-2026 (95 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
@@ -768,12 +768,13 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 36 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 25 de 27
 
-═══ MENSAJE 27 de 28 · 240 caracteres ═══
+═══ MENSAJE 27 de 28 · 414 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 41 enlaces de esta pieza, *40 responden*.
+De los 41 enlaces de esta pieza, *39 responden*.
 
+• https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/guia-maestra/CREDITOS.md — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/krishna3163/best_shizuku_apps_for_android — 404. No existe hoy: no lo abras, no lo recomiendo.
 
 ⏬ sigue abajo · parte 26 de 27

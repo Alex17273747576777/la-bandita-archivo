@@ -500,15 +500,15 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 58 repositorios que cita esta pi
 • yuzono/anime-repo — sin dato hoy (la API no respondió). No afirmo nada.
 • mojuru/anime-repo — ★72 · empujó en las últimas horas · sin licencia detectada por la API
 • keiyoushi/extensions — ★15.434 · empujó en las últimas horas · sin licencia detectada por la API · última release ee661f5 (4-nov-2026)
-• keiyoushi/extensions-source — ★4.862 · empujó en las últimas horas · Apache-2.0
-• yuzono/tachiyomi-extensions — ★957 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0
+• keiyoushi/extensions-source — ★4.863 · empujó en las últimas horas · Apache-2.0
+• yuzono/tachiyomi-extensions — ★958 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0
 • cuong-tran/manga-repo — ★468 · empujó el 2-nov-2026 (hace 2 días) · sin licencia detectada por la API · última release f7d844c-2 (2-nov-2026)
 • LittleSurvival/copymanga-copy20 — ★2.993 · empujó el 11-oct-2026 (hace 24 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • cofedream/extensions-copymanga — ★498 · *dormido*: sin empujar desde el 8-ago-2026 (88 días) · sin licencia detectada por la API · última release v1.4.11 (7-jun-2025)
 • FelipeGFA/extensoes — ★43 · empujó el 28-sep-2026 (hace 37 días) · sin licencia detectada por la API · última release d90cba1-2 (28-sep-2026)
-• mojuru/cursed-manga-repo — ★175 · empujó el 12-oct-2026 (hace 23 días) · sin licencia detectada por la API · última release 5dad5cf (12-oct-2026)
-• yuzono/cursed-manga-extensions — ★220 · empujó en las últimas horas · Apache-2.0
-• Kareadita/tach-extension — ★136 · empujó el 1-nov-2026 (hace 3 días) · Apache-2.0 · última release v1.4.27 (1-nov-2026)
+• mojuru/cursed-manga-repo — ★176 · empujó el 12-oct-2026 (hace 23 días) · sin licencia detectada por la API · última release 5dad5cf (12-oct-2026)
+• yuzono/cursed-manga-extensions — ★221 · empujó en las últimas horas · Apache-2.0
+• Kareadita/tach-extension — ★137 · empujó el 1-nov-2026 (hace 3 días) · Apache-2.0 · última release v1.4.27 (1-nov-2026)
 • Suwayomi/tachiyomi-extension — ★345 · *dormido*: sin empujar desde el 19-sep-2026 (46 días) · Apache-2.0
 • marbou92/MHRepo — ★8 · empujó en las últimas horas · Apache-2.0
 • Nyora-Manga/nyora-mihon — ★14 · *dormido*: sin empujar desde el 19-jul-2026 (108 días) · sin licencia detectada por la API

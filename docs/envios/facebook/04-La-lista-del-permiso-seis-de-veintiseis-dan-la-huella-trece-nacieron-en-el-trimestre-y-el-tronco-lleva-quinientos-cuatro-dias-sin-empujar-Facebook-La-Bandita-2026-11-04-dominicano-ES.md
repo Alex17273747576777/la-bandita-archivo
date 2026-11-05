@@ -393,18 +393,18 @@ Porque se midió hoy y tiene veintiún días, trescientas cincuenta y siete conf
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.810 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.811 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • RikkaApps/Shizuku-API — ★2.745 · *dormido*: sin empujar desde el 29-may-2025 (524 días) · MIT · última release v12.1.0 (7-oct-2022)
 • d4rken-org/porter — ★246 · empujó en las últimas horas · Apache-2.0 · última release v0.8.1-rc0 (7-oct-2026)
 • capitan0n/droynis — ★16 · empujó en las últimas horas · GPL-3.0 · última release v0.15.0 (1-nov-2026)
 • Foxlape/GhostMode — ★121 · empujó en las últimas horas · Apache-2.0 · última release v0.2.3 (4-nov-2026)
 • emi-ran/flowpilot — ★16 · empujó en las últimas horas · GPL-3.0 · última release v2.2.0 (4-nov-2026)
 • Dreamucxe/GameCore — ★27 · empujó en las últimas horas · MIT · última release v4.5 (4-nov-2026)
-• HmnDev-Tech/shevery — ★1.604 · empujó en las últimas horas · Apache-2.0 · última release 14.6.3 (4-nov-2026)
+• HmnDev-Tech/shevery — ★1.605 · empujó en las últimas horas · Apache-2.0 · última release 14.6.3 (4-nov-2026)
 • cr1437/Shizako — ★98 · empujó en las últimas horas · Apache-2.0 · última release zako3.17 (31-oct-2026)
-• rushiranpise/Shizuku-Next — ★1.456 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
+• rushiranpise/Shizuku-Next — ★1.457 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
 • kerneldroid/Nightzuku — ★333 · empujó en las últimas horas · Apache-2.0 · última release v13.7.1-r60 (4-nov-2026)
-• thejaustin/ShizukuPlus — ★1.702 · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
+• thejaustin/ShizukuPlus — ★1.704 · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
 • iamr0s/Dhizuku — ★4.086 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
 • samolego/Canta — ★6.469 · empujó el 31-oct-2026 (hace 4 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
 • wxxsfxyzm/InstallerX-Revived — ★7.320 · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
@@ -417,7 +417,7 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 26 repositorios que cita esta pi
 • tgvdufuture/Aura — ★18 · empujó en las últimas horas · MIT · última release v0.8.0 (4-nov-2026)
 • eyalm2000/adns — ★743 · empujó en las últimas horas · MIT · última release v2.1.9 (3-nov-2026)
 • Benimaru-x1k/Benimaru — ★43 · empujó en las últimas horas · MIT · última release v4.5 (2-nov-2026)
-• HakaI963/bliss — ★0 · sin fecha de empuje · Apache-2.0 · última release v1.3.0-bb5acb4 (4-nov-2026)
+• HakaI963/bliss — ★0 · sin fecha de empuje · Apache-2.0 · última release v1.3.0-4f600da (5-nov-2026)
 • Yukstarlight/guang-lab — ★5 · empujó en las últimas horas · GPL-3.0 · última release v1.40 (4-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

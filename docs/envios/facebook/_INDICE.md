@@ -17,12 +17,13 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 09 | Archivos, copias y nubes propias: cuatro de diecisiete dan la huella,  | 20 | 3647 | 17 | 0 | no | `09-Archivos-copias-y-nubes-propias-cuatro-de-diecisiete-dan-la-huella-y-las-dos-herramientas-de-copia-llevan-410-y-185-dias-sin-publicar-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 10 | Los repositorios de extensiones: cincuenta y seis tiendas vivas, doce  | 20 | 3860 | 58 | 0 | no | `10-Las-tiendas-cincuenta-y-seis-repositorios-vivos-doce-mil-cuatrocientos-ochenta-y-siete-archivos-y-diez-sumas-de-comprobacion-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 11 | Las aplicaciones que leen lo que la pieza 10 midió: cincuenta y uno pr | 20 | 3859 | 56 | 0 | no | `11-Las-aplicaciones-que-leen-lo-que-la-pieza-10-midio-cincuenta-y-una-aplicaciones-y-cincuenta-y-ocho-millones-de-descargas-con-ciento-dieciseis-archivos-firmados-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
-| 12 | El kit de reemplazo: cincuenta y nueve recursos medidos hoy para tirar | 21 | 3889 | 51 | 0 | no | `12-El-kit-de-reemplazo-cincuenta-y-nueve-recursos-medidos-hoy-para-tirar-el-stack-viejo-del-meme-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
+| 12 | El kit de reemplazo: cincuenta y nueve recursos medidos hoy para tirar | 21 | 3873 | 51 | 0 | no | `12-El-kit-de-reemplazo-cincuenta-y-nueve-recursos-medidos-hoy-para-tirar-el-stack-viejo-del-meme-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 13 | El audio que le faltaba al kit: cincuenta y cuatro programas de música | 20 | 3918 | 52 | 0 | no | `13-El-audio-que-le-faltaba-al-kit-cincuenta-y-cuatro-programas-medidos-hoy-de-la-musica-propia-al-registro-de-lo-que-oyes-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
-| 14 | Spotify sin Spotify cuarenta y cinco clientes medidos hoy quince nacid | 19 | 3822 | 37 | 0 | no | `14-Spotify-sin-Spotify-cuarenta-y-cinco-clientes-medidos-hoy-quince-nacidos-en-2026-tres-muertos-y-la-proporcion-de-firma-mas-alta-de-la-serie-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
+| 14 | Spotify sin Spotify cuarenta y cinco clientes medidos hoy quince nacid | 19 | 3814 | 37 | 0 | no | `14-Spotify-sin-Spotify-cuarenta-y-cinco-clientes-medidos-hoy-quince-nacidos-en-2026-tres-muertos-y-la-proporcion-de-firma-mas-alta-de-la-serie-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 15 | Descargar es un acto técnico: treinta y uno programas medidos hoy —och | 20 | 3883 | 31 | 0 | no | `15-Descargar-es-un-acto-tecnico-treinta-y-un-programas-medidos-hoy-ocho-de-2026-y-los-dos-famosos-que-estan-parados-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 16 | El torrent que no se rinde: veintidós piezas medidas hoy —nueve de 202 | 17 | 3683 | 4 | 0 | no | `16-El-torrent-que-no-se-rinde-veintidos-piezas-medidas-hoy-nueve-de-2026-y-la-proporcion-de-firma-mas-baja-del-ano-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
+| 17 | El teclado que escribe por ti treinta y cuatro teclados y dictados med | 20 | 3895 | 33 | 0 | no | `17-El-teclado-que-escribe-por-ti-treinta-y-cuatro-teclados-y-dictados-medidos-hoy-diez-de-2026-y-la-proporcion-de-firma-mas-alta-del-ano-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 
-**16 piezas · 307 mensajes** · el mayor de todos: 3918 caracteres.
+**17 piezas · 327 mensajes** · el mayor de todos: 3918 caracteres.
 
 

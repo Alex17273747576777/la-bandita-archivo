@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/12-El-kit-de-reemplazo-cincuenta-y-nueve-recursos-medidos-hoy-para-tirar-el-stack-viejo-del-meme-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
 - **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `e33a1097b6372eba34b0fb0423aba397959f094294d1d24e52ae80b1742e0f96`
-- **Envío generado:** 2026-11-04 · 21 mensajes · el mayor de 3889 caracteres
+- **Envío generado:** 2026-11-04 · 21 mensajes · el mayor de 3873 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 21 · 892 caracteres ═══
@@ -474,13 +474,13 @@ Y lo cuarto: **lo más nuevo no es lo mejor, pero es lo que está vivo**. El lan
 
 ⏬ sigue abajo · parte 16 de 20
 
-═══ MENSAJE 18 de 21 · 3889 caracteres ═══
+═══ MENSAJE 18 de 21 · 3873 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 12*
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 51 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• iptv-org/iptv — ★143.236 · sin fecha de empuje · Unlicense
+• iptv-org/iptv — ★143.237 · sin fecha de empuje · Unlicense
 • ImranR98/Obtainium — ★21.219 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • Accrescent/Accrescent — ★2.306 · sin fecha de empuje · Apache-2.0 · última release 0.29.1 (4-nov-2026)
 • f-droid/fdroidclient — ★3.255 · empujó en las últimas horas · GPL-3.0 · última release 1.18.0 (24-ene-2024)
@@ -488,9 +488,9 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 51 repositorios que cita esta pi
 • Exodus-Privacy/exodus — ★814 · *dormido*: sin empujar desde el 13-sep-2026 (52 días) · AGPL-3.0 · última release v1.33.0 (13-sep-2026)
 • samyak2403/RepoStore — ★1.380 · empujó el 29-oct-2026 (hace 6 días) · MIT · última release v1.0.22 (29-oct-2026)
 • NuvioMedia/NuvioMobile — ★4.405 · empujó en las últimas horas · GPL-3.0 · última release 0.6.7-beta (4-nov-2026)
-• NuvioMedia/NuvioTV — ★3.365 · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
+• NuvioMedia/NuvioTV — ★3.365 · sin fecha de empuje · GPL-3.0 · última release 1.0.0 (19-sep-2026)
 • NuvioMedia/NuvioDesktop — ★1.936 · empujó en las últimas horas · GPL-3.0 · última release 0.1.34-alpha (2-nov-2026)
-• NuvioMedia/NuvioTVSmart — ★845 · empujó en las últimas horas · GPL-3.0 · última release 1.3.6 (2-nov-2026)
+• NuvioMedia/NuvioTVSmart — ★846 · empujó en las últimas horas · GPL-3.0 · última release 1.3.6 (2-nov-2026)
 • JJDizz1L/NuvioLinux-unofficial — ★51 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release v0.1.34alpha-1 (2-nov-2026)
 • Viren070/AIOStreams — ★3.104 · empujó en las últimas horas · AGPL-3.0 · última release v2.37.0 (23-oct-2026)
 • alpinezx/easy-aiostreams — ★57 · empujó en las últimas horas · MIT · última release v1.5.2 (3-nov-2026)
@@ -503,16 +503,16 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 51 repositorios que cita esta pi
 • coveninja/cove — ★158 · empujó el 30-oct-2026 (hace 5 días) · AGPL-3.0 · última release v1.6.0 (9-oct-2026)
 • MegaNexusMediaPlayer/MegaNexus — ★34 · empujó en las últimas horas · NOASSERTION · última release v9.0.8 (4-nov-2026)
 • stupside/castor — ★2.526 · empujó el 28-oct-2026 (hace 7 días) · MIT · última release v2.5.0 (27-oct-2026)
-• grimmory-tools/grimmory — ★4.657 · empujó en las últimas horas · AGPL-3.0 · última release v3.5.0 (21-sep-2026)
+• grimmory-tools/grimmory — ★4.656 · empujó en las últimas horas · AGPL-3.0 · última release v3.5.0 (21-sep-2026)
 • readest/readest — ★25.959 · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
-• koreader/koreader — ★30.872 · empujó en las últimas horas · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
+• koreader/koreader — ★30.873 · sin fecha de empuje · AGPL-3.0 · última release v2026.07.1 (1-ago-2026)
 • koodo-reader/koodo-reader — ★28.726 · sin fecha de empuje · AGPL-3.0 · última release v2.4.6 (7-oct-2026)
 • edrlab/thorium-reader — ★2.930 · empujó en las últimas horas · BSD-3-Clause · última release v3.5.1 (2-sep-2026)
 • kovidgoyal/calibre — ★26.351 · sin fecha de empuje · GPL-3.0 · última release v9.17.0 (23-oct-2026)
 • ahrm/sioyek — ★9.976 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (16-dic-2022)
 • johnfactotum/foliate — ★8.868 · *dormido*: sin empujar desde el 8-abr-2026 (210 días) · GPL-3.0 · última release 3.3.0 (1-abr-2025)
 • booklore-app/booklore — ★1.334 · empujó en las últimas horas · AGPL-3.0 · última release v2.4.0 (19-sep-2026)
-• 4gray/iptvnator — ★7.605 · empujó en las últimas horas · MIT · última release v0.24.0 (24-sep-2026)
+• 4gray/iptvnator — ★7.606 · empujó en las últimas horas · MIT · última release v0.24.0 (24-sep-2026)
 
 ⏬ sigue abajo · parte 17 de 20
 

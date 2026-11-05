@@ -67,6 +67,14 @@ TOPICOS = {
         ("edición", "image editor created:>2026-01-01"),
         ("ocr", "ocr created:>2026-01-01"),
     ],
+    "teclado": [
+        ("teclado con IA", "ai keyboard created:>2026-01-01"),
+        ("teclado para Android", "keyboard android ime created:>2026-01-01"),
+        ("dictado por voz", "voice dictation created:>2025-06-01"),
+        ("habla a texto sin nube", "speech to text offline whisper created:>2025-01-01"),
+        ("atajos y plantillas", "text expander snippet created:>2025-01-01"),
+        ("reescritura en línea", "grammar rewrite writing assistant created:>2026-01-01"),
+    ],
     "red": [
         ("dns", "dns android created:>2026-01-01"),
         ("vpn", "vpn client created:>2026-01-01"),

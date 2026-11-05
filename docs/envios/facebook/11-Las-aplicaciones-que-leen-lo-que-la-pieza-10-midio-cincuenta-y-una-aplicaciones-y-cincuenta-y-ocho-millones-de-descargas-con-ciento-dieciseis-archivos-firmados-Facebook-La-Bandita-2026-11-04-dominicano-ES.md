@@ -469,18 +469,18 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 56 repositorios que cita esta pi
 • Kototoro-app/Kototoro — ★670 · sin fecha de empuje · Apache-2.0 · última release v2.3.9 (4-nov-2026)
 • itsmechinmoy/echo — sin dato hoy (la API no respondió). No afirmo nada.
 • itsmechinmoy/echo-nightly — ★390 · *dormido*: sin empujar desde el 22-ago-2026 (74 días) · NOASSERTION · última release nightly-20260402-172557-aafa008 (2-abr-2026)
-• mihonapp/mihon — ★25.034 · sin fecha de empuje · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★25.035 · sin fecha de empuje · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • komikku-app/anikku — ★1.129 · empujó el 22-oct-2026 (hace 13 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
 • recloudstream/cloudstream — ★11.160 · empujó en las últimas horas · GPL-3.0 · última release v4.8.0 (10-jul-2026)
 • kodjodevf/mangayomi — ★4.355 · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
 • UsagiApp/usagi — ★290 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
 • LNReader/lnreader — ★2.956 · empujó el 1-nov-2026 (hace 3 días) · MIT · última release v2.1.4 (26-sep-2026)
-• Aidoku/Aidoku — ★4.699 · empujó el 31-oct-2026 (hace 4 días) · GPL-3.0 · última release v0.9-4 (16-oct-2026)
-• Suwayomi/Suwayomi-Server — ★8.010 · empujó el 1-nov-2026 (hace 3 días) · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
+• Aidoku/Aidoku — ★4.700 · empujó el 31-oct-2026 (hace 4 días) · GPL-3.0 · última release v0.9-4 (16-oct-2026)
+• Suwayomi/Suwayomi-Server — ★8.011 · empujó el 1-nov-2026 (hace 3 días) · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
 • Jays2Kings/tachiyomiJ2K — ★5.404 · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
 • jobobby04/TachiyomiSY — ★4.201 · empujó el 1-nov-2026 (hace 3 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
 • komikku-app/komikku — ★4.981 · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• yuzono/tachiyomi-extensions — ★957 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0
+• yuzono/tachiyomi-extensions — ★958 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0
 • nekomangaorg/Neko — ★2.823 · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
 • null2264/yokai — ★1.916 · empujó en las últimas horas · Apache-2.0 · última release v1.10.2 (23-sep-2026)
 • ruzhe85/MihonSY — ★50 · empujó en las últimas horas · Apache-2.0 · última release v1.3.0 (4-nov-2026)

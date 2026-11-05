@@ -1,0 +1,399 @@
+{
+ "fecha": "2026-11-05",
+ "medido_en": "2026-11-05T03:16:00+00:00",
+ "fecha_viva": {
+  "salida": [
+   "FECHA VIVA · miércoles 4 de noviembre de 2026 · 23:15:45 en Santo Domingo (03:15:45 UTC) · semana ISO 45 de 2026",
+   "  · reloj en hora con la fuente de fuera (+0.1 min)",
+   "  · anotado en docs/FECHA-VIVA.json como «inicio» (42 vez/veces hoy)"
+  ],
+  "codigo": 0
+ },
+ "historial": {
+  "publicadas": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ],
+  "siguiente": 17,
+  "pendientes": [
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26
+  ]
+ },
+ "ecosistema": {
+  "tema": "teclado",
+  "consultas": [
+   "ai keyboard created:>2026-01-01",
+   "keyboard android ime created:>2026-01-01",
+   "voice dictation created:>2025-06-01",
+   "speech to text offline whisper created:>2025-01-01",
+   "text expander snippet created:>2025-01-01",
+   "grammar rewrite writing assistant created:>2026-01-01"
+  ],
+  "candidatos": [
+   {
+    "repo": "debpalash/VoiceStudio",
+    "stars": 101102,
+    "creado": "2026-04-09",
+    "dias_nace": 210,
+    "push": "2026-11-04",
+    "licencia": "AGPL-3.0",
+    "archivado": false,
+    "consulta": "dictado por voz"
+   },
+   {
+    "repo": "altic-dev/FluidVoice",
+    "stars": 12808,
+    "creado": "2025-09-21",
+    "dias_nace": 410,
+    "push": "2026-11-02",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "dictado por voz"
+   },
+   {
+    "repo": "OpenWhispr/openwhispr",
+    "stars": 10731,
+    "creado": "2025-06-19",
+    "dias_nace": 504,
+    "push": "2026-11-04",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "dictado por voz"
+   },
+   {
+    "repo": "anomalyco/hex",
+    "stars": 5078,
+    "creado": "2026-07-17",
+    "dias_nace": 111,
+    "push": "2026-11-05",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "dictado por voz"
+   },
+   {
+    "repo": "Open-Less/openless",
+    "stars": 4048,
+    "creado": "2026-04-27",
+    "dias_nace": 192,
+    "push": "2026-11-02",
+    "licencia": "AGPL-3.0",
+    "archivado": false,
+    "consulta": "dictado por voz"
+   },
+   {
+    "repo": "off-grid-ai/OGAM",
+    "stars": 3329,
+    "creado": "2026-01-29",
+    "dias_nace": 280,
+    "push": "2026-11-04",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "habla a texto sin nube"
+   },
+   {
+    "repo": "isair/jarvis",
+    "stars": 2185,
+    "creado": "2025-08-19",
+    "dias_nace": 443,
+    "push": "2026-10-20",
+    "licencia": "NOASSERTION",
+    "archivado": false,
+    "consulta": "dictado por voz"
+   },
+   {
+    "repo": "peteonrails/voxtype",
+    "stars": 1743,
+    "creado": "2025-11-28",
+    "dias_nace": 342,
+    "push": "2026-11-04",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "dictado por voz"
+   },
+   {
+    "repo": "Akshayykadam/PixelBoard",
+    "stars": 1420,
+    "creado": "2026-09-17",
+    "dias_nace": 49,
+    "push": "2026-10-28",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "dictado por voz"
+   },
+   {
+    "repo": "wasi-master/wmkeyboard",
+    "stars": 726,
+    "creado": "2026-08-10",
+    "dias_nace": 87,
+    "push": "2026-11-05",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "teclado para Android"
+   },
+   {
+    "repo": "Cyletix/CyIME",
+    "stars": 632,
+    "creado": "2026-09-22",
+    "dias_nace": 44,
+    "push": "2026-11-04",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "teclado para Android"
+   },
+   {
+    "repo": "opennookorg/betterwispr",
+    "stars": 504,
+    "creado": "2026-10-07",
+    "dias_nace": 29,
+    "push": "2026-10-24",
+    "licencia": "Apache-2.0",
+    "archivado": false,
+    "consulta": "habla a texto sin nube"
+   },
+   {
+    "repo": "gbasin/agentboard",
+    "stars": 426,
+    "creado": "2026-01-09",
+    "dias_nace": 300,
+    "push": "2026-11-04",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "teclado con IA"
+   },
+   {
+    "repo": "alpcanaydin/tusk",
+    "stars": 420,
+    "creado": "2026-09-28",
+    "dias_nace": 38,
+    "push": "2026-10-26",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "teclado con IA"
+   },
+   {
+    "repo": "mrpulor-gh/nuphus-mcp",
+    "stars": 332,
+    "creado": "2026-08-01",
+    "dias_nace": 96,
+    "push": "2026-11-02",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "teclado con IA"
+   },
+   {
+    "repo": "cornradio/AirMouse",
+    "stars": 306,
+    "creado": "2026-01-20",
+    "dias_nace": 289,
+    "push": "2026-10-11",
+    "licencia": null,
+    "archivado": false,
+    "consulta": "teclado con IA"
+   },
+   {
+    "repo": "daniel-madrid-07/weeping-of-the-empire",
+    "stars": 266,
+    "creado": "2026-10-30",
+    "dias_nace": 6,
+    "push": "2026-11-05",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "teclado con IA"
+   },
+   {
+    "repo": "DictionLabs/Diction",
+    "stars": 251,
+    "creado": "2026-02-27",
+    "dias_nace": 251,
+    "push": "2026-10-27",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "teclado con IA"
+   },
+   {
+    "repo": "theBGuy/GitDesktop",
+    "stars": 243,
+    "creado": "2026-06-19",
+    "dias_nace": 139,
+    "push": "2026-11-05",
+    "licencia": "Apache-2.0",
+    "archivado": false,
+    "consulta": "teclado con IA"
+   },
+   {
+    "repo": "AashishH15/Lexicon",
+    "stars": 222,
+    "creado": "2026-07-15",
+    "dias_nace": 113,
+    "push": "2026-10-29",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "reescritura en línea"
+   },
+   {
+    "repo": "aza-ali/speech-to-text-in-python",
+    "stars": 212,
+    "creado": "2025-02-19",
+    "dias_nace": 624,
+    "push": "2026-05-15",
+    "licencia": null,
+    "archivado": false,
+    "consulta": "habla a texto sin nube"
+   },
+   {
+    "repo": "primaprashant/awesome-voice-typing",
+    "stars": 212,
+    "creado": "2026-03-07",
+    "dias_nace": 243,
+    "push": "2026-11-05",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "habla a texto sin nube"
+   },
+   {
+    "repo": "timoncool/speech-studio",
+    "stars": 209,
+    "creado": "2026-10-15",
+    "dias_nace": 21,
+    "push": "2026-11-04",
+    "licencia": "NOASSERTION",
+    "archivado": false,
+    "consulta": "habla a texto sin nube"
+   },
+   {
+    "repo": "GravityPoet/ChordVox",
+    "stars": 180,
+    "creado": "2026-02-20",
+    "dias_nace": 258,
+    "push": "2026-10-31",
+    "licencia": "AGPL-3.0",
+    "archivado": false,
+    "consulta": "habla a texto sin nube"
+   },
+   {
+    "repo": "VocaHQ/vocamac",
+    "stars": 163,
+    "creado": "2026-03-01",
+    "dias_nace": 249,
+    "push": "2026-11-04",
+    "licencia": "AGPL-3.0",
+    "archivado": false,
+    "consulta": "habla a texto sin nube"
+   },
+   {
+    "repo": "xinkyle/Voconly",
+    "stars": 153,
+    "creado": "2026-07-03",
+    "dias_nace": 125,
+    "push": "2026-11-04",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "habla a texto sin nube"
+   },
+   {
+    "repo": "mikker/Poof",
+    "stars": 120,
+    "creado": "2026-02-20",
+    "dias_nace": 258,
+    "push": "2026-06-18",
+    "licencia": null,
+    "archivado": false,
+    "consulta": "atajos y plantillas"
+   },
+   {
+    "repo": "kotlalipopus/Expressive-Keyboard",
+    "stars": 101,
+    "creado": "2026-10-23",
+    "dias_nace": 13,
+    "push": "2026-11-02",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "teclado para Android"
+   },
+   {
+    "repo": "feelime/feelime",
+    "stars": 74,
+    "creado": "2026-09-07",
+    "dias_nace": 59,
+    "push": "2026-11-04",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "teclado para Android"
+   },
+   {
+    "repo": "EZ-eta/kinetica",
+    "stars": 61,
+    "creado": "2026-08-10",
+    "dias_nace": 87,
+    "push": "2026-11-03",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "teclado para Android"
+   },
+   {
+    "repo": "taigikeyboard/taigikeyboard",
+    "stars": 57,
+    "creado": "2026-09-07",
+    "dias_nace": 59,
+    "push": "2026-11-04",
+    "licencia": "Apache-2.0",
+    "archivado": false,
+    "consulta": "teclado para Android"
+   },
+   {
+    "repo": "Funput/Funput",
+    "stars": 52,
+    "creado": "2026-06-14",
+    "dias_nace": 144,
+    "push": "2026-11-05",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "teclado para Android"
+   },
+   {
+    "repo": "jovanovski/winboard",
+    "stars": 52,
+    "creado": "2026-09-20",
+    "dias_nace": 46,
+    "push": "2026-09-21",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "teclado para Android"
+   },
+   {
+    "repo": "diegomarzaa/expanda",
+    "stars": 49,
+    "creado": "2026-08-19",
+    "dias_nace": 78,
+    "push": "2026-09-09",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "atajos y plantillas"
+   }
+  ]
+ },
+ "regla": "siempre GitHub; nunca almacenamiento local con pérdida (H22)"
+}
