@@ -37,10 +37,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Índice de extensiones de **vídeo** para Aniyomi y sus derivados, entre ellos Anikku y Animiru. Donde los
+índices de manga reparten analizadores de páginas de lectura, este reparte analizadores de páginas de emisión.
+
+### Cómo se usa
+
+1. Se añade la dirección del índice en el apartado de repositorios del reproductor.
+2. Se instalan las extensiones de anime que aparezcan.
+3. Las fuentes se ordenan por idioma y por subtitulado o doblaje, según lo que declare cada una.
+
+### Lo que conviene saber antes
+
+72 estrellas y **sin licencia declarada**, con 29 incidencias abiertas y empujón de hoy. Lo peculiar está en su
+propio aviso: pide que se siga usando la dirección `yuzono/anime-repo` **aunque el repositorio real esté en otro
+sitio**. Eso es un traslado con la puerta vieja abierta, y conviene respetarlo: si copias la dirección nueva,
+las actualizaciones dejarán de llegar a quien ya lo tenía instalado.
+
+El medidor marcó además la bandera de espejo, y con razón: existe un segundo repositorio con el mismo contenido.
+
+### Cuándo no vale la pena
+
+Si no usas un reproductor de la familia Aniyomi, este índice no te sirve de nada. Y si ya tienes uno que
+funciona, cambiarlo solo para tener más fuentes suele costar más de lo que aporta.
 
 <!-- GUIA:FIN -->

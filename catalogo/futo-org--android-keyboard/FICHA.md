@@ -41,10 +41,35 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Teclado de Android con el objetivo declarado de **quedarse sin conexión**: corrección, predicción y dictado de
+voz en el propio teléfono, sin enviar lo que escribes ni lo que dices a ningún servidor. Es un derivado del
+teclado de código abierto de Android, LatinIME, con cambios profundos.
+
+El dictado es la parte que lo distingue: reconocimiento de voz local, que es justo lo que casi todos los
+teclados resuelven mandando el audio fuera.
+
+### Cómo se usa
+
+1. Se descarga desde la web del proyecto; en este repositorio está el seguimiento de incidencias y un espejo
+   del código.
+2. Se instala y se activa como método de entrada.
+3. Se descarga el paquete de idioma del dictado, que ocupa bastante y se ejecuta en local.
+4. Se desactivan los permisos de red si se quiere comprobar que, en efecto, no los usa.
+
+### Lo que conviene saber antes
+
+3.440 estrellas, creado en mayo de 2024, con 298 bifurcaciones y **809 incidencias abiertas**: es la ficha del
+racimo con más cola de trabajo. La licencia no la reconoce GitHub como estándar —aparece como `NOASSERTION`—,
+así que conviene leer los términos en su propio repositorio antes de reutilizar nada.
+
+El medidor marcó la bandera de espejo, y es correcta: el código se desarrolla en otro sitio y aquí solo se
+publica una copia. Eso significa que la actividad de este repositorio no mide la del proyecto.
+
+### Cuándo no vale la pena
+
+Si dictas poco, el peso del paquete de voz no se justifica. Y si necesitas teclados en muchos idiomas con
+corrección fina, la cobertura por idioma de un proyecto joven se queda corta.
 
 <!-- GUIA:FIN -->

@@ -40,10 +40,30 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Índice de extensiones de anime dedicado a Anikku, un reproductor derivado de la familia Aniyomi. Reúne las
+fuentes que ese programa necesita y que no están en los índices generales.
+
+### Cómo se usa
+
+1. En Anikku se abre *Ajustes → Explorar → Repositorios de extensiones*.
+2. Se añade la dirección del índice y se pega.
+3. Se vuelve a la pestaña de extensiones para buscar, instalar y actualizar las fuentes.
+4. El propio repositorio incluye una guía de montaje en forma de diagrama para ese camino.
+
+### Lo que conviene saber antes
+
+52 estrellas y **sin licencia declarada**, creado el 24 de diciembre de 2025, con 3 bifurcaciones, **14
+incidencias abiertas** y movimiento de ayer. HTML como lenguaje: es un índice, no un programa.
+
+Tiene una proporción poco habitual —14 incidencias para 52 estrellas— y eso suele querer decir que la gente lo
+usa y reporta. También quiere decir que hay cosas pendientes. Con un solo mantenedor visible, el ritmo de
+arreglo es el que es.
+
+### Cuándo no vale la pena
+
+Si tu reproductor no es Anikku ni de su familia, no sirve. Y si ya tienes un índice que cubre el mismo
+contenido, dos listas solapadas solo dan trabajo de limpieza.
 
 <!-- GUIA:FIN -->

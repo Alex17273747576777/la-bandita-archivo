@@ -42,10 +42,32 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Aplicación de lectura y visionado hecha en Flutter que va más allá de Android: lee manga, lee novelas y ve
+anime, y corre en móvil, escritorio y navegador. Las extensiones son **scripts en JavaScript**, no paquetes
+compilados, y eso cambia la forma de instalarlas y de arreglarlas.
+
+### Cómo se usa
+
+1. Se instala desde las entregas: la última es la `v0.9.95`, del 1 de noviembre de 2026, con 14 adjuntos para
+   distintas plataformas.
+2. En *Ajustes → Extensiones* se añade la dirección de un índice.
+3. Se instalan las fuentes; cada una se ejecuta como script dentro de la app.
+4. La biblioteca queda en local, con copia de seguridad manual.
+
+### Lo que conviene saber antes
+
+4.375 estrellas, Apache-2.0, Dart, creado en abril de 2023, con 191 bifurcaciones, 66 incidencias abiertas y
+movimiento de ayer. Sigue en versión 0.9: después de tres años, el proyecto no se ha declarado estable.
+
+La decisión de usar JavaScript tiene una consecuencia que se nota: las extensiones se pueden escribir y probar
+sin compilar un APK, y por eso hay varias personas manteniendo índices a la vez. La otra cara es que un script
+con un fallo deja la fuente muerta sin más aviso que el error.
+
+### Cuándo no vale la pena
+
+Si solo usas Android y te basta un lector de manga, Mihon tiene un ecosistema mucho más grande. Mangayomi se
+elige cuando importa leer en escritorio o en el navegador con la misma biblioteca.
 
 <!-- GUIA:FIN -->

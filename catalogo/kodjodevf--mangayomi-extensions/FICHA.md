@@ -37,10 +37,30 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+El índice de extensiones oficial de Mangayomi: los scripts de manga y novela que la aplicación ofrece por
+defecto. Es el que aparece en todas las guías del programa y el que se añade primero.
+
+### Cómo se usa
+
+1. Se copia la dirección de su índice y se pega en *Ajustes → Extensiones → Añadir repositorio*.
+2. Se instalan las fuentes y se ordenan por idioma.
+3. Las actualizaciones llegan cuando el índice se regenera; si no llegan, es que no se ha regenerado.
+
+### Lo que conviene saber antes
+
+360 estrellas, Apache-2.0, JavaScript, creado en julio de 2023, con 79 bifurcaciones y **103 incidencias
+abiertas**. El último empujón es del **1 de octubre de 2025**: más de un año parado, y sin ninguna entrega
+etiquetada.
+
+Ese es el dato que hay que leer con cuidado, porque el repositorio sigue siendo el «oficial». Un índice parado
+durante un año no es un índice roto —los paquetes que hay siguen sirviendo— pero sí es un índice que ya no
+recibe fuentes nuevas ni arreglos. Por eso en este racimo hay tres índices comunitarios de la misma aplicación.
+
+### Cuándo no vale la pena
+
+Para empezar, no: es la puerta de entrada normal. Pero si te encuentras fuentes muertas que nadie arregla, el
+problema no se resuelve aquí, se resuelve añadiendo otro índice.
 
 <!-- GUIA:FIN -->

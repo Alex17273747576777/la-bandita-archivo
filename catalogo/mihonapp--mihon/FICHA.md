@@ -39,10 +39,36 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+El lector de manga para Android sobre el que gira casi todo este racimo. Lee, organiza la biblioteca por
+categorías, descarga capítulos para leer sin conexión, avisa cuando sale uno nuevo y se conecta a siete
+rastreadores —MyAnimeList, AniList, Kitsu, MangaBaka, MangaUpdates, Shikimori, Bangumi— más Hikka.
+
+Lo que **no** trae es contenido. Ni una fuente. Es el estante vacío: los libros los pone quien lo usa, a través
+de extensiones.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v0.21.3`, del 25 de octubre de 2026, o se baja de la web del proyecto.
+2. Se abre *Más → Ajustes → Examinar → Repositorios de extensiones* y se pega la dirección de un índice.
+3. Se instalan las extensiones que interesen y aparecen como fuentes en *Examinar*.
+4. Si vienes de otro lector de la misma familia, se restaura la copia de seguridad del anterior al arrancar.
+
+### Lo que conviene saber antes
+
+25.042 estrellas, Apache-2.0, Kotlin, creado en enero de 2024 y con un empujón hoy mismo. 746 incidencias
+abiertas: es un proyecto grande con mucha gente dentro y mucho ruido fuera.
+
+Hay dos cosas que se aprenden con el uso. La primera, que **las fuentes se rompen**: cuando el sitio de turno
+cambia su web, la extensión deja de funcionar hasta que alguien la arregla, y eso no depende del lector. La
+segunda, que el lector no opina sobre los derechos de lo que lee; la responsabilidad de qué se descarga es de
+quien lo descarga.
+
+### Cuándo no vale la pena
+
+Si quieres abrir un cómic que ya tienes en el teléfono, un visor de archivos hace lo mismo sin pedirte una
+biblioteca. Y si lo que buscas es una app que «venga con manga dentro», esta no es: aquí dentro no hay nada
+hasta que tú lo pongas.
 
 <!-- GUIA:FIN -->

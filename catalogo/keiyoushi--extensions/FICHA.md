@@ -39,10 +39,33 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+El índice de extensiones de Mihon y sus variantes. No es un programa: es un **repositorio de paquetes** con un
+archivo índice que el lector consulta para saber qué fuentes existen, en qué versión y de dónde se descargan.
+
+Es el canon de este racimo: cuando se habla de «el repositorio de extensiones», en la práctica se habla de este.
+
+### Cómo se usa
+
+1. En el lector, se abre *Ajustes → Examinar → Repositorios de extensiones* y se añade la dirección del índice.
+2. El lector lee el índice y lista las fuentes disponibles.
+3. Se instalan las que se quieran, una a una; el lector se encarga de avisar de las actualizaciones.
+4. Si el lector no permite añadir repositorios, queda la vía manual: descargar el paquete desde la página de
+   entregas e instalarlo como cualquier APK.
+
+### Lo que conviene saber antes
+
+15.438 estrellas y 1.364 bifurcaciones, pero **sin licencia reconocible**: es el repositorio de los artefactos
+compilados, no el del código —ese es otro, y ese sí declara licencia—. Tiene 20 adjuntos en su última entrega y
+se mueve a diario.
+
+Y el detalle que explica el resto: sus 0 incidencias abiertas no significan que no haya problemas, significa que
+las incidencias se atienden en el repositorio del código. Buscar un fallo aquí es buscar en el sitio equivocado.
+
+### Cuándo no vale la pena
+
+Si ya usas otro índice que te funciona, añadir este duplica fuentes y confunde las actualizaciones. Y si tu
+lector no entiende este formato de índice, no sirve de nada descargarlo.
 
 <!-- GUIA:FIN -->

@@ -39,10 +39,28 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Otro índice comunitario de extensiones de Mangayomi, con selección propia: menos fuentes que los grandes y más
+centrado en las que su autor usa. Sirve para cubrir huecos concretos.
+
+### Cómo se usa
+
+1. Se añade la dirección del índice en *Ajustes → Extensiones*.
+2. Se revisa el listado antes de instalar: es corto y se lee de un vistazo.
+3. Se instalan solo las fuentes que falten.
+
+### Lo que conviene saber antes
+
+54 estrellas, Apache-2.0, JavaScript, creado el 1 de mayo de 2025, con 7 bifurcaciones, 6 incidencias abiertas
+y movimiento del 24 de octubre de 2026. Sin entregas: se sirve desde el índice.
+
+El medidor marcó la bandera de aviso de retirada por una mención en el texto. Aquí la explicación es sencilla:
+ese aviso se refiere a la forma de instalar la aplicación en algunos entornos, no al repositorio de extensiones.
+
+### Cuándo no vale la pena
+
+Si ya tienes dos índices añadidos, un tercero empieza a ser un problema de orden sin ganancia clara. Tiene
+sentido cuando buscas una fuente concreta y sabes que está aquí.
 
 <!-- GUIA:FIN -->

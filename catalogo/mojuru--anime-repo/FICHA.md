@@ -37,10 +37,34 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+El mismo índice de extensiones de vídeo del recurso anterior, publicado bajo otra cuenta. La descripción del
+repositorio lo dice sin rodeos: hay que seguir usando la dirección `yuzono/anime-repo` para instalarlo, esté el
+repositorio donde esté.
+
+Está en el catálogo porque **medirlo por separado era necesario**: dos repositorios con nombre distinto y el
+mismo contenido cuentan como dos entradas, y quien lea el catálogo tiene derecho a saber que son la misma cosa.
+
+### Cómo se usa
+
+1. No se instala desde aquí. Se usa la dirección del índice que el propio proyecto señala.
+2. Si aun así se pega esta, el lector leerá el mismo listado de fuentes.
+3. Las actualizaciones dependen de que el índice se regenere, y eso ocurre en un solo sitio.
+
+### Lo que conviene saber antes
+
+72 estrellas, sin licencia declarada, creado el 6 de febrero de 2026, con 23 bifurcaciones, 29 incidencias y
+movimiento de hoy — exactamente los mismos números que su gemelo, porque es el mismo repositorio con otra
+dirección.
+
+Ese es el dato útil de esta ficha: **cuando dos entradas del catálogo tienen las mismas estrellas, las mismas
+bifurcaciones y las mismas incidencias, no son dos proyectos**. Son uno. Contarlas como dos opciones distintas
+sería inflar el catálogo.
+
+### Cuándo no vale la pena
+
+Siempre que exista el original, esta entrada no aporta nada nuevo. Su utilidad es de archivo: si algún día la
+dirección vieja desaparece, aquí queda constancia de por dónde pasó.
 
 <!-- GUIA:FIN -->

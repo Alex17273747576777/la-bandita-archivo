@@ -39,10 +39,30 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Índice de extensiones de **anime** para Mangayomi y también para AnymeX. Cubre la parte de vídeo, que en los
+índices de esta aplicación suele ir aparte de la de manga y novela.
+
+### Cómo se usa
+
+1. Se añade la dirección del índice en la aplicación.
+2. Se instalan las fuentes de vídeo que aparezcan, filtrando por subtitulado o doblaje.
+3. En AnymeX se añade igual: el formato de los scripts es el mismo.
+
+### Lo que conviene saber antes
+
+28 estrellas, Apache-2.0, JavaScript, creado el 22 de abril de 2026, con 7 bifurcaciones y **0 incidencias
+abiertas**, aunque sin empujón desde el 1 de noviembre de 2026. Es el más pequeño de los índices de este
+programa que están vivos.
+
+Su texto incluye una tabla de nombres, versiones y fechas que el medidor no puede leer sin descargarla; lo que
+sí queda claro es cómo se instala. Con este tamaño, la pregunta correcta no es «¿cuántas fuentes tiene?» sino
+«¿cuánto va a durar?».
+
+### Cuándo no vale la pena
+
+Si ves anime en otro reproductor, no aplica. Y si necesitas un catálogo amplio de fuentes, este no lo es:
+es un complemento para huecos.
 
 <!-- GUIA:FIN -->

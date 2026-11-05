@@ -3,7 +3,7 @@
 Una ficha por recurso, con lo medido y, cuando la hay, la guía escrita a mano.
 Este índice lo genera `tools/catalogo_ficha.py`; no se edita.
 
-**278 recursos** en 10 racimos · **247 con guía escrita** · el resto, medidos y esperando su guía.
+**278 recursos** en 10 racimos · **278 con guía escrita** · el resto, medidos y esperando su guía.
 
 ## audio
 

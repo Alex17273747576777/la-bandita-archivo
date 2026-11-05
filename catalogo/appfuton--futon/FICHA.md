@@ -44,10 +44,34 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Lector de manga para Android con fuentes en línea incorporadas, heredero directo de Kotatsu: mismo enfoque,
+misma biblioteca local, mismos archivos CBZ de terceros que se pueden abrir sin fuente ninguna.
+
+Nació, como casi todo lo de este racimo, de una retirada: cuando Kotatsu anunció su cierre, alguien continuó el
+trabajo con otro nombre.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v9.9`, del 21 de octubre de 2026.
+2. Se añaden fuentes desde el catálogo de extensiones del propio lector.
+3. Se descarga para leer sin conexión; los CBZ que ya tengas se abren directamente.
+4. La biblioteca se puede exportar e importar para no perderla al cambiar de teléfono.
+
+### Lo que conviene saber antes
+
+477 estrellas, GPL-3.0, Kotlin, creado el 7 de diciembre de 2025, con 45 bifurcaciones, 30 incidencias abiertas
+y movimiento de ayer. La numeración `v9.9` llama la atención en un proyecto de menos de un año: viene heredada
+del proyecto del que sale, no de su propia cuenta.
+
+El medidor le puso dos banderas —abandono declarado y aviso de retirada— que proceden del texto que arrastra la
+herencia de Kotatsu. **No significa que Futon esté abandonado**: se mueve a diario. Significa que su
+documentación habla del cierre del otro, y eso conviene leerlo sabiendo de quién habla.
+
+### Cuándo no vale la pena
+
+Si vienes de Kotatsu y solo quieres seguir leyendo lo mismo, aquí está. Si empiezas de cero y no tienes motivo
+para preferir este lector a otro, el ecosistema pequeño de este se nota cuando una fuente falla.
 
 <!-- GUIA:FIN -->

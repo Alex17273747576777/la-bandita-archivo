@@ -44,10 +44,37 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Teclado de Android con modelos de lenguaje dentro. La idea es que la escritura no salga del teléfono salvo que
+tú quieras: puede hablar con un servidor local —Ollama, cualquier servidor compatible con OpenAI— o con una
+clave de la nube, y así reescribir, resumir o corregir lo que escribes sin cambiar de aplicación.
+
+Es un derivado de HeliBoard, y eso se nota: la base es un teclado normal, sin predicción en la nube ni
+telemetría.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v1.3.1`, del 21 de abril de 2026.
+2. Al abrirlo, un asistente pregunta qué motor usar: local, servidor propio o clave de la nube.
+3. Para un modelo en casa, se indica la dirección del servidor; admite una principal y otra de respaldo para
+   redes locales o Tailscale.
+4. Se activa el teclado en los ajustes del sistema y se elige como método de entrada.
+
+### Lo que conviene saber antes
+
+59 estrellas, GPL-3.0, Kotlin, creado el 11 de abril de 2026, con 13 bifurcaciones, 4 incidencias abiertas y
+movimiento de hoy. La entrega, en cambio, es de abril: **el código va por delante de la APK publicada**, así que
+quien quiera lo último tendrá que compilar.
+
+Dos cosas que conviene pensar antes de instalarlo. La primera, que la parte de IA funciona contra un servidor
+que hay que tener; sin Ollama o sin clave, el teclado queda en teclado. La segunda, y más importante: **un
+teclado lo ve todo lo que escribes**, incluidas contraseñas. Aquí el modelo va donde tú decidas, y esa decisión
+es la que vale.
+
+### Cuándo no vale la pena
+
+Si no tienes un servidor donde correr el modelo, la función principal no existe. Y si solo querías un teclado
+que corrija bien, hay opciones más maduras y con más años de uso.
 
 <!-- GUIA:FIN -->

@@ -43,10 +43,35 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Trae a Android el marco de métodos de entrada de Fcitx5, el que se usa en Linux: motores de chino, japonés,
+coreano y vietnamita, además de los teclados latinos, con la misma arquitectura de complementos que en el
+escritorio.
+
+Para quien escribe en esas lenguas, la diferencia es grande: aquí hay motores de conversión de verdad, no un
+teclado que traduce palabras sueltas.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `0.1.3`, del 26 de julio de 2026; hay 47 adjuntos con variantes por
+   arquitectura.
+2. Se activa el teclado en los ajustes del sistema.
+3. Se añaden motores desde el propio teclado: cada uno es un complemento que se instala aparte.
+4. Se configura la disposición y el método de conversión por idioma.
+
+### Lo que conviene saber antes
+
+5.843 estrellas, LGPL-2.1, Kotlin, creado en junio de 2021, con 501 bifurcaciones, 115 incidencias abiertas y
+movimiento del 13 de octubre de 2026. Sigue en 0.1: después de cinco años, el número no ha llegado a 1.
+
+Hay un detalle sobre las firmas que el proyecto explica y que conviene leer entero: las APK de GitHub, F-Droid
+y su servidor de integración comparten firma, así que se puede actualizar de una a otra sin desinstalar; **las
+de Google Play, no**. Mezclarlas obliga a borrar datos.
+
+### Cuándo no vale la pena
+
+Si escribes solo en español, el aparato de complementos es más de lo que necesitas. Y si vienes de Fcitx en el
+escritorio esperando la misma configuración exacta, la versión móvil tiene menos piezas.
 
 <!-- GUIA:FIN -->

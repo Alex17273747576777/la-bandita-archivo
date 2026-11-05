@@ -41,10 +41,33 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Gestor de biblioteca y reproductor de vídeo para Android, pensado para series: organiza lo que ves, lleva la
+cuenta de los capítulos y reproduce con un reproductor montado sobre mpv, con todos sus ajustes de imagen,
+subtítulos y decodificación. Se conecta a MyAnimeList, AniList, Kitsu, Shikimori, Simkl, Bangumi y Hikka.
+
+Es el equivalente en vídeo de lo que Mihon es en lectura: el estante, no el contenido.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v0.20.1.1`, del 3 de noviembre de 2026.
+2. Se añade un índice de extensiones de vídeo en los ajustes del reproductor.
+3. Se instalan las fuentes y se busca la serie.
+4. El progreso se sincroniza con el rastreador que se haya conectado.
+
+### Lo que conviene saber antes
+
+907 estrellas, GPL-3.0, Kotlin, creado en marzo de 2022, con 38 bifurcaciones, 39 incidencias abiertas y
+movimiento de ayer. Seis adjuntos en su última entrega y versiones frecuentes.
+
+El medidor marcó la bandera de espejo: el proyecto se publica también desde otra dirección. Y hay un detalle
+práctico que vale la pena: **mpv no perdona**. En teléfonos modestos, un archivo de vídeo grande va a tirones
+por mucho que la app esté bien hecha; eso se arregla con el archivo, no con la aplicación.
+
+### Cuándo no vale la pena
+
+Si no ves series en el teléfono, no hay nada que hacer. Y si lo que quieres es solo descargar un capítulo
+suelto, el reproductor del sistema hace el trabajo sin pedirte una biblioteca.
 
 <!-- GUIA:FIN -->

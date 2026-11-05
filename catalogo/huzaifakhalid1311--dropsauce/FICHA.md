@@ -43,10 +43,31 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Lector de cómics y novelas para Android, ligero, con su propio catálogo de extensiones. Es una de las
+continuaciones que aparecieron tras el cierre de Kotatsu, y se distingue por dos cosas que el original no tenía:
+sincronización con Google Drive y actualizaciones dentro de la propia aplicación.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v1.1.2`, del 4 de noviembre de 2026.
+2. El asistente de bienvenida ofrece dos caminos: empezar limpio o restaurar una copia anterior.
+3. Se añade el repositorio de extensiones que use el lector y se instalan las fuentes.
+4. La copia se puede dejar en local o sincronizar con Drive para no perderla.
+
+### Lo que conviene saber antes
+
+229 estrellas, GPL-3.0, Kotlin, creado el 25 de marzo de 2026, con 23 bifurcaciones, **una sola incidencia
+abierta** y entrega de ayer mismo. Ese «una incidencia» en un lector con fuentes dice bastante: o el proyecto
+está muy cuidado, o todavía tiene pocos usuarios. Probablemente las dos cosas.
+
+El detalle a mirar con lupa es la sincronización con Google Drive: cómoda, y a la vez la parte que más datos
+mueve fuera del teléfono. Se puede usar solo la copia local.
+
+### Cuándo no vale la pena
+
+Si vienes de Kotatsu con una biblioteca grande, importa primero y decide después: no todas las bifurcaciones
+leen la misma copia. Y si no quieres ninguna cuenta de por medio, la sincronización sobra.
 
 <!-- GUIA:FIN -->

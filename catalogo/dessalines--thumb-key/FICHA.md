@@ -41,10 +41,35 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Teclado para Android diseñado para escribir **con los dos pulgares y sin mirar**, con las letras colocadas por
+frecuencia alrededor del centro y gestos de deslizamiento para todo lo demás: símbolos, mayúsculas, acentos,
+teclas muertas y combinaciones.
+
+Viene de la tradición de MessagEase, el teclado de los primeros teléfonos táctiles, y conserva su lógica:
+gestos cortos, teclas grandes, nada de teclas diminutas en las esquinas.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `5.1.20`, del 2 de noviembre de 2026.
+2. Se activa en *Ajustes → Sistema → Idiomas → Teclados* y se elige como método de entrada.
+3. Se elige distribución —hay varias— y se ajusta el tamaño de las teclas.
+4. Hay que **aprenderla**: el propio proyecto incluye una guía de usuario y trucos para los primeros días.
+
+### Lo que conviene saber antes
+
+1.572 estrellas, AGPL-3.0, Kotlin, creado en marzo de 2023, con 341 bifurcaciones, 51 incidencias abiertas y
+movimiento de ayer. Publica en F-Droid y permite verificar el certificado de firma antes de instalar, algo que
+muy pocos hacen y que aquí está explicado.
+
+El coste real es el aprendizaje: entre una y dos semanas escribiendo despacio antes de recuperar la velocidad
+anterior. Quien no esté dispuesto a eso, lo abandonará al segundo día. El medidor marcó abandono declarado por
+una mención en su texto; el repositorio tiene movimiento de hoy.
+
+### Cuándo no vale la pena
+
+Si escribes sobre todo en un idioma con muchas tildes y no quieres memorizar gestos, o si usas el teléfono
+poco, el cambio no compensa. Este teclado premia a quien escribe mucho con los pulgares.
 
 <!-- GUIA:FIN -->

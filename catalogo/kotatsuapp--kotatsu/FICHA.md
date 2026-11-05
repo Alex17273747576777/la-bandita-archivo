@@ -41,10 +41,36 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Fue el lector de manga con fuentes incorporadas más usado de Android: biblioteca local, favoritos, historial,
+descarga de capítulos y un catálogo propio de extensiones.
+
+Está en el catálogo **porque hay que decirlo**: su propio texto anuncia el cierre. Amenazas legales de Kakao
+Entertainment y la nueva política de instalación de Google son los dos motivos que da el proyecto para dejarlo.
+
+### Cómo se usa
+
+No se usa. Si ya lo tienes instalado, lo que queda por hacer es exportar la biblioteca y el historial desde
+*Ajustes → Copia de seguridad* antes de que el teléfono lo actualice o lo deje huérfano.
+
+1. Se abre el lector.
+2. Se exporta la copia en un archivo y se guarda fuera del teléfono.
+3. Se elige un lector sucesor y se importa esa copia.
+
+### Lo que conviene saber antes
+
+8.952 estrellas, GPL-3.0, Kotlin, creado en enero de 2020: seis años de trabajo. Su último empujón es del 4 de
+noviembre de 2025, hace un año, y **no tiene ninguna entrega etiquetada**. 579 incidencias abiertas que ya no
+se van a cerrar.
+
+Ese es el dato que ordena todo lo demás: un proyecto con 8.952 estrellas y un año de silencio no está «en
+pausa», está terminado. Las bifurcaciones que salieron de aquí —Futon, Usagi, Drop Sauce— son la continuación
+real.
+
+### Cuándo no vale la pena
+
+Siempre, para instalar de nuevo. Su valor hoy es el de una copia de seguridad: si tienes datos dentro, sácalos.
+Si no tienes nada que rescatar, no hay motivo para empezar por aquí.
 
 <!-- GUIA:FIN -->

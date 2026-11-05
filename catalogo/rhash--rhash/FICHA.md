@@ -43,10 +43,35 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Utilidad de consola que calcula y verifica huellas de archivos: CRC32, MD5, SHA-1, SHA-256, SHA-512, SHA3,
+BLAKE, ED2K, TTH de DC++ y **BTIH, la huella que identifica un torrent**. Con ella se comprueba que lo que se
+descargó es exactamente lo que se quería descargar.
+
+Es el corrector de errores de la cadena entera: sirve igual para un archivo bajado de una web, para un disco
+que empieza a fallar o para una copia de seguridad que quieres verificar diez años después.
+
+### Cómo se usa
+
+1. Se instala desde los paquetes de la distribución o se compila con `./configure && make install`.
+2. Para calcular todas las huellas de un archivo: `rhash -a SHA256 archivo.iso`.
+3. Para verificar contra una lista: `rhash -c lista.sha256`.
+4. Para recorrer una carpeta entera: `rhash --recursive --sha256 carpeta/ > lista.sha256`.
+
+### Lo que conviene saber antes
+
+735 estrellas, 0BSD —una licencia permisiva sin condiciones, la más libre que se puede escribir—, C, y creado
+en 2011: quince años de historia. 133 bifurcaciones y 55 incidencias abiertas. Su última entrega etiquetada es
+la `v1.4.6`, del 13 de mayo de 2025, aunque los empujones son recientes.
+
+Se distribuye como programa de consola para Windows, macOS y Linux, y hay interfaces gráficas hechas por otros.
+El detalle que conviene entender: una huella sirve para comprobar **integridad**, no para saber de quién es un
+archivo; si alguien cambia el archivo y la lista, las dos coinciden.
+
+### Cuándo no vale la pena
+
+Si nunca compruebas nada de lo que descargas, ninguna herramienta de este tipo te va a cambiar la vida. Y para
+un solo archivo, casi todos los sistemas ya traen un comando que calcula SHA-256.
 
 <!-- GUIA:FIN -->

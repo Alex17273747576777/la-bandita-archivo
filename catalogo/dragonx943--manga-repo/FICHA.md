@@ -41,10 +41,30 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Repositorio de plugins para Usagi, compatible también con Tsuki. Es el tipo de pieza que hace falta para que un
+lector joven tenga algo que leer: alguien que mantenga el catálogo de fuentes por su cuenta.
+
+### Cómo se usa
+
+1. Se añade la dirección del índice en el apartado de plugins del lector.
+2. Se instalan las fuentes del listado.
+3. Cuando una fuente falla, se desinstala y se espera a que el índice se actualice.
+
+### Lo que conviene saber antes
+
+24 estrellas, GPL-3.0, Kotlin, creado el 15 de mayo de 2026, con 15 bifurcaciones, **0 incidencias abiertas** y
+entrega del 23 de octubre de 2026. Declara plataformas de escritorio además de Android, aunque lo que reparte
+son extensiones para el lector.
+
+La ficha arrastra la bandera «pide root»: el medidor la puso porque el texto del repositorio menciona root en
+algún punto. **No es un requisito para instalar las extensiones**, y conviene decirlo para que nadie se asuste
+sin motivo. Las etiquetas del repositorio hablan de contenido para adultos, y eso es decisión de cada cual.
+
+### Cuándo no vale la pena
+
+Si no usas Usagi ni Tsuki, no hay nada que hacer aquí. Y si lo que buscas es un catálogo amplio, este tiene
+pocas fuentes y un solo mantenedor: se agota rápido.
 
 <!-- GUIA:FIN -->

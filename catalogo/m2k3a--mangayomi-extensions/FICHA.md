@@ -37,10 +37,29 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Índice de extensiones de Mangayomi mantenido por la comunidad, con fuentes que no están en el oficial y con
+arreglos que el oficial ya no recibe. Es la respuesta práctica al año de silencio del índice de referencia.
+
+### Cómo se usa
+
+1. Se añade la dirección de su índice junto al oficial: no lo sustituye, se suma.
+2. Se instalan las fuentes nuevas; las que ya existían pueden aparecer duplicadas.
+3. Cuando dos entradas hacen lo mismo, se queda la que se actualice y se quita la otra.
+
+### Lo que conviene saber antes
+
+116 estrellas, Apache-2.0, JavaScript, creado el 24 de julio de 2025, con 59 bifurcaciones, 8 incidencias
+abiertas y movimiento de ayer mismo. Sin entregas etiquetadas: aquí se trabaja sobre el índice, no sobre
+versiones.
+
+Lo que se gana es mantenimiento; lo que se paga es orden. Tener dos índices añadidos significa dos listas de
+fuentes que se solapan, y el lector no avisa de duplicados: hay que revisarlo a mano de vez en cuando.
+
+### Cuándo no vale la pena
+
+Si el índice oficial te cubre y no has visto fuentes caídas, añadir este solo complica el estante. Su momento
+llega cuando aparece el primer «esto antes funcionaba».
 
 <!-- GUIA:FIN -->

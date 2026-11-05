@@ -40,10 +40,34 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Los dos programas clásicos para preguntarle a un disco cómo está: `smartctl` lee los datos internos que el
+propio disco lleva contando desde el primer día —horas encendido, sectores reasignados, errores, temperatura— y
+`smartd` vigila en segundo plano y avisa cuando algo se tuerce.
+
+Para quien guarda archivos grandes de verdad, esto es lo que separa una pérdida de datos de un susto.
+
+### Cómo se usa
+
+1. Se instala desde los paquetes del sistema o desde el código fuente.
+2. `smartctl -a /dev/sdX` muestra todo lo que el disco declara sobre sí mismo.
+3. La prueba corta —`smartctl -t short /dev/sdX`— dura dos minutos y conviene hacerla de vez en cuando.
+4. `smartd` se deja como servicio y manda correo cuando un valor cruza el umbral.
+
+### Lo que conviene saber antes
+
+1.460 estrellas, GPL-2.0, C++, con 304 bifurcaciones y 99 incidencias abiertas. Este repositorio es el sitio
+oficial del proyecto desde 2017; su última entrega es `RELEASE_7_5`, del 12 de mayo de 2025, y el trabajo sigue
+a diario.
+
+Funciona con discos ATA/SATA, SCSI/SAS, NVMe y cintas, y en casi cualquier sistema operativo que exista. Dos
+límites que conviene saber: **detrás de un adaptador USB barato no siempre se puede leer**, y un «disco sano»
+hoy puede morir mañana; los valores sirven para ver tendencias, no para predecir.
+
+### Cuándo no vale la pena
+
+En un portátil con un único disco del sistema, leer sus datos una vez al año basta. Y si usas un servidor en la
+nube, el disco no está a tu alcance: eso lo vigila quien te lo alquila.
 
 <!-- GUIA:FIN -->

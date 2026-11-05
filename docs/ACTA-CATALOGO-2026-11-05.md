@@ -212,3 +212,46 @@ lo pone quien lo use. `grep` de vetos sobre las 56 fichas: cero coincidencias.
 **Lo que no está verificado.** Ninguno de los 56 se ha instalado. En los que dependen de fuentes ajenas —casi
 todos los de televisión— eso significa que la guía describe el programa, no el contenido: ni una sola lista se
 ha abierto, ni se abrirá.
+
+## Séptima tanda · los tres racimos que faltaban · catálogo completo (278/278)
+
+`tiendas-de-extensiones` (24) · `teclados-con-ia` (4) · `torrentes` (3). Con estas **31 guías** el catálogo queda
+**entero**: **278 fichas, 278 con guía escrita, 0 esperando**. `catalogo_lint`: **0 fallos**.
+
+**`tiendas-de-extensiones` (24).** El racimo mejor documentado de todos, y también el más frágil, porque aquí
+casi todo es un **índice de extensiones**: un archivo que dice qué fuentes existen y dónde se descargan. Se
+guían los tres niveles por separado —el lector (Mihon, Animiru, Mangayomi, Cloudstream, Aniyomi, Usagi, Futon,
+DropSauce), el índice que le da de comer, y el código que hay detrás (Keiyoushi es índice **y** código, en dos
+repositorios distintos, y esa distinción es la que se explica en las dos primeras guías)—.
+
+Lo que se dijo sin adornos: **Kotatsu está cerrado** —su texto habla de amenazas de Kakao Entertainment y de la
+política de instalación de Google— y su guía no enseña a instalarlo, enseña a **sacar la biblioteca**. El índice
+oficial de Mangayomi **no se mueve desde el 1 de octubre de 2025** y por eso hay tres índices comunitarios en el
+racimo. `self-similarity/MegaRepo` (el índice más conocido de Cloudstream) lleva **más de un año parado**. Y
+`mojuru/anime-repo` y `yuzono/anime-repo` tienen **las mismas 72 estrellas, las mismas 23 bifurcaciones y las
+mismas 29 incidencias**: son el mismo repositorio con dos direcciones, y la ficha lo dice en lugar de contarlos
+como dos opciones.
+
+**Canon respetado.** Mihon = Keiyoushi · Animiru = Yuzono · Kotatsu muerto → Usagi / DropSauce · Mangayomi =
+repositorio propio · novelas = LNReader · Cloudstream = MegaRepo. Ninguna guía añade un índice nuevo por su
+cuenta.
+
+**`teclados-con-ia` (4).** Deskdrop (teclado con modelo local o en la nube), thumb-key (gestos y pulgares),
+fcitx5-android (el marco de Linux en Android, con motores de chino, japonés, coreano y vietnamita) y FUTO
+Keyboard (dictado local, 809 incidencias abiertas y licencia que GitHub no reconoce). El aviso común está escrito
+en las cuatro: **un teclado ve todo lo que escribes, incluidas contraseñas**, y eso decide dónde va el modelo.
+
+**`torrentes` (3).** Se advierte en la primera línea de cada guía: este racimo **no reparte contenido ni enlaza
+clientes**. Son RHash (huellas, incluida BTIH), smartmontools (salud del disco) y uutils/coreutils (`sha256sum`
+y compañía). Es el suelo de comprobación de todo lo demás: lo que se descarga, se verifica.
+
+**Vetos.** `grep` de vetos y de enlaces dentro de las 31 guías nuevas: **cero coincidencias**. Ni una sola guía
+lleva una dirección dentro; para los índices de extensiones se describe *dónde* se pega la dirección, no se da.
+
+**Recuento final del catálogo por racimo.** `reemplazo-del-stack` 52 · `audio` 52 · `clientes-de-musica` 37 ·
+`teclados-y-dictado` 34 · `radio-y-directo` 32 · `descargas` 31 · `tiendas-de-extensiones` 25 ·
+`shizuku-y-herederos` 23 · `teclados-con-ia` 11 · `torrentes` 3. **278**.
+
+**Lo que sigue sin estar verificado.** Ninguno de los 278 se ha instalado. En este último bloque eso pesa
+especialmente en los lectores con extensiones: se describe el mecanismo, no se ha probado ninguna fuente, y
+**ninguna lista de contenido se ha abierto ni se abrirá**.

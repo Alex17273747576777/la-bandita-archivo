@@ -37,10 +37,30 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Índice de extensiones para Cloudstream. Es el que la mayoría de las guías del programa mencionan primero,
+porque reúne una colección amplia de fuentes en un solo listado.
+
+### Cómo se usa
+
+1. Se abre Cloudstream y se entra en *Ajustes → Extensiones → Añadir repositorio*.
+2. Se pega la dirección del índice.
+3. Se instalan las fuentes que aparezcan; el listado se puede filtrar por idioma.
+4. Si una fuente deja de funcionar, se desinstala y se espera una actualización del índice.
+
+### Lo que conviene saber antes
+
+142 estrellas y **sin licencia declarada**, con 23 bifurcaciones, una sola incidencia abierta y **último empujón
+el 3 de octubre de 2025**: más de un año sin movimiento. Kotlin como lenguaje, y ninguna entrega etiquetada.
+
+Ese año de silencio es el dato que manda. Un índice de extensiones no se rompe de golpe: se va apagando fuente
+a fuente, sin avisos, y el usuario lo descubre cuando abre un capítulo y no carga. Si se usa hoy, hay que
+contar con eso.
+
+### Cuándo no vale la pena
+
+Para alguien que empieza, tiene sentido como primera parada. Pero si vas a montar esto para usarlo de verdad,
+conviene tener a mano otros índices de Cloudstream, porque este no se está actualizando.
 
 <!-- GUIA:FIN -->

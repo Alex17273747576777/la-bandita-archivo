@@ -38,10 +38,30 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Un índice de extensiones pequeño, compatible con Mihon y sus variantes, para fuentes que no están en el índice
+grande. Es el tipo de repositorio que existe porque alguien quería una fuente concreta y la publicó.
+
+### Cómo se usa
+
+1. Se añade la dirección de su índice en *Ajustes → Examinar → Repositorios de extensiones*.
+2. Se instalan las fuentes que aparezcan.
+3. Si el lector no admite repositorios, desde la página de listado se pueden bajar los paquetes a mano.
+
+### Lo que conviene saber antes
+
+13 estrellas y **sin licencia declarada**. Creado el 14 de agosto de 2026 y sin un empujón desde el 18 de ese
+mismo mes: tres meses y medio de silencio. La descripción que trae es, literalmente, la del índice grande,
+señal de que nació como copia y no se ha terminado de presentar.
+
+Con ese tamaño y esa inactividad, lo honesto es tratarlo como lo que es: un índice de autor único, con pocas
+fuentes y sin nadie detrás comprometido a mantenerlo. Si mañana una fuente deja de funcionar, puede que nunca
+se arregle.
+
+### Cuándo no vale la pena
+
+Casi siempre. Si el índice grande ya cubre lo que lees, este añade ruido. Solo tiene sentido si buscas una
+fuente muy específica que no está en ningún otro sitio y aparece aquí.
 
 <!-- GUIA:FIN -->

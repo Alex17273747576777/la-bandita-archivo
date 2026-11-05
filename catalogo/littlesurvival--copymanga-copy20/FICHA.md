@@ -39,10 +39,31 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Repositorio de fuentes en chino para Mihon, Tachiyomi y Suwayomi: cubre varios sitios de lectura en chino —
+entre ellos los que da el nombre— y está escrito directamente en Smali, sin código fuente en Kotlin detrás.
+
+### Cómo se usa
+
+1. Se añade la dirección del índice en el lector, o se descarga el paquete de la entrega `hipmh-v1.4.1`, del
+   11 de octubre de 2026.
+2. Se instala como cualquier extensión.
+3. En Suwayomi, que corre en un servidor, se añade igual y sirve a todos los dispositivos conectados.
+
+### Lo que conviene saber antes
+
+2.994 estrellas y **sin licencia declarada**. 19 bifurcaciones, 14 incidencias abiertas y movimiento del 11 de
+octubre de 2026. El desequilibrio entre estrellas y bifurcaciones es la pista: mucha gente lo usa, casi nadie
+lo toca.
+
+Que esté escrito en Smali significa que **no hay código legible que revisar ni arreglar**: si una fuente se
+rompe, se espera a que el autor publique otra versión. Y sin licencia declarada, nadie puede continuarlo
+legalmente si el autor desaparece.
+
+### Cuándo no vale la pena
+
+Si no lees en chino, no hay nada aquí para ti. Y si te importa poder arreglar lo que uses, un paquete sin
+código fuente es la peor base posible.
 
 <!-- GUIA:FIN -->

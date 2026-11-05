@@ -42,10 +42,31 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 <!-- GUIA:INICIO -->
 
-No hay guía escrita todavía. Lo de arriba está medido; lo de abajo, no.
+### Para qué sirve
 
-Esta ficha se genera sola y la guía se escribe a mano, recurso por recurso: para qué sirve de
-verdad, qué pasos hay que dar en un teléfono y en qué caso no vale la pena. Mientras eso no esté,
-la ficha sirve para saber qué es y en qué estado está, no para instalarlo.
+Índice de extensiones de vídeo para Aniyomi y los reproductores derivados, entre ellos Animiru. Reparte los
+analizadores que convierten una página de emisión en algo que el reproductor puede reproducir.
+
+### Cómo se usa
+
+1. Se añade la dirección del índice en el reproductor.
+2. Se instalan las extensiones que aparezcan, filtrando por idioma.
+3. Si se prefiere, desde la rama `repo` del repositorio se pueden bajar los paquetes uno a uno e instalarlos a
+   mano.
+
+### Lo que conviene saber antes
+
+130 estrellas, Apache-2.0, Kotlin, creado en junio de 2024, con 18 bifurcaciones y solo 2 incidencias abiertas.
+Su última entrega es del 20 de septiembre de 2026, con tres adjuntos, y el último empujón es de ese mismo día:
+**seis semanas sin movimiento**.
+
+Eso no lo invalida, pero sí lo sitúa: un índice de extensiones sin empujones recientes suele significar fuentes
+que se van rompiendo poco a poco sin que nadie las arregle. Tiene menos fuentes que los índices grandes, y a
+cambio es más fácil saber qué hay dentro.
+
+### Cuándo no vale la pena
+
+Si tu reproductor tiene un índice propio que se actualiza, añadir este mezcla fuentes de dos orígenes y complica
+las actualizaciones. Y si usas Mihon, esto no es para ti: aquí se reparte vídeo, no lectura.
 
 <!-- GUIA:FIN -->
