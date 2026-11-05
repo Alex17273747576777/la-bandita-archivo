@@ -20,6 +20,7 @@ puede perder. Cada una nace de un error concreto de `docs/ERRORES.md`, y si el e
 | H16 | **La banda se mide en caracteres** | E36 | `python3 tools/manual_gate.py --pieza` | M11 |
 | H18 | **El título se calcula, no se recuerda** | E38 | `python3 tools/manual_gate.py --pieza` | el nombre del archivo |
 | H19 | **El día se cuenta en la hora de la casa** | E39 | `tools/remedir.py --escribir` | la columna del empujón |
+| H20 | **Ningún enlace vetado en una pieza del canal que lo veta** | E40 | `tools/envio.py --verificar` · `grep` de la familia | el cuerpo y el bloque de enlaces |
 | H17 | **La madurez se declara ficha a ficha** | E37 | `python3 tools/novedad_gate.py` | M25 |
 
 ## H01 · Medir antes de tocar
@@ -259,7 +260,24 @@ empujón con fecha posterior al corte se cuenta como hoy, no como mañana. La he
 **Cómo se pierde.** Usando `date.today()` a secas, que en el servidor devuelve UTC y en la computadora
 del dueño no. La fecha de la casa es la única que vale, y por eso hay un programa que la lee en vivo.
 
+## H20 · Ningún enlace vetado en una pieza del canal que lo veta
+
+**Nace de E40.** Facebook retiró la pieza 12 por un solo enlace: un buscador de índices de torrentes.
+El programa no era ilegal ni el dato era falso; el criterio de la plataforma no distingue matices. Una
+pieza que se cae a los veinte minutos no informa a nadie, por muy bien medida que esté.
+
+**La regla.** En una pieza de Facebook no se enlaza **ningún indexador ni cliente de torrentes**
+(buscadores de índices, clientes, sembradores, herramientas de cruce). De esa familia se dan el
+**nombre**, lo que hace y **cómo se comprueba** —la orden de `curl` con la que cualquiera ve su estado
+en GitHub—, y las direcciones viajan solo en la versión de WhatsApp. Se revisa con
+`grep -i` sobre el envío generado antes de publicar, y la compuerta M07 obliga a que toda URL del
+cuerpo esté en la lista de enlaces para poder revisarlas de un vistazo.
+
+**Cómo se pierde.** Escribiendo la pieza desde el catálogo del tema en vez de desde el canal: lo que
+está bien documentado no siempre está permitido. Y confiando en que «un enlace de GitHub es inocente».
+
 ## El ritual completo, con las habilidades dentro
+
 
 ```
 make libro                                     # tablero, índice y tareas

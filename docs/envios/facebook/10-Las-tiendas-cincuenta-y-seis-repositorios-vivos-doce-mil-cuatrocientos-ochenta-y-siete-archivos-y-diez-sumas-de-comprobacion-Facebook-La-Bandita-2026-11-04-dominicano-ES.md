@@ -499,7 +499,7 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 58 repositorios que cita esta pi
 • yuzono/aniyomi-extensions — sin dato hoy (la API no respondió). No afirmo nada.
 • yuzono/anime-repo — sin dato hoy (la API no respondió). No afirmo nada.
 • mojuru/anime-repo — ★72 · empujó en las últimas horas · sin licencia detectada por la API
-• keiyoushi/extensions — ★15.432 · empujó en las últimas horas · sin licencia detectada por la API · última release ee661f5 (4-nov-2026)
+• keiyoushi/extensions — ★15.433 · empujó en las últimas horas · sin licencia detectada por la API · última release ee661f5 (4-nov-2026)
 • keiyoushi/extensions-source — ★4.862 · empujó en las últimas horas · Apache-2.0
 • yuzono/tachiyomi-extensions — ★957 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0
 • cuong-tran/manga-repo — ★467 · empujó el 2-nov-2026 (hace 2 días) · sin licencia detectada por la API · última release f7d844c-2 (2-nov-2026)
@@ -545,7 +545,7 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 58 repositorios que cita esta pi
 • CranberrySoup/AniyomiCompat — ★17 · *dormido*: sin empujar desde el 14-nov-2025 (355 días) · sin licencia detectada por la API
 • phisher98/cloudstream-extensions-phisher — ★533 · empujó el 2-nov-2026 (hace 2 días) · sin licencia detectada por la API
 • CakesTwix/cloudstream-extensions-uk — ★178 · empujó en las últimas horas · GPL-3.0
-• NivinCNC/CNCVerse-Bridge — ★188 · empujó el 1-nov-2026 (hace 3 días) · NOASSERTION · última release v1.2.0 (29-oct-2026)
+• NivinCNC/CNCVerse-Bridge — ★189 · empujó el 1-nov-2026 (hace 3 días) · NOASSERTION · última release v1.2.0 (29-oct-2026)
 • Asm0d3usX/CloudX-V2 — ★62 · empujó en las últimas horas · MIT
 • Abodabodd/re-3arabi — ★92 · empujó en las últimas horas · sin licencia detectada por la API
 • hexated/cloudstream-extensions-hexated — ★397 · *dormido*: sin empujar desde el 17-ago-2024 (809 días) · GPL-3.0

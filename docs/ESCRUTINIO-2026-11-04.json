@@ -1,6 +1,6 @@
 {
  "fecha": "2026-11-04",
- "medido_en": "2026-11-04T21:03:58-04:00",
+ "medido_en": "2026-11-04T21:37:13-04:00",
  "pesos": {
   "licencia": 15,
   "ci": 10,
@@ -18,7 +18,7 @@
   "atencion_anomala": -15,
   "una_sola_persona": -5
  },
- "medidos": 325,
+ "medidos": 333,
  "fichas": [
   {
    "repo": "Dushnilin/tachyon",
@@ -123,6 +123,41 @@
     "61 cambios en 30 días +10",
     "83 personas empujando +10",
     "incidencias cerradas 2138/2268 +9",
+    "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "stupside/castor",
+   "puntos": 77,
+   "licencia": "MIT",
+   "flujos_ci": [
+    "_delivery.yml",
+    "canary-release.yml",
+    "continuous-delivery.yml",
+    "continuous-integration.yml"
+   ],
+   "adjuntos": 64,
+   "con_huella": 10,
+   "ultima_entrega": "2026-10-27",
+   "commits_30d": 173,
+   "contribuyentes": 6,
+   "incidencias": {
+    "abiertas": 1,
+    "cerradas": 24
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 269,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "integración continua con 4 flujo(s) +10",
+    "adjunto con huella (checksums.txt) +10",
+    "entrega en los últimos 30 días +10",
+    "173 cambios en 30 días +10",
+    "6 personas empujando +7",
+    "incidencias cerradas 24/25 +10",
     "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
@@ -1310,6 +1345,41 @@
    ]
   },
   {
+   "repo": "ahXN00/OwnTV",
+   "puntos": 65,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "android.yml",
+    "automerge-core-bump.yml",
+    "i18n.yml",
+    "pr-checklist.yml",
+    "release-notes.yml"
+   ],
+   "adjuntos": 30,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-21",
+   "commits_30d": 240,
+   "contribuyentes": 16,
+   "incidencias": {
+    "abiertas": 7,
+    "cerradas": 161
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 146,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 5 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "240 cambios en 30 días +10",
+    "16 personas empujando +10",
+    "incidencias cerradas 161/168 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "NuvioMedia/NuvioTVSmart",
    "puntos": 65,
    "licencia": "GPL-3.0",
@@ -1370,6 +1440,40 @@
     "212 cambios en 30 días +10",
     "69 personas empujando +10",
     "incidencias cerradas 171/174 +10",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "retransmit/Atrium",
+   "puntos": 65,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "ios.yml",
+    "pages.yml",
+    "release.yml"
+   ],
+   "adjuntos": 30,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-02",
+   "commits_30d": 156,
+   "contribuyentes": 8,
+   "incidencias": {
+    "abiertas": 15,
+    "cerradas": 61
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 173,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 3 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "156 cambios en 30 días +10",
+    "8 personas empujando +7",
+    "incidencias cerradas 61/76 +8",
+    "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -1850,6 +1954,40 @@
     "33 cambios en 30 días +10",
     "78 personas empujando +10",
     "incidencias cerradas 678/719 +9",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "frederikemmer/MediaLyze",
+   "puntos": 64,
+   "licencia": "AGPL-3.0",
+   "flujos_ci": [
+    "build-desktop.yaml",
+    "build-docker.yaml",
+    "test.yaml",
+    "validate-release-pr.yaml"
+   ],
+   "adjuntos": 30,
+   "con_huella": 0,
+   "ultima_entrega": "2026-11-02",
+   "commits_30d": 31,
+   "contribuyentes": 13,
+   "incidencias": {
+    "abiertas": 6,
+    "cerradas": 87
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 241,
+   "archivado": false,
+   "notas": [
+    "licencia legible (AGPL-3.0) +15",
+    "integración continua con 4 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "31 cambios en 30 días +10",
+    "13 personas empujando +10",
+    "incidencias cerradas 87/93 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -2439,6 +2577,41 @@
    ]
   },
   {
+   "repo": "Chimahon/chimahon",
+   "puntos": 62,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [
+    "build_benchmark.yml",
+    "build_pull_request.yml",
+    "codeberg_mirror.yml",
+    "delete_merged_branch.yml",
+    "pr_label.yml"
+   ],
+   "adjuntos": 50,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-20",
+   "commits_30d": 48,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 17,
+    "cerradas": 34
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 222,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "integración continua con 6 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "48 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 34/51 +7",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
    "repo": "Foxlape/GhostMode",
    "puntos": 62,
    "licencia": "Apache-2.0",
@@ -3011,6 +3184,42 @@
     "21 cambios en 30 días +7",
     "10 personas empujando +10",
     "incidencias cerradas 23/33 +7",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "grimmory-tools/grimmory",
+   "puntos": 58,
+   "licencia": "AGPL-3.0",
+   "flujos_ci": [
+    "angular-lint-threshold.yml",
+    "ci-validate.yml",
+    "codeql.yml",
+    "compute-release-notes.yml",
+    "dependabot.yml"
+   ],
+   "adjuntos": 27,
+   "con_huella": 0,
+   "ultima_entrega": "2026-09-21",
+   "commits_30d": 114,
+   "contribuyentes": 100,
+   "incidencias": {
+    "abiertas": 198,
+    "cerradas": 675
+   },
+   "security_md": true,
+   "scorecard": null,
+   "edad_dias": 237,
+   "archivado": false,
+   "notas": [
+    "licencia legible (AGPL-3.0) +15",
+    "integración continua con 16 flujo(s) +10",
+    "adjuntos sin huella +0",
+    "sin entrega reciente +0",
+    "114 cambios en 30 días +10",
+    "100 personas empujando +10",
+    "incidencias cerradas 675/873 +8",
+    "SECURITY.md presente +5",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -3949,6 +4158,35 @@
     "4 personas empujando +4",
     "incidencias cerradas 4/4 +10",
     "SECURITY.md presente +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "doctorhetfield-cmd/simpleui.koplugin",
+   "puntos": 54,
+   "licencia": "GPL-3.0",
+   "flujos_ci": [],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-30",
+   "commits_30d": 157,
+   "contribuyentes": 55,
+   "incidencias": {
+    "abiertas": 47,
+    "cerradas": 385
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 236,
+   "archivado": false,
+   "notas": [
+    "licencia legible (GPL-3.0) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "157 cambios en 30 días +10",
+    "55 personas empujando +10",
+    "incidencias cerradas 385/432 +9",
     "sin Scorecard en deps.dev +0"
    ]
   },
@@ -5442,6 +5680,35 @@
     "27 cambios en 30 días +7",
     "100 personas empujando +10",
     "incidencias cerradas 1028/1920 +5",
+    "sin Scorecard en deps.dev +0"
+   ]
+  },
+  {
+   "repo": "samyak2403/RepoStore",
+   "puntos": 47,
+   "licencia": "MIT",
+   "flujos_ci": [],
+   "adjuntos": 10,
+   "con_huella": 0,
+   "ultima_entrega": "2026-10-29",
+   "commits_30d": 18,
+   "contribuyentes": 9,
+   "incidencias": {
+    "abiertas": 8,
+    "cerradas": 26
+   },
+   "security_md": false,
+   "scorecard": null,
+   "edad_dias": 295,
+   "archivado": false,
+   "notas": [
+    "licencia legible (MIT) +15",
+    "sin flujos de integración +0",
+    "adjuntos sin huella +0",
+    "entrega en los últimos 30 días +10",
+    "18 cambios en 30 días +7",
+    "9 personas empujando +7",
+    "incidencias cerradas 26/34 +8",
     "sin Scorecard en deps.dev +0"
    ]
   },

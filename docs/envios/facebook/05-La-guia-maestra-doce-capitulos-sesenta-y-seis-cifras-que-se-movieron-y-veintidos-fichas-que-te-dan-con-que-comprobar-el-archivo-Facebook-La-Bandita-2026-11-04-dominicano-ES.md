@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/05-La-guia-maestra-doce-capitulos-sesenta-y-seis-cifras-que-se-movieron-y-veintidos-fichas-que-te-dan-con-que-comprobar-el-archivo-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
 - **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `1eb7f826b9575ada9b25f766102bcc32d3d471aa33f481c97304cadef0bb20c7`
-- **Envío generado:** 2026-11-04 · 19 mensajes · el mayor de 3901 caracteres
+- **Envío generado:** 2026-11-04 · 19 mensajes · el mayor de 3885 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 19 · 881 caracteres ═══
@@ -445,40 +445,40 @@ Los que completan los doce capítulos:
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 3901 caracteres ═══
+═══ MENSAJE 18 de 19 · 3885 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 05*
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 31 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• readest/readest — ★25.957 · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
+• readest/readest — ★25.959 · empujó en las últimas horas · AGPL-3.0 · última release v0.12.16 (13-oct-2026)
 • sigstore/cosign — ★6.411 · sin fecha de empuje · Apache-2.0 · última release v3.1.4 (20-oct-2026)
 • TrackerControl/tracker-control-android — ★2.722 · empujó el 2-nov-2026 (hace 2 días) · GPL-3.0 · última release 2026110101 (1-nov-2026)
-• juanfont/headscale — ★45.371 · empujó en las últimas horas · BSD-3-Clause · última release v0.29.7 (30-oct-2026)
-• rclone/rclone — ★60.803 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
+• juanfont/headscale — ★45.372 · empujó en las últimas horas · BSD-3-Clause · última release v0.29.7 (30-oct-2026)
+• rclone/rclone — ★60.804 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
 • ImranR98/Obtainium — ★21.218 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • samolego/Canta — ★6.467 · empujó el 31-oct-2026 (hace 4 días) · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
-• RikkaApps/Shizuku — ★32.803 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.805 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • jolabs40/TVSlim — ★35 · empujó el 20-oct-2026 (hace 15 días) · Apache-2.0 · última release windows-v1.7.0 (20-oct-2026)
 • seedvault-app/seedvault — ★1.876 · empujó el 16-oct-2026 (hace 19 días) · sin licencia detectada por la API
 • AuroraOSS/AuroraStore — ★75 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0
-• xbmc/xbmc — ★21.436 · empujó en las últimas horas · NOASSERTION · última release 21.3-Omega (31-oct-2025)
+• xbmc/xbmc — ★21.436 · sin fecha de empuje · NOASSERTION · última release 21.3-Omega (31-oct-2025)
 • esphome/esphome — ★12.015 · sin fecha de empuje · NOASSERTION · última release 2026.10.2 (2-nov-2026)
 • SagerNet/sing-box — ★39.633 · empujó en las últimas horas · NOASSERTION · última release v1.14.4 (24-oct-2026)
 • M66B/NetGuard — ★3.964 · *dormido*: sin empujar desde el 1-ago-2026 (95 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
-• f-droid/fdroidclient — ★3.254 · empujó en las últimas horas · GPL-3.0 · última release 1.18.0 (24-ene-2024)
+• f-droid/fdroidclient — ★3.255 · empujó en las últimas horas · GPL-3.0 · última release 1.18.0 (24-ene-2024)
 • NeoApplications/Neo-Backup — ★3.895 · empujó en las últimas horas · AGPL-3.0 · última release 8.3.18 (3-may-2026)
-• hddq/restoid — ★187 · empujó en las últimas horas · GPL-3.0 · última release v0.7.0 (4-nov-2026)
-• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.746 · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (2-nov-2026)
+• hddq/restoid — ★187 · sin fecha de empuje · GPL-3.0 · última release v0.7.0 (4-nov-2026)
+• Universal-Debloater-Alliance/universal-android-debloater-next-generation — ★9.747 · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (2-nov-2026)
 • rushiranpise/Shizuku-Next — ★1.453 · empujó en las últimas horas · Apache-2.0 · última release v14.0.32-next (3-nov-2026)
 • iamr0s/Dhizuku — ★4.086 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
-• localsend/localsend — ★97.332 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• immich-app/immich — ★118.258 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
-• restic/restic — ★37.005 · empujó el 1-nov-2026 (hace 3 días) · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
+• localsend/localsend — ★97.334 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• immich-app/immich — ★118.263 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
+• restic/restic — ★37.006 · empujó el 1-nov-2026 (hace 3 días) · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
 • mullvad/mullvadvpn-app — ★7.742 · sin fecha de empuje · GPL-3.0 · última release android/2026.12 (30-sep-2026)
-• netbirdio/netbird — ★30.682 · sin fecha de empuje · NOASSERTION · última release v0.82.0 (29-oct-2026)
-• home-assistant/core — ★91.976 · sin fecha de empuje · Apache-2.0 · última release 2026.11.0 (4-nov-2026)
-• termux/termux-app — ★64.109 · empujó el 26-sep-2026 (hace 39 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
+• netbirdio/netbird — ★30.684 · sin fecha de empuje · NOASSERTION · última release v0.82.0 (29-oct-2026)
+• home-assistant/core — ★91.977 · sin fecha de empuje · Apache-2.0 · última release 2026.11.0 (4-nov-2026)
+• termux/termux-app — ★64.111 · empujó el 26-sep-2026 (hace 39 días) · NOASSERTION · última release v0.118.3 (22-may-2025)
 • Genymobile/scrcpy — ★154.043 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0 · última release v5.0.1 (8-oct-2026)
 • VREMSoftwareDevelopment/WiFiAnalyzer — ★5.067 · empujó el 3-oct-2026 (hace 32 días) · GPL-3.0 · última release V3.3.1-F-DROID (1-jul-2026)
 • ossf/scorecard — ★5.814 · empujó en las últimas horas · Apache-2.0 · última release v5.6.0 (12-oct-2026)

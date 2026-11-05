@@ -22,7 +22,6 @@ https://github.com/qbittorrent/qBittorrent
 https://github.com/transmission/transmission
 https://github.com/webtorrent/webtorrent
 https://github.com/aria2/aria2
-https://github.com/Jackett/Jackett
 https://github.com/Prowlarr/Prowlarr
 https://github.com/cross-seed/cross-seed
 https://github.com/koreader/koreader
@@ -50,3 +49,11 @@ https://github.com/TaisenDev/aidoku-bridge-builder
 https://github.com/Stiven-Gjekaj/Moekoma
 https://github.com/cenodude/CrossWatch
 https://github.com/ellite/scrob
+https://github.com/samyak2403/RepoStore
+https://github.com/stupside/castor
+https://github.com/retransmit/Atrium
+https://github.com/grimmory-tools/grimmory
+https://github.com/doctorhetfield-cmd/simpleui.koplugin
+https://github.com/ahXN00/OwnTV
+https://github.com/Chimahon/chimahon
+https://github.com/frederikemmer/MediaLyze
