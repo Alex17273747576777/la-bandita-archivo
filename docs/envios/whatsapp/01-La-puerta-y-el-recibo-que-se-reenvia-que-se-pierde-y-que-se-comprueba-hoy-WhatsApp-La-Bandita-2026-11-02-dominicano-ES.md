@@ -591,11 +591,11 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 10 repositorios que cita esta pi
 • ImranR98/Obtainium — ★21.218 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • Droid-ify/client — ★7.698 · *dormido*: sin empujar desde el 12-sep-2026 (53 días) · GPL-3.0 · última release v0.7.8 (12-sep-2026)
 • NeoApplications/Neo-Store — ★5.626 · empujó el 23-oct-2026 (hace 12 días) · GPL-3.0 · última release 1.3.3 (23-oct-2026)
-• MuntashirAkon/AppManager — ★9.450 · empujó en las últimas horas · NOASSERTION · última release v4.1.1 (4-sep-2026)
-• RikkaApps/Shizuku — ★32.805 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• MuntashirAkon/AppManager — ★9.449 · empujó en las últimas horas · NOASSERTION · última release v4.1.1 (4-sep-2026)
+• RikkaApps/Shizuku — ★32.806 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • NeoApplications/Neo-Backup — ★3.895 · empujó en las últimas horas · AGPL-3.0 · última release 8.3.18 (3-may-2026)
-• XayahSuSuSu/Android-DataBackup — ★7.560 · empujó el 25-oct-2026 (hace 10 días) · GPL-3.0 · última release 2.0.12 (20-sep-2025)
-• 0x192/universal-android-debloater — ★20.334 · *dormido*: sin empujar desde el 2-ago-2024 (824 días) · GPL-3.0
+• XayahSuSuSu/Android-DataBackup — ★7.561 · empujó el 25-oct-2026 (hace 10 días) · GPL-3.0 · última release 2.0.12 (20-sep-2025)
+• 0x192/universal-android-debloater — ★20.335 · *dormido*: sin empujar desde el 2-ago-2024 (824 días) · GPL-3.0
 • rumboalla/apkupdater — ★4.065 · *dormido*: sin empujar desde el 28-may-2026 (160 días) · GPL-3.0 · última release 0.0.604-ci (28-may-2026)
 • accrescent/accrescent — ★2.306 · sin fecha de empuje · Apache-2.0 · última release 0.29.1 (4-nov-2026)
 

@@ -507,7 +507,7 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 10 repositorios que cita esta pi
 • dani-garcia/vaultwarden — ★70.251 · empujó en las últimas horas · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
 • ente-io/ente — sin dato hoy (la API no respondió). No afirmo nada.
 • beemdevelopment/Aegis — ★13.470 · *dormido*: sin empujar desde el 6-sep-2026 (59 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
-• bitwarden/android — ★9.586 · sin fecha de empuje · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
+• bitwarden/android — ★9.587 · sin fecha de empuje · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
 • Kunzisoft/KeePassDX — ★7.620 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
 • PhilippC/keepass2android — ★6.367 · empujó el 29-oct-2026 (hace 6 días) · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
 • stratumauth/app — ★4.637 · empujó el 1-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.7.0 (1-nov-2026)

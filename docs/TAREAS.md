@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 52 tareas abiertas en 17 piezas vivas, numeradas dentro de cada pieza, de 007 a 062. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 56 tareas abiertas en 18 piezas vivas, numeradas dentro de cada pieza, de 007 a 066. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -64,6 +64,10 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 060 | comprobar con `apksigner` la huella de Nuvio Mobile, Readest e IPTVnator contra la que anuncian sus repositorios. | Facebook · 12 | 2026-11-04 |
 | 061 | buscar en diciembre si existe un reemplazo medible para la música: el kit se queda corto ahí y conviene decirlo con datos. | Facebook · 12 | 2026-11-04 |
 | 062 | medir en enero si el lanzador de televisor de ocho días sigue publicando, y si el cliente de iOS de doce días mantiene sus cinco formatos. | Facebook · 12 | 2026-11-04 |
+| 063 | volver a medir los cincuenta y cuatro el 4 de diciembre y decir cuántos siguen publicando, con los tres archivados en la lista de control. | Facebook · 13 | 2026-11-04 |
+| 064 | comprobar con `fpcalc` y `sha256sum` los tres archivos que más se instalan del tema: Metrolist, Spotube y yt-dlp. | Facebook · 13 | 2026-11-04 |
+| 065 | buscar en enero si aparece un servidor de música nacido en 2026; hoy no hay ninguno y conviene dejar constancia. | Facebook · 13 | 2026-11-04 |
+| 066 | medir si OuterTune aguanta el ritmo de Metrolist: es la más joven de la cadena y la que puede cambiar la recomendación. | Facebook · 13 | 2026-11-04 |
 
 ## Numeración: la regla y lo declarado
 
@@ -80,6 +84,7 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 > **Declarado:** 10-Las-tiendas-cincuenta-y-seis-reposito: numera desde 051 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 11-Las-aplicaciones-que-leen-lo-que-la-p: numera desde 055 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 12-El-kit-de-reemplazo-cincuenta-y-nueve: numera desde 059 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 13-El-audio-que-le-faltaba-al-kit-cincue: numera desde 063 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 
 La numeración es **por pieza**, no global: cada pieza numera sus tareas desde 001 porque la compuerta de novedad (M28) las cuenta dentro de la pieza. Por eso la misma cifra puede aparecer en dos piezas distintas y no es un error: la tarea se identifica por su número **y** su pieza.
 

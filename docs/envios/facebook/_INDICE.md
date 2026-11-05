@@ -18,7 +18,8 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 10 | Los repositorios de extensiones: cincuenta y seis tiendas vivas, doce  | 20 | 3859 | 58 | 0 | no | `10-Las-tiendas-cincuenta-y-seis-repositorios-vivos-doce-mil-cuatrocientos-ochenta-y-siete-archivos-y-diez-sumas-de-comprobacion-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 11 | Las aplicaciones que leen lo que la pieza 10 midió: cincuenta y uno pr | 20 | 3875 | 56 | 0 | no | `11-Las-aplicaciones-que-leen-lo-que-la-pieza-10-midio-cincuenta-y-una-aplicaciones-y-cincuenta-y-ocho-millones-de-descargas-con-ciento-dieciseis-archivos-firmados-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 12 | El kit de reemplazo: cincuenta y nueve recursos medidos hoy para tirar | 21 | 3897 | 51 | 0 | no | `12-El-kit-de-reemplazo-cincuenta-y-nueve-recursos-medidos-hoy-para-tirar-el-stack-viejo-del-meme-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
+| 13 | El audio que le faltaba al kit: cincuenta y cuatro programas de música | 20 | 3934 | 52 | 0 | no | `13-El-audio-que-le-faltaba-al-kit-cincuenta-y-cuatro-programas-medidos-hoy-de-la-musica-propia-al-registro-de-lo-que-oyes-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 
-**12 piezas · 231 mensajes** · el mayor de todos: 3897 caracteres.
+**13 piezas · 251 mensajes** · el mayor de todos: 3934 caracteres.
 
 
