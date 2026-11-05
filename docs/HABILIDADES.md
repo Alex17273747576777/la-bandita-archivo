@@ -375,6 +375,8 @@ README no es una capacidad. El `TextKeyData.kt` de HeliBoard menciona textos y n
 **Cómo se pierde.** Repitiendo una lista ajena: si el dato no se puede señalar en un archivo con su
 número de línea o su nombre de recurso, no es un dato, es una creencia.
 
+| H27 | **Un catálogo se mide por recurso** | E46 | `recursos.json` → `catalogo_medir.py` → ficha con fecha → guía a mano entre marcadores → `catalogo_lint.py` (C11 plantilla, C12 guía) | cada recurso que se nombre en el archivo |
+
 ## El ritual completo, con las habilidades dentro
 
 

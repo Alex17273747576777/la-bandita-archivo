@@ -66,6 +66,8 @@ la publicación.
 
 | E45 | 5-nov | Pieza 20 · teclados | Un texto que circula prometía **75 teclas de IA** en un teclado Android, una «armadura universal» y «100 % de obediencia forzada». El teclado que describía (LeanType) admite **diez**: `CUSTOM_AI_1`…`CUSTOM_AI_10` en su `InputLogic.kt`, y sus «etiquetas mágicas» son las diez palabras clave de su pantalla de ajustes. Los porcentajes no venían de ninguna ejecución. | lectura del texto y clon del teclado, 5-nov | H26 |
 
+| E46 | 5-nov | Catálogo, primera pasada | Un catálogo de 279 recursos generado de golpe salió con **una frase plantilla repetida en 49 fichas** y con **tres recursos que no existían** —nombres que supuse y que no están en GitHub—. El linter los cazó: 54 fallos. | el propio linter antes de publicar | H27 |
+
 ## Cómo se usa este registro
 
 1. Antes de escribir una pieza nueva se leen los errores de su misma familia.
