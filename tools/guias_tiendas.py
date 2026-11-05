@@ -850,6 +850,100 @@ La última entrega es de marzo de 2026, y el código no se toca desde septiembre
 Si buscas un lector que reciba actualizaciones frecuentes, este no las da: lleva más de seis meses sin moverse. Y si te importa que haya alguien detrás que responda incidencias, este tiene solo dos abiertas y un solo mantenedor visible.
 """
 
+GUIA["T8RIN/ImageToolbox"] = """
+### Para qué sirve
+
+Editor de imagen avanzado para Android con docenas de funciones: recorte, dibujo, filtros, mejoras con IA, OCR, herramientas de PDF y más. Está construido con Kotlin y Jetpack Compose, y se presenta como una alternativa completa a las aplicaciones de edición de pago. La versión de código abierto evita dependencias de Google como analíticas y reportes de fallos.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `4.2.0`, del 4 de septiembre de 2026, con ocho adjuntos; también está en F-Droid y en Google Play Store.
+2. Se abre la imagen que se quiere editar y se elige la herramienta: recorte, ajuste de color, filtro, texto, dibujo.
+3. Se exporta el resultado o se guarda en la galería del dispositivo.
+4. Las funciones de IA y OCR requieren descargar modelos adicionales; se pueden usar sin ellas.
+
+### Lo que conviene saber antes
+
+15.440 estrellas, Apache-2.0, Kotlin, creado en abril de 2022, con un empujón de hoy mismo (5 de noviembre de 2026). Es el editor de imagen más popular de este grupo y el que más funciones declara.
+
+Funciona sin cuenta: se instala y se usa. Las funciones de procesamiento en la nube son opcionales; el núcleo de la aplicación corre localmente en el teléfono.
+
+### Cuándo no vale la pena
+
+Si solo necesitas recortar una foto de vez en cuando, es una herramienta demasiado grande para tan poco. Y si buscas una aplicación ligera que no ocupe espacio, este no es el caso.
+"""
+
+GUIA["ArthurHub/Android-Image-Cropper"] = """
+### Para qué sirve
+
+Biblioteca de recorte de imágenes para Android, optimizada para integrar en aplicaciones de cámara y galería. No es una aplicación que el usuario instale directamente: es código que otros desarrolladores incluyen en sus propios proyectos para permitir recortar imágenes dentro de ellas.
+
+### Cómo se usa
+
+1. Se añade la dependencia al proyecto de Android (Gradle).
+2. Se integra el visor de recorte en la interfaz de la aplicación propia.
+3. El usuario final recorta la imagen desde dentro de esa aplicación, no desde esta biblioteca.
+
+### Lo que conviene saber antes
+
+6.406 estrellas, Apache-2.0, Java, creado en enero de 2015: más de diez años de existencia. Su último empujón es del 17 de septiembre de 2023 —más de tres años sin movimiento—. La última entrega etiquetada es `2.8.0`, del 27 de octubre de 2018.
+
+Es una herramienta para programadores, no para usuarios finales. Quien no esté desarrollando una aplicación de Android no tiene nada que instalar aquí.
+
+### Cuándo no vale la pena
+
+Si no programas en Android, esta biblioteca no te sirve de nada. Y si buscas una aplicación para editar fotos, esta no lo es: es el componente que otras aplicaciones usan para recortar.
+"""
+
+GUIA["BorgorNinja/Snapedit"] = """
+### Para qué sirve
+
+Suite de edición de fotografía no destructiva para Android, inspirada en Snapseed y Lightroom Mobile. Todo corre en el dispositivo: sin telemetría, sin peticiones a la red, sin procesamiento en la nube. Cada ajuste queda registrado en una pila de operaciones que se puede inspeccionar, activar, desactivar o reiniciar en cualquier momento.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `latest`, del 11 de octubre de 2026, con tres adjuntos.
+2. Se abre una foto y se aplican ajustes: exposición, contraste, saturación, curvas de tono, reducción de ruido, corrección de lente.
+3. Cada cambio queda en la pila de operaciones; se puede volver a cualquier paso anterior sin perder lo posterior.
+4. Se exporta la foto editada al dispositivo.
+
+### Lo que conviene saber antes
+
+Cero estrellas, Apache-2.0, Kotlin, creado en octubre de 2026, con un empujón del 31 de octubre de 2026. Es un proyecto muy joven, de menos de un mes, sin bifurcaciones.
+
+Es totalmente local: no pide cuenta, no se conecta a internet, no envía nada a ningún servidor. Eso es también su límite: no hay copia de seguridad en la nube ni sincronización entre dispositivos.
+
+### Cuándo no vale la pena
+
+Si buscas una aplicación con miles de reseñas y años de actualizaciones, este todavía no los tiene. Y si necesitas que tus ediciones queden respaldadas en la nube, esta aplicación no lo ofrece.
+"""
+
+GUIA["pelayanan/aksiphoto"] = """
+### Para qué sirve
+
+Aplicación de Android para gestionar y editar fotos: galería en cuadrícula, cámara, ajuste de brillo, compartir y eliminar. Está construida con Kotlin y Jetpack Compose, y se presenta como un editor al estilo Photoshop simplificado para creadores.
+
+### Cómo se usa
+
+1. Se clona el repositorio y se compila con Android Studio; no hay entrega de APK publicada.
+2. Se abre la aplicación y se navega por la galería de fotos del dispositivo.
+3. Se selecciona una foto y se aplica el ajuste de brillo u otra herramienta disponible.
+4. Se guarda o se comparte el resultado.
+
+### Lo que conviene saber antes
+
+Cero estrellas, sin licencia declarada (NOASSERTION), Kotlin, creado en octubre de 2026, con un empujón del 27 de octubre de 2026. Es un proyecto de menos de un mes, sin entregas etiquetadas y sin APK para instalar directamente.
+
+Que no tenga licencia declarada significa que GitHub no reconoce una licencia estándar; no está claro qué se puede reutilizar del código. Y sin entrega publicada, el único camino es compilarlo desde el código fuente.
+
+### Cuándo no vale la pena
+
+Si no sabes compilar aplicaciones Android desde el código fuente, no puedes usar esta aplicación todavía. Y si necesitas una licencia clara antes de instalar algo, este proyecto no la declara.
+"""
+
+
+
+
 def main() -> int:
     medido = json.loads(MEDIDO.read_text(encoding="utf-8"))
     escritas = 0

@@ -38,7 +38,6 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
-
 ### Para qué sirve
 
 Otro índice comunitario de extensiones de Mangayomi, con selección propia: menos fuentes que los grandes y más
@@ -62,5 +61,4 @@ ese aviso se refiere a la forma de instalar la aplicación en algunos entornos, 
 
 Si ya tienes dos índices añadidos, un tercero empieza a ser un problema de orden sin ganancia clara. Tiene
 sentido cuando buscas una fuente concreta y sabes que está aquí.
-
 <!-- GUIA:FIN -->

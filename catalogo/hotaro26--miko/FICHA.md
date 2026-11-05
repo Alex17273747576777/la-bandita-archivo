@@ -40,7 +40,6 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
-
 ### Para qué sirve
 
 Lector de manga para Android construido enteramente con Kotlin y Jetpack Compose, con interfaz Material 3 Expressive y un catálogo en línea de manga. Está pensado para navegar y leer manga desde fuentes externas; el programa no trae contenido propio.
@@ -60,5 +59,4 @@ Sin entrega reciente desde agosto, el proyecto está quieto. Un lector sin empuj
 ### Cuándo no vale la pena
 
 Si buscas un lector que reciba actualizaciones frecuentes, este no da esa garantía. Y si no quieres agregar catálogos tú mismo, al instalarlo no encontrarás nada que leer.
-
 <!-- GUIA:FIN -->

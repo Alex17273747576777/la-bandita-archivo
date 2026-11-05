@@ -40,7 +40,6 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
-
 ### Para qué sirve
 
 Lector de manga y novelas ligeras para Android con más de mil doscientas fuentes integradas, detección automática de analizadores y soporte desde Android 6. Se presenta como un lector que «lee de todo»: manga, novelas ligeras y cómics, con un motor de extensiones que reconoce las fuentes por sí solo.
@@ -61,5 +60,4 @@ Es un lector joven (menos de un año de vida) pero con movimiento reciente y muc
 ### Cuándo no vale la pena
 
 Si buscas un lector con años de historial y miles de usuarios detrás, este todavía no los tiene. Y si ya usas otro lector de la familia con tu biblioteca montada, cambiar solo por el número de fuentes no aporta nada.
-
 <!-- GUIA:FIN -->

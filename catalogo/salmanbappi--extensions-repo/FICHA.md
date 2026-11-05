@@ -39,7 +39,6 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
-
 ### Para qué sirve
 
 Índice de extensiones de anime dedicado a Anikku, un reproductor derivado de la familia Aniyomi. Reúne las
@@ -65,5 +64,4 @@ arreglo es el que es.
 
 Si tu reproductor no es Anikku ni de su familia, no sirve. Y si ya tienes un índice que cubre el mismo
 contenido, dos listas solapadas solo dan trabajo de limpieza.
-
 <!-- GUIA:FIN -->

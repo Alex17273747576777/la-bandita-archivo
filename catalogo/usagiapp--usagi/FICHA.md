@@ -41,7 +41,6 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
-
 ### Para qué sirve
 
 Lector de manga para Android que corre desde la versión 5.0 del sistema —lo que ya es raro y dice mucho de
@@ -68,5 +67,4 @@ vivo**; la mención viene de la historia del proyecto, no de su estado de hoy.
 
 Si tu teléfono es reciente y ya tienes un lector que funciona, cambiar solo por el soporte de Android antiguo
 no tiene sentido. Su motivo de existir es otro: seguir leyendo en aparatos que otros ya no admiten.
-
 <!-- GUIA:FIN -->

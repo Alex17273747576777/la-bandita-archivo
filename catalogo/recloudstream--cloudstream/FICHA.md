@@ -42,7 +42,6 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
-
 ### Para qué sirve
 
 Aplicación de Android para ver y descargar vídeo, con una arquitectura de extensiones muy abierta: el programa
@@ -70,5 +69,4 @@ mantener; los empujones son de hoy.
 
 Si buscas una app que funcione al instalarla, esta no: hay que montar el índice primero. Y en un televisor o un
 móvil modesto, la reproducción depende del archivo, no del programa.
-
 <!-- GUIA:FIN -->

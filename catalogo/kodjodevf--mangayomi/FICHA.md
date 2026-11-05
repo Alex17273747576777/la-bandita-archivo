@@ -41,7 +41,6 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
-
 ### Para qué sirve
 
 Aplicación de lectura y visionado hecha en Flutter que va más allá de Android: lee manga, lee novelas y ve
@@ -69,5 +68,4 @@ con un fallo deja la fuente muerta sin más aviso que el error.
 
 Si solo usas Android y te basta un lector de manga, Mihon tiene un ecosistema mucho más grande. Mangayomi se
 elige cuando importa leer en escritorio o en el navegador con la misma biblioteca.
-
 <!-- GUIA:FIN -->

@@ -11811,5 +11811,159 @@
   ],
   "medido": "2026-11-05 21:55 UTC",
   "racimo": "tiendas-de-extensiones"
+ },
+ "T8RIN/ImageToolbox": {
+  "repo": "T8RIN/ImageToolbox",
+  "existe": true,
+  "nombre": "ImageToolbox",
+  "descripcion": "🖼️ Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image processing options",
+  "estrellas": 15440,
+  "forks": 666,
+  "archivado": false,
+  "deshabilitado": false,
+  "licencia": "Apache-2.0",
+  "empujon": "2026-11-05",
+  "creado": "2022-04-06",
+  "incidencias_abiertas": 0,
+  "lenguaje": "Kotlin",
+  "temas": [
+   "ai",
+   "android",
+   "background-removal",
+   "crop",
+   "edit-photo",
+   "exif"
+  ],
+  "entrega": {
+   "tag": "4.2.0",
+   "fecha": "2026-09-04",
+   "adjuntos": 8
+  },
+  "web": null,
+  "leeme_bytes": 56529,
+  "claim": "ImageToolbox is a versatile image editing tool designed for efficient photo manipulation. It allows users to crop, apply filters, edit EXIF data, erase backgrounds, and even enhance images with AI. Ideal for both photographers and developers, the tool offers a simple interface with powerful capabilities.",
+  "instalacion": [
+   "Go to the Releases and the download latest",
+   "💻 Installation Instructions",
+   "2. Install dependencies using your preferred package manager (e.g., Gradle).",
+   "Spot Healing (with ability to download AI model for generative inpainting)"
+  ],
+  "plataformas": [
+   "Android",
+   "Linux",
+   "Web"
+  ],
+  "banderas": [
+   "pide shizuku",
+   "abandono declarado",
+   "espejo declarado"
+  ],
+  "medido": "2026-11-05 22:17 UTC",
+  "racimo": "tiendas-de-extensiones"
+ },
+ "ArthurHub/Android-Image-Cropper": {
+  "repo": "ArthurHub/Android-Image-Cropper",
+  "existe": true,
+  "nombre": "Android-Image-Cropper",
+  "descripcion": "Image Cropping Library for Android, optimized for Camera / Gallery.",
+  "estrellas": 6406,
+  "forks": 1367,
+  "archivado": false,
+  "deshabilitado": false,
+  "licencia": "Apache-2.0",
+  "empujon": "2023-09-17",
+  "creado": "2015-01-15",
+  "incidencias_abiertas": 364,
+  "lenguaje": "Java",
+  "temas": [
+   "android",
+   "android-image-cropper",
+   "cropper"
+  ],
+  "entrega": {
+   "tag": "2.8.0",
+   "fecha": "2018-10-27",
+   "adjuntos": 0
+  },
+  "web": null,
+  "leeme_bytes": 6458,
+  "claim": "---- ---- [](https://android-arsenal.com/details/1/3487) [](https://travis-ci.org/ArthurHub/Android-Image-Cropper)",
+  "instalacion": [],
+  "plataformas": [
+   "Android"
+  ],
+  "banderas": [
+   "abandono declarado"
+  ],
+  "medido": "2026-11-05 22:17 UTC",
+  "racimo": "tiendas-de-extensiones"
+ },
+ "BorgorNinja/Snapedit": {
+  "repo": "BorgorNinja/Snapedit",
+  "existe": true,
+  "nombre": "Snapedit",
+  "descripcion": "High-precision, non-destructive photo editing suite for Android (Kotlin + Jetpack Compose)",
+  "estrellas": 0,
+  "forks": 0,
+  "archivado": false,
+  "deshabilitado": false,
+  "licencia": "Apache-2.0",
+  "empujon": "2026-10-31",
+  "creado": "2026-10-11",
+  "incidencias_abiertas": 0,
+  "lenguaje": "Kotlin",
+  "temas": [],
+  "entrega": {
+   "tag": "latest",
+   "fecha": "2026-10-11",
+   "adjuntos": 3
+  },
+  "web": null,
+  "leeme_bytes": 8475,
+  "claim": "Snapedit is an open-source, full-featured mobile photo manipulation engine designed for photographers and digital creators. It blends the intuitive gesture-driven workflows of Snapseed with the granular parametric precision of Lightroom—all running 100% locally on-device without telemetry, network requests, or third-party cloud processing.",
+  "instalacion": [
+   "Download & Installation",
+   "2. Download either:",
+   "`Snapedit.apk`** / **`Snapedit-Release.apk`**: Optimized release build signed with standard install certificates (recommended).",
+   "Prerequisites"
+  ],
+  "plataformas": [
+   "Android",
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "banderas": [
+   "pide root"
+  ],
+  "medido": "2026-11-05 22:17 UTC",
+  "racimo": "tiendas-de-extensiones"
+ },
+ "pelayanan/aksiphoto": {
+  "repo": "pelayanan/aksiphoto",
+  "existe": true,
+  "nombre": "aksiphoto",
+  "descripcion": "AksiPhoto — Open Source Image Editor Android. Photoshop-inspired, built for creators Indonesia. Kotlin + Jetpack Compose.",
+  "estrellas": 0,
+  "forks": 0,
+  "archivado": false,
+  "deshabilitado": false,
+  "licencia": "NOASSERTION",
+  "empujon": "2026-10-27",
+  "creado": "2026-10-22",
+  "incidencias_abiertas": 0,
+  "lenguaje": "Kotlin",
+  "temas": [],
+  "entrega": null,
+  "web": null,
+  "leeme_bytes": 1236,
+  "claim": "Aplikasi Android untuk mengelola & mengedit foto: Grid Galeri, Kamera, Terang+ (peningkatan kecerahan satu-tap), Bagikan, dan Hapus.",
+  "instalacion": [],
+  "plataformas": [
+   "Android"
+  ],
+  "banderas": [],
+  "medido": "2026-11-05 22:17 UTC",
+  "racimo": "tiendas-de-extensiones"
  }
 }

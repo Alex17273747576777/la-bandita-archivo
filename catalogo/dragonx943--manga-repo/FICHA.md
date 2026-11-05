@@ -40,7 +40,6 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
-
 ### Para qué sirve
 
 Repositorio de plugins para Usagi, compatible también con Tsuki. Es el tipo de pieza que hace falta para que un
@@ -66,5 +65,4 @@ sin motivo. Las etiquetas del repositorio hablan de contenido para adultos, y es
 
 Si no usas Usagi ni Tsuki, no hay nada que hacer aquí. Y si lo que buscas es un catálogo amplio, este tiene
 pocas fuentes y un solo mantenedor: se agota rápido.
-
 <!-- GUIA:FIN -->

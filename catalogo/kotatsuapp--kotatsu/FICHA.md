@@ -40,7 +40,6 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
-
 ### Para qué sirve
 
 Fue el lector de manga con fuentes incorporadas más usado de Android: biblioteca local, favoritos, historial,
@@ -72,5 +71,4 @@ real.
 
 Siempre, para instalar de nuevo. Su valor hoy es el de una copia de seguridad: si tienes datos dentro, sácalos.
 Si no tienes nada que rescatar, no hay motivo para empezar por aquí.
-
 <!-- GUIA:FIN -->

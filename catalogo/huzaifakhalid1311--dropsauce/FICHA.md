@@ -42,7 +42,6 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
-
 ### Para qué sirve
 
 Lector de cómics y novelas para Android, ligero, con su propio catálogo de extensiones. Es una de las
@@ -69,5 +68,4 @@ mueve fuera del teléfono. Se puede usar solo la copia local.
 
 Si vienes de Kotatsu con una biblioteca grande, importa primero y decide después: no todas las bifurcaciones
 leen la misma copia. Y si no quieres ninguna cuenta de por medio, la sincronización sobra.
-
 <!-- GUIA:FIN -->

@@ -40,7 +40,6 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
-
 ### Para qué sirve
 
 Gestor de biblioteca y reproductor de vídeo para Android, pensado para series: organiza lo que ves, lleva la
@@ -69,5 +68,4 @@ por mucho que la app esté bien hecha; eso se arregla con el archivo, no con la 
 
 Si no ves series en el teléfono, no hay nada que hacer. Y si lo que quieres es solo descargar un capítulo
 suelto, el reproductor del sistema hace el trabajo sin pedirte una biblioteca.
-
 <!-- GUIA:FIN -->

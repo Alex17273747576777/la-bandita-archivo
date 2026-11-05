@@ -3,7 +3,7 @@
 Una ficha por recurso, con lo medido y, cuando la hay, la guía escrita a mano.
 Este índice lo genera `tools/catalogo_ficha.py`; no se edita.
 
-**284 recursos** en 10 racimos · **284 con guía escrita** · ninguna pendiente.
+**288 recursos** en 10 racimos · **288 con guía escrita** · ninguna pendiente.
 
 ## audio
 
@@ -330,13 +330,15 @@ Este índice lo genera `tools/catalogo_ficha.py`; no se edita.
 
 ## tiendas-de-extensiones
 
-30 recursos · 27 con movimiento en el último año · 2 archivados
+34 recursos · 30 con movimiento en el último año · 2 archivados
 
 ```
 ● mihonapp/mihon                               ★25042   2026-11-05
+● T8RIN/ImageToolbox                           ★15440   2026-11-05
 ● keiyoushi/extensions                         ★15438   2026-11-04
 ● recloudstream/cloudstream                    ★11161   2026-11-04
 ✕ KotatsuApp/Kotatsu                           ★8952    2025-11-04
+○ ArthurHub/Android-Image-Cropper              ★6406    2023-09-17
 ● keiyoushi/extensions-source                  ★4865    2026-11-05
 ● kodjodevf/mangayomi                          ★4375    2026-11-03
 ● LittleSurvival/copymanga-copy20              ★2994    2026-10-11
@@ -363,6 +365,8 @@ Este índice lo genera `tools/catalogo_ficha.py`; no se edita.
 ● Hynf5/Hitori                                 ★16      2026-10-26
 ◐ yuzono/manga-repo                            ★13      2026-08-18
 ● Torro101/MIYO                                ★10      2026-10-26
+● BorgorNinja/Snapedit                         ★0       2026-10-31
+● pelayanan/aksiphoto                          ★0       2026-10-27
 ```
 
 ● vivo (≤30 días) · ◐ lento (≤1 año) · ○ parado (>1 año) · ✕ archivado o sin respuesta

@@ -38,7 +38,6 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
-
 ### Para qué sirve
 
 El índice de extensiones de Mihon y sus variantes. No es un programa: es un **repositorio de paquetes** con un
@@ -67,5 +66,4 @@ las incidencias se atienden en el repositorio del código. Buscar un fallo aquí
 
 Si ya usas otro índice que te funciona, añadir este duplica fuentes y confunde las actualizaciones. Y si tu
 lector no entiende este formato de índice, no sirve de nada descargarlo.
-
 <!-- GUIA:FIN -->

@@ -36,7 +36,6 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
-
 ### Para qué sirve
 
 Índice de extensiones de Mangayomi mantenido por la comunidad, con fuentes que no están en el oficial y con
@@ -61,5 +60,4 @@ fuentes que se solapan, y el lector no avisa de duplicados: hay que revisarlo a 
 
 Si el índice oficial te cubre y no has visto fuentes caídas, añadir este solo complica el estante. Su momento
 llega cuando aparece el primer «esto antes funcionaba».
-
 <!-- GUIA:FIN -->

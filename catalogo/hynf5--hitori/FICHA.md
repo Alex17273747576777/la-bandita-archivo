@@ -41,7 +41,6 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
-
 ### Para qué sirve
 
 Fork de Kotatsu-Redo: lector de manga para Android. Hereda la estructura del lector que se archivó en 2025 y la continúa con otro nombre, manteniendo el enfoque de biblioteca local y lecturas descargadas.
@@ -61,5 +60,4 @@ Al ser un fork de Kotatsu-Redo, comparte su lógica de extensiones y su forma de
 ### Cuándo no vale la pena
 
 Si ya usas otro lector de la familia Kotatsu con tu biblioteca montada, cambiar solo por el nombre no aporta nada. Y si necesitas muchas fuentes ya integradas, este es pequeño y las tendrás que añadir tú.
-
 <!-- GUIA:FIN -->
