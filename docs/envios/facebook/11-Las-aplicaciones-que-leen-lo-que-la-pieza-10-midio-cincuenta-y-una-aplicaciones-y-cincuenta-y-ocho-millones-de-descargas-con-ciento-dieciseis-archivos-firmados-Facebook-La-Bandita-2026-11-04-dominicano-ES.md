@@ -466,7 +466,7 @@ Y lo cuarto, la frase de siempre: **lo más nuevo no es lo mejor, pero es lo que
 Medí otra vez, hoy 4 de noviembre de 2026, los 56 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • skepsun/kototoro — sin dato hoy (la API no respondió). No afirmo nada.
-• Kototoro-app/Kototoro — ★668 · empujó en las últimas horas · Apache-2.0 · última release v2.3.9 (4-nov-2026)
+• Kototoro-app/Kototoro — ★670 · empujó en las últimas horas · Apache-2.0 · última release v2.3.9 (4-nov-2026)
 • itsmechinmoy/echo — sin dato hoy (la API no respondió). No afirmo nada.
 • itsmechinmoy/echo-nightly — ★390 · *dormido*: sin empujar desde el 22-ago-2026 (74 días) · NOASSERTION · última release nightly-20260402-172557-aafa008 (2-abr-2026)
 • mihonapp/mihon — ★25.034 · sin fecha de empuje · Apache-2.0 · última release v0.21.3 (25-oct-2026)

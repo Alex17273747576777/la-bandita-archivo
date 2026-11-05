@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-04",
- "medido_en_utc": "2026-11-04T22:15:11-04:00",
+ "medido_en_utc": "2026-11-04T22:35:28-04:00",
  "repos": {
   "capitan0n/droynis": {
    "estado": "vivo",
@@ -40,7 +40,7 @@
   },
   "zsw125/o3root": {
    "estado": "vivo",
-   "stars": 61,
+   "stars": 62,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "MIT",
@@ -424,7 +424,7 @@
   },
   "bitwarden/android": {
    "estado": "vivo",
-   "stars": 9587,
+   "stars": 9588,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -460,7 +460,7 @@
   },
   "dani-garcia/vaultwarden": {
    "estado": "vivo",
-   "stars": 70251,
+   "stars": 70250,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -592,7 +592,7 @@
   },
   "RikkaApps/Shizuku": {
    "estado": "vivo",
-   "stars": 32807,
+   "stars": 32808,
    "push": "2025-06-18",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -892,7 +892,7 @@
   },
   "TrackerControl/tracker-control-android": {
    "estado": "vivo",
-   "stars": 2722,
+   "stars": 2723,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -916,7 +916,7 @@
   },
   "rclone/rclone": {
    "estado": "vivo",
-   "stars": 60805,
+   "stars": 60806,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "MIT",
@@ -988,7 +988,7 @@
   },
   "esphome/esphome": {
    "estado": "vivo",
-   "stars": 12018,
+   "stars": 12019,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1060,7 +1060,7 @@
   },
   "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
    "estado": "vivo",
-   "stars": 9747,
+   "stars": 9748,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1072,7 +1072,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97342,
+   "stars": 97347,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1084,8 +1084,8 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 118268,
-   "push": "2026-11-04",
+   "stars": 118269,
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
    "lenguaje": "TypeScript",
@@ -1132,7 +1132,7 @@
   },
   "home-assistant/core": {
    "estado": "vivo",
-   "stars": 91979,
+   "stars": 91980,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1144,7 +1144,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 64112,
+   "stars": 64113,
    "push": "2026-09-26",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1156,7 +1156,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 154046,
+   "stars": 154048,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1228,7 +1228,7 @@
   },
   "MorpheApp/morphe-manager": {
    "estado": "vivo",
-   "stars": 9973,
+   "stars": 9975,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1401,7 +1401,7 @@
   },
   "jellyfin/jellyfin": {
    "estado": "vivo",
-   "stars": 59013,
+   "stars": 59014,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -1533,7 +1533,7 @@
   },
   "wg-easy/wg-easy": {
    "estado": "vivo",
-   "stars": 27409,
+   "stars": 27410,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1545,7 +1545,7 @@
   },
   "hiddify/hiddify-app": {
    "estado": "vivo",
-   "stars": 33648,
+   "stars": 33647,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1927,7 +1927,7 @@
   },
   "LittleSurvival/copymanga-copy20": {
    "estado": "vivo",
-   "stars": 2992,
+   "stars": 2993,
    "push": "2026-10-11",
    "archivado": false,
    "licencia": null,
@@ -2059,7 +2059,7 @@
   },
   "AngeloSha/uchiyomi": {
    "estado": "vivo",
-   "stars": 99,
+   "stars": 100,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "MPL-2.0",
@@ -2251,7 +2251,7 @@
   },
   "NovelSourcery/extensions": {
    "estado": "vivo",
-   "stars": 20,
+   "stars": 21,
    "push": "2026-10-28",
    "archivado": false,
    "licencia": null,
@@ -2532,7 +2532,7 @@
   },
   "Kototoro-app/Kototoro": {
    "estado": "vivo",
-   "stars": 668,
+   "stars": 670,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3149,7 +3149,7 @@
   },
   "iptv-org/iptv": {
    "estado": "vivo",
-   "stars": 143232,
+   "stars": 143235,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "Unlicense",
@@ -3389,7 +3389,7 @@
   },
   "grimmory-tools/grimmory": {
    "estado": "vivo",
-   "stars": 4656,
+   "stars": 4657,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3413,7 +3413,7 @@
   },
   "koodo-reader/koodo-reader": {
    "estado": "vivo",
-   "stars": 28727,
+   "stars": 28726,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3438,7 +3438,7 @@
   "kovidgoyal/calibre": {
    "estado": "vivo",
    "stars": 26351,
-   "push": "2026-11-04",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Python",
@@ -3485,7 +3485,7 @@
   },
   "4gray/iptvnator": {
    "estado": "vivo",
-   "stars": 7604,
+   "stars": 7605,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "MIT",
@@ -3857,7 +3857,7 @@
   },
   "strawberrymusicplayer/strawberry": {
    "estado": "vivo",
-   "stars": 4057,
+   "stars": 4058,
    "push": "2026-10-23",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -3917,7 +3917,7 @@
   },
   "KDE/elisa": {
    "estado": "vivo",
-   "stars": 369,
+   "stars": 370,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "LGPL-3.0",
@@ -4157,7 +4157,7 @@
   },
   "FFmpeg/FFmpeg": {
    "estado": "vivo",
-   "stars": 66510,
+   "stars": 66511,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -4181,7 +4181,7 @@
   },
   "yt-dlp/yt-dlp": {
    "estado": "vivo",
-   "stars": 205273,
+   "stars": 205275,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Unlicense",
@@ -4289,7 +4289,7 @@
   },
   "OpenSelena/omniget": {
    "estado": "vivo",
-   "stars": 3407,
+   "stars": 3443,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4325,7 +4325,7 @@
   },
   "kushagrasinghx/BitChord": {
    "estado": "vivo",
-   "stars": 5668,
+   "stars": 5671,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4337,7 +4337,7 @@
   },
   "sonorahq/sonora": {
    "estado": "vivo",
-   "stars": 2620,
+   "stars": 2621,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4349,7 +4349,7 @@
   },
   "LUC4N3X/Levyra-deepsound": {
    "estado": "vivo",
-   "stars": 2065,
+   "stars": 2066,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4409,7 +4409,7 @@
   },
   "kota-zo/myspoti": {
    "estado": "vivo",
-   "stars": 1251,
+   "stars": 1254,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4505,7 +4505,7 @@
   },
   "jpochyla/psst": {
    "estado": "vivo",
-   "stars": 9505,
+   "stars": 9506,
    "push": "2026-08-18",
    "archivado": false,
    "licencia": "MIT",
@@ -4586,10 +4586,378 @@
    "release": "v32.1",
    "release_fecha": "2026-08-20",
    "stars_pieza": null
+  },
+  "aria2/aria2": {
+   "estado": "vivo",
+   "stars": 43413,
+   "push": "2026-06-25",
+   "archivado": false,
+   "licencia": "GPL-2.0",
+   "lenguaje": "C++",
+   "desc": "aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.",
+   "release": "release-1.37.0",
+   "release_fecha": "2023-11-15",
+   "stars_pieza": null
+  },
+  "nilaoda/N_m3u8DL-RE": {
+   "estado": "vivo",
+   "stars": 9035,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "C#",
+   "desc": "Cross-Platform, modern and powerful stream downloader for MPD/M3U8/ISM. English/简体中文/繁體中文.",
+   "release": "v0.6.0-beta",
+   "release_fecha": "2026-06-28",
+   "stars_pieza": null
+  },
+  "rockdaboot/wget2": {
+   "estado": "vivo",
+   "stars": 800,
+   "push": "2026-10-21",
+   "archivado": false,
+   "licencia": "LGPL-3.0",
+   "lenguaje": "C",
+   "desc": "The successor of GNU Wget. Contributions preferred at https://gitlab.com/gnuwget/wget2. But accepted here as well 😍",
+   "release": "v2.3.0",
+   "release_fecha": "2026-09-21",
+   "stars_pieza": null
+  },
+  "axel-download-accelerator/axel": {
+   "estado": "vivo",
+   "stars": 3423,
+   "push": "2026-09-30",
+   "archivado": false,
+   "licencia": "GPL-2.0",
+   "lenguaje": "C",
+   "desc": "Lightweight CLI download accelerator",
+   "release": "v2.17.14",
+   "release_fecha": "2024-04-07",
+   "stars_pieza": null
+  },
+  "lwthiker/curl-impersonate": {
+   "estado": "vivo",
+   "stars": 7173,
+   "push": "2024-07-18",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Python",
+   "desc": "curl-impersonate: A special build of curl that can impersonate Chrome & Firefox",
+   "release": "v0.6.1",
+   "release_fecha": "2024-03-02",
+   "stars_pieza": null
+  },
+  "mayswind/AriaNg": {
+   "estado": "vivo",
+   "stars": 13271,
+   "push": "2026-10-05",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "JavaScript",
+   "desc": "AriaNg, a modern web frontend making aria2 easier to use.",
+   "release": "1.3.15",
+   "release_fecha": "2026-10-05",
+   "stars_pieza": null
+  },
+  "mayswind/AriaNg-Native": {
+   "estado": "vivo",
+   "stars": 2729,
+   "push": "2026-10-05",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "JavaScript",
+   "desc": "A better aria2 desktop frontend than AriaNg, with all features of AriaNg and providing more features for desktop usage.",
+   "release": "1.3.15",
+   "release_fecha": "2026-10-05",
+   "stars_pieza": null
+  },
+  "Xmader/aria-ng-gui": {
+   "estado": "vivo",
+   "stars": 2027,
+   "push": "2020-09-27",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "JavaScript",
+   "desc": "一个 Aria2 图形界面客户端 | An Aria2 GUI for Windows & Linux & MacOS",
+   "release": "v3.1.2",
+   "release_fecha": "2020-09-27",
+   "stars_pieza": null
+  },
+  "Xmader/aria-ng-gui-android": {
+   "estado": "vivo",
+   "stars": 880,
+   "push": "2023-01-04",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "HTML",
+   "desc": "一个 Aria2 图形界面安卓客户端 | An Aria2 GUI Android App",
+   "release": "v1.3.1",
+   "release_fecha": "2021-04-18",
+   "stars_pieza": null
+  },
+  "binux/yaaw": {
+   "estado": "vivo",
+   "stars": 2353,
+   "push": "2023-10-31",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "JavaScript",
+   "desc": "Yet Another Aria2 Webui in pure HTML/CSS/Javascirpt",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "GopeedLab/gopeed": {
+   "estado": "vivo",
+   "stars": 27387,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Dart",
+   "desc": "A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.",
+   "release": "v1.9.3",
+   "release_fecha": "2026-03-18",
+   "stars_pieza": null
+  },
+  "agalwood/Motrix": {
+   "estado": "vivo",
+   "stars": 57808,
+   "push": "2026-11-05",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "TypeScript",
+   "desc": "A full-featured download manager.",
+   "release": "v2.2.1",
+   "release_fecha": "2026-11-03",
+   "stars_pieza": null
+  },
+  "subhra74/xdm": {
+   "estado": "vivo",
+   "stars": 8294,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Fast, reliable download accelerator and video downloader since 2013",
+   "release": "v9.0.9",
+   "release_fecha": "2026-11-01",
+   "stars_pieza": null
+  },
+  "Tyrrrz/YoutubeDownloader": {
+   "estado": "vivo",
+   "stars": 16629,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "C#",
+   "desc": "Downloads videos and playlists from YouTube",
+   "release": "1.17.1",
+   "release_fecha": "2026-10-25",
+   "stars_pieza": null
+  },
+  "persepolisdm/persepolis": {
+   "estado": "vivo",
+   "stars": 7491,
+   "push": "2025-10-09",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Python",
+   "desc": "Persepolis is a download manager written in Python.",
+   "release": "5.2.0",
+   "release_fecha": "2025-07-14",
+   "stars_pieza": null
+  },
+  "uget/uget": {
+   "estado": "vivo",
+   "stars": 50,
+   "push": "2019-05-11",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Go",
+   "desc": "(WIP) Universal Getter of remote files",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "deniscerri/ytdlnis": {
+   "estado": "vivo",
+   "stars": 10970,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Full-featured audio/video downloader for Android using yt-dlp",
+   "release": "v1.9.1.1",
+   "release_fecha": "2026-10-19",
+   "stars_pieza": null
+  },
+  "yausername/youtubedl-android": {
+   "estado": "vivo",
+   "stars": 1381,
+   "push": "2025-11-16",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "youtube-dl for android",
+   "release": null,
+   "release_fecha": "",
+   "stars_pieza": null
+  },
+  "JunkFood02/Seal": {
+   "estado": "vivo",
+   "stars": 30347,
+   "push": "2026-09-25",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "🦭 Video/Audio Downloader for Android, based on yt-dlp",
+   "release": "v1.13.1",
+   "release_fecha": "2024-10-16",
+   "stars_pieza": null
+  },
+  "iawia002/lux": {
+   "estado": "vivo",
+   "stars": 31826,
+   "push": "2026-03-29",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Go",
+   "desc": "👾 Fast and simple video download library and CLI tool written in Go",
+   "release": "v0.24.1",
+   "release_fecha": "2024-05-06",
+   "stars_pieza": null
+  },
+  "soimort/you-get": {
+   "estado": "vivo",
+   "stars": 56861,
+   "push": "2026-10-06",
+   "archivado": false,
+   "licencia": "NOASSERTION",
+   "lenguaje": "Python",
+   "desc": ":arrow_double_down: Dumb downloader that scrapes the web",
+   "release": "v0.4.1743",
+   "release_fecha": "2025-01-04",
+   "stars_pieza": null
+  },
+  "mikf/gallery-dl": {
+   "estado": "vivo",
+   "stars": 20379,
+   "push": "2026-10-31",
+   "archivado": false,
+   "licencia": "GPL-2.0",
+   "lenguaje": "Python",
+   "desc": "Command-line program to download image galleries and collections from several image hosting sites",
+   "release": "v1.32.19",
+   "release_fecha": "2026-10-31",
+   "stars_pieza": null
+  },
+  "AnInsomniacy/rayburst": {
+   "estado": "vivo",
+   "stars": 11380,
+   "push": "2026-11-05",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "TypeScript",
+   "desc": "Redefining the open-source download manager",
+   "release": "v4.1.1",
+   "release_fecha": "2026-10-25",
+   "stars_pieza": null
+  },
+  "rawnaldclark/Stash": {
+   "estado": "vivo",
+   "stars": 1556,
+   "push": "2026-11-05",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "Kotlin",
+   "desc": "Your Spotify + YouTube Music library & daily mixes. Free and open source forever.",
+   "release": "v0.9.123",
+   "release_fecha": "2026-11-03",
+   "stars_pieza": null
+  },
+  "Downvid/downvid": {
+   "estado": "vivo",
+   "stars": 1200,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Go",
+   "desc": "现代化的开源跨平台视频下载工具 — 一键保存全网无水印高清视频 / A modern, cross-platform open-source video downloader GUI for yt-dlp & FFmpeg",
+   "release": "v1.9.1",
+   "release_fecha": "2026-11-04",
+   "stars_pieza": null
+  },
+  "FortoGraphy/prism-download-manager": {
+   "estado": "vivo",
+   "stars": 744,
+   "push": "2026-11-01",
+   "archivado": false,
+   "licencia": "MIT",
+   "lenguaje": "Rust",
+   "desc": "The fast, beautiful, open-source download manager for Windows, macOS and Linux — up to 32 connections, browser integration, video & MP3 downloads, crash-safe resume.",
+   "release": "v1.2.4",
+   "release_fecha": "2026-11-01",
+   "stars_pieza": null
+  },
+  "mesamirh/MovieBox-Tui": {
+   "estado": "vivo",
+   "stars": 2763,
+   "push": "2026-11-04",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Rust",
+   "desc": "Terminal interface to find, download, and stream movies, TV shows, and live TV using local media players.",
+   "release": "v0.1.28",
+   "release_fecha": "2026-10-29",
+   "stars_pieza": null
+  },
+  "arnoldhao/xiadown": {
+   "estado": "vivo",
+   "stars": 758,
+   "push": "2026-07-27",
+   "archivado": false,
+   "licencia": "Apache-2.0",
+   "lenguaje": "Go",
+   "desc": "🐣一款支持视频下载的资源库管理应用    A media library manager with video download support",
+   "release": "v1.0.4",
+   "release_fecha": "2026-07-27",
+   "stars_pieza": null
+  },
+  "pixel-point/media-downloader": {
+   "estado": "vivo",
+   "stars": 1221,
+   "push": "2026-05-07",
+   "archivado": false,
+   "licencia": null,
+   "lenguaje": "Swift",
+   "desc": "Beautiful native macOS video downloader. Download and trim in one app.",
+   "release": "v0.2.0",
+   "release_fecha": "2026-05-07",
+   "stars_pieza": null
+  },
+  "BareBrowser/bare-browser": {
+   "estado": "vivo",
+   "stars": 712,
+   "push": "2026-11-03",
+   "archivado": false,
+   "licencia": "BSD-3-Clause",
+   "lenguaje": "Python",
+   "desc": "Bare is a de-Googled Chromium build for Android, built for privacy, control, and freedom on the web. It strips Google tracking, telemetry, and AI integration while keeping browser extensions and uBlock Origin. It adds background video playback, saving media from sites that normally block it, your choice of download manager, and more.",
+   "release": "v1.0.1",
+   "release_fecha": "2026-10-21",
+   "stars_pieza": null
   }
  },
  "enlaces": {
+  "https://api.github.com/repos/AnInsomniacy/rayburst/releases?per_page=100": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://api.github.com/repos/ImranR98/Obtainium": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://api.github.com/repos/JunkFood02/Seal": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -4622,6 +4990,10 @@
    "veredicto": "responde"
   },
   "https://api.github.com/repos/TrackerControl/tracker-control-android": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://api.github.com/repos/deniscerri/ytdlnis": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -4666,6 +5038,10 @@
    "veredicto": "responde"
   },
   "https://api.github.com/repos/vfsfitvnm/ViMusic": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://api.github.com/repos/yt-dlp/yt-dlp/releases?per_page=100": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -4721,6 +5097,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/AnInsomniacy/rayburst": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/AngeloSha/uchiyomi": {
    "codigo": "200",
    "veredicto": "responde"
@@ -4738,6 +5118,10 @@
    "veredicto": "responde"
   },
   "https://github.com/AuroraOSS/AuroraStore": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/BareBrowser/bare-browser": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -4774,6 +5158,10 @@
    "veredicto": "responde"
   },
   "https://github.com/CranberrySoup/AniyomiCompat": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Downvid/downvid": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -4817,6 +5205,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/FortoGraphy/prism-download-manager": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Foxlape/GhostMode": {
    "codigo": "200",
    "veredicto": "responde"
@@ -4834,6 +5226,10 @@
    "veredicto": "responde"
   },
   "https://github.com/Gingerbreadfork/lounge": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/GopeedLab/gopeed": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -4902,6 +5298,10 @@
    "veredicto": "responde"
   },
   "https://github.com/JoaoAntunesss/tv-debloat": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/JunkFood02/Seal": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -5237,6 +5637,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Tyrrrz/YoutubeDownloader": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
    "codigo": "200",
    "veredicto": "responde"
@@ -5269,6 +5673,14 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/Xmader/aria-ng-gui": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/Xmader/aria-ng-gui-android": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/Yukstarlight/guang-lab": {
    "codigo": "200",
    "veredicto": "responde"
@@ -5290,6 +5702,10 @@
    "veredicto": "responde"
   },
   "https://github.com/advplyr/audiobookshelf": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/agalwood/Motrix": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -5353,6 +5769,14 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/aria2/aria2": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/arnoldhao/xiadown": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/arranoust/yomu": {
    "codigo": "200",
    "veredicto": "responde"
@@ -5365,6 +5789,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/axel-download-accelerator/axel": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/bangxingni/mycomic-extensions": {
    "codigo": "200",
    "veredicto": "responde"
@@ -5374,6 +5802,10 @@
    "veredicto": "responde"
   },
   "https://github.com/beetbox/beets": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/binux/yaaw": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -5446,6 +5878,10 @@
    "veredicto": "responde"
   },
   "https://github.com/debpalash/Opal": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/deniscerri/ytdlnis": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -5566,6 +6002,10 @@
    "veredicto": "responde"
   },
   "https://github.com/iamr0s/Dhizuku": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/iawia002/lux": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -5777,6 +6217,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/lwthiker/curl-impersonate": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/m2k3a/mangayomi-extensions": {
    "codigo": "200",
    "veredicto": "responde"
@@ -5797,7 +6241,19 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/mayswind/AriaNg": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/mayswind/AriaNg-Native": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/meesam4687/zenbu": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/mesamirh/MovieBox-Tui": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -5818,6 +6274,10 @@
    "veredicto": "responde"
   },
   "https://github.com/mihonapp/mihon": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/mikf/gallery-dl": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -5885,6 +6345,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/nilaoda/N_m3u8DL-RE": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/nixolas1/bluecodec": {
    "codigo": "200",
    "veredicto": "responde"
@@ -5921,7 +6385,15 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/persepolisdm/persepolis": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/phisher98/cloudstream-extensions-phisher": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/pixel-point/media-downloader": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -5930,6 +6402,10 @@
    "veredicto": "responde"
   },
   "https://github.com/quodlibet/quodlibet": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/rawnaldclark/Stash": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -5958,6 +6434,10 @@
    "veredicto": "responde"
   },
   "https://github.com/rmcrackan/Libation": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/rockdaboot/wget2": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -6037,6 +6517,10 @@
    "codigo": "200",
    "veredicto": "responde"
   },
+  "https://github.com/soimort/you-get": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
   "https://github.com/sonorahq/sonora": {
    "codigo": "200",
    "veredicto": "responde"
@@ -6054,6 +6538,10 @@
    "veredicto": "responde"
   },
   "https://github.com/stupside/castor": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/subhra74/xdm": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -6102,6 +6590,10 @@
    "veredicto": "responde"
   },
   "https://github.com/timschneeb/tachiyomi-extensions-archive": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/uget/uget": {
    "codigo": "200",
    "veredicto": "responde"
   },
@@ -6154,6 +6646,10 @@
    "veredicto": "responde"
   },
   "https://github.com/y20k/escapepod": {
+   "codigo": "200",
+   "veredicto": "responde"
+  },
+  "https://github.com/yausername/youtubedl-android": {
    "codigo": "200",
    "veredicto": "responde"
   },
