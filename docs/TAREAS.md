@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 84 tareas abiertas en 25 piezas vivas, numeradas dentro de cada pieza, de 007 a 098. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 88 tareas abiertas en 26 piezas vivas, numeradas dentro de cada pieza, de 007 a 102. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -96,6 +96,10 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 096 | comprobar en un teléfono el add-on de AnySoftKeyboard generado: si compila, cuántos textos admite de verdad y si el teclado emergente los muestra todos. | Facebook · 20 | 2026-11-05 |
 | 097 | mirar el diccionario de frases de Trime y de Fcitx5 con el mismo método de esta pieza —clonar, buscar, leer— y cerrar el «—» que hoy tienen en la tabla. | Facebook · 20 | 2026-11-05 |
 | 098 | escribir la pieza 21 —los subtítulos y el doblaje, que llevan dos cortes esperando— con el método de hoy: clonar antes de escribir una línea y ninguna cifra de memoria. | Facebook · 20 | 2026-11-05 |
+| 099 | instalar la entrega `1.0v` en un aparato de repuesto y comprobar tres cosas con el teléfono delante: si el paquete de depuración arranca sin depurador, si las dos piezas incrustadas se instalan y qué pasa con una instalación previa de Shizuku. | Facebook · 21 | 2026-11-05 |
+| 100 | medir el tráfico de la primera media hora de uso con un registro de red del propio aparato, para separar lo que se envía de lo que el README dice que no se envía. | Facebook · 21 | 2026-11-05 |
+| 101 | volver a medir el reparto de las entregas dentro de dos semanas: si el paquete ligero vuelve, si la firma se estabiliza y cuántas funciones nuevas han entrado. La fecha propuesta es el 19 de noviembre de 2026. | Facebook · 21 | 2026-11-05 |
+| 102 | escribir la ficha del proyecto en el catálogo del archivo —una carpeta por recurso, con su guía y su estado— con los datos de hoy y la advertencia del paquete de depuración en la primera línea útil, no en una nota al final. | Facebook · 21 | 2026-11-05 |
 
 ## Numeración: la regla y lo declarado
 
@@ -120,6 +124,7 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 > **Declarado:** 18-La-radio-y-el-directo-treinta-y-dos-p: numera desde 083 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 19-La-tienda-que-le-sirve-a-tu-app-quinc: numera desde 091 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 20-El-teclado-que-obedece-once-teclados-: numera desde 095 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 21-La-variante-que-cambio-OmniShizuku-de: numera desde 099 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 
 La numeración es **por pieza**, no global: cada pieza numera sus tareas desde 001 porque la compuerta de novedad (M28) las cuenta dentro de la pieza. Por eso la misma cifra puede aparecer en dos piezas distintas y no es un error: la tarea se identifica por su número **y** su pieza.
 
