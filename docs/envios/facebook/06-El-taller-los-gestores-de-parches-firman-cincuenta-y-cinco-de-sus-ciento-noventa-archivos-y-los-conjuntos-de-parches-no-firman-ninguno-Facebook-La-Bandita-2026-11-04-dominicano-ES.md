@@ -404,7 +404,7 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 18 repositorios que cita esta pi
 • inotia00/revanced-manager — ★1.700 · *dormido*: sin empujar desde el 29-dic-2025 (310 días) · GPL-3.0 · última release v1.25.7 (29-dic-2025) · *ARCHIVADO*
 • ReVanced/revanced-patches — sin dato hoy (la API no respondió). No afirmo nada.
 • ReVanced/where-is-revanced-patches — ★157 · *dormido*: sin empujar desde el 24-mar-2026 (225 días) · sin licencia detectada por la API
-• RikkaApps/Shizuku — ★32.808 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.810 · *dormido*: sin empujar desde el 18-jun-2025 (504 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • timschneeb/awesome-shizuku — ★10.706 · empujó en las últimas horas · NOASSERTION
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

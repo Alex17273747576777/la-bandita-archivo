@@ -499,10 +499,10 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 58 repositorios que cita esta pi
 • yuzono/aniyomi-extensions — sin dato hoy (la API no respondió). No afirmo nada.
 • yuzono/anime-repo — sin dato hoy (la API no respondió). No afirmo nada.
 • mojuru/anime-repo — ★72 · empujó en las últimas horas · sin licencia detectada por la API
-• keiyoushi/extensions — ★15.433 · empujó en las últimas horas · sin licencia detectada por la API · última release ee661f5 (4-nov-2026)
+• keiyoushi/extensions — ★15.434 · empujó en las últimas horas · sin licencia detectada por la API · última release ee661f5 (4-nov-2026)
 • keiyoushi/extensions-source — ★4.862 · empujó en las últimas horas · Apache-2.0
 • yuzono/tachiyomi-extensions — ★957 · empujó el 2-nov-2026 (hace 2 días) · Apache-2.0
-• cuong-tran/manga-repo — ★467 · empujó el 2-nov-2026 (hace 2 días) · sin licencia detectada por la API · última release f7d844c-2 (2-nov-2026)
+• cuong-tran/manga-repo — ★468 · empujó el 2-nov-2026 (hace 2 días) · sin licencia detectada por la API · última release f7d844c-2 (2-nov-2026)
 • LittleSurvival/copymanga-copy20 — ★2.993 · empujó el 11-oct-2026 (hace 24 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • cofedream/extensions-copymanga — ★498 · *dormido*: sin empujar desde el 8-ago-2026 (88 días) · sin licencia detectada por la API · última release v1.4.11 (7-jun-2025)
 • FelipeGFA/extensoes — ★43 · empujó el 28-sep-2026 (hace 37 días) · sin licencia detectada por la API · última release d90cba1-2 (28-sep-2026)

@@ -483,8 +483,8 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 31 repositorios que cita esta pi
 • Xmader/aria-ng-gui — ★2.027 · *dormido*: sin empujar desde el 27-sep-2020 (2229 días) · MIT · última release v3.1.2 (27-sep-2020)
 • Xmader/aria-ng-gui-android — ★880 · *dormido*: sin empujar desde el 4-ene-2023 (1400 días) · MIT · última release v1.3.1 (18-abr-2021)
 • binux/yaaw — ★2.353 · *dormido*: sin empujar desde el 31-oct-2023 (1100 días) · sin licencia detectada por la API
-• GopeedLab/gopeed — ★27.387 · empujó en las últimas horas · GPL-3.0 · última release v1.9.3 (18-mar-2026)
-• agalwood/Motrix — ★57.808 · sin fecha de empuje · NOASSERTION · última release v2.2.1 (3-nov-2026)
+• GopeedLab/gopeed — ★27.388 · empujó en las últimas horas · GPL-3.0 · última release v1.9.3 (18-mar-2026)
+• agalwood/Motrix — ★57.809 · sin fecha de empuje · NOASSERTION · última release v2.2.1 (3-nov-2026)
 • subhra74/xdm — ★8.294 · empujó en las últimas horas · GPL-3.0 · última release v9.0.9 (1-nov-2026)
 • Tyrrrz/YoutubeDownloader — ★16.629 · empujó en las últimas horas · MIT · última release 1.17.1 (25-oct-2026)
 • persepolisdm/persepolis — ★7.491 · *dormido*: sin empujar desde el 9-oct-2025 (391 días) · GPL-3.0 · última release 5.2.0 (14-jul-2025)
@@ -492,10 +492,10 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 31 repositorios que cita esta pi
 • deniscerri/ytdlnis — ★10.970 · empujó en las últimas horas · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
 • yausername/youtubedl-android — ★1.381 · *dormido*: sin empujar desde el 16-nov-2025 (353 días) · GPL-3.0
 • JunkFood02/Seal — ★30.347 · empujó el 25-sep-2026 (hace 40 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
-• yt-dlp/yt-dlp — ★205.275 · empujó en las últimas horas · Unlicense · última release 2026.10.26 (26-oct-2026)
+• yt-dlp/yt-dlp — ★205.279 · empujó en las últimas horas · Unlicense · última release 2026.10.26 (26-oct-2026)
 • iawia002/lux — ★31.826 · *dormido*: sin empujar desde el 29-mar-2026 (220 días) · MIT · última release v0.24.1 (6-may-2024)
 • soimort/you-get — ★56.861 · empujó el 6-oct-2026 (hace 29 días) · NOASSERTION · última release v0.4.1743 (4-ene-2025)
-• mikf/gallery-dl — ★20.379 · empujó el 31-oct-2026 (hace 4 días) · GPL-2.0 · última release v1.32.19 (31-oct-2026)
+• mikf/gallery-dl — ★20.380 · empujó el 31-oct-2026 (hace 4 días) · GPL-2.0 · última release v1.32.19 (31-oct-2026)
 • AnInsomniacy/rayburst — ★11.380 · sin fecha de empuje · MIT · última release v4.1.1 (25-oct-2026)
 • rawnaldclark/Stash — ★1.556 · sin fecha de empuje · GPL-3.0 · última release v0.9.123 (3-nov-2026)
 • Downvid/downvid — ★1.200 · empujó en las últimas horas · MIT · última release v1.9.1 (4-nov-2026)

@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/11-Las-aplicaciones-que-leen-lo-que-la-pieza-10-midio-cincuenta-y-una-aplicaciones-y-cincuenta-y-ocho-millones-de-descargas-con-ciento-dieciseis-archivos-firmados-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
 - **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 0 días)
 - **sha256 de la pieza:** `a869d5d51b186d516d228c36ef442e03d2a7b3715e3adb314e071cd8d0088485`
-- **Envío generado:** 2026-11-04 · 20 mensajes · el mayor de 3867 caracteres
+- **Envío generado:** 2026-11-04 · 20 mensajes · el mayor de 3859 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 20 · 947 caracteres ═══
@@ -459,14 +459,14 @@ Y lo cuarto, la frase de siempre: **lo más nuevo no es lo mejor, pero es lo que
 
 ⏬ sigue abajo · parte 15 de 19
 
-═══ MENSAJE 17 de 20 · 3867 caracteres ═══
+═══ MENSAJE 17 de 20 · 3859 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 11*
 
 Medí otra vez, hoy 4 de noviembre de 2026, los 56 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • skepsun/kototoro — sin dato hoy (la API no respondió). No afirmo nada.
-• Kototoro-app/Kototoro — ★670 · empujó en las últimas horas · Apache-2.0 · última release v2.3.9 (4-nov-2026)
+• Kototoro-app/Kototoro — ★670 · sin fecha de empuje · Apache-2.0 · última release v2.3.9 (4-nov-2026)
 • itsmechinmoy/echo — sin dato hoy (la API no respondió). No afirmo nada.
 • itsmechinmoy/echo-nightly — ★390 · *dormido*: sin empujar desde el 22-ago-2026 (74 días) · NOASSERTION · última release nightly-20260402-172557-aafa008 (2-abr-2026)
 • mihonapp/mihon — ★25.034 · sin fecha de empuje · Apache-2.0 · última release v0.21.3 (25-oct-2026)
@@ -475,8 +475,8 @@ Medí otra vez, hoy 4 de noviembre de 2026, los 56 repositorios que cita esta pi
 • kodjodevf/mangayomi — ★4.355 · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
 • UsagiApp/usagi — ★290 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
 • LNReader/lnreader — ★2.956 · empujó el 1-nov-2026 (hace 3 días) · MIT · última release v2.1.4 (26-sep-2026)
-• Aidoku/Aidoku — ★4.698 · empujó el 31-oct-2026 (hace 4 días) · GPL-3.0 · última release v0.9-4 (16-oct-2026)
-• Suwayomi/Suwayomi-Server — ★8.009 · empujó el 1-nov-2026 (hace 3 días) · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
+• Aidoku/Aidoku — ★4.699 · empujó el 31-oct-2026 (hace 4 días) · GPL-3.0 · última release v0.9-4 (16-oct-2026)
+• Suwayomi/Suwayomi-Server — ★8.010 · empujó el 1-nov-2026 (hace 3 días) · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
 • Jays2Kings/tachiyomiJ2K — ★5.404 · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
 • jobobby04/TachiyomiSY — ★4.201 · empujó el 1-nov-2026 (hace 3 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
 • komikku-app/komikku — ★4.981 · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)

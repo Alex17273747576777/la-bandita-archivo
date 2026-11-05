@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 64 tareas abiertas en 20 piezas vivas, numeradas dentro de cada pieza, de 007 a 074. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 68 tareas abiertas en 21 piezas vivas, numeradas dentro de cada pieza, de 007 a 078. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -76,6 +76,10 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 072 | comprobar con `sha256sum` los instaladores de rayburst, ytdlnis y Gopeed contra la cifra que publican sus repositorios. | Facebook · 15 | 2026-11-04 |
 | 073 | medir si la camada de 2026 de este tema aguanta: de los ocho, uno ya está parado y dos llevan un mes sin empujón. | Facebook · 15 | 2026-11-04 |
 | 074 | escribir la pieza 16 con la norma del canal delante: torrentes sin enlace, nombre, función y comprobación. | Facebook · 15 | 2026-11-04 |
+| 075 | volver a medir las veintidós el 4 de diciembre y decir si LibreTorrent y Deluge publicaron: si no, salen de la recomendación del todo. | Facebook · 16 | 2026-11-04 |
+| 076 | comprobar con `sha256sum` el instalador de qBittorrent contra su cifra publicada, y dejar el resultado en un acta. | Facebook · 16 | 2026-11-04 |
+| 077 | medir en enero si la camada de 2026 aguanta: piko y emule-qt tienen ritmo, torrent-tui y Magnetar no. | Facebook · 16 | 2026-11-04 |
+| 078 | escribir la pieza 17 —la radio y el directo— con la misma norma: listas y enlaces de emisión sin URL en el cuerpo. | Facebook · 16 | 2026-11-04 |
 
 ## Numeración: la regla y lo declarado
 
@@ -95,6 +99,7 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 > **Declarado:** 13-El-audio-que-le-faltaba-al-kit-cincue: numera desde 063 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 14-Spotify-sin-Spotify-cuarenta-y-cinco-: numera desde 067 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 15-Descargar-es-un-acto-tecnico-treinta-: numera desde 071 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 16-El-torrent-que-no-se-rinde-veintidos-: numera desde 075 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 
 La numeración es **por pieza**, no global: cada pieza numera sus tareas desde 001 porque la compuerta de novedad (M28) las cuenta dentro de la pieza. Por eso la misma cifra puede aparecer en dos piezas distintas y no es un error: la tarea se identifica por su número **y** su pieza.
 

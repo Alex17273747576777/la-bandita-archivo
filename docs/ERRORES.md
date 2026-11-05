@@ -58,6 +58,8 @@ la publicación.
 
 | E41 | 4-nov | Taller · almacenamiento local | Dos veces en la misma noche se perdió trabajo por fiarse del disco de trabajo: el clon vivía en `.cache/` —carpeta que el entorno no conserva— y, al turno siguiente, el directorio del repositorio apareció **revertido a un estado viejo y sin `.git`**. Lo publicado en GitHub estaba intacto (piezas 01–14); lo local, no. Se perdió una medición de 59 repositorios y hubo que repetirla entera. | la segunda pérdida, al abrir el turno | H22 |
 
+| E42 | 4-nov | Taller de la pieza 16 · `b16.py` y `c16.py` | Dos guiones de la pieza 16 murieron en la primera ejecución por leer un campo del diccionario equivocado: `R[...]['con_huella']` y `R[...]['commits_30d']` cuando los dos viven en `E[...]` (escrutinio), no en `R[...]` (medición). El `KeyError` paró la ejecución antes de escribir nada, así que no salió una cifra mala: salió un guion que no corría. | la propia ejecución, antes de publicar | H23 |
+
 ## Cómo se usa este registro
 
 1. Antes de escribir una pieza nueva se leen los errores de su misma familia.

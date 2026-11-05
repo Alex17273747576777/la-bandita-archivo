@@ -23,6 +23,7 @@ puede perder. Cada una nace de un error concreto de `docs/ERRORES.md`, y si el e
 | H20 | **Ningún enlace vetado en una pieza del canal que lo veta** | E40 | `tools/envio.py --verificar` · `grep` de la familia | el cuerpo y el bloque de enlaces |
 | H21 | **El historial y el ecosistema se revisan antes de sondear** | E41 + regla del dueño | `tools/preflight.py --tema` | el punto de partida de cada pieza |
 | H22 | **El almacén es GitHub; el disco de trabajo es efímero** | E41 | `git push` en el mismo turno · talleres en `docs/talleres/` | todos los resultados |
+| H23 | **La cifra se busca en el diccionario que la tiene** | E42 | `E` = escrutinio (sumas, adjuntos, commits, incidencias) · `R` = medición (estrellas, entregas, licencia, días) · `python3 b16.py` antes de ensamblar | cada taller nuevo |
 | H17 | **La madurez se declara ficha a ficha** | E37 | `python3 tools/novedad_gate.py` | M25 |
 
 ## H01 · Medir antes de tocar
@@ -302,6 +303,19 @@ dentro del repositorio, porque un número que no se puede repetir desde el repos
 es un recuerdo.
 
 **Cómo se pierde.** Diciendo «lo subo al final». El final, en un taller que se corta, no llega.
+
+## H23 · La cifra se busca en el diccionario que la tiene
+
+**Nace de E42.** Los dos primeros guiones de la pieza 16 murieron por pedirle al diccionario
+equivocado una cifra que existía en el otro. La medición (`R`) trae estrellas, entregas, licencia y
+días; el escrutinio (`E`) trae adjuntos, sumas, cambios en treinta días e incidencias. Confundirlos
+no da un número falso: da un `KeyError`, que es el fallo bueno.
+
+**La regla.** Antes de ensamblar la pieza se ejecuta cada generador y se mira la salida. Un guion que
+no corre a la primera se arregla en el taller y no se toca el texto publicado.
+
+**Cómo se pierde.** Sustituyendo el `KeyError` por un `R.get(campo, 0)`: el texto sale, y con un cero
+donde había una cifra. Ese sí llega a la calle.
 
 ## El ritual completo, con las habilidades dentro
 
