@@ -479,7 +479,7 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 22 repositorios que cita esta pi
 • ibrahim91015/AudioScope — ★1 · empujó el 6-oct-2026 (hace 30 días) · GPL-3.0 · última release v0.5.2 (6-oct-2026)
 • bunbun-midi/RootlessJamesDSP-SKDSP — ★1 · empujó el 27-oct-2026 (hace 9 días) · GPL-3.0 · última release v1 (27-oct-2026)
 • MetrolistGroup/Metrolist — ★14.026 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.791 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• maxrave-dev/SimpMusic — ★12.794 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • rukamori/ArchiveTune — ★7.991 · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
 • AntennaPod/AntennaPod — ★8.266 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • Moriafly/SaltPlayerSource — ★7.603 · empujó el 2-nov-2026 (hace 3 días) · MIT · última release 12.6.0 (2-nov-2026)

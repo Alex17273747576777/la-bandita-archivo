@@ -1,0 +1,141 @@
+{
+ "mihonapp/mihon": {
+  "stargazers_count": 25045,
+  "archived": false,
+  "pushed_at": "2026-11-05T01:23:14Z",
+  "updated_at": "2026-11-05T10:09:39Z",
+  "license": {
+   "key": "apache-2.0",
+   "name": "Apache License 2.0",
+   "spdx_id": "Apache-2.0",
+   "url": "https://api.github.com/licenses/apache-2.0",
+   "node_id": "MDc6TGljZW5zZTI="
+  },
+  "description": "Free and open source manga reader for Android",
+  "open_issues_count": 746,
+  "forks_count": 1754,
+  "created_at": "2024-01-15T20:03:57Z",
+  "licencia": "Apache-2.0"
+ },
+ "UsagiApp/Usagi": {
+  "stargazers_count": 290,
+  "archived": false,
+  "pushed_at": "2026-11-03T19:51:35Z",
+  "updated_at": "2026-11-05T09:11:30Z",
+  "license": {
+   "key": "gpl-3.0",
+   "name": "GNU General Public License v3.0",
+   "spdx_id": "GPL-3.0",
+   "url": "https://api.github.com/licenses/gpl-3.0",
+   "node_id": "MDc6TGljZW5zZTk="
+  },
+  "description": "Just a simple, free and open-source manga reader for Android 5.0+",
+  "open_issues_count": 19,
+  "forks_count": 65,
+  "created_at": "2026-03-20T21:04:01Z",
+  "licencia": "GPL-3.0"
+ },
+ "HuzaifaKhalid1311/DropSauce": {
+  "stargazers_count": 229,
+  "archived": false,
+  "pushed_at": "2026-11-04T18:34:21Z",
+  "updated_at": "2026-11-05T06:59:31Z",
+  "license": {
+   "key": "gpl-3.0",
+   "name": "GNU General Public License v3.0",
+   "spdx_id": "GPL-3.0",
+   "url": "https://api.github.com/licenses/gpl-3.0",
+   "node_id": "MDc6TGljZW5zZTk="
+  },
+  "description": "A light, beautiful comic and novel reading app designed with Jetpack Compose and M3 Expressive that works with a wide range of extensions",
+  "open_issues_count": 1,
+  "forks_count": 23,
+  "created_at": "2026-03-25T08:46:03Z",
+  "licencia": "GPL-3.0"
+ },
+ "AppFuton/Futon": {
+  "stargazers_count": 477,
+  "archived": false,
+  "pushed_at": "2026-11-04T18:27:36Z",
+  "updated_at": "2026-11-05T00:08:03Z",
+  "license": {
+   "key": "gpl-3.0",
+   "name": "GNU General Public License v3.0",
+   "spdx_id": "GPL-3.0",
+   "url": "https://api.github.com/licenses/gpl-3.0",
+   "node_id": "MDc6TGljZW5zZTk="
+  },
+  "description": "Manga and novel reader for Android",
+  "open_issues_count": 30,
+  "forks_count": 45,
+  "created_at": "2025-12-07T17:03:18Z",
+  "licencia": "GPL-3.0"
+ },
+ "KotatsuApp/Kotatsu": {
+  "stargazers_count": 8952,
+  "archived": true,
+  "pushed_at": "2025-11-04T08:40:47Z",
+  "updated_at": "2026-11-05T01:11:44Z",
+  "license": {
+   "key": "gpl-3.0",
+   "name": "GNU General Public License v3.0",
+   "spdx_id": "GPL-3.0",
+   "url": "https://api.github.com/licenses/gpl-3.0",
+   "node_id": "MDc6TGljZW5zZTk="
+  },
+  "description": "Manga reader for Android",
+  "open_issues_count": 579,
+  "forks_count": 971,
+  "created_at": "2020-01-30T18:11:38Z",
+  "licencia": "GPL-3.0"
+ },
+ "kodjodevf/mangayomi": {
+  "stargazers_count": 4370,
+  "archived": false,
+  "pushed_at": "2026-11-03T11:17:10Z",
+  "updated_at": "2026-11-05T09:46:26Z",
+  "license": {
+   "key": "apache-2.0",
+   "name": "Apache License 2.0",
+   "spdx_id": "Apache-2.0",
+   "url": "https://api.github.com/licenses/apache-2.0",
+   "node_id": "MDc6TGljZW5zZTI="
+  },
+  "description": "Free and open source application for reading manga, novels, and watching animes available on Android, iOS, macOS, Linux and Windows",
+  "open_issues_count": 66,
+  "forks_count": 190,
+  "created_at": "2023-04-03T09:49:56Z",
+  "licencia": "Apache-2.0"
+ },
+ "recloudstream/cloudstream": {
+  "stargazers_count": 11162,
+  "archived": false,
+  "pushed_at": "2026-11-04T13:50:34Z",
+  "updated_at": "2026-11-05T05:52:08Z",
+  "license": {
+   "key": "gpl-3.0",
+   "name": "GNU General Public License v3.0",
+   "spdx_id": "GPL-3.0",
+   "url": "https://api.github.com/licenses/gpl-3.0",
+   "node_id": "MDc6TGljZW5zZTk="
+  },
+  "description": "Android app for streaming and downloading media.",
+  "open_issues_count": 566,
+  "forks_count": 1186,
+  "created_at": "2022-08-04T08:42:38Z",
+  "licencia": "GPL-3.0"
+ },
+ "_nota_animiru": "quickdesh/Animiru responde 301 → animiruorg/Animiru (907★, v0.20.1.1 del 3-nov-2026)",
+ "animiruorg/Animiru": {
+  "stargazers_count": 907,
+  "archived": false,
+  "pushed_at": "2026-11-03T20:53:54Z",
+  "updated_at": "2026-11-03T20:53:54Z",
+  "license": {
+   "spdx_id": "GPL-3.0"
+  },
+  "description": "video player and library manager",
+  "licencia": "GPL-3.0",
+  "etiqueta": "v0.20.1.1, 3-nov-2026"
+ }
+}

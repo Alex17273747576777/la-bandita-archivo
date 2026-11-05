@@ -466,9 +466,9 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 15 repositorios que cita esta pi
 • HellzYeahh/earshot — ★38 · empujó el 1-nov-2026 (hace 4 días) · MIT · última release v0.9.0 (28-oct-2026)
 • WEIHEWU/shizuku-sam — ★42 · empujó en las últimas horas · Apache-2.0 · última release v13.8.40 (4-nov-2026)
 • bl3xand/APK-Toolbox — ★102 · empujó el 28-oct-2026 (hace 8 días) · GPL-3.0 · última release v1.1.6 (28-oct-2026)
-• wlmosv-png/wpaforge — ★155 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.9.40 (3-nov-2026)
+• wlmosv-png/wpaforge — ★156 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.9.40 (3-nov-2026)
 • Ghostpanter/ghost-files — ★14 · empujó en las últimas horas · MIT · última release v0.7.3 (5-nov-2026)
-• henry-97/MineApp — ★79 · empujó el 31-oct-2026 (hace 5 días) · GPL-3.0 · última release v3.8.5 (31-oct-2026)
+• henry-97/MineApp — ★80 · empujó el 31-oct-2026 (hace 5 días) · GPL-3.0 · última release v3.8.5 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

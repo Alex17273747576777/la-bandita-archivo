@@ -473,7 +473,7 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 56 repositorios que cita esta pi
 • Kototoro-app/Kototoro — ★671 · empujó en las últimas horas · Apache-2.0 · última release v2.3.9 (4-nov-2026)
 • itsmechinmoy/echo — sin dato hoy (la API no respondió). No afirmo nada.
 • itsmechinmoy/echo-nightly — ★390 · *dormido*: sin empujar desde el 22-ago-2026 (75 días) · NOASSERTION · última release nightly-20260402-172557-aafa008 (2-abr-2026)
-• mihonapp/mihon — ★25.044 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★25.045 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • komikku-app/anikku — ★1.130 · empujó el 22-oct-2026 (hace 14 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
 • recloudstream/cloudstream — ★11.162 · empujó en las últimas horas · GPL-3.0 · última release v4.8.0 (10-jul-2026)
 • kodjodevf/mangayomi — ★4.370 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.9.95 (1-nov-2026)
@@ -518,7 +518,7 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 56 repositorios que cita esta pi
 • harshtries-code/etsume — ★4 · *dormido*: sin empujar desde el 16-may-2026 (173 días) · Apache-2.0 · última release v0.18.1.2 (15-may-2026)
 • kurosensei2090/ZenYomi — ★0 · empujó en las últimas horas · Apache-2.0 · última release v1.0.2 (1-nov-2026)
 • 5rahim/seanime — ★4.306 · empujó el 14-oct-2026 (hace 22 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
-• 5rahim/seanime-tenji — ★93 · empujó el 31-oct-2026 (hace 5 días) · GPL-3.0 · última release v0.4.0-24.24-20261031-cc29022 (31-oct-2026)
+• 5rahim/seanime-tenji — ★94 · empujó el 31-oct-2026 (hace 5 días) · GPL-3.0 · última release v0.4.0-24.24-20261031-cc29022 (31-oct-2026)
 • AMRGAMAL-1/CloudStream-Desktop-Linux — ★7 · empujó el 10-oct-2026 (hace 26 días) · GPL-3.0 · última release linux-v0.1.10 (10-oct-2026)
 • krishnasinghrao/cloudstream-macos — ★4 · empujó el 25-oct-2026 (hace 11 días) · GPL-3.0 · última release v1.0.0 (11-oct-2026)
 • SMRiaz-SA/Auras-Orbit — ★1 · empujó el 1-nov-2026 (hace 4 días) · GPL-3.0 · última release v1.0.0.06 (28-oct-2026)

@@ -25,6 +25,7 @@ puede perder. Cada una nace de un error concreto de `docs/ERRORES.md`, y si el e
 | H22 | **El almacén es GitHub; el disco de trabajo es efímero** | E41 | `git push` en el mismo turno · talleres en `docs/talleres/` | todos los resultados |
 | H23 | **La cifra se busca en el diccionario que la tiene** | E42 | `E` = escrutinio (sumas, adjuntos, commits, incidencias) · `R` = medición (estrellas, entregas, licencia, días) · `python3 b16.py` antes de ensamblar | cada taller nuevo |
 | H24 | **Una tienda se cuenta, no se cita** | E43 | `repo.json` → `index.json` → contar entradas · `archived` y `pushed_at` de la API · `signingKey` · seguir la redirección · leer la descripción del autor | cada lista de repositorios o tiendas |
+| H25 | **Una tienda se abre, no se cita** | E44 | clonar (`--depth 1`) · `repo.json` → `index_v2` · contar el catálogo real · `signingKey` · un byte con `Range` · `archived` y `pushed_at` · comparar el `name` declarado con el del repositorio | cada tienda antes de nombrarla |
 | H17 | **La madurez se declara ficha a ficha** | E37 | `python3 tools/novedad_gate.py` | M25 |
 
 ## H01 · Medir antes de tocar
@@ -335,6 +336,24 @@ dirección. **El listón sube con menos y mejores**, no con más enlaces.
 
 **Cómo se pierde.** Volcando: cuando una lista crece más rápido de lo que se comprueba, deja de ser
 una lista y pasa a ser ruido, y el trabajo de comprobarlo se le cae encima a quien la lee.
+
+## H25 · Una tienda se abre, no se cita
+
+**Nace de E44.** Contar el archivo que todo el mundo cuenta (`index.min.json`) dio 5.481 extensiones, y
+cuatro de esas tiendas estaban cerradas: dentro de ese archivo lo que había era una lápida con el texto
+«Outdated App». La cifra era correcta y la conclusión falsa.
+
+**La regla.** Se clona el repositorio (`git clone --depth 1`), se abre `repo.json` —el primer archivo que
+pide la aplicación—, se sigue hasta el catálogo que de verdad se lee, se cuentan sus entradas, se comprueba
+la firma, se pide **un byte** de una descarga con `Range: bytes=0-0` y se cruzan `archived` y `pushed_at` de
+la API. Todo eso lo hace `tools/auditar_tienda.py`; la ficha queda en un JSON fechado.
+
+**Lo que añade a H24.** H24 decía «cuenta, no cites». H25 dice «abre, no cuentes»: entre la cifra y la
+conclusión hay una lectura. Una tienda cerrada sigue teniendo entradas; un repositorio vacío sigue teniendo
+estrellas; un plugin de una sola extensión puede ser el repositorio más listo del ecosistema.
+
+**Cómo se pierde.** Creyendo que la cifra es la conclusión: volver a publicar una tabla grande sin haber
+abierto nada, o llamar «tienda» a un repositorio de código porque el nombre del proyecto lo parece.
 
 ## El ritual completo, con las habilidades dentro
 

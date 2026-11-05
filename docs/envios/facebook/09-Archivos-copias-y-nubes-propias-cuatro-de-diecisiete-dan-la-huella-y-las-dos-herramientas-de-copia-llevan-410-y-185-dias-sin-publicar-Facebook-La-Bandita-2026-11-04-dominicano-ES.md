@@ -419,11 +419,11 @@ Y los tres que cierran la lista:
 Medí otra vez, hoy 5 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • rclone/rclone — ★60.813 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
-• immich-app/immich — ★118.285 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
-• localsend/localsend — ★97.394 · empujó el 2-nov-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• nextcloud/server — ★37.422 · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
-• restic/restic — ★37.012 · empujó el 1-nov-2026 (hace 4 días) · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
-• researchxxl/syncthing-android — ★3.251 · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• immich-app/immich — ★118.288 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
+• localsend/localsend — ★97.395 · empujó el 2-nov-2026 (hace 3 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• nextcloud/server — ★37.423 · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• restic/restic — ★37.013 · empujó el 1-nov-2026 (hace 4 días) · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
+• researchxxl/syncthing-android — ★3.252 · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • Ghostpanter/ghost-files — ★14 · empujó en las últimas horas · MIT · última release v0.7.3 (5-nov-2026)
 • ZENINXOP/Hexora — ★30 · empujó el 17-oct-2026 (hace 19 días) · GPL-3.0 · última release v0.1.4 (17-oct-2026)
 • BugeStudioTeam/Buge-Files — ★41 · empujó en las últimas horas · GPL-3.0 · última release 1.16.19 (4-nov-2026)

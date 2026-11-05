@@ -393,7 +393,7 @@ El permiso y la lista que hacen falta:
 Medí otra vez, hoy 5 de noviembre de 2026, los 18 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • anddea/revanced-patches — ★1.935 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.3.0 (28-sep-2026)
-• hoo-dles/morphe-patches — ★1.307 · empujó el 1-nov-2026 (hace 4 días) · GPL-3.0 · última release v1.47.0 (4-oct-2026)
+• hoo-dles/morphe-patches — ★1.308 · empujó el 1-nov-2026 (hace 4 días) · GPL-3.0 · última release v1.47.0 (4-oct-2026)
 • inotia00/revanced-patches — ★2.259 · *dormido*: sin empujar desde el 10-mar-2026 (240 días) · GPL-3.0 · última release v5.14.1 (31-dic-2025) · *ARCHIVADO*
 • MorpheApp/morphe-manager — ★9.992 · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (4-nov-2026)
 • Jman-Github/Universal-Patch-Manager — ★1.411 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
@@ -408,8 +408,8 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 18 repositorios que cita esta pi
 • inotia00/revanced-manager — ★1.700 · *dormido*: sin empujar desde el 29-dic-2025 (311 días) · GPL-3.0 · última release v1.25.7 (29-dic-2025) · *ARCHIVADO*
 • ReVanced/revanced-patches — sin dato hoy (la API no respondió). No afirmo nada.
 • ReVanced/where-is-revanced-patches — ★158 · *dormido*: sin empujar desde el 24-mar-2026 (226 días) · sin licencia detectada por la API
-• RikkaApps/Shizuku — ★32.836 · *dormido*: sin empujar desde el 18-jun-2025 (505 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• timschneeb/awesome-shizuku — ★10.707 · empujó en las últimas horas · NOASSERTION
+• RikkaApps/Shizuku — ★32.839 · *dormido*: sin empujar desde el 18-jun-2025 (505 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• timschneeb/awesome-shizuku — ★10.708 · empujó en las últimas horas · NOASSERTION
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -62,6 +62,8 @@ la publicación.
 
 | E43 | 5-nov | Piezas 10, 11 y 19 · listas de tiendas | La lista de tiendas de extensiones que circulaba tenía **seis cifras de seis mal**: Cursed figure como 131 extensiones cuando su índice publica **6**; Keiyoushi como «1503» cuando publica **1.458**; Kotatsu aparecía viva y está **archivada desde el 4-nov-2025**; el enlace de publicación de Yūzōnō **responde 301** desde hace meses. La causa no fue un error de cálculo: fue **copiar de una wiki sin volver a contar**. | la comunidad del ecosistema, en un escrito público | H24 |
 
+| E44 | 5-nov | Pieza 19, primera versión | Conté `index.min.json` como si fuera el catálogo. En Keiyoushi ese archivo tiene **2 entradas** y una se llama «Outdated App»; el catálogo real está en `index.pb`, al que apunta `repo.json`. En Yūzōnō para Mihon es igual, y en Secozzi también. Sumé 5.481 extensiones y cuatro de las tiendas contadas estaban cerradas. | el dueño, en su segunda crítica del 5-nov: «usa la app primero, clona y prueba» | H25 |
+
 ## Cómo se usa este registro
 
 1. Antes de escribir una pieza nueva se leen los errores de su misma familia.
