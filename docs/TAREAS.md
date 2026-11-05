@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 95 tareas abiertas en 28 piezas vivas, numeradas dentro de cada pieza, de 007 a 109. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 98 tareas abiertas en 29 piezas vivas, numeradas dentro de cada pieza, de 007 a 112. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -107,6 +107,9 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 107 | verificar que las seis comprobaciones de apertura de APK (ficha, licencia, permisos, extensiones, firma, historial) se puedan hacer en un teléfono sin instalar nada, y anotar en un acta qué pasa con cada una de las cinco ramas de la familia Kotatsu. | Facebook · 23 | 2026-11-05 |
 | 108 | medir la familia Kotatsu de nuevo dentro de un mes —3 de diciembre de 2026— para ver si DeepSync crece de una estrella, si Kototoro sigue siendo la única Apache-2.0, y si alguna rama nueva nace del padre archivado. | Facebook · 23 | 2026-11-05 |
 | 109 | escribir la ficha de DeepSync en el catálogo del archivo, con su guía y su estado, y la advertencia de que sus plugins y extensiones vienen de fuera, no del programa. | Facebook · 23 | 2026-11-05 |
+| 110 | verificar que las seis comprobaciones de apertura de editor de imagen (ficha, licencia, permisos, nube, firma, historial) se puedan hacer en un teléfono sin instalar nada, y anotar en un acta qué pasa con cada una de las cuatro herramientas de esta pieza. | Facebook · 24 | 2026-11-05 |
+| 111 | medir la familia de editores de imagen de nuevo dentro de un mes —3 de diciembre de 2026— para ver si Snapedit y Aksiphoto siguen vivas, si ImageToolbox sigue recibiendo empujones, y si Aksiphoto declara alguna licencia. | Facebook · 24 | 2026-11-05 |
+| 112 | escribir la ficha de cada una de las cuatro herramientas en el catálogo del archivo, con su guía y su estado, y la advertencia de que Image-Cropper es una biblioteca para programadores, no una aplicación de usuario. | Facebook · 24 | 2026-11-05 |
 
 ## Numeración: la regla y lo declarado
 
@@ -134,6 +137,7 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 > **Declarado:** 21-La-variante-que-cambio-OmniShizuku-de: numera desde 099 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 22-El-modulo-que-no-necesita-root-AxMana: numera desde 103 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 23-Deepsync-y-la-familia-kotatsu-lectore: numera desde 107 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 24-Editar-la-foto-sin-pagar-cuatro-herra: numera desde 110 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 
 La numeración es **por pieza**, no global: cada pieza numera sus tareas desde 001 porque la compuerta de novedad (M28) las cuenta dentro de la pieza. Por eso la misma cifra puede aparecer en dos piezas distintas y no es un error: la tarea se identifica por su número **y** su pieza.
 

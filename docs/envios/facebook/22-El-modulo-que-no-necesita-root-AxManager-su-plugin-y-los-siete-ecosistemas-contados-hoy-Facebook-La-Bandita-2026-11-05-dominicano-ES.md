@@ -414,7 +414,7 @@ Y lo quinto, que es la razón por la que no hay un enlace al final: **un módulo
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 3164 caracteres ═══
+═══ MENSAJE 19 de 20 · 3126 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 22*
 
@@ -422,7 +422,7 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 24 repositorios que cita esta pi
 
 • system/bin — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 • system/etc — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• fahrez182/AxManager — ★1.552 · empujó el 1-nov-2026 (hace 4 días) · Apache-2.0 · última release v3.0.0 (29-oct-2026)
+• fahrez182/AxManager — ★1.551 · empujó el 1-nov-2026 (hace 4 días) · Apache-2.0 · última release v3.0.0 (29-oct-2026)
 • fahrez182/Axeron-API — ★22 · empujó el 1-nov-2026 (hace 4 días) · MIT · última release 3.0.0 (29-oct-2026)
 • corvexis/Axora — ★19 · empujó el 21-oct-2026 (hace 15 días) · Apache-2.0 · última release 26.10.21 (21-oct-2026)
 • abysssnare/Axmanager-modle — ★28 · empujó el 5-oct-2026 (hace 31 días) · MIT · última release v2.1.0 (12-sep-2026)
@@ -430,20 +430,20 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 24 repositorios que cita esta pi
 • bufanchen121101/AxManagerD — ★51 · empujó el 31-oct-2026 (hace 5 días) · NOASSERTION · última release v1.4.0 (31-oct-2026)
 • topjohnwu/Magisk — ★63.798 · empujó el 27-oct-2026 (hace 9 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
 • tiann/KernelSU — ★20.138 · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
-• KernelSU-Next/KernelSU-Next — ★4.734 · empujó en las últimas horas · GPL-3.0 · última release v3.4.2 (13-oct-2026)
-• SukiSU-Ultra/SukiSU-Ultra — ★6.903 · empujó en las últimas horas · GPL-3.0 · última release v4.3.0-r2 (5-nov-2026)
-• bmax121/APatch — ★8.130 · empujó en las últimas horas · GPL-3.0 · última release 11282 (15-oct-2026)
-• Baka-SU/BakaSU — ★2.112 · empujó en las últimas horas · GPL-3.0
+• KernelSU-Next/KernelSU-Next — ★4.734 · empujó en las últimas horas · GPL-3.0
+• SukiSU-Ultra/SukiSU-Ultra — ★6.902 · empujó en las últimas horas · GPL-3.0 · última release v4.3.0-r2 (5-nov-2026)
+• bmax121/APatch — ★8.129 · empujó en las últimas horas · GPL-3.0 · última release 11282 (15-oct-2026)
+• Baka-SU/BakaSU — ★2.111 · empujó en las últimas horas · GPL-3.0
 • Magisk-Modules-Alt-Repo/json — ★131 · empujó en las últimas horas · GPL-3.0
 • Magisk-Modules-Alt-Repo/submission — ★290 · empujó el 27-sep-2026 (hace 39 días) · sin licencia detectada por la API
-• MMRLApp/MMRL — ★2.238 · empujó en las últimas horas · GPL-3.0 · última release v34296 (8-mar-2026)
+• MMRLApp/MMRL — ★2.237 · empujó en las últimas horas · GPL-3.0 · última release v34296 (8-mar-2026)
 • Fox2Code/FoxMagiskModuleManager — ★2.208 · *dormido*: sin empujar desde el 3-may-2023 (1282 días) · LGPL-3.0 · última release v2.0.2 (2-may-2023) · *ARCHIVADO*
 • MRepoApp/MRepo — ★1.118 · *dormido*: sin empujar desde el 2-jul-2024 (856 días) · GPL-3.0 · última release v2.5.0 (2-jul-2024) · *ARCHIVADO*
-• Androidacy/MagiskModuleManager — ★1.240 · *dormido*: sin empujar desde el 9-abr-2026 (210 días) · LGPL-3.0 · última release v2.3.8-1 (31-mar-2025)
-• LSPosed/LSPosed — ★25.350 · empujó el 14-oct-2026 (hace 22 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
-• JingMatrix/Vector — ★13.043 · empujó en las últimas horas · GPL-3.0 · última release v2.2 (4-ago-2026)
-• Dr-TSNG/ZygiskNext — ★10.816 · empujó el 15-oct-2026 (hace 21 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
-• 5ec1cff/TrickyStore — ★6.456 · *dormido*: sin empujar desde el 30-nov-2025 (340 días) · sin licencia detectada por la API · última release 1.4.1 (2-nov-2025)
+• Androidacy/MagiskModuleManager — ★1.239 · *dormido*: sin empujar desde el 9-abr-2026 (210 días) · LGPL-3.0 · última release v2.3.8-1 (31-mar-2025)
+• LSPosed/LSPosed — ★25.346 · empujó el 14-oct-2026 (hace 22 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
+• JingMatrix/Vector — ★13.042 · empujó en las últimas horas · GPL-3.0 · última release v2.2 (4-ago-2026)
+• Dr-TSNG/ZygiskNext — ★10.814 · empujó el 15-oct-2026 (hace 21 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
+• 5ec1cff/TrickyStore — ★6.455 · *dormido*: sin empujar desde el 30-nov-2025 (340 días) · sin licencia detectada por la API · última release 1.4.1 (2-nov-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -473,19 +473,19 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 56 repositorios que cita esta pi
 • Kototoro-app/Kototoro — ★672 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v2.3.9 (4-nov-2026)
 • itsmechinmoy/echo — sin dato hoy (la API no respondió). No afirmo nada.
 • itsmechinmoy/echo-nightly — ★390 · *dormido*: sin empujar desde el 22-ago-2026 (75 días) · NOASSERTION · última release nightly-20260402-172557-aafa008 (2-abr-2026)
-• mihonapp/mihon — ★25.049 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★25.050 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • komikku-app/anikku — ★1.134 · empujó el 22-oct-2026 (hace 14 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
 • recloudstream/cloudstream — ★11.164 · empujó en las últimas horas · GPL-3.0 · última release v4.8.0 (10-jul-2026)
-• kodjodevf/mangayomi — ★4.382 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.9.95 (1-nov-2026)
-• UsagiApp/usagi — ★291 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
+• kodjodevf/mangayomi — ★4.383 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.9.95 (1-nov-2026)
+• UsagiApp/usagi — ★292 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
 • LNReader/lnreader — ★2.957 · empujó el 1-nov-2026 (hace 4 días) · MIT · última release v2.1.4 (26-sep-2026)
 • Aidoku/Aidoku — ★4.704 · empujó el 31-oct-2026 (hace 5 días) · GPL-3.0 · última release v0.9-4 (16-oct-2026)
 • Suwayomi/Suwayomi-Server — ★8.017 · empujó el 1-nov-2026 (hace 4 días) · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
 • Jays2Kings/tachiyomiJ2K — ★5.406 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.8.1 (15-ago-2026)
 • jobobby04/TachiyomiSY — ★4.203 · empujó el 1-nov-2026 (hace 4 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
-• komikku-app/komikku — ★4.987 · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
+• komikku-app/komikku — ★4.988 · empujó en las últimas horas · Apache-2.0 · última release v1.14.1 (17-jul-2026)
 • yuzono/tachiyomi-extensions — ★959 · empujó el 2-nov-2026 (hace 3 días) · Apache-2.0
-• nekomangaorg/Neko — ★2.825 · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
+• nekomangaorg/Neko — ★2.826 · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
 • null2264/yokai — ★1.917 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
 • ruzhe85/MihonSY — ★51 · empujó en las últimas horas · Apache-2.0 · última release v1.3.0 (4-nov-2026)
 • unseensnick/Reikai — ★47 · empujó en las últimas horas · Apache-2.0 · última release v0.5.1 (26-oct-2026)
@@ -497,7 +497,7 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 56 repositorios que cita esta pi
 • Hotaro26/miko — ★34 · *dormido*: sin empujar desde el 11-sep-2026 (55 días) · sin licencia detectada por la API · última release v3.3 (3-ago-2026)
 • Ero-gamer/Weeber — ★1 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0
 • Nyora-Manga/nyora-android — ★60 · empujó el 23-sep-2026 (hace 43 días) · GPL-3.0 · última release v2.7.3 (31-jul-2026)
-• KotatsuApp/Kotatsu — ★8.952 · *dormido*: sin empujar desde el 4-nov-2025 (366 días) · GPL-3.0 · *ARCHIVADO*
+• KotatsuApp/Kotatsu — ★8.951 · *dormido*: sin empujar desde el 4-nov-2025 (366 días) · GPL-3.0 · *ARCHIVADO*
 • Suwayomi/Suwayomi-Tsumiru — ★115 · empujó en las últimas horas · MPL-2.0 · última release v1.6.4 (2-nov-2026)
 • Suwayomi/Suwayomi-JUI — ★499 · empujó el 15-oct-2026 (hace 21 días) · MPL-2.0 · última release v1.3.3 (31-mar-2024)
 • Suwayomi/Suwayomi-VaadinUI — ★50 · empujó el 18-oct-2026 (hace 18 días) · MPL-2.0 · última release v2.0.3 (18-oct-2026)
@@ -505,7 +505,7 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 56 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 16 de 19
 
-═══ MENSAJE 18 de 20 · 2692 caracteres ═══
+═══ MENSAJE 18 de 20 · 2646 caracteres ═══
 
 • Sumidoku/Sumidoku — ★9 · empujó en las últimas horas · MIT · última release v1.21.2 (5-nov-2026)
 • Suwayomi/Tachidesk-Sorayomi — ★1.571 · *dormido*: sin empujar desde el 9-jul-2025 (484 días) · MPL-2.0 · última release 0.6.3 (22-feb-2025) · *ARCHIVADO*
@@ -517,13 +517,13 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 56 repositorios que cita esta pi
 • kiritsuguxs/yomotsu — ★12 · empujó en las últimas horas · Apache-2.0 · última release v0.21.4-Y9 (5-nov-2026)
 • harshtries-code/etsume — ★4 · *dormido*: sin empujar desde el 16-may-2026 (173 días) · Apache-2.0 · última release v0.18.1.2 (15-may-2026)
 • kurosensei2090/ZenYomi — ★0 · empujó en las últimas horas · Apache-2.0 · última release v1.0.2 (1-nov-2026)
-• 5rahim/seanime — ★4.307 · empujó el 14-oct-2026 (hace 22 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
+• 5rahim/seanime — ★4.308 · empujó el 14-oct-2026 (hace 22 días) · GPL-3.0 · última release v3.10.4 (14-oct-2026)
 • 5rahim/seanime-tenji — ★94 · empujó el 31-oct-2026 (hace 5 días) · GPL-3.0 · última release v0.4.0-24.24-20261031-cc29022 (31-oct-2026)
 • AMRGAMAL-1/CloudStream-Desktop-Linux — ★7 · empujó el 10-oct-2026 (hace 26 días) · GPL-3.0 · última release linux-v0.1.10 (10-oct-2026)
 • krishnasinghrao/cloudstream-macos — ★4 · empujó el 25-oct-2026 (hace 11 días) · GPL-3.0 · última release v1.0.0 (11-oct-2026)
 • SMRiaz-SA/Auras-Orbit — ★1 · empujó el 1-nov-2026 (hace 4 días) · GPL-3.0 · última release v1.0.0.06 (28-oct-2026)
-• 1Selxo/Mangatan — ★97 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.2.26 (18-oct-2026)
-• MenaHere/Yuri-Reader — ★2 · empujó en las últimas horas · Apache-2.0 · última release v0.7.3+1 (7-oct-2026)
+• 1Selxo/Mangatan — ★97 · empujó en las últimas horas · GPL-3.0 · última release v1.2.26 (18-oct-2026)
+• MenaHere/Yuri-Reader — ★2 · empujó en las últimas horas · Apache-2.0
 • IReaderorg/IReader — ★986 · empujó el 28-oct-2026 (hace 8 días) · Apache-2.0 · última release v2.0.26 (7-sep-2026)
 • Stiven-Gjekaj/Asabunko — ★5 · empujó el 24-oct-2026 (hace 12 días) · MIT · última release v3.0.0 (24-oct-2026)
 • AtiinLabs/Ito — ★8 · empujó en las últimas horas · MPL-2.0 · última release v1.4.0 (2-nov-2026)

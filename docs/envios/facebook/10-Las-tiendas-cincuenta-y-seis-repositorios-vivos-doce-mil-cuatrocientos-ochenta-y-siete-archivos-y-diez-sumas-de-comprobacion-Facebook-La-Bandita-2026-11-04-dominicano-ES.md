@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/10-Las-tiendas-cincuenta-y-seis-repositorios-vivos-doce-mil-cuatrocientos-ochenta-y-siete-archivos-y-diez-sumas-de-comprobacion-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
 - **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `265c9962c35cc14b3904299a991943bbfe22cc17382adb457fa9d6cc716356ad`
-- **Envío generado:** 2026-11-05 · 20 mensajes · el mayor de 3878 caracteres
+- **Envío generado:** 2026-11-05 · 20 mensajes · el mayor de 3922 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 20 · 1085 caracteres ═══
@@ -493,21 +493,21 @@ Y lo cuarto, la frase que esta serie repite porque en cada tema se cumple: **lo 
 
 ⏬ sigue abajo · parte 15 de 19
 
-═══ MENSAJE 17 de 20 · 3878 caracteres ═══
+═══ MENSAJE 17 de 20 · 3922 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 10*
 
 Medí otra vez, hoy 5 de noviembre de 2026, los 58 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• amrkmn/x — ★41 (sin cambio) · empujó en las últimas horas · MIT · última release v0.780.3 (5-nov-2026)
+• amrkmn/x — ★41 (sin cambio) · empujó en las últimas horas · MIT
 • yuzono/aniyomi-extensions — sin dato hoy (la API no respondió). No afirmo nada.
 • yuzono/anime-repo — sin dato hoy (la API no respondió). No afirmo nada.
 • mojuru/anime-repo — ★72 · empujó en las últimas horas · sin licencia detectada por la API
-• keiyoushi/extensions — ★15.442 · empujó en las últimas horas · sin licencia detectada por la API · última release 4591fbc-2 (5-nov-2026)
+• keiyoushi/extensions — ★15.441 · empujó en las últimas horas · sin licencia detectada por la API
 • keiyoushi/extensions-source — ★4.867 · empujó en las últimas horas · Apache-2.0
 • yuzono/tachiyomi-extensions — ★959 · empujó el 2-nov-2026 (hace 3 días) · Apache-2.0
 • cuong-tran/manga-repo — ★468 · empujó el 2-nov-2026 (hace 3 días) · sin licencia detectada por la API · última release f7d844c-2 (2-nov-2026)
-• LittleSurvival/copymanga-copy20 — ★2.995 · empujó el 11-oct-2026 (hace 25 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
+• LittleSurvival/copymanga-copy20 — ★2.994 · empujó el 11-oct-2026 (hace 25 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • cofedream/extensions-copymanga — ★498 · *dormido*: sin empujar desde el 8-ago-2026 (89 días) · sin licencia detectada por la API · última release v1.4.11 (7-jun-2025)
 • FelipeGFA/extensoes — ★43 · empujó el 28-sep-2026 (hace 38 días) · sin licencia detectada por la API · última release d90cba1-2 (28-sep-2026)
 • mojuru/cursed-manga-repo — ★176 · empujó el 12-oct-2026 (hace 24 días) · sin licencia detectada por la API · última release 5dad5cf (12-oct-2026)
@@ -531,12 +531,12 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 58 repositorios que cita esta pi
 • Mallyd11/mangayomi-anime-extensions — ★28 · empujó el 1-nov-2026 (hace 4 días) · Apache-2.0
 • meesam4687/zenbu — ★18 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.3.8 (17-oct-2026)
 • Schnitzel5/ApkBridge — ★36 · *dormido*: sin empujar desde el 11-feb-2026 (267 días) · Apache-2.0 · última release v1.8 (11-sep-2025)
+• kodjodevf/mangayomi-extensions — ★360 · *dormido*: sin empujar desde el 1-oct-2025 (400 días) · Apache-2.0 · *ARCHIVADO*
 
 ⏬ sigue abajo · parte 16 de 19
 
-═══ MENSAJE 18 de 20 · 2764 caracteres ═══
+═══ MENSAJE 18 de 20 · 2641 caracteres ═══
 
-• kodjodevf/mangayomi-extensions — ★360 · *dormido*: sin empujar desde el 1-oct-2025 (400 días) · Apache-2.0 · *ARCHIVADO*
 • lnreader/lnreader-plugins — ★368 · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
 • IReaderorg/IReader-extensions — ★32 · empujó el 27-oct-2026 (hace 9 días) · MPL-2.0
 • NovelSourcery/extensions — ★21 · empujó el 28-oct-2026 (hace 8 días) · sin licencia detectada por la API · última release d31198f (28-oct-2026)
