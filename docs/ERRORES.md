@@ -56,6 +56,8 @@ la publicación.
 
 | E40 | 4-nov | Pieza 12 · enlace vetado por la plataforma | La pieza 12 se publicó a las 21:02 y Facebook la retiró veinte minutos después: **no puedes compartir este enlace — `github.com/jackett/jackett` — infringe nuestras Normas comunitarias**. El programa era fontanería de torrentes y el enlace iba en el cuerpo y en la lista de direcciones. No se discutió el criterio: se cumplió. Se remedió entero a las `21:37`, se quitó el repositorio y con él su nombre del cuerpo, de la tabla de reemplazos y del bloque de enlaces (**cero menciones en el texto final**), y en su lugar entraro **ocho** proyectos nacidos en 2026, uno por sección. La compuerta M07 pasó a exigir que **toda** URL del cuerpo aparezca en la lista de enlaces, que es lo que hacía falta para poder revisarlas de un vistazo. | el envío de Facebook, captura del aviso | H20 |
 
+| E41 | 4-nov | Taller · almacenamiento local | Dos veces en la misma noche se perdió trabajo por fiarse del disco de trabajo: el clon vivía en `.cache/` —carpeta que el entorno no conserva— y, al turno siguiente, el directorio del repositorio apareció **revertido a un estado viejo y sin `.git`**. Lo publicado en GitHub estaba intacto (piezas 01–14); lo local, no. Se perdió una medición de 59 repositorios y hubo que repetirla entera. | la segunda pérdida, al abrir el turno | H22 |
+
 ## Cómo se usa este registro
 
 1. Antes de escribir una pieza nueva se leen los errores de su misma familia.

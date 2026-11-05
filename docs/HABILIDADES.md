@@ -21,6 +21,8 @@ puede perder. Cada una nace de un error concreto de `docs/ERRORES.md`, y si el e
 | H18 | **El título se calcula, no se recuerda** | E38 | `python3 tools/manual_gate.py --pieza` | el nombre del archivo |
 | H19 | **El día se cuenta en la hora de la casa** | E39 | `tools/remedir.py --escribir` | la columna del empujón |
 | H20 | **Ningún enlace vetado en una pieza del canal que lo veta** | E40 | `tools/envio.py --verificar` · `grep` de la familia | el cuerpo y el bloque de enlaces |
+| H21 | **El historial y el ecosistema se revisan antes de sondear** | E41 + regla del dueño | `tools/preflight.py --tema` | el punto de partida de cada pieza |
+| H22 | **El almacén es GitHub; el disco de trabajo es efímero** | E41 | `git push` en el mismo turno · talleres en `docs/talleres/` | todos los resultados |
 | H17 | **La madurez se declara ficha a ficha** | E37 | `python3 tools/novedad_gate.py` | M25 |
 
 ## H01 · Medir antes de tocar
@@ -276,10 +278,37 @@ cuerpo esté en la lista de enlaces para poder revisarlas de un vistazo.
 **Cómo se pierde.** Escribiendo la pieza desde el catálogo del tema en vez de desde el canal: lo que
 está bien documentado no siempre está permitido. Y confiando en que «un enlace de GitHub es inocente».
 
+## H21 · El historial y el ecosistema se revisan antes de sondear
+
+**Nace de la regla del dueño (4-nov-2026, noche).** Antes de elegir candidatos de una pieza se mira,
+en este orden: **la fecha en vivo**, **qué está ya publicado y qué toca** según el mapa de 125, y
+**el ecosistema** —GitHub por fecha de creación y por tema—. Sondear primero y mirar el historial
+después produce piezas que repiten tema y párrafos que ya estaban escritos.
+
+**La regla.** `tools/preflight.py --tema <tema>` hace las tres cosas y deja acta. No se escribe una
+ficha que no venga de ese censo previo.
+
+**Cómo se pierde.** Abriendo el editor antes que el historial: es cómo se escriben dos piezas del
+mismo tema con tres semanas de diferencia y no se nota hasta que la compuerta de solape lo dice.
+
+## H22 · El almacén es GitHub; el disco de trabajo es efímero
+
+**Nace de E41.** En una sola noche se perdió dos veces el trabajo local: una carpeta que el entorno
+no conserva y un directorio que amaneció revertido. Lo empujado, intacto.
+
+**La regla.** Se empuja **en el mismo turno** en que se produce el resultado. Los clones viven en
+`/tmp` y se rehacen; los talleres (los generadores del texto) se guardan en `docs/talleres/pieza-NN/`
+dentro del repositorio, porque un número que no se puede repetir desde el repositorio no es un dato,
+es un recuerdo.
+
+**Cómo se pierde.** Diciendo «lo subo al final». El final, en un taller que se corta, no llega.
+
 ## El ritual completo, con las habilidades dentro
 
 
+
 ```
+LBT=… python3 tools/preflight.py --tema <tema>  # fecha + historial + ecosistema (H21)
 make libro                                     # tablero, índice y tareas
 LBT=… python3 tools/remedir.py --escribir docs/MEDICION-<pieza>-<fecha>.json --pieza <pieza>
 LBT=… python3 tools/remedir.py --pieza <pieza> --medicion docs/MEDICION-<pieza>-<fecha>.json
