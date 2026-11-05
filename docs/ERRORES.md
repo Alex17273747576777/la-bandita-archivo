@@ -64,6 +64,8 @@ la publicación.
 
 | E44 | 5-nov | Pieza 19, primera versión | Conté `index.min.json` como si fuera el catálogo. En Keiyoushi ese archivo tiene **2 entradas** y una se llama «Outdated App»; el catálogo real está en `index.pb`, al que apunta `repo.json`. En Yūzōnō para Mihon es igual, y en Secozzi también. Sumé 5.481 extensiones y cuatro de las tiendas contadas estaban cerradas. | el dueño, en su segunda crítica del 5-nov: «usa la app primero, clona y prueba» | H25 |
 
+| E45 | 5-nov | Pieza 20 · teclados | Un texto que circula prometía **75 teclas de IA** en un teclado Android, una «armadura universal» y «100 % de obediencia forzada». El teclado que describía (LeanType) admite **diez**: `CUSTOM_AI_1`…`CUSTOM_AI_10` en su `InputLogic.kt`, y sus «etiquetas mágicas» son las diez palabras clave de su pantalla de ajustes. Los porcentajes no venían de ninguna ejecución. | lectura del texto y clon del teclado, 5-nov | H26 |
+
 ## Cómo se usa este registro
 
 1. Antes de escribir una pieza nueva se leen los errores de su misma familia.

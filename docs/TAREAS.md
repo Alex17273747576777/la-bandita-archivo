@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 80 tareas abiertas en 24 piezas vivas, numeradas dentro de cada pieza, de 007 a 094. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 84 tareas abiertas en 25 piezas vivas, numeradas dentro de cada pieza, de 007 a 098. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -92,6 +92,10 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 092 | volver a clonar las ocho tiendas el 5 de diciembre y publicar la tabla de diferencias: entradas ganadas o perdidas, firmas nuevas y tiendas cerradas. | Facebook · 19 | 2026-11-05 |
 | 093 | la prueba que falta: abrir una extensión de Keiyoushi y una de Yūzōnō Anime en un teléfono, buscar el mismo título en las dos y anotar cuántas fuentes responden. | Facebook · 19 | 2026-11-05 |
 | 094 | escribir la pieza 20 —los subtítulos y el doblaje, que este corte dejó pendientes— con el mismo método: revisión previa, medición fechada y ninguna cifra escrita a mano. | Facebook · 19 | 2026-11-05 |
+| 095 | ejecutar las diez teclas contra dos modelos —uno local con Ollama y uno en la nube— con un texto de prueba de 200 palabras, y anotar en un acta cuántas devuelven solo el texto y cuántas respetan la longitud. | Facebook · 20 | 2026-11-05 |
+| 096 | comprobar en un teléfono el add-on de AnySoftKeyboard generado: si compila, cuántos textos admite de verdad y si el teclado emergente los muestra todos. | Facebook · 20 | 2026-11-05 |
+| 097 | mirar el diccionario de frases de Trime y de Fcitx5 con el mismo método de esta pieza —clonar, buscar, leer— y cerrar el «—» que hoy tienen en la tabla. | Facebook · 20 | 2026-11-05 |
+| 098 | escribir la pieza 21 —los subtítulos y el doblaje, que llevan dos cortes esperando— con el método de hoy: clonar antes de escribir una línea y ninguna cifra de memoria. | Facebook · 20 | 2026-11-05 |
 
 ## Numeración: la regla y lo declarado
 
@@ -115,6 +119,7 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 > **Declarado:** 17-El-teclado-que-escribe-por-ti-treinta: numera desde 079 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 18-La-radio-y-el-directo-treinta-y-dos-p: numera desde 083 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 19-La-tienda-que-le-sirve-a-tu-app-quinc: numera desde 091 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 20-El-teclado-que-obedece-once-teclados-: numera desde 095 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 
 La numeración es **por pieza**, no global: cada pieza numera sus tareas desde 001 porque la compuerta de novedad (M28) las cuenta dentro de la pieza. Por eso la misma cifra puede aparecer en dos piezas distintas y no es un error: la tarea se identifica por su número **y** su pieza.
 

@@ -25,7 +25,8 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 17 | El teclado que escribe por ti treinta y cuatro teclados y dictados med | 20 | 3928 | 33 | 0 | no | `17-El-teclado-que-escribe-por-ti-treinta-y-cuatro-teclados-y-dictados-medidos-hoy-diez-de-2026-y-la-proporcion-de-firma-mas-alta-del-ano-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 18 | La radio y el directo: treinta y dos piezas medidas hoy —el enlace que | 22 | 3874 | 33 | 1 | no | `18-La-radio-y-el-directo-treinta-y-dos-piezas-medidas-hoy-el-enlace-que-dura-un-minuto-y-la-guia-que-hay-que-mantener-a-mano-Facebook-La-Bandita-2026-11-05-dominicano-ES` |
 | 19 | La tienda que le sirve a tu app: quince repositorios clonados y leídos | 22 | 3362 | 26 | 0 | no | `19-La-tienda-que-le-sirve-a-tu-app-quince-repositorios-clonados-y-leidos-hoy-ocho-que-sirven-y-siete-que-no-con-su-motivo-Facebook-La-Bandita-2026-11-05-dominicano-ES` |
+| 20 | El teclado que obedece once teclados clonados y leidos hoy diez teclas | 19 | 3651 | 12 | 1 | no | `20-El-teclado-que-obedece-once-teclados-clonados-y-leidos-hoy-diez-teclas-medidas-en-el-codigo-y-veintidos-textos-con-once-comprobaciones-Facebook-La-Bandita-2026-11-05-dominicano-ES` |
 
-**19 piezas · 371 mensajes** · el mayor de todos: 3937 caracteres.
+**20 piezas · 390 mensajes** · el mayor de todos: 3937 caracteres.
 
 

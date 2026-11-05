@@ -499,15 +499,15 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 26 repositorios que cita esta pi
 • LittleSurvival/copymanga-copy20 — ★2.994 · empujó el 11-oct-2026 (hace 25 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • kodjodevf/mangayomi-extensions — ★360 · *dormido*: sin empujar desde el 1-oct-2025 (400 días) · Apache-2.0 · *ARCHIVADO*
 • yuzono/manga-repo — ★13 · *dormido*: sin empujar desde el 18-ago-2026 (79 días) · sin licencia detectada por la API
-• mihonapp/mihon — ★25.045 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★25.042 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • UsagiApp/Usagi — ★290 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.2 (3-oct-2026)
 • HuzaifaKhalid1311/DropSauce — ★229 · empujó en las últimas horas · GPL-3.0 · última release v1.1.2 (4-nov-2026)
 • AppFuton/Futon — ★477 · empujó en las últimas horas · GPL-3.0 · última release v9.9 (21-oct-2026)
-• kodjodevf/mangayomi — ★4.370 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.9.95 (1-nov-2026)
+• kodjodevf/mangayomi — ★4.372 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.9.95 (1-nov-2026)
 • recloudstream/cloudstream — ★11.162 · empujó en las últimas horas · GPL-3.0 · última release v4.8.0 (10-jul-2026)
 • KotatsuApp/Kotatsu — ★8.952 · *dormido*: sin empujar desde el 4-nov-2025 (366 días) · GPL-3.0 · *ARCHIVADO*
 • lnreader/lnreader-plugins — ★368 · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
-• keiyoushi/extensions — ★15.439 · empujó en las últimas horas · sin licencia detectada por la API · última release ee661f5 (4-nov-2026)
+• keiyoushi/extensions — ★15.438 · empujó en las últimas horas · sin licencia detectada por la API · última release ee661f5 (4-nov-2026)
 • salmanbappi/extensions-repo — ★52 · empujó el 2-nov-2026 (hace 3 días) · sin licencia detectada por la API
 • yuzono/cursed-manga-extensions — ★221 · empujó en las últimas horas · Apache-2.0
 • m2k3a/mangayomi-extensions — ★116 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0

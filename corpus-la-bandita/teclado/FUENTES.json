@@ -1,0 +1,116 @@
+{
+  "medido": "2026-11-05 10:2x UTC (ver docs/MEDICION-20-teclados-2026-11-05.json)",
+  "nota": "once teclados clonados con --depth 1 y leídos; las banderas salen de buscar la función en el código, no de la descripción del repositorio",
+  "teclados": [
+    {
+      "repo": "LeanBitLab/LeanType",
+      "rol": "teclado con IA y expansor",
+      "teclas_ia": 10,
+      "palabras_clave": 10,
+      "expansor": true,
+      "evidencia": "KeyCode.CUSTOM_AI_1..10 en InputLogic.kt; TextExpanderScreen.kt con prefijo, regex y plantillas %clipboard% %date%",
+      "licencia": "GPL-3.0",
+      "deriva_de": "HeliBorg/HeliBoard"
+    },
+    {
+      "repo": "SvReenen/Deskdrop",
+      "rol": "teclado con IA local",
+      "teclas_ia": null,
+      "palabras_clave": null,
+      "expansor": null,
+      "evidencia": "AiServiceSync.kt, ExecuteSettingsActivity.kt, asistente de modelos de Ollama",
+      "licencia": "GPL-3.0",
+      "deriva_de": "HeliBorg/HeliBoard"
+    },
+    {
+      "repo": "AnySoftKeyboard/AnySoftKeyboard",
+      "rol": "teclado con textos rápidos",
+      "teclas_ia": 0,
+      "palabras_clave": 0,
+      "expansor": true,
+      "evidencia": "QuickTextKey.java y esquema QuickTextKeys/QuickTextKey en ime/addons/quick_text/res/xml",
+      "licencia": "Apache-2.0",
+      "deriva_de": null
+    },
+    {
+      "repo": "HeliBorg/HeliBoard",
+      "rol": "teclado base",
+      "teclas_ia": 0,
+      "palabras_clave": 0,
+      "expansor": false,
+      "evidencia": "ClipboardHistoryManager.kt sí; ninguna coincidencia de expansión de texto en el código",
+      "licencia": "GPL-3.0",
+      "deriva_de": null
+    },
+    {
+      "repo": "florisboard/florisboard",
+      "rol": "teclado base",
+      "teclas_ia": 0,
+      "palabras_clave": 0,
+      "expansor": false,
+      "evidencia": "UserDictionary.kt solo llega a la palabra; sin expansión de frases",
+      "licencia": "Apache-2.0",
+      "deriva_de": null
+    },
+    {
+      "repo": "Julow/Unexpected-Keyboard",
+      "rol": "teclado mínimo",
+      "teclas_ia": 0,
+      "palabras_clave": 0,
+      "expansor": false,
+      "evidencia": "sin ninguna coincidencia de expansión; los layouts son JSON con teclas de un carácter",
+      "licencia": "GPL-3.0",
+      "deriva_de": null
+    },
+    {
+      "repo": "dessalines/thumb-key",
+      "rol": "teclado gestual",
+      "teclas_ia": 0,
+      "palabras_clave": 0,
+      "expansor": false,
+      "evidencia": "sin coincidencias de expansión ni de textos rápidos",
+      "licencia": "AGPL-3.0",
+      "deriva_de": null
+    },
+    {
+      "repo": "osfans/trime",
+      "rol": "motor Rime en Android",
+      "teclas_ia": 0,
+      "palabras_clave": 0,
+      "expansor": null,
+      "evidencia": "Rime compila diccionarios propios; no se comprobó el diccionario de frases",
+      "licencia": "GPL-3.0",
+      "deriva_de": null
+    },
+    {
+      "repo": "fcitx5-android/fcitx5-android",
+      "rol": "motor Fcitx5 en Android",
+      "teclas_ia": 0,
+      "palabras_clave": 0,
+      "expansor": null,
+      "evidencia": "motores de entrada, no textos rápidos",
+      "licencia": "LGPL-2.1",
+      "deriva_de": null
+    },
+    {
+      "repo": "futo-org/android-keyboard",
+      "rol": "teclado con IA de voz",
+      "teclas_ia": 0,
+      "palabras_clave": 0,
+      "expansor": false,
+      "evidencia": "fork de AOSP LatinIME; licencia FUTO Source First 1.1, que GitHub marca NOASSERTION por no ser estándar",
+      "licencia": "FUTO Source First 1.1",
+      "deriva_de": "AOSP LatinIME"
+    },
+    {
+      "repo": "rkkr/simple-keyboard",
+      "rol": "teclado mínimo",
+      "teclas_ia": 0,
+      "palabras_clave": 0,
+      "expansor": false,
+      "evidencia": "sin coincidencias de expansión",
+      "licencia": "Apache-2.0",
+      "deriva_de": null
+    }
+  ]
+}

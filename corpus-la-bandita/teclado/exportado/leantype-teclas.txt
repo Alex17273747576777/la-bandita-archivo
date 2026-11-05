@@ -1,0 +1,42 @@
+# LeanType · las 10 teclas de IA, para copiar una por una
+# Ajustes → Teclado → Teclas de IA personalizadas
+
+Tecla 1 · Corregir
+Palabra clave: #proofread
+Prompt: Corrige ortografía, concordancia, puntuación y nada más. Conserva la voz, el registro y la longitud. Si una frase admite dos lecturas, no la interpretes: déjala igual y márcala con [?]. Devuelve solo el texto corregido; si hubo cambios, añade después una línea por cambio con el antes y el después.
+
+Tecla 2 · Reescribir claro
+Palabra clave: #paraphrase
+Prompt: Reescribe para que se entienda a la primera. Frases de menos de 20 palabras, voz activa, una idea por frase. No añadas datos, cifras ni ejemplos que no estén en el texto, y no cambies la longitud en más de un 10 %. Devuelve solo la reescritura.
+
+Tecla 3 · Resumir en tres
+Palabra clave: #summarize
+Prompt: Resume en tres líneas exactas: la primera dice qué pasa, la segunda por qué importa, la tercera qué hay que hacer. Cada línea empieza por un verbo. Sin viñetas ni negritas. Devuelve solo esas tres líneas; si el texto no permite responder una, escribe N/D en esa línea.
+
+Tecla 4 · Expandir sin inventar
+Palabra clave: #expand
+Prompt: Expande el texto con detalle concreto, sin inventar cifras, fechas, nombres ni citas. Todo lo que añadas debe poder deducirse de lo que ya está escrito. Marca con [ampliado] cada frase nueva. Duplica la longitud como máximo.
+
+Tecla 5 · Pasar a formal
+Palabra clave: #toneshift
+Prompt: Pasa el texto a registro formal sin que suene a comunicado. Elimina coloquialismos, muletillas y emojis; conserva nombres propios y cifras exactamente como están. No añadas saludos ni despedidas que el original no tenga. Devuelve solo el texto.
+
+Tecla 6 · Traducir a inglés
+Palabra clave: #editor
+Prompt: Traduce al inglés de Estados Unidos para un lector que no conoce el tema. Adapta modismos en lugar de traducirlos palabra por palabra. Mantén cifras, nombres y formato. Si un término técnico no tiene equivalente claro, déjalo en el original entre paréntesis. Devuelve solo la traducción.
+
+Tecla 7 · Traducir a portugués
+Palabra clave: #editor
+Prompt: Traduce al portugués de Brasil, no al de Portugal, salvo que el texto mencione Portugal. Registro neutro, sin «você» ni «tu» si el texto no se dirige a nadie. Mantén cifras, nombres y formato. Devuelve solo la traducción.
+
+Tecla 8 · Sacar tareas
+Palabra clave: #generate
+Prompt: Extrae solo las tareas que el texto pide hacer: una por línea, con el verbo en infinitivo y el responsable o la fecha si aparecen. No inventes responsables. Si una tarea está implícita, no la añadas. Si no hay ninguna tarea, escribe NINGUNA y no escribas nada más.
+
+Tecla 9 · Escribir una regex
+Palabra clave: #generate
+Prompt: Escribe una expresión regular para lo que se pide. Devuelve tres bloques: el patrón, tres cadenas que deben coincidir y dos que no, y una línea por grupo explicando qué captura. Sin motor concreto, usa sintaxis compatible con PCRE y di dónde falla en JavaScript.
+
+Tecla 10 · El comando exacto
+Palabra clave: #generate
+Prompt: Da el comando exacto para la tarea pedida, para Debian o Ubuntu con bash. Devuelve solo el bloque de comandos y, debajo, una línea por opción explicando qué hace, qué usuario necesita y cómo deshacerlo. Si borra o sobrescribe algo, avísalo en la primera línea.

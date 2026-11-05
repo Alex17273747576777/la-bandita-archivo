@@ -503,7 +503,7 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 58 repositorios que cita esta pi
 • yuzono/aniyomi-extensions — sin dato hoy (la API no respondió). No afirmo nada.
 • yuzono/anime-repo — sin dato hoy (la API no respondió). No afirmo nada.
 • mojuru/anime-repo — ★72 · empujó en las últimas horas · sin licencia detectada por la API
-• keiyoushi/extensions — ★15.439 · empujó en las últimas horas · sin licencia detectada por la API · última release ee661f5 (4-nov-2026)
+• keiyoushi/extensions — ★15.438 · empujó en las últimas horas · sin licencia detectada por la API · última release ee661f5 (4-nov-2026)
 • keiyoushi/extensions-source — ★4.865 · empujó en las últimas horas · Apache-2.0
 • yuzono/tachiyomi-extensions — ★958 · empujó el 2-nov-2026 (hace 3 días) · Apache-2.0
 • cuong-tran/manga-repo — ★468 · empujó el 2-nov-2026 (hace 3 días) · sin licencia detectada por la API · última release f7d844c-2 (2-nov-2026)

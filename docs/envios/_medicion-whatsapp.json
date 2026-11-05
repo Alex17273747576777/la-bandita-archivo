@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-05",
- "medido_en_utc": "2026-11-05T10:35:47+00:00",
+ "medido_en_utc": "2026-11-05T11:01:42+00:00",
  "repos": {
   "ImranR98/Obtainium": {
    "estado": "vivo",
@@ -16,7 +16,7 @@
   },
   "Droid-ify/client": {
    "estado": "vivo",
-   "stars": 7701,
+   "stars": 7702,
    "push": "2026-09-12",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -28,7 +28,7 @@
   },
   "NeoApplications/Neo-Store": {
    "estado": "vivo",
-   "stars": 5628,
+   "stars": 5629,
    "push": "2026-10-23",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -40,7 +40,7 @@
   },
   "MuntashirAkon/AppManager": {
    "estado": "vivo",
-   "stars": 9456,
+   "stars": 9457,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -52,7 +52,7 @@
   },
   "RikkaApps/Shizuku": {
    "estado": "vivo",
-   "stars": 32839,
+   "stars": 32838,
    "push": "2025-06-18",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -64,7 +64,7 @@
   },
   "NeoApplications/Neo-Backup": {
    "estado": "vivo",
-   "stars": 3896,
+   "stars": 3897,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -355,7 +355,7 @@
   },
   "thedjchi/Shizuku": {
    "estado": "vivo",
-   "stars": 6735,
+   "stars": 6734,
    "push": "2026-07-15",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -404,7 +404,7 @@
   "krishna3163/OmniShizuku": {
    "estado": "vivo",
    "stars": 19,
-   "push": "2026-11-03",
+   "push": "2026-11-05",
    "archivado": false,
    "licencia": "Apache-2.0",
    "lenguaje": "Kotlin",
@@ -456,7 +456,7 @@
   },
   "readest/readest": {
    "estado": "vivo",
-   "stars": 25968,
+   "stars": 25969,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -480,7 +480,7 @@
   },
   "samolego/Canta": {
    "estado": "vivo",
-   "stars": 6481,
+   "stars": 6482,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "LGPL-3.0",
@@ -504,7 +504,7 @@
   },
   "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
    "estado": "vivo",
-   "stars": 9751,
+   "stars": 9750,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -552,7 +552,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 64128,
+   "stars": 64129,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -636,7 +636,7 @@
   },
   "jellyfin/jellyfin": {
    "estado": "vivo",
-   "stars": 59026,
+   "stars": 59027,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -648,7 +648,7 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 118288,
+   "stars": 118289,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -660,7 +660,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97395,
+   "stars": 97394,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -792,7 +792,7 @@
   },
   "cli/cli": {
    "estado": "vivo",
-   "stars": 46885,
+   "stars": 46884,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "MIT",
@@ -809,8 +809,8 @@
    "veredicto": "responde"
   },
   "https://archive.softwareheritage.org/": {
-   "codigo": "500",
-   "veredicto": "responde con codigo 500"
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://creativecommons.org/licenses/by-sa/4.0/": {
    "codigo": "200",

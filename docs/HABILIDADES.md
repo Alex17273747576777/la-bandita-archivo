@@ -26,6 +26,8 @@ puede perder. Cada una nace de un error concreto de `docs/ERRORES.md`, y si el e
 | H23 | **La cifra se busca en el diccionario que la tiene** | E42 | `E` = escrutinio (sumas, adjuntos, commits, incidencias) · `R` = medición (estrellas, entregas, licencia, días) · `python3 b16.py` antes de ensamblar | cada taller nuevo |
 | H24 | **Una tienda se cuenta, no se cita** | E43 | `repo.json` → `index.json` → contar entradas · `archived` y `pushed_at` de la API · `signingKey` · seguir la redirección · leer la descripción del autor | cada lista de repositorios o tiendas |
 | H25 | **Una tienda se abre, no se cita** | E44 | clonar (`--depth 1`) · `repo.json` → `index_v2` · contar el catálogo real · `signingKey` · un byte con `Range` · `archived` y `pushed_at` · comparar el `name` declarado con el del repositorio | cada tienda antes de nombrarla |
+| H26 | **Una función se comprueba en el código** | E45 | clonar · buscar la función por tres familias de palabras · leer el archivo donde aparece · contar lo que hay · API para licencia, empujón y entrega | cada teclado, extensión o programa que se nombre |
+
 | H17 | **La madurez se declara ficha a ficha** | E37 | `python3 tools/novedad_gate.py` | M25 |
 
 ## H01 · Medir antes de tocar
@@ -354,6 +356,24 @@ estrellas; un plugin de una sola extensión puede ser el repositorio más listo 
 
 **Cómo se pierde.** Creyendo que la cifra es la conclusión: volver a publicar una tabla grande sin haber
 abierto nada, o llamar «tienda» a un repositorio de código porque el nombre del proyecto lo parece.
+
+## H26 · Una función se comprueba en el código
+
+**Nace de E45.** Un texto prometía setenta y cinco teclas de IA y una obediencia del cien por cien.
+El teclado describía otra cosa: diez teclas, diez palabras clave y un expansor con plantillas. La
+diferencia entre las dos versiones no estaba en la redacción, estaba en abrir el repositorio.
+
+**La regla.** Para decir que un programa hace algo: clonar, buscar la función por tres familias de
+palabras —el nombre en inglés, el nombre en la interfaz y la familia de código—, **leer el archivo
+donde aparece** y contar lo que hay. Después, la API para licencia, último empujón y última entrega.
+La ficha lleva la fecha de la comprobación, y la evidencia va al lado del dato.
+
+**Lo que agrega a H24 y H25.** H24 decía «cuenta, no cites»; H25, «abre, no cuentes». H26 dice
+«lee, no busques»: una coincidencia de texto en un `grep` no es una función, y una palabra en un
+README no es una capacidad. El `TextKeyData.kt` de HeliBoard menciona textos y no expande nada.
+
+**Cómo se pierde.** Repitiendo una lista ajena: si el dato no se puede señalar en un archivo con su
+número de línea o su nombre de recurso, no es un dato, es una creencia.
 
 ## El ritual completo, con las habilidades dentro
 

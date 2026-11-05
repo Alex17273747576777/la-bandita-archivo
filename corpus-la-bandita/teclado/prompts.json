@@ -1,0 +1,196 @@
+{
+  "version": "2026-11-05",
+  "nota": "Biblioteca de instrucciones para teclado. Cada entrada tiene un destino: `tecla` = tecla de IA del teclado (LeanType admite 10, medidas en el código); `atajo` = Text Expander (pega el texto donde haga falta); `macro` = inyección de texto sin IA.",
+  "limites_medidos": {
+    "leantype_teclas_ia": 10,
+    "leantype_palabras_clave": 10,
+    "leantype_expansor": "sin tope declarado en el código; con prefijo, regex y plantillas",
+    "anysoftkeyboard_quicktext": "add-on XML compilado; sin tope práctico",
+    "deskdrop": "hereda HeliBoard; prompt por modelo en el asistente de Ollama"
+  },
+  "teclas": [
+    {
+      "id": "corregir",
+      "nombre": "Corregir",
+      "palabra_clave": "#proofread",
+      "prompt": "Corrige ortografía, concordancia, puntuación y nada más. Conserva la voz, el registro y la longitud. Si una frase admite dos lecturas, no la interpretes: déjala igual y márcala con [?]. Devuelve solo el texto corregido; si hubo cambios, añade después una línea por cambio con el antes y el después.",
+      "por_que": "El límite de una corrección no es lo que corrige, es lo que no toca: sin la orden de conservar la longitud, el modelo recorta párrafos y el texto deja de ser tuyo."
+    },
+    {
+      "id": "reescribir",
+      "nombre": "Reescribir claro",
+      "palabra_clave": "#paraphrase",
+      "prompt": "Reescribe para que se entienda a la primera. Frases de menos de 20 palabras, voz activa, una idea por frase. No añadas datos, cifras ni ejemplos que no estén en el texto, y no cambies la longitud en más de un 10 %. Devuelve solo la reescritura.",
+      "por_que": "Sin la regla de los datos, una reescritura inventa el ejemplo que falta; sin la del 10 %, el resultado es otro texto."
+    },
+    {
+      "id": "resumir",
+      "nombre": "Resumir en tres",
+      "palabra_clave": "#summarize",
+      "prompt": "Resume en tres líneas exactas: la primera dice qué pasa, la segunda por qué importa, la tercera qué hay que hacer. Cada línea empieza por un verbo. Sin viñetas ni negritas. Devuelve solo esas tres líneas; si el texto no permite responder una, escribe N/D en esa línea.",
+      "por_que": "Tres líneas con función fija (qué, por qué, qué hacer) obligan a decidir; «resume en 5 puntos» deja que el modelo elija lo fácil."
+    },
+    {
+      "id": "expandir",
+      "nombre": "Expandir sin inventar",
+      "palabra_clave": "#expand",
+      "prompt": "Expande el texto con detalle concreto, sin inventar cifras, fechas, nombres ni citas. Todo lo que añadas debe poder deducirse de lo que ya está escrito. Marca con [ampliado] cada frase nueva. Duplica la longitud como máximo.",
+      "por_que": "Expandir es la tecla que más alucina: pedir la marca [ampliado] no evita el invento, pero lo deja a la vista para borrarlo."
+    },
+    {
+      "id": "formal",
+      "nombre": "Pasar a formal",
+      "palabra_clave": "#toneshift",
+      "prompt": "Pasa el texto a registro formal sin que suene a comunicado. Elimina coloquialismos, muletillas y emojis; conserva nombres propios y cifras exactamente como están. No añadas saludos ni despedidas que el original no tenga. Devuelve solo el texto.",
+      "por_que": "La mitad de los tonos formales que devuelve una IA empiezan con «Estimado»: si el original no saludaba, el saludo es invención."
+    },
+    {
+      "id": "traducir-en",
+      "nombre": "Traducir a inglés",
+      "palabra_clave": "#editor",
+      "prompt": "Traduce al inglés de Estados Unidos para un lector que no conoce el tema. Adapta modismos en lugar de traducirlos palabra por palabra. Mantén cifras, nombres y formato. Si un término técnico no tiene equivalente claro, déjalo en el original entre paréntesis. Devuelve solo la traducción.",
+      "por_que": "«Adapta modismos» evita el calco; dejar el término técnico entre paréntesis evita el invento de una traducción que nadie usa."
+    },
+    {
+      "id": "traducir-pt",
+      "nombre": "Traducir a portugués",
+      "palabra_clave": "#editor",
+      "prompt": "Traduce al portugués de Brasil, no al de Portugal, salvo que el texto mencione Portugal. Registro neutro, sin «você» ni «tu» si el texto no se dirige a nadie. Mantén cifras, nombres y formato. Devuelve solo la traducción.",
+      "por_que": "Elegir variante antes de traducir evita la ensalada de portugués brasileño con sintaxis europea que sale por defecto."
+    },
+    {
+      "id": "tareas",
+      "nombre": "Sacar tareas",
+      "palabra_clave": "#generate",
+      "prompt": "Extrae solo las tareas que el texto pide hacer: una por línea, con el verbo en infinitivo y el responsable o la fecha si aparecen. No inventes responsables. Si una tarea está implícita, no la añadas. Si no hay ninguna tarea, escribe NINGUNA y no escribas nada más.",
+      "por_que": "«Si no hay tareas, escribe NINGUNA» es la orden que evita la lista de tareas inventadas para no dejar la respuesta vacía."
+    },
+    {
+      "id": "regex",
+      "nombre": "Escribir una regex",
+      "palabra_clave": "#generate",
+      "prompt": "Escribe una expresión regular para lo que se pide. Devuelve tres bloques: el patrón, tres cadenas que deben coincidir y dos que no, y una línea por grupo explicando qué captura. Sin motor concreto, usa sintaxis compatible con PCRE y di dónde falla en JavaScript.",
+      "por_que": "Una regex sin casos de prueba no se puede comprobar; con dos cadenas que no deben coincidir, el error aparece antes de pegarla en producción."
+    },
+    {
+      "id": "terminal",
+      "nombre": "El comando exacto",
+      "palabra_clave": "#generate",
+      "prompt": "Da el comando exacto para la tarea pedida, para Debian o Ubuntu con bash. Devuelve solo el bloque de comandos y, debajo, una línea por opción explicando qué hace, qué usuario necesita y cómo deshacerlo. Si borra o sobrescribe algo, avísalo en la primera línea.",
+      "por_que": "Pedir el «cómo deshacerlo» cambia la respuesta: los comandos destructivos se vuelven visibles antes de pegarlos."
+    }
+  ],
+  "atajos": [
+    {
+      "id": "rev",
+      "atajo": ";rev",
+      "nombre": "Revisión de código",
+      "destino": "cualquier IA, en el navegador o el chat",
+      "prompt": "Revisa este código como si fueras a aprobar un cambio en producción. Ordena los hallazgos por gravedad. Para cada uno: archivo y línea, qué se rompe en un caso real, y el parche mínimo. Devuelve solo la lista; si no hay nada grave, dilo y señala las dos cosas que no se pueden comprobar sin ejecutar."
+    },
+    {
+      "id": "pr",
+      "atajo": ";pr",
+      "nombre": "Mensaje de PR",
+      "destino": "GitHub, GitLab o cualquier forja",
+      "prompt": "Escribe el mensaje de un pull request en tres partes: qué cambia en una frase, por qué hacía falta con la evidencia que tengas, y cómo comprobarlo paso a paso desde un clon limpio. Sin adjetivos. Si falta un dato, escribe FALTA y qué haría falta para tenerlo."
+    },
+    {
+      "id": "bug",
+      "atajo": ";bug",
+      "nombre": "Informe de error",
+      "destino": "incidencias de cualquier repositorio",
+      "prompt": "Convierte esto en un informe de error reproducible: versión y sistema, pasos numerados que fallan, resultado esperado, resultado obtenido y la primera línea del registro que lo delata. Devuelve solo el informe. Si falta la versión, escribe FALTA en vez de suponerla."
+    },
+    {
+      "id": "sql",
+      "atajo": ";sql",
+      "nombre": "Consulta SQL",
+      "destino": "cualquier IA con el esquema delante",
+      "prompt": "Escribe la consulta con este esquema, sin suponer columnas que no estén. Di qué motor asumes. Devuelve solo la consulta y, debajo, una línea con lo que devuelve y qué pasa con los nulos. Si el esquema no permite resolverlo, dilo antes de escribir SQL."
+    },
+    {
+      "id": "test",
+      "atajo": ";test",
+      "nombre": "Pruebas mínimas",
+      "destino": "cualquier IA y el editor",
+      "prompt": "Escribe las pruebas mínimas que detectarían un error real en este código: tres casos normales, dos de borde y uno que debería fallar. Devuelve solo las pruebas, cada una con una línea que diga qué error detecta y por qué no lo detectaría una prueba ingenua."
+    },
+    {
+      "id": "seg",
+      "atajo": ";seg",
+      "nombre": "Revisión de seguridad",
+      "destino": "cualquier IA, antes de publicar",
+      "prompt": "Revisa esto buscando secretos embebidos, permisos de más, datos sin validar, dependencias sin fijar y salidas que se confían. Devuelve solo la lista: línea, escenario de abuso más simple y arreglo. Si no hay nada, dilo y marca lo que no se puede ver sin ejecutar."
+    },
+    {
+      "id": "git",
+      "atajo": ";git",
+      "nombre": "Rescate de git",
+      "destino": "terminal y cualquier IA",
+      "prompt": "Da el comando exacto para volver al estado que quiero desde este estado de git. Devuelve solo los comandos, y debajo: qué se pierde al ejecutarlos y cómo comprobar antes que son los correctos. Si hay riesgo de perder trabajo sin copia, empieza por el comando de copia de seguridad."
+    },
+    {
+      "id": "lic",
+      "atajo": ";lic",
+      "nombre": "Comprobar licencia",
+      "destino": "antes de reutilizar código ajeno",
+      "prompt": "Separa, con esta licencia y este uso: si puedo reutilizar el código, qué obligaciones me impone al distribuir, si puedo cambiar la licencia y qué debo poner en los créditos. Devuelve solo esos cuatro puntos, cita la cláusula en la que te apoyas y di lo que no puedes afirmar sin un abogado."
+    },
+    {
+      "id": "fuentes",
+      "atajo": ";fuentes",
+      "nombre": "Verificar datos",
+      "destino": "antes de publicar una cifra",
+      "prompt": "Revisa estas afirmaciones y separa las que tienen fuente de las que no. Para cada una: la fecha del dato, la fuente que lo sostiene y qué cambiaría si el dato tuviera un año más. Marca con NO VERIFICADO todo lo que no puedas comprobar hoy, y no rellenes huecos con estimaciones."
+    },
+    {
+      "id": "acta",
+      "atajo": ";acta",
+      "nombre": "Acta de decisión",
+      "destino": "reuniones y proyectos",
+      "prompt": "Redacta un acta de una página: decisión tomada en una frase, quién decidió, qué alternativas se descartaron y por qué, qué queda pendiente con nombre y fecha, y qué habría que revisar si cambia una condición. Sin adornos y sin relleno."
+    },
+    {
+      "id": "correo",
+      "atajo": ";correo",
+      "nombre": "Correo que dice no",
+      "destino": "trabajo",
+      "prompt": "Escribe un correo breve que diga no con claridad: la negativa en la primera frase, el motivo en una línea sin excusas, y una alternativa concreta si existe. Sin «lamentablemente», sin rodeos y sin pedir perdón. Máximo 90 palabras."
+    },
+    {
+      "id": "explicar",
+      "atajo": ";explicar",
+      "nombre": "Explicar sin jerga",
+      "destino": "cualquier IA",
+      "prompt": "Explica esto como a alguien con curiosidad y sin formación en el tema: primero la idea en una frase, después el mecanismo paso a paso, después un ejemplo con números pequeños, y al final el error más común al entenderlo. Devuelve solo esos cuatro bloques."
+    }
+  ],
+  "macros": [
+    {
+      "id": "firma",
+      "atajo": ";firma",
+      "texto": "Un saludo,\nAlex"
+    },
+    {
+      "id": "correo-yo",
+      "atajo": ";mail",
+      "texto": "alex@ejemplo.do"
+    },
+    {
+      "id": "hoy",
+      "atajo": ";hoy",
+      "texto": "%date%"
+    },
+    {
+      "id": "portapapeles",
+      "atajo": ";peg",
+      "texto": "%clipboard%"
+    },
+    {
+      "id": "encogido",
+      "atajo": ";shrug",
+      "texto": "¯\\_(ツ)_/¯"
+    }
+  ]
+}

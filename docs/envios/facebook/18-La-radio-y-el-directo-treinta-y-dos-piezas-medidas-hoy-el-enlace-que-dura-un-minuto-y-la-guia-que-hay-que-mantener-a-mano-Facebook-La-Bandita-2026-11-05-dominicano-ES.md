@@ -515,7 +515,7 @@ Medí otra vez, hoy 5 de noviembre de 2026, los 33 repositorios que cita esta pi
 • clubanderson/clubTivi — ★108 · empujó el 1-nov-2026 (hace 4 días) · Apache-2.0 · última release weekly-2026.43 (1-nov-2026)
 • mewset/better-iptv — ★71 · empujó el 27-oct-2026 (hace 9 días) · GPL-2.0 · última release v3.2.2 (27-oct-2026)
 • lennylxx/webos-iptv-player — ★145 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.17.0 (20-oct-2026)
-• opentvproject/opentv — ★145 · empujó el 28-oct-2026 (hace 8 días) · GPL-3.0 · última release v0.11.10 (28-oct-2026)
+• opentvproject/opentv — ★146 · empujó el 28-oct-2026 (hace 8 días) · GPL-3.0 · última release v0.11.10 (28-oct-2026)
 • bsogulcan/another-iptv-player — ★157 · empujó el 31-oct-2026 (hace 5 días) · MIT · última release ios-v2.4.0 (1-ago-2026)
 • dereferencex/prysm — ★50 · empujó el 16-oct-2026 (hace 20 días) · MIT · última release v1.5.0 (15-oct-2026)
 • xyzs996/iptv-doctor — ★6 · empujó en las últimas horas · MIT · última release v0.1.0 (20-jun-2026)

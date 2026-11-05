@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 109 documentos en `docs/`, agrupados en 19 familias, y 41 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 112 documentos en `docs/`, agrupados en 19 familias, y 43 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -39,6 +39,7 @@
 | [`ACTA-PIEZA-17-2026-11-04.md`](ACTA-PIEZA-17-2026-11-04.md) | Acta · pieza 17 de Facebook · El teclado que escribe por ti (4-nov-2026, 23:15–03:40 AST) | — sin primera oración con cuerpo — | 42 |
 | [`ACTA-PIEZA-18-2026-11-05.md`](ACTA-PIEZA-18-2026-11-05.md) | Acta · pieza 18 de Facebook · La radio y el directo (5-nov-2026, 09:24–10:05 AST) | — sin primera oración con cuerpo — | 36 |
 | [`ACTA-PIEZA-19-2026-11-05.md`](ACTA-PIEZA-19-2026-11-05.md) | Acta · pieza 19 de Facebook · Las tiendas de extensiones, con el listón arriba (5-nov-2026, 09:4 | — sin primera oración con cuerpo — | 38 |
+| [`ACTA-PIEZA-20-2026-11-05.md`](ACTA-PIEZA-20-2026-11-05.md) | Acta · pieza 20 · el teclado que obedece (5-nov-2026, 10:16–11:05 UTC) | — sin primera oración con cuerpo — | 41 |
 | [`ACTA-PODA-2026-11-03.md`](ACTA-PODA-2026-11-03.md) | Acta de la poda de residuos · 3 de noviembre de 2026 | Un archivo es residuo cuando **se puede reconstruir** desde otro que se queda, o cuando **es idéntico** a otro que ya está en el árbol. | 45 |
 | [`ACTA-REEMPLAZO-19-2026-11-05.md`](ACTA-REEMPLAZO-19-2026-11-05.md) | Acta · reemplazo de raíz de la pieza 19 (5-nov-2026) | — sin primera oración con cuerpo — | 41 |
 | [`ACTA-REFINADO-Y-VERIFICACION-2026-11-03-B.md`](ACTA-REFINADO-Y-VERIFICACION-2026-11-03-B.md) | ACTA · refinado del repositorio y verificación triple (segunda pasada) | Quince archivos de gobierno descargados con la API sobre el commit publicado y comparados por SHA-256 contra el manifiesto local. **13 iguales en la… | 83 |
@@ -103,8 +104,8 @@
 | Documento | Título | De qué va | Líneas |
 |---|---|---|---|
 | [`CODIGO.md`](CODIGO.md) | EL CÓDIGO, EXPLICADO | Un programa es una receta: entra un ingrediente, se hace un paso, sale un plato. | 212 |
-| [`ERRORES.md`](ERRORES.md) | Registro de errores · lo que se rompió, cómo se cazó y qué habilidad salió de ahí | Cada error de esta casa, con su número, queda aquí **para siempre**. | 81 |
-| [`HABILIDADES.md`](HABILIDADES.md) | Habilidades · lo que esta casa sabe hacer porque antes se equivocó | Una habilidad no es una intención: es un procedimiento con un comando que se puede correr y un veredicto que se puede perder. | 374 |
+| [`ERRORES.md`](ERRORES.md) | Registro de errores · lo que se rompió, cómo se cazó y qué habilidad salió de ahí | Cada error de esta casa, con su número, queda aquí **para siempre**. | 83 |
+| [`HABILIDADES.md`](HABILIDADES.md) | Habilidades · lo que esta casa sabe hacer porque antes se equivocó | Una habilidad no es una intención: es un procedimiento con un comando que se puede correr y un veredicto que se puede perder. | 394 |
 | [`INVESTIGACION-RECURSOS-2026-11-01.md`](INVESTIGACION-RECURSOS-2026-11-01.md) | INVESTIGACIÓN DE RECURSOS NUEVOS · domingo 1 de noviembre de 2026, 07:00 (Santo Domingo) | Cuatro consultas a la API de GitHub, ordenadas por estrellas, filtrando por fecha de creación: | 145 |
 | [`LOTE-11-aplicaciones-2026-11-04.md`](LOTE-11-aplicaciones-2026-11-04.md) | LOTE 11 aplicaciones 2026 11 04 | — sin primera oración con cuerpo — | 52 |
 | [`LOTE-12-recursos-2026-11-04.md`](LOTE-12-recursos-2026-11-04.md) | LOTE 12 recursos 2026 11 04 | — sin primera oración con cuerpo — | 60 |
@@ -117,7 +118,7 @@
 | [`LOTE-19-recursos-2026-11-05.md`](LOTE-19-recursos-2026-11-05.md) | LOTE 19 recursos 2026 11 05 | — sin primera oración con cuerpo — | 33 |
 | [`MAPA-125-FACEBOOK.md`](MAPA-125-FACEBOOK.md) | MAPA DE LAS 125 PIEZAS DE FACEBOOK · propuesta para aprobación | Cada línea es una pieza: **número · título · el gancho** —la tensión medida que la justifica, no un adjetivo— y **la materia prima**, que son… | 317 |
 | [`REGLA-DE-ALMACENAMIENTO-2026-11-04.md`](REGLA-DE-ALMACENAMIENTO-2026-11-04.md) | Regla del dueño · el almacén es GitHub y la revisión va antes | LBT=… python3 tools/preflight.py --tema descarga      # fecha + historial + ecosistema, en ese orden | 47 |
-| [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 131 |
+| [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 136 |
 | [`VENCIMIENTOS.md`](VENCIMIENTOS.md) | VENCIMIENTOS DEL REGISTRO | Las **0** fichas sin respaldo no están desactualizadas: están mal fechadas. | 63 |
 | [`COMO-SE-MANDA.md`](envios/COMO-SE-MANDA.md) | CÓMO SE MANDA · reglas y mapa de los envíos | Esto no es un catálogo de archivos: es la decisión de cómo sale el archivo a la calle. | 103 |
 | [`01-La-huella-o-el-silencio-doce-programas-de-octubre-cuatro-que-firman-lo-que-publican-y-ocho-que-piden-fe-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`](envios/facebook/01-La-huella-o-el-silencio-doce-programas-de-octubre-cuatro-que-firman-lo-que-publican-y-ocho-que-piden-fe-Facebook-La-Bandita-2026-11-04-dominicano-ES.md) | PIEZA 01 · envío para Facebook | La Bandita · pieza 01 · guía del 4-nov-2026 · te la mando hoy en 20 mensajes. | 487 |
@@ -139,12 +140,13 @@
 | [`17-El-teclado-que-escribe-por-ti-treinta-y-cuatro-teclados-y-dictados-medidos-hoy-diez-de-2026-y-la-proporcion-de-firma-mas-alta-del-ano-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`](envios/facebook/17-El-teclado-que-escribe-por-ti-treinta-y-cuatro-teclados-y-dictados-medidos-hoy-diez-de-2026-y-la-proporcion-de-firma-mas-alta-del-ano-Facebook-La-Bandita-2026-11-04-dominicano-ES.md) | PIEZA 17 · envío para Facebook | La Bandita · pieza 17 · guía del 4-nov-2026 · te la mando hoy en 20 mensajes. | 550 |
 | [`18-La-radio-y-el-directo-treinta-y-dos-piezas-medidas-hoy-el-enlace-que-dura-un-minuto-y-la-guia-que-hay-que-mantener-a-mano-Facebook-La-Bandita-2026-11-05-dominicano-ES.md`](envios/facebook/18-La-radio-y-el-directo-treinta-y-dos-piezas-medidas-hoy-el-enlace-que-dura-un-minuto-y-la-guia-que-hay-que-mantener-a-mano-Facebook-La-Bandita-2026-11-05-dominicano-ES.md) | PIEZA 18 · envío para Facebook | La Bandita · pieza 18 · guía del 5-nov-2026 · te la mando hoy en 22 mensajes. | 552 |
 | [`19-La-tienda-que-le-sirve-a-tu-app-quince-repositorios-clonados-y-leidos-hoy-ocho-que-sirven-y-siete-que-no-con-su-motivo-Facebook-La-Bandita-2026-11-05-dominicano-ES.md`](envios/facebook/19-La-tienda-que-le-sirve-a-tu-app-quince-repositorios-clonados-y-leidos-hoy-ocho-que-sirven-y-siete-que-no-con-su-motivo-Facebook-La-Bandita-2026-11-05-dominicano-ES.md) | PIEZA 19 · envío para Facebook | La Bandita · pieza 19 · guía del 5-nov-2026 · te la mando hoy en 22 mensajes. | 533 |
-| [`_INDICE.md`](envios/facebook/_INDICE.md) | ENVÍOS DE FACEBOOK · índice | Generado el 2026-11-05 a partir de la medición del mismo día (`docs/envios/_medicion-facebook.json`). | 32 |
+| [`20-El-teclado-que-obedece-once-teclados-clonados-y-leidos-hoy-diez-teclas-medidas-en-el-codigo-y-veintidos-textos-con-once-comprobaciones-Facebook-La-Bandita-2026-11-05-dominicano-ES.md`](envios/facebook/20-El-teclado-que-obedece-once-teclados-clonados-y-leidos-hoy-diez-teclas-medidas-en-el-codigo-y-veintidos-textos-con-once-comprobaciones-Facebook-La-Bandita-2026-11-05-dominicano-ES.md) | PIEZA 20 · envío para Facebook | La Bandita · pieza 20 · guía del 5-nov-2026 · te la mando hoy en 19 mensajes. | 544 |
+| [`_INDICE.md`](envios/facebook/_INDICE.md) | ENVÍOS DE FACEBOOK · índice | Generado el 2026-11-05 a partir de la medición del mismo día (`docs/envios/_medicion-facebook.json`). | 33 |
 | [`01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`](envios/whatsapp/01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md) | PIEZA 01 · envío para WhatsApp | La Bandita · pieza 01 · guía del 2-nov-2026 · te la mando hoy en 27 mensajes. | 616 |
 | [`02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`](envios/whatsapp/02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md) | PIEZA 02 · envío para WhatsApp | La Bandita · pieza 02 · guía del 2-nov-2026 · te la mando hoy en 29 mensajes. | 647 |
 | [`03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-codigo-que-caduca-cada-treinta-segundos-y-el-sobre-que-nadie-prepara-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md`](envios/whatsapp/03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-codigo-que-caduca-cada-treinta-segundos-y-el-sobre-que-nadie-prepara-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md) | PIEZA 03 · envío para WhatsApp | La Bandita · pieza 03 · guía del 2-nov-2026 · te la mando hoy en 29 mensajes. | 532 |
-| [`04-Los-cinco-herederos-de-Shizuku-el-original-que-no-se-mueve-y-los-cuatro-que-publican-todos-los-dias-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md`](envios/whatsapp/04-Los-cinco-herederos-de-Shizuku-el-original-que-no-se-mueve-y-los-cuatro-que-publican-todos-los-dias-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 04 · envío para WhatsApp | La Bandita · pieza 04 · guía del 3-nov-2026 · te la mando hoy en 26 mensajes. | 533 |
-| [`05-La-guia-maestra-contada-despacio-doce-capitulos-setenta-fichas-y-un-metodo-repetible-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md`](envios/whatsapp/05-La-guia-maestra-contada-despacio-doce-capitulos-setenta-fichas-y-un-metodo-repetible-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 05 · envío para WhatsApp | La Bandita · pieza 05 · guía del 3-nov-2026 · te la mando hoy en 28 mensajes. | 789 |
+| [`04-Los-cinco-herederos-de-Shizuku-el-original-que-no-se-mueve-y-los-cuatro-que-publican-todos-los-dias-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md`](envios/whatsapp/04-Los-cinco-herederos-de-Shizuku-el-original-que-no-se-mueve-y-los-cuatro-que-publican-todos-los-dias-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 04 · envío para WhatsApp | La Bandita · pieza 04 · guía del 3-nov-2026 · te la mando hoy en 26 mensajes. | 532 |
+| [`05-La-guia-maestra-contada-despacio-doce-capitulos-setenta-fichas-y-un-metodo-repetible-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md`](envios/whatsapp/05-La-guia-maestra-contada-despacio-doce-capitulos-setenta-fichas-y-un-metodo-repetible-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md) | PIEZA 05 · envío para WhatsApp | La Bandita · pieza 05 · guía del 3-nov-2026 · te la mando hoy en 28 mensajes. | 788 |
 | [`_INDICE.md`](envios/whatsapp/_INDICE.md) | ENVÍOS DE WHATSAPP · índice | Generado el 2026-11-05 a partir de la medición del mismo día (`docs/envios/_medicion-whatsapp.json`). | 18 |
 | [`LEEME.md`](talleres/pieza15/LEEME.md) | Taller de la pieza 15 · cómo se generó el texto | Los tres programas de esta carpeta generan el cuerpo de la pieza **desde la medición**, no desde la memoria. | 18 |
 | [`LEEME.md`](talleres/pieza16/LEEME.md) | Taller de la pieza 16 · cómo se generó el texto | Los cinco programas de esta carpeta generan el cuerpo de la pieza **desde la medición**, no desde la memoria. | 19 |
@@ -157,6 +159,7 @@
 | [`LEEME.md`](talleres/pieza19/LEEME.md) | Taller de la pieza 19 · cómo se generó el texto | Los cuatro programas de esta carpeta generan el cuerpo **desde la medición**, no desde la memoria. | 18 |
 | [`LEEME.md`](talleres/pieza19v2/LEEME.md) | Taller de la pieza 19 (segunda versión) · cómo se generó | Esta pieza no se escribió desde la memoria: se escribió desde dos ficheros de datos y una herramienta. | 19 |
 | [`pieza.md`](talleres/pieza19v2/pieza.md) | pieza | El escrito decía, más o menos: dejen de usar IA para volcar listas de aplicaciones y extensiones; usen la aplicación primero; pidan solo lo que de… | 411 |
+| [`pieza.md`](talleres/pieza20/pieza.md) | pieza | Circula un texto que promete setenta y cinco comandos dentro del teclado, una «armadura universal» que obliga a la IA a callarse y un «100 % de… | 468 |
 ### Pendientes · listas de espera
 
 | Documento | Título | De qué va | Líneas |
@@ -225,6 +228,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`idioma_mojibake.py`](../tools/idioma_mojibake.py) | MOJIBAKE · mide la salud de codificación del corpus. No corrige: señala. | 71 |
 | [`indice_docs.py`](../tools/indice_docs.py) | ÍNDICE · el mapa de la carpeta docs y del juego de herramientas, sin escribirlo a mano. | 206 |
 | [`licencias_resolver.py`](../tools/licencias_resolver.py) | RESUELVE LAS LICENCIAS QUE NO CONCLUYEN · cierra la deuda de las fichas NOASSERTION. | 222 |
+| [`lint_teclado.py`](../tools/lint_teclado.py) | lint_teclado.py · comprueba la biblioteca de instrucciones y la exporta. | 203 |
 | [`manual_gate.py`](../tools/manual_gate.py) | Compuerta del MANUAL DE ESTILO Y OPERACIONES V3.0 (1-nov-2026). | 422 |
 | [`mcp_conectar.py`](../tools/mcp_conectar.py) | CONEXIÓN REAL A SERVIDORES MCP · handshake, listado de herramientas y llamada de prueba. | 195 |
 | [`medir_guia.py`](../tools/medir_guia.py) | MEDIR LA GUÍA MAESTRA · la pieza 05 no se escribe a mano, se mide. | 190 |
@@ -239,6 +243,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`sello_reglas.py`](../tools/sello_reglas.py) | REGLAS DEL SELLO · en un solo sitio, para que la vara y la atestación no se contradigan. | 54 |
 | [`sitio.py`](../tools/sitio.py) | SITIO · genera el sitio estático de La Bandita desde las piezas y el registro. | 617 |
 | [`swhid.py`](../tools/swhid.py) | SWHID POR REVISIÓN MEDIDA · el código que se midió, citado de forma que no se pueda perder. | 155 |
+| [`sync_fuentes.py`](../tools/sync_fuentes.py) | sync_fuentes.py · pone al día los créditos y las versiones de lo que la biblioteca cita. | 104 |
 | [`tareas.py`](../tools/tareas.py) | TAREAS · el extractor del archivo: de las piezas al tablero, sin copiar a mano. | 163 |
 | [`tres_lecturas.py`](../tools/tres_lecturas.py) | TRES LECTURAS · la misma medición, tres veces y por tres caminos distintos. | 207 |
 | [`vara.py`](../tools/vara.py) | LA VARA · las ocho compuertas de la casa, ejecutables en un solo comando. | 582 |
