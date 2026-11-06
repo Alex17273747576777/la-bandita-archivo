@@ -37,6 +37,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 El código de las extensiones del índice anterior: una extensión por carpeta, cada una con su analizador de la
@@ -64,4 +65,5 @@ no funcionar en tres semanas.
 
 Si solo quieres leer, este repositorio no te da nada que puedas usar directamente. Y si esperas una extensión
 para un sitio muy pequeño, lo más probable es que nadie la haya escrito ni la vaya a escribir.
+
 <!-- GUIA:FIN -->

@@ -39,6 +39,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Repositorio de plugins de LNReader, la aplicación de novelas ligeras y webnovelas. Es donde viven los
@@ -65,4 +66,5 @@ repositorio, no desde las entregas. Mirar solo las entregas daría la impresión
 
 Si lees novela en un lector que no es LNReader, esto no te sirve. Y si esperas que tu petición se resuelva en
 semanas, conviene saber que aquí hay 563 abiertas por delante de la tuya.
+
 <!-- GUIA:FIN -->

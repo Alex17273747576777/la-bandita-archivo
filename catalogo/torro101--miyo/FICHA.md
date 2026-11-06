@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Lector de manga para Android. Su repositorio no trae descripción, así que lo que se sabe de él viene de su código y de sus entregas: es un lector con APKs publicados.
@@ -62,4 +63,5 @@ Con cero bifurcaciones y ninguna incidencia, es un proyecto de una sola persona 
 ### Cuándo no vale la pena
 
 Si buscas un lector con comunidad detrás, respuestas a incidencias y documentación clara, este no la tiene todavía. Y sin descripción, instalarlo es comprar a ciegas.
+
 <!-- GUIA:FIN -->

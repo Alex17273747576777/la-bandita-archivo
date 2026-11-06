@@ -36,6 +36,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Índice de extensiones compatible a la vez con Komikku y con Mihon y sus variantes. Ese «a la vez» es lo que lo
@@ -60,4 +61,5 @@ dentro aparece junto al resto.
 
 Si no usas Komikku ni Mihon, no aplica. Y si te basta con el índice principal de tu lector, este solo añade
 fuentes que probablemente ya tengas cubiertas.
+
 <!-- GUIA:FIN -->

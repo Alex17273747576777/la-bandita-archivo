@@ -36,6 +36,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Índice de extensiones para Cloudstream. Es el que la mayoría de las guías del programa mencionan primero,
@@ -61,4 +62,5 @@ contar con eso.
 
 Para alguien que empieza, tiene sentido como primera parada. Pero si vas a montar esto para usarlo de verdad,
 conviene tener a mano otros índices de Cloudstream, porque este no se está actualizando.
+
 <!-- GUIA:FIN -->

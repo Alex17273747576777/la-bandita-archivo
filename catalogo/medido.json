@@ -11965,5 +11965,94 @@
   "banderas": [],
   "medido": "2026-11-05 22:17 UTC",
   "racimo": "tiendas-de-extensiones"
+ },
+ "hiroi-sora/Umi-OCR": {
+  "repo": "hiroi-sora/Umi-OCR",
+  "existe": true,
+  "nombre": "Umi-OCR",
+  "descripcion": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
+  "estrellas": 48479,
+  "forks": 4737,
+  "archivado": false,
+  "deshabilitado": false,
+  "licencia": "MIT",
+  "empujon": "2025-11-20",
+  "creado": "2022-03-28",
+  "incidencias_abiertas": 369,
+  "lenguaje": "Python",
+  "temas": [
+   "ocr",
+   "ocr-python",
+   "paddleocr",
+   "qml",
+   "qt",
+   "screenshot"
+  ],
+  "entrega": {
+   "tag": "v2.1.5",
+   "fecha": "2025-03-25",
+   "adjuntos": 3
+  },
+  "web": null,
+  "leeme_bytes": 11523,
+  "claim": "- 免费：本项目所有代码开源，完全免费。 - 方便：解压即用，离线运行，无需网络。 - 高效：自带高效率的离线OCR引擎，内置多种语言识别库。 - 灵活：支持命令行、HTTP接口等外部调用方式。 - 功能：截图OCR / 批量OCR / PDF识别 / 二维码 / 公式识别",
+  "instalacion": [
+   "<img src=\"https://img.shields.io/github/downloads/hiroi-sora/Umi-OCR/total?style=flat-square\" alt=\"forks\">",
+   "<summary><b>•&nbsp;&nbsp;Scoop Installer</b>（点击展开）</summary>",
+   "scoop install extras/umi-ocr",
+   "scoop install extras/umi-ocr-paddle"
+  ],
+  "plataformas": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "banderas": [],
+  "medido": "2026-11-06 08:36 UTC",
+  "racimo": "descargas"
+ },
+ "Aryan-Raj3112/episteme": {
+  "repo": "Aryan-Raj3112/episteme",
+  "existe": true,
+  "nombre": "episteme",
+  "descripcion": "A multi-platform document and e-book reader.",
+  "estrellas": 1333,
+  "forks": 67,
+  "archivado": false,
+  "deshabilitado": false,
+  "licencia": "AGPL-3.0",
+  "empujon": "2026-10-10",
+  "creado": "2026-02-24",
+  "incidencias_abiertas": 165,
+  "lenguaje": "Kotlin",
+  "temas": [
+   "android",
+   "ebook",
+   "epub",
+   "foss",
+   "jetpack-compose",
+   "kotlin"
+  ],
+  "entrega": {
+   "tag": "v1.0.58-oss",
+   "fecha": "2026-10-09",
+   "adjuntos": 2
+  },
+  "web": null,
+  "leeme_bytes": 8906,
+  "claim": "Episteme Reader is a customizable reader for documents, e-books, comics, and text-heavy files. The app is designed around local-first reading, deep typography controls, flexible layouts, and a consistent Kotlin Multiplatform core across mobile and desktop.",
+  "instalacion": [],
+  "plataformas": [
+   "Android",
+   "iOS",
+   "Windows",
+   "Linux",
+   "Web"
+  ],
+  "banderas": [
+   "abandono declarado"
+  ],
+  "medido": "2026-11-06 08:36 UTC",
+  "racimo": "descargas"
  }
 }

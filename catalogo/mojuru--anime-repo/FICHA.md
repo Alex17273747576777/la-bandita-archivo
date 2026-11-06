@@ -36,6 +36,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 El mismo índice de extensiones de vídeo del recurso anterior, publicado bajo otra cuenta. La descripción del
@@ -65,4 +66,5 @@ sería inflar el catálogo.
 
 Siempre que exista el original, esta entrada no aporta nada nuevo. Su utilidad es de archivo: si algún día la
 dirección vieja desaparece, aquí queda constancia de por dónde pasó.
+
 <!-- GUIA:FIN -->

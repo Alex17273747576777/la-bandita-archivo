@@ -36,6 +36,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Índice de extensiones de **vídeo** para Aniyomi y sus derivados, entre ellos Anikku y Animiru. Donde los
@@ -60,4 +61,5 @@ El medidor marcó además la bandera de espejo, y con razón: existe un segundo 
 
 Si no usas un reproductor de la familia Aniyomi, este índice no te sirve de nada. Y si ya tienes uno que
 funciona, cambiarlo solo para tener más fuentes suele costar más de lo que aporta.
+
 <!-- GUIA:FIN -->

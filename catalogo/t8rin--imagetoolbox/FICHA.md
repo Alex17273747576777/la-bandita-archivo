@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Editor de imagen avanzado para Android con docenas de funciones: recorte, dibujo, filtros, mejoras con IA, OCR, herramientas de PDF y más. Está construido con Kotlin y Jetpack Compose, y se presenta como una alternativa completa a las aplicaciones de edición de pago. La versión de código abierto evita dependencias de Google como analíticas y reportes de fallos.
@@ -62,4 +63,5 @@ Funciona sin cuenta: se instala y se usa. Las funciones de procesamiento en la n
 ### Cuándo no vale la pena
 
 Si solo necesitas recortar una foto de vez en cuando, es una herramienta demasiado grande para tan poco. Y si buscas una aplicación ligera que no ocupe espacio, este no es el caso.
+
 <!-- GUIA:FIN -->

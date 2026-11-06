@@ -38,6 +38,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Repositorio de fuentes en chino para Mihon, Tachiyomi y Suwayomi: cubre varios sitios de lectura en chino —
@@ -64,4 +65,5 @@ legalmente si el autor desaparece.
 
 Si no lees en chino, no hay nada aquí para ti. Y si te importa poder arreglar lo que uses, un paquete sin
 código fuente es la peor base posible.
+
 <!-- GUIA:FIN -->

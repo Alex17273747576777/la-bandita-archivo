@@ -41,6 +41,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Índice de extensiones de vídeo para Aniyomi y los reproductores derivados, entre ellos Animiru. Reparte los
@@ -67,4 +68,5 @@ cambio es más fácil saber qué hay dentro.
 
 Si tu reproductor tiene un índice propio que se actualiza, añadir este mezcla fuentes de dos orígenes y complica
 las actualizaciones. Y si usas Mihon, esto no es para ti: aquí se reparte vídeo, no lectura.
+
 <!-- GUIA:FIN -->

@@ -101,7 +101,7 @@ def revisar(solo: str | None):
             f("C05", "sin fecha de medición")
         else:
             try:
-                if date.fromisoformat(m.group(1)) > date(2026, 11, 5):
+                if date.fromisoformat(m.group(1)) > date.today():
                     f("C05", "fecha de medición futura")
             except ValueError:
                 f("C05", "fecha de medición ilegible")

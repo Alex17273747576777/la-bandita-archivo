@@ -37,6 +37,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Un índice de extensiones pequeño, compatible con Mihon y sus variantes, para fuentes que no están en el índice
@@ -62,4 +63,5 @@ se arregle.
 
 Casi siempre. Si el índice grande ya cubre lo que lees, este añade ruido. Solo tiene sentido si buscas una
 fuente muy específica que no está en ningún otro sitio y aparece aquí.
+
 <!-- GUIA:FIN -->

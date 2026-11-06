@@ -38,6 +38,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 El lector de manga para Android sobre el que gira casi todo este racimo. Lee, organiza la biblioteca por
@@ -69,4 +70,5 @@ quien lo descarga.
 Si quieres abrir un cómic que ya tienes en el teléfono, un visor de archivos hace lo mismo sin pedirte una
 biblioteca. Y si lo que buscas es una app que «venga con manga dentro», esta no es: aquí dentro no hay nada
 hasta que tú lo pongas.
+
 <!-- GUIA:FIN -->

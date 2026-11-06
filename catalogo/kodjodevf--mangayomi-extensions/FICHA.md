@@ -36,6 +36,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 El índice de extensiones oficial de Mangayomi: los scripts de manga y novela que la aplicación ofrece por
@@ -61,4 +62,5 @@ recibe fuentes nuevas ni arreglos. Por eso en este racimo hay tres índices comu
 
 Para empezar, no: es la puerta de entrada normal. Pero si te encuentras fuentes muertas que nadie arregla, el
 problema no se resuelve aquí, se resuelve añadiendo otro índice.
+
 <!-- GUIA:FIN -->

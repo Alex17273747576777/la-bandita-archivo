@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Lector de manga de alto rendimiento para Android, con muchas funciones y enfoque en lecturas rápidas. Es una aplicación de una sola persona que lleva meses sin actualizar, pero que sigue publicada con entregas desde marzo de 2026.
@@ -61,4 +62,5 @@ La última entrega es de marzo de 2026, y el código no se toca desde septiembre
 ### Cuándo no vale la pena
 
 Si buscas un lector que reciba actualizaciones frecuentes, este no las da: lleva más de seis meses sin moverse. Y si te importa que haya alguien detrás que responda incidencias, este tiene solo dos abiertas y un solo mantenedor visible.
+
 <!-- GUIA:FIN -->

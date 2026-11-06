@@ -39,6 +39,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Biblioteca de recorte de imágenes para Android, optimizada para integrar en aplicaciones de cámara y galería. No es una aplicación que el usuario instale directamente: es código que otros desarrolladores incluyen en sus propios proyectos para permitir recortar imágenes dentro de ellas.
@@ -58,4 +59,5 @@ Es una herramienta para programadores, no para usuarios finales. Quien no esté 
 ### Cuándo no vale la pena
 
 Si no programas en Android, esta biblioteca no te sirve de nada. Y si buscas una aplicación para editar fotos, esta no lo es: es el componente que otras aplicaciones usan para recortar.
+
 <!-- GUIA:FIN -->

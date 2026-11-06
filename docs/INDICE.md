@@ -236,14 +236,14 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`ficha_profunda.py`](../tools/ficha_profunda.py) | FICHA PROFUNDA · lo que hay que abrir antes de recomendar algo. | 195 |
 | [`firma_literal.py`](../tools/firma_literal.py) | TESTIGO DE FIRMA · comprueba lo que M01 no puede comprobar con una regex. | 114 |
 | [`guias_audio.py`](../tools/guias_audio.py) | guias_audio.py · las guías escritas a mano del racimo «audio» (52 recursos). | 1389 |
-| [`guias_descargas.py`](../tools/guias_descargas.py) | guias_descargas.py · las guías escritas a mano del racimo «descargas» (30 recursos). | 865 |
+| [`guias_descargas.py`](../tools/guias_descargas.py) | guias_descargas.py · las guías escritas a mano del racimo «descargas» (30 recursos). | 910 |
 | [`guias_musica.py`](../tools/guias_musica.py) | guias_musica.py · las guías escritas a mano del racimo «clientes-de-musica» (27 recursos). | 730 |
 | [`guias_radio.py`](../tools/guias_radio.py) | guias_radio.py · las guías escritas a mano del racimo «radio-y-directo» (29 recursos). | 778 |
 | [`guias_reemplazo.py`](../tools/guias_reemplazo.py) | guias_reemplazo.py · las guías escritas a mano del racimo «reemplazo-del-stack». | 1082 |
 | [`guias_shizuku.py`](../tools/guias_shizuku.py) | guias_shizuku.py · escribe a mano la guía de las fichas del racimo de Shizuku. | 595 |
 | [`guias_teclado_ia.py`](../tools/guias_teclado_ia.py) | guias_teclado_ia.py · las guías escritas a mano del racimo «teclados-con-ia» (4 recursos). | 178 |
 | [`guias_teclados.py`](../tools/guias_teclados.py) | guias_teclados.py · las guías escritas a mano del racimo «teclados-y-dictado» (34 recursos). | 945 |
-| [`guias_tiendas.py`](../tools/guias_tiendas.py) | guias_tiendas.py · las guías escritas a mano del racimo «tiendas-de-extensiones» (24 recursos). | 974 |
+| [`guias_tiendas.py`](../tools/guias_tiendas.py) | guias_tiendas.py · las guías escritas a mano del racimo «tiendas-de-extensiones» (24 recursos). | 1017 |
 | [`guias_torrentes.py`](../tools/guias_torrentes.py) | guias_torrentes.py · las guías escritas a mano del racimo «torrentes» (3 recursos). | 149 |
 | [`html_archivo.py`](../tools/html_archivo.py) | Genera el HTML único con todas las publicaciones de la serie: WhatsApp, Facebook y el post de comunidad. | 247 |
 | [`idioma_mojibake.py`](../tools/idioma_mojibake.py) | MOJIBAKE · mide la salud de codificación del corpus. No corrige: señala. | 71 |

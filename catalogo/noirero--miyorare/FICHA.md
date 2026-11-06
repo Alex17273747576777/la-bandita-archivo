@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Fork de DropSauce basado en Kotatsu: lector de cómics y novelas para Android. Se presenta como una versión ajustada al gusto de su autor, con descargas rápidas y una interfaz que no es plana. Trabaja con extensiones y fuentes que el usuario añade.
@@ -61,4 +62,5 @@ Viene de DropSauce y de Kotatsu, así que hereda su ecosistema de extensiones y 
 ### Cuándo no vale la pena
 
 Si ya usas DropSauce y te funciona, cambiar a este fork solo tiene sentido si te interesa su interfaz específica. Y si buscas un lector con años de trayectoria, este todavía no la tiene.
+
 <!-- GUIA:FIN -->

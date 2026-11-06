@@ -38,6 +38,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Índice de extensiones de **anime** para Mangayomi y también para AnymeX. Cubre la parte de vídeo, que en los
@@ -63,4 +64,5 @@ sí queda claro es cómo se instala. Con este tamaño, la pregunta correcta no e
 
 Si ves anime en otro reproductor, no aplica. Y si necesitas un catálogo amplio de fuentes, este no lo es:
 es un complemento para huecos.
+
 <!-- GUIA:FIN -->

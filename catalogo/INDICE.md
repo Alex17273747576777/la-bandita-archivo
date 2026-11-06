@@ -3,7 +3,7 @@
 Una ficha por recurso, con lo medido y, cuando la hay, la guía escrita a mano.
 Este índice lo genera `tools/catalogo_ficha.py`; no se edita.
 
-**288 recursos** en 10 racimos · **288 con guía escrita** · ninguna pendiente.
+**290 recursos** en 10 racimos · **290 con guía escrita** · ninguna pendiente.
 
 ## audio
 
@@ -104,11 +104,12 @@ Este índice lo genera `tools/catalogo_ficha.py`; no se edita.
 
 ## descargas
 
-30 recursos · 24 con movimiento en el último año · 0 archivados
+32 recursos · 26 con movimiento en el último año · 0 archivados
 
 ```
 ● agalwood/Motrix                              ★57830   2026-11-05
 ● soimort/you-get                              ★56862   2026-10-06
+◐ hiroi-sora/Umi-OCR                           ★48479   2025-11-20
 ◐ aria2/aria2                                  ★43414   2026-06-25
 ◐ iawia002/lux                                 ★31827   2026-03-29
 ◐ JunkFood02/Seal                              ★30353   2026-09-25
@@ -129,6 +130,7 @@ Este índice lo genera `tools/catalogo_ficha.py`; no se edita.
 ○ Xmader/aria-ng-gui                           ★2027    2020-09-27
 ● rawnaldclark/Stash                           ★1557    2026-11-05
 ◐ yausername/youtubedl-android                 ★1381    2025-11-16
+● Aryan-Raj3112/episteme                       ★1333    2026-10-10
 ◐ pixel-point/media-downloader                 ★1220    2026-05-07
 ● Downvid/downvid                              ★1201    2026-11-04
 ○ Xmader/aria-ng-gui-android                   ★880     2023-01-04

@@ -37,6 +37,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Aplicación de Android para gestionar y editar fotos: galería en cuadrícula, cámara, ajuste de brillo, compartir y eliminar. Está construida con Kotlin y Jetpack Compose, y se presenta como un editor al estilo Photoshop simplificado para creadores.
@@ -57,4 +58,5 @@ Que no tenga licencia declarada significa que GitHub no reconoce una licencia es
 ### Cuándo no vale la pena
 
 Si no sabes compilar aplicaciones Android desde el código fuente, no puedes usar esta aplicación todavía. Y si necesitas una licencia clara antes de instalar algo, este proyecto no la declara.
+
 <!-- GUIA:FIN -->

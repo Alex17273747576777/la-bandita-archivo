@@ -42,6 +42,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Suite de edición de fotografía no destructiva para Android, inspirada en Snapseed y Lightroom Mobile. Todo corre en el dispositivo: sin telemetría, sin peticiones a la red, sin procesamiento en la nube. Cada ajuste queda registrado en una pila de operaciones que se puede inspeccionar, activar, desactivar o reiniciar en cualquier momento.
@@ -62,4 +63,5 @@ Es totalmente local: no pide cuenta, no se conecta a internet, no envía nada a 
 ### Cuándo no vale la pena
 
 Si buscas una aplicación con miles de reseñas y años de actualizaciones, este todavía no los tiene. Y si necesitas que tus ediciones queden respaldadas en la nube, esta aplicación no lo ofrece.
+
 <!-- GUIA:FIN -->

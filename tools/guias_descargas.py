@@ -834,6 +834,51 @@ Si no programas para Android, no hay nada que hacer con esto. Y si programas, va
 llevar Python dentro de tu aplicación: pesa y complica la publicación en la tienda.
 """
 
+GUIA["hiroi-sora/Umi-OCR"] = """
+### Para qué sirve
+
+Software de OCR gratuito y sin conexión para Android y escritorio. Reconoce texto en imágenes captadas por pantalla, importadas en lote o de documentos PDF. Puede excluir marcas de agua, encabezados y pies de página, y escanear o generar códigos QR. Trae bibliotecas de idiomas integradas para leer en varios idiomas sin subir nada a un servidor.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v2.1.5`, del 25 de marzo de 2025, con tres adjuntos; también se puede compilar desde el código fuente en Python.
+2. Se abre la aplicación y se selecciona una imagen o un PDF del dispositivo.
+3. Se elige el idioma del texto y se ejecuta el reconocimiento.
+4. El resultado se puede copiar, guardar o exportar; todo se procesa localmente.
+
+### Lo que conviene saber antes
+
+48.479 estrellas, MIT, Python, creado en marzo de 2022: más de cuatro años de existencia. El último empujón es del 20 de noviembre de 2025 —más de un año sin movimiento—. Tiene 4.737 bifurcaciones y 369 incidencias abiertas.
+
+Es uno de los lectores OCR más populares de código abierto, pero el repositorio no recibe empujones desde hace más de un año. El código sigue funcionando, pero si Android cambia algo que rompa la aplicación, puede que nadie lo arregle a tiempo.
+
+### Cuándo no vale la pena
+
+Si buscas una aplicación con actualizaciones frecuentes, esta no las da: lleva más de doce meses sin empujón. Y si necesitas OCR en un idioma poco común, comprueba primero que esté entre las bibliotecas de idioma integradas.
+"""
+
+GUIA["Aryan-Raj3112/episteme"] = """
+### Para qué sirve
+
+Lector multiplataforma de documentos y libros electrónicos. Abre PDF, EPUB y otros formatos de documento en distintos sistemas operativos. Está construido con Kotlin y se presenta como un lector ligero y rápido para documentos personales.
+
+### Cómo se usa
+
+1. Se instala la APK de la entrega `v1.0.58-oss`, del 9 de octubre de 2026, con dos adjuntos.
+2. Se abre el documento o libro electrónico desde el almacenamiento del dispositivo.
+3. Se navega por las páginas, se busca texto y se guarda la posición de lectura.
+4. Se pueden abrir varios documentos y cambiar entre ellos.
+
+### Lo que conviene saber antes
+
+1.333 estrellas, AGPL-3.0, Kotlin, creado en febrero de 2026, con un empujón del 10 de octubre de 2026. Tiene 67 bifurcaciones y 165 incidencias abiertas.
+
+Es un proyecto joven, de menos de un año, pero con movimiento reciente. La licencia AGPL-3.0 es más restrictiva que la MIT o Apache: obliga a publicar las modificaciones si se distribuye el código modificado.
+
+### Cuándo no vale la pena
+
+Si buscas un lector con años de trayectoria y miles de usuarios, este todavía no los tiene. Y si necesitas modificar el código y distribuirlo sin publicar tus cambios, la AGPL-3.0 no te lo permite.
+"""
 
 def main() -> int:
     medido = json.loads(MEDIDO.read_text(encoding="utf-8"))

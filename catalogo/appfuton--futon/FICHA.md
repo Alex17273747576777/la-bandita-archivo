@@ -43,6 +43,7 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 ## Guía
 
 <!-- GUIA:INICIO -->
+
 ### Para qué sirve
 
 Lector de manga para Android con fuentes en línea incorporadas, heredero directo de Kotatsu: mismo enfoque,
@@ -72,4 +73,5 @@ documentación habla del cierre del otro, y eso conviene leerlo sabiendo de qui�
 
 Si vienes de Kotatsu y solo quieres seguir leyendo lo mismo, aquí está. Si empiezas de cero y no tienes motivo
 para preferir este lector a otro, el ecosistema pequeño de este se nota cuando una fuente falla.
+
 <!-- GUIA:FIN -->
