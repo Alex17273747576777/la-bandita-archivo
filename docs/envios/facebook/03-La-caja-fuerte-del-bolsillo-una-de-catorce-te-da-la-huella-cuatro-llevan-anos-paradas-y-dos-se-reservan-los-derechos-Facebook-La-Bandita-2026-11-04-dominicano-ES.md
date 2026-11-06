@@ -420,7 +420,7 @@ Las paradas, para que quede el registro:
 
 Medí otra vez, hoy 6 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• bitwarden/android — ★9.596 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
+• bitwarden/android — ★9.597 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
 • stratumauth/app — ★4.638 · empujó el 1-nov-2026 (hace 5 días) · GPL-3.0 · última release v1.7.0 (1-nov-2026)
 • Monica-Pass/Monica — ★1.216 · empujó en las últimas horas · GPL-3.0 · última release V1.0.324 (3-nov-2026)
 • dani-garcia/vaultwarden — ★70.326 · empujó el 4-nov-2026 (hace 2 días) · AGPL-3.0 · última release 1.37.5 (1-nov-2026)

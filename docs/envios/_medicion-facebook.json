@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-06",
- "medido_en_utc": "2026-11-06T14:04:50+00:00",
+ "medido_en_utc": "2026-11-06T14:27:35+00:00",
  "repos": {
   "capitan0n/droynis": {
    "estado": "vivo",
@@ -100,7 +100,7 @@
   },
   "coldMEW/Hush": {
    "estado": "vivo",
-   "stars": 148,
+   "stars": 149,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -304,7 +304,7 @@
   },
   "MetrolistGroup/Metrolist": {
    "estado": "vivo",
-   "stars": 14040,
+   "stars": 14041,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -424,7 +424,7 @@
   },
   "bitwarden/android": {
    "estado": "vivo",
-   "stars": 9596,
+   "stars": 9597,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -592,7 +592,7 @@
   },
   "RikkaApps/Shizuku": {
    "estado": "vivo",
-   "stars": 32924,
+   "stars": 32927,
    "push": "2025-06-18",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -736,7 +736,7 @@
   },
   "samolego/Canta": {
    "estado": "vivo",
-   "stars": 6538,
+   "stars": 6540,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "LGPL-3.0",
@@ -868,7 +868,7 @@
   },
   "readest/readest": {
    "estado": "vivo",
-   "stars": 26004,
+   "stars": 26005,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -904,7 +904,7 @@
   },
   "juanfont/headscale": {
    "estado": "vivo",
-   "stars": 45419,
+   "stars": 45420,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "BSD-3-Clause",
@@ -928,7 +928,7 @@
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
-   "stars": 21265,
+   "stars": 21266,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -988,7 +988,7 @@
   },
   "esphome/esphome": {
    "estado": "vivo",
-   "stars": 12036,
+   "stars": 12037,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1000,7 +1000,7 @@
   },
   "SagerNet/sing-box": {
    "estado": "vivo",
-   "stars": 39691,
+   "stars": 39690,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1012,7 +1012,7 @@
   },
   "M66B/NetGuard": {
    "estado": "vivo",
-   "stars": 3964,
+   "stars": 3965,
    "push": "2026-08-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1024,7 +1024,7 @@
   },
   "f-droid/fdroidclient": {
    "estado": "vivo",
-   "stars": 3264,
+   "stars": 3265,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1072,7 +1072,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97534,
+   "stars": 97536,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1084,7 +1084,7 @@
   },
   "immich-app/immich": {
    "estado": "vivo",
-   "stars": 118374,
+   "stars": 118375,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -1144,7 +1144,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 64227,
+   "stars": 64228,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1156,7 +1156,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 154152,
+   "stars": 154154,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1228,7 +1228,7 @@
   },
   "MorpheApp/morphe-manager": {
    "estado": "vivo",
-   "stars": 10042,
+   "stars": 10044,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1324,14 +1324,14 @@
   },
   "MorpheApp/morphe-patches": {
    "estado": "vivo",
-   "stars": 4599,
+   "stars": 4601,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
    "lenguaje": "Java",
    "desc": "Morphe Patches",
-   "release": "v2.0.0",
-   "release_fecha": "2026-10-30",
+   "release": "v2.1.0",
+   "release_fecha": "2026-11-06",
    "stars_pieza": null
   },
   "Jman-Github/Patch-Bundle-Registry": {
@@ -1389,7 +1389,7 @@
   },
   "yuliskov/SmartTube": {
    "estado": "vivo",
-   "stars": 35996,
+   "stars": 36000,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "MIT",
@@ -1545,7 +1545,7 @@
   },
   "hiddify/hiddify-app": {
    "estado": "vivo",
-   "stars": 33700,
+   "stars": 33701,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -2540,7 +2540,7 @@
    "desc": "Manga, Novel, and Video reader for Android",
    "release": "v2.3.11",
    "release_fecha": "2026-11-06",
-   "stars_pieza": 672
+   "stars_pieza": null
   },
   "itsmechinmoy/echo": {
    "estado": "error",
@@ -2585,7 +2585,7 @@
   },
   "recloudstream/cloudstream": {
    "estado": "vivo",
-   "stars": 11165,
+   "stars": 11166,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -2785,7 +2785,7 @@
    "desc": "Full featured lightweight FOSS Manga/Manhua/Manhwa reader app for Android.",
    "release": "9.9.1",
    "release_fecha": "2026-09-21",
-   "stars_pieza": 35
+   "stars_pieza": null
   },
   "RecordXenon/Kotatsu-Ultra": {
    "estado": "vivo",
@@ -3149,7 +3149,7 @@
   },
   "iptv-org/iptv": {
    "estado": "vivo",
-   "stars": 143392,
+   "stars": 143394,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "Unlicense",
@@ -3257,7 +3257,7 @@
   },
   "Viren070/AIOStreams": {
    "estado": "vivo",
-   "stars": 3103,
+   "stars": 3104,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3270,7 +3270,7 @@
   "alpinezx/easy-aiostreams": {
    "estado": "vivo",
    "stars": 57,
-   "push": "2026-11-05",
+   "push": "2026-11-06",
    "archivado": false,
    "licencia": "MIT",
    "lenguaje": "Shell",
@@ -3401,7 +3401,7 @@
   },
   "koreader/koreader": {
    "estado": "vivo",
-   "stars": 30904,
+   "stars": 30905,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3413,7 +3413,7 @@
   },
   "koodo-reader/koodo-reader": {
    "estado": "vivo",
-   "stars": 28743,
+   "stars": 28745,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -3713,7 +3713,7 @@
   },
   "navidrome/navidrome": {
    "estado": "vivo",
-   "stars": 24547,
+   "stars": 24548,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4157,7 +4157,7 @@
   },
   "FFmpeg/FFmpeg": {
    "estado": "vivo",
-   "stars": 66605,
+   "stars": 66606,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -4181,7 +4181,7 @@
   },
   "yt-dlp/yt-dlp": {
    "estado": "vivo",
-   "stars": 205685,
+   "stars": 205695,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Unlicense",
@@ -4289,7 +4289,7 @@
   },
   "OpenSelena/omniget": {
    "estado": "vivo",
-   "stars": 4504,
+   "stars": 4508,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4301,7 +4301,7 @@
   },
   "Clash-Projects/LastWave-Native": {
    "estado": "vivo",
-   "stars": 2564,
+   "stars": 2565,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4313,7 +4313,7 @@
   },
   "SimoHypers/limusic": {
    "estado": "vivo",
-   "stars": 1842,
+   "stars": 1844,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4325,7 +4325,7 @@
   },
   "kushagrasinghx/BitChord": {
    "estado": "vivo",
-   "stars": 5913,
+   "stars": 5916,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4349,7 +4349,7 @@
   },
   "LUC4N3X/Levyra-deepsound": {
    "estado": "vivo",
-   "stars": 2103,
+   "stars": 2106,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4361,7 +4361,7 @@
   },
   "EchoMusicApp/Echo-Music": {
    "estado": "vivo",
-   "stars": 2314,
+   "stars": 2316,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4373,7 +4373,7 @@
   },
   "Clash-Projects/LastWave-Desktop": {
    "estado": "vivo",
-   "stars": 965,
+   "stars": 967,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": null,
@@ -4409,7 +4409,7 @@
   },
   "kota-zo/myspoti": {
    "estado": "vivo",
-   "stars": 1511,
+   "stars": 1512,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4709,7 +4709,7 @@
   },
   "GopeedLab/gopeed": {
    "estado": "vivo",
-   "stars": 27448,
+   "stars": 27450,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4721,7 +4721,7 @@
   },
   "agalwood/Motrix": {
    "estado": "vivo",
-   "stars": 57868,
+   "stars": 57871,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -4841,7 +4841,7 @@
   },
   "mikf/gallery-dl": {
    "estado": "vivo",
-   "stars": 20398,
+   "stars": 20400,
    "push": "2026-10-31",
    "archivado": false,
    "licencia": "GPL-2.0",
@@ -4961,7 +4961,7 @@
   },
   "uutils/coreutils": {
    "estado": "vivo",
-   "stars": 24337,
+   "stars": 24338,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "MIT",
@@ -5009,7 +5009,7 @@
   },
   "openai/whisper": {
    "estado": "vivo",
-   "stars": 112081,
+   "stars": 112083,
    "push": "2026-08-31",
    "archivado": false,
    "licencia": "MIT",
@@ -5021,7 +5021,7 @@
   },
   "HeliBorg/HeliBoard": {
    "estado": "vivo",
-   "stars": 6508,
+   "stars": 6509,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5081,7 +5081,7 @@
   },
   "osfans/trime": {
    "estado": "vivo",
-   "stars": 4779,
+   "stars": 4778,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5165,7 +5165,7 @@
   },
   "BryceWG/BiBi-Keyboard": {
    "estado": "vivo",
-   "stars": 863,
+   "stars": 864,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -5213,7 +5213,7 @@
   },
   "Cyletix/CyIME": {
    "estado": "vivo",
-   "stars": 720,
+   "stars": 721,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5237,7 +5237,7 @@
   },
   "cjpais/Handy": {
    "estado": "vivo",
-   "stars": 37765,
+   "stars": 37766,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "MIT",
@@ -5249,7 +5249,7 @@
   },
   "anomalyco/hex": {
    "estado": "vivo",
-   "stars": 5425,
+   "stars": 5434,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "MIT",
@@ -5273,7 +5273,7 @@
   },
   "altic-dev/FluidVoice": {
    "estado": "vivo",
-   "stars": 12861,
+   "stars": 12863,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5381,7 +5381,7 @@
   },
   "espanso/espanso": {
    "estado": "vivo",
-   "stars": 14725,
+   "stars": 14726,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5795,7 +5795,7 @@
    "desc": "Manga and novel reader for Android",
    "release": "v9.9",
    "release_fecha": "2026-10-21",
-   "stars_pieza": 477
+   "stars_pieza": null
   },
   "N/D": {
    "estado": "muerto",
@@ -5828,7 +5828,7 @@
   },
   "fcitx5-android/fcitx5-android": {
    "estado": "vivo",
-   "stars": 5846,
+   "stars": 5845,
    "push": "2026-10-13",
    "archivado": false,
    "licencia": "LGPL-2.1",
@@ -5840,7 +5840,7 @@
   },
   "futo-org/android-keyboard": {
    "estado": "vivo",
-   "stars": 3447,
+   "stars": 3446,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -5862,7 +5862,7 @@
   },
   "fahrez182/AxManager": {
    "estado": "vivo",
-   "stars": 1551,
+   "stars": 1552,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -5934,7 +5934,7 @@
   },
   "topjohnwu/Magisk": {
    "estado": "vivo",
-   "stars": 63814,
+   "stars": 63817,
    "push": "2026-10-27",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5946,7 +5946,7 @@
   },
   "tiann/KernelSU": {
    "estado": "vivo",
-   "stars": 20177,
+   "stars": 20178,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5970,7 +5970,7 @@
   },
   "SukiSU-Ultra/SukiSU-Ultra": {
    "estado": "vivo",
-   "stars": 6921,
+   "stars": 6925,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -5994,7 +5994,7 @@
   },
   "Baka-SU/BakaSU": {
    "estado": "vivo",
-   "stars": 2120,
+   "stars": 2121,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -6078,7 +6078,7 @@
   },
   "LSPosed/LSPosed": {
    "estado": "vivo",
-   "stars": 25346,
+   "stars": 25348,
    "push": "2026-10-14",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -6090,7 +6090,7 @@
   },
   "JingMatrix/Vector": {
    "estado": "vivo",
-   "stars": 13044,
+   "stars": 13045,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -6124,69 +6124,9 @@
    "release_fecha": "2025-11-02",
    "stars_pieza": null
   },
-  "Arthurpendragon9876/DeepSync": {
-   "estado": "vivo",
-   "stars": 1,
-   "push": "2026-11-05",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "Kotlin",
-   "desc": "A light, beautiful comic and novel reading app designed with Jetpack Compose and M3 Expressive that works with a wide range of extensions",
-   "release": null,
-   "release_fecha": "",
-   "stars_pieza": 1
-  },
-  "T8RIN/ImageToolbox": {
-   "estado": "vivo",
-   "stars": 15446,
-   "push": "2026-11-06",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "🖼️ Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image processing options",
-   "release": "4.2.0",
-   "release_fecha": "2026-09-04",
-   "stars_pieza": 15440
-  },
-  "ArthurHub/Android-Image-Cropper": {
-   "estado": "vivo",
-   "stars": 6406,
-   "push": "2023-09-17",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Java",
-   "desc": "Image Cropping Library for Android, optimized for Camera / Gallery.",
-   "release": "2.8.0",
-   "release_fecha": "2018-10-27",
-   "stars_pieza": 6406
-  },
-  "BorgorNinja/Snapedit": {
-   "estado": "vivo",
-   "stars": 0,
-   "push": "2026-10-31",
-   "archivado": false,
-   "licencia": "Apache-2.0",
-   "lenguaje": "Kotlin",
-   "desc": "High-precision, non-destructive photo editing suite for Android (Kotlin + Jetpack Compose)",
-   "release": "latest",
-   "release_fecha": "2026-10-11",
-   "stars_pieza": 0
-  },
-  "pelayanan/aksiphoto": {
-   "estado": "vivo",
-   "stars": 0,
-   "push": "2026-10-27",
-   "archivado": false,
-   "licencia": "NOASSERTION",
-   "lenguaje": "Kotlin",
-   "desc": "AksiPhoto — Open Source Image Editor Android. Photoshop-inspired, built for creators Indonesia. Kotlin + Jetpack Compose.",
-   "release": null,
-   "release_fecha": "",
-   "stars_pieza": 0
-  },
   "hiroi-sora/Umi-OCR": {
    "estado": "vivo",
-   "stars": 48485,
+   "stars": 48486,
    "push": "2025-11-20",
    "archivado": false,
    "licencia": "MIT",
@@ -6727,8 +6667,8 @@
    "veredicto": "responde"
   },
   "https://github.com/LeanBitLab/LeanType/blob/main/app/src/main/java/helium314/keyboard/settings/screens/TextExpanderScreen.kt": {
-   "codigo": "429",
-   "veredicto": "no deja entrar a un robot"
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://github.com/Lelonio/Square": {
    "codigo": "200",
@@ -7727,8 +7667,8 @@
    "veredicto": "responde"
   },
   "https://github.com/krishna3163/OmniShizuku/blob/main/PONYTAIL.md": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/krishna3163/OmniShizuku/blob/main/README.es.md": {
    "codigo": "200",
@@ -7743,16 +7683,16 @@
    "veredicto": "responde"
   },
   "https://github.com/krishna3163/OmniShizuku/blob/main/manager/src/main/java/moe/shizuku/manager/ShizukuApplication.kt": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/krishna3163/OmniShizuku/blob/main/remaining.md": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/krishna3163/OmniShizuku/blob/main/stub/build.gradle": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/krishna3163/OmniShizuku/commit/937fc143": {
    "codigo": "200",

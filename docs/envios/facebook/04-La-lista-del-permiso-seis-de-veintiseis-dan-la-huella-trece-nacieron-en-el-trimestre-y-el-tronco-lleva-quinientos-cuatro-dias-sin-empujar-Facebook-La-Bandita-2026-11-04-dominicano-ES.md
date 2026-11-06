@@ -397,7 +397,7 @@ Porque se midió hoy y tiene veintiún días, trescientas cincuenta y siete conf
 
 Medí otra vez, hoy 6 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.924 · *dormido*: sin empujar desde el 18-jun-2025 (506 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.927 · *dormido*: sin empujar desde el 18-jun-2025 (506 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • RikkaApps/Shizuku-API — ★2.749 · *dormido*: sin empujar desde el 29-may-2025 (526 días) · MIT · última release v12.1.0 (7-oct-2022)
 • d4rken-org/porter — ★257 · empujó el 4-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.8.1-rc0 (7-oct-2026)
 • capitan0n/droynis — ★20 · empujó en las últimas horas · GPL-3.0 · última release v0.16.0 (5-nov-2026)
@@ -410,7 +410,7 @@ Medí otra vez, hoy 6 de noviembre de 2026, los 26 repositorios que cita esta pi
 • kerneldroid/Nightzuku — ★332 · empujó el 4-nov-2026 (hace 2 días) · Apache-2.0 · última release v13.7.1-r60 (4-nov-2026)
 • thejaustin/ShizukuPlus — ★1.719 · empujó el 4-nov-2026 (hace 2 días) · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
 • iamr0s/Dhizuku — ★4.098 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
-• samolego/Canta — ★6.538 · empujó en las últimas horas · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
+• samolego/Canta — ★6.540 · empujó en las últimas horas · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
 • wxxsfxyzm/InstallerX-Revived — ★7.347 · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
 • pass-with-high-score/universal-installer — ★1.690 · empujó en las últimas horas · GPL-3.0 · última release v1.21.0 (1-nov-2026)
 • aistra0528/Hail — ★7.131 · empujó el 27-oct-2026 (hace 10 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)

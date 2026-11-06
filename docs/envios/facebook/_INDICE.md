@@ -6,7 +6,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 
 | Pieza | Título | Mensajes | Mayor | Repos | Muertos | Apéndice | Archivo |
 |---|---|---|---|---|---|---|---|
-| 01 | La huella o el silencio: doce programas nacidos en octubre, cuatro que | 20 | 3593 | 15 | 0 | no | `01-La-huella-o-el-silencio-doce-programas-de-octubre-cuatro-que-firman-lo-que-publican-y-ocho-que-piden-fe-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
+| 01 | La huella o el silencio: quince programas de octubre, dos que firman l | 6 | 3583 | 15 | 0 | no | `01-La-huella-o-el-silencio-quince-programas-de-octubre-dos-que-firman-y-trece-que-piden-fe-Facebook-La-Bandita-2026-11-06-dominicano-ES` |
 | 02 | La musica que no se cae seis grandes con cincuenta y siete mil trescie | 20 | 3633 | 22 | 0 | no | `02-La-musica-que-no-se-cae-seis-grandes-con-cincuenta-y-siete-mil-trescientas-sesenta-y-tres-estrellas-que-no-firman-nada-y-seis-recien-nacidos-que-si-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 03 | La caja fuerte del bolsillo: una de catorce te da la huella, cuatro ll | 19 | 3526 | 14 | 0 | no | `03-La-caja-fuerte-del-bolsillo-una-de-catorce-te-da-la-huella-cuatro-llevan-anos-paradas-y-dos-se-reservan-los-derechos-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 04 | La lista del permiso: seis de veintiséis dan la huella, trece nacieron | 20 | 3645 | 26 | 0 | no | `04-La-lista-del-permiso-seis-de-veintiseis-dan-la-huella-trece-nacieron-en-el-trimestre-y-el-tronco-lleva-quinientos-cuatro-dias-sin-empujar-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
@@ -16,7 +16,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 08 | La red: seis caminos, seis precios — el programa más nuevo del tema sa | 17 | 3625 | 20 | 0 | no | `08-La-red-seis-caminos-seis-precios-el-programa-mas-nuevo-del-tema-saca-ochenta-y-los-dos-mas-instalados-no-firman-nada-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 09 | Archivos, copias y nubes propias: cuatro de diecisiete dan la huella,  | 20 | 3647 | 17 | 0 | no | `09-Archivos-copias-y-nubes-propias-cuatro-de-diecisiete-dan-la-huella-y-las-dos-herramientas-de-copia-llevan-410-y-185-dias-sin-publicar-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 10 | Los repositorios de extensiones: cincuenta y seis tiendas vivas, doce  | 20 | 3875 | 58 | 0 | no | `10-Las-tiendas-cincuenta-y-seis-repositorios-vivos-doce-mil-cuatrocientos-ochenta-y-siete-archivos-y-diez-sumas-de-comprobacion-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
-| 11 | Las aplicaciones que leen lo que la pieza 10 midió: cincuenta y uno pr | 20 | 3944 | 56 | 0 | no | `11-Las-aplicaciones-que-leen-lo-que-la-pieza-10-midio-cincuenta-y-una-aplicaciones-y-cincuenta-y-ocho-millones-de-descargas-con-ciento-dieciseis-archivos-firmados-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
+| 11 | Las aplicaciones que leen lo que la pieza 10 midió: cincuenta y uno pr | 20 | 3926 | 56 | 0 | no | `11-Las-aplicaciones-que-leen-lo-que-la-pieza-10-midio-cincuenta-y-una-aplicaciones-y-cincuenta-y-ocho-millones-de-descargas-con-ciento-dieciseis-archivos-firmados-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 12 | El kit de reemplazo: cincuenta y nueve recursos medidos hoy para tirar | 21 | 3933 | 51 | 0 | no | `12-El-kit-de-reemplazo-cincuenta-y-nueve-recursos-medidos-hoy-para-tirar-el-stack-viejo-del-meme-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 13 | El audio que le faltaba al kit: cincuenta y cuatro programas de música | 20 | 3945 | 52 | 0 | no | `13-El-audio-que-le-faltaba-al-kit-cincuenta-y-cuatro-programas-medidos-hoy-de-la-musica-propia-al-registro-de-lo-que-oyes-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 14 | Spotify sin Spotify cuarenta y cinco clientes medidos hoy quince nacid | 19 | 3825 | 37 | 0 | no | `14-Spotify-sin-Spotify-cuarenta-y-cinco-clientes-medidos-hoy-quince-nacidos-en-2026-tres-muertos-y-la-proporcion-de-firma-mas-alta-de-la-serie-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
@@ -28,12 +28,8 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 20 | El teclado que obedece once teclados clonados y leidos hoy diez teclas | 19 | 3651 | 12 | 1 | no | `20-El-teclado-que-obedece-once-teclados-clonados-y-leidos-hoy-diez-teclas-medidas-en-el-codigo-y-veintidos-textos-con-once-comprobaciones-Facebook-La-Bandita-2026-11-05-dominicano-ES` |
 | 21 | La variante que cambió: OmniShizuku deja de publicar la versión ligera | 19 | 3634 | 3 | 0 | no | `21-La-variante-que-cambio-OmniShizuku-deja-de-publicar-la-version-ligera-el-mismo-dia-que-enciende-tres-funciones-Facebook-La-Bandita-2026-11-05-dominicano-ES` |
 | 22 | El modulo que no necesita root AxManager su plugin y los siete ecosist | 20 | 3319 | 24 | 2 | no | `22-El-modulo-que-no-necesita-root-AxManager-su-plugin-y-los-siete-ecosistemas-contados-hoy-Facebook-La-Bandita-2026-11-05-dominicano-ES` |
-| 23 | Deepsync y la familia kotatsu lectores que nacen de un padre archivado | 7 | 3618 | 4 | 0 | no | `23-Deepsync-y-la-familia-kotatsu-lectores-que-nacen-de-un-padre-archivado-Facebook-La-Bandita-2026-11-05-dominicano-ES` |
-| 23 | DeepSync y la familia Kotatsu: un lector de dos días, cuatro forks de  | 6 | 3605 | 4 | 0 | no | `23-Deepsync-y-la-familia-kotatsu-lectores-que-nacen-de-un-padre-archivado-Facebook-La-Bandita-2026-11-06-dominicano-ES` |
-| 24 | Editar la foto sin pagar: cuatro herramientas, dos que piden cuenta y  | 7 | 3610 | 4 | 0 | no | `24-Editar-la-foto-sin-pagar-cuatro-herramientas-que-no-piden-cuenta-Facebook-La-Bandita-2026-11-05-dominicano-ES` |
-| 24 | Editar la foto sin pagar: cuatro herramientas, dos que piden cuenta y  | 7 | 3402 | 4 | 0 | no | `24-Editar-la-foto-sin-pagar-cuatro-herramientas-que-no-piden-cuenta-Facebook-La-Bandita-2026-11-06-dominicano-ES` |
 | 25 | El escáner de bolsillo: del papel al PDF legible, con Umi-OCR y episte | 6 | 3558 | 2 | 0 | no | `25-El-scanner-de-bolsillo-del-papel-al-PDF-legible-Umi-OCR-y-episteme-Facebook-La-Bandita-2026-11-06-dominicano-ES` |
 
-**27 piezas · 462 mensajes** · el mayor de todos: 3945 caracteres.
+**23 piezas · 421 mensajes** · el mayor de todos: 3945 caracteres.
 
 

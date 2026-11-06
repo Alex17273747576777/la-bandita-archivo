@@ -511,7 +511,7 @@ Y lo cuarto: cuando alguien te venda un método con porcentajes de obediencia, p
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 1896 caracteres ═══
+═══ MENSAJE 18 de 19 · 1702 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 20*
 
@@ -521,20 +521,19 @@ Medí otra vez, hoy 6 de noviembre de 2026, los 12 repositorios que cita esta pi
 • LeanBitLab/LeanType — ★1.149 · empujó en las últimas horas · GPL-3.0 · última release v4.3.1 (4-nov-2026)
 • SvReenen/Deskdrop — ★59 · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (21-abr-2026)
 • AnySoftKeyboard/AnySoftKeyboard — ★3.392 · empujó en las últimas horas · Apache-2.0 · última release 1.13-r2 (8-sep-2026)
-• HeliBorg/HeliBoard — ★6.508 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.2 (12-oct-2026)
+• HeliBorg/HeliBoard — ★6.509 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.2 (12-oct-2026)
 • florisboard/florisboard — ★8.755 · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
 • Julow/Unexpected-Keyboard — ★3.336 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release 2.2.0 (1-nov-2026)
 • dessalines/thumb-key — ★1.570 · empujó en las últimas horas · AGPL-3.0 · última release 5.1.20 (2-nov-2026)
-• osfans/trime — ★4.779 · empujó en las últimas horas · GPL-3.0 · última release v3.3.13 (1-nov-2026)
-• fcitx5-android/fcitx5-android — ★5.846 · empujó el 13-oct-2026 (hace 24 días) · LGPL-2.1 · última release 0.1.3 (26-jul-2026)
-• futo-org/android-keyboard — ★3.447 · empujó el 2-nov-2026 (hace 4 días) · NOASSERTION · última release 0.1.30 (4-ago-2026)
+• osfans/trime — ★4.778 · empujó en las últimas horas · GPL-3.0 · última release v3.3.13 (1-nov-2026)
+• fcitx5-android/fcitx5-android — ★5.845 · empujó el 13-oct-2026 (hace 24 días) · LGPL-2.1 · última release 0.1.3 (26-jul-2026)
+• futo-org/android-keyboard — ★3.446 · empujó el 2-nov-2026 (hace 4 días) · NOASSERTION · última release 0.1.30 (4-ago-2026)
 • rkkr/simple-keyboard — ★1.607 · empujó el 22-oct-2026 (hace 15 días) · Apache-2.0 · última release 149 (22-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 14 enlaces de esta pieza, *13 responden*.
-
-• https://github.com/LeanBitLab/LeanType/blob/main/app/src/main/java/helium314/keyboard/settings/screens/TextExpanderScreen.kt — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 14 enlaces de esta pieza, *14 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 17 de 18
 

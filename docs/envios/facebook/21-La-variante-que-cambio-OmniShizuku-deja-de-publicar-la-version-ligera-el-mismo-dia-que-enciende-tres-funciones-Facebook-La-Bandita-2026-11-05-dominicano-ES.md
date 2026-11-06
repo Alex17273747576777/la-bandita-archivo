@@ -419,21 +419,24 @@ Y lo cuarto: **doce días no dan para confiar, pero sí para mirar**. Este es el
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 827 caracteres ═══
+═══ MENSAJE 18 de 19 · 1326 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 21*
 
 Medí otra vez, hoy 6 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • krishna3163/OmniShizuku — ★19 · empujó en las últimas horas · Apache-2.0 · última release latest (6-nov-2026)
-• RikkaApps/Shizuku — ★32.924 · *dormido*: sin empujar desde el 18-jun-2025 (506 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.927 · *dormido*: sin empujar desde el 18-jun-2025 (506 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • iamr0s/Dhizuku — ★4.098 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 16 enlaces de esta pieza, *15 responden*.
+De los 16 enlaces de esta pieza, *12 responden*.
 
+• https://github.com/krishna3163/OmniShizuku/blob/main/PONYTAIL.md — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/krishna3163/OmniShizuku/blob/main/build.gradle — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/krishna3163/OmniShizuku/blob/main/manager/src/main/java/moe/shizuku/manager/ShizukuApplication.kt — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/krishna3163/OmniShizuku/blob/main/stub/build.gradle — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 17 de 18
 

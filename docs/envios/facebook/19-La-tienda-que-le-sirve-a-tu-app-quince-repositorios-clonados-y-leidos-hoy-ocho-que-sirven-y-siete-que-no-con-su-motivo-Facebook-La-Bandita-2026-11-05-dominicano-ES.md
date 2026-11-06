@@ -486,7 +486,7 @@ Y lo cuarto, que es lo que importa: **el listón no sube escribiendo más, sube 
 
 ⏬ sigue abajo · parte 19 de 21
 
-═══ MENSAJE 21 de 22 · 3327 caracteres ═══
+═══ MENSAJE 21 de 22 · 3322 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 19*
 
@@ -506,9 +506,9 @@ Medí otra vez, hoy 6 de noviembre de 2026, los 26 repositorios que cita esta pi
 • mihonapp/mihon — ★25.061 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • UsagiApp/Usagi — ★293 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
 • HuzaifaKhalid1311/DropSauce — ★230 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.1.2 (4-nov-2026)
-• AppFuton/Futon — ★478 (+1) · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
+• AppFuton/Futon — ★478 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
 • kodjodevf/mangayomi — ★4.391 · empujó el 3-nov-2026 (hace 3 días) · Apache-2.0 · última release v0.9.95 (1-nov-2026)
-• recloudstream/cloudstream — ★11.165 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
+• recloudstream/cloudstream — ★11.166 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
 • KotatsuApp/Kotatsu — ★8.952 · *dormido*: sin empujar desde el 4-nov-2025 (367 días) · GPL-3.0 · *ARCHIVADO*
 • lnreader/lnreader-plugins — ★368 · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
 • keiyoushi/extensions — ★15.444 · empujó en las últimas horas · sin licencia detectada por la API · última release 16cde44 (6-nov-2026)

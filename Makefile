@@ -83,12 +83,6 @@ censo:  ## Cuenta un tema del registro con palabras declaradas (H10). Uso: make 
 alinear:  ## Pone en la pieza ★N de la medición, línea por línea (H09). Uso: make alinear PIEZA=... MEDICION=...
 	@$(PY) tools/alinear.py --pieza "$(PIEZA)" --medicion "$(MEDICION)" --aplicar
 
-catalogo:  ## Mide, escribe y revisa las fichas del catálogo (12 comprobaciones)
-	python3 tools/catalogo_medir.py
-	python3 tools/catalogo_ficha.py --indice
-	python3 tools/catalogo_sync.py
-	python3 tools/catalogo_lint.py
-
 libro:  tareas indice  ## Los documentos derivados: tareas e índice
 
 novedad:  ## Encuentra lo nuevo, lo recién publicado y lo desconocido del registro

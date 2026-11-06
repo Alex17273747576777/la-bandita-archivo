@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/11-Las-aplicaciones-que-leen-lo-que-la-pieza-10-midio-cincuenta-y-una-aplicaciones-y-cincuenta-y-ocho-millones-de-descargas-con-ciento-dieciseis-archivos-firmados-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
 - **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 2 días)
 - **sha256 de la pieza:** `a869d5d51b186d516d228c36ef442e03d2a7b3715e3adb314e071cd8d0088485`
-- **Envío generado:** 2026-11-06 · 20 mensajes · el mayor de 3944 caracteres
+- **Envío generado:** 2026-11-06 · 20 mensajes · el mayor de 3926 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 20 · 1126 caracteres ═══
@@ -463,19 +463,19 @@ Y lo cuarto, la frase de siempre: **lo más nuevo no es lo mejor, pero es lo que
 
 ⏬ sigue abajo · parte 15 de 19
 
-═══ MENSAJE 17 de 20 · 3944 caracteres ═══
+═══ MENSAJE 17 de 20 · 3926 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 11*
 
 Medí otra vez, hoy 6 de noviembre de 2026, los 56 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • skepsun/kototoro — sin dato hoy (la API no respondió). No afirmo nada.
-• Kototoro-app/Kototoro — ★673 (+1) · empujó en las últimas horas · Apache-2.0 · última release v2.3.11 (6-nov-2026)
+• Kototoro-app/Kototoro — ★673 · empujó en las últimas horas · Apache-2.0 · última release v2.3.11 (6-nov-2026)
 • itsmechinmoy/echo — sin dato hoy (la API no respondió). No afirmo nada.
 • itsmechinmoy/echo-nightly — ★390 · *dormido*: sin empujar desde el 22-ago-2026 (76 días) · NOASSERTION · última release nightly-20260402-172557-aafa008 (2-abr-2026)
 • mihonapp/mihon — ★25.061 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • komikku-app/anikku — ★1.134 · empujó el 22-oct-2026 (hace 15 días) · Apache-2.0 · última release v0.2.0 (11-sep-2026)
-• recloudstream/cloudstream — ★11.165 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
+• recloudstream/cloudstream — ★11.166 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
 • kodjodevf/mangayomi — ★4.391 · empujó el 3-nov-2026 (hace 3 días) · Apache-2.0 · última release v0.9.95 (1-nov-2026)
 • UsagiApp/usagi — ★293 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
 • LNReader/lnreader — ★2.960 · empujó el 1-nov-2026 (hace 5 días) · MIT · última release v2.1.4 (26-sep-2026)
@@ -492,7 +492,7 @@ Medí otra vez, hoy 6 de noviembre de 2026, los 56 repositorios que cita esta pi
 • yomihon/yomihon — ★144 · empujó el 18-oct-2026 (hace 19 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)
 • HayaiApp/hayai — ★50 · empujó el 3-oct-2026 (hace 34 días) · Apache-2.0
 • Seguaz/Nekoyomi — ★49 · *dormido*: sin empujar desde el 11-sep-2026 (56 días) · Apache-2.0 · última release v0.20.6 (11-sep-2026)
-• Ero-gamer/Kotatsu-Next — ★35 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release 9.9.1 (21-sep-2026)
+• Ero-gamer/Kotatsu-Next — ★35 · empujó en las últimas horas · GPL-3.0 · última release 9.9.1 (21-sep-2026)
 • RecordXenon/Kotatsu-Ultra — ★118 · empujó en las últimas horas · sin licencia detectada por la API
 • Hotaro26/miko — ★34 · *dormido*: sin empujar desde el 11-sep-2026 (56 días) · sin licencia detectada por la API · última release v3.3 (3-ago-2026)
 • Ero-gamer/Weeber — ★1 · empujó el 2-nov-2026 (hace 4 días) · GPL-3.0

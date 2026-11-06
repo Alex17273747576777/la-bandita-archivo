@@ -386,7 +386,7 @@ El permiso y la lista que hacen falta:
 
 ⏬ sigue abajo · parte 15 de 17
 
-═══ MENSAJE 17 de 18 · 2820 caracteres ═══
+═══ MENSAJE 17 de 18 · 2819 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 06*
 
@@ -395,7 +395,7 @@ Medí otra vez, hoy 6 de noviembre de 2026, los 18 repositorios que cita esta pi
 • anddea/revanced-patches — ★1.939 · empujó el 3-nov-2026 (hace 3 días) · GPL-3.0 · última release v4.3.0 (28-sep-2026)
 • hoo-dles/morphe-patches — ★1.310 · empujó el 1-nov-2026 (hace 5 días) · GPL-3.0 · última release v1.47.0 (4-oct-2026)
 • inotia00/revanced-patches — ★2.257 · *dormido*: sin empujar desde el 10-mar-2026 (241 días) · GPL-3.0 · última release v5.14.1 (31-dic-2025) · *ARCHIVADO*
-• MorpheApp/morphe-manager — ★10.042 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (6-nov-2026)
+• MorpheApp/morphe-manager — ★10.044 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (6-nov-2026)
 • Jman-Github/Universal-Patch-Manager — ★1.414 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
 • ReVanced/revanced-manager — ★30.079 · *dormido*: sin empujar desde el 29-jul-2026 (100 días) · GPL-3.0 · última release v2.6.0 (26-abr-2026)
 • ReVanced/revanced-cli — ★1.599 · *dormido*: sin empujar desde el 2-jun-2026 (157 días) · GPL-3.0 · última release v6.0.0 (14-mar-2026)
@@ -403,12 +403,12 @@ Medí otra vez, hoy 6 de noviembre de 2026, los 18 repositorios que cita esta pi
 • ReVanced/revanced-api — ★186 · *dormido*: sin empujar desde el 19-jul-2026 (110 días) · AGPL-3.0 · última release v1.6.1 (11-jul-2025)
 • brosssh/revanced-manager-downloaders — ★118 · *dormido*: sin empujar desde el 4-dic-2025 (337 días) · GPL-3.0 · última release v1.1.0 (4-dic-2025)
 • rushiranpise/helper-for-morphe — ★450 · empujó el 1-nov-2026 (hace 5 días) · GPL-3.0 · última release v5.2.0 (1-nov-2026)
-• MorpheApp/morphe-patches — ★4.599 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (30-oct-2026)
+• MorpheApp/morphe-patches — ★4.601 · empujó en las últimas horas · GPL-3.0 · última release v2.1.0 (6-nov-2026)
 • Jman-Github/Patch-Bundle-Registry — ★724 · empujó en las últimas horas · Unlicense
 • inotia00/revanced-manager — ★1.700 · *dormido*: sin empujar desde el 29-dic-2025 (312 días) · GPL-3.0 · última release v1.25.7 (29-dic-2025) · *ARCHIVADO*
 • ReVanced/revanced-patches — sin dato hoy (la API no respondió). No afirmo nada.
 • ReVanced/where-is-revanced-patches — ★158 · *dormido*: sin empujar desde el 24-mar-2026 (227 días) · sin licencia detectada por la API
-• RikkaApps/Shizuku — ★32.924 · *dormido*: sin empujar desde el 18-jun-2025 (506 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★32.927 · *dormido*: sin empujar desde el 18-jun-2025 (506 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • timschneeb/awesome-shizuku — ★10.727 · empujó el 4-nov-2026 (hace 2 días) · NOASSERTION
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
