@@ -1,12 +1,12 @@
 # PIEZA 21 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/21-La-variante-que-cambio-OmniShizuku-deja-de-publicar-la-version-ligera-el-mismo-dia-que-enciende-tres-funciones-Facebook-La-Bandita-2026-11-05-dominicano-ES.md`
-- **Fecha de la pieza:** 5-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 5-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `5bf46406486083c2bf39b8b62c2d6a16913a8fdacdf378c981c525f445d0ea0e`
-- **Envío generado:** 2026-11-05 · 19 mensajes · el mayor de 3544 caracteres
+- **Envío generado:** 2026-11-06 · 19 mensajes · el mayor de 3634 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 19 · 872 caracteres ═══
+═══ MENSAJE 1 de 19 · 1051 caracteres ═══
 
 *La variante que cambió: OmniShizuku deja de publicar la versión ligera el mismo día que enciende tres funciones — y lo que el código dice de ese cambio*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *3 repositorios, 3 vivos*, m�
 
 Licencias de lo que recomienda: Apache-2.0 2 · GPL-3.0 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 5-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/21-La-variante-que-cambio-OmniShizuku-deja-de-publicar-la-version-ligera-el-mismo-dia-que-enciende-tres-funciones-Facebook-La-Bandita-2026-11-05-dominicano-ES.md
 
-💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 19 · 3544 caracteres ═══
+═══ MENSAJE 2 de 19 · 3634 caracteres ═══
+
+[Texto del 5-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *La variante que cambió: OmniShizuku deja de publicar la versión ligera el mismo día que enciende tres funciones — y lo que el código dice de ese cambio*
 
@@ -415,25 +419,23 @@ Y lo cuarto: **doce días no dan para confiar, pero sí para mirar**. Este es el
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 1439 caracteres ═══
+═══ MENSAJE 18 de 19 · 1173 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 21*
 
-Medí otra vez, hoy 5 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 6 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• krishna3163/OmniShizuku — ★19 · empujó en las últimas horas · Apache-2.0 · última release latest (5-nov-2026)
-• RikkaApps/Shizuku — ★32.860 · *dormido*: sin empujar desde el 18-jun-2025 (505 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• iamr0s/Dhizuku — ★4.090 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• krishna3163/OmniShizuku — ★19 · empujó en las últimas horas · Apache-2.0 · última release latest (6-nov-2026)
+• RikkaApps/Shizuku — ★32.900 · *dormido*: sin empujar desde el 18-jun-2025 (506 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• iamr0s/Dhizuku — ★4.097 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 16 enlaces de esta pieza, *11 responden*.
+De los 16 enlaces de esta pieza, *13 responden*.
 
+• https://github.com/krishna3163/OmniShizuku/blob/main/PONYTAIL.md — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/krishna3163/OmniShizuku/blob/main/README.es.md — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/krishna3163/OmniShizuku/blob/main/build.gradle — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/krishna3163/OmniShizuku/blob/main/manager/build.gradle — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/krishna3163/OmniShizuku/blob/main/remaining.md — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/krishna3163/OmniShizuku/blob/main/stub/build.gradle — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/krishna3163/OmniShizuku/blob/main/manager/src/main/java/moe/shizuku/manager/ShizukuApplication.kt — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 17 de 18
 

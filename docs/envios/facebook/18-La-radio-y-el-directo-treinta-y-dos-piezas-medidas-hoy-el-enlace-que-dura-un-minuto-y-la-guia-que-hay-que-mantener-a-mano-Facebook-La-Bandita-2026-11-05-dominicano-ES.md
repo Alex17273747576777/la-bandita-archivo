@@ -1,12 +1,12 @@
 # PIEZA 18 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/18-La-radio-y-el-directo-treinta-y-dos-piezas-medidas-hoy-el-enlace-que-dura-un-minuto-y-la-guia-que-hay-que-mantener-a-mano-Facebook-La-Bandita-2026-11-05-dominicano-ES.md`
-- **Fecha de la pieza:** 5-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 5-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `6937e25db29f6dcddc60191d2913ad32c2998c9c6e396a5499144294810f5b9f`
-- **Envío generado:** 2026-11-05 · 22 mensajes · el mayor de 3867 caracteres
+- **Envío generado:** 2026-11-06 · 22 mensajes · el mayor de 3882 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 22 · 925 caracteres ═══
+═══ MENSAJE 1 de 22 · 1104 caracteres ═══
 
 *La radio y el directo: treinta y dos piezas medidas hoy —el enlace que dura un minuto, la guía que hay que mantener a mano y la proporción de firma del 14,1 %—*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *33 repositorios, 32 vivos y 
 
 Licencias de lo que recomienda: GPL-3.0 9 · MIT 8 · Apache-2.0 5 · AGPL-3.0 4.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 5-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/18-La-radio-y-el-directo-treinta-y-dos-piezas-medidas-hoy-el-enlace-que-dura-un-minuto-y-la-guia-que-hay-que-mantener-a-mano-Facebook-La-Bandita-2026-11-05-dominicano-ES.md
 
-💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 22 · 3583 caracteres ═══
+═══ MENSAJE 2 de 22 · 3673 caracteres ═══
+
+[Texto del 5-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *La radio y el directo: treinta y dos piezas medidas hoy —el enlace que dura un minuto, la guía que hay que mantener a mano y la proporción de firma del 14,1 %—*
 
@@ -486,50 +490,50 @@ Y lo cuarto: **la mitad del tema es emitir, no ver**. **AzuraCast**, **LibreTime
 
 ⏬ sigue abajo · parte 17 de 21
 
-═══ MENSAJE 19 de 22 · 3867 caracteres ═══
+═══ MENSAJE 19 de 22 · 3882 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 18*
 
-Medí otra vez, hoy 5 de noviembre de 2026, los 33 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 6 de noviembre de 2026, los 33 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • /stream — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• mytv-android/mytv-android — ★3.009 · empujó el 2-nov-2026 (hace 3 días) · MIT · última release V2.2.0.219 (21-ago-2026)
-• AntennaPod/AntennaPod — ★8.267 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release 3.12.3 (13-oct-2026)
-• segler-alex/RadioDroid — ★1.079 · *dormido*: sin empujar desde el 26-jun-2024 (862 días) · GPL-3.0 · última release 0.86 (28-sep-2023)
-• deutsia/deutsia-radio — ★78 · *dormido*: sin empujar desde el 25-may-2026 (164 días) · Apache-2.0 · última release v1.8.1 (25-may-2026)
+• mytv-android/mytv-android — ★3.012 · empujó el 2-nov-2026 (hace 4 días) · MIT · última release V2.2.0.219 (21-ago-2026)
+• AntennaPod/AntennaPod — ★8.270 · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
+• segler-alex/RadioDroid — ★1.079 · *dormido*: sin empujar desde el 26-jun-2024 (863 días) · GPL-3.0 · última release 0.86 (28-sep-2023)
+• deutsia/deutsia-radio — ★78 · *dormido*: sin empujar desde el 25-may-2026 (165 días) · Apache-2.0 · última release v1.8.1 (25-may-2026)
 • shapeshed/aerial — ★165 · empujó en las últimas horas · Apache-2.0 · última release v0.7.4 (7-oct-2026)
-• armanmaurya/InternetRadio — ★182 · empujó en las últimas horas · GPL-3.0 · última release v0.9.0 (22-oct-2026)
+• armanmaurya/InternetRadio — ★183 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v0.9.0 (22-oct-2026)
 • renyijiu/tune-roam — ★10 · empujó en las últimas horas · MIT · última release v0.4.0 (25-oct-2026)
-• vikindor/omnibeat — ★14 · empujó en las últimas horas · AGPL-3.0 · última release v1.17.1 (4-nov-2026)
-• z0rats/freqcast — ★14 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v3.17.2 (2-nov-2026)
-• hyliankid14/British-Radio-Player — ★23 · empujó el 2-nov-2026 (hace 3 días) · NOASSERTION · última release v2.1.4 (2-nov-2026)
-• Woodic-Way/WoodicIPTV — ★5 · *dormido*: sin empujar desde el 30-jul-2026 (98 días) · sin licencia detectada por la API · última release v2.0 (30-jul-2026)
-• TheJoeFin/Traydio — ★205 · empujó en las últimas horas · MIT · última release v2.2.3 (4-nov-2026)
-• meehow/receiver — ★51 · *dormido*: sin empujar desde el 9-ago-2026 (88 días) · GPL-3.0 · última release v0.8.0 (12-jul-2026)
-• nevermore23274/AetherTune — ★129 · empujó el 26-oct-2026 (hace 10 días) · MIT · última release v0.12.0 (1-oct-2026)
-• ahXN00/OwnTV — ★735 · empujó en las últimas horas · GPL-3.0 · última release v5.2.1 (21-oct-2026)
-• yaolin-dev/OKVideoMac — ★119 · empujó en las últimas horas · GPL-3.0 · última release v0.9.2 (5-nov-2026)
-• Davidona/StreamVault-IPTV — ★1.007 · empujó el 2-nov-2026 (hace 3 días) · NOASSERTION · última release v1.2.4 (2-nov-2026)
-• bilipp/Lume — ★179 · empujó el 3-nov-2026 (hace 2 días) · AGPL-3.0 · última release v3.0.0 (1-nov-2026)
-• infinitel8p/Extreme-InfiniTV — ★209 · empujó en las últimas horas · GPL-3.0 · última release v1.9.0 (31-ago-2026)
-• clubanderson/clubTivi — ★108 · empujó el 1-nov-2026 (hace 4 días) · Apache-2.0 · última release weekly-2026.43 (1-nov-2026)
-• mewset/better-iptv — ★71 · empujó el 27-oct-2026 (hace 9 días) · GPL-2.0 · última release v3.2.2 (27-oct-2026)
-• lennylxx/webos-iptv-player — ★147 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.17.0 (20-oct-2026)
-• opentvproject/opentv — ★146 · empujó el 28-oct-2026 (hace 8 días) · GPL-3.0 · última release v0.11.10 (28-oct-2026)
-• bsogulcan/another-iptv-player — ★157 · empujó el 31-oct-2026 (hace 5 días) · MIT · última release ios-v2.4.0 (1-ago-2026)
-• dereferencex/prysm — ★50 · empujó el 16-oct-2026 (hace 20 días) · MIT · última release v1.5.0 (15-oct-2026)
+• vikindor/omnibeat — ★14 · empujó el 4-nov-2026 (hace 2 días) · AGPL-3.0 · última release v1.17.1 (4-nov-2026)
+• z0rats/freqcast — ★14 · empujó el 2-nov-2026 (hace 4 días) · GPL-3.0 · última release v3.17.2 (2-nov-2026)
+• hyliankid14/British-Radio-Player — ★23 · empujó el 2-nov-2026 (hace 4 días) · NOASSERTION · última release v2.1.4 (2-nov-2026)
+• Woodic-Way/WoodicIPTV — ★5 · *dormido*: sin empujar desde el 30-jul-2026 (99 días) · sin licencia detectada por la API · última release v2.0 (30-jul-2026)
+• TheJoeFin/Traydio — ★205 · empujó el 4-nov-2026 (hace 2 días) · MIT · última release v2.2.3 (4-nov-2026)
+• meehow/receiver — ★51 · *dormido*: sin empujar desde el 9-ago-2026 (89 días) · GPL-3.0 · última release v0.8.0 (12-jul-2026)
+• nevermore23274/AetherTune — ★130 · empujó el 26-oct-2026 (hace 11 días) · MIT · última release v0.12.0 (1-oct-2026)
+• ahXN00/OwnTV — ★739 · empujó en las últimas horas · GPL-3.0 · última release v5.2.1 (21-oct-2026)
+• yaolin-dev/OKVideoMac — ★122 · empujó en las últimas horas · GPL-3.0 · última release v0.9.2 (5-nov-2026)
+• Davidona/StreamVault-IPTV — ★1.008 · empujó el 2-nov-2026 (hace 4 días) · NOASSERTION · última release v1.2.4 (2-nov-2026)
+• bilipp/Lume — ★180 · empujó el 3-nov-2026 (hace 3 días) · AGPL-3.0 · última release v3.0.0 (1-nov-2026)
+• infinitel8p/Extreme-InfiniTV — ★211 · empujó en las últimas horas · GPL-3.0 · última release v1.9.0 (31-ago-2026)
+• clubanderson/clubTivi — ★108 · empujó el 1-nov-2026 (hace 5 días) · Apache-2.0 · última release weekly-2026.43 (1-nov-2026)
+• mewset/better-iptv — ★71 · empujó el 27-oct-2026 (hace 10 días) · GPL-2.0 · última release v3.2.2 (27-oct-2026)
+• lennylxx/webos-iptv-player — ★147 · empujó el 3-nov-2026 (hace 3 días) · Apache-2.0 · última release v1.17.0 (20-oct-2026)
+• opentvproject/opentv — ★147 · empujó el 28-oct-2026 (hace 9 días) · GPL-3.0 · última release v0.11.10 (28-oct-2026)
+• bsogulcan/another-iptv-player — ★157 · empujó el 31-oct-2026 (hace 6 días) · MIT · última release ios-v2.4.0 (1-ago-2026)
+• dereferencex/prysm — ★50 · empujó el 16-oct-2026 (hace 21 días) · MIT · última release v1.5.0 (15-oct-2026)
 • xyzs996/iptv-doctor — ★6 · empujó en las últimas horas · MIT · última release v0.1.0 (20-jun-2026)
-• Ruby184/epg-tools — ★1 · empujó el 30-oct-2026 (hace 6 días) · MIT · última release v0.9.0 (16-oct-2026)
-• suuhm/xmltv-splitter — ★1 · *dormido*: sin empujar desde el 7-jul-2026 (121 días) · Apache-2.0
-• AzuraCast/AzuraCast — ★4.085 · empujó en las últimas horas · AGPL-3.0
-• libretime/libretime — ★938 · empujó el 3-nov-2026 (hace 2 días) · AGPL-3.0 · última release 4.5.0 (16-jul-2025)
-• xiph/Icecast-Server — ★558 · *dormido*: sin empujar desde el 19-ago-2026 (78 días) · GPL-2.0
+• Ruby184/epg-tools — ★1 · empujó el 30-oct-2026 (hace 7 días) · MIT · última release v0.9.0 (16-oct-2026)
+• suuhm/xmltv-splitter — ★1 · *dormido*: sin empujar desde el 7-jul-2026 (122 días) · Apache-2.0
+• AzuraCast/AzuraCast — ★4.086 · empujó en las últimas horas · AGPL-3.0
+• libretime/libretime — ★938 · empujó el 3-nov-2026 (hace 3 días) · AGPL-3.0 · última release 4.5.0 (16-jul-2025)
+• xiph/Icecast-Server — ★558 · *dormido*: sin empujar desde el 19-ago-2026 (79 días) · GPL-2.0
 
 ⏬ sigue abajo · parte 18 de 21
 
 ═══ MENSAJE 20 de 22 · 154 caracteres ═══
 
-• streamlink/streamlink — ★11.897 · empujó el 3-nov-2026 (hace 2 días) · BSD-2-Clause · última release 8.6.3 (29-oct-2026)
+• streamlink/streamlink — ★11.897 · empujó el 3-nov-2026 (hace 3 días) · BSD-2-Clause · última release 8.6.3 (29-oct-2026)
 
 ⏬ sigue abajo · parte 19 de 21
 

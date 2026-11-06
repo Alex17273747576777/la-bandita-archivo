@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 98 tareas abiertas en 29 piezas vivas, numeradas dentro de cada pieza, de 007 a 112. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 101 tareas abiertas en 30 piezas vivas, numeradas dentro de cada pieza, de 007 a 115. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -110,6 +110,9 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 110 | verificar que las seis comprobaciones de apertura de editor de imagen (ficha, licencia, permisos, nube, firma, historial) se puedan hacer en un teléfono sin instalar nada, y anotar en un acta qué pasa con cada una de las cuatro herramientas de esta pieza. | Facebook · 24 | 2026-11-05 |
 | 111 | medir la familia de editores de imagen de nuevo dentro de un mes —3 de diciembre de 2026— para ver si Snapedit y Aksiphoto siguen vivas, si ImageToolbox sigue recibiendo empujones, y si Aksiphoto declara alguna licencia. | Facebook · 24 | 2026-11-05 |
 | 112 | escribir la ficha de cada una de las cuatro herramientas en el catálogo del archivo, con su guía y su estado, y la advertencia de que Image-Cropper es una biblioteca para programadores, no una aplicación de usuario. | Facebook · 24 | 2026-11-05 |
+| 113 | verificar que las seis comprobaciones de apertura de escáner de bolsillo (ficha, licencia, permisos, nube, firma, historial) se puedan hacer en un teléfono sin instalar nada, y anotar en un acta qué pasa con Umi-OCR y episteme. | Facebook · 25 | 2026-11-06 |
+| 114 | medir la familia de escáneres de bolsillo de nuevo dentro de un mes —6 de diciembre de 2026— para ver si Umi-OCR sigue sin empujón, si episteme mantiene su actividad, y si aparece un tercer escáner sin conexión. | Facebook · 25 | 2026-11-06 |
+| 115 | escribir la ficha de cada una de las dos herramientas en el catálogo del archivo, con su guía y su estado, y la advertencia de que Umi-OCR lleva más de un año sin movimiento a pesar de sus 48.479 estrellas. | Facebook · 25 | 2026-11-06 |
 
 ## Numeración: la regla y lo declarado
 
@@ -138,6 +141,7 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 > **Declarado:** 22-El-modulo-que-no-necesita-root-AxMana: numera desde 103 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 23-Deepsync-y-la-familia-kotatsu-lectore: numera desde 107 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 24-Editar-la-foto-sin-pagar-cuatro-herra: numera desde 110 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 25-El-scanner-de-bolsillo-del-papel-al-P: numera desde 113 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 
 La numeración es **por pieza**, no global: cada pieza numera sus tareas desde 001 porque la compuerta de novedad (M28) las cuenta dentro de la pieza. Por eso la misma cifra puede aparecer en dos piezas distintas y no es un error: la tarea se identifica por su número **y** su pieza.
 

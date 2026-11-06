@@ -1,9 +1,9 @@
 # PIEZA 01 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/01-La-huella-o-el-silencio-doce-programas-de-octubre-cuatro-que-firman-lo-que-publican-y-ocho-que-piden-fe-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
-- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 1 días)
+- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 2 días)
 - **sha256 de la pieza:** `3d14263c8dbb846a2bac0ba6962324baa6a09aeed51431711b5e8976359aacee`
-- **Envío generado:** 2026-11-05 · 20 mensajes · el mayor de 3593 caracteres
+- **Envío generado:** 2026-11-06 · 20 mensajes · el mayor de 3593 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 20 · 1032 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 5 · Apache-2.0 5 · MIT 4 · AGPL-3.0 1
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/01-La-huella-o-el-silencio-doce-programas-de-octubre-cuatro-que-firman-lo-que-publican-y-ocho-que-piden-fe-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
 
-💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 20 · 2267 caracteres ═══
 
@@ -452,23 +452,23 @@ Los tres que se quedan fuera, con su cifra:
 
 💓 *EL ESTADO DE HOY · pieza 01*
 
-Medí otra vez, hoy 5 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 6 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• capitan0n/droynis — ★18 · empujó en las últimas horas · GPL-3.0 · última release v0.16.0 (5-nov-2026)
-• Bingblop/ADB-Root-Toolbox — ★125 · empujó el 31-oct-2026 (hace 5 días) · GPL-3.0 · última release v7.22.1 (31-oct-2026)
-• krishna3163/OmniShizuku — ★19 · empujó en las últimas horas · Apache-2.0 · última release latest (5-nov-2026)
-• zsw125/o3root — ★81 · empujó en las últimas horas · MIT · última release v3.3 (5-nov-2026)
+• capitan0n/droynis — ★19 · empujó en las últimas horas · GPL-3.0 · última release v0.16.0 (5-nov-2026)
+• Bingblop/ADB-Root-Toolbox — ★126 · empujó el 31-oct-2026 (hace 6 días) · GPL-3.0 · última release v7.22.1 (31-oct-2026)
+• krishna3163/OmniShizuku — ★19 · empujó en las últimas horas · Apache-2.0 · última release latest (6-nov-2026)
+• zsw125/o3root — ★82 · empujó en las últimas horas · MIT · última release v3.3 (5-nov-2026)
 • aaron-gh/SandFly — ★26 · empujó en las últimas horas · Apache-2.0 · última release v0.3.1 (2-nov-2026)
-• rdevz-ph/RedirectGuard — ★18 · empujó en las últimas horas · Apache-2.0 · última release v1.6 (2-nov-2026)
-• wized2/Latch — ★18 · empujó el 29-oct-2026 (hace 7 días) · MIT · última release v0.6.3 (22-oct-2026)
-• sidnvy/8bercue — ★18 · empujó el 26-oct-2026 (hace 10 días) · AGPL-3.0
-• coldMEW/Hush — ★146 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v2.0.5 (2-nov-2026)
-• HellzYeahh/earshot — ★38 · empujó el 1-nov-2026 (hace 4 días) · MIT · última release v0.9.0 (28-oct-2026)
-• WEIHEWU/shizuku-sam — ★42 · empujó en las últimas horas · Apache-2.0 · última release v13.8.40 (4-nov-2026)
-• bl3xand/APK-Toolbox — ★102 · empujó el 28-oct-2026 (hace 8 días) · GPL-3.0 · última release v1.1.6 (28-oct-2026)
-• wlmosv-png/wpaforge — ★158 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.9.40 (3-nov-2026)
-• Ghostpanter/ghost-files — ★14 · empujó en las últimas horas · MIT · última release v0.7.3 (5-nov-2026)
-• henry-97/MineApp — ★85 · empujó el 31-oct-2026 (hace 5 días) · GPL-3.0 · última release v3.8.5 (31-oct-2026)
+• rdevz-ph/RedirectGuard — ★19 · empujó en las últimas horas · Apache-2.0 · última release v1.7 (6-nov-2026)
+• wized2/Latch — ★18 · empujó el 29-oct-2026 (hace 8 días) · MIT · última release v0.6.3 (22-oct-2026)
+• sidnvy/8bercue — ★18 · empujó el 26-oct-2026 (hace 11 días) · AGPL-3.0
+• coldMEW/Hush — ★146 · empujó el 2-nov-2026 (hace 4 días) · GPL-3.0 · última release v2.0.5 (2-nov-2026)
+• HellzYeahh/earshot — ★38 · empujó el 1-nov-2026 (hace 5 días) · MIT · última release v0.9.0 (28-oct-2026)
+• WEIHEWU/shizuku-sam — ★42 · empujó el 4-nov-2026 (hace 2 días) · Apache-2.0 · última release v13.8.40 (4-nov-2026)
+• bl3xand/APK-Toolbox — ★103 · empujó el 28-oct-2026 (hace 9 días) · GPL-3.0 · última release v1.1.6 (28-oct-2026)
+• wlmosv-png/wpaforge — ★158 · empujó en las últimas horas · Apache-2.0 · última release v1.9.50 (6-nov-2026)
+• Ghostpanter/ghost-files — ★15 · empujó en las últimas horas · MIT · última release v0.7.3 (5-nov-2026)
+• henry-97/MineApp — ★91 · empujó el 31-oct-2026 (hace 6 días) · GPL-3.0 · última release v3.8.5 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,9 +1,9 @@
 # PIEZA 14 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/14-Spotify-sin-Spotify-cuarenta-y-cinco-clientes-medidos-hoy-quince-nacidos-en-2026-tres-muertos-y-la-proporcion-de-firma-mas-alta-de-la-serie-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
-- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 1 días)
+- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 2 días)
 - **sha256 de la pieza:** `efac74a43ea42fea07e4f03f6261a99c20b79cd391d70bdc9966f09fa1640cb6`
-- **Envío generado:** 2026-11-05 · 19 mensajes · el mayor de 3840 caracteres
+- **Envío generado:** 2026-11-06 · 19 mensajes · el mayor de 3846 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 19 · 1134 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 23 · MIT 8 · AGPL-3.0 2 · GPL-2.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/14-Spotify-sin-Spotify-cuarenta-y-cinco-clientes-medidos-hoy-quince-nacidos-en-2026-tres-muertos-y-la-proporcion-de-firma-mas-alta-de-la-serie-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
 
-💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 19 · 2745 caracteres ═══
 
@@ -451,54 +451,54 @@ Y lo cuarto, la frase de siempre, que aquí se puede decir sin trampa: **lo más
 
 ⏬ sigue abajo · parte 14 de 18
 
-═══ MENSAJE 16 de 19 · 3840 caracteres ═══
+═══ MENSAJE 16 de 19 · 3846 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 14*
 
-Medí otra vez, hoy 5 de noviembre de 2026, los 37 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 6 de noviembre de 2026, los 37 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• MetrolistGroup/Metrolist — ★14.030 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.827 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.5.0 (1-nov-2026)
-• OuterTune/OuterTune — ★5.444 · empujó el 12-oct-2026 (hace 24 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
-• team-spotube/spotube — ★50.613 · empujó el 3-nov-2026 (hace 2 días) · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
-• gokadzev/Musify — ★4.404 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release 10.6.0 (23-oct-2026)
-• HemantKArya/BloomeeTunes — ★2.302 · empujó el 21-oct-2026 (hace 15 días) · GPL-2.0 · última release v3.1.0+207 (21-oct-2026)
-• anandnet/Harmony-Music — ★3.087 · *dormido*: sin empujar desde el 8-dic-2025 (332 días) · GPL-3.0 · última release v1.12.2 (7-dic-2025)
-• z-huang/InnerTune — ★6.141 · *dormido*: sin empujar desde el 13-nov-2025 (357 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
-• OpenSelena/omniget — ★4.262 · empujó en las últimas horas · GPL-3.0 · última release v0.14.0 (31-oct-2026)
-• Clash-Projects/LastWave-Native — ★2.545 · empujó en las últimas horas · GPL-3.0 · última release 5.0.0 (30-oct-2026)
-• SimoHypers/limusic — ★1.827 · empujó en las últimas horas · GPL-3.0 · última release v1.3.0 (19-oct-2026)
-• kushagrasinghx/BitChord — ★5.815 · empujó en las últimas horas · GPL-3.0 · última release v1.9 (30-oct-2026)
-• sonorahq/sonora — ★2.657 · empujó en las últimas horas · GPL-3.0 · última release v0.47.0 (2-nov-2026)
-• LUC4N3X/Levyra-deepsound — ★2.057 · empujó en las últimas horas · GPL-3.0 · última release v3.0.7 (3-nov-2026)
-• EchoMusicApp/Echo-Music — ★2.307 · empujó en las últimas horas · GPL-3.0 · última release v1.4.4 (23-oct-2026)
-• Clash-Projects/LastWave-Desktop — ★953 · empujó en las últimas horas · sin licencia detectada por la API · última release v2.0.1 (4-nov-2026)
-• MuwMx/YumaPlayer — ★1.121 · empujó en las últimas horas · GPL-3.0 · última release v1.2.0-RC.1 (17-oct-2026)
-• missuo/kumone — ★1.291 · empujó en las últimas horas · LGPL-3.0 · última release v0.3.28 (4-nov-2026)
-• kota-zo/myspoti — ★1.430 · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (5-nov-2026)
-• rootscripts/riff — ★829 · empujó en las últimas horas · MIT · última release v44.2.0 (4-nov-2026)
-• Lelonio/Square — ★487 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.8.0 (3-nov-2026)
-• lladlam/MeloX-Android — ★289 · empujó en las últimas horas · GPL-3.0 · última release 0.7.1 (27-oct-2026)
-• dubeyKartikay/lazyspotify — ★446 · empujó el 19-oct-2026 (hace 17 días) · MIT · última release v0.5.2 (15-oct-2026)
-• nukeop/nuclear — ★18.875 · empujó en las últimas horas · AGPL-3.0 · última release player@1.54.1 (4-nov-2026)
-• hrkfdn/ncspot — ★6.808 · empujó el 2-nov-2026 (hace 3 días) · BSD-2-Clause · última release v1.5.0 (1-oct-2026)
-• aome510/spotify-player — ★7.303 · empujó en las últimas horas · MIT · última release v0.25.2 (5-nov-2026)
-• kraxarn/spotify-qt — ★1.496 · empujó el 31-oct-2026 (hace 5 días) · GPL-3.0 · última release v4.0.4 (1-may-2026)
-• jpochyla/psst — ★9.509 · *dormido*: sin empujar desde el 18-ago-2026 (79 días) · MIT · última release rolling (28-jun-2025)
-• librespot-org/librespot — ★7.368 · empujó el 21-oct-2026 (hace 15 días) · MIT · última release v0.8.0 (10-nov-2025)
-• Spotifyd/spotifyd — ★10.825 · *dormido*: sin empujar desde el 28-may-2026 (161 días) · GPL-3.0 · última release v0.4.2 (19-nov-2025)
-• devgianlu/go-librespot — ★387 · empujó en las últimas horas · GPL-3.0 · última release v0.10.5 (16-oct-2026)
+• MetrolistGroup/Metrolist — ★14.038 · empujó el 2-nov-2026 (hace 4 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.846 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• OuterTune/OuterTune — ★5.445 · empujó el 12-oct-2026 (hace 25 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
+• team-spotube/spotube — ★50.626 · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
+• gokadzev/Musify — ★4.407 · empujó en las últimas horas · GPL-3.0 · última release 10.6.0 (23-oct-2026)
+• HemantKArya/BloomeeTunes — ★2.301 · empujó el 21-oct-2026 (hace 16 días) · GPL-2.0 · última release v3.1.0+207 (21-oct-2026)
+• anandnet/Harmony-Music — ★3.087 · *dormido*: sin empujar desde el 8-dic-2025 (333 días) · GPL-3.0 · última release v1.12.2 (7-dic-2025)
+• z-huang/InnerTune — ★6.140 · *dormido*: sin empujar desde el 13-nov-2025 (358 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• OpenSelena/omniget — ★4.442 · empujó en las últimas horas · GPL-3.0 · última release v0.14.0 (31-oct-2026)
+• Clash-Projects/LastWave-Native — ★2.560 · empujó en las últimas horas · GPL-3.0 · última release 5.0.0 (30-oct-2026)
+• SimoHypers/limusic — ★1.833 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.3.0 (19-oct-2026)
+• kushagrasinghx/BitChord — ★5.879 · empujó en las últimas horas · GPL-3.0 · última release v1.9 (30-oct-2026)
+• sonorahq/sonora — ★2.662 · empujó en las últimas horas · GPL-3.0 · última release v0.47.0 (2-nov-2026)
+• LUC4N3X/Levyra-deepsound — ★2.083 · empujó en las últimas horas · GPL-3.0 · última release v3.0.7 (3-nov-2026)
+• EchoMusicApp/Echo-Music — ★2.313 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.4.4 (23-oct-2026)
+• Clash-Projects/LastWave-Desktop — ★960 · empujó el 4-nov-2026 (hace 2 días) · sin licencia detectada por la API · última release v2.0.1 (4-nov-2026)
+• MuwMx/YumaPlayer — ★1.125 · empujó en las últimas horas · GPL-3.0 · última release v1.2.0-RC.1 (17-oct-2026)
+• missuo/kumone — ★1.293 · empujó en las últimas horas · LGPL-3.0 · última release v0.3.28 (4-nov-2026)
+• kota-zo/myspoti — ★1.485 · empujó en las últimas horas · GPL-3.0 · última release v2.4.0 (5-nov-2026)
+• rootscripts/riff — ★832 · empujó en las últimas horas · MIT · última release v44.2.0 (4-nov-2026)
+• Lelonio/Square — ★490 · empujó el 3-nov-2026 (hace 3 días) · GPL-3.0 · última release v2.8.0 (3-nov-2026)
+• lladlam/MeloX-Android — ★291 · empujó en las últimas horas · GPL-3.0 · última release 0.7.2 (5-nov-2026)
+• dubeyKartikay/lazyspotify — ★446 · empujó el 19-oct-2026 (hace 18 días) · MIT · última release v0.5.2 (15-oct-2026)
+• nukeop/nuclear — ★18.877 · empujó en las últimas horas · AGPL-3.0 · última release player@1.54.2 (6-nov-2026)
+• hrkfdn/ncspot — ★6.809 · empujó el 2-nov-2026 (hace 4 días) · BSD-2-Clause · última release v1.5.0 (1-oct-2026)
+• aome510/spotify-player — ★7.304 · empujó en las últimas horas · MIT · última release v0.25.2 (5-nov-2026)
+• kraxarn/spotify-qt — ★1.496 · empujó el 31-oct-2026 (hace 6 días) · GPL-3.0 · última release v4.0.4 (1-may-2026)
+• jpochyla/psst — ★9.510 · *dormido*: sin empujar desde el 18-ago-2026 (80 días) · MIT · última release rolling (28-jun-2025)
+• librespot-org/librespot — ★7.370 · empujó el 21-oct-2026 (hace 16 días) · MIT · última release v0.8.0 (10-nov-2025)
+• Spotifyd/spotifyd — ★10.826 · *dormido*: sin empujar desde el 28-may-2026 (162 días) · GPL-3.0 · última release v0.4.2 (19-nov-2025)
+• devgianlu/go-librespot — ★387 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v0.10.5 (16-oct-2026)
 
 ⏬ sigue abajo · parte 15 de 18
 
-═══ MENSAJE 17 de 19 · 791 caracteres ═══
+═══ MENSAJE 17 de 19 · 798 caracteres ═══
 
-• vfsfitvnm/ViMusic — ★9.466 · *dormido*: sin empujar desde el 15-jul-2024 (843 días) · GPL-3.0 · última release v0.5.4 (4-nov-2022) · *ARCHIVADO*
-• Rigellute/spotify-tui — ★19.420 · *dormido*: sin empujar desde el 4-abr-2024 (945 días) · MIT · última release v0.25.0 (24-ago-2021)
-• sigma67/ytmusicapi — ★3.102 · empujó en las últimas horas · MIT · última release 1.12.3 (16-sep-2026)
-• spotipy-dev/spotipy — ★5.486 · *dormido*: sin empujar desde el 29-jun-2026 (129 días) · MIT · última release 2.26.0 (3-mar-2026)
-• TeamNewPipe/NewPipeExtractor — ★2.042 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v0.26.5 (15-ago-2026)
-• libre-tube/LibreTube — ★12.946 · empujó el 2-nov-2026 (hace 3 días) · GPL-3.0 · última release v32.1 (20-ago-2026)
+• vfsfitvnm/ViMusic — ★9.468 · *dormido*: sin empujar desde el 15-jul-2024 (844 días) · GPL-3.0 · última release v0.5.4 (4-nov-2022) · *ARCHIVADO*
+• Rigellute/spotify-tui — ★19.427 · *dormido*: sin empujar desde el 4-abr-2024 (946 días) · MIT · última release v0.25.0 (24-ago-2021)
+• sigma67/ytmusicapi — ★3.104 · empujó el 4-nov-2026 (hace 2 días) · MIT · última release 1.12.3 (16-sep-2026)
+• spotipy-dev/spotipy — ★5.486 · *dormido*: sin empujar desde el 29-jun-2026 (130 días) · MIT · última release 2.26.0 (3-mar-2026)
+• TeamNewPipe/NewPipeExtractor — ★2.041 · empujó el 2-nov-2026 (hace 4 días) · GPL-3.0 · última release v0.26.5 (15-ago-2026)
+• libre-tube/LibreTube — ★12.949 · empujó el 2-nov-2026 (hace 4 días) · GPL-3.0 · última release v32.1 (20-ago-2026)
 
 ⏬ sigue abajo · parte 16 de 18
 

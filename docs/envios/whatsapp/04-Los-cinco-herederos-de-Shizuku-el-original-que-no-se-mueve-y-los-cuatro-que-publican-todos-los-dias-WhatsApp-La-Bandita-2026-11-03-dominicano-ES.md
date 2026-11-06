@@ -1,9 +1,9 @@
 # PIEZA 04 · envío para WhatsApp
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/04-Los-cinco-herederos-de-Shizuku-el-original-que-no-se-mueve-y-los-cuatro-que-publican-todos-los-dias-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md`
-- **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 3-nov-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `377c535b231a28979755316ec7447fd80575fd6095dbaf517b65831a1b642c08`
-- **Envío generado:** 2026-11-05 · 26 mensajes · el mayor de 3553 caracteres
+- **Envío generado:** 2026-11-06 · 26 mensajes · el mayor de 3553 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 26 · 1049 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: Apache-2.0 6 · GPL-3.0 1.
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/04-Los-cinco-herederos-de-Shizuku-el-original-que-no-se-mueve-y-los-cuatro-que-publican-todos-los-dias-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md
 
-💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 26 · 2417 caracteres ═══
 
@@ -501,19 +501,19 @@ El ecosistema, medido hoy, dice tres cosas a la vez y las tres son ciertas: el o
 
 ⏬ sigue abajo · parte 23 de 25
 
-═══ MENSAJE 25 de 26 · 1207 caracteres ═══
+═══ MENSAJE 25 de 26 · 1221 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 04*
 
-Medí otra vez, hoy 5 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 6 de noviembre de 2026, los 7 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★32.849 · *dormido*: sin empujar desde el 18-jun-2025 (505 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• thedjchi/Shizuku — ★6.736 · *dormido*: sin empujar desde el 15-jul-2026 (113 días) · Apache-2.0 · última release v13.7.0-thedjchi (2-jul-2026)
-• thejaustin/ShizukuPlus — ★1.711 · empujó en las últimas horas · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
+• RikkaApps/Shizuku — ★32.849 · *dormido*: sin empujar desde el 18-jun-2025 (506 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• thedjchi/Shizuku — ★6.736 · *dormido*: sin empujar desde el 15-jul-2026 (114 días) · Apache-2.0 · última release v13.7.0-thedjchi (2-jul-2026)
+• thejaustin/ShizukuPlus — ★1.711 · empujó el 4-nov-2026 (hace 2 días) · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
 • rushiranpise/Shizuku-Next — ★1.475 · empujó en las últimas horas · Apache-2.0 · última release v14.0.33-next (5-nov-2026)
-• kerneldroid/Nightzuku — ★333 · empujó en las últimas horas · Apache-2.0 · última release v13.7.1-r60 (4-nov-2026)
+• kerneldroid/Nightzuku — ★333 · empujó el 4-nov-2026 (hace 2 días) · Apache-2.0 · última release v13.7.1-r60 (4-nov-2026)
 • krishna3163/OmniShizuku — ★19 · empujó en las últimas horas · Apache-2.0 · última release latest (25-oct-2026)
-• iamr0s/Dhizuku — ★4.089 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• iamr0s/Dhizuku — ★4.089 · empujó el 3-nov-2026 (hace 3 días) · GPL-3.0 · última release v2.13.0 (30-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

@@ -1,12 +1,12 @@
 # PIEZA 24 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/24-Editar-la-foto-sin-pagar-cuatro-herramientas-que-no-piden-cuenta-Facebook-La-Bandita-2026-11-05-dominicano-ES.md`
-- **Fecha de la pieza:** 5-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 5-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `a36ea710cbb0553047e0e3b4f708a61f5d50d22f09518919c10e511911d0b022`
-- **Envío generado:** 2026-11-05 · 7 mensajes · el mayor de 3610 caracteres
+- **Envío generado:** 2026-11-06 · 7 mensajes · el mayor de 3610 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 7 · 768 caracteres ═══
+═══ MENSAJE 1 de 7 · 947 caracteres ═══
 
 *Editar la foto sin pagar: cuatro herramientas, dos que piden cuenta y una que no pide nada*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *4 repositorios, 4 vivos*, m�
 
 Licencias de lo que recomienda: Apache-2.0 3 · NOASSERTION 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 5-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/24-Editar-la-foto-sin-pagar-cuatro-herramientas-que-no-piden-cuenta-Facebook-La-Bandita-2026-11-05-dominicano-ES.md
 
-💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 7 · 1058 caracteres ═══
+═══ MENSAJE 2 de 7 · 1148 caracteres ═══
+
+[Texto del 5-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *Editar la foto sin pagar: cuatro herramientas, dos que piden cuenta y una que no pide nada*
 
@@ -128,16 +132,16 @@ La Bandita informa a partir de fuentes fechadas. Cuatro repositorios medidos uno
 
 ⏬ sigue abajo · parte 4 de 6
 
-═══ MENSAJE 6 de 7 · 728 caracteres ═══
+═══ MENSAJE 6 de 7 · 729 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 24*
 
-Medí otra vez, hoy 5 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 6 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• T8RIN/ImageToolbox — ★15.441 (+1) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
-• ArthurHub/Android-Image-Cropper — ★6.406 (sin cambio) · *dormido*: sin empujar desde el 17-sep-2023 (1145 días) · Apache-2.0 · última release 2.8.0 (27-oct-2018)
-• BorgorNinja/Snapedit — ★0 (sin cambio) · empujó el 31-oct-2026 (hace 5 días) · Apache-2.0 · última release latest (11-oct-2026)
-• pelayanan/aksiphoto — ★0 (sin cambio) · empujó el 27-oct-2026 (hace 9 días) · NOASSERTION
+• T8RIN/ImageToolbox — ★15.444 (+4) · empujó en las últimas horas · Apache-2.0 · última release 4.2.0 (4-sep-2026)
+• ArthurHub/Android-Image-Cropper — ★6.406 (sin cambio) · *dormido*: sin empujar desde el 17-sep-2023 (1146 días) · Apache-2.0 · última release 2.8.0 (27-oct-2018)
+• BorgorNinja/Snapedit — ★0 (sin cambio) · empujó el 31-oct-2026 (hace 6 días) · Apache-2.0 · última release latest (11-oct-2026)
+• pelayanan/aksiphoto — ★0 (sin cambio) · empujó el 27-oct-2026 (hace 10 días) · NOASSERTION
 
 ⏬ sigue abajo · parte 5 de 6
 

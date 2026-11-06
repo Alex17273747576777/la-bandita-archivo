@@ -1,12 +1,12 @@
 # PIEZA 20 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/20-El-teclado-que-obedece-once-teclados-clonados-y-leidos-hoy-diez-teclas-medidas-en-el-codigo-y-veintidos-textos-con-once-comprobaciones-Facebook-La-Bandita-2026-11-05-dominicano-ES.md`
-- **Fecha de la pieza:** 5-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 5-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `cd5590e442e33149745d54dca4ec9a9b90995a18b1b616a37b1382b31fdbb5de`
-- **Envío generado:** 2026-11-05 · 19 mensajes · el mayor de 3651 caracteres
+- **Envío generado:** 2026-11-06 · 19 mensajes · el mayor de 3651 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 19 · 963 caracteres ═══
+═══ MENSAJE 1 de 19 · 1142 caracteres ═══
 
 *El teclado que obedece once teclados clonados y leidos hoy diez teclas medidas en el codigo y veintidos textos con once comprobaciones Facebook La Bandita 2026 11 05 dominicano ES*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *12 repositorios, 11 vivos y 
 
 Licencias de lo que recomienda: GPL-3.0 5 · Apache-2.0 3 · AGPL-3.0 1 · LGPL-2.1 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 5-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/20-El-teclado-que-obedece-once-teclados-clonados-y-leidos-hoy-diez-teclas-medidas-en-el-codigo-y-veintidos-textos-con-once-comprobaciones-Facebook-La-Bandita-2026-11-05-dominicano-ES.md
 
-💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 19 · 3192 caracteres ═══
+═══ MENSAJE 2 de 19 · 3282 caracteres ═══
+
+[Texto del 5-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *El teclado que obedece: once teclados clonados y leídos esta mañana —dos que llevan tus instrucciones dentro, nueve que no, y veintidós textos que pasan once comprobaciones*
 
@@ -507,24 +511,24 @@ Y lo cuarto: cuando alguien te venda un método con porcentajes de obediencia, p
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 1688 caracteres ═══
+═══ MENSAJE 18 de 19 · 1702 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 20*
 
-Medí otra vez, hoy 5 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 6 de noviembre de 2026, los 12 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • N/D — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• LeanBitLab/LeanType — ★1.144 · empujó en las últimas horas · GPL-3.0 · última release v4.3.1 (4-nov-2026)
+• LeanBitLab/LeanType — ★1.147 · empujó en las últimas horas · GPL-3.0 · última release v4.3.1 (4-nov-2026)
 • SvReenen/Deskdrop — ★59 · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (21-abr-2026)
-• AnySoftKeyboard/AnySoftKeyboard — ★3.393 · empujó en las últimas horas · Apache-2.0 · última release 1.13-r2 (8-sep-2026)
-• HeliBorg/HeliBoard — ★6.505 · empujó en las últimas horas · GPL-3.0 · última release v4.2 (12-oct-2026)
+• AnySoftKeyboard/AnySoftKeyboard — ★3.391 · empujó en las últimas horas · Apache-2.0 · última release 1.13-r2 (8-sep-2026)
+• HeliBorg/HeliBoard — ★6.507 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.2 (12-oct-2026)
 • florisboard/florisboard — ★8.755 · empujó en las últimas horas · Apache-2.0 · última release v0.5.2 (28-nov-2025)
-• Julow/Unexpected-Keyboard — ★3.338 · empujó en las últimas horas · GPL-3.0 · última release 2.2.0 (1-nov-2026)
-• dessalines/thumb-key — ★1.571 · empujó en las últimas horas · AGPL-3.0 · última release 5.1.20 (2-nov-2026)
-• osfans/trime — ★4.774 · empujó en las últimas horas · GPL-3.0 · última release v3.3.13 (1-nov-2026)
-• fcitx5-android/fcitx5-android — ★5.844 · empujó el 13-oct-2026 (hace 23 días) · LGPL-2.1 · última release 0.1.3 (26-jul-2026)
-• futo-org/android-keyboard — ★3.442 · empujó el 2-nov-2026 (hace 3 días) · NOASSERTION · última release 0.1.30 (4-ago-2026)
-• rkkr/simple-keyboard — ★1.607 · empujó el 22-oct-2026 (hace 14 días) · Apache-2.0 · última release 149 (22-oct-2026)
+• Julow/Unexpected-Keyboard — ★3.336 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release 2.2.0 (1-nov-2026)
+• dessalines/thumb-key — ★1.570 · empujó en las últimas horas · AGPL-3.0 · última release 5.1.20 (2-nov-2026)
+• osfans/trime — ★4.777 · empujó en las últimas horas · GPL-3.0 · última release v3.3.13 (1-nov-2026)
+• fcitx5-android/fcitx5-android — ★5.847 · empujó el 13-oct-2026 (hace 24 días) · LGPL-2.1 · última release 0.1.3 (26-jul-2026)
+• futo-org/android-keyboard — ★3.446 · empujó el 2-nov-2026 (hace 4 días) · NOASSERTION · última release 0.1.30 (4-ago-2026)
+• rkkr/simple-keyboard — ★1.607 · empujó el 22-oct-2026 (hace 15 días) · Apache-2.0 · última release 149 (22-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

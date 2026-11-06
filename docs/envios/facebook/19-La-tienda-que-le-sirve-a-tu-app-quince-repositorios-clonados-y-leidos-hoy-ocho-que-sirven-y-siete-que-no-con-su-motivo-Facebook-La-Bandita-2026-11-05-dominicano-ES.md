@@ -1,12 +1,12 @@
 # PIEZA 19 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/19-La-tienda-que-le-sirve-a-tu-app-quince-repositorios-clonados-y-leidos-hoy-ocho-que-sirven-y-siete-que-no-con-su-motivo-Facebook-La-Bandita-2026-11-05-dominicano-ES.md`
-- **Fecha de la pieza:** 5-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 5-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `0ceef5691f3e037909bb9017f316ed59ca986381cb4bbaa39e3a41d539e94500`
-- **Envío generado:** 2026-11-05 · 22 mensajes · el mayor de 3362 caracteres
+- **Envío generado:** 2026-11-06 · 22 mensajes · el mayor de 3362 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 22 · 915 caracteres ═══
+═══ MENSAJE 1 de 22 · 1094 caracteres ═══
 
 *La tienda que le sirve a tu app: quince repositorios clonados y leídos esta mañana —la única de Mihon, la de Aniyomi, la que está vacía y la que se cerró sola—*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *26 repositorios, 24 vivos*, 
 
 Licencias de lo que recomienda: Apache-2.0 9 · GPL-3.0 8 · sin licencia 6 · MIT 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 5-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/19-La-tienda-que-le-sirve-a-tu-app-quince-repositorios-clonados-y-leidos-hoy-ocho-que-sirven-y-siete-que-no-con-su-motivo-Facebook-La-Bandita-2026-11-05-dominicano-ES.md
 
-💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 22 · 1477 caracteres ═══
+═══ MENSAJE 2 de 22 · 1567 caracteres ═══
+
+[Texto del 5-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *La tienda que le sirve a tu app: quince repositorios clonados y leídos esta mañana —la única de Mihon, la de Aniyomi, la que está vacía y la que se cerró sola—*
 
@@ -482,38 +486,38 @@ Y lo cuarto, que es lo que importa: **el listón no sube escribiendo más, sube 
 
 ⏬ sigue abajo · parte 19 de 21
 
-═══ MENSAJE 21 de 22 · 3276 caracteres ═══
+═══ MENSAJE 21 de 22 · 3335 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 19*
 
-Medí otra vez, hoy 5 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 6 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • yuzono/anime-repo — sin dato hoy (la API no respondió). No afirmo nada.
 • mojuru/anime-repo — ★72 · empujó en las últimas horas · sin licencia detectada por la API
-• dragonx943/manga-repo — ★24 · empujó el 23-oct-2026 (hace 13 días) · GPL-3.0 · última release d605625 (23-oct-2026)
-• mochi-plugins/repository — ★49 · *dormido*: sin empujar desde el 13-sep-2026 (53 días) · GPL-3.0 · última release bae934b (19-jun-2026)
-• Secozzi/aniyomi-extensions — ★130 · *dormido*: sin empujar desde el 20-sep-2026 (46 días) · Apache-2.0 · última release 7717051 (20-sep-2026)
+• dragonx943/manga-repo — ★24 · empujó el 23-oct-2026 (hace 14 días) · GPL-3.0 · última release d605625 (23-oct-2026)
+• mochi-plugins/repository — ★49 · *dormido*: sin empujar desde el 13-sep-2026 (54 días) · GPL-3.0 · última release bae934b (19-jun-2026)
+• Secozzi/aniyomi-extensions — ★130 · *dormido*: sin empujar desde el 20-sep-2026 (47 días) · Apache-2.0 · última release 7717051 (20-sep-2026)
 • quickdesh/Animiru — sin dato hoy (la API no respondió). No afirmo nada.
-• animiruorg/Animiru — ★908 · empujó el 3-nov-2026 (hace 2 días) · GPL-3.0 · última release v0.20.1.1 (3-nov-2026)
-• keiyoushi/extensions-source — ★4.867 · empujó en las últimas horas · Apache-2.0
-• LittleSurvival/copymanga-copy20 — ★2.994 · empujó el 11-oct-2026 (hace 25 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
-• kodjodevf/mangayomi-extensions — ★360 · *dormido*: sin empujar desde el 1-oct-2025 (400 días) · Apache-2.0 · *ARCHIVADO*
-• yuzono/manga-repo — ★13 · *dormido*: sin empujar desde el 18-ago-2026 (79 días) · sin licencia detectada por la API
-• mihonapp/mihon — ★25.050 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
-• UsagiApp/Usagi — ★292 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
-• HuzaifaKhalid1311/DropSauce — ★230 · empujó en las últimas horas · GPL-3.0 · última release v1.1.2 (4-nov-2026)
-• AppFuton/Futon — ★477 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v9.9 (21-oct-2026)
-• kodjodevf/mangayomi — ★4.383 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.9.95 (1-nov-2026)
-• recloudstream/cloudstream — ★11.164 · empujó en las últimas horas · GPL-3.0 · última release v4.8.0 (10-jul-2026)
-• KotatsuApp/Kotatsu — ★8.951 · *dormido*: sin empujar desde el 4-nov-2025 (366 días) · GPL-3.0 · *ARCHIVADO*
+• animiruorg/Animiru — ★909 · empujó el 3-nov-2026 (hace 3 días) · GPL-3.0 · última release v0.20.1.1 (3-nov-2026)
+• keiyoushi/extensions-source — ★4.869 · empujó en las últimas horas · Apache-2.0
+• LittleSurvival/copymanga-copy20 — ★2.999 · empujó el 11-oct-2026 (hace 26 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
+• kodjodevf/mangayomi-extensions — ★360 · *dormido*: sin empujar desde el 1-oct-2025 (401 días) · Apache-2.0 · *ARCHIVADO*
+• yuzono/manga-repo — ★13 · *dormido*: sin empujar desde el 18-ago-2026 (80 días) · sin licencia detectada por la API
+• mihonapp/mihon — ★25.058 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• UsagiApp/Usagi — ★293 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
+• HuzaifaKhalid1311/DropSauce — ★230 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.1.2 (4-nov-2026)
+• AppFuton/Futon — ★477 (sin cambio) · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
+• kodjodevf/mangayomi — ★4.390 · empujó el 3-nov-2026 (hace 3 días) · Apache-2.0 · última release v0.9.95 (1-nov-2026)
+• recloudstream/cloudstream — ★11.163 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
+• KotatsuApp/Kotatsu — ★8.952 · *dormido*: sin empujar desde el 4-nov-2025 (367 días) · GPL-3.0 · *ARCHIVADO*
 • lnreader/lnreader-plugins — ★368 · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
-• keiyoushi/extensions — ★15.441 · empujó en las últimas horas · sin licencia detectada por la API
-• salmanbappi/extensions-repo — ★52 · empujó el 2-nov-2026 (hace 3 días) · sin licencia detectada por la API
+• keiyoushi/extensions — ★15.446 · empujó en las últimas horas · sin licencia detectada por la API · última release 16cde44 (6-nov-2026)
+• salmanbappi/extensions-repo — ★52 · empujó el 2-nov-2026 (hace 4 días) · sin licencia detectada por la API
 • yuzono/cursed-manga-extensions — ★221 · empujó en las últimas horas · Apache-2.0
-• m2k3a/mangayomi-extensions — ★116 · empujó el 3-nov-2026 (hace 2 días) · Apache-2.0
-• Swakshan/mangayomi-swak-extensions — ★54 · empujó el 24-oct-2026 (hace 12 días) · Apache-2.0
-• Mallyd11/mangayomi-anime-extensions — ★28 · empujó el 1-nov-2026 (hace 4 días) · Apache-2.0
-• self-similarity/MegaRepo — ★142 · *dormido*: sin empujar desde el 3-oct-2025 (398 días) · sin licencia detectada por la API
+• m2k3a/mangayomi-extensions — ★118 · empujó el 3-nov-2026 (hace 3 días) · Apache-2.0
+• Swakshan/mangayomi-swak-extensions — ★53 · empujó el 24-oct-2026 (hace 13 días) · Apache-2.0
+• Mallyd11/mangayomi-anime-extensions — ★28 · empujó el 1-nov-2026 (hace 5 días) · Apache-2.0
+• self-similarity/MegaRepo — ★142 · *dormido*: sin empujar desde el 3-oct-2025 (399 días) · sin licencia detectada por la API
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

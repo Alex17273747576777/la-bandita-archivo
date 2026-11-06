@@ -1,9 +1,9 @@
 # PIEZA 15 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/15-Descargar-es-un-acto-tecnico-treinta-y-un-programas-medidos-hoy-ocho-de-2026-y-los-dos-famosos-que-estan-parados-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
-- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 1 días)
+- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 2 días)
 - **sha256 de la pieza:** `16d8de26c6e3aac2eb8717a3940663535e9637235f572da5a097a483e2c2942f`
-- **Envío generado:** 2026-11-05 · 20 mensajes · el mayor de 3904 caracteres
+- **Envío generado:** 2026-11-06 · 20 mensajes · el mayor de 3933 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 20 · 1089 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: MIT 11 · GPL-3.0 7 · GPL-2.0 3 · NOASSERTION 
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/15-Descargar-es-un-acto-tecnico-treinta-y-un-programas-medidos-hoy-ocho-de-2026-y-los-dos-famosos-que-estan-parados-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
 
-💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 20 · 2603 caracteres ═══
 
@@ -471,43 +471,43 @@ Y lo cuarto: **ocho nacidos en 2026, tres serios y cinco intentos**. Lo nuevo se
 
 ⏬ sigue abajo · parte 16 de 19
 
-═══ MENSAJE 18 de 20 · 3904 caracteres ═══
+═══ MENSAJE 18 de 20 · 3933 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 15*
 
-Medí otra vez, hoy 5 de noviembre de 2026, los 31 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 6 de noviembre de 2026, los 31 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• aria2/aria2 — ★43.416 · *dormido*: sin empujar desde el 25-jun-2026 (133 días) · GPL-2.0 · última release release-1.37.0 (15-nov-2023)
-• nilaoda/N_m3u8DL-RE — ★9.041 · empujó en las últimas horas · MIT · última release v0.6.0-beta (28-jun-2026)
+• aria2/aria2 — ★43.419 · *dormido*: sin empujar desde el 25-jun-2026 (134 días) · GPL-2.0 · última release release-1.37.0 (15-nov-2023)
+• nilaoda/N_m3u8DL-RE — ★9.041 · empujó el 4-nov-2026 (hace 2 días) · MIT · última release v0.6.0-beta (28-jun-2026)
 • rockdaboot/wget2 — ★800 · empujó en las últimas horas · LGPL-3.0 · última release v2.3.0 (21-sep-2026)
-• axel-download-accelerator/axel — ★3.423 · empujó el 30-sep-2026 (hace 36 días) · GPL-2.0 · última release v2.17.14 (7-abr-2024)
-• lwthiker/curl-impersonate — ★7.174 · *dormido*: sin empujar desde el 18-jul-2024 (840 días) · MIT · última release v0.6.1 (2-mar-2024)
-• mayswind/AriaNg — ★13.272 · empujó el 5-oct-2026 (hace 31 días) · MIT · última release 1.3.15 (5-oct-2026)
-• mayswind/AriaNg-Native — ★2.729 · empujó el 5-oct-2026 (hace 31 días) · MIT · última release 1.3.15 (5-oct-2026)
-• Xmader/aria-ng-gui — ★2.027 · *dormido*: sin empujar desde el 27-sep-2020 (2230 días) · MIT · última release v3.1.2 (27-sep-2020)
-• Xmader/aria-ng-gui-android — ★879 · *dormido*: sin empujar desde el 4-ene-2023 (1401 días) · MIT · última release v1.3.1 (18-abr-2021)
-• binux/yaaw — ★2.353 · *dormido*: sin empujar desde el 31-oct-2023 (1101 días) · sin licencia detectada por la API
-• GopeedLab/gopeed — ★27.410 · empujó en las últimas horas · GPL-3.0 · última release v1.9.3 (18-mar-2026)
-• agalwood/Motrix — ★57.844 · empujó en las últimas horas · NOASSERTION · última release v2.3.0 (5-nov-2026)
-• subhra74/xdm — ★8.310 · empujó en las últimas horas · GPL-3.0 · última release v9.0.9 (1-nov-2026)
-• Tyrrrz/YoutubeDownloader — ★16.636 · empujó en las últimas horas · MIT · última release 1.17.1 (25-oct-2026)
-• persepolisdm/persepolis — ★7.491 · *dormido*: sin empujar desde el 9-oct-2025 (392 días) · GPL-3.0 · última release 5.2.0 (14-jul-2025)
-• uget/uget — ★50 · *dormido*: sin empujar desde el 11-may-2019 (2735 días) · NOASSERTION
-• deniscerri/ytdlnis — ★10.983 · empujó en las últimas horas · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
-• yausername/youtubedl-android — ★1.381 · *dormido*: sin empujar desde el 16-nov-2025 (354 días) · GPL-3.0
-• JunkFood02/Seal — ★30.369 · empujó el 25-sep-2026 (hace 41 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
-• yt-dlp/yt-dlp — ★205.530 · empujó en las últimas horas · Unlicense · última release 2026.10.26 (26-oct-2026)
-• iawia002/lux — ★31.827 · *dormido*: sin empujar desde el 29-mar-2026 (221 días) · MIT · última release v0.24.1 (6-may-2024)
-• soimort/you-get — ★56.861 · empujó el 6-oct-2026 (hace 30 días) · NOASSERTION · última release v0.4.1743 (4-ene-2025)
-• mikf/gallery-dl — ★20.387 · empujó el 31-oct-2026 (hace 5 días) · GPL-2.0 · última release v1.32.19 (31-oct-2026)
-• AnInsomniacy/rayburst — ★11.384 · empujó en las últimas horas · MIT · última release v4.1.1 (25-oct-2026)
-• rawnaldclark/Stash — ★1.560 · empujó en las últimas horas · GPL-3.0 · última release v0.9.123 (3-nov-2026)
-• Downvid/downvid — ★1.200 · empujó en las últimas horas · MIT · última release v1.9.1 (4-nov-2026)
-• FortoGraphy/prism-download-manager — ★758 · empujó el 1-nov-2026 (hace 4 días) · MIT · última release v1.2.4 (1-nov-2026)
-• mesamirh/MovieBox-Tui — ★2.768 · empujó en las últimas horas · Apache-2.0 · última release v0.1.29 (5-nov-2026)
-• arnoldhao/xiadown — ★759 · *dormido*: sin empujar desde el 27-jul-2026 (101 días) · Apache-2.0 · última release v1.0.4 (27-jul-2026)
-• pixel-point/media-downloader — ★1.221 · *dormido*: sin empujar desde el 7-may-2026 (182 días) · sin licencia detectada por la API · última release v0.2.0 (7-may-2026)
-• BareBrowser/bare-browser — ★718 · empujó el 3-nov-2026 (hace 2 días) · BSD-3-Clause · última release v1.0.1 (21-oct-2026)
+• axel-download-accelerator/axel — ★3.423 · empujó el 30-sep-2026 (hace 37 días) · GPL-2.0 · última release v2.17.14 (7-abr-2024)
+• lwthiker/curl-impersonate — ★7.174 · *dormido*: sin empujar desde el 18-jul-2024 (841 días) · MIT · última release v0.6.1 (2-mar-2024)
+• mayswind/AriaNg — ★13.271 · empujó el 5-oct-2026 (hace 32 días) · MIT · última release 1.3.15 (5-oct-2026)
+• mayswind/AriaNg-Native — ★2.729 · empujó el 5-oct-2026 (hace 32 días) · MIT · última release 1.3.15 (5-oct-2026)
+• Xmader/aria-ng-gui — ★2.027 · *dormido*: sin empujar desde el 27-sep-2020 (2231 días) · MIT · última release v3.1.2 (27-sep-2020)
+• Xmader/aria-ng-gui-android — ★879 · *dormido*: sin empujar desde el 4-ene-2023 (1402 días) · MIT · última release v1.3.1 (18-abr-2021)
+• binux/yaaw — ★2.353 · *dormido*: sin empujar desde el 31-oct-2023 (1102 días) · sin licencia detectada por la API
+• GopeedLab/gopeed — ★27.437 · empujó en las últimas horas · GPL-3.0 · última release v1.9.3 (18-mar-2026)
+• agalwood/Motrix — ★57.867 · empujó en las últimas horas · NOASSERTION · última release v2.3.0 (5-nov-2026)
+• subhra74/xdm — ★8.318 · empujó en las últimas horas · GPL-3.0 · última release v9.0.9 (1-nov-2026)
+• Tyrrrz/YoutubeDownloader — ★16.642 · empujó el 4-nov-2026 (hace 2 días) · MIT · última release 1.17.1 (25-oct-2026)
+• persepolisdm/persepolis — ★7.492 · *dormido*: sin empujar desde el 9-oct-2025 (393 días) · GPL-3.0 · última release 5.2.0 (14-jul-2025)
+• uget/uget — ★50 · *dormido*: sin empujar desde el 11-may-2019 (2736 días) · NOASSERTION
+• deniscerri/ytdlnis — ★10.986 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
+• yausername/youtubedl-android — ★1.381 · *dormido*: sin empujar desde el 16-nov-2025 (355 días) · GPL-3.0
+• JunkFood02/Seal — ★30.370 · empujó el 25-sep-2026 (hace 42 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
+• yt-dlp/yt-dlp — ★205.640 · empujó el 4-nov-2026 (hace 2 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
+• iawia002/lux — ★31.827 · *dormido*: sin empujar desde el 29-mar-2026 (222 días) · MIT · última release v0.24.1 (6-may-2024)
+• soimort/you-get — ★56.860 · empujó el 6-oct-2026 (hace 31 días) · NOASSERTION · última release v0.4.1743 (4-ene-2025)
+• mikf/gallery-dl — ★20.395 · empujó el 31-oct-2026 (hace 6 días) · GPL-2.0 · última release v1.32.19 (31-oct-2026)
+• AnInsomniacy/rayburst — ★11.392 · empujó en las últimas horas · MIT · última release v4.1.1 (25-oct-2026)
+• rawnaldclark/Stash — ★1.563 · empujó en las últimas horas · GPL-3.0 · última release v0.9.123 (3-nov-2026)
+• Downvid/downvid — ★1.205 · empujó en las últimas horas · MIT · última release v1.10.0 (6-nov-2026)
+• FortoGraphy/prism-download-manager — ★762 · empujó el 1-nov-2026 (hace 5 días) · MIT · última release v1.2.4 (1-nov-2026)
+• mesamirh/MovieBox-Tui — ★2.773 · empujó en las últimas horas · Apache-2.0 · última release v0.1.29 (5-nov-2026)
+• arnoldhao/xiadown — ★759 · *dormido*: sin empujar desde el 27-jul-2026 (102 días) · Apache-2.0 · última release v1.0.4 (27-jul-2026)
+• pixel-point/media-downloader — ★1.221 · *dormido*: sin empujar desde el 7-may-2026 (183 días) · sin licencia detectada por la API · última release v0.2.0 (7-may-2026)
+• BareBrowser/bare-browser — ★721 · empujó el 3-nov-2026 (hace 3 días) · BSD-3-Clause · última release v1.0.1 (21-oct-2026)
 
 ⏬ sigue abajo · parte 17 de 19
 

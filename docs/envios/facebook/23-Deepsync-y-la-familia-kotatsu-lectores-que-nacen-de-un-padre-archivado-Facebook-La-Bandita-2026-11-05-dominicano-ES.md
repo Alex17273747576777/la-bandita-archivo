@@ -1,12 +1,12 @@
 # PIEZA 23 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/23-Deepsync-y-la-familia-kotatsu-lectores-que-nacen-de-un-padre-archivado-Facebook-La-Bandita-2026-11-05-dominicano-ES.md`
-- **Fecha de la pieza:** 5-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 5-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `1525bba801280e8f3e35aa8c8b4a33c07cf138075c78cd9f8916d96f36405fe5`
-- **Envío generado:** 2026-11-05 · 7 mensajes · el mayor de 3618 caracteres
+- **Envío generado:** 2026-11-06 · 7 mensajes · el mayor de 3618 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 7 · 795 caracteres ═══
+═══ MENSAJE 1 de 7 · 974 caracteres ═══
 
 *Deepsync y la familia kotatsu lectores que nacen de un padre archivado Facebook La Bandita 2026 11 05 dominicano ES*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *4 repositorios, 4 vivos*, m�
 
 Licencias de lo que recomienda: GPL-3.0 3 · Apache-2.0 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 5-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/23-Deepsync-y-la-familia-kotatsu-lectores-que-nacen-de-un-padre-archivado-Facebook-La-Bandita-2026-11-05-dominicano-ES.md
 
-💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 7 · 1161 caracteres ═══
+═══ MENSAJE 2 de 7 · 1251 caracteres ═══
+
+[Texto del 5-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *DeepSync y la familia Kotatsu: un lector de dos días, cuatro forks de un padre archivado, y la pregunta de qué queda cuando un lector de ocho mil novecientas cincuenta y dos estrellas se apaga*
 
@@ -137,11 +141,11 @@ La Bandita informa a partir de fuentes fechadas. Un repositorio clonado y leído
 
 💓 *EL ESTADO DE HOY · pieza 23*
 
-Medí otra vez, hoy 5 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 6 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• AppFuton/Futon — ★477 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release v9.9 (21-oct-2026)
+• AppFuton/Futon — ★477 (sin cambio) · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
 • Ero-gamer/Kotatsu-Next — ★35 (sin cambio) · empujó en las últimas horas · GPL-3.0 · última release 9.9.1 (21-sep-2026)
-• Kototoro-app/Kototoro — ★672 (sin cambio) · empujó en las últimas horas · Apache-2.0 · última release v2.3.9 (4-nov-2026)
+• Kototoro-app/Kototoro — ★673 (+1) · empujó en las últimas horas · Apache-2.0 · última release v2.3.11 (6-nov-2026)
 • Arthurpendragon9876/DeepSync — ★1 (sin cambio) · empujó en las últimas horas · GPL-3.0
 
 ⏬ sigue abajo · parte 5 de 6

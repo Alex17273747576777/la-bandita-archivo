@@ -1,12 +1,12 @@
 # PIEZA 22 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/22-El-modulo-que-no-necesita-root-AxManager-su-plugin-y-los-siete-ecosistemas-contados-hoy-Facebook-La-Bandita-2026-11-05-dominicano-ES.md`
-- **Fecha de la pieza:** 5-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 5-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `aa5251290d04e531b0a21c37cf5309cfdb369e2ceaf0c8c2cb9a18f5284169ac`
-- **Envío generado:** 2026-11-05 · 20 mensajes · el mayor de 3277 caracteres
+- **Envío generado:** 2026-11-06 · 20 mensajes · el mayor de 3319 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 20 · 870 caracteres ═══
+═══ MENSAJE 1 de 20 · 1049 caracteres ═══
 
 *El modulo que no necesita root AxManager su plugin y los siete ecosistemas contados hoy Facebook La Bandita 2026 11 05 dominicano ES*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *24 repositorios, 22 vivos y 
 
 Licencias de lo que recomienda: GPL-3.0 11 · MIT 3 · sin licencia 3 · Apache-2.0 2.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 5-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/22-El-modulo-que-no-necesita-root-AxManager-su-plugin-y-los-siete-ecosistemas-contados-hoy-Facebook-La-Bandita-2026-11-05-dominicano-ES.md
 
-💓 5 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 20 · 3229 caracteres ═══
+═══ MENSAJE 2 de 20 · 3319 caracteres ═══
+
+[Texto del 5-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *El módulo que no necesita root: AxManager, su plugin que no es del todo un módulo y los siete ecosistemas contados hoy — cinco mil repositorios con etiqueta, un catálogo de ciento treinta y cinco del que noventa y seis llevan dos años sin tocarse, y una tienda que aquí no se enlaza*
 
@@ -414,36 +418,36 @@ Y lo quinto, que es la razón por la que no hay un enlace al final: **un módulo
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 3126 caracteres ═══
+═══ MENSAJE 19 de 20 · 3173 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 22*
 
-Medí otra vez, hoy 5 de noviembre de 2026, los 24 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 6 de noviembre de 2026, los 24 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • system/bin — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
 • system/etc — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• fahrez182/AxManager — ★1.551 · empujó el 1-nov-2026 (hace 4 días) · Apache-2.0 · última release v3.0.0 (29-oct-2026)
-• fahrez182/Axeron-API — ★22 · empujó el 1-nov-2026 (hace 4 días) · MIT · última release 3.0.0 (29-oct-2026)
-• corvexis/Axora — ★19 · empujó el 21-oct-2026 (hace 15 días) · Apache-2.0 · última release 26.10.21 (21-oct-2026)
-• abysssnare/Axmanager-modle — ★28 · empujó el 5-oct-2026 (hace 31 días) · MIT · última release v2.1.0 (12-sep-2026)
-• ScarletHanami/Network_Enhance — ★25 · *dormido*: sin empujar desde el 29-jul-2026 (99 días) · MIT · última release v1.1.6 (29-jul-2026)
-• bufanchen121101/AxManagerD — ★51 · empujó el 31-oct-2026 (hace 5 días) · NOASSERTION · última release v1.4.0 (31-oct-2026)
-• topjohnwu/Magisk — ★63.798 · empujó el 27-oct-2026 (hace 9 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
-• tiann/KernelSU — ★20.138 · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
-• KernelSU-Next/KernelSU-Next — ★4.734 · empujó en las últimas horas · GPL-3.0
-• SukiSU-Ultra/SukiSU-Ultra — ★6.902 · empujó en las últimas horas · GPL-3.0 · última release v4.3.0-r2 (5-nov-2026)
-• bmax121/APatch — ★8.129 · empujó en las últimas horas · GPL-3.0 · última release 11282 (15-oct-2026)
-• Baka-SU/BakaSU — ★2.111 · empujó en las últimas horas · GPL-3.0
+• fahrez182/AxManager — ★1.551 · empujó el 1-nov-2026 (hace 5 días) · Apache-2.0 · última release v3.0.0 (29-oct-2026)
+• fahrez182/Axeron-API — ★22 · empujó el 1-nov-2026 (hace 5 días) · MIT · última release 3.0.0 (29-oct-2026)
+• corvexis/Axora — ★19 · empujó el 21-oct-2026 (hace 16 días) · Apache-2.0 · última release 26.10.21 (21-oct-2026)
+• abysssnare/Axmanager-modle — ★28 · empujó el 5-oct-2026 (hace 32 días) · MIT · última release v2.1.0 (12-sep-2026)
+• ScarletHanami/Network_Enhance — ★25 · *dormido*: sin empujar desde el 29-jul-2026 (100 días) · MIT · última release v1.1.6 (29-jul-2026)
+• bufanchen121101/AxManagerD — ★51 · empujó el 31-oct-2026 (hace 6 días) · NOASSERTION · última release v1.4.0 (31-oct-2026)
+• topjohnwu/Magisk — ★63.808 · empujó el 27-oct-2026 (hace 10 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
+• tiann/KernelSU — ★20.157 · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
+• KernelSU-Next/KernelSU-Next — ★4.737 · empujó en las últimas horas · GPL-3.0 · última release v3.4.2 (13-oct-2026)
+• SukiSU-Ultra/SukiSU-Ultra — ★6.911 · empujó en las últimas horas · GPL-3.0 · última release v4.3.0-r2 (5-nov-2026)
+• bmax121/APatch — ★8.132 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release 11282 (15-oct-2026)
+• Baka-SU/BakaSU — ★2.117 · empujó en las últimas horas · GPL-3.0
 • Magisk-Modules-Alt-Repo/json — ★131 · empujó en las últimas horas · GPL-3.0
-• Magisk-Modules-Alt-Repo/submission — ★290 · empujó el 27-sep-2026 (hace 39 días) · sin licencia detectada por la API
-• MMRLApp/MMRL — ★2.237 · empujó en las últimas horas · GPL-3.0 · última release v34296 (8-mar-2026)
-• Fox2Code/FoxMagiskModuleManager — ★2.208 · *dormido*: sin empujar desde el 3-may-2023 (1282 días) · LGPL-3.0 · última release v2.0.2 (2-may-2023) · *ARCHIVADO*
-• MRepoApp/MRepo — ★1.118 · *dormido*: sin empujar desde el 2-jul-2024 (856 días) · GPL-3.0 · última release v2.5.0 (2-jul-2024) · *ARCHIVADO*
-• Androidacy/MagiskModuleManager — ★1.239 · *dormido*: sin empujar desde el 9-abr-2026 (210 días) · LGPL-3.0 · última release v2.3.8-1 (31-mar-2025)
-• LSPosed/LSPosed — ★25.346 · empujó el 14-oct-2026 (hace 22 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
-• JingMatrix/Vector — ★13.042 · empujó en las últimas horas · GPL-3.0 · última release v2.2 (4-ago-2026)
-• Dr-TSNG/ZygiskNext — ★10.814 · empujó el 15-oct-2026 (hace 21 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
-• 5ec1cff/TrickyStore — ★6.455 · *dormido*: sin empujar desde el 30-nov-2025 (340 días) · sin licencia detectada por la API · última release 1.4.1 (2-nov-2025)
+• Magisk-Modules-Alt-Repo/submission — ★292 · empujó el 27-sep-2026 (hace 40 días) · sin licencia detectada por la API
+• MMRLApp/MMRL — ★2.238 · empujó en las últimas horas · GPL-3.0 · última release v34296 (8-mar-2026)
+• Fox2Code/FoxMagiskModuleManager — ★2.208 · *dormido*: sin empujar desde el 3-may-2023 (1283 días) · LGPL-3.0 · última release v2.0.2 (2-may-2023) · *ARCHIVADO*
+• MRepoApp/MRepo — ★1.118 · *dormido*: sin empujar desde el 2-jul-2024 (857 días) · GPL-3.0 · última release v2.5.0 (2-jul-2024) · *ARCHIVADO*
+• Androidacy/MagiskModuleManager — ★1.239 · *dormido*: sin empujar desde el 9-abr-2026 (211 días) · LGPL-3.0 · última release v2.3.8-1 (31-mar-2025)
+• LSPosed/LSPosed — ★25.347 · empujó el 14-oct-2026 (hace 23 días) · GPL-3.0 · última release v1.9.2 (11-oct-2023)
+• JingMatrix/Vector — ★13.041 · empujó en las últimas horas · GPL-3.0 · última release v2.2 (4-ago-2026)
+• Dr-TSNG/ZygiskNext — ★10.820 · empujó el 15-oct-2026 (hace 22 días) · sin licencia detectada por la API · última release v1.5.2 (15-oct-2026)
+• 5ec1cff/TrickyStore — ★6.457 · *dormido*: sin empujar desde el 30-nov-2025 (341 días) · sin licencia detectada por la API · última release 1.4.1 (2-nov-2025)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
