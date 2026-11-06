@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/10-Las-tiendas-cincuenta-y-seis-repositorios-vivos-doce-mil-cuatrocientos-ochenta-y-siete-archivos-y-diez-sumas-de-comprobacion-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
 - **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 2 días)
 - **sha256 de la pieza:** `265c9962c35cc14b3904299a991943bbfe22cc17382adb457fa9d6cc716356ad`
-- **Envío generado:** 2026-11-06 · 20 mensajes · el mayor de 3882 caracteres
+- **Envío generado:** 2026-11-06 · 20 mensajes · el mayor de 3875 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 20 · 1085 caracteres ═══
@@ -493,7 +493,7 @@ Y lo cuarto, la frase que esta serie repite porque en cada tema se cumple: **lo 
 
 ⏬ sigue abajo · parte 15 de 19
 
-═══ MENSAJE 17 de 20 · 3882 caracteres ═══
+═══ MENSAJE 17 de 20 · 3875 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 10*
 
@@ -502,10 +502,10 @@ Medí otra vez, hoy 6 de noviembre de 2026, los 58 repositorios que cita esta pi
 • amrkmn/x — ★41 (sin cambio) · empujó en las últimas horas · MIT · última release v0.782.0 (6-nov-2026)
 • yuzono/aniyomi-extensions — sin dato hoy (la API no respondió). No afirmo nada.
 • yuzono/anime-repo — sin dato hoy (la API no respondió). No afirmo nada.
-• mojuru/anime-repo — ★72 · empujó en las últimas horas · sin licencia detectada por la API
-• keiyoushi/extensions — ★15.446 · empujó en las últimas horas · sin licencia detectada por la API · última release 16cde44 (6-nov-2026)
-• keiyoushi/extensions-source — ★4.869 · empujó en las últimas horas · Apache-2.0
-• yuzono/tachiyomi-extensions — ★959 · empujó el 2-nov-2026 (hace 4 días) · Apache-2.0
+• mojuru/anime-repo — ★73 · empujó en las últimas horas · sin licencia detectada por la API
+• keiyoushi/extensions — ★15.444 · empujó en las últimas horas · sin licencia detectada por la API · última release 16cde44 (6-nov-2026)
+• keiyoushi/extensions-source — ★4.867 · empujó en las últimas horas · Apache-2.0
+• yuzono/tachiyomi-extensions — ★960 · empujó el 2-nov-2026 (hace 4 días) · Apache-2.0
 • cuong-tran/manga-repo — ★468 · empujó el 2-nov-2026 (hace 4 días) · sin licencia detectada por la API · última release f7d844c-2 (2-nov-2026)
 • LittleSurvival/copymanga-copy20 — ★2.999 · empujó el 11-oct-2026 (hace 26 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • cofedream/extensions-copymanga — ★498 · *dormido*: sin empujar desde el 8-ago-2026 (90 días) · sin licencia detectada por la API · última release v1.4.11 (7-jun-2025)
@@ -513,12 +513,12 @@ Medí otra vez, hoy 6 de noviembre de 2026, los 58 repositorios que cita esta pi
 • mojuru/cursed-manga-repo — ★176 · empujó el 12-oct-2026 (hace 25 días) · sin licencia detectada por la API · última release 5dad5cf (12-oct-2026)
 • yuzono/cursed-manga-extensions — ★221 · empujó en las últimas horas · Apache-2.0
 • Kareadita/tach-extension — ★137 · empujó en las últimas horas · Apache-2.0 · última release v1.4.29 (5-nov-2026)
-• Suwayomi/tachiyomi-extension — ★345 · *dormido*: sin empujar desde el 19-sep-2026 (48 días) · Apache-2.0
+• Suwayomi/tachiyomi-extension — ★344 · *dormido*: sin empujar desde el 19-sep-2026 (48 días) · Apache-2.0
 • marbou92/MHRepo — ★8 · empujó en las últimas horas · Apache-2.0
 • Nyora-Manga/nyora-mihon — ★14 · *dormido*: sin empujar desde el 19-jul-2026 (110 días) · sin licencia detectada por la API
 • manti-X/extensions — ★9 · empujó el 4-nov-2026 (hace 2 días) · sin licencia detectada por la API
 • bangxingni/mycomic-extensions — ★181 · empujó en las últimas horas · sin licencia detectada por la API · última release build-1 (5-nov-2026)
-• AngeloSha/uchiyomi — ★101 · empujó en las últimas horas · MPL-2.0 · última release v0.104.0 (5-nov-2026)
+• AngeloSha/uchiyomi — ★102 · empujó en las últimas horas · MPL-2.0 · última release v0.104.0 (5-nov-2026)
 • Shebyyy/kotatsu-multi-parsers — ★19 · empujó el 21-oct-2026 (hace 16 días) · sin licencia detectada por la API · última release build-2026.10.21-1056 (21-oct-2026)
 • dragonx943/manga-repo — ★24 · empujó el 23-oct-2026 (hace 14 días) · GPL-3.0 · última release d605625 (23-oct-2026)
 • ShiroKazane/kotatsu-parsers — ★1 · empujó en las últimas horas · GPL-3.0 · última release latest (6-nov-2026)
@@ -529,7 +529,7 @@ Medí otra vez, hoy 6 de noviembre de 2026, los 58 repositorios que cita esta pi
 • gato404/kegareta-sauces — ★14 · *dormido*: sin empujar desde el 22-jul-2025 (472 días) · Apache-2.0
 • Swakshan/mangayomi-swak-extensions — ★53 · empujó el 24-oct-2026 (hace 13 días) · Apache-2.0
 • Mallyd11/mangayomi-anime-extensions — ★28 · empujó el 1-nov-2026 (hace 5 días) · Apache-2.0
-• meesam4687/zenbu — ★18 · empujó el 3-nov-2026 (hace 3 días) · Apache-2.0 · última release v0.3.8 (17-oct-2026)
+• meesam4687/zenbu — ★18 · empujó en las últimas horas · Apache-2.0 · última release v0.3.8 (17-oct-2026)
 • Schnitzel5/ApkBridge — ★36 · *dormido*: sin empujar desde el 11-feb-2026 (268 días) · Apache-2.0 · última release v1.8 (11-sep-2025)
 
 ⏬ sigue abajo · parte 16 de 19
@@ -547,7 +547,7 @@ Medí otra vez, hoy 6 de noviembre de 2026, los 58 repositorios que cita esta pi
 • Secozzi/aniyomi-extensions — ★130 · *dormido*: sin empujar desde el 20-sep-2026 (47 días) · Apache-2.0 · última release 7717051 (20-sep-2026)
 • salmanbappi/extensions-repo — ★52 · empujó el 2-nov-2026 (hace 4 días) · sin licencia detectada por la API
 • CranberrySoup/AniyomiCompat — ★17 · *dormido*: sin empujar desde el 14-nov-2025 (357 días) · sin licencia detectada por la API
-• phisher98/cloudstream-extensions-phisher — ★533 · empujó el 2-nov-2026 (hace 4 días) · sin licencia detectada por la API
+• phisher98/cloudstream-extensions-phisher — ★534 · empujó el 2-nov-2026 (hace 4 días) · sin licencia detectada por la API
 • CakesTwix/cloudstream-extensions-uk — ★178 · empujó el 3-nov-2026 (hace 3 días) · GPL-3.0
 • NivinCNC/CNCVerse-Bridge — ★192 · empujó el 1-nov-2026 (hace 5 días) · NOASSERTION · última release v1.2.0 (29-oct-2026)
 • Asm0d3usX/CloudX-V2 — ★62 · empujó el 3-nov-2026 (hace 3 días) · MIT

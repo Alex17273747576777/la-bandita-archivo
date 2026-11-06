@@ -393,23 +393,23 @@ Los nuevos del trimestre:
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 2662 caracteres ═══
+═══ MENSAJE 16 de 17 · 2655 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 08*
 
 Medí otra vez, hoy 6 de noviembre de 2026, los 20 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mullvad/mullvadvpn-app — ★7.749 · empujó en las últimas horas · GPL-3.0 · última release android/2026.12 (30-sep-2026)
-• wg-easy/wg-easy — ★27.420 · empujó en las últimas horas · AGPL-3.0 · última release v15.5.0 (24-oct-2026)
-• juanfont/headscale — ★45.417 · empujó en las últimas horas · BSD-3-Clause · última release v0.29.7 (30-oct-2026)
-• netbirdio/netbird — ★30.722 · empujó en las últimas horas · NOASSERTION · última release v0.82.0 (29-oct-2026)
-• SagerNet/sing-box — ★39.682 · empujó el 3-nov-2026 (hace 3 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
-• hiddify/hiddify-app — ★33.684 · empujó el 4-nov-2026 (hace 2 días) · NOASSERTION · última release v5.5.5 (4-nov-2026)
-• celzero/rethink-app — ★5.853 · empujó el 26-oct-2026 (hace 11 días) · Apache-2.0 · última release v0.5.8 (13-oct-2026)
+• mullvad/mullvadvpn-app — ★7.751 · empujó en las últimas horas · GPL-3.0 · última release android/2026.12 (30-sep-2026)
+• wg-easy/wg-easy — ★27.421 · empujó en las últimas horas · AGPL-3.0 · última release v15.5.0 (24-oct-2026)
+• juanfont/headscale — ★45.419 · empujó en las últimas horas · BSD-3-Clause · última release v0.29.7 (30-oct-2026)
+• netbirdio/netbird — ★30.731 · empujó en las últimas horas · NOASSERTION · última release v0.82.0 (29-oct-2026)
+• SagerNet/sing-box — ★39.691 · empujó el 3-nov-2026 (hace 3 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
+• hiddify/hiddify-app — ★33.700 · empujó en las últimas horas · NOASSERTION · última release v5.5.5 (4-nov-2026)
+• celzero/rethink-app — ★5.852 · empujó el 26-oct-2026 (hace 11 días) · Apache-2.0 · última release v0.5.8 (13-oct-2026)
 • M66B/NetGuard — ★3.964 · *dormido*: sin empujar desde el 1-ago-2026 (97 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
-• AdAway/AdAway — ★9.587 · empujó en las últimas horas · GPL-3.0 · última release v6.1.4 (27-oct-2024)
+• AdAway/AdAway — ★9.589 · empujó en las últimas horas · GPL-3.0 · última release v6.1.4 (27-oct-2024)
 • IngoZenz/personaldnsfilter — ★952 · empujó el 31-oct-2026 (hace 6 días) · GPL-2.0 · última release 1.50.61.5 (18-oct-2026)
-• Dushnilin/tachyon — ★571 · empujó en las últimas horas · GPL-2.0 · última release 1.7.15 (5-nov-2026)
+• Dushnilin/tachyon — ★573 · empujó en las últimas horas · GPL-2.0 · última release 1.7.15 (5-nov-2026)
 • ELowry/DNSToggle — ★164 · empujó el 1-nov-2026 (hace 5 días) · MIT · última release v3.0.8 (1-nov-2026)
 • Shishir-ip/AppDNS — ★21 · empujó el 12-oct-2026 (hace 25 días) · Apache-2.0 · última release v2.0 (10-oct-2026)
 • codegeasse1/hikari-adblock — ★39 · *dormido*: sin empujar desde el 11-sep-2026 (56 días) · GPL-3.0 · última release v1.2.3 (11-sep-2026)

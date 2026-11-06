@@ -418,23 +418,23 @@ Y los tres que cierran la lista:
 
 Medí otra vez, hoy 6 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• rclone/rclone — ★60.832 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
-• immich-app/immich — ★118.369 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
-• localsend/localsend — ★97.492 · empujó el 2-nov-2026 (hace 4 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• nextcloud/server — ★37.432 · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
-• restic/restic — ★37.025 · empujó en las últimas horas · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
-• researchxxl/syncthing-android — ★3.261 · empujó el 4-nov-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• rclone/rclone — ★60.833 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
+• immich-app/immich — ★118.374 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
+• localsend/localsend — ★97.534 · empujó el 2-nov-2026 (hace 4 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• nextcloud/server — ★37.433 · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• restic/restic — ★37.028 · empujó en las últimas horas · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
+• researchxxl/syncthing-android — ★3.263 · empujó el 4-nov-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • Ghostpanter/ghost-files — ★15 · empujó en las últimas horas · MIT · última release v0.7.3 (5-nov-2026)
 • ZENINXOP/Hexora — ★30 · empujó el 17-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.1.4 (17-oct-2026)
-• BugeStudioTeam/Buge-Files — ★41 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release 1.16.19 (4-nov-2026)
+• BugeStudioTeam/Buge-Files — ★42 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release 1.16.19 (4-nov-2026)
 • sinegard/AF-File-Manager — ★18 · empujó el 29-oct-2026 (hace 8 días) · NOASSERTION · última release v0.47.0 (30-oct-2026)
-• Mahmud0808/TeleDrive — ★439 · empujó el 4-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.5.0 (19-oct-2026)
+• Mahmud0808/TeleDrive — ★442 · empujó el 4-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.5.0 (19-oct-2026)
 • sysrv64/KArchiver — ★23 · empujó el 31-oct-2026 (hace 6 días) · NOASSERTION · última release v1.5-beta (31-oct-2026)
-• dev2ex/twig — ★104 · empujó el 1-nov-2026 (hace 5 días) · GPL-3.0 · última release v1.17.0 (1-nov-2026)
+• dev2ex/twig — ★105 · empujó el 1-nov-2026 (hace 5 días) · GPL-3.0 · última release v1.17.0 (1-nov-2026)
 • xtt-xt/MCPBox — ★7 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.4.0 (25-oct-2026)
-• zhanghai/MaterialFiles — ★9.404 · empujó el 15-oct-2026 (hace 22 días) · GPL-3.0 · última release v1.7.5 (20-sep-2026)
-• XayahSuSuSu/Android-DataBackup — ★7.569 · empujó el 25-oct-2026 (hace 12 días) · GPL-3.0 · última release 2.0.12 (20-sep-2025)
-• NeoApplications/Neo-Backup — ★3.899 · empujó el 4-nov-2026 (hace 2 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
+• zhanghai/MaterialFiles — ★9.408 · empujó el 15-oct-2026 (hace 22 días) · GPL-3.0 · última release v1.7.5 (20-sep-2026)
+• XayahSuSuSu/Android-DataBackup — ★7.571 · empujó el 25-oct-2026 (hace 12 días) · GPL-3.0 · última release 2.0.12 (20-sep-2025)
+• NeoApplications/Neo-Backup — ★3.900 · empujó el 4-nov-2026 (hace 2 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

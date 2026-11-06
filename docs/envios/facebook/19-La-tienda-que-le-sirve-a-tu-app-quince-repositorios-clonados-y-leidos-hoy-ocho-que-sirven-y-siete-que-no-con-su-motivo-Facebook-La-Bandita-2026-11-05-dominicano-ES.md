@@ -486,32 +486,32 @@ Y lo cuarto, que es lo que importa: **el listón no sube escribiendo más, sube 
 
 ⏬ sigue abajo · parte 19 de 21
 
-═══ MENSAJE 21 de 22 · 3335 caracteres ═══
+═══ MENSAJE 21 de 22 · 3327 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 19*
 
 Medí otra vez, hoy 6 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • yuzono/anime-repo — sin dato hoy (la API no respondió). No afirmo nada.
-• mojuru/anime-repo — ★72 · empujó en las últimas horas · sin licencia detectada por la API
+• mojuru/anime-repo — ★73 · empujó en las últimas horas · sin licencia detectada por la API
 • dragonx943/manga-repo — ★24 · empujó el 23-oct-2026 (hace 14 días) · GPL-3.0 · última release d605625 (23-oct-2026)
 • mochi-plugins/repository — ★49 · *dormido*: sin empujar desde el 13-sep-2026 (54 días) · GPL-3.0 · última release bae934b (19-jun-2026)
 • Secozzi/aniyomi-extensions — ★130 · *dormido*: sin empujar desde el 20-sep-2026 (47 días) · Apache-2.0 · última release 7717051 (20-sep-2026)
 • quickdesh/Animiru — sin dato hoy (la API no respondió). No afirmo nada.
-• animiruorg/Animiru — ★909 · empujó el 3-nov-2026 (hace 3 días) · GPL-3.0 · última release v0.20.1.1 (3-nov-2026)
-• keiyoushi/extensions-source — ★4.869 · empujó en las últimas horas · Apache-2.0
+• animiruorg/Animiru — ★910 · empujó el 3-nov-2026 (hace 3 días) · GPL-3.0 · última release v0.20.1.1 (3-nov-2026)
+• keiyoushi/extensions-source — ★4.867 · empujó en las últimas horas · Apache-2.0
 • LittleSurvival/copymanga-copy20 — ★2.999 · empujó el 11-oct-2026 (hace 26 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • kodjodevf/mangayomi-extensions — ★360 · *dormido*: sin empujar desde el 1-oct-2025 (401 días) · Apache-2.0 · *ARCHIVADO*
 • yuzono/manga-repo — ★13 · *dormido*: sin empujar desde el 18-ago-2026 (80 días) · sin licencia detectada por la API
-• mihonapp/mihon — ★25.058 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★25.061 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • UsagiApp/Usagi — ★293 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
 • HuzaifaKhalid1311/DropSauce — ★230 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.1.2 (4-nov-2026)
-• AppFuton/Futon — ★477 (sin cambio) · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
-• kodjodevf/mangayomi — ★4.390 · empujó el 3-nov-2026 (hace 3 días) · Apache-2.0 · última release v0.9.95 (1-nov-2026)
-• recloudstream/cloudstream — ★11.163 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
+• AppFuton/Futon — ★478 (+1) · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v9.9 (21-oct-2026)
+• kodjodevf/mangayomi — ★4.391 · empujó el 3-nov-2026 (hace 3 días) · Apache-2.0 · última release v0.9.95 (1-nov-2026)
+• recloudstream/cloudstream — ★11.165 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v4.8.0 (10-jul-2026)
 • KotatsuApp/Kotatsu — ★8.952 · *dormido*: sin empujar desde el 4-nov-2025 (367 días) · GPL-3.0 · *ARCHIVADO*
 • lnreader/lnreader-plugins — ★368 · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
-• keiyoushi/extensions — ★15.446 · empujó en las últimas horas · sin licencia detectada por la API · última release 16cde44 (6-nov-2026)
+• keiyoushi/extensions — ★15.444 · empujó en las últimas horas · sin licencia detectada por la API · última release 16cde44 (6-nov-2026)
 • salmanbappi/extensions-repo — ★52 · empujó el 2-nov-2026 (hace 4 días) · sin licencia detectada por la API
 • yuzono/cursed-manga-extensions — ★221 · empujó en las últimas horas · Apache-2.0
 • m2k3a/mangayomi-extensions — ★118 · empujó el 3-nov-2026 (hace 3 días) · Apache-2.0

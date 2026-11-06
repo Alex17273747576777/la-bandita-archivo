@@ -420,19 +420,19 @@ Las paradas, para que quede el registro:
 
 Medí otra vez, hoy 6 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• bitwarden/android — ★9.594 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
+• bitwarden/android — ★9.596 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
 • stratumauth/app — ★4.638 · empujó el 1-nov-2026 (hace 5 días) · GPL-3.0 · última release v1.7.0 (1-nov-2026)
 • Monica-Pass/Monica — ★1.216 · empujó en las últimas horas · GPL-3.0 · última release V1.0.324 (3-nov-2026)
-• dani-garcia/vaultwarden — ★70.316 · empujó el 4-nov-2026 (hace 2 días) · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
-• PhilippC/keepass2android — ★6.373 · empujó en las últimas horas · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
+• dani-garcia/vaultwarden — ★70.326 · empujó el 4-nov-2026 (hace 2 días) · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
+• PhilippC/keepass2android — ★6.371 · empujó en las últimas horas · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
 • Kunzisoft/KeePassDX — ★7.625 · empujó el 1-nov-2026 (hace 5 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
-• AChep/keyguard-app — ★3.610 · empujó el 4-nov-2026 (hace 2 días) · NOASSERTION · última release r20261103 (3-nov-2026)
-• beemdevelopment/Aegis — ★13.482 · *dormido*: sin empujar desde el 6-sep-2026 (61 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• AChep/keyguard-app — ★3.609 · empujó el 4-nov-2026 (hace 2 días) · NOASSERTION · última release r20261103 (3-nov-2026)
+• beemdevelopment/Aegis — ★13.483 · *dormido*: sin empujar desde el 6-sep-2026 (61 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
 • Lucent-Project/Lucent — ★12 · empujó el 2-nov-2026 (hace 4 días) · MIT · última release v3.1.2 (20-oct-2026)
 • freeotp/freeotp-android — ★1.683 · empujó el 3-nov-2026 (hace 3 días) · Apache-2.0 · última release v2.0.6 (17-feb-2026)
 • andOTP/andOTP — ★3.704 · *dormido*: sin empujar desde el 14-jun-2022 (1606 días) · MIT · última release v0.9.0.1 (15-jun-2021) · *ARCHIVADO*
 • tejado/Authorizer — ★572 · *dormido*: sin empujar desde el 19-abr-2024 (931 días) · sin licencia detectada por la API · última release v0.5.0 (7-may-2023)
-• open-keychain/open-keychain — ★2.633 · *dormido*: sin empujar desde el 16-may-2024 (904 días) · GPL-3.0
+• open-keychain/open-keychain — ★2.632 · *dormido*: sin empujar desde el 16-may-2024 (904 días) · GPL-3.0
 • authpass/authpass — ★2.811 · *dormido*: sin empujar desde el 15-sep-2026 (52 días) · GPL-3.0 · última release v1.9.11 (4-feb-2024)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

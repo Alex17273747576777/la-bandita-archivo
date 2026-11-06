@@ -1,11 +1,11 @@
 {
  "fecha": "2026-11-06",
- "medido_en": "2026-11-06T08:35:53+00:00",
+ "medido_en": "2026-11-06T13:59:40+00:00",
  "fecha_viva": {
   "salida": [
-   "FECHA VIVA · viernes 6 de noviembre de 2026 · 04:35:53 en Santo Domingo (08:35:53 UTC) · semana ISO 45 de 2026",
-   "  · reloj en hora con la fuente de fuera (+0.2 min)",
-   "  · anotado en docs/FECHA-VIVA.json como «inicio» (2 vez/veces hoy)"
+   "FECHA VIVA · viernes 6 de noviembre de 2026 · 09:59:40 en Santo Domingo (13:59:40 UTC) · semana ISO 45 de 2026",
+   "  · reloj en hora con la fuente de fuera (+0.0 min)",
+   "  · anotado en docs/FECHA-VIVA.json como «inicio» (8 vez/veces hoy)"
   ],
   "codigo": 0
  },
@@ -34,11 +34,11 @@
    21,
    22,
    23,
-   24
+   24,
+   25
   ],
-  "siguiente": 25,
+  "siguiente": 26,
   "pendientes": [
-   25,
    26,
    27,
    28,
@@ -47,7 +47,8 @@
    31,
    32,
    33,
-   34
+   34,
+   35
   ]
  },
  "ecosistema": {},

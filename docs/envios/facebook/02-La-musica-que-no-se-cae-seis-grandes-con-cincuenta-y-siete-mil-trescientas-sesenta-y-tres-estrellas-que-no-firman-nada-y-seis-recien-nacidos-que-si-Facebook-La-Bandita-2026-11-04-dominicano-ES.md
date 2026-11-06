@@ -460,7 +460,7 @@ Los tres parados, para que quede el registro:
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 2959 caracteres ═══
+═══ MENSAJE 19 de 20 · 2952 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 02*
 
@@ -472,22 +472,22 @@ Medí otra vez, hoy 6 de noviembre de 2026, los 22 repositorios que cita esta pi
 • milkei/audio-focus-mixer — ★2 · empujó en las últimas horas · MIT
 • nixolas1/bluecodec — ★1 · empujó el 30-oct-2026 (hace 7 días) · MIT · última release v0.1.7 (30-oct-2026)
 • altarafiya/Sukut — ★4 · empujó el 1-nov-2026 (hace 5 días) · NOASSERTION · última release v0.4.2 (1-nov-2026)
-• coldMEW/Hush — ★146 · empujó el 2-nov-2026 (hace 4 días) · GPL-3.0 · última release v2.0.5 (2-nov-2026)
+• coldMEW/Hush — ★148 · empujó el 2-nov-2026 (hace 4 días) · GPL-3.0 · última release v2.0.5 (2-nov-2026)
 • monarchsofchaos004-gif/splitaudio — ★13 · empujó en las últimas horas · MIT · última release v0.5.7 (5-nov-2026)
 • HellzYeahh/earshot — ★38 · empujó el 1-nov-2026 (hace 5 días) · MIT · última release v0.9.0 (28-oct-2026)
 • AQUALaforet/AudioPolicyOverride — ★5 · empujó el 25-oct-2026 (hace 12 días) · GPL-3.0 · última release v1.2.3 (25-oct-2026)
 • ibrahim91015/AudioScope — ★1 · empujó el 6-oct-2026 (hace 31 días) · GPL-3.0 · última release v0.5.2 (6-oct-2026)
 • bunbun-midi/RootlessJamesDSP-SKDSP — ★1 · empujó el 27-oct-2026 (hace 10 días) · GPL-3.0 · última release v1 (27-oct-2026)
-• MetrolistGroup/Metrolist — ★14.038 · empujó el 2-nov-2026 (hace 4 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.846 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
-• rukamori/ArchiveTune — ★8.015 · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
-• AntennaPod/AntennaPod — ★8.270 · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
-• Moriafly/SaltPlayerSource — ★7.607 · empujó el 2-nov-2026 (hace 4 días) · MIT · última release 12.6.0 (2-nov-2026)
+• MetrolistGroup/Metrolist — ★14.040 · empujó el 2-nov-2026 (hace 4 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
+• maxrave-dev/SimpMusic — ★12.866 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• rukamori/ArchiveTune — ★8.018 · empujó en las últimas horas · GPL-3.0 · última release v15.1.0 (26-sep-2026)
+• AntennaPod/AntennaPod — ★8.271 · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
+• Moriafly/SaltPlayerSource — ★7.609 · empujó en las últimas horas · MIT · última release 12.6.0 (2-nov-2026)
 • namidaco/namida — ★6.789 · empujó en las últimas horas · NOASSERTION · última release v7.1.2 (19-sep-2026)
 • timschneeb/RootlessJamesDSP — ★1.723 · *dormido*: sin empujar desde el 31-ago-2026 (67 días) · GPL-3.0 · última release v1.6.13 (23-dic-2024)
 • z-huang/InnerTune — ★6.140 · *dormido*: sin empujar desde el 13-nov-2025 (358 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • naman14/Timber — ★7.036 · *dormido*: sin empujar desde el 28-abr-2023 (1288 días) · sin licencia detectada por la API · última release v1.7 (5-oct-2020)
-• james34602/JamesDSPManager — ★990 · *dormido*: sin empujar desde el 18-jun-2025 (506 días) · sin licencia detectada por la API · última release 28Nov2023 (2-dic-2023)
+• james34602/JamesDSPManager — ★991 · *dormido*: sin empujar desde el 18-jun-2025 (506 días) · sin licencia detectada por la API · última release 28Nov2023 (2-dic-2023)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

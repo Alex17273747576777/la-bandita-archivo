@@ -454,21 +454,21 @@ Los tres que se quedan fuera, con su cifra:
 
 Medí otra vez, hoy 6 de noviembre de 2026, los 15 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• capitan0n/droynis — ★19 · empujó en las últimas horas · GPL-3.0 · última release v0.16.0 (5-nov-2026)
-• Bingblop/ADB-Root-Toolbox — ★126 · empujó el 31-oct-2026 (hace 6 días) · GPL-3.0 · última release v7.22.1 (31-oct-2026)
+• capitan0n/droynis — ★20 · empujó en las últimas horas · GPL-3.0 · última release v0.16.0 (5-nov-2026)
+• Bingblop/ADB-Root-Toolbox — ★128 · empujó el 31-oct-2026 (hace 6 días) · GPL-3.0 · última release v7.22.1 (31-oct-2026)
 • krishna3163/OmniShizuku — ★19 · empujó en las últimas horas · Apache-2.0 · última release latest (6-nov-2026)
-• zsw125/o3root — ★82 · empujó en las últimas horas · MIT · última release v3.3 (5-nov-2026)
-• aaron-gh/SandFly — ★26 · empujó en las últimas horas · Apache-2.0 · última release v0.3.1 (2-nov-2026)
-• rdevz-ph/RedirectGuard — ★19 · empujó en las últimas horas · Apache-2.0 · última release v1.7 (6-nov-2026)
+• zsw125/o3root — ★87 · empujó en las últimas horas · MIT · última release v3.3 (5-nov-2026)
+• aaron-gh/SandFly — ★27 · empujó en las últimas horas · Apache-2.0 · última release v0.3.1 (2-nov-2026)
+• rdevz-ph/RedirectGuard — ★18 · empujó en las últimas horas · Apache-2.0 · última release v1.7 (6-nov-2026)
 • wized2/Latch — ★18 · empujó el 29-oct-2026 (hace 8 días) · MIT · última release v0.6.3 (22-oct-2026)
 • sidnvy/8bercue — ★18 · empujó el 26-oct-2026 (hace 11 días) · AGPL-3.0
-• coldMEW/Hush — ★146 · empujó el 2-nov-2026 (hace 4 días) · GPL-3.0 · última release v2.0.5 (2-nov-2026)
+• coldMEW/Hush — ★148 · empujó el 2-nov-2026 (hace 4 días) · GPL-3.0 · última release v2.0.5 (2-nov-2026)
 • HellzYeahh/earshot — ★38 · empujó el 1-nov-2026 (hace 5 días) · MIT · última release v0.9.0 (28-oct-2026)
 • WEIHEWU/shizuku-sam — ★42 · empujó el 4-nov-2026 (hace 2 días) · Apache-2.0 · última release v13.8.40 (4-nov-2026)
-• bl3xand/APK-Toolbox — ★103 · empujó el 28-oct-2026 (hace 9 días) · GPL-3.0 · última release v1.1.6 (28-oct-2026)
-• wlmosv-png/wpaforge — ★158 · empujó en las últimas horas · Apache-2.0 · última release v1.9.50 (6-nov-2026)
+• bl3xand/APK-Toolbox — ★104 · empujó el 28-oct-2026 (hace 9 días) · GPL-3.0 · última release v1.1.6 (28-oct-2026)
+• wlmosv-png/wpaforge — ★159 · empujó en las últimas horas · Apache-2.0 · última release v1.9.50 (6-nov-2026)
 • Ghostpanter/ghost-files — ★15 · empujó en las últimas horas · MIT · última release v0.7.3 (5-nov-2026)
-• henry-97/MineApp — ★91 · empujó el 31-oct-2026 (hace 6 días) · GPL-3.0 · última release v3.8.5 (31-oct-2026)
+• henry-97/MineApp — ★93 · empujó el 31-oct-2026 (hace 6 días) · GPL-3.0 · última release v3.8.5 (31-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

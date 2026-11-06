@@ -2,13 +2,13 @@
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/25-El-scanner-de-bolsillo-del-papel-al-PDF-legible-Umi-OCR-y-episteme-Facebook-La-Bandita-2026-11-06-dominicano-ES.md`
 - **Fecha de la pieza:** 6-nov-2026 (según dateline; edad hoy: 0 días)
-- **sha256 de la pieza:** `169ae90feed5acd4fe4bc1980a8c2c5b6c498be456143ebc38fc662f98f653d4`
-- **Envío generado:** 2026-11-06 · 6 mensajes · el mayor de 3517 caracteres
+- **sha256 de la pieza:** `c05d71afe4a5e40d6822ab3c1621ddfe26378376d12fe140c26d315cea612c15`
+- **Envío generado:** 2026-11-06 · 6 mensajes · el mayor de 3558 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 6 · 752 caracteres ═══
+═══ MENSAJE 1 de 6 · 742 caracteres ═══
 
-*El escáner de bolsillo: del papel al PDF legible sin mandar el papel a un servidor*
+*El escáner de bolsillo: del papel al PDF legible, con Umi-OCR y episteme*
 
 La Bandita · pieza 25 · guía del 6-nov-2026 · te la mando hoy en 6 mensajes.
 
@@ -20,113 +20,110 @@ La guía entera, ya guardada en el archivo: https://github.com/Alex1727374757677
 
 💓 6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 6 · 976 caracteres ═══
+═══ MENSAJE 2 de 6 · 821 caracteres ═══
 
-*El escáner de bolsillo: del papel al PDF legible sin mandar el papel a un servidor*
+*El escáner de bolsillo: del papel al PDF legible, con Umi-OCR y episteme*
 
 *La Bandita · viernes 6 de noviembre de 2026, 11:05 de la mañana en Santo Domingo (15:05 UTC) · edición dominicano-español · pieza 25 de Facebook*
 
-⏱️ *Lectura total: 21 minutos · dos repositorios medidos uno por uno · doce enlaces revisados uno por uno · cero tiendas de APK modificadas enlazadas · uno con más de un año sin moverse, otro con menos de un año de vida*
+⏱️ *Lectura total: 16 minutos · dos repositorios medidos uno por uno · doce enlaces revisados uno por uno · cero tiendas de APK enlazadas*
 
 *🗺️ Mapa de esta guía*
 
 ```
-├── 📄 El escáner de bolsillo · qué hace y qué no
-├── 🛠️ Las dos herramientas · Umi-OCR y episteme
-├── 🔐 Las licencias · MIT y AGPL-3.0, dos mundos distintos
-├── ⏱️ Las edades · cuatro años contra menos de uno
-├── 📦 Las entregas · APKs, código fuente y qué falta
-├── ☁️ La nube y el servidor · quién manda el papel afuera y quién no
-├── 🧪 Abrir un escáner antes de usarlo · seis comprobaciones en diez minutos
-└── ❓ preguntas · 🌅 cierre · 🔗 enlaces · 🗒️ notas
+├── 📱 El problema · un documento de papel que hay que convertir
+├── 🔍 Las dos herramientas · Umi-OCR y episteme
+├── 🔐 Las licencias · MIT y AGPL-3.0
+├── ⏱️ Las edades · tres años contra ocho meses de vida
+├── 📦 Las entregas · releases con instaladores y archivos ejecutables
+├── ☁️ La nube · quién procesa en el equipo y quién no
+└── 🧪 Probar un escáner antes de instalarlo · seis comprobaciones
 ```
 
 ⏬ sigue abajo · parte 1 de 5
 
-═══ MENSAJE 3 de 6 · 3517 caracteres ═══
+═══ MENSAJE 3 de 6 · 3558 caracteres ═══
 
-*📄 El escáner de bolsillo · qué hace y qué hace*
+*📱 El problema · un documento de papel que hay que convertir*
 
-Un escáner de bolsillo no es una máquina de oficina: es una aplicación que lee el papel con la cámara del teléfono y lo convierte en PDF o texto que se puede buscar. El truco está en el OCR —reconocimiento óptico de caracteres— que transforma una foto de una hoja en texto editable.
+Un recibo, un contrato, una factura o una página de un libro: todo llega en papel y hay que convertirlo en texto que se pueda copiar, buscar y editar. Eso es el OCR: reconocimiento óptico de caracteres. No hace falta una máquina de escaneo ni pagar un servicio en la nube; hay herramientas que lo hacen desde el propio equipo.
 
-Hay dos caminos para hacerlo. **Primero:** enviar la foto a un servidor ajeno, que la procese y devuelva el resultado. Eso es rápido, pero el papel sale del teléfono y entra en una nube ajena. **Segundo:** hacer todo en el dispositivo, sin red, sin cuenta, sin servidor. Eso es lo que mide esta pieza: dos herramientas que prometen escanear sin mandar el papel a ninguna parte.
+Esta pieza mide dos lectores de texto sobre imagen: **Umi-OCR**, de escritorio para Windows, y **episteme**, para Android. Ambas son de código abierto y ambas procesan sin enviar la imagen a un servidor ajeno.
 
-La pregunta que hay que responder para cada una es la misma: ¿de verdad funciona sin conexión? ¿Y cuánto tiempo lleva sin que alguien le toque el código?
+*🔍 Las dos herramientas · Umi-OCR y episteme*
 
-*🛠️ Las dos herramientas · Umi-OCR y episteme*
+**hiroi-sora/Umi-OCR** ★48.479 · MIT · creado el 28 de marzo de 2022 · push el 20 de noviembre de 2025. Lector de texto sobre imagen para Windows que funciona totalmente sin conexión. Usa PaddleOCR con modelos empaquetados. Soporta importación de imágenes, recorte de zona, exportación a Excel, Word, texto plano y Markdown. Tiene modo de línea de comandos. Última entrega: `v2.1.5`, del 25 de marzo de 2025, con tres adjuntos.
 
-**hiroi-sora/Umi-OCR** ★48.479 · MIT · creado el 28 de marzo de 2022 · push el 20 de noviembre de 2025. Software de OCR gratuito y sin conexión. Reconoce texto en imágenes captadas por pantalla, importadas en lote o de documentos PDF. Excluye marcas de agua, encabezados y pies de página, y escanea o genera códigos QR. Trae bibliotecas de idiomas integradas. Última entrega: `v2.1.5`, del 25 de marzo de 2025, con tres adjuntos.
+**Aryan-Raj3112/episteme** ★1.333 · AGPL-3.0 · creado el 24 de febrero de 2026 · push el 10 de octubre de 2026. Lector de documentos para Android con extracción de texto, conversión a Markdown y resumen de páginas. Construido con Jetpack Compose. Última entrega: `v1.0.58-oss`, del 9 de octubre de 2026, con dos adjuntos.
 
-**Aryan-Raj3112/episteme** ★1.333 · AGPL-3.0 · creado el 24 de febrero de 2026 · push el 10 de octubre de 2026. Lector multiplataforma de documentos y libros electrónicos. Abre PDF, EPUB y otros formatos en distintos sistemas operativos. Última entrega: `v1.0.58-oss`, del 9 de octubre de 2026, con dos adjuntos.
+*🔐 Las licencias · MIT y AGPL-3.0*
 
-*🔐 Las licencias · MIT y AGPL-3.0, dos mundos distintos*
+Umi-OCR declara MIT: permisiva, permite reutilizar el código incluso en proyectos cerrados, siempre que se conserve el aviso. episteme declara AGPL-3.0: copyleft fuerte; quien modifique y distribuya el código debe liberar su versión bajo la misma licencia, y quien la use como servicio en red debe hacer público el código fuente.
 
-Umi-OCR declara MIT: una licencia permisiva que permite usar, modificar y distribuir el código con pocas restricciones. episteme declara AGPL-3.0: una licencia copyleft fuerte que obliga a publicar las modificaciones si se distribuye el código modificado. Es la diferencia más concreta entre las dos: con MIT puedes cerrar tu versión; con AGPL-3.0, si compartes lo que cambiaste, debes compartir el código.
+MIT es más permisiva; AGPL-3.0 protege mejor el código abierto pero exige más de quien la reutiliza.
 
-*⏱️ Las edades · cuatro años contra menos de uno*
+*⏱️ Las edades · tres años contra ocho meses de vida*
 
-Umi-OCR tiene más de cuatro años (marzo de 2022), pero su último empujón es del 20 de noviembre de 2025: más de un año sin movimiento. Tiene 4.737 bifurcaciones y 369 incidencias abiertas. Es una herramienta madura que, en la práctica, está quieta.
+Umi-OCR tiene tres años de existencia y su último empujón es del 20 de noviembre de 2025: doce meses de silencio. No está abandonada del todo, pero tampoco está activa.
 
-episteme tiene menos de un año (febrero de 2026) y su último empujón es del 10 de octubre de 2026: menos de un mes. Tiene 67 bifurcaciones y 165 incidencias abiertas. Es joven, pero se mueve.
+episteme tiene ocho meses de vida (nació en febrero de 2026) y su último empujón es del 10 de octubre de 2026: menos de un mes. Es joven, pero se mueve.
 
-*📦 Las entregas · APKs, código fuente y qué falta*
+*📦 Las entregas · releases con instaladores y archivos ejecutables*
 
-Umi-OCR publica APKs: la entrega `v2.1.5` tiene tres adjuntos, y el código fuente está en Python para quien quiera compilarlo. episteme publica APKs: la entrega `v1.0.58-oss` tiene dos adjuntos. Ambas se pueden instalar directamente sin compilar.
+Umi-OCR entrega instaladores para Windows: `v2.1.5` tiene tres adjuntos. episteme entrega un APK para Android: `v1.0.58-oss` tiene dos adjuntos. Ninguna está en una tienda oficial; ambas se bajan del repositorio y se instalan manualmente.
 
-Pero hay una diferencia: Umi-OCR tiene entrega de marzo de 2025 y código de noviembre de 2025. episteme tiene entrega de octubre de 2026 y código de octubre de 2026. Una lleva meses sin nueva entrega; la otra acaba de publicar.
+*☁️ La nube · quién procesa en el equipo y quién no*
 
-*☁️ La nube y el servidor · quién manda el papel afuera y quién no*
+Umi-OCR procesa totalmente en el equipo: los modelos de OCR van empaquetados con la aplicación y no se conectan a internet para reconocer texto. episteme, al ser para Android, también procesa en el dispositivo; no se ha detectado envío de imágenes a un servidor externo. Ninguna de las dos exige crear cuenta.
 
-Umi-OCR se presenta como software de OCR sin conexión: todo se procesa en el dispositivo. No pide cuenta ni servidor. episteme es un lector de documentos: abre archivos locales, no manda nada a un servidor. Ninguna de las dos requiere crear una cuenta para funcionar.
+La diferencia entre ellas no es el precio —ambas son gratuitas— sino el sistema operativo, la edad, la licencia y el tipo de documento que cada una lee mejor.
+
+*🧪 Probar un escáner antes de instalarlo · seis comprobaciones*
+
+Un escáner de texto es un instalador o un APK: se puede inspeccionar antes de instalar.
+
+**Uno: la ficha.** En un APK se lee el `AndroidManifest.xml` y el `applicationId`; se compara con el repositorio de donde se bajó. En un instalador de Windows, se lee el metadata del ejecutable.
+
+**Dos: la licencia.** Se busca el archivo `LICENSE`. Umi-OCR dice MIT; episteme dice AGPL-3.0.
 
 
 ⏬ sigue abajo · parte 2 de 5
 
-═══ MENSAJE 4 de 6 · 3314 caracteres ═══
+═══ MENSAJE 4 de 6 · 2236 caracteres ═══
 
-Pero hay un matiz: Umi-OCR tiene más de un año sin empujón. Si alguna función de OCR deja de funcionar con una versión nueva de Android, puede que nadie lo arregle. episteme es joven pero activo. Para un escáner de bolsillo que se va a usar a diario, la actividad reciente importa más que el número de estrellas.
+**Tres: los permisos.** El manifiesto de Android declara qué pide: cámara, almacenamiento, internet. Un lector de texto no necesita internet para funcionar; si lo pide, conviene saber para qué.
 
-*🧪 Abrir un escáner antes de usarlo · seis comprobaciones en diez minutos*
+**Cuatro: el procesamiento.** Se lee si el OCR corre en el equipo o envía la imagen a un servidor. Umi-OCR corre en el equipo. episteme también.
 
-Un escáner de bolsillo es una aplicación que ve lo que le pones delante: conviene inspeccionarla antes de usarla con documentos sensibles.
+**Cinco: la firma.** Las APK de distintas fuentes no comparten siempre la firma. Mezclar fuentes obliga a desinstalar y borrar datos.
 
-**Uno: la ficha.** En el APK se lee el `AndroidManifest.xml` y el `applicationId`; se compara con el repositorio de donde se bajó. Si no coinciden, algo cambió de manos.
-
-**Dos: la licencia.** Se busca el archivo `LICENSE` en el repositorio. Umi-OCR dice MIT; episteme dice AGPL-3.0.
-
-**Tres: los permisos.** El manifiesto declara qué pide: cámara, almacenamiento, internet. Un escáner necesita la cámara y el almacenamiento. Si pide internet, conviene saber por qué —no debería necesitarlo para escanear en local.
-
-**Cuatro: la nube.** Umi-OCR dice ser sin conexión; episteme lee archivos locales. Se verifica que ninguna de las dos envíe el documento escaneado a un servidor ajeno sin pedirlo.
-
-**Cinco: la firma.** Las APK de distintas fuentes no comparten siempre la firma; mezclar fuentes obliga a desinstalar y borrar datos.
-
-**Seis: el historial.** Umi-OCR lleva más de un año sin empujón. episteme tiene menos de un mes desde el último. La fecha del último empujón es el dato más honesto que tiene cada programa.
+**Seis: el historial.** Un repositorio con doce meses de silencio no es lo mismo que uno con empujón de hace menos de un mes. La fecha del último empujón es el dato más honesto.
 
 *❓ preguntas*
 
-¿Cuál elijo? Umi-OCR si quiero OCR con muchos idiomas y no me importa que lleve más de un año sin actualizarse. episteme si quiero un lector de documentos activo y con movimiento reciente. ¿Mandan el papel a un servidor? Ninguna de las dos lo requiere para funcionar básicamente. ¿Pido cuenta? Ninguna la exige.
+¿Cuál elijo? Umi-OCR si trabajo en Windows con documentos escaneados y necesito exportar a Excel o Word. episteme si trabajo en Android y quiero convertir páginas de libro a Markdown. ¿Pagan algo? Ninguna. ¿Piden cuenta? Ninguna.
 
 *🌅 Cierre*
 
-La Bandita informa a partir de fuentes fechadas. Dos repositorios medidos uno por uno, doce enlaces revisados y cero tiendas de APK modificadas enlazadas. Un escáner de bolsillo no tiene que mandar el papel a ningún servidor: Umi-OCR y episteme lo demuestran, cada una con su edad, su licencia y su ritmo. Elige la que mejor respete tu documento.
+La Bandita informa a partir de fuentes fechadas. Dos repositorios medidos uno por uno, doce enlaces revisados y cero tiendas de APK enlazadas. Del papel al PDF legible no hace falta pagar ni subir nada a la nube: Umi-OCR y episteme lo hacen desde el equipo, cada una con su licencia y su sistema operativo.
 
 💓 *6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.*
 
 *Medición del corte:* viernes 6 de noviembre de 2026, 11:05 de la mañana en Santo Domingo (15:05 UTC) · dos repositorios medidos con estrellas, licencia, último empujón y última entrega · doce enlaces revisados con la interfaz de GitHub · cero tiendas de APK enlazadas · cero cifras de memoria.
 
-#task 113 · verificar que las seis comprobaciones de apertura de escáner de bolsillo (ficha, licencia, permisos, nube, firma, historial) se puedan hacer en un teléfono sin instalar nada, y anotar en un acta qué pasa con Umi-OCR y episteme.
-#task 114 · medir la familia de escáneres de bolsillo de nuevo dentro de un mes —6 de diciembre de 2026— para ver si Umi-OCR sigue sin empujón, si episteme mantiene su actividad, y si aparece un tercer escáner sin conexión.
-#task 115 · escribir la ficha de cada una de las dos herramientas en el catálogo del archivo, con su guía y su estado, y la advertencia de que Umi-OCR lleva más de un año sin movimiento a pesar de sus 48.479 estrellas.
+#task 114 · verificar que las seis comprobaciones de apertura de escáner de texto (ficha, licencia, permisos, nube, firma, historial) se puedan hacer en un teléfono o computadora sin instalar nada, y anotar en un acta qué pasa con Umi-OCR y episteme.
+#task 115 · medir la familia de escáneres de texto de nuevo dentro de un mes —6 de diciembre de 2026— para ver si Umi-OCR vuelve a moverse tras doce meses de silencio, si episteme sigue recibiendo empujones, y si nace algún escáner nuevo del mismo tipo.
+#task 116 · escribir la ficha de cada una de las dos herramientas en el catálogo del archivo, con su guía y su estado.
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 511 caracteres ═══
+═══ MENSAJE 5 de 6 · 503 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 25*
 
 Medí otra vez, hoy 6 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• hiroi-sora/Umi-OCR — ★48.479 (sin cambio) · *dormido*: sin empujar desde el 20-nov-2025 (351 días) · MIT · última release v2.1.5 (25-mar-2025)
+• hiroi-sora/Umi-OCR — ★48.485 (+6) · *dormido*: sin empujar desde el 20-nov-2025 (351 días) · MIT · última release v2.1.5 (25-mar-2025)
 • Aryan-Raj3112/episteme — ★1.333 (sin cambio) · empujó el 10-oct-2026 (hace 27 días) · AGPL-3.0 · última release v1.0.58-oss (9-oct-2026)
 
 ⏬ sigue abajo · parte 4 de 5
