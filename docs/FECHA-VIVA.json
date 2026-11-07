@@ -14,6 +14,20 @@
    "utc": "2026-11-07T10:45:25",
    "fuera": "2026-11-07T10:45:10",
    "dia_de_la_semana": "sábado"
+  },
+  {
+   "momento": "inicio",
+   "casa": "2026-11-07T06:59:00",
+   "utc": "2026-11-07T10:59:00",
+   "fuera": "2026-11-07T10:58:35",
+   "dia_de_la_semana": "sábado"
+  },
+  {
+   "momento": "fin",
+   "casa": "2026-11-07T07:02:27",
+   "utc": "2026-11-07T11:02:27",
+   "fuera": "2026-11-07T11:02:27",
+   "dia_de_la_semana": "sábado"
   }
  ]
 }

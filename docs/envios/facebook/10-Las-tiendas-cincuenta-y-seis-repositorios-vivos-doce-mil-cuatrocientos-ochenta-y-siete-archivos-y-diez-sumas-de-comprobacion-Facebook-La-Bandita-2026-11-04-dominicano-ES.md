@@ -504,9 +504,9 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 58 repositorios que cita esta pi
 • yuzono/anime-repo — sin dato hoy (la API no respondió). No afirmo nada.
 • mojuru/anime-repo — ★73 · empujó en las últimas horas · sin licencia detectada por la API
 • keiyoushi/extensions — ★15.445 · empujó en las últimas horas · sin licencia detectada por la API · última release b647c92 (7-nov-2026)
-• keiyoushi/extensions-source — ★4.865 · empujó en las últimas horas · Apache-2.0
-• yuzono/tachiyomi-extensions — ★960 · empujó el 2-nov-2026 (hace 5 días) · Apache-2.0
-• cuong-tran/manga-repo — ★469 · empujó el 2-nov-2026 (hace 5 días) · sin licencia detectada por la API · última release f7d844c-2 (2-nov-2026)
+• keiyoushi/extensions-source — ★4.866 · empujó en las últimas horas · Apache-2.0
+• yuzono/tachiyomi-extensions — ★961 · empujó el 2-nov-2026 (hace 5 días) · Apache-2.0
+• cuong-tran/manga-repo — ★470 · empujó el 2-nov-2026 (hace 5 días) · sin licencia detectada por la API · última release f7d844c-2 (2-nov-2026)
 • LittleSurvival/copymanga-copy20 — ★3.002 · empujó el 11-oct-2026 (hace 27 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • cofedream/extensions-copymanga — ★498 · *dormido*: sin empujar desde el 8-ago-2026 (91 días) · sin licencia detectada por la API · última release v1.4.11 (7-jun-2025)
 • FelipeGFA/extensoes — ★43 · empujó el 28-sep-2026 (hace 40 días) · sin licencia detectada por la API · última release d90cba1-2 (28-sep-2026)
@@ -537,7 +537,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 58 repositorios que cita esta pi
 ═══ MENSAJE 18 de 20 · 2773 caracteres ═══
 
 • kodjodevf/mangayomi-extensions — ★360 · *dormido*: sin empujar desde el 1-oct-2025 (402 días) · Apache-2.0 · *ARCHIVADO*
-• lnreader/lnreader-plugins — ★369 · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
+• lnreader/lnreader-plugins — ★370 · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
 • IReaderorg/IReader-extensions — ★32 · empujó el 27-oct-2026 (hace 11 días) · MPL-2.0
 • NovelSourcery/extensions — ★21 · empujó el 28-oct-2026 (hace 10 días) · sin licencia detectada por la API · última release d31198f (28-oct-2026)
 • jobobby04/ShosetsuExtensions — ★18 · empujó el 5-nov-2026 (hace 2 días) · GPL-3.0

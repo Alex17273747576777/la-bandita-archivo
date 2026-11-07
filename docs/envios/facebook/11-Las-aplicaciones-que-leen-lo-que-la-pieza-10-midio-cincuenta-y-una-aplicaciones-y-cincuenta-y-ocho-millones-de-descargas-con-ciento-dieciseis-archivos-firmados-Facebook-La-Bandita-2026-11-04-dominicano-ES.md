@@ -470,23 +470,23 @@ Y lo cuarto, la frase de siempre: **lo más nuevo no es lo mejor, pero es lo que
 Medí otra vez, hoy 7 de noviembre de 2026, los 56 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • skepsun/kototoro — sin dato hoy (la API no respondió). No afirmo nada.
-• Kototoro-app/Kototoro — ★674 · empujó en las últimas horas · Apache-2.0 · última release v2.3.11 (6-nov-2026)
+• Kototoro-app/Kototoro — ★675 · empujó en las últimas horas · Apache-2.0 · última release v2.3.11 (6-nov-2026)
 • itsmechinmoy/echo — sin dato hoy (la API no respondió). No afirmo nada.
 • itsmechinmoy/echo-nightly — ★390 · *dormido*: sin empujar desde el 22-ago-2026 (77 días) · NOASSERTION · última release nightly-20260402-172557-aafa008 (2-abr-2026)
-• mihonapp/mihon — ★25.086 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★25.087 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • komikku-app/anikku — ★1.134 · empujó en las últimas horas · Apache-2.0 · última release v0.2.0 (11-sep-2026)
-• recloudstream/cloudstream — ★11.169 · empujó en las últimas horas · GPL-3.0 · última release v4.8.0 (10-jul-2026)
+• recloudstream/cloudstream — ★11.170 · empujó en las últimas horas · GPL-3.0 · última release v4.8.0 (10-jul-2026)
 • kodjodevf/mangayomi — ★4.401 · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
-• UsagiApp/usagi — ★293 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
-• LNReader/lnreader — ★2.962 · empujó el 1-nov-2026 (hace 6 días) · MIT · última release v2.1.4 (26-sep-2026)
+• UsagiApp/usagi — ★294 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
+• LNReader/lnreader — ★2.963 · empujó el 1-nov-2026 (hace 6 días) · MIT · última release v2.1.4 (26-sep-2026)
 • Aidoku/Aidoku — ★4.710 · empujó el 31-oct-2026 (hace 7 días) · GPL-3.0 · última release v0.9-4 (16-oct-2026)
 • Suwayomi/Suwayomi-Server — ★8.020 · empujó el 1-nov-2026 (hace 6 días) · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
-• Jays2Kings/tachiyomiJ2K — ★5.408 · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
-• jobobby04/TachiyomiSY — ★4.203 · empujó el 1-nov-2026 (hace 6 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
+• Jays2Kings/tachiyomiJ2K — ★5.409 · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
+• jobobby04/TachiyomiSY — ★4.204 · empujó el 1-nov-2026 (hace 6 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
 • komikku-app/komikku — ★4.993 · empujó el 4-nov-2026 (hace 3 días) · Apache-2.0 · última release v1.14.1 (17-jul-2026)
-• yuzono/tachiyomi-extensions — ★960 · empujó el 2-nov-2026 (hace 5 días) · Apache-2.0
+• yuzono/tachiyomi-extensions — ★961 · empujó el 2-nov-2026 (hace 5 días) · Apache-2.0
 • nekomangaorg/Neko — ★2.825 · empujó en las últimas horas · Apache-2.0 · última release 3.8.5 (30-oct-2026)
-• null2264/yokai — ★1.920 · empujó el 3-nov-2026 (hace 4 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
+• null2264/yokai — ★1.921 · empujó el 3-nov-2026 (hace 4 días) · Apache-2.0 · última release v1.10.2 (23-sep-2026)
 • ruzhe85/MihonSY — ★52 · empujó el 4-nov-2026 (hace 3 días) · Apache-2.0 · última release v1.3.0 (4-nov-2026)
 • unseensnick/Reikai — ★47 · empujó en las últimas horas · Apache-2.0 · última release v0.5.1 (26-oct-2026)
 • yomihon/yomihon — ★144 · empujó el 18-oct-2026 (hace 20 días) · Apache-2.0 · última release v0.4.3 (18-oct-2026)

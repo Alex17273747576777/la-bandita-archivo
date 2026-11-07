@@ -499,18 +499,18 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 26 repositorios que cita esta pi
 • Secozzi/aniyomi-extensions — ★130 · *dormido*: sin empujar desde el 20-sep-2026 (48 días) · Apache-2.0 · última release 7717051 (20-sep-2026)
 • quickdesh/Animiru — sin dato hoy (la API no respondió). No afirmo nada.
 • animiruorg/Animiru — ★912 · empujó el 3-nov-2026 (hace 4 días) · GPL-3.0 · última release v0.20.1.1 (3-nov-2026)
-• keiyoushi/extensions-source — ★4.865 · empujó en las últimas horas · Apache-2.0
+• keiyoushi/extensions-source — ★4.866 · empujó en las últimas horas · Apache-2.0
 • LittleSurvival/copymanga-copy20 — ★3.002 · empujó el 11-oct-2026 (hace 27 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • kodjodevf/mangayomi-extensions — ★360 · *dormido*: sin empujar desde el 1-oct-2025 (402 días) · Apache-2.0 · *ARCHIVADO*
 • yuzono/manga-repo — ★13 · *dormido*: sin empujar desde el 18-ago-2026 (81 días) · sin licencia detectada por la API
-• mihonapp/mihon — ★25.086 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★25.087 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • UsagiApp/Usagi — ★294 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
 • HuzaifaKhalid1311/DropSauce — ★232 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.1.2 (4-nov-2026)
 • AppFuton/Futon — ★480 · empujó en las últimas horas · GPL-3.0 · última release v9.9 (21-oct-2026)
 • kodjodevf/mangayomi — ★4.401 · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
-• recloudstream/cloudstream — ★11.169 · empujó en las últimas horas · GPL-3.0 · última release v4.8.0 (10-jul-2026)
+• recloudstream/cloudstream — ★11.170 · empujó en las últimas horas · GPL-3.0 · última release v4.8.0 (10-jul-2026)
 • KotatsuApp/Kotatsu — ★8.957 · *dormido*: sin empujar desde el 4-nov-2025 (368 días) · GPL-3.0 · *ARCHIVADO*
-• lnreader/lnreader-plugins — ★369 · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
+• lnreader/lnreader-plugins — ★370 · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
 • keiyoushi/extensions — ★15.445 · empujó en las últimas horas · sin licencia detectada por la API · última release b647c92 (7-nov-2026)
 • salmanbappi/extensions-repo — ★52 · empujó el 2-nov-2026 (hace 5 días) · sin licencia detectada por la API
 • yuzono/cursed-manga-extensions — ★222 · empujó en las últimas horas · Apache-2.0

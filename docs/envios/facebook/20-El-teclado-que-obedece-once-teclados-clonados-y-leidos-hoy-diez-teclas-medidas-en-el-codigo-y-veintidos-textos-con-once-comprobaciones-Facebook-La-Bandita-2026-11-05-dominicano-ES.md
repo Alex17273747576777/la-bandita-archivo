@@ -511,7 +511,7 @@ Y lo cuarto: cuando alguien te venda un método con porcentajes de obediencia, p
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 2097 caracteres ═══
+═══ MENSAJE 18 de 19 · 1709 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 20*
 
@@ -522,7 +522,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 12 repositorios que cita esta pi
 • SvReenen/Deskdrop — ★59 · empujó en las últimas horas · GPL-3.0 · última release v1.3.1 (21-abr-2026)
 • AnySoftKeyboard/AnySoftKeyboard — ★3.389 · empujó en las últimas horas · Apache-2.0 · última release 1.13-r2 (8-sep-2026)
 • HeliBorg/HeliBoard — ★6.513 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v4.2 (12-oct-2026)
-• florisboard/florisboard — ★8.758 · empujó el 5-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.5.2 (28-nov-2025)
+• florisboard/florisboard — ★8.759 · empujó el 5-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.5.2 (28-nov-2025)
 • Julow/Unexpected-Keyboard — ★3.338 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release 2.2.0 (1-nov-2026)
 • dessalines/thumb-key — ★1.571 · empujó en las últimas horas · AGPL-3.0 · última release 5.1.20 (2-nov-2026)
 • osfans/trime — ★4.784 · empujó en las últimas horas · GPL-3.0 · última release v3.3.13 (1-nov-2026)
@@ -532,10 +532,8 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 14 enlaces de esta pieza, *12 responden*.
-
-• https://github.com/AnySoftKeyboard/AnySoftKeyboard/blob/main/ime/addons/quick_text/src/main/res/xml/quick_text_keys.xml — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://github.com/LeanBitLab/LeanType/blob/main/app/src/main/java/helium314/keyboard/latin/utils/CustomAIKeyText.kt — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 14 enlaces de esta pieza, *14 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 17 de 18
 

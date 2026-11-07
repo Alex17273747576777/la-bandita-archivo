@@ -401,10 +401,10 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 20 repositorios que cita esta pi
 
 • mullvad/mullvadvpn-app — ★7.754 · empujó en las últimas horas · GPL-3.0 · última release android/2026.12 (30-sep-2026)
 • wg-easy/wg-easy — ★27.429 · empujó el 5-nov-2026 (hace 2 días) · AGPL-3.0 · última release v15.5.0 (24-oct-2026)
-• juanfont/headscale — ★45.434 · empujó en las últimas horas · BSD-3-Clause · última release v0.29.7 (30-oct-2026)
+• juanfont/headscale — ★45.435 · empujó en las últimas horas · BSD-3-Clause · última release v0.29.7 (30-oct-2026)
 • netbirdio/netbird — ★30.754 · empujó en las últimas horas · NOASSERTION · última release v0.82.0 (29-oct-2026)
-• SagerNet/sing-box — ★39.704 · empujó el 3-nov-2026 (hace 4 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
-• hiddify/hiddify-app — ★33.740 · empujó en las últimas horas · NOASSERTION · última release v5.5.5 (4-nov-2026)
+• SagerNet/sing-box — ★39.706 · empujó el 3-nov-2026 (hace 4 días) · NOASSERTION · última release v1.14.4 (24-oct-2026)
+• hiddify/hiddify-app — ★33.739 · empujó en las últimas horas · NOASSERTION · última release v5.5.5 (4-nov-2026)
 • celzero/rethink-app — ★5.858 · empujó el 26-oct-2026 (hace 12 días) · Apache-2.0 · última release v0.5.8 (13-oct-2026)
 • M66B/NetGuard — ★3.968 · *dormido*: sin empujar desde el 1-ago-2026 (98 días) · GPL-3.0 · última release 2.337 (1-ago-2026)
 • AdAway/AdAway — ★9.590 · empujó el 5-nov-2026 (hace 2 días) · GPL-3.0 · última release v6.1.4 (27-oct-2024)

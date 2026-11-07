@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 91 tareas abiertas en 28 piezas vivas, numeradas dentro de cada pieza, de 007 a 116. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 90 tareas abiertas en 28 piezas vivas, numeradas dentro de cada pieza, de 007 a 116. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -21,14 +21,13 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 018 | volver a medir estos veintiún repositorios el 14 de noviembre de 2026 y publicar cuántos de los veinte que no firman añadieron un archivo de huella. | Facebook · 02 | 2026-11-07 |
 | 019 | comprobar el 7 de diciembre de 2026 si alguno de los veintiún dejó de tener release etiquetado o cambió de licencia. | Facebook · 02 | 2026-11-07 |
 | 022 | volver a medir estos catorce repositorios el 14 de noviembre de 2026 y publicar cuántos de los catorce añadieron un archivo de huella en su release más reciente. | Facebook · 03 | 2026-11-07 |
-| 022 | volver a contar las huellas de los veintiséis el 11 de noviembre de 2026 y publicar cuántos respondieron, con la misma vara de hoy: adjunto con suma en las últimas entregas. | Facebook · 04 | 2026-11-04 |
 | 023 | comprobar el 7 de diciembre de 2026 si alguno de los catorce cambió de licencia, dejó de tener release etiquetado o pasó a archivado. | Facebook · 03 | 2026-11-07 |
-| 023 | comprobar el 4 de diciembre de 2026 si el tronco, Shizuku, sigue en quinientos treinta y cinco días sin empujar o si volvió a moverse, y decirlo con la fecha nueva. | Facebook · 04 | 2026-11-04 |
 | 024 | solicitar el Scorecard de OpenSSF para los catorce por la vía pública, para que la próxima medición use los cien puntos y no solo los ochenta que permite la API de repositorios. | Facebook · 03 | 2026-11-07 |
-| 024 | medir el 4 de febrero de 2027 si alguna de las bifurcaciones nuevas —porter, Shizuku-Next, Nightzuku, Shizako— publica atestación verificable además de la suma, y correr contra ella la orden cinco. | Facebook · 04 | 2026-11-04 |
-| 025 | ampliar el censo del tema con palabras más anchas antes del 4 de mayo de 2027: hoy son 454 fichas por nombre y descripción, y el registro creció por otra puerta. | Facebook · 04 | 2026-11-04 |
+| 026 | volver a medir estos veintiséis repositorios el 14 de noviembre de 2026 y publicar cuántos de los veintitrés que no firman añadieron un archivo de huella. | Facebook · 04 | 2026-11-07 |
 | 026 | volver a medir las setenta fichas el 11 de noviembre de 2026 y publicar cuántas de las veintidós que firman siguen firmando y si alguna de las cuarenta y ocho empezó. | Facebook · 05 | 2026-11-04 |
+| 027 | comprobar el 7 de diciembre de 2026 si Shizuku volvió a moverse tras 528 días de silencio, y si el repo adns apareció o sigue sin existir. | Facebook · 04 | 2026-11-07 |
 | 027 | comprobar el 4 de diciembre de 2026 si el capítulo del permiso prestado consigue su primera suma de comprobación; hoy son cero de seis y es la deuda más cara de la guía. | Facebook · 05 | 2026-11-04 |
+| 028 | solicitar el Scorecard de OpenSSF para los veintiséis por la vía pública, para que la próxima medición use los cien puntos y no solo los ochenta que permite la API de repositorios. | Facebook · 04 | 2026-11-07 |
 | 028 | pedir el mérito independiente de las setenta a la fundación de seguridad por la vía pública antes del 4 de mayo de 2027, para que la nota pueda volver a ser sobre cien. | Facebook · 05 | 2026-11-04 |
 | 029 | revisar el 4 de febrero de 2027 las seis fichas que llevan más de un año sin entrega —F-Droid, AppVerifier, Termux, Shizuku, DataBackup y AdAway— y decir cuáles se movieron. | Facebook · 05 | 2026-11-04 |
 | 030 | volver a contar las sumas de los dieciséis el 11 de noviembre de 2026 y decir si algún conjunto de parches publicó la primera, que hoy son cero de cuarenta. | Facebook · 06 | 2026-11-04 |
@@ -109,7 +108,7 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 > **Declarado:** 01-La-huella-o-el-silencio-quince-progra: numera desde 016 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 02-La-musica-que-no-se-cae-veintiun-repo: numera desde 018 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 03-La-caja-fuerte-del-bolsillo-catorce-g: numera desde 022 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
-> **Declarado:** 04-La-lista-del-permiso-seis-de-veintise: numera desde 022 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 04-La-lista-del-permiso-veintiseis-progr: numera desde 026 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 05-La-guia-maestra-contada-despacio-doce: numera desde 007 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 05-La-guia-maestra-doce-capitulos-sesent: numera desde 026 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 06-El-taller-los-gestores-de-parches-fir: numera desde 030 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
