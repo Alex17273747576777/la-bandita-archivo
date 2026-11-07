@@ -37,5 +37,3 @@ Ningún APK se aloja aquí. La huella se calcula en el teléfono con Termux o en
 Con huella, comparas sesenta y cuatro caracteres y lo sabes con certeza.
 
 **Hashtags:** #Droynis #ADBRootToolbox #OmniShizuku #O3Root #SandFly #RedirectGuard #Latch #8bercue #Hush #Earshot #ShizukuSam #APKToolbox
-
-*La Bandita informa a partir de fuentes fechadas.*

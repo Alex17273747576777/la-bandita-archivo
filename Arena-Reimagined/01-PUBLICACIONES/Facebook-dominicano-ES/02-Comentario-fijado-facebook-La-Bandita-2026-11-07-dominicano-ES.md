@@ -35,5 +35,3 @@ Ningún APK se aloja aquí. La huella se calcula en el teléfono con Termux o en
 Con huella, comparas sesenta y cuatro caracteres y lo sabes con certeza.
 
 **Hashtags:** #Metrolist #SimpMusic #ArchiveTune #AntennaPod #SpotifyPlusTVPatch #SplitAudio #GoogleTVAirPlay #MusicPlayer2 #AudioPlayers #EqMac #AutoEq #EasyEffects
-
-*La Bandita informa a partir de fuentes fechadas.*

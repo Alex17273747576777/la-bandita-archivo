@@ -39,5 +39,3 @@ Ningún APK se aloja aquí. La huella se calcula en el teléfono con Termux o en
 Con huella, comparas sesenta y cuatro caracteres y lo sabes con certeza.
 
 **Hashtags:** #AndroidTV #GoogleTV #HomeAssistant #Jellyfin #Kodi #SmartTube #ESPHome #TVSlim #Lounge #MoonCast
-
-*La Bandita informa a partir de fuentes fechadas.*
