@@ -473,7 +473,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 56 repositorios que cita esta pi
 • Kototoro-app/Kototoro — ★675 · empujó en las últimas horas · Apache-2.0 · última release v2.3.11 (6-nov-2026)
 • itsmechinmoy/echo — sin dato hoy (la API no respondió). No afirmo nada.
 • itsmechinmoy/echo-nightly — ★390 · *dormido*: sin empujar desde el 22-ago-2026 (77 días) · NOASSERTION · última release nightly-20260402-172557-aafa008 (2-abr-2026)
-• mihonapp/mihon — ★25.087 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★25.088 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • komikku-app/anikku — ★1.134 · empujó en las últimas horas · Apache-2.0 · última release v0.2.0 (11-sep-2026)
 • recloudstream/cloudstream — ★11.170 · empujó en las últimas horas · GPL-3.0 · última release v4.8.0 (10-jul-2026)
 • kodjodevf/mangayomi — ★4.401 · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)

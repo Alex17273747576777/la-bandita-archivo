@@ -465,7 +465,7 @@ Y lo cuarto, la frase que esta serie repite porque es verdad: **lo más nuevo no
 Medí otra vez, hoy 7 de noviembre de 2026, los 52 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • navidrome/navidrome — ★24.564 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v0.64.2 (24-sep-2026)
-• jellyfin/jellyfin — ★59.088 · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
+• jellyfin/jellyfin — ★59.089 · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 • ampache/ampache — ★3.845 · empujó en las últimas horas · AGPL-3.0 · última release 8.4.0 (6-nov-2026)
 • koel/koel — ★17.335 · empujó en las últimas horas · MIT · última release v9.15.0 (28-sep-2026)
 • blackcandy-org/blackcandy — ★4.431 · empujó el 21-oct-2026 (hace 17 días) · MIT · última release v3.2.1 (26-ago-2026)
@@ -483,10 +483,10 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 52 repositorios que cita esta pi
 • team-spotube/spotube — ★50.639 · empujó en las últimas horas · AGPL-3.0 · última release v6.0.0-beta.0 (30-oct-2026)
 • Taiko2k/Tauon — ★2.957 · empujó en las últimas horas · GPL-3.0 · última release v13.1.1 (30-oct-2026)
 • KDE/elisa — ★370 · empujó en las últimas horas · LGPL-3.0
-• harmonoid/harmonoid — ★4.805 · empujó en las últimas horas · NOASSERTION · última release v0.3.37 (4-nov-2026)
+• harmonoid/harmonoid — ★4.806 · empujó en las últimas horas · NOASSERTION · última release v0.3.37 (4-nov-2026)
 • jeffvli/sonixd — ★1.904 · *dormido*: sin empujar desde el 17-feb-2024 (994 días) · GPL-3.0 · última release v0.15.5 (14-mar-2023) · *ARCHIVADO*
 • MetrolistGroup/Metrolist — ★14.064 · empujó el 2-nov-2026 (hace 5 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.938 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• maxrave-dev/SimpMusic — ★12.939 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • OuterTune/OuterTune — ★5.446 · empujó el 12-oct-2026 (hace 26 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
 • z-huang/InnerTune — ★6.141 · *dormido*: sin empujar desde el 13-nov-2025 (359 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • namidaco/namida — ★6.796 · empujó en las últimas horas · NOASSERTION · última release v7.1.2 (19-sep-2026)

@@ -508,7 +508,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 33 repositorios que cita esta pi
 • z0rats/freqcast — ★15 · empujó el 2-nov-2026 (hace 5 días) · GPL-3.0 · última release v3.17.2 (2-nov-2026)
 • hyliankid14/British-Radio-Player — ★23 · empujó el 2-nov-2026 (hace 5 días) · NOASSERTION · última release v2.1.4 (2-nov-2026)
 • Woodic-Way/WoodicIPTV — ★5 · *dormido*: sin empujar desde el 30-jul-2026 (100 días) · sin licencia detectada por la API · última release v2.0 (30-jul-2026)
-• TheJoeFin/Traydio — ★206 · empujó el 4-nov-2026 (hace 3 días) · MIT · última release v2.2.3 (4-nov-2026)
+• TheJoeFin/Traydio — ★207 · empujó el 4-nov-2026 (hace 3 días) · MIT · última release v2.2.3 (4-nov-2026)
 • meehow/receiver — ★51 · *dormido*: sin empujar desde el 9-ago-2026 (90 días) · GPL-3.0 · última release v0.8.0 (12-jul-2026)
 • nevermore23274/AetherTune — ★130 · empujó el 26-oct-2026 (hace 12 días) · MIT · última release v0.12.0 (1-oct-2026)
 • ahXN00/OwnTV — ★748 · empujó en las últimas horas · GPL-3.0 · última release v5.2.1 (21-oct-2026)

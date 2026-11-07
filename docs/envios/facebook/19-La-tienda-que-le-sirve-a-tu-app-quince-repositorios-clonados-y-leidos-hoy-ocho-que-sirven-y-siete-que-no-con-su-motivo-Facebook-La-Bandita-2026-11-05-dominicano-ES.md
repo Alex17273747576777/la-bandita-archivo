@@ -503,7 +503,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 26 repositorios que cita esta pi
 • LittleSurvival/copymanga-copy20 — ★3.002 · empujó el 11-oct-2026 (hace 27 días) · sin licencia detectada por la API · última release hipmh-v1.4.1 (11-oct-2026)
 • kodjodevf/mangayomi-extensions — ★360 · *dormido*: sin empujar desde el 1-oct-2025 (402 días) · Apache-2.0 · *ARCHIVADO*
 • yuzono/manga-repo — ★13 · *dormido*: sin empujar desde el 18-ago-2026 (81 días) · sin licencia detectada por la API
-• mihonapp/mihon — ★25.087 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★25.088 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • UsagiApp/Usagi — ★294 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
 • HuzaifaKhalid1311/DropSauce — ★232 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.1.2 (4-nov-2026)
 • AppFuton/Futon — ★480 · empujó en las últimas horas · GPL-3.0 · última release v9.9 (21-oct-2026)

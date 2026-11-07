@@ -443,7 +443,7 @@ Y lo cuarto: **nueve piezas de 2026 en un tema que parecía cerrado**. Escribir 
 Medí otra vez, hoy 7 de noviembre de 2026, los 4 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • anacrolix/torrent — ★6.130 (-2) · empujó en las últimas horas · MPL-2.0
-• uutils/coreutils — ★24.343 (+11) · empujó en las últimas horas · MIT · última release 0.12.0 (17-sep-2026)
+• uutils/coreutils — ★24.342 (+10) · empujó en las últimas horas · MIT · última release 0.12.0 (17-sep-2026)
 • rhash/RHash — ★735 · empujó el 28-oct-2026 (hace 10 días) · 0BSD · última release v1.4.6 (13-may-2025)
 • smartmontools/smartmontools — ★1.463 · empujó el 5-nov-2026 (hace 2 días) · GPL-2.0 · última release RELEASE_7_5 (12-may-2025)
 

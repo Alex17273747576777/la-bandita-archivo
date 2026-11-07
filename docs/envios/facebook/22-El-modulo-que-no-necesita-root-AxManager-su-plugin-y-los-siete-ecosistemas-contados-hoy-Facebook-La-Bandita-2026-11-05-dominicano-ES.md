@@ -435,7 +435,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 24 repositorios que cita esta pi
 • topjohnwu/Magisk — ★63.837 · empujó el 27-oct-2026 (hace 11 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
 • tiann/KernelSU — ★20.235 · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
 • KernelSU-Next/KernelSU-Next — ★4.749 · empujó en las últimas horas · GPL-3.0 · última release v3.4.2 (13-oct-2026)
-• SukiSU-Ultra/SukiSU-Ultra — ★6.946 · empujó en las últimas horas · GPL-3.0 · última release v4.3.0-r2 (5-nov-2026)
+• SukiSU-Ultra/SukiSU-Ultra — ★6.947 · empujó en las últimas horas · GPL-3.0 · última release v4.3.0-r2 (5-nov-2026)
 • bmax121/APatch — ★8.134 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release 11282 (15-oct-2026)
 • Baka-SU/BakaSU — ★2.128 · empujó en las últimas horas · GPL-3.0
 • Magisk-Modules-Alt-Repo/json — ★131 · empujó en las últimas horas · GPL-3.0

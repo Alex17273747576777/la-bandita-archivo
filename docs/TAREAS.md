@@ -24,12 +24,12 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 023 | comprobar el 7 de diciembre de 2026 si alguno de los catorce cambió de licencia, dejó de tener release etiquetado o pasó a archivado. | Facebook · 03 | 2026-11-07 |
 | 024 | solicitar el Scorecard de OpenSSF para los catorce por la vía pública, para que la próxima medición use los cien puntos y no solo los ochenta que permite la API de repositorios. | Facebook · 03 | 2026-11-07 |
 | 026 | volver a medir estos veintiséis repositorios el 14 de noviembre de 2026 y publicar cuántos de los veintitrés que no firman añadieron un archivo de huella. | Facebook · 04 | 2026-11-07 |
-| 026 | volver a medir las setenta fichas el 11 de noviembre de 2026 y publicar cuántas de las veintidós que firman siguen firmando y si alguna de las cuarenta y ocho empezó. | Facebook · 05 | 2026-11-04 |
+| 026 | volver a medir las setenta fichas el 11 de noviembre de 2026 y publicar cuántas de las veintidós que firman siguen firmando y si alguna de las cuarenta y ocho empezó. | Facebook · 05 | 2026-11-07 |
 | 027 | comprobar el 7 de diciembre de 2026 si Shizuku volvió a moverse tras 528 días de silencio, y si el repo adns apareció o sigue sin existir. | Facebook · 04 | 2026-11-07 |
-| 027 | comprobar el 4 de diciembre de 2026 si el capítulo del permiso prestado consigue su primera suma de comprobación; hoy son cero de seis y es la deuda más cara de la guía. | Facebook · 05 | 2026-11-04 |
+| 027 | comprobar el 4 de diciembre de 2026 si el capítulo del permiso prestado consigue su primera suma de comprobación; hoy son cero de seis y es la deuda más cara de la guía. | Facebook · 05 | 2026-11-07 |
 | 028 | solicitar el Scorecard de OpenSSF para los veintiséis por la vía pública, para que la próxima medición use los cien puntos y no solo los ochenta que permite la API de repositorios. | Facebook · 04 | 2026-11-07 |
-| 028 | pedir el mérito independiente de las setenta a la fundación de seguridad por la vía pública antes del 4 de mayo de 2027, para que la nota pueda volver a ser sobre cien. | Facebook · 05 | 2026-11-04 |
-| 029 | revisar el 4 de febrero de 2027 las seis fichas que llevan más de un año sin entrega —F-Droid, AppVerifier, Termux, Shizuku, DataBackup y AdAway— y decir cuáles se movieron. | Facebook · 05 | 2026-11-04 |
+| 028 | pedir el mérito independiente de las setenta a la fundación de seguridad por la vía pública antes del 4 de mayo de 2027, para que la nota pueda volver a ser sobre cien. | Facebook · 05 | 2026-11-07 |
+| 029 | revisar el 4 de febrero de 2027 las seis fichas que llevan más de un año sin entrega —F-Droid, AppVerifier, Termux, Shizuku, DataBackup y AdAway— y decir cuáles se movieron. | Facebook · 05 | 2026-11-07 |
 | 030 | volver a contar las sumas de los dieciséis el 11 de noviembre de 2026 y decir si algún conjunto de parches publicó la primera, que hoy son cero de cuarenta. | Facebook · 06 | 2026-11-04 |
 | 031 | comprobar el 4 de diciembre de 2026 si Morphe Manager mantiene la entrega diaria y si universal-installer y Patch Bundle Registry ganan huella; y si el 451 sigue en pie. | Facebook · 06 | 2026-11-04 |
 | 032 | añadir la palabra «parches» a la herramienta de censos de la casa antes del 4 de diciembre, para que el recuento de este tema no haya que hacerlo a mano. | Facebook · 06 | 2026-11-04 |

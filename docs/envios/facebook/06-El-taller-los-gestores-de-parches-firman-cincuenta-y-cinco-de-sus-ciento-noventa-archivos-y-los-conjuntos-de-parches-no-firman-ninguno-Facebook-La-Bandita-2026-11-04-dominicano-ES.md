@@ -397,7 +397,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 18 repositorios que cita esta pi
 • inotia00/revanced-patches — ★2.258 · *dormido*: sin empujar desde el 10-mar-2026 (242 días) · GPL-3.0 · última release v5.14.1 (31-dic-2025) · *ARCHIVADO*
 • MorpheApp/morphe-manager — ★10.073 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (6-nov-2026)
 • Jman-Github/Universal-Patch-Manager — ★1.416 · empujó en las últimas horas · GPL-3.0 · última release v2.0.0 (29-oct-2026)
-• ReVanced/revanced-manager — ★30.091 · *dormido*: sin empujar desde el 29-jul-2026 (101 días) · GPL-3.0 · última release v2.6.0 (26-abr-2026)
+• ReVanced/revanced-manager — ★30.092 · *dormido*: sin empujar desde el 29-jul-2026 (101 días) · GPL-3.0 · última release v2.6.0 (26-abr-2026)
 • ReVanced/revanced-cli — ★1.601 · *dormido*: sin empujar desde el 2-jun-2026 (158 días) · GPL-3.0 · última release v6.0.0 (14-mar-2026)
 • ReVanced/revanced-integrations — ★746 · *dormido*: sin empujar desde el 26-oct-2024 (742 días) · GPL-3.0 · última release v1.16.0 (20-oct-2024) · *ARCHIVADO*
 • ReVanced/revanced-api — ★187 · *dormido*: sin empujar desde el 19-jul-2026 (111 días) · AGPL-3.0 · última release v1.6.1 (11-jul-2025)

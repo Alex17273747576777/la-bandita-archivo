@@ -419,7 +419,7 @@ Y lo cuarto: **doce días no dan para confiar, pero sí para mirar**. Este es el
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 827 caracteres ═══
+═══ MENSAJE 18 de 19 · 692 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 21*
 
@@ -431,9 +431,8 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 3 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 16 enlaces de esta pieza, *15 responden*.
-
-• https://github.com/krishna3163/OmniShizuku/blob/main/README.es.md — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 16 enlaces de esta pieza, *16 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 17 de 18
 

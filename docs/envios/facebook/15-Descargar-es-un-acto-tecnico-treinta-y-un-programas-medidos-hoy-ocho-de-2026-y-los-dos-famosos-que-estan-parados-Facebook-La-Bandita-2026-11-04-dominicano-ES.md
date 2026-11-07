@@ -495,7 +495,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 31 repositorios que cita esta pi
 • uget/uget — ★50 · *dormido*: sin empujar desde el 11-may-2019 (2737 días) · NOASSERTION
 • deniscerri/ytdlnis — ★11.002 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
 • yausername/youtubedl-android — ★1.381 · *dormido*: sin empujar desde el 16-nov-2025 (356 días) · GPL-3.0
-• JunkFood02/Seal — ★30.410 · empujó el 25-sep-2026 (hace 43 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
+• JunkFood02/Seal — ★30.411 · empujó el 25-sep-2026 (hace 43 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
 • yt-dlp/yt-dlp — ★205.886 · empujó el 4-nov-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
 • iawia002/lux — ★31.825 · *dormido*: sin empujar desde el 29-mar-2026 (223 días) · MIT · última release v0.24.1 (6-may-2024)
 • soimort/you-get — ★56.857 · empujó el 6-oct-2026 (hace 32 días) · NOASSERTION · última release v0.4.1743 (4-ene-2025)
@@ -512,7 +512,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 31 repositorios que cita esta pi
 
 ═══ MENSAJE 19 de 21 · 155 caracteres ═══
 
-• BareBrowser/bare-browser — ★732 · empujó el 3-nov-2026 (hace 4 días) · BSD-3-Clause · última release v1.0.1 (21-oct-2026)
+• BareBrowser/bare-browser — ★733 · empujó el 3-nov-2026 (hace 4 días) · BSD-3-Clause · última release v1.0.1 (21-oct-2026)
 
 ⏬ sigue abajo · parte 18 de 20
 
