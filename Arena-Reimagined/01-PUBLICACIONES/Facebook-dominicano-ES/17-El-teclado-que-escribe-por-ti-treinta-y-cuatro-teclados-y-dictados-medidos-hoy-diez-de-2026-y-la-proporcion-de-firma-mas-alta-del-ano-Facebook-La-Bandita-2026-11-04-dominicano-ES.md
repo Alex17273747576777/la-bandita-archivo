@@ -1,6 +1,6 @@
 *El teclado que escribe por ti: treinta y cuatro teclados y dictados medidos hoy —diez de 2026, un APK que compiló un desconocido y la proporción de firma más alta del año—*
 
-*La Bandita · miércoles 4 de noviembre de 2026, 03:17 de la noche en Santo Domingo · edición dominicano-español · pieza 17 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026, 03:17 de la noche en Santo Domingo · edición dominicano-español · pieza 17 de Facebook*
 
 ⏱️ *Lectura total: 30 minutos · treinta y cuatro piezas medidas hoy a las 03:17 · 618 archivos firmados de 3.255 —el 19,0 %, la proporción más alta de la serie después de la 14— · 342.580 estrellas · 16.533.193 descargas · uno sin licencia legible · cero archivados · diez de 2026*
 
@@ -43,19 +43,20 @@ Y el caso que da el tono, con nombre y fecha: **`Batmancpu/Dictator-`**, un repo
 
 *🕰️ La medición de las 03:17 · la decimoctava del día*
 
-Antes de elegir nada se hizo la revisión que ya es regla: **fecha en vivo** (03:17), **historial** —dieciséis publicadas, la 17 en el mapa de 125 según lo previsto— y **ecosistema**: seis consultas a la API por fecha de creación y por tema, con acta en `docs/PREFLIGHT-teclado-2026-11-05.json` y treinta y cuatro candidatos. Después se midieron las treinta y cuatro piezas a las 03:17, en `docs/MEDICION-17-noche-2026-11-04.json`, y se rehízo el escrutinio entero: `docs/ESCRUTINIO-2026-11-05.json`.
+Antes de elegir nada se hizo la revisión que ya es regla: **fecha en vivo** (03:17), **historial** —dieciséis publicadas, la 17 en el mapa de 125 según lo previsto— y **ecosistema**: seis consultas a la API por fecha de creación y por tema, con acta en `docs/PREFLIGHT-teclado-2026-11-07.json` y treinta y cuatro candidatos. Después se midieron las treinta y cuatro piezas a las 03:17, en `docs/MEDICION-17-noche-2026-11-07.json`, y se rehízo el escrutinio entero: `docs/ESCRUTINIO-2026-11-07.json`.
 
 **Una nota sobre el orden de los temas.** El mapa de 125 pone en la 17 «la radio y el directo». Este corte **no** la sigue: el dueño pidió el teclado con IA antes de seguir. Se dice y no se disimula; la radio sigue pendiente.
 
 Las cinco notas más altas, con lo que las sostiene:
 
-| Recurso | Nota | Lo que la sostiene | Lo que le falta |
-|---|---|---|---|
-| vocalinux | 80 | 6 sumas · 90 cambios al mes | 13 incidencias abiertas |
-| wmkeyboard | 77 | 430 adjuntos · 1.956 cambios al mes | 86 días de vida |
-| Handy | 74 | 120 sumas de 270 | sin canal de seguridad |
-| openless | 74 | 89 sumas · 100 entregas | 73 abiertas |
-| harper | 71 | corrector en Rust · empujón de hoy | 853 incidencias abiertas |
+
+### Datos comparados (lista jerárquica)
+• Recurso: vocalinux · Nota: 80 · Lo que la sostiene: 6 sumas · 90 cambios al mes · Lo que le falta: 13 incidencias abiertas
+• Recurso: wmkeyboard · Nota: 77 · Lo que la sostiene: 430 adjuntos · 1.956 cambios al mes · Lo que le falta: 86 días de vida
+• Recurso: Handy · Nota: 74 · Lo que la sostiene: 120 sumas de 270 · Lo que le falta: sin canal de seguridad
+• Recurso: openless · Nota: 74 · Lo que la sostiene: 89 sumas · 100 entregas · Lo que le falta: 73 abiertas
+• Recurso: harper · Nota: 71 · Lo que la sostiene: corrector en Rust · empujón de hoy · Lo que le falta: 853 incidencias abiertas
+
 
 **La nota premia que se pueda comprobar, no que sea famoso.** `openai/whisper` tiene **111.973 estrellas** —el triple que todo el resto de la tabla junta— y saca **25**: 65 días sin un empujón, sin adjuntos y sin una sola incidencia en su cola. En el otro extremo, **vocalinux**, con 994 estrellas, saca **80** porque publica, firma y atiende.
 
@@ -81,14 +82,15 @@ Esta sección sustituye a la receta de «prompts» que se suele publicar con est
 
 *🔁 Qué reemplaza a qué · la tabla del teclado*
 
-| Lo que usas hoy | Qué tiene de viejo | Qué lo cubre hoy |
-|---|---|---|
-| El teclado que vino con el teléfono | Manda lo que escribes según su política, que no eliges | **HeliBoard**, **florisboard** y **Unexpected-Keyboard**: código abierto, sin salida a la red |
-| Dictar con el micrófono del sistema | Sube el audio a un servidor y depende de la cobertura del momento | **DictateKeyboard**, **Transcribro**, **wmkeyboard**: transcriben en el aparato |
-| Un teclado «con IA» de la tienda | No sabes qué modelo, ni dónde, ni qué guarda | **CyIME**, **BiBi-Keyboard**, **PixelBoard**: el modelo y el repositorio a la vista |
-| Dictar en la computadora | Pagar suscripción por minuto | **Handy**, **hex**, **openless**, **vocalinux**, **voxtype**: gratis y local |
-| Corregir a mano cada frase dictada | Se pierde más tiempo del que ahorra el dictado | **Harper** y **LanguageTool** para las reglas; **espanso** para lo que repites |
-| El motor que hay debajo | Un servicio cerrado que puede cambiar de precio | **whisper.cpp** y **faster-whisper**: se ejecutan en tu equipo |
+
+### Datos comparados (lista jerárquica)
+• Lo que usas hoy: El teclado que vino con el teléfono · Qué tiene de viejo: Manda lo que escribes según su política, que no eliges · Qué lo cubre hoy: **HeliBoard**, **florisboard** y **Unexpected-Keyboard**: código abierto, sin salida a la red
+• Lo que usas hoy: Dictar con el micrófono del sistema · Qué tiene de viejo: Sube el audio a un servidor y depende de la cobertura del momento · Qué lo cubre hoy: **DictateKeyboard**, **Transcribro**, **wmkeyboard**: transcriben en el aparato
+• Lo que usas hoy: Un teclado «con IA» de la tienda · Qué tiene de viejo: No sabes qué modelo, ni dónde, ni qué guarda · Qué lo cubre hoy: **CyIME**, **BiBi-Keyboard**, **PixelBoard**: el modelo y el repositorio a la vista
+• Lo que usas hoy: Dictar en la computadora · Qué tiene de viejo: Pagar suscripción por minuto · Qué lo cubre hoy: **Handy**, **hex**, **openless**, **vocalinux**, **voxtype**: gratis y local
+• Lo que usas hoy: Corregir a mano cada frase dictada · Qué tiene de viejo: Se pierde más tiempo del que ahorra el dictado · Qué lo cubre hoy: **Harper** y **LanguageTool** para las reglas; **espanso** para lo que repites
+• Lo que usas hoy: El motor que hay debajo · Qué tiene de viejo: Un servicio cerrado que puede cambiar de precio · Qué lo cubre hoy: **whisper.cpp** y **faster-whisper**: se ejecutan en tu equipo
+
 
 **Una advertencia sobre esa tabla.** Ninguna de estas piezas «escribe mejor que tú»: quitan el tecleo de en medio. Un dictado sin revisar tiene el ritmo de quien habla, no de quien escribe —frases largas, muletillas y puntuación de quien no te oyó—. La revisión sigue siendo tuya, y la corrección por reglas es la que menos te cambia el texto mientras revisas.
 
@@ -181,42 +183,43 @@ Ninguna es un teclado y sin ellas no existiría ninguna de las anteriores. Van a
 
 El registro entero, ordenado por nota. La columna de firmas se repite en toda la pieza: **618 de 3.255**.
 
-| # | Recurso | Nota | ★ | Último empujón | Entregas | Sumas / adjuntos |
-|---|---|---|---|---|---|---|
-| 1 | VocaHQ/vocalinux | **80** | 994 | hoy | 36 | 6 / 84 |
-| 2 | wasi-master/wmkeyboard | **77** | 726 | hoy | 26 | 7 / 430 |
-| 3 | Open-Less/openless | **74** | 4.048 | hace 2 días | 100 | 89 / 341 |
-| 4 | cjpais/Handy | **74** | 37.554 | hace 2 días | 67 | 120 / 270 |
-| 5 | Automattic/harper | **71** | 17.411 | hoy | 100 | 10 / 296 |
-| 6 | peteonrails/voxtype | **69** | 1.743 | hoy | 80 | 320 / 620 |
-| 7 | anomalyco/hex | **68** | 5.078 | hoy | 24 | 0 / 82 |
-| 8 | DevEmperor/DictateKeyboard | **67** | 315 | hoy | 54 | 0 / 342 |
-| 9 | scholay-xsime/xsime | **65** | 1.177 | hoy | 30 | 32 / 122 |
-| 10 | LeanBitLab/LeanType | **64** | 1.142 | hoy | 88 | 0 / 20 |
-| 11 | altic-dev/FluidVoice | **64** | 12.808 | hace 2 días | 65 | 0 / 20 |
-| 12 | ggml-org/whisper.cpp | **64** | 54.932 | hoy | 45 | 0 / 72 |
-| 13 | osfans/trime | **64** | 4.771 | hoy | 37 | 0 / 40 |
-| 14 | Cyletix/CyIME | **63** | 632 | hoy | 29 | 0 / 16 |
-| 15 | florisboard/florisboard | **63** | 8.755 | hace 2 días | 100 | 13 / 26 |
-| 16 | zoolapp/aime | **63** | 254 | hace 15 días | 10 | 10 / 40 |
-| 17 | BryceWG/BiBi-Keyboard | **61** | 861 | ayer | 100 | 0 / 19 |
-| 18 | espanso/espanso | **61** | 14.717 | hace 3 días | 56 | 11 / 62 |
-| 19 | HeliBorg/HeliBoard | **60** | 6.498 | hoy | 73 | 0 / 30 |
-| 20 | Julow/Unexpected-Keyboard | **59** | 3.337 | hoy | 44 | 0 / 11 |
-| 21 | amicalhq/amical | **58** | 1.597 | hace 8 días | 100 | 0 / 130 |
-| 22 | Akshayykadam/PixelBoard | **57** | 1.420 | hace 7 días | 15 | 0 / 20 |
-| 23 | Batmancpu/Dictator- | **57** | 3 | hace 9 días | 20 | 0 / 10 |
-| 24 | notune/android_transcribe_app | **55** | 338 | hace 18 días | 20 | 0 / 22 |
-| 25 | AnySoftKeyboard/AnySoftKeyboard | **51** | 3.393 | hoy | 47 | 0 / 31 |
-| 26 | rkkr/simple-keyboard | **48** | 1.607 | hace 13 días | 98 | 0 / 10 |
-| 27 | opennookorg/betterwispr | **46** | 504 | hace 11 días | 6 | 0 / 18 |
-| 28 | languagetool-org/languagetool | **42** | 15.235 | hoy | 0 | 0 / 0 |
-| 29 | SYSTRAN/faster-whisper | **39** | 26.487 | hace 2 días | 21 | 0 / 0 |
-| 30 | karansinghgit/speaktype | **35** | 573 | hace 6 días | 27 | 0 / 26 |
-| 31 | ElishaAz/Sayboard | **30** | 586 | hace 491 días | 12 | 0 / 38 |
-| 32 | openai/whisper | **25** | 111.973 | hace 65 días | 13 | 0 / 0 |
-| 33 | soupslurpr/Transcribro | **21** | 761 | hace 36 días | 7 | 0 / 7 |
-| 34 | futo-org/voice-input | **4** | 350 | hace 2 días | 0 | 0 / 0 |
+
+### Datos comparados (lista jerárquica)
+• #: 1 · Recurso: VocaHQ/vocalinux · Nota: **80** · ★: 994 · Último empujón: hoy · Entregas: 36 · Sumas / adjuntos: 6 / 84
+• #: 2 · Recurso: wasi-master/wmkeyboard · Nota: **77** · ★: 726 · Último empujón: hoy · Entregas: 26 · Sumas / adjuntos: 7 / 430
+• #: 3 · Recurso: Open-Less/openless · Nota: **74** · ★: 4.048 · Último empujón: hace 2 días · Entregas: 100 · Sumas / adjuntos: 89 / 341
+• #: 4 · Recurso: cjpais/Handy · Nota: **74** · ★: 37.554 · Último empujón: hace 2 días · Entregas: 67 · Sumas / adjuntos: 120 / 270
+• #: 5 · Recurso: Automattic/harper · Nota: **71** · ★: 17.411 · Último empujón: hoy · Entregas: 100 · Sumas / adjuntos: 10 / 296
+• #: 6 · Recurso: peteonrails/voxtype · Nota: **69** · ★: 1.743 · Último empujón: hoy · Entregas: 80 · Sumas / adjuntos: 320 / 620
+• #: 7 · Recurso: anomalyco/hex · Nota: **68** · ★: 5.078 · Último empujón: hoy · Entregas: 24 · Sumas / adjuntos: 0 / 82
+• #: 8 · Recurso: DevEmperor/DictateKeyboard · Nota: **67** · ★: 315 · Último empujón: hoy · Entregas: 54 · Sumas / adjuntos: 0 / 342
+• #: 9 · Recurso: scholay-xsime/xsime · Nota: **65** · ★: 1.177 · Último empujón: hoy · Entregas: 30 · Sumas / adjuntos: 32 / 122
+• #: 10 · Recurso: LeanBitLab/LeanType · Nota: **64** · ★: 1.142 · Último empujón: hoy · Entregas: 88 · Sumas / adjuntos: 0 / 20
+• #: 11 · Recurso: altic-dev/FluidVoice · Nota: **64** · ★: 12.808 · Último empujón: hace 2 días · Entregas: 65 · Sumas / adjuntos: 0 / 20
+• #: 12 · Recurso: ggml-org/whisper.cpp · Nota: **64** · ★: 54.932 · Último empujón: hoy · Entregas: 45 · Sumas / adjuntos: 0 / 72
+• #: 13 · Recurso: osfans/trime · Nota: **64** · ★: 4.771 · Último empujón: hoy · Entregas: 37 · Sumas / adjuntos: 0 / 40
+• #: 14 · Recurso: Cyletix/CyIME · Nota: **63** · ★: 632 · Último empujón: hoy · Entregas: 29 · Sumas / adjuntos: 0 / 16
+• #: 15 · Recurso: florisboard/florisboard · Nota: **63** · ★: 8.755 · Último empujón: hace 2 días · Entregas: 100 · Sumas / adjuntos: 13 / 26
+• #: 16 · Recurso: zoolapp/aime · Nota: **63** · ★: 254 · Último empujón: hace 15 días · Entregas: 10 · Sumas / adjuntos: 10 / 40
+• #: 17 · Recurso: BryceWG/BiBi-Keyboard · Nota: **61** · ★: 861 · Último empujón: ayer · Entregas: 100 · Sumas / adjuntos: 0 / 19
+• #: 18 · Recurso: espanso/espanso · Nota: **61** · ★: 14.717 · Último empujón: hace 3 días · Entregas: 56 · Sumas / adjuntos: 11 / 62
+• #: 19 · Recurso: HeliBorg/HeliBoard · Nota: **60** · ★: 6.498 · Último empujón: hoy · Entregas: 73 · Sumas / adjuntos: 0 / 30
+• #: 20 · Recurso: Julow/Unexpected-Keyboard · Nota: **59** · ★: 3.337 · Último empujón: hoy · Entregas: 44 · Sumas / adjuntos: 0 / 11
+• #: 21 · Recurso: amicalhq/amical · Nota: **58** · ★: 1.597 · Último empujón: hace 8 días · Entregas: 100 · Sumas / adjuntos: 0 / 130
+• #: 22 · Recurso: Akshayykadam/PixelBoard · Nota: **57** · ★: 1.420 · Último empujón: hace 7 días · Entregas: 15 · Sumas / adjuntos: 0 / 20
+• #: 23 · Recurso: Batmancpu/Dictator- · Nota: **57** · ★: 3 · Último empujón: hace 9 días · Entregas: 20 · Sumas / adjuntos: 0 / 10
+• #: 24 · Recurso: notune/android_transcribe_app · Nota: **55** · ★: 338 · Último empujón: hace 18 días · Entregas: 20 · Sumas / adjuntos: 0 / 22
+• #: 25 · Recurso: AnySoftKeyboard/AnySoftKeyboard · Nota: **51** · ★: 3.393 · Último empujón: hoy · Entregas: 47 · Sumas / adjuntos: 0 / 31
+• #: 26 · Recurso: rkkr/simple-keyboard · Nota: **48** · ★: 1.607 · Último empujón: hace 13 días · Entregas: 98 · Sumas / adjuntos: 0 / 10
+• #: 27 · Recurso: opennookorg/betterwispr · Nota: **46** · ★: 504 · Último empujón: hace 11 días · Entregas: 6 · Sumas / adjuntos: 0 / 18
+• #: 28 · Recurso: languagetool-org/languagetool · Nota: **42** · ★: 15.235 · Último empujón: hoy · Entregas: 0 · Sumas / adjuntos: 0 / 0
+• #: 29 · Recurso: SYSTRAN/faster-whisper · Nota: **39** · ★: 26.487 · Último empujón: hace 2 días · Entregas: 21 · Sumas / adjuntos: 0 / 0
+• #: 30 · Recurso: karansinghgit/speaktype · Nota: **35** · ★: 573 · Último empujón: hace 6 días · Entregas: 27 · Sumas / adjuntos: 0 / 26
+• #: 31 · Recurso: ElishaAz/Sayboard · Nota: **30** · ★: 586 · Último empujón: hace 491 días · Entregas: 12 · Sumas / adjuntos: 0 / 38
+• #: 32 · Recurso: openai/whisper · Nota: **25** · ★: 111.973 · Último empujón: hace 65 días · Entregas: 13 · Sumas / adjuntos: 0 / 0
+• #: 33 · Recurso: soupslurpr/Transcribro · Nota: **21** · ★: 761 · Último empujón: hace 36 días · Entregas: 7 · Sumas / adjuntos: 0 / 7
+• #: 34 · Recurso: futo-org/voice-input · Nota: **4** · ★: 350 · Último empujón: hace 2 días · Entregas: 0 · Sumas / adjuntos: 0 / 0
+
 
 Leída en vertical dice tres cosas que ninguna lista de recomendaciones dice: **diez de treinta y cuatro firman algún archivo**, **cinco no tienen integración continua** y **dos no han etiquetado una sola versión**. **Lo que no mide**, y hay que decirlo: si el dictado acierta con tu acento o si el modelo cabe en tu teléfono. Eso no se ve desde la API; para eso está la semana de prueba.
 
@@ -235,7 +238,7 @@ Leída en vertical dice tres cosas que ninguna lista de recomendaciones dice: **
 
 *⚖️ La responsabilidad · tu voz, tus dedos y lo que el teclado ve*
 
-Este tema tiene más letra pequeña que el de los torrentes, y por una razón sencilla: **un teclado no mueve archivos, ve lo que escribes**. No hace falta ser abogado para entender las cinco cosas que siguen; hace falta leerlas antes de instalar.
+Este tema tiene más letra pequeña que el de los protocolo de pareses, y por una razón sencilla: **un teclado no mueve archivos, ve lo que escribes**. No hace falta ser abogado para entender las cinco cosas que siguen; hace falta leerlas antes de instalar.
 
 **Primero: el permiso.** En Android, un teclado es una aplicación con un permiso que el sistema no limita: puede leer el contenido del campo donde escribes y enviarlo a donde quiera. Eso incluye tus mensajes, tus búsquedas y **cualquier contraseña que escribas en una aplicación que no marque el campo como protegido**. Los teclados de esta lista que declaran no tener permiso de red no pueden enviar nada, ni queriendo. Es el único argumento de seguridad que no depende de la buena fe de nadie.
 
@@ -254,22 +257,23 @@ Este tema tiene más letra pequeña que el de los torrentes, y por una razón se
 *🔏 La huella del tema · 618 archivos firmados de 3.255*
 
 **3.255 archivos publicados por las treinta y cuatro piezas. 618 con suma de comprobación. El 19,0 %.**
-La segunda más alta del año. En su escala: tiendas de la 10, **0,08 %**; aplicaciones de la 11, **5,5 %**; torrentes de la 16, **8,7 %**; descarga de la 15, **10,6 %**; audio de la 13, **11,4 %**; kit de la 12, **17,0 %**; **teclados, 19,0 %**; música de la 14, **20,0 %**.
+La segunda más alta del año. En su escala: tiendas de la 10, **0,08 %**; aplicaciones de la 11, **5,5 %**; protocolo de pareses de la 16, **8,7 %**; descarga de la 15, **10,6 %**; audio de la 13, **11,4 %**; kit de la 12, **17,0 %**; **teclados, 19,0 %**; música de la 14, **20,0 %**.
 
 **veinticuatro de los treinta y cuatro no publican ni una suma.** Los que sí:
 
-| Recurso | Adjuntos | Con suma | Nota |
-|---|---|---|---|
-| voxtype | 620 | **320** | 69 |
-| Handy | 270 | **120** | 74 |
-| openless | 341 | **89** | 74 |
-| xsime | 122 | **32** | 65 |
-| florisboard | 26 | **13** | 63 |
-| espanso | 62 | **11** | 61 |
-| harper | 296 | **10** | 71 |
-| aime | 40 | **10** | 63 |
-| wmkeyboard | 430 | **7** | 77 |
-| vocalinux | 84 | **6** | 80 |
+
+### Datos comparados (lista jerárquica)
+• Recurso: voxtype · Adjuntos: 620 · Con suma: **320** · Nota: 69
+• Recurso: Handy · Adjuntos: 270 · Con suma: **120** · Nota: 74
+• Recurso: openless · Adjuntos: 341 · Con suma: **89** · Nota: 74
+• Recurso: xsime · Adjuntos: 122 · Con suma: **32** · Nota: 65
+• Recurso: florisboard · Adjuntos: 26 · Con suma: **13** · Nota: 63
+• Recurso: espanso · Adjuntos: 62 · Con suma: **11** · Nota: 61
+• Recurso: harper · Adjuntos: 296 · Con suma: **10** · Nota: 71
+• Recurso: aime · Adjuntos: 40 · Con suma: **10** · Nota: 63
+• Recurso: wmkeyboard · Adjuntos: 430 · Con suma: **7** · Nota: 77
+• Recurso: vocalinux · Adjuntos: 84 · Con suma: **6** · Nota: 80
+
 
 Dos lecturas. La primera: **Handy firma 120 archivos y voxtype 320**, y entre los dos ponen **dos tercios de las 618 sumas** del tema: la cultura de firmar existe donde se publican binarios, no en la tienda. La segunda: **los ocho teclados de dictado de Android no firman ni uno**.
 
@@ -349,7 +353,7 @@ Y lo cuarto: **el nombre que más suena no es el que mejor está**. `openai/whis
 
 ───────────────────
 
-*Medición del corte:* miércoles 4 de noviembre de 2026, 03:17 de la noche en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · decimoctava medición del día · treinta y cuatro piezas vivas, ninguna archivada, uno sin licencia legible · 3.255 archivos y 618 sumas · 16.533.193 descargas · diez repositorios firmando.
+*Medición del corte:* sábado 7 de noviembre de 2026, 03:17 de la noche en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · decimoctava medición del día · treinta y cuatro piezas vivas, ninguna archivada, uno sin licencia legible · 3.255 archivos y 618 sumas · 16.533.193 descargas · diez repositorios firmando.
 
 *🔗 Enlaces*
 
@@ -413,7 +417,7 @@ Y lo cuarto: **el nombre que más suena no es el que mejor está**. `openai/whis
 
 *🗒️ Notas al pie*
 
-(4-nov) La fecha se comprobó **en vivo antes de empezar y al terminar**: `tools/fecha_viva.py --inicio` y `--fin` al cerrar. **Antes de sondear** se hizo la revisión obligatoria —fecha, historial y ecosistema— con `tools/preflight.py --tema teclado`; su acta está en `docs/PREFLIGHT-teclado-2026-11-05.json`. La medición es de las 03:17 y vive en `docs/MEDICION-17-noche-2026-11-04.json`; el escrutinio se rehízo entero y está en `docs/ESCRUTINIO-2026-11-05.json`.
+(4-nov) La fecha se comprobó **en vivo antes de empezar y al terminar**: `tools/fecha_viva.py --inicio` y `--fin` al cerrar. **Antes de sondear** se hizo la revisión obligatoria —fecha, historial y ecosistema— con `tools/preflight.py --tema teclado`; su acta está en `docs/PREFLIGHT-teclado-2026-11-07.json`. La medición es de las 03:17 y vive en `docs/MEDICION-17-noche-2026-11-07.json`; el escrutinio se rehízo entero y está en `docs/ESCRUTINIO-2026-11-07.json`.
 
 (4-nov) **Este corte cambia el tema previsto.** El mapa de 125 pone en la 17 «la radio y el directo»; el dueño pidió el teclado con IA antes, y ese es el tema de esta pieza. La radio conserva su hueco y se hará con el mismo método.
 
