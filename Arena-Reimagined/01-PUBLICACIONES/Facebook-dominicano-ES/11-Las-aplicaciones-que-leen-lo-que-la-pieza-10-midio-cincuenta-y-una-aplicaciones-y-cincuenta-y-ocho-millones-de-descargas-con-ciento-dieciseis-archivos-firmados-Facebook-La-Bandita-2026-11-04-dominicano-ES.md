@@ -1,6 +1,6 @@
 *Las aplicaciones que leen lo que la pieza 10 midió: cincuenta y uno programas para leer, ver y oír, 58.427.498 descargas y 116 archivos firmados de 2.104*
 
-*La Bandita · miércoles 4 de noviembre de 2026, 20:45 en Santo Domingo · edición dominicano-español · pieza 11 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026, 20:45 en Santo Domingo · edición dominicano-español · pieza 11 de Facebook*
 
 ⏱️ *Lectura total: 29 minutos · cincuenta y uno aplicaciones medidas hoy a las 20:45, las que instalan los repositorios de la pieza 10 · 103.457 estrellas · 58.427.498 descargas · 116 archivos firmados de 2.104 · cinco sin licencia · dos archivadas · cero tiendas de extensiones dentro*
 
@@ -45,17 +45,18 @@ Lo que no se mueve: **dos archivadas** —Kotatsu, con ★8.951 y un año sin em
 
 *🕰️ La medición de las 20:45 · la undécima del día*
 
-Once mediciones lleva este corte: 8:45, 9:15, 12:35, 12:44, 13:16, 17:56, 18:14, 18:27, 18:31, 19:33 y esta de las 20:45. Vive en `docs/MEDICION-11c-noche-2026-11-04.json`, con las cincuenta y uno direcciones. Se midió tres veces —20:38, 20:39 y 20:45— porque dos se habían mudado: `skepsun/kototoro` es hoy `Kototoro-app/Kototoro`, y `itsmechinmoy/echo`, `itsmechinmoy/echo-nightly`. Tercer cambio de nombre que caza este corte en un día.
+Once mediciones lleva este corte: 8:45, 9:15, 12:35, 12:44, 13:16, 17:56, 18:14, 18:27, 18:31, 19:33 y esta de las 20:45. Vive en `docs/MEDICION-11c-noche-2026-11-07.json`, con las cincuenta y uno direcciones. Se midió tres veces —20:38, 20:39 y 20:45— porque dos se habían mudado: `skepsun/kototoro` es hoy `Kototoro-app/Kototoro`, y `itsmechinmoy/echo`, `itsmechinmoy/echo-nightly`. Tercer cambio de nombre que caza este corte en un día.
 
 Las cinco aplicaciones con más descargas del tema, con lo que cada una firma:
 
-| Aplicación | Descargas | Entregas | Archivos firmados | Licencia |
-|---|---|---|---|---|
-| Mihon | 23.392.013 | 27 | 0 de 60 | Apache-2.0 |
-| Aniyomi | 7.521.591 | 54 | 0 de 50 | Apache-2.0 |
-| Seanime | 6.868.400 | 100 | 0 de 150 | GPL-3.0 |
-| Cloudstream | 6.850.539 | 15 | 0 de 12 | GPL-3.0 |
-| TachiyomiJ2K | 4.404.570 | 80 | 0 de 50 | Apache-2.0 |
+
+### Datos comparados (lista jerárquica)
+• Aplicación: Mihon · Descargas: 23.392.013 · Entregas: 27 · Archivos firmados: 0 de 60 · Licencia: Apache-2.0
+• Aplicación: Aniyomi · Descargas: 7.521.591 · Entregas: 54 · Archivos firmados: 0 de 50 · Licencia: Apache-2.0
+• Aplicación: Seanime · Descargas: 6.868.400 · Entregas: 100 · Archivos firmados: 0 de 150 · Licencia: GPL-3.0
+• Aplicación: Cloudstream · Descargas: 6.850.539 · Entregas: 15 · Archivos firmados: 0 de 12 · Licencia: GPL-3.0
+• Aplicación: TachiyomiJ2K · Descargas: 4.404.570 · Entregas: 80 · Archivos firmados: 0 de 50 · Licencia: Apache-2.0
+
 
 Cinco programas, **49.037.113 descargas** y **ninguno** publica una suma de comprobación en sus últimas entregas. La tabla entera de la pieza se puede resumir así: las aplicaciones más instaladas del tema son las que menos firman.
 
@@ -65,16 +66,17 @@ Cinco programas, **49.037.113 descargas** y **ninguno** publica una suma de comp
 
 La pieza 10 dejó seis formatos. Aquí está, sin adjetivos, qué programa carga cada uno y cuántos de los cincuenta y uno lo hacen.
 
-| Formato de la pieza 10 | Quién lo lee | Dónde se prueba |
-|---|---|---|
-| Tachiyomi / Mihon (APK + `index.min.json`) | Mihon, J2K, Komikku, SY, Neko, Yokai, yomihon, Reikai, Hayai, Nekoyomi, MihonSY, Nyora, Weeber | `mihonapp/mihon` |
-| Aniyomi (APK con fuentes de vídeo) | Aniyomi, Anikku, Dantotsu, Sozo, Nekomo, yomotsu, etsume, ZenYomi | `komikku-app/anikku` |
-| Cloudstream (`repo.json` + `.cs`) | Cloudstream y tres puertos de escritorio | `recloudstream/cloudstream` |
-| Mangayomi (`index.json` + fuentes JS) | Mangayomi, Mangatan, Yuri-Reader | `kodjodevf/mangayomi` |
-| Kotatsu (parsers `.jar`) | Usagi, Kotatsu-Next, Kotatsu-Ultra, Weeber, Nyora, Kototoro | `UsagiApp/usagi` |
-| Plugins de novela (LNReader, IReader, Hayai) | LNReader, IReader, Asabunko, Reikai, Hayai | `LNReader/lnreader` |
-| Aidoku (fuentes WASM) | Aidoku, Ito y Nyora para iOS | `Aidoku/Aidoku` |
-| Servidores propios (Komga, Kavita, Suwayomi) | Suwayomi-Server, JUI, Tsumiru, Vaadin, miwayomi, Sumidoku | `Suwayomi/Suwayomi-Server` |
+
+### Datos comparados (lista jerárquica)
+• Formato de la pieza 10: Tachiyomi / Mihon (APK + `index.min.json`) · Quién lo lee: Mihon, J2K, Komikku, SY, Neko, Yokai, yomihon, Reikai, Hayai, Nekoyomi, MihonSY, Nyora, Weeber · Dónde se prueba: `mihonapp/mihon`
+• Formato de la pieza 10: Aniyomi (APK con fuentes de vídeo) · Quién lo lee: Aniyomi, Anikku, Dantotsu, Sozo, Nekomo, yomotsu, etsume, ZenYomi · Dónde se prueba: `komikku-app/anikku`
+• Formato de la pieza 10: Cloudstream (`repo.json` + `.cs`) · Quién lo lee: Cloudstream y tres puertos de escritorio · Dónde se prueba: `recloudstream/cloudstream`
+• Formato de la pieza 10: Mangayomi (`index.json` + fuentes JS) · Quién lo lee: Mangayomi, Mangatan, Yuri-Reader · Dónde se prueba: `kodjodevf/mangayomi`
+• Formato de la pieza 10: Kotatsu (parsers `.jar`) · Quién lo lee: Usagi, Kotatsu-Next, Kotatsu-Ultra, Weeber, Nyora, Kototoro · Dónde se prueba: `UsagiApp/usagi`
+• Formato de la pieza 10: Plugins de novela (LNReader, IReader, Hayai) · Quién lo lee: LNReader, IReader, Asabunko, Reikai, Hayai · Dónde se prueba: `LNReader/lnreader`
+• Formato de la pieza 10: Aidoku (fuentes WASM) · Quién lo lee: Aidoku, Ito y Nyora para iOS · Dónde se prueba: `Aidoku/Aidoku`
+• Formato de la pieza 10: Servidores propios (Komga, Kavita, Suwayomi) · Quién lo lee: Suwayomi-Server, JUI, Tsumiru, Vaadin, miwayomi, Sumidoku · Dónde se prueba: `Suwayomi/Suwayomi-Server`
+
 
 Cada aplicación de esta lista aparece con su ficha en la sección de su familia, y ninguna se cuenta dos veces: las cincuenta y uno fichas son cincuenta y uno programas. Lo que sí se repite es el formato: **una aplicación puede leer varios**, y esa es la tendencia del año: Kototoro carga Mihon, Aniyomi, IReader, Legado, TVBox y Cloudstream; Nekomo carga Mihon, Aniyomi, Cloudstream, Mangayomi y Kotatsu. La aplicación de un solo formato es hoy la excepción, no la regla.
 
@@ -197,18 +199,19 @@ Este es el capítulo que la pieza 10 dejó abierto y que aquí se cierra con una
 
 **2.104 archivos publicados por las cincuenta y una aplicaciones vivas. 116 con suma de comprobación.** Un **5,5 %**. En la pieza 10, el mismo cálculo entre las tiendas de extensiones daba 10 de 12.487, un **0,08 %**. La diferencia es de **sesenta y nueve veces**: por cada archivo firmado que publica una tienda, las aplicaciones publican sesenta y nueve.
 
-| Aplicación | Adjuntos | Con suma | Nota |
-|---|---|---|---|
-| Kototoro | 118 | **27** | 75 |
-| Mangatan | 70 | **20** | 75 |
-| Ito | 40 | **20** | 69 |
-| seanime-tenji | 28 | **14** | 48 |
-| IReader | 110 | **10** | 58 |
-| Suwayomi-Server | 100 | **10** | 63 |
-| Nekomo | 56 | **8** | 31 |
-| lnreader | 37 | **5** | 57 |
-| sozo | 10 | **1** | 49 |
-| cloudstream-macos | 2 | **1** | 64 |
+
+### Datos comparados (lista jerárquica)
+• Aplicación: Kototoro · Adjuntos: 118 · Con suma: **27** · Nota: 75
+• Aplicación: Mangatan · Adjuntos: 70 · Con suma: **20** · Nota: 75
+• Aplicación: Ito · Adjuntos: 40 · Con suma: **20** · Nota: 69
+• Aplicación: seanime-tenji · Adjuntos: 28 · Con suma: **14** · Nota: 48
+• Aplicación: IReader · Adjuntos: 110 · Con suma: **10** · Nota: 58
+• Aplicación: Suwayomi-Server · Adjuntos: 100 · Con suma: **10** · Nota: 63
+• Aplicación: Nekomo · Adjuntos: 56 · Con suma: **8** · Nota: 31
+• Aplicación: lnreader · Adjuntos: 37 · Con suma: **5** · Nota: 57
+• Aplicación: sozo · Adjuntos: 10 · Con suma: **1** · Nota: 49
+• Aplicación: cloudstream-macos · Adjuntos: 2 · Con suma: **1** · Nota: 64
+
 
 Los diez que firman tienen algo en común que no es el tamaño: **seis tienen menos de quinientas estrellas** y tres nacieron este año. Kototoro, que encabeza la lista con veintisiete, tiene ★668; Mangatan, segundo con veinte, ★97. Y las cinco más descargadas —Mihon, Aniyomi, Seanime, Cloudstream y J2K, 49.037.113 descargas entre todas— publican **cero sumas**.
 
@@ -296,7 +299,7 @@ Y lo cuarto, la frase de siempre: **lo más nuevo no es lo mejor, pero es lo que
 
 ───────────────────
 
-*Medición del corte:* miércoles 4 de noviembre de 2026, 20:45 de la noche en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · undécima medición del día · cincuenta y uno aplicaciones vivas, cinco sin licencia, dos archivadas y diez con huella · 2.104 archivos y 116 sumas · 58.427.498 descargas · cero tiendas de extensiones.
+*Medición del corte:* sábado 7 de noviembre de 2026, 20:45 de la noche en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · undécima medición del día · cincuenta y uno aplicaciones vivas, cinco sin licencia, dos archivadas y diez con huella · 2.104 archivos y 116 sumas · 58.427.498 descargas · cero tiendas de extensiones.
 
 *🔗 Enlaces*
 
@@ -384,7 +387,7 @@ Y lo cuarto, la frase de siempre: **lo más nuevo no es lo mejor, pero es lo que
 
 (4-nov) La fecha se comprobó **en vivo antes de empezar y al terminar**: `tools/fecha_viva.py --inicio` a las 20:35 y `--fin` al cerrar. La medición se hizo a las 20:45 de Santo Domingo y el reloj iba en hora con la fuente de fuera.
 
-(4-nov) **Undécima medición del día**: 8:45, 9:15, 12:35, 12:44, 13:16, 17:56, 18:14, 18:27, 18:31, 19:33 y esta de las 20:45, en `docs/MEDICION-11c-noche-2026-11-04.json`. Tres pasadas: la última corrigió el cómputo de días (error E39).
+(4-nov) **Undécima medición del día**: 8:45, 9:15, 12:35, 12:44, 13:16, 17:56, 18:14, 18:27, 18:31, 19:33 y esta de las 20:45, en `docs/MEDICION-11c-noche-2026-11-07.json`. Tres pasadas: la última corrigió el cómputo de días (error E39).
 
 (4-nov) La cuenta de **huella** es la de toda la serie: se mira el nombre de cada adjunto de las últimas cien entregas y se busca `sha256`, `sha512`, `sha1`, `checksum`, `.sig`, `.asc` o `sums`. Aquí se compara con la misma vara que la pieza 10, sin cambiar el método para que el número suba.
 
