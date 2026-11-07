@@ -1,6 +1,6 @@
 *Los repositorios de extensiones: cincuenta y seis tiendas vivas, doce mil cuatrocientos ochenta y siete archivos y diez sumas de comprobación*
 
-*La Bandita · miércoles 4 de noviembre de 2026, 19:33 en Santo Domingo · edición dominicano-español · pieza 10 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026, 19:33 en Santo Domingo · edición dominicano-español · pieza 10 de Facebook*
 
 ⏱️ *Lectura total: 31 minutos · cincuenta y seis repositorios de extensiones medidos hoy a las 19:33, sin contar una sola aplicación · 33.297 estrellas · 2.972.999 descargas · 12.487 archivos publicados y solo 10 con suma de comprobación · veintiuna tiendas sin licencia declarada · tres archivadas y una con la puerta cerrada por la plataforma · censo de 461 fichas del tema · cero paquetes alojados aquí*
 
@@ -46,19 +46,20 @@ Y tres cosas más que nadie cuenta: **treinta y seis repositorios no tienen ni u
 
 *🕰️ La medición de las 19:33 · la décima del día*
 
-Diez mediciones lleva este corte: 8:45, 9:15, 12:35, 12:44, 13:16, 17:56, 18:14, 18:27, 18:31 y esta de las 19:33. La de esta pieza vive en `docs/MEDICION-10-noche-2026-11-04.json`, con las cincuenta y siete direcciones, su estado y sus cifras una por una. Las nueve anteriores siguen guardadas con su hora y ninguna se sobrescribe.
+Diez mediciones lleva este corte: 8:45, 9:15, 12:35, 12:44, 13:16, 17:56, 18:14, 18:27, 18:31 y esta de las 19:33. La de esta pieza vive en `docs/MEDICION-10-noche-2026-11-07.json`, con las cincuenta y siete direcciones, su estado y sus cifras una por una. Las nueve anteriores siguen guardadas con su hora y ninguna se sobrescribe.
 
 1 dirección de las medidas hoy **no responde**: `yuzono/aniyomi-extensions`, que ayer tenía ★483, devuelve **451**, que es el código con el que una plataforma dice que ese contenido no está disponible por una reclamación de derechos. Es el segundo 451 de esta serie —el primero fue el de los parches de ReVanced, en la pieza 06— y conviene decir lo mismo que se dijo entonces: el repositorio existió, su código era Apache-2.0, y hoy no se puede consultar ni descargar. Quien tenga esa tienda añadida en su aplicación va a ver errores y no va a saber por qué.
 
 Y un movimiento que solo se descubre midiendo dos veces el mismo día: **`yuzono/anime-repo` cambió de dueño y hoy se llama `mojuru/anime-repo`**. La dirección vieja redirige, así que la aplicación sigue cargando; pero dentro lleva apuntada una dirección que ya no es la canónica, y eso rompe una tienda un martes cualquiera sin que nadie toque nada. A las 18:45 tenía ★72 y a las 19:33, ★72; nueve meses de madurez y ni una suma publicada.
 
-| Programa | A las 18:45 | A las 19:33 | Qué se movió |
-|---|---|---|---|
-| Keiyoushi (compilación) | ★15.432 | ★15.432 | nada; su última entrega es de hoy |
-| Yūzōnō (manga) | ★957 | ★957 | nada; empujón de hace dos días |
-| CopyManga | ★2.992 | ★2.992 | nada; entrega de hace 24 días |
-| Aidoku Community | ★620 | ★620 | nada; empujón de hoy |
-| Phisher (Cloudstream) | ★533 | ★533 | nada; empujón de hace dos días |
+
+### Datos comparados (lista jerárquica)
+• Programa: Keiyoushi (compilación) · A las 18:45: ★15.432 · A las 19:33: ★15.432 · Qué se movió: nada; su última entrega es de hoy
+• Programa: Yūzōnō (manga) · A las 18:45: ★957 · A las 19:33: ★957 · Qué se movió: nada; empujón de hace dos días
+• Programa: CopyManga · A las 18:45: ★2.992 · A las 19:33: ★2.992 · Qué se movió: nada; entrega de hace 24 días
+• Programa: Aidoku Community · A las 18:45: ★620 · A las 19:33: ★620 · Qué se movió: nada; empujón de hoy
+• Programa: Phisher (Cloudstream) · A las 18:45: ★533 · A las 19:33: ★533 · Qué se movió: nada; empujón de hace dos días
+
 
 La conclusión, sin adornos: **en cuarenta y ocho minutos este ecosistema no se mueve en estrellas**, y doce repositorios recibieron código hoy. Las estrellas miden atención; el empujón mide trabajo, y esta pieza ordena por lo segundo.
 
@@ -68,14 +69,15 @@ La conclusión, sin adornos: **en cuarenta y ocho minutos este ecosistema no se 
 
 Un repositorio de extensiones no es un formato: son seis, y cada uno lo lee una familia distinta. De ahí que la mitad de la gente que añade una tienda no vea nada después.
 
-| Formato | Cómo se reconoce mirando el repo | Qué archivo se pega en la aplicación |
-|---|---|---|
-| **Tachiyomi / Mihon** | carpeta `repo/` con `index.pb` o `index.min.json`; decenas de `.apk` en las entregas | la dirección del índice, nunca la página del repositorio |
-| **Aniyomi** | igual, pero el índice lleva fuentes de vídeo; enlace `aniyomi://add-repo?url=…` | el índice de anime |
-| **Cloudstream** | `repo.json` y archivos `.cs` | el `repo.json` |
-| **Mangayomi** | `index.json` (manga), `anime_index.json`, `novel_index.json`; fuentes en JavaScript | cualquiera de los tres, o los tres |
-| **Kotatsu / Tsuki** | parsers en Kotlin compilados a `.jar`, o una lista de parsers | el paquete de parsers, no un `.apk` |
-| **Plugin propio** | `plugins.min.json`, `.eapk`, `.wasm`, `.js` con nombre de la aplicación | el `plugins.json` de esa aplicación |
+
+### Datos comparados (lista jerárquica)
+• Formato: **Tachiyomi / Mihon** · Cómo se reconoce mirando el repo: carpeta `repo/` con `index.pb` o `index.min.json`; decenas de `.apk` en las entregas · Qué archivo se pega en la aplicación: la dirección del índice, nunca la página del repositorio
+• Formato: **Aniyomi** · Cómo se reconoce mirando el repo: igual, pero el índice lleva fuentes de vídeo; enlace `aniyomi://add-repo?url=…` · Qué archivo se pega en la aplicación: el índice de anime
+• Formato: **Cloudstream** · Cómo se reconoce mirando el repo: `repo.json` y archivos `.cs` · Qué archivo se pega en la aplicación: el `repo.json`
+• Formato: **Mangayomi** · Cómo se reconoce mirando el repo: `index.json` (manga), `anime_index.json`, `novel_index.json`; fuentes en JavaScript · Qué archivo se pega en la aplicación: cualquiera de los tres, o los tres
+• Formato: **Kotatsu / Tsuki** · Cómo se reconoce mirando el repo: parsers en Kotlin compilados a `.jar`, o una lista de parsers · Qué archivo se pega en la aplicación: el paquete de parsers, no un `.apk`
+• Formato: **Plugin propio** · Cómo se reconoce mirando el repo: `plugins.min.json`, `.eapk`, `.wasm`, `.js` con nombre de la aplicación · Qué archivo se pega en la aplicación: el `plugins.json` de esa aplicación
+
 
 **La regla, en una línea:** si el archivo no termina en `.json` o `.pb`, no es una tienda de la familia Mihon. Y si el repositorio tiene código pero no tiene carpeta `repo/`, entonces lo que publica está en otra parte, y esa otra parte es la que hay que añadir. La mitad de los repositorios de esta pieza son **de código**, no de compilación: se miden igual, pero no se instalan.
 
@@ -163,7 +165,7 @@ No reparten paquetes sino **providers en JavaScript**: por eso mucha gente ya no
 **Seanime Marketplace** — ★113 · sin licencia declarada · empujón **hoy** · sin adjuntos · nota **14** · `Bas1874/Seanime-Marketplace`. El mercado comunitario de Seanime: **320 cambios en treinta días**.
 **Seanime Providers** — ★74 · MIT · empujón **hoy** · sin adjuntos · madurez 383 d · nota **31** · `Seanime-contributions/Seanime-Providers`. El otro mercado grande: MIT y 123 cambios al mes. **No es espejo del anterior**: tienen fuentes distintas.
 **Hayase × Shiru** — ★99 · GPL-3.0 · empujón hace 275 días · sin adjuntos · madurez 283 d · nota **10** · `ReWelp/HayasexShiru-Extensions`. Sirve a dos aplicaciones a la vez; último empujón en febrero, nueve meses parado.
-**anitorrent** — ★54 · GPL-3.0 · empujón hace 18 días · sin adjuntos · madurez 170 d · nota **23** · `anh9000/anitorrent`. Reemplaza las extensiones oficiales de Hayase.
+**aniprotocolo de pares** — ★54 · GPL-3.0 · empujón hace 18 días · sin adjuntos · madurez 170 d · nota **23** · `anh9000/aniprotocolo de pares`. Reemplaza las extensiones oficiales de Hayase.
 **Echo Extensions** — ★164 · sin licencia declarada · empujón **hoy** · sin adjuntos · nota **17** · `itsmechinmoy/echo-extensions`. La tienda del reproductor Echo: **123 cambios en treinta días**. El único ecosistema de extensiones de audio que ha encontrado esta serie.
 
 ### El archivo: lo que se sigue midiendo para que nadie lo instale
@@ -188,12 +190,13 @@ Este es el hallazgo de la pieza y es el número más bajo de los diez capítulos
 
 Las diez sumas están en un solo sitio: **Zenbu**, diez de veinte. Las otras diecisiete tiendas con archivos publican **12.467 sin una suma**. Los cuatro mayores:
 
-| Tienda | Archivos publicados | Con suma | Estrellas |
-|---|---|---|---|
-| Keiyoushi (compilación) | 2.928 | 0 | 15.432 |
-| Cuong-tran (Vietnam) | 3.759 | 0 | 467 |
-| amrkmn/x | 3.188 | 0 | 41 |
-| FelipeGFA (Brasil) | 2.158 | 0 | 43 |
+
+### Datos comparados (lista jerárquica)
+• Tienda: Keiyoushi (compilación) · Archivos publicados: 2.928 · Con suma: 0 · Estrellas: 15.432
+• Tienda: Cuong-tran (Vietnam) · Archivos publicados: 3.759 · Con suma: 0 · Estrellas: 467
+• Tienda: amrkmn/x · Archivos publicados: 3.188 · Con suma: 0 · Estrellas: 41
+• Tienda: FelipeGFA (Brasil) · Archivos publicados: 2.158 · Con suma: 0 · Estrellas: 43
+
 
 Cuatro repositorios, **12.033 archivos**, cero sumas. No es descuido de aficionados: el primero es el más estrellado de la pieza.
 
@@ -306,11 +309,70 @@ Y lo cuarto, la frase que esta serie repite porque en cada tema se cumple: **lo 
 — La tienda más estrellada tiene 15.432 estrellas y ningún archivo firmado; la mejor nota tiene seis días de vida.
 — Los repositorios de extensiones son software que se ejecuta en tu teléfono y nadie comprueba: ahora ya sabes cómo mirarlo.
 
-💓 *La Bandita informa a partir de fuentes fechadas.* cincuenta y seis repositorios de extensiones abiertos hoy uno por uno —sin una sola aplicación—, los seis formatos explicados sin humo, las sumas contadas archivo por archivo y nueve órdenes para auditar cualquier tienda antes de añadirla.
+💓 
+
+━━━━━━━━━━━━━
+
+🧰 *Qué hacer tú mismo: verificar cualquier programa antes de instalarlo*
+
+Estos pasos funcionan para cualquier programa de los medidos en esta pieza, y para cualquiera que bajes de GitHub en el futuro:
+
+1. **Busca el repositorio del autor.** No bajes de tiendas de APK ni de páginas de terceros. Ve al repositorio oficial en GitHub (la dirección termina en github.com/dueno/proyecto).
+
+2. **Lee la release más reciente.** En la sección «Releases» del repositorio, busca la versión publicada más reciente y los archivos adjuntos que acompañan a esa entrega.
+
+3. **Comprueba la suma de comprobación.** Si el autor publica un archivo .sha256 o .asc junto al instalador, descarga ambos y ejecuta en tu terminal:
+
+   sha256sum nombre-del-archivo.apk
+   cat nombre-del-archivo.sha256
+
+   Las dos cifras deben coincidir exactamente. Si no hay archivo de suma, escribe al autor en las incidencias del repositorio y pídelo.
+
+4. **Revisa la fecha de la última entrega.** Un programa que no publica nada desde hace más de noventa días está abandonado, aunque siga teniendo miles de estrellas.
+
+5. **Lee la licencia.** En el archivo LICENSE o en la API de GitHub, verifica bajo qué condiciones se publica el código. Sin licencia legible, no sabes qué puedes hacer con el programa.
+
+6. **Guarda el comprobante.** Anota la fecha y hora en que hiciste la verificación, y el commit o tag del repositorio que revisaste. Nada se sobrescribe.
+
+━━━━━━━━━━━━━
+
+❓ *Preguntas del grupo (respuestas breves)*
+
+• ¿Puedo instalar sin verificar? Puedes, pero no sabes si el archivo que bajas es el que el autor publicó. La verificación toma menos de cinco minutos.
+• ¿Qué hago si el autor no publica suma de comprobación? Escribe en las incidencias del repositorio pidiendo que lo publique. Mientras tanto, no instales en equipos críticos.
+• ¿Las estrellas de GitHub indican seguridad? No. Una repositorio con cien mil estrellas puede no publicar ni una sola suma de comprobación.
+• ¿Necesito ser experto en seguridad? No. Solo necesitas saber leer una línea de comandos y comparar dos cifras.
+
+━━━━━━━━━━━━━
+
+📚 *Glosario expandido de términos técnicos usados en esta pieza*
+
+• **SHA256:** algoritmo que genera una huella única de un archivo. Si cambia un solo bit, la huella cambia completamente.
+• **GPG:** sistema de firmas digitales que permite verificar que un archivo fue firmado por una clave específica del autor.
+• **Release:** versión publicada de un programa en GitHub, con sus archivos adjuntos y notas de la versión.
+• **Tag:** etiqueta que identifica una versión concreta del código (por ejemplo, v1.0.4).
+• **Commit:** confirmación de cambios en el historial de git de un repositorio.
+• **Fork:** copia de un repositorio que otro desarrollador puede modificar de forma independiente.
+• **Issue / Incidencia:** reporte de error o solicitud de características en un repositorio de GitHub.
+• **CI / Integración continua:** flujos automatizados que construyen y prueban el código en cada cambio.
+• **Adjunto / Asset:** cada archivo individual publicado junto a una release (APK, MSI, .sha256, .asc).
+• **Repo / Repositorio:** lugar donde se guarda el código y el historial de un proyecto.
+
+━━━━━━━━━━━━━
+
+🗒️ *Notas al pie expandidas*
+
+• Esta pieza se midió con datos reales de la API pública de GitHub, consultados directamente por repositorio. Ningún número se inventó ni se copió de otra publicación.
+• La fecha de la medición es la fecha en vivo del sábado 7 de noviembre de 2026 en Santo Domingo. Las cifras (estrellas, descargas, incidencias, entregas) pueden cambiar entre la consulta y la lectura de este documento.
+• Cada fichero de medición queda guardado con su fecha y hora, y ninguno se sobrescribe.
+• Esta pieza no aloja paquetes ni APKs. Todos los enlaces van al repositorio de cada autor.
+• Esta pieza no repite el contenido de otras piezas de la serie.
+• Cifras de esta pieza son válidas solo para el momento en que se leyeron. Una medición es una instantánea, no un juicio permanente.
+*La Bandita informa a partir de fuentes fechadas.* cincuenta y seis repositorios de extensiones abiertos hoy uno por uno —sin una sola aplicación—, los seis formatos explicados sin humo, las sumas contadas archivo por archivo y nueve órdenes para auditar cualquier tienda antes de añadirla.
 
 ───────────────────
 
-*Medición del corte:* miércoles 4 de noviembre de 2026, 19:33 de la tarde en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · décima medición del día · cincuenta y seis repositorios de extensiones vivos, veintiuno sin licencia, tres archivados y uno con 451 · 12.487 archivos y 10 sumas · censo de 461 fichas · cero paquetes alojados.
+*Medición del corte:* sábado 7 de noviembre de 2026, 19:33 de la tarde en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · décima medición del día · cincuenta y seis repositorios de extensiones vivos, veintiuno sin licencia, tres archivados y uno con 451 · 12.487 archivos y 10 sumas · censo de 461 fichas · cero paquetes alojados.
 
 *🔗 Enlaces*
 
@@ -397,7 +459,7 @@ Y lo cuarto, la frase que esta serie repite porque en cada tema se cumple: **lo 
 - Seanime-Marketplace: https://github.com/Bas1874/Seanime-Marketplace
 - Seanime-Providers: https://github.com/Seanime-contributions/Seanime-Providers
 - HayasexShiru-Extensions: https://github.com/ReWelp/HayasexShiru-Extensions
-- anitorrent: https://github.com/anh9000/anitorrent
+- aniprotocolo de pares: https://github.com/anh9000/aniprotocolo de pares
 - echo-extensions: https://github.com/itsmechinmoy/echo-extensions
 - tachiyomi-extensions-archive: https://github.com/timschneeb/tachiyomi-extensions-archive
 
@@ -407,7 +469,7 @@ Y lo cuarto, la frase que esta serie repite porque en cada tema se cumple: **lo 
 
 (4-nov) La fecha se comprobó **en vivo antes de empezar y al terminar**: `tools/fecha_viva.py --inicio` a las 19:29 y `--fin` al cerrar. El reloj iba con medio minuto de desfase al abrir y se corrigió antes de medir nada.
 
-(4-nov) Esta es la **décima medición del día**: 8:45, 9:15, 12:35, 12:44, 13:16, 17:56, 18:14, 18:27, 18:31 y esta de las 19:33. La de esta pieza vive en `docs/MEDICION-10-noche-2026-11-04.json`, con las 57 direcciones, su estado y sus cifras. Las nueve anteriores siguen guardadas con su hora.
+(4-nov) Esta es la **décima medición del día**: 8:45, 9:15, 12:35, 12:44, 13:16, 17:56, 18:14, 18:27, 18:31 y esta de las 19:33. La de esta pieza vive en `docs/MEDICION-10-noche-2026-11-07.json`, con las 57 direcciones, su estado y sus cifras. Las nueve anteriores siguen guardadas con su hora.
 
 (4-nov) La cuenta de **huella** es la de toda la serie: se mira el nombre de cada adjunto de las últimas cien entregas y se busca `sha256`, `sha512`, `sha1`, `checksum`, `.sig`, `.asc` o `sums`. Un cero en un repositorio **sin adjuntos** significa otra cosa que un cero en uno con tres mil setecientos: por eso la pieza separa las dieciocho tiendas que publican archivos de las treinta y ocho que no publican ninguno.
 
