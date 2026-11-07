@@ -1,9 +1,9 @@
 # PIEZA 09 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/09-Archivos-copias-y-nubes-propias-cuatro-de-diecisiete-dan-la-huella-y-las-dos-herramientas-de-copia-llevan-410-y-185-dias-sin-publicar-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
-- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `6293991f1ceaa33a432116dc201bf8ac0513d0eb95e6300937c2ac5a2e47ea45`
-- **Envío generado:** 2026-11-06 · 20 mensajes · el mayor de 3647 caracteres
+- **Envío generado:** 2026-11-07 · 20 mensajes · el mayor de 3647 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 20 · 1082 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 6 · AGPL-3.0 3 · MIT 2 · Apache-2.0 2
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/09-Archivos-copias-y-nubes-propias-cuatro-de-diecisiete-dan-la-huella-y-las-dos-herramientas-de-copia-llevan-410-y-185-dias-sin-publicar-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
 
-💓 6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 7 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 20 · 2757 caracteres ═══
 
@@ -412,29 +412,29 @@ Y los tres que cierran la lista:
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 2295 caracteres ═══
+═══ MENSAJE 19 de 20 · 2281 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 09*
 
-Medí otra vez, hoy 6 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 7 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• rclone/rclone — ★60.833 · empujó en las últimas horas · MIT · última release v1.75.2 (9-oct-2026)
-• immich-app/immich — ★118.375 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
-• localsend/localsend — ★97.536 · empujó el 2-nov-2026 (hace 4 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• nextcloud/server — ★37.433 · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
-• restic/restic — ★37.028 · empujó en las últimas horas · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
-• researchxxl/syncthing-android — ★3.263 · empujó el 4-nov-2026 (hace 2 días) · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
-• Ghostpanter/ghost-files — ★15 · empujó en las últimas horas · MIT · última release v0.7.3 (5-nov-2026)
-• ZENINXOP/Hexora — ★30 · empujó el 17-oct-2026 (hace 20 días) · GPL-3.0 · última release v0.1.4 (17-oct-2026)
-• BugeStudioTeam/Buge-Files — ★42 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release 1.16.19 (4-nov-2026)
-• sinegard/AF-File-Manager — ★18 · empujó el 29-oct-2026 (hace 8 días) · NOASSERTION · última release v0.47.0 (30-oct-2026)
-• Mahmud0808/TeleDrive — ★442 · empujó el 4-nov-2026 (hace 2 días) · Apache-2.0 · última release v1.5.0 (19-oct-2026)
-• sysrv64/KArchiver — ★23 · empujó el 31-oct-2026 (hace 6 días) · NOASSERTION · última release v1.5-beta (31-oct-2026)
-• dev2ex/twig — ★105 · empujó el 1-nov-2026 (hace 5 días) · GPL-3.0 · última release v1.17.0 (1-nov-2026)
-• xtt-xt/MCPBox — ★7 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.4.0 (25-oct-2026)
-• zhanghai/MaterialFiles — ★9.408 · empujó el 15-oct-2026 (hace 22 días) · GPL-3.0 · última release v1.7.5 (20-sep-2026)
-• XayahSuSuSu/Android-DataBackup — ★7.571 · empujó el 25-oct-2026 (hace 12 días) · GPL-3.0 · última release 2.0.12 (20-sep-2025)
-• NeoApplications/Neo-Backup — ★3.900 · empujó el 4-nov-2026 (hace 2 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
+• rclone/rclone — ★60.843 · empujó en las últimas horas · MIT · última release v1.76.0 (6-nov-2026)
+• immich-app/immich — ★118.432 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
+• localsend/localsend — ★97.679 · empujó el 2-nov-2026 (hace 5 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• nextcloud/server — ★37.437 · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• restic/restic — ★37.041 · empujó en las últimas horas · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
+• researchxxl/syncthing-android — ★3.265 · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• Ghostpanter/ghost-files — ★15 · empujó el 5-nov-2026 (hace 2 días) · MIT · última release v0.7.3 (5-nov-2026)
+• ZENINXOP/Hexora — ★30 · empujó el 17-oct-2026 (hace 21 días) · GPL-3.0 · última release v0.1.4 (17-oct-2026)
+• BugeStudioTeam/Buge-Files — ★42 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release 1.16.19 (4-nov-2026)
+• sinegard/AF-File-Manager — ★18 · empujó el 29-oct-2026 (hace 9 días) · NOASSERTION · última release v0.47.0 (30-oct-2026)
+• Mahmud0808/TeleDrive — ★444 · empujó en las últimas horas · Apache-2.0 · última release v1.5.0 (19-oct-2026)
+• sysrv64/KArchiver — ★23 · empujó el 31-oct-2026 (hace 7 días) · NOASSERTION · última release v1.5-beta (31-oct-2026)
+• dev2ex/twig — ★112 · empujó en las últimas horas · GPL-3.0 · última release v1.18.0 (6-nov-2026)
+• xtt-xt/MCPBox — ★7 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.4.0 (25-oct-2026)
+• zhanghai/MaterialFiles — ★9.414 · empujó el 15-oct-2026 (hace 23 días) · GPL-3.0 · última release v1.7.5 (20-sep-2026)
+• XayahSuSuSu/Android-DataBackup — ★7.573 · empujó el 25-oct-2026 (hace 13 días) · GPL-3.0 · última release 2.0.12 (20-sep-2025)
+• NeoApplications/Neo-Backup — ★3.902 · empujó el 4-nov-2026 (hace 3 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

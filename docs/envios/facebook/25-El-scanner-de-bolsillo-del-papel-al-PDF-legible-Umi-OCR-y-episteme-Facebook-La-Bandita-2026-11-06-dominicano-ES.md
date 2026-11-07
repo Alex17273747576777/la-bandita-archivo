@@ -1,12 +1,12 @@
 # PIEZA 25 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/25-El-scanner-de-bolsillo-del-papel-al-PDF-legible-Umi-OCR-y-episteme-Facebook-La-Bandita-2026-11-06-dominicano-ES.md`
-- **Fecha de la pieza:** 6-nov-2026 (según dateline; edad hoy: 0 días)
+- **Fecha de la pieza:** 6-nov-2026 (según dateline; edad hoy: 1 días)
 - **sha256 de la pieza:** `c05d71afe4a5e40d6822ab3c1621ddfe26378376d12fe140c26d315cea612c15`
-- **Envío generado:** 2026-11-06 · 6 mensajes · el mayor de 3558 caracteres
+- **Envío generado:** 2026-11-07 · 6 mensajes · el mayor de 3558 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 6 · 742 caracteres ═══
+═══ MENSAJE 1 de 6 · 921 caracteres ═══
 
 *El escáner de bolsillo: del papel al PDF legible, con Umi-OCR y episteme*
 
@@ -16,11 +16,15 @@ Antes de mandártela volví a medir lo que afirma: *2 repositorios, 2 vivos*, m�
 
 Licencias de lo que recomienda: MIT 1 · AGPL-3.0 1.
 
+⚠️ *Aviso de fecha:* este texto se escribió el 6-nov-2026. Todo lo que dice «hoy» dentro se refiere a ese día, no a este. La medición de hoy va al final, firmada y con su fecha.
+
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/25-El-scanner-de-bolsillo-del-papel-al-PDF-legible-Umi-OCR-y-episteme-Facebook-La-Bandita-2026-11-06-dominicano-ES.md
 
-💓 6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 7 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 6 · 821 caracteres ═══
+═══ MENSAJE 2 de 6 · 911 caracteres ═══
+
+[Texto del 6-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
 *El escáner de bolsillo: del papel al PDF legible, con Umi-OCR y episteme*
 
@@ -117,14 +121,14 @@ La Bandita informa a partir de fuentes fechadas. Dos repositorios medidos uno po
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 503 caracteres ═══
+═══ MENSAJE 5 de 6 · 495 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 25*
 
-Medí otra vez, hoy 6 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 7 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• hiroi-sora/Umi-OCR — ★48.486 (+7) · *dormido*: sin empujar desde el 20-nov-2025 (351 días) · MIT · última release v2.1.5 (25-mar-2025)
-• Aryan-Raj3112/episteme — ★1.333 (sin cambio) · empujó el 10-oct-2026 (hace 27 días) · AGPL-3.0 · última release v1.0.58-oss (9-oct-2026)
+• hiroi-sora/Umi-OCR — ★48.500 (+21) · *dormido*: sin empujar desde el 20-nov-2025 (352 días) · MIT · última release v2.1.5 (25-mar-2025)
+• Aryan-Raj3112/episteme — ★1.333 (sin cambio) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.59-oss (7-nov-2026)
 
 ⏬ sigue abajo · parte 4 de 5
 

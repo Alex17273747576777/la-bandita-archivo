@@ -1,16 +1,16 @@
 # PIEZA 15 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/15-Descargar-es-un-acto-tecnico-treinta-y-un-programas-medidos-hoy-ocho-de-2026-y-los-dos-famosos-que-estan-parados-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
-- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `16d8de26c6e3aac2eb8717a3940663535e9637235f572da5a097a483e2c2942f`
-- **Envío generado:** 2026-11-06 · 20 mensajes · el mayor de 3933 caracteres
+- **Envío generado:** 2026-11-07 · 21 mensajes · el mayor de 3837 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
-═══ MENSAJE 1 de 20 · 1089 caracteres ═══
+═══ MENSAJE 1 de 21 · 1089 caracteres ═══
 
 *Descargar es un acto técnico: treinta y uno programas medidos hoy —ocho nacidos en 2026, las dos aplicaciones más famosas del tema paradas y lo que la ley no dice—*
 
-La Bandita · pieza 15 · guía del 4-nov-2026 · te la mando hoy en 20 mensajes.
+La Bandita · pieza 15 · guía del 4-nov-2026 · te la mando hoy en 21 mensajes.
 
 Antes de mandártela volví a medir lo que afirma: *31 repositorios, 31 vivos*, más los enlaces de la pieza, revisados uno por uno hoy. Lo que salió está en el cierre, con la fecha al lado.
 
@@ -20,9 +20,9 @@ Licencias de lo que recomienda: MIT 11 · GPL-3.0 7 · GPL-2.0 3 · NOASSERTION 
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/15-Descargar-es-un-acto-tecnico-treinta-y-un-programas-medidos-hoy-ocho-de-2026-y-los-dos-famosos-que-estan-parados-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
 
-💓 6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 7 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
-═══ MENSAJE 2 de 20 · 2603 caracteres ═══
+═══ MENSAJE 2 de 21 · 2603 caracteres ═══
 
 [Texto del 4-nov-2026: cuando dice «hoy», es ese día. La medición de hoy está al final.]
 
@@ -57,9 +57,9 @@ La primera: **las dos aplicaciones más famosas del tema están paradas**. Seal,
 
 La segunda: **lo nuevo, otra vez, firma mejor que lo viejo**. De los ocho nacidos en 2026, cinco publican sumas de comprobación; de los veintitrés veteranos, cinco. La camada de este año entiende algo que la de 2018 no: que un instalador sin suma es un acto de fe.
 
-⏬ sigue abajo · parte 1 de 19
+⏬ sigue abajo · parte 1 de 20
 
-═══ MENSAJE 3 de 20 · 2850 caracteres ═══
+═══ MENSAJE 3 de 21 · 2850 caracteres ═══
 
 *⚡ En una página*
 
@@ -89,9 +89,9 @@ Las cinco notas más altas, con lo que las sostiene:
 
 **La nota no mide si el programa baja lo que tú quieres: mide si se puede comprobar.** Stash y downvid sacan 70 sin firmar un archivo porque publican, atienden y mantienen un canal de seguridad; y Seal, con treinta mil estrellas, saca 42 porque lleva un mes sin moverse.
 
-⏬ sigue abajo · parte 2 de 19
+⏬ sigue abajo · parte 2 de 20
 
-═══ MENSAJE 4 de 20 · 1385 caracteres ═══
+═══ MENSAJE 4 de 21 · 1385 caracteres ═══
 
 *🔁 Qué reemplaza a qué · la tabla de la descarga*
 
@@ -106,9 +106,9 @@ Las cinco notas más altas, con lo que las sostiene:
 
 **Una regla que esta pieza no se salta:** no se enlaza **ningún** cliente ni índice de torrentes. Ese es el tema de la pieza 16 y, además, la familia que Facebook vetó en la 12 (E40, H20). Aquí se mide software de descarga directa y se dice lo que hace; nada más.
 
-⏬ sigue abajo · parte 3 de 19
+⏬ sigue abajo · parte 3 de 20
 
-═══ MENSAJE 5 de 20 · 2424 caracteres ═══
+═══ MENSAJE 5 de 21 · 2424 caracteres ═══
 
 *⚙️ El motor bajo todo · cinco piezas que casi nadie instala*
 
@@ -122,9 +122,9 @@ Debajo de cada gestor bonito hay un motor que hace el trabajo sucio: abre conexi
 
 Los cinco, juntos, cuentan una verdad del oficio: **el motor no se actualiza porque no hace falta**. aria2 lleva 132 días sin tocar y sigue bajando 10.102.051 archivos para quién sabe cuántos programas. Lo que cambia cada semana no es el motor, es **la web de enfrente** —y por eso yt-dlp publica casi a diario y aria2 no.
 
-⏬ sigue abajo · parte 4 de 19
+⏬ sigue abajo · parte 4 de 20
 
-═══ MENSAJE 6 de 20 · 2040 caracteres ═══
+═══ MENSAJE 6 de 21 · 2040 caracteres ═══
 
 *🎛️ Las caras del motor clásico · cinco interfaces para el mismo motor*
 
@@ -138,9 +138,9 @@ Aria2 no tiene ventana. Durante quince años hubo una docena de proyectos dedica
 
 De las cinco, solo dos se mueven y ninguna firma. Es el patrón de toda la pieza: **la interfaz es lo que se abandona primero**, porque depende de un motor que no cambia y de una moda que sí.
 
-⏬ sigue abajo · parte 5 de 19
+⏬ sigue abajo · parte 5 de 20
 
-═══ MENSAJE 7 de 20 · 3300 caracteres ═══
+═══ MENSAJE 7 de 21 · 3300 caracteres ═══
 
 *💻 Gestores de escritorio · seis programas y una sorpresa desagradable*
 
@@ -159,9 +159,9 @@ Eso no los hace malos programas; los hace programas que **no te permiten comprob
 
 Siete días de diferencia separan a **Gopeed** —que publicó hoy— de **Motrix** —que no publica desde hace un mes y tiene el doble de estrellas—. Y uGet, que fue la respuesta estándar durante una década, hoy no tiene ni una entrega etiquetada. El escritorio no se muere de golpe: se queda quieto y la gente sigue instalándolo.
 
-⏬ sigue abajo · parte 6 de 19
+⏬ sigue abajo · parte 6 de 20
 
-═══ MENSAJE 8 de 20 · 1823 caracteres ═══
+═══ MENSAJE 8 de 21 · 1823 caracteres ═══
 
 *🕹️ En el bolsillo · tres programas de Android (y el famoso que no está)*
 
@@ -173,9 +173,9 @@ En Android, descargar es otra cosa: la mitad de las apps son una cara amable enc
 
 Ese es el resumen del bloque y casi de la pieza: **el programa más recomendado del tema no se mueve desde hace un mes**, y su bifurcación —ytdlnis, con 572 cambios en treinta días— sí. La diferencia entre los dos es de dos mil estrellas y de un mes de silencio.
 
-⏬ sigue abajo · parte 7 de 19
+⏬ sigue abajo · parte 7 de 20
 
-═══ MENSAJE 9 de 20 · 2106 caracteres ═══
+═══ MENSAJE 9 de 21 · 2106 caracteres ═══
 
 *💬 La línea de órdenes · cuatro programas que sí se auditan*
 
@@ -188,9 +188,9 @@ Si hay un sitio donde «descargar es un acto técnico» se ve sin adornos, es aq
 
 Los cuatro se parecen en lo importante: **publican a menudo porque la web de enfrente cambia a menudo**, y ninguno depende de una ventana. Y los cuatro comparten un defecto: **la suma de comprobación se publica poco** —40 de 240 en el mejor caso— así que si bajas un binario, la comprobación es tuya.
 
-⏬ sigue abajo · parte 8 de 19
+⏬ sigue abajo · parte 8 de 20
 
-═══ MENSAJE 10 de 20 · 3341 caracteres ═══
+═══ MENSAJE 10 de 21 · 3341 caracteres ═══
 
 *🌱 Los ocho nacidos en 2026 · la camada de la descarga*
 
@@ -209,9 +209,9 @@ Otra vez lo nuevo, y otra vez con mejores números que los veteranos. Ocho proye
 
 Un dato de la camada que sirve para las piezas que vienen: **seis de los ocho publicaron código esta semana** y uno —media-downloader— ya lleva medio año parado después de dos entregas. La camada de 2026 no es homogénea: hay tres proyectos serios y cinco intentos. **Lo nuevo hay que medirlo, no celebrarlo.**
 
-⏬ sigue abajo · parte 9 de 19
+⏬ sigue abajo · parte 9 de 20
 
-═══ MENSAJE 11 de 20 · 1829 caracteres ═══
+═══ MENSAJE 11 de 21 · 1829 caracteres ═══
 
 *🧭 Cómo se elige un gestor en cinco preguntas*
 
@@ -229,9 +229,9 @@ Después de treinta y una fichas, hay un método que se puede resumir y que sirv
 
 Con esas cinco preguntas, la recomendación de esta pieza se ordena sola: **yt-dlp** como motor, **Gopeed** o **XDM** como ventana, **ytdlnis** en el bolsillo, y **rayburst** o **prism** como la apuesta del año. Todo lo demás son alternativas razonables o piezas de museo, y las dos cosas se dicen con la fecha al lado.
 
-⏬ sigue abajo · parte 10 de 19
+⏬ sigue abajo · parte 10 de 20
 
-═══ MENSAJE 12 de 20 · 3067 caracteres ═══
+═══ MENSAJE 12 de 21 · 3067 caracteres ═══
 
 *⚖️ Lo que la ley permite, lo que la app permite y lo que el archivo dice de sí mismo*
 
@@ -256,9 +256,9 @@ El primero cuenta qué hay dentro —y si el archivo está completo, porque un M
 
 **Y cuarto: lo que esta pieza no hace.** No enlaza catálogos, no enlaza torrentes, no explica cómo saltarse un pago y no dice que algo sea legal porque sea posible. Cuando un programa de la lista es un descargador de catálogos ajenos, se dice y se mide igual —como con SpotiFlyer en la pieza 14—, sin mandar a nadie por ahí.
 
-⏬ sigue abajo · parte 11 de 19
+⏬ sigue abajo · parte 11 de 20
 
-═══ MENSAJE 13 de 20 · 3011 caracteres ═══
+═══ MENSAJE 13 de 21 · 3011 caracteres ═══
 
 *🔏 La huella del tema · 274 archivos firmados de 2.596*
 
@@ -296,9 +296,9 @@ Dos cosas de esa tabla. La primera: **rayburst pone 100 de las 274 sumas** —m�
 
 La cuarta y la quinta son las que esta serie considera obligatorias: **un archivo del que no sabes qué contiene ni cuánto pesa de verdad no está descargado, está tirado en una carpeta**.
 
-⏬ sigue abajo · parte 12 de 19
+⏬ sigue abajo · parte 12 de 20
 
-═══ MENSAJE 14 de 20 · 3088 caracteres ═══
+═══ MENSAJE 14 de 21 · 3088 caracteres ═══
 
 *🚪 Lo que esta pieza no tiene*
 
@@ -332,9 +332,9 @@ Lo que hace cada uno, en una línea: el **1** lee la fecha de una fuente de fuer
 
 La lección de la noche está en el paso 2 y en el 5 juntos: **si el texto se genera desde la medición, no hay forma humana de escribir una cifra de memoria.** Y si además el taller queda en el repositorio —`docs/talleres/pieza15/`—, cualquiera puede volver mañana, medir otra vez y ver qué cambió.
 
-⏬ sigue abajo · parte 13 de 19
+⏬ sigue abajo · parte 13 de 20
 
-═══ MENSAJE 15 de 20 · 3418 caracteres ═══
+═══ MENSAJE 15 de 21 · 3418 caracteres ═══
 
 *❓ Las preguntas del grupo*
 
@@ -377,9 +377,9 @@ Y lo cuarto: **ocho nacidos en 2026, tres serios y cinco intentos**. Lo nuevo se
 
 💓 *La Bandita informa a partir de fuentes fechadas.* treinta y uno programas abiertos hoy uno por uno —del motor que nadie instala al gestor que todos instalan—, la tabla de qué cubre qué, las 274 sumas contadas archivo por archivo y seis órdenes para saber qué llegó y qué no.
 
-⏬ sigue abajo · parte 14 de 19
+⏬ sigue abajo · parte 14 de 20
 
-═══ MENSAJE 16 de 20 · 2160 caracteres ═══
+═══ MENSAJE 16 de 21 · 2160 caracteres ═══
 
 *Medición del corte:* miércoles 4 de noviembre de 2026, 22:32 de la noche en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · decimosexta medición del día · treinta y uno programas vivos, ninguno archivado, cinco sin licencia legible · 2.596 archivos y 274 sumas · 307.014.477 descargas · diez repositorios firmando.
 
@@ -441,9 +441,9 @@ Y lo cuarto: **ocho nacidos en 2026, tres serios y cinco intentos**. Lo nuevo se
 - api sumas rayburst: https://api.github.com/repos/AnInsomniacy/rayburst/releases?per_page=100
 - api ytdlnis: https://api.github.com/repos/deniscerri/ytdlnis
 
-⏬ sigue abajo · parte 15 de 19
+⏬ sigue abajo · parte 15 de 20
 
-═══ MENSAJE 17 de 20 · 2304 caracteres ═══
+═══ MENSAJE 17 de 21 · 2304 caracteres ═══
 
 *🗒️ Notas al pie*
 
@@ -469,58 +469,63 @@ Y lo cuarto: **ocho nacidos en 2026, tres serios y cinco intentos**. Lo nuevo se
 
 #task 074 · escribir la pieza 16 con la norma del canal delante: torrentes sin enlace, nombre, función y comprobación.
 
-⏬ sigue abajo · parte 16 de 19
+⏬ sigue abajo · parte 16 de 20
 
-═══ MENSAJE 18 de 20 · 3933 caracteres ═══
+═══ MENSAJE 18 de 21 · 3837 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 15*
 
-Medí otra vez, hoy 6 de noviembre de 2026, los 31 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 7 de noviembre de 2026, los 31 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• aria2/aria2 — ★43.420 · *dormido*: sin empujar desde el 25-jun-2026 (134 días) · GPL-2.0 · última release release-1.37.0 (15-nov-2023)
-• nilaoda/N_m3u8DL-RE — ★9.039 · empujó el 4-nov-2026 (hace 2 días) · MIT · última release v0.6.0-beta (28-jun-2026)
-• rockdaboot/wget2 — ★800 · empujó en las últimas horas · LGPL-3.0 · última release v2.3.0 (21-sep-2026)
-• axel-download-accelerator/axel — ★3.423 · empujó el 30-sep-2026 (hace 37 días) · GPL-2.0 · última release v2.17.14 (7-abr-2024)
-• lwthiker/curl-impersonate — ★7.174 · *dormido*: sin empujar desde el 18-jul-2024 (841 días) · MIT · última release v0.6.1 (2-mar-2024)
-• mayswind/AriaNg — ★13.269 · empujó el 5-oct-2026 (hace 32 días) · MIT · última release 1.3.15 (5-oct-2026)
-• mayswind/AriaNg-Native — ★2.729 · empujó el 5-oct-2026 (hace 32 días) · MIT · última release 1.3.15 (5-oct-2026)
-• Xmader/aria-ng-gui — ★2.027 · *dormido*: sin empujar desde el 27-sep-2020 (2231 días) · MIT · última release v3.1.2 (27-sep-2020)
-• Xmader/aria-ng-gui-android — ★879 · *dormido*: sin empujar desde el 4-ene-2023 (1402 días) · MIT · última release v1.3.1 (18-abr-2021)
-• binux/yaaw — ★2.353 · *dormido*: sin empujar desde el 31-oct-2023 (1102 días) · sin licencia detectada por la API
-• GopeedLab/gopeed — ★27.450 · empujó en las últimas horas · GPL-3.0 · última release v1.9.3 (18-mar-2026)
-• agalwood/Motrix — ★57.871 · empujó en las últimas horas · NOASSERTION · última release v2.3.0 (5-nov-2026)
-• subhra74/xdm — ★8.322 · empujó en las últimas horas · GPL-3.0 · última release v9.0.9 (1-nov-2026)
-• Tyrrrz/YoutubeDownloader — ★16.646 · empujó el 4-nov-2026 (hace 2 días) · MIT · última release 1.17.1 (25-oct-2026)
-• persepolisdm/persepolis — ★7.492 · *dormido*: sin empujar desde el 9-oct-2025 (393 días) · GPL-3.0 · última release 5.2.0 (14-jul-2025)
-• uget/uget — ★50 · *dormido*: sin empujar desde el 11-may-2019 (2736 días) · NOASSERTION
-• deniscerri/ytdlnis — ★10.993 · empujó el 4-nov-2026 (hace 2 días) · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
-• yausername/youtubedl-android — ★1.381 · *dormido*: sin empujar desde el 16-nov-2025 (355 días) · GPL-3.0
-• JunkFood02/Seal — ★30.376 · empujó el 25-sep-2026 (hace 42 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
-• yt-dlp/yt-dlp — ★205.695 · empujó el 4-nov-2026 (hace 2 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
-• iawia002/lux — ★31.826 · *dormido*: sin empujar desde el 29-mar-2026 (222 días) · MIT · última release v0.24.1 (6-may-2024)
-• soimort/you-get — ★56.857 · empujó el 6-oct-2026 (hace 31 días) · NOASSERTION · última release v0.4.1743 (4-ene-2025)
-• mikf/gallery-dl — ★20.400 · empujó el 31-oct-2026 (hace 6 días) · GPL-2.0 · última release v1.32.19 (31-oct-2026)
-• AnInsomniacy/rayburst — ★11.395 · empujó en las últimas horas · MIT · última release v4.1.1 (25-oct-2026)
-• rawnaldclark/Stash — ★1.565 · empujó en las últimas horas · GPL-3.0 · última release v0.9.123 (3-nov-2026)
-• Downvid/downvid — ★1.208 · empujó en las últimas horas · MIT · última release v1.10.0 (6-nov-2026)
-• FortoGraphy/prism-download-manager — ★762 · empujó el 1-nov-2026 (hace 5 días) · MIT · última release v1.2.4 (1-nov-2026)
-• mesamirh/MovieBox-Tui — ★2.775 · empujó en las últimas horas · Apache-2.0 · última release v0.1.29 (5-nov-2026)
-• arnoldhao/xiadown — ★759 · *dormido*: sin empujar desde el 27-jul-2026 (102 días) · Apache-2.0 · última release v1.0.4 (27-jul-2026)
-• pixel-point/media-downloader — ★1.222 · *dormido*: sin empujar desde el 7-may-2026 (183 días) · sin licencia detectada por la API · última release v0.2.0 (7-may-2026)
-• BareBrowser/bare-browser — ★723 · empujó el 3-nov-2026 (hace 3 días) · BSD-3-Clause · última release v1.0.1 (21-oct-2026)
+• aria2/aria2 — ★43.424 · *dormido*: sin empujar desde el 25-jun-2026 (135 días) · GPL-2.0 · última release release-1.37.0 (15-nov-2023)
+• nilaoda/N_m3u8DL-RE — ★9.042 · empujó el 4-nov-2026 (hace 3 días) · MIT · última release v0.6.0-beta (28-jun-2026)
+• rockdaboot/wget2 — ★800 · empujó el 5-nov-2026 (hace 2 días) · LGPL-3.0 · última release v2.3.0 (21-sep-2026)
+• axel-download-accelerator/axel — ★3.424 · empujó el 30-sep-2026 (hace 38 días) · GPL-2.0 · última release v2.17.14 (7-abr-2024)
+• lwthiker/curl-impersonate — ★7.174 · *dormido*: sin empujar desde el 18-jul-2024 (842 días) · MIT · última release v0.6.1 (2-mar-2024)
+• mayswind/AriaNg — ★13.268 · empujó el 5-oct-2026 (hace 33 días) · MIT · última release 1.3.15 (5-oct-2026)
+• mayswind/AriaNg-Native — ★2.730 · empujó el 5-oct-2026 (hace 33 días) · MIT · última release 1.3.15 (5-oct-2026)
+• Xmader/aria-ng-gui — ★2.027 · *dormido*: sin empujar desde el 27-sep-2020 (2232 días) · MIT · última release v3.1.2 (27-sep-2020)
+• Xmader/aria-ng-gui-android — ★879 · *dormido*: sin empujar desde el 4-ene-2023 (1403 días) · MIT · última release v1.3.1 (18-abr-2021)
+• binux/yaaw — ★2.353 · *dormido*: sin empujar desde el 31-oct-2023 (1103 días) · sin licencia detectada por la API
+• GopeedLab/gopeed — ★27.478 · empujó en las últimas horas · GPL-3.0 · última release v1.9.3 (18-mar-2026)
+• agalwood/Motrix — ★57.906 · empujó el 5-nov-2026 (hace 2 días) · NOASSERTION · última release v2.3.0 (5-nov-2026)
+• subhra74/xdm — ★8.336 · empujó el 5-nov-2026 (hace 2 días) · GPL-3.0 · última release v9.0.9 (1-nov-2026)
+• Tyrrrz/YoutubeDownloader — ★16.656 · empujó en las últimas horas · MIT · última release 1.17.1 (25-oct-2026)
+• persepolisdm/persepolis — ★7.495 · *dormido*: sin empujar desde el 9-oct-2025 (394 días) · GPL-3.0 · última release 5.2.0 (14-jul-2025)
+• uget/uget — ★50 · *dormido*: sin empujar desde el 11-may-2019 (2737 días) · NOASSERTION
+• deniscerri/ytdlnis — ★11.001 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
+• yausername/youtubedl-android — ★1.381 · *dormido*: sin empujar desde el 16-nov-2025 (356 días) · GPL-3.0
+• JunkFood02/Seal — ★30.408 · empujó el 25-sep-2026 (hace 43 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
+• yt-dlp/yt-dlp — ★205.874 · empujó el 4-nov-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
+• iawia002/lux — ★31.824 · *dormido*: sin empujar desde el 29-mar-2026 (223 días) · MIT · última release v0.24.1 (6-may-2024)
+• soimort/you-get — ★56.857 · empujó el 6-oct-2026 (hace 32 días) · NOASSERTION · última release v0.4.1743 (4-ene-2025)
+• mikf/gallery-dl — ★20.405 · empujó el 31-oct-2026 (hace 7 días) · GPL-2.0 · última release v1.32.19 (31-oct-2026)
+• AnInsomniacy/rayburst — ★11.412 · empujó el 5-nov-2026 (hace 2 días) · MIT · última release v4.1.1 (25-oct-2026)
+• rawnaldclark/Stash — ★1.567 · empujó en las últimas horas · GPL-3.0 · última release v0.9.123 (3-nov-2026)
+• Downvid/downvid — ★1.211 · empujó en las últimas horas · MIT · última release v1.10.0 (6-nov-2026)
+• FortoGraphy/prism-download-manager — ★774 · empujó el 1-nov-2026 (hace 6 días) · MIT · última release v1.2.4 (1-nov-2026)
+• mesamirh/MovieBox-Tui — ★2.778 · empujó el 5-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.1.29 (5-nov-2026)
+• arnoldhao/xiadown — ★759 · *dormido*: sin empujar desde el 27-jul-2026 (103 días) · Apache-2.0 · última release v1.0.4 (27-jul-2026)
+• pixel-point/media-downloader — ★1.221 · *dormido*: sin empujar desde el 7-may-2026 (184 días) · sin licencia detectada por la API · última release v0.2.0 (7-may-2026)
 
-⏬ sigue abajo · parte 17 de 19
+⏬ sigue abajo · parte 17 de 20
 
-═══ MENSAJE 19 de 20 · 137 caracteres ═══
+═══ MENSAJE 19 de 21 · 155 caracteres ═══
+
+• BareBrowser/bare-browser — ★728 · empujó el 3-nov-2026 (hace 4 días) · BSD-3-Clause · última release v1.0.1 (21-oct-2026)
+
+⏬ sigue abajo · parte 18 de 20
+
+═══ MENSAJE 20 de 21 · 137 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
 De los 35 enlaces de esta pieza, *35 responden*.
 Ninguno roto.
 
-⏬ sigue abajo · parte 18 de 19
+⏬ sigue abajo · parte 19 de 20
 
-═══ MENSAJE 20 de 20 · 323 caracteres ═══
+═══ MENSAJE 21 de 21 · 323 caracteres ═══
 
 💓 *La Bandita · medido a mano con la API, no copiado.* Si mañana abres esto y algo cambió, la fecha del dato está escrita al lado para que no te engañe.
 

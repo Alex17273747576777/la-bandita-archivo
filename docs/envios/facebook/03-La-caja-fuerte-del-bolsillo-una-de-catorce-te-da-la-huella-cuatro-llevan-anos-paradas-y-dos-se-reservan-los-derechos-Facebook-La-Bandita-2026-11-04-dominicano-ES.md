@@ -1,9 +1,9 @@
 # PIEZA 03 · envío para Facebook
 
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/03-La-caja-fuerte-del-bolsillo-una-de-catorce-te-da-la-huella-cuatro-llevan-anos-paradas-y-dos-se-reservan-los-derechos-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
-- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 2 días)
+- **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `9bc479cf7654dc1739e9b97f9a0a57c1a0a2e5a8c088e912be9302b6f69d6ba8`
-- **Envío generado:** 2026-11-06 · 19 mensajes · el mayor de 3526 caracteres
+- **Envío generado:** 2026-11-07 · 19 mensajes · el mayor de 3526 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 19 · 1048 caracteres ═══
@@ -20,7 +20,7 @@ Licencias de lo que recomienda: GPL-3.0 8 · MIT 2 · AGPL-3.0 1 · NOASSERTION 
 
 La guía entera, ya guardada en el archivo: https://github.com/Alex17273747576777/la-bandita-archivo/blob/main/Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/03-La-caja-fuerte-del-bolsillo-una-de-catorce-te-da-la-huella-cuatro-llevan-anos-paradas-y-dos-se-reservan-los-derechos-Facebook-La-Bandita-2026-11-04-dominicano-ES.md
 
-💓 6 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
+💓 7 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.
 
 ═══ MENSAJE 2 de 19 · 2620 caracteres ═══
 
@@ -418,22 +418,22 @@ Las paradas, para que quede el registro:
 
 💓 *EL ESTADO DE HOY · pieza 03*
 
-Medí otra vez, hoy 6 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
+Medí otra vez, hoy 7 de noviembre de 2026, los 14 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• bitwarden/android — ★9.597 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
-• stratumauth/app — ★4.638 · empujó el 1-nov-2026 (hace 5 días) · GPL-3.0 · última release v1.7.0 (1-nov-2026)
-• Monica-Pass/Monica — ★1.216 · empujó en las últimas horas · GPL-3.0 · última release V1.0.324 (3-nov-2026)
-• dani-garcia/vaultwarden — ★70.326 · empujó el 4-nov-2026 (hace 2 días) · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
-• PhilippC/keepass2android — ★6.371 · empujó en las últimas horas · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
-• Kunzisoft/KeePassDX — ★7.625 · empujó el 1-nov-2026 (hace 5 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
-• AChep/keyguard-app — ★3.609 · empujó el 4-nov-2026 (hace 2 días) · NOASSERTION · última release r20261103 (3-nov-2026)
-• beemdevelopment/Aegis — ★13.483 · *dormido*: sin empujar desde el 6-sep-2026 (61 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
-• Lucent-Project/Lucent — ★12 · empujó el 2-nov-2026 (hace 4 días) · MIT · última release v3.1.2 (20-oct-2026)
-• freeotp/freeotp-android — ★1.683 · empujó el 3-nov-2026 (hace 3 días) · Apache-2.0 · última release v2.0.6 (17-feb-2026)
-• andOTP/andOTP — ★3.704 · *dormido*: sin empujar desde el 14-jun-2022 (1606 días) · MIT · última release v0.9.0.1 (15-jun-2021) · *ARCHIVADO*
-• tejado/Authorizer — ★572 · *dormido*: sin empujar desde el 19-abr-2024 (931 días) · sin licencia detectada por la API · última release v0.5.0 (7-may-2023)
-• open-keychain/open-keychain — ★2.632 · *dormido*: sin empujar desde el 16-may-2024 (904 días) · GPL-3.0
-• authpass/authpass — ★2.811 · *dormido*: sin empujar desde el 15-sep-2026 (52 días) · GPL-3.0 · última release v1.9.11 (4-feb-2024)
+• bitwarden/android — ★9.600 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
+• stratumauth/app — ★4.637 · empujó el 1-nov-2026 (hace 6 días) · GPL-3.0 · última release v1.7.0 (1-nov-2026)
+• Monica-Pass/Monica — ★1.217 · empujó en las últimas horas · GPL-3.0 · última release V1.0.325 (7-nov-2026)
+• dani-garcia/vaultwarden — ★70.359 · empujó el 4-nov-2026 (hace 3 días) · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
+• PhilippC/keepass2android — ★6.372 · empujó en las últimas horas · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
+• Kunzisoft/KeePassDX — ★7.631 · empujó el 1-nov-2026 (hace 6 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
+• AChep/keyguard-app — ★3.608 · empujó el 4-nov-2026 (hace 3 días) · NOASSERTION · última release r20261103 (3-nov-2026)
+• beemdevelopment/Aegis — ★13.486 · *dormido*: sin empujar desde el 6-sep-2026 (62 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
+• Lucent-Project/Lucent — ★12 · empujó el 2-nov-2026 (hace 5 días) · MIT · última release v3.1.2 (20-oct-2026)
+• freeotp/freeotp-android — ★1.683 · empujó el 3-nov-2026 (hace 4 días) · Apache-2.0 · última release v2.0.6 (17-feb-2026)
+• andOTP/andOTP — ★3.704 · *dormido*: sin empujar desde el 14-jun-2022 (1607 días) · MIT · última release v0.9.0.1 (15-jun-2021) · *ARCHIVADO*
+• tejado/Authorizer — ★572 · *dormido*: sin empujar desde el 19-abr-2024 (932 días) · sin licencia detectada por la API · última release v0.5.0 (7-may-2023)
+• open-keychain/open-keychain — ★2.633 · *dormido*: sin empujar desde el 16-may-2024 (905 días) · GPL-3.0
+• authpass/authpass — ★2.811 · *dormido*: sin empujar desde el 15-sep-2026 (53 días) · GPL-3.0 · última release v1.9.11 (4-feb-2024)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
