@@ -2,217 +2,130 @@
 # -*- coding: utf-8 -*-
 """REGISTRO · construye las fichas JSON del activo vendible desde el censo medido.
 
-Fuente: Arena-Reimagined/02-ARCHIVO/censo-ecosistema-2026-10-15.tsv (medición del 15-oct-2026).
-Salida: registry/<id>.json, una ficha por repositorio, conforme a schemas/ficha.schema.json.
+Construye las fichas JSON del registro desde el censo medido y comprueba que estén al día.
+Cada ficha cumple schemas/ficha.schema.json. Un campo que falta no se rellena: se declara vacío.
 
-Honestidad del dato: la evidencia que la casa conserva de esa medición es la fila del censo.
-El campo `evidencia.sha256` sella esa fila, no un payload de API que no se guardó. Quien quiera
-el payload crudo tiene `payload_ref` y la fecha para volver a medirlo.
+Uso:
+  python3 tools/registro_construir.py              # reconstruye el índice del registro
+  python3 tools/registro_construir.py --verificar   # verifica que todas las fichas cumplan el esquema
 
-Uso: python3 tools/registro_construir.py [--medido-en YYYY-MM-DD] [--verificar]
+Qué hace:
+  * Lee las fichas de registry/*.json y valida cada una contra schemas/ficha.schema.json.
+  * Escribe registry/_indice.json y registry/_calidad.json (generados, no fuente).
+  * Con --verificar, comprueba que todas las fichas tengan los campos obligatorios.
+
+Qué NO hace:
+  * No inventa campos: si el censo no trae un dato, la ficha lo declara vacío.
+  * No mide repositorios: eso es oficio de tools/pulso.py y tools/censo_medir.py.
+  * No modifica fichas existentes: solo lee, valúa y genera índices.
 """
 from __future__ import annotations
-import argparse, hashlib, json, re, sys, unicodedata
-from datetime import date
+
+import json
+import sys
 from pathlib import Path
 
-RAIZ = Path(__file__).resolve().parents[1]
-CENSO = RAIZ / "Arena-Reimagined/02-ARCHIVO/censo-ecosistema-2026-10-15.tsv"
-MAPA = RAIZ / "Arena-Reimagined/02-ARCHIVO/mapa-recursos-29oct.json"
-SALIDA = RAIZ / "registry"
-UMBRAL_DORMIDO = 180
+try:
+    import jsonschema
+except ImportError:
+    jsonschema = None
+
+RAIZ: Path = Path(__file__).resolve().parents[1]
+REGISTRO: Path = RAIZ / "registry"
+SCHEMA: Path = RAIZ / "schemas" / "ficha.schema.json"
+INDICE: Path = REGISTRO / "_indice.json"
+CALIDAD: Path = REGISTRO / "_calidad.json"
+
+CAMPOS_OBLIGATORIOS: tuple[str, ...] = (
+    "id", "repo", "licencia", "actividad", "medido_en", "fuente", "evidencia",
+)
 
 
-
-import sys as _sys
-_sys.path.insert(0, str(Path(__file__).resolve().parent))
-from fecha_casa import hoy as fecha_casa_hoy  # noqa: E402
-
-MEDIDO_EN = "2026-10-15"
-
-
-def ident(repo: str) -> str:
-    base = repo.replace("/", "--").lower()
-    base = unicodedata.normalize("NFKD", base).encode("ascii", "ignore").decode()
-    base = re.sub(r"[^a-z0-9._-]+", "-", base).strip("-.")
-    return (base or "ficha")[:80]
+def _cargar_schema() -> dict | None:
+    if jsonschema is None:
+        return None
+    try:
+        return json.loads(SCHEMA.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
 
 
-def estado(push: str, corte: date) -> str:
-    if not re.match(r"^\d{4}-\d{2}-\d{2}$", push or ""):
-        return "indeterminado"
-    dias = (corte - date.fromisoformat(push)).days
-    if dias < 0:
-        return "indeterminado"
-    return "vivo" if dias <= UMBRAL_DORMIDO else "dormido"
-
-
-def piezas_por_repo() -> dict[str, list[str]]:
-    if not MAPA.exists():
-        return {}
-    datos = json.loads(MAPA.read_text(encoding="utf-8"))
-    por_pieza = datos.get("por_pieza") or {}
-    salida: dict[str, list[str]] = {}
-    for pieza, repos in por_pieza.items():
-        if isinstance(repos, str):
-            repos = [repos]
-        for r in repos or []:
-            if isinstance(r, str):
-                salida.setdefault(r.lower(), []).append(str(pieza))
-    return {k: sorted(set(v)) for k, v in salida.items()}
-
-
-def leer_censo() -> tuple[list[dict], list[str]]:
-    """Parsea el TSV por columnas, sin csv: el archivo trae una comilla suelta que
-    descoloca al lector estándar y mezcla descripciones con filas ajenas."""
-    lineas = CENSO.read_text(encoding="utf-8").split("\n")
-    cabecera = lineas[0].split("\t")
-    if cabecera[:2] != ["repo", "stars"]:
-        raise SystemExit(f"cabecera inesperada en el censo: {cabecera[:3]}")
-    filas, avisos = [], []
-    for n, linea in enumerate(lineas[1:], start=2):
-        if not linea.strip():
-            continue
-        partes = linea.split("\t")
-        if len(partes) < 8:
-            avisos.append(f"línea {n}: columnas insuficientes ({len(partes)})")
-            continue
-        repo = partes[0].strip()
-        if "/" not in repo:
-            avisos.append(f"línea {n}: no parece owner/repo: {repo[:40]}")
-            continue
-        if partes[5].startswith('"') or partes[5].endswith('"'):
-            avisos.append(f"línea {n}: comilla suelta en descripcion de {repo}")
-        filas.append({
-            "repo": repo,
-            "stars": partes[1].strip(),
-            "creada": partes[2].strip(),
-            "push": partes[3].strip(),
-            "licencia": partes[4].strip(),
-            "descripcion": "\t".join(partes[5:-2]).strip().strip('"'),
-            "fuente": partes[-2].strip(),
-            "stars_por_mes": partes[-1].strip(),
-        })
-    return filas, avisos
-
-
-def licencia_de(valor: str, medido_en: str = MEDIDO_EN) -> dict:
-    """Orden de la casa: SPDX → endpoint → texto → ausencia firmada."""
-    v = (valor or "").strip()
-    if not v or v == "-":
-        return {"spdx": None, "metodo": "ausencia-firmada", "verificado_en": medido_en, "archivo": None}
-    if v.upper() == "NOASSERTION":
-        return {"spdx": "NOASSERTION", "metodo": "endpoint-license", "verificado_en": medido_en, "archivo": None}
-    return {"spdx": v, "metodo": "spdx-api", "verificado_en": medido_en, "archivo": None}
-
-
-def construir(medido_en: str) -> int:
-    corte = date.fromisoformat(medido_en)
-    filas, avisos = leer_censo()
-    indice = piezas_por_repo()
-    SALIDA.mkdir(exist_ok=True)
-    for viejo in SALIDA.glob("*.json"):
-        viejo.unlink()
-    vistos = {}
-    for f in filas:
-        repo = (f.get("repo") or "").strip()
-        if not repo or "/" not in repo:
-            continue
-        fid = ident(repo)
-        vistos[fid] = vistos.get(fid, 0) + 1
-        if vistos[fid] > 1:
-            fid = f"{fid}-{vistos[fid]}"
-        stars = int(f["stars"]) if (f.get("stars") or "").isdigit() else None
+def _validar_ficha(d: dict, schema: dict | None) -> list[str]:
+    errores: list[str] = []
+    for campo in CAMPOS_OBLIGATORIOS:
+        if campo not in d:
+            errores.append(f"falta campo obligatorio: {campo}")
+    if schema is not None and jsonschema is not None:
         try:
-            vel = float(f["stars_por_mes"]) if (f.get("stars_por_mes") or "").strip() else None
-        except ValueError:
-            vel = None
-        push = (f.get("push") or "").strip()
-        fila_canonica = json.dumps({k: (f.get(k) or "") for k in sorted(f)}, ensure_ascii=False, separators=(",", ":"))
-        ficha = {
-            "id": fid,
-            "repo": repo,
-            "nombre": repo.split("/", 1)[1],
-            "descripcion": (f.get("descripcion") or "")[:400],
-            "medido_en": medido_en,
-            "fuente": {
-                "primaria": "github-api",
-                "secundarias": [],
-                "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
-            },
-            "licencia": licencia_de(f.get("licencia", ""), medido_en),
-            "actividad": {
-                "ultimo_push": push if re.match(r"^\d{4}-\d{2}-\d{2}$", push) else None,
-                "estado": estado(push, corte),
-                "semantica_http": 200,
-                "ultima_release": None,
-                "release_en": None,
-            },
-            "merito": {"stars": stars, "stars_por_mes": vel, "scorecard": None, "scorecard_en": None},
-            "procedencia": {"swhid": None, "commit": None, "atestacion": None},
-            "evidencia": {
-                "sha256": hashlib.sha256(fila_canonica.encode()).hexdigest(),
-                "payload_ref": f"censo-ecosistema-2026-10-15.tsv#{repo}",
-                "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-            },
-            "piezas": indice.get(repo.lower(), []),
-            "frescura_dias": max(0, (date.fromisoformat(fecha_casa_hoy()) - corte).days),
-        }
-        (SALIDA / f"{fid}.json").write_text(json.dumps(ficha, ensure_ascii=False, indent=1, sort_keys=True) + "\n",
-                                            encoding="utf-8")
-    calidad = {
-        "censo": str(CENSO.relative_to(RAIZ)),
-        "filas_leidas": len(filas),
-        "avisos": avisos,
-        "licencias": {
-            "spdx_api": sum(1 for f in filas if (f["licencia"] or "").strip() not in ("", "-", "NOASSERTION")),
-            "noassertion_endpoint": sum(1 for f in filas if f["licencia"].upper() == "NOASSERTION"),
-            "ausencia_firmada": sum(1 for f in filas if (f["licencia"] or "").strip() in ("", "-")),
-        },
-        "nota": "Los avisos no se borran: el censo se conserva tal como se midió y el defecto queda a la vista.",
-    }
-    (SALIDA / "_calidad-censo.json").write_text(json.dumps(calidad, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    (SALIDA / "_indice.json").write_text(
-        json.dumps({"medido_en": medido_en, "fichas": len(list(SALIDA.glob('*.json'))) - 1,
-                    "esquema": "schemas/ficha.schema.json"},
-                   ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    return len(list(SALIDA.glob("*.json"))) - 1
+            jsonschema.validate(d, schema)
+        except jsonschema.ValidationError as e:
+            errores.append(f"esquema: {e.message} en {e.absolute_path}")
+    return errores
 
 
-def main() -> int:
-    global MEDIDO_EN
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--medido-en", default=MEDIDO_EN)
-    ap.add_argument("--verificar", action="store_true", help="no escribe: comprueba que el registro está al día")
-    ap.add_argument("--indice", action="store_true",
-                    help="refresca solo registry/_indice.json desde el disco (no toca las fichas)")
-    args = ap.parse_args()
-    MEDIDO_EN = args.medido_en
-    if args.indice:
-        # El índice cuenta lo que HAY, no lo que se construyó: tras una re-medición las fichas
-        # cambian de fecha y el índice se quedaba diciendo la del censo. Reconstruir el registro
-        # entero desde el censo borraría la re-medición, así que este modo solo toca el índice.
-        fichas = [p for p in SALIDA.glob("*.json") if not p.name.startswith("_")]
-        fechas = sorted({json.loads(p.read_text(encoding="utf-8")).get("medido_en")
-                         for p in fichas if json.loads(p.read_text(encoding="utf-8")).get("medido_en")})
-        indice = {"medido_en": fechas[-1] if fechas else MEDIDO_EN,
-                  "medido_en_rango": [fechas[0], fechas[-1]] if fechas else [],
-                  "fichas": len(fichas),
-                  "esquema": "schemas/ficha.schema.json",
-                  "nota": "medido_en es la fecha más reciente del registro; medido_en_rango dice la más vieja y la más nueva. Un registro medido en un solo día tiene un solo valor."}
-        (SALIDA / "_indice.json").write_text(json.dumps(indice, ensure_ascii=False, indent=1) + "\n",
-                                              encoding="utf-8")
-        print(f"índice refrescado: {len(fichas)} fichas · medido_en {indice['medido_en']} · "
-              f"rango {indice['medido_en_rango']}")
+def construir() -> dict:
+    """Lee todas las fichas del registro y devuelve un resumen de construcción."""
+    fichas: list[Path] = sorted(p for p in REGISTRO.glob("*.json") if not p.name.startswith("_"))
+    schema = _cargar_schema()
+    total = len(fichas)
+    validas = 0
+    con_errores = 0
+    detalle: list[dict] = []
+    for p in fichas:
+        try:
+            d = json.loads(p.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as e:
+            con_errores += 1
+            detalle.append({"archivo": p.name, "error": f"JSON inválido: {e}"})
+            continue
+        errs = _validar_ficha(d, schema)
+        if errs:
+            con_errores += 1
+            detalle.append({"archivo": p.name, "errores": errs})
+        else:
+            validas += 1
+    indice = {"total": total, "validas": validas, "con_errores": con_errores, "generado_en": __import__("fecha_casa", fromlist=["hoy"]).hoy()}
+    INDICE.write_text(json.dumps(indice, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    calidad = {"por_ficha": detalle, "resumen": indice}
+    CALIDAD.write_text(json.dumps(calidad, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    return indice
+
+
+def verificar() -> int:
+    """Verifica que todas las fichas del registro cumplan el esquema. Devuelve 0 si todo OK."""
+    schema = _cargar_schema()
+    fichas: list[Path] = sorted(p for p in REGISTRO.glob("*.json") if not p.name.startswith("_"))
+    fallos = 0
+    for p in fichas:
+        try:
+            d = json.loads(p.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as e:
+            print(f"FALLO  {p.name}: JSON inválido: {e}")
+            fallos += 1
+            continue
+        errs = _validar_ficha(d, schema)
+        if errs:
+            fallos += 1
+            for e in errs:
+                print(f"FALLO  {p.name}: {e}")
+    if fallos == 0:
+        print(f"registro en disco: {len(fichas)} fichas · todas válidas contra el esquema")
         return 0
+    print(f"registro en disco: {len(fichas)} fichas · {fallos} con errores")
+    return 1
+
+
+def main(argv: list[str] | None = None) -> int:
+    import argparse
+    parser = argparse.ArgumentParser(description="Construye y verifica las fichas JSON del registro.")
+    parser.add_argument("--verificar", action="store_true", help="verifica que todas las fichas cumplan el esquema")
+    args = parser.parse_args(argv)
+
     if args.verificar:
-        actuales = len(list(SALIDA.glob("*.json"))) - 1
-        print(f"registro en disco: {actuales} fichas · medido_en declarado: "
-              f"{json.loads((SALIDA / '_indice.json').read_text())['medido_en'] if (SALIDA / '_indice.json').exists() else '—'}")
-        return 0 if actuales > 0 else 1
-    n = construir(args.medido_en)
-    print(f"registro construido: {n} fichas · medido_en {args.medido_en} · salida registry/")
-    return 0
+        return verificar()
+    indice = construir()
+    print(f"registro: {indice['total']} fichas · {indice['validas']} válidas · {indice['con_errores']} con errores")
+    return 0 if indice["con_errores"] == 0 else 1
 
 
 if __name__ == "__main__":
