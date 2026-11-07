@@ -1,0 +1,75 @@
+{
+ "id": "netbird",
+ "nombre": "NetBird",
+ "repo": "netbirdio/netbird",
+ "autores": [
+  {
+   "nombre": "NetBird y sus colaboradores",
+   "enlace": "https://netbird.io"
+  }
+ ],
+ "licencia": {
+  "spdx": "BSD-3-Clause",
+  "archivo": "https://github.com/netbirdio/netbird/blob/main/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Administrar una red privada entre equipos y personas, con reglas de quién entra a qué, y con la posibilidad de correr el control entero en tu propio servidor.",
+ "capitulo": 8,
+ "orden": 6,
+ "para_quien": {
+  "es": "para quien administra varios equipos y varias personas —una casa grande, una oficina chica, un grupo de trabajo— y necesita reglas de acceso, no sólo un túnel.",
+  "no_es": "para quien tiene dos aparatos y quiere verse entre ellos: hay opciones más chicas y con menos piezas, y están arriba en este capítulo."
+ },
+ "manos": [
+  "Decidí primero dónde va a vivir el control de la red: en tu servidor o fuera; la respuesta cambia todo lo demás.",
+  "Instalá el control y el panel siguiendo la guía del proyecto, o usá su servicio gestionado si aceptás que ese control no sea tuyo.",
+  "Instalá el cliente en un equipo y vinculalo con una llave de configuración del panel; comprobá que aparece en la lista de equipos.",
+  "Creá un grupo de acceso y una regla que permita un puerto concreto entre dos equipos, y verificá que el resto del tráfico no pasa.",
+  "Repetí con un segundo equipo en otra red y comprobá que la regla se cumple igual: la red no depende de dónde esté cada uno."
+ ],
+ "resultado_esperado": "Los equipos se ven entre sí según reglas explícitas, cada persona entra con su propia identidad y podés quitar el acceso a uno sin tocar a los demás.",
+ "si_sale_mal": [
+  "Si un equipo no aparece en el panel, revisá la llave de configuración y la hora del sistema: una diferencia de reloj rompe la vinculación.",
+  "Si la regla no se cumple, mirá el orden de las reglas y los grupos: la primera que coincide gana, y un grupo mal escrito deja la red abierta o cerrada.",
+  "Si el túnel conecta pero no hay tráfico, comprobá que el otro lado tenga el servicio escuchando en ese puerto y no en otro."
+ ],
+ "deshacer": "Quitar un equipo del panel lo expulsa al instante; el cliente queda instalado y sin red. Desinstalar el control deja los equipos como estaban, y las reglas viven sólo en el panel, así que se van con él.",
+ "cabeza": [
+  "NetBird hace lo mismo que una red privada moderna —equipos que se encuentran y hablan cifrado entre ellos— y le agrega lo que una casa grande o una oficina necesitan: **personas**. Cada equipo se vincula con una identidad, y el acceso se da por grupos y reglas, no por direcciones. Eso es administración de red, y es una categoría distinta de la de las cinco fichas anteriores.",
+  "Su licencia es la más interesante para leer de todo el capítulo, y es un buen ejemplo de por qué conviene abrir el archivo: la mayor parte del repositorio va con licencia permisiva, **excepto** las carpetas del servidor de administración, la señalización y el relé, que van con copyleft fuerte. Es una separación deliberada —el cliente libre, el control con más obligaciones— y está escrita en las primeras líneas del archivo.",
+  "Treinta mil seiscientas treinta estrellas y setecientas cincuenta y siete mil ochocientas cuarenta y seis descargas en diez entregas. Sus paquetes de instalación del servidor se publican como guiones de arranque —uno de ellos, con su propio sistema de identidades—, lo que dice mucho de a quién está dirigido: alguien que ya tiene un servidor y sabe lo que hace."
+ ],
+ "limites": [
+  "Es infraestructura: pide un servidor, un nombre, certificados y mantenimiento.",
+  "Su licencia cambia por carpetas: permisiva en el cliente, copyleft en el control, el relé y la señalización.",
+  "El panel de administración concentra todo el poder sobre la red: si cae o se compromete, cae la red.",
+  "Para dos aparatos es demasiada pieza; para veinte empieza a valer la pena."
+ ],
+ "oficio": {
+  "dato": "En una red administrada, el dato que hay que vigilar no es el estado de los túneles: es la lista de reglas. Un túnel arriba con una regla demasiado ancha es una red abierta que se ve ordenada. La comprobación honesta es la inversa de la que hace todo el mundo: en lugar de probar que lo que debe pasar pasa, probar que lo que no debe pasar **no pasa**, desde el equipo equivocado y contra el puerto equivocado. Esa prueba se hace una vez al montar la red y cada vez que alguien toca una regla, y es la diferencia entre administrar y suponer.",
+  "como_comprobar": "Desde un equipo que no debería tener acceso, intentá llegar al puerto de un servicio de otro grupo. Si contesta, la regla no está haciendo nada. Guardá el resultado de la prueba con la fecha junto a la configuración.",
+  "comando": "netbird status -d && nc -zv 100.64.0.5 8080"
+ },
+ "riesgos": [
+  "Creer que la red está cerrada porque los túneles están arriba, sin haber probado nunca desde el lado equivocado.",
+  "Concentrar el control en un panel sin copias ni protección, y perder con él la administración de toda la red."
+ ],
+ "alternativas": [
+  "juanfont/headscale",
+  "wg-easy/wg-easy"
+ ],
+ "senal": {
+  "estrellas": 30671,
+  "nota": 63,
+  "edad_dias": 2030,
+  "ultima_entrega": "2026-10-29",
+  "descargas_10": 786831,
+  "contribuyentes": 100,
+  "repo_mb": 174.4,
+  "ci": 5,
+  "incidencias": "468 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de NetBird y sus colaboradores · BSD-3-Clause con el control, la señalización y el relé en AGPL-3.0 · medido el 3 de noviembre de 2026"
+}

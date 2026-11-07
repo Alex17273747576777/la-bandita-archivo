@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-23"
+ },
+ "descripcion": "An Open Source app for anime, reading mangas and novels",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/gango0--anymex-preview.json",
+  "sha256": "0d24f8ae22c52a36d976d8f21b9e5615c3afc047999a86a14011b167ff742826"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "gango0--anymex-preview",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "AnymeX-Preview",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "275e8016b51cb61674c67f5d4b7b3fa73454c840",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:275e8016b51cb61674c67f5d4b7b3fa73454c840"
+ },
+ "repo": "Gango0/AnymeX-Preview"
+}

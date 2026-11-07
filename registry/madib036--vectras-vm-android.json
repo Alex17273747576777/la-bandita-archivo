@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-12"
+ },
+ "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/madib036--vectras-vm-android.json",
+  "sha256": "cc1b2c6797b3e0a72de3fbcf4a053dd542836eb6a69a40df3662004ba825572d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "madib036--vectras-vm-android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "vectras-vm-android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4316c671ac31870b2b51e8741254e8ba17ce1ff5",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4316c671ac31870b2b51e8741254e8ba17ce1ff5"
+ },
+ "repo": "Madib036/vectras-vm-android"
+}

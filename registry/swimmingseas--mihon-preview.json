@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-03-30"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/swimmingseas--mihon-preview.json",
+  "sha256": "5a6167485061efd1a3a31d613c5efcff54cd8cdb368ac5164a8e5a4235a0eca9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "swimmingseas--mihon-preview",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mihon-preview",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5bf0b2234b5294d3a2849b0396d1ae92731fca47",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5bf0b2234b5294d3a2849b0396d1ae92731fca47"
+ },
+ "repo": "swimmingseas/mihon-preview"
+}

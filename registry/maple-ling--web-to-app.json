@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-22"
+ },
+ "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop th",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/maple-ling--web-to-app.json",
+  "sha256": "688e8ce183a7e9d8af68db8bd9fc43fc2f64e3f056fad2a009ad339a60752224"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "maple-ling--web-to-app",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "web-to-app",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d6c466f77a6c71a7c6a23f22997f3588cd47fba9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d6c466f77a6c71a7c6a23f22997f3588cd47fba9"
+ },
+ "repo": "Maple-Ling/web-to-app"
+}

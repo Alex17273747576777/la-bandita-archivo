@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-10-15"
+ },
+ "descripcion": "Free and open source application for reading manga, novels, and watching animes",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mah24698-maker--mangayomi.json",
+  "sha256": "8231bd640065e3972fedf4e85331c2afd1a0c278a82698cb662c728d64d34e3f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mah24698-maker--mangayomi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mangayomi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7c47d19a709beaf5060f9b780e2ef84aa695b9cf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7c47d19a709beaf5060f9b780e2ef84aa695b9cf"
+ },
+ "repo": "mah24698-maker/mangayomi"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-02",
+  "semantica_http": 200,
+  "ultima_release": "v1.14.1-pagecurl",
+  "ultimo_push": "2026-10-03"
+ },
+ "descripcion": "Free and open source manga reader for Android with page turn animation",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lceburn--komikku-page-curl.json",
+  "sha256": "0be9e67324a4d1cb5606ca60c38ecdacc1e2e899524e12815c336829decd926c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lceburn--komikku-page-curl",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "komikku-Page-Curl",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "274c13eea2ff149153bead85dc6448da79fe1117",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:274c13eea2ff149153bead85dc6448da79fe1117"
+ },
+ "repo": "lceburn/komikku-Page-Curl"
+}

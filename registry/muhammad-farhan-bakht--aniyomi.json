@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2022-07-13"
+ },
+ "descripcion": "Unofficial fork of Tachiyomi for anime",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/muhammad-farhan-bakht--aniyomi.json",
+  "sha256": "1648cf1f910c12cff364193859e31044bc0e7007273b4199f7a6f61813a5414c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "muhammad-farhan-bakht--aniyomi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "aniyomi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f1169dbd9788969bb589d183cc17c97f07b3fe25",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f1169dbd9788969bb589d183cc17c97f07b3fe25"
+ },
+ "repo": "muhammad-farhan-bakht/aniyomi"
+}

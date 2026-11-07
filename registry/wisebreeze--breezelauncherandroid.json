@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-28",
+  "semantica_http": 200,
+  "ultima_release": "artifact",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "BreezeLauncher is a modern, high-performance launcher for Minecraft on Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/wisebreeze--breezelauncherandroid.json",
+  "sha256": "dcc535bfbf1d1bd6c5d122b68e28e3c32b028c3cb081f588d188e1b7047fe420"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "wisebreeze--breezelauncherandroid",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "BreezeLauncherAndroid",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "512c0b8f46c576099794c1daf44d3741a1f23049",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:512c0b8f46c576099794c1daf44d3741a1f23049"
+ },
+ "repo": "wisebreeze/BreezeLauncherAndroid"
+}

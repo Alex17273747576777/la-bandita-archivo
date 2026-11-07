@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-20",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "不只是对话，是持续认识你的 AI。开源 Android AI 伴侣：本地优先，能替你做事。 | Not just chat — an AI that truly knows you. An open-source, local-first Android AI companion that gets things done.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zer0qing--muse.json",
+  "sha256": "2b867ec4d66c7ffa6a01feb43142622cb7a59138ee8658b88de3a0be85fb5bb1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zer0qing--muse",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 71,
+  "stars_por_mes": null
+ },
+ "nombre": "Muse",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ef17b373dd763732164964e29c1736b2dc8671a4",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:ef17b373dd763732164964e29c1736b2dc8671a4"
+ },
+ "repo": "Zer0Qing/Muse",
+ "web": "https://museai.ltd"
+}

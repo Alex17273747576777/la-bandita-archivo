@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-24"
+ },
+ "descripcion": "Booru is your all-in-one app for viewing content from the most popular booru sit",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ero-gamer--booru-next.json",
+  "sha256": "a03ee974fb280e5deccc7eb9ccd716e4e39015098ef88a3f00bb9233ff4b3cfa"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ero-gamer--booru-next",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Booru-Next",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ebd1dba06bc81c8a2d33abe364469d9fa53f1e2b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ebd1dba06bc81c8a2d33abe364469d9fa53f1e2b"
+ },
+ "repo": "Ero-gamer/Booru-Next"
+}

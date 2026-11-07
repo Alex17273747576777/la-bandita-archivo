@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-07"
+ },
+ "descripcion": "A feature-packed Android media downloader. View all native stream formats, downl",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lexastrong--hazel.json",
+  "sha256": "605e3a65dd6d36c47266f70a2070bda61bb3d1ec42781dd8301e8e0f167c4309"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lexastrong--hazel",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Hazel",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8a04614ae4828b3c8a645b9d1278f499a7b91709",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8a04614ae4828b3c8a645b9d1278f499a7b91709"
+ },
+ "repo": "LexaStrong/Hazel"
+}

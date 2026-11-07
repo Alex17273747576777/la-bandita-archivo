@@ -1,0 +1,75 @@
+{
+ "id": "f-droid",
+ "nombre": "F-Droid",
+ "repo": "f-droid/fdroidclient",
+ "autores": [
+  {
+   "nombre": "F-Droid",
+   "enlace": "https://gitlab.com/fdroid/fdroidclient"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/f-droid/fdroidclient/blob/master/LICENSE"
+ },
+ "nivel": "principiante",
+ "tarea": "Tener una tienda entera de software libre en el teléfono, con catálogo, avisos de actualización y un índice firmado que se puede comprobar.",
+ "capitulo": 4,
+ "orden": 2,
+ "para_quien": {
+  "es": "para quien quiere una tienda completa de aplicaciones libres, con un catálogo que alguien revisa y con avisos de cuándo una aplicación deja de ser libre.",
+  "no_es": "para quien busca la última versión el mismo día que sale: F-Droid compila y revisa antes de publicar, y eso tarda semanas o meses."
+ },
+ "manos": [
+  "Bajá la APK del cliente desde la entrega de su casa en GitLab, no del espejo de GitHub: en el espejo la última entrega es de enero de 2024.",
+  "Comprobá el archivo con su firma separada antes de instalar: el proyecto publica el APK junto a su `.asc`, y esa firma se verifica con `gpg --verify`.",
+  "Al abrir la aplicación por primera vez, dejá que actualice el índice y revisá en los ajustes qué repositorios tenés activos; el catálogo principal viene solo.",
+  "Instalá una aplicación pequeña y mirá la ficha: la tienda te dice qué permisos declara y si la aplicación tiene rastreadores conocidos.",
+  "Activá las actualizaciones automáticas y revisá cada tanto la lista de aplicaciones que quedaron sin actualizar: ahí aparecen los proyectos que dejaron de publicar."
+ ],
+ "resultado_esperado": "Tenés una tienda funcionando con catálogo propio, actualizaciones avisadas y la posibilidad de comprobar que el índice que ves es el que F-Droid firmó.",
+ "si_sale_mal": [
+  "Si el cliente no actualiza el índice, revisá la fecha del teléfono: con la hora corrida, la firma del índice no valida y la descarga se niega.",
+  "Si una aplicación de otra tienda no se puede instalar encima de la de F-Droid, el motivo es la firma: F-Droid recompila y refirma con su llave.",
+  "Si querés la versión del autor en lugar de la de F-Droid, desinstalá primero y exportá los datos: no hay actualización posible entre las dos."
+ ],
+ "deshacer": "Desinstalar el cliente de F-Droid no desinstala nada de lo que instaló: las aplicaciones siguen funcionando y dejan de recibir avisos. Volver a la versión del autor de una aplicación concreta exige desinstalarla, porque la llave de F-Droid no es la del autor.",
+ "cabeza": [
+  "F-Droid no es un espejo de repositorios: es una fábrica. Toma el código publicado, lo compila en sus servidores, lo firma con su propia llave y publica el resultado. Eso le permite revisar qué contiene el paquete y avisar cuando una aplicación incorpora una biblioteca de seguimiento, algo que ninguna tienda que sólo redistribuye puede afirmar. Y le cuesta tiempo: la versión que te llega suele ser la de hace semanas o meses, no la de ayer.",
+  "La consecuencia práctica es la que más consultas genera y la que casi nadie explica: el paquete de F-Droid y el paquete del autor son la misma aplicación firmada por personas distintas. Android los trata como enemigos. No hay manera de pasar de uno a otro conservando los datos, y tampoco es un fallo de la tienda: es el diseño de la firma funcionando como debe.",
+  "Su índice está firmado, y ese es su argumento serio: si alguien intercepta la descarga del catálogo y lo altera, la firma no valida y la tienda se niega. Es una defensa real, distinta de la que ofrece la firma de cada paquete."
+ ],
+ "limites": [
+  "Recompila y refirma: la llave del paquete es de F-Droid, no del autor, así que no se puede cambiar de canal sin desinstalar.",
+  "Publica con retraso respecto del proyecto: si necesitás una corrección de seguridad del día anterior, esta tienda no te la va a dar todavía.",
+  "En su espejo de GitHub la última entrega es la 1.18.0, de enero de 2024, mientras la casa va por la 2.0.3, de octubre de 2026: la dirección que uses decide qué versión te llevás.",
+  "Su catálogo excluye lo que no puede compilar desde el código, aunque el proyecto sea libre."
+ ],
+ "oficio": {
+  "dato": "El mismo proyecto da dos respuestas distintas según a qué API le preguntes, y esa distancia es el error de medición más común en los catálogos de aplicaciones que circulan por los grupos. En el espejo de GitHub, la última entrega del cliente de F-Droid es la 1.18.0, publicada el 24 de enero de 2024, con setenta y tres mil doscientas veintiocho descargas acumuladas en su única entrega listada. En la casa de GitLab, la etiqueta más reciente es la 2.0.3, del 29 de octubre de 2026, con actividad el mismo día de la medición. Dos años y nueve meses de diferencia en el mismo programa. Y no es un caso raro: Aurora Store tiene el mismo patrón al revés. Antes de recomendar una versión, mirá qué dirección estás leyendo.",
+  "como_comprobar": "Preguntale a las dos direcciones por lo más reciente y compará. La primera orden consulta el espejo; la segunda, la casa. La diferencia de fechas es la lección completa.",
+  "comando": "curl -s \"https://api.github.com/repos/f-droid/fdroidclient/releases?per_page=1\" | grep tag_name\ncurl -s \"https://gitlab.com/api/v4/projects/fdroid%2Ffdroidclient/repository/tags?per_page=1\" | grep -m1 name"
+ },
+ "riesgos": [
+  "Bajar el cliente del espejo equivocado y quedarse con una versión de hace casi tres años.",
+  "Instalar la versión de F-Droid de una aplicación que ya tenías del autor y descubrir, al intentar actualizarla, que hay que borrar los datos."
+ ],
+ "alternativas": [
+  "accrescent/accrescent",
+  "ImranR98/Obtainium"
+ ],
+ "senal": {
+  "estrellas": 3255,
+  "nota": 45,
+  "edad_dias": 4487,
+  "ultima_entrega": "2024-01-24",
+  "descargas_10": 73329,
+  "contribuyentes": 100,
+  "repo_mb": 62.3,
+  "ci": 0,
+  "incidencias": "0 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de F-Droid y su comunidad · GPL-3.0 · medido el 3 de noviembre de 2026 en el espejo de GitHub y en la casa de GitLab"
+}

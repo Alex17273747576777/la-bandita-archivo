@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-10-17"
+ },
+ "descripcion": "Free and open source manga reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/grimcat-07--mihon.json",
+  "sha256": "79846a5d8f190c4ab2252e48c24f27cd21fefddc6eb6f5e3a52f7a36dfc9434d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "grimcat-07--mihon",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mihon",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "57a0ab67112d1966c00d7ec433a2cff70064495e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:57a0ab67112d1966c00d7ec433a2cff70064495e"
+ },
+ "repo": "GRIMCAT-07/mihon"
+}

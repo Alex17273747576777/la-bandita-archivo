@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-02-27"
+ },
+ "descripcion": "https://fmhy.net/",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kepala1--fmhy.json",
+  "sha256": "2f0896ee95b57884727a14f871509cfab6f5d6cf0f3fb092b3a22cc307ac3732"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kepala1--fmhy",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "FMHY",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3ef79bcd2f4ae4b788d776970721b73a739e3d2d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3ef79bcd2f4ae4b788d776970721b73a739e3d2d"
+ },
+ "repo": "kepala1/FMHY"
+}

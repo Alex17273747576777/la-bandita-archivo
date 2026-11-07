@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-18"
+ },
+ "descripcion": "Seamless immersion language learning for anime, manga, novels on all platforms",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/octobored--manatan.json",
+  "sha256": "6fdb9c8a5c1a78ee963adfaa4685349ef2dae20977442be115c61ce1fc1d996a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "octobored--manatan",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Manatan",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "26f903a00d06a7d453d05c0e3db53657579c62ac",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:26f903a00d06a7d453d05c0e3db53657579c62ac"
+ },
+ "repo": "OctoBored/Manatan"
+}

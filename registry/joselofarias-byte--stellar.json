@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-12"
+ },
+ "descripcion": "Another Shizuku impl",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/joselofarias-byte--stellar.json",
+  "sha256": "6d0d93e19a3db364d5c49d4635865ec0613f6352ed11b4ed2711deb9ce4ec7ba"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "joselofarias-byte--stellar",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Stellar",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "afa9b46c75d00c581b431454ebc8038a5cbf460b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:afa9b46c75d00c581b431454ebc8038a5cbf460b"
+ },
+ "repo": "joselofarias-byte/Stellar"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "apkid",
+ "nombre": "APKiD",
+ "repo": "rednaga/APKiD",
+ "autores": [
+  {
+   "nombre": "Red Naga (Caleb Fenton y colaboradores)",
+   "enlace": "https://github.com/rednaga"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0-only",
+  "archivo": "https://github.com/rednaga/APKiD/blob/master/LICENSE.GPL"
+ },
+ "nivel": "experto",
+ "tarea": "Saber cómo se construyó un paquete de Android —compilador, empaquetador, ofuscador— para detectar uno reconstruido por un tercero o entender por qué no se deja leer.",
+ "capitulo": 12,
+ "orden": 5,
+ "para_quien": {
+  "es": "para quien recibe un paquete de una fuente dudosa y quiere una señal objetiva antes de instalarlo, y para quien desarma aplicaciones y necesita saber a qué se enfrenta.",
+  "no_es": "para quien busca un antivirus: esto identifica herramientas de construcción, no malware, y un paquete limpio de empaquetador puede ser perfectamente malicioso."
+ },
+ "manos": [
+  "Instalá la herramienta en la computadora, con su entorno de ejecución, y comprobá la versión contra la entrega publicada.",
+  "Conseguí el paquete de dos sitios distintos: el del repositorio del autor y el que te dieron, y guardalos separados.",
+  "Corré el análisis sobre los dos y compará la salida: si uno lleva empaquetador y el otro no, ya tenés la respuesta.",
+  "Mirá también los nombres de compilador y de ofuscador: un paquete reconstruido casi siempre trae herramientas que el original no tenía.",
+  "Anotá el resultado con fecha y versión del paquete: es la prueba que vas a querer mostrar si alguien te discute."
+ ],
+ "resultado_esperado": "Sabés si el paquete que tenés se construyó con las mismas herramientas que el original y, por lo tanto, si hay motivo para desconfiar antes de instalarlo.",
+ "si_sale_mal": [
+  "Si la salida no menciona nada conocido, no significa que el paquete sea limpio: significa que no coincide con las firmas que la herramienta reconoce.",
+  "Si el paquete está dividido en varios archivos, analizá el principal y luego los complementos: el empaquetador puede estar en cualquiera.",
+  "Si comparás dos versiones distintas del mismo programa, las diferencias de herramientas pueden ser legítimas: compará siempre la misma versión."
+ ],
+ "deshacer": "No instala ni ejecuta el paquete analizado: lee el archivo. Borrar la herramienta y los archivos de salida deja la computadora como estaba.",
+ "cabeza": [
+  "Un paquete de Android es un archivo comprimido con código compilado, recursos y un manifiesto. Quien lo reconstruye —para traducirlo, para quitarle publicidad o para meterle algo— deja huellas en cómo quedó armado. APKiD lee esas huellas: dice con qué compilador se hizo, si pasó por un empaquetador y si alguien lo ofuscó.",
+  "Su utilidad práctica es de las más directas de la guía: comparar el paquete oficial con el que te ofrecieron. Si el segundo lleva un empaquetador que el primero no tiene, no hace falta ser experto para entender el mensaje. Y su otra utilidad es más fina: saber que una aplicación está protegida explica por qué las herramientas del capítulo 10 no la leen bien, y evita concluir que la aplicación esconde algo cuando sólo está protegida.",
+  "Su nota es treinta y uno, la más baja de los doce capítulos, y el motivo no es el programa: es el proyecto. Treinta y siete personas han empujado código, pero la herramienta vive de un equipo pequeño, sin canal de seguridad declarado y sin huellas en sus adjuntos. Y tiene doble licencia —GPL-3.0 o comercial—, algo que esta guía declara porque cambia lo que podés hacer con su código."
+ ],
+ "limites": [
+  "Identifica herramientas de construcción, no comportamiento malicioso.",
+  "Depende de una lista de firmas que hay que mantener al día.",
+  "Es un programa de computadora: no corre en el teléfono.",
+  "Su licencia libre es GPL-3.0; el uso comercial sin esas obligaciones se paga aparte."
+ ],
+ "oficio": {
+  "dato": "Cuando alguien reconstruye un paquete cambia, casi sin querer, la forma en que está armado: el orden de los archivos, las herramientas usadas, el tamaño de las secciones. Por eso la comparación más útil no es de contenido sino de construcción: el paquete oficial y el reconstruido pueden mostrar el mismo ícono y el mismo nombre, y delatarse en la firma de la herramienta que los armó. Es la misma lógica del capítulo 4 —al reconstruir, la firma cambia— vista desde el otro lado: la huella del constructor es la que dice si el archivo salió del mismo taller.",
+  "como_comprobar": "Corré el análisis sobre el paquete oficial y sobre el que te dieron, y compará las líneas de compilador y de empaquetador: las diferencias son la prueba.",
+  "comando": "apkid app.apk"
+ },
+ "riesgos": [
+  "Concluir que un paquete es seguro porque no muestra empaquetador, cuando nada de eso mide intenciones.",
+  "Usar la herramienta para desarmar el trabajo ajeno y redistribuirlo, que es exactamente lo que la guía no hace."
+ ],
+ "alternativas": [
+  "skylot/jadx",
+  "iBotPeaches/Apktool"
+ ],
+ "senal": {
+  "estrellas": 2612,
+  "nota": 31,
+  "edad_dias": 3786,
+  "ultima_entrega": "2026-10-21",
+  "descargas_10": 993,
+  "contribuyentes": 33,
+  "repo_mb": 10.1,
+  "ci": 0,
+  "incidencias": "82 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Herramienta de Red Naga · GPL-3.0-only con licencia comercial alternativa · medido el 3 de noviembre de 2026"
+}

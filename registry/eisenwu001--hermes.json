@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-18"
+ },
+ "descripcion": "A free and open-source Android manga reader, Forked on Yōkai.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/eisenwu001--hermes.json",
+  "sha256": "236ed760c4485461daa03a0573e2dbd69bdba9f5509f72e28a5fe5f30fb6d2b5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "eisenwu001--hermes",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Hermes",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7337fd0848473df670b5edf172a4f23c370aaaa0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7337fd0848473df670b5edf172a4f23c370aaaa0"
+ },
+ "repo": "Eisenwu001/Hermes"
+}

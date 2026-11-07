@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-08"
+ },
+ "descripcion": "Free and open source manga reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/veljko-vulovic--komikku_plus.json",
+  "sha256": "5b53dc7ce1514f4327bb28a9303eda87a32b7840441f1b369aee93efa4cd1542"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "veljko-vulovic--komikku_plus",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "komikku_plus",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "43e92b62949a33a672f16a6a084f86c54b6e7f10",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:43e92b62949a33a672f16a6a084f86c54b6e7f10"
+ },
+ "repo": "veljko-vulovic/komikku_plus"
+}

@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-24",
+  "semantica_http": 200,
+  "ultima_release": "v0.3.9",
+  "ultimo_push": "2026-10-24"
+ },
+ "descripcion": "墨读：为华为 552×768 四色 NFC 墨水屏定向优化的本地 Android TXT 阅读器",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/pjk2336--huawei-eink-reader.json",
+  "sha256": "8a00cd8e8908a5a3f9063c128b6ff20dc69c81049979089d6f5431c91deb51eb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "pjk2336--huawei-eink-reader",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («noncommercial»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 5,
+  "stars_por_mes": null
+ },
+ "nombre": "huawei-eink-reader",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a4b72b79acec37543339b9810bcb34105b061d65",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a4b72b79acec37543339b9810bcb34105b061d65"
+ },
+ "repo": "pjk2336/huawei-eink-reader"
+}

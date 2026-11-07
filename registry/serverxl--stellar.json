@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-25"
+ },
+ "descripcion": "Another Shizuku impl",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/serverxl--stellar.json",
+  "sha256": "e52d2f9d3c9cc5091426b56cd802e40105f47e25add0254bb023ad58e1c274c7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "serverxl--stellar",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Stellar",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "abba17f64737663e06d87fa82eb57dfbb982f163",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:abba17f64737663e06d87fa82eb57dfbb982f163"
+ },
+ "repo": "Serverxl/Stellar"
+}

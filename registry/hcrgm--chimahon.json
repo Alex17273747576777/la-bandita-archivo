@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-28"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hcrgm--chimahon.json",
+  "sha256": "56ed09cbb0f5b20624cea17eb507484f5b0b96e0da857094275f17213dabf0e7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hcrgm--chimahon",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "chimahon",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3021754996969e835183f32c2b389328a64e6bef",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3021754996969e835183f32c2b389328a64e6bef"
+ },
+ "repo": "hcrgm/chimahon"
+}

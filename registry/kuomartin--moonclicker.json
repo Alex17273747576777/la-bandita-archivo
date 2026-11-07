@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-17",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-10-22"
+ },
+ "descripcion": "MoonClicker is an Android automation tool driven by Lua scripts. Through Shizuku, it creates virtual displays where target apps run in the background without taking over your screen, injects touch and key events, and recognizes the screen with on-device template matching and OCR. Scripts are written and debugged from VS Code.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kuomartin--moonclicker.json",
+  "sha256": "8fcd91dabff0615dd31aba920825a8bb93b3aa68ac3f1d7f705176795e7b0057"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kuomartin--moonclicker",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "MoonClicker",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c42aa25a2402c0bda1f286ab90fc9b1811bebda5",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c42aa25a2402c0bda1f286ab90fc9b1811bebda5"
+ },
+ "repo": "kuomartin/MoonClicker"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-10",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-10-12"
+ },
+ "descripcion": "Automatically switch Android's Private DNS (DNS-over-TLS) based on the app you open. No VPN, no tracking, open source.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/shishir-ip--appdns.json",
+  "sha256": "9287451ab4f26104bd23648ae8c00bc9e930664c73ab1223e42c6f553e520792"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "shishir-ip--appdns",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 22,
+  "stars_por_mes": null
+ },
+ "nombre": "AppDNS",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "42944363c3f65380802f95a717c14aadefb1744d",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:42944363c3f65380802f95a717c14aadefb1744d"
+ },
+ "repo": "Shishir-ip/AppDNS"
+}

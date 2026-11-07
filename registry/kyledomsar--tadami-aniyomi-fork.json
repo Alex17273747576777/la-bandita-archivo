@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "muerto",
+  "release_en": null,
+  "semantica_http": 404,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-12"
+ },
+ "descripcion": "An app for manga, anime and ranobe",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#KyleDomSar/Tadami-Aniyomi-fork",
+  "sha256": "f43ec0c81b092fd6b5a75c8d71c5e4539a3beaadbfe9d30233824bd2e043a77f"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-10-15",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-11-14",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kyledomsar--tadami-aniyomi-fork",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": null,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Tadami-Aniyomi-fork",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "KyleDomSar/Tadami-Aniyomi-fork"
+}

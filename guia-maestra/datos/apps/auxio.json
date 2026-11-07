@@ -1,0 +1,75 @@
+{
+ "id": "auxio",
+ "nombre": "Auxio",
+ "repo": "OxygenCobalt/Auxio",
+ "autores": [
+  {
+   "nombre": "OxygenCobalt",
+   "enlace": "https://github.com/OxygenCobalt"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/OxygenCobalt/Auxio/blob/dev/LICENSE"
+ },
+ "nivel": "principiante",
+ "tarea": "Escuchar la música que ya tenés en el teléfono con un reproductor rápido, sin cuenta, sin nube y sin funciones que no pediste.",
+ "capitulo": 6,
+ "orden": 1,
+ "para_quien": {
+  "es": "para quien tiene archivos de música en el teléfono o en la tarjeta y quiere un reproductor que los ordene bien y arranque rápido.",
+  "no_es": "para quien escucha por suscripción o busca letras, vídeos y recomendaciones: este reproductor no se conecta a ningún servicio."
+ },
+ "manos": [
+  "Bajá la APK de la última entrega desde el repositorio y comprobá la descarga antes de instalar; el proyecto publica un solo archivo por entrega.",
+  "Al abrirlo por primera vez, dale permiso de lectura de audio y esperá a que indexe la biblioteca: la primera vez tarda según la cantidad de archivos.",
+  "Revisá la pestaña de álbumes y buscá los que aparecen partidos; eso no es un fallo del programa, son etiquetas distintas en los archivos.",
+  "Corregí esas etiquetas en los archivos y volvé a indexar desde los ajustes: el reproductor mostrará el álbum completo, en orden y con una sola carátula.",
+  "Creá una lista con lo que escuchás seguido y comprobá que sigue ahí después de reiniciar el teléfono."
+ ],
+ "resultado_esperado": "La música del teléfono aparece ordenada por artista, álbum y pista, suena sin cortes, y las listas que creaste sobreviven a los reinicios.",
+ "si_sale_mal": [
+  "Si faltan canciones, el problema suele ser el formato o la carpeta: comprobá que el archivo no esté en una carpeta excluida por el sistema y que el formato sea de los admitidos.",
+  "Si un álbum aparece tres veces, compará las etiquetas de sus archivos: distinto artista, distinto año o acentos diferentes cuentan como álbumes distintos.",
+  "Si después de copiar música nueva no aparece, forzá una nueva indexación desde los ajustes en lugar de reinstalar."
+ ],
+ "deshacer": "Desinstalarla no toca ni un archivo de música: todo sigue donde estaba. Sólo se pierden las listas de reproducción creadas dentro de la aplicación, así que conviene exportarlas si el programa lo permite.",
+ "cabeza": [
+  "Auxio se construyó sobre las bibliotecas modernas de reproducción de Android, las mismas que usa el sistema para su reproductor de medios. Eso le da una ventaja discreta y muy práctica: no recorre las carpetas buscando archivos, sino que le pregunta al **catálogo** del sistema qué audio existe. Si ese catálogo está incompleto, el reproductor parece roto cuando en realidad está mostrando lo que le dijeron.",
+  "De ahí viene casi todo lo que la gente reporta como error: canciones que no aparecen, álbumes repetidos, portadas que no cargan. Ninguna de esas tres cosas la decide la aplicación: la primera la decide el catálogo del sistema, y las otras dos las deciden las etiquetas y las carátulas dentro de cada archivo. Un reproductor honesto no adivina; muestra.",
+  "Su decisión de diseño —pocas funciones, sin nube, sin cuentas, sin conexión a servicios— explica sus cuatro mil cuatrocientas diecinueve estrellas y sus noventa y ocho mil trescientas dos descargas en diez entregas: hay mucha gente que sólo quiere que suene lo que tiene. Y explica también por qué se distribuye en Accrescent, la tienda del capítulo 4."
+ ],
+ "limites": [
+  "No se conecta a ningún servicio: no hay catálogo, ni letras, ni recomendaciones.",
+  "Depende del catálogo de medios del sistema: si el teléfono no indexó un archivo, no aparece.",
+  "Su última entrega es de agosto de 2026, aunque el código siga moviéndose; no es un proyecto abandonado, pero tampoco publica cada mes.",
+  "No reproduce audio de carpetas que el sistema considere privadas de otra aplicación."
+ ],
+ "oficio": {
+  "dato": "Antes de culpar al reproductor, mirá la etiqueta. Un archivo de audio puede llevar dos artistas distintos: el de la pista y el del álbum. Los reproductores ordenan por el del álbum, y cuando está vacío usan el de la pista, y de ahí salen los discos partidos en tres. Un caso clásico: un disco con un tema a dúo, donde sólo esa pista lleva el nombre del invitado, aparece como dos álbumes distintos del mismo disco. Con una orden se ve todo lo que el archivo declara, sin abrir ningún programa de escritorio y sin instalar nada. Y sirve para lo contrario también: si querés que tu biblioteca se vea igual en cualquier reproductor dentro de diez años, lo que hay que cuidar son estos campos, no la aplicación que uses hoy.",
+  "como_comprobar": "Elegí el álbum que aparece partido y volcá las etiquetas de dos de sus archivos. Compará el campo del artista del álbum: si en uno está vacío o escrito distinto, ahí está la explicación completa.",
+  "comando": "ffprobe -v error -show_entries format_tags=artist,album_artist,album,title,track -of default=nw=1 01-pista.flac"
+ },
+ "riesgos": [
+  "Reinstalar el reproductor esperando que arregle una biblioteca cuyo problema son las etiquetas.",
+  "Dar permiso de audio a cualquier aplicación que lo pida: ese permiso entrega toda tu biblioteca y su historial de reproducción."
+ ],
+ "alternativas": [
+  "AkaneTan/Gramophone",
+  "navidrome/navidrome"
+ ],
+ "senal": {
+  "estrellas": 4421,
+  "nota": 47,
+  "edad_dias": 2270,
+  "ultima_entrega": "2026-08-04",
+  "descargas_10": 98464,
+  "contribuyentes": 42,
+  "repo_mb": 65.1,
+  "ci": 2,
+  "incidencias": "188 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de OxygenCobalt y su comunidad · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

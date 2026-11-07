@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-27",
+  "semantica_http": 200,
+  "ultima_release": "v0.01",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Android client for DeepSeek Harness: on-device Node.js 22 runtime, plugin host, and Linux environment",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/all-pay-c--harnessforandroid.json",
+  "sha256": "a1dc87254178f63335867c4fb94912a1f6fa9de0797ebe4d31096146b0614083"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "all-pay-c--harnessforandroid",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "HarnessForAndroid",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1849992f48140f0113f7a15ebfce576f8a2a5453",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:1849992f48140f0113f7a15ebfce576f8a2a5453"
+ },
+ "repo": "ALL-PAY-C/HarnessForAndroid"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-12",
+  "semantica_http": 200,
+  "ultima_release": "r8240",
+  "ultimo_push": "2026-10-07"
+ },
+ "descripcion": "New Release Every Commit",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/tsundoku-otaku--tsundoku-nightly.json",
+  "sha256": "594a5aab31e049edf5c7776057ae18894438ef60d0cb044c618dc34a0bd25052"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "tsundoku-otaku--tsundoku-nightly",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 9,
+  "stars_por_mes": null
+ },
+ "nombre": "tsundoku-nightly",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a576fa772bd733dbfc4b494430fd0052422ef142",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a576fa772bd733dbfc4b494430fd0052422ef142"
+ },
+ "repo": "tsundoku-otaku/tsundoku-nightly"
+}

@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-22",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Lucent 📝 — Notes, tasks & an AI assistant that respects your privacy 🔒 Encrypted & offline-first ✨",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/lucent-project--lucent.json",
+  "sha256": "5649be3c657b0c2074b1d83b18512c001b63fdba90a63936d3fc5a650c655ca8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lucent-project--lucent",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 12,
+  "stars_por_mes": null
+ },
+ "nombre": "Lucent",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7d3babbd52c90828632ca7811ce7ff3c21aaa2a3",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:7d3babbd52c90828632ca7811ce7ff3c21aaa2a3"
+ },
+ "repo": "Lucent-Project/Lucent",
+ "web": "https://lucent-project.github.io/lucentapp/"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-03-25"
+ },
+ "descripcion": "Another Shizuku impl",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/1298345095--stellar.json",
+  "sha256": "810145729286dfb7136d2adba5f9fcd4ac6816de9534bdbbdd71448610024dd8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "1298345095--stellar",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Stellar",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2891e394b1e02f5bbbcdfd82d3e96926c4467ecd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2891e394b1e02f5bbbcdfd82d3e96926c4467ecd"
+ },
+ "repo": "1298345095/Stellar"
+}

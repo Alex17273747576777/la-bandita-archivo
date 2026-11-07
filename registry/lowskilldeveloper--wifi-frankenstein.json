@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-14",
+  "semantica_http": 200,
+  "ultima_release": "WIFI-Frankenstein_v2.0",
+  "ultimo_push": "2026-09-13"
+ },
+ "descripcion": "New generation of 3Wifi Locator. With support for custom databases, a WiFi network map and WiFi location by MAC address",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/lowskilldeveloper--wifi-frankenstein.json",
+  "sha256": "34ef5fc99e19eb0379dc831ecd87d47ea5d7f06986cd9c2be8803163bc6b7c4e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lowskilldeveloper--wifi-frankenstein",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 97,
+  "stars_por_mes": null
+ },
+ "nombre": "WIFI-Frankenstein",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4d85d274c57eccc9eb89f41f3dc1fec280e9e7ba",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4d85d274c57eccc9eb89f41f3dc1fec280e9e7ba"
+ },
+ "repo": "LowSkillDeveloper/WIFI-Frankenstein"
+}

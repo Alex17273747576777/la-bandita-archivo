@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-08-21"
+ },
+ "descripcion": "Audiobook mobile application accomplished with React Native and React ecosystem, just a single code base.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/homielab--audiobookapp.json",
+  "sha256": "5f3ef6423fa32eae9709df26f9e684cbcd8e21d19ebc6d9c4d6bf4908998b936"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "homielab--audiobookapp",
+ "licencia": {
+  "archivo": "README (texto completo)",
+  "metodo": "texto-license",
+  "nota": "licencia declarada por el proyecto en su propio README; el endpoint de GitHub no la clasifica",
+  "spdx": "MIT",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 369,
+  "stars_por_mes": null
+ },
+ "nombre": "audiobookapp",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d6be53c6fc710eb77faaf78b6b127abbe12d8d1a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d6be53c6fc710eb77faaf78b6b127abbe12d8d1a"
+ },
+ "repo": "homielab/audiobookapp",
+ "web": "https://audioaz.com/"
+}

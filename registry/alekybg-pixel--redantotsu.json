@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-21"
+ },
+ "descripcion": "ReDantotsu is a Remake version of the original Dantotsu app. Fork by Nahiro18 -",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/alekybg-pixel--redantotsu.json",
+  "sha256": "21632a2d3f914e5b630b05ed27f9d4178c50d9f16dff626dc206b5c38cf58360"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "alekybg-pixel--redantotsu",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "ReDantotsu",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "84d15cf036bee89d48b4cbe1ae94926b6346e886",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:84d15cf036bee89d48b4cbe1ae94926b6346e886"
+ },
+ "repo": "alekybg-pixel/ReDantotsu"
+}

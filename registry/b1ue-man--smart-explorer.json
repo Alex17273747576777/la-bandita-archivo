@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-16",
+  "semantica_http": 200,
+  "ultima_release": "v0.5.3",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "a better file explorer",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/b1ue-man--smart-explorer.json",
+  "sha256": "dea18daf3c404d08ff6c699ff6f85d5b5705bc3b00be8b7fb16a9ba5b9a6f320"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "b1ue-man--smart-explorer",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "smart-explorer",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e5431d5535c790e74b7b0e457b80655d77479ab9",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:e5431d5535c790e74b7b0e457b80655d77479ab9"
+ },
+ "repo": "b1ue-man/smart-explorer"
+}

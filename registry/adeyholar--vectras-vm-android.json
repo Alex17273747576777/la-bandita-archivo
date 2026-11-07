@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-27"
+ },
+ "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/adeyholar--vectras-vm-android.json",
+  "sha256": "911c46b07efec273c73d863fa29c33b2a938a86eeb0f60542508e58bb57b10d8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "adeyholar--vectras-vm-android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Vectras-VM-Android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "bb811933d256e8c16d910b710694590e8fb7fba2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bb811933d256e8c16d910b710694590e8fb7fba2"
+ },
+ "repo": "adeyholar/Vectras-VM-Android"
+}

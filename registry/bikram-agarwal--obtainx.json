@@ -1,0 +1,56 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-03-06",
+  "semantica_http": 200,
+  "ultima_release": "v1.3.4",
+  "ultimo_push": "2026-10-05"
+ },
+ "descripcion": "Get Android app updates straight from the source. And install it any way you want. ",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/bikram-agarwal--obtainx.json",
+  "sha256": "75ca369e091b1c7ac6dfcfe354b6396277a80eb60e79c84223c5bab7d2998929"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "bikram-agarwal--obtainx",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1591,
+  "stars_por_mes": null
+ },
+ "nombre": "ObtainX",
+ "piezas": [
+  "01-",
+  "29-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "aea18592413de992e813bd063cb9ad453259582b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:aea18592413de992e813bd063cb9ad453259582b"
+ },
+ "repo": "bikram-agarwal/ObtainX",
+ "web": "https://bikram-agarwal.github.io/"
+}

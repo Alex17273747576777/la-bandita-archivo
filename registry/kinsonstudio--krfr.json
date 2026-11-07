@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-15",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-18"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kinsonstudio--krfr.json",
+  "sha256": "7cf4d00298b2f91376c354fcf2fe101ac38295159c0a351c28435eed89235384"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kinsonstudio--krfr",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "krfr",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "15486efa03195df8908c92c8c1fce74fb22335a6",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:15486efa03195df8908c92c8c1fce74fb22335a6"
+ },
+ "repo": "kinsonstudio/krfr"
+}

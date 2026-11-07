@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-31"
+ },
+ "descripcion": "OpenClaw alternative in your pocket",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/nouremad19999-creator--kai.json",
+  "sha256": "3aba97f369985ee6e4e4495226dbaada93c0580cfde4c8252ad9d575e442e1fa"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nouremad19999-creator--kai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "Kai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "bc7d622b548480dc4562a36550afd2b0031eb12e",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:bc7d622b548480dc4562a36550afd2b0031eb12e"
+ },
+ "repo": "nouremad19999-creator/Kai",
+ "web": "https://kai9000.com/"
+}

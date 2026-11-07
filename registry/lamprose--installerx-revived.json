@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-03"
+ },
+ "descripcion": "More Expressive InstallerX !",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lamprose--installerx-revived.json",
+  "sha256": "41d24b05c15dddd893d6819c478623ddd1b5068210927369c646d73f4ee76e65"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lamprose--installerx-revived",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "InstallerX-Revived",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b368d5a89d7fd3447851ebdb7ea126e78487a1d1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b368d5a89d7fd3447851ebdb7ea126e78487a1d1"
+ },
+ "repo": "lamprose/InstallerX-Revived"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/meika99--anizen.json",
+  "sha256": "7c50f4412d8fde386f5b40d7ceca7a7ef26351fb37f9c0557595002317f09da8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "meika99--anizen",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "AniZen",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "6c5fe1bf2355036e5772984bb735fa9b31cb5d3f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:6c5fe1bf2355036e5772984bb735fa9b31cb5d3f"
+ },
+ "repo": "meika99/AniZen"
+}

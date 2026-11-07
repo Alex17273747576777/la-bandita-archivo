@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-18",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-24"
+ },
+ "descripcion": "RyTuneX for Android is a stateless system tuning and debloat engine built with Kotlin and Jetpack Compose, powered by Shizuku (ADB UID 2000) with zero background daemons.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/rayenghanmi--rytunex-android.json",
+  "sha256": "4bfbc1daadd5ab2e9f5a573463f5d402601ff225d5861ca5caeff3ab365f124c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rayenghanmi--rytunex-android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 12,
+  "stars_por_mes": null
+ },
+ "nombre": "RyTuneX-Android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f14bcff5143004e561f712e803c3002b119049d1",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:f14bcff5143004e561f712e803c3002b119049d1"
+ },
+ "repo": "rayenghanmi/RyTuneX-Android",
+ "web": "https://rayenghanmi.github.io/rytunex#android"
+}

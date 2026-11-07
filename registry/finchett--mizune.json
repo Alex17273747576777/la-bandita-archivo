@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-29",
+  "semantica_http": 200,
+  "ultima_release": "android-libmpv-lgpl-2026-09-17",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Learn Japanese from the shows you love: a video player with a dictionary built into the subtitles. macOS, Windows, Linux, Android.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/finchett--mizune.json",
+  "sha256": "395c372741a9e5e03a0b35a2ef51473d5e6980d6b0891ec427fda0b73ae3971f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "finchett--mizune",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 8,
+  "stars_por_mes": null
+ },
+ "nombre": "Mizune",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0d96ebefd3aeeb913463b9ebafb109176461122b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:0d96ebefd3aeeb913463b9ebafb109176461122b"
+ },
+ "repo": "finchett/Mizune",
+ "web": "https://mizune.app"
+}

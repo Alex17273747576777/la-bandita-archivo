@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2024-04-10",
+  "semantica_http": 200,
+  "ultima_release": "r6869",
+  "ultimo_push": "2026-08-03"
+ },
+ "descripcion": "Preview builds for MihonSync",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/alzhahirdev--mihonsync-preview.json",
+  "sha256": "292f47b41c2a5160422d7b2639ff7cfd96352c1386f493e0c1a465f0231ad946"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "alzhahirdev--mihonsync-preview",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mihonsync-preview",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "93c535273b656ce403e43676aaa5384953ff26c9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:93c535273b656ce403e43676aaa5384953ff26c9"
+ },
+ "repo": "alzhahirdev/mihonsync-preview"
+}

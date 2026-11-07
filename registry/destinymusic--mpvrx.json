@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-14"
+ },
+ "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anyw",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/destinymusic--mpvrx.json",
+  "sha256": "f214c6b9c622075c8d740130cd7a9436e5b39945bded7cc48e864e00aced7b78"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "destinymusic--mpvrx",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mpvRx",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f5ada7fe8d701dde442c53187c455a8738f89b20",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f5ada7fe8d701dde442c53187c455a8738f89b20"
+ },
+ "repo": "DestinyMusic/mpvRx"
+}

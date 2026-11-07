@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "An Open source app to download and read books from shadow library's (Anna’s Arch",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/joyanes97--openlibextended.json",
+  "sha256": "f844c05d16aa714b2d0c1e414282af5739691a339545d80f5b57b8f60469a2cd"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "joyanes97--openlibextended",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OpenlibExtended",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "cd72fefea50446f0f0ecd5a1243d83fe13463fbd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:cd72fefea50446f0f0ecd5a1243d83fe13463fbd"
+ },
+ "repo": "joyanes97/OpenlibExtended"
+}

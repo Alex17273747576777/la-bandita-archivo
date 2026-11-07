@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-26"
+ },
+ "descripcion": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and perfo",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/huh63--omnibot.json",
+  "sha256": "4320e711ce9edddf9972050eae81a7732664110ffebade045b70c60982b2023f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "huh63--omnibot",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OmniBot",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a891d7db48afb64f08d503f0227365649184726b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a891d7db48afb64f08d503f0227365649184726b"
+ },
+ "repo": "hUh63/OmniBot"
+}

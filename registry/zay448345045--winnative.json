@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-06"
+ },
+ "descripcion": "An Android app for playing Windows games from Steam, Epic Games, GOG, and more o",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/zay448345045--winnative.json",
+  "sha256": "80164e0239db79948513b83b5f4941f473e518e9a1ab66aedb23d493d70d3546"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zay448345045--winnative",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "WinNative",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "47e4e8d1590e579c26241ac196d6c527c042ef20",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:47e4e8d1590e579c26241ac196d6c527c042ef20"
+ },
+ "repo": "zay448345045/WinNative"
+}

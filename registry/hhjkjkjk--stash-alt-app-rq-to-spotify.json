@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-14"
+ },
+ "descripcion": "Your Spotify + YouTube Music library & daily mixes. Stream or download in lossle",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hhjkjkjk--stash-alt-app-rq-to-spotify.json",
+  "sha256": "02e40e71adca7c003a26f2c33e6a145e794f2d409039216eb9dda4601b62575d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hhjkjkjk--stash-alt-app-rq-to-spotify",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Stash-Alt-app-rq-to-Spotify-",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e38b8d184aa88c943b41cd742cb9aa00b67577eb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e38b8d184aa88c943b41cd742cb9aa00b67577eb"
+ },
+ "repo": "hhjkjkjk/Stash-Alt-app-rq-to-Spotify-"
+}

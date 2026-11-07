@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-26",
+  "semantica_http": 200,
+  "ultima_release": "v0.4.4",
+  "ultimo_push": "2026-10-26"
+ },
+ "descripcion": "Rootless full-screen Samsung DeX HOME launcher with Shizuku and a persistent local receiver.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/nanaoniiiii--dex-home.json",
+  "sha256": "69cdf53954db900d03dc2b0191580e2a8d0b77fd20878e8112a1a2912cf0a0b9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nanaoniiiii--dex-home",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "dex-home",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "52eb709095c582e03dd0bd1a6d4ec69269c27bd0",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:52eb709095c582e03dd0bd1a6d4ec69269c27bd0"
+ },
+ "repo": "nanaoniiiii/dex-home"
+}

@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-03-27",
+  "semantica_http": 200,
+  "ultima_release": "v0.2.0",
+  "ultimo_push": "2026-10-23"
+ },
+ "descripcion": "Model Context Protocol Servers",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/trelisresearch--mcp.json",
+  "sha256": "db9e99ce771a73580a9cd12f7e5747afbab7df57ef0484e86e1920e42aa7c059"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "trelisresearch--mcp",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "mcp",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d2a890f85873f6a57a07357e5000e0fcde5e5d4e",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d2a890f85873f6a57a07357e5000e0fcde5e5d4e"
+ },
+ "repo": "TrelisResearch/mcp",
+ "web": "https://modelcontextprotocol.io"
+}

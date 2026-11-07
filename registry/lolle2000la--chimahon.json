@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-18"
+ },
+ "descripcion": "Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga suppo",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lolle2000la--chimahon.json",
+  "sha256": "583ac84fa72d46f6c751555ef2cedad4644c02d5bbf4bb3d150449366074f3d4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lolle2000la--chimahon",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "chimahon",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c37e8af43697bfff6d84fdadb0e42d5de40a43fe",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c37e8af43697bfff6d84fdadb0e42d5de40a43fe"
+ },
+ "repo": "Lolle2000la/chimahon"
+}

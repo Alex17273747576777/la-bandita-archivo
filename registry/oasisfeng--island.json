@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2017-02-18",
+  "semantica_http": 200,
+  "ultima_release": "v2.0-beta1",
+  "ultimo_push": "2025-04-24"
+ },
+ "descripcion": "Island for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/oasisfeng--island.json",
+  "sha256": "730b54ccf556e8a8b0d1fd1e9708185fbf8526de253c714a83b550a3dc8d66ce"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "oasisfeng--island",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3995,
+  "stars_por_mes": null
+ },
+ "nombre": "island",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d63538212a9f417c180bdb9258c0f5461de53c27",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d63538212a9f417c180bdb9258c0f5461de53c27"
+ },
+ "repo": "oasisfeng/island",
+ "web": "https://play.google.com/store/apps/details?id=com.oasisfeng.island"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-19"
+ },
+ "descripcion": "A Fork of Kaizen streaming mobile app with modren features and modren technologies built with React Native and Expo And Supabase",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/huzaim550--kaizen-app.json",
+  "sha256": "d3de0590bff3eae45d001061e0f1ced65f7db98b8419c77e43bb64e283dd62f5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "huzaim550--kaizen-app",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "kaizen-app",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b5ae1bd1bd9c04160b2a57de6200e415b6aaa9b5",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b5ae1bd1bd9c04160b2a57de6200e415b6aaa9b5"
+ },
+ "repo": "huzaim550/kaizen-app"
+}

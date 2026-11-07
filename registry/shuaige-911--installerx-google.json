@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-01"
+ },
+ "descripcion": "More Expressive InstallerX !",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/shuaige-911--installerx-google.json",
+  "sha256": "c7375546115d9c4c038af72306c0e2ba955a4efe3620a308d0a4c1558a6dd22f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "shuaige-911--installerx-google",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "InstallerX-Google",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1ba18abd9551bea575e1ed06d9e29f5ee567f446",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1ba18abd9551bea575e1ed06d9e29f5ee567f446"
+ },
+ "repo": "shuaige-911/InstallerX-Google"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-03"
+ },
+ "descripcion": "A fast, open-source anime and manga downloader for Windows, Linux, and Android w",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/nithi-1--strawverse.json",
+  "sha256": "4f77ef2a0d6e6542748a2714dd28a49532a73f2d0d8089ba01a6ad5ad1fa8a18"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nithi-1--strawverse",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "StrawVerse",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "205033775df7b7a497a2bc0c704f471bf821b4fb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:205033775df7b7a497a2bc0c704f471bf821b4fb"
+ },
+ "repo": "Nithi-1/StrawVerse"
+}

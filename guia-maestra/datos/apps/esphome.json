@@ -1,0 +1,75 @@
+{
+ "id": "esphome",
+ "nombre": "ESPHome",
+ "repo": "esphome/esphome",
+ "autores": [
+  {
+   "nombre": "ESPHome y su comunidad",
+   "enlace": "https://esphome.io"
+  }
+ ],
+ "licencia": {
+  "spdx": "MIT y GPL-3.0",
+  "archivo": "https://github.com/esphome/esphome/blob/dev/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Construir o reescribir los aparatos de la casa escribiendo un archivo de texto, con el aparato funcionando solo y sin depender de ningún servidor externo.",
+ "capitulo": 9,
+ "orden": 6,
+ "para_quien": {
+  "es": "para quien quiere sensores y actuadores propios —una placa pequeña, un relé, un termómetro— que funcionen sin nube y sin programar en un lenguaje de verdad.",
+  "no_es": "para quien no quiere tocar hardware: sin una placa y un cable no hay nada que hacer acá."
+ },
+ "manos": [
+  "Conseguí una placa compatible y un cable, y conectala a la computadora: el programa detecta el aparato y su puerto.",
+  "Escribí un archivo de configuración mínimo —la placa, la red, una entrada y una salida— y guardá las credenciales de la red en un archivo aparte que no se comparte.",
+  "Compilá antes de cargar: el programa convierte tu archivo en el firmware completo del aparato, y ese paso te dice si algo está mal escrito.",
+  "Cargalo por cable la primera vez y, desde la segunda, por red: las actualizaciones siguientes se hacen sin desenchufar nada.",
+  "Comprobá lo que define a esta herramienta: apagá el router y mirá si el aparato sigue obedeciendo desde la red de casa."
+ ],
+ "resultado_esperado": "El aparato hace lo que dice tu archivo, se actualiza por red y sigue funcionando cuando la conexión a internet se cae.",
+ "si_sale_mal": [
+  "Si la compilación falla, el mensaje dice qué línea y qué componente: casi siempre es una indentación del archivo de configuración.",
+  "Si el aparato deja de responder tras una actualización por red, hay que volver a cargarlo por cable: por eso conviene no tocar la configuración de red en la misma actualización.",
+  "Si el aparato se reinicia solo, es alimentación insuficiente: una placa con relés necesita más corriente de la que da un puerto USB."
+ ],
+ "deshacer": "El aparato no tiene nada que deshacer más allá de su firmware: se vuelve a compilar y cargar la versión anterior del archivo. El archivo es el aparato, y conservar versiones del archivo es todo el respaldo que hace falta.",
+ "cabeza": [
+  "ESPHome no es una aplicación que se instala en un aparato: es un **compilador**. Le escribís un archivo de texto —qué placa es, a qué red se conecta, qué sensores tiene, qué debe hacer— y el programa genera el firmware completo y lo carga. A partir de ahí el aparato funciona solo, con esa lógica dentro, sin hablar con ningún servidor.",
+  "Esa forma de trabajar cambia el cálculo de la dependencia: no hay nube que se apague, porque no hay nube. El aparato responde en la red de casa mientras haya corriente. Y explica su lugar en este capítulo: es la pieza que convierte la promesa de control local en algo que se puede fabricar uno mismo.",
+  "Su licencia es la más curiosa de la guía, y está escrita con claridad en su archivo: el código de ejecución del aparato —los archivos de C y C++— va con licencia pública general de GNU versión 3, y el resto, incluido el código en Python que compila, va con licencia MIT. Dos licencias en el mismo proyecto, cada una donde tiene sentido. Es el ejemplo perfecto de por qué una ficha debe enlazar el archivo de licencia y no limitarse a una etiqueta."
+ ],
+ "limites": [
+  "Requiere hardware compatible y saber qué se conecta a qué: un error de cableado se lleva la placa.",
+  "Las actualizaciones por red son cómodas y peligrosas: un cambio en la configuración de red puede dejar el aparato sin forma de responder.",
+  "No es para cualquiera: hay que escribir un archivo con sintaxis estricta y entender indentación.",
+  "Su licencia es doble: GPL-3.0 para el código del aparato y MIT para el resto."
+ ],
+ "oficio": {
+  "dato": "El firmware de un aparato de estos no se baja de internet: se compila en tu computadora a partir de tu archivo, y la primera vez se carga por cable. Eso tiene una consecuencia que vale como lección general de esta guía: **el archivo de configuración es el aparato**. Si lo guardás con fecha y versión, podés reconstruir el aparato exacto dentro de cinco años aunque el proyecto haya cambiado cien veces; si no lo guardás, perdés la lógica y hay que reescribirla. Y hay un detalle práctico que casi todos aprenden a golpes: no cambiar la configuración de red y la lógica en la misma actualización, porque si la red queda mal, el aparato se va de la red y hay que volver al cable.",
+  "como_comprobar": "Compilá la configuración sin cargarla y mirá el archivo que produce: es el firmware completo. Guardalo junto al archivo de configuración y la fecha; con esas dos cosas, el aparato se reconstruye en cualquier momento.",
+  "comando": "esphome compile sensor.yaml && ls -la .esphome/build/*/.pioenvs/*/firmware.bin"
+ },
+ "riesgos": [
+  "Cambiar la configuración de red y la lógica en la misma actualización, y dejar el aparato inalcanzable.",
+  "Alimentar una placa con relés desde un puerto USB y provocar reinicios aleatorios que parecen fallos de software."
+ ],
+ "alternativas": [
+  "home-assistant/core",
+  "home-assistant/android"
+ ],
+ "senal": {
+  "estrellas": 12014,
+  "nota": 39,
+  "edad_dias": 3134,
+  "ultima_entrega": "2026-11-04",
+  "descargas_10": 0,
+  "contribuyentes": 100,
+  "repo_mb": 125.7,
+  "ci": 5,
+  "incidencias": "248 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de ESPHome y su comunidad · MIT para el código en Python y GPL-3.0 para el código de ejecución del aparato · medido el 3 de noviembre de 2026"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-20"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kellenok--chimahon.json",
+  "sha256": "ae30c55d819c176618641147c44388b8f40c6271dd29c2732797e565a472d79e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kellenok--chimahon",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "chimahon",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "dd70045772ccad909e98d04f11c30e5596bb1f00",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:dd70045772ccad909e98d04f11c30e5596bb1f00"
+ },
+ "repo": "Kellenok/chimahon"
+}

@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-13",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.2",
+  "ultimo_push": "2026-10-26"
+ },
+ "descripcion": "A Flutter plugin to interact with the Shizuku API, allowing your application to execute shell commands with system or ADB privileges.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/runoob-coder--shizuku-api-flutter-plugin.json",
+  "sha256": "7637ed9fafb88ce2e5eed3ca671c4f08f34bc1f0cffeb4e70271589a1b6f1113"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "runoob-coder--shizuku-api-flutter-plugin",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "shizuku-api-flutter-plugin",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d4a31bfeb2031b09b333d2e15f5a0710b91dbd13",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d4a31bfeb2031b09b333d2e15f5a0710b91dbd13"
+ },
+ "repo": "runoob-coder/shizuku-api-flutter-plugin",
+ "web": "https://pub.dev/packages/shizuku_api_plugin"
+}

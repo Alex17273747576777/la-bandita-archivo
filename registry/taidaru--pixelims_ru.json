@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-13",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0-ru",
+  "ultimo_push": "2026-10-13"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/taidaru--pixelims_ru.json",
+  "sha256": "e391c093052999530113d0c2d4c8f95883a9d5752e66ce02f2e3c9244c297f2f"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "taidaru--pixelims_ru",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "PixelIMS_ru",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e5e8f95d10961dc9dda4deb46aef7a3920679660",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:e5e8f95d10961dc9dda4deb46aef7a3920679660"
+ },
+ "repo": "taidaru/PixelIMS_ru"
+}

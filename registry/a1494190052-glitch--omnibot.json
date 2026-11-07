@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-31",
+  "semantica_http": 200,
+  "ultima_release": "v0.6.0.4",
+  "ultimo_push": "2026-08-31"
+ },
+ "descripcion": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and perfo",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/a1494190052-glitch--omnibot.json",
+  "sha256": "0c9f58cd65b189658912730839af245c72ee07b9e56ae70cf2aad29cd45be880"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "a1494190052-glitch--omnibot",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OmniBot",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "dcbe618ba08d9965fedd0aa75af1c32c8de07fd0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:dcbe618ba08d9965fedd0aa75af1c32c8de07fd0"
+ },
+ "repo": "a1494190052-glitch/OmniBot"
+}

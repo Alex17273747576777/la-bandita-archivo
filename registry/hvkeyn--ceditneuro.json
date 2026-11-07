@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-22",
+  "semantica_http": 200,
+  "ultima_release": "v0.2.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Android code editor with an on-device agentic chat. DeepSeek reads and edits the open project through tools; the workspace stays on the device.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/hvkeyn--ceditneuro.json",
+  "sha256": "257afb75d1acaf1459b70a62541c6d9905abebe242a217eb7c86fc6f3e952c9b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hvkeyn--ceditneuro",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "CEditNeuro",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "404ae62ae22635f381b1e0047bbb35a324646706",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:404ae62ae22635f381b1e0047bbb35a324646706"
+ },
+ "repo": "hvkeyn/CEditNeuro"
+}

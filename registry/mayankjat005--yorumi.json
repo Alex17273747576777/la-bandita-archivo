@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-19"
+ },
+ "descripcion": "an anime/manga streaming web app",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mayankjat005--yorumi.json",
+  "sha256": "0e0efa705b9f796064782e1b8d1ad21e82dceb0b8d0a416ff92559d18246a801"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mayankjat005--yorumi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Yorumi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a312e36fe5b3716ab786ca695c82a28f984286fa",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a312e36fe5b3716ab786ca695c82a28f984286fa"
+ },
+ "repo": "Mayankjat005/Yorumi"
+}

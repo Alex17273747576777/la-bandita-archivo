@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-04-10",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-08-11"
+ },
+ "descripcion": "Real-time microphone audio processing for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/papergray--micup.json",
+  "sha256": "6c2284667a90566c50028a476a7c25bfcd181b562b76ee37031ee305c60a812a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "papergray--micup",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 198,
+  "stars_por_mes": null
+ },
+ "nombre": "MicUp",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "aacf0b087dfd77eb73c69633d305f1a94386d0d6",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:aacf0b087dfd77eb73c69633d305f1a94386d0d6"
+ },
+ "repo": "papergray/MicUp"
+}

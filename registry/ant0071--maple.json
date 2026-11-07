@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-08"
+ },
+ "descripcion": "Maple - Private AI Chat",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ant0071--maple.json",
+  "sha256": "0f589c89b3e9da9aa495e8a1a05451f03a62fde6e09bd9fda13ae71d8ad0b878"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ant0071--maple",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Maple",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "91626fc2c75daf923ace81e8a43f54ad5aff79f9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:91626fc2c75daf923ace81e8a43f54ad5aff79f9"
+ },
+ "repo": "ANT0071/Maple"
+}

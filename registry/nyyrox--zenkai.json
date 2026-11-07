@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-06",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-13"
+ },
+ "descripcion": "ZENKAI - Anime, Manga & Novel streaming app for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/nyyrox--zenkai.json",
+  "sha256": "a57c74276ef94f2ffc278561687d389e3b5e5cfb2d1060b7d63af398d7b71e9f"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nyyrox--zenkai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 63,
+  "stars_por_mes": null
+ },
+ "nombre": "Zenkai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "77d03339eae1efefa16b631aec092a5df0b4fa25",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:77d03339eae1efefa16b631aec092a5df0b4fa25"
+ },
+ "repo": "Nyyrox/Zenkai"
+}

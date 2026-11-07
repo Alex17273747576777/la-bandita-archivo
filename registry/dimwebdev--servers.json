@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-08-17"
+ },
+ "descripcion": "Model Context Protocol Servers",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dimwebdev--servers.json",
+  "sha256": "5dedfeaab5a93e3dc34bc15dd890d7cdb083ea7164283631665952222a6aa22c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dimwebdev--servers",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "servers",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "88b51ae513c7dc1dbdfb1d6e9489be0b57452888",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:88b51ae513c7dc1dbdfb1d6e9489be0b57452888"
+ },
+ "repo": "DimWebDev/servers",
+ "web": "https://modelcontextprotocol.io"
+}

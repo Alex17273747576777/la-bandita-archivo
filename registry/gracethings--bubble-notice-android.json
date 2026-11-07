@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-08",
+  "semantica_http": 200,
+  "ultima_release": "0.3.0",
+  "ultimo_push": "2026-10-12"
+ },
+ "descripcion": "A lightweight bubble notice tool for android phones, no \"Root/Shizuku\" required.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/gracethings--bubble-notice-android.json",
+  "sha256": "b8dcf7063811ad8b88f46579df594d7d76bd23ff9e29a6bf0b22462f068ad074"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "gracethings--bubble-notice-android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 116,
+  "stars_por_mes": null
+ },
+ "nombre": "bubble-notice-android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c2adb00f18915be1e0fcff72fe5d63c0e7e7b5aa",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c2adb00f18915be1e0fcff72fe5d63c0e7e7b5aa"
+ },
+ "repo": "GraceThings/bubble-notice-android"
+}

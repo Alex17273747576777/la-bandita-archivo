@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "muerto",
+  "release_en": null,
+  "semantica_http": 404,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-06"
+ },
+ "descripcion": "Yomi — an open-source anime, manga, and novel reader for Android (Tadami/Aniyomi",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#fenix222fox-hash/yomi-reader",
+  "sha256": "2f6dc81ace87a804b55274080c83c2d521290dc2693979a6faf20be956610dcc"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-10-15",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-11-14",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "fenix222fox-hash--yomi-reader",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": null,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "yomi-reader",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "92fa5ee3ff4d905513c81c3f304b7ceb45f3ebde",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:92fa5ee3ff4d905513c81c3f304b7ceb45f3ebde"
+ },
+ "repo": "fenix222fox-hash/yomi-reader"
+}

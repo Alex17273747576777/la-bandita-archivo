@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2024-09-29",
+  "semantica_http": 200,
+  "ultima_release": "v0.1",
+  "ultimo_push": "2025-11-11"
+ },
+ "descripcion": "A simple app that enables you to add additional (or \"unsupported\") languages to your device's locale settings, if the OEM (ahem Xiaomi) doesn't let you.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/nightdavisao--multilocale.json",
+  "sha256": "224d315e3a115b5ace337077e076626b26d916a6c2f5800a0fb3f39508a50a0f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nightdavisao--multilocale",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 75,
+  "stars_por_mes": null
+ },
+ "nombre": "MultiLocale",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "006d4c32ee589dbfc6025510c257974db1c36f28",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:006d4c32ee589dbfc6025510c257974db1c36f28"
+ },
+ "repo": "Nightdavisao/MultiLocale"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-28",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-29"
+ },
+ "descripcion": "一台跑在 Android 上的无 Root 位置仪。 用 Shizuku 的 shell 通道把坐标交给系统定位栈，用一张地图、一个准星和一只悬浮摇杆，替身去别处。",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/calciumsparks--elsewhere.json",
+  "sha256": "be086db1dc880bb4db88066b7d2a65d2af6cfd9adc25546cffa8174d60148835"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "calciumsparks--elsewhere",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "ELSEWHERE",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "eaffdd933f4e1601d4ba326330b105806ab4ae12",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:eaffdd933f4e1601d4ba326330b105806ab4ae12"
+ },
+ "repo": "CalciumSparks/ELSEWHERE"
+}

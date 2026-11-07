@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-10"
+ },
+ "descripcion": "Free and open source manga reader for Android, AI code",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lehvictor24--vikomikku.json",
+  "sha256": "fcab05782d0dfa3a33e330e2fabd461c31a4cebe07a9ea652c87f7b370ad14e2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lehvictor24--vikomikku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "vikomikku",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "bc551c8f02665b660a8b2d13af79967f9d766130",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bc551c8f02665b660a8b2d13af79967f9d766130"
+ },
+ "repo": "lehvictor24/vikomikku"
+}

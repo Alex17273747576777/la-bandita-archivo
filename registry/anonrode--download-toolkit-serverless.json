@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-15",
+  "semantica_http": 200,
+  "ultima_release": "v3.0.0",
+  "ultimo_push": "2026-10-25"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/anonrode--download-toolkit-serverless.json",
+  "sha256": "804502a8a72dece0e791269a74ec40f1b638887e5bfe110976f0ad2e42ea532e"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "anonrode--download-toolkit-serverless",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": 0.5
+ },
+ "nombre": "download-toolkit-serverless",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7cd286a2da3adad6106488bce70ec4248e640b99",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7cd286a2da3adad6106488bce70ec4248e640b99"
+ },
+ "repo": "anonrode/download-toolkit-serverless"
+}

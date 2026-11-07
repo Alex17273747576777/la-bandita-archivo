@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-30",
+  "semantica_http": 200,
+  "ultima_release": "offline-reader-debug",
+  "ultimo_push": "2026-07-30"
+ },
+ "descripcion": "Usagi is a free and open-source manga reader for Android. This repository contai",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ayankandar2-ux--usagi.json",
+  "sha256": "9fc78bef39bc21c6139501dd91a03699e1b800b4dcaba746e5a434839e9cf09c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ayankandar2-ux--usagi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Usagi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4610bf6a3a1db0975f9e8dd8f9a9253c5a7ab536",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4610bf6a3a1db0975f9e8dd8f9a9253c5a7ab536"
+ },
+ "repo": "ayankandar2-ux/Usagi"
+}

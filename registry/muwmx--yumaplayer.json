@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-31",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0-Beta",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "🎵 Hybrid music client for Android: Spotify discovery & UI + YouTube Music library + Hi-Res Lossless (FLAC) streaming with fluid Glassmorphism💫",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/muwmx--yumaplayer.json",
+  "sha256": "e5fc6345a554003a5187902eef392fb731db9a16cfd0b395fb95662abb414a60"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "muwmx--yumaplayer",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1102,
+  "stars_por_mes": null
+ },
+ "nombre": "YumaPlayer",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d4697db6ec2a0e3b0c95cd5e94b966d06627024a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d4697db6ec2a0e3b0c95cd5e94b966d06627024a"
+ },
+ "repo": "MuwMx/YumaPlayer"
+}

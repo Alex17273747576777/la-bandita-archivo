@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2022-10-09",
+  "semantica_http": 200,
+  "ultima_release": "movecert_iyue",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "支持Android7-16移动证书，兼容magiskv20.4+/kernelsu/APatch, Support Android7-16, compatible with magiskv20.4+/kernelsu/APatch",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ys1231--movecertificate.json",
+  "sha256": "ee0a079b5ad8fd51d48c15fad83f1967f0342568750a377cc358c0fa46daf671"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ys1231--movecertificate",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2011,
+  "stars_por_mes": null
+ },
+ "nombre": "MoveCertificate",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3e360b3062eef463a36c67e0758067d31475a179",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:3e360b3062eef463a36c67e0758067d31475a179"
+ },
+ "repo": "ys1231/MoveCertificate",
+ "web": "https://github.com/ys1231/MoveCertificate"
+}

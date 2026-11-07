@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-23",
+  "semantica_http": 200,
+  "ultima_release": "0.1",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Dual pane Android file manager with focus on APKs",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/abdurazaaqmohammed--mp-manager.json",
+  "sha256": "55f4e1354605417613a66c07e6dff66a29aa25b0437dc7faf5de1a4ca3a1e0a6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "abdurazaaqmohammed--mp-manager",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 499,
+  "stars_por_mes": null
+ },
+ "nombre": "MP-Manager",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3821769d64454662d86c24f49e32cafa296250a4",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:3821769d64454662d86c24f49e32cafa296250a4"
+ },
+ "repo": "AbdurazaaqMohammed/MP-Manager",
+ "web": "https://abdurazaaqmohammed.github.io/mpmanager"
+}

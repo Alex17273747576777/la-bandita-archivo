@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-20"
+ },
+ "descripcion": "Usagi source code. Usagi is a manga reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/jiriclement69-bit--usagi.json",
+  "sha256": "239c5e7ef0ef5914ddbda303bdce8f6b1ab2092e303440be08ffd502f7910755"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jiriclement69-bit--usagi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Usagi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a9110d27208a26186d402ae072372229e290f238",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a9110d27208a26186d402ae072372229e290f238"
+ },
+ "repo": "jiriclement69-bit/Usagi"
+}

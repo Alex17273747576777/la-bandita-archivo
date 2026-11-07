@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-07"
+ },
+ "descripcion": "OpenClaw alternative in your pocket",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/yoro1836--kai.json",
+  "sha256": "537cf7bda6048e5fe4b42d1ba5fc00b6f700ce7d2472c9cf3dd4dab683767935"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yoro1836--kai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Kai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1f4bf4b374c476753285bc4562a349220e8c4ed3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1f4bf4b374c476753285bc4562a349220e8c4ed3"
+ },
+ "repo": "yoro1836/Kai"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-16",
+  "semantica_http": 200,
+  "ultima_release": "v0.9.0",
+  "ultimo_push": "2026-09-22"
+ },
+ "descripcion": "Virtual controller buttons on the AYN Thor's bottom screen, read by the game as the real controller. One-handed play, no root.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/bentolanh--thor-sidepad.json",
+  "sha256": "9edfcd26b44c95f5e607495e2f79deca7be328ab96632dee9ca6938765287de3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "bentolanh--thor-sidepad",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "thor-sidepad",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8910fe1ab4e23266acda98b76faee07a038190c4",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:8910fe1ab4e23266acda98b76faee07a038190c4"
+ },
+ "repo": "bentolanh/thor-sidepad"
+}

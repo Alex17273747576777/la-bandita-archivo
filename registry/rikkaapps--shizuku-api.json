@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2021-08-17",
+  "semantica_http": 200,
+  "ultima_release": "12",
+  "ultimo_push": "2025-05-29"
+ },
+ "descripcion": "The API and the developer guide for Shizuku and Sui.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/rikkaapps--shizuku-api.json",
+  "sha256": "76d9aae4eb38f712eeb174cb5ee3b089e0034018ab762b31a6b97063d58f9f91"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rikkaapps--shizuku-api",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2736,
+  "stars_por_mes": null
+ },
+ "nombre": "Shizuku-API",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a27f6e4151ba7b39965ca47edb2bf0aeed7102e5",
+  "swh_estado": "archivada",
+  "swh_solicitud": "a27f6e4151ba7b39965ca47edb2bf0aeed7102e5",
+  "swhid": "swh:1:rev:a27f6e4151ba7b39965ca47edb2bf0aeed7102e5"
+ },
+ "repo": "RikkaApps/Shizuku-API"
+}

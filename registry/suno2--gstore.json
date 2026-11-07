@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2024-11-07",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.1",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "收集github 开源app",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/suno2--gstore.json",
+  "sha256": "c959987e2fe9e1a9b5e17e6b1f870f6e6edfa584c243b9dc4a06892e2b5f48b6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "suno2--gstore",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 4,
+  "stars_por_mes": null
+ },
+ "nombre": "GStore",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d88211fb835dad7e310ea7d763af4e0234ade460",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d88211fb835dad7e310ea7d763af4e0234ade460"
+ },
+ "repo": "sunO2/GStore"
+}

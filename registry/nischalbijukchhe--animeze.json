@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-25"
+ },
+ "descripcion": "AnimeZe an android anime /manga/manhwa app",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/nischalbijukchhe--animeze.json",
+  "sha256": "b79d85af4a964e62fae089569349421fe513596330e75031abe945e7755129a5"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nischalbijukchhe--animeze",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "animeze",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "74835b3543b8683169d0146e7a3c4da93047e910",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:74835b3543b8683169d0146e7a3c4da93047e910"
+ },
+ "repo": "nischalbijukchhe/animeze"
+}

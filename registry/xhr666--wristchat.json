@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-03",
+  "semantica_http": 200,
+  "ultima_release": "v0.2.0-rc1",
+  "ultimo_push": "2026-10-19"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/xhr666--wristchat.json",
+  "sha256": "74ed2cc8d4992bf126d96293b98131c893305b8f39b9c053aac664dc9362d324"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "xhr666--wristchat",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "wristchat",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8c6c6b5d5cff8f6f31903b6aeee58226262deee0",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:8c6c6b5d5cff8f6f31903b6aeee58226262deee0"
+ },
+ "repo": "XHR666/wristchat"
+}

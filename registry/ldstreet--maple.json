@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-26"
+ },
+ "descripcion": "Maple - Private AI Chat",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ldstreet--maple.json",
+  "sha256": "0f24015d02906fbb46a2409fed21adcfbad6cecaca0d05b3a171ca1b7c7c94a3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ldstreet--maple",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Maple",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "179e266d88fb76bd61684b7e18ccb90f74fc664c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:179e266d88fb76bd61684b7e18ccb90f74fc664c"
+ },
+ "repo": "ldstreet/Maple"
+}

@@ -1,0 +1,91 @@
+{
+ "fecha": "2026-11-03",
+ "repositorios": 14,
+ "archivadas": 8,
+ "solicitadas": 5,
+ "detalle": [
+  {
+   "repo": "d4rken-org/porter",
+   "swhid": "swh:1:rev:ab17ed2ba77197d4b7d1b8e98de2b5cedbd9c1ce",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "HmnDev-Tech/shevery",
+   "swhid": "swh:1:rev:010a54527d46cf51e8a1f8d7bf82d1db1f0273f2",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "rushiranpise/Shizuku-Next",
+   "swhid": "swh:1:rev:e1bcc2525f8be047e88e80528c7306e0ee5f88b5",
+   "estado": "archivada",
+   "solicitud": "e1bcc2525f8be047e88e80528c7306e0ee5f88b5"
+  },
+  {
+   "repo": "krishna3163/OmniShizuku",
+   "swhid": "swh:1:rev:153d6ecba28f7974b13a68542b9206197297616a",
+   "estado": "archivada",
+   "solicitud": "153d6ecba28f7974b13a68542b9206197297616a"
+  },
+  {
+   "repo": "kerneldroid/Nightzuku",
+   "swhid": "swh:1:rev:e6904452b6a2b9a72fac2d1f7fce9978a08bd883",
+   "estado": "archivada",
+   "solicitud": "e6904452b6a2b9a72fac2d1f7fce9978a08bd883"
+  },
+  {
+   "repo": "samolego/Canta",
+   "swhid": "swh:1:rev:e3ed0c9bf90ee6f8bfb7a92ba1e140327cda480f",
+   "estado": "archivada",
+   "solicitud": "e3ed0c9bf90ee6f8bfb7a92ba1e140327cda480f"
+  },
+  {
+   "repo": "iamr0s/Dhizuku",
+   "swhid": "swh:1:rev:e9fa39213c4e83029118072bed0772b28095feb4",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "wxxsfxyzm/InstallerX-Revived",
+   "swhid": null,
+   "estado": "sin commit medido"
+  },
+  {
+   "repo": "pass-with-high-score/universal-installer",
+   "swhid": "swh:1:rev:5bd00f84f6ebd16856e4747b43698269fb7445c8",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "eyalm2000/adns",
+   "swhid": "swh:1:rev:677a88bc3d62c18d2dbe5341d3c772416a232a85",
+   "estado": "solicitud 200",
+   "solicitud": "accepted"
+  },
+  {
+   "repo": "yume-chan/VolumeManager",
+   "swhid": "swh:1:rev:0915776d897a9e93b661d7758e215e64617df694",
+   "estado": "archivada",
+   "solicitud": "0915776d897a9e93b661d7758e215e64617df694"
+  },
+  {
+   "repo": "aistra0528/Hail",
+   "swhid": "swh:1:rev:67a43c8ea7d43eddf51d840f3615b97ce6079c9b",
+   "estado": "archivada",
+   "solicitud": "67a43c8ea7d43eddf51d840f3615b97ce6079c9b"
+  },
+  {
+   "repo": "RikkaApps/Shizuku",
+   "swhid": "swh:1:rev:b844bc491f1790c72328e1a8e5b2349f8978f0ea",
+   "estado": "archivada",
+   "solicitud": "b844bc491f1790c72328e1a8e5b2349f8978f0ea"
+  },
+  {
+   "repo": "RikkaApps/Shizuku-API",
+   "swhid": "swh:1:rev:a27f6e4151ba7b39965ca47edb2bf0aeed7102e5",
+   "estado": "archivada",
+   "solicitud": "a27f6e4151ba7b39965ca47edb2bf0aeed7102e5"
+  }
+ ]
+}

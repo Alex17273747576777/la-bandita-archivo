@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2017-10-25",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Android backup extractor",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/nelenkov--android-backup-extractor.json",
+  "sha256": "4b1d04e20211f406f42c0d9635404e4218e5a60f553d7735dda4656174bab8a7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nelenkov--android-backup-extractor",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2609,
+  "stars_por_mes": null
+ },
+ "nombre": "android-backup-extractor",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "38fd634a50a1c5d8972a4eca83f5e5d47bfa8411",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:38fd634a50a1c5d8972a4eca83f5e5d47bfa8411"
+ },
+ "repo": "nelenkov/android-backup-extractor"
+}

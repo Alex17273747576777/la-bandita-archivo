@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-08"
+ },
+ "descripcion": "On-device manga-translation engine — detection, OCR and text removal all on NCNN",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/diablokira2002-debug--yakuyomi-engine.json",
+  "sha256": "82369c5358c2a07f29e980efaa1f73f797edd15e06900af7e2fb4dbcdfad9777"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "diablokira2002-debug--yakuyomi-engine",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "yakuyomi-engine",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ad2811dce66a5b9aa4f3c920af831ed732b1012b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ad2811dce66a5b9aa4f3c920af831ed732b1012b"
+ },
+ "repo": "diablokira2002-debug/yakuyomi-engine"
+}

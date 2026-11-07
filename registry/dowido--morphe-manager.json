@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-29"
+ },
+ "descripcion": "Morphe app patcher for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dowido--morphe-manager.json",
+  "sha256": "ee8f01e6e3f1cb87818531ab4897ebec1b42dc751eaefa8c71c903ec41dbcafe"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dowido--morphe-manager",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "morphe-manager",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "05709a4dabee2c292ac84c20d8ae6b332c6edcbf",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:05709a4dabee2c292ac84c20d8ae6b332c6edcbf"
+ },
+ "repo": "dowido/morphe-manager",
+ "web": "https://Morphe.software"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-16"
+ },
+ "descripcion": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and perfo",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/engantoniomrosa--omnibot.json",
+  "sha256": "bfadc4e837dcdb44da01c72847c4de2a6e96a341eb651c979bf5b7e83c2c6012"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "engantoniomrosa--omnibot",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OmniBot",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5e48d653bd92b97a6b36b8a03020978690db9536",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5e48d653bd92b97a6b36b8a03020978690db9536"
+ },
+ "repo": "EngAntonioMrosa/OmniBot"
+}

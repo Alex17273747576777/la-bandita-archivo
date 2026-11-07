@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-12",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Palleria is a free and open-source Android application that provides a modern, fast and comfortable Pixiv browsing experience.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/yunfie-twitter--palleria.json",
+  "sha256": "16a96103df7c25f87d66a159a64f8bf378f9551119ce600ac36d3cc138641c03"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yunfie-twitter--palleria",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 16,
+  "stars_por_mes": null
+ },
+ "nombre": "Palleria",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1e8689eac19eef780e07d624461448edc50ce7c5",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:1e8689eac19eef780e07d624461448edc50ce7c5"
+ },
+ "repo": "yunfie-twitter/Palleria",
+ "web": "https://yunfi.f5.si/Palleria/"
+}

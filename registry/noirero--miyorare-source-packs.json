@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-12",
+  "semantica_http": 200,
+  "ultima_release": "miyorare-sources-v0.2.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/noirero--miyorare-source-packs.json",
+  "sha256": "1f8b3c44edceea69d6e31a202630240a3befdd96e686db4e5ec048f5016abe27"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "noirero--miyorare-source-packs",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "Miyorare-Source-Packs",
+ "piezas": [
+  "81-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d7e6b1f9acd10f31db33f9ea4d59f8f2b6e3508b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d7e6b1f9acd10f31db33f9ea4d59f8f2b6e3508b"
+ },
+ "repo": "Noirero/Miyorare-Source-Packs"
+}

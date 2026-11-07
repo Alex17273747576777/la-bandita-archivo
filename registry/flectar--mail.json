@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-08",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0-alpha.4",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and as little as 80 MB of RAM.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/flectar--mail.json",
+  "sha256": "f899811b678fb910580424fa36da6e7f8ab98abe640ac8924caa8462cd87879c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "flectar--mail",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1745,
+  "stars_por_mes": null
+ },
+ "nombre": "mail",
+ "piezas": [
+  "12-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4fc0790e8e4c8d45afb2d3d59cab73f859983490",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4fc0790e8e4c8d45afb2d3d59cab73f859983490"
+ },
+ "repo": "flectar/mail",
+ "web": "http://flectar.com/mail/"
+}

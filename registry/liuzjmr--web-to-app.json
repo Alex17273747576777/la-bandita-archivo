@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-08"
+ },
+ "descripcion": "一个 Web 项目打包成安卓 APK，不用电脑，不用远程编译服务器。  我第一反应是：这也太狠了吧。市面上那些所谓「网页转 App」的工具，基本都是拿个 Web",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/liuzjmr--web-to-app.json",
+  "sha256": "80d2edec2a160be5e77b691e3367a0fb39dd836a157cf30cc6bf968b19548f47"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "liuzjmr--web-to-app",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "web-to-app",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "efca2b6e031dd17614f31debbd6edd42d4d03be2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:efca2b6e031dd17614f31debbd6edd42d4d03be2"
+ },
+ "repo": "liuzjMr/web-to-app"
+}

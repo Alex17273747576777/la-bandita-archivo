@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-12-30"
+ },
+ "descripcion": "Automated archive of TikTok Mod and Plugin APK files from TikTokModCloud. This r",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/aminewolf48--tiktokmodcloud.json",
+  "sha256": "c7d219533ff5987728f2981b7bab1f8b666afd2f6eeef8e08060e7593a6ce7bf"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "aminewolf48--tiktokmodcloud",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "tiktokmodcloud",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e283ce6b993187a6593d5c10a4ad36b95aa7dc44",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e283ce6b993187a6593d5c10a4ad36b95aa7dc44"
+ },
+ "repo": "aminewolf48/tiktokmodcloud"
+}

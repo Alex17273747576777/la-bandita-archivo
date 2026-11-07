@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-19"
+ },
+ "descripcion": "Your Spotify + YouTube Music library & daily mixes. Stream or download in lossle",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ever4engel--stash.json",
+  "sha256": "a5e41c14dc1dbbc32e97e61d71563b30a4d3e5f90bde1536ca5da8c331a66fdb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ever4engel--stash",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Stash",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9c6bdc0818c6ab7790bfa17007e364e428e303de",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9c6bdc0818c6ab7790bfa17007e364e428e303de"
+ },
+ "repo": "Ever4engel/Stash"
+}

@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-31",
+  "semantica_http": 200,
+  "ultima_release": "v1.11.5",
+  "ultimo_push": "2026-10-27"
+ },
+ "descripcion": "One code, and you're in the same room. Remote multiplayer between Android emulators: 3DS, Switch, PSP, PS2, DS and WII.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jojodogm-ctrl--emufii.json",
+  "sha256": "e93ff870f519723c71b647d99a7641235d36b975a481eaaaff77be1c175b4dce"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jojodogm-ctrl--emufii",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 871,
+  "stars_por_mes": null
+ },
+ "nombre": "emufii",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7da73bbd6366f33203a017867ea110bc9ee7fb64",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:7da73bbd6366f33203a017867ea110bc9ee7fb64"
+ },
+ "repo": "jojodogm-ctrl/emufii",
+ "web": "https://discord.gg/tvWcb28vBZ"
+}

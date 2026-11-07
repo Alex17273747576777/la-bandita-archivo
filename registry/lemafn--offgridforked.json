@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-02"
+ },
+ "descripcion": "The Swiss Army Knife of Offline AI. Chat, see, speak, and generate images on you",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lemafn--offgridforked.json",
+  "sha256": "8ae991037e81245bc7429c540f65760ee1d33f9357788a9e128c3e2c18a83fb2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lemafn--offgridforked",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OffGridForked",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f7ad5e7b23fc589f8fa8fe50684cea6a6f082467",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f7ad5e7b23fc589f8fa8fe50684cea6a6f082467"
+ },
+ "repo": "LemaFN/OffGridForked"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-17"
+ },
+ "descripcion": "A cross-platform manga app made for e-hentai & exhentai by Flutter",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/dyphire--jhentai.json",
+  "sha256": "8837becb61b44209721f2512025fbbd74659faf85bb283e01a65db948f95f1ec"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dyphire--jhentai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "JHenTai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "faa5cdf16ee08e36bbcb59343c68dc65245e59ca",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:faa5cdf16ee08e36bbcb59343c68dc65245e59ca"
+ },
+ "repo": "dyphire/JHenTai"
+}

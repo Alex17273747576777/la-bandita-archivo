@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-21"
+ },
+ "descripcion": "Fork of mangayomi, with added support for handling Manga OCR metadata and tap to",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/whiskas101--mangayomi.json",
+  "sha256": "8922f817b56cf79da80a1382ff7d5423e2f3eef4b059c266dd6d1f8666bd8802"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "whiskas101--mangayomi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mangayomi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b0bd1451a86dbd1243acab0434fec6f873224b8c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b0bd1451a86dbd1243acab0434fec6f873224b8c"
+ },
+ "repo": "Whiskas101/mangayomi"
+}

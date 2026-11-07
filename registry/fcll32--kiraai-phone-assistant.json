@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-27",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-29"
+ },
+ "descripcion": "KiraAI 手机助手：Android 无障碍控制、实时语音和截图，手机主动通过 WSS 连接 KiraAI 插件。",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/fcll32--kiraai-phone-assistant.json",
+  "sha256": "0e5f7aa5d80f7e323775d048280becf29f7c37bcf5fd02a9acc500a6f977e085"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "fcll32--kiraai-phone-assistant",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "kiraai-phone-assistant",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a5261e18f6fdaff5b76178d8116bc30268cd70f3",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a5261e18f6fdaff5b76178d8116bc30268cd70f3"
+ },
+ "repo": "fcll32/kiraai-phone-assistant",
+ "web": "https://github.com/fcll32/kiraai-phone-assistant/releases/tag/v1.0.0"
+}

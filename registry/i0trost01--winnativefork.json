@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-20",
+  "semantica_http": 200,
+  "ultima_release": "v0.4.1-fork1",
+  "ultimo_push": "2026-10-02"
+ },
+ "descripcion": "An Android app for playing Windows games from Steam, Epic Games, GOG, and more o",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/i0trost01--winnativefork.json",
+  "sha256": "dd89b43508e08612046e27581e35cb0c4990edc2587330100012e2d78fa2bbe9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "i0trost01--winnativefork",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "WinNativeFork",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5c5bfa1bf1d1f1fcd3c27ba194b51c9f253b87e6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5c5bfa1bf1d1f1fcd3c27ba194b51c9f253b87e6"
+ },
+ "repo": "i0trost01/WinNativeFork"
+}

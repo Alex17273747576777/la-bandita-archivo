@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-13"
+ },
+ "descripcion": "Fork with double page fixed",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/drspring05--zangetsu-spring.json",
+  "sha256": "e586e7b6eb27c6613f0d898d8c334cfbb813f0ff269e0852d4e128236ca3094e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "drspring05--zangetsu-spring",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Zangetsu-spring",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "30bef03ab53a0420f036aacbbc07908d89ee5e76",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:30bef03ab53a0420f036aacbbc07908d89ee5e76"
+ },
+ "repo": "drspring05/Zangetsu-spring"
+}

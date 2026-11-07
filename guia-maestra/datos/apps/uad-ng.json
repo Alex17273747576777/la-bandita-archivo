@@ -1,0 +1,72 @@
+{
+ "id": "uad-ng",
+ "nombre": "Universal Android Debloater NG",
+ "repo": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+ "autores": [
+  {
+   "nombre": "Universal-Debloater-Alliance",
+   "enlace": "https://github.com/Universal-Debloater-Alliance"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/LICENSE"
+ },
+ "nivel": "intermedio",
+ "tarea": "Limpiar el teléfono desde la computadora, con listas de lo que se puede quitar en cada fabricante y sin instalar nada en el aparato.",
+ "capitulo": 2,
+ "orden": 3,
+ "para_quien": {
+  "es": "para quien tenga computadora y quiera ver todo lo que trae el teléfono con nombres y descripciones antes de decidir.",
+  "no_es": "para quien no pueda conectar el teléfono por cable: esta herramienta vive en la computadora."
+ },
+ "manos": [
+  "Descarga la versión para tu sistema desde las entregas del proyecto: hay cuarenta archivos y hay que elegir el de tu sistema operativo.",
+  "Activa la depuración por USB en el teléfono y conéctalo por cable. Acepta la huella del ordenador en la pantalla del teléfono.",
+  "Abre la herramienta: debe reconocer el aparato y mostrar su modelo. Si no lo reconoce, la depuración no está activa o el cable no transmite datos.",
+  "Filtra por recomendación y empieza por las marcadas como seguras. Lee la descripción de cada paquete antes de marcar: la lista explica qué hace.",
+  "Aplica los cambios de una en una o en tandas pequeñas, y reinicia el teléfono después de cada tanda para ver qué se rompió, si algo se rompió."
+ ],
+ "resultado_esperado": "El teléfono arranca normal, las aplicaciones elegidas ya no aparecen y la herramienta lista el historial de lo quitado para poder revertirlo.",
+ "si_sale_mal": [
+  "Si el aparato deja de responder a la herramienta, desconecta y vuelve a conectar: la sesión de depuración se cae con frecuencia.",
+  "Si algo esencial desaparece, la misma herramienta tiene la opción de restaurar el paquete desde su historial."
+ ],
+ "deshacer": "Cada paquete quitado se restaura desde la propia herramienta, que guarda el registro de la sesión, o con `cmd package install-existing <paquete>`.",
+ "cabeza": [
+  "Su valor no es la herramienta sino las listas: cientos de paquetes de decenas de fabricantes, cada uno con su descripción y su nivel de riesgo, mantenidas por una comunidad que las prueba en aparatos reales.",
+  "Y su ventaja sobre las aplicaciones de teléfono es la pantalla: en una computadora se ve la lista completa con descripciones, se puede buscar y se puede leer antes de decidir. En el teléfono, la misma decisión se toma a ciegas entre nombres incomprensibles."
+ ],
+ "limites": [
+  "Necesita computadora y cable: no sirve para limpiar el teléfono en la calle.",
+  "Su cola de incidencias tiene más de doscientas sesenta abiertas.",
+  "La lista de un fabricante no siempre cubre todos sus modelos ni todas sus versiones."
+ ],
+ "oficio": {
+  "dato": "El paquete que más problemas causa al quitarlo no es el que parece: quitar el servicio de reproducción de Google o el marco de notificaciones del fabricante rompe las notificaciones push de casi todas las demás aplicaciones, y el síntoma aparece días después, cuando un banco deja de avisar de un cobro. La regla práctica que se desprende de las listas: todo lo que lleve en el nombre palabras como servicios, marco, notificaciones o proveedor de contenido se deja; lo que lleva el nombre de una tienda, una red social o un juego, se va.",
+  "como_comprobar": "Antes de quitar, mira si el paquete tiene dependencias: la propia herramienta muestra qué otras aplicaciones lo referencian. Si una aplicación que usas aparece en esa lista, ese paquete no se toca.",
+  "comando": "adb shell dumpsys package <paquete> | grep -E \"required|dependenc\" | head"
+ },
+ "riesgos": [
+  "Quitar un paquete del sistema que otras aplicaciones usan como servicio: el daño aparece semanas después.",
+  "Aplicar una lista de otro modelo de teléfono sin leerla."
+ ],
+ "alternativas": [
+  "samolego/Canta",
+  "aistra0528/Hail"
+ ],
+ "senal": {
+  "estrellas": 9740,
+  "nota": 69,
+  "edad_dias": 1105,
+  "ultima_entrega": "2026-11-02",
+  "descargas_10": 402037,
+  "contribuyentes": 100,
+  "repo_mb": 31.3,
+  "ci": 3,
+  "incidencias": "266 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de Universal-Debloater-Alliance · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

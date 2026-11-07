@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-03-25"
+ },
+ "descripcion": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kanadelearnprogram--airi.json",
+  "sha256": "f9eaa0a9c4d12356541b25cd72401ba1fc1d2e0fa5952e80fdc91ba9df36cb58"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kanadelearnprogram--airi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "airi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1be7639b84611effa00cc5a31b13ca6152768402",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:1be7639b84611effa00cc5a31b13ca6152768402"
+ },
+ "repo": "kanadelearnprogram/airi",
+ "web": "https://airi.moeru.ai/docs/"
+}

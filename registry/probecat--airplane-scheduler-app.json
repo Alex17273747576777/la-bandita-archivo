@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-11",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Android app to automatically switch airplane mode on a schedule",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/probecat--airplane-scheduler-app.json",
+  "sha256": "0e77cf2e953c31359fa74a2959e15a56baae3c8d5cab39c8b791a343bbbc1ff0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "probecat--airplane-scheduler-app",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 13,
+  "stars_por_mes": null
+ },
+ "nombre": "airplane-scheduler-app",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "040b5b1f4f64b206063cf0883d6c9160ba2741fd",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:040b5b1f4f64b206063cf0883d6c9160ba2741fd"
+ },
+ "repo": "probecat/airplane-scheduler-app"
+}

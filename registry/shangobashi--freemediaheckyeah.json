@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-02-05"
+ },
+ "descripcion": "/r/FREEMEDIAHECKYEAH",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/shangobashi--freemediaheckyeah.json",
+  "sha256": "137fc6db4d9a210ddf8efc3118dc3e5d56c41c58ad2fb0b9c55e83117dc635c5"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "shangobashi--freemediaheckyeah",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "FreeMediaHeckYeah",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "adfb93c97fc432c1088a904ea8922c54cd2b5679",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:adfb93c97fc432c1088a904ea8922c54cd2b5679"
+ },
+ "repo": "shangobashi/FreeMediaHeckYeah"
+}

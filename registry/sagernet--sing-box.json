@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2022-08-26",
+  "semantica_http": 200,
+  "ultima_release": "v1.0-beta1",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "The universal proxy platform",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sagernet--sing-box.json",
+  "sha256": "7070565149321868e750371fde120ec1f557f1fb4a0da97f6e1d807bf8875ca3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "sagernet--sing-box",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 39577,
+  "stars_por_mes": null
+ },
+ "nombre": "sing-box",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9f1cd1ef75b7999bb118a9322a003f6edce2752d",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:9f1cd1ef75b7999bb118a9322a003f6edce2752d"
+ },
+ "repo": "SagerNet/sing-box",
+ "web": "https://sing-box.sagernet.org/"
+}

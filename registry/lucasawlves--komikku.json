@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-12-30"
+ },
+ "descripcion": "Free and open source manga reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lucasawlves--komikku.json",
+  "sha256": "7516a8821612c9d2db3655e59e90f4da28a4163afb62dede80e0fa066f9cf9ac"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lucasawlves--komikku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "komikku",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d7251d6f694aa3e4d85e7bcfe79e16540bc8c85c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d7251d6f694aa3e4d85e7bcfe79e16540bc8c85c"
+ },
+ "repo": "lucasawlves/komikku"
+}

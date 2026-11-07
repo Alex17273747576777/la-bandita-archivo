@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-22"
+ },
+ "descripcion": "Clean, lightweight cross-platform tracker for anime, manga and light novels.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/alekybg-pixel--hoshi.json",
+  "sha256": "b82381af3bd94a58be692f8ff10df64c865da87f83582c785a2e3daf2dfec8a8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "alekybg-pixel--hoshi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "hoshi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "af3f07b161fcd7c34348e085221bd4b2f6c21c82",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:af3f07b161fcd7c34348e085221bd4b2f6c21c82"
+ },
+ "repo": "alekybg-pixel/hoshi"
+}

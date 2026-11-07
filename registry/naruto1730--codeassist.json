@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-06-19"
+ },
+ "descripcion": "Experimental IDE for building Android applicatons on Android.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/naruto1730--codeassist.json",
+  "sha256": "227b54325c069cf7d987c9fbc931b59751dc745490dc9603e6b08e5428648734"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "naruto1730--codeassist",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "CodeAssist",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "65eba90967bac0438c0854b47d523cb5be6e8d3b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:65eba90967bac0438c0854b47d523cb5be6e8d3b"
+ },
+ "repo": "Naruto1730/CodeAssist"
+}

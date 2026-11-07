@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-02-09",
+  "semantica_http": 200,
+  "ultima_release": "v2.3.2.d608b49-alpha",
+  "ultimo_push": "2026-10-22"
+ },
+ "descripcion": "a fork",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/sewolonx--installerx-revived.json",
+  "sha256": "ca6683bde708159a4a3bbcd119cae28bf6fd7aa54c2c0a0b755dd997229c8651"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sewolonx--installerx-revived",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "InstallerX-Revived",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "35d7c7a06e86b280789a171d8b213becac1a0fd7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:35d7c7a06e86b280789a171d8b213becac1a0fd7"
+ },
+ "repo": "sewolonX/InstallerX-Revived"
+}

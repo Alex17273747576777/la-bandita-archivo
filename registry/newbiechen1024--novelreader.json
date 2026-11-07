@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2020-03-15"
+ },
+ "descripcion": "仿照\"任阅\"的追书、看书的小说阅读器。重写\"任阅\"的代码，优化代码逻辑和代码结构，降低内存使用率。重写小说阅读器，支持网络阅读、本地阅读(支持分章，虚拟分章)。支持仿真翻页、上下滚动翻页等翻页效果。支持小说断点续传功能。优化用户使用体验。",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/newbiechen1024--novelreader.json",
+  "sha256": "b975d2ffa14f76f6548baefac8509e4e91292cfe4514c518e7e481478e546417"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "newbiechen1024--novelreader",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1802,
+  "stars_por_mes": null
+ },
+ "nombre": "NovelReader",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0b8e281b30beecbc1b91d1deeca30301a88b6f5c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:0b8e281b30beecbc1b91d1deeca30301a88b6f5c"
+ },
+ "repo": "newbiechen1024/NovelReader"
+}

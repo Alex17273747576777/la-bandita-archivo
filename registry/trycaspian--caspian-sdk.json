@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-21",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.2",
+  "ultimo_push": "2026-08-25"
+ },
+ "descripcion": "Agent communication SDK. The open-source agent communication layer for AI agents — email, WhatsApp, Slack, Discord, Telegram, SMS. Python & TypeScript.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/trycaspian--caspian-sdk.json",
+  "sha256": "98c00a702bf0771b803ca0cfd24c41c8142981dac6230f190f8f47b416489ca7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "trycaspian--caspian-sdk",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 971,
+  "stars_por_mes": null
+ },
+ "nombre": "caspian-sdk",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "718a96d6d04cb76c7ccce942d2532fd4adbfd545",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:718a96d6d04cb76c7ccce942d2532fd4adbfd545"
+ },
+ "repo": "TryCaspian/caspian-sdk",
+ "web": "https://trycaspianai.com"
+}

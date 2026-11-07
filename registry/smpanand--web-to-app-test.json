@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-26"
+ },
+ "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop th",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/smpanand--web-to-app-test.json",
+  "sha256": "dbc305d9e02cacc8f0c4961d838f47af8553de90a314ac1a893b92c46673350d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "smpanand--web-to-app-test",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "web-to-app-test",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "637d9aca8037861034ba5e9eafb6a066cd917f32",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:637d9aca8037861034ba5e9eafb6a066cd917f32"
+ },
+ "repo": "smpanand/web-to-app-test"
+}

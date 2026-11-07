@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-04"
+ },
+ "descripcion": "Una aplicación nativa para Android que convierte cualquier URL de un sitio web e",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/rgomez31uaq--web-to-app_android.json",
+  "sha256": "e5b4fad3cf1bdeead4fc4c9681130380aea0ed16eef57ba4dd6e0e41594d7672"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rgomez31uaq--web-to-app_android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Web-to-App_Android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "034eda5a64ffe2a9f308137db0503cb16fd4d521",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:034eda5a64ffe2a9f308137db0503cb16fd4d521"
+ },
+ "repo": "rgomez31UAQ/Web-to-App_Android"
+}

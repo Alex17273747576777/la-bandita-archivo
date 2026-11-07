@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-23"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/legendz69--mihon-preview.json",
+  "sha256": "aa3b3d0e3fa654f0835c71e954278227403ddc798fcaa149d9fbb3b4bbb3cb53"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "legendz69--mihon-preview",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mihon-preview",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b2459db2074697d8ac3303b9acfddb47fbff656e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b2459db2074697d8ac3303b9acfddb47fbff656e"
+ },
+ "repo": "LegendZ69/mihon-preview"
+}

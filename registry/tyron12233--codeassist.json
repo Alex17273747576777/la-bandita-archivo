@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-16",
+  "semantica_http": 200,
+  "ultima_release": "v3.0.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "An IDE for building Android applicatons on Android.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/tyron12233--codeassist.json",
+  "sha256": "3575082f4490c3eb4b1386bece9b8bfc4f9ac072f26c17c16fdcddbbbb9dfd2e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "tyron12233--codeassist",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2104,
+  "stars_por_mes": null
+ },
+ "nombre": "CodeAssist",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "63d5e236a196989cf7c919f25cbff208c9c645b3",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:63d5e236a196989cf7c919f25cbff208c9c645b3"
+ },
+ "repo": "tyron12233/CodeAssist"
+}

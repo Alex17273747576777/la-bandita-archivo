@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-03",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-21"
+ },
+ "descripcion": "Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga and a",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/u2716--chimahon.json",
+  "sha256": "4a7d331678e93adcced99118ee525e75f067de90ee3dcbd830d354b43e1d4c84"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "u2716--chimahon",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "chimahon",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b538dab9a2a0bae3d2b106f3bb3731edcdd34613",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b538dab9a2a0bae3d2b106f3bb3731edcdd34613"
+ },
+ "repo": "u2716/chimahon"
+}

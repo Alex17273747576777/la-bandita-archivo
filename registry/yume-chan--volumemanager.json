@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-04-18",
+  "semantica_http": 200,
+  "ultima_release": "v0.1",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "Control each app's volume independently.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/yume-chan--volumemanager.json",
+  "sha256": "f254546c9b3dff43be182e77b8bcfe7f2049b2ae4a6e989cb89f4362e111a1f0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yume-chan--volumemanager",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 601,
+  "stars_por_mes": null
+ },
+ "nombre": "VolumeManager",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0915776d897a9e93b661d7758e215e64617df694",
+  "swh_estado": "archivada",
+  "swh_solicitud": "0915776d897a9e93b661d7758e215e64617df694",
+  "swhid": "swh:1:rev:0915776d897a9e93b661d7758e215e64617df694"
+ },
+ "repo": "yume-chan/VolumeManager"
+}

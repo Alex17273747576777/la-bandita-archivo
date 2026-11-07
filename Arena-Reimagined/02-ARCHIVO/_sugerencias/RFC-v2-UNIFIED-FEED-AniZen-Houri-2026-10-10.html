@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="RFC v2 — Unified Feed Architecture for AniZen & Houri: MultiFeed Manager, Per-Source Filters & On-Device Segmentation. Self-contained, offline-first proposal document.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0b1020">
+<title>RFC v2 · Unified Feed Architecture for AniZen &amp; Houri</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%234f46e5'/%3E%3Cpath d='M8 22V10h3v9h6v3H8zm12 0V10h3v12h-3z' fill='%23fff'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"TechArticle","headline":"RFC v2 — Unified Feed Architecture for AniZen & Houri","datePublished":"2026-10-10","inLanguage":"en","keywords":"Android, manga reader, anime reader, MultiFeed, extensions, on-device AI","about":[{"@type":"SoftwareApplication","name":"AniZen","applicationCategory":"EntertainmentApplication"},{"@type":"SoftwareApplication","name":"Houri","applicationCategory":"EntertainmentApplication"}]}
+</script>
+<style>
+:root{
+  --bg:#ffffff;--bg2:#f6f8fb;--bg3:#eef2f7;--ink:#0f172a;--mut:#5b6b81;--line:#e3e8ef;
+  --acc:#4f46e5;--acc2:#3730a3;--accsoft:#eef0ff;--ok:#0a7d55;--oksoft:#e7f6ef;
+  --warn:#9a5b00;--warnsoft:#fdf3e0;--risk:#b3261e;--risksoft:#fdeceb;
+  --code-bg:#0f1729;--code-ink:#dbe4f5;--code-mut:#7d8cab;--code-key:#8ab4ff;
+  --code-str:#9ed09e;--code-num:#e8b96a;--code-com:#697aa0;--code-kw:#c792ea;
+  --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  --rad:12px;--shadow:0 1px 2px rgba(15,23,42,.05),0 8px 28px -18px rgba(15,23,42,.25);
+}
+html[data-theme="dark"]{
+  --bg:#0b1020;--bg2:#10162b;--bg3:#161d36;--ink:#e7ebf6;--mut:#93a1b8;--line:#242c47;
+  --acc:#8f95ff;--acc2:#b3b7ff;--accsoft:#1a2142;--ok:#3ecf9a;--oksoft:#0e2b22;
+  --warn:#f0b34e;--warnsoft:#2d2210;--risk:#f2807a;--risksoft:#331517;
+  --code-bg:#0d1330;--code-ink:#dbe4f5;--code-mut:#7d8cab;--code-key:#8ab4ff;
+  --code-str:#9ed09e;--code-num:#e8b96a;--code-com:#697aa0;--code-kw:#c792ea;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 32px -18px rgba(0,0,0,.7);
+}
+@media (prefers-color-scheme:dark){
+  html[data-theme="auto"]{
+  --bg:#0b1020;--bg2:#10162b;--bg3:#161d36;--ink:#e7ebf6;--mut:#93a1b8;--line:#242c47;
+  --acc:#8f95ff;--acc2:#b3b7ff;--accsoft:#1a2142;--ok:#3ecf9a;--oksoft:#0e2b22;
+  --warn:#f0b34e;--warnsoft:#2d2210;--risk:#f2807a;--risksoft:#331517;
+  --code-bg:#0d1330;--code-ink:#dbe4f5;--code-mut:#7d8cab;--code-key:#8ab4ff;
+  --code-str:#9ed09e;--code-num:#e8b96a;--code-com:#697aa0;--code-kw:#c792ea;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 32px -18px rgba(0,0,0,.7);}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+::selection{background:var(--accsoft)}
+a{color:var(--acc);text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--acc) 35%,transparent)}
+a:hover{border-bottom-color:var(--acc)}
+code,pre,kbd{font-family:var(--mono);font-size:.92em}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px;border-radius:4px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:fixed;top:-48px;left:16px;z-index:99;background:var(--acc);color:#fff;padding:8px 14px;border-radius:8px;transition:top .2s}
+.skip:focus{top:12px}
+
+/* ── progress ── */
+#progress{position:fixed;top:0;left:0;right:0;height:3px;z-index:60;background:transparent}
+#progress i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--acc),var(--acc2))}
+
+/* ── masthead ── */
+.mast{border-bottom:1px solid var(--line);background:var(--bg2);
+  background-image:linear-gradient(180deg,color-mix(in srgb,var(--acc) 7%,var(--bg2)),var(--bg2) 72%)}
+.mast-in{max-width:1240px;margin:0 auto;padding:34px 24px 26px}
+.rfc-badge{display:inline-flex;align-items:center;gap:10px;font:600 12px/1 var(--mono);letter-spacing:.14em;
+  text-transform:uppercase;color:var(--acc);border:1px solid color-mix(in srgb,var(--acc) 45%,transparent);
+  padding:7px 12px;border-radius:999px;background:var(--accsoft)}
+.rfc-badge .dot{width:7px;height:7px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 3px color-mix(in srgb,var(--ok) 25%,transparent)}
+h1{font-size:clamp(26px,4.2vw,42px);line-height:1.12;letter-spacing:-.02em;margin:18px 0 6px;font-weight:800}
+.subtitle{font-size:clamp(16px,2.2vw,21px);color:var(--mut);margin:0 0 10px;font-weight:500}
+.extends{font-size:14px;color:var(--mut);font-style:italic;margin:0}
+.metagrid{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.meta{border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:9px 13px;min-width:150px}
+.meta b{display:block;font:700 10.5px/1.3 var(--mono);letter-spacing:.13em;text-transform:uppercase;color:var(--mut);margin-bottom:3px}
+.meta span{font-size:13.5px;line-height:1.45;display:block}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}
+.btn{appearance:none;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:600 13px/1 var(--sans);
+  padding:9px 14px;border-radius:9px;cursor:pointer;display:inline-flex;align-items:center;gap:7px;transition:border-color .15s,background .15s}
+.btn:hover{border-color:var(--acc);color:var(--acc)}
+.btn kbd{font:600 10.5px/1 var(--mono);border:1px solid var(--line);border-bottom-width:2px;border-radius:5px;padding:2.5px 5px;color:var(--mut);background:var(--bg2)}
+.btn.icon{padding:9px 11px}
+
+/* ── layout ── */
+.shell{max-width:1240px;margin:0 auto;padding:34px 24px 80px;display:grid;grid-template-columns:262px minmax(0,1fr);gap:44px;align-items:start}
+nav.toc{position:sticky;top:22px;max-height:calc(100vh - 44px);overflow:auto;font-size:13.5px;scrollbar-width:thin}
+nav.toc h2{font:700 11px/1 var(--mono);letter-spacing:.15em;text-transform:uppercase;color:var(--mut);margin:4px 0 12px}
+nav.toc ol{list-style:none;margin:0;padding:0;border-left:1px solid var(--line)}
+nav.toc li a{display:block;padding:6px 14px;border-left:2px solid transparent;margin-left:-1.5px;color:var(--mut);border-bottom:none;line-height:1.4}
+nav.toc li a:hover{color:var(--ink);background:var(--bg2)}
+nav.toc li a[aria-current="true"]{color:var(--acc);border-left-color:var(--acc);font-weight:650;background:linear-gradient(90deg,var(--accsoft),transparent)}
+nav.toc .tocnum{font:600 10.5px/1 var(--mono);color:var(--mut);display:inline-block;width:30px}
+.toc-foot{margin-top:16px;font-size:12px;color:var(--mut);line-height:1.55;border-top:1px solid var(--line);padding-top:12px}
+.toc-foot .netok{color:var(--ok);font-weight:700}
+main{min-width:0}
+section{scroll-margin-top:20px;margin:0 0 52px}
+section.flash{animation:flash 1.6s ease-out}
+@keyframes flash{0%{box-shadow:0 0 0 3px var(--accsoft);background:var(--accsoft);border-radius:14px}100%{background:transparent}}
+
+/* ── section chrome ── */
+.sechead{display:flex;align-items:baseline;gap:12px;border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:18px}
+.kick{font:700 12px/1 var(--mono);letter-spacing:.13em;color:var(--acc);text-transform:uppercase;white-space:nowrap}
+.sechead h2{font-size:clamp(19px,2.4vw,25px);margin:0;letter-spacing:-.015em;font-weight:750}
+.sechead .tools{margin-left:auto;display:flex;gap:4px}
+.tbtn{appearance:none;background:none;border:none;color:var(--mut);cursor:pointer;font-size:14px;padding:4px 7px;border-radius:7px;line-height:1}
+.tbtn:hover{color:var(--acc);background:var(--bg2)}
+.sec.closed .sec-body{display:none}
+.sec.closed .tbtn.fold::before{content:"▸"}
+.tbtn.fold::before{content:"▾"}
+h3{font-size:17.5px;margin:26px 0 10px;letter-spacing:-.01em}
+p{margin:0 0 14px}
+ul,ol{margin:0 0 16px;padding-left:24px}
+li{margin:5px 0}
+strong{font-weight:700}
+.lede{font-size:18.5px;line-height:1.6;color:var(--ink)}
+.call{border:1px solid var(--line);border-left:3px solid var(--acc);background:var(--bg2);
+  padding:14px 18px;border-radius:0 var(--rad) var(--rad) 0;margin:18px 0}
+.call.ok{border-left-color:var(--ok)}
+.call.warn{border-left-color:var(--warn)}
+.call .ct{font:700 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--mut);display:block;margin-bottom:7px}
+.thesis{font-size:17px;border-left-width:4px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin:16px 0}
+.goal{border:1px solid var(--line);border-radius:var(--rad);padding:14px 16px;background:var(--bg);box-shadow:var(--shadow)}
+.goal b{display:flex;gap:10px;align-items:baseline;margin-bottom:5px}
+.goal .gn{font:800 12px/1 var(--mono);color:var(--acc)}
+.goal p{margin:0;font-size:14.5px;color:var(--mut)}
+
+/* ── tables ── */
+.tw{overflow-x:auto;margin:16px 0;border:1px solid var(--line);border-radius:var(--rad);box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--bg)}
+caption{text-align:left;font:700 11px/1 var(--mono);letter-spacing:.13em;text-transform:uppercase;color:var(--mut);padding:12px 16px;border-bottom:1px solid var(--line)}
+th{font:700 11px/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mut);text-align:left;
+  background:var(--bg2);padding:11px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:none}
+tbody tr:hover td{background:var(--bg2)}
+td code{background:var(--bg3);border:1px solid var(--line);border-radius:5px;padding:1.5px 6px;white-space:nowrap}
+tbody th{background:var(--bg2);white-space:normal;font-family:var(--sans);font-size:13.5px;letter-spacing:0;text-transform:none;color:var(--ink)}
+
+/* ── code ── */
+.codewrap{position:relative;margin:16px 0}
+.codewrap .chead{display:flex;align-items:center;background:#0b1128;color:#8b97b8;border:1px solid #1d2646;border-bottom:none;
+  border-radius:var(--rad) var(--rad) 0 0;font:600 11.5px/1 var(--mono);letter-spacing:.1em;padding:9px 14px;text-transform:uppercase}
+.codewrap pre{margin:0;background:var(--code-bg);color:var(--code-ink);border:1px solid #1d2646;border-radius:0 0 var(--rad) var(--rad);
+  padding:16px 18px;overflow-x:auto;font-size:13px;line-height:1.62}
+.codewrap .cbtn{margin-left:auto;background:#141b3a;color:#aab4d4;border:1px solid #26305a;border-radius:7px;
+  font:600 11px/1 var(--mono);padding:5px 10px;cursor:pointer;text-transform:none;letter-spacing:.03em}
+.codewrap .cbtn:hover{border-color:#3a477e;color:#fff}
+.j-c{color:var(--code-com);font-style:italic}.j-s{color:var(--code-str)}.j-n{color:var(--code-num)}
+.j-k{color:var(--code-key);font-weight:600}.j-b{color:var(--code-kw)}
+
+/* ── badges & chips ── */
+.bdg{display:inline-block;font:700 10.5px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;
+  padding:4px 8px;border-radius:6px;white-space:nowrap}
+.bdg.ok{color:var(--ok);background:var(--oksoft)}
+.bdg.warn{color:var(--warn);background:var(--warnsoft)}
+.bdg.risk{color:var(--risk);background:var(--risksoft)}
+.bdg.mut{color:var(--mut);background:var(--bg3)}
+.chip{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--bg);
+  border-radius:999px;padding:6px 13px;font-size:13px;font-weight:600;margin:4px 6px 4px 0}
+.chip .st{font:700 9.5px/1 var(--mono);letter-spacing:.07em;text-transform:uppercase;padding:3px 6px;border-radius:5px}
+.chip.native{border-color:color-mix(in srgb,var(--ok) 45%,var(--line))}
+.chip.native .st{color:var(--ok);background:var(--oksoft)}
+.chip.local{border-style:dashed;border-color:color-mix(in srgb,var(--warn) 60%,var(--line))}
+.chip.local .st{color:var(--warn);background:var(--warnsoft)}
+.chip.cond{border-style:dotted;opacity:.82}
+.chip.cond .st{color:var(--mut);background:var(--bg3)}
+.chip.off{display:none}
+
+/* ── live exhibits ── */
+.demo{border:1px solid color-mix(in srgb,var(--acc) 32%,var(--line));border-radius:14px;margin:22px 0;
+  background:var(--bg2);box-shadow:var(--shadow);overflow:hidden}
+.demo-head{display:flex;align-items:center;gap:10px;padding:11px 16px;background:var(--accsoft);
+  border-bottom:1px solid color-mix(in srgb,var(--acc) 25%,var(--line))}
+.demo-head .pulse{width:8px;height:8px;border-radius:50%;background:var(--acc);animation:pulse 2.2s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--acc) 45%,transparent)}55%{box-shadow:0 0 0 7px transparent}}
+.demo-head b{font:700 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--acc2)}
+.demo-head span{font-size:12px;color:var(--mut);margin-left:auto;text-align:right}
+.demo-body{padding:18px}
+.demo-cap{font-size:12.5px;color:var(--mut);margin:12px 0 0;font-style:italic}
+.demo-controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden;background:var(--bg)}
+.seg button{appearance:none;border:none;background:none;padding:8px 13px;font:600 12.5px/1 var(--sans);color:var(--mut);cursor:pointer;border-right:1px solid var(--line)}
+.seg button:last-child{border-right:none}
+.seg button[aria-pressed="true"]{background:var(--acc);color:#fff}
+.tog{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;color:var(--mut);cursor:pointer;user-select:none}
+.tog input{accent-color:var(--acc);width:15px;height:15px}
+.demo-out{border:1px solid var(--line);border-radius:10px;background:var(--bg);padding:13px 15px;min-height:44px}
+.mlist{list-style:none;margin:0;padding:0;font-size:13.5px}
+.mlist li{display:flex;gap:9px;align-items:baseline;padding:5px 0;border-bottom:1px dashed var(--line);margin:0}
+.mlist li:last-child{border-bottom:none}
+.mlist .tm{font:600 11px/1 var(--mono);color:var(--mut);min-width:38px}
+.mlist .src{font:700 10px/1 var(--mono);letter-spacing:.06em;padding:3px 6px;border-radius:5px;color:#fff}
+.src.A{background:#4f46e5}.src.B{background:#0a7d55}.src.C{background:#b45309}
+.mlist .dup{color:var(--mut);font-size:11px;font-style:italic}
+.feedcol{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.feedcol h4{margin:0 0 8px;font:700 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--mut)}
+.feedcol .cnt{color:var(--acc);font-weight:800}
+.rulechip{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:7px 13px;
+  font:600 12.5px/1 var(--mono);cursor:pointer;color:var(--ink);transition:all .12s}
+.rulechip:hover{border-color:var(--acc)}
+.rulechip[aria-pressed="true"]{background:var(--acc);border-color:var(--acc);color:#fff}
+.hitlist{list-style:none;margin:0;padding:0;font-size:13px}
+.hitlist li{padding:5px 8px;border-bottom:1px dashed var(--line);margin:0}
+.hitlist li:last-child{border-bottom:none}
+.hitlist .no{color:var(--mut)}
+.hitlist mark{background:color-mix(in srgb,var(--acc) 26%,transparent);color:inherit;border-radius:3px;padding:0 1px}
+.hitlist.infeed li::before{content:"→ ";color:var(--ok);font-weight:700}
+
+/* ── phases ── */
+.phase{border:1px solid var(--line);border-radius:var(--rad);padding:16px 18px;background:var(--bg);box-shadow:var(--shadow);margin:12px 0}
+.phase h3{margin:0 0 10px;display:flex;align-items:center;gap:10px;font-size:16px}
+.phase .pn{font:800 11px/1 var(--mono);color:#fff;background:var(--acc);border-radius:6px;padding:5px 8px;letter-spacing:.08em}
+.phase ul{margin:8px 0 0}
+.phase li{list-style:none;padding-left:24px;position:relative;margin:6px 0;font-size:14px}
+.phase li::before{content:"✓";position:absolute;left:0;color:var(--ok);font-weight:800}
+
+/* ── search ── */
+#searchov{position:fixed;inset:0;background:color-mix(in srgb,var(--ink) 38%,transparent);z-index:80;display:none;backdrop-filter:blur(2px)}
+#searchov.open{display:block}
+.searchpanel{max-width:640px;margin:9vh auto 0;background:var(--bg);border:1px solid var(--line);border-radius:16px;
+  box-shadow:0 24px 70px -20px rgba(0,0,0,.5);overflow:hidden}
+.searchpanel header{display:flex;align-items:center;gap:10px;padding:13px 16px;border-bottom:1px solid var(--line)}
+.searchpanel input{flex:1;border:none;background:none;color:var(--ink);font:500 16px/1.4 var(--sans);outline:none}
+.searchpanel .esc{font:600 10.5px/1 var(--mono);border:1px solid var(--line);border-radius:5px;padding:4px 7px;color:var(--mut)}
+#sres{max-height:52vh;overflow:auto}
+#sres .si{display:block;width:100%;text-align:left;background:none;border:none;border-bottom:1px solid var(--line);
+  padding:11px 16px;cursor:pointer;color:var(--ink)}
+#sres .si:hover,#sres .si:focus{background:var(--bg2)}
+#sres .si b{display:block;font-size:13.5px;color:var(--acc);margin-bottom:2px}
+#sres .si span{font-size:12.5px;color:var(--mut);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+#sres .none{padding:18px 16px;color:var(--mut);font-size:13.5px;font-style:italic}
+.searchpanel footer{padding:9px 16px;font-size:11.5px;color:var(--mut);border-top:1px solid var(--line);background:var(--bg2)}
+
+/* ── svg diagram ── */
+.diag{border:1px solid var(--line);border-radius:var(--rad);background:var(--bg);box-shadow:var(--shadow);margin:18px 0;padding:10px}
+.diag svg{width:100%;height:auto;display:block}
+.diag .node{cursor:pointer}
+.diag .node rect{fill:var(--bg2);stroke:var(--line);stroke-width:1.2;transition:stroke .15s,fill .15s}
+.diag .node:hover rect,.diag .node.focus rect{stroke:var(--acc);fill:var(--accsoft)}
+.diag .node text{fill:var(--ink);font:600 12px var(--sans)}
+.diag .node .sub{fill:var(--mut);font:500 10px var(--mono)}
+.diag .edge{stroke:var(--mut);stroke-width:1.4;fill:none;marker-end:url(#arr)}
+.diag .node.side rect{stroke-dasharray:4 3}
+
+/* ── footer / toast / totop ── */
+.colophon-notes{font-size:13.5px;color:var(--mut)}
+footer.foot{border-top:1px solid var(--line);background:var(--bg2)}
+.foot-in{max-width:1240px;margin:0 auto;padding:26px 24px;display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between;font-size:13px;color:var(--mut)}
+.foot .seal{font-family:var(--mono);font-size:12px}
+.foot a{margin-right:14px}
+#toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--bg);
+  padding:10px 18px;border-radius:10px;font-size:13px;font-weight:600;opacity:0;pointer-events:none;transition:all .25s;z-index:90;box-shadow:var(--shadow)}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+#totop{position:fixed;right:22px;bottom:22px;width:42px;height:42px;border-radius:12px;border:1px solid var(--line);
+  background:var(--bg);color:var(--mut);font-size:17px;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .2s;z-index:70;box-shadow:var(--shadow)}
+#totop.show{opacity:1;pointer-events:auto}
+#totop:hover{color:var(--acc);border-color:var(--acc)}
+
+mark[data-hit]{background:color-mix(in srgb,var(--warn) 38%,transparent);color:inherit;border-radius:3px;padding:0 1px}
+.lang-es-tag{display:inline-block;font:700 10px/1 var(--mono);letter-spacing:.1em;color:var(--mut);
+  border:1px solid var(--line);border-radius:5px;padding:3px 7px;text-transform:uppercase;margin-left:8px;vertical-align:middle}
+
+@media (max-width:960px){
+  .shell{grid-template-columns:1fr;gap:10px;padding-top:20px}
+  nav.toc{position:static;max-height:none;border:1px solid var(--line);border-radius:var(--rad);padding:14px 16px;background:var(--bg2)}
+  nav.toc ol{columns:2;column-gap:22px;border:none}
+  nav.toc li{break-inside:avoid}
+  nav.toc li a{border-left:none;padding:5px 4px;border-radius:6px}
+  nav.toc li a[aria-current="true"]{background:var(--accsoft)}
+  .feedcol{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+@media print{
+  #progress,nav.toc,.toolbar,.tbtn,#totop,#searchov,.demo-head .pulse{display:none!important}
+  body{font:11pt/1.5 Georgia,"Times New Roman",serif;color:#000;background:#fff}
+  .shell{display:block;max-width:none;padding:0}
+  section{break-inside:auto;margin:0 0 26px}
+  .tw,.goal,.phase,.demo,.codewrap,.call{box-shadow:none;break-inside:avoid}
+  a{color:#000;border:none}
+  .mast{background:#fff}
+  section.sec{page-break-inside:auto}
+  .demo{border:1px solid #bbb}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<div id="progress" role="progressbar" aria-label="Reading progress"><i></i></div>
+
+<header class="mast">
+  <div class="mast-in">
+    <span class="rfc-badge"><span class="dot" aria-hidden="true"></span>RFC · Proposal · v2.0 Draft for review</span>
+    <h1>Unified Feed Architecture for AniZen&nbsp;&amp;&nbsp;Houri</h1>
+    <p class="subtitle">MultiFeed Manager, Per-Source Filters &amp; On-Device Segmentation</p>
+    <p class="extends">extends “RFC: In-App Private Extension Sandbox &amp; Self-Contained Backups” (v1.0, September 2026) — §2 · §3 · §4 · §5</p>
+    <div class="metagrid">
+      <div class="meta"><b>Prepared</b><span>October 10, 2026 · landscape verified same day</span></div>
+      <div class="meta"><b>Targets</b><span><a href="https://github.com/salmanbappi/AniZen">salmanbappi/AniZen</a> · v0.5.215 (Sep&nbsp;30)<br><a href="https://github.com/PineappleTwilight/houri">PineappleTwilight/houri</a> · v1.23.16 (released today)</span></div>
+      <div class="meta"><b>Status</b><span>Proposal — Production Candidate, building on RFC v1 §2 + §3</span></div>
+      <div class="meta"><b>Evidence base</b><span>Miyomi · EverythingMoe · releases feeds — all consulted 2026-10-10</span></div>
+    </div>
+    <div class="toolbar">
+      <button class="btn" id="bsearch" type="button" aria-label="Search this document">⌕ Search <kbd>/</kbd></button>
+      <button class="btn icon" id="btheme" type="button" aria-label="Cycle color theme" title="Theme: auto / light / dark">◐ <span id="thlab">auto</span></button>
+      <button class="btn icon" id="bprint" type="button" aria-label="Print or save as PDF" title="Print / PDF">⎙</button>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+<nav class="toc" id="toc" aria-label="Table of contents">
+  <h2>Contents</h2>
+  <ol id="toclist"></ol>
+  <p class="toc-foot">Self-contained artifact — zero network requests: <span class="netok" id="netbadge">0 ✓</span><br>Keyboard: <code>/</code> search · <code>t</code> theme · <code>Esc</code> close</p>
+</nav>
+
+<main id="content">
+
+<!-- ══════════════ ABSTRACT ══════════════ -->
+<section class="sec" id="abstract" data-nav="Abstract" data-num="§0">
+  <div class="sechead"><span class="kick">§0 · Abstract</span><h2>The Feed becomes an object</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <p class="lede">This proposal turns the newly shipped multiFeed of <strong>AniZen</strong> and <strong>Houri</strong> into what it was
+    originally requested to be: <strong>multiple feeds</strong> — a global feed by default, segmentable by hand or by on-device AI,
+    each feed carrying up to 20 sources, and every selected source exposing <em>its own</em> filters through an honest,
+    normalized interface.</p>
+    <div class="grid2">
+      <div class="goal"><b><span class="gn">I</span> Feed = portable object</b><p>Not a screen: a versioned <code>feeds.json</code> (<code>feed.v2</code>) that lives on the Universal Source Manager, travels inside <code>.anizenbk</code>&nbsp;/&nbsp;<code>.hourbk</code> backups, survives device moves and repo shutdowns.</p></div>
+      <div class="goal"><b><span class="gn">II</span> Filters = declared capability</b><p>Each adapter declares a <strong>FilterProfile</strong>; the UI renders exactly what the selected source can do — native chips, honest «local filter» fallbacks, never a fake.</p></div>
+      <div class="goal"><b><span class="gn">III</span> Segmentation = rules first, AI second</b><p>Deterministic rules (plain data, portable, testable) cover the 90% case; AI is opt-in, on-device, per-entry correctable — the airplane-mode test decides.</p></div>
+    </div>
+    <div class="call">
+      <span class="ct">Reading map — three live exhibits</span>
+      <strong><a href="#s4">§4</a></strong> runs the per-source chip re-binding that fixes the reported gap;
+      <strong><a href="#s5">§5</a></strong> simulates the three merge policies with a real duplicate;
+      <strong><a href="#s6">§6</a></strong> executes the manual rule engine on sample entries. All three are deterministic,
+      zero-network, and live inside this single file.
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ RESUMEN ES ══════════════ -->
+<section class="sec" id="resumen" lang="es" data-nav="Resumen ejecutivo (ES)" data-num="ES">
+  <div class="sechead"><span class="kick">Resumen ejecutivo</span><h2>Para los equipos, en español <span class="lang-es-tag">ES</span></h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copiar enlace">§</button><button class="tbtn fold" type="button" title="Plegar sección" aria-label="Plegar sección"></button></span>
+  </div>
+  <div class="sec-body">
+    <p>Este documento eleva a nivel de arquitectura dos observaciones enviadas por el dueño de esta
+    propuesta al equipo de AniZen y Houri tras la reciente implementación del nuevo tipo de Feed:</p>
+    <ol>
+      <li><strong>El MultiFeed actual muestra una sola fuente y no expone filtros.</strong> Al seleccionar una fuente
+      concreta dentro del multifeed debería poder alternarse entre <em>sus</em> filtros específicos
+      («recientes», «actualizados») y los convencionales («nuevas obras», «populares», «en tendencia»).</li>
+      <li><strong>La petición original era un multifeed de verdad: múltiples feeds.</strong> El feed global por defecto,
+      más la capacidad de segmentarlo en categorías — a mano o mediante IA que clasifique automáticamente las
+      entradas existentes. Ejemplo real del ecosistema: fuentes de películas y fuentes de anime conviven hoy en
+      las mismas apps (Zangetsu, AniDash, Mangayomi); cada feed, igual que el global, debería admitir hasta
+      <strong>20 fuentes o extensiones</strong>.</li>
+    </ol>
+    <div class="call thesis">
+      <span class="ct">Tesis de esta v2</span>
+      El Feed no es una pantalla — es un <strong>objeto portátil</strong> de primera clase, que vive sobre el
+      Universal Source Manager del RFC v1, viaja dentro de los backups autocontenidos (.anizenbk / .hourbk),
+      y expone los filtros nativos de cada fuente mediante una interfaz normalizada. La evidencia del ecosistema
+      (<a href="#s1">§1</a>) muestra que la segmentación por categorías es la regla del mercado; el feed único
+      global es la excepción.
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ §1 ══════════════ -->
+<section class="sec" id="s1" data-nav="§1 Context & motivation" data-num="§1">
+  <div class="sechead"><span class="kick">§1 · Context</span><h2>Motivation — the landscape speaks <span class="lang-es-tag">verified 2026-10-10</span></h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <p><strong>The catalog layer already segments; the app layer does not.</strong></p>
+    <div class="tw"><table>
+      <caption>Table 1 — Ecosystem evidence, consulted October 10, 2026</caption>
+      <thead><tr><th scope="col">Evidence</th><th scope="col">What it shows</th></tr></thead>
+      <tbody>
+        <tr><th scope="row"><a href="https://miyomi.app/software?sort=updated-desc&amp;view=grid">Miyomi</a> (consulted 10-oct)</th>
+            <td>Sort-by-updated is dominated by <strong>multi-content apps</strong>: Mangayomi (manga+novel+anime, 6 platforms), Zangetsu (“anime &amp; movie streaming”), AniDash, Foxlations, Kototoro (manga+novel+video, 125.6k) — content types already coexist inside single apps.</td></tr>
+        <tr><th scope="row"><a href="https://everythingmoe.com/">EverythingMoe</a> (consulted 10-oct; updated same day)</th>
+            <td>The reference index of the culture is organized in <strong>24 category sections</strong> (Anime Streaming 94 sites · Manga Reading 96 · Novel · Drama · Donghua…) — segmentation is how the ecosystem itself thinks.</td></tr>
+        <tr><th scope="row">houri v1.23.16 released <strong>today</strong>; 14 releases in 9 days</th>
+            <td>Shipping cadence supports iterative feed features without long freezes.</td></tr>
+        <tr><th scope="row">AniZen v0.5.215 (30-sep) + in-app AI diagnostics (RFC v1 §5)</th>
+            <td>AniZen already carries the on-device intelligence needed for assisted segmentation.</td></tr>
+      </tbody>
+    </table></div>
+    <div class="call warn">
+      <span class="ct">The current gap — owner's field report</span>
+      Activating the new multiFeed surfaces a single source, with no source-specific filter toggling
+      (recent / updated) and no conventional filters (new works / popular / trending) applied to it. And there is
+      no way to keep <em>several</em> feeds side by side — the global feed cannot be forked into categories,
+      manual or AI-assisted.
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ §2 ══════════════ -->
+<section class="sec" id="s2" data-nav="§2 Design goals" data-num="§2">
+  <div class="sechead"><span class="kick">§2 · Goals</span><h2>Design goals</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <div class="grid2">
+      <div class="goal"><b><span class="gn">01</span> Feed as a first-class, portable object</b><p>Created, named, edited, backed up, restored.</p></div>
+      <div class="goal"><b><span class="gn">02</span> Respect native source capabilities</b><p>Never fake a filter the upstream API lacks; degrade honestly.</p></div>
+      <div class="goal"><b><span class="gn">03</span> Manual first, AI second</b><p>Deterministic rules cover 90% of needs; AI is opt-in, on-device, correctable.</p></div>
+      <div class="goal"><b><span class="gn">04</span> Zero telemetry</b><p>Classification runs on-device; nothing about a user's taste leaves the phone.</p></div>
+      <div class="goal"><b><span class="gn">05</span> ≤20 sources per feed</b><p>As originally requested — any adapter mix (APK manga, APK anime, Kotatsu DEX).</p></div>
+      <div class="goal"><b><span class="gn">06</span> Global feed remains the default</b><p>Segmentation adds; it never removes.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ §3 ══════════════ -->
+<section class="sec" id="s3" data-nav="§3 Data model" data-num="§3">
+  <div class="sechead"><span class="kick">§3 · Data model</span><h2>The Feed object</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <div class="codewrap">
+      <div class="chead">feeds.json — travels inside .anizenbk / .hourbk (RFC v1 §4)<button class="cbtn" type="button" data-copy>copy</button></div>
+      <pre><code class="lang-jsonc">// feeds.json — travels inside .anizenbk / .hourbk (RFC v1 §4)
+{
+  "schema": "feed.v2",
+  "feeds": [
+    {
+      "id": "feed_global",            // reserved, non-deletable
+      "name": "Global",
+      "sources": [ /* up to 20 */ { "pkg": "eu.kanade.tachiyomi.ext.en.mangadex", "enabled": true } ],
+      "mode": "global",               // global | manual | ai
+      "rules": [],                    // manual segmentation rules (see §6.1)
+      "ai": null,                     // AI segmentation profile (see §6.2)
+      "refresh": { "policy": "on_open", "ttl_min": 180 },
+      "created": "2026-10-10T16:00:00Z"
+    },
+    {
+      "id": "feed_anime_movies",
+      "name": "Anime + Movies",
+      "sources": [ { "pkg": "anime.source.a", "enabled": true },
+                   { "pkg": "movie.source.b", "enabled": true } ],
+      "mode": "manual",
+      "rules": [ { "match": "source_in", "sources": ["anime.source.a", "movie.source.b"] } ],
+      "refresh": { "policy": "scheduled", "ttl_min": 720 }
+    }
+  ]
+}</code></pre>
+    </div>
+    <div class="grid2">
+      <div class="goal"><b><span class="gn">a</span> Global is reserved</b><p><code>feed_global</code> always exists, cannot be deleted, and stays the default view.</p></div>
+      <div class="goal"><b><span class="gn">b</span> Rules are data</b><p>Segmentation is expressed as plain JSON — no code, no lock-in, trivially testable.</p></div>
+      <div class="goal"><b><span class="gn">c</span> AI profile is nullable</b><p><code>"ai": null</code> is the honest default; assisted feeds declare their tier and version.</p></div>
+      <div class="goal"><b><span class="gn">d</span> Refresh is per-feed</b><p><code>on_open</code> or <code>scheduled</code> with a TTL — feeds control their own network budget.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ §4 ══════════════ -->
+<section class="sec" id="s4" data-nav="§4 Filters (NFI)" data-num="§4">
+  <div class="sechead"><span class="kick">§4 · NFI</span><h2>Normalized Filter Interface — per-source filters, honestly mapped</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <p>Each adapter exposes a <strong>FilterProfile</strong>; the MultiFeed UI renders exactly what the selected source
+    can do, and nothing else.</p>
+    <div class="tw"><table>
+      <caption>Table 2 — Owner-visible filter × adapter matrix</caption>
+      <thead><tr><th scope="col">Owner-visible filter</th><th scope="col">Mihon / TachiyomiSY (ParsedHttpSource)</th><th scope="col">Aniyomi (AnimeHttpSource)</th><th scope="col">Kotatsu DEX parser</th><th scope="col">Movie/series sources</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Recientes / Latest</th><td><code>fetchLatestUpdates()</code></td><td><code>fetchLatestUpdates()</code></td><td><code>latest</code> listing</td><td><code>latest</code> (if declared)</td></tr>
+        <tr><th scope="row">Actualizados</th><td><code>fetchLatestUpdates</code> (ordered)</td><td>idem + <code>fetchSeasons</code> where present</td><td><code>updated</code> where present</td><td><code>updated</code> (if declared)</td></tr>
+        <tr><th scope="row">Nuevas obras</th><td>popular ascending by created/popular-set</td><td>idem</td><td>genre+sort where supported</td><td>catalog newest</td></tr>
+        <tr><th scope="row">Populares</th><td><code>fetchPopularManga()</code></td><td><code>fetchPopularAnime()</code></td><td><code>popular</code> listing</td><td><code>popular</code> (if declared)</td></tr>
+        <tr><th scope="row">En tendencia</th><td>source filter list (trending where native)</td><td>idem</td><td>trending where native</td><td>trending (if declared)</td></tr>
+        <tr><th scope="row">Filtros nativos (género, status, año…)</th><td>full <code>getFilterList()</code></td><td>full <code>getFilterList()</code></td><td>parser genres</td><td>source-declared facets</td></tr>
+      </tbody>
+    </table></div>
+    <div class="call warn">
+      <span class="ct">Fallback rule — no fake filters</span>
+      If a source lacks a native endpoint for a requested filter, the engine (a)&nbsp;hides the chip, or
+      (b)&nbsp;offers <em>client-side post-filtering</em> over already-fetched pages, visibly labeled
+      «filtro local — no nativo de la fuente». <strong>Never silent.</strong>
+    </div>
+
+    <div class="demo" id="demo-nfi">
+      <div class="demo-head"><span class="pulse"></span><b>Live exhibit A</b><span>chips re-bind to the selected source · zero network</span></div>
+      <div class="demo-body">
+        <div class="demo-controls">
+          <div class="seg" role="group" aria-label="Select a source adapter" id="nfiseg">
+            <button type="button" data-src="mihon" aria-pressed="true">Mihon / TachiSY</button>
+            <button type="button" data-src="aniyomi" aria-pressed="false">Aniyomi</button>
+            <button type="button" data-src="kotatsu" aria-pressed="false">Kotatsu DEX</button>
+            <button type="button" data-src="movie" aria-pressed="false">Movie source</button>
+          </div>
+          <label class="tog"><input type="checkbox" id="nfihide"> strict mode — hide non-native chips (spec option a)</label>
+        </div>
+        <div class="demo-out" id="nfiout" aria-live="polite"></div>
+        <p class="demo-cap">The row above is the exact gap reported by the owner — selecting a source re-binds the
+        filter chips to <em>that</em> source's FilterProfile: native (solid), honest local fallback (dashed),
+        declared-only (dotted). Nothing is faked.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ §5 ══════════════ -->
+<section class="sec" id="s5" data-nav="§5 MultiFeed UX" data-num="§5">
+  <div class="sechead"><span class="kick">§5 · UX</span><h2>MultiFeed UX specification</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <ul>
+      <li><strong>Source chips</strong> (one per enabled source of the feed, max 20) + <strong>filter chips row</strong> that
+        re-binds to the <em>selected</em> source's FilterProfile (§4) — this is the exact gap reported.</li>
+      <li><strong>Feed switcher:</strong> horizontal tabs — Global · user feeds · «+ New feed». Long-press → rename,
+        reorder, export single feed.</li>
+      <li><strong>Merge policies</strong> (per feed): <code>interleave</code> (round-robin, default),
+        <code>weighted</code> (per-source weight), <code>recency</code> (strict time order across sources).
+        Deduplication by normalized entry key (title-cased ASCII-fold + source id) with «show duplicates» toggle.</li>
+      <li><strong>Per-source state inside the feed</strong> (solo mute, weight, filter override) — so «this source,
+        its filters» is one tap, not a detour to the Sources screen.</li>
+    </ul>
+
+    <div class="demo" id="demo-merge">
+      <div class="demo-head"><span class="pulse"></span><b>Live exhibit B</b><span>merge policies · deterministic sample data · zero network</span></div>
+      <div class="demo-body">
+        <div class="demo-controls">
+          <div class="seg" role="group" aria-label="Merge policy" id="mergeseg">
+            <button type="button" data-m="interleave" aria-pressed="true">interleave</button>
+            <button type="button" data-m="weighted" aria-pressed="false">weighted</button>
+            <button type="button" data-m="recency" aria-pressed="false">recency</button>
+          </div>
+          <label class="tog"><input type="checkbox" id="dupshow"> show duplicates</label>
+          <span class="bdg mut" id="mergecount"></span>
+        </div>
+        <div class="demo-out"><ol class="mlist" id="mergeout" aria-live="polite"></ol></div>
+        <p class="demo-cap">Three sources — A (anime), B (movies), C (manga) — feed one merged list. “Frieren S2”
+        arrives via A and B: dedup keeps the first occurrence under the normalized key, «show duplicates» reveals it.
+        Weights in <em>weighted</em>: A:3 · B:2 · C:1.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ §6 ══════════════ -->
+<section class="sec" id="s6" data-nav="§6 Segmentation" data-num="§6">
+  <div class="sechead"><span class="kick">§6 · Segmentation</span><h2>Manual first, AI assisted, always correctable</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <h3>6.1 — Manual rules (deterministic, portable, testable)</h3>
+    <p><code>source_in</code> · <code>content_type</code> (manga/anime/novel/movie) · <code>genre/tag in</code> ·
+    <code>title contains</code> · <code>status in</code> — combined with AND/OR. Rules are data (inside
+    <code>feeds.json</code>) — no code, no lock-in.</p>
+
+    <div class="demo" id="demo-rules">
+      <div class="demo-head"><span class="pulse"></span><b>Live exhibit C</b><span>the §6.1 rule engine, executed in this file · zero network</span></div>
+      <div class="demo-body">
+        <div class="demo-controls" id="rulechips">
+          <button class="rulechip" type="button" data-r="type_movie" aria-pressed="true">content_type = movie</button>
+          <button class="rulechip" type="button" data-r="type_anime" aria-pressed="false">content_type = anime</button>
+          <button class="rulechip" type="button" data-r="genre_action" aria-pressed="false">genre ∋ Action</button>
+          <button class="rulechip" type="button" data-r="source_in" aria-pressed="false">source_in {a, b}</button>
+          <div class="seg" role="group" aria-label="Rule combinator" id="rulelogic">
+            <button type="button" data-l="AND" aria-pressed="true">AND</button>
+            <button type="button" data-l="OR" aria-pressed="false">OR</button>
+          </div>
+        </div>
+        <div class="feedcol">
+          <div><h4>→ Segmented feed · <span class="cnt" id="cntmatch">0</span> entries</h4>
+            <div class="demo-out"><ul class="hitlist infeed" id="matchlist" aria-live="polite"></ul></div></div>
+          <div><h4>Global (unmatched) · <span class="cnt" id="cntrest">0</span> entries</h4>
+            <div class="demo-out"><ul class="hitlist" id="restlist" aria-live="polite"></ul></div></div>
+        </div>
+        <p class="demo-cap">Deterministic. Portable (the active rules above serialize straight into
+        <code>feeds.json</code>). Testable offline — you just ran it.</p>
+      </div>
+    </div>
+
+    <h3>6.2 — AI-assisted segmentation (opt-in, on-device, correctable)</h3>
+    <ul>
+      <li><strong>Input:</strong> the existing entries of the Global feed (titles, genres, tags, content type metadata).</li>
+      <li><strong>Engine:</strong> small on-device classifier; AniZen can ship it on its existing AI diagnostics stack
+        (RFC v1 §5); Houri ships the lighter tier (rules + heuristics) first.</li>
+      <li><strong>Behavior:</strong> proposes <em>suggested feeds</em> (e.g., «Anime», «Movies», «Donghua», «Long-runners»)
+        with per-entry confidence; the user accepts, edits, or discards each suggestion. AI never moves an entry
+        silently — every assignment is reviewable, reversible, and locally computed.</li>
+      <li><strong>Privacy:</strong> no network calls, no model telemetry, no taste fingerprint leaves the device.</li>
+    </ul>
+    <div class="call ok">
+      <span class="ct">Example — the owner's case</span>
+      Movie sources + anime sources linked → AI proposes two feeds; manual mode can build the same with one
+      <code>content_type</code> rule — both paths land in the same <code>feeds.json</code>.
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ §7 ══════════════ -->
+<section class="sec" id="s7" data-nav="§7 RFC v1 integration" data-num="§7">
+  <div class="sechead"><span class="kick">§7 · Integration</span><h2>Integration with RFC v1 (Sandbox)</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <div class="diag" aria-label="Architecture diagram">
+      <svg viewBox="0 0 920 300" role="img" aria-labelledby="diagt">
+        <title id="diagt">Feed object on the Source Manager, exposed through NFI to four adapter families; backups and on-device AI attached.</title>
+        <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--mut)"/></marker></defs>
+        <g class="node" data-go="#s3" tabindex="0" role="link"><rect x="20" y="30" width="200" height="64" rx="10"/><text x="120" y="56" text-anchor="middle">feeds.json — Feed object</text><text x="120" y="74" text-anchor="middle" class="sub">schema feed.v2 · ≤20 sources</text></g>
+        <g class="node" data-go="#s5" tabindex="0" role="link"><rect x="20" y="180" width="200" height="64" rx="10"/><text x="120" y="206" text-anchor="middle">MultiFeed Engine</text><text x="120" y="224" text-anchor="middle" class="sub">merge · dedup · rules</text></g>
+        <g class="node" data-go="#s6" tabindex="0" role="link" class="node side"><rect x="20" y="105" width="200" height="52" rx="10"/><text x="120" y="127" text-anchor="middle">On-device AI (opt-in)</text><text x="120" y="144" text-anchor="middle" class="sub">suggest · review · correct</text></g>
+        <g class="node" data-go="#s4" tabindex="0" role="link"><rect x="330" y="105" width="190" height="64" rx="10"/><text x="425" y="131" text-anchor="middle">NFI</text><text x="425" y="149" text-anchor="middle" class="sub">FilterProfile per source</text></g>
+        <g class="node" data-go="#s7" tabindex="0" role="link"><rect x="620" y="20" width="270" height="50" rx="10"/><text x="755" y="41" text-anchor="middle">Mihon ParsedHttpSource</text><text x="755" y="58" text-anchor="middle" class="sub">manga APK adapters</text></g>
+        <g class="node" data-go="#s7" tabindex="0" role="link"><rect x="620" y="84" width="270" height="50" rx="10"/><text x="755" y="105" text-anchor="middle">Aniyomi AnimeHttpSource</text><text x="755" y="122" text-anchor="middle" class="sub">anime APK adapters</text></g>
+        <g class="node" data-go="#s7" tabindex="0" role="link"><rect x="620" y="148" width="270" height="50" rx="10"/><text x="755" y="169" text-anchor="middle">Kotatsu DEX parser</text><text x="755" y="186" text-anchor="middle" class="sub">in-app DEX sources</text></g>
+        <g class="node" data-go="#s7" tabindex="0" role="link"><rect x="620" y="212" width="270" height="50" rx="10"/><text x="755" y="233" text-anchor="middle">Movie / series sources</text><text x="755" y="250" text-anchor="middle" class="sub">declared facets</text></g>
+        <g class="node side" data-go="#s7" tabindex="0" role="link"><rect x="330" y="220" width="190" height="56" rx="10"/><text x="425" y="243" text-anchor="middle">.anizenbk / .hourbk</text><text x="425" y="261" text-anchor="middle" class="sub">self-contained backups</text></g>
+        <path class="edge" d="M220 62 C 280 62 280 120 330 130"/>
+        <path class="edge" d="M220 212 C 280 212 280 160 330 146"/>
+        <path class="edge" d="M220 131 L 330 133"/>
+        <path class="edge" d="M520 130 C 560 130 570 60 620 48"/>
+        <path class="edge" d="M520 136 L 620 108"/>
+        <path class="edge" d="M520 142 L 620 172"/>
+        <path class="edge" d="M520 150 C 570 160 570 232 620 236"/>
+        <path class="edge" d="M330 245 C 280 250 260 200 220 190" stroke-dasharray="5 4"/>
+      </svg>
+    </div>
+    <div class="tw"><table>
+      <caption>Table 3 — What v2 adds on top of each RFC v1 piece</caption>
+      <thead><tr><th scope="col">RFC v1 piece</th><th scope="col">What v2 adds on top</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Universal Unified Source Manager (§2)</th><td>Feeds are queries over it — one engine, any adapter mix.</td></tr>
+        <tr><th scope="row">Self-contained backups .anizenbk/.hourbk (§4)</th><td><code>feeds.json</code> joins the archive: feeds survive device moves and repo shutdowns — with the extensions they depend on.</td></tr>
+        <tr><th scope="row">Extension Health Monitoring (§5, AniZen)</th><td>Per-source feed health: a source failing inside a feed is flagged <em>in the feed</em>, with last-success timestamp — silent dead sources in a merged feed are how trust dies.</td></tr>
+        <tr><th scope="row">FileObserver hot-reload (§5, Houri)</th><td>Feed definitions hot-reload the same way — no restart.</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<!-- ══════════════ §8 ══════════════ -->
+<section class="sec" id="s8" data-nav="§8 Roadmap & AC" data-num="§8">
+  <div class="sechead"><span class="kick">§8 · Roadmap</span><h2>Roadmap &amp; acceptance criteria</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <div class="phase">
+      <h3><span class="pn">PHASE 1</span> MultiFeed with per-source filters — both apps</h3>
+      <ul>
+        <li>Source chips ≤ 20</li>
+        <li>Filter chips bound to selected source's native FilterProfile</li>
+        <li>Fallback labeling honest («filtro local — no nativo»)</li>
+        <li>Merge policy interleave + recency · dedup on</li>
+      </ul>
+    </div>
+    <div class="phase">
+      <h3><span class="pn">PHASE 2</span> Multiple feeds, manual — both apps</h3>
+      <ul>
+        <li>Create / rename / delete / reorder feeds</li>
+        <li>Rules engine (§6.1)</li>
+        <li><code>feeds.json</code> schema v2 written and restored round-trip inside .anizenbk/.hourbk with zero loss</li>
+      </ul>
+    </div>
+    <div class="phase">
+      <h3><span class="pn">PHASE 3</span> AI-assisted segmentation — AniZen first, Houri lite tier</h3>
+      <ul>
+        <li>On-device only — verifiable: <strong>airplane-mode test</strong></li>
+        <li>Suggestions reviewable per entry</li>
+        <li>Discard / edit persists</li>
+        <li>Global feed untouched by default</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ §9 ══════════════ -->
+<section class="sec" id="s9" data-nav="§9 Risk matrix" data-num="§9">
+  <div class="sechead"><span class="kick">§9 · Risks</span><h2>Risk matrix <span class="lang-es-tag">additive to RFC v1 §6</span></h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <div class="tw"><table>
+      <caption>Table 4 — Risks and mitigations</caption>
+      <thead><tr><th scope="col">Risk</th><th scope="col">Level</th><th scope="col">Mitigation</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Filter-mapping drift (sources change endpoints)</th><td><span class="bdg warn">Medium</span></td><td>FilterProfile declared per source version; chips degrade to hidden, never crash; QA fixture per adapter.</td></tr>
+        <tr><th scope="row">Merge performance at 20 sources</th><td><span class="bdg warn">Medium</span></td><td>Per-source page budgets + lazy interleave; no full-catalog fan-out on open.</td></tr>
+        <tr><th scope="row">AI misclassification</th><td><span class="bdg warn">Medium</span></td><td>Confidence display, per-entry override, «rules-only» mode for users who refuse ML.</td></tr>
+        <tr><th scope="row">Privacy regression</th><td><span class="bdg ok">Low</span></td><td>Airplane-mode acceptance test in CI for Phase 3.</td></tr>
+        <tr><th scope="row">Feature sprawl on Houri (one maintainer)</th><td><span class="bdg ok">Low</span></td><td>Phase 2 ships before Phase 3; lite tier (rules) is the Houri default.</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<!-- ══════════════ §10 ══════════════ -->
+<section class="sec" id="s10" data-nav="§10 Landscape appendix" data-num="§10">
+  <div class="sechead"><span class="kick">§10 · Appendix</span><h2>Landscape table <span class="lang-es-tag">verified 2026-10-10</span></h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body">
+    <div class="tw"><table>
+      <caption>Table 5 — Prior art and what it validates</caption>
+      <thead><tr><th scope="col">Prior art</th><th scope="col">What it validates</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Kototoro — entities &amp; Spaces (in production)</th><td>Content typing and scoped views inside one app work at scale.</td></tr>
+        <tr><th scope="row">Mangayomi (6 platforms, multi-content)</th><td>Mixed manga/anime/novel libraries are mainstream, not niche.</td></tr>
+        <tr><th scope="row">Zangetsu (“anime &amp; movie streaming”)</th><td>The movie+anime coexistence the owner describes already exists.</td></tr>
+        <tr><th scope="row"><a href="https://everythingmoe.com/">EverythingMoe</a> (24 sections, updated daily)</th><td>The culture indexes itself by segmented categories.</td></tr>
+        <tr><th scope="row"><a href="https://miyomi.app/software?sort=updated-desc&amp;view=grid">Miyomi</a> (content-type filters on the catalog)</th><td>Even the catalog sorts and filters by type — the apps' feeds should too.</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<!-- ══════════════ COLOPHON ══════════════ -->
+<section class="sec" id="colophon" data-nav="Colophon" data-num="✦">
+  <div class="sechead"><span class="kick">Colophon</span><h2>About this document</h2>
+    <span class="tools"><button class="tbtn anchor" type="button" title="Copy link">§</button><button class="tbtn fold" type="button" title="Collapse section" aria-label="Collapse section"></button></span>
+  </div>
+  <div class="sec-body colophon-notes">
+    <p>This RFC practices what it proposes. Like the <code>feeds.json</code> object of §3, the document is a
+    <strong>single portable artifact</strong>: one file, no external fonts, scripts, styles or images — it renders
+    identically offline, in airplane mode, years from now. The three live exhibits run deterministic sample data
+    on your device; nothing is fetched, nothing is sent.</p>
+    <p><strong>Airplane-mode test (§8 · Phase 3):</strong> network requests made by this page since load —
+    <strong id="netcount">0</strong> <span class="bdg ok">passed by construction</span>. The counter is wired to
+    <code>fetch</code>, <code>XMLHttpRequest</code> and <code>sendBeacon</code>; any call would increment it.</p>
+    <p><strong>Infrastructure.</strong> Semantic HTML5 landmarks and heading outline · scrollspy table of contents
+    (IntersectionObserver) · full-text search with in-place highlighting · theme engine (auto / light / dark,
+    persisted when storage is available) · print stylesheet for PDF export · reduced-motion and keyboard support
+    (<code>/</code>, <code>t</code>, <code>Esc</code>) · integrity-sealed source.</p>
+    <p><strong>Source seal.</strong> Canonical text: <em>RFC-v2-UNIFIED-FEED-AniZen-Houri-2026-10-10.md</em> —
+    SHA-256 <code>bb408a9b10246be0</code> (first 16 hex). Any divergence between this envelope and the sealed
+    markdown is a defect of the envelope, not of the proposal.</p>
+    <p><em>Prepared for the developer communities of AniZen, Houri, Kototoro and Miyomi — with the courtesy already
+    owed to RFC v1's authors. October 2026, Version 2.0 (Draft for review).</em></p>
+  </div>
+</section>
+
+</main>
+</div>
+
+<footer class="foot">
+  <div class="foot-in">
+    <span><strong>RFC v2.0</strong> — Unified Feed Architecture · Draft for review · 2026-10-10</span>
+    <span class="seal">sha256:<code>bb408a9b10246be0</code></span>
+    <span>
+      <a href="https://github.com/salmanbappi/AniZen">AniZen</a>
+      <a href="https://github.com/PineappleTwilight/houri">Houri</a>
+      <a href="https://miyomi.app/software?sort=updated-desc&amp;view=grid">Miyomi</a>
+      <a href="https://everythingmoe.com/">EverythingMoe</a>
+    </span>
+  </div>
+</footer>
+
+<div id="searchov" role="dialog" aria-modal="true" aria-label="Search document">
+  <div class="searchpanel">
+    <header>
+      <span aria-hidden="true">⌕</span>
+      <input id="sinput" type="search" placeholder="Search this document…" autocomplete="off" aria-label="Search query">
+      <span class="esc">Esc</span>
+    </header>
+    <div id="sres" aria-live="polite"></div>
+    <footer>Enter — jump to first result · results highlight matches in place</footer>
+  </div>
+</div>
+
+<div id="toast" role="status" aria-live="polite"></div>
+<button id="totop" type="button" aria-label="Back to top">↑</button>
+
+<script>
+(function(){
+"use strict";
+var d=document, w=window, root=d.documentElement;
+function $(s,c){return (c||d).querySelector(s)}
+function $$(s,c){return Array.prototype.slice.call((c||d).querySelectorAll(s))}
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
+function store(){try{return w.localStorage}catch(e){return null}}
+
+/* ── network counter (airplane-mode test) ── */
+var net=0;
+function netEl(){return $("#netcount")}
+function netUpd(){net++;var a=netEl(),b=$("#netbadge");if(a)a.textContent=String(net);if(b)b.textContent=net+" ✗"}
+try{var of=w.fetch;w.fetch=function(){netUpd();return of.apply(this,arguments)}}catch(e){}
+try{var oo=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(){netUpd();return oo.apply(this,arguments)}}catch(e){}
+try{if(w.navigator.sendBeacon){var ob=w.navigator.sendBeacon.bind(w.navigator);w.navigator.sendBeacon=function(){netUpd();return ob.apply(this,arguments)}}}catch(e){}
+
+/* ── toast ── */
+var toastT;
+function toast(m){var t=$("#toast");t.textContent=m;t.classList.add("show");clearTimeout(toastT);toastT=setTimeout(function(){t.classList.remove("show")},1900)}
+
+/* ── theme ── */
+var THEMES=["auto","light","dark"];
+function setTheme(t){root.setAttribute("data-theme",t);var l=$("#thlab");if(l)l.textContent=t;var m=$('meta[name="theme-color"]');if(m)m.setAttribute("content",t==="light"?"#ffffff":"#0b1020");var s=store();if(s)try{s.setItem("rfc2-theme",t)}catch(e){}}
+var savedT=null,s=store();if(s)try{savedT=s.getItem("rfc2-theme")}catch(e){}
+setTheme(THEMES.indexOf(savedT)>-1?savedT:"auto");
+$("#btheme").addEventListener("click",function(){var c=root.getAttribute("data-theme")||"auto";setTheme(THEMES[(THEMES.indexOf(c)+1)%3]);toast("Theme: "+root.getAttribute("data-theme"))});
+
+/* ── TOC + scrollspy ── */
+var secs=$$("main section.sec"),list=$("#toclist");
+secs.forEach(function(sec){
+  var li=d.createElement("li"),a=d.createElement("a");
+  a.href="#"+sec.id;
+  a.innerHTML='<span class="tocnum">'+esc(sec.getAttribute("data-num")||"")+"</span>"+esc(sec.getAttribute("data-nav")||sec.id);
+  li.appendChild(a);list.appendChild(li);
+});
+var links={};$$("nav.toc a").forEach(function(a){links[a.getAttribute("href").slice(1)]=a});
+function spy(id){Object.keys(links).forEach(function(k){if(links[k])links[k].setAttribute("aria-current",k===id?"true":"false")})}
+if("IntersectionObserver" in w){
+  var vis={};
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){vis[e.target.id]=e.isIntersecting});
+    var best=null;
+    secs.forEach(function(sec){if(vis[sec.id]&&best===null)best=sec.id});
+    if(best)spy(best);
+  },{rootMargin:"-12% 0px -74% 0px",threshold:0});
+  secs.forEach(function(sec){io.observe(sec)});
+}
+spy("abstract");
+
+/* ── progress + totop ── */
+var bar=$("#progress i"),tt=$("#totop"),tick=false;
+function onScroll(){
+  var h=d.documentElement,st=w.scrollY||h.scrollTop;
+  var max=(h.scrollHeight-h.clientHeight)||1;
+  bar.style.width=Math.min(100,st/max*100).toFixed(2)+"%";
+  tt.classList.toggle("show",st>700);
+  tick=false;
+}
+w.addEventListener("scroll",function(){if(!tick){tick=true;requestAnimationFrame(onScroll)}},{passive:true});
+onScroll();
+tt.addEventListener("click",function(){w.scrollTo({top:0,behavior:"smooth"})});
+
+/* ── section tools: fold + anchor ── */
+$$("section.sec").forEach(function(sec){
+  var fold=$(".tbtn.fold",sec),body=$(".sec-body",sec);
+  if(fold)fold.addEventListener("click",function(){sec.classList.toggle("closed");fold.setAttribute("aria-expanded",sec.classList.contains("closed")?"false":"true")});
+  var an=$(".tbtn.anchor",sec);
+  if(an)an.addEventListener("click",function(){
+    var url=location.href.split("#")[0]+"#"+sec.id;
+    var done=function(){toast("Link copied — #"+sec.id)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(done,function(){fallbackCopy(url);done()})}
+    else{fallbackCopy(url);done()}
+  });
+});
+function fallbackCopy(txt){var ta=d.createElement("textarea");ta.value=txt;ta.style.position="fixed";ta.style.opacity="0";d.body.appendChild(ta);ta.select();try{d.execCommand("copy")}catch(e){}d.body.removeChild(ta)}
+
+/* ── code copy + jsonc highlighting ── */
+$$("[data-copy]").forEach(function(b){
+  b.addEventListener("click",function(){
+    var code=b.closest(".codewrap").querySelector("code");
+    var txt=code.textContent;
+    var done=function(){b.textContent="copied ✓";setTimeout(function(){b.textContent="copy"},1600)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done,function(){fallbackCopy(txt);done()})}
+    else{fallbackCopy(txt);done()}
+  });
+});
+$$("code.lang-jsonc").forEach(function(code){
+  var txt=esc(code.textContent);
+  var re=/(\/\/[^\n]*)|("(?:[^"\\]|\\.)*")(\s*:)?|\b(true|false|null)\b|(-?\d+(?:\.\d+)?)/g;
+  code.innerHTML=txt.replace(re,function(m,com,str,col,kw,num){
+    if(com)return '<span class="j-c">'+com+"</span>";
+    if(str)return '<span class="j-k">'+str+"</span>"+(col?col:"");
+    if(kw)return '<span class="j-b">'+kw+"</span>";
+    if(num)return '<span class="j-n">'+num+"</span>";
+    return m;
+  });
+});
+
+/* ── EXHIBIT A · NFI chips ── */
+var FILTERS=["latest","updated","new","popular","trending","nativefilters"];
+var FLABEL={latest:"Recientes / Latest",updated:"Actualizados",new:"Nuevas obras",popular:"Populares",trending:"En tendencia",nativefilters:"Filtros nativos"};
+var FTIP={
+ latest:{mihon:"native · fetchLatestUpdates()",aniyomi:"native · fetchLatestUpdates()",kotatsu:"native · latest listing",movie:"conditional · latest, if declared"},
+ updated:{mihon:"native · fetchLatestUpdates (ordered)",aniyomi:"native · + fetchSeasons where present",kotatsu:"conditional · updated where present",movie:"conditional · if declared"},
+ new:{mihon:"local · popular ascending by created/popular-set",aniyomi:"local · idem",kotatsu:"local · genre+sort where supported",movie:"native · catalog newest"},
+ popular:{mihon:"native · fetchPopularManga()",aniyomi:"native · fetchPopularAnime()",kotatsu:"native · popular listing",movie:"conditional · if declared"},
+ trending:{mihon:"conditional · source filter list where native",aniyomi:"conditional · idem",kotatsu:"conditional · where native",movie:"conditional · if declared"},
+ nativefilters:{mihon:"native · full getFilterList()",aniyomi:"native · full getFilterList()",kotatsu:"native · parser genres",movie:"native · source-declared facets"}
+};
+var FNAMES={mihon:"Mihon / TachiyomiSY",aniyomi:"Aniyomi",kotatsu:"Kotatsu DEX",movie:"Movie / series source"};
+var hideOff=$("#nfihide");
+function renderNFI(src){
+  var out=$("#nfiout"),html="";
+  FILTERS.forEach(function(f){
+    var tip=FTIP[f][src],cls=tip.indexOf("native ·")===0?"native":(tip.indexOf("local ·")===0?"local":"cond");
+    if(hideOff.checked&&cls!=="native")return;
+    var st=cls==="native"?"native":(cls==="local"?"filtro local":"if declared");
+    html+='<span class="chip '+cls+'" title="'+esc(tip)+'">'+esc(FLABEL[f])+' <span class="st">'+st+"</span></span>";
+  });
+  html+='<span class="bdg mut" style="margin-left:4px">FilterProfile: '+esc(FNAMES[src])+" · 0 fake chips</span>";
+  out.innerHTML=html;
+}
+$("#nfiseg").addEventListener("click",function(e){
+  var b=e.target.closest("button[data-src]");if(!b)return;
+  $$("#nfiseg button").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});
+  renderNFI(b.getAttribute("data-src"));
+});
+hideOff.addEventListener("change",function(){
+  var cur=$("#nfiseg button[aria-pressed='true']");
+  renderNFI(cur?cur.getAttribute("data-src"):"mihon");
+});
+renderNFI("mihon");
+
+/* ── EXHIBIT B · merge ── */
+var DATA={
+ A:{label:"A",items:[{t:"Frieren S2",ts:1640},{t:"Dungeon Mania — E08",ts:1510},{t:"Blue Lock — E214",ts:1205},{t:"Kaiju No. 8 — E07",ts:930}]},
+ B:{label:"B",items:[{t:"Frieren S2",ts:1612},{t:"The APFO Movie",ts:1345},{t:"Jujutsu 0 — re-release",ts:1020}]},
+ C:{label:"C",items:[{t:"Vagabond — ch. 327",ts:1555},{t:"Berserk Deluxe — v12",ts:1135},{t:"Vinland Saga SF — ch. 204",ts:805}]}
+};
+var WEIGHTS={A:3,B:2,C:1};
+function fmt(ts){var h=Math.floor(ts/100),m=ts%100;return (h<10?"0":"")+h+":"+((m<10?"0":"")+m)}
+function dedupKey(t){return t.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g," ").trim()}
+function mergedList(mode){
+  var seq;
+  if(mode==="recency"){
+    seq=[];
+    Object.keys(DATA).forEach(function(k){DATA[k].items.forEach(function(it){seq.push({k:k,it:it})})});
+    seq.sort(function(a,b){return b.it.ts-a.it.ts});
+  }else if(mode==="weighted"){
+    seq=[];var queues={};Object.keys(DATA).forEach(function(k){queues[k]=DATA[k].items.slice()});
+    var order=["A","B","C"],credit={A:0,B:0,C:0},guard=0;
+    while(seq.length<10&&guard++<80){
+      order.forEach(function(k){
+        if(!queues[k].length)return;
+        credit[k]+=WEIGHTS[k];
+      });
+      var pick=order.filter(function(k){return queues[k].length}).sort(function(a,b){return credit[b]-credit[a]||order.indexOf(a)-order.indexOf(b)})[0];
+      if(!pick)break;
+      credit[pick]-=3;
+      seq.push({k:pick,it:queues[pick].shift()});
+    }
+  }else{
+    seq=[];var q={};Object.keys(DATA).forEach(function(k){q[k]=DATA[k].items.slice()});
+    var guard2=0;
+    while(seq.length<10&&guard2++<40){
+      var added=false;
+      ["A","B","C"].forEach(function(k){if(q[k].length){seq.push({k:k,it:q[k].shift()});added=true}});
+      if(!added)break;
+    }
+  }
+  return seq;
+}
+var mseg=$("#mergeseg"),mdup=$("#dupshow");
+function renderMerge(){
+  var mode=$("#mergeseg button[aria-pressed='true']").getAttribute("data-m");
+  var seq=mergedList(mode),seen={},out="",shown=0,hidden=0;
+  seq.forEach(function(e){
+    var key=dedupKey(e.it.t),isDup=seen[key];
+    seen[key]=true;
+    if(isDup){hidden++;if(!mdup.checked)return;}
+    shown++;
+    out+='<li><span class="tm">'+fmt(e.it.ts)+'</span><span class="src '+e.k+'">'+e.k+"</span><span>"+esc(e.it.t)+(isDup?' <span class="dup">duplicate key — first occurrence kept</span>':"")+"</span></li>";
+  });
+  $("#mergeout").innerHTML=out;
+  $("#mergecount").textContent=shown+" shown"+(hidden?" · "+hidden+" deduped":"");
+}
+mseg.addEventListener("click",function(e){
+  var b=e.target.closest("button[data-m]");if(!b)return;
+  $$("button",mseg).forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});
+  renderMerge();
+});
+mdup.addEventListener("change",renderMerge);
+renderMerge();
+
+/* ── EXHIBIT C · rules ── */
+var ENTRIES=[
+ {t:"Frieren S2 — E12",src:"anime.source.a",type:"anime",genres:["Fantasy","Adventure"]},
+ {t:"The APFO Movie",src:"movie.source.b",type:"movie",genres:["Action"]},
+ {t:"Blue Lock — E214",src:"anime.source.a",type:"anime",genres:["Sports"]},
+ {t:"Donghua: Battle Through S5",src:"anime.source.c",type:"anime",genres:["Fantasy","Action"]},
+ {t:"Vagabond — ch. 327",src:"manga.source.d",type:"manga",genres:["Adventure","Drama"]},
+ {t:"Jujutsu 0 — re-release",src:"movie.source.b",type:"movie",genres:["Fantasy","Action"]},
+ {t:"Kaiju No. 8 — E07",src:"anime.source.a",type:"anime",genres:["Action"]},
+ {t:"Vinland Saga SF — ch. 204",src:"manga.source.d",type:"manga",genres:["Action","Drama"]}
+];
+var RULES={
+ type_movie:function(e){return e.type==="movie"},
+ type_anime:function(e){return e.type==="anime"},
+ genre_action:function(e){return e.genres.indexOf("Action")>-1},
+ source_in:function(e){return e.src==="anime.source.a"||e.src==="movie.source.b"}
+};
+var activeRules={type_movie:true},logic="AND";
+function renderRules(){
+  var on=Object.keys(activeRules).filter(function(k){return activeRules[k]});
+  var match=[],rest=[];
+  ENTRIES.forEach(function(e){
+    var vals=on.map(function(k){return RULES[k](e)});
+    var ok=on.length===0?true:(logic==="AND"?vals.every(Boolean):vals.some(Boolean));
+    (ok?match:rest).push(e);
+  });
+  function li(e){return '<li><strong>'+esc(e.t)+'</strong> <span class="no">· '+esc(e.src)+" · "+esc(e.type)+" · "+esc(e.genres.join(", "))+"</span></li>"}
+  $("#matchlist").innerHTML=match.length?match.map(li).join(""):'<li class="no">— no entries match —</li>';
+  $("#restlist").innerHTML=rest.length?rest.map(li).join(""):'<li class="no">— feed captures everything —</li>';
+  $("#cntmatch").textContent=match.length;
+  $("#cntrest").textContent=rest.length;
+}
+$("#rulechips").addEventListener("click",function(e){
+  var b=e.target.closest(".rulechip");if(!b)return;
+  var r=b.getAttribute("data-r");
+  activeRules[r]=!activeRules[r];
+  b.setAttribute("aria-pressed",activeRules[r]?"true":"false");
+  if(!Object.keys(activeRules).some(function(k){return activeRules[k]}))renderRules();else renderRules();
+});
+$("#rulelogic").addEventListener("click",function(e){
+  var b=e.target.closest("button[data-l]");if(!b)return;
+  $$("button",$("#rulelogic")).forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});
+  logic=b.getAttribute("data-l");renderRules();
+});
+renderRules();
+
+/* ── diagram links ── */
+$$(".diag .node").forEach(function(n){
+  var go=n.getAttribute("data-go");
+  function jump(){var t=$(go);if(t){t.scrollIntoView({behavior:"smooth",block:"start"});t.classList.remove("flash");void t.offsetWidth;t.classList.add("flash")}}
+  n.addEventListener("click",jump);
+  n.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){e.preventDefault();jump()}});
+});
+
+/* ── search ── */
+var ov=$("#searchov"),inp=$("#sinput"),res=$("#sres"),INDEX=[];
+secs.forEach(function(sec){
+  var body=$(".sec-body",sec);
+  INDEX.push({id:sec.id,label:sec.getAttribute("data-nav")||sec.id,text:(body?body.textContent:"").replace(/\s+/g," ").toLowerCase()});
+});
+var marks=[];
+function clearMarks(){marks.forEach(function(m){var p=m.parentNode;if(p){p.replaceChild(d.createTextNode(m.textContent),m);p.normalize()}});marks=[]}
+function markIn(sec,q){
+  var body=$(".sec-body",sec);if(!body)return;
+  var walker=d.createTreeWalker(body,NodeFilter.SHOW_TEXT,{acceptNode:function(n){
+    if(!n.nodeValue||!n.nodeValue.trim())return NodeFilter.FILTER_REJECT;
+    var p=n.parentNode;return (p&&(p.nodeName==="SCRIPT"||p.nodeName==="STYLE"||p.nodeName==="MARK"))?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT;
+  }});
+  var nodes=[],n;while(n=walker.nextNode())nodes.push(n);
+  var ql=q.toLowerCase(),count=0;
+  nodes.forEach(function(node){
+    if(count>=30)return;
+    var txt=node.nodeValue,low=txt.toLowerCase(),idx=low.indexOf(ql);
+    if(idx<0)return;
+    var frag=d.createDocumentFragment(),pos=0,hit;
+    while((hit=low.indexOf(ql,pos))>-1&&count<30){
+      if(hit>pos)frag.appendChild(d.createTextNode(txt.slice(pos,hit)));
+      var mk=d.createElement("mark");mk.setAttribute("data-hit","");mk.textContent=txt.slice(hit,hit+q.length);
+      frag.appendChild(mk);marks.push(mk);count++;
+      pos=hit+q.length;
+    }
+    if(pos<txt.length)frag.appendChild(d.createTextNode(txt.slice(pos)));
+    if(pos>0)node.parentNode.replaceChild(frag,node);
+  });
+}
+function openSearch(){ov.classList.add("open");inp.value="";res.innerHTML='<div class="none">Type to search across '+INDEX.length+" sections…</div>";inp.focus()}
+function closeSearch(){ov.classList.remove("open");clearMarks()}
+$("#bsearch").addEventListener("click",openSearch);
+ov.addEventListener("click",function(e){if(e.target===ov)closeSearch()});
+inp.addEventListener("input",function(){
+  var q=inp.value.trim().toLowerCase();
+  clearMarks();
+  if(q.length<2){res.innerHTML='<div class="none">Type at least 2 characters…</div>';return}
+  var scored=[];
+  INDEX.forEach(function(s){
+    var hits=0,i=s.text.indexOf(q),first=-1;
+    while(i>-1&&hits<50){if(first<0)first=i;hits++;i=s.text.indexOf(q,i+q.length)}
+    if(s.label.toLowerCase().indexOf(q)>-1)hits+=12;
+    if(hits>0)scored.push({s:s,hits:hits,first:first});
+  });
+  scored.sort(function(a,b){return b.hits-a.hits});
+  if(!scored.length){res.innerHTML='<div class="none">No matches for “'+esc(q)+'”.</div>';return}
+  res.innerHTML="";
+  scored.slice(0,9).forEach(function(r,idx){
+    var pos=Math.max(0,r.first-60),snip=r.s.text.substr(pos,150).split(q).join("«"+q+"»");
+    var b=d.createElement("button");b.type="button";b.className="si";
+    b.innerHTML="<b>"+esc(r.s.label)+"</b><span>…"+esc(snip)+"…</span>";
+    b.addEventListener("click",function(){
+      closeSearch();
+      var sec=d.getElementById(r.s.id);
+      markIn(sec,inp.value.trim());
+      sec.scrollIntoView({behavior:"smooth",block:"start"});
+      sec.classList.remove("flash");void sec.offsetWidth;sec.classList.add("flash");
+    });
+    res.appendChild(b);
+  });
+});
+inp.addEventListener("keydown",function(e){
+  if(e.key==="Enter"){var f=$(".si",res);if(f)f.click()}
+});
+
+/* ── keyboard ── */
+d.addEventListener("keydown",function(e){
+  var tag=(e.target.tagName||"").toLowerCase(),typing=tag==="input"||tag==="textarea"||tag==="select";
+  if(e.key==="Escape"){if(ov.classList.contains("open"))closeSearch();return}
+  if(typing)return;
+  if(e.key==="/"||(e.key==="k"&&(e.ctrlKey||e.metaKey))){e.preventDefault();openSearch()}
+  if(e.key==="t"){$("#btheme").click()}
+});
+
+/* ── print ── */
+$("#bprint").addEventListener("click",function(){clearMarks();$$("section.sec").forEach(function(s){s.classList.remove("closed")});w.print()});
+w.addEventListener("beforeprint",function(){clearMarks();$$("section.sec").forEach(function(s){s.classList.remove("closed")})});
+})();
+</script>
+</body>
+</html>

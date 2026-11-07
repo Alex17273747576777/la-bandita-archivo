@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-13"
+ },
+ "descripcion": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber l",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hackinghobbit--airi-virtualperson.json",
+  "sha256": "c66fa07c3968df92b15093c71f8e087f67bca9094cfa1b8f3e09069ce377e5e2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hackinghobbit--airi-virtualperson",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "airi-virtualperson",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d4fe2bef59599a37740a34856aa97b0aece68ef8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d4fe2bef59599a37740a34856aa97b0aece68ef8"
+ },
+ "repo": "HackingHobbit/airi-virtualperson"
+}

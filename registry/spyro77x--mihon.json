@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-10"
+ },
+ "descripcion": "Free and open source manga reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/spyro77x--mihon.json",
+  "sha256": "aee1ca72a581a9b8ae84b68e1e4eb4739a6f520a97cb5db60cdc24adc4def028"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "spyro77x--mihon",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mihon",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ed94f8f0267959df641dcd9ad74cef6e80d4eb9e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ed94f8f0267959df641dcd9ad74cef6e80d4eb9e"
+ },
+ "repo": "Spyro77x/mihon"
+}

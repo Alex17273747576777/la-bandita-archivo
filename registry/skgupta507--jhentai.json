@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-11-11"
+ },
+ "descripcion": "A cross-platform manga app made for e-hentai & exhentai by Flutter",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/skgupta507--jhentai.json",
+  "sha256": "064b544295cb30b0a39eb2716055c7acd403b2932edfb883d70cf9c44e7ed517"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "skgupta507--jhentai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "JHenTai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b4e57b33443c8e9f1a14626d6cebd65e84ec1ec5",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b4e57b33443c8e9f1a14626d6cebd65e84ec1ec5"
+ },
+ "repo": "skgupta507/JHenTai"
+}

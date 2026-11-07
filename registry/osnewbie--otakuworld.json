@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-03-13"
+ },
+ "descripcion": "动漫观察者、漫画阅读器和小说阅读器作为三个独立的应用程序，用户界面相同",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/osnewbie--otakuworld.json",
+  "sha256": "eca2e7f07c12caf36f7c74bfe9ed87c716fac40eadddd36b7994579181603a3e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "osnewbie--otakuworld",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OtakuWorld-",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d848e600d51c8578342249feccc57382ef9bacd4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d848e600d51c8578342249feccc57382ef9bacd4"
+ },
+ "repo": "OSNewbie/OtakuWorld-"
+}

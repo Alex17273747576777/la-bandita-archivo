@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2017-02-07",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0-alpha.1",
+  "ultimo_push": "2025-05-23"
+ },
+ "descripcion": "An Android client for the microblogging server Mastodon",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/tuskyapp--tusky.json",
+  "sha256": "c4a724f8c0da7710c2a7ee0a636a843cb329e9399fab28f8499161e572b47656"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "tuskyapp--tusky",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2566,
+  "stars_por_mes": null
+ },
+ "nombre": "Tusky",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "43ae0bb4556392393a3d759ce42a93f3a003e83a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:43ae0bb4556392393a3d759ce42a93f3a003e83a"
+ },
+ "repo": "tuskyapp/Tusky",
+ "web": "https://tusky.app"
+}

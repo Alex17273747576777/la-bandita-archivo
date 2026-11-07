@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-12-14"
+ },
+ "descripcion": "Free and open source manga reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/muhamadsyabithidayattulloh--mihon-ocr.json",
+  "sha256": "00bfcf23e5d9ca1a9dbfb94d9fed0c46116d94ba099c57af85f26a9761b9d99b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "muhamadsyabithidayattulloh--mihon-ocr",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mihon-ocr",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "79e63d4a4581fbf9c7a2f3828066c9d6f390d31c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:79e63d4a4581fbf9c7a2f3828066c9d6f390d31c"
+ },
+ "repo": "MuhamadSyabitHidayattulloh/mihon-ocr"
+}

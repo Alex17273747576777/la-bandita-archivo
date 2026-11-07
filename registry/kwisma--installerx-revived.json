@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2026-04-06",
+  "semantica_http": 200,
+  "ultima_release": "26.04.10a5310",
+  "ultimo_push": "2026-04-06"
+ },
+ "descripcion": "More Expressive InstallerX !",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kwisma--installerx-revived.json",
+  "sha256": "b4513905cd5e9d6c23b6f150ff2a965f3e54374eaaae3707c67c2a3d1a78d0f1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kwisma--installerx-revived",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "InstallerX-Revived",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "10a5310d5067e217befffce993af8239dbcd3243",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:10a5310d5067e217befffce993af8239dbcd3243"
+ },
+ "repo": "Kwisma/InstallerX-Revived"
+}

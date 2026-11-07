@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-03-01"
+ },
+ "descripcion": "An all-in-one search app for Android which can search apps, contacts, files, set",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/eirikc--quick-search.json",
+  "sha256": "875668e11d461dc9119a7c7851865536d74f1466a83b9a13a9b7b56a01e8fe4a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "eirikc--quick-search",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "quick-search",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "29c306d36dca1a155993ef270d9b73e796b0a794",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:29c306d36dca1a155993ef270d9b73e796b0a794"
+ },
+ "repo": "eirikc/quick-search"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-13"
+ },
+ "descripcion": "Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga and a",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/boinciel--chimahon.json",
+  "sha256": "135be9ffd2fa8272c0f5a122d7fe5e063c2ee8236948a5b5fb3d58222f0e79dc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "boinciel--chimahon",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "chimahon",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8e550063db9158af22995ede638567b587f0330d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8e550063db9158af22995ede638567b587f0330d"
+ },
+ "repo": "Boinciel/chimahon"
+}

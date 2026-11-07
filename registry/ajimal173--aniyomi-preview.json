@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2023-09-04"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ajimal173--aniyomi-preview.json",
+  "sha256": "abefa326396bc16ca75ca25ec1f19dce9089b847cd027590dec503f7eeee05da"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ajimal173--aniyomi-preview",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "aniyomi-preview",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "db49ac0c71f366e5e0863912f0f64d4c89401970",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:db49ac0c71f366e5e0863912f0f64d4c89401970"
+ },
+ "repo": "ajimal173/aniyomi-preview"
+}

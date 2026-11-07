@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-16"
+ },
+ "descripcion": "A native Android application that converts any website URL into a standalone And",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/knowledgexhunta--web-to-app.json",
+  "sha256": "33bf0011bb7e72548d0059ee53b68656a4c66ee5fec81e781583e94b18f2633e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "knowledgexhunta--web-to-app",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "web-to-app",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "edbbf82d7f7e3abaf741505cbe966f11e520d94d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:edbbf82d7f7e3abaf741505cbe966f11e520d94d"
+ },
+ "repo": "knowledgexhunta/web-to-app"
+}

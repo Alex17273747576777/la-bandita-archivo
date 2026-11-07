@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-04-05",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0-beta.1",
+  "ultimo_push": "2026-10-24"
+ },
+ "descripcion": "Simple floating auto scroll utility",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/majkey25--scrollit.json",
+  "sha256": "f55bc24f9f2943ad96023c1ef6a3b4f8b6c41d8e6be8a24b9624eb5234619a4a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "majkey25--scrollit",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "scrollit",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c6f0b6765b24d2c0da8be859da3f16108fcd85a0",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c6f0b6765b24d2c0da8be859da3f16108fcd85a0"
+ },
+ "repo": "Majkey25/scrollit"
+}

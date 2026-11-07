@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-03-19"
+ },
+ "descripcion": "An Open Source app for watching anime, reading mangas and novels",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/abdelrahmanalaa1--anymex-preview.json",
+  "sha256": "aa19d43327d04eebde68787f701b59bdaf92c9f7995c8b523894e9505ce0f357"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "abdelrahmanalaa1--anymex-preview",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "AnymeX-Preview",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "069ef90a193390620b11cf9bb35d8e53ea297ed6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:069ef90a193390620b11cf9bb35d8e53ea297ed6"
+ },
+ "repo": "ABdelrahmanAlaa1/AnymeX-Preview"
+}

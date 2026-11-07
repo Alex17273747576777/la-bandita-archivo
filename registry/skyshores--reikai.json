@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-17"
+ },
+ "descripcion": "One library for manga and light novels. A free and open source reader for Androi",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/skyshores--reikai.json",
+  "sha256": "f5c0cd64d494fc8895c6d01e7ad84a56be701b10f956001d93f7bc06f9ec6036"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "skyshores--reikai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Reikai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "01e44c7fccbb3fb0a445d2e60ddfd044e5f8a51c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:01e44c7fccbb3fb0a445d2e60ddfd044e5f8a51c"
+ },
+ "repo": "SkyShores/Reikai"
+}

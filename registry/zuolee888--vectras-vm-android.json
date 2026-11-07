@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-12-24"
+ },
+ "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/zuolee888--vectras-vm-android.json",
+  "sha256": "a3cfbebb4255942ac071c683409b6a263c465a10606d4ca6b1cb0589152dfe56"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zuolee888--vectras-vm-android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Vectras-VM-Android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "294c664e908d98badc6798773a327d9ed44c24a9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:294c664e908d98badc6798773a327d9ed44c24a9"
+ },
+ "repo": "Zuolee888/Vectras-VM-Android"
+}

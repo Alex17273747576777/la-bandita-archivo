@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-25",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/velocity081--droidbubble.json",
+  "sha256": "e0ea7bd7774067e17bc819af319d3ef4a102738604f7b0a3c927ce4293a0f9ce"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "velocity081--droidbubble",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 113,
+  "stars_por_mes": null
+ },
+ "nombre": "droidbubble",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7152b90a1ed9c8ba04444d86ffb37c375008960c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:7152b90a1ed9c8ba04444d86ffb37c375008960c"
+ },
+ "repo": "Velocity081/droidbubble"
+}

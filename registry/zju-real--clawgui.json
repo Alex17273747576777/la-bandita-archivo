@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-05-18",
+  "semantica_http": 200,
+  "ultima_release": "clawgui-app-v0.2.0",
+  "ultimo_push": "2026-06-03"
+ },
+ "descripcion": "Build, Evaluate, and Deploy GUI Agents — online RL training, standardized benchmarks, and real-device deployment in one framework.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zju-real--clawgui.json",
+  "sha256": "2df26ddd82e4b3b6059d255f0da81ae61ef88af52456c39d556c7412df961be1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zju-real--clawgui",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1369,
+  "stars_por_mes": null
+ },
+ "nombre": "ClawGUI",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d990d3e3f2390ced708771d9681d3c4f9a6cbef5",
+  "swh_estado": "sin archivo (HTTP 429)",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d990d3e3f2390ced708771d9681d3c4f9a6cbef5"
+ },
+ "repo": "ZJU-REAL/ClawGUI"
+}

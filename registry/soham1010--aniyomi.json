@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-02-12"
+ },
+ "descripcion": "custom modified version",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/soham1010--aniyomi.json",
+  "sha256": "705b5a4ff189134f563e72b07706914046b3e0fd3b633790a5d51cbb0a0d6596"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "soham1010--aniyomi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "aniyomi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4a20181822731e93036d657802f190fb7541179f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4a20181822731e93036d657802f190fb7541179f"
+ },
+ "repo": "Soham1010/aniyomi"
+}

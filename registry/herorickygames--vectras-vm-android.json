@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-10-18"
+ },
+ "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/herorickygames--vectras-vm-android.json",
+  "sha256": "cbe35e0bf4fe35056c90783a96b6659cc79d2eb4ffe0a6cbaec036dfb7313a1d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "herorickygames--vectras-vm-android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Vectras-VM-Android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "abdadcb5c4a7afa8989fb19e5a648cfcb8815dad",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:abdadcb5c4a7afa8989fb19e5a648cfcb8815dad"
+ },
+ "repo": "HeroRickyGAMES/Vectras-VM-Android"
+}

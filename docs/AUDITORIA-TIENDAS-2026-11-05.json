@@ -1,0 +1,972 @@
+[
+ {
+  "repo": "keiyoushi/extensions",
+  "existe": true,
+  "archivado": false,
+  "deshabilitado": false,
+  "estrellas": 15439,
+  "incidencias_abiertas": 0,
+  "empujon": "2026-11-04T06:16:07Z",
+  "creado": "2024-01-08T23:17:13Z",
+  "licencia": null,
+  "descripcion": "Extension repository for Mihon and variants",
+  "clonado": true,
+  "catalogo": "index.json",
+  "extensiones": 1458,
+  "fuentes_declaradas": 2383,
+  "idiomas": 1,
+  "idiomas_top": [
+   [
+    "?",
+    1458
+   ]
+  ],
+  "trazas": {
+   "repo_json": "repo.json",
+   "index_v2": "https://github.com/keiyoushi/extensions/raw/repo/index.pb",
+   "firma": "9add655a78e96c4ec7a53ef89dccb557cb5d767489fac5e785d671a5a75d4da2",
+   "nombre_declarado": "Keiyoushi"
+  },
+  "banderas": [],
+  "codigo": {
+   "archivos_de_codigo": 0,
+   "con_rate_limit": 0,
+   "rate_limit_comentado": 0,
+   "archivos_de_prueba": 0
+  },
+  "leeme_bytes": 1154,
+  "apk_probados": [
+   {
+    "ext": "tachiyomi-all.ahottie-v1.6.5.apk",
+    "estado": 206,
+    "bytes": "63619"
+   },
+   {
+    "ext": "tachiyomi-all.akuma-v1.6.11.apk",
+    "estado": 206,
+    "bytes": "48319"
+   },
+   {
+    "ext": "tachiyomi-all.allporncomicsco-v1.6.58.apk",
+    "estado": 206,
+    "bytes": "106618"
+   },
+   {
+    "ext": "tachiyomi-all.asmhentai-v1.6.14.apk",
+    "estado": 206,
+    "bytes": "70167"
+   },
+   {
+    "ext": "tachiyomi-all.baobua-v1.6.1.apk",
+    "estado": 206,
+    "bytes": "58591"
+   },
+   {
+    "ext": "tachiyomi-all.bookorbit-v1.6.1.apk",
+    "estado": 206,
+    "bytes": "95775"
+   },
+   {
+    "ext": "tachiyomi-all.buondua-v1.6.13.apk",
+    "estado": 206,
+    "bytes": "63535"
+   },
+   {
+    "ext": "tachiyomi-all.comicfury-v1.6.1.apk",
+    "estado": 206,
+    "bytes": "52883"
+   }
+  ],
+  "manifiesto_suma": true,
+  "json_legado": {
+   "entradas": 2,
+   "nombres": [
+    "Outdated App",
+    "Update to Mihon 0.20.1+"
+   ]
+  },
+  "firma_en_catalogo": "9add655a78e96c4e…",
+  "catalogo_publicado": null,
+  "urls_en_el_leeme": [
+   "https://github.com/keiyoushi/extensions/raw/repo/index.pb"
+  ],
+  "motivos": [],
+  "veredicto": "SIRVE"
+ },
+ {
+  "repo": "yuzono/manga-repo",
+  "existe": true,
+  "archivado": false,
+  "deshabilitado": false,
+  "estrellas": 13,
+  "incidencias_abiertas": 0,
+  "empujon": "2026-08-18T19:12:32Z",
+  "creado": "2026-08-14T12:34:55Z",
+  "licencia": null,
+  "descripcion": "Extension repository for Mihon and variants",
+  "clonado": true,
+  "catalogo": "index.min.json",
+  "extensiones": 2,
+  "fuentes_declaradas": 2,
+  "idiomas": 1,
+  "idiomas_top": [
+   [
+    "all",
+    2
+   ]
+  ],
+  "trazas": {
+   "repo_json": "repo.json",
+   "index_v2": null,
+   "firma": "cbec121aa82ebb02aaa73806992e0368a97d47b5451ed6524816d03084c45905",
+   "nombre_declarado": "Yūzōnō"
+  },
+  "banderas": [],
+  "codigo": {
+   "archivos_de_codigo": 0,
+   "con_rate_limit": 0,
+   "rate_limit_comentado": 0,
+   "archivos_de_prueba": 0
+  },
+  "leeme_bytes": 1154,
+  "apk_probados": [
+   {
+    "ext": "Outdated App",
+    "estado": 404,
+    "bytes": null
+   },
+   {
+    "ext": "Update to Mihon 0.20.1+",
+    "estado": 404,
+    "bytes": null
+   }
+  ],
+  "manifiesto_suma": false,
+  "json_legado": {
+   "entradas": 2,
+   "nombres": [
+    "Outdated App",
+    "Update to Mihon 0.20.1+"
+   ]
+  },
+  "firma_en_catalogo": "cbec121aa82ebb02…",
+  "catalogo_publicado": null,
+  "urls_en_el_leeme": [
+   "https://github.com/keiyoushi/extensions/raw/repo/index.pb"
+  ],
+  "motivos": [
+   "ninguna APK de la muestra descarga"
+  ],
+  "veredicto": "CONDICIONES"
+ },
+ {
+  "repo": "LittleSurvival/copymanga-copy20",
+  "existe": true,
+  "archivado": false,
+  "deshabilitado": false,
+  "estrellas": 2994,
+  "incidencias_abiertas": 14,
+  "empujon": "2026-10-11T18:30:33Z",
+  "creado": "2025-05-11T02:02:36Z",
+  "licencia": null,
+  "descripcion": "Mihon/Tachiyomi系列 拷貝漫畫等中文資源的書源 相關社群見readme",
+  "clonado": true,
+  "catalogo": "index.json",
+  "extensiones": 5,
+  "fuentes_declaradas": 5,
+  "idiomas": 1,
+  "idiomas_top": [
+   [
+    "zh",
+    5
+   ]
+  ],
+  "trazas": {
+   "repo_json": "repo.json",
+   "index_v2": null,
+   "firma": "896d1ca35175c42baf61b1a157e4354df9568beed4ccc82a03762d1167005e79",
+   "nombre_declarado": "TheNano"
+  },
+  "banderas": [
+   {
+    "bandera": "clave de firma solo en repo.json",
+    "donde": "repo.json",
+    "texto": "el catálogo no la repite"
+   }
+  ],
+  "codigo": {
+   "archivos_de_codigo": 0,
+   "con_rate_limit": 0,
+   "rate_limit_comentado": 0,
+   "archivos_de_prueba": 0
+  },
+  "leeme_bytes": 3475,
+  "apk_probados": [
+   {
+    "ext": "Tachiyomi: CopyManga",
+    "estado": 206,
+    "bytes": "455373"
+   },
+   {
+    "ext": "Tachiyomi: VomicMHPlus",
+    "estado": 206,
+    "bytes": "352916"
+   },
+   {
+    "ext": "Tachiyomi: BaoziManhuaPlus",
+    "estado": 206,
+    "bytes": "395562"
+   },
+   {
+    "ext": "Tachiyomi: ManwaYuPlus",
+    "estado": 206,
+    "bytes": "456650"
+   },
+   {
+    "ext": "Tachiyomi: HipManga",
+    "estado": 206,
+    "bytes": "322765"
+   }
+  ],
+  "manifiesto_suma": false,
+  "json_legado": {
+   "entradas": 5,
+   "nombres": [
+    "Tachiyomi: CopyManga",
+    "Tachiyomi: VomicMHPlus",
+    "Tachiyomi: BaoziManhuaPlus"
+   ]
+  },
+  "firma_en_catalogo": null,
+  "catalogo_publicado": null,
+  "urls_en_el_leeme": [
+   "https://raw.githubusercontent.com/LittleSurvival/copymanga-copy20/repo/index.min.json"
+  ],
+  "motivos": [],
+  "veredicto": "SIRVE"
+ },
+ {
+  "repo": "mojuru/anime-repo",
+  "existe": true,
+  "archivado": false,
+  "deshabilitado": false,
+  "estrellas": 72,
+  "incidencias_abiertas": 29,
+  "empujon": "2026-11-04T21:40:52Z",
+  "creado": "2026-02-06T01:38:38Z",
+  "licencia": null,
+  "descripcion": null,
+  "clonado": true,
+  "catalogo": "index.json",
+  "extensiones": 248,
+  "fuentes_declaradas": 302,
+  "idiomas": 1,
+  "idiomas_top": [
+   [
+    "?",
+    248
+   ]
+  ],
+  "trazas": {
+   "repo_json": "repo.json",
+   "index_v2": "https://github.com/yuzono/anime-repo/raw/repo/index.pb",
+   "firma": "cbec121aa82ebb02aaa73806992e0368a97d47b5451ed6524816d03084c45905",
+   "nombre_declarado": "Yūzōnō"
+  },
+  "banderas": [],
+  "codigo": {
+   "archivos_de_codigo": 0,
+   "con_rate_limit": 0,
+   "rate_limit_comentado": 0,
+   "archivos_de_prueba": 0
+  },
+  "leeme_bytes": 2060,
+  "apk_probados": [],
+  "manifiesto_suma": false,
+  "json_legado": {
+   "entradas": 248,
+   "nombres": [
+    "Aniyomi: AnimeOnsen",
+    "Aniyomi: AnimeWorld India",
+    "Aniyomi: AnimeXin"
+   ]
+  },
+  "firma_en_catalogo": "cbec121aa82ebb02…",
+  "catalogo_publicado": null,
+  "urls_en_el_leeme": [
+   "https://intradeus.github.io/http-protocol-redirector/?r=aniyomi://add-repo?url=https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json",
+   "https://intradeus.github.io/http-protocol-redirector/?r=anikku://add-repo?url=https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json",
+   "https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json"
+  ],
+  "motivos": [],
+  "veredicto": "SIRVE"
+ },
+ {
+  "repo": "salmanbappi/extensions-repo",
+  "existe": true,
+  "archivado": false,
+  "deshabilitado": false,
+  "estrellas": 52,
+  "incidencias_abiertas": 14,
+  "empujon": "2026-11-02T19:44:34Z",
+  "creado": "2025-12-24T08:29:57Z",
+  "licencia": null,
+  "descripcion": "Dedicated Anime Extensions Repository for Anikku",
+  "clonado": true,
+  "catalogo": "index.json",
+  "extensiones": 98,
+  "fuentes_declaradas": 111,
+  "idiomas": 6,
+  "idiomas_top": [
+   [
+    "en",
+    58
+   ],
+   [
+    "bn",
+    21
+   ],
+   [
+    "all",
+    13
+   ],
+   [
+    "hi",
+    4
+   ],
+   [
+    "ar",
+    1
+   ],
+   [
+    "es",
+    1
+   ]
+  ],
+  "trazas": {
+   "repo_json": "repo.json",
+   "index_v2": "https://raw.githubusercontent.com/salmanbappi/extensions-repo/main/index.pb",
+   "firma": "c7ebe223044970f2f9738f600dc25c180d3ed03994e088aaf5709338c57b93af",
+   "nombre_declarado": "SalmanBappi Extensions"
+  },
+  "banderas": [
+   {
+    "bandera": "clave de firma solo en repo.json",
+    "donde": "repo.json",
+    "texto": "el catálogo no la repite"
+   }
+  ],
+  "codigo": {
+   "archivos_de_codigo": 0,
+   "con_rate_limit": 0,
+   "rate_limit_comentado": 0,
+   "archivos_de_prueba": 0
+  },
+  "leeme_bytes": 4117,
+  "apk_probados": [
+   {
+    "ext": "Aniyomi: Anidap",
+    "estado": 206,
+    "bytes": "1205250"
+   },
+   {
+    "ext": "Anikoto",
+    "estado": 206,
+    "bytes": "1279726"
+   },
+   {
+    "ext": "Aniyomi: Animex",
+    "estado": 206,
+    "bytes": "1218071"
+   },
+   {
+    "ext": "Aniyomi: Anivix",
+    "estado": 206,
+    "bytes": "1220202"
+   },
+   {
+    "ext": "Castle TV",
+    "estado": 206,
+    "bytes": "1230678"
+   },
+   {
+    "ext": "Aniyomi: 4KHDHub",
+    "estado": 206,
+    "bytes": "1167010"
+   }
+  ],
+  "manifiesto_suma": false,
+  "json_legado": {
+   "entradas": 98,
+   "nombres": [
+    "Aniyomi: Anidap",
+    "Anikoto",
+    "Aniyomi: Animex"
+   ]
+  },
+  "firma_en_catalogo": null,
+  "catalogo_publicado": null,
+  "urls_en_el_leeme": [
+   "https://raw.githubusercontent.com/salmanbappi/extensions-repo/main/index.min.json",
+   "https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsalmanbappi%2Fextensions-repo%2Fmain%2Findex.min.json",
+   "https://raw.githubusercontent.com/salmanbappi/extensions-repo/main/repo.json"
+  ],
+  "motivos": [],
+  "veredicto": "SIRVE"
+ },
+ {
+  "repo": "Secozzi/aniyomi-extensions",
+  "existe": true,
+  "archivado": false,
+  "deshabilitado": false,
+  "estrellas": 130,
+  "incidencias_abiertas": 2,
+  "empujon": "2026-09-20T21:00:36Z",
+  "creado": "2024-06-19T19:52:46Z",
+  "licencia": "Apache-2.0",
+  "descripcion": null,
+  "clonado": true,
+  "catalogo": null,
+  "extensiones": 3,
+  "fuentes_declaradas": 0,
+  "idiomas": 0,
+  "idiomas_top": [],
+  "trazas": {
+   "repo_json": null,
+   "index_v2": null,
+   "firma": null,
+   "nombre_declarado": null
+  },
+  "banderas": [],
+  "codigo": {
+   "archivos_de_codigo": 41,
+   "con_rate_limit": 0,
+   "rate_limit_comentado": 0,
+   "archivos_de_prueba": 0
+  },
+  "leeme_bytes": 2272,
+  "apk_probados": [],
+  "manifiesto_suma": false,
+  "json_legado": null,
+  "catalogo_publicado": {
+   "url": "https://github.com/Secozzi/aniyomi-extensions/raw/repo/index.json",
+   "formato": "mihon",
+   "entradas": 3,
+   "bytes": 2737
+  },
+  "urls_en_el_leeme": [
+   "https://intradeus.github.io/http-protocol-redirector/?r=aniyomi://extension-store?url=https%3A%2F%2Fgithub.com%2FSecozzi%2Faniyomi-extensions%2Fraw%2Frepo%2Findex.pb",
+   "https://github.com/Secozzi/aniyomi-extensions/raw/repo/index.pb"
+  ],
+  "motivos": [],
+  "veredicto": "SIRVE"
+ },
+ {
+  "repo": "yuzono/cursed-manga-extensions",
+  "existe": true,
+  "archivado": false,
+  "deshabilitado": false,
+  "estrellas": 221,
+  "incidencias_abiertas": 28,
+  "empujon": "2026-11-04T23:47:14Z",
+  "creado": "2026-03-24T19:12:03Z",
+  "licencia": "Apache-2.0",
+  "descripcion": "Source code of extensions for Komikku / Mihon & forks.",
+  "clonado": true,
+  "catalogo": null,
+  "extensiones": 6,
+  "fuentes_declaradas": 0,
+  "idiomas": 0,
+  "idiomas_top": [],
+  "trazas": {
+   "repo_json": null,
+   "index_v2": null,
+   "firma": null,
+   "nombre_declarado": null
+  },
+  "banderas": [],
+  "codigo": {
+   "archivos_de_codigo": 123,
+   "con_rate_limit": 4,
+   "rate_limit_comentado": 1,
+   "archivos_de_prueba": 0
+  },
+  "leeme_bytes": 3608,
+  "apk_probados": [],
+  "manifiesto_suma": false,
+  "json_legado": null,
+  "catalogo_publicado": {
+   "url": "https://github.com/yuzono/cursed-manga-repo/raw/repo/index.json",
+   "formato": "mihon",
+   "entradas": 6,
+   "bytes": 13516
+  },
+  "urls_en_el_leeme": [
+   "https://intradeus.github.io/http-protocol-redirector/?r=tachiyomi://add-repo?url=https://raw.githubusercontent.com/yuzono/cursed-manga-repo/repo/index.min.json",
+   "https://github.com/yuzono/cursed-manga-repo/raw/repo/index.pb"
+  ],
+  "motivos": [],
+  "veredicto": "SIRVE"
+ },
+ {
+  "repo": "mochi-plugins/repository",
+  "existe": true,
+  "archivado": false,
+  "deshabilitado": false,
+  "estrellas": 49,
+  "incidencias_abiertas": 0,
+  "empujon": "2026-09-13T18:26:44Z",
+  "creado": "2026-04-14T08:47:58Z",
+  "licencia": "GPL-3.0",
+  "descripcion": "This repository is for plugin artifacts (For Usagi and other applications to load plugins, archive)",
+  "clonado": true,
+  "catalogo": null,
+  "extensiones": 0,
+  "fuentes_declaradas": 0,
+  "idiomas": 0,
+  "idiomas_top": [],
+  "trazas": {
+   "repo_json": null,
+   "index_v2": null,
+   "firma": null,
+   "nombre_declarado": null
+  },
+  "banderas": [],
+  "codigo": {
+   "archivos_de_codigo": 0,
+   "con_rate_limit": 0,
+   "rate_limit_comentado": 0,
+   "archivos_de_prueba": 0
+  },
+  "leeme_bytes": 1640,
+  "apk_probados": [],
+  "manifiesto_suma": false,
+  "json_legado": null,
+  "catalogo_publicado": null,
+  "urls_en_el_leeme": [],
+  "motivos": [
+   "no publica un catálogo que se pueda contar",
+   "sin clave de firma a la vista"
+  ],
+  "veredicto": "NO"
+ },
+ {
+  "repo": "dragonx943/manga-repo",
+  "existe": true,
+  "archivado": false,
+  "deshabilitado": false,
+  "estrellas": 24,
+  "incidencias_abiertas": 0,
+  "empujon": "2026-10-23T20:24:46Z",
+  "creado": "2026-05-15T04:25:28Z",
+  "licencia": "GPL-3.0",
+  "descripcion": "A plugin that contains some sources for Usagi, compatible with Tsuki.",
+  "clonado": true,
+  "catalogo": null,
+  "extensiones": 0,
+  "fuentes_declaradas": 0,
+  "idiomas": 0,
+  "idiomas_top": [],
+  "trazas": {
+   "repo_json": null,
+   "index_v2": null,
+   "firma": null,
+   "nombre_declarado": null
+  },
+  "banderas": [],
+  "codigo": {
+   "archivos_de_codigo": 76,
+   "con_rate_limit": 4,
+   "rate_limit_comentado": 0,
+   "archivos_de_prueba": 0
+  },
+  "leeme_bytes": 1301,
+  "apk_probados": [],
+  "manifiesto_suma": false,
+  "json_legado": null,
+  "catalogo_publicado": null,
+  "urls_en_el_leeme": [],
+  "motivos": [
+   "no publica un catálogo que se pueda contar",
+   "sin clave de firma a la vista"
+  ],
+  "veredicto": "NO"
+ },
+ {
+  "repo": "m2k3a/mangayomi-extensions",
+  "existe": true,
+  "archivado": false,
+  "deshabilitado": false,
+  "estrellas": 116,
+  "incidencias_abiertas": 8,
+  "empujon": "2026-11-03T11:13:19Z",
+  "creado": "2025-07-24T09:00:19Z",
+  "licencia": "Apache-2.0",
+  "descripcion": "Public source extensions for the Mangayomi app.",
+  "clonado": true,
+  "catalogo": "index.json",
+  "extensiones": 335,
+  "fuentes_declaradas": 0,
+  "idiomas": 49,
+  "idiomas_top": [
+   [
+    "en",
+    69
+   ],
+   [
+    "tr",
+    45
+   ],
+   [
+    "es",
+    38
+   ],
+   [
+    "id",
+    30
+   ],
+   [
+    "pt-br",
+    25
+   ],
+   [
+    "ar",
+    24
+   ]
+  ],
+  "trazas": {
+   "repo_json": "repo.json",
+   "index_v2": null,
+   "firma": null,
+   "nombre_declarado": null
+  },
+  "banderas": [],
+  "codigo": {
+   "archivos_de_codigo": 393,
+   "con_rate_limit": 0,
+   "rate_limit_comentado": 0,
+   "archivos_de_prueba": 0
+  },
+  "leeme_bytes": 4794,
+  "apk_probados": [],
+  "manifiesto_suma": false,
+  "json_legado": null,
+  "catalogo_publicado": null,
+  "urls_en_el_leeme": [
+   "https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/m2k3a/mangayomi-extensions%26manga_url=https://m2k3a.github.io/mangayomi-extensions/index.json%26anime_url=https://m2k3a.github.io/mangayomi-extensions/anime_index.json%26novel_url=https://m2k3a.github.io/mangayomi-extensions/novel_index.json",
+   "https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/m2k3a/mangayomi-extensions%26manga_url=https://m2k3a.github.io/mangayomi-extensions/index.json",
+   "https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/m2k3a/mangayomi-extensions%26anime_url=https://m2k3a.github.io/mangayomi-extensions/anime_index.json",
+   "https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/m2k3a/mangayomi-extensions%26novel_url=https://m2k3a.github.io/mangayomi-extensions/novel_index.json"
+  ],
+  "motivos": [
+   "sin clave de firma a la vista"
+  ],
+  "veredicto": "CONDICIONES"
+ },
+ {
+  "repo": "Swakshan/mangayomi-swak-extensions",
+  "existe": true,
+  "archivado": false,
+  "deshabilitado": false,
+  "estrellas": 54,
+  "incidencias_abiertas": 6,
+  "empujon": "2026-10-24T13:36:06Z",
+  "creado": "2025-05-01T17:05:31Z",
+  "licencia": "Apache-2.0",
+  "descripcion": "Extensions for Mangayomi",
+  "clonado": true,
+  "catalogo": "anime_index.json",
+  "extensiones": 15,
+  "fuentes_declaradas": 0,
+  "idiomas": 4,
+  "idiomas_top": [
+   [
+    "en",
+    7
+   ],
+   [
+    "all",
+    6
+   ],
+   [
+    "ta",
+    1
+   ],
+   [
+    "ja",
+    1
+   ]
+  ],
+  "trazas": {
+   "repo_json": "repo.json",
+   "index_v2": null,
+   "firma": null,
+   "nombre_declarado": null
+  },
+  "banderas": [
+   {
+    "bandera": "aviso de retirada",
+    "donde": "README",
+    "texto": "from internet, and do not violate the provisions of the Digital Millennium Copyright Act (DMCA). The Content these extensions may access is not hosted by us or the Mangayomi applicatio"
+   }
+  ],
+  "codigo": {
+   "archivos_de_codigo": 25,
+   "con_rate_limit": 0,
+   "rate_limit_comentado": 0,
+   "archivos_de_prueba": 0
+  },
+  "leeme_bytes": 7796,
+  "apk_probados": [],
+  "manifiesto_suma": false,
+  "json_legado": null,
+  "catalogo_publicado": null,
+  "urls_en_el_leeme": [
+   "https://github.com/Swakshan/mangayomi-swak-extensions%26manga_url=https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/index.json%26anime_url=https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/anime_index.json",
+   "https://github.com/Swakshan/mangayomi-swak-extensions%26manga_url=https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/index.json",
+   "https://github.com/Swakshan/mangayomi-swak-extensions%26anime_url=https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/anime_index.json",
+   "https://github.com/Swakshan/mangayomi-swak-extensions%26novel_url=https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/novel_index.json"
+  ],
+  "motivos": [
+   "sin clave de firma a la vista"
+  ],
+  "veredicto": "CONDICIONES"
+ },
+ {
+  "repo": "Mallyd11/mangayomi-anime-extensions",
+  "existe": true,
+  "archivado": false,
+  "deshabilitado": false,
+  "estrellas": 28,
+  "incidencias_abiertas": 0,
+  "empujon": "2026-11-01T14:50:38Z",
+  "creado": "2026-04-22T15:41:57Z",
+  "licencia": "Apache-2.0",
+  "descripcion": "A repo for mangayomi that gets tested regularly. Also works on AnymeX ",
+  "clonado": true,
+  "catalogo": "anime_index.json",
+  "extensiones": 17,
+  "fuentes_declaradas": 0,
+  "idiomas": 1,
+  "idiomas_top": [
+   [
+    "en",
+    17
+   ]
+  ],
+  "trazas": {
+   "repo_json": "repo.json",
+   "index_v2": null,
+   "firma": null,
+   "nombre_declarado": null
+  },
+  "banderas": [
+   {
+    "bandera": "aviso de retirada",
+    "donde": "README",
+    "texto": "from internet, and do not violate the provisions of the Digital Millennium Copyright Act (DMCA). The Content these extensions may access is not hosted by us or the Mangayomi applicatio"
+   }
+  ],
+  "codigo": {
+   "archivos_de_codigo": 25,
+   "con_rate_limit": 1,
+   "rate_limit_comentado": 3,
+   "archivos_de_prueba": 0
+  },
+  "leeme_bytes": 6745,
+  "apk_probados": [],
+  "manifiesto_suma": false,
+  "json_legado": null,
+  "catalogo_publicado": null,
+  "urls_en_el_leeme": [
+   "https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=Mangayomi%20Mally%20extensions%26repo_url=https://github.com/Mallyd11/mangayomi-anime-extensions%26anime_url=https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/main/anime_index.json",
+   "https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=Mangayomi%20Mally%20extensions%26repo_url=https://github.com/Mallyd11/mangayomi-anime-extensions%26manga_url=https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/main/index.json",
+   "https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=Mangayomi%20Mally%20extensions%26repo_url=https://github.com/Mallyd11/mangayomi-anime-extensions%26novel_url=https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/main/novel_index.json",
+   "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/main/anime_index.json"
+  ],
+  "motivos": [
+   "sin clave de firma a la vista"
+  ],
+  "veredicto": "CONDICIONES"
+ },
+ {
+  "repo": "self-similarity/MegaRepo",
+  "existe": true,
+  "archivado": false,
+  "deshabilitado": false,
+  "estrellas": 142,
+  "incidencias_abiertas": 1,
+  "empujon": "2025-10-03T20:09:58Z",
+  "creado": "2023-08-04T01:19:54Z",
+  "licencia": null,
+  "descripcion": null,
+  "clonado": true,
+  "catalogo": null,
+  "extensiones": 1,
+  "fuentes_declaradas": 0,
+  "idiomas": 0,
+  "idiomas_top": [],
+  "trazas": {
+   "repo_json": null,
+   "index_v2": null,
+   "firma": null,
+   "nombre_declarado": null
+  },
+  "banderas": [],
+  "codigo": {
+   "archivos_de_codigo": 1,
+   "con_rate_limit": 0,
+   "rate_limit_comentado": 0,
+   "archivos_de_prueba": 0
+  },
+  "leeme_bytes": 513,
+  "apk_probados": [],
+  "manifiesto_suma": false,
+  "json_legado": null,
+  "catalogo_publicado": {
+   "url": "https://raw.githubusercontent.com/self-similarity/MegaRepo/builds/repo.json",
+   "formato": "pluginLists",
+   "entradas": 1,
+   "bytes": 226,
+   "nombres": [
+    "https://raw.githubusercontent.com/self-similarity/MegaRepo/builds/plugins.json"
+   ]
+  },
+  "urls_en_el_leeme": [
+   "https://raw.githubusercontent.com/self-similarity/MegaRepo/builds/repo.json",
+   "https://self-similarity.github.io/http-protocol-redirector?r=cloudstreamrepo://raw.githubusercontent.com/self-similarity/MegaRepo/builds/repo.json"
+  ],
+  "motivos": [],
+  "veredicto": "SIRVE"
+ },
+ {
+  "repo": "lnreader/lnreader-plugins",
+  "existe": true,
+  "archivado": false,
+  "deshabilitado": false,
+  "estrellas": 368,
+  "incidencias_abiertas": 563,
+  "empujon": "2026-11-04T15:52:08Z",
+  "creado": "2020-12-23T08:26:07Z",
+  "licencia": "MIT",
+  "descripcion": "Repository to host plugin related issues, and requests for LNReader",
+  "clonado": true,
+  "catalogo": null,
+  "extensiones": 95,
+  "fuentes_declaradas": 0,
+  "idiomas": 0,
+  "idiomas_top": [],
+  "trazas": {
+   "repo_json": null,
+   "index_v2": null,
+   "firma": null,
+   "nombre_declarado": null
+  },
+  "banderas": [],
+  "codigo": {
+   "archivos_de_codigo": 258,
+   "con_rate_limit": 8,
+   "rate_limit_comentado": 5,
+   "archivos_de_prueba": 0
+  },
+  "leeme_bytes": 2648,
+  "apk_probados": [],
+  "manifiesto_suma": false,
+  "json_legado": null,
+  "catalogo_publicado": {
+   "url": "https://raw.githubusercontent.com/LNReader/lnreader-plugins/issue-index/issue-index.min.json",
+   "formato": "objeto",
+   "entradas": 95,
+   "bytes": 3164,
+   "claves": [
+    "1stkissnovel",
+    "AnimesHoy12",
+    "DDL.com",
+    "FWN.com",
+    "FuckNovelpia",
+    "IDWN.id",
+    "LightNovelUpdates",
+    "RLIB"
+   ]
+  },
+  "urls_en_el_leeme": [
+   "https://example.com/issue-index.min.json",
+   "https://raw.githubusercontent.com/LNReader/lnreader-plugins/issue-index/issue-index.min.json",
+   "http://10.0.2.2/.dist/plugins.min.json"
+  ],
+  "motivos": [],
+  "veredicto": "SIRVE"
+ },
+ {
+  "repo": "kodjodevf/mangayomi-extensions",
+  "existe": true,
+  "archivado": true,
+  "deshabilitado": false,
+  "estrellas": 360,
+  "incidencias_abiertas": 103,
+  "empujon": "2025-10-01T14:28:07Z",
+  "creado": "2023-07-07T20:39:39Z",
+  "licencia": "Apache-2.0",
+  "descripcion": "Public source extensions (Manga & novels only) for the Mangayomi app.",
+  "clonado": true,
+  "catalogo": "index.json",
+  "extensiones": 363,
+  "fuentes_declaradas": 0,
+  "idiomas": 49,
+  "idiomas_top": [
+   [
+    "en",
+    61
+   ],
+   [
+    "tr",
+    46
+   ],
+   [
+    "es",
+    38
+   ],
+   [
+    "id",
+    31
+   ],
+   [
+    "pt-br",
+    26
+   ],
+   [
+    "ar",
+    25
+   ]
+  ],
+  "trazas": {
+   "repo_json": "repo.json",
+   "index_v2": null,
+   "firma": null,
+   "nombre_declarado": null
+  },
+  "banderas": [],
+  "codigo": {
+   "archivos_de_codigo": 286,
+   "con_rate_limit": 0,
+   "rate_limit_comentado": 0,
+   "archivos_de_prueba": 0
+  },
+  "leeme_bytes": 5130,
+  "apk_probados": [],
+  "manifiesto_suma": false,
+  "json_legado": null,
+  "catalogo_publicado": null,
+  "urls_en_el_leeme": [
+   "https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/kodjodevf/mangayomi-extensions%26manga_url=https://kodjodevf.github.io/mangayomi-extensions/index.json%26anime_url=https://kodjodevf.github.io/mangayomi-extensions/anime_index.json%26novel_url=https://kodjodevf.github.io/mangayomi-extensions/novel_index.json",
+   "https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/kodjodevf/mangayomi-extensions%26manga_url=https://kodjodevf.github.io/mangayomi-extensions/index.json",
+   "https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/kodjodevf/mangayomi-extensions%26anime_url=https://kodjodevf.github.io/mangayomi-extensions/anime_index.json",
+   "https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/kodjodevf/mangayomi-extensions%26novel_url=https://kodjodevf.github.io/mangayomi-extensions/novel_index.json"
+  ],
+  "motivos": [
+   "archivado",
+   "sin clave de firma a la vista"
+  ],
+  "veredicto": "NO"
+ }
+]

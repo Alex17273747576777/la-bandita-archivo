@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-04-24",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.1",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "A small Android app to easily toggle Private DNS through Quick Settings",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/elowry--dnstoggle.json",
+  "sha256": "a7d9b6bb8fa74169d9013450709686e96cd06f6446258bfd85833143f8ca216a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "elowry--dnstoggle",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 161,
+  "stars_por_mes": null
+ },
+ "nombre": "DNSToggle",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "89b6b0864e4a8131a2d89c148fb44cc32d68ef51",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:89b6b0864e4a8131a2d89c148fb44cc32d68ef51"
+ },
+ "repo": "ELowry/DNSToggle",
+ "web": "https://eric-lowry.com/projects/DNSToggle"
+}

@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2023-01-21",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-10-19"
+ },
+ "descripcion": "An all-in-one hacking tool to remotely take over Android devices.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/azeemidrisi--phonesploit-pro.json",
+  "sha256": "d5677aee6c076371a9084926d39e63aed02351968b8f47aaa095634ff882d561"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "azeemidrisi--phonesploit-pro",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 6422,
+  "stars_por_mes": null
+ },
+ "nombre": "PhoneSploit-Pro",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "126d9189486f84492e1f7db09b9a9fe9f085e8bc",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:126d9189486f84492e1f7db09b9a9fe9f085e8bc"
+ },
+ "repo": "AzeemIdrisi/PhoneSploit-Pro",
+ "web": "https://phonesploitpro.vercel.app"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-01",
+  "semantica_http": 200,
+  "ultima_release": "1.0.0",
+  "ultimo_push": "2026-10-10"
+ },
+ "descripcion": "让 Android 控制中心，在简洁和效率之间找到「平衡」的魔法。无需 Root。 / Let the Android Control Center find the magic of \"balance\" between simplicity and efficiency. NO ROOT NEEDED.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/hrsthrt74--extile.json",
+  "sha256": "3ccb10b6c0e19a9e97106f4d401b895fab93266696719e1a2fd99d6cc18604e9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hrsthrt74--extile",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 27,
+  "stars_por_mes": null
+ },
+ "nombre": "exTile",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "daf6befd6c63a125c6ed3468a04febb66c0f4019",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:daf6befd6c63a125c6ed3468a04febb66c0f4019"
+ },
+ "repo": "hrsthrt74/exTile"
+}

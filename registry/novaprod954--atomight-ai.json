@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-09"
+ },
+ "descripcion": "Offline AI. Chat, Speak, and Generate Images - Privacy First, Zero Internet. Dow",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/novaprod954--atomight-ai.json",
+  "sha256": "d5d83b5aff8b123caeaa2cf59f4ae9cc9ab94634b60f67138650387c5d7d4413"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "novaprod954--atomight-ai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "atomight-ai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "bf696888e04fbc0071015ac12710257b9590edfd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bf696888e04fbc0071015ac12710257b9590edfd"
+ },
+ "repo": "NovaProd954/atomight-ai"
+}

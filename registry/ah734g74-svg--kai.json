@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-01"
+ },
+ "descripcion": "OpenClaw alternative in your pocket",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ah734g74-svg--kai.json",
+  "sha256": "6a4b86e3b59f4a1fdb669716465c58003f9aa68d4ef842c1f05644227eeb2309"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ah734g74-svg--kai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Kai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "513ccc45c41cad9b298bd09d06b1861a16739973",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:513ccc45c41cad9b298bd09d06b1861a16739973"
+ },
+ "repo": "ah734g74-svg/Kai"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "cosign",
+ "nombre": "cosign",
+ "repo": "sigstore/cosign",
+ "autores": [
+  {
+   "nombre": "Sigstore y sus contribuyentes",
+   "enlace": "https://github.com/sigstore"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/sigstore/cosign/blob/main/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Comprobar que un archivo publicado lo firmó quien dice haberlo firmado, y anclar esa comprobación en un registro público que no se puede reescribir.",
+ "capitulo": 12,
+ "orden": 3,
+ "para_quien": {
+  "es": "para quien publica algo y quiere que otros puedan comprobarlo sin creerle, y para quien baja archivos de un proyecto que firma sus entregas y quiere hacer uso de esa firma.",
+  "no_es": "para quien sólo necesita saber si el archivo llegó completo: para eso una huella publicada alcanza y no hace falta nada de esto."
+ },
+ "manos": [
+  "Instalá la herramienta desde su repositorio y comprobá la versión contra la última entrega publicada.",
+  "Buscá en la entrega del proyecto el archivo de firma, que acompaña al archivo firmado y no está dentro de él.",
+  "Corré la comprobación contra los dos archivos juntos: la herramienta verifica la firma y consulta el registro público.",
+  "Leé la salida con atención: dice quién firmó, con qué identidad y en qué momento quedó anotado.",
+  "Repetí la comprobación sin conexión a internet para ver qué cambia: sin el registro público, la firma no se puede anclar."
+ ],
+ "resultado_esperado": "Sabés si el archivo que tenés es exactamente el que se firmó, con la identidad de quien lo firmó y el momento en que quedó anotado en el registro público.",
+ "si_sale_mal": [
+  "Si la comprobación falla por identidad, no significa que el archivo esté mal: puede estar firmado por otra cuenta y hay que leer la salida completa antes de decidir.",
+  "Si dice que la firma existe pero no aparece en el registro, el proyecto firmó sin anclar: la firma vale menos y conviene decirlo.",
+  "Si la salida es larga, quedate con tres datos: identidad, momento y si la firma cubre el archivo que bajaste."
+ ],
+ "deshacer": "No modifica nada del sistema ni del archivo: lee. Borrar la herramienta deja todo exactamente igual, y las firmas publicadas siguen donde estaban.",
+ "cabeza": [
+  "Una firma normal resuelve un problema y deja otro abierto: dice quién firmó, pero no dice cuándo. Alguien puede firmar hoy un archivo y declarar que lo firmó el año pasado, o firmar un archivo manipulado y sostener que la firma era de otro. Sigstore añade la pieza que faltaba: cada firma se anota en un registro público que sólo crece, y esa anotación tiene fecha.",
+  "Con eso, la comprobación cambia de naturaleza. Ya no se trata de confiar en una llave, sino de comprobar un hecho: **este archivo, con este contenido, quedó anotado en este momento, por esta identidad**. Y como el registro es público y no se puede reescribir, la respuesta no depende de que el proyecto siga existiendo ni de que su servidor esté en pie.",
+  "cosign es el programa que hace esa comprobación, y su nota —setenta y uno— es la segunda más alta del capítulo, con más de veinticinco millones de descargas en sus diez últimas entregas. No es una herramienta de aficionados: es la que usa la industria para lo mismo que esta guía pide a sus setenta fichas, sólo que a escala planetaria."
+ ],
+ "limites": [
+  "Sólo sirve si el proyecto firma: la mayoría de las aplicaciones de esta guía no lo hace, y ahí se vuelve a la huella publicada.",
+  "Necesita el archivo de firma, que es distinto del archivo firmado y hay que bajar aparte.",
+  "La comprobación completa consulta un servicio público: sin red no hay anclaje.",
+  "Entender la salida exige saber qué es una identidad de firma y qué es un registro de transparencia."
+ ],
+ "oficio": {
+  "dato": "Hay dos comprobaciones distintas y la gente las confunde todo el tiempo. La primera es de integridad: la huella dice que el archivo no cambió ni un byte desde que se publicó, y sirve aunque el autor no firme nada. La segunda es de autoría: la firma dice quién lo publicó, y necesita una llave o una identidad. Una no sustituye a la otra: un archivo puede tener huella perfecta y no ser de quien dice, y puede estar firmado y haber sido sustituido después si la huella no se comprueba. El oficio completo es hacer las dos, y saber cuál de las dos estás haciendo en cada momento.",
+  "como_comprobar": "Pedile a la herramienta que compruebe el archivo junto a su firma y leé la identidad y el momento: si los tres datos —archivo, identidad y fecha— aparecen, la comprobación está completa.",
+  "comando": "cosign verify-blob --bundle app.sigstore.json app.apk"
+ },
+ "riesgos": [
+  "Dar por buena una entrega sólo porque trae un archivo de firma, sin ejecutar la comprobación.",
+  "Firmar con una identidad compartida o prestada, con lo que la firma deja de decir quién fue."
+ ],
+ "alternativas": [
+  "cli/cli",
+  "ossf/scorecard"
+ ],
+ "senal": {
+  "estrellas": 6409,
+  "nota": 71,
+  "edad_dias": 2099,
+  "ultima_entrega": "2026-10-20",
+  "descargas_10": 26247091,
+  "contribuyentes": 100,
+  "repo_mb": 26.4,
+  "ci": 5,
+  "incidencias": "110 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Herramienta de Sigstore y sus contribuyentes · Apache-2.0 · medido el 3 de noviembre de 2026"
+}

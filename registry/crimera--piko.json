@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2024-01-30",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "morphe patches for twitter and instagram",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/crimera--piko.json",
+  "sha256": "cd1496ae32b07deeaa5f122e288e034da6737aa8c27f46d8f3a54e1afe12fe4d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "crimera--piko",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 5885,
+  "stars_por_mes": null
+ },
+ "nombre": "piko",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a0ed9a5ae782fe66e02294e5a49d235e2f139b24",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a0ed9a5ae782fe66e02294e5a49d235e2f139b24"
+ },
+ "repo": "crimera/piko"
+}

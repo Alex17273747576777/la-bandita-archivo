@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-08-25",
+  "semantica_http": 200,
+  "ultima_release": "2.2.14",
+  "ultimo_push": "2026-10-19"
+ },
+ "descripcion": "Archive viewer for TVs",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mlm-games--fluffy.json",
+  "sha256": "43ae08b63530e64cee3bb2f71a8b5684daf0230aa10151b4b0d072559b66cc54"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mlm-games--fluffy",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 215,
+  "stars_por_mes": null
+ },
+ "nombre": "Fluffy",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3bc6532de963db32d8fb53dbe6fb2bfe9696fa7c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:3bc6532de963db32d8fb53dbe6fb2bfe9696fa7c"
+ },
+ "repo": "mlm-games/Fluffy"
+}

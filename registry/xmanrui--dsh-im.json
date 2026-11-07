@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-23",
+  "semantica_http": 200,
+  "ultima_release": "v0.11.0",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "通过扫码或机器人凭据把IM机器人接入DeepSeek Harness（支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord和WhatsApp）。 Connect IM bots to DeepSeek Harness via QR code or credentials (9 channels).",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/xmanrui--dsh-im.json",
+  "sha256": "01c450ee84b9813ba6a4e38842aeead90e9a185b376425e1786f37299727b037"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "xmanrui--dsh-im",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3162,
+  "stars_por_mes": null
+ },
+ "nombre": "dsh-im",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d2f2703dbd2d7adb73fc04b56a12460a39f282dd",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d2f2703dbd2d7adb73fc04b56a12460a39f282dd"
+ },
+ "repo": "xmanrui/dsh-im"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-16"
+ },
+ "descripcion": "Free and open source application for reading manga, novels, and watching animes",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/darkbcn--mangayomi.json",
+  "sha256": "5aa1ae61e52e741974ab37c5654fdf441b35ab6f1ddc34c7b7e9bb33906f3331"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "darkbcn--mangayomi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mangayomi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "32b37933db1a9994c68d5463efd544179002f1eb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:32b37933db1a9994c68d5463efd544179002f1eb"
+ },
+ "repo": "Darkbcn/mangayomi"
+}

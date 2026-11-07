@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "DeepSeek Harness for Android by X (DHA). Unofficial Android client with floating assistant, voice input, sandbox tools and plugins.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/xiax550--deepseek-harness-for-android-by-x.json",
+  "sha256": "09ecabb2bc4938bd9825162dbbc1c4cb909b9619da6ba767250aa80a899a441c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "xiax550--deepseek-harness-for-android-by-x",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "DeepSeek-Harness-for-Android-by-X",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ad14a29bc84e15bc8bc2b54155a925659af323f2",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:ad14a29bc84e15bc8bc2b54155a925659af323f2"
+ },
+ "repo": "Xiax550/DeepSeek-Harness-for-Android-by-X",
+ "web": "https://github.com/Xiax550/DeepSeek-Harness-for-Android-by-X/releases"
+}

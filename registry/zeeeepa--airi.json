@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-02-13"
+ },
+ "descripcion": "💖🧸 Self hosted, you owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zeeeepa--airi.json",
+  "sha256": "7803e5cbf3b11979649a2bed1b2af4c5a5e04989cdc09b8bf9e8faed8f6fca6f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zeeeepa--airi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "airi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "651d3f37f69d3a63d42a725527c53b7d3f85c729",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:651d3f37f69d3a63d42a725527c53b7d3f85c729"
+ },
+ "repo": "Zeeeepa/airi",
+ "web": "https://airi.moeru.ai/docs/"
+}

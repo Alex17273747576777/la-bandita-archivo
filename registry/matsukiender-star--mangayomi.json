@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-15",
+  "semantica_http": 200,
+  "ultima_release": "v0.9.9-matsu.1",
+  "ultimo_push": "2026-10-23"
+ },
+ "descripcion": "Free and open source application for reading manga, novels, and watching animes",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/matsukiender-star--mangayomi.json",
+  "sha256": "885cd4c0204d2b6bc7211cffb4dbb3ed0d1040ddad7da413b57a850699347062"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "matsukiender-star--mangayomi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mangayomi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a4b9ca43805fd230653b97fb45bd9fcead803761",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a4b9ca43805fd230653b97fb45bd9fcead803761"
+ },
+ "repo": "matsukiender-star/mangayomi"
+}

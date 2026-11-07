@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2026-04-25",
+  "semantica_http": 200,
+  "ultima_release": "v0.0.90",
+  "ultimo_push": "2026-05-02"
+ },
+ "descripcion": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy First, Zero Internet. Download an LLM and use it on your mobile device. No data ever leaves your phone. Supports text-to-text, vision, text-to-image",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jakeverse--off-grid-mobile-ai.json",
+  "sha256": "ba61db30278a40677877bdfcdae5e1b02919da951e6fecf18078103df4d4f58c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jakeverse--off-grid-mobile-ai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "off-grid-mobile-ai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5d61b0b390cd5dc5469171a4d19b9eab708cd7e1",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:5d61b0b390cd5dc5469171a4d19b9eab708cd7e1"
+ },
+ "repo": "Jakeverse/off-grid-mobile-ai",
+ "web": "https://docs.offgridmobileai.co/ethos/"
+}

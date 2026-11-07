@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-12-30"
+ },
+ "descripcion": "Mihon extensions as a service",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mpdr200011--headlessmihon.json",
+  "sha256": "0833991f726f1f68e0522d2272f1dc5ec79e3e3e55d7db0f00a152672cb6cf05"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mpdr200011--headlessmihon",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "headlessmihon",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "89954e68e3265936718b5dd0664102f9f37b554a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:89954e68e3265936718b5dd0664102f9f37b554a"
+ },
+ "repo": "MPDR200011/headlessmihon"
+}

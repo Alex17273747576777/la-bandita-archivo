@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-25",
+  "semantica_http": 200,
+  "ultima_release": "build-3",
+  "ultimo_push": "2026-10-17"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/fdzaki-dev--lagfix.json",
+  "sha256": "38032067b7c996e8ca74ca70d6c1d53c09fc27a40a2e35345e4de7eb81d20b90"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "fdzaki-dev--lagfix",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "LagFix",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "6923fbaf9e2242d47dc26f69b239f1c11f1295a0",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:6923fbaf9e2242d47dc26f69b239f1c11f1295a0"
+ },
+ "repo": "FDzaki-dev/LagFix"
+}

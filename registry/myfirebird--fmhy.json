@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-11-01"
+ },
+ "descripcion": "/r/FREEMEDIAHECKYEAH",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/myfirebird--fmhy.json",
+  "sha256": "7dd8bdee669c53db8d728125f93ed12dd7e1a5c79471fb51d93c9a26b13332b9"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "myfirebird--fmhy",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "FMHY",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "66459efce28d41e843bb3e2f905119b9aa47e4b3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:66459efce28d41e843bb3e2f905119b9aa47e4b3"
+ },
+ "repo": "myfirebird/FMHY"
+}

@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-04",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "⚡ Privacy-first, offline, and lightweight Android automation engine. Powered by Jetpack Compose & Shizuku.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/emi-ran--flowpilot.json",
+  "sha256": "a9c576fc3492e843bf19792e3a0f758faec1f5a47281f083f9eb5f68266d53c1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "emi-ran--flowpilot",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 16,
+  "stars_por_mes": null
+ },
+ "nombre": "flowpilot",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b90956b08b97151fcf2b5e1cf6b646d0068103cf",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b90956b08b97151fcf2b5e1cf6b646d0068103cf"
+ },
+ "repo": "emi-ran/flowpilot",
+ "web": "https://emi-ran.github.io/flowpilot/"
+}

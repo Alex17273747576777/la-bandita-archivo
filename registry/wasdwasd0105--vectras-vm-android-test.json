@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-10-11"
+ },
+ "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/wasdwasd0105--vectras-vm-android-test.json",
+  "sha256": "b89e65849775c2973d6e765321f539f6fc4b76447bbd20b80b5efe4dd3d8f221"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "wasdwasd0105--vectras-vm-android-test",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Vectras-VM-Android-test",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f7093df107b4c1168be8ad09803ad6283a72676b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f7093df107b4c1168be8ad09803ad6283a72676b"
+ },
+ "repo": "wasdwasd0105/Vectras-VM-Android-test"
+}

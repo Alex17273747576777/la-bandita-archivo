@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-07"
+ },
+ "descripcion": "O framework seguro e leve de código aberto para agentes de IA desenvolvido 100%",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/jokapoa--garrarust.json",
+  "sha256": "9d5f1ae251af27ef703595506e147e7f82a22601d7777056daa9041e0635e4d1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jokapoa--garrarust",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "GarraRUST",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "548920e5e041725580d984e1924f6953fa6be2f8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:548920e5e041725580d984e1924f6953fa6be2f8"
+ },
+ "repo": "jokapoa/GarraRUST"
+}

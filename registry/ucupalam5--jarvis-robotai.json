@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-11",
+  "semantica_http": 200,
+  "ultima_release": "v1.1.0",
+  "ultimo_push": "2026-10-11"
+ },
+ "descripcion": "JARVIS RobotAI pribadi - Flutter + Shizuku + Groq",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ucupalam5--jarvis-robotai.json",
+  "sha256": "d0e510f96120e6ea3a243fd527b74b97667d2b6d0bd14da3f133ab6a4677b42a"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ucupalam5--jarvis-robotai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "jarvis-robotai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2b242d297cde4dea90b4a71f07bb6e5913b9d9da",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:2b242d297cde4dea90b4a71f07bb6e5913b9d9da"
+ },
+ "repo": "ucupalam5/jarvis-robotai"
+}

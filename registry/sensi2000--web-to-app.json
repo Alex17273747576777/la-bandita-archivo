@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-05"
+ },
+ "descripcion": "A native Android application that converts any website URL into a standalone And",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/sensi2000--web-to-app.json",
+  "sha256": "353771d8f8b5f1a1f5ae81ea6c22278990f500eb13d7fdc78b90faa1478d5dec"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sensi2000--web-to-app",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "web-to-app",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "858b24c9177644e3f4e143fdab2a84f819d1b2cd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:858b24c9177644e3f4e143fdab2a84f819d1b2cd"
+ },
+ "repo": "sensi2000/web-to-app"
+}

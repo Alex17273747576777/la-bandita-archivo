@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-31"
+ },
+ "descripcion": "Get Android app updates straight from the source. And install it any way you wan",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/dawn2351--obtainx.json",
+  "sha256": "9e78e3263a9c5ad3a1d1d99587957ff529f913c03f585e6af5659ab3170e8e7c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dawn2351--obtainx",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "ObtainX",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "75378f7949566647ec72cce47f5dc92bd897e820",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:75378f7949566647ec72cce47f5dc92bd897e820"
+ },
+ "repo": "dawn2351/ObtainX"
+}

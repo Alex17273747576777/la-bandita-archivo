@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2024-05-08",
+  "semantica_http": 200,
+  "ultima_release": "5.0b1",
+  "ultimo_push": "2026-09-02"
+ },
+ "descripcion": "AniLabX - android app for watching anime/dramas/cartoons and reading manga/comics/light novels",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/anilabx--anilabx.json",
+  "sha256": "595ae1c65aadb285032d8e362ef53ab9f49d45b4d988d40979289fa45eaa4058"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "anilabx--anilabx",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 286,
+  "stars_por_mes": null
+ },
+ "nombre": "AniLabX",
+ "piezas": [
+  "41-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "faebbe7962db4061bfcdc723db1fd75b96604720",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:faebbe7962db4061bfcdc723db1fd75b96604720"
+ },
+ "repo": "AniLabX/AniLabX"
+}

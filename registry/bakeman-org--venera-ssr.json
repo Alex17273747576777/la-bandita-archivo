@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-02"
+ },
+ "descripcion": "A manga viewer.support realtime Coloring  and Anime4kSR and OCR translation.All",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/bakeman-org--venera-ssr.json",
+  "sha256": "b6e1c7924eb9da3ba5136ae51a10e6607973e3f10bbcccc90da41b74a7bb5a16"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "bakeman-org--venera-ssr",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Venera-SSR",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "07ac77fcbd6c9050a5313f327e28d617eb602488",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:07ac77fcbd6c9050a5313f327e28d617eb602488"
+ },
+ "repo": "bakeman-org/Venera-SSR"
+}

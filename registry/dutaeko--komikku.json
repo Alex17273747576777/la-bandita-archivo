@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-22"
+ },
+ "descripcion": "Free and open source manga reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/dutaeko--komikku.json",
+  "sha256": "7d6eac2aea149c7aa717f22f2c89c72f581ecddf2ace632c5add78ff76af38df"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dutaeko--komikku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "komikku",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ec8d98c6972414fb477d4bcee8dbfafeb3f4e25b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ec8d98c6972414fb477d4bcee8dbfafeb3f4e25b"
+ },
+ "repo": "Dutaeko/komikku"
+}

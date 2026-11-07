@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-06"
+ },
+ "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/finecomputer14451--web-to-app.json",
+  "sha256": "cf90a90762c1c522ff5547f8bee608a689d3ede344c5abf9b7e8009c96f9f911"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "finecomputer14451--web-to-app",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "web-to-app",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "368cd2fb12015b51bdcb824b6a2a5e91ae2f05a7",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:368cd2fb12015b51bdcb824b6a2a5e91ae2f05a7"
+ },
+ "repo": "FineComputer14451/web-to-app",
+ "web": "https://shiaho777.github.io/web-to-app/"
+}

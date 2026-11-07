@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-06"
+ },
+ "descripcion": "AniLabX - android app for watching anime/dramas/cartoons and reading manga/comic",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/postakd6-debug--anilabx.json",
+  "sha256": "ac89d5a5117ad72817eb7d72fd45fc637395ec1c99b525a6f848f268da097ad5"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "postakd6-debug--anilabx",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "AniLabX",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "fdebd849b95bfea3230d3939e3c6812f9bca2ee1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:fdebd849b95bfea3230d3939e3c6812f9bca2ee1"
+ },
+ "repo": "postakd6-debug/AniLabX"
+}

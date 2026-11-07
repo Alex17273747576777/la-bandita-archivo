@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-28",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Use Nintendo Switch 2 Joy-Con 2 controllers as system-wide gamepads on Android — BLE connection, virtual HID gamepads, DSU motion server, and one-tap emulator setup",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/joegec--joycon2android.json",
+  "sha256": "d81847b24625c8b50bb7cacfb7ea8e5dede71a586a23d2d10e1e80b0516e53de"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "joegec--joycon2android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 66,
+  "stars_por_mes": null
+ },
+ "nombre": "joycon2android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "cbbe44a40629572481f1d48183a38b6d9b1ee25c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:cbbe44a40629572481f1d48183a38b6d9b1ee25c"
+ },
+ "repo": "JoeGeC/joycon2android"
+}

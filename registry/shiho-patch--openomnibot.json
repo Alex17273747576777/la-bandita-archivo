@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-03-21"
+ },
+ "descripcion": "This is community version of OmniMind Xiaowan app || 或者你也可以叫她 OOB！她可以操作终端，也可以完成",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/shiho-patch--openomnibot.json",
+  "sha256": "6edc549344918afe3a0d30a0e8cdcfc8b216bd2126c0fa0644da8269e58cadba"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "shiho-patch--openomnibot",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OpenOmniBot",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "cbf950290f99cf0b5656bc06bb97db30b2acbf0c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:cbf950290f99cf0b5656bc06bb97db30b2acbf0c"
+ },
+ "repo": "Shiho-Patch/OpenOmniBot"
+}

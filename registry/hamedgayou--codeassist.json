@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2023-07-26"
+ },
+ "descripcion": "Experimental IDE for building Android applicatons on Android.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hamedgayou--codeassist.json",
+  "sha256": "7c7a106db6d1f30e4a115f669fbfd143f5bc2d883653def4fd01966f3887b94b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hamedgayou--codeassist",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "CodeAssist",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "22e5ab6e2946bc63348e1db43dca748a24e44151",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:22e5ab6e2946bc63348e1db43dca748a24e44151"
+ },
+ "repo": "hamedgayou/CodeAssist"
+}

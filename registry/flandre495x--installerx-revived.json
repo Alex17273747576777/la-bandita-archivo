@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "muerto",
+  "release_en": "2026-10-02",
+  "semantica_http": 404,
+  "ultima_release": "26.10.950be9b",
+  "ultimo_push": "2026-10-02"
+ },
+ "descripcion": "将 Inxlocker 的内容整合进 InstallerX-Revived",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#flandre495x/InstallerX-Revived",
+  "sha256": "7d028e485ba58a1dd73677b8094b0c95b71c0482162a06bd597e865b40419485"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-10-15",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-11-14",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "flandre495x--installerx-revived",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": null,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "InstallerX-Revived",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "950be9bf56c6d57d02cac38c000fe9419e72c050",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:950be9bf56c6d57d02cac38c000fe9419e72c050"
+ },
+ "repo": "flandre495x/InstallerX-Revived"
+}

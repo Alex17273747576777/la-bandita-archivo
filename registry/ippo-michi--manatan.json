@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2026-02-12",
+  "semantica_http": 200,
+  "ultima_release": "v0.0.1",
+  "ultimo_push": "2026-03-06"
+ },
+ "descripcion": "Seamless immersion language learning for anime, manga, novels on all platforms",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ippo-michi--manatan.json",
+  "sha256": "e9593603637a4fde715647d1f636ea05338da96fb79f01a03403444c74c76536"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ippo-michi--manatan",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Manatan",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "13ade60a12193a8a8768a61ce9b079868c20f611",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:13ade60a12193a8a8768a61ce9b079868c20f611"
+ },
+ "repo": "ippo-michi/Manatan"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-16",
+  "semantica_http": 200,
+  "ultima_release": "catalog-v1",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Bangla-first on-device local AI and consent-driven Android automation runtime",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/soobujmiah--lai.json",
+  "sha256": "2e4b06aaea22ec2c9690da2bcea7bb9a5603ce78304cfd7e84c73b23d789b03a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "soobujmiah--lai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "lai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1c7c3a401bbebe4c80ea2490697ff97848f7e30e",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:1c7c3a401bbebe4c80ea2490697ff97848f7e30e"
+ },
+ "repo": "soobujmiah/lai"
+}

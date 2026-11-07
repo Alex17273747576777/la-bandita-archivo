@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-29",
+  "semantica_http": 200,
+  "ultima_release": "v1.5.0",
+  "ultimo_push": "2026-08-27"
+ },
+ "descripcion": "Fork of the most Powerful, Efficient + Feature-packed media player.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/white-knight5--mpvrxn.json",
+  "sha256": "ec3620494a85e23d8121ad325272f2c0683c91c40ed959b086cb6e2cae5985cb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "white-knight5--mpvrxn",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 49,
+  "stars_por_mes": null
+ },
+ "nombre": "MpvRxN",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "55f4270b2889529d533d2aaa3dcda9321fb736b4",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:55f4270b2889529d533d2aaa3dcda9321fb736b4"
+ },
+ "repo": "WHITE-KNIGHT5/MpvRxN"
+}

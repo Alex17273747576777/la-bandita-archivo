@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-04"
+ },
+ "descripcion": "An AI Agent that lives in your pocket. Local-first and privacy focused.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/c1x1x00xxpentium--anythingllm-mobile.json",
+  "sha256": "3497f69678ea3ef61e9a0c2bc92fafd33af0a572e75d69a7a74ceeb63bd8652d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "c1x1x00xxpentium--anythingllm-mobile",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "anythingllm-mobile",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ee4efe28f2c6df816de103307c2155490ae9de9d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ee4efe28f2c6df816de103307c2155490ae9de9d"
+ },
+ "repo": "c1x1x00xxPentium/anythingllm-mobile"
+}

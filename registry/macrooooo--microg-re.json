@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-03-29"
+ },
+ "descripcion": "GmsCore fork for ReVanced with Material You, features and improvements",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/macrooooo--microg-re.json",
+  "sha256": "72bf7ac5bae63175cb9c5ab1de26726b4846689236e96f2dfb74548a55f5dd92"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "macrooooo--microg-re",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "MicroG-RE",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4986f3b8ba2bf5d967fe26e0f7db2ecd66f7d36b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4986f3b8ba2bf5d967fe26e0f7db2ecd66f7d36b"
+ },
+ "repo": "MaCrooooo/MicroG-RE"
+}

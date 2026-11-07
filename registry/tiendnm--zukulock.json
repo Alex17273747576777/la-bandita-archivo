@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2025-01-10",
+  "semantica_http": 200,
+  "ultima_release": "1.0",
+  "ultimo_push": "2025-08-19"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/tiendnm--zukulock.json",
+  "sha256": "eea1405ee67749fbf8662a78cdef5097f0f919edf7e71fc46c30d29b4f8f9810"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "tiendnm--zukulock",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 51,
+  "stars_por_mes": null
+ },
+ "nombre": "zukulock",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "73d49cf3aedc70ef28b46c255b6901f6483db2d2",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:73d49cf3aedc70ef28b46c255b6901f6483db2d2"
+ },
+ "repo": "tiendnm/zukulock"
+}

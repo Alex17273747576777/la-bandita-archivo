@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "A manga reader with on-device AI translation — a mihon fork powered by yakuyomi-",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/diablokira2002-debug--yakuyomi.json",
+  "sha256": "1dce145e1d187f24abe1c7cc322fba9ebc794559d04b3613e2fa03c33470390e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "diablokira2002-debug--yakuyomi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Yakuyomi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "271b1d2bf152382ef64c9c05193ee8bc897c9eae",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:271b1d2bf152382ef64c9c05193ee8bc897c9eae"
+ },
+ "repo": "diablokira2002-debug/Yakuyomi"
+}

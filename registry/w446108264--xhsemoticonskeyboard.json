@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2016-03-24",
+  "semantica_http": 200,
+  "ultima_release": "2.0.0",
+  "ultimo_push": "2019-05-17"
+ },
+ "descripcion": "android emoticonsKeyboard support emoji and user-defined emoticon. easy to integrated into your project ",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/w446108264--xhsemoticonskeyboard.json",
+  "sha256": "9edddf4b7351c0f2523e3d0c1b7b10f36b2bf906418e4b0ebf2f17d0d2d3dfa0"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "w446108264--xhsemoticonskeyboard",
+ "licencia": {
+  "archivo": "README (varias licencias)",
+  "metodo": "texto-license",
+  "nota": "ambiguo: el README menciona MIT, mit; requiere lectura humana",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2829,
+  "stars_por_mes": null
+ },
+ "nombre": "XhsEmoticonsKeyboard",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5eb2877c5b90d62e0e0d7c6c3eb0feaffa85c678",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:5eb2877c5b90d62e0e0d7c6c3eb0feaffa85c678"
+ },
+ "repo": "w446108264/XhsEmoticonsKeyboard"
+}

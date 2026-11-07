@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2016-11-14",
+  "semantica_http": 200,
+  "ultima_release": "1.1.0",
+  "ultimo_push": "2024-07-28"
+ },
+ "descripcion": "Android logger, pretty, powerful and flexible, log to everywhere, save to file, all you want is here.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/elvishew--xlog.json",
+  "sha256": "8850b1f444ca606d8af983ee4fa47f7dd797b5ee41665e93acced6984c8b8fa7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "elvishew--xlog",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3348,
+  "stars_por_mes": null
+ },
+ "nombre": "xLog",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3faa6b27a36fe93c71c1b475579f9f57a8698da3",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:3faa6b27a36fe93c71c1b475579f9f57a8698da3"
+ },
+ "repo": "elvishew/xLog"
+}

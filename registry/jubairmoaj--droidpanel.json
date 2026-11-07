@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-15"
+ },
+ "descripcion": "Lightweight, zero-dependency web dashboard for Android app developers: screen mirror, screenshot-to-clipboard, logcat, wireless ADB, app manager, Flutter/Gradle build & run.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jubairmoaj--droidpanel.json",
+  "sha256": "8e87baf10e9aa2dc8c7fda704922f4c3d0ef7187ea417a1829a3867932f42125"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jubairmoaj--droidpanel",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "droidpanel",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d9dd38dd116040062306b6e99903a0a4fdf832a6",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d9dd38dd116040062306b6e99903a0a4fdf832a6"
+ },
+ "repo": "jubairmoaj/droidpanel"
+}

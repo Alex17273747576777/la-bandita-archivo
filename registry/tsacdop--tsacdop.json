@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2020-02-09",
+  "semantica_http": 200,
+  "ultima_release": "0.1.0",
+  "ultimo_push": "2026-10-29"
+ },
+ "descripcion": "Enjoy podcasts with Tsacdop!  A podcast player built with flutter.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/tsacdop--tsacdop.json",
+  "sha256": "147d541f172527e03b6a57bad0c96f3f268cffa130648eae2566ee73d7692a49"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "tsacdop--tsacdop",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 531,
+  "stars_por_mes": null
+ },
+ "nombre": "tsacdop",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0b0e9881f7fef00472ca88a79b64c3b1fe7281ce",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:0b0e9881f7fef00472ca88a79b64c3b1fe7281ce"
+ },
+ "repo": "tsacdop/tsacdop",
+ "web": "https://www.tsacdop.app"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-04"
+ },
+ "descripcion": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and perfo",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/youdemo--openomnibot.json",
+  "sha256": "1fbcf040d98707f1e26c789f5d0eb0f3a0db772eadc8c7cc383c83558a5ad5aa"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "youdemo--openomnibot",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OpenOmniBot",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4a89b5adca6933dd836bde89e6c64ecb979a0777",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4a89b5adca6933dd836bde89e6c64ecb979a0777"
+ },
+ "repo": "youdemo/OpenOmniBot"
+}

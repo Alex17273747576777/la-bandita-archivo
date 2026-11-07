@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-19"
+ },
+ "descripcion": "Experimental IDE for building Android applicatons on Android.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/akro7--codeassist.json",
+  "sha256": "7493691cab030182b4b85e52bee51a18e3a02623f79f80412c66871a16265dde"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "akro7--codeassist",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "CodeAssist",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c8d25ee8d5bc9ba8257356e43637b3f094b5775e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c8d25ee8d5bc9ba8257356e43637b3f094b5775e"
+ },
+ "repo": "akro7/CodeAssist"
+}

@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-10-06",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "说点啥（BiBi Keyboard）:一个基于 Kotlin 的 Android 平台的 LLM 与 ASR 语音输入法键盘应用  An LLM ASR voice input method keyboard application for the Android platform based on Kotlin",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/brycewg--bibi-keyboard.json",
+  "sha256": "32d8ed365ea0449049e3cf2b562609fcff0b390244903cc070f8aa737c5e8b74"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "brycewg--bibi-keyboard",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 860,
+  "stars_por_mes": null
+ },
+ "nombre": "BiBi-Keyboard",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "112b7b8eee8dbc2cc2682e99f5943b603604aeda",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:112b7b8eee8dbc2cc2682e99f5943b603604aeda"
+ },
+ "repo": "BryceWG/BiBi-Keyboard",
+ "web": "https://bibi.brycewg.com"
+}

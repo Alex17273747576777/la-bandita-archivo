@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-23",
+  "semantica_http": 200,
+  "ultima_release": "ttt1",
+  "ultimo_push": "2026-08-24"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/scb261--mihon-preview.json",
+  "sha256": "6075d9f7ecda775e6f70aaa950050d98b18fb4770d897cd2f32b14d3b0100c04"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "scb261--mihon-preview",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mihon-preview",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "37192ee260ad6dcecf11411cbedc224ab4d540ff",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:37192ee260ad6dcecf11411cbedc224ab4d540ff"
+ },
+ "repo": "scb261/mihon-preview"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-11-02",
+  "semantica_http": 200,
+  "ultima_release": "backup-release/356030647-38c75ac93879f612272ba677352c5e89512383f35251d582e0805ae002f8530f",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Manga, Novel, and Video reader for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/legado-backup--legado-kototoro.json",
+  "sha256": "0d50e7c48cf2871bc44b460692703cb1fdba82984926fee04ae146d3eba8209a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "legado-backup--legado-kototoro",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "legado-kototoro",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9e8993e769906628de612a3f4160a7d7e7beef62",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:9e8993e769906628de612a3f4160a7d7e7beef62"
+ },
+ "repo": "legado-backup/legado-kototoro"
+}

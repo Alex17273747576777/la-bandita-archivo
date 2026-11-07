@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-11-02",
+  "semantica_http": 200,
+  "ultima_release": "android-dev.1",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "An app that builds other apps.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/maceip--building.json",
+  "sha256": "3a3241f2ea03a7a2c58a01b61ea310ed1fec3afab5ac5ed17aa48768d08b7d54"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "maceip--building",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "building",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "29c71d2a262ec5f980da9c49c4b81f6c15532d1f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:29c71d2a262ec5f980da9c49c4b81f6c15532d1f"
+ },
+ "repo": "maceip/building"
+}

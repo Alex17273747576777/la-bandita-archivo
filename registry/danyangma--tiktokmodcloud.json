@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-05"
+ },
+ "descripcion": "Automated archive of TikTok Mod and Plugin APK files from TikTokModCloud. This r",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/danyangma--tiktokmodcloud.json",
+  "sha256": "4208f1f614b9e082b3b4df2b95d1c1d9bed177ef84eea258e397c2fca4c1ac22"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "danyangma--tiktokmodcloud",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "tiktokmodcloud",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "210194a63a7c42608085c791facbdaf6b99ec8f2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:210194a63a7c42608085c791facbdaf6b99ec8f2"
+ },
+ "repo": "DanyangMa/tiktokmodcloud"
+}

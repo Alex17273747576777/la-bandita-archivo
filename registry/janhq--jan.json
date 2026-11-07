@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2023-10-13",
+  "semantica_http": 200,
+  "ultima_release": "v0.2.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/janhq--jan.json",
+  "sha256": "726fef6f5343c4447d911ee2ef2cdbf4c88dbc1abebafd41b18f0f02be7d1cbb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "janhq--jan",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 45370,
+  "stars_por_mes": null
+ },
+ "nombre": "jan",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c1a64a78515e1726999fa10e3c43de7a5a2ba3d0",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c1a64a78515e1726999fa10e3c43de7a5a2ba3d0"
+ },
+ "repo": "janhq/jan",
+ "web": "https://jan.ai/"
+}

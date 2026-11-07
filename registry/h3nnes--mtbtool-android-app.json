@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-05-06",
+  "semantica_http": 200,
+  "ultima_release": "v1.2.0",
+  "ultimo_push": "2026-09-08"
+ },
+ "descripcion": "Perform bandlock and edit EFS NV items on qualcomm-based Xiaomi devices with root or root-backed Shizuku",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/h3nnes--mtbtool-android-app.json",
+  "sha256": "45f9e74efa99c9f55e097d72b3cfae4d23be88cb69ca6e57c035f7ee501ecb8d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "h3nnes--mtbtool-android-app",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 25,
+  "stars_por_mes": null
+ },
+ "nombre": "mtbtool-android-app",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "6f7de0414280da0210aca7b3873958afb5edb7df",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:6f7de0414280da0210aca7b3873958afb5edb7df"
+ },
+ "repo": "h3nnes/mtbtool-android-app"
+}

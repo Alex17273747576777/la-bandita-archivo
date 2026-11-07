@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2024-10-10",
+  "semantica_http": 200,
+  "ultima_release": "v14.11.0",
+  "ultimo_push": "2026-10-13"
+ },
+ "descripcion": "Some Popular Android APK",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/arghya339--apk-me.json",
+  "sha256": "21082ad4be0fb30e9222844aad341c46258d0102d04d0d15610aa656af4e7575"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "arghya339--apk-me",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 11,
+  "stars_por_mes": null
+ },
+ "nombre": "apk-me",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "cd2d9806e70e3d4ef663c7aaaf24de8789d6026a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:cd2d9806e70e3d4ef663c7aaaf24de8789d6026a"
+ },
+ "repo": "arghya339/apk-me",
+ "web": "https://revanced.app"
+}

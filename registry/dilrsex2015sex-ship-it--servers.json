@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-02"
+ },
+ "descripcion": "Model Context Protocol Servers",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dilrsex2015sex-ship-it--servers.json",
+  "sha256": "b16382daa22ac7ee6f0fb25d3b7b641ba3160b8db7786145228d6efd4ff6083e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dilrsex2015sex-ship-it--servers",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "servers",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "76d64c822f5125032f89eb71dbdb94e42b434821",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:76d64c822f5125032f89eb71dbdb94e42b434821"
+ },
+ "repo": "dilrsex2015sex-ship-it/servers",
+ "web": "https://modelcontextprotocol.io"
+}

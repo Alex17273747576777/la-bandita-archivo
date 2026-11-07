@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-02",
+  "semantica_http": 200,
+  "ultima_release": "v0.16",
+  "ultimo_push": "2026-10-15"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/xxz3312--fixredirectstorage.json",
+  "sha256": "d4ee70c014ac093985eb1f872e9b6d1b0e022f882cb31d544eaf7b19747c086f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "xxz3312--fixredirectstorage",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "FixRedirectStorage",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f1575602c5ddd4bc16af5379128f9c237984fc92",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:f1575602c5ddd4bc16af5379128f9c237984fc92"
+ },
+ "repo": "xxz3312/FixRedirectStorage"
+}

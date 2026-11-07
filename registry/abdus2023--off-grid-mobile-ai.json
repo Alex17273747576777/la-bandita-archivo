@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-14"
+ },
+ "descripcion": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy F",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/abdus2023--off-grid-mobile-ai.json",
+  "sha256": "c63b3b1beb9bff121b4f74b575f70c7791f58ad7890397ab231f1d8008b5970c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "abdus2023--off-grid-mobile-ai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "off-grid-mobile-ai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4e8d235b0c2e0a40254d2d79fb2383e08f030411",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4e8d235b0c2e0a40254d2d79fb2383e08f030411"
+ },
+ "repo": "Abdus2023/off-grid-mobile-ai"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-01-18"
+ },
+ "descripcion": "aniyomi is anime streaming app",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/gokulcoder7--aniyomi-preview.json",
+  "sha256": "e5bb0a7b0caa15371805f3798de1d9c0c973370c1cad8de1bbb7fe74051693b9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "gokulcoder7--aniyomi-preview",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "aniyomi-preview",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1d5b76b2e231ad6efd5ffbd24c86df4c8e7d83d6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1d5b76b2e231ad6efd5ffbd24c86df4c8e7d83d6"
+ },
+ "repo": "gokulcoder7/aniyomi-preview"
+}

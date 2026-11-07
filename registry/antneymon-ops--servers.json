@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-01-11"
+ },
+ "descripcion": "Model Context Protocol Servers",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/antneymon-ops--servers.json",
+  "sha256": "abb2ebb0b1e80621047fe2da40df22d51f46a025bd861041ebb831bd9690adb2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "antneymon-ops--servers",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "servers",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "861c11b786b3efbc87eb2e878a4039d33846a031",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:861c11b786b3efbc87eb2e878a4039d33846a031"
+ },
+ "repo": "antneymon-ops/servers"
+}

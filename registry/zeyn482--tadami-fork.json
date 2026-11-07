@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-01"
+ },
+ "descripcion": "An app for manga, anime and ranobe",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/zeyn482--tadami-fork.json",
+  "sha256": "8784eeaf957a24f2da6eead3b51e72d38d45d13bbab65871f44f4e0e3aba10ed"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zeyn482--tadami-fork",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Tadami-fork",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4f193fd98e6c7cd9d405f4aba9c13de1009f51e2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4f193fd98e6c7cd9d405f4aba9c13de1009f51e2"
+ },
+ "repo": "Zeyn482/Tadami-fork"
+}

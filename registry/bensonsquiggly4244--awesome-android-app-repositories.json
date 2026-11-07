@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-12"
+ },
+ "descripcion": "Discover curated open-source Android apps, tools, and repositories from Telegram—updated continuously for developers and power users.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/bensonsquiggly4244--awesome-android-app-repositories.json",
+  "sha256": "84c7460b9f735a2aadb56f2edbdd2e33db26213838d89f8458477a25072c925d"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "bensonsquiggly4244--awesome-android-app-repositories",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 4,
+  "stars_por_mes": null
+ },
+ "nombre": "awesome-android-app-repositories",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "cb9e3aa398f030db9c29e4e50492a7904cf0a752",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:cb9e3aa398f030db9c29e4e50492a7904cf0a752"
+ },
+ "repo": "bensonsquiggly4244/awesome-android-app-repositories"
+}

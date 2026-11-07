@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-12"
+ },
+ "descripcion": "A manga viewer.support realtime Coloring  and Anime4kSR and OCR translation.All",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/qing-novel--venera-ssr-icon.json",
+  "sha256": "71f948d93e547d682b9b1db205f9b37a552eec5c5a2ed2cb4ddadbdf79c572e0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "qing-novel--venera-ssr-icon",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Venera-SSR-icon",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "07ac77fcbd6c9050a5313f327e28d617eb602488",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:07ac77fcbd6c9050a5313f327e28d617eb602488"
+ },
+ "repo": "Qing-Novel/Venera-SSR-icon"
+}

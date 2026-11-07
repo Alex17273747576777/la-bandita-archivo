@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-02-24",
+  "semantica_http": 200,
+  "ultima_release": "v2.3.7",
+  "ultimo_push": "2026-08-25"
+ },
+ "descripcion": "安卓电视直播APK：IPTV/網頁視頻支持X5，可自定義源(支持webview://格式)，IPTV支持畫中畫和熄屏播放。 Android TV Live APK: IPTV/web video supports X5, customizable sources (support webview:// format), IPTV supports picture-in-picture and off-screen playback.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/horsemail--yourtv.json",
+  "sha256": "3f9a39bb46e42ddfc2995d3222848ea4af123302a4be1265c4fa46ecb991596a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "horsemail--yourtv",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1359,
+  "stars_por_mes": null
+ },
+ "nombre": "yourtv",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "16ab601d640eff080d501ef00ca1fabc10b1d8f5",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:16ab601d640eff080d501ef00ca1fabc10b1d8f5"
+ },
+ "repo": "horsemail/yourtv",
+ "web": "https://github.com/horsemail/yourtv"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-22",
+  "semantica_http": 200,
+  "ultima_release": "v6.1.4-xiaomi-cn.1",
+  "ultimo_push": "2026-07-22"
+ },
+ "descripcion": "Experimental MicroG-RE fork for Xiaomi and Redmi devices running Chinese MIUI or",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/thynaxy--microg-re-xiaomi-cn.json",
+  "sha256": "3be60947e9d5c07c290be4f06f2533d85ff17a9c1b0103af918b160f942139ac"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "thynaxy--microg-re-xiaomi-cn",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "MicroG-RE-Xiaomi-CN",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1834dedc65b91508676295d67a97ff13b121d0d9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1834dedc65b91508676295d67a97ff13b121d0d9"
+ },
+ "repo": "thynaxy/MicroG-RE-Xiaomi-CN"
+}

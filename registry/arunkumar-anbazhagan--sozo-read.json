@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-21"
+ },
+ "descripcion": "Sozo-Read Manga,Novel etc... Multiple sources, offline downloads, cloud sync.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/arunkumar-anbazhagan--sozo-read.json",
+  "sha256": "732f2e7250fbf05396113bbee9da0d36a6dedb57c45461757972112ce84ad10f"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "arunkumar-anbazhagan--sozo-read",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Sozo-Read",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "de25ea7275209030a3af4ec929775ebfde814a7a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:de25ea7275209030a3af4ec929775ebfde814a7a"
+ },
+ "repo": "Arunkumar-Anbazhagan/Sozo-Read"
+}

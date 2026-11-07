@@ -1,0 +1,75 @@
+{
+ "id": "accrescent",
+ "nombre": "Accrescent",
+ "repo": "accrescent/accrescent",
+ "autores": [
+  {
+   "nombre": "The Accrescent Contributors",
+   "enlace": "https://github.com/accrescent"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/accrescent/accrescent/blob/main/LICENSE"
+ },
+ "nivel": "intermedio",
+ "tarea": "Tener una tienda pequeña, revisada y con reglas modernas de firma, donde cada aplicación está atada a la llave con la que se publicó la primera vez.",
+ "capitulo": 4,
+ "orden": 3,
+ "para_quien": {
+  "es": "para quien prefiere un catálogo corto y exigente a uno enorme, y quiere que el teléfono actualice solo sin pedirle permiso cada vez.",
+  "no_es": "para quien necesita encontrar cualquier aplicación libre: su catálogo es pequeño y está en alfa desde 2021."
+ },
+ "manos": [
+  "Bajá la APK de la última entrega y verificá su certificado con `apksigner`: el número debe coincidir con el que el proyecto publica en su repositorio.",
+  "Instalá y abrí la aplicación; el catálogo se descarga firmado y la propia tienda comprueba la firma antes de mostrarlo.",
+  "Instalá una aplicación desde ahí y comprobá en sus detalles que la huella de la llave que muestra coincide con la que publica el autor del programa.",
+  "En Android 12 o superior, activá las actualizaciones sin intervención: esta tienda usa el mecanismo del sistema que no pide confirmación por cada instalación.",
+  "Cada tanto volvé a la página del proyecto y compará la fecha de la última entrega con la que tenés instalada: el código se mueve más rápido que las versiones publicadas."
+ ],
+ "resultado_esperado": "Tenés un catálogo corto, con llaves fijadas por aplicación y actualizaciones silenciosas, y sabés que cada paquete está atado al firmante con el que entró la primera vez.",
+ "si_sale_mal": [
+  "Si una aplicación no aparece en el catálogo, no es un fallo: la tienda sólo aloja lo que revisó y aceptó.",
+  "Si el teléfono es Android 9 o inferior, esta tienda no corre: pide Android 10 como mínimo y las actualizaciones silenciosas, Android 12.",
+  "Si una aplicación se actualiza y cambia de firmante, la tienda la rechaza aunque Android la aceptara: eso es la fijación de llave haciendo su trabajo."
+ ],
+ "deshacer": "Desinstalar la tienda deja las aplicaciones instaladas intactas. Volver a una versión anterior de cualquiera de ellas exige desinstalar y reinstalar el paquete con la misma llave, porque Android no permite retroceder conservando los datos.",
+ "cabeza": [
+  "Accrescent hace tres cosas que casi ninguna tienda libre hace juntas. Fija la llave de cada aplicación: la primera vez que instala algo guarda la huella de su certificado, y a partir de ahí rechaza cualquier actualización firmada con otra, incluso si el sistema la aceptaría. Firma sus metadatos: el catálogo viaja firmado y la tienda se niega a mostrarlo si la firma no cuadra. Y actualiza sin intervención en Android 12 o superior, con el mecanismo del sistema, sin pedir confirmación instalación por instalación.",
+  "La primera de las tres es la que más cambia el panorama. La fijación de llave cierra el ataque más viejo del ecosistema: un autor cuya llave se filtra, uno nuevo que compra el proyecto y refirma, o una entrega falsa publicada con la cuenta robada. Android acepta la nueva firma si viene con el paquete; la tienda que fijó la llave, no.",
+  "Su límite es el de siempre en los proyectos honestos: está en alfa desde 2021, su última entrega es la 0.28.1 del 10 de noviembre de 2025 —casi un año antes de esta medición—, y el código se mueve más rápido que las versiones. Treinta y seis mil setecientas sesenta y siete descargas de esa sola entrega indican que hay gente usándola como tienda principal; la fecha indica que conviene tener una segunda vía de actualización para lo importante."
+ ],
+ "limites": [
+  "Está declarada en alfa por sus propios autores, y su última entrega tiene casi un año a la fecha de esta medición.",
+  "Catálogo pequeño: lo que no revisó, no está.",
+  "Exige Android 10 o superior, y las actualizaciones sin intervención, Android 12 o superior.",
+  "Publica un solo adjunto por entrega, sin archivo de huella al lado: la comprobación se hace con `apksigner`, no con `sha256sum`."
+ ],
+ "oficio": {
+  "dato": "Accrescent publica en su repositorio la huella SHA-256 de su propio certificado de firma, y lo hace justamente para que puedas comprobarla antes de instalar. Eso convierte una descarga en un acto verificable: bajás la APK, corrés `apksigner verify --print-certs` y el número que aparece tiene que ser exactamente el que está escrito en el repositorio. Si no coincide, no importa lo que diga la página: el archivo lo firmó otra persona. Es el mismo procedimiento que se usa para comprobar cualquier aplicación, y el detalle que casi nadie nota es que esa huella se lee en el certificado, no en el nombre del archivo ni en la suma de verificación de la descarga. La suma te dice que el archivo llegó completo; el certificado te dice de quién es.",
+  "como_comprobar": "Bajá la APK de la última entrega y pedile al verificador la huella del certificado. Tiene que dar `06:7a:40:c4:19:3a:…:c0:71`, el número que el proyecto publica en su README. Si querés verlo en minúsculas y sin dos puntos, quitá el formato con `tr -d ':'`.",
+  "comando": "apksigner verify --print-certs accrescent-0.28.1.apk | grep -i sha-256"
+ },
+ "riesgos": [
+  "Usar una tienda en alfa como única vía de actualización de todo el teléfono.",
+  "Confundir la huella del archivo con la huella del certificado y dar por buena una descarga manipulada."
+ ],
+ "alternativas": [
+  "f-droid/fdroidclient",
+  "ImranR98/Obtainium"
+ ],
+ "senal": {
+  "estrellas": 2306,
+  "nota": 53,
+  "edad_dias": 1785,
+  "ultima_entrega": "2025-11-10",
+  "descargas_10": 57101,
+  "contribuyentes": 100,
+  "repo_mb": 3.9,
+  "ci": 2,
+  "incidencias": "41 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de The Accrescent Contributors · Apache-2.0 · medido el 3 de noviembre de 2026"
+}

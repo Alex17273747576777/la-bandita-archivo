@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-08",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-09"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sanjarbeksaminjonov--android-call-recorder-app.json",
+  "sha256": "bb4266bbe0b4d1ea8629fa58bde90b03f84a70d0d3bd92a95b2eeaeb5b48dffd"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sanjarbeksaminjonov--android-call-recorder-app",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "android-call-recorder-app",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "72610b50f33fa380d3cd74c875a7bd724a38f6b7",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:72610b50f33fa380d3cd74c875a7bd724a38f6b7"
+ },
+ "repo": "SanjarbekSaminjonov/android-call-recorder-app"
+}

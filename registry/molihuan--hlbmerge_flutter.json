@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-09-13",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-14"
+ },
+ "descripcion": "全平台将Bilibili缓存视频合并导出为mp4，支持android、windows(10以上)、linux、mac、harmony(仅2in1和PC)、ios，支持B站Android客户端缓存，支持B站Windows客户端缓存，支持B站Mac客户端缓存  Combine and export Bilibili cache files as MP4, support Android, Windows, Linux, Mac,Harmony,IOS, support Bilibili Android Windows Mac client cache",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/molihuan--hlbmerge_flutter.json",
+  "sha256": "c14df94a91a55e45d6190175c52fc1521a16947a13ab279be32f02cb7ebe0ede"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "molihuan--hlbmerge_flutter",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 425,
+  "stars_por_mes": null
+ },
+ "nombre": "hlbmerge_flutter",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a1fa32b1da94afe3fad91e21530c3ce9844909b5",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a1fa32b1da94afe3fad91e21530c3ce9844909b5"
+ },
+ "repo": "molihuan/hlbmerge_flutter"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-24"
+ },
+ "descripcion": "The ultimate home for modded apps. OrionStore offers instant access to YouTube M",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/aigigi--orion-store.json",
+  "sha256": "e0584a8ca2cf403fd48445d94c94bf4d72fb3025f8bdc8b695cc29d0fb62f1be"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "aigigi--orion-store",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Orion-Store",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "95b22334cf9ec3c2317a16dd5781b25789f8687e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:95b22334cf9ec3c2317a16dd5781b25789f8687e"
+ },
+ "repo": "aigigi/Orion-Store"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-03-21"
+ },
+ "descripcion": "In Development",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/christopher377526--winnative.json",
+  "sha256": "835eef6005e85b35397f9c3120ae242cc3a46475c92e28ec288fecc43606cbef"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "christopher377526--winnative",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "WinNative",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "eb5deb887d2f8b6da422e43d0857b7baca2be5d1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:eb5deb887d2f8b6da422e43d0857b7baca2be5d1"
+ },
+ "repo": "christopher377526/WinNative"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "mullvad",
+ "nombre": "Mullvad VPN",
+ "repo": "mullvad/mullvadvpn-app",
+ "autores": [
+  {
+   "nombre": "Mullvad VPN AB",
+   "enlace": "https://mullvad.net"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/mullvad/mullvadvpn-app/blob/main/LICENSE.md"
+ },
+ "nivel": "principiante",
+ "tarea": "Salir a internet desde otro lugar con un cliente auditable, una cuenta que no pide correo y la posibilidad de comprobar cada archivo que se instala.",
+ "capitulo": 8,
+ "orden": 2,
+ "para_quien": {
+  "es": "para quien quiere una red privada comercial que se pueda examinar: cliente libre, cuentas sin identidad y archivos con firma separada.",
+  "no_es": "para quien busca anonimato: una red privada comercial cambia quién te ve, no te vuelve invisible, y este servicio tampoco lo promete."
+ },
+ "manos": [
+  "Bajá la aplicación desde su repositorio —no desde un enlace de un grupo— y comprobá la firma separada que acompaña al archivo antes de instalar.",
+  "Al abrirla, generá una cuenta: el servicio entrega un número en lugar de un correo, y ese número es la única llave de la cuenta.",
+  "Anotá ese número en dos lugares físicos distintos: sin él no hay recuperación posible, y esa incomodidad es precisamente la que evita que tu identidad quede atada al servicio.",
+  "Activá el interruptor de corte, que corta internet si el túnel se cae, y elegí la ubicación por país o por servidor concreto.",
+  "Comprobá lo que de verdad importa: antes y después de conectar, mirá desde qué dirección te ve internet, y verificá que haya cambiado."
+ ],
+ "resultado_esperado": "Tu tráfico sale desde otro lugar, el túnel corta la conexión si se cae, y el archivo que instalaste coincide con la firma que el proyecto publica.",
+ "si_sale_mal": [
+  "Si te quedás sin internet al activar, es el interruptor de corte haciendo su trabajo y el túnel sin establecerse: probá otro servidor o protocolo.",
+  "Si perdés el número de cuenta, no hay recuperación: el servicio no pide correo y por eso no puede devolverte nada.",
+  "Si un sitio te bloquea estando conectado, cambialo de servidor: muchas plataformas bloquean rangos enteros de direcciones conocidas."
+ ],
+ "deshacer": "Desconectar el túnel devuelve tu conexión normal en un segundo. La cuenta se puede cerrar sin dejar rastro, y el servicio no conserva datos de navegación; lo que sí queda es el pago, que conviene hacer con un método que no diga más de lo necesario.",
+ "cabeza": [
+  "Mullvad es la excepción del mercado: cobra lo mismo a todos, no tiene plan gratuito, no pide correo y publica el cliente completo con licencia libre para que cualquiera pueda leer qué hace con tus datos. Esa combinación es la que permite discutirla con argumentos y no con simpatía.",
+  "Su cliente publica cada archivo junto a su firma separada, y eso convierte la instalación en un acto verificable: se comprueba la firma antes de ejecutar, igual que se comprueba una APK con su `.asc` en el capítulo 4. Cuarenta y seis adjuntos con huella en sus diez últimas entregas y ciento ochenta y tres mil quinientas veinte descargas: no es el cliente más popular del mundo, y sí uno de los pocos que documenta cómo comprobarlo.",
+  "Y su límite es el de toda red privada comercial, sin adornos: el extremo del túnel es una empresa. Cambia quién te ve —tu proveedor deja de verlo, ella empieza—. Eso protege del wifi del café y de la red del trabajo; no protege de la empresa, y no te vuelve anónimo frente al sitio que visitás con tu cuenta abierta."
+ ],
+ "limites": [
+  "Es un servicio de pago: no hay plan gratuito, y eso es parte de su modelo, no un defecto.",
+  "El extremo del túnel es una empresa: cambia a quién le entregás tu tráfico, no lo elimina.",
+  "Ocupa el único túnel del teléfono: con un bloqueador de anuncios activo, uno de los dos se apaga.",
+  "Perder el número de cuenta es perder la cuenta: no hay correo de recuperación."
+ ],
+ "oficio": {
+  "dato": "Una cuenta sin correo cambia el cálculo de lo que se puede perder. El servicio entrega un número de dieciséis dígitos y no guarda nada que lo relacione con una persona: ni nombre, ni correo, ni teléfono. La ventaja es evidente; la contrapartida también, y casi nadie la piensa antes de pagar: si ese número se pierde, no existe un «recuperar contraseña». Es la misma lección del capítulo 7 con las copias cifradas —la llave es tuya y también es tu responsabilidad— aplicada a una suscripción. Y tiene una consecuencia práctica que se puede comprobar en la aplicación: las cuentas no se pueden buscar por correo porque no hay correo, y el servicio no puede avisarte de nada.",
+  "como_comprobar": "Abrí los datos de tu cuenta en la aplicación y mirá qué información existe sobre vos. Después pedile al sistema el listado de aparatos vinculados a la cuenta: es corto, es tuyo y se puede vaciar de un toque, sin pasar por ninguna persona.",
+  "comando": "mullvad account get && mullvad relay list | head -20"
+ },
+ "riesgos": [
+  "Bajar el instalador de un enlace de mensajería en lugar del repositorio, y quedarse con un binario que nadie firmó.",
+  "Creer que estar conectado a un servicio extranjero te hace anónimo frente a un sitio donde tenés sesión abierta."
+ ],
+ "alternativas": [
+  "hiddify/hiddify-app",
+  "SagerNet/sing-box"
+ ],
+ "senal": {
+  "estrellas": 7743,
+  "nota": 69,
+  "edad_dias": 3242,
+  "ultima_entrega": "2026-09-30",
+  "descargas_10": 184865,
+  "contribuyentes": 91,
+  "repo_mb": 322.1,
+  "ci": 5,
+  "incidencias": "114 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de Mullvad VPN AB · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

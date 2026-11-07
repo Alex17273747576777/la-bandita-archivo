@@ -1,0 +1,62 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-11-01",
+  "semantica_http": 200,
+  "ultima_release": "fc7a827-0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Extension repository for Mihon and variants",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/keiyoushi--extensions.json",
+  "sha256": "3327f6109dcc6b0c24e9c8e4fabb000c80bbc72ea9dc3b30d422cf99f68f65d5"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "keiyoushi--extensions",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 15426,
+  "stars_por_mes": null
+ },
+ "nombre": "extensions",
+ "piezas": [
+  "04-",
+  "103",
+  "16-",
+  "43-",
+  "95-",
+  "96-",
+  "97-",
+  "99-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b01ad156965bf4e386bee18828c6f8f6f5846f7b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b01ad156965bf4e386bee18828c6f8f6f5846f7b"
+ },
+ "repo": "keiyoushi/extensions",
+ "web": "https://keiyoushi.github.io/"
+}

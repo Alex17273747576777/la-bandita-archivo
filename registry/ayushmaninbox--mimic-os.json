@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-19",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "A native macOS app built in SwiftUI to mirror, control, and manage files on your Android device wirelessly or via USB. No Android app or root required.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ayushmaninbox--mimic-os.json",
+  "sha256": "51787fbea6d665d90b0b4f25ab8ddbdd2ea53ae50e13f297d48b8a7113ec628a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ayushmaninbox--mimic-os",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "mimic-os",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a294847267d7148217b42f15833baed8840ffb22",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a294847267d7148217b42f15833baed8840ffb22"
+ },
+ "repo": "ayushmaninbox/mimic-os",
+ "web": "https://github.com/ayushmaninbox/mimic-os/releases/download/v2.0/MimicOS-v2.0.dmg"
+}

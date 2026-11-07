@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2014-05-10",
+  "semantica_http": 200,
+  "ultima_release": "0.1.0",
+  "ultimo_push": "2024-12-03"
+ },
+ "descripcion": "Wrapper of syncthing for Android.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/syncthing--syncthing-android.json",
+  "sha256": "11bdd0457ccabe362793992d0ad9aefc6a71a204497b1f150304271033311432"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "syncthing--syncthing-android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 4290,
+  "stars_por_mes": null
+ },
+ "nombre": "syncthing-android",
+ "piezas": [
+  "101"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "64d2b8e362d45988dfc21dda3b0b494d7e8bb2c1",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:64d2b8e362d45988dfc21dda3b0b494d7e8bb2c1"
+ },
+ "repo": "syncthing/syncthing-android",
+ "web": "https://syncthing.net/"
+}

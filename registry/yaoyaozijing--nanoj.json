@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-23"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/yaoyaozijing--nanoj.json",
+  "sha256": "b0f14ac259863c95307613ba325f218f9949fca5e5fefdc0eb3d66742804c1de"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yaoyaozijing--nanoj",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "nanoj",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "73a40b07f1310006c35db4f7bb53908b7516c071",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:73a40b07f1310006c35db4f7bb53908b7516c071"
+ },
+ "repo": "yaoyaozijing/nanoj"
+}

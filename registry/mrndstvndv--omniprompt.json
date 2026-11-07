@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-01-30",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-10-17"
+ },
+ "descripcion": "Android command palette that unifies app launching, device search, and system utilities into a single, customizable overlay.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mrndstvndv--omniprompt.json",
+  "sha256": "91b03e48b0c924b2444424199d5a8055ee03dc2cd2a6b4cd0e80eeee013fb27a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mrndstvndv--omniprompt",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 98,
+  "stars_por_mes": null
+ },
+ "nombre": "OmniPrompt",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "efba11895541f4f0b372e8756765da2326ad8ece",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:efba11895541f4f0b372e8756765da2326ad8ece"
+ },
+ "repo": "mrndstvndv/OmniPrompt"
+}

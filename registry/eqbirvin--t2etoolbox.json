@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-15",
+  "semantica_http": 200,
+  "ultima_release": "v0.5.0",
+  "ultimo_push": "2026-10-21"
+ },
+ "descripcion": "Utility toolbox for the Unihertz Titan 2 Elite (Display Fix, Unified Pull-Down, Volume Mode Switcher, and Flashlight Indicator)",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/eqbirvin--t2etoolbox.json",
+  "sha256": "1c4517b8a8bbf2b9b6f8103ffe68e1aa94b9ee843594951dc193dc4de18d5220"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "eqbirvin--t2etoolbox",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "T2EToolbox",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e86d10ad353fac9a208315fb3a4374343a397b84",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:e86d10ad353fac9a208315fb3a4374343a397b84"
+ },
+ "repo": "eqbirvin/T2EToolbox"
+}

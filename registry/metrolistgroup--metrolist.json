@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2023-08-11",
+  "semantica_http": 200,
+  "ultima_release": "v1.05-Beta",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "YouTube Music client for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/metrolistgroup--metrolist.json",
+  "sha256": "8d180ffa7ab6899e847b0f9f41b9214205519417b893a34adefc54c83018eb30"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "metrolistgroup--metrolist",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 13979,
+  "stars_por_mes": null
+ },
+ "nombre": "Metrolist",
+ "piezas": [
+  "08-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e6fea3b36c68841bad21daa6252e1d69ecd3afbe",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:e6fea3b36c68841bad21daa6252e1d69ecd3afbe"
+ },
+ "repo": "MetrolistGroup/Metrolist",
+ "web": "https://metrolist.cc"
+}

@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-25",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/makecindy--cindy.json",
+  "sha256": "87eb99e55b9c62388a989477ac79bcdef9dbe3de359a60d0728cc638e95fc7fb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "makecindy--cindy",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 9113,
+  "stars_por_mes": null
+ },
+ "nombre": "cindy",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f74a4f3c8244da3c21b2b158788ad9b8c590b265",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:f74a4f3c8244da3c21b2b158788ad9b8c590b265"
+ },
+ "repo": "makecindy/cindy",
+ "web": "https://cindy.app"
+}

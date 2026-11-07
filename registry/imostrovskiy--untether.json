@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-30",
+  "semantica_http": 200,
+  "ultima_release": "v0.2.0",
+  "ultimo_push": "2026-10-01"
+ },
+ "descripcion": "Instant Hotspot for Android: a Mac menu bar app turns on your phone's Wi-Fi hotspot over Bluetooth LE. No root, via Shizuku.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/imostrovskiy--untether.json",
+  "sha256": "4d5db8c004709a599fd7389c16c16c1b55f0d939f570f8d30d18aa1d6d64232a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "imostrovskiy--untether",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "BSD-3-Clause",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 6,
+  "stars_por_mes": null
+ },
+ "nombre": "untether",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c2879fcf119a2a2b719748bdf0d2a26d7c7a9417",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c2879fcf119a2a2b719748bdf0d2a26d7c7a9417"
+ },
+ "repo": "ImOstrovskiy/untether"
+}

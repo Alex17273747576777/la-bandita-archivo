@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2023-07-14",
+  "semantica_http": 200,
+  "ultima_release": "v1.3",
+  "ultimo_push": "2023-07-19"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/iamr0s--androidaccounts.json",
+  "sha256": "73fc6ac68337c306ca1b30e9425100d7e2810f4d31c8d2db6ace3160a5df291f"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "iamr0s--androidaccounts",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 351,
+  "stars_por_mes": null
+ },
+ "nombre": "AndroidAccounts",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5448d79ddc144b4b5c2510e7d89b0a258a6df78b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:5448d79ddc144b4b5c2510e7d89b0a258a6df78b"
+ },
+ "repo": "iamr0s/AndroidAccounts"
+}

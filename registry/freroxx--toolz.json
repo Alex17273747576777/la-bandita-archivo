@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-03-15",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Toolz is a comprehensive Android utility app designed to provide users with a versatile set of digital tools in a single, cohesive interface. It features a responsive grid dashboard for intuitive access to all utilities.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/freroxx--toolz.json",
+  "sha256": "c7958641106d6d314960af53b9f8e0aafb9050ed3cdf3b9ac3bbd7e47745a634"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "freroxx--toolz",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 98,
+  "stars_por_mes": null
+ },
+ "nombre": "toolz",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4ebe4b82be12c3b5ff9e0dbfb2c97aaeb6f96e61",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4ebe4b82be12c3b5ff9e0dbfb2c97aaeb6f96e61"
+ },
+ "repo": "freroxx/toolz",
+ "web": "https://toolz-app.vercel.app"
+}

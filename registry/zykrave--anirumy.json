@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-20",
+  "semantica_http": 200,
+  "ultima_release": "v1.6.0",
+  "ultimo_push": "2026-09-13"
+ },
+ "descripcion": "An unofficial AniList client for Android — track anime & manga, beautifully.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zykrave--anirumy.json",
+  "sha256": "5e2a92f8f07f07ca30e900ea4bef3685a0bf2985fda537c3c351e41dddec0f1e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zykrave--anirumy",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 6,
+  "stars_por_mes": null
+ },
+ "nombre": "Anirumy",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b1015ded513bc5381a3c9bf29781128747544f4e",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b1015ded513bc5381a3c9bf29781128747544f4e"
+ },
+ "repo": "Zykrave/Anirumy",
+ "web": "https://zykrave-omniverse.vercel.app/"
+}

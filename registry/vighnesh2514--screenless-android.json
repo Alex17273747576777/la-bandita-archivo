@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-30",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "Use an Android phone with a broken screen from any Windows or Mac laptop. scrcpy + adb launcher, wireless mode, speed tuning, AI phone agent. No root, no app on the phone.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/vighnesh2514--screenless-android.json",
+  "sha256": "72e8da8cbc74f44a5670fbeba4e15e32b31df8f1488659f28f7c4f5bff56953b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "vighnesh2514--screenless-android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "screenless-android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "afc8a8692aef45eb4e71564939d461d62c5f8c41",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:afc8a8692aef45eb4e71564939d461d62c5f8c41"
+ },
+ "repo": "Vighnesh2514/screenless-android",
+ "web": "https://screenless-android.vercel.app"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-03-21"
+ },
+ "descripcion": "🔐🌐 Privacy-respecting web frontends for popular services ",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/digitalblossom--alternative-frontends.json",
+  "sha256": "eb99f2978a4112d0a3296fbf35ee890cff62486820cd29aec117a3baa8e1bc3b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "digitalblossom--alternative-frontends",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2334,
+  "stars_por_mes": null
+ },
+ "nombre": "alternative-frontends",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9223e0e9c3a379314020ffd51e34eb5d7f6ad81e",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:9223e0e9c3a379314020ffd51e34eb5d7f6ad81e"
+ },
+ "repo": "digitalblossom/alternative-frontends"
+}

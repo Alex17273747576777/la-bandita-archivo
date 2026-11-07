@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-19",
+  "semantica_http": 200,
+  "ultima_release": "beta1",
+  "ultimo_push": "2026-10-05"
+ },
+ "descripcion": "SilentAlarm is an Android alarm app that only plays through earphones, never through speakers — so you never wake others. Built with Kotlin, Jetpack Compose, and aggressive process-keeping to survive OEM killers.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/izumisagirii--silent-alarm.json",
+  "sha256": "561e0de054069be1fdbe3d1320597bab67c51614183c143de5901e8d499c8f89"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "izumisagirii--silent-alarm",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 26,
+  "stars_por_mes": null
+ },
+ "nombre": "silent-alarm",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d1295112c93748d563536e37863003bbf13de5a4",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d1295112c93748d563536e37863003bbf13de5a4"
+ },
+ "repo": "izumisagirii/silent-alarm"
+}

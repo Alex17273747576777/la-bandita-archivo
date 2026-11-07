@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-04-28",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Hoshi Reader Android: Japanese EPUB reader with Yomitan lookup, Anki mining, audiobook read-along, and e-ink support.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/huangantimony--hoshi-reader-android.json",
+  "sha256": "48f641c6432de241d5799dd1b490151cf11f3f8bb8e069b44448445d75ec2543"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "huangantimony--hoshi-reader-android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 474,
+  "stars_por_mes": null
+ },
+ "nombre": "Hoshi-Reader-Android",
+ "piezas": [
+  "17-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9c0ce57e9e4dc77f4dfe241d75b6a14a5effe0ac",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:9c0ce57e9e4dc77f4dfe241d75b6a14a5effe0ac"
+ },
+ "repo": "HuangAntimony/Hoshi-Reader-Android"
+}

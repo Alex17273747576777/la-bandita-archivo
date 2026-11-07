@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-28"
+ },
+ "descripcion": "A multilingual YouTube Music frontend for Android, focused on performance, UI/UX",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ernest33--n-zik.json",
+  "sha256": "636d3190bb995e9ee0f42057c93e22d7a63ce0a88cd6dd4ee7ecb2407ac63b50"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ernest33--n-zik",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "N-Zik",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ecc9270b9772beacabc64eb86015d3a95da8922c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ecc9270b9772beacabc64eb86015d3a95da8922c"
+ },
+ "repo": "ernest33/N-Zik"
+}

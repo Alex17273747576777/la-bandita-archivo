@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-04-02"
+ },
+ "descripcion": "Model Context Protocol Servers",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/wael-rd--servers.json",
+  "sha256": "aae3a7fecbbe95c0655cd5955c65ee9ee2597f5e45c8108dafc628aa8964c57a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "wael-rd--servers",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "servers",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0d12ab326374e6883cdeb89a9d16c06ed1043c7e",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:0d12ab326374e6883cdeb89a9d16c06ed1043c7e"
+ },
+ "repo": "Wael-Rd/servers",
+ "web": "https://modelcontextprotocol.io"
+}

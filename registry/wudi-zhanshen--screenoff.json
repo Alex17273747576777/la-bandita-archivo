@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "muerto",
+  "release_en": null,
+  "semantica_http": 404,
+  "ultima_release": null,
+  "ultimo_push": "2025-01-14"
+ },
+ "descripcion": "仅ADB权限即可使用的息屏运行APP，为安卓5.1以上的全部安卓系统补全仅在国产旗舰机上才有的息屏运行功能。A 40KB APP to control your Android's screen to display or not display via Shizuku. Other APPs will CONTINUE working after turning off the screen by this APP.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/wudi-zhanshen--screenoff.json",
+  "sha256": "9b0a3139b66fc0a1bf9dfec7155447e6bdaa978adedfe91a078b64366b85ef4b"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-11-03",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "wudi-zhanshen--screenoff",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": null,
+  "stars_por_mes": null
+ },
+ "nombre": "ScreenOff",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": null
+ },
+ "repo": "WuDi-ZhanShen/ScreenOff"
+}

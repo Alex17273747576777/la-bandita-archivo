@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-12",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0-22",
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "Turn an Android phone into an MCP file server — AI clients read & write files and run commands, with per-call approval popups. 手机端 MCP 文件服务器：逐权限审批 / 文件网关 / 终端 / UI 自动化/ssh工作区",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/xtt-xt--mcpbox.json",
+  "sha256": "73075ecf5f8663c04ecdce61a1bfa4b74ca6125d2c2c8ec26c91c2fa33924619"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "xtt-xt--mcpbox",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 7,
+  "stars_por_mes": null
+ },
+ "nombre": "MCPBox",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3ce0df13cefb32f425ef5008b9a37bee3eefaa24",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:3ce0df13cefb32f425ef5008b9a37bee3eefaa24"
+ },
+ "repo": "xtt-xt/MCPBox"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-31",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "Fe（by Andy）：读取本机 E听说 已下载作业答案的 Android 阅读器 · Material 3 / Monet 动态取色 / Shizuku 直读 / 答案速览面板",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/andy-scy--fe-by-andy.json",
+  "sha256": "b61a6eeadc6b15ecafdbec6cf1ec3656d061b83961002cad337578019a164eec"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "andy-scy--fe-by-andy",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "fe-by-Andy",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e4ef0c1a85e0b4aa232cb956fc85b389960aba52",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:e4ef0c1a85e0b4aa232cb956fc85b389960aba52"
+ },
+ "repo": "Andy-scy/fe-by-Andy"
+}

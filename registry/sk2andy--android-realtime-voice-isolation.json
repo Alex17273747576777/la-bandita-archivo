@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-16",
+  "semantica_http": 200,
+  "ultima_release": "v0.1",
+  "ultimo_push": "2026-10-08"
+ },
+ "descripcion": "On-device real-time voice isolation for Android using Shizuku, GTCRN, and ONNX Runtime",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sk2andy--android-realtime-voice-isolation.json",
+  "sha256": "5b4ae570871cb55bb65981932d42deabd83cc625b956c1b04681dbf45638f442"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sk2andy--android-realtime-voice-isolation",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 24,
+  "stars_por_mes": null
+ },
+ "nombre": "android-realtime-voice-isolation",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "71b084aa98dc620bd2b477cf9f721c27b1629d24",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:71b084aa98dc620bd2b477cf9f721c27b1629d24"
+ },
+ "repo": "sk2andy/android-realtime-voice-isolation"
+}

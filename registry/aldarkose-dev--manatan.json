@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-17"
+ },
+ "descripcion": "Seamless immersion language learning for anime, manga, novels on all platforms",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/aldarkose-dev--manatan.json",
+  "sha256": "f869cfba21dfbbbe002d36bc7c0bfa42b7b255ec53b7310a7804a804ff67eb08"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "aldarkose-dev--manatan",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Manatan",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a360ad6baf3b09ba6250cfdaea26231a7856406f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a360ad6baf3b09ba6250cfdaea26231a7856406f"
+ },
+ "repo": "AldarKose-dev/Manatan"
+}

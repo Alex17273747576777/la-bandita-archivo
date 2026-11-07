@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "muerto",
+  "release_en": null,
+  "semantica_http": 404,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-04"
+ },
+ "descripcion": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber l",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Flyxis/airi",
+  "sha256": "fc05dcf90b8b3290147751b19778e6807765fa8815f2710b61b526bbd6e4892c"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-10-15",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-11-14",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "flyxis--airi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": null,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "airi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "93af669d14f876632afb83c4e924bd07737db9f7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:93af669d14f876632afb83c4e924bd07737db9f7"
+ },
+ "repo": "Flyxis/airi"
+}

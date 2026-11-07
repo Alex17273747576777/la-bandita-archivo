@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-01"
+ },
+ "descripcion": "OpenClaw alternative in your pocket with a React Subkernel",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mandelbroccoli-digital--kai_x_bliss.json",
+  "sha256": "7aee2b1704fa6ae33c57c4c6559d061a385e9360c78bba340dae3b6d44e683d6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mandelbroccoli-digital--kai_x_bliss",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Kai_X_Bliss",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "dfee556535b1a03335976aaae78e24a525a1555a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:dfee556535b1a03335976aaae78e24a525a1555a"
+ },
+ "repo": "Mandelbroccoli-digital/Kai_X_Bliss"
+}

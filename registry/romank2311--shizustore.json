@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-09"
+ },
+ "descripcion": "App store for Shizuku apps. Based on my awesome-shizuku list and installs APKs s",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/romank2311--shizustore.json",
+  "sha256": "7b1d0c1b67db7833cdaba24b2285de623bfc7be03aad62dd6d0a05f788658441"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "romank2311--shizustore",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "ShizuStore",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e7887dab7f7491df8da0045bc8de941b122ab610",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e7887dab7f7491df8da0045bc8de941b122ab610"
+ },
+ "repo": "RomanK2311/ShizuStore"
+}

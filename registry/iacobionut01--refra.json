@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2023-04-10",
+  "semantica_http": 200,
+  "ultima_release": "v1.0-β",
+  "ultimo_push": "2026-10-27"
+ },
+ "descripcion": "Media Gallery app for Android made with Jetpack Compose",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/iacobionut01--refra.json",
+  "sha256": "c81cae79007a94cf4724a11181c8f1e57755b53f9289827defcd9925147135be"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "iacobionut01--refra",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2975,
+  "stars_por_mes": null
+ },
+ "nombre": "ReFra",
+ "piezas": [
+  "66-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ba329cb0b75547ab517ea789af4651a7e4aea7a2",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:ba329cb0b75547ab517ea789af4651a7e4aea7a2"
+ },
+ "repo": "IacobIonut01/ReFra"
+}

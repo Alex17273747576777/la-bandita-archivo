@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-31",
+  "semantica_http": 200,
+  "ultima_release": "mod-01082026-2",
+  "ultimo_push": "2026-08-12"
+ },
+ "descripcion": "More Expressive InstallerX !",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/thangnguyen2303--installerx-revived.json",
+  "sha256": "7e08e650420925bee4fc9953ade757e1a8021fca95514e9c79ef6f121a7d80d1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "thangnguyen2303--installerx-revived",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "InstallerX-Revived",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "422fd869555b0699f74a2766a18411576f9b8299",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:422fd869555b0699f74a2766a18411576f9b8299"
+ },
+ "repo": "thangnguyen2303/InstallerX-Revived"
+}

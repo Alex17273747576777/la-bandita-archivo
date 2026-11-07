@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Open-source Android apps whose APKs are signature-checked and scanned for trackers. Updated automatically from 2113 Apps.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/2113apps--verified-android-apps.json",
+  "sha256": "ca69a5df47b32b7344dd6b61680921d2da688f0826a3ee4499eb15b432508a47"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "2113apps--verified-android-apps",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "CC-BY-4.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "verified-android-apps",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "da3ea800df0fad5ec2464e488e9488dbe477e533",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:da3ea800df0fad5ec2464e488e9488dbe477e533"
+ },
+ "repo": "2113apps/verified-android-apps",
+ "web": "https://h5.2113.net/"
+}

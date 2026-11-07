@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-10"
+ },
+ "descripcion": "Another Shizuku impl",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/aylz10--stellar.json",
+  "sha256": "fad5cb7ab87a895a1b9979e6e0e08238eb1c491ab63d2a7a561574a2be30022a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "aylz10--stellar",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Stellar",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "56032623c72c81c79edd937fe6ada45277b7a076",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:56032623c72c81c79edd937fe6ada45277b7a076"
+ },
+ "repo": "aylz10/Stellar"
+}

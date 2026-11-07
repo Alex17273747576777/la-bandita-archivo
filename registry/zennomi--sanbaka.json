@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-11-27"
+ },
+ "descripcion": "SANBAKA - BẠN GÁI AI DÀNH CHO SINH VIÊN BÁCH KHOA",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zennomi--sanbaka.json",
+  "sha256": "02f8b2bc24172468222698017fb006f0b7f4a33ce9b0b19310b3e142f4820a82"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zennomi--sanbaka",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 70,
+  "stars_por_mes": null
+ },
+ "nombre": "sanbaka",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "95ac916d4b1a9b9e2f9a204dfcd7204a1c828dfc",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:95ac916d4b1a9b9e2f9a204dfcd7204a1c828dfc"
+ },
+ "repo": "zennomi/sanbaka",
+ "web": "https://airi.moeru.ai/docs/"
+}

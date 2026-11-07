@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-22",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "An Android app for finding, installing and updating Xposed/Lsposed modules.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/rushiranpise--lsposed-modules-manager.json",
+  "sha256": "e74ba9480431c88d39c4a9e405fa8279871b3aabc35a4fb4625afda0750a9d47"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rushiranpise--lsposed-modules-manager",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 23,
+  "stars_por_mes": null
+ },
+ "nombre": "lsposed-modules-manager",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "edbfd8199484da265b7b31b1bb77f847805d7b2c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:edbfd8199484da265b7b31b1bb77f847805d7b2c"
+ },
+ "repo": "rushiranpise/lsposed-modules-manager",
+ "web": "https://buymeacoffee.com/rushiranpise"
+}

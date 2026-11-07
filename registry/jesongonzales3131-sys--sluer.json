@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-17",
+  "semantica_http": 200,
+  "ultima_release": "v0.4.0",
+  "ultimo_push": "2026-10-17"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jesongonzales3131-sys--sluer.json",
+  "sha256": "96a2376f09c1b03538a4b753ec514a5951283776e5192a814507357ebf6c9f55"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jesongonzales3131-sys--sluer",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "Sluer",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "bb7f367f1f576e108dfd5b56ac3215e353f13efc",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:bb7f367f1f576e108dfd5b56ac3215e353f13efc"
+ },
+ "repo": "jesongonzales3131-sys/Sluer"
+}

@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2021-03-07",
+  "semantica_http": 200,
+  "ultima_release": "v0.1",
+  "ultimo_push": "2026-10-23"
+ },
+ "descripcion": "An F-Droid client with modern UI and an arsenal of extra features.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/neoapplications--neo-store.json",
+  "sha256": "4856d170b96aade675cf845cbd77885f17b8c284b20a63ec8444dad61f9b43e8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "neoapplications--neo-store",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 5617,
+  "stars_por_mes": null
+ },
+ "nombre": "Neo-Store",
+ "piezas": [
+  "01-",
+  "28-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "37f8ee314be6d1def7af11b0af5b85a10680645c",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:37f8ee314be6d1def7af11b0af5b85a10680645c"
+ },
+ "repo": "NeoApplications/Neo-Store"
+}

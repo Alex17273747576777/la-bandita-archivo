@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-22",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "观序：安卓性能监测 App + 同款 iOS App（源码，CI 自动构建未签名 IPA，需 Apple ID 签名安装）+ 开源自签工具，同一仓库托管。隐私优先，全程本地。",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sitong-zhang--deviceperfmonitor.json",
+  "sha256": "fa866d7ad77a06e6b70637eafb803594dffe4e6692c6e035779ceadf0d1d61f1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sitong-zhang--deviceperfmonitor",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "DevicePerfMonitor",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "254ea002b06bd43f14b3e70e8a80dc948a9523c3",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:254ea002b06bd43f14b3e70e8a80dc948a9523c3"
+ },
+ "repo": "sitong-zhang/DevicePerfMonitor"
+}

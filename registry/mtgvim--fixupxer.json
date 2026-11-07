@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-09"
+ },
+ "descripcion": "Android URL cleaner: strips tracking, rewrites social links for better previews,",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mtgvim--fixupxer.json",
+  "sha256": "d1f8b921fe510cc0629c29948a1fe284deab88c57790a1fef69863c6dbe1181d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mtgvim--fixupxer",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "fixupxer",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "dc4981e70d1958b7c9a89e2328a31976ae340ee8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:dc4981e70d1958b7c9a89e2328a31976ae340ee8"
+ },
+ "repo": "MTGVim/fixupxer"
+}

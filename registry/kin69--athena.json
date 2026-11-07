@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2025-07-28",
+  "semantica_http": 200,
+  "ultima_release": "1.0",
+  "ultimo_push": "2026-01-26"
+ },
+ "descripcion": "Athena is a Material You (Material 3) firewall and ad blocker that works seamlessly on both rooted and non-rooted devices.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kin69--athena.json",
+  "sha256": "29e669f70e2ac9ac64185410c16a47b0f6debbc11e1d30fa8b563c04ea3870c8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kin69--athena",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 730,
+  "stars_por_mes": null
+ },
+ "nombre": "Athena",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "240c94a86ac2708242c2cceaf5081f83b6a2cb52",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:240c94a86ac2708242c2cceaf5081f83b6a2cb52"
+ },
+ "repo": "Kin69/Athena",
+ "web": "https://easyapps.me"
+}

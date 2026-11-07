@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-05-23",
+  "semantica_http": 200,
+  "ultima_release": "0.8.0",
+  "ultimo_push": "2026-07-19"
+ },
+ "descripcion": "Kotlin-first Android terminal library spanning Su, Shizuku, and SSH sessions.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/niki914--libterm.json",
+  "sha256": "075eea357f2627c2915bf3741ec8260f2d43ec791e2fcef31a8c8e11a73efd94"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "niki914--libterm",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 24,
+  "stars_por_mes": null
+ },
+ "nombre": "libterm",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "55d02c3f9dfc8174069db55d17a2b9154059ea15",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:55d02c3f9dfc8174069db55d17a2b9154059ea15"
+ },
+ "repo": "niki914/libterm"
+}

@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-25",
+  "semantica_http": 200,
+  "ultima_release": "v0.0.1-dev",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "An open-source Android utility for Shizuku, ADB, and Dhizuku workflows, with tools for Android phones, Android TV, and Wear OS.",
+ "evidencia": {
+  "nota": "ficha creada el 3-nov-2026 al medir los herederos de Shizuku para la pieza 04",
+  "payload_ref": "consulta GraphQL del 2026-11-03 sobre krishna3163/OmniShizuku",
+  "sha256": "06f2769a80dca9b12eede6bd2122d5d82eb3c1713df81a4a021d941ea7765f27"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "consulta GraphQL del nodo repository; campos exactos, sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "krishna3163--omnishizuku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "nota": "certificada además contra el texto del archivo LICENSE en la medición de la pieza 04",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 17,
+  "stars_por_mes": null
+ },
+ "nombre": "OmniShizuku",
+ "piezas": [
+  "04"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "153d6ecba28f7974b13a68542b9206197297616a",
+  "swh_estado": "archivada",
+  "swh_solicitud": "153d6ecba28f7974b13a68542b9206197297616a",
+  "swhid": "swh:1:rev:153d6ecba28f7974b13a68542b9206197297616a"
+ },
+ "repo": "krishna3163/OmniShizuku"
+}

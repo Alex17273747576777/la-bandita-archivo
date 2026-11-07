@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-16",
+  "semantica_http": 200,
+  "ultima_release": "v0.0.1",
+  "ultimo_push": "2026-09-20"
+ },
+ "descripcion": "Record Bluetooth communication without using a computer",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/duhow--nobita.json",
+  "sha256": "edd717d7b68eccc66d3f822e028394bc624048b94442b5dc1baa98da7de6252a"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "duhow--nobita",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 5,
+  "stars_por_mes": null
+ },
+ "nombre": "nobita",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "805f6c778ee986686150542a4e94156179af4f7c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:805f6c778ee986686150542a4e94156179af4f7c"
+ },
+ "repo": "duhow/nobita"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-13"
+ },
+ "descripcion": "In Development",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/develderlost--winnative-test.json",
+  "sha256": "1d99079d63c23ce85ae89855752884621b7e23f7ccb0eeb3a9d5c810e0395011"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "develderlost--winnative-test",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "WinNative-test",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "89daef3bc5693762868b2254054b47f4cdf27edf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:89daef3bc5693762868b2254054b47f4cdf27edf"
+ },
+ "repo": "DevElderLost/WinNative-test"
+}

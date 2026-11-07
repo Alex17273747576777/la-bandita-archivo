@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-02-25",
+  "semantica_http": 200,
+  "ultima_release": "v0.5.5",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Free SSH, VNC, RDP & SFTP client for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/glasshaven--haven.json",
+  "sha256": "00b6dcc2d8439e0312f8c38ba9eed1309a7f5c1c3fecbf130077a9e5be64c0b4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "glasshaven--haven",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1409,
+  "stars_por_mes": null
+ },
+ "nombre": "Haven",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a0feac083682e04c36e71ffe422295419f07e1d8",
+  "swh_estado": "sin archivo (HTTP 429)",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a0feac083682e04c36e71ffe422295419f07e1d8"
+ },
+ "repo": "GlassHaven/Haven",
+ "web": "https://glasshaven.github.io/Haven/"
+}

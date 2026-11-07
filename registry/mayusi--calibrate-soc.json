@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-02",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0-alpha",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Universal performance tuner, monitor & benchmark suite for Android gaming handhelds (AYN Odin/Thor, Retroid Pocket, and more). Pre-alpha, open source.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mayusi--calibrate-soc.json",
+  "sha256": "b178ab8da7369aa2b9a13ad7816061de2781638343a03d5c4573351c0f9c903a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mayusi--calibrate-soc",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 17,
+  "stars_por_mes": null
+ },
+ "nombre": "Calibrate-SoC",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b7f6b93d66dee1a2dd9dec581feefc7ba47a0bac",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b7f6b93d66dee1a2dd9dec581feefc7ba47a0bac"
+ },
+ "repo": "mayusi/Calibrate-SoC"
+}

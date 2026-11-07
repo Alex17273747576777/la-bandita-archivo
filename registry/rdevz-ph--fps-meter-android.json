@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-04-18",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "A high-performance, lightweight FPS monitoring tool for Android. This application provides real-time frame rate overlays inspired by Samsung Perf Z and MSI Afterburner Style (RTSS) telemetry, offering a clean monitoring experience for mobile gaming and performance testing.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/rdevz-ph--fps-meter-android.json",
+  "sha256": "ef76a55b3acb2fce7878896cb43ff35ddf32feace9f6fb7cbebffc231ef1e95e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rdevz-ph--fps-meter-android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 44,
+  "stars_por_mes": null
+ },
+ "nombre": "FPS-Meter-Android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "552b0d6065d275af710725e610f5acb8514673a2",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:552b0d6065d275af710725e610f5acb8514673a2"
+ },
+ "repo": "rdevz-ph/FPS-Meter-Android",
+ "web": "https://rdevz-ph.github.io/FPS-Meter-Android/"
+}

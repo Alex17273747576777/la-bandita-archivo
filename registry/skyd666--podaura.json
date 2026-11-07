@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2024-07-30",
+  "semantica_http": 200,
+  "ultima_release": "19",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "All-in-on podcast app for RSS, media dl & play. MVI arch, Material You style. ⭐️ Star to support!",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/skyd666--podaura.json",
+  "sha256": "2f6e98e03f3c70108c658b666138c8e964642382824f7ff7df0869fa9696bbfa"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "skyd666--podaura",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1275,
+  "stars_por_mes": null
+ },
+ "nombre": "PodAura",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "52f501efe486ce8dc07efb53eb080b189d7ca863",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:52f501efe486ce8dc07efb53eb080b189d7ca863"
+ },
+ "repo": "SkyD666/PodAura"
+}

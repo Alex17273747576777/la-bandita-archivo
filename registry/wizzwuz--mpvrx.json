@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anyw",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/wizzwuz--mpvrx.json",
+  "sha256": "d9f96f158e96c14546587c3eaa089de50618786ae94ab2aaad8a101f3d99ad44"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "wizzwuz--mpvrx",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mpvRx",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "dc6101c110a40f6def141094460fc257ca989820",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:dc6101c110a40f6def141094460fc257ca989820"
+ },
+ "repo": "wizzwuz/mpvRx"
+}

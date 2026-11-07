@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-27",
+  "semantica_http": 200,
+  "ultima_release": "v0.4.0",
+  "ultimo_push": "2026-10-27"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/stephansantos250-spec--baterry.json",
+  "sha256": "d46d5d2da5a93708e7de8de9d3ab82cda14424f66513c65d17156c60e0a037d0"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "stephansantos250-spec--baterry",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "Baterry",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a8ffa3a37f68841c992827493da4d63fcf5135ae",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a8ffa3a37f68841c992827493da4d63fcf5135ae"
+ },
+ "repo": "stephansantos250-spec/Baterry"
+}

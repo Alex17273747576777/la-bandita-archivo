@@ -1,0 +1,1058 @@
+# Inventario V25 — 1.029 fichas (fuente del proyecto Biblioteca)
+
+**Extraído HOY, 2026-09-15, del master `PUBLICACION_COMPLETA_BANDITA_V25_es-DO.md`** (2,4 MB, corte de datos 2026-09-02). Cada línea = una ficha del muro, con su categoría y su estado V25 literal. **Regla del proyecto:** solo pasa a guía el día que su fuente primaria se re-verifique; «Identidad registrada» = candidata, no ficha.
+
+## Lectura, cómics y bibliotecas (181 fichas)
+
+- **eu.toldi.infinityforlemmy** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Wiki Fronted** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Prayer Book** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Nontrinsic** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **net.retiolus.natinfo** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ProseReader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Rocinante** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **LibreOffice Viewer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **mangayomi-ar-extensions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **itkach.aard2** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.abezb.thirukuraldaily** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Book's Story** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OSS-Dict** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.madlonkay.orgro** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Tadami** — Observado / activo
+- **net.bible.android.activity** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Inkcast** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Anx Reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Futon** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Archiv** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MuPDF viewer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MuPDF mini** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Episteme Reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Read You** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Paperless Mobile** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AniHyou - AniList client** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Bibledit** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **EbookConverter** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **bubelov/news** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Bookaccio Book Tracker** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **HomeFeed - RSS Widget** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Liseur** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Wikisource Reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Yomi Reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.sbv.linkdroid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **YtReader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **taz** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Komikku Sync (GNOME)** — Confirmado por repositorio y metadatos públicos
+- **LightNovelReader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Calibre-Web-Companion** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Kitsune** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.app.openlib** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Unofficial Golem.de Reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Chaka Book Reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Geekttrss** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.handmadeideas.floccus** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Librera Reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **kegareta-sauces** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **legado** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Taison** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **bchan** — Confirmado por repositorio y metadatos públicos
+- **com.kaizen.khushu** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AELF - Bible and day's reading** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Sumatora** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **DropSauce** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Kisara** — Confirmado por repositorio y metadatos públicos
+- **RSS Reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **IReader-extensions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ru.iska9der.flabr** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Areada** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Dantotsu** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.github.jameshnsears.quoteunquote** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Stutter** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **News Reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **tachiyomiJ2K** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Readeck App** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Capy Reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ch.joshuah.bibleverseapp** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Readwide** — Observado / activo
+- **unyo-app** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **KamiYomu** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **KamiYomu.CrawlerAgents.Core** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **tach-extension** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PDF Toolkit** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Flux News** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Mangayomi** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Koodo Reader** — Observado / activo
+- **KOReader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Kototoro-app/Kototoro** — Confirmado por repositorio y metadatos públicos
+- **RSSAid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **copymanga-copy20** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Hacki for Hacker News** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **lnreader-plugins** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **mangayomi-extensions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **mangayomi-anime-extensions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Openreads** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Orion Viewer - Pdf & Djvu** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **LeMondeRssReader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Al-Quran - Simple** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **tagdrop** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.mshdabiola.playnotepad.foss** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Ciyue** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.hassaneltantawy.alazkar** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Tegaki** — Confirmado por repositorio y metadatos públicos
+- **WebnovelReader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.nikhilsi.gitavani** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **TTRSS-Reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **extensions-source** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **WikiReader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Kumo** — Archivado
+- **yokai-nightly** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Nyora — Android** — Confirmado por repositorio y metadatos públicos
+- **Fujiten** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OpenDocument Reader - view ODT** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **KomaStream** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Houri** — Confirmado por repositorio y metadatos públicos
+- **EinkBro** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Pitak** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Myne: Download & Read eBooks** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.paperknifeplus.app** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **nl.privacydragon.bookwyrm** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FeedFlow - RSS Feed Reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OpenComicVine** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Lector** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **QuickDic** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Readest** — Observado / activo
+- **Ashinch/ReadYou** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Dantotsu** — Confirmado por repositorio y metadatos públicos
+- **koeyomi** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Legado-booksource-collection** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **News Provider** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Kitsu-X** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FreeView** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AnymeX** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **DeepL** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **NewsBlur - News reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Markdownr** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.schwegelbin.openbible** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **app.wispar.wispar** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Seeneva: smart comic reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **nz.eloque.foss_wallet** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **QuickNovel-Enhanced** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Quotes.app** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **kotatsu-multi-parsers** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Linux Command Library** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Chimahon** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Feeder** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **stump** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **tachiyomi-extension** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **mangayomi-swak-extensions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Openshelf** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **tadami** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **CO3** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Codexa** — Observado / activo
+- **Egyptian Writer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MIYO** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Boky Fivavahana Anglikana** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Usagi** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MarkReader - Markdown Reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Ichaival** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Valentin's PowerTools #023 - MemorizeYourClassics** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MA Pdf** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Quire** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Volksverpetzer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **wallabag** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.wqar.quran_mem_helper** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **novel-compat-shosetsu** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **素扉** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Wikipedia** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **eQuran** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **yacreader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **freeDictionaryApp** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Handy Reading** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **NClientV3** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Light-Novel-Yuedu-Source** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **LxReader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.easwareapps.quoter** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **StyncyNotes** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **The Light** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.hlwd.bible_multi_the_life** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Libre Librivox listener** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MJ PDF** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Nunti** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **RaagaDB** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Paperless Go** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Shosetsu** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Sobuu** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Pinyin Web & EPUB and topolects** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.easwareapps.quoter** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Library App VideLibri** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **LibreOffice Viewer** — Identidad registrada; consulta la fuente primaria antes de usarla
+## Anime, vídeo y multimedia (162 fichas)
+
+- **com.qfs.pagan** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **agrigolo.chubbyclick** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **agrigolo.opendrummer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **io.github.antoinepirlot.satunes** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.berkersen.practicesuite** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ScenePeek - TMDB & Seerr** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Immich Uploader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.qfs.pagan** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Sensors2OSC** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.y20k.transistor** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.tnibler.cryptocam** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ShelfDroid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **BiliDownOut** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **bilimiao** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **seanime-tenji** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Redomi** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OpenPods** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OwnTV** — Observado / activo
+- **LearnTube** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **CineLog** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Next Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Animiru** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PlayTube** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **CloudX-V2** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Awerkori/anime-extensoes** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Awerkori/anime-fonte-extensoes** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Baby Dots** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.billthefarmer.accordion** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.billthefarmer.melodeon** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Oscilloscope** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Signal Generator** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **BlackCandy** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **cloudstream-extensions-uk** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Lyrion** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ScanBridge** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **cursedyomi-extensions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.conanizer.pockettracker** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Xtra** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Screenshot Tile (NoRoot)** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Wholphin** — Confirmado por repositorio y metadatos públicos
+- **Daily You** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Open Video Editor** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ScreenStream** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.dn0ne.lotus** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **doGiorsHadEnough** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.lalumo.app** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Stitch** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Scrob** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SecondScreen** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FelipeGFA/anime-extensoes** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **NekoVideo** — Observado / activo
+- **Fossify Voice Recorder Beta** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Gizz Tapes** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ItalianProvider** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Haven SSH Client** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **openDSP-4x4** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Neon** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Tella** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AnimeOne** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Punch-hole Download Progress** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Immich** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.jbgsoft.ambio** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AerioTV for Android** — Observado / activo
+- **Mirror** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FeedTV** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Überböse** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Geddit** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **King Post** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.github.andremiras.zbarcamdemo** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **knkpanime** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Anilili** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OBS Blade** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Storii - audiobookshelf client** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Simple Frame** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **DroidShows** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SauceNAO** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **NuvioMobile-Enhanced** — Observado / activo
+- **Google Timeline Visualizer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **DreamPlayer** — Confirmado por repositorio y metadatos públicos
+- **Binary Eye** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **World Scribe** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Zapp** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Sheepy Horn** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **QuandoInTV** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Metiq: noise & ambient sounds** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **CornCastle Anime** — Confirmado por repositorio y metadatos públicos
+- **Just (Video) Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **app.myzel394.alibi** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **NuvioMobile** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **NuvioTV** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OBS Blade** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Odysee** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PDF Unlocker** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Save by OpenArchive** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Midandpad** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **DSub2000** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ANeko Reborn** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Logline - MovieApp** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Ojo RTSP IP Camera viewer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ShikiApp** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **cloudstream-extensions-phisher** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Vetro** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.phpbg.easysync** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **io.github.poretsky.tuningfork** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **pretixPRINT** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OneShot** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Total Recall** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Episodes** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Redowan-CloudStream** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ReflexRepo** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Atrium** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **mpvRx** — Observado / activo
+- **Roc Droid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Muzei** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Offline Web Search** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Otic** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **National Geographic for Muzei** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **The Verge wallpapers for Muzei** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Ring-R** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **IPTV Mine Pro** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **CSX** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Seanime-Providers** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **GlyphPort** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **aniyomi-extensions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **QR Scanner (PFA)** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Ruler (Privacy Friendly)** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Tape Measure (Privacy Friendly)** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Phylax** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MovieFlix** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.shapeshed.aerial** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Momentum** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FirTube** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Seenema: Movie Tracker** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **RecorderX** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FireFly (formerly AnimeBox)** — Confirmado por repositorio y metadatos públicos
+- **Zangetsu** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Easy Repost and Downloader for Instagram** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **drejo player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **NetMirror-Extension** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.andresoviedo.dddmodel2** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MemeBoard** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **EHHelper** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **tiefprompt** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Mightier Amp** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Twire** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Valentin's PowerTools #012 - Rate Your Pics** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Valentin's PowerTools #006 - Yes XOR No?** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **LibreStatus** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.vayun.files** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **vlc-android** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Kords** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **File Navigator** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ShowCase** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Kodi** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **CuxPlug** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SmartTube F-Droid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Zimly: S3 Backup** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.tnibler.cryptocam** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.gateshipone.malp** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **KnightStalker** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **dev.mateusznowak.demodulate** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **de.metaviewsoft.chordprogressionhelper** — Identidad registrada; consulta la fuente primaria antes de usarla
+## Música local, streaming y audio (231 fichas)
+
+- **VLC** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **jl.musicalnotes** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **audav** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Apollo** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **de.moekadu.metronomenext** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **de.moekadu.tuner** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **CastLab** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Escapepod - Podcast Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **player.efis.data.zar.aus** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PeerTube** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Scrib** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Flow** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **aburdiss/ScalePractice** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Scale Practice** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ClassiPod** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Repertoire** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Jamfish** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Polaris** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **podium (Podcasts)** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AirLyrics** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Resonance** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FocusPodcast** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Ringdroid - Ringtone editor** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Anytime Podcast Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AntennaPod** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Music Player Lite** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Internet Radio** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OmegaPlayer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OpenTune** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SoundPod** — Observado / activo
+- **DAVY - Daika Anime Viewer because YOLO** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Audile** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Sound Center** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Snapcast - multi-room audio in perfect sync** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Equalizer314** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Shorty** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Tuner (Bill Farmer)** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **net.bitplane.android.microphone** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Lotus** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Pitch pipe** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Boxlore** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Echo extension-based music player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **BeatBridge** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **News** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Tempo** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Squeezelite** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Phonograph Plus** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.mult.daap** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SoundAura** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **StreamPlayer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SoundTree Recorder** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Chronal** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Ensemble** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Com-Phone Story Maker** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Chora** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Rhythm** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Local Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Airbeats Desktop** — observed
+- **HSTempo** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Pageless** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **YAM** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **YTDLnis audio/video downloader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **deutsia radio** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MetroMusic** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Audio Recorder** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **QSO Again** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Record Play Reverse** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Tempus** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Let's Bend: Harmonica Tuner** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ylih - your life in headphones** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Soul Searching** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Lyrics 2** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **RiPlay** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **jmshrv/finamp** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AudioAnchor** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Tune Tangler** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Gramophone** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Fossify Music Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Meld** — Confirmado por repositorio y metadatos públicos
+- **Futon reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Odyssey Music Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Musify** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Lissen: Audiobookshelf client** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.kalinisa.diatronome** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SponsorCut** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Midistrum** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Felicity Music Player (Trial)** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PitchVis** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **fm.helio** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Litube** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Power Ampache 2** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Murem** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Lyrics Grabbr** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PipePipe multi-service video client** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **youtube-music-cli** — Confirmado por repositorio y metadatos públicos
+- **Remote Video Camera** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Coppelia** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Diktafon: Voice Memos on Tape** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Prog Metronome** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Jellyfin server** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Jellyfin Android client** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Finamp** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AirPlay Server** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Seal downloader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **de.jurihock.voicesmith** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Squeezer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Kreate** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Kopuz** — Confirmado por repositorio y metadatos públicos
+- **Kotatsu reader fork** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Metronome (Kr0oked)** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Tuner (Kr0oked)** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Spotube** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **BitChord** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Musekit** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Clipious** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Fintunes** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Recording Studio Lite** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **LibreTube** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **LISTEN.moe** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Soothing Noise Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Tsacdop-Fork** — Observado / activo
+- **APM** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Levyra** — Observado / activo
+- **MusicSearch** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Echo** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Squeeze Client** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AniSync** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Booming Music** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Materialious** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SimpMusic** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SicMu Neo** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **VoicePlus – Audiobook Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Freies Radio** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Crystal Ball** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Rubber Ring** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **mucke - Music Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **mpv-android** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Lune** — Observado / activo
+- **Homer Audio Player for Seniors** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **App Manager** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Metro music player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MPD** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **N-ZIK** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Navidrome server** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Nextcloud News** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Volume++** — Confirmado por repositorio y metadatos públicos
+- **NouTube** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **NOVA Video Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Bide et Musique** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **RadioWave** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OuterTune** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Owncast live video server** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Auxio local music player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Voice Audiobook Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **VMPK for Android** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PeerTube platform** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **cmus music player (android)** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **JaMuz** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PixelPlayerOSS** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Yumi Co. Radio** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **net.pmarks.chromadoze** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Podverse** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **DuWave** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Kazumi anime client** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ccgt** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Tūī** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Cloudstream extensions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Flac-R** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Lrc-R** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Retro Music** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Anti-Vocale** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Track Exploder** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PlayOnDlna** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **RadioDroid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Gonic music server** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Open Ear** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **good-echo** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Rush - Lyrics App** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Youamp** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Cicada** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PodAura** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SkyTube** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SkyTube Legacy** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **badaix/snapcast** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Chocola** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **LRC Editor** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SuvMusic** — Observado / activo
+- **LosslessCut Android / Lossless Video Cut** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Semitone** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AuraMusic** — Confirmado por repositorio y metadatos públicos
+- **NewPipe** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FastLyrics** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **LibreCuts** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Flux - Movies, Shows & Anime local player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Acoustic** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Metronome (toc2)** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Linthra** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Öffi Sounds** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Phocid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **NFC Radio** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Tryptify** — Confirmado por repositorio y metadatos públicos
+- **TuneFriend** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **K-19 Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Vanilla Music** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Vinyl Music Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **DialogMusicPlayer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Lyrion Dashboard** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Audio Spectrum Analyzer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Jiyi** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Podcini.A - Extensible media instrument** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Podcini.X - Podcast instrument** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **UT.urn - YouTube facilitator for Podcini.A** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **XMRPod** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **youtube-dl Android library** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **CaptureCap** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **yt-dlp** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Yuzono extensions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **InnerTune** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MonsterMusic** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Symphony** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Classical Music Tagger** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Classical Music Scanner** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Opus 1 Music Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SAF Media Scanner** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Unpopular Music Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Foldio** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SicMu Player** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AirheadWaves** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Ultrasonic** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **net.sourceforge.kid3** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **net.sourceforge.kid3** — Identidad registrada; consulta la fuente primaria antes de usarla
+## Servidores, autoalojamiento y nube personal (74 fichas)
+
+- **com.atharok.btremote** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **de.qwerty287.ftpclient** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Dartotsu** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **mobile-app** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SFTP-SAF** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FilePipe: Auto Files Organizer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **net.christianbeier.droidvnc_ng** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **liser** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **EasySSHFS** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.chiller3.basicsync** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.chiller3.rsaf** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Convx** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AniyomiCompatExtension** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AirBeats** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Jellyfin Plugin Wholphin** — Confirmado por repositorio y metadatos públicos
+- **io.github.deprec8.enigmadroid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **phlix-hub** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **LocalTube** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Solid Share** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Ephyra** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.seafile.seadroid2** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **fr.hellpc.mirror** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **muplay** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **makaw** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Animite** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **HomeLabSetup** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Infomaniak kDrive** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.nslabs.ir_blaster** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OtakuWorld** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Findroid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.daemon.ssh** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **dragon-store** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **anikku** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Koofr Vault** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **tech.lolli.toolbox** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **lunarr-client** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **mcp-telegram-cloud** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **yomikiru** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.mkulesh.onpc** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Moonfin Core** — Confirmado por repositorio y metadatos públicos
+- **jiyu** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **passthrough-theater** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Omnis** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Neko** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Round Sync - Rclone for Android** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Nextcloud** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Watchbox-Android** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **eu.opencloud.android** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OpenCloud** — Observado / activo
+- **com.owncloud.android** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Parson** — Observado / activo
+- **Pelagica** — Confirmado por repositorio y metadatos públicos
+- **photonne** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PlainApp** — Observado / activo
+- **jellyplay** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **cs-repos** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Dashboarr** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Syncthing-Fork** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.roozbehzarei.filester** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Nekoyomi** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MegaRepo** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.standardnotes** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **kurumi** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **takeout** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **takeout_app** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.amaze.filemanager** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **timschneeb/changelog-awesome-shizuku** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **YAACC** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Rapunzel** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Octo** — Confirmado por repositorio y metadatos públicos
+- **LocalViewer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.atharok.btremote** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **us.spotco.ir_remote** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.matt.outfield** — Identidad registrada; consulta la fuente primaria antes de usarla
+## Android, sistema, Root y Shizuku (197 fichas)
+
+- **Accrescent** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AniDB** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AniList** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **IzzyOnDroid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Internet Archive** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.briarproject.briar.android** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.briarproject.briar.android** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.briarproject.mailbox** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **F-Droid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **F-Droid Multimedia** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.briarproject.mailbox** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **5rahim/seanime** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **btools.routingapp** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **no_more_background** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SAI** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SmartIsland** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ahmed-alnassif/AndroSH** — Confirmado por repositorio y metadatos públicos
+- **Aidoku/Aidoku** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Hail** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **EnforceDoze** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AmanoTeam/Kahon** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MagiskModuleManager** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **aniyomiorg/aniyomi** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **project_mythara** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Paperize** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **DarQ Reborn** — Confirmado por repositorio y metadatos públicos
+- **C9** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Awesome Selfhosted** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **smartdock** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PixelFlasher** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **bikram-agarwal/ObtainX** — Confirmado por repositorio y metadatos públicos
+- **OwnDroid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **APatch** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Buge-App-Manager** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Grayscaler** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **fr.free.nrw.commons** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **amply** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **sdmaid-se** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **RebootNya** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **KillMyApps** — Confirmado por repositorio y metadatos públicos
+- **AXMLPrinter** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **aShellYou** — Confirmado por repositorio y metadatos públicos
+- **Droid-ify** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **UpgradeAll** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AutoRotate** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Fold_Switcher** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **elhizazi1/ShizuCoreFetch** — Confirmado por repositorio y metadatos públicos
+- **PCAPdroid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SelfLock** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **deskcontrol** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ADNS** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **fdroidclient** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FelipeGFA/extensoes** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FlareSolverr/FlareSolverr** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **florisboard** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **File-Manager** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.fedorahosted.freeotp** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FreezeYou** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FreshRSS** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **scrcpy** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **GlassOnTin/Haven** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **gotson/komga** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Inure** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Peristyle** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **HaoweiLi97/mihon_img_upscale** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **HayaiApp/hayai** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **HeliBoard** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Hotaro26/miko** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Dhizuku** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Obtainium** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Smart-Edge** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **itkach.aard2** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Jellyfin for Android TV** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **jettwado6-sketch/shizuku-modules** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **android-display-extend** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ADB-and-FastbootPlusPlus** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Android-Show-Taps** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **kagenihisomi/manga-image-translator** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Kavita** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **keiyoushi/extensions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **KeyMapper** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AmbientMusicMod** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Smartspacer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SmartspacerPlugins** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **TapTap** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Kiwix** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **KolbyML/Manatan** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **komikku-app/komikku** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Calibre** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **komi-store** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ZenFile** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **lawnchair** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Extendroid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ShizuTools** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **blocker** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **LinkSheet** — Confirmado por repositorio y metadatos públicos
+- **Hamburger** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **XFiles** — Confirmado por repositorio y metadatos públicos
+- **LSPosed** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **NetGuard** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ColorBlendr** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Adaptive-Hz** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.MarcosDiez.shareviahttp** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MagicDesk** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **mihonapp/mihon** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **miru-project/miru-app** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Miyomi** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **BatStats** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Fluffy** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Kvaesitso** — Observado / activo
+- **OmniPrompt** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MDPC** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **YoukiDEX** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **muzei** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **nardjes5/kumo-surreal** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Dextop** — Confirmado por repositorio y metadatos públicos
+- **Neo-Launcher** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Neo Store** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Nextcloud Photos** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Zafiro** — Confirmado por repositorio y metadatos públicos
+- **null2264/yokai** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **CarrierVanityName** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Nyora-Manga/nyora-mihon** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **island** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Open Source Android Apps** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **openboard** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OpenMinis/OpenMinis** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **pastiera** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **universal-installer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Shelter** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PhotoPrism** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **WidgetsPro** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **HIDHide Module** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Readrops** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **recloudstream/cloudstream** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **RootlessStore** — Observado / activo
+- **Magisk de RikkaApps (derivado)** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Shizuku** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Sui** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AppControl-X** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **VSCodroid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **rokku-app/rokku** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Essentials** — Confirmado por repositorio y metadatos públicos
+- **Canta** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PI** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Schnitzel5/ApkBridge** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **NFile** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **network.loki.messenger.fdroid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FireWall Blocks** — observed
+- **PackageManager** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Snd-R/Komelia** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Appteka** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Harbor** — Confirmado por repositorio y metadatos públicos
+- **Suwayomi/Suwayomi-Server** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Suwayomi/Suwayomi-Tsumiru** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **tachibana-shin/hoyomi** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Team Win Recovery Project (repositorio de soporte)** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **termux-app** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Shizuku+** — Observado / activo
+- **KernelSU** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **de.marmaro.krt.ffupdater** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **GitHub Topics manga-reader** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Magisk** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **tracker-control-android** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Thor** — Confirmado por repositorio y metadatos públicos
+- **tympanicblock61/mangayomi-extensions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AFWall+** — Observado / activo
+- **ShortsBlocker** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **universal-android-debloater-next-generation** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **unseensnick/Reikai** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Language-Selector** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Sentry File Manager** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PackageInstaller** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **wahonlabs/Wahon** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ScreenOff** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **InstallerX-Revived** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **sleep-timer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Adaptive-Theme** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **XArchiver** — Confirmado por repositorio y metadatos públicos
+- **yomihon/yomihon** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **WallYou** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ShizukuShortcuts** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **yuzono/anime-extensions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **yuzono/cursed-manga-extensions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **InstallWithOptions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Tweaker** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MaterialFiles** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Aurora Store** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **F-Droid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **player.efis.data.zar.aus** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **player.efis.pfd.ink** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Fennec F-Droid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **player.efis.data.zar.aus** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Open Library** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Openverse** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Fennec F-Droid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Project Gutenberg** — Identidad registrada; consulta la fuente primaria antes de usarla
+## Privacidad, seguridad y respaldo (12 fichas)
+
+- **ShizuWall** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Aether** — observed
+- **NetToggle** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **de1984** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **IPTV-org playlist collection** — observed
+- **wifi-password-manager** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Hostman** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Gito** — Observado / activo
+- **OpenDesign** — Observado / activo
+- **sing-box** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **delta** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **android** — Identidad registrada; consulta la fuente primaria antes de usarla
+## Productividad y accesibilidad (22 fichas)
+
+- **Aegis** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **memhogs-android** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **curbox-android** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Mindwtr** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Etar-Calendar** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **DetoxDroid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Calendar** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Notes** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Haven** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **uhabits** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **krude** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **localsend** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Flint** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ReTerminal** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **TaskManager** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **aShell** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **tasks** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **thunderbird-android** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Pensum** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **rish-mcp** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Open-AutoGLM-Android** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **shappky** — Identidad registrada; consulta la fuente primaria antes de usarla
+## Extensiones, fuentes y parsers (11 fichas)
+
+- **Awerkori/extensoes** — Observado / activo
+- **Awerkori/fonte-extensoes** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Yūzōnō manga publication repository** — Confirmado por repositorio y metadatos públicos
+- **manga-repo** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **UMA** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Unyo-Extensions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **extensions-source** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **mojuru/cursed-manga-repo** — Confirmado por repositorio y metadatos públicos
+- **HayasexShiru-Extensions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **tadami-extensions** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **tadami-extensions-source** — Identidad registrada; consulta la fuente primaria antes de usarla
+## Bibliotecas, metadatos y organización (104 fichas)
+
+- **PhotoChiotte** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PhotoSwooper** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.example.muzei.muzeiartvee** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Glyfen** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Kompact Image Compressor** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Image Compressor** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.akslabs.circletosearch** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Chitralaya CloudGallery App** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Tulsi Gallery** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FadCam** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Valv** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Photo Editor** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SpaceBeam** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Pocket Paint** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Metadata Remover** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **psychphinder** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PiPixiv** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Offline Translator** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Aves Libre** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Sentinel Lens** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Muzei - Bing Image of the Day** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Android IP Camera** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Panoramicon** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Slideshow Wallpaper** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Vector Camera** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **shezik/DrawAnywhere** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Drawpile** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MakeACopy** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Ente Photos - Open source, end-to-end encrypted al** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ente-io/ente** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Fossify Camera Beta** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Fossify Gallery** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Fossify Paint Beta** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Watermarking** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MemeTastic** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ReFra** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **IacobIonut01/Gallery** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Libre Camera** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.jairaj.janglegmail.motioneye** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OW Camera 2 For Pebble** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.jshobbysoft.cameraalign** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **gov.anzong.androidnga** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **LLCrop (loss less)** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Lavender Photos** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Open 100x** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FreeDcam** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **app.motionui.android** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ComfyChair** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Photok** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Butterfly** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Video Diary** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Pixiv-MultiPlatform** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Materializr** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OpenVine** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OpenPhotoFrame** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.app.geotagvideocamera** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **MMRL** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ONVIF Camera** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.github.msx80.retrodrawing** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **org.totschnig.ocr.tesseract** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **romannurik/muzei** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **IPCam Demo** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **io.github.pastthepixels.freepaint** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AnDraw** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PicGuard** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **eu.pretix.pretixscan.droid** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.example.muzei.muzeiapod** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Memories: Photo Management for Nextcloud** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FairScan – PDF Scanner** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Gallery for PhotoPrism** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Otoscope** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Miroji** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Les Pas - Photo Album for Nextcloud** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Secluso** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SnapSafe** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Sketching (PFA)** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **DrawAnywhere** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **TIDY Text-to-Image Discovery** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **SmartScan** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Stingle Photos** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **OCR** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **CameraFileCopy** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Image Toolbox** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **T8RIN/ImageResizer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Frame Extractor** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **PicCollage** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Tessella** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **TimeLapse** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **LaBLEr** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Tux Paint** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Pix-EzViewer** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Websocket CAM** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.github.vauvenal5.yaga** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **VES - Image and Photo Compare** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Quotes - Quotes Status Creator** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **com.vladpen.cams** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **TimeLapseCam** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Wolf Gallery** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Datamosh** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Souvenirs** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Magnifica** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Shots Studio** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **LegacyPhotoFrame** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Open Camera** — Identidad registrada; consulta la fuente primaria antes de usarla
+## Desarrollo, terminales y redes (14 fichas)
+
+- **Operit** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **Cosmic-IDE** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ManageSensors** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **LogFox** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **llama.cpp** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **AndroidLowLevelDetector** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **LibChecker** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **FrameX-Android** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **mlc-llm** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **CurrentActivity** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **ActivityManager** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **wireless-adb-switch** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **debuggable-app-data-backup** — Identidad registrada; consulta la fuente primaria antes de usarla
+- **DSU-Sideloader** — Identidad registrada; consulta la fuente primaria antes de usarla
+## El cuidado que conviene traer (21 fichas)
+
+- **AnimeFlow** — fuente primaria comprobada el `2026-08-29`
+- **NEXUS** — fuente primaria comprobada el `2026-08-29`
+- **Now in Android** — fuente primaria comprobada el `2026-08-29`
+- **Greet & Grow** — fuente primaria comprobada el `2026-08-29`
+- **Flocon** — fuente primaria comprobada el `2026-08-29`
+- **Suicang EH** — fuente primaria comprobada el `2026-08-29`
+- **Meshtastic Android** — fuente primaria comprobada el `2026-08-29`
+- **MusicGrabber** — fuente primaria comprobada el `2026-08-29`
+- **Koharia** — fuente primaria comprobada el `2026-08-30`
+- **Booru** — fuente primaria comprobada el `2026-08-30`
+- **SyncDroid-Mesh** — fuente primaria comprobada el `2026-08-30`
+- **SU IMD** — fuente primaria comprobada el `2026-08-30`
+- **Vyxel Apps** — fuente primaria comprobada el `2026-08-30`
+- **RootlessViPER4Android** — fuente primaria comprobada el `2026-08-30`
+- **Shevery** — fuente primaria comprobada el `2026-08-30`
+- **WinHub** — 
+- **GZDoom-Android-2026** — 
+- **BooruNova** — 
+- **Gabi** — 
+- **WizeStream** — 
+- **Vector Framework** — 
+
+---
+Total: 1029 fichas. Fuente para los lotes 21–74 (Mapa de la Biblioteca).

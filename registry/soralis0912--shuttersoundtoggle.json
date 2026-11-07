@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-08",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-10-08"
+ },
+ "descripcion": "Toggle the enforced camera shutter sound through Shizuku",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/soralis0912--shuttersoundtoggle.json",
+  "sha256": "3723456aa94fc60165b2d0213c12e09324ffc075de3de2f23eb1236b6931668a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "soralis0912--shuttersoundtoggle",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "nota": "Texto leído el 2026-11-03: 1296 caracteres sin firma de licencia libre conocida ni cláusula de reserva de derechos. Queda citado el archivo y pendiente de lectura humana.",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 38,
+  "stars_por_mes": null
+ },
+ "nombre": "ShutterSoundToggle",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "dd07cab33f043d13127cf9931eb741592b228639",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:dd07cab33f043d13127cf9931eb741592b228639"
+ },
+ "repo": "soralis0912/ShutterSoundToggle"
+}

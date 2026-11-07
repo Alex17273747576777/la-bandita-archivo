@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-04"
+ },
+ "descripcion": "An app for manga and anime",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/crixsz--aniyomi-kotlin.json",
+  "sha256": "2406e76827439521effb9b3646a01146b8c930005a78b88198e3501a5f874c1a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "crixsz--aniyomi-kotlin",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "aniyomi-kotlin",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3bc7e7d898f5e353a67af2f2a7c1c984de12e844",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3bc7e7d898f5e353a67af2f2a7c1c984de12e844"
+ },
+ "repo": "crixsz/aniyomi-kotlin"
+}

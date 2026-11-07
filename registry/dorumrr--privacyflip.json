@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-09-23",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-27"
+ },
+ "descripcion": "Stop leaking data and being tracked when your phone is locked. Automatic lock/unlock privacy control for rooted Android devices 🔐📱✨",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dorumrr--privacyflip.json",
+  "sha256": "89a8008743f9d51fe21e7794b46b63be4b65619a13bbfcf4e51559557c8750e1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dorumrr--privacyflip",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 322,
+  "stars_por_mes": null
+ },
+ "nombre": "privacyFlip",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5c3f5c0087d2f6be28c56825569ba483d3120292",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:5c3f5c0087d2f6be28c56825569ba483d3120292"
+ },
+ "repo": "dorumrr/privacyFlip"
+}

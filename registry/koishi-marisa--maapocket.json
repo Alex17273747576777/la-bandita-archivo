@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-03",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "在 Android 设备上原生运行 MaaFramework 的多游戏自动化宿主（崩坏：星穹铁道 / 绝区零 / 明日方舟：终末地）",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/koishi-marisa--maapocket.json",
+  "sha256": "d8aa1c12a7d9f3c9e906264f24b41112dea2a11f69d1bea2bcf8048b44419ab1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "koishi-marisa--maapocket",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "MaaPocket",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e001b30d85926cfa0759be3578ed2465976459fa",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:e001b30d85926cfa0759be3578ed2465976459fa"
+ },
+ "repo": "Koishi-Marisa/MaaPocket"
+}

@@ -1,0 +1,210 @@
+{
+ "generado": "mapa-canon.py (determinístico; sin reloj — la fecha vive en el registro del taller)",
+ "piezas": {
+  "TRATADO": {
+   "fuente": {
+    "archivo": "TRATADO.md",
+    "bytes": 1243241,
+    "sha16": "580fcd21c339617c"
+   },
+   "envase": {
+    "archivo": "TRATADO-envase-XHTML-2026-10-10.xhtml",
+    "bytes": 1523239,
+    "sha16": "301b32b8ae31cdbd"
+   },
+   "encabezados": 759,
+   "h1": 53,
+   "slug_dead_fuente": [],
+   "slug_dead_envase": [],
+   "reparacion": [],
+   "fechas_iso": [
+    "2026-02-10",
+    "2026-08-19",
+    "2026-08-30",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-10",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-20",
+    "2026-09-22",
+    "2026-12-08",
+    "2026-12-10"
+   ],
+   "marcadores": {
+    "propuesta": 60,
+    "pendiente": 153,
+    "informativo": 5
+   }
+  },
+  "MANUAL": {
+   "fuente": {
+    "archivo": "MANUAL-COMPLETO.md",
+    "bytes": 564552,
+    "sha16": "e958ef0e35f59fb3"
+   },
+   "envase": {
+    "archivo": "MANUAL-COMPLETO-envase-XHTML-2026-10-10.xhtml",
+    "bytes": 627674,
+    "sha16": "9b2b15fb938d4288"
+   },
+   "encabezados": 122,
+   "h1": 9,
+   "slug_dead_fuente": [],
+   "slug_dead_envase": [],
+   "reparacion": [],
+   "fechas_iso": [
+    "2026-02-10",
+    "2026-08-19",
+    "2026-09-10",
+    "2026-09-20",
+    "2026-09-22",
+    "2026-12-08"
+   ],
+   "marcadores": {
+    "propuesta": 3,
+    "pendiente": 91,
+    "informativo": 0
+   }
+  },
+  "LECCIONES": {
+   "fuente": {
+    "archivo": "LECCIONES-ALEXIS.md",
+    "bytes": 31790,
+    "sha16": "89b700fdce25ce22"
+   },
+   "envase": {
+    "archivo": "LECCIONES-ALEXIS-envase-XHTML-2026-10-10.xhtml",
+    "bytes": 68323,
+    "sha16": "10c27b7ff8593742"
+   },
+   "encabezados": 27,
+   "h1": 1,
+   "slug_dead_fuente": [],
+   "slug_dead_envase": [],
+   "reparacion": [],
+   "fechas_iso": [
+    "2026-09-11",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-20",
+    "2026-09-22"
+   ],
+   "marcadores": {
+    "propuesta": 0,
+    "pendiente": 3,
+    "informativo": 0
+   }
+  },
+  "CIMIENTO": {
+   "fuente": {
+    "archivo": "CANON-CIMIENTO-V28sep.html",
+    "bytes": 22461,
+    "sha16": "f517f6b7b301d6bf"
+   },
+   "envase": {
+    "archivo": "CANON-CIMIENTO-envase-XHTML-2026-10-10.xhtml",
+    "bytes": 39678,
+    "sha16": "9bdff926c95497fe"
+   },
+   "encabezados": 19,
+   "h1": 1,
+   "slug_dead_fuente": [],
+   "slug_dead_envase": [],
+   "reparacion": [
+    {
+     "muerto": "erratas",
+     "estado": "sin-candidato"
+    },
+    {
+     "muerto": "ops",
+     "estado": "sin-candidato"
+    },
+    {
+     "muerto": "pillars",
+     "estado": "sin-candidato"
+    },
+    {
+     "muerto": "puerta",
+     "estado": "sin-candidato"
+    }
+   ]
+  },
+  "COMPENDIO": {
+   "fuente": {
+    "archivo": "COMPENDIO-INTEGRAL-LibroE-V26sep.html",
+    "bytes": 17948,
+    "sha16": "07830c49e685aa16"
+   },
+   "envase": {
+    "archivo": "COMPENDIO-INTEGRAL-envase-XHTML-2026-10-10.xhtml",
+    "bytes": 37332,
+    "sha16": "7800d0b2d4af83d0"
+   },
+   "encabezados": 9,
+   "h1": 1,
+   "slug_dead_fuente": [],
+   "slug_dead_envase": [],
+   "reparacion": []
+  }
+ },
+ "espejos_T_M": [
+  {
+   "art": "*-191",
+   "titulo": "Artículo 191. Descubrimiento no es verificación",
+   "cuerpo": "idéntico"
+  },
+  {
+   "art": "*-192",
+   "titulo": "Artículo 192. Jerarquía ampliada de fuentes",
+   "cuerpo": "diverge"
+  },
+  {
+   "art": "*-205",
+   "titulo": "Artículo 205. Verificación de enlaces",
+   "cuerpo": "diverge"
+  },
+  {
+   "art": "*-243",
+   "titulo": "Artículo 243. El grado del receptor",
+   "cuerpo": "idéntico"
+  },
+  {
+   "art": "*-244",
+   "titulo": "Artículo 244. Registro de solicitudes externas",
+   "cuerpo": "idéntico"
+  },
+  {
+   "art": "*-245",
+   "titulo": "Artículo 245. Uso real, unicidad y no linaje",
+   "cuerpo": "idéntico"
+  },
+  {
+   "art": "*-246",
+   "titulo": "Artículo 246. Espejo no es proyecto",
+   "cuerpo": "idéntico"
+  },
+  {
+   "art": "*-247",
+   "titulo": "Artículo 247. Proporción de señal",
+   "cuerpo": "diverge"
+  },
+  {
+   "art": "N-201",
+   "titulo": "Art. N-201. Cómo usar estas fichas",
+   "cuerpo": "idéntico"
+  },
+  {
+   "art": "N-701",
+   "titulo": "Art. N-701. Checklists de conformidad",
+   "cuerpo": "idéntico"
+  }
+ ],
+ "enlaces_entre_piezas": 0
+}

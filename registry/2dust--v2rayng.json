@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2019-05-15",
+  "semantica_http": 200,
+  "ultima_release": "1.0.0",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "A V2Ray client for Android, support Xray core and v2fly core",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/2dust--v2rayng.json",
+  "sha256": "58123ec579ead7e7643b809e4f132ea567826db3bfc0be7f1d692814bef29770"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "2dust--v2rayng",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 65238,
+  "stars_por_mes": null
+ },
+ "nombre": "v2rayNG",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "57907cf354d9769200ed4717b4430d605abe0952",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:57907cf354d9769200ed4717b4430d605abe0952"
+ },
+ "repo": "2dust/v2rayNG",
+ "web": "https://v2rayng.2dust.link"
+}

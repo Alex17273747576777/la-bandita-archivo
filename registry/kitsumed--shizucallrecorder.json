@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-05-18",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "ShizuCallRecorder empowers ADB through Shizuku to record phone calls on non-rooted device!",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kitsumed--shizucallrecorder.json",
+  "sha256": "7c55a739394d24e2ec8299dd1a8e74a4927d79e22f2c15335657ea3d8519ec48"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kitsumed--shizucallrecorder",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1989,
+  "stars_por_mes": null
+ },
+ "nombre": "ShizuCallRecorder",
+ "piezas": [
+  "12-",
+  "92-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4db9c1fe690f49cf37f5a7fd16b0f91dd4a3104e",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4db9c1fe690f49cf37f5a7fd16b0f91dd4a3104e"
+ },
+ "repo": "kitsumed/ShizuCallRecorder"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-08-26",
+  "semantica_http": 200,
+  "ultima_release": "V1.0",
+  "ultimo_push": "2026-10-28"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/woheller69--freedroidwarn.json",
+  "sha256": "f5a96d16b43a23ba9fc5d766997c0b9e60cbfc1beae626479ca73b169d898ce1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "woheller69--freedroidwarn",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3741,
+  "stars_por_mes": null
+ },
+ "nombre": "FreeDroidWarn",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "de9875962ce530191ab6bf94255bd7d537f5fc3f",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:de9875962ce530191ab6bf94255bd7d537f5fc3f"
+ },
+ "repo": "woheller69/FreeDroidWarn"
+}

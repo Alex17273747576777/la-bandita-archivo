@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-02-20"
+ },
+ "descripcion": "Hitori is a fork of Kotatsu-Redo.  |  Manga reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/feli19honk-pixel--hitori.json",
+  "sha256": "7bc73ad8af0581db26f28e8938ea5131ab94834df95f50a16a756fdbd4ab4d26"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "feli19honk-pixel--hitori",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Hitori",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f43f40da0e4790d5e55c5842a6d3295ac736c2b2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f43f40da0e4790d5e55c5842a6d3295ac736c2b2"
+ },
+ "repo": "feli19honk-pixel/Hitori"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-02"
+ },
+ "descripcion": "Hayai is a fork of Yōkai, which itself is a fork of TachiyomiJ2K and Mihon (form",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hiirbaf--hayai.json",
+  "sha256": "f86007850bcddcd2fa1ab90a7aeac953e067785b647545830412ec20bee0cb9b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hiirbaf--hayai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "hayai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "82c6ceb39dfd8d4024759881d75b4e4d863314b0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:82c6ceb39dfd8d4024759881d75b4e4d863314b0"
+ },
+ "repo": "Hiirbaf/hayai"
+}

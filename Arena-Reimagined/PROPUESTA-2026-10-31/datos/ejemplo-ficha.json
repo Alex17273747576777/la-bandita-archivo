@@ -1,0 +1,49 @@
+{
+  "id": "ollama-ollama",
+  "repo": "ollama/ollama",
+  "nombre": "Ollama",
+  "descripcion": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "web": "https://ollama.com",
+  "medido_en": "2026-10-29",
+  "fuente": {
+    "primaria": "github-api",
+    "secundarias": [
+      "ecosyste.ms",
+      "software-heritage"
+    ],
+    "metodo": "GET /repos/ollama/ollama con token; campos medidas en la respuesta del dia"
+  },
+  "licencia": {
+    "spdx": "MIT",
+    "metodo": "spdx-api",
+    "verificado_en": "2026-10-29",
+    "archivo": "LICENSE"
+  },
+  "actividad": {
+    "ultimo_push": "2026-10-29",
+    "estado": "vivo",
+    "semantica_http": 200,
+    "ultima_release": "v0.40.13",
+    "release_en": "2026-10-28"
+  },
+  "merito": {
+    "stars": 185239,
+    "stars_por_mes": null,
+    "scorecard": null,
+    "scorecard_en": null
+  },
+  "procedencia": {
+    "swhid": null,
+    "commit": null,
+    "atestacion": null
+  },
+  "evidencia": {
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "payload_ref": "actas/medicion-2026-10-29/ollama-ollama.json",
+    "nota": "hash de ejemplo: se sustituye al sellar la hornada real"
+  },
+  "piezas": [
+    "61-La-mente-propia-Ollama-la-IA-de-la-casa"
+  ],
+  "frescura_dias": 2
+}

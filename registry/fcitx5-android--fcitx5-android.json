@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2022-11-16",
+  "semantica_http": 200,
+  "ultima_release": "0.0.3",
+  "ultimo_push": "2026-10-13"
+ },
+ "descripcion": "Fcitx5 input method framework and engines ported to Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/fcitx5-android--fcitx5-android.json",
+  "sha256": "57ba210e7455225d72f1b2921f4a23eafeb01c212705e0b6ec74930c2ea9349f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "fcitx5-android--fcitx5-android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "LGPL-2.1",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 5833,
+  "stars_por_mes": null
+ },
+ "nombre": "fcitx5-android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "eb5b50216e70484a009933d9519db76005f1faf3",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:eb5b50216e70484a009933d9519db76005f1faf3"
+ },
+ "repo": "fcitx5-android/fcitx5-android",
+ "web": "https://fcitx5-android.github.io/"
+}

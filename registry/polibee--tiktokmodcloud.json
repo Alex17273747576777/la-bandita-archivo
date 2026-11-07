@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-07"
+ },
+ "descripcion": "Automated archive of TikTok Mod and Plugin APK files from TikTokModCloud. This r",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/polibee--tiktokmodcloud.json",
+  "sha256": "460f4b27ed0986edf3036edb63bea3dc4f2e2767d4c0920ee2fe9e7f1a559b2d"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "polibee--tiktokmodcloud",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "tiktokmodcloud",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3b49b347fe7379936f9bef3472f5f0e80c078fb2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3b49b347fe7379936f9bef3472f5f0e80c078fb2"
+ },
+ "repo": "polibee/tiktokmodcloud"
+}

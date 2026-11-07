@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2021-12-01",
+  "semantica_http": 200,
+  "ultima_release": "v6.0.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "安卓平台 JavaScript 自动化工具 (Auto.js 二次开发项目)",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/supermonster003--autojs6.json",
+  "sha256": "31279cd43e41df3a6af19216d0b8f0d6166008db1add1bed9ed8a2c04498cc72"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "supermonster003--autojs6",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 6571,
+  "stars_por_mes": null
+ },
+ "nombre": "AutoJs6",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b95b98b339c56ab12ba20b279d2b998eb6e2778c",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b95b98b339c56ab12ba20b279d2b998eb6e2778c"
+ },
+ "repo": "SuperMonster003/AutoJs6",
+ "web": "https://docs.autojs6.com"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-24"
+ },
+ "descripcion": "Model Context Protocol Servers",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/cazador0--mcp-servers.json",
+  "sha256": "ff646f0e4105b04b971e57f63f6b8acc8babf990b16c3a808bb1efd3ae511c98"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "cazador0--mcp-servers",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mcp-servers",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d31124c982401739917fd817c2a59db344529c16",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d31124c982401739917fd817c2a59db344529c16"
+ },
+ "repo": "Cazador0/mcp-servers"
+}

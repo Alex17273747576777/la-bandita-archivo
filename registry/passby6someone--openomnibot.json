@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-09"
+ },
+ "descripcion": "你的端侧 AI 助手 || 或者你也可以叫她 OOB！她可以操作终端，也可以完成 Android 世界的广泛任务",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/passby6someone--openomnibot.json",
+  "sha256": "6697199f51ddf47c6a632be2e74f94d5e2089ca8638390f697eec00da70d3b0a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "passby6someone--openomnibot",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OpenOmniBot",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3de3d38dd21662b1aed90a6be6634b744ca97064",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3de3d38dd21662b1aed90a6be6634b744ca97064"
+ },
+ "repo": "passby6someone/OpenOmniBot"
+}

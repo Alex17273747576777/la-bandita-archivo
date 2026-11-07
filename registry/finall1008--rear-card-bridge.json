@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-19",
+  "semantica_http": 200,
+  "ultima_release": "v0.2.1",
+  "ultimo_push": "2026-10-25"
+ },
+ "descripcion": "Android bridge for live-updating Xiaomi rear-screen Canvas cards.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/finall1008--rear-card-bridge.json",
+  "sha256": "4bb33f259e8bc82a3096aee62b355171ca3df536d9647d3841be6fee0802cc9e"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "finall1008--rear-card-bridge",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 7,
+  "stars_por_mes": null
+ },
+ "nombre": "rear-card-bridge",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7600019cba8506ff149446c9f17761c69ad386f7",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:7600019cba8506ff149446c9f17761c69ad386f7"
+ },
+ "repo": "finall1008/rear-card-bridge"
+}

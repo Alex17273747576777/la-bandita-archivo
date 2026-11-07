@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-09-29"
+ },
+ "descripcion": "🎦 Use the Android app to watch anime on your phone without ads and with the best streaming quality available.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kl3jvi--animity.json",
+  "sha256": "c932acef431c92122b78a041800fd579b4b32035af3cfb419f91e2face2018fe"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kl3jvi--animity",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1134,
+  "stars_por_mes": null
+ },
+ "nombre": "animity",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "60359058b82937fec8d70fb94c4b84acb22d9a4b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:60359058b82937fec8d70fb94c4b84acb22d9a4b"
+ },
+ "repo": "kl3jvi/animity"
+}

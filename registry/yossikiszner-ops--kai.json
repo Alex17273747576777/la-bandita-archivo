@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-26"
+ },
+ "descripcion": "OpenClaw alternative in your pocket",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/yossikiszner-ops--kai.json",
+  "sha256": "a82618e8e39d194fbcd576f1cd23c9f2d80ea83857af9b16bb314b0f8d582368"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yossikiszner-ops--kai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Kai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "27c4218ca809273cc51add381e5c60b234f93a2f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:27c4218ca809273cc51add381e5c60b234f93a2f"
+ },
+ "repo": "yossikiszner-ops/Kai"
+}

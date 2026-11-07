@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-19"
+ },
+ "descripcion": "这是一个基于QEMU的安卓虚拟机应用。",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/zunyuange--vectras-vm-android.json",
+  "sha256": "f10450dacfb8d9fd5cd41169cb46699170ab319fbf6fc17e0507d3d75381a614"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zunyuange--vectras-vm-android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Vectras-VM-Android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "812b850a791994a14b22a61fad5f029a85ad7e0a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:812b850a791994a14b22a61fad5f029a85ad7e0a"
+ },
+ "repo": "zunyuange/Vectras-VM-Android"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "muerto",
+  "release_en": null,
+  "semantica_http": 404,
+  "ultima_release": null,
+  "ultimo_push": "2025-08-06"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#FlorenceLeaf/yokai-nightly",
+  "sha256": "f63700bdac8acae5dc1d82df541db57054af88ea989797301d8f8b6a2cb94bd8"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-10-15",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-11-14",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "florenceleaf--yokai-nightly",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": null,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "yokai-nightly",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0ae9d7fabe872ce4f9646bd362764389eee5d952",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:0ae9d7fabe872ce4f9646bd362764389eee5d952"
+ },
+ "repo": "FlorenceLeaf/yokai-nightly"
+}

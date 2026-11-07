@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-08",
+  "semantica_http": 200,
+  "ultima_release": "models-v1",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "On-device manga-translation engine — detection, OCR and text removal all on NCNN (CPU, no ONNX Runtime), translation via cloud LLM. Any source/target language pair (default Japanese→Traditional Chinese). Kotlin · the engine behind the Yakuyomi reader.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/joyeli--yakuyomi-engine.json",
+  "sha256": "5820e9bfdcf0edf01ed5bdc2596bae985d0560328224314d3608ad1103cef71e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "joyeli--yakuyomi-engine",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 8,
+  "stars_por_mes": null
+ },
+ "nombre": "yakuyomi-engine",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "fa7913a96bfefd8041fe8f1c64e613c00e1793ae",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:fa7913a96bfefd8041fe8f1c64e613c00e1793ae"
+ },
+ "repo": "joyeli/yakuyomi-engine"
+}

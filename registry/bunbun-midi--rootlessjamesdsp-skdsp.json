@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-27",
+  "semantica_http": 200,
+  "ultima_release": "v1",
+  "ultimo_push": "2026-10-27"
+ },
+ "descripcion": "RootlessJamesDSP fork with new features: speed shifting live, pitch shifters, floating record buttons, two recorders, effects reordering, bpm display, and a compressor.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/bunbun-midi--rootlessjamesdsp-skdsp.json",
+  "sha256": "f881c40b886db58921d01badd1013ad103a01c8e6121b6f6e152d747757ec9da"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "bunbun-midi--rootlessjamesdsp-skdsp",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "RootlessJamesDSP-SKDSP",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a90352552980e48720befc87cd3a5758c63cc4ef",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a90352552980e48720befc87cd3a5758c63cc4ef"
+ },
+ "repo": "bunbun-midi/RootlessJamesDSP-SKDSP"
+}

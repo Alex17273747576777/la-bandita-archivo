@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2024-05-06",
+  "semantica_http": 200,
+  "ultima_release": "1.0.1",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Materialious is a modern material design frontend for YouTube & Invidious, focused on a clean, privacy-friendly YouTube experience. It supports local video fallback when Invidious fails and is available on Web, Desktop, Android, and Android TV.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/materialious--materialious.json",
+  "sha256": "d1dca86af47d8d18d57e9bfae2ddf93f5d875eb3bdf7006be2f6a87a10af5981"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "materialious--materialious",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1237,
+  "stars_por_mes": null
+ },
+ "nombre": "Materialious",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9a1f10633c7d3b9204cf9f706d4c02736feebc07",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:9a1f10633c7d3b9204cf9f706d4c02736feebc07"
+ },
+ "repo": "Materialious/Materialious",
+ "web": "https://materialio.us"
+}

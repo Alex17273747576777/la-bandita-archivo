@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-06-19"
+ },
+ "descripcion": "Free and open source manga reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/michel-gisenael--mihon-clone.json",
+  "sha256": "48dcb925e56b6bb8be0abe5391afc8110bf8e841264563f16f94a7af681ff509"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "michel-gisenael--mihon-clone",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mihon-clone",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3b8ed3059ad1e54aef597155b40f2e3fe1b25c4f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3b8ed3059ad1e54aef597155b40f2e3fe1b25c4f"
+ },
+ "repo": "Michel-Gisenael/mihon-clone"
+}

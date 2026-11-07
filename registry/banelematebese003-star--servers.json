@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-03-07"
+ },
+ "descripcion": "Model Context Protocol Servers",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/banelematebese003-star--servers.json",
+  "sha256": "66285daf476d0aa866b816942b2905d04bde3049c5100bee7c423d0e3e93b0f5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "banelematebese003-star--servers",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "servers",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a97aba19eb218bedd37ae19c27893ee6659f1555",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a97aba19eb218bedd37ae19c27893ee6659f1555"
+ },
+ "repo": "banelematebese003-star/servers"
+}

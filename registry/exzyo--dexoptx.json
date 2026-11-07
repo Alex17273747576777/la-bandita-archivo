@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-18",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "Universal AOT Bytecode Compiler for Android (S24 Ultra) and Android TV (Nvidia Shield Pro) using Shizuku API",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/exzyo--dexoptx.json",
+  "sha256": "8ed51580fd4f1d828fd6ab474fb52bbc52e6be45531ad7f1556f4094a9e922fa"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "exzyo--dexoptx",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "DexOptX",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9f88f42d1388b4730fd2be865b7434cb8bf7b3a5",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:9f88f42d1388b4730fd2be865b7434cb8bf7b3a5"
+ },
+ "repo": "ExZyO/DexOptX"
+}

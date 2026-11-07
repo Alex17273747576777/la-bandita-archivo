@@ -1,0 +1,56 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-05-31",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.2",
+  "ultimo_push": "2026-10-22"
+ },
+ "descripcion": "Free and open source anime watcher for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/komikku-app--anikku.json",
+  "sha256": "25a951049b1a1a5d4e90985c61d5d7333ac952dd5e7ef8f3a4d9c3a62fc36276"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "komikku-app--anikku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1128,
+  "stars_por_mes": null
+ },
+ "nombre": "anikku",
+ "piezas": [
+  "11-",
+  "14-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "6e35b41f0cc7e375d15527bd61375435f998685a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:6e35b41f0cc7e375d15527bd61375435f998685a"
+ },
+ "repo": "komikku-app/anikku",
+ "web": "https://anikku-app.github.io"
+}

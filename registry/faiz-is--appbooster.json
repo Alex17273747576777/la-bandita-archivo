@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-03-08"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/faiz-is--appbooster.json",
+  "sha256": "57fa2590f344738ac6b6dc3190ab40a7f41f1abd02ae1702dfa75da17971d234"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "faiz-is--appbooster",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "appbooster",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "182206fd5b4b77696ec1c0dbe69b65abc59402dc",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:182206fd5b4b77696ec1c0dbe69b65abc59402dc"
+ },
+ "repo": "faiz-is/appbooster"
+}

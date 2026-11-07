@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-30",
+  "semantica_http": 200,
+  "ultima_release": "v1.1.0",
+  "ultimo_push": "2026-06-30"
+ },
+ "descripcion": "Android multi-tool powered by Shizuku/Dhizuku — debloat, tweak, debug, Linux sandbox terminal, and more",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/838288383838383--anytool.json",
+  "sha256": "74e8bcc6b23b3e272ceab642d569fe4219c5e6fc982479d8c0d2bbbfd2329b1b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "838288383838383--anytool",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 7,
+  "stars_por_mes": null
+ },
+ "nombre": "anytool",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3dfb58a1dd2d09bd26470c2fc846a9c6ce26fb1f",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:3dfb58a1dd2d09bd26470c2fc846a9c6ce26fb1f"
+ },
+ "repo": "838288383838383/anytool"
+}

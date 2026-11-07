@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-24"
+ },
+ "descripcion": "Experimental IDE for building Android applicatons on Android.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/theankitk--codeassist-compose.json",
+  "sha256": "3e811d54542923d7346cdcb5bc93f5072db0d3e2324beb0fe03647a8e700f5f4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "theankitk--codeassist-compose",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "CodeAssist-Compose",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "20722fda1caf15e9e0384683063e9ec03bc071a4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:20722fda1caf15e9e0384683063e9ec03bc071a4"
+ },
+ "repo": "theAnkitK/CodeAssist-Compose"
+}

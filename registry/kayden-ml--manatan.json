@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-01-26"
+ },
+ "descripcion": "A 1 click solution for reading Manga with OCR'ed textboxs,  works seamless with",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kayden-ml--manatan.json",
+  "sha256": "8d4295aa486b2354d0586acee0321fdd81fa2458a8308fc8cd3901f420eb2e1d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kayden-ml--manatan",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Manatan",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "79d99c762383aaec9806716c4d29f311cf6359cf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:79d99c762383aaec9806716c4d29f311cf6359cf"
+ },
+ "repo": "Kayden-ML/Manatan"
+}

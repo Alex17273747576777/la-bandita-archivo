@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-22",
+  "semantica_http": 200,
+  "ultima_release": "preview-2",
+  "ultimo_push": "2026-10-17"
+ },
+ "descripcion": "自重进阶 v1.0.0｜Android 自重训练 App：188 个动作、训练记录与进阶统计",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kyirejson--calisthenics-app.json",
+  "sha256": "57a3b5d227a8c1c7f20dbfd4347fa00f22e14a0e03cd2b1e131eabce559587bc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kyirejson--calisthenics-app",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "calisthenics-app",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ba2d25a4a6e336f6f453bb2dabf5a7c2da683f3b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:ba2d25a4a6e336f6f453bb2dabf5a7c2da683f3b"
+ },
+ "repo": "kyirejson/calisthenics-app",
+ "web": "https://github.com/kyirejson/calisthenics-app/releases/latest"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2020-12-20",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "A simple, rational music player for android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/oxygencobalt--auxio.json",
+  "sha256": "e54aeaf8de63fa6f6f7ed00c3508dacba21f09e792c2834374df7bc53c98929a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "oxygencobalt--auxio",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 4418,
+  "stars_por_mes": null
+ },
+ "nombre": "Auxio",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f243bceab0b55fdae7462723a3d14e7eec21a432",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:f243bceab0b55fdae7462723a3d14e7eec21a432"
+ },
+ "repo": "OxygenCobalt/Auxio"
+}

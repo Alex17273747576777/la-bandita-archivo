@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-28"
+ },
+ "descripcion": "Manga, Novel, and Video reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/soaringwinds--kototoro.json",
+  "sha256": "b13174dea8cf2ac1eca5ed65e91dd9e86fc46bff6aa1a2b1d35cc9bfdae841d7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "soaringwinds--kototoro",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Kototoro",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5e44e00831060747bf4fe2e684745357b863c130",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5e44e00831060747bf4fe2e684745357b863c130"
+ },
+ "repo": "SoaringWinds/Kototoro"
+}

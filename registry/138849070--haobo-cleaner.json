@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-24",
+  "semantica_http": 200,
+  "ultima_release": "v0.2.0",
+  "ultimo_push": "2026-10-24"
+ },
+ "descripcion": "颢博清理｜安卓存储清理工具，SAF 授权免 root 读取 Android/data，GPL-3.0",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/138849070--haobo-cleaner.json",
+  "sha256": "0638f5c34278d5e5f7fceb868e7e308ca9f94733bb6ad8120d81d95f839bf738"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "138849070--haobo-cleaner",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "haobo-cleaner",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "937583ec1f8643cb0749efc77c28f561becc2d56",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:937583ec1f8643cb0749efc77c28f561becc2d56"
+ },
+ "repo": "138849070/haobo-cleaner"
+}

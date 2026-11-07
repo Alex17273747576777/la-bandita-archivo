@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2016-01-04",
+  "semantica_http": 200,
+  "ultima_release": "0.14b",
+  "ultimo_push": "2023-04-28"
+ },
+ "descripcion": "Material Design Music Player",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/naman14--timber.json",
+  "sha256": "b67dfffec6d7c01031e88777522b1fa1b29d7327f327e0d62b9011edab7f2cd1"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "naman14--timber",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 7036,
+  "stars_por_mes": null
+ },
+ "nombre": "Timber",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b53a7d54682e100acaefb41cd181b40f5db59f64",
+  "swh_estado": "archivada",
+  "swh_solicitud": "b53a7d54682e100acaefb41cd181b40f5db59f64",
+  "swhid": "swh:1:rev:b53a7d54682e100acaefb41cd181b40f5db59f64"
+ },
+ "repo": "naman14/Timber"
+}

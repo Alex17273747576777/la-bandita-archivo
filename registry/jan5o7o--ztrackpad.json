@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-26",
+  "semantica_http": 200,
+  "ultima_release": "v0.1",
+  "ultimo_push": "2026-10-08"
+ },
+ "descripcion": "So7o Z Trackpad: Floating trackpad + pointer, floating windows picker, an on-screen keys panel, and a virtual display you can see and drive - for Android, built on-device in Termux on a Galaxy Z Fold 4. Designed for Foldables. Needs Shizuku.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jan5o7o--ztrackpad.json",
+  "sha256": "639e865d0750196ae3e282498cc10f70f919726e7599cdbdb6ec5a550706876b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jan5o7o--ztrackpad",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "ztrackpad",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4801276eae5d0b1549a471f59225647f16626b87",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4801276eae5d0b1549a471f59225647f16626b87"
+ },
+ "repo": "jan5o7o/ztrackpad"
+}

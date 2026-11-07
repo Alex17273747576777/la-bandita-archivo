@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-02"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/dakingeman--obtainx-handheld.json",
+  "sha256": "79609654e2cea331c807eeb713fe3086301f7e080412f592ebd75233f3b24cee"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dakingeman--obtainx-handheld",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "obtainx-handheld",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "44cc27ee1bad010a67fdb8cc89165f1a75b89c8e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:44cc27ee1bad010a67fdb8cc89165f1a75b89c8e"
+ },
+ "repo": "dakingeman/obtainx-handheld"
+}

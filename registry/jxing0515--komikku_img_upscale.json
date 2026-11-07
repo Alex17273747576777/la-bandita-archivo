@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-20",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-08-22"
+ },
+ "descripcion": "komikku_img_upscale",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/jxing0515--komikku_img_upscale.json",
+  "sha256": "baa6fd1abf71af053363fa4bdbaca93a770dead02433583a2349fa72a65ebc4e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jxing0515--komikku_img_upscale",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "komikku_img_upscale",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2ff80ac9e597be28f5cdccca5e7135752609da73",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2ff80ac9e597be28f5cdccca5e7135752609da73"
+ },
+ "repo": "jxing0515/komikku_img_upscale"
+}

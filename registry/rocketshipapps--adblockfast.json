@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2015-09-03",
+  "semantica_http": 200,
+  "ultima_release": "c0.1.0",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Adblock Fast is a faster ad blocker for Windows, Android, iOS, Chrome, and Opera.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/rocketshipapps--adblockfast.json",
+  "sha256": "3dec96ed43016e9935e3bc2ccf2fb2ed1f8d8e15a000c5c408d587d6105b3007"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rocketshipapps--adblockfast",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 786,
+  "stars_por_mes": null
+ },
+ "nombre": "adblockfast",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4b9d5c345c25d5e5f2e5089d2851e1b0f129df88",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4b9d5c345c25d5e5f2e5089d2851e1b0f129df88"
+ },
+ "repo": "rocketshipapps/adblockfast",
+ "web": "https://adblockfast.com/"
+}

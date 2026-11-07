@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-25"
+ },
+ "descripcion": "AnimeZe an android anime /manga/manhwa app",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/gamerfreefire5099-collab--animeze.json",
+  "sha256": "b6bb89c0f381c772cee183f4790372a27bfff8a8008a4d0f055d2ab43668c651"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "gamerfreefire5099-collab--animeze",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "AnimeZe",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e57000c62d383f713d356c153fe9219823985f6e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e57000c62d383f713d356c153fe9219823985f6e"
+ },
+ "repo": "gamerfreefire5099-collab/AnimeZe"
+}

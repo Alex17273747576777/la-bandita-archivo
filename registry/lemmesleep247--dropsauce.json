@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-17",
+  "semantica_http": 200,
+  "ultima_release": "v0.9.3",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "A light, beautiful manga reading app designed with Jetpack Compose and M3 Expressive that works with mihon extensions.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/lemmesleep247--dropsauce.json",
+  "sha256": "e48a56b92d34902986cccd5d6a5fed55a3e0b3bc0b7def2a623b6caa685096bd"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lemmesleep247--dropsauce",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "DropSauce",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "33f642c2eb44624a154b2612c6f5d8e30641f802",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:33f642c2eb44624a154b2612c6f5d8e30641f802"
+ },
+ "repo": "lemmesleep247/DropSauce",
+ "web": "https://drop-sauce.app/"
+}

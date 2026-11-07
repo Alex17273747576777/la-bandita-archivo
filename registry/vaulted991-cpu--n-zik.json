@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-28"
+ },
+ "descripcion": "A multilingual YouTube Music frontend for Android, focused on UI, UX, and featur",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/vaulted991-cpu--n-zik.json",
+  "sha256": "0edfcf8ed26d623920edf7a52457c9500f80e02ea050860984907d8216aabc4c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "vaulted991-cpu--n-zik",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "N-Zik",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2e36602556a2c17636f8e3ae005fd22a031ee7f7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2e36602556a2c17636f8e3ae005fd22a031ee7f7"
+ },
+ "repo": "vaulted991-cpu/N-Zik"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-09",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "A manga reader with on-device AI translation — a mihon fork powered by yakuyomi-engine: detection, OCR and text removal run on device (all NCNN, CPU), translation via cloud LLM. Any source/target language pair, bring your own key.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/joyeli--yakuyomi.json",
+  "sha256": "a82cb48c8140cb6965d7423a568da48fd5a0fd1cb5b3ce78c951081987eeb3ba"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "joyeli--yakuyomi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 34,
+  "stars_por_mes": null
+ },
+ "nombre": "Yakuyomi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f8c3a8c906521c7d9f04c1ab57f0fdd1555a2c35",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:f8c3a8c906521c7d9f04c1ab57f0fdd1555a2c35"
+ },
+ "repo": "joyeli/Yakuyomi"
+}

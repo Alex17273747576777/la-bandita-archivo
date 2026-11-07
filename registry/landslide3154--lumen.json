@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-13",
+  "semantica_http": 200,
+  "ultima_release": "lumen-v1.14.1.17",
+  "ultimo_push": "2026-10-26"
+ },
+ "descripcion": "Lumen · 安卓漫画阅读器（Komikku 的 fork）：SyncYomi v2 多设备同步、Komga 增量书库更新、中文界面补全。Android ma",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/landslide3154--lumen.json",
+  "sha256": "4fab03a6bd1b1204e8246248c0c0598046974c38e499b5092ce37d490de1cf10"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "landslide3154--lumen",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Lumen",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "95e05daaf2e8f3d78f76a1c1df442cd4ca2b5d7a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:95e05daaf2e8f3d78f76a1c1df442cd4ca2b5d7a"
+ },
+ "repo": "Landslide3154/Lumen"
+}

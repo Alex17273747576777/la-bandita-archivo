@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-04",
+  "semantica_http": 200,
+  "ultima_release": "release",
+  "ultimo_push": "2026-10-06"
+ },
+ "descripcion": "Opensource FPS Meter for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/fortifying--droidperf.json",
+  "sha256": "e9bd317fa5d4c454187f9bc92302bad0751d2f11b716b3550253cb52d06f086f"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "fortifying--droidperf",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 14,
+  "stars_por_mes": null
+ },
+ "nombre": "DroidPerf",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9735aa2b1c0b7a4d8d516687a64148ac90c9914d",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:9735aa2b1c0b7a4d8d516687a64148ac90c9914d"
+ },
+ "repo": "fortifying/DroidPerf"
+}

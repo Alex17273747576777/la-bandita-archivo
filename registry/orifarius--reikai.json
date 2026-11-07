@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-06"
+ },
+ "descripcion": "One library for manga and light novels. A free and open source reader for Androi",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/orifarius--reikai.json",
+  "sha256": "8e9f6bf2204a70d623daaae7f0ce4e6e8c99d6bbdc45cb5df9b40be454bd7803"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "orifarius--reikai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Reikai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "365c397b42d4418abd26161b60b85c863aceb6a2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:365c397b42d4418abd26161b60b85c863aceb6a2"
+ },
+ "repo": "Orifarius/Reikai"
+}

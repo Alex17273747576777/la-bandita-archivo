@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-21"
+ },
+ "descripcion": "Catalog of open-source Android applications that use the Shizuku permission fram",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/dawood333--yuki.json",
+  "sha256": "b64218506daa391eb3ac37238cb097ee1615907c6173e1d3e8b746563d2c95e0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dawood333--yuki",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "yuki",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "cd0c957c904767544d37671b111f7e564e1d3586",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:cd0c957c904767544d37671b111f7e564e1d3586"
+ },
+ "repo": "dawood333/yuki"
+}

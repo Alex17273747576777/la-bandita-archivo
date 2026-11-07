@@ -1,0 +1,75 @@
+{
+ "id": "localsend",
+ "nombre": "LocalSend",
+ "repo": "localsend/localsend",
+ "autores": [
+  {
+   "nombre": "LocalSend y sus colaboradores",
+   "enlace": "https://localsend.org"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/localsend/localsend/blob/main/LICENSE"
+ },
+ "nivel": "principiante",
+ "tarea": "Pasar archivos y mensajes entre el teléfono, la computadora y la tableta por la red de la casa, sin cuenta, sin servidor y sin que nada salga a internet.",
+ "capitulo": 7,
+ "orden": 1,
+ "para_quien": {
+  "es": "para quien manda fotos y documentos a sus propios aparatos y está cansado de pasar por un servicio de mensajería que las recompone y las reduce.",
+  "no_es": "para quien quiere que dos aparatos se mantengan iguales solos: eso es sincronizar y está en la ficha siguiente."
+ },
+ "manos": [
+  "Instalá la aplicación en los dos aparatos desde su repositorio o su tienda, y comprobá antes la descarga si la bajaste de GitHub.",
+  "Conectá los dos aparatos a la misma red —el mismo wifi, o el teléfono como punto de acceso para la computadora—.",
+  "Abrí la aplicación en los dos: cada uno aparece con un nombre y un icono; si no se ven, revisá que el wifi no esté aislando a los clientes.",
+  "Elegí un archivo, tocá el aparato de destino y aceptá del otro lado; la transferencia va directa, sin salir de la red.",
+  "Repetí la prueba con el wifi apagado y los datos móviles encendidos: no va a funcionar, y eso es exactamente lo que demuestra que nada salió de tu casa."
+ ],
+ "resultado_esperado": "El archivo llega intacto al otro aparato, con su nombre y su tamaño originales, y la transferencia se hizo sin internet y sin intermediarios.",
+ "si_sale_mal": [
+  "Si los aparatos no se ven, casi siempre es la red: muchos routers aíslan a los clientes del wifi, y el punto de acceso del teléfono suele funcionar mejor que la red de un hotel.",
+  "Si la transferencia se corta en archivos grandes, dejá las dos pantallas encendidas y la aplicación abierta: el sistema duerme el wifi cuando la pantalla se apaga.",
+  "Si el archivo llega con otro nombre, mirá el ajuste de nombre duplicado: no se sobrescribe nada, se agrega un sufijo."
+ ],
+ "deshacer": "No hay nada que deshacer: no modifica archivos, no sincroniza y no deja nada instalado en el sistema. Desinstalarla no afecta a ningún archivo tuyo.",
+ "cabeza": [
+  "LocalSend no tiene servidor. Cada aparato es a la vez cliente y servidor: al abrir la aplicación, escucha en un puerto de tu red y se anuncia; los demás aparatos de la red lo ven y le mandan el archivo directamente. Si no hay internet, funciona igual, porque no hay nada que consultar afuera.",
+  "La parte interesante es cómo protege eso. Cada instalación genera su propio certificado y lo presenta a los demás, así que lo que viaja va cifrado y el receptor puede comprobar que quien le manda es el mismo aparato de la vez anterior. De ahí que la primera vez pida confirmar y las siguientes no: está recordando una huella, igual que Android recuerda la firma de una aplicación.",
+  "Sus cifras explican por qué es la puerta de entrada de este capítulo: noventa y siete mil ciento noventa y nueve estrellas y **trece millones ciento noventa y nueve mil doscientas cuarenta y cuatro descargas** en sus diez últimas entregas. Es, con diferencia, el programa más bajado de toda la guía, y su trabajo es el más simple de todos: mover un archivo de un cuarto a otro."
+ ],
+ "limites": [
+  "Sólo funciona en la misma red: entre tu casa y la de un familiar necesita otra cosa.",
+  "No sincroniza ni respalda: mueve un archivo cuando se lo pedís, y ahí termina su trabajo.",
+  "En redes de hoteles, universidades y oficinas suele no funcionar, porque aíslan a los aparatos entre sí.",
+  "Con la pantalla apagada, el sistema puede dormir la conexión y cortar una transferencia grande."
+ ],
+ "oficio": {
+  "dato": "La aplicación escucha en un puerto concreto y habla cifrado con un certificado que ella misma generó. Eso se puede mirar sin instalar nada más: desde otra máquina de la red, una orden muestra el certificado que presenta el teléfono, con su fecha de creación y su huella. Es la misma comprobación del capítulo 4 —la huella dice quién es— aplicada a dos aparatos que se hablan por wifi. Y explica un comportamiento que desconcierta: si reinstalás la aplicación, o cambiás de teléfono, el certificado es nuevo y los demás aparatos te piden confirmar otra vez, porque la huella cambió. No es un fallo de seguridad: es la seguridad funcionando en voz alta.",
+  "como_comprobar": "Con la aplicación abierta en el teléfono, pedile a otra máquina de la red que se conecte a su puerto y muestre el certificado. Vas a ver a quién está emitido, cuándo se creó y con qué huella. Después reinstalá la aplicación y repetí: la huella es otra.",
+  "comando": "openssl s_client -connect 192.168.1.23:53317 </dev/null 2>/dev/null | openssl x509 -noout -subject -dates -fingerprint -sha256"
+ },
+ "riesgos": [
+  "Usar una red pública de wifi para transferir algo privado: aunque va cifrado, los aparatos de la red se ven entre sí y el nombre del archivo puede quedar a la vista de quien esté escuchando.",
+  "Confundir esta herramienta con una copia de seguridad: no guarda versiones de nada."
+ ],
+ "alternativas": [
+  "Catfriend1/syncthing-android",
+  "KDE/kdeconnect-android"
+ ],
+ "senal": {
+  "estrellas": 97317,
+  "nota": 47,
+  "edad_dias": 1419,
+  "ultima_entrega": "2026-08-21",
+  "descargas_10": 13234416,
+  "contribuyentes": 100,
+  "repo_mb": 22.4,
+  "ci": 5,
+  "incidencias": "892 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de LocalSend y sus colaboradores · Apache-2.0 · medido el 3 de noviembre de 2026"
+}

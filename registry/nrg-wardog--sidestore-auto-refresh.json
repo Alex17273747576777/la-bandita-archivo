@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-05",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "LiveContainer + embedded SideStore with native auto-refresh, official LocalDevVPN/CoreDevice transport, and guest Return controls. Free Apple Account; no PC during refresh. Standalone SideStore also available.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/nrg-wardog--sidestore-auto-refresh.json",
+  "sha256": "9537c854ff26e39c0b66a8fcf57a174196813570b19561128b71fa071c9278c2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nrg-wardog--sidestore-auto-refresh",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 172,
+  "stars_por_mes": null
+ },
+ "nombre": "sidestore-auto-refresh",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "50b33610136197e3a0976f03f9660603ba6cf737",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:50b33610136197e3a0976f03f9660603ba6cf737"
+ },
+ "repo": "NRG-Wardog/sidestore-auto-refresh"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-21",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-07-29"
+ },
+ "descripcion": "Download App Store apps and decrypt them into sideload-ready IPAs on Windows - no macOS, no WSL. Drives a connected jailbroken iPhone/iPad over USB.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/pwnapplehat--decrypta.json",
+  "sha256": "ae862b8aec88feac6b7ffbac65efa5acb87d96e92f723906df8131443ff0d200"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "pwnapplehat--decrypta",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 40,
+  "stars_por_mes": null
+ },
+ "nombre": "Decrypta",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "72374bc66f3afce446ce472ca3a87eeef3e27724",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:72374bc66f3afce446ce472ca3a87eeef3e27724"
+ },
+ "repo": "pwnapplehat/Decrypta"
+}

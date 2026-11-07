@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-27",
+  "semantica_http": 200,
+  "ultima_release": "v1.5",
+  "ultimo_push": "2026-08-13"
+ },
+ "descripcion": "Kotlin 编写的开源 Android 文件管理器",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/artzhu86--zhufiler.json",
+  "sha256": "9337b6c2934719d59ae1b5d210a94ae3007b8a12d433ca308a23d75b8e918049"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "artzhu86--zhufiler",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 29,
+  "stars_por_mes": null
+ },
+ "nombre": "ZhuFiler",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3445f2be438f052769089841779d2bca21c68005",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:3445f2be438f052769089841779d2bca21c68005"
+ },
+ "repo": "Artzhu86/ZhuFiler",
+ "web": "zhufiler.netlify.app"
+}

@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-06-01",
+  "semantica_http": 200,
+  "ultima_release": "v.1.0.0-T820",
+  "ultimo_push": "2026-10-03"
+ },
+ "descripcion": "GammaOS Next. Android 14 GSI distribution tailored for handheld gaming consoles. ",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/thegammasqueeze--gammaosnext.json",
+  "sha256": "86d83f5de136d05ebdd8f935b47879ee2e5e37a07ad3ea47f0ffe5b494c58508"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "thegammasqueeze--gammaosnext",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 689,
+  "stars_por_mes": null
+ },
+ "nombre": "GammaOSNext",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3ed709a29b26625f8cd52f98e164c98acb609beb",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:3ed709a29b26625f8cd52f98e164c98acb609beb"
+ },
+ "repo": "TheGammaSqueeze/GammaOSNext",
+ "web": "https://github.com/TheGammaSqueeze/GammaOSNextDistribution-14"
+}

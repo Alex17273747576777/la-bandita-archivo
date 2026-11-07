@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-11",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "Clean, fast, and current setedit implementation.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kerneldroid--seteditplus.json",
+  "sha256": "0cb4f7c94ecad948e5c3ff8fde4be992f048952763ea0b125091f7ff16de98be"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kerneldroid--seteditplus",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 56,
+  "stars_por_mes": null
+ },
+ "nombre": "SetEditPlus",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "290417753055d505b36f6e2c2574346b6a15a53b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:290417753055d505b36f6e2c2574346b6a15a53b"
+ },
+ "repo": "kerneldroid/SetEditPlus"
+}

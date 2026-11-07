@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-17",
+  "semantica_http": 200,
+  "ultima_release": "runtime-assets-20260917",
+  "ultimo_push": "2026-10-29"
+ },
+ "descripcion": "Open-source Android AI agent for app automation, web browsing and file workflows. Bring your own model; extend with plugins, skills and MCP.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dollarser--helix-agent.json",
+  "sha256": "a4b67d78c7ff4a97f60fa7bdfe84876751f405e2f6b0e3c45578735c4a2ec689"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dollarser--helix-agent",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "helix-agent",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c205aa6872dbf0deddbabfbb02b444549c80c767",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c205aa6872dbf0deddbabfbb02b444549c80c767"
+ },
+ "repo": "dollarser/helix-agent"
+}

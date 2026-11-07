@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-04",
+  "semantica_http": 200,
+  "ultima_release": "v0.0.1",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "一间小房子，让喜欢的角色住进 Android。开源桌宠，集悬浮人偶、AI 聊天与记忆管理于一体。房子是载体，角色才是主角。",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/farewell-coder--dollhouse.json",
+  "sha256": "60eb257ff164b95a107097ef50a719d15afdaab01d7522cd2de41a872cf92727"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "farewell-coder--dollhouse",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 14,
+  "stars_por_mes": null
+ },
+ "nombre": "Dollhouse",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "fbefa08135e4818e24bbf65209098db948edc0e2",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:fbefa08135e4818e24bbf65209098db948edc0e2"
+ },
+ "repo": "Farewell-coder/Dollhouse",
+ "web": "https://github.com/Farewell-coder/Dollhouse/releases/latest"
+}

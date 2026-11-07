@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-05"
+ },
+ "descripcion": "An app for manga and anime",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/theidleman90--aniyomi.json",
+  "sha256": "598f9c7e2533eb0b80ee0fc45d191936450186c3de99d016c4bb82349d656bd3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "theidleman90--aniyomi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "aniyomi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1b9f0ef86eb8290894785816c5224de1002558ea",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1b9f0ef86eb8290894785816c5224de1002558ea"
+ },
+ "repo": "theidleman90/aniyomi"
+}

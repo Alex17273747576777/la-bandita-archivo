@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-07",
+  "semantica_http": 200,
+  "ultima_release": "v2.6",
+  "ultimo_push": "2026-10-26"
+ },
+ "descripcion": "Advanced power calibration and energy tuning utilities for the Samsung Galaxy S24 series",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mich-de--samsung_s24_battery_life.json",
+  "sha256": "72b02981893fe26e377018fc8b4b9e8e4c6ab556d1c188ad1a90d2aa2673de68"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mich-de--samsung_s24_battery_life",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "samsung_s24_battery_life",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9155cf574555b2f128cfc34eadff465261af5964",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:9155cf574555b2f128cfc34eadff465261af5964"
+ },
+ "repo": "mich-de/samsung_s24_battery_life"
+}

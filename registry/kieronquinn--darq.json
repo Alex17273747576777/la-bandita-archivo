@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2020-02-05",
+  "semantica_http": 200,
+  "ultima_release": "1.2",
+  "ultimo_push": "2023-09-01"
+ },
+ "descripcion": "DarQ provides a per-app selectable force dark option for Android 10 and above",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kieronquinn--darq.json",
+  "sha256": "952ea6b76a4a4729e2f440db910ef08253759f109418bdf8dfddaae7f6293db5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "kieronquinn--darq",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1676,
+  "stars_por_mes": null
+ },
+ "nombre": "DarQ",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e058b4230575288ac06f7c7fd2a6c4cc6daae108",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:e058b4230575288ac06f7c7fd2a6c4cc6daae108"
+ },
+ "repo": "KieronQuinn/DarQ"
+}

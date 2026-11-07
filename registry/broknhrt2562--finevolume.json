@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-29",
+  "semantica_http": 200,
+  "ultima_release": "1.0",
+  "ultimo_push": "2026-09-29"
+ },
+ "descripcion": "Fine-grained Android volume controller with customizable volume resolution, separate app volumes, per-stream controls, Shizuku support, and a Pixel-style volume panel.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/broknhrt2562--finevolume.json",
+  "sha256": "bb59f4d229bd782f928ebf207070ec86c8774aff1015c87be98398bfd956f1ff"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "broknhrt2562--finevolume",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 34,
+  "stars_por_mes": null
+ },
+ "nombre": "finevolume",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0b45a1daa7f2736fd41c2002cb1f770eafeffba7",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:0b45a1daa7f2736fd41c2002cb1f770eafeffba7"
+ },
+ "repo": "broknhrt2562/finevolume"
+}

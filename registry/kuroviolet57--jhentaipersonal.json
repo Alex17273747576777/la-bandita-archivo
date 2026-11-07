@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-27"
+ },
+ "descripcion": "A cross-platform manga app made for e-hentai & exhentai by Flutter",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kuroviolet57--jhentaipersonal.json",
+  "sha256": "522e5511d72a4f596cf41b471917cb26658f21b0f0d939e8e803a031c7bbda9b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kuroviolet57--jhentaipersonal",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "JHenTaiPersonal",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "dd76378f2a578bfe19d1bfa2fce36a2238a2d64b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:dd76378f2a578bfe19d1bfa2fce36a2238a2d64b"
+ },
+ "repo": "KuroViolet57/JHenTaiPersonal"
+}

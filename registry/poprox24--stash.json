@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-01",
+  "semantica_http": 200,
+  "ultima_release": "v0.9.42",
+  "ultimo_push": "2026-06-01"
+ },
+ "descripcion": "Your Spotify + YouTube Music library & daily mixes. Stream or download in lossle",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/poprox24--stash.json",
+  "sha256": "ae009e6f13bc3b8acd6cc01c74ab58ec2c86bd0b91cfc38802041f9f8d078872"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "poprox24--stash",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Stash",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "40e27dbccb47b8763b37cb6bf1466dac8f9ea99a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:40e27dbccb47b8763b37cb6bf1466dac8f9ea99a"
+ },
+ "repo": "poprox24/Stash"
+}

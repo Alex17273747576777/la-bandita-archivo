@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2025-10-06",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2025-10-26"
+ },
+ "descripcion": "An Android app that allows you to turn on your hotspot remotely via Bluetooth - think Apple Continuity, but for everyone!",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/easyspotapp--easyspot.json",
+  "sha256": "1879760cf71bdb80d70d4d16ae7da6125365d714d661bc40d99a99bea7943f01"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "easyspotapp--easyspot",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 56,
+  "stars_por_mes": null
+ },
+ "nombre": "EasySpot",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "de8d4a06dd441f73a585a62b4f35d3bb010754ff",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:de8d4a06dd441f73a585a62b4f35d3bb010754ff"
+ },
+ "repo": "EasySpotApp/EasySpot"
+}

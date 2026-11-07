@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-25",
+  "semantica_http": 200,
+  "ultima_release": "build-1",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "Installs and updates the Tintloom apps, silently with Shizuku or root",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/shoalapps--shoal.json",
+  "sha256": "2734e60ace057b40d51b2dfb04d6febbf439f4481b51978d965d2048a685bb7f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "shoalapps--shoal",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "shoal",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5f9b0f89a336390b92cb182ba53b333858e6d5b3",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:5f9b0f89a336390b92cb182ba53b333858e6d5b3"
+ },
+ "repo": "ShoalApps/shoal",
+ "web": "https://tintloom.github.io"
+}

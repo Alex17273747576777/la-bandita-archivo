@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-09"
+ },
+ "descripcion": "OpenClaw alternative in your pocket",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/frezzybuilds--kai2.json",
+  "sha256": "d56213f26389fd022b7bf93f8011857628cb060ee923dbfdffd7985a0905a98e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "frezzybuilds--kai2",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "Kai2",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8da26553ad1c1c1ad0c4576330402e514fb48df7",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:8da26553ad1c1c1ad0c4576330402e514fb48df7"
+ },
+ "repo": "FreZZyBuilds/Kai2",
+ "web": "https://kai9000.com/"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-04"
+ },
+ "descripcion": "Android video and audio downloader built on yt-dlp. Paste a URL, see every forma",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/vaimalaviya1233--hazel.json",
+  "sha256": "af0a30d235e67f1ad0d83b4b7f64edcfa301a4dc3287a13b0b721e9e7a953a5b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "vaimalaviya1233--hazel",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Hazel",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b6388f7b5f856b21ebfe40a3876717982e3205b4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b6388f7b5f856b21ebfe40a3876717982e3205b4"
+ },
+ "repo": "vaimalaviya1233/Hazel"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-11",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-08-11"
+ },
+ "descripcion": "A quick settings tile that switches between portrait and landscape without turning your phone.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/verisonder--manualrotate.json",
+  "sha256": "ab2a8d38ba181e5312ecfa9603329b6e13bd8e6c0e7bde63ccbbca4f6d121e88"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "verisonder--manualrotate",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 6,
+  "stars_por_mes": null
+ },
+ "nombre": "ManualRotate",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4c864fa2cb31c019dcbc3261b006282aa04cc81d",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4c864fa2cb31c019dcbc3261b006282aa04cc81d"
+ },
+ "repo": "Verisonder/ManualRotate"
+}

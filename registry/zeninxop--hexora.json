@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-09",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.1",
+  "ultimo_push": "2026-10-17"
+ },
+ "descripcion": "Hexora — an open-source Android dual-pane file manager with ZIP/APK tools, a built-in editor, and customizable light and dark themes.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zeninxop--hexora.json",
+  "sha256": "ff478b94436cec44ca7bc053fbb1ea10a362d310283d991a295c322f833cf8d7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zeninxop--hexora",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 28,
+  "stars_por_mes": null
+ },
+ "nombre": "Hexora",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "bdc51ff423f8b7d8ca4e6938d2a1147f9af2a5fd",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:bdc51ff423f8b7d8ca4e6938d2a1147f9af2a5fd"
+ },
+ "repo": "ZENINXOP/Hexora"
+}

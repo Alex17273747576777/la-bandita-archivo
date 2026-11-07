@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-17",
+  "semantica_http": 200,
+  "ultima_release": "v0.0.1",
+  "ultimo_push": "2026-10-28"
+ },
+ "descripcion": "Natural-language automation for Android: the LLM compiles, a deterministic engine executes. Tasker-class, optional Shizuku.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jackrushante--argus.json",
+  "sha256": "bf03d9eefe3d77c1d94323958c0841f65b1c2f793623cf5466e7799b966c44d4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jackrushante--argus",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 43,
+  "stars_por_mes": null
+ },
+ "nombre": "argus",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a34f5a58cbedbae36b68d43a2a15abf1d8b18556",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a34f5a58cbedbae36b68d43a2a15abf1d8b18556"
+ },
+ "repo": "JackRushante/argus"
+}

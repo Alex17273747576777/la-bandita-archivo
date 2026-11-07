@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2024-04-09",
+  "semantica_http": 200,
+  "ultima_release": "0.16.4",
+  "ultimo_push": "2026-07-11"
+ },
+ "descripcion": "Just another fork of a free and open source manga reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/alzhahirdev--mihonsync.json",
+  "sha256": "235f06e325fa09c799a520a108c79d64f1f668dda06bb7947e7642a0dfb2e416"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "alzhahirdev--mihonsync",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mihonsync",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f9af0c0d51db61d49120f1c31b8204f597ea8fda",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f9af0c0d51db61d49120f1c31b8204f597ea8fda"
+ },
+ "repo": "alzhahirdev/mihonsync"
+}

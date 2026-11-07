@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-05-06"
+ },
+ "descripcion": "Example Model Context Protocol Servers",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/moesif--example-mcp-servers.json",
+  "sha256": "7312d92e4e48cf01a6c693afc3ec415527b140ef9d4efb997efc93ca2c896599"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "moesif--example-mcp-servers",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "example-mcp-servers",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "547f488992f4f3a266b1c66081767aa676d2f48f",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:547f488992f4f3a266b1c66081767aa676d2f48f"
+ },
+ "repo": "Moesif/example-mcp-servers",
+ "web": "https://modelcontextprotocol.io"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-03-31"
+ },
+ "descripcion": "Usagi source code.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/farahbyy--usagi.json",
+  "sha256": "749adf13b0d9173318c6bb187e424e364236f1f3f371cda78ead45fb4649e229"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "farahbyy--usagi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Usagi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "19511720495d6c251daf046113ca99a9af22d4f4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:19511720495d6c251daf046113ca99a9af22d4f4"
+ },
+ "repo": "farahbyy/Usagi"
+}

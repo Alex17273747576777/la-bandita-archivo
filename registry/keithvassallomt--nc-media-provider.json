@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-04",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-10-22"
+ },
+ "descripcion": "Your Nextcloud photo library in Android's system photo picker, via CloudMediaProvider. Not affiliated with Nextcloud GmbH.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/keithvassallomt--nc-media-provider.json",
+  "sha256": "4461ab2bd89ce30d57ccb5c0e0ad8aefd2b7fb27d571586ca9d05c5f40d7ac75"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "keithvassallomt--nc-media-provider",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "nc-media-provider",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d02e4602ab2fd85131496a246aea030c5108c9e4",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d02e4602ab2fd85131496a246aea030c5108c9e4"
+ },
+ "repo": "keithvassallomt/nc-media-provider"
+}

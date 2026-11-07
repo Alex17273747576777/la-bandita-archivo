@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-18",
+  "semantica_http": 200,
+  "ultima_release": "v0.0.1",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "Free and open source novel reader for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/yuneko-dev--nekori.json",
+  "sha256": "baaefb81c20231d7a7565f176cacbf0e031caec427a4149b8e198071c8d7e618"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yuneko-dev--nekori",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 37,
+  "stars_por_mes": null
+ },
+ "nombre": "Nekori",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b752cb9d171aa8d942a0aa12e8c9117ac2fc95eb",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b752cb9d171aa8d942a0aa12e8c9117ac2fc95eb"
+ },
+ "repo": "Yuneko-dev/Nekori",
+ "web": "https://nekori.yuneko.dev"
+}

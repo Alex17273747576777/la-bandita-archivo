@@ -1,0 +1,75 @@
+{
+ "id": "pcapdroid",
+ "nombre": "PCAPdroid",
+ "repo": "emanuele-f/PCAPdroid",
+ "autores": [
+  {
+   "nombre": "Emanuele Faranda",
+   "enlace": "https://github.com/emanuele-f"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/emanuele-f/PCAPdroid/blob/master/COPYING"
+ },
+ "nivel": "experto",
+ "tarea": "Capturar el tráfico del teléfono y guardarlo en un archivo que se pueda abrir en una computadora, para demostrar —no suponer— qué mandó cada aplicación.",
+ "capitulo": 5,
+ "orden": 6,
+ "para_quien": {
+  "es": "para quien necesita pruebas: periodistas, gente que audita, o cualquiera que quiera responder con un archivo a la pregunta «¿esta aplicación envía mis datos?».",
+  "no_es": "para quien quiere bloquear anuncios todos los días: para eso sirven las cinco fichas anteriores, y esta consume más batería porque su trabajo es registrar, no filtrar."
+ },
+ "manos": [
+  "Bajá la APK de la última entrega y comprobá su huella como con cualquier otra; después dale el permiso de red privada para que pueda crear el túnel.",
+  "Elegí el modo de captura y limitá el tiempo: dos minutos son suficientes para ver qué hace una aplicación al arrancar.",
+  "Abrí la aplicación que querés auditar y usala con normalidad durante la captura; si querés ver el detalle de una petición, activá el registro de conexiones antes de empezar.",
+  "Detené la captura y revisá la lista por aplicación: cada conexión aparece con el destino, el nombre del servidor cuando se puede leer y el volumen de datos.",
+  "Exportá el archivo de captura y abrilo en una computadora con las herramientas de siempre para tener la prueba completa, con marcas de tiempo."
+ ],
+ "resultado_esperado": "Tenés un archivo de captura con las conexiones de la aplicación auditada, con destinos, nombres y minutos exactos, que se puede abrir fuera del teléfono y compartir como prueba.",
+ "si_sale_mal": [
+  "Si la captura sale vacía, revisá que el túnel esté activo durante la prueba: sin túnel no hay nada que registrar.",
+  "Si el archivo no se abre en la computadora, comprobá que hayas exportado el formato clásico y no uno de los formatos de pago.",
+  "Si querés capturar mientras otra aplicación de red privada está activa, hace falta root; sin root sólo hay un túnel y esta captura lo ocupa."
+ ],
+ "deshacer": "Detener la captura deshace el túnel y devuelve el teléfono al estado anterior. Los archivos exportados quedan donde los guardes, y conviene borrarlos si contienen datos de sesiones personales.",
+ "cabeza": [
+  "PCAPdroid hace con el teléfono lo que se hace en una red de oficina con un capturador: se pone en medio y copia lo que pasa. Simula un túnel local, no manda nada a ningún servidor, y guarda el resultado en el formato clásico de captura, el mismo que abren las herramientas de análisis de red de toda la vida. Eso es lo que lo convierte en instrumento de prueba y no en aplicación de uso diario.",
+  "Su función más delicada es la que descifra conexiones seguras: para ver el interior de una conexión cifrada hay que aceptar su certificado en el teléfono, y eso significa que el programa ve lo que ve la aplicación. Es una herramienta para auditar, no para convivir: quien la deja puesta todo el día con descifrado activo está entregando a una aplicación lo que se niega a entregar a otras.",
+  "Y su límite superior es el futuro del tema: hoy se pueden leer los nombres de los servidores porque viajan en la primera parte de la conexión segura. Cuando esa parte se cifre —la extensión que ya existe y se está desplegando—, el nombre desaparecerá también, y sólo quedarán las direcciones numéricas. La técnica que usan todas las fichas de este capítulo tiene fecha de caducidad parcial, y esta ficha es donde se puede ver."
+ ],
+ "limites": [
+  "Consume más batería que un filtro: su trabajo es registrar todo, no descartar lo que no sirve.",
+  "Sin root no puede capturar mientras otra aplicación de red privada ocupa el túnel.",
+  "Descifrar el contenido exige instalar su certificado, y eso rebaja la seguridad del teléfono mientras esté puesto.",
+  "El cortafuegos por dirección y la detección de conexiones maliciosas son funciones de pago."
+ ],
+ "oficio": {
+  "dato": "En una captura de tráfico cifrado hay una parte que sigue viajando en claro: el nombre del servidor al que te conectás, que la conexión segura anuncia al principio para que el servidor sepa qué certificado mostrar. Por eso las herramientas de este capítulo pueden decirte «esta aplicación habló con este dominio» sin descifrar nada. Y por eso existe una extensión del protocolo que cifra justamente ese saludo inicial: cuando se generalice, el nombre dejará de estar en la captura y sólo quedarán direcciones. El efecto práctico será una asimetría: podrás seguir bloqueando por dirección y por aplicación, pero el registro didáctico —«tu aplicación habló con esta empresa»— se volverá mucho más difícil de obtener. Una captura hecha hoy vale como prueba; la misma captura dentro de unos años no dirá lo mismo, y saber esto es parte de saber lo que se está midiendo.",
+  "como_comprobar": "Exportá una captura corta y extraé de ella sólo los nombres consultados. Ese archivo de texto es la prueba que se puede discutir: dice qué nombres aparecieron mientras se usaba una aplicación concreta, con hora.",
+  "comando": "tshark -r captura.pcap -Y \"dns\" -T fields -e dns.qry.name | sort -u | head -40"
+ },
+ "riesgos": [
+  "Dejar la captura corriendo con descifrado activo y acumular datos privados en un archivo que después se comparte.",
+  "Instalar el certificado de descifrado y olvidarse de quitarlo: mientras esté, cualquier tráfico de ese teléfono puede ser leído por quien tenga la llave."
+ ],
+ "alternativas": [
+  "TrackerControl/tracker-control-android",
+  "celzero/rethink-app"
+ ],
+ "senal": {
+  "estrellas": 5083,
+  "nota": 48,
+  "edad_dias": 2494,
+  "ultima_entrega": "2026-09-20",
+  "descargas_10": 139409,
+  "contribuyentes": 64,
+  "repo_mb": 20.7,
+  "ci": 4,
+  "incidencias": "43 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de Emanuele Faranda · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

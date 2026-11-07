@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-12",
+  "semantica_http": 200,
+  "ultima_release": "v1.35.14-shizuku-clipboard",
+  "ultimo_push": "2026-10-12"
+ },
+ "descripcion": "KDE Connect Android with Shizuku-powered background clipboard sync on Android 10+ through a privileged service, while retaining upstream features and READ_LOGS fallback.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/batestinha--kdeconnect-android-shizuku.json",
+  "sha256": "b8833fb31a33183c150db6258831edba850c6f6a5d4f31151a1932ef6fb45228"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "batestinha--kdeconnect-android-shizuku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 13,
+  "stars_por_mes": null
+ },
+ "nombre": "kdeconnect-android-shizuku",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "488f3ddd84efc71a086f4c3229b1d5ca468e77ef",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:488f3ddd84efc71a086f4c3229b1d5ca468e77ef"
+ },
+ "repo": "Batestinha/kdeconnect-android-shizuku",
+ "web": "https://invent.kde.org/network/kdeconnect-android"
+}

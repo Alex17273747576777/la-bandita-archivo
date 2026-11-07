@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-01-26"
+ },
+ "descripcion": "An Open source app to download and read books from shadow library (Anna’s Archiv",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/snowboarddoctor-rgb--openlibextended.json",
+  "sha256": "72077fcb5923b2c89c83a57294e87d1a7115783e51643ab3fd09e07c8cb76b14"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "snowboarddoctor-rgb--openlibextended",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OpenlibExtended",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b48897517fed76f70453d392388d5c44a7afebdb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b48897517fed76f70453d392388d5c44a7afebdb"
+ },
+ "repo": "snowboarddoctor-rgb/OpenlibExtended"
+}

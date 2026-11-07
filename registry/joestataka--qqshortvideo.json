@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-02",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-09"
+ },
+ "descripcion": "浏览 QQ 短视频缓存目录：封面网格 + 播放 + 多选管理（Jetpack Compose，Shizuku/root）",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/joestataka--qqshortvideo.json",
+  "sha256": "7444c9a1ddfccece76cbc4ab96aba44e1d72d1dc0b36d2a47cc8968c1f2922d5"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "joestataka--qqshortvideo",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "QQShortVideo",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5c1d57450ed5fac0cb900f25e2a7354392b71129",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:5c1d57450ed5fac0cb900f25e2a7354392b71129"
+ },
+ "repo": "joestataka/QQShortVideo"
+}

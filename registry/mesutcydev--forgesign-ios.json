@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-06",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-09-24"
+ },
+ "descripcion": "ForgeSign for iOS — on-device IPA re-signer. Sign, install and manage IPAs entirely on the device: zsign engine, liquid-glass UI, remembered certificates with expiry countdown, signed-app library, loopback OTA install.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mesutcydev--forgesign-ios.json",
+  "sha256": "6b3c194819f59354fc13ef1b8d6fe5b2a3397161f62d9e9ccc51dbf8a5ef01b6"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mesutcydev--forgesign-ios",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 87,
+  "stars_por_mes": null
+ },
+ "nombre": "ForgeSign-iOS",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b4ac4d853115cb216904ba9a8df26062f11abb46",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b4ac4d853115cb216904ba9a8df26062f11abb46"
+ },
+ "repo": "Mesutcydev/ForgeSign-iOS",
+ "web": "https://mesut.uk/apps/forgesign"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-18"
+ },
+ "descripcion": "Modern cross-platform client for Booru & Creator archives (Pawchive, Gelbooru, e",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ero-gamer--prisma-next.json",
+  "sha256": "c5e2140ce99799b94be9973fa3f4ea1b34daa7b4bf0240fcc0402ad05b976859"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ero-gamer--prisma-next",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Prisma-Next",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "99643a25b9a96e101a87f31450ad2cc6bd1727d1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:99643a25b9a96e101a87f31450ad2cc6bd1727d1"
+ },
+ "repo": "Ero-gamer/Prisma-Next"
+}

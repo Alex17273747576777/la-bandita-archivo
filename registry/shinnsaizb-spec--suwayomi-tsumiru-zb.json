@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-23",
+  "semantica_http": 200,
+  "ultima_release": "v1.4.1",
+  "ultimo_push": "2026-10-29"
+ },
+ "descripcion": "A native manga & manhwa reader for Suwayomi-Server - enhanced fork of Tachidesk-",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/shinnsaizb-spec--suwayomi-tsumiru-zb.json",
+  "sha256": "1fe7796c8f25fbe8790ee752133439cb76999c9656f15349f1c2958279f49812"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "shinnsaizb-spec--suwayomi-tsumiru-zb",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Suwayomi-Tsumiru-zb",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7953905fa0e1edfa630c322b9949d6ff9f44b970",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7953905fa0e1edfa630c322b9949d6ff9f44b970"
+ },
+ "repo": "shinnsaizb-spec/Suwayomi-Tsumiru-zb"
+}

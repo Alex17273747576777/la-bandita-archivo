@@ -1,0 +1,56 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2022-07-04",
+  "semantica_http": 200,
+  "ultima_release": "v0.4.4",
+  "ultimo_push": "2026-09-12"
+ },
+ "descripcion": "Clutterfree F-Droid client, [mirror] https://codeberg.org/droidify/client",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/droid-ify--client.json",
+  "sha256": "3139e594fc33438a4db1b2380ccdcc1141da483b4ddd3aeaca462ecd4af34480"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "droid-ify--client",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 7686,
+  "stars_por_mes": null
+ },
+ "nombre": "client",
+ "piezas": [
+  "101",
+  "28-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ff1453ed957f3b2382abce9a7eb9a9db8def3a3a",
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
+  "swhid": "swh:1:rev:ff1453ed957f3b2382abce9a7eb9a9db8def3a3a"
+ },
+ "repo": "Droid-ify/client",
+ "web": "https://droidify.app/"
+}

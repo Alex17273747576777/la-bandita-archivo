@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-21"
+ },
+ "descripcion": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and perfo",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/wangyuling93--omnibot.json",
+  "sha256": "7d9945479cdfca94cb5ce5ef1303ef5dc234f0be327c6e04b8892e77088f9dcb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "wangyuling93--omnibot",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OmniBot",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e9ae9cc3b0873e46070195df82d8e01f9073fbf9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e9ae9cc3b0873e46070195df82d8e01f9073fbf9"
+ },
+ "repo": "wangyuling93/OmniBot"
+}

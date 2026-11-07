@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-30"
+ },
+ "descripcion": "Turn ChatGPT web into a local coding agent via MCP — read/write files, run shell, git, apply_patch. Works with Developer Mode + OpenAI Secure Tunnel.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/hoangcoderr--chatgpt-local-coder.json",
+  "sha256": "67f5004186fdec953477148f1e1ed827deaa5e288a608a2391ba0495ed767937"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hoangcoderr--chatgpt-local-coder",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 109,
+  "stars_por_mes": null
+ },
+ "nombre": "chatgpt-local-coder",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "bc2ce5e6cb12fac20633065fb122fabbbb5c98c3",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:bc2ce5e6cb12fac20633065fb122fabbbb5c98c3"
+ },
+ "repo": "hoangcoderr/chatgpt-local-coder",
+ "web": "https://modelcontextprotocol.io"
+}

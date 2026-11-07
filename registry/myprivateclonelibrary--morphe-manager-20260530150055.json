@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-30"
+ },
+ "descripcion": "Morphe app patcher for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/myprivateclonelibrary--morphe-manager-20260530150055.json",
+  "sha256": "38e15c47a3d5c93ffc6453dd56541dbd22d311a2606f07f410a03f689cd41e95"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "myprivateclonelibrary--morphe-manager-20260530150055",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "morphe-manager-20260530150055",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8d7622edfe3512774f5cc2ed11d9a126d3903a23",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8d7622edfe3512774f5cc2ed11d9a126d3903a23"
+ },
+ "repo": "Myprivateclonelibrary/morphe-manager-20260530150055"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-08"
+ },
+ "descripcion": "Your on-device AI assistant, capable of operating terminals and performing a wid",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lance-9527--openomnibot.json",
+  "sha256": "eb7aae844191b7f7f1d733b2b7ab092dc5a8a0214ab71524d83cd12ce001043a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lance-9527--openomnibot",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OpenOmniBot",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "52173b271efdd639c744592972488b4113c51099",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:52173b271efdd639c744592972488b4113c51099"
+ },
+ "repo": "Lance-9527/OpenOmniBot"
+}

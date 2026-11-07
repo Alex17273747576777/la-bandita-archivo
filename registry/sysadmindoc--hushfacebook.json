@@ -1,0 +1,56 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-24",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Hushfacebook Morphe patches for Facebook. Hide ads, suggested posts, save videos and photos, tune playback and Reels, and use a focused Marketplace mode, and much more.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sysadmindoc--hushfacebook.json",
+  "sha256": "516d9bd3252c5e45073d81c612401c5365955ad62649e628c6bacc1e2590a168"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sysadmindoc--hushfacebook",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 462,
+  "stars_por_mes": null
+ },
+ "nombre": "HushFacebook",
+ "piezas": [
+  "102",
+  "12-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "178f3fbd71ab5f6cb7aee8f5dfa5e9dad337ed4d",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:178f3fbd71ab5f6cb7aee8f5dfa5e9dad337ed4d"
+ },
+ "repo": "SysAdminDoc/HushFacebook",
+ "web": "https://github.com/SysAdminDoc/Hushfacebook/releases/latest"
+}

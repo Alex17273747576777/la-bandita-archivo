@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-06"
+ },
+ "descripcion": "App store for Shizuku apps. Based on my awesome-shizuku list and installs APKs s",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mnindrabudiman--shizustore.json",
+  "sha256": "b4912508f0849a7e7b0f1a400936921379532c7acadc58ccb576f25e6d36d20a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mnindrabudiman--shizustore",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "ShizuStore",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f2ce4b67aba89bd858b850c5149d7cf9fba9ad77",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f2ce4b67aba89bd858b850c5149d7cf9fba9ad77"
+ },
+ "repo": "mnindrabudiman/ShizuStore"
+}

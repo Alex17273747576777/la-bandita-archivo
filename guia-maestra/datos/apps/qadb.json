@@ -1,0 +1,75 @@
+{
+ "id": "qadb",
+ "nombre": "QADB",
+ "repo": "ludoven/QADB",
+ "autores": [
+  {
+   "nombre": "ludoven",
+   "enlace": "https://github.com/ludoven"
+  }
+ ],
+ "licencia": {
+  "spdx": "MIT",
+  "archivo": "https://github.com/ludoven/QADB/blob/master/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Manejar la depuración de Android desde una computadora con una interfaz: orden directa, registro en vivo y el informe completo del sistema cuando hay que mandar un parte de avería.",
+ "capitulo": 11,
+ "orden": 6,
+ "para_quien": {
+  "es": "para quien repara el teléfono de otros y necesita sentarse en una computadora a mirar, y para quien tiene que producir el informe que un mantenedor pide antes de contestar.",
+  "no_es": "para quien quiere arreglar su propio teléfono sin computadora: para eso están las otras cinco fichas de este capítulo, que funcionan en el aparato."
+ },
+ "manos": [
+  "Bajá el programa para tu sistema —Linux, macOS o Windows— desde las entregas del repositorio, y comprobá que la versión es la última publicada.",
+  "Instalá las herramientas de depuración de Android en la computadora, que son las que hablan con el aparato; el programa las usa pero no las trae.",
+  "Conectá el teléfono con la depuración activa y aceptá el aviso en la pantalla del aparato.",
+  "Abrí la vista de registro y la de orden directa: la primera muestra lo que pasa, la segunda permite preguntar.",
+  "Generá el informe completo del sistema a un archivo, ábrilo y mirá cuánto ocupa antes de mandarlo a nadie."
+ ],
+ "resultado_esperado": "Tenés el aparato conectado a la computadora, ves su registro en vivo, podés escribir órdenes y generaste el informe completo del sistema en un archivo.",
+ "si_sale_mal": [
+  "Si el programa abre y no encuentra el aparato, faltan las herramientas de depuración en la computadora o el cable sólo carga.",
+  "Si el aparato aparece como no autorizado, falta aceptar el aviso en su pantalla; el del teléfono, no el de la computadora.",
+  "Si el informe tarda demasiado, es normal: el sistema recorre todos sus servicios y en un aparato lleno puede llevar varios minutos."
+ ],
+ "deshacer": "No instala nada en el teléfono. En la computadora se borra la carpeta del programa y los informes generados, y el apartado de archivos que hayas copiado queda donde lo pusiste.",
+ "cabeza": [
+  "Android trae de fábrica la capacidad de producir su propio informe de avería: un archivo comprimido con el estado de todos sus servicios, el registro de las últimas horas, el historial de batería y la lista de aplicaciones. Es lo primero que pide cualquier mantenedor serio y casi nadie sabe que existe ni cómo pedirlo sin una orden escrita. Este capítulo termina ahí a propósito: el parte de avería no se inventa, se genera.",
+  "QADB pone interfaz a ese trabajo en Linux, macOS y Windows. Su nota es la más baja de las seis —treinta y tres, una sola persona, sin entrega desde julio— y aun así está en la guía por una razón concreta: resuelve el momento en que el teléfono ya no ayuda y hace falta una computadora. Se declara su debilidad al lado de su utilidad, que es lo que esta guía hace con todas.",
+  "Y su licencia es la más permisiva de las seis, MIT: se puede usar, copiar y modificar con sólo conservar el aviso. La comparación con las otras cinco —GPL y AGPL— es una buena última lección del capítulo: la licencia no mide la calidad ni el compromiso; mide qué te dejan hacer con el código."
+ ],
+ "limites": [
+  "Es un programa de computadora: no sirve si el aparato está solo y no hay dónde conectarlo.",
+  "Necesita las herramientas de depuración de Android instaladas aparte.",
+  "Un solo mantenedor y sin entrega desde julio: se usa y se tiene presente.",
+  "El informe completo contiene muchísima información del aparato y hay que leerlo antes de compartirlo."
+ ],
+ "oficio": {
+  "dato": "El informe de avería de Android no es un registro: es una fotografía del sistema entero, tomada por el propio sistema, con el estado de cada servicio, las últimas horas de registro en todos sus canales, el historial de batería y la lista completa de aplicaciones instaladas con sus versiones. Se genera con una sola orden y tarda minutos porque recorre todo. La diferencia con mandar el registro es la misma que hay entre mandar una foto del tablero y mandar el aparato al taller: con el informe, quien mantiene el programa puede reconstruir lo que pasó sin hacerte diez preguntas. Y esa es, en el fondo, la tesis de este capítulo.",
+  "como_comprobar": "Con el teléfono conectado y desbloqueado, pedile al sistema que genere su informe en un archivo y esperá a que termine; después abrí el archivo y mirá su tamaño y su lista de contenidos antes de enviarlo.",
+  "comando": "adb bugreport averia.zip"
+ },
+ "riesgos": [
+  "Mandar el informe completo sin revisarlo: llevan números de teléfono, cuentas y rutas de archivos.",
+  "Dejar la depuración activa después de reparar el aparato, con lo que cualquier computadora autorizada ayer sigue teniendo llave."
+ ],
+ "alternativas": [
+  "scrcpy",
+  "termux/termux-app"
+ ],
+ "senal": {
+  "estrellas": 176,
+  "nota": 33,
+  "edad_dias": 516,
+  "ultima_entrega": "2026-07-29",
+  "descargas_10": 5277,
+  "contribuyentes": 1,
+  "repo_mb": 46.1,
+  "ci": 2,
+  "incidencias": "2 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de ludoven · MIT · medido el 3 de noviembre de 2026"
+}

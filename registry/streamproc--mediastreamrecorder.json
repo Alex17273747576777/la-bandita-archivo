@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2015-10-10",
+  "semantica_http": 200,
+  "ultima_release": "1.2.9",
+  "ultimo_push": "2018-07-04"
+ },
+ "descripcion": "Cross browser audio/video/screen recording. It supports Chrome, Firefox, Opera and Microsoft Edge. It even works on Android browsers. It follows latest MediaRecorder API standards and provides similar APIs.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/streamproc--mediastreamrecorder.json",
+  "sha256": "44cb38ceb3b70c7c93b845452d6c5b68e46482d59019247d8a37504202bed7c5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "streamproc--mediastreamrecorder",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2676,
+  "stars_por_mes": null
+ },
+ "nombre": "MediaStreamRecorder",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "29fc373bb6dcd93161db1254517e5bd3804b74a3",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:29fc373bb6dcd93161db1254517e5bd3804b74a3"
+ },
+ "repo": "streamproc/MediaStreamRecorder",
+ "web": "https://www.webrtc-experiment.com/msr/"
+}

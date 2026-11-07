@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-28"
+ },
+ "descripcion": "A web tool that can be used to patch the init of some Unisoc devices to remove DSU restrictions.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/weikaizhi4--sprd-dsu-patcher.json",
+  "sha256": "b54fbf76e8d4c8f8bc6141917d0b3754da05b51fc3751c507e195d77fabcacbe"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "weikaizhi4--sprd-dsu-patcher",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 6,
+  "stars_por_mes": null
+ },
+ "nombre": "sprd-dsu-patcher",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "cb8ffcb013c6477c43772f4a6b33c2e2b77de739",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:cb8ffcb013c6477c43772f4a6b33c2e2b77de739"
+ },
+ "repo": "weikaizhi4/sprd-dsu-patcher"
+}

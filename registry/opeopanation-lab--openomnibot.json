@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-01"
+ },
+ "descripcion": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and perfo",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/opeopanation-lab--openomnibot.json",
+  "sha256": "9ec2327e9a267978807b7c1494846608d3a31bea8919c85d038c7fbac4ac8fdc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "opeopanation-lab--openomnibot",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OpenOmniBot",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5d6540dbb6bbcc5abb2e63d4509f1aaca689f28b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5d6540dbb6bbcc5abb2e63d4509f1aaca689f28b"
+ },
+ "repo": "opeopanation-lab/OpenOmniBot"
+}

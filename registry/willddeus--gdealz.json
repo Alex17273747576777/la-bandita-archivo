@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-02"
+ },
+ "descripcion": "PC GAME deals application.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/willddeus--gdealz.json",
+  "sha256": "69502de8a0ef0086c251e212da4bcbe5eedeb97766cf08a0ad61c11c483a55fc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "willddeus--gdealz",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "GDealz",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "64dcf3cbf8dc54644dbdb3d742d894c55c9203ab",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:64dcf3cbf8dc54644dbdb3d742d894c55c9203ab"
+ },
+ "repo": "willddeus/GDealz"
+}

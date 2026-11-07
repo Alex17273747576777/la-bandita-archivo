@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2021-04-24",
+  "semantica_http": 200,
+  "ultima_release": "2021-04-24",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "🍃 Organic Maps is a free Android & iOS offline maps app for more than 6M travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/organicmaps--organicmaps.json",
+  "sha256": "624e178bc1ef112ac4a2c9e680b598db6f381db0236c5f0a565e4fc643c6e123"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "organicmaps--organicmaps",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 15858,
+  "stars_por_mes": null
+ },
+ "nombre": "organicmaps",
+ "piezas": [
+  "09-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3c9ed893b2047664c3282858f1939c9eb44eb386",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:3c9ed893b2047664c3282858f1939c9eb44eb386"
+ },
+ "repo": "organicmaps/organicmaps",
+ "web": "https://organicmaps.app"
+}

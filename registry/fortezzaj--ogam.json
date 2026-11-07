@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "muerto",
+  "release_en": null,
+  "semantica_http": 404,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-27"
+ },
+ "descripcion": "The Swiss Army Knife of Offline AI. Chat, see, speak, and generate images on you",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#FortezzaJ/OGAM",
+  "sha256": "107bad9f8838473803ede6c3c485d19aec9f01fe55ec7b6b2cb92af055eaec7a"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-10-15",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-11-14",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "fortezzaj--ogam",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": null,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OGAM",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c266e2ed33307426017f3c284cd3dba51e8b6b56",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c266e2ed33307426017f3c284cd3dba51e8b6b56"
+ },
+ "repo": "FortezzaJ/OGAM"
+}

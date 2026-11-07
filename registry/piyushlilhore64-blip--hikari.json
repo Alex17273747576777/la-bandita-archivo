@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-27"
+ },
+ "descripcion": "Hikari — a universal streaming app: Stremio addons, universal scrapers, CloudStr",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/piyushlilhore64-blip--hikari.json",
+  "sha256": "a532da395878e2b938dc03f3344de4a454d2da24092143d6141504499ab58b21"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "piyushlilhore64-blip--hikari",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "hikari",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9d9a5ca6841880b04875c680efab6798286c1ac9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9d9a5ca6841880b04875c680efab6798286c1ac9"
+ },
+ "repo": "piyushlilhore64-blip/hikari"
+}

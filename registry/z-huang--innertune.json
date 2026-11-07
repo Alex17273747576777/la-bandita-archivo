@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2021-06-16",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0-beta",
+  "ultimo_push": "2025-11-13"
+ },
+ "descripcion": "A Material 3 YouTube Music client for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/z-huang--innertune.json",
+  "sha256": "917f2a5d614dd2ca309331f7cea31267a3f06bcfdb04687b7fdedc1ac01b4afd"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "z-huang--innertune",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 6135,
+  "stars_por_mes": null
+ },
+ "nombre": "InnerTune",
+ "piezas": [
+  "08-",
+  "101"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "bfba5ecb16795cfc93ecce73d94ca583bcec917c",
+  "swh_estado": "archivada",
+  "swh_solicitud": "bfba5ecb16795cfc93ecce73d94ca583bcec917c",
+  "swhid": "swh:1:rev:bfba5ecb16795cfc93ecce73d94ca583bcec917c"
+ },
+ "repo": "z-huang/InnerTune"
+}

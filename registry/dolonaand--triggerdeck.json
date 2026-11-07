@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-30",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-06"
+ },
+ "descripcion": "ゲーミングスマホのショルダートリガーと電源ボタンに機能やアプリを割り当てる Android アプリ (非公式)",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dolonaand--triggerdeck.json",
+  "sha256": "b8731ef2052459705ae4fa9f893af26829703c4c6f3669169fe9caa2eb268eac"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dolonaand--triggerdeck",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "TriggerDeck",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b7709066b59abbcb7384bbfd9ececa7c0d044451",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b7709066b59abbcb7384bbfd9ececa7c0d044451"
+ },
+ "repo": "DoLonaAnd/TriggerDeck"
+}

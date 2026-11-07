@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2023-12-30",
+  "semantica_http": 200,
+  "ultima_release": "r20231230",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "A password manager that supports Bitwarden platform and KeePass (KDBX) files. It autofills your logins, supports passkeys, works offline, and runs a Watchtower that finds leaked and reused passwords and other issues.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/achep--keyguard-app.json",
+  "sha256": "c110b9cbb0758950f91ba575e86a8c05ac8e090b94160813d911c8667e6beec0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "achep--keyguard-app",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3601,
+  "stars_por_mes": null
+ },
+ "nombre": "keyguard-app",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ebb23ce047cb7e897a561bd46456f860887917d8",
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
+  "swhid": "swh:1:rev:ebb23ce047cb7e897a561bd46456f860887917d8"
+ },
+ "repo": "AChep/keyguard-app",
+ "web": "https://keyguard.dev/"
+}

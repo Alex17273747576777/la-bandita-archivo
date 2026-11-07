@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2021-12-28",
+  "semantica_http": 200,
+  "ultima_release": "v1.18.5",
+  "ultimo_push": "2026-10-15"
+ },
+ "descripcion": "Syncthing Windows Setup",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/bill-stewart--syncthingwindowssetup.json",
+  "sha256": "8e23bfbebdd87a597befc4acb9b79416dd5f424f21dd2bc6063da8fe11c5f047"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "bill-stewart--syncthingwindowssetup",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 4534,
+  "stars_por_mes": null
+ },
+ "nombre": "SyncthingWindowsSetup",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "abeaed9768de4332452b99916df2a9b95d95864c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:abeaed9768de4332452b99916df2a9b95d95864c"
+ },
+ "repo": "Bill-Stewart/SyncthingWindowsSetup"
+}

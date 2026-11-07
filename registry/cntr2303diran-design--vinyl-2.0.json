@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-11-01",
+  "semantica_http": 200,
+  "ultima_release": "latest",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/cntr2303diran-design--vinyl-2.0.json",
+  "sha256": "d7b0696aee42b31e8962eabda4f374aa7daa74735a8c730a2583dc415be8a9f9"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "cntr2303diran-design--vinyl-2.0",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "Vinyl-2.0",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "84fd37fddf427a65e3ea9f330ce149e048183c87",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:84fd37fddf427a65e3ea9f330ce149e048183c87"
+ },
+ "repo": "cntr2303diran-design/Vinyl-2.0"
+}

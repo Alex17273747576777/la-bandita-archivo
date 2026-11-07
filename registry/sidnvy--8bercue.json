@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-20",
+  "semantica_http": 200,
+  "ultima_release": "v0.19.1-beta.3",
+  "ultimo_push": "2026-10-26"
+ },
+ "descripcion": "Independent Android eSIM manager — Beta, AGPL-3.0-only",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sidnvy--8bercue.json",
+  "sha256": "fc93f61db22d86189370f0ac4bbe446d20efab1fb0579da22dc65bf1093508df"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sidnvy--8bercue",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 17,
+  "stars_por_mes": null
+ },
+ "nombre": "8bercue",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "aba774e9a90eae93d8c08788bd615d16c6ac4b75",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:aba774e9a90eae93d8c08788bd615d16c6ac4b75"
+ },
+ "repo": "sidnvy/8bercue",
+ "web": "https://8bercue.sidnvy.com"
+}

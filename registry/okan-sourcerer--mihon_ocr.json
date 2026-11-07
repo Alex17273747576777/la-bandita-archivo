@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-05-31",
+  "semantica_http": 200,
+  "ultima_release": "v0.19.9",
+  "ultimo_push": "2026-08-16"
+ },
+ "descripcion": "Free and open source manga reader for Android with local OCR and translation additions",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/okan-sourcerer--mihon_ocr.json",
+  "sha256": "df9b9e7f241f65ccd317f8e2ec2cf591883ccb386560ead91ae79a08641cbfe6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "okan-sourcerer--mihon_ocr",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "mihon_ocr",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0883acd148a351887478e3fafa07a09619c1c309",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:0883acd148a351887478e3fafa07a09619c1c309"
+ },
+ "repo": "okan-sourcerer/mihon_ocr"
+}

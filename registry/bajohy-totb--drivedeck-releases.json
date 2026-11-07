@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-21",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0-rc7",
+  "ultimo_push": "2026-10-11"
+ },
+ "descripcion": "DriveDeck | Android 차량용 듀얼 앱 런처 / Dual-app launcher for Android car devices · 한국어 / English",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/bajohy-totb--drivedeck-releases.json",
+  "sha256": "6dbdc76f21acd52447e58bd8b9ce3321a157917171c3545bcba2f6c7edb3421e"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "bajohy-totb--drivedeck-releases",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "drivedeck-releases",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0c1efbb64c1db0bd6777d2f2d6f154f4054c9428",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:0c1efbb64c1db0bd6777d2f2d6f154f4054c9428"
+ },
+ "repo": "bajohy-totb/drivedeck-releases",
+ "web": "https://github.com/bajohy-totb/drivedeck-releases#readme"
+}

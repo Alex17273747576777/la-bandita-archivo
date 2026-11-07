@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-03-07",
+  "semantica_http": 200,
+  "ultima_release": "v1.0-1",
+  "ultimo_push": "2026-07-20"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/androidexpert35--appbooster.json",
+  "sha256": "fc8dd3ef4f5fe7453cdbead3641a6f2237b0aa794c0fdad98d14e6894610607e"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "androidexpert35--appbooster",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 125,
+  "stars_por_mes": null
+ },
+ "nombre": "AppBooster",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c963005b785279e5841cb05599d8cda2e9f0ff75",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c963005b785279e5841cb05599d8cda2e9f0ff75"
+ },
+ "repo": "androidexpert35/AppBooster"
+}

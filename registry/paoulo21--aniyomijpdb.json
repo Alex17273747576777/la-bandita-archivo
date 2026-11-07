@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2025-12-30",
+  "semantica_http": 200,
+  "ultima_release": "1.0",
+  "ultimo_push": "2026-01-03"
+ },
+ "descripcion": "An app for manga and anime with yomitan",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/paoulo21--aniyomijpdb.json",
+  "sha256": "8813896634698fc2e9572904493e4e2738a300dcbf73a79efd1b7b428afa1f7a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "paoulo21--aniyomijpdb",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "AniyomiJPDB",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d204946684735cca25cfbe1517904d4f425cfa82",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d204946684735cca25cfbe1517904d4f425cfa82"
+ },
+ "repo": "paoulo21/AniyomiJPDB"
+}

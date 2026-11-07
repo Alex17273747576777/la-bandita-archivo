@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2021-12-13"
+ },
+ "descripcion": "1000多个电子书涉及方向有C/C++、java基础、java服务端、php、Go、C#、python、前端(小程序、uniapp、跨平台...)、Android/ios、数据结构和算法、面试、linux入门、linux c/c++服务端、嵌入式、运维、linux内核、linux内核、linux驱动、底层操作系统、计算机网络、设计模式、数据库、大数据、云计算、区块链、windows开发、游戏开发、安全与逆向、并发编程、架构设计、重构优化、鸿蒙系统开发、机器学习、深度学习、matlab、计算机视觉、数据挖掘、自然语言处理、数字图像处理、机器人开发、等主流计算机开发40多个方向",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/changechenyu--chenyuebook.json",
+  "sha256": "79e20efbe237e904ef641eaa621695a04a1fc250061dea88b4b78b73f8cd4088"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "changechenyu--chenyuebook",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 561,
+  "stars_por_mes": null
+ },
+ "nombre": "chenyuEbook",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5a247213facb9aad6aa5e8fd2d64fa36aac23a38",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:5a247213facb9aad6aa5e8fd2d64fa36aac23a38"
+ },
+ "repo": "changechenyu/chenyuEbook"
+}

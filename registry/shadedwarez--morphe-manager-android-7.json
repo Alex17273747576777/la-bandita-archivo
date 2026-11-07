@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-27"
+ },
+ "descripcion": "From the developers that brought you the greatest modded YouTube apps, comes Mor",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/shadedwarez--morphe-manager-android-7.json",
+  "sha256": "4d7ac00ea8a7e96e5976107b2133db40bbad6638ed14c6a4fc9f6dc9df11909d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "shadedwarez--morphe-manager-android-7",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Morphe-Manager-Android-7",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2223f2d0aa2e244b4b711969a1f54be5791de130",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2223f2d0aa2e244b4b711969a1f54be5791de130"
+ },
+ "repo": "ShadedWarez/Morphe-Manager-Android-7"
+}

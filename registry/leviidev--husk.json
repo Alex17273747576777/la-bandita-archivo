@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2026-11-01",
+  "semantica_http": 200,
+  "ultima_release": "3.3",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Run Android on iOS. Natively or Emulated.",
+ "evidencia": {
+  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
+  "payload_ref": "ficha profunda del 2026-11-03",
+  "sha256": "b2cf914f380ccb27a571a0aabf042a1d0db763ac999d21096de2d4552bc93263"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "nodo REST + GraphQL el 3-nov-2026, con README y LICENSE leídos en crudo",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "leviidev--husk",
+ "licencia": {
+  "archivo": "GNU GENERAL PUBLIC LICENSE\n\t\t       Version 2, June 1991\n\n Copyright (C) 1989, 1991 Free Software Foundation, Inc.",
+  "metodo": "endpoint-license",
+  "nota": "certificada contra el texto del archivo LICENSE",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2993,
+  "stars_por_mes": null
+ },
+ "nombre": "Husk",
+ "piezas": [
+  "01"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "32acdda2a58691b0f88c30f30ede0422e8671633",
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
+  "swhid": "swh:1:rev:32acdda2a58691b0f88c30f30ede0422e8671633"
+ },
+ "repo": "Leviidev/Husk"
+}

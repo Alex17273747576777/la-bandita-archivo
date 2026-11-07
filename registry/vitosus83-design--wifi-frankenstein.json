@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-14"
+ },
+ "descripcion": "New generation of 3Wifi Locator. With support for custom databases, a WiFi netwo",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/vitosus83-design--wifi-frankenstein.json",
+  "sha256": "7c5ddef961052707302f7909217980b2fedbb49314103dce24d450ce0a8e6ccc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "vitosus83-design--wifi-frankenstein",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "WIFI-Frankenstein",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9d78c968a126c798ff026859fd76c60ee02e13bb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9d78c968a126c798ff026859fd76c60ee02e13bb"
+ },
+ "repo": "vitosus83-design/WIFI-Frankenstein"
+}

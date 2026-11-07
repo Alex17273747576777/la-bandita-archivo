@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Your Spotify + YouTube Music library & daily mixes. Stream or download in lossle",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/unkn0w7n--stash.json",
+  "sha256": "9a0622a1fa2445ded89d263d8abd708bfbab40eea84a5e5a2a2ac6867a09d1d7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "unkn0w7n--stash",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Stash",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a977b7675f5ecbdb0f221f73e3795d5474fe641a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a977b7675f5ecbdb0f221f73e3795d5474fe641a"
+ },
+ "repo": "unkn0w7n/Stash"
+}

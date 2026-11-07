@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-08"
+ },
+ "descripcion": "A native manga & manhwa reader for Suwayomi-Server - enhanced fork of Tachidesk-",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/aitnr--suwayomi-tsumiru.json",
+  "sha256": "9092f7b675fee119041d90d1f37aa47e81381aa5c10be780f76181176c5d374c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "aitnr--suwayomi-tsumiru",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Suwayomi-Tsumiru",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "fd65dd684d2c5d6b3ed7f027fd89b4114b4d7d51",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:fd65dd684d2c5d6b3ed7f027fd89b4114b4d7d51"
+ },
+ "repo": "AITNR/Suwayomi-Tsumiru"
+}

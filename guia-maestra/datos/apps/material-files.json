@@ -1,0 +1,75 @@
+{
+ "id": "material-files",
+ "nombre": "Material Files",
+ "repo": "zhanghai/MaterialFiles",
+ "autores": [
+  {
+   "nombre": "Hai Zhang (zhanghai)",
+   "enlace": "https://github.com/zhanghai"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/zhanghai/MaterialFiles/blob/master/LICENSE"
+ },
+ "nivel": "principiante",
+ "tarea": "Manejar archivos en el teléfono y en tus servidores propios desde una sola aplicación, por SFTP y por los protocolos de red de toda la vida.",
+ "capitulo": 10,
+ "orden": 4,
+ "para_quien": {
+  "es": "para quien mueve archivos entre el teléfono y sus servidores de casa y está cansado de que cada aplicación tenga su propia carpeta y su propio gestor.",
+  "no_es": "para quien sólo necesita ver las fotos del teléfono: el gestor del sistema hace eso sin añadir nada."
+ },
+ "manos": [
+  "Instalala desde F-Droid, desde la tienda o desde su repositorio, y comprobá la descarga si la bajaste de GitHub.",
+  "Dale permiso para ver el almacenamiento y recorré tus carpetas: comprobá que aparece también la carpeta de descargas del sistema.",
+  "Añadí un servidor por SFTP con su dirección, su usuario y su llave o contraseña, y verificá la huella la primera vez.",
+  "Copiá un archivo del servidor al teléfono y viceversa, y mirá los permisos del archivo en el listado: ahí está la explicación de casi todo lo que no se puede hacer.",
+  "Guardá el acceso con un nombre y comprobá que sigue funcionando al día siguiente, para no descubrir el problema justo cuando lo necesitás."
+ ],
+ "resultado_esperado": "Ves y movés archivos del teléfono y de tus servidores en la misma aplicación, y sabés por qué un archivo no se deja escribir cuando pasa.",
+ "si_sale_mal": [
+  "Si no podés escribir en una carpeta del servidor, mirá los permisos del listado: casi siempre es un archivo del sistema o una carpeta de otro usuario.",
+  "Si la conexión por SFTP falla, comprobá el puerto y el tipo de autenticación: con llave, la contraseña no sirve aunque la pongas.",
+  "Si un archivo grande se corta, dejá la pantalla encendida y la aplicación abierta para que el sistema no duerma la conexión."
+ ],
+ "deshacer": "Quitar un servidor de la lista no borra nada en el servidor: sólo olvida el acceso. Desinstalar la aplicación no toca tus archivos, ni los del teléfono ni los del servidor.",
+ "cabeza": [
+  "Material Files es un gestor de archivos que además habla los protocolos de red que importan: SFTP, FTP, SMB y WebDAV. Eso lo convierte en la pieza que faltaba en el taller: con el cliente de órdenes administrás el servidor, y con este movés sus archivos, los dos desde el teléfono y los dos sin nube de por medio.",
+  "Su decisión más útil es tratar un servidor como si fuera una carpeta. Al añadir un acceso, la raíz del servidor aparece en el mismo lugar donde aparecen las carpetas del teléfono, y desde ahí se copia, se renombra y se abre con las mismas acciones. Para quien viene de arrastrar archivos en una computadora, eso es exactamente lo que faltaba.",
+  "Nueve mil trescientas ochenta y cuatro estrellas y **dos personas** en el proyecto, con una entrega de septiembre de 2026 y trescientas doce mil cuatrocientas doce descargas en sus diez últimas. Es un proyecto pequeño y maduro: la señal de que conviene tenerlo, y también de que no hay que esperar que crezca rápido."
+ ],
+ "limites": [
+  "Dos personas sostienen el proyecto: menos funciones nuevas y más tiempo entre arreglos.",
+  "No monta carpetas del sistema del servidor como si fueran locales: copia y mueve, no sincroniza.",
+  "Los protocolos antiguos que ofrece siguen siendo antiguos: SFTP es la opción por defecto razonable.",
+  "Los archivos grandes dependen de que el sistema no duerma la conexión."
+ ],
+ "oficio": {
+  "dato": "Cuando un archivo se niega a moverse o a abrirse, el listado de permisos da la respuesta antes que cualquier mensaje de error. Cada archivo lleva tres grupos de permisos —lectura, escritura y ejecución— para el dueño, para su grupo y para el resto, y casi todos los «no tengo permiso» de un servidor propio se explican ahí: el archivo es del usuario del sistema, o la carpeta no deja escribir a nadie más. Aprender a leer esa hilera de letras es de las cosas más útiles del taller, porque convierte un fracaso en un diagnóstico y una búsqueda en internet en una decisión.",
+  "como_comprobar": "En el listado del servidor, elegí un archivo y mirá sus permisos. Después intentá escribir en una carpeta del sistema y en una de tu usuario: la diferencia entre los dos intentos es la lección completa.",
+  "comando": "ls -l /ruta/del/servidor"
+ },
+ "riesgos": [
+  "Usar FTP sin cifrado en una red compartida: usuario y contraseña viajan legibles.",
+  "Guardar credenciales de servidor en una aplicación sin bloqueo de pantalla en el teléfono."
+ ],
+ "alternativas": [
+  "connectbot/connectbot",
+  "localsend/localsend"
+ ],
+ "senal": {
+  "estrellas": 9388,
+  "nota": 44,
+  "edad_dias": 3083,
+  "ultima_entrega": "2026-09-20",
+  "descargas_10": 313597,
+  "contribuyentes": 2,
+  "repo_mb": 15.8,
+  "ci": 1,
+  "incidencias": "608 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de Hai Zhang · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

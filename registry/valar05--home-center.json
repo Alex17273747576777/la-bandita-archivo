@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-24",
+  "semantica_http": 200,
+  "ultima_release": "ritsu-control-v0.15-trial-20261024",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Home Center Android voice assistant pilot",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/valar05--home-center.json",
+  "sha256": "59806ca8fc06ada5dd93d7d628bca898092f81e702fb7e4437bf60099d517128"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "valar05--home-center",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "home-center",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "762e8f318740da6c5ea73d21db1d2252c9becaa1",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:762e8f318740da6c5ea73d21db1d2252c9becaa1"
+ },
+ "repo": "Valar05/home-center"
+}

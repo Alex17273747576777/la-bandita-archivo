@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-07"
+ },
+ "descripcion": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy F",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/siathalysedi--off-grid-mobile.json",
+  "sha256": "6bd45946b30f37ce067b8891e3f12e056060da05cdf5f85379ee1d82f449e467"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "siathalysedi--off-grid-mobile",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "off-grid-mobile",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "bf4b3283bbf9291ef2de13d5bfd91c85aae08d4c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bf4b3283bbf9291ef2de13d5bfd91c85aae08d4c"
+ },
+ "repo": "siathalysedI/off-grid-mobile"
+}

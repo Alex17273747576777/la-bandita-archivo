@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-01-27"
+ },
+ "descripcion": "GmsCore fork for Morphe patched apps with Material 3 Expressive design and enhan",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/seekerxy--microg-re.json",
+  "sha256": "09fe2229d87d1cf96b5b126da745650d3b83d21e818f04c1b97973298fc4eb20"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "seekerxy--microg-re",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "MicroG-RE",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9ddda4325cfb9f00ae09dcac218ecd2c81c64e1b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9ddda4325cfb9f00ae09dcac218ecd2c81c64e1b"
+ },
+ "repo": "seekerxy/MicroG-RE"
+}

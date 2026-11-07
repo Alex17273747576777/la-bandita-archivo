@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-04-19",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "Emergency actions runner with one configurable profile, external emergency triggers, and a safe Dry Run mode.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/yshalsager--mafza.json",
+  "sha256": "e8285a2fba55e28b261ef0fe8e454a838d31523202e27cd9e82065d4ba6f62ba"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yshalsager--mafza",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "Mafza",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "258eaaab9d6f9cd98b498a8b4fa22fa72bd99812",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:258eaaab9d6f9cd98b498a8b4fa22fa72bd99812"
+ },
+ "repo": "yshalsager/Mafza"
+}

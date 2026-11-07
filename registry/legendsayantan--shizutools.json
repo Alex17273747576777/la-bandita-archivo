@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2024-06-05",
+  "semantica_http": 200,
+  "ultima_release": "v1.3.0",
+  "ultimo_push": "2026-09-29"
+ },
+ "descripcion": "Contains many tools to control android system via shizuku.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/legendsayantan--shizutools.json",
+  "sha256": "341d4c43fb8214d6e8346e5158a19fed1b5529edaec64055cde5f897b9d47f5b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "legendsayantan--shizutools",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2647,
+  "stars_por_mes": null
+ },
+ "nombre": "ShizuTools",
+ "piezas": [
+  "29-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "6da4a1cd8b1c543e30e9cf63174db57e7b2a0f71",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:6da4a1cd8b1c543e30e9cf63174db57e7b2a0f71"
+ },
+ "repo": "legendsayantan/ShizuTools"
+}

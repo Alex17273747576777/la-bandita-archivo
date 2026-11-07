@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-03-22"
+ },
+ "descripcion": "The ultimate home for modded apps. OrionStore offers instant access to YouTube R",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/sageneox--orion-store.json",
+  "sha256": "59769543103c5fbf8842d64ccb2ab04cea306d2c559d25a46cf7144a895b72b6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sageneox--orion-store",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Orion-Store",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5dcd2324edd259f6fa08cc397bbf8f4ac534a048",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5dcd2324edd259f6fa08cc397bbf8f4ac534a048"
+ },
+ "repo": "sageneox/Orion-Store"
+}

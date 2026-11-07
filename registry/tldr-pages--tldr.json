@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2021-03-20",
+  "semantica_http": 200,
+  "ultima_release": "v1.5",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Collaborative cheatsheets for console commands 📚.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/tldr-pages--tldr.json",
+  "sha256": "92eb1e8e345eea6d219d6ab52144f7759bfb6c462b400dee96e883d91c3bcb85"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "tldr-pages--tldr",
+ "licencia": {
+  "archivo": "LICENSE.md",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 64113,
+  "stars_por_mes": null
+ },
+ "nombre": "tldr",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5a3089d4dc7ec5b0d2e7cfbbd7ac8b9cee1d373b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:5a3089d4dc7ec5b0d2e7cfbbd7ac8b9cee1d373b"
+ },
+ "repo": "tldr-pages/tldr",
+ "web": "https://tldr.sh"
+}

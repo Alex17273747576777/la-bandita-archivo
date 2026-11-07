@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-03-10",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "Real-time translation and language learning Android app for games, visual novels, manga, and any other screen text. 屏幕翻译 游戏翻译",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dominostars--playtranslate.json",
+  "sha256": "91dc95ba2f0fb55d1d0e11b506d5fd06d0efcda69e7468154810dce87cc88f6f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dominostars--playtranslate",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1345,
+  "stars_por_mes": null
+ },
+ "nombre": "playtranslate",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c349c1d50d1121c694b7757d5394c4705d344617",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c349c1d50d1121c694b7757d5394c4705d344617"
+ },
+ "repo": "dominostars/playtranslate",
+ "web": "https://www.playtranslate.com/"
+}

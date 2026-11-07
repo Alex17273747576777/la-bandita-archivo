@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-11-05"
+ },
+ "descripcion": "/r/FREEMEDIAHECKYEAH",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/l16by--fmhy.json",
+  "sha256": "853fc53d5bbcf9225e9a94faf42155b02b24aa747bb96f08ece7e29dd9b7f664"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "l16by--fmhy",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "FMHY",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ad329d97268083ffe9b49a816d8c70458ed8a8ec",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ad329d97268083ffe9b49a816d8c70458ed8a8ec"
+ },
+ "repo": "l16by/FMHY"
+}

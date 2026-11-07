@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy F",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mayurninama--off-grid-mobile-ai.json",
+  "sha256": "01c5e42d9f2ab56b9fcf2e35cd8a1570bfcfd1c9c0d60dc52d6ca4e293a25076"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mayurninama--off-grid-mobile-ai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "off-grid-mobile-ai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d3feaaecdbc969733bb0092a45d92368d261d34c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d3feaaecdbc969733bb0092a45d92368d261d34c"
+ },
+ "repo": "mayurninama/off-grid-mobile-ai"
+}

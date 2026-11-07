@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-22",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.1",
+  "ultimo_push": "2026-10-25"
+ },
+ "descripcion": "A minimal Android TV & Google TV launcher with a liquid glass UI, customizable widgets, animated screensavers, and remote-friendly controls.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/destradess--tv-home-universal.json",
+  "sha256": "e49fa50bf66a9eed5e332dcfddc825993f1c2961b275151e79b9b3f962fabc5a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "destradess--tv-home-universal",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 22,
+  "stars_por_mes": null
+ },
+ "nombre": "tv-home-universal",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1c57fa905bfa76a0b0e8e8593d5efd7d1d97d33e",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:1c57fa905bfa76a0b0e8e8593d5efd7d1d97d33e"
+ },
+ "repo": "destradess/tv-home-universal"
+}

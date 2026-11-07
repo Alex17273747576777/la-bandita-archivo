@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2016-06-12",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.1",
+  "ultimo_push": "2019-08-26"
+ },
+ "descripcion": "一款用于在Android设备上获取照片（拍照或从相册、文件中选择）、裁剪图片、压缩图片的开源工具库",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/crazycodeboy--takephoto.json",
+  "sha256": "ae97ba89e27c21a63dd519461e6ff8dbf17ed064022add183f7f2848aa2959e9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "crazycodeboy--takephoto",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 7209,
+  "stars_por_mes": null
+ },
+ "nombre": "TakePhoto",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "31a222705b52aae685369823ece42b7740a7aa63",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:31a222705b52aae685369823ece42b7740a7aa63"
+ },
+ "repo": "crazycodeboy/TakePhoto",
+ "web": "http://www.devio.org/tags/#TakePhoto"
+}

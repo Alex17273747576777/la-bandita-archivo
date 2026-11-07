@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-13"
+ },
+ "descripcion": "Own your intelligence on the go. Chat, RAG, Agents, and more using small models",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/leonardogastiaburu--anythingllm-mobile.json",
+  "sha256": "2304b3a7e473a317d3afd6086235910303b0426ceb0cf5f8f6b9218d9f2ea7db"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "leonardogastiaburu--anythingllm-mobile",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "anythingllm-mobile",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "10da4dd6528d7f61077ba115485ded0f9afdd983",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:10da4dd6528d7f61077ba115485ded0f9afdd983"
+ },
+ "repo": "LeonardoGastiaburu/anythingllm-mobile"
+}

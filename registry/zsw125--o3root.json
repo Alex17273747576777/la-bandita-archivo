@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-25",
+  "semantica_http": 200,
+  "ultima_release": "v2.1",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zsw125--o3root.json",
+  "sha256": "18cb8c2e31c8b441c27761005a8544d077fe40aa329976f069faf5dee3ddc7e7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zsw125--o3root",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 31,
+  "stars_por_mes": null
+ },
+ "nombre": "o3root",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ea892ae6d741d8b1617e8a2a2f3feaeff1c4036f",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:ea892ae6d741d8b1617e8a2a2f3feaeff1c4036f"
+ },
+ "repo": "zsw125/o3root"
+}

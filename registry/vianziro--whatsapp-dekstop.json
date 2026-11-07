@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-07",
+  "semantica_http": 200,
+  "ultima_release": "v1.1.1",
+  "ultimo_push": "2026-10-17"
+ },
+ "descripcion": "WhatsApp Desk is a fast, ultra-lightweight, privacy-respecting desktop client for WhatsApp Web. Built with native operating system web engines — WebKit on macOS, WebView2 on Windows, and WebKitGTK on Linux. Zero Electron bloat • Zero telemetry • Zero message relay servers • Complete local privacy.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/vianziro--whatsapp-dekstop.json",
+  "sha256": "cd07ec8132d98e71ef3829ac562547d44b506686726cca72cf8af70e57edbd96"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "vianziro--whatsapp-dekstop",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 230,
+  "stars_por_mes": null
+ },
+ "nombre": "Whatsapp-Dekstop",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "dce99056ba52d036e224401d957e260a56cc8de3",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:dce99056ba52d036e224401d957e260a56cc8de3"
+ },
+ "repo": "vianziro/Whatsapp-Dekstop",
+ "web": "https://vianziro.github.io/Whatsapp-Dekstop/"
+}

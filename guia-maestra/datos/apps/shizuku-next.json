@@ -1,0 +1,72 @@
+{
+ "id": "shizuku-next",
+ "nombre": "Shizuku-Next",
+ "repo": "rushiranpise/Shizuku-Next",
+ "autores": [
+  {
+   "nombre": "rushiranpise",
+   "enlace": "https://github.com/rushiranpise"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/rushiranpise/Shizuku-Next/blob/main/LICENSE"
+ },
+ "nivel": "principiante",
+ "tarea": "Instalar el permiso con menos pasos y actualizaciones cada dos o tres días.",
+ "capitulo": 3,
+ "orden": 3,
+ "para_quien": {
+  "es": "para quien quiera el camino más corto entre abrir el teléfono y tener el permiso funcionando.",
+  "no_es": "para quien necesite una versión quieta durante meses: publica cada dos o tres días."
+ },
+ "manos": [
+  "Descarga la última entrega del repositorio y comprueba que el número de versión termina en la palabra que le da nombre.",
+  "Instala y abre. La aplicación propone el mismo camino que el original, con menos pantallas intermedias.",
+  "Activa la depuración inalámbrica cuando la aplicación lo pida, sin salir de ella: enlaza directamente al ajuste.",
+  "Empareja con el código de seis cifras que muestra el teléfono.",
+  "Vuelve a la pantalla principal y confirma que el estado dice «En ejecución» y que la versión coincide con la que descargaste."
+ ],
+ "resultado_esperado": "El permiso está activo y las aplicaciones que lo piden lo detectan sin pasos extra.",
+ "si_sale_mal": [
+  "Si el teléfono no muestra el código de emparejamiento, desactiva y reactiva la depuración inalámbrica.",
+  "Si tras reiniciar el estado es «Detenido», repite el emparejamiento: es el comportamiento esperado, no un fallo."
+ ],
+ "deshacer": "Desinstala la aplicación y desactiva la depuración inalámbrica. Las aplicaciones que usaban el permiso dejan de funcionar; sus datos no se tocan.",
+ "cabeza": [
+  "Nació el 26 de septiembre de 2026 y en treinta y ocho días acumuló ciento setenta y nueve mil ciento veintinueve descargas y cien incidencias cerradas de ciento cinco. Esa proporción de cola cerrada en un proyecto de un mes es la señal más clara de que hay alguien contestando, no solo publicando.",
+  "Su ritmo —dieciocho entregas en treinta y ocho días— tiene dos caras: las correcciones llegan rápido y la versión de ayer no es la de hoy. Se instala sabiendo eso."
+ ],
+ "limites": [
+  "Sin sumas de comprobación en los adjuntos: la verificación se queda en la reputación del repositorio.",
+  "Una cadena de entregas continuas puede introducir un fallo que no estaba ayer.",
+  "Repositorio de sesenta y cinco megabytes por el historial heredado."
+ ],
+ "oficio": {
+  "dato": "El emparejamiento inalámbrico usa dos puertos distintos: uno para emparejar y otro para conectar. Si el teléfono cambia de red o de Wi-Fi, el puerto de conexión cambia y la sesión cae aunque la depuración siga activada. Por eso falla «de la nada» al llegar a casa o al salir de la oficina, y por eso conviene volver a emparejar en la red nueva en lugar de desinstalar y reinstalar.",
+  "como_comprobar": "Antes de emparejar, mira en Ajustes, Opciones de desarrollador, Depuración inalámbrica el puerto que aparece bajo el nombre del aparato; después de emparejar debe seguir siendo el mismo en la misma red. Si cambió, la sesión anterior no puede reconectarse.",
+  "comando": "adb mdns services"
+ },
+ "riesgos": [
+  "Instalar un paquete de un espejo y no del repositorio anula toda la ventaja del proyecto.",
+  "La entrega continua implica releer la nota de la versión si algo cambia de comportamiento."
+ ],
+ "alternativas": [
+  "RikkaApps/Shizuku",
+  "HmnDev-Tech/shevery"
+ ],
+ "senal": {
+  "estrellas": 1449,
+  "nota": 70,
+  "edad_dias": 39,
+  "ultima_entrega": "2026-11-03",
+  "descargas_10": 190213,
+  "contribuyentes": 100,
+  "repo_mb": 65.7,
+  "ci": 5,
+  "incidencias": "5 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de rushiranpise · Apache-2.0 · medido el 3 de noviembre de 2026"
+}

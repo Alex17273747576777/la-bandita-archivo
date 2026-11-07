@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2019-04-24",
+  "semantica_http": 200,
+  "ultima_release": "0.0.1",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Check updates for Android apps, Magisk modules and more!",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dupdatesystem--upgradeall.json",
+  "sha256": "7fbed567f5a9fd93ccc0ba6abb5651f50bf595571a0ff83888ea14b02f4af0c0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dupdatesystem--upgradeall",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1357,
+  "stars_por_mes": null
+ },
+ "nombre": "UpgradeAll",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4a1aae1d44a418989b0d3d28528cacff0cc066c0",
+  "swh_estado": "sin archivo (HTTP 429)",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4a1aae1d44a418989b0d3d28528cacff0cc066c0"
+ },
+ "repo": "DUpdateSystem/UpgradeAll",
+ "web": "https://up-a.org"
+}

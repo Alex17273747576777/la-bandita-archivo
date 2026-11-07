@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2023-02-02",
+  "semantica_http": 200,
+  "ultima_release": "v4-0.1.0",
+  "ultimo_push": "2026-10-15"
+ },
+ "descripcion": "Standalone implementation of Zygisk",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dr-tsng--zygisknext.json",
+  "sha256": "a78e38d9bae025c20678cba8142151dcd7e106b88522e8a4cc5dccc8350e265b"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dr-tsng--zygisknext",
+ "licencia": {
+  "archivo": "README (varias licencias)",
+  "metodo": "texto-license",
+  "nota": "ambiguo: el README menciona GPL-3.0, mit; requiere lectura humana",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 10798,
+  "stars_por_mes": null
+ },
+ "nombre": "ZygiskNext",
+ "piezas": [
+  "103"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "cddf38d5b1501d0cbf08393767afed09ac478b14",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:cddf38d5b1501d0cbf08393767afed09ac478b14"
+ },
+ "repo": "Dr-TSNG/ZygiskNext"
+}

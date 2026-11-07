@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-29",
+  "semantica_http": 200,
+  "ultima_release": "v0.3.0",
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "One-click Android setup toolkit for users in China",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/u0axuan--android-china-setup.json",
+  "sha256": "3a6c36d2d78dd40fa393c8ad0fc7eb86378462d541844824ed9d5861b2d07a26"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "u0axuan--android-china-setup",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "android-china-setup",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1bcebf8c687707631d052b1a103d067c91af9f46",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:1bcebf8c687707631d052b1a103d067c91af9f46"
+ },
+ "repo": "U0Axuan/android-china-setup"
+}

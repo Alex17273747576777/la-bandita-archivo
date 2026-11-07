@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-07"
+ },
+ "descripcion": "An app for manga and anime",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/dominuscube--aniyomi.json",
+  "sha256": "5c4106c68a1225c2b218b94eb74d8e6d32d940efcfe80379119bb750d99b069b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dominuscube--aniyomi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "aniyomi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1fb17be820469497de323d37947df5990aa98a34",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1fb17be820469497de323d37947df5990aa98a34"
+ },
+ "repo": "DominusCube/aniyomi"
+}

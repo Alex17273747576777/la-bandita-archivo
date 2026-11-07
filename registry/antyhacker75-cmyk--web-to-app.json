@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-14"
+ },
+ "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop th",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/antyhacker75-cmyk--web-to-app.json",
+  "sha256": "ff169058505519497a8fc32d2b6e4f25903f1f0b1ec4d776b950d4b42c70e525"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "antyhacker75-cmyk--web-to-app",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "web-to-app",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "87c605c8e0a7bdafbc3f4344d23df9ea366df0f6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:87c605c8e0a7bdafbc3f4344d23df9ea366df0f6"
+ },
+ "repo": "antyhacker75-cmyk/web-to-app"
+}

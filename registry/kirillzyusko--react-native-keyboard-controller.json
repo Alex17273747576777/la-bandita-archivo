@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2022-05-01",
+  "semantica_http": 200,
+  "ultima_release": "1.0.0-alpha.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "⌨️ Keyboard manager which works in identical way on both iOS and Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kirillzyusko--react-native-keyboard-controller.json",
+  "sha256": "cc4759793bdbca44850e23625d91270abae9d1bc635a45e979dab78faf4028fc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kirillzyusko--react-native-keyboard-controller",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3758,
+  "stars_por_mes": null
+ },
+ "nombre": "react-native-keyboard-controller",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7afcd5e4225e1a81717fc693a1ec281d696d7009",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:7afcd5e4225e1a81717fc693a1ec281d696d7009"
+ },
+ "repo": "kirillzyusko/react-native-keyboard-controller",
+ "web": "https://kirillzyusko.github.io/react-native-keyboard-controller/"
+}

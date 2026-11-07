@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-04-22",
+  "semantica_http": 200,
+  "ultima_release": "1.0.0",
+  "ultimo_push": "2026-05-25"
+ },
+ "descripcion": "an Android app that allows you to sync your Stardew Valley saves across multiple devices.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/stardewvalleymods--cloudsync-mobile.json",
+  "sha256": "345418667e4eaa63bcd9764108ee71fc7634f67d7a9bc45aca57ce76cec6696d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "stardewvalleymods--cloudsync-mobile",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 31,
+  "stars_por_mes": null
+ },
+ "nombre": "CloudSync-Mobile",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "06c4506a5df43ef3757975798e5331cf2f02e5ae",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:06c4506a5df43ef3757975798e5331cf2f02e5ae"
+ },
+ "repo": "StardewValleyMods/CloudSync-Mobile"
+}

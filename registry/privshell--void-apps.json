@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-16",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.1",
+  "ultimo_push": "2026-10-17"
+ },
+ "descripcion": "PowerFull app-manager & Firewall & permission manager with a lot of features.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/privshell--void-apps.json",
+  "sha256": "4facd5d1e8e19537b85a8d65f641f39c988bc5ed14486fccda862c4d84afdf72"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "privshell--void-apps",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 9,
+  "stars_por_mes": null
+ },
+ "nombre": "void-apps",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "88ee97267eb0d8160213a1ee587bb8777a72cb5a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:88ee97267eb0d8160213a1ee587bb8777a72cb5a"
+ },
+ "repo": "privshell/void-apps"
+}

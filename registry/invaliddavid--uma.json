@@ -1,0 +1,57 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-17",
+  "semantica_http": 200,
+  "ultima_release": "049dbda",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "UMA Plugin for the Usagi App or other Kotatsu Forks.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/invaliddavid--uma.json",
+  "sha256": "e34410f3360811eb6af0ba37adca4faccba07ef92bec5bea10dfe6fa1d4975ca"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "invaliddavid--uma",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 84,
+  "stars_por_mes": null
+ },
+ "nombre": "UMA",
+ "piezas": [
+  "07-",
+  "102",
+  "43-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a957b28f328e2494bd1b48916b9f7102b8a5c948",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a957b28f328e2494bd1b48916b9f7102b8a5c948"
+ },
+ "repo": "InvalidDavid/UMA",
+ "web": "https://yumemi.moe/usagi"
+}

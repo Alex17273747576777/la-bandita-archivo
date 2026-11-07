@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-30",
+  "semantica_http": 200,
+  "ultima_release": "ultra-20261030-1339-45",
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "111",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/oxai666--rikkahub-agent-ultra.json",
+  "sha256": "8ab0677825c82d3ce9acbaec5c20ef2a2d2f65e13a00c4e909e453a495a3a26e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "oxai666--rikkahub-agent-ultra",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "RikkaHub-Agent-Ultra",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2ae78b04364d18c70f88995469818af19c6602d5",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:2ae78b04364d18c70f88995469818af19c6602d5"
+ },
+ "repo": "Oxai666/RikkaHub-Agent-Ultra"
+}

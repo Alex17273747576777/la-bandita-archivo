@@ -1,0 +1,56 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2022-11-01",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "💚 End-to-end encrypted cloud for everything.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ente--ente.json",
+  "sha256": "d87b2f65e7b93b7e8e03f11f41e2163fc30db74391f4e7537d8d698010aec93b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ente--ente",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 29857,
+  "stars_por_mes": null
+ },
+ "nombre": "ente",
+ "piezas": [
+  "66-",
+  "75-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2eb6802727b1c096b0a616b0858b6c1821bf9808",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:2eb6802727b1c096b0a616b0858b6c1821bf9808"
+ },
+ "repo": "ente/ente",
+ "web": "https://ente.com"
+}

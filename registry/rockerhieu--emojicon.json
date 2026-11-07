@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2014-03-03",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2020-06-13"
+ },
+ "descripcion": "A library to show emoji in TextView, EditText (like WhatsApp) for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/rockerhieu--emojicon.json",
+  "sha256": "56ed19a0774b7980ea6f51f510b27394a2e70f754811fb823f5cd468b8a2dc14"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rockerhieu--emojicon",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3587,
+  "stars_por_mes": null
+ },
+ "nombre": "emojicon",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c96c4a4f113b4403ea92d1f34f67fb8b9bd5c2e4",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c96c4a4f113b4403ea92d1f34f67fb8b9bd5c2e4"
+ },
+ "repo": "rockerhieu/emojicon"
+}

@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-28",
+  "semantica_http": 200,
+  "ultima_release": "app-v1.0.5",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Free ad-free video downloader for Windows/macOS/Linux/Android — Instagram Reels & Stories, TikTok, YouTube, X/Twitter, 1800+ sites via yt-dlp. Open source by drmikecrypto.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/drmikecrypto--download-everything.json",
+  "sha256": "22fd5c9669e132494f42d9294136bb489185a00e9df9c00702a1dae5c56755d9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "drmikecrypto--download-everything",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 8,
+  "stars_por_mes": null
+ },
+ "nombre": "download-everything",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a526fafa55c63d1b6041ca491a32014a55dce2de",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a526fafa55c63d1b6041ca491a32014a55dce2de"
+ },
+ "repo": "drmikecrypto/download-everything",
+ "web": "https://github.com/drmikecrypto/download-everything/releases"
+}

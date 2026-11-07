@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-27",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "A terminal UI for your Obsidian vault: live-preview notes, backlinks, images, a force-directed graph and an assistant",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/iamrohithrnair--emeraldian.json",
+  "sha256": "5b7f1c41117e79dd9bf777918f4558baa811e61ea3de3d6cb3b9af8db71cd3b6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "iamrohithrnair--emeraldian",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 547,
+  "stars_por_mes": null
+ },
+ "nombre": "emeraldian",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f5e04406d43c13ecb43ce65c5b8798f428b483ec",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:f5e04406d43c13ecb43ce65c5b8798f428b483ec"
+ },
+ "repo": "iamrohithrnair/emeraldian",
+ "web": "https://emeraldian-tui.github.io"
+}

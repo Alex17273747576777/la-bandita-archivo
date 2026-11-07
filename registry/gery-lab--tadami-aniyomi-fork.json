@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-03-02"
+ },
+ "descripcion": "Complete English localization fix and gesture overhaul for the Novel UI. Fixed b",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/gery-lab--tadami-aniyomi-fork.json",
+  "sha256": "37bfe6e1ff6dd4d0d06b9c8dcd87eea35570128581a1239dd671c9d422c64d1b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "gery-lab--tadami-aniyomi-fork",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Tadami-Aniyomi-fork",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9af409c0a9ffec0cd1c0ce6e0cd290b7424f6522",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9af409c0a9ffec0cd1c0ce6e0cd290b7424f6522"
+ },
+ "repo": "gery-lab/Tadami-Aniyomi-fork"
+}

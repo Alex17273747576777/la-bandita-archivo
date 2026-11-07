@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-18"
+ },
+ "descripcion": "Dexxicon Reader for audiobooks, eBooks, and Comics (including Manga)",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/robind42--dexxicon-reader.json",
+  "sha256": "fc704250de028503a18b77ca41c346a2f83de735c40af5a3a6354e9a82ea3636"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "robind42--dexxicon-reader",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "dexxicon-reader",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "93cbb4f1cdf85e69a2a1ea1d3cbb879f45ac1849",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:93cbb4f1cdf85e69a2a1ea1d3cbb879f45ac1849"
+ },
+ "repo": "RobinD42/dexxicon-reader"
+}

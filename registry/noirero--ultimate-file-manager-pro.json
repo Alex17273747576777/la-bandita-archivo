@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-01"
+ },
+ "descripcion": "Ultimate File Manager Pro",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/noirero--ultimate-file-manager-pro.json",
+  "sha256": "866c020c17eee7c34c615719485556a6072ad4bba81f088439c1b4f9a1e56339"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "noirero--ultimate-file-manager-pro",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "ultimate-file-manager-pro",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "dd04dd361bcd81592b0a4e8c5673649e3ef4feb0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:dd04dd361bcd81592b0a4e8c5673649e3ef4feb0"
+ },
+ "repo": "Noirero/ultimate-file-manager-pro"
+}

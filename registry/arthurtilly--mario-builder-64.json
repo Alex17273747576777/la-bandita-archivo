@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2024-05-19",
+  "semantica_http": 200,
+  "ultima_release": "1.0",
+  "ultimo_push": "2026-08-15"
+ },
+ "descripcion": "Mario Builder 64 is a Super Mario 64 ROM hack that allows you to create custom levels in-game.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/arthurtilly--mario-builder-64.json",
+  "sha256": "b55ddf680ef4fa8506a7d18d17da02e92d9b551f1fd5ff51f7bccbf53f4ae625"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "arthurtilly--mario-builder-64",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 420,
+  "stars_por_mes": null
+ },
+ "nombre": "Mario-Builder-64",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9718a939e90dbc906b18a4bee6c51285e7bc32b1",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:9718a939e90dbc906b18a4bee6c51285e7bc32b1"
+ },
+ "repo": "arthurtilly/Mario-Builder-64"
+}

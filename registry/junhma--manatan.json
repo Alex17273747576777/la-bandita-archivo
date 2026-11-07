@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-02-12"
+ },
+ "descripcion": "Seamless immersion language learning for anime, manga, novels on all platforms",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/junhma--manatan.json",
+  "sha256": "fa9defd64da96ad5e0c4464bbd601705c826b7ef5525250d19ba1116028b6de4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "junhma--manatan",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Manatan",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "809ee7579830c0089dcc851269871b7b584ccf2e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:809ee7579830c0089dcc851269871b7b584ccf2e"
+ },
+ "repo": "junhma/Manatan"
+}

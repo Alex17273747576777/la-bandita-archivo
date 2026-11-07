@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-12",
+  "semantica_http": 200,
+  "ultima_release": "v1.6.9",
+  "ultimo_push": "2026-10-14"
+ },
+ "descripcion": "A featured version added functions such as Gamepad Support of Connect-Screen. / 添加了手柄支持等独特功能的屏易连（connect-screen）衍生版本。",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/strongfive0528--pylplus.json",
+  "sha256": "117c331e488f65a424a7966c380ed61bbac86f172e1420c31a698474435d00b2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "strongfive0528--pylplus",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "PYLPlus",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d8fb2701145a762a5b43a54f986e5d3db43b0b26",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d8fb2701145a762a5b43a54f986e5d3db43b0b26"
+ },
+ "repo": "strongfive0528/PYLPlus"
+}

@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2020-07-31",
+  "semantica_http": 200,
+  "ultima_release": "1.20.1-12001",
+  "ultimo_push": "2023-11-25"
+ },
+ "descripcion": "亦搜，亦看，亦闻  manga&novel reader, audio&video player in one app developed by flutter",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mabdc--eso.json",
+  "sha256": "286a497f3b2171127320bcf0a1a024f8fe866747091cba64574b2c0bdc8d3708"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mabdc--eso",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1773,
+  "stars_por_mes": null
+ },
+ "nombre": "eso",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4815b92a7a8a0c4337efb70e5bd1948ce17904a8",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4815b92a7a8a0c4337efb70e5bd1948ce17904a8"
+ },
+ "repo": "mabDc/eso",
+ "web": "https://github.com/mabDc/eso_source"
+}

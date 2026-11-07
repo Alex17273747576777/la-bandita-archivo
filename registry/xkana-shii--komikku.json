@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-09-18",
+  "semantica_http": 200,
+  "ultima_release": "v1.17.0",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "Personal Komikku app. This will break at least every 2 updates.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/xkana-shii--komikku.json",
+  "sha256": "cd7b624f7b7da5d0f0eb6d70b81efa0b4d839a62253e45422509b47a3f56fd9c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "xkana-shii--komikku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 27,
+  "stars_por_mes": null
+ },
+ "nombre": "komikku",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5f64ab45cc1569eeb8a07ffcedf8e4f7794e7ec2",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:5f64ab45cc1569eeb8a07ffcedf8e4f7794e7ec2"
+ },
+ "repo": "xkana-shii/komikku"
+}

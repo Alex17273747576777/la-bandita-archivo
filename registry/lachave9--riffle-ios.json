@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-23"
+ },
+ "descripcion": "Read and listen to your books on Android, from any of several supported sources.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lachave9--riffle-ios.json",
+  "sha256": "cdc4feb1e05a28b3cd0e14f0ff16591ecffe78d2e134de0ceba8d2fffc3e0377"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lachave9--riffle-ios",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "riffle-ios",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "805378093a7bf16fa063dd064bd6edcb2b6e1e2c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:805378093a7bf16fa063dd064bd6edcb2b6e1e2c"
+ },
+ "repo": "lachave9/riffle-ios"
+}

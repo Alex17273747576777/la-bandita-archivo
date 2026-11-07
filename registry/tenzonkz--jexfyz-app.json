@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-12",
+  "semantica_http": 200,
+  "ultima_release": "firmware-qc-latest",
+  "ultimo_push": "2026-10-25"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/tenzonkz--jexfyz-app.json",
+  "sha256": "c5561acfad688a11e0d5b3eb3657b0248f0fb7f485c99e80db033203756cdbfd"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "tenzonkz--jexfyz-app",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "JEXFYZ-App",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "df5490fae6932553eeb6a7bcfbe7abe2b5feadc1",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:df5490fae6932553eeb6a7bcfbe7abe2b5feadc1"
+ },
+ "repo": "TenzoNkz/JEXFYZ-App"
+}

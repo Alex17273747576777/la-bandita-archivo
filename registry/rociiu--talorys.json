@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-19",
+  "semantica_http": 200,
+  "ultima_release": "create-talorys@0.1.7",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/rociiu--talorys.json",
+  "sha256": "645926b78bcf695f4cce4bb7863cbeab4d476b921b285cd4100a7c2f97059b58"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rociiu--talorys",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1435,
+  "stars_por_mes": null
+ },
+ "nombre": "talorys",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "420005a3ce1b432eb1c46112289fa84d2a2271e4",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:420005a3ce1b432eb1c46112289fa84d2a2271e4"
+ },
+ "repo": "rociiu/talorys",
+ "web": "https://rociiu.github.io/talorys/"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-01",
+  "semantica_http": 200,
+  "ultima_release": "v1.33.0-fork.1",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Morphe app patcher for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/andersonlucasg3--morphe-manager.json",
+  "sha256": "9daae1923b5d00e0d85d10629fa2cf9476d21e393e468e41eca07e2a3f8e65f5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "andersonlucasg3--morphe-manager",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "morphe-manager",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ea98a7f90c8ed5cecf578f3d8bb592fb370b6020",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ea98a7f90c8ed5cecf578f3d8bb592fb370b6020"
+ },
+ "repo": "andersonlucasg3/morphe-manager"
+}

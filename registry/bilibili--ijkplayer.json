@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-08-13"
+ },
+ "descripcion": "Android/iOS video player based on FFmpeg n3.4, with MediaCodec, VideoToolbox support.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/bilibili--ijkplayer.json",
+  "sha256": "5ceef6a86287adaa01ded21f078b5405837ca125cc467d5015bd1d01eb2fef9e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "bilibili--ijkplayer",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 33231,
+  "stars_por_mes": null
+ },
+ "nombre": "ijkplayer",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "30eb9441945da795079492041a791c121d2b8206",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:30eb9441945da795079492041a791c121d2b8206"
+ },
+ "repo": "bilibili/ijkplayer"
+}

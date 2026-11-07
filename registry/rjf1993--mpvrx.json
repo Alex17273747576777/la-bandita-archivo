@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-09"
+ },
+ "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anyw",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/rjf1993--mpvrx.json",
+  "sha256": "00ab68ec400bfd373c14d7a679be1b9fbe152dac74d113916d9dddb69d488002"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rjf1993--mpvrx",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mpvRx",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "00e0c5e803ab53e5757426cbf2248448ba1f49bf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:00e0c5e803ab53e5757426cbf2248448ba1f49bf"
+ },
+ "repo": "rjf1993/mpvRx"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-15"
+ },
+ "descripcion": "One library for manga and light novels. A free and open source reader for Androi",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/apauruseya7866er--reikai.json",
+  "sha256": "59c65a0325d9ca6a3f2b85cfbe76e91b90541d61614aea1ad5f2727cf6173bab"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "apauruseya7866er--reikai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Reikai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "286844e66af6c2c9ab8af33c7b1a3b92406babc8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:286844e66af6c2c9ab8af33c7b1a3b92406babc8"
+ },
+ "repo": "apauruseya7866er/Reikai"
+}

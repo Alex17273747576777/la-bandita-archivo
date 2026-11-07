@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-19"
+ },
+ "descripcion": "An universal search app for Android which can search apps, shortcuts, contacts,",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/techwithnidhi--quick-search.json",
+  "sha256": "bcd1f6334aac5d1bf53f43ff945b83d9e8fbf51150c7c8a92999819d7d90d701"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "techwithnidhi--quick-search",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "quick-search",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3014443ee580d53bce516809f30880c8e3f87369",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3014443ee580d53bce516809f30880c8e3f87369"
+ },
+ "repo": "techwithnidhi/quick-search"
+}

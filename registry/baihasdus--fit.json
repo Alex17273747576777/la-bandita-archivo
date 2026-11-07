@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-15"
+ },
+ "descripcion": "Get in shape and great health",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/baihasdus--fit.json",
+  "sha256": "4f115ad79e15b3d961c6ad8afe484eb26d9c7ba25f9c5b19352794245bcd5f61"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "baihasdus--fit",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Fit",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f916294ff09d8ed0d11ce993df764e233fad9166",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f916294ff09d8ed0d11ce993df764e233fad9166"
+ },
+ "repo": "BaihasDUS/Fit"
+}

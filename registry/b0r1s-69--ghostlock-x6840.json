@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-20",
+  "semantica_http": 200,
+  "ultima_release": "x6840-v1",
+  "ultimo_push": "2026-10-20"
+ },
+ "descripcion": "GhostLock port for the Infinix Smart 20 (X6840): kernel profile, W3 seccomp analysis, and Shizuku + BakaSU root notes.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/b0r1s-69--ghostlock-x6840.json",
+  "sha256": "592d327b779b904525b31d3478b84a164323be737bf66f1d58a608ddf318a2c5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "b0r1s-69--ghostlock-x6840",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "ghostlock-x6840",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "76d0f1af76b4d95be1561760df6b17180dd8ecc4",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:76d0f1af76b4d95be1561760df6b17180dd8ecc4"
+ },
+ "repo": "b0r1s-69/ghostlock-x6840"
+}

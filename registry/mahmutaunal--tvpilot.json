@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-21",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-09-21"
+ },
+ "descripcion": "Remote-first system control and app management utility for Android TV / Google TV, with optional Shizuku-powered advanced actions.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mahmutaunal--tvpilot.json",
+  "sha256": "5da56508c563fb836e46ef6353a23d6abf6416255b7ea189ed37dc02e4282a42"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mahmutaunal--tvpilot",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 9,
+  "stars_por_mes": null
+ },
+ "nombre": "TVPilot",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "bdd0f830215ef1692071a8d7debfcb097a9aa17a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:bdd0f830215ef1692071a8d7debfcb097a9aa17a"
+ },
+ "repo": "mahmutaunal/TVPilot",
+ "web": "https://www.alpwarestudio.com/en/products/tvpilot/"
+}

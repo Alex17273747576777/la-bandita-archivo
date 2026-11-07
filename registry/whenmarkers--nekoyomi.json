@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-17"
+ },
+ "descripcion": "Nekoyomi — anime and manga reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/whenmarkers--nekoyomi.json",
+  "sha256": "eb400b9c9e9075ce990049913be6e7d522304ba42cacfe0f0bb42cd36d289317"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "whenmarkers--nekoyomi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Nekoyomi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "680e243e3d3410fdc75d038c15abeacee7d61069",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:680e243e3d3410fdc75d038c15abeacee7d61069"
+ },
+ "repo": "WhenMarkers/Nekoyomi"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2016-07-27",
+  "semantica_http": 200,
+  "ultima_release": "v0.5.0",
+  "ultimo_push": "2026-10-15"
+ },
+ "descripcion": "iOS/Android image picker with support for camera, video, configurable compression, multiple images and cropping",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ivpusic--react-native-image-crop-picker.json",
+  "sha256": "21752a4bbaede8772da72bc791e3fc7991225be4936ed60aa7290bfbe20ba9c0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ivpusic--react-native-image-crop-picker",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 6351,
+  "stars_por_mes": null
+ },
+ "nombre": "react-native-image-crop-picker",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a18a50d4e7935aeaf45ce44b098bdcac3365be2c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a18a50d4e7935aeaf45ce44b098bdcac3365be2c"
+ },
+ "repo": "ivpusic/react-native-image-crop-picker"
+}

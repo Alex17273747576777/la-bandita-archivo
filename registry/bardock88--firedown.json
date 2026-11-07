@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-14"
+ },
+ "descripcion": "Android browser and downloader.  Built on GeckoView, FFmpeg, uBlock Origin built",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/bardock88--firedown.json",
+  "sha256": "13f10d45f54ea34f11765e69bb15abeafbad9afdec1dd115ded983c9909ddc91"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "bardock88--firedown",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "firedown",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a1a83c3e6cf5962c46b1a9e183f9337a01874ba5",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a1a83c3e6cf5962c46b1a9e183f9337a01874ba5"
+ },
+ "repo": "Bardock88/firedown"
+}

@@ -1,0 +1,77 @@
+{
+ "id": "obtainium",
+ "nombre": "Obtainium",
+ "repo": "ImranR98/Obtainium",
+ "autores": [
+  {
+   "nombre": "ImranR98",
+   "enlace": "https://github.com/ImranR98"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/ImranR98/Obtainium/blob/main/LICENSE.txt"
+ },
+ "nivel": "principiante",
+ "tarea": "Instalar y mantener al día las aplicaciones que se publican en su propio repositorio, sin pasar por ninguna tienda y sin volver a buscar el enlace cada mes.",
+ "capitulo": 4,
+ "orden": 1,
+ "para_quien": {
+  "es": "para quien ya sabe qué aplicación quiere y está cansado de perseguir el enlace de la última entrega a mano.",
+  "no_es": "para quien busca descubrir aplicaciones nuevas: Obtainium no tiene catálogo ni recomendaciones, sólo vigila lo que le señalas."
+ },
+ "manos": [
+  "Baja la APK de la última entrega desde la página de entregas del repositorio y comprueba que la huella del archivo coincide con el `.sha256` que el proyecto publica al lado.",
+  "Instálala aceptando el aviso de Play Protect: es normal en un paquete que no pasó por una tienda.",
+  "Añade la primera aplicación pegando la dirección de su repositorio; Obtainium lee las entregas y te muestra la versión que encontró antes de instalar nada.",
+  "Revisa en los ajustes de esa aplicación la expresión regular de la versión y el filtro de archivos: ahí decides qué adjunto se considera la aplicación y cuál es documentación o código fuente.",
+  "Activa la comprobación periódica en segundo plano y limita las actualizaciones automáticas a las aplicaciones que quieras; en el resto, deja que te avise y decides tú.",
+  "Exporta la lista de aplicaciones a un archivo y guárdalo fuera del teléfono, con la fecha: reinstalar el teléfono se vuelve cuestión de minutos."
+ ],
+ "resultado_esperado": "Tus aplicaciones se actualizan solas desde su origen, sin tienda de por medio, y tienes una lista exportada que reconstruye toda la configuración si cambias de teléfono.",
+ "si_sale_mal": [
+  "Si la actualización falla con un error de firma, el paquete nuevo no lo firmó la misma llave que el instalado: reinstalar implica borrar los datos, así que exporta antes.",
+  "Si Obtainium no encuentra la versión correcta de un proyecto, casi siempre es el filtro de archivos o la expresión regular: apúntalo a un adjunto concreto en lugar de dejarlo automático.",
+  "Si una aplicación se actualiza sola y se rompe, desactiva la actualización automática de esa entrada y quédate en la versión anterior hasta que el proyecto publique un arreglo."
+ ],
+ "deshacer": "Desinstalar Obtainium no toca las aplicaciones que instaló: siguen funcionando y se actualizan a mano. Para revertir una aplicación concreta a su versión anterior hay que desinstalarla primero, porque Android no acepta bajar de versión conservando los datos.",
+ "cabeza": [
+  "Obtainium no es un repositorio ni una tienda: es un lector. Entra a la página del proyecto, busca las entregas, se queda con el archivo que le indicaste y comprueba por su cuenta el número de versión leyendo el interior del APK. Eso último es lo que lo distingue de un lector de titulares: un proyecto puede titular una entrega «versión estable» y llevar dentro un `versionCode` más bajo; Obtainium lee el paquete, no el título.",
+  "Esa misma forma de trabajar marca su límite: instala lo que el proyecto publique, sin verificar quién lo compiló. Si la cuenta de GitHub de un autor se ve comprometida y se publica una entrega falsa, Obtainium la va a ofrecer como una actualización legítima. La defensa no está en la aplicación, está en la huella de la llave, y esa comprobación se hace aparte, con AppVerifier o con `apksigner`.",
+  "Su valor real aparece con el tiempo: veintiuna mil ciento ochenta y una estrellas y un millón quinientas cincuenta y tres mil setecientas sesenta y cinco descargas en sus diez últimas entregas no dicen nada sobre su calidad, pero sí sobre cuánta gente depende de él para no volver a una tienda. En la entrega del 1 de noviembre de 2026 publica treinta y dos adjuntos: por cada sabor y arquitectura, la APK, su `.idsig`, la suma `.sha256` y la firma `.sha256.sig` de esa suma. Cuatro piezas por archivo, que permiten comprobar la descarga y al firmante antes de instalar nada."
+ ],
+ "limites": [
+  "No verifica firmas: instala lo que la página del proyecto publique, así que una cuenta comprometida se traduce en una actualización falsa ofrecida como normal.",
+  "No tiene catálogo: no sirve para descubrir software, sólo para vigilar lo que ya conoces.",
+  "Depende de la forma de cada página: cuando un proyecto cambia cómo publica, hay que reajustar el filtro de archivos de esa entrada.",
+  "Las actualizaciones automáticas en segundo plano dependen de que el sistema deje instalar sin confirmación; en varios teléfonos hay que darle permiso explícito una vez."
+ ],
+ "oficio": {
+  "dato": "Cada aplicación instalada guarda en su expediente el nombre de quien la instaló. Android lo llama `installerPackageName` y no se puede falsificar desde una aplicación normal: el instalador de Google, el instalador del sistema, o la aplicación que abrió la sesión de instalación. En la práctica, eso significa que el teléfono recuerda de dónde vino cada cosa, y que se puede auditar. Una aplicación que dice haber llegado de un sitio y figura instalada desde otro es una pregunta que exige respuesta. Y sirve para lo contrario también: si instalaste algo con Obtainium, el expediente lo delata, y si un día encontrás un instalador distinto es que algo la actualizó por fuera.",
+  "como_comprobar": "Elegí cualquier aplicación instalada y pedile al sistema su expediente. En la línea del instalador vas a ver el paquete que la puso ahí; si está vacía, se instaló por consola con `pm install`. Comparalo con lo que recordás haber hecho.",
+  "comando": "adb shell dumpsys package com.ejemplo.app | grep -iE \"installerPackageName|versionName|lastUpdateTime\""
+ },
+ "riesgos": [
+  "Confiar en la entrega de un proyecto cuya cuenta no se comprueba: Obtainium no distingue una publicación legítima de una publicada con la cuenta robada.",
+  "Instalar la versión de un proyecto desde su repositorio cuando ya tenías la de una tienda que recompila: la firma no coincide y sólo se resuelve desinstalando."
+ ],
+ "alternativas": [
+  "f-droid/fdroidclient",
+  "accrescent/accrescent",
+  "rumboalla/apkupdater"
+ ],
+ "senal": {
+  "estrellas": 21206,
+  "nota": 73,
+  "edad_dias": 1546,
+  "ultima_entrega": "2026-11-01",
+  "descargas_10": 1560260,
+  "contribuyentes": 100,
+  "repo_mb": 19.1,
+  "ci": 3,
+  "incidencias": "358 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de ImranR98 · GPL-3.0 · medido el 3 de noviembre de 2026 en su repositorio, no en un espejo"
+}

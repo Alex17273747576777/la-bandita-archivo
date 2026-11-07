@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-16",
+  "semantica_http": 200,
+  "ultima_release": "controller-mouse-debug-2026-10-16",
+  "ultimo_push": "2026-10-16"
+ },
+ "descripcion": "GKME local controller, mouse, gyro, and Shizuku input mode",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/robertpiers--gkme-controller-mouse.json",
+  "sha256": "88429919ef177311166f2a3c39f835b3e2016651b180ac43ea3e69bdbbbb352f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "robertpiers--gkme-controller-mouse",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "gkme-controller-mouse",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4585fd904d52e5d8cf4f6a49fb8ebacfb21f7387",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4585fd904d52e5d8cf4f6a49fb8ebacfb21f7387"
+ },
+ "repo": "RobertPiers/gkme-controller-mouse",
+ "web": "https://github.com/4zyz4/GKME"
+}

@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-31",
+  "semantica_http": 200,
+  "ultima_release": "v1.1.3",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "High-performance standalone Android gamepad keymapper powered by Shizuku. Free & open-source alternative to Mantis & Panda.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kinou-p--android-open-mapper.json",
+  "sha256": "9ffc192562b3cb492c04e7256143e817f84f8809a54e938efc7a1a0d306e5528"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kinou-p--android-open-mapper",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («noncommercial»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 29,
+  "stars_por_mes": null
+ },
+ "nombre": "android-open-mapper",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b713046c8d864156d2a299222c1332da5b937c3d",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b713046c8d864156d2a299222c1332da5b937c3d"
+ },
+ "repo": "kinou-p/android-open-mapper"
+}

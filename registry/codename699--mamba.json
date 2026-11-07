@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-04-26"
+ },
+ "descripcion": "An app for manga and anime",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/codename699--mamba.json",
+  "sha256": "cb48fd9e907b6e74d2a81e24eacc0b503edf65b1549e95bae99ce4ed4a1ad962"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "codename699--mamba",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Mamba",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b6aa5e34db450fa9cdeec8d33ff730711285f968",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b6aa5e34db450fa9cdeec8d33ff730711285f968"
+ },
+ "repo": "Codename699/Mamba"
+}

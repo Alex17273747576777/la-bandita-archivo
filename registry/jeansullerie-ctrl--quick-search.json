@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-14"
+ },
+ "descripcion": "An universal search app for Android which can search apps, shortcuts, contacts,",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/jeansullerie-ctrl--quick-search.json",
+  "sha256": "a41359380f73784dacae21bc7fdd13b131e52b8964011fe282bd75223c23af66"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jeansullerie-ctrl--quick-search",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "quick-search",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ddea1da634503db42bd0cebb3b38a45d54de5ed0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ddea1da634503db42bd0cebb3b38a45d54de5ed0"
+ },
+ "repo": "jeansullerie-ctrl/quick-search"
+}

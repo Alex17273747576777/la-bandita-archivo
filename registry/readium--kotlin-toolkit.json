@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2021-09-24",
+  "semantica_http": 200,
+  "ultima_release": "2.1.0",
+  "ultimo_push": "2026-10-16"
+ },
+ "descripcion": "A toolkit for ebooks, audiobooks and comics written in Kotlin",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/readium--kotlin-toolkit.json",
+  "sha256": "7f09074c8e2abddafd97b8ef20d78dc38e3c29d3e73445e00e60ca316cfef3ae"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "readium--kotlin-toolkit",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "BSD-3-Clause",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 395,
+  "stars_por_mes": null
+ },
+ "nombre": "kotlin-toolkit",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "89b96c20c447d0aec17db57a06456b7decffde4c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:89b96c20c447d0aec17db57a06456b7decffde4c"
+ },
+ "repo": "readium/kotlin-toolkit",
+ "web": "https://readium.org/kotlin-toolkit"
+}

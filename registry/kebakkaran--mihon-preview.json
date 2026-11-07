@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-02-17"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kebakkaran--mihon-preview.json",
+  "sha256": "231b225852c244ed0dd4b12cbf8cb416059fc54d9c0c1174959da0b8546270dd"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kebakkaran--mihon-preview",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mihon-preview",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "fce268f23e8b38a8a0b99d34ac3c126b29ee23cc",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:fce268f23e8b38a8a0b99d34ac3c126b29ee23cc"
+ },
+ "repo": "Kebakkaran/mihon-preview"
+}

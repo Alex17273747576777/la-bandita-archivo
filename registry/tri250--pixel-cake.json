@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-18",
+  "semantica_http": 200,
+  "ultima_release": "v2.0.0-alpha03",
+  "ultimo_push": "2026-10-29"
+ },
+ "descripcion": "AI Photo Editor",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/tri250--pixel-cake.json",
+  "sha256": "d40cb0352ecd0fe833b6edcb3866bc71d99ca3b84f785b1569fce3f68961cba2"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "tri250--pixel-cake",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "pixel-cake",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f2f6a30a9fde89fffdf4a92f444f126aee0daa66",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:f2f6a30a9fde89fffdf4a92f444f126aee0daa66"
+ },
+ "repo": "Tri250/pixel-cake"
+}

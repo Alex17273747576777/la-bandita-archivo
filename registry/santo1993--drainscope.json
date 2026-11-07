@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-21",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-21"
+ },
+ "descripcion": "Find out which app and which hardware part drains your Android battery. Measured with Shizuku, works rootless with usage stats.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/santo1993--drainscope.json",
+  "sha256": "d19168d5015ac96ee33f64ede31fa75d349c54aab5373ae2585de688d70a2ab9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "santo1993--drainscope",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "drainscope",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "6f7628cdceaf1f0a6e5f891880ed32ffdeeff6a8",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:6f7628cdceaf1f0a6e5f891880ed32ffdeeff6a8"
+ },
+ "repo": "santo1993/drainscope",
+ "web": "https://github.com/santo1993/drainscope"
+}

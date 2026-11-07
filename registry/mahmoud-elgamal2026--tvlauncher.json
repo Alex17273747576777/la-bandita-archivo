@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-27",
+  "semantica_http": 200,
+  "ultima_release": "v3",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mahmoud-elgamal2026--tvlauncher.json",
+  "sha256": "e12f42890581924e550bb9769ac3a1e9e852e9033ba062464a703a2bc0814477"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mahmoud-elgamal2026--tvlauncher",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "TVLauncher",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "50b25a85d919ad814f2a1a71a63d0f9199384c6b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:50b25a85d919ad814f2a1a71a63d0f9199384c6b"
+ },
+ "repo": "Mahmoud-Elgamal2026/TVLauncher"
+}

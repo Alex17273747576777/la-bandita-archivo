@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-22"
+ },
+ "descripcion": "Morphe app patcher for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/msadoun--morphe-manager.json",
+  "sha256": "f87974a586cc0d6ce7d81d138851b19a7f5adb45f7af65c416d7670b3cea7b4f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "msadoun--morphe-manager",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "morphe-manager",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1b460b8522b228a806b6ea134baeef2311960e74",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1b460b8522b228a806b6ea134baeef2311960e74"
+ },
+ "repo": "msadoun/morphe-manager"
+}

@@ -1,0 +1,56 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-03-28",
+  "semantica_http": 200,
+  "ultima_release": "v0.18.1.2-nested-categories",
+  "ultimo_push": "2026-10-29"
+ },
+ "descripcion": "An app for manga and anime",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/med-amine0--aniyomi_plus.json",
+  "sha256": "3f1ef8c81a9e65c389c2edcf8a84640462c85a158e199f184f83b8d68b3f74d8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "med-amine0--aniyomi_plus",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 9,
+  "stars_por_mes": null
+ },
+ "nombre": "aniyomi_plus",
+ "piezas": [
+  "102",
+  "104"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2fb86340a7b2eff7100fefe4cfe6a29ac8ade000",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:2fb86340a7b2eff7100fefe4cfe6a29ac8ade000"
+ },
+ "repo": "Med-amine0/aniyomi_plus",
+ "web": "https://aniyomi.org"
+}

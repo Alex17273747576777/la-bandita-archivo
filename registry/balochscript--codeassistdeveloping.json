@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-08-30"
+ },
+ "descripcion": "Experimental IDE for building Android applicatons on Android.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/balochscript--codeassistdeveloping.json",
+  "sha256": "8e0406a0dd6a6f805d724a42fc636d1a4cae12b85ac4873f9accb4fab3450d1a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "balochscript--codeassistdeveloping",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "CodeAssistDeveloping",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7fee0eba6d3cb8b6c261bfdd409438725842c0ec",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7fee0eba6d3cb8b6c261bfdd409438725842c0ec"
+ },
+ "repo": "balochscript/CodeAssistDeveloping"
+}

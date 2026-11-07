@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-07",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "A native music streaming client, built with Rust and GPUI",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sonorahq--sonora.json",
+  "sha256": "8c7661b51d43f86b24189dc3c0d7bfe4f1750574671e049a41788e5a45aade77"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sonorahq--sonora",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2592,
+  "stars_por_mes": null
+ },
+ "nombre": "sonora",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "265f4c95b73fbe6a33dbb84e6d68fc1892670e3b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:265f4c95b73fbe6a33dbb84e6d68fc1892670e3b"
+ },
+ "repo": "sonorahq/sonora",
+ "web": "https://sonorahq.org/"
+}

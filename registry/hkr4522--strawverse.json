@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-09"
+ },
+ "descripcion": "A fast, open-source anime and manga downloader for Windows, Linux, and Android w",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hkr4522--strawverse.json",
+  "sha256": "ffe62fc0f66c9235a08d7c016d062eb905c271c4c45973576a8c972022ba12ce"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hkr4522--strawverse",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "StrawVerse",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "87069980a232cd92120d739238e904c28ffab54d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:87069980a232cd92120d739238e904c28ffab54d"
+ },
+ "repo": "hkr4522/StrawVerse"
+}

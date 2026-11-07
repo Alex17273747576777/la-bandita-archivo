@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-10-21",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.11",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "A modern, feature-rich YouTube and YouTube  Music client with local recommendation for Android built with Jetpack Compose",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/flow-tube--flow.json",
+  "sha256": "abe919193c0788dd014ecda7dcf01600eb7e4cd0afe801e8d10f6243aa0eed52"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "flow-tube--flow",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3280,
+  "stars_por_mes": null
+ },
+ "nombre": "Flow",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3130cf1c83fb05f614ca268a0550ca91299d78d9",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:3130cf1c83fb05f614ca268a0550ca91299d78d9"
+ },
+ "repo": "Flow-Tube/Flow",
+ "web": "https://flow-tube.org"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-20",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-29"
+ },
+ "descripcion": "RELIABLE OPEN SOURCE EXPLORER ( powered by shizuku ) 🚀",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/narayanchetri--rose.json",
+  "sha256": "637815e1258bf106db788c5d64e14750ae843774d02201187a290c61afab2efb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "narayanchetri--rose",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 34,
+  "stars_por_mes": null
+ },
+ "nombre": "ROSE",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e83183780c33209f096a4fd335563132f5765669",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:e83183780c33209f096a4fd335563132f5765669"
+ },
+ "repo": "NarayanChetri/ROSE"
+}

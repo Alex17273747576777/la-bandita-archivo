@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-29"
+ },
+ "descripcion": "Proof-of-concept WEB proxy server for Telegram",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/telegramdesktop--tproxy-server.json",
+  "sha256": "79e45c793f78501e4636bc268503e7762778ae6676f8a8b423c3428db7010d7f"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "telegramdesktop--tproxy-server",
+ "licencia": {
+  "archivo": "README (texto completo)",
+  "metodo": "texto-license",
+  "nota": "licencia declarada por el proyecto en su propio README; el endpoint de GitHub no la clasifica",
+  "spdx": "mit",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 442,
+  "stars_por_mes": null
+ },
+ "nombre": "tproxy-server",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c8adb8b7c6b7fc46c12ae3acb68be9070c26a8e8",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c8adb8b7c6b7fc46c12ae3acb68be9070c26a8e8"
+ },
+ "repo": "telegramdesktop/tproxy-server"
+}

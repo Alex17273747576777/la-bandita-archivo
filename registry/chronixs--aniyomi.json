@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2023-04-07"
+ },
+ "descripcion": "Unofficial fork of Tachiyomi for anime",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/chronixs--aniyomi.json",
+  "sha256": "7a31ce557e41d405c420e1ab2033332f09a02aa28766215d02636cbe8052caf6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "chronixs--aniyomi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "aniyomi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2c1dbdc0088a93bc81de59c9a4fd982c52ae6278",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2c1dbdc0088a93bc81de59c9a4fd982c52ae6278"
+ },
+ "repo": "Chronixs/aniyomi"
+}

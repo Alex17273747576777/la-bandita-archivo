@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-25",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0-alpha.1",
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "Adaptive native Nextcloud client for mobile and desktop, with dynamic support for the wider Nextcloud app ecosystem.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/obiente--native.json",
+  "sha256": "91762aca3ccfb4d7c5c267c2691f1ee6971f473bea2c37b42c1a5a9d7b13fd28"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "obiente--native",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 729,
+  "stars_por_mes": null
+ },
+ "nombre": "native",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "44035db590710a5497280ed4424e17976ef645a7",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:44035db590710a5497280ed4424e17976ef645a7"
+ },
+ "repo": "Obiente/native",
+ "web": "https://nati.ve"
+}

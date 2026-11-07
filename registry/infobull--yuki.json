@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-17"
+ },
+ "descripcion": "Catalog of open-source Android applications that use the Shizuku permission fram",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/infobull--yuki.json",
+  "sha256": "0086a5eecf0c4f7ac7b4d523e5bdc4983f4cac36581400283803127de2fc70db"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "infobull--yuki",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "yuki",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4ef03c1161687cc0c7f01ce84bbd37172e1733b5",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4ef03c1161687cc0c7f01ce84bbd37172e1733b5"
+ },
+ "repo": "infobull/yuki"
+}

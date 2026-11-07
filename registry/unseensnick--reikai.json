@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-05-07",
+  "semantica_http": 200,
+  "ultima_release": "v1.9.7.5.1",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "One library for manga and light novels. A free and open source reader for Android, built on Mihon, with multi-source grouping and merge.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/unseensnick--reikai.json",
+  "sha256": "e8c7f4816f07d6884c908be148d117bc5e05ab7e7fd6cd523227420303838f1c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "unseensnick--reikai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 44,
+  "stars_por_mes": null
+ },
+ "nombre": "Reikai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2bfcfa8ea92ab0073d6d4b2eab246dcdcba10997",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:2bfcfa8ea92ab0073d6d4b2eab246dcdcba10997"
+ },
+ "repo": "unseensnick/Reikai",
+ "web": "https://reikai.app/"
+}

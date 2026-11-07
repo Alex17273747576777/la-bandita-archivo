@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-15",
+  "semantica_http": 200,
+  "ultima_release": "v0.2.0",
+  "ultimo_push": "2026-10-29"
+ },
+ "descripcion": "Privacy-first Tasker-style automation for Android. Local if/then rules, no cloud, no trackers. Optional Shizuku/root. FOSS.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/wized2--latch.json",
+  "sha256": "78fca6cea481fd1b6ef7236cffdb95f3baff68d39c7aaa1417afb61e6d76b006"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "wized2--latch",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 17,
+  "stars_por_mes": null
+ },
+ "nombre": "Latch",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4bafaed836b6177d7311eacb9670d1f9c86b41fd",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4bafaed836b6177d7311eacb9670d1f9c86b41fd"
+ },
+ "repo": "wized2/Latch",
+ "web": "https://wized2.github.io/Latch/"
+}

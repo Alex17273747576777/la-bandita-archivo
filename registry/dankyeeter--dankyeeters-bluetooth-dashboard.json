@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-18",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-10-14"
+ },
+ "descripcion": "Hearing-test-driven system EQ and Bluetooth link-quality monitor for Android. Fully offline, no INTERNET permission.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dankyeeter--dankyeeters-bluetooth-dashboard.json",
+  "sha256": "0d98fb71fbfca919d22da45c0150c25722739ed2a985a0cc5b8b5cc79682448b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dankyeeter--dankyeeters-bluetooth-dashboard",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "dankyeeters-bluetooth-dashboard",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "504c7cd87153ba3451a76cd307ae7316fff3a7c6",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:504c7cd87153ba3451a76cd307ae7316fff3a7c6"
+ },
+ "repo": "DankYeeter/dankyeeters-bluetooth-dashboard"
+}

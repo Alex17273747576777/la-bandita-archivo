@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-08-01"
+ },
+ "descripcion": "Anime Watcher, Manga Reader, and Novel Reader as three separate apps, same UI",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/sokoobo--otakuworld.json",
+  "sha256": "8532d2bf4fa0fd1f91b667065d9f5609c6f9e956aea5c83e481296ba56b877b5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sokoobo--otakuworld",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OtakuWorld",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e151d31cab4720b0972bb94dec2f28d2d24525ee",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e151d31cab4720b0972bb94dec2f28d2d24525ee"
+ },
+ "repo": "sokoobo/OtakuWorld"
+}

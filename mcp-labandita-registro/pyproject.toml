@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "labandita-registro"
+version = "1.0.0"
+description = "Servidor MCP de solo lectura sobre el registro verificado de La Bandita"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Alexis (La Bandita)" }]
+keywords = ["mcp", "android", "shizuku", "registry", "verification", "foss"]
+dependencies = ["mcp>=2,<3"]
+
+[project.urls]
+Repository = "https://github.com/Alex17273747576777/la-bandita-archivo"
+
+[project.scripts]
+labandita-registro = "servidor:main"
+
+[tool.setuptools]
+py-modules = ["servidor"]

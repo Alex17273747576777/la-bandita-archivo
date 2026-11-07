@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2020-07-30",
+  "semantica_http": 200,
+  "ultima_release": "0.1-alpha",
+  "ultimo_push": "2024-10-26"
+ },
+ "descripcion": "Port of the double tap on back of device feature from Android 12 to any Android 7.0+ device",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kieronquinn--taptap.json",
+  "sha256": "b215a57965fea3a76cff540569428700c1468c6df28b75303caf86f527fb32b9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "kieronquinn--taptap",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 4060,
+  "stars_por_mes": null
+ },
+ "nombre": "TapTap",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e4dce333fa8f2fe4e73bec64b52fec6dbe34ab7c",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:e4dce333fa8f2fe4e73bec64b52fec6dbe34ab7c"
+ },
+ "repo": "KieronQuinn/TapTap"
+}

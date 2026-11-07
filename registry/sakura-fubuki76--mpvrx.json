@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-03",
+  "semantica_http": 200,
+  "ultima_release": "v2.7.3",
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "mpvRX with enhanced Anime preference and additional features",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/sakura-fubuki76--mpvrx.json",
+  "sha256": "2da39402a554067d96e9f91271127b9bd14fbe2cb30e68513e50108297b44de2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sakura-fubuki76--mpvrx",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mpvRx",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c83d454dd2a4efb7d9fab6a36418fe12e6b5fec9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:c83d454dd2a4efb7d9fab6a36418fe12e6b5fec9"
+ },
+ "repo": "Sakura-Fubuki76/mpvRx"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-15",
+  "semantica_http": 200,
+  "ultima_release": "v2.44-plugin",
+  "ultimo_push": "2026-08-10"
+ },
+ "descripcion": "Automated archive of TikTok Mod and Plugin APK files from TikTokModCloud. This repository includes a",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/alongkornmai-ui--tiktokmodcloudv1.json",
+  "sha256": "11698c21b0bdedcdba4c61b1d345b949e6590fcc45a0a514b417fc410401918c"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "alongkornmai-ui--tiktokmodcloudv1",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": 0.3
+ },
+ "nombre": "tiktokmodcloudv1",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "fe42286dd650b6f9e08b10af1afaff45103e4279",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:fe42286dd650b6f9e08b10af1afaff45103e4279"
+ },
+ "repo": "alongkornmai-ui/tiktokmodcloudv1"
+}

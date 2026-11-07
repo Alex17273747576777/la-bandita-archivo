@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "muerto",
+  "release_en": null,
+  "semantica_http": 404,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-16"
+ },
+ "descripcion": "The ultimate home for modded apps. OrionStore offers instant access to YouTube M",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Flash-578/Orion-Store",
+  "sha256": "11fa37abb6d7be26b318f9b019e777d398d0d78a47817cca9e02b06c5ec4682b"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-10-15",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-11-14",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "flash-578--orion-store",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": null,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Orion-Store",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "db276b85999a477287b4eb1148eb53bbabd3d4ca",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:db276b85999a477287b4eb1148eb53bbabd3d4ca"
+ },
+ "repo": "Flash-578/Orion-Store"
+}

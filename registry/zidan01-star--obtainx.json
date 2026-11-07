@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-01"
+ },
+ "descripcion": "Get Android app updates straight from the source. And install it any way you wan",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/zidan01-star--obtainx.json",
+  "sha256": "823dab39aa5b45d139e79a1b70c18ab4d2f2b92dc4028d081d33d1148da098d7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zidan01-star--obtainx",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "ObtainX",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "931b1e22f17bef112a73822c55f34bb5f4e58d89",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:931b1e22f17bef112a73822c55f34bb5f4e58d89"
+ },
+ "repo": "zidan01-star/ObtainX"
+}

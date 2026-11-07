@@ -1,0 +1,75 @@
+{
+ "id": "permission-manager-x",
+ "nombre": "Permission Manager X",
+ "repo": "mirfatif/PermissionManagerX",
+ "autores": [
+  {
+   "nombre": "mirfatif",
+   "enlace": "https://github.com/mirfatif"
+  }
+ ],
+ "licencia": {
+  "spdx": "AGPL-3.0",
+  "archivo": "https://github.com/mirfatif/PermissionManagerX/blob/master/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Ver y cambiar los permisos del manifiesto y las operaciones internas del sistema que el panel de Android esconde, por aplicación y por permiso.",
+ "capitulo": 11,
+ "orden": 3,
+ "para_quien": {
+  "es": "para quien quiere saber por qué una aplicación se comporta distinto después de una actualización del sistema, y para quien audita qué puede hacer de verdad cada programa instalado.",
+  "no_es": "para quien busca un panel más bonito de permisos: la lista normal de Android ya muestra lo básico, y esto añade la capa que se esconde y con ella la responsabilidad de saber lo que se toca."
+ },
+ "manos": [
+  "Instalá la aplicación desde su repositorio o desde F-Droid y comprobá que la entrega es la que el repositorio anuncia ese día.",
+  "Dale el acceso que necesita —root, Shizuku o la orden de sistema por cable— y fijate en qué modo quedó: el programa lo dice en su pantalla principal.",
+  "Elegí una aplicación cualquiera y abrí sus dos listas: permisos declarados y operaciones internas, que es la que no se ve en ningún otro sitio.",
+  "Buscá un permiso concreto en todas las aplicaciones a la vez, que es la consulta que este programa hace y el panel del sistema no.",
+  "Antes de cambiar algo, anotá el valor anterior: la gracia es poder volver, y la pantalla no guarda historia."
+ ],
+ "resultado_esperado": "Sabés qué permisos tiene declarados y concedidos cada aplicación, qué operaciones internas usa, y podés cambiar una concreta sabiendo cuál era su valor antes.",
+ "si_sale_mal": [
+  "Si aparece en modo lectura, el acceso no está bien dado: revisá si tenés root, Shizuku activo o la depuración conectada.",
+  "Si un cambio no se queda, el sistema lo revierte al reiniciar: hay operaciones que se reajustan solas y conviene comprobarlas después de un reinicio.",
+  "Si una aplicación deja de funcionar tras cambiar una operación, devolvé el valor que anotaste antes: es la única razón por la que se anota."
+ ],
+ "deshacer": "Cada cambio se devuelve a mano, poniendo el valor anterior. Desinstalar la aplicación no devuelve lo que hayas cambiado: los permisos viven en el sistema, no en esta herramienta.",
+ "cabeza": [
+  "Hay dos capas de permisos y casi todo el mundo conoce una. La primera son los permisos del manifiesto: cámara, ubicación, contactos, las casillas que Android te muestra. La segunda son las operaciones de aplicación, un mecanismo interno con el que el sistema autoriza cosas como leer el portapapeles, dibujar encima de otras aplicaciones o ver los registros de llamadas. No se ven en ningún panel, y son las que explican por qué una aplicación se comporta distinto después de una actualización.",
+  "Permission Manager X lista las dos capas, permite buscar un permiso en todas las aplicaciones a la vez y avisa cuando algo cambia. Es la herramienta más completa de su clase en este ecosistema, y su nota lo dice sin adornos: veintiocho puntos, dos personas, sin integración continua, con una versión de pago para funciones extra sobre un código AGPL.",
+  "Esa contradicción es la lección del capítulo. Una herramienta puede ser la mejor en lo suyo y a la vez un proyecto sin relevo. Se usa, se le agradece al autor y se tiene presente que un día puede no actualizarse; lo que no se hace es fingir que sus números son buenos porque la herramienta nos guste."
+ ],
+ "limites": [
+  "Necesita root, Shizuku o la orden de sistema por cable para cambiar algo: sin eso sólo muestra.",
+  "Las operaciones internas no están documentadas y cambian entre versiones de Android.",
+  "Algunas funciones extra son de pago, sobre un código que es libre.",
+  "Un cambio mal puesto puede dejar una aplicación sin acceso a lo que necesita, y el sistema no siempre lo explica."
+ ],
+ "oficio": {
+  "dato": "Las operaciones de aplicación tienen su propio intérprete de órdenes en el sistema, y se pueden consultar sin ninguna aplicación de por medio: cada una aparece con su nombre interno y su estado, permitido o denegado por defecto. Verlas así tiene una ventaja sobre cualquier interfaz, y es que el nombre que aparece es el nombre real que el sistema usa internamente, el mismo que sale en el registro cuando algo se niega. Cuando una aplicación dice «no tengo permiso» y el panel dice que sí, esta lista es la que resuelve la contradicción.",
+  "como_comprobar": "Con el teléfono conectado, pedí las operaciones de una aplicación concreta y leé el estado de cada una: permitido, denegado o ignorado.",
+  "comando": "adb shell cmd appops get com.ejemplo.app"
+ },
+ "riesgos": [
+  "Cambiar operaciones internas sin anotar el valor anterior y quedarse sin forma de volver.",
+  "Dar acceso de sistema a una herramienta para «optimizar permisos» y dejar aplicaciones sin lo que necesitan para funcionar."
+ ],
+ "alternativas": [
+  "appmanager-ng",
+  "shizuku"
+ ],
+ "senal": {
+  "estrellas": 812,
+  "nota": 28,
+  "edad_dias": 2195,
+  "ultima_entrega": "2026-09-29",
+  "descargas_10": 28704,
+  "contribuyentes": 2,
+  "repo_mb": 37.0,
+  "ci": 0,
+  "incidencias": "6 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de mirfatif · AGPL-3.0 · medido el 3 de noviembre de 2026"
+}

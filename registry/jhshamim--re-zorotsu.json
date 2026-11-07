@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-28"
+ },
+ "descripcion": "Rebranded version of ReDantotsu",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/jhshamim--re-zorotsu.json",
+  "sha256": "1cf6ae7a6d6759fbad6bfe276f1e17bc38beab14a9e9b1674099ec82e219e5b3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jhshamim--re-zorotsu",
+ "licencia": {
+  "archivo": "LICENSE.md",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Re-zorotsu",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e57bb01aa44b6727e02aba27d55d22f6a869370d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e57bb01aa44b6727e02aba27d55d22f6a869370d"
+ },
+ "repo": "Jhshamim/Re-zorotsu"
+}

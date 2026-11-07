@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2020-06-09",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-07-15"
+ },
+ "descripcion": "Android audio forwarding PoC (scrcpy, but for audio)",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/rom1v--sndcpy.json",
+  "sha256": "9c27a208bdddcca3132a4617fae663d0c377553a370d14dbcc29f7b75ad23e7e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rom1v--sndcpy",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3572,
+  "stars_por_mes": null
+ },
+ "nombre": "sndcpy",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ea18ef2cbade57c28293aabbb9d1bbee9056ee1c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:ea18ef2cbade57c28293aabbb9d1bbee9056ee1c"
+ },
+ "repo": "rom1v/sndcpy"
+}

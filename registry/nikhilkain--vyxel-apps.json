@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-05-10",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-25"
+ },
+ "descripcion": "Open-source GitHub-powered Android app store",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/nikhilkain--vyxel-apps.json",
+  "sha256": "2e9d8b7cbcf3fd6127a31452c5e53cf295a3b7d1de4408d01f94962abe62d334"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nikhilkain--vyxel-apps",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 958,
+  "stars_por_mes": null
+ },
+ "nombre": "vyxel-apps",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "18a06c71f2194bfd51edd57b2857d2607eb142c4",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:18a06c71f2194bfd51edd57b2857d2607eb142c4"
+ },
+ "repo": "NikhilKain/vyxel-apps"
+}

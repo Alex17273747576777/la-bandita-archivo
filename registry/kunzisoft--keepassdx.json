@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2017-11-17",
+  "semantica_http": 200,
+  "ultima_release": "2.5.0.0beta1",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kunzisoft--keepassdx.json",
+  "sha256": "bacd0c87b6954849f7d883f7a8ef6ae8785b2f94fcc9de1255428ac0f1e2a6ec"
+ },
+ "frescura": {
+  "dias": 71,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-11-22",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kunzisoft--keepassdx",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": 3.4,
+  "scorecard_en": "2026-08-24",
+  "stars": 7612,
+  "stars_por_mes": null
+ },
+ "nombre": "KeePassDX",
+ "piezas": [
+  "09-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "77ecfa8654a5bd0d79d512f8fa71c0af8a29b554",
+  "swh_estado": "archivada",
+  "swh_solicitud": "77ecfa8654a5bd0d79d512f8fa71c0af8a29b554",
+  "swhid": "swh:1:rev:77ecfa8654a5bd0d79d512f8fa71c0af8a29b554"
+ },
+ "repo": "Kunzisoft/KeePassDX",
+ "web": "https://www.keepassdx.com/"
+}

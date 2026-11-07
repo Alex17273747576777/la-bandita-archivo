@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-27"
+ },
+ "descripcion": "Free and open source novel and manga reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/heavenlydaovenerable--tsundoku.json",
+  "sha256": "20d3d65673bb08d7faff354ad9c147997546a688f9c270922a6d6d7865cc95fd"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "heavenlydaovenerable--tsundoku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "tsundoku",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "18a0f3c44f66c9cb98aada655a4c07ba61818448",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:18a0f3c44f66c9cb98aada655a4c07ba61818448"
+ },
+ "repo": "heavenlydaovenerable/tsundoku"
+}

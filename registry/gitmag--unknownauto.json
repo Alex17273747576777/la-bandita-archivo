@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-29",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Sideload and install your favourite Android Auto applications from unknown souces using UnknownAuto with just your phone.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/gitmag--unknownauto.json",
+  "sha256": "1ae552dfb34912204a0303dbfce296d214f217e84944f0569e5eddc10f72f69b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "gitmag--unknownauto",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 210,
+  "stars_por_mes": null
+ },
+ "nombre": "UnknownAuto",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f80f1dd0b25a723cb81a793c499e259e337fdd4f",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:f80f1dd0b25a723cb81a793c499e259e337fdd4f"
+ },
+ "repo": "GitMag/UnknownAuto"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-14",
+  "semantica_http": 200,
+  "ultima_release": "v0.10.1",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "dsh 安卓壳 APK——WebView UI + 内嵌 Termux 运行时快照（解压即跑），为dsh本地运行设计的高性能方案",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kelai141--dsh-mobile-apk.json",
+  "sha256": "e677abbfde886c8e0968b65a29d0dbeef5f5632a4dd3bf293c32b5b197aff509"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kelai141--dsh-mobile-apk",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1008,
+  "stars_por_mes": null
+ },
+ "nombre": "dsh-mobile-apk",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "056a8647def72603ecb7cea61a37cb8deaf0f9c6",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:056a8647def72603ecb7cea61a37cb8deaf0f9c6"
+ },
+ "repo": "kelai141/dsh-mobile-apk"
+}

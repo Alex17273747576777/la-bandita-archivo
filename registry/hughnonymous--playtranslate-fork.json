@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-03-28"
+ },
+ "descripcion": "Real-time game translation app for Android for both language learners and casual",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hughnonymous--playtranslate-fork.json",
+  "sha256": "9b300db71f7143bc1cabce96dd2ca519ed56286ebda6043525e5e5065b1666af"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hughnonymous--playtranslate-fork",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "playtranslate-fork",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "77b06ab7ae4c9401b1e30bf2a133fded06f16ee7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:77b06ab7ae4c9401b1e30bf2a133fded06f16ee7"
+ },
+ "repo": "HughNonymous/playtranslate-fork"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-19",
+  "semantica_http": 200,
+  "ultima_release": "v152.0.7956.840",
+  "ultimo_push": "2026-10-15"
+ },
+ "descripcion": "Cafari — casting browser for iOS and Android (sideload builds)",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/rplayai--cafari-public.json",
+  "sha256": "cd680ed9ddebcef4ee2e4e27b85cf41b20db2f61394011f7252001b1d70125c1"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rplayai--cafari-public",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 88,
+  "stars_por_mes": null
+ },
+ "nombre": "cafari-public",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "cdfdcd0f780d6b72964a73a41f56423a21c9aa1f",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:cdfdcd0f780d6b72964a73a41f56423a21c9aa1f"
+ },
+ "repo": "rPlayAI/cafari-public"
+}

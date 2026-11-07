@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-20"
+ },
+ "descripcion": "The ultimate home for modded apps. OrionStore offers instant access to YouTube M",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/sifatalhasseef-99--orion-store.json",
+  "sha256": "f3cd630a9f5ad7ec7a14e592b960d81bb1525ee89a031c07b83f61a413e536c2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sifatalhasseef-99--orion-store",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Orion-Store",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4624fb526507d6ae3a631fbb434feb2116a58dd2",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4624fb526507d6ae3a631fbb434feb2116a58dd2"
+ },
+ "repo": "sifatalhasseef-99/Orion-Store"
+}

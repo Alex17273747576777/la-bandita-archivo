@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-06",
+  "semantica_http": 200,
+  "ultima_release": "v1.4.6",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "Adaptive Performance para Android: pré-carregamento inteligente dos apps usados recentemente, ajuste por RAM e temperatura, e economia automática abaixo de 50%.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/langraficagr-collab--adaptive-performance.json",
+  "sha256": "f0970cfde1789d134e0a65ae064737e38b943b84c6b71d79a31ab4eb2aac8755"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "langraficagr-collab--adaptive-performance",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 4,
+  "stars_por_mes": null
+ },
+ "nombre": "adaptive-performance",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "aea7d2ea4b2159be7d8aa1026287fe628f99279c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:aea7d2ea4b2159be7d8aa1026287fe628f99279c"
+ },
+ "repo": "langraficagr-collab/adaptive-performance",
+ "web": "https://langraficagr-collab.github.io/adaptive-performance/"
+}

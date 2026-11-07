@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-08-23",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-09-27"
+ },
+ "descripcion": "One-tap network switching for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/aunchagaonkar--networkswitch.json",
+  "sha256": "d226452f8fbac8b3fbd77a01baedb6919f60b575dd4bec83d8ab46f8c6844f06"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "aunchagaonkar--networkswitch",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 493,
+  "stars_por_mes": null
+ },
+ "nombre": "NetworkSwitch",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ded9596efe927d025b17af9ffa4d88c81b11abfe",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:ded9596efe927d025b17af9ffa4d88c81b11abfe"
+ },
+ "repo": "aunchagaonkar/NetworkSwitch"
+}

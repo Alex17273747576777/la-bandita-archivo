@@ -1,0 +1,75 @@
+{
+ "id": "nextcloud",
+ "nombre": "Nextcloud",
+ "repo": "nextcloud/server",
+ "autores": [
+  {
+   "nombre": "Nextcloud y su comunidad",
+   "enlace": "https://nextcloud.com"
+  }
+ ],
+ "licencia": {
+  "spdx": "AGPL-3.0",
+  "archivo": "https://github.com/nextcloud/server/blob/master/COPYING"
+ },
+ "nivel": "experto",
+ "tarea": "Tener una nube completa en casa: archivos con historial de versiones, calendario, contactos, notas y tareas, compartibles y accesibles desde el teléfono.",
+ "capitulo": 7,
+ "orden": 4,
+ "para_quien": {
+  "es": "para quien quiere reemplazar de una vez la nube comercial que usa toda la familia, con cuentas separadas y con aplicaciones para cada cosa.",
+  "no_es": "para quien sólo quiere pasar fotos entre aparatos o sincronizar una carpeta: hay herramientas más chicas y mucho más fáciles, y están arriba."
+ },
+ "manos": [
+  "Buscá un equipo que pueda quedar encendido y tenga disco de sobra: la nube crece, y con versiones de archivo crece más rápido.",
+  "Instalalo por el método que documenta el proyecto para tu sistema, y durante la instalación creá la cuenta de administración con una contraseña larga.",
+  "Entrá por el navegador, creá un usuario para cada persona de la casa y comprobá que cada uno ve sólo sus archivos.",
+  "Copiá una carpeta de prueba a mano en el disco del servidor y comprobá que no aparece en la nube hasta que la escaneás: ese es el dato de oficio de esta ficha.",
+  "Instalá la aplicación en el teléfono, activá la subida automática de la cámara y comprobá que las versiones anteriores de un documento se pueden recuperar."
+ ],
+ "resultado_esperado": "Cada persona de la casa tiene su espacio, los archivos se sincronizan con el teléfono y la computadora, y un archivo sobrescrito por error se puede recuperar de su historial de versiones.",
+ "si_sale_mal": [
+  "Si un archivo copiado a mano no aparece, hay que escanear la carpeta: la nube no vigila el disco, tiene su propio índice.",
+  "Si el servidor va lento o da errores raros, mirá el registro y el estado del sistema en el panel de administración antes de tocar nada.",
+  "Si actualizás y algo se rompe, el proyecto publica notas de versión con los cambios que rompen: leerlas antes de actualizar es la diferencia entre una tarde y un fin de semana."
+ ],
+ "deshacer": "Borrar el servidor borra la nube entera: archivos, calendarios, contactos y versiones. La carpeta de datos del servidor se copia a otro disco y se comprueba antes de cualquier cambio grande, y los archivos también se pueden descargar por la aplicación de escritorio.",
+ "cabeza": [
+  "Nextcloud no es una aplicación: es una plataforma. El servidor guarda archivos y, encima, corre aplicaciones —calendario, contactos, notas, tareas, charla, edición de documentos— que se instalan desde su propia tienda. Eso es lo que le permite reemplazar de una vez a varios servicios comerciales y lo que lo vuelve el proyecto más pesado de esta guía: siete gigas y medio de repositorio y casi cuatro mil incidencias abiertas.",
+  "Su rasgo más valioso en el uso diario es el **historial de versiones**: cuando un archivo se sobrescribe, las versiones anteriores quedan guardadas y se pueden recuperar desde la interfaz. Eso no es un respaldo —vive en el mismo servidor— pero resuelve el error humano más frecuente, que no es perder el disco sino guardar encima de lo que estaba bien.",
+  "Y su punto débil es el de toda plataforma: hay que mantenerla. Actualizaciones periódicas, copias de la base de datos, espacio que se llena, cuentas que se multiplican. Es la ficha de este capítulo que de verdad pide un administrador, y por eso va marcada como experta aunque su interfaz sea sencilla."
+ ],
+ "limites": [
+  "Pide mantenimiento continuo: actualizaciones, copias de la base de datos y espacio creciente.",
+  "Es pesado: siete gigas y medio de repositorio y una cola de incidencias enorme, porque es una plataforma con muchas aplicaciones encima.",
+  "El historial de versiones vive en el mismo servidor: no sustituye a un respaldo externo.",
+  "Abrirlo a internet conlleva decisiones de seguridad serias que este capítulo sólo nombra."
+ ],
+ "oficio": {
+  "dato": "Nextcloud no mira el disco: mira su propia base de datos. Si copiás una carpeta a mano en la carpeta de datos del servidor, la nube no la va a mostrar, aunque ocupe espacio y esté perfectamente ahí. Para que aparezca hay que pedirle al servidor que escanee los archivos, con su herramienta de administración por consola. Ese detalle explica dos cosas que la gente vive como misterios: por qué un archivo copiado «desapareció» —nunca apareció— y por qué el servidor puede tardar minutos en ponerse al día después de una restauración grande. Copiar archivos no es lo mismo que registrarlos, y saberlo ahorra una tarde de pánico.",
+  "como_comprobar": "Copiá un archivo cualquiera a la carpeta de datos, entrá por el navegador y comprobá que no está. Después corré el escaneo de esa cuenta y mirá cómo aparece, con su tamaño y su fecha, sin haber movido nada más.",
+  "comando": "sudo -u www-data php occ files:scan --all -v"
+ },
+ "riesgos": [
+  "Abrir el servidor a internet con una contraseña débil o sin actualizar, y exponer todos los archivos de la familia.",
+  "Creer que el historial de versiones es un respaldo: vive en el mismo disco que el resto."
+ ],
+ "alternativas": [
+  "immich-app/immich",
+  "haiwen/seafile"
+ ],
+ "senal": {
+  "estrellas": 37412,
+  "nota": 59,
+  "edad_dias": 3807,
+  "ultima_entrega": "2026-10-15",
+  "descargas_10": 0,
+  "contribuyentes": 100,
+  "repo_mb": 7298.9,
+  "ci": 5,
+  "incidencias": "2792 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de Nextcloud y su comunidad · AGPL-3.0 · medido el 3 de noviembre de 2026 (sin adjuntos en GitHub: se distribuye como servidor)"
+}

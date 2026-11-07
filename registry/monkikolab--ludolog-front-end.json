@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-07",
+  "semantica_http": 200,
+  "ultima_release": "v0.5.0",
+  "ultimo_push": "2026-10-11"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/monkikolab--ludolog-front-end.json",
+  "sha256": "c38f6555e982d2d5961c35c0d8aa78c74626ea326b2f7e90fc94e72f9685b00f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "monkikolab--ludolog-front-end",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "ludolog-front-end",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "056618e50e6c26eb39909815e260d51efd126f12",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:056618e50e6c26eb39909815e260d51efd126f12"
+ },
+ "repo": "monkikolab/ludolog-front-end"
+}

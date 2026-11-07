@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-25",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-21"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/noel-digital-fan--volume_plus_plus.json",
+  "sha256": "b9e0435310c1217de65f28b44a0c47deff575dc79a553fa55394293d255a2fcd"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "noel-digital-fan--volume_plus_plus",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 145,
+  "stars_por_mes": null
+ },
+ "nombre": "volume_plus_plus",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "dad92ff88455b79d29369632f45aeb54a694cf53",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:dad92ff88455b79d29369632f45aeb54a694cf53"
+ },
+ "repo": "noel-digital-fan/volume_plus_plus"
+}

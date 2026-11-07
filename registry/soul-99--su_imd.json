@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-21",
+  "semantica_http": 200,
+  "ultima_release": "v0.9",
+  "ultimo_push": "2026-10-08"
+ },
+ "descripcion": "A powerful settings/ services manager and settings/ services hider (automated disable-enable settings) for restrictive apps (banking, payments...etc).",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/soul-99--su_imd.json",
+  "sha256": "61465507bcf821ae2b932d89f7b11bf00749ad1929f9feb056c005c1c6eda536"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "soul-99--su_imd",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 530,
+  "stars_por_mes": null
+ },
+ "nombre": "SU_IMD",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "08436db1b9a6e220959fee761513965cd8f85f41",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:08436db1b9a6e220959fee761513965cd8f85f41"
+ },
+ "repo": "soul-99/SU_IMD"
+}

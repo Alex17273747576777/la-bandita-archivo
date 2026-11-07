@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-03",
+  "semantica_http": 200,
+  "ultima_release": "v1.10.0-b1",
+  "ultimo_push": "2026-08-03"
+ },
+ "descripcion": "Free and open source manga reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hived--yokai.json",
+  "sha256": "7ef34bdc2e3c65a6fe47092732b12826378d78349769964b87688505d637aa01"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hived--yokai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "yokai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2fc1fb3681d304127aa8e76475e67e92c541dec8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2fc1fb3681d304127aa8e76475e67e92c541dec8"
+ },
+ "repo": "Hived/yokai"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-10"
+ },
+ "descripcion": "Zangetsu is an anime and movie/series streaming app.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/gaoypchina--zangetsu.json",
+  "sha256": "303796965b5ee95147f23d931cc40a74b7ed7f5ef1fd7efbaf6dd5341e700fb3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "gaoypchina--zangetsu",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Zangetsu",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1a70d935e1c8b6bd3e76e0309e956c15e39037f9",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1a70d935e1c8b6bd3e76e0309e956c15e39037f9"
+ },
+ "repo": "gaoypChina/Zangetsu"
+}

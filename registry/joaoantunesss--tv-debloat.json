@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "Desktop app (Python + Tkinter) that cleans up an Android TV over wireless ADB, reversibly. First version; see TV-Debloat-designUNIQUE.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/joaoantunesss--tv-debloat.json",
+  "sha256": "6fbefb084ac36d1f4e1d8a445ae978dec6eed4a9678aaa2182f92d4a6758eff5"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "joaoantunesss--tv-debloat",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "tv-debloat",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a8cb7324e203ca4f25a300893c37d5a0dd3cdd9e",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a8cb7324e203ca4f25a300893c37d5a0dd3cdd9e"
+ },
+ "repo": "JoaoAntunesss/tv-debloat"
+}

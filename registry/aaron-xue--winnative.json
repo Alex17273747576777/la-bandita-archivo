@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-22",
+  "semantica_http": 200,
+  "ultima_release": "复古游戏核心",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "In Development",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/aaron-xue--winnative.json",
+  "sha256": "baf75a5d8258f404aea37d5353e907251c935fa61f1fbef9a1e2162a5d40a0ca"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "aaron-xue--winnative",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "WinNative",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "72d145bccff348f71b1c8baf90a180ccaa474464",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:72d145bccff348f71b1c8baf90a180ccaa474464"
+ },
+ "repo": "aaron-xue/WinNative"
+}

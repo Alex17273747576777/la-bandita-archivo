@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2016-12-21",
+  "semantica_http": 200,
+  "ultima_release": "v0.2.4-beta",
+  "ultimo_push": "2024-04-19"
+ },
+ "descripcion": "Authorizer is a Password Manager for Android. It emulates an HID keyboard over USB and enters your credentials on your target device. Additionally it supports OTP :key::mobile_phone_off:",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/tejado--authorizer.json",
+  "sha256": "d5f2cf538907b831bccdc9790ca089b0d6a5801768a2bc55e64e096eb6a8c3ef"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "tejado--authorizer",
+ "licencia": {
+  "archivo": "LICENSES",
+  "metodo": "texto-license",
+  "nota": "Texto leído el 2026-11-03: 359 caracteres sin firma de licencia libre conocida ni cláusula de reserva de derechos. Queda citado el archivo y pendiente de lectura humana.",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 572,
+  "stars_por_mes": null
+ },
+ "nombre": "Authorizer",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "06e8f7d87ddf9aafc5df5fc7380767d6de596a45",
+  "swh_estado": "archivada",
+  "swh_solicitud": "06e8f7d87ddf9aafc5df5fc7380767d6de596a45",
+  "swhid": "swh:1:rev:06e8f7d87ddf9aafc5df5fc7380767d6de596a45"
+ },
+ "repo": "tejado/Authorizer"
+}

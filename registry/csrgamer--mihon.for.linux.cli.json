@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-09"
+ },
+ "descripcion": "Free and open source manga reader for Linux CLI",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/csrgamer--mihon.for.linux.cli.json",
+  "sha256": "d4a6dd94a8f2a9315e821ab77b853037e2b49c82958f0c90cab4448c920f1edf"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "csrgamer--mihon.for.linux.cli",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mihon.for.linux.cli",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f87c4d55e3fb710c9689eb41c862e8bd8b8d504f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f87c4d55e3fb710c9689eb41c862e8bd8b8d504f"
+ },
+ "repo": "Csrgamer/mihon.for.linux.cli"
+}

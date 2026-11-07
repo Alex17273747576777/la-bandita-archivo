@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2023-10-28"
+ },
+ "descripcion": "Anilist only client based on Saikou ",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/albertxiao--dantotsu.json",
+  "sha256": "3eedf63a79daf0286409ea00e00e9c3f36470bb78f8a7dedf784d6a385826004"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "albertxiao--dantotsu",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 67,
+  "stars_por_mes": null
+ },
+ "nombre": "Dantotsu",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9c0ef7a78885f22851640ac6436fb285f26fa6bf",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:9c0ef7a78885f22851640ac6436fb285f26fa6bf"
+ },
+ "repo": "albertxiao/Dantotsu"
+}

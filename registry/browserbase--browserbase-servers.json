@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-11-26"
+ },
+ "descripcion": "Model Context Protocol Servers (Browserbase Version)",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/browserbase--browserbase-servers.json",
+  "sha256": "cd3723a68d87f1be2f07862322ddc7230733250bb5ee59a28f05abfe69d5fc7a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "browserbase--browserbase-servers",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 51,
+  "stars_por_mes": null
+ },
+ "nombre": "browserbase-servers",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b370d27f6ee8628398a265c07f2ee8c2610e68bb",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b370d27f6ee8628398a265c07f2ee8c2610e68bb"
+ },
+ "repo": "browserbase/browserbase-servers",
+ "web": "https://modelcontextprotocol.io"
+}

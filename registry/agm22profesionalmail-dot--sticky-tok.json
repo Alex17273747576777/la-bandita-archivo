@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-18",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-05"
+ },
+ "descripcion": "Convierte los stickers de TikTok en paquetes para WhatsApp (Android). Hecha con IA. Solo binarios, sin código fuente.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/agm22profesionalmail-dot--sticky-tok.json",
+  "sha256": "4a1ee4e9ff602ce04411d37a7b7b29fdbbe77d3e316dfadbd289fb100716bb97"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "agm22profesionalmail-dot--sticky-tok",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "Sticky-Tok",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8b704e9f08dbe5e228ab8275084c2d11a4b0f839",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:8b704e9f08dbe5e228ab8275084c2d11a4b0f839"
+ },
+ "repo": "agm22profesionalmail-dot/Sticky-Tok"
+}

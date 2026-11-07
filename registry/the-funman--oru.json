@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-16",
+  "semantica_http": 200,
+  "ultima_release": "v0.0.1-dev.1",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Morphe app patcher for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/the-funman--oru.json",
+  "sha256": "1ecc91b9b2196d087d04af389fd1e4d57aeadfcae6e27a88e6d75934b4e44f48"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "the-funman--oru",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 4,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "oru",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "daedf84461a814abce9d313c2f0e24af2e9353f1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:daedf84461a814abce9d313c2f0e24af2e9353f1"
+ },
+ "repo": "The-FunMan/oru"
+}

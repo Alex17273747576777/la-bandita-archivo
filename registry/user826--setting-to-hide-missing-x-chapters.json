@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-06-20"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/user826--setting-to-hide-missing-x-chapters.json",
+  "sha256": "1c076842a4926e1727558845b127de8da121aec14705a927ac55593a012bd0d8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "user826--setting-to-hide-missing-x-chapters",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "setting-to-hide-missing-x-chapters",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7deeabe844d41d2b5e918ad747ddd548163c9fe3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7deeabe844d41d2b5e918ad747ddd548163c9fe3"
+ },
+ "repo": "User826/setting-to-hide-missing-x-chapters"
+}

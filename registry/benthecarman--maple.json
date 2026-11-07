@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-25"
+ },
+ "descripcion": "Maple - Private AI Chat",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/benthecarman--maple.json",
+  "sha256": "abdabfe38d3f6cb37a1ff75e3ccc534da00645cc3b3e35816995d03b72373e38"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "benthecarman--maple",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Maple",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "91e8ff5aceac477e37e75a800f1d6f63c1553e82",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:91e8ff5aceac477e37e75a800f1d6f63c1553e82"
+ },
+ "repo": "benthecarman/Maple"
+}

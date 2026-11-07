@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-paleta="cana">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark light">
+<meta name="description" content="Propuesta ejecutiva de La Bandita: de archivo verificado a empresa de verificación. Corte medido el 31 de octubre de 2026.">
+<title>La Bandita · Propuesta empresarial 2026</title>
+<style>
+/* LA BANDITA · hoja de estilo de la propuesta
+   Familia visual: webroot autocontenida, capas oscuras, vidrio, acento vivo.
+   Sin fuentes externas ni iconos remotos: todo se dibuja aquí. */
+
+:root{
+  --r-1:8px; --r-2:12px; --r-3:18px; --r-4:24px; --r-5:32px;
+  --t-1:120ms; --t-2:200ms; --t-3:350ms;
+  --muelle:cubic-bezier(.34,1.56,.64,1);
+  --texto:#e8eef6;
+  --texto-2:#c3d0dd;
+  --apagado:#8ea0b2;
+  --superficie:rgba(255,255,255,.038);
+  --superficie-2:rgba(255,255,255,.06);
+  --borde:rgba(255,255,255,.085);
+  --borde-2:rgba(255,255,255,.14);
+  --barra:68px;
+  --lateral:264px;
+}
+
+html[data-paleta="cana"]{--acc:#17c98a;--acc2:#8df2c6;--acc-rgb:23,201,138;--bg:#050b09;--bg2:#08130f;--glow:0,255,178}
+html[data-paleta="malecon"]{--acc:#3fa9ff;--acc2:#9ed8ff;--acc-rgb:63,169,255;--bg:#04080f;--bg2:#071120;--glow:70,180,255}
+html[data-paleta="azucar"]{--acc:#f2b23c;--acc2:#ffd894;--acc-rgb:242,178,60;--bg:#0a0805;--bg2:#14100a;--glow:255,196,84}
+html[data-paleta="fogata"]{--acc:#ff5f3c;--acc2:#ffa887;--acc-rgb:255,95,60;--bg:#0a0605;--bg2:#140b08;--glow:255,110,70}
+html[data-paleta="tinta"]{--acc:#b8c4d4;--acc2:#e6edf6;--acc-rgb:184,196,212;--bg:#07080a;--bg2:#0d1014;--glow:200,214,232}
+html[data-paleta="amoled"]{--acc:#e8eef7;--acc2:#ffffff;--acc-rgb:232,238,247;--bg:#000000;--bg2:#050607;--glow:240,245,255}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;background:var(--bg)}
+body{
+  margin:0;background:
+    radial-gradient(1100px 620px at 78% -12%, rgba(var(--glow),.13), transparent 62%),
+    radial-gradient(820px 520px at 4% 6%, rgba(var(--acc-rgb),.09), transparent 60%),
+    linear-gradient(175deg, var(--bg2), var(--bg) 58%);
+  background-attachment:fixed;
+  color:var(--texto);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size:16.5px;line-height:1.72;
+  letter-spacing:.002em;
+  -webkit-font-smoothing:antialiased;
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.88em}
+.progreso{position:fixed;inset:0 auto auto 0;height:2px;width:0;z-index:60;
+  background:linear-gradient(90deg,var(--acc),var(--acc2));box-shadow:0 0 14px rgba(var(--glow),.7)}
+
+/* barra superior */
+.barra{position:fixed;top:0;left:0;right:0;height:var(--barra);z-index:50;display:flex;align-items:center;
+  justify-content:space-between;gap:16px;padding:0 clamp(14px,3vw,28px);
+  background:rgba(6,10,12,.72);backdrop-filter:blur(18px) saturate(1.3);-webkit-backdrop-filter:blur(18px) saturate(1.3);
+  border-bottom:1px solid var(--borde)}
+.marca{display:flex;align-items:center;gap:11px;text-decoration:none;color:inherit}
+.logo{width:30px;height:30px;flex:0 0 auto;overflow:visible}
+.logo .l1{fill:none;stroke:var(--acc);stroke-width:1.4;opacity:.85}
+.logo .l2{fill:rgba(var(--acc-rgb),.16);stroke:var(--acc2);stroke-width:1.1}
+.logo .l3{fill:var(--acc);filter:drop-shadow(0 0 6px rgba(var(--glow),.9))}
+.marca-txt{display:flex;flex-direction:column;line-height:1.05}
+.marca-txt b{font-size:14px;letter-spacing:.16em}
+.marca-txt small{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--apagado)}
+.barra-acciones{display:flex;align-items:center;gap:8px}
+.boton{width:38px;height:38px;display:grid;place-items:center;border-radius:var(--r-2);cursor:pointer;
+  background:var(--superficie);border:1px solid var(--borde);color:var(--texto-2);
+  transition:border-color var(--t-2) ease,color var(--t-2) ease,transform var(--t-2) var(--muelle),background var(--t-2) ease}
+.boton:hover{color:var(--texto);border-color:rgba(var(--acc-rgb),.55);background:rgba(var(--acc-rgb),.1);transform:translateY(-1px)}
+.boton:active{transform:translateY(0) scale(.97)}
+.boton[aria-pressed="true"]{color:var(--acc);border-color:rgba(var(--acc-rgb),.6);background:rgba(var(--acc-rgb),.14)}
+.boton svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.sello{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.12em;color:var(--apagado);
+  padding:6px 10px;border:1px solid var(--borde);border-radius:99px;white-space:nowrap}
+.paletas{position:relative}
+.paleta-menu{position:absolute;right:0;top:46px;min-width:184px;padding:8px;display:none;flex-direction:column;gap:2px;
+  background:rgba(9,14,16,.96);border:1px solid var(--borde-2);border-radius:var(--r-3);
+  box-shadow:0 24px 60px rgba(0,0,0,.55);backdrop-filter:blur(20px)}
+.paleta-menu.abierto{display:flex}
+.paleta-menu button{display:flex;align-items:center;gap:10px;padding:9px 11px;border:0;border-radius:var(--r-1);
+  background:transparent;color:var(--texto-2);font:inherit;font-size:13.5px;cursor:pointer;text-align:left}
+.paleta-menu button:hover{background:rgba(255,255,255,.06);color:var(--texto)}
+.paleta-menu i{width:13px;height:13px;border-radius:50%;background:var(--c);box-shadow:0 0 10px var(--c)}
+
+/* buscador */
+.buscador{position:fixed;top:var(--barra);left:0;right:0;z-index:49;display:flex;align-items:center;gap:10px;
+  padding:10px clamp(14px,3vw,28px);background:rgba(7,11,13,.95);border-bottom:1px solid var(--borde);backdrop-filter:blur(16px)}
+.buscador[hidden]{display:none}
+.buscador input{flex:1;min-width:0;padding:10px 13px;border-radius:var(--r-2);border:1px solid var(--borde);
+  background:rgba(255,255,255,.04);color:var(--texto);font:inherit;font-size:14.5px;outline:none}
+.buscador input:focus{border-color:rgba(var(--acc-rgb),.6);box-shadow:0 0 0 3px rgba(var(--acc-rgb),.14)}
+.cuenta{font-family:ui-monospace,monospace;font-size:12px;color:var(--acc2);min-width:38px;text-align:right}
+.buscador button{background:none;border:1px solid var(--borde);color:var(--apagado);border-radius:var(--r-1);
+  width:34px;height:34px;cursor:pointer}
+mark{background:rgba(var(--acc-rgb),.38);color:#fff;border-radius:4px;padding:0 2px}
+mark.actual{background:var(--acc);color:#04120c}
+
+/* marco */
+.marco{max-width:1320px;margin:0 auto;padding-top:var(--barra);display:grid;grid-template-columns:var(--lateral) minmax(0,1fr)}
+.lateral{position:sticky;top:var(--barra);align-self:start;height:calc(100vh - var(--barra));
+  padding:26px 18px 26px 24px;display:flex;flex-direction:column;gap:3px;overflow-y:auto}
+.lateral-titulo{font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--apagado);margin:0 0 10px 12px}
+.nav-item{position:relative;display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:var(--r-2);
+  color:var(--apagado);text-decoration:none;font-size:13.8px;transition:color var(--t-1) ease,background var(--t-1) ease}
+.nav-item i{width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.45;flex:0 0 auto;transition:all var(--t-2) var(--muelle)}
+.nav-item:hover{color:var(--texto-2);background:rgba(255,255,255,.035)}
+.nav-item.activo{color:var(--texto);background:rgba(var(--acc-rgb),.1)}
+.nav-item.activo i{background:var(--acc);opacity:1;box-shadow:0 0 10px rgba(var(--glow),.9);transform:scale(1.35)}
+.lateral-pie{margin-top:auto;padding:14px 12px 0;border-top:1px solid var(--borde);font-size:11.5px;color:var(--apagado);line-height:1.5}
+
+.contenido{min-width:0;padding:clamp(18px,3.4vw,40px) clamp(16px,3.4vw,44px) 150px;max-width:1000px}
+
+/* portada */
+.hero{position:relative;padding:clamp(26px,5vw,56px) 0 clamp(20px,3vw,34px);overflow:hidden}
+.hero-glow{position:absolute;width:520px;height:520px;right:-160px;top:-200px;border-radius:50%;
+  background:radial-gradient(circle,rgba(var(--glow),.2),transparent 68%);filter:blur(24px);pointer-events:none;
+  animation:flotar 16s ease-in-out infinite}
+@keyframes flotar{0%,100%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(-28px,26px,0) scale(1.07)}}
+.eyebrow{font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--acc);margin:0 0 16px}
+.hero h1{margin:0 0 18px;font-size:clamp(32px,5.6vw,60px);line-height:1.04;letter-spacing:-.025em;font-weight:700}
+.hero h1 .grad{background:linear-gradient(100deg,var(--acc) 6%,var(--acc2) 62%,#fff 104%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;display:inline-block}
+.lead{font-size:clamp(15.5px,1.6vw,18px);color:var(--texto-2);max-width:62ch;margin:0 0 26px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));gap:10px;margin:0 0 22px}
+.kpi{background:var(--superficie);border:1px solid var(--borde);border-radius:var(--r-3);padding:14px 15px;
+  transition:transform var(--t-2) var(--muelle),border-color var(--t-2) ease}
+.kpi:hover{transform:translateY(-2px);border-color:rgba(var(--acc-rgb),.45)}
+.kpi b{display:block;font-family:ui-monospace,monospace;font-size:clamp(20px,2.6vw,27px);letter-spacing:-.02em;
+  color:var(--acc2);line-height:1.1}
+.kpi span{display:block;font-size:11.5px;letter-spacing:.01em;color:var(--apagado);margin-top:4px}
+.aviso{display:flex;gap:13px;align-items:flex-start;padding:16px 18px;border-radius:var(--r-3);
+  background:linear-gradient(120deg,rgba(var(--acc-rgb),.13),rgba(var(--acc-rgb),.04));
+  border:1px solid rgba(var(--acc-rgb),.32);margin:0 0 24px}
+.aviso p{margin:0;font-size:14.4px;color:var(--texto-2)}
+.ico{width:22px;height:22px;flex:0 0 auto;margin-top:2px;fill:none;stroke:var(--acc2);stroke-width:1.6;
+  stroke-linecap:round;stroke-linejoin:round}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{font-size:12.4px;padding:7px 13px;border-radius:99px;text-decoration:none;color:var(--texto-2);
+  border:1px solid var(--borde);background:var(--superficie);transition:all var(--t-2) ease}
+.chip:hover{color:#04120c;background:var(--acc);border-color:var(--acc);transform:translateY(-1px)}
+
+/* secciones */
+.tarjeta{background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.026));
+  border:1px solid var(--borde);border-radius:var(--r-4);
+  padding:clamp(18px,2.6vw,30px);margin:0 0 20px;
+  box-shadow:0 18px 44px -34px rgba(0,0,0,.85);scroll-margin-top:calc(var(--barra) + 18px);
+  /* sin backdrop-filter: en móviles de gama baja cuesta fluidez y puede romper el pintado */
+}
+.tarjeta h2{display:flex;align-items:baseline;gap:12px;margin:2px 0 18px;font-size:clamp(20px,2.4vw,27px);
+  letter-spacing:-.018em;line-height:1.18;font-weight:680}
+.tarjeta h2 .num{font-family:ui-monospace,monospace;font-size:.62em;color:var(--acc);opacity:.85;
+  letter-spacing:0;padding:2px 7px;border:1px solid rgba(var(--acc-rgb),.3);border-radius:var(--r-1);
+  background:rgba(var(--acc-rgb),.08);flex:0 0 auto;transform:translateY(-2px)}
+.tarjeta h3{margin:26px 0 10px;font-size:15.6px;letter-spacing:.01em;color:var(--acc2);font-weight:660}
+.tarjeta h4{margin:18px 0 8px;font-size:14px;color:var(--texto-2);text-transform:uppercase;letter-spacing:.1em}
+.tarjeta p{margin:0 0 13px;color:var(--texto-2)}
+.tarjeta p:last-child{margin-bottom:0}
+.tarjeta strong{color:#fff;font-weight:640}
+.tarjeta em{color:var(--texto);font-style:italic}
+.tarjeta a{color:var(--acc2);text-decoration:underline;text-underline-offset:2px;text-decoration-color:rgba(var(--acc-rgb),.45)}
+.tarjeta a:hover{text-decoration-color:var(--acc)}
+.tarjeta ul,.tarjeta ol{margin:0 0 14px;padding-left:1.15em;color:var(--texto-2)}
+.tarjeta li{margin:6px 0;padding-left:2px}
+.tarjeta li::marker{color:var(--acc)}
+.tarjeta hr{border:0;border-top:1px solid var(--borde);margin:26px 0}
+.tarjeta code{font-family:ui-monospace,monospace;font-size:.86em;padding:.14em .4em;border-radius:6px;
+  background:rgba(var(--acc-rgb),.12);color:var(--acc2);border:1px solid rgba(var(--acc-rgb),.18)}
+.tarjeta pre{background:#04070a;border:1px solid var(--borde);border-radius:var(--r-2);padding:16px;
+  overflow-x:auto;font-size:12.6px;line-height:1.6}
+.tarjeta pre code{background:none;border:0;padding:0;color:var(--texto-2);font-size:inherit}
+.tarjeta blockquote{margin:16px 0;padding:12px 16px;border-left:3px solid var(--acc);
+  background:rgba(var(--acc-rgb),.07);border-radius:0 var(--r-2) var(--r-2) 0;color:var(--texto-2)}
+.tabla-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 16px;border:1px solid var(--borde);
+  border-radius:var(--r-3);background:rgba(0,0,0,.18);
+  background-image:linear-gradient(to left,rgba(var(--acc-rgb),.1),transparent 26px);
+  background-repeat:no-repeat;background-position:right;background-size:26px 100%}
+table{width:100%;border-collapse:collapse;font-size:13.6px;min-width:520px}
+thead th{position:sticky;top:0;text-align:left;padding:11px 13px;font-size:10.8px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--acc2);background:rgba(8,12,14,.94);border-bottom:1px solid rgba(var(--acc-rgb),.3);
+  font-weight:700;white-space:nowrap}
+tbody td{padding:10px 13px;border-bottom:1px solid rgba(255,255,255,.055);color:var(--texto-2);vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:rgba(255,255,255,.018)}
+tbody tr:hover{background:rgba(var(--acc-rgb),.07)}
+tbody td:first-child{color:var(--texto);font-weight:560}
+
+/* pie */
+.pie{margin-top:34px;padding-top:22px;border-top:1px solid var(--borde);display:flex;flex-wrap:wrap;gap:18px;
+  justify-content:space-between;align-items:center}
+.firma{display:flex;gap:12px;align-items:flex-start}
+.firma p{margin:0;font-size:13px;color:var(--apagado);line-height:1.6}
+.firma p b{color:var(--texto-2)}
+.metadatos{display:flex;flex-wrap:wrap;gap:6px}
+.pill{font-size:11px;padding:5px 10px;border-radius:99px;border:1px solid var(--borde);
+  color:var(--apagado);background:var(--superficie)}
+
+/* navegación móvil */
+.mnav{display:none}
+
+@media (max-width:1023px){
+  :root{--lateral:0px}
+  .marco{grid-template-columns:minmax(0,1fr)}
+  .lateral{display:none}
+  .contenido{padding-bottom:112px}
+  .mnav{display:grid;grid-template-columns:repeat(6,1fr);position:fixed;left:0;right:0;bottom:0;z-index:55;
+    background:rgba(6,10,12,.9);backdrop-filter:blur(20px);border-top:1px solid var(--borde);
+    padding:8px 6px calc(8px + env(safe-area-inset-bottom,0px))}
+  .mnav-item{padding:9px 2px;text-align:center;font-size:10.6px;letter-spacing:.02em;color:var(--apagado);
+    text-decoration:none;border-radius:var(--r-1);transition:color var(--t-1) ease,background var(--t-1) ease;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .mnav-item.activo{color:var(--acc);background:rgba(var(--acc-rgb),.12)}
+  .sello{display:none}
+  .hero h1{font-size:clamp(29px,8vw,44px)}
+  .barra{gap:8px}
+  table{font-size:13px}
+}
+@media (max-width:520px){
+  .marca-txt small{display:none}
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .mnav{grid-template-columns:repeat(6,1fr);padding-left:2px;padding-right:2px}
+  .mnav-item{font-size:9.6px;letter-spacing:0;padding:8px 1px}
+  table{min-width:420px;font-size:12.6px}
+  .tarjeta{padding:16px 14px;border-radius:var(--r-3)}
+  .tarjeta h2{gap:9px}
+  .lead{font-size:15px}
+}
+
+@media print{
+  body{background:#fff;color:#111}
+  .barra,.lateral,.mnav,.buscador,.chips,.progreso,.hero-glow{display:none!important}
+  .marco{display:block;padding-top:0}
+  .contenido{max-width:none;padding:0}
+  .tarjeta{background:none;border:0;box-shadow:none;padding:0 0 18px;break-inside:avoid}
+  .kpi,.aviso{border-color:#bbb;background:#f6f6f6}
+  .tarjeta p,.tarjeta li,tbody td{color:#222}
+  .tarjeta h2 .num{color:#555;border-color:#bbb}
+  a{color:#0b5}
+}
+
+</style>
+</head>
+<body>
+<div class="progreso" id="progreso" aria-hidden="true"></div>
+
+<header class="barra">
+  <a class="marca" href="#inicio">
+    <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
+      <path class="l1" d="M16 2 29 9v14L16 30 3 23V9z"/>
+      <path class="l2" d="M16 9.5 23 13v8l-7 3.5L9 21v-8z"/>
+      <circle class="l3" cx="16" cy="17" r="3"/>
+    </svg>
+    <span class="marca-txt"><b>LA BANDITA</b><small>propuesta 2026</small></span>
+  </a>
+  <div class="barra-acciones">
+    <button class="boton" id="buscarBtn" aria-label="Buscar en la propuesta">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg>
+    </button>
+    <button class="boton" id="sonidoBtn" aria-label="Sonido de interfaz" aria-pressed="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h3l4-3v12l-4-3H4z"/><path d="M16 9a4 4 0 0 1 0 6"/></svg>
+    </button>
+    <div class="paletas">
+      <button class="boton" id="paletaBtn" aria-label="Cambiar paleta" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="8" r="1.6"/><circle cx="8.4" cy="13" r="1.6"/><circle cx="15.6" cy="13" r="1.6"/></svg>
+      </button>
+      <div class="paleta-menu" id="paletaMenu" role="menu">
+        <button data-paleta="cana"><i style="--c:#17c98a"></i>Caña esmeralda</button>
+        <button data-paleta="malecon"><i style="--c:#3fa9ff"></i>Malecón</button>
+        <button data-paleta="azucar"><i style="--c:#f2b23c"></i>Azúcar</button>
+        <button data-paleta="fogata"><i style="--c:#ff5f3c"></i>Fogata</button>
+        <button data-paleta="tinta"><i style="--c:#b8c4d4"></i>Tinta</button>
+        <button data-paleta="amoled"><i style="--c:#e8eef7"></i>Amoled</button>
+      </div>
+    </div>
+    <span class="sello">31 · 10 · 2026</span>
+  </div>
+</header>
+
+<div class="buscador" id="buscador" hidden>
+  <input id="buscarInput" type="search" placeholder="Buscar en la propuesta…" autocomplete="off">
+  <span class="cuenta" id="buscarCuenta">0</span>
+  <button id="buscarCerrar" aria-label="Cerrar búsqueda">✕</button>
+</div>
+
+<div class="marco">
+  <aside class="lateral">
+    <p class="lateral-titulo">Secciones</p>
+    <a class="nav-item" href="#s-0" data-target="s-0"><i aria-hidden="true"></i>Resumen</a><a class="nav-item" href="#s-1" data-target="s-1"><i aria-hidden="true"></i>Diagnóstico</a><a class="nav-item" href="#s-2" data-target="s-2"><i aria-hidden="true"></i>Mercado</a><a class="nav-item" href="#s-3" data-target="s-3"><i aria-hidden="true"></i>Ofertas</a><a class="nav-item" href="#s-4" data-target="s-4"><i aria-hidden="true"></i>Economía</a><a class="nav-item" href="#s-5" data-target="s-5"><i aria-hidden="true"></i>Arquitectura</a><a class="nav-item" href="#s-6" data-target="s-6"><i aria-hidden="true"></i>MCP</a><a class="nav-item" href="#s-7" data-target="s-7"><i aria-hidden="true"></i>Gobernanza</a><a class="nav-item" href="#s-8" data-target="s-8"><i aria-hidden="true"></i>Plan</a><a class="nav-item" href="#s-9" data-target="s-9"><i aria-hidden="true"></i>Riesgos</a><a class="nav-item" href="#s-10" data-target="s-10"><i aria-hidden="true"></i>Métricas</a><a class="nav-item" href="#s-11" data-target="s-11"><i aria-hidden="true"></i>Decisiones</a><a class="nav-item" href="#s-12" data-target="s-12"><i aria-hidden="true"></i>Anexos</a>
+    <div class="lateral-pie">
+      <p>Documento autocontenido: sin CDN, sin fuentes externas, sin imágenes remotas.</p>
+    </div>
+  </aside>
+  <main class="contenido" id="contenido">
+    
+<header class="hero" id="inicio">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <p class="eyebrow">Propuesta ejecutiva · corte medido el 31 de octubre de 2026</p>
+  <h1>La Bandita<br><span class="grad">de archivo verificado<br>a empresa de verificación</span></h1>
+  <p class="lead">El repositorio ya tiene lo que casi nadie tiene: 261 publicaciones con fecha,
+  un registro de 6.826 repositorios medidos y un método que detecta sus propios errores.
+  Lo que no tiene es empresa. Esta es la propuesta para construirla sin traicionar el método.</p>
+  <div class="kpis">
+    <div class="kpi"><b>259</b><span>publicaciones vivas</span></div>
+    <div class="kpi"><b>6.826</b><span>repos medidos</span></div>
+    <div class="kpi"><b>701</b><span>recursos mapeados</span></div>
+    <div class="kpi"><b>53.886</b><span>servidores MCP</span></div>
+    <div class="kpi"><b>9</b><span>compuertas</span></div>
+    <div class="kpi"><b>78,8 %</b><span>sin licencia declarada</span></div>
+  </div>
+  <div class="aviso">
+    <svg class="ico" viewBox="0 0 24 24"><path d="M12 3 3 20h18L12 3zm0 5v6m0 3v.5"/></svg>
+    <p><b>Lo que se pide:</b> cinco decisiones del dueño (licencia, marca, canal, patrocinio y servidor MCP)
+    y autorización del primer trimestre. <b>Inversión de infraestructura:</b> menos de US$10 al mes en fase 1.
+    <b>Riesgo principal:</b> seguir igual.</p>
+  </div>
+  <nav class="chips" aria-label="Índice">
+    <a class="chip" href="#s-0">Resumen</a><a class="chip" href="#s-1">Diagnóstico</a><a class="chip" href="#s-2">Mercado</a><a class="chip" href="#s-3">Ofertas</a><a class="chip" href="#s-4">Economía</a><a class="chip" href="#s-5">Arquitectura</a><a class="chip" href="#s-6">MCP</a><a class="chip" href="#s-7">Gobernanza</a><a class="chip" href="#s-8">Plan</a><a class="chip" href="#s-9">Riesgos</a><a class="chip" href="#s-10">Métricas</a><a class="chip" href="#s-11">Decisiones</a><a class="chip" href="#s-12">Anexos</a>
+  </nav>
+</header>
+
+    <section class="tarjeta" id="s-0"><h2><span class="num">00</span>Resumen ejecutivo</h2><p>La Bandita no es un blog. Es un <strong>registro verificado del ecosistema Android libre, escrito en español dominicano, con fecha y evidencia en cada dato</strong>. Hoy tiene 259 publicaciones activas más una archivada, <strong>6.826 fichas de repositorio medidas</strong> y 701 recursos mapeados y un método de verificación propio que ya demostró que sabe detectar sus propios errores.</p>
+<p>Lo que no tiene —y esto es el diagnóstico central— es <strong>estructura de empresa</strong>: no tiene licencia, no tiene integración continua, no tiene contrato de datos, no tiene canal propio, no tiene precio, no tiene un solo ingreso. Todo el valor está concentrado en la cabeza y la disciplina de una persona.</p>
+<p>La propuesta es convertir ese método en tres cosas vendibles y una infraestructura:</p>
+<ol>
+<li><strong>Un servicio de debida diligencia de software</strong> para quien tiene que decidir con papeles: bancos, telcos, fintech, sector público y fondos que invierten en tecnología en República Dominicana y el Caribe. Alto precio por informe, venta consultiva, cero dependencia de algoritmos.</li>
+<li><strong>Una suscripción de barrio</strong> —el producto de siempre, pero con canal propio, pago y continuidad— que además alimenta el registro.</li>
+<li><strong>La Vara como servicio</strong> (<em>open core</em>): el motor de verificación publicado como herramienta abierta y como <strong>servidor MCP</strong>, para que cualquier agente o medio pueda consultar &quot;qué es esto, quién lo mide, cuándo y con qué evidencia&quot;.</li>
+</ol>
+<p>La infraestructura que lo sostiene es un repositorio convertido en sistema: contrato de datos con esquema, ocho compuertas automáticas en integración continua, procedencia criptográfica por pieza y un sitio estático autocontenido que no depende de ninguna plataforma.</p>
+<p><strong>Lo que se pide al dueño:</strong> cinco decisiones (licencia, marca, canal primario, política de patrocinio y publicación del servidor MCP) y autorización para el primer trimestre de ejecución. <strong>Inversión de infraestructura estimada:</strong> menos de US$10/mes en la fase 1. <strong>Riesgo principal:</strong> seguir igual, que es el único escenario donde el activo se deprecia solo.</p>
+<hr />
+</section><section class="tarjeta" id="s-1"><h2><span class="num">01</span>Diagnóstico: lo que el repositorio es, medido hoy</h2><h3>1.1 Inventario crudo</h3>
+<div class="tabla-wrap"><table>
+<thead>
+<tr>
+  <th>Medida</th>
+  <th>Valor</th>
+  <th>Cómo se midió</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Archivos en el árbol</td>
+  <td>3.411</td>
+  <td><code>find</code> sobre el clon de <code>main</code></td>
+</tr>
+<tr>
+  <td>Peso del contenido (sin <code>.git</code>)</td>
+  <td>174 MB</td>
+  <td><code>du --exclude=.git</code></td>
+</tr>
+<tr>
+  <td>Archivos Markdown</td>
+  <td>3.005</td>
+  <td>conteo por extensión</td>
+</tr>
+<tr>
+  <td>Palabras en Markdown</td>
+  <td>6.067.493</td>
+  <td>conteo de <code>split()</code> sobre los 3.005 archivos</td>
+</tr>
+<tr>
+  <td>Publicaciones WhatsApp</td>
+  <td>112 piezas · 367.597 palabras</td>
+  <td>carpeta <code>01-PUBLICACIONES/WhatsApp-dominicano-ES</code> (sin contar el LEEME)</td>
+</tr>
+<tr>
+  <td>Publicaciones Facebook</td>
+  <td>147 piezas · 82.177 palabras</td>
+  <td>carpeta <code>01-PUBLICACIONES/Facebook-dominicano-ES</code> (sin contar el LEEME)</td>
+</tr>
+<tr>
+  <td>Repositorios medidos</td>
+  <td><strong>6.826 fichas</strong>: 5.682 del censo del 15-oct + 1.144 medidas el 31-oct</td>
+  <td>censo leído por columnas + <code>tools/pulso.py</code> con payload sellado</td>
+</tr>
+<tr>
+  <td>Vivos (push ≤180 días al corte)</td>
+  <td>3.438 (60,5 %)</td>
+  <td>cálculo de fechas contra 2026-10-15</td>
+</tr>
+<tr>
+  <td>Dormidos</td>
+  <td>2.246 (39,5 %)</td>
+  <td>ídem</td>
+</tr>
+<tr>
+  <td>Estrellas totales censadas</td>
+  <td>4.205.993 · mediana 0</td>
+  <td>suma y mediana del campo <code>stars</code> (la mayoría de los repos censados no tiene estrellas)</td>
+</tr>
+<tr>
+  <td>Velocidad mediana</td>
+  <td>0,0 ★/mes</td>
+  <td>campo <code>stars_por_mes</code></td>
+</tr>
+<tr>
+  <td>Recursos mapeados</td>
+  <td>701 en 108 piezas</td>
+  <td><code>mapa-recursos-29oct.json</code></td>
+</tr>
+<tr>
+  <td>Herramientas propias</td>
+  <td>25 scripts Python</td>
+  <td><code>HABILIDADES/herramientas</code> + <code>_herramientas</code> + <code>tools/</code></td>
+</tr>
+<tr>
+  <td>Licencias declaradas</td>
+  <td>1.306 con SPDX identificado (19,1 %) · 57 NOASSERTION · <strong>5.381 sin licencia declarada (78,8 %)</strong></td>
+  <td><code>registry/*.json</code></td>
+</tr>
+</tbody>
+</table></div>
+<h3>1.2 Los cuatro activos reales</h3>
+<p><strong>A. Corpus editorial.</strong> 449.914 palabras publicadas en dos plataformas con voz propia, anatomía fija (semilla, mapa mental, fichas, meme, método, glosario, nota de verificación fechada) y un registro lingüístico que ningún generador reproduce por accidente: el barrio, el mueble, el portero, la casa. Eso es marca, no texto.</p>
+<p><strong>B. Registro verificado.</strong> 6.826 fichas con actividad medida y licencia clasificada por el orden de la casa; 701 recursos mapeados a piezas. Y un hallazgo que vale más que el registro entero: <strong>el 78,8 % de los repositorios medidos no declara ninguna licencia</strong> (90,4 % dentro del censo original). La materia prima de la línea L1 no hay que buscarla: está en casa. Sin registro no hay informe, no hay API, no hay MCP.</p>
+<p><strong>C. Método.</strong> Siete habilidades ejecutables (arranque, verificación multinivel, pulso, licencias sin inventar, pieza editorial, guardado con verificación por blobs, formato respirable) más la puerta anti-plantilla y la doctrina de la casa. Este es el activo más difícil de copiar y el único que se puede vender tal cual.</p>
+<p><strong>D. Herramientas.</strong> <code>arranque.py</code>, <code>chequeo-niveles.py</code>, <code>pulso.py</code>, <code>vara-simulada.py</code>, <code>guardar.py</code>, <code>aprender.py</code>, las cinco lupas, la forja del catálogo. Funcionan, están probadas en producción y son pequeñas (22 a 489 líneas): se pueden endurecer y publicar en semanas, no en años.</p>
+<h3>1.3 Las siete deudas estructurales (con nombre y consecuencia)</h3>
+<ol>
+<li><strong>Sin licencia.</strong> El repositorio no tiene <code>LICENSE</code> en la raíz. Sin licencia, nadie puede reutilizarlo legalmente, ningún fondo puede financiarlo y ninguna empresa puede comprarle un informe sin abogado de por medio. Es la deuda más caras de todas y cuesta un día resolverla.</li>
+<li><strong>Cero integración continua.</strong> No existe <code>.github/</code>. La vara —las compuertas que impiden publicar basura— se ejecuta a mano, por disciplina humana. El propio historial demuestra el costo: se empujó una pieza rota (<code>ebd74b0</code>) porque la vara reportó fallos con salida en cero. La disciplina sin automatización falla; la automatización sin disciplina también. Necesita las dos.</li>
+<li><strong>Sin contrato de datos.</strong> El censo es un TSV de 5.685 líneas; el mapa es un JSON con tres claves distintas; las placas son prosa con formato. Nada de eso se puede validar, versionar ni consumir por máquina. Un esquema convierte 573 filas en un producto.</li>
+<li><strong>Duplicación sin gobierno.</strong> 3.005 archivos Markdown incluyen versiones en portugués, francés e inglés, cortes de septiembre, respaldos previos y entregas empaquetadas. Cada duplicado es un sitio donde una corrección puede quedarse sin aplicar, y el proyecto ya vivió esa mordida.</li>
+<li><strong>Superficie de producto inexistente.</strong> El catálogo es un HTML único de 997 KB, sin rutas por pieza, sin búsqueda indexable, sin sindicación, sin descarga de datos. Funciona como archivo; no funciona como producto.</li>
+<li><strong>Canal prestado.</strong> Todo el alcance vive en Facebook y WhatsApp. Una decisión de moderación o un cambio de política y el proyecto desaparece sin perder un byte de contenido. No hay lista de correo, no hay RSS, no hay dominio propio en uso.</li>
+<li><strong>Frescura desigual.</strong> Conviven piezas fechadas 15-sep, 22-sep, 15-oct y 29-oct. La casa tiene razón al no maquillar fechas, pero hoy no hay ningún indicador que diga al lector —ni al comprador— la edad real de cada dato. La frescura se afirma, no se demuestra.</li>
+</ol>
+<h3>1.4 Lectura estratégica: dónde está el foso</h3>
+<p>Un modelo de lenguaje escribe hoy un artículo aceptable sobre F-Droid. Lo que no puede hacer es <strong>afirmar con fecha, evidencia y firma que un repositorio concreto tenía 185.239 estrellas, licencia MIT y su último empuje el 29 de octubre de 2026, y demostrar que ese número salió de la API oficial ese día y no se ha modificado después</strong>. Esa asimetría es el negocio: el texto se commoditiza, la procedencia no.</p>
+<p>Esta propuesta se organiza alrededor de una sola idea: <strong>vender procedencia verificable</strong>, con el texto como empaque.</p>
+<hr />
+</section><section class="tarjeta" id="s-2"><h2><span class="num">02</span>Mercado: quién paga, por qué y cuánto</h2><h3>2.1 Contexto dominicano medido</h3>
+<p>La Encuesta Nacional de Hogares (EnHogar-MICS 2025, publicada por la ONE y difundida en julio de 2026) mide: <strong>92,7 % de hogares con al menos un teléfono móvil</strong>, <strong>89,4 % con smartphone</strong>, y solo <strong>56,2 % con banda fija</strong> (60,2 % urbano, 45,5 % rural); computadora en el hogar, 32,8 %.</p>
+<p>Consecuencia directa para el negocio: el país es <strong>móvil-primero y WhatsApp-primero</strong>, y cualquier producto digital que exija descargar una aplicación desde una tienda o registrarse en un portal web de escritorio va a perder a la mayoría antes del primer clic. Esto no es una preferencia estética: es una restricción de arquitectura.</p>
+<h3>2.2 Los cuatro compradores</h3>
+<div class="tabla-wrap"><table>
+<thead>
+<tr>
+  <th>Comprador</th>
+  <th>Dolor concreto</th>
+  <th>Qué compra</th>
+  <th>Sensibilidad al precio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>B2B cumplimiento</strong> (banca, telco, fintech, seguros, aseguradoras de software)</td>
+  <td>Tienen que decidir si aceptan un componente de código abierto y no saben quién lo mantiene, con qué licencia ni qué tan vivo está</td>
+  <td>Informe de debida diligencia con evidencia fechada y metodología auditable</td>
+  <td>Baja si el informe les ahorra un riesgo legal o un incidente</td>
+</tr>
+<tr>
+  <td><strong>B2G educación y digitalización</strong></td>
+  <td>Programas de alfabetización digital y de &quot;uso seguro&quot; que necesitan contenido y método, no folletos</td>
+  <td>Licencia de contenido + capacitación + informe de medición</td>
+  <td>Media; ciclos lentos; requiere facturación formal</td>
+</tr>
+<tr>
+  <td><strong>Barrio y diáspora (B2C)</strong></td>
+  <td>Le instalan cosas, le piden permisos raros, le roban datos y no sabe a quién creer</td>
+  <td>Suscripción con verificación continua y consultas</td>
+  <td>Alta sensibilidad, pero volumen agregable</td>
+</tr>
+<tr>
+  <td><strong>Ecosistema FOSS</strong> (proyectos, directorios, medios técnicos)</td>
+  <td>Necesitan medir frescura y procedencia de su propio catálogo sin montar un equipo</td>
+  <td>La Vara como servicio y como servidor MCP</td>
+  <td>Media; paga en visibilidad y en dinero pequeño, con alta credibilidad</td>
+</tr>
+</tbody>
+</table></div>
+<h3>2.3 Por qué ahora</h3>
+<p>Tres cosas están pasando al mismo tiempo y empujan en la misma dirección:</p>
+<ul>
+<li><strong>El ecosistema se está cerrando.</strong> La verificación de desarrolladores de Google, el registro del 30 de septiembre de 2026 y la fecha de 2027 que la serie cronometra hacen que &quot;saber qué se puede instalar de verdad&quot; pase de curiosidad a necesidad. Cuando todo está abierto, verificar no vale nada; cuando se cierra, verificar es el producto.</li>
+<li><strong>La IA multiplicó el contenido y bajó su confianza.</strong> El valor marginal de otro artículo generado es cero; el valor de un dato fechado y firmado sube. La puerta anti-plantilla que la casa ya construyó es, literalmente, el diferencial del mercado.</li>
+<li><strong>MCP convirtió los catálogos en infraestructura.</strong> Un registro que un agente puede consultar con contrato y fecha se vuelve proveedor; uno que solo existe en prosa se vuelve forraje. Medición propia de hoy: el registro oficial de MCP tiene <strong>53.886 entradas en su última versión</strong>, y el <strong>66,6 %</strong> declara endpoint remoto. Hay un mercado naciendo de consumidores automáticos de datos verificados.</li>
+</ul>
+<h3>2.4 Lo que no vamos a hacer</h3>
+<p>No se compite por tráfico con medios de tecnología. No se vende publicidad programática. No se cobra por reseñar aplicaciones. No se monetiza la lista de correo con afiliados de tiendas de mods. Cada una de esas vías destruye exactamente el activo que hace valiosa la marca: la independencia verificable.</p>
+<hr />
+</section><section class="tarjeta" id="s-3"><h2><span class="num">03</span>Portafolio de ofertas</h2><p>Cinco líneas. Dos de arranque, una apuesta, una subvención, una diferida. El orden importa: la línea de arranque financia la apuesta, no al revés.</p>
+<h3>L1 · Debida diligencia de software (arranque, recomendada)</h3>
+<p><strong>Qué es:</strong> informe de 12 a 20 páginas sobre un componente, proveedor o conjunto de aplicaciones, con: identidad y propiedad del proyecto, licencia verificada por orden (SPDX → endpoint → texto del archivo → ausencia firmada), actividad medida con semántica explícita (404 muerto, 451 bloqueado, 403/429 jamás es muerte), cadena de mantenimiento, señales de riesgo (dependencias fantasma, binarios sin fuente, permisos excesivos), y anexo de evidencia con fechas y hashes.</p>
+<p><strong>Por qué lo compran:</strong> porque el comité de riesgos no acepta &quot;lo dice un blog&quot;. Acepta un documento con metodología, fecha de corte y evidencia reproducible.</p>
+<p><strong>Precio:</strong> US$1.200 (componente único) · US$2.400 (conjunto de 10) · US$4.800 (proveedor completo + seguimiento de 90 días).
+<strong>Costo marginal estimado:</strong> 6–14 horas de trabajo, casi todo lectura de evidencia ya automatizada.
+<strong>Margen objetivo:</strong> 65–80 % una vez que la Vara esté en CI.</p>
+<h3>L2 · Suscripción de barrio (arranque, recomendada)</h3>
+<p><strong>Qué es:</strong> el producto de siempre con tres añadidos que lo vuelven cobrable: (a) <em>alerta de cambios</em> — cuando una app que usas cambia de dueño, de licencia o se queda dormida, te enteras con la evidencia; (b) <em>consulta directa</em> — una pregunta al mes, respondida con placa medida, no con opinión; (c) <em>archivo completo</em> descargable, porque el archivo es la promesa.</p>
+<p><strong>Canal:</strong> WhatsApp propio con enlace de pago, y página de suscripción en el dominio propio. WhatsApp es el canal de entrada; la base de datos es nuestra, no de Meta.
+<strong>Precio:</strong> RD$200/mes o RD$2.000/año (equivalente aproximado US$3–4/mes; la conversión se fija el día que se publique el precio, no antes).
+<strong>Objetivo realista año 1:</strong> 120–300 suscriptores. No es la línea que paga la casa; es la que construye la lista propia, que es el activo de distribución que hoy no existe.</p>
+<h3>L3 · La Vara como servicio (apuesta)</h3>
+<p><strong>Qué es:</strong> el motor de verificación, publicado en abierto (núcleo) y ofrecido como servicio alojado (capas de operación): monitoreo continuo de un catálogo ajeno, atestaciones firmadas descargables, y un <strong>servidor MCP</strong> que expone el registro como herramientas para agentes.</p>
+<p><strong>Cliente:</strong> directorios de apps, medios técnicos, proyectos FOSS con catálogo, equipos de cumplimiento que ya pagan por inventario de software.
+<strong>Precio:</strong> US$49/mes (hasta 100 repositorios) · US$199/mes (hasta 1.000 + atestaciones) · acuerdos anuales para directorios.
+<strong>Por qué es apuesta:</strong> requiere obra técnica real y credibilidad pública antes de la primera venta. Pero es la única línea con techo alto y la única que un fondo de infraestructura abierta financiaría sin pedirnos que dejemos de escribir.</p>
+<h3>L4 · Subvención de infraestructura abierta (financiamiento, no negocio)</h3>
+<p><strong>Hecho verificado hoy:</strong> NLnet tiene fecha límite <strong>3 de noviembre de 2026, 12:00 CET</strong>, primer grant de <strong>€5.000 a €50.000</strong>, exige licencias abiertas y estándares abiertos, y su política declara que <strong>las propuestas deben ser escritas por humanos, no por IA</strong>; si se usa asistencia de IA, hay que entregar los registros de prompts.</p>
+<p>Esto tiene dos consecuencias que el dueño debe saber antes de decidir:</p>
+<ol>
+<li>Una propuesta redactada por un asistente y enviada como propia <strong>viola la política del fondo</strong>. La vía legítima es que el dueño la escriba, o que se declare el uso de IA con los registros. Este documento sirve como material de base, no como sustituto de su voz.</li>
+<li>La fecha es en tres días. Si no hay decisión hoy, la siguiente ventana es la siguiente convocatoria.</li>
+</ol>
+<p><strong>Evaluación honesta del encaje:</strong> NLnet financia <em>desarrollo técnico</em>: la Vara (motor, esquema, atestaciones, servidor MCP) encaja; la serie editorial no. <strong>Sovereign Tech Fund</strong> exige mínimo €50.000, foco en infraestructura base y <strong>no financia aplicaciones de usuario</strong>; con la información pública de hoy, el encaje de La Bandita es débil salvo que se presente exclusivamente el componente de verificación. Decirlo ahora evita un mes perdido en un formulario.</p>
+<h3>L5 · Programa B2G de alfabetización verificada (diferida a año 2)</h3>
+<p><strong>Qué es:</strong> licencia del corpus adaptado, talleres para docentes y periodistas, e informe de medición de adopción. Requiere personería jurídica, facturación y un socio local con experiencia en compras públicas. No se arranca antes de tener L1 y L2 funcionando: el sector público compra a quien ya existe.</p>
+<hr />
+</section><section class="tarjeta" id="s-4"><h2><span class="num">04</span>Economía: supuestos explícitos, no pronósticos</h2><p>Todo lo que sigue son <strong>supuestos de trabajo</strong> declarados como tales, no datos de mercado medidos. Se presentan para que el dueño pueda discutir la aritmética, no para prometer resultados.</p>
+<p><strong>Supuestos base:</strong> 12 horas semanales de producción; 6 informes L1 en el año; 2 retainers de seguimiento a 6 meses; 180 suscriptores promedio en L2; 2 talleres; 0 ingresos de L3 en el año (se construye, no se vende).</p>
+<div class="tabla-wrap"><table>
+<thead>
+<tr>
+  <th>Línea</th>
+  <th>Cálculo</th>
+  <th>Año 1 (US$)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>L1 informes</td>
+  <td>6 × US$1.800 (mezcla de alcances)</td>
+  <td>10.800</td>
+</tr>
+<tr>
+  <td>L1 retainers</td>
+  <td>2 × US$900 × 6 meses</td>
+  <td>10.800</td>
+</tr>
+<tr>
+  <td>L2 suscripción</td>
+  <td>180 × US$3,5 × 12</td>
+  <td>7.560</td>
+</tr>
+<tr>
+  <td>Talleres</td>
+  <td>2 × US$1.200</td>
+  <td>2.400</td>
+</tr>
+<tr>
+  <td><strong>Total ingresos</strong></td>
+  <td></td>
+  <td><strong>31.560</strong></td>
+</tr>
+<tr>
+  <td>Infraestructura</td>
+  <td>dominio + CI + hosting estático</td>
+  <td>−120</td>
+</tr>
+<tr>
+  <td>Herramientas y fuentes</td>
+  <td>APIs gratuitas; reserva para cuentas y respaldo</td>
+  <td>−600</td>
+</tr>
+<tr>
+  <td><strong>Margen bruto estimado</strong></td>
+  <td></td>
+  <td><strong>30.840</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Punto de equilibrio operativo:</strong> 1 informe L1 al mes cubre infraestructura y tiempo parcial; el resto es construcción de la L3.
+<strong>Escenario conservador (mitad):</strong> US$15.800. <strong>Escenario optimista (×2,2):</strong> US$69.000, que solo ocurre si L1 consigue dos clientes ancla en el primer semestre.
+<strong>Sensibilidad:</strong> el negocio es frágil al primer trimestre (sin informes no hay caja) y robusto a partir del segundo (los retainers y la suscripción son recurrentes). Por eso el orden de ejecución es L1 antes que L3, aunque L3 sea más interesante.</p>
+<hr />
+</section><section class="tarjeta" id="s-5"><h2><span class="num">05</span>Arquitectura técnica objetivo</h2><p>El estándar superior que se pide no es más contenido: es <strong>estructura que impida el error</strong>. Esta es la forma concreta.</p>
+<h3>5.1 El repositorio como sistema</h3>
+<pre><code>la-bandita-archivo/
+├── content/            # piezas por plataforma, una fuente por pieza, sin duplicados
+├── registry/           # fichas .json (una por recurso) — el activo vendible
+├── schemas/            # contrato de datos versionado (ficha, placa, atestación)
+├── tools/              # vara, pulso, guardar, lupa — empaquetados y con pruebas
+├── site/               # generador estático: catálogo, rutas por pieza, RSS, JSON-LD
+├── acts/               # actas y erratas: la memoria pública del proyecto
+├── dist/               # salida publicada (nunca editada a mano)
+└── .github/workflows/  # las ocho compuertas
+</code></pre>
+<p>Regla de oro: <strong>una pieza, una fuente</strong>. Facebook y WhatsApp dejan de ser dos archivos que hay que mantener sincronizados a mano y pasan a ser dos <em>renderizados</em> de una misma fuente con restricciones propias. La duplicación actual (3.005 Markdown) es el mayor pasivo técnico del proyecto y el más fácil de detener: basta con no crear el décimo duplicado.</p>
+<h3>5.2 Contrato de datos</h3>
+<p>Una ficha mínima, en JSON, con estos campos obligatorios: <code>repo</code>, <code>medido_en</code> (fecha ISO), <code>fuente</code> (API oficial, web oficial, terciaria), <code>licencia</code> con <code>spdx</code>, <code>metodo</code> (orden SPDX → endpoint → texto → ausencia firmada) y <code>verificado_en</code>; <code>actividad</code> con <code>ultimo_push</code> y <code>estado</code> calculado con semántica explícita; <code>evidencia</code> con hash del payload crudo; y <code>atestacion</code> opcional.</p>
+<p>El esquema completo va como anexo (<code>anexos/ficha.schema.json</code>) y como ejemplo ejecutable (<code>datos/ejemplo-ficha.json</code>). Una ficha sin <code>medido_en</code> no es una ficha: es una opinión con corchetes.</p>
+<h3>5.3 Las ocho compuertas (la Vara en integración continua)</h3>
+<div class="tabla-wrap"><table>
+<thead>
+<tr>
+  <th>#</th>
+  <th>Compuerta</th>
+  <th>Qué detiene</th>
+  <th>Cómo se prueba</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1</td>
+  <td>Esquema</td>
+  <td>ficha sin fecha, sin fuente o sin método de licencia</td>
+  <td>validador JSON Schema</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>Frescura</td>
+  <td>dato de más de N días presentado como actual</td>
+  <td>comparación <code>medido_en</code> vs <code>hoy</code></td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>Licencia</td>
+  <td>licencia inventada o inferida por el nombre</td>
+  <td>orden SPDX → endpoint → texto → ausencia firmada</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>Actividad</td>
+  <td>403/429 tratados como muerte</td>
+  <td>tabla de semántica de códigos</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td>Integridad</td>
+  <td>pieza alterada tras el sello</td>
+  <td>SHA-256 por archivo y por lote</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td>Anti-plantilla</td>
+  <td>prosa genérica, estructura formulística</td>
+  <td>densidad, repetición de n-gramas, frases de transición</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td>Enlaces</td>
+  <td>recurso canónico ausente o espejo presentado como oficial</td>
+  <td>resolución de URL + dominio canónico declarado</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td>Presupuesto</td>
+  <td>pieza fuera de la banda de tamaño de su plataforma</td>
+  <td><code>len()</code> por plataforma</td>
+</tr>
+</tbody>
+</table></div>
+<p>Ninguna compuerta se aprueba por salida en cero: se aprueba cuando el reporte dice <strong>&quot;fallos: NINGUNO&quot;</strong> y ese texto está en el registro del job. La lección costó una pieza rota en producción; queda codificada.</p>
+<h3>5.4 Procedencia criptográfica (la innovación real)</h3>
+<p>El sello SHA-256 actual prueba que un archivo no cambió. No prueba <strong>quién midió, cuándo y con qué</strong>. El salto de estándar es este:</p>
+<ol>
+<li><strong>SWHID por revisión.</strong> Al medir un repositorio, se archiva su revisión en Software Heritage y se cita el identificador inmutable (<code>swh:1:rev:…</code>). Verificado hoy: la API de Software Heritage responde. Con eso, la placa deja de depender de que GitHub conserve el commit.</li>
+<li><strong>Atestación firmada por lote.</strong> Cada hornada produce una atestación (formato in-toto) firmada sin llave (Sigstore/cosign keyless) que enumera las fichas, sus hashes y la fecha. Cualquiera puede verificar que el informe de julio fue medido en julio.</li>
+<li><strong>Publicación de la atestación junto al informe.</strong> El cliente B2B no compra confianza: compra algo que puede verificar sin llamarnos.</li>
+</ol>
+<p>Esto es lo que separa &quot;un blog serio&quot; de &quot;infraestructura de verificación&quot;, y es exactamente el tipo de trabajo que un fondo de infraestructura abierta financia.</p>
+<h3>5.5 Fuentes verificadas y su papel</h3>
+<p>Cada fuente tiene un rol y un límite. Probadas hoy contra su endpoint:</p>
+<div class="tabla-wrap"><table>
+<thead>
+<tr>
+  <th>Fuente</th>
+  <th>Rol</th>
+  <th>Estado verificado hoy</th>
+  <th>Límite que hay que respetar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>API y web de GitHub</td>
+  <td>gobernante para ★, actividad, releases, licencia</td>
+  <td>operativa con token</td>
+  <td>cuota; 403/429 jamás es muerte</td>
+</tr>
+<tr>
+  <td>F-Droid <code>index-v2.json</code></td>
+  <td>catálogo firmado de apps libres</td>
+  <td>HTTP 200</td>
+  <td>solo ecosistema F-Droid</td>
+</tr>
+<tr>
+  <td>Repology</td>
+  <td>versionado cruzado entre distribuciones</td>
+  <td>HTTP 200</td>
+  <td>no mide actividad del repo</td>
+</tr>
+<tr>
+  <td>Ecosyste.ms</td>
+  <td>metadatos secundarios y descubrimiento</td>
+  <td>HTTP 200</td>
+  <td>nunca sustituye la fuente primaria</td>
+</tr>
+<tr>
+  <td>OpenSSF Scorecard</td>
+  <td>mérito de prácticas (sustituye a ★ como señal)</td>
+  <td>operativa (probada con un repo de referencia: score 5, 14 chequeos, fecha 2026-10-19)</td>
+  <td>no todos los repos están puntuados</td>
+</tr>
+<tr>
+  <td>deps.dev</td>
+  <td>cadena de suministro a nivel de paquete</td>
+  <td>HTTP 200</td>
+  <td>mide paquetes, no aplicaciones</td>
+</tr>
+<tr>
+  <td>Software Heritage</td>
+  <td>inmutabilidad y cita canónica</td>
+  <td>HTTP 200</td>
+  <td>archiva, no verifica licencias</td>
+</tr>
+<tr>
+  <td>Registro oficial MCP</td>
+  <td>descubrimiento de servidores MCP</td>
+  <td>HTTP 200; 53.886 entradas latest medidas hoy</td>
+  <td>está en <em>preview</em> y no revisa seguridad</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Decisión de diseño:</strong> ★ se conserva como dato, pero <strong>el mérito se mide con Scorecard + actividad + licencia</strong>. Es la traducción técnica de la regla del dueño: la popularidad no sustituye el mérito.</p>
+<h3>5.6 El sitio: producto, no folleto</h3>
+<ul>
+<li>Generación estática desde <code>content/</code> y <code>registry/</code>: cada pieza con URL propia, cada recurso con ficha enlazable.</li>
+<li><strong>Autocontenido por principio:</strong> cero CDN, cero fuentes externas, iconos SVG dibujados a mano, tipografía del sistema. El módulo de referencia (MOS Premium v15) tomaba sus fuentes de Google y sus iconos de unpkg: sin red, se degradaba. La versión de La Bandita no pide un byte.</li>
+<li>Búsqueda local con índice precargado, descarga del registro en JSON/CSV, RSS y <code>JSON-LD</code> por ficha para que los buscadores entiendan qué se está afirmando y cuándo.</li>
+<li>PWA instalable sin tienda, porque el país es móvil y la tienda es un peaje.</li>
+<li><strong>Costo estimado:</strong> US$0–5/mes (hosting estático gratuito + dominio anual). El sitio no es el gasto; el gasto es el tiempo de medición.</li>
+</ul>
+<h3>5.7 Capacidad y automatización</h3>
+<p>Orden de automatización por retorno: (1) medición de repos y licencias — ya casi resuelta; (2) validación de fichas y frescura; (3) renderizado por plataforma desde fuente única; (4) atestaciones; (5) generación del sitio. Lo que <strong>no</strong> se automatiza: la decisión editorial, el juicio de riesgo y la firma. Un sistema que se firma solo no es un sistema verificable, es una máquina de ruido.</p>
+<hr />
+</section><section class="tarjeta" id="s-6"><h2><span class="num">06</span>Integración de servicios MCP: evaluación, selección y jugada propia</h2><h3>6.1 Qué es hoy MCP (hechos verificados, con fecha)</h3>
+<ul>
+<li>Protocolo abierto que conecta aplicaciones de IA con servidores que exponen herramientas, recursos y prompts. Creado por Anthropic (noviembre de 2024) y <strong>gobernado desde el 9 de diciembre de 2025 por la Agentic AI Foundation, bajo la Linux Foundation</strong>. Código y especificación con <strong>licencia Apache 2.0</strong>.</li>
+<li><strong>Revisión vigente de la especificación: 2026-07-28.</strong> En esa revisión quedaron <strong>deprecados Roots, Sampling y Logging</strong>, con doce meses de gracia; una implementación nueva no debe adoptarlos.</li>
+<li>Transportes: <strong>stdio</strong> para servidores locales y <strong>Streamable HTTP</strong> para remotos. Autorización opcional para HTTP, con perfil OAuth 2.1, metadatos de recurso protegido (RFC 9728) y tokens con audiencia (RFC 8707).</li>
+<li><strong>El registro oficial sigue en <em>preview</em>.</strong> Medición propia de hoy, 31 de octubre de 2026, paginando su API: <strong>53.886 entradas en su última versión</strong>, de las cuales <strong>35.884 (66,6 %) declaran endpoint remoto</strong>.</li>
+</ul>
+<h3>6.2 Riesgo medido: el registro no es un catálogo de confianza</h3>
+<p>El registro guarda metadatos y verifica la propiedad de un espacio de nombres; <strong>no revisa seguridad, no mide mantenimiento y no audita permisos</strong>. Censos independientes de 2026 reportan que una parte grande de los servidores publicados no vuelve a actualizarse y que una fracción relevante no enlaza su código fuente. Y el vector de ataque propio de este protocolo ya está documentado: descripciones de herramientas envenenadas (<em>tool poisoning</em>), inyección de instrucciones desde contenido remoto, y exfiltración por herramientas que leen lo que no deberían.</p>
+<p><strong>Consecuencia operativa, sin matices:</strong> integrar MCP por moda es un pasivo. Se integra por lista blanca, con versión fijada, permisos mínimos y registro de auditoría.</p>
+<h3>6.3 Selección de servidores: lo que sí y lo que no</h3>
+<p><strong>Sí — servidores oficiales de referencia</strong> (mantenidos en <code>modelcontextprotocol/servers</code>, el repositorio del propio proyecto; verificados hoy en su rama <code>main</code>):</p>
+<div class="tabla-wrap"><table>
+<thead>
+<tr>
+  <th>Servidor</th>
+  <th>Para qué lo usa La Bandita</th>
+  <th>Riesgo residual</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>Fetch</strong></td>
+  <td>traer una página oficial y convertirla a texto para medir</td>
+  <td>contenido remoto es dato, nunca instrucción</td>
+</tr>
+<tr>
+  <td><strong>Filesystem</strong></td>
+  <td>lectura del árbol local de piezas y fichas, con raíz acotada</td>
+  <td>debe apuntar solo a la carpeta del proyecto</td>
+</tr>
+<tr>
+  <td><strong>Git</strong></td>
+  <td>historial y diffs: auditar qué cambió y cuándo</td>
+  <td>solo lectura por defecto</td>
+</tr>
+<tr>
+  <td><strong>Memory</strong></td>
+  <td>grafo de conocimiento persistente entre sesiones</td>
+  <td>no guardar secretos ni datos personales</td>
+</tr>
+<tr>
+  <td><strong>Time</strong></td>
+  <td>fechas y zonas: la casa vive de fechas correctas</td>
+  <td>ninguna relevante</td>
+</tr>
+<tr>
+  <td><strong>Sequential Thinking</strong></td>
+  <td>descomposición de auditorías complejas</td>
+  <td>no sustituye evidencia</td>
+</tr>
+<tr>
+  <td><strong>Everything</strong></td>
+  <td>banco de pruebas del cliente MCP</td>
+  <td>solo en entorno de pruebas</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Sí — servidor oficial del proveedor:</strong> <strong><code>github/github-mcp-server</code></strong>, el servidor MCP de GitHub (licencia <strong>MIT</strong>, ★34.126, último empuje <strong>2026-10-30</strong>, verificado hoy). Es la vía para operar el repositorio desde un agente sin reimplementar la API.</p>
+<p><strong>No — los archivados.</strong> El repositorio de referencia movió a <code>servers-archived</code> los servidores de <strong>GitHub, GitLab, PostgreSQL, SQLite, Puppeteer, Slack, Sentry, Google Drive, Google Maps, Redis, Brave Search, AWS KB y EverArt</strong>. En particular: el servidor de GitHub del repo de referencia <strong>está archivado</strong>; usar ese sería adoptar código muerto teniendo el oficial vivo. Esta es exactamente la clase de error que la puerta de La Bandita existe para impedir, aplicada a la propia casa.</p>
+<p><strong>Prohibiciones duras (lista negra operativa):</strong></p>
+<ol>
+<li>Ningún servidor sin repositorio de código enlazado y mantenedor identificable.</li>
+<li>Ningún servidor sin versión fijada por hash o etiqueta inmutable.</li>
+<li>Ningún servidor que reciba credenciales por variable de entorno global: token por herramienta, con alcance mínimo y caducidad.</li>
+<li>Ningún servidor con escritura habilitada por defecto: escritura siempre con aprobación humana explícita.</li>
+<li>Ningún contenido remoto se interpreta como instrucción; se trata como dato y se cita.</li>
+<li>Ningún servidor cuya única distribución sea un endpoint remoto opaco y sin fuente.</li>
+</ol>
+<h3>6.4 La jugada propia: el servidor MCP de La Bandita</h3>
+<p>Aquí está el movimiento estratégico que esta propuesta recomienda: <strong>no solo consumir MCP — publicar La Bandita como servidor MCP</strong>.</p>
+<p><strong>Nombre propuesto:</strong> <code>labandita-registro</code>
+<strong>Qué expone (herramientas de solo lectura, contrato JSON con fecha obligatoria):</strong></p>
+<div class="tabla-wrap"><table>
+<thead>
+<tr>
+  <th>Herramienta</th>
+  <th>Entrada</th>
+  <th>Salida (siempre con <code>medido_en</code>, <code>fuente</code>, <code>evidencia</code>)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><code>buscar_recurso</code></td>
+  <td>texto, familia, plataforma</td>
+  <td>fichas coincidentes del registro</td>
+</tr>
+<tr>
+  <td><code>ficha_recurso</code></td>
+  <td><code>repo</code> o identificador</td>
+  <td>ficha completa con licencia, actividad, estado y SWHID</td>
+</tr>
+<tr>
+  <td><code>censo_familia</code></td>
+  <td>familia (lectores, música, respaldo…)</td>
+  <td>agregados: vivos, dormidos, licencias, mediana de actividad</td>
+</tr>
+<tr>
+  <td><code>estado_frescura</code></td>
+  <td><code>repo</code> o pieza</td>
+  <td>edad del dato en días y si supera el umbral</td>
+</tr>
+<tr>
+  <td><code>verificar_licencia</code></td>
+  <td><code>repo</code></td>
+  <td>resultado del orden SPDX → endpoint → texto → ausencia firmada</td>
+</tr>
+<tr>
+  <td><code>atestacion_lote</code></td>
+  <td>fecha o identificador de hornada</td>
+  <td>atestación firmada y hashes verificables</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Por qué esto vale dinero y no es un juguete:</strong></p>
+<ul>
+<li>Convierte 6.826 fichas y 701 recursos en <strong>infraestructura consultable por agentes</strong>, que es el formato en el que se va a consumir información técnica en los próximos años.</li>
+<li>Obliga a tener el contrato de datos limpio: no se puede servir lo que no está esquematizado. La jugada MCP <strong>fuerza</strong> la deuda técnica buena.</li>
+<li>Es defendible: nadie más tiene este corpus en español con fecha y evidencia.</li>
+<li>Es el entregable natural para L3 y para una subvención de infraestructura abierta.</li>
+<li>Y encaja con la casa: la pieza 63 de la serie ya trata el protocolo; el catálogo ya es una webroot autocontenida; la vara ya es una política de &quot;rechazar antes de aplicar&quot;.</li>
+</ul>
+<p><strong>Regla de honestidad del servidor:</strong> ninguna herramienta devuelve una afirmación sin fecha. Si un recurso no se ha medido en el umbral configurado, la herramienta responde <code>estado: &quot;rancio&quot;</code> con la edad exacta, en vez de devolver el dato viejo como si fuera fresco. Un servidor que miente con seguridad es peor que uno que no existe.</p>
+<h3>6.5 Costo y calendario de la integración</h3>
+<div class="tabla-wrap"><table>
+<thead>
+<tr>
+  <th>Fase</th>
+  <th>Alcance</th>
+  <th>Esfuerzo</th>
+  <th>Riesgo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>F1</td>
+  <td>Cliente MCP con los 7 oficiales de referencia, solo lectura, en local</td>
+  <td>1 semana</td>
+  <td>bajo</td>
+</tr>
+<tr>
+  <td>F2</td>
+  <td>GitHub oficial + política de lista blanca versionada</td>
+  <td>1 semana</td>
+  <td>medio (permisos)</td>
+</tr>
+<tr>
+  <td>F3</td>
+  <td>Servidor propio <code>labandita-registro</code> en modo lectura sobre el registro</td>
+  <td>3–4 semanas</td>
+  <td>medio (calidad del registro)</td>
+</tr>
+<tr>
+  <td>F4</td>
+  <td>Atestaciones y verificación pública de fichas</td>
+  <td>3 semanas</td>
+  <td>bajo</td>
+</tr>
+<tr>
+  <td>F5</td>
+  <td>Endpoint remoto con OAuth y cuotas (solo si hay demanda pagada)</td>
+  <td>4 semanas</td>
+  <td>alto (operación)</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+</section><section class="tarjeta" id="s-7"><h2><span class="num">07</span>Gobernanza, legal y ética</h2><p><strong>7.1 Licencia (decisión pendiente del dueño).</strong> Propuesta: contenido <strong>CC BY-SA 4.0</strong>, código <strong>MIT</strong>, registro de datos <strong>CC BY 4.0</strong> con atribución obligatoria y cita de la fecha de medición. Sin licencia no hay negocio posible ni subvención posible; con licencia, el uso comercial sigue siendo del dueño si se reserva la marca y los servicios.</p>
+<p><strong>7.2 Marca.</strong> &quot;La Bandita&quot; se protege como marca y como dominio. La licencia abre el contenido; no abre el nombre ni la certificación. Esa separación es lo que permite vender confianza sin cerrar el archivo.</p>
+<p><strong>7.3 Contenido sensible.</strong> La serie nombra tiendas de mods para advertir, no para recomendar. Esa política existe en la práctica; la propuesta la convierte en <strong>regla dura del sistema</strong>: ninguna pieza puede contener enlace de descarga a binario modificado, y la compuerta 7 detiene la publicación si aparece. Un letrero no es una receta.</p>
+<p><strong>7.4 Dependencia de plataforma.</strong> Facebook y WhatsApp son canales prestados. El plan crea canal propio (dominio, correo, RSS, PWA) y trata las redes como escaparate. Objetivo medible: que a los 12 meses el 50 % de la relación con la audiencia viva en una lista que el proyecto controla.</p>
+<p><strong>7.5 Privacidad.</strong> Cero analítica de terceros por defecto; métricas agregadas y propias; sin cookies de seguimiento; sin perfilado de lectores. Además de ser correcto, es coherente con el producto: no se puede vender privacidad midiendo a la gente.</p>
+<p><strong>7.6 Transparencia sobre IA.</strong> Este proyecto usa asistentes de IA en investigación, medición y redacción. Se declara en cada acta, se conservan los registros cuando un financiador los exija (NLnet lo exige si se usa IA en la propuesta) y nunca se presenta como humano lo que no lo es. La marca no se construye sobre el engaño de origen: se construye sobre la evidencia de método.</p>
+<p><strong>7.7 Derecho de réplica y errata.</strong> Todo proyecto medido puede pedir corrección; toda corrección se publica con fecha y con el error original visible. Una errata pública vale más que cien aciertos silenciosos, y es el mejor argumento de venta de un servicio de verificación.</p>
+<hr />
+</section><section class="tarjeta" id="s-8"><h2><span class="num">08</span>Plan de 12 meses</h2><p><strong>T1 (nov 2026 – ene 2027) · Cimientos que no se ven pero sostienen</strong>
+Licencia y aviso legal · esquema de ficha v1 + migración del censo · CI con compuertas 1, 3, 4 y 5 · repositorio ordenado (una pieza, una fuente; congelar duplicados) · precio y página de suscripción · cartera de 20 prospectos B2B. <em>Criterio de salida:</em> una pieza nueva publicada sin intervención manual de verificación, y primer informe L1 vendido o en negociación formal.</p>
+<p><strong>T2 (feb – abr 2027) · Producto</strong>
+Generador de sitio con rutas por pieza y ficha enlazable · RSS y PWA · compuertas 6, 7 y 8 · SWHID por revisión medida · primer lote de atestaciones firmadas · 3 informes L1 entregados. <em>Criterio de salida:</em> 2 retainers firmados y 100 suscriptores.</p>
+<p><strong>T3 (may – jul 2027) · La Vara como servicio</strong>
+Paquete instalable de la Vara con pruebas · servidor <code>labandita-registro</code> en lectura · piloto con un directorio o medio aliado · publicación técnica de la metodología (paper corto o documentación citable) · si aplica, propuesta de subvención con la voz del dueño. <em>Criterio de salida:</em> un tercero usa la Vara sobre su propio catálogo.</p>
+<p><strong>T4 (ago – oct 2027) · Escala y defensa</strong>
+Atestaciones públicas verificables por terceros · endpoint remoto solo si hay demanda pagada · programa de talleres · revisión de precios con datos reales · auditoría anual del propio método publicada. <em>Criterio de salida:</em> ingresos recurrentes ≥ 60 % del total.</p>
+<hr />
+</section><section class="tarjeta" id="s-9"><h2><span class="num">09</span>Riesgos y mitigaciones</h2><div class="tabla-wrap"><table>
+<thead>
+<tr>
+  <th>Riesgo</th>
+  <th>Prob.</th>
+  <th>Impacto</th>
+  <th>Señal temprana</th>
+  <th>Mitigación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Dependencia de una sola persona</td>
+  <td>Alta</td>
+  <td>Crítico</td>
+  <td>dos semanas sin publicar</td>
+  <td>método documentado y ejecutable; el sistema no vive en la cabeza</td>
+</tr>
+<tr>
+  <td>Cambio de política de Meta</td>
+  <td>Media</td>
+  <td>Alto</td>
+  <td>reducción de alcance sin cambio de contenido</td>
+  <td>canal propio y lista de correo desde el T1</td>
+</tr>
+<tr>
+  <td>Erosión de frescura del registro</td>
+  <td>Alta</td>
+  <td>Alto</td>
+  <td>placas de más de 90 días en portada</td>
+  <td>compuerta de frescura y caducidad visible</td>
+</tr>
+<tr>
+  <td>Rechazo del mercado al precio B2B</td>
+  <td>Media</td>
+  <td>Alto</td>
+  <td>10 prospectos sin respuesta</td>
+  <td>oferta de entrada más pequeña y piloto pagado</td>
+</tr>
+<tr>
+  <td>Incidente de seguridad por un servidor MCP</td>
+  <td>Media</td>
+  <td>Alto</td>
+  <td>herramienta con permisos crecientes</td>
+  <td>lista blanca, versión fijada, solo lectura, auditoría</td>
+</tr>
+<tr>
+  <td>Reclamación legal por contenido</td>
+  <td>Baja</td>
+  <td>Alto</td>
+  <td>requerimiento de un proyecto medido</td>
+  <td>derecho de réplica, errata pública, lenguaje de evidencia</td>
+</tr>
+<tr>
+  <td>Conflicto de interés por patrocinio</td>
+  <td>Media</td>
+  <td>Medio</td>
+  <td>patrocinador del ecosistema medido</td>
+  <td>política de divulgación obligatoria y separación editorial</td>
+</tr>
+<tr>
+  <td>Subvención que nunca llega</td>
+  <td>Alta</td>
+  <td>Medio</td>
+  <td>plazos perdidos</td>
+  <td>el plan no depende de ella; es acelerador, no pilar</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+</section><section class="tarjeta" id="s-10"><h2><span class="num">10</span>Indicadores: la vara de la empresa</h2><p>No se declara sano lo que no se mide. Estos son los números que el dueño debe poder ver cada mes:</p>
+<div class="tabla-wrap"><table>
+<thead>
+<tr>
+  <th>Indicador</th>
+  <th>Meta T4</th>
+  <th>Por qué importa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Piezas publicadas con verificación automática</td>
+  <td>100 %</td>
+  <td>la vara dejó de ser manual</td>
+</tr>
+<tr>
+  <td>Fichas con <code>medido_en</code> dentro del umbral</td>
+  <td>≥ 90 %</td>
+  <td>frescura demostrada, no afirmada</td>
+</tr>
+<tr>
+  <td>Fichas con atestación firmada</td>
+  <td>≥ 80 %</td>
+  <td>procedencia verificable por terceros</td>
+</tr>
+<tr>
+  <td>Tiempo medio de verificación por pieza</td>
+  <td>≤ 20 min</td>
+  <td>viabilidad económica del corpus</td>
+</tr>
+<tr>
+  <td>Erratas publicadas con corrección</td>
+  <td>100 %</td>
+  <td>credibilidad</td>
+</tr>
+<tr>
+  <td>Informes L1 entregados</td>
+  <td>≥ 8</td>
+  <td>caja</td>
+</tr>
+<tr>
+  <td>Retención de suscripción a 6 meses</td>
+  <td>≥ 70 %</td>
+  <td>producto, no curiosidad</td>
+</tr>
+<tr>
+  <td>Ingreso recurrente sobre total</td>
+  <td>≥ 60 %</td>
+  <td>empresa, no proyecto</td>
+</tr>
+<tr>
+  <td>Dependencia de plataformas prestadas</td>
+  <td>≤ 50 % del alcance</td>
+  <td>soberanía de canal</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+</section><section class="tarjeta" id="s-11"><h2><span class="num">11</span>Decisiones que solo el dueño puede tomar</h2><ol>
+<li><strong>Licencia.</strong> ¿CC BY-SA 4.0 para contenido + MIT para código + CC BY 4.0 para datos? Sin esto, nada de lo demás se puede firmar. Es la decisión más urgente y la más barata.</li>
+<li><strong>Marca y dominio.</strong> ¿Se registra &quot;La Bandita&quot; y se compra dominio propio este trimestre?</li>
+<li><strong>Canal primario.</strong> ¿WhatsApp sigue siendo la puerta de entrada con lista propia detrás, o se apuesta primero a la web? Recomendación: WhatsApp como puerta, web como casa.</li>
+<li><strong>Línea de arranque.</strong> ¿L1 (debida diligencia B2B) o L2 (suscripción) primero? Recomendación: L1 por caja y credibilidad; L2 en paralelo por lista.</li>
+<li><strong>Política de patrocinio.</strong> ¿Se acepta dinero de proyectos que la serie mide? Recomendación: sí, con divulgación obligatoria en la misma pieza y sin capacidad de veto editorial.</li>
+<li><strong>Servidor MCP.</strong> ¿Se publica <code>labandita-registro</code> en abierto? Recomendación: sí, en lectura y con atestaciones; es el diferenciador y el gancho de la línea L3.</li>
+<li><strong>NLnet.</strong> Fecha límite 3 de noviembre de 2026. ¿Se presenta propuesta escrita por el dueño (con este documento como base) declarando el uso de IA y sus registros? Si no se decide hoy, se pierde la ventana.</li>
+</ol>
+<hr />
+</section><section class="tarjeta" id="s-12"><h2><span class="num">12</span>Anexos de esta entrega</h2><div class="tabla-wrap"><table>
+<thead>
+<tr>
+  <th>Archivo</th>
+  <th>Qué contiene</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><code>datos/medicion-2026-10-31.json</code></td>
+  <td>la medición cruda del repositorio que sostiene el diagnóstico</td>
+</tr>
+<tr>
+  <td><code>anexos/ficha.schema.json</code></td>
+  <td>contrato de datos v1 para las fichas del registro</td>
+</tr>
+<tr>
+  <td><code>datos/ejemplo-ficha.json</code></td>
+  <td>una ficha real escrita contra ese contrato</td>
+</tr>
+<tr>
+  <td><code>anexos/vara-ci.yml</code></td>
+  <td>plantilla de integración continua con las ocho compuertas</td>
+</tr>
+<tr>
+  <td><code>propuesta-la-bandita.html</code></td>
+  <td>esta propuesta como presentación web autocontenida</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Ya construido en este mismo repositorio</strong> (31 de octubre de 2026, después de entregar la propuesta):</p>
+<div class="tabla-wrap"><table>
+<thead>
+<tr>
+  <th>Ruta</th>
+  <th>Qué es</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><code>registry/</code></td>
+  <td>6.826 fichas conformes al contrato, con payload sellado por ficha, índice y calidad del censo</td>
+</tr>
+<tr>
+  <td><code>schemas/ficha.schema.json</code></td>
+  <td>el contrato de datos v1</td>
+</tr>
+<tr>
+  <td><code>tools/vara.py</code></td>
+  <td>las ocho compuertas en un comando, con informe que exige «fallos: NINGUNO»</td>
+</tr>
+<tr>
+  <td><code>tools/autoprueba.py</code></td>
+  <td>prueba que cada compuerta detecta su violación sintética (7/7)</td>
+</tr>
+<tr>
+  <td><code>tools/atestar.py</code></td>
+  <td>sello SHA-256 encadenado por lote</td>
+</tr>
+<tr>
+  <td><code>tools/registro_construir.py</code></td>
+  <td>construye el registro desde el censo, con avisos de defectos a la vista</td>
+</tr>
+<tr>
+  <td><code>tools/duplicados.py</code> · <code>tools/idioma_mojibake.py</code></td>
+  <td>medidores de duplicación y de salud de codificación</td>
+</tr>
+<tr>
+  <td><code>mcp-labandita-registro/</code></td>
+  <td>el servidor MCP propio, seis herramientas, con prueba de extremo a extremo</td>
+</tr>
+<tr>
+  <td><code>.github/workflows/vara.yml</code></td>
+  <td>la vara activada en integración continua</td>
+</tr>
+<tr>
+  <td><code>tools/pulso.py</code> · <code>tools/descubrir.py</code> · <code>tools/fecha_casa.py</code></td>
+  <td>medición con payload sellado, descubrimiento cruzado y la fecha de la casa</td>
+</tr>
+<tr>
+  <td><code>docs/</code></td>
+  <td>errata, descubrimientos, políticas y matriz de pendientes</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Lo que este documento no es.</strong> No es una promesa de ingresos: los números de la sección 4 son supuestos declarados. No es un plan aprobado: es una propuesta con decisiones abiertas. No es una medición de mercado dominicano: la única cifra nacional citada viene de la ONE a través de su difusión pública de julio de 2026, y el resto del contexto competitivo queda pendiente de medición primaria. Y no sustituye al dueño en la decisión editorial, que es la única cosa de este proyecto que no se delega ni se automatiza.</p>
+<hr />
+<p><em>La Bandita verifica antes de recomendar — y ahora también antes de vender. 31 de octubre de 2026.</em></p>
+</section>
+    <footer class="pie">
+      <div class="firma">
+        <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
+          <path class="l1" d="M16 2 29 9v14L16 30 3 23V9z"/>
+          <path class="l2" d="M16 9.5 23 13v8l-7 3.5L9 21v-8z"/>
+          <circle class="l3" cx="16" cy="17" r="3"/>
+        </svg>
+        <p><b>La Bandita</b> · verifica antes de recomendar — y ahora también antes de vender.<br>
+        Corte 31 de octubre de 2026 · repositorio <span class="mono">Alex17273747576777/la-bandita-archivo</span></p>
+      </div>
+      <div class="metadatos">
+        <span class="pill">HTML autocontenido</span>
+        <span class="pill">Cero CDN</span>
+        <span class="pill">Cifras medidas, no estimadas</span>
+      </div>
+    </footer>
+  </main>
+</div>
+
+<nav class="mnav" aria-label="Secciones principales">
+  <a class="mnav-item" href="#s-0" data-target="s-0">Inicio</a><a class="mnav-item" href="#s-1" data-target="s-1">Datos</a><a class="mnav-item" href="#s-5" data-target="s-5">Diseño</a><a class="mnav-item" href="#s-6" data-target="s-6">MCP</a><a class="mnav-item" href="#s-8" data-target="s-8">Plan</a><a class="mnav-item" href="#s-11" data-target="s-11">Decidir</a>
+</nav>
+
+<script>
+/* La Bandita · propuesta — comportamiento de la página
+   Todo local: sin red, sin dependencias. Cada cosa que falla falla en silencio
+   y no se lleva por delante la lectura. */
+(function () {
+  "use strict";
+
+  var doc = document.documentElement;
+
+  /* ---------- almacenamiento defensivo (la lección del módulo de referencia) ---------- */
+  function leer(clave, porDefecto) {
+    try { var v = localStorage.getItem(clave); return v === null ? porDefecto : v; }
+    catch (e) { return porDefecto; }
+  }
+  function guardar(clave, valor) {
+    try { localStorage.setItem(clave, valor); } catch (e) { /* modo privado o cuota llena */ }
+  }
+
+  /* ---------- sonido sintetizado, apagado por defecto ---------- */
+  var audioCtx = null, sonidoOn = leer("lbSonido", "0") === "1";
+  function tono(f1, f2) {
+    if (!sonidoOn) return;
+    try {
+      var AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC) return;
+      if (!audioCtx) audioCtx = new AC();
+      if (audioCtx.state === "suspended") { audioCtx.resume().catch(function () {}); }
+      var t = audioCtx.currentTime;
+      var osc = audioCtx.createOscillator(), gan = audioCtx.createGain();
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(f1, t);
+      osc.frequency.exponentialRampToValueAtTime(f2, t + 0.09);
+      gan.gain.setValueAtTime(0.0001, t);
+      gan.gain.exponentialRampToValueAtTime(0.06, t + 0.012);
+      gan.gain.exponentialRampToValueAtTime(0.0001, t + 0.13);
+      osc.connect(gan); gan.connect(audioCtx.destination);
+      osc.start(t); osc.stop(t + 0.15);
+    } catch (e) { /* sin audio, no pasa nada */ }
+  }
+  var botonSonido = document.getElementById("sonidoBtn");
+  function pintarSonido() {
+    if (!botonSonido) return;
+    botonSonido.setAttribute("aria-pressed", sonidoOn ? "true" : "false");
+    botonSonido.title = sonidoOn ? "Sonido activo" : "Sonido apagado";
+  }
+  if (botonSonido) {
+    botonSonido.addEventListener("click", function () {
+      sonidoOn = !sonidoOn; guardar("lbSonido", sonidoOn ? "1" : "0"); pintarSonido(); tono(520, 760);
+    });
+  }
+  pintarSonido();
+
+  /* ---------- paletas ---------- */
+  var menu = document.getElementById("paletaMenu");
+  var botonPaleta = document.getElementById("paletaBtn");
+  var PALETAS = ["cana", "malecon", "azucar", "fogata", "tinta", "amoled"];
+  var paleta = leer("lbPaleta", "cana");
+  if (PALETAS.indexOf(paleta) === -1) paleta = "cana";
+  doc.setAttribute("data-paleta", paleta);
+
+  function cerrarMenu() {
+    if (!menu || !botonPaleta) return;
+    menu.classList.remove("abierto");
+    botonPaleta.setAttribute("aria-expanded", "false");
+  }
+  if (botonPaleta && menu) {
+    botonPaleta.addEventListener("click", function (ev) {
+      ev.stopPropagation();
+      var abierto = menu.classList.toggle("abierto");
+      botonPaleta.setAttribute("aria-expanded", abierto ? "true" : "false");
+      tono(640, 900);
+    });
+    menu.addEventListener("click", function (ev) {
+      var b = ev.target.closest ? ev.target.closest("button[data-paleta]") : null;
+      if (!b) return;
+      paleta = b.getAttribute("data-paleta");
+      doc.setAttribute("data-paleta", paleta);
+      guardar("lbPaleta", paleta);
+      cerrarMenu(); tono(660, 990);
+    });
+    document.addEventListener("click", function (ev) {
+      if (menu.classList.contains("abierto") && !menu.contains(ev.target) && ev.target !== botonPaleta) cerrarMenu();
+    });
+    document.addEventListener("keydown", function (ev) { if (ev.key === "Escape") cerrarMenu(); });
+  }
+
+  /* ---------- barra de progreso ---------- */
+  var barra = document.getElementById("progreso");
+  function progreso() {
+    if (!barra) return;
+    var alto = document.documentElement.scrollHeight - window.innerHeight;
+    var pct = alto > 0 ? (window.scrollY / alto) * 100 : 0;
+    barra.style.width = Math.min(100, Math.max(0, pct)) + "%";
+  }
+
+  /* ---------- navegación activa ---------- */
+  var enlaces = Array.prototype.slice.call(document.querySelectorAll("[data-target]"));
+  var secciones = enlaces.map(function (a) { return document.getElementById(a.getAttribute("data-target")); });
+  function marcarActivo(id) {
+    enlaces.forEach(function (a) {
+      a.classList.toggle("activo", a.getAttribute("data-target") === id);
+    });
+  }
+  if ("IntersectionObserver" in window) {
+    var observador = new IntersectionObserver(function (entradas) {
+      var visibles = entradas.filter(function (e) { return e.isIntersecting; });
+      if (!visibles.length) return;
+      visibles.sort(function (a, b) { return b.intersectionRatio - a.intersectionRatio; });
+      marcarActivo(visibles[0].target.id);
+    }, { rootMargin: "-88px 0px -62% 0px", threshold: [0.01, 0.25, 0.6] });
+    secciones.forEach(function (s) { if (s) observador.observe(s); });
+  }
+  enlaces.forEach(function (a) { a.addEventListener("click", function () { tono(520, 700); }); });
+
+  /* ---------- búsqueda con resaltado ---------- */
+  var buscador = document.getElementById("buscador");
+  var input = document.getElementById("buscarInput");
+  var cuenta = document.getElementById("buscarCuenta");
+  var marcas = [];
+
+  function limpiarMarcas() {
+    marcas.forEach(function (m) {
+      var padre = m.parentNode;
+      if (!padre) return;
+      padre.replaceChild(document.createTextNode(m.textContent), m);
+      padre.normalize();
+    });
+    marcas = [];
+  }
+
+  function buscar(texto) {
+    limpiarMarcas();
+    if (!texto || texto.length < 2) { if (cuenta) cuenta.textContent = "0"; return; }
+    var raiz = document.getElementById("contenido");
+    if (!raiz) return;
+    var patron = new RegExp(texto.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
+    var caminante = document.createTreeWalker(raiz, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (n) {
+        if (!n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var p = n.parentNode;
+        if (!p || /^(SCRIPT|STYLE|MARK)$/.test(p.nodeName)) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var nodos = [], n;
+    while ((n = caminante.nextNode())) nodos.push(n);
+    nodos.forEach(function (nodo) {
+      var val = nodo.nodeValue;
+      if (!patron.test(val)) return;
+      patron.lastIndex = 0;
+      var frag = document.createDocumentFragment(), ultimo = 0, m;
+      while ((m = patron.exec(val))) {
+        if (m.index > ultimo) frag.appendChild(document.createTextNode(val.slice(ultimo, m.index)));
+        var el = document.createElement("mark");
+        el.textContent = m[0];
+        frag.appendChild(el); marcas.push(el);
+        ultimo = m.index + m[0].length;
+        if (m[0].length === 0) patron.lastIndex++;
+        if (marcas.length > 600) break;
+      }
+      if (ultimo < val.length) frag.appendChild(document.createTextNode(val.slice(ultimo)));
+      nodo.parentNode.replaceChild(frag, nodo);
+    });
+    if (cuenta) cuenta.textContent = String(marcas.length);
+    if (marcas.length) {
+      marcas[0].classList.add("actual");
+      var caja = marcas[0].closest(".tarjeta, .hero");
+      if (caja) caja.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+
+  var botonBuscar = document.getElementById("buscarBtn");
+  var cerrarBuscar = document.getElementById("buscarCerrar");
+  if (botonBuscar && buscador && input) {
+    botonBuscar.addEventListener("click", function () {
+      var oculto = buscador.hasAttribute("hidden");
+      if (oculto) { buscador.removeAttribute("hidden"); input.focus(); }
+      else { buscador.setAttribute("hidden", ""); limpiarMarcas(); }
+      tono(600, 840);
+    });
+    var temporizador = null;
+    input.addEventListener("input", function () {
+      clearTimeout(temporizador);
+      var v = input.value.trim();
+      temporizador = setTimeout(function () { buscar(v); }, 180);
+    });
+  }
+  if (cerrarBuscar) {
+    cerrarBuscar.addEventListener("click", function () {
+      if (buscador) buscador.setAttribute("hidden", "");
+      limpiarMarcas(); if (cuenta) cuenta.textContent = "0";
+    });
+  }
+  document.addEventListener("keydown", function (ev) {
+    if (ev.key === "Escape" && buscador && !buscador.hasAttribute("hidden")) {
+      buscador.setAttribute("hidden", ""); limpiarMarcas(); if (cuenta) cuenta.textContent = "0";
+    }
+    if ((ev.ctrlKey || ev.metaKey) && ev.key.toLowerCase() === "k") {
+      ev.preventDefault();
+      if (buscador && input) { buscador.removeAttribute("hidden"); input.focus(); }
+    }
+  });
+
+  /* ---------- desplazamiento ---------- */
+  var pendiente = false;
+  window.addEventListener("scroll", function () {
+    if (pendiente) return;
+    pendiente = true;
+    window.requestAnimationFrame(function () { progreso(); pendiente = false; });
+  }, { passive: true });
+  window.addEventListener("resize", progreso, { passive: true });
+  progreso();
+  marcarActivo("inicio");
+})();
+
+</script>
+</body>
+</html>

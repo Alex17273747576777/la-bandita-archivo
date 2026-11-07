@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-27",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-27"
+ },
+ "descripcion": "DeepSeek Harness on Android · native Material 3 navigation and settings · on-device Bionic runtime, Git, Bash and PTY",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jimmy-xuzimo--dsh-for-android.json",
+  "sha256": "6b127805f146598478705222cd859254b2cc3cbd16e16dc0e9f9c69bda79d7c5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jimmy-xuzimo--dsh-for-android",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "DSH-for-Android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0cda7a5629eb7975a37d7360ad18a1a3a1dce7e4",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:0cda7a5629eb7975a37d7360ad18a1a3a1dce7e4"
+ },
+ "repo": "Jimmy-xuzimo/DSH-for-Android",
+ "web": "https://jimmy-xuzimo.github.io/DSH-for-Android/"
+}

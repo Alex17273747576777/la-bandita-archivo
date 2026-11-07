@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-07-30",
+  "semantica_http": 200,
+  "ultima_release": "1.1.0",
+  "ultimo_push": "2026-08-20"
+ },
+ "descripcion": "RebootNya is a simple yet advanced reboot utility that supports both Root and Shizuku!",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/daisukikaffuchino--rebootnya.json",
+  "sha256": "126be232b3114180946d271b5cc12652d33cee10c76da551f60eea5c61a03bff"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "daisukikaffuchino--rebootnya",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 293,
+  "stars_por_mes": null
+ },
+ "nombre": "RebootNya",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c0f35ff7a838539e650db82a71d009cafbc5ac76",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c0f35ff7a838539e650db82a71d009cafbc5ac76"
+ },
+ "repo": "daisukiKaffuChino/RebootNya"
+}

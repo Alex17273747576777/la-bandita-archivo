@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-02-28",
+  "semantica_http": 200,
+  "ultima_release": "Beta",
+  "ultimo_push": "2026-07-24"
+ },
+ "descripcion": "An e-hentai app that can use Aicoloring＆anime4k SR \\ 一个可使用超分辨率和AI上色(anime4k＆ddcolor)的ehentai漫画阅读应用程序",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kiastr--jhentaisr.json",
+  "sha256": "028f70ab48e4229425d85077d44476397e4797cdcfab2401d2d701aa4abf40bb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kiastr--jhentaisr",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 8,
+  "stars_por_mes": null
+ },
+ "nombre": "JhentaiSR",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ccacef6a197b7b5474c8b714bc564c80d4d5f25a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:ccacef6a197b7b5474c8b714bc564c80d4d5f25a"
+ },
+ "repo": "Kiastr/JhentaiSR"
+}

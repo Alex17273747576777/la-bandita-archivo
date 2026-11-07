@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-07"
+ },
+ "descripcion": "Your Spotify + YouTube Music library & daily mixes. Stream or download in lossle",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/coldblackice--stash_spotify.json",
+  "sha256": "636b6c6e2fe12266f18fb6a6dca641f0ef0c61cdfda0e5f23f7ac06d5848183e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "coldblackice--stash_spotify",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Stash_Spotify",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e9de87a042544ee2227fce7ac31268f4f7ffc35b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e9de87a042544ee2227fce7ac31268f4f7ffc35b"
+ },
+ "repo": "Coldblackice/Stash_Spotify"
+}

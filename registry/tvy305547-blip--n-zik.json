@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-30"
+ },
+ "descripcion": "A multilingual YouTube Music frontend for Android, focused on performance, UI/UX",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/tvy305547-blip--n-zik.json",
+  "sha256": "e2097bdaf2bebd775ca86fa40598f2458a7be430193f909c1f8a66f2db4db940"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "tvy305547-blip--n-zik",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "N-Zik",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "381e6a1e008d7168148641685ad9c7e60cec02b7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:381e6a1e008d7168148641685ad9c7e60cec02b7"
+ },
+ "repo": "tvy305547-blip/N-Zik"
+}

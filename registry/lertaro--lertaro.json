@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-06",
+  "semantica_http": 200,
+  "ultima_release": "v4.2.7",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "A modern, high-performance local file search and productivity tool for Windows. A sleek, customizable alternative to Everything and Listary built with C# WPF and NT Services, featuring instant NTFS MFT parsing, real-time USN monitoring, and plugin support.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/lertaro--lertaro.json",
+  "sha256": "e86299731694b5b8627737d5b26200fbe0384fbdb16ccfc344b0e46d386a5200"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lertaro--lertaro",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1363,
+  "stars_por_mes": null
+ },
+ "nombre": "Lertaro",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "29018eb501fd748a1c689bb92695e75236cd56ab",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:29018eb501fd748a1c689bb92695e75236cd56ab"
+ },
+ "repo": "Lertaro/Lertaro",
+ "web": "https://lertaro.github.io"
+}

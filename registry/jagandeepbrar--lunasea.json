@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2022-03-12",
+  "semantica_http": 200,
+  "ultima_release": "v10.0.0",
+  "ultimo_push": "2025-04-03"
+ },
+ "descripcion": "Self-hosted software controller built using Flutter",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jagandeepbrar--lunasea.json",
+  "sha256": "c3d81cad2f3c9df2e98147c5ecabef6bf24e3b6e53e548068b90538121e0465b"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jagandeepbrar--lunasea",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1461,
+  "stars_por_mes": null
+ },
+ "nombre": "lunasea",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "6ee0bf9a6f4ffc735b0c0000d62c795c822023ff",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:6ee0bf9a6f4ffc735b0c0000d62c795c822023ff"
+ },
+ "repo": "jagandeepbrar/lunasea",
+ "web": "https://www.lunasea.app"
+}

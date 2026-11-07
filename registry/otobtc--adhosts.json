@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-01"
+ },
+ "descripcion": "手机电脑去广告 hosts&规则  PC&Android ",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/otobtc--adhosts.json",
+  "sha256": "4048875830a8fd0dbd2fde7431e51ade2d668e2934ea826223c3b549fbc66bcf"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "otobtc--adhosts",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1601,
+  "stars_por_mes": null
+ },
+ "nombre": "ADhosts",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "6d27ae49b045306f6c2172d909de8b2c0cf6fabd",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:6d27ae49b045306f6c2172d909de8b2c0cf6fabd"
+ },
+ "repo": "otobtc/ADhosts"
+}

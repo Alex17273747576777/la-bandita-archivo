@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-14",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0-android-preview.5",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "The language app you eventually delete. A native iPhone companion for learning through conversation.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/chuloo--mural.json",
+  "sha256": "793ff14b03089c27d575355409cfbc503882ad6f89a74283a1567758d6de24ef"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "chuloo--mural",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1756,
+  "stars_por_mes": null
+ },
+ "nombre": "mural",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "607c3bbc28f22cfbc3b109fff28cb4d2f62ace9a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:607c3bbc28f22cfbc3b109fff28cb4d2f62ace9a"
+ },
+ "repo": "Chuloo/mural",
+ "web": "https://mural.chat"
+}

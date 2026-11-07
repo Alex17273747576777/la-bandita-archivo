@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-01-15"
+ },
+ "descripcion": "GmsCore fork for Morphe patched apps",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/adamspaini--microg-re.json",
+  "sha256": "6cf266fceb64883dc868e33eda95eb3679d4915c5cc1b1d5beebbbd3ac57b5f6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "adamspaini--microg-re",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "MicroG-RE",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "137a470539871fd34c08921376e41b89b711d8cf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:137a470539871fd34c08921376e41b89b711d8cf"
+ },
+ "repo": "adamspaini/MicroG-RE"
+}

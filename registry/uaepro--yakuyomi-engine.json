@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-11"
+ },
+ "descripcion": "On-device manga-translation engine — detection, OCR and text removal all on NCNN",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/uaepro--yakuyomi-engine.json",
+  "sha256": "6b79348ccf1d35254a0f8053c933a7abb930cae91c672a94b0708d539fa8916e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "uaepro--yakuyomi-engine",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "yakuyomi-engine",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "bd1283e27d003d526e0f1d737247cfa608d83c81",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bd1283e27d003d526e0f1d737247cfa608d83c81"
+ },
+ "repo": "UAEpro/yakuyomi-engine"
+}

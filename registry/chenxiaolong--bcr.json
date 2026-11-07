@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2022-05-02",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-10-15"
+ },
+ "descripcion": "A Basic Call Recorder for rooted Android devices",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/chenxiaolong--bcr.json",
+  "sha256": "3248bf82dc79435cadac1e1af265e306e075c1a51556dff6508cc025e79dd434"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "chenxiaolong--bcr",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2964,
+  "stars_por_mes": null
+ },
+ "nombre": "BCR",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8c218fa60cda9c86c4e92bed6a4254e3ffcbb9e2",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:8c218fa60cda9c86c4e92bed6a4254e3ffcbb9e2"
+ },
+ "repo": "chenxiaolong/BCR"
+}

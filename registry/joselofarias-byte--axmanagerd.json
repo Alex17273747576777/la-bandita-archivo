@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-26"
+ },
+ "descripcion": "AxManagerD｜免 Root 的模块化扩展框架。以 Magisk 式模块系统为核心：系统属性注入、开机自启、自定义脚本、运行时模块与数据采集，内置免 Ro",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/joselofarias-byte--axmanagerd.json",
+  "sha256": "37c7309d41f26f432f2a8bdd3fab699c1d106ecb79059179bb47363ba6ecc7aa"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "joselofarias-byte--axmanagerd",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "AxManagerD",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8e33e53c7f3653505a590251d424911b7b5a756b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8e33e53c7f3653505a590251d424911b7b5a756b"
+ },
+ "repo": "joselofarias-byte/AxManagerD"
+}

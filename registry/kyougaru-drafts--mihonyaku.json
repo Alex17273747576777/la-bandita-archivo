@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-08-02"
+ },
+ "descripcion": "Free and open source manga reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kyougaru-drafts--mihonyaku.json",
+  "sha256": "302d7ea245ef5ab9cf5498eb08b7c6180eae44c66dfcd0c8e08068c79d750065"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kyougaru-drafts--mihonyaku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mihonyaku",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8820a9f75fa341643a3d6d0783408399119a86c0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8820a9f75fa341643a3d6d0783408399119a86c0"
+ },
+ "repo": "kyougaru-drafts/mihonyaku"
+}

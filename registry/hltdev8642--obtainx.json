@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-05"
+ },
+ "descripcion": "Get Android app updates straight from the source. And install it any way you wan",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hltdev8642--obtainx.json",
+  "sha256": "7384fdbd5ea1c0ba1c68e46cc62e405bda82abe63014350c4f06fb2b0450af46"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hltdev8642--obtainx",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "ObtainX",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5ed2da05241fa81a66ad8c3cc3543d82418c6c52",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5ed2da05241fa81a66ad8c3cc3543d82418c6c52"
+ },
+ "repo": "hltdev8642/ObtainX"
+}

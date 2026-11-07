@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-03-16",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-10-28"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/imtiaz-official--smart-edge.json",
+  "sha256": "76f26841c9b48cf31eb5281e90dcbe0b151c739d609a577971269aa6343173a9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "imtiaz-official--smart-edge",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 445,
+  "stars_por_mes": null
+ },
+ "nombre": "Smart-Edge",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7fe73bcf4be20897681324726668eb25bfe0d17a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:7fe73bcf4be20897681324726668eb25bfe0d17a"
+ },
+ "repo": "Imtiaz-Official/Smart-Edge"
+}

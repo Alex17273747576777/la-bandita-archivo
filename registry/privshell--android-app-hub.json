@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-23"
+ },
+ "descripcion": "all shizuku resources ",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/privshell--android-app-hub.json",
+  "sha256": "3dc900fa8d4cbc0962cbebef08e8d251f25ac5d6462c6681d680e21959c11ff6"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "privshell--android-app-hub",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 4,
+  "stars_por_mes": null
+ },
+ "nombre": "android-app-hub",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "aa38fa2bd3aff0e759cde820b6bc18578e2e6ebf",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:aa38fa2bd3aff0e759cde820b6bc18578e2e6ebf"
+ },
+ "repo": "privshell/android-app-hub"
+}

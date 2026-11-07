@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-30"
+ },
+ "descripcion": "Zangetsu is an anime and movie/series streaming app.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/psychonautweb--zangetsu-4tv.json",
+  "sha256": "682f522f972bfbe4840ee41e0adce77604a7fd084f6d350bf9e16b23aa420515"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "psychonautweb--zangetsu-4tv",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Zangetsu-4tv",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "819f70b546c73bf0a5cdf1f28c49e48cfeb7223c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:819f70b546c73bf0a5cdf1f28c49e48cfeb7223c"
+ },
+ "repo": "psychonautweb/Zangetsu-4tv"
+}

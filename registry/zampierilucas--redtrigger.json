@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-03-14",
+  "semantica_http": 200,
+  "ultima_release": "v3.0.10",
+  "ultimo_push": "2026-06-21"
+ },
+ "descripcion": "Android app that enables shoulder triggers on Red Magic phones system-wide, without Game Space",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zampierilucas--redtrigger.json",
+  "sha256": "e3341b45e6d4e03c13af52d8a6e84d8f8b95eb0c8ccaca99a5dafa51251fdf05"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zampierilucas--redtrigger",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 16,
+  "stars_por_mes": null
+ },
+ "nombre": "RedTrigger",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "6c31acebf97aaa23dd4cbe69609942a32dca228b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:6c31acebf97aaa23dd4cbe69609942a32dca228b"
+ },
+ "repo": "zampierilucas/RedTrigger"
+}

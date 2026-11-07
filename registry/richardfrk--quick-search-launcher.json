@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-08"
+ },
+ "descripcion": "An universal search app for Android which can search apps, shortcuts, contacts,",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/richardfrk--quick-search-launcher.json",
+  "sha256": "6cbc09b8624d383dd823e4fb49afa4d115ed24ed3d6a96e22727900d937e44a0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "richardfrk--quick-search-launcher",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "quick-search-launcher",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4ac33d245cc71755132ecf3e624f5b66c404597c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4ac33d245cc71755132ecf3e624f5b66c404597c"
+ },
+ "repo": "richardfrk/quick-search-launcher"
+}

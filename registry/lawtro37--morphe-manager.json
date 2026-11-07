@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-26"
+ },
+ "descripcion": "Morphe app patcher for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lawtro37--morphe-manager.json",
+  "sha256": "1eaa07cc49b3e8c0a4682cb4567245eb1493d3457255d9553a0f42d9df83c142"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lawtro37--morphe-manager",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "morphe-manager",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7ac45b0a6cf9d0892afa8ee12bd1972003bee128",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7ac45b0a6cf9d0892afa8ee12bd1972003bee128"
+ },
+ "repo": "Lawtro37/morphe-manager"
+}

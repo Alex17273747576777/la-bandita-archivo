@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-03"
+ },
+ "descripcion": "Free and open source anime watcher for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/shan-test-project--anikku.json",
+  "sha256": "3650b0ac3301978ae9aa3eaf017eb998ed4920647d884996b4a048ba52824cb0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "shan-test-project--anikku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "anikku",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "192abbc3f1229bc6aeb2714ddfc2b88f97368bb6",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:192abbc3f1229bc6aeb2714ddfc2b88f97368bb6"
+ },
+ "repo": "shan-test-project/anikku"
+}

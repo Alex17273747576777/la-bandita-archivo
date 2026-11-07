@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2021-06-02"
+ },
+ "descripcion": "/r/FREEMEDIAHECKYEAH",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/cheesegrenades--fmhy.json",
+  "sha256": "7f66f04dcd3cc289114da523dcb96384953d3e66afb76071bbd808385da487bb"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "cheesegrenades--fmhy",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "FMHY",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a794e3adeb23797d84eb8f3eb42ebc401aa49b9f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a794e3adeb23797d84eb8f3eb42ebc401aa49b9f"
+ },
+ "repo": "CheeseGrenades/FMHY"
+}

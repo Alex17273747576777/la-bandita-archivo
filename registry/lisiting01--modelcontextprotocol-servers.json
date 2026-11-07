@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-07-12"
+ },
+ "descripcion": "Model Context Protocol Servers",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/lisiting01--modelcontextprotocol-servers.json",
+  "sha256": "48eadb3942c491963a04eb4fbe6c554f9f1d0343d02ac60d8a0736de2aa9cc6c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lisiting01--modelcontextprotocol-servers",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 6,
+  "stars_por_mes": null
+ },
+ "nombre": "modelcontextprotocol-servers",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5f9f8a0f2cd881d6bc63c3608e8d16b47e0e299b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:5f9f8a0f2cd881d6bc63c3608e8d16b47e0e299b"
+ },
+ "repo": "lisiting01/modelcontextprotocol-servers",
+ "web": "https://modelcontextprotocol.io"
+}

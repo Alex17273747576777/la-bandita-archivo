@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-21"
+ },
+ "descripcion": "Real-time screen translation app for PC for both language learners and casual ga",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/only-air--playtranslate-for-pc.json",
+  "sha256": "3b952af0652e36ce31e38a5d51ef10e0dd6d96f96ac75d0a63592b2797bd5e82"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "only-air--playtranslate-for-pc",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "playtranslate-for-PC",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1cf16e64471b398ab6e7d6adb365d054047894c1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1cf16e64471b398ab6e7d6adb365d054047894c1"
+ },
+ "repo": "Only-Air/playtranslate-for-PC"
+}

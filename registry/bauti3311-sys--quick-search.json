@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-01"
+ },
+ "descripcion": "Universal search app for Android which can search apps, shortcuts, contacts, fil",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/bauti3311-sys--quick-search.json",
+  "sha256": "ff3753328cfe4a4abfcfa18a7852222334705ffd0491dcf5f6107a979268187b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "bauti3311-sys--quick-search",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "quick-search",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2afa00e74c8f7d3d28286c74ab0dacabf276e97c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2afa00e74c8f7d3d28286c74ab0dacabf276e97c"
+ },
+ "repo": "bauti3311-sys/quick-search"
+}

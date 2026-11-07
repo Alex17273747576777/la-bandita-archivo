@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-16",
+  "semantica_http": 200,
+  "ultima_release": "continuous",
+  "ultimo_push": "2026-10-16"
+ },
+ "descripcion": "Hikari — a universal streaming app: Stremio addons, universal scrapers, CloudStr",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/trmame--hikari.json",
+  "sha256": "21977b2b51397aacf2bf6196831a80804215baea2047c1c30033e53646e032e8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "trmame--hikari",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "hikari",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "43f13b653002db467a3137bb0ae9c4440b2d6886",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:43f13b653002db467a3137bb0ae9c4440b2d6886"
+ },
+ "repo": "trmame/hikari"
+}

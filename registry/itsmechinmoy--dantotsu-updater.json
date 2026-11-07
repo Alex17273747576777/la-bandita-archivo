@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-08-09",
+  "semantica_http": 200,
+  "ultima_release": "v3.2.2+92eb9ec",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "Automatically Builds Dantotsu Dev Branch",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/itsmechinmoy--dantotsu-updater.json",
+  "sha256": "8398dd6714b725357b2ab534e9fe190036a9b5d2f01065a79675ec4f3376bf8e"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "itsmechinmoy--dantotsu-updater",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 156,
+  "stars_por_mes": null
+ },
+ "nombre": "dantotsu-updater",
+ "piezas": [
+  "37-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "fa5711ca2328562937181d99c29ee4147c0fc7e5",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:fa5711ca2328562937181d99c29ee4147c0fc7e5"
+ },
+ "repo": "itsmechinmoy/dantotsu-updater",
+ "web": "https://git.rebelonion.dev/rebelonion/Dantotsu/src/branch/dev"
+}

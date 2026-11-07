@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-07"
+ },
+ "descripcion": "Bring local AI intelligence to your device. No rate limits & local first.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/yverr0y--anythingllm-mobile.json",
+  "sha256": "03eddfbed3e6075fbb11e2e13ff46e1127240bfdbf7d9fff4a2fc3e2b5824342"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yverr0y--anythingllm-mobile",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "anythingllm-mobile",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e86368181230403eb8e669d3b25593ff8b1a7943",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e86368181230403eb8e669d3b25593ff8b1a7943"
+ },
+ "repo": "Yverr0y/anythingllm-mobile"
+}

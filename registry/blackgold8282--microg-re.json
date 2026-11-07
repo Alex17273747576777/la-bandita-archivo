@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-01-08"
+ },
+ "descripcion": "GmsCore fork for ReVanced with Material You, features and improvements",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/blackgold8282--microg-re.json",
+  "sha256": "85bb21c80d6d39c4e6a12807d28310a83e4b864d23394351d3f3bad461f0828c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "blackgold8282--microg-re",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "MicroG-RE",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d73cb7730f688c6aced56189365dd295e1274a13",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d73cb7730f688c6aced56189365dd295e1274a13"
+ },
+ "repo": "BlackGold8282/MicroG-RE"
+}

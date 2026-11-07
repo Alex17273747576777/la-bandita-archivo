@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-25",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "《重返未来：1999》小助手 Android 版，全日常一键长草！| Assistant For Reverse: 1999 on Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/qi-1021--m9a-meow.json",
+  "sha256": "e2f428eb38cf84563e7412e02c0fa5f2933ac27f42e0652c4d02a18c767529df"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "qi-1021--m9a-meow",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 6,
+  "stars_por_mes": null
+ },
+ "nombre": "M9A-Meow",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7af4602ea98f4115a3371c4a29cae460b9a2c7cb",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:7af4602ea98f4115a3371c4a29cae460b9a2c7cb"
+ },
+ "repo": "qi-1021/M9A-Meow"
+}

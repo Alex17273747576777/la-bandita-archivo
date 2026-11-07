@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-12"
+ },
+ "descripcion": "Free and open source manga reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ikkanbuntal--mihon-update-ui-ux.json",
+  "sha256": "090c811dd7aa0c68143248f7c91f19379fcf8d48309c53b124f45b8275175b02"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ikkanbuntal--mihon-update-ui-ux",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "mihon-Update-UI-UX",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ef1e7ba907f9dd89bf4aa5b16142daa9e4d28a00",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ef1e7ba907f9dd89bf4aa5b16142daa9e4d28a00"
+ },
+ "repo": "IkkanBuntal/mihon-Update-UI-UX"
+}

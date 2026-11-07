@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-03-03"
+ },
+ "descripcion": "An app for manga, anime and ranobe",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/msrofficial--tadami-aniyomi-fork.json",
+  "sha256": "9725752d4b20813a2c50b26a0dd5551e360fb6d6506539c33b487d31b0a380c6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "msrofficial--tadami-aniyomi-fork",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Tadami-Aniyomi-fork",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3436684b488155b18d31118175df35a37b48bed0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3436684b488155b18d31118175df35a37b48bed0"
+ },
+ "repo": "msrofficial/Tadami-Aniyomi-fork"
+}

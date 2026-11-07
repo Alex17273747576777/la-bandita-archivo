@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-29",
+  "semantica_http": 200,
+  "ultima_release": "26.09.8ede272",
+  "ultimo_push": "2026-10-04"
+ },
+ "descripcion": "More Expressive InstallerX !",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/budingxiaocai--installerx-revived.json",
+  "sha256": "a0062e77c1aae269ea35ccba2b84b1c17a0481ab4238b5b00b47cb5db3e31b21"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "budingxiaocai--installerx-revived",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "InstallerX-Revived",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8ede27250d04b73631b59464724c240378406cdd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8ede27250d04b73631b59464724c240378406cdd"
+ },
+ "repo": "budingxiaocai/InstallerX-Revived"
+}

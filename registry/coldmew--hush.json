@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-23",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Ad-free listening for Spotify on Android: skips ad breaks without root or a modified Spotify app.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/coldmew--hush.json",
+  "sha256": "1cba40381dd9f69630a85cdd20c1a387650e2323b83bea798595d5ebf9a67f51"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "coldmew--hush",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 128,
+  "stars_por_mes": null
+ },
+ "nombre": "Hush",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a290e1421e6f7cfc59f959608ff4199b31616a4d",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a290e1421e6f7cfc59f959608ff4199b31616a4d"
+ },
+ "repo": "coldMEW/Hush"
+}

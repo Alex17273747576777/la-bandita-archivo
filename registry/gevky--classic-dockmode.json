@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-27",
+  "semantica_http": 200,
+  "ultima_release": "v0.4.0",
+  "ultimo_push": "2026-10-27"
+ },
+ "descripcion": "Unofficial DisplayLink dock-mode companion for the Retroid Pocket Classic. Widescreen profiles, frontend launch, and handheld recovery.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/gevky--classic-dockmode.json",
+  "sha256": "2faabf9175c9bc2ff2734644331036dd139362417f81bb23610ea3fe3ff66517"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "gevky--classic-dockmode",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "classic-dockmode",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "6c8f23da103b49b14f2a62287daffd9ad0a38da9",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:6c8f23da103b49b14f2a62287daffd9ad0a38da9"
+ },
+ "repo": "gevky/classic-dockmode"
+}

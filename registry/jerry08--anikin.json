@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2022-05-17",
+  "semantica_http": 200,
+  "ultima_release": "1.0",
+  "ultimo_push": "2026-08-05"
+ },
+ "descripcion": "A multi-platform app to stream/download videos.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jerry08--anikin.json",
+  "sha256": "34987c98c4bff45057ccfe8a3b2d965f6094c97637a8f07cacdb6189cca0b7a8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jerry08--anikin",
+ "licencia": {
+  "archivo": "LICENSE.txt",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 323,
+  "stars_por_mes": null
+ },
+ "nombre": "Anikin",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "39541a757c9e32b67e17435440bad68ee849e244",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:39541a757c9e32b67e17435440bad68ee849e244"
+ },
+ "repo": "jerry08/Anikin"
+}

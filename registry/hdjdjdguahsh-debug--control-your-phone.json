@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-24",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-25"
+ },
+ "descripcion": "Android device control and diagnostics app using Shizuku and ADB, with a Material 3 interface.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/hdjdjdguahsh-debug--control-your-phone.json",
+  "sha256": "10910f96c7704146e2c8a1ca8bb86601d3eb68989b31ecef4baee32697e8de81"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hdjdjdguahsh-debug--control-your-phone",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "Control-Your-Phone",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "da6e2309ac3c4eeed60b84f2081cf4125516449b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:da6e2309ac3c4eeed60b84f2081cf4125516449b"
+ },
+ "repo": "hdjdjdguahsh-debug/Control-Your-Phone"
+}

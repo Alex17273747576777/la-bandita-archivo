@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-07",
+  "semantica_http": 200,
+  "ultima_release": "1.0",
+  "ultimo_push": "2026-10-24"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dinico414--mindcontrol.json",
+  "sha256": "dd7e2409897a089e01a25ec3724a2f1b320c39d120457a16858c5d5650aee4ef"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dinico414--mindcontrol",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 17,
+  "stars_por_mes": null
+ },
+ "nombre": "MindControl",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b4dfe09241703768d9c1000233869a550620cf49",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b4dfe09241703768d9c1000233869a550620cf49"
+ },
+ "repo": "Dinico414/MindControl"
+}

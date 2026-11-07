@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-19"
+ },
+ "descripcion": "Another Shizuku impl",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/pigadmin--stellar.json",
+  "sha256": "f57ee02c6169fecc5d4fb5ea5e8c706f7ed0a58248e29bb278f906339c4a1e7b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "pigadmin--stellar",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Stellar",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "80b471d290e23c860ed29c731fe342392f8a3654",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:80b471d290e23c860ed29c731fe342392f8a3654"
+ },
+ "repo": "pigadmin/Stellar"
+}

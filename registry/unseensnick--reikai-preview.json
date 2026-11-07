@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-27",
+  "semantica_http": 200,
+  "ultima_release": "r380",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Preview/nightly builds for Reikai, auto-published from unseensnick/Reikai. Reikai's in-app updater checks here for preview updates.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/unseensnick--reikai-preview.json",
+  "sha256": "7942717f9868c683a811c9b94a33af9239f293896b535df8d64fdbd392950705"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "unseensnick--reikai-preview",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 6,
+  "stars_por_mes": null
+ },
+ "nombre": "Reikai-preview",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "cb56cd511c373c4446a0344149c3c54535d3f5b2",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:cb56cd511c373c4446a0344149c3c54535d3f5b2"
+ },
+ "repo": "unseensnick/Reikai-preview",
+ "web": "https://github.com/unseensnick/Reikai"
+}

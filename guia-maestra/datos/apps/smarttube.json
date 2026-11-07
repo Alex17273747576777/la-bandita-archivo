@@ -1,0 +1,75 @@
+{
+ "id": "smarttube",
+ "nombre": "SmartTube",
+ "repo": "yuliskov/SmartTube",
+ "autores": [
+  {
+   "nombre": "yuliskov",
+   "enlace": "https://github.com/yuliskov"
+  }
+ ],
+ "licencia": {
+  "spdx": "MIT",
+  "archivo": "https://github.com/yuliskov/SmartTube/blob/master/LICENSE"
+ },
+ "nivel": "intermedio",
+ "tarea": "Ver vídeos en el televisor con las reglas que elijas —sin anuncios, con la calidad que quieras— en lugar de con las que impone la aplicación de fábrica.",
+ "capitulo": 9,
+ "orden": 2,
+ "para_quien": {
+  "es": "para quien usa el televisor sobre todo para vídeo en internet y está cansado de anuncios que no se pueden saltar en un aparato donde no hay bloqueador posible.",
+  "no_es": "para quien quiere ver archivos propios: para eso están Kodi y Jellyfin, en las dos fichas siguientes."
+ },
+ "manos": [
+  "Leé el aviso de seguridad que el proyecto publica en la primera línea de su repositorio antes de instalar nada, y comprobá la huella del archivo que bajes.",
+  "Instalá la aplicación en el televisor con el instalador de siempre o por red desde el teléfono, y dale el permiso de instalar aplicaciones desconocidas.",
+  "Al abrirla, seguí el código de vinculación que muestra la pantalla: es un código de un solo uso, no una contraseña, y conviene entender la diferencia.",
+  "Ajustá lo que de verdad cambia el uso diario: calidad máxima, salto automático de los patrocinios dentro del vídeo y el diseño de la pantalla de inicio para el mando.",
+  "Revisá cada tanto los accesos que quedaron vinculados a tu cuenta y revocá los que ya no uses: la aplicación lo permite y casi nadie lo hace."
+ ],
+ "resultado_esperado": "El televisor reproduce vídeo sin anuncios, con la calidad y los controles que elegiste, y en tu cuenta quedan sólo los accesos que autorizaste.",
+ "si_sale_mal": [
+  "Si la aplicación deja de funcionar tras una actualización del servicio, no hay truco: el proyecto publica correcciones y hay que esperar.",
+  "Si el vídeo se corta en calidad alta, bajá la resolución máxima: en televisores con poca memoria el búfer es el que falla, no la red.",
+  "Si usaste una versión de las que el aviso de seguridad marca como posiblemente afectadas, revocá los accesos vinculados y reinstalá desde una entrega posterior al aviso."
+ ],
+ "deshacer": "Desinstalarla del televisor devuelve la aplicación de fábrica como única opción. Los accesos vinculados se revocan desde la cuenta, en la página de seguridad, y el proyecto explica cómo recuperar las copias de seguridad de la propia aplicación.",
+ "cabeza": [
+  "SmartTube no usa la interfaz oficial del televisor: reproduce el vídeo con su propio motor web, que es lo que le permite saltarse los anuncios y ofrecer calidad y velocidad que la aplicación de fábrica no da en todos los aparatos. Con treinta y cinco mil ochocientas noventa estrellas y setecientas cincuenta y cinco mil seiscientas dieciocho descargas en sus diez últimas entregas, es la aplicación libre más usada de este capítulo y una de las más usadas de toda la guía.",
+  "Su forma de autenticarse es la parte que hay que entender: no guarda tu contraseña, obtiene un **código de vinculación de un solo uso** con permisos limitados. Por eso, cuando el proyecto sufrió un incidente, pudo decir con precisión qué se podía y qué no se podía hacer con esos códigos: no permiten cambiar la contraseña, y se pueden revocar. Es un buen ejemplo de diseño que limita el daño por adelantado.",
+  "Y su ficha no puede terminar sin el aviso, porque está en el propio repositorio: el entorno de desarrollo del autor estuvo infectado por software malicioso, algunas compilaciones pueden haber quedado afectadas y las llaves públicas pueden haber quedado comprometidas. Desde entonces, según el propio aviso, todo se analiza antes de publicar. Esta guía lo cuenta en el texto del capítulo con sus tres lecciones, y lo deja también acá, porque una ficha que lo omitiera estaría eligiendo qué parte de la verdad contar."
+ ],
+ "limites": [
+  "Depende de un servicio ajeno que cambia sin avisar: ninguna versión está garantizada para siempre.",
+  "Arrastra un aviso de compromiso de su entorno de desarrollo, publicado por el propio autor.",
+  "No sirve para archivos propios ni para otros servicios: es un reproductor de una sola fuente.",
+  "En televisores con poca memoria puede necesitar ajustes de calidad para no cortarse."
+ ],
+ "oficio": {
+  "dato": "La vinculación por código de un solo uso es una defensa que se puede ver funcionando. La aplicación pide un código, el servicio devuelve un permiso acotado para ese aparato, y el permiso aparece en la lista de accesos de la cuenta con un nombre reconocible. La diferencia con guardar la contraseña es enorme: un permiso se revoca sin cambiar la contraseña, no da acceso a todo y se puede identificar cuál es cuál. Cualquier aplicación que pida tu contraseña para un televisor está eligiendo la opción menos segura que existe, y eso incluye a las oficiales. Revisar esa lista cada tanto —y vaciar lo que no se usa— es de las pocas costumbres de seguridad que dan resultado inmediato y no cuestan nada.",
+  "como_comprobar": "Entrá a la página de seguridad de tu cuenta y buscá la lista de accesos de terceros. Ahí aparece el permiso del televisor con su nombre; revocalo y comprobá que la aplicación deja de entrar hasta que vincules otra vez.",
+  "comando": "adb shell pm list packages | grep -i smarttube"
+ },
+ "riesgos": [
+  "Instalar una versión anterior al aviso de seguridad sin revisar la fecha ni la huella del archivo.",
+  "Dar la contraseña de la cuenta a cualquier cliente de televisor en lugar de usar un código de vinculación."
+ ],
+ "alternativas": [
+  "jellyfin/jellyfin",
+  "xbmc/xbmc"
+ ],
+ "senal": {
+  "estrellas": 35913,
+  "nota": 63,
+  "edad_dias": 2290,
+  "ultima_entrega": "2026-10-20",
+  "descargas_10": 763713,
+  "contribuyentes": 41,
+  "repo_mb": 110.0,
+  "ci": 4,
+  "incidencias": "767 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de yuliskov y cuarenta personas más · MIT · medido el 3 de noviembre de 2026"
+}

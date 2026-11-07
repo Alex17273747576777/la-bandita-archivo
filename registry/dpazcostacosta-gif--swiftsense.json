@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-05"
+ },
+ "descripcion": "SwiftSense is a versatile Android toolkit to boost gaming performance. It forces",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/dpazcostacosta-gif--swiftsense.json",
+  "sha256": "60a0c312c910d71e806074c21a9e69a072f41c573cc4213f7f5beb6d4ad4c3d7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dpazcostacosta-gif--swiftsense",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "SwiftSense",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9f4bcb3d9e7f60efec2bb041f467d62cae0389ce",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9f4bcb3d9e7f60efec2bb041f467d62cae0389ce"
+ },
+ "repo": "dpazcostacosta-gif/SwiftSense"
+}

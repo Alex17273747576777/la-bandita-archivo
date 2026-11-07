@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-31",
+  "semantica_http": 200,
+  "ultima_release": "v0.01",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "RikkaHub Agent · Pure — an Android AI agent that survives long runs. Independent hardening pass on the rikkahub on-device agent: usage ledger & budgets, on-demand tools, expert sub-agents, cold memory, chained workflows. Kotlin/Compose, Shizuku/Termux/MCP. QQ group 1030362371.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/magicrulerr-art--nazarick-agent.json",
+  "sha256": "c56b0e248aa6d2f02d4646c79d88ee85cc76aec27adb872df0577bb17b65adb1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "magicrulerr-art--nazarick-agent",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "Nazarick-agent",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5335adf8d0168c791bc4d873932ca6cf30f98ed6",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:5335adf8d0168c791bc4d873932ca6cf30f98ed6"
+ },
+ "repo": "magicrulerr-art/Nazarick-agent",
+ "web": "https://github.com/wuyhong715/rikkahub-agent-pure/releases/latest"
+}

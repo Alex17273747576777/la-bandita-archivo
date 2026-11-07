@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-26",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0-rc2",
+  "ultimo_push": "2026-08-26"
+ },
+ "descripcion": "Usagi is a free and open-source manga reader for Android. This repository contai",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/yeweroooo--usagi.json",
+  "sha256": "2943270ba96e33fe9968cb829174e2a59e9009769a281f36e29974bdcd0f3036"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yeweroooo--usagi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Usagi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8c59ab68f4594d4100fa84015153228f6e555829",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8c59ab68f4594d4100fa84015153228f6e555829"
+ },
+ "repo": "yeweroooo/Usagi"
+}

@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2019-05-05",
+  "semantica_http": 200,
+  "ultima_release": "V0.59",
+  "ultimo_push": "2026-04-02"
+ },
+ "descripcion": "🔥🔥🔥AidLearning is a powerful AIOT development platform, AidLearning builds a linux env supporting GUI, deep learning and visual IDE on Android...Now Aid supports CPU+GPU+NPU for inference with high performance acceleration...Linux on Android or HarmonyOS ",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/aidlearning--aidlearning-framework.json",
+  "sha256": "253716d4c2486e175e9c8309ac104d5890758a42713bfffe2e5d3816c0296f48"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "aidlearning--aidlearning-framework",
+ "licencia": {
+  "archivo": "license.md",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 5822,
+  "stars_por_mes": null
+ },
+ "nombre": "AidLearning-FrameWork",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "84d0676baffa905c12189959480c9a1bb14619a6",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:84d0676baffa905c12189959480c9a1bb14619a6"
+ },
+ "repo": "aidlearning/AidLearning-FrameWork",
+ "web": "https://docs.aidlux.com"
+}

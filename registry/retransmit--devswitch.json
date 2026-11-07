@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-21",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-10-06"
+ },
+ "descripcion": "Android app that switches Developer options, USB debugging and Wireless debugging on and off, with Quick Settings tiles",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/retransmit--devswitch.json",
+  "sha256": "18aadeecaba130e519763e162aa431b91bd057780f71f732b11eed8076616ba3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "retransmit--devswitch",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 39,
+  "stars_por_mes": null
+ },
+ "nombre": "DevSwitch",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c346948440e01157a4047bcc5606cb5401e21f59",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c346948440e01157a4047bcc5606cb5401e21f59"
+ },
+ "repo": "retransmit/DevSwitch"
+}

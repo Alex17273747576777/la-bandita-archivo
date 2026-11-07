@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-16",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Bare is a de-Googled Chromium build for Android, built for privacy, control, and freedom on the web. It strips Google tracking, telemetry, and AI integration while keeping browser extensions and uBlock Origin. It adds background video playback, saving media from sites that normally block it, your choice of download manager, and more.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/barebrowser--bare-browser.json",
+  "sha256": "4bfcbea8cb196892c36e4bc92798e8ff7e2fb99d4a77d9f324de70c7f663180c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "barebrowser--bare-browser",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "BSD-3-Clause",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 695,
+  "stars_por_mes": null
+ },
+ "nombre": "bare-browser",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "01860a40a3f7ff84efe5598ca69345ef91309b6e",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:01860a40a3f7ff84efe5598ca69345ef91309b6e"
+ },
+ "repo": "BareBrowser/bare-browser"
+}

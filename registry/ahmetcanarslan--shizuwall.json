@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-10-27",
+  "semantica_http": 200,
+  "ultima_release": "v1",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "Lightweight, no vpn firewall solution for Android 11+",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ahmetcanarslan--shizuwall.json",
+  "sha256": "905baefc2c75d866617076feccf9d40c8377bea65be9b6ba86d8cf79a44743e4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ahmetcanarslan--shizuwall",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2441,
+  "stars_por_mes": null
+ },
+ "nombre": "ShizuWall",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "92570c8bb80b146d5c0896c5c30c42f3369e2a73",
+  "swh_estado": "sin archivo (HTTP 429)",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:92570c8bb80b146d5c0896c5c30c42f3369e2a73"
+ },
+ "repo": "AhmetCanArslan/ShizuWall"
+}

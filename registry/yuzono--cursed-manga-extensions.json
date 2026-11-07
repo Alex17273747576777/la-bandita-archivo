@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Source code of extensions for Komikku / Mihon & forks.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/yuzono--cursed-manga-extensions.json",
+  "sha256": "a7ce29c0f0f0781b25524a9057cda7bb36eeb4bc9f48101252517f2bdbbaf12d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yuzono--cursed-manga-extensions",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 220,
+  "stars_por_mes": null
+ },
+ "nombre": "cursed-manga-extensions",
+ "piezas": [
+  "43-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5dad5cf65dce98bb05ba8edf1f38770585e032b9",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:5dad5cf65dce98bb05ba8edf1f38770585e032b9"
+ },
+ "repo": "yuzono/cursed-manga-extensions"
+}

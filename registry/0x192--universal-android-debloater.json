@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2021-10-10",
+  "semantica_http": 200,
+  "ultima_release": "0.3",
+  "ultimo_push": "2024-08-02"
+ },
+ "descripcion": "Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/0x192--universal-android-debloater.json",
+  "sha256": "f97e924dfa4954fb1e71c9bbe037ffc079d6ad913991ae38ad8c70f8ddca3175"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "0x192--universal-android-debloater",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 20322,
+  "stars_por_mes": null
+ },
+ "nombre": "universal-android-debloater",
+ "piezas": [
+  "29-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "11f27c671cba278d71296cdef4c5a5dba06add5e",
+  "swh_estado": "archivada",
+  "swh_solicitud": "11f27c671cba278d71296cdef4c5a5dba06add5e",
+  "swhid": "swh:1:rev:11f27c671cba278d71296cdef4c5a5dba06add5e"
+ },
+ "repo": "0x192/universal-android-debloater"
+}

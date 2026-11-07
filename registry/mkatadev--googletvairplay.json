@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-02",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-16"
+ },
+ "descripcion": "Free, open-source AirPlay receiver for Google TV / Chromecast — mirroring, video, music",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mkatadev--googletvairplay.json",
+  "sha256": "f628635c5907790c35e6fe04d051ebe2b68f5d34f8365d80f7d96cdddbb6f630"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mkatadev--googletvairplay",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "GoogleTVAirPlay",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "15643d11f2bdae62cfffbf698860d86a1bf33794",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:15643d11f2bdae62cfffbf698860d86a1bf33794"
+ },
+ "repo": "mkatadev/GoogleTVAirPlay"
+}

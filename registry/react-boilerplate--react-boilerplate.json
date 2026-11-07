@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2015-11-19",
+  "semantica_http": 200,
+  "ultima_release": "v2.3.0",
+  "ultimo_push": "2023-03-23"
+ },
+ "descripcion": "🔥 A highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/react-boilerplate--react-boilerplate.json",
+  "sha256": "df36a0bb34f2d7ce54984a5ba476fcda96642ecb9cfa995b00fefd02e3e479d3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "react-boilerplate--react-boilerplate",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 29447,
+  "stars_por_mes": null
+ },
+ "nombre": "react-boilerplate",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d19099afeff64ecfb09133c06c1cb18c0d40887e",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d19099afeff64ecfb09133c06c1cb18c0d40887e"
+ },
+ "repo": "react-boilerplate/react-boilerplate",
+ "web": "https://www.reactboilerplate.com"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-12",
+  "semantica_http": 200,
+  "ultima_release": "v2.2-1011007",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/lumiagg--gestureevo.json",
+  "sha256": "a15724cf8da0035d841c4b8f56b793f9cc93a387e2b7bf948269af6400e868e5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lumiagg--gestureevo",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 86,
+  "stars_por_mes": null
+ },
+ "nombre": "GestureEVO",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "81a425530bbcc32e7a1e64498f6a36f2a54dd93f",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:81a425530bbcc32e7a1e64498f6a36f2a54dd93f"
+ },
+ "repo": "LumiaGG/GestureEVO"
+}

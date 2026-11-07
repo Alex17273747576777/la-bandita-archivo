@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2026-01-05",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-01-10"
+ },
+ "descripcion": "Recording Light Control gives precise control over the Nothing Phone (3)'s recording light.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/farpathan--recording-light-control.json",
+  "sha256": "ccc70a4431fb7f0fb10f0a6200be686bada29fa5d84ee6c48a400990b4e1d200"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "farpathan--recording-light-control",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "Recording-Light-Control",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f2e8da4a135f1eac0ef7a00616962d2b3f306241",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:f2e8da4a135f1eac0ef7a00616962d2b3f306241"
+ },
+ "repo": "Farpathan/Recording-Light-Control"
+}

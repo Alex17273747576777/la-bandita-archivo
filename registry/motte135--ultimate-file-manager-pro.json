@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-27"
+ },
+ "descripcion": "Ultimate File Manager Pro",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/motte135--ultimate-file-manager-pro.json",
+  "sha256": "c18f628ab6930dcfa63c0d6a45a7abf9178a74c3d0539a0e5e428eb4814d7620"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "motte135--ultimate-file-manager-pro",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "ultimate-file-manager-pro",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "de94fe1b3aa017b9e609d997ae6563df5f858500",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:de94fe1b3aa017b9e609d997ae6563df5f858500"
+ },
+ "repo": "motte135/ultimate-file-manager-pro"
+}

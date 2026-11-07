@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2017-07-05",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2022-06-14"
+ },
+ "descripcion": "[Unmaintained] Open source two-factor authentication for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/andotp--andotp.json",
+  "sha256": "d508289708fc0b836635bac0ac167f0c7f7227a176d5f809c1d13ad4b186a95f"
+ },
+ "frescura": {
+  "dias": 71,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-11-22",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "andotp--andotp",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": 2,
+  "scorecard_en": "2026-08-24",
+  "stars": 3704,
+  "stars_por_mes": null
+ },
+ "nombre": "andOTP",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "6c54b8811f950375c774b2eefebcf1f9fa13d433",
+  "swh_estado": "archivada",
+  "swh_solicitud": "6c54b8811f950375c774b2eefebcf1f9fa13d433",
+  "swhid": "swh:1:rev:6c54b8811f950375c774b2eefebcf1f9fa13d433"
+ },
+ "repo": "andOTP/andOTP"
+}

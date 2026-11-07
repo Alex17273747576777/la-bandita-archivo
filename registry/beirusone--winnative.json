@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-06"
+ },
+ "descripcion": "In Development",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/beirusone--winnative.json",
+  "sha256": "d5605aade04ee05704ae50c1f5e1513117d65262c92cc1f2dfcdb8437e764b0b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "beirusone--winnative",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "WinNative",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "48c4feeb24b96b5bbe2b4b7359bf4d7ecdd9e279",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:48c4feeb24b96b5bbe2b4b7359bf4d7ecdd9e279"
+ },
+ "repo": "Beirusone/WinNative"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-28",
+  "semantica_http": 200,
+  "ultima_release": "v1.7.0",
+  "ultimo_push": "2026-07-29"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ifritraen--appbooster.json",
+  "sha256": "7a866c3bac1c89ea4e04b6eef4c1d61ac25fbd222d8d7ea5d809168da1563235"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ifritraen--appbooster",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "AppBooster",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "80500990de072d4566633b6db6350d1f0897c980",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:80500990de072d4566633b6db6350d1f0897c980"
+ },
+ "repo": "ifritraen/AppBooster"
+}

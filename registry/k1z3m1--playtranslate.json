@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-06"
+ },
+ "descripcion": "Real-time screen translation app for Android for both language learners and casu",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/k1z3m1--playtranslate.json",
+  "sha256": "542b6943560d89fa0ab65c31a44323967c63ab7bce09a50030bf037ecda13bd7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "k1z3m1--playtranslate",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "playtranslate",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b5476e1d4f9fd08a6d1ce3864e17ff096c51f634",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b5476e1d4f9fd08a6d1ce3864e17ff096c51f634"
+ },
+ "repo": "K1z3m1/playtranslate"
+}

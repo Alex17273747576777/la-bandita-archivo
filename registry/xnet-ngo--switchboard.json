@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-22",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-10-28"
+ },
+ "descripcion": "Userspace TCP/UDP port forwarder for Android — no VpnService, no root. Kotlin/Compose UI over the portmux engine.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/xnet-ngo--switchboard.json",
+  "sha256": "ef65ab8fbf8c3c8d05d5ffa6ab57d05a34faa2822a05baf63e49c7cdac4992dc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "xnet-ngo--switchboard",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "switchboard",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "951a4d653e51a546ddebb2f341c11e6226317378",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:951a4d653e51a546ddebb2f341c11e6226317378"
+ },
+ "repo": "XNet-NGO/switchboard"
+}

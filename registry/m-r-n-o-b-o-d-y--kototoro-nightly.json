@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-03"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/m-r-n-o-b-o-d-y--kototoro-nightly.json",
+  "sha256": "681ff39cdb0c6b768e7957fd7ab1b078a347fa1cdca7e65bb22508ba99558423"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "m-r-n-o-b-o-d-y--kototoro-nightly",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Kototoro-Nightly",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "bd4a05d94d1eef2e5fddfa07ecaeed7bfce6170d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bd4a05d94d1eef2e5fddfa07ecaeed7bfce6170d"
+ },
+ "repo": "M-r-N-o-b-o-d-y/Kototoro-Nightly"
+}

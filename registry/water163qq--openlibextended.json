@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-19"
+ },
+ "descripcion": "An Open source app to download and read books from shadow library's (Anna’s Arch",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/water163qq--openlibextended.json",
+  "sha256": "8907cf937446781be323a3ca245cf7c572876a3d01593df315049935b1fd6cb4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "water163qq--openlibextended",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OpenlibExtended",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "84240e5d4a50f4eb37d9fa0ed4ab9d5b0906260e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:84240e5d4a50f4eb37d9fa0ed4ab9d5b0906260e"
+ },
+ "repo": "water163qq/OpenlibExtended"
+}

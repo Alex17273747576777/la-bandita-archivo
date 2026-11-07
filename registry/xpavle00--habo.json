@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2021-09-30",
+  "semantica_http": 200,
+  "ultima_release": "v0.6.0-beta",
+  "ultimo_push": "2026-10-14"
+ },
+ "descripcion": "Privacy-first habit tracker for iOS and Android. E2EE sync, self-hostable, built with Flutter.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/xpavle00--habo.json",
+  "sha256": "17f537eead99369253142b759e128306445cf8ee0d8883b1f01441e717bd20e0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "xpavle00--habo",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1557,
+  "stars_por_mes": null
+ },
+ "nombre": "Habo",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1ddf4c43075f0f13121a44ae91a01ca8185cedb9",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:1ddf4c43075f0f13121a44ae91a01ca8185cedb9"
+ },
+ "repo": "xpavle00/Habo",
+ "web": "https://habo.space"
+}

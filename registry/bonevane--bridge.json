@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-17",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-10-21"
+ },
+ "descripcion": "See and control your Android phone from your Mac (or Windows), over any network, even when it's locked.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/bonevane--bridge.json",
+  "sha256": "7de2c696a992f403c6c9bbb504e7dbbf01571f35649caeaabaa8405e74a7d2e1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "bonevane--bridge",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 22,
+  "stars_por_mes": null
+ },
+ "nombre": "Bridge",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "249cfbc9372e212af46ab327e8e678e1d50b8587",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:249cfbc9372e212af46ab327e8e678e1d50b8587"
+ },
+ "repo": "Bonevane/Bridge"
+}

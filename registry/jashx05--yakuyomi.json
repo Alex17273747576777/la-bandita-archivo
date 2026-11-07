@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-05"
+ },
+ "descripcion": "A manga reader with on-device AI translation — a mihon fork powered by yakuyomi-engine: detection, OCR and text removal run on device (all NCNN, CPU), translation via cloud LLM. Any source/target language pair, bring your own key.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jashx05--yakuyomi.json",
+  "sha256": "4a33de0f34ec0c542cf1521399e2da1fb55813b8d8efb1e73c5075895293b0f4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jashx05--yakuyomi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "Yakuyomi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b660d69e4ab8255081dbd546f86f02baa5d0b16b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b660d69e4ab8255081dbd546f86f02baa5d0b16b"
+ },
+ "repo": "jashx05/Yakuyomi"
+}

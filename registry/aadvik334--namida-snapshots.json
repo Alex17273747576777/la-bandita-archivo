@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-30"
+ },
+ "descripcion": "beta builds for namida",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/aadvik334--namida-snapshots.json",
+  "sha256": "e7bdb555942e2b8e3b3512048bafde0db0c6363862d0971e413107606ec9f2b1"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "aadvik334--namida-snapshots",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "namida-snapshots",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e1cec6cbb8ef73ba3bfd031eedd317c99ecd9b2b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e1cec6cbb8ef73ba3bfd031eedd317c99ecd9b2b"
+ },
+ "repo": "aadvik334/namida-snapshots"
+}

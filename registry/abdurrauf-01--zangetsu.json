@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-12"
+ },
+ "descripcion": "Zangetsu is an anime and movie/series streaming app.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/abdurrauf-01--zangetsu.json",
+  "sha256": "7ac5c2fda0a1f8c7a2d209986af6d942fdd0e771c2605d0fd34ba2f7056e934e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "abdurrauf-01--zangetsu",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Zangetsu",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "064e4daa0e086d47433f0d546a4bdb4f2f7cde64",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:064e4daa0e086d47433f0d546a4bdb4f2f7cde64"
+ },
+ "repo": "AbdurRauf-01/Zangetsu"
+}

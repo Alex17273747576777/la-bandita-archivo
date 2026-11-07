@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://labandita.example/schemas/ficha.v1.json",
+  "title": "Ficha de recurso — La Bandita v1",
+  "description": "Contrato de datos de una ficha. Una ficha sin medido_en, fuente y evidencia no es una ficha: es una opinión.",
+  "type": "object",
+  "required": ["id", "repo", "medido_en", "fuente", "licencia", "actividad", "evidencia"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{1,80}$" },
+    "repo": { "type": "string", "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$" },
+    "nombre": { "type": "string" },
+    "descripcion": { "type": "string", "maxLength": 400 },
+    "web": { "type": "string", "format": "uri" },
+    "medido_en": { "type": "string", "format": "date", "description": "Fecha ISO de la medición. Nunca heredada ni inferida." },
+    "fuente": {
+      "type": "object",
+      "required": ["primaria", "metodo"],
+      "additionalProperties": false,
+      "properties": {
+        "primaria": { "enum": ["github-api", "github-web", "codeberg-api", "gitlab-api", "fdroid-index", "web-oficial"] },
+        "secundarias": { "type": "array", "items": { "enum": ["ecosyste.ms", "repology", "deps.dev", "scorecard", "software-heritage"] } },
+        "metodo": { "type": "string", "minLength": 10 }
+      }
+    },
+    "licencia": {
+      "type": "object",
+      "required": ["spdx", "metodo", "verificado_en"],
+      "additionalProperties": false,
+      "properties": {
+        "spdx": { "type": ["string", "null"], "description": "Expresión SPDX o null si hay ausencia firmada." },
+        "metodo": { "enum": ["spdx-api", "endpoint-license", "texto-license", "ausencia-firmada"] },
+        "verificado_en": { "type": "string", "format": "date" },
+        "archivo": { "type": ["string", "null"] }
+      }
+    },
+    "actividad": {
+      "type": "object",
+      "required": ["ultimo_push", "estado"],
+      "additionalProperties": false,
+      "properties": {
+        "ultimo_push": { "type": ["string", "null"], "format": "date" },
+        "estado": { "enum": ["vivo", "dormido", "muerto", "bloqueado", "indeterminado"] },
+        "semantica_http": { "type": ["integer", "null"], "description": "403/429 nunca equivalen a muerte." },
+        "ultima_release": { "type": ["string", "null"] },
+        "release_en": { "type": ["string", "null"], "format": "date" }
+      }
+    },
+    "merito": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "stars": { "type": ["integer", "null"] },
+        "stars_por_mes": { "type": ["number", "null"] },
+        "scorecard": { "type": ["number", "null"], "minimum": 0, "maximum": 10 },
+        "scorecard_en": { "type": ["string", "null"], "format": "date" }
+      }
+    },
+    "procedencia": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "swhid": { "type": ["string", "null"], "pattern": "^swh:1:(rev|dir|snp):[0-9a-f]{40}" },
+        "commit": { "type": ["string", "null"] },
+        "atestacion": { "type": ["string", "null"] }
+      }
+    },
+    "evidencia": {
+      "type": "object",
+      "required": ["sha256"],
+      "additionalProperties": false,
+      "properties": {
+        "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$", "description": "Hash del payload crudo medido." },
+        "payload_ref": { "type": "string" },
+        "nota": { "type": "string" }
+      }
+    },
+    "piezas": { "type": "array", "items": { "type": "string" }, "description": "Identificadores de pieza donde aparece el recurso." },
+    "frescura_dias": { "type": "integer", "minimum": 0 }
+  }
+}

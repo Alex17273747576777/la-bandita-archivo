@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-01-08"
+ },
+ "descripcion": "A gui to download anime in batches , and auto track to my anime list & its fast",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/arunkumar-anbazhagan--anime-batch-downloader-gui.json",
+  "sha256": "74f21a0c5bd4260bc20003c8697e9ac83d8a91d1ac2e7764534c284ebfaf832f"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "arunkumar-anbazhagan--anime-batch-downloader-gui",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Anime-batch-downloader-gui",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "70224d832b1f1bc2ad0a95d885e400dc5661d901",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:70224d832b1f1bc2ad0a95d885e400dc5661d901"
+ },
+ "repo": "Arunkumar-Anbazhagan/Anime-batch-downloader-gui"
+}

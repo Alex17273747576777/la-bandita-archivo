@@ -1,0 +1,72 @@
+{
+ "id": "seedvault",
+ "nombre": "Seedvault",
+ "repo": "seedvault-app/seedvault",
+ "autores": [
+  {
+   "nombre": "Seedvault",
+   "enlace": "https://github.com/seedvault-app"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0 (declarada en el proyecto; GitHub no la detecta)",
+  "archivo": "https://github.com/seedvault-app/seedvault/blob/main/LICENSE"
+ },
+ "nivel": "intermedio",
+ "tarea": "Usar la copia de seguridad que viene dentro de la ROM, cifrada, sin instalar nada.",
+ "capitulo": 1,
+ "orden": 5,
+ "para_quien": {
+  "es": "para quien tenga una ROM o un sistema que ya la incluye: se configura y funciona desde los ajustes.",
+  "no_es": "para quien tenga un teléfono de fábrica sin ella: no se instala como una aplicación normal."
+ },
+ "manos": [
+  "Busca en Ajustes la entrada de copia de seguridad del sistema y comprueba si el proveedor es Seedvault o el servicio del fabricante.",
+  "Si está, entra y elige el destino: almacenamiento externo o una unidad conectada, nunca solo la memoria interna.",
+  "Anota la frase de recuperación de doce palabras que genera. Sin ella, la copia cifrada no se abre.",
+  "Lanza una copia manual y espera a que termine; comprueba la fecha en la pantalla de estado.",
+  "Guarda la frase en un papel fuera del teléfono y prueba a leerla: una frase que no se puede leer no sirve de nada."
+ ],
+ "resultado_esperado": "La pantalla de copia dice la fecha de hoy y el destino elegido, y la frase de recuperación está guardada fuera del aparato.",
+ "si_sale_mal": [
+  "Si no aparece en los ajustes, tu ROM no la incluye: no hay manera limpia de añadirla sin cambiar de sistema.",
+  "Si perdiste la frase, la copia existente ya no se puede abrir: hay que generar una nueva y volver a copiar."
+ ],
+ "deshacer": "Desactivar la copia de seguridad del sistema deja de hacer copias nuevas; las anteriores siguen en el destino hasta que se borren a mano.",
+ "cabeza": [
+  "Esta aplicación no se instala: se integra en el sistema. Eso explica su número, que parece malo y no lo es: cero descargas contadas y ninguna entrega en su repositorio, porque su canal de distribución es la propia ROM de quien la incluye.",
+  "Su ventaja es la posición: al vivir dentro del sistema puede copiar datos que una aplicación normal no alcanza, y lo hace cifrado por defecto."
+ ],
+ "limites": [
+  "No se puede instalar en un teléfono que no la traiga.",
+  "Cero entregas descargables en su repositorio: el canal es el sistema.",
+  "Sin una frase de recuperación guardada, la copia es ilegible para siempre."
+ ],
+ "oficio": {
+  "dato": "Una copia cifrada no es más segura si la llave vive en el mismo teléfono: si el aparato se pierde o se formatea, la llave se va con él y la copia queda inservible. Por eso estas herramientas generan una frase de doce palabras y por eso el paso más importante de esta ficha no es configurar la copia, es guardar esa frase en un papel que esté fuera del teléfono. Es el único paso que no se puede repetir después.",
+  "como_comprobar": "Consulta qué proveedor tiene activo el sistema: si aparece el nombre de esta herramienta, tienes copia cifrada disponible. Si aparece un servicio del fabricante, la copia está en su nube y no en tu destino.",
+  "comando": "adb shell dumpsys backup | head -30"
+ },
+ "riesgos": [
+  "Guardar la frase de recuperación dentro del teléfono que se va a formatear.",
+  "Creer que una copia reciente existe sin mirar la fecha en la pantalla de estado."
+ ],
+ "alternativas": [
+  "NeoApplications/Neo-Backup",
+  "XayahSuSuSu/Android-DataBackup"
+ ],
+ "senal": {
+  "estrellas": 1876,
+  "nota": 26,
+  "edad_dias": 3331,
+  "ultima_entrega": "sin entregas en el repositorio",
+  "descargas_10": 0,
+  "contribuyentes": 82,
+  "repo_mb": 375.1,
+  "ci": 4,
+  "incidencias": "146 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de Seedvault · licencia declarada Apache-2.0 · medido el 3 de noviembre de 2026"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2023-09-24",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0-tokei",
+  "ultimo_push": "2024-03-31"
+ },
+ "descripcion": "Movie and TV Streaming Android App",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sovan22--tokeii.json",
+  "sha256": "21ed8ddd91d2ab44c9f1bb679b62ec241ea95647e0dbf15191178f556ade622b"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sovan22--tokeii",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 162,
+  "stars_por_mes": null
+ },
+ "nombre": "Tokeii",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "754b8503003b91e62e8d54709ff268880c983e6a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:754b8503003b91e62e8d54709ff268880c983e6a"
+ },
+ "repo": "Sovan22/Tokeii"
+}

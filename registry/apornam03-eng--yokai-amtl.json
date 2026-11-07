@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-11"
+ },
+ "descripcion": "Yokai Manga reader with MangaAMTL support (Download the backend: https://github.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/apornam03-eng--yokai-amtl.json",
+  "sha256": "0f3a04a072ab80d51f02b6645f05a4bca0d5103731673d7aff304cbc5e7d1d50"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "apornam03-eng--yokai-amtl",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Yokai-AMTL",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "cf5e49df1454cb25196377fb8c19d0c1fa78448e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:cf5e49df1454cb25196377fb8c19d0c1fa78448e"
+ },
+ "repo": "apornam03-eng/Yokai-AMTL"
+}

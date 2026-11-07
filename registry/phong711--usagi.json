@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-13"
+ },
+ "descripcion": "Usagi is a free and open-source manga reader for Android. This repository contains its source code.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/phong711--usagi.json",
+  "sha256": "a8823f3ec9c130faee8eebe5ce9a366810428ed9e8f368599af64946243fe998"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "phong711--usagi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "usagi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d8c87fd55beac2d25d06341a2a7e0313534a8b2f",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d8c87fd55beac2d25d06341a2a7e0313534a8b2f"
+ },
+ "repo": "phong711/usagi",
+ "web": "https://yumemi.moe/usagi"
+}

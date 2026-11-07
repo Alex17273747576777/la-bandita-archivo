@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-25",
+  "semantica_http": 200,
+  "ultima_release": "azurpilot-android-latest",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "AzurPilot 安卓版本 基于ALAS-AOS",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/wess09--azurpilot-for-android.json",
+  "sha256": "e197797e66aa606017ec4af6d46eda61f709a0edb143dadb8430c5a1b4dc5980"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "wess09--azurpilot-for-android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 59,
+  "stars_por_mes": null
+ },
+ "nombre": "AzurPilot-for-Android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b713c5734c0561c3bd4e46e6926e1e1ed8667f23",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b713c5734c0561c3bd4e46e6926e1e1ed8667f23"
+ },
+ "repo": "wess09/AzurPilot-for-Android"
+}

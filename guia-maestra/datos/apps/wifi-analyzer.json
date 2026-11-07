@@ -1,0 +1,75 @@
+{
+ "id": "wifi-analyzer",
+ "nombre": "WiFi Analyzer",
+ "repo": "VREMSoftwareDevelopment/WiFiAnalyzer",
+ "autores": [
+  {
+   "nombre": "VREM Software Development",
+   "enlace": "https://github.com/VREMSoftwareDevelopment"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer/blob/main/LICENSE"
+ },
+ "nivel": "principiante",
+ "tarea": "Ver la ocupación de los canales inalámbricos, la potencia de cada red vecina y la calidad del enlace propio, para saber si la lentitud viene del canal y no del proveedor.",
+ "capitulo": 11,
+ "orden": 4,
+ "para_quien": {
+  "es": "para quien tiene wifi lento en una casa o un edificio con muchos routers, y para quien tiene que decidir en qué canal poner el suyo con un dato en la mano.",
+  "no_es": "para quien quiere medir la velocidad de su internet: esto mide la red inalámbrica y sus vecinos, y la velocidad de la conexión se mide de otra forma."
+ },
+ "manos": [
+  "Instalá el analizador y dale el permiso de ubicación, que Android exige para poder ver las redes cercanas: sin él la lista aparece vacía.",
+  "Abrí la vista de canales y mirá la banda de dos coma cuatro: las redes se dibujan como montañas y las que se pisan se ven superpuestas.",
+  "Anotá los tres canales más libres, que en esa banda son casi siempre el uno, el seis y el once.",
+  "Entrá al panel del router —no al teléfono— y poné el canal que elegiste; si el router no deja, cambialo desde la aplicación de quien te dio el servicio.",
+  "Volvé a medir a la misma hora del día siguiente: el mapa de la tarde no se parece al de la noche, y el canal bueno es el que aguanta las dos."
+ ],
+ "resultado_esperado": "Sabés qué canales están ocupados y cuáles libres, cambiaste el del router con un criterio, y lo comprobaste midiendo otra vez.",
+ "si_sale_mal": [
+  "Si no aparece ninguna red, falta el permiso de ubicación o el wifi está apagado: el sistema no entrega la lista sin eso.",
+  "Si el cambio de canal no mejora nada, el problema es la potencia o el número de aparatos conectados, no la interferencia.",
+  "Si sólo ves la red propia, el aparato no está escaneando: cerrá y abrí la aplicación para forzar un barrido nuevo."
+ ],
+ "deshacer": "No cambia nada en el teléfono salvo la lectura; el canal del router se devuelve desde el router. Desinstalarla deja el aparato exactamente como estaba.",
+ "cabeza": [
+  "La banda de dos coma cuatro gigahercios tiene catorce canales y sólo tres que no se pisan: uno, seis y once. Todos los routers del edificio vienen de fábrica en el mismo, y por eso el wifi de un bloque de apartamentos se cae a la misma hora. No es el proveedor: es una decisión de fábrica repetida cien veces en el mismo lugar.",
+  "WiFi Analyzer convierte eso en un dibujo. Es el proyecto más popular de este capítulo —cinco mil sesenta y cinco estrellas, sesenta personas, cinco flujos de integración— y el más antiguo de los seis: casi once años de entregas. Su nota es cincuenta, la más alta del capítulo, y no llega más alto porque su última entrega tiene meses y sus archivos no llevan huella publicada.",
+  "Su utilidad es de las que se explican en una frase y se recuerdan para siempre: **el canal del router se elige, no se hereda**. Y la herramienta que lo demuestra pesa menos que una foto."
+ ],
+ "limites": [
+  "Necesita el permiso de ubicación, porque Android lo exige para listar redes cercanas.",
+  "Mide la red inalámbrica, no la velocidad de internet ni la calidad del proveedor.",
+  "En Android moderno algunas lecturas están limitadas y dependen del fabricante.",
+  "No cambia la configuración del router: muestra el dato y el cambio se hace fuera."
+ ],
+ "oficio": {
+  "dato": "El sistema sabe en todo momento en qué frecuencia está hablando con el punto de acceso, y lo puede decir sin aplicaciones de por medio. Ese número separa las dos bandas: por debajo de los tres mil megahercios se viaja en la banda congestionada que atraviesa paredes, y por encima se viaja en la banda rápida que casi no las atraviesa. La mitad de los problemas de cobertura de una casa se entienden con este dato solo: el aparato está en la banda que llega lejos y no en la que va rápido, o al contrario. Y ahí se decide si conviene separar las dos redes con nombres distintos, que es la solución que casi ningún router trae puesta.",
+  "como_comprobar": "Con el teléfono conectado al wifi, pedile al sistema el estado del enlace y mirá la frecuencia y la potencia de la señal.",
+  "comando": "adb shell cmd wifi status"
+ },
+ "riesgos": [
+  "Dar permiso de ubicación permanente a una aplicación de análisis y olvidarse de quitarlo después.",
+  "Cambiar el canal del router y dejar sin conexión a otros aparatos de la casa que no se reconectan solos."
+ ],
+ "alternativas": [
+  "rethink",
+  "termux/termux-app"
+ ],
+ "senal": {
+  "estrellas": 5067,
+  "nota": 50,
+  "edad_dias": 3983,
+  "ultima_entrega": "2026-07-01",
+  "descargas_10": 86554,
+  "contribuyentes": 51,
+  "repo_mb": 27.1,
+  "ci": 5,
+  "incidencias": "8 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de VREM Software Development y colaboradores · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

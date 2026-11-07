@@ -1,0 +1,75 @@
+{
+ "id": "scrcpy",
+ "nombre": "scrcpy",
+ "repo": "Genymobile/scrcpy",
+ "autores": [
+  {
+   "nombre": "Romain Vimont y Genymobile",
+   "enlace": "https://github.com/Genymobile"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/Genymobile/scrcpy/blob/master/LICENSE"
+ },
+ "nivel": "principiante",
+ "tarea": "Ver y manejar el teléfono desde la computadora con teclado y mouse, sin instalar nada en el aparato y sin root.",
+ "capitulo": 10,
+ "orden": 1,
+ "para_quien": {
+  "es": "para quien escribe mucho en el teléfono, para quien enseña a otra persona a usarlo estando lejos, y para quien necesita grabar la pantalla sin aplicaciones de por medio.",
+  "no_es": "para quien quiere administrar el sistema o leer registros: esto muestra y controla la pantalla, y para lo demás hace falta la terminal o el propio intérprete de órdenes de Android."
+ },
+ "manos": [
+  "Instalá el programa en la computadora —Linux, Windows o macOS— y comprobá la descarga desde el repositorio oficial, que es el único que el proyecto reconoce.",
+  "Activá en el teléfono las opciones de desarrollador y la depuración por USB, y conectalo con el cable.",
+  "Aceptá en la pantalla del teléfono el aviso de autorización de depuración; sin eso, la computadora no puede hacer nada.",
+  "Ejecutá el programa sin opciones: la pantalla del teléfono aparece en una ventana, y el teclado y el mouse del ordenador la manejan.",
+  "Probá lo que de verdad cambia el trabajo: copiar un texto en la computadora y pegarlo en el teléfono, y grabar un fragmento de pantalla a un archivo."
+ ],
+ "resultado_esperado": "La pantalla del teléfono se ve en la computadora, se maneja con teclado y mouse, y al desconectar el cable no queda nada instalado en el aparato.",
+ "si_sale_mal": [
+  "Si el aparato no aparece, revisá el cable y la autorización de depuración: muchos cables sólo cargan y no transportan datos.",
+  "Si la imagen va lenta, bajá la resolución máxima o la tasa de refresco al lanzarlo: en aparatos modestos el cuello de botella es el teléfono, no la computadora.",
+  "Si otra herramienta de depuración está abierta, cerrála: varias se pelean por el mismo aparato y la conexión falla sin explicar por qué."
+ ],
+ "deshacer": "No hay nada que deshacer dentro del teléfono: no instala aplicaciones, no modifica ajustes y no deja archivos. Al desconectar el cable, el aparato queda exactamente como estaba.",
+ "cabeza": [
+  "scrcpy hace algo que parece magia y es ingeniería sobria: pide al servidor de depuración de Android que le entregue la pantalla ya codificada, la recibe, la decodifica en la computadora y devuelve los eventos de teclado y mouse. Como el trabajo pesado ocurre fuera del teléfono, el aparato casi no gasta batería y la respuesta es inmediata.",
+  "Esa decisión de diseño explica sus tres propiedades: no instala nada, porque todo vive en la computadora; no necesita root, porque la depuración es una puerta legítima del sistema; y funciona con el aparato en otro cuarto, si se conecta por red en lugar de por cable.",
+  "Con ciento cincuenta y tres mil novecientas treinta y seis estrellas, es el proyecto más popular de toda la guía, por delante de Immich y de LocalSend. Y es el único que abre su presentación advirtiendo que **su repositorio es la única fuente oficial**: hay sitios con su nombre que reparten archivos que no son suyos, y esa advertencia vale como regla general para todo lo que se instala."
+ ],
+ "limites": [
+  "Necesita la depuración activa, que mientras esté abierta deja el aparato accesible a la computadora conectada.",
+  "No da acceso al sistema de archivos ni a la administración: muestra la pantalla y nada más.",
+  "Con cifrado de pantalla activo, algunas aplicaciones se ven en negro: el sistema protege su contenido y eso es correcto.",
+  "La conexión por red depende de la calidad del wifi y de que el aparato no duerma la conexión."
+ ],
+ "oficio": {
+  "dato": "El servidor de depuración de Android no corre como root: corre como un usuario llamado `shell`, con un identificador concreto y permisos acotados. Eso se puede comprobar en un segundo y explica por qué este programa no es una llave maestra: puede ver la pantalla, instalar aplicaciones y leer registros, y no puede tocar los datos privados de otra aplicación ni el sistema. Saber con qué usuario estás hablando cuando escribís una orden es la diferencia entre entender lo que hacés y repetir lo que dice un tutorial. Y sirve para lo contrario: si alguna vez ves que una orden funciona como root y no como `shell`, ya sabés que hay algo más en juego que la depuración.",
+  "como_comprobar": "Con el teléfono conectado, pedile al servidor de depuración que te diga quién es. La respuesta trae el identificador del usuario y su nombre, y ese nombre no es root.",
+  "comando": "adb shell id"
+ },
+ "riesgos": [
+  "Bajar los archivos de un sitio que no es el repositorio oficial y quedarse con un binario ajeno.",
+  "Dejar la depuración por red activa en una red compartida, con lo que cualquier aparato de esa red puede intentar conectarse."
+ ],
+ "alternativas": [
+  "termux/termux-app",
+  "shizuku"
+ ],
+ "senal": {
+  "estrellas": 154026,
+  "nota": 67,
+  "edad_dias": 3270,
+  "ultima_entrega": "2026-10-08",
+  "descargas_10": 10013112,
+  "contribuyentes": 100,
+  "repo_mb": 9.1,
+  "ci": 1,
+  "incidencias": "2835 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de Romain Vimont y Genymobile · Apache-2.0 · medido el 3 de noviembre de 2026"
+}

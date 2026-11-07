@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-02",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-18"
+ },
+ "descripcion": "Unofficial open-source compatibility utility for launching Google Wallet with the power-button shortcut on compatible HyperOS devices.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/yourfavstav--hyperos-wallet-shortcut.json",
+  "sha256": "7b83c864996bf22b60c6b83c83eb6829f830a9c67284f541753f62e4ef7bc864"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yourfavstav--hyperos-wallet-shortcut",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "HyperOS-Wallet-Shortcut",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "6959f2fecf6215e35e1d1b81cb51300673a72ad6",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:6959f2fecf6215e35e1d1b81cb51300673a72ad6"
+ },
+ "repo": "YourFavStav/HyperOS-Wallet-Shortcut"
+}

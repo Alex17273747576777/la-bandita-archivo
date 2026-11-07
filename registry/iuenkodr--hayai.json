@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-06"
+ },
+ "descripcion": "Free and open source manga & novel reader for Android — fork of Yōkai/TachiyomiJ",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/iuenkodr--hayai.json",
+  "sha256": "2ef2394759cbfa4eccaddd0573a7b9158c4df1f1ed23a066fce440ae87f0aa79"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "iuenkodr--hayai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "hayai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "68c25a20ddadbd8d8d02ccffd1b6ead0530c15b4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:68c25a20ddadbd8d8d02ccffd1b6ead0530c15b4"
+ },
+ "repo": "IUenkodr/hayai"
+}

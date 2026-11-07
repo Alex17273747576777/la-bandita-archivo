@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2025-04-04",
+  "semantica_http": 200,
+  "ultima_release": "0.6.4",
+  "ultimo_push": "2025-05-23"
+ },
+ "descripcion": "Improved Filesystem MCP Server with full Windows compatibility",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/falleng0d--filesystem-mcp.json",
+  "sha256": "bb50166cdd952a88ff24ca52dbb0b692cee730e031d7cef2be1cbe69f2928e29"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "falleng0d--filesystem-mcp",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 7,
+  "stars_por_mes": null
+ },
+ "nombre": "filesystem-mcp",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ee91be781097ef82080d22cd2071725e3bed9b37",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:ee91be781097ef82080d22cd2071725e3bed9b37"
+ },
+ "repo": "falleng0d/filesystem-mcp",
+ "web": "https://modelcontextprotocol.io"
+}

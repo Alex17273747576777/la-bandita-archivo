@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-12-17",
+  "semantica_http": 200,
+  "ultima_release": "nightly-20251217-289fb35",
+  "ultimo_push": "2026-10-26"
+ },
+ "descripcion": "Hitori is a fork of Kotatsu-Redo.  |  Manga reader for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/hynf5--hitori.json",
+  "sha256": "e6f612fca2a5e49867762614a03a047d795acb65d5b0ebb56fb2209447f65a88"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hynf5--hitori",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 16,
+  "stars_por_mes": null
+ },
+ "nombre": "Hitori",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "516ec70a3f5512e604db45486560168c80089f2c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:516ec70a3f5512e604db45486560168c80089f2c"
+ },
+ "repo": "Hynf5/Hitori",
+ "web": "https://kotatsu.app"
+}

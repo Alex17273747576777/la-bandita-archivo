@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-07-10"
+ },
+ "descripcion": "Free and open source manga reader for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kyusuka--mangakk.json",
+  "sha256": "2f968e761b551d4728a256a2ee306ce06598aeeeae42342cd3118a49c51e25f8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kyusuka--mangakk",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "MANGAKK",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "922c453622e36997891281c59712a50c15c47bda",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:922c453622e36997891281c59712a50c15c47bda"
+ },
+ "repo": "Kyusuka/MANGAKK"
+}

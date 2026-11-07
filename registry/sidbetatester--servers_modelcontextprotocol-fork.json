@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-12-17"
+ },
+ "descripcion": "Model Context Protocol Servers, remember to sync with the parent repo",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sidbetatester--servers_modelcontextprotocol-fork.json",
+  "sha256": "28662fa73f05221389598aa139cf355efc7339816f4543cf1d220845e0cd6bc8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sidbetatester--servers_modelcontextprotocol-fork",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "servers_ModelContextProtocol-fork",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a37158bc1555ce0b1121ea98a3e740119d7fc8c7",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a37158bc1555ce0b1121ea98a3e740119d7fc8c7"
+ },
+ "repo": "sidbetatester/servers_ModelContextProtocol-fork",
+ "web": "https://modelcontextprotocol.io"
+}

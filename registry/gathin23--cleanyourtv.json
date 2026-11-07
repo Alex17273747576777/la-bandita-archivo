@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2026-11-01",
+  "semantica_http": 200,
+  "ultima_release": "v3.3.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+ "evidencia": {
+  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
+  "payload_ref": "ficha profunda del 2026-11-03",
+  "sha256": "923807508561253b1805e0393a791a524c9e83404b6cfda39cc99ae598e61529"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "nodo REST + GraphQL el 3-nov-2026, con README y LICENSE leídos en crudo",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "gathin23--cleanyourtv",
+ "licencia": {
+  "archivo": "MIT License\n\nCopyright (c) 2026 Gathin\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof",
+  "metodo": "ausencia-firmada",
+  "nota": "la API no reconoce la licencia (NOASSERTION); el archivo del repositorio sí la declara y se transcribe",
+  "spdx": null,
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 50995,
+  "stars_por_mes": null
+ },
+ "nombre": "cleanyourtv",
+ "piezas": [
+  "01"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d7b0d4a5284d3934a1fce192bd4e2f43aa1fbf97",
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
+  "swhid": "swh:1:rev:d7b0d4a5284d3934a1fce192bd4e2f43aa1fbf97"
+ },
+ "repo": "Gathin23/cleanyourtv"
+}

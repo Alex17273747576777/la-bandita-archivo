@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-30",
+  "semantica_http": 200,
+  "ultima_release": "v1.5",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "DSH-Folk —— 基于 FolkPatch 设计风格的 DeepSeek Harness 移动端启动器。",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ipf-sinon--dsh-folk.json",
+  "sha256": "54bfdbc8f40f3d7013815eb40023fc161ef0f20e0d5f33480dd5b22e95bc3b15"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ipf-sinon--dsh-folk",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 45,
+  "stars_por_mes": null
+ },
+ "nombre": "DSH-Folk",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b4ed9b56b875ad1d0b0f93b68a8f9055a860ed6a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b4ed9b56b875ad1d0b0f93b68a8f9055a860ed6a"
+ },
+ "repo": "IPF-Sinon/DSH-Folk"
+}

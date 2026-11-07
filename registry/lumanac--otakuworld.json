@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2021-04-22"
+ },
+ "descripcion": "Anime Watcher and Manga Reader as two separate apps, same UI",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lumanac--otakuworld.json",
+  "sha256": "a246282911cc5b4caf42af485ac3c8502747dc61911f7964d2dc2b648bf8df08"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lumanac--otakuworld",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OtakuWorld",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2ca7d7aafbc3072f585c136bdfbe4fd63d2027bb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2ca7d7aafbc3072f585c136bdfbe4fd63d2027bb"
+ },
+ "repo": "Lumanac/OtakuWorld"
+}

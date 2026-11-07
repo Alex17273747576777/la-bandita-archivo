@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-05-19",
+  "semantica_http": 200,
+  "ultima_release": "v13.6.0.r40-nightzuku",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Shizuku fork with Material 3 Expressive and Android SDK 37 updates",
+ "evidencia": {
+  "nota": "ficha creada el 3-nov-2026 al medir los herederos de Shizuku para la pieza 04",
+  "payload_ref": "consulta GraphQL del 2026-11-03 sobre kerneldroid/Nightzuku",
+  "sha256": "0ea799fb757990c14b0d3ba8f0904f20018b5466e3af14bb8e85d00f4224fbf2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "consulta GraphQL del nodo repository; campos exactos, sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kerneldroid--nightzuku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "nota": "certificada además contra el texto del archivo LICENSE en la medición de la pieza 04",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 329,
+  "stars_por_mes": null
+ },
+ "nombre": "Nightzuku",
+ "piezas": [
+  "04"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e6904452b6a2b9a72fac2d1f7fce9978a08bd883",
+  "swh_estado": "archivada",
+  "swh_solicitud": "e6904452b6a2b9a72fac2d1f7fce9978a08bd883",
+  "swhid": "swh:1:rev:e6904452b6a2b9a72fac2d1f7fce9978a08bd883"
+ },
+ "repo": "kerneldroid/Nightzuku"
+}

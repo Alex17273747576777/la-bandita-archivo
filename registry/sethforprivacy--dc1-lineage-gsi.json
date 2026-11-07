@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-23",
+  "semantica_http": 200,
+  "ultima_release": "v2026.08.23-lineage23.2",
+  "ultimo_push": "2026-09-07"
+ },
+ "descripcion": "Maintained, unrooted LineageOS GSI fork for the Daylight DC-1 (amber frontlight built in)",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sethforprivacy--dc1-lineage-gsi.json",
+  "sha256": "2d50e41667f51bfafb130006feb9eb63a5c210460a1e6ec2c754df9293b215fc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sethforprivacy--dc1-lineage-gsi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 28,
+  "stars_por_mes": null
+ },
+ "nombre": "dc1-lineage-gsi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "fd4b5c51b454f8afc893215396433f3a8edc93a2",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:fd4b5c51b454f8afc893215396433f3a8edc93a2"
+ },
+ "repo": "sethforprivacy/dc1-lineage-gsi"
+}

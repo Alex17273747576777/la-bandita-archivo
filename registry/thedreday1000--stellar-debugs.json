@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-10"
+ },
+ "descripcion": "Another Shizuku implementation from Stellar. Here lie the debug builds...",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/thedreday1000--stellar-debugs.json",
+  "sha256": "635b4276b2d256ef1630d57cb44b364cc226feeab3b4068dbf55ad17fe22f609"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "thedreday1000--stellar-debugs",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Stellar-debugs",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1ccea43f5f29d60e32a80686c410e29ed31d61b3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1ccea43f5f29d60e32a80686c410e29ed31d61b3"
+ },
+ "repo": "TheDreDay1000/Stellar-debugs"
+}

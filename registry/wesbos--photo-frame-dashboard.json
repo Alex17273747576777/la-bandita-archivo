@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-23"
+ },
+ "descripcion": "Getting ADB, root, backups and custom apps onto locked-down Android photo frames (Skylight Calendar, BIUFRAME)",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/wesbos--photo-frame-dashboard.json",
+  "sha256": "c89c7a26387ccdf1647a3524b86522616e173c11991379a4b44413d9cbb3563c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "wesbos--photo-frame-dashboard",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1637,
+  "stars_por_mes": null
+ },
+ "nombre": "photo-frame-dashboard",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0bff55ef3fb2a3bfdab05bc8e3bd0c9d69f63189",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:0bff55ef3fb2a3bfdab05bc8e3bd0c9d69f63189"
+ },
+ "repo": "wesbos/photo-frame-dashboard"
+}

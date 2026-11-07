@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-22"
+ },
+ "descripcion": "Anime, Manga & Movies — By Natty Tech",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/petersmith2024-cmd--nattyflix.json",
+  "sha256": "9d2d95bd3b8e25f41f8ecf055da093054ed507a7834627f47ee1d4c762eb10a3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "petersmith2024-cmd--nattyflix",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Nattyflix-",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "bb22e540778557f67c6344396f454ba0b690be77",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bb22e540778557f67c6344396f454ba0b690be77"
+ },
+ "repo": "petersmith2024-cmd/Nattyflix-"
+}

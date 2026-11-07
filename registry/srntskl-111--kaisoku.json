@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-11"
+ },
+ "descripcion": "Manga reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/srntskl-111--kaisoku.json",
+  "sha256": "8c12e5cbd0d679540b4e0e5ef5ce8262d09ddd2138a65e84fb2a2c390c2e6048"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "srntskl-111--kaisoku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Kaisoku",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e85343dc3ab793ecbd7c38543621c58ec2f6f231",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e85343dc3ab793ecbd7c38543621c58ec2f6f231"
+ },
+ "repo": "srntskl-111/Kaisoku"
+}

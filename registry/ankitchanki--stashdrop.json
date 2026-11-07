@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-20",
+  "semantica_http": 200,
+  "ultima_release": "v0.3.2",
+  "ultimo_push": "2026-10-26"
+ },
+ "descripcion": "Catch something useful without losing your place. Share a link into your shelf, save a note, circle part of the screen, extract text, and send a selection back to another app. A thumb-friendly floating dock keeps the shelf nearby",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ankitchanki--stashdrop.json",
+  "sha256": "28174c24a59f00b521662329f1c69a0741170d5293e8c92539f72baab35cc919"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ankitchanki--stashdrop",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "StashDrop",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3f5d5003f43e1d27eb23c997e3bf743aef72fde5",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:3f5d5003f43e1d27eb23c997e3bf743aef72fde5"
+ },
+ "repo": "ankitchanki/StashDrop"
+}

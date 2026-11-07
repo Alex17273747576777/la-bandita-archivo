@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-13"
+ },
+ "descripcion": "Ultimate File Manager Pro",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/brysonhwang--ultimate-file-manager-pro.json",
+  "sha256": "0c7d0170d4aaa280bfce392e0cd44f2a6f1849cee82b2bcbd8104665317bc11b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "brysonhwang--ultimate-file-manager-pro",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "ultimate-file-manager-pro",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "992f946936faa3d74c61e2124bbb31bebbbd4637",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:992f946936faa3d74c61e2124bbb31bebbbd4637"
+ },
+ "repo": "brysonhwang/ultimate-file-manager-pro"
+}

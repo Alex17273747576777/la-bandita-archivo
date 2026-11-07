@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-17"
+ },
+ "descripcion": "GPS-denied drone navigation layer: optical flow + offline map geo-match + EKF → MAVLink (sim-validated).",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/fratres-x-ai--jamboy.json",
+  "sha256": "b36774883b3cd89adb71274809cec4d9095cfa52307341c69242f3dba3f88fe5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "fratres-x-ai--jamboy",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 136,
+  "stars_por_mes": null
+ },
+ "nombre": "JamBoy",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "55dd90f711ce68ddc0db6fad04e14671ac42dbfd",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:55dd90f711ce68ddc0db6fad04e14671ac42dbfd"
+ },
+ "repo": "Fratres-X-AI/JamBoy",
+ "web": "--disable-wiki"
+}

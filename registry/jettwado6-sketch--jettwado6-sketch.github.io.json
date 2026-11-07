@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Discover, verify, and track Android apps powered by Shizuku with this auto-updated, curated directory.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jettwado6-sketch--jettwado6-sketch.github.io.json",
+  "sha256": "ccbfb5916d9a6fc039cc0b7bb9d0081fd80709d0c4ba5cb56852dad83732b4b2"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jettwado6-sketch--jettwado6-sketch.github.io",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "jettwado6-sketch.github.io",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b5674be3fea71c1657954662ba26a65e313cbada",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b5674be3fea71c1657954662ba26a65e313cbada"
+ },
+ "repo": "jettwado6-sketch/jettwado6-sketch.github.io"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-15",
+  "semantica_http": 200,
+  "ultima_release": "1.0",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "一个在hail的基础上继续开发的APP停用/隐藏项目，支持root等模式",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/codecodegogogo--freeze.json",
+  "sha256": "b3ae62a8fe1cfee952e67ff853bf62cc06d103432e7557eb6839c98df6c6de2d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "codecodegogogo--freeze",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 14,
+  "stars_por_mes": null
+ },
+ "nombre": "Freeze",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "51abe5df75088f27e50175391c891a894c13a16f",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:51abe5df75088f27e50175391c891a894c13a16f"
+ },
+ "repo": "codecodegogogo/Freeze"
+}

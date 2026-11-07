@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-02",
+  "semantica_http": 200,
+  "ultima_release": "1.0.1",
+  "ultimo_push": "2026-08-03"
+ },
+ "descripcion": "Font manager for Samsung Galaxy (OneUI) via System shell or Root.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/khunhtetznaing--scamsungfonts.json",
+  "sha256": "ec34f8715ec3dcbe5ff9f0f97e2c7ff9f9ac05718d886e5576b82f1c88e3ea72"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "khunhtetznaing--scamsungfonts",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 43,
+  "stars_por_mes": null
+ },
+ "nombre": "ScamsungFonts",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4afbf825631a190782f1280002ac8702ab5fc84c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4afbf825631a190782f1280002ac8702ab5fc84c"
+ },
+ "repo": "KhunHtetzNaing/ScamsungFonts"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Free and open source anime watcher for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/weblate--anikku.json",
+  "sha256": "f749f59aed601bae2fcc860949dd0f33d22f36d86e6cba36b30fca66068a7a73"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "weblate--anikku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "anikku",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "18d842fa4d63b0d336f57fb6917dbd0a78ace056",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:18d842fa4d63b0d336f57fb6917dbd0a78ace056"
+ },
+ "repo": "weblate/anikku"
+}

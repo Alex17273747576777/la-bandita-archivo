@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-21",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Turn a private Telegram channel into your personal cloud drive. Android, Windows, Linux and macOS, auto backup, optional E2E encryption, built-in file manager and player.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mahmud0808--teledrive.json",
+  "sha256": "7379ef8c20a503a51e23733f86e5663f1756ad9a7637d7ce1c6c6497bce2d124"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mahmud0808--teledrive",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 430,
+  "stars_por_mes": null
+ },
+ "nombre": "TeleDrive",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "aa0f75bc9833eca0e85da7ba3f7b6e1b0725f0e9",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:aa0f75bc9833eca0e85da7ba3f7b6e1b0725f0e9"
+ },
+ "repo": "Mahmud0808/TeleDrive",
+ "web": "https://mahmud0808.github.io/TeleDrive/"
+}

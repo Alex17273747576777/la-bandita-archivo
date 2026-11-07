@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-20",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.5",
+  "ultimo_push": "2026-10-29"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/congdu28--tool-xiaomi.json",
+  "sha256": "e245e4f55c969c59357a968661b1d2a7d355b2ca623224fccf4f23daf920a544"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "congdu28--tool-xiaomi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "Tool-Xiaomi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d9aa84c0dc12abefb76699c997b7008ddd54e852",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d9aa84c0dc12abefb76699c997b7008ddd54e852"
+ },
+ "repo": "congdu28/Tool-Xiaomi"
+}

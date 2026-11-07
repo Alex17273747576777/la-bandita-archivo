@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-14"
+ },
+ "descripcion": "An Android app for playing Windows games from Steam, Epic Games, GOG, and more o",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/vower2993--winnative-wayland.json",
+  "sha256": "3f7d9f0aa74b7066eb4a915c1f5cee4ed0b4a7017f2100f6b6f37f0b7ccc04fe"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "vower2993--winnative-wayland",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "WinNative-wayland",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "13414291e1ecbd1170e67657b64a66a23c2774e4",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:13414291e1ecbd1170e67657b64a66a23c2774e4"
+ },
+ "repo": "Vower2993/WinNative-wayland"
+}

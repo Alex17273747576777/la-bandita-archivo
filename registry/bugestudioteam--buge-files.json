@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-25",
+  "semantica_http": 200,
+  "ultima_release": "1.5.4",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Buge Files is a modern Android file manager built with Material Design 3 Expressive.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/bugestudioteam--buge-files.json",
+  "sha256": "7d9e954fbea901b86d5dbf77845671043900d4fe533e814e22462ecab151a6e1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "bugestudioteam--buge-files",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 41,
+  "stars_por_mes": null
+ },
+ "nombre": "Buge-Files",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0714f5494fd88c1b019d14e864b9e7130924680c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:0714f5494fd88c1b019d14e864b9e7130924680c"
+ },
+ "repo": "BugeStudioTeam/Buge-Files",
+ "web": "https://bugestudio.website/files/"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-20",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-09-20"
+ },
+ "descripcion": "Rules, playbooks, bot roles and a failure log from the xAI Grok Bot team's 72-hour live build. Drop AGENTS.md into your repo and go.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/unicodef1wn--grokbot-field-notes.json",
+  "sha256": "b87fb55b7e1ce3ddc3fc3d5e0cb6bcc18d34b0558ba96809420008703df71c2d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "unicodef1wn--grokbot-field-notes",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 662,
+  "stars_por_mes": null
+ },
+ "nombre": "grokbot-field-notes",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "02780c04ef5f412b28573bce6f82afd15d195d1f",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:02780c04ef5f412b28573bce6f82afd15d195d1f"
+ },
+ "repo": "unicodef1wn/grokbot-field-notes"
+}

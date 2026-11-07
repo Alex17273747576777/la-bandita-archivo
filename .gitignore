@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+.boveda/
+
+# exportaciones y respaldos: nunca versionados (ver docs/ACTA-LIMPIEZA-2026-11-02.md)
+paquetes/
+*.bundle

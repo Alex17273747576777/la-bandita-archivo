@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-19"
+ },
+ "descripcion": "An Open source app to download and read books from shadow library's (Anna’s Arch",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kkkkkino123--openlibextended.json",
+  "sha256": "fa915714f6292951285f0ca1b0739eca557293566243737d17a9247432f05cdb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kkkkkino123--openlibextended",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OpenlibExtended",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3359940a443c0226d6cae63c661481db4ce572f5",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3359940a443c0226d6cae63c661481db4ce572f5"
+ },
+ "repo": "kkkkkino123/OpenlibExtended"
+}

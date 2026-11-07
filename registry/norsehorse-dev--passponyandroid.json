@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-27",
+  "semantica_http": 200,
+  "ultima_release": "v2.1.0",
+  "ultimo_push": "2026-10-27"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
+  "payload_ref": "ficha profunda del 2026-11-03",
+  "sha256": "cc46a6b52bc2f1d5096fe130bbbc2c79f13963cb2c89f02e0477de25a88df46e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "nodo REST + GraphQL el 3-nov-2026, con README y LICENSE leídos en crudo",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "norsehorse-dev--passponyandroid",
+ "licencia": {
+  "archivo": "Apache License\n                           Version 2.0, January 2004",
+  "metodo": "endpoint-license",
+  "nota": "certificada contra el texto del archivo LICENSE",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 18,
+  "stars_por_mes": null
+ },
+ "nombre": "PassPonyAndroid",
+ "piezas": [
+  "01"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "6be43f3ec854f18c14d8236872606740f12be2a6",
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
+  "swhid": "swh:1:rev:6be43f3ec854f18c14d8236872606740f12be2a6"
+ },
+ "repo": "norsehorse-dev/PassPonyAndroid"
+}

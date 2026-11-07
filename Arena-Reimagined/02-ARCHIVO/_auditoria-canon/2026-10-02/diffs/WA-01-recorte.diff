@@ -1,0 +1,32 @@
+--- Arena-Reimagined/02-ARCHIVO/_auditoria-canon/2026-10-02/PRE/01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-09-22-dominicano-ES.md	2026-10-02 15:15:27.688763208 +0000
++++ Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-09-22-dominicano-ES.md	2026-10-02 15:15:27.688763208 +0000
+@@ -760,10 +760,10 @@
+ No. ShizuStore es una tienda que instala desde el upstream; ShizuCoreFetch es una plataforma centralizada (con web) para buscar y gestionar apps que exigen permiso de núcleo. Se parecen en el nombre y en el ecosistema, pero hacen cosas distintas. Ambas requieren Shizuku.
+ 
+ *¿Puedo darle Shizuku a cualquier app?*
+-Puedes, pero no debes. El permiso de Shizuku es poder: concedérselo a una app que no verificaste es entregarle la credencial del portero. Solo a las que comprobaste. La regla de la casa no cambia por la herramienta.
++El Cartel ya lo dice (punto 7): solo a quien verificaste. El permiso es poder, y la regla de la casa no cambia por la herramienta.
+ 
+ *¿Por qué La Bandita no pone capturas de cada app?*
+-Porque una captura es una foto del momento; el dato que cuenta es el enlace y la fecha. Lo que ves hoy en una captura puede no ser lo que instalas mañana. Aquí se deja el enlace para que tú mism(o/a) mires, y la fecha para que sepas cuándo se miró. La vara se ejerce, no se decora.
++Porque una captura es la foto del momento; el dato que cuenta es el enlace y la fecha: lo que ves hoy puede no ser lo que instalas mañana. La vara se ejerce, no se decora.
+ 
+ ───────────────────
+ 
+@@ -797,16 +797,12 @@
+ • *Mito: «Shizuku es root para pobres.»* Falso. Shizuku no te da las llaves maestras; da acceso acotado a ciertas APIs del sistema mediante un proceso que tú arrancas. Es menos poderoso que root, y por eso mismo menos peligroso si lo usas bien.
+ • *Mito: «Si una app tiene muchas estrellas en GitHub, ya es segura.»* Las estrellas miden popularidad, no inocencia. Un repo con 400 estrellas puede haberse vuelto dañino el mes pasado. La estrella es la foto del momento; la firma y el commit reciente son el examen.
+ • *Mito: «Lo de código abierto no tiene malware.»* El código abierto _permite_ auditar, no _garantiza_ que alguien lo hizo. Hay proyectos abiertos rotos o tomados. Por eso la vara: verificar, no bendecir.
+-• *Mito: «La verificación de Google me va a impedir usar F-Droid en 2027.»* No directamente. F-Droid mismo ha dicho que, si la regla se aplica tal como está escrita, su forma actual se complica; pero la vía de instalar desde tu propia computadora (ADB) y las ROMs des-Googleadas siguen fuera del filtro. El cierre no es total; es un roce que crece.
+-• *Mito: «Los mods son más rápidos porque «optimizan».* Lo que suelen optimizar es tu paciencia y tu privacidad. El mod rara vez es la app original; es otra con el icono prestado.
+ 
+ ```
+ Mito vs Dato (parte 2)
+ «Shizuku = root»        → puente acotado, no llaves maestras
+ «Estrellas = seguro»    → popularidad ≠ inocencia
+ «Abierto = sin malware» → auditable ≠ auditado
+-«Google me bloquea F-Droid» → ADB y ROMs fuera del filtro
+-«El mod optimiza»       → optimiza tu privacidad, no la app
+ ```
+ 
+ ───────────────────

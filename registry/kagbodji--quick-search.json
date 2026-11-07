@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-27"
+ },
+ "descripcion": "An all-in-one search app for Android which can search apps, contacts, files, cal",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kagbodji--quick-search.json",
+  "sha256": "b6c2ce7c93430adc756d559507754359e9877df0f43297a0b203f609979740a9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kagbodji--quick-search",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "quick-search",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "fed9350b80a746cb2b982606cf48c1aceda60d69",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:fed9350b80a746cb2b982606cf48c1aceda60d69"
+ },
+ "repo": "kagbodji/quick-search"
+}

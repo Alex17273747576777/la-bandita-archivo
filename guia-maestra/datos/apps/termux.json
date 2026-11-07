@@ -1,0 +1,75 @@
+{
+ "id": "termux",
+ "nombre": "Termux",
+ "repo": "termux/termux-app",
+ "autores": [
+  {
+   "nombre": "Termux y su comunidad",
+   "enlace": "https://termux.dev"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/termux/termux-app/blob/master/LICENSE.md"
+ },
+ "nivel": "intermedio",
+ "tarea": "Tener un entorno Linux completo en el teléfono, con su gestor de paquetes, para automatizar tareas y ejecutar las mismas órdenes que en una computadora.",
+ "capitulo": 10,
+ "orden": 2,
+ "para_quien": {
+  "es": "para quien ya usó una terminal y quiere la misma comodidad en el teléfono: scripts, copias cifradas, servidores pequeños y conexiones por SSH.",
+  "no_es": "para quien nunca escribió una orden: la terminal no enseña, ejecuta, y un comando copiado sin entender puede borrar cosas."
+ },
+ "manos": [
+  "Instalala desde F-Droid o desde su repositorio, nunca desde la tienda de Google: la versión de la tienda está abandonada y no recibe paquetes.",
+  "Abrí la terminal y actualizá la lista de paquetes antes de instalar nada; el propio proyecto documenta qué hacer si el repositorio responde con un error de mantenimiento.",
+  "Instalá un paquete pequeño y comprobá dónde queda: la ruta de los programas no es la de una computadora, y todo lo demás depende de entender eso.",
+  "Concedé el acceso al almacenamiento compartido desde la aplicación, y comprobá que podés listar tus carpetas del teléfono desde la terminal.",
+  "Escribí un script corto que ordene una carpeta por fecha y ejecutalo con el teléfono conectado a la corriente, para que el sistema no lo mate a mitad."
+ ],
+ "resultado_esperado": "Tenés una terminal funcionando con paquetes instalados, acceso a tus archivos y un script propio que hace en un segundo lo que antes era trabajo manual.",
+ "si_sale_mal": [
+  "Si los paquetes no instalan, mirá el mensaje del repositorio: el proyecto documenta los dos errores habituales y su arreglo, y casi siempre es un cambio de dirección del espejo.",
+  "Si un script largo muere solo, es el sistema: Android 12 y posteriores limitan los procesos y matan los que consumen mucho. Partilo en tandas y dejalo con la pantalla encendida.",
+  "Si una orden que funciona en la computadora falla acá, revisá las rutas: la terminal vive en su propio prefijo y no en el sistema de archivos estándar."
+ ],
+ "deshacer": "Desinstalarla borra su entorno y todo lo que instalaste dentro, no tus archivos personales si los guardaste en el almacenamiento compartido. Los scripts conviene tenerlos en la carpeta compartida y no sólo dentro de la terminal.",
+ "cabeza": [
+  "Termux es una terminal con su propio sistema de archivos y su propio gestor de paquetes, con miles de programas compilados para teléfonos. No es un emulador: los programas corren nativos sobre el mismo núcleo de Android, y por eso es rápido y por eso mismo choca con las reglas de Android.",
+  "Esa convivencia explica su límite más citado: **desde Android 12 el sistema mata procesos**. Hay un tope global de procesos fantasma —treinta y dos entre todas las aplicaciones— y además se matan los que consumen mucha batería. Un trabajo largo en la terminal puede morir sin explicación, y no es un fallo: es el sistema administrando el aparato por encima de la aplicación.",
+  "Su licencia también hay que leerla en el archivo, porque incluye excepciones declaradas por el proyecto además de la licencia pública general de GNU. Y su entrega más reciente que se midió es una beta de mayo de 2025 con once millones sesenta y dos mil cuarenta y dos descargas acumuladas: es un proyecto enorme, con ochenta y una personas, cuyo ritmo de publicación es más lento que su ritmo de uso."
+ ],
+ "limites": [
+  "No viene de la tienda de Google: hay que instalarla desde F-Droid o su repositorio, y eso deja fuera a quien sólo usa la tienda.",
+  "Android 12 y posteriores matan procesos: los trabajos largos necesitan cuidado.",
+  "Sus rutas no son las de Linux de escritorio, así que los tutoriales de servidores no se copian tal cual.",
+  "Su última entrega medida es de mayo de 2025, aunque el proyecto siga publicando paquetes aparte."
+ ],
+ "oficio": {
+  "dato": "Todo lo que instalás en Termux vive bajo un prefijo propio, una ruta que empieza por su carpeta de aplicación y no por la raíz del sistema. Esa única decisión explica casi todos los tropiezos: por qué un script que busca algo en la carpeta de configuración del sistema no lo encuentra, por qué las rutas de los tutoriales de servidores fallan, y por qué se pueden tener dos versiones de un programa sin conflicto. La variable de entorno que guarda esa ruta es la primera que hay que mirar cuando algo «no existe» aunque esté instalado. Y es también la razón de que la terminal sea fácil de desinstalar sin rastro: todo lo que creó está en una carpeta.",
+  "como_comprobar": "Pedile a la terminal que te muestre su prefijo y después listá esa carpeta. Ahí están los programas y las librerías que instalaste, separados de todo lo demás del teléfono.",
+  "comando": "echo \"$PREFIX\" && ls \"$PREFIX/bin\" | head -20"
+ },
+ "riesgos": [
+  "Instalar la versión abandonada de la tienda y creer que la terminal está rota.",
+  "Ejecutar comandos copiados de internet sin leerlos, con acceso a tus carpetas reales."
+ ],
+ "alternativas": [
+  "Genymobile/scrcpy",
+  "connectbot/connectbot"
+ ],
+ "senal": {
+  "estrellas": 64090,
+  "nota": 43,
+  "edad_dias": 4030,
+  "ultima_entrega": "2025-05-22",
+  "descargas_10": 11077255,
+  "contribuyentes": 81,
+  "repo_mb": 5.1,
+  "ci": 5,
+  "incidencias": "518 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de Termux y su comunidad · GPL-3.0 con excepciones declaradas · medido el 3 de noviembre de 2026"
+}

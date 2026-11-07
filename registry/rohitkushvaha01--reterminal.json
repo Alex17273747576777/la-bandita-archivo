@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-02-19",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-09-26"
+ },
+ "descripcion": "A Simple Android Terminal Emulator",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/rohitkushvaha01--reterminal.json",
+  "sha256": "99720623a714438f5779eaeac1339f62639aa4093c98cabcbeb809add5e51645"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rohitkushvaha01--reterminal",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 661,
+  "stars_por_mes": null
+ },
+ "nombre": "ReTerminal",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "839950dec204b69b8d670cdcc7d34d650be248ba",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:839950dec204b69b8d670cdcc7d34d650be248ba"
+ },
+ "repo": "RohitKushvaha01/ReTerminal"
+}

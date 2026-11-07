@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-15",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-25"
+ },
+ "descripcion": "Run multiple copies of any Android app with separate logins. No root. Clone apps with custom names, icons and permissions, extract APKs, and theme it your way.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/starlightjulie--twinndroid.json",
+  "sha256": "867c80c36b3decbcbbb0783dba3a74ab0265c399df5b4cc07126214ea04b149d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "starlightjulie--twinndroid",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 19,
+  "stars_por_mes": null
+ },
+ "nombre": "TwinnDroid",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "02ffcdc4b87905e82b873bd73c53a4dbe69edac7",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:02ffcdc4b87905e82b873bd73c53a4dbe69edac7"
+ },
+ "repo": "starlightjulie/TwinnDroid"
+}

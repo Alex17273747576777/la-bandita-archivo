@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-13",
+  "semantica_http": 200,
+  "ultima_release": "v2.0.0",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "西交 XJTU-STU 校园网（深澜 Srun）自动登录 / 保活 Android App · GPL-3.0 · 纯 Kotlin 协议引擎",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/triangle-github--xjtu-stu-login.json",
+  "sha256": "c8f00aeaf8d1cc0b2a0ccaeadce753b8aa23a438da41b29efcfcc0e89d81d636"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "triangle-github--xjtu-stu-login",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "xjtu-stu-login",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b30a16acad23fbfc9be07bf90b7da0967ff56482",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b30a16acad23fbfc9be07bf90b7da0967ff56482"
+ },
+ "repo": "Triangle-GitHub/xjtu-stu-login"
+}

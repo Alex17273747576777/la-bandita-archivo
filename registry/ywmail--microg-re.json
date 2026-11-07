@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-23",
+  "semantica_http": 200,
+  "ultima_release": "v7.1.1",
+  "ultimo_push": "2026-10-27"
+ },
+ "descripcion": "GmsCore fork for Morphe patched apps",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ywmail--microg-re.json",
+  "sha256": "bcf772c8365ba4f6651852b60d9611e20684625bb6c6a68791dcad8cdaa4af01"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ywmail--microg-re",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "MicroG-RE",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "db1ec7671df7996f6b91f9f7bc7fe4e348cec10f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:db1ec7671df7996f6b91f9f7bc7fe4e348cec10f"
+ },
+ "repo": "ywmail/MicroG-RE"
+}

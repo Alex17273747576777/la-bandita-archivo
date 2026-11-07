@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-25"
+ },
+ "descripcion": "Zangetsu is an anime and movie/series streaming app.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ramesh06033--zangetsu.json",
+  "sha256": "7904dc13769b95302aa5cc7dbe72d286ea1b07929465f6b216b3ee8ecf61cd7a"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ramesh06033--zangetsu",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "Zangetsu",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "946d00e4dae2bc6e6bb31142865a740b1903479a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:946d00e4dae2bc6e6bb31142865a740b1903479a"
+ },
+ "repo": "ramesh06033/Zangetsu"
+}

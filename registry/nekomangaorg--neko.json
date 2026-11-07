@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2019-04-22",
+  "semantica_http": 200,
+  "ultima_release": "v1.0-beta",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "Unofficial MangaDex Reader for Android 8+",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/nekomangaorg--neko.json",
+  "sha256": "f6752e13eebc6e336c890b95f4a474c08cee56c671c75a112f85db93c7971b3c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nekomangaorg--neko",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2821,
+  "stars_por_mes": null
+ },
+ "nombre": "Neko",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "28c567eca553c6b38ff57cb47f49f50448b37234",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:28c567eca553c6b38ff57cb47f49f50448b37234"
+ },
+ "repo": "nekomangaorg/Neko"
+}

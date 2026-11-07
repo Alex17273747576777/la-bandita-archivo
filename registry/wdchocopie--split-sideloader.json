@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-25",
+  "semantica_http": 200,
+  "ultima_release": "v1.5.0",
+  "ultimo_push": "2026-10-11"
+ },
+ "descripcion": "Install .xapk / .apkm / .apks split bundles on Android in one session and verify native libraries were registered",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/wdchocopie--split-sideloader.json",
+  "sha256": "9a49f414be1c5b588f5bd0385fa8cd0f172a7f03a63ef1385f9989b8ad6128ad"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "wdchocopie--split-sideloader",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "split-sideloader",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a73008405ee896a56890f74bb60a58db1ccabf79",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a73008405ee896a56890f74bb60a58db1ccabf79"
+ },
+ "repo": "wdchocopie/split-sideloader"
+}

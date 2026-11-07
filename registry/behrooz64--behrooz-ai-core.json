@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-18"
+ },
+ "descripcion": "A local-first personal AI agent that lives on your Android phone. Permanent memo",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/behrooz64--behrooz-ai-core.json",
+  "sha256": "daf65de8ee6bd566d8d73288e109bbff170b74b4e10394e67f50091840554f2a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "behrooz64--behrooz-ai-core",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Behrooz-AI-Core",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2cb004e7cd82243657dc8a069243a9f18c33a861",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2cb004e7cd82243657dc8a069243a9f18c33a861"
+ },
+ "repo": "behrooz64/Behrooz-AI-Core"
+}

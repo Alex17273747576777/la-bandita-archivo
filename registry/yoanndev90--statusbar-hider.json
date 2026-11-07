@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-26",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "Minimal Android app that hides the status bar system-wide",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/yoanndev90--statusbar-hider.json",
+  "sha256": "908b0307978a5b51b5537c2234d3c0fbdc9dc70215cd98b56286c2113a40ea0c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yoanndev90--statusbar-hider",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 6,
+  "stars_por_mes": null
+ },
+ "nombre": "StatusBar-Hider",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4fc5832be62c236e747225b53ab9f481046a49f0",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4fc5832be62c236e747225b53ab9f481046a49f0"
+ },
+ "repo": "YoannDev90/StatusBar-Hider"
+}

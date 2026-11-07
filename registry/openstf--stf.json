@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2016-01-04",
+  "semantica_http": 200,
+  "ultima_release": "v1.1.0",
+  "ultimo_push": "2023-05-31"
+ },
+ "descripcion": "Control and manage Android devices from your browser.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/openstf--stf.json",
+  "sha256": "507ebe7c9368d447da61bca9f5fd4bd406d4540b756042fd467b511fc7e1967c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "openstf--stf",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 13966,
+  "stars_por_mes": null
+ },
+ "nombre": "stf",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2b9649009722794dee9efd32b71bccbcbfe9d794",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:2b9649009722794dee9efd32b71bccbcbfe9d794"
+ },
+ "repo": "openstf/stf",
+ "web": "https://openstf.io"
+}

@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-01",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-10-19"
+ },
+ "descripcion": "Public Repo for Lite Flight",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/leobarua--liteflight.json",
+  "sha256": "7d380886da32a86885d8bb81a1d76bfb66334c47cfb701e5d934a10015cdf99c"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "leobarua--liteflight",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "liteflight",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c9681ce9eb6a28161fd314addcfc0283a1112190",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c9681ce9eb6a28161fd314addcfc0283a1112190"
+ },
+ "repo": "leobarua/liteflight",
+ "web": "https://leobarua.github.io/liteflight/"
+}

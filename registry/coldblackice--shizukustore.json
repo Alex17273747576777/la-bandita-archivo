@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-09"
+ },
+ "descripcion": "App store for Shizuku apps. Based on my awesome-shizuku list and installs APKs s",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/coldblackice--shizukustore.json",
+  "sha256": "1c71abf067b8d0e286655243a06c2c578d52016ccaab4559a8cddb90e14b097c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "coldblackice--shizukustore",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "ShizukuStore",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e7887dab7f7491df8da0045bc8de941b122ab610",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e7887dab7f7491df8da0045bc8de941b122ab610"
+ },
+ "repo": "Coldblackice/ShizukuStore"
+}

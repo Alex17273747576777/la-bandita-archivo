@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-29"
+ },
+ "descripcion": "All state — conversations, memory, config, credentials — is stored on your machi",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/hera-garra--garrarust.json",
+  "sha256": "b1768d4ac02e5fe33fc6e69e23caa8f9ba9f2464e505f60b4eff7b8f7a85d1cf"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hera-garra--garrarust",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "GarraRUST",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b4c45343e2c0cc1fd82f885c533dc48a3f80d3ce",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b4c45343e2c0cc1fd82f885c533dc48a3f80d3ce"
+ },
+ "repo": "hera-garra/GarraRUST"
+}

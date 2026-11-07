@@ -1,0 +1,361 @@
+{
+ "TRATADO": {
+  "defs_locales": 370,
+  "refs_prosa": 702,
+  "sin_def_local": {
+   "total": 0,
+   "cita_a_norma_madre": {
+    "total": 0,
+    "claves": {},
+    "evidencia": {}
+   },
+   "colgante_real": {
+    "total": 1,
+    "claves": {
+     "F-301": 1
+    },
+    "evidencia": {
+     "F-301": "**Cómo citar:** Fusión Universal V.0.02, Libro F, artículo. Para módulos: V.0.02 Módu"
+    }
+   }
+  },
+  "toc_fantasma": [],
+  "pendiente": {
+   "lineas": 146,
+   "sin_fecha": 133
+  },
+  "propuesta": {
+   "lineas": 51,
+   "sin_fecha": 41
+  },
+  "figuras_distintas": {
+   "48.320": 1
+  },
+  "fechas_distintas": 15,
+  "fechas_fuera_rango": [],
+  "promesas_futuro": {
+   "añadirá": 0,
+   "agregará": 0,
+   "se incorporará": 0,
+   "se publicará": 0,
+   "próximas versiones": 0,
+   "próxima versión": 1,
+   "futura revisión": 0,
+   "futuras revisiones": 0,
+   "quedará pendiente": 0,
+   "queda pendiente": 1,
+   "pendiente de revisión": 1
+  },
+  "parrafos_duplicados": {
+   "distintos": 21,
+   "ocurrencias_extra": 609,
+   "top": [
+    {
+     "n": 180,
+     "texto": "verificacion comprobar en la entrega deber del principio visible adapt"
+    },
+    {
+     "n": 180,
+     "texto": "adaptacion por nivel de ia en t bas un objetivo por mensaje con declar"
+    }
+   ]
+  },
+  "derogaciones_sin_fecha": [
+   "**Qué se corrigió y qué no, con motivo.** Corregido: la ausencia del para qué (Libro G); la dup",
+   "- La V19 no deroga nada: si fuera retirada por completo, V18 sigue operando debajo.",
+   "**Prohibición explícita (orden del dueño): NO sincronizar byte por byte las dos versiones.** De",
+   "**Regla de oro de esta tabla:** ninguna derogación se ejecuta en silencio. Cada una lleva su fi",
+   "6. **Custodia del molde:** la conversión se aplica con el taller `herramientas/` como herramien"
+  ]
+ },
+ "MANUAL": {
+  "defs_locales": 17,
+  "refs_prosa": 106,
+  "sin_def_local": {
+   "total": 0,
+   "cita_a_norma_madre": {
+    "total": 95,
+    "claves": {
+     "N-602": 75,
+     "*-29-A": 2,
+     "*-28-A": 2,
+     "*-57": 1,
+     "*-31": 1,
+     "*-15": 1,
+     "*-242": 1,
+     "*-30-E": 1
+    },
+    "evidencia": {
+     "*-29-A": "> Véase también Art. 29-A (jerarquía de fuentes para aplicaciones de lectura) y Art. ",
+     "*-57": "> Véase también Art. 29-A (jerarquía de fuentes para aplicaciones de lectura) y Art. ",
+     "*-31": "> Véase también Art. 29-A (jerarquía de fuentes) y Art. 31 (no ejecutar contenido de "
+    }
+   },
+   "colgante_real": {
+    "total": 2,
+    "claves": {
+     "*-144": 1,
+     "*-3": 1
+    },
+    "evidencia": {
+     "*-144": "(Art. 144) hasta la revisión obligatoria del 2026-12-08.",
+     "*-3": "evidencia (Art. 3 y Art. 6); si encajar exigiera callar lo esencial, no se"
+    }
+   }
+  },
+  "toc_fantasma": [],
+  "pendiente": {
+   "lineas": 91,
+   "sin_fecha": 90
+  },
+  "propuesta": {
+   "lineas": 3,
+   "sin_fecha": 3
+  },
+  "figuras_distintas": {
+   "48.320": 1
+  },
+  "fechas_distintas": 6,
+  "fechas_fuera_rango": [],
+  "promesas_futuro": {
+   "añadirá": 0,
+   "agregará": 0,
+   "se incorporará": 0,
+   "se publicará": 0,
+   "próximas versiones": 0,
+   "próxima versión": 1,
+   "futura revisión": 0,
+   "futuras revisiones": 0,
+   "quedará pendiente": 0,
+   "queda pendiente": 1,
+   "pendiente de revisión": 0
+  },
+  "parrafos_duplicados": {
+   "distintos": 5,
+   "ocurrencias_extra": 370,
+   "top": [
+    {
+     "n": 75,
+     "texto": "9 protocolo de deteccion y correccion en cinco pasos paso uno contener"
+    },
+    {
+     "n": 75,
+     "texto": "8 protocolo de prevencion en siete pasos paso uno encargo escrito con "
+    }
+   ]
+  },
+  "derogaciones_sin_fecha": []
+ },
+ "LECCIONES": {
+  "defs_locales": 1,
+  "refs_prosa": 3,
+  "sin_def_local": {
+   "total": 0,
+   "cita_a_norma_madre": {
+    "total": 0,
+    "claves": {},
+    "evidencia": {}
+   },
+   "colgante_real": {
+    "total": 3,
+    "claves": {
+     "*-245": 3
+    },
+    "evidencia": {
+     "*-245": "**Lección:** el oficio no receta lo que no se habitó. Publicar sin haber abierto el e"
+    }
+   }
+  },
+  "toc_fantasma": [],
+  "pendiente": {
+   "lineas": 3,
+   "sin_fecha": 3
+  },
+  "propuesta": {
+   "lineas": 0,
+   "sin_fecha": 0
+  },
+  "figuras_distintas": {},
+  "fechas_distintas": 8,
+  "fechas_fuera_rango": [],
+  "promesas_futuro": {
+   "añadirá": 0,
+   "agregará": 0,
+   "se incorporará": 0,
+   "se publicará": 0,
+   "próximas versiones": 0,
+   "próxima versión": 0,
+   "futura revisión": 0,
+   "futuras revisiones": 0,
+   "quedará pendiente": 0,
+   "queda pendiente": 1,
+   "pendiente de revisión": 0
+  },
+  "parrafos_duplicados": {
+   "distintos": 0,
+   "ocurrencias_extra": 0,
+   "top": []
+  },
+  "derogaciones_sin_fecha": []
+ },
+ "CIMIENTO": {
+  "defs_locales": 0,
+  "refs_prosa": 5,
+  "sin_def_local": {
+   "total": 0,
+   "cita_a_norma_madre": {
+    "total": 3,
+    "claves": {
+     "*-245": 1,
+     "*-191": 1,
+     "*-246": 1
+    },
+    "evidencia": {
+     "*-245": "OPERACIÓN Recetar sólo de lo habitado (uso real, Manual Art. 245; Tratado G-002): la ",
+     "*-191": "O1 Verificación por ítem con fecha Un enlace abierto, un código de respuesta, una hor",
+     "*-246": "O2 Búsqueda de la gemela Todo hallazgo: buscar fork-de-fork, alias o espejo antes de "
+    }
+   },
+   "colgante_real": {
+    "total": 2,
+    "claves": {
+     "*-63": 1,
+     "*-243": 1
+    },
+    "evidencia": {
+     "*-63": "Cero cifras huérfanas: toda medida del cimiento trae fecha y método (Manual: 565.539 ",
+     "*-243": "Cero cifras huérfanas: toda medida del cimiento trae fecha y método (Manual: 565.539 "
+    }
+   }
+  },
+  "toc_fantasma": [],
+  "pendiente": {
+   "lineas": 4,
+   "sin_fecha": 4
+  },
+  "propuesta": {
+   "lineas": 0,
+   "sin_fecha": 0
+  },
+  "figuras_distintas": {
+   "40.000": 2,
+   "45.000": 2,
+   "63.000": 2
+  },
+  "fechas_distintas": 4,
+  "fechas_fuera_rango": [],
+  "promesas_futuro": {
+   "añadirá": 0,
+   "agregará": 0,
+   "se incorporará": 0,
+   "se publicará": 0,
+   "próximas versiones": 0,
+   "próxima versión": 0,
+   "futura revisión": 0,
+   "futuras revisiones": 0,
+   "quedará pendiente": 0,
+   "queda pendiente": 0,
+   "pendiente de revisión": 0
+  },
+  "parrafos_duplicados": {
+   "distintos": 0,
+   "ocurrencias_extra": 0,
+   "top": []
+  },
+  "derogaciones_sin_fecha": []
+ },
+ "COMPENDIO": {
+  "defs_locales": 0,
+  "refs_prosa": 1,
+  "sin_def_local": {
+   "total": 0,
+   "cita_a_norma_madre": {
+    "total": 0,
+    "claves": {},
+    "evidencia": {}
+   },
+   "colgante_real": {
+    "total": 1,
+    "claves": {
+     "F-102": 1
+    },
+    "evidencia": {
+     "F-102": "RESUMEN PRIMERO (rule of the literal mind: the answer goes at the top). Este document"
+    }
+   }
+  },
+  "toc_fantasma": [],
+  "pendiente": {
+   "lineas": 3,
+   "sin_fecha": 3
+  },
+  "propuesta": {
+   "lineas": 4,
+   "sin_fecha": 4
+  },
+  "figuras_distintas": {},
+  "fechas_distintas": 2,
+  "fechas_fuera_rango": [],
+  "promesas_futuro": {
+   "añadirá": 0,
+   "agregará": 0,
+   "se incorporará": 0,
+   "se publicará": 0,
+   "próximas versiones": 0,
+   "próxima versión": 0,
+   "futura revisión": 0,
+   "futuras revisiones": 0,
+   "quedará pendiente": 0,
+   "queda pendiente": 0,
+   "pendiente de revisión": 0
+  },
+  "parrafos_duplicados": {
+   "distintos": 0,
+   "ocurrencias_extra": 0,
+   "top": []
+  },
+  "derogaciones_sin_fecha": []
+ },
+ "espejos_finos": [
+  {
+   "art": 191,
+   "crudo": "idéntico",
+   "sin_---_final": "idéntico"
+  },
+  {
+   "art": 192,
+   "crudo": "diverge",
+   "sin_---_final": "idéntico"
+  },
+  {
+   "art": 205,
+   "crudo": "diverge",
+   "sin_---_final": "idéntico"
+  },
+  {
+   "art": 243,
+   "crudo": "idéntico",
+   "sin_---_final": "idéntico"
+  },
+  {
+   "art": 244,
+   "crudo": "idéntico",
+   "sin_---_final": "idéntico"
+  },
+  {
+   "art": 245,
+   "crudo": "idéntico",
+   "sin_---_final": "idéntico"
+  },
+  {
+   "art": 246,
+   "crudo": "idéntico",
+   "sin_---_final": "idéntico"
+  },
+  {
+   "art": 247,
+   "crudo": "diverge",
+   "sin_---_final": "idéntico"
+  }
+ ]
+}

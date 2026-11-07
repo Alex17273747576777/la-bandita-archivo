@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-07-27",
+  "semantica_http": 200,
+  "ultima_release": "1.4",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "A lightweight yet powerful package installer for Android.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/vvb2060--packageinstaller.json",
+  "sha256": "bacdde4a00823824307cc3bd789931abbb7c049057c52cf01f7879de73016fe8"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "vvb2060--packageinstaller",
+ "licencia": {
+  "archivo": "README (texto completo)",
+  "metodo": "texto-license",
+  "nota": "licencia declarada por el proyecto en su propio README; el endpoint de GitHub no la clasifica",
+  "spdx": "mit",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 730,
+  "stars_por_mes": null
+ },
+ "nombre": "PackageInstaller",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a43b37a22493969be2c8161f3e0551bd462b0d30",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a43b37a22493969be2c8161f3e0551bd462b0d30"
+ },
+ "repo": "vvb2060/PackageInstaller"
+}

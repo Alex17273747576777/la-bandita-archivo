@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-13",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0-grim.2",
+  "ultimo_push": "2026-09-14"
+ },
+ "descripcion": "GrimCore — personal on-device Android AI agent. Fork of omnimind-ai/OmniBot (AGP",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mishaqp--grimcore.json",
+  "sha256": "a5619b345f77826bd56c0e48673eac7d2659683cde3d7a318d1134eb8adfd919"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mishaqp--grimcore",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "GrimCore",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "54aeae8046a4f3bcf0fccc1ca30713722a81d863",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:54aeae8046a4f3bcf0fccc1ca30713722a81d863"
+ },
+ "repo": "mishaqp/GrimCore"
+}

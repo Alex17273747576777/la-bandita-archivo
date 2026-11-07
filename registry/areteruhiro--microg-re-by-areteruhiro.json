@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-18",
+  "semantica_http": 200,
+  "ultima_release": "6.1.4",
+  "ultimo_push": "2026-07-23"
+ },
+ "descripcion": "GmsCore fork for Morphe patched apps",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/areteruhiro--microg-re-by-areteruhiro.json",
+  "sha256": "10d58c9df147b755e53e027fa8a2ff3dcf3b716014a077b9dd8c5272c61db1e0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "areteruhiro--microg-re-by-areteruhiro",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "MicroG-RE-by-areteruhiro",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d8df10ab687a1c1ca05221634cfa46bad262023a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d8df10ab687a1c1ca05221634cfa46bad262023a"
+ },
+ "repo": "areteruhiro/MicroG-RE-by-areteruhiro"
+}

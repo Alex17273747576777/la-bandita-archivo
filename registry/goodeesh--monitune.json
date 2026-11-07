@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-25",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-27"
+ },
+ "descripcion": "Tune your Android display for external monitors. Resolution, UI scale and force landscape via Shizuku/root. Display only, no audio.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/goodeesh--monitune.json",
+  "sha256": "ddc93e3f4e6dca347415118e405f120fb6b37325f219f0f21b9ef028de3d76c0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "goodeesh--monitune",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 9,
+  "stars_por_mes": null
+ },
+ "nombre": "monitune",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1e5ec297bc1ba9964f0c7f53d5375c51dab6108a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:1e5ec297bc1ba9964f0c7f53d5375c51dab6108a"
+ },
+ "repo": "goodeesh/monitune"
+}

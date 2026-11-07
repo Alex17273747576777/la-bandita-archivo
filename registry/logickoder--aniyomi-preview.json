@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2022-08-25"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/logickoder--aniyomi-preview.json",
+  "sha256": "75de6196174646dc0c9622d53cd7447aee66d7c1f8301c5d38ea85058f9fb0f0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "logickoder--aniyomi-preview",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "aniyomi-preview",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "501aacffb18867e924c6c18ef2792bc4ef7a1257",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:501aacffb18867e924c6c18ef2792bc4ef7a1257"
+ },
+ "repo": "logickoder/aniyomi-preview"
+}

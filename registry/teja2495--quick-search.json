@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-12-12",
+  "semantica_http": 200,
+  "ultima_release": "1.0",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Universal search app for Android which can search apps, shortcuts, contacts, files, calendar events, notes, settings and the internet.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/teja2495--quick-search.json",
+  "sha256": "cb483faf8892215655bed485494e7103fe751f1be05a5ac9b73414b5549dd5f4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "teja2495--quick-search",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 620,
+  "stars_por_mes": null
+ },
+ "nombre": "quick-search",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f7416c01fee9caf2946ee466d87c09b428d07365",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:f7416c01fee9caf2946ee466d87c09b428d07365"
+ },
+ "repo": "teja2495/quick-search"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2020-02-27",
+  "semantica_http": 200,
+  "ultima_release": "0.3.3",
+  "ultimo_push": "2026-10-15"
+ },
+ "descripcion": "Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/alphacep--vosk-api.json",
+  "sha256": "4efc92aaf5ca0125c5186e2c94a12f99d1075dfbf1e46b813859b5c9e17fcf55"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "alphacep--vosk-api",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 15224,
+  "stars_por_mes": null
+ },
+ "nombre": "vosk-api",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4ab9821510b488efb7740094714a130bd3545e90",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4ab9821510b488efb7740094714a130bd3545e90"
+ },
+ "repo": "alphacep/vosk-api"
+}

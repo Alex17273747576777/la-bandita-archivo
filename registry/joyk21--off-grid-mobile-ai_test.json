@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-20"
+ },
+ "descripcion": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy F",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/joyk21--off-grid-mobile-ai_test.json",
+  "sha256": "2a45dc0aad796325dd5d25dc06f67036012c735ea79f56d0e5939b57cc29b8fe"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "joyk21--off-grid-mobile-ai_test",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "off-grid-mobile-ai_test",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4e1ca928032d6b68e0785fd82e93208a3179f4ea",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4e1ca928032d6b68e0785fd82e93208a3179f4ea"
+ },
+ "repo": "joyk21/off-grid-mobile-ai_test"
+}

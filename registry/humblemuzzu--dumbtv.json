@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2026-11-03",
+  "semantica_http": 200,
+  "ultima_release": "launcher-v1.7",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen.",
+ "evidencia": {
+  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
+  "payload_ref": "ficha profunda del 2026-11-03",
+  "sha256": "2447a63610c8924e011a153395000521fb563937ef60d58245ada58aa2411152"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "nodo REST + GraphQL el 3-nov-2026, con README y LICENSE leídos en crudo",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "humblemuzzu--dumbtv",
+ "licencia": {
+  "archivo": "MIT License\n\nCopyright (c) 2026 dumbtv contributors\n\nPermission is hereby granted, free of charge, to any person obtaini",
+  "metodo": "ausencia-firmada",
+  "nota": "la API no reconoce la licencia (NOASSERTION); el archivo del repositorio sí la declara y se transcribe",
+  "spdx": null,
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1903,
+  "stars_por_mes": null
+ },
+ "nombre": "dumbtv",
+ "piezas": [
+  "01"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "865488fc333e31562b1b8d03ac2fd45187f7ab2a",
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
+  "swhid": "swh:1:rev:865488fc333e31562b1b8d03ac2fd45187f7ab2a"
+ },
+ "repo": "humblemuzzu/dumbtv"
+}

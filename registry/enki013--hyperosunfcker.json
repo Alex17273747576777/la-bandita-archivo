@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-02",
+  "semantica_http": 200,
+  "ultima_release": "1.0.0",
+  "ultimo_push": "2026-07-21"
+ },
+ "descripcion": "HyperOS Optimizer Android app (Shizuku-based HyperOS tuning and debloat)",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/enki013--hyperosunfcker.json",
+  "sha256": "ccdf3717b6210cd8f440329ffd3f7cf616dc07ceab58a4b0c9ca51b7204ca5b2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "enki013--hyperosunfcker",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "LGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 86,
+  "stars_por_mes": null
+ },
+ "nombre": "hyperosunfcker",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ca1ddf470f5780739b68d58019d956ede4adf753",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:ca1ddf470f5780739b68d58019d956ede4adf753"
+ },
+ "repo": "Enki013/hyperosunfcker"
+}

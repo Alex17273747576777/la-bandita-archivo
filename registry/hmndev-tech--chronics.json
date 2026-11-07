@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-29",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0-beta01",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Chronics — a local Android notification archive with full-text capture, filters, and Downloads export",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/hmndev-tech--chronics.json",
+  "sha256": "09d55671da0bc9e15a452add6c5af406f6960d3f1943e30778339c22e805e454"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hmndev-tech--chronics",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "chronics",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "6a1517be4d8e66fed852f676f69859459ea0c605",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:6a1517be4d8e66fed852f676f69859459ea0c605"
+ },
+ "repo": "HmnDev-Tech/chronics"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-26"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/glpc-blaze--anizen.json",
+  "sha256": "e327ff3ec7e618dc2e5228af8d67e67afffca91cc1bda4e9b034939e0274378d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "glpc-blaze--anizen",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "AniZen",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0bc6a491e68c99ab2a63798d1ed407bae72e683f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:0bc6a491e68c99ab2a63798d1ed407bae72e683f"
+ },
+ "repo": "glpc-blaze/AniZen"
+}

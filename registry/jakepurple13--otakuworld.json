@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2021-04-05",
+  "semantica_http": 200,
+  "ultima_release": "1.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Anime Watcher, Manga Reader, and Novel Reader as three separate apps, same UI",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jakepurple13--otakuworld.json",
+  "sha256": "0e5b071de2ebd57dab0bf52058b119fcd3e5b1d2340762427351afd7948a3895"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jakepurple13--otakuworld",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 637,
+  "stars_por_mes": null
+ },
+ "nombre": "OtakuWorld",
+ "piezas": [
+  "41-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "cd6a0dd87f74fc7a463b0437e9f446f95c773a6c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:cd6a0dd87f74fc7a463b0437e9f446f95c773a6c"
+ },
+ "repo": "jakepurple13/OtakuWorld"
+}

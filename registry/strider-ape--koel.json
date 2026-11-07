@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-12",
+  "semantica_http": 200,
+  "ultima_release": "v0.5.0",
+  "ultimo_push": "2026-10-12"
+ },
+ "descripcion": "call-recorder-poco-m4-pro-4g-miel",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/strider-ape--koel.json",
+  "sha256": "5112fb6c4fadce20c569a0a4fd27e989a3123c62901883f846f106132ed059da"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "strider-ape--koel",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "Koel",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b6b24d640da66be75e2d163c8b99342aad4e7f36",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b6b24d640da66be75e2d163c8b99342aad4e7f36"
+ },
+ "repo": "strider-ape/Koel"
+}

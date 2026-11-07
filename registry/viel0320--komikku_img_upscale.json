@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-13",
+  "semantica_http": 200,
+  "ultima_release": "r10647",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "Free and open source manga reader for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/viel0320--komikku_img_upscale.json",
+  "sha256": "dd4f67e3da8ca3bdb49bb4d09a8c48d0c339e82e31eba4e9140f8d9d4da3a87d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "viel0320--komikku_img_upscale",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 9,
+  "stars_por_mes": null
+ },
+ "nombre": "komikku_img_upscale",
+ "piezas": [
+  "16-",
+  "38-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "503f53a1a60d0f7558f349e31ebb4ae19feaaea1",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:503f53a1a60d0f7558f349e31ebb4ae19feaaea1"
+ },
+ "repo": "Viel0320/komikku_img_upscale"
+}

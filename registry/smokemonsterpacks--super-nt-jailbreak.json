@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2018-02-15",
+  "semantica_http": 200,
+  "ultima_release": "v6.4",
+  "ultimo_push": "2023-07-11"
+ },
+ "descripcion": "Custom \"Jailbreak\" firmware for the Analogue Super NT",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/smokemonsterpacks--super-nt-jailbreak.json",
+  "sha256": "e61271d8722307ed1f7f638abe5ce0fc09d55cc3743625163e7e80adee6013dd"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "smokemonsterpacks--super-nt-jailbreak",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 664,
+  "stars_por_mes": null
+ },
+ "nombre": "Super-NT-Jailbreak",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8476c30e50657be759b2149103c6c97bca98949d",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:8476c30e50657be759b2149103c6c97bca98949d"
+ },
+ "repo": "SmokeMonsterPacks/Super-NT-Jailbreak"
+}

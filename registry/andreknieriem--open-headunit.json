@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-12-03",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Headunit App for displaying Android Auto",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/andreknieriem--open-headunit.json",
+  "sha256": "8b3d27fed0625849fbe253a47292d82d508fd3e600ebc8c5b167e0d6bb9c1058"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "andreknieriem--open-headunit",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3163,
+  "stars_por_mes": null
+ },
+ "nombre": "open-headunit",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "667346188bee1c50f300e245f373d13942fbd220",
+  "swh_estado": "sin archivo (HTTP 429)",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:667346188bee1c50f300e245f373d13942fbd220"
+ },
+ "repo": "andreknieriem/open-headunit",
+ "web": "https://headunit.andrerinas.com/"
+}

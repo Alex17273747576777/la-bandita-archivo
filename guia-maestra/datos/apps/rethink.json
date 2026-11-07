@@ -1,0 +1,75 @@
+{
+ "id": "rethink",
+ "nombre": "Rethink",
+ "repo": "celzero/rethink-app",
+ "autores": [
+  {
+   "nombre": "celzero",
+   "enlace": "https://github.com/celzero"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/celzero/rethink-app/blob/main/LICENSE"
+ },
+ "nivel": "intermedio",
+ "tarea": "Tener en una sola aplicación el resolutor de nombres cifrado, las listas de bloqueo y las reglas por aplicación que deciden qué puede salir a internet y cuándo.",
+ "capitulo": 5,
+ "orden": 3,
+ "para_quien": {
+  "es": "para quien quiere decidir con precisión: qué aplicación sale, por qué red, con qué resolutor cifrado y con qué reglas que cambian según la pantalla esté encendida o apagada.",
+  "no_es": "para quien quiere instalar y olvidarse: la cantidad de ajustes es enorme y está pensada para alguien que disfruta configurando."
+ },
+ "manos": [
+  "Bajá la APK del sabor que corresponda a tu caso y comprobá que la huella de su certificado coincide con la que el proyecto publica para ese sabor en su presentación.",
+  "Al abrirla, elegí el modo: sólo DNS, sólo cortafuegos, o los dos con el túnel; cada modo cambia lo que la aplicación puede ver y lo que puede cortar.",
+  "Configurá el resolutor cifrado —por HTTPS, por TLS o por DNSCrypt— y activá una lista de bloqueo moderada antes de pasar a las agresivas.",
+  "Añadí reglas por aplicación: dejá pasar banca y mensajería siempre, y bloqueá las que no usás cuando la pantalla está apagada.",
+  "Exportá la configuración a un archivo y guardala fuera del teléfono: reinstalar el teléfono y recuperar estas reglas a mano lleva una tarde."
+ ],
+ "resultado_esperado": "Todo el tráfico de nombres del teléfono pasa por el resolutor que elegiste, con listas de bloqueo activas y reglas por aplicación que se cumplen aunque el teléfono esté en otra red.",
+ "si_sale_mal": [
+  "Si el teléfono se queda sin internet, revisá la regla de bloqueo por omisión: en modo cortafuegos, lo que no está permitido no pasa.",
+  "Si las notificaciones dejan de llegar, permití de nuevo los servicios del sistema que habías cortado; los avisos pasan por conexiones que parecen secundarias.",
+  "Si el sabor que instalaste no es el que corresponde a tu canal, la actualización va a fallar con un error de firma: el proyecto publica tres certificados distintos para tres canales."
+ ],
+ "deshacer": "Desactivar el túnel desde la aplicación devuelve el teléfono a su estado anterior, y desinstalarla no modifica ninguna configuración del sistema. Las reglas exportadas quedan en el archivo que hayas guardado, fuera del teléfono.",
+ "cabeza": [
+  "Rethink hace tres trabajos que suelen venir en tres aplicaciones distintas: es cliente de túneles, es resolutor de nombres cifrado y es cortafuegos por aplicación. Los tres usan el mismo túnel local, lo que resuelve de raíz el problema del capítulo —sólo hay un túnel disponible— y explica por qué esta aplicación puede convivir con lo que otras no.",
+  "El modo más interesante para quien quiera aprender es el de reglas por eventos: permitir o negar según la pantalla esté encendida o apagada, según la aplicación esté en primer plano o en segundo, según la red sea medida o no. Esas reglas describen con precisión cómo se comporta una aplicación moderna —que trabaja en segundo plano justamente cuando no la estás mirando— y permiten cortar por ahí sin cortar la aplicación entera.",
+  "Su coste es la complejidad: seiscientos cincuenta y ocho incidencias abiertas, ochenta y dos megas de repositorio y una pantalla de ajustes que abruma. Es una herramienta excelente y una mala primera aplicación; por eso va tercera en este capítulo y no primera."
+ ],
+ "limites": [
+  "Demasiados ajustes para quien empieza: una configuración a medias puede dejar el teléfono sin internet sin explicar por qué.",
+  "Ocupa el túnel del sistema: si usás otra red privada, tiene que ser a través de esta aplicación o no puede estar activa.",
+  "Publica tres sabores con tres certificados distintos; mezclarlos obliga a desinstalar para actualizar.",
+  "Sus listas de bloqueo necesitan actualización periódica: una lista vieja bloquea lo que ya no molesta."
+ ],
+ "oficio": {
+  "dato": "En su propia presentación, Rethink publica tres huellas de certificado distintas: una para el sabor que distribuye en la tienda de Google y en su sitio, otra para el sabor de IzzyOnDroid y otra para el sabor alfa que compila GitHub en cada noche. Es la misma aplicación, con el mismo nombre de paquete, firmada por tres llaves diferentes según el canal. Y no es un descuido: es la consecuencia normal de tener canales separados, y es la razón por la que Android se niega a actualizar de un canal a otro. Casi ningún proyecto documenta esto; este lo escribe en la primera pantalla de su repositorio, con el número al lado para que puedas comprobarlo antes de instalar. Si te bajaste la versión de un canal y te pasaste al otro, el error de firma no es un fallo: es la advertencia funcionando.",
+  "como_comprobar": "Bajá la APK del sabor que tengas instalado y pedile su certificado al verificador. Compará el número con los tres que el proyecto publica; el que coincida te dice de qué canal salió el archivo que tenés en la mano, sin instalar nada.",
+  "comando": "apksigner verify --print-certs rethink-70-arm64-v8a.apk | grep -i sha-256"
+ },
+ "riesgos": [
+  "Configurar el cortafuegos en modo restrictivo y quedarse sin internet sin entender qué regla lo está cortando.",
+  "Mezclar sabores de distintos canales y descubrir, al actualizar, que hay que desinstalar y perder la configuración."
+ ],
+ "alternativas": [
+  "M66B/NetGuard",
+  "TrackerControl/tracker-control-android"
+ ],
+ "senal": {
+  "estrellas": 5845,
+  "nota": 62,
+  "edad_dias": 2340,
+  "ultima_entrega": "2026-10-13",
+  "descargas_10": 147318,
+  "contribuyentes": 100,
+  "repo_mb": 82.2,
+  "ci": 5,
+  "incidencias": "649 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de celzero y su comunidad · Apache-2.0 · medido el 3 de noviembre de 2026"
+}

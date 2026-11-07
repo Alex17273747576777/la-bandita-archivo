@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-01-30"
+ },
+ "descripcion": "It's a Virtual Machine App for Android Which is Based on QEMU",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/easyhost-os--vectras-vm-android-motorola.json",
+  "sha256": "d0b4470fa550ab21628ce5bdff4dd646d24cc934e9f42c08664ff96f216e8c76"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "easyhost-os--vectras-vm-android-motorola",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Vectras-VM-Android-Motorola",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f39e6915aecbae9d3c49f61064638d5c1708dd06",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f39e6915aecbae9d3c49f61064638d5c1708dd06"
+ },
+ "repo": "easyhost-os/Vectras-VM-Android-Motorola"
+}

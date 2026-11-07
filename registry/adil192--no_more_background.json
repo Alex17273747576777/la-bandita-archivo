@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-12-07",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "A fire-and-forget program to stop Android apps from running in the background.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/adil192--no_more_background.json",
+  "sha256": "fd8c98b4d8f4a94641363475e1bf69179c13109c6ae9af215d8cb809dd764b7a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "adil192--no_more_background",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 386,
+  "stars_por_mes": null
+ },
+ "nombre": "no_more_background",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "095fa601ca6fdb58dd1ad07be7e622881815a057",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:095fa601ca6fdb58dd1ad07be7e622881815a057"
+ },
+ "repo": "adil192/no_more_background",
+ "web": "https://flathub.org/apps/com.adilhanney.no_more_background"
+}

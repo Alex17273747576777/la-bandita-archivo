@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2021-12-27",
+  "semantica_http": 200,
+  "ultima_release": "Beta-1.0.0",
+  "ultimo_push": "2026-10-25"
+ },
+ "descripcion": "DataBackup for Android 7.0+",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/xayahsususu--android-databackup.json",
+  "sha256": "016bd2c73f5fedaba25ef001ecea02899391e19353fc0e63dda73a33ccd91d90"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "xayahsususu--android-databackup",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 7555,
+  "stars_por_mes": null
+ },
+ "nombre": "Android-DataBackup",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0c413bd3068ea036753704652ce8baad889f82e2",
+  "swh_estado": "archivada",
+  "swh_solicitud": "0c413bd3068ea036753704652ce8baad889f82e2",
+  "swhid": "swh:1:rev:0c413bd3068ea036753704652ce8baad889f82e2"
+ },
+ "repo": "XayahSuSuSu/Android-DataBackup",
+ "web": "https://DataBackupOfficial.github.io"
+}

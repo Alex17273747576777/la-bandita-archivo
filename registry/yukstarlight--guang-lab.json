@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-11-03",
+  "semantica_http": 200,
+  "ultima_release": "v1.23",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "光 · 实验室 — 终极 Android 工具箱：Shizuku / 无线调试 ADB / Root 三通道 shell 直写，一键授权、冻结卸载、任意命令。GPL-3.0",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/yukstarlight--guang-lab.json",
+  "sha256": "4cbb2e77aa2a7f87317b213b971bde0ae45472f9d36b6752d1c47d9af132e2dd"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yukstarlight--guang-lab",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "guang-lab",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "009b59f822ce794551b46db334831f4850858bfc",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:009b59f822ce794551b46db334831f4850858bfc"
+ },
+ "repo": "Yukstarlight/guang-lab",
+ "web": "https://nekotype.top/starlight/"
+}

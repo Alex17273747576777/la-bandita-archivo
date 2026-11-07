@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-15",
+  "semantica_http": 200,
+  "ultima_release": "v1.3",
+  "ultimo_push": "2026-10-15"
+ },
+ "descripcion": "SwiftSense is a rootless Android optimization suite: built-in wireless ADB, APK/XAPK installer, 200Hz+ sensor boost, AMOLED display protection, background app stopper, and system macros in a modern Material 3 UI.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/itsmelissadev--swiftsense.json",
+  "sha256": "e011cd6f8093fbfc7e17d953127665ff17f83d002134dc437f33281c0142b9be"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "itsmelissadev--swiftsense",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 45,
+  "stars_por_mes": null
+ },
+ "nombre": "SwiftSense",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9db9564f0edfbe2b83f0ed390c80e9fcfd3bd915",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:9db9564f0edfbe2b83f0ed390c80e9fcfd3bd915"
+ },
+ "repo": "itsmelissadev/SwiftSense"
+}

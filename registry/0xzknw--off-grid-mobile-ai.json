@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2026-03-05",
+  "semantica_http": 200,
+  "ultima_release": "v0.0.67",
+  "ultimo_push": "2026-03-05"
+ },
+ "descripcion": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy F",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/0xzknw--off-grid-mobile-ai.json",
+  "sha256": "3d6ec203c3456dc050dcd82766ec625fe0ad76f9b4321dfdce486e8a6e176224"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "0xzknw--off-grid-mobile-ai",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "off-grid-mobile-ai",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0ced46f53120ff379ad9e0b7e712c4053a82a1b1",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:0ced46f53120ff379ad9e0b7e712c4053a82a1b1"
+ },
+ "repo": "0xZKnw/off-grid-mobile-ai"
+}

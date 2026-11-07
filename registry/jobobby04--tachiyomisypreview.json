@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2020-05-10",
+  "semantica_http": 200,
+  "ultima_release": "4",
+  "ultimo_push": "2026-10-28"
+ },
+ "descripcion": "A download host for TachiyomiSY Preview builds",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jobobby04--tachiyomisypreview.json",
+  "sha256": "a9ed0476850bb5ac9254ed958186376030e874f8e90e43a8abbf345c8c85973a"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jobobby04--tachiyomisypreview",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 491,
+  "stars_por_mes": null
+ },
+ "nombre": "TachiyomiSYPreview",
+ "piezas": [
+  "16-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b5f2238561589cd9d8dbdf1402371a4f05390b94",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b5f2238561589cd9d8dbdf1402371a4f05390b94"
+ },
+ "repo": "jobobby04/TachiyomiSYPreview"
+}

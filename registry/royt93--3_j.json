@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-10-05"
+ },
+ "descripcion": "A cross-platform app made for e-hentai & exhentai by Flutter",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/royt93--3_j.json",
+  "sha256": "4d78c40f9492e887ff21827aebef508cb6c4f8e9c8d13ab8a94f1c7fec2557a5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "royt93--3_j",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "3_J",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3c8452a66d150e4968389af21bc5517d8cb7f999",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3c8452a66d150e4968389af21bc5517d8cb7f999"
+ },
+ "repo": "royt93/3_J"
+}

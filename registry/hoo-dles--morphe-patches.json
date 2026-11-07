@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-01-22",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "🍃 Human-made patches for Morphe",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/hoo-dles--morphe-patches.json",
+  "sha256": "1c577f44c06f889e8f56775945c2a9d01c2fc1b6bd108d28c5d8c96e3ab639cc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hoo-dles--morphe-patches",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1302,
+  "stars_por_mes": null
+ },
+ "nombre": "morphe-patches",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e9c942640130c809fcb908332bf7dc56d59cf86f",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:e9c942640130c809fcb908332bf7dc56d59cf86f"
+ },
+ "repo": "hoo-dles/morphe-patches"
+}

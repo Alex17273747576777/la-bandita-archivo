@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2023-05-07"
+ },
+ "descripcion": "App đọc truyện tranh Hentai vn",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/yushichivnllc--hentai-vn.json",
+  "sha256": "653470de645087d413b690461020bb96aa0222a1cf43dd2265c024b8f4bd6f33"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yushichivnllc--hentai-vn",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Hentai-VN",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "86aa70522edec17f7632d92a7c91e512d4116483",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:86aa70522edec17f7632d92a7c91e512d4116483"
+ },
+ "repo": "yushichivnllc/Hentai-VN"
+}

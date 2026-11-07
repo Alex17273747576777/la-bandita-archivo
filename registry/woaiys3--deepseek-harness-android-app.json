@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "muerto",
+  "release_en": null,
+  "semantica_http": 404,
+  "ultima_release": null,
+  "ultimo_push": null
+ },
+ "descripcion": "repositorio no encontrado al medir (HTTP 404)",
+ "evidencia": {
+  "nota": "no hay payload que guardar: la ausencia es el dato",
+  "payload_ref": "respuesta 404 de la API",
+  "sha256": "b4ce8c7f67a962f9d3b215f06812580adfbc5e2915195ac3f9a3060c5b7a2ae8"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-11-03",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos devolvió 404: el repositorio no existe o fue retirado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "woaiys3--deepseek-harness-android-app",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": null,
+  "stars_por_mes": null
+ },
+ "nombre": "deepseek-harness-android-app",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": null,
+  "swhid": null
+ },
+ "repo": "woaiys3/deepseek-harness-android-app"
+}

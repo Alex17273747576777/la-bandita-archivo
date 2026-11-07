@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-19"
+ },
+ "descripcion": "Get Android app updates straight from the source. And install it any way you wan",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/sedwin9288--obtainx.json",
+  "sha256": "da1c671e5090e740a84f0bee294972916ccbaa3bd45aaedfd0a75a05c8d99b07"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sedwin9288--obtainx",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "ObtainX",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9eeaafc49ca115c5b662efe5752c5f296bc61a47",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9eeaafc49ca115c5b662efe5752c5f296bc61a47"
+ },
+ "repo": "Sedwin9288/ObtainX"
+}

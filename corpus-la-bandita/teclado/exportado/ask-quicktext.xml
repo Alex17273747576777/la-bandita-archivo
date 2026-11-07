@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Fragmento para un add-on de QuickText de AnySoftKeyboard.
+     El esquema es el de ime/addons/quick_text/res/xml/quick_text_keys.xml.
+     Para instalarlo hay que compilar el add-on: no se puede soltar suelto. -->
+<QuickTextKeys>
+    <QuickTextKey
+        id="rev_quick_text_key"
+        keyLabel="rev"
+        keyOutputText="Revisa este código como si fueras a aprobar un cambio en producción. Ordena los hallazgos por gravedad. Para cada uno: archivo y línea, qué se rompe en un caso real, y el parche mínimo. Devuelve solo la lista; si no hay nada grave, dilo y señala las dos cosas que no se pueden comprobar sin ejecutar."
+        description="Revisión de código"
+        index="1"/>
+    <QuickTextKey
+        id="pr_quick_text_key"
+        keyLabel="pr"
+        keyOutputText="Escribe el mensaje de un pull request en tres partes: qué cambia en una frase, por qué hacía falta con la evidencia que tengas, y cómo comprobarlo paso a paso desde un clon limpio. Sin adjetivos. Si falta un dato, escribe FALTA y qué haría falta para tenerlo."
+        description="Mensaje de PR"
+        index="2"/>
+    <QuickTextKey
+        id="bug_quick_text_key"
+        keyLabel="bug"
+        keyOutputText="Convierte esto en un informe de error reproducible: versión y sistema, pasos numerados que fallan, resultado esperado, resultado obtenido y la primera línea del registro que lo delata. Devuelve solo el informe. Si falta la versión, escribe FALTA en vez de suponerla."
+        description="Informe de error"
+        index="3"/>
+    <QuickTextKey
+        id="sql_quick_text_key"
+        keyLabel="sql"
+        keyOutputText="Escribe la consulta con este esquema, sin suponer columnas que no estén. Di qué motor asumes. Devuelve solo la consulta y, debajo, una línea con lo que devuelve y qué pasa con los nulos. Si el esquema no permite resolverlo, dilo antes de escribir SQL."
+        description="Consulta SQL"
+        index="4"/>
+    <QuickTextKey
+        id="test_quick_text_key"
+        keyLabel="test"
+        keyOutputText="Escribe las pruebas mínimas que detectarían un error real en este código: tres casos normales, dos de borde y uno que debería fallar. Devuelve solo las pruebas, cada una con una línea que diga qué error detecta y por qué no lo detectaría una prueba ingenua."
+        description="Pruebas mínimas"
+        index="5"/>
+    <QuickTextKey
+        id="seg_quick_text_key"
+        keyLabel="seg"
+        keyOutputText="Revisa esto buscando secretos embebidos, permisos de más, datos sin validar, dependencias sin fijar y salidas que se confían. Devuelve solo la lista: línea, escenario de abuso más simple y arreglo. Si no hay nada, dilo y marca lo que no se puede ver sin ejecutar."
+        description="Revisión de seguridad"
+        index="6"/>
+    <QuickTextKey
+        id="git_quick_text_key"
+        keyLabel="git"
+        keyOutputText="Da el comando exacto para volver al estado que quiero desde este estado de git. Devuelve solo los comandos, y debajo: qué se pierde al ejecutarlos y cómo comprobar antes que son los correctos. Si hay riesgo de perder trabajo sin copia, empieza por el comando de copia de seguridad."
+        description="Rescate de git"
+        index="7"/>
+    <QuickTextKey
+        id="lic_quick_text_key"
+        keyLabel="lic"
+        keyOutputText="Separa, con esta licencia y este uso: si puedo reutilizar el código, qué obligaciones me impone al distribuir, si puedo cambiar la licencia y qué debo poner en los créditos. Devuelve solo esos cuatro puntos, cita la cláusula en la que te apoyas y di lo que no puedes afirmar sin un abogado."
+        description="Comprobar licencia"
+        index="8"/>
+    <QuickTextKey
+        id="fuentes_quick_text_key"
+        keyLabel="fuentes"
+        keyOutputText="Revisa estas afirmaciones y separa las que tienen fuente de las que no. Para cada una: la fecha del dato, la fuente que lo sostiene y qué cambiaría si el dato tuviera un año más. Marca con NO VERIFICADO todo lo que no puedas comprobar hoy, y no rellenes huecos con estimaciones."
+        description="Verificar datos"
+        index="9"/>
+    <QuickTextKey
+        id="acta_quick_text_key"
+        keyLabel="acta"
+        keyOutputText="Redacta un acta de una página: decisión tomada en una frase, quién decidió, qué alternativas se descartaron y por qué, qué queda pendiente con nombre y fecha, y qué habría que revisar si cambia una condición. Sin adornos y sin relleno."
+        description="Acta de decisión"
+        index="10"/>
+    <QuickTextKey
+        id="correo_quick_text_key"
+        keyLabel="correo"
+        keyOutputText="Escribe un correo breve que diga no con claridad: la negativa en la primera frase, el motivo en una línea sin excusas, y una alternativa concreta si existe. Sin «lamentablemente», sin rodeos y sin pedir perdón. Máximo 90 palabras."
+        description="Correo que dice no"
+        index="11"/>
+    <QuickTextKey
+        id="explicar_quick_text_key"
+        keyLabel="explicar"
+        keyOutputText="Explica esto como a alguien con curiosidad y sin formación en el tema: primero la idea en una frase, después el mecanismo paso a paso, después un ejemplo con números pequeños, y al final el error más común al entenderlo. Devuelve solo esos cuatro bloques."
+        description="Explicar sin jerga"
+        index="12"/>
+</QuickTextKeys>

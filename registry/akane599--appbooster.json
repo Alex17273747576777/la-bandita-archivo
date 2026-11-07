@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-28"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/akane599--appbooster.json",
+  "sha256": "2ba37c49b4a94d0d590093bbf623b20097a3071f5307ddd310f5f8cfbac714d5"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "akane599--appbooster",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "AppBooster",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ffe9ee340cbd76df7acecdf49408db0b3bf09b4c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ffe9ee340cbd76df7acecdf49408db0b3bf09b4c"
+ },
+ "repo": "akane599/AppBooster"
+}

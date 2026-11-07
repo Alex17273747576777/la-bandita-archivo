@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2022-12-31",
+  "semantica_http": 200,
+  "ultima_release": "Windows_10_2210.40000.7.0",
+  "ultimo_push": "2026-09-15"
+ },
+ "descripcion": "Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries with Google Play Store (MindTheGapps) and/or Magisk or KernelSU (root solutions) built in. ",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mustardchef--wsabuilds.json",
+  "sha256": "43690f07355d09456c35ec547535265ee5bd79b6456014202033107ef5f82077"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mustardchef--wsabuilds",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 18886,
+  "stars_por_mes": null
+ },
+ "nombre": "WSABuilds",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a1aeab34709f4c83f8ad6eda7cfb0cbc8212fd34",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a1aeab34709f4c83f8ad6eda7cfb0cbc8212fd34"
+ },
+ "repo": "MustardChef/WSABuilds"
+}

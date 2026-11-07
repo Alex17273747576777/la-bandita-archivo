@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-18",
+  "semantica_http": 200,
+  "ultima_release": "20221074",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "Extensive ReVanced builder. Builds both modules and APKs. Updated daily.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/j-hc--revanced-magisk-module.json",
+  "sha256": "5e5b1e98dd1efb89c3c83cef44de0b7f8c40b8ad981768fb8ddd27d87b5565ad"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "j-hc--revanced-magisk-module",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 7713,
+  "stars_por_mes": null
+ },
+ "nombre": "revanced-magisk-module",
+ "piezas": [
+  "86-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3379efdce7a5ca19334f0abd9e224a5ab21c8d7f",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:3379efdce7a5ca19334f0abd9e224a5ab21c8d7f"
+ },
+ "repo": "j-hc/revanced-magisk-module",
+ "web": "https://t.me/rvc_magisk"
+}

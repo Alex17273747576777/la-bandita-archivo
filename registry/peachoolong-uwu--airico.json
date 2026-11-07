@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-21"
+ },
+ "descripcion": "Experimental AIRI+Cortico fusion",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/peachoolong-uwu--airico.json",
+  "sha256": "254e5bc8f14e7c2d3361e606268d803999b7c119707198cc8e8e4552721b30f4"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "peachoolong-uwu--airico",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "airico",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "25981381d0daa58b998b61b9ff181de62abcf13f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:25981381d0daa58b998b61b9ff181de62abcf13f"
+ },
+ "repo": "peachoolong-uwu/airico"
+}

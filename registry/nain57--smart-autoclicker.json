@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2020-10-11",
+  "semantica_http": 200,
+  "ultima_release": "1.0-alpha1",
+  "ultimo_push": "2026-10-23"
+ },
+ "descripcion": "An open-source auto clicker on images for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/nain57--smart-autoclicker.json",
+  "sha256": "b40c8bd7ac285d474a251c1497eda93bb1765c1dbaed616ec48c3922b2501285"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nain57--smart-autoclicker",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3739,
+  "stars_por_mes": null
+ },
+ "nombre": "Smart-AutoClicker",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "699bff818519bc418addb7f0bdad5fbfb6c3f720",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:699bff818519bc418addb7f0bdad5fbfb6c3f720"
+ },
+ "repo": "Nain57/Smart-AutoClicker"
+}

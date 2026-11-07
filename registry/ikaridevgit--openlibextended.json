@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-01-28"
+ },
+ "descripcion": "An Open source app to download and read books from shadow library (Anna’s Archiv",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ikaridevgit--openlibextended.json",
+  "sha256": "031dcae491afaf61711904afd518682cd4ba51d05ac3d1990953880013d6b26b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ikaridevgit--openlibextended",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OpenlibExtended",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b48897517fed76f70453d392388d5c44a7afebdb",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b48897517fed76f70453d392388d5c44a7afebdb"
+ },
+ "repo": "IkariDevGIT/OpenlibExtended"
+}

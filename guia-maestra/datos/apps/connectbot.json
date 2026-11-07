@@ -1,0 +1,75 @@
+{
+ "id": "connectbot",
+ "nombre": "ConnectBot",
+ "repo": "connectbot/connectbot",
+ "autores": [
+  {
+   "nombre": "Kenny Root y la comunidad de ConnectBot",
+   "enlace": "https://github.com/connectbot"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/connectbot/connectbot/blob/main/LICENSE"
+ },
+ "nivel": "intermedio",
+ "tarea": "Administrar tus servidores por SSH desde el teléfono, con llaves propias y comprobando la identidad del servidor la primera vez.",
+ "capitulo": 10,
+ "orden": 3,
+ "para_quien": {
+  "es": "para quien tiene un servidor en casa o alquilado y quiere resolver algo puntual sin abrir la computadora.",
+  "no_es": "para quien quiere una terminal local: eso es Termux; este cliente sólo sirve para conectarse a otro aparato."
+ },
+ "manos": [
+  "Instalalo desde su repositorio o desde la tienda, sabiendo que la versión de la tienda cambia la firma y después no admite la del repositorio.",
+  "Generá un par de llaves dentro de la aplicación y poné una frase de paso: la llave privada no sale del teléfono.",
+  "Copiá la llave pública al servidor y desactivá el acceso por contraseña cuando compruebes que la llave entra.",
+  "En la primera conexión, compará la huella que muestra la aplicación con la que el servidor publica en su consola: si no coincide, no es tu servidor.",
+  "Guardá el acceso con un nombre claro y comprobá que vuelve a entrar después de reiniciar el teléfono."
+ ],
+ "resultado_esperado": "Entrás a tus servidores desde el teléfono con una llave propia, sin contraseñas viajando, y sabés reconocer si el servidor con el que hablás es el tuyo.",
+ "si_sale_mal": [
+  "Si la llave no entra, revisá los permisos de su archivo en el servidor: una llave pública con permisos abiertos es rechazada, y el mensaje no siempre lo dice.",
+  "Si el aviso de huella cambia sin que hayas reinstalado el servidor, detené la conexión: o cambió la llave del servidor o hay alguien en medio.",
+  "Si perdés el teléfono con las llaves dentro, revocá esas llaves en el servidor: es lo primero que hay que hacer, antes de cualquier otra cosa."
+ ],
+ "deshacer": "Borrar un acceso de la aplicación no toca el servidor: las llaves siguen autorizadas allí hasta que las quites. Desinstalar la aplicación borra las llaves privadas del teléfono, y entonces hay que generar otras.",
+ "cabeza": [
+  "ConnectBot es de 2009 y fue el primer cliente de SSH para Android: tres mil quinientas ochenta estrellas y un ritmo de trabajo sorprendente para su edad, con ciento veintitrés cambios en treinta días y una compilación el mismo día de esta medición. Es software viejo en años y vivo en actividad.",
+  "Su virtud es que hace lo que hace SSH y nada más: un canal cifrado entre dos aparatos, autenticado por llaves. No hay nube, no hay cuenta intermedia y no hay nada que el proveedor de la aplicación pueda ver.",
+  "Y su advertencia de instalación es una lección del capítulo 4 en una frase: la versión de la tienda y la del repositorio **no comparten firma**, porque la de la tienda cambió a un algoritmo más moderno. Eso significa que si instalás primero una y después la otra, Android no deja actualizar encima: hay que desinstalar y perder los accesos guardados. Elegir el canal antes, y no después."
+ ],
+ "limites": [
+  "Sólo sirve con servidores que hablen SSH: no es una terminal local ni un cliente de escritorio remoto.",
+  "La versión de la tienda y la del repositorio no se pueden mezclar por la firma.",
+  "Guardar llaves en el teléfono añade un riesgo: si el aparato se pierde, hay que revocarlas en cada servidor.",
+  "La pantalla pequeña hace incómodo el trabajo largo: sirve para resolver, no para administrar todo el día."
+ ],
+ "oficio": {
+  "dato": "La primera vez que te conectás a un servidor, el cliente muestra una huella y pregunta si confiás. Esa pregunta es toda la defensa contra el ataque de quien se pone en medio: si la huella coincide con la que el servidor publica por otra vía, hablás con el servidor; si no coincide, hablás con alguien que se hace pasar por él. La costumbre correcta es la que casi nadie tiene: comprobar la huella por fuera de la conexión —en la consola del servidor, en un papel guardado, en otra máquina— y no aceptar a ciegas porque el aviso «aparece siempre». Aceptar sin comparar convierte una defensa en una costumbre vacía.",
+  "como_comprobar": "Pedile al servidor la huella de su llave desde su propia consola, y compará ese número con el que te mostró la aplicación la primera vez. Si coinciden, la conexión es la que creés.",
+  "comando": "ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub"
+ },
+ "riesgos": [
+  "Aceptar la huella del servidor sin compararla, y quedarse sin defensa frente a un intermediario.",
+  "Guardar llaves sin frase de paso en un teléfono sin bloqueo de pantalla."
+ ],
+ "alternativas": [
+  "termux/termux-app",
+  "zhanghai/MaterialFiles"
+ ],
+ "senal": {
+  "estrellas": 3581,
+  "nota": 62,
+  "edad_dias": 6480,
+  "ultima_entrega": "2026-11-04",
+  "descargas_10": 1281,
+  "contribuyentes": 68,
+  "repo_mb": 23.9,
+  "ci": 5,
+  "incidencias": "247 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de Kenny Root y la comunidad de ConnectBot · Apache-2.0 · medido el 3 de noviembre de 2026"
+}

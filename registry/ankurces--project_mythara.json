@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-28"
+ },
+ "descripcion": "M.Y.T.H.A.R.A — Mind Yoked Tonal Haptic Adaptive Resonant Assistant. Open-source agentic AI Android OS layer. Local-first, private-by-construction, BYO-model alternative to Android 17 / Aluminium OS Gemini-everywhere.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ankurces--project_mythara.json",
+  "sha256": "a93d9964b80d064d6da6e434a0accd56d9ccc8cae6e572703939cbd13663e9d3"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ankurces--project_mythara",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 94,
+  "stars_por_mes": null
+ },
+ "nombre": "project_mythara",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c819d2bb7cd465e4afc6f1cbb5b26ce6a3cbf763",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c819d2bb7cd465e4afc6f1cbb5b26ce6a3cbf763"
+ },
+ "repo": "ankurCES/project_mythara",
+ "web": "https://github.com/ankurCES/project_mythara"
+}

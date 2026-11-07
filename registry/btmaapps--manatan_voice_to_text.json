@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-03-25"
+ },
+ "descripcion": "Seamless immersion language learning for anime, manga, novels on all platforms",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/btmaapps--manatan_voice_to_text.json",
+  "sha256": "b17a8cd608e6986bf92c39d9833aa9d76d08df2eb6dbbce3d393689ac4e82df9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "btmaapps--manatan_voice_to_text",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Manatan_voice_to_text",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7ec70932a7affa03845a6ec56e8fe53319f5be44",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:7ec70932a7affa03845a6ec56e8fe53319f5be44"
+ },
+ "repo": "BtmaApps/Manatan_voice_to_text"
+}

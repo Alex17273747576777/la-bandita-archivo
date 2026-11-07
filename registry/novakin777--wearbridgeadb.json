@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-14",
+  "semantica_http": 200,
+  "ultima_release": "v1.32",
+  "ultimo_push": "2026-10-28"
+ },
+ "descripcion": "Wear OS companion for shell and root commands via Shizuku and the Wear Data Layer.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/novakin777--wearbridgeadb.json",
+  "sha256": "454a1e10894672f12f304591406e490b3c33227cce6616233a3ae87546943a15"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "novakin777--wearbridgeadb",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "WearBridgeADB",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8d73cbede2dc140ee7505dae7dd6bfe307d4f58e",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:8d73cbede2dc140ee7505dae7dd6bfe307d4f58e"
+ },
+ "repo": "novakin777/WearBridgeADB",
+ "web": "https://github.com/novakin777/WearBridgeADB/releases"
+}

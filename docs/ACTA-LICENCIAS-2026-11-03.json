@@ -1,0 +1,1098 @@
+{
+ "fecha": "2026-11-03",
+ "candidatas": 188,
+ "resueltas": 134,
+ "por_licencia": {
+  "Apache-2.0": 60,
+  "AGPL-3.0-only": 26,
+  "OFL-1.1": 2,
+  "GPL-3.0-only": 18,
+  "MIT": 22,
+  "CC-BY-SA-4.0": 2,
+  "CC0-1.0": 1,
+  "LGPL-3.0-only": 1,
+  "CC-BY-4.0": 1,
+  "BSD-3-Clause": 1
+ },
+ "detalle": [
+  {
+   "id": "15dd--wenku8reader",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "2581414411-blip--lunamacro",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "3dhaoxinren--miaomo",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "4zyz4--gkme",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "896kb--ai-usage-companion",
+   "spdx": "OFL-1.1",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "aaaelina--rikkahub-agent-promax",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "aayush2622--dartotsu",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.md"
+  },
+  {
+   "id": "achep--keyguard-app",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "aeonmatrixcommand-debug--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "aidlearning--aidlearning-framework",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "license.md"
+  },
+  {
+   "id": "aiyakuaile--easy_tv_live",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "altarafiya--sukut",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "amasen02--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "ammaarreshi--generals-mac-ios-ipad",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.md"
+  },
+  {
+   "id": "archfx--duo-de",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.txt"
+  },
+  {
+   "id": "arglax--wuwa-mobile-config-patcher",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "asrofficialdev--redantotsu",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.md"
+  },
+  {
+   "id": "az4521--tachiyomiaz",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "bassembaraya--repair",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "bhanu-teja-vce--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "bkrohit940-hub--game-boost",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "bowentown--somnacare",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "bufanchen121101--axmanagerd",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "catchingl--o.status",
+   "spdx": null,
+   "motivo": "sin licencia concluyente"
+  },
+  {
+   "id": "catsmoker--catsmoker-app",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "chrisneagu--ftc-skystone-dark-angels-romania-2020",
+   "spdx": null,
+   "motivo": "sin licencia concluyente"
+  },
+  {
+   "id": "clide01--projectzenith",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "codegeasse1--hikari",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "davidona--streamvault-iptv",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "deepsleep520--dshharness",
+   "spdx": null,
+   "motivo": "sin licencia concluyente"
+  },
+  {
+   "id": "destradess--tv-home-universal",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "dev-assistant-ai--mcp-servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "deviloufr-ai--dashwheel",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "dhruvanbhalara--dozetap",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "diegonmarcos--cloudy-u-android",
+   "spdx": null,
+   "motivo": "sin licencia concluyente"
+  },
+  {
+   "id": "dilrsex2015sex-ship-it--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "dk8827--ra-port",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.md"
+  },
+  {
+   "id": "dp-holo--dsh-whale-pet-android",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "dr-tsng--zygisknext",
+   "spdx": null,
+   "motivo": "sin licencia concluyente"
+  },
+  {
+   "id": "elhizazi1--castix",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "etha0916--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "exzyo--dexoptx",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "faroquetech0--rootrealm",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "feigecode--navop",
+   "spdx": null,
+   "motivo": "sin licencia concluyente"
+  },
+  {
+   "id": "feitangyuan--onetake",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "feralyth1337--raven-terminal",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE-MIT"
+  },
+  {
+   "id": "francescomin--batteryhealthtracker",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "futo-org--android-keyboard",
+   "spdx": null,
+   "motivo": "sin licencia concluyente"
+  },
+  {
+   "id": "g0t4--mcp-servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "goldeneagle-23--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "gsantner--markor",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.txt"
+  },
+  {
+   "id": "h-m-h--weylus",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "h2y--shadowrocket-adblock-rules",
+   "spdx": "CC-BY-SA-4.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "hahnfeld--cinder-lite",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "hamzamissewi--mcp-servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "hirieo--valleysave-app",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "hmshuv--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "hqw700--scrcpyoverwebrtc",
+   "spdx": null,
+   "motivo": "sin licencia concluyente"
+  },
+  {
+   "id": "hrabanazviking--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "hulubo2014--dougao",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "hypit-ai--hypit",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "iamseyhmus7--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "itsmechinmoy--dantotsu",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.md"
+  },
+  {
+   "id": "janhq--jan",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "jdkshen--ai.js-pro",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.md"
+  },
+  {
+   "id": "jerry08--anikin",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.txt"
+  },
+  {
+   "id": "jhshamim--re-zorotsu",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.md"
+  },
+  {
+   "id": "jhshamim5-dev--re-zorotsu",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.md"
+  },
+  {
+   "id": "jimmy-xuzimo--dsh-for-android",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "jjuugk--carptocarl",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "jman730--opendroid",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "joeconsorti--duo-fold-live",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "johnshall--shadowrocket-adblock-rules-forever",
+   "spdx": "CC-BY-SA-4.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "juicedupdev--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "jxlarrea--kiosk-satellite",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "k4wai1--jav",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "katsuyamaki--droidos",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.txt"
+  },
+  {
+   "id": "kau17033--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "keyerrorfinn--cleanyourtv-magcubic-hy320pro-launcher",
+   "spdx": "OFL-1.1",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "kinou-p--android-open-mapper",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "komi-kun--komi-kun",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "laurent22--joplin",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "lawnchairlauncher--lawnchair",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.txt"
+  },
+  {
+   "id": "lejw0925--android-virtual-screen",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "leolin310148--shortcutbadger",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "linksheet--linksheet",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "liwen17320273738--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "localstack--localstack",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.txt"
+  },
+  {
+   "id": "luharshekhar2000-dot--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "mahmutaunal--tvpilot",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "marcelo-ochoa--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "marcossete--awesome-free-ai-course-notes",
+   "spdx": "CC0-1.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "martchus--syncthingtray",
+   "spdx": "LGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "metxstudio--freefile",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.md"
+  },
+  {
+   "id": "mh241--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "mkbkhll--openomnibot",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "modelcontextprotocol--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "molabasehiwe-jpg--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "moltycel--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "mon2000x111-sketch--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "monamobeen--mcp-servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "morfyuum--atlayaswitch",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "mrboomdeveloper--awery",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.md"
+  },
+  {
+   "id": "mshehrozjamshaid--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "muntashirakon--appmanager",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "COPYING"
+  },
+  {
+   "id": "nahiro18--kiroku",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.md"
+  },
+  {
+   "id": "namidaco--namida",
+   "spdx": null,
+   "motivo": "sin licencia concluyente"
+  },
+  {
+   "id": "nanomindexplorer--gamemappermind",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "nelenkov--android-backup-extractor",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "nikhilkain--vyxel-apps",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "nikitat21--quest-home-switcher",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "nivincnc--cncverse-bridge",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "nomily-ai--nomily-app",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "nuoomnoy02--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "odrannnn--metroidprimeport",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "olaservo--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "omnimind-ai--omnibot",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "onder1e--usbpdbs",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENCE"
+  },
+  {
+   "id": "openstf--stf",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "opus265--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "organicmaps--organicmaps",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "oytuncagil--ethertether",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "papyloking-max--openomnibot",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "paulyoo95--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "pg83--shitty",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "phisher98--cloudstream-extensions-phisher",
+   "spdx": null,
+   "motivo": "sin licencia concluyente"
+  },
+  {
+   "id": "pisces19860207--zhengdao",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "pixelplayerhq--pixelplayer",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "pjk2336--huawei-eink-reader",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "pkok1099--imgtxd-studio",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "positer--newmark-agent",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "progyan94--gyanaadinstaller",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "pubbgggamerss00-bot--nexusgamebooster",
+   "spdx": null,
+   "motivo": "sin licencia concluyente"
+  },
+  {
+   "id": "pwnapplehat--decrypta",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "pyzack--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "quangtrang1111--noti-keeper",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "quor-a--zorvai",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "redracer9--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "reitansora--koeyomi",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "robertpiers--gkme-controller-mouse",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "s0xdk--refactoring-ui-skill",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "sagernet--sing-box",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "sam050608--mcp-servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "sbflabs--lightspeed",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "seedvault-app--seedvault",
+   "spdx": null,
+   "motivo": "sin licencia concluyente"
+  },
+  {
+   "id": "sfg5453--orchard",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "shiaho777--logsleuth",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "shrey113--android-dex",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "shynoiddev--firewall-blocks",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "sinegard--af-file-manager",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "soralis0912--shuttersoundtoggle",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "sosaddegen--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "sunshinehead--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "superboyyy--honeclick",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "swsp-git--messageaihelper",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "sysrv64--karchiver",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "tacrine--cos-gesture",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "teapieyyds--device-check",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "tejado--authorizer",
+   "spdx": null,
+   "motivo": "sin licencia concluyente"
+  },
+  {
+   "id": "termux--termux-app",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "thor-wayfinder--thor-wayfinder",
+   "spdx": null,
+   "motivo": "sin licencia concluyente"
+  },
+  {
+   "id": "tig-kira--termux-ultra",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.md"
+  },
+  {
+   "id": "timschneeb--awesome-shizuku",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "timschneeb--changelog-awesome-shizuku",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "tingao--debian-on-s23-ultra",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "tldr-pages--tldr",
+   "spdx": "CC-BY-4.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.md"
+  },
+  {
+   "id": "trancongminh0zero0-design--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "tswistak--battery-monitor",
+   "spdx": "GPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "u1091104302--omnibot",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "ultra-guru--android-guru-agent",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "victorious93--victorsuite",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE.md"
+  },
+  {
+   "id": "vigil-xy--vygil",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "vivizzz007--vivi-music",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "w446108264--xhsemoticonskeyboard",
+   "spdx": null,
+   "motivo": "sin licencia concluyente"
+  },
+  {
+   "id": "whatsapp--stickers",
+   "spdx": "BSD-3-Clause",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "wisebreeze--breezelauncherandroid",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "xrsec--wifi-adb",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "yannmh007--innocent",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "yarnplegather--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "yaseen91479--echoroute",
+   "spdx": null,
+   "motivo": "sin licencia concluyente"
+  },
+  {
+   "id": "ybl0000003-cyber--omnibot",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "ynlp0624--re-amachiromaker-android",
+   "spdx": "MIT",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "yunanriv-hub--stmall",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "zenithblue-oss--mkm",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "zgq-inc--source",
+   "spdx": null,
+   "motivo": "texto sin firma conocida"
+  },
+  {
+   "id": "zhaoyangplus--openomnibot",
+   "spdx": "AGPL-3.0-only",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "zskbot--servers",
+   "spdx": "Apache-2.0",
+   "metodo": "licencia-texto",
+   "archivo": "LICENSE"
+  },
+  {
+   "id": "zsw125--o3root",
+   "spdx": "MIT",
+   "metodo": "endpoint-license",
+   "archivo": "LICENSE"
+  }
+ ],
+ "clasificacion_restantes": {
+  "propietaria": 39,
+  "libre-sin-firma": 8,
+  "ilegible": 2
+ }
+}

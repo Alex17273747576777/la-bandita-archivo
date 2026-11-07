@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-05",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.2",
+  "ultimo_push": "2026-10-11"
+ },
+ "descripcion": "Sync Do Not Disturb, theater and bedtime modes between Android phone and Wear OS watch",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/bazyak--dnd-syncer.json",
+  "sha256": "cbd8c6f479bb0b1d1c7cc7bc4098506543c647ddf4121180d61fa4fe20661bf2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "bazyak--dnd-syncer",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "dnd-syncer",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d7c914b0d7d60760a21b9bfbef06b0bdd3445d52",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d7c914b0d7d60760a21b9bfbef06b0bdd3445d52"
+ },
+ "repo": "bazyak/dnd-syncer"
+}

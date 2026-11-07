@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-08-13",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.1",
+  "ultimo_push": "2026-10-23"
+ },
+ "descripcion": "Yet Another FDroid Client (wide screen / TV friendly)",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mlm-games--flicky.json",
+  "sha256": "ea4b1c09b0b73fad15b0c50abebc91a4352ecf40ba46f5493a0b2eed32a7bc61"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mlm-games--flicky",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 465,
+  "stars_por_mes": null
+ },
+ "nombre": "flicky",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4005cf229789ad781eabce39bdc3c95c7553977a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4005cf229789ad781eabce39bdc3c95c7553977a"
+ },
+ "repo": "mlm-games/flicky"
+}

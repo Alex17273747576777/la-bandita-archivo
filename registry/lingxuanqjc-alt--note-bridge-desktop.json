@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-08",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-09-09"
+ },
+ "descripcion": "Windows 笔记导出与迁移工具：七平台适配、四格式导出、离线阅读，明确验证范围与失败状态。",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/lingxuanqjc-alt--note-bridge-desktop.json",
+  "sha256": "6babee98f5c2ec6f726fbd0f454fc2cd9ebdf93ca929ac2bf693a2f906bb06a1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lingxuanqjc-alt--note-bridge-desktop",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1026,
+  "stars_por_mes": null
+ },
+ "nombre": "note-bridge-desktop",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e2f18432a29d8f876679feab5792facc28bfb612",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:e2f18432a29d8f876679feab5792facc28bfb612"
+ },
+ "repo": "lingxuanqjc-alt/note-bridge-desktop",
+ "web": "https://github.com/lingxuanqjc-alt/note-bridge-desktop#readme"
+}

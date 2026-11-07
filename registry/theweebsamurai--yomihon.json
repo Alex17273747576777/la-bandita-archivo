@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-29",
+  "semantica_http": 200,
+  "ultima_release": "apk-debug-2026-08-29",
+  "ultimo_push": "2026-09-13"
+ },
+ "descripcion": "Free and open source manga reader for Android - now with OCR (text recognition)",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/theweebsamurai--yomihon.json",
+  "sha256": "34afb4884628893e8c789f613def0e45e757d39135df31d1b4a99e755090f797"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "theweebsamurai--yomihon",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "yomihon",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "44eabcada2d4309e65d5a68e0560707ff08f13ee",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:44eabcada2d4309e65d5a68e0560707ff08f13ee"
+ },
+ "repo": "TheWeebSamurai/yomihon"
+}

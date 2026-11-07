@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2026-03-28",
+  "semantica_http": 200,
+  "ultima_release": "6.1.2",
+  "ultimo_push": "2026-03-28"
+ },
+ "descripcion": "GmsCore fork for Morphe patched apps",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/tannhatcms--microg-re.json",
+  "sha256": "c3bfa79625528cef76db61a69a3c7e906926a43dd40730bfc7587d70bec97ed8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "tannhatcms--microg-re",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "MicroG-RE",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4c66e500d798afc6fc04068e934c221040b51884",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4c66e500d798afc6fc04068e934c221040b51884"
+ },
+ "repo": "TanNhatCMS/MicroG-RE"
+}

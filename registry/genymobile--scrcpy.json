@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2018-03-08",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Display and control your Android device",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/genymobile--scrcpy.json",
+  "sha256": "50c7e0e0509be4799011d6cc8af6c7ca36d4fb9322cf5a7cec1caa951a39ef1b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "genymobile--scrcpy",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 153909,
+  "stars_por_mes": null
+ },
+ "nombre": "scrcpy",
+ "piezas": [
+  "28-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a60891aea193d92e7e5c3942700eca63f9d19a5f",
+  "swh_estado": "archivada",
+  "swh_solicitud": "a60891aea193d92e7e5c3942700eca63f9d19a5f",
+  "swhid": "swh:1:rev:a60891aea193d92e7e5c3942700eca63f9d19a5f"
+ },
+ "repo": "Genymobile/scrcpy"
+}

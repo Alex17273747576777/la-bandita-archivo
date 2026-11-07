@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-02-19"
+ },
+ "descripcion": "A gui to download anime in batches , and auto track to my anime list & its fast",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/nath-277--anime-batch-downloader-gui.json",
+  "sha256": "f571a3dc68fc475840ef291863481b9972fd0a768aeb488626539382c8a95d9b"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nath-277--anime-batch-downloader-gui",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Anime-batch-downloader-gui",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1eb85aafa3ce9eb179fe061353723277a290640c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1eb85aafa3ce9eb179fe061353723277a290640c"
+ },
+ "repo": "nath-277/Anime-batch-downloader-gui"
+}

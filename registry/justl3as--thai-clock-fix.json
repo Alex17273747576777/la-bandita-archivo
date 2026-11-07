@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-15",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "Android utility for configuring Thai SystemUI clock locale through Shizuku",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/justl3as--thai-clock-fix.json",
+  "sha256": "b7faa5f1be7385f7fc9857a2f5f6819d5b8812acd7e978fc8cb7b2f451781c14"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "justl3as--thai-clock-fix",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "thai-clock-fix",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "eb3d95e95a22a779f88712e2a83460c1f5593f99",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:eb3d95e95a22a779f88712e2a83460c1f5593f99"
+ },
+ "repo": "justl3as/thai-clock-fix"
+}

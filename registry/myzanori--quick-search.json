@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-06",
+  "semantica_http": 200,
+  "ultima_release": "3.6.1",
+  "ultimo_push": "2026-06-06"
+ },
+ "descripcion": "An universal search app for Android which can search apps, shortcuts, contacts,",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/myzanori--quick-search.json",
+  "sha256": "69dcafb3a0abcfbd0663ab5d120bb7824538407c56a6abd385d3c6fcfc9784cc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "myzanori--quick-search",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "quick-search",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1101c0f74cd34c7841aa8c1d9513475844521bab",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:1101c0f74cd34c7841aa8c1d9513475844521bab"
+ },
+ "repo": "myzanori/quick-search"
+}

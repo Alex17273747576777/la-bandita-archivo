@@ -1,0 +1,56 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-11-09",
+  "semantica_http": 200,
+  "ultima_release": "v2.0.11.2",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Syncthing-Fork - A Syncthing Wrapper for Android.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/researchxxl--syncthing-android.json",
+  "sha256": "cd9330a6d11826d7439e89b09e06029895297c00c8f94270a75a613dcff77d41"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "researchxxl--syncthing-android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3243,
+  "stars_por_mes": null
+ },
+ "nombre": "syncthing-android",
+ "piezas": [
+  "56-",
+  "61-",
+  "74-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "03616ff6ddb1c07afa06bcce3f54f37fa6ab60a0",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:03616ff6ddb1c07afa06bcce3f54f37fa6ab60a0"
+ },
+ "repo": "researchxxl/syncthing-android"
+}

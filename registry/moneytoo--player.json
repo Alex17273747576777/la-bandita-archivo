@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2020-11-16",
+  "semantica_http": 200,
+  "ultima_release": "v0.4",
+  "ultimo_push": "2026-10-22"
+ },
+ "descripcion": "▶ Simple and lightweight, yet polished and powerful Android video player based on ExoPlayer",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/moneytoo--player.json",
+  "sha256": "5f5dd23b37a43bcb4b980dec800e2290f0df07e678d2daf65d214f1ec39abf62"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "moneytoo--player",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2787,
+  "stars_por_mes": null
+ },
+ "nombre": "Player",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b74285ca8a2fc6cf1ad604e34781a0a07b0384c0",
+  "swh_estado": "sin archivo (HTTP 429)",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b74285ca8a2fc6cf1ad604e34781a0a07b0384c0"
+ },
+ "repo": "moneytoo/Player",
+ "web": "https://play.google.com/store/apps/details?id=com.brouken.player"
+}

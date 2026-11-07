@@ -1,0 +1,49 @@
+{
+  "_nota": "Las ventanas de frescura de la casa, en un solo sitio y con su razón. Un dato no envejece igual si es una licencia que si es una versión: la primera cambia por años y la segunda por horas. Este archivo es el que aplica tools/vencimiento.py para decidir qué ficha está vigente, cuál está por vencer y cuál hay que volver a medir.",
+  "_regla": "Una ficha vence cuando el campo más joven que declara supera SU ventana. Un repositorio con licencia de hace diez días y último empujón de hace dos años está vencido por actividad, no por licencia.",
+  "_corte": "2026-11-03",
+  "_fuente": "docs/CALENDARIO-DE-NOVEDADES.json (_regla: 90 días) · tools/vara.py UMBRAL_FRESCURA = 180 · pieza 04 de WhatsApp (una versión citada sin fecha caduca en 48 h)",
+  "ventanas": [
+    {
+      "campo": "actividad.ultimo_push",
+      "ventana_dias": 30,
+      "por_que": "El estado vivo/dormido se calcula con el último empujón. Un mes es el plazo en que una etiqueta «vivo» sigue siendo defendible: pasado ese tiempo, el repositorio puede haber publicado diez veces o haberse archivado."
+    },
+    {
+      "campo": "actividad.release_en",
+      "ventana_dias": 30,
+      "por_que": "Una versión citada sin fecha de comprobación caduca en cuarenta y ocho horas (pieza 04 de WhatsApp). Treinta días es el techo del calendario mensual de remediciones; más allá, el número que se cita ya no es el que se instala."
+    },
+    {
+      "campo": "merito.stars",
+      "ventana_dias": 30,
+      "por_que": "Las estrellas son la señal más volátil del registro y la que más se usa para ordenar: ordenar por un número de hace dos meses es ordenar por una foto vieja."
+    },
+    {
+      "campo": "merito.scorecard",
+      "ventana_dias": 90,
+      "por_que": "El Scorecard de OpenSSF es una foto de prácticas (revisión, ramas protegidas, dependencias) que cambia despacio y cuesta de recalcular: noventa días, la misma ventana que la licencia y que las novedades de la casa."
+    },
+    {
+      "campo": "licencia",
+      "ventana_dias": 90,
+      "por_que": "Misma ventana que la regla de novedades de la casa (CALENDARIO-DE-NOVEDADES). Una licencia puede cambiar de un día para otro, pero cambiarla es un acto raro y deliberado; noventa días detecta el cambio sin gastar mediciones."
+    },
+    {
+      "campo": "ficha",
+      "ventana_dias": 180,
+      "por_que": "El umbral de la compuerta G2 de la vara. Pasado medio año, la ficha entera se declara vencida aunque ninguno de sus campos sueltos haya fallado."
+    }
+  ],
+  "respaldo": {
+    "regla": "medido_en no puede ser posterior a la fecha de su propia evidencia. El esquema lo dice desde el primer día: «Fecha ISO de la medición. Nunca heredada ni inferida».",
+    "por_que": "Una ficha que declara una fecha que su evidencia no respalda no está desactualizada: está mintiendo, y el daño es mayor porque la compuerta G2 la contaría como recién medida. Se detecta comparando medido_en con la fecha del payload o de la fila del censo que la sostiene."
+  },
+  "estados": {
+    "vigente": "todos sus campos dentro de ventana y la fecha declarada respaldada por su evidencia",
+    "por_vencer": "algún campo entra en sus últimos 15 días de ventana; no se detiene nada, se avisa",
+    "vencida": "algún campo supera su ventana: la ficha no se puede presentar como actual y se vuelve a medir",
+    "sin_respaldo": "la fecha declarada no coincide con la de su evidencia: se vuelve a medir para que la fecha sea verdad",
+    "sin_objeto": "el repositorio ya no existe (404): no hay nada que volver a medir y la ficha se conserva con su motivo"
+  }
+}

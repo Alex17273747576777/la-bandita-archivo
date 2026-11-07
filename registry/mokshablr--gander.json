@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2026-10-31",
+  "semantica_http": 200,
+  "ultima_release": "v2.8",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Take a gander at any file. Offline, zero-permission Android viewer for PDF, Word, Excel, PowerPoint, ODT, RTF, ZIP, STL, photos, video, audio, Markdown and code.",
+ "evidencia": {
+  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
+  "payload_ref": "ficha profunda del 2026-11-03",
+  "sha256": "44cfaee63090a87e270485c721c07a203c33e25281779b183a3c1fd5321ad6ab"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "nodo REST + GraphQL el 3-nov-2026, con README y LICENSE leídos en crudo",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mokshablr--gander",
+ "licencia": {
+  "archivo": "MIT License\n\nCopyright (c) 2026 Arjun Maniyani\n\nPermission is hereby granted, free of charge, to any person obtaining a",
+  "metodo": "endpoint-license",
+  "nota": "certificada contra el texto del archivo LICENSE",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1356,
+  "stars_por_mes": null
+ },
+ "nombre": "gander",
+ "piezas": [
+  "01"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "89bf8106f581960d161baf73514ce41657a27177",
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
+  "swhid": "swh:1:rev:89bf8106f581960d161baf73514ce41657a27177"
+ },
+ "repo": "mokshablr/gander"
+}

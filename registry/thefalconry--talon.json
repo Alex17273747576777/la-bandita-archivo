@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-04-08",
+  "semantica_http": 200,
+  "ultima_release": "v1.1.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "🦅 Multi-platform agentic AI harness — runs on Telegram, Discord, Teams & Terminal with a pluggable backend (Claude, Kilo, OpenCode, Codex, OpenAI Agents), full MCP tool access, and persistent background agents (Goals, Heartbeat, Dream).",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/thefalconry--talon.json",
+  "sha256": "fc8ad3c0b37def68c4194fc99dff1fb180a4669f27a91475d07b985d805dd815"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "thefalconry--talon",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 77,
+  "stars_por_mes": null
+ },
+ "nombre": "talon",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "fbce20453938812a7e3fcb011a0297ad61ffe59e",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:fbce20453938812a7e3fcb011a0297ad61ffe59e"
+ },
+ "repo": "thefalconry/talon",
+ "web": "https://thefalconry.github.io"
+}

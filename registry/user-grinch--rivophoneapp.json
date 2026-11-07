@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-01-22",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Rivo is a phone app built with Material 3 Expressive, with a focus on customization and a modern, intuitive calling experience.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/user-grinch--rivophoneapp.json",
+  "sha256": "3f0cf185446832db181969556939e0f16c33aab67519af042f171cfca3dc4c65"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "user-grinch--rivophoneapp",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 266,
+  "stars_por_mes": null
+ },
+ "nombre": "RivoPhoneApp",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4912139530e37da3cdcf0233361bedd3ce0bebfe",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4912139530e37da3cdcf0233361bedd3ce0bebfe"
+ },
+ "repo": "user-grinch/RivoPhoneApp"
+}

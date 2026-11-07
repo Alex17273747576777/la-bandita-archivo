@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-27"
+ },
+ "descripcion": "Taihon is a fast, highly customizable Mihon fork and Tachiyomi alternative. It is a free and open-source manga reader for Android built for speed.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/saud-97--taihon-nightly.json",
+  "sha256": "80b4d0a2f9ee8732041a3090b1e370ea2093f37664dea109c452d867b87a213c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "saud-97--taihon-nightly",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "taihon-nightly",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "63190e7454e1bb1d61fd0de4baf5a903eac63858",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:63190e7454e1bb1d61fd0de4baf5a903eac63858"
+ },
+ "repo": "Saud-97/taihon-nightly",
+ "web": "https://github.com/Saud-97/taihon"
+}

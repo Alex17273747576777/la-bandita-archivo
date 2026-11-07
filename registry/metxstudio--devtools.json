@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-10",
+  "semantica_http": 200,
+  "ultima_release": "devtools-releases",
+  "ultimo_push": "2026-07-10"
+ },
+ "descripcion": "An all-in-one Android development toolkit packed with 40+ modular features — app management, on-device code execution, real-time sensor data analysis & more. Streamline your mobile development and debugging workflow.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/metxstudio--devtools.json",
+  "sha256": "45149673080118d5540ad384e9fb285bae459811177a491553f27db467a2c3f0"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "metxstudio--devtools",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 14,
+  "stars_por_mes": null
+ },
+ "nombre": "DEVTools",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2dcaa08ae737a5ae22ad27ddace2c87b9ec827e6",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:2dcaa08ae737a5ae22ad27ddace2c87b9ec827e6"
+ },
+ "repo": "MetxStudio/DEVTools"
+}

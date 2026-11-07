@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2023-10-27",
+  "semantica_http": 200,
+  "ultima_release": "0.5.2",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/universal-debloater-alliance--universal-android-debloater-next-generation.json",
+  "sha256": "c7b99ecf5452bae47a610a817165ea726ac39640b9a46b32ccadf1d50e7e6073"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "universal-debloater-alliance--universal-android-debloater-next-generation",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 9713,
+  "stars_por_mes": null
+ },
+ "nombre": "universal-android-debloater-next-generation",
+ "piezas": [
+  "29-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e1fff1efa87c54611b52771a31a03f408712deec",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:e1fff1efa87c54611b52771a31a03f408712deec"
+ },
+ "repo": "Universal-Debloater-Alliance/universal-android-debloater-next-generation"
+}

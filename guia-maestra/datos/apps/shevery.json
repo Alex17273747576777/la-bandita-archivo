@@ -1,0 +1,73 @@
+{
+ "id": "shevery",
+ "nombre": "Shevery",
+ "repo": "HmnDev-Tech/shevery",
+ "autores": [
+  {
+   "nombre": "HmnDev-Tech",
+   "enlace": "https://github.com/HmnDev-Tech"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/HmnDev-Tech/shevery/blob/main/LICENSE"
+ },
+ "nivel": "intermedio",
+ "tarea": "Administrar el teléfono desde una aplicación moderna que usa el permiso prestado, con equipo detrás y entregas frecuentes.",
+ "capitulo": 3,
+ "orden": 2,
+ "para_quien": {
+  "es": "para quien quiera una interfaz cuidada y un proyecto con varias personas manteniéndolo.",
+  "no_es": "para quien exija poder verificar criptográficamente cada archivo que descarga: sus adjuntos no traen sumas."
+ },
+ "manos": [
+  "Concede el permiso con Shizuku o con el mecanismo que uses; Shevery lo detecta y lo muestra en su pantalla inicial.",
+  "Autoriza Shevery desde la ventana que aparece la primera vez. Si no aparece, cierra y vuelve a abrir: la petición se lanza al arrancar.",
+  "Elige en el menú la sección de aplicaciones y ordena por tamaño para localizar lo que ocupa espacio.",
+  "Antes de congelar o desinstalar algo del sistema, anota el nombre exacto del paquete: es lo que necesitarás para revertirlo.",
+  "Comprueba el resultado en la lista de aplicaciones del sistema: la que congelaste debe seguir apareciendo, marcada, y fuera del cajón de aplicaciones."
+ ],
+ "resultado_esperado": "Shevery muestra las aplicaciones con sus estados y las acciones se aplican sin reiniciar el teléfono.",
+ "si_sale_mal": [
+  "Si la aplicación dice que no hay permiso, revisa que Shizuku siga «En ejecución» y vuelve a autorizar a Shevery.",
+  "Si una acción se queda cargando, cierra Shevery y ábrela otra vez: la sesión puede haber caído sin avisar."
+ ],
+ "deshacer": "Cada congelado se revierte desde la misma lista, con el interruptor de vuelta. Para lo desinstalado, `cmd package install-existing <paquete>` lo reinstala desde el sistema.",
+ "cabeza": [
+  "Su valor no está en una función única sino en la suma: dieciséis personas empujando código, ciento veintitrés incidencias cerradas de ciento veintiséis y cinco flujos de compilación automática en un proyecto de seis meses.",
+  "Ese tamaño de equipo es lo que permite que un derivado joven no se muera cuando el autor se canse, y es la razón por la que su nota supera a la del tronco que le da el permiso.",
+  "Su repositorio pesa trece megabytes porque no arrastra el historial completo del árbol original: es un programa nuevo que habla el mismo contrato."
+ ],
+ "limites": [
+  "No publica sumas de comprobación junto a los paquetes.",
+  "Depende de que el permiso esté vivo: si se cae la sesión, pierde casi todas sus funciones.",
+  "Seis meses de vida no son historial suficiente para el teléfono del trabajo."
+ ],
+ "oficio": {
+  "dato": "Congelar no es desinstalar y no libera espacio: el paquete sigue instalado y ocupa lo mismo. Una aplicación congelada puede seguir apareciendo en ajustes y consumiendo una entrada de la lista. Si el objetivo es espacio, hay que desinstalar para el usuario; si el objetivo es que no moleste, congelar es más seguro porque se revierte en un toque.",
+  "como_comprobar": "Ejecuta `pm list packages -d` para las deshabilitadas y `pm list packages -u` para todas, incluidas las desinstaladas para el usuario. La diferencia entre ambas listas es exactamente lo que has congelado y lo que has quitado.",
+  "comando": "adb shell pm list packages -d"
+ },
+ "riesgos": [
+  "Congelar el lanzador o el teclado deja el teléfono sin interfaz: anota siempre el paquete antes de tocarlo.",
+  "Un derivado joven puede cambiar de comportamiento entre entregas; lee la nota de la versión antes de actualizar."
+ ],
+ "alternativas": [
+  "RikkaApps/Shizuku",
+  "rushiranpise/Shizuku-Next"
+ ],
+ "senal": {
+  "estrellas": 1602,
+  "nota": 70,
+  "edad_dias": 173,
+  "ultima_entrega": "2026-11-04",
+  "descargas_10": 92063,
+  "contribuyentes": 16,
+  "repo_mb": 13.0,
+  "ci": 5,
+  "incidencias": "3 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de HmnDev-Tech · Apache-2.0 · medido el 3 de noviembre de 2026"
+}

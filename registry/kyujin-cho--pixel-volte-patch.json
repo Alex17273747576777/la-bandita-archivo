@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2023-02-05",
+  "semantica_http": 200,
+  "ultima_release": "1.0.0",
+  "ultimo_push": "2026-02-07"
+ },
+ "descripcion": "Pixel IMS: Rootless replacement for Tensor Pixel VoLTE patch",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kyujin-cho--pixel-volte-patch.json",
+  "sha256": "68b50a2edbacca0b670790bb5e53784bfc2ff2c955167aef5fb4d85a10bd9dd8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "kyujin-cho--pixel-volte-patch",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3091,
+  "stars_por_mes": null
+ },
+ "nombre": "pixel-volte-patch",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0b4b5fef31e4e4904eece60bdb360ea3111ac3aa",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:0b4b5fef31e4e4904eece60bdb360ea3111ac3aa"
+ },
+ "repo": "kyujin-cho/pixel-volte-patch"
+}

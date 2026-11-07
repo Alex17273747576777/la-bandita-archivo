@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-20",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.1",
+  "ultimo_push": "2026-10-20"
+ },
+ "descripcion": "Minimal Android virtual display engine: Shizuku-powered headless display, app launch on display, live preview, input injection, and a real self-test that verifies rendered pixels.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/hakai963--headless-android.json",
+  "sha256": "3dcc35c186a8b4ab8da981cace7ba6ed4ff81fa160ea95532003d702ac6a6c86"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hakai963--headless-android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 4,
+  "stars_por_mes": null
+ },
+ "nombre": "headless-android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "20646ebff1cf19c86c27e001408028dd5dca6d13",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:20646ebff1cf19c86c27e001408028dd5dca6d13"
+ },
+ "repo": "HakaI963/headless-android"
+}

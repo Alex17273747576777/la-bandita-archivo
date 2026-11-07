@@ -1,0 +1,437 @@
+{
+ "fecha": "2026-11-04",
+ "medido_en": "2026-11-04T22:29:06-04:00",
+ "fecha_viva": {
+  "salida": [
+   "FECHA VIVA · miércoles 4 de noviembre de 2026 · 22:28:50 en Santo Domingo (02:28:50 UTC) · semana ISO 45 de 2026",
+   "  · reloj en hora con la fuente de fuera (+0.2 min)",
+   "  · anotado en docs/FECHA-VIVA.json como «inicio» (35 vez/veces hoy)"
+  ],
+  "codigo": 0
+ },
+ "historial": {
+  "publicadas": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "siguiente": 15,
+  "pendientes": [
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24
+  ]
+ },
+ "ecosistema": {
+  "tema": "descarga",
+  "consultas": [
+   "download manager created:>2026-01-01",
+   "media downloader created:>2026-04-01",
+   "yt-dlp android created:>2026-01-01",
+   "m3u8 downloader created:>2026-01-01",
+   "gallery downloader created:>2026-01-01",
+   "aria2 gui"
+  ],
+  "candidatos": [
+   {
+    "repo": "mayswind/AriaNg",
+    "stars": 13271,
+    "creado": "2016-05-13",
+    "dias_nace": 3827,
+    "push": "2026-10-05",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "motor clásico"
+   },
+   {
+    "repo": "AnInsomniacy/rayburst",
+    "stars": 11380,
+    "creado": "2026-03-04",
+    "dias_nace": 245,
+    "push": "2026-11-05",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "gestor de descargas"
+   },
+   {
+    "repo": "OpenSelena/omniget",
+    "stars": 3434,
+    "creado": "2026-07-08",
+    "dias_nace": 119,
+    "push": "2026-11-04",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "gestor de descargas"
+   },
+   {
+    "repo": "mesamirh/MovieBox-Tui",
+    "stars": 2763,
+    "creado": "2026-07-16",
+    "dias_nace": 111,
+    "push": "2026-11-04",
+    "licencia": "Apache-2.0",
+    "archivado": false,
+    "consulta": "descargador de medios"
+   },
+   {
+    "repo": "mayswind/AriaNg-Native",
+    "stars": 2729,
+    "creado": "2017-03-26",
+    "dias_nace": 3510,
+    "push": "2026-10-05",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "motor clásico"
+   },
+   {
+    "repo": "binux/yaaw",
+    "stars": 2353,
+    "creado": "2012-04-30",
+    "dias_nace": 5301,
+    "push": "2023-10-31",
+    "licencia": null,
+    "archivado": false,
+    "consulta": "motor clásico"
+   },
+   {
+    "repo": "Xmader/aria-ng-gui",
+    "stars": 2027,
+    "creado": "2018-06-09",
+    "dias_nace": 3070,
+    "push": "2020-09-27",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "motor clásico"
+   },
+   {
+    "repo": "rawnaldclark/Stash",
+    "stars": 1556,
+    "creado": "2026-03-25",
+    "dias_nace": 224,
+    "push": "2026-11-05",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "cara para yt-dlp"
+   },
+   {
+    "repo": "saawant12/orbit-store-ps5",
+    "stars": 1334,
+    "creado": "2026-10-02",
+    "dias_nace": 33,
+    "push": "2026-11-04",
+    "licencia": null,
+    "archivado": false,
+    "consulta": "gestor de descargas"
+   },
+   {
+    "repo": "pixel-point/media-downloader",
+    "stars": 1221,
+    "creado": "2026-05-06",
+    "dias_nace": 182,
+    "push": "2026-05-07",
+    "licencia": null,
+    "archivado": false,
+    "consulta": "descargador de medios"
+   },
+   {
+    "repo": "Downvid/downvid",
+    "stars": 1200,
+    "creado": "2026-08-22",
+    "dias_nace": 74,
+    "push": "2026-11-04",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "motor clásico"
+   },
+   {
+    "repo": "Xmader/aria-ng-gui-android",
+    "stars": 880,
+    "creado": "2018-11-06",
+    "dias_nace": 2920,
+    "push": "2023-01-04",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "motor clásico"
+   },
+   {
+    "repo": "arnoldhao/xiadown",
+    "stars": 758,
+    "creado": "2026-04-21",
+    "dias_nace": 197,
+    "push": "2026-07-27",
+    "licencia": "Apache-2.0",
+    "archivado": false,
+    "consulta": "gestor de descargas"
+   },
+   {
+    "repo": "FortoGraphy/prism-download-manager",
+    "stars": 744,
+    "creado": "2026-10-15",
+    "dias_nace": 20,
+    "push": "2026-11-01",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "gestor de descargas"
+   },
+   {
+    "repo": "BareBrowser/bare-browser",
+    "stars": 713,
+    "creado": "2026-08-15",
+    "dias_nace": 81,
+    "push": "2026-11-03",
+    "licencia": "BSD-3-Clause",
+    "archivado": false,
+    "consulta": "gestor de descargas"
+   },
+   {
+    "repo": "thsnkhn/harbor",
+    "stars": 683,
+    "creado": "2026-03-08",
+    "dias_nace": 241,
+    "push": "2026-10-31",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "gestor de descargas"
+   },
+   {
+    "repo": "vavallee/bindery",
+    "stars": 549,
+    "creado": "2026-04-11",
+    "dias_nace": 207,
+    "push": "2026-11-05",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "gestor de descargas"
+   },
+   {
+    "repo": "Ftbom/Aria2Manager",
+    "stars": 482,
+    "creado": "2023-05-25",
+    "dias_nace": 1259,
+    "push": "2026-07-06",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "motor clásico"
+   },
+   {
+    "repo": "parallelpan/hongguo-downloader",
+    "stars": 461,
+    "creado": "2026-10-31",
+    "dias_nace": 4,
+    "push": "2026-11-02",
+    "licencia": "NOASSERTION",
+    "archivado": false,
+    "consulta": "vídeo por trozos"
+   },
+   {
+    "repo": "gaowanliang/OneDriveShareLinkPushAria2",
+    "stars": 355,
+    "creado": "2021-05-08",
+    "dias_nace": 2006,
+    "push": "2025-05-17",
+    "licencia": "Apache-2.0",
+    "archivado": false,
+    "consulta": "motor clásico"
+   },
+   {
+    "repo": "coflyn/Mori",
+    "stars": 253,
+    "creado": "2026-04-10",
+    "dias_nace": 208,
+    "push": "2026-10-28",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "descargador de medios"
+   },
+   {
+    "repo": "ezwebtools/flowpick",
+    "stars": 244,
+    "creado": "2026-03-30",
+    "dias_nace": 219,
+    "push": "2026-10-28",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "vídeo por trozos"
+   },
+   {
+    "repo": "Liubsyy/M3U8Quicker",
+    "stars": 239,
+    "creado": "2026-04-06",
+    "dias_nace": 212,
+    "push": "2026-11-01",
+    "licencia": "Apache-2.0",
+    "archivado": false,
+    "consulta": "vídeo por trozos"
+   },
+   {
+    "repo": "Blanchot-Alice/havre",
+    "stars": 214,
+    "creado": "2026-08-21",
+    "dias_nace": 75,
+    "push": "2026-10-25",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "descargador de medios"
+   },
+   {
+    "repo": "MaverickRox/VRKA-Android",
+    "stars": 212,
+    "creado": "2026-09-01",
+    "dias_nace": 64,
+    "push": "2026-11-04",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "cara para yt-dlp"
+   },
+   {
+    "repo": "baishu136/OmniDownloader",
+    "stars": 190,
+    "creado": "2026-09-06",
+    "dias_nace": 59,
+    "push": "2026-11-04",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "cara para yt-dlp"
+   },
+   {
+    "repo": "SibtainOcn/Hazel",
+    "stars": 160,
+    "creado": "2026-08-28",
+    "dias_nace": 68,
+    "push": "2026-10-29",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "cara para yt-dlp"
+   },
+   {
+    "repo": "jhaiian/ClintGecko",
+    "stars": 156,
+    "creado": "2026-10-12",
+    "dias_nace": 23,
+    "push": "2026-10-30",
+    "licencia": "GPL-3.0",
+    "archivado": false,
+    "consulta": "descargador de medios"
+   },
+   {
+    "repo": "boboskon/media-savant",
+    "stars": 119,
+    "creado": "2026-06-28",
+    "dias_nace": 129,
+    "push": "2026-11-05",
+    "licencia": null,
+    "archivado": false,
+    "consulta": "vídeo por trozos"
+   },
+   {
+    "repo": "annuenola/galaxy-gallery-gleaner",
+    "stars": 118,
+    "creado": "2026-06-28",
+    "dias_nace": 129,
+    "push": "2026-11-04",
+    "licencia": null,
+    "archivado": false,
+    "consulta": "galerías y lotes"
+   },
+   {
+    "repo": "Autsunset/VidBee_Flutter",
+    "stars": 116,
+    "creado": "2026-04-05",
+    "dias_nace": 213,
+    "push": "2026-10-23",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "cara para yt-dlp"
+   },
+   {
+    "repo": "adcc-hanyang/media-savant",
+    "stars": 115,
+    "creado": "2026-06-28",
+    "dias_nace": 129,
+    "push": "2026-11-04",
+    "licencia": null,
+    "archivado": false,
+    "consulta": "vídeo por trozos"
+   },
+   {
+    "repo": "Hotaro26/gabi",
+    "stars": 105,
+    "creado": "2026-04-26",
+    "dias_nace": 192,
+    "push": "2026-09-30",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "galerías y lotes"
+   },
+   {
+    "repo": "suadatbiniqbal/harmber",
+    "stars": 98,
+    "creado": "2026-03-22",
+    "dias_nace": 227,
+    "push": "2026-09-13",
+    "licencia": "GPL-3.0",
+    "archivado": true,
+    "consulta": "cara para yt-dlp"
+   },
+   {
+    "repo": "wangduoyu001/hongguo-drama-downloader",
+    "stars": 91,
+    "creado": "2026-07-06",
+    "dias_nace": 121,
+    "push": "2026-07-06",
+    "licencia": null,
+    "archivado": false,
+    "consulta": "vídeo por trozos"
+   },
+   {
+    "repo": "SysAdminDoc/Aura",
+    "stars": 54,
+    "creado": "2026-02-22",
+    "dias_nace": 255,
+    "push": "2026-11-01",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "cara para yt-dlp"
+   },
+   {
+    "repo": "m8tec/animated-artwork-downloader",
+    "stars": 37,
+    "creado": "2026-04-05",
+    "dias_nace": 213,
+    "push": "2026-11-02",
+    "licencia": null,
+    "archivado": false,
+    "consulta": "vídeo por trozos"
+   },
+   {
+    "repo": "m314dev/m314dl",
+    "stars": 37,
+    "creado": "2026-08-17",
+    "dias_nace": 79,
+    "push": "2026-10-31",
+    "licencia": "MIT",
+    "archivado": false,
+    "consulta": "vídeo por trozos"
+   }
+  ]
+ },
+ "regla": "siempre GitHub; nunca almacenamiento local con pérdida (H22)"
+}

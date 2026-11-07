@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-01-04"
+ },
+ "descripcion": "GmsCore fork for Morphe patched apps with Material 3 Expressive design and enhan",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/peat80--microg-re-german.json",
+  "sha256": "a6cbed9febe5e354ab1686a60355ccdb9f37544b92535be52b320084fdb3d817"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "peat80--microg-re-german",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "MicroG-RE-German",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2eb97184244313ed2e1e43e56b8baad6f3b4160d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2eb97184244313ed2e1e43e56b8baad6f3b4160d"
+ },
+ "repo": "peat80/MicroG-RE-German"
+}

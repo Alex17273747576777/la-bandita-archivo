@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-08",
+  "semantica_http": 200,
+  "ultima_release": "v1.1.1",
+  "ultimo_push": "2026-10-25"
+ },
+ "descripcion": "Android audio policy override with Shizuku, Compose, and per-app automation",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/aqualaforet--audiopolicyoverride.json",
+  "sha256": "ff7aa0c570fa7e9ef1cb7ab1d389aedd0142f98dd0252dc153bba350a0f6a77e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "aqualaforet--audiopolicyoverride",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 5,
+  "stars_por_mes": null
+ },
+ "nombre": "AudioPolicyOverride",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "451f949d4db2dc00749a73cc9e95fd77e50ea4d4",
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
+  "swhid": "swh:1:rev:451f949d4db2dc00749a73cc9e95fd77e50ea4d4"
+ },
+ "repo": "AQUALaforet/AudioPolicyOverride"
+}

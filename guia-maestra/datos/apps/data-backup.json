@@ -1,0 +1,72 @@
+{
+ "id": "data-backup",
+ "nombre": "DataBackup",
+ "repo": "XayahSuSuSu/Android-DataBackup",
+ "autores": [
+  {
+   "nombre": "XayahSuSuSu",
+   "enlace": "https://github.com/XayahSuSuSu"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/XayahSuSuSu/Android-DataBackup/blob/main/LICENSE"
+ },
+ "nivel": "intermedio",
+ "tarea": "Copiar y restaurar aplicaciones con sus datos en un teléfono con root o con el permiso prestado, con una interfaz más simple.",
+ "capitulo": 1,
+ "orden": 3,
+ "para_quien": {
+  "es": "para quien quiera una copia con pocas decisiones y muchos valores por defecto sensatos.",
+  "no_es": "para quien necesite copias programadas automáticas: aquí se hacen a mano."
+ },
+ "manos": [
+  "Instala, concede root o el permiso prestado y abre la pestaña de copia.",
+  "Elige la carpeta de destino fuera de la memoria interna: tarjeta o carpeta compartida que sobreviva al formateo.",
+  "Marca las aplicaciones con el filtro de «con datos» y desmarca las del sistema que no quieras tocar.",
+  "Lanza la copia y espera: el primer respaldo es el lento; los siguientes solo añaden lo que cambió.",
+  "Prueba la restauración de una sola aplicación antes de hacerlo con todas."
+ ],
+ "resultado_esperado": "Una carpeta con las copias, y una restauración de prueba que devuelve la aplicación tal como estaba.",
+ "si_sale_mal": [
+  "Si la copia se detiene en una aplicación concreta, exclúyela y sigue: una aplicación que falla no debe impedir las demás.",
+  "Si al restaurar dice que la firma no coincide, reinstala el mismo paquete original y vuelve a intentarlo."
+ ],
+ "deshacer": "La restauración sobrescribe los datos de esa aplicación. La copia anterior sigue en la carpeta: no hay que borrarla hasta comprobar que la nueva funciona.",
+ "cabeza": [
+  "Su valor frente a otras es la comodidad: ocho archivos por entrega y doscientas treinta y tres mil novecientas ochenta y tres descargas en las diez últimas indican que hay mucha gente usándola para lo mismo, y eso se traduce en que los fallos raros están encontrados.",
+  "Lo que no cambia por usar una u otra herramienta es la regla de fondo: sin root, el sistema decide qué aplicaciones permiten copia; con root, la copia es completa pero el aparato tiene que estar desbloqueado."
+ ],
+ "limites": [
+  "Su última entrega es de septiembre de 2025, aunque el repositorio se mueve.",
+  "Casi doscientos noventa megabytes de repositorio: es de las herramientas más pesadas de esta guía.",
+  "Sin huellas en sus adjuntos: no se puede verificar la descarga."
+ ],
+ "oficio": {
+  "dato": "Al restaurar, el sistema compara la firma del paquete instalado con la que se usó al copiar; si no coincide, se niega aunque los datos estén perfectos. Y hay un caso que sorprende a mucha gente: si la aplicación se actualizó desde una tienda que re-firma los paquetes, la copia de los datos de la versión anterior deja de poder restaurarse hasta que vuelvas a instalar el paquete original. Por eso una copia completa incluye el APK, no solo los datos.",
+  "como_comprobar": "Antes de restaurar, mira la firma del paquete instalado y compárala con la del original: si el resumen no coincide, no es el mismo firmante.",
+  "comando": "adb shell dumpsys package <paquete> | grep -A3 signatures"
+ },
+ "riesgos": [
+  "Restaurar datos de una aplicación actualizada dentro de una copia vieja puede dejarla en un estado inconsistente.",
+  "Sin copia del paquete, los datos no valen nada si la aplicación desaparece de la tienda."
+ ],
+ "alternativas": [
+  "NeoApplications/Neo-Backup",
+  "hddq/restoid"
+ ],
+ "senal": {
+  "estrellas": 7559,
+  "nota": 48,
+  "edad_dias": 1808,
+  "ultima_entrega": "2025-09-20",
+  "descargas_10": 234305,
+  "contribuyentes": 100,
+  "repo_mb": 288.0,
+  "ci": 4,
+  "incidencias": "190 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de XayahSuSuSu · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

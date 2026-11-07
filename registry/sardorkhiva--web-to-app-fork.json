@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-04"
+ },
+ "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop th",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/sardorkhiva--web-to-app-fork.json",
+  "sha256": "3193cfa70b46828ecf9eb807d09b049881ee2aa986284a866fbe1b5a95ee01cd"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sardorkhiva--web-to-app-fork",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Unlicense",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "web-to-app-fork",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "bd61b4ecfce5d1ed5333f823bc36f1fddbae147d",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:bd61b4ecfce5d1ed5333f823bc36f1fddbae147d"
+ },
+ "repo": "SardorKhiva/web-to-app-fork"
+}

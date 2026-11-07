@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-28",
+  "semantica_http": 200,
+  "ultima_release": "dpc-aio-emergency-enrollment",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/fuzzst--enrrol_new.json",
+  "sha256": "e47f0de02f1f0e2e341716b7c617a122a900891648f8dd01081dcece4237ae19"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "fuzzst--enrrol_new",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "ENRROL_NEW",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1ea062daadf917fcd7c90524032316b13d684719",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:1ea062daadf917fcd7c90524032316b13d684719"
+ },
+ "repo": "FuzzsT/ENRROL_NEW"
+}

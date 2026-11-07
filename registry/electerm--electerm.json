@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2017-11-29",
+  "semantica_http": 200,
+  "ultima_release": "v0.7.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "📻Free and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS, iOS)",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/electerm--electerm.json",
+  "sha256": "b75a8803a36d7e8f08f02e8a38062c31b065f3426cfe8c38e22bd5aa860f731a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "electerm--electerm",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 15529,
+  "stars_por_mes": null
+ },
+ "nombre": "electerm",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3db5ec7d9a2d3833d89a7c24978e1c77526e145a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:3db5ec7d9a2d3833d89a7c24978e1c77526e145a"
+ },
+ "repo": "electerm/electerm",
+ "web": "https://electerm.org"
+}

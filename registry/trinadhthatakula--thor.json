@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-01-26",
+  "semantica_http": 200,
+  "ultima_release": "Thor",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Thor - Android App Manager and App Installer utility",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/trinadhthatakula--thor.json",
+  "sha256": "09959d74c6e53144e09db4f309589490f54ba8a177b2471d93373544b149b0b7"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "trinadhthatakula--thor",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 637,
+  "stars_por_mes": null
+ },
+ "nombre": "Thor",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b82977826f0ad744021b1d98652a8f4e98e045f5",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b82977826f0ad744021b1d98652a8f4e98e045f5"
+ },
+ "repo": "trinadhthatakula/Thor",
+ "web": "https://thor.trinadhthatakula.com"
+}

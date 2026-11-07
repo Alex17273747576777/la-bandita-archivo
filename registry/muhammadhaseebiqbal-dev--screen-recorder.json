@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-03-23",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-10-18"
+ },
+ "descripcion": "A pristine material-you screen recorder with mic and internal audio toggles.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/muhammadhaseebiqbal-dev--screen-recorder.json",
+  "sha256": "22e05b41521f6c4190bcb0086129dc45bbdfd8497639e22b54bc60248b7737a1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "muhammadhaseebiqbal-dev--screen-recorder",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 169,
+  "stars_por_mes": null
+ },
+ "nombre": "Screen-Recorder",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "58df1f0bd336cc2ad416fdcac49e6739a4557020",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:58df1f0bd336cc2ad416fdcac49e6739a4557020"
+ },
+ "repo": "muhammadhaseebiqbal-dev/Screen-Recorder"
+}

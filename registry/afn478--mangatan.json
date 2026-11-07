@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-12-22"
+ },
+ "descripcion": "A 1 click solution for reading Manga with OCR'ed textboxs,  works seamless with",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/afn478--mangatan.json",
+  "sha256": "eb9dc28d63e593add92d93dc727f4ab4944fb9ef8f8ff4da0495b13f3c5bbdd5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "afn478--mangatan",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Mangatan",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "aaa96e10a2fc504d145254642289f201072948f3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:aaa96e10a2fc504d145254642289f201072948f3"
+ },
+ "repo": "afn478/Mangatan"
+}

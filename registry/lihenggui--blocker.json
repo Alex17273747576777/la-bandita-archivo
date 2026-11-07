@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2022-01-22",
+  "semantica_http": 200,
+  "ultima_release": "0.1.45-beta",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Utilize an integrated firewall to manage application components.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/lihenggui--blocker.json",
+  "sha256": "64ef9a0b1728c6bd47bc20ac01d8713ebd1213cfd25ac45640d23c6ac246039e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "lihenggui--blocker",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2480,
+  "stars_por_mes": null
+ },
+ "nombre": "blocker",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c4ff57135349687e35323caf8ae84c7b1e4cc9fe",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c4ff57135349687e35323caf8ae84c7b1e4cc9fe"
+ },
+ "repo": "lihenggui/blocker"
+}

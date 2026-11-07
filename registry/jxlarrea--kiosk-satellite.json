@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2026-11-03",
+  "semantica_http": 200,
+  "ultima_release": "2026.11.3",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Turn any Android device into a beautiful, dedicated Home Assistant kiosk. Purpose-built for Home Assistant from the ground up.",
+ "evidencia": {
+  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
+  "payload_ref": "ficha profunda del 2026-11-03",
+  "sha256": "6df0bd59861991f0f1100eeadb19632a13a4c889e081056aeebf0f8a2f8d0834"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "nodo REST + GraphQL el 3-nov-2026, con README y LICENSE leídos en crudo",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jxlarrea--kiosk-satellite",
+ "licencia": {
+  "archivo": "Kiosk Satellite\nCopyright (c) 2026 Xavier Larrea\n\nThis work is licensed under the Creative Commons\nAttribution-NonCommer",
+  "metodo": "ausencia-firmada",
+  "nota": "la API no reconoce la licencia (NOASSERTION); el archivo del repositorio sí la declara y se transcribe",
+  "spdx": null,
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2461,
+  "stars_por_mes": null
+ },
+ "nombre": "kiosk-satellite",
+ "piezas": [
+  "01"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "089ceb868ff7a39fb18298999ed42dac932e3759",
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
+  "swhid": "swh:1:rev:089ceb868ff7a39fb18298999ed42dac932e3759"
+ },
+ "repo": "jxlarrea/kiosk-satellite"
+}

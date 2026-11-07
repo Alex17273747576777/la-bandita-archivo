@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2021-12-11",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2025-05-12"
+ },
+ "descripcion": "Bring back Wi-Fi and mobile data tiles on Android 12 or higher + a better unified internet tile",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/casperverswijvelt--better-internet-tiles.json",
+  "sha256": "f553cc22b8033ccb46d52819c57228c4560045047ab017c1c857826ba0fdee41"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "casperverswijvelt--better-internet-tiles",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 264,
+  "stars_por_mes": null
+ },
+ "nombre": "Better-Internet-Tiles",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "831a1c8337d420ed1ec280de7d732294f42197c0",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:831a1c8337d420ed1ec280de7d732294f42197c0"
+ },
+ "repo": "CasperVerswijvelt/Better-Internet-Tiles"
+}

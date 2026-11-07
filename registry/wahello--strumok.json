@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-08-15"
+ },
+ "descripcion": "Watch tv shows, movies, anime and read manga in singe app. On android (with andr",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/wahello--strumok.json",
+  "sha256": "65c83a96eef311ad42fa9af73f4031225b0fbd345ce3cc239a7cfe313afc59d2"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "wahello--strumok",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "strumok",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "46c7d91ae800c0ff7672700c0ec603d46d63af91",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:46c7d91ae800c0ff7672700c0ec603d46d63af91"
+ },
+ "repo": "wahello/strumok"
+}

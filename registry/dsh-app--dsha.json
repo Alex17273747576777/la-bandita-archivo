@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-15",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.11",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "免 ROOT 免 Termux，在手机上跑 DeepSeek Harness。完整 Ubuntu 环境 + proroot 零 ptrace 开销 · AI 输出实时上屏 · ADB 直连 · 数据不丢",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/dsh-app--dsha.json",
+  "sha256": "f58bba1df606d336395f5204deceff0aff6745a11d8406da258989d724d935bc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dsh-app--dsha",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2929,
+  "stars_por_mes": null
+ },
+ "nombre": "DSHA",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "fd3713c82e55ab6503bf2dd54afd80e1ee83b8ad",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:fd3713c82e55ab6503bf2dd54afd80e1ee83b8ad"
+ },
+ "repo": "DSH-APP/DSHA"
+}

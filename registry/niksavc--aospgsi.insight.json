@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-15",
+  "semantica_http": 200,
+  "ultima_release": "ci-latest",
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "The Apktool adapter, package installer, and privileged integrations are intentionally interfaces/stubs until their dependency versions, licenses, and platform behavior are validated.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/niksavc--aospgsi.insight.json",
+  "sha256": "586bb40c1ce96abc282d645ac64142b3c2a908024281e0651ffeda51816311c9"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "niksavc--aospgsi.insight",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "aospgsi.insight",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9f21237973ba5aa625685907bf46ff30ec5618d1",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:9f21237973ba5aa625685907bf46ff30ec5618d1"
+ },
+ "repo": "niksavc/aospgsi.insight"
+}

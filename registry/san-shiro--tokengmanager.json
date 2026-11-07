@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-17",
+  "semantica_http": 200,
+  "ultima_release": "v6.1.0",
+  "ultimo_push": "2026-09-19"
+ },
+ "descripcion": "GmsCore fork for ReVanced with Material 3 Expressive design and enhanced feature",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/san-shiro--tokengmanager.json",
+  "sha256": "6c1ba3c27ee6a1e829a2cb2d27a3dce0de9ee963325cea6a03ae9b0770813adb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "san-shiro--tokengmanager",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "TokenGManager",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3db68ab24a341f15f2fe865f80d0e22135cf888a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3db68ab24a341f15f2fe865f80d0e22135cf888a"
+ },
+ "repo": "San-Shiro/TokenGManager"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-31"
+ },
+ "descripcion": "Legacy version of Kototoro a Manga, Novel, and Video reader for Android",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/h4vok-git--kototoro-legacy.json",
+  "sha256": "7498e1711f09dae7a707ea4d54f1012b4f80188bf5065500ee5b67ebd33d6f51"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "h4vok-git--kototoro-legacy",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Kototoro-legacy",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "65d2cc2e46001d68458100ad621649b250d94f86",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:65d2cc2e46001d68458100ad621649b250d94f86"
+ },
+ "repo": "h4vok-git/Kototoro-legacy"
+}

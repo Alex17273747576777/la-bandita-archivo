@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-05-19",
+  "semantica_http": 200,
+  "ultima_release": "split-apks",
+  "ultimo_push": "2026-05-28"
+ },
+ "descripcion": "Your Spotify + YouTube Music library & daily mixes, offline in lossless FLAC. Fr",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/winstriker--stash.json",
+  "sha256": "29e8dba8aa1be79e1520fc2f4b8344f4fb477796584ab92ee9f1356784126a0b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "winstriker--stash",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Stash",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d80c5deaa312aac7bbc857aeeb5ba0bb8c3b944a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d80c5deaa312aac7bbc857aeeb5ba0bb8c3b944a"
+ },
+ "repo": "winstriker/Stash"
+}

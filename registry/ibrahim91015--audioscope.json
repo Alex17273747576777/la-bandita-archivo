@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-05",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-10-06"
+ },
+ "descripcion": "Offline Android multitrack audio capture console with live sources and Material 3 controls",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ibrahim91015--audioscope.json",
+  "sha256": "9fdf4248f0f9ff1f9901b9a05be8aa3f9cb47769fb9b3479a3d5fedf191d0b6a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ibrahim91015--audioscope",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "AudioScope",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "449d386d8f445d99079c507fbaf527eb397f4b39",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:449d386d8f445d99079c507fbaf527eb397f4b39"
+ },
+ "repo": "ibrahim91015/AudioScope"
+}

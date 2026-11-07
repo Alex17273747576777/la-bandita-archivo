@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2024-08-17"
+ },
+ "descripcion": "Julidfisabilillah for Palestine :palestinian_territories:",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/hexated--cloudstream-extensions-hexated.json",
+  "sha256": "fd8343605aa3e36246d1d6534966238a98cc599387e13cfceb5d39748c3f9cbd"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hexated--cloudstream-extensions-hexated",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 397,
+  "stars_por_mes": null
+ },
+ "nombre": "cloudstream-extensions-hexated",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d540c0702c99837e47bc61450e341f9ed90915aa",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d540c0702c99837e47bc61450e341f9ed90915aa"
+ },
+ "repo": "hexated/cloudstream-extensions-hexated",
+ "web": "https://julidfisabilillah.org/"
+}

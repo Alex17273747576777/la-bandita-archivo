@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2024-12-10",
+  "semantica_http": 200,
+  "ultima_release": "1.0",
+  "ultimo_push": "2024-12-11"
+ },
+ "descripcion": "GmsCore fork for ReVanced with Material You, features and improvements",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mystic76--microg-re.json",
+  "sha256": "bbe748bc8476c804dbc9f48c30b501d3ca2feac80ed4337b94345c8feb5852a8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mystic76--microg-re",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "MicroG-RE",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2fe3199b7f49d866f4a0e729b9c4200bcf02ae23",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2fe3199b7f49d866f4a0e729b9c4200bcf02ae23"
+ },
+ "repo": "mystic76/MicroG-RE"
+}

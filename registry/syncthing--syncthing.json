@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2017-03-07",
+  "semantica_http": 200,
+  "ultima_release": "v0.12.24",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Open Source Continuous File Synchronization",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/syncthing--syncthing.json",
+  "sha256": "4f29d5ad1d06a5dd3bbc893079cdafa523dd9aab460d2ff9a634f4f90476c2ac"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "syncthing--syncthing",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MPL-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 90035,
+  "stars_por_mes": null
+ },
+ "nombre": "syncthing",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b34734376128492fa4e1b01412193de033e20613",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b34734376128492fa4e1b01412193de033e20613"
+ },
+ "repo": "syncthing/syncthing",
+ "web": "https://syncthing.net/"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-07-09"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/lonedev6--appbooster.json",
+  "sha256": "8570ec1185ff5e554e3c8d4b6022f64d736c1af773ce2c4ef89620d08544c7e9"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lonedev6--appbooster",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "AppBooster",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5658ea2d8fee45249cfdc84e6e16404f2b2299a0",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5658ea2d8fee45249cfdc84e6e16404f2b2299a0"
+ },
+ "repo": "LoneDev6/AppBooster"
+}

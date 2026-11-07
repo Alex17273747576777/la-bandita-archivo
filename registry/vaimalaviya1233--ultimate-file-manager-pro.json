@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-26"
+ },
+ "descripcion": "Ultimate File Manager Pro",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/vaimalaviya1233--ultimate-file-manager-pro.json",
+  "sha256": "90b13f5b555af6756132450433dbfa2e430181900f97cbebf032e99f7d91bc05"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "vaimalaviya1233--ultimate-file-manager-pro",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "ultimate-file-manager-pro",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a7d0dacfa62fa1db41e0294ca8c5118400f0ecaf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a7d0dacfa62fa1db41e0294ca8c5118400f0ecaf"
+ },
+ "repo": "vaimalaviya1233/ultimate-file-manager-pro"
+}

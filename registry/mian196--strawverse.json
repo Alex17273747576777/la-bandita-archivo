@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-05-31",
+  "semantica_http": 200,
+  "ultima_release": "v6.0.3",
+  "ultimo_push": "2026-06-01"
+ },
+ "descripcion": "A gui to download anime & manga in batches & its fast :3",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/mian196--strawverse.json",
+  "sha256": "97b7adc376d966e6b553f58585d3baecacb5cc00928d514809095ffee3999244"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mian196--strawverse",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "StrawVerse",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a95a7b329c186bc8d8a8010fb2e2bf2dd25ee126",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a95a7b329c186bc8d8a8010fb2e2bf2dd25ee126"
+ },
+ "repo": "mian196/StrawVerse"
+}

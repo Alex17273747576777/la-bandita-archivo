@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-22"
+ },
+ "descripcion": "[Arsenal Soberano] [Arsenal Soberano] The Swiss Army Knife of Offline AI. Chat,",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/arsenal-open-source--ogam.json",
+  "sha256": "f0deb00de909bdf365276c0f50d2bace05ebd4f3f18436e1dead58df3adb932e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "arsenal-open-source--ogam",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OGAM",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f7ad5e7b23fc589f8fa8fe50684cea6a6f082467",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:f7ad5e7b23fc589f8fa8fe50684cea6a6f082467"
+ },
+ "repo": "arsenal-open-source/OGAM"
+}

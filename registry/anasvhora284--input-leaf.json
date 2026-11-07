@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-03-21",
+  "semantica_http": 200,
+  "ultima_release": "1.0.0",
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "Android client for Input Leap - share keyboard & mouse from your pc to your phone ",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/anasvhora284--input-leaf.json",
+  "sha256": "496818e569ccd9b21a771815325baab9d3f3e926eaa18f1f53a4a5243e8d5955"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "anasvhora284--input-leaf",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 69,
+  "stars_por_mes": null
+ },
+ "nombre": "input-leaf",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "54214b3253fc612d064e9fdaf2e208a52f0fea1a",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:54214b3253fc612d064e9fdaf2e208a52f0fea1a"
+ },
+ "repo": "anasvhora284/input-leaf",
+ "web": "https://inputleaf.anasvhora.tech/"
+}

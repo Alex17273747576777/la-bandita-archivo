@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-04",
+  "semantica_http": 200,
+  "ultima_release": "v1.8.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "AniDash – Open-source anime streaming, tracking, manga and offline download app for Android.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/anshdeepofficial1--anidash.json",
+  "sha256": "284586134cc5241cdf12ed42423289531b16d8023b9ae8e801821c2d0ac19e21"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "anshdeepofficial1--anidash",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 28,
+  "stars_por_mes": null
+ },
+ "nombre": "AniDash",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d10211ccf8fc451a2555f74fbfa482637f30a3e6",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d10211ccf8fc451a2555f74fbfa482637f30a3e6"
+ },
+ "repo": "anshdeepofficial1/AniDash",
+ "web": "https://anidashweb.vercel.app"
+}

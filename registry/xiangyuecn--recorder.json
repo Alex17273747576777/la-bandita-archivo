@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2019-12-07",
+  "semantica_http": 200,
+  "ultima_release": "1.0.19120600",
+  "ultimo_push": "2026-07-30"
+ },
+ "descripcion": "html5 js 录音 mp3 wav ogg webm amr g711a g711u 格式，支持pc和Android、iOS部分Web浏览器、Hybrid App（提供Android iOS App源码）、微信，提供ASR语音识别转文字 H5版语音通话聊天示例 DTMF编码解码",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/xiangyuecn--recorder.json",
+  "sha256": "3c3739b04e75f08d27f0ad020b99638d945b87e491fc5902226ce68ab0fa59c8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "xiangyuecn--recorder",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 5642,
+  "stars_por_mes": null
+ },
+ "nombre": "Recorder",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "74180842defbcf1cf3c8bccabceb3cc0faed5b6f",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:74180842defbcf1cf3c8bccabceb3cc0faed5b6f"
+ },
+ "repo": "xiangyuecn/Recorder",
+ "web": "https://xiangyuecn.github.io/Recorder/"
+}

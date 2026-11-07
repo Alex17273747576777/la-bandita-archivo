@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2023-11-12"
+ },
+ "descripcion": "/r/FREEMEDIAHECKYEAH",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/elunesgraces--fmhy-luna.json",
+  "sha256": "6682d13acf2e8e83c44521be8b59b65db359dfed808315d8c3da555712926d07"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "elunesgraces--fmhy-luna",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "FMHY-luna",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0bf972001f15b4e925e1b5742ab299b677cb9aff",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:0bf972001f15b4e925e1b5742ab299b677cb9aff"
+ },
+ "repo": "elunesgraces/FMHY-luna"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2017-12-05",
+  "semantica_http": 200,
+  "ultima_release": "v2.2",
+  "ultimo_push": "2022-09-07"
+ },
+ "descripcion": "Implement screen capture without root on Android 5.0+ by using MediaProjectionManager, VirtualDisplay, AudioRecord, MediaCodec and MediaMuxer APIs",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/yrom--screenrecorder.json",
+  "sha256": "89dfc480b013fe5bebd4688889a3e6952b468ae0ed8266ee6cf4b0cc172543e8"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yrom--screenrecorder",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1909,
+  "stars_por_mes": null
+ },
+ "nombre": "ScreenRecorder",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f71b7b0c72050dfc836a185f3a532d0ea9fcc30c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:f71b7b0c72050dfc836a185f3a532d0ea9fcc30c"
+ },
+ "repo": "yrom/ScreenRecorder"
+}

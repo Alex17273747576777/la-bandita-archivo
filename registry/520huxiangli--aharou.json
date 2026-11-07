@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-26",
+  "semantica_http": 200,
+  "ultima_release": "v1.11.0-dev.201",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Aharou · 手机上的 AI 助手与 Coding Agent（内置 Linux 环境 · 影子屏）",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/520huxiangli--aharou.json",
+  "sha256": "d4a2a9bfd1ccc56ae73bdcef5503054b1a073e5b735a8508ab9fcb8805b4f4b3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "520huxiangli--aharou",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 31,
+  "stars_por_mes": null
+ },
+ "nombre": "Aharou",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c167c1f0a52e83217408962662f38b2d46dd4c21",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c167c1f0a52e83217408962662f38b2d46dd4c21"
+ },
+ "repo": "520huxiangli/Aharou"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-08"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/akibkawshara7--anizen.json",
+  "sha256": "0d99eca2bb8fca87a3f8c43c531bc139defd6315a9ed2cbaf9babdf368b52d5c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "akibkawshara7--anizen",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "AniZen",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "019f002ace7fda0f65be14e39a4a94d2a05a147e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:019f002ace7fda0f65be14e39a4a94d2a05a147e"
+ },
+ "repo": "akibkawshara7/AniZen"
+}

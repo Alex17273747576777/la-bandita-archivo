@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-20",
+  "semantica_http": 200,
+  "ultima_release": "v2.0.0",
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "⚡ Modern, high-performance SA/VC/III .IMG archive & .TXD texture tool for Android (Android 12-16) with Shizuku & Material 3",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/pkok1099--imgtxd-studio.json",
+  "sha256": "df073fb2e4785b6a869594e2e0a454693ae55590e2bbc82f56f1822433d4c08a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "pkok1099--imgtxd-studio",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "imgtxd-studio",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2b852c26f1f3f9281dce577e0471955eae51bf91",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:2b852c26f1f3f9281dce577e0471955eae51bf91"
+ },
+ "repo": "pkok1099/imgtxd-studio",
+ "web": "https://github.com/pkok1099/imgtxd-studio/releases/latest"
+}

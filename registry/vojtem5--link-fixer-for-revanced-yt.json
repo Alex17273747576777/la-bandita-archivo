@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-17",
+  "semantica_http": 200,
+  "ultima_release": "Release",
+  "ultimo_push": "2026-10-17"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/vojtem5--link-fixer-for-revanced-yt.json",
+  "sha256": "acf71a997bb44e786631a952b71c97e6af4c15cac3e9fd1250acb406685d5630"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "vojtem5--link-fixer-for-revanced-yt",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "Link-Fixer-for-ReVanced-YT",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d7ae4bc26fcef4433ac6c8be3cbfa2f56f112e34",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:d7ae4bc26fcef4433ac6c8be3cbfa2f56f112e34"
+ },
+ "repo": "Vojtem5/Link-Fixer-for-ReVanced-YT"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-05-03",
+  "semantica_http": 200,
+  "ultima_release": "r10487",
+  "ultimo_push": "2026-07-05"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/rianza--komikku-preview.json",
+  "sha256": "db5b91151369f20e45ad51d3d4910894c0fab1ca5a99e43944bd650770abafc9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rianza--komikku-preview",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "komikku-preview",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ceb7e988b52fb0babf705e26b7f2c95fee9505bf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ceb7e988b52fb0babf705e26b7f2c95fee9505bf"
+ },
+ "repo": "rianza/komikku-preview"
+}

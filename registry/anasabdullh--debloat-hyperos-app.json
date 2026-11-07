@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-19",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-09-28"
+ },
+ "descripcion": "Open-source Android app to safely debloat Xiaomi & HyperOS devices using Shizuku. No root required.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/anasabdullh--debloat-hyperos-app.json",
+  "sha256": "41d203d20f72678f808f8ab953a6abb928067eadb2e139dd6c07b520e305821f"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "anasabdullh--debloat-hyperos-app",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 4,
+  "stars_por_mes": null
+ },
+ "nombre": "Debloat-HyperOS-App",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b44b5fa48d04b9a0ef1f55c36adc0c311febf929",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b44b5fa48d04b9a0ef1f55c36adc0c311febf929"
+ },
+ "repo": "AnasAbdullh/Debloat-HyperOS-App"
+}

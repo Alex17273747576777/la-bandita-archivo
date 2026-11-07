@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2024-11-17",
+  "semantica_http": 200,
+  "ultima_release": "v1.5.1",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "Watch tv shows, movies, anime and read manga in singe app. On android (with android tv), windows and linux.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/strumok-app--strumok.json",
+  "sha256": "1e964f35656f00b24647b973de0aefa66b5d1873f56dc8bb8da14a31592b96e8"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "strumok-app--strumok",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 77,
+  "stars_por_mes": null
+ },
+ "nombre": "strumok",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c4cc003ddb0296eff4f9db227e7915ef23a6e780",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c4cc003ddb0296eff4f9db227e7915ef23a6e780"
+ },
+ "repo": "strumok-app/strumok"
+}

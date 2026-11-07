@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Free open source manga and novel reader. (Android only)",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/arelse--kaimono.json",
+  "sha256": "9f0d837b84cf21b61c2d20dfaab5d793f7d7d81db0ec91831a61449f2489efa1"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "arelse--kaimono",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Kaimono",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a44e1b72ed8d2e01d5e04c17fdab45e8c62802cf",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:a44e1b72ed8d2e01d5e04c17fdab45e8c62802cf"
+ },
+ "repo": "Arelse/Kaimono"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-30"
+ },
+ "descripcion": "Your on-device AI assistant, capable of operating terminals and performing a wid",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/wazerwpiz--wazeromni.json",
+  "sha256": "f9492a4caedc0b75247351f1f6d4d88606f70e19ac5a71c231d2a40ced75e7d6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "wazerwpiz--wazeromni",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "WazerOmni",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2f2afbebbe19a8682e21bca1b1c26a7fd044ba6e",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:2f2afbebbe19a8682e21bca1b1c26a7fd044ba6e"
+ },
+ "repo": "WazerWpiz/WazerOmni"
+}

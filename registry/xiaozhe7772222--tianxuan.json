@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-06",
+  "semantica_http": 200,
+  "ultima_release": "v0.20.0",
+  "ultimo_push": "2026-10-26"
+ },
+ "descripcion": "天玄 TaiXuan — 无 Root Android 上的 PRoot Linux 沙箱与 AI Agent Harness",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/xiaozhe7772222--tianxuan.json",
+  "sha256": "7781fab1765c5f02ba6ba45a313bfb069310318b5fb88d177fa10ab906ac02a9"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "xiaozhe7772222--tianxuan",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "tianxuan",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "caad40090a4f2c2edbe54e6eaae60a3dd1de7d21",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:caad40090a4f2c2edbe54e6eaae60a3dd1de7d21"
+ },
+ "repo": "xiaozhe7772222/tianxuan"
+}

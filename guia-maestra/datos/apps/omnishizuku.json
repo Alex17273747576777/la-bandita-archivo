@@ -1,0 +1,72 @@
+{
+ "id": "omnishizuku",
+ "nombre": "OmniShizuku",
+ "repo": "krishna3163/OmniShizuku",
+ "autores": [
+  {
+   "nombre": "krishna3163",
+   "enlace": "https://github.com/krishna3163"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/krishna3163/OmniShizuku/blob/main/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Probar temprano el derivado que más está trabajando por día, con los ojos abiertos y la fecha en la mano.",
+ "capitulo": 3,
+ "orden": 6,
+ "para_quien": {
+  "es": "para quien tenga un aparato de repuesto y quiera ver de cerca algo que acaba de encender el motor.",
+  "no_es": "para el teléfono del trabajo: diez días no sostienen una promesa."
+ },
+ "manos": [
+  "Comprueba la fecha de la última entrega: si tiene más de una semana en un proyecto de diez días, ya es otra cosa.",
+  "Instálalo en el aparato de repuesto y concédele el permiso como a cualquier otro.",
+  "Abre la pantalla de estado y anota la versión exacta, incluida la parte que dice que está en desarrollo.",
+  "Ejecuta una tarea sencilla —listar aplicaciones, congelar una que no uses— y comprueba el resultado en los ajustes.",
+  "Vuelve a mirarlo dentro de dos semanas: si sigue publicando pasa a la lista corta; si se calló, se cierra la pestaña."
+ ],
+ "resultado_esperado": "El permiso funciona y la versión queda anotada para comparar el 3 de diciembre de 2026.",
+ "si_sale_mal": [
+  "Si una función no está terminada, no es un fallo: la versión está declarada como desarrollo.",
+  "Si tras reiniciar el aparato pide algo raro, revisa la nota de la última entrega antes de seguir."
+ ],
+ "deshacer": "Desinstala y desactiva la depuración. En un aparato de repuesto no hay nada que recuperar; por eso se prueba ahí.",
+ "cabeza": [
+  "Diecisiete estrellas, diez días de vida y sesenta y siete de nota: más que proyectos con mil seiscientas estrellas. Cinco personas empujando y doscientos treinta y cinco cambios en un mes no son una tarde de trabajo.",
+  "La nota alta tan temprano premia el trabajo visible y no puede prometer continuidad. Ese es exactamente el pacto: se mira, se prueba, se remide."
+ ],
+ "limites": [
+  "Diez días de vida: ninguna garantía de que exista el mes que viene.",
+  "Una sola incidencia cerrada de una: no hay historial de respuesta.",
+  "Nombre repetido con un proyecto anterior y muerto de otro dueño; el vivo es este."
+ ],
+ "oficio": {
+  "dato": "En un proyecto de días, el dato más informativo no es la estrella sino la proporción entre cambios y personas: doscientos treinta y cinco cambios entre cinco personas en treinta días son cuarenta y siete cambios por persona, un ritmo de trabajo real. Un proyecto inflado suele tener muchos cambios y una sola mano; la diferencia se ve en una línea.",
+  "como_comprobar": "Pide los cambios de los últimos treinta días a la interfaz de datos y cuenta; divide entre las personas que devuelve la consulta de contribuyentes. Se recalcula en diez segundos y no depende de ninguna opinión.",
+  "comando": "curl -s 'https://api.github.com/repos/krishna3163/OmniShizuku/commits?since=2026-10-04T00:00:00Z&per_page=100' | grep -c sha"
+ },
+ "riesgos": [
+  "Instalar en el aparato principal un proyecto de diez días es asumir un riesgo que nadie ha medido.",
+  "El nombre se repite con otro proyecto del mismo nombre y dueño distinto: confundirlos es el error más fácil al copiar una lista."
+ ],
+ "alternativas": [
+  "RikkaApps/Shizuku",
+  "HmnDev-Tech/shevery"
+ ],
+ "senal": {
+  "estrellas": 18,
+  "nota": 67,
+  "edad_dias": 11,
+  "ultima_entrega": "2026-11-02",
+  "descargas_10": 456,
+  "contribuyentes": 5,
+  "repo_mb": 8.0,
+  "ci": 5,
+  "incidencias": "0 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de krishna3163 · Apache-2.0 · medido el 3 de noviembre de 2026"
+}

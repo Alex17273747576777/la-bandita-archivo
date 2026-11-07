@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-07",
+  "semantica_http": 200,
+  "ultima_release": "prerelease-3234de4899763e224c39f733e31babd1cf2647dd",
+  "ultimo_push": "2026-07-07"
+ },
+ "descripcion": "Free and open source manga reader for desktop(trying)",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kokuuuuuun--mihon-desktop.json",
+  "sha256": "e687893549f02aaed96dee5c418c5b70b69e0054cd6e23202b4bc9c13dc4d629"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kokuuuuuun--mihon-desktop",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "Mihon-desktop",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c9f282559fca7264f95eb3d83392689bf9ec372f",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c9f282559fca7264f95eb3d83392689bf9ec372f"
+ },
+ "repo": "Kokuuuuuun/Mihon-desktop"
+}

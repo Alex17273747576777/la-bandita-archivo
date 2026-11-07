@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-17"
+ },
+ "descripcion": "Watch tv shows, movies, anime and read manga in singe app. On android (with andr",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/kliopa10--strumok.json",
+  "sha256": "53af0e7e3875afce1a4b4e42abe88cd699b4a06c0a56afbaae919fc4500b7342"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kliopa10--strumok",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "strumok",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d6793d312efe4de5a26cf83736b03b178a1734f8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d6793d312efe4de5a26cf83736b03b178a1734f8"
+ },
+ "repo": "kliopa10/strumok"
+}

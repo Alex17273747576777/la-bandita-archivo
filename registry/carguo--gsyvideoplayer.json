@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2018-03-02",
+  "semantica_http": 200,
+  "ultima_release": "v4.1.0",
+  "ultimo_push": "2026-10-10"
+ },
+ "descripcion": "Video players (IJKplayer, ExoPlayer, MediaPlayer), HTTPS, 16k page size, danmaku (bullet chat) support, external subtitles, support for filters, watermarks, and GIF screenshots, pre-roll and mid-roll ads, multiple simultaneous playback, basic seeking/dragging, volume and brightness adjustment, play-while-cache support",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/carguo--gsyvideoplayer.json",
+  "sha256": "6cdd85b9920105e6b0bd53b0fa6a411949bc46a065d47ab73828d4d616613a76"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "carguo--gsyvideoplayer",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 21527,
+  "stars_por_mes": null
+ },
+ "nombre": "GSYVideoPlayer",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "04a036565e03f843a5ba89926e7ff1a64e0dbec2",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:04a036565e03f843a5ba89926e7ff1a64e0dbec2"
+ },
+ "repo": "CarGuo/GSYVideoPlayer"
+}

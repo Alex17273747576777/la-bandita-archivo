@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2026-04-07",
+  "semantica_http": 200,
+  "ultima_release": "New",
+  "ultimo_push": "2026-04-17"
+ },
+ "descripcion": "📱 Open-source Android app store — Discover, download, and manage free apps with a clean Material Design interface",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/developer-for-git--mod-store.json",
+  "sha256": "33244f8572d56c1b8f9415728cce66dc48409a00096a41b072ae4991d8b1ad27"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "developer-for-git--mod-store",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 6,
+  "stars_por_mes": null
+ },
+ "nombre": "MOD-STORE",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "68b36119889b6f918c506bf57a0b0995fdca7bc8",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:68b36119889b6f918c506bf57a0b0995fdca7bc8"
+ },
+ "repo": "Developer-For-Git/MOD-STORE"
+}

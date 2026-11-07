@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-12",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.33",
+  "ultimo_push": "2026-08-26"
+ },
+ "descripcion": "友好易上手的轻办公AI智能体，采用类微信群组的交互与管理模式。 — An easy-to-use desktop office AI agent with a WhatsApp-groupchat-style conversational interface.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/hirezmingd--knowe-agent-groupchat.json",
+  "sha256": "dfaa70df1a71345e215987a9f002750d1d90967fff3bdac3bad99c0a3d514e96"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hirezmingd--knowe-agent-groupchat",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 195,
+  "stars_por_mes": null
+ },
+ "nombre": "Knowe-agent-groupchat",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "23411a014d3ab2f04defbd6221b25f2db932708f",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:23411a014d3ab2f04defbd6221b25f2db932708f"
+ },
+ "repo": "HirezmingD/Knowe-agent-groupchat",
+ "web": "www.knowe-agent.online"
+}

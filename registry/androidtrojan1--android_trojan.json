@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2016-09-16"
+ },
+ "descripcion": "Android trojan with abilities of recording calls, live mic streaming , remote root commands execution and other",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/androidtrojan1--android_trojan.json",
+  "sha256": "aac00b80c01b8c819422cfbbc1f15fcf78fb5c6e933be01eb9fc7fc59e6548b3"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "androidtrojan1--android_trojan",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 176,
+  "stars_por_mes": null
+ },
+ "nombre": "android_trojan",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b5d67a859612999c6f9127fbcf27fe0f9f248171",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b5d67a859612999c6f9127fbcf27fe0f9f248171"
+ },
+ "repo": "androidtrojan1/android_trojan"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-05-02"
+ },
+ "descripcion": "An extension that detects starred, safe, unsafe or potentially unsafe sites usin",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/repacked--fmhy-safeguard.json",
+  "sha256": "798a237880eee12b28ac81adbd8595cc9b4666698d5ffb04c5dc6886fa26a91e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "repacked--fmhy-safeguard",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "FMHY-SafeGuard",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b0caeed041d4a3714c3d5d7362da97c45d10476a",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b0caeed041d4a3714c3d5d7362da97c45d10476a"
+ },
+ "repo": "RePacked/FMHY-SafeGuard"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-01"
+ },
+ "descripcion": "A local-first personal AI agent that lives on your Android phone. Permanent memo",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/879258354--jenny-android-ai-agent.json",
+  "sha256": "a617f66578cbc792f97fdabb3f5484a96c1ec06b90e2f874171d9d43f4387e45"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "879258354--jenny-android-ai-agent",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "jenny-android-ai-agent",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "36bab54746bd8c3c179d817b254706f3a04d7c24",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:36bab54746bd8c3c179d817b254706f3a04d7c24"
+ },
+ "repo": "879258354/jenny-android-ai-agent"
+}

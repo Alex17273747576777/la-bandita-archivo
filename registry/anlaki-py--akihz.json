@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-04-24",
+  "semantica_http": 200,
+  "ultima_release": "v0.0.0-beta.main.0",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "akiHz - Lightweight Shizuku Refresh Rate Changer with Quick Settings Tile & Live FPS Monitor (No Root)",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/anlaki-py--akihz.json",
+  "sha256": "874377529a9222b2c80e7fd5d61f073d5f9ae02fc12452fc8ccb0400b50b58dd"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "anlaki-py--akihz",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 29,
+  "stars_por_mes": null
+ },
+ "nombre": "akihz",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2f8cbcb94da97bf3de0359d01444ae7f9c1da461",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:2f8cbcb94da97bf3de0359d01444ae7f9c1da461"
+ },
+ "repo": "anlaki-py/akihz",
+ "web": "https://akihz.anlaki.dev"
+}

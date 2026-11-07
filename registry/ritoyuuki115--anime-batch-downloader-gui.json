@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-02-21"
+ },
+ "descripcion": "A gui to download anime & manga in batches & its fast :3",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/ritoyuuki115--anime-batch-downloader-gui.json",
+  "sha256": "4087c1f9cb0301c78e5d7d2cec546af85e538d825f6dd7f01fa4422db9c866d4"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ritoyuuki115--anime-batch-downloader-gui",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Anime-batch-downloader-gui",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e3bfbe241cfed6d7133f2f8d7ea540a8f8264b31",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:e3bfbe241cfed6d7133f2f8d7ea540a8f8264b31"
+ },
+ "repo": "Ritoyuuki115/Anime-batch-downloader-gui"
+}

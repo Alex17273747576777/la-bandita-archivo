@@ -1,0 +1,535 @@
+{
+ "codificacion": {
+  "replacement": [],
+  "mojibake": [],
+  "control": [],
+  "zerowidth": [
+   [
+    "WhatsApp-dominicano-ES",
+    "81-Miyorare-lector-manga-novelas-source-packs-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+    ""
+   ],
+   [
+    "WhatsApp-dominicano-ES",
+    "85-Pixel-en-mano-PixelXpert-el-taller-que-le-devuelve-la-mano-al-dueno-del-Pixel-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+    ""
+   ],
+   [
+    "WhatsApp-dominicano-ES",
+    "96-La-foto-I-el-retrato-del-ecosistema-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+    ""
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "30-La-cara-del-sistema-lanzadores-teclados-Facebook-La-Bandita-2026-09-15-dominicano-ES.md",
+    ""
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "73-Espejos-homonimos-y-mudanzas-el-libro-de-los-nombres-Facebook-La-Bandita-2026-09-15-dominicano-ES.md",
+    ""
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "81-Miyorare-lector-manga-novelas-source-packs-Facebook-La-Bandita-2026-09-22-dominicano-ES.md",
+    ""
+   ]
+  ],
+  "sin_nota": [
+   [
+    "WhatsApp-dominicano-ES",
+    "10-Gltools-no-se-receta-spoof-gpu-restaurada-Facebook-La-Bandita-2026-10-02-dominicano-ES.md",
+    ""
+   ]
+  ],
+  "nota_multiple": [
+   [
+    "WhatsApp-dominicano-ES",
+    "00-LA-LISTA-ecosistema-libre-guia-por-guia-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+    2
+   ],
+   [
+    "WhatsApp-dominicano-ES",
+    "01-Tiendas-APK-legales-mods-reloj-2027-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+    2
+   ],
+   [
+    "WhatsApp-dominicano-ES",
+    "20-El-mapa-del-conservatorio-y-del-sotano-Audio-y-root-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "00-LA-LISTA-ecosistema-libre-en-16-guias-Facebook-La-Bandita-2026-09-15-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "01-Tiendas-APK-legales-mods-reloj-2027-Facebook-La-Bandita-2026-09-22-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "03-Verificacion-Desarrolladores-hito-30-sep-2026-Facebook-La-Bandita-2026-09-22-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-Facebook-La-Bandita-2026-09-22-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "04-Extensiones-tres-arboles-hubs-parsers-Facebook-La-Bandita-2026-09-22-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-22-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "06-Forks-lectores-Mihon-Aniyomi-segundas-generaciones-Facebook-La-Bandita-2026-09-22-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "07-El-arbol-vecino-Usagi-Kotatsu-Redo-Futon-Kototoro-Facebook-La-Bandita-2026-09-22-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "08-Musica-FOSS-clientes-con-repo-La-Bandita-2026-09-22-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "09-Herramientas-FOSS-caja-de-oficio-Facebook-La-Bandita-2026-09-22-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "112-La-soberania-local-LocalSend-y-RustDesk-sin-nube-ajena-Facebook-La-Bandita-2026-10-29.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "12-Grabar-llamadas-sin-root-ShizuCallRecorder-Facebook-La-Bandita-2026-10-15-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "13-Android-en-tu-iPhone-Husk-Facebook-La-Bandita-2026-10-15-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "14-Android-dentro-de-Android-familia-DSU-Facebook-La-Bandita-2026-10-15-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "15-Rama-J2K-abuelo-despierto-Facebook-La-Bandita-2026-09-27-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "53-Las-otras-forjas-gitlab-codeberg-y-los-sitios-Facebook-La-Bandita-2026-09-15-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "72-Las-actas-del-censo-Facebook-La-Bandita-2026-09-15-dominicano-ES.md",
+    2
+   ],
+   [
+    "Facebook-dominicano-ES",
+    "81-Miyorare-lector-manga-novelas-source-packs-Facebook-La-Bandita-2026-09-22-dominicano-ES.md",
+    2
+   ]
+  ]
+ },
+ "archivos_identicos": [],
+ "duplicados_bloques": {
+  "archivos": 1,
+  "detalle": {
+   "WhatsApp-dominicano-ES/84-El-escondite-Zygisk-Assistant-el-manto-del-root-con-vara-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md": {
+    "bloques_distintos_duplicados": 1,
+    "sobrantes": 1
+   }
+  }
+ },
+ "marcadores": {
+  "licencia_sin_resolver": {
+   "ocurrencias": 0,
+   "archivos": 0,
+   "muestra": []
+  },
+  "estrella_sin_medir": {
+   "ocurrencias": 0,
+   "archivos": 0,
+   "muestra": []
+  },
+  "usuario_repositorio": {
+   "ocurrencias": 1,
+   "archivos": 1,
+   "muestra": [
+    [
+     "WhatsApp-dominicano-ES",
+     "81-Miyorare-lector-manga-novelas-source-packs-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ]
+   ]
+  },
+  "todo_marcador": {
+   "ocurrencias": 133,
+   "archivos": 68,
+   "muestra": [
+    [
+     "WhatsApp-dominicano-ES",
+     "04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "08-Musica-FOSS-clientes-con-repo-SimpMusic-bloquea-reempaques-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "10-GLTools-no-se-receta-spoof-GPU-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "100-La-foto-V-la-mesa-redonda-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "101-La-foto-VI-el-pabellon-de-los-dormidos-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "13-Android-en-iPhone-Husk-traduce-en-vez-de-emular-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "14-Android-dentro-de-Android-DSU-GSI-hallazgo-del-dueno-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     6
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "15-El-mapa-manga-FOSS-de-Android-la-familia-y-las-sucesiones-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "16-El-mapa-video-YT-frontends-streamers-y-la-diaspora-aniyomi-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     6
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "17-El-taller-de-parcheo-Morphe-MicroG-RE-y-los-parches-Hush-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "18-El-bolsillo-que-se-volvio-computadora-Vectras-QEMU-Winlator-y-Termux-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "19-El-panorama-de-la-IA-abierta-MCP-Jan-NextChat-y-airi-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     4
+    ]
+   ]
+  },
+  "lorem": {
+   "ocurrencias": 0,
+   "archivos": 0,
+   "muestra": []
+  },
+  "sin_licencia_declarada": {
+   "ocurrencias": 23,
+   "archivos": 20,
+   "muestra": [
+    [
+     "WhatsApp-dominicano-ES",
+     "04-Almacenes-de-extensiones-KeiSource-AbiSource-y-el-resurtimiento-del-manga-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "04-Extensiones-tres-arboles-hubs-parsers-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "103-La-foto-VIII-las-licencias-de-la-mesa-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     2
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "15-El-mapa-manga-FOSS-de-Android-la-familia-y-las-sucesiones-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "21-La-cosecha-musical-del-censo-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "24-El-escudo-y-la-llave-v2rayNG-las-listas-que-bloquean-y-el-testamento-de-Bromite-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     3
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "25-El-taller-de-herramientas-Shizuku-quieta-el-inspector-y-el-descargador-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "27-El-tronco-de-las-llaves-KeePassDX-cumple-nueve-la-boveda-sin-testamento-y-el-faro-de-69-mil-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "30-La-cara-de-la-casa-tres-escritorios-y-dos-teclados-del-primer-toque-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "82-La-regleta-ZygiskNext-el-enchufe-de-los-modulos-del-root-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "95-El-mapa-de-la-fila-la-biblioteca-mirandose-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ],
+    [
+     "WhatsApp-dominicano-ES",
+     "96-La-foto-I-el-retrato-del-ecosistema-WhatsApp-La-Bandita-2026-10-15-dominicano-ES.md",
+     1
+    ]
+   ]
+  },
+  "licencia_sin_clasificar": {
+   "ocurrencias": 0,
+   "archivos": 0,
+   "muestra": []
+  }
+ },
+ "urls": {
+  "unicas": 669,
+  "apariciones": 991,
+  "github_malformadas": []
+ },
+ "encabezados_repetidos": [
+  {
+   "h": "*Placas de control (selección por actividad reciente y juventud, no por fama):*",
+   "veces": 107,
+   "archivos": 107
+  },
+  {
+   "h": "## ⚡ En una página",
+   "veces": 101,
+   "archivos": 101
+  },
+  {
+   "h": "*Señales de futuro (novedad activa, no ranking por estrellas):*",
+   "veces": 97,
+   "archivos": 97
+  },
+  {
+   "h": "*📖 GLOSARIO DE LA COSECHA*",
+   "veces": 87,
+   "archivos": 87
+  },
+  {
+   "h": "*Alertas de continuidad (verificadas el 29-oct-2026):*",
+   "veces": 86,
+   "archivos": 86
+  },
+  {
+   "h": "*🌱 LA SEMILLA*",
+   "veces": 83,
+   "archivos": 82
+  },
+  {
+   "h": "*Placas de control (por actividad y juventud, no por fama):*",
+   "veces": 81,
+   "archivos": 81
+  },
+  {
+   "h": "*⚡ EN UN RESPIRO*",
+   "veces": 79,
+   "archivos": 79
+  },
+  {
+   "h": "## 🔗 Enlaces",
+   "veces": 77,
+   "archivos": 77
+  },
+  {
+   "h": "*🗺 MAPA DE ESTA GUÍA*",
+   "veces": 74,
+   "archivos": 74
+  },
+  {
+   "h": "*💬 LA CONVERSACIÓN HONESTA*",
+   "veces": 72,
+   "archivos": 72
+  },
+  {
+   "h": "*🧊 MITOS DESMONTADOS*",
+   "veces": 72,
+   "archivos": 72
+  },
+  {
+   "h": "*🧪 CASOS DEL BARRIO*",
+   "veces": 71,
+   "archivos": 71
+  },
+  {
+   "h": "*🎞 LO QUE ESTA PIEZA NO DICE*",
+   "veces": 67,
+   "archivos": 67
+  },
+  {
+   "h": "*😄 EL MEME DE LA CASA*",
+   "veces": 64,
+   "archivos": 64
+  },
+  {
+   "h": "*LAS PREGUNTAS:*",
+   "veces": 63,
+   "archivos": 63
+  },
+  {
+   "h": "*Respuestas al revés (léelas de atrás para adelante):*",
+   "veces": 63,
+   "archivos": 63
+  },
+  {
+   "h": "*⚖ LA VARA DE LA LICENCIA*",
+   "veces": 62,
+   "archivos": 62
+  },
+  {
+   "h": "*❓ PREGUNTAS DE LA FILA*",
+   "veces": 62,
+   "archivos": 62
+  },
+  {
+   "h": "*🏭 LA DESPENSA DE DATOS (todo lo medido, en una repisa)*",
+   "veces": 62,
+   "archivos": 62
+  },
+  {
+   "h": "## 🗼 Las placas al pulso (29-oct-2026)",
+   "veces": 50,
+   "archivos": 50
+  },
+  {
+   "h": "## El meme de la pieza",
+   "veces": 50,
+   "archivos": 50
+  },
+  {
+   "h": "## 🗺️ Mapa de esta guía",
+   "veces": 50,
+   "archivos": 50
+  },
+  {
+   "h": "## ❓ Preguntas frecuentes",
+   "veces": 20,
+   "archivos": 20
+  },
+  {
+   "h": "*😄 EL MEME DE LA PIEZA*",
+   "veces": 18,
+   "archivos": 18
+  },
+  {
+   "h": "*PULSO AL CORTE — 15-OCT ~15:00 (mapa vivo #2)*",
+   "veces": 14,
+   "archivos": 14
+  },
+  {
+   "h": "*📼 LA ANALOGÍA MEDIDA CON REGLA*",
+   "veces": 12,
+   "archivos": 12
+  },
+  {
+   "h": "*❓ PREGUNTAS FRECUENTES*",
+   "veces": 11,
+   "archivos": 11
+  },
+  {
+   "h": "*🏭 LA DESPENSA DE DATOS*",
+   "veces": 11,
+   "archivos": 11
+  },
+  {
+   "h": "*🧠 MAPA MENTAL DE LA CASA*",
+   "veces": 10,
+   "archivos": 10
+  },
+  {
+   "h": "*🗓 LA SEMANA DE PRUEBA*",
+   "veces": 10,
+   "archivos": 10
+  },
+  {
+   "h": "*🗂 CUADERNO DE CAMPO*",
+   "veces": 10,
+   "archivos": 10
+  },
+  {
+   "h": "*📖 GLOSARIO*",
+   "veces": 9,
+   "archivos": 9
+  },
+  {
+   "h": "*🧯 SOLUCIÓN DE PROBLEMAS: LAS CUATRO TRANCAS*",
+   "veces": 9,
+   "archivos": 9
+  },
+  {
+   "h": "*🧩 LO QUE ESTA GUÍA NO DICE*",
+   "veces": 9,
+   "archivos": 9
+  },
+  {
+   "h": "*🔗 FUENTES*",
+   "veces": 9,
+   "archivos": 9
+  },
+  {
+   "h": "*📝 NOTA DE VERIFICACIÓN — 15 DE OCTUBRE DE 2026*",
+   "veces": 9,
+   "archivos": 9
+  },
+  {
+   "h": "*🗒 LIBRETA DE FECHAS DE ESTA PIEZA*",
+   "veces": 9,
+   "archivos": 9
+  },
+  {
+   "h": "*✍ FIRMA Y DESPEDIDA*",
+   "veces": 9,
+   "archivos": 9
+  },
+  {
+   "h": "*📅 EL CRONOGRAMA COMPLETO DE ESTA PIEZA*",
+   "veces": 9,
+   "archivos": 9
+  }
+ ]
+}

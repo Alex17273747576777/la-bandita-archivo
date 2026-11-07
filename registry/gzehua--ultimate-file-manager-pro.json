@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-08"
+ },
+ "descripcion": "Ultimate File Manager Pro",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/gzehua--ultimate-file-manager-pro.json",
+  "sha256": "61b109ca37cf3c377a3119b024f3a6253d715bbabdd315b44c60a027e04d445b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "gzehua--ultimate-file-manager-pro",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "ultimate-file-manager-pro",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "5e88f0517c050f06a641d8cd3838f6018dc6e9e3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:5e88f0517c050f06a641d8cd3838f6018dc6e9e3"
+ },
+ "repo": "gzehua/ultimate-file-manager-pro"
+}

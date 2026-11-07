@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-12",
+  "semantica_http": 200,
+  "ultima_release": "v0.2.36-testing",
+  "ultimo_push": "2026-10-20"
+ },
+ "descripcion": "Android manga reader for Japanese immersion, derived from Manatan",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/sommepo--mangaki.json",
+  "sha256": "75bc3d508e371f8f90a56e10d509f6a6cc297ab05c9a2418d0684f94fa1f92af"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sommepo--mangaki",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Mangaki",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9b1c3ebe8fe326b70c335b34981695579cb03a9b",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9b1c3ebe8fe326b70c335b34981695579cb03a9b"
+ },
+ "repo": "sommepo/Mangaki"
+}

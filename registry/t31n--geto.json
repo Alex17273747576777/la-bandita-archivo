@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2023-11-27",
+  "semantica_http": 200,
+  "ultima_release": "v1.3",
+  "ultimo_push": "2026-09-02"
+ },
+ "descripcion": "Apply device settings to your apps.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/t31n--geto.json",
+  "sha256": "36574e4d5bcbb24c81239dd1a7528ad71e2d83af6dd0567c269bc19adc782dd3"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "t31n--geto",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1360,
+  "stars_por_mes": null
+ },
+ "nombre": "Geto",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8d5e93491005c6249591285bb6826f2326a17093",
+  "swh_estado": "sin archivo (HTTP 429)",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:8d5e93491005c6249591285bb6826f2326a17093"
+ },
+ "repo": "T31n/Geto"
+}

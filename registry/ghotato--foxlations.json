@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-22",
+  "semantica_http": 200,
+  "ultima_release": "v0.2.2+26",
+  "ultimo_push": "2026-10-11"
+ },
+ "descripcion": "An all in one reading and streaming app for manga, anime and light novels",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/ghotato--foxlations.json",
+  "sha256": "42d2848cc0bdb114fdfa0e112cecf676d57c8ddc3d1ed5540d55f705c11229ec"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "ghotato--foxlations",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 20,
+  "stars_por_mes": null
+ },
+ "nombre": "Foxlations",
+ "piezas": [
+  "46-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f24bdbc92f01ba94303ee8217b66ba38327a9cb0",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:f24bdbc92f01ba94303ee8217b66ba38327a9cb0"
+ },
+ "repo": "ghotato/Foxlations"
+}

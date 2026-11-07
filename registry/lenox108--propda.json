@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-20",
+  "semantica_http": 200,
+  "ultima_release": "v2.9.6",
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/lenox108--propda.json",
+  "sha256": "fc2c543787f701a4700b8b1e00ad19d991344eea8a6d53ad481a672c71a45f0b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lenox108--propda",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 77,
+  "stars_por_mes": null
+ },
+ "nombre": "ProPDA",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8046417ac3094196ec3fcc8f681f3b0406cf81b9",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:8046417ac3094196ec3fcc8f681f3b0406cf81b9"
+ },
+ "repo": "lenox108/ProPDA"
+}

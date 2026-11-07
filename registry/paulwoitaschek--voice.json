@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2014-08-30",
+  "semantica_http": 200,
+  "ultima_release": "v1.2.4",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "A clean user focused audiobook player for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/paulwoitaschek--voice.json",
+  "sha256": "d4c2b04f34beca4e2eb67821f5312cba2dbae38470e0f3bd610e210551bb9df5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "paulwoitaschek--voice",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3245,
+  "stars_por_mes": null
+ },
+ "nombre": "Voice",
+ "piezas": [
+  "52-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4ef7fa716f04f119d50238f8f0526f3a8b90fd61",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4ef7fa716f04f119d50238f8f0526f3a8b90fd61"
+ },
+ "repo": "PaulWoitaschek/Voice",
+ "web": "https://voice.woitaschek.de"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-02-16",
+  "semantica_http": 200,
+  "ultima_release": "v2.3.3.cee7e76-alpha",
+  "ultimo_push": "2026-10-24"
+ },
+ "descripcion": "Ababa",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/tanakalun--installerx-revived.json",
+  "sha256": "d90d37afef881ecafcef27407de11bc9071ad2cc949a0b610f5c30a97bef538c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "tanakalun--installerx-revived",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "InstallerX-Revived",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ee3e5acacd1820b76cfda88822059df3f61a73c3",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ee3e5acacd1820b76cfda88822059df3f61a73c3"
+ },
+ "repo": "TanakaLun/InstallerX-Revived"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-05-10"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/nurmuhammedjoy--appbooster.json",
+  "sha256": "5075ff1a4dfee46661d57e07627c7dc2cf624c3ff7c31da3983d33081e032f61"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nurmuhammedjoy--appbooster",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "AppBooster",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "182206fd5b4b77696ec1c0dbe69b65abc59402dc",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:182206fd5b4b77696ec1c0dbe69b65abc59402dc"
+ },
+ "repo": "nurmuhammedjoy/AppBooster"
+}

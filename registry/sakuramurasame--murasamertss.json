@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-10",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-16"
+ },
+ "descripcion": "Android 游戏性能监控浮窗与多指标曲线记录，支持 Shizuku、触摸穿透和监控时自动记录。",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sakuramurasame--murasamertss.json",
+  "sha256": "50175c72c7ea7f55a40a9d5374375b4a85ca6449f147e277f18d6afafd1175a7"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sakuramurasame--murasamertss",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "MurasameRTSS",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "893c302de170881b80f31a62dd999e74d6893d77",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:893c302de170881b80f31a62dd999e74d6893d77"
+ },
+ "repo": "SakuraMurasame/MurasameRTSS"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2021-01-27",
+  "semantica_http": 200,
+  "ultima_release": "v1.2.0",
+  "ultimo_push": "2025-11-25"
+ },
+ "descripcion": "Helper app for Tasker",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/joaomgcd--taskersettings.json",
+  "sha256": "aeb8f18c5e11c0a6d44ef0313a2a3d9522cca410d69e122c6f49aa80d64a0fac"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "joaomgcd--taskersettings",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 614,
+  "stars_por_mes": null
+ },
+ "nombre": "TaskerSettings",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4cd3896a2111cb467fbeb70e32bf9015569a6c4c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:4cd3896a2111cb467fbeb70e32bf9015569a6c4c"
+ },
+ "repo": "joaomgcd/TaskerSettings"
+}

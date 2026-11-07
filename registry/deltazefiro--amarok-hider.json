@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2022-02-01",
+  "semantica_http": 200,
+  "ultima_release": "v0.5-beta",
+  "ultimo_push": "2026-08-11"
+ },
+ "descripcion": "Hide your private files and apps with a single click.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/deltazefiro--amarok-hider.json",
+  "sha256": "9aee684e05a6903b16cee2829f76683ab1259055205bab52b03d1fe8552a4c6d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "deltazefiro--amarok-hider",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3318,
+  "stars_por_mes": null
+ },
+ "nombre": "Amarok-Hider",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "64c1079b960fc516effc820d47816f1f90c35aa2",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:64c1079b960fc516effc820d47816f1f90c35aa2"
+ },
+ "repo": "deltazefiro/Amarok-Hider",
+ "web": "https://deltazefiro.github.io/Amarok-doc/en-US/"
+}

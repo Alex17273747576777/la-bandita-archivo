@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-22",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-21"
+ },
+ "descripcion": "Windows 端：按时段自动屏蔽短视频网站(hosts)与程序(进程)，本地网页面板配置，纯脚本零依赖",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sdgfdii--awayfromshorts.json",
+  "sha256": "c9a2ee592546394609ce49d1f008f2567c674fe5b0a2090824ebed67ce887976"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sdgfdii--awayfromshorts",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "AwayFromShorts",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b2e45ee21f8d147c4ec5edff11dc2b76a8f6a4da",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b2e45ee21f8d147c4ec5edff11dc2b76a8f6a4da"
+ },
+ "repo": "sdgfdii/AwayFromShorts"
+}

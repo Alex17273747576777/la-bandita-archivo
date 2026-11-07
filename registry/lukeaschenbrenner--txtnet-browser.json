@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2022-09-19",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-04-08"
+ },
+ "descripcion": "An app that lets you browse the web over SMS",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/lukeaschenbrenner--txtnet-browser.json",
+  "sha256": "bf2d665fe29c7df81d1d8c1b9e1597c643f3112ecf3cbcc64604a96feb45190d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": [
+   "software-heritage"
+  ]
+ },
+ "id": "lukeaschenbrenner--txtnet-browser",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1539,
+  "stars_por_mes": null
+ },
+ "nombre": "TxtNet-Browser",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "f7518c96316f21f9cfa0394b0aa83c19b70eb2bb",
+  "swh_estado": "archivada",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:f7518c96316f21f9cfa0394b0aa83c19b70eb2bb"
+ },
+ "repo": "lukeaschenbrenner/TxtNet-Browser"
+}

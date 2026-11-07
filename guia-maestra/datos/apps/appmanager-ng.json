@@ -1,0 +1,72 @@
+{
+ "id": "appmanager-ng",
+ "nombre": "App Manager NG",
+ "repo": "SysAdminDoc/AppManagerNG",
+ "autores": [
+  {
+   "nombre": "SysAdminDoc",
+   "enlace": "https://github.com/SysAdminDoc"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/SysAdminDoc/AppManagerNG/blob/main/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Ver qué componentes tiene cada aplicación y por qué sigue gastando batería aunque esté cerrada.",
+ "capitulo": 2,
+ "orden": 5,
+ "para_quien": {
+  "es": "para quien quiera entender qué corre dentro de una aplicación antes de decidir si la deja o la quita.",
+  "no_es": "para quien solo quiera limpiar el teléfono: esta herramienta enseña, no limpia sola."
+ },
+ "manos": [
+  "Instala, concede el permiso prestado y abre la lista de aplicaciones.",
+  "Entra en una aplicación concreta y abre la pestaña de componentes: servicios, receptores y actividades.",
+  "Filtra por los que están en ejecución para ver qué sigue vivo después de cerrar la aplicación.",
+  "Desactiva un receptor que no necesites y comprueba durante un día si algo dejó de funcionar.",
+  "Anota cada cambio: es la única manera de revertirlo sin desinstalar todo."
+ ],
+ "resultado_esperado": "Ves qué componentes mantienen viva una aplicación y puedes apagar los que no uses sin quitarla.",
+ "si_sale_mal": [
+  "Si desactivar un componente rompe la aplicación, vuelve a activarlo en la misma pantalla.",
+  "Si no aparece el estado de ejecución, revisa que el permiso siga activo."
+ ],
+ "deshacer": "Cada componente desactivado se reactiva en su misma pantalla; los cambios se revierten uno por uno y no afectan a los datos.",
+ "cabeza": [
+  "Una aplicación no es un programa: es un conjunto de piezas que el sistema puede arrancar por separado. Un receptor puede despertar la aplicación sin que nadie la abra, y un servicio puede seguir corriendo después de 'cerrarla'.",
+  "Esa es la explicación de la queja más común del teléfono que gasta batería: la aplicación no está abierta, está despierta."
+ ],
+ "limites": [
+  "Tres personas y ningún flujo de compilación automática: su nota es baja y con razón.",
+  "Su última entrega es de septiembre y su cola tiene más abiertas de las que su equipo puede atender.",
+  "Es una herramienta de diagnóstico, no de limpieza rápida."
+ ],
+ "oficio": {
+  "dato": "Cuando el sistema dice que una aplicación consumió batería 'en segundo plano', casi nunca es un proceso suyo: es un receptor de eventos del sistema que la despierta cuando pasa algo. Ese receptor tiene nombre propio en la lista de componentes, y desactivarlo suele resolver el consumo sin tocar la aplicación ni perder sus datos. Es la diferencia entre apagar el fuego y saber quién lo encendió.",
+  "como_comprobar": "Mira los componentes con estado de ejecución antes y después de cerrar la aplicación: los que siguen activos son los que hay que revisar. Es la misma información que da el sistema, pero con nombre y apellido.",
+  "comando": "adb shell dumpsys package <paquete> | grep -E \"Service|Receiver\" | head -20"
+ },
+ "riesgos": [
+  "Desactivar componentes a ciegas puede romper funciones que no parecen relacionadas.",
+  "Confiar en una herramienta sin equipo detrás para decisiones delicadas: lee la cola antes de darle permiso."
+ ],
+ "alternativas": [
+  "aistra0528/Hail",
+  "Universal-Debloater-Alliance/universal-android-debloater-next-generation"
+ ],
+ "senal": {
+  "estrellas": 170,
+  "nota": 33,
+  "edad_dias": 188,
+  "ultima_entrega": "2026-09-05",
+  "descargas_10": 11368,
+  "contribuyentes": 3,
+  "repo_mb": 98.8,
+  "ci": 0,
+  "incidencias": "14 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de SysAdminDoc · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

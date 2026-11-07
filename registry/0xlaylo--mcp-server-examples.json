@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-11-06"
+ },
+ "descripcion": "Model Context Protocol Servers",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/0xlaylo--mcp-server-examples.json",
+  "sha256": "a7af4e8f2d53ba90ebe32f877fd14337b98bdc2bc753d10aab99608bb0c24bf1"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "0xlaylo--mcp-server-examples",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 4,
+  "stars_por_mes": null
+ },
+ "nombre": "mcp-server-examples",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "454f1ce13febbfacb98e0cd1ede5206177cefc04",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:454f1ce13febbfacb98e0cd1ede5206177cefc04"
+ },
+ "repo": "0xLaylo/mcp-server-examples",
+ "web": "https://modelcontextprotocol.io"
+}

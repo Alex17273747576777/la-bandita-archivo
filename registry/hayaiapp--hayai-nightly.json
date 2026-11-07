@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-04-12",
+  "semantica_http": 200,
+  "ultima_release": "r6404",
+  "ultimo_push": "2026-10-03"
+ },
+ "descripcion": "Automated development builds from Hayai master. Nightlies may be unstable; no reset-era stable release has been published yet.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/hayaiapp--hayai-nightly.json",
+  "sha256": "3d06744f67dba5d8b317c6c0476d8cf58d129b3e65e8155879da9c1c52e204da"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "hayaiapp--hayai-nightly",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 9,
+  "stars_por_mes": null
+ },
+ "nombre": "hayai-nightly",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b2146ee474acc30953aeeef1c2bb708568df15f8",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b2146ee474acc30953aeeef1c2bb708568df15f8"
+ },
+ "repo": "HayaiApp/hayai-nightly",
+ "web": "https://github.com/HayaiApp/hayai/wiki/Installation-and-Nightlies"
+}

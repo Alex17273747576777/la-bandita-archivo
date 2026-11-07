@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2024-01-19",
+  "semantica_http": 200,
+  "ultima_release": "v0.15.2.2",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "Official fork of Aniyomi",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/animetailapp--animetail.json",
+  "sha256": "3303ebab7f27efcc2af6776078aca2e2be1e116d26668ddfe39d8965cdb0ff33"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "animetailapp--animetail",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 614,
+  "stars_por_mes": null
+ },
+ "nombre": "Animetail",
+ "piezas": [
+  "13-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "24b5ceecd7c9b4480d2ededb9b196952849c643e",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:24b5ceecd7c9b4480d2ededb9b196952849c643e"
+ },
+ "repo": "Animetailapp/Animetail",
+ "web": "https://aniyomi.org"
+}

@@ -1,0 +1,33 @@
+{
+ "fecha": "2026-11-04",
+ "palabras": [
+  "archivo",
+  "file",
+  "sync",
+  "sincroniz",
+  "backup",
+  "copia",
+  "nube",
+  "cloud",
+  "storage",
+  "almacenamiento",
+  "sftp",
+  "ftp",
+  "nextcloud",
+  "immich",
+  "rclone",
+  "restic",
+  "rsync",
+  "drive"
+ ],
+ "ventana_dias": 365,
+ "total_del_tema": 114,
+ "nacidas_en_la_ventana": 77,
+ "en_el_mes_en_curso": 0,
+ "en_el_mes_anterior": 22,
+ "por_debajo_de_500": 68,
+ "porcentaje": 88,
+ "sin_licencia": 15,
+ "con_empujon_en_30_dias": 68,
+ "mediana_edad_dias": 150
+}

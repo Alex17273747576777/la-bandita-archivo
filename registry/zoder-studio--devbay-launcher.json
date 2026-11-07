@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-09",
+  "semantica_http": 200,
+  "ultima_release": "v2.0.1",
+  "ultimo_push": "2026-08-11"
+ },
+ "descripcion": "Launcher for developer and personal use, the perfection on launcher android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zoder-studio--devbay-launcher.json",
+  "sha256": "f96bf21225931360f2567b71c4baa7adb1d1e94d124ae2f4f17b60692083d021"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zoder-studio--devbay-launcher",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 10,
+  "stars_por_mes": null
+ },
+ "nombre": "DevBay-Launcher",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c05a882bca62654704c566609b571de4cd1ae973",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c05a882bca62654704c566609b571de4cd1ae973"
+ },
+ "repo": "Zoder-Studio/DevBay-Launcher"
+}

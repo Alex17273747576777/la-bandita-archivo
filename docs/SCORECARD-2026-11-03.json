@@ -1,0 +1,350 @@
+{
+ "fecha": "2026-11-03",
+ "medidos": 9,
+ "sin_dato": 49,
+ "detalle": [
+  {
+   "repo": "freeotp/freeotp-android",
+   "score": 5.2,
+   "fecha": "2026-08-24",
+   "estrellas": 1681,
+   "no_evaluables": [
+    "Branch-Protection",
+    "Packaging",
+    "Signed-Releases"
+   ]
+  },
+  {
+   "repo": "beemdevelopment/Aegis",
+   "score": 5.1,
+   "fecha": "2026-08-24",
+   "estrellas": 13401,
+   "no_evaluables": [
+    "Branch-Protection",
+    "Packaging"
+   ]
+  },
+  {
+   "repo": "AntennaPod/AntennaPod",
+   "score": 4.5,
+   "fecha": "2026-08-24",
+   "estrellas": 8248,
+   "no_evaluables": [
+    "Branch-Protection",
+    "Packaging",
+    "Signed-Releases"
+   ]
+  },
+  {
+   "repo": "MuntashirAkon/AppManager",
+   "score": 4.3,
+   "fecha": "2026-08-24",
+   "estrellas": 9379,
+   "no_evaluables": [
+    "Branch-Protection",
+    "Packaging"
+   ]
+  },
+  {
+   "repo": "Kunzisoft/KeePassDX",
+   "score": 3.4,
+   "fecha": "2026-08-24",
+   "estrellas": 7566,
+   "no_evaluables": [
+    "Branch-Protection",
+    "Dangerous-Workflow",
+    "Packaging",
+    "Pinned-Dependencies",
+    "Token-Permissions"
+   ]
+  },
+  {
+   "repo": "PhilippC/keepass2android",
+   "score": 2.8,
+   "fecha": "2026-08-24",
+   "estrellas": 6347,
+   "no_evaluables": [
+    "Branch-Protection",
+    "Packaging"
+   ]
+  },
+  {
+   "repo": "open-keychain/open-keychain",
+   "score": 2.8,
+   "fecha": "2026-08-24",
+   "estrellas": 2630,
+   "no_evaluables": [
+    "Packaging",
+    "Signed-Releases"
+   ]
+  },
+  {
+   "repo": "RikkaApps/Shizuku",
+   "score": 2.7,
+   "fecha": "2026-08-24",
+   "estrellas": 32427,
+   "no_evaluables": [
+    "Branch-Protection",
+    "Packaging"
+   ]
+  },
+  {
+   "repo": "andOTP/andOTP",
+   "score": 2,
+   "fecha": "2026-08-24",
+   "estrellas": 3706,
+   "no_evaluables": [
+    "Branch-Protection",
+    "Dangerous-Workflow",
+    "Packaging",
+    "Pinned-Dependencies",
+    "Token-Permissions"
+   ]
+  },
+  {
+   "repo": "0x192/universal-android-debloater",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "Droid-ify/client",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "ImranR98/Obtainium",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "KRTirtho/spotube",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "MetrolistGroup/Metrolist",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "NeoApplications/Neo-Backup",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "NeoApplications/Neo-Store",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "OuterTune/OuterTune",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "OxygenCobalt/Auxio",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "RetroMusicPlayer/RetroMusicPlayer",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "XayahSuSuSu/Android-DataBackup",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "accrescent/accrescent",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "bitwarden/android",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "dani-garcia/vaultwarden",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "ente-io/ente",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "fast4x/RiMusic",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/0x192",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/Droid-ify",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/ImranR98",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/KRTirtho",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/Kunzisoft",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/MetrolistGroup",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/MuntashirAkon",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/NeoApplications",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/RikkaApps",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/XayahSuSuSu",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/accrescent",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/beemdevelopment",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/bitwarden",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/dani-garcia",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/ente-io",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/maxrave-dev",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "github.com/rumboalla",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "maxrave-dev/SimpMusic",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "namidaco/namida",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "rumboalla/apkupdater",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "stratumauth/app",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "theovilardo/PixelPlayer",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "z-huang/InnerTune",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "DerDieDasLian/sinceus",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "Turtlecute33/Fonte",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "barq-al-layl/Burkan",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "bl3xand/APK-Toolbox",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "harkhowalia-1/MacSubsystemForAndroid",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "krishna3163/OmniShizuku",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "software-ace/PocketSense",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "16/17",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "7/10",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  },
+  {
+   "repo": "thedjchi/Shizuku",
+   "scorecard": null,
+   "motivo": "sin dato en deps.dev"
+  }
+ ]
+}

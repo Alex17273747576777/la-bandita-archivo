@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-10-05"
+ },
+ "descripcion": "A gui to download anime & manga in batches & its fast :3",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/darwinosingo--strawverse.json",
+  "sha256": "88451aa72ad76e141d769ecf0d958abdb2dfa6a73d5579225ce5466289bc1616"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "darwinosingo--strawverse",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "StrawVerse",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "68f5ab83c12c52c5a060ee716f36ff3832396325",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:68f5ab83c12c52c5a060ee716f36ff3832396325"
+ },
+ "repo": "DarwinOsingo/StrawVerse"
+}

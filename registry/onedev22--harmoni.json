@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-02-09",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.2",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "**Harmoni** – El reproductor para android que combina streaming desde YouTube Music con tu biblioteca local, todo en una interfaz moderna, ligera y respetuosa con tu privacidad.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/onedev22--harmoni.json",
+  "sha256": "77f8c5941a9ee5ddd2442e8c830ff6695c6cc0dbdc34066a028533262f6a7fb2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "onedev22--harmoni",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 43,
+  "stars_por_mes": null
+ },
+ "nombre": "harmoni",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3337e7bf24dc86dc25d51b237bbf368c392d5110",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:3337e7bf24dc86dc25d51b237bbf368c392d5110"
+ },
+ "repo": "onedev22/harmoni"
+}

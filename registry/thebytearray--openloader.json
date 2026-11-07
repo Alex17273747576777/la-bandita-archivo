@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2026-04-16",
+  "semantica_http": 200,
+  "ultima_release": "1.0.1-beta",
+  "ultimo_push": "2026-04-21"
+ },
+ "descripcion": "OpenLoader is a open source android app that lets user install any apk they want.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/thebytearray--openloader.json",
+  "sha256": "521e464af3acf4819b96f77bf20bfb4ee3355be724b7d682adb4b5786b20b578"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "thebytearray--openloader",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 26,
+  "stars_por_mes": null
+ },
+ "nombre": "OpenLoader",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8491dc6f6e207094fdfb46de042e70ab804b1e38",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:8491dc6f6e207094fdfb46de042e70ab804b1e38"
+ },
+ "repo": "thebytearray/OpenLoader"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-10"
+ },
+ "descripcion": "An extension that detects starred, safe, unsafe or potentially unsafe sites usin",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/arewewhy7-cloud--fmhy-safeguard.json",
+  "sha256": "9d0f70942e24a59fd218e2b3d1f35fa752860bd07a03582034eff4335d6abb6d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "arewewhy7-cloud--fmhy-safeguard",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "fmhy-safeguard",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ca1b4f8562d5e91f955d5ff6223a91892710f108",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ca1b4f8562d5e91f955d5ff6223a91892710f108"
+ },
+ "repo": "arewewhy7-cloud/fmhy-safeguard"
+}

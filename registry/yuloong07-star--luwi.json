@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-03",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "DSH for Android, built on LittleWhale (dsh ported to Android by Miuzarte)",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/yuloong07-star--luwi.json",
+  "sha256": "57fa0f8e114179fb875cce049e23ba1ed87292dbd749268889e135ecbdd57f73"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "yuloong07-star--luwi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 9,
+  "stars_por_mes": null
+ },
+ "nombre": "Luwi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a10cbe6df5e7f2595a873b875bf8fc8f1db41b32",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a10cbe6df5e7f2595a873b875bf8fc8f1db41b32"
+ },
+ "repo": "yuloong07-star/Luwi",
+ "web": "https://github.com/yuloong07-star/Luwi/releases"
+}

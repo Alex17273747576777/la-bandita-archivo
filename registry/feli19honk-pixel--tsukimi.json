@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-02-23"
+ },
+ "descripcion": "A high-performance, feature-rich manga reader for Android.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/feli19honk-pixel--tsukimi.json",
+  "sha256": "9de595acac145d99cbeed60c4019b3a06936ada633aaf6f1e3c4d35cfe46596a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "feli19honk-pixel--tsukimi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Tsukimi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "37cf8061bed78a8a7ba46731c42222b662d1e80f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:37cf8061bed78a8a7ba46731c42222b662d1e80f"
+ },
+ "repo": "feli19honk-pixel/Tsukimi"
+}

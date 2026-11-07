@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-12-29",
+  "semantica_http": 200,
+  "ultima_release": "debian-v1",
+  "ultimo_push": "2026-10-08"
+ },
+ "descripcion": "FluxLinux is Linux on Android, advanced orchestrator application that transforms your Android device into a versatile Linux workstation. ",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zenithblue-oss--fluxlinux.json",
+  "sha256": "bda85caf6f57bf194ebcccc60491e82dfb0cbe0dff2d82ec85fca44a1295978d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zenithblue-oss--fluxlinux",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 307,
+  "stars_por_mes": null
+ },
+ "nombre": "fluxlinux",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7f6e61d5bcc19ce6814d07607f8c122d1b4beb33",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:7f6e61d5bcc19ce6814d07607f8c122d1b4beb33"
+ },
+ "repo": "zenithblue-oss/fluxlinux"
+}

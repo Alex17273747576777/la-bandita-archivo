@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-26"
+ },
+ "descripcion": "The Swiss Army Knife of Offline AI. Chat, see, speak, and generate images on you",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/aunxfb--ogam_openai_api.json",
+  "sha256": "98cce4622e923917473e77a2b24bc85e7308542454f5a4ea2f0e6feea14aee4e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "aunxfb--ogam_openai_api",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "OGAM_openai_api",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "57145dffb731027f98662b5c2e9e58457c754b54",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:57145dffb731027f98662b5c2e9e58457c754b54"
+ },
+ "repo": "Aunxfb/OGAM_openai_api"
+}

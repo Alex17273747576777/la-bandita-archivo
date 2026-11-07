@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-10-05",
+  "semantica_http": 200,
+  "ultima_release": "V1.0.0",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": " Monica Pass，Password Management, 2FA Generator",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/monica-pass--monica.json",
+  "sha256": "d29c85f05c0b4ce25d504a97646cda9685023d3fa712bf9378206a3f0a2f723a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "monica-pass--monica",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1206,
+  "stars_por_mes": null
+ },
+ "nombre": "Monica",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2ef9f3d620e261dbb36bbfdc47ffa46af164ad87",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:2ef9f3d620e261dbb36bbfdc47ffa46af164ad87"
+ },
+ "repo": "Monica-Pass/Monica",
+ "web": "https://monica-pass.github.io/MonicaDocs/"
+}

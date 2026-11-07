@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-26",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-29"
+ },
+ "descripcion": "Free, open-source iOS sideloading for Windows. Install any .ipa with just your Apple ID - no jailbreak, no paid developer account.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/pwnapplehat--ipaside.json",
+  "sha256": "c707312ecbc11366a2461fe01e092a16a545944ae6da0bed2a046bb326e83145"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "pwnapplehat--ipaside",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 165,
+  "stars_por_mes": null
+ },
+ "nombre": "iPASide",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8334cc8dfe1632c18de7119ca140d38bd12f3f75",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:8334cc8dfe1632c18de7119ca140d38bd12f3f75"
+ },
+ "repo": "pwnapplehat/iPASide",
+ "web": "https://ipaside.com"
+}

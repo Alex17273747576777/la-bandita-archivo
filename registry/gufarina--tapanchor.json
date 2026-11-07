@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-20",
+  "semantica_http": 200,
+  "ultima_release": "v2.6",
+  "ultimo_push": "2026-10-20"
+ },
+ "descripcion": "Android app that turns a Bluetooth/USB HID button into one real tap at a fixed screen point. Shizuku, no root.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/gufarina--tapanchor.json",
+  "sha256": "22bcc7c44da7f714c9e4f082dfd1959894d22cfb1076abba6121ae632e74c3e6"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "gufarina--tapanchor",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "tapanchor",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "646c5111da059c1796837bc13fba6b68f0a0c3ab",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:646c5111da059c1796837bc13fba6b68f0a0c3ab"
+ },
+ "repo": "gufarina/tapanchor"
+}

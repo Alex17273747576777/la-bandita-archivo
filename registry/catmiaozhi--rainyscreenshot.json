@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-06",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-10-09"
+ },
+ "descripcion": "📸 雨晴截屏 — Silent Screenshot & Screen Recorder via Shizuku shell · Rainy Family",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/catmiaozhi--rainyscreenshot.json",
+  "sha256": "1ec34e595152899e80e1a68babd535341ff54c1256d2173ba9571c8da3d5364e"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "catmiaozhi--rainyscreenshot",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 11,
+  "stars_por_mes": null
+ },
+ "nombre": "RainyScreenShot",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "447c303efeda81b2cc2bb12f9fb9dc205a73049e",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:447c303efeda81b2cc2bb12f9fb9dc205a73049e"
+ },
+ "repo": "CATMIAOZHI/RainyScreenShot"
+}

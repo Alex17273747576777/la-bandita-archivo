@@ -1,0 +1,75 @@
+{
+ "id": "jellyfin",
+ "nombre": "Jellyfin",
+ "repo": "jellyfin/jellyfin",
+ "autores": [
+  {
+   "nombre": "Jellyfin y su comunidad",
+   "enlace": "https://jellyfin.org"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-2.0",
+  "archivo": "https://github.com/jellyfin/jellyfin/blob/master/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Servir películas, series y música a todos los aparatos de la casa desde un equipo propio, recordando en cada uno por dónde iba cada persona.",
+ "capitulo": 9,
+ "orden": 4,
+ "para_quien": {
+  "es": "para quien tiene varias personas y varios aparatos viendo lo mismo y quiere un servidor que recuerde el avance de cada una, sin cuotas ni cuentas ajenas.",
+  "no_es": "para quien ve solo, en un solo aparato: Kodi hace el trabajo sin montar un servidor ni mantenerlo."
+ },
+ "manos": [
+  "Prepará el equipo servidor —el mismo de los capítulos 6 y 7 sirve— y comprobá que tenga espacio y que pueda convertir vídeo sin ahogarse.",
+  "Instalalo siguiendo su guía, creá la cuenta de administración y añade la carpeta de tu biblioteca indicando el tipo de contenido.",
+  "Dejá que analice y ordene: trae carátulas y metadatos, y separa series por temporadas si la estructura de carpetas se lo permite.",
+  "Creá una cuenta para cada persona de la casa, así el avance de cada una es suyo y no se mezcla.",
+  "Reproducí en el televisor y comprobá lo que define a este servidor: empezar una película en un aparato y retomarla en otro por donde ibas."
+ ],
+ "resultado_esperado": "Cada persona de la casa ve su propia biblioteca con su propio avance, el televisor reproduce desde el servidor y ninguna cuenta depende de un servicio externo.",
+ "si_sale_mal": [
+  "Si el vídeo se corta o el equipo se pone a tope, es conversión en marcha: mirá si el aparato está convirtiendo y probá con un archivo que el televisor entienda directamente.",
+  "Si faltan capítulos de una serie, revisá la estructura de carpetas: el servidor deduce temporadas y episodios de los nombres, y un nombre raro lo descoloca.",
+  "Si un aparato no encuentra el servidor, comprobá que esté en la misma red y que la dirección sea la del equipo, no un nombre que sólo resuelve dentro de casa."
+ ],
+ "deshacer": "Borrar el servidor borra la biblioteca, las cuentas y el historial, no los archivos de vídeo. La carpeta de configuración se copia antes de cualquier cambio, y con ella vuelven las cuentas y los avances.",
+ "cabeza": [
+  "Jellyfin es lo que el capítulo 7 llamó biblioteca: un servidor que lee tus carpetas, las cataloga y las sirve a los aparatos, con cuentas separadas y memoria de lo visto. Nació como bifurcación de un proyecto que se volvió de pago, y su presentación lo dice sin rodeos: sin licencias premium, sin funciones escondidas, sin cuotas.",
+  "Su diferencia con Kodi es de arquitectura: Kodi tiene la biblioteca en el aparato que reproduce; Jellyfin la tiene en un servidor y cada aparato es una ventana. Eso da lo que un reproductor local no puede dar —el mismo avance en el televisor y en el teléfono, cuentas para cada persona— y cobra el precio de siempre: un equipo encendido y su mantenimiento.",
+  "Su cifra más honesta no son las cincuenta y ocho mil novecientas setenta y seis estrellas: es que **no publica archivos adjuntos en sus entregas de GitHub**, porque el servidor se distribuye por sus canales de instalación. Quien mida descargas ahí lee un cero que no describe el proyecto, igual que pasó con Nextcloud, AntennaPod y Audiobookshelf en capítulos anteriores."
+ ],
+ "limites": [
+  "Necesita un equipo encendido y mantenido; sin él no hay nada.",
+  "Convierte vídeo cuando el aparato no entiende el formato, y eso consume procesador: es el origen de casi todas las quejas de rendimiento.",
+  "No publica binarios en GitHub: se instala por sus canales oficiales.",
+  "Abrirlo a internet para ver fuera de casa exige las decisiones de seguridad del capítulo 8."
+ ],
+ "oficio": {
+  "dato": "Cada reproducción en un servidor de medios tiene un método, y el servidor lo declara: directo si el aparato entiende el archivo, o convertido si no. Ese dato se puede consultar en vivo y cambia por completo el diagnóstico: si el televisor está en directo y se corta, el problema es la red; si está convirtiendo y el equipo se pone a tope, el problema es el procesador y no hay ancho de banda que lo arregle. Casi todas las quejas de «va lento» en una casa con servidor de vídeo se resuelven mirando ese campo: un archivo mejor elegido —o un aparato reproductor que entienda el original— hace desaparecer el problema sin comprar hardware.",
+  "como_comprobar": "Con una reproducción en marcha, pedile al servidor la lista de sesiones activas y mirá el método de cada una. Después probá con un archivo distinto y compará: si uno va directo y el otro convierte, ya sabés dónde está la diferencia.",
+  "comando": "curl -s \"http://192.168.1.10:8096/Sessions?api_key=TU_CLAVE\" | grep -o '\"PlayMethod\":\"[A-Za-z]*\"'"
+ },
+ "riesgos": [
+  "Servir la biblioteca a internet sin protección y exponer la casa entera.",
+  "Elegir archivos que el televisor no entiende, condenar al servidor a convertir siempre y culpar al programa."
+ ],
+ "alternativas": [
+  "xbmc/xbmc",
+  "Streamyfin/streamyfin"
+ ],
+ "senal": {
+  "estrellas": 59006,
+  "nota": 54,
+  "edad_dias": 2887,
+  "ultima_entrega": "2026-10-26",
+  "descargas_10": 0,
+  "contribuyentes": 100,
+  "repo_mb": 77.2,
+  "ci": 5,
+  "incidencias": "493 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de Jellyfin y su comunidad · GPL-2.0 · medido el 3 de noviembre de 2026 (sin adjuntos en GitHub: se distribuye por sus canales)"
+}

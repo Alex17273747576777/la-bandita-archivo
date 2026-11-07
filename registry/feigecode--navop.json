@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-13",
+  "semantica_http": 200,
+  "ultima_release": "v0.8.8",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "A native, all-in-one workspace for databases, SSH, SFTP, terminals, remote desktop, monitoring, and AI.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/feigecode--navop.json",
+  "sha256": "fcddb194dfe26bef1e5374d588064e6077b1706addc95ed6f67d879df4142d27"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "feigecode--navop",
+ "licencia": {
+  "archivo": "LICENSE-APACHE",
+  "metodo": "spdx-api",
+  "nota": "Texto leído el 2026-11-03: 10305 caracteres sin firma de licencia libre conocida ni cláusula de reserva de derechos. Queda citado el archivo y pendiente de lectura humana.",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2085,
+  "stars_por_mes": null
+ },
+ "nombre": "navop",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a48908b7621cd6ea3d2e9d12639b9310fc42f44c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a48908b7621cd6ea3d2e9d12639b9310fc42f44c"
+ },
+ "repo": "feigeCode/navop",
+ "web": "https://navop.dev"
+}

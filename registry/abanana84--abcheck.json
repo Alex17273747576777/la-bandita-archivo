@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-11",
+  "semantica_http": 200,
+  "ultima_release": "v1.1.4",
+  "ultimo_push": "2026-11-01"
+ },
+ "descripcion": "Open-source Android device and system diagnostics: hardware info, tests, live monitors and battery tools. No ads or analytics. Formerly ABattery.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/abanana84--abcheck.json",
+  "sha256": "9c046020c3912d89db1f0324deecb1f81de1f168c04451bb6050467175e39c70"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "abanana84--abcheck",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 25,
+  "stars_por_mes": null
+ },
+ "nombre": "abCheck",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7fb1ec78e0568400325a2aace8f0395941b89441",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:7fb1ec78e0568400325a2aace8f0395941b89441"
+ },
+ "repo": "abanana84/abCheck",
+ "web": "https://play.google.com/store/apps/details?id=com.abanana.abattery"
+}

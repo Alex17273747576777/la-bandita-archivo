@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-06-03",
+  "semantica_http": 200,
+  "ultima_release": "v2.43-plugin",
+  "ultimo_push": "2026-06-07"
+ },
+ "descripcion": "Automated archive of TikTok Mod and Plugin APK files from TikTokModCloud. This r",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/drroot85--tiktokmodcloud.json",
+  "sha256": "77c22329ace89a5f31d363834045408e32314c195e773ddd3b4644395ae7e19d"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "drroot85--tiktokmodcloud",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "tiktokmodcloud",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "21921d6c4da209678747010eb941a90ad3327c70",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:21921d6c4da209678747010eb941a90ad3327c70"
+ },
+ "repo": "DrRoot85/tiktokmodcloud"
+}

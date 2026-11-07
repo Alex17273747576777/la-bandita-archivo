@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-01-20",
+  "semantica_http": 200,
+  "ultima_release": "v1.1",
+  "ultimo_push": "2026-08-19"
+ },
+ "descripcion": "Manage app multiple instances in workspaces with Shizuku privilege.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/nathanatgit--appdualzuku.json",
+  "sha256": "80bdbb5bd035be29d988e6e891deb47e2e98ef7f1155779298d251d1e4a25669"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nathanatgit--appdualzuku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 43,
+  "stars_por_mes": null
+ },
+ "nombre": "AppDualZuku",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9c6b5af9f891f7ba8b01329be97e74d00d639a40",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:9c6b5af9f891f7ba8b01329be97e74d00d639a40"
+ },
+ "repo": "nathanatgit/AppDualZuku"
+}

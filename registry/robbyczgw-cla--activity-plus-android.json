@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-09",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-10-28"
+ },
+ "descripcion": "Activity+ for Android: which app is responsible, and what to do about it. No internet permission.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/robbyczgw-cla--activity-plus-android.json",
+  "sha256": "7d86f01d395bfd55f625f104e2bef64ee0b497578599762e19425f297b50ef3a"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "robbyczgw-cla--activity-plus-android",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 4,
+  "stars_por_mes": null
+ },
+ "nombre": "activity-plus-android",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "782a9178e46cc38e32e4fe26dad6662d75b96b33",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:782a9178e46cc38e32e4fe26dad6662d75b96b33"
+ },
+ "repo": "robbyczgw-cla/activity-plus-android",
+ "web": "https://activityplus.xyz"
+}

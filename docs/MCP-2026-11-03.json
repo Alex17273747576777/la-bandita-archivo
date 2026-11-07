@@ -1,0 +1,377 @@
+{
+ "fecha": "2026-11-03",
+ "medido_en": "2026-11-03T15:04:03+00:00",
+ "probados": 10,
+ "con_herramientas": 6,
+ "herramientas_totales": 73,
+ "servidores": [
+  {
+   "url": "https://mcp.deepwiki.com/mcp",
+   "protocolo": "2025-06-18",
+   "servidor": "DeepWiki",
+   "herramientas": [
+    {
+     "nombre": "ask_wiki_question",
+     "descripcion": "Ask any question about a GitHub repository's codebase and get an AI-powered answer\ngrounded in its DeepWiki."
+    },
+    {
+     "nombre": "read_wiki_contents",
+     "descripcion": "View documentation about a GitHub repository."
+    },
+    {
+     "nombre": "read_wiki_structure",
+     "descripcion": "Get a list of documentation topics for a GitHub repository."
+    }
+   ],
+   "nota": ""
+  },
+  {
+   "url": "https://mcp.context7.com/mcp",
+   "protocolo": "2025-06-18",
+   "servidor": "Context7",
+   "herramientas": [
+    {
+     "nombre": "resolve-library-id",
+     "descripcion": "Resolves a package/product name to a Context7-compatible library ID and returns matching libraries.\n\nYou MUST call this "
+    },
+    {
+     "nombre": "query-docs",
+     "descripcion": "Retrieves and queries up-to-date documentation and code examples from Context7 for any programming library or framework."
+    }
+   ],
+   "nota": ""
+  },
+  {
+   "url": "https://gitmcp.io/docs",
+   "protocolo": "2025-03-26",
+   "servidor": "GitMCP",
+   "herramientas": [
+    {
+     "nombre": "match_common_libs_owner_repo_mapping",
+     "descripcion": "Match a library name to an owner/repo. Don't use it if you have an owner and repo already. Use this first if only a libr"
+    },
+    {
+     "nombre": "fetch_generic_documentation",
+     "descripcion": "Fetch documentation for any GitHub repository by providing owner and project name"
+    },
+    {
+     "nombre": "search_generic_documentation",
+     "descripcion": "Semantically search in documentation for any GitHub repository by providing owner, project name, and search query. Usefu"
+    },
+    {
+     "nombre": "search_generic_code",
+     "descripcion": "Search for code in any GitHub repository by providing owner, project name, and search query. Returns matching files. Sup"
+    },
+    {
+     "nombre": "fetch_generic_url_content",
+     "descripcion": "Generic tool to fetch content from any absolute URL, respecting robots.txt rules. Use this to retrieve referenced urls ("
+    }
+   ],
+   "nota": ""
+  },
+  {
+   "url": "https://huggingface.co/mcp",
+   "protocolo": "2025-06-18",
+   "servidor": "huggingface.co/mcp",
+   "herramientas": [
+    {
+     "nombre": "hf_whoami",
+     "descripcion": "Inspect the current Hugging Face authentication context, including the account, visible organization memberships, and cr"
+    },
+    {
+     "nombre": "hub_repo_search",
+     "descripcion": "Search Hugging Face repositories with a shared query interface. You can target models, datasets, spaces, or aggregate ac"
+    },
+    {
+     "nombre": "hub_repo_details",
+     "descripcion": "Get details for one or more Hugging Face repos (model, dataset, or space). Auto-detects type unless specified. For datas"
+    },
+    {
+     "nombre": "hf_fs",
+     "descripcion": "When to use: Hugging Face Hub models, datasets, Spaces, collections, papers, daily papers, today's trending models, curr"
+    }
+   ],
+   "nota": ""
+  },
+  {
+   "url": "https://api.inference.sh/mcp",
+   "protocolo": null,
+   "servidor": null,
+   "herramientas": [],
+   "nota": "exige credenciales (HTTP 401)"
+  },
+  {
+   "url": "https://mcp.snag.ac/mcp",
+   "protocolo": null,
+   "servidor": null,
+   "herramientas": [],
+   "nota": "exige credenciales (HTTP 401)"
+  },
+  {
+   "url": "https://tandem.ac/mcp",
+   "protocolo": "2025-06-18",
+   "servidor": "ac.tandem/docs-mcp",
+   "herramientas": [
+    {
+     "nombre": "search_docs",
+     "descripcion": "Search the published Tandem docs index for relevant pages."
+    },
+    {
+     "nombre": "get_doc",
+     "descripcion": "Fetch and normalize a published Tandem docs page by path or URL."
+    },
+    {
+     "nombre": "get_start_path",
+     "descripcion": "Recommend the best Tandem docs starting path for a desktop user, server admin, or developer."
+    },
+    {
+     "nombre": "recommend_next_docs",
+     "descripcion": "Recommend the next Tandem docs to read after a current page, optionally biased toward a goal."
+    },
+    {
+     "nombre": "answer_how_to",
+     "descripcion": "Answer how to install or use Tandem, build workflows, or use the SDKs by synthesizing relevant published docs."
+    },
+    {
+     "nombre": "get_tandem_guide",
+     "descripcion": "Return a structured Tandem learning guide for install-engine, python-sdk, typescript-sdk, build-workflows, or headless-d"
+    },
+    {
+     "nombre": "warmup_docs_cache",
+     "descripcion": "Refresh the docs index and preload the most important Tandem docs pages into cache."
+    },
+    {
+     "nombre": "get_docs_cache_status",
+     "descripcion": "Inspect the current docs cache state for index sources and warmed pages."
+    },
+    {
+     "nombre": "refresh_docs_index",
+     "descripcion": "Force-refresh docs indexes and report whether data came from the network, cache, or stale fallback."
+    },
+    {
+     "nombre": "refresh_doc_page",
+     "descripcion": "Force-refresh a docs page and report whether content came from the network, cache, or stale fallback."
+    },
+    {
+     "nombre": "invalidate_docs_cache",
+     "descripcion": "Invalidate docs cache entries for index data, all pages, or a specific page path."
+    },
+    {
+     "nombre": "compare_docs_index_refresh",
+     "descripcion": "Force-refresh the docs indexes and return before/after hashes so content changes can be proven."
+    },
+    {
+     "nombre": "compare_doc_page_refresh",
+     "descripcion": "Force-refresh a docs page and return before/after hashes so page content changes can be proven."
+    }
+   ],
+   "nota": ""
+  },
+  {
+   "url": "https://mcp.linear.app/mcp",
+   "protocolo": null,
+   "servidor": null,
+   "herramientas": [],
+   "nota": "exige credenciales (HTTP 401)"
+  },
+  {
+   "url": "https://mcp.notion.com/mcp",
+   "protocolo": null,
+   "servidor": null,
+   "herramientas": [],
+   "nota": "exige credenciales (HTTP 401)"
+  },
+  {
+   "url": "https://api.githubcopilot.com/mcp/",
+   "protocolo": "2025-06-18",
+   "servidor": "github-mcp-server",
+   "herramientas": [
+    {
+     "nombre": "add_comment_to_pending_review",
+     "descripcion": "Add review comment to the requester's latest pending pull request review. A pending review needs to already exist to cal"
+    },
+    {
+     "nombre": "add_issue_comment",
+     "descripcion": "Add a comment and/or reaction to a specific issue or issue comment in a GitHub repository. Use this tool with pull reque"
+    },
+    {
+     "nombre": "add_reply_to_pull_request_comment",
+     "descripcion": "Add a reply and/or reaction to an existing pull request comment. This can create a new comment linked as a reply to the "
+    },
+    {
+     "nombre": "create_branch",
+     "descripcion": "Create a new branch in a GitHub repository"
+    },
+    {
+     "nombre": "create_or_update_file",
+     "descripcion": "Create or update a single file in a GitHub repository. \nIf updating, you should provide the SHA of the file you want to "
+    },
+    {
+     "nombre": "create_pull_request",
+     "descripcion": "Create a new pull request in a GitHub repository."
+    },
+    {
+     "nombre": "create_repository",
+     "descripcion": "Create a new GitHub repository in your account or specified organization"
+    },
+    {
+     "nombre": "delete_file",
+     "descripcion": "Delete a file from a GitHub repository"
+    },
+    {
+     "nombre": "fork_repository",
+     "descripcion": "Fork a GitHub repository to your account or specified organization"
+    },
+    {
+     "nombre": "get_commit",
+     "descripcion": "Get details for a commit from a GitHub repository"
+    },
+    {
+     "nombre": "get_file_contents",
+     "descripcion": "Get the contents of a file or directory from a GitHub repository"
+    },
+    {
+     "nombre": "get_label",
+     "descripcion": "Get a specific label from a repository."
+    },
+    {
+     "nombre": "get_latest_release",
+     "descripcion": "Get the latest release in a GitHub repository"
+    },
+    {
+     "nombre": "get_me",
+     "descripcion": "Get details of the authenticated GitHub user. Use this when a request is about the user's own profile for GitHub. Or whe"
+    },
+    {
+     "nombre": "get_release_by_tag",
+     "descripcion": "Get a specific release by its tag name in a GitHub repository"
+    },
+    {
+     "nombre": "get_tag",
+     "descripcion": "Get details about a specific git tag in a GitHub repository"
+    },
+    {
+     "nombre": "get_team_members",
+     "descripcion": "Get member usernames of a specific team in an organization. Limited to organizations accessible with current credentials"
+    },
+    {
+     "nombre": "get_teams",
+     "descripcion": "Get details of the teams the user is a member of. Limited to organizations accessible with current credentials"
+    },
+    {
+     "nombre": "issue_read",
+     "descripcion": "Get information about a specific issue in a GitHub repository."
+    },
+    {
+     "nombre": "issue_write",
+     "descripcion": "Create a new or update an existing issue in a GitHub repository."
+    },
+    {
+     "nombre": "list_branches",
+     "descripcion": "List branches in a GitHub repository"
+    },
+    {
+     "nombre": "list_commits",
+     "descripcion": "Get list of commits of a branch in a GitHub repository. Returns at least 30 results per page by default, but can return "
+    },
+    {
+     "nombre": "list_issue_fields",
+     "descripcion": "List issue fields for a repository or organization. Returns field definitions including name, type (text, number, date, "
+    },
+    {
+     "nombre": "list_issue_types",
+     "descripcion": "List supported issue types for a repository or its owner organization. When repo is omitted, returns org-level issue typ"
+    },
+    {
+     "nombre": "list_issues",
+     "descripcion": "List issues in a GitHub repository. For pagination, use the 'endCursor' from the previous response's 'pageInfo' in the '"
+    },
+    {
+     "nombre": "list_pull_requests",
+     "descripcion": "List pull requests in a GitHub repository. If the user specifies an author, then DO NOT use this tool and use the search"
+    },
+    {
+     "nombre": "list_releases",
+     "descripcion": "List releases in a GitHub repository"
+    },
+    {
+     "nombre": "list_repository_collaborators",
+     "descripcion": "List collaborators of a GitHub repository. Results are paginated; the response includes `nextPage`, `prevPage`, `firstPa"
+    },
+    {
+     "nombre": "list_tags",
+     "descripcion": "List git tags in a GitHub repository"
+    },
+    {
+     "nombre": "merge_pull_request",
+     "descripcion": "Merge a pull request in a GitHub repository."
+    },
+    {
+     "nombre": "pull_request_read",
+     "descripcion": "Get information on a specific pull request in GitHub repository."
+    },
+    {
+     "nombre": "pull_request_review_write",
+     "descripcion": "Create and/or submit, delete review of a pull request.\n\nAvailable methods:\n- create: Create a new review of a pull reque"
+    },
+    {
+     "nombre": "push_files",
+     "descripcion": "Push multiple files to a GitHub repository in a single commit"
+    },
+    {
+     "nombre": "request_copilot_review",
+     "descripcion": "Request a GitHub Copilot code review for a pull request. Use this for automated feedback on pull requests, usually befor"
+    },
+    {
+     "nombre": "run_secret_scanning",
+     "descripcion": "Scan files, content, or recent changes for secrets such as API keys, passwords, tokens, and credentials.\n\nThis tool is i"
+    },
+    {
+     "nombre": "search_code",
+     "descripcion": "Fast and precise code search across ALL GitHub repositories using GitHub's native search engine. Best for finding exact "
+    },
+    {
+     "nombre": "search_commits",
+     "descripcion": "Search for commits across GitHub repositories using GitHub's commit search syntax. Useful for finding specific changes, "
+    },
+    {
+     "nombre": "search_issues",
+     "descripcion": "Search issues using natural-language semantic matching. Best for conceptual or paraphrased queries (e.g. \"login fails af"
+    },
+    {
+     "nombre": "search_pull_requests",
+     "descripcion": "Search for pull requests in GitHub repositories using issues search syntax already scoped to is:pr"
+    },
+    {
+     "nombre": "search_repositories",
+     "descripcion": "Find GitHub repositories by name, description, readme, topics, or other metadata. Perfect for discovering projects, find"
+    },
+    {
+     "nombre": "search_users",
+     "descripcion": "Find GitHub users by username, real name, or other profile information. Useful for locating developers, contributors, or"
+    },
+    {
+     "nombre": "sub_issue_write",
+     "descripcion": "Add a sub-issue to a parent issue in a GitHub repository."
+    },
+    {
+     "nombre": "ui_get",
+     "descripcion": "Fetch UI data for MCP Apps (labels, assignees, milestones, issue types, branches, issue fields, reviewers)."
+    },
+    {
+     "nombre": "update_issue_comment",
+     "descripcion": "Update the body of an existing issue or pull request conversation comment. This tool cannot update pull request review c"
+    },
+    {
+     "nombre": "update_pull_request",
+     "descripcion": "Update an existing pull request in a GitHub repository."
+    },
+    {
+     "nombre": "update_pull_request_branch",
+     "descripcion": "Update the branch of a pull request with the latest changes from the base branch."
+    }
+   ],
+   "nota": ""
+  }
+ ]
+}

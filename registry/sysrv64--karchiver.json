@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-17",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0-alpha01",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "KArchiver - Android file manager and archiver built with Kotlin / Rust and Material 3 Expressive",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/sysrv64--karchiver.json",
+  "sha256": "81862f8cd2b1e0731f03540dd93ca2ae45a0812b40e9db05cfe138a075517951"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "sysrv64--karchiver",
+ "licencia": {
+  "archivo": "LICENSE",
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 23,
+  "stars_por_mes": null
+ },
+ "nombre": "KArchiver",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8886288d2d6adeedd844d05870ee3ba45d17c312",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:8886288d2d6adeedd844d05870ee3ba45d17c312"
+ },
+ "repo": "sysrv64/KArchiver"
+}

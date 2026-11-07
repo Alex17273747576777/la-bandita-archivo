@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-09-11"
+ },
+ "descripcion": "Watch tv shows, movies, anime and read manga in singe app. On android (with andr",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/escaladehim-ux--strumok.json",
+  "sha256": "32138b3b43a23426c41f9dc31983a1bc66a26b3b679824fff6e56b1c9dff7a5c"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "escaladehim-ux--strumok",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "strumok",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "d6793d312efe4de5a26cf83736b03b178a1734f8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:d6793d312efe4de5a26cf83736b03b178a1734f8"
+ },
+ "repo": "escaladehim-ux/strumok"
+}

@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-02"
+ },
+ "descripcion": "an anime/manga streaming web app",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/diena742--yorumi.json",
+  "sha256": "76950a97571078b314fa89762767ba721ffb997814dc99e9e2a5070257dd3140"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "diena742--yorumi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Yorumi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "03e1e742b203a9673d1114b061ebd19e2183f063",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:03e1e742b203a9673d1114b061ebd19e2183f063"
+ },
+ "repo": "diena742/Yorumi"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "muerto",
+  "release_en": null,
+  "semantica_http": 404,
+  "ultima_release": null,
+  "ultimo_push": "2026-04-05"
+ },
+ "descripcion": "An app for manga, anime and ranobe",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#felixfoxgrim21-crypto/Tadami-Aniyomi-fork",
+  "sha256": "da6506f7e48cd9ea716493e412fa5456b6f611b41fa7f7d0007a5a444b08fac4"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-10-15",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-11-14",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "felixfoxgrim21-crypto--tadami-aniyomi-fork",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": null,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Tadami-Aniyomi-fork",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8e1ffaa1cea99bf9ea9766b3144971d230a2a21f",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8e1ffaa1cea99bf9ea9766b3144971d230a2a21f"
+ },
+ "repo": "felixfoxgrim21-crypto/Tadami-Aniyomi-fork"
+}

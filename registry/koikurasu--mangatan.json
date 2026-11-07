@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-02-10"
+ },
+ "descripcion": "A 1 click solution for reading Manga with OCR'ed textboxs,  works seamless with",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/koikurasu--mangatan.json",
+  "sha256": "db5cffdd46d1d2dc5b51cc4e3c9cdd9bb4a63d2eb4f15a5ebb4ee5ff3d1642fb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "koikurasu--mangatan",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Mangatan",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "6560e11196eddf9f52991354a8d6d37643e276d8",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:6560e11196eddf9f52991354a8d6d37643e276d8"
+ },
+ "repo": "koikurasu/Mangatan"
+}

@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2022-04-20",
+  "semantica_http": 200,
+  "ultima_release": "11463",
+  "ultimo_push": "2025-09-06"
+ },
+ "descripcion": ":package:个人搜集 | 书源、图源、订阅源、规则、直播源、各种源 大型整合",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zgq-inc--source.json",
+  "sha256": "b8a4f13e6c8471e4f4ea6c49a72995d763e4c0c0f497960b83a4b2c643d6e868"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zgq-inc--source",
+ "licencia": {
+  "archivo": "LICENSE.txt",
+  "metodo": "spdx-api",
+  "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («noncommercial»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1287,
+  "stars_por_mes": null
+ },
+ "nombre": "source",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "09a57412c49c282775111aef14744a21f203fc60",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:09a57412c49c282775111aef14744a21f203fc60"
+ },
+ "repo": "ZGQ-inc/source",
+ "web": "https://source.zgqinc.gq"
+}

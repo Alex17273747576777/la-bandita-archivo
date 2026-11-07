@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-05-15",
+  "semantica_http": 200,
+  "ultima_release": "latest",
+  "ultimo_push": "2026-08-11"
+ },
+ "descripcion": "A Beautiful File Manager",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/senzme--nfile.json",
+  "sha256": "07f70423a53cec1e7d13ea7c89e99636981da658391082f6e386ca585e8da74c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "senzme--nfile",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 437,
+  "stars_por_mes": null
+ },
+ "nombre": "NFile",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "00dcc955bbb0af0c0b0d963f644e6980d1ed67e5",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:00dcc955bbb0af0c0b0d963f644e6980d1ed67e5"
+ },
+ "repo": "Senzme/NFile"
+}

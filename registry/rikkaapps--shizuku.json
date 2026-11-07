@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2017-10-28",
+  "semantica_http": 200,
+  "ultima_release": "v2.0.0-dev",
+  "ultimo_push": "2025-06-18"
+ },
+ "descripcion": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/rikkaapps--shizuku.json",
+  "sha256": "39786b28b1101f511b44ec66a8e9859afdc27f98d39748c9ed8b1c2e1b2dd0f0"
+ },
+ "frescura": {
+  "dias": 71,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-11-22",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "consulta GraphQL del nodo repository; campos exactos, sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rikkaapps--shizuku",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "nota": "certificada además contra el texto del archivo LICENSE en la medición de la pieza 04",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": 2.7,
+  "scorecard_en": "2026-08-24",
+  "stars": 32726,
+  "stars_por_mes": null
+ },
+ "nombre": "Shizuku",
+ "piezas": [
+  "04"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b844bc491f1790c72328e1a8e5b2349f8978f0ea",
+  "swh_estado": "archivada",
+  "swh_solicitud": "b844bc491f1790c72328e1a8e5b2349f8978f0ea",
+  "swhid": "swh:1:rev:b844bc491f1790c72328e1a8e5b2349f8978f0ea"
+ },
+ "repo": "RikkaApps/Shizuku"
+}

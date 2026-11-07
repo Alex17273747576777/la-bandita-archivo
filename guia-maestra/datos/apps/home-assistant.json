@@ -1,0 +1,75 @@
+{
+ "id": "home-assistant",
+ "nombre": "Home Assistant",
+ "repo": "home-assistant/core",
+ "autores": [
+  {
+   "nombre": "Home Assistant y su comunidad",
+   "enlace": "https://www.home-assistant.io"
+  }
+ ],
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "https://github.com/home-assistant/core/blob/dev/LICENSE.md"
+ },
+ "nivel": "experto",
+ "tarea": "Controlar y automatizar los aparatos de la casa desde un cerebro que corre en tu equipo, con reglas propias y sin depender de la nube de ningún fabricante.",
+ "capitulo": 9,
+ "orden": 5,
+ "para_quien": {
+  "es": "para quien tiene varios aparatos conectados, de marcas distintas, y quiere una sola aplicación que los coordine y reglas que se cumplan aunque no haya internet.",
+  "no_es": "para quien tiene dos bombillas y un enchufe: para eso alcanza la aplicación del fabricante, y montar esto sería un pasatiempo caro."
+ },
+ "manos": [
+  "Decidí dónde va a vivir: un equipo pequeño dedicado es lo más cómodo; una computadora que se apaga no sirve para una casa.",
+  "Instalalo por el método que documenta el proyecto, y antes de añadir nada configurá una copia de seguridad automática.",
+  "Añadí los aparatos que puedas controlar de forma local y anotá cuáles dependen de la nube de su fabricante: esa lista decide qué sigue funcionando sin internet.",
+  "Hacé la prueba del router apagado con tres aparatos como mínimo, y anotá el resultado en la misma lista.",
+  "Escribí una automatización simple —una luz que se enciende a una hora— y probala durante una semana sin tocar nada, para descubrir qué falla cuando nadie mira."
+ ],
+ "resultado_esperado": "Los aparatos de la casa se controlan y se coordinan desde un solo lugar, con reglas propias que se cumplen por horario, y la lista de lo que depende de internet está escrita y comprobada.",
+ "si_sale_mal": [
+  "Si un aparato no aparece, buscá si su integración es local o pasa por la nube del fabricante: la mitad de los problemas de «no funciona» son de la nube del otro lado.",
+  "Si una automatización no se dispara, revisá el estado de la entidad que la dispara y no la regla: casi siempre el aparato no reportó el cambio.",
+  "Si el equipo se queda sin espacio o se corrompe, la culpa es de la tarjeta de memoria: usá un disco y una copia automática, no una tarjeta barata."
+ ],
+ "deshacer": "Quitar una integración deja el aparato como estaba, funcionando con su aplicación de fábrica. Borrar el equipo borra la casa entera tal como la configuraste: la copia automática es lo único que la devuelve.",
+ "cabeza": [
+  "Home Assistant no es una aplicación de bombillas: es un cerebro. Junta en un mismo lugar los aparatos de todas las marcas —con más de tres mil integraciones, una por fabricante o por protocolo— y sobre esa mezcla deja escribir reglas que ninguna aplicación de fabricante podría cumplir, porque ninguna ve más allá de sus propios aparatos.",
+  "Su valor está en dos capas distintas. La primera es la **unificación**: un solo panel para el aire, las luces, la puerta y la cámara. La segunda, y la que importa para esta guía, es la **localidad**: muchas integraciones hablan con los aparatos directamente en la red de casa, sin pasar por ningún servidor ajeno. Cuáles y cuántas depende de cada marca, y por eso el capítulo insiste con la prueba del router apagado: es la única forma de saber qué tenés de verdad.",
+  "Sus números explican su lugar en el ecosistema: noventa y un mil novecientas treinta y nueve estrellas, casi cuarenta mil derivados y una versión nueva el mismo día de esta medición. Es el proyecto más grande de la guía después de Immich, y el que más se parece a un sistema operativo para la casa."
+ ],
+ "limites": [
+  "Requiere un equipo encendido permanentemente y mantenimiento: actualizaciones que a veces rompen integraciones.",
+  "Muchas integraciones dependen de la nube del fabricante aunque el cerebro sea tuyo: la localidad se comprueba, no se supone.",
+  "La curva de entrada es real: entidades, automatizaciones, plantillas y una cantidad de opciones que abruma.",
+  "Una tarjeta de memoria como disco es la forma más común de perder la casa entera en un año."
+ ],
+ "oficio": {
+  "dato": "El identificador de una entidad no cambia cuando le cambiás el nombre. Un aparato entra con un identificador heredado de su marca —algo como `light.hue_color_lamp_1`— y ese texto es el que usan todas las automatizaciones y todos los paneles. Si después renombrás el aparato a «Luz del pasillo», el nombre visible cambia y el identificador no: la casa sigue funcionando, y cualquier regla que escribas a mano con el nombre nuevo no encontrará nada. Eso explica dos clásicos: automatizaciones que dejan de dispararse después de reorganizar la casa, y guías que no funcionan porque el identificador de quien las escribió no coincide con el tuyo. La costumbre que evita el problema es la de los programadores: escribir las reglas con el identificador, no con el nombre que se ve en pantalla.",
+  "como_comprobar": "Renombrá un aparato desde la interfaz y después mirá su identificador en los ajustes de la entidad: el nombre cambió, el identificador no. Copiá ese identificador y usalo en una automatización escrita a mano.",
+  "comando": "grep -o '\"entity_id\": *\"[a-z_]*\\.[a-z0-9_]*\"' /ruta/a/config/.storage/core.entity_registry | head -20"
+ },
+ "riesgos": [
+  "Suponer que la casa funciona sin internet sin haber hecho nunca la prueba del router apagado.",
+  "Correr el sistema en una tarjeta de memoria sin copias: es el modo más frecuente de perder años de configuración."
+ ],
+ "alternativas": [
+  "esphome/esphome",
+  "home-assistant/android"
+ ],
+ "senal": {
+  "estrellas": 91960,
+  "nota": 55,
+  "edad_dias": 4796,
+  "ultima_entrega": "2026-11-04",
+  "descargas_10": 0,
+  "contribuyentes": 100,
+  "repo_mb": 912.1,
+  "ci": 5,
+  "incidencias": "2439 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de Home Assistant y su comunidad · Apache-2.0 · medido el 3 de noviembre de 2026"
+}

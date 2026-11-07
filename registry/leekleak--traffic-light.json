@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-11-01",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-02"
+ },
+ "descripcion": "Track your network and data usage with privacy",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/leekleak--traffic-light.json",
+  "sha256": "b8d0853bc78d4c54ef051cba0205062af8df72c41552666e9493cce50cd7759c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "leekleak--traffic-light",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 918,
+  "stars_por_mes": null
+ },
+ "nombre": "traffic-light",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c46d0b31db1ac1c5cdb53629dd5bc3174d01d95d",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c46d0b31db1ac1c5cdb53629dd5bc3174d01d95d"
+ },
+ "repo": "leekleak/traffic-light"
+}

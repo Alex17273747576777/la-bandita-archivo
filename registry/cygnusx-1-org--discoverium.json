@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-05-31",
+  "semantica_http": 200,
+  "ultima_release": "1.1.55",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Android phone and TV app for discovering open source Android apps",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/cygnusx-1-org--discoverium.json",
+  "sha256": "c719d2f7b0d2a064880c8a4d336d720cf60826df23a277be4b418a05a52a7f4d"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "cygnusx-1-org--discoverium",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 612,
+  "stars_por_mes": null
+ },
+ "nombre": "Discoverium",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3d7f67881d9db32f2d11a804e41824ce1eac4973",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:3d7f67881d9db32f2d11a804e41824ce1eac4973"
+ },
+ "repo": "cygnusx-1-org/Discoverium"
+}

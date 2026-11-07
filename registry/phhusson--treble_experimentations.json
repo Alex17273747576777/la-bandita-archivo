@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2018-05-14",
+  "semantica_http": 200,
+  "ultima_release": "v18",
+  "ultimo_push": "2025-01-27"
+ },
+ "descripcion": "Notes about tinkering with Android Project Treble",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/phhusson--treble_experimentations.json",
+  "sha256": "ed7574bbcf266f67e24e5a7a62833e46f8ca910e86cd736ac27c0c29b7c27154"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "phhusson--treble_experimentations",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3553,
+  "stars_por_mes": null
+ },
+ "nombre": "treble_experimentations",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b061bfc0405368c66fef2633e6db2dbc4552d783",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b061bfc0405368c66fef2633e6db2dbc4552d783"
+ },
+ "repo": "phhusson/treble_experimentations"
+}

@@ -1,0 +1,72 @@
+{
+ "id": "restoid",
+ "nombre": "restoid",
+ "repo": "hddq/restoid",
+ "autores": [
+  {
+   "nombre": "hddq",
+   "enlace": "https://github.com/hddq"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/hddq/restoid/blob/main/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Copiar datos de aplicaciones con root usando restic, con cifrado y deduplicación de verdad.",
+ "capitulo": 1,
+ "orden": 4,
+ "para_quien": {
+  "es": "para quien ya use restic en la computadora y quiera las copias del teléfono con el mismo formato y la misma disciplina.",
+  "no_es": "para quien empiece: sin root no funciona y sin entender restic no se aprovecha."
+ },
+ "manos": [
+  "Comprueba que tienes root y un repositorio restic preparado, en la tarjeta o en un servidor de tu red.",
+  "Instala la aplicación y configura la ruta del repositorio y la contraseña del mismo. Guárdala fuera del teléfono.",
+  "Ejecuta una primera copia de una sola aplicación para comprobar que el repositorio se abre y escribe.",
+  "Verifica el repositorio con una comprobación de integridad desde la computadora o desde la propia aplicación.",
+  "Programa una copia periódica y prueba una restauración en un directorio temporal antes de necesitarla de verdad."
+ ],
+ "resultado_esperado": "Un repositorio restic con las copias dentro, verificable con `restic check`, y una restauración de prueba que devuelve los archivos.",
+ "si_sale_mal": [
+  "Si la contraseña del repositorio se pierde, las copias son irrecuperables: no hay puerta trasera y eso es una virtud, no un fallo.",
+  "Si la copia falla por espacio, el repositorio deduplica, pero necesita sitio libre para el índice."
+ ],
+ "deshacer": "Las copias quedan en el repositorio y se borran con `restic forget` y `restic prune`. Lo restaurado se puede volver a restaurar de la copia anterior.",
+ "cabeza": [
+  "restic no guarda archivos: guarda bloques. Dos copias de la misma aplicación solo almacenan lo que cambió entre una y otra, y cada bloque va cifrado con la clave del repositorio.",
+  "Esa es la diferencia entre esta ficha y las dos anteriores: aquí la copia no vive en una carpeta que cualquiera puede abrir, vive en un repositorio que solo se abre con la contraseña, y que se puede comprobar y podar sin miedo."
+ ],
+ "limites": [
+  "Sin root no copia datos de aplicaciones.",
+  "Ocho personas y una comunidad pequeña: menos ojos sobre el código.",
+  "La contraseña del repositorio es una llave que no se puede recuperar."
+ ],
+ "oficio": {
+  "dato": "La comprobación de integridad es lo que separa una copia de una carpeta con archivos. `restic check` lee el índice y verifica que cada bloque referenciado exista y coincida con su resumen; una copia que nunca se comprobó puede estar rota desde el mes pasado y nadie lo sabría hasta el día de restaurar. Y hay un detalle práctico: la comprobación sin `--read-data` no lee los bloques, solo el índice, así que es rápida y sirve para el día a día, mientras que la lectura completa se reserva para una vez al mes.",
+  "como_comprobar": "Ejecuta la comprobación contra el repositorio del teléfono desde la computadora: si termina sin errores, la copia se puede restaurar. Si dice que faltan bloques, hay que volver a copiar esa aplicación.",
+  "comando": "restic -r <repositorio> check"
+ },
+ "riesgos": [
+  "Perder la contraseña del repositorio: sin ella no hay restauración posible.",
+  "Guardar el repositorio en el mismo aparato que se va a formatear."
+ ],
+ "alternativas": [
+  "NeoApplications/Neo-Backup",
+  "XayahSuSuSu/Android-DataBackup"
+ ],
+ "senal": {
+  "estrellas": 187,
+  "nota": 68,
+  "edad_dias": 419,
+  "ultima_entrega": "2026-11-04",
+  "descargas_10": 2746,
+  "contribuyentes": 10,
+  "repo_mb": 97.6,
+  "ci": 2,
+  "incidencias": "20 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de hddq · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

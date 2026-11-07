@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2023-12-31",
+  "semantica_http": 200,
+  "ultima_release": "v0.3",
+  "ultimo_push": "2026-07-19"
+ },
+ "descripcion": "哔哩哔哩缓存导出工具",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/10miaomiao--bili-down-out.json",
+  "sha256": "d76201918c03660b2350b6d3ba79f3c3543837b3cff1e08ec76246bb8bd914fb"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "10miaomiao--bili-down-out",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 383,
+  "stars_por_mes": null
+ },
+ "nombre": "bili-down-out",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3ed22d25d9d840706a59a00e74324590bb3650d1",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:3ed22d25d9d840706a59a00e74324590bb3650d1"
+ },
+ "repo": "10miaomiao/bili-down-out"
+}

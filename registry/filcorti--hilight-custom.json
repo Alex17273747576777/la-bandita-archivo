@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-05",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.7-experimental",
+  "ultimo_push": "2026-10-23"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/filcorti--hilight-custom.json",
+  "sha256": "25f41b6c4a3ad21fd38cd71fb6fb1b8c237c29c5131801f36f933dd57f385e9e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "filcorti--hilight-custom",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "hilight-custom",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "61f236bea329ae3dc8c1330c725c2156f6650e9c",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:61f236bea329ae3dc8c1330c725c2156f6650e9c"
+ },
+ "repo": "filcorti/hilight-custom"
+}

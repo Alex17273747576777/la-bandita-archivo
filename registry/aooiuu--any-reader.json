@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2024-05-26",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0-dev.1",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "📘开源的多平台自定义源资源聚合工具。支持小说、漫画阅读、视频播放、聚合搜索、分类排行等, 也支持本地资源TXT、EPUB",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/aooiuu--any-reader.json",
+  "sha256": "17f0f2afb93ef0f07de4846bb46314fa94b2e84a802c6acac6d63fdd21668dc8"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "aooiuu--any-reader",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1196,
+  "stars_por_mes": null
+ },
+ "nombre": "any-reader",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "582056d3abab43e32437103c254a934a5e5bbb38",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:582056d3abab43e32437103c254a934a5e5bbb38"
+ },
+ "repo": "aooiuu/any-reader",
+ "web": "https://aooiuu.github.io/any-reader/"
+}

@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-01-22",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0+1",
+  "ultimo_push": "2026-09-07"
+ },
+ "descripcion": "F-Droid Client",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/nandanrmenon--florid.json",
+  "sha256": "9f732048c5fe874bee491bb6376c9f836858c590e05384a063ccd8845852baed"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nandanrmenon--florid",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 522,
+  "stars_por_mes": null
+ },
+ "nombre": "florid",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "354f814f478b3248e0e4bc2d01b97e3c549b0fdc",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:354f814f478b3248e0e4bc2d01b97e3c549b0fdc"
+ },
+ "repo": "Nandanrmenon/florid",
+ "web": "https://www.nandanmenon.dev/florid"
+}

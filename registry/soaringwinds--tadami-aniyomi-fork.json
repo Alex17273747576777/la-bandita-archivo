@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-20"
+ },
+ "descripcion": "An app for manga, anime and ranobe",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/soaringwinds--tadami-aniyomi-fork.json",
+  "sha256": "d98d4afaacbc3b4e539ff8c3512dbef4434d2df7bf55a0d90b6f2a8ee51da3c2"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "soaringwinds--tadami-aniyomi-fork",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Tadami-Aniyomi-fork",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "24d524adbd7c710316431fe4c9b749e1d70ce588",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:24d524adbd7c710316431fe4c9b749e1d70ce588"
+ },
+ "repo": "SoaringWinds/Tadami-Aniyomi-fork"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "netguard",
+ "nombre": "NetGuard",
+ "repo": "M66B/NetGuard",
+ "autores": [
+  {
+   "nombre": "Marcel Bokhorst (M66B)",
+   "enlace": "https://github.com/M66B"
+  }
+ ],
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "https://github.com/M66B/NetGuard/blob/master/LICENSE"
+ },
+ "nivel": "experto",
+ "tarea": "Decidir aplicación por aplicación, y dirección por dirección, qué puede salir a internet y por qué red, sin root y sin que el programa llame a casa.",
+ "capitulo": 5,
+ "orden": 5,
+ "para_quien": {
+  "es": "para quien quiere un cortafuegos de verdad, con reglas por dirección, registro exportable y la tranquilidad de un programa que no tiene telemetría propia.",
+  "no_es": "para quien quiere ver categorías y empresas con nombre: NetGuard te da direcciones y reglas, no un informe didáctico."
+ },
+ "manos": [
+  "Bajá la APK de la última entrega del repositorio, no de la tienda: la versión de la tienda llega sin dos funciones por política de la plataforma.",
+  "Al abrirla, dejá que cree el túnel y activá la opción de bloquear por omisión, de modo que nada salga sin tu permiso.",
+  "Recorré la lista de aplicaciones y permití una por una: primero mensajería, teléfono, mapas y banco; después lo demás, según lo que uses.",
+  "Activá el registro de accesos y mirá durante un día qué aplicaciones intentan salir a direcciones que no esperabas.",
+  "Exportá el registro a un archivo de captura y abrilo en una computadora para ver los destinos con más detalle."
+ ],
+ "resultado_esperado": "Ninguna aplicación sale a internet sin una regla tuya, el registro muestra los intentos rechazados y el teléfono funciona con lo que autorizaste.",
+ "si_sale_mal": [
+  "Si el teléfono se queda sin datos, es el bloqueo por omisión haciendo su trabajo: permití las aplicaciones del sistema que necesites.",
+  "Si las notificaciones no llegan, permití los servicios de mensajería del fabricante; el aviso urgente suele viajar por una conexión distinta de la de la aplicación.",
+  "Si querés funciones de pago, se compran dentro de la aplicación; la versión del repositorio conserva las funciones que la tienda retira, como el bloqueo por lista de nombres y el reenvío de puertos."
+ ],
+ "deshacer": "Desactivar el túnel devuelve el acceso a internet a todas las aplicaciones al instante. Las reglas quedan guardadas y vuelven a aplicarse cuando lo actives otra vez; desinstalar la aplicación no cambia ninguna configuración del sistema.",
+ "cabeza": [
+  "NetGuard fue el primer cortafuegos libre sin root para Android y su diseño sigue siendo el más sobrio de la categoría: un túnel local, una tabla de reglas por aplicación, y nada más. No tiene cuentas, no tiene nube y no tiene analítica propia; el autor lo mantiene desde 2015 con treinta y dos personas y una sola incidencia abierta, lo que dice mucho de cómo se atiende el proyecto.",
+  "La diferencia con las demás fichas del capítulo está en la granularidad: permite reglas por dirección, no sólo por aplicación, y también por tipo de red —wifi o datos—, con opciones como permitir sólo con la pantalla encendida o bloquear en itinerancia. Eso lo vuelve la herramienta correcta cuando el problema no es un anuncio: es una aplicación que insiste en hablar con un servidor concreto.",
+  "Su coste es la nota más baja del capítulo, veinticinco puntos, y hay que explicar por qué sin adornos: no publica flujos de compilación, no publica sumas ni firmas junto a sus entregas y su última entrega es de agosto de 2026. La nota mide cómo se publica, no cuánto sirve el programa. Un cortafuegos que no se actualiza cada semana puede seguir siendo mejor que uno nuevo con mejor nota, y esta ficha lo dice con el número delante para que no haya engaño."
+ ],
+ "limites": [
+  "La versión de la tienda de Google llega sin reenvío de puertos ni bloqueo por lista de nombres: la del repositorio sí los tiene.",
+  "No clasifica por empresa ni por categoría: muestra direcciones, y entender qué es cada una es trabajo tuyo.",
+  "La nota de publicación es la más baja del capítulo: sin compilación automática, sin sumas publicadas y con la última entrega hace meses.",
+  "Ocupa el único túnel disponible, como todas las de esta categoría sin root."
+ ],
+ "oficio": {
+  "dato": "Un cortafuegos necesita ver todas las aplicaciones instaladas para poder ofrecerte una regla para cada una, y para eso Android exige un permiso que suena alarmante: consultar todos los paquetes del aparato. Verlo en la ficha de una aplicación cualquiera asusta; en un cortafuegos es el corazón del oficio. La comprobación buena no es «¿pide permisos raros?» sino «¿cada permiso se explica por la tarea que hace?». NetGuard también pide estado de red, estado de wifi y estado del teléfono, y todo eso se entiende: sin saber por qué red vas, no puede aplicar la regla de red; sin saber si hay llamada, no puede decidir si conviene bloquear. Y hay un permiso que no pide y que debería ser la primera pregunta de cualquiera: no pide nada de contactos, ni de ubicación, ni de almacenamiento.",
+  "como_comprobar": "Pedile al sistema los permisos declarados por la aplicación instalada y leelos uno por uno. Después hacé lo mismo con cualquier aplicación de mensajería o de compras que tengas, y compará: la lista corta de un cortafuegos al lado de la lista larga de un programa comercial es, en sí misma, una lección.",
+  "comando": "adb shell dumpsys package eu.faircode.netguard | grep -i 'requested permissions' -A15"
+ },
+ "riesgos": [
+  "Activar el bloqueo por omisión sin permitir antes las aplicaciones del sistema y quedarse con un teléfono que no recibe llamadas ni avisos.",
+  "Instalar la versión de la tienda esperando funciones que esa versión no incluye por política de la plataforma."
+ ],
+ "alternativas": [
+  "celzero/rethink-app",
+  "TrackerControl/tracker-control-android"
+ ],
+ "senal": {
+  "estrellas": 3963,
+  "nota": 25,
+  "edad_dias": 4029,
+  "ultima_entrega": "2026-08-01",
+  "descargas_10": 34881,
+  "contribuyentes": 32,
+  "repo_mb": 28.2,
+  "ci": 0,
+  "incidencias": "0 abiertas"
+ },
+ "medido_en": "2026-11-04",
+ "swhid": null,
+ "credito": "Programa de Marcel Bokhorst (M66B) · GPL-3.0 · medido el 3 de noviembre de 2026"
+}

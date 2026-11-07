@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-06",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-10-06"
+ },
+ "descripcion": "Let coding agents drive an Android phone, several at once on their own virtual displays, without root.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/aadarwal--parallel-root.json",
+  "sha256": "8fccb8bc25e57f67c5b28332e8715bed52c158b769510368ce6af0452b8bf31b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "aadarwal--parallel-root",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 2,
+  "stars_por_mes": null
+ },
+ "nombre": "parallel-root",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "a165dd9b4435959f54cd3faea6e8ecc81c508ab4",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:a165dd9b4435959f54cd3faea6e8ecc81c508ab4"
+ },
+ "repo": "aadarwal/parallel-root"
+}

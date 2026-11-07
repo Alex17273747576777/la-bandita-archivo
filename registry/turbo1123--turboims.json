@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2025-10-17",
+  "semantica_http": 200,
+  "ultima_release": "3.0",
+  "ultimo_push": "2025-10-17"
+ },
+ "descripcion": "  Enhanced IMS Configuration Tool for Google Pixel Devices",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/turbo1123--turboims.json",
+  "sha256": "9e438fb29bd8fd4f38f5666ac2ca72beb3e54af65a35ac53ae41f6b0a13819ed"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "turbo1123--turboims",
+ "licencia": {
+  "archivo": "README (texto completo)",
+  "metodo": "texto-license",
+  "nota": "licencia declarada por el proyecto en su propio README; el endpoint de GitHub no la clasifica",
+  "spdx": "mit",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 381,
+  "stars_por_mes": null
+ },
+ "nombre": "TurboIMS",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "2fac25757af6807c3d94e412d1f27e999b1d63ca",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:2fac25757af6807c3d94e412d1f27e999b1d63ca"
+ },
+ "repo": "Turbo1123/TurboIMS"
+}

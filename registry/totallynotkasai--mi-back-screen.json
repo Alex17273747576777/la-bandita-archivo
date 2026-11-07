@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-27",
+  "semantica_http": 200,
+  "ultima_release": "v1.2",
+  "ultimo_push": "2026-10-14"
+ },
+ "descripcion": "Your own images, a clock and notifications on the Xiaomi 17 Pro Max rear display, plus Quick Switch and Xiaomi Camera there. Uses Shizuku.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/totallynotkasai--mi-back-screen.json",
+  "sha256": "b234efc4cadf8325f9dfbd3b37d962194e7adefba87e036f979230f7aafb2c0e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "totallynotkasai--mi-back-screen",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 4,
+  "stars_por_mes": null
+ },
+ "nombre": "mi-back-screen",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "842d0ca875a16b568d931785e80fd47f1cd10208",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:842d0ca875a16b568d931785e80fd47f1cd10208"
+ },
+ "repo": "totallynotkasai/mi-back-screen",
+ "web": "https://totallynotkasai.github.io/mi-back-screen/"
+}

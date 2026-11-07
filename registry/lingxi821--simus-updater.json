@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-05",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-05"
+ },
+ "descripcion": "端上给 TikTok 打补丁并安装的小工具：LSPatch 集成模式 + 内嵌 Xposed 模块（美区 SIM 伪装），保留数据。由 灵曦以茗 制作",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/lingxi821--simus-updater.json",
+  "sha256": "7e17c97d8e5225a748b919e903d211940952ed339fb80672a7671f67fb3d2864"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lingxi821--simus-updater",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3,
+  "stars_por_mes": null
+ },
+ "nombre": "simus-updater",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "381c15306cf73adc2729cad85f2e6eb04fcf4f01",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:381c15306cf73adc2729cad85f2e6eb04fcf4f01"
+ },
+ "repo": "lingxi821/simus-updater"
+}

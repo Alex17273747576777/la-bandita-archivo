@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-28",
+  "semantica_http": 200,
+  "ultima_release": "nightly-20260728",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kototoro-app--kototoro-nightly.json",
+  "sha256": "fb86b98f76b5fb1fd428c825d087b2df34d0a1f9cabbaa6b39fc26fb042e9311"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kototoro-app--kototoro-nightly",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 12,
+  "stars_por_mes": null
+ },
+ "nombre": "Kototoro-Nightly",
+ "piezas": [
+  "02-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "bd4a05d94d1eef2e5fddfa07ecaeed7bfce6170d",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:bd4a05d94d1eef2e5fddfa07ecaeed7bfce6170d"
+ },
+ "repo": "Kototoro-app/Kototoro-Nightly"
+}

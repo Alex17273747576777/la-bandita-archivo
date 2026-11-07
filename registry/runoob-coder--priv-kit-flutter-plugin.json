@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-14",
+  "semantica_http": 200,
+  "ultima_release": "v0.0.1",
+  "ultimo_push": "2026-10-28"
+ },
+ "descripcion": "Built on Flutter, this plugin seamlessly bridges Priv Kit's Android runtime, priv-core, to the Dart side over platform channels.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/runoob-coder--priv-kit-flutter-plugin.json",
+  "sha256": "50676e49a010bc679229a5772cab86f2533eb2178bbd0aa139b98beda4cb450b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "runoob-coder--priv-kit-flutter-plugin",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "priv-kit-flutter-plugin",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "7df0e25e9287f44229eba5ad45ff8d7ec0c8fd9b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:7df0e25e9287f44229eba5ad45ff8d7ec0c8fd9b"
+ },
+ "repo": "runoob-coder/priv-kit-flutter-plugin",
+ "web": "https://pub.dev/packages/priv_kit"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-19",
+  "semantica_http": 200,
+  "ultima_release": "v0.6.1-preview",
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "hyperos3的 LSPosed 广告精简与页面入口自定义模块",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/tiancaiprogramer--noadmi.json",
+  "sha256": "d8f80584eeb3809a5e4b3ebe4fbe811fa6212653b7e1d2f1d9ebcaf12c314520"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "tiancaiprogramer--noadmi",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "NoAdMi",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "9142b6aa9f4f6db964011560950056df603cfc52",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:9142b6aa9f4f6db964011560950056df603cfc52"
+ },
+ "repo": "tiancaiProgramer/NoAdMi"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-14",
+  "semantica_http": 200,
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-10-07"
+ },
+ "descripcion": "Rooted-Android Extra Dim (Reduce bright colors) toggle: app, QS tile, widget + flashable KernelSU/Magisk module",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/apihplays--extradimtoggle.json",
+  "sha256": "c6d8ff66c8f74c8362f84006dcdcfe088378a0c01638abb7502dde319aea760d"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "apihplays--extradimtoggle",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "ExtraDimToggle",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "26bdae74e681f8d6c069556e700bccd224422bba",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:26bdae74e681f8d6c069556e700bccd224422bba"
+ },
+ "repo": "Apihplays/ExtraDimToggle"
+}

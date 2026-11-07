@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2023-09-23",
+  "semantica_http": 200,
+  "ultima_release": "1.0.0",
+  "ultimo_push": "2026-10-31"
+ },
+ "descripcion": "Uninstall any Android app without root (with power of Shizuku). Debloat your device as you wish, with Android app or even from your browser!",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/samolego--canta.json",
+  "sha256": "fd4b9db15838ff93d0c320ca0a5c46532a97b861b3cdeb810230bc6cc702004b"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "samolego--canta",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "LGPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 6439,
+  "stars_por_mes": null
+ },
+ "nombre": "Canta",
+ "piezas": [
+  "29-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e3ed0c9bf90ee6f8bfb7a92ba1e140327cda480f",
+  "swh_estado": "archivada",
+  "swh_solicitud": "e3ed0c9bf90ee6f8bfb7a92ba1e140327cda480f",
+  "swhid": "swh:1:rev:e3ed0c9bf90ee6f8bfb7a92ba1e140327cda480f"
+ },
+ "repo": "samolego/Canta",
+ "web": "https://samolego.github.io/Canta/"
+}

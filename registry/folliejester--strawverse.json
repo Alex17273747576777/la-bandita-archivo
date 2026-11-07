@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "muerto",
+  "release_en": null,
+  "semantica_http": 404,
+  "ultima_release": null,
+  "ultimo_push": "2025-07-03"
+ },
+ "descripcion": "A gui to download anime & manga in batches & its fast :3",
+ "evidencia": {
+  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
+  "payload_ref": "censo-ecosistema-2026-10-15.tsv#folliejester/StrawVerse",
+  "sha256": "f75782429b2c395ef157b4bdb20806d194ba67f0b881af1ad6144cf1eea0d4b6"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "sin_objeto",
+  "evidencia_en": "2026-10-15",
+  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
+  "proxima_remedicion": "2026-11-14",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "folliejester--strawverse",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": null,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "StrawVerse",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "4e4b6ebd1953c31a57e254ac5fc0504ba6845537",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:4e4b6ebd1953c31a57e254ac5fc0504ba6845537"
+ },
+ "repo": "folliejester/StrawVerse"
+}

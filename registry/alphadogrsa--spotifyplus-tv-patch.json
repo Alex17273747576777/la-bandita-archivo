@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-26",
+  "semantica_http": 200,
+  "ultima_release": "v0.4.0",
+  "ultimo_push": "2026-10-27"
+ },
+ "descripcion": "Open-source Android TV extension: native Spotify settings, themes, artwork blur, EQ, sleep timer and optional Hush helper. ARMv7 build and Windows ADB installer.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/alphadogrsa--spotifyplus-tv-patch.json",
+  "sha256": "765c1ecf2d5be5ec272345d41eeb8e7f4259c614af560810369da8450461f183"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "alphadogrsa--spotifyplus-tv-patch",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 22,
+  "stars_por_mes": null
+ },
+ "nombre": "spotifyplus-tv-patch",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "340de091f85a619e506b533bf9557d711fc4c3bf",
+  "swh_estado": "solicitud 200",
+  "swh_solicitud": "accepted",
+  "swhid": "swh:1:rev:340de091f85a619e506b533bf9557d711fc4c3bf"
+ },
+ "repo": "AlphadogRSA/spotifyplus-tv-patch"
+}

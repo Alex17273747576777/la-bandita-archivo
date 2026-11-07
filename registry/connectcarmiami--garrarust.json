@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-06-19"
+ },
+ "descripcion": "O framework seguro e leve de código aberto para agentes de IA desenvolvido 100%",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/connectcarmiami--garrarust.json",
+  "sha256": "682620606db44b5ec09b8bec3fb6da75b2cc252add4ae7c94f01ae60b8e6bc10"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "connectcarmiami--garrarust",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "GarraRUST",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "3d32e8d51911dd76cb69e22fbf83f9117d07ab60",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:3d32e8d51911dd76cb69e22fbf83f9117d07ab60"
+ },
+ "repo": "connectcarmiami/GarraRUST"
+}

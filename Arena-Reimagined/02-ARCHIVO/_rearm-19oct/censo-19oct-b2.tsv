@@ -1,0 +1,57 @@
+AsrOfficialDev/ReDantotsu	153	2026-01-17	2026-08-18	NOASSERTION	ReDantotsu is a Remake version of the original Dantotsu app. It is built on a foundation that has been tested and works well. ReDantotsu features a new user interface, MyAnimeList rating integration, Liquid Glass theme, etc. This is the best way to keep track of your anime and your manga.
+Chooloo/koler	1071	2018-12-25	2024-12-27	NOASSERTION	Just a phone app.
+Gekkoushi/plugin-source	92	2025-11-23	2026-09-14	GPL-3.0	Manga Parsers library for Kotlin/JVM and Android
+helloworld1/FreeOTPPlus	751	2016-05-09	2026-08-24	Apache-2.0	Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator
+ponces/treble_aosp	315	2021-10-05	2025-07-25	Apache-2.0	Script and patches for building TrebleDroid AOSP
+you-apps/ConnectYou	727	2023-01-24	2026-07-30	GPL-3.0	Privacy focused contacts and SMS messenger app built with MD3
+Johnshall/Shadowrocket-ADBlock-Rules-Forever	31332	2021-12-06	2026-10-18	NOASSERTION	提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。
+koreader/koreader	30431	2013-03-24	2026-10-19	AGPL-3.0	An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices
+signalapp/Signal-Android	29496	2011-12-15	2026-10-16	AGPL-3.0	A private messenger for Android.
+keepassxreboot/keepassxc	29313	2016-02-28	2026-10-18	NOASSERTION	KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.
+openwrt/openwrt	28823	2015-11-09	2026-10-19	NOASSERTION	This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.
+koodo-reader/koodo-reader	28568	2020-03-05	2026-10-18	AGPL-3.0	A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web
+GopeedLab/gopeed	27011	2019-04-21	2026-10-19	GPL-3.0	  A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.
+mihonapp/mihon	24532	2024-01-15	2026-10-19	Apache-2.0	Free and open source manga reader for Android
+open-ani/animeko	21067	2022-07-31	2026-10-19	AGPL-3.0	集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform
+ImranR98/Obtainium	20596	2022-08-11	2026-10-18	GPL-3.0	Get Android app updates straight from the source.
+simplex-chat/simplex-chat	19585	2019-12-21	2026-10-19	AGPL-3.0	SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!
+brunodev85/winlator	19531	2023-07-26	2026-10-17	LGPL-2.1	Android application for running Windows applications with Wine and Box86/Box64
+termux/termux-packages	17196	2015-06-12	2026-10-19	NOASSERTION	A package build system for Termux.
+getlantern/lantern	16419	2011-02-17	2026-10-19	GPL-3.0	Open-source VPN for speed, privacy, and censorship circumvention. Free to download on Android, iOS, Windows, macOS, and Linux.
+organicmaps/organicmaps	15707	2020-12-27	2026-10-19	NOASSERTION	🍃 Organic Maps is a free Android & iOS offline maps app for more than 6M travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!
+dolphin-emu/dolphin	15687	2013-07-22	2026-10-18	NOASSERTION	Dolphin is a GameCube / Wii emulator, allowing you to play games for these two platforms on PC with improvements.
+keiyoushi/extensions	15277	2024-01-08	2026-10-19	NOASSERTION	Extension repository for Mihon and variants
+hrydgard/ppsspp	14690	2012-11-01	2026-10-19	NOASSERTION	A PSP emulator for Android, Windows, Mac, Linux and iOS, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or just send pull requests / issues.
+kopia/kopia	14383	2015-12-19	2026-10-18	Apache-2.0	Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.
+libretro/RetroArch	14382	2010-05-27	2026-10-19	GPL-3.0	Cross-platform, sophisticated frontend for the libretro API. Licensed GPLv3.
+thunderbird/thunderbird-android	14115	2011-02-04	2026-10-15	Apache-2.0	Thunderbird for Android – Open Source Email App for Android (fka K-9 Mail)
+LawnchairLauncher/lawnchair	13736	2017-03-03	2026-10-18	NOASSERTION	No clever tagline needed.
+MetrolistGroup/Metrolist	13614	2023-08-11	2026-10-08	GPL-3.0	YouTube Music client for Android
+libre-tube/LibreTube	12848	2021-12-09	2026-10-19	GPL-3.0	An alternative frontend for YouTube, for Android.
+maxrave-dev/SimpMusic	12194	2023-04-15	2026-10-18	GPL-3.0	A cross-platform music app using YouTube Music for backend
+recloudstream/cloudstream	11002	2022-08-04	2026-10-18	GPL-3.0	Android app for streaming and downloading media.
+stenzek/duckstation	10857	2019-09-09	2026-10-19	NOASSERTION	Fast PlayStation 1 emulator for x86-64/AArch32/AArch64/RV64
+signalapp/Signal-Server	10740	2013-12-09	2026-10-15	AGPL-3.0	Server supporting the Signal Private Messenger applications on Android, Desktop, and iOS
+Dr-TSNG/ZygiskNext	10641	2023-01-28	2026-10-15	NOASSERTION	Standalone implementation of Zygisk
+TeamPiped/Piped	10284	2020-11-11	2026-10-18	AGPL-3.0	An alternative privacy-friendly YouTube frontend which is efficient by design.
+modelcontextprotocol/modelcontextprotocol	9481	2024-09-24	2026-10-19	NOASSERTION	Specification and documentation for the Model Context Protocol
+MuntashirAkon/AppManager	9289	2020-05-30	2026-10-19	NOASSERTION	A full-featured package manager and viewer for Android
+MorpheApp/morphe-manager	9101	2025-11-26	2026-10-19	GPL-3.0	Morphe app patcher for Android
+florisboard/florisboard	8705	2020-04-08	2026-10-19	Apache-2.0	An open-source keyboard for Android which respects your privacy. Currently in beta.
+uazo/cromite	8375	2020-04-22	2026-10-19	GPL-3.0	Cromite a Bromite fork with ad blocking and privacy enhancements; take back your browser!
+bmax121/APatch	8073	2023-08-21	2026-10-16	GPL-3.0	The patching of Android kernel and Android system
+openwrt/luci	7917	2014-10-09	2026-10-18	Apache-2.0	LuCI - OpenWrt Configuration Interface
+j-hc/revanced-magisk-module	7691	2022-06-25	2026-10-18	GPL-3.0	Extensive ReVanced builder. Builds both modules and APKs. Updated daily.
+Moriafly/SaltPlayerSource	7522	2021-07-29	2026-10-07	MIT	A multi-platform local music player in continuous development since 2020, serving over one million users. This repository is used for issue tracking and official Android package releases.
+mgba-emu/mgba	7513	2014-12-09	2026-10-19	MPL-2.0	mGBA Game Boy Advance Emulator
+Kunzisoft/KeePassDX	7505	2017-10-17	2026-10-17	GPL-3.0	Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.
+nextcloud/docker	7390	2016-07-12	2026-10-15	AGPL-3.0	A community maintained docker micro-image for deploying Nextcloud on container platforms
+rukamori/ArchiveTune	7339	2025-09-01	2026-10-19	GPL-3.0	🌸 The Cutest Music Player With Support Local File and Youtube Music for Android!
+shiaho777/web-to-app	6850	2025-11-26	2026-10-19	Unlicense	The most full featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone
+PixelPlayerHQ/PixelPlayer	6736	2025-05-20	2026-09-21	NOASSERTION	privacy-first Android music player built with Material 3 Expressive. Play offline, sync lyrics, fine-tune with equalizer presets, and cast to your devices.
+namidaco/namida	6674	2023-02-12	2026-10-14	NOASSERTION	A Beautiful and Feature-rich Music & Video Player with Youtube Support, Built in Flutter
+TeamAmaze/AmazeFileManager	6432	2014-07-14	2026-10-18	GPL-3.0	Material design file manager for Android
+gsantner/markor	6309	2017-08-26	2026-10-10	NOASSERTION	Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..
+signalapp/libsignal	6081	2020-09-12	2026-10-15	AGPL-3.0	Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible.
+MorpheApp/MicroG-RE	5819	2023-12-01	2026-10-19	Apache-2.0	GmsCore fork for Morphe patched apps
+fcitx5-android/fcitx5-android	5773	2021-06-10	2026-10-13	LGPL-2.1	Fcitx5 input method framework and engines ported to Android

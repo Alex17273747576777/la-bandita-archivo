@@ -1,0 +1,56 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-12-09",
+  "semantica_http": 200,
+  "ultima_release": "1.0",
+  "ultimo_push": "2026-09-14"
+ },
+ "descripcion": "Manga Parsers library for Kotlin/JVM and Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/gekkoushi--plugin-source.json",
+  "sha256": "05cb701d5901183fde23dda965e3c2b4587c8f5b18721cb42d63966a8b485a6c"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "gekkoushi--plugin-source",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 93,
+  "stars_por_mes": null
+ },
+ "nombre": "plugin-source",
+ "piezas": [
+  "07-",
+  "101",
+  "102"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "12cd1faa0d5a9f846a048fbb9c7d79328c0f1e67",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:12cd1faa0d5a9f846a048fbb9c7d79328c0f1e67"
+ },
+ "repo": "Gekkoushi/plugin-source"
+}

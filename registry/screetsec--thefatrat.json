@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": "2017-02-10",
+  "semantica_http": 200,
+  "ultima_release": "v1.6.9",
+  "ultimo_push": "2024-03-17"
+ },
+ "descripcion": "Thefatrat a massive exploiting tool : Easy tool to generate backdoor and easy tool to post exploitation attack like browser attack and etc . This tool compiles a malware with popular payload and then the compiled malware can be execute on windows, android, mac . The malware that created with this tool also have an ability to bypass most AV software protection .",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/screetsec--thefatrat.json",
+  "sha256": "c05229e1e5834e940de8c844d6b8707e3039a7c67635f2b774b91bcde3ed3d72"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "screetsec--thefatrat",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 11573,
+  "stars_por_mes": null
+ },
+ "nombre": "TheFatRat",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b0586d08f357bf7bc961aed12b87ffe8849a1674",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:b0586d08f357bf7bc961aed12b87ffe8849a1674"
+ },
+ "repo": "screetsec/TheFatRat"
+}

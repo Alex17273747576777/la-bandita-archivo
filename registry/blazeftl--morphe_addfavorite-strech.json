@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-08-30",
+  "semantica_http": 200,
+  "ultima_release": "v1.29.0-dev.4",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Morphe app Fork With Added Favorite And Strech Patch Screen To Fill Display",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/blazeftl--morphe_addfavorite-strech.json",
+  "sha256": "24b4e6a2d4f2f74da1b2a1dd28c45466e97e5a7816dfb694ac25993549459712"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "blazeftl--morphe_addfavorite-strech",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Morphe_AddFavorite-Strech",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "05e95c8f5a015d732c08391417d794d2480463bc",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:05e95c8f5a015d732c08391417d794d2480463bc"
+ },
+ "repo": "BlazeFTL/Morphe_AddFavorite-Strech"
+}

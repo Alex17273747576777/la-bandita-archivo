@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-10-19"
+ },
+ "descripcion": "AniLabX - android app for watching anime/dramas/cartoons and reading manga/comic",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/darklightning2008--anilabz.json",
+  "sha256": "5efec0fc101038d1e03303d4d4e7ee12ead3f72d93fa980f40c91bde920e9553"
+ },
+ "frescura": {
+  "dias": 19,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "darklightning2008--anilabz",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-15"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "AniLabZ",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "b51f2cb97b7c8e9d4e8786c9c012b690c3bc0a50",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:b51f2cb97b7c8e9d4e8786c9c012b690c3bc0a50"
+ },
+ "repo": "Darklightning2008/AniLabZ"
+}

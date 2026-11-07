@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-03",
+  "semantica_http": 200,
+  "ultima_release": "1.1.1-bgcheck.1",
+  "ultimo_push": "2026-10-14"
+ },
+ "descripcion": "Android process, resource and battery monitor with Shizuku background controls; signed updates through Obtainium.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/jordanwoodson--background-check.json",
+  "sha256": "bd22d67db0fd8019d6921beb11ee7cd647116f212398edcadf6509b21297bf2a"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "jordanwoodson--background-check",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": null
+ },
+ "nombre": "background-check",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e7d9151a99e35b4c97e3f1c8e3a44795763bd5dc",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:e7d9151a99e35b4c97e3f1c8e3a44795763bd5dc"
+ },
+ "repo": "jordanwoodson/background-check"
+}

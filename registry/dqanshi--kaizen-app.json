@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-28"
+ },
+ "descripcion": "A modern manga + anime streaming mobile app built with React Native and Expo, co",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/dqanshi--kaizen-app.json",
+  "sha256": "04e612ff8ed2f5c3045d6649a794046b3c77691757a056d0967789469ad27474"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "dqanshi--kaizen-app",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "kaizen-app",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "36f6fef8c19ba47b318cc688b9d91af0865eeff7",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:36f6fef8c19ba47b318cc688b9d91af0865eeff7"
+ },
+ "repo": "dqanshi/kaizen-app"
+}

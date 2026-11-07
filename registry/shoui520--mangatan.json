@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-12-08"
+ },
+ "descripcion": "A 1 binary solution for https://github.com/kaihouguide/Mangatan",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/shoui520--mangatan.json",
+  "sha256": "90847fd4a7660c3933e30ce01ede2e716c332f9dcca6cd9442430c5c96760d86"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "shoui520--mangatan",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Mangatan",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8489e1f76b9fc521e515d24a51361dfdf17a3cce",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:8489e1f76b9fc521e515d24a51361dfdf17a3cce"
+ },
+ "repo": "shoui520/Mangatan"
+}

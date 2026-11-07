@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-02-06"
+ },
+ "descripcion": "Seamless immersion language learning for anime, manga, light novels, and EPUBs o",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/nihongodaisuki--manatan.json",
+  "sha256": "23a7df8bb4ef3034fa5fc1bd5b98659c077d8c7495e87a2744dc34b191f9ce1e"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "nihongodaisuki--manatan",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "Manatan",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "ba35913c93a0ecb79a07edc314c5f6d4f5fe54fd",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:ba35913c93a0ecb79a07edc314c5f6d4f5fe54fd"
+ },
+ "repo": "nihongodaisuki/Manatan"
+}

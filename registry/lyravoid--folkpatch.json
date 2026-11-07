@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2025-12-01",
+  "semantica_http": 200,
+  "ultima_release": "1.0.5",
+  "ultimo_push": "2026-10-30"
+ },
+ "descripcion": "Root access to the kernel can be achieved simply by patching the Boot partition for reflashing. This solution is based on a non-parallel extended branch of APatch, with a primary focus on UI/UX design",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/lyravoid--folkpatch.json",
+  "sha256": "c451dbf2a2df02c1d7f65028835c40d9409cc3a22d49773e8f03afee31a46cd5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "lyravoid--folkpatch",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1269,
+  "stars_por_mes": null
+ },
+ "nombre": "FolkPatch",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0f3f42ba02d6441dbbeb247f34c0f5eabc14e393",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:0f3f42ba02d6441dbbeb247f34c0f5eabc14e393"
+ },
+ "repo": "LyraVoid/FolkPatch",
+ "web": "fp.mysqil.com"
+}

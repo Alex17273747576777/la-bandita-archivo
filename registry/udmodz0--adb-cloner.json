@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-03",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-11"
+ },
+ "descripcion": "Rootless Android app cloner & isolated multi-user workspace powered by Shizuku IPC and native package manager virtualization. Zero-APK duplication, no root or PC required.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/udmodz0--adb-cloner.json",
+  "sha256": "eee87578e7d3ce66fa67442d7285d6ba092cc257af7b169fcf1eacf103315e78"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "udmodz0--adb-cloner",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 23,
+  "stars_por_mes": null
+ },
+ "nombre": "adb-cloner",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "85f16fe7b47b67502967b1383f29717d47c2835b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:85f16fe7b47b67502967b1383f29717d47c2835b"
+ },
+ "repo": "udmodz0/adb-cloner",
+ "web": "udmodz.site"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-07-18",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-10-20"
+ },
+ "descripcion": "AnimeZe an android anime /manga/manhwa app ",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/deadzone-0--animeze.json",
+  "sha256": "8ce6a5dfc61cf9d846125bd148768c93c56c4880cfac20480cc0541f4ccd9c0f"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "deadzone-0--animeze",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 73,
+  "stars_por_mes": null
+ },
+ "nombre": "AnimeZe",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "cbaabfea627264f70f8dbdfa734dda045f3568ae",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:cbaabfea627264f70f8dbdfa734dda045f3568ae"
+ },
+ "repo": "DeadZone-0/AnimeZe"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-18",
+  "semantica_http": 200,
+  "ultima_release": "v0.4.0",
+  "ultimo_push": "2026-10-18"
+ },
+ "descripcion": "Stop Android from moving your music and calls to every Bluetooth device that connects. Rank your devices; the rest stay connected on standby.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/saikiran9185--budsfirst.json",
+  "sha256": "07d2b57c7128e853ef339e1fd562f421fb16e27f1917541619598ae3395e1ecc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "saikiran9185--budsfirst",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "BudsFirst",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "8ad6ec874f5e744d35614567959a118e3b51dfb8",
+  "swh_estado": "solicitud 429",
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:8ad6ec874f5e744d35614567959a118e3b51dfb8"
+ },
+ "repo": "saikiran9185/BudsFirst"
+}

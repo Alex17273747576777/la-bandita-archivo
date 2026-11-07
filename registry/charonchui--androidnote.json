@@ -1,0 +1,54 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "Android study notes.",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/charonchui--androidnote.json",
+  "sha256": "8293c8ac5e67a5c87f05f588c707749ad68f39de8cdfe53250d8d0ac12783e22"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "charonchui--androidnote",
+ "licencia": {
+  "archivo": "README (texto completo)",
+  "metodo": "texto-license",
+  "nota": "licencia declarada por el proyecto en su propio README; el endpoint de GitHub no la clasifica",
+  "spdx": "mit",
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 3945,
+  "stars_por_mes": null
+ },
+ "nombre": "AndroidNote",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "1519bb3955d77da737b89d9eb950d7fef72c1c78",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:1519bb3955d77da737b89d9eb950d7fef72c1c78"
+ },
+ "repo": "CharonChui/AndroidNote",
+ "web": "http://charon.top/AndroidNote/"
+}

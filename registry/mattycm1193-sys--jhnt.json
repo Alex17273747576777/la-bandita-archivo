@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-10-29"
+ },
+ "descripcion": "cross-plat manga app by Flutter",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mattycm1193-sys--jhnt.json",
+  "sha256": "85813622557eb669b7cffc15f60c139f809b4c2e54c87ff5ffb62352e78c44bc"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "mattycm1193-sys--jhnt",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "JHNT",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0e3775dfa5aaacebfd9f1898915d5719863b580c",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:0e3775dfa5aaacebfd9f1898915d5719863b580c"
+ },
+ "repo": "mattycm1193-sys/JHNT"
+}

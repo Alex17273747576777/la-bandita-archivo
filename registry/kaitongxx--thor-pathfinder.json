@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-18",
+  "semantica_http": 200,
+  "ultima_release": "v0.2.0",
+  "ultimo_push": "2026-10-22"
+ },
+ "descripcion": "Swap apps between the AYN Thor's two screens and put shortcuts on its buttons. Free and open source (GPL-3.0).",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/kaitongxx--thor-pathfinder.json",
+  "sha256": "22c8f772be93085d8bb31c286c21b5a31f59f9308ae1304d78af3b1cc52723df"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "kaitongxx--thor-pathfinder",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 29,
+  "stars_por_mes": null
+ },
+ "nombre": "thor-pathfinder",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "96990fa7b173d4d7befc1d9c55bba64dca443bc6",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:96990fa7b173d4d7befc1d9c55bba64dca443bc6"
+ },
+ "repo": "KaitonGxx/thor-pathfinder"
+}

@@ -1,0 +1,52 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-10-24",
+  "semantica_http": 200,
+  "ultima_release": "v5.4",
+  "ultimo_push": "2026-10-26"
+ },
+ "descripcion": "🐾 豆包桌宠 PetAgent：透明悬浮窗 AI 桌宠（Live2D + 豆包AI聊天 + 系统监测 + 用量统计），支持 macOS / Windows / Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/cianlaw--pet-agent.json",
+  "sha256": "8b07d7da7fd32a1e2ab8e8318261726d4395860986de8d64f6c98453d664165f"
+ },
+ "frescura": {
+  "dias": 3,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "cianlaw--pet-agent",
+ "licencia": {
+  "archivo": null,
+  "metodo": "ausencia-firmada",
+  "spdx": null,
+  "verificado_en": "2026-10-31"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "pet-agent",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "c0382c14ee4e0ebddf7c89a3935d55d3b8e1354b",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:c0382c14ee4e0ebddf7c89a3935d55d3b8e1354b"
+ },
+ "repo": "CianLaw/pet-agent"
+}

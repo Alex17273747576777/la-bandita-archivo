@@ -1,0 +1,51 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2026-08-30"
+ },
+ "descripcion": "Manga reader for Android supporting BYOK AI assistance.",
+ "evidencia": {
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/niki914--cole.json",
+  "sha256": "3de6de0541224b012f4ec2a5327e5a01d2e0ad92485ab8cbbdcc31a9d19beaca"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "campos del censo de la casa medidos contra la API oficial de GitHub; sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "niki914--cole",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 0,
+  "stars_por_mes": 0.0
+ },
+ "nombre": "cole",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "056d9baeeba6b7f53c0638b3d30da72e71c159fa",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:056d9baeeba6b7f53c0638b3d30da72e71c159fa"
+ },
+ "repo": "niki914/cole"
+}

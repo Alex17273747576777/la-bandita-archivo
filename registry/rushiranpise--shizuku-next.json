@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2026-09-28",
+  "semantica_http": 200,
+  "ultima_release": "v14.0.0-next",
+  "ultimo_push": "2026-11-03"
+ },
+ "descripcion": "A feature-rich Shizuku fork with improved setup, reliability, UI, and additional start methods.",
+ "evidencia": {
+  "nota": "ficha creada el 3-nov-2026 al medir los herederos de Shizuku para la pieza 04",
+  "payload_ref": "consulta GraphQL del 2026-11-03 sobre rushiranpise/Shizuku-Next",
+  "sha256": "a9917fa40e8b8d46e090e2e0ed262fecebcb2b25fb0d7ff326b69bf5d2eec4aa"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "consulta GraphQL del nodo repository; campos exactos, sin inferencias",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "rushiranpise--shizuku-next",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "nota": "certificada además contra el texto del archivo LICENSE en la medición de la pieza 04",
+  "spdx": "Apache-2.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1395,
+  "stars_por_mes": null
+ },
+ "nombre": "Shizuku-Next",
+ "piezas": [
+  "04"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "e1bcc2525f8be047e88e80528c7306e0ee5f88b5",
+  "swh_estado": "archivada",
+  "swh_solicitud": "e1bcc2525f8be047e88e80528c7306e0ee5f88b5",
+  "swhid": "swh:1:rev:e1bcc2525f8be047e88e80528c7306e0ee5f88b5"
+ },
+ "repo": "rushiranpise/Shizuku-Next"
+}

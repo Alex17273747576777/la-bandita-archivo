@@ -1,0 +1,55 @@
+{
+ "actividad": {
+  "estado": "vivo",
+  "release_en": "2018-11-07",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0-alpha.1",
+  "ultimo_push": "2026-10-15"
+ },
+ "descripcion": "Material Design file manager for Android",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/zhanghai--materialfiles.json",
+  "sha256": "90c9646e4dfea5616a486202ee52df0e91881cd6629ee1b4df47ad922e3715e5"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "zhanghai--materialfiles",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 9383,
+  "stars_por_mes": null
+ },
+ "nombre": "MaterialFiles",
+ "piezas": [
+  "33-"
+ ],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "93c333960aa897836ba3f215a19d0cb0de494db1",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:93c333960aa897836ba3f215a19d0cb0de494db1"
+ },
+ "repo": "zhanghai/MaterialFiles",
+ "web": "https://play.google.com/store/apps/details?id=me.zhanghai.android.files"
+}

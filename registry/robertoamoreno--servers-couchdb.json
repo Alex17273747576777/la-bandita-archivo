@@ -1,0 +1,53 @@
+{
+ "actividad": {
+  "estado": "dormido",
+  "release_en": null,
+  "semantica_http": 200,
+  "ultima_release": null,
+  "ultimo_push": "2025-02-23"
+ },
+ "descripcion": "Couchdb MCP",
+ "evidencia": {
+  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "payload_ref": "registry/_evidencia/robertoamoreno--servers-couchdb.json",
+  "sha256": "4e0148130760958412cdd1db55a5affe84afa2a5ca8cb03eba9cf22f71403178"
+ },
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-03",
+  "proxima_remedicion": "2026-12-03",
+  "ventana_dias": 180
+ },
+ "frescura_dias": 0,
+ "fuente": {
+  "metodo": "GET /repos, /releases/latest, /license y /commits?per_page=1 con token; payload sellado",
+  "primaria": "github-api",
+  "secundarias": []
+ },
+ "id": "robertoamoreno--servers-couchdb",
+ "licencia": {
+  "archivo": null,
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-03"
+ },
+ "medido_en": "2026-11-03",
+ "merito": {
+  "scorecard": null,
+  "scorecard_en": null,
+  "stars": 1,
+  "stars_por_mes": null
+ },
+ "nombre": "servers-couchdb",
+ "piezas": [],
+ "procedencia": {
+  "atestacion": null,
+  "commit": "0a04d400d62928e8610e4c4cd6d8bce3074cc5d7",
+  "swh_estado": null,
+  "swh_solicitud": null,
+  "swhid": "swh:1:rev:0a04d400d62928e8610e4c4cd6d8bce3074cc5d7"
+ },
+ "repo": "robertoamoreno/servers-couchdb",
+ "web": "https://modelcontextprotocol.io"
+}
