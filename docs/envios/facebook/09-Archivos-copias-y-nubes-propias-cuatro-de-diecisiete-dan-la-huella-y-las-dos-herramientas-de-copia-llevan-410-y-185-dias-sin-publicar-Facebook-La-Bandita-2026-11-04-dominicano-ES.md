@@ -420,8 +420,8 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 17 repositorios que cita esta pi
 
 • rclone/rclone — ★60.843 · empujó en las últimas horas · MIT · última release v1.76.0 (6-nov-2026)
 • immich-app/immich — ★118.432 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
-• localsend/localsend — ★97.678 · empujó el 2-nov-2026 (hace 5 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
-• nextcloud/server — ★37.437 · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
+• localsend/localsend — ★97.680 · empujó el 2-nov-2026 (hace 5 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• nextcloud/server — ★37.436 · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
 • restic/restic — ★37.041 · empujó en las últimas horas · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
 • researchxxl/syncthing-android — ★3.265 · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • Ghostpanter/ghost-files — ★15 · empujó el 5-nov-2026 (hace 2 días) · MIT · última release v0.7.3 (5-nov-2026)

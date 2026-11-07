@@ -534,7 +534,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 58 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 16 de 19
 
-═══ MENSAJE 18 de 20 · 2780 caracteres ═══
+═══ MENSAJE 18 de 20 · 2773 caracteres ═══
 
 • kodjodevf/mangayomi-extensions — ★360 · *dormido*: sin empujar desde el 1-oct-2025 (402 días) · Apache-2.0 · *ARCHIVADO*
 • lnreader/lnreader-plugins — ★368 · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
@@ -547,7 +547,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 58 repositorios que cita esta pi
 • Secozzi/aniyomi-extensions — ★130 · *dormido*: sin empujar desde el 20-sep-2026 (48 días) · Apache-2.0 · última release 7717051 (20-sep-2026)
 • salmanbappi/extensions-repo — ★52 · empujó el 2-nov-2026 (hace 5 días) · sin licencia detectada por la API
 • CranberrySoup/AniyomiCompat — ★17 · *dormido*: sin empujar desde el 14-nov-2025 (358 días) · sin licencia detectada por la API
-• phisher98/cloudstream-extensions-phisher — ★537 · empujó el 2-nov-2026 (hace 5 días) · sin licencia detectada por la API
+• phisher98/cloudstream-extensions-phisher — ★537 · empujó en las últimas horas · sin licencia detectada por la API
 • CakesTwix/cloudstream-extensions-uk — ★178 · empujó el 3-nov-2026 (hace 4 días) · GPL-3.0
 • NivinCNC/CNCVerse-Bridge — ★193 · empujó el 1-nov-2026 (hace 6 días) · NOASSERTION · última release v1.2.0 (29-oct-2026)
 • Asm0d3usX/CloudX-V2 — ★62 · empujó el 3-nov-2026 (hace 4 días) · MIT

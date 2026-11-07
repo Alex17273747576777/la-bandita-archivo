@@ -121,14 +121,14 @@ La Bandita informa a partir de fuentes fechadas. Dos repositorios medidos uno po
 
 ⏬ sigue abajo · parte 3 de 5
 
-═══ MENSAJE 5 de 6 · 495 caracteres ═══
+═══ MENSAJE 5 de 6 · 487 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 25*
 
 Medí otra vez, hoy 7 de noviembre de 2026, los 2 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • hiroi-sora/Umi-OCR — ★48.500 (+21) · *dormido*: sin empujar desde el 20-nov-2025 (352 días) · MIT · última release v2.1.5 (25-mar-2025)
-• Aryan-Raj3112/episteme — ★1.333 (sin cambio) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.59-oss (7-nov-2026)
+• Aryan-Raj3112/episteme — ★1.334 (+1) · empujó en las últimas horas · AGPL-3.0 · última release v1.0.59-oss (7-nov-2026)
 
 ⏬ sigue abajo · parte 4 de 5
 

@@ -496,7 +496,7 @@ Y lo cuarto: **el nombre que más suena no es el que mejor está**. `openai/whis
 Medí otra vez, hoy 7 de noviembre de 2026, los 33 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • Batmancpu/Dictator- — ★3 · empujó en las últimas horas · Apache-2.0 · última release dictator-42206033544 (6-nov-2026)
-• openai/whisper — ★112.149 · *dormido*: sin empujar desde el 31-ago-2026 (68 días) · MIT · última release v20250625 (26-jun-2025)
+• openai/whisper — ★112.150 · *dormido*: sin empujar desde el 31-ago-2026 (68 días) · MIT · última release v20250625 (26-jun-2025)
 • HeliBorg/HeliBoard — ★6.513 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v4.2 (12-oct-2026)
 • florisboard/florisboard — ★8.758 · empujó el 5-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.5.2 (28-nov-2025)
 • Julow/Unexpected-Keyboard — ★3.338 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release 2.2.0 (1-nov-2026)
@@ -515,8 +515,8 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 33 repositorios que cita esta pi
 • LeanBitLab/LeanType — ★1.151 · empujó en las últimas horas · GPL-3.0 · última release v4.3.1 (4-nov-2026)
 • Cyletix/CyIME — ★779 · empujó en las últimas horas · GPL-3.0 · última release 1.15.66 (6-nov-2026)
 • zoolapp/aime — ★258 · empujó el 20-oct-2026 (hace 18 días) · MIT · última release v0.1.10 (20-oct-2026)
-• cjpais/Handy — ★37.865 · empujó en las últimas horas · MIT · última release v0.10.0 (2-nov-2026)
-• anomalyco/hex — ★5.587 · empujó en las últimas horas · MIT · última release v3.3.0 (2-nov-2026)
+• cjpais/Handy — ★37.867 · empujó en las últimas horas · MIT · última release v0.10.0 (2-nov-2026)
+• anomalyco/hex — ★5.588 · empujó en las últimas horas · MIT · última release v3.3.0 (2-nov-2026)
 • Open-Less/openless — ★4.059 · empujó en las últimas horas · AGPL-3.0 · última release v2.0.1-tauri (16-oct-2026)
 • altic-dev/FluidVoice — ★12.882 · empujó en las últimas horas · GPL-3.0 · última release v1.6.12 (22-oct-2026)
 • amicalhq/amical — ★1.599 · empujó en las últimas horas · MIT · última release v1.12.5 (25-sep-2026)
@@ -524,7 +524,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 33 repositorios que cita esta pi
 • VocaHQ/vocalinux — ★997 · empujó en las últimas horas · AGPL-3.0 · última release v0.18.5 (27-oct-2026)
 • karansinghgit/speaktype — ★573 · empujó el 29-oct-2026 (hace 9 días) · MIT · última release v2.0.0 (22-sep-2026)
 • opennookorg/betterwispr — ★514 · empujó en las últimas horas · Apache-2.0 · última release v0.1.5 (12-oct-2026)
-• SYSTRAN/faster-whisper — ★26.549 · empujó en las últimas horas · MIT · última release v1.2.1 (31-oct-2025)
+• SYSTRAN/faster-whisper — ★26.550 · empujó en las últimas horas · MIT · última release v1.2.1 (31-oct-2025)
 • Automattic/harper — ★17.457 · empujó en las últimas horas · Apache-2.0 · última release v3.1.0 (6-nov-2026)
 • languagetool-org/languagetool — ★15.234 · empujó en las últimas horas · LGPL-2.1
 • espanso/espanso — ★14.731 · empujó el 1-nov-2026 (hace 6 días) · GPL-3.0 · última release v2.4.1 (2-sep-2026)

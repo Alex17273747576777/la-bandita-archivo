@@ -6,7 +6,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 
 | Pieza | Título | Mensajes | Mayor | Repos | Muertos | Apéndice | Archivo |
 |---|---|---|---|---|---|---|---|
-| 01 | La huella o el silencio: quince programas de octubre, dos que firman l | 6 | 3583 | 15 | 0 | no | `01-La-huella-o-el-silencio-quince-programas-de-octubre-dos-que-firman-y-trece-que-piden-fe-Facebook-La-Bandita-2026-11-07-dominicano-ES` |
+| 01 | La huella o el silencio: quince programas de octubre, dos que firman l | 9 | 3663 | 15 | 0 | no | `01-La-huella-o-el-silencio-quince-programas-de-octubre-dos-que-firman-y-trece-que-piden-fe-Facebook-La-Bandita-2026-11-07-dominicano-ES` |
 | 02 | La música que no se cae: veintiún repositorios de audio, uno que firma | 7 | 3680 | 22 | 0 | no | `02-La-musica-que-no-se-cae-veintiun-repositorios-de-audio-siete-que-firman-y-catorce-que-no-Facebook-La-Bandita-2026-11-07-dominicano-ES` |
 | 03 | La caja fuerte del bolsillo: una de catorce te da la huella, cuatro ll | 19 | 3526 | 14 | 0 | no | `03-La-caja-fuerte-del-bolsillo-una-de-catorce-te-da-la-huella-cuatro-llevan-anos-paradas-y-dos-se-reservan-los-derechos-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 04 | La lista del permiso: seis de veintiséis dan la huella, trece nacieron | 20 | 3645 | 26 | 0 | no | `04-La-lista-del-permiso-seis-de-veintiseis-dan-la-huella-trece-nacieron-en-el-trimestre-y-el-tronco-lleva-quinientos-cuatro-dias-sin-empujar-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
@@ -17,7 +17,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 09 | Archivos, copias y nubes propias: cuatro de diecisiete dan la huella,  | 20 | 3647 | 17 | 0 | no | `09-Archivos-copias-y-nubes-propias-cuatro-de-diecisiete-dan-la-huella-y-las-dos-herramientas-de-copia-llevan-410-y-185-dias-sin-publicar-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 10 | Los repositorios de extensiones: cincuenta y seis tiendas vivas, doce  | 20 | 3889 | 58 | 0 | no | `10-Las-tiendas-cincuenta-y-seis-repositorios-vivos-doce-mil-cuatrocientos-ochenta-y-siete-archivos-y-diez-sumas-de-comprobacion-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 11 | Las aplicaciones que leen lo que la pieza 10 midió: cincuenta y uno pr | 20 | 3896 | 56 | 0 | no | `11-Las-aplicaciones-que-leen-lo-que-la-pieza-10-midio-cincuenta-y-una-aplicaciones-y-cincuenta-y-ocho-millones-de-descargas-con-ciento-dieciseis-archivos-firmados-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
-| 12 | El kit de reemplazo: cincuenta y nueve recursos medidos hoy para tirar | 21 | 3927 | 51 | 0 | no | `12-El-kit-de-reemplazo-cincuenta-y-nueve-recursos-medidos-hoy-para-tirar-el-stack-viejo-del-meme-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
+| 12 | El kit de reemplazo: cincuenta y nueve recursos medidos hoy para tirar | 21 | 3926 | 51 | 0 | no | `12-El-kit-de-reemplazo-cincuenta-y-nueve-recursos-medidos-hoy-para-tirar-el-stack-viejo-del-meme-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 13 | El audio que le faltaba al kit: cincuenta y cuatro programas de música | 20 | 3937 | 52 | 0 | no | `13-El-audio-que-le-faltaba-al-kit-cincuenta-y-cuatro-programas-medidos-hoy-de-la-musica-propia-al-registro-de-lo-que-oyes-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 14 | Spotify sin Spotify cuarenta y cinco clientes medidos hoy quince nacid | 19 | 3830 | 37 | 0 | no | `14-Spotify-sin-Spotify-cuarenta-y-cinco-clientes-medidos-hoy-quince-nacidos-en-2026-tres-muertos-y-la-proporcion-de-firma-mas-alta-de-la-serie-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 15 | Descargar es un acto técnico: treinta y uno programas medidos hoy —och | 21 | 3837 | 31 | 0 | no | `15-Descargar-es-un-acto-tecnico-treinta-y-un-programas-medidos-hoy-ocho-de-2026-y-los-dos-famosos-que-estan-parados-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
@@ -30,6 +30,6 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 22 | El modulo que no necesita root AxManager su plugin y los siete ecosist | 20 | 3319 | 24 | 2 | no | `22-El-modulo-que-no-necesita-root-AxManager-su-plugin-y-los-siete-ecosistemas-contados-hoy-Facebook-La-Bandita-2026-11-05-dominicano-ES` |
 | 25 | El escáner de bolsillo: del papel al PDF legible, con Umi-OCR y episte | 6 | 3558 | 2 | 0 | no | `25-El-scanner-de-bolsillo-del-papel-al-PDF-legible-Umi-OCR-y-episteme-Facebook-La-Bandita-2026-11-06-dominicano-ES` |
 
-**23 piezas · 409 mensajes** · el mayor de todos: 3947 caracteres.
+**23 piezas · 412 mensajes** · el mayor de todos: 3947 caracteres.
 
 

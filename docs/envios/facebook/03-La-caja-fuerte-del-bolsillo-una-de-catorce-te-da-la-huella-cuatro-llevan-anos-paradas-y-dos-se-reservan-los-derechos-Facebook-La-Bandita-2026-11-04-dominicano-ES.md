@@ -414,7 +414,7 @@ Las paradas, para que quede el registro:
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 2055 caracteres ═══
+═══ MENSAJE 18 de 19 · 2048 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 03*
 
@@ -426,7 +426,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 14 repositorios que cita esta pi
 • dani-garcia/vaultwarden — ★70.361 · empujó el 4-nov-2026 (hace 3 días) · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
 • PhilippC/keepass2android — ★6.372 · empujó en las últimas horas · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
 • Kunzisoft/KeePassDX — ★7.631 · empujó el 1-nov-2026 (hace 6 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
-• AChep/keyguard-app — ★3.608 · empujó el 4-nov-2026 (hace 3 días) · NOASSERTION · última release r20261103 (3-nov-2026)
+• AChep/keyguard-app — ★3.608 · empujó en las últimas horas · NOASSERTION · última release r20261103 (3-nov-2026)
 • beemdevelopment/Aegis — ★13.486 · *dormido*: sin empujar desde el 6-sep-2026 (62 días) · GPL-3.0 · última release v3.4.3 (6-sep-2026)
 • Lucent-Project/Lucent — ★12 · empujó el 2-nov-2026 (hace 5 días) · MIT · última release v3.1.2 (20-oct-2026)
 • freeotp/freeotp-android — ★1.683 · empujó el 3-nov-2026 (hace 4 días) · Apache-2.0 · última release v2.0.6 (17-feb-2026)

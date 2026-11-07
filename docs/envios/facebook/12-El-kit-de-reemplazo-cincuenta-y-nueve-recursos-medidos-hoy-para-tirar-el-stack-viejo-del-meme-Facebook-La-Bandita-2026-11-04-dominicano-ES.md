@@ -3,7 +3,7 @@
 - **Pieza original:** `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/12-El-kit-de-reemplazo-cincuenta-y-nueve-recursos-medidos-hoy-para-tirar-el-stack-viejo-del-meme-Facebook-La-Bandita-2026-11-04-dominicano-ES.md`
 - **Fecha de la pieza:** 4-nov-2026 (según dateline; edad hoy: 3 días)
 - **sha256 de la pieza:** `e33a1097b6372eba34b0fb0423aba397959f094294d1d24e52ae80b1742e0f96`
-- **Envío generado:** 2026-11-07 · 21 mensajes · el mayor de 3927 caracteres
+- **Envío generado:** 2026-11-07 · 21 mensajes · el mayor de 3926 caracteres
 - **La pieza no se reescribe:** el cuerpo va íntegro; lo nuevo es la portada y el cierre.
 
 ═══ MENSAJE 1 de 21 · 1071 caracteres ═══
@@ -478,14 +478,14 @@ Y lo cuarto: **lo más nuevo no es lo mejor, pero es lo que está vivo**. El lan
 
 ⏬ sigue abajo · parte 16 de 20
 
-═══ MENSAJE 18 de 21 · 3927 caracteres ═══
+═══ MENSAJE 18 de 21 · 3926 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 12*
 
 Medí otra vez, hoy 7 de noviembre de 2026, los 51 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • iptv-org/iptv — ★143.468 · empujó en las últimas horas · Unlicense
-• ImranR98/Obtainium — ★21.294 · empujó el 1-nov-2026 (hace 6 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• ImranR98/Obtainium — ★21.296 · empujó el 1-nov-2026 (hace 6 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • Accrescent/Accrescent — ★2.310 · empujó en las últimas horas · Apache-2.0 · última release 0.29.1 (4-nov-2026)
 • f-droid/fdroidclient — ★3.268 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release 1.18.0 (24-ene-2024)
 • TrackerControl/tracker-control-android — ★2.727 · empujó el 2-nov-2026 (hace 5 días) · GPL-3.0 · última release 2026110101 (1-nov-2026)
@@ -502,7 +502,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 51 repositorios que cita esta pi
 • ohadhaviv92/streamgram — ★25 · empujó el 24-oct-2026 (hace 14 días) · GPL-3.0
 • Eful97/Pictorium — ★92 · empujó en las últimas horas · AGPL-3.0 · última release v1.27.0 (5-nov-2026)
 • SkipDB-TV/skipdb — ★38 · empujó en las últimas horas · AGPL-3.0 · última release data-2026-11-06 (6-nov-2026)
-• atharvkharbade/anisync-addon — ★25 · empujó en las últimas horas · MIT · última release v1.5.1 (18-sep-2026)
+• atharvkharbade/anisync-addon — ★25 · empujó en las últimas horas · MIT · última release v1.5.2 (7-nov-2026)
 • debpalash/Opal — ★128 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v0.9.3 (3-nov-2026)
 • coveninja/cove — ★160 · empujó el 30-oct-2026 (hace 8 días) · AGPL-3.0 · última release v1.6.0 (9-oct-2026)
 • MegaNexusMediaPlayer/MegaNexus — ★37 · empujó en las últimas horas · NOASSERTION · última release v9.1.0 (6-nov-2026)

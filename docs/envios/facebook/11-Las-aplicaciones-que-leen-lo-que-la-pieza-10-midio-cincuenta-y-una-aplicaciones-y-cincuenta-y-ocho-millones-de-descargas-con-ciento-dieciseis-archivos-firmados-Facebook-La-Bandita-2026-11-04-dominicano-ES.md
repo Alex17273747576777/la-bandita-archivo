@@ -480,7 +480,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 56 repositorios que cita esta pi
 • UsagiApp/usagi — ★293 · empujó en las últimas horas · GPL-3.0 · última release v1.2 (3-oct-2026)
 • LNReader/lnreader — ★2.962 · empujó el 1-nov-2026 (hace 6 días) · MIT · última release v2.1.4 (26-sep-2026)
 • Aidoku/Aidoku — ★4.710 · empujó el 31-oct-2026 (hace 7 días) · GPL-3.0 · última release v0.9-4 (16-oct-2026)
-• Suwayomi/Suwayomi-Server — ★8.019 · empujó el 1-nov-2026 (hace 6 días) · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
+• Suwayomi/Suwayomi-Server — ★8.020 · empujó el 1-nov-2026 (hace 6 días) · MPL-2.0 · última release v2.4.2366 (30-sep-2026)
 • Jays2Kings/tachiyomiJ2K — ★5.408 · empujó en las últimas horas · Apache-2.0 · última release v1.8.1 (15-ago-2026)
 • jobobby04/TachiyomiSY — ★4.203 · empujó el 1-nov-2026 (hace 6 días) · Apache-2.0 · última release 1.13.2 (13-jul-2026)
 • komikku-app/komikku — ★4.993 · empujó el 4-nov-2026 (hace 3 días) · Apache-2.0 · última release v1.14.1 (17-jul-2026)

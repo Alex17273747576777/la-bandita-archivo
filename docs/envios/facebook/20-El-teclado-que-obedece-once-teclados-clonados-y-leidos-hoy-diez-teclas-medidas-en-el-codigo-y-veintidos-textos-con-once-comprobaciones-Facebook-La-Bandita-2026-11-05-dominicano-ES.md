@@ -527,7 +527,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 12 repositorios que cita esta pi
 • dessalines/thumb-key — ★1.571 · empujó en las últimas horas · AGPL-3.0 · última release 5.1.20 (2-nov-2026)
 • osfans/trime — ★4.783 · empujó en las últimas horas · GPL-3.0 · última release v3.3.13 (1-nov-2026)
 • fcitx5-android/fcitx5-android — ★5.845 · empujó el 13-oct-2026 (hace 25 días) · LGPL-2.1 · última release 0.1.3 (26-jul-2026)
-• futo-org/android-keyboard — ★3.451 · empujó el 2-nov-2026 (hace 5 días) · NOASSERTION · última release 0.1.30 (4-ago-2026)
+• futo-org/android-keyboard — ★3.452 · empujó el 2-nov-2026 (hace 5 días) · NOASSERTION · última release 0.1.30 (4-ago-2026)
 • rkkr/simple-keyboard — ★1.608 · empujó el 22-oct-2026 (hace 16 días) · Apache-2.0 · última release 149 (22-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
