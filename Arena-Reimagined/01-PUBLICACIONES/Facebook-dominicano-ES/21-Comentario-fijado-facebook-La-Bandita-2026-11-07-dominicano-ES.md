@@ -1,22 +1,33 @@
-━━━━━━━━━━━━━
+🔗 Enlaces rápidos
 
-📎 *Comentario fijado · Pieza 21 — OmniShizuku, la variante que cambió*
+1. https://github.com/krishna3163/OmniShizuku — repositorio oficial
+2. https://github.com/krishna3163/OmniShizuku/releases — últimas entregas publicadas
+3. https://github.com/krishna3163/OmniShizuku/releases/latest — release «latest» (hoy 7 de noviembre de 2026)
+4. https://github.com/krishna3163/OmniShizuku/issues — incidencias abiertas (10)
+5. https://github.com/krishna3163/OmniShizuku/blob/main/LICENSE — licencia Apache-2.0
 
-Enlaces rápidos:
-• Cuerpo de la publicación: pieza 21 de Facebook
-• Fecha en vivo: sábado 7 de noviembre de 2026
-• Medido con: clon y lectura directa del repositorio (1 repositorio)
+🛠️ Qué sirve cada herramienta y dónde se usa
 
-Qué sirve cada herramienta y dónde usarla:
-• OmniShizuku: aplicación de Android para acceso privilegiado sin root. Úsalo solo en aparatos de repuesto, no en teléfonos con datos sensibles.
-• Shizuku: proyecto base del que OmniShizuku deriva. Úsalo como referencia.
-• Dhizuku: otra variante del ecosistema Shizuku. Úsalo como referencia.
+OmniShizuku es una utilidad de acceso al sistema para Android que funciona con Shizuku y Dhizuku. Sirve para ejecutar comandos con permisos elevados sin necesidad de root completo.
 
-Cómo usar: clona el repositorio, revisa los commits con fecha y hora, descarga los paquetes de instalación y compáralos byte a byte. Verifica que la firma del paquete no cambie entre versiones.
+• Shizuku: servicio de acceso privilegiado para Android. Se usa en teléfonos, Android TV y Wear OS para ejecutar comandos ADB desde el propio dispositivo.
+• Dhizuku: variante del ecosistema Shizuku con funciones específicas para ciertos dispositivos.
+• ADB (Android Debug Bridge): herramienta de línea de órdenes para comunicarse con un dispositivo Android.
 
-OmniShizuku publicó solo compilación de depuración a partir del 5 de noviembre de 2026, y el paquete pesa 57.021.147 bytes frente a los 22.356.386 del paquete ligero anterior.
+📋 Cómo se usa paso a paso
 
-Esta pieza no enlaza APKs de tiendas no oficiales. Todos los enlaces van al repositorio del autor.
+Paso 1: Ve al repositorio oficial (enlace 1).
+Paso 2: En «Releases» (enlace 2), descarga el APK de la última entrega.
+Paso 3: Verifica la suma de comprobación del archivo antes de instalar.
+Paso 4: Activa Shizuku en los ajustes de desarrollador de tu teléfono.
+Paso 5: Instala el APK y revisa los permisos que solicita.
+Paso 6: Prueba en un dispositivo de repuesto antes de usarlo en tu equipo principal.
 
-━━━━━━━━━━━━━
-*La Bandita informa a partir de fuentes fechadas.*
+⚠️ Consideraciones importantes
+
+• El paquete publicado hoy es de depuración: cambia de firma en cada compilación, por lo que cada actualización requiere desinstalar la versión anterior.
+• OmniShizuku tiene catorce días de vida: verifica antes de instalar en equipos críticos.
+• Procesa totalmente en el dispositivo; no envía datos a servidores externos para sus funciones principales.
+
+📅 Fecha de esta nota: 7 de noviembre de 2026 · Santo Domingo
+💓 La Bandita informa a partir de fuentes fechadas.

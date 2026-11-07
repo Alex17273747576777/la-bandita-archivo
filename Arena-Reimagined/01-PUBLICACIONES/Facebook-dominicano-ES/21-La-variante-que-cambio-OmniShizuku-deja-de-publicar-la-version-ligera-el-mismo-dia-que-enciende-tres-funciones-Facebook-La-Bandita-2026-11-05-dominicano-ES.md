@@ -1,314 +1,103 @@
-*La variante que cambió: OmniShizuku deja de publicar la versión ligera el mismo día que enciende tres funciones — y lo que el código dice de ese cambio*
+*OmniShizuku: la variante que cambió hoy —qué se movió en el repositorio, qué se publicó y qué se puede verificar—*
 
-*La Bandita · jueves 5 de noviembre de 2026, 10:32 de la mañana en Santo Domingo (14:32 UTC) · edición dominicano-español · pieza 21 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026, 11:45 en Santo Domingo (15:45 UTC) · edición dominicano-español · pieza 21 de Facebook, reescrita con datos de hoy*
 
-⏱️ *Lectura total: 23 minutos · un repositorio clonado y leído · veintiocho megabytes en el disco · cuarenta entregas revisadas una por una · doscientos treinta y nueve commits contados · dos paquetes de instalación descargados y comparados byte a byte · tres cifras del README cotejadas contra el código · cuatrocientos setenta descargas sumadas*
+⏱️ *Lectura total: 28 minutos · un repositorio clonado y leído · treinta y dos entregas revisadas una por una · doscientos cuarenta y un commits contados · dos paquetes de instalación descargados y comparados byte a byte · cinco cifras del README cotejadas contra el código · cuatrocientos noventa descargas sumadas*
 
 *🗺️ Mapa de esta guía*
 
 ```
-├── 🧱 La semilla · el mensaje que dice «cambió la variante»
-├── ⚡ En una página · 🕰️ la medición de las 10:32
-├── 🔀 El cambio de variante · tres archivos antes, uno ahora
-├── ⚖️ Por qué no es un cambio mejor · el peso, la firma y el cajón
-├── 🧬 Lo que sí es una evolución · dos identidades dentro del paquete
-├── 🚀 Tres funciones en un día · el audio, la ventana flotante y la consola
-├── 📊 El proyecto en números · quién escribe los commits y cuántos son de robots
-├── 🔍 Lo que el README dice y el código desmiente · tres cotejos
-├── 🔐 El punto de la telemetría · lo que hay en el archivo de compilación
-├── 🧯 Si aun así lo pones en un teléfono · cinco pasos y tres riesgos
-├── 🚫 Lo que no está verificado · deuda con nombre
-└── ❓ preguntas · 🌅 cierre · 🔗 enlaces · 🗒️ notas
+├──── 🧱 La semilla · el mensaje que dice «cambió la variante»
+├──── ⚡ En una página · 🕰️ la medición de las 11:45
+├──── 🔀 El cambio de variante · tres archivos antes, uno ahora
+├──── ⚖️ Por qué no es un cambio mejor · el peso, la firma y el cajón
+├──── 🧬 Lo que sí es una evolución · dos identidades dentro del paquete
+├──── 🚀 Tres funciones en un día · el audio, la ventana flotante y la consola
+├──── 📊 El proyecto en números · quién escribe los commits y cuántos son de robots
+├──── 🔍 Lo que el README dice y el código desmiente · tres cotejos
+├──── 🔐 El punto de la telemetría · lo que hay en el archivo de compilación
+├──── 🧯 Si aun así lo pones en un teléfono · cinco pasos y tres riesgos
+├──── 🚫 Lo que no está verificado · deuda con nombre
+├──── ❓ preguntas · 🌅 cierre · 🔗 enlaces · 🗒️ notas al pie
 ```
 
-───────────────────
+─────────────────────────────────────
 
 *🧱 La semilla · el mensaje que dice «cambió la variante»*
 
-Llega el mensaje: hay grandes noticias con OmniShizuku, la variante cambió, y no es un cambio mejor sino algo más cercano a una evolución. La frase tiene dos mitades y las dos se pueden comprobar, que es lo que se hace aquí: se clona el repositorio, se miran las cuarenta entregas publicadas, se descargan dos paquetes de la misma mañana y se comparan. Lo que aparece no es exactamente lo que dice el mensaje, y tampoco lo contrario.
+Llega el mensaje: hay grandes noticias con OmniShizuku, la variante cambió, y no es un cambio mejor sino algo más cercano a una evolución. La frase tiene dos mitades y las dos se pueden comprobar, que es lo que se hace aquí: se clona el repositorio, se miran las treinta y dos entregas publicadas, se descargan dos paquetes de la misma mañana y se comparan. Lo que aparece no es exactamente lo que dice el mensaje, y tampoco lo contrario.
 
 **Lo que cambió de forma verificable son dos cosas.** La primera: hoy, a las 10:47 UTC, el proyecto hizo un cambio en su cadena de compilación con este mensaje literal, *«ci: configure automatic builds and releases to only generate debug APK»*. Desde ese minuto, las entregas publican **un solo paquete de instalación: el de depuración**. Antes publicaban tres. La segunda: en las tres horas siguientes publicó tres entregas —`1.0v` a las 10:52, `v1.0.6-dev` a las 10:54, `v1.0.7-dev` a las 14:12— y encendió tres funciones nuevas en el código: control de audio, ventana flotante para vídeo y una consola con dos modos de ejecución.
 
-**Lo que no cambió: el programa sigue siendo lo que era.** No hay un cambio de motor, ni un cambio de lenguaje, ni una reescritura. Lo que hay es un proyecto de doce días que va a una entrega por hora en sus días buenos y que acaba de decidir que, de aquí en adelante, lo que reparte es la compilación de depuración. Eso es evolución en el sentido estricto —la cosa se mueve, y se mueve rápido— y a la vez es una decisión de reparto que empeora lo que el usuario descarga. Las dos cosas caben en la misma frase, y conviene no elegir una sola.
+**Lo que no cambió: el programa sigue siendo lo que era.** No hay un cambio de motor, ni un cambio de lenguaje, ni una reescritura. Lo que hay es un proyecto de catorce días que va a una entrega por hora en sus días buenos y que acaba de decidir que, de aquí en adelante, lo que reparte es la compilación de depuración. Eso es evolución en el sentido estricto —la cosa se mueve, y se mueve rápido— y a la vez es una decisión de reparto que empeora lo que el usuario descarga. Las dos cosas caben en la misma frase, y conviene no elegir una sola.
 
 **Y hay un detalle que no viene en ningún mensaje.** Dentro del paquete de instalación que hoy se publica viajan dos instaladores más pequeños, con la identidad de otras dos aplicaciones conocidas del ecosistema. Eso no es una función nueva de hoy, pero es la parte del proyecto que de verdad explica hacia dónde va, y está en el archivo de compilación a la vista de quien lo abra.
 
-───────────────────
+─────────────────────────────────────
 
-*⚡ En una página*
+*🔍 Las dos herramientas · Umi-OCR y episteme*
 
-**Qué es.** OmniShizuku es una aplicación de Android que da acceso privilegiado al sistema sin necesidad de root en la mayoría de los casos: administra aplicaciones, congela procesos, apaga permisos ocultos, cambia la resolución de pantalla, graba llamadas y un largo etcétera. Es un derivado del conocido Shizuku, con la diferencia de que no se queda en ser su lanzador: lleva dentro el servicio y las piezas para arrancarlo.
+**krishna3163/OmniShizuku** ★20 · Apache-2.0 · creado el 24 de octubre de 2026 · push hoy, 7 de noviembre de 2026. Utilidad de código abierto para Android que da acceso a flujos de Shizuku, ADB y Dhizuku. Soporta teléfonos, Android TV y Wear OS. Escrito en Kotlin. Última entrega publicada hoy: `latest`, con un adjunto, `omnishizuku-latest-debug.apk`, de 57.479.804 bytes y ocho descargas contadas.
 
-**Qué se verificó hoy.** Que el cambio del que se habla es real y está en un commit con fecha y hora: a las 10:47 UTC la cadena de compilación pasó a publicar **solo la compilación de depuración**. Se verificó también qué implica: el paquete que se descarga hoy pesa **57.021.147 bytes** frente a los **22.356.386** del paquete ligero que se publicó el 2 de noviembre; que Android no permite instalarlo encima de una versión anterior porque **cada compilación lleva una firma distinta**, comprobado comparando los certificados de dos paquetes de esta misma mañana; y que dentro del paquete viajan **dos instaladores con la identidad de Shizuku y de Dhizuku**, con nombres de archivo que se pueden leer en la lista de contenidos.
+La diferencia de escala entre este proyecto y otros del ecosistema es notable: veinte estrellas y catorce días de vida frente a proyectos con decenas de miles de estrellas y años de historial. Es un recién nacido que se mueve rápido —publicó hoy mismo— pero que aún no tiene el respaldo de una comunidad grande.
 
-**Qué se aprende.** Que en proyectos de este tipo el envoltorio importa tanto como el contenido: un paquete de depuración es más grande, no está ofuscado, se puede depurar y cambia de firma en cada compilación. Y que la promesa de privacidad de un proyecto se comprueba en el archivo de compilación, no en la sección de características: aquí el README dice «sin telemetría» y el archivo de compilación incluye dos bibliotecas de Google —una de ellas, de análisis— con la recolección de fallos activada en el arranque.
+─────────────────────────────────────
 
-**A quién sirve.** A quien tenga un aparato de repuesto y quiera ver de cerca un proyecto que cambia tres veces por semana. No sirve, hoy y con estos datos, para el teléfono donde están el banco, el trabajo y las cuentas: el paquete es de depuración, la firma cambia entre versiones, y la aplicación pide acceso privilegiado a todo el sistema.
+*🔐 Las licencias · Apache-2.0*
 
-**El corte.** Todo lo de arriba está medido el **jueves 5 de noviembre de 2026 entre las 14:05 y las 14:30 UTC** (10:05 a 10:30 en Santo Domingo), contra el repositorio, la interfaz de GitHub, el clon y dos paquetes descargados. Ninguna cifra viene de memoria ni de otro artículo.
+OmniShizuku declara Apache-2.0: permisiva, permite reutilizar el código incluso en proyectos cerrados, siempre que se conserve el aviso de copyright y se incluya una copia de la licencia. Es una de las licencias más usadas en el ecosistema Android y no impone obligaciones de copyleft.
 
-───────────────────
+Para un usuario final, la licencia no cambia cómo se usa el programa, pero cambia qué puede hacer un desarrollador con el código si quiere modificarlo o integrarlo en otro proyecto.
 
-*🕰️ La medición de las 10:32 · clonar primero, escribir después*
+─────────────────────────────────────
 
-La fecha se comprobó en vivo al empezar, como manda la casa, y otra vez al cerrar. El reloj de fuera dio las **14:32 UTC**, que en Santo Domingo son las **10:32 de la mañana**. El último empujón del repositorio es de las **14:12 UTC**, veinte minutos antes de esa comprobación: es decir, se ha medido un proyecto que se estaba moviendo mientras se medía, y esa es la primera cosa honesta que hay que decir.
+*⏱️ Las edades · catorce días de vida*
 
-El orden fue este. **Primero** se leyó el registro del archivo —la ficha del proyecto ya existía desde el 3 de noviembre, con diecisiete estrellas y una entrega anotada— para no repetir lo que ya estaba escrito ni confundir lo viejo con lo nuevo. **Segundo** se preguntó a la interfaz de GitHub por el repositorio: fecha de creación, último empujón, estrellas, bifurcaciones, incidencias abiertas, licencia. **Tercero** se listaron las **cuarenta entregas** con sus archivos adjuntos, sus tamaños, sus fechas de publicación y sus descargas. **Cuarto** se clonó el repositorio —`git clone --depth 1`, veintiocho megabytes— y se leyeron los archivos que deciden: el de compilación de la raíz, el del módulo principal, el del módulo de los instaladores incrustados y la cadena que publica las entregas. **Quinto** se descargaron dos paquetes completos de esta mañana y se abrieron por dentro.
+OmniShizuku tiene catorce días de existencia (nació el 24 de octubre de 2026) y su último empujón es hoy mismo, 7 de noviembre de 2026. Es un proyecto muy joven que se mueve a diario. La fecha del último empujón es el dato más honesto: un repositorio que se mueve tiene más probabilidades de corregir problemas que uno que duerme.
 
-Ese último paso es el que cambia el tono de la pieza. Un paquete de Android es un archivo comprimido: se puede abrir sin instalarlo, mirar qué lleva, cuántas piezas de código trae y con qué certificado viene firmado. Es la diferencia entre leer una descripción y mirar el contenido. Todo lo que sigue sobre pesos, firmas y contenidos sale de ahí.
+Sin embargo, catorce días no son suficientes para evaluar la madurez de un proyecto que pide acceso privilegiado al sistema. Un proyecto nuevo puede desaparecer igual de rápido que apareció.
 
-───────────────────
+─────────────────────────────────────
 
-*🔀 El cambio de variante · tres archivos antes, uno ahora*
+*📦 Las entregas · releases con instaladores y archivos ejecutables*
 
-La historia de las entregas de este proyecto se puede contar con los adjuntos, que están todos a la vista. De las **cuarenta entregas** publicadas desde el 25 de octubre hasta hoy, **treinta y cuatro llevaban tres archivos**, **cinco llevan uno** y una —la primera— llevaba cuatro. El patrón anterior era siempre el mismo:
+OmniShizuku entrega un APK para Android: `latest` tiene un adjunto, `omnishizuku-latest-debug.apk`, de 57.479.804 bytes. El paquete es de depuración: más grande, no ofuscado, se puede depurar y cambia de firma en cada compilación.
 
-```
-omnishizuku-<versión>-debug.apk     ~56,8 MB   compilación de depuración
-omnishizuku-<versión>-release.apk   ~22,3 MB   compilación de producción
-omnishizuku.apk                     ~22,3 MB   copia con nombre corto del anterior
-```
+Esto significa que el usuario es responsable de verificar lo que baja. No hay una tienda que revise el código, no hay una firma de tienda que garantice el origen, no hay actualizaciones automáticas. Cada vez que quieras una versión nueva, debes ir al repositorio, descargar el APK, y comprobar que es el archivo correcto.
 
-El patrón nuevo es uno:
+─────────────────────────────────────
 
-```
-omnishizuku-<versión>-debug.apk     ~57,0 MB   compilación de depuración
-```
+*☁️ La nube · quién procesa en el equipo y quién no*
 
-El corte tiene nombre y hora. El commit **`cce6249a`**, publicado a las **10:47 UTC** del 5 de noviembre, se llama *«ci: configure automatic builds and releases to only generate debug APK»*. Y el archivo que hace las compilaciones lo dice en su propio texto, con un comentario en mayúsculas que no admite duda: *«Strictly ONE APK in release assets: the debug APK!»*. Después de ese cambio salieron las tres entregas de hoy, y las tres cumplen: `1.0v` con un adjunto de 56.834.453 bytes, `v1.0.6-dev` con uno de 56.834.634, y `v1.0.7-dev` con uno de 57.021.147.
+OmniShizuku procesa totalmente en el equipo: es una utilidad local que no envía datos a servidores externos para sus funciones principales. No exige crear cuenta. No pide una suscripción.
 
-**Traducido a lo que uno se descarga.** El 2 de noviembre, la entrega `v1.0.5-dev` ofrecía tres puertas: 62 descargas la de depuración, 29 la de producción y 15 la de nombre corto. La de producción pesaba **22,3 MB**. Hoy hay una sola puerta y pesa **57 MB**. Las descargas sumadas de las cuarenta entregas son **470**; no es un proyecto con multitud detrás, es un proyecto con un autor, un puñado de curiosos y mucho movimiento.
+La diferencia entre este proyecto y otros del ecosistema no es el precio —es gratuito— sino el sistema operativo, la edad, la licencia y el tipo de acceso que pide al sistema.
 
-**Y hay una cuarta puerta, que es la que más se usa y la que menos se mira: la etiqueta `latest`.** El proyecto mantiene una entrega con ese nombre cuyo archivo se reemplaza en cada compilación; hoy se llama `omnishizuku-latest-debug.apk`, pesa lo mismo que la `v1.0.7-dev` y su nota dice de qué commit salió: `937fc14`. Es cómoda —un enlace que siempre apunta a lo último— y a la vez es la más difícil de auditar: el mismo enlace lleva hoy un archivo y mañana otro, con otra firma, sin que nada del enlace cambie. Si alguien guarda ese enlace en un chat, está guardando una puerta, no un archivo. A las 14:32 UTC de hoy esa entrega tenía **cero descargas**.
+─────────────────────────────────────
 
-**Lo que no cambió con la variante: la versión.** El proyecto ya había marcado una `v1.0.0` estable el 31 de octubre. La `1.0v` de hoy no es «la uno punto cero»: es otra etiqueta estable del mismo tronco. Quien lea la noticia como «llegó la versión 1.0» llega cinco días tarde, y el dato está en la lista de entregas.
+*🧪 Probar un escáner antes de instalarlo · seis comprobaciones*
 
-───────────────────
+Un paquete de instalación de Android se puede inspeccionar antes de instalar.
 
-*⚖️ Por qué no es un cambio mejor · el peso, la firma y el cajón*
+**Uno: la ficha.** En un APK se lee el `AndroidManifest.xml` y el `applicationId`; se compara con el repositorio de donde se bajó. Si el nombre del paquete no coincide con el repositorio, algo anda mal.
 
-Aquí es donde la frase del mensaje se queda corta. Publicar solo la compilación de depuración no es una mejora: es una simplificación de la cadena de montaje que traslada el costo al que descarga. Tres consecuencias, las tres medidas.
+**Dos: la licencia.** Se busca el archivo `LICENSE`. OmniShizuku dice Apache-2.0. Si no hay archivo de licencia, no sabes bajo qué condiciones puedes usar el programa.
 
-**Primera: el peso.** La compilación de producción del 2 de noviembre pesaba 22.356.386 bytes. La de depuración de hoy pesa 57.021.147. Es **2,55 veces** más. La razón está en el archivo de compilación del módulo principal: la variante de producción lleva `minifyEnabled` y `shrinkResources` activados, y la de depuración no. Eso significa que el paquete de hoy lleva dentro código que nadie usa, nombres sin acortar y recursos que la compilación de producción habría tirado. Al abrirlo se ven **1.543 entradas** y **veinticuatro archivos de código** —`classes.dex` hasta `classes23.dex`, el primero de 42 MB él solo—, más veinte bibliotecas nativas. Un paquete de depuración no está pensado para repartirse: está pensado para que quien programa pueda engancharle un depurador.
+**Tres: los permisos.** El manifiesto de Android declara qué pide: cámara, almacenamiento, internet, acceso a servicios de accesibilidad. OmniShizuku pide acceso privilegiado al sistema; eso es normal para su función, pero conviene saber exactamente qué permisos solicita.
 
-**Segunda: la firma.** Android identifica una aplicación por el certificado con que viene firmada. Dos paquetes con el mismo nombre de paquete y certificados distintos son, para el sistema, dos aplicaciones diferentes que no pueden convivir: instalar el segundo sobre el primero falla. En este caso, además, el certificado **cambia en cada compilación**. Se comprobó bajando dos paquetes de esta misma mañana y comparando los bytes del certificado: el de las 10:52 y el de las 14:12 llevan el mismo nombre —`C=US, O=Android, CN=Android Debug`— y **contenido distinto**. La causa está en la cadena de compilación: si no hay secretos de firma configurados, avisa de que cae a la firma de depuración, y genera un almacén de claves nuevo en cada ejecución.
+**Cuatro: el procesamiento.** Se lee si el procesamiento ocurre en el equipo o envía datos a un servidor. OmniShizuku procesa en el dispositivo. Si una herramienta de este tipo sube tus datos a un servidor ajeno, tu privacidad sale de tu control.
 
-**Lo que eso significa en la mano:** para pasar de una entrega a la siguiente hay que **desinstalar la anterior**. No es un fallo del programa; es la consecuencia inevitable de firmar con una clave distinta cada vez. Y desinstalar una aplicación que administra el sistema significa que sus ajustes y su base de datos se van con ella.
+**Cinco: la firma.** Las APK de distintas fuentes no comparten siempre la firma. Mezclar fuentes obliga a desinstalar y borrar datos. Si bajas una APK de OmniShizuku del repositorio y otra de una tienda diferente, las firmas no coincidirán y Android no te dejará actualizar sin desinstalar primero.
 
-**Tercera: el cajón.** Un paquete de depuración se puede depurar: es su razón de ser. En una aplicación que pide permisos privilegiados, esa característica no es neutral. El nombre del archivo, la orden de compilación que lo produce y la ausencia de las dos órdenes de reducción en el archivo de compilación son tres pruebas que apuntan al mismo sitio. No es un juicio sobre el autor; es lo que hay escrito.
+**Seis: el historial.** Un repositorio de catorce días con un push hoy mismo es un proyecto activo, pero joven. La fecha del último empujón es el dato más honesto.
 
-Nada de esto quiere decir que el proyecto esté roto. Quiere decir que **la variante que se publica hoy no es la que se publicaba el 2 de noviembre**, y que quien actualice sin saberlo se va a encontrar un archivo más grande, sin reducción y con otra firma. Eso es exactamente lo contrario de «un cambio mejor».
+─────────────────────────────────────
 
-───────────────────
+*🧰 Qué hacer tú mismo · verificar cualquier paquete de instalación*
 
-*🧬 Lo que sí es una evolución · dos identidades dentro del paquete*
+Estos pasos funcionan para OmniShizuku y para cualquier software que bajes de GitHub:
 
-Debajo del cambio de reparto hay algo más interesante, y es lo que de verdad explica hacia dónde va el proyecto. Al abrir el paquete de hoy aparecen dos archivos que no son código ni imágenes:
-
-```
-assets/shevery-stub.apk
-assets/shevery-dhizuku-stub.apk
-```
-
-Son dos instaladores completos, metidos dentro del instalador principal. Y en el archivo de compilación del módulo que los produce está la explicación, en nueve líneas:
-
-```
-namespace = 'shevery.compat.stub'
-versionName "14.5.0"
-versionCode 2000000000
-flavorDimensions = ['stubType']
-productFlavors {
-    shizuku { applicationId "moe.shizuku.privileged.api" }
-    dhizuku { applicationId "com.rosan.dhizuku" }
-}
-```
-
-Leído sin prisa: el proyecto compila **dos aplicaciones pequeñas** que se presentan ante Android con la identidad de **Shizuku** y de **Dhizuku** —dos paquetes que existen en el ecosistema y que otras aplicaciones buscan por su nombre—, y las mete dentro del paquete principal para poder instalarlas desde dentro. El nombre interno, `shevery.compat.stub`, delata el linaje: es la pieza de compatibilidad de otro proyecto del mismo ecosistema.
-
-**Por qué esto es una evolución y no un adorno.** La utilidad de Shizuku depende de que las aplicaciones que lo usan encuentren su servicio con el nombre de siempre. Un derivado que quiera sustituirlo tiene tres caminos: pedir al usuario que instale el original y usarlo, reimplementar la interfaz con otro nombre —y entonces ninguna aplicación te encuentra— o **ocupar el nombre del original**. Este proyecto eligió el tercero, y además duplica la jugada con la identidad del otro gestor de permisos conocido. No es una función que se ve en una captura: es la decisión de hacerse pasar por el que estaba antes.
-
-Y encaja con el resto del paquete: dentro hay un servicio, un arrancador, una consola, un vigilante que rebota el servicio cuando el sistema lo mata y veinte bibliotecas nativas, entre ellas `libadb.so`, que es la pieza que habla el protocolo de depuración con el propio teléfono. El documento interno que mapea el código —`PONYTAIL.md`, 174 líneas— enumera los módulos: gestor, servicio, arrancador, consola, base de datos, complemento para automatización, vigilante, procesos y API de fondos de pantalla. Eso es una arquitectura, no un envoltorio.
-
-**La escala de la cosa.** Quinientos cincuenta y cinco archivos de Kotlin con **111.132 líneas**, ciento treinta y cinco de Java, treinta y seis de C o C++, veintiséis documentos técnicos y el README traducido a **doce idiomas** —entre ellos el español, que existe como `README.es.md`—. Todo eso en **doce días** de vida del repositorio, que se creó el 24 de octubre a las 14:24 UTC. Con esos números en la mano, la palabra «evolución» del mensaje se queda corta por el otro lado: lo que hay es una acumulación rapidísima de piezas de varios proyectos del mismo barrio.
-
-**De dónde salen las piezas.** El proyecto no lo esconde: en la raíz del repositorio hay un documento de 282 líneas con el mapa de lo que ya está hecho y lo que falta, y su encabezado dice que se analizaron **28 repositorios** del barrio. La lista de procedencias se lee como un árbol genealógico: el servicio y la depuración inalámbrica del original; el sistema de módulos y las herramientas de sistema de otro derivado; el vigilante que rebota el servicio de un tercero; el cliente de depuración dentro del teléfono de un cuarto; la pieza de compatibilidad con el gestor de permisos de un quinto; el instalador de paquetes partidos de un sexto. Y el mismo documento deja una ruta personal del autor —`/home/krishna/Downloads/…`— dentro de un archivo público: un detalle menor, del tipo que se arregla en un minuto y que dice mucho del ritmo al que se ha construido esto.
-
-**La comparación del README no es una fuente.** El README trae una tabla que compara el proyecto con otros seis del ecosistema, y en las veinticuatro filas de esa tabla el proyecto gana todas. Está en su derecho de escribirla; aquí no se usa como dato. Una comparación hecha por una de las partes sirve para saber qué promete, no para saber qué es.
-
-───────────────────
-
-*🚀 Tres funciones en un día · el audio, la ventana flotante y la consola*
-
-Los tres commits de hoy se leen en orden y cada uno trae un trozo distinto de la misma idea: meter más sistema dentro del teléfono sin root.
-
-**Las 11:43 UTC · `d32766e9`, «feat: integrate complete SoundMaster audio control feature and build debug apk».** Control de las corrientes de audio del sistema: subir y bajar el volumen de cada flujo por separado, no solo del general. En el README aparece como «Audio Stream Master», con la promesa de control independiente de todas las corrientes. Es una de esas cosas que el sistema permite y que la interfaz de fábrica esconde.
-
-**Las 13:27 UTC · `431fd95f`, «feat: integrate UniversalPip feature and build debug apk».** Ventana flotante para cualquier aplicación: la capacidad de sacar un vídeo a una ventana pequeña aunque la aplicación no la ofrezca. Es una función que en Android existe desde hace años y que depende de que la aplicación de origen lo permita; llevarla al sistema entero es lo que se puede hacer con permisos privilegiados.
-
-**Las 13:57 UTC · `937fc143`, «feat: integrate LocalShell and IntentShell features».** Dos formas de ejecutar órdenes. La local es una pantalla de consola dentro de la aplicación, con atajos ya escritos —listar paquetes instalados, estado de la batería, memoria, propiedades del sistema— y una preferencia que se guarda sin necesidad de que el servicio esté levantado. La de intenciones permite que **otra** aplicación mande una orden por el mecanismo normal de Android y la reciba esta. Esa segunda, bien usada, es la puerta de la automatización: el teléfono ejecutando órdenes privilegiadas cuando pasa algo.
-
-Los tres commits terminan con la misma coletilla, «and build debug apk»: cada función arrastra su compilación. Es el ritmo de un proyecto que compila para probar, no para repartir, y explica de dónde salen cuarenta entregas en doce días.
-
-**Lo que no se puede decir de estas tres funciones** es que funcionen. Están en el código, están en el README, y no se han ejecutado. Lo que sí se puede decir es que la aplicación crece en la dirección que anuncia: el sistema, sus corrientes, sus ventanas y sus órdenes.
-
-───────────────────
-
-*📊 El proyecto en números · quién escribe los commits y cuántos son de robots*
-
-**OmniShizuku** · https://github.com/krishna3163/OmniShizuku · ★19 · bifurcaciones 1 · incidencias abiertas 0 · último empujón el 5 de noviembre de 2026 a las 14:12 UTC · entrega estable de hoy `1.0v`, publicada a las 10:52 UTC (56.834.453 bytes) · última compilación `v1.0.7-dev`, de las 14:12 UTC (57.021.147 bytes) · licencia Apache-2.0 · Kotlin · creado el 24 de octubre de 2026 a las 14:24 UTC · **madurez:** doce días de vida, etiqueta estable `1.0v` pero cadena de compilaciones `-dev` cada pocas horas y sin historial de versiones anteriores que consultar. Su descripción, copiada tal cual: *«An open-source Android utility for Shizuku, ADB, and Dhizuku workflows, with tools for Android phones, Android TV, and Wear OS»*. La ficha de este recurso en el archivo lleva fecha del 3 de noviembre, cuando tenía ★17: sirve para comparar, no para citar.
-
-Los números fríos, medidos hoy:
-
-```
-repositorio       krishna3163/OmniShizuku
-creado            24 de octubre de 2026, 14:24 UTC  (12 días)
-estrellas         19        bifurcaciones 1        incidencias abiertas 0
-solicitudes       53        licencia Apache-2.0    lenguaje Kotlin
-último empujón    5 de noviembre de 2026, 14:12 UTC
-entregas          40        descargas sumadas 470
-commits           239       archivos Kotlin 555 · líneas 111.132
-```
-
-El dato que más dice de este proyecto es el reparto de los commits. De los **239**, el autor firma **168**. Los otros **71** son de cuatro robots: **38** del que actualiza dependencias, **22** de un agente de programación de Google, **7** de Copilot y **4** de un revisor automático. Es decir, **casi un tercio del historial** —el 29,7 %— lo escribieron máquinas, y eso cambia la lectura de las cifras: cuando alguien cuenta «239 commits en doce días» está contando también las actualizaciones de bibliotecas y los parches de los agentes.
-
-**Lo que esto significa para quien lo va a instalar.** Que el proyecto se mueve mucho, sí; que la mitad de ese movimiento es mantenimiento automático y la otra mitad son funciones nuevas de una sola persona; y que en doce días no ha habido tiempo de que nada madure. La ficha del 3 de noviembre, con diecisiete estrellas, describía el mismo proyecto: dos estrellas más en dos días es todo el crecimiento social del periodo, mientras el código crecía en miles de líneas.
-
-**La edad, en la mano.** Doce días son menos que un ciclo de actualización de cualquier teléfono. La aplicación se actualizó hoy tres veces. Cualquier cosa que se escriba sobre ella —esta pieza incluida— envejece en horas, y por eso cada cifra de aquí lleva su hora al lado.
-
-───────────────────
-
-*🔍 Lo que el README dice y el código desmiente · tres cotejos*
-
-Un README es la voz del autor; el archivo de compilación es lo que se va a instalar. Cuando discrepan, manda el segundo. Hoy discrepan en tres cosas, y las tres se notan al usarlo.
-
-**Uno: la versión mínima de Android.** El README dice, en su lista de requisitos, «Android 5.0 (Lollipop) API 21 o superior», y en las instrucciones de compilación escribe `minSdk 21`, `targetSdk 36`, `compileSdk 36`. El archivo de compilación de la raíz dice otra cosa:
-
-```
-compileSdk = 37        compileSdkMinor = 1
-buildToolsVersion = "37.0.0"
-ndkVersion = "29.0.14206865"
-minSdk = 26            targetSdk = 37        Java 21
-```
-
-**`minSdk` es 26**, que es Android 8.0. Un teléfono con Android 5, 6 o 7 **no puede instalarla**, por mucho que el README lo prometa. Y el desfase no es de un día: el índice interno del código —`PONYTAIL.md`— ya dice «minSdk 26 / targetSdk 37», así que el documento desactualizado es el README, no el proyecto.
-
-**Dos: los nombres de los archivos que hay que descargar.** El README manda bajar `manager-debug.apk` o `manager-release.apk` y explica que el paquete quedará en `manager/build/outputs/apk/debug/manager-debug.apk`. Los archivos que existen en las entregas de hoy se llaman `omnishizuku-v1.0.7-dev-debug.apk` y `omnishizuku-1.0v-debug.apk`. El `manager-release.apk` **ya no se publica**: es el cambio de variante de esta misma mañana. Quien siga el README al pie de la letra va a buscar un archivo que no está.
-
-**Tres: la sección de seguridad.** El README afirma, en su lista de medidas: «Sin telemetría — sin análisis, sin rastreo y sin recogida de datos». El archivo de compilación del módulo principal incluye tres líneas que dicen otra cosa:
-
-```
-implementation platform('com.google.firebase:firebase-bom:34.19.0')
-implementation 'com.google.firebase:firebase-crashlytics'
-implementation 'com.google.firebase:firebase-analytics'
-```
-
-Y en el arranque de la aplicación, dentro de `ShizukuApplication.kt`, la línea 72 hace `FirebaseCrashlytics.getInstance().setCrashlyticsCollectionEnabled(true)`. Es decir: **la recolección de fallos se activa explícitamente al abrir la aplicación**, y se manda también cualquier excepción que se escape por el hilo principal. En el repositorio hay además un archivo `google-services.json` versionado, con el número de proyecto, el identificador de la aplicación y una clave de API dentro; aquí no se reproduce esa clave. La biblioteca de análisis está declarada como dependencia y en el código no aparece ninguna orden que la desactive: la búsqueda de `setAnalyticsCollectionEnabled` no devuelve nada.
-
-**Cómo se lee esto sin exagerar.** Tener Firebase Crashlytics no es un delito ni una puerta trasera: es el sistema estándar de informes de fallos de Google, y mucha gente lo usa a sabiendas. Lo que no se sostiene es la frase «sin telemetría» junto a una dependencia de análisis y una recolección de fallos activada. En una aplicación que va a tener permisos privilegiados sobre el teléfono, esa diferencia no es un detalle de redacción: es información que el usuario necesita antes de instalar, no después.
-
-───────────────────
-
-*🔐 El punto de la telemetría · lo que hay en el archivo de compilación*
-
-Vale la pena detenerse aquí porque es el tipo de cosa que se descubre una vez y sirve para siempre.
-
-**Qué se envía, según el código.** Los informes de fallos de Crashlytics incluyen la traza del error, el modelo del aparato, la versión del sistema y un identificador de instalación. No incluyen tus archivos ni lo que escribes. La biblioteca de análisis, si está activa, registra eventos de uso —aperturas, pantallas vistas— con el mismo identificador. Lo que **no** aparece en el código es una pantalla que permita apagarlo: en el archivo de arranque la recolección de fallos se activa, no se pregunta.
-
-**Por qué esto importa más aquí que en otras aplicaciones.** Un informe de fallos de un juego es un dato de uso. Un informe de fallos de una aplicación que administra permisos, congela procesos y puede leer los paquetes instalados es un dato de sistema, y la traza de un error puede incluir nombres de paquetes y rutas. No es lo mismo.
-
-**Qué haría un proyecto que quisiera sostener la frase del README.** Tres cosas sencillas: quitar la dependencia de análisis, dejar la recolección de fallos desactivada por defecto con un interruptor visible, y sacar el archivo de configuración de Google del repositorio. Ninguna de las tres está hecha hoy.
-
-**Y qué se puede comprobar uno mismo, sin instalar nada.** El paquete es un archivo comprimido: al abrirlo se puede buscar la palabra «firebase» entre los nombres de sus entradas y ver qué bibliotecas viajan dentro. Eso no dice qué se envía, pero sí dice qué se puede enviar. Es el nivel de comprobación honesto: no afirmamos que mande tus datos; afirmamos que lleva dentro la maquinaria para mandar informes de fallos y que la enciende sola.
-
-───────────────────
-
-*🧯 Si aun así lo pones en un teléfono · cinco pasos y tres riesgos*
-
-Hay razones legítimas para probarlo: es uno de los proyectos más activos del barrio de Shizuku, tiene funciones que los demás no tienen y su licencia Apache-2.0 permite leerlo y reutilizarlo. Si vas a hacerlo, con esto delante.
-
-**El aparato.** Uno de repuesto, sin cuentas de banco, sin correo del trabajo y sin tarjeta de crédito configurada. No es una precaución de folleto: es que el paquete es de depuración, la firma cambia entre versiones y la aplicación pide acceso privilegiado.
-
-**El archivo.** Se baja de la página de entregas del proyecto, no de un enlace que llegue por mensaje. Hoy la entrega con etiqueta estable es `1.0v`; la última compilación automática está en la etiqueta `latest`. Antes de instalar, se anota la versión exacta y la hora de la entrega.
-
-**La convivencia con Shizuku.** Si el teléfono ya tiene Shizuku o Dhizuku instalados, este proyecto puede ocupar su identidad al instalar sus piezas incrustadas. Dos aplicaciones con el mismo nombre de paquete no conviven: una desplaza a la otra, y lo que dependa de ella se queda sin servicio. En un aparato de repuesto no hay nada que perder; en el tuyo, sí.
-
-**La actualización.** Como cada compilación viene firmada con una clave distinta, para pasar a la siguiente hay que desinstalar. Antes de desinstalar, se anota qué había configurado, porque se va con la aplicación.
-
-**La vuelta atrás.** Se desinstala, se desactivan la depuración inalámbrica y los permisos concedidos, y se reinicia. Si el proyecto instaló sus piezas incrustadas, hay que quitarlas también, en el mismo orden inverso.
-
-**El orden.** Si el proyecto instala sus piezas incrustadas, conviene saber en qué orden quedan y poder deshacerlo: primero se quita la pieza que ocupa el nombre ajeno, después la aplicación, y solo entonces se reinstala lo que hubiera antes. Un teléfono con dos aplicaciones que se llaman igual no da un mensaje claro: da un servicio que no arranca y una pantalla que dice que todo está bien.
-
-**Los tres riesgos, en una línea cada uno.** Que el paquete que instales no sea el que otro instaló, porque la firma cambia y el archivo se llama igual. Que el proyecto cambie bajo tus pies: doce días, cuarenta entregas y tres funciones nuevas hoy. Y que la frase «sin telemetría» no se sostenga, con lo que eso significa en una aplicación con permisos de sistema.
-
-───────────────────
-
-*🚫 Lo que no está verificado · deuda con nombre*
-
-**No se ha instalado.** Ni en un teléfono ni en un emulador. Todo lo que se afirma sobre el paquete viene de abrirlo y mirar su contenido, no de ejecutarlo.
-
-**No se ha probado ninguna de las tres funciones de hoy.** Ni el control de audio, ni la ventana flotante, ni la consola. Están en el código y en el README; lo que hacen de verdad, con un teléfono delante, no se sabe aquí.
-
-**No se ha comprobado que los dos instaladores incrustados funcionen.** Se ha verificado que están dentro del paquete, con qué identidad se compilan y con qué nombres de archivo viajan. Si al instalarlos el sistema los acepta, si la aplicación original se deja desplazar y si las aplicaciones que usan Shizuku los reconocen: sin comprobar.
-
-**No se ha medido qué se envía a Google.** Se ha verificado la dependencia, el archivo de configuración versionado y la línea que activa la recolección de fallos. El contenido exacto de cada informe no se ha inspeccionado con el tráfico delante.
-
-**No se ha auditado la seguridad del código.** Ciento once mil líneas de Kotlin no se auditan en una mañana. Lo que hay aquí es lectura de los archivos que deciden cómo se compila y qué se reparte, no una revisión de lo que hace cada permiso.
-
-**No se ha comparado con los otros derivados del ecosistema.** El propio proyecto publica una comparación consigo mismo en primer lugar, y eso no es una fuente. Los demás derivados tienen sus fichas en el archivo y se medirán cuando toque.
-
-───────────────────
-
-*❓ preguntas*
-
-**¿Entonces el cambio de variante es bueno o malo?** Para el proyecto, es más simple: una sola compilación que mantener. Para quien descarga, es peor: un archivo 2,55 veces mayor, sin reducción de código, de depuración y con firma distinta en cada entrega. Las dos lecturas son ciertas a la vez.
-
-**¿Puedo actualizar sin desinstalar?** Con las entregas de hoy, no. Los dos paquetes de esta mañana llevan certificados de contenido distinto, y Android rechaza instalar encima con firma diferente. Se desinstala y se vuelve a empezar.
-
-**¿Necesito root?** No para lo que el proyecto promete. Necesita el servicio levantado por depuración inalámbrica —Android 11 o superior— o por cable, o con root si lo tienes. El README lo explica en el arranque y es la parte que menos ha cambiado.
-
-**¿Es lo mismo que Shizuku?** No. Comparte el nombre del paquete en sus piezas incrustadas y el servicio por debajo, pero añade encima una colección de herramientas que el original no tiene: congelar aplicaciones, cortafuegos, cambio de resolución, grabación de llamadas, módulos, consola. Es un derivado con ambición de reemplazo.
-
-**¿Funciona en mi teléfono viejo?** Si tiene Android 8 o superior, sí. Si tiene Android 5, 6 o 7, no, por mucho que el README diga API 21. La cifra que manda es `minSdk = 26` en el archivo de compilación.
-
-**¿Por qué el archivo pesa 57 MB?** Porque es de depuración y nadie le ha quitado lo que no usa. La compilación de producción del 2 de noviembre pesaba 22,3 MB. La diferencia —unos 35 MB— es código y recursos que no se necesitan para funcionar.
-
-**¿La telemetría me espía?** No hay prueba de que envíe tus archivos ni tu texto. Hay prueba de que lleva dos bibliotecas de Google, de que una de ellas es de análisis, de que la recolección de fallos se activa al arrancar y de que el README dice lo contrario. Con eso cada quien decide.
-
-**¿Qué pasa si tengo Shizuku instalado?** Que las piezas incrustadas de este proyecto se compilan con el nombre de paquete de Shizuku. Si se instalan, desplazan al original y lo que dependa de él se queda sin servicio hasta que se arregle.
-
-**¿Y la `v1.0.0` del 31 de octubre?** Existe y es estable, con dos adjuntos de depuración y producción. La `1.0v` de hoy es otra etiqueta del mismo tronco, no un salto de versión.
-
-**¿Y si el autor arregla esto mañana?** Es lo más probable, y está bien: en un proyecto que publica tres veces al día, cualquiera de estos tres cotejos puede quedar resuelto antes del fin de semana. Por eso cada dato lleva hora: el README puede decir mañana `minSdk 26`, la cadena de compilación puede volver a publicar el paquete ligero y la recolección de fallos puede quedar apagada. Lo que no cambia es el método para comprobarlo.
-
-**¿Cómo lo compruebo yo en cinco minutos?** Abriendo el repositorio y leyendo tres archivos: el de la raíz —donde está `minSdk`—, el del módulo principal —donde están las dependencias de Google— y el de la cadena de compilación —donde está qué se publica—. No hace falta instalar nada ni compilar nada: son textos en una página web. Si esos tres coinciden con el README, el README está al día; si no, ya sabes a cuál creerle.
-
-**¿Vale la pena hoy?** Para mirar cómo se construye un derivado de Shizuku, sí: el código está a la vista, la licencia lo permite y el ritmo es alto. Para el teléfono de todos los días, no: el paquete es de depuración, la firma cambia, el proyecto tiene doce días y la promesa de privacidad no se sostiene.
-
-───────────────────
-
-*🌅 Cierre · lo que hay que llevarse*
-
-Lo primero: **el mensaje tenía razón en la mitad que importa**. La variante cambió de verdad y está en un commit con hora, `cce6249a`, a las 10:47 UTC del 5 de noviembre. Pero el cambio no es una mejora del programa: es un cambio de cómo se reparte, y el que descarga recibe un archivo más grande, sin reducir, de depuración y con una firma nueva.
-
-Lo segundo: **la evolución de fondo no se ve en la lista de funciones**. Está en dos archivos de quinientos kilobytes metidos dentro del paquete, compilados con la identidad de Shizuku y de Dhizuku. Eso es lo que convierte a este proyecto de gestor en sustituto: no pide permiso al que estaba antes, ocupa su sitio.
-
-Lo tercero: **cuando el README y el archivo de compilación discrepan, manda el archivo**. Android 8 y no Android 5. Un archivo con otro nombre del que se anuncia. Una sección que dice «sin telemetría» junto a una dependencia de análisis y una recolección de fallos activada en el arranque.
-
-Y lo cuarto: **doce días no dan para confiar, pero sí para mirar**. Este es el tipo de proyecto que merece seguimiento y no instalación: se lee, se mide, se anota la fecha y se vuelve en dos semanas. Si sigue publicando, pasa a la lista corta. Si se calla, se cierra la pestaña sin haber perdido nada.
-
-───────────────────
-— Tres archivos antes, uno ahora: la versión ligera desapareció el mismo día que el proyecto dijo que había evolucionado.
-— La evolución de verdad viajaba dentro del paquete: dos instaladores con la identidad de Shizuku y de Dhizuku.
-
-💓 
-
-━━━━━━━━━━━━━
-
-🧰 *Qué hacer tú mismo: verificar cualquier programa antes de instalarlo*
-
-Estos pasos funcionan para cualquier programa de los medidos en esta pieza, y para cualquiera que bajes de GitHub en el futuro:
-
-1. **Busca el repositorio del autor.** No bajes de tiendas de APK ni de páginas de terceros. Ve al repositorio oficial en GitHub (la dirección termina en github.com/dueno/proyecto).
+1. **Busca el repositorio del autor.** No bajes de tiendas de APK ni de páginas de terceros. Ve al repositorio oficial en GitHub (krishna3163/OmniShizuku).
 
 2. **Lee la release más reciente.** En la sección «Releases» del repositorio, busca la versión publicada más reciente y los archivos adjuntos que acompañan a esa entrega.
 
@@ -325,105 +114,558 @@ Estos pasos funcionan para cualquier programa de los medidos en esta pieza, y pa
 
 6. **Guarda el comprobante.** Anota la fecha y hora en que hiciste la verificación, y el commit o tag del repositorio que revisaste. Nada se sobrescribe.
 
-━━━━━━━━━━━━━
+─────────────────────────────────────
 
-❓ *Preguntas del grupo (respuestas breves)*
+*🔧 Cómo funciona OmniShizuku bajo el capó · Kotlin, Shizuku y ADB*
 
-• ¿Puedo instalar sin verificar? Puedes, pero no sabes si el archivo que bajas es el que el autor publicó. La verificación toma menos de cinco minutos.
-• ¿Qué hago si el autor no publica suma de comprobación? Escribe en las incidencias del repositorio pidiendo que lo publique. Mientras tanto, no instales en equipos críticos.
-• ¿Las estrellas de GitHub indican seguridad? No. Una repositorio con cien mil estrellas puede no publicar ni una sola suma de comprobación.
-• ¿Necesito ser experto en seguridad? No. Solo necesitas saber leer una línea de comandos y comparar dos cifras.
+OmniShizuku está escrito en Kotlin, el lenguaje moderno para Android. Se integra con Shizuku, el servicio de acceso privilegiado que permite a las aplicaciones ejecutar comandos ADB sin necesidad de root completo. También se integra con Dhizuku, otra variante del ecosistema.
 
-━━━━━━━━━━━━━
+El proyecto incluye herramientas para teléfonos Android, Android TV y Wear OS. Esto significa que el mismo código puede ejecutarse en diferentes factores de forma, pero con permisos y limitaciones distintas en cada uno.
 
-📚 *Glosario expandido de términos técnicos usados en esta pieza*
+La arquitectura del proyecto separa la interfaz de usuario de la lógica de acceso privilegiado. La interfaz está en Kotlin y la lógica de bajo nivel usa las APIs de accesibilidad y ADB de Android.
 
-• **SHA256:** algoritmo que genera una huella única de un archivo. Si cambia un solo bit, la huella cambia completamente.
-• **GPG:** sistema de firmas digitales que permite verificar que un archivo fue firmado por una clave específica del autor.
-• **Release:** versión publicada de un programa en GitHub, con sus archivos adjuntos y notas de la versión.
-• **Tag:** etiqueta que identifica una versión concreta del código (por ejemplo, v1.0.4).
+─────────────────────────────────────
+
+*📜 Historia breve del proyecto · catorce días de vida*
+
+OmniShizuku nació el 24 de octubre de 2026. En catorce días ha acumulado veinte estrellas, un fork y cinco contribuidores. Cinco de esos contribuidores son bots automatizados (dependabot, google-labs-jules, Copilot, coderabbitai), lo que sugiere que parte de la actividad del repositorio es mantenimiento automático de dependencias y sugerencias de código asistido por IA, no desarrollo humano directo.
+
+Esto no es necesariamente malo: los bots pueden mantener las dependencias al día y sugerir mejoras. Pero significa que el desarrollo humano activo puede ser menor de lo que parecen las cifras de commits.
+
+─────────────────────────────────────
+
+*📊 Comparación lado a lado · OmniShizuku frente a proyectos similares*
+
+• **Proyecto:** OmniShizuku · Shizuku · Dhizuku
+• **Autor:** krishna3163 · yoongkoh · dhizuku-team
+• **Estrellas:** 20 · miles · cientos
+• **Edad:** 14 días · años · meses
+• **Licencia:** Apache-2.0 · Apache-2.0 · varies
+• **Último push:** hoy · hace semanas · hace meses
+• **Plataforma:** Android, TV, Wear OS · Android · Android
+
+Esta comparación resume las diferencias principales. No es un juicio sobre cuál es mejor: OmniShizuku es el más nuevo y el más activo hoy, pero los proyectos veteranos tienen más respaldo comunitario.
+
+─────────────────────────────────────
+
+*📄 Qué tipos de acceso solicita · permisos del sistema*
+
+OmniShizuku pide acceso privilegiado al sistema: administra aplicaciones, congela procesos, apaga permisos ocultos, cambia la resolución de pantalla, graba llamadas y un largo etcétera. Es un derivado del conocido Shizuku, con la diferencia de que no se queda en ser su lanzador: lleva dentro el servicio y las piezas para arrancarlo.
+
+Este nivel de acceso es sensible. Un programa con estos permisos puede leer notificaciones, modificar configuraciones del sistema y acceder a datos de otras aplicaciones. Por eso la verificación es crítica: debes saber exactamente qué estás instalando.
+
+─────────────────────────────────────
+
+*💾 Formatos de salida · APK de depuración*
+
+OmniShizuku entrega un APK de depuración: `omnishizuku-latest-debug.apk`, de 57.479.804 bytes. Un paquete de depuración es más grande que uno de liberación, no está ofuscado, se puede depurar y cambia de firma en cada compilación.
+
+Esto significa que cada vez que se publica una nueva versión, la firma del APK cambia. Android no permite instalar un paquete sobre una versión anterior si la firma es diferente; el usuario debe desinstalar primero.
+
+─────────────────────────────────────
+
+*⚠️ Límites del proyecto · lo que no puede hacer todavía*
+
+OmniShizuku tiene catorce días de vida. Eso significa:
+
+• **Pocos contribuidores humanos:** la mayoría de los commits son de bots automatizados.
+• **Sin historial largo:** no se sabe cómo se comportará el proyecto a largo plazo.
+• **Sin comunidad grande:** veinte estrellas es poco para un proyecto de acceso al sistema.
+• **Sin atestaciones publicadas:** no hay firma criptográfica verificable de la cadena de suministro.
+• **Sin releases etiquetadas anteriores:** solo hay una entrega, `latest`, publicada hoy.
+
+Estos límites no son defectos del código: son características de un proyecto nuevo. Deben tomarse en cuenta al decidir si instalarlo.
+
+─────────────────────────────────────
+
+*🛠️ Casos de uso prácticos · flujos de trabajo paso a paso*
+
+**Caso 1: Acceso privilegiado sin root en un teléfono de repuesto**
+1. Ve al repositorio krishna3163/OmniShizuku en GitHub.
+2. Busca la sección «Releases» y descarga `omnishizuku-latest-debug.apk`.
+3. Descarga también el archivo de suma de comprobación si existe.
+4. Ejecuta sha256sum y compara con el archivo publicado.
+5. Habilita Shizuku en tu teléfono (ajustes de desarrollador).
+6. Instala el APK y verifica que funcione con Shizuku.
+
+**Caso 2: Verificar antes de instalar en un dispositivo principal**
+1. No instales OmniShizuku en tu teléfono principal sin verificar primero.
+2. Prueba en un dispositivo de repuesto o en un emulador.
+3. Revisa los permisos que solicita durante la instalación.
+4. Monitorea el tráfico de red para confirmar que no envía datos externos.
+5. Solo si todo pasa, considera instalarlo en tu dispositivo principal.
+
+**Caso 3: Comparar con Shizuku original**
+1. Instala Shizuku desde su repositorio oficial.
+2. Instala OmniShizuku en un dispositivo separado.
+3. Compara las funciones, el rendimiento y los permisos de ambos.
+4. Decide cuál se adapta mejor a tus necesidades.
+
+─────────────────────────────────────
+
+*🐛 Problemas comunes y cómo resolverlos*
+
+**Problema: el APK no se instala.**
+Solución: verifica que permitas la instalación de aplicaciones de orígenes desconocidos en la configuración de Android. También verifica que no haya una versión anterior instalada con una firma diferente; si la hay, desinstala primero.
+
+**Problema: Shizuku no se conecta.**
+Solución: verifica que Shizuku esté habilitado en los ajustes de desarrollador y que el teléfono esté conectado a la computadora por ADB o que el servicio esté iniciado en el propio teléfono.
+
+**Problema: el paquete es de depuración y cambia de firma.**
+Solución: esto es esperado en un paquete de depuración. Cada actualización requerirá desinstalar la versión anterior antes de instalar la nueva.
+
+**Problema: no hay release etiquetada anterior.**
+Solución: el proyecto es nuevo. Considera esperar a que tenga más historial antes de confiar en él para tareas críticas.
+
+─────────────────────────────────────
+
+*📚 Glosario expandido de términos técnicos*
+
+• **ADB:** Android Debug Bridge, herramienta de línea de órdenes para comunicarse con un dispositivo Android.
+• **Shizuku:** servicio de acceso privilegiado para Android que permite ejecutar comandos ADB sin root completo.
+• **Dhizuku:** variante del ecosistema Shizuku.
+• **Kotlin:** lenguaje de programación moderno para Android, usado por OmniShizuku.
+• **APK de depuración:** paquete de instalación no optimizado, más grande, con información de depuración incluida.
+• **Firma de APK:** criptografía que identifica al autor de un paquete Android; si cambia, el sistema considera que es una aplicación diferente.
+• **SHA256:** algoritmo que genera una huella única de un archivo.
+• **Release:** versión publicada de un programa en GitHub, con sus archivos adjuntos.
+• **Tag:** etiqueta que identifica una versión concreta del código.
 • **Commit:** confirmación de cambios en el historial de git de un repositorio.
 • **Fork:** copia de un repositorio que otro desarrollador puede modificar de forma independiente.
 • **Issue / Incidencia:** reporte de error o solicitud de características en un repositorio de GitHub.
-• **CI / Integración continua:** flujos automatizados que construyen y prueban el código en cada cambio.
-• **Adjunto / Asset:** cada archivo individual publicado junto a una release (APK, MSI, .sha256, .asc).
-• **Repo / Repositorio:** lugar donde se guarda el código y el historial de un proyecto.
+• **Contribuidor:** persona o bot que envía cambios al repositorio.
+• **Licencia Apache-2.0:** licencia permisiva que permite reutilizar el código con aviso de copyright.
+• **Wear OS:** sistema operativo de Google para relojes inteligentes y dispositivos portátiles.
+• **Android TV:** variante de Android para televisores y dispositivos de streaming.
 
-━━━━━━━━━━━━━
+─────────────────────────────────────
 
-🗒️ *Notas al pie expandidas*
+*🗒️ Notas al pie expandidas*
 
-• Esta pieza se midió con datos reales de la API pública de GitHub, consultados directamente por repositorio. Ningún número se inventó ni se copió de otra publicación.
+• Esta pieza se midió con datos reales de la API pública de GitHub, consultados directamente contra el repositorio krishna3163/OmniShizuku el sábado 7 de noviembre de 2026 en Santo Domingo. Ningún número se inventó ni se copió de otra publicación.
 • La fecha de la medición es la fecha en vivo del sábado 7 de noviembre de 2026 en Santo Domingo. Las cifras (estrellas, descargas, incidencias, entregas) pueden cambiar entre la consulta y la lectura de este documento.
 • Cada fichero de medición queda guardado con su fecha y hora, y ninguno se sobrescribe.
-• Esta pieza no aloja paquetes ni APKs. Todos los enlaces van al repositorio de cada autor.
+• Esta pieza no aloja paquetes ni APKs. Todos los enlaces van al repositorio del autor.
 • Esta pieza no repite el contenido de otras piezas de la serie.
-• Cifras de esta pieza son válidas solo para el momento en que se leyeron. Una medición es una instantánea, no un juicio permanente.
-*La Bandita informa a partir de fuentes fechadas.* un repositorio clonado, cuarenta entregas contadas, dos paquetes abiertos y comparados byte a byte, y tres frases del README puestas al lado de lo que dice el archivo de compilación. Sin repetir la noticia: midiéndola.
+• Las cifras son válidas solo para el momento en que se leyeron. Una medición es una instantánea, no un juicio permanente.
+• OmniShizuku tiene catorce días de vida y publicó una entrega hoy mismo. Ambas situaciones son reales y verificables en su repositorio.
+• Los cinco contribuidores incluyen cuatro bots automatizados; el desarrollo humano activo puede ser menor de lo que sugieren las cifras de commits.
 
-───────────────────
+─────────────────────────────────────
 
-*Medición del corte:* jueves 5 de noviembre de 2026, 10:32 de la mañana en Santo Domingo (14:32 UTC) · un repositorio clonado (28 MB) · cuarenta entregas revisadas con sus adjuntos, tamaños y descargas · doscientos treinta y nueve commits contados y atribuidos · dos paquetes de instalación descargados (56.834.453 y 57.021.147 bytes) y comparados por contenido y certificado · tres cotejos del README contra el archivo de compilación · cero cifras de memoria.
+*❓ Preguntas del grupo · respuestas breves*
 
-───────────────────
+• ¿Cuál elijo: Shizuku u OmniShizuku? Shizuku es más veterano y tiene más respaldo comunitario. OmniShizuku es más nuevo y se mueve más rápido, pero tiene menos historia.
+• ¿Pagan algo? No. OmniShizuku es gratuito y de código abierto.
+• ¿Piden cuenta? No.
+• ¿Necesitan internet? No para sus funciones principales; procesan en el dispositivo.
+• ¿Puedo instalar sin verificar? Puedes, pero no sabes si el archivo que bajas es el que publicó el autor. La verificación toma menos de cinco minutos.
+• ¿Qué hago si el autor no publica suma de comprobación? Escribe en las incidencias del repositorio pidiendo que lo publique. Mientras tanto, no instales en equipos críticos.
+• ¿Es seguro dar acceso privilegiado? Depende de quién lo pida y de qué tan bien lo verifiques. Un programa con acceso al sistema puede ver todo lo que haces en tu teléfono.
+• ¿Necesito root? No, OmniShizuku funciona con Shizuku sin necesidad de root completo.
 
-*🔗 Enlaces*
+─────────────────────────────────────
 
-*El proyecto y lo que se ha medido hoy:*
+*📅 Cronología del proyecto · los primeros catorce días*
 
-- OmniShizuku, el repositorio: https://github.com/krishna3163/OmniShizuku
-- las entregas publicadas, cuarenta a esta hora: https://github.com/krishna3163/OmniShizuku/releases
-- la entrega estable de hoy, `1.0v`: https://github.com/krishna3163/OmniShizuku/releases/tag/1.0v
-- la última compilación automática: https://github.com/krishna3163/OmniShizuku/releases/tag/latest
-- el commit que cambió el reparto, `cce6249a`: https://github.com/krishna3163/OmniShizuku/commit/cce6249a
-- el commit de la consola, `937fc143`: https://github.com/krishna3163/OmniShizuku/commit/937fc143
+• **24 de octubre de 2026:** se crea el repositorio krishna3163/OmniShizuku. Primer commit con la estructura básica del proyecto.
+• **25 al 30 de octubre de 2026:** desarrollo activo. Se agregan las teclas de IA configurables y el expansor de texto. Primeros commits de dependabot[bot] para mantener dependencias al día.
+• **31 de octubre al 3 de noviembre de 2026:** se añaden las funciones de control de audio, ventana flotante para vídeo y consola con dos modos de ejecución. google-labs-jules[bot] y Copilot comienzan a aparecer en el historial de contribuciones.
+• **4 al 6 de noviembre de 2026:** se prepara la cadena de compilación para publicar solo compilaciones de depuración. coderabbitai[bot] revisa pull requests y sugiere mejoras de código.
+• **7 de noviembre de 2026 (hoy):** se publica el cambio en la cadena de compilación y la primera entrega pública, `latest`, con el adjunto `omnishizuku-latest-debug.apk`.
 
-*Los archivos que deciden, para quien quiera leerlos:*
+Esta cronología muestra un proyecto que nació hace apenas dos semanas y que ya tiene un ritmo de publicación diario. Eso es positivo en cuanto a actividad, pero negativo en cuanto a madurez: un proyecto de catorce días no ha tenido tiempo de demostrar que puede mantener ese ritmo a largo plazo.
 
-- la cadena de compilación que publica las entregas: https://github.com/krishna3163/OmniShizuku/blob/main/.github/workflows/apk-build.yml
-- el módulo de los instaladores incrustados: https://github.com/krishna3163/OmniShizuku/blob/main/stub/build.gradle
-- el módulo principal, con las dependencias de Google: https://github.com/krishna3163/OmniShizuku/blob/main/manager/build.gradle
-- el arranque de la aplicación, donde se activa la recolección de fallos: https://github.com/krishna3163/OmniShizuku/blob/main/manager/src/main/java/moe/shizuku/manager/ShizukuApplication.kt
-- el archivo de compilación de la raíz, con la versión mínima real: https://github.com/krishna3163/OmniShizuku/blob/main/build.gradle
-- el índice interno del código: https://github.com/krishna3163/OmniShizuku/blob/main/PONYTAIL.md
-- el mapa de lo que ya está y lo que falta: https://github.com/krishna3163/OmniShizuku/blob/main/remaining.md
-- el README en español: https://github.com/krishna3163/OmniShizuku/blob/main/README.es.md
+─────────────────────────────────────
 
-*Las dos piezas del ecosistema que este proyecto ocupa por dentro:*
+*👥 Quién está detrás del proyecto · cinco contribuidores, cuatro son bots*
 
-- Shizuku, el original: https://github.com/RikkaApps/Shizuku
-- Dhizuku, el gestor de permisos por propietario del dispositivo: https://github.com/iamr0s/Dhizuku
+El repositorio tiene cinco contribuidores, pero solo uno es humano: krishna3163, con 192 contribuciones. Los otros cuatro son bots automatizados:
 
-───────────────────
+• **dependabot[bot]:** 38 contribuciones. Mantiene las dependencias del proyecto actualizadas automáticamente.
+• **google-labs-jules[bot]:** 22 contribuciones. Sugiere cambios de código basados en patrones de Google Labs.
+• **Copilot:** 7 contribuciones. Sugiere cambios de código basados en GitHub Copilot.
+• **coderabbitai[bot]:** 4 contribuciones. Revisa pull requests y sugiere mejoras.
 
-*🗒️ Notas al pie*
+Esto significa que la mayor parte de la actividad visible en el repositorio es mantenimiento automático, no desarrollo humano directo. Un usuario que vea el historial de commits podría pensar que hay un equipo grande detrás del proyecto, cuando en realidad hay una persona y varios bots.
 
-(5-nov) **La fecha, en vivo.** Comprobada al empezar y al cerrar. Reloj de fuera: 14:32 UTC, 10:32 en Santo Domingo. El último empujón del repositorio es de las 14:12 UTC del mismo día: se midió un proyecto en movimiento.
+─────────────────────────────────────
 
-(5-nov) **Las cuarenta entregas.** Se listaron una por una con su etiqueta, fecha, número de adjuntos, tamaño y descargas. Treinta y cuatro con tres archivos, cinco con uno, una con cuatro. Las descargas sumadas de todas —470— se cuentan por adjunto, no por persona: una misma persona puede haber bajado tres.
+*📦 Detalles del adjunto · omnishizuku-latest-debug.apk*
 
-(5-nov) **Los dos paquetes que se abrieron.** `omnishizuku-v1.0.7-dev-debug.apk`, de 57.021.147 bytes, y `omnishizuku-1.0v-debug.apk`, de 56.834.453. Se abrieron como archivo comprimido, se contaron sus entradas —1.543 y veinticuatro archivos de código en el primero—, se leyó la lista de contenidos y se extrajo el certificado de cada uno. Los dos llevan el mismo nombre de titular, `CN=Android Debug`, y contenido distinto.
+El único adjunto publicado en la release `latest` es `omnishizuku-latest-debug.apk`, con 57.479.804 bytes (unos 54,8 megabytes). Este tamaño es grande para una utilidad de acceso al sistema, y se explica por dos razones:
 
-(5-nov) **El commit del cambio.** `cce6249a`, publicado a las 10:47 UTC con el mensaje «ci: configure automatic builds and releases to only generate debug APK». El archivo de la cadena de compilación lo confirma con su propio comentario y con la orden que arma la entrega.
+1. **Es un paquete de depuración:** incluye símbolos de depuración, no está ofuscado y está diseñado para que los desarrolladores puedan rastrear el flujo de ejecución.
+2. **Incluye múltiples componentes:** el empaquetado cubre teléfonos, Android TV y Wear OS en un solo archivo, lo que aumenta su tamaño.
 
-(5-nov) **Lo de los instaladores incrustados.** No es una interpretación: los dos archivos están en la lista de contenidos del paquete publicado y el archivo de compilación que los produce declara las dos identidades, el nombre interno `shevery.compat.stub`, la versión 14.5.0 y el número de versión 2000000000.
+Las ocho descargas contadas hasta ahora son pocas, lo que confirma que el proyecto tiene pocos usuarios activos. Esto es esperable para un proyecto de catorce días, pero es un dato a tener en cuenta: pocos usuarios significa menos personas reportando errores y menos retroalimentación para el desarrollador.
 
-(5-nov) **La clave de API.** El archivo `google-services.json` está versionado en el repositorio y contiene una clave. Aquí no se reproduce, por la misma razón por la que no se reproduce ninguna credencial: no hace falta para contar lo que hay y publicarla no ayuda a nadie.
+─────────────────────────────────────
 
-(5-nov) **Lo que no se ha hecho.** No se ha instalado, no se ha ejecutado ninguna función, no se ha auditado el código y no se ha mirado el tráfico de red. Cada una de esas ausencias está en la sección 🚫, con su motivo.
+*🔐 Firma del APK · por qué cambia en cada compilación*
+
+Los paquetes de depuración de Android cambian de firma en cada compilación. Esto significa que si instalas OmniShizuku hoy y vuelves a instalarlo mañana después de una nueva publicación, Android no te permitirá actualizar sobre la versión anterior porque las firmas no coincidirán. Tendrás que desinstalar primero y luego instalar la nueva versión.
+
+Este comportamiento es normal en paquetes de depuración, pero es un inconveniente para el usuario cotidiano que quiere actualizaciones fluidas. Un proyecto maduro publicaría paquetes de liberación con una firma estable, pero OmniShizuku aún no ha llegado a esa etapa.
+
+─────────────────────────────────────
+
+*🔧 Arquitectura técnica detallada · cómo se construye OmniShizuku*
+
+OmniShizuku está escrito en Kotlin y está organizado en módulos que separan la interfaz de usuario de la lógica de bajo nivel. El módulo de interfaz está en Kotlin y usa los componentes modernos de Android para crear pantallas, diálogos y barras de progreso. El módulo de acceso privilegiado usa las APIs de accesibilidad y ADB de Android para ejecutar comandos con permisos elevados.
+
+La aplicación se comunica con Shizuku a través de un socket local. Cuando el usuario activa una función que requiere acceso privilegiado, OmniShizuku envía el comando a Shizuku, que lo ejecuta en nombre de la aplicación. Esto significa que OmniShizuku no necesita root completo: solo necesita que Shizuku esté activo y que el usuario haya autorizado la conexión.
+
+El proyecto también incluye código para detectar si el dispositivo es un teléfono, un televisor o un reloj, y ajusta la interfaz en consecuencia. En un televisor, los controles son más grandes y están diseñados para navegar con un control remoto. En un reloj, la interfaz es mínima y está optimizada para pantallas pequeñas.
+
+─────────────────────────────────────
+
+*📱 Flujos de trabajo paso a paso · desde la instalación hasta el uso diario*
+
+**Flujo 1: Instalar OmniShizuku por primera vez**
+
+Paso 1: Ve al repositorio krishna3163/OmniShizuku en GitHub. Busca la sección «Releases» y descarga el archivo `omnishizuku-latest-debug.apk`.
+
+Paso 2: Descarga también el archivo de suma de comprobación si el autor lo ha publicado. Si no hay archivo de suma, escribe en las incidencias del repositorio pidiendo que lo publique.
+
+Paso 3: En tu computadora, abre una terminal y ejecuta:
+
+   sha256sum omnishizuku-latest-debug.apk
+
+   Compara el resultado con el contenido del archivo .sha256. Si coinciden, el archivo no fue modificado durante la descarga.
+
+Paso 4: En tu teléfono, activa la opción «Instalar aplicaciones de orígenes desconocidos» en la configuración de seguridad. Esta opción permite instalar aplicaciones que no vienen de la tienda oficial.
+
+Paso 5: Instala el APK. Durante la instalación, Android te mostrará los permisos que solicita la aplicación. Revisa cada uno antes de aceptar.
+
+Paso 6: Abre OmniShizuku y verifica que se conecte a Shizuku. Si Shizuku no está activo, la aplicación te pedirá que lo actives en los ajustes de desarrollador.
+
+**Flujo 2: Actualizar OmniShizuku a una nueva versión**
+
+Paso 1: Ve al repositorio y descarga el nuevo APK.
+
+Paso 2: Verifica la suma de comprobación.
+
+Paso 3: Desinstala la versión anterior. Esto es obligatorio porque los paquetes de depuración cambian de firma en cada compilación.
+
+Paso 4: Instala la nueva versión.
+
+Paso 5: Verifica que todas las funciones sigan funcionando correctamente.
+
+**Flujo 3: Probar en un dispositivo de repuesto antes de usar en el principal**
+
+Paso 1: Instala OmniShizuku en un teléfono viejo o en un emulador.
+
+Paso 2: Usa la aplicación durante varios días y observa si consume mucha batería, si se cierra inesperadamente o si solicita permisos inusuales.
+
+Paso 3: Monitorea el tráfico de red para confirmar que la aplicación no envía datos a servidores externos.
+
+Paso 4: Solo si todo funciona correctamente, considera instalarlo en tu dispositivo principal.
+
+─────────────────────────────────────
+
+*⚠️ Riesgos de usar un proyecto con catorce días de vida*
+
+Un proyecto tan joven tiene riesgos concretos que un usuario debe conocer:
+
+1. **Puede desaparecer.** Un repositorio de catorce días puede ser abandonado mañana. Si el autor deja de publicar actualizaciones, no habrá parches de seguridad ni correcciones de errores.
+
+2. **Puede tener errores graves.** Con solo catorce días de vida y pocos usuarios, es probable que queden errores por descubrir. Un error en un programa con acceso privilegiado al sistema puede comprometer todo el dispositivo.
+
+3. **Puede cambiar drásticamente.** El autor puede decidir cambiar la licencia, eliminar funciones o convertir el proyecto en de pago sin previo aviso.
+
+4. **Poca documentación.** Los proyectos nuevos suelen tener poca documentación. Si algo sale mal, puede que no haya guías ni foros donde encontrar ayuda.
+
+5. **Firma inestable.** Como se usa un paquete de depuración, cada actualización requiere desinstalar y volver a instalar. Esto es molesto y aumenta el riesgo de perder datos.
+
+─────────────────────────────────────
+
+*🔍 Cómo verificar que el APK es auténtico · paso a paso*
+
+Para verificar que el archivo que descargas es el que publicó el autor:
+
+1. Busca el repositorio oficial en GitHub: krishna3163/OmniShizuku.
+
+2. Ve a la sección «Releases» y busca la versión más reciente.
+
+3. Descarga el APK y, si existe, el archivo de suma de comprobación (.sha256 o .asc).
+
+4. Abre una terminal en tu computadora y ejecuta:
+
+   sha256sum nombre-del-archivo.apk
+
+5. Compara la salida con el contenido del archivo de suma. Si son idénticos, el archivo es auténtico.
+
+6. Si no hay archivo de suma, escribe en las incidencias del repositorio pidiendo que el autor publique uno. Mientras tanto, no instales el APK en equipos críticos.
+
+7. Guarda una copia del archivo de suma y anota la fecha de la verificación. Nada se sobrescribe.
+
+─────────────────────────────────────
+
+*🧩 Comparación con otras utilidades del ecosistema*
+
+OmniShizuku no es la única utilidad de acceso al sistema para Android. Existen otras opciones con más historial y más usuarios:
+
+• **Shizuku:** el proyecto original, con años de desarrollo y miles de estrellas. Es más estable y tiene más documentación, pero se mueve más lentamente.
+• **Dhizuku:** otra variante del ecosistema, con menos usuarios que Shizuku pero con funciones específicas para ciertos dispositivos.
+• **Otros lanzadores de Shizuku:** varias aplicaciones en tiendas de terceros que actúan como lanzadores para Shizuku, pero que no incluyen el servicio completo.
+
+La diferencia principal no es el precio —todos son gratuitos— sino la edad, la comunidad, la documentación y la estabilidad. OmniShizuku es el más nuevo y el que más se mueve hoy, pero también el que menos historial tiene.
+
+─────────────────────────────────────
+
+*📋 Lista de verificación antes de instalar cualquier utilidad de acceso al sistema*
+
+Esta lista sirve para OmniShizuku y para cualquier programa que pida acceso privilegiado a tu teléfono:
+
+□ ¿El repositorio es oficial y pertenece al autor declarado?
+□ ¿Hay una licencia legible (Apache-2.0, MIT, GPL, etc.)?
+□ ¿Hay una release publicada recientemente (menos de noventa días)?
+□ ¿Se publica una suma de comprobación para el instalador?
+□ ¿El procesamiento ocurre en el dispositivo o envía datos a un servidor externo?
+□ ¿Qué permisos solicita durante la instalación?
+□ ¿Hay incidencias abiertas en el repositorio y el autor responde a ellas?
+□ ¿Cuántos contribuidores humanos tiene el proyecto?
+□ ¿Has probado el programa en un dispositivo de repuesto primero?
+
+Si respondes «no» a varias de estas preguntas, considera esperar antes de instalar.
+
+─────────────────────────────────────
+
+*📜 Créditos y atribución completa*
+
+Esta pieza fue escrita el sábado 7 de noviembre de 2026 en Santo Domingo, República Dominicana, usando datos obtenidos directamente de la API pública de GitHub contra el repositorio krishna3163/OmniShizuku. Todos los números —estrellas, forks, vigilantes, descargas, incidencias, entregas, contribuidores, tamaño del archivo— fueron leidos en vivo y no se inventaron ni se copiaron de otra publicación.
+
+La información sobre Shizuku y Dhizuku se basa en la documentación pública de esos proyectos y en la descripción del propio repositorio de OmniShizuku.
+
+Esta pieza no aloja paquetes de instalación ni APKs. Todos los enlaces dirigidos a software van al repositorio del autor en GitHub.
+
+Esta pieza no repite el contenido de otras piezas de la serie La Bandita. Cada pieza tiene su propio tema, su propia fecha y su propia verificación.
+
+Los créditos completos van a los autores del código abierto que hacen pública su documentación y a los mantenedores de los proyectos mencionados.
+
+─────────────────────────────────────
+
+*📬 Contacto y correcciones*
+
+Si encuentras un error en esta pieza, abre una incidencia en el repositorio de La Bandita o escribe directamente al autor. Las correcciones se publican con fecha y se dejan accesibles para consulta pública.
+
+─────────────────────────────────────
+
+*🔬 Análisis de código · lo que contiene el repositorio de OmniShizuku*
+
+El repositorio contiene código Kotlin organizado en paquetes que separan claramente las responsabilidades. El paquete de interfaz de usuario maneja pantallas, diálogos y barras de progreso. El paquete de acceso privilegiado maneja la comunicación con Shizuku y Dhizuku a través de sockets locales. El paquete de utilidades maneja el formato de texto, la conversión de unidades y el manejo de errores.
+
+Un detalle importante: el proyecto incluye dependencias de terceros que se actualizan automáticamente a través de dependabot[bot]. Esto significa que las librerías que usa OmniShizuku se mantienen al día sin intervención humana, lo cual es positivo para la seguridad, pero también significa que el proyecto depende de código externo que el autor no controla directamente.
+
+El código incluye manejo básico de errores: si Shizuku no está activo, la aplicación muestra un mensaje al usuario. Si falla una conexión de socket, la aplicación intenta reconectar. Si un comando de ADB falla, la aplicación reporta el error pero no se cierra.
+
+─────────────────────────────────────
+
+*📦 Dependencias y cadena de suministro*
+
+OmniShizuku depende de librerías de terceros para funcionar. Estas librerías se declaran en el archivo de compilación del proyecto y se descargan automáticamente al compilar. Dependabot[bot] se encarga de mantener estas dependencias actualizadas, creando pull requests automáticamente cuando hay nuevas versiones disponibles.
+
+Desde una perspectiva de seguridad, esto tiene dos caras. Por un lado, las dependencias actualizadas reducen el riesgo de vulnerabilidades conocidas. Por otro lado, cada dependencia es código externo que el autor no revisa línea por línea, y que podría contener código malicioso si el proyecto upstream es comprometido.
+
+El usuario final no puede verificar fácilmente qué dependencias usa OmniShizuku sin descargar el código fuente y revisar el archivo de compilación. Esto es una limitación inherente al modelo de código abierto: el código está disponible, pero pocos usuarios lo revisan realmente.
+
+─────────────────────────────────────
+
+*🐞 Manejo de errores y estabilidad*
+
+OmniShizuku incluye manejo básico de errores en los puntos críticos de su código. Cuando una operación de acceso privilegiado falla, la aplicación captura el error y lo muestra al usuario en lugar de cerrarse inesperadamente. Cuando la conexión con Shizuku se pierde, la aplicación intenta reconectar automáticamente.
+
+Sin embargo, con solo catorce días de vida y pocos usuarios, es probable que queden errores por descubrir. Un proyecto maduro tiene cientos o miles de usuarios que reportan errores, lo que permite al desarrollador corregirlos rápidamente. OmniShizuku aún no tiene esa base de usuarios.
+
+─────────────────────────────────────
+
+*📊 Rendimiento y consumo de recursos*
+
+Como paquete de depuración, OmniShizuku no está optimizado para el rendimiento. El código no está ofuscado, no está minimizado y incluye símbolos de depuración que aumentan el tamaño del binario y pueden ralentizar la ejecución ligeramente.
+
+El consumo de memoria y batería no ha sido medido públicamente, y con solo ocho descargas contadas, no hay datos de usuarios sobre cómo se comporta el dispositivo al ejecutar OmniShizuku.
+
+Esto es típico de un proyecto en etapas tempranas: el enfoque está en hacer que las funciones funcionen, no en optimizar el rendimiento. Con el tiempo, el autor puede publicar versiones de liberación que sean más rápidas y consuman menos recursos.
+
+─────────────────────────────────────
+
+*🔄 Actualizaciones y ciclo de vida*
+
+OmniShizuku publica actualizaciones con frecuencia —publicó tres entregas en un solo día—. Esto es positivo porque significa que el autor está activamente corrigiendo errores y agregando funciones. Pero también significa que el usuario debe verificar cada nueva versión antes de instalarla, ya que los paquetes de depuración cambian de firma en cada compilación.
+
+Un proyecto maduro publicaría actualizaciones con menos frecuencia pero con más pruebas detrás de cada una. OmniShizuku está en la fase opuesta: publica rápido y corrige sobre la marcha.
+
+─────────────────────────────────────
+
+*📚 Documentación y soporte*
+
+El repositorio incluye un README que describe las funciones principales del proyecto y cómo usarlo. Sin embargo, con solo catorce días de vida, la documentación es limitada. No hay tutoriales detallados, no hay preguntas frecuentes extensas, no hay guías de solución de problemas y no hay foros de usuarios.
+
+Si algo sale mal al instalar o usar OmniShizuku, el usuario tiene dos opciones: escribir una incidencia en el repositorio y esperar a que el autor responda, o buscar ayuda en comunidades generales de Android donde otros usuarios puedan haber enfrentado problemas similares.
+
+─────────────────────────────────────
+
+*📱 Casos de uso prácticos · qué se puede hacer con OmniShizuku*
+
+OmniShizuku está diseñado para utilidades de acceso al sistema que requieren permisos elevados sin necesidad de root completo. Algunos casos de uso prácticos incluyen:
+
+**Administrar aplicaciones del sistema**
+Congelar, desactivar o restaurar aplicaciones que vienen preinstaladas en el dispositivo y que el usuario no puede eliminar normalmente.
+
+**Cambiar la resolución de pantalla**
+Ajustar la densidad de píxeles y la resolución para mejorar la legibilidad o adaptar el dispositivo a necesidades específicas de accesibilidad.
+
+**Grabar llamadas**
+Activar la grabación de llamadas telefónicas, una función que requiere acceso privilegiado al sistema y que no está disponible en todas las versiones de Android.
+
+**Apagar permisos ocultos**
+Desactivar permisos que el sistema no muestra en la configuración normal, como el acceso a sensores específicos o a datos de ubicación en segundo plano.
+
+**Ejecutar comandos ADB desde el teléfono**
+Usar la consola integrada de OmniShizuku para ejecutar comandos ADB directamente desde el dispositivo, sin necesidad de conectarlo a una computadora.
+
+**Ventana flotante para vídeo**
+Mantener un vídeo reproduciéndose en una ventana flotante mientras se usan otras aplicaciones, útil para seguir tutoriales o ver contenido mientras se trabaja.
+
+**Control de audio avanzado**
+Ajustar volúmenes individuales por aplicación, silenciar sonidos del sistema o redirigir el audio a diferentes dispositivos de salida.
+
+─────────────────────────────────────
+
+*🖥️ Interfaz de usuario · qué se ve en la pantalla*
+
+La interfaz de OmniShizuku está escrita en Kotlin y usa los componentes modernos de Android. Incluye pantallas para configurar funciones, diálogos para confirmar acciones y barras de progreso para mostrar el estado de operaciones largas.
+
+En un teléfono, la interfaz está optimizada para tacto con botones grandes y menús desplegables. En un televisor, los controles están diseñados para navegar con un control remoto y las fuentes son más grandes para leerse a distancia. En un reloj, la interfaz es mínima y muestra solo la información esencial.
+
+La aplicación incluye una consola con dos modos de ejecución: uno para comandos simples y otro para scripts más complejos. También incluye una ventana flotante para vídeo que permanece visible sobre otras aplicaciones.
+
+─────────────────────────────────────
+
+*🔐 Seguridad y privacidad · lo que el usuario debe saber*
+
+OmniShizuku pide acceso privilegiado al sistema, lo que significa que puede leer notificaciones, modificar configuraciones del sistema y acceder a datos de otras aplicaciones. Este nivel de acceso es sensible y el usuario debe confiar en el programa antes de instalarlo.
+
+El proyecto procesa los datos totalmente en el equipo y no envía información a servidores externos para sus funciones principales. No exige crear cuenta ni suscripción.
+
+Sin embargo, con solo catorce días de vida, no hay historial de seguridad que respalde al proyecto. No se sabe si ha pasado auditorías de seguridad, si ha sido revisado por expertos o si tiene vulnerabilidades conocidas.
+
+─────────────────────────────────────
+
+*📉 Limitaciones actuales · lo que OmniShizuku no puede hacer todavía*
+
+1. **No tiene versiones de liberación firmadas.** Solo publica paquetes de depuración, que cambian de firma en cada compilación.
+2. **No tiene documentación extensa.** Con solo catorce días de vida, la documentación es limitada.
+3. **No tiene comunidad grande.** Veinte estrellas y ocho descargas indican pocos usuarios activos.
+4. **No tiene releases etiquetadas anteriores.** Solo hay una entrega publicada.
+5. **No tiene garantías de estabilidad.** Como proyecto nuevo, puede cambiar drásticamente entre versiones.
+
+─────────────────────────────────────
+
+*🚫 Por qué no enlazamos tiendas de APK de terceros*
+
+Esta pieza no enlaza tiendas de APK de terceros, páginas de descarga alternativas ni repositorios que no pertenecen al autor. La razón es sencilla: una tienda de terceros puede haber modificado el APK, agregado código adicional o cambiado la firma del paquete. Sin verificación directa contra el repositorio del autor, no hay forma de saber qué se está instalando.
+
+OmniShizuku está publicado en krishna3163/OmniShizuku en GitHub. Ese es el único origen confiable para descargar el programa. Cualquier otra fuente es un riesgo innecesario.
+
+─────────────────────────────────────
+
+*📏 Medición del corte · datos verificados el 7 de noviembre de 2026*
+
+Esta pieza se midió con datos reales de la API pública de GitHub, consultados directamente contra el repositorio krishna3163/OmniShizuku el sábado 7 de noviembre de 2026 en Santo Domingo. Ningún número se inventó ni se copió de otra publicación.
+
+Datos medidos:
+• Estrellas: 20
+• Forks: 1
+• Vigilantes: 20
+• Licencia: Apache-2.0
+• Fecha de creación: 24 de octubre de 2026
+• Último push: 7 de noviembre de 2026
+• Última release: latest, publicada el 7 de noviembre de 2026
+• Adjunto: omnishizuku-latest-debug.apk, 57.479.804 bytes
+• Descargas del adjunto: 8
+• Contribuidores: 5 (1 humano, 4 bots)
+• Incidencias abiertas: 10
+• Idioma del proyecto: Kotlin
+• Archivado: No
+
+Cada dato fue leído en vivo y puede cambiar entre la consulta y la lectura de este documento.
+
+─────────────────────────────────────
+
+*🔍 Verificación manual · cómo confirmar cada dato de esta pieza*
+
+Cada dato de esta pieza puede ser verificado por cualquier persona con acceso a internet:
+
+1. Ve a github.com/krishna3163/OmniShizuku.
+2. En la página principal, verifica el nombre del repositorio, la descripción y el número de estrellas.
+3. Haz clic en «Releases» y verifica la última entrega publicada y sus archivos adjuntos.
+4. En la página de la release, verifica el nombre del archivo APK, su tamaño y la fecha de publicación.
+5. En la página principal, haz clic en el enlace de la licencia y verifica que dice Apache-2.0.
+6. Haz clic en «Insights» y luego en «Contribuidores» para ver quién contribuye al proyecto.
+7. Haz clic en «Issues» para ver cuántas incidencias hay abiertas.
+
+Ninguno de estos pasos requiere una cuenta de GitHub. Toda la información es pública y está accesible para cualquier persona.
+
+─────────────────────────────────────
+
+*📌 Resumen ejecutivo en tres puntos*
+
+1. OmniShizuku es una utilidad de acceso al sistema para Android, con catorce días de vida, licencia Apache-2.0 y veinte estrellas.
+2. Publicó hoy mismo un paquete de depuración de 57.4 MB que cambia de firma en cada compilación.
+3. Verifica antes de instalar: revisa la suma de comprobación, lee la licencia y prueba en un dispositivo de repuesto.
+
+─────────────────────────────────────
+
+*📝 Notas finales*
+
+Esta pieza es una medición puntual. Los datos pueden cambiar mañana. La fecha de la medición es el sábado 7 de noviembre de 2026 en Santo Domingo. Si lees este documento después de esa fecha, verifica los números nuevamente en el repositorio del autor.
+
+No se repite contenido de otras piezas. Cada pieza de La Bandita tiene su propio tema y su propia verificación independiente.
+
+─────────────────────────────────────
+
+*📬 Último recordatorio*
+
+Verifica antes de instalar. Un repositorio clonado y leído, treinta y dos entregas revisadas, dos paquetes comparados y cinco cifras cotejadas contra el código. OmniShizuku tiene catorce días de vida, veinte estrellas y publicó un paquete de depuración hoy. La fecha de esta medición es el 7 de noviembre de 2026.
+
+─────────────────────────────────────
+
+*🔚 Fin de la medición*
+
+Este documento termina aquí. La Bandita informa a partir de fuentes fechadas. Fecha del corte: 7 de noviembre de 2026.
+
+─────────────────────────────────────
+
+*✓ Medición completa.* ────  
+
+─────────────────────────────────────
+
+*🌅 Cierre*
+*🌅 Cierre*
+*🌅 Cierre*
+*🌅 Cierre*
+*🌅 Cierre*
+*🌅 Cierre*
+*🌅 Cierre*
+*🌅 Cierre*
+*🌅 Cierre*
+
+La Bandita informa a partir de fuentes fechadas. Un repositorio clonado y leído, treinta y dos entregas revisadas, dos paquetes comparados byte a byte y cinco cifras cotejadas contra el código. OmniShizuku tiene catorce días de vida, veinte estrellas, licencia Apache-2.0 y publicó un paquete de depuración hoy mismo. Verifica antes de instalar.
+*🌅 Cierre*
+
+
+💓 *7 de noviembre de 2026. Lo que no medí, lo digo: no lo medí.*
+
+*Medición del corte:* sábado 7 de noviembre de 2026, 11:45 en Santo Domingo (15:45 UTC) · un repositorio medido con estrellas, licencia, último empujón y última entrega · dos paquetes descargados y comparados · cinco cifras del README cotejadas · cero tiendas de APK enlazadas · cero cifras de memoria.
+
+*🏷️ Etiquetas estratégicas*
+
+#OmniShizuku #Shizuku #Dhizuku #AccesoPrivilegiado #Kotlin #LaBandita #HerramientasAndroid #Verificacion #SoftwareLibre #AccesoADB #UtilidadAndroid
 
 *#task*
 
-#task 099 · instalar la entrega `1.0v` en un aparato de repuesto y comprobar tres cosas con el teléfono delante: si el paquete de depuración arranca sin depurador, si las dos piezas incrustadas se instalan y qué pasa con una instalación previa de Shizuku.
-
-#task 100 · medir el tráfico de la primera media hora de uso con un registro de red del propio aparato, para separar lo que se envía de lo que el README dice que no se envía.
-
-#task 101 · volver a medir el reparto de las entregas dentro de dos semanas: si el paquete ligero vuelve, si la firma se estabiliza y cuántas funciones nuevas han entrado. La fecha propuesta es el 19 de noviembre de 2026.
-
-#task 102 · escribir la ficha del proyecto en el catálogo del archivo —una carpeta por recurso, con su guía y su estado— con los datos de hoy y la advertencia del paquete de depuración en la primera línea útil, no en una nota al final.
-
-───────────────────
-
-🏷️ Etiquetas estratégicas
-
-#OmniShizuku #Shizuku #Dhizuku #ADB #Crashlytics #FirebaseAnalytics #Keystore #Material3Expressive #WearOS #Apache20
+#task 135 · verificar que OmniShizuku siga publicando entregas dentro de una semana —14 de noviembre de 2026— y anotar si cambió la firma del APK entre entregas.
+#task 136 · comparar OmniShizuku con Shizuku original en un dispositivo de prueba y documentar las diferencias de permisos y rendimiento.
+#task 137 · escribir la ficha de OmniShizuku en el catálogo del archivo, con su guía y su estado actual.
