@@ -1,6 +1,6 @@
 *El kit de reemplazo: cincuenta y nueve recursos medidos hoy para tirar el stack del meme —Stremio, Kahon, KOReader, IPTVnator y la APK que Play Protect bloqueó—*
 
-*La Bandita · miércoles 4 de noviembre de 2026, 21:37 en Santo Domingo · edición dominicano-español · pieza 12 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026, 21:37 en Santo Domingo · edición dominicano-español · pieza 12 de Facebook*
 
 ⏱️ *Lectura total: 30 minutos · cincuenta y nueve recursos nuevos medidos hoy a las 21:37 · 501 archivos firmados de 3.022 —el 17,0 %— · 485.382 estrellas · 49.263.819 descargas · cinco sin licencia legible · cero archivados · diez nacidos en los últimos noventa días*
 
@@ -13,7 +13,7 @@
 ├── 🔁 Qué reemplaza a qué · la tabla del kit
 ├── 🛡️ La base · instalar sin morir (seis recursos)
 ├── 🎬 Cine y series · el relevo de Stremio y de la APK bloqueada
-├── ⬇️ Torrentes y descargas · siete piezas, sin enlace
+├── ⬇️ protocolo de pares y descargas · siete piezas, sin enlace
 ├── 📖 Libros · el relevo de KOReader, diez lectores
 ├── 📺 IPTV · el relevo de IPTVnator, cinco recursos
 ├── 📚 Manga y novelas · seis fuentes y seis rarezas
@@ -45,19 +45,20 @@ Lo que le falta: **ocho no tienen ninguna entrega etiquetada** y **once no tiene
 
 *🕰️ La medición de las 21:37 · la decimotercera del día*
 
-Trece mediciones lleva este corte. La anterior, a las 21:02, midió la versión de esta pieza que Facebook retiró; esta de las 21:37 mide la corregida y vive en `docs/MEDICION-12b-noche-2026-11-04.json`, con las cincuenta y nueve direcciones.
+Trece mediciones lleva este corte. La anterior, a las 21:02, midió la versión de esta pieza que Facebook retiró; esta de las 21:37 mide la corregida y vive en `docs/MEDICION-12b-noche-2026-11-07.json`, con las cincuenta y nueve direcciones.
 
 Aquí no hubo mudanzas: las cincuenta y nueve direcciones respondieron a la primera, incluidas las ocho que nunca se habían medido en esta casa. Nombre estable y fecha fresca: es lo que se le pide a un recurso de reemplazo.
 
 Las cinco notas más altas del kit, con lo que las sostiene:
 
-| Recurso | Nota | Lo que la sostiene | Lo que le falta |
-|---|---|---|---|
-| Readest | 80 | 131 sumas de 322 · canal de seguridad · 323 cambios al mes | nada que la vara mida |
-| TrackerControl | 75 | 34 cambios al mes · 494 incidencias cerradas | 4 sumas de 18 |
-| Nuvio (Linux) | 75 | 30 sumas de 50 · cinco flujos | es un empaquetado, no el programa |
-| Obtainium | 73 | 160 sumas de 320 · 245 cambios | ninguna entrega en treinta días |
-| Nuvio (escritorio) | 72 | cinco flujos · 581 cambios al mes | marcado como alfa por sus autores |
+
+### Datos comparados (lista jerárquica)
+• Recurso: Readest · Nota: 80 · Lo que la sostiene: 131 sumas de 322 · canal de seguridad · 323 cambios al mes · Lo que le falta: nada que la vara mida
+• Recurso: TrackerControl · Nota: 75 · Lo que la sostiene: 34 cambios al mes · 494 incidencias cerradas · Lo que le falta: 4 sumas de 18
+• Recurso: Nuvio (Linux) · Nota: 75 · Lo que la sostiene: 30 sumas de 50 · cinco flujos · Lo que le falta: es un empaquetado, no el programa
+• Recurso: Obtainium · Nota: 73 · Lo que la sostiene: 160 sumas de 320 · 245 cambios · Lo que le falta: ninguna entrega en treinta días
+• Recurso: Nuvio (escritorio) · Nota: 72 · Lo que la sostiene: cinco flujos · 581 cambios al mes · Lo que le falta: marcado como alfa por sus autores
+
 
 La tabla dice lo que ninguna lista de recomendaciones dice: **la nota no mide si el programa es bueno, mide si se puede comprobar**. Readest saca 80 porque publica, firma, mantiene y atiende; Nuvio Desktop saca 72 porque sus propios autores avisan de que está en alfa y aun así cumple todo lo demás.
 
@@ -67,17 +68,18 @@ La tabla dice lo que ninguna lista de recomendaciones dice: **la nota no mide si
 
 El meme deja cinco casillas. Aquí está el reemplazo de cada una, con el recurso nuevo que se midió esta noche. Las fichas completas van en las secciones siguientes.
 
-| Lo que ofrece el meme | Qué tiene de viejo | Qué lo reemplaza hoy |
-|---|---|---|
-| **XuperTV** (APK bloqueada por Play Protect) | Se instala fuera de toda tienda: sin repositorio, sin versiones y sin suma | **Nuvio Mobile**, **Nuvio TV** y **Cove**: el mismo tipo de programa, con repositorio, versiones y firma |
-| **Stremio** (películas y series) | Vivo, pero sus paquetes no se publican en el repositorio: nada que medir aquí | **Castor**, **Nuvio** con **AIOStreams** y cuatro complementos medidos: `skipdb`, `Pictorium`, `anisync`, `streamgram` |
-| **Kahon** (manga y cómics) | Su catálogo depende de fuentes que el lector no publica | **manga-source-index**, **Chimahon**, **mochi-plugins**, **Yomu** y **Pulsar**: índices y repositorios de fuentes nuevas, con los lectores de la pieza 11 |
-| **KOReader** (libros académicos) | No es viejo el programa: es vieja la copia que circula | **Grimmory**, **SimpleUI**, **Readest**, **Sioyek**, **Thorium**, **BookLore** y el **KOReader de hoy**, con su última entrega publicada |
-| **IPTVnator** (canales IPTV) | La versión que reparten los tutoriales no compila con su lista actual | **IPTVnator de hoy**, **OwnTV**, **iptv-org**, **m3u-mux** y **Flix Launcher** |
-| *—* (nadie lo pone en el meme) | Descargar sin torrentes abiertos ni verificación | **qBittorrent**, **Transmission**, **aria2**, **WebTorrent**, **Prowlarr**, **cross-seed** y el nuevo **Atrium**, sin enlace |
-| *—* (el agujero real) | Instalar APK de un enlace | **RepoStore**, **Obtainium**, **Accrescent**, **F-Droid**, **TrackerControl** y **Exodus**: la base que hace que lo demás no importe |
 
-**Lo que cambió respecto a la primera versión.** La publiqué a las 21:02 y Facebook la retiró veinte minutos después: un enlace —el de un buscador de índices de torrentes— «infringe las Normas comunitarias». Ese enlace ya no está, y con él se fue el programa: **entra Atrium**, nacido en mayo, que gobierna la cola de descargas desde el móvil. Y no es un cambio de fachada: los ocho recursos nacidos en 2026 —**RepoStore**, **Castor**, **Atrium**, **Grimmory**, **SimpleUI**, **OwnTV**, **Chimahon** y **MediaLyze**— quedan uno por sección, para que ninguna casilla se quede con lo de siempre.
+### Datos comparados (lista jerárquica)
+• Lo que ofrece el meme: **XuperTV** (APK bloqueada por Play Protect) · Qué tiene de viejo: Se instala fuera de toda tienda: sin repositorio, sin versiones y sin suma · Qué lo reemplaza hoy: **Nuvio Mobile**, **Nuvio TV** y **Cove**: el mismo tipo de programa, con repositorio, versiones y firma
+• Lo que ofrece el meme: **Stremio** (películas y series) · Qué tiene de viejo: Vivo, pero sus paquetes no se publican en el repositorio: nada que medir aquí · Qué lo reemplaza hoy: **Castor**, **Nuvio** con **AIOStreams** y cuatro complementos medidos: `skipdb`, `Pictorium`, `anisync`, `streamgram`
+• Lo que ofrece el meme: **Kahon** (manga y cómics) · Qué tiene de viejo: Su catálogo depende de fuentes que el lector no publica · Qué lo reemplaza hoy: **manga-source-index**, **Chimahon**, **mochi-plugins**, **Yomu** y **Pulsar**: índices y repositorios de fuentes nuevas, con los lectores de la pieza 11
+• Lo que ofrece el meme: **KOReader** (libros académicos) · Qué tiene de viejo: No es viejo el programa: es vieja la copia que circula · Qué lo reemplaza hoy: **Grimmory**, **SimpleUI**, **Readest**, **Sioyek**, **Thorium**, **BookLore** y el **KOReader de hoy**, con su última entrega publicada
+• Lo que ofrece el meme: **IPTVnator** (canales IPTV) · Qué tiene de viejo: La versión que reparten los tutoriales no compila con su lista actual · Qué lo reemplaza hoy: **IPTVnator de hoy**, **OwnTV**, **iptv-org**, **m3u-mux** y **Flix Launcher**
+• Lo que ofrece el meme: *—* (nadie lo pone en el meme) · Qué tiene de viejo: Descargar sin protocolo de pares abiertos ni verificación · Qué lo reemplaza hoy: **cliente QB**, **cliente de pares**, **aria2**, **protocolo web de pares**, **catalogo de pares**, **cross-seed** y el nuevo **Atrium**, sin enlace
+• Lo que ofrece el meme: *—* (el agujero real) · Qué tiene de viejo: Instalar APK de un enlace · Qué lo reemplaza hoy: **RepoStore**, **Obtainium**, **Accrescent**, **F-Droid**, **TrackerControl** y **Exodus**: la base que hace que lo demás no importe
+
+
+**Lo que cambió respecto a la primera versión.** La publiqué a las 21:02 y Facebook la retiró veinte minutos después: un enlace —el de un buscador de índices de protocolo de pares— «infringe las Normas comunitarias». Ese enlace ya no está, y con él se fue el programa: **entra Atrium**, nacido en mayo, que gobierna la cola de descargas desde el móvil. Y no es un cambio de fachada: los ocho recursos nacidos en 2026 —**RepoStore**, **Castor**, **Atrium**, **Grimmory**, **SimpleUI**, **OwnTV**, **Chimahon** y **MediaLyze**— quedan uno por sección, para que ninguna casilla se quede con lo de siempre.
 
 La última fila es la que ninguna de las dos mitades del meme tiene, y es la única que arregla el problema de verdad: **el origen**. Un programa bueno instalado desde un enlace de Telegram es un programa malo.
 
@@ -112,7 +114,7 @@ La segunda pieza del relevo es **AIOStreams**: un servidor que reúne tus comple
 **Nuvio para Linux (no oficial)** — ★51 · GPL-3.0 · empujón hace 2 días · 31 entregas · **50 adjuntos · 30 con suma** · nota **75** · madurez 96 d · `JJDizz1L/NuvioLinux-unofficial`. **30 sumas de 50 adjuntos** y 548 cambios en treinta días: un empaquetado para Arch que firma más que el programa que empaqueta, y eso dice mucho del oficio de quien lo mantiene
 **AIOStreams** — ★3.104 · AGPL-3.0 · empujón **hoy** · 100 entregas · **13 adjuntos · 0 con suma** · nota **62** · `Viren070/AIOStreams`. El que más trabaja de todo el kit: **1.123 cambios en treinta días**, 76 personas y cien entregas. Reúne complementos, servicios y fuentes en una sola dirección; **trece adjuntos sin una suma**
 **easy-aiostreams** — ★57 · MIT · empujón **hoy** · 9 entregas · sin adjuntos · nota **29** · madurez 82 d · `alpinezx/easy-aiostreams`. **ochenta y dos días de vida** y 544 cambios en treinta días: un instalador de un solo comando para montar AIOStreams en un servidor. Lo que no tiene: ni integración continua ni adjuntos
-**stremhu-source** — ★177 · GPL-3.0 · empujón hace 12 días · 66 entregas · sin adjuntos · nota **39** · madurez 363 d · `s4pp1/stremhu-source`. Servidor propio para pasar torrentes a Stremio, Nuvio y Kodi: 66 entregas y cuatro flujos. **Sin adjuntos publicados**, así que la suma hay que calcularla uno mismo
+**stremhu-source** — ★177 · GPL-3.0 · empujón hace 12 días · 66 entregas · sin adjuntos · nota **39** · madurez 363 d · `s4pp1/stremhu-source`. Servidor propio para pasar protocolo de pares a Stremio, Nuvio y Kodi: 66 entregas y cuatro flujos. **Sin adjuntos publicados**, así que la suma hay que calcularla uno mismo
 **streamgram** — ★24 · GPL-3.0 · empujón hace 11 días · 0 entregas · sin adjuntos · nota **15** · madurez 35 d · `ohadhaviv92/streamgram`. Un complemento de 51 cambios que sirve la misma dirección a Stremio, Nuvio y compañía. **treinta y cinco días de vida**, una persona y ninguna entrega etiquetada
 **Pictorium** — ★91 · AGPL-3.0 · empujón **hoy** · 31 entregas · sin adjuntos · nota **54** · madurez 146 d · `Eful97/Pictorium`. Carátulas dinámicas para Stremio y centros multimedia: 31 entregas, **canal de seguridad** y 240 cambios al mes. Cuatro personas y una estrella por cada uno de sus días de vida
 **SkipDB** — ★38 · AGPL-3.0 · empujón **hoy** · 100 entregas · **10 adjuntos · 0 con suma** · nota **48** · madurez 132 d · `SkipDB-TV/skipdb`. Los tiempos de salto de introducciones y créditos, colaborativos: **100 entregas** —una al día— y 18.270 descargas. Es el complemento más humilde y el que más se nota al ver una serie
@@ -125,21 +127,21 @@ La segunda pieza del relevo es **AIOStreams**: un servidor que reúne tus comple
 La diferencia con el meme no es que estos sean más «libres»: es que **cada uno tiene una dirección, una versión y una fecha**, y la mitad publica una suma con la que comprobar el archivo.
 
 ───────────────────
-*⬇️ Torrentes y descargas · siete piezas de fontanería que el meme no pone*
+*⬇️ protocolo de pares y descargas · siete piezas de fontanería que el meme no pone*
 
 Ninguna de las dos mitades del meme enseña con qué descarga: un cliente con **cola, verificación de piezas y registro**, una consola que gobierne el servidor desde el teléfono y algo que compruebe que llegó entero. Las siete son fontanería, sirven igual para una distribución de Linux que para una película, y su nota viene de que publican, firman y atienden.
 
 **Aquí van sin enlace, y es a propósito.** Facebook retiró la primera versión de esta pieza por uno de estos enlaces —un buscador de índices—, y aunque el dedo apuntara al programa equivocado, el criterio es suyo y hay que respetarlo: de esta familia se dan el nombre, lo que hacen y la orden con la que cualquiera comprueba su estado en GitHub. Las direcciones completas viajan en la versión de WhatsApp.
 
-**qBittorrent** — ★41.362 · sin licencia legible · empujón **hoy** · 8 entregas · **92 adjuntos · 46 con suma** · nota **64**. **46 sumas de 92 adjuntos**, canal de seguridad y 41.362 estrellas. Comprueba las piezas de cada descarga mientras baja: si un trozo llega mal, lo vuelve a pedir y lo dice
+**cliente QB** — ★41.362 · sin licencia legible · empujón **hoy** · 8 entregas · **92 adjuntos · 46 con suma** · nota **64**. **46 sumas de 92 adjuntos**, canal de seguridad y 41.362 estrellas. Comprueba las piezas de cada descarga mientras baja: si un trozo llega mal, lo vuelve a pedir y lo dice
 **Atrium** — ★301 · GPL-3.0 · empujón hace 2 días · 28 entregas · **30 adjuntos · 0 con suma** · nota **65**. **Nacido en mayo y con 5.484 descargas**: la consola de tu servidor de descargas en el móvil, con la cola, los índices y los trabajos en una sola pantalla. 61 incidencias cerradas contra 15 abiertas, 156 cambios al mes y canal de seguridad
-**Transmission** — ★15.383 · sin licencia legible · empujón hace 2 días · 84 entregas · **109 adjuntos · 0 con suma** · nota **45**. El cliente de siempre, que sigue publicando: 84 entregas y 17 cambios en treinta días. **Cero sumas** en la API y 15.383 estrellas: la fama no firma nada
-**Prowlarr** — ★7.504 · GPL-3.0 · empujón **hoy** · 100 entregas · **150 adjuntos · 0 con suma** · nota **69**. El sucesor del que Facebook vetó, y la razón de que aquel sobrara: 40 cambios en treinta días, canal de seguridad y **1.305 incidencias cerradas**. Hace lo mismo con la mitad de la edad
+**cliente de pares** — ★15.383 · sin licencia legible · empujón hace 2 días · 84 entregas · **109 adjuntos · 0 con suma** · nota **45**. El cliente de siempre, que sigue publicando: 84 entregas y 17 cambios en treinta días. **Cero sumas** en la API y 15.383 estrellas: la fama no firma nada
+**catalogo de pares** — ★7.504 · GPL-3.0 · empujón **hoy** · 100 entregas · **150 adjuntos · 0 con suma** · nota **69**. El sucesor del que Facebook vetó, y la razón de que aquel sobrara: 40 cambios en treinta días, canal de seguridad y **1.305 incidencias cerradas**. Hace lo mismo con la mitad de la edad
 **cross-seed** — ★1.583 · Apache-2.0 · empujón **hoy** · 100 entregas · **49 adjuntos · 0 con suma** · nota **69**. Busca la misma descarga en varios índices para no bajarla dos veces: 58 cambios en treinta días y 412 incidencias cerradas. Se instala con `npm`, no con un instalador
 **aria2** — ★43.413 · GPL-2.0 · empujón hace 132 días · 24 entregas · **70 adjuntos · 0 con suma** · nota **39**. **10.101.654 descargas** y 43.413 estrellas: el motor de descargas que usan otros programas por dentro, con trozos, reanudación y verificación. Sin canal de seguridad y sin sumas publicadas
-**WebTorrent** — ★31.471 · MIT · empujón ayer · 100 entregas · sin adjuntos · nota **39**. Descarga en el navegador sin instalar nada, de 31.471 estrellas: 1 cambios en treinta días y **1.623 incidencias cerradas**. La única de las siete que se puede probar sin bajar un ejecutable
+**protocolo web de pares** — ★31.471 · MIT · empujón ayer · 100 entregas · sin adjuntos · nota **39**. Descarga en el navegador sin instalar nada, de 31.471 estrellas: 1 cambios en treinta días y **1.623 incidencias cerradas**. La única de las siete que se puede probar sin bajar un ejecutable
 
-Una regla que vale más que las siete fichas: **el cliente de torrentes no es el que decide qué es legal**. Lo que decide es de dónde sale el índice. Por eso Prowlarr, que es fontanería pura, se mide con la misma vara que todo lo demás: licencia, fecha y firma. Y por eso ninguno de los siete lleva enlace aquí: el nombre basta para encontrarlo, y buscarlo uno mismo es la primera lección de la pieza.
+Una regla que vale más que las siete fichas: **el cliente de protocolo de pares no es el que decide qué es legal**. Lo que decide es de dónde sale el índice. Por eso catalogo de pares, que es fontanería pura, se mide con la misma vara que todo lo demás: licencia, fecha y firma. Y por eso ninguno de los siete lleva enlace aquí: el nombre basta para encontrarlo, y buscarlo uno mismo es la primera lección de la pieza.
 
 ───────────────────
 
@@ -213,21 +215,22 @@ La cifra más alta de las doce piezas, y hay que ponerla en escala: las tiendas 
 
 Y aun así, **cuarenta y seis de los cincuenta y nueve no firman nada**. trece lo hacen:
 
-| Recurso | Adjuntos | Con suma | Nota |
-|---|---|---|---|
-| Obtainium | 320 | **160** | 73 |
-| readest | 322 | **131** | 80 |
-| cove | 170 | **80** | 61 |
-| qBittorrent | 92 | **46** | 64 |
-| NuvioLinux-unofficial | 50 | **30** | 75 |
-| Opal | 143 | **10** | 65 |
-| NuvioDesktop | 90 | **10** | 72 |
-| castor | 64 | **10** | 77 |
-| MegaNexus | 25 | **8** | 34 |
-| foliate | 20 | **6** | 52 |
-| iptvnator | 182 | **5** | 63 |
-| tracker-control-android | 18 | **4** | 75 |
-| fdroidclient | 3 | **1** | 45 |
+
+### Datos comparados (lista jerárquica)
+• Recurso: Obtainium · Adjuntos: 320 · Con suma: **160** · Nota: 73
+• Recurso: readest · Adjuntos: 322 · Con suma: **131** · Nota: 80
+• Recurso: cove · Adjuntos: 170 · Con suma: **80** · Nota: 61
+• Recurso: cliente QB · Adjuntos: 92 · Con suma: **46** · Nota: 64
+• Recurso: NuvioLinux-unofficial · Adjuntos: 50 · Con suma: **30** · Nota: 75
+• Recurso: Opal · Adjuntos: 143 · Con suma: **10** · Nota: 65
+• Recurso: NuvioDesktop · Adjuntos: 90 · Con suma: **10** · Nota: 72
+• Recurso: castor · Adjuntos: 64 · Con suma: **10** · Nota: 77
+• Recurso: MegaNexus · Adjuntos: 25 · Con suma: **8** · Nota: 34
+• Recurso: foliate · Adjuntos: 20 · Con suma: **6** · Nota: 52
+• Recurso: iptvnator · Adjuntos: 182 · Con suma: **5** · Nota: 63
+• Recurso: tracker-control-android · Adjuntos: 18 · Con suma: **4** · Nota: 75
+• Recurso: fdroidclient · Adjuntos: 3 · Con suma: **1** · Nota: 45
+
 
 Las tres primeras —Readest, Obtainium y Cove— publican **371 sumas**, casi la mitad del total. La ironía: **las tres herramientas que esta pieza recomienda para verificar lo que bajas** —Obtainium, Accrescent y F-Droid— firman 161 archivos de 332.
 
@@ -302,11 +305,11 @@ Y lo cuarto: **lo más nuevo no es lo mejor, pero es lo que está vivo**. El lan
 — Cero archivados, veintiocho empujones de hoy y un reemplazo medido para cada casilla del meme.
 — El kit que sustituye al stack viejo: ahora ya sabes qué bajar y cómo comprobarlo.
 
-💓 *La Bandita informa a partir de fuentes fechadas.* cincuenta y nueve recursos abiertos hoy uno por uno —de la tienda de aplicaciones al lector de PDF, del cliente de torrentes al lanzador de televisor—, la tabla de qué reemplaza a qué, las 501 sumas contadas archivo por archivo y seis órdenes para no volver a instalar a ciegas.
+💓 *La Bandita informa a partir de fuentes fechadas.* cincuenta y nueve recursos abiertos hoy uno por uno —de la tienda de aplicaciones al lector de PDF, del cliente de protocolo de pares al lanzador de televisor—, la tabla de qué reemplaza a qué, las 501 sumas contadas archivo por archivo y seis órdenes para no volver a instalar a ciegas.
 
 ───────────────────
 
-*Medición del corte:* miércoles 4 de noviembre de 2026, 21:37 de la noche en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · decimotercera medición del día · cincuenta y nueve recursos vivos, ninguno archivado, cinco sin licencia legible · 3.022 archivos y 501 sumas · 49.263.819 descargas · trece repositorios firmando.
+*Medición del corte:* sábado 7 de noviembre de 2026, 21:37 de la noche en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · decimotercera medición del día · cincuenta y nueve recursos vivos, ninguno archivado, cinco sin licencia legible · 3.022 archivos y 501 sumas · 49.263.819 descargas · trece repositorios firmando.
 
 *🔗 Enlaces*
 
@@ -338,9 +341,9 @@ Y lo cuarto: **lo más nuevo no es lo mejor, pero es lo que está vivo**. El lan
 - https://github.com/coveninja/cove
 - https://github.com/MegaNexusMediaPlayer/MegaNexus
 
-*Torrentes y descargas · sin enlace por la norma de Facebook:*
+*protocolo de pares y descargas · sin enlace por la norma de Facebook:*
 
-- sin dirección, por la norma de Facebook: qBittorrent, Atrium, transmission, Prowlarr, cross-seed, aria2, webtorrent. Se buscan por el nombre en GitHub.
+- sin dirección, por la norma de Facebook: cliente QB, Atrium, cliente de pares, catalogo de pares, cross-seed, aria2, webprotocolo de pares. Se buscan por el nombre en GitHub.
 
 *Libros:*
 
@@ -397,7 +400,7 @@ Y lo cuarto: **lo más nuevo no es lo mejor, pero es lo que está vivo**. El lan
 
 (4-nov) La fecha se comprobó **en vivo antes de empezar y al terminar**: `tools/fecha_viva.py --inicio` a las 21:36 y `--fin` al cerrar. La medición se rehízo a las 21:37 de Santo Domingo, con los cincuenta y nueve repositorios otra vez en vivo: no se copió ninguna cifra de la versión retirada.
 
-(4-nov) **Decimotercera medición del día**, en `docs/MEDICION-12b-noche-2026-11-04.json`: cincuenta y nueve direcciones respondieron a la primera, sin mudanzas, y el escrutinio de las ocho fichas nuevas se rehizo a la misma hora.
+(4-nov) **Decimotercera medición del día**, en `docs/MEDICION-12b-noche-2026-11-07.json`: cincuenta y nueve direcciones respondieron a la primera, sin mudanzas, y el escrutinio de las ocho fichas nuevas se rehizo a la misma hora.
 
 (4-nov) La cuenta de **huella** es la de toda la serie: `sha256`, `sha512`, `sha1`, `checksum`, `.sig`, `.asc` o `sums` en el nombre de cada adjunto de las últimas cien entregas. Misma vara que las piezas 10 y 11: 0,08 % · 5,5 % · 17,0 %.
 
@@ -421,4 +424,4 @@ Y lo cuarto: **lo más nuevo no es lo mejor, pero es lo que está vivo**. El lan
 
 🏷️ Etiquetas estratégicas
 
-#OpenSourceDominicano #RepoStore #Grimmory #OwnTV #Chimahon #Obtainium #Readest #IPTVnator #Prowlarr #Nuvio #Apksigner #Stremio
+#OpenSourceDominicano #RepoStore #Grimmory #OwnTV #Chimahon #Obtainium #Readest #IPTVnator #catalogo de pares #Nuvio #Apksigner #Stremio
