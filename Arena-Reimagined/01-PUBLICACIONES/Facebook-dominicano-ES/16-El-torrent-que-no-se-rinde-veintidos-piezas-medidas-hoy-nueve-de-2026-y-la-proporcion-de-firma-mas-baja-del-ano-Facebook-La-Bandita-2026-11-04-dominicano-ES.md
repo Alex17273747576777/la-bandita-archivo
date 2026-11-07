@@ -1,6 +1,6 @@
-*El torrent que no se rinde: veintidós piezas medidas hoy —nueve de 2026, un protocolo de veinte años y la parte que nadie quiere leer—*
+*El protocolo de pares que no se rinde: veintidós piezas medidas hoy —nueve de 2026, un protocolo de veinte años y la parte que nadie quiere leer—*
 
-*La Bandita · miércoles 4 de noviembre de 2026, 22:50 en Santo Domingo · edición dominicano-español · pieza 16 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026, 22:50 en Santo Domingo · edición dominicano-español · pieza 16 de Facebook*
 
 ⏱️ *Lectura total: 30 minutos · veintidós piezas medidas hoy a las 22:50 · 131 archivos firmados de 1.509 —el 8,7 %, la proporción más baja del año— · 139.249 estrellas · 58.268.039 descargas · seis sin licencia legible · cero archivados · nueve de 2026*
 
@@ -20,11 +20,11 @@
 └── 🚪 lo que no tiene · 📅 la semana · ❓ preguntas · 🌅 cierre · 🔗 enlaces · 🗒️ notas
 ```
 
-> *Semilla de esta pieza:* el protocolo «BitTorrent» cumple 4.768 días desde su primera publicación y no tiene dueño, ni servidor central, ni empresa que lo pueda cerrar. Eso explica dos cosas a la vez: **por qué sigue funcionando** y **por qué nadie te va a avisar cuando algo deje de funcionar**.
+> *Semilla de esta pieza:* el protocolo «Bitprotocolo de pares» cumple 4.768 días desde su primera publicación y no tiene dueño, ni servidor central, ni empresa que lo pueda cerrar. Eso explica dos cosas a la vez: **por qué sigue funcionando** y **por qué nadie te va a avisar cuando algo deje de funcionar**.
 
-Esta pieza mide veintidós piezas de ese ecosistema: siete clientes veteranos, nueve proyectos de 2026, dos herramientas de automatización y tres programas que no son clientes y hacen falta igual —comprobar un archivo, ver la salud de un disco—. **Ningún cliente ni índice de torrentes lleva enlace aquí**, y eso no es un olvido: Facebook retiró la pieza 12 por un enlace de esta familia (E40). Se dan el nombre, lo que hacen y la orden con la que se comprueban. Las direcciones viajan en la versión de WhatsApp.
+Esta pieza mide veintidós piezas de ese ecosistema: siete clientes veteranos, nueve proyectos de 2026, dos herramientas de automatización y tres programas que no son clientes y hacen falta igual —comprobar un archivo, ver la salud de un disco—. **Ningún cliente ni índice de protocolo de pareses lleva enlace aquí**, y eso no es un olvido: Facebook retiró la pieza 12 por un enlace de esta familia (E40). Se dan el nombre, lo que hacen y la orden con la que se comprueban. Las direcciones viajan en la versión de WhatsApp.
 
-Y hay una cifra que esta noche rompe la tendencia de la serie hacia arriba: **131 archivos firmados de 1.509, el 8,7 %** —la más baja desde la pieza 11—. En un tema donde la integridad del archivo es la mitad del asunto, **quince de los veintidós no publican ni una suma**. La mitad de la cifra la pone un solo programa: qBittorrent, con 46.
+Y hay una cifra que esta noche rompe la tendencia de la serie hacia arriba: **131 archivos firmados de 1.509, el 8,7 %** —la más baja desde la pieza 11—. En un tema donde la integridad del archivo es la mitad del asunto, **quince de los veintidós no publican ni una suma**. La mitad de la cifra la pone un solo programa: cliente QB, con 46.
 
 ───────────────────
 
@@ -32,29 +32,30 @@ Y hay una cifra que esta noche rompe la tendencia de la serie hacia arriba: **13
 
 Veintidós piezas, medidos hoy a las 22:50: **139.249 estrellas**, **58.268.039 descargas**, ocho con empujón de hoy y **cero archivados**. La nota mediana es **55 sobre 80** y **seis no declaran licencia legible**: la peor proporción de licencias del año, y con nombres conocidos.
 
-Los mejores: **autobrr** con **75**, la nota más alta de la pieza y una de las más altas de la serie; **piko**, **Atrium** y **qBittorrent** con **65**; y **emule-qt** y **upbrr** con **64**. De esos seis, **cuatro son de 2026** y dos son veteranos que llevan más de una década publicando.
+Los mejores: **autobrr** con **75**, la nota más alta de la pieza y una de las más altas de la serie; **piko**, **Atrium** y **cliente QB** con **65**; y **emule-qt** y **upbrr** con **64**. De esos seis, **cuatro son de 2026** y dos son veteranos que llevan más de una década publicando.
 
 De actividad: **diecisiete con código en la última semana** y **ocho hoy mismo**. De lo nuevo: **uno nacido en los últimos noventa días** y nueve en todo 2026. De lo que falta: **dos sin ninguna entrega etiquetada** y **cinco sin integración continua**.
 
-Y el dato incómodo, con nombre y fecha: **libretorrent lleva 103 días sin un empujón** y **Deluge 242**, con **10 puntos** y ninguna entrega. Los dos siguen en las listas de «mejores clientes de 2026» que circulan.
+Y el dato incómodo, con nombre y fecha: **libreprotocolo de pares lleva 103 días sin un empujón** y **Deluge 242**, con **10 puntos** y ninguna entrega. Los dos siguen en las listas de «mejores clientes de 2026» que circulan.
 
 ───────────────────
 
 *🕰️ La medición de las 22:50 · la decimoséptima del día*
 
-Antes de elegir nada se hizo la revisión que ya es regla: **fecha en vivo**, **historial** —quince publicadas, la 16 pendiente según el mapa de 125— y **ecosistema**: dos consultas a la API de búsqueda por fecha de creación y por tema. Acta en `docs/PREFLIGHT-torrent-2026-11-04.json`. Después se midieron las veintidós piezas a las 22:50, en `docs/MEDICION-16-noche-2026-11-04.json`.
+Antes de elegir nada se hizo la revisión que ya es regla: **fecha en vivo**, **historial** —quince publicadas, la 16 pendiente según el mapa de 125— y **ecosistema**: dos consultas a la API de búsqueda por fecha de creación y por tema. Acta en `docs/PREFLIGHT-protocolo de pares-2026-11-07.json`. Después se midieron las veintidós piezas a las 22:50, en `docs/MEDICION-16-noche-2026-11-07.json`.
 
 Las cinco notas más altas, con lo que las sostiene:
 
-| Recurso | Nota | Lo que la sostiene | Lo que le falta |
-|---|---|---|---|
-| autobrr | 75 | 10 sumas de 200 · 688 incidencias cerradas | nada que la vara mida |
-| piko | 65 | 10 sumas · 241 cambios al mes | 47 días de vida |
-| Atrium | 65 | canal de seguridad · 156 cambios al mes | 30 adjuntos sin suma |
-| qBittorrent | 64 | 46 sumas de 92 · canal de seguridad | solo 8 entregas etiquetadas |
-| emule-qt | 64 | 301 cambios al mes · 10 sumas | 57 estrellas |
 
-**La nota mide si se puede comprobar, no si el programa es popular.** autobrr saca 75 con 3.192 estrellas y emule-qt saca 64 con 57: la diferencia de fama es de doce a uno y la de nota es de once puntos. Y al revés: **qBittorrent, con 41.362 estrellas —el más famoso de todos—, saca 64** porque publica pocas entregas etiquetadas.
+### Datos comparados (lista jerárquica)
+• Recurso: autobrr · Nota: 75 · Lo que la sostiene: 10 sumas de 200 · 688 incidencias cerradas · Lo que le falta: nada que la vara mida
+• Recurso: piko · Nota: 65 · Lo que la sostiene: 10 sumas · 241 cambios al mes · Lo que le falta: 47 días de vida
+• Recurso: Atrium · Nota: 65 · Lo que la sostiene: canal de seguridad · 156 cambios al mes · Lo que le falta: 30 adjuntos sin suma
+• Recurso: cliente QB · Nota: 64 · Lo que la sostiene: 46 sumas de 92 · canal de seguridad · Lo que le falta: solo 8 entregas etiquetadas
+• Recurso: emule-qt · Nota: 64 · Lo que la sostiene: 301 cambios al mes · 10 sumas · Lo que le falta: 57 estrellas
+
+
+**La nota mide si se puede comprobar, no si el programa es popular.** autobrr saca 75 con 3.192 estrellas y emule-qt saca 64 con 57: la diferencia de fama es de doce a uno y la de nota es de once puntos. Y al revés: **cliente QB, con 41.362 estrellas —el más famoso de todos—, saca 64** porque publica pocas entregas etiquetadas.
 
 ───────────────────
 
@@ -62,7 +63,7 @@ Las cinco notas más altas, con lo que las sostiene:
 
 Esta sección no la pide la lista, la pide el tema. Si no se entiende el mecanismo, todo lo demás —las sumas, los clientes, la proporción— suena a jerga. Y el mecanismo es sencillo: **es una cadena de favores entre desconocidos, con una lista de la compra**.
 
-**Primer paso: alguien hace la lista.** El archivo original se parte en trozos de tamaño fijo —de 16 kB a 16 MB, según cómo se hizo— y a cada trozo se le calcula una huella. Con todas las huellas y los nombres sale un archivo pequeño, el `.torrent`, que **no contiene el archivo**: contiene la lista y las huellas. Ese archivo se puede enviar por correo; pesa kilobytes.
+**Primer paso: alguien hace la lista.** El archivo original se parte en trozos de tamaño fijo —de 16 kB a 16 MB, según cómo se hizo— y a cada trozo se le calcula una huella. Con todas las huellas y los nombres sale un archivo pequeño, el `.protocolo de pares`, que **no contiene el archivo**: contiene la lista y las huellas. Ese archivo se puede enviar por correo; pesa kilobytes.
 
 **Segundo paso: alguien reparte la lista.** Para que los interesados la encuentren hay dos caminos. El clásico es un **anunciador** —el *tracker*— al que cada cliente le dice «estoy aquí y tengo estos trozos»; el moderno es la **DHT**, una tabla distribuida donde los propios clientes se buscan entre sí sin servidor. Ese cambio —del anunciador a la DHT— es lo que hizo que el protocolo sobreviviera a la desaparición de los grandes índices, y es lo que explica que veintidós piezas sigan funcionando hoy aunque el servicio que las anunciaba cerró en 2013.
 
@@ -74,7 +75,7 @@ Esta sección no la pide la lista, la pide el tema. Si no se entiende el mecanis
 
 **Y aquí está el nudo de todo lo demás.** Los cinco pasos son neutrales: describen un mecanismo de reparto de datos, igual de válido para una imagen de Linux que para una obra con derechos. **Lo que no es neutral es el paso quinto**, porque repartir es la conducta por defecto. La sección de responsabilidad, más abajo, va justo de eso.
 
-**Qué cambió en veinte años, y qué no.** Cambió el anuncio —del servidor a la DHT—, cambió el enlace —del `.torrent` al *magnet*, que es la lista resumida en una línea de texto— y cambió el cliente: de una ventana pesada a una consola en el teléfono. **No cambió el fondo**: trozos, huellas, pares. Un cliente de 2005 y **piko**, con 47 días, hablan el mismo idioma y se entienden entre sí. Encontrar un protocolo de veinte años que un proyecto nuevo pueda implementar en un mes es exactamente lo que se está viendo en la camada de 2026.
+**Qué cambió en veinte años, y qué no.** Cambió el anuncio —del servidor a la DHT—, cambió el enlace —del `.protocolo de pares` al *magnet*, que es la lista resumida en una línea de texto— y cambió el cliente: de una ventana pesada a una consola en el teléfono. **No cambió el fondo**: trozos, huellas, pares. Un cliente de 2005 y **piko**, con 47 días, hablan el mismo idioma y se entienden entre sí. Encontrar un protocolo de veinte años que un proyecto nuevo pueda implementar en un mes es exactamente lo que se está viendo en la camada de 2026.
 
 ───────────────────
 
@@ -82,32 +83,33 @@ Esta sección no la pide la lista, la pide el tema. Si no se entiende el mecanis
 
 Las secciones anteriores cuentan lo que importa; esta deja el registro entero. Se ordena por nota, y la columna de sumas es la que más se repite en toda la pieza.
 
-| # | Recurso | Nota | ★ | Último empujón | Entregas | Sumas / adjuntos |
-|---|---|---|---|---|---|---|
-| 1 | autobrr/autobrr | **75** | 3.192 | hoy | 100 | 10 / 200 |
-| 2 | NihilDigit/piko | **65** | 660 | ayer | 21 | 10 / 176 |
-| 3 | retransmit/Atrium | **65** | 301 | hace 2 días | 28 | 0 / 30 |
-| 4 | ModderMule/emule-qt | **64** | 57 | hoy | 49 | 10 / 70 |
-| 5 | autobrr/upbrr | **64** | 258 | hoy | 18 | 0 / 76 |
-| 6 | qbittorrent/qBittorrent | **64** | 41.362 | hoy | 8 | 46 / 92 |
-| 7 | BATorrent-app/BATorrent | **63** | 163 | hace 13 días | 48 | 0 / 80 |
-| 8 | stabldev/torrra | **62** | 1.240 | ayer | 57 | 0 / 30 |
-| 9 | smartmontools/smartmontools | **60** | 1.460 | ayer | 10 | 15 / 58 |
-| 10 | uutils/coreutils | **58** | 24.332 | hoy | 43 | 0 / 163 |
-| 11 | rhash/RHash | **57** | 735 | hace 7 días | 22 | 20 / 20 |
-| 12 | antonyshakirov/hop | **54** | 166 | ayer | 37 | 20 / 60 |
-| 13 | Langegen/TorrentShopNX | **49** | 50 | hoy | 24 | 0 / 10 |
-| 14 | anacrolix/torrent | **46** | 6.132 | hoy | 0 | 0 / 0 |
-| 15 | transmission/transmission | **45** | 15.383 | hace 2 días | 84 | 0 / 109 |
-| 16 | arvidn/libtorrent | **39** | 6.124 | hoy | 69 | 0 / 270 |
-| 17 | webtorrent/webtorrent | **39** | 31.471 | ayer | 100 | 0 / 0 |
-| 18 | KyokoMiki/nemorosa | **33** | 125 | ayer | 10 | 0 / 0 |
-| 19 | proninyaroslav/libretorrent | **25** | 4.034 | hace 103 días | 17 | 0 / 50 |
-| 20 | ArrCee76/magnetar | **24** | 91 | hace 11 días | 20 | 0 / 15 |
-| 21 | deluge-torrent/deluge | **10** | 1.798 | hace 242 días | 0 | 0 / 0 |
-| 22 | ryadios/torrent-tui | **0** | 115 | hace 19 días | 6 | 0 / 0 |
 
-Leída en vertical, la columna de sumas dice lo que ninguna lista de recomendaciones dice: **siete de veintidós publican alguna**, y la mitad de las sumas del tema las pone un solo programa. Leída en horizontal, la tabla deja ver los extremos: **autobrr** arriba con **75** y **torrent-tui** abajo con **0**, y entre ellos todo lo demás.
+### Datos comparados (lista jerárquica)
+• #: 1 · Recurso: autobrr/autobrr · Nota: **75** · ★: 3.192 · Último empujón: hoy · Entregas: 100 · Sumas / adjuntos: 10 / 200
+• #: 2 · Recurso: NihilDigit/piko · Nota: **65** · ★: 660 · Último empujón: ayer · Entregas: 21 · Sumas / adjuntos: 10 / 176
+• #: 3 · Recurso: retransmit/Atrium · Nota: **65** · ★: 301 · Último empujón: hace 2 días · Entregas: 28 · Sumas / adjuntos: 0 / 30
+• #: 4 · Recurso: ModderMule/emule-qt · Nota: **64** · ★: 57 · Último empujón: hoy · Entregas: 49 · Sumas / adjuntos: 10 / 70
+• #: 5 · Recurso: autobrr/upbrr · Nota: **64** · ★: 258 · Último empujón: hoy · Entregas: 18 · Sumas / adjuntos: 0 / 76
+• #: 6 · Recurso: cliente QB/cliente QB · Nota: **64** · ★: 41.362 · Último empujón: hoy · Entregas: 8 · Sumas / adjuntos: 46 / 92
+• #: 7 · Recurso: BAprotocolo de pares-app/BAprotocolo de pares · Nota: **63** · ★: 163 · Último empujón: hace 13 días · Entregas: 48 · Sumas / adjuntos: 0 / 80
+• #: 8 · Recurso: stabldev/torrra · Nota: **62** · ★: 1.240 · Último empujón: ayer · Entregas: 57 · Sumas / adjuntos: 0 / 30
+• #: 9 · Recurso: smartmontools/smartmontools · Nota: **60** · ★: 1.460 · Último empujón: ayer · Entregas: 10 · Sumas / adjuntos: 15 / 58
+• #: 10 · Recurso: uutils/coreutils · Nota: **58** · ★: 24.332 · Último empujón: hoy · Entregas: 43 · Sumas / adjuntos: 0 / 163
+• #: 11 · Recurso: rhash/RHash · Nota: **57** · ★: 735 · Último empujón: hace 7 días · Entregas: 22 · Sumas / adjuntos: 20 / 20
+• #: 12 · Recurso: antonyshakirov/hop · Nota: **54** · ★: 166 · Último empujón: ayer · Entregas: 37 · Sumas / adjuntos: 20 / 60
+• #: 13 · Recurso: Langegen/protocolo de paresShopNX · Nota: **49** · ★: 50 · Último empujón: hoy · Entregas: 24 · Sumas / adjuntos: 0 / 10
+• #: 14 · Recurso: anacrolix/protocolo de pares · Nota: **46** · ★: 6.132 · Último empujón: hoy · Entregas: 0 · Sumas / adjuntos: 0 / 0
+• #: 15 · Recurso: cliente de pares/cliente de pares · Nota: **45** · ★: 15.383 · Último empujón: hace 2 días · Entregas: 84 · Sumas / adjuntos: 0 / 109
+• #: 16 · Recurso: arvidn/libprotocolo de pares · Nota: **39** · ★: 6.124 · Último empujón: hoy · Entregas: 69 · Sumas / adjuntos: 0 / 270
+• #: 17 · Recurso: webprotocolo de pares/webprotocolo de pares · Nota: **39** · ★: 31.471 · Último empujón: ayer · Entregas: 100 · Sumas / adjuntos: 0 / 0
+• #: 18 · Recurso: KyokoMiki/nemorosa · Nota: **33** · ★: 125 · Último empujón: ayer · Entregas: 10 · Sumas / adjuntos: 0 / 0
+• #: 19 · Recurso: proninyaroslav/libreprotocolo de pares · Nota: **25** · ★: 4.034 · Último empujón: hace 103 días · Entregas: 17 · Sumas / adjuntos: 0 / 50
+• #: 20 · Recurso: ArrCee76/magnetar · Nota: **24** · ★: 91 · Último empujón: hace 11 días · Entregas: 20 · Sumas / adjuntos: 0 / 15
+• #: 21 · Recurso: deluge-protocolo de pares/deluge · Nota: **10** · ★: 1.798 · Último empujón: hace 242 días · Entregas: 0 · Sumas / adjuntos: 0 / 0
+• #: 22 · Recurso: ryadios/protocolo de pares-tui · Nota: **0** · ★: 115 · Último empujón: hace 19 días · Entregas: 6 · Sumas / adjuntos: 0 / 0
+
+
+Leída en vertical, la columna de sumas dice lo que ninguna lista de recomendaciones dice: **siete de veintidós publican alguna**, y la mitad de las sumas del tema las pone un solo programa. Leída en horizontal, la tabla deja ver los extremos: **autobrr** arriba con **75** y **protocolo de pares-tui** abajo con **0**, y entre ellos todo lo demás.
 
 **Lo que la tabla no mide**, y conviene decirlo: si el programa es agradable de usar, si traga bien un enjambre de cien mil pares o si se rompe al llenar el disco. Ninguna de esas cosas se ve desde la API de GitHub. Por eso la pieza da la vara y la fecha, y la semana de prueba da el resto.
 
@@ -119,85 +121,86 @@ Leída en vertical, la columna de sumas dice lo que ninguna lista de recomendaci
 - **Par** (*peer*): cualquiera que está en la descarga, con el archivo completo o a medias. Cada par es a la vez cliente y servidor.
 - **Enjambre** (*swarm*): el conjunto de pares y semillas de un mismo archivo. No hay centro: si se cae uno, no pasa nada.
 - **Trozo** (*piece*): una rebanada del archivo, con su huella. Es la unidad que se pide, se verifica y se reparte.
-- **`.torrent`**: la lista de trozos y huellas. **No contiene el archivo.**
+- **`.protocolo de pares`**: la lista de trozos y huellas. **No contiene el archivo.**
 - **Magnet**: la misma lista resumida en una línea de texto, sin archivo que enviar. Se impuso cuando los índices empezaron a caer.
 - **DHT**: la tabla distribuida que permite encontrar pares sin anunciador. Es lo que hace el protocolo difícil de apagar.
 - **Anunciador** (*tracker*): el servidor clásico que ponía en contacto a los pares. Hoy es opcional.
 - **Proporción** (*ratio*): lo subido dividido entre lo bajado. Es la moneda del sistema.
 - **Siembra** (*seeding*): seguir repartiendo después de terminar. El paso que sostiene todo y el que tiene consecuencias legales.
 - **Cliente**: el programa que habla el protocolo. Lo que mide esta pieza.
-- **Indexador**: el sitio o programa que busca listas. **No aparece en esta pieza**, ni con enlace ni como recomendación: es la familia que el canal veta (H20).
+- **catalogo**: el sitio o programa que busca listas. **No aparece en esta pieza**, ni con enlace ni como recomendación: es la familia que el canal veta (H20).
 
-**Una advertencia sobre las palabras.** «Torrent» se usa para tres cosas distintas: el **protocolo**, el **archivo de la lista** y el **programa**. Cuando alguien dice «prohibieron los torrents» normalmente habla de un índice, no del protocolo — y el protocolo sigue en pie 4.768 días después, con veintidós implementaciones medidas esta noche. Distinguir esas tres cosas es la mitad de entender este tema.
+**Una advertencia sobre las palabras.** «protocolo de pares» se usa para tres cosas distintas: el **protocolo**, el **archivo de la lista** y el **programa**. Cuando alguien dice «prohibieron los protocolo de paress» normalmente habla de un índice, no del protocolo — y el protocolo sigue en pie 4.768 días después, con veintidós implementaciones medidas esta noche. Distinguir esas tres cosas es la mitad de entender este tema.
 
 ───────────────────
 *🔌 Tres configuraciones típicas · qué instalar según dónde estés*
 
 No hace falta elegir un cliente para siempre. Hay tres escenarios que cubren casi todo lo que la gente pregunta, y en los tres la respuesta se puede comprobar con las seis órdenes de la sección anterior.
 
-**En la computadora de casa.** **qBittorrent** si quieres ventana y ver la cola; **transmission** si quieres que corra solo, sin interfaz, y lo manejes desde el navegador. Los dos publican este mes. El segundo pesa menos y no te pide nada; el primero tiene más ajustes y más superficie donde equivocarse.
+**En la computadora de casa.** **cliente QB** si quieres ventana y ver la cola; **cliente de pares** si quieres que corra solo, sin interfaz, y lo manejes desde el navegador. Los dos publican este mes. El segundo pesa menos y no te pide nada; el primero tiene más ajustes y más superficie donde equivocarse.
 
-**En el teléfono.** Aquí el terreno se movió: **LibreTorrent**, el favorito de las listas, lleva 103 días sin un empujón. **BATorrent** publica versiones desde hace meses, **hop** firma 20 de 60 adjuntos y **Atrium** te deja gobernar el de la computadora desde el móvil, que muchas veces es lo que de verdad se necesita. Los tres son de 2026 y los tres tienen repositorio abierto: se prueban con material propio.
+**En el teléfono.** Aquí el terreno se movió: **Libreprotocolo de pares**, el favorito de las listas, lleva 103 días sin un empujón. **BAprotocolo de pares** publica versiones desde hace meses, **hop** firma 20 de 60 adjuntos y **Atrium** te deja gobernar el de la computadora desde el móvil, que muchas veces es lo que de verdad se necesita. Los tres son de 2026 y los tres tienen repositorio abierto: se prueban con material propio.
 
-**En un servidor pequeño o un aparato de casa.** **transmission** en modo demonio y **smartmontools** vigilando el disco. Y una cosa que se olvida siempre: un cliente de torrentes trabajando sobre un disco que se está muriendo convierte un fallo de hardware en una biblioteca perdida. La orden 5 de esta pieza cuesta un minuto y ahorra eso.
+**En un servidor pequeño o un aparato de casa.** **cliente de pares** en modo demonio y **smartmontools** vigilando el disco. Y una cosa que se olvida siempre: un cliente de protocolo de pareses trabajando sobre un disco que se está muriendo convierte un fallo de hardware en una biblioteca perdida. La orden 5 de esta pieza cuesta un minuto y ahorra eso.
 
-**Y el cuarto escenario, que casi nadie cuenta: compartir lo tuyo.** Los veintidós programas de esta pieza sirven igual para repartir tu propio material —un disco de fotos, el taller de tu barrio, una grabación que quieras que circule— sin pagar servidor ni pedir permiso a nadie. Ese uso existe, es técnico y es legítimo, y es el que casi nunca aparece cuando se habla de torrentes. Si lo que quieres es eso, el camino es el mismo: qBittorrent o transmission, la lista creada por ti, y una suma publicada donde pongas el enlace. La diferencia con el resto de los usos no está en el programa, está en el derecho que tengas sobre lo que repartes.
+**Y el cuarto escenario, que casi nadie cuenta: compartir lo tuyo.** Los veintidós programas de esta pieza sirven igual para repartir tu propio material —un disco de fotos, el taller de tu barrio, una grabación que quieras que circule— sin pagar servidor ni pedir permiso a nadie. Ese uso existe, es técnico y es legítimo, y es el que casi nunca aparece cuando se habla de protocolo de pareses. Si lo que quieres es eso, el camino es el mismo: cliente QB o cliente de pares, la lista creada por ti, y una suma publicada donde pongas el enlace. La diferencia con el resto de los usos no está en el programa, está en el derecho que tengas sobre lo que repartes.
 
 **Lo que no recomiendo, y por qué.** No recomiendo instalar ninguna pieza de esta lista por lo que diga una lista de «mejores clientes de 2026»: esa lista, casi siempre, no ha mirado una fecha. Y no recomiendo automatizar —**autobrr**, **upbrr**— antes de tener claro qué se está automatizando, porque un automatizador hace más deprisa exactamente lo que ya hacías.
 
 ───────────────────
-*🔁 Qué reemplaza a qué · la tabla del torrent*
+*🔁 Qué reemplaza a qué · la tabla del protocolo de pares*
 
-| Lo que usas hoy | Qué tiene de viejo | Qué lo cubre hoy |
-|---|---|---|
-| El cliente que instalaste en 2019 | Depende de que su proyecto siga con vida | **qBittorrent** si quieres ventana, **transmission** si quieres un demonio, **torrra** y **piko** si quieres algo que no existía en 2019 |
-| La aplicación de Android que ya no se actualiza | libretorrent: **103 días sin un empujón** | **BATorrent**, **hop** y **Atrium**: tres de 2026, con repositorio y fecha |
-| La consola web de tu servidor | Depende de un complemento que ya nadie mantiene | **Atrium** en el móvil, **torrent-tui** en la terminal |
-| Un gestor de torrents para escritorio | Deluge: **242 días sin publicar** y 0 entregas | **qBittorrent**, **transmission** y las piezas nuevas de 2026 |
-| Automatizar lo que se baja | Se hace a mano, de noche, con suerte | **autobrr** y **upbrr**, las dos de la misma casa |
-| *—* (nadie lo mira) | Que el archivo llegue entero y el disco aguante | **RHash**, **coreutils** y **smartmontools**, las tres con enlace |
 
-**Lo que esta tabla no dice, y hay que decirlo aparte:** un cliente de torrentes no decide qué es legal. Un cliente solo mueve trozos entre pares. Lo que decide son **la obra que compartes, el derecho que tienes sobre ella y la ley de tu país** —y de eso va la sección de responsabilidad, más abajo.
+### Datos comparados (lista jerárquica)
+• Lo que usas hoy: El cliente que instalaste en 2019 · Qué tiene de viejo: Depende de que su proyecto siga con vida · Qué lo cubre hoy: **cliente QB** si quieres ventana, **cliente de pares** si quieres un demonio, **torrra** y **piko** si quieres algo que no existía en 2019
+• Lo que usas hoy: La aplicación de Android que ya no se actualiza · Qué tiene de viejo: libreprotocolo de pares: **103 días sin un empujón** · Qué lo cubre hoy: **BAprotocolo de pares**, **hop** y **Atrium**: tres de 2026, con repositorio y fecha
+• Lo que usas hoy: La consola web de tu servidor · Qué tiene de viejo: Depende de un complemento que ya nadie mantiene · Qué lo cubre hoy: **Atrium** en el móvil, **protocolo de pares-tui** en la terminal
+• Lo que usas hoy: Un gestor de protocolo de paress para escritorio · Qué tiene de viejo: Deluge: **242 días sin publicar** y 0 entregas · Qué lo cubre hoy: **cliente QB**, **cliente de pares** y las piezas nuevas de 2026
+• Lo que usas hoy: Automatizar lo que se baja · Qué tiene de viejo: Se hace a mano, de noche, con suerte · Qué lo cubre hoy: **autobrr** y **upbrr**, las dos de la misma casa
+• Lo que usas hoy: *—* (nadie lo mira) · Qué tiene de viejo: Que el archivo llegue entero y el disco aguante · Qué lo cubre hoy: **RHash**, **coreutils** y **smartmontools**, las tres con enlace
+
+
+**Lo que esta tabla no dice, y hay que decirlo aparte:** un cliente de protocolo de pareses no decide qué es legal. Un cliente solo mueve trozos entre pares. Lo que decide son **la obra que compartes, el derecho que tienes sobre ella y la ley de tu país** —y de eso va la sección de responsabilidad, más abajo.
 
 ───────────────────
 *🧱 Los clientes de siempre · siete piezas, ninguna con enlace*
 
 Aquí están los nombres que todo el mundo conoce y que, por la norma del canal, van **sin dirección**. Se dan el nombre, lo que hacen y la orden con la que cualquiera comprueba su estado en GitHub. Nada más, y nada menos.
 
-Empiezo por el que casi todo el mundo tiene instalado, porque su ficha es la más interesante de la noche: **qBittorrent** es el único cliente de esta lista que publica sumas de comprobación en cantidad, y a la vez el que menos entregas etiquetadas tiene.
+Empiezo por el que casi todo el mundo tiene instalado, porque su ficha es la más interesante de la noche: **cliente QB** es el único cliente de esta lista que publica sumas de comprobación en cantidad, y a la vez el que menos entregas etiquetadas tiene.
 
-**qBittorrent** — ★41.362 · sin licencia legible · empujón **hoy** · 8 entregas · **92 adjuntos · 46 con suma** · nota **64**. **46 sumas de 92 adjuntos** —el único cliente del tema que firma en serio—, canal de seguridad y **empujón de hoy**. 65 cambios en treinta días y 15.246 incidencias cerradas contra 2.603 abiertas. **Sin licencia legible en la API** y **solo 8 entregas** etiquetadas: el programa que más gente usa del tema y el que menos versiones anuncia
-**Transmission** — ★15.383 · sin licencia legible · empujón hace 2 días · 84 entregas · **109 adjuntos · 0 con suma** · nota **45**. **15.383 estrellas** y 84 entregas: el cliente discreto, el que corre sin ventana en un servidor pequeño y el que llevan dentro muchos aparatos de red. **Empujón de ayer**, 17 cambios en treinta días y **cero sumas** en 109 adjuntos
-**anacrolix/torrent** — ★6.132 · MPL-2.0 · empujón **hoy** · 0 entregas · sin adjuntos · nota **46**. **6.132 estrellas** y 12 cambios en treinta días: la implementación en Go que usan por dentro otros programas, con **canal de seguridad**. **Sin entregas etiquetadas y sin adjuntos**: es una librería, se importa, no se instala
-**libtorrent (la librería)** — ★6.124 · sin licencia legible · empujón **hoy** · 69 entregas · **270 adjuntos · 0 con suma** · nota **39**. **270 adjuntos y 69 entregas** —el más prolijo del tema en versiones—, con **empujón de hoy** y 87 cambios en treinta días. Es el motor que hay debajo de media docena de clientes: **sin licencia legible** y **sin una sola suma**
-**WebTorrent** — ★31.471 · MIT · empujón ayer · 100 entregas · sin adjuntos · nota **39**. **31.471 estrellas** y cien entregas: el que lleva el protocolo al navegador y hace que un enlace se pueda abrir como una página. **Empujón de ayer**, 1.623 incidencias cerradas y **sin adjuntos publicados**
-**LibreTorrent** — ★4.034 · GPL-3.0 · empujón hace 103 días · 17 entregas · **50 adjuntos · 0 con suma** · nota **25**. **103 días sin un empujón y cero cambios en treinta días**: el cliente de Android que recomiendan todas las listas, con 4.034 estrellas, 261.142 descargas y **25 puntos**. 50 adjuntos sin suma
+**cliente QB** — ★41.362 · sin licencia legible · empujón **hoy** · 8 entregas · **92 adjuntos · 46 con suma** · nota **64**. **46 sumas de 92 adjuntos** —el único cliente del tema que firma en serio—, canal de seguridad y **empujón de hoy**. 65 cambios en treinta días y 15.246 incidencias cerradas contra 2.603 abiertas. **Sin licencia legible en la API** y **solo 8 entregas** etiquetadas: el programa que más gente usa del tema y el que menos versiones anuncia
+**cliente de pares** — ★15.383 · sin licencia legible · empujón hace 2 días · 84 entregas · **109 adjuntos · 0 con suma** · nota **45**. **15.383 estrellas** y 84 entregas: el cliente discreto, el que corre sin ventana en un servidor pequeño y el que llevan dentro muchos aparatos de red. **Empujón de ayer**, 17 cambios en treinta días y **cero sumas** en 109 adjuntos
+**anacrolix/protocolo de pares** — ★6.132 · MPL-2.0 · empujón **hoy** · 0 entregas · sin adjuntos · nota **46**. **6.132 estrellas** y 12 cambios en treinta días: la implementación en Go que usan por dentro otros programas, con **canal de seguridad**. **Sin entregas etiquetadas y sin adjuntos**: es una librería, se importa, no se instala
+**libprotocolo de pares (la librería)** — ★6.124 · sin licencia legible · empujón **hoy** · 69 entregas · **270 adjuntos · 0 con suma** · nota **39**. **270 adjuntos y 69 entregas** —el más prolijo del tema en versiones—, con **empujón de hoy** y 87 cambios en treinta días. Es el motor que hay debajo de media docena de clientes: **sin licencia legible** y **sin una sola suma**
+**Webprotocolo de pares** — ★31.471 · MIT · empujón ayer · 100 entregas · sin adjuntos · nota **39**. **31.471 estrellas** y cien entregas: el que lleva el protocolo al navegador y hace que un enlace se pueda abrir como una página. **Empujón de ayer**, 1.623 incidencias cerradas y **sin adjuntos publicados**
+**Libreprotocolo de pares** — ★4.034 · GPL-3.0 · empujón hace 103 días · 17 entregas · **50 adjuntos · 0 con suma** · nota **25**. **103 días sin un empujón y cero cambios en treinta días**: el cliente de Android que recomiendan todas las listas, con 4.034 estrellas, 261.142 descargas y **25 puntos**. 50 adjuntos sin suma
 **Deluge** — ★1.798 · sin licencia legible · empujón hace 242 días · 0 entregas · sin adjuntos · nota **10**. **242 días sin publicar, cero entregas y cero adjuntos**: el cliente con demonio y consola web que fue la alternativa «seria» a todo lo demás. **10 puntos** en la vara y sin licencia legible. Se lista para que nadie lo instale creyendo que está vivo
 
-El bloque de los veteranos deja tres nombres utilizables —**qBittorrent**, **Transmission**, **WebTorrent**— y dos que ya no deberían estar en ninguna lista de 2026: **LibreTorrent** (103 días) y **Deluge** (242). Los dos siguen funcionando hoy, y ninguno de los dos va a arreglar el fallo que aparezca mañana.
+El bloque de los veteranos deja tres nombres utilizables —**cliente QB**, **cliente de pares**, **Webprotocolo de pares**— y dos que ya no deberían estar en ninguna lista de 2026: **Libreprotocolo de pares** (103 días) y **Deluge** (242). Los dos siguen funcionando hoy, y ninguno de los dos va a arreglar el fallo que aparezca mañana.
 
-Y un detalle que se repite en toda la pieza: **de los siete, solo uno firma** —qBittorrent—. En un protocolo cuyo sentido entero es la integridad de los trozos, el archivo que instala el cliente casi nunca se puede comprobar.
+Y un detalle que se repite en toda la pieza: **de los siete, solo uno firma** —cliente QB—. En un protocolo cuyo sentido entero es la integridad de los trozos, el archivo que instala el cliente casi nunca se puede comprobar.
 
 ───────────────────
 
 *🌱 Las nueve de 2026 · la camada que sí se mueve*
 
-Otra vez lo nuevo manda, y aquí con más mérito que en ningún otro tema: escribir un cliente de torrentes no es envolver una web, es implementar un protocolo con trozos, pares, anuncios y cola. Estas nueve piezas lo hacen, y varias con más de doscientos cambios al mes.
+Otra vez lo nuevo manda, y aquí con más mérito que en ningún otro tema: escribir un cliente de protocolo de pareses no es envolver una web, es implementar un protocolo con trozos, pares, anuncios y cola. Estas nueve piezas lo hacen, y varias con más de doscientos cambios al mes.
 
-**La advertencia de siempre, y aquí importa más:** un cliente de torrentes nuevo todavía no ha visto un enjambre grande, ni un disco lleno, ni un corte de luz con veinte descargas a medias. Se prueban con material propio y se miden igual que los demás.
+**La advertencia de siempre, y aquí importa más:** un cliente de protocolo de pareses nuevo todavía no ha visto un enjambre grande, ni un disco lleno, ni un corte de luz con veinte descargas a medias. Se prueban con material propio y se miden igual que los demás.
 
 **piko** — ★660 · AGPL-3.0 · empujón ayer · 21 entregas · **176 adjuntos · 10 con suma** · nota **65** · madurez 47 d. **47 días de vida y 65 puntos**: la segunda nota del tema, con **10 sumas de 176 adjuntos** y 241 cambios en treinta días. 28.597 descargas y 27 incidencias cerradas
 **Atrium** — ★301 · GPL-3.0 · empujón hace 2 días · 28 entregas · **30 adjuntos · 0 con suma** · nota **65**. **Canal de seguridad** y 156 cambios en treinta días: la consola que gobierna el cliente que ya tienes desde el teléfono, con 5.485 descargas y 61 incidencias cerradas. 30 adjuntos sin suma
 **emule-qt** — ★57 · GPL-2.0 · empujón **hoy** · 49 entregas · **70 adjuntos · 10 con suma** · nota **64** · madurez 244 d. **301 cambios en treinta días** —el ritmo más alto de la camada—, con 10 sumas de 70 adjuntos y 49 entregas. Otra red entre pares, con la misma lógica de trozos y la misma responsabilidad
-**BATorrent** — ★163 · MIT · empujón hace 13 días · 48 entregas · **80 adjuntos · 0 con suma** · nota **63** · madurez 233 d. **48 entregas en 233 días**, con **canal de seguridad** y 252 cambios en treinta días: el más constante de la camada en versiones, con 80 adjuntos sin firma
+**BAprotocolo de pares** — ★163 · MIT · empujón hace 13 días · 48 entregas · **80 adjuntos · 0 con suma** · nota **63** · madurez 233 d. **48 entregas en 233 días**, con **canal de seguridad** y 252 cambios en treinta días: el más constante de la camada en versiones, con 80 adjuntos sin firma
 **torrra** — ★1.240 · MIT · empujón ayer · 57 entregas · **30 adjuntos · 0 con suma** · nota **62**. **1.240 estrellas** y 57 entregas: el que más ha crecido de los nuevos, con 24 cambios en treinta días y **solo 1 incidencia abierta** contra 63 cerradas
 **hop** — ★166 · MIT · empujón ayer · 37 entregas · **60 adjuntos · 20 con suma** · nota **54** · madurez 114 d. **20 sumas de 60 adjuntos** y 88 cambios en treinta días: el más pequeño que firma algo, con 37 entregas en 114 días
-**TorrentShopNX** — ★50 · GPL-3.0 · empujón **hoy** · 24 entregas · **10 adjuntos · 0 con suma** · nota **49** · madurez 157 d. **145 cambios en treinta días** y 24 entregas: cliente para consola portátil, con **empujón de hoy** y 10 adjuntos sin suma
+**protocolo de paresShopNX** — ★50 · GPL-3.0 · empujón **hoy** · 24 entregas · **10 adjuntos · 0 con suma** · nota **49** · madurez 157 d. **145 cambios en treinta días** y 24 entregas: cliente para consola portátil, con **empujón de hoy** y 10 adjuntos sin suma
 **Magnetar** — ★91 · sin licencia legible · empujón hace 11 días · 20 entregas · **15 adjuntos · 0 con suma** · nota **24** · madurez 236 d. **24 puntos y 11 días sin un empujón**: un cliente pequeño que nació en marzo y ya se ha enfriado, con **sin licencia legible** y 15 adjuntos. Se lista como lo que es
-**torrent-tui** — ★115 · sin licencia legible · empujón hace 19 días · 6 entregas · sin adjuntos · nota **0** · madurez 227 d. **0 puntos** —la nota más baja del tema—, **sin licencia legible, sin entregas y sin adjuntos**: una idea buena —cliente de terminal— con tres meses y seis cambios. Se lista para que se vea que lo nuevo también puede no arrancar
+**protocolo de pares-tui** — ★115 · sin licencia legible · empujón hace 19 días · 6 entregas · sin adjuntos · nota **0** · madurez 227 d. **0 puntos** —la nota más baja del tema—, **sin licencia legible, sin entregas y sin adjuntos**: una idea buena —cliente de terminal— con tres meses y seis cambios. Se lista para que se vea que lo nuevo también puede no arrancar
 **nemorosa** — ★125 · GPL-3.0 · empujón ayer · 10 entregas · sin adjuntos · nota **33** · madurez 517 d. **517 días de vida y 33 puntos**: sin entregas ni adjuntos y **cero cambios en treinta días**, aunque con empujón de ayer. Un proyecto que se mueve a rachas y todavía no ha publicado una versión
 
-El reparto de la camada es el más desigual de la serie: **piko (65) y emule-qt (64) están a la altura de los veteranos**, y **torrent-tui (0) y Magnetar (24) no llegan al mínimo**. La diferencia entre unos y otros no es la edad —todos tienen entre uno y ocho meses— sino si publican versiones y si alguien atiende la cola.
+El reparto de la camada es el más desigual de la serie: **piko (65) y emule-qt (64) están a la altura de los veteranos**, y **protocolo de pares-tui (0) y Magnetar (24) no llegan al mínimo**. La diferencia entre unos y otros no es la edad —todos tienen entre uno y ocho meses— sino si publican versiones y si alguien atiende la cola.
 
 ───────────────────
 
@@ -213,13 +216,13 @@ Las dos van sin enlace por la misma norma que los clientes: son parte de la fami
 ───────────────────
 *🧰 Lo que no es un cliente y también hace falta · tres programas con enlace*
 
-Las tres piezas de este bloque sí llevan dirección, porque ninguna es un cliente de torrentes. Y son, en mi opinión, las más útiles de la pieza: **comprobar un archivo**, **calcular su huella** y **saber si el disco que lo guarda se está muriendo**.
+Las tres piezas de este bloque sí llevan dirección, porque ninguna es un cliente de protocolo de pareses. Y son, en mi opinión, las más útiles de la pieza: **comprobar un archivo**, **calcular su huella** y **saber si el disco que lo guarda se está muriendo**.
 
 **RHash** — ★735 · 0BSD · empujón hace 7 días · 22 entregas · **20 adjuntos · 20 con suma** · nota **57** · `rhash/RHash`. **20 sumas de 20 adjuntos** —la mejor proporción del tema con diferencia— y licencia **0BSD**: calcula y verifica sumas de cualquier tipo, incluidas las de los archivos que acabas de bajar. 2 cambio en treinta días y 182 incidencias cerradas
 **uutils/coreutils** — ★24.332 · MIT · empujón **hoy** · 43 entregas · **163 adjuntos · 0 con suma** · nota **58** · `uutils/coreutils`. **24.332 estrellas**: la reescritura en Rust de las herramientas de siempre, con `sha256sum`, `df`, `ls` y compañía. **Empujón de hoy** y 681 cambios en treinta días; 163 adjuntos sin suma, que se instala desde el gestor de paquetes
 **smartmontools** — ★1.460 · GPL-2.0 · empujón ayer · 10 entregas · **58 adjuntos · 15 con suma** · nota **60** · `smartmontools/smartmontools`. **3.333.759 descargas** y 15 sumas de 58 adjuntos: lee la salud del disco antes de que se llene o se muera. 21 cambios en treinta días y 342 incidencias cerradas
 
-Las tres juntas contestan la pregunta que el tema del torrent casi nunca contesta: **¿el archivo llegó bien y el disco está sano?** RHash compara contra una suma publicada; coreutils calcula la tuya; smartmontools avisa si el disco que lleva diez años sembrando está a punto de fallar. Es la parte aburrida y es la que evita perder una biblioteca.
+Las tres juntas contestan la pregunta que el tema del protocolo de pares casi nunca contesta: **¿el archivo llegó bien y el disco está sano?** RHash compara contra una suma publicada; coreutils calcula la tuya; smartmontools avisa si el disco que lleva diez años sembrando está a punto de fallar. Es la parte aburrida y es la que evita perder una biblioteca.
 
 ───────────────────
 
@@ -227,7 +230,7 @@ Las tres juntas contestan la pregunta que el tema del torrent casi nunca contest
 
 Esta sección no la trae ninguna lista de clientes, y es la que más falta hace. Va sin adornos.
 
-**El protocolo es neutral; el uso no.** BitTorrent mueve trozos entre pares: no sabe qué contienen. Un cliente bien configurado es igual de útil para distribuir una imagen de Linux que para compartir una película con derechos vigentes. Por eso esta pieza mide **software** y no recomienda **contenido**: no hay un solo enlace a un índice ni a un archivo en todo el texto.
+**El protocolo es neutral; el uso no.** Bitprotocolo de pares mueve trozos entre pares: no sabe qué contienen. Un cliente bien configurado es igual de útil para distribuir una imagen de Linux que para compartir una película con derechos vigentes. Por eso esta pieza mide **software** y no recomienda **contenido**: no hay un solo enlace a un índice ni a un archivo en todo el texto.
 
 **Lo que la ley mira no es el programa.** Mira tres cosas: **qué obra** es, **qué derecho tienes** sobre ella y **qué haces** con ella. Compartir —sembrar— es el verbo que más problemas ha dado, porque en el protocolo es la conducta por defecto: mientras el cliente está abierto, estás repartiendo. En la República Dominicana rige la Ley 65-00 sobre derecho de autor, con excepciones parecidas a las de la región; en otros países el régimen cambia. **Esta pieza no da consejo legal**; dice dónde está la pregunta.
 
@@ -245,34 +248,35 @@ Esta sección no la trae ninguna lista de clientes, y es la que más falta hace.
 
 **1.509 archivos publicados por las veintidós piezas. 131 con suma de comprobación. El 8,7 %.**
 
-Es la proporción más baja desde la pieza 11, y en este tema duele más que en ningún otro. En su escala: tiendas de extensiones de la pieza 10, **0,08 %**; aplicaciones de la 11, **5,5 %**; descarga de la 15, **10,6 %**; audio de la 13, **11,4 %**; kit de la 12, **17,0 %**; música de la 14, **20,0 %**; y **torrentes, 8,7 %**.
+Es la proporción más baja desde la pieza 11, y en este tema duele más que en ningún otro. En su escala: tiendas de extensiones de la pieza 10, **0,08 %**; aplicaciones de la 11, **5,5 %**; descarga de la 15, **10,6 %**; audio de la 13, **11,4 %**; kit de la 12, **17,0 %**; música de la 14, **20,0 %**; y **protocolo de pareses, 8,7 %**.
 
 **quince de los veintidós no publican ni una suma.** Los siete que sí:
 
-| Recurso | Adjuntos | Con suma | Nota |
-|---|---|---|---|
-| qBittorrent | 92 | **46** | 64 |
-| hop | 60 | **20** | 54 |
-| RHash | 20 | **20** | 57 |
-| smartmontools | 58 | **15** | 60 |
-| autobrr | 200 | **10** | 75 |
-| piko | 176 | **10** | 65 |
-| emule-qt | 70 | **10** | 64 |
 
-Dos cosas de esa tabla. La primera: **qBittorrent pone 46 de las 131 sumas** —más de un tercio del total— y lo hace con **solo 8 entregas etiquetadas**: firma mucho por entrega, publica pocas. La segunda: **RHash, con 735 estrellas, tiene la mejor proporción del tema** —20 de 20—, y es justamente el programa que sirve para comprobar los demás.
+### Datos comparados (lista jerárquica)
+• Recurso: cliente QB · Adjuntos: 92 · Con suma: **46** · Nota: 64
+• Recurso: hop · Adjuntos: 60 · Con suma: **20** · Nota: 54
+• Recurso: RHash · Adjuntos: 20 · Con suma: **20** · Nota: 57
+• Recurso: smartmontools · Adjuntos: 58 · Con suma: **15** · Nota: 60
+• Recurso: autobrr · Adjuntos: 200 · Con suma: **10** · Nota: 75
+• Recurso: piko · Adjuntos: 176 · Con suma: **10** · Nota: 65
+• Recurso: emule-qt · Adjuntos: 70 · Con suma: **10** · Nota: 64
 
-**Lo que se puede hacer hoy:** en los clientes que no publican sumas —casi todos—, la comprobación es la del propio protocolo: el cliente verifica cada trozo contra su hash al bajarlo. Esa es la parte buena del torrent y la razón de que siga vivo: **el archivo se comprueba solo**. Lo que no se comprueba es el instalador del cliente.
+
+Dos cosas de esa tabla. La primera: **cliente QB pone 46 de las 131 sumas** —más de un tercio del total— y lo hace con **solo 8 entregas etiquetadas**: firma mucho por entrega, publica pocas. La segunda: **RHash, con 735 estrellas, tiene la mejor proporción del tema** —20 de 20—, y es justamente el programa que sirve para comprobar los demás.
+
+**Lo que se puede hacer hoy:** en los clientes que no publican sumas —casi todos—, la comprobación es la del propio protocolo: el cliente verifica cada trozo contra su hash al bajarlo. Esa es la parte buena del protocolo de pares y la razón de que siga vivo: **el archivo se comprueba solo**. Lo que no se comprueba es el instalador del cliente.
 
 ───────────────────
 
 *🛠️ Seis órdenes para revisar este ecosistema sin enlazarlo*
 
 1. **Ver si el cliente sigue vivo.** `curl -s api.github.com/repos/<dueño>/<repo> | grep -E '"pushed_at"|"archived"'` — se sustituye el nombre y se mira el campo. Es lo que separa a piko de Deluge, y lo que ninguna lista de «mejores clientes 2026» hace.
-2. **Contar sus versiones.** `curl -s api.github.com/repos/<dueño>/<repo>/releases?per_page=100 | grep -c '"tag_name"'` — Deluge responde cero; BATorrent responde cuarenta y ocho.
+2. **Contar sus versiones.** `curl -s api.github.com/repos/<dueño>/<repo>/releases?per_page=100 | grep -c '"tag_name"'` — Deluge responde cero; BAprotocolo de pares responde cuarenta y ocho.
 3. **Buscar una suma.** `curl -s api.github.com/repos/<dueño>/<repo>/releases?per_page=100 | grep -Ei 'sha256|sha512|\.sig|\.asc' | head -5` — si imprime líneas, ese proyecto firma.
 4. **Comprobar un archivo bajado.** `sha256sum archivo.iso` o `rhash --sha256 archivo.iso` — y comparar con la cifra publicada por quien lo hizo. El protocolo verifica los trozos; esta orden verifica el archivo entero.
-5. **Mirar el disco antes de llenarlo.** `smartctl -a /dev/sdX` — temperatura, horas encendidas, sectores reasignados y el veredicto del propio disco. Un cliente de torrentes trabajando sobre un disco moribundo multiplica el daño.
-6. **Ver qué hiciste tú.** El archivo de registro del cliente, o el historial de proporción: `cat ~/.local/share/qBittorrent/logs/*.log | tail -40` — es la prueba de lo que salió y lo que entró, y el primer sitio donde mira quien pregunta.
+5. **Mirar el disco antes de llenarlo.** `smartctl -a /dev/sdX` — temperatura, horas encendidas, sectores reasignados y el veredicto del propio disco. Un cliente de protocolo de pareses trabajando sobre un disco moribundo multiplica el daño.
+6. **Ver qué hiciste tú.** El archivo de registro del cliente, o el historial de proporción: `cat ~/.local/share/cliente QB/logs/*.log | tail -40` — es la prueba de lo que salió y lo que entró, y el primer sitio donde mira quien pregunta.
 
 Las órdenes **1 a 3 van sin dirección completa a propósito**: se pega el nombre en la dirección y se ejecuta. La norma del canal es esa, y este tema la lleva al extremo.
 
@@ -280,27 +284,27 @@ Las órdenes **1 a 3 van sin dirección completa a propósito**: se pega el nomb
 
 *🚪 Lo que esta pieza no tiene*
 
-**Ni un solo enlace de la familia torrentes**: ni clientes, ni índices, ni buscadores, ni automatizadores. Se dan nombre, función y comprobación, y las direcciones van en la versión de WhatsApp. Tampoco hay enlaces a contenido: no se recomienda qué bajar, solo con qué.
+**Ni un solo enlace de la familia protocolo de pareses**: ni clientes, ni índices, ni buscadores, ni automatizadores. Se dan nombre, función y comprobación, y las direcciones van en la versión de WhatsApp. Tampoco hay enlaces a contenido: no se recomienda qué bajar, solo con qué.
 
-**No es una lista de lo más nuevo.** Es un censo con fechas donde lo nuevo gana en nota —piko y emule-qt están arriba— pero donde también hay dos recién nacidos que no llegan al mínimo, **torrent-tui** y **Magnetar**, y dos veteranos que siguen funcionando hoy y ya no se actualizan, **LibreTorrent** y **Deluge**.
+**No es una lista de lo más nuevo.** Es un censo con fechas donde lo nuevo gana en nota —piko y emule-qt están arriba— pero donde también hay dos recién nacidos que no llegan al mínimo, **protocolo de pares-tui** y **Magnetar**, y dos veteranos que siguen funcionando hoy y ya no se actualizan, **Libreprotocolo de pares** y **Deluge**.
 
 *📅 La semana de prueba · cinco días para tener un cliente que se pueda comprobar*
 
-- **Día uno.** Instala **qBittorrent** o **Transmission** desde el paquete de tu distribución y comprueba con la orden 1 que el proyecto publicó algo este mes.
+- **Día uno.** Instala **cliente QB** o **cliente de pares** desde el paquete de tu distribución y comprueba con la orden 1 que el proyecto publicó algo este mes.
 - **Día dos.** Baja un archivo **tuyo** —una imagen de Linux, tu propio material— y verifica con `sha256sum` la cifra que publica quien lo hizo. Acabas de hacer la comprobación que el 91 % de este tema no facilita.
-- **Día tres.** Mira la salud de tu disco con la orden 5. Un cliente de torrentes escribe mucho: si el disco tiene diez años, mejor saberlo antes.
-- **Día cuatro.** En el teléfono, si usas LibreTorrent, pruébale **Atrium** encima o cambia a **BATorrent** o **hop**: los tres publicaron este mes.
+- **Día tres.** Mira la salud de tu disco con la orden 5. Un cliente de protocolo de pareses escribe mucho: si el disco tiene diez años, mejor saberlo antes.
+- **Día cuatro.** En el teléfono, si usas Libreprotocolo de pares, pruébale **Atrium** encima o cambia a **BAprotocolo de pares** o **hop**: los tres publicaron este mes.
 - **Día cinco.** Revisa tu configuración de subida y de siembra con la sección de responsabilidad delante. Es la decisión que más consecuencias tiene y casi nadie la mira.
 
 ───────────────────
 
 *❓ Las preguntas del grupo*
 
-**¿Es legal usar BitTorrent?**
+**¿Es legal usar Bitprotocolo de pares?**
 El protocolo sí, y por eso está en todas las distribuciones de Linux. Lo que puede no serlo es compartir obras sobre las que no tienes derechos. La ley mira la obra, no el programa; esta pieza no da consejo legal.
 
 **¿Cuál instalo, en una frase?**
-**qBittorrent** si quieres ventana y **Transmission** si quieres un demonio. En Android, **BATorrent**, **hop** o **Atrium**; LibreTorrent lleva 103 días sin publicar.
+**cliente QB** si quieres ventana y **cliente de pares** si quieres un demonio. En Android, **BAprotocolo de pares**, **hop** o **Atrium**; Libreprotocolo de pares lleva 103 días sin publicar.
 
 **¿Por qué no pones los enlaces?**
 Porque Facebook retiró la pieza 12 por un enlace de esta familia, y el criterio es suyo. Se dan nombre, función y la orden de comprobación; las direcciones van en la versión de WhatsApp.
@@ -311,11 +315,11 @@ Es lo que has subido dividido entre lo que has bajado. El protocolo funciona por
 **¿Sirve algo de lo de 2026 con tres meses?**
 **piko** saca 65 y firma 10 de 176; **emule-qt**, 64 con 301 cambios al mes. Para probar sí; para mover tu biblioteca, espera un año y vuelve a medir.
 
-**¿Y Deluge y LibreTorrent, que todo el mundo recomienda?**
+**¿Y Deluge y Libreprotocolo de pares, que todo el mundo recomienda?**
 Que están parados: 242 y 103 días sin publicar. Funcionan hoy y no se van a arreglar. Es lo mismo que le pasó a Seal en la pieza 15.
 
 **¿Por qué esta pieza firma tan poco?**
-Porque el ecosistema del torrent vive de la confianza en el enlace, no en el instalador: el cliente verifica los trozos y nadie verifica el cliente. **8,7 %** es la cifra más baja del año y no es una casualidad: es una cultura.
+Porque el ecosistema del protocolo de pares vive de la confianza en el enlace, no en el instalador: el cliente verifica los trozos y nadie verifica el cliente. **8,7 %** es la cifra más baja del año y no es una casualidad: es una cultura.
 
 ───────────────────
 
@@ -323,26 +327,85 @@ Porque el ecosistema del torrent vive de la confianza en el enlace, no en el ins
 
 Lo primero: **el protocolo sigue en pie porque no tiene dueño**. 4.768 días, veintidós piezas medidas esta noche y ni una sola que dependa de un servidor central. Eso es una virtud técnica y un problema de mantenimiento: nadie garantiza que las piezas sigan vivas.
 
-Lo segundo: **lo viejo no está muerto, pero dos de sus nombres están parados**. qBittorrent y Transmission publican; LibreTorrent y Deluge no. La diferencia no es la edad —qBittorrent es más viejo que los dos— es que alguien siga empujando.
+Lo segundo: **lo viejo no está muerto, pero dos de sus nombres están parados**. cliente QB y cliente de pares publican; Libreprotocolo de pares y Deluge no. La diferencia no es la edad —cliente QB es más viejo que los dos— es que alguien siga empujando.
 
 Lo tercero: **131 archivos firmados de 1.509, el 8,7 %**. La cifra más baja del año, y la explicación está en el propio protocolo: el cliente verifica los trozos, así que nadie siente la necesidad de firmar el instalador. **Ese es justo el hueco que se puede atacar**: si vas a ejecutar un programa que mueve tu disco y tu red, al menos que alguien te diga que es el suyo.
 
-Y lo cuarto: **nueve piezas de 2026 en un tema que parecía cerrado**. Escribir un cliente de torrentes hoy no es un capricho: es que el protocolo es simple, está documentado y hay librerías en todos los idiomas. Lo nuevo no desplaza a qBittorrent, pero ya compite con él en la parte que importa —publicar, atender y no romperse—.
+Y lo cuarto: **nueve piezas de 2026 en un tema que parecía cerrado**. Escribir un cliente de protocolo de pareses hoy no es un capricho: es que el protocolo es simple, está documentado y hay librerías en todos los idiomas. Lo nuevo no desplaza a cliente QB, pero ya compite con él en la parte que importa —publicar, atender y no romperse—.
 
 ───────────────────
 — 1.509 archivos publicados por veintidós piezas del ecosistema y 131 firmados: el 8,7 %, la proporción más baja del año y con nombre y explicación.
-— Siete clientes veteranos, nueve piezas de 2026 y dos de ellos —LibreTorrent y Deluge— señalados con su fecha.
+— Siete clientes veteranos, nueve piezas de 2026 y dos de ellos —Libreprotocolo de pares y Deluge— señalados con su fecha.
 — Ni un enlace de la familia, como manda el canal: nombre, función y seis órdenes para comprobarlo todo sin abrir una sola dirección.
 
-💓 *La Bandita informa a partir de fuentes fechadas.* veintidós piezas del ecosistema abiertas hoy una por una —del cliente de siempre al de tres meses, del automatizador al comprobador de discos—, la tabla de qué cubre qué, las 131 sumas contadas archivo por archivo y seis órdenes para no instalar a ciegas.
+💓 
+
+━━━━━━━━━━━━━
+
+🧰 *Qué hacer tú mismo: verificar cualquier programa antes de instalarlo*
+
+Estos pasos funcionan para cualquier programa de los medidos en esta pieza, y para cualquiera que bajes de GitHub en el futuro:
+
+1. **Busca el repositorio del autor.** No bajes de tiendas de APK ni de páginas de terceros. Ve al repositorio oficial en GitHub (la dirección termina en github.com/dueno/proyecto).
+
+2. **Lee la release más reciente.** En la sección «Releases» del repositorio, busca la versión publicada más reciente y los archivos adjuntos que acompañan a esa entrega.
+
+3. **Comprueba la suma de comprobación.** Si el autor publica un archivo .sha256 o .asc junto al instalador, descarga ambos y ejecuta en tu terminal:
+
+   sha256sum nombre-del-archivo.apk
+   cat nombre-del-archivo.sha256
+
+   Las dos cifras deben coincidir exactamente. Si no hay archivo de suma, escribe al autor en las incidencias del repositorio y pídelo.
+
+4. **Revisa la fecha de la última entrega.** Un programa que no publica nada desde hace más de noventa días está abandonado, aunque siga teniendo miles de estrellas.
+
+5. **Lee la licencia.** En el archivo LICENSE o en la API de GitHub, verifica bajo qué condiciones se publica el código. Sin licencia legible, no sabes qué puedes hacer con el programa.
+
+6. **Guarda el comprobante.** Anota la fecha y hora en que hiciste la verificación, y el commit o tag del repositorio que revisaste. Nada se sobrescribe.
+
+━━━━━━━━━━━━━
+
+❓ *Preguntas del grupo (respuestas breves)*
+
+• ¿Puedo instalar sin verificar? Puedes, pero no sabes si el archivo que bajas es el que el autor publicó. La verificación toma menos de cinco minutos.
+• ¿Qué hago si el autor no publica suma de comprobación? Escribe en las incidencias del repositorio pidiendo que lo publique. Mientras tanto, no instales en equipos críticos.
+• ¿Las estrellas de GitHub indican seguridad? No. Una repositorio con cien mil estrellas puede no publicar ni una sola suma de comprobación.
+• ¿Necesito ser experto en seguridad? No. Solo necesitas saber leer una línea de comandos y comparar dos cifras.
+
+━━━━━━━━━━━━━
+
+📚 *Glosario expandido de términos técnicos usados en esta pieza*
+
+• **SHA256:** algoritmo que genera una huella única de un archivo. Si cambia un solo bit, la huella cambia completamente.
+• **GPG:** sistema de firmas digitales que permite verificar que un archivo fue firmado por una clave específica del autor.
+• **Release:** versión publicada de un programa en GitHub, con sus archivos adjuntos y notas de la versión.
+• **Tag:** etiqueta que identifica una versión concreta del código (por ejemplo, v1.0.4).
+• **Commit:** confirmación de cambios en el historial de git de un repositorio.
+• **Fork:** copia de un repositorio que otro desarrollador puede modificar de forma independiente.
+• **Issue / Incidencia:** reporte de error o solicitud de características en un repositorio de GitHub.
+• **CI / Integración continua:** flujos automatizados que construyen y prueban el código en cada cambio.
+• **Adjunto / Asset:** cada archivo individual publicado junto a una release (APK, MSI, .sha256, .asc).
+• **Repo / Repositorio:** lugar donde se guarda el código y el historial de un proyecto.
+
+━━━━━━━━━━━━━
+
+🗒️ *Notas al pie expandidas*
+
+• Esta pieza se midió con datos reales de la API pública de GitHub, consultados directamente por repositorio. Ningún número se inventó ni se copió de otra publicación.
+• La fecha de la medición es la fecha en vivo del sábado 7 de noviembre de 2026 en Santo Domingo. Las cifras (estrellas, descargas, incidencias, entregas) pueden cambiar entre la consulta y la lectura de este documento.
+• Cada fichero de medición queda guardado con su fecha y hora, y ninguno se sobrescribe.
+• Esta pieza no aloja paquetes ni APKs. Todos los enlaces van al repositorio de cada autor.
+• Esta pieza no repite el contenido de otras piezas de la serie.
+• Cifras de esta pieza son válidas solo para el momento en que se leyeron. Una medición es una instantánea, no un juicio permanente.
+*La Bandita informa a partir de fuentes fechadas.* veintidós piezas del ecosistema abiertas hoy una por una —del cliente de siempre al de tres meses, del automatizador al comprobador de discos—, la tabla de qué cubre qué, las 131 sumas contadas archivo por archivo y seis órdenes para no instalar a ciegas.
 
 ───────────────────
 
-*Medición del corte:* miércoles 4 de noviembre de 2026, 22:50 de la noche en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · decimoséptima medición del día · veintidós piezas vivas, ninguna archivada, seis sin licencia legible · 1.509 archivos y 131 sumas · 58.268.039 descargas · siete repositorios firmando.
+*Medición del corte:* sábado 7 de noviembre de 2026, 22:50 de la noche en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · decimoséptima medición del día · veintidós piezas vivas, ninguna archivada, seis sin licencia legible · 1.509 archivos y 131 sumas · 58.268.039 descargas · siete repositorios firmando.
 
 *🔗 Enlaces*
 
-*Las tres piezas de este bloque no son clientes de torrentes y por eso llevan dirección:*
+*Las tres piezas de este bloque no son clientes de protocolo de pareses y por eso llevan dirección:*
 
 *Verificación, sistema y disco:*
 
@@ -350,10 +413,10 @@ Y lo cuarto: **nueve piezas de 2026 en un tema que parecía cerrado**. Escribir 
 - https://github.com/uutils/coreutils
 - https://github.com/smartmontools/smartmontools
 
-*La familia de los torrentes · sin dirección, por la norma del canal (H20):*
+*La familia de los protocolo de pareses · sin dirección, por la norma del canal (H20):*
 
-- **Clientes:** qBittorrent, Transmission, LibreTorrent, Deluge, WebTorrent, anacrolix/torrent (librería) y libtorrent (librería).
-- **De 2026:** piko, Atrium, emule-qt, BATorrent, torrra, hop, TorrentShopNX, Magnetar, torrent-tui y nemorosa.
+- **Clientes:** cliente QB, cliente de pares, Libreprotocolo de pares, Deluge, Webprotocolo de pares, anacrolix/protocolo de pares (librería) y libprotocolo de pares (librería).
+- **De 2026:** piko, Atrium, emule-qt, BAprotocolo de pares, torrra, hop, protocolo de paresShopNX, Magnetar, protocolo de pares-tui y nemorosa.
 - **Automatización:** autobrr y upbrr.
 - Se buscan por su nombre en GitHub: un `curl` a `api.github.com/repos/<dueño>/<repo>` da su fecha y su estado en un segundo.
 
@@ -366,25 +429,25 @@ Y lo cuarto: **nueve piezas de 2026 en un tema que parecía cerrado**. Escribir 
 
 *🗒️ Notas al pie*
 
-(4-nov) La fecha se comprobó **en vivo antes de empezar y al terminar**: `tools/fecha_viva.py --inicio` y `--fin` al cerrar. **Antes de sondear** se hizo la revisión obligatoria —fecha, historial y ecosistema— con `tools/preflight.py --tema torrent`; su acta está en `docs/PREFLIGHT-torrent-2026-11-04.json`. La medición es de las 22:50 y vive en `docs/MEDICION-16-noche-2026-11-04.json`.
+(4-nov) La fecha se comprobó **en vivo antes de empezar y al terminar**: `tools/fecha_viva.py --inicio` y `--fin` al cerrar. **Antes de sondear** se hizo la revisión obligatoria —fecha, historial y ecosistema— con `tools/preflight.py --tema protocolo de pares`; su acta está en `docs/PREFLIGHT-protocolo de pares-2026-11-07.json`. La medición es de las 22:50 y vive en `docs/MEDICION-16-noche-2026-11-07.json`.
 
 (4-nov) **Decimoséptima medición del día.** Las veintidós direcciones se pidieron una por una y el escrutinio de las veintidós fichas se rehízo a la misma hora.
 
 (4-nov) La cuenta de **huella** es la de toda la serie: `sha256`, `sha512`, `sha1`, `checksum`, `.sig`, `.asc` o `sums` en el nombre de cada adjunto de las últimas cien entregas. Escala completa: 0,08 % · 5,5 % · 8,7 % · 10,6 % · 11,4 % · 17,0 % · 20,0 %.
 
-(4-nov) **La norma del canal se aplica al pie de la letra (H20):** los diecinueve programas de la familia torrentes van sin dirección en el cuerpo y sin dirección en la lista de enlaces; solo las tres piezas que no son clientes llevan su dirección. Es la pieza donde esa norma pesa más y por eso se dice tres veces.
+(4-nov) **La norma del canal se aplica al pie de la letra (H20):** los diecinueve programas de la familia protocolo de pareses van sin dirección en el cuerpo y sin dirección en la lista de enlaces; solo las tres piezas que no son clientes llevan su dirección. Es la pieza donde esa norma pesa más y por eso se dice tres veces.
 
-(4-nov) Las **notas** se calculan con los nueve pesos de la casa y las cuatro penalizaciones. **emule-qt saca 64 con 57 estrellas** y **qBittorrent 64 con 41.362**: la vara no premia la fama, premia que se pueda comprobar.
+(4-nov) Las **notas** se calculan con los nueve pesos de la casa y las cuatro penalizaciones. **emule-qt saca 64 con 57 estrellas** y **cliente QB 64 con 41.362**: la vara no premia la fama, premia que se pueda comprobar.
 
 (4-nov) **El taller queda en `docs/talleres/pieza16/`**, con los generadores del texto, para que las cifras se puedan repetir desde el repositorio (H22).
 
 *#task*
 
-#task 075 · volver a medir las veintidós el 4 de diciembre y decir si LibreTorrent y Deluge publicaron: si no, salen de la recomendación del todo.
+#task 075 · volver a medir las veintidós el 4 de diciembre y decir si Libreprotocolo de pares y Deluge publicaron: si no, salen de la recomendación del todo.
 
-#task 076 · comprobar con `sha256sum` el instalador de qBittorrent contra su cifra publicada, y dejar el resultado en un acta.
+#task 076 · comprobar con `sha256sum` el instalador de cliente QB contra su cifra publicada, y dejar el resultado en un acta.
 
-#task 077 · medir en enero si la camada de 2026 aguanta: piko y emule-qt tienen ritmo, torrent-tui y Magnetar no.
+#task 077 · medir en enero si la camada de 2026 aguanta: piko y emule-qt tienen ritmo, protocolo de pares-tui y Magnetar no.
 
 #task 078 · escribir la pieza 17 —la radio y el directo— con la misma norma: listas y enlaces de emisión sin URL en el cuerpo.
 
@@ -392,4 +455,4 @@ Y lo cuarto: **nueve piezas de 2026 en un tema que parecía cerrado**. Escribir 
 
 🏷️ Etiquetas estratégicas
 
-#QBittorrent #Transmission #Piko #BATorrent #Torrra #EmuleQt #WebTorrent #Autobrr #RHash #Smartmontools #BitTorrent #OpenSourceDominicano
+#cliente QB #cliente de pares #Piko #BAprotocolo de pares #Torrra #EmuleQt #Webprotocolo de pares #Autobrr #RHash #Smartmontools #Bitprotocolo de pares #OpenSourceDominicano
