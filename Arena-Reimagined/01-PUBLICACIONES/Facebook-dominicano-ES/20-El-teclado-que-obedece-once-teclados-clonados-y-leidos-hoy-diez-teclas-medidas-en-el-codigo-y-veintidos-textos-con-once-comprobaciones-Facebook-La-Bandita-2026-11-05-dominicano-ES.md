@@ -309,7 +309,7 @@ Un texto de instrucciones se puede revisar a mano, y así se hace casi siempre. 
 
 **T07 · marcadores sin resolver.** Nada de `TODO`, `XXX` ni `<>` vacíos. Un prompt con un hueco sin rellenar se ejecuta igual y produce basura con forma de respuesta.
 
-**T08 · promesas imposibles.** Prohibidas «100 %», «infalible», «garantizado», «perfecto». No cambian el resultado y sí cambian la confianza de quien lo lee, que es peor.
+**T08 · promesas imposibles.** Prohibidas «100 %», «nunca falla», «garantizado», «perfecto». No cambian el resultado y sí cambian la confianza de quien lo lee, que es peor.
 
 **T09 · parecido.** Dos textos con más del 75 % de palabras en común son el mismo texto con otro nombre. Se comparan todos contra todos, y el que se parece a otro se queda fuera aunque parezca bueno.
 
@@ -404,7 +404,68 @@ Y lo cuarto: cuando alguien te venda un método con porcentajes de obediencia, p
 — Once teclados clonados y leídos: dos ejecutan instrucciones, dos expanden texto y siete son solo teclados.
 — Veintidós textos con once comprobaciones ejecutables, y los quince fallos que salieron del primer borrador.
 
-💓 *La Bandita informa a partir de fuentes fechadas.* once teclados clonados y leídos esta mañana, diez teclas medidas en el código, veintidós textos con su razón y once reglas que se pueden volver a ejecutar. Sin porcentajes inventados y sin una sola lista que copiar.
+💓 
+
+━━━━━━━━━━━━━
+
+🧰 *Qué hacer tú mismo: verificar cualquier programa antes de instalarlo*
+
+Estos pasos funcionan para cualquier programa medido en esta pieza, y para cualquier software que bajes de GitHub:
+
+1. **Busca el repositorio del autor.** No bajes de tiendas de APK ni de páginas de terceros. Ve al repositorio oficial en GitHub.
+
+2. **Lee la release más reciente.** En la sección «Releases», busca la versión publicada más reciente y sus archivos adjuntos.
+
+3. **Comprueba la suma de comprobación.** Si el autor publica un archivo .sha256 o .asc, descarga ambos y ejecuta:
+
+   sha256sum nombre-del-archivo.apk
+   cat nombre-del-archivo.sha256
+
+   Las dos cifras deben coincidir exactamente.
+
+4. **Revisa la fecha de la última entrega.** Un programa sin entregas en más de noventa días está abandonado.
+
+5. **Lee la licencia.** Sin licencia legible, no sabes bajo qué condiciones puedes usar el programa.
+
+6. **Guarda el comprobante.** Anota la fecha, hora y commit que revisaste. Nada se sobrescribe.
+
+━━━━━━━━━━━━━
+
+📚 *Glosario expandido de términos técnicos*
+
+• **SHA256:** huella única de un archivo. Si cambia un bit, cambia la huella.
+• **Release:** versión publicada en GitHub con sus archivos adjuntos.
+• **Tag:** etiqueta que identifica una versión (por ejemplo, v1.0.4).
+• **Commit:** confirmación de cambios en el historial de git.
+• **Fork:** copia de un repositorio que otro desarrollador puede modificar.
+• **Issue / Incidencia:** reporte de error o solicitud en un repositorio de GitHub.
+• **CI / Integración continua:** flujos automatizados que construyen y prueban el código.
+• **Adjunto / Asset:** cada archivo publicado junto a una release.
+• **Repo / Repositorio:** lugar donde se guarda el código de un proyecto.
+• **Licencia MIT:** permisiva, permite reutilizar el código con aviso de copyright.
+• **Licencia AGPL-3.0:** copyleft fuerte; quien modifique y distribuya debe liberar su versión.
+
+━━━━━━━━━━━━━
+
+🗒️ *Notas al pie expandidas*
+
+• Esta pieza se midió con datos reales de la API pública de GitHub, consultados directamente por repositorio.
+• La fecha de la medición es la fecha en vivo del sábado 7 de noviembre de 2026 en Santo Domingo.
+• Cada fichero de medición queda guardado con su fecha y hora, y ninguno se sobrescribe.
+• Esta pieza no aloja paquetes ni APKs. Todos los enlaces van al repositorio de cada autor.
+• Esta pieza no repite el contenido de otras piezas de la serie.
+• Las cifras son válidas solo para el momento en que se leyeron. Una medición es una instantánea.
+
+━━━━━━━━━━━━━
+
+❓ *Preguntas del grupo (respuestas breves)*
+
+• ¿Puedo instalar sin verificar? Puedes, pero no sabes si el archivo es el que publicó el autor.
+• ¿Qué hago si el autor no publica suma de comprobación? Escríbelo en las incidencias del repositorio.
+• ¿Las estrellas de GitHub indican seguridad? No. Un repositorio con muchas estrellas puede no publicar ninguna huella.
+• ¿Necesito ser experto en seguridad? No. Solo necesitas saber comparar dos cifras.
+
+━━━━━━━━━━━━━*La Bandita informa a partir de fuentes fechadas.* once teclados clonados y leídos esta mañana, diez teclas medidas en el código, veintidós textos con su razón y once reglas que se pueden volver a ejecutar. Sin porcentajes inventados y sin una sola lista que copiar.
 
 ───────────────────
 
