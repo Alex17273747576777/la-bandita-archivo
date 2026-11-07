@@ -473,7 +473,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 56 repositorios que cita esta pi
 • Kototoro-app/Kototoro — ★674 · empujó en las últimas horas · Apache-2.0 · última release v2.3.11 (6-nov-2026)
 • itsmechinmoy/echo — sin dato hoy (la API no respondió). No afirmo nada.
 • itsmechinmoy/echo-nightly — ★390 · *dormido*: sin empujar desde el 22-ago-2026 (77 días) · NOASSERTION · última release nightly-20260402-172557-aafa008 (2-abr-2026)
-• mihonapp/mihon — ★25.085 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
+• mihonapp/mihon — ★25.086 · empujó en las últimas horas · Apache-2.0 · última release v0.21.3 (25-oct-2026)
 • komikku-app/anikku — ★1.134 · empujó en las últimas horas · Apache-2.0 · última release v0.2.0 (11-sep-2026)
 • recloudstream/cloudstream — ★11.169 · empujó en las últimas horas · GPL-3.0 · última release v4.8.0 (10-jul-2026)
 • kodjodevf/mangayomi — ★4.401 · empujó en las últimas horas · Apache-2.0 · última release v0.9.95 (1-nov-2026)
@@ -497,7 +497,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 56 repositorios que cita esta pi
 • Hotaro26/miko — ★34 · *dormido*: sin empujar desde el 11-sep-2026 (57 días) · sin licencia detectada por la API · última release v3.3 (3-ago-2026)
 • Ero-gamer/Weeber — ★1 · empujó en las últimas horas · GPL-3.0
 • Nyora-Manga/nyora-android — ★61 · empujó el 23-sep-2026 (hace 45 días) · GPL-3.0 · última release v2.7.3 (31-jul-2026)
-• KotatsuApp/Kotatsu — ★8.956 · *dormido*: sin empujar desde el 4-nov-2025 (368 días) · GPL-3.0 · *ARCHIVADO*
+• KotatsuApp/Kotatsu — ★8.957 · *dormido*: sin empujar desde el 4-nov-2025 (368 días) · GPL-3.0 · *ARCHIVADO*
 • Suwayomi/Suwayomi-Tsumiru — ★118 · empujó en las últimas horas · MPL-2.0 · última release v1.6.4 (2-nov-2026)
 • Suwayomi/Suwayomi-JUI — ★497 · empujó el 15-oct-2026 (hace 23 días) · MPL-2.0 · última release v1.3.3 (31-mar-2024)
 • Suwayomi/Suwayomi-VaadinUI — ★50 · empujó el 18-oct-2026 (hace 20 días) · MPL-2.0 · última release v2.0.3 (18-oct-2026)

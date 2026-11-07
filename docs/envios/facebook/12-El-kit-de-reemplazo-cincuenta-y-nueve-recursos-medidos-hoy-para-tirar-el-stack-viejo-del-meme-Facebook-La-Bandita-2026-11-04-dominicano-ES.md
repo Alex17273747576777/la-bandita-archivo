@@ -491,16 +491,16 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 51 repositorios que cita esta pi
 • TrackerControl/tracker-control-android — ★2.727 · empujó el 2-nov-2026 (hace 5 días) · GPL-3.0 · última release 2026110101 (1-nov-2026)
 • Exodus-Privacy/exodus — ★814 · *dormido*: sin empujar desde el 13-sep-2026 (55 días) · AGPL-3.0 · última release v1.33.0 (13-sep-2026)
 • samyak2403/RepoStore — ★1.382 · empujó el 29-oct-2026 (hace 9 días) · MIT · última release v1.0.22 (29-oct-2026)
-• NuvioMedia/NuvioMobile — ★4.445 · empujó en las últimas horas · GPL-3.0 · última release 0.6.9-beta (6-nov-2026)
+• NuvioMedia/NuvioMobile — ★4.446 · empujó en las últimas horas · GPL-3.0 · última release 0.6.9-beta (6-nov-2026)
 • NuvioMedia/NuvioTV — ★3.396 · empujó en las últimas horas · GPL-3.0 · última release 1.0.0 (19-sep-2026)
-• NuvioMedia/NuvioDesktop — ★1.955 · empujó en las últimas horas · GPL-3.0 · última release 0.1.35-alpha (6-nov-2026)
+• NuvioMedia/NuvioDesktop — ★1.956 · empujó en las últimas horas · GPL-3.0 · última release 0.1.35-alpha (6-nov-2026)
 • NuvioMedia/NuvioTVSmart — ★861 · empujó en las últimas horas · GPL-3.0 · última release 1.3.7 (6-nov-2026)
 • JJDizz1L/NuvioLinux-unofficial — ★51 · empujó en las últimas horas · GPL-3.0 · última release v0.1.35alpha-1 (6-nov-2026)
 • Viren070/AIOStreams — ★3.109 · empujó en las últimas horas · AGPL-3.0 · última release v2.37.0 (23-oct-2026)
 • alpinezx/easy-aiostreams — ★58 · empujó en las últimas horas · MIT · última release v1.6.0 (6-nov-2026)
 • s4pp1/stremhu-source — ★177 · empujó el 23-oct-2026 (hace 15 días) · GPL-3.0 · última release v0.25.5 (17-oct-2026)
 • ohadhaviv92/streamgram — ★25 · empujó el 24-oct-2026 (hace 14 días) · GPL-3.0
-• Eful97/Pictorium — ★92 · empujó en las últimas horas · AGPL-3.0 · última release v1.27.0 (5-nov-2026)
+• Eful97/Pictorium — ★93 · empujó en las últimas horas · AGPL-3.0 · última release v1.27.0 (5-nov-2026)
 • SkipDB-TV/skipdb — ★38 · empujó en las últimas horas · AGPL-3.0 · última release data-2026-11-06 (6-nov-2026)
 • atharvkharbade/anisync-addon — ★25 · empujó en las últimas horas · MIT · última release v1.5.2 (7-nov-2026)
 • debpalash/Opal — ★128 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v0.9.3 (3-nov-2026)
@@ -525,7 +525,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 51 repositorios que cita esta pi
 • ahXN00/OwnTV — ★748 · empujó en las últimas horas · GPL-3.0 · última release v5.2.1 (21-oct-2026)
 • HatriGt/flix-launcher — ★21 · empujó en las últimas horas · MIT · última release v1.0.23 (7-nov-2026)
 • joaotolovi/m3u-mux-addon-stremio — ★19 · *dormido*: sin empujar desde el 1-sep-2026 (67 días) · MIT
-• mochi-plugins/repository — ★49 · *dormido*: sin empujar desde el 13-sep-2026 (55 días) · GPL-3.0 · última release bae934b (19-jun-2026)
+• mochi-plugins/repository — ★50 · *dormido*: sin empujar desde el 13-sep-2026 (55 días) · GPL-3.0 · última release bae934b (19-jun-2026)
 • kuiti/manga-source-index — ★6 · empujó el 18-oct-2026 (hace 20 días) · MIT · última release v1.0.0-all-sources (23-sep-2026)
 • akachiina/wotoha — ★0 · empujó el 22-oct-2026 (hace 16 días) · MIT
 • arranoust/yomu — ★2 · *dormido*: sin empujar desde el 15-ago-2026 (84 días) · GPL-3.0 · última release 46cf5ad (15-ago-2026)

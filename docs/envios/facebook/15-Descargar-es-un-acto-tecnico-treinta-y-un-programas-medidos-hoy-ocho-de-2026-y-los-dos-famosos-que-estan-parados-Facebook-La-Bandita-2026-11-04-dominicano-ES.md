@@ -490,19 +490,19 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 31 repositorios que cita esta pi
 • GopeedLab/gopeed — ★27.478 · empujó en las últimas horas · GPL-3.0 · última release v1.9.3 (18-mar-2026)
 • agalwood/Motrix — ★57.906 · empujó el 5-nov-2026 (hace 2 días) · NOASSERTION · última release v2.3.0 (5-nov-2026)
 • subhra74/xdm — ★8.336 · empujó el 5-nov-2026 (hace 2 días) · GPL-3.0 · última release v9.0.9 (1-nov-2026)
-• Tyrrrz/YoutubeDownloader — ★16.657 · empujó en las últimas horas · MIT · última release 1.17.1 (25-oct-2026)
+• Tyrrrz/YoutubeDownloader — ★16.658 · empujó en las últimas horas · MIT · última release 1.17.1 (25-oct-2026)
 • persepolisdm/persepolis — ★7.495 · *dormido*: sin empujar desde el 9-oct-2025 (394 días) · GPL-3.0 · última release 5.2.0 (14-jul-2025)
 • uget/uget — ★50 · *dormido*: sin empujar desde el 11-may-2019 (2737 días) · NOASSERTION
-• deniscerri/ytdlnis — ★11.001 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
+• deniscerri/ytdlnis — ★11.002 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
 • yausername/youtubedl-android — ★1.381 · *dormido*: sin empujar desde el 16-nov-2025 (356 días) · GPL-3.0
-• JunkFood02/Seal — ★30.408 · empujó el 25-sep-2026 (hace 43 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
-• yt-dlp/yt-dlp — ★205.878 · empujó el 4-nov-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
+• JunkFood02/Seal — ★30.409 · empujó el 25-sep-2026 (hace 43 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
+• yt-dlp/yt-dlp — ★205.880 · empujó el 4-nov-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
 • iawia002/lux — ★31.825 · *dormido*: sin empujar desde el 29-mar-2026 (223 días) · MIT · última release v0.24.1 (6-may-2024)
 • soimort/you-get — ★56.857 · empujó el 6-oct-2026 (hace 32 días) · NOASSERTION · última release v0.4.1743 (4-ene-2025)
 • mikf/gallery-dl — ★20.405 · empujó el 31-oct-2026 (hace 7 días) · GPL-2.0 · última release v1.32.19 (31-oct-2026)
 • AnInsomniacy/rayburst — ★11.412 · empujó el 5-nov-2026 (hace 2 días) · MIT · última release v4.1.1 (25-oct-2026)
 • rawnaldclark/Stash — ★1.567 · empujó en las últimas horas · GPL-3.0 · última release v0.9.123 (3-nov-2026)
-• Downvid/downvid — ★1.211 · empujó en las últimas horas · MIT · última release v1.10.0 (6-nov-2026)
+• Downvid/downvid — ★1.212 · empujó en las últimas horas · MIT · última release v1.10.0 (6-nov-2026)
 • FortoGraphy/prism-download-manager — ★774 · empujó el 1-nov-2026 (hace 6 días) · MIT · última release v1.2.4 (1-nov-2026)
 • mesamirh/MovieBox-Tui — ★2.778 · empujó el 5-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.1.29 (5-nov-2026)
 • arnoldhao/xiadown — ★759 · *dormido*: sin empujar desde el 27-jul-2026 (103 días) · Apache-2.0 · última release v1.0.4 (27-jul-2026)
@@ -512,7 +512,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 31 repositorios que cita esta pi
 
 ═══ MENSAJE 19 de 21 · 155 caracteres ═══
 
-• BareBrowser/bare-browser — ★729 · empujó el 3-nov-2026 (hace 4 días) · BSD-3-Clause · última release v1.0.1 (21-oct-2026)
+• BareBrowser/bare-browser — ★730 · empujó el 3-nov-2026 (hace 4 días) · BSD-3-Clause · última release v1.0.1 (21-oct-2026)
 
 ⏬ sigue abajo · parte 18 de 20
 

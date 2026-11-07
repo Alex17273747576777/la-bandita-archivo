@@ -418,12 +418,12 @@ Y los tres que cierran la lista:
 
 Medí otra vez, hoy 7 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• rclone/rclone — ★60.843 · empujó en las últimas horas · MIT · última release v1.76.0 (6-nov-2026)
-• immich-app/immich — ★118.432 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
-• localsend/localsend — ★97.680 · empujó el 2-nov-2026 (hace 5 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• rclone/rclone — ★60.845 · empujó en las últimas horas · MIT · última release v1.76.0 (6-nov-2026)
+• immich-app/immich — ★118.434 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
+• localsend/localsend — ★97.687 · empujó el 2-nov-2026 (hace 5 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
 • nextcloud/server — ★37.436 · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
 • restic/restic — ★37.041 · empujó en las últimas horas · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
-• researchxxl/syncthing-android — ★3.265 · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
+• researchxxl/syncthing-android — ★3.266 · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)
 • Ghostpanter/ghost-files — ★15 · empujó el 5-nov-2026 (hace 2 días) · MIT · última release v0.7.3 (5-nov-2026)
 • ZENINXOP/Hexora — ★30 · empujó el 17-oct-2026 (hace 21 días) · GPL-3.0 · última release v0.1.4 (17-oct-2026)
 • BugeStudioTeam/Buge-Files — ★42 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release 1.16.19 (4-nov-2026)
@@ -433,7 +433,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 17 repositorios que cita esta pi
 • dev2ex/twig — ★112 · empujó en las últimas horas · GPL-3.0 · última release v1.18.0 (6-nov-2026)
 • xtt-xt/MCPBox — ★7 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.4.0 (25-oct-2026)
 • zhanghai/MaterialFiles — ★9.414 · empujó el 15-oct-2026 (hace 23 días) · GPL-3.0 · última release v1.7.5 (20-sep-2026)
-• XayahSuSuSu/Android-DataBackup — ★7.573 · empujó el 25-oct-2026 (hace 13 días) · GPL-3.0 · última release 2.0.12 (20-sep-2025)
+• XayahSuSuSu/Android-DataBackup — ★7.574 · empujó el 25-oct-2026 (hace 13 días) · GPL-3.0 · última release 2.0.12 (20-sep-2025)
 • NeoApplications/Neo-Backup — ★3.902 · empujó el 4-nov-2026 (hace 3 días) · AGPL-3.0 · última release 8.3.18 (3-may-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*

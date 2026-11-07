@@ -8,7 +8,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 |---|---|---|---|---|---|---|---|
 | 01 | La huella o el silencio: quince programas de octubre, dos que firman l | 9 | 3663 | 15 | 0 | no | `01-La-huella-o-el-silencio-quince-programas-de-octubre-dos-que-firman-y-trece-que-piden-fe-Facebook-La-Bandita-2026-11-07-dominicano-ES` |
 | 02 | La música que no se cae: veintiún repositorios de audio, uno que firma | 7 | 3680 | 22 | 0 | no | `02-La-musica-que-no-se-cae-veintiun-repositorios-de-audio-siete-que-firman-y-catorce-que-no-Facebook-La-Bandita-2026-11-07-dominicano-ES` |
-| 03 | La caja fuerte del bolsillo: una de catorce te da la huella, cuatro ll | 19 | 3526 | 14 | 0 | no | `03-La-caja-fuerte-del-bolsillo-una-de-catorce-te-da-la-huella-cuatro-llevan-anos-paradas-y-dos-se-reservan-los-derechos-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
+| 03 | La caja fuerte del bolsillo: catorce gestores de contraseñas, ninguno  | 7 | 3653 | 14 | 0 | no | `03-La-caja-fuerte-del-bolsillo-catorce-gestores-de-contraseñas-uno-que-no-firma-y-trece-que-piden-fe-Facebook-La-Bandita-2026-11-07-dominicano-ES` |
 | 04 | La lista del permiso: seis de veintiséis dan la huella, trece nacieron | 20 | 3645 | 26 | 0 | no | `04-La-lista-del-permiso-seis-de-veintiseis-dan-la-huella-trece-nacieron-en-el-trimestre-y-el-tronco-lleva-quinientos-cuatro-dias-sin-empujar-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 05 | La guía maestra: doce capítulos, setenta fichas medidas hoy y veintidó | 19 | 3947 | 31 | 0 | no | `05-La-guia-maestra-doce-capitulos-sesenta-y-seis-cifras-que-se-movieron-y-veintidos-fichas-que-te-dan-con-que-comprobar-el-archivo-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 06 | El taller de los parches: los gestores firman cincuenta y cinco de sus | 18 | 3653 | 18 | 0 | no | `06-El-taller-los-gestores-de-parches-firman-cincuenta-y-cinco-de-sus-ciento-noventa-archivos-y-los-conjuntos-de-parches-no-firman-ninguno-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
@@ -30,6 +30,6 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 22 | El modulo que no necesita root AxManager su plugin y los siete ecosist | 20 | 3319 | 24 | 2 | no | `22-El-modulo-que-no-necesita-root-AxManager-su-plugin-y-los-siete-ecosistemas-contados-hoy-Facebook-La-Bandita-2026-11-05-dominicano-ES` |
 | 25 | El escáner de bolsillo: del papel al PDF legible, con Umi-OCR y episte | 6 | 3558 | 2 | 0 | no | `25-El-scanner-de-bolsillo-del-papel-al-PDF-legible-Umi-OCR-y-episteme-Facebook-La-Bandita-2026-11-06-dominicano-ES` |
 
-**23 piezas · 412 mensajes** · el mayor de todos: 3947 caracteres.
+**23 piezas · 400 mensajes** · el mayor de todos: 3947 caracteres.
 
 

@@ -511,7 +511,7 @@ Y lo cuarto: cuando alguien te venda un método con porcentajes de obediencia, p
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 1898 caracteres ═══
+═══ MENSAJE 18 de 19 · 2097 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 20*
 
@@ -525,16 +525,17 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 12 repositorios que cita esta pi
 • florisboard/florisboard — ★8.758 · empujó el 5-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.5.2 (28-nov-2025)
 • Julow/Unexpected-Keyboard — ★3.338 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release 2.2.0 (1-nov-2026)
 • dessalines/thumb-key — ★1.571 · empujó en las últimas horas · AGPL-3.0 · última release 5.1.20 (2-nov-2026)
-• osfans/trime — ★4.783 · empujó en las últimas horas · GPL-3.0 · última release v3.3.13 (1-nov-2026)
-• fcitx5-android/fcitx5-android — ★5.845 · empujó el 13-oct-2026 (hace 25 días) · LGPL-2.1 · última release 0.1.3 (26-jul-2026)
+• osfans/trime — ★4.784 · empujó en las últimas horas · GPL-3.0 · última release v3.3.13 (1-nov-2026)
+• fcitx5-android/fcitx5-android — ★5.846 · empujó el 13-oct-2026 (hace 25 días) · LGPL-2.1 · última release 0.1.3 (26-jul-2026)
 • futo-org/android-keyboard — ★3.452 · empujó el 2-nov-2026 (hace 5 días) · NOASSERTION · última release 0.1.30 (4-ago-2026)
 • rkkr/simple-keyboard — ★1.608 · empujó el 22-oct-2026 (hace 16 días) · Apache-2.0 · última release 149 (22-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 14 enlaces de esta pieza, *13 responden*.
+De los 14 enlaces de esta pieza, *12 responden*.
 
 • https://github.com/AnySoftKeyboard/AnySoftKeyboard/blob/main/ime/addons/quick_text/src/main/res/xml/quick_text_keys.xml — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://github.com/LeanBitLab/LeanType/blob/main/app/src/main/java/helium314/keyboard/latin/utils/CustomAIKeyText.kt — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 17 de 18
 

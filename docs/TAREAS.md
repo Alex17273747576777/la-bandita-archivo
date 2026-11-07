@@ -2,7 +2,7 @@
 
 *Generado por `tools/tareas.py` el día que se corre. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 101 tareas abiertas en 30 piezas vivas, numeradas dentro de cada pieza, de 007 a 115. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
+**TL;DR —** 91 tareas abiertas en 28 piezas vivas, numeradas dentro de cada pieza, de 007 a 116. Numeración sin huecos ni repetidos dentro de cada pieza. El tablero se regenera con `make tareas` y la integración continua comprueba que no haya huecos.
 
 ## De dónde salen
 
@@ -15,20 +15,16 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 007 | remedir el 3 de diciembre de 2026 las nueve fichas de menos de quinientas estrellas, empezando por OmniShizuku y TVSlim, y publicar cuáles siguieron publicando. | WhatsApp · 05 | 2026-11-03 |
 | 008 | pedir al archivo público la conservación de las doce revisiones de los capítulos y anotar el número de solicitud en cada acta. | WhatsApp · 05 | 2026-11-03 |
 | 009 | abrir en sus repositorios los cuatro casos de nota por debajo de treinta, proponiendo la corrección del archivo de licencia o del canal de seguridad, que es lo que la nota señala. | WhatsApp · 05 | 2026-11-03 |
-| 010 | volver a contar las huellas de los doce el 11 de noviembre de 2026 y publicar cuántos proyectos respondieron al pedido de la orden cinco. | Facebook · 01 | 2026-11-04 |
-| 011 | repetir el censo de las 875 fichas del trimestre el 4 de diciembre de 2026 con la misma orden, y comparar cuántas siguieron publicando y cuántas se quedaron quietas. | Facebook · 01 | 2026-11-04 |
-| 012 | pedir el Scorecard de los quince a OpenSSF por la vía pública, para que la próxima medición pueda usar los cien puntos y no ochenta. | Facebook · 01 | 2026-11-04 |
-| 013 | comprobar el 4 de mayo de 2027 si alguno de los quince publica una atestación verificable, y si la hay, correr la orden seis contra ella y publicar el resultado. | Facebook · 01 | 2026-11-04 |
-| 014 | volver a contar las huellas de los veintiuno el 11 de noviembre de 2026 y publicar cuántos proyectos respondieron al pedido de la orden seis. | Facebook · 02 | 2026-11-04 |
-| 015 | repetir el censo de audio el 4 de diciembre de 2026 con la misma orden y comparar cuántos de los 121 siguieron publicando y cuántos se quedaron quietos. | Facebook · 02 | 2026-11-04 |
-| 016 | pedir el Scorecard de los veintiuno a OpenSSF por la vía pública, para que la próxima medición use cien puntos y no ochenta. | Facebook · 02 | 2026-11-04 |
-| 017 | comprobar el 4 de mayo de 2027 si alguno de los veintiuno publica una atestación verificable, y si la hay, correr la orden cuatro contra ella y publicar el resultado. | Facebook · 02 | 2026-11-04 |
-| 018 | volver a contar las huellas de las catorce el 11 de noviembre de 2026 y publicar cuántas respondieron al pedido de la orden seis. | Facebook · 03 | 2026-11-04 |
-| 019 | medir el tema de las cajas fuertes con palabras de búsqueda más anchas y ampliar el censo, hoy limitado a once fichas, antes del 4 de diciembre de 2026. | Facebook · 03 | 2026-11-04 |
-| 020 | comprobar el 4 de mayo de 2027 si alguna de las catorce publica una atestación verificable y, si la hay, correr la orden cuatro contra ella. | Facebook · 03 | 2026-11-04 |
-| 021 | pedir el Scorecard de las dieciséis a OpenSSF por la vía pública, para que la próxima medición use cien puntos y no ochenta. | Facebook · 03 | 2026-11-04 |
+| 016 | volver a medir estos quince repositorios el 14 de noviembre de 2026 con el mismo despiece campo a campo y publicar cuántos de los trece que no firman añadieron un archivo de huella en su release más reciente. | Facebook · 01 | 2026-11-07 |
+| 017 | comprobar el 7 de diciembre de 2026 si alguno de los quince cambió de licencia, dejó de tener release etiquetado o pasó a archivado. | Facebook · 01 | 2026-11-07 |
+| 018 | solicitar el Scorecard de OpenSSF para los quince por la vía pública, para que la próxima medición use los cien puntos y no solo los ochenta que permite la API de repositorios. | Facebook · 01 | 2026-11-07 |
+| 018 | volver a medir estos veintiún repositorios el 14 de noviembre de 2026 y publicar cuántos de los veinte que no firman añadieron un archivo de huella. | Facebook · 02 | 2026-11-07 |
+| 019 | comprobar el 7 de diciembre de 2026 si alguno de los veintiún dejó de tener release etiquetado o cambió de licencia. | Facebook · 02 | 2026-11-07 |
+| 022 | volver a medir estos catorce repositorios el 14 de noviembre de 2026 y publicar cuántos de los catorce añadieron un archivo de huella en su release más reciente. | Facebook · 03 | 2026-11-07 |
 | 022 | volver a contar las huellas de los veintiséis el 11 de noviembre de 2026 y publicar cuántos respondieron, con la misma vara de hoy: adjunto con suma en las últimas entregas. | Facebook · 04 | 2026-11-04 |
+| 023 | comprobar el 7 de diciembre de 2026 si alguno de los catorce cambió de licencia, dejó de tener release etiquetado o pasó a archivado. | Facebook · 03 | 2026-11-07 |
 | 023 | comprobar el 4 de diciembre de 2026 si el tronco, Shizuku, sigue en quinientos treinta y cinco días sin empujar o si volvió a moverse, y decirlo con la fecha nueva. | Facebook · 04 | 2026-11-04 |
+| 024 | solicitar el Scorecard de OpenSSF para los catorce por la vía pública, para que la próxima medición use los cien puntos y no solo los ochenta que permite la API de repositorios. | Facebook · 03 | 2026-11-07 |
 | 024 | medir el 4 de febrero de 2027 si alguna de las bifurcaciones nuevas —porter, Shizuku-Next, Nightzuku, Shizako— publica atestación verificable además de la suma, y correr contra ella la orden cinco. | Facebook · 04 | 2026-11-04 |
 | 025 | ampliar el censo del tema con palabras más anchas antes del 4 de mayo de 2027: hoy son 454 fichas por nombre y descripción, y el registro creció por otra puerta. | Facebook · 04 | 2026-11-04 |
 | 026 | volver a medir las setenta fichas el 11 de noviembre de 2026 y publicar cuántas de las veintidós que firman siguen firmando y si alguna de las cuarenta y ocho empezó. | Facebook · 05 | 2026-11-04 |
@@ -104,21 +100,15 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 104 | instalar el plugin de ejemplo `test_function` en un aparato de repuesto y recoger sus informes de `[PASS]` y `[FAIL]`: es la única forma de saber qué partes del entorno funcionan en un teléfono real y no sólo en el texto. | Facebook · 22 | 2026-11-05 |
 | 105 | repetir el censo de etiquetas dentro de un mes —3 de diciembre de 2026— para ver si `axmanager` crece de cinco, si `axeron` deja de estar a cero y si el catálogo alterno pasa de dos actualizaciones mensuales. | Facebook · 22 | 2026-11-05 |
 | 106 | escribir la ficha de AxManager en el catálogo del archivo, con su guía y su estado, y la advertencia de que sus plugins no son módulos de Magisk en la primera línea útil. | Facebook · 22 | 2026-11-05 |
-| 107 | verificar que las seis comprobaciones de apertura de APK (ficha, licencia, permisos, extensiones, firma, historial) se puedan hacer en un teléfono sin instalar nada, y anotar en un acta qué pasa con cada una de las cinco ramas de la familia Kotatsu. | Facebook · 23 | 2026-11-05 |
-| 108 | medir la familia Kotatsu de nuevo dentro de un mes —3 de diciembre de 2026— para ver si DeepSync crece de una estrella, si Kototoro sigue siendo la única Apache-2.0, y si alguna rama nueva nace del padre archivado. | Facebook · 23 | 2026-11-05 |
-| 109 | escribir la ficha de DeepSync en el catálogo del archivo, con su guía y su estado, y la advertencia de que sus plugins y extensiones vienen de fuera, no del programa. | Facebook · 23 | 2026-11-05 |
-| 110 | verificar que las seis comprobaciones de apertura de editor de imagen (ficha, licencia, permisos, nube, firma, historial) se puedan hacer en un teléfono sin instalar nada, y anotar en un acta qué pasa con cada una de las cuatro herramientas de esta pieza. | Facebook · 24 | 2026-11-05 |
-| 111 | medir la familia de editores de imagen de nuevo dentro de un mes —3 de diciembre de 2026— para ver si Snapedit y Aksiphoto siguen vivas, si ImageToolbox sigue recibiendo empujones, y si Aksiphoto declara alguna licencia. | Facebook · 24 | 2026-11-05 |
-| 112 | escribir la ficha de cada una de las cuatro herramientas en el catálogo del archivo, con su guía y su estado, y la advertencia de que Image-Cropper es una biblioteca para programadores, no una aplicación de usuario. | Facebook · 24 | 2026-11-05 |
-| 113 | verificar que las seis comprobaciones de apertura de escáner de bolsillo (ficha, licencia, permisos, nube, firma, historial) se puedan hacer en un teléfono sin instalar nada, y anotar en un acta qué pasa con Umi-OCR y episteme. | Facebook · 25 | 2026-11-06 |
-| 114 | medir la familia de escáneres de bolsillo de nuevo dentro de un mes —6 de diciembre de 2026— para ver si Umi-OCR sigue sin empujón, si episteme mantiene su actividad, y si aparece un tercer escáner sin conexión. | Facebook · 25 | 2026-11-06 |
-| 115 | escribir la ficha de cada una de las dos herramientas en el catálogo del archivo, con su guía y su estado, y la advertencia de que Umi-OCR lleva más de un año sin movimiento a pesar de sus 48.479 estrellas. | Facebook · 25 | 2026-11-06 |
+| 114 | verificar que las seis comprobaciones de apertura de escáner de texto (ficha, licencia, permisos, nube, firma, historial) se puedan hacer en un teléfono o computadora sin instalar nada, y anotar en un acta qué pasa con Umi-OCR y episteme. | Facebook · 25 | 2026-11-06 |
+| 115 | medir la familia de escáneres de texto de nuevo dentro de un mes —6 de diciembre de 2026— para ver si Umi-OCR vuelve a moverse tras doce meses de silencio, si episteme sigue recibiendo empujones, y si nace algún escáner nuevo del mismo tipo. | Facebook · 25 | 2026-11-06 |
+| 116 | escribir la ficha de cada una de las dos herramientas en el catálogo del archivo, con su guía y su estado. | Facebook · 25 | 2026-11-06 |
 
 ## Numeración: la regla y lo declarado
 
-> **Declarado:** 01-La-huella-o-el-silencio-doce-programa: numera desde 010 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
-> **Declarado:** 02-La-musica-que-no-se-cae-seis-grandes-: numera desde 014 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
-> **Declarado:** 03-La-caja-fuerte-del-bolsillo-una-de-ca: numera desde 018 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 01-La-huella-o-el-silencio-quince-progra: numera desde 016 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 02-La-musica-que-no-se-cae-veintiun-repo: numera desde 018 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 03-La-caja-fuerte-del-bolsillo-catorce-g: numera desde 022 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 04-La-lista-del-permiso-seis-de-veintise: numera desde 022 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 05-La-guia-maestra-contada-despacio-doce: numera desde 007 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 05-La-guia-maestra-doce-capitulos-sesent: numera desde 026 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
@@ -139,9 +129,7 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 > **Declarado:** 20-El-teclado-que-obedece-once-teclados-: numera desde 095 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 21-La-variante-que-cambio-OmniShizuku-de: numera desde 099 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 > **Declarado:** 22-El-modulo-que-no-necesita-root-AxMana: numera desde 103 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
-> **Declarado:** 23-Deepsync-y-la-familia-kotatsu-lectore: numera desde 107 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
-> **Declarado:** 24-Editar-la-foto-sin-pagar-cuatro-herra: numera desde 110 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
-> **Declarado:** 25-El-scanner-de-bolsillo-del-papel-al-P: numera desde 113 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
+> **Declarado:** 25-El-scanner-de-bolsillo-del-papel-al-P: numera desde 114 y no desde 001 (pieza publicada antes de la regla; se declara, no se retoca)
 
 La numeración es **por pieza**, no global: cada pieza numera sus tareas desde 001 porque la compuerta de novedad (M28) las cuenta dentro de la pieza. Por eso la misma cifra puede aparecer en dos piezas distintas y no es un error: la tarea se identifica por su número **y** su pieza.
 

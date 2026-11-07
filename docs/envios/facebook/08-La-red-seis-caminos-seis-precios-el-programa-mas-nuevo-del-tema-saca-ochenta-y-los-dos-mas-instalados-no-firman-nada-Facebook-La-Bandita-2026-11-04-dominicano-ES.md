@@ -399,7 +399,7 @@ Los nuevos del trimestre:
 
 Medí otra vez, hoy 7 de noviembre de 2026, los 20 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• mullvad/mullvadvpn-app — ★7.752 · empujó en las últimas horas · GPL-3.0 · última release android/2026.12 (30-sep-2026)
+• mullvad/mullvadvpn-app — ★7.754 · empujó en las últimas horas · GPL-3.0 · última release android/2026.12 (30-sep-2026)
 • wg-easy/wg-easy — ★27.429 · empujó el 5-nov-2026 (hace 2 días) · AGPL-3.0 · última release v15.5.0 (24-oct-2026)
 • juanfont/headscale — ★45.434 · empujó en las últimas horas · BSD-3-Clause · última release v0.29.7 (30-oct-2026)
 • netbirdio/netbird — ★30.754 · empujó en las últimas horas · NOASSERTION · última release v0.82.0 (29-oct-2026)

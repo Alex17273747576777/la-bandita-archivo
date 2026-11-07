@@ -537,7 +537,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 58 repositorios que cita esta pi
 ═══ MENSAJE 18 de 20 · 2773 caracteres ═══
 
 • kodjodevf/mangayomi-extensions — ★360 · *dormido*: sin empujar desde el 1-oct-2025 (402 días) · Apache-2.0 · *ARCHIVADO*
-• lnreader/lnreader-plugins — ★368 · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
+• lnreader/lnreader-plugins — ★369 · empujó en las últimas horas · MIT · última release v2.0.0 (21-mar-2024)
 • IReaderorg/IReader-extensions — ★32 · empujó el 27-oct-2026 (hace 11 días) · MPL-2.0
 • NovelSourcery/extensions — ★21 · empujó el 28-oct-2026 (hace 10 días) · sin licencia detectada por la API · última release d31198f (28-oct-2026)
 • jobobby04/ShosetsuExtensions — ★18 · empujó el 5-nov-2026 (hace 2 días) · GPL-3.0

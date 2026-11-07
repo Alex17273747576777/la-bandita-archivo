@@ -426,8 +426,8 @@ Y lo cuarto: **doce días no dan para confiar, pero sí para mirar**. Este es el
 Medí otra vez, hoy 7 de noviembre de 2026, los 3 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • krishna3163/OmniShizuku — ★19 · empujó en las últimas horas · Apache-2.0 · última release latest (7-nov-2026)
-• RikkaApps/Shizuku — ★33.015 · *dormido*: sin empujar desde el 18-jun-2025 (507 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
-• iamr0s/Dhizuku — ★4.103 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
+• RikkaApps/Shizuku — ★33.016 · *dormido*: sin empujar desde el 18-jun-2025 (507 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• iamr0s/Dhizuku — ★4.104 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 

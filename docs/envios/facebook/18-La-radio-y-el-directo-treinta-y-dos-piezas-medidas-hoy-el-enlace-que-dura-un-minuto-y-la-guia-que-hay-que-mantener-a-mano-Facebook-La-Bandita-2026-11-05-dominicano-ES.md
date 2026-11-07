@@ -497,7 +497,7 @@ Y lo cuarto: **la mitad del tema es emitir, no ver**. **AzuraCast**, **LibreTime
 Medí otra vez, hoy 7 de noviembre de 2026, los 33 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • /stream — *muerto*: el repositorio responde 404 hoy. Se nombra para esquivarlo, no se recomienda.
-• mytv-android/mytv-android — ★3.017 · empujó el 2-nov-2026 (hace 5 días) · MIT · última release V2.2.0.219 (21-ago-2026)
+• mytv-android/mytv-android — ★3.018 · empujó el 2-nov-2026 (hace 5 días) · MIT · última release V2.2.0.219 (21-ago-2026)
 • AntennaPod/AntennaPod — ★8.272 · empujó en las últimas horas · GPL-3.0 · última release 3.12.3 (13-oct-2026)
 • segler-alex/RadioDroid — ★1.081 · *dormido*: sin empujar desde el 26-jun-2024 (864 días) · GPL-3.0 · última release 0.86 (28-sep-2023)
 • deutsia/deutsia-radio — ★78 · *dormido*: sin empujar desde el 25-may-2026 (166 días) · Apache-2.0 · última release v1.8.1 (25-may-2026)
@@ -508,7 +508,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 33 repositorios que cita esta pi
 • z0rats/freqcast — ★15 · empujó el 2-nov-2026 (hace 5 días) · GPL-3.0 · última release v3.17.2 (2-nov-2026)
 • hyliankid14/British-Radio-Player — ★23 · empujó el 2-nov-2026 (hace 5 días) · NOASSERTION · última release v2.1.4 (2-nov-2026)
 • Woodic-Way/WoodicIPTV — ★5 · *dormido*: sin empujar desde el 30-jul-2026 (100 días) · sin licencia detectada por la API · última release v2.0 (30-jul-2026)
-• TheJoeFin/Traydio — ★205 · empujó el 4-nov-2026 (hace 3 días) · MIT · última release v2.2.3 (4-nov-2026)
+• TheJoeFin/Traydio — ★206 · empujó el 4-nov-2026 (hace 3 días) · MIT · última release v2.2.3 (4-nov-2026)
 • meehow/receiver — ★51 · *dormido*: sin empujar desde el 9-ago-2026 (90 días) · GPL-3.0 · última release v0.8.0 (12-jul-2026)
 • nevermore23274/AetherTune — ★130 · empujó el 26-oct-2026 (hace 12 días) · MIT · última release v0.12.0 (1-oct-2026)
 • ahXN00/OwnTV — ★748 · empujó en las últimas horas · GPL-3.0 · última release v5.2.1 (21-oct-2026)
