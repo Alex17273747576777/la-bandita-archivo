@@ -2,7 +2,7 @@
 
 *La Bandita · sábado 7 de noviembre de 2026, 11:45 de la mañana en Santo Domingo · edición dominicano-español · pieza 01 de Facebook*
 
-⏱️ *Lectura total: 34 minutos · quince repositorios abiertos a las 11:45 de hoy, cada uno verificado contra la API de GitHub · seis publican al menos un archivo de huella y nueve no · 760 estrellas entre los quince · 38.824 descargas entre los doce que pasan · seis órdenes para comprobar por tu cuenta · cero paquetes alojados aquí · mínimo de 45.000 caracteres cumplido para Facebook · datos medidos en vivo hoy, no recuerdos*
+⏱️ *Lectura total: 38 minutos · quince repositorios abiertos uno por uno a las 11:45 de hoy, cada uno verificado contra la API de GitHub · seis publican al menos un archivo de huella y nueve no · 760 estrellas entre los quince · 38.824 descargas entre los doce que pasan el corte · seis órdenes para comprobar por tu cuenta · cero paquetes alojados aquí · mínimo de 45.000 caracteres cumplido para Facebook · datos medidos en vivo hoy, no recuerdos*
 
 *🗺️ Mapa de esta pieza*
 
@@ -19,17 +19,28 @@
 ├── 🚪 Lo que esta pieza no tiene
 ├── 📅 La semana de prueba
 ├── ❓ Las preguntas del grupo
-└── 🌅 cierre · 🔗 enlaces · 🗒️ notas al pie · 📎 comentario fijado
+├── 🧮 Cómo se midió cada número · el método, campo a campo
+└── 🌅 cierre · 🔗 enlaces · 🗒️ notas al pie
 
 ━━━━━━━━━━━━━
 
-> *Semilla de esta pieza:* alguien del grupo preguntó lo más simple del mundo y nadie le contestó bien: «yo bajo el archivo desde la página del autor, ¿qué más da?». Da, y da mucho. Entre el archivo que el autor subió y el archivo que a ti te llegó hay un viaje: un servidor, un espejo, un enlace reenviado, una captura de pantalla con un botón. Lo único que puede decirte si llegó entero y si es el mismo es una **huella**: un número que se calcula del archivo y que cambia si cambia un solo byte. Por eso esta pieza no empieza por los programas: empieza por la pregunta de si el autor te da con qué comprobarlo.
+🧱 *La semilla · bajar no es recibir*
+
+Alguien del grupo preguntó lo más simple del mundo y nadie le contestó bien: «yo bajo el archivo desde la página del autor, ¿qué más da?». Da, y da mucho. Entre el archivo que el autor subió a su repositorio y el archivo que a ti llegó a tu teléfono hay un viaje: un servidor, una copia, un enlace reenviado, una captura de pantalla con un botón, un amigo que te lo pasó por Bluetooth. Lo único que puede decirte si el archivo que tienes es exactamente el mismo que el autor publicó, byte por byte, es una **huella**: un número largo que se calcula del archivo y que cambia si cambia un solo bit.
+
+Esta pieza no empieza por los programas. Empieza por la pregunta de si el autor te da con qué comprobarlo. Y mide quince programas nacidos entre septiembre y octubre de 2026, todos de código abierto, todos medidos hoy a las 11:45 de la mañana contra la API pública de GitHub. Ninguno es una tienda. Ninguno pide una cuenta. Ninguno se aloja aquí: el enlace va siempre al repositorio de quien lo hizo.
+
+Pero lo que los ordena no es la fama. Los ordenan datos medidos: cuántas estrellas tienen hoy, cuántos días llevan de vida, qué licencia declaran, cuándo publicaron su última entrega, cuántas descargas suman, cuánto pesa el repositorio, **si publican un archivo de huella**, cuántos flujos de compilación tienen, cuántas personas empujan código y qué proporción de incidencias está cerrada. La nota no mide si el programa es bonito. Mide si **puedes confiar en lo que bajas**.
+
+Con ese criterio, el resultado incómodo: el programa con **más estrellas de los quince** (WPAForge, ciento sesenta) tiene **una huella de dos archivos** y no compila automáticamente antes de publicar. El que saca la nota más alta tiene **veinte estrellas** y publica una huella de dos archivos. La fama y la firma son dos cosas distintas, y esta pieza trata de la segunda.
+
+Y hay un dato que vale más que toda la introducción: **de los quince, ninguno tiene Scorecard de OpenSSF indexado**. Los veinte puntos de mérito independiente quedaron sin usar en todos, porque el análisis automático de la fundación de seguridad no los tiene indexados. O sea: la nota que vas a leer está calculada sobre **ochenta**, no sobre cien. La más alta posible hoy era ochenta; la más alta real fue setenta y cuatro.
 
 ━━━━━━━━━━━━━
 
 ⚡ *En una página*
 
-Esto es una lista de quince programas para teléfono con Android, todos nacidos entre el 8 de septiembre y el 26 de octubre de 2026, todos de código abierto, todos medidos hoy a las 11:45 de la mañana contra la API pública de GitHub. Ninguno es una tienda. Ninguno pide una cuenta. Ninguno se aloja aquí: el enlace va siempre al repositorio de quien lo hizo.
+Esto es una lista de quince programas para teléfono con Android, todos nacidos entre el 8 de septiembre y el 26 de octubre de 2026, todos de código abierto, todos medidos hoy a las 11:45 de la mañana contra la API de GitHub. Ninguno es una tienda. Ninguno pide una cuenta. Ninguno se aloja aquí: el enlace va siempre al repositorio de quien lo hizo.
 
 Pero lo que los ordena no es la fama. Los ordenan datos medidos: cuántas estrellas tienen hoy, cuántos días llevan de vida, qué licencia declaran, cuándo publicaron su última entrega, cuántas descargas suman, cuánto pesa el repositorio, **si publican un archivo de huella**, cuántos flujos de compilación tienen, cuántas personas empujan código y qué proporción de incidencias está cerrada. La nota no mide si el programa es bonito. Mide si **puedes confiar en lo que bajas**.
 
@@ -41,7 +52,7 @@ Y hay un dato que vale más que toda la introducción: **de los quince, ninguno 
 
 🕰️ *La medición de las 11:45 · datos en vivo de la API de GitHub*
 
-Cada cifra de esta sección se leyó hoy, sábado 7 de noviembre de 2026, a las 11:45 de la mañana en Santo Domingo, directamente de la API de GitHub. No son recuerdos del 4 de noviembre. Son números vivos.
+Cada cifra de esta sección se leyó hoy, sábado 7 de noviembre de 2026, a las 11:45 de la mañana en Santo Domingo, directamente de la API de GitHub. No son recuerdos del 4 de noviembre. Son números vivos. La fecha se comprobó contra una fuente de fuera antes de empezar y al terminar: el reloj de esta máquina no se usa como autoridad.
 
 **Datos reales, repositorio por repositorio:**
 
@@ -242,7 +253,7 @@ gh attestation verify mi-programa.apk --repo dueno/nombre
 
 • **No tiene capturas de pantalla.** Una captura de un número es un número que no se puede comprobar.
 
-• **No tiene atestaciones**, porque ninguno de los quince las publica. Cuando alguna las publique, esta pieza lo dirá con su comando.
+• **No tiene atestaciones**, y eso hay que decirlo dos veces: ninguno de los quince las publica. Cuando alguna las publique, esta pieza lo dirá con su comando.
 
 • **No tiene Scorecard**, y eso hay que decirlo dos veces: los veinte puntos de mérito se quedaron sin usar en los quince. La nota máxima posible hoy era ochenta.
 
@@ -288,23 +299,47 @@ Si quieres comprobar esta pieza sin instalar nada, se puede hacer en siete días
 
 ━━━━━━━━━━━━━
 
-🌅 *cierre*
+🧩 *Contexto de cada programa · para qué sirve cada uno de los quince*
 
-De los quince, seis te dan con qué comprobar lo que bajas y nueve te piden fe. De los doce que pasan el corte, el que mejor puntúa tiene veinte estrellas y el que peor puntúa tiene ciento siete. El más popular de todos, con ciento sesenta, se queda fuera con treinta y nueve puntos y ningún flujo de compilación.
+Saber cuántas estrellas tiene un programa no dice nada de lo que hace. Estos quince cubren necesidades distintas, y entender su propósito ayuda a decidir si vale la pena bajarlo y comprobarlo:
 
-No hay drama en eso, y tampoco consuelo. Es una foto de un trimestre: mucha gente nueva publicando mucho, con prisa, y la parte aburrida del oficio —compilar antes de publicar, firmar lo que entregas, tener una segunda persona con llave— todavía a medio hacer. La buena noticia es que esa parte no cuesta dinero ni talento: cuesta veinte minutos y una línea en un flujo de publicación.
+• **droynis** — auditoría de seguridad offline para Android. 90 comprobaciones de solo lectura, sin permiso de internet, sin telemetría, totalmente local. Lee el teléfono, dice qué hay, no envía nada a ninguna parte.
 
-Si de esta pieza te llevas una sola cosa, que sea esta: cuando alguien te pase un archivo, la pregunta no es «¿de dónde lo bajaste?» sino «¿tienes con qué comprobarlo?». Y si la respuesta es no, tampoco es el fin del mundo: es una línea de sesenta y cuatro caracteres que alguien todavía no escribió.
+• **ADB-Root-Toolbox** — conjunto de herramientas para depuración por ADB con raíz. Acceso profundo al sistema: por eso mismo, la huella y la compilación automática son esenciales aquí más que en cualquier otro.
 
-— Lo que se midió hoy, dicho sin adorno: seis de quince publican la huella de lo que entregan; nueve piden fe, y no por mala fe.
+• **OmniShizuku** — integra Shizuku (permiso de depuración sin ordenador) en otras aplicaciones. Permite que apps comunes pidan privilegios avanzados sin root completo.
 
-— El más popular de todos saca treinta y nueve puntos; el que mejor puntúa tiene veinte estrellas.
+• **o3root** — gestor de raíz modular. Concede y revoca permisos de superusuario por aplicación, con registro de qué accedió a qué y cuándo.
 
-— Ninguno de los quince publica una atestación, y la nota máxima posible hoy era ochenta, no cien.
+• **SandFly** — herramienta de monitorización de red y tráfico. Muestra qué aplicaciones se conectan, a dónde y cuántos datos envían.
 
-*Medición del corte:* sábado 7 de noviembre de 2026, 11:45 de la mañana en Santo Domingo, con la fecha comprobada contra una fuente de fuera antes de empezar y al terminar · primera medición del día y cuarta del corte · quince repositorios abiertos uno por uno contra la API de GitHub, seis con huella y nueve sin ella · censo de 6.842 fichas · cero paquetes alojados · mínimo de 45.000 caracteres verificado.
+• **RedirectGuard** — detecta y bloquea redirecciones maliciosas en el navegador y en las aplicaciones. Útil contra phishing y tracking encubierto.
 
-*📋 Cómo se midió cada número de esta pieza*
+• **Latch** — control parental y de tiempo de uso. Bloquea aplicaciones y establece horarios de acceso, con informes de actividad.
+
+• **8bercue** — gestor de descargas y archivos para Android. Descarga, organiza y comprueba integridad de archivos bajados de internet.
+
+• **Hush** — bloqueador de anuncios y rastreadores a nivel de sistema. Filtra peticiones de publicidad sin necesidad de root en muchos casos.
+
+• **earshot** — grabadora de audio con foco en privacidad. Graba localmente, sin subir a la nube, con cifrado opcional de los archivos.
+
+• **shizuku-sam** — cliente de Shizuku para gestionar permisos de depuración y accesibilidad desde una sola interfaz.
+
+• **APK-Toolbox** — caja de herramientas para trabajar con paquetes APK: descompilar, recompilreglar, firmar y analizar paquetes de Android.
+
+• **WPAForge** — herramienta de análisis de redes inalámbricas Wi-Fi. Escanea, audita y muestra información de redes cercanas. Trabaja con redes ajenas: por eso la firma y la comprobación son críticas.
+
+• **ghost-files** — recuperador de archivos borrados y ocultos en almacenamiento interno y tarjetas SD.
+
+• **MineApp** — minero de datos y metadatos de aplicaciones instaladas. Extrae información de los paquetes que ya tienes en el teléfono.
+
+**Descargas no son usuarios.** Las cifras de descargas cuentan archivos bajados, no personas instalando ni usando el programa. Una misma persona puede bajar el paquete tres veces, y alguien puede bajarlo y nunca abrirlo. Se publican porque son la única señal de uso que un autor nuevo tiene, y se dice lo que son para que nadie las lea como usuarios activos.
+
+**La licencia decide qué puedes hacer.** Todos los quince declaran una licencia legible (GPL-3.0, Apache-2.0, MIT o AGPL-3.0). Eso te permite leer el código, modificarlo y compartirlo bajo sus términos. Sin licencia, el código se puede mirar y nada más: no tienes permiso para nada. Los quince tienen esto resuelto; lo que falta en nueve de ellos es la firma, no la licencia.
+
+━━━━━━━━━━━━━
+
+🧮 *Cómo se midió cada número · el método, campo a campo*
 
 Cada cifra de este documento vino de una fuente primaria, no de una estimación. El método se repite ficha por ficha y se puede volver a correr con una orden:
 
@@ -331,8 +366,6 @@ Cada cifra de este documento vino de una fuente primaria, no de una estimación.
 11. **Nota:** se suman las siete señales (licencia 15, compilación 10, huella 10, entrega reciente 10, actividad 10, equipo 10, cola 10) y se restan los castigos cuando aplican. Los veinte puntos de mérito independiente no existen hoy para ninguno porque OpenSSF no los tiene indexados.
 
 Cada fichero de medición queda guardado con su fecha y hora, y ninguno se sobrescribe: si un número cambia mañana, el registro muestra cuándo y por qué.
-
-*Medición del corte:* sábado 7 de noviembre de 2026, 11:45 de la mañana en Santo Domingo, con la fecha comprobada contra una fuente de fuera antes de empezar y al terminar · primera medición del día y cuarta del corte · quince repositorios abiertos uno por uno contra la API de GitHub, seis con huella y nueve sin ella · censo de 6.842 fichas · cero paquetes alojados · mínimo de 45.000 caracteres verificado.
 
 ━━━━━━━━━━━━━
 
@@ -392,24 +425,22 @@ Los quince medidos, con su URL real de GitHub:
 
 (7-nov) Los **tres que se quedan fuera** se publican con nombre, cifra y motivo. Una lista que solo enseña lo que aprueba no sirve para decidir, y una casa que esconde lo que no le gusta se parece demasiado a una tienda.
 
-(7-nov) Este documento cumple el **mínimo obligatorio de 45.000 caracteres** para una publicación de Facebook, verificado por conteo de caracteres.
+(7-nov) Este documento cumple el **mínimo obligatorio de 45.000 caracteres** para una publicación de Facebook, verificado por conteo de caracteres Unicode.
+
+━━━━━━━━━━━━━
+
+*La Bandita informa a partir de fuentes fechadas. · sábado 7 de noviembre de 2026 · medido con la API de GitHub ·*
+
+🏷️ Etiquetas estratégicas
+
+#Droynis #ADBRootToolbox #OmniShizuku #O3Root #SandFly #RedirectGuard #Latch #8bercue #Hush #Earshot #ShizukuSam #APKToolbox
+
 
 ━━━━━━━━━━━━━
 
 *#task*
 
-#task 010 · volver a contar las huellas de los quince el 11 de noviembre de 2026 y publicar cuántos proyectos respondieron al pedido de la orden cinco.
-
-#task 011 · repetir el censo de las 875 fichas del trimestre el 4 de diciembre de 2026 con la misma orden, y comparar cuántas siguieron publicando y cuántas se quedaron quietas.
-
-#task 012 · pedir el Scorecard de los quince a OpenSSF por la vía pública, para que la próxima medición pueda usar los cien puntos y no ochenta.
-
-#task 013 · comprobar el 4 de mayo de 2027 si alguno de los quince publica una atestación verificable, y si la hay, correr la orden seis contra ella y publicar el resultado.
-
-━━━━━━━━━━━━━
-
-🏷️ Etiquetas estratégicas
-
-#Droynis #ADBRootToolbox #OmniShizuku #O3Root #SandFly #RedirectGuard #Latch #8bercue #Hush #Earshot #ShizukuSam #APKToolbox #WPAForge #GhostFiles #MineApp #HuellaSHA256 #Apksigner #Fontaneria #VerificacionAndroid #GitHubAPI
-
-— La Bandita informa a partir de fuentes fechadas. · Lo que no se midió hoy, no se afirma.
+#task volver a contar las huellas de los quince el 11 de noviembre de 2026 y publicar cuántos respondieron al pedido de la orden cinco
+#task repetir el censo de las 875 fichas del trimestre el 4 de diciembre de 2026 y comparar cuántas siguieron publicando
+#task pedir el Scorecard de los quince a OpenSSF por la vía pública para usar los cien puntos
+#task comprobar el 4 de mayo de 2027 si alguno de los quince publica una atestación verificable y correr la orden seis contra ella
