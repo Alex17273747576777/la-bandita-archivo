@@ -565,12 +565,16 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 58 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 222 caracteres ═══
+═══ MENSAJE 19 de 20 · 824 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 62 enlaces de esta pieza, *61 responden*.
+De los 62 enlaces de esta pieza, *57 responden*.
 
+• https://api.github.com/repos/keiyoushi/extensions-source — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://api.github.com/repos/keiyoushi/extensions/releases?per_page=100 — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://api.github.com/repos/m2k3a/mangayomi-extensions/commits?per_page=5 — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://api.github.com/repos/phisher98/cloudstream-extensions-phisher — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://github.com/yuzono/aniyomi-extensions — 451. Error del servidor; no es culpa del enlace.
 
 ⏬ sigue abajo · parte 18 de 19

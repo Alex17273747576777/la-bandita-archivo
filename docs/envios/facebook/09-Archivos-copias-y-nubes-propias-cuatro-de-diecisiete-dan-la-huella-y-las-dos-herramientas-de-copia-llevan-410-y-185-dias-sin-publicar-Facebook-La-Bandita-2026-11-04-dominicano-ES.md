@@ -419,8 +419,8 @@ Y los tres que cierran la lista:
 Medí otra vez, hoy 7 de noviembre de 2026, los 17 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • rclone/rclone — ★60.845 · empujó en las últimas horas · MIT · última release v1.76.0 (6-nov-2026)
-• immich-app/immich — ★118.438 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
-• localsend/localsend — ★97.690 · empujó el 2-nov-2026 (hace 5 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
+• immich-app/immich — ★118.439 · empujó en las últimas horas · AGPL-3.0 · última release v3.3.6 (4-nov-2026)
+• localsend/localsend — ★97.691 · empujó el 2-nov-2026 (hace 5 días) · Apache-2.0 · última release v1.18.2 (21-ago-2026)
 • nextcloud/server — ★37.436 · empujó en las últimas horas · AGPL-3.0 · última release v33.0.10 (15-oct-2026)
 • restic/restic — ★37.041 · empujó en las últimas horas · BSD-2-Clause · última release v0.19.1 (5-jul-2026)
 • researchxxl/syncthing-android — ★3.266 · empujó en las últimas horas · MPL-2.0 · última release v2.1.7.0 (21-oct-2026)

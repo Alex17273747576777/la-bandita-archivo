@@ -34,10 +34,10 @@ Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto
 | 031 | comprobar el 4 de diciembre de 2026 si Morphe Manager mantiene la entrega diaria y si universal-installer y Patch Bundle Registry ganan huella; y si el 451 sigue en pie. | Facebook · 06 | 2026-11-07 |
 | 032 | añadir la palabra «parches» a la herramienta de censos de la casa antes del 4 de diciembre, para que el recuento de este tema no haya que hacerlo a mano. | Facebook · 06 | 2026-11-07 |
 | 033 | medir el 4 de febrero de 2027 el estado de las dos bifurcaciones archivadas y de ReVanced Integrations, que hoy lleva setecientos cuarenta y un días sin entrega, y publicar si alguna volvió. | Facebook · 06 | 2026-11-07 |
-| 034 | volver a contar las sumas de los diecisiete el 11 de noviembre de 2026 y decir si SmartTube publicó la primera de sus cuarenta. | Facebook · 07 | 2026-11-04 |
-| 035 | comprobar el 4 de diciembre de 2026 si tv-debloat y morphe-tv-patcher, que hoy no declaran licencia ni publican paquete, han puesto alguna de las dos cosas. | Facebook · 07 | 2026-11-04 |
-| 036 | medir el 4 de febrero de 2027 si kiosk-satellite mantiene su cola —mil ocho cerradas de mil nueve— y si ya declara licencia en el formulario. | Facebook · 07 | 2026-11-04 |
-| 037 | repetir el censo del televisor con la herramienta y comparar con las 83 fichas de hoy, para ver cuánto crece el tema en tres meses. | Facebook · 07 | 2026-11-04 |
+| 034 | volver a contar las sumas de los diecisiete el 11 de noviembre de 2026 y decir si SmartTube publicó la primera de sus cuatro. | Facebook · 07 | 2026-11-07 |
+| 035 | comprobar el 4 de diciembre de 2026 si tv-debloat y morphe-tv-patcher, que hoy no declaran licencia ni publican paquete, han puesto alguna de las dos cosas. | Facebook · 07 | 2026-11-07 |
+| 036 | medir el 4 de febrero de 2027 si kiosk-satellite mantiene su cola —mil ocho cerradas de mil nueve— y si ya declara licencia en el formulario. | Facebook · 07 | 2026-11-07 |
+| 037 | repetir el censo del televisor con la herramienta y comparar con las 83 fichas de hoy, para ver cuánto crece el tema en tres meses. | Facebook · 07 | 2026-11-07 |
 | 038 | volver a contar las sumas de los veinte el 11 de noviembre de 2026 y decir si sing-box o hiddify publicaron la primera de sus cientos. | Facebook · 08 | 2026-11-04 |
 | 039 | comprobar el 4 de diciembre de 2026 si tachyon mantiene la entrega diaria y su cola de doscientas nueve cerradas de doscientas once. | Facebook · 08 | 2026-11-04 |
 | 040 | medir el 4 de febrero de 2027 si NetControl, DNSSwitch y AppDNS —los tres nuevos con un solo paquete publicado— han declarado licencia y publicado una segunda entrega. | Facebook · 08 | 2026-11-04 |

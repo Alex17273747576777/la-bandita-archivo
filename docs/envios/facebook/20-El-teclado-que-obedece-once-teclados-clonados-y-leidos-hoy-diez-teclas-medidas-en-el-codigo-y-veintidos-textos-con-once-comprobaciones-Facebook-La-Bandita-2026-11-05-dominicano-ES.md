@@ -511,7 +511,7 @@ Y lo cuarto: cuando alguien te venda un método con porcentajes de obediencia, p
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 1895 caracteres ═══
+═══ MENSAJE 18 de 19 · 1709 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 20*
 
@@ -532,9 +532,8 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 12 repositorios que cita esta pi
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 14 enlaces de esta pieza, *13 responden*.
-
-• https://github.com/LeanBitLab/LeanType/blob/main/app/src/main/java/helium314/keyboard/latin/utils/CustomAIKeyText.kt — contesta 429 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+De los 14 enlaces de esta pieza, *14 responden*.
+Ninguno roto.
 
 ⏬ sigue abajo · parte 17 de 18
 

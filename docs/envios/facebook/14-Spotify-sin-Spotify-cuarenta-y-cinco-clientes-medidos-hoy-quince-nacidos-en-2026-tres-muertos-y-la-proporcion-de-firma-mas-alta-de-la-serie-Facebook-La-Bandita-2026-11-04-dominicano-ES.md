@@ -464,7 +464,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 37 repositorios que cita esta pi
 • gokadzev/Musify — ★4.410 · empujó en las últimas horas · GPL-3.0 · última release 10.6.0 (23-oct-2026)
 • HemantKArya/BloomeeTunes — ★2.307 · empujó el 21-oct-2026 (hace 17 días) · GPL-2.0 · última release v3.1.0+207 (21-oct-2026)
 • anandnet/Harmony-Music — ★3.087 · *dormido*: sin empujar desde el 8-dic-2025 (334 días) · GPL-3.0 · última release v1.12.2 (7-dic-2025)
-• z-huang/InnerTune — ★6.141 · *dormido*: sin empujar desde el 13-nov-2025 (359 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• z-huang/InnerTune — ★6.142 · *dormido*: sin empujar desde el 13-nov-2025 (359 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • OpenSelena/omniget — ★4.710 · empujó en las últimas horas · GPL-3.0 · última release v0.15.0 (6-nov-2026)
 • Clash-Projects/LastWave-Native — ★2.594 · empujó en las últimas horas · GPL-3.0 · última release 5.0.0 (30-oct-2026)
 • SimoHypers/limusic — ★1.871 · empujó en las últimas horas · GPL-3.0 · última release v1.3.0 (19-oct-2026)
@@ -472,10 +472,10 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 37 repositorios que cita esta pi
 • sonorahq/sonora — ★2.684 · empujó en las últimas horas · GPL-3.0 · última release v0.48.0 (7-nov-2026)
 • LUC4N3X/Levyra-deepsound — ★1.502 · empujó en las últimas horas · GPL-3.0 · última release v3.0.7 (3-nov-2026)
 • EchoMusicApp/Echo-Music — ★2.328 · empujó en las últimas horas · GPL-3.0 · última release v1.4.4 (23-oct-2026)
-• Clash-Projects/LastWave-Desktop — ★981 · empujó en las últimas horas · sin licencia detectada por la API · última release v2.0.1 (4-nov-2026)
+• Clash-Projects/LastWave-Desktop — ★982 · empujó en las últimas horas · sin licencia detectada por la API · última release v2.0.1 (4-nov-2026)
 • MuwMx/YumaPlayer — ★1.133 · empujó en las últimas horas · GPL-3.0 · última release v1.2.0-RC.1 (17-oct-2026)
 • missuo/kumone — ★1.300 · empujó en las últimas horas · LGPL-3.0 · última release v0.3.29 (6-nov-2026)
-• kota-zo/myspoti — ★1.581 · empujó el 5-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.4.0 (5-nov-2026)
+• kota-zo/myspoti — ★1.582 · empujó el 5-nov-2026 (hace 2 días) · GPL-3.0 · última release v2.4.0 (5-nov-2026)
 • rootscripts/riff — ★844 · empujó en las últimas horas · MIT · última release v44.2.0 (4-nov-2026)
 • Lelonio/Square — ★492 · empujó en las últimas horas · GPL-3.0 · última release v2.9.0 (6-nov-2026)
 • lladlam/MeloX-Android — ★293 · empujó el 5-nov-2026 (hace 2 días) · GPL-3.0 · última release 0.7.2 (5-nov-2026)
@@ -502,12 +502,15 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 37 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 16 de 18
 
-═══ MENSAJE 18 de 19 · 253 caracteres ═══
+═══ MENSAJE 18 de 19 · 707 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 42 enlaces de esta pieza, *41 responden*.
+De los 42 enlaces de esta pieza, *38 responden*.
 
+• https://api.github.com/repos/MetrolistGroup/Metrolist/releases?per_page=100 — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://api.github.com/repos/Spotifyd/spotifyd/releases/latest — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://api.github.com/repos/Spotifyd/spotifyd/releases?per_page=100 — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://api.github.com/repos/vfsfitvnm/ViMusic — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 17 de 18

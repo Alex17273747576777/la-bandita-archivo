@@ -496,7 +496,7 @@ Y lo cuarto: **el nombre que más suena no es el que mejor está**. `openai/whis
 Medí otra vez, hoy 7 de noviembre de 2026, los 33 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • Batmancpu/Dictator- — ★3 · empujó en las últimas horas · Apache-2.0 · última release dictator-42206033544 (6-nov-2026)
-• openai/whisper — ★112.151 · *dormido*: sin empujar desde el 31-ago-2026 (68 días) · MIT · última release v20250625 (26-jun-2025)
+• openai/whisper — ★112.152 · *dormido*: sin empujar desde el 31-ago-2026 (68 días) · MIT · última release v20250625 (26-jun-2025)
 • HeliBorg/HeliBoard — ★6.513 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v4.2 (12-oct-2026)
 • florisboard/florisboard — ★8.759 · empujó el 5-nov-2026 (hace 2 días) · Apache-2.0 · última release v0.5.2 (28-nov-2025)
 • Julow/Unexpected-Keyboard — ★3.338 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release 2.2.0 (1-nov-2026)
@@ -516,7 +516,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 33 repositorios que cita esta pi
 • Cyletix/CyIME — ★785 · empujó en las últimas horas · GPL-3.0 · última release 1.15.66 (6-nov-2026)
 • zoolapp/aime — ★258 · empujó el 20-oct-2026 (hace 18 días) · MIT · última release v0.1.10 (20-oct-2026)
 • cjpais/Handy — ★37.869 · empujó en las últimas horas · MIT · última release v0.10.0 (2-nov-2026)
-• anomalyco/hex — ★5.595 · empujó en las últimas horas · MIT · última release v3.3.0 (2-nov-2026)
+• anomalyco/hex — ★5.596 · empujó en las últimas horas · MIT · última release v3.3.0 (2-nov-2026)
 • Open-Less/openless — ★4.059 · empujó en las últimas horas · AGPL-3.0 · última release v2.0.1-tauri (16-oct-2026)
 • altic-dev/FluidVoice — ★12.882 · empujó en las últimas horas · GPL-3.0 · última release v1.6.12 (22-oct-2026)
 • amicalhq/amical — ★1.599 · empujó en las últimas horas · MIT · última release v1.12.5 (25-sep-2026)
@@ -531,14 +531,13 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 33 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 403 caracteres ═══
+═══ MENSAJE 19 de 20 · 247 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 36 enlaces de esta pieza, *34 responden*.
+De los 36 enlaces de esta pieza, *35 responden*.
 
 • https://api.github.com/repos/rhash/RHash — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
-• https://api.github.com/repos/wasi-master/wmkeyboard/releases?per_page=100 — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 18 de 19
 

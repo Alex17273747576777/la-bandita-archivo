@@ -467,7 +467,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 52 repositorios que cita esta pi
 • navidrome/navidrome — ★24.564 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v0.64.2 (24-sep-2026)
 • jellyfin/jellyfin — ★59.089 · empujó en las últimas horas · GPL-2.0 · última release v12.4 (26-oct-2026)
 • ampache/ampache — ★3.845 · empujó en las últimas horas · AGPL-3.0 · última release 8.4.0 (6-nov-2026)
-• koel/koel — ★17.335 · empujó en las últimas horas · MIT · última release v9.15.0 (28-sep-2026)
+• koel/koel — ★17.334 · empujó en las últimas horas · MIT · última release v9.15.0 (28-sep-2026)
 • blackcandy-org/blackcandy — ★4.431 · empujó el 21-oct-2026 (hace 17 días) · MIT · última release v3.2.1 (26-ago-2026)
 • airsonic-advanced/airsonic-advanced — ★1.404 · *dormido*: sin empujar desde el 24-abr-2024 (927 días) · GPL-3.0 · última release v10.6.0 (24-abr-2020)
 • mopidy/mopidy — ★8.608 · empujó el 2-nov-2026 (hace 5 días) · Apache-2.0 · última release v4.0.5 (16-oct-2026)
@@ -488,7 +488,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 52 repositorios que cita esta pi
 • MetrolistGroup/Metrolist — ★14.064 · empujó el 2-nov-2026 (hace 5 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
 • maxrave-dev/SimpMusic — ★12.939 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • OuterTune/OuterTune — ★5.446 · empujó el 12-oct-2026 (hace 26 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
-• z-huang/InnerTune — ★6.141 · *dormido*: sin empujar desde el 13-nov-2025 (359 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
+• z-huang/InnerTune — ★6.142 · *dormido*: sin empujar desde el 13-nov-2025 (359 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • namidaco/namida — ★6.796 · empujó en las últimas horas · NOASSERTION · última release v7.1.2 (19-sep-2026)
 • RetroMusicPlayer/RetroMusicPlayer — ★5.389 · empujó en las últimas horas · GPL-3.0 · última release v7.0.3 (13-ago-2026)
 • OxygenCobalt/Auxio — ★4.430 · empujó el 2-nov-2026 (hace 5 días) · GPL-3.0 · última release v4.1.5 (4-ago-2026)
@@ -524,12 +524,15 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 52 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 253 caracteres ═══
+═══ MENSAJE 19 de 20 · 712 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 57 enlaces de esta pieza, *56 responden*.
+De los 57 enlaces de esta pieza, *53 responden*.
 
+• https://api.github.com/repos/Spotifyd/spotifyd/releases/latest — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://api.github.com/repos/navidrome/navidrome/releases?per_page=100 — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://api.github.com/repos/nicotine-plus/nicotine-plus/releases?per_page=100 — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 • https://api.github.com/repos/vfsfitvnm/ViMusic — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 18 de 19
