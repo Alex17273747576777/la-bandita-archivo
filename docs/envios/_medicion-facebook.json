@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-07",
- "medido_en_utc": "2026-11-07T09:52:19+00:00",
+ "medido_en_utc": "2026-11-07T10:01:31+00:00",
  "repos": {
   "capitan0n/droynis": {
    "estado": "vivo",
@@ -316,7 +316,7 @@
   },
   "maxrave-dev/SimpMusic": {
    "estado": "vivo",
-   "stars": 12935,
+   "stars": 12936,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -328,7 +328,7 @@
   },
   "rukamori/ArchiveTune": {
    "estado": "vivo",
-   "stars": 8039,
+   "stars": 8040,
    "push": "2026-11-07",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -374,18 +374,6 @@
    "release_fecha": "2026-09-19",
    "stars_pieza": null
   },
-  "timschneeb/RootlessJamesDSP": {
-   "estado": "vivo",
-   "stars": 1722,
-   "push": "2026-08-31",
-   "archivado": false,
-   "licencia": "GPL-3.0",
-   "lenguaje": "C",
-   "desc": "An implementation of the system-wide JamesDSP audio processing engine for non-rooted Android devices",
-   "release": "v1.6.13",
-   "release_fecha": "2024-12-23",
-   "stars_pieza": null
-  },
   "z-huang/InnerTune": {
    "estado": "vivo",
    "stars": 6141,
@@ -420,6 +408,18 @@
    "desc": "Audio DSP effects build on Android system framework layer. This is a repository contains a pack of high quality DSP algorithms specialized for audio processing.",
    "release": "28Nov2023",
    "release_fecha": "2023-12-02",
+   "stars_pieza": null
+  },
+  "timschneeb/RootlessJamesDSP": {
+   "estado": "vivo",
+   "stars": 1722,
+   "push": "2026-08-31",
+   "archivado": false,
+   "licencia": "GPL-3.0",
+   "lenguaje": "C",
+   "desc": "An implementation of the system-wide JamesDSP audio processing engine for non-rooted Android devices",
+   "release": "v1.6.13",
+   "release_fecha": "2024-12-23",
    "stars_pieza": null
   },
   "bitwarden/android": {
@@ -460,7 +460,7 @@
   },
   "dani-garcia/vaultwarden": {
    "estado": "vivo",
-   "stars": 70359,
+   "stars": 70361,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -592,7 +592,7 @@
   },
   "RikkaApps/Shizuku": {
    "estado": "vivo",
-   "stars": 33013,
+   "stars": 33014,
    "push": "2025-06-18",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -736,7 +736,7 @@
   },
   "samolego/Canta": {
    "estado": "vivo",
-   "stars": 6662,
+   "stars": 6663,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "LGPL-3.0",
@@ -760,7 +760,7 @@
   },
   "pass-with-high-score/universal-installer": {
    "estado": "vivo",
-   "stars": 1699,
+   "stars": 1700,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -856,7 +856,7 @@
   },
   "Yukstarlight/guang-lab": {
    "estado": "vivo",
-   "stars": 7,
+   "stars": 8,
    "push": "2026-11-07",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -928,7 +928,7 @@
   },
   "ImranR98/Obtainium": {
    "estado": "vivo",
-   "stars": 21293,
+   "stars": 21294,
    "push": "2026-11-01",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1060,7 +1060,7 @@
   },
   "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
    "estado": "vivo",
-   "stars": 9794,
+   "stars": 9795,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -1072,7 +1072,7 @@
   },
   "localsend/localsend": {
    "estado": "vivo",
-   "stars": 97679,
+   "stars": 97678,
    "push": "2026-11-02",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1144,7 +1144,7 @@
   },
   "termux/termux-app": {
    "estado": "vivo",
-   "stars": 64310,
+   "stars": 64311,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1389,7 +1389,7 @@
   },
   "yuliskov/SmartTube": {
    "estado": "vivo",
-   "stars": 36026,
+   "stars": 36027,
    "push": "2026-11-07",
    "archivado": false,
    "licencia": "MIT",
@@ -2561,7 +2561,7 @@
   },
   "mihonapp/mihon": {
    "estado": "vivo",
-   "stars": 25084,
+   "stars": 25085,
    "push": "2026-11-07",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -3149,7 +3149,7 @@
   },
   "iptv-org/iptv": {
    "estado": "vivo",
-   "stars": 143466,
+   "stars": 143468,
    "push": "2026-11-07",
    "archivado": false,
    "licencia": "Unlicense",
@@ -3894,7 +3894,7 @@
   "team-spotube/spotube": {
    "estado": "vivo",
    "stars": 50638,
-   "push": "2026-11-06",
+   "push": "2026-11-07",
    "archivado": false,
    "licencia": "AGPL-3.0",
    "lenguaje": "Kotlin",
@@ -4181,7 +4181,7 @@
   },
   "yt-dlp/yt-dlp": {
    "estado": "vivo",
-   "stars": 205874,
+   "stars": 205875,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Unlicense",
@@ -4325,7 +4325,7 @@
   },
   "kushagrasinghx/BitChord": {
    "estado": "vivo",
-   "stars": 6015,
+   "stars": 6016,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4337,7 +4337,7 @@
   },
   "sonorahq/sonora": {
    "estado": "vivo",
-   "stars": 2684,
+   "stars": 2685,
    "push": "2026-11-07",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4601,7 +4601,7 @@
   },
   "nilaoda/N_m3u8DL-RE": {
    "estado": "vivo",
-   "stars": 9042,
+   "stars": 9043,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "MIT",
@@ -4937,7 +4937,7 @@
   },
   "BareBrowser/bare-browser": {
    "estado": "vivo",
-   "stars": 728,
+   "stars": 729,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "BSD-3-Clause",
@@ -5237,7 +5237,7 @@
   },
   "cjpais/Handy": {
    "estado": "vivo",
-   "stars": 37864,
+   "stars": 37865,
    "push": "2026-11-07",
    "archivado": false,
    "licencia": "MIT",
@@ -5249,7 +5249,7 @@
   },
   "anomalyco/hex": {
    "estado": "vivo",
-   "stars": 5585,
+   "stars": 5587,
    "push": "2026-11-07",
    "archivado": false,
    "licencia": "MIT",
@@ -5787,7 +5787,7 @@
   },
   "AppFuton/Futon": {
    "estado": "vivo",
-   "stars": 478,
+   "stars": 479,
    "push": "2026-11-07",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -7667,16 +7667,16 @@
    "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/krishna3163/OmniShizuku/blob/main/PONYTAIL.md": {
-   "codigo": "429",
-   "veredicto": "no deja entrar a un robot"
+   "codigo": "200",
+   "veredicto": "responde"
   },
   "https://github.com/krishna3163/OmniShizuku/blob/main/README.es.md": {
    "codigo": "200",
    "veredicto": "responde"
   },
   "https://github.com/krishna3163/OmniShizuku/blob/main/build.gradle": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/krishna3163/OmniShizuku/blob/main/manager/build.gradle": {
    "codigo": "200",

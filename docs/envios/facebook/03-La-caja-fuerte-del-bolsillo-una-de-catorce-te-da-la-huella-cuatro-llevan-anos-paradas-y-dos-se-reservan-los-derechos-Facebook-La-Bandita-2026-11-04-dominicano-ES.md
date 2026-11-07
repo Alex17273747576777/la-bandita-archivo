@@ -423,7 +423,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 14 repositorios que cita esta pi
 • bitwarden/android — ★9.600 · empujó en las últimas horas · GPL-3.0 · última release v2026.10.1-bwpm (29-oct-2026)
 • stratumauth/app — ★4.637 · empujó el 1-nov-2026 (hace 6 días) · GPL-3.0 · última release v1.7.0 (1-nov-2026)
 • Monica-Pass/Monica — ★1.217 · empujó en las últimas horas · GPL-3.0 · última release V1.0.325 (7-nov-2026)
-• dani-garcia/vaultwarden — ★70.359 · empujó el 4-nov-2026 (hace 3 días) · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
+• dani-garcia/vaultwarden — ★70.361 · empujó el 4-nov-2026 (hace 3 días) · AGPL-3.0 · última release 1.37.5 (1-nov-2026)
 • PhilippC/keepass2android — ★6.372 · empujó en las últimas horas · GPL-3.0 · última release v1.15-r6 (15-oct-2026)
 • Kunzisoft/KeePassDX — ★7.631 · empujó el 1-nov-2026 (hace 6 días) · GPL-3.0 · última release 4.5.8 (31-oct-2026)
 • AChep/keyguard-app — ★3.608 · empujó el 4-nov-2026 (hace 3 días) · NOASSERTION · última release r20261103 (3-nov-2026)

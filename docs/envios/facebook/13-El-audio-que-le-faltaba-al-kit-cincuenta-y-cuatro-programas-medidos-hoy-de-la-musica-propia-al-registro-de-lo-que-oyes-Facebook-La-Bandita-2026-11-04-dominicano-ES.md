@@ -486,7 +486,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 52 repositorios que cita esta pi
 • harmonoid/harmonoid — ★4.805 · empujó en las últimas horas · NOASSERTION · última release v0.3.37 (4-nov-2026)
 • jeffvli/sonixd — ★1.904 · *dormido*: sin empujar desde el 17-feb-2024 (994 días) · GPL-3.0 · última release v0.15.5 (14-mar-2023) · *ARCHIVADO*
 • MetrolistGroup/Metrolist — ★14.061 · empujó el 2-nov-2026 (hace 5 días) · GPL-3.0 · última release v13.7.0 (7-sep-2026)
-• maxrave-dev/SimpMusic — ★12.935 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
+• maxrave-dev/SimpMusic — ★12.936 · empujó en las últimas horas · GPL-3.0 · última release v2.5.0 (1-nov-2026)
 • OuterTune/OuterTune — ★5.446 · empujó el 12-oct-2026 (hace 26 días) · GPL-3.0 · última release v0.10.1 (19-dic-2025)
 • z-huang/InnerTune — ★6.141 · *dormido*: sin empujar desde el 13-nov-2025 (359 días) · GPL-3.0 · última release v0.5.10 (1-sep-2024)
 • namidaco/namida — ★6.795 · empujó en las últimas horas · NOASSERTION · última release v7.1.2 (19-sep-2026)
@@ -514,7 +514,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 52 repositorios que cita esta pi
 • taglib/taglib — ★1.467 · empujó el 4-nov-2026 (hace 3 días) · LGPL-2.1 · última release v2.3.2 (5-sep-2026)
 • FFmpeg/FFmpeg — ★66.673 · empujó en las últimas horas · NOASSERTION
 • GNOME/easytag — ★83 · empujó el 10-oct-2026 (hace 28 días) · GPL-2.0
-• yt-dlp/yt-dlp — ★205.874 · empujó el 4-nov-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
+• yt-dlp/yt-dlp — ★205.875 · empujó el 4-nov-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
 • imputnet/cobalt — ★45.891 · *dormido*: sin empujar desde el 6-abr-2026 (215 días) · AGPL-3.0
 • librespot-org/librespot — ★7.377 · empujó en las últimas horas · MIT · última release v0.8.0 (10-nov-2025)
 • Spotifyd/spotifyd — ★10.828 · *dormido*: sin empujar desde el 28-may-2026 (163 días) · GPL-3.0 · última release v0.4.2 (19-nov-2025)

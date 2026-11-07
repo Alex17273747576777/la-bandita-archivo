@@ -478,7 +478,7 @@ Y lo cuarto: **ocho nacidos en 2026, tres serios y cinco intentos**. Lo nuevo se
 Medí otra vez, hoy 7 de noviembre de 2026, los 31 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
 • aria2/aria2 — ★43.424 · *dormido*: sin empujar desde el 25-jun-2026 (135 días) · GPL-2.0 · última release release-1.37.0 (15-nov-2023)
-• nilaoda/N_m3u8DL-RE — ★9.042 · empujó el 4-nov-2026 (hace 3 días) · MIT · última release v0.6.0-beta (28-jun-2026)
+• nilaoda/N_m3u8DL-RE — ★9.043 · empujó el 4-nov-2026 (hace 3 días) · MIT · última release v0.6.0-beta (28-jun-2026)
 • rockdaboot/wget2 — ★800 · empujó el 5-nov-2026 (hace 2 días) · LGPL-3.0 · última release v2.3.0 (21-sep-2026)
 • axel-download-accelerator/axel — ★3.424 · empujó el 30-sep-2026 (hace 38 días) · GPL-2.0 · última release v2.17.14 (7-abr-2024)
 • lwthiker/curl-impersonate — ★7.174 · *dormido*: sin empujar desde el 18-jul-2024 (842 días) · MIT · última release v0.6.1 (2-mar-2024)
@@ -496,7 +496,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 31 repositorios que cita esta pi
 • deniscerri/ytdlnis — ★11.001 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
 • yausername/youtubedl-android — ★1.381 · *dormido*: sin empujar desde el 16-nov-2025 (356 días) · GPL-3.0
 • JunkFood02/Seal — ★30.408 · empujó el 25-sep-2026 (hace 43 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
-• yt-dlp/yt-dlp — ★205.874 · empujó el 4-nov-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
+• yt-dlp/yt-dlp — ★205.875 · empujó el 4-nov-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
 • iawia002/lux — ★31.824 · *dormido*: sin empujar desde el 29-mar-2026 (223 días) · MIT · última release v0.24.1 (6-may-2024)
 • soimort/you-get — ★56.857 · empujó el 6-oct-2026 (hace 32 días) · NOASSERTION · última release v0.4.1743 (4-ene-2025)
 • mikf/gallery-dl — ★20.405 · empujó el 31-oct-2026 (hace 7 días) · GPL-2.0 · última release v1.32.19 (31-oct-2026)
@@ -512,7 +512,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 31 repositorios que cita esta pi
 
 ═══ MENSAJE 19 de 21 · 155 caracteres ═══
 
-• BareBrowser/bare-browser — ★728 · empujó el 3-nov-2026 (hace 4 días) · BSD-3-Clause · última release v1.0.1 (21-oct-2026)
+• BareBrowser/bare-browser — ★729 · empujó el 3-nov-2026 (hace 4 días) · BSD-3-Clause · última release v1.0.1 (21-oct-2026)
 
 ⏬ sigue abajo · parte 18 de 20
 

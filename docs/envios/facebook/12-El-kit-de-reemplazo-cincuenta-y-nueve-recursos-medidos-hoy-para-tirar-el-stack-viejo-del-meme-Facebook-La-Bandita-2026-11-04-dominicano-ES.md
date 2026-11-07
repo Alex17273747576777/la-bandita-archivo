@@ -484,8 +484,8 @@ Y lo cuarto: **lo más nuevo no es lo mejor, pero es lo que está vivo**. El lan
 
 Medí otra vez, hoy 7 de noviembre de 2026, los 51 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• iptv-org/iptv — ★143.466 · empujó en las últimas horas · Unlicense
-• ImranR98/Obtainium — ★21.293 · empujó el 1-nov-2026 (hace 6 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
+• iptv-org/iptv — ★143.468 · empujó en las últimas horas · Unlicense
+• ImranR98/Obtainium — ★21.294 · empujó el 1-nov-2026 (hace 6 días) · GPL-3.0 · última release v1.7.4 (1-nov-2026)
 • Accrescent/Accrescent — ★2.310 · empujó en las últimas horas · Apache-2.0 · última release 0.29.1 (4-nov-2026)
 • f-droid/fdroidclient — ★3.268 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release 1.18.0 (24-ene-2024)
 • TrackerControl/tracker-control-android — ★2.727 · empujó el 2-nov-2026 (hace 5 días) · GPL-3.0 · última release 2026110101 (1-nov-2026)

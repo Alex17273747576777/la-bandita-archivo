@@ -397,7 +397,7 @@ Porque se midió hoy y tiene veintiún días, trescientas cincuenta y siete conf
 
 Medí otra vez, hoy 7 de noviembre de 2026, los 26 repositorios que cita esta pieza, con la API de GitHub. Lo que sigue es lo que devolvió, no lo que decía la pieza:
 
-• RikkaApps/Shizuku — ★33.013 · *dormido*: sin empujar desde el 18-jun-2025 (507 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
+• RikkaApps/Shizuku — ★33.014 · *dormido*: sin empujar desde el 18-jun-2025 (507 días) · Apache-2.0 · última release v13.6.0 (25-may-2025)
 • RikkaApps/Shizuku-API — ★2.751 · *dormido*: sin empujar desde el 29-may-2025 (527 días) · MIT · última release v12.1.0 (7-oct-2022)
 • d4rken-org/porter — ★261 · empujó el 4-nov-2026 (hace 3 días) · Apache-2.0 · última release v0.8.1-rc0 (7-oct-2026)
 • capitan0n/droynis — ★20 · empujó el 5-nov-2026 (hace 2 días) · GPL-3.0 · última release v0.16.0 (5-nov-2026)
@@ -410,9 +410,9 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 26 repositorios que cita esta pi
 • kerneldroid/Nightzuku — ★332 · empujó el 4-nov-2026 (hace 3 días) · Apache-2.0 · última release v13.7.1-r60 (4-nov-2026)
 • thejaustin/ShizukuPlus — ★1.727 · empujó el 4-nov-2026 (hace 3 días) · Apache-2.0 · última release v13.6.0.r2551 (13-sep-2026)
 • iamr0s/Dhizuku — ★4.103 · empujó en las últimas horas · GPL-3.0 · última release v2.13.0 (30-oct-2026)
-• samolego/Canta — ★6.662 · empujó en las últimas horas · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
+• samolego/Canta — ★6.663 · empujó en las últimas horas · LGPL-3.0 · última release v4.1.0 (29-oct-2026)
 • wxxsfxyzm/InstallerX-Revived — ★7.371 · empujó en las últimas horas · GPL-3.0 · última release 26.09 (30-sep-2026)
-• pass-with-high-score/universal-installer — ★1.699 · empujó en las últimas horas · GPL-3.0 · última release v1.21.0 (1-nov-2026)
+• pass-with-high-score/universal-installer — ★1.700 · empujó en las últimas horas · GPL-3.0 · última release v1.21.0 (1-nov-2026)
 • aistra0528/Hail — ★7.168 · empujó el 27-oct-2026 (hace 11 días) · GPL-3.0 · última release v1.11.0 (26-ago-2026)
 • Hamza417/Inure — ★1.991 · empujó en las últimas horas · GPL-3.0 · última release build107.3.1 (2-nov-2026)
 • yume-chan/VolumeManager — ★608 · empujó el 31-oct-2026 (hace 7 días) · GPL-2.0 · última release v0.3 (31-oct-2026)
@@ -422,7 +422,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 26 repositorios que cita esta pi
 • eyalm2000/adns — ★747 · empujó el 4-nov-2026 (hace 3 días) · MIT · última release v2.1.9 (3-nov-2026)
 • Benimaru-x1k/Benimaru — ★45 · empujó el 5-nov-2026 (hace 2 días) · MIT · última release v4.5 (2-nov-2026)
 • HakaI963/bliss — ★0 · empujó en las últimas horas · Apache-2.0 · última release v1.3.0-3cb6982 (7-nov-2026)
-• Yukstarlight/guang-lab — ★7 · empujó en las últimas horas · GPL-3.0 · última release v1.42 (7-nov-2026)
+• Yukstarlight/guang-lab — ★8 · empujó en las últimas horas · GPL-3.0 · última release v1.42 (7-nov-2026)
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
