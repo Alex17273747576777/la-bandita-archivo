@@ -537,12 +537,13 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 33 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 19 de 21
 
-═══ MENSAJE 21 de 22 · 137 caracteres ═══
+═══ MENSAJE 21 de 22 · 279 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 34 enlaces de esta pieza, *34 responden*.
-Ninguno roto.
+De los 34 enlaces de esta pieza, *33 responden*.
+
+• https://api.github.com/repos/yaolin-dev/OKVideoMac/releases?per_page=100 — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 20 de 21
 

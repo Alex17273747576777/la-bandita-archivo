@@ -11,7 +11,7 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 03 | La caja fuerte del bolsillo: catorce gestores de contraseñas, ninguno  | 7 | 3653 | 14 | 0 | no | `03-La-caja-fuerte-del-bolsillo-catorce-gestores-de-contraseñas-uno-que-no-firma-y-trece-que-piden-fe-Facebook-La-Bandita-2026-11-07-dominicano-ES` |
 | 04 | La lista del permiso: veintiséis programas del permiso, tres que firma | 8 | 3634 | 25 | 0 | no | `04-La-lista-del-permiso-veintiseis-programas-del-permiso-tres-que-firman-y-veintitres-que-no-Facebook-La-Bandita-2026-11-07-dominicano-ES` |
 | 05 | La guía maestra: doce capítulos, setenta fichas medidas hoy y veintidó | 17 | 3947 | 31 | 0 | no | `05-La-guia-maestra-doce-capitulos-sesenta-y-seis-cifras-que-se-movieron-y-veintidos-fichas-que-te-dan-con-que-comprobar-el-archivo-Facebook-La-Bandita-2026-11-07-dominicano-ES` |
-| 06 | El taller de los parches: los gestores firman cincuenta y cinco de sus | 18 | 3653 | 18 | 0 | no | `06-El-taller-los-gestores-de-parches-firman-cincuenta-y-cinco-de-sus-ciento-noventa-archivos-y-los-conjuntos-de-parches-no-firman-ninguno-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
+| 06 | El taller de los parches: ocho gestores firman ocho de veintitrés arch | 17 | 3659 | 18 | 0 | no | `06-El-taller-los-gestores-de-parches-firman-cincuenta-y-cinco-de-sus-ciento-noventa-archivos-y-los-conjuntos-de-parches-no-firman-ninguno-Facebook-La-Bandita-2026-11-07-dominicano-ES` |
 | 07 | La pantalla grande y la casa que no hace ruido: cinco gigantes sin un  | 17 | 3626 | 17 | 0 | no | `07-La-pantalla-grande-y-la-casa-que-no-hace-ruido-cinco-gigantes-sin-un-solo-adjunto-y-cinco-proyectos-de-un-mes-que-firman-el-suyo-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 08 | La red: seis caminos, seis precios — el programa más nuevo del tema sa | 17 | 3625 | 20 | 0 | no | `08-La-red-seis-caminos-seis-precios-el-programa-mas-nuevo-del-tema-saca-ochenta-y-los-dos-mas-instalados-no-firman-nada-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
 | 09 | Archivos, copias y nubes propias: cuatro de diecisiete dan la huella,  | 20 | 3647 | 17 | 0 | no | `09-Archivos-copias-y-nubes-propias-cuatro-de-diecisiete-dan-la-huella-y-las-dos-herramientas-de-copia-llevan-410-y-185-dias-sin-publicar-Facebook-La-Bandita-2026-11-04-dominicano-ES` |
@@ -30,6 +30,6 @@ Cada archivo de `docs/envios/facebook/` es un envío listo para copiar: portada,
 | 22 | El modulo que no necesita root AxManager su plugin y los siete ecosist | 20 | 3319 | 24 | 2 | no | `22-El-modulo-que-no-necesita-root-AxManager-su-plugin-y-los-siete-ecosistemas-contados-hoy-Facebook-La-Bandita-2026-11-05-dominicano-ES` |
 | 25 | El escáner de bolsillo: del papel al PDF legible, con Umi-OCR y episte | 6 | 3558 | 2 | 0 | no | `25-El-scanner-de-bolsillo-del-papel-al-PDF-legible-Umi-OCR-y-episteme-Facebook-La-Bandita-2026-11-06-dominicano-ES` |
 
-**23 piezas · 386 mensajes** · el mayor de todos: 3947 caracteres.
+**23 piezas · 385 mensajes** · el mayor de todos: 3947 caracteres.
 
 

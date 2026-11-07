@@ -483,12 +483,12 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 31 repositorios que cita esta pi
 • axel-download-accelerator/axel — ★3.424 · empujó el 30-sep-2026 (hace 38 días) · GPL-2.0 · última release v2.17.14 (7-abr-2024)
 • lwthiker/curl-impersonate — ★7.174 · *dormido*: sin empujar desde el 18-jul-2024 (842 días) · MIT · última release v0.6.1 (2-mar-2024)
 • mayswind/AriaNg — ★13.268 · empujó el 5-oct-2026 (hace 33 días) · MIT · última release 1.3.15 (5-oct-2026)
-• mayswind/AriaNg-Native — ★2.730 · empujó el 5-oct-2026 (hace 33 días) · MIT · última release 1.3.15 (5-oct-2026)
+• mayswind/AriaNg-Native — ★2.729 · empujó el 5-oct-2026 (hace 33 días) · MIT · última release 1.3.15 (5-oct-2026)
 • Xmader/aria-ng-gui — ★2.027 · *dormido*: sin empujar desde el 27-sep-2020 (2232 días) · MIT · última release v3.1.2 (27-sep-2020)
 • Xmader/aria-ng-gui-android — ★879 · *dormido*: sin empujar desde el 4-ene-2023 (1403 días) · MIT · última release v1.3.1 (18-abr-2021)
 • binux/yaaw — ★2.353 · *dormido*: sin empujar desde el 31-oct-2023 (1103 días) · sin licencia detectada por la API
 • GopeedLab/gopeed — ★27.479 · empujó en las últimas horas · GPL-3.0 · última release v1.9.3 (18-mar-2026)
-• agalwood/Motrix — ★57.905 · empujó el 5-nov-2026 (hace 2 días) · NOASSERTION · última release v2.3.0 (5-nov-2026)
+• agalwood/Motrix — ★57.907 · empujó el 5-nov-2026 (hace 2 días) · NOASSERTION · última release v2.3.0 (5-nov-2026)
 • subhra74/xdm — ★8.336 · empujó el 5-nov-2026 (hace 2 días) · GPL-3.0 · última release v9.0.9 (1-nov-2026)
 • Tyrrrz/YoutubeDownloader — ★16.658 · empujó en las últimas horas · MIT · última release 1.17.1 (25-oct-2026)
 • persepolisdm/persepolis — ★7.495 · *dormido*: sin empujar desde el 9-oct-2025 (394 días) · GPL-3.0 · última release 5.2.0 (14-jul-2025)
@@ -496,7 +496,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 31 repositorios que cita esta pi
 • deniscerri/ytdlnis — ★11.002 · empujó el 4-nov-2026 (hace 3 días) · GPL-3.0 · última release v1.9.1.1 (19-oct-2026)
 • yausername/youtubedl-android — ★1.381 · *dormido*: sin empujar desde el 16-nov-2025 (356 días) · GPL-3.0
 • JunkFood02/Seal — ★30.411 · empujó el 25-sep-2026 (hace 43 días) · GPL-3.0 · última release v1.13.1 (16-oct-2024)
-• yt-dlp/yt-dlp — ★205.886 · empujó el 4-nov-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
+• yt-dlp/yt-dlp — ★205.887 · empujó el 4-nov-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
 • iawia002/lux — ★31.825 · *dormido*: sin empujar desde el 29-mar-2026 (223 días) · MIT · última release v0.24.1 (6-may-2024)
 • soimort/you-get — ★56.857 · empujó el 6-oct-2026 (hace 32 días) · NOASSERTION · última release v0.4.1743 (4-ene-2025)
 • mikf/gallery-dl — ★20.405 · empujó el 31-oct-2026 (hace 7 días) · GPL-2.0 · última release v1.32.19 (31-oct-2026)
@@ -512,16 +512,17 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 31 repositorios que cita esta pi
 
 ═══ MENSAJE 19 de 21 · 155 caracteres ═══
 
-• BareBrowser/bare-browser — ★733 · empujó el 3-nov-2026 (hace 4 días) · BSD-3-Clause · última release v1.0.1 (21-oct-2026)
+• BareBrowser/bare-browser — ★734 · empujó el 3-nov-2026 (hace 4 días) · BSD-3-Clause · última release v1.0.1 (21-oct-2026)
 
 ⏬ sigue abajo · parte 18 de 20
 
-═══ MENSAJE 20 de 21 · 137 caracteres ═══
+═══ MENSAJE 20 de 21 · 271 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 35 enlaces de esta pieza, *35 responden*.
-Ninguno roto.
+De los 35 enlaces de esta pieza, *34 responden*.
+
+• https://api.github.com/repos/yt-dlp/yt-dlp/releases?per_page=100 — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 19 de 20
 

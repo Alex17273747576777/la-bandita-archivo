@@ -432,7 +432,7 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 24 repositorios que cita esta pi
 • abysssnare/Axmanager-modle — ★29 · empujó el 5-oct-2026 (hace 33 días) · MIT · última release v2.1.0 (12-sep-2026)
 • ScarletHanami/Network_Enhance — ★25 · *dormido*: sin empujar desde el 29-jul-2026 (101 días) · MIT · última release v1.1.6 (29-jul-2026)
 • bufanchen121101/AxManagerD — ★52 · empujó el 31-oct-2026 (hace 7 días) · NOASSERTION · última release v1.4.0 (31-oct-2026)
-• topjohnwu/Magisk — ★63.837 · empujó el 27-oct-2026 (hace 11 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
+• topjohnwu/Magisk — ★63.836 · empujó el 27-oct-2026 (hace 11 días) · GPL-3.0 · última release v31.1 (25-oct-2026)
 • tiann/KernelSU — ★20.235 · empujó en las últimas horas · GPL-3.0 · última release v3.3.1 (12-oct-2026)
 • KernelSU-Next/KernelSU-Next — ★4.749 · empujó en las últimas horas · GPL-3.0 · última release v3.4.2 (13-oct-2026)
 • SukiSU-Ultra/SukiSU-Ultra — ★6.947 · empujó en las últimas horas · GPL-3.0 · última release v4.3.0-r2 (5-nov-2026)

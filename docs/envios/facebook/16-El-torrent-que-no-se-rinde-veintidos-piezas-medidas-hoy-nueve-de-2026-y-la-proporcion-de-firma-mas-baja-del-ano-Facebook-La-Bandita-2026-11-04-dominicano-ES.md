@@ -436,7 +436,7 @@ Y lo cuarto: **nueve piezas de 2026 en un tema que parecía cerrado**. Escribir 
 
 ⏬ sigue abajo · parte 14 de 16
 
-═══ MENSAJE 16 de 17 · 751 caracteres ═══
+═══ MENSAJE 16 de 17 · 1000 caracteres ═══
 
 💓 *EL ESTADO DE HOY · pieza 16*
 
@@ -449,8 +449,10 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 4 repositorios que cita esta pie
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 5 enlaces de esta pieza, *5 responden*.
-Ninguno roto.
+De los 5 enlaces de esta pieza, *3 responden*.
+
+• https://api.github.com/repos/rhash/RHash — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
+• https://api.github.com/repos/smartmontools/smartmontools — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 15 de 16
 

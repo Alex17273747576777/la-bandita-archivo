@@ -533,12 +533,13 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 56 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 137 caracteres ═══
+═══ MENSAJE 19 de 20 · 261 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 56 enlaces de esta pieza, *56 responden*.
-Ninguno roto.
+De los 56 enlaces de esta pieza, *55 responden*.
+
+• https://api.github.com/repos/recloudstream/cloudstream — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 18 de 19
 

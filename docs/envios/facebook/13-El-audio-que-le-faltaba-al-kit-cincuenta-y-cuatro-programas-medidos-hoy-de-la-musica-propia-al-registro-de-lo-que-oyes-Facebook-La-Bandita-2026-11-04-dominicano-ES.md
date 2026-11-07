@@ -514,8 +514,8 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 52 repositorios que cita esta pi
 • taglib/taglib — ★1.467 · empujó el 4-nov-2026 (hace 3 días) · LGPL-2.1 · última release v2.3.2 (5-sep-2026)
 • FFmpeg/FFmpeg — ★66.675 · empujó en las últimas horas · NOASSERTION
 • GNOME/easytag — ★83 · empujó el 10-oct-2026 (hace 28 días) · GPL-2.0
-• yt-dlp/yt-dlp — ★205.886 · empujó el 4-nov-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
-• imputnet/cobalt — ★45.893 · *dormido*: sin empujar desde el 6-abr-2026 (215 días) · AGPL-3.0
+• yt-dlp/yt-dlp — ★205.887 · empujó el 4-nov-2026 (hace 3 días) · Unlicense · última release 2026.10.26 (26-oct-2026)
+• imputnet/cobalt — ★45.894 · *dormido*: sin empujar desde el 6-abr-2026 (215 días) · AGPL-3.0
 • librespot-org/librespot — ★7.377 · empujó en las últimas horas · MIT · última release v0.8.0 (10-nov-2025)
 • Spotifyd/spotifyd — ★10.828 · *dormido*: sin empujar desde el 28-may-2026 (163 días) · GPL-3.0 · última release v0.4.2 (19-nov-2025)
 • MusicPlayerDaemon/MPD — ★2.813 · empujó en las últimas horas · GPL-2.0
@@ -524,12 +524,13 @@ Medí otra vez, hoy 7 de noviembre de 2026, los 52 repositorios que cita esta pi
 
 ⏬ sigue abajo · parte 17 de 19
 
-═══ MENSAJE 19 de 20 · 137 caracteres ═══
+═══ MENSAJE 19 de 20 · 253 caracteres ═══
 
 💓 *LOS ENLACES · medidos hoy uno por uno*
 
-De los 57 enlaces de esta pieza, *57 responden*.
-Ninguno roto.
+De los 57 enlaces de esta pieza, *56 responden*.
+
+• https://api.github.com/repos/vfsfitvnm/ViMusic — contesta 403 a un robot. *No está muerto*: ábrelo en tu navegador y lo verás.
 
 ⏬ sigue abajo · parte 18 de 19
 

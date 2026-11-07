@@ -1,6 +1,6 @@
 {
  "medido_en": "2026-11-07",
- "medido_en_utc": "2026-11-07T11:06:37+00:00",
+ "medido_en_utc": "2026-11-07T11:13:52+00:00",
  "repos": {
   "capitan0n/droynis": {
    "estado": "vivo",
@@ -988,7 +988,7 @@
   },
   "SagerNet/sing-box": {
    "estado": "vivo",
-   "stars": 39706,
+   "stars": 39705,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -1120,7 +1120,7 @@
   },
   "home-assistant/core": {
    "estado": "vivo",
-   "stars": 92037,
+   "stars": 92038,
    "push": "2026-11-07",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1144,7 +1144,7 @@
   },
   "Genymobile/scrcpy": {
    "estado": "vivo",
-   "stars": 154220,
+   "stars": 154221,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "Apache-2.0",
@@ -1377,7 +1377,7 @@
   },
   "yuliskov/SmartTube": {
    "estado": "vivo",
-   "stars": 36029,
+   "stars": 36030,
    "push": "2026-11-07",
    "archivado": false,
    "licencia": "MIT",
@@ -1533,7 +1533,7 @@
   },
   "hiddify/hiddify-app": {
    "estado": "vivo",
-   "stars": 33739,
+   "stars": 33740,
    "push": "2026-11-07",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -4169,7 +4169,7 @@
   },
   "yt-dlp/yt-dlp": {
    "estado": "vivo",
-   "stars": 205886,
+   "stars": 205887,
    "push": "2026-11-04",
    "archivado": false,
    "licencia": "Unlicense",
@@ -4181,7 +4181,7 @@
   },
   "imputnet/cobalt": {
    "estado": "vivo",
-   "stars": 45893,
+   "stars": 45894,
    "push": "2026-04-06",
    "archivado": false,
    "licencia": "AGPL-3.0",
@@ -4277,7 +4277,7 @@
   },
   "OpenSelena/omniget": {
    "estado": "vivo",
-   "stars": 4709,
+   "stars": 4710,
    "push": "2026-11-06",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4373,7 +4373,7 @@
   },
   "MuwMx/YumaPlayer": {
    "estado": "vivo",
-   "stars": 1132,
+   "stars": 1133,
    "push": "2026-11-07",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4397,7 +4397,7 @@
   },
   "kota-zo/myspoti": {
    "estado": "vivo",
-   "stars": 1580,
+   "stars": 1581,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -4649,7 +4649,7 @@
   },
   "mayswind/AriaNg-Native": {
    "estado": "vivo",
-   "stars": 2730,
+   "stars": 2729,
    "push": "2026-10-05",
    "archivado": false,
    "licencia": "MIT",
@@ -4709,7 +4709,7 @@
   },
   "agalwood/Motrix": {
    "estado": "vivo",
-   "stars": 57905,
+   "stars": 57907,
    "push": "2026-11-05",
    "archivado": false,
    "licencia": "NOASSERTION",
@@ -4925,7 +4925,7 @@
   },
   "BareBrowser/bare-browser": {
    "estado": "vivo",
-   "stars": 733,
+   "stars": 734,
    "push": "2026-11-03",
    "archivado": false,
    "licencia": "BSD-3-Clause",
@@ -5225,7 +5225,7 @@
   },
   "cjpais/Handy": {
    "estado": "vivo",
-   "stars": 37868,
+   "stars": 37869,
    "push": "2026-11-07",
    "archivado": false,
    "licencia": "MIT",
@@ -5922,7 +5922,7 @@
   },
   "topjohnwu/Magisk": {
    "estado": "vivo",
-   "stars": 63837,
+   "stars": 63836,
    "push": "2026-10-27",
    "archivado": false,
    "licencia": "GPL-3.0",
@@ -6231,32 +6231,32 @@
    "veredicto": "responde"
   },
   "https://api.github.com/repos/recloudstream/cloudstream": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "403",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://api.github.com/repos/rhash/RHash": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "403",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://api.github.com/repos/smartmontools/smartmontools": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "403",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://api.github.com/repos/vfsfitvnm/ViMusic": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "403",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://api.github.com/repos/wasi-master/wmkeyboard/releases?per_page=100": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "403",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://api.github.com/repos/yaolin-dev/OKVideoMac/releases?per_page=100": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "403",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://api.github.com/repos/yt-dlp/yt-dlp/releases?per_page=100": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "403",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/1Selxo/Mangatan": {
    "codigo": "200",
@@ -7655,12 +7655,12 @@
    "veredicto": "responde"
   },
   "https://github.com/krishna3163/OmniShizuku/blob/main/README.es.md": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/krishna3163/OmniShizuku/blob/main/build.gradle": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/krishna3163/OmniShizuku/blob/main/manager/build.gradle": {
    "codigo": "200",
@@ -7671,8 +7671,8 @@
    "veredicto": "responde"
   },
   "https://github.com/krishna3163/OmniShizuku/blob/main/remaining.md": {
-   "codigo": "200",
-   "veredicto": "responde"
+   "codigo": "429",
+   "veredicto": "no deja entrar a un robot"
   },
   "https://github.com/krishna3163/OmniShizuku/blob/main/stub/build.gradle": {
    "codigo": "200",
