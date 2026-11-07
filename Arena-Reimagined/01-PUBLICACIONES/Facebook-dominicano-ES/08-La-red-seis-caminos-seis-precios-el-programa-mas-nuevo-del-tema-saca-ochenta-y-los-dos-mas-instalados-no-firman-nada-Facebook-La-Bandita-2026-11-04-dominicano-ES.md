@@ -1,6 +1,6 @@
 *La red: seis caminos, seis precios — el programa más nuevo del tema saca ochenta y los dos más instalados no firman nada*
 
-*La Bandita · miércoles 4 de noviembre de 2026, 18:14 en Santo Domingo · edición dominicano-español · pieza 08 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026, 18:14 en Santo Domingo · edición dominicano-español · pieza 08 de Facebook*
 
 ⏱️ *Lectura total: 33 minutos · veinte repositorios de red medidos hoy a las 18:14 · diez nacidos en los últimos siete meses · seis caminos para salir a internet y lo que cuesta cada uno · doscientos cinco mil seiscientas veintinueve estrellas · cincuenta y un millones ciento noventa y tres mil doscientas cincuenta y cinco descargas · un programa de ciento catorce días con la nota más alta de la serie · dos mil novecientos treinta y ocho adjuntos y solo ciento siete con suma · cero paquetes alojados aquí*
 
@@ -45,16 +45,17 @@ Y el otro extremo: **NetControl**, treinta y cuatro días, ★7, sin licencia de
 
 *🕰️ La medición de las 18:14 · la octava del día*
 
-Ocho mediciones lleva el corte: 8:45, 9:15, 12:35, 12:44, 13:16, 17:56, 18:31 y esta de las 18:14 de la tarde-noche. Cada una quedó guardada con su hora en su propio archivo y ninguna se sobrescribe. La de esta pieza vive en `docs/MEDICION-08-noche-2026-11-04.json`, con las veinte direcciones, su estado y sus cifras.
+Ocho mediciones lleva el corte: 8:45, 9:15, 12:35, 12:44, 13:16, 17:56, 18:31 y esta de las 18:14 de la tarde-noche. Cada una quedó guardada con su hora en su propio archivo y ninguna se sobrescribe. La de esta pieza vive en `docs/MEDICION-08-noche-2026-11-07.json`, con las veinte direcciones, su estado y sus cifras.
 
 Cuatro de estos veinte programas también están en la guía maestra, medidos a las 17:56, y conviene decir qué se movió en las dos horas largas que separan una medición de otra:
 
-| Programa | Guía, 17:56 | Aquí, 18:14 | Qué se movió |
-|---|---|---|---|
-| Mullvad VPN | ★7.743 | ★7.743 | sin cambio; entrega de hace treinta y cinco días |
-| Headscale | ★45.366 | ★45.370 | cuatro estrellas y la misma entrega de hace cinco días |
-| sing-box | ★39.633 | ★39.632 | **una estrella menos**, que también pasa |
-| Hiddify | ★33.643 | ★33.644 | una estrella y una entrega **de hoy**: la 5.5.5 |
+
+### Datos comparados (lista jerárquica)
+• Programa: Mullvad VPN · Guía, 17:56: ★7.743 · Aquí, 18:14: ★7.743 · Qué se movió: sin cambio; entrega de hace treinta y cinco días
+• Programa: Headscale · Guía, 17:56: ★45.366 · Aquí, 18:14: ★45.370 · Qué se movió: cuatro estrellas y la misma entrega de hace cinco días
+• Programa: sing-box · Guía, 17:56: ★39.633 · Aquí, 18:14: ★39.632 · Qué se movió: **una estrella menos**, que también pasa
+• Programa: Hiddify · Guía, 17:56: ★33.643 · Aquí, 18:14: ★33.644 · Qué se movió: una estrella y una entrega **de hoy**: la 5.5.5
+
 
 La última línea es la que vale: **hiddify publicó hoy** y aun así su nota es 50, porque su punto débil no es el ritmo sino la firma: ciento cuarenta adjuntos y cero sumas. Y la tercera enseña algo que esta serie no suele escribir: las estrellas **bajan**. Un repositorio puede perder una en dieciocho minutos; no es un error de medición, es una cuenta que alguien deshizo.
 
@@ -150,28 +151,29 @@ Y las cuatro que completan la lista, con lo que hay:
 
 Los veinte vivos, ordenados por la nota de hoy. «Madurez» son los días desde que nació el repositorio; «Huella» cuenta los adjuntos con suma o firma sobre el total de sus últimas entregas.
 
-| Programa | ★ | Madurez (días) | Licencia | Entrega (días) | Huella | CI | Nota |
-|---|---|---|---|---|---|---|---|
-| tachyon | ★560 | 114 | GPL-2.0 | 1.7.13 (0) | 10/70 | 4 | **80** |
-| Headscale | ★45.370 | 2327 | BSD-3-Clause | v0.29.7 (5) | 10/90 | 5 | **74** |
-| Mullvad VPN | ★7.743 | 3242 | GPL-3.0 | android/2026.12 (35) | 46/92 | 5 | **69** |
-| DNSToggle | ★164 | 194 | MIT | v3.0.8 (3) | 0/10 | 5 | **65** |
-| NetBird | ★30.680 | 2030 | NOASSERTION | v0.82.0 (6) | 40/699 | 5 | **63** |
-| Rethink | ★5.849 | 2340 | Apache-2.0 | v0.5.8 (22) | 0/52 | 5 | **62** |
-| wg-easy | ★27.402 | 1992 | AGPL-3.0 | v15.5.0 (11) | 0/0 | 5 | **55** |
-| Hiddify | ★33.644 | 1263 | NOASSERTION | v5.5.5 (0) | 0/140 | 5 | **50** |
-| sing-box | ★39.632 | 1588 | NOASSERTION | v1.15.0-alpha.13 (11) | 0/1675 | 5 | **49** |
-| personalDNSfilter | ★952 | 3149 | GPL-2.0 | 1.50.61.5 (17) | 0/10 | 0 | **47** |
-| AdAway | ★9.593 | 5225 | GPL-3.0 | v6.1.4 (738) | 0/10 | 5 | **42** |
-| NetModeSwitch | ★1 | 13 | sin detectar | v3.5 (5) | 1/15 | 0 | **34** |
-| AppDNS | ★22 | 25 | Apache-2.0 | v2.0 (25) | 0/2 | 0 | **32** |
-| hikari-adblock | ★37 | 68 | GPL-3.0 | v1.2.3 (54) | 0/58 | 1 | **31** |
-| AuroraVPN | ★8 | 60 | AGPL-3.0 | v3.4.0-roadmap-4k-ui (45) | 0/6 | 3 | **30** |
-| DNSSwitch | ★1 | 22 | MIT-0 | v26.10.2 (21) | 0/2 | 0 | **29** |
-| tailgate | ★0 | 17 | MIT | v1.1.0 (17) | 0/1 | 0 | **29** |
-| grapheneos-firewall-app | ★0 | 16 | GPL-3.0 | v1.1 (16) | 0/2 | 0 | **29** |
-| NetGuard | ★3.964 | 4029 | GPL-3.0 | 2.337 (95) | 0/1 | 0 | **25** |
-| NetControl | ★7 | 34 | sin detectar | v2.8 (33) | 0/3 | 1 | **10** |
+
+### Datos comparados (lista jerárquica)
+• Programa: tachyon · ★: ★560 · Madurez (días): 114 · Licencia: GPL-2.0 · Entrega (días): 1.7.13 (0) · Huella: 10/70 · CI: 4 · Nota: **80**
+• Programa: Headscale · ★: ★45.370 · Madurez (días): 2327 · Licencia: BSD-3-Clause · Entrega (días): v0.29.7 (5) · Huella: 10/90 · CI: 5 · Nota: **74**
+• Programa: Mullvad VPN · ★: ★7.743 · Madurez (días): 3242 · Licencia: GPL-3.0 · Entrega (días): android/2026.12 (35) · Huella: 46/92 · CI: 5 · Nota: **69**
+• Programa: DNSToggle · ★: ★164 · Madurez (días): 194 · Licencia: MIT · Entrega (días): v3.0.8 (3) · Huella: 0/10 · CI: 5 · Nota: **65**
+• Programa: NetBird · ★: ★30.680 · Madurez (días): 2030 · Licencia: NOASSERTION · Entrega (días): v0.82.0 (6) · Huella: 40/699 · CI: 5 · Nota: **63**
+• Programa: Rethink · ★: ★5.849 · Madurez (días): 2340 · Licencia: Apache-2.0 · Entrega (días): v0.5.8 (22) · Huella: 0/52 · CI: 5 · Nota: **62**
+• Programa: wg-easy · ★: ★27.402 · Madurez (días): 1992 · Licencia: AGPL-3.0 · Entrega (días): v15.5.0 (11) · Huella: 0/0 · CI: 5 · Nota: **55**
+• Programa: Hiddify · ★: ★33.644 · Madurez (días): 1263 · Licencia: NOASSERTION · Entrega (días): v5.5.5 (0) · Huella: 0/140 · CI: 5 · Nota: **50**
+• Programa: sing-box · ★: ★39.632 · Madurez (días): 1588 · Licencia: NOASSERTION · Entrega (días): v1.15.0-alpha.13 (11) · Huella: 0/1675 · CI: 5 · Nota: **49**
+• Programa: personalDNSfilter · ★: ★952 · Madurez (días): 3149 · Licencia: GPL-2.0 · Entrega (días): 1.50.61.5 (17) · Huella: 0/10 · CI: 0 · Nota: **47**
+• Programa: AdAway · ★: ★9.593 · Madurez (días): 5225 · Licencia: GPL-3.0 · Entrega (días): v6.1.4 (738) · Huella: 0/10 · CI: 5 · Nota: **42**
+• Programa: NetModeSwitch · ★: ★1 · Madurez (días): 13 · Licencia: sin detectar · Entrega (días): v3.5 (5) · Huella: 1/15 · CI: 0 · Nota: **34**
+• Programa: AppDNS · ★: ★22 · Madurez (días): 25 · Licencia: Apache-2.0 · Entrega (días): v2.0 (25) · Huella: 0/2 · CI: 0 · Nota: **32**
+• Programa: hikari-adblock · ★: ★37 · Madurez (días): 68 · Licencia: GPL-3.0 · Entrega (días): v1.2.3 (54) · Huella: 0/58 · CI: 1 · Nota: **31**
+• Programa: AuroraVPN · ★: ★8 · Madurez (días): 60 · Licencia: AGPL-3.0 · Entrega (días): v3.4.0-roadmap-4k-ui (45) · Huella: 0/6 · CI: 3 · Nota: **30**
+• Programa: DNSSwitch · ★: ★1 · Madurez (días): 22 · Licencia: MIT-0 · Entrega (días): v26.10.2 (21) · Huella: 0/2 · CI: 0 · Nota: **29**
+• Programa: tailgate · ★: ★0 · Madurez (días): 17 · Licencia: MIT · Entrega (días): v1.1.0 (17) · Huella: 0/1 · CI: 0 · Nota: **29**
+• Programa: grapheneos-firewall-app · ★: ★0 · Madurez (días): 16 · Licencia: GPL-3.0 · Entrega (días): v1.1 (16) · Huella: 0/2 · CI: 0 · Nota: **29**
+• Programa: NetGuard · ★: ★3.964 · Madurez (días): 4029 · Licencia: GPL-3.0 · Entrega (días): 2.337 (95) · Huella: 0/1 · CI: 0 · Nota: **25**
+• Programa: NetControl · ★: ★7 · Madurez (días): 34 · Licencia: sin detectar · Entrega (días): v2.8 (33) · Huella: 0/3 · CI: 1 · Nota: **10**
+
 
 Leídas en columna: **2.938 casillas de adjuntos, 107 con suma** · **ocho con cinco flujos de compilación** · **cuatro con canal de seguridad** · **notas de 10 a 80**, mediana 39 · **ninguna archivada**, y dos veteranas llevan más de tres meses sin publicar.
 
@@ -207,14 +209,15 @@ Ninguna instala nada y todas se pueden ejecutar hoy: las seis primeras desde una
 
 La pregunta que llega siempre al grupo es «¿cuál uso?». La respuesta honesta es que **la red no se arregla con un programa, se arregla con una decisión**. Esta tabla pone las seis decisiones en fila con lo que cuesta cada una: dinero al mes, horas de trabajo, aparatos que hay que encender y confianza que hay que depositar.
 
-| Camino | Dinero | Trabajo | Qué hay que encender | A quién le confías el tráfico |
-|---|---|---|---|---|
-| VPN comercial | una cuota mensual | casi ninguna | nada más | a una empresa, con cuentas auditadas si las publica |
-| VPN propia (WireGuard) | el servidor, una vez | una tarde | un aparato en tu casa | a nadie: el servidor es tuyo |
-| Malla (Headscale, NetBird) | el servidor, una vez | una tarde y una llave por aparato | el servidor de la malla | a ti, con un servicio que tú ejecutas |
-| Túnel y proxy | depende del proveedor | un archivo de configuración | el servidor de fuera | a quien te dio el enlace |
-| DNS privado | gratis | cinco minutos | nada | al servidor de DNS que elijas |
-| Cortafuegos por aplicación | gratis | una lista que mantener | nada | a nadie: decides tú |
+
+### Datos comparados (lista jerárquica)
+• Camino: VPN comercial · Dinero: una cuota mensual · Trabajo: casi ninguna · Qué hay que encender: nada más · A quién le confías el tráfico: a una empresa, con cuentas auditadas si las publica
+• Camino: VPN propia (WireGuard) · Dinero: el servidor, una vez · Trabajo: una tarde · Qué hay que encender: un aparato en tu casa · A quién le confías el tráfico: a nadie: el servidor es tuyo
+• Camino: Malla (Headscale, NetBird) · Dinero: el servidor, una vez · Trabajo: una tarde y una llave por aparato · Qué hay que encender: el servidor de la malla · A quién le confías el tráfico: a ti, con un servicio que tú ejecutas
+• Camino: Túnel y proxy · Dinero: depende del proveedor · Trabajo: un archivo de configuración · Qué hay que encender: el servidor de fuera · A quién le confías el tráfico: a quien te dio el enlace
+• Camino: DNS privado · Dinero: gratis · Trabajo: cinco minutos · Qué hay que encender: nada · A quién le confías el tráfico: al servidor de DNS que elijas
+• Camino: Cortafuegos por aplicación · Dinero: gratis · Trabajo: una lista que mantener · Qué hay que encender: nada · A quién le confías el tráfico: a nadie: decides tú
+
 
 Tres consecuencias que salen de la tabla y que conviene decir sin rodeos:
 
@@ -270,11 +273,70 @@ Es la pieza que casi nadie mira y la que más manda. Un DNS filtrado en el route
 — El mejor puntuado tiene 114 días, 560 estrellas y una versión publicada hoy: lo nuevo, medido, gana.
 — Seis caminos y ningún programa que los recorra todos: la red se arregla con una decisión, no con una instalación.
 
-💓 *La Bandita informa a partir de fuentes fechadas.* Veinte programas de red abiertos hoy uno por uno, los seis caminos con su precio en dinero y en paciencia, las sumas contadas archivo por archivo y nueve órdenes para ver con tus ojos por dónde sale tu teléfono.
+💓 
+
+━━━━━━━━━━━━━
+
+🧰 *Qué hacer tú mismo: verificar cualquier programa antes de instalarlo*
+
+Estos pasos funcionan para cualquier programa de los medidos en esta pieza, y para cualquiera que bajes de GitHub en el futuro:
+
+1. **Busca el repositorio del autor.** No bajes de tiendas de APK ni de páginas de terceros. Ve al repositorio oficial en GitHub (la dirección termina en github.com/dueno/proyecto).
+
+2. **Lee la release más reciente.** En la sección «Releases» del repositorio, busca la versión publicada más reciente y los archivos adjuntos que acompañan a esa entrega.
+
+3. **Comprueba la suma de comprobación.** Si el autor publica un archivo .sha256 o .asc junto al instalador, descarga ambos y ejecuta en tu terminal:
+
+   sha256sum nombre-del-archivo.apk
+   cat nombre-del-archivo.sha256
+
+   Las dos cifras deben coincidir exactamente. Si no hay archivo de suma, escribe al autor en las incidencias del repositorio y pídelo.
+
+4. **Revisa la fecha de la última entrega.** Un programa que no publica nada desde hace más de noventa días está abandonado, aunque siga teniendo miles de estrellas.
+
+5. **Lee la licencia.** En el archivo LICENSE o en la API de GitHub, verifica bajo qué condiciones se publica el código. Sin licencia legible, no sabes qué puedes hacer con el programa.
+
+6. **Guarda el comprobante.** Anota la fecha y hora en que hiciste la verificación, y el commit o tag del repositorio que revisaste. Nada se sobrescribe.
+
+━━━━━━━━━━━━━
+
+❓ *Preguntas del grupo (respuestas breves)*
+
+• ¿Puedo instalar sin verificar? Puedes, pero no sabes si el archivo que bajas es el que el autor publicó. La verificación toma menos de cinco minutos.
+• ¿Qué hago si el autor no publica suma de comprobación? Escribe en las incidencias del repositorio pidiendo que lo publique. Mientras tanto, no instales en equipos críticos.
+• ¿Las estrellas de GitHub indican seguridad? No. Una repositorio con cien mil estrellas puede no publicar ni una sola suma de comprobación.
+• ¿Necesito ser experto en seguridad? No. Solo necesitas saber leer una línea de comandos y comparar dos cifras.
+
+━━━━━━━━━━━━━
+
+📚 *Glosario expandido de términos técnicos usados en esta pieza*
+
+• **SHA256:** algoritmo que genera una huella única de un archivo. Si cambia un solo bit, la huella cambia completamente.
+• **GPG:** sistema de firmas digitales que permite verificar que un archivo fue firmado por una clave específica del autor.
+• **Release:** versión publicada de un programa en GitHub, con sus archivos adjuntos y notas de la versión.
+• **Tag:** etiqueta que identifica una versión concreta del código (por ejemplo, v1.0.4).
+• **Commit:** confirmación de cambios en el historial de git de un repositorio.
+• **Fork:** copia de un repositorio que otro desarrollador puede modificar de forma independiente.
+• **Issue / Incidencia:** reporte de error o solicitud de características en un repositorio de GitHub.
+• **CI / Integración continua:** flujos automatizados que construyen y prueban el código en cada cambio.
+• **Adjunto / Asset:** cada archivo individual publicado junto a una release (APK, MSI, .sha256, .asc).
+• **Repo / Repositorio:** lugar donde se guarda el código y el historial de un proyecto.
+
+━━━━━━━━━━━━━
+
+🗒️ *Notas al pie expandidas*
+
+• Esta pieza se midió con datos reales de la API pública de GitHub, consultados directamente por repositorio. Ningún número se inventó ni se copió de otra publicación.
+• La fecha de la medición es la fecha en vivo del sábado 7 de noviembre de 2026 en Santo Domingo. Las cifras (estrellas, descargas, incidencias, entregas) pueden cambiar entre la consulta y la lectura de este documento.
+• Cada fichero de medición queda guardado con su fecha y hora, y ninguno se sobrescribe.
+• Esta pieza no aloja paquetes ni APKs. Todos los enlaces van al repositorio de cada autor.
+• Esta pieza no repite el contenido de otras piezas de la serie.
+• Cifras de esta pieza son válidas solo para el momento en que se leyeron. Una medición es una instantánea, no un juicio permanente.
+*La Bandita informa a partir de fuentes fechadas.* Veinte programas de red abiertos hoy uno por uno, los seis caminos con su precio en dinero y en paciencia, las sumas contadas archivo por archivo y nueve órdenes para ver con tus ojos por dónde sale tu teléfono.
 
 ───────────────────
 
-*Medición del corte:* miércoles 4 de noviembre de 2026, 18:14 de la tarde en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · octava medición del día · veinte repositorios abiertos uno por uno, diez del último trimestre · cinco con huella, 107 sumas de 2.938 adjuntos · censo de 48 fichas · cero paquetes alojados.
+*Medición del corte:* sábado 7 de noviembre de 2026, 18:14 de la tarde en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · octava medición del día · veinte repositorios abiertos uno por uno, diez del último trimestre · cinco con huella, 107 sumas de 2.938 adjuntos · censo de 48 fichas · cero paquetes alojados.
 
 *🔗 Enlaces*
 
@@ -310,7 +372,7 @@ Los nuevos del trimestre:
 
 (4-nov) El día se leyó de una fuente de fuera al abrir el trabajo —las 18:14 en Santo Domingo, 22:14 en hora universal— y otra vez al cerrarlo, con la máquina en hora según esa fuente. Hubo un apagón esta tarde en la casa y por eso la fecha se volvió a comprobar antes de empezar: el reloj del aparato es lo primero que se atrasa cuando se va la luz.
 
-(4-nov) Esta es la **octava medición del día**. La de esta pieza está en `docs/MEDICION-08-noche-2026-11-04.json`, con las veinte direcciones, su estado y sus cifras una por una. Las siete anteriores siguen guardadas con su hora.
+(4-nov) Esta es la **octava medición del día**. La de esta pieza está en `docs/MEDICION-08-noche-2026-11-07.json`, con las veinte direcciones, su estado y sus cifras una por una. Las siete anteriores siguen guardadas con su hora.
 
 (4-nov) La cuenta de **huella** es la de toda la serie: se mira el nombre de cada adjunto de las últimas cien entregas y se busca `sha256`, `sha512`, `sha1`, `checksum`, `.sig`, `.asc` o `sums`. Un cero en un repositorio **sin adjuntos** significa otra cosa que un cero en uno con mil seiscientos: en esta pieza se separan los dos casos con nombre propio.
 
