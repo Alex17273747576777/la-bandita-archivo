@@ -1,6 +1,6 @@
 *La radio y el directo: treinta y dos piezas medidas hoy —el enlace que dura un minuto, la guía que hay que mantener a mano y la proporción de firma del 14,1 %—*
 
-*La Bandita · jueves 5 de noviembre de 2026, 09:24 de la mañana en Santo Domingo · edición dominicano-español · pieza 18 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026, 09:24 de la mañana en Santo Domingo · edición dominicano-español · pieza 18 de Facebook*
 
 ⏱️ *Lectura total: 30 minutos · treinta y dos piezas medidas hoy a las 09:24 · 143 archivos firmados de 1.012 —el 14,1 %— · 33.617 estrellas · 1.801.062 descargas · tres sin licencia legible · cero archivados · dieciocho de 2026*
 
@@ -24,7 +24,7 @@
 
 Mide treinta y dos piezas, todas vivas y ninguna archivada: cuatro de la radio de siempre, siete de bolsillo nacidas casi todas este año, tres de escritorio, once reproductores de televisión por lista, tres herramientas del directo y cuatro para **emitir tú mismo**. **dieciocho son de 2026** y tres nacieron en los últimos noventa días, así que este no es un tema cerrado: es un tema que volvió.
 
-Y la cifra: **143 archivos firmados de 1.012: el 14,1 %**. Por encima de los torrentes de la 16 y de la descarga de la 15, por debajo del kit de la 12. En un tema donde se instala software para **recibir una señal ajena**, que el instalador se pueda comprobar sigue siendo la asignatura pendiente.
+Y la cifra: **143 archivos firmados de 1.012: el 14,1 %**. Por encima de los protocolo de pareses de la 16 y de la descarga de la 15, por debajo del kit de la 12. En un tema donde se instala software para **recibir una señal ajena**, que el instalador se pueda comprobar sigue siendo la asignatura pendiente.
 
 ───────────────────
 
@@ -42,19 +42,20 @@ Y el dato incómodo, con nombre y fecha: **RadioDroid**, la aplicación de radio
 
 *🕰️ La medición de las 09:24 · la decimonovena del día*
 
-Antes de elegir nada, la revisión que ya es regla: **fecha en vivo**, **historial** —diecisiete publicadas y la 18 en el mapa de 125— y **ecosistema**, con dos consultas a la API por fecha de creación. Acta en `docs/PREFLIGHT-radio-2026-11-05.json`. Después se midieron las treinta y dos piezas a las 09:24, en `docs/MEDICION-18-noche-2026-11-04.json`.
+Antes de elegir nada, la revisión que ya es regla: **fecha en vivo**, **historial** —diecisiete publicadas y la 18 en el mapa de 125— y **ecosistema**, con dos consultas a la API por fecha de creación. Acta en `docs/PREFLIGHT-radio-2026-11-07.json`. Después se midieron las treinta y dos piezas a las 09:24, en `docs/MEDICION-18-noche-2026-11-07.json`.
 
 **Esta sí es la pieza del mapa.** La 17 se adelantó al teclado con IA porque el dueño lo pidió; esta retoma el número que quedó libre y lo hace con el mismo método.
 
 Las cinco notas más altas, con lo que las sostiene:
 
-| Recurso | Nota | Lo que la sostiene | Lo que le falta |
-|---|---|---|---|
-| streamlink | 80 | 10 sumas · 3.065 cerradas | 61 abiertas |
-| OKVideoMac | 74 | 20 sumas de 160 · sin incidencias abiertas | 82 días de vida |
-| aerial | 71 | 10 sumas · empujón de hoy | sin canal de seguridad |
-| libretime | 66 | plataforma completa · 17 cambios | 139 abiertas |
-| OwnTV | 65 | 39 entregas · 234 cambios | 30 adjuntos sin suma |
+
+### Datos comparados (lista jerárquica)
+• Recurso: streamlink · Nota: 80 · Lo que la sostiene: 10 sumas · 3.065 cerradas · Lo que le falta: 61 abiertas
+• Recurso: OKVideoMac · Nota: 74 · Lo que la sostiene: 20 sumas de 160 · sin incidencias abiertas · Lo que le falta: 82 días de vida
+• Recurso: aerial · Nota: 71 · Lo que la sostiene: 10 sumas · empujón de hoy · Lo que le falta: sin canal de seguridad
+• Recurso: libretime · Nota: 66 · Lo que la sostiene: plataforma completa · 17 cambios · Lo que le falta: 139 abiertas
+• Recurso: OwnTV · Nota: 65 · Lo que la sostiene: 39 entregas · 234 cambios · Lo que le falta: 30 adjuntos sin suma
+
 
 **La nota premia que se pueda comprobar, no que sea famoso.** **AntennaPod**, con 8.266 estrellas y 5.210 días de historia, saca **51** porque no publica un solo adjunto: 71 entregas sin archivo que comprobar. Y **OKVideoMac**, con 119 estrellas, saca **74** porque firma 20 de sus 160 archivos.
 
@@ -78,14 +79,15 @@ Antes de las fichas, el mecanismo. Un reproductor de radio o de televisión por 
 
 *🔁 Qué reemplaza a qué · la tabla de la radio*
 
-| Lo que usas hoy | Qué tiene de viejo | Qué lo cubre hoy |
-|---|---|---|
-| La app de radio que instalaste hace años | RadioDroid: **862 días sin publicar** | **aerial**, **InternetRadio**, **omnibeat**, **tune-roam**: cuatro de 2026 |
-| La aplicación del fabricante para ver la tele | Pide cuenta y manda tu lista a un servidor | **OwnTV**, **opentv**, **mytv-android**: lista propia, sin cuenta |
-| Un reproductor de escritorio con la lista pegada a mano | thirty días de prueba y un aviso cada vez que cambia un canal | **Traydio**, **receiver**, **AetherTune**; y **streamlink** para lo que no tiene reproductor |
-| La guía de programación que nunca coincide | Los nombres de la lista y los de la guía no son los mismos | **iptv-doctor**, **epg-tools**, **xmltv-splitter** |
-| Un servicio de streaming para tu emisora | Se paga por oyente y se cae con el pico | **AzuraCast**, **LibreTime** e **Icecast**: en tu casa o en un servidor de cinco dólares |
-| Bajar el audio de un directo | Se graba con el altavoz y suena a eso | **streamlink**: saca el flujo sin recodificar |
+
+### Datos comparados (lista jerárquica)
+• Lo que usas hoy: La app de radio que instalaste hace años · Qué tiene de viejo: RadioDroid: **862 días sin publicar** · Qué lo cubre hoy: **aerial**, **InternetRadio**, **omnibeat**, **tune-roam**: cuatro de 2026
+• Lo que usas hoy: La aplicación del fabricante para ver la tele · Qué tiene de viejo: Pide cuenta y manda tu lista a un servidor · Qué lo cubre hoy: **OwnTV**, **opentv**, **mytv-android**: lista propia, sin cuenta
+• Lo que usas hoy: Un reproductor de escritorio con la lista pegada a mano · Qué tiene de viejo: thirty días de prueba y un aviso cada vez que cambia un canal · Qué lo cubre hoy: **Traydio**, **receiver**, **AetherTune**; y **streamlink** para lo que no tiene reproductor
+• Lo que usas hoy: La guía de programación que nunca coincide · Qué tiene de viejo: Los nombres de la lista y los de la guía no son los mismos · Qué lo cubre hoy: **iptv-doctor**, **epg-tools**, **xmltv-splitter**
+• Lo que usas hoy: Un servicio de streaming para tu emisora · Qué tiene de viejo: Se paga por oyente y se cae con el pico · Qué lo cubre hoy: **AzuraCast**, **LibreTime** e **Icecast**: en tu casa o en un servidor de cinco dólares
+• Lo que usas hoy: Bajar el audio de un directo · Qué tiene de viejo: Se graba con el altavoz y suena a eso · Qué lo cubre hoy: **streamlink**: saca el flujo sin recodificar
+
 
 **Una advertencia sobre esa tabla, y es la de siempre en este tema.** Ninguna de estas piezas trae contenido. Un reproductor es un reproductor: lo que se ve depende de la lista que le pongas. Las listas gratuitas que circulan por ahí suelen ser **redifusiones sin permiso**, y de eso va la sección de responsabilidad, que en esta pieza no es un apéndice.
 
@@ -96,7 +98,7 @@ La radio por internet es el tema más viejo de esta serie: hay aplicaciones que 
 
 **MyTV** — ★3.006 · MIT · empujón hace 3 días · 100 entregas · **80 adjuntos · 0 con suma** · nota **53** · `mytv-android/mytv-android`. **3.006 estrellas** y 100 entregas: reproductor de listas para Android y Android TV con tres motores dentro —Media3, IJK y VLC—, y **0 incidencias abiertas** contra 286 cerradas. Es el nombre que el mapa de 125 daba para esta pieza y el que casi todo el mundo instala primero
 **AntennaPod** — ★8.266 · GPL-3.0 · empujón hace 3 días · 71 entregas · sin adjuntos · nota **51** · `AntennaPod/AntennaPod`. **8.266 estrellas y 5.210 días de historia**: el gestor de pódcast de referencia, con 71 entregas y 4.570 incidencias cerradas. **Cero adjuntos publicados**, así que su nota se queda en **51**: no hay archivo que comprobar. Se instala desde F-Droid, y ese es su argumento
-**RadioDroid** — ★1.081 · GPL-3.0 · empujón hace 862 días · 49 entregas · **14 adjuntos · 0 con suma** · nota **40** · `segler-alex/RadioDroid`. **862 días sin un empujón y cero cambios en treinta días**: la aplicación histórica de radio sobre el catálogo de radio-browser, con 1.081 estrellas, 39.648 descargas y **40 puntos**. Funciona hoy y no se va a arreglar: es la misma historia que Seal en la 15 y LibreTorrent en la 16
+**RadioDroid** — ★1.081 · GPL-3.0 · empujón hace 862 días · 49 entregas · **14 adjuntos · 0 con suma** · nota **40** · `segler-alex/RadioDroid`. **862 días sin un empujón y cero cambios en treinta días**: la aplicación histórica de radio sobre el catálogo de radio-browser, con 1.081 estrellas, 39.648 descargas y **40 puntos**. Funciona hoy y no se va a arreglar: es la misma historia que Seal en la 15 y Libreprotocolo de pares en la 16
 **Deutsia Radio** — ★78 · Apache-2.0 · empujón hace 164 días · 23 entregas · **30 adjuntos · 10 con suma** · nota **49** · madurez 348 d · `deutsia/deutsia-radio`. **164 días sin publicar**, 23 entregas y **10 sumas de 30 adjuntos**: radio por varias redes —incluidas las que no pasan por el internet de siempre—, con licencia Apache y **canal de seguridad**. Nació en 2025 y se enfrió; se lista con la fecha delante
 
 **Lo que dicen las cuatro juntas:** el tema no está huérfano, está **desigualmente mantenido**. MyTV publica cada pocos días y AntennaPod lleva 5.210 días sin morirse; RadioDroid, que es la que más gente tiene instalada, lleva **862 días** quieta. Y de las cuatro, **solo una firma** —Deutsia, 10 de 30—, que es la que menos gente usa.
@@ -181,40 +183,41 @@ El tema tiene una mitad que casi nunca se cuenta: **poner tu propia señal**. Cu
 
 El registro entero, ordenado por nota. La columna de firmas se repite en toda la pieza: **143 de 1.012**.
 
-| # | Recurso | Nota | ★ | Último empujón | Entregas | Sumas / adjuntos |
-|---|---|---|---|---|---|---|
-| 1 | streamlink/streamlink | **80** | 11.896 | hace 2 días | 100 | 10 / 20 |
-| 2 | yaolin-dev/OKVideoMac | **74** | 119 | hoy | 19 | 20 / 160 |
-| 3 | shapeshed/aerial | **71** | 165 | hoy | 18 | 10 / 26 |
-| 4 | libretime/libretime | **66** | 938 | hace 2 días | 29 | 9 / 19 |
-| 5 | ahXN00/OwnTV | **65** | 729 | ayer | 39 | 0 / 30 |
-| 6 | armanmaurya/InternetRadio | **64** | 180 | ayer | 17 | 0 / 10 |
-| 7 | infinitel8p/Extreme-InfiniTV | **64** | 208 | hace 3 días | 92 | 80 / 188 |
-| 8 | renyijiu/tune-roam | **64** | 10 | ayer | 4 | 4 / 8 |
-| 9 | bilipp/Lume | **63** | 176 | hace 2 días | 27 | 0 / 30 |
-| 10 | mewset/better-iptv | **63** | 71 | hace 9 días | 21 | 0 / 80 |
-| 11 | TheJoeFin/Traydio | **62** | 204 | ayer | 13 | 0 / 22 |
-| 12 | lennylxx/webos-iptv-player | **60** | 145 | hace 2 días | 20 | 0 / 20 |
-| 13 | mytv-android/mytv-android | **53** | 3.006 | hace 3 días | 100 | 0 / 80 |
-| 14 | AntennaPod/AntennaPod | **51** | 8.266 | hace 3 días | 71 | 0 / 0 |
-| 15 | AzuraCast/AzuraCast | **50** | 4.085 | hoy | 48 | 0 / 0 |
-| 16 | dereferencex/prysm | **49** | 50 | hace 20 días | 12 | 0 / 32 |
-| 17 | deutsia/deutsia-radio | **49** | 78 | hace 164 días | 23 | 10 / 30 |
-| 18 | Davidona/StreamVault-IPTV | **47** | 1.000 | hace 3 días | 100 | 0 / 20 |
-| 19 | z0rats/freqcast | **46** | 14 | hace 3 días | 33 | 0 / 10 |
-| 20 | bsogulcan/another-iptv-player | **44** | 157 | hace 5 días | 31 | 0 / 32 |
-| 21 | hyliankid14/British-Radio-Player | **44** | 23 | hace 3 días | 52 | 0 / 20 |
-| 22 | opentvproject/opentv | **44** | 145 | hace 8 días | 19 | 0 / 20 |
-| 23 | nevermore23274/AetherTune | **42** | 129 | hace 10 días | 33 | 0 / 40 |
-| 24 | segler-alex/RadioDroid | **40** | 1.081 | hace 862 días | 49 | 0 / 14 |
-| 25 | Ruby184/epg-tools | **39** | 1 | hace 6 días | 8 | 0 / 0 |
-| 26 | xyzs996/iptv-doctor | **39** | 6 | hoy | 1 | 0 / 10 |
-| 27 | vikindor/omnibeat | **38** | 13 | ayer | 11 | 0 / 10 |
-| 28 | meehow/receiver | **36** | 51 | hace 88 días | 15 | 0 / 20 |
-| 29 | clubanderson/clubTivi | **35** | 108 | hace 4 días | 16 | 0 / 60 |
-| 30 | xiph/Icecast-Server | **22** | 557 | hace 78 días | 0 | 0 / 0 |
-| 31 | suuhm/xmltv-splitter | **9** | 1 | hace 121 días | 0 | 0 / 0 |
-| 32 | Woodic-Way/WoodicIPTV | **0** | 5 | hace 98 días | 1 | 0 / 1 |
+
+### Datos comparados (lista jerárquica)
+• #: 1 · Recurso: streamlink/streamlink · Nota: **80** · ★: 11.896 · Último empujón: hace 2 días · Entregas: 100 · Sumas / adjuntos: 10 / 20
+• #: 2 · Recurso: yaolin-dev/OKVideoMac · Nota: **74** · ★: 119 · Último empujón: hoy · Entregas: 19 · Sumas / adjuntos: 20 / 160
+• #: 3 · Recurso: shapeshed/aerial · Nota: **71** · ★: 165 · Último empujón: hoy · Entregas: 18 · Sumas / adjuntos: 10 / 26
+• #: 4 · Recurso: libretime/libretime · Nota: **66** · ★: 938 · Último empujón: hace 2 días · Entregas: 29 · Sumas / adjuntos: 9 / 19
+• #: 5 · Recurso: ahXN00/OwnTV · Nota: **65** · ★: 729 · Último empujón: ayer · Entregas: 39 · Sumas / adjuntos: 0 / 30
+• #: 6 · Recurso: armanmaurya/InternetRadio · Nota: **64** · ★: 180 · Último empujón: ayer · Entregas: 17 · Sumas / adjuntos: 0 / 10
+• #: 7 · Recurso: infinitel8p/Extreme-InfiniTV · Nota: **64** · ★: 208 · Último empujón: hace 3 días · Entregas: 92 · Sumas / adjuntos: 80 / 188
+• #: 8 · Recurso: renyijiu/tune-roam · Nota: **64** · ★: 10 · Último empujón: ayer · Entregas: 4 · Sumas / adjuntos: 4 / 8
+• #: 9 · Recurso: bilipp/Lume · Nota: **63** · ★: 176 · Último empujón: hace 2 días · Entregas: 27 · Sumas / adjuntos: 0 / 30
+• #: 10 · Recurso: mewset/better-iptv · Nota: **63** · ★: 71 · Último empujón: hace 9 días · Entregas: 21 · Sumas / adjuntos: 0 / 80
+• #: 11 · Recurso: TheJoeFin/Traydio · Nota: **62** · ★: 204 · Último empujón: ayer · Entregas: 13 · Sumas / adjuntos: 0 / 22
+• #: 12 · Recurso: lennylxx/webos-iptv-player · Nota: **60** · ★: 145 · Último empujón: hace 2 días · Entregas: 20 · Sumas / adjuntos: 0 / 20
+• #: 13 · Recurso: mytv-android/mytv-android · Nota: **53** · ★: 3.006 · Último empujón: hace 3 días · Entregas: 100 · Sumas / adjuntos: 0 / 80
+• #: 14 · Recurso: AntennaPod/AntennaPod · Nota: **51** · ★: 8.266 · Último empujón: hace 3 días · Entregas: 71 · Sumas / adjuntos: 0 / 0
+• #: 15 · Recurso: AzuraCast/AzuraCast · Nota: **50** · ★: 4.085 · Último empujón: hoy · Entregas: 48 · Sumas / adjuntos: 0 / 0
+• #: 16 · Recurso: dereferencex/prysm · Nota: **49** · ★: 50 · Último empujón: hace 20 días · Entregas: 12 · Sumas / adjuntos: 0 / 32
+• #: 17 · Recurso: deutsia/deutsia-radio · Nota: **49** · ★: 78 · Último empujón: hace 164 días · Entregas: 23 · Sumas / adjuntos: 10 / 30
+• #: 18 · Recurso: Davidona/StreamVault-IPTV · Nota: **47** · ★: 1.000 · Último empujón: hace 3 días · Entregas: 100 · Sumas / adjuntos: 0 / 20
+• #: 19 · Recurso: z0rats/freqcast · Nota: **46** · ★: 14 · Último empujón: hace 3 días · Entregas: 33 · Sumas / adjuntos: 0 / 10
+• #: 20 · Recurso: bsogulcan/another-iptv-player · Nota: **44** · ★: 157 · Último empujón: hace 5 días · Entregas: 31 · Sumas / adjuntos: 0 / 32
+• #: 21 · Recurso: hyliankid14/British-Radio-Player · Nota: **44** · ★: 23 · Último empujón: hace 3 días · Entregas: 52 · Sumas / adjuntos: 0 / 20
+• #: 22 · Recurso: opentvproject/opentv · Nota: **44** · ★: 145 · Último empujón: hace 8 días · Entregas: 19 · Sumas / adjuntos: 0 / 20
+• #: 23 · Recurso: nevermore23274/AetherTune · Nota: **42** · ★: 129 · Último empujón: hace 10 días · Entregas: 33 · Sumas / adjuntos: 0 / 40
+• #: 24 · Recurso: segler-alex/RadioDroid · Nota: **40** · ★: 1.081 · Último empujón: hace 862 días · Entregas: 49 · Sumas / adjuntos: 0 / 14
+• #: 25 · Recurso: Ruby184/epg-tools · Nota: **39** · ★: 1 · Último empujón: hace 6 días · Entregas: 8 · Sumas / adjuntos: 0 / 0
+• #: 26 · Recurso: xyzs996/iptv-doctor · Nota: **39** · ★: 6 · Último empujón: hoy · Entregas: 1 · Sumas / adjuntos: 0 / 10
+• #: 27 · Recurso: vikindor/omnibeat · Nota: **38** · ★: 13 · Último empujón: ayer · Entregas: 11 · Sumas / adjuntos: 0 / 10
+• #: 28 · Recurso: meehow/receiver · Nota: **36** · ★: 51 · Último empujón: hace 88 días · Entregas: 15 · Sumas / adjuntos: 0 / 20
+• #: 29 · Recurso: clubanderson/clubTivi · Nota: **35** · ★: 108 · Último empujón: hace 4 días · Entregas: 16 · Sumas / adjuntos: 0 / 60
+• #: 30 · Recurso: xiph/Icecast-Server · Nota: **22** · ★: 557 · Último empujón: hace 78 días · Entregas: 0 · Sumas / adjuntos: 0 / 0
+• #: 31 · Recurso: suuhm/xmltv-splitter · Nota: **9** · ★: 1 · Último empujón: hace 121 días · Entregas: 0 · Sumas / adjuntos: 0 / 0
+• #: 32 · Recurso: Woodic-Way/WoodicIPTV · Nota: **0** · ★: 5 · Último empujón: hace 98 días · Entregas: 1 · Sumas / adjuntos: 0 / 1
+
 
 Leída en vertical dice tres cosas: **siete de treinta y dos firman algún archivo**, **cuatro no tienen integración continua** y **dos no han etiquetado una sola versión**. Leída en horizontal deja ver el hueco de la pieza: entre **streamlink (80)** y **WoodicIPTV (0)** no hay una diferencia de público, hay una de **10 archivos firmados** frente a ninguno. **Lo que no mide:** si el canal se ve, si la emisora sigue emitiendo o si la guía coincide. Eso depende de la lista, no del programa.
 
@@ -237,7 +240,7 @@ Leída en vertical dice tres cosas: **siete de treinta y dos firman algún archi
 
 *⚖️ La responsabilidad · la señal de quién es*
 
-Este tema tiene una parte legal más visible que la de los torrentes y conviene ponerla en el centro, no al final. **Un reproductor es neutral; una lista no lo es.**
+Este tema tiene una parte legal más visible que la de los protocolo de pareses y conviene ponerla en el centro, no al final. **Un reproductor es neutral; una lista no lo es.**
 
 **La radio abierta existe y es legítima.** Hay decenas de miles de emisoras que emiten por internet **a propósito**, con su dirección publicada en su propia página, para que las escuches. Copiar esa dirección en tu reproductor es exactamente lo que la emisora quiere. Casi todas las aplicaciones de bolsillo de esta pieza viven de eso, y el catálogo comunitario que las alimenta es una infraestructura pública. **Ese es el uso normal de esta pieza y el que recomiendo.**
 
@@ -255,19 +258,20 @@ Este tema tiene una parte legal más visible que la de los torrentes y conviene 
 
 **1.012 archivos publicados por las treinta y dos piezas. 143 con suma de comprobación. El 14,1 %.**
 
-En su escala, donde ya está todo el año: tiendas de la 10, **0,08 %**; aplicaciones de la 11, **5,5 %**; torrentes de la 16, **8,7 %**; descarga de la 15, **10,6 %**; audio de la 13, **11,4 %**; **radio y directo, 14,1 %**; kit de la 12, **17,0 %**; teclados de la 17, **19,0 %**; música de la 14, **20,0 %**.
+En su escala, donde ya está todo el año: tiendas de la 10, **0,08 %**; aplicaciones de la 11, **5,5 %**; protocolo de pareses de la 16, **8,7 %**; descarga de la 15, **10,6 %**; audio de la 13, **11,4 %**; **radio y directo, 14,1 %**; kit de la 12, **17,0 %**; teclados de la 17, **19,0 %**; música de la 14, **20,0 %**.
 
 **veinticinco de los treinta y dos no publican ni una suma.** Los que sí:
 
-| Recurso | Adjuntos | Con suma | Nota |
-|---|---|---|---|
-| Extreme-InfiniTV | 188 | **80** | 64 |
-| OKVideoMac | 160 | **20** | 74 |
-| deutsia-radio | 30 | **10** | 49 |
-| aerial | 26 | **10** | 71 |
-| streamlink | 20 | **10** | 80 |
-| libretime | 19 | **9** | 66 |
-| tune-roam | 8 | **4** | 64 |
+
+### Datos comparados (lista jerárquica)
+• Recurso: Extreme-InfiniTV · Adjuntos: 188 · Con suma: **80** · Nota: 64
+• Recurso: OKVideoMac · Adjuntos: 160 · Con suma: **20** · Nota: 74
+• Recurso: deutsia-radio · Adjuntos: 30 · Con suma: **10** · Nota: 49
+• Recurso: aerial · Adjuntos: 26 · Con suma: **10** · Nota: 71
+• Recurso: streamlink · Adjuntos: 20 · Con suma: **10** · Nota: 80
+• Recurso: libretime · Adjuntos: 19 · Con suma: **9** · Nota: 66
+• Recurso: tune-roam · Adjuntos: 8 · Con suma: **4** · Nota: 64
+
 
 Dos lecturas. **Extreme-InfiniTV firma 80 archivos** y **OKVideoMac 20**, y entre los dos ponen **más de dos tercios** de las 143 sumas del tema; el primero lleva un mes sin cambiar y el segundo tiene 82 días. Y **AntennaPod, AzuraCast e Icecast —las tres más conocidas— no firman nada aquí**: las dos primeras no publican adjuntos y la tercera es un espejo.
 
@@ -334,7 +338,7 @@ Lo primero: **la radio no se descarga, se persigue**. treinta y dos piezas, 33.6
 
 Lo segundo: **lo nuevo llegó con prisa a este tema**. **dieciocho piezas de 2026**, veintidós con código de la última semana, y a la vez cuatro sin integración continua: mucha gente escribiendo reproductores y poca gente poniendo compuertas.
 
-Lo tercero: **143 archivos firmados de 1.012, el 14,1 %**, por encima de los torrentes y de la descarga y por debajo del resto. Las dos más conocidas del tema —AntennaPod y AzuraCast— **no publican un solo adjunto**, así que no hay nada que comprobar.
+Lo tercero: **143 archivos firmados de 1.012, el 14,1 %**, por encima de los protocolo de pareses y de la descarga y por debajo del resto. Las dos más conocidas del tema —AntennaPod y AzuraCast— **no publican un solo adjunto**, así que no hay nada que comprobar.
 
 Y lo cuarto: **la mitad del tema es emitir, no ver**. **AzuraCast**, **LibreTime** e **Icecast** son la diferencia entre consumir la infraestructura de otro y tener la tuya, y esa es la idea que esta serie viene repitiendo desde la pieza 9.
 
@@ -347,7 +351,7 @@ Y lo cuarto: **la mitad del tema es emitir, no ver**. **AzuraCast**, **LibreTime
 
 ───────────────────
 
-*Medición del corte:* jueves 5 de noviembre de 2026, 09:24 de la mañana en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · decimonovena medición del día · treinta y dos piezas vivas, ninguna archivada, tres sin licencia legible · 1.012 archivos y 143 sumas · 1.801.062 descargas · siete repositorios firmando.
+*Medición del corte:* sábado 7 de noviembre de 2026, 09:24 de la mañana en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · decimonovena medición del día · treinta y dos piezas vivas, ninguna archivada, tres sin licencia legible · 1.012 archivos y 143 sumas · 1.801.062 descargas · siete repositorios firmando.
 
 *🔗 Enlaces*
 
@@ -412,7 +416,7 @@ Y lo cuarto: **la mitad del tema es emitir, no ver**. **AzuraCast**, **LibreTime
 
 *🗒️ Notas al pie*
 
-(5-nov) La fecha se comprobó **en vivo antes de empezar y al terminar**: `tools/fecha_viva.py --inicio` y `--fin` al cerrar. **Antes de sondear** se hizo la revisión obligatoria —fecha, historial y ecosistema— con `tools/preflight.py --tema radio`; su acta está en `docs/PREFLIGHT-radio-2026-11-05.json`. La medición es de las 09:24 y vive en `docs/MEDICION-18-noche-2026-11-04.json`.
+(5-nov) La fecha se comprobó **en vivo antes de empezar y al terminar**: `tools/fecha_viva.py --inicio` y `--fin` al cerrar. **Antes de sondear** se hizo la revisión obligatoria —fecha, historial y ecosistema— con `tools/preflight.py --tema radio`; su acta está en `docs/PREFLIGHT-radio-2026-11-07.json`. La medición es de las 09:24 y vive en `docs/MEDICION-18-noche-2026-11-07.json`.
 
 (5-nov) **Esta es la pieza que el mapa de 125 ponía en el número 18.** La 17 se adelantó al teclado con IA por petición del dueño; aquí se retoma el orden con el mismo método y el mismo preflight.
 
