@@ -30,7 +30,7 @@ Todas las cifras de esta pieza se leyeron directamente de la API de GitHub entre
 ├── 🧮 El método de medición · campo a campo
 ├── 🔗 Enlaces a los dieciocho repositorios
 ├── 🗒️ Notas al pie
-└── 🏷️ Etiquetas estratégicas
+└── Etiquetas estratégicas
 
 ━━━━━━━━━━━━━
 
