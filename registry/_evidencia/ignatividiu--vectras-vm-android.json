@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-02-03T16:12:29Z",
+   "oid": "91403fb7beed73b6cbce013769774f07f34bc545"
+  }
+ },
+ "diskUsage": 299576,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v2.0",
+  "spdxId": "GPL-2.0"
+ },
+ "nameWithOwner": "ignatividiu/Vectras-VM-Android",
+ "pushedAt": "2026-02-03T16:12:29Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-06-15T03:37:15Z",
+   "oid": "bbde6c6d83807e9dd6772617bf280e7a50cf87a0"
+  }
+ },
+ "diskUsage": 74856,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "JusteOgodja/web-to-app",
+ "pushedAt": "2026-06-15T16:08:56Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

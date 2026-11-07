@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="25 — EL TALLER DE HERRAMIENTAS">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>25 — EL TALLER DE HERRAMIENTAS</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "25 — EL TALLER DE HERRAMIENTAS", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "29 de octubre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>25 — EL TALLER DE HERRAMIENTAS</h1>
+<p class="meta">WhatsApp · 29 de octubre de 2026 · 38,104 caracteres</p>
+<p><em>25 — EL TALLER DE HERRAMIENTAS</em></p>
+<p>*Shizuku quieta, el inspector de APKs y el descargador de 27 mil: las herramientas del oficio al</p>
+<p>censo del 15-oct-2026 (WhatsApp · La Bandita · dominicano-ES)*</p>
+<p>───────────────────</p>
+<p><em>🗺 MAPA DE ESTA GUÍA</em></p>
+<p>⏱ <em>Lectura total: 56 min</em> · Todo dato con fecha y placa · Censo del 15-oct-2026 (tarde)</p>
+<p>───────────────────</p>
+<p><em>🌱 LA SEMILLA</em></p>
+<p>El cajón del taller es el territorio menos glamoroso del censo y el más pegado al oficio: nadie pone una herramienta en la portada de un grupo, y sin herramientas no funciona NADA de lo que las otras piezas enseñan. La pieza 09 ya bautizó la caja de oficio — esta cosecha la mide con placa y hora.</p>
+<p>La vara del cajón es la misma del censo entero: repo abierto, licencia escrita, push con fecha. Pero su vara EXTRA es única: las herramientas tocan PERMISOS — ADB, acceso a archivos, automatización de toques — y el permiso mal dado es la puerta del desastre.</p>
+<p>Por eso esta pieza repite la vara de la pieza 01 con el doble de peso: en el cajón, el origen no</p>
+<p>es un detalle — es TODO.</p>
+<p>El acta de Shizuku manda el tono: la herramienta más importante del ecosistema Android moderno lleva un año sin empuje — y la casa la mide sin pánico y sin maquillaje: quietud con fecha, testamento firmado, y el mapa de qué hacer mientras. Así se escribe la verdad en esta biblioteca.</p>
+<p>───────────────────</p>
+<p><em>🧰 EL CENSO DEL TALLER (censo 15-oct-2026)</em></p>
+<p>Las placas completas, tal como el censo de la tarde del 15-oct-2026 las contestó:</p>
+<p><em>Shizuku</em> — RikkaApps/Shizuku · ★31.786 (censo 19-oct-2026) · push del 18-jun-2025 · Apache-2.0</p>
+<p>· QUIETUD de dieciséis meses anotada. La llave maestra: deja que apps de confianza usen permisos</p>
+<p>de sistema con ADB o root, sin abrir el teléfono entero. Media herramienta moderna del</p>
+<p>ecosistema respira por ella — su acta completa es el corazón de esta pieza.</p>
+<p><em>Gopeed</em> — GopeedLab/gopeed · ★27.011 (censo 19-oct-2026) · push del 14-oct · GPL-3.0 · nacida</p>
+<p>el 21-abr-2019. El descargador moderno: multi-plataforma, rápido, con extensiones — el hijo</p>
+<p>legítimo de la escuela de los gestores de descarga, con siete años de taller.</p>
+<p><em>AppManager</em> — MuntashirAkon/AppManager · ★9.289 (censo 19-oct-2026) · push del 14-oct · SIN</p>
+<p>LICENCIA DECLARADA en el censo · nacida el 30-may-2020. El inspector: ve qué hay dentro de cada</p>
+<p>APK, qué permisos pide, qué actividades esconde — la lupa del cajón, con su placa legal en</p>
+<p>blanco y su vara marcada.</p>
+<p><em>Amaze</em> — TeamAmaze/AmazeFileManager · ★6.432 (censo 19-oct-2026) · push del MISMO día del censo</p>
+<p>· GPL-3.0 · nacida el 14-jul-2014. DOCE AÑOS de taller: el mueble de archivos clásico del</p>
+<p>ecosistema, la casa más vieja de esta cosecha — empujando el mismo 18-oct-2026.</p>
+<p><em>Markor</em> — gsantner/markor · ★6.309 (censo 19-oct-2026) · push del 10-oct · SIN LICENCIA DECLARADA en el censo · nacida el 26-ago-2017. El cuaderno: notas y Markdown en archivos PLANO — tus notas son tuyas porque son ARCHIVOS, no rehenes de una nube. Segunda placa sin testamento de la cosecha.</p>
+<p><em>Touch Helper</em> — zfdang/Android-Touch-Helper · ★5.327 (censo 18-oct-2026) · push del 10-oct ·</p>
+<p>MIT · nacida el 16-oct-2020. El autómata: palomea, salta y bloquea toques por ti — la</p>
+<p>herramienta del permiso incómodo, con la placa MIT más simple de la cosecha.</p>
+<p>───────────────────</p>
+<p>Detalle que la forja firma: Amaze empujando el MISMO día del censo con doce años de casa — la prueba de que la longevidad y el pulso no se pelean. Y el contraste del cajón en una línea: la herramienta más importante de la lista (Shizuku) es la única que lleva más de un año callada.</p>
+<p><em>🏛 LAS ESCUELAS DEL CAJÓN</em></p>
+<p>Seis casas, tres escuelas — y la escuela la decide QUÉ PERMISO toca la herramienta, porque en el</p>
+<p>cajón el permiso es el oficio entero.</p>
+<p><em>LA ESCUELA DE LA LLAVE (permisos de sistema, con candado).</em> Shizuku de bandera, Touch Helper como parienta: herramientas que tocan lo profundo del sistema — con ADB, con root, o con el permiso de accesibilidad. Es la escuela de mayor potencia y mayor riesgo: la vara pide ENTENDER qué se concede y a quién.</p>
+<p>La pieza 09 le dedicó su capítulo; aquí se mide su salud.</p>
+<p><em>LA ESCUELA DE LA LUPA (inspección y archivos).</em> AppManager y Amaze: las que MIRAN — una mira dentro de los APKs (permisos, actividades, rastreadores), la otra mira los archivos (mueve, limpia, ordena). Es la escuela del conocimiento: el cajón del que QUIERE SABER qué hay en su teléfono antes de decidir.</p>
+<p>Su vara: que la lupa no se convierta en cirugía sin estudio — mirar primero, tocar después.</p>
+<p><em>LA ESCUELA DEL TRÁMITE (descargar y anotar).</em> Gopeed y Markor: las que hacen el trabajo aburrido del día a día — bajar cosas rápido y anotar cosas para siempre. Es la escuela del gasto invisible: sin descargador, la biblioteca de la pieza 22 no llena su estantería; sin cuaderno, los subrayados de la repisa no tienen dónde vivir.</p>
+<p>Herramientas de fondo que sostienen todo lo demás.</p>
+<p><em>Cómo se arma el cajón sin equivocarse:</em></p>
+<p>Empiezas en el ecosistema y quieres saber qué instalas → lupa: AppManager (con su vara sin</p>
+<p>testamento leída) o el escáner legal de la pieza 01 — mira antes de palomear.</p>
+<p>Trabajas con archivos de verdad (la biblioteca, la música, los respaldos) → trámite: Amaze +</p>
+<p>Gopeed + Markor — el trío de fondo que la serie usa en sus recetas.</p>
+<p>Ya sabes lo que haces y necesitas la llave → escuela de la llave: Shizuku con la vara del acta</p>
+<p>al frente — y Touch Helper solo si tu pulgar confirma que odia esa palomea diaria.</p>
+<p>Y el orden de la casa: lupa PRIMERO, trámite DESPUÉS, llave AL FINAL. El cajón se arma como se</p>
+<p>arma una casa: los cimientos, luego las paredes, la cerradura al final.</p>
+<p>───────────────────</p>
+<p><em>🕰 LA EDAD DE LAS CASAS DEL CAJÓN (leída del censo, con puntos)</em></p>
+<p>La edad se lee de la fecha de nacimiento del repo al censo del 15-oct-2026. La cosecha del</p>
+<p>cajón, casa por casa.</p>
+<p>Amaze nació el 14-jul-2014. Doce años y tres meses de taller — el abuelo de la cosecha,</p>
+<p>empujando el mismo día del censo.</p>
+<p>Gopeed nació el 21-abr-2019. Siete años y cinco meses — la generación moderna del trámite.</p>
+<p>AppManager nació el 30-may-2020. Seis años y cuatro meses — la lupa de la escuela nueva.</p>
+<p>Touch Helper nació el 16-oct-2020.</p>
+<p>Seis años menos un día al corte: la casa cumplió su sexto cumpleaños el día DESPUÉS del censo —</p>
+<p>la forja lo anota con la sonrisa de la casa. Markor nació el 26-ago-2017. Nueve años y un mes —</p>
+<p>el cuaderno de la escuela del Markdown.</p>
+<p>Y Shizuku, la llave: el censo no le anota fecha de nacimiento — la casa la cuenta por su acta:</p>
+<p>el taller de la pieza 09 la presentó viva y empujando, y el censo de hoy la firma quieta con</p>
+<p>dieciséis meses.</p>
+<p>El promedio de la cosecha, con la llave fuera del cálculo: ocho años y medio por casa. Es la</p>
+<p>cosecha MÁS VIEJA de la serie hasta ahora — y la lección se escribe sola: las herramientas de</p>
+<p>fondo duran.</p>
+<p>Nadie aplaude un mueble de archivos ni un descargador — por eso nadie los abandona: el aplauso</p>
+<p>sube y baja, el trámite queda.</p>
+<p>Y la regla del cajón que la edad firma: la edad no es riesgo — la edad sin push lo es. Amaze con</p>
+<p>doce años y push del mismo día vale más que la casa de dos años quieta desde enero.</p>
+<p>La vara de la serie, otra vez: nunca la edad sola — siempre edad MÁS respiración.</p>
+<p><em>⚖ LA VARA DE LA LICENCIA</em></p>
+<p>En el cajón, la licencia pesa más que en cualquier otra cosecha — porque estas herramientas</p>
+<p>piden los permisos más altos del teléfono. La placa legal es el único papel que responde quién</p>
+<p>tiene la llave.</p>
+<p><em>Con firma completa:</em> Gopeed y Amaze con <strong>GPL-3.0</strong>; Shizuku con <strong>Apache-2.0</strong> (el testamento que garantiza su heredero); Touch Helper con <strong>MIT</strong>. Cuatro de seis firmadas al censo del 15-oct-2026 — pero las dos que NO firmaron son precisamente las que MIRAN TU TELÉFONO entero:</p>
+<p><em>AppManager — la lupa sin testamento.</em> ★9.289 (censo 19-oct-2026), push del 14-oct, oficio de primera — y sin licencia declarada en el censo. La lectura de la forja: úsala como inspector con la vara marcada (mirar, sí; confiarle cirugía con permisos de root, solo entendiendo que nadie firmó nada), y espera a que el taller firme.</p>
+<p>La fame no compra el contrato — lección que la serie repite desde la estantería del escudo.</p>
+<p><em>Markor — el cuaderno sin firma.</em> ★6.309 (censo 19-oct-2026), push del 10-oct, y el detalle que lo salva: sus notas son ARCHIVOS PLANOS — aunque la app no firmara nada, tus notas no viven presas dentro. La vara sin testamento pesa en la APP, no en tus datos.</p>
+<p>Aun así: la forja marca la placa — la cuarta pieza sin firma que la serie encuentra en la noche.</p>
+<p><em>La vara en cuatro pasos, versión cajón:</em> uno — licencia con nombre, sigue; sin ella, con permisos de lectura basta, con permisos de mando NO. Dos — push vivo. Tres — fila de asuntos contestada.</p>
+<p>Cuatro — instalación del repo o tienda legal — y en la escuela de la llave, la receta EXACTA del taller (pieza 09), nunca el atajo del grupo.</p>
+<p>───────────────────</p>
+<p><em>🕰 EL ACTA DE SHIZUKU (la quietud que la serie esperaba)</em></p>
+<p><em>Shizuku — ★31.786 (censo 19-oct-2026) · push del 18-jun-2025 · Apache-2.0</em></p>
+<p>Dieciséis meses y doce días de silencio al corte. Para dimensionar: Shizuku es a las herramientas modernas de Android lo que la electricidad al taller — apps de respaldo, de automatización, de gestión avanzada LEEN el teléfono a través de ella.</p>
+<p>Su quietud no es un dato más del censo: es un parte de estado del ECOSISTEMA ENTERO.</p>
+<p>La lectura completa de la forja, en cuatro capas:</p>
+<p><em>UNO — el testamento está firmado.</em> Apache-2.0: el código puede heredarse con honor. Si el taller no vuelve, la línea vive en quien la tome — la lección de Bromite (pieza 24) con otro apellido.</p>
+<p>Por eso la quietud de Shizuku NO es el funeral del oficio: es el testamento leído en voz alta.</p>
+<p><em>DOS — lo instalado no se rompe por magia.</em> La versión que está instalada FUNCIONA hoy: Android no la borra mañana. Lo que la quietud trae es un RELOJ: cada gran actualización de Android puede romper algo — y sin taller, nadie sube el parche.</p>
+<p>La herramienta quieta sirve HASTA el día que sirve menos.</p>
+<p><em>TRES — el mapa de la casa mientras tanto.</em> La forja no recomienda abandonar Shizuku —</p>
+<p>recomienda MEDIR: si tu flujo de herramientas depende de ella, anota la fecha del acta, mira la</p>
+<p>fila de asuntos (¿el taller contesta sin empujar?), y ten el plan B identificado (los</p>
+<p>alternativos de la familia del ADB, pieza 09).</p>
+<p>El mapa existe para esto: quietud con plan no es crisis — es espera informada.</p>
+<p><em>CUATRO — y la lección que la serie cosía:</em> hasta la casa más firmada del taller se queda quieta. La fama de Shizuku (★31.786 al censo 19-oct-2026) no la salva del silencio — solo la ley y los herederos salvan líneas.</p>
+<p>El lector que aprendió esto con la música, la repisa y el escudo, ahora lo ve en la llave maestra: la placa con fecha es la ÚNICA vara que no falla.</p>
+<p>───────────────────</p>
+<p><em>🔧 LA RECETA DEL CAJÓN ORDENADO (veinte minutos, por piso)</em></p>
+<p><em>Piso uno — el mueble de archivos.</em> Del censo del 15-oct-2026: Amaze (doce años de taller, GPL-3.0, push del mismo día del censo) desde la tienda legal. Primer trabajo: encontrar tu carpeta de Descargas y vaciarla de basura — el cajón del teléfono se ordena igual que el de la casa: primero lo que estorba.</p>
+<p><em>Piso dos — el descargador.</em> Gopeed (★27.011 al censo 19-oct-2026, GPL-3.0, push del 14-oct) del repo o tienda legal. Prueba con la descarga legal de siempre (el EPUB del Gutenberg de la pieza 22): velocidad, pausa, reanudación.</p>
+<p>El descargador que pausa y reanuda es el que aguanta la vida real del campo dominicano.</p>
+<p><em>Piso tres — el cuaderno.</em> Markor con su vara marcada: crea tu primera nota en Markdown, mira DÓNDE la guardó (carpeta de archivos — tu nota es TUYA). La vara del piso tres: exporta una nota a texto plano y ábrela en otra app — si vive, el cuaderno sirve.</p>
+<p><em>Piso cuatro — el inspector, con la vara al frente.</em> AppManager para MIRAR: abre cualquier app que instalaste esta noche y lee sus permisos, sus actividades, sus rastreadores. La vara de la forja: mirar todo, tocar poco — la cirugía (desactivar, congelar) espera a que la placa sin testamento se firme, o se hace con las varas de la pieza 01 completas.</p>
+<p><em>Piso cinco — la llave, SOLO con oficio.</em> Shizuku se instala por la receta de la pieza 09 (ADB desde la PC o wireless) — nunca por el atajo del grupo. Y con el acta al frente: úsala sabiendo su fecha, mira su fila, y ten el plan B anotado.</p>
+<p>La llave quieta abre las puertas de hoy — el mapa de la forja mira también las de mañana.</p>
+<p>───────────────────</p>
+<p><em>🧊 MITOS DESMONTADOS</em></p>
+<p><em>Mito uno — «las herramientas del cajón son pa geeks».</em> El cuaderno y el descargador son pa cualquiera que anote o baje algo — o sea, TODO EL MUNDO. La escuela del trámite no pide oficio técnico: pide lo que ya haces, con mejores muebles. El geek es el que llega a la llave — y ese camino empieza en la pieza 09 con receta, no con talento.</p>
+<p><em>Mito dos — «AppManager puede romper el teléfono».</em> Mirar no rompe NADA. La lupa lee; la cirugía (desinstalar sistema, congelar) es la que pesa — y esa pide root y estudio. El teléfono que se rompió «por el inspector» lo rompió el dedo que palomeó sin leer — la vara del oficio no cambia: mirar primero.</p>
+<p><em>Mito tres — «si Shizuku está quieta, hay que desinstalarla YA».</em> Mal aprendida la lección del acta: la quieta que funciona sirve — con fecha y plan B. Desinstalar por pánico es la reacción del que no lee placas: la casa enseña a medir, no a asustarse. El día que tu Android la rompa, el mapa de la pieza 09 tiene el plan.</p>
+<p><em>Mito cuatro — «el autómata de toques es trampa».</em> Touch Helper palomea lo que TÚ ya decidiste: el permiso del sistema que se pide cada vez que abres la app de siempre. No es trampa de juego — es anti-aburrimiento documentado, con MIT y todo.</p>
+<p>La vara: automatiza TUS pasos, jamás los de otra persona.</p>
+<p>───────────────────</p>
+<p><em>❓ PREGUNTAS DE LA FILA</em></p>
+<p><em>¿Cuál instalo primero si solo puedo uno?</em> Del censo del 15-oct-2026: si bajas cosas, Gopeed; si anotas, Markor; si desconfías de lo que instalas, AppManager; si vives de tus archivos, Amaze. El trío del trámite (Amaze+Gopeed+Markor) es el cajón mínimo de la casa — las tres juntas pesan menos que una red social y trabajan más que ella.</p>
+<p><em>¿Shizuku sin root vale la pena hoy?</em> Con el acta al frente: la versión quieta FUNCIONA y el flujo de la pieza 09 sigue en pie (ADB wireless incluido). La forja la firma para el que ya la usa, la marca como espera-informada para el nuevo, y le repite al nuevo el mapa: la llave es el ÚLTIMO piso del cajón — nadie empieza por ahí.</p>
+<p><em>¿Dónde guarda Markor mis notas?</em> En ARCHIVOS, en la carpeta que tú elijas — y ese detalle lo salva: aunque la app no firmó testamento, tus notas son texto plano que cualquier mueble del planeta abre. La vara sin licencia pesa en la app; tus datos son de los tuyos.</p>
+<p><em>¿El autómata gasta batería?</em> Touch Helper trabaja CUANDO le mandas: no vive en el fondo cazando. La vara práctica de la casa: una tarde con tus dos automatismos de siempre y mira la batería — el dato de TU teléfono, como siempre, vale más que el foro de siempre.</p>
+<p><em>¿El inspector ve rastreadores de verdad?</em> Sí: AppManager firma las clases de rastreo que el APK trae dentro — el mismo dato que los servicios de la pieza 01 escanean, en tu bolsillo. La lupa del cajón y la vara de la tienda legal hablan el mismo idioma: el del origen.</p>
+<p>───────────────────</p>
+<p><em>🧪 CASOS DEL BARRIO</em></p>
+<p><em>Caso uno — la bibliotecaria del respaldo.</em> Mantenía la biblioteca de la pieza 22 a dedo, archivo por archivo, con el mueble del fábrica que le borraba las copias. Receta: Amaze + Gopeed — el archivo que baja directo a su carpeta y el mueble que lo copia sin drama.</p>
+<p>Su frase de la semana dos: «el teléfono por fin me obedece». El cajón ordenado es eso: el teléfono que obedece.</p>
+<p><em>Caso dos — el estudiante de la tesis.</em> Llevaba tres años de notas en una app de nube que le subió el precio de un mes de mercado. Receta: Markor con sus notas en ARCHIVOS + respaldo en la copia de la copia.</p>
+<p>La mudanza le costó una tarde y sus notas ya no tienen dueño que les suba el alquiler. El texto plano es la propiedad más vieja y más firme del mundo.</p>
+<p><em>Caso tres — el nervioso del permiso.</em> Odiaba palomear el permiso de instalación cada vez que su taller legal publicaba: diez toques repetidos al mes. Receta: Touch Helper con el automatismo de SUS pasos, MIT del censo al frente.</p>
+<p>El muchacho del caso no es vago: es eficiente con fecha — la forja firma la diferencia.</p>
+<p>───────────────────</p>
+<p><em>Caso cuatro — la mamá del mercado.</em> Su teléfono de trabajo vive de fotos de mercancía y notas de fiado. Receta: Markor con la libreta del fiado en ARCHIVOS (cada letra es suya, la nube no la sube de precio) y Amaze pa encontrar la foto del cliente en dos toques.</p>
+<p>La libreta del fiado digital es el caso más dominicano de la pieza: cuaderno plano, respaldo en</p>
+<p>la copia de la copia, y el fiado que se cobra igual — pero sin página mojada.</p>
+<p><em>Caso cinco — el muchacho de los cursos.</em> Bajaba cursos en video por pedazos, con la página que le cerraba la descarga a media. Receta: Gopeed con pausa y reanudación — el curso que baja en el wifi de la esquina se pausa cuando el wifi se va, y reanuda cuando vuelve, sin empezar de cero.</p>
+<p>Su ahorro del mes: seis gigas de datos que ya no recompra.</p>
+<p>El descargador que aguanta la vida real es el que paga la casa.</p>
+<p><em>Caso seis — el desconfiado de oficio.</em> Instalaba todo con miedo y por eso no instalaba NADA. Receta: AppManager como primer paso de SIEMPRE — cada app nueva pasa por la lupa (permisos, rastreadores) antes del primer toque. Su frase del mes dos: «ahora instalo sabiendo».</p>
+<p>Esa es la paz del cajón: no es instalar más — es instalar SABIENDO.</p>
+<p><em>🏭 LA DESPENSA DE DATOS (todo lo medido, en una repisa)</em></p>
+<p>Las seis placas del censo de la tarde del 15-oct-2026, listas para copiar y verificar:</p>
+<p>Shizuku · RikkaApps/Shizuku · ★31.786 · push 18-jun-2025 · Apache-2.0 · quietud de dieciséis</p>
+<p>meses. Gopeed · GopeedLab/gopeed · ★27.011 · nacida 21-abr-2019 · push 14-oct-2026 · GPL-3.0.</p>
+<p>AppManager · MuntashirAkon/AppManager · ★9.289 · nacida 30-may-2020 · push 14-oct-2026 · sin</p>
+<p>licencia declarada.</p>
+<p>Amaze · TeamAmaze/AmazeFileManager · ★6.432 · nacida 14-jul-2014 · push 18-oct-2026 · GPL-3.0.</p>
+<p>Markor · gsantner/markor · ★6.309 · nacida 26-ago-2017 · push 10-oct-2026 · sin licencia</p>
+<p>declarada.</p>
+<p>Touch Helper · zfdang/Android-Touch-Helper · ★5.327 · nacida 16-oct-2020 · push 10-oct-2026 · MIT.</p>
+<p>Fuente: censo vivo de la casa (5.684 repos, tarde del 15-oct-2026). Dato viaja FECHADO a esa</p>
+<p>tarde — el pulso nocturno #10 midió la música; el cajón queda para el pulso próximo de la serie.</p>
+<p>───────────────────</p>
+<p><em>💬 LA CONVERSACIÓN HONESTA</em></p>
+<p>Primera: el cajón es la cosecha con MÁS placas sin testamento de la serie (dos de seis) — y la</p>
+<p>forja las nombra con el nombre completo: AppManager y Markor, con sus estrellas y sus push, sin</p>
+<p>licencia al corte. La casa no borra: marca.</p>
+<p>Y espera la firma con la puerta abierta.</p>
+<p>Segunda: el acta de Shizuku se escribió con el estómago apretado — la forja usa su flujo todos</p>
+<p>los días. Se eligió la verdad completa (quietud, testamento, reloj, plan) en vez del paréntesis</p>
+<p>cómodo: «sigue funcionando».</p>
+<p>Sigue funcionando CON FECHA — esa es la diferencia entera entre mapa y propaganda.</p>
+<p>Tercera: el glosario es el de la FAMILIA cosecha más las entradas del cajón. Quinta pieza de la</p>
+<p>noche, misma aguja — el dialecto ya se oye en todo el barrio.</p>
+<p>───────────────────</p>
+<p><em>🎞 LO QUE ESTA PIEZA NO DICE</em></p>
+<p>No dice que Shizuku esté muerta — dice que lleva dieciséis meses de quietud con testamento</p>
+<p>Apache y plan B fechado. La diferencia es el oficio entero.</p>
+<p>No dice que AppManager sea insegura — dice que su placa está en blanco al corte y que la lupa se</p>
+<p>usa para mirar antes que para operar.</p>
+<p>No dice que el cajón sea pa expertos — dice que el trío del trámite (archivos, descarga,</p>
+<p>cuaderno) es pa cualquiera que trabaje con su teléfono.</p>
+<p>No dice que el autómata sea trampa — dice que automatiza TUS pasos con MIT firmado.</p>
+<p>No dice — jamás — que la llave maestra se instala por atajo de grupo: el permiso más alto del</p>
+<p>teléfono se da con receta y con vara.</p>
+<p>───────────────────</p>
+<p><em>🎚 EL CAJÓN EN TU DÍA A DÍA (cuatro rutinas del oficio callado)</em></p>
+<p><em>LA MAÑANA DEL ARCHIVO.</em> La descarga del diario (el PDF del banco, el recibo del servicio) va directo a SU carpeta por Gopeed, y Amaze la repasa al desayuno: un minuto que evita el cajón de soga de fin de año. El orden no se instala: se rutina.</p>
+<p><em>LA TARDE DEL CUADERNO.</em> La nota del día en Markor antes del guapo de la noche: idea, gasto,</p>
+<p>pendiente. El que anota en ARCHIVOS nunca amanece con la app cerrada y las ideas presas — el</p>
+<p>texto plano no hace huelga.</p>
+<p><em>LA SEMANA DEL INSPECTOR.</em> Cada app nueva que entra al teléfono pasa por la lupa: permisos,</p>
+<p>rastreadores, actividades. Cinco minutos de lectura que valen más que el antivirus de pago del</p>
+<p>tío — el oficio del que sabe lo que instala.</p>
+<p><em>EL MES DE LA LLAVE.</em> El ritual del cajón completo: push de las seis, fecha del acta de Shizuku,</p>
+<p>plan B revisado. El que mide su cajón cada mes no amanece con sorpresas — y si Shizuku</p>
+<p>despierta, tu nota del día seis lo celebra con fecha.</p>
+<p>───────────────────</p>
+<p><em>🧵 GENEALOGÍAS DEL CAJÓN</em></p>
+<p>La familia del cajón tiene su línea de sangre escrita: Amaze (2014) es el abuelo vivo de los</p>
+<p>muebles de archivos — doce años empujando el mismo día del censo, la prueba de que el oficio</p>
+<p>simple bien hecho no se jubila.</p>
+<p>Shizuku (la llave, sin fecha de nacimiento en el censo pero con el apellido Rikka de la casa de las herramientas serias) quedó como el testamento abierto de la serie. Gopeed (2019) hereda la escuela de los gestores clásicos con cara moderna y extensiones.</p>
+<p>Y Markor (2017) viene de la escuela del Markdown puro — la misma que la pieza 22 usa en sus</p>
+<p>notas: el ecosistema libre se repite familia a familia porque el oficio es uno.</p>
+<p>La cadena del cajón en una línea: lo simple y firmado sobrevive — lo complejo necesita taller</p>
+<p>vivo. Doce años de Amaze contra dieciséis meses de silencio de Shizuku: las dos fechas son el</p>
+<p>mismo consejo escrito dos veces.</p>
+<p>───────────────────</p>
+<p><em>📦 LA DESPENSA DEL CAJÓN (tus herramientas, ordenadas como gente)</em></p>
+<p><em>UNA CARPETA, UN OFICIO.</em> Descargas, Documentos, Notas, Respaldo: cuatro carpetas con nombre claro y Amaze las defiende. El archivo que entra directo a SU carpeta nunca se pierde — el que entra «a ver dónde cae», se pierde.</p>
+<p>La despensa del teléfono es la de la casa: lugar claro pa cada cosa.</p>
+<p><em>EL RESPALDO DEL CAJÓN.</em> Las notas (archivos), las configuraciones exportadas, la lista de herramientas instaladas: copia mensual a tu respaldo de la copia de la copia. El cajón completo se reconstruye en una tarde si vive también en archivo — el que pierde el teléfono sin respaldo pierde el taller entero.</p>
+<p><em>LA NOTA-PLACA.</em> El documento del día seis del ritual: qué herramienta, qué censo, qué placa, qué fecha. La nota-placa de tu cajón es el mapa personal más valioso que la forja te puede enseñar a mantener — vale más que cualquier app de inventario: la escribes tú, la lees tú, es texto plano.</p>
+<p><em>EL MINUTO DEL APLAUSO (por qué el ritual se cumple).</em> Los rituales fallan cuando son puro deber y cumplen cuando tienen su recompensa: el minuto del aplauso semanal es la recompensa del mantenimiento del cajón. Herramienta que salva la semana, aplaude; casa que empuja, anota con fecha; cajón que obedece, se disfruta.</p>
+<p>El oficio sin disfrute se abandona — y el cajón abandonado vuelve a ser soga. Por eso la casa</p>
+<p>cose el aplauso al mantenimiento: no es ternura — es ingeniería de hábitos, la misma que hace</p>
+<p>que el cuaderno se escriba y el respaldo se corra.</p>
+<p><em>EL MANTENIMIENTO MENSUAL DEL CAJÓN (diez minutos, una vez al mes).</em> Abre la nota-placa del día</p>
+<p>seis y compara contra el censo nuevo de la serie: qué casa empujó, cuál calla, cuál despertó.</p>
+<p>Diez minutos con la vara en la mano y el cajón entero al día — el mantenimiento del cajón es el</p>
+<p>más barato de la casa porque las herramientas de fondo avisan despacio: la quietud se ve venir</p>
+<p>con meses de margen, si uno mira.</p>
+<p>Y si una casa cambió de placa (licencia firmada, push retomado), la nota se actualiza CON FECHA:</p>
+<p>el cajón también lleva su diario — y el diario del cajón es la historia de tu taller personal.</p>
+<p><em>LA RESPIRA DEL CAJÓN (el respiro de la semana).</em> No todo es mantenimiento: una vez por semana,</p>
+<p>un minuto de APLAUSO al cajón — la herramienta que te salvó la semana (el archivo encontrado, la</p>
+<p>nota que te acordó el cobro, la descarga que no se perdió).</p>
+<p>El que aplaude su cajón lo cuida mejor: la gratitud es la vara invisible del mantenimiento — el</p>
+<p>mueble que se agradece no se abandona. Así funciona la casa entera: mido, aplaudo, respaldo — y</p>
+<p>vuelvo la próxima semana.</p>
+<p><em>Y EL ORDEN DE INSTALACIÓN APRENDIDO.</em> Lupa primero, trámite después, llave al final — la receta del cajón se arma UNA vez y se respeta para siempre: el desorden del cajón empieza siempre con la llave instalada primero pororgullo. Humildad de taller: los cimientos antes de la cerradura.</p>
+<p>───────────────────</p>
+<p><em>🪧 EL CARTEL DEL CAJÓN</em></p>
+<p>Clávalo en la puerta del taller:</p>
+<p><em>El permiso que das es la puerta que abres — el cajón lo toma literal.</em></p>
+<p><em>Lo simple y firmado sobrevive: doce años de Amaze lo firman.</em></p>
+<p><em>La nota en archivo es tuya; la nota en nube es inquilina.</em></p>
+<p><em>Quietud con testamento es espera informada — no funeral.</em></p>
+<p><em>Y el permiso más alto del teléfono no se da por atajo de grupo — jamás.</em></p>
+<p>───────────────────</p>
+<p><em>😄 EL MEME DE LA CASA</em></p>
+<p>— El grupo de siempre: <em>«CLEANER MASTER PRO — tu teléfono 300% más rápido, libera RAM YA»</em> 💸</p>
+<p>— Amaze real: *★6.432 (censo 19-oct-2026), doce años de taller, GPL-3.0, push del mismo día — y</p>
+<p>ni un cartelito de «limpia tu RAM» en ninguna parte* 🧐</p>
+<p>— El del cleaner, borrando el respaldo del usuario «para optimizar»: 🪦</p>
+<p>— Yo, leyendo la placa antes de dar el permiso: 😌</p>
+<p><em>Moral del meme, chin chin:</em> el teléfono no está enfermo — está mal cajoneado. El limpiador de grupo no limpia nada: limpia tu paciencia y tu billetera.</p>
+<p>El cajón de oficio (mueble, descargador, cuaderno, lupa) cuesta nada con placa y dura años — y la RAM la maneja Android solo, desde hace una década, chin chin.</p>
+<p><em>⚠ LOS RIESGOS DEL CAJÓN, CON FECHA</em></p>
+<p><em>RIESGO UNO — el permiso mal dado.</em> El cajón toca los permisos más altos: ADB, accesibilidad, archivos completos. El riesgo no es la herramienta — es dar el permiso a la herramienta EQUIVOCADA: la del grupo con nombre inflado.</p>
+<p>La vara de la pieza 01 (origen, firma, permisos, triple vía, sin prisa) es literal aquí: el permiso que das es la puerta que abres.</p>
+<p><em>RIESGO DOS — la quietud que se vuelve ruptura.</em> El acta de Shizuku con reloj incluido: cada gran actualización de Android es un dado contra las herramientas quietas. La defensa: el ritual mensual mira el push de TODO tu cajón, y el plan B de cada pieza clave está anotado ANTES de hacer falta — el mapa que se lee en crisis ya llegó tarde.</p>
+<p><em>RIESGO TRES — las notas rehén.</em> El cuaderno que guarda tus notas en su nube propietaria las tiene de rehenes: sube el precio y tus años de escritura valen una exportación torcida. La defensa del censo: cuadernos de ARCHIVOS planos (el camino de Markor) — tus palabras en texto que cualquier mueble abre, con la copia de la copia de la casa.</p>
+<p><em>Y el riesgo que la casa se auto-impone:</em> escribir la quietud de la herramienta más querida del ecosistema sin adornarla. La forja lo firmó: Shizuku quieta con fecha — y si mañana empuja, el mapa lo celebra el mismo día.</p>
+<p>Las historias fechadas no vuelven; los censos fechados se comparan.</p>
+<p>───────────────────</p>
+<p><em>📖 GLOSARIO DE LA COSECHA</em></p>
+<p><em>Puente.</em> El cliente que no guarda música: la busca en el catálogo de otro y la trae al momento.</p>
+<p>Debe su vida a un río ajeno — por eso la vara de esta escuela mira el push con fecha antes que</p>
+<p>las estrellas.</p>
+<p><em>Cajón.</em> La escuela del archivo propio: MP3 y FLAC tuyos, tocados sin internet ni río ajeno.</p>
+<p>Nunca depende de un provedor, jamás se corta en la loma, y su única obligación es que tus</p>
+<p>etiquetas estén peinadas.</p>
+<p><em>Detective.</em> La escuela del descubrimiento: cruza fuentes, amarra discografías y te muestra</p>
+<p>versiones. Muffon es su bandera en la cosecha — menos «ponme la playlist», más «enséñame el mapa</p>
+<p>del artista».</p>
+<p><em>Cosecha.</em> El pase de vara ancho por una familia del censo: se mide casa por casa, con placa, y</p>
+<p><em>🗓 EL RITUAL DE LA PRIMERA SEMANA (del cajón de soga al cajón de oficio)</em></p>
+<p><em>DÍA UNO — el inventario de la basura.</em> Abre tu carpeta de Descargas con lo que tengas instalado y mírala sin miedo: screenshots de 2024, APKs que ya ni existen, PDFs de trámites hechos. Solo MIRAR hoy — el inventario honesto es el primer acto del oficio.</p>
+<p><em>DÍA DOS — el mueble.</em> Amaze del censo (GPL-3.0, doce años, push del 15-oct-2026) desde la</p>
+<p>tienda legal. Primer trabajo: la carpeta de ayer, ordenada en tres montones — queda, va a</p>
+<p>respaldo, se borra. El teléfono que obediente empieza aquí.</p>
+<p><em>DÍA TRES — el descargador.</em> Gopeed del censo (push del 14-oct) y su bautismo: baja UN EPUB del</p>
+<p>Gutenberg (pieza 22) con pausa y reanudación de por medio. El que sabe esperar es el que baja en</p>
+<p>el campo.</p>
+<p><em>DÍA CUATRO — el cuaderno.</em> Markor (vara marcada, tus notas en archivos): la primera nota en Markdown — lista de compras o idea de negocio, da igual. Y el bautismo de propiedad: expórtala a texto plano y ábrela en el mensajero.</p>
+<p>Tuya de verdad: así se siente el archivo libre.</p>
+<p><em>DÍA CINCO — la lupa.</em> AppManager (vara sin testamento al frente): inspecciona las tres apps que instalaste esta semana. Mira permisos, mira rastreadores, mira actividades.</p>
+<p>Toques: CERO — esta semana se mira. El oficio del inspector empieza por la paciencia.</p>
+<p><em>DÍA SEIS — la fecha de tu cajón.</em> Toma la nota del día cuatro y anota en ella: qué instalaste, de qué censo, con qué placa legal. La fecha de tu cajón es su acta — el ritual mensual la compara con los push del censo y el desencaje se pesca antes de que muerda.</p>
+<p><em>DÍA SIETE — la placa, otra vez.</em> Vuelve al censo de esta pieza con tu cajón montado: ¿Amaze sigue con push vivo? ¿Gopeed respira?</p>
+<p>¿Shizuku sigue en su quietud o el taller despertó? El día que lees las seis placas sin ayuda, la casa cumplió: tu cajón es de oficio — y tu teléfono, por fin, de los tuyos.</p>
+<p>───────────────────</p>
+<p><em>Y la regla del oficio que no cambia con el piso del cajón:</em> la forja mide herramientas públicas, tú das los permisos — y el permiso más alto del teléfono se da con receta, con vara y con fecha. Que tu cajón tenga placa — y que tu nota sea tuya de verdad.</p>
+<p>───────────────────</p>
+<p><em>🩺 LA SALUD DEL CAJÓN AL CORTE (el parte médico de las seis casas)</em></p>
+<p>La forja firma el parte con la misma vara de respiración de toda la serie: push vivo, fila de</p>
+<p>asuntos con señales, quietud fechada.</p>
+<p>Respirando al corte: Amaze, el pulso más fuerte del cajón — push el MISMO día del censo con doce</p>
+<p>años de casa. Gopeed, push del 14-oct: dos días de respiración fresca.</p>
+<p>AppManager, push del 14-oct también: el inspector trabaja — y su fila de asuntos muestra taller</p>
+<p>atento. Touch Helper, push del 10-oct: cinco días, ritmo sano de herramienta de fondo.</p>
+<p>En espera informada: Markor, push del 10-oct (respira — su placa en blanco es el pendiente legal, no el pulso). Y Shizuku en su quietud fechada: dieciséis meses con testamento Apache y plan B — el único parte GRAVE del cajón, escrito sin pánico y sin maquillaje.</p>
+<p>El balance honesto del parte: cuatro casas respirando fuerte, una respirando con placa pendiente, una quieta con testamento. Es el cajón más sano que el rumor del barrio imagina — y el único que le pide vigilia es, precisamente, el más importante.</p>
+<p>Así es el oficio: la herramienta crítica no es la que más ruido hace — es la que más puertas abre.</p>
+<p><em>📐 LA MEDIDA DEL CAJÓN (qué mira la forja que no se ve)</em></p>
+<p>Además de las placas, el censo deja leer tres medidas finas del cajón que la forja firma en voz</p>
+<p>alta.</p>
+<p>La primera: el tamaño de las casas. Ninguna de las seis pasa de ★32.000 al censo del 15-oct-2026 — el cajón es el territorio de las casas MEDIANAS del ecosistema, y esa mediana es buena señal: las herramientas de fondo no necesitan fama de estrella, necesitan oficio de fondo.</p>
+<p>La casa gigante del cajón sería sospechosa — la fama en las herramientas suele venir de promesa,</p>
+<p>no de trabajo.</p>
+<p>La segunda: la mezcla de licencias. Cuatro firmas distintas al corte (GPL-3.0, Apache-2.0, MIT, y las dos en blanco): el cajón es el territorio más variado de la serie en contratos — y la lectura de la forja es directa: cada escuela elige su ley.</p>
+<p>El trámite firma GPL (Gopeed), la llave firma Apache (Shizuku), el autómata firma MIT (Touch</p>
+<p>Helper) — y las lupas pendientes.</p>
+<p>El contrato sigue al oficio.</p>
+<p>La tercera: el ritmo de nacimiento. Las seis nacieron entre 2014 y 2020 — el cajón no estrena</p>
+<p>casas al corte: es territorio de madurez.</p>
+<p>La lectura honesta: en el cajón no hay moda que seguir ni novedad que cazar — hay herramientas</p>
+<p>que se heredan. El barrio que busca estreno mira la música; el que busca oficio, el cajón.</p>
+<p>La serie mide los dos — y no los confunde.</p>
+<p><em>🎯 EL MINIQUIZ DEL CAJÓN</em></p>
+<p>Cinco preguntas de la pieza. Las respuestas van AL REVÉS al pie (leídas de atrás para adelante),</p>
+<p>para que nadie las palmee sin pensarse el plato.</p>
+<p><em>LAS PREGUNTAS:</em></p>
+<p>1) ¿Qué herramienta del cajón lleva dieciséis meses de quietud y cuántas estrellas tiene?</p>
+<p>2) ¿Qué casa del cajón cumple DOCE años y empujó el mismo día del censo?</p>
+<p>3) ¿Qué dos casas del cajón viajan SIN licencia declarada?</p>
+<p>4) ¿Qué escuela atiende Gopeed y qué hace?</p>
+<p>5) ¿Cuál es el orden de instalación del cajón de la casa?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>(Las respuestas correctas —de arriba abajo— son: Shizuku la quieta con testamento; Amaze la</p>
+<p>doceañera viva; AppManager y Markor las placas en blanco; Gopeed el trámite de la descarga; y</p>
+<p>lupa-trámite-llave el orden de la casa.)</p>
+<p>───────────────────</p>
+<p><em>PRIMERA CARTA — al que tenía un «limpiador» instalado.</em></p>
+<p>Esta pieza te lo dice sin juzgar: el limpiador del grupo no limpia nada — desordena. La mudanza al cajón de oficio cuesta una tarde (el ritual completo) y tu teléfono amanece obediente: mueble, descargador, cuaderno, lupa — cuatro herramientas con placa que hacen el trabajo REAL del limpiador anunciado.</p>
+<p>Y la despedida del impostor se hace con fecha, como toda despedida de la casa.</p>
+<p><em>SEGUNDA CARTA — al mantenedor de una de las seis casas.</em></p>
+<p>Tu push está en el acta del cajón — y las dos placas sin testamento no son condena: son varas</p>
+<p>marcadas con la puerta abierta. Una sola línea en el repo (la licencia elegida y firmada) cambia</p>
+<p>el acta del próximo pulso de la serie.</p>
+<p>Y a Shizuku: la casa tiene su acta lista para el día del despertar — la forja celebra la línea</p>
+<p>viva el día que ocurre, con fecha.</p>
+<p><em>TERCERA CARTA — al que nota que esta serie repite la misma vara.</em></p>
+<p>Sí: licencia con nombre, push con fecha, tienda legal, quietud con acta — pieza tras pieza,</p>
+<p>territorio tras territorio. No es falta de imaginación: es la vara que no se negocia.</p>
+<p>La imaginación está en las placas (cada censo cuenta su historia), y la vara es el timbre de la</p>
+<p>casa.</p>
+<p>El que ya la aprendió con la música la está aplicando en su trabajo, en sus compras y en sus</p>
+<p>grupos — esa siempre fue la meta.</p>
+<p>───────────────────</p>
+<p>💓 <em>PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 25).</em></p>
+<p>dormidos · 0 archivados.</p>
+<p><em>📋 LA FICHA DE HOY</em></p>
+<ul>
+<li><strong>RikkaApps/Shizuku</strong> — «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.»</li>
+</ul>
+<p>  ★32.392 · su último empuje fue el 2025-06-18 (hace 498 días) · licencia Apache-2.0 · Kotlin · última release v13.6.0 (2025-05-25) · <a href="https://github.com/RikkaApps/Shizuku">https://github.com/RikkaApps/Shizuku</a></p>
+<ul>
+<li><strong>GopeedLab/gopeed</strong> — «A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.»</li>
+</ul>
+<p>  ★27.246 · empujó hoy · licencia GPL-3.0 · Dart · última release v1.9.3 (2026-03-18) · <a href="https://github.com/GopeedLab/gopeed">https://github.com/GopeedLab/gopeed</a> · Web: <a href="https://gopeed.com">https://gopeed.com</a></p>
+<p>  Temas: android · bittorrent · cross-platform · debian · downloader · flutter</p>
+<ul>
+<li><strong>MuntashirAkon/AppManager</strong> — «A full-featured package manager and viewer for Android»</li>
+</ul>
+<p>  ★9.371 · su último empuje fue el 2026-10-19 (hace 10 días) · licencia GPL-3.0 · Java · última release v4.1.1 (2026-09-04) · <a href="https://github.com/MuntashirAkon/AppManager">https://github.com/MuntashirAkon/AppManager</a> · Web: <a href="http://muntashir.dev/AppManager/">http://muntashir.dev/AppManager/</a></p>
+<p>  Temas: adb · android · apks · material-design · package-manager</p>
+<ul>
+<li><strong>florisboard/florisboard</strong> — «An open-source keyboard for Android which respects your privacy. Currently in beta.»</li>
+</ul>
+<p>  ★8.733 · su último empuje fue el 2026-10-25 (hace 4 días) · licencia Apache-2.0 · Kotlin · última release v0.5.2 (2025-11-28) · <a href="https://github.com/florisboard/florisboard">https://github.com/florisboard/florisboard</a> · Web: <a href="https://florisboard.org">https://florisboard.org</a></p>
+<p>  Temas: android · input-method · keyboard · kotlin · kotlin-android</p>
+<ul>
+<li><strong>TeamAmaze/AmazeFileManager</strong> — «Material design file manager for Android»</li>
+</ul>
+<p>  ★6.448 · empujó hoy · licencia GPL-3.0 · Kotlin · última release v3.11.4 (2026-10-15) · <a href="https://github.com/TeamAmaze/AmazeFileManager">https://github.com/TeamAmaze/AmazeFileManager</a> · Web: <a href="https://teamamaze.xyz">https://teamamaze.xyz</a></p>
+<p>  Temas: android · fdroid · filemanager · frontend · java · kotlin</p>
+<ul>
+<li><strong>gsantner/markor</strong> — «Text editor - Notes, ToDo &amp; Filemanager (for Android) - Markdown, todo.txt, plaintext, math, ..»</li>
+</ul>
+<p>  ★6.349 · empujó hoy · licencia Apache-2.0 · Java · última release v2026.10.0 (2026-10-25) · <a href="https://github.com/gsantner/markor">https://github.com/gsantner/markor</a> · Web: <a href="https://github.com/gsantner/markor/discussions/2269">https://github.com/gsantner/markor/discussions/2269</a></p>
+<p>  Temas: android-app · asciidoc · clipboard · csv-reader · editor · education</p>
+<ul>
+<li><strong>zfdang/Android-Touch-Helper</strong> — «AdSkip — an Android assistant for automatically skipping app launch ads»</li>
+</ul>
+<p>  ★5.336 · su último empuje fue el 2026-10-19 (hace 10 días) · licencia MIT · Java · última release tag-278 (2026-10-10) · <a href="https://github.com/zfdang/Android-Touch-Helper">https://github.com/zfdang/Android-Touch-Helper</a> · Web: <a href="https://TouchHelper.zfdang.com">https://TouchHelper.zfdang.com</a></p>
+<p>  Temas: accessibility · activity · ad · android · auto · click</p>
+<p><em>🎯 MINI-QUIZ DE HOY</em></p>
+<p><em>1.</em> ¿Qué repo del grupo lleva más tiempo sin empujar?</p>
+<p><em>2.</em> De la pieza, ¿quién empujó más cerca de hoy?</p>
+<p><em>3.</em> La licencia de GopeedLab/gopeed, ¿cuál es?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>REV|81-60-5202 — ukuzihS/sppAakkiR=1|REV|92-01-6202 — deepog/baLdeepoG=2|REV|0.3-LPG=3</p>
+<p>💓 Hoy, jueves 29 de octubre de 2026, se midieron en vivo 7 repos y 0 enlaces de esta pieza: 7 vivos, 0 firmados con su estado en la ficha. El texto es el de la casa; la ficha, la de hoy.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

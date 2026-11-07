@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2025-10-31T19:50:52Z",
+   "oid": "12bfce65348d4dd9aff4bd8e5d3c23268d78a26f"
+  }
+ },
+ "diskUsage": 108,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "Nihon-Collective/mihon-preview-storing-old-version",
+ "pushedAt": "2025-11-04T07:16:05Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

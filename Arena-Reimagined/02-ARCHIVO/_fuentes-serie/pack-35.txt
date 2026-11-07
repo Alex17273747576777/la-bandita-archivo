@@ -1,0 +1,454 @@
+=====S01=====
+*35 — LA PUERTA DE LAS APPS*
+*Obtainium ★20.440 (censo 15-oct-2026) trae las actualizaciones directas del taller, Aurora Store entra anónimo a la tienda grande y Droid-ify limpia el estante: de dónde nacen las apps que instalas (WhatsApp · La Bandita · dominicano-ES)*
+
+───────────────────
+
+*⚡ EN UN RESPIRO*
+
+Catorce piezas de la serie han firmado «instala del repo o tienda legal» — y esta pieza mide LAS PUERTAS: los muebles por donde entran las apps al teléfono, medidos al censo del 15-oct-2026.
+
+Las placas: **Obtainium** — ★20.440 (pulso 15-oct-2026), GPL-3.0, nacida el 11-ago-2022, push del 14-oct: la joya del censo — te suscribe DIRECTO al repo del taller: cada actualización llega desde la fuente, sin tienda de por medio. **Droid-ify** — ★7.597, GPL-3.0: el cliente F-Droid limpio, sin lo que estorba. Y **Aurora Store** — ★3.122 (censo 15-oct-2026), GPL-3.0, push del 2-oct-2026: la puerta anónima a la tienda grande — descargas lo que esa tienda tiene, SIN cuenta y SIN mirar quién eres.
+
+El marco honesto: la puerta de las apps es el mueble que la serie más usó sin presentar — cada pieza firmó «del repo o tienda legal» y esta noche la vara se voltea: las TRES puertas legales del ecosistema, con placas. La pieza cierra el círculo: ya no solo sabes QUÉ instalar — sabes POR DÓNDE.
+
+───────────────────
+
+*🗺 MAPA DE ESTA GUÍA*
+
+```
+├── ⚡ EN UN RESPIRO · ~2 min
+├── 🗺 MAPA DE ESTA GUÍA · ~1 min
+├── 🌱 LA SEMILLA · ~2 min
+├── 🚪 EL CENSO DE LAS PUERTAS · ~4 min
+├── 🏛 LA INSTITUCIÓN Y LOS TRES CLIENTES · ~4 min
+├── ⚖ LA VARA DE LA LICENCIA · ~3 min
+├── 🎯 LA DOCTRINA DE LAS TRES PUERTAS · ~3 min
+├── 🔧 LA RECETA DE LAS PUERTAS ORDENADAS · ~3 min
+├── 🧊 MITOS DESMONTADOS · ~3 min
+├── ❓ PREGUNTAS DE LA FILA · ~3 min
+├── 🧪 CASOS DEL BARRIO · ~3 min
+├── 🏭 LA DESPENSA DE DATOS · ~2 min
+├── 💬 LA CONVERSACIÓN HONESTA · ~2 min
+├── 🎞 LO QUE ESTA PIEZA NO DICE · ~2 min
+├── ⚠ LOS RIESGOS DE LAS PUERTAS · ~2 min
+├── 🗓 EL RITUAL DE LA PRIMERA SEMANA · ~2 min
+├── 📖 GLOSARIO DE LAS PUERTAS · ~8 min
+├── 🎯 EL MINIQUIZ DE LA CASA · ~3 min
+├── 💌 LAS CARTAS AL LECTOR · ~3 min
+└── 🪡 LA ÚLTIMA AGUJA · ~1 min
+```
+
+⏱ *Lectura total: 55 min* · Todo dato con fecha y placa · Censo del 15-oct-2026 (tarde)
+
+───────────────────
+
+*🌱 LA SEMILLA*
+
+La pregunta que toda la serie dejó en el aire: «¿del repo o tienda legal — pero cuál puerta exactly?». El barrio conoce la puerta del teléfono (la tienda de fábrica, con su modelo de perfilaje) y el grupo de siempre (el APK del vecino, con su modelo de ruleta). El ecosistema libre tiene SU arquitectura de puertas — y esta noche se mide entera: el estante institucional (F-Droid con sus clientes), la suscripción directa al taller (Obtainium) y la puerta anónima (Aurora).
+
+El compás de la pieza es el de la procedencia: cada puerta tiene una firma distinta — el estante firma el catálogo curado (apps compiladas y revisadas), la suscripción directa firma el taller (el APK que el propio repo publica), la puerta anónima firma el anonimato (la tienda ajena sin tu nombre). Tres firmas, tres usos — y la receta de la casa las arma juntas.
+
+Y el marco del bloque: esta pieza es la LLAVE de las catorce anteriores — el que la lee ya no pregunta «¿de dónde bajo esto?»: tiene la arquitectura completa de puertas, con placas y con receta.
+
+───────────────────
+=====S02=====
+*🚪 EL CENSO DE LAS PUERTAS (censo 15-oct-2026)*
+
+Las placas completas, tal como el censo de la tarde y el pulso nocturno del 15-oct-2026 las contestaron:
+
+*Obtainium* — ImranR98/Obtainium · ★20.440 (pulso 15-oct-2026) · push del 14-oct · GPL-3.0 · nacida el 11-ago-2022. La suscripción directa: le das el REPO del taller y la puerta te trae cada actualización desde la fuente — GitHub, GitLab, F-Droid, Codeberg, la web del taller: donde el taller publique, Obtainium sigue. Tres años y dos meses — y la estrella más alta del censo de la noche: el ecosistema la adoptó en masa.
+
+*Droid-ify* — Droid-ify/client · ★7.597 (pulso 15-oct-2026) · push del 12-sep · GPL-3.0 · nacida el 4-jul-2022. El cliente del estante institucional: la puerta F-Droid sin lo que estorba — mismo catálogo curado (la compilación revisada de miles de apps), cara limpia, Material moderno. El repo declara espejo de Codeberg (la casa oficial del taller): la placa del censo lo anota.
+
+*Aurora Store* — Whyorean/AuroraStore · ★3.122 (pulso 15-oct-2026) · push del 2-oct · GPL-3.0 · nacida el 24-mar-2021. La puerta anónima: cliente libre pa la tienda grande — descargas y actualizas SIN cuenta, con anonimato (las sesiones anónimas compartidas), y sin la mirada del perfilamiento. Cuatro años y seis meses de taller.
+
+*La institución (frontera anotada):* F-Droid — el estante: no es un repo de esta noche sino la INSTITUCIÓN del ecosistema (desde 2010): compila, firma y curación el catálogo de miles de apps libres. Sus clientes (Droid-ify y el oficial) son las puertas al estante — la forja firma la institución como el suelo de la arquitectura entera.
+
+───────────────────
+
+Detalle que la forja firma con vara: las TRES puertas traen GPL-3.0 — el censo completo bajo una ley. Y la respiración: Obtainium empujando el 14-oct, Aurora el 2-oct, Droid-ify el 12-sep — las tres puertas respirando en el último mes y medio. La arquitectura de puertas del ecosistema libre está VIVA.
+
+=====S03=====
+*🏛 LA INSTITUCIÓN Y LOS TRES CLIENTES*
+
+La arquitectura completa de las puertas, en tres estaciones:
+
+*ESTACIÓN UNO — el estante curado (F-Droid + Droid-ify).* La puerta clásica del ecosistema: F-Droid COMPILA las apps desde su código fuente (no descarga el APK del taller: lo construye y firma el estante) y las curación en su catálogo — la puerta con más revisión por app del mundo libre. Droid-ify es el cliente moderno del estante: el catálogo completo con cara limpia. Su vara: la puerta pa DESCUBRIR — buscar «editor», «cámara», «correo» y encontrar lo verificado. Su detalle honesto: la compilación propia a veces demora las actualizaciones (el estante tarda días en compilar lo nuevo).
+
+*ESTACIÓN DOS — la suscripción directa (Obtainium).* La puerta del taller: le das el repo (el de esta serie: KOReader, Gopeed, Thunderbird...) y te trae EL APK QUE EL TALLER PUBLICA — la actualización el mismo día que sale, sin esperar compilación. Su vara: la puerta pa SEGUIR — los muebles que ya verificaste y quieres al día de fábrica. Su detalle honesto: la verificación la hace TU vara (el repo que le das debe ser el verificado — Obtainium no curación: entrego el repo, ella lo sigue).
+
+*ESTACIÓN TRES — la puerta anónima (Aurora Store).* La puerta pa la tienda ajena: lo que SOLO existe ahí (el juego del nieto, la app del banco de la esquina, la del gobierno), descargada SIN cuenta — sesiones anónimas compartidas, sin tu nombre ni tu correo. Su vara: la puerta pa lo que no tiene alternativa libre — con la lupa del cajón (25) y el portero (31) a plena carga (lo que sale de la tienda ajena se examina igual). Su detalle honesto: anonimato de descarga no es blindaje de la app: lo que instalas de ahí se audita como siempre.
+
+*Cómo se arma la arquitectura sin equivocarse:*
+
+El estante (Droid-ify) pa descubrir y pa los clásicos estables. La suscripción (Obtainium) pa los muebles de la serie que quieres al día. La anónima (Aurora) pa lo que solo existe en la tienda ajena. Las TRES juntas pesan menos que una red social — y son la arquitectura completa de las puertas legales.
+
+───────────────────
+=====S04=====
+*⚖ LA VARA DE LA LICENCIA*
+
+Las puertas al corte del 15-oct-2026: TRES FIRMAS COMPLETAS — GPL-3.0 en las tres. Tercer censo consecutivo de ley única: la sección del sistema firma a un compás (portero (31), consultorio (34), puertas (35)).
+
+La lectura de la forja: las puertas SON la ley hecha mueble — el que distribuye apps es el que más necesita firmar público: la puerta que no se puede auditar es el grupo de siempre con cara bonita. Las tres la firman, y la institución (F-Droid) la trae desde 2010 — el suelo de la arquitectura entera está firmado.
+
+*El detalle del espejo de Droid-ify:* el repo declara MIRROR de Codeberg (la casa oficial del taller) — el mismo patrón de FUTO (30): el taller muda su código a su git propio y GitHub queda de espejo. La placa del censo lo anota con la vara de la 32: espejo declarado es honestidad, no riesgo — la placa mide lo que hay y la casa oficial se visita donde el taller diga.
+
+*El compás aplicado, casa por casa:* repo público ✓, push vivo ✓ (los tres en el último mes y medio), filas vivas ✓, instalación ✓ (las tres están EN el estante institucional — la puerta se descarga por la puerta: F-Droid → Droid-ify → el resto). Y el detalle fino de la arquitectura: la primera puerta SIEMPRE es el estante (F-Droid desde su web oficial, con la firma verificada) — el que entra por un APK de grupo pa instalar su primera puerta, empieza la casa por el techo.
+
+───────────────────
+=====S05=====
+*🎯 LA DOCTRINA DE LAS TRES PUERTAS (cómo se firma una instalación de verdad)*
+
+La sección doctrinal — la receta de verificación que las catorce piezas anteriores presuponían:
+
+*PASO UNO — ¿dónde nace la app?* La placa del origen: el repo del taller (la placa de cada pieza de esta serie: repo, ley, censo). La app sin repo visible es la ruleta del grupo con otro formato — y el repo muerto (la vara del push) es el museo del almacén (32). La placa con fecha manda.
+
+*PASO DOS — ¿por qué puerta entra?* La elección por faena: estante (Droid-ify) pa lo curado y estable; suscripción (Obtainium) pa lo verificado que quieres al día; anónima (Aurora) pa lo que solo existe en la tienda ajena — con examen de llegada. La puerta incorrecta no es pecado — es falta de arquitectura: la casa la ordena en una tarde.
+
+*PASO TRES — ¿con qué firma llega?* El detalle que casi nadie mira: los APKs vienen FIRMADOS — y la firma debe ser la del taller. Obtainium verifica las firmas entre versiones (si la firma cambia, te avisa: o el taller cambió de llave — hay que leer el anuncio — o es impostor: fuera). El estante firma con SU llave (por eso compila). El sello de la firma es el más fino de la doctrina — y la que el grupo de siempre nunca muestra.
+
+*PASO CUATRO — ¿quién vigila después?* La app instalada entra al régimen de la casa: el informe del portero (31), la lupa del cajón (25), la actualización por la MISMA puerta (jamás el «actualízate por aquí» del mensaje de grupo). La instalación no termina al tocar instalar: termina al estar bajo vara — la doctrina completa de la casa en cuatro pasos.
+
+───────────────────
+=====S06=====
+*🔧 LA RECETA DE LAS PUERTAS ORDENADAS (una tarde, por pisos)*
+
+*Piso uno — la primera puerta.* F-Droid desde SU web oficial (f-droid.org, con la firma verificada en la página de descarga): el APK del estante entra al teléfono (permiso de instalar de fuentes: solo para ESTA fuente), y el estante abre su catálogo completo. La puerta de las puertas: de ahí nace todo lo demás.
+
+*Piso dos — el cliente del estante.* Droid-ify del estante (placa: ★7.597 (censo 15-oct-2026), GPL-3.0, espejo declarado): el cliente limpio pa el catálogo — mismo fondo institucional, cara moderna. El bautismo: buscar una app de la serie (el cuaderno, el mueble de archivos) y ver la placa del estante: versión, licencia, código fuente — el catálogo curado firmado.
+
+*Piso tres — la suscripción directa.* Obtainium del estante (placa: ★20.440 (censo 15-oct-2026), GPL-3.0, push del 14-oct): y la primera suscripción — el repo de esta serie que más uses (el lector de la 22, el descargador de la 25). El bautismo: la actualización del taller llegando EL DÍA que sale — la puerta directa trabajando.
+
+*Piso cuatro — la puerta anónima (pa lo que haga falta).* Aurora Store del estante (placa: ★3.122 (censo 15-oct-2026), GPL-3.0, push del 2-oct): sesión anónima, y la prueba con la app del banco o la del gobierno — lo que SOLO vive en la tienda ajena, descargado sin tu nombre. El examen de llegada, cumplido: cada app que entra por ahí, al informe del portero (31) esa noche.
+
+*Piso cinco — el acta de las puertas.* La nota-placa del taller: qué puertas, qué censo (15-oct-2026), qué apps viven en cada puerta. Y el ritual mensual: el push de las tres puertas se compara con el censo, y la lista de suscripciones de Obtainium se revisa (¿todos los repos siguen verificados?). La arquitectura de puertas documentada — la llave de las catorce piezas anteriores.
+
+───────────────────
+
+*🧊 MITOS DESMONTADOS*
+
+*Mito uno — «las apps de F-Droid están viejas».* El mito de la compilación: el estante compila y revisa — y a veces demora. La arquitectura lo resuelve: lo estable vive en el estante; lo que quieres al día va a Obtainium (la suscripción directa). La vieja era la puerta única — la casa moderna usa las tres: cada mueble, su puerta.
+
+*Mito dos — «instalar APK suelto es lo mismo que instalar de la tienda».* El desmontaje de la doctrina: el APK del grupo es la ruleta (¿de qué taller? ¿con qué firma? ¿qué lleva adentro?); el APK de Obtainium es el del repo VERIFICADO (tú le diste el repo); el del estante es compilado y firmado por la institución. Tres APKs, tres varas — la diferencia no es el formato: es la cadena de verificación. El formato .apk no dice nada: la cadena lo dice todo.
+
+*Mito tres — «Aurora Store es pirata».* La confusión del barrio: Aurora NO descarga nada pagado ni roto — descarga LO QUE LA TIENDA DA GRATIS, sin tu cuenta. Es la puerta anónima a lo público: la app gratis de la tienda, sin el perfilamiento. Lo pagado no lo toca (ni debe); lo ajeno lo entrega con las mismas reglas de examen que siempre. La vara de la casa: puerta anónima pa descargar, vara del cajón pa auditar — las dos, siempre.
+
+*Mito cuatro — «tres tiendas abren la puerta al malware».* El desmontaje del miedo: las tres puertas firman GPL y se auditan entre sí — el riesgo del malware vive en los APKs de grupo y en las «tiendas» clónicas de la web, no en las puertas firmadas del ecosistema. El oficio dice: menos puertas = más vigiladas — tres firmadas valen más que una sin firma y doce archivos sueltos.
+
+───────────────────
+=====S07=====
+*❓ PREGUNTAS DE LA FILA*
+
+*¿Droid-ify o el cliente oficial de F-Droid?* Del censo del 15-oct-2026: el catálogo es EL MISMO (la institución compila, el cliente mira) — la diferencia es la cara. La forja firma Droid-ify pa el que quiere limpieza moderna y el oficial pa el que quiere la casa de siempre — los dos leen el mismo estante, con la misma vara. La placa del espejo de Droid-ify está anotada: casa oficial en Codeberg.
+
+*¿Obtainium puede actualizar apps del estante?* Sí — la suscripción apunta donde quieras: al repo del taller o a la página del estante. La arquitectura fina de la forja: los muebles del diario (la serie entera) en Obtainium (al día de fábrica); los clásicos que no cambian (la linterna, la libreta) en el estante (curados y estables). Cada mueble, su puerta — y ninguna app actualizada por dos puertas a la vez.
+
+*¿Aurora Store necesita cuenta de Google?* NO — y ese es su punto: sesiones anónimas compartidas (el taller presta sesiones públicas pa las descargas). Lo que no puedes sin cuenta: comprar o acceder a apps pa-país-tuyo-con-cuenta. La vara honesta: lo gratis público baja perfecto; lo que exige identidad, exige cuenta — y ahí la pieza firma: si tienes que entrar con la tuya, sabrás que entras.
+
+*¿Y si mi teléfono es viejo o barato — corren las puertas?* Corren: las tres están hechas pa el Android del barrio — el estante compila pa versiones viejas (la vara de la institución: nadie se queda fuera por el aparato), y las dos jóvenes pesan poco. La forja firma el orden del teléfono viejo: primero el estante (el catálogo entero pesa lo que una app), después el resto — y si el aparato aprieta, la lupa del cajón (25) decide qué puerta se queda.
+
+*¿Actualizo las puertas por dentro de cada una?* Sí — y la forja firma la elegancia: cada puerta actualiza a las OTRAS — Obtainium suscrito al repo de Droid-ify y Aurora; el estante curando a las tres; la anónima pa la que no vive en ningún lado. La puerta que se actualiza por su propia firma: la arquitectura se mantiene sola — como la casa que se barre con su propia escoba.
+
+*¿Puedo tener solo una puerta y vivir tranquilo?* Sí — el estante solo (Droid-ify) cubre el 80% de la casa libre: catálogo completo, curado, actualizado. Las otras dos son finas: la suscripción pa lo que quieres al día de fábrica, la anónima pa lo ajeno único. La forja firma la recomendación mínima: una puerta (el estante) se monta en veinte minutos y ya la casa tiene arquitectura — las otras dos se suman cuando la vida las pida.
+
+*¿Qué pasa si el taller muere? ¿Quién actualiza?* La arquitectura contesta con sus tres pisos: si el taller muere, la suscripción se calla ( Obtainium avisa que el repo no empuja) — y el mueble pasa al estante (la última versión curada sigue viva ahí) o al archivo del almacén (32). La muerte del taller no rompe la puerta: la re-enruta — la vara del push (cada pieza de la serie) es la alarma temprana. Y el caso de la serie: la venta de la 32 — el taller murió y el catálogo del estante heredó el oficio.
+
+*¿Las tres puertas juntas se pelean?* No — son pasivas: solo trabajan cuando tú abres. La única regla técnica: UNA app, UNA fuente de actualización (la app no puede estar en dos puertas con auto-actualización a la vez). La nota del acta: qué app vive en qué puerta — la lista que el ritual mensual revisa.
+
+*¿Las puertas gastan batería o comen fondo?* No: las tres trabajan cuando tú abres (el estante consulta al abrir, la suscripción revisa a intervalos — configurable, la anónima solo en uso). El peso de las tres puertas juntas: menos que una red social — y el portero (31) las deja llamar solo cuando toca. La arquitectura que cuida las entradas no abre la salida sin permiso.
+
+*¿Y la primera vez, cómo entro a f-droid.org sin miedo?* La vara de la web oficial: el certificado (el candado del navegador) + la firma del APK que la propia página documenta. Y el atajo honesto de la serie: la primera puerta también puede ser el APK verificado de la web del taller de cualquier mueble de la serie (el descargador, el lector) — y desde ahí, el estante. La cadena de confianza empieza en UN punto verificado — esta pieza es ese punto.
+
+───────────────────
+
+*🧪 CASOS DEL BARRIO*
+
+*Caso uno — el muchacho que llenaba el teléfono de APKs del grupo.* Veinte «tiendas» del grupo, tres antivirus y un teléfono lento. Receta: la tarde de las puertas — las veinte fuera, el estante adentro (Droid-ify), las apps de la serie re-instaladas por el estante y Obtainium, y la anónima pa las tres que solo existían en la tienda ajena. El teléfono que era la ruleta andante, amanece con arquitectura: tres puertas firmadas, cero ruleta.
+
+*Caso dos — la señora de las ventas pa el extranjero.* Su app del banco solo vive en la tienda grande — y no quería meter su correo en otra cuenta «pa nada». Receta: Aurora con sesión anónima — el banco descargado sin cuenta, el informe del portero esa noche (la app firma a tres rastreadores: cortados), y la regla del examen de llegada cumplida. El banco que necesitaba la tienda ajena, con puerta anónima y portero: la arquitectura pa lo que no tiene alternativa.
+
+*Caso tres — el técnico que actualizaba a mano cuarenta teléfonos.* Cada teléfono de la flota del negocio (caso tres de la 33) con apps que actualizar a dedo por el grupo de siempre. Receta: Obtainium en cada teléfono con la suscripción a los repos de la flota (el mensajero de la casa, el mueble de facturas) — las actualizaciones llegando solas desde los repos verificados. La flota que se actualizaba en un día de trabajo, hoy se actualiza en el café de la mañana: la suscripción directa pa la flota chica.
+
+*Caso cuatro — el estudiante que quería la versión nueva de la 22.* El lector del censo sacó versión nueva el martes — y el estante la compilaba pa el viernes. Receta: Obtainium con la suscripción al repo del taller — la versión del martes en la tarde del martes. Y la vara de la casa: versión nueva de fábrica no es versión torcida — es la del taller, con su firma. El que quiere al día, directo; el que quiere curado, espera al estante. Las dos legitimas.
+
+───────────────────
+
+*Caso cinco — la madre del chat de las bodegas.* El grupo de la venta le mandaba el «actualizador» de la app del negocio cada mes — un APK nuevo cada vez, y el teléfono cada vez más raro. Receta: Obtainium con la suscripción al repo del mueble del negocio (la pieza de facturas de la serie), el «actualizador» del grupo muerto con acta, y la app de las bodegas re-instalada del estante. El teléfono que se «ponía raro» cada mes, amaneció estable: el impostor de puerta era el actualizador — la placa del censo lo desmontó en la primera lectura.
+
+*Caso seis — el vecino del teléfono regalado.* Le regalaron un teléfono con las apps de la tienda ajena SIN cuenta (nadie sabía la contraseña del dueño viejo) — las apps sin actualizar desde hacía un año. Receta: Aurora con sesión anónima — las actualizaciones de las apps heredadas llegando sin cuenta, el portero (31) al informe esa noche, y la mudanza de lo libre al estante. El teléfono heredado, con arquitectura de puertas en una tarde: la herencia más barata de arreglar.
+
+=====S08=====
+*🏭 LA DESPENSA DE DATOS (todo lo medido, en una repisa)*
+
+Las tres placas de las puertas al 15-oct-2026, listas pa copiar y verificar:
+
+Obtainium · ImranR98/Obtainium · ★20.440 (censo 15-oct-2026) · nacida 11-ago-2022 · push 14-oct-2026 · GPL-3.0 · la suscripción directa al taller. Droid-ify · Droid-ify/client · ★7.597 (censo 15-oct-2026) · nacida 4-jul-2022 · push 12-sep-2026 · GPL-3.0 · el cliente limpio del estante (repo espejo: casa oficial en Codeberg). Aurora Store · Whyorean/AuroraStore · ★3.122 (censo 15-oct-2026) · nacida 24-mar-2021 · push 2-oct-2026 · GPL-3.0 · la puerta anónima a la tienda grande.
+
+Institución anotada: F-Droid — el estante del ecosistema desde 2010: compila, firma y cura el catálogo de miles de apps libres. Sus puertas web: f-droid.org (la primera puerta de la casa).
+
+Fuente: censo vivo de la casa (5.684 repos, tarde del 15-oct-2026) + pulso nocturno con la API oficial del mismo 15-oct-2026. Dato viaja FECHADO a esa noche.
+
+───────────────────
+
+*🕰 LA EDAD DE LAS PUERTAS*
+
+Obtainium nació el 11-ago-2022: tres años y dos meses. Droid-ify nació el 4-jul-2022: tres años y tres meses. Aurora Store nació el 24-mar-2021: cuatro años y seis meses. Promedio de las puertas: tres años y siete meses — el censo más joven de la sección del sistema (el apoderado (33) promediaba tres y cinco).
+
+La lectura del dato: la arquitectura moderna de las puertas nació en 2021-2022 — cuando el ecosistema decidió ordenar sus entradas: la institución (2010) trajo el estante; la generación nueva trajo la suscripción directa y el anonimato. Las puertas jóvenes no son inmaduras: son la generación que creció mirando el problema resuelto — y lo resolvió con menos mueble y más diseño.
+
+───────────────────
+
+*💬 LA CONVERSACIÓN HONESTA*
+
+Primera: la pieza llegó al bloque del sistema por demanda de la vara — catorce piezas firmando «del repo o tienda legal» necesitaban la puerta medida. La forja firma el orden del bloque: el sistema se mide de adentro pa afuera (portero, almacén, apoderado, consultorio) y esta noche la puerta — el flujo completo del oficio, de adentro a la calle.
+
+Segunda: la institución (F-Droid) se firma como SUELO, no como placa de esta noche — su censo propio (la institución completa: compilación, firmas, curación) merece pieza entera, y la serie la tiene en el mapa. Esta noche se midió lo que la serie usa: los tres clientes con GPL y push.
+
+Tercera: el glosario sigue en la familia sistema — decimoquinta pieza, misma aguja. Y la nota de la casa: esta es la pieza que la serie recomienda leer SEGUNDA (después de la 01): el que tiene las puertas ordenadas, tiene la mitad del oficio resuelto.
+
+───────────────────
+
+*🎞 LO QUE ESTA PIEZA NO DICE*
+
+No dice que la tienda de fábrica sea prohibida — dice que es la puerta con perfilamiento: se usa con vara (la anónima la sustituye pa lo público).
+
+No dice que Obtainium sea pa todos los muebles — dice que es pa los verificados que quieres al día: cada mueble, su puerta.
+
+No dice que Aurora sea pirata — dice que es la puerta anónima a lo público: lo pagado no lo toca, lo que baja se audita igual.
+
+No dice que tres puertas sean más riesgo — dice que menos puertas firmadas valen más que una sin firma y doce APKs sueltos.
+
+No dice — jamás — que la primera puerta entre por APK de grupo: la cadena de confianza empieza en UN punto verificado — la web del estante o el repo de la serie.
+
+───────────────────
+=====S12=====
+*⚠ LOS RIESGOS DE LAS PUERTAS, CON FECHA*
+
+*RIESGO UNO — el impostor de puerta.* El clónico de F-Droid de la web ajena, la «F-Droid Pro» de la tienda, el APK de grupo que dice ser Obtainium: el impostor de puerta es el peor de la serie — roba TODAS las instalaciones futuras. La defensa: la web oficial con certificado, la firma del APK verificada, y la vara del censo (esta pieza): las tres puertas con placa. La primera puerta se cruza UNA vez — se cruza bien.
+
+*RIESGO DOS — el mueble en dos puertas.* La app que actualiza el estante Y Obtainium a la vez: la firma de una pisa la de la otra y la actualización se enreda. La defensa: la nota del acta (qué app vive en qué puerta) + la regla de UNA fuente — el ritual mensual la revisa. La enredadera de puertas es el desorden nuevo del oficio: se arregla con lista, no con desinstalaciones de pánico.
+
+*RIESGO TRES — la suscripción al repo equivocado.* Obtainium entrego lo que le des: un repo impostor (la mudanza del fork (26) reaprovechada) suscribe al impostor. La defensa: la placa de cada pieza de esta serie (repo verificado con fecha) + la verificación de firma de Obtainium (la firma que cambia avisa). La suscripción directa es directa pa lo bueno y pa lo malo: la vara del censo es el filtro.
+
+*Y el riesgo que la forja se auto-impone:* escribir la pieza de las puertas sin vender la paranoia. La forja firma el tono: la arquitectura de puertas se arma UNA tarde y se disfruta AÑOS — no es más trabajo, es menos: tres puertas ordenadas reemplazan la ruleta del grupo entera. El oficio de las puertas es de los que descansan mejor — no de los que viven vigilando.
+
+───────────────────
+=====S13=====
+*🗓 EL RITUAL DE LA PRIMERA SEMANA (de la ruleta del grupo a la arquitectura de puertas)*
+
+*DÍA UNO — la primera puerta.* f-droid.org con certificado y firma verificada: el APK del estante entra. El permiso de fuentes se da SOLO pa esta fuente — el teléfono pregunta y tú sabes qué estás abriendo: esta pieza entera es el porqué.
+
+*DÍA DOS — el cliente del estante.* Droid-ify del censo (placa: ★7.597 (censo 15-oct-2026), GPL-3.0, espejo declarado): el estante completo con cara limpia. El bautismo: la primera app de la serie instalada por el estante — buscada, leída la placa, instalada: la cadena de confianza completa en el primer toque.
+
+*DÍA TRES — la suscripción directa.* Obtainium del estante (placa: ★20.440 (censo 15-oct-2026), GPL-3.0, push del 14-oct): el repo de tu mueble de la serie más usado, suscrito. El bautismo: la actualización de fábrica llegando el día que sale — la puerta directa y su don.
+
+*DÍA CUATRO — la puerta anónima.* Aurora del estante (placa: ★3.122 (censo 15-oct-2026), GPL-3.0, push del 2-oct): la sesión anónima y la app del banco o del gobierno — lo que solo vive en la tienda ajena, sin tu nombre. Y el examen de llegada: al informe del portero (31) esa noche.
+
+*DÍA CINCO — la mudanza de la ruleta.* La lista honesta de tus APKs del grupo: cuáles viven en las puertas de la casa (mudan con vara: estante o suscripción), cuáles no tienen repo (muerten con dignidad o van a la anónima con examen). La ruleta se jubila con acta: la mudanza de puertas es la más barata de la serie.
+
+*DÍA SEIS — el acta de las puertas.* La nota-placa del taller: qué puertas, qué apps en cuál, las suscripciones de Obtainium, la fecha. La nota junto al expediente de la casa: la arquitectura de puertas es la llave de todas las piezas anteriores.
+
+*DÍA SIETE — la placa, otra vez.* Vuelve al censo con las puertas montadas: ¿las tres empujan? ¿La ruleta quedó fuera? ¿La lista de «qué app en qué puerta» está en el acta? El día que respondes sin ayuda, la casa cumplió: tu teléfono tiene arquitectura de entradas — cada app por su puerta, cada puerta con su firma, y la ruleta del grupo, fuera del barrio pa siempre.
+
+───────────────────
+
+*Y la regla de las puertas que la serie pide clavar en la puerta de la casa:* cada app por su puerta, cada puerta con su firma, la cadena de confianza empieza en un punto verificado — y lo que entra, entra bajo vara.
+
+───────────────────
+
+*🩺 LA SALUD DE LAS PUERTAS AL CORTE (el parte de las entradas)*
+
+El parte del 15-oct-2026: las tres puertas respirando — Obtainium empujando el 14-oct (aire de un día, el censo más fresco de la noche), Aurora el 2-oct, Droid-ify el 12-sep. La institución debajo, desde 2010, sin un solo mes de estante cerrado en quince años.
+
+El balance del parte: la sección del sistema llega a su quinta pieza con la salud más pareja de la serie — portero (31) con tres casas vivas, apoderado (33) con el censo más joven, consultorio (34) con la pareja en acta, y las puertas (35) con las tres entradas empujando. La lectura fina: el territorio del sistema es el de las ideas consolidadas — los muebles que tocan el teléfono viven en talleres maduros: nada de enchufes al día siguiente: la puerta que cuida las entradas no se improvisa.
+
+*📐 LA MEDIDA DE LAS PUERTAS (lo que el censo deja leer y no se ve)*
+
+Tres medidas finas de la noche.
+
+La primera: la generación de 2021-22. Las tres puertas nacidas en un lapso de diecisiete meses (mar-2021 Aurora, jul-2022 Droid-ify, ago-2022 Obtainium): el ecosistema decidió ordenar sus entradas en una misma generación — y cada taller resolvió UNA vara: el anonimato (Aurora), la cara (Droid-ify), la distancia taller-teléfono (Obtainium). Tres problemas, tres piezas, un semestre y medio. La medida fina: cuando un ecosistema madura, sus herramientas nacen en cohortes — y esta es la cohorte de las entradas.
+
+La segunda: la escala de adopción. Obtainium ★20.440 (censo 15-oct-2026): la estrella más alta de todo el bloque del sistema — por encima del portero entero. La lectura honesta: la puerta más joven del censo es la más adoptada — la suscripción directa no fue una apuesta: fue el deseo acumulado de quince años de esperas de compilación. El barrio votó con estrellas: quiere al día de fábrica.
+
+La tercera: la ley completa por tercera vez. 3/3 GPL-3.0 — portero (31), consultorio (34), puertas (35): el compás de la sección se afirma. La medida de la forja pa el bloque: cinco piezas del sistema (31-35), cuatro censos de ley completa — la sección del sistema es la firmada de la serie. La mitad del bloque queda pa medir — y la vara ya sabe qué esperar.
+
+=====S09=====
+*📻 LA SEGUNDA FILA (lo que quedó en la puerta de las puertas)*
+
+El corte honesto declara sus huecos — con motivo escrito:
+
+*La institución completa.* F-Droid entero (compilación, firmas, curación, la fundación) merece pieza propia — la serie la tiene en el mapa: el censo del estante con su vara institucional.
+
+*Las puertas del taller directo.* Codeberg, GitLab y los gits propios de los talleres (los espejos de FUTO (30) y Droid-ify): el territorio del bolsillo developer (126-140) — la pieza de hoy firmó la puerta del usuario; la del constructor viene después.
+
+*Las tiendas clónicas.* Las «F-Droid alternativas» de la web sin firma ni institución: pa la forja no existen como puertas — existen como el impostor con logo. La placa del censo (esta pieza) es el antídoto completo.
+
+*Los que no pasan la vara de origen.* Las «tiendas» del grupo con APKs reempaquetados, los modificadores de apps prometidos gratis, las puertas que piden la cuenta del teléfono pa «verificar»: pa la forja no existen — existen como el secuestro de la puerta. Y el letrero de la casa: la puerta que no se puede auditar, se atraviesa en la otra dirección.
+
+───────────────────
+
+*🎚 LAS PUERTAS EN TU DÍA A DÍA (cuatro rutinas del oficio callado)*
+
+*LA MAÑANA DE LA ACTUALIZACIÓN.* Las notificaciones de las puertas al desayuno: el estante curó algo nuevo, la suscripción trajo versión de fábrica. Un vistazo, un toque, y la casa al día — la actualización como la compra del pan: rutina de la mañana, no odyssey del grupo.
+
+*LA SEMANA DE LA APP NUEVA.* Cada app nueva entra por SU puerta con vara: estante pa lo curado, suscripción pa lo verificado, anónima pa lo único ajeno — y al informe del portero (31) la primera noche. La regla de la semana: ninguna app entra por la acera.
+
+*EL MES DE LA LISTA.* La revisión del acta de puertas: ¿qué app está en qué puerta? ¿alguna duplicada? ¿alguna suscripción a repo que ya no verifico? Quince minutos — la arquitectura se poda como el escritorio (30).
+
+*EL AÑO DE LA INSTITUCIÓN.* Una vez al año: el censo de las puertas contra la serie nueva — ¿la institución sigue? ¿salió puerta nueva con placa? ¿los repos de las suscripciones siguen verificados? El año de las puertas es el que re-firma la cadena de confianza completa — una tarde al año pa dormir tranquilo los 364 días restantes.
+
+───────────────────
+
+*🧵 GENEALOGÍAS DE LAS PUERTAS*
+
+La línea de sangre de las puertas: la institución nace en 2010 — cuando instalar libre en Android era un acto de fe en archivos sueltos, y un grupo de voluntarios decidió COMPILAR y FIRMAR el catálogo entero: el estante que hizo posible todo lo demás. La generación de 2021-2022 creció en ese estante: Aurora (marzo de 2021) resolvió el anonimato, Droid-ify (julio de 2022) resolvió la cara, y Obtainium (agosto de 2022) resolvió el problema más viejo de todos: la distancia entre el taller y el teléfono — la suscripción directa que le quitó a la tienda el monopolio de la actualización.
+
+La cadena de las puertas en una línea: la institución compiló (2010), la generación nueva diseñó las entradas (2021-22), y el barrio de esta noche hereda la arquitectura completa con tres placas y una vara. La genealogía más útil de la serie: la que se usa cada vez que algo entra al teléfono.
+
+───────────────────
+=====S10=====
+*📦 LA DESPENSA DE LAS PUERTAS (tus entradas, ordenadas como gente)*
+
+*EL ACTA DE PUERTAS.* La lista de «qué app en qué puerta»: el documento de la arquitectura — junto al expediente de la casa. El teléfono con acta de puertas no tiene enredaderas.
+
+*LAS TRES PUERTAS, UNA PANTALLA.* La carpeta del escritorio (30) con las tres puertas juntas: el estante, la suscripción, la anónima — la arquitectura visible. La puerta que se ve, se usa; la que se esconde, se olvida — y las apps se actualizan a mano, llorando.
+
+*LA CADENA DE CONFIANZA ESCRITA.* La nota del punto de partida: la web del estante (con su firma) y los repos de la serie verificados — el documento que cualquier familiar puede seguir pa armar su propia arquitectura. La cadena de confianza escrita se hereda — como las llaves del tronco.
+
+*Y LA REGLA APRENDIDA.* Las puertas se administran con la vara de la casa: tres firmadas, una fuente por app, examen de llegada pa lo ajeno — y la ruleta fuera. Quince piezas de la serie y la misma vara: las puertas la aplican a la entrada — la casa entera, app por app, con firma y con acta.
+
+───────────────────
+
+*🪧 EL CARTEL DE LAS PUERTAS*
+
+Clávalo en la puerta de la casa:
+
+*Cada app por su puerta — estante pa lo curado, suscripción pa lo verificado, anónima pa lo único ajeno.*
+
+*La primera puerta se cruza una vez: web oficial, certificado, firma — se cruza bien.*
+
+*Una app, una fuente — la enredadera de puertas se arregla con lista.*
+
+*Lo que entra por la anónima, examen de llegada — la puerta no audita: audita el portero.*
+
+*Y la ruleta del grupo no es una puerta — es la calle. La casa tiene arquitectura.*
+
+───────────────────
+
+*😄 EL MEME DE LA CASA*
+
+— El grupo de siempre: *«bájate este APK, está buenísimo, te lo juro que es la versión pro»* 🎲
+
+— La ruleta del grupo, girando: *¿taller real? ¿impostor? ¿con qué firma? ¿qué lleva adentro? nadie sabe* 🕳
+
+— Obtainium, con ★20.440 (censo 15-oct-2026) y la suscripción al repo verificado: *la actualización del taller, el mismo día, con su firma* 🚪
+
+— Yo, con tres puertas firmadas y cero APKs sueltos: 😌
+
+*Moral del meme, chin chin:* el APK del grupo es la lotería al revés: pierde el que juega. La arquitectura de puertas cuesta una tarde, cobra nada, y cada app que entra trae su firma — la lotería se juega con la acera; la casa, con varas, chin chin.
+=====S11=====
+*🎯 EL MINIQUIZ DE LAS PUERTAS*
+
+Cinco preguntas de la pieza. Las respuestas van AL REVÉS al pie (leídas de atrás para adelante), para que nadie las palmee sin pensarse el plato.
+
+*LAS PREGUNTAS:*
+
+1) ¿Qué puerta trae las actualizaciones directas del taller y qué placa trae?
+
+2) ¿Qué es la institución del ecosistema y desde cuándo?
+
+3) ¿Qué puerta anónima y qué NO hace?
+
+4) ¿Por qué las tres puertas traen GPL-3.0?
+
+5) ¿Cuál es la regla de una app y sus fuentes?
+
+*Respuestas al revés (léelas de atrás para adelante):*
+
+>>>REV>>> 1=Obtainium: ★20.440 al pulso del 15-oct-2026, GPL-3.0, push del 14-oct — la suscripción directa
+
+>>>REV>>> 2=F-Droid, el estante desde 2010: compila, firma y cura el catálogo de miles de apps libres
+
+>>>REV>>> 3=Aurora Store (★3.122 (censo 15-oct-2026), GPL, push del 2-oct): anonimato pa lo público — lo pagado no lo toca
+
+>>>REV>>> 4=la puerta que no se audita es el grupo con cara bonita — el distribuidor firma público por diseño
+
+>>>REV>>> 5=una app, una fuente: la enredadera de puertas se arregla con lista, no con pánico
+
+(Las respuestas correctas —de arriba abajo— son: Obtainium la suscripción directa; F-Droid la institución del estante; Aurora la anónima pa lo público; la GPL la ley del distribuidor; y una-fuente-por-app la regla de la arquitectura.)
+
+───────────────────
+
+*💌 LAS CARTAS AL LECTOR*
+
+*PRIMERA CARTA — al que vive de APKs del grupo.*
+
+Esta pieza te muestra la salida más barata de toda la serie: la ruleta del grupo se jubila en una tarde — el estante, la suscripción y la anónima cubren TODO lo que cubrían los veinte archivos sueltos, con firma y sin lotería. Y el detalle que nadie cuenta: después de la mudanza, las actualizaciones llegan SOLAS — el oficio de las puertas es el que descansa.
+
+*SEGUNDA CARTA — a los talleres de las tres puertas.*
+
+El censo de esta noche los firma como la arquitectura viva del ecosistema: ★20.440 (censo 15-oct-2026), ★7.597 (censo 15-oct-2026) y ★3.122 (censo 15-oct-2026) — tres talleres que resolvieron la entrada de las apps con leyes completas y push vivo. La forja firma el espejo de Droid-ify con el matiz de la casa (honestidad declarada) y re-mide todo en el censo próximo. Las puertas de la casa libre: en las mejores manos desde 2021.
+
+*TERCERA CARTA — al que nota que esta pieza es la llave de todas las demás.*
+
+Exacto — y por eso cierra este tramo del bloque: las catorce piezas anteriores firmaron «del repo o tienda legal» y esta firmó QUÉ es eso. La serie se lee en cualquier orden, pero esta pieza y la 01 son las dos llaves: la vara y la puerta. El que las tiene, entra a cualquier pieza de la casa sin miedo — y las otras treinta y tres son el catálogo de la casa, esperando.
+
+───────────────────
+
+*🪡 LA ÚLTIMA AGUJA (cosida al pie, como la casa cose)*
+
+Si estas puertas sirvieron para algo más que leer, fue para esto: dejar escrito que la entrada de las apps tiene arquitectura con placa — Obtainium la suscripción directa empujando el 14-oct, Droid-ify el estante limpio con su espejo honesto, Aurora la anónima de la tienda grande — y una institución de 2010 compilando debajo de todo.
+
+La forja lo midió con el censo de la tarde y el pulso de la noche del mismo día en que nace esta pieza, y lo firma: cada app por su puerta, cada puerta con su firma, una fuente por app — y la ruleta fuera. El corte honesto no sabe a todo — sabe a lo que sabe, y lo que sabe lo deja con acta.
+
+Cruza tu primera puerta bien. Suscríbete a tu taller de siempre. Examina lo que entre por la anónima. Y cuando el teléfono amanezca con las actualizaciones del taller solas, recuerda: no cambiaste de apps — cambiaste de puertas. Eso no lo vende el grupo: se arma con GPL, y dura años.
+
+───────────────────
+
+```
+ PULSO AL CORTE — 15-OCT (censo tarde + pulso nocturno, mapa vivo #10)
+ 35 piezas WA · bloque sistema (31-40) · censo vivo 5.684 repos
+ obtainium ★20.440 (censo 15-oct-2026) GPL nacida 11-ago-2022 · push 14-oct-2026 · suscripción directa
+ droid-ify ★7.597 (censo 15-oct-2026) GPL (espejo codeberg) · aurora ★3.122 (censo 15-oct-2026) GPL push 2-oct · 3×GPL-3.0
+```
+```
+ PULSO AL CORTE — 15-OCT (segunda caja)
+ institución: f-droid 2010 · compila-firma-cura el estante · la primera puerta de la casa
+ la llave de la serie: esta pieza + la 01 = vara y puerta · el resto es catálogo
+ leyes de las puertas: una fuente por app · examen de llegada · la ruleta fuera
+```
+
+#LaBandita #LaPuertaDeLasApps #Obtainium #FDroid #FOSS #DominicanoES
+
+=====GLOS=====
+Puerta|El mueble por donde entran las apps: tres firmadas al censo — estante, suscripción, anónima. La arquitectura de entradas de la casa libre.
+Suscripción directa|Obtainium y su don: las actualizaciones desde el repo del taller, el mismo día. La puerta que le quitó a la tienda el monopolio de la actualización.
+Estante|F-Droid: la institución de 2010 que compila, firma y cura el catálogo. El suelo de la arquitectura — la primera puerta de la casa.
+Cliente|La cara del estante: Droid-ify (limpio y moderno) o el oficial de siempre. Mismo catálogo curado, distinta piel.
+Puerta anónima|Aurora Store: lo que solo vive en la tienda grande, descargado sin tu cuenta — sesiones anónimas compartidas. Lo pagado no lo toca.
+Examen de llegada|Lo que baja por la anónima, al informe del portero (31) esa noche. La puerta no audita — audita el portero.
+Cadena de confianza|El punto de partida verificado: la web del estante con su firma, o el repo de la serie. Empieza en UN punto — esta pieza lo es.
+Firma del APK|La llave del taller en el paquete: Obtainium la verifica entre versiones — la firma que cambia avisa. El formato no dice nada; la cadena lo dice todo.
+APK suelto|El del grupo: la ruleta — ¿taller real? ¿impostor? ¿qué lleva adentro? No es una puerta: es la calle.
+Compilación|Lo que la institución hace: construye la app desde su código y la firma el estante. La puerta con más revisión por app del mundo libre — y a veces la más lenta.
+Espejo declarado|El de Droid-ify (casa oficial en Codeberg) y el de FUTO (30): honestidad anotada en la placa. La vara mide lo que hay.
+Una fuente|La regla de la arquitectura: una app, una puerta de actualización. La enredadera se arregla con lista — el acta de puertas.
+Acta de puertas|La lista de «qué app en qué puerta» en la nota del taller: el documento de la arquitectura. La enredadera no vuelve.
+Impostor de puerta|El clónico de la web ajena, la «Pro» de la tienda: roba TODAS las instalaciones futuras. El peor de la serie — la placa del censo lo desmonta.
+Ruleta|La del grupo: veinte APKs sueltos, tres antivirus, un teléfono lento. La mudanza de puertas la jubila con acta — la mudanza más barata de la serie.
+Descubrir|La faena del estante: buscar por categoría y encontrar lo verificado. Su vara es la curación — no la velocidad.
+Seguir|La faena de la suscripción: los muebles de la serie al día de fábrica. Su vara es tu verificación del repo — ella no curación: sigue.
+Flota chica|Los teléfonos del negocio con Obtainium y sus repos: las actualizaciones que llegan solas en el café de la mañana. La suscripción directa de la empresa pequeña.
+Versión de fábrica|La que el taller publica en su repo: al día, con su firma. Legítima como la curada — cada mueble, su puerta.
+Arquitectura|Lo que la serie llama al conjunto: tres puertas, una fuente, examen de llegada, acta escrita. La llave de todas las piezas — se lee segunda, después de la 01.
+
+Cohorte de entradas|La generación de 2021-22: tres puertas nacidas en diecisiete meses, cada una resolviendo una vara — anonimato, cara, distancia. Cuando un ecosistema madura, sus herramientas nacen en cohortes.
+Re-enruta|Lo que la arquitectura hace cuando un taller muere: la suscripción se calla, el estante hereda. La puerta no se rompe — cambia de piso.
+Teléfono heredado|El regalado sin cuenta del dueño viejo: Aurora lo actualiza sin contraseña. La herencia más barata de arreglar — una tarde de puertas.
+Actualizador|El APK mensual del grupo que «mantiene» la app: el impostor de puerta con calendario. La placa del censo lo desmonta en la primera lectura.
+Compás|La ley completa de la sección: cuatro censos GPL en cinco piezas del sistema (31-35). La sección firmada de la serie — la vara ya sabe qué esperar.
+Al día de fábrica|Lo que quiere el barrio, votado con estrellas: la versión del taller el mismo día. Obtainium la trae — la apuesta de 2022 que ganó el censo entero.
+Sin cuenta|El don de Aurora: sesiones anónimas compartidas — la app sin tu nombre ni tu correo. El teléfono heredado también se actualiza: la puerta que no pregunta quién eres.
+Recomendación mínima|Una puerta se monta en veinte minutos: el estante. Las otras dos se suman cuando la vida las pide — la arquitectura crece por pisos, no por miedo.
+Se mantiene sola|Cada puerta actualiza a las otras: Obtainium suscrito a los repos de Droid-ify y Aurora, el estante curando a las tres. La casa que se barre con su propia escoba.

@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="La caja de oficio del teléfono: archivos, terminal y la copia que cambió de dueño">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>La caja de oficio del teléfono: archivos, terminal y la copia que cambió de dueño</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "La caja de oficio del teléfono: archivos, terminal y la copia que cambió de dueño", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "1 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>La caja de oficio del teléfono: archivos, terminal y la copia que cambió de dueño</h1>
+<p class="meta">Facebook · 1 de noviembre de 2026 · 41,590 caracteres</p>
+<p><em>La caja de oficio del teléfono: archivos, terminal y la copia que cambió de dueño</em></p>
+<p><em>La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 09 de Facebook</em></p>
+<p><em>🗺️ Mapa de esta guía</em></p>
+<pre>
+├── ⚡ En una página
+├── 🎬 Seis escenas del barrio
+├── 🧾 El censo de hoy
+├── 📁 Archivos: tres maneras de abrir una carpeta
+├── ⌨️ El terminal que no es una app
+├── 📝 Texto, PDF y las cuentas
+├── 🖥️ La mesa y el teléfono: la copia que cambió de dueño
+├── 🛠️ Armar la caja en siete pasos
+├── ⚖️ La ley, sin sermón
+├── ❓ Preguntas que me hacen
+├── 📊 Tabla, mitos y glosario
+└── 🔗 Enlaces y notas del corte
+</pre>
+<p>───────────────────</p>
+<p><em>⚡ En una página</em></p>
+<p>Hay un grupo de programas de teléfono que casi nadie comenta porque no hacen ruido: el que abre la carpeta, el que descomprime el archivo, el que lee el PDF del banco, el que apunta la lista del colmado, el que pasa la foto a la computadora. No son apps de moda. Son la caja de oficio, y cuando fallan se nota de inmediato porque el día se detiene.</p>
+<p>Esta mañana medí dieciocho de esos proyectos, cada uno leído tres veces por tres caminos distintos. El orden salió así: LocalSend con ★96.908, Termux con ★63.872, sus paquetes con ★17.282, AppManager con ★9.399, Material Files con ★9.370, Acode con ★7.612, Amaze con ★6.450, Markor con ★6.363. Y debajo una fila de proyectos chicos que igual responden: Fossify, PdfViewer, Termux X11, Omni-Notes, OpenCalc, KDE Connect, libadb.</p>
+<p>Lo que encontré hoy no es una novedad brillante sino una costumbre sana: casi todo lo que sirve en esta caja es licencia GPL y casi todo se publica en la forja, no en una tienda. Y dentro de eso hay una historia que vale contar entera, la de Syncthing en Android: la aplicación oficial quedó archivada el 3 de diciembre de 2024, con su último empujón en esa fecha, y una bifurcación mantiene el trabajo vivo desde entonces, empujando hoy mismo.</p>
+<p>También hay dos huecos que se publican tal cual. Termux y Termux API aparecen en su ficha sin una licencia que GitHub identifique, y AppManager lo mismo; en los tres casos el README sí declara GPL-3.0 y eso es lo que se escribe, sin escoger el dato que queda más limpio. Un proyecto que no se deja medir no se maquilla: se anota el hueco.</p>
+<p>La idea que hay que llevarse: la caja de oficio no se elige por estrellas sino por edad y por firma. Un programa que lleva años resolviendo lo mismo, con su código a la vista y con alguien empujándolo este mes, vale más que una app nueva con capturas bonitas. Y si un día el autor archiva el repositorio, todavía puedes seguir usando lo que ya tienes y buscar quién heredó el trabajo.</p>
+<p>───────────────────</p>
+<p><em>🎬 Seis escenas del barrio</em></p>
+<p><strong>La carpeta que no se abre.</strong> Un cliente baja un comprobante en PDF y el teléfono dice que no tiene aplicación para abrirlo. No es que el archivo esté dañado: es que el teléfono vino sin lector de PDF y sin gestor de archivos que lo reconozca. Se resuelve instalando un lector de PDF y un gestor de archivos, dos piezas de esta caja, y desde ese día el teléfono sirve para trabajar y no solo para conversar.</p>
+<p><strong>El ZIP del contador.</strong> Llega por WhatsApp un archivo comprimido con las facturas del mes. El gestor que trae el sistema a veces lo abre y a veces se queda mirando. Amaze y Material Files lo abren, lo descomprimen y muestran la lista adentro; también saben mirar dentro de un APK, que es un ZIP con otro nombre, sin instalarlo.</p>
+<p><strong>La memoria llena.</strong> El teléfono avisa que no queda espacio y la persona borra fotos a la carrera. Lo que hay que mirar primero es dónde está el peso: casi siempre en la carpeta de descargas y en los audios reenviados. Un gestor con búsqueda por tamaño y con vista de carpetas ocultas resuelve en cinco minutos lo que a ciegas toma una tarde.</p>
+<p><strong>El teléfono que no es mío.</strong> Alguien hereda un aparato y quiere saber qué tiene instalado, qué permisos pidió cada app y qué se puede quitar sin romper nada. Ahí entra AppManager: lista paquetes, permisos, servicios, receptores y rastreadores, y con la conexión de depuración por cable o por inalámbrico puede hacer más cosas sin necesidad de root.</p>
+<p><strong>La nota que se pierde.</strong> Una señora apunta las recetas en una app que sincroniza con la nube de otro y un día le cambian las condiciones. Markor guarda en texto plano, dentro de una carpeta del propio teléfono: si mañana se acaba el programa, las notas siguen ahí, legibles con cualquier cosa.</p>
+<p><strong>Los dos teléfonos de la casa.</strong> La hija manda cincuenta fotos del cumpleaños y el chat las comprime hasta que no se ven. LocalSend pasa los archivos completos entre teléfono y computadora por la misma red de la casa, sin cuenta, sin nube y sin instalar nada en la computadora más que el mismo programa.</p>
+<p>───────────────────</p>
+<p><em>🧾 El censo de hoy</em></p>
+<p>Dieciocho proyectos, leídos tres veces cada uno: por el buscador de la forja, por la página del repositorio y por el archivo crudo del README. Las estrellas, la licencia, el lenguaje y el último empujón son de esta mañana. Donde las tres lecturas no coincidieron, el renglón lo dice.</p>
+<p><em>Los tres que abren carpetas</em></p>
+<ul>
+<li><strong>Material Files</strong> — gestor de archivos con diseño material, root y acceso por FTP y SFTP ★9.370 · licencia GPL-3.0 · Kotlin · empujó el 15-oct (hace 17 días) · release v1.7.5 (20-sep) · <a href="https://github.com/zhanghai/MaterialFiles">https://github.com/zhanghai/MaterialFiles</a></li>
+<li><strong>Amaze</strong> — gestor veterano con soporte de comprimidos, SMB y root ★6.450 · licencia GPL-3.0 · Kotlin · empujó el 31-oct (hace 1 día) · release v3.11.4 (15-oct) · <a href="https://github.com/TeamAmaze/AmazeFileManager">https://github.com/TeamAmaze/AmazeFileManager</a></li>
+<li><strong>Fossify File Manager</strong> — la bifurcación de la familia Simple Mobile Tools, sin anuncios y sin permisos de más ★1.846 · licencia GPL-3.0 · Kotlin · empujó hoy · release 1.6.3 (24-oct) · <a href="https://github.com/FossifyOrg/File-Manager">https://github.com/FossifyOrg/File-Manager</a></li>
+</ul>
+<p><em>Los del terminal</em></p>
+<ul>
+<li><strong>Termux</strong> — emulador de terminal con su propio gestor de paquetes ★63.878 · licencia NOASSERTION en la ficha · Java · empujó el 26-sep (hace 36 días) · release v0.118.3 (22-may-2025) · <a href="https://github.com/termux/termux-app">https://github.com/termux/termux-app</a></li>
+<li><strong>Termux packages</strong> — el sistema que construye y firma los paquetes del terminal ★17.283 · licencia NOASSERTION en la ficha · Shell · empujó hoy · release bootstrap de hoy mismo · <a href="https://github.com/termux/termux-packages">https://github.com/termux/termux-packages</a></li>
+<li><strong>Termux API</strong> — el puente entre el terminal y el aparato: cámara, batería, portapapeles, sensores ★4.567 · sin licencia declarada en la ficha · Java · empujó el 17-sep (hace 45 días) · release v0.53.0 (01-sep-2025) · <a href="https://github.com/termux/termux-api">https://github.com/termux/termux-api</a></li>
+<li><strong>Termux X11</strong> — servidor gráfico para correr programas de escritorio dentro del terminal ★5.068 · licencia GPL-3.0 · C · empujó el 27-oct (hace 5 días) · última compilación nightly del 27-oct · <a href="https://github.com/termux/termux-x11">https://github.com/termux/termux-x11</a></li>
+</ul>
+<p><em>Los que mueven archivos entre aparatos</em></p>
+<ul>
+<li><strong>LocalSend</strong> — el que pasa archivos por la red de la casa, sin cuenta ni nube ★96.921 · licencia Apache-2.0 · Dart · empujó el 29-oct (hace 3 días) · release v1.18.2 (21-ago) · <a href="https://github.com/localsend/localsend">https://github.com/localsend/localsend</a></li>
+<li><strong>Syncthing (oficial)</strong> — la aplicación oficial, <strong>archivada</strong> desde el 3 de diciembre de 2024 ★4.293 · licencia MPL-2.0 · Java · último empujón 03-dic-2024 (hace 698 días) · última release 1.28.1 (03-dic-2024) · <a href="https://github.com/syncthing/syncthing-android">https://github.com/syncthing/syncthing-android</a></li>
+<li><strong>Syncthing-Fork</strong> — la bifurcación que siguió cuando la oficial se archivó, con su propio nombre y su propio ciclo de versiones ★3.220 · licencia MPL-2.0 · Java · empujó hoy · release v2.1.7.0 (21-oct) · <a href="https://github.com/Catfriend1/syncthing-android">https://github.com/Catfriend1/syncthing-android</a></li>
+</ul>
+<p><em>Los de texto, papeles y cuentas</em></p>
+<ul>
+<li><strong>Markor</strong> — editor de texto y de Markdown que guarda en carpetas normales del teléfono ★6.363 · licencia NOASSERTION en la ficha · Java · empujó el 30-oct (hace 2 días) · release v2026.10.0 (25-oct) · <a href="https://github.com/gsantner/markor">https://github.com/gsantner/markor</a></li>
+<li><strong>Acode</strong> — editor de código en el teléfono, con resaltado y extensiones ★7.615 · licencia MIT · JavaScript · empujó el 30-oct (hace 2 días) · release v1.13.5 (13-sep) · <a href="https://github.com/Acode-Foundation/Acode">https://github.com/Acode-Foundation/Acode</a></li>
+<li><strong>PdfViewer</strong> — lector de PDF del proyecto GrapheneOS, construido sobre pdf.js y sin pedir un solo permiso ★1.062 · licencia MIT · Kotlin · empujó el 28-oct (hace 4 días) · release 33 (30-jul) · <a href="https://github.com/GrapheneOS/PdfViewer">https://github.com/GrapheneOS/PdfViewer</a></li>
+<li><strong>Omni-Notes</strong> — bloc de notas con recordatorios y búsqueda, de los que ya tienen años ★2.807 · licencia GPL-3.0 · Java · empujó el 22-oct (hace 10 días) · release 6.5.1 (22-oct) · <a href="https://github.com/FedericoIOSue/Omni-Notes">https://github.com/FedericoIOSue/Omni-Notes</a></li>
+<li><strong>OpenCalc</strong> — calculadora con historial, sin anuncios ★1.544 · licencia GPL-3.0 · Kotlin · empujó el 10-jul (hace 114 días) · release v3.2.1 (21-sep-2025) · <a href="https://github.com/Darkempire78/OpenCalc">https://github.com/Darkempire78/OpenCalc</a></li>
+</ul>
+<p><em>Los que miran dentro del aparato</em></p>
+<ul>
+<li><strong>AppManager</strong> — gestor de paquetes completo: permisos, servicios, rastreadores y auditoría ★9.399 · licencia NOASSERTION en la ficha y GPL-3.0 en su README · Java · empujó el 30-oct (hace 2 días) · release v4.1.1 (04-sep) · <a href="https://github.com/MuntashirAkon/AppManager">https://github.com/MuntashirAkon/AppManager</a></li>
+<li><strong>libadb-android</strong> — la biblioteca de depuración que AppManager usa para hablar con el sistema sin root ★415 · licencia NOASSERTION en la ficha y GPL-3.0 en su README · Java · empujó el 03-jun (hace 151 días) · release 3.1.1 sin fecha publicada · <a href="https://github.com/MuntashirAkon/libadb-android">https://github.com/MuntashirAkon/libadb-android</a></li>
+</ul>
+<p><em>El puente con la computadora</em></p>
+<ul>
+<li><strong>KDE Connect</strong> — avisos, portapapeles y archivos entre el teléfono y la computadora de la casa ★1.494 · licencia GPL-2.0 · Kotlin · empujó el 31-oct (hace 1 día) · release v1.37.0 sin fecha en la ficha · <a href="https://github.com/KDE/kdeconnect-android">https://github.com/KDE/kdeconnect-android</a></li>
+</ul>
+<p><em>Lo que el censo dice en tres líneas.</em> Trece de los dieciocho empujaron en los últimos quince días y cinco empujaron hoy mismo, cosa rara en un grupo de programas que nadie promociona. Cuatro fichas no identifican su licencia —Termux, sus paquetes, su API y AppManager— y en dos de esos casos el README sí la declara. Y en el grupo hay un repositorio archivado que sigue teniendo más estrellas que su sucesor vivo, que es exactamente lo que pasa cuando una herramienta se jubila sin que el vecindario se entere.</p>
+<p>───────────────────</p>
+<p><em>📁 Archivos: tres maneras de abrir una carpeta</em></p>
+<p>Un gestor de archivos parece lo mismo que otro hasta que se rompe el del sistema y no hay con qué entrar. Los tres de esta lista hacen lo mismo por dentro —leer carpetas, copiar, mover, borrar, compartir— y se diferencian en cómo tratan los permisos, los comprimidos y las carpetas que el teléfono esconde.</p>
+<p>Material Files es el más limpio de los tres. Empujado el 15 de octubre con la versión v1.7.5 del 20 de septiembre, tiene ★9.370 y una interfaz que no discute: pestañas por almacenamiento, vista de lista o de cuadrícula, y una opción de acceso remoto por FTP y SFTP que resuelve el caso de mandar un archivo a la computadora sin cable. Su manejo de root es explícito: si el aparato está rooteado, avisa y pide permiso; si no, no insiste. También abre comprimidos y mira dentro de un APK sin desempacar todo.</p>
+<p>Amaze lleva más años y se le nota en la cantidad de cosas que sabe hacer: ★6.450, empujón de ayer y versión v3.11.4 del 15 de octubre. Trabaja con SMB para las carpetas compartidas de Windows, con comprimidos de varios formatos y con acceso root cuando lo hay. Ofrece además un módulo de utilidades para analizar qué ocupa espacio, que en teléfonos de 32 GB es la función que más se agradece. Su interfaz tiene más botones que la de Material Files, y eso es una preferencia, no un defecto.</p>
+<p>Fossify File Manager es el más chico en estrellas —★1.846— y el más interesante en su historia. La familia Simple Mobile Tools, muy conocida en el vecindario por sus apps sin anuncios, fue vendida en 2024 a un comprador que empezó a meter publicidad y servicios de terceros. Varios de sus colaboradores abrieron entonces la organización Fossify y publicaron las mismas herramientas con la licencia original intacta, GPL-3.0. Este repositorio empujó hoy mismo y su versión 1.6.3 es del 24 de octubre. Es la prueba de que una bifurcación no es un capricho: es la forma en que la comunidad conserva lo que otro decidió cambiar.</p>
+<p>Los tres piden permisos parecidos y ninguno necesita cuenta. La diferencia práctica aparece en tres momentos: cuando hay que entrar a la carpeta de datos de otra aplicación —solo con root o con la depuración activada—, cuando hay que abrir un comprimido de varios gigas, y cuando hay que mover dos mil fotos sin que el teléfono se caliente. Para lo primero, Material Files y Amaze; para lo segundo, Amaze tiene más formatos; para lo tercero, cualquiera de los tres sirve si se hace por tandas y no de golpe.</p>
+<p>Una advertencia que vale para los tres: gestionar archivos es la operación más peligrosa que se hace en un teléfono sin darse cuenta. Un borrado en la carpeta equivocada no se deshace y la papelera del sistema no siempre está. Antes de mover una carpeta grande conviene copiar, no cortar, y confirmar el destino. El programa no tiene culpa de que el dedo vaya rápido.</p>
+<p>───────────────────</p>
+<p><em>⌨️ El terminal que no es una app</em></p>
+<p>Termux no es una aplicación más: es una distribución de Linux metida dentro del teléfono, con su propio gestor de paquetes, su propio árbol de carpetas y su propio usuario. Con ★63.872 es el segundo proyecto más grande de este censo y, sin embargo, la mayoría de la gente que lo tiene instalado no pasa del primer comando.</p>
+<p>El dato que más importa hoy es de mantenimiento, no de funciones. La aplicación principal empujó el 26 de septiembre y su última versión publicada es la v0.118.3 del 22 de mayo de 2025: quien mire solo ese número va a pensar que el proyecto está quieto. No lo está. Lo que se mueve todos los días es Termux packages, con ★17.282, que empujó hoy mismo y publicó un bootstrap nuevo con fecha de hoy. Ahí vive el trabajo: cientos de paquetes compilados para Android, con sus parches, y una firma de repositorio que se renueva cuando toca.</p>
+<p>Esa separación explica por qué la aplicación casi no cambia. El motor de paquetes hace el trabajo pesado; la app es la ventana. Y también explica un problema clásico: la versión que se instalaba desde Google Play dejó de actualizarse por las reglas de la tienda sobre ejecutables, y las versiones buenas se publican en la forja y en F-Droid. Un Termux instalado desde la tienda de Google y otro instalado desde el APK de la forja no comparten firma y, por lo tanto, no se pueden actualizar entre sí ni compartir paquetes. Antes de instalar, hay que decidir por dónde se entra, porque cambiarse después implica perder el entorno.</p>
+<p>Termux API, con ★4.567, es otra app y no un paquete: expone el aparato al terminal. Con ella, un comando lee la batería, otro toma una foto, otro copia al portapapeles y otro vibra el teléfono. Su ficha no declara licencia y eso se anota; su último empujón es del 17 de septiembre y su release v0.53.0 es del 1 de septiembre de 2025. Sin embargo es la pieza que hace que un script pueda reaccionar al mundo real, y por eso aparece en tantos inventos caseros: respaldos automáticos al cargar, avisos por notificación, registros de sensores.</p>
+<p>Termux X11 es el salto siguiente: ★5.066, licencia GPL-3.0, empujón del 27 de octubre y compilaciones nightly en vez de versiones con número. Lo que hace es abrir un servidor gráfico para correr programas de escritorio dentro del teléfono, con teclado y ratón si se conectan por Bluetooth o por cable. No es para todos los días y consume batería como una linterna encendida, pero permite usar un editor de escritorio o una herramienta de línea de órdenes con interfaz sin comprar nada.</p>
+<p>Lo que hay que entender antes de entrar: el terminal da permisos que ninguna otra app da, y también borra con la misma facilidad con que crea. Un <code>rm</code> mal escrito no pregunta. La defensa es la de siempre: trabajar dentro de la carpeta propia, hacer respaldo de lo importante y desconfiar de los comandos copiados de internet que empiezan por <code>curl</code> y terminan en <code>sh</code>, porque eso es ejecutar guion ajeno sin leerlo.</p>
+<p>───────────────────</p>
+<p><em>📝 Texto, PDF y las cuentas</em></p>
+<p>Cuatro programas que se usan a diario sin pensar en ellos, y un quinto que casi nadie instala hasta que el teléfono no abre el estado de cuenta del banco.</p>
+<p>Markor es la pieza más importante de este grupo aunque sea la menos vistosa: ★6.363, empujón del 30 de octubre, versión v2026.10.0 del 25 de octubre, y una ficha que no identifica su licencia. Escribe texto plano y Markdown, guarda en una carpeta normal del almacenamiento y admite listas de tareas en formato todo.txt. Su ventaja no es la interfaz, es el formato: lo que se escribe ahí se puede abrir con el editor de la computadora, con un correo o con cualquier programa dentro de veinte años. Una nota guardada en una app que sincroniza con la nube de otro depende de que ese otro siga existiendo; una nota en <code>.md</code> no depende de nadie.</p>
+<p>Acode va un paso más allá: ★7.612, licencia MIT, v1.13.5 del 13 de septiembre, empujón de anteayer. Es un editor de código en el teléfono, con resaltado por lenguaje, búsqueda y reemplazo, y extensiones para cosas concretas. Sirve para editar el archivo de configuración de una app, para revisar un JSON que llegó mal, para escribir un guion corto. Con Termux al lado se vuelve una pareja razonable: uno escribe, el otro ejecuta.</p>
+<p>PdfViewer es la respuesta al caso del principio. Lo publica el equipo de GrapheneOS, tiene ★1.062, licencia MIT, y su descripción es casi una declaración de principios: está construido sobre pdf.js y content providers y no pide ningún permiso. Su versión 33 es del 30 de julio y empujó el 28 de octubre. Que no pida permisos significa que no puede leer nada que no le abras, ni tocar la red, ni ver la lista de contactos. Para abrir el comprobante del banco y el manual del ventilador, sobra.</p>
+<p>Omni-Notes tiene ★2.807 y es de la vieja escuela: GPL-3.0, Java, release 6.5.1 del mismo 22 de octubre en que empujó. Recordatorios, búsqueda por texto, etiquetas y adjuntos, todo dentro del teléfono si así se quiere. No es tan flexible como Markor, pero es más cómoda para quien no quiere aprender Markdown, y el respaldo se puede hacer exportando a un archivo.</p>
+<p>OpenCalc cierra la fila con ★1.544 y una GPL-3.0 que no admite discusión. Su último empujón es del 10 de julio y su release v3.2.1 es de septiembre de 2025: es el más quieto del censo y también el que menos necesita cambiar, porque una calculadora que suma bien no tiene prisa. Historial, temas y funciones científicas, sin anuncios ni compras dentro de la app.</p>
+<p>El orden de instalación que mejor funciona no es el alfabético: primero el lector de PDF, porque sin él medio teléfono se queda sin abrir papeles; después la calculadora y el bloc de notas, que son los que más se usan; y al final el editor de texto y el de código, que son de trabajo y no de urgencia.</p>
+<p>───────────────────</p>
+<p><em>🖥️ La mesa y el teléfono: la copia que cambió de dueño</em></p>
+<p>Entre el teléfono y la computadora pasan tres cosas: archivos, avisos y copias de respaldo. Para cada una hay un programa distinto y conviene no confundirlos.</p>
+<p><strong>Archivos sueltos: LocalSend.</strong> ★96.908, licencia Apache-2.0, Dart, empujón del 29 de octubre y versión v1.18.2 del 21 de agosto. Funciona así: los dos aparatos están en la misma red, uno abre la app, el otro la abre, se ven, se elige el archivo y se manda. No hay cuenta, no hay servidor en medio, no hay límite de tamaño más allá del disco. Su ventaja sobre el chat es la misma que sobre la nube: el archivo llega completo y no pasa por nadie. Su límite es igual de claro: si no están en la misma red, no hay milagro. En un teléfono con datos móviles y la computadora en la casa, no sirve.</p>
+<p><strong>Avisos y portapapeles: KDE Connect.</strong> ★1.494, GPL-2.0, empujón de ayer y versión v1.37.0 sin fecha en la ficha, cosa que se anota. Empareja el teléfono con la computadora por la red local y desde entonces los avisos del teléfono aparecen en la pantalla grande, el portapapeles se comparte y se pueden mandar archivos con dos clics. También sirve de control remoto para el reproductor o la presentación. Su punto débil es el emparejamiento: hay que hacerlo una vez, con los dos aparatos a la vista, y desconfiar de cualquier solicitud que llegue sin haberla pedido.</p>
+<p><strong>Copias que se mantienen solas: Syncthing.</strong> Y aquí está la historia del día. La aplicación oficial de Syncthing para Android tiene ★4.293, licencia MPL-2.0, y su último empujón fue el 3 de diciembre de 2024, el mismo día de su última versión, la 1.28.1. El repositorio está archivado: nadie va a empujar más ahí. Hace casi dos años que no cambia una línea, y sigue teniendo más estrellas que la bifurcación que la reemplazó.</p>
+<p>Syncthing-Fork, de Catfriend1, tiene ★3.220 y la misma licencia MPL-2.0, pero su historia es otra: empujó hoy y su versión v2.1.7.0 es del 21 de octubre. Sigue el trabajo donde el otro lo dejó, con el mismo protocolo y con la misma idea: cada aparato guarda su copia y ninguno manda sobre los demás. Para quien tiene la carpeta de fotos sincronizada entre el teléfono y la computadora, este es el reemplazo que hay que mirar, y el cambio no es cosmético: al ser otro paquete, con otra firma, hay que instalarlo como app nueva y volver a emparejar.</p>
+<p>El sentido de tener las tres piezas juntas es este: LocalSend para lo que se manda una vez, KDE Connect para lo que se comparte todo el día y Syncthing para lo que tiene que estar en dos sitios sin que nadie se acuerde. Ninguna de las tres necesita una cuenta, y esa es precisamente la razón por la que siguen funcionando cuando la nube de turno decide cambiar sus condiciones.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Armar la caja en siete pasos</em></p>
+<p><strong>Paso uno: decidir por dónde entra el software.</strong> Hay tres puertas y no son iguales. La tienda del sistema entrega paquetes firmados por quien la opera y actualiza sola. F-Droid entrega paquetes que compila el propio repositorio a partir del código y firma con su llave, y a veces la versión llega días después que en la forja. El APK de la forja llega el mismo día del release y hay que actualizarlo a mano. Lo importante es no mezclar: si una app entró por una puerta, se actualiza por esa misma, porque una firma distinta no se instala encima y el sistema lo rechaza.</p>
+<p><strong>Paso dos: instalar el gestor de archivos antes de necesitarlo.</strong> Suena obvio y no lo es: medio teléfono se queda sin salida el día que la app de archivos del sistema falla y no hay con qué buscar el APK que se acaba de bajar. Material Files o Amaze, uno de los dos, y mejor antes de que haga falta. Con el gestor dentro se puede llegar a la carpeta de descargas, mirar qué ocupa espacio y compartir un archivo sin depender del chat.</p>
+<p><strong>Paso tres: poner el lector de PDF.</strong> PdfViewer no pide permisos y abre lo que le abras. Con eso se resuelve el 90% de los papeles: estados de cuenta, contratos, recetas escaneadas, manuales. Si además se necesita rellenar formularios, hay que buscar otra herramienta, porque un lector simple no edita.</p>
+<p><strong>Paso cuatro: decidir si se quiere terminal.</strong> Si la respuesta es sí, se instala Termux desde la forja o desde F-Droid y no desde la tienda de Google, y se acepta que el entorno vive aparte del resto del teléfono. Lo primero que conviene hacer adentro es actualizar la lista de paquetes y leer la ayuda del gestor antes de pegar comandos. Si la respuesta es no, la caja funciona igual: el terminal es para quien tiene una tarea concreta que lo pida.</p>
+<p><strong>Paso cinco: resolver la sincronía con los ojos abiertos.</strong> Syncthing-Fork, no la oficial archivada. Al instalar, se empareja por identificador de aparato y se elige una carpeta concreta; nunca la raíz del almacenamiento, porque sincronizar todo es la forma más rápida de duplicar veinte mil archivos y llenar el disco dos veces. Conviene empezar con una carpeta de documentos y dejar las fotos para cuando el invento ya haya demostrado que aguanta.</p>
+<p><strong>Paso seis: separar lo que se comparte de lo que se respalda.</strong> LocalSend y KDE Connect son para pasar cosas; Syncthing es para mantener copias. Mezclar los dos usos termina en carpetas con nombres como «copia final buena 2» y en Archivos que nadie sabe cuál es el bueno. Una regla sencilla: lo que se manda se manda una vez; lo que importa vive en una carpeta sincronizada con nombre fijo.</p>
+<p><strong>Paso siete: probar el día malo.</strong> Antes de confiar, conviene simular el problema: apagar la red y ver si la nota sigue ahí, abrir el PDF sin conexión, mover un archivo grande y comprobar que llegó entero, desconectar la computadora y ver si la copia quedó. La caja de oficio se juzga por lo que hace cuando falta algo, no por lo que promete cuando todo está en su sitio.</p>
+<p>───────────────────</p>
+<p><em>⚖️ La ley, sin sermón</em></p>
+<p>Casi todo lo de esta caja es software libre con licencias que llevan años en el mercado, y eso tiene tres consecuencias prácticas que valen más que cualquier discurso.</p>
+<p>La primera: el código se puede leer y se puede reusar. GPL-3.0, que es la licencia de once de estos dieciocho proyectos, exige que quien distribuya una versión modificada lo haga con el mismo permiso y entregue el código. MPL-2.0, la de Syncthing y su bifurcación, es más suave: obliga a publicar los archivos modificados, no todo el programa. Apache-2.0, la de LocalSend, permite casi todo y añade una cláusula sobre patentes. MIT, la de Acode y PdfViewer, es la más permisiva de todas. Nada de esto decide si el programa es bueno: decide qué puede hacer otro con su código.</p>
+<p>La segunda: lo que GitHub no identifica no deja de tener licencia. Cuatro fichas de este censo dicen NOASSERTION o «sin licencia» porque el archivo de permiso no está donde la plataforma lo busca, y en dos de esos casos el README declara GPL-3.0 con todas sus letras. Publicar el hueco es lo correcto; inventar la licencia que uno cree recordar, no.</p>
+<p>La tercera: instalar un APK modificado no es lo mismo que instalar el programa. Cuando alguien toma el paquete de Termux o de LocalSend, le cambia el nombre y lo reparte como «versión mejorada», está distribuyendo otra cosa, con otra firma y sin el código de esos cambios. Eso viola la licencia en la mayoría de los casos y rompe la cadena de actualizaciones del usuario. La defensa no es un antivirus: es mirar de dónde viene lo que se instala.</p>
+<p>Y hay un cuarto asunto que no es de licencias sino de datos: los programas de esta lista funcionan sin cuenta. Ninguno necesita correo, teléfono ni nombre para abrir una carpeta o pasar un archivo. Eso no es una casualidad de diseño, es la razón por la que sirven en un aparato que se quiere mantener propio.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me hacen</em></p>
+<p><strong>¿Cuál gestor de archivos pongo si el teléfono es viejo y tiene poca memoria?</strong> Cualquiera de los tres pesa poco comparado con una red social, y la memoria se va en las miniaturas. En un aparato de 32 GB conviene Amaze con la vista de miniaturas apagada, o Fossify, que es el más sobrio de los tres. Lo que no conviene es tener dos gestores abiertos a la vez con la misma carpeta indexada.</p>
+<p><strong>¿Termux borra mis archivos si me equivoco de comando?</strong> No borra por su cuenta, pero tampoco pregunta. El terminal ejecuta lo que se le escribe, y una ruta mal copiada puede llevarse una carpeta entera. La protección es trabajar dentro de la carpeta propia del terminal, usar copia antes de mover y no pegar comandos que no se entienden, sobre todo si vienen con <code>sudo</code> o con rutas absolutas.</p>
+<p><strong>¿Por qué la app oficial de Syncthing ya no se actualiza?</strong> Porque su repositorio está archivado desde el 3 de diciembre de 2024, cuando se publicó la 1.28.1. Archivado significa que nadie empuja más ahí: el código queda de consulta, no de trabajo. Quien quiera lo que hacía esa app tiene que mirar la bifurcación de Catfriend1, que sigue publicando versiones y empujó hoy.</p>
+<p><strong>¿Puedo pasar Syncthing de la oficial a la bifurcación sin perder lo sincronizado?</strong> Se puede, y no es automático. Al ser otro paquete y otra firma, hay que instalar la bifurcación como app nueva, volver a emparejar los aparatos y dejar que vuelva a indexar las carpetas. Los archivos no se pierden porque están en el disco, pero la configuración anterior no se hereda y las carpetas hay que volver a marcarlas. Conviene hacerlo con la red tranquila y sin prisa.</p>
+<p><strong>¿LocalSend sirve si los aparatos están en redes distintas?</strong> No. Necesita que el teléfono y la computadora se vean en la misma red local. Si uno está en datos móviles y el otro en el wifi de la casa, no hay forma de que se encuentren, y no es un defecto: es el precio de no tener un servidor en medio. Para eso están los servicios de nube, con la cuenta y las condiciones que cada uno trae.</p>
+<p><strong>¿KDE Connect funciona sin la computadora encendida?</strong> Los avisos y los archivos necesitan que el otro lado esté despierto. Si la computadora está apagada, el teléfono no tiene con quién hablar y el programa se queda esperando; no hay cola en la nube. Algunas funciones, como el control del reproductor, sí quedan en el teléfono, pero el puente en sí necesita las dos orillas.</p>
+<p><strong>¿AppManager necesita root?</strong> No para lo básico: lista paquetes, permisos, servicios y rastreadores sin tocar el sistema. Para congelar apps del sistema o hacer cosas más profundas necesita o root o la depuración por cable, que se activa en las opciones de desarrollo. Lo que sí conviene es leer antes de tocar: desactivar un componente del sistema puede dejar el teléfono sin notificaciones o sin cámara.</p>
+<p><strong>¿Por qué hay cuatro fichas sin licencia identificada?</strong> Porque el archivo de permiso no está en el sitio donde la plataforma lo busca, o porque el proyecto usa un formato que la plataforma no reconoce. En Termux, Termux packages y AppManager el README sí declara GPL-3.0; en Termux API no aparece ninguna declaración en lo que se leyó hoy. Eso se publica así, con el hueco a la vista.</p>
+<p><strong>¿Qué diferencia hay entre F-Droid y el APK de la forja?</strong> F-Droid compila el código y firma con su propia llave: la app llega unos días después, pero se actualiza sola y el origen es verificable. El APK de la forja lo firma el autor y llega el mismo día, pero actualizar es a mano. Mezclar las dos fuentes rompe la actualización, porque una firma distinta no se instala encima de otra.</p>
+<p><strong>¿Un teléfono sin Google Play puede tener esta caja completa?</strong> Sí, y de hecho es donde más sentido tiene. Los dieciocho proyectos del censo se publican en forjas o en F-Droid; ninguno necesita los servicios de Google para funcionar. Lo que se pierde son las apps que sí dependen de ellos, y eso es harina de otro costal.</p>
+<p><strong>¿Cómo se hace un respaldo de verdad con estas herramientas?</strong> Copiando lo que no se puede reconstruir: fotos, notas, documentos, y el archivo de configuración de las apps que se personalizaron. Se copia a dos sitios, uno de ellos fuera del teléfono, y se comprueba que abre en el otro aparato. Un respaldo que nunca se ha restaurado no es un respaldo: es una carpeta con buena intención.</p>
+<p><strong>¿OpenCalc no cambia nunca, se quedó muerta?</strong> Su último empujón es del 10 de julio y su última versión es de septiembre de 2025. Eso en una calculadora no es abandono: es que sumar no ha cambiado. El proyecto sigue con su código disponible y con su licencia GPL-3.0, así que cualquiera puede continuarlo. Distinto sería en un programa que depende de un servicio externo, donde un año sin empujones sí es una señal.</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla, mitos y glosario</em></p>
+<p><em>Los dieciocho de un vistazo</em></p>
+<table>
+<tr><th>Programa</th><th>Para qué sirve</th><th>Licencia</th><th>Último empujón</th><th>Estrellas</th></tr>
+<tr><td>LocalSend</td><td>pasar archivos por la red de la casa</td><td>Apache-2.0</td><td>29-oct</td><td>★96.908</td></tr>
+<tr><td>Termux</td><td>terminal con paquetes propios</td><td>NOASSERTION</td><td>26-sep</td><td>★63.872</td></tr>
+<tr><td>Termux packages</td><td>construir y firmar los paquetes</td><td>NOASSERTION</td><td>hoy</td><td>★17.282</td></tr>
+<tr><td>AppManager</td><td>auditar paquetes, permisos y rastreadores</td><td>NOASSERTION (README GPL-3.0)</td><td>30-oct</td><td>★9.399</td></tr>
+<tr><td>Material Files</td><td>gestor de archivos</td><td>GPL-3.0</td><td>15-oct</td><td>★9.370</td></tr>
+<tr><td>Acode</td><td>editor de código</td><td>MIT</td><td>30-oct</td><td>★7.612</td></tr>
+<tr><td>Amaze</td><td>gestor de archivos con comprimidos y SMB</td><td>GPL-3.0</td><td>31-oct</td><td>★6.450</td></tr>
+<tr><td>Markor</td><td>notas y Markdown en texto plano</td><td>NOASSERTION</td><td>30-oct</td><td>★6.363</td></tr>
+<tr><td>Termux X11</td><td>escritorio gráfico dentro del terminal</td><td>GPL-3.0</td><td>27-oct</td><td>★5.066</td></tr>
+<tr><td>Termux API</td><td>el aparato expuesto al terminal</td><td>sin licencia en la ficha</td><td>17-sep</td><td>★4.567</td></tr>
+<tr><td>Syncthing (oficial)</td><td>copias sincronizadas, **archivado**</td><td>MPL-2.0</td><td>03-dic-2024</td><td>★4.293</td></tr>
+<tr><td>Syncthing-Fork</td><td>el mismo trabajo, vivo</td><td>MPL-2.0</td><td>hoy</td><td>★3.220</td></tr>
+<tr><td>Omni-Notes</td><td>bloc de notas con recordatorios</td><td>GPL-3.0</td><td>22-oct</td><td>★2.807</td></tr>
+<tr><td>Fossify File Manager</td><td>gestor sin anuncios</td><td>GPL-3.0</td><td>hoy</td><td>★1.846</td></tr>
+<tr><td>OpenCalc</td><td>calculadora con historial</td><td>GPL-3.0</td><td>10-jul</td><td>★1.544</td></tr>
+<tr><td>KDE Connect</td><td>avisos y portapapeles con la computadora</td><td>GPL-2.0</td><td>31-oct</td><td>★1.494</td></tr>
+<tr><td>PdfViewer</td><td>abrir PDF sin permisos</td><td>MIT</td><td>28-oct</td><td>★1.062</td></tr>
+<tr><td>libadb-android</td><td>depuración sin root, biblioteca</td><td>NOASSERTION (README GPL-3.0)</td><td>03-jun</td><td>★415</td></tr>
+</table>
+<p><em>Cinco mitos de la caja de oficio</em></p>
+<p><strong>Mito uno: «si no está en la tienda, es peligroso».</strong> Casi todo lo de esta lista se publica fuera de las tiendas y lleva años funcionando. Lo que hace peligroso un paquete no es la puerta por donde entra sino quién lo firma y desde dónde se bajó. Un APK de la forja, con su release y su autor, es más verificable que una app de tienda con ciento veinte permisos y publicidad.</p>
+<p><strong>Mito dos: «el gestor del sistema basta».</strong> Basta hasta que hay que entrar a una carpeta que la app de archivos del sistema esconde, o hasta que el teléfono no trae ninguna. Ahí se descubre que sin gestor no hay manera de llegar al APK que se acaba de descargar, y que el día que hace falta es justo el día en que no se puede instalar nada.</p>
+<p><strong>Mito tres: «root es obligatorio para el terminal».</strong> Termux funciona sin root y hace casi todo lo que la gente necesita: paquetes, guiones, servidores locales, herramientas de texto. Lo que no puede sin root es tocar las carpetas de otras aplicaciones. AppManager igual: sin root audita, con depuración hace más, y con root hace todo.</p>
+<p><strong>Mito cuatro: «si el repositorio está archivado, la app está muerta».</strong> El código archivado sigue disponible y la app sigue instalada en miles de teléfonos. Lo que se acaba es el mantenimiento, y eso importa cuando hay un fallo de seguridad o cuando cambia el sistema. La respuesta sensata no es borrar todo: es saber que no habrá arreglos y mirar si alguien heredó el trabajo.</p>
+<p><strong>Mito cinco: «sincronizar es lo mismo que respaldar».</strong> Sincronizar copia los cambios, incluido el borrado. Si se borra una foto en el teléfono, la carpeta sincronizada la borra en la computadora. Un respaldo de verdad guarda versiones anteriores o vive en un disco que no se toca todos los días. Las dos cosas se complementan y no se sustituyen.</p>
+<p><em>Glosario de bolsillo</em></p>
+<p><strong>APK</strong> — el paquete de una aplicación de Android. Por dentro es un comprimido con código, recursos y una firma.</p>
+<p><strong>Firma</strong> — el sello criptográfico del paquete. Dos versiones de la misma app con firmas distintas no se pueden instalar una encima de otra.</p>
+<p><strong>F-Droid</strong> — repositorio de aplicaciones libres que compila el código y firma con su propia llave.</p>
+<p><strong>Forja</strong> — el sitio donde vive el código y donde el autor publica sus versiones. La descarga de la forja llega el mismo día del release.</p>
+<p><strong>Nightly</strong> — compilación automática de cada noche, sin número estable. Termux X11 publica así.</p>
+<p><strong>Root</strong> — permiso total sobre el sistema. Da acceso a todo y quita redes de seguridad.</p>
+<p><strong>Depuración</strong> — canal de administración que Android abre para desarrolladores. Con cable o por inalámbrico permite operaciones que sin ella piden root.</p>
+<p><strong>Bootstrap</strong> — el paquete mínimo con el que Termux arranca su entorno por primera vez.</p>
+<p><strong>Markdown</strong> — forma de escribir texto con marcas simples que cualquier programa puede leer. Es lo que usa Markor.</p>
+<p><strong>SMB</strong> — protocolo para compartir carpetas en una red local, el de las computadoras de la casa.</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces y notas del corte</em></p>
+<p>Todos los enlaces de abajo se abrieron hoy. Ninguno viene de una lista vieja ni de una deducción por parecido: cada dirección es la que devolvieron las tres lecturas.</p>
+<p><em>Gestores de archivos</em></p>
+<ul>
+<li>Material Files: <a href="https://github.com/zhanghai/MaterialFiles">https://github.com/zhanghai/MaterialFiles</a></li>
+<li>Amaze: <a href="https://github.com/TeamAmaze/AmazeFileManager">https://github.com/TeamAmaze/AmazeFileManager</a></li>
+<li>Fossify File Manager: <a href="https://github.com/FossifyOrg/File-Manager">https://github.com/FossifyOrg/File-Manager</a></li>
+</ul>
+<p><em>Terminal y paquetes</em></p>
+<ul>
+<li>Termux: <a href="https://github.com/termux/termux-app">https://github.com/termux/termux-app</a></li>
+<li>Termux packages: <a href="https://github.com/termux/termux-packages">https://github.com/termux/termux-packages</a></li>
+<li>Termux API: <a href="https://github.com/termux/termux-api">https://github.com/termux/termux-api</a></li>
+<li>Termux X11: <a href="https://github.com/termux/termux-x11">https://github.com/termux/termux-x11</a></li>
+</ul>
+<p><em>Archivos entre aparatos</em></p>
+<ul>
+<li>LocalSend: <a href="https://github.com/localsend/localsend">https://github.com/localsend/localsend</a></li>
+<li>Syncthing (oficial, archivado): <a href="https://github.com/syncthing/syncthing-android">https://github.com/syncthing/syncthing-android</a></li>
+<li>Syncthing-Fork: <a href="https://github.com/Catfriend1/syncthing-android">https://github.com/Catfriend1/syncthing-android</a></li>
+<li>KDE Connect: <a href="https://github.com/KDE/kdeconnect-android">https://github.com/KDE/kdeconnect-android</a></li>
+</ul>
+<p><em>Texto, papeles y cuentas</em></p>
+<ul>
+<li>Markor: <a href="https://github.com/gsantner/markor">https://github.com/gsantner/markor</a></li>
+<li>Acode: <a href="https://github.com/Acode-Foundation/Acode">https://github.com/Acode-Foundation/Acode</a></li>
+<li>PdfViewer: <a href="https://github.com/GrapheneOS/PdfViewer">https://github.com/GrapheneOS/PdfViewer</a></li>
+<li>Omni-Notes: <a href="https://github.com/FedericoIOSue/Omni-Notes">https://github.com/FedericoIOSue/Omni-Notes</a></li>
+<li>OpenCalc: <a href="https://github.com/Darkempire78/OpenCalc">https://github.com/Darkempire78/OpenCalc</a></li>
+</ul>
+<p><em>Lo que mira dentro del aparato</em></p>
+<ul>
+<li>AppManager: <a href="https://github.com/MuntashirAkon/AppManager">https://github.com/MuntashirAkon/AppManager</a></li>
+<li>libadb-android: <a href="https://github.com/MuntashirAkon/libadb-android">https://github.com/MuntashirAkon/libadb-android</a></li>
+</ul>
+<p><em>Lo que quedó fuera del censo, y por qué.</em> Se buscaron también otras piezas de oficio que no entraron: dos gestores de archivos sin repositorio público, un compresor que solo se distribuye en su sitio y tres apps de notas cuyo README no permitió confirmar ni licencia ni último empujón. Preferí una lista de dieciocho con datos comprobables a una de veinticinco con relleno. Lo que no se pudo leer no se escribe: se anota el hueco y se sigue.</p>
+<p><em>Cómo se mide esta caja, para que se pueda repetir.</em> Cada proyecto se leyó tres veces: una por el buscador de la forja, una por la página del repositorio tal como la ve una persona, y una por el archivo crudo del README. Las estrellas y el último empujón se cotejaron entre las tres; cuando la página y el buscador no dieron el mismo número, se publicó el de la página y se dejó dicho. La licencia se copia de la ficha y, si el README declara otra, se escriben las dos. La versión sale del último release publicado, con su fecha, y cuando el proyecto no fecha sus releases se dice que no la trae.</p>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — una carpeta, un comando y una copia que sigue viva</em></p>
+<p>Lo que deja esta guía, en plata: la caja de oficio del teléfono es lo que hace que el aparato sirva para trabajar y no solo para mirar. Un gestor de archivos, un lector de PDF, un bloc de notas y una calculadora cubren el 80% de lo que la gente necesita de verdad, y ninguno de los cuatro pide cuenta ni conexión permanente.</p>
+<p>El hallazgo del día tiene fecha y nombre: la aplicación oficial de Syncthing quedó archivada el 3 de diciembre de 2024 con su última versión, y una bifurcación mantiene el trabajo desde entonces, empujando hoy. Es el patrón que ya se vio en los lectores y en los clientes de música: cuando el proyecto grande se jubila, el vecindario no se queda sin herramienta, se muda a la casa de al lado.</p>
+<p>El otro hallazgo es de forma, no de fondo: cuatro de las dieciocho fichas no identifican su licencia y dos de ellas la declaran en el README. Escribir el hueco, en vez de rellenarlo con lo que uno recuerda, es la diferencia entre un censo y un folleto.</p>
+<blockquote>—¿Y si el teléfono se queda sin espacio otra vez?</blockquote>
+<blockquote>—Abres la carpeta de descargas, miras qué pesa y borras con el dedo, no con el pánico.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Una herramienta de oficio vale por lo que aguanta el día que la red se cae.</p>
+<p><em>Medición del corte:</em> domingo 1 de noviembre de 2026, entre las 08:20 y las 09:30 de Santo Domingo, y repasada a las 10:52· dieciocho proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · cuatro fichas sin licencia identificada quedan dichas con esas palabras · dos releases sin fecha publicada se anotan como tales · lo que no se pudo leer no aparece en la lista.</p>
+<p><em>Licencia:</em> el texto queda en CC BY-SA 4.0, los datos medidos en CC BY 4.0 y el código en MIT; el nombre y la marca de la casa siguen siendo de «Alexis (La Bandita)».</p>
+<h2>🗒️ Notas del corte</h2>
+<p><strong>Nota de corte (1-nov):</strong> las estrellas, las licencias y los empujones son de esta mañana y salen de tres lecturas por proyecto. En los casos en que la ficha de la forja no identifica la licencia, se publica esa palabra y se añade lo que dice el README, sin escoger el dato que queda más limpio.</p>
+<p><strong>Nota de sucesión (1-nov):</strong> el repositorio oficial de Syncthing para Android está archivado desde el 3 de diciembre de 2024. Eso quiere decir que no habrá más versiones por esa vía, y que la bifurcación de Catfriend1 es hoy el camino vivo, con versión del 21 de octubre y empujón de hoy. Se publican las dos fichas porque enterrar una herramienta sin decir quién la heredó deja al lector sin salida.</p>
+<p><strong>Nota de alcance (1-nov):</strong> esta guía habla de programas de uso general, no de catálogos ni de contenido. No reparte enlaces de descarga directa, no recomienda mods y no promete nada sobre el futuro de ningún proyecto: mide lo que hay hoy y explica qué mirar cuando algo cambia de dueño.</p>
+<p><strong>Nota de corrección (1-nov):</strong> un repositorio de la lista de candidatos no pudo leerse por su nombre exacto y quedó fuera del censo en vez de completarse a mano. Se anota porque una ficha que se calla sus huecos no sirve para decidir nada.</p>
+<p><strong>Nota de repaso (1-nov, 10:52):</strong> revisión de la caja con la hora en la mano: dieciocho proyectos, tres empujaron hoy y uno está archivado. Cinco fichas sumaron estrellas desde la madrugada y la tabla muestra ese número, no el anterior.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

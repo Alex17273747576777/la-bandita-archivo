@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-19T11:29:02Z",
+   "oid": "bcf9fc903dafc20fd36eef9c2528c99b712e6345"
+  }
+ },
+ "diskUsage": 54405,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "animemovie781-cloud/CodeAssist",
+ "pushedAt": "2026-09-19T11:29:03Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

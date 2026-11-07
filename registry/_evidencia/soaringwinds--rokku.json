@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-28T21:04:21Z",
+   "oid": "2948732ed5044dfdc045157e50c893a4e34392a0"
+  }
+ },
+ "diskUsage": 72747,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "SoaringWinds/rokku",
+ "pushedAt": "2026-08-28T21:05:27Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

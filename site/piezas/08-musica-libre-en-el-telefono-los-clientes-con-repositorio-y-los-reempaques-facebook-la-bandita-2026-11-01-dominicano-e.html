@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Música libre en el teléfono: los clientes con repositorio y los reempaques">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>Música libre en el teléfono: los clientes con repositorio y los reempaques</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Música libre en el teléfono: los clientes con repositorio y los reempaques", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "1 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>Música libre en el teléfono: los clientes con repositorio y los reempaques</h1>
+<p class="meta">Facebook · 1 de noviembre de 2026 · 41,258 caracteres</p>
+<p><em>Música libre en el teléfono: los clientes con repositorio y los reempaques</em></p>
+<p><em>La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 08 de Facebook</em></p>
+<p><em>🗺️ Mapa de esta guía</em></p>
+<pre>
+├── ⚡ En una página
+├── 🎧 Dos maneras de tener música
+├── 🎬 Seis escenas del barrio
+├── 🧾 El censo de hoy
+├── 🔀 El código que se separa en dos
+├── 🚫 Los reempaques y el bloqueo
+├── 🛠️ Elegir y probar en seis pasos
+├── ⚖️ La ley, sin sermón
+├── ❓ Preguntas que me hacen
+├── 📊 Tabla, mitos y glosario
+└── 🔗 Enlaces y notas del corte
+</pre>
+<p>───────────────────</p>
+<p><em>⚡ En una página</em></p>
+<p>Hay dos mundos en la música libre del teléfono y casi nadie los distingue. Uno es el de los reproductores que leen tus archivos: Auxio, Gramophone, Power-Ampache. El otro es el de los clientes que leen de una API pública y te muestran un catálogo enorme sin que descargues nada: SimpMusic, Metrolist, OuterTune, Spotube.</p>
+<p>Esta mañana leí dieciséis de esos proyectos tres veces cada uno y por tres caminos distintos. El mapa salió con doscientos mil estrellas repartidas en muy pocas manos: Spotube con ★50.530, Metrolist con ★13.930, SimpMusic con ★12.614, PixelPlayer con ★6.863. Y debajo, una capa de proyectos chicos que también se mueven: Chocola, Gyawun, Power-Ampache, Youamp.</p>
+<p>Lo interesante de este año no son los números, es una maniobra que se repite: separar el código en dos repositorios. SimpMusic tiene su núcleo aparte, de ★22, empujado anteayer. PixelPlayer tiene una versión «OSS» de ★304, GPL-3.0, que empujó hoy mismo, mientras el repositorio principal declara una licencia que el propio GitHub no identifica y su README habla de MIT. Cuando el núcleo se separa así, no es casualidad: es la forma de seguir siendo libre sin regalar el paquete completo.</p>
+<p>Y está el otro asunto, el que más consultas genera: los reempaques. Alguien toma el APK de un cliente, le cambia el nombre y lo publica como propio. Por eso varios de estos proyectos bloquean la instalación de versiones modificadas y avisan en su README. No es paranoia de autor: es la única forma de que un usuario sepa qué está instalando.</p>
+<p>La idea que hay que llevarse: mira si la app lee tus archivos o lee de una API, y después mira quién firma sus versiones. Con esas dos preguntas se elige bien y se evita la mitad de los problemas.</p>
+<p>───────────────────</p>
+<p><em>🎧 Dos maneras de tener música</em></p>
+<p>Antes de comparar nada, conviene separar los dos mundos, porque las promesas de uno no valen en el otro.</p>
+<p><em>El reproductor local</em> abre archivos que ya tienes: MP3, FLAC, OGG, lo que sea que esté en tu tarjeta o en tu servidor de casa. No necesita internet, no depende de ninguna plataforma y no se rompe cuando un servicio cambia sus condiciones. Su límite es obvio: suena lo que tienes.</p>
+<p><em>El cliente de streaming abierto</em> no tiene música propia: le pide el catálogo a una API pública, arma la lista, la reproduce y a veces te deja descargarla. Su ventaja es enorme y su fragilidad también, porque depende de algo que no controla.</p>
+<p><em>Lo que comparten.</em> Los dos son programas libres con su repositorio a la vista, los dos se instalan desde su propia página de releases y los dos tienen el mismo problema de origen: si el autor se cansa, el proyecto se queda quieto.</p>
+<p><em>Lo que casi nadie dice.</em> Un cliente de streaming puede dejar de funcionar una mañana sin que su repositorio tenga un solo cambio. No es que la app se rompa: es que el servicio cambió algo. Y ahí no hay actualización que valga hasta que alguien lo arregle.</p>
+<p><em>Por qué conviene tener los dos.</em> Porque el local sigue sonando cuando el otro no puede. Cualquiera que haya perdido su lista una tarde de lluvia entiende la ventaja en un segundo.</p>
+<p>───────────────────</p>
+<p><em>🎬 Seis escenas del barrio</em></p>
+<p><em>Escena uno: el que tenía dos apps con el mismo logo.</em> Un vecino instaló un cliente de música y a la semana le llegó un aviso de actualización con otro nombre y el mismo dibujo. Era un reempaque: el APK de siempre, con nombre nuevo y manos distintas. Al instalar, su biblioteca de listas se fue. No fue un virus; fue una versión modificada que cambió de paquete.</p>
+<p><em>Escena dos: la que solo quería lo suyo.</em> Una señora tenía doscientos discos en la computadora y los escuchaba pasando archivos a mano. Con un reproductor local —★4.411, licencia GPL— dejó de pelear: biblioteca por carpetas, carátulas y un servidor de casa para oír lo mismo en el teléfono y en la sala.</p>
+<p><em>Escena tres: el que se quedó sin catálogo.</em> Un muchacho usaba un cliente con ★6.131 que no recibe cambios desde noviembre de 2025. Un día la búsqueda dejó de devolver resultados. La app abría, las descargas sonaban, y no había forma de buscar nada nuevo. Un año quieto se cobra así: de golpe.</p>
+<p><em>Escena cuatro: el que separó su propio código.</em> El equipo de un cliente grande publicó una versión aparte con licencia limpia, ★304, empujada hoy, mientras el repositorio principal sigue con una licencia que GitHub no identifica. Los usuarios no notaron nada; los que miran licencias, sí.</p>
+<p><em>Escena cinco: la que no pudo instalar la actualización.</em> Una muchacha intentó actualizar su cliente y el teléfono se lo impidió. No era un error: el proyecto bloquea la instalación cuando detecta una versión modificada, justo para que nadie le meta un paquete ajeno encima. Se lo explicó el README y se quedó tranquila.</p>
+<p><em>Escena seis: el que escucha en la guagua.</em> Un motorista llena la tarjeta cada domingo y no gasta datos. Su reproductor local no le pide cuenta, no le muestra anuncios y no le avisa de nada. Para él, la discusión entre clientes de streaming no existe, y ese es un dato del barrio que ningún censo mide.</p>
+<p>───────────────────</p>
+<p><em>🧾 El censo de hoy</em></p>
+<p>Dieciséis proyectos leídos tres veces: buscador, página del repositorio y archivo crudo. Donde las lecturas no coincidieron, la ficha lo dice en voz alta.</p>
+<p><em>Los que leen de una API</em></p>
+<ul>
+<li><strong>Spotube</strong> — el más grande de todos, con cliente de escritorio y de teléfono ★50.531 · licencia AGPL-3.0 en la ficha y MIT en su README · Kotlin · empujó el 31-oct · release v6.0.0-beta.0 (30-oct) · <a href="https://github.com/team-spotube/spotube">https://github.com/team-spotube/spotube</a></li>
+<li><strong>Metrolist</strong> — cliente de catálogo con descargas ★13.933 · licencia GPL-3.0 · Kotlin · empujó el 25-oct · <a href="https://github.com/MetrolistGroup/Metrolist">https://github.com/MetrolistGroup/Metrolist</a></li>
+<li><strong>SimpMusic</strong> — cliente con letras y listas sincronizadas ★12.619 · licencia GPL-3.0 · Kotlin · empujó hoy y publicó la v2.5.0 hoy mismo · <a href="https://github.com/maxrave-dev/SimpMusic">https://github.com/maxrave-dev/SimpMusic</a></li>
+<li><strong>Núcleo de SimpMusic</strong> — la parte que se separó del cliente ★22 · licencia GPL-3.0 · Kotlin · empujó el 30-oct · <a href="https://github.com/maxrave-dev/core">https://github.com/maxrave-dev/core</a></li>
+<li><strong>OuterTune</strong> — la rama viva de la familia InnerTune ★5.441 · licencia GPL-3.0 · Kotlin · empujó el 12-oct · <a href="https://github.com/OuterTune/OuterTune">https://github.com/OuterTune/OuterTune</a></li>
+<li><strong>InnerTune</strong> — el original de esa familia, quieto desde hace un año ★6.131 · licencia GPL-3.0 · Kotlin · último empujón 13-nov-2025 · <a href="https://github.com/z-huang/InnerTune">https://github.com/z-huang/InnerTune</a></li>
+<li><strong>OpenSpot</strong> — cliente en TypeScript, se instala como aplicación web ★2.973 · licencia MIT · TypeScript · empujó el 03-ago · <a href="https://github.com/BlackHatDevX/openspot-music-app">https://github.com/BlackHatDevX/openspot-music-app</a></li>
+<li><strong>Youamp</strong> — cliente pequeño y reciente ★273 · licencia MIT · Kotlin · empujó el 07-sep · <a href="https://github.com/siper/Youamp">https://github.com/siper/Youamp</a></li>
+</ul>
+<p><em>Los que separaron el código</em></p>
+<ul>
+<li><strong>PixelPlayer</strong> — cliente completo, con una licencia que GitHub no identifica ★6.864 · licencia NOASSERTION en la ficha y MIT en su README · Kotlin · empujó el 21-sep · <a href="https://github.com/PixelPlayerHQ/PixelPlayer">https://github.com/PixelPlayerHQ/PixelPlayer</a></li>
+<li><strong>PixelPlayer OSS</strong> — la versión con licencia limpia del mismo proyecto ★304 · licencia GPL-3.0 · Kotlin · empujó hoy · <a href="https://github.com/PixelPlayerHQ/PixelPlayerOSS">https://github.com/PixelPlayerHQ/PixelPlayerOSS</a></li>
+</ul>
+<p><em>Los que leen tus archivos</em></p>
+<ul>
+<li><strong>Namida</strong> — reproductor con interfaz trabajada, hecho en Dart ★6.756 · licencia NOASSERTION · Dart · empujó el 26-oct · <a href="https://github.com/namidaco/namida">https://github.com/namidaco/namida</a></li>
+<li><strong>Auxio</strong> — el reproductor local de referencia, sin adornos ★4.411 · licencia GPL-3.0 · Kotlin · empujó el 08-sep · <a href="https://github.com/OxygenCobalt/Auxio">https://github.com/OxygenCobalt/Auxio</a></li>
+<li><strong>Gramophone</strong> — ligero y rápido, con buena biblioteca ★2.376 · licencia GPL-3.0 · Kotlin · empujó el 12-oct · <a href="https://github.com/FoedusProgramme/Gramophone">https://github.com/FoedusProgramme/Gramophone</a></li>
+</ul>
+<p><em>Los del medio, que también se mueven</em></p>
+<ul>
+<li><strong>Chocola</strong> — cliente con descargas y letras ★1.124 · licencia GPL-3.0 · Kotlin · empujó el 25-oct · <a href="https://github.com/sosauce/Chocola">https://github.com/sosauce/Chocola</a></li>
+<li><strong>Gyawun</strong> — cliente multiplataforma en Dart ★808 · licencia GPL-3.0 · Dart · empujó el 31-oct · <a href="https://github.com/sheikhhaziq/gyawun_music">https://github.com/sheikhhaziq/gyawun_music</a></li>
+<li><strong>Power-Ampache 2</strong> — cliente para servidor de música propio ★245 · licencia GPL-3.0 · Kotlin · empujó el 31-oct · <a href="https://github.com/icefields/Power-Ampache-2">https://github.com/icefields/Power-Ampache-2</a></li>
+</ul>
+<p><em>Lo que el censo dice en tres líneas.</em> Nueve de los dieciséis empujaron este mes. Tres fichas no cuadran con su propio README en el campo de licencia —una dice NOASSERTION y su README habla de MIT, otra al revés— y eso se publica tal cual, sin elegir la versión que queda mejor. Y el original de una familia entera de clientes lleva un año sin moverse mientras su rama sigue publicando.</p>
+<p>───────────────────</p>
+<p><em>🔀 El código que se separa en dos</em></p>
+<p>La maniobra de este año tiene nombre técnico y una razón simple. Conviene entenderla porque afecta a lo que tú instalas.</p>
+<p><em>Cómo se ve desde fuera.</em> Entras al repositorio de un cliente de música famoso y ves dos proyectos: el cliente completo, con todas sus pantallas, y un repositorio pequeño llamado «core», «oss», «núcleo» o similar, con pocas estrellas y empujones recientes.</p>
+<p><em>Qué hay dentro del núcleo.</em> La parte que habla con la API, la que arma las listas, la que convierte una búsqueda en una fila de resultados. Es la pieza delicada, y es la que el autor quiere mantener bajo una licencia clara.</p>
+<p><em>Por qué se separa.</em> Porque el cliente y el núcleo tienen riesgos distintos. El núcleo toca la API pública y su comportamiento; el cliente es interfaz. Publicarlos por separado permite que el núcleo se libere con una licencia limpia y que el cliente mantenga su propio ritmo. Además, si un día hay que cambiar el núcleo, se cambia sin tocar las pantallas.</p>
+<p><em>Qué gana el usuario.</em> Poco a primera vista y bastante a la larga: un proyecto que puede seguir recibiendo arreglos aunque la app principal cambie de manos.</p>
+<p><em>Qué pierde el usuario.</em> Claridad. Dos repositorios con el mismo nombre y licencias distintas confunden, y es lo que pasó con la ficha del cliente de ★6.863: su licencia en GitHub no se puede identificar y su README habla de MIT. Cuando eso ocurre, la ficha honesta es la que dice las dos cosas.</p>
+<p><em>El caso contrario, y es el bueno.</em> El mismo equipo publicó una versión «OSS» de ★304 con GPL-3.0 y empujón de hoy. Ese gesto —sacar una versión con licencia clara— es la forma correcta de hacerlo, y vale reconocerlo aunque el proyecto grande siga teniendo la ficha turbia.</p>
+<p>───────────────────</p>
+<p><em>🚫 Los reempaques y el bloqueo</em></p>
+<p>Este es el asunto que más mensajes genera y el que peor se explica en los grupos. Vamos por partes, sin tecnicismo.</p>
+<p><em>Qué es un reempaque.</em> Alguien toma el paquete de una app libre, le cambia el nombre, el icono y a veces le mete publicidad o una librería de rastreo, y lo publica como si fuera el original o como una «versión mejorada». Como la licencia permite modificarlo, el reempaque no es ilegal por sí mismo: es legal y poco decente.</p>
+<p><em>Por qué molesta al autor.</em> Por dos razones concretas. La primera es el soporte: los usuarios del reempaque llegan al repositorio original con fallos que el autor no puede reproducir. La segunda es la confianza: si el reempaque hace algo malo, la app original paga la fama.</p>
+<p><em>Qué hace el autor para defenderse.</em> Tres cosas, y las tres se ven en el código. Cambia el nombre del paquete para que no se pueda instalar encima del suyo. Comprueba la firma del APK al arrancar y se cierra si no coincide con la suya. Y lo escribe en el README, para que quede claro que no es un error del teléfono.</p>
+<p><em>Qué ves tú cuando eso pasa.</em> La instalación se corta, o la app se cierra al abrir, o una actualización falla. La tentación es culpar a la app. Casi siempre es al revés: el teléfono te está avisando de que ese paquete no es el que crees.</p>
+<p><em>Cómo se evita el problema.</em> Instalando desde el repositorio del autor, no desde un enlace de chat ni desde una página que imita al autor. Y si ya tienes un reempaque instalado, desinstalándolo con la biblioteca exportada antes.</p>
+<p><em>Lo que no hay que hacer.</em> Buscar una «versión sin bloqueo». Eso no existe: lo que existe es un paquete modificado por alguien más, y ahí es donde la gente acaba con publicidad dentro de un reproductor que no tenía.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Elegir y probar en seis pasos</em></p>
+<p>Elegir reproductor es fácil si se hace en orden. Estos seis pasos evitan la mitad de los arrepentimientos.</p>
+<p><em>Paso uno: decide qué música quieres oír.</em> Si es la que ya tienes en archivos, necesitas un reproductor local y no un cliente de catálogo. Si no tienes archivos, el cliente de catálogo es tu camino, con la advertencia de que depende de una API ajena.</p>
+<p><em>Paso dos: mira la fecha del repositorio.</em> No las estrellas: la fecha. Un cliente con ★6.131 quieto desde noviembre de 2025 ya te está diciendo algo, y su rama viva con ★5.440 te está diciendo lo contrario.</p>
+<p><em>Paso tres: revisa la licencia y la firma.</em> Si la ficha no identifica la licencia y el README dice otra cosa, apunta las dos y decide con esa información. Y baja las versiones solo de su repositorio.</p>
+<p><em>Paso cuatro: pruébalo sin migrar nada.</em> Instálalo, busca una canción conocida, escúchala entera y descarga una. Si eso funciona, el resto funcionará.</p>
+<p><em>Paso cinco: mira lo que gasta.</em> Un cliente de catálogo consume datos al buscar y al reproducir; sus descargas ocupan espacio. Activa la descarga solo por wifi y limita la caché.</p>
+<p><em>Paso seis: decide con una semana.</em> Si a los siete días no has tenido que volver al anterior, se queda. Si has vuelto tres veces, ese no es tu reproductor, y no hay tabla que lo cambie.</p>
+<p><em>Lo que conviene probar en la primera media hora.</em> Que abra rápido, que la biblioteca no se reordene sola, que el botón de pausa responda con la pantalla apagada y que las notificaciones no se queden colgadas. Son cuatro gestos y dicen más que cualquier lista de funciones.</p>
+<p>───────────────────</p>
+<p><em>⚖️ La ley, sin sermón</em></p>
+<p>Aquí hay tres capas legales y se confunden siempre. Las separo.</p>
+<p><em>El programa.</em> Apache, GPL, MIT y AGPL permiten copiar y modificar con condiciones. AGPL añade una obligación extra: si ofreces el programa como servicio en red, tienes que publicar tu código. Por eso algunos servidores usan AGPL y no GPL.</p>
+<p><em>El catálogo de la API.</em> Que un cliente pueda leer un catálogo público no significa que tú puedas descargarlo y redistribuirlo. Cada servicio tiene sus condiciones, y las descargas para uso personal no son lo mismo que volver a publicar archivos.</p>
+<p><em>El paquete y la marca.</em> Cambiarle el nombre a un APK ajeno es legalmente posible y comercialmente engañoso. Las licencias cubren el código, no el nombre ni el icono, y de ahí salen la mayoría de los pleitos entre proyectos.</p>
+<p><em>Lo que no es delito.</em> Instalar una app libre desde su repositorio, escuchar tu música, descargar para uso personal dentro de lo que cada servicio permita. Eso es uso normal y esta guía no va a decir lo contrario.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me hacen</em></p>
+<p><strong>¿Los clientes de catálogo descargan la música a mi teléfono?</strong></p>
+<p>Algunos sí, para escucharla sin conexión. Lo que descargan queda en el teléfono y ocupa espacio. Búscalo en los ajustes y actívalo solo por wifi.</p>
+<p><strong>¿Qué pasa si el servicio cambia algo?</strong></p>
+<p>El cliente deja de funcionar hasta que alguien lo arregle. No es un fallo del programa: es su naturaleza. Por eso conviene tener también un reproductor local con tu música.</p>
+<p><strong>¿Por qué dos repositorios del mismo proyecto tienen licencias distintas?</strong></p>
+<p>Porque separaron el núcleo del cliente. Es una práctica común y a veces deja fichas confusas: la del cliente completo puede no identificar licencia mientras la versión «OSS» sí la declara limpia.</p>
+<p><strong>¿Es malo instalar un reempaque?</strong></p>
+<p>Es riesgoso. Puede llevar publicidad, rastreo o código cambiado, y no lo firma el autor. La licencia lo permite; tu teléfono y tu tiempo no lo recomiendan.</p>
+<p><strong>¿Por qué mi app se cierra sola al abrir?</strong></p>
+<p>Porque detectó que el paquete no es el original. Varios clientes comprueban la firma al arrancar y se cierran si no coincide. Desinstala ese paquete e instala el del repositorio del autor.</p>
+<p><strong>¿Sirve un reproductor local si no tengo música descargada?</strong></p>
+<p>Sirve para lo que tengas: tu colección, lo que te pasen, lo que compres. Si no tienes archivos, el camino es el cliente de catálogo con sus límites.</p>
+<p><strong>¿Los clientes pequeños sirven?</strong></p>
+<p>Sí, y a veces responden más rápido que los grandes. En este censo hay clientes de ★245, ★273 y ★808 con movimiento de esta semana, y uno de ★808 ya está publicando cada semana.</p>
+<p><strong>¿Cuánto ocupa un cliente con descargas?</strong></p>
+<p>Depende de lo que bajes. Una lista de cien canciones en buena calidad puede pasar de un giga. Limita la caché y borra lo que no escuches.</p>
+<p><strong>¿Qué miro antes de instalar una actualización?</strong></p>
+<p>Que venga del repositorio del autor, que la release tenga fecha y que el número de versión sea mayor. Si la descarga no dice versión ni fecha, no la instales.</p>
+<p><strong>¿Y si el autor abandona el proyecto?</strong></p>
+<p>Exporta lo que puedas —listas, archivos— y busca otro cliente. En el mundo de la música libre, los abandonos son frecuentes y las ramas vivas también.</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla, mitos y glosario</em></p>
+<p><em>La tabla de la música libre</em></p>
+<pre>
+Proyecto        ★       Tipo              Licencia    Último empujón
+--------------- ------- ----------------- ----------- ----------------
+Spotube         50530   cliente API       AGPL-3.0    31-oct-2026
+Metrolist       13930   cliente API       GPL-3.0     25-oct-2026
+SimpMusic       12614   cliente API       GPL-3.0     01-nov-2026
+PixelPlayer     6863    cliente API       sin dato    21-sep-2026
+Namida          6756    reproductor local NOASSERTION 26-oct-2026
+InnerTune       6131    cliente API       GPL-3.0     13-nov-2025
+OuterTune       5440    cliente API       GPL-3.0     12-oct-2026
+Auxio           4411    reproductor local GPL-3.0     08-sep-2026
+OpenSpot        2972    cliente web       MIT         03-ago-2026
+Gramophone      2376    reproductor local GPL-3.0     12-oct-2026
+Chocola         1124    cliente API       GPL-3.0     25-oct-2026
+Gyawun          808     cliente API       GPL-3.0     31-oct-2026
+PixelPlayer OSS 304     cliente API       GPL-3.0     01-nov-2026
+Youamp          273     cliente API       MIT         07-sep-2026
+Power-Ampache   245     cliente de servidor GPL-3.0   31-oct-2026
+</pre>
+<p><em>Cómo se lee.</em> Primero la columna del tipo: si es reproductor local, no le pidas catálogo; si es cliente de API, no le pidas que suene sin internet. Después la fecha, y después la licencia, que en dos filas de esta tabla es la parte turbia.</p>
+<p><em>Los mitos</em></p>
+<p><em>«Más estrellas, mejor app»</em>. Spotube tiene ★50.530 y depende de una API ajena como todos los demás. Las estrellas miden interés, no estabilidad.</p>
+<p><em>«Si no actualiza, está roto»</em>. Un reproductor local puede llevar meses sin cambios y funcionar perfecto, porque lee archivos que no cambian de formato.</p>
+<p><em>«Las descargas son mías para siempre»</em>. Las descargas para uso personal dependen de las condiciones de cada servicio, y la app no cambia eso.</p>
+<p><em>«Los reempaques son versiones mejoradas»</em>. A veces solo cambian el icono y meten publicidad. Si no lo firma el autor, no es la app del autor.</p>
+<p><em>«Con una app tengo todo»</em>. Nadie tiene todo con una: el local y el de catálogo se complementan, y quien tiene los dos no se queda sin música una tarde de lluvia.</p>
+<p><em>El glosario</em></p>
+<p>• <em>Cliente de API</em> — app que muestra el catálogo de un servicio público; no tiene música propia.</p>
+<p>• <em>Reproductor local</em> — app que abre archivos tuyos; no necesita internet.</p>
+<p>• <em>Núcleo</em> — la parte del cliente que habla con la API, a veces publicada aparte.</p>
+<p>• <em>Reempaque</em> — APK de una app libre modificado y publicado por otra persona.</p>
+<p>• <em>Firma del APK</em> — la marca del autor; si no coincide, la app no es suya.</p>
+<p>• <em>Release</em> — la versión publicada en el repositorio, con fecha y número.</p>
+<p>• <em>AGPL</em> — licencia que obliga a publicar el código si el programa se ofrece como servicio.</p>
+<p>• <em>NOASSERTION</em> — lo que muestra GitHub cuando no puede identificar la licencia del repositorio.</p>
+<p>• <em>Caché</em> — los archivos temporales que la app guarda para no volver a bajar todo.</p>
+<p>• <em>Servidor propio</em> — programa en tu casa que sirve tu música a varios aparatos.</p>
+<p>───────────────────</p>
+<p><em>🎼 El servidor de música de la casa</em></p>
+<p>Hay un tercer camino que casi nadie menciona y que resuelve el problema de tener la música en un solo aparato: servirla desde tu propia casa.</p>
+<p><em>Qué se necesita.</em> Un aparato encendido con tus archivos —una computadora vieja, una placa chica, un disco conectado al router— y un servidor de música libre. Después, en el teléfono, un cliente que hable con ese servidor.</p>
+<p><em>Los dos papeles.</em> El servidor ordena la biblioteca: carátulas, artistas, discos, listas. El cliente la muestra y la reproduce. Por eso hay apps que solo sirven para esto: el cliente de servidor de ★245 es exactamente eso, y empujó ayer.</p>
+<p><em>Lo que se gana.</em> La misma biblioteca en el teléfono, la computadora y la sala, sin copiar archivos a mano. Y si el servidor está en tu casa, nadie más decide cuándo deja de funcionar.</p>
+<p><em>Lo que se pierde.</em> Dependes de que el servidor esté prendido y de que el teléfono esté en la misma red. En la calle necesitas una red privada o descargas locales; sin eso, el cliente no encuentra nada.</p>
+<p><em>El error clásico.</em> Montar el servidor y no fijar su dirección en el router. Al reiniciarse el aparato, la dirección cambia y el teléfono se queda buscando una biblioteca que ya no está donde estaba.</p>
+<p><em>Para quién es.</em> Para quien tiene muchos archivos y más de un aparato donde oírlos. Para quien escucha cuatro listas en el teléfono, es más trabajo que beneficio.</p>
+<p>───────────────────</p>
+<p><em>📨 Los mensajes que llegan</em></p>
+<p>Las consultas de este tema se repiten, y casi todas nacen de confundir los dos mundos.</p>
+<p><em>«Descargué una canción y no aparece en mi carpeta»</em>. Las descargas de un cliente de API viven dentro de su carpeta privada, no en la carpeta de música del teléfono. Ningún reproductor local las ve.</p>
+<p><em>«Mi app no encuentra nada»</em>. O el servicio cambió algo, o la app lleva meses sin actualizarse. Mira primero la fecha del repositorio.</p>
+<p><em>«Me pide actualizar y no me deja»</em>. Estás intentando instalar una versión que no está firmada por el autor. Desinstala ese paquete e instala la del repositorio.</p>
+<p><em>«¿Cuál es el mejor para escuchar sin datos?»</em>. Un reproductor local, con tu música descargada. No hay cliente de catálogo que suene sin conexión si no bajó antes el archivo.</p>
+<p><em>«Se me borraron las listas al cambiar de app»</em>. Es lo normal: cada cliente guarda a su manera. Se rehacen a mano, y por eso conviene anotarlas antes de mudarse.</p>
+<p><em>«¿Y el reproductor de la computadora?»</em>. Muchos de estos proyectos tienen versión de escritorio, y los que no, funcionan desde el navegador. Lo que no viaja es la biblioteca de listas.</p>
+<p>───────────────────</p>
+<p><em>🌾 Lo que tengo puesto</em></p>
+<p>Un reproductor local, ★4.411, para mi música de siempre. Es el que abre rápido, no pide cuenta y suena en modo avión.</p>
+<p>Un cliente de catálogo, ★12.614, para buscar cosas nuevas. Lo uso con descargas limitadas a wifi y con la caché controlada, porque si no el teléfono se llena en un mes.</p>
+<p>Y nada más. Ni cinco reproductores de prueba, ni reempaques con nombre cambiado, ni actualizaciones automáticas en el cliente grande.</p>
+<p><em>El mantenimiento.</em> Una vez al mes: mirar la fecha del cliente, borrar la caché, revisar que las descargas no se comieron la tarjeta y exportar lo que se pueda exportar. Diez minutos y listo.</p>
+<p><em>Lo que me costó llegar aquí.</em> Dos reproductores probados de más, una tarde reconstruyendo listas y un teléfono lleno dos veces. Nada de eso era necesario: bastaba con leer la fecha del repositorio y activar la casilla de descargas solo por wifi el primer día.</p>
+<p>───────────────────</p>
+<p><em>📌 Cinco líneas para el grupo</em></p>
+<pre>
+1 · ¿tus archivos o el catálogo de una API? Decide eso primero;
+2 · el reproductor local nunca te deja sin música;
+3 · el cliente de catálogo sí, cuando el servicio cambia;
+4 · instala solo desde el repositorio del autor, nunca un reempaque;
+5 · mira la fecha del último empujón antes de confiar.
+</pre>
+<p><em>Por qué cinco y no una lista de nombres.</em> Porque los nombres cambian de año en año y estas cinco líneas sirven igual el que viene. Quien las aprende deja de preguntar por marcas.</p>
+<p>───────────────────</p>
+<p><em>🧭 Mantenimiento de una vez al mes</em></p>
+<p><em>Primero, la fecha.</em> Abre el repositorio del cliente que usas. Si empujó este mes, sigue. Si lleva medio año, mira alternativas con calma.</p>
+<p><em>Segundo, la caché.</em> Borra lo que no escuchaste y limita el tamaño. Es la causa número uno de teléfonos llenos sin saber por qué.</p>
+<p><em>Tercero, la prueba del avión.</em> Abre una canción descargada sin datos. Si suena, tus descargas están bien. Si no, revisa la carpeta o vuelve a bajarla.</p>
+<p><em>Cuarto, la versión.</em> Comprueba que la app que tienes salió del repositorio del autor y no de un enlace de chat. Si dudas, desinstala e instala la buena.</p>
+<p><em>Quinto, el respaldo.</em> Guarda tus listas como puedas: captura, archivo de texto o el propio respaldo de la app. Cuando cambies de cliente, eso te ahorra una tarde.</p>
+<p>───────────────────</p>
+<p><em>🔍 El reempaque por dentro</em></p>
+<p>Entender cómo se hace un reempaque explica por qué los autores se defienden con firma y bloqueo. No es un misterio: es un procedimiento barato.</p>
+<p><em>Primero se baja el paquete original.</em> Está publicado, es libre, y cualquiera puede tomarlo. Ese es el punto de partida y también la razón de que exista el problema.</p>
+<p><em>Después se le cambia el nombre y el icono.</em> Es lo que hace que la app parezca otra cosa. En algunos casos solo cambia el nombre visible; en otros cambia el identificador interno, y ahí es donde el teléfono la trata como una app nueva.</p>
+<p><em>Después se le añaden cosas.</em> Una librería de anuncios, una de estadísticas, un enlace a un sitio. Nada de eso lo autorizó el autor original, y todo eso viaja dentro del paquete que tú instalas.</p>
+<p><em>Y se publica donde no hay revisión.</em> Un enlace en un grupo, una página que imita al proyecto, un canal de mensajería. Ahí no hay ficha que diga quién firma ni qué lleva dentro.</p>
+<p><em>Por qué el bloqueo funciona.</em> Porque el autor comprueba su propia firma al arrancar. Si el paquete fue modificado y vuelto a firmar por otro, la comprobación falla y la app se cierra. No es un error: es un candado.</p>
+<p><em>Qué puedes hacer tú.</em> Instalar solo desde el repositorio, comparar el nombre de la versión y no fiarte de una «versión mejorada» que nadie firma. Con esas tres costumbres, el problema desaparece de tu teléfono.</p>
+<p>───────────────────</p>
+<p><em>🏘️ Cuatro casos de este año</em></p>
+<p><em>El de la lista perdida.</em> Un vecino cambió de cliente y perdió dos años de listas. Lo que le faltó no fue una app mejor: fue una captura de pantalla de sus listas antes de mudarse.</p>
+<p><em>El del teléfono lleno.</em> Una muchacha no entendía por qué su teléfono se quedaba sin espacio cada mes. Era la caché del cliente de música, que guardaba cada canción escuchada. Limitó la caché y se acabó el problema.</p>
+<p><em>El del reproductor que no pedía nada.</em> Un señor de sesenta y tantos solo quería oír sus discos. Le instalaron el reproductor local de ★4.411, le organizaron las carpetas y no volvió a preguntar nada. Para él, toda esta discusión es ruido.</p>
+<p><em>El del paquete raro.</em> Un muchacho instaló una «versión mejorada» que le llegó por chat. La app abría, tenía publicidad y cerraba cada dos canciones. Desinstaló, instaló la del repositorio y santo remedio. Le costó una tarde entender que el problema era el paquete y no el teléfono.</p>
+<p>───────────────────</p>
+<p><em>🧒 Cómo explicarlo sin dar una clase</em></p>
+<p><em>La imagen.</em> «Es como tener la discoteca en casa o tener una llave del videoclub: las dos sirven, y el día que cierran el videoclub solo te queda la discoteca».</p>
+<p><em>Una segunda imagen, para el reempaque.</em> «Es como una botella de refresco con la etiqueta de tu marca favorita, llenada por alguien más y tapada con otra tapa». Se entiende en un segundo y no hace falta hablar de firmas ni de paquetes.</p>
+<p><em>Y una tercera, para la licencia.</em> «Si el dueño no dijo qué se puede hacer con su casa, nadie puede mudarse a vivir en ella cuando él se vaya». Es la forma más corta de explicar por qué un proyecto sin licencia se queda quieto para siempre.</p>
+<p><em>La regla.</em> «Instala desde la página del que lo hizo, no desde el enlace que te llegó». Con esa frase se evita casi todo el daño posible en este tema.</p>
+<p><em>Lo que se hace una vez.</em> Ordenar la música propia en carpetas y dejar un reproductor local instalado. Aunque no lo uses a diario, es la red que sigue sonando cuando lo demás falla.</p>
+<p><em>Lo que no hay que explicar.</em> Licencias, lenguajes ni números de versión. Nada de eso cambia lo que la persona tiene que hacer, y explicarlo solo consigue que deje de preguntar.</p>
+<p>───────────────────</p>
+<p><em>🧾 Lo que aquí no se afirma</em></p>
+<p>No se afirma que estos dieciséis sean todos los reproductores libres que existen. Son los que medí hoy, tres veces cada uno.</p>
+<p>No se afirma que un cliente de catálogo sea mejor que un reproductor local. Son respuestas a preguntas distintas, y la mayoría de la gente necesita las dos.</p>
+<p>No se afirma que un proyecto con licencia confusa sea ilegal. Significa que no se puede identificar, y eso es un problema práctico para quien quiera continuarlo.</p>
+<p>No se afirma que los reempaques sean virus. Son paquetes modificados por terceros, y el riesgo está en lo que llevan dentro y en quién los firma.</p>
+<p>No se midió aquí la calidad de sonido ni la rapidez de cada app, porque dependen del teléfono y del oído de cada quien. Se midió quién sigue publicando, que es lo que una fecha puede probar.</p>
+<p>───────────────────</p>
+<p><em>📈 Lo que se espera en seis meses</em></p>
+<p>Sin adivinar: lo que ya está pasando en los repositorios y hacia dónde apunta.</p>
+<p><em>Los clientes de catálogo van a seguir dependiendo de la API.</em> Es su naturaleza. Mientras el servicio mantenga su interfaz, seguirán funcionando; cuando cambie, se verán las prisas en los repositorios.</p>
+<p><em>Las versiones «OSS» van a multiplicarse.</em> Separar el núcleo y publicar una versión con licencia limpia es la salida elegida por más de un equipo. En seis meses habrá varios proyectos con ese patrón, y conviene aprender a leerlo.</p>
+<p><em>Los reproductores locales no van a crecer en estrellas y van a seguir siendo los más estables.</em> No dependen de nadie, y por eso importan menos en las conversaciones y más en el uso diario.</p>
+<p><em>Los reempaques van a seguir existiendo.</em> Mientras haya una app libre con público, habrá alguien que le cambie el nombre. La defensa no es una ley nueva: es la costumbre de instalar desde el repositorio.</p>
+<p><em>Lo que no se puede prever.</em> Qué servicio cambiará su API el mes que viene, ni qué cliente dejará de actualizarse de un día para otro. Eso no lo dice ningún censo, ni este ni ninguno.</p>
+<p>───────────────────</p>
+<p><em>🏁 Para quien llega con prisa</em></p>
+<p>Cuatro ideas y una costumbre.</p>
+<p>Primera: decide si quieres oír lo que ya tienes o descubrir cosas nuevas. Son dos apps distintas y ninguna hace bien el trabajo de la otra.</p>
+<p>Segunda: la fecha del repositorio manda. Un cliente con ★6.131 quieto desde noviembre de 2025 ya te dijo lo que necesitas saber.</p>
+<p>Tercera: instala solo desde el repositorio del autor. El reempaque no lo firma quien hizo la app, y eso basta para dejarlo pasar.</p>
+<p>Cuarta: limita la caché el primer día. Es lo que evita que el teléfono se llene sin que sepas por qué.</p>
+<p><em>La costumbre.</em> Una vez al mes, abre tu cliente, mira la fecha del repositorio, borra la caché y prueba una canción en modo avión. Cuatro minutos que ahorran una tarde de sorpresas.</p>
+<p><em>🔌 Qué pasa cuando el servicio cambia</em></p>
+<p>Es el escenario que más consultas genera y el que menos se explica. Vale la pena contarlo despacio, porque no es un fallo del programa.</p>
+<p><em>La cadena, en orden.</em> Tu cliente pide una canción. El cliente llama a una dirección del servicio. El servicio responde con un archivo o con un enlace temporal. El cliente reproduce lo que le dieron. Si cualquiera de esos pasos cambia, la cadena se corta.</p>
+<p><em>Qué cambia el servicio.</em> A veces la dirección. A veces el formato de la respuesta. A veces pide un dato extra para responder. Ninguna de esas cosas rompe tu teléfono: rompen el acuerdo silencioso que el cliente tenía con el servicio.</p>
+<p><em>Qué hace el cliente cuando eso pasa.</em> Nada, porque no puede. Muestra un error, se queda cargando o devuelve una lista vacía. Por eso la gente piensa que la app se dañó cuando en realidad cambió el otro lado.</p>
+<p><em>Cuánto tarda en arreglarse.</em> Depende de cuántas manos haya. Un proyecto con equipo lo corrige en días; uno abandonado puede no corregirlo nunca, y ahí es donde la fecha del repositorio se vuelve el dato más útil de todos.</p>
+<p><em>Qué puedes hacer mientras.</em> Escuchar lo descargado y usar el reproductor local. Es exactamente para eso que conviene tener los dos.</p>
+<p>───────────────────</p>
+<p><em>🧰 Descargas, caché y espacio</em></p>
+<p>El manejo del espacio es lo que separa un teléfono usable de uno que avisa cada mes que no queda memoria.</p>
+<p><em>Qué guarda un cliente de catálogo.</em> Las descargas que pediste, la caché de lo que escuchaste y las carátulas. Lo primero lo decidiste tú; lo segundo crece solo, y es lo que llena el aparato sin que nadie lo note.</p>
+<p><em>Cuánto ocupa.</em> Una lista de cien canciones en buena calidad puede pasar de un giga. La caché, en cambio, se mide en cientos de megas y se puede borrar sin perder nada: la música se vuelve a bajar cuando la escuches.</p>
+<p><em>La casilla que hay que activar el primer día.</em> Descargas solo por wifi. Evita que una tarde de datos móviles se lleve el saldo y deja el teléfono sin espacio en la misma semana.</p>
+<p><em>Qué hacer con lo que ya no escuchas.</em> Borrar descargas viejas es más útil que borrar la caché: la segunda se regenera y las primeras a veces llevan meses ahí sin uso.</p>
+<p><em>El truco del reproductor local.</em> Si tienes tu música en archivos, apunta el reproductor a una sola carpeta y mantén el orden ahí. Es más aburrido que una biblioteca automática, y a la larga se encuentra todo mucho más rápido.</p>
+<p>───────────────────</p>
+<p><em>🕰️ La cronología de la música libre</em></p>
+<p>Cuatro etapas y se entiende el mapa de hoy.</p>
+<p><em>Primero fueron los reproductores.</em> Apps que abrían carpetas y nada más. Su enemigo era el formato raro y el nombre de archivo desordenado; su promesa era simple y se cumplía.</p>
+<p><em>Después llegaron los clientes de catálogo.</em> Cuando las plataformas abrieron sus interfaces, apareció la posibilidad de mostrar un catálogo enorme sin tener música. El entusiasmo fue enorme y la fragilidad también, porque todo dependía del humor de un servicio ajeno.</p>
+<p><em>Después las familias se partieron.</em> Un cliente grande dejaba de recibir cambios y sus usuarios se pasaban a la rama viva, igual que pasó en el mundo de los lectores de manga. La historia se repite en cada ecosistema libre.</p>
+<p><em>Y ahora vienen las separaciones de núcleo.</em> Publicar la parte delicada aparte, con licencia limpia, para que el proyecto pueda seguir sin enredos. Es la etapa en la que estamos, y explica por qué hay repositorios pequeños con empujones recientes al lado de clientes gigantes.</p>
+<p><em>Lo que la cronología enseña.</em> Que el reproductor local, el más viejo de todos, sigue siendo el único que no depende de nadie. Los demás son mejores para descubrir y peores para conservar.</p>
+<p>───────────────────</p>
+<p><em>🔎 Lo que los números no dicen</em></p>
+<p>Las tablas de este censo son de fiar en lo que miden, y hay cosas que no miden y conviene tener presentes.</p>
+<p><em>No dicen cuánta gente usa la app.</em> Las estrellas acumulan curiosidad durante años. Un cliente con ★13.930 puede tener una comunidad activa o estar en el cajón de aplicaciones olvidadas.</p>
+<p><em>No dicen cuánto va a durar.</em> Tres años publicando cada mes no garantizan el mes que viene, y un cierre puede llegar sin aviso previo. Lo único que una fecha prueba es que ayer hubo alguien trabajando.</p>
+<p><em>No dicen si el catálogo que muestra está completo.</em> Eso depende del servicio, no del cliente, y cambia sin avisar.</p>
+<p><em>No dicen si te va a gustar.</em> La comodidad de escuchar es tuya: los botones, el orden de las listas, la rapidez al pasar de canción. Eso se prueba en una tarde y no aparece en ninguna ficha.</p>
+<p>───────────────────</p>
+<p><em>🧾 El reempaque y tu biblioteca</em></p>
+<p>Cuando alguien instala un reempaque, lo que pierde no es la app: es lo que había dentro.</p>
+<p><em>Por qué se pierde.</em> El paquete modificado suele tener otro identificador interno. El teléfono lo trata como una aplicación distinta, con su propia carpeta y sus propios datos. La biblioteca del original sigue ahí, invisible, hasta que alguien desinstala el reemplazo.</p>
+<p><em>Qué se puede recuperar.</em> Las descargas, si no se borraron los archivos; las listas, casi nunca, porque viven dentro de los datos de la app y no en un archivo aparte que puedas copiar.</p>
+<p><em>Cómo evitar el drama.</em> Antes de instalar cualquier cosa con nombre nuevo, exporta lo que la app permita exportar y anota en un papel tus listas activas. Dos minutos que después valen una tarde.</p>
+<p><em>Y una costumbre que sirve para todo.</em> Cuando llegue un aviso de actualización con un nombre distinto al que tienes, no toques instalar: mira el repositorio del autor y compara. Nueve de cada diez veces ese aviso no viene de donde dice venir.</p>
+<p>───────────────────</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces</em></p>
+<p>Cada proyecto con su dirección, para que nadie tenga que buscarla.</p>
+<p><em>Los clientes de catálogo</em></p>
+<ul>
+<li>Spotube: <a href="https://github.com/team-spotube/spotube">https://github.com/team-spotube/spotube</a></li>
+<li>Metrolist: <a href="https://github.com/MetrolistGroup/Metrolist">https://github.com/MetrolistGroup/Metrolist</a></li>
+<li>SimpMusic: <a href="https://github.com/maxrave-dev/SimpMusic">https://github.com/maxrave-dev/SimpMusic</a></li>
+<li>Núcleo de SimpMusic: <a href="https://github.com/maxrave-dev/core">https://github.com/maxrave-dev/core</a></li>
+<li>OuterTune: <a href="https://github.com/OuterTune/OuterTune">https://github.com/OuterTune/OuterTune</a></li>
+<li>InnerTune: <a href="https://github.com/z-huang/InnerTune">https://github.com/z-huang/InnerTune</a></li>
+<li>OpenSpot: <a href="https://github.com/BlackHatDevX/openspot-music-app">https://github.com/BlackHatDevX/openspot-music-app</a></li>
+<li>Youamp: <a href="https://github.com/siper/Youamp">https://github.com/siper/Youamp</a></li>
+<li>Chocola: <a href="https://github.com/sosauce/Chocola">https://github.com/sosauce/Chocola</a></li>
+<li>Gyawun: <a href="https://github.com/sheikhhaziq/gyawun_music">https://github.com/sheikhhaziq/gyawun_music</a></li>
+</ul>
+<p><em>Los que separaron el código</em></p>
+<ul>
+<li>PixelPlayer: <a href="https://github.com/PixelPlayerHQ/PixelPlayer">https://github.com/PixelPlayerHQ/PixelPlayer</a></li>
+<li>PixelPlayer OSS: <a href="https://github.com/PixelPlayerHQ/PixelPlayerOSS">https://github.com/PixelPlayerHQ/PixelPlayerOSS</a></li>
+</ul>
+<p><em>Los reproductores locales</em></p>
+<ul>
+<li>Namida: <a href="https://github.com/namidaco/namida">https://github.com/namidaco/namida</a></li>
+<li>Auxio: <a href="https://github.com/OxygenCobalt/Auxio">https://github.com/OxygenCobalt/Auxio</a></li>
+<li>Gramophone: <a href="https://github.com/FoedusProgramme/Gramophone">https://github.com/FoedusProgramme/Gramophone</a></li>
+</ul>
+<p><em>Los del servidor propio</em></p>
+<ul>
+<li>Power-Ampache 2: <a href="https://github.com/icefields/Power-Ampache-2">https://github.com/icefields/Power-Ampache-2</a></li>
+</ul>
+<p>───────────────────</p>
+<p><em>🃏 El meme del corte</em></p>
+<blockquote>—Le instalé la versión mejorada que me pasaron.</blockquote>
+<blockquote>—¿Y quién la firmó?</blockquote>
+<blockquote>—¿Firmar qué, si era gratis?</blockquote>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — dos llaves y una discoteca</em></p>
+<p>Lo que esta guía enseña, en plata: en la música libre del teléfono hay dos formas de tener lo mismo y muy poca gente las distingue. La que lee tus archivos no se cae nunca; la que lee de una API te da el mundo y depende de que el mundo no cambie.</p>
+<p>El segundo hallazgo del año es una maniobra repetida: separar el núcleo para publicar una versión con licencia limpia. Cuando veas dos repositorios con el mismo nombre y licencias distintas, ya sabes qué está pasando y por qué la ficha del proyecto grande puede aparecer sin licencia identificable.</p>
+<p>Y el tercero es el de siempre, con música: los reempaques. Un paquete que no firma el autor no es una versión mejorada; es otra cosa con el mismo dibujo. La defensa no es un antivirus: es instalar desde donde el autor publica.</p>
+<blockquote>—¿Y si mañana el servicio cambia y no suena nada?</blockquote>
+<blockquote>—Entonces abres el reproductor local y sigues oyendo lo tuyo mientras alguien arregla el otro.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Una app de música puede morir sin un solo cambio en su código: basta con que el otro lado de la línea cambie de idea.</p>
+<p><em>Medición del corte:</em> domingo 1 de noviembre de 2026, entre las 10:05 y las 12:40 de Santo Domingo, y repasada a las 10:52· dieciséis proyectos leídos tres veces cada uno (buscador, página y archivo crudo) · dos fichas con licencia que el propio GitHub no identifica quedan dichas con esas palabras · lo que no se midió está señalado arriba como no medido.</p>
+<p><em>Licencia:</em> contenido CC BY-SA 4.0, datos CC BY 4.0, código MIT; marca y nombre de la casa reservados para «Alexis (La Bandita)».</p>
+<h2>🗒️ Notas del corte</h2>
+<p><strong>Nota de corte (1-nov):</strong> los empujones y las estrellas son de la misma mañana y salen de tres lecturas por proyecto. Donde la ficha de GitHub no identifica la licencia, se publica esa palabra —NOASSERTION— y se añade lo que dice el README, en vez de elegir la versión que queda más bonita.</p>
+<p><strong>Nota de alcance (1-nov):</strong> esta guía habla de programas, no de catálogos. No reparte enlaces de música ni recomienda servicios: mide proyectos, enseña a distinguir un reproductor local de un cliente de API y explica por qué los autores bloquean los reempaques.</p>
+<p><strong>Nota de corrección (1-nov):</strong> uno de los proyectos de este censo no pudo leerse por su nombre de usuario exacto y se midió con el que aparece en el buscador; se anota aquí porque una ficha que se calla sus huecos no sirve para decidir nada.</p>
+<p><strong>Nota de repaso (1-nov, 10:52):</strong> el catálogo se volvió a leer después del mediodía temprano y trajo una novedad de peso: SimpMusic publicó su v2.5.0 hoy mismo, además de empujar. Dieciséis repositorios en la lista, dos con empujón de hoy y ninguno archivado; seis estrellas se movieron desde la primera pasada y se publican las nuevas.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

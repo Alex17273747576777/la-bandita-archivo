@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-01T12:37:08Z",
+   "oid": "c8618a8bb14d693a06953b7e382541cd7d40728d"
+  }
+ },
+ "diskUsage": 189376,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "Gaiser147/Stash",
+ "pushedAt": "2026-10-13T10:54:32Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-05-19T22:58:28Z",
+    "tagName": "v0.9.33-navidrome-sync"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

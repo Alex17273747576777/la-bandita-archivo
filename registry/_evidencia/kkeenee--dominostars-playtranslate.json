@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-06-12T16:50:08Z",
+   "oid": "a1b9cb43cae665176f725ee2e4bf34061336c838"
+  }
+ },
+ "diskUsage": 61349,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "kkeenee/dominostars-playtranslate",
+ "pushedAt": "2026-06-12T16:50:13Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-05-14T12:08:50Z",
+   "oid": "7a5dee083b0dd3982713756e9f701a877ca12fd9"
+  }
+ },
+ "diskUsage": 916348,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "Rhetorikk/winnative",
+ "pushedAt": "2026-05-14T12:08:51Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

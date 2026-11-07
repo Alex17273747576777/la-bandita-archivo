@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-21T14:32:47Z",
+   "oid": "1c34d7d1a1de16ec9a5e27f18682754251324ec9"
+  }
+ },
+ "diskUsage": 70135,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "NotBlankyu/yurei",
+ "pushedAt": "2026-08-21T15:02:28Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-06-16T12:26:18Z",
+    "tagName": "r6383"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

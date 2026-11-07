@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-04-11T14:11:57Z",
+   "oid": "7c13d15c4912c0f11916dae0735b860cd056e2e3"
+  }
+ },
+ "diskUsage": 363231,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "quimsical/mangayomi",
+ "pushedAt": "2026-04-12T23:18:10Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

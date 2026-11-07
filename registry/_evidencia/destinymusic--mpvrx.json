@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-14T09:16:28Z",
+   "oid": "f5ada7fe8d701dde442c53187c455a8738f89b20"
+  }
+ },
+ "diskUsage": 466397,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU Affero General Public License v3.0",
+  "spdxId": "AGPL-3.0"
+ },
+ "nameWithOwner": "DestinyMusic/mpvRx",
+ "pushedAt": "2026-08-14T09:16:31Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

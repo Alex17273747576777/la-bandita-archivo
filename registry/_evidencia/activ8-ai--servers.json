@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-03-25T06:27:00Z",
+   "oid": "eb97798e01efa35ef0fb8c0bf66246315083e056"
+  }
+ },
+ "diskUsage": 26936,
+ "forkCount": 0,
+ "isArchived": true,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "Activ8-AI/servers",
+ "pushedAt": "2026-03-29T01:33:08Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 1
+}

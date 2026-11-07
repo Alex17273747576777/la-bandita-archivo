@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-26T01:32:05Z",
+   "oid": "76a61bf79a979dc654ace3cb08128853e046096a"
+  }
+ },
+ "diskUsage": 499488,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "FamTheMystery/mangayomi",
+ "pushedAt": "2026-08-26T01:32:07Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

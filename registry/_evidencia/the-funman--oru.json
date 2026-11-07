@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-16T22:56:02Z",
+   "oid": "daedf84461a814abce9d313c2f0e24af2e9353f1"
+  }
+ },
+ "diskUsage": 106944,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "The-FunMan/oru",
+ "pushedAt": "2026-11-03T23:59:38Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": true,
+    "publishedAt": "2026-10-16T01:18:34Z",
+    "tagName": "v0.0.1-dev.1"
+   }
+  ]
+ },
+ "stargazerCount": 4
+}

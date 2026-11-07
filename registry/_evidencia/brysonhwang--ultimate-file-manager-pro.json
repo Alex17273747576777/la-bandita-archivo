@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-13T09:38:47Z",
+   "oid": "992f946936faa3d74c61e2124bbb31bebbbd4637"
+  }
+ },
+ "diskUsage": 246764,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "brysonhwang/ultimate-file-manager-pro",
+ "pushedAt": "2026-09-13T09:39:01Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

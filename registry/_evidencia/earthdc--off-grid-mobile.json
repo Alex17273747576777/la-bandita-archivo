@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-02-16T22:02:14Z",
+   "oid": "631fb76026730c580eafe57a72354ac72645e507"
+  }
+ },
+ "diskUsage": 81679,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "EarthDC/off-grid-mobile",
+ "pushedAt": "2026-02-16T22:27:27Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

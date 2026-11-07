@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-25T23:14:31Z",
+   "oid": "366ac00393d68a2884971ed93e1420b830490e17"
+  }
+ },
+ "diskUsage": 18780,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU Affero General Public License v3.0",
+  "spdxId": "AGPL-3.0"
+ },
+ "nameWithOwner": "ByYudkowskysTentacle/OpenLibFrozen",
+ "pushedAt": "2026-08-26T16:16:22Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

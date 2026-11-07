@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-07-02T18:19:03Z",
+   "oid": "c74d564fc169bbef0c1bc600db7452465b7b6c3d"
+  }
+ },
+ "diskUsage": 72528,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "SkyShores/tsundoku",
+ "pushedAt": "2026-07-02T18:19:04Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2022-03-17T11:10:15Z",
+   "oid": "eb81befd34148b8796667576cf34a37678c02a74"
+  }
+ },
+ "diskUsage": 654381,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "d9k6s/CodeAssist",
+ "pushedAt": "2022-03-17T11:10:15Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-02T14:18:33Z",
+   "oid": "44cc27ee1bad010a67fdb8cc89165f1a75b89c8e"
+  }
+ },
+ "diskUsage": 41270,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "dakingeman/obtainx-handheld",
+ "pushedAt": "2026-10-02T14:18:35Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

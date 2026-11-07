@@ -1,0 +1,46 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: la-bandita-archivo
+Upstream-Contact: Alexis (La Bandita)
+Source: https://github.com/Alex17273747576777/la-bandita-archivo
+
+# Este archivo declara la licencia de todo lo que no lleva cabecera propia.
+# Se usa dep5 en lugar de sembrar 10.000 cabeceras SPDX porque el árbol incluye
+# transcripciones, capturas y JSON generados donde una cabecera rompería el formato.
+# Comprobación: `reuse lint` (herramienta de la FSFE) debe salir sin faltantes.
+
+Files: tools/*.py
+Copyright: 2026 Alexis (La Bandita)
+License: MIT
+
+Files: mcp-labandita-registro/* .github/*
+Copyright: 2026 Alexis (La Bandita)
+License: MIT
+
+Files: CIMIENTOS/* corpus-la-bandita/* PROCESOS/*
+Copyright: 2026 Alexis (La Bandita)
+License: CC-BY-SA-4.0
+
+Files: guia-maestra/* Arena-Reimagined/* docs/* SKILLS/* LEGAL/* README.md ARQUITECTURA.md MAPA-DEL-ARCHIVO.md MANIFIESTO-ARQUITECTURA.md CORAZON-LA-BANDITA.md CHANGELOG.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md SUPPORT.md
+Copyright: 2026 Alexis (La Bandita)
+License: CC-BY-SA-4.0
+
+Files: registry/* schemas/* attestations/*
+Copyright: 2026 Alexis (La Bandita)
+License: CC-BY-4.0
+
+Files: site/* uploads/*
+Copyright: 2026 Alexis (La Bandita)
+License: CC-BY-SA-4.0
+
+Files: LICENSES/* .reuse/*
+Copyright: 2026 Alexis (La Bandita)
+License: CC0-1.0
+
+Files: ARCHIVO-HISTORICO/*
+Copyright: 2026 Alexis (La Bandita)
+License: CC-BY-SA-4.0
+Comment: Se conserva con sus fallos y con su fecha. No se reescribe.
+
+Files: .gitignore Makefile tools/baseline.json NOTICE
+Copyright: 2026 Alexis (La Bandita)
+License: MIT

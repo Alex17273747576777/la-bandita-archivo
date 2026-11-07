@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-27T02:17:05Z",
+   "oid": "c9fbbb342f2689c852046804f4f5c9afa45b5dcb"
+  }
+ },
+ "diskUsage": 1101161,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "daysooftheweek/Daysnative",
+ "pushedAt": "2026-09-29T21:20:20Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": true,
+    "publishedAt": "2026-09-24T23:11:30Z",
+    "tagName": "Alpha_0.0.1"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-11T17:07:23Z",
+   "oid": "c4fce2c9be5a23905326a66aef7fa9130b24b0ae"
+  }
+ },
+ "diskUsage": 501418,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "jang-geon/mangayomi-translate-ko",
+ "pushedAt": "2026-09-11T17:08:03Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

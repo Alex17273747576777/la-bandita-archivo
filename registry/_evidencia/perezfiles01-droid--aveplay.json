@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-02T15:14:06Z",
+   "oid": "c9cc4d4811deafaa346bc66f1e5a8149f445560f"
+  }
+ },
+ "diskUsage": 604185,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "perezfiles01-droid/AvePlay",
+ "pushedAt": "2026-09-03T05:57:34Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": true,
+    "publishedAt": "2026-09-02T16:16:20Z",
+    "tagName": "debug-latest"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-07-17T10:07:30Z",
+   "oid": "32e7b9602a6b37d281893fc7a14786d8718ae3ef"
+  }
+ },
+ "diskUsage": 42709,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "higedamc/firedown",
+ "pushedAt": "2026-07-18T05:41:44Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-28T18:12:47Z",
+   "oid": "9cb0ae43fedc948efdea7c0661eb61249af5e81a"
+  }
+ },
+ "diskUsage": 19502,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "SoaringWinds/Zangetsu",
+ "pushedAt": "2026-08-28T18:12:49Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Clones, contraseñas y sesiones: el día en que el enlace no era el sitio">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>Clones, contraseñas y sesiones: el día en que el enlace no era el sitio</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Clones, contraseñas y sesiones: el día en que el enlace no era el sitio", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "1 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>Clones, contraseñas y sesiones: el día en que el enlace no era el sitio</h1>
+<p class="meta">Facebook · 1 de noviembre de 2026 · 40,139 caracteres</p>
+<p><em>Clones, contraseñas y sesiones: el día en que el enlace no era el sitio</em></p>
+<p><em>La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 05 de Facebook</em></p>
+<p><em>🗺️ Mapa de esta guía</em></p>
+<pre>
+├── ⚡ En una página
+├── 🎬 Cuatro escenas del mismo engaño
+├── 🧾 El censo de los espejos, medido hoy
+├── 🧩 Anatomía de un clon, sin tecnicismo
+├── 🛠️ Comprobar un sitio en nueve pasos
+├── 🔑 La llave que no se copia
+├── 📱 El censo de las herramientas
+├── 🚑 Si ya entregaste la contraseña
+├── 🧭 Cuando el sitio no cae, cambia de dueño
+├── ⚖️ La ley, sin sermón
+├── ❓ Preguntas que me hacen
+└── 🔗 Enlaces y notas del corte
+</pre>
+<p>───────────────────</p>
+<p><em>⚡ En una página</em></p>
+<p>El enlace llegó por un grupo, con la dirección casi igual a la de siempre: una letra cambiada, un guion de más, un dominio que termina en otra cosa. La persona entró, vio la pantalla de siempre y escribió su contraseña. No hubo virus, no hubo aviso, no hubo nada raro. Al día siguiente la cuenta estaba en manos de otro y ella seguía creyendo que había entrado al sitio de verdad.</p>
+<p>Ese es el engaño que trata esta guía, y esta mañana lo medí en vivo en vez de contarlo de memoria. Cinco dominios del mismo vecindario, leídos tres veces cada uno por tres caminos distintos: la capa del protocolo, el certificado del servidor y la página tal como llega. Hoy solo dos entregan contenido; los otros tres contestan con un desafío, con el origen caído o con el borde sin respuesta. Y los cinco están detrás de la misma red de protección, con certificados emitidos entre el 19 de septiembre y el 26 de octubre de este año.</p>
+<p>Eso cambia el consejo que uno da en la calle. Ya no sirve preguntar «¿el sitio se ve bien?», porque los clones copian la pantalla en una tarde. Lo que distingue a un sitio de su copia es otra cosa: el certificado, la fecha de emisión, la dirección exacta y el camino por el que llegó el enlace. Nada de eso se ve a simple vista, y todo eso se comprueba en dos minutos.</p>
+<p>Los números de esta mañana, sobre los cinco espejos: el que responde trae el catálogo con relleno invisible y todos sus enlaces apuntan a la portada, que es exactamente lo que hace una página cuando quiere que un programa no la copie. El que tiene el origen caído devuelve 522 después de diecinueve segundos y medio de espera. El que contesta un desafío devuelve diecisiete bytes y ni una letra de contenido.</p>
+<p>La idea que hay que llevarse: una contraseña no se pierde por un virus, se pierde por escribirla en el sitio equivocado. Y el sitio equivocado casi nunca se ve mal: se ve igual, llega por donde no debía y se va sin dejar rastro.</p>
+<p>───────────────────</p>
+<p><em>🎬 Cuatro escenas del mismo engaño</em></p>
+<p><strong>La cuenta que amaneció vendida.</strong> Un joven que leía en un sitio de mangas encontró un día que su cuenta no abría. Al revisar el correo vio un mensaje de su propio proveedor avisando de un inicio de sesión desde otra ciudad. Nunca instaló nada y nunca abrió un archivo raro: había entrado por un enlace de un grupo y había escrito la misma contraseña que usaba en todas partes. El daño no fue el sitio: fue la contraseña repetida.</p>
+<p><strong>El gestor que se vació solo.</strong> Una señora guardaba todo en el bloc de notas del teléfono. Un sobrino le pasó una aplicación de mensajería con una función extra. Para «activarla» había que dar permiso de accesibilidad, y ella lo dio. Tres días después alguien respondía a sus mensajes antes que ella. Ahí no hubo clon de sitio: hubo un permiso entregado sin entender qué permitía.</p>
+<p><strong>El código de seis dígitos que llegó dos veces.</strong> A un técnico le pidieron el código que acababa de recibir por mensaje «para verificar la cuenta del trabajo». El código era suyo, y con él el otro lado cambió la contraseña sin necesitar nada más. La verificación en dos pasos no falló: falló el momento en que el código se dijo en voz alta.</p>
+<p><strong>La sesión que sobrevivió al cambio de contraseña.</strong> Una muchacha notó actividad extraña, cambió su contraseña y todo siguió igual. Lo que no hizo fue cerrar las sesiones abiertas ni revisar los dispositivos vinculados: el intruso ya estaba adentro y la contraseña nueva no lo saca de donde ya tiene llave.</p>
+<p>Las cuatro escenas tienen el mismo final si se actúa a tiempo: contraseña distinta por servicio, gestor que la guarde, verificación en dos pasos con aplicación en vez de mensaje, y revisión de sesiones abiertas una vez al mes. Ninguna de las cuatro se resuelve comprando una aplicación: se resuelve con dos minutos de orden.</p>
+<p>───────────────────</p>
+<p><em>🧾 El censo de los espejos, medido hoy</em></p>
+<p>Cinco dominios, tres lecturas cada uno y tres métodos distintos: la respuesta del protocolo sin seguir redirecciones, el certificado que presenta el servidor y la página renderizada que llega a una persona. Nada de esto viene de una lista guardada: se midió esta mañana, entre las 09:40 y las 10:05 de Santo Domingo.</p>
+<p><em>Los tres que hoy no entregan contenido</em></p>
+<ul>
+<li><strong>tmohentai.app</strong> — contesta 403 con diecisiete bytes de cuerpo en 0,12 s. El 403 no es un error de contenido: es un desafío de la red de protección. Certificado de Let's Encrypt emitido el 3 de octubre de 2026 y válido hasta el 1 de enero de 2027, con nombres alternativos para el dominio y todos sus subdominios. Dirección 172.67.143.44.</li>
+<li><strong>zonatmo.org</strong> — contesta 403 con los mismos diecisiete bytes, en 0,06 s. Certificado de Let's Encrypt del 19 de septiembre de 2026, con vencimiento el 18 de diciembre de este año. Dirección 104.21.6.217. Es el certificado más viejo de los cinco y eso no lo hace más confiable: lo hace simplemente el que lleva más tiempo sin renovarse.</li>
+<li><strong>lectortmo.vip</strong> — contesta 522 después de diecinueve segundos y medio. Ese código lo da la red de protección cuando el servidor de detrás no responde: el dominio existe, el certificado está vigente hasta el 24 de enero de 2027, y el contenido no está. Para quien lo visita, la página se queda cargando hasta que el navegador se rinde.</li>
+</ul>
+<p><em>Los dos que hoy sí entregan</em></p>
+<ul>
+<li><strong>zonatmo.to/home</strong> — la portada redirige con 301 a la misma ruta con barra final y ahí entrega catálogo completo: títulos, capítulos, géneros y descripciones. Certificado de Google Trust Services del 9 de octubre de 2026. Lo interesante es lo que esconde: los bloques de «más vistos» llegan con títulos de relleno invisible y todos los enlaces apuntan a la portada. Es una defensa contra la copia automática, y para quien mide significa que no se puede contar el catálogo con el HTML.</li>
+<li><strong>tmomanhwa.com</strong> — contesta 200 con 113.286 bytes en 0,81 s. Certificado de Google Trust Services del 22 de octubre de 2026. Entrega «Últimos Capítulos» con fechas visibles: 16, 25, 27 y 31 de octubre, y etiquetas de novedad en los capítulos recién subidos. Es el único de los cinco que se comporta como un sitio común y corriente.</li>
+</ul>
+<p><em>Lo que el censo dice en cuatro líneas.</em> Los cinco están detrás de la misma red de protección, así que la dirección que contesta nunca es la del servidor de contenido: es el borde. Los cinco tienen certificado emitido en las últimas seis semanas, del 19 de septiembre al 26 de octubre, lo que en la práctica significa dominios nuevos o reemitidos. Solo dos entregan hoy, y uno de esos dos sirve el catálogo de forma que un programa no lo pueda copiar entero. Y ninguno de los cinco se puede citar como fuente estable: un espejo que cambia de certificado cada mes no es una fuente, es un espejo.</p>
+<p><em>Lo que este censo no dice.</em> No dice si el contenido es legal ni si es de fiar: mide disponibilidad y borde, que es lo que se puede medir con una conexión y un reloj. Tampoco dice cuál es el sitio original de nada, porque eso exige documentos que una guía no tiene. Lo que sí dice es que tres de los cinco estaban caídos o cerrados en el momento de la medición, y que quien tenga solo esos tres cargados en su lector va a creer que el lector está roto.</p>
+<p>───────────────────</p>
+<p><em>🧩 Anatomía de un clon, sin tecnicismo</em></p>
+<p>Un clon de sitio es una copia de la pantalla con una dirección distinta. Se hace en una tarde: se baja la página, se cambian los formularios para que manden lo que la persona escribe a otro lado, se compra un dominio parecido y se espera. La copia no necesita ser perfecta; necesita llegar antes que la duda.</p>
+<p>Hay cuatro capas y conviene saber cuál se puede tocar. La primera es el nombre: dominio distinto, a veces con una letra cambiada, a veces con otro final. La segunda es el certificado: un candado en la barra no significa que el sitio sea el bueno, significa que la conexión va cifrada hacia donde sea que va. La tercera es la página: idéntica, copiada del original, con el mismo logo y los mismos colores. La cuarta es el destino de lo que se escribe: ahí está el engaño completo.</p>
+<p>De las cuatro, la única que una persona puede comprobar con seguridad es la primera, y con ayuda la segunda. Por eso el consejo práctico no es «fíjate bien en la página»: es «no entres por el enlace que te mandaron». Un sitio de confianza se abre desde el marcador que uno guardó, no desde un mensaje.</p>
+<p>Los clones de sitios de lectura añaden una capa más, y es la que la gente no espera: el contenido. Algunos espejos sirven el catálogo con relleno invisible para que un programa no lo copie, y otros piden instalar una aplicación para «leer mejor». Esa aplicación es el paso siguiente del engaño: primero el sitio, después el paquete.</p>
+<p>Hay una quinta capa que casi nunca se nombra y que explica por qué esto funciona: la costumbre. La gente entra a los mismos cinco o seis sitios todos los días, casi siempre desde el mismo icono, y por eso deja de mirar la barra. El engaño no necesita convencer a nadie: necesita que la persona esté cansada, con prisa y con el hábito puesto. Por eso los mensajes llegan de noche y los enlaces llegan con una promesa urgente.</p>
+<p>El patrón de los cinco dominios medidos hoy encaja con eso. Certificados frescos, todos detrás de la misma red, dos con contenido y tres sin él. Un vecindario así no se sostiene por calidad: se sostiene por rotación. Cuando uno se cae, otro ya está listo, y el enlace que circula en el grupo apunta al que esté arriba esa semana.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Comprobar un sitio en nueve pasos</em></p>
+<p><strong>Paso uno: no escribir nada todavía.</strong> Antes de teclear usuario y contraseña, detenerse un segundo. Ese segundo es la única defensa que funciona siempre, porque el engaño depende de que la persona tenga prisa.</p>
+<p><strong>Paso dos: leer la dirección completa.</strong> No el título de la pestaña, no el logo: la dirección. Contar los guiones, mirar el final, buscarla en el marcador. Si la dirección que se guardó no coincide con la que está abierta, ya está resuelto: se cierra la pestaña.</p>
+<p><strong>Paso tres: preguntar de dónde salió el enlace.</strong> Si llegó por un mensaje que nadie pidió, por un grupo con nombres raros o por un correo con faltas de ortografía, la procedencia es el dato más importante de todos. Un enlace que no se pidió es un enlace que no se abre.</p>
+<p><strong>Paso cuatro: mirar el certificado cuando haga falta.</strong> En el navegador del teléfono se abre el candado de la barra y se ve quién emitió el certificado y hasta cuándo vale. Un certificado emitido hace tres semanas para un sitio que existe hace diez años es una señal; un certificado emitido hace tres semanas para un sitio que no se conocía, también.</p>
+<p><strong>Paso cinco: desconfiar del candado como argumento.</strong> El candado solo dice que la conexión va cifrada. Un clon lo consigue en cinco minutos y sin pagar nada. Quien usa el candado como prueba de legitimidad está usando la señal equivocada.</p>
+<p><strong>Paso seis: probar con una contraseña falsa.</strong> Si hay duda y se quiere salir de ella sin riesgo, se escribe una contraseña inventada. Un sitio real contesta «contraseña incorrecta»; un clon mal hecho contesta «bienvenido» o se queda cargando. No es una prueba definitiva, y cuesta cero.</p>
+<p><strong>Paso siete: buscar la cuenta desde el sitio de siempre.</strong> Cuando hay prisa por entrar a un servicio, el camino es abrir el marcador de siempre y llegar por ahí. Nunca el enlace del mensaje, nunca el resultado de un buscador con el nombre mal escrito.</p>
+<p><strong>Paso ocho: revisar la ortografía del mensaje.</strong> Los clones suelen copiar la página, no el idioma. Errores de acento, frases raras, un texto que se lee como traducido a la carrera: es la capa más fácil de notar y la que menos se mira.</p>
+<p><strong>Paso nueve: si ya se escribió, actuar en la misma hora.</strong> Cambiar la contraseña desde el sitio verdadero, cerrar las sesiones abiertas y revisar los dispositivos vinculados. La primera hora importa más que la primera semana.</p>
+<p>Ninguno de los nueve pasos pide conocimientos técnicos, y eso es a propósito: la persona que cae en un clon no es la que no sabe de informática, es la que tiene prisa. Un muchacho que programa puede escribir su contraseña en la página equivocada a las once de la noche igual que cualquiera.</p>
+<p>Estos nueve pasos no requieren ninguna aplicación y no cuestan nada. Lo único que piden es aceptar que la página puede verse perfecta y aun así no ser el sitio. Cuando eso se acepta, el resto es rutina.</p>
+<p>───────────────────</p>
+<p><em>🔑 La llave que no se copia</em></p>
+<p>Una contraseña repetida es la razón por la que un clon pequeño se convierte en un problema grande. Si el mismo par de palabras abre el correo, la banca y el grupo de la familia, una sola filtración alcanza para todo. La solución no es memorizar cincuenta claves: es tener un lugar donde vivan y una llave maestra que las abra.</p>
+<p>En el teléfono hay tres gestores con código a la vista y años de trabajo. KeePassDX, con ★7.581, guarda la base en un archivo local y empujó hoy mismo. KeePass2Android, con ★6.351 y versión v1.15-r6 del 15 de octubre, hace lo mismo con la base en formato clásico y empujó el 29 de octubre. Bitwarden para Android, ★9.570, es el cliente de un servicio con sincronización y también empujó hoy. Los tres tienen licencia GPL-3.0 y los tres funcionan sin depender de la nube de otro: el primero y el segundo, siempre; el tercero, si se monta el servidor propio.</p>
+<p>La segunda pieza es la verificación en dos pasos, y aquí la diferencia entre aplicaciones importa. Aegis, con ★13.443, guarda los códigos en el teléfono y permite exportar la semilla para respaldarla. 2FAS, con ★1.562 y empujón de ayer, hace lo mismo con una interfaz más simple. La opción que hay que evitar es el mensaje de texto cuando existe otra: un código por mensaje se puede interceptar o se puede pedir por teléfono con una historia convincente.</p>
+<p>La tercera pieza es la que casi nadie configura: las sesiones abiertas. Casi todos los servicios tienen una pantalla que lista los aparatos conectados y un botón para cerrarlos todos. Esa pantalla es la que convierte un cambio de contraseña en una expulsión de verdad. Sin ella, cambiar la clave es cerrar la puerta dejando la ventana abierta.</p>
+<p>Un detalle que ahorra sustos: el gestor y los códigos de dos pasos no deben vivir en el mismo aparato sin respaldo. Si el teléfono se pierde o se rompe, la base de contraseñas se recupera con una copia y la semilla de los códigos con otra; si las dos estaban solo ahí, la recuperación de cada cuenta se vuelve una gestión distinta, con documentos y esperas. Guardar las dos copias fuera del teléfono, en un lugar que no sea el correo, es el paso que se hace una vez y salva un fin de semana.</p>
+<p>Y hay una cuarta pieza que no es contraseña sino cañería. Un DNS que filtra, como NextDNS con ★4.237, corta el acceso a dominios conocidos por suplantación antes de que el navegador llegue. Un bloqueador como uBlock Origin, con ★68.996, evita el anuncio que lleva al clon. Un cortafuegos por aplicación como Rethink, ★5.828, decide quién sale a la red. Ninguno sustituye a las tres primeras piezas, y los tres se combinan bien con ellas.</p>
+<p>───────────────────</p>
+<p><em>📱 El censo de las herramientas</em></p>
+<p>Diecisiete proyectos, medidos esta mañana tres veces cada uno. Estrellas, licencia, lenguaje y último empujón son de ahora; la versión sale del último release publicado y, cuando el proyecto no la trae, se dice.</p>
+<p><em>Mensajería y cuentas</em></p>
+<ul>
+<li><strong>Signal</strong> — mensajería con cifrado de extremo a extremo, sin número como identificador único indispensable ★29.565 · licencia AGPL-3.0 · Kotlin · empujó el 30-oct (hace 2 días) · sin release publicada en la ficha · <a href="https://github.com/signalapp/Signal-Android">https://github.com/signalapp/Signal-Android</a></li>
+<li><strong>Threema</strong> — la versión libre del mensajero suizo, con su propio modelo de identidad ★1.003 · licencia AGPL-3.0 · Kotlin · empujó el 23-sep (hace 39 días) · sin release publicada en la ficha · <a href="https://github.com/threema-ch/threema-android">https://github.com/threema-ch/threema-android</a></li>
+</ul>
+<p><em>Llaves y códigos</em></p>
+<ul>
+<li><strong>Bitwarden</strong> — gestor con sincronización y cliente libre ★9.570 · licencia GPL-3.0 · Kotlin · empujó hoy · sin release publicada en la ficha · <a href="https://github.com/bitwarden/android">https://github.com/bitwarden/android</a></li>
+<li><strong>KeePassDX</strong> — gestor con base local en formato KeePass ★7.581 · licencia GPL-3.0 · Kotlin · empujó hoy · sin release publicada en la ficha · <a href="https://github.com/Kunzisoft/KeePassDX">https://github.com/Kunzisoft/KeePassDX</a></li>
+<li><strong>KeePass2Android</strong> — el mismo formato, otra implementación, con teclado propio ★6.351 · licencia GPL-3.0 · C# · empujó el 29-oct (hace 3 días) · release v1.15-r6 (15-oct) · <a href="https://github.com/PhilippC/keepass2android">https://github.com/PhilippC/keepass2android</a></li>
+<li><strong>Aegis</strong> — códigos de dos pasos guardados en el teléfono, con exportación ★13.443 · licencia GPL-3.0 · Java · empujó el 06-sep (hace 56 días) · sin release publicada en la ficha · <a href="https://github.com/beemdevelopment/Aegis">https://github.com/beemdevelopment/Aegis</a></li>
+<li><strong>2FAS</strong> — los mismos códigos, interfaz más simple ★1.562 · licencia GPL-3.0 · Kotlin · empujó el 31-oct (hace 1 día) · sin release publicada en la ficha · <a href="https://github.com/twofas/2fas-android">https://github.com/twofas/2fas-android</a></li>
+</ul>
+<p><em>Navegador y red</em></p>
+<ul>
+<li><strong>uBlock Origin</strong> — el bloqueador de referencia, con listas de suplantación ★68.996 · licencia GPL-3.0 · JavaScript · empujó el 30-oct (hace 2 días) · sin release publicada en la ficha · <a href="https://github.com/gorhill/uBlock">https://github.com/gorhill/uBlock</a></li>
+<li><strong>Cromite</strong> — navegador con bloqueo incorporado y parches propios ★8.455 · licencia GPL-3.0 · C++ · empujó hoy · sin release publicada en la ficha · <a href="https://github.com/uazo/cromite">https://github.com/uazo/cromite</a></li>
+<li><strong>Firefox para Android</strong> — el navegador de Mozilla, con su propio motor ★1.842 · licencia MPL-2.0 · Kotlin · último empujón 17-jun-2024 (hace 867 días) · sin release publicada en la ficha · <a href="https://github.com/mozilla-mobile/firefox-android">https://github.com/mozilla-mobile/firefox-android</a></li>
+<li><strong>Mull</strong> — la variante endurecida del mismo navegador ★592 · licencia AGPL-3.0 en la ficha y MIT en su README · JavaScript · último empujón 10-dic-2024 (hace 691 días) · sin release publicada en la ficha · <a href="https://github.com/divested-mobile/mull-fenix">https://github.com/divested-mobile/mull-fenix</a></li>
+<li><strong>NextDNS</strong> — cliente de DNS con filtros por perfil ★4.237 · licencia MIT · Go · empujó el 31-oct (hace 1 día) · sin release publicada en la ficha · <a href="https://github.com/nextdns/nextdns">https://github.com/nextdns/nextdns</a></li>
+<li><strong>AdGuard Home</strong> — el mismo trabajo desde un servidor propio ★38.033 · licencia GPL-3.0 · TypeScript · empujó el 30-oct (hace 2 días) · sin release publicada en la ficha · <a href="https://github.com/AdguardTeam/AdGuardHome">https://github.com/AdguardTeam/AdGuardHome</a></li>
+<li><strong>Rethink</strong> — cortafuegos por aplicación, sin root ★5.828 · licencia Apache-2.0 · Kotlin · empujó el 26-oct (hace 6 días) · sin release publicada en la ficha · <a href="https://github.com/celzero/rethink-app">https://github.com/celzero/rethink-app</a></li>
+<li><strong>Tailscale</strong> — red privada entre aparatos propios ★38.466 · licencia BSD-3-Clause · Go · empujó el 31-oct (hace 1 día) · sin release publicada en la ficha · <a href="https://github.com/tailscale/tailscale">https://github.com/tailscale/tailscale</a></li>
+</ul>
+<p><em>Comprobación e instalación</em></p>
+<ul>
+<li><strong>MVT</strong> — revisión forense de un teléfono que pudo estar comprometido ★15.667 · licencia NOASSERTION en la ficha · Python · empujó el 29-oct (hace 3 días) · sin release publicada en la ficha · <a href="https://github.com/mvt-project/mvt">https://github.com/mvt-project/mvt</a></li>
+<li><strong>Obtainium</strong> — instalar y actualizar desde la forja del autor, sin tienda ★21.115 · licencia GPL-3.0 · Dart · empujó hoy · sin release publicada en la ficha · <a href="https://github.com/ImranR98/Obtainium">https://github.com/ImranR98/Obtainium</a></li>
+</ul>
+<p><em>Lo que el censo dice en cuatro líneas.</em> Doce de los diecisiete empujaron en los últimos seis días, cosa rara en un grupo de herramientas que casi nadie promociona. Dos están claramente parados: el navegador de Mozilla, con 867 días sin empujón, y la variante Mull, con 691. Y hay una ficha que no cuadra consigo misma: Mull declara AGPL-3.0 en la ficha y MIT en su README, y se publican las dos, sin elegir la que queda mejor.</p>
+<p>───────────────────</p>
+<p><em>🚑 Si ya entregaste la contraseña</em></p>
+<p>La primera media hora define casi todo, y los pasos van en un orden que importa.</p>
+<p><strong>Uno: cambiar la clave desde el sitio verdadero, no desde el enlace.</strong> Se abre el marcador guardado o se escribe la dirección a mano y se cambia la contraseña ahí. Hacerlo desde la página del clon es entregar la nueva también.</p>
+<p><strong>Dos: cerrar todas las sesiones.</strong> En la pantalla de seguridad del servicio hay una opción para cerrar sesión en todos los dispositivos. Es la que expulsa al intruso. Sin ella, la contraseña nueva convive con la sesión abierta del otro lado.</p>
+<p><strong>Tres: revisar los dispositivos vinculados.</strong> Correos alternativos, números de teléfono añadidos, aplicaciones conectadas con permiso de lectura. Un intruso ordenado añade una puerta antes de que lo saquen.</p>
+<p><strong>Cuatro: cambiar la misma contraseña donde se repitió.</strong> Si esa clave abría el correo, la banca o la red social, hay que cambiarla en todos esos sitios, empezando por el correo, que es el que recupera los demás.</p>
+<p><strong>Cinco: hacerlo desde un aparato que no esté comprometido.</strong> Si hay duda sobre el teléfono, el cambio se hace desde otro. Y si el aparato es el que se sospecha, después se revisa con MVT, que es la herramienta del proyecto del mismo nombre para mirar rastros de vigilancia.</p>
+<p><strong>Seis: contar lo que pasó en los grupos donde circuló el enlace.</strong> Un mensaje corto, sin dramatismo, con la dirección falsa y la buena. Ese mensaje protege a otros cinco y es la parte que casi nadie hace.</p>
+<p><strong>Siete: apuntar la fecha.</strong> Anotar cuándo se cambió cada cosa y qué se revisó. Si en dos semanas aparece algo raro, ese papel vale más que la memoria.</p>
+<p>Y una advertencia sobre el orden: cambiar contraseñas desde el aparato sospechoso es regalar la nueva. Si hay duda sobre el teléfono, los cambios se hacen desde otro, y el aparato se revisa después con calma. La prisa es justo lo que el otro lado está esperando.</p>
+<p>Hay un caso que no se arregla con estos pasos: cuando el intruso ya copió las conversaciones o los archivos. Ahí lo único honesto es avisar a las personas afectadas y cambiar de canal para lo delicado. Un mensaje privado que ya salió no se puede recuperar; la conversación siguiente sí se puede tener en otro sitio.</p>
+<p>───────────────────</p>
+<p><em>🧭 Cuando el sitio no cae, cambia de dueño</em></p>
+<p>La otra forma del mismo problema no es el clon: es el sitio que siempre fue el bueno y un día cambia de manos. Dominio nuevo de alguien que no avisa, catálogo que se vuelve cobro, aplicación que aparece para «mejorar la lectura». El resultado se parece al del clon y la defensa también, con una diferencia: aquí no hay que buscar la copia, hay que mirar la fecha.</p>
+<p>Los cinco dominios medidos hoy son un buen ejemplo de vecindario que rota. Certificados emitidos entre el 19 de septiembre y el 26 de octubre, todos detrás de la misma red de protección, dos con contenido y tres sin él. Ese patrón no describe un sitio que crece: describe nombres que se van relevando mientras el contenido salta de uno a otro.</p>
+<p>Para el usuario, la consecuencia práctica es que el marcador importa más que el buscador. Un marcador guardado apunta a un sitio concreto y no se renueva solo; cuando ese sitio se cae, uno se entera por el marcador o por el grupo, no por un resultado de buscador que puede llevar a cualquier parte. Guardar dos o tres marcadores de los sitios que se usan de verdad, y revisarlos de vez en cuando, cuesta menos que reconstruir una cuenta perdida.</p>
+<p>Un ejercicio que conviene hacer una vez al año: abrir el gestor de contraseñas y mirar la lista de sitios guardados. Los que ya no existen se borran, los que cambiaron de dominio se actualizan desde el marcador nuevo, y los que tienen la misma clave que otro se cambian ese mismo día. Media hora una vez al año hace más por la seguridad de una familia que cualquier aplicación comprada con prisa en una emergencia.</p>
+<p>Y hay una señal que se ve en el teléfono y no en la página: el aviso de que una aplicación pide permisos nuevos después de una actualización. Un lector que de repente pide acceso a los contactos o a las llamadas no está mejorando: está cambiando de negocio. Ese aviso se lee, y si algo no cuadra, se desinstala y se vuelve a la versión que funcionaba.</p>
+<p>───────────────────</p>
+<p><em>⚖️ La ley, sin sermón</em></p>
+<p>Copiar una página con su logo para robar contraseñas es una figura que casi todos los países castigan, y con razón: no hay debate técnico que la justifique. La parte que a veces se olvida es que quien la usa también queda expuesto, y no solo por la cuenta perdida: los datos que se escribieron en ese formulario ya están en otra parte.</p>
+<p>Sobre el contenido de estos sitios, esta guía no opina más de lo que mide. Un catálogo de lecturas que salta de dominio en dominio no se sostiene con permisos de nadie, y eso es un problema de quien lo publica. Lo que sí está al alcance de quien lee es no instalar paquetes que lleguen por esos mismos canales, porque ahí es donde se cruza la línea: del otro lado ya no hay lectores, hay alguien repartiendo paquetes.</p>
+<p>Sobre las herramientas de este censo, la licencia dice lo que se puede hacer con el código. GPL-3.0 permite usarlo y modificarlo y obliga a publicar los cambios si se distribuye; Apache-2.0 y MIT son más permisivas; MPL-2.0 obliga solo con los archivos que se tocan. Nada de eso autoriza a tocar los datos de otra persona, que es de lo que trata esta guía.</p>
+<p>Y hay una regla que no es ley y funciona: si un sitio pide instalar algo para poder seguir, se cierra. No hay servicio legítimo que dependa de un paquete repartido por su propia página. Cuando eso aparece, ya no se trata de un clon: se trata del paso siguiente.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me hacen</em></p>
+<p><strong>¿Cómo sé si el sitio donde entré era un clon?</strong> Por tres cosas que se miran al mismo tiempo: la dirección exacta, el certificado y el camino por el que llegó el enlace. Si la dirección no es la de siempre, ya está. Si el certificado se emitió hace tres semanas para un sitio que existe desde hace años, hay motivo para dudar. Y si el enlace llegó sin haberlo pedido, no hay nada más que mirar: se cierra.</p>
+<p><strong>Me equivoqué y escribí la contraseña, ¿qué hago primero?</strong> Cambiarla desde el sitio verdadero y, en la misma sesión, cerrar todas las sesiones abiertas. Ese segundo paso es el que casi nadie hace y el que expulsa al otro. Después se revisa qué dispositivos quedaron vinculados y se cambia la misma clave donde se repitió.</p>
+<p><strong>¿El candado de la barra no sirve de nada?</strong> Sirve para una cosa: confirma que la conexión va cifrada hasta el servidor que sea. No confirma que el servidor sea el bueno. Un clon consigue un certificado gratis en cinco minutos, así que el candado es la señal más débil de todas y la más citada.</p>
+<p><strong>¿Por qué los cinco dominios que medí hoy tienen certificados tan nuevos?</strong> Porque los dominios se emitieron o se reemitieron hace poco: el más antiguo es del 19 de septiembre y el más reciente del 26 de octubre. Eso no prueba nada por sí solo, y en un vecindario que rota de nombre es lo esperable. Un certificado nuevo en un sitio viejo es una cosa; un certificado nuevo en un sitio que nadie conocía la semana pasada es otra.</p>
+<p><strong>¿Qué significa el error 522 que da uno de ellos?</strong> Que la red de protección no pudo hablar con el servidor de detrás. El dominio existe y el certificado está vigente, pero el contenido no está: la página se queda cargando hasta que el navegador se rinde. En la práctica es lo mismo que un sitio caído, con la diferencia de que el nombre sigue vivo.</p>
+<p><strong>¿Y si el sitio funciona bien pero pide instalar una aplicación para leer?</strong> Se cierra. No hay servicio legítimo que dependa de un paquete repartido por su propia página, y menos uno que cambia de dominio cada mes. Ahí ya no se trata de un clon de la pantalla, sino del paso siguiente del mismo engaño.</p>
+<p><strong>¿Los gestores de contraseñas no son un riesgo ellos mismos?</strong> Lo son si se usan mal: base sin contraseña maestra fuerte, respaldo en un sitio público, o el archivo sincronizado en un servicio que no se controla. Bien usados, el riesgo es mucho menor que repetir la misma clave en veinte sitios. KeePassDX y KeePass2Android guardan en archivo local; Bitwarden sincroniza, y por eso conviene mirar dónde.</p>
+<p><strong>¿Sirve la verificación por mensaje de texto?</strong> Sirve y es mejor que nada, pero es la más débil de las opciones. Un código por mensaje se puede interceptar y se puede pedir por teléfono con una historia convincente. Una aplicación de códigos en el propio teléfono, como Aegis o 2FAS, quita esa vía.</p>
+<p><strong>¿Cada cuánto hay que revisar las sesiones abiertas?</strong> Una vez al mes alcanza, y conviene hacerlo el mismo día que se cambia la contraseña más importante. La pantalla tarda dos minutos y muestra cosas que uno no recuerda haber autorizado, que es exactamente el motivo para mirarla.</p>
+<p><strong>¿Un DNS con filtros reemplaza al bloqueador del navegador?</strong> No, se complementan. El DNS corta el dominio antes de que el navegador llegue, y funciona también en aplicaciones que no son navegador. El bloqueador trabaja dentro de la página y ataja lo que ya pasó el filtro. Con los dos puestos, la mitad de los enlaces basura no llega a abrirse.</p>
+<p><strong>¿Puedo saber si mi teléfono estuvo comprometido?</strong> Se puede intentar, y no es un botón: MVT es una herramienta de revisión forense que mira rastros concretos y requiere conectarse por cable y seguir un procedimiento. No es para todos los días y no promete respuestas en dos minutos. Para el caso común —una contraseña entregada— el camino son los pasos de recuperación, no el análisis forense.</p>
+<p><strong>¿Y si el que cambió fui yo y ahora no reconozco el sitio?</strong> Entonces el problema no es un clon sino una migración: el sitio de siempre se mudó, o lo vendieron, o cambió de condiciones. Se aplica la misma regla, con otro orden: primero se comprueba desde el marcador viejo, después se mira qué pide el nuevo y al final se decide si vale la pena seguir. Lo que no conviene es reinstalar cosas a la carrera para «volver a como estaba».</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla, mitos y glosario</em></p>
+<p><em>Los cinco espejos, con lo que contestó cada uno esta mañana</em></p>
+<table>
+<tr><th>Dominio</th><th>Respuesta de hoy</th><th>Tiempo</th><th>Certificado emitido</th><th>Entrega contenido</th></tr>
+<tr><td>tmohentai.app</td><td>403 · desafío</td><td>0,12 s</td><td>03-oct-2026 (Let's Encrypt)</td><td>no</td></tr>
+<tr><td>zonatmo.to/home</td><td>301 → `/home/` y 200</td><td>0,29 s</td><td>09-oct-2026 (Google TS)</td><td>sí, con relleno invisible</td></tr>
+<tr><td>zonatmo.org</td><td>403 · desafío</td><td>0,06 s</td><td>19-sep-2026 (Let's Encrypt)</td><td>no</td></tr>
+<tr><td>tmomanhwa.com</td><td>200 · 113.286 bytes</td><td>0,81 s</td><td>22-oct-2026 (Google TS)</td><td>sí, catálogo con fechas</td></tr>
+<tr><td>lectortmo.vip</td><td>522 · origen caído</td><td>19,5 s</td><td>26-oct-2026 (Let's Encrypt)</td><td>no</td></tr>
+</table>
+<p><em>Las diecisiete herramientas, en una línea cada una</em></p>
+<table>
+<tr><th>Proyecto</th><th>Para qué</th><th>Licencia</th><th>Empujón</th><th>Estrellas</th></tr>
+<tr><td>uBlock Origin</td><td>bloquear anuncios y dominios falsos</td><td>GPL-3.0</td><td>30-oct</td><td>★68.996</td></tr>
+<tr><td>Tailscale</td><td>red privada entre tus aparatos</td><td>BSD-3-Clause</td><td>31-oct</td><td>★38.466</td></tr>
+<tr><td>AdGuard Home</td><td>filtro DNS en servidor propio</td><td>GPL-3.0</td><td>30-oct</td><td>★38.033</td></tr>
+<tr><td>Signal</td><td>mensajería cifrada</td><td>AGPL-3.0</td><td>30-oct</td><td>★29.565</td></tr>
+<tr><td>Obtainium</td><td>actualizar desde la forja del autor</td><td>GPL-3.0</td><td>hoy</td><td>★21.115</td></tr>
+<tr><td>MVT</td><td>revisión forense del teléfono</td><td>NOASSERTION</td><td>29-oct</td><td>★15.667</td></tr>
+<tr><td>Aegis</td><td>códigos de dos pasos en el teléfono</td><td>GPL-3.0</td><td>06-sep</td><td>★13.443</td></tr>
+<tr><td>Bitwarden</td><td>gestor de contraseñas con sincronía</td><td>GPL-3.0</td><td>hoy</td><td>★9.570</td></tr>
+<tr><td>Cromite</td><td>navegador con bloqueo</td><td>GPL-3.0</td><td>hoy</td><td>★8.455</td></tr>
+<tr><td>KeePassDX</td><td>gestor con base local</td><td>GPL-3.0</td><td>hoy</td><td>★7.581</td></tr>
+<tr><td>KeePass2Android</td><td>el mismo formato, otro cliente</td><td>GPL-3.0</td><td>29-oct</td><td>★6.351</td></tr>
+<tr><td>Rethink</td><td>cortafuegos por aplicación</td><td>Apache-2.0</td><td>26-oct</td><td>★5.828</td></tr>
+<tr><td>NextDNS</td><td>filtro DNS en el teléfono</td><td>MIT</td><td>31-oct</td><td>★4.237</td></tr>
+<tr><td>Firefox Android</td><td>navegador de Mozilla</td><td>MPL-2.0</td><td>17-jun-2024</td><td>★1.842</td></tr>
+<tr><td>2FAS</td><td>códigos de dos pasos</td><td>GPL-3.0</td><td>31-oct</td><td>★1.562</td></tr>
+<tr><td>Threema</td><td>mensajería con identidad propia</td><td>AGPL-3.0</td><td>23-sep</td><td>★1.003</td></tr>
+<tr><td>Mull</td><td>navegador endurecido</td><td>AGPL-3.0 (ficha) y MIT (README)</td><td>10-dic-2024</td><td>★592</td></tr>
+</table>
+<p><em>Cinco mitos que conviene enterrar</em></p>
+<p><strong>Mito uno: «si tiene candado, es seguro».</strong> El candado dice que la conexión va cifrada, no a quién. Un clon lo consigue gratis y en minutos, y de hecho los cinco dominios medidos hoy tienen certificado válido, incluidos los tres que no entregan nada.</p>
+<p><strong>Mito dos: «los clones se ven mal».</strong> Los que se ven mal son los que no importan. Un clon que funciona copia la pantalla en una tarde y se ve igual que el original, porque de hecho es la misma página con otro destino en el formulario.</p>
+<p><strong>Mito tres: «cambiar la contraseña es suficiente».</strong> Sin cerrar las sesiones abiertas, el intruso sigue adentro con la llave vieja. La contraseña cierra la puerta; cerrar sesiones lo saca de la casa.</p>
+<p><strong>Mito cuatro: «el mensaje de texto para el código es seguro».</strong> Es mejor que nada y peor que una aplicación de códigos. Se puede interceptar, se puede pedir por teléfono con una historia, y a veces el número se recicla en otra línea.</p>
+<p><strong>Mito cinco: «una VPN arregla esto».</strong> Una VPN cambia por dónde sale el tráfico, no a dónde va. Si la dirección es la de un clon, la VPN solo hace que el clon reciba el formulario desde otra parte. Lo que filtra dominios es un DNS con listas, no una VPN por sí sola.</p>
+<p><em>Glosario de bolsillo</em></p>
+<p><strong>Clon</strong> — copia de la pantalla de un sitio en otra dirección, hecha para recibir lo que la persona escribe.</p>
+<p><strong>Certificado</strong> — documento que presenta el servidor para cifrar la conexión. Dice quién lo emitió y hasta cuándo vale; no dice que el sitio sea de fiar.</p>
+<p><strong>403</strong> — respuesta de un servidor que se niega a entregar el contenido. En estos casos suele ser un desafío automático, no un error del sitio.</p>
+<p><strong>522</strong> — respuesta de la red de protección cuando el servidor de detrás no contesta. El nombre existe y el contenido no.</p>
+<p><strong>Sesión abierta</strong> — autorización que queda guardada en un aparato después de entrar. Cambiar la contraseña no la borra.</p>
+<p><strong>Semilla</strong> — el dato con el que se generan los códigos de dos pasos. Se respalda fuera del teléfono o se pierde el acceso.</p>
+<p><strong>DNS</strong> — el servicio que traduce nombres a direcciones. Filtrar ahí corta el dominio antes de que el navegador llegue.</p>
+<p><strong>Espejo</strong> — dominio que sirve el mismo contenido que otro. Cuando rota de nombre cada mes, no es una fuente estable.</p>
+<p><strong>Suplantación</strong> — hacerse pasar por un sitio, una aplicación o una persona para obtener datos.</p>
+<p><strong>Filtrado por lista</strong> — técnica de bloquear direcciones conocidas por malas. Funciona con lo que ya está en la lista, no con lo que aparece hoy.</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces y notas del corte</em></p>
+<p>Las diecisiete direcciones de abajo se abrieron esta mañana. Los cinco dominios del censo no van como enlace: se citan por su nombre en la tabla y se explica por qué.</p>
+<p><em>Mensajería y cuentas</em></p>
+<ul>
+<li>Signal: <a href="https://github.com/signalapp/Signal-Android">https://github.com/signalapp/Signal-Android</a></li>
+<li>Threema: <a href="https://github.com/threema-ch/threema-android">https://github.com/threema-ch/threema-android</a></li>
+</ul>
+<p><em>Llaves y códigos</em></p>
+<ul>
+<li>Bitwarden: <a href="https://github.com/bitwarden/android">https://github.com/bitwarden/android</a></li>
+<li>KeePassDX: <a href="https://github.com/Kunzisoft/KeePassDX">https://github.com/Kunzisoft/KeePassDX</a></li>
+<li>KeePass2Android: <a href="https://github.com/PhilippC/keepass2android">https://github.com/PhilippC/keepass2android</a></li>
+<li>Aegis: <a href="https://github.com/beemdevelopment/Aegis">https://github.com/beemdevelopment/Aegis</a></li>
+<li>2FAS: <a href="https://github.com/twofas/2fas-android">https://github.com/twofas/2fas-android</a></li>
+</ul>
+<p><em>Navegador y red</em></p>
+<ul>
+<li>uBlock Origin: <a href="https://github.com/gorhill/uBlock">https://github.com/gorhill/uBlock</a></li>
+<li>Cromite: <a href="https://github.com/uazo/cromite">https://github.com/uazo/cromite</a></li>
+<li>Firefox para Android: <a href="https://github.com/mozilla-mobile/firefox-android">https://github.com/mozilla-mobile/firefox-android</a></li>
+<li>Mull: <a href="https://github.com/divested-mobile/mull-fenix">https://github.com/divested-mobile/mull-fenix</a></li>
+<li>NextDNS: <a href="https://github.com/nextdns/nextdns">https://github.com/nextdns/nextdns</a></li>
+<li>AdGuard Home: <a href="https://github.com/AdguardTeam/AdGuardHome">https://github.com/AdguardTeam/AdGuardHome</a></li>
+<li>Rethink: <a href="https://github.com/celzero/rethink-app">https://github.com/celzero/rethink-app</a></li>
+<li>Tailscale: <a href="https://github.com/tailscale/tailscale">https://github.com/tailscale/tailscale</a></li>
+</ul>
+<p><em>Comprobación e instalación</em></p>
+<ul>
+<li>MVT: <a href="https://github.com/mvt-project/mvt">https://github.com/mvt-project/mvt</a></li>
+<li>Obtainium: <a href="https://github.com/ImranR98/Obtainium">https://github.com/ImranR98/Obtainium</a></li>
+</ul>
+<p><em>Por qué los cinco dominios no van enlazados.</em> Esta guía denuncia un mecanismo y no reparte el camino hacia él. Los cinco nombres están en la tabla con su respuesta, su certificado y su tiempo de espera, que es lo que sirve para reconocerlos; un enlace, en cambio, es un atajo para escribir una contraseña en el sitio equivocado. Si alguien quiere comprobarlos, que los teclee sabiendo lo que hace.</p>
+<p><em>Cómo se midió esto, para que se pueda repetir.</em> Cada dominio se leyó tres veces y con tres métodos que no se parecen entre sí: primero una petición directa sin seguir redirecciones, anotando código, tamaño, tiempo e IP; después la consulta al certificado del servidor, con su emisor y sus fechas; y al final la lectura de la página tal como llega a una persona, buscando títulos, capítulos, fechas y patrones de enlace. Las tres lecturas se hicieron en orden rotado entre dominio y dominio, de modo que ninguna pasada repitió la secuencia anterior. Los diecisiete repositorios se midieron igual: buscador, página y archivo crudo, alternando el orden.</p>
+<p><em>Lo que no se pudo medir.</em> Dos de los cinco dominios no entregaron ni una letra de contenido, así que de ellos se publica el borde y no el interior. Y tres de las diecisiete fichas no traen release publicada en su repositorio: se dice «sin release publicada» en vez de rellenar con una fecha aproximada, porque un hueco declarado sirve y un dato inventado no.</p>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — la dirección que se lee antes de escribir</em></p>
+<p>Lo que deja este recorrido, en plata: el enlace no era el sitio, y el sitio se veía igual. La defensa no es una aplicación milagrosa ni un antivirus: es leer la dirección completa, no entrar por lo que llegó sin pedirlo y tener la contraseña guardada en un sitio del que uno se acuerda.</p>
+<p>El hallazgo del día tiene números: cinco dominios del mismo vecindario, medidos uno por uno, con certificados emitidos entre el 19 de septiembre y el 26 de octubre, todos detrás de la misma red de protección, y solo dos entregando catálogo. El más rápido en contestar fue el que no entrega nada —0,06 segundos para decir que no— y el que más tardó fue el que ni siquiera tiene servidor detrás.</p>
+<p>El otro hallazgo es de costumbre: doce de las diecisiete herramientas se movieron en los últimos seis días, mientras dos navegadores del mismo árbol llevan 867 y 691 días sin un empujón. En seguridad, la pregunta no es cuál es más famosa sino cuál se sigue tocando esta semana.</p>
+<blockquote>—¿Y si el que me mandó el enlace es de confianza?</blockquote>
+<blockquote>—Entonces abres el marcador y entras por ahí; la confianza en la persona no arregla la dirección.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Un clon no se delata por su cara: se delata por su dirección.</p>
+<p><em>Medición del corte:</em> domingo 1 de noviembre de 2026, entre las 09:40 y las 10:12 de Santo Domingo · cinco dominios leídos tres veces cada uno con tres métodos distintos (protocolo, certificado y página) · diecisiete repositorios medidos tres veces con el orden de las lecturas rotado · tres fichas sin release publicada se dicen como tales · dos dominios sin contenido se publican por su borde, no por dentro.</p>
+<p><em>Licencia:</em> el texto va con CC BY-SA 4.0, los datos con CC BY 4.0 y el código con MIT; el nombre de la casa y su marca quedan en manos de «Alexis (La Bandita)».</p>
+<h2>🗒️ Notas del corte</h2>
+<p><strong>Nota de corte (1-nov):</strong> las respuestas de los cinco dominios son de esta mañana, con hora, y no de una lista guardada. Cuando un dominio contesta un desafío o devuelve 522, se escribe el código y lo que significa, sin traducirlo a «está caído» ni a «funciona».</p>
+<p><strong>Nota de método (1-nov):</strong> las tres lecturas de cada dominio se hicieron en orden rotado y con tres métodos que no comparten fuente: petición directa, certificado del servidor y página renderizada. Ningún dato de esta pieza sale de una sola de las tres.</p>
+<p><strong>Nota de límite (1-nov):</strong> esta guía no reparte el camino hacia los sitios que denuncia. Los cinco nombres aparecen por su respuesta y su certificado, no como enlace, y no se publica ni un paquete que llegue por esos canales.</p>
+<p><strong>Nota de sucesión (1-nov):</strong> dos navegadores del censo llevan más de dos años sin empujón, y se publican con esa fecha a la vista. No se recomiendan ni se retiran: se mide lo que hay, y el lector decide con el dato delante.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

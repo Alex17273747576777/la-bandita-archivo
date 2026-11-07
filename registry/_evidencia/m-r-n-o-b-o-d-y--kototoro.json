@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-05-21T16:26:28Z",
+   "oid": "fe452adeb7c26c95c116e36a6e0118490bf02c61"
+  }
+ },
+ "diskUsage": 207092,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "M-r-N-o-b-o-d-y/Kototoro",
+ "pushedAt": "2026-09-05T02:39:14Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-07-28T16:01:00Z",
+    "tagName": "Kototoro1.6.8"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

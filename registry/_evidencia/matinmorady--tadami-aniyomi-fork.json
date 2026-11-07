@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-06T17:32:14Z",
+   "oid": "d8442c8129e66bcee0b4d88050b13799c9728cdf"
+  }
+ },
+ "diskUsage": 142058,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "MatinMorady/Tadami-Aniyomi-fork",
+ "pushedAt": "2026-10-09T14:31:01Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

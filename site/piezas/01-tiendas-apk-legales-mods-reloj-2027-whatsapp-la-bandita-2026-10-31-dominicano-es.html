@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que ya está corriendo">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que ya está corriendo</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que ya está corriendo", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "1 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que ya está corriendo</h1>
+<p class="meta">WhatsApp · 1 de noviembre de 2026 · 63,094 caracteres</p>
+<p>───────────────────</p>
+<p><em>Tiendas de APK: la tienda con dueño, el letrero de mods y el reloj que ya está corriendo</em></p>
+<p><em>La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español</em></p>
+<p>⏱️ <em>Lectura total: 56 min · 31 repositorios medidos hoy, uno por uno</em></p>
+<blockquote><em>Semilla de esta pieza:</em> una tienda de aplicaciones es un <em>puesto de mercado</em>. No importa si es grande o chiquito: importa si el que vende está parado detrás del mostrador. F-Droid está parado ahí, con el delantal puesto y el nombre en el letrero. Los sitios de mods también tienen letrero, pero adentro no hay nadie: hay una caja registradora que cobra en datos tuyos.</blockquote>
+<p>Esa es toda la guía. Lo que sigue son las pruebas.</p>
+<p>───────────────────</p>
+<p><em>🌱 Semilla principal — la diferencia entre una tienda y una vitrina</em></p>
+<p>Cuando tú instalas algo, no estás bajando un archivo: estás metiendo un desconocido a vivir dentro de tu teléfono. Ese desconocido va a ver tus fotos, tus mensajes, tu ubicación y quién sabe qué más. La pregunta no es «¿esta app es buena?». La pregunta es <em>«¿quién responde si esta app me hace daño?»</em>.</p>
+<p>Una tienda de verdad responde. Y responde porque puede:</p>
+<p>• <em>Compila desde el código público.</em> No le cree al archivo que le mandaron: lo fabrica otra vez y compara. Si el archivo que bajaste no sale idéntico al que se compiló del código, no sale a la calle. _(F-Droid es la madre de esta idea y el estándar contra el que se mide todo lo demás.)_</p>
+<p>• <em>Firma lo que entrega.</em> Cada app lleva una huella digital que dice «esto lo empaqueté yo». Si alguien mete mano en el archivo, la huella deja de cuadrar y tu teléfono se niega a actualizar. Eso no es un castigo: es el sistema inmunológico del teléfono.</p>
+<p>• <em>Tiene un dueño con nombre y un historial.</em> Si la app hace algo raro, hay a quién señalar, y hay un registro público de qué pasó y cuándo.</p>
+<p>Una vitrina de mods no hace ninguna de las tres. Vive de una promesa generosa —<em>«lo de pago, gratis»</em>— y se sostiene porque tú nunca ves la letra menuda. El «premium desbloqueado» casi nunca viene solo: viene con un rastreador, con anuncios que no pediste, o con un archivo que dice llamarse como la app original.</p>
+<p><em>Aviso de la casa:</em> hay mods que son trabajo serio —un parche que quita anuncios de una app libre, hecho en público, con el código a la vista—. Lo que esta guía no recomienda es el mod anónimo de vitrina: el que no dice quién lo hizo ni de dónde salió. La diferencia no es «mod sí o no»: es <em>quién firma</em>.</p>
+<p>───────────────────</p>
+<p><em>🎯 ¿Adivina la casa? (antes de seguir)</em></p>
+<p>Cuatro tiendas, cuatro pistas. Las respuestas van al revés más abajo, como siempre.</p>
+<p><em>1.</em> Nació en 2010, compila todo desde el código y su repo vive en GitLab, no en GitHub.</p>
+<p><em>2.</em> Empezó como anexo de la primera y hoy tiene apps que la primera no acepta: su catálogo lo revisa una sola persona con nombre y apellido.</p>
+<p><em>3.</em> Se declara «la tienda con nada que esconder»: catálogo en JSON abierto, código GPL-3.0, cero servidores propios.</p>
+<p><em>4.</em> La más joven de las grandes: la mantiene el mismo equipo que hace un sistema operativo endurecido, y sus apps funcionan fuera de ese sistema.</p>
+<p><em>Respuestas (léelas de atrás para adelante):</em> <code>diord-F</code>·<code>diordnOyzI</code>·<code>erotS noirO</code>·<code>erotSppA SOenahparG</code></p>
+<p>Tres de cuatro y ya piensas con la vara.</p>
+<p>───────────────────</p>
+<p><em>⚡ En una página (la versión que cabe en un vistazo)</em></p>
+<p><em>Quien revisa, firma y responde:</em></p>
+<p>• <em>F-Droid</em> — el estándar. Compila del código, firma, publica las recetas. Si no está aquí, pregúntate por qué.</p>
+<p>• <em>IzzyOnDroid</em> — el anexo respetado: apps que aún no cumplen todo lo de la casa madre.</p>
+<p>• <em>Accrescent</em> — estándar alto, sin firmas ajenas.</p>
+<p>• <em>Neo-Store</em> y <em>Droid-ify</em> — dos clientes de F-Droid, más cómodos, con la misma fuente de verdad.</p>
+<p>• <em>GrapheneOS AppStore</em> — la tienda del sistema endurecido, firmada con la misma llave.</p>
+<p><em>Quien instala desde donde el desarrollador publica:</em></p>
+<p>• <em>Obtainium</em> — le sigue el rastro a cualquier repositorio y te avisa cuando hay versión nueva.</p>
+<p>• <em>RepoStore</em> — explora lo que se publica en GitHub y lo instala sin salir: la puerta nueva de 2026.</p>
+<p>• <em>ShizuStore</em> — la tienda de las apps que necesitan Shizuku; nació hace seis semanas.</p>
+<p><em>Quien resuelve el «no se instala»:</em></p>
+<p>• <em>InstallerX-Revived</em> y <em>universal-installer</em> — paquetes partidos, perfiles, arquitecturas.</p>
+<p>• <em>APK-Installer</em> — desde la computadora, con doble clic.</p>
+<p><em>Quien gobierna lo ya instalado:</em></p>
+<p>• <em>AppManager</em> y <em>AppManagerNG</em> — permisos, congelar, copias, qué corre en segundo plano.</p>
+<p><em>Las listas curadas:</em> <code>awesome-shizuku</code>, <code>android-foss</code>, <code>fmhy/edit</code>, <code>AAA</code>. Son índices, no garantías.</p>
+<p><em>Las vitrinas de mods:</em> se nombran para esquivarlas. Ninguna va con enlace de descarga en esta pieza.</p>
+<p>Si te llevas una sola idea de esta página, que sea esta: la tienda no es el producto, la firma sí. Todo lo demás —estrellas, capturas, reseñas, el nombre pegado en el título— se puede fabricar en una tarde; quién firma el archivo, no.</p>
+<p>───────────────────</p>
+<p><em>🗺️ Mapa de esta guía</em></p>
+<pre>
+├── 🌱 Semilla, adivina y página de un vistazo · ~4 min
+├── 🏪 Las siete casas, una por una · ~22 min
+├── 🆕 Puertas nuevas, cebos y cementerios · ~14 min
+├── 🧰 Instalar, letreros de mods y el reloj de 2027 · ~11 min
+├── 🕒 Listas viejas, listas curadas y la vara en tu mano · ~13 min
+├── 📊 Tabla, preguntas, mitos y casos · ~12 min
+├── 📋 Ficha de hoy, glosario y quién responde · ~13 min
+└── 🎯 Mini-quiz, cinco decisiones, enlaces y firma · ~5 min
+</pre>
+<p>Si solo tienes cinco minutos: lee <em>En una página</em>, mira la <em>Tabla de decisión</em> y baja a <em>Los letreros de mods</em>.</p>
+<p>───────────────────</p>
+<p><em>🏪 F-Droid — la casa madre</em></p>
+<p>F-Droid es la tienda de aplicaciones libres más vieja que sigue en pie: nació en 2010 y no ha cambiado de idea ni una vez. Su regla es una sola y no tiene excepciones cómodas: <em>lo que se publica se compila desde el código fuente, dentro de su propia infraestructura, y se firma con su llave.</em></p>
+<p>Eso tiene un precio que hay que decir en voz alta: <strong>F-Droid publica las cosas más lentas que un desarrollador en solitario</strong>. Una app puede tardar semanas en aparecer, y a veces no aparece nunca porque su receta de construcción no pasa. No es desprecio al desarrollador: es que la casa no firma lo que no puede reconstruir. Cuando tú instalas desde F-Droid estás recibiendo algo que alguien verificó, no algo que alguien prometió.</p>
+<p><em>Qué mirar cuando abres F-Droid:</em></p>
+<p>• <em>La versión y su fecha.</em> Si la ficha dice <em>versión 1.2</em> y el repositorio del proyecto va por la 1.9, no es un error: es el tiempo que tarda la reconstrucción. F-Droid lo muestra con honestidad; el que se impacienta eres tú, no ellos.</p>
+<p>• <em>El apartado de permisos.</em> F-Droid los enseña en lenguaje humano. Léelos aunque no entiendas todo: cuando una app de linterna pide acceso a contactos, el problema no es técnico, es de sentido común.</p>
+<p>• <em>Las capturas y la descripción: no prueban nada.</em> Sirven para decidir si te interesa. La prueba está en la firma y en la receta.</p>
+<p>• <em>El aviso de «esta app tiene características anti-características»</em>. Cuando aparece, es la casa diciéndote, con todas sus letras, que esa app hace algo que la comunidad considera malo (dependencias de servicios de Google, rastreadores, promoción de software privativo). No la esconde: la marca.</p>
+<p><em>Lo que F-Droid no es:</em> una tienda de conveniencia. No tiene el catálogo de Google Play, ni las apps de bancos, ni las que dependen de los servicios de Google. Lo que tiene, lo tiene limpio. Esa es la transacción: menos cosas, más claridad.</p>
+<p><em>Dato para entender su escala real:</em> en la ficha de hoy medí 31 repositorios de esta pieza y F-Droid no aparece como repositorio de GitHub porque no vive ahí: su código está en GitLab y su catálogo se publica como un índice firmado que cualquier cliente puede leer. Por eso el ecosistema de clientes —Droid-ify, Neo-Store— existe: el índice es abierto y cualquiera puede dibujarlo mejor.</p>
+<p>───────────────────</p>
+<p><em>🏪 IzzyOnDroid — el anexo respetado</em></p>
+<p>IzzyOnDroid empezó como un repositorio adicional que se le podía añadir a F-Droid con un clic. Su razón de ser es simple y muy útil: <em>hay apps buenas que todavía no cumplen todo lo que F-Droid exige</em>, y en vez de tirarlas a la basura, Izzy las publica aparte, con su propio sello.</p>
+<p>Lo que tienes que entender es qué cambia y qué no:</p>
+<p>• <em>Cambia quién firma.</em> IzzyOnDroid no compila desde el código en todos los casos: muchas veces toma el APK que el propio desarrollador publica y lo firma con su llave. Eso no es lo mismo que reconstruir, y hay que decirlo.</p>
+<p>• <em>No cambia la transparencia.</em> Izzy publica qué apps entran, con qué licencia y con qué permisos. Su catálogo es público y se puede auditar.</p>
+<p>• <em>Lo bueno:</em> encuentras cosas que F-Droid tarda meses en aceptar, o que nunca aceptará por detalles de empaquetado.</p>
+<p>• <em>Lo malo:</em> el estándar es más flojo que el de la casa madre. Flojo no significa malo: significa que tú miras un poco más.</p>
+<p><em>Cuándo usarlo:</em> cuando la app que quieres está ahí y no en F-Droid, con repositorio público y licencia libre. <em>Cuándo no:</em> cuando es tu única fuente para algo que toca tus datos personales y no hay código a la vista.</p>
+<p><em>Cómo se añade (y por qué importa hacerlo bien):</em> en F-Droid o en Neo-Store, sección de repositorios, se pega la dirección del índice de Izzy y tu cliente muestra las dos casas en la misma lista. El riesgo es real: un índice que te pasa un desconocido es exactamente cómo termina la gente con el teléfono lleno de basura. Un índice es una fuente de verdad; trátalo como tal.</p>
+<p>───────────────────</p>
+<p><em>🏪 Droid-ify — el cliente moderno (y por qué Codeberg manda)</em></p>
+<p>Droid-ify es un cliente de F-Droid: no es una tienda nueva, es otra cara para la misma fuente. Lo que aporta es velocidad, búsqueda decente y una interfaz que no parece de 2014.</p>
+<p>Medido hoy: <em>★7.677 · GPL-3.0 · Kotlin · último empuje el 12 de septiembre de 2026 (hace 50 días) · última release v0.7.8 del 12 de septiembre.</em> Es decir: está <em>dormido</em>, no muerto. La diferencia importa y es una de las cosas que esta guía te quiere enseñar a leer.</p>
+<p><em>El detalle que casi nadie nota:</em> su repositorio de GitHub es un <em>espejo</em>. La descripción lo dice con todas sus letras: «Clutterfree F-Droid client, [mirror] <a href="https://codeberg.org/droidify/client».">https://codeberg.org/droidify/client».</a> La casa madre está en Codeberg: si un día el espejo desaparece —y pasa— la app no desaparece con él, y las <em>issues</em> de verdad se discuten allá, no acá.</p>
+<p><em>Por qué esto es la lección:</em> mira si el repositorio que tienes delante es la casa o el escaparate. En la ficha hay un caso hermano, este sí muerto: <code>droidify/client</code> responde <strong>404</strong>. <em><code>Droid-ify/client</code> vive; <code>droidify/client</code> no existe.</em> Copiar el enlace equivocado es el error más común y el más tonto.</p>
+<p>───────────────────</p>
+<p><em>🏪 Neo-Store — el cliente con brújula de rastreadores</em></p>
+<p>Neo-Store es el otro cliente moderno de F-Droid, del mismo equipo que hace Neo-Launcher. Medido hoy: <em>★5.595 · GPL-3.0 · Kotlin · último empuje el 23 de octubre de 2026 · última release 1.3.3 del mismo día.</em> Vivo y con actividad reciente.</p>
+<p>Su aporte concreto es una cosa que a mí me parece la función más subestimada del ecosistema: <em>te dice qué rastreadores trae cada app</em>. No en abstracto, no con una lista de siglas: con nombres —Exodus, Google Analytics, Facebook— y con la fuente de dónde lo sacó. Para eso se apoya en el trabajo de Exodus Privacy, que analiza APKs y publica qué bibliotecas de seguimiento llevan dentro.</p>
+<p><em>Cómo se usa en la práctica:</em> abres la ficha de una app, bajas hasta la sección de rastreadores y cuentas. Cero rastreadores no es garantía de nada, pero cinco rastreadores en una calculadora sí es una respuesta.</p>
+<p><em>Lo que no hace:</em> no compila nada. Neo-Store es una ventana; la mercancía la pone F-Droid. Si la app no está en el índice, Neo-Store no la inventa.</p>
+<p><em>Por qué conviene tenerlo aunque tengas F-Droid:</em> la brújula de rastreadores y la búsqueda por repositorios añadidos son dos cosas que el cliente original hace peor. Y elegir cliente no cambia la fuente: eso es lo importante. Cambiar de cliente no es cambiar de tienda.</p>
+<p>───────────────────</p>
+<p><em>🏪 Aurora Store — la puerta a otro catálogo, sin tu cuenta</em></p>
+<p>Aurora Store hace una sola cosa y la hace bien: te deja bajar apps de Google Play sin cuenta de Google y sin los servicios de Google instalados. Nada más. No es una tienda de software libre: es un <em>mensajero</em> de la tienda privativa.</p>
+<p>Medido hoy: el repositorio de GitHub que todos enlazan —<code>AuroraOSS/AuroraStore</code>— tiene <strong>★71</strong>, GPL-3.0, último empuje el 2 de octubre de 2026. Setenta y una estrellas para una app que millones de personas usan. ¿Por qué? Porque <em>ese repositorio no es la casa</em>: su propia descripción dice «Mirror of Gitlab AuroraOSS/AuroraStore». La casa madre está en GitLab y allí está la vida del proyecto. Es el segundo caso de espejo de esta guía, y no es casualidad: los proyectos que migraron de GitHub se quedaron con un cartel viejo en la puerta.</p>
+<p><em>Cómo funciona, en corto:</em> Aurora se hace pasar por un teléfono normal y le pide a Google Play el archivo que tú quieres. Puedes usar una cuenta anónima —que en realidad es una cuenta compartida por mucha gente, y por eso a veces «se cae»— o poner tu cuenta, con el riesgo que eso tiene.</p>
+<p><em>Lo que ganas:</em> apps que solo existen en Google Play, sin instalar los servicios de Google, sin darle tu identidad a Google.</p>
+<p><em>Lo que pierdes:</em> el anonimato no es perfecto, y las apps que dependen de los servicios de Google pueden no funcionar sin ellos. Aurora te da el archivo, no el ecosistema que las hace arrancar.</p>
+<p><em>Lo que nunca debes hacer:</em> instalar apps de pago «gratis» desde Aurora. No es una función. Si alguien te dice que lo es, está hablando de otra cosa.</p>
+<p><em>Para quién es:</em> para quien tiene un teléfono sin Google y necesita una app de un banco, una aerolínea o una escuela que solo vive en Play. Para el resto, la respuesta honesta es que F-Droid casi siempre tiene un equivalente libre y mejor.</p>
+<p>───────────────────</p>
+<p><em>🏪 Accrescent — la joven con estándares altos</em></p>
+<p>Accrescent es la más joven de las que valen la pena aquí, y la que más se parece a lo que yo querría que fueran todas: exige llaves de firma modernas, que el desarrollador demuestre que es el dueño del paquete, y no acepta cualquier cosa.</p>
+<p><em>Lo que la hace distinta:</em> su política de firma. No es que "cualquiera suba": el desarrollador tiene que probar que el identificador de su app es suyo, con una llave que se verifica contra el DNS de su dominio. Eso cierra el ataque más viejo de Android: el que publica una app con el mismo nombre de paquete que la tuya y se queda con tus actualizaciones.</p>
+<p><em>Lo que cuesta:</em> catálogo pequeño. Muy pequeño. No vas a encontrar tus diez apps ahí. Vas a encontrar unas pocas, bien hechas, sin discusión.</p>
+<p><em>Lo que me gusta de su existencia:</em> que demuestra que el estándar alto no es una fantasía de puristas: se puede exigir firma moderna y verificación de identidad sin que el proyecto muera de hambre. Es la prueba de que F-Droid podría endurecer sin romperse.</p>
+<p><em>Si tu teléfono es viejo:</em> pide Android 12 o más. Abajo, en la sección de teléfonos viejos, está qué hacer en ese caso.</p>
+<p>───────────────────</p>
+<p><em>🏪 GrapheneOS Apps — la tienda del sistema endurecido</em></p>
+<p>GrapheneOS es un sistema operativo para teléfonos Pixel que se toma la seguridad en serio. Su tienda de apps —<code>GrapheneOS/AppStore</code>, <em>★625 · MIT · Kotlin · empuje del 31 de octubre · release 37 del mismo día</em>— es el caso más raro de esta lista: <em>una tienda hecha por el mismo equipo que hace el sistema</em>, y que funciona fuera de él.</p>
+<p><em>Qué vende:</em> sus propias apps (Cámara, Visor de PDF, Reloj, Calculadora…), más un catálogo pequeño y verificado. Nada de terceros sin revisar.</p>
+<p><em>Por qué importa a quien no tiene GrapheneOS:</em> sus apps están escritas para no depender de los servicios de Google, y varias funcionan en un teléfono normal. Su cámara es de las pocas que no te pide la nube para nada.</p>
+<p><em>Lo que no es:</em> una tienda general. No vas a llenar el teléfono desde ahí: es una despensa de barrio, no un supermercado.</p>
+<p><em>El detalle que la hace confiable:</em> la misma gente que publica el sistema publica la tienda, con la misma llave y la misma política. Cuando el que hace el suelo también hace los muebles, la casa se cae o se sostiene entera.</p>
+<p>───────────────────</p>
+<p><em>🔁 Obtainium — el que no es una tienda y sigue el rastro de todas</em></p>
+<p>Obtainium no vende nada. No tiene catálogo. No tiene servidor. Lo que hace es una sola cosa, y la hace mejor que cualquier tienda: <em>le sigue el rastro a una app donde su propio desarrollador la publica</em> —GitHub, GitLab, Codeberg, Forgejo, un índice de F-Droid, una página web— y te avisa cuando sale versión nueva.</p>
+<p>Medido hoy: <em>★21.105 · GPL-3.0 · Dart · empujó hoy, 1 de noviembre · última release v1.7.4 <strong>de hoy mismo</strong>.</em></p>
+<p><em>Por qué esto es mejor que una tienda para ciertas cosas:</em> porque elimina al intermediario. No hay nadie que compile, nadie que firme, nadie que decida si tu app merece estar en el catálogo: hay el archivo del desarrollador y tu teléfono. Si él publica basura, recibes basura, y la responsabilidad es tuya.</p>
+<p><em>Cómo se usa de verdad:</em></p>
+<p><em>1.</em> Copias la dirección del repositorio de la app (no la del release, la del proyecto).</p>
+<p><em>2.</em> Se la pegas a Obtainium.</p>
+<p><em>3.</em> Él busca los releases, entiende el patrón de los archivos y te propone el APK correcto.</p>
+<p><em>4.</em> A partir de ahí vive en tu lista y te avisa.</p>
+<p><em>Lo que hay que saber para no romper nada:</em></p>
+<p>• <em>El patrón de los APK.</em> Muchos proyectos publican varios archivos por release (arm64, armeabi, universal). Si eliges el equivocado, la app instala y no arranca, o arranca lenta. La regla práctica: si tu teléfono es de los últimos cinco años, es arm64-v8a.</p>
+<p>• <em>Los APK divididos.</em> Algunos proyectos publican <code>.apkm</code> o <code>.apks</code>: no son un APK normal, son varias piezas. Obtainium puede con algunos; para el resto hay herramientas en la ficha de abajo.</p>
+<p>• <em>Las apps que firman distinto.</em> Si tenías la app instalada desde Play y ahora la instalas desde el release del desarrollador, puede que las firmas no coincidan y Android te obligue a desinstalar. Eso no es un virus: es la huella funcionando.</p>
+<p><em>Para quién es:</em> para quien tiene cinco o diez apps que ama y quiere actualizarlas sin pasar por una tienda. No es para quien quiere «un catálogo bonito donde picar». Es una libreta de direcciones, no un centro comercial.</p>
+<p>───────────────────</p>
+<p><em>🆕 Lo que no existía cuando se armó la lista vieja</em></p>
+<p>La lista que te mandé hace cuatro meses tenía veinte puertas y hoy la mitad de esas puertas ya no dan a ninguna parte. No porque se hayan roto: porque el oficio se mudó de casa. Esto es lo que hay ahora, medido hoy, con la fecha de nacimiento de cada proyecto al lado —que es el dato que casi nadie pone y el que explica todo.</p>
+<p><em>⬆️ RepoStore — ★1.371 · MIT · Kotlin · creado el 13 de enero de 2026 · release v1.0.22 del <strong>29 de octubre</strong></em></p>
+<p>Explora lo que se publica en GitHub y lo instala sin salir de la app: le das la dirección de un repositorio y te muestra sus releases, sus APKs y sus checksums. Es la idea de Obtainium con otro envoltorio y otra gente. <em>Mi opinión:</em> es la puerta nueva más limpia que he medido, y la única con licencia MIT y versión de hace tres días. Para el que quiere ver el código antes de instalar, esto es lo que hay.</p>
+<p><em>⬆️ ShizuStore — ★501 · GPL-3.0 · Kotlin · creado el <strong>17 de septiembre de 2026</strong> · release 1.5.0 del 5 de octubre</em></p>
+<p>La tienda de las apps que necesitan Shizuku para hacer su trabajo. Seis semanas de vida y ya tiene release, licencia y empuje de hoy. Nació, literalmente, después de que se escribiera la lista vieja. Si tu teléfono no tiene Shizuku instalado, esta app no te sirve para nada; si lo tiene, es el catálogo que te faltaba.</p>
+<p><em>🛠️ AppManager — ★9.399 · licencia en el limbo (el repositorio no la declara en la API, el texto sí) · Java · desde 2020 · release v4.1.1 del 4 de septiembre</em></p>
+<p>El gestor de paquetes completo de Android: ver qué pide cada app, congelarla, hacerle copia, quitarle permisos, mirar sus receptores. No instala apps: gobierna las que ya tienes. <em>Para qué te sirve:</em> para saber qué compró tu teléfono sin preguntarte y para congelar lo que no puedes desinstalar.</p>
+<p><em>🛠️ AppManagerNG — ★163 · GPL-3.0 · Java · creado el 30 de abril de 2026 · release v0.6.23 del 5 de septiembre</em></p>
+<p>El mismo oficio, código nuevo, equipo nuevo. Chiquito y honesto: dice lo que hace (inspeccionar, descongelar, hacer copia, controlar) y no promete magia. Está en su versión 0.6, así que se rompe cosas. Es el ejemplo perfecto de por qué conviene mirar dos: cuando un proyecto grande se pone pesado, aparece alguien que lo rehace más liviano.</p>
+<p><em>📦 universal-installer — ★1.661 · GPL-3.0 · Kotlin · creado el 28 de julio de 2025 · release v1.21.0 de hoy, 1 de noviembre</em></p>
+<p>Instalador moderno para paquetes partidos —los APK divididos por arquitectura y por idioma que las tiendas reparten en varios archivos—. Si alguna vez bajaste una app y te dijo «falta el paquete base», esta es la herramienta que lo resuelve. Empujó ayer.</p>
+<p><em>📦 InstallerX-Revived — ★7.259 · GPL-3.0 · Kotlin · creado el 6 de noviembre de 2024 · release 26.09 del 30 de septiembre</em></p>
+<p>El instalador que toma el control del diálogo del sistema y te deja elegir usuario, perfil e idioma antes de instalar. Es el que usan los que instalan lo mismo en el perfil de trabajo y en el personal. Empujó hoy.</p>
+<p><em>📦 Universal-Patch-Manager — ★1.398 · GPL-3.0 · Kotlin · creado el 13 de octubre de 2025 · release v2.0.0 del 29 de octubre</em></p>
+<p>Gestiona parches de terceros: ReVanced, Morphe, Reseam. <em>Aviso de la casa:</em> esta guía no receta parches ni mods; te digo qué existe y que tú decidas. Lo que sí es un dato: dos mil estrellas en un año y una versión mayor hace dos días.</p>
+<p><em>📦 Ackpine — ★185 · Apache-2.0 · Kotlin · desde 2023 · release 0.25.4 del 30 de julio</em></p>
+<p>No es una app: es una biblioteca para que otros programen instaladores. Te la nombro porque explica por qué hay tantos instaladores nuevos: hacer uno ya no cuesta nada, cualquiera puede montar el suyo en un fin de semana. Cuando entiendes eso, dejas de preguntarte por qué hay veinte y empiezas a preguntarte cuál tiene gente detrás.</p>
+<p><em>📦 APK-Installer (Windows) — ★1.712 · GPL-3.0 · C# · desde 2021 · release v0.1.28 de agosto de 2025</em></p>
+<p>Instala APKs en el teléfono desde la computadora, con doble clic. Su última versión tiene más de un año y su código se movió este mes: es el caso inverso al de siempre —release vieja, código vivo—. Sirve, y sirve sobre todo cuando el teléfono se queda sin espacio para el instalador.</p>
+<p><em>📦 VInstall — ★105 · GPL-3.0 · Kotlin · creado el 3 de abril de 2026 · release v0.4.5 del 30 de octubre</em></p>
+<p>Instala APK, XAPK, APKS, APKM y el formato cifrado APKV, con Shizuku y sin root. Siete meses de vida y ya cubre el paquete que ninguna tienda oficial te entrega hecho: el APKV es el formato cifrado de las tiendas chinas, y sin una herramienta que lo abra no hay nada que hacer. Lo medí hoy por primera vez.</p>
+<p><em>🧰 termux-app-store — ★124 · MIT · Python · creado el 2 de febrero de 2026 · release v0.9.1 del 20 de octubre</em></p>
+<p>Gestor de paquetes para Termux que funciona sin internet: catálogo local, compilación y arreglo de dependencias. Es de nicho y lo digo: si no usas Termux, no te interesa. Si lo usas, esto te ahorra media tarde cada vez que se rompe un repositorio.</p>
+<p><em>🔏 WebViewUpgrade — ★456 · Apache-2.0 · Java · desde 2024 · sin release publicada</em></p>
+<p>Actualiza el motor WebView sin pasar por el instalador del sistema. Suena a truco; es lo que hace que un teléfono de 2019 pueda seguir abriendo páginas modernas. Sin release oficial: se compila. Eso lo hace incómodo y lo dice su propio repositorio.</p>
+<p><em>🔏 developer-verifier-placeholder — ★183 · GPL-3.0 · creado y publicado el 16 de julio de 2026</em></p>
+<p>Un APK vacío que ocupa el lugar del verificador de desarrollador de Android para que el sistema no bloquee instalaciones. <em>Lo cuento con cuidado:</em> instalarlo no hace nada por sí solo y no lo recomiendo como primera opción; te lo nombro porque es la respuesta que está circulando y porque, si alguien te lo ofrece en un grupo sin explicarte esto, ya sabes qué es.</p>
+<p><em>🎮 AAAD — ★3.198 · MIT · Java · desde 2021 · release v2.8.5 del 17 de junio</em></p>
+<p>Descarga apps hechas para Android Auto que no aparecen en la tienda del auto. Nicho puro. Empujó en septiembre, o sea que sigue.</p>
+<p><em>Lo que estos catorce dicen juntos, y es la lección de la pieza:</em> ninguno estaba en la lista de hace cuatro meses y nueve no existían o no tenían una release. <em>El catálogo no envejece por falta de mantenimiento: envejece porque el trabajo se muda.</em></p>
+<p>───────────────────</p>
+<p><em>🪦 Por qué la lista vieja tenía cadáveres (y cómo se reconocen los nuevos)</em></p>
+<p>Cuando revisé la lista de hace cuatro meses encontré dos clases de muertos, y no se parecen en nada.</p>
+<p><em>Clase uno: el que se murió de verdad.</em> El repositorio responde 404, el dominio no existe, la cuenta del autor ya no publica. No hay nada que hacer: se anota con fecha y se sigue. En esta guía hay tres de esos, y los nombro para que nadie copie el enlace de un tutorial de marzo.</p>
+<p><em>Clase dos: el que nunca estuvo vivo.</em> Y esta es la que importa, porque es la que llena de cadáveres las listas que se copian entre sí. Encontré, midiendo hoy, cuatro repositorios que se parecen demasiado:</p>
+<p>• <code>sri-sivaram/Neko-Manga-Pearl</code> — ★116</p>
+<p>• <code>ubedshah/manga-vault-nexus</code> — ★115</p>
+<p>• <code>meyamane37923-hash/komikku-scans</code> — ★114</p>
+<p>• <code>khaledmahmud5286-cmd/manga-zen-reader</code> — ★113</p>
+<p>Los cuatro tienen exactamente la misma fecha de creación: <strong>28 de junio de 2026</strong>. Los cuatro son HTML (o sea: una página, no una app). Los cuatro <strong>no declaran licencia</strong>. Los cuatro empujaron en las últimas 48 horas. Y los cuatro se describen a sí mismos como «la mejor alternativa 2026» de algo que ya existe, con el nombre de otra app pegado en el título para que la búsqueda los encuentre.</p>
+<p>Eso no es un proyecto: es un cebo. Y funciona por una razón tonta: la búsqueda de cualquiera ordena por estrellas, y esos cuatro tienen más estrellas que proyectos reales que llevan años. <em>Un repositorio que nace el mismo día que otros tres, con el mismo estilo, sin licencia y sin código, no es un competidor: es el mismo negocio cuatro veces.</em></p>
+<p><em>Las cuatro preguntas que separan un proyecto de un cebo:</em></p>
+<p><em>1.</em> ¿Cuándo se creó y cuándo se movió por última vez? Si nació hace tres meses y tiene doscientas estrellas, mira el código antes de creer.</p>
+<p><em>2.</em> ¿Qué lenguaje es? Una app de Android no se escribe en HTML. Si el repositorio es una página web, no hay app.</p>
+<p><em>3.</em> ¿Declara licencia? Sin licencia no hay código que puedas usar, revisar ni reconstruir. Es el desierto legal.</p>
+<p><em>4.</em> ¿Tiene releases con archivos dentro? Un proyecto vivo publica versiones con APK, no capturas de pantalla.</p>
+<p><em>Y una quinta, la más útil:</em> ¿el autor tiene más proyectos? Los autores reales dejan rastro —un perfil con años, con issues contestados, con otros repositorios—. Las cuentas de cebo tienen un repositorio, un README generado y prisa.</p>
+<p>───────────────────</p>
+<p><em>🧰 Instalar en 2026: quién hace qué (y en qué orden)</em></p>
+<p>Esto reemplaza la caja de herramientas de la lista vieja. Ya no es una caja: son cuatro oficios distintos y conviene no confundirlos.</p>
+<p><em>1 · Descubrir.</em> F-Droid, IzzyOnDroid, RepoStore, ShizuStore, Appteka. Aquí el trabajo es ver catálogo y leer qué es cada cosa. Ninguno de estos instala nada que no hayas elegido tú.</p>
+<p><em>2 · Traer.</em> Obtainium y RepoStore. Aquí el trabajo es seguir un proyecto por su propia publicación, sin intermediario. Es la vía más segura y la más incómoda: cada app es una entrada que hay que mantener.</p>
+<p><em>3 · Instalar.</em> El instalador del sistema, InstallerX-Revived, universal-installer, APK-Installer desde la computadora. Aquí el trabajo es resolver paquetes partidos, perfiles de trabajo y arquitecturas. Si tu problema es «no se instala», el problema vive en este escalón y no en la tienda.</p>
+<p><em>4 · Gobernar lo instalado.</em> AppManager, AppManagerNG, WebViewUpgrade. Aquí el trabajo es lo que pasa después: qué permisos quedaron, qué corre en segundo plano, qué se puede congelar.</p>
+<p><em>El error clásico:</em> pedirle al escalón uno que resuelva un problema del tres. «La app no me instala» casi nunca es culpa de la tienda; es un paquete partido o una firma distinta. Y «la app me espía» no se arregla cambiando de tienda: se arregla en el escalón cuatro.</p>
+<p><em>Lo que comprobar antes de bajar un instalador alternativo:</em> release con archivo, licencia declarada, código movido este mes y un autor con más de un repositorio. Con eso descartas el cebo. Hoy pasan la prueba <code>wxxsfxyzm/InstallerX-Revived</code> ★7.259, <code>pass-with-high-score/universal-installer</code> ★1.661, <code>Paving-Base/APK-Installer</code> ★1.712 y <code>vinstall/VInstall</code> ★105.</p>
+<p>───────────────────</p>
+<p><em>🚫 Los letreros de mods (se nombran, no se enlazan)</em></p>
+<p>Estos son los nombres que esta guía <strong>no</strong> te da con enlace, y digo por qué: porque enlazarlos sería recomendarlos, y no los recomiendo. Los nombro para que los reconozcas cuando te los encuentres en un estado de WhatsApp.</p>
+<p>• <em>Las vitrinas de «APK mod»</em> — sitios que ofrecen «lo de pago, gratis». Su modelo es viejo y conocido: cambian el archivo original por uno propio, le meten publicidad y rastreadores, y a veces algo peor. Los nombres cambian cada temporada; la estructura no.</p>
+<p>• <em>Los canales de Telegram de APKs</em> — lo más común en República Dominicana y en medio mundo. Un archivo, un mensaje, cero trazabilidad. El que lo subió no firma nada y no responde por nada.</p>
+<p>• <em>Los «premium desbloqueados»</em> — la promesa más rentable del ecosistema. Casi siempre es una app repackaged: misma cara, distinto cuerpo.</p>
+<p>• <em>Las apps con nombre de otra app</em> — el truco de ponerle a un archivo el nombre de una app famosa y confiable. Si el icono es idéntico y el tamaño no, sospecha.</p>
+<p><em>Cómo se reconoce una vitrina sin abrirla:</em></p>
+<p><em>1.</em> No tiene repositorio. No hay código, no hay autor, no hay issues.</p>
+<p><em>2.</em> No dice la versión de la app original ni la fecha del archivo.</p>
+<p><em>3.</em> Te pide instalar «desde fuentes desconocidas» y además desactivar Play Protect.</p>
+<p><em>4.</em> Tiene una sección de «VIP» o «premium» para bajar más rápido.</p>
+<p><em>5.</em> El archivo pesa muchísimo menos que la app real, o muchísimo más.</p>
+<p><em>Y una cosa que la gente discute y aquí se zanja:</em> hay mods legítimos. Un parche que quita anuncios de una app libre, publicado con su código y su autor, es trabajo de la comunidad y esta guía no lo condena. Lo que condena es <em>el mod anónimo</em>: el que no dice quién lo hizo ni con qué. La pregunta nunca es «¿es un mod?». La pregunta es «¿quién responde?».</p>
+<p>───────────────────</p>
+<p><em>🕐 El reloj del registro — el hito del 30 de septiembre y el 2027 que ya viene</em></p>
+<p>Desde el 30 de septiembre de 2026, Google exige verificación de desarrollador para instalar apps en Android en varios países, y la lista sigue creciendo. La fecha que importa para nosotros no es esa: es <strong>2027</strong>, cuando el requisito se extienda y el ecosistema de instalación lateral —el que esta guía documenta— tenga que demostrar que puede seguir existiendo sin pedirle permiso a una tienda privativa.</p>
+<p><em>Qué significa en la práctica, sin alarmismo:</em></p>
+<p>• <em>Para el que instala:</em> que cada vez más teléfonos van a poner trabas a instalar APKs de fuera de las tiendas verificadas. No es el fin del sideloading; es un peaje nuevo.</p>
+<p>• <em>Para el que desarrolla:</em> que publicar fuera de Play va a costar más trámite, y que los proyectos chiquitos son los que más lo van a sufrir.</p>
+<p>• <em>Para el archivo:</em> que la documentación de <em>cómo se instala hoy</em> caduca más rápido que antes. Por eso cada pieza de esta casa lleva fecha y cada ficha dice cuándo se midió.</p>
+<p><em>Lo que yo opino, que para eso estás leyendo:</em> el ecosistema libre no se salva por una tienda, se salva porque hay varias y porque el código está a la vista. Si mañana F-Droid desapareciera, su índice seguiría siendo replicable; si desapareciera Google Play, no quedaría nada que replicar. Esa asimetría es la razón por la que esta guía existe.</p>
+<p>───────────────────</p>
+<p><em>🕒 Cómo se lee una lista de hace cuatro meses (sin que te estafe)</em></p>
+<p>Una lista de apps no es un plano: es una fotografía. Y esta guía la escribí hoy, así que te sirve hoy; si la abres en marzo, la mitad de los números estarán viejos. Lo que no envejece es el método, y por eso lo dejo escrito aquí antes que cualquier recomendación.</p>
+<p><em>Regla uno: busca la fecha de nacimiento del proyecto, no las estrellas.</em> En mi medición de hoy hay proyectos con ★7.259 que nacieron en noviembre de 2024 y proyectos con ★115 que nacieron el 28 de junio de 2026 y no tienen una línea de código. Las estrellas se compran con un README bonito; la fecha de creación no se puede comprar hacia atrás.</p>
+<p><em>Regla dos: separa «vivo» de «actualizado».</em> <code>accrescent/accrescent</code> empujó ayer y su última release es del 10 de noviembre de 2025; <code>GrapheneOS/AppStore</code> publicó la suya el 31 de octubre. Los dos están vivos: uno afina y el otro publica. Si solo mirases releases, darías por muerto a Accrescent y te perderías un proyecto que trabaja todas las semanas.</p>
+<p><em>Regla tres: el que copia la lista también copia los cadáveres.</em> Cuando veas tres listas que recomiendan exactamente las mismas diez apps con los mismos adjetivos, no estás ante tres revisiones: estás ante una copia con tres fechas. El síntoma es siempre el mismo: enlaces a repositorios que ya no existen, y ningún dato nuevo.</p>
+<p><em>Regla cuatro: una app sin release no es una app, es una promesa.</em> Si el repositorio no tiene una versión con archivo descargable, lo que hay es código para programadores. Puede ser buenísimo —<code>JonaNorman/WebViewUpgrade</code> es exactamente eso— pero no es «la descargo y ya», y quien te lo presente así no lo ha instalado.</p>
+<p><em>Regla cinco: lo que no está medido se dice.</em> Los <strong>31</strong> repositorios de la ficha llevan número, fecha y licencia. Lo que no medí no lo afirmo: cuánta gente usa cada app, si tal release corre en tu teléfono. Un dato que falta, dicho, vale más que uno inventado.</p>
+<p><em>Lo práctico, en una frase:</em> cuando alguien te mande una lista, pregúntale cuándo la midió. Si no lo sabe, no es una lista: es un rumor con viñetas.</p>
+<p>───────────────────</p>
+<p><em>📚 Las listas curadas que sí sirven hoy (y las que no)</em></p>
+<p>Una lista curada no es una tienda: es un índice de enlaces. Sirve para descubrir y no garantiza nada. Medí las cuatro grandes hoy y esto es lo que hay.</p>
+<p><em><code>timschneeb/awesome-shizuku</code> — ★10.670 · sin licencia declarada · empujó <strong>ayer</strong>.</em></p>
+<p>El catálogo de las apps que necesitan Shizuku, mantenido por el mismo autor de ShizuStore y del archivo histórico de extensiones de Tachiyomi. Es la fuente de la que sale medio ecosistema. <em>Ojo:</em> es un índice; cada entrada la tienes que verificar tú.</p>
+<p><em><code>offa/android-foss</code> — ★11.611 · GPL-3.0 · empuje del 26 de octubre.</em></p>
+<p>La lista clásica de apps libres para Android, ordenada por categoría y con enlace directo al repositorio. Su valor no son las estrellas: es que cada entrada apunta al código, no a una web de descargas.</p>
+<p><em><code>fmhy/edit</code> — ★12.673 · sin licencia declarada · empujó hoy.</em></p>
+<p>El repositorio de la lista más grande de internet. Sirve como mapa de descubrimiento y <strong>no</strong> como fuente de confianza: su propio aviso avisa de los nombres falsos y de las copias modificadas. Se usa para saber qué existe; se verifica en otra parte.</p>
+<p><em><code>Psyhackological/AAA</code> — ★3.141 · CC-BY-4.0 · empuje del 29 de septiembre · última versión de mayo de 2024.</em></p>
+<p>La lista de «apps realmente buenas» con criterio editorial. Está viva y su última versión descargable es vieja: exactamente el caso que enseña a distinguir índice de aplicación. Como índice funciona; como promesa de actualidad, no.</p>
+<p><em>Lo que ninguna de las cuatro hace por ti:</em> verificar firmas. Todas te llevan al repositorio del proyecto, y ahí empieza tu trabajo. La lista te ahorra la búsqueda; no te ahorra la duda.</p>
+<p>───────────────────</p>
+<p><em>🔍 Cómo verificar tú mismo — la vara en tu mano, en cinco pasos</em></p>
+<p>Esto es lo que hago yo para cada app que entra en el registro. Tú puedes hacer lo mismo con el teléfono, sin instalar nada raro.</p>
+<p><em>Paso 1 — ¿Dónde vive el proyecto?</em></p>
+<p>Busca el nombre de la app y la palabra «github» o «gitlab». Si no aparece un repositorio, ya tienes la mitad de la respuesta. Un proyecto serio casi siempre tiene casa.</p>
+<p><em>Paso 2 — ¿Quién firma?</em></p>
+<p>En el repositorio, busca el archivo <code>LICENSE</code>. Si no hay archivo, mira la sección «License» del README —la sección, no la primera vez que aparece la palabra «MIT» en cualquier parte, que es el error que me costó una corrección en su día—. Sin licencia no quiere decir «malo»: quiere decir «no sé qué puedo hacer con esto».</p>
+<p><em>Paso 3 — ¿Cuándo se movió por última vez?</em></p>
+<p>Mira la fecha del último empuje y la de la última release. Regla de la casa: menos de 45 días, vivo; entre 45 y 180, dormido; más de 180 sin nada, probablemente abandonado. Pero <em>dormido no es muerto</em>: hay apps perfectas que no necesitan cambios.</p>
+<p><em>Paso 4 — ¿Qué pide?</em></p>
+<p>Los permisos. En F-Droid los ves en lenguaje humano; en el teléfono, en Ajustes → Aplicaciones → Permisos. La pregunta no es «¿son muchos?»: es «¿tienen sentido para lo que hace?».</p>
+<p><em>Paso 5 — ¿Se puede reconstruir?</em></p>
+<p>Si la app está en F-Droid, sí, y eso ya lo hizo otro por ti. Si solo está en un release de GitHub, no: confías en el archivo del desarrollador. No es pecado, pero es otra confianza, y hay que saber cuál estás dando.</p>
+<p><em>Los cinco juntos tardan cuatro minutos.</em> Cuatro minutos por app es el precio de no terminar con un teléfono que llama solo a números premium.</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla de decisión (semilla rápida)</em></p>
+<pre>
+Necesito…                          | Usa esto                | Por qué
+-----------------------------------|-------------------------|---------------------------
+App libre, revisada y firmada      | F-Droid                 | Compila del código
+App libre que F-Droid no acepta    | IzzyOnDroid             | Anexo con sello propio
+Cliente más cómodo de F-Droid      | Droid-ify / Neo-Store   | Misma fuente, mejor cara
+App que solo está en Google Play   | Aurora Store            | Mensajero, sin cuenta Google
+App del equipo GrapheneOS          | GrapheneOS AppStore     | Misma llave que el sistema
+Actualizar desde el release        | Obtainium               | Sin intermediario
+Explorar repos de GitHub           | RepoStore               | Versión del 29-oct
+Apps del mundo Shizuku             | ShizuStore              | Catálogo + instalador
+Mercado abierto, muchas apps       | Appteka                 | Con advertencias, y ya
+APK partido que no instala         | universal-installer     | Une y resuelve
+Instalar por perfil o usuario      | InstallerX-Revived     | Reemplaza el diálogo
+Instalar desde la computadora      | APK-Installer (Windows) | Doble clic
+Gobernar permisos y congelar apps  | AppManager / NG         | Ver y decidir
+Actualizar el motor WebView        | WebViewUpgrade          | Sin pasar por el sistema
+«Lo de pago, gratis»               | NADA                    | No existe. Es el cebo
+</pre>
+<p>───────────────────</p>
+<p><em>❓ Preguntas frecuentes (las que de verdad me hacen)</em></p>
+<p><em>«¿Instalar APKs fuera de Play es legal?»</em></p>
+<p>En casi todos los países, sí: instalar software en tu propio teléfono no es delito. Lo que puede ser ilegal es el contenido: una app pirateada, un juego crackeado, una película. Esta guía habla de software libre, que es legal por definición —su licencia te da permiso explícito de copiarlo—, y nombra los mods solo para advertirte.</p>
+<p><em>«¿Y si me meten un virus?»</em></p>
+<p>El vector real no es «APK»: es <em>el APK que no sabes de dónde salió</em>. Un archivo de F-Droid pasó por una reconstrucción y una firma. Un archivo de un grupo de WhatsApp no pasó por nada. La probabilidad de que te metan algo por F-Droid es bajísima; por un canal de mods, no es baja: es la razón de existir del canal.</p>
+<p><em>«¿Necesito root?»</em></p>
+<p>No. Nada de lo que esta guía recomienda requiere root. Shizuku no es root —presta permisos, no los da— y las tiendas funcionan sin nada especial. Si alguien te dice que para instalar una tienda necesitas root, te está vendiendo algo.</p>
+<p><em>«¿F-Droid es lento, por qué?»</em></p>
+<p>Porque compila. Cada app se reconstruye desde el código en su infraestructura, y eso tarda. La lentitud es el precio de la verificación. Si quieres velocidad y estás dispuesto a confiar en el desarrollador, Obtainium es tu respuesta; si quieres verificación y aceptas esperar, F-Droid.</p>
+<p><em>«¿Por qué mi app favorita no está en F-Droid?»</em></p>
+<p>Tres razones posibles: usa código que no es libre, depende de servicios de Google, o su receta de construcción no pasa. La tercera es la más común y la más frustrante, porque no es culpa del desarrollador ni de la tienda: es del empaquetado.</p>
+<p><em>«¿Puedo tener F-Droid y Aurora Store a la vez?»</em></p>
+<p>Sí, y es lo que hace la mayoría. Son cosas distintas: una es la tienda libre, la otra es un mensajero de Play. Conviven sin problema.</p>
+<p><em>«¿Y si la app que quiero solo existe en Appteka?»</em></p>
+<p>Entonces mide: busca su repositorio, mira quién la publicó, revisa cuándo se actualizó. Si no hay nada de eso, decide con los ojos abiertos. Esta guía no te dice «no lo hagas»: te dice que sepas lo que estás haciendo.</p>
+<p><em>«¿Las tiendas que recomiendas son seguras?»</em></p>
+<p>No prometo eso, y nadie honesto puede prometerlo. Prometo otra cosa: que el dato que doy es el que medí, en la fecha que digo, con la licencia que el repositorio declara. Una tienda puede tener un fallo mañana; lo que no puede es sorprenderme mintiendo sobre lo que es.</p>
+<p><em>«¿Por qué tantas estrellas para cosas chiquitas?»</em></p>
+<p>Porque ★ mide atención, no calidad. <code>droidify/client</code> está muerto y tiene 7.678 estrellas de gente que lo quiso. <code>sunO2/GStore</code> tiene 4 estrellas y está vivo. Las estrellas son el termómetro más viejo y más engañoso del ecosistema: úsalas para descubrir, nunca para decidir.</p>
+<p>───────────────────</p>
+<p><em>🧊 Mitos que esta guía desmonta (con la vara, no con grito)</em></p>
+<p><em>Mito 1: «Si no está en Play, es peligroso».</em></p>
+<p>Falso y al revés. Play ha distribuido apps con malware más veces de las que sus defensores admiten, y las retira cuando las denuncian. La diferencia no es el canal: es la verificación. F-Droid verifica más que Play, no menos.</p>
+<p><em>Mito 2: «Las apps libres son feas y no funcionan».</em></p>
+<p>Mira la ficha de hoy. Catorce repositorios de tiendas y herramientas, todos con interfaz moderna, todos funcionando, todos con código abierto. La fealdad del software libre es un recuerdo de 2012.</p>
+<p><em>Mito 3: «Más estrellas = más seguro».</em></p>
+<p><code>RikkaApps/Shizuku</code> tiene ★32.573 y lleva 501 días sin empujar. <code>GrapheneOS/AppStore</code> tiene ★625 y empujó ayer. La seguridad no se mide en estrellas: se mide en quién firma y qué tan rápido responde.</p>
+<p><em>Mito 4: «El modo desarrollador y el sideloading son de hackers».</em></p>
+<p>Son de cualquiera que quiera instalar algo que no esté en una tienda. El término «hacker» lo puso el marketing. La realidad: es una opción del sistema, con su propio aviso, y usarla con criterio es exactamente lo que esta guía enseña.</p>
+<p><em>Mito 5: «F-Droid no tiene apps útiles».</em></p>
+<p>Tiene navegador, gestor de contraseñas, cliente de correo, mapas, reproductor de música, bóveda de fotos, mensajería cifrada, escáner de documentos, y un largo etcétera. Lo que no tiene son las apps que viven de tus datos. Esa ausencia no es una falla: es el punto.</p>
+<p>───────────────────</p>
+<p><em>🧪 Casos prácticos — la vara en movimiento</em></p>
+<p><em>Caso A — El teléfono de la tía.</em></p>
+<p>Tiene un gama media de 2019, lleno de apps que le metieron en una tienda de la esquina. La cura no es instalar veinte cosas: es desinstalar las que no reconoce, ponerle Neo-Store, y enseñarle la brújula de rastreadores. En media hora entiende más del tema que en cinco años.</p>
+<p><em>Caso B — El que quiere YouTube sin anuncios.</em></p>
+<p>La respuesta honesta: el cliente oficial no se puede recomendar y los parches viven en territorio gris. Lo que esta casa sí puede decir es qué es cada cosa: el parche es libre, la app parcheada no. Allá cada quien con su decisión, pero con la información completa.</p>
+<p><em>Caso C — El del trabajo que necesita una app de banco.</em></p>
+<p>No hay alternativa libre para eso, y quien diga que la hay miente. Aurora Store es la respuesta: bajas el APK oficial de Play sin instalar los servicios de Google. Es la app privativa de siempre, con un poco menos de Google alrededor.</p>
+<p><em>Caso D — El que quiere descubrir cosas nuevas.</em></p>
+<p>RepoStore para navegar, Obtainium para lo que ya conoces. La combinación cubre los dos movimientos: descubrir y mantener.</p>
+<p><em>Caso E — El del archivo que no instala.</em></p>
+<p>«Paquete inválido» o «app no instalada» casi siempre es APK dividido. universal-installer lo une, InstallerX-Revived lo instala. Cinco minutos y se resuelve.</p>
+<p>───────────────────</p>
+<p><em>🪴 Si una app desaparece o cambia de dueño</em></p>
+<p>Esto pasa más de lo que la gente cree, y saber qué hacer evita sustos.</p>
+<p><em>1. La app desaparece del catálogo.</em></p>
+<p>Puede ser que la retiraran por incumplir una regla, que el desarrollador pidiera su retirada, o que el proyecto se archivara. Lo que ya tienes instalado sigue funcionando: desinstalar no es urgente. Lo urgente es no actualizar a ciegas desde otro sitio.</p>
+<p><em>2. La app cambia de dueño.</em></p>
+<p>El caso clásico: un proyecto popular se vende, y el nuevo dueño le mete publicidad o telemetría. Se detecta porque cambian los permisos, porque aparece un SDK nuevo, o porque la licencia se vuelve más cerrada. Cuando lo veas, actualiza solo si confías en el nuevo dueño; si no, quédate en la última versión buena y busca reemplazo.</p>
+<p><em>3. El repositorio se archiva.</em></p>
+<p>Hoy mismo, en la medición de esta pieza, hay varios archivados en el ecosistema Android. Archivado significa «esto no se va a mover más», no «esto es malo». Una app archivada y estable puede seguir siendo la mejor opción durante años; lo que ya no puedes esperar son parches.</p>
+<p><em>4. El proyecto se parte en dos.</em></p>
+<p>Pasa mucho: el mantenedor original deja el proyecto, un fork sigue vivo y el original se muere. Antes de migrar, mira cuál de los dos tiene empujes recientes y cuál conserva la firma. Cambiar de firma significa desinstalar y perder datos.</p>
+<p>───────────────────</p>
+<p><em>👶🧑👴 Lectura por edad</em></p>
+<p><em>Si tienes menos de 15:</em> no instales nada de lo que no entiendas, y pregunta antes de meter un APK. Lo que esta guía llama «letrero de mods» es exactamente lo que más circula en los grupos del colegio.</p>
+<p><em>Si tienes entre 15 y 25:</em> tienes la paciencia para aprender la vara. Empieza por F-Droid y Neo-Store, y no toques nada de root hasta entender qué es un permiso.</p>
+<p><em>Si tienes entre 25 y 50:</em> probablemente lo que quieres es que el teléfono funcione y no te espíe. F-Droid para lo libre, Aurora para lo que solo está en Play, y una regla: nada de mods anónimos.</p>
+<p><em>Si tienes más de 50:</em> la buena noticia es que esto es más simple de lo que parece. Tres tiendas, una regla: si no sabes de dónde salió, no lo instales. Y si alguien te ofrece «el WhatsApp modificado que borra mensajes», es exactamente lo que no debes instalar.</p>
+<p>───────────────────</p>
+<p><em>🎯 Consejos por perfil</em></p>
+<p><em>Para el que llega por primera vez:</em> instala Neo-Store, añade IzzyOnDroid, y no instales nada más durante una semana. Mira el catálogo, entiende qué hay. La prisa es lo que llena el teléfono de basura.</p>
+<p><em>Para el que ya tiene todo rooteado:</em> tu riesgo no es el root, es la cantidad de módulos de fuentes distintas. Cada módulo que instalas es código con permisos de sistema. Aplica la misma vara que a las apps, y con más razón.</p>
+<p><em>Para el que mantiene el teléfono de la familia:</em> no les instales veinte cosas. Instala tres, y explícales una sola regla. La regla que se recuerda es la que se puede repetir en una frase.</p>
+<p><em>Para el que publica o comparte:</em> nunca compartas un APK que no puedas rastrear hasta su repositorio. Un archivo suelto en un grupo es una cadena que se rompe en el primer eslabón.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Si algo falla (soluciones reales, no genéricas)</em></p>
+<p><em>«App no instalada» o «paquete inválido».</em></p>
+<p>Casi siempre: APK dividido o firma distinta. Prueba universal-installer; si ya tenías la app, desinstala antes (perderás datos) o instala la versión del mismo firmante.</p>
+<p><em>«Play Protect bloquea la instalación».</em></p>
+<p>Play Protect es el antivirus de Google, y a veces marca apps libres sin razón. Puedes desactivarlo temporalmente desde Play Store → menú → Play Protect, pero hazlo solo si sabes de dónde viene el archivo. Si viene de F-Droid, la marca es un falso positivo conocido; si viene de un canal de Telegram, no lo desactives: no instales.</p>
+<p><em>«La actualización de Obtainium no llega».</em></p>
+<p>Mira el patrón de los APK en el release: si cambió el nombre del archivo, Obtainium deja de reconocerlo. Se corrige editando la regla de la app en Obtainium, o esperando a que el desarrollador vuelva a su esquema.</p>
+<p><em>«F-Droid no me muestra una app que sí existe».</em></p>
+<p>Puede ser que tu cliente tenga el índice viejo: actualiza repositorios a mano. O que la app viva en IzzyOnDroid y no la hayas añadido.</p>
+<p><em>«La app de Shizuku no arranca».</em></p>
+<p>Casi siempre es que Shizuku no está corriendo: hay que activarlo después de cada reinicio con ADB o con el modo inalámbrico. No es un fallo de la app: es cómo funciona Shizuku.</p>
+<p>───────────────────</p>
+<p><em>🌍 El ecosistema en una sola imagen</em></p>
+<pre>
+       El desarrollador publica
+       código + release firmado
+                  │
+   ┌──────────┬───┴───────┬──────────┐
+ F-Droid     Release    Mercado
+ compila     directo    abierto
+ y firma     (GitHub)   (Appteka)
+   │            │           │
+ Droid-ify   Obtainium   sin revisión
+ Neo-Store   RepoStore   de nadie
+        └────────┬──────────┘
+           Instalar bien
+                 │
+           TU TELÉFONO
+</pre>
+<p>La columna de la izquierda te da verificación; la del medio, frescura; la de la derecha, cantidad. La fila de abajo es la que casi nadie mira y la que decide si el paquete entra o no. Ninguna columna te da las tres cosas: esa es la decisión de esta guía, resumida en un dibujo.</p>
+<p>───────────────────</p>
+<p><em>📋 LA FICHA DE HOY — 31 repositorios medidos uno por uno</em></p>
+<p>Todo lo de abajo se consultó hoy con la API de GitHub: estrellas, licencia que el repositorio declara, último empuje y última release con su fecha. Lo que no tiene número es porque no es un repositorio de GitHub (F-Droid e IzzyOnDroid viven en otra parte) y lo digo en vez de inventarlo.</p>
+<p><em>Las puertas nuevas (nueve meses de diferencia):</em></p>
+<p>• <strong>samyak2403/RepoStore</strong> — ★1.371 · MIT · creado 13-ene-2026 · release v1.0.22 (29-oct) → explora releases de GitHub e instala</p>
+<p>• <strong>timschneeb/ShizuStore</strong> — ★501 · GPL-3.0 · creado 17-sep-2026 · release 1.5.0 (5-oct) → la tienda del mundo Shizuku</p>
+<p>• <strong>SysAdminDoc/AppManagerNG</strong> — ★163 · GPL-3.0 · creado 30-abr-2026 · release v0.6.23 (5-sep) → reescritura reciente del gestor</p>
+<p>• <strong>djunekz/termux-app-store</strong> — ★124 · MIT · creado 2-feb-2026 · release v0.9.1 (20-oct) → paquetes de Termux sin internet</p>
+<p>• <strong>pass-with-high-score/universal-installer</strong> — ★1.661 · GPL-3.0 · creado 28-jul-2025 · release v1.21.0 (1-nov)</p>
+<p>• <strong>Jman-Github/Universal-Patch-Manager</strong> — ★1.398 · GPL-3.0 · creado 13-oct-2025 · release v2.0.0 (29-oct)</p>
+<p>• <strong>wxxsfxyzm/InstallerX-Revived</strong> — ★7.259 · GPL-3.0 · creado 6-nov-2024 · release 26.09 (30-sep)</p>
+<p>• <strong>Paving-Base/APK-Installer</strong> — ★1.712 · GPL-3.0 · creado 21-oct-2021 · release v0.1.28 (11-ago-2025)</p>
+<p>• <strong>vinstall/VInstall</strong> — ★105 · GPL-3.0 · creado 3-abr-2026 · release v0.4.5 (30-oct) → APKV cifrado incluido</p>
+<p><em>Las que ya eran puerta y siguen de pie:</em></p>
+<p>• <strong>ImranR98/Obtainium</strong> — ★21.105 · GPL-3.0 · release v1.7.4 (1-nov) → empujó y publicó hoy</p>
+<p>• <strong>MuntashirAkon/AppManager</strong> — ★9.399 · <strong>sin licencia declarada en la API</strong> · release v4.1.1 (4-sep)</p>
+<p>• <strong>Droid-ify/client</strong> — ★7.677 · GPL-3.0 · release v0.7.8 (12-sep)</p>
+<p>• <strong>NeoApplications/Neo-Store</strong> — ★5.595 · GPL-3.0 · release 1.3.3 (23-oct)</p>
+<p>• <strong>shmykelsa/AAAD</strong> — ★3.198 · MIT · release v2.8.5 (17-jun)</p>
+<p>• <strong>accrescent/accrescent</strong> — ★2.305 · Apache-2.0 · <strong>release 0.28.1 (10-nov-2025)</strong> y código de ayer</p>
+<p>• <strong>solkin/appteka-android</strong> — ★1.367 · GPL-3.0 · release v23.0 (13-ago)</p>
+<p>• <strong>GrapheneOS/AppStore</strong> — ★625 · MIT · release 37 (<strong>31-oct</strong>)</p>
+<p>• <strong>RikkaApps/Shizuku</strong> — ★32.573 · Apache-2.0 · release v13.6.0 (25-may-2025) → el que presta permisos</p>
+<p>• <strong>JonaNorman/WebViewUpgrade</strong> — ★456 · Apache-2.0 · <strong>sin release</strong> → se compila</p>
+<p>• <strong>solrudev/Ackpine</strong> — ★185 · Apache-2.0 · release 0.25.4 (30-jul) → biblioteca de instaladores</p>
+<p>• <strong>daboynb/developer-verifier-placeholder</strong> — ★183 · GPL-3.0 · release v3000000000000 (16-jul)</p>
+<p>• <strong>AuroraOSS/AuroraStore</strong> — ★71 · GPL-3.0 → espejo; la casa está en GitLab, no lo olvides</p>
+<p><em>Las listas curadas (índices, no garantías):</em></p>
+<p>• <strong>fmhy/edit</strong> — ★12.673 · <strong>sin licencia</strong> · empujó hoy</p>
+<p>• <strong>offa/android-foss</strong> — ★11.611 · GPL-3.0 · empuje 26-oct</p>
+<p>• <strong>timschneeb/awesome-shizuku</strong> — ★10.670 · <strong>sin licencia</strong> · empujó ayer</p>
+<p>• <strong>Psyhackological/AAA</strong> — ★3.141 · CC-BY-4.0 · release 250 (7-may-2024)</p>
+<p><em>Los cuatro cebos, medidos como lo que son:</em></p>
+<p>• <strong>sri-sivaram/Neko-Manga-Pearl</strong> — ★116 · sin licencia · HTML · creado 28-jun-2026</p>
+<p>• <strong>ubedshah/manga-vault-nexus</strong> — ★115 · sin licencia · HTML · creado 28-jun-2026</p>
+<p>• <strong>meyamane37923-hash/komikku-scans</strong> — ★114 · sin licencia · HTML · creado 28-jun-2026</p>
+<p>• <strong>khaledmahmud5286-cmd/manga-zen-reader</strong> — ★113 · sin licencia · HTML · creado 28-jun-2026</p>
+<p><em>El muerto que sigue en los tutoriales viejos:</em></p>
+<p>• <strong>droidify/client</strong> — <strong>404</strong>. El espejo que medio internet sigue enlazando no existe. El vivo es <code>Droid-ify/client</code> con guion.</p>
+<p><em>Dos que enseñan a mirar dos veces:</em> Accrescent, con release de hace casi un año y código de ayer; y GrapheneOS AppStore, con release del 31 de octubre y ★625 — menos estrellas que un cebo y mil veces más proyecto.</p>
+<p>───────────────────</p>
+<p><em>📖 Glosario mínimo</em></p>
+<p>• <em>APK</em> — el archivo instalable de Android. Es un ZIP con la app dentro y una firma encima.</p>
+<p>• <em>Firma</em> — la huella criptográfica del que empaquetó. Cambiarla obliga a desinstalar.</p>
+<p>• <em>Sideloading</em> — instalar fuera de la tienda oficial. No es ilegal; es una opción del sistema.</p>
+<p>• <em>Shizuku</em> — puente que presta permisos de sistema a apps normales, sin root, muriendo en cada reinicio.</p>
+<p>• <em>Repositorio</em> — el código y su historia. Sin repositorio no hay nada que auditar.</p>
+<p>• <em>Espejo</em> — copia de un repositorio en otra plataforma. El espejo no es la casa.</p>
+<p>• <em>APK dividido</em> — app partida en varios archivos por arquitectura o idioma. Necesita unión.</p>
+<p>• <em>Archivado</em> — el proyecto no se moverá más. No es lo mismo que muerto.</p>
+<p>• <em>Dormido</em> — sin empujes recientes, pero vivo. La casa lo marca a partir de 45 días.</p>
+<p>• <em>Repackaging</em> — tomar una app ajena, cambiarle cosas y publicarla como si fuera. La base del mod anónimo.</p>
+<p>───────────────────</p>
+<p><em>📶 Qué cambia si tu teléfono es viejo</em></p>
+<p>Esta guía se lee distinto según la máquina que tengas en la mano, y eso no se puede disimular con una lista de recomendaciones.</p>
+<p><em>Android 7 a 9 (2016-2018).</em> Muchas de las tiendas nuevas no van a instalarse: Accrescent pide Android 12, GrapheneOS AppStore apunta a Pixel recientes, y varias apps modernas compilan con bibliotecas que exigen API 30 o más. Lo que sí funciona: F-Droid, Neo-Store, Obtainium, y las versiones viejas de los clientes, que siguen en sus releases. <em>Truco honesto:</em> descarga la última release compatible desde el repositorio, no la última a secas; los proyectos serios archivan todas sus versiones.</p>
+<p><em>Android 10 a 12.</em> Es el punto dulce. Todo lo de esta pieza instala, Shizuku funciona con el modo inalámbrico sin necesitar PC (a partir de Android 11), y el instalador todavía no pone las trabas que vinieron después.</p>
+<p><em>Android 13 en adelante.</em> Aquí aparece el aviso de apps restringidas y el requisito de verificación de desarrollador en algunas regiones. No rompe nada de lo que recomiendo, pero sí añade pasos: hay que permitir la instalación por app, app por app, y a veces confirmar dos veces. No es un virus del sistema: es la política nueva.</p>
+<p><em>Lo que cambia de verdad con un teléfono viejo:</em> el tiempo. Una app que en un gama alta abre en un segundo, en un teléfono de 2017 abre en cinco, y la tentación es culpar a la app. Antes de desinstalar porque va lento: si tienes menos de 3 GB de RAM, prefiere clientes ligeros (F-Droid original, no Neo-Store) y apps con menos gráficos.</p>
+<p><em>Y lo que no cambia nunca:</em> la regla. Un teléfono viejo no perdona un mod anónimo mejor que uno nuevo; al contrario, tiene menos margen para defenderse.</p>
+<p>───────────────────</p>
+<p><em>🪧 Cartel de la casa (léelo antes de instalar)</em></p>
+<pre>
+1. No instalo nada cuyo origen no pueda nombrar.
+2. Si no hay repositorio, no hay auditoría, y sin auditoría no hay confianza.
+3. Un mod anónimo no es un atajo: es una apuesta.
+4. Dormido no es muerto. Archivado no es malo. Muerto se dice con la fecha.
+5. Las estrellas descubren; no deciden.
+6. Si el dato está viejo, lleva su edad escrita al lado.
+7. Lo que no medí, lo digo: no lo medí.
+</pre>
+<p>───────────────────</p>
+<p><em>🎯 MINI-QUIZ DE HOY</em></p>
+<p><em>1.</em> ¿Qué puerta nueva nació en enero de 2026, es MIT y tiene versión del 29 de octubre?</p>
+<p><em>2.</em> ¿Qué tienen en común los cuatro repositorios cebo de esta pieza?</p>
+<p><em>3.</em> ¿Qué tienda del mundo Shizuku nació el 17 de septiembre de 2026?</p>
+<p><em>4.</em> ¿Qué proyecto empujó ayer y aun así tiene su última release de noviembre de 2025?</p>
+<p><em>5.</em> ¿Cuántas estrellas tiene AppManager y qué licencia declara su repositorio en la API?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>1. .erbutco ed 92 led se 22.0.1v us y ,TIM ,6202 ed orene ed 31 le óican :erotSopeR</p>
+<p>2. .»6202 avitanretla rojem al« res netemorp y aicnecil naralced on ,LMTH nos ,6202 ed oinuj ed 82 le noreican ortauc soL</p>
+<p>3. .erbutco ed 5 led 0.5.1 esaeler us y 0.3-LPG aicnecil noc ,erotSuzihS</p>
+<p>4. .5202 ed erbmeivon ed 01 led 1.82.0 esaeler ,reya odivom ogidóc :tnecserccA</p>
+<p>5. .adiconocer on omoc elas opmac le :IPA al ne adaralced aicnecil anugnin y sallertse 993.9</p>
+<p>───────────────────</p>
+<p><em>🧭 Cinco decisiones que la lista vieja tomaba por ti</em></p>
+<p>Una lista de apps decide por ti aunque no lo parezca: al poner unas y no otras, al ordenarlas, al dar cifras sin fecha. Estas son las cinco decisiones que esta guía deja en tus manos a propósito.</p>
+<p><em>Uno: cantidad no es catálogo.</em> La lista vieja tenía veinte tiendas y la sensación de que más puertas es más libertad. Hoy te digo lo contrario: con tres puertas bien elegidas —una que firma, una que sigue releases, una que instala bien— tienes el 95 % de lo que necesitas, y las otras diecisiete solo te reparten la atención.</p>
+<p><em>Dos: la app que sirve para todo no existe.</em> Cada escalón de esta guía hace un oficio. Cuando una app te promete descubrir, descargar, instalar, actualizar y limpiar, está prometiendo cinco cosas y haciendo dos. Es el patrón del cebo, y ahora sabes reconocerlo.</p>
+<p><em>Tres: el teléfono manda.</em> Una app de 2026 que pide Android 13 en un teléfono de 2019 no es una opción, aunque tenga ★20.000. Antes de mirar estrellas, mira la versión mínima y el peso del APK: si pesa el triple que su competidor, trae mucho código de más o mucho relleno.</p>
+<p><em>Cuatro: la licencia es información, no papeleo.</em> Dos de los proyectos de la ficha de hoy no declaran licencia. Eso no los hace malos —<code>MuntashirAkon/AppManager</code> es una pieza central de Android libre— pero significa que no puedes reutilizar su código con tranquilidad. Un proyecto sin licencia es un proyecto que no puedes continuar si su autor desaparece.</p>
+<p><em>Cinco: lo gratis que promete de más se paga en otra parte.</em> «Lo de pago, gratis» no es una oferta: es la descripción del cebo. Lo que hace falta es que lo midas tú con las cuatro preguntas del cementerio.</p>
+<p><em>Lo que esta guía no decide por ti:</em> qué app te gusta. Eso se elige usando, rompiendo y volviendo a empezar, y a veces perdiendo una tarde. Y una sexta decisión que tampoco tomo yo: cada cuánto revisas tu lista. Una app que no has mirado en seis meses es una app que te está decidiendo ella.</p>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — el mapa vivo</em></p>
+<p>Lo que esta guía te da no es una lista de tiendas: es una forma de mirar. Las tiendas cambian de nombre, se archivan, se venden, se mueren. La vara no. Si mañana <code>droidify/client</code> resucita y <code>Droid-ify/client</code> se muere, no tienes que releer esto: te basta mirar la fecha del último empuje y quién firma.</p>
+<p>Y una cosa más, que es la razón por la que el archivo existe: <em>todo lo que aquí se afirma se puede comprobar</em>. Los números tienen fecha, los enlaces se pueden abrir, las licencias se pueden leer en su repositorio. Nada está aquí porque suena bien.</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces de esta pieza (canónicos, sin espejos)</em></p>
+<p><em>Puertas nuevas:</em></p>
+<ul>
+<li>RepoStore (catálogo de repositorios): <a href="https://github.com/samyak2403/RepoStore">https://github.com/samyak2403/RepoStore</a></li>
+<li>ShizuStore (apps de Shizuku): <a href="https://github.com/timschneeb/ShizuStore">https://github.com/timschneeb/ShizuStore</a></li>
+<li>AppManagerNG (relevo de App Manager): <a href="https://github.com/SysAdminDoc/AppManagerNG">https://github.com/SysAdminDoc/AppManagerNG</a></li>
+<li>termux-app-store: <a href="https://github.com/djunekz/termux-app-store">https://github.com/djunekz/termux-app-store</a></li>
+</ul>
+<p><em>Instaladores y gestores:</em></p>
+<ul>
+<li>InstallerX-Revived: <a href="https://github.com/wxxsfxyzm/InstallerX-Revived">https://github.com/wxxsfxyzm/InstallerX-Revived</a></li>
+<li>universal-installer: <a href="https://github.com/pass-with-high-score/universal-installer">https://github.com/pass-with-high-score/universal-installer</a></li>
+<li>VInstall: <a href="https://github.com/vinstall/VInstall">https://github.com/vinstall/VInstall</a></li>
+<li>APK-Installer: <a href="https://github.com/Paving-Base/APK-Installer">https://github.com/Paving-Base/APK-Installer</a></li>
+<li>Universal-Patch-Manager: <a href="https://github.com/Jman-Github/Universal-Patch-Manager">https://github.com/Jman-Github/Universal-Patch-Manager</a></li>
+<li>Ackpine (sesiones de instalación): <a href="https://github.com/solrudev/Ackpine">https://github.com/solrudev/Ackpine</a></li>
+<li>AppManager: <a href="https://github.com/MuntashirAkon/AppManager">https://github.com/MuntashirAkon/AppManager</a></li>
+<li>WebViewUpgrade: <a href="https://github.com/JonaNorman/WebViewUpgrade">https://github.com/JonaNorman/WebViewUpgrade</a></li>
+<li>verificador de desarrolladores, prueba: <a href="https://github.com/daboynb/developer-verifier-placeholder">https://github.com/daboynb/developer-verifier-placeholder</a></li>
+</ul>
+<p><em>Tiendas y clientes:</em></p>
+<ul>
+<li>Obtainium: <a href="https://github.com/ImranR98/Obtainium">https://github.com/ImranR98/Obtainium</a></li>
+<li>Droid-ify (casa en Codeberg): <a href="https://github.com/Droid-ify/client">https://github.com/Droid-ify/client</a></li>
+<li>Droid-ify, casa madre: <a href="https://codeberg.org/droidify/client">https://codeberg.org/droidify/client</a></li>
+<li>Neo-Store: <a href="https://github.com/NeoApplications/Neo-Store">https://github.com/NeoApplications/Neo-Store</a></li>
+<li>Accrescent: <a href="https://github.com/accrescent/accrescent">https://github.com/accrescent/accrescent</a></li>
+<li>App Store de GrapheneOS: <a href="https://github.com/GrapheneOS/AppStore">https://github.com/GrapheneOS/AppStore</a></li>
+<li>Appteka: <a href="https://github.com/solkin/appteka-android">https://github.com/solkin/appteka-android</a></li>
+<li>AAAD (APK de Aurora en escritorio): <a href="https://github.com/shmykelsa/AAAD">https://github.com/shmykelsa/AAAD</a></li>
+<li>Shizuku: <a href="https://github.com/RikkaApps/Shizuku">https://github.com/RikkaApps/Shizuku</a></li>
+</ul>
+<p><em>Listas curadas:</em></p>
+<ul>
+<li>awesome-shizuku (lista curada): <a href="https://github.com/timschneeb/awesome-shizuku">https://github.com/timschneeb/awesome-shizuku</a></li>
+<li>android-foss (lista curada): <a href="https://github.com/offa/android-foss">https://github.com/offa/android-foss</a></li>
+<li>fmhy/edit (lista curada): <a href="https://github.com/fmhy/edit">https://github.com/fmhy/edit</a></li>
+<li>AAA (lista curada): <a href="https://github.com/Psyhackological/AAA">https://github.com/Psyhackological/AAA</a></li>
+</ul>
+<p><em>Para verificar por tu cuenta:</em></p>
+<ul>
+<li>cliente de F-Droid (GitLab): <a href="https://gitlab.com/fdroid/fdroidclient">https://gitlab.com/fdroid/fdroidclient</a></li>
+<li>índice de IzzyOnDroid (GitLab): <a href="https://gitlab.com/IzzyOnDroid/repo">https://gitlab.com/IzzyOnDroid/repo</a></li>
+<li>Aurora Store (espejo): <a href="https://github.com/AuroraOSS/AuroraStore">https://github.com/AuroraOSS/AuroraStore</a></li>
+</ul>
+<p>───────────────────</p>
+<blockquote>—¿Y cuál de todas me sirve?</blockquote>
+<blockquote>—La que te puede decir quién firma, sin buscarlo en Google.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> La tienda es el mostrador; el origen es el dueño de la mercancía, y el dueño se comprueba en un minuto.</p>
+<p><em>Medición del corte:</em> domingo 1 de noviembre de 2026, 06:15 de Santo Domingo · 31 repositorios y 29 enlaces medidos uno por uno: 30 vivos, 1 muerto con su 404 a la vista (<code>droidify/client</code>) y los 29 enlaces respondiendo 200.</p>
+<h2>🗒️ Notas al pie</h2>
+<p><strong>Nota de corrección (1-nov):</strong> el cierre se rehízo con la firma textual de la casa y su remate propio; la lista de enlaces pasó al formato <code>- Nombre: URL</code> con nombres en español, y se añadió el dominio real de Droid-ify en Codeberg, que antes solo aparecía citado dentro de una descripción.</p>
+<p><strong>Nota de verificación final (1-nov):</strong> los 29 enlaces se abrieron uno por uno y devolvieron 200 a las 06:15; estrellas, licencias y empujes son de esa hora.</p>
+<p><strong>Nota del corte (1-nov):</strong> corte real de la pieza. Lo no medido se dice arriba: no hay medición del catálogo completo de ninguna tienda, solo de los repositorios nombrados.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

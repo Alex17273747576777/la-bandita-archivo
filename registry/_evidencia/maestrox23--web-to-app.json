@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-07T17:43:44Z",
+   "oid": "fc455d769dd763d43aa0d6840d06a6929970dd42"
+  }
+ },
+ "diskUsage": 88867,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "MaestroX23/web-to-app",
+ "pushedAt": "2026-09-07T17:43:44Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

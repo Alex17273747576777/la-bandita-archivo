@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-01-11T01:26:12Z",
+   "oid": "861c11b786b3efbc87eb2e878a4039d33846a031"
+  }
+ },
+ "diskUsage": 28217,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "antneymon-ops/servers",
+ "pushedAt": "2026-01-11T14:26:24Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 1
+}

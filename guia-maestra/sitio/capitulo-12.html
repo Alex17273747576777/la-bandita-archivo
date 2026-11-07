@@ -1,0 +1,314 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Capítulo 12 · El oficio · Guía Maestra</title><style>
+:root{--papel:#f5f7fa;--tinta:#1f2933;--suave:#5b6673;--linea:#e0e5ec;--acento:#2b6cb0;--alerta:#8a2b2b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papel);color:var(--tinta);font:16px/1.68 Georgia,'Times New Roman',serif}
+.hoja{max-width:1080px;margin:0 auto;padding:34px 22px 70px}
+.rejilla{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+.col-12{grid-column:span 12}.col-8{grid-column:span 8}.col-4{grid-column:span 4}
+header{border-bottom:3px double var(--linea);padding-bottom:16px;margin-bottom:26px}
+h1{font-size:2.15rem;line-height:1.18;margin:.2em 0 .3em;letter-spacing:-.01em}
+h2{font-size:1.42rem;margin:2.1em 0 .5em;border-left:5px solid var(--acento);padding-left:12px}
+h3{font-size:1.12rem;margin:1.7em 0 .35em}
+p{margin:.65em 0}
+.ficha{background:#fff;border:1px solid var(--linea);border-radius:10px;padding:20px 22px;margin:22px 0;box-shadow:0 1px 0 #fff inset}
+.sello{display:inline-block;background:var(--tinta);color:#fff;border-radius:999px;padding:2px 11px;font:600 12px/1.9 system-ui,sans-serif;letter-spacing:.03em}
+.n0{background:#2f6b4f}.n1{background:#8a6d1f}.n2{background:#8a2b2b}
+.meta{color:var(--suave);font:13px/1.6 system-ui,sans-serif}
+.capa{border-top:1px dashed var(--linea);margin-top:16px;padding-top:12px}
+.capa h4{margin:.2em 0 .4em;font:700 13px/1.4 system-ui,sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--acento)}
+ol,ul{padding-left:22px}li{margin:.35em 0}
+code,pre{font-family:'DejaVu Sans Mono',ui-monospace,monospace;font-size:.9em}
+code{background:#eef1f5;padding:1px 5px;border-radius:4px}
+pre{background:#1f2933;color:#f5f7fa;padding:12px 14px;border-radius:8px;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font:14px/1.5 system-ui,sans-serif;margin:12px 0}
+th,td{border-bottom:1px solid var(--linea);padding:7px 8px;text-align:left;vertical-align:top}
+th{background:#eef1f5}
+.aviso{background:#fff;border-left:5px solid var(--alerta);padding:12px 16px;margin:16px 0}
+footer{margin-top:44px;border-top:3px double var(--linea);padding-top:14px;color:var(--suave);font:13px/1.6 system-ui,sans-serif}
+a{color:var(--acento)}
+@media(max-width:760px){.col-8,.col-4{grid-column:span 12}}
+</style></head>
+<body><div class="hoja"><p class="meta"><a href="index.html">← Guía Maestra</a> · capítulo 12</p>
+<h1>Capítulo 12 · El oficio</h1><h2>Qué vas a poder hacer al terminar</h2><p>Verificar por tu cuenta lo que esta guía afirma. No creerme: comprobarme. Al terminar este capítulo vas a poder leer la licencia de un proyecto sin que nadie te la cuente, medir su salud con un número que se puede repetir, comprobar que un archivo es el que su autor firmó, mirar qué lleva dentro un paquete, consultar la fuente sin pasar por una página web y revisar el cifrado de tus propios servidores.</p><p>Y algo que no se compra ni se descarga: <strong>criterio</strong>. Saber cuándo una herramienta está viva y cuándo sólo parece viva; cuándo una estrella significa algo y cuándo es una campaña; cuándo un proyecto merece que le pongas tus datos encima.</p><h2>La regla que ordena el capítulo: una afirmación sin fuente es una opinión</h2><p>Todo lo que se dijo en once capítulos —que este programa es libre, que aquel proyecto sigue vivo, que esta entrega es de tal fecha, que ese permiso hace tal cosa— tiene detrás una fuente que se puede abrir. Ese es el único mérito de esta guía: <strong>no pide fe</strong>.</p><p>De ahí salen las tres reglas del oficio, y con ellas termina la serie:</p><p>1. <strong>La fuente primaria manda.</strong> El repositorio de quien hizo el programa está por encima de la tienda, la tienda por encima del blog, y el blog por encima del video. Cuando dos fuentes se contradicen, gana la que produce el archivo.
+2. <strong>Lo que no se puede comprobar se dice.</strong> «No lo pude comprobar» es una respuesta honesta; «seguramente sí» no lo es.
+3. <strong>El número sin fecha no es un número.</strong> Cien mil estrellas de hace tres años no dicen nada de hoy. Toda señal de esta guía lleva el día en que se midió, y por eso cada ficha cierra con una fecha.</p><h2>Las seis preguntas que se hacen antes de instalar</h2><p>Este es el método completo, el mismo que se usó para las setenta fichas. Seis preguntas, en este orden, y ninguna se salta:</p><p>1. <strong>¿Quién lo hizo y dónde está su casa?</strong> Un repositorio con nombre y apellido, no una página de descargas.
+2. <strong>¿Con qué licencia?</strong> Escrita y legible. Sin licencia no hay permiso para nada, por bueno que sea el programa.
+3. <strong>¿Se movió este año?</strong> Última entrega, cambios recientes, gente distinta empujando.
+4. <strong>¿Se puede bajar hoy y comprobar lo que bajaste?</strong> Una entrega con archivo y, si hay suerte, con su huella o su firma.
+5. <strong>¿Quién responde cuando algo se rompe?</strong> Incidencias contestadas, un canal de seguridad, un equipo detrás.
+6. <strong>¿Qué precio tiene en datos y en dependencias?</strong> Qué pide, a qué llama, y de cuántas piezas ajenas cuelga.</p><p>Las seis se contestan en diez minutos con las herramientas de este capítulo y se contestan igual el año que viene. Eso es un criterio: un método que otra persona puede repetir y discutir.</p><h2>Licencia: el permiso que nadie lee</h2><p>La licencia es lo primero porque es lo único que convierte un programa en algo que podés usar sin pedir permiso. Y es lo que casi nadie mira: se instala, se usa, y el archivo de texto que dice qué se puede hacer queda sin abrir para siempre.</p><p>Tres cosas cambian la vida según la licencia, y conviene tenerlas claras antes de construir encima de algo:</p><ul><li><strong>Permisiva</strong> (MIT, Apache-2.0, BSD): podés usar el código en lo que quieras, incluso cerrado, conservando el aviso de autoría. Es la licencia de casi todas las herramientas de este capítulo.</li><li><strong>Copyleft</strong> (GPL, AGPL): si lo modificás y lo distribuís, tenés que publicar tu versión con la misma licencia. La AGPL añade: también si lo ofrecés como servicio por red.</li><li><strong>Dual</strong> (libre más comercial): el mismo código con dos puertas, una gratis con obligaciones y otra de pago sin ellas. APKiD, en este capítulo, es así.</li></ul><p>Y una cuarta cosa que no es una licencia pero se comporta como tal: el proyecto que no tiene ninguna. En ese caso la ley es clara y contraintuitiva: <strong>sin licencia no hay permiso</strong>, ni siquiera para copiar el archivo. Cuando en esta guía aparece un proyecto así, se dice y no entra.</p><p>Para medir esto a escala existe <strong>OSS Review Toolkit</strong>: analiza un proyecto entero, encuentra las licencias de sus dependencias —que también tienen dueño— y produce el informe que hace falta para cumplir. Es la herramienta que usan las empresas que de verdad respetan el crédito ajeno, y sirve igual para una persona sola que quiere saber de qué está hecho lo que instala.</p><h2>Salud: el número que se puede repetir</h2><p><strong>OpenSSF Scorecard</strong> hace una sola cosa y la hace bien: le hace dieciocho preguntas a un repositorio y devuelve un número. ¿Están las dependencias fijadas? ¿Los flujos de integración piden los permisos mínimos? ¿Hay revisión antes de fusionar? ¿Hay archivo de seguridad? ¿Se firman las entregas?</p><p>Lo importante no es el número: es que <strong>cualquiera puede correrlo y obtener el mismo</strong>. Eso convierte una discusión de opiniones en una discusión sobre hechos, y es exactamente lo que esta guía intentó hacer con su propio baremo en cada ficha.</p><p>Una advertencia de oficio: el número mide <strong>prácticas</strong>, no calidad del programa. Un proyecto pequeñísimo y excelente puede sacar menos que uno grande y descuidado que sólo sigue las modas de la industria. Se lee como lo que es: una señal, no un veredicto.</p><h2>Firma: la diferencia entre bajarlo y saber de quién es</h2><p>Una entrega sin firma es un archivo en un servidor. Con firma es un archivo del que se puede decir quién lo publicó y cuándo. La forma moderna de esto se llama <strong>Sigstore</strong>: el que publica firma con su identidad de siempre, la firma queda anotada en un registro público que sólo crece, y cualquiera puede comprobar después que ese archivo existía ese día y salió de esa cuenta.</p><p><strong>cosign</strong> es el programa que hace esa comprobación. Y su primera consecuencia es filosófica: <strong>una firma no se puede fechar hacia atrás</strong>. Si mañana alguien publica un archivo diciendo que es de la semana pasada, el registro lo desmiente.</p><p>Del otro lado está el oficio viejo, el de las huellas: un archivo con la suma de verificación publicado junto a la entrega. No dice quién lo hizo, pero dice si lo que tenés es lo que se publicó. Las dos cosas son mejores que nada, y la segunda es la que esta guía pudo comprobar en la mayoría de sus setenta fichas.</p><h2>Contenido: qué lleva dentro un paquete</h2><p><strong>APKiD</strong> responde una pregunta que casi nadie se hace: ¿cómo se hizo este archivo? Identifica compiladores, empaquetadores y ofuscadores, es decir, las herramientas con las que alguien construyó la aplicación.</p><p>Sirve para dos cosas opuestas y las dos importan. Para <strong>defenderte</strong>: un paquete popular reconstruido por un tercero suele llevar un empaquetador que el original no tenía, y eso es una señal de alarma. Y para <strong>entender</strong>: saber que una aplicación está protegida explica por qué no se puede leer con las herramientas del capítulo 10, y evita conclusiones falsas.</p><p>APKiD es el único proyecto de la guía con doble licencia: GPL-3.0 para uso libre o una comercial para quien no quiera las obligaciones del copyleft. Se declara tal cual, y su nota —treinta y uno— es la más baja del capítulo por razones de equipo y de huellas, no por su utilidad.</p><h2>La fuente sin intermediarios</h2><p><strong>GitHub CLI</strong> es la línea de órdenes de la plataforma donde vive casi todo lo de esta guía. Con una orden se piden los datos que una página web te muestra con adornos: la última entrega, su fecha, sus archivos, sus descargas, las incidencias abiertas.</p><p>Su valor para el oficio es que <strong>elimina al intermediario</strong>. Cuando alguien dice «esta aplicación ya no se actualiza», la orden contesta con una fecha. Cuando alguien dice «tiene un millón de descargas», la orden contesta con el número exacto y el día en que se contó. Todas las señales de las setenta fichas de esta guía salieron de órdenes como esta, y cualquiera puede repetirlas.</p><h2>Tu servidor también se comprueba</h2><p>El oficio no termina en el teléfono. Todo lo que se montó en los capítulos 7, 8 y 9 —copias, servidores, la casa— está expuesto a internet, y su cifrado se puede revisar con <strong>testssl.sh</strong>: un solo archivo de órdenes de sistema que habla con el servidor como hablaría un atacante y cuenta qué protocolos acepta, qué cifrados ofrece, si el certificado es válido y si hay algo viejo encendido que no debería estar.</p><p>Corre en Linux, macOS y en Windows con el entorno adecuado; no necesita instalar nada en el servidor ni tener acceso a él. Y su resultado es de los que se guardan: una línea de base de cómo estaba todo el día que lo revisaste, para comparar dentro de seis meses.</p><h2>La ruta de decisión, en seis preguntas</h2><p><strong>¿Necesito saber de qué está hecho un proyecto y qué licencias arrastra?</strong> → <strong>OSS Review Toolkit</strong>.</p><p><strong>¿Necesito saber si un proyecto está bien mantenido, con un número que otros puedan repetir?</strong> → <strong>Scorecard</strong>.</p><p><strong>¿Necesito comprobar que un archivo lo publicó quien dice?</strong> → <strong>cosign</strong>, cuando el proyecto firma; y la huella publicada cuando no.</p><p><strong>¿Necesito un dato exacto de una entrega, sin abrir el navegador?</strong> → <strong>GitHub CLI</strong>.</p><p><strong>¿Necesito saber cómo se construyó un paquete y si lo tocó un tercero?</strong> → <strong>APKiD</strong>.</p><p><strong>¿Necesito revisar el cifrado de mi servidor?</strong> → <strong>testssl.sh</strong>.</p><h2>El crédito: cómo se nombra a quien hizo</h2><p>Esta guía entera existe porque alguien, sin cobrar, escribió el programa. El crédito no es un adorno legal: es la única moneda que tiene ese trabajo.</p><p>Se nombra con cuatro datos, y los cuatro van juntos: <strong>quién</strong> (persona u organización, con el nombre que usa), <strong>qué licencia</strong>, <strong>qué versión</strong> y <strong>qué día se midió</strong>. Un crédito sin fecha envejece mal; un crédito sin licencia no informa; un crédito sin nombre no agradece.</p><p>Y después hay una parte que no se escribe en ninguna ficha y es la que de verdad sostiene el ecosistema: <strong>devolver</strong>. Reportar un fallo con un parte que sirva —capítulo 11—, traducir una cadena de texto, contestar a alguien en un foro con la respuesta exacta, mandar diez pesos al que mantiene la herramienta que usás todos los días. Nada de eso es obligatorio y todo eso es lo que hace que el próximo año siga habiendo qué instalar.</p><h2>La raya legal, otra vez y por última vez</h2><p>Esta guía recomienda software libre y explica cómo comprobarlo, cómo instalarlo y cómo repararlo. No reparte programas ajenos, no aloja archivos que no le pertenecen y no enseña a saltarse pagos. Cuando un programa se puede usar para copiar contenido sin permiso —los lectores de manga, los reproductores, los analizadores de red— se dice qué hace y se deja la decisión, con su consecuencia, en manos de quien lo usa.</p><p>Lo que sí hace, y lo hace sin ambigüedad: <strong>nombrar a todos los autores, con su licencia, su versión y su fecha</strong>. Eso es lo que separa una guía de un catálogo de enlaces.</p><h2>Lo que dejé fuera, y por qué</h2><p>Dos herramientas se quedaron afuera de este capítulo y las dos por el mismo motivo, que es el método del capítulo aplicado a mí mismo.</p><p>La primera es un comparador de archivos que muestra, línea por línea, en qué se diferencian dos paquetes. Es la herramienta perfecta para responder «¿este archivo es el mismo que el del repositorio?» y <strong>no tiene su casa en la plataforma que esta guía mide</strong>: pedirla en el sitio equivocado es exactamente el error que el capítulo 4 enseña a no cometer.</p><p>La segunda es un gestor de llaves de cifrado para el teléfono, el clásico para firmar y comprobar con GPG. Tiene repositorio, tiene equipo y tiene años, y <strong>no publica entregas ahí</strong>: se distribuye por tiendas y por su propio sitio. Sin entrega que bajar y comprobar en la fuente que medimos, no entra.</p><p>Las dos quedarían bien en una lista de recomendaciones. Esta guía no es una lista de recomendaciones.</p><h2>Los cuatro errores que se pagan</h2><p><strong>Confundir estrellas con salud.</strong> Una campaña de estrellas se compra; un equipo de diez personas empujando código todas las semanas, no.</p><p><strong>Creer que la licencia del programa cubre todo lo que lleva dentro.</strong> Un programa libre puede incluir iconos con otra licencia, como el medidor de batería del capítulo anterior declara en su propio archivo. Se lee el aviso completo, no el nombre de la licencia.</p><p><strong>Comprobar una vez y para siempre.</strong> Todo lo que se midió en estas setenta fichas se midió el 3 de noviembre de 2026. El año que viene hay que volver a medirlo, y el método es el de este capítulo.</p><p><strong>Bajar de donde es más cómodo.</strong> El buscador pone primero lo que paga publicidad, no lo que es oficial. La fuente es el repositorio, escrito por quien lo hizo.</p><h2>Tres cosas que se dicen y no son verdad</h2><p><strong>«Si es gratis, algo esconde».</strong> Lo que esconde un programa libre está a la vista de cualquiera que quiera leerlo, y este capítulo enseña a hacerlo. Lo que esconde uno cerrado y gratis no se puede leer: hay que confiar.</p><p><strong>«El código abierto no tiene dueño».</strong> Tiene dueño, tiene licencia y tiene obligaciones. Justamente por eso se puede usar: porque alguien dejó por escrito qué permite.</p><p><strong>«Verificar es de desconfiados».</strong> Verificar es el gesto de respeto más grande que existe en este oficio: el que comprueba está diciendo que el trabajo del otro merece ser mirado de cerca.</p><h2>Antes de irte: la prueba de las dos personas</h2><p>Dale este capítulo a alguien que nunca leyó una licencia: si al terminar puede decirte con qué licencia está el programa que usa todos los días, y qué le permite, el capítulo sirve.</p><p>Y dalo a alguien que programa: si no encuentra al menos un dato que no supiera —que sin licencia no hay permiso ni para copiar un archivo, que la AGPL también obliga cuando el programa se ofrece por red, que una firma de Sigstore queda anclada en un registro público que no se puede fechar hacia atrás, que Scorecard mide prácticas y no calidad, que hay programas con dos licencias y una es de pago—, el capítulo no sirve y hay que reescribirlo.</p><h2>Las seis fichas, y el final de la serie</h2><p>Van del permiso al servidor: el que ordena las licencias de todo un proyecto, el que mide la salud con un número repetible, el que comprueba firmas, el que pregunta a la fuente, el que mira dentro de un paquete y el que revisa el cifrado de lo que montaste. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando. Todas se midieron el 3 de noviembre de 2026 abriendo sus entregas y sus licencias.</p><p>Con estas seis, la guía cierra en <strong>setenta fichas y doce capítulos</strong>. Setenta programas, cada uno con su autor, su licencia, su versión y su fecha; cada uno con sus manos, sus límites, lo que sale mal y cómo se deshace. No es un catálogo: es un método con ejemplos dentro.</p><p>Y una última cosa, la que de verdad importa: si dentro de un año esta guía está vieja, es porque el ecosistema siguió vivo. Ese es el objetivo. Ahora sabés medirlo tú.</p>
+<h2>Las 6 fichas del capítulo</h2>
+
+<article class="ficha">
+  <h3>OSS Review Toolkit <span class="meta">· oss-review-toolkit/ort</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>73/100</strong> ·
+    ★2,117 · 3303 días · última entrega 2026-10-29 ·
+    3,286 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 279 abiertas.
+  </p>
+  <p>Saber de qué está hecho un proyecto y qué licencias arrastran todas sus dependencias, para nombrar a cada autor y cumplir lo que cada licencia pide.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien arma un proyecto con código ajeno y necesita saber qué debe publicar y a quién nombrar, y para quien audita lo que ya está publicado.
+     <br><strong>Para quién no es:</strong> para quien quiere revisar un solo programa de un solo autor: para eso alcanza con abrir su archivo de licencia y leerlo, que es más rápido y no necesita instalar nada.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalá la herramienta en la computadora, con su entorno de ejecución, y comprobá la versión contra la entrega del repositorio.</li>
+<li>Corré el análisis sobre un proyecto concreto y esperá: descarga y examina cada dependencia, y en un proyecto grande tarda.</li>
+<li>Abrí el informe de licencias: cada componente aparece con su licencia detectada y el archivo donde la encontró.</li>
+<li>Mirá las que salieron sin licencia o con licencia desconocida: son las que hay que resolver a mano antes de publicar nada.</li>
+<li>Compará el informe con el archivo de créditos de tu propio proyecto y completá lo que falte: ese es el entregable real.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tenés una lista completa de los componentes de un proyecto, con su licencia y su origen, y un archivo de créditos que nombra a todos los autores y no deja obligaciones sin cumplir.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si alguna dependencia no se puede descargar, el resultado queda incompleto: mirá el informe de errores antes de confiar en la lista.</li>
+<li>Si aparece una licencia inesperada, no la corrijas a mano: buscá el archivo real en el componente y anotá de dónde salió.</li>
+<li>Si el análisis se queda sin memoria en un proyecto grande, dividilo por módulos: es lo que hace la propia herramienta en su documentación.</li></ul>
+    <p><strong>Cómo se deshace:</strong> No toca el proyecto analizado: escribe un directorio de salida que se borra cuando quieras. Quitar la herramienta de la computadora deja todo como estaba.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Nadie escribe un programa solo. Un proyecto moderno puede arrastrar cientos de piezas ajenas, cada una con su autor y su licencia, y la mayoría de las veces ni quien programa sabe cuáles son. Ese desconocimiento no es un problema legal abstracto: es el motivo por el que un proyecto publica su versión y descubre, años después, que debía haber nombrado a alguien que nunca nombró.</p>
+<p>OSS Review Toolkit ataca justamente eso: recorre el árbol de dependencias, identifica la licencia de cada pieza leyendo los archivos y no adivinando por el nombre, y arma el informe. Su nota es la más alta de este capítulo —setenta y tres—, con cien personas, entrega de hace cinco días y una cultura de trabajo que se ve en su propio repositorio: cada archivo declara su licencia.</p>
+<p>Es la herramienta más seria del oficio del crédito, y también la más pesada: ciento cincuenta y seis megabytes de repositorio y un entorno de ejecución completo. Se usa cuando de verdad hace falta, no todos los días. Para todo lo demás, leer el archivo de licencia con los ojos alcanza, y es lo que esta guía hizo setenta veces.</p>
+    <p><strong>Límites:</strong></p><ul><li>Necesita un entorno de ejecución aparte y bastante memoria para proyectos grandes.</li>
+<li>Detecta lo declarado; una pieza sin archivo de licencia queda como desconocida y hay que resolverla a mano.</li>
+<li>No decide por vos si una licencia es compatible con tu uso: informa y la decisión es jurídica.</li>
+<li>Está pensado para proyectos de software; para una aplicación suelta es demasiado aparato.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>La licencia de un proyecto no es un archivo: es una declaración por archivo. El estándar que se usa para eso se llama REUSE, y su regla es simple: cada archivo lleva una línea con el identificador de su licencia y el nombre de su titular. Así, cuando un proyecto mezcla piezas con licencias distintas —y casi todos lo hacen—, la respuesta está en el archivo mismo y no en un documento aparte que envejece. Un proyecto que cumple REUSE se puede auditar en minutos; uno que no, exige exactamente este tipo de herramienta. Saber cuál de los dos tenés delante te dice de entrada cuánto trabajo te va a costar el crédito.</p>
+    <p><strong>Cómo se comprueba:</strong> En cualquier proyecto que declares cumplir el estándar, contá cuántos archivos llevan su identificador de licencia y compará ese número con el total de archivos del árbol.</p>
+    <pre><code>reuse lint</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Publicar un proyecto con una dependencia sin licencia y creer que por ser gratis se puede usar.</li>
+<li>Cumplir el nombre de la licencia y olvidar el aviso de copyright que la misma licencia exige conservar.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/cli/cli">cli/cli</a>, <a href="https://github.com/ossf/scorecard">ossf/scorecard</a></p></div>
+
+  <p class="meta">Herramienta de OSS Review Toolkit y sus contribuyentes · Apache-2.0 · medido el 3 de noviembre de 2026 · licencia Apache-2.0
+     (<a href="https://github.com/oss-review-toolkit/ort/blob/main/LICENSE">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Scorecard <span class="meta">· ossf/scorecard</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>67/100</strong> ·
+    ★5,813 · 2217 días · última entrega 2026-10-12 ·
+    562,233 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 415 abiertas.
+  </p>
+  <p>Medir la salud de un proyecto con dieciocho comprobaciones que cualquiera puede repetir, para decidir con un número y no con una impresión.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien tiene que elegir entre dos programas parecidos y quiere un criterio que no dependa de su gusto, y para quien audita el proyecto propio antes de que lo auditen otros.
+     <br><strong>Para quién no es:</strong> para quien busca una nota de calidad del programa: esto mide prácticas de trabajo, no si el programa hace bien lo suyo.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalá la herramienta desde su repositorio o pedí el resultado en su visor público, que no necesita instalación.</li>
+<li>Corréla sobre un proyecto concreto y guardá el resultado en un archivo, para poder compararlo más adelante.</li>
+<li>Mirá las comprobaciones que salieron en cero: casi siempre son permisos de los flujos de integración y dependencias sin fijar.</li>
+<li>Corré la misma orden sobre un segundo proyecto y compará los dos números en las mismas comprobaciones, no el total.</li>
+<li>Repetí la medición dentro de seis meses y mirá qué se movió: eso dice más que cualquier captura de pantalla.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tenés un número con fecha, repetible por cualquier otra persona, y sabés en qué comprobaciones concretas un proyecto está flojo y en cuáles no.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si el proyecto no aparece, revisá el formato del nombre: pide organización y repositorio, no la dirección completa.</li>
+<li>Si una comprobación falla por falta de datos del ecosistema, no es culpa del proyecto: anotá la comprobación como no medida.</li>
+<li>Si el número te sorprende, mirá las comprobaciones una por una antes de sacar conclusiones: el total es un resumen y los resúmenes engañan.</li></ul>
+    <p><strong>Cómo se deshace:</strong> No modifica el proyecto analizado: lee y escribe un archivo de resultado. Se borra la herramienta y el archivo, y no queda nada.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>La pregunta «¿este proyecto está bien mantenido?» se contesta casi siempre con una impresión: la página se ve viva, las estrellas son muchas, alguien dijo que era bueno. Scorecard la contesta con dieciocho preguntas que se pueden repetir: si las dependencias están fijadas con versión, si los flujos de integración piden los permisos mínimos, si hay revisión antes de fusionar, si las entregas se firman, si hay canal de seguridad.</p>
+<p>Su límite es también su virtud: mide <strong>prácticas</strong>, no calidad. Un proyecto pequeñísimo puede sacar menos que uno grande que sólo sigue las modas de la industria. Pero las prácticas medidas son las que evitan los dos desastres reales del ecosistema —que te inyecten código por una dependencia sin fijar, y que una entrega se sustituya sin que nadie lo note—, y eso no es una moda.</p>
+<p>Con cincuenta y ocho mil estrellas y más de medio millón de descargas, es el instrumento más usado del oficio, y es de la fundación que también firmó el estándar de puntuación que esta guía imitó sin saberlo. Su nota, sesenta y siete, sale de sus propios criterios aplicados a sí mismo, que es la prueba más honesta que puede pasar una herramienta así.</p>
+    <p><strong>Límites:</strong></p><ul><li>Mide prácticas del repositorio, no la calidad ni la seguridad del programa publicado.</li>
+<li>Depende de datos públicos de la plataforma: proyectos en otras forjas puntúan distinto o no puntúan.</li>
+<li>El número total esconde diferencias importantes entre comprobaciones.</li>
+<li>Un proyecto puede subir la nota sin mejorar el programa, sólo ordenando su casa.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>La comprobación que más desastres evita no es la más famosa: es la de dependencias fijadas. Un flujo de integración que usa una acción por su nombre y sin versión exacta está confiando en que nadie cambie esa etiqueta, y las etiquetas se pueden mover. Ese es el mecanismo de los ataques de cadena de suministro más repetidos de los últimos años: no se rompe el proyecto, se mueve una pieza de la que el proyecto cuelga. Fijar la versión por su huella completa convierte ese ataque en imposible sin tocar el archivo. Es una línea de cambio y vale más que cualquier política escrita.</p>
+    <p><strong>Cómo se comprueba:</strong> Corré la herramienta sobre un repositorio propio y mirá el detalle de esa comprobación: cada flujo aparece con la referencia que usa, y se ve cuáles están fijadas y cuáles no.</p>
+    <pre><code>scorecard --repo=github.com/Genymobile/scrcpy --show-details</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Tomar el número como certificado de seguridad y bajar cualquier cosa de un proyecto con nota alta.</li>
+<li>Optimizar la nota sin arreglar lo que la nota señala, que es la forma más común de mentir con datos.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/oss-review-toolkit/ort">oss-review-toolkit/ort</a>, <a href="https://github.com/cli/cli">cli/cli</a></p></div>
+
+  <p class="meta">Herramienta de Open Source Security Foundation · Apache-2.0 · medido el 3 de noviembre de 2026 · licencia Apache-2.0
+     (<a href="https://github.com/ossf/scorecard/blob/main/LICENSE">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>cosign <span class="meta">· sigstore/cosign</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>71/100</strong> ·
+    ★6,408 · 2099 días · última entrega 2026-10-20 ·
+    26,184,737 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 110 abiertas.
+  </p>
+  <p>Comprobar que un archivo publicado lo firmó quien dice haberlo firmado, y anclar esa comprobación en un registro público que no se puede reescribir.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien publica algo y quiere que otros puedan comprobarlo sin creerle, y para quien baja archivos de un proyecto que firma sus entregas y quiere hacer uso de esa firma.
+     <br><strong>Para quién no es:</strong> para quien sólo necesita saber si el archivo llegó completo: para eso una huella publicada alcanza y no hace falta nada de esto.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalá la herramienta desde su repositorio y comprobá la versión contra la última entrega publicada.</li>
+<li>Buscá en la entrega del proyecto el archivo de firma, que acompaña al archivo firmado y no está dentro de él.</li>
+<li>Corré la comprobación contra los dos archivos juntos: la herramienta verifica la firma y consulta el registro público.</li>
+<li>Leé la salida con atención: dice quién firmó, con qué identidad y en qué momento quedó anotado.</li>
+<li>Repetí la comprobación sin conexión a internet para ver qué cambia: sin el registro público, la firma no se puede anclar.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Sabés si el archivo que tenés es exactamente el que se firmó, con la identidad de quien lo firmó y el momento en que quedó anotado en el registro público.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si la comprobación falla por identidad, no significa que el archivo esté mal: puede estar firmado por otra cuenta y hay que leer la salida completa antes de decidir.</li>
+<li>Si dice que la firma existe pero no aparece en el registro, el proyecto firmó sin anclar: la firma vale menos y conviene decirlo.</li>
+<li>Si la salida es larga, quedate con tres datos: identidad, momento y si la firma cubre el archivo que bajaste.</li></ul>
+    <p><strong>Cómo se deshace:</strong> No modifica nada del sistema ni del archivo: lee. Borrar la herramienta deja todo exactamente igual, y las firmas publicadas siguen donde estaban.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Una firma normal resuelve un problema y deja otro abierto: dice quién firmó, pero no dice cuándo. Alguien puede firmar hoy un archivo y declarar que lo firmó el año pasado, o firmar un archivo manipulado y sostener que la firma era de otro. Sigstore añade la pieza que faltaba: cada firma se anota en un registro público que sólo crece, y esa anotación tiene fecha.</p>
+<p>Con eso, la comprobación cambia de naturaleza. Ya no se trata de confiar en una llave, sino de comprobar un hecho: <strong>este archivo, con este contenido, quedó anotado en este momento, por esta identidad</strong>. Y como el registro es público y no se puede reescribir, la respuesta no depende de que el proyecto siga existiendo ni de que su servidor esté en pie.</p>
+<p>cosign es el programa que hace esa comprobación, y su nota —setenta y uno— es la segunda más alta del capítulo, con más de veinticinco millones de descargas en sus diez últimas entregas. No es una herramienta de aficionados: es la que usa la industria para lo mismo que esta guía pide a sus setenta fichas, sólo que a escala planetaria.</p>
+    <p><strong>Límites:</strong></p><ul><li>Sólo sirve si el proyecto firma: la mayoría de las aplicaciones de esta guía no lo hace, y ahí se vuelve a la huella publicada.</li>
+<li>Necesita el archivo de firma, que es distinto del archivo firmado y hay que bajar aparte.</li>
+<li>La comprobación completa consulta un servicio público: sin red no hay anclaje.</li>
+<li>Entender la salida exige saber qué es una identidad de firma y qué es un registro de transparencia.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Hay dos comprobaciones distintas y la gente las confunde todo el tiempo. La primera es de integridad: la huella dice que el archivo no cambió ni un byte desde que se publicó, y sirve aunque el autor no firme nada. La segunda es de autoría: la firma dice quién lo publicó, y necesita una llave o una identidad. Una no sustituye a la otra: un archivo puede tener huella perfecta y no ser de quien dice, y puede estar firmado y haber sido sustituido después si la huella no se comprueba. El oficio completo es hacer las dos, y saber cuál de las dos estás haciendo en cada momento.</p>
+    <p><strong>Cómo se comprueba:</strong> Pedile a la herramienta que compruebe el archivo junto a su firma y leé la identidad y el momento: si los tres datos —archivo, identidad y fecha— aparecen, la comprobación está completa.</p>
+    <pre><code>cosign verify-blob --bundle app.sigstore.json app.apk</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Dar por buena una entrega sólo porque trae un archivo de firma, sin ejecutar la comprobación.</li>
+<li>Firmar con una identidad compartida o prestada, con lo que la firma deja de decir quién fue.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/cli/cli">cli/cli</a>, <a href="https://github.com/ossf/scorecard">ossf/scorecard</a></p></div>
+
+  <p class="meta">Herramienta de Sigstore y sus contribuyentes · Apache-2.0 · medido el 3 de noviembre de 2026 · licencia Apache-2.0
+     (<a href="https://github.com/sigstore/cosign/blob/main/LICENSE">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>GitHub CLI <span class="meta">· cli/cli</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>63/100</strong> ·
+    ★46,871 · 2589 días · última entrega 2026-10-26 ·
+    13,575,188 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 1050 abiertas.
+  </p>
+  <p>Preguntar a la fuente los datos exactos de una entrega —versión, fecha, archivos, descargas, incidencias— sin abrir un navegador y sin copiar cifras de una captura.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien mide proyectos con frecuencia y quiere el mismo dato siempre igual, y para quien quiere poder repetir las señales de esta guía por su cuenta.
+     <br><strong>Para quién no es:</strong> para quien sólo quiere instalar un programa: para eso no hace falta la línea de órdenes, y la página del repositorio dice lo mismo con menos trabajo.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalá la herramienta desde su repositorio o desde el gestor de paquetes de tu sistema, y comprobá la versión.</li>
+<li>Entrá a tu cuenta con la orden de acceso, o usala sin cuenta para consultar datos públicos.</li>
+<li>Pedí la última entrega de un proyecto que conozcas y mirá la fecha y los archivos que devuelve.</li>
+<li>Pedí el mismo dato en formato de máquina, que es el que sirve para comparar y para guardar histórico.</li>
+<li>Armá una lista de cinco proyectos de esta guía y sacá las cinco fechas de una vez: eso ya es una medición.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tenés los datos exactos de cualquier entrega en la pantalla, en un formato que se puede guardar y comparar, sin depender de cómo se vea una página ese día.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si la orden pide autenticación y no querés darla, muchas consultas públicas funcionan igual; si no, se usa el modo de solo lectura con un token.</li>
+<li>Si el proyecto cambió de nombre, la orden falla: buscá el nombre actual en la respuesta de error antes de insistir.</li>
+<li>Si el formato de máquina parece ilegible, es lo normal: está pensado para guardarse y compararse, no para leerse de corrido.</li></ul>
+    <p><strong>Cómo se deshace:</strong> No cambia nada en el proyecto consultado: sólo lee. En tu computadora queda un archivo de configuración con la sesión, que se cierra con una orden cuando quieras.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Toda esta guía se construyó con datos que devuelve la plataforma donde viven los proyectos: la fecha de la última entrega, el número de descargas, las incidencias cerradas, el equipo que empuja. Ese mismo dato está disponible para cualquiera con una orden, y la diferencia entre leerlo en una página y leerlo así es la misma que hay entre mirar un reloj y anotar la hora.</p>
+<p>GitHub CLI es esa puerta. Tiene cuarenta y seis mil estrellas y más de trece millones de descargas en sus diez últimas entregas, y su licencia es la más permisiva del capítulo. Con ella se consulta cualquier repositorio público, se guarda el resultado y se compara dentro de un mes o de un año, que es exactamente lo que hay que hacer con una señal.</p>
+<p>Su nota es sesenta y tres, y el detalle importa: pierde puntos por no declarar un canal de seguridad propio, no por su trabajo. Una herramienta que consulta a otros tiene que ser ejemplar en lo suyo, y conviene decir cuando no lo es.</p>
+    <p><strong>Límites:</strong></p><ul><li>Consulta una plataforma concreta: proyectos que viven en otras forjas no aparecen.</li>
+<li>Los contadores de descargas son acumulados y no distinguen entre persona y robot.</li>
+<li>Sin cuenta se accede a menos datos y con límites de consulta más bajos.</li>
+<li>Devuelve lo que la plataforma publica, incluido lo que el autor escribió con prisa.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>El número de descargas que aparece en una entrega no cuenta personas: cuenta archivos bajados, y cada intento fallido o repetido suma. Por eso un proyecto con diez millones de descargas puede tener diez mil usuarios, y uno con cien mil puede tener cincuenta mil. La señal honesta es la comparación consigo misma en el tiempo —si una entrega tiene diez veces las descargas de la anterior, algo pasó—, no la comparación entre proyectos distintos. Casi todas las conclusiones falsas sobre popularidad salen de comparar cifras que se midieron de formas distintas.</p>
+    <p><strong>Cómo se comprueba:</strong> Pedí la última entrega de dos proyectos y compará sus descargas con la fecha de publicación: un número alto en poco tiempo dice más que el mismo número acumulado durante años.</p>
+    <pre><code>gh api repos/Genymobile/scrcpy/releases/latest --jq &#x27;.tag_name, .published_at&#x27;</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Guardar un token con permisos de escritura en un archivo de texto sin proteger, para consultar algo que era público.</li>
+<li>Repetir una cifra de descargas como si fueran usuarios y sacar conclusiones de adopción.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/ossf/scorecard">ossf/scorecard</a>, <a href="https://github.com/oss-review-toolkit/ort">oss-review-toolkit/ort</a></p></div>
+
+  <p class="meta">Herramienta de GitHub y sus contribuyentes · MIT · medido el 3 de noviembre de 2026 · licencia MIT
+     (<a href="https://github.com/cli/cli/blob/trunk/LICENSE">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>APKiD <span class="meta">· rednaga/APKiD</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>31/100</strong> ·
+    ★2,612 · 3786 días · última entrega 2026-10-21 ·
+    993 descargas en 10 entregas · 33 personas ·
+    0 flujos de compilación · incidencias 82 abiertas.
+  </p>
+  <p>Saber cómo se construyó un paquete de Android —compilador, empaquetador, ofuscador— para detectar uno reconstruido por un tercero o entender por qué no se deja leer.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien recibe un paquete de una fuente dudosa y quiere una señal objetiva antes de instalarlo, y para quien desarma aplicaciones y necesita saber a qué se enfrenta.
+     <br><strong>Para quién no es:</strong> para quien busca un antivirus: esto identifica herramientas de construcción, no malware, y un paquete limpio de empaquetador puede ser perfectamente malicioso.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalá la herramienta en la computadora, con su entorno de ejecución, y comprobá la versión contra la entrega publicada.</li>
+<li>Conseguí el paquete de dos sitios distintos: el del repositorio del autor y el que te dieron, y guardalos separados.</li>
+<li>Corré el análisis sobre los dos y compará la salida: si uno lleva empaquetador y el otro no, ya tenés la respuesta.</li>
+<li>Mirá también los nombres de compilador y de ofuscador: un paquete reconstruido casi siempre trae herramientas que el original no tenía.</li>
+<li>Anotá el resultado con fecha y versión del paquete: es la prueba que vas a querer mostrar si alguien te discute.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Sabés si el paquete que tenés se construyó con las mismas herramientas que el original y, por lo tanto, si hay motivo para desconfiar antes de instalarlo.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si la salida no menciona nada conocido, no significa que el paquete sea limpio: significa que no coincide con las firmas que la herramienta reconoce.</li>
+<li>Si el paquete está dividido en varios archivos, analizá el principal y luego los complementos: el empaquetador puede estar en cualquiera.</li>
+<li>Si comparás dos versiones distintas del mismo programa, las diferencias de herramientas pueden ser legítimas: compará siempre la misma versión.</li></ul>
+    <p><strong>Cómo se deshace:</strong> No instala ni ejecuta el paquete analizado: lee el archivo. Borrar la herramienta y los archivos de salida deja la computadora como estaba.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Un paquete de Android es un archivo comprimido con código compilado, recursos y un manifiesto. Quien lo reconstruye —para traducirlo, para quitarle publicidad o para meterle algo— deja huellas en cómo quedó armado. APKiD lee esas huellas: dice con qué compilador se hizo, si pasó por un empaquetador y si alguien lo ofuscó.</p>
+<p>Su utilidad práctica es de las más directas de la guía: comparar el paquete oficial con el que te ofrecieron. Si el segundo lleva un empaquetador que el primero no tiene, no hace falta ser experto para entender el mensaje. Y su otra utilidad es más fina: saber que una aplicación está protegida explica por qué las herramientas del capítulo 10 no la leen bien, y evita concluir que la aplicación esconde algo cuando sólo está protegida.</p>
+<p>Su nota es treinta y uno, la más baja de los doce capítulos, y el motivo no es el programa: es el proyecto. Treinta y siete personas han empujado código, pero la herramienta vive de un equipo pequeño, sin canal de seguridad declarado y sin huellas en sus adjuntos. Y tiene doble licencia —GPL-3.0 o comercial—, algo que esta guía declara porque cambia lo que podés hacer con su código.</p>
+    <p><strong>Límites:</strong></p><ul><li>Identifica herramientas de construcción, no comportamiento malicioso.</li>
+<li>Depende de una lista de firmas que hay que mantener al día.</li>
+<li>Es un programa de computadora: no corre en el teléfono.</li>
+<li>Su licencia libre es GPL-3.0; el uso comercial sin esas obligaciones se paga aparte.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Cuando alguien reconstruye un paquete cambia, casi sin querer, la forma en que está armado: el orden de los archivos, las herramientas usadas, el tamaño de las secciones. Por eso la comparación más útil no es de contenido sino de construcción: el paquete oficial y el reconstruido pueden mostrar el mismo ícono y el mismo nombre, y delatarse en la firma de la herramienta que los armó. Es la misma lógica del capítulo 4 —al reconstruir, la firma cambia— vista desde el otro lado: la huella del constructor es la que dice si el archivo salió del mismo taller.</p>
+    <p><strong>Cómo se comprueba:</strong> Corré el análisis sobre el paquete oficial y sobre el que te dieron, y compará las líneas de compilador y de empaquetador: las diferencias son la prueba.</p>
+    <pre><code>apkid app.apk</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Concluir que un paquete es seguro porque no muestra empaquetador, cuando nada de eso mide intenciones.</li>
+<li>Usar la herramienta para desarmar el trabajo ajeno y redistribuirlo, que es exactamente lo que la guía no hace.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/skylot/jadx">skylot/jadx</a>, <a href="https://github.com/iBotPeaches/Apktool">iBotPeaches/Apktool</a></p></div>
+
+  <p class="meta">Herramienta de Red Naga · GPL-3.0-only con licencia comercial alternativa · medido el 3 de noviembre de 2026 · licencia GPL-3.0-only
+     (<a href="https://github.com/rednaga/APKiD/blob/master/LICENSE.GPL">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>testssl.sh <span class="meta">· testssl/testssl.sh</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>48/100</strong> ·
+    ★9,262 · 4509 días · última entrega 2026-07-12 ·
+    0 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 237 abiertas.
+  </p>
+  <p>Revisar el cifrado de un servidor propio desde fuera, con los protocolos y cifrados que acepta, para saber qué está encendido que no debería.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien montó un servidor en los capítulos 7, 8 o 9 y quiere saber cómo se ve desde internet, y para quien tiene que guardar una línea de base y compararla dentro de seis meses.
+     <br><strong>Para quién no es:</strong> para quien quiere pentesting: esto revisa la configuración del cifrado y nada más, y no busca fallos en la aplicación.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Descargá el programa de su repositorio y comprobá la versión con la orden que él mismo trae para eso.</li>
+<li>Corrélo contra un dominio público conocido para ver cómo se lee un resultado sano y aprender el formato.</li>
+<li>Corrélo contra tu propio servidor, con la dirección completa y el puerto si no es el de siempre.</li>
+<li>Mirá tres cosas y en este orden: protocolos aceptados, cifrados débiles y validez del certificado.</li>
+<li>Guardá la salida en un archivo con la fecha en el nombre, y repetí la medición dentro de seis meses comparando los dos.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tenés un informe del cifrado de tu servidor con la fecha, sabés qué protocolos viejos están apagados y cuáles no, y guardaste una línea de base para comparar.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si el servidor no responde, comprobá que el puerto esté abierto desde fuera y no sólo desde tu red: es el error más común.</li>
+<li>Si aparecen protocolos antiguos activos, no los apagues sin mirar qué aparatos de la casa dependen de ellos.</li>
+<li>Si el certificado sale inválido, revisá la fecha y el nombre: la mayoría de las veces es renovación vencida y no configuración.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Sólo lee desde fuera: no cambia nada en el servidor ni en tu red. Borrás el programa y los informes, y no queda rastro.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Un servidor casero se ve distinto desde dentro y desde fuera. Desde dentro funciona; desde fuera, acepta protocolos y cifrados que uno nunca eligió, porque los trae encendidos el programa que puso encima. Ese hueco es el que se cierra con una medición desde fuera, que es exactamente la posición del que va a intentar entrar.</p>
+<p>testssl.sh es un solo archivo de órdenes de sistema que hace ese trabajo: se conecta como se conectaría un cliente y reporta qué acepta el servidor. No necesita instalar nada en la máquina remota ni tener acceso a ella, y no deja rastro. Es la herramienta más antigua del capítulo —más de doce años— con ciento veintinueve megabytes de repositorio y noventa y dos mil estrellas.</p>
+<p>Su nota es cuarenta y cinco, y el número se explica solo: es un proyecto de un solo archivo, sin entregas empaquetadas y sin huellas publicadas, que se distribuye por el propio repositorio. Nada de eso impide usarlo; todo eso hay que saberlo antes de meterlo en un flujo automático.</p>
+    <p><strong>Límites:</strong></p><ul><li>Revisa el cifrado, no la aplicación ni los permisos del servidor.</li>
+<li>No publica entregas con archivos: se usa desde el repositorio.</li>
+<li>Un informe largo necesita criterio para leerse: no todo lo marcado es un problema real.</li>
+<li>Apagar protocolos viejos puede dejar fuera aparatos antiguos de la casa.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Un certificado válido y un cifrado fuerte son dos cosas distintas y se comprueban por separado. El certificado dice que el servidor es quien dice ser; el cifrado dice cómo se habla con él. Un servidor puede tener un certificado perfecto y aceptar al mismo tiempo un protocolo de hace quince años, que es como tener una puerta blindada con la ventana abierta. La medición desde fuera mira las dos cosas a la vez y por eso vale: no pregunta cómo se configuró el servidor, pregunta qué acepta cuando alguien llama.</p>
+    <p><strong>Cómo se comprueba:</strong> Corré el programa contra tu dominio y leé la lista de protocolos aceptados: si aparece alguno anterior al TLS 1.2, ahí hay trabajo.</p>
+    <pre><code>./testssl.sh --quiet --protocols tudominio.com</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Apagar protocolos viejos de golpe y dejar sin servicio a aparatos de la casa que sólo hablan esos.</li>
+<li>Correr la herramienta contra servidores ajenos sin permiso: mirar el propio es oficio, escanear el de otro no.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/juanfont/headscale">juanfont/headscale</a>, <a href="https://github.com/netbirdio/netbird">netbirdio/netbird</a></p></div>
+
+  <p class="meta">Herramienta de Dirk Wetter y colaboradores · GPL-2.0 · medido el 3 de noviembre de 2026 · licencia GPL-2.0
+     (<a href="https://github.com/testssl/testssl.sh/blob/3.3dev/LICENSE">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+<footer><p>Texto CC BY-SA 4.0 · datos CC BY 4.0 · La Bandita. Mediciones del 4 de noviembre de 2026.</p></footer>
+</div></body></html>

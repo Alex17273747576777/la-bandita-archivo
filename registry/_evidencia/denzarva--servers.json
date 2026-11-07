@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2025-05-23T12:51:26Z",
+   "oid": "cf64b23db27c8239e602e7fa097df7d7f2544e1b"
+  }
+ },
+ "diskUsage": 3511,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "Denzarva/servers",
+ "pushedAt": "2025-05-23T12:51:26Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 1
+}

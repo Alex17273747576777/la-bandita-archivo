@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-05-25T14:28:43Z",
+   "oid": "d80c5deaa312aac7bbc857aeeb5ba0bb8c3b944a"
+  }
+ },
+ "diskUsage": 16727,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "winstriker/Stash",
+ "pushedAt": "2026-05-28T14:54:27Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-05-19T15:59:11Z",
+    "tagName": "split-apks"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

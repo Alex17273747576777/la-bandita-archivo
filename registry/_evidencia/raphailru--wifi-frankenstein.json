@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-05-18T16:46:29Z",
+   "oid": "4ee0a1f840cb12c62cec66cb3f6228294a79775b"
+  }
+ },
+ "diskUsage": 347046,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "RaphailRu/WIFI-Frankenstein",
+ "pushedAt": "2026-05-18T16:46:29Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

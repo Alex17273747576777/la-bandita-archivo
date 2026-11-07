@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-06-28T18:35:52Z",
+   "oid": "b9164db67d811b9b683e0d8c83381ea2e8c5db02"
+  }
+ },
+ "diskUsage": 769929,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "Synapse-QS/CodeAssist",
+ "pushedAt": "2026-06-28T18:35:52Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

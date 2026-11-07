@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-02-25T19:23:16Z",
+   "oid": "c1851b3bb452af4edd4d44f50adaf8124a3422f7"
+  }
+ },
+ "diskUsage": 81679,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "aglago/off-grid-mobile",
+ "pushedAt": "2026-02-25T19:23:16Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

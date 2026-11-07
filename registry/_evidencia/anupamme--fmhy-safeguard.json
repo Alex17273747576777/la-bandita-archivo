@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-28T01:15:22Z",
+   "oid": "158116b7c40006a5b5f1c74f005c770e7129a5fa"
+  }
+ },
+ "diskUsage": 1710,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "anupamme/FMHY-SafeGuard",
+ "pushedAt": "2026-08-28T01:18:14Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

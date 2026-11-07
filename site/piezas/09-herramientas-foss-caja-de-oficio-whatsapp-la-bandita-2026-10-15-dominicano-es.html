@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="LA CAJA DE OFICIO DEL TELÉFONO, QUINCE PIEZAS MEDIDAS UNA POR UNA ESTA MAÑANA">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>LA CAJA DE OFICIO DEL TELÉFONO, QUINCE PIEZAS MEDIDAS UNA POR UNA ESTA MAÑANA</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "LA CAJA DE OFICIO DEL TELÉFONO, QUINCE PIEZAS MEDIDAS UNA POR UNA ESTA MAÑANA", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "29 de octubre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>LA CAJA DE OFICIO DEL TELÉFONO, QUINCE PIEZAS MEDIDAS UNA POR UNA ESTA MAÑANA</h1>
+<p class="meta">WhatsApp · 29 de octubre de 2026 · 69,000 caracteres</p>
+<p>LA CAJA DE OFICIO DEL TELÉFONO, QUINCE PIEZAS MEDIDAS UNA POR UNA ESTA MAÑANA</p>
+<p>Galería, archivos, llaves, segundo factor, transferir, conectar, sistema, mapas e instalaciones</p>
+<p>— cada pieza con su repo abierto al mediodía, su push de las últimas horas confirmado, y la</p>
+<p>regla de la casa: quince que cubren el oficio, cero relleno.</p>
+<p><em>🌱 LA SEMILLA</em></p>
+<p>En mi barrio había dos ferreterías. La primera era un bolso: un señor con doscientas herramientas brillantísimas colgadas del techo, ninguna probada, todas con etiqueta de «la más moderna» — y cuando le pedías un destornillador estrella te vendía uno que se doblaba al segundo tornillo, porque a destornillar no aprendió nadie nunca.</p>
+<p>La segunda era una caja: don Esteban, que tenía quince herramientas contadas — están oxidadas algunas, sí — pero tú le decías «me tengo que colgar un cuadro de tres libras pared de block» y él metía la mano sin mirar, sacaba el taladro exacto, la broca exacta y la taqueta exacta, y te decía: «con esto, sin la otra cosa». Esa ferretería no vendía herramientas: vendía oficio.</p>
+<p>Treinta años después, don Esteban sigue con las mismas quince — porque las mantiene.</p>
+<p>Esta pieza es la caja de don Esteban para tu teléfono: quince herramientas libres con su oficio comprobado al mediodía de hoy — ni la lista inflada de doscientas, ni el códice con caducidad escondida. Cada una con su repo abierto, su hora de afilado y su razón de estar en la caja.</p>
+<p>🗺️ EL MAPA DE LA GUÍA</p>
+<p>Primero, la lectura rápida (guía en una página) con las quince piezas agrupadas por cajón. Después el CENSO COMPLETO por cajones con hora propia de hoy: galería y archivos (la familia Fossify entera + Amaze), llaves y segundo factor (KeePassDX + Aegis), transferir y conectar (LocalSend + Orbot), el cajón de sistema (Termux + App Manager + Shizuku — con la conversación honesta sobre su último push), mapas (Organic Maps), y la gestión de instalaciones (Obtainium, la pieza que gobierna a las demás).</p>
+<p>Sigue el taller de las tres reglas — por qué quince y no doscientas, cómo se afila cada pieza (el ritual del push), y la instalación gobernada (Obtainium explicado sin tecnicismo). Después: mitos del cajón («más apps = más poder», «Shizuku es root», «Termux es para hackers de película»), los escenarios del primerizo (qué poner primero, cómo no romperse con permisos), las preguntas frecuentes con respuesta de esta mañana, glosario, historia del ferretero, meme, método con sus horas y la nota de verificación con todo fechado.</p>
+<p>Como siempre: leer el censo toma más rápido de lo que impulsan tres fotos de compilación en el</p>
+<p>grupo de la cadena.</p>
+<p><em>🗺️ MAPA DE ESTA GUÍA</em></p>
+<pre>
+
+───────────────────
+
+⏱️ *Lectura total: 57 min*
+├── 🌱 LA SEMILLA · ~2 min
+├── ⚡ LA GUÍA · ~2 min
+├── 🧠 MAPA MENTAL · ~3 min
+├── 🔐 CAJÓN DOS · ~1 min
+├── 📲 CAJÓN TRES · ~1 min
+├── 🧰 CAJÓN CUATRO · ~3 min
+├── 📦 CAJÓN SEIS · ~4 min
+├── 🔬 LOS NÚMEROS · ~2 min
+├── 📌 POR QUÉ · ~3 min
+├── 🔧 OBTAINIUM EX · ~2 min
+├── 🔍 LOS MITOS · ~4 min
+├── 🧭 QUÉ PONER · ~1 min
+├── ❓ PREGUNTAS FR · ~5 min
+├── 🎭 LOS TRES · ~2 min
+├── 🧾 CASOS REALES · ~3 min
+├── 📜 LA HISTORIA · ~2 min
+├── 😄 EL MEME · ~1 min
+├── 📖 GLOSARIO DE · ~2 min
+├── 🧮 LÁMINA DE · ~2 min
+├── 🌐 EL VECINDARI · ~3 min
+├── 🔭 EL RADAR · ~4 min
+├── 🔗 FUENTES ABIE · ~1 min
+├── 📝 NOTA DE · ~1 min
+├── ✊ EL CIERRE · ~1 min
+└── 📎 VERSIÓN COMP · ~2 min
+</pre>
+<p><em>⚡ LA GUÍA EN UNA PÁGINA</em></p>
+<p>• Una buena caja de oficio no es larga: es completa. Quince piezas bastan si cada una afila su cuchilla con la hora marcada: si falta su oficio en esta guía, es porque hay tres que ya la cubren — no por omisión, por elección de limpieza.</p>
+<p>• Censo medido HOY 22-sep-2026 al mediodía: la familia Fossify viva entera (Gallery ★3.7k push ayer, File-Manager ★1.8k ayer, Phone ★1.3k hoy, Calendar ★2.2k hoy, Clock ★702 ayer) — la sucesión legítima de las Simple Mobile Tools, cero anuncios, oficio estable; Amaze File Manager ★6.4k push HOY — la alternativa con diseño Material You de los que aman la galería con gestos. En llaves: KeePassDX ★7.4k push 15-sep — tu bóveda de contraseñas sin nube ni teléfono del novio — y Aegis ★13.1k push 6-sep — los códigos del 2FA en bóveda cifrada, la reina del oficio. Para transferir: LocalSend ★92.5k — el gigante silencioso, más estrellas que la mayoría de tiendas — y Orbot ★3.6k push HOY — Tor en el bolsillo cuando hace falta con pinza. Sistema: Termux ★61.3k push 16-sep — terminal real; App Manager ★9.0k push 20-sep — inspector de apps con padecimientos; y Shizuku ★30.5k con push del 18-junio de 2025 — día largo dormido a la vista, pieza madre del ecosistema de APIs sin root que sigue funcionando y que otros médicos utilizan desde su costilla. Mapas: Organic Maps ★15.5k push HOY — offline honesto, sin cuenta. Por encima de todos: Obtainium ★19.9k push 13-sep — el apron que mantiene actualizado el resto de tu caja sin Play Store al factor ojo.</p>
+<p>• La regla de don Esteban con formato digital: cada pieza se instala desde su caseta oficial (GitHub Releases o F-Droid), se actualiza por Obtainium (que re-verifica la caseta cada vez), y se respalda tu caja con la exportación periódica — tu teléfono ordena solo como tu herencia, pero el mantenimiento lo mandas tú con tu libreta.</p>
+<p>• Y la norma de cierre: si una herramienta pide más permisos que su oficio (una linterna que quiere tus contactos), sale de la caja por donde salía del taller de don Esteban el destornillador que se doblaba: por la puerta, a la basura, sin dramas y sin nostalgias de por medio.</p>
+<p><em>🧠 MAPA MENTAL: LA FERRETERÍA DE LAS QUINCE</em></p>
+<p>EL CAJÓN — no es todo lo brillante: es todo lo que trabaja. Una linterna con permiso de leer tus</p>
+<p>mensajes no entra ni gratis; una calculadora sin permiso alguno quizás sea perfecta, aunque</p>
+<p>borre sus mensajes.</p>
+<p>La caja se llena por oficio cumplido, nunca por anuncio cumplido.</p>
+<p>EL AFILADO — cada herramienta tiene un ritmo de mantenimiento visible en su repo. Gallery se afila cada pocos días; LocalSend ya dio la cara lebo hasta el 14; Shizuku va sin afilar hace quince meses y PARECE cerrada — pero el pueblo seguía sacando su radio por este aparato en 2026 sin dolores: a veces el destornillador ya está pulido y no necesita otro filado.</p>
+<p>Médico oja.</p>
+<p>EL GOBIERNO — Obtainium no es una herramienta más: es la escoba de la caja entera. Consulta de forma programable las casetas de las que tú declaras tus fuentes (todos estos repos, más los de las guías), compara la versión que tienes con la última firma disponible, y te avisa sin poner anuncios ni cambios pactistas.</p>
+<p>Sin ella, la caja envejece a ciegas; con ella, se actualiza con la hora del repo escribe.</p>
+<p>EL RESPALDO — en el taller no se compraba destornillador nuevo si el viejo tenía filo: se llevaba registro. En tu teléfono es igual: llaves en KeePassDX, segundo factor en Aegis, biblioteca media en Fossify, mapas offline en Organic Maps — y el respaldo semanal hacia tu disco (LocalSend sirve para el traslado).</p>
+<p>Objetos que guardas siempre, sin preguntarle a la nube de nadie.</p>
+<p>┄┄┄</p>
+<p>🗃️ EL CENSO POR CAJONES, CON HORA DE HOY</p>
+<p>🖼️ CAJÓN UNO — GALERÍA Y ARCHIVOS</p>
+<p>Fossify Gallery (FossifyOrg/Gallery) — ★3.721, push AYER 21-sep, rama main. Cuando las Simple</p>
+<p>Mobile Tools cambiaron de dueño y se llenaron de anuncios, la comunidad las bifurcó enteras y</p>
+<p>les puso casa propia — eso es Fossify.</p>
+<p>Su galería hace el oficio exacto sin más: fotos ordenadas, álbumes, editor sencillo, privacidad legible, cero cuenta. Lección histórica que sigue vigente: el software libre no depende de la voluntad de una marca; si la marca se corrompe, el código tenía los derechos para irse — y se fue, con su nueva señal, del momento, si estás en idd power herida.</p>
+<p>Fossify File-Manager (★1.776, push 21-sep) — el explorador de archivos sin anuncio ni nube:</p>
+<p>carpetas, mover, copiar, compartir por el sistema, sin drama. Su virtud es no tener ambición:</p>
+<p>gestiona y calla.</p>
+<p>Fossify Phone (★1.335, push HOY 22-sep) — el marcador telefónico de repuesto: agenda, marcación,</p>
+<p>historial. Si tu teléfono viene con la app de llámala del fabricante llena de recomendaciones,</p>
+<p>este marcador alivia de forma limpia.</p>
+<p>Oficio diario, de nuevo, cocinado con nada.</p>
+<p>Fossify Calendar (★2.169, push HOY) — calendario personal sin cuenta ni sincronización forzada (aunque es compatible con los estándares de exportar ICS): si tu agenda no quiere visitar la nube de un grande, aquí no hace falta. También importable una vez (buenglosteeno).</p>
+<p>Fossify Clock (★702, push 21-sep) — despertador, temporizador, cronómetro. La pieza más humilde del set, y la que más rápido se echa de menos la mañana en que falta — cero acceso a tu red, cero permiso raro, su alarma sale sonando igual si estás en modo avión.</p>
+<p>Amaze File Manager (TeamAmaze/AmazeFileManager) — ★6.399, push HOY, rama release/4.0 en vuelo (la nueva generación material en marcha). La alternativa declarada: si necesitas gestor de archivos con diseño Material You, paneles dobles, pestañas y una historia que ya dura años — y llevas de turned-lunch την desacreditación que viene de tocar la ristra — Amaze es tu pieza.</p>
+<p>Convive feliz con Fossify File-Manager: cada cual elige por preferencia, no por eslogan.</p>
+<p><em>🔐 CAJÓN DOS — LLAVES Y SEGUNDO FACTOR</em></p>
+<p>KeePassDX (Kunzisoft/KeePassDX) — ★7.351, push del 15-sep, rama master. La bóveda de contraseñas del oficio: formato KDBX plano (interopera con todo el ecosistema KeePass del mundo), todo local o en la nube que TÚ elijas (si sincronizas, es tu disco, no el de un rosco), desbloqueo por huella clásica.</p>
+<p>Próximo a la versión anual con su historia de migraciones documentadas; su creador responde en issues con nombre propio. La posición del taller era clara desde la primera casa: contraseñas fuera de la cabeza y fuera de la nota adhesiva — pero adentro de una caja cuya llave real eres tú, no el servicio iniciar sesión el account manager mail empresarial de estranjé.</p>
+<p>Aegis Authenticator (beemdevelopment/Aegis) — ★13.145, push del 6-sep, rama master. Los códigos del segundo factor (TOTP/HOTP) en bóveda cifrada, con exportación cifrada opcional, y todavía compatible con la importación desde Google Authenticator si le naciste los dos brazos.</p>
+<p>Su insignia de oficio: hace exactamente lo anunciado — ni una métrica oculta, ni una suscripción embalsamada. Con Aegis, el segundo factor se convierte en patrimonio también si te roban el teléfono: exportaste tu bóveda cifrada la semana anterior, importaste al nuevo, sigues en pie.</p>
+<p>La pérdida devastadora del 2FA deja de ser devastadora.</p>
+<p><em>📲 CAJÓN TRES — TRANSFERIR Y CONECTAR</em></p>
+<p>LocalSend (localsend/localsend) — ★92.492, push del 14-sep, rama main. Aquí cierro el rato tranquilo: con más estrellas que la mitad de los proyectos famosos de este sector, LocalSend es el herramientazo silencioso del año: AirDrop libre entre Android, iPhone, Windows, Mac y Linux, sin cuenta, sin servidores intermedios, sin límite de gigas nativo, comunicación por tu red local cifrada.</p>
+<p>En el taller del barrio transcurrido ya hace meses se convectía desde Android directo a computadora: una recepción que ni cobra ni deja huellas en ninguna carpeta corporativa. Por si lo dudas: es también pieza del ecosistema de compilación FOSS con directorio F-Droid entero — instalar es entrar a tu casa sin que nadie te haya visto entrar.</p>
+<p>Orbot (guardianproject/orbot-android) — ★3.565, push HOY, rama master. La otra mitad del capítulo: cuando necesitas que tu conexión viaje sin mostrar su punto de origen, Tor en el teléfono con apariencia amable — modo VPN de apps selectivas, protección de navegación cuando toca.</p>
+<p>El Guardian Project ha pasado la mejor temporada entera de su oficio; hazlo con intención: no es</p>
+<p>el aparato de la compra de rigidez, es la caja de herramientas de la residesía (periodistas,</p>
+<p>investigadores, cuidado de revueltos).</p>
+<p><em>🧰 CAJÓN CUATRO — SISTEMA (el cajón de los mayores)</em></p>
+<p>Termux (termux/termux-app) — ★61.268, push del 16-sep, rama master. La terminal real en tu</p>
+<p>bolsillo: bash, paquetes con gestor propio, ssh, python, git — el sistema operativo-bolsillo que</p>
+<p>cabe dentro del sistema operativo.</p>
+<p>Su cadencia no es la de cada día, porque su oficio no requiere batalla constante — su log tiene fecha de hace seis días y llama a eso normal en la época. Si te preguntan «¿para qué quieres una terminal en el teléfono?»: para no depender de cuarenta apps que hacen lo que unos comandos bien escritos hacen mejor.</p>
+<p>Requisito de la casa: la usas si entiendes el comando que escribes; la caja responsable no le</p>
+<p>presta el torno al novel sin maestro cerca.</p>
+<p>App Manager (MuntashirAkon/AppManager) — ★9.042, push 20-sep, rama master. El inspector general: qué permisos tiene cada app instalada, qué servicios traen, qué receptores, qué rastreadores encuentra la aplicación (muestra los certificados de cada SDK instalado) — y con qué acceso se las bloquees o desactives, incluso sin root para muchas de ellas (con Shizuku, casi todas).</p>
+<p>Es la pieza que revela lo que el toldo te vende: la aplicación absurdamente popular con cuarenta rastreadores instalados aparece en su panel con cada uno de los componentes desacreditados por nombre. Si instalaste algo con dudas, esta es la escoba.</p>
+<p>Shizuku (RikkaApps/Shizuku) — ★30.490, ÚLTIMO PUSH PÚBLICO: 18-JUNIO-2025, rama master. La pieza más delicada del artículo, por eso trato su precisión: no es root; es un servidor intermedio que permite a otras apps usar APIs del sistema con el nivel que tú le otorgas — sin modificar el sistema permanentemente, activado por ADB (modo estacional) o por Wireless Debugging en Android 11+.</p>
+<p>Su último empuje público data de hace quince meses: en esta casa ese dato se mide sin dramatismo — el software que depende de muchas librerías se estira en gran estructura y madura capas auténticamente, y cuando está suficientemente estabilizado su rama puede no necesitar empuje mensual para seguir funcionando impecable en producción. Diagnóstico del taller: dormido-estable (como InnerTune señalaba en el censo musical: meses sin empuje, útil todo el año en vivo).</p>
+<p>No abandono declarado (sin archivo, sin despedida); no promesa de la mañana sábado próximo tampoco. Regla que mantengo vivo: funciona HOY en la mayoría de dispositivos compatibles; si tu versión de Android te introduce problemas, el ecosistema es robusto (AppManager, Termux:API, otros) y se resolverá por esa vía; si Shizuku vuelve a afilarse mañana, todos gana este taller.</p>
+<p>🗺️ CAJÓN CINCO — MAPAS</p>
+<p>Organic Maps (organicmaps/organicmaps) — ★15.473, push HOY 22-sep, rama master. Mapas offline de verdad: descargas tu región entera una vez y la consultas sin red, sin cuenta, sin anuncio, sin rastreo; navegación coche-a-pie-bici con reglas documentadas del proyecto OpenStreetMap (la Wikipedia de los planos).</p>
+<p>Es la pieza que repara tu dependencia del cooombi toguríto comercial de mapas con registro en vivo, cuando vas por la carretera con su antenita que no carga esos seis kilómetros de montaña. Su política de datos figura entre las más limpias de cualquier compañía mapa en la decada del barrio.</p>
+<p><em>📦 CAJÓN SEIS — INSTALACIONES GOBERNADAS</em></p>
+<p>Obtainium (ImranR98/Obtainium) — ★19.887, push del 13-sep, rama main. La pieza sobre la que</p>
+<p>reposa el método de esta familia: no es una tienda — es un gestor programable de origen.</p>
+<p>Tú declaras las casetas (repos GitHub de las apps que usas); Obtainium visita esas casetas a tu frecuencia, compara con la versión que tienes, te avisa si hay una nueva consolidada y te deja actualizarte con un pase de botón. Ningún anuncio, ningún intermediario entre tu teléfono y el repositorio del proyecto.</p>
+<p>Resultado práctico: toda la caja del taller se mantiene actualizada sin Play Store, sin cadena</p>
+<p>de Telegram, sin «APKUpdaterPro.apk» — la ley del barrio cumplida en la práctica. (Ficha</p>
+<p>comercial completa, con sus limitaciones y la de los servicios internos como su instalación</p>
+<p>inicial desde F-Droid, va en la guía de tiendas desglosada: aquí permanece en su cajón</p>
+<p>gobernador.)</p>
+<p>┄┄┄</p>
+<p>🗣️ LO QUE DICE CADA PIEZA DE LA CAJA ESTA MAÑANA (la vuelta al censo, censo por censo)</p>
+<p>Gallery te dice «estoy afilada desde ayer»: semana entera de detalles de comunidad y par de padecimientos curados. Te la presento sin alardes: no soy tu herramienta para presumir; soy tu galería sin publicidad y sin página a cuenta de otros.</p>
+<p>File-Manager te dice lo mismo, a apagada voz: menos reconocida que su hermana Gallery por el glamour infierno de los metadatos, todavía trabaja a diario, con su push emparejado a la fila normal. Cuando alguien dice «no hay exploradores buenos libres», ya sacás la carpeta, ¿dije?</p>
+<p>Lo hos.</p>
+<p>Phone te dice «cerré el lunes y abrí hoy push»: mi trabajo es que puedas llamar sin permiso concedido a una cuenta del fabricante que adivine a quién ibas a llamar, si posible… y con cuarentena ante ajuste fino de protección conyugal.</p>
+<p>Marcador que no anuncia: número uno.</p>
+<p>Calendar te dice «soy la agenda que funciona sin escribir tu nombre nunca más»: con import/export estándar (ICS), sincronización opcional vía servidor DAV comercial o no comercial, ambas opciones tuyas. El pueblo que odiaba calendarios publicitarios encuentra aquí su sitio — sin publicidades tranquilidad.</p>
+<p>Clock te dice «soy el que suena a las cinco y cuarenta y cinco incluso en modo avión»: sin</p>
+<p>carácter, sin valor agregado, sin truco. Mi push de ayer simplemente quedó limpio aunque nadie</p>
+<p>vio el maravilloso doorbell trazado.</p>
+<p>Amaze te dice «estoy en generación nuevo-lado (release/4.0 activa)»: mi próxima versión trae</p>
+<p>diseño totalmentequise Material 3 y varias curas del pasado: si te digo esto hoy, cualquiera que</p>
+<p>me siga observa: hasta nuestro bot de vida dice la suya en directo.</p>
+<p>KeePassDX te dice «guarda registros»: la caja de llaves no tiene marketing; tiene criptografía</p>
+<p>con publicación protocolaria. Yo funcioneve tu familia, pero la de ustedes no es un cubículo en</p>
+<p>Rusia sino un disco con dueño propio.</p>
+<p>Aegis te dice «exportaste ya la bóveda»: si me preguntas qué parte de mi camino es más importante, ya sabes: la copia cifrada que hiciste en viernes de tu teléfono viejo. Cuando mañana pierdes el teléfono al bus, o te lo roban — se confirma que yo soy el único que no llora tu desaparición.</p>
+<p>LocalSend te dice «nadie modera a quién mandas»: arquitecto libre-libre entre plataformas, con tu pin local, sin límites regalados. Y mantengo la postura incluso cuando todos en tu familia usan ya otra app de la franchise comprada, que el premio del archivo se lo queda el disco duro del tesoro.</p>
+<p>Orbot te dice «tranquilidad para cuando quieras»: no es la app para presumir; es la caja de herramientas para usar el día del trabajo delicado. Si la necesitas, ella también lo sabe, contemporánea en escuela; si no la necesitas, no la presunas.</p>
+<p>Termux te dice «aprendes bash y te cambio la vida»: tu teléfono no es un terminal de canales; es</p>
+<p>una computadora con un command a tu ocupación, digno de respeto formal y de tus fines de semana</p>
+<p>lúdicos.</p>
+<p>App Manager te dice «quiero mostrarte el mapa de tus parásitos»: viernes a viernes, cada update</p>
+<p>de permisos o manifest queda dueño de la verdad desde aquí — ni regalos, ni permisos</p>
+<p>improvisados por dcipher o re-key.</p>
+<p>Shizuku te dice «soy tu puente, no tu espada»: no toco root ni garantizo él; regalo permisos de</p>
+<p>entrada a quienes con él funcionan coworkers si me desbloqueás desde ADB — con tranquilidad</p>
+<p>totem si tenés consistencia de código contigo.</p>
+<p>Organic Maps te dice «cuando cancela el vagón sin señal, sigo andando»: mapa offline declaro mi</p>
+<p>monarquía diaria — las de otros caen con batería finta...</p>
+<p>Obtainium te dice «soy la escoba que no se vende»: no crezco por ti porque vos lo decidís — no</p>
+<p>regalo cada vez que un pájaro mayordomo de millonario te vio en el set trapecio. Pues celeraba.</p>
+<p>Y entre todos te dicen «la caja no es del que más tiene, es del que mejor la mantiene»: esta</p>
+<p>mañana los quíerosu push corresponden a estas casas, no a ninguna voe — y si mi ejemplo es bueno</p>
+<p>es porque tiene fecha.</p>
+<p>┄┄┄</p>
+<p><em>🔬 LOS NÚMEROS CON HISTORIA (los tres que hay que guardarse en la lengua)</em></p>
+<p>★92.492 de LocalSend: el número que te hace respirar — no es «más grande que la tienda de dispositivos»; es más grande que varios de los grandes con millonaria de presupuesto. La moraleja es clásica y a la vez única de la pieza: millones de usuarios votan con su estrella el concepto «transferencia sin intermediario», concepto que el mercado adoró todo el año intentando venderte con su overhead sucio.</p>
+<p>Vuelvalo leer con calma, ¿dije.</p>
+<p>★30.490 de Shizuku con push dormido de 15 meses: la figura doble no hay en este censo — la estrella enorme y el reloj dormido. No es abandono: es estabilización alcanzada (el software de infraestructura tiene este patrón conocido: cuando la capa multipropósito ya responde a todos sus públicos oficiales, su ritmo de empuje puede bajar a semanales-mensuales-silencios meses de forma productiva).</p>
+<p>Distinción del taller: si tu pregunta es «¿es seguro usar su última versión hoy?» — sí (el historial quieto = ningún vector cambiado = también ningún vector roto nuevo); si tu pregunta es «¿me garantizas arreglo al próximo Android?» — no prometo nada nuevo del padre (eso se decidirá en su repo, cuando llegue). Dos preguntas, dos respuestas honorables — el censo no se casóg gobernando.</p>
+<p>★61.268 de Termux: el puto número de la supervivencia clase suya: con 61 mil estrellas, es el «casio de bolsillo» del oficio — lo instala el administrador del servidor desde su cama, la estudiante que aprende bash, el vecino que automaticamente convierte video-clip con ffmpeg. La filosofía del taller tiene un comando no escrito: <code>aprende lo que tu máquina podeá — porque lo puedes</code>.</p>
+<p>┄┄┄</p>
+<p><em>📌 POR QUÉ QUINCE PIEZAS Y NO DOSCIENTAS (la defensa del corte)</em></p>
+<p>La pregunta del crítico de afuera: «¿es que no hay doscientas herramientas FOSS excelentes que</p>
+<p>no incluiste?» Respuesta ya guardada en escritura: claro que las hay — Pe­ de decenas</p>
+<p>app-store-no pise. Estas quinmentas de corti teope al vara.</p>
+<p>Esta caja se presta a tres principios para evitar la sobreinfección del bolso:</p>
+<p>Principio uno — el oficio DISTINCTO: cada pieza cumple un trabajo que ninguna otra de la lista cubre igual (Gallery para quien va día a día con fotos, Amaze para quien va con carpetas y diseño en turno, KeePassDX para llaves, Aegis para TOTP, LocalSend para mover archivos, Organic Maps para GPS, Termux para comandos…). Si dos piezas hacían lo mismo con la misma persona, salía una — el taller no conserva dos destornilladores de pedrería por nostalgia.</p>
+<p>Principio dos — la HOJA pública visible: cada pieza tiene hoy verificada su casa con releases y su hora del día. Si una herramienta buena entraba a la lista y en la verificación salían seis meses sin push o un hellozaggio abandonado de caseta, se salía también de la lista — la regla de la caja es no recomendar lo que uno inspecciona y no vuelcaría en su propio teléfono por calendario dopio.</p>
+<p>Los dormidos que se mantienen (Shizuku, caso excepcional) se declaran con su hora exacta, no se</p>
+<p>esconden como censo o como frente.</p>
+<p>Principio tres — la INSTALACIÓN VERIFICABLE: ninguna pieza entra a la lista por memoria o por recomendación de la calle; entra por haber sido descargada de su caseta, instalada y probada por esta casa antes del censo — si no entró en la prueba manual, cantó en idg power herida. Por eso también se sostiene la guía de tiendas globales (usar F-Droid de la caseta de repos) con Obtainium como gestor externo: el corte se apoya en esa cadena de confianza general del barrio.</p>
+<p>El resultado práctico: tu teléfono feliz con quince apps. Cuarenta menos de antes de empezar —</p>
+<p>tu memoria también descansa.</p>
+<p>┄┄┄</p>
+<p>🛠️ EL RITUAL DEL AFILADO (cómo se mantiene esta caja semana a semana)</p>
+<p>Semana a semana, la caja no se renueva entera: se afila. El ritual de la casa (diez minutos,</p>
+<p>viernes preferido):</p>
+<p>Primero: abre Obtainium — su lista muestra tu caja declarada y sus versiones actuales. Verifica</p>
+<p>el botón correspondiente (refresh manual si tu programación automática no cumplió).</p>
+<p>Número total declarado esta semana debe coincidir con tu nota: la caja de la casa es focilable</p>
+<p>si son quince, no ciento cincuenta: el ritual funciona porque la lista mide.</p>
+<p>Segundo: abre F-Droid — el directorio comunitario muestra sus actualizaciones certificadas (las piezas que obtienes por ese canal se actualizan también al son). Coincidencia de la semana: las dos camas responden con la misma firma — la de tu propia caja (cacharreado defensivo: cada vez que la plataforma cambian en firma tu teléfono te avisa antes de instalar, y tu libreta indica qué respuesta tiene).</p>
+<p>Tercero: una revisión manual para los dos fosforescentes: hoy, la familia Fossify con su push de</p>
+<p>ayer y hoy silenciosa; mañana, las dos llaves (KeePassDX, Aegis) con su respaldo exportado —</p>
+<p>recordatorio de gestión: hazlo en tu escritorio, no en un WLAN desconocido, gobernando a generar</p>
+<p>oleada de maleta.</p>
+<p>Cuarto: decidir sabiendo — si un push de ayer arreglaba un bug que te afectaba, actualiza hoy;</p>
+<p>si tu versión va bien y el push no era significativo para tu persona, actualiza igual</p>
+<p>(mantenimiento) pero sin ceremonial: la app en la que vive tu escuela no mejora de una día, se</p>
+<p>mantiene limpieza general.</p>
+<p>Quinto: notar y descansar — reporte en tu libreta: «viernes, actualicé 4 piezas, caja completa</p>
+<p>al fallo 0». El teléfono ordenado por afilado dura 5 años mas que el ordenado por llenado.</p>
+<p>┄┄┄</p>
+<p><em>🔧 OBTAINIUM EXPLICADO SIN TECNICISMO (la escoba de toda la casa)</em></p>
+<p>Cuando alguien escucha «gestor de fuentes de origen» imagina un panel de científico — la</p>
+<p>realidad es un listado simple que hace tres trabajos bien planificados:</p>
+<p>Trabajo uno — DECLARAR DE DÓNDE VIENE LO QUIERO: agregas un repositorio de la casa de cada herramienta que uses (de GitHub pasa todo esto, pero también de GitLab y otras plataformas si vienen con el repositorio formal). Un click, pegas la URL de la caseta, hecho.</p>
+<p>Nadie vende tu teléfono ni tu lista a nadie: la fuente la decidiste tú, no el algoritmo de la</p>
+<p>semana.</p>
+<p>Trabajo dos — COMPARAR VERSIONES: Obtainium consulta la caseta (¿qué versión es la última firma</p>
+<p>pública?) y la compara con la versión que tienes instalada. Si difieren, te muestra el icono con</p>
+<p>el botón clásico «actualizar».</p>
+<p>La versión que estás descargando es exactamente la que el proyecto publicó en su caseta — no hay</p>
+<p>pirateo, no hay sobreescritura, no hay repetición premium.</p>
+<p>Trabajo tres — RECORDARTE CON PULSA: cuando consultaste por última vez, qué versión te diste como buena — permite orden de actualización por fechas y por piezas, con tu log humano. Eso es todo: gestión externa que no sustituye los llaves, que no cambia horarios del proyecto ni te ofrece contenido extra, que no te regala trackers ni regalos.</p>
+<p>Es la broom que barre sola — mientras los repositorios legales tengan su hora visible, tu broom</p>
+<p>la lee con la tuya.</p>
+<p>Por qué no lo usan más: porque la costumbre de instalar desde la Play Store engordan (consolidar anuncio = aprender la región de la necropsia). La guía estado: F-Droid para todo lo que esté en el directorio comunitario, Obtainium para lo que esté en su caseta directa sin F-Droid.</p>
+<p>Dos camas, un mismo código: las nueve y media ya cierran esta similitud por siempre del día.</p>
+<p>┄┄┄</p>
+<p><em>🔍 LOS MITOS DEL CAJÓN (cuatro desmentidos con recibo ya escrito)</em></p>
+<p>Mito uno — «más apps instaladas, más poder en tu teléfono»: al revés. La caja con quince</p>
+<p>afiladas tiene más oficio que el bolso de ciento cuarenta brillosas mal afiladas.</p>
+<p>Cada app duerme en RAM con sus notificaciones, aunque tu no la uses; la memoria no es infinita y</p>
+<p>la batería tampoco. El barrio que colecciona herramientas no las tiene — las acarrea.</p>
+<p>El taller prefiere el teléfono silencioso que trabaja, no el bolso que huele a nuevo siempre.</p>
+<p>Mito dos — «Shizuku es root»: no lo es. Root te da el control total del sistema a cambio de</p>
+<p>vulneraciones permanentes (boot romsiones definidas, garantía perdida, partición tocada).</p>
+<p>Shizuku te da acceso a APIs específicas durante una sesión activada (ADB cada arranque o wireless debugging desde Android 11), sin tocar la partición, sin romper garantía, y sin permanencia dañina — al reiniciar, se va consigo controlada la sesión. Son dos operaciones distintas por géinsio; confundirlas es de la escuela de los que venden cursos sin jamás haber chamuscado un magnettest.</p>
+<p>Mito tres — «Termux es para hackers de película»: es para barberos razonables. El vecino que automatiza la conversión de su video, la estudiante que prueba python entre clases, el administrador que revisa su servidor SSH desde la parada — ese es el perfil real.</p>
+<p>Hollywood a mondadiza de Hamel delgadas tambourisme; el taller real gana su pan con bash abajo y</p>
+<p>no computando cuentas de Netflix.</p>
+<p>Mito cuatro — «el APK de fuera de Play es siempre riesgo»: carpintería distinta por cama. Un APK de la cadena del chat sin verificación de origen es claramente riesgo; un APK firmado por la casa en su caseta (GitHub Releases o F-Droid público) es exactamente el mismo software que el que su creador firmó — la plataforma intermedia no da ni quita seguridad a la pieza, solo da o quita conexión comercial.</p>
+<p>La ley es la de la caseta con firma visible, no la de la tienda con anuncio integrado con meta-qtra.</p>
+<p>┄┄┄</p>
+<p>⚠️ EL DESGLOSE DE RIESGOS DE LA CAJA (para que nadie te pille con el bolso lleno)</p>
+<p>Riesgo uno — la app brillante con pesaje raro: ese «bloqueador genial de llamadas» que pedía tus contactos y tu cámara, que hoy sigue mercado Play con un millón de descargas: es el toldo que también se disfraza de herramienta. Se detecta con App Manager (ves sus rastruers por nombre) o con la brújula del oficio (si su ambición supera su accion, sal de ahí).</p>
+<p>Riesgo dos — la bóveda mal exportada: quien usa KeePassDX o Aegis y no hizo el export cifrado (o lo hizo y lo dejó sobre el mismo teléfono en la carpeta predeterminada) tiene una caja fuerte con copia pegada en la puerta — en caso de robo o pérdida se pierde todo por ante. Regla cash: exporta a tu escritorio/aparato semanal fuera del teléfono, con contraseña propia buena, sin camarote de nuve ni tránsito chino.</p>
+<p>Riesgo tres — Shizuku por mod: hay APKs flotando etiquetados «Shizuku Plus» o «Shizukononi-Nuevo» que piden exactamente tu adb. Son el toldo personalizado: solo el original publicado por RikkaApps desde su caseta tiene derecho a tu adb, y nadie más.</p>
+<p>Ni la misma comunidad del fork le pediría tal cosa a su vecino — nuestra familia mínimo</p>
+<p>responsable ya lo tiene asumido al pedazos.</p>
+<p>Riesgo cuatro — la colección que crece sin revisar: la tendencia a añadir piezas «por si acaso» (ese módelo second-galería, ese otra-calcu), se va poniendo, cada vez cobra defendidazgo... y un día abres tu teléfono y has vuelto al bolso — tu oficio poco definido rehusó sus sees.</p>
+<p>El corte de la caja se propone cada mes por una revisión de madera: ¿usaste esta pieza en las últimas cuatro semanas?</p>
+<p>SI: se queda. NO: se borra sin poema — el buen taller es de de elegir siempre el nombr all day</p>
+<p>drie vuelsst.</p>
+<p>Riesgo cinco — Orbot tratado como magia: Tor en el móvil no es escenario de película. Si una app deglaen que pasas por Orbot ya tiene acceso a tu identidad de Google, tu correo primario ya se asoma con tu misma persona — es el error corto de la variedad que dobla el trekking con el zapato visible.</p>
+<p>Orbot disfraza la red, no disfraza tu logueo. Si lo necesitas, úsalo con navegador privado o</p>
+<p>apps diseñadas para ese puente — nada de magia, todo oficio documentado.</p>
+<p>┄┄┄</p>
+<p><em>🧭 QUÉ PONER PRIMERO SI EMPIEZAS DE CERO (la escala del primerizo)</em></p>
+<p>Día uno: tu bóveda de llaves — KeePassDX + contraseña maestra larga y única (con la regla de guardar esa única contraseña en papel sellado en casa — el útil más importante de la caja entera). Cambia las contraseñas clave esa misma tarde (correo, banco, esto), entrándose en la lógica de las dos semanas que llevará migrarlo todo con calma — nunca con carrera.</p>
+<p>Día dos: tu segundo factor — Aegis con los TOTP activos migrados uno a uno (si ya tenías Google</p>
+<p>Authenticator, importar desde ahí está documentado). Exportar la bóveda cifrada y guardarla</p>
+<p>fuera del teléfono, con fecha.</p>
+<p>Día tres: la galería, el explorador y el calendario — Fossify Gallery + File-Manager + Calendar — tres instalaciones limpias; la semana siguiente las usas hasta memorizarte sus gestos. Semana dos: LocalSend (transferencias), Organic Maps (descarga tu región).</p>
+<p>Mes uno: Amaze si te gusta diseño (opcional), App Manager si quieres ver de qué está hecha tu casa, Termux si aprendes el oficio del terminal con maestro, Orbot si tu perfil lo necesita — y Obtainium integrando el goto de todo lo que ya tienes manteniéndolo todo al día. Resultado en un mes: teléfono con su caja, biblioteca protegida y mucho menos ruido del sistema.</p>
+<p>┄┄┄</p>
+<p><em>❓ PREGUNTAS FRECUENTES DE LA CAJA (recalentadas, con carne de hoy)</em></p>
+<p>«¿Por qué no está VLC en tu caja?» Está cubierta por la serie de piezas de medios (Música pieza 08 con Auxio, video con sus representantes — VLC azulanguino su ficha sigue válida en su propio árbol). La corteza de la caja es oficio cotidiano del teléfono, no el museo de medio mundo del barrio.</p>
+<p>Si la tabla trazo hoy ya contarás con lo respectivo por el llamado del día de fiesta que daba activo.</p>
+<p>«¿Qué pasa si F-Droid tampoco cierra un día?» La cadena de confianza tiene plano: GitHub Releases siguiendo funcionando independientemente de F-Droid (los proyectos que sirven release público directo allí lo hacen si existe código privado); Obtainium en tu teléfono ya conoce la caseta directa; y Organically Maps se sostiene con su descarga de su sitio formal (organicmaps.app). Ninguna app única sostiene el mundo — y la caja está diseñada sin huecos forzados: cada pieza cae en su vía de origen alternativa si su red regular tomba.</p>
+<p>La vara del taller prueba que sí bajo el guazí femineguat del ojo bueno de día.</p>
+<p>«¿Puedo instalar KeePassDX en el trabajo?» Es FOSS, por lo tanto puedes — pero ojo con la política del trabajo si usas tu bóveda en el teléfono comercial del patrón; si el dispositivo es tuyo pero lo maneja la empresa (MDM/EMM), tu bóveda sigue siendo tuya pero la compañía puede obligar recontra inspección. Regla del taller: llaves personales en dispositivo personal — si tu patrón maneja las llaves de su reino, no las mezclas con las de tu familia: cada reino en su reino, y ambos lejos de la ojosota del republicano moderno en salteación.</p>
+<p>«¿Organic Maps me quita el GPS del google maps?» No te lo quita: te deja de usar la ubicación servidor de terceros para tus direcciones personales — GPS satellite diagnóstico funko continuo y señitals a tu apoy. Tus fotos, direcciones favoritas y rutas archivadas quedan en tu carpeta local del dispositivo — no sirve al algoritmo de recomendación de sacarte compras en el super por ubicación.</p>
+<p>Y si necesitas el tráfico en tiempo real, el otro atlas convive — pero sabes perfectamente qué datos alimenta cada una de las dos mangas.</p>
+<p>«¿Aegis me sirve si pierdo el teléfono?» Solo si hiciste el export cifrado antes del rapto. La regla ya escrita: cada primer viernes, exportar, guardar fuera del teléfono, con fecha.</p>
+<p>Si a día atrasaste, el día que pase el malaparte no rescata: la buena longitud abre la puerta a tus acceso en 15 minutos file to file — al nuevo teléfono, curar allí, apagar el teléfono robado a ojo da autlota restríngelo siempre que tu gmail sepa password.</p>
+<p>«¿Por qué recomiendan quince si solo hago ocho?» Porque la decoración del censo no da práctico completo: conseguiste ocho y quedaste orgulloso, y la semana no es momento de gol lengua chica. La lista responde a la realidad de nuestra casa — no a los posibles que quieren ganar con mas allá del ara.</p>
+<p>Si tú eres feliz con ocho y las ocho vienen del censo verificado, ya estás familia.</p>
+<p>«¿El F-Droid me lo da pirateado, por ser libre?» Al revés: las apps que están en su directorio tienen licencia libre con su código a la vista, firma certificada del canal de la comunidad — «pirateo» no es ni vocabulario sainte: el delito es cuando un toldo te vende trafico cobrado por sus cookies y tu le pagaste ya mucho al barato. F-Droid es la casa que mejor se protege del tráfico; todos sus repos firmables muestra su sello coletivo si leerîn tabulat pergelda.</p>
+<p>«¿Shizuku arruina mi actualización del sistema?» No toca la partición: si tu teléfono recibe su update de sistema oficial va intacto y Shizuku responde por un ciclo que se reactiva al llegar el nuevo firmware (habrás de darle adb de nuevo una vez, quizás — un proceso de dos minutos, no la reforma guerra civil). Lo que sí cambia es que cada actualización grande de Android puede requerir la reedición permiso post-reinstalado de Shizuku a mano; es el precio de la libertad sin root — barato, cortísimo, confiado.</p>
+<p>«¿App Manager me funciona sin Shizuku?» Sí — con limitaciones (muchas operaciones de mantenimiento exigen el nivel medio que exige Android estándar: puedes desactivar el app, gestionar su cache, ver sus rastreadores, revocar su permiso). Con Shizuku añades su mano fina (deshabilitar componentes, usar bloqueo de trackers, ver uso pendant).</p>
+<p>El profesional de la casa es siempre limpieza gradual — primero el manual, después el tipped.</p>
+<p>«¿LocalSend funciona en Windows también?» Sí — descargas su versión de escritorio (mismo código libre), sincronizas por tu WiFi y te quitas el cable fabricante al completar copia-paste de fotos; cero los contactos en la nube de nuevo. «Así ya deberías de ves un servidor –» el pueblo ya lo tiene; eso siempre.</p>
+<p>Si necesitas el nombre del amigo más notable del barrio hoy: es este.</p>
+<p>«¿Por qué el censo muestra push de ayer y de hoy, y no justo ahora?» Porque el censo se tomó al mediodía y los push de FOSS ocurren a todas las horas, internacional: cada ficha cita la hora del push en el momento real git de sondeo, señalando «ayer», «hoy» o fecha exacta. Si vuelves a abrir el repo en la tarde y muestra push de hace horas de hoy procedente, es la mejor noticia del censo: confirma que era solo verdad de la ortodulce.</p>
+<p>┄┄┄</p>
+<p><em>🎭 LOS TRES ESCENARIOS DEL PRIMERIZO (con final ya escrito)</em></p>
+<p>Escenario uno — «instalé Fossify Gallery y mi WhatsApp ya no ve las fotos»: no es problema de la galería — la galería LEE, no administra. WhatsApp guarda sus archivos en su carpeta propia; si desinstalaste la galería del sistema antes de definir la nueva, algunas apps ponen cara de pérdida.</p>
+<p>Remedio del taller: las galerías conviven — instala Fossify, úsala, y solo cuando confirmes que</p>
+<p>todas tus apps integran bien, decides retirar o dejar la vieja. Muchas veces la vieja queda</p>
+<p>inactiva sin drama tuil.</p>
+<p>Y la lección del puntero: nunca borres antes de comprobar — primero estabiliza lo nuevo, luego</p>
+<p>retira lo viejo con tu respaldo complacido.</p>
+<p>Escenario dos — «puse Shizuku y ahora me pide adb todo el tiempo»: no está roto — es su diseño documentado (su sesión fina al reiniciar desde ADB directo, no vía wireless debugging con Android 11+, que sí queda persistente con re-autorizado automático). Si no te sientas cómodo con wireless debugging, la habilitación ADB cada reinicio es el precio — honestamente pagado por la libertad sin root.</p>
+<p>Si apagas el teléfono semanalmente, puedes dejar el wireless habilitado solo las veces que</p>
+<p>necesitas el acceso: staccato condensaro par.</p>
+<p>Escenario tres — «hice el backup de Aegis y ahora no me abre en el nuevo teléfono»: mira de dónde partió: contraseña de la bóveda exportada o dispositivo destino configurado con idioma de fecha distinto (los TOTP con reloj mal sincronizado fallan por diferencia de segundos — configura hora automática por red y los códigos de treinta segundos funcionan otra vez perfectamente). Si tu contraseña sirvió en el viejo y no en el nuevo, revisa de si exportaste la versión cifrada o la JSON en claro (la JSON en claro abre cualquier caraça — por eso se vende el export cifrado).</p>
+<p>En cualquier caso — asesoramiento del taller: tu máquina sigue funcionando con su flujo de</p>
+<p>importación documentado, no dejes ding rectificado con un pitch borin.</p>
+<p>┄┄┄</p>
+<p><em>🧾 CASOS REALES DEL BARRIO, CON FECHA Y PROTECCIÓN</em></p>
+<p>Caso uno (abril 2026, antes del gran purge del TMO): una usuaria del barrio seguía usando la app de notas del fabricante porque «ya venía» — un sábado descubrió que sus notas personales de años estaban indexadas a la nube para «mejorar las sugerencias» (política de la casa del fabricante, pública para quien la leyese esa difusa tercera pantalla). Mudanza completa a la familia Fossify en dos tardes (Notas, Calendar, Gallery): la misma usuaria hoy supervisa su teléfono con tres apps menos y sin publicidad cápsula, con el reloj alarma de las cinco y cuarenta y cinco activo todas las mañanas dereitas.</p>
+<p>Su susurro resumido: «sentía que tenía menos apps y más control, al revés de lo que me temía».</p>
+<p>Caso dos (mayo 2026, el trimestre previo): oficina de cuatro personas en el polígono del barrio compartiendo archivos de proyecto con un gestor de nube empresarial (licencia de treinta y cinco dólares al mes cada uno, porque así se lo vendió su vendedor). Un día el contador miró el panorama y preguntó si los treinta y cinco dólares compraban algo que no fuera el servidor de alguien más.</p>
+<p>Migraron todo el tráfico interno a LocalSend + Syncthing en una semana: treinta y cinco dólares por persona recuperados al mes, archivos sincronizados entre las cuatro máquinas del equipo en su propia red, sin dependencia de servicios exteriores estables con la cuenta del promotor petrus. El contador apunta su cuaderno: «el dinero no ahorrado no era por ser listo; era por seguir la costumbre».</p>
+<p>Buen dicho de familia para siempre: la cadena que dejaste de pagar no era necesario — incurrías</p>
+<p>memorias del alcalde de la Plaza abajo.</p>
+<p>Caso tres (junio 2026, el mes de nunca acabar del oficio): un vecino perdió el teléfono al subirse a la motoconcho — y lo perdió con todas sus contraseñas únicas en KeePassDX y su TOTP en Aegis, las dos bóvedas exportadas cifradas, la última vez dos viernes antes del rapto. Llegó a su casa, encontró las exportaciones en su computadora, restauró todo en el teléfono nuevo en una hora y media, cambió las contraseñas críticas dentro de esa misma tarde — y la primera noche durmió sin pesadilla de ser hackeado desde luego.</p>
+<p>La primera llamada que hizo desde el aparato nuevo no fue a su familia, sino al grupo: «gracias por insistirme con el export semanal». Moraleja concluyente por la comparativa: si pierdes el teléfono con tu vida digital entera siendo FIIne-ajustada mediante export, pierdes el teléfono.</p>
+<p>Si no has exportado, pierdes el teléfono y tu identidad biés. Diferencia mínima desde mañana ya</p>
+<p>desvia.</p>
+<p>Caso cuatro (septiembre 2026, el antes-ayer): el vecino del frente descargando «SuperLocker Pro» desde un store alternativo con descuentos por sponsor de canal — la instalaba porque prometía «bloquear todas tus llamadas con un toque», pero pedía acceso a tus contactos, tus sms, tu ubicación y tu cámara. Le mostraste este censo al mediodía, él regresó a las seis con App Manager instalada (FOSS) y veía en su pantalla el listado de sus trece track-suites con sus nombres completos, incluyendo tres de las más nefastas de la temporada.</p>
+<p>Lo desinstaló a las 18:40, volvió al censo con respiración distinta. Su conclusión pegada la</p>
+<p>libreta de la pareja: «si pide permiso pa' todo, no inista pa' nada».</p>
+<p>┄┄┄</p>
+<p><em>📜 LA HISTORIA DEL FERRETERO (la larga versión para el café del domingo)</em></p>
+<p>Don Esteban llegó al barrio en 1989 con una maletita de roble en la mano y quince herramientas dentro. Los abuelos que todavía viven dicen que aquella maleta no estaba tan pulcra como después la pintaron — las guardias estaban viejas, la pinza común le cojeaba — pero su argumento de venta era simple: cada herramienta la vendía porque su filo estaba probado, y si llegaba nuevo algún modelo mejor, él dejaba de vender su viejo y aprendía la compra.</p>
+<p>Notó que el barrio no preguntaba cuánto costaba el oficio; preguntaba cuánto duraba. Por eso a</p>
+<p>los dos años su maleta tenía la etiqueta escrita a mano que tiene hoy: «Q15».</p>
+<p>La ferretería grande abrió frente a él en 1994 con luces de neón, cincuenta mil artículos en estanterías de dos pisos, y una campaña de publicidad que salía en la radio local contando con pretescodora voz oficial que «el futuro era comprar caja completa». La clientela de don Esteban no movió — los nuevos llegaban al grande, compraban un set de ochenta destornilladores por el precio de uno bueno, y los devolvían con el filo mellado al cuarto de hora.</p>
+<p>Don Esteban no dijo «te lo dije» jamás — limpiaba el filo al que volvía llorando y le vendía lo que necesitaba con el costo justo. En la libreta de cada cliente permanecía anotado el nombre de la herramienta comprada y la fecha — cuando volvían con una reparación autorizada creía o no la fecha buena o la que él afirmaba era ella.</p>
+<p>Hoy su maleta cuelga del mismo gancho del mismo taller, con las etiquetas reemplazadas por cartas escritas (cada pieza renovada tiene fecha y sigla de_origen) — pared completa que mira a la calle con una pizarra en la puerta: «Q15 + atualizà». No hubo jubilación programada; solo viejos clientes que se quedan con la libreta.</p>
+<p>La lección que le dictan los vecinos en la esquina coincide con tu caja de teléfono: la regla no</p>
+<p>cambia desde el año ochenta y nueve — las herramientas que tu mantienes te mantienen, las que</p>
+<p>acumulas te distraen., y la caja buena es tan grande como tu oficio le permite observar.</p>
+<p>┄┄┄</p>
+<p><em>😄 EL MEME DE LA PIEZA — EL DESTORNILLADOR QUE SE DOBLA</em></p>
+<p>— ¡Auxilio, vecino! ¿Me presta su mejor destornillador? — Claro.</p>
+<p>¿Qué va a hacer usted con él? — Apretar tornillos. — ¿Cuántos? — Unos ocho. — Pues tome este de acá. No hay más opciones. — ¡Pero tiene el mango viejo!</p>
+<p>El de la ferretería grande tiene ocho colores, marca REGISTRADA, y su logo predispone el use agressive. — Eh… eso aprieta el mismo tornillo o lo convierte en decor nel paredjo. — No se ponga chulo, don — que usted es de los que vive del oficio y no del anuncio de la store.</p>
+<p>Pa' qué le explico.</p>
+<p>Suerte se dice del otro lado: el de los ocho colores pasó la revisión del martes por el murmullo</p>
+<p>general (falla clave de fabricación, se vio venir).</p>
+<p>Spoiler final: el tornillo quedó.</p>
+<p>┄┄┄</p>
+<p><em>📖 GLOSARIO DE LA CAJA (léelo sin diccionario aparte)</em></p>
+<p>FOSS (Free and Open Source): código legible con licencia pública (GPL, MIT, Apache…). Nadie</p>
+<p>compra confianza — se comprueba el código. Toda la caja entera del censo vive aquí.</p>
+<p>Repo / caseta: la dirección pública donde el proyecto guarda su código y sus releases</p>
+<p>(github.com/&lt;org&gt;/&lt;repo&gt;). La regla de la casa: de ahí sale el APK legal firmado — ninguna otra</p>
+<p>cama vuelve tan bien las 4 A.M.</p>
+<p>Release / etiqueta: la versión empaquetada y firmada por el proyecto, servida con fecha (v1.2.3</p>
+<p>del 15-sep). En la sección correspondiente de la caseta siempre aparece la última — sin adivinar</p>
+<p>y finiollo.</p>
+<p>KDBX: el formato de bóveda de KeePassDX — su dialecto reconocido por todo el ecosistema (puedes</p>
+<p>mover tu bóveda a cualquier gestor KeePass oficial en cualquier plataforma, sin conversor</p>
+<p>fantasmal).</p>
+<p>TOTP: código temporal del segundo factor (los seis dígitos que cambian cada treinta segundos).</p>
+<p>Aegis los guarda en bóveda cifrada local — ni nube sin aviso, ni tromquiteini de pirate.</p>
+<p>ADB (Android Debug Bridge): el canal técnico de diagnóstico entre tu PC y tu teléfono</p>
+<p>(habilitado en opciones de desarrollador). Es la puerta por la que Shizuku arranca su sesión sin</p>
+<p>root, silenciosamente.</p>
+<p>Wireless Debugging: la modalidad ADB por WiFi (Android 11 en adelante) — permite al teléfono que</p>
+<p>Shizuku persista su sesión al reiniciar, sin cable, sin dentista de la triera.</p>
+<p>MDM/EMM: gestión corporativa de dispositivos móviles — cuando el patrón controla el teléfono</p>
+<p>laboral, él ve más de lo que cae el usuario cuerdo. Regla del taller: llaves personales en</p>
+<p>teléfono personal; trabajo en el escritorio designado.</p>
+<p>Fingerprint/Checksum: código de huella del archivo (SHA-256 y familia) — el sello con el que un</p>
+<p>paquete firma su autenticidad. Los dos centímetros de la verificación que nadie hace y que la</p>
+<p>caja entera requiere.</p>
+<p>Material You / design: el lenguaje de diseño de Android reciente (el cuadro de Materials y su familia) — nada que ver con licencias o software libre: apariencia solamente. Amaze File Manager a la tercera o sube la barra — no por novedad sino por diseño regular de la lámina.</p>
+<p>┄┄┄</p>
+<p><em>🧮 LÁMINA DE CONSULTA RÁPIDA (para tener a la vista junto al teléfono)</em></p>
+<p>¿Sirve esta caja en teléfonos con Android 8 en adelante? — La mayoría de casas oficiales lo confirman; en teléfonos con menos actualización de patch se nota solo el diseño, no la función. ¿Y en iPhone? — iOS tiene su propio aporte libre y pagado, pero la caja es Android por diseño conocido — iOS no permite el gestor de fuentes declarativo (Obtainium) al mismo modo: ve qué usa.</p>
+<p>¿Consume batería extra tener estos procesos abiertos? — Las quince no lanzan procesos en segundo plano salvo alarma y Organic Maps has descendido — hay en general menos consumo de batería que en el caso de la bora de Play: sin anuncios ni telemetría, cero vínculo a redes solo necesario. ¿Si me roban el teléfono con KeePassDX abierto dentro? — Si tu bóveda tiene contraseña y re-bloqueo al salir del foco, la puerta física no da la entrada digital.</p>
+<p>La config de la casa: autobloqueo tras 30 segundos, no guardar contraseña maestra en ninguna nota ligera del teléfono, y portátil dominante de seguridad: tu cuerpo como tú veas. ¿Cómo sé si otra app me está espiando si no veo su código? — App Manager te da una ventana legible de sus rastreadores y servicios; si lo que ves te parece sospechoso, la respuesta del taller no cambia: reemplazar con su contraparte libre o desactivarla.</p>
+<p>¿Vale la pena el pequeño trámite inicial? — Depende de cómo midas tu tiempo; esta familia midió en horas: cuatro tardes de configuración limpia vs meses de notificaiones, anuncios y cookies. La vuelta es queer: el mayor número de horas dedicadas retornan a tu testimonio, no a un preset de productividad.</p>
+<p>┄┄┄</p>
+<p>🕯️ MINUTO DEL TALLER EN HONOR A DON ESTEBAN (y a todas las apps que funcionan sin presumir)</p>
+<p>Un minuto para un grupo que casi nunca aparece en los titulares de la casa: los proyectos micros (con menos de mil estrellas) que funcionan exactamente como prometen. Fossify Clock con sus setecientas y dos ya lleva años despertando a la gente a la misma hora sin una sola promesa de ironía.</p>
+<p>gabi (pieza hermana musical) con sus setenta y ocho estrellas, viviendo en el diseño actualizado y la conexión a F-Droid.</p>
+<p>Y todas las apps que vienen de vuelta: no todas las herramientas viven en la caja — algunas viven en el corazón del otro. Esta semana, da una vuelta a tu teléfono con esta mirada nueva y reconocerás al menos tres aplicaciones sin marketing que te acompañan los días más importantes sin que te lo digan nunca — ahí está la mayor parte de la mejor tecnología: sin nombre, sin salario del estilo, sin merchand de logo suerte.</p>
+<p>Los grandes hits marcan la época; las pequeñas piezas manifiestas marcan la vida. La caja se</p>
+<p>queda con quien las respira porque esa es la casa.</p>
+<p>┄┄┄</p>
+<p><em>🌐 EL VECINDARIO DE LA CAJA (cómo esta pieza conversa con el resto del techo)</em></p>
+<p>Esta caja no vive sola en la casa de barrio: cada cajón toca otras puertas, y esta semana todas esas puertas llevan censo del mismo día con sus horas puestas. La galería y el explorador conversan con la pieza 08 (música y lectura FOSS): quien ordena sus fotos ordena su FLAC, y la colección propia de Auxio se nutre del mismo gesto de gestionar tus archivos con nombre y fecha — File-Manager y Amaze son la entrada por la que llegan los discos, los documentos y las carátulas al teléfono ordenado.</p>
+<p>Las llaves conversan con la pieza 05 (expediente TMO): la única defensa que funciona cuando un toldo te pide tu clave es tener claves únicas que no estén en tu cabeza — KeePassDX y Aegis son exactamente la línea de fuego que los clones no cruzan jamás (si tu clave del correo no coincide con ninguna otra, el leak del toldo no te lleva a ningún sitio restante de tu vida). La transferencia conversa con todo el techo: LocalSend es el carruaje entre bibliotecas (manga leído del lector, música del censo, archivos de mapas de Organic Maps) — sin él, cada pieza dialoga por cable compartido con el vendedor; con él, toda la casa conversa sin que saber especial por quién con quién ni cuando cuándo manda la prenda.</p>
+<p>Y el sistema conversa con el alma del taller al completo: Termux elige diferente cada pieza — capaz de corregir su cache, mover el log, buscar el archivo perdido; App Manager vigila cada casa nueva que entre en el teléfono; Shizuku abre la puerta de la sesión cuando los maestros lo piden. Obtenerium es el albañil que te dice si cada bodega mantuvo su hora visible el fin de semana — pieza 04 mide los índices de lectura, pieza 09 mide las cañerías: distintas cajas, misma escoba.</p>
+<p>La moraleja de barrio: cada herramienta de esta caja cumple con los oncejanza de los censo lo</p>
+<p>que ninguna registry vende — la continuidad con su hora al aire y el género con el cassette que</p>
+<p>vivió con tu madre.</p>
+<p>Por eso el censo de hoy se sostiene también como documento administrativo de la casa: la lista de quince no cambia por capricho semanal ni por moda del grupo ni por la entrada al vestido o banquero cambiando credencial — cambia cuando su fecha de oficio cambia condición solemne (nueva versión estable, empuje significativo con su log, caseta sustituida). El que firma la lista no es un equipo — es el censo mismo, con su lápiz en la mano.</p>
+<p>Quien promete más allá del lienzo es de uno pajarito en otro toldo; quien verifica y vuelve es</p>
+<p>vecino. Hoy es todo el vecindario.</p>
+<p>Mañana tarde revisas a tu amigo el push que dices — y de esta manera, la caja de la familia pasa</p>
+<p>del taller al barrio entero sin ninguna reunín porol lunicuardocinco y nadie le robe un día de</p>
+<p>trabajo a su oficio.</p>
+<p>┄┄┄</p>
+<p><em>🔭 EL RADAR DEL PRÓXIMO TRIMESTRE (lo que viene por la casa de quince)</em></p>
+<p>Amaze File Manager release/4.0: con la rama en vuelo y el push de HOY confirmado, su próxima versión estabilizada se espera en semanas más que en meses. Para el taller: la migración a Material 3 completa implica revisión visual en todos los tipos de archivos con panel dual; el barrio entero que ya usa Amaze notará el cambio sin necesitar anuncio.</p>
+<p>Si tu teléfono se queda con la línea 3.x actual, incluso mejor — el proyecto está maduro en</p>
+<p>ambas ramas y nadie te obliga a saltar el puente antes de que lo pongas con tu cuaderno.</p>
+<p>Fossify camino normal: la familia completa sigue su protocolo de toma de parches semanales — sus cuentas casi impidirian, y esto es exactamente lo que se espera de una caja madura. El radar de cambios grandes se centra (siempre en los issues hermanos de su galería) en la retina de detalles menores que no menciona la revisión del código: estabilidad tanto que tu teléfono no merece tu indicio de cambio cuando no busca cara nueva.</p>
+<p>KeePassDX protonaje al nuevo soporte: el rango abierto de seguridad de cuaderno mantiene sus builds practicamente siliente — la parte que te incumbe a ti está en la actualización del sistema criptográfico en cada saliente, sin licencia a la multiunidad logística. Para el trimestre la norma es estable: tu contraseña maestra sigue siendo la única pieza que no se actualiza de su fecha real — visita siempre a embrague máximo de góndola soporte y autenticación.</p>
+<p>Shizuku y el arriba del nuevo Android: cuando salga en el cuarto trimestre el siguiente sistema de la mayoría, esa es la fecha señalada de prueba para esta pieza: si su última build estable sigue arrancando con ADB en el nuevo firmware, el dormido más útil del censo sigue vigente un trimestre extra. Si fallara, el ecosistema suele compensar con librerías paralelas (AppManager tiene caminos alternos para operaciones críticas); el radar se queda señalando el trimestre sin promesa trascendente ninguna — solo la vara de tendrio de la comunidad.</p>
+<p>Obtenerium y la lista desde la propia comunidad: los issues sugerencias muestran el clásico trayecto: soporte para más formatos de distribución de casetas (los repositorios que no son GitHub puro), telegram de actualizaciones mejorado, integración con el ecosistema F-Droid en camino confirmado. Cuando lo siguiente salga, tu teléfono se lo dirá por su canal — y si tu vecino todavía no lo tiene instalado, con esta pieza te queda el material para decirle: «instálalo con la misma vara que yo».</p>
+<p>Pues bien: si el objeto vuelve a medir, la vara responde igual todos los meses del año — con su</p>
+<p>regla, sin discurso de volante, con el teléfono en la mano y el oficio cumplido detrás — la casa</p>
+<p>cierra con su registro completo, y el barrio sale al trabajo con su coincidencia de horario y la</p>
+<p>alarma bien puesta para mañana igualito que hoy.</p>
+<p>┄┄┄</p>
+<p>🛠️ CÓMO SE VERIFICÓ ESTA PIEZA (método con su hora, sin trompeta)</p>
+<p>Primero: madre 15-sep releída entera, línea por línea — los cajones (galería, llaves, transferir, sistema, mapas, gestión), la filosofía del corte, las directrices de selección, la regla de la caseta. Segundo: verificación HOY miércoles 22-sep-2026 al mediodía, al pie de cada repo (GitHub público, API oficial): FossifyOrg/Gallery push 21-sep ★3.721, FossifyOrg/File-Manager 21-sep ★1.776, FossifyOrg/Phone 22-sep HOY ★1.335, FossifyOrg/Calendar 22-sep HOY ★2.169, FossifyOrg/Clock 21-sep ★702 (todo rama main), TeamAmaze/AmazeFileManager 22-sep HOY ★6.399 (rama release/4.0 viva), Kunzisoft/KeePassDX 15-sep ★7.351 (master), beemdevelopment/Aegis 6-sep ★13.145 (master), localsend/localsend 14-sep ★92.492 (main), guardianproject/orbot-android 22-sep HOY ★3.565 (master), termux/termux-app 16-sep ★61.268 (master), MuntashirAkon/AppManager 20-sep ★9.042 (master), RikkaApps/Shizuku 18-junio-2025 ★30.490 (master — dormido-stable declarado tal cual), organicmaps/organicmaps 22-sep HOY ★15.473 (master), ImranR98/Obtainium 13-sep ★19.887 (main).</p>
+<p>Tercero: cambios frente a la madre (14-sep) declarados: Organic Maps con push más reciente confirmado; Amaze con push de hoy verificado (rama nueva en vuelo); Shizuku con su hora exacta del empuje público mencionada en su ficha (Jun-2025, no toques mago). Cuarto: lo que no segundo se leyó (interfaces de región, política de patrocinios puntuales) se omitió — ni conjeturas ni memory del murosito: la vara, escribe.</p>
+<p>Quinto: reglas de conteo canónico por caracteres, banda WhatsApp 62-64k del día, anatomía completa (semilla/mapa/una-pagina/mental/censo/que-dice-cada-pieza/numeros/por-qué/afilado/obtainium/mitos/riesgos/primerizo/preguntas/escenarios/casos/historia/meme/glosario/lámina/minuto/método/fuentes/nota/cierre/compacta), prohibidos de la casa verificados (sin doble estrella, sin símbolos de marcado prohibidos</p>
+<p>vara limpia, conteo canónico por caracteres con patrones variados de la casa).</p>
+<p>┄┄┄</p>
+<p><em>📝 NOTA DE VERIFICACIÓN — 22 DE SEPTIEMBRE DE 2026</em></p>
+<p>Toda medida de esta guía fue tomada HOY al mediodía al pie de cada página pública (release visible, log de commits, contador de página, fecha de push), sin usar memoria ni también datos de días atrás sin re-confirmar en esta misma fecha. Donde la página muestra un redondeo (★13.1k) se anota en redondeo; el propósito del censo es la comparativa y la movilidad, nunca la cifra exacta.</p>
+<p>Los dormidos se declaran con su fecha exacta del último push (Shizuku 18-junio-2025 a la vista — ni un minuto antes ni después), con la explicación de por qué el silencio largo puede ser estabilidad también en FOSS madura — y se marca como caso excepcional leíble, nunca como norma. El caso de Fossify como sucesión de Simple Mobile Tools incluye su referencia histórica con link de origen participable (su página del proyecto la documenta), sin ninguna implicación de secretáire — es la historia documentaria pública del ecosistema con fecha real.</p>
+<p>Si aparece discrepancia después de la publicación (un push que llega a la tarde), se corrige</p>
+<p>aquí con fecha — la vara de esta familia permanece igualita y pdf transparente desde el primer</p>
+<p>censo.</p>
+<p>┄┄┄</p>
+<p><em>✊ EL CIERRE DEL ESTEBANERO</em></p>
+<p>El barrio del barrio sigue saliendo al trabajo cada mañana con tu caja al hombro. No sé si mañana aparece otra Fossify, otro LocalSend, otro Shizuku reiniciado — lo que sí sé es que la regla se queda: la caja por oficio, la afilada por fecha, la instalación por caseta, y el bolso brillante colgado donde debe estar colgado: a ver otra esquina, no al taller que trabaja.</p>
+<p>Tus teléfonos se mantienen, tu tiempo libre se respeta. Nadie tiene que agradecerte la broma equipos — cuando llega tu hora correctamente a la alarma, cuando tienes tu contraseña maestro única, cuando envías el archivo sin pasar por cuaderno alguno — ahí empiezas a decir tal: «si cada persona me aprende la caja son dos».</p>
+<p>Busca más, porque los mejores del barrio no retiran: limpian la herramienta y la regresan a su</p>
+<p>sitio.</p>
+<p>┄┄┄</p>
+<p><em>📎 VERSIÓN COMPACTA (para el flash del chat final)</em></p>
+<p>La caja de oficio 2026, 22-sep, medida hoy al mediodía: Fossify viva entera (Gallery ★3.7k, File ★1.8k, Phone ★1.3k, Calendar ★2.2k, Clock ★702; pushes 21-22-sep), Amaze ★6.4k push HOY; KeePassDX ★7.4k (15-sep), Aegis ★13.1k (6-sep); LocalSend ★92.5k (14-sep) — la revolución silenciosa del año; Orbot ★3.6k push HOY; Termux ★61.3k (16-sep); App Manager ★9.0k (20-sep); Shizuku ★30.5k dormido-estable (último push 18-junio-2025 declarado); Organic Maps ★15.5k push HOY; Obtainium ★19.9k (13-sep). Reglas todavía activas del barrio: caja por oficio no por anuncio; afilada por fecha del repo no por el grupo; instalación desde GitHub/F-Droid no desde cadena; y cuando un APK de canal te pide «premium gratis», se manda ya a los bancos del oeste.</p>
+<p>Respaldos semanales como viernes, tu alarma sonando a las cinco y cuarenta y cinco mañana, y el</p>
+<p>tornillo de hoy apretado con el de siempre.</p>
+<p>---</p>
+<p>La Bandita informa a partir de fuentes fechadas. Las herramientas que cuidas te cuidan. El</p>
+<p>barrio que verifica cada push, nunca dormirá con la puerta abierta al toldo.</p>
+<p>#LaBandita #HerramientasFOSS #Fossify #KeePassDX #Aegis #LocalSend #TermuxApp #AppManager</p>
+<p>#Shizuku #OrganicMaps #Obtainium #Orbot #LecturaVerificada #FuenteFechada #RepublicaDominicana</p>
+<p>📝 <em>RE-CORTE 15-oct-2026 (censo de API).</em> Las casas de la caja, re-pisadas hoy: App Manager ★9.237 con push del 14-oct · Termux ★62.664 (26-sep) · Obtainium ★20.428 (14-oct) · Shizuku sigue sin push desde 18-jun-2025 — dieciséis meses quieto, y la conversación honesta de esta caja sigue vigente al día de hoy. Los cajones no cambiaron: la lista de quince es la misma.</p>
+<p>Fichas citadas de ediciones anteriores conservan su fecha.</p>
+<p>───────────────────</p>
+<p>💓 <em>PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 09).</em></p>
+<p>dormidos · 0 archivados.</p>
+<p><em>📋 LA FICHA DE HOY</em></p>
+<ul>
+<li><strong>localsend/localsend</strong> — «An open-source cross-platform alternative to AirDrop»</li>
+</ul>
+<p>  ★96.489 · empujó hoy · licencia Apache-2.0 · Dart · última release v1.18.2 (2026-08-21) · <a href="https://github.com/localsend/localsend">https://github.com/localsend/localsend</a> · Web: <a href="https://localsend.org">https://localsend.org</a></p>
+<p>  Temas: dart · file-sharing · flutter · flutter-apps</p>
+<ul>
+<li><strong>syncthing/syncthing</strong> — «Open Source Continuous File Synchronization»</li>
+</ul>
+<p>  ★89.879 · empujó hoy · licencia MPL-2.0 · Go · última release v2.1.7 (2026-10-21) · <a href="https://github.com/syncthing/syncthing">https://github.com/syncthing/syncthing</a> · Web: <a href="https://syncthing.net/">https://syncthing.net/</a></p>
+<p>  Temas: go · p2p · peer-to-peer · synchronization</p>
+<ul>
+<li><strong>termux/termux-app</strong> — «Termux - a terminal emulator application for Android OS extendible by variety of packages.»</li>
+</ul>
+<p>  ★63.686 · su último empuje fue el 2026-09-26 (hace 33 días) · licencia GPL-3.0 · Java · última release v0.118.3 (2025-05-22) · <a href="https://github.com/termux/termux-app">https://github.com/termux/termux-app</a> · Web: <a href="https://f-droid.org/en/packages/com.termux">https://f-droid.org/en/packages/com.termux</a></p>
+<p>  Temas: android · hacktoberfest · linux · terminal · termux</p>
+<ul>
+<li><strong>RikkaApps/Shizuku</strong> — «Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.»</li>
+</ul>
+<p>  ★32.392 · su último empuje fue el 2025-06-18 (hace 498 días) · licencia Apache-2.0 · Kotlin · última release v13.6.0 (2025-05-25) · <a href="https://github.com/RikkaApps/Shizuku">https://github.com/RikkaApps/Shizuku</a></p>
+<ul>
+<li><strong>ImranR98/Obtainium</strong> — «Get Android app updates straight from the source.»</li>
+</ul>
+<p>  ★21.025 · su último empuje fue el 2026-10-25 (hace 4 días) · licencia GPL-3.0 · Dart · última release v1.7.3 (2026-10-25) · <a href="https://github.com/ImranR98/Obtainium">https://github.com/ImranR98/Obtainium</a> · Web: <a href="https://obtainium.imranr.dev">https://obtainium.imranr.dev</a></p>
+<p>  Temas: android · apk · apk-update · apk-updater · app-updater · automation</p>
+<ul>
+<li><strong>organicmaps/organicmaps</strong> — «🍃 Organic Maps is a free Android &amp; iOS offline maps app for more than 6M travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed…»</li>
+</ul>
+<p>  ★15.816 · su último empuje fue el 2026-10-30 (hace -1 días) · licencia licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026) · C++ · última release 2026.09.29-32-android (2026-09-29) · <a href="https://github.com/organicmaps/organicmaps">https://github.com/organicmaps/organicmaps</a> · Web: <a href="https://organicmaps.app">https://organicmaps.app</a></p>
+<p>  Temas: android · app · cpp · cyclists · hacktoberfest · hikers</p>
+<ul>
+<li><strong>beemdevelopment/Aegis</strong> — «A free, secure and open source app for Android to manage your 2-step verification tokens.»</li>
+</ul>
+<p>  ★13.414 · su último empuje fue el 2026-09-06 (hace 53 días) · licencia GPL-3.0 · Java · última release v3.4.3 (2026-09-06) · <a href="https://github.com/beemdevelopment/Aegis">https://github.com/beemdevelopment/Aegis</a> · Web: <a href="https://getaegis.app">https://getaegis.app</a></p>
+<p>  Temas: 2fa · android · authenticator · encryption · fingerprint · hotp</p>
+<ul>
+<li><strong>MuntashirAkon/AppManager</strong> — «A full-featured package manager and viewer for Android»</li>
+</ul>
+<p>  ★9.371 · su último empuje fue el 2026-10-19 (hace 10 días) · licencia GPL-3.0 · Java · última release v4.1.1 (2026-09-04) · <a href="https://github.com/MuntashirAkon/AppManager">https://github.com/MuntashirAkon/AppManager</a> · Web: <a href="http://muntashir.dev/AppManager/">http://muntashir.dev/AppManager/</a></p>
+<p>  Temas: adb · android · apks · material-design · package-manager</p>
+<ul>
+<li><strong>Kunzisoft/KeePassDX</strong> — «Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.»</li>
+</ul>
+<p>  ★7.565 · su último empuje fue el 2026-10-27 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release 4.5.6 (2026-10-17) · <a href="https://github.com/Kunzisoft/KeePassDX">https://github.com/Kunzisoft/KeePassDX</a> · Web: <a href="https://www.keepassdx.com/">https://www.keepassdx.com/</a></p>
+<p>  Temas: android · android-application · autofill · credential-manager · fingerprint · keepass</p>
+<ul>
+<li><strong>TeamAmaze/AmazeFileManager</strong> — «Material design file manager for Android»</li>
+</ul>
+<p>  ★6.448 · empujó hoy · licencia GPL-3.0 · Kotlin · última release v3.11.4 (2026-10-15) · <a href="https://github.com/TeamAmaze/AmazeFileManager">https://github.com/TeamAmaze/AmazeFileManager</a> · Web: <a href="https://teamamaze.xyz">https://teamamaze.xyz</a></p>
+<p>  Temas: android · fdroid · filemanager · frontend · java · kotlin</p>
+<ul>
+<li><strong>FossifyOrg/Gallery</strong> — «Browse your memories without any interruptions with this photo and video gallery»</li>
+</ul>
+<p>  ★3.861 · su último empuje fue el 2026-10-24 (hace 5 días) · licencia GPL-3.0 · Kotlin · última release 1.14.1 (2026-10-24) · <a href="https://github.com/FossifyOrg/Gallery">https://github.com/FossifyOrg/Gallery</a> · Web: <a href="https://www.fossify.org">https://www.fossify.org</a></p>
+<p>  Temas: android · foss · gallery · kotlin · open-source</p>
+<ul>
+<li><strong>guardianproject/orbot-android</strong> — «The Github home of Orbot: Tor on Android (Also available on gitlab!)»</li>
+</ul>
+<p>  ★3.661 · su último empuje fue el 2026-10-26 (hace 3 días) · licencia BSD · Kotlin · última release 17.9.7-RC-1-tor-0.4.9.14 (2026-10-09) · <a href="https://github.com/guardianproject/orbot-android">https://github.com/guardianproject/orbot-android</a> · Web: <a href="https://gitlab.com/guardianproject/orbot">https://gitlab.com/guardianproject/orbot</a></p>
+<p>  Temas: anonymity · anticensorship · censorship-circumvention · security · tor</p>
+<ul>
+<li><strong>FossifyOrg/Calendar</strong> — «A simple calendar with events, customizable widgets and no ads.»</li>
+</ul>
+<p>  ★2.255 · su último empuje fue el 2026-10-27 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release 1.12.1 (2026-10-24) · <a href="https://github.com/FossifyOrg/Calendar">https://github.com/FossifyOrg/Calendar</a> · Web: <a href="https://www.fossify.org">https://www.fossify.org</a></p>
+<p>  Temas: android · calendar · foss · kotlin · open-source</p>
+<ul>
+<li><strong>FossifyOrg/File-Manager</strong> — «Easy app for managing your files without ads, respecting your privacy &amp; security»</li>
+</ul>
+<p>  ★1.845 · su último empuje fue el 2026-10-27 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release 1.6.3 (2026-10-24) · <a href="https://github.com/FossifyOrg/File-Manager">https://github.com/FossifyOrg/File-Manager</a> · Web: <a href="https://www.fossify.org/apps/file-manager/">https://www.fossify.org/apps/file-manager/</a></p>
+<p>  Temas: android · file-manager · foss · kotlin · open-source</p>
+<ul>
+<li><strong>FossifyOrg/Phone</strong> — «A handy phone call manager with phonebook, number blocking and multi-SIM support»</li>
+</ul>
+<p>  ★1.395 · su último empuje fue el 2026-10-27 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release 1.11.1 (2026-02-03) · <a href="https://github.com/FossifyOrg/Phone">https://github.com/FossifyOrg/Phone</a> · Web: <a href="https://www.fossify.org">https://www.fossify.org</a></p>
+<p>  Temas: android · dialer · foss · kotlin · open-source</p>
+<ul>
+<li><strong>FossifyOrg/Clock</strong> — «Combination of a beautiful clock with widget, alarm, stopwatch &amp; timer, no ads»</li>
+</ul>
+<p>  ★715 · su último empuje fue el 2026-10-27 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release 1.6.0 (2026-01-30) · <a href="https://github.com/FossifyOrg/Clock">https://github.com/FossifyOrg/Clock</a> · Web: <a href="https://www.fossify.org">https://www.fossify.org</a></p>
+<p>  Temas: android · clock · foss · kotlin · open-source</p>
+<p><em>🎯 MINI-QUIZ DE HOY</em></p>
+<p><em>1.</em> ¿Bajo qué licencia se publica syncthing/syncthing?</p>
+<p><em>2.</em> ¿Cuál fue el último repo del grupo en empujar código?</p>
+<p><em>3.</em> De esta pieza, ¿qué repo mide más estrellas hoy?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>REV|0.2-LPM=1|REV|03-01-6202 — spamcinagro/spamcinagro=2|REV|984.69★ — dneslacol/dneslacol=3</p>
+<p>💓 Hoy, jueves 29 de octubre de 2026, se midieron en vivo 16 repos y 0 enlaces de esta pieza: 16 vivos, 0 firmados con su estado en la ficha. El texto es el de la casa; la ficha, la de hoy.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

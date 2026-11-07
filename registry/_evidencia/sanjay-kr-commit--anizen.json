@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-23T06:23:19Z",
+   "oid": "46b5311b160a28bd90e1b781b5ca082f40236167"
+  }
+ },
+ "diskUsage": 246329,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "sanjay-kr-commit/AniZen",
+ "pushedAt": "2026-08-23T10:14:16Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

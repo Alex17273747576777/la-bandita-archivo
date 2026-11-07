@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="La cerradura que cambió de dueño: firmas, atestación y el aviso del sistema">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>La cerradura que cambió de dueño: firmas, atestación y el aviso del sistema</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "La cerradura que cambió de dueño: firmas, atestación y el aviso del sistema", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "1 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>La cerradura que cambió de dueño: firmas, atestación y el aviso del sistema</h1>
+<p class="meta">Facebook · 1 de noviembre de 2026 · 40,442 caracteres</p>
+<p><em>La cerradura que cambió de dueño: firmas, atestación y el aviso del sistema</em></p>
+<p><em>La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 03 de Facebook</em></p>
+<p><em>🗺️ Mapa de esta guía</em></p>
+<pre>
+├── ⚡ En una página
+├── 🎬 Cuatro escenas de la misma cerradura
+├── 🧾 El censo de hoy: diez piezas de verificación
+├── 🧩 Qué firma un paquete y qué no
+├── 🔐 La atestación del aparato
+├── 🧯 El aviso que asusta y no siempre informa
+├── 🏗️ El aparato endurecido
+├── 🛠️ Comprobar una firma en seis pasos
+├── ⚖️ La ley, sin sermón
+├── ❓ Preguntas que me hacen
+├── 📊 Tabla, mitos y glosario
+└── 🔗 Enlaces y notas del corte
+</pre>
+<p>───────────────────</p>
+<p><em>⚡ En una página</em></p>
+<p>El teléfono toma decisiones sobre lo que instala y casi nadie sabe con qué criterio. Cuando dice «aplicación no instalada» está comparando firmas. Cuando muestra un aviso de que una app puede ser peligrosa está comparando listas. Y cuando una app de banca se niega a abrir, está mirando el estado del aparato, no la cara del dueño. Tres cerraduras distintas que la gente confunde en una sola: «el teléfono no me deja».</p>
+<p>Esta mañana medí diez piezas de verificación, cada una leída tres veces por tres caminos, y el mapa de hoy tiene una novedad y un hueco. La novedad es que el aparato endurecido se volvió cotidiano: hardened_malloc, con ★2.048, empujó hoy mismo; Vanadium, el navegador del mismo proyecto, ★2.270, publicó versión el 30 de octubre; la cámara, ★1.423, también. El hueco es que la herramienta que todo el mundo citaba para pasar la verificación de integridad ya no existe en su dirección conocida: devuelve un 404 y no hay ficha que sacar.</p>
+<p>Debajo de eso hay una familia de herramientas que sí se pueden leer y que sirven para lo que esta guía propone: Auditor, ★729, que lee el certificado de atestación del aparato; AppManager, ★9.398, que muestra con qué firma está instalado cada paquete; Shizuku, ★32.590, que presta el permiso de depuración sin root; degoog, ★2.505, que audita qué servicios de Google quedan en el teléfono; FreeDroidWarn, ★3.731, que convierte los avisos del sistema en algo legible.</p>
+<p>Y hay un dato que vale para la vida diaria: dos de las diez fichas no coinciden consigo mismas en el campo de licencia. Ytzero declara Unlicense en su ficha y AGPL-3.0 en su README; el navegador Vanadium aparece sin licencia identificable. Se publican las dos versiones de cada discrepancia, como se hace siempre, sin elegir la que queda mejor.</p>
+<p>La idea que hay que llevarse: una firma dice quién hizo el paquete, no si es bueno. La atestación dice si el aparato es el que dice ser, no si su dueño es de fiar. Y el aviso del sistema dice lo que la lista de turno sabe, que puede ser mucho o puede ser nada.</p>
+<p>───────────────────</p>
+<p><em>🎬 Cuatro escenas de la misma cerradura</em></p>
+<p><strong>La app del banco que no abre.</strong> Un señor instala una herramienta de administración, todo funciona, y a la semana la app del banco se niega a abrir con un mensaje seco. No lo bloqueó el banco por capricho: el teléfono dejó de responder como un teléfono sin modificaciones. La salida no es discutir con el banco; es decidir qué se quiere tener y aceptar el costo.</p>
+<p><strong>El paquete que se instaló dos veces.</strong> Una muchacha se baja la misma app de dos sitios y el segundo intento falla. Las dos descargas dicen la misma versión. Lo que cambió fue la firma: para Android son dos aplicaciones distintas. Ese detalle es la primera cosa que hay que mirar cuando algo «no instala».</p>
+<p><strong>El aviso que llegó tarde.</strong> Un cliente instala un paquete y el sistema avisa, tres días después, que la app puede ser dañina. El aviso no es magia: es una lista que el sistema consulta y que a veces llega tarde. Sirve como señal, no como veredicto.</p>
+<p><strong>El teléfono heredado.</strong> Alguien compra un aparato usado y quiere saber si está como salió de fábrica. Con el certificado de atestación y una herramienta que lo lea se puede comprobar parte de eso: si el cargador de arranque está abierto, si el sistema fue modificado, si las claves del aparato son las originales. Es una revisión, no un certificado de buena salud.</p>
+<p>───────────────────</p>
+<p><em>🧾 El censo de hoy: diez piezas de verificación</em></p>
+<p>Medidas entre las 13:25 y las 13:35 de Santo Domingo, tres lecturas por proyecto y con el orden rotado: buscador de la forja, página del repositorio, archivo crudo. Estrellas, licencia, lenguaje y último empujón son de esa hora; la versión es la del último release publicado.</p>
+<p><em>La atestación y la auditoría</em></p>
+<ul>
+<li><strong>Auditor</strong> — lee el certificado con el que el aparato demuestra qué sistema lleva y si sus claves son las originales ★729 · licencia MIT · Java · empujó el 30-oct (hace 2 días) · release 92 (30-may) · <a href="https://github.com/GrapheneOS/Auditor">https://github.com/GrapheneOS/Auditor</a></li>
+<li><strong>AppManager</strong> — muestra la firma de cada paquete instalado, además de permisos, servicios y rastreadores ★9.398 · licencia NOASSERTION en la ficha y GPL-3.0 en su README · Java · empujó el 30-oct (hace 2 días) · release v4.1.1 (04-sep) · <a href="https://github.com/MuntashirAkon/AppManager">https://github.com/MuntashirAkon/AppManager</a></li>
+<li><strong>Shizuku</strong> — presta el permiso de depuración a las apps que lo piden, sin tocar el arranque ★32.590 · licencia Apache-2.0 · Kotlin · empujó el 18-jun-2025 (hace 501 días) · release v13.6.0 (25-may-2025) · <a href="https://github.com/RikkaApps/Shizuku">https://github.com/RikkaApps/Shizuku</a></li>
+</ul>
+<p><em>El aparato endurecido</em></p>
+<ul>
+<li><strong>Vanadium</strong> — el navegador del proyecto que endurece Android, con sus propios parches ★2.270 · sin licencia identificada en la ficha · Python · empujó el 30-oct (hace 2 días) · release 156.0.8078.79.0 (30-oct) · <a href="https://github.com/GrapheneOS/Vanadium">https://github.com/GrapheneOS/Vanadium</a></li>
+<li><strong>Camera</strong> — la cámara del mismo proyecto, con el procesamiento dentro del teléfono ★1.423 · licencia MIT · Kotlin · empujó el 30-oct (hace 2 días) · release 93 (01-ago) · <a href="https://github.com/GrapheneOS/Camera">https://github.com/GrapheneOS/Camera</a></li>
+<li><strong>hardened_malloc</strong> — el asignador de memoria endurecido, la pieza que casi nadie ve y más cambia ★2.048 · licencia MIT · C · empujó hoy · release 14 (22-feb) · <a href="https://github.com/GrapheneOS/hardened_malloc">https://github.com/GrapheneOS/hardened_malloc</a></li>
+</ul>
+<p><em>Los avisos y el ruido</em></p>
+<ul>
+<li><strong>FreeDroidWarn</strong> — traduce los avisos del sistema sobre apps «poco fiables» y los pone en contexto ★3.731 · licencia Apache-2.0 · Java · empujó el 28-oct (hace 4 días) · release V1.14 (09-sep) · <a href="https://github.com/woheller69/FreeDroidWarn">https://github.com/woheller69/FreeDroidWarn</a></li>
+<li><strong>degoog</strong> — audita qué servicios de Google quedan activos en el teléfono y ayuda a quitarlos ★2.505 · licencia AGPL-3.0 · TypeScript · empujó el 29-oct (hace 3 días) · release 1.1.1 (25-oct) · <a href="https://github.com/degoog-org/degoog">https://github.com/degoog-org/degoog</a></li>
+<li><strong>ytzero</strong> — cliente de video que evita el rastreo de la plataforma grande ★671 · licencia Unlicense en la ficha y AGPL-3.0 en su README · TypeScript · empujó el 28-sep (hace 34 días) · release 2026.09.9 (28-sep) · <a href="https://github.com/Pelski/ytzero">https://github.com/Pelski/ytzero</a></li>
+<li><strong>Gearslip</strong> — pieza joven para actualizar el sistema sin la tienda del fabricante ★232 · licencia AGPL-3.0 · Kotlin · empujó el 27-oct (hace 5 días) · release v0.3.12-alpha (25-oct) · <a href="https://github.com/twinksoftware/Gearslip">https://github.com/twinksoftware/Gearslip</a></li>
+</ul>
+<p><em>Lo que el censo dice en tres líneas.</em> Seis de las diez empujaron en los últimos cinco días, y eso en un grupo de herramientas de verificación es la señal que importa: son las que se rompen cuando el sistema cambia. Dos fichas no coinciden consigo mismas en licencia —ytzero y Vanadium— y se publican las dos versiones cuando existen. Y una herramienta que se citaba en todas las listas para pasar la verificación de integridad ya no está en su dirección: devuelve 404, no tiene ficha y no se rellena el hueco.</p>
+<p>───────────────────</p>
+<p><em>🧩 Qué firma un paquete y qué no</em></p>
+<p>Un APK lleva dentro un certificado. Ese certificado no dice «esta app es buena»: dice «esto lo firmó alguien que tiene esta llave». Android lo usa para tres cosas y solo tres: actualizar encima sin pedir permiso de más, compartir datos entre apps del mismo firmante, y decidir si dos paquetes con el mismo nombre son el mismo programa.</p>
+<p>De ahí salen casi todos los mensajes que la gente ve y no entiende. «Aplicación no instalada» casi siempre significa que la firma no coincide con la que ya está instalada. «Conflicto de paquete» es lo mismo con otras palabras. Y «versión no compatible» a veces no tiene nada que ver con la firma: es que el paquete es de otra arquitectura o pide un Android más nuevo.</p>
+<p>Lo que una firma no dice es quién está detrás. Cualquiera puede generar una llave hoy y firmar un paquete mañana. Por eso hay un segundo nivel, el que casi nadie mira: el certificado de la tienda. Cuando una app viene de una tienda que compila el código, la firma es de la tienda aunque el autor sea otro, y eso explica por qué no se puede actualizar con el APK del autor.</p>
+<p>Y hay un tercer nivel que se confunde con los otros dos: el estado del aparato. Que un teléfono esté modificado no cambia la firma de nada; cambia lo que algunas apps están dispuestas a hacer. La app del banco no mira quién firmó la aplicación que se instaló: mira el aparato.</p>
+<p>La consecuencia práctica es sencilla. Antes de instalar, la pregunta útil es de dónde viene el paquete. Después de instalar, la pregunta es con qué firma quedó. Y cuando algo se niega a funcionar, la pregunta es cuál de las tres cerraduras se cerró.</p>
+<p>───────────────────</p>
+<p><em>🔐 La atestación del aparato</em></p>
+<p>La atestación es la forma que tiene un teléfono de demostrar, sin que uno se lo pida, qué sistema lleva y si sus claves son las que trajo de fábrica. No es una app: es una capacidad del hardware que se activa cuando alguien pregunta.</p>
+<p>Auditor, con ★729 y licencia MIT, es la herramienta más directa para leerla en los aparatos que la soportan: pide el certificado, lo muestra y explica cada campo. Su último release es el 92 del 30 de mayo, aunque el repositorio empujó el 30 de octubre; se publican las dos fechas.</p>
+<p>Para qué sirve en la práctica: para saber si un aparato usado está como salió de fábrica, para entender por qué una app de banca se niega a abrir, y para comprobar si una actualización de sistema se aplicó de verdad. Para lo que no sirve: para demostrar que el aparato está libre de programas maliciosos. Un teléfono con el sistema original puede tener tres apps espía y su atestación saldrá perfecta.</p>
+<p>Ese malentendido es el que más daño hace. La atestación responde a una pregunta concreta —¿este aparato ejecuta el sistema que dice ejecutar?— y la gente la lee como un certificado de salud general. No lo es, y saberlo evita dos errores: confiarse por un resultado limpio y alarmarse por uno sucio.</p>
+<p>───────────────────</p>
+<p><em>🧯 El aviso que asusta y no siempre informa</em></p>
+<p>Cuando el sistema muestra el aviso de que una aplicación «puede ser dañina», no está haciendo un análisis. Está consultando una lista. Esa lista la mantiene quien opera la tienda o el fabricante, se actualiza cuando se actualiza, y contiene lo que alguien decidió poner ahí.</p>
+<p>De ahí salen dos verdades incómodas. La primera: hay avisos que llegan tarde, porque la lista se actualiza después de que el paquete circule. La segunda: hay avisos que sobran, porque castigan a una app legítima por su origen y no por lo que hace. Las dos cosas pasan todos los meses y las dos se resuelven igual: mirando el paquete, no el aviso.</p>
+<p>FreeDroidWarn, con ★3.731 y licencia Apache-2.0, existe justamente para eso: pone en contexto los avisos que aparecen al instalar software libre desde fuera de la tienda, explica por qué salen y deja al usuario decidir con información en vez de con susto. Su versión V1.14 es del 9 de septiembre y empujó el 28 de octubre.</p>
+<p>La costumbre que vale es esta: cuando aparezca un aviso, no cerrar por reflejo ni ignorarlo por reflejo. Anotar de dónde vino el paquete, con qué firma está, y si el aviso habla de comportamiento o solo de procedencia. Las tres cosas se comprueban con AppManager en dos minutos.</p>
+<p>Y una regla que no falla: el aviso más peligroso no es el que aparece, es el que no aparece. Un paquete firmado por una llave desconocida, instalado desde una carpeta de descargas, sin ningún aviso, es más probable que sea un problema que el que el sistema marca en amarillo.</p>
+<p>───────────────────</p>
+<p><em>🏗️ El aparato endurecido</em></p>
+<p>Hay un proyecto que lleva años construyendo un Android distinto, con el foco en la seguridad del aparato y no en las funciones: el de GrapheneOS. De ese proyecto salen cuatro piezas que aparecen en este censo y que conviene entender por separado.</p>
+<p>hardened_malloc, con ★2.048, es la más invisible y la más importante: un asignador de memoria que hace más difícil aprovechar un fallo de un programa. Empujó hoy mismo y su última versión publicada es la 14, de febrero. Que una pieza así exista y se mantenga dice más de un proyecto que cualquier campaña de imagen.</p>
+<p>Vanadium, con ★2.270, es el navegador basado en Chromium con los parches del proyecto. Su release 156.0.8078.79.0 es del 30 de octubre, lo que muestra el ritmo: sigue a las versiones del motor casi al día. Su ficha aparece sin licencia identificable, y eso se publica tal cual, sin adivinar.</p>
+<p>Camera, con ★1.423, es la cámara con el procesamiento dentro del teléfono y sin servicios externos. Release 93 del 1 de agosto, empujón del 30 de octubre.</p>
+<p>Auditor, ★729, cierra el grupo con la atestación, como ya se dijo. Y fuera de ese proyecto hay dos piezas que completan el cuadro de la verificación sin pertenecer a él: degoog, ★2.505, que audita qué queda de los servicios de Google y ayuda a retirarlos paso a paso; y Gearslip, ★232, un proyecto joven y en alfa —v0.3.12-alpha del 25 de octubre— que apunta a actualizar el sistema sin la tienda del fabricante.</p>
+<p>Lo que este grupo enseña, más allá de sus números, es una forma de trabajar: piezas pequeñas, cada una con una responsabilidad, publicadas con fecha y con su código a la vista. No es un paquete único que promete seguridad: es un conjunto de cerraduras que se pueden revisar una por una.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Comprobar una firma en seis pasos</em></p>
+<p><strong>Paso uno: saber qué versión está instalada.</strong> Antes de tocar nada, anotar el nombre del paquete, la versión y la fecha de instalación. Sin ese punto de partida, cualquier cambio es a ciegas.</p>
+<p><strong>Paso dos: mirar la firma con una herramienta que la muestre.</strong> AppManager la enseña en la ficha de cada app instalada. Si no se tiene, cualquier visor de paquetes sirve, siempre que muestre la huella del certificado y no solo el nombre bonito del desarrollador.</p>
+<p><strong>Paso tres: comparar con la firma del paquete nuevo.</strong> El APK que se va a instalar trae la suya. Si las huellas coinciden, es una actualización; si no, es otra aplicación con el mismo nombre.</p>
+<p><strong>Paso cuatro: decidir antes de instalar.</strong> Con firmas iguales, se actualiza y se conservan los datos. Con firmas distintas hay dos caminos: desinstalar la vieja aceptando perder lo guardado, o no instalar la nueva. Elegir a sabiendas es la mitad del trabajo.</p>
+<p><strong>Paso cinco: dejar constancia.</strong> Una nota con la huella de la versión que funciona sirve dentro de seis meses, cuando el paquete ya no esté y haya que decidir si el que aparece es el mismo.</p>
+<p><strong>Paso seis: repetir cuando cambie algo.</strong> Cada actualización de sistema puede cambiar el comportamiento de estas herramientas. Lo que hoy muestra una firma, mañana puede pedir otro permiso. La comprobación no es un trámite de una vez: es una costumbre.</p>
+<p>───────────────────</p>
+<p><em>⚖️ La ley, sin sermón</em></p>
+<p>Las licencias de este grupo son cortas de contar y largas de entender. MIT en Auditor, Camera y hardened_malloc: se puede usar, copiar y modificar, con una cláusula de garantía que dice que nadie responde por nada. Apache-2.0 en Shizuku, FreeDroidWarn: lo mismo con una cláusula de patentes. AGPL-3.0 en degoog y Gearslip: si se modifica y se ofrece como servicio en red, hay que publicar el código. Y dos fichas sin licencia identificable —Vanadium— o con dos versiones que se contradicen —ytzero, Unlicense en la ficha y AGPL-3.0 en el README—, que se publican tal cual.</p>
+<p>Nada de eso protege de un mal uso. Una firma se puede generar para cualquier cosa, y una herramienta de auditoría sirve igual para revisar un aparato propio que para husmear en uno ajeno sin permiso. La línea no está en el programa: está en de quién es el aparato y quién dio el visto bueno.</p>
+<p>Hay además un asunto de convivencia que conviene decir sin dramatismo: modificar un teléfono puede dejarlo fuera de garantía y fuera de algunas apps. Eso no es una prohibición moral; es una consecuencia que se acepta o no. Lo que no se puede es exigirle al banco que ignore el estado del aparato y, a la vez, tener el aparato abierto.</p>
+<p>───────────────────</p>
+<p><em>🗣️ Los mensajes del sistema, traducidos</em></p>
+<p>La mitad de las consultas que llegan son el mismo mensaje mal entendido. Esta es la traducción de los que más salen, dicha como se diría en la puerta de una casa.</p>
+<p><strong>«Aplicación no instalada».</strong> Casi siempre es la firma: el paquete nuevo no coincide con el que ya está. Puede ser también que la app esté instalada para otro usuario del teléfono, o que el paquete esté incompleto porque la descarga se cortó. El orden de comprobación es ese: firma, usuario, tamaño.</p>
+<p><strong>«Paquete con el mismo nombre ya existe».</strong> El sistema encontró otra app con el mismo identificador. Si se quiere instalar de todos modos, hay que quitar la anterior y aceptar que se van sus datos.</p>
+<p><strong>«La aplicación no es compatible con tu teléfono».</strong> Aquí no hay firma que valga: el paquete pide un Android más nuevo, otra arquitectura o una pantalla que el aparato no declara. Las tres cosas se ven en la ficha del archivo antes de instalar.</p>
+<p><strong>«Bloqueado por Play Protect».</strong> Es un aviso de lista, no un análisis. Se puede mirar por qué y decidir. Un paquete libre descargado del repositorio del autor suele salir en esa lista por su origen, no por lo que hace.</p>
+<p><strong>«Este paquete parece dañino».</strong> Igual que el anterior, con más palabras. Y con la misma recomendación: mirar la firma y los permisos antes de decidir.</p>
+<p><strong>«Instalación bloqueada por el administrador».</strong> Hay un perfil de trabajo, una app de control parental o una política del aparato que prohíbe instalar. No es un fallo: es un permiso que alguien retiró, y quien lo retiró tiene que devolverlo.</p>
+<p><strong>«No hay espacio suficiente».</strong> Suena a poco espacio y a veces es un paquete que pide el doble de su tamaño para instalarse. Con un paquete dividido, además, hay que contar las partes.</p>
+<p><strong>«Error de análisis».</strong> El archivo está corrupto o no es un APK. Pasa mucho con descargas interrumpidas y con archivos que en realidad son páginas de error guardadas con extensión cambiada.</p>
+<p><strong>«Firma no válida».</strong> El paquete fue modificado después de firmarse, o se firmó con un método que este Android no acepta. Un paquete tocado a mano sin volver a firmarlo da exactamente este mensaje.</p>
+<p><strong>«Origen desconocido bloqueado».</strong> El sistema no permite instalar desde la app que está intentando hacerlo. Se concede el permiso a esa app concreta y solo a esa, que es el consejo que vale para todo lo demás.</p>
+<p>Traducir el mensaje no resuelve el problema, y ahorra la media hora de buscar en foros una respuesta que habla de otra cosa. Casi todos estos textos describen una comprobación concreta, y todas las comprobaciones de esta lista se pueden hacer con las herramientas del censo.</p>
+<p>───────────────────</p>
+<p><em>🕰️ Cronología de las cerraduras</em></p>
+<p>La historia de estas tres cerraduras explica por qué hoy hay tantas piezas pequeñas en vez de una grande.</p>
+<p><strong>2017 y 2018: la firma se vuelve esquema.</strong> Android pasa a exigir firmas con esquema moderno para las apps nuevas, y eso rompe la compatibilidad con paquetes viejos firmados a la antigua. Muchos «no instala» de esa época vienen de ahí.</p>
+<p><strong>2019 y 2020: llega la atestación al uso masivo.</strong> Los aparatos empiezan a traer claves de hardware capaces de demostrar qué sistema ejecutan. Al principio lo usa el mundo del pago; después lo adoptan las apps que quieren negarse a correr en aparatos modificados.</p>
+<p><strong>2021 y 2022: los avisos se generalizan.</strong> Los sistemas empiezan a mostrar avisos propios al instalar paquetes de fuera de la tienda, con listas que se consultan en línea. La consecuencia social es que instalar software libre pasa a parecer una actividad sospechosa.</p>
+<p><strong>2023 y 2024: el endurecimiento se hace cotidiano.</strong> Asignadores de memoria más estrictos, navegadores con parches propios, cámaras sin servicios externos. Lo que era de laboratorio pasa a estar en el teléfono de quien lo quiera instalar.</p>
+<p><strong>2025: se archivan proyectos que parecían eternos.</strong> Syncthing oficial en diciembre de 2024, LSPatch en diciembre de 2023, Kotatsu en noviembre de 2025. La lección se repite: lo que no se empuja, se acaba.</p>
+<p><strong>Hoy, 1 de noviembre de 2026: seis empujones en cinco días.</strong> hardened_malloc empujó esta mañana; Vanadium, Camera y Auditor el 30 de octubre; degoog el 29; FreeDroidWarn el 28. Las cerraduras se siguen afinando, y ese es el dato que deja tranquilo a quien las usa.</p>
+<p>Lo que la cronología no dice es hacia dónde va: no hay manera de saber si mañana una verificación nueva dejará fuera a la mitad de las herramientas de esta lista. Lo que sí se puede hacer es mirar las fechas cada mes, que es exactamente lo que esta guía hace.</p>
+<p>───────────────────</p>
+<p><em>🏠 El teléfono de la casa: una auditoría de treinta minutos</em></p>
+<p>No hace falta ser técnico para saber qué tiene un teléfono. Hace falta media hora y un orden.</p>
+<p><strong>Primer cuarto de hora: la lista.</strong> Abrir los ajustes de aplicaciones y ordenar por fecha de instalación. Casi todo lo que aparece en los últimos lugares se instaló en una emergencia y nadie recuerda por qué. Anotar las que no se usan hace más de tres meses: son candidatas a salir, y ninguna de ellas explica el funcionamiento del aparato.</p>
+<p><strong>Segundo cuarto de hora: el origen.</strong> De las que quedan, separar las que vinieron de la tienda del sistema de las que vinieron de otro sitio. Las primeras se actualizan solas y no dan problemas. Las segundas son las que hay que mirar: ¿de qué repositorio salieron? ¿con qué firma están? ¿tienen versión nueva?</p>
+<p>Ese es todo el ejercicio. Al terminarlo, la persona sabe tres cosas que antes no sabía: cuántas apps tiene, de dónde vinieron y cuáles están sin actualizar desde hace meses. Con eso puede decidir, sin ayuda de nadie, si el aparato está ordenado o si es un cajón desastre.</p>
+<p>Lo que este ejercicio no hace es detectar un programa malicioso bien hecho. Para eso hace falta análisis forense, y el análisis forense no se hace en media hora ni con una app. Lo que sí hace es quitar de en medio el 90% de los problemas reales, que casi siempre son apps viejas, permisos de más y orígenes olvidados.</p>
+<p>Y hay un resultado secundario que vale mucho: después de hacerlo una vez, la persona empieza a instalar de otra manera. Ya no acepta el primer enlace que llega, porque sabe que dentro de tres meses tendrá que acordarse de dónde salió.</p>
+<p>───────────────────</p>
+<p><em>🧨 El permiso que se presta sin querer</em></p>
+<p>Hay un grupo de permisos que no se parece a los demás y que casi nunca se lee: los de accesibilidad. Sirven para que una app lea la pantalla, mueva el cursor y actúe por el usuario. Los usan los lectores de pantalla, los teclados alternativos y los automatizadores; también los usan las apps que roban contraseñas, porque con ese permiso pueden ver todo lo que aparece en pantalla.</p>
+<p>El sistema avisa cuando se activa uno, y ese aviso se ignora más que ningún otro. Es comprensible: llega en medio de la configuración, con letra pequeña y una advertencia genérica que se parece a todas las demás.</p>
+<p>La costumbre que sirve es simple: cada vez que se activa un permiso de accesibilidad, anotar qué app lo pidió y para qué. Si a los tres meses no se recuerda, se desactiva. El aparato no se rompe por desactivarlo; la app que lo necesitaba dejará de hacer esa función, y eso es todo.</p>
+<p>Lo mismo vale para el permiso de administrador del dispositivo, que permite bloquear, borrar y cambiar ajustes sin pasar por el dueño. Son contadas las apps que lo necesitan de verdad —algunas de correo corporativo, algunas de control parental— y muchas lo piden por comodidad. Es el permiso más potente del teléfono después de root, y se concede con la misma facilidad.</p>
+<p>Los dos permisos tienen algo en común: no se pueden revisar mirando la ficha de la app. Hay que ir a un apartado específico de los ajustes, que cambia de nombre según el fabricante. Encontrarlo una vez y revisarlo dos veces al año es toda la defensa disponible, y es más de la que tiene la mayoría.</p>
+<p>───────────────────</p>
+<p><em>🛡️ Qué se puede y qué no se puede comprobar sin root</em></p>
+<p>Cuando la conversación llega a la verificación, aparece siempre la misma pregunta: ¿hace falta root? La respuesta corta es no, y la larga se divide en tres columnas.</p>
+<p><strong>Sin nada instalado</strong> se puede comprobar el origen de un paquete, la fecha de la descarga y el tamaño del archivo. También se puede mirar qué permisos declara una app antes de instalarla, porque el instalador los muestra. Con eso se descartan los casos evidentes y no se detecta nada sutil.</p>
+<p><strong>Con el permiso de depuración</strong> —que es lo que presta Shizuku— se puede ver la lista completa de paquetes con sus firmas, congelar apps del sistema y revisar componentes. Es el mejor punto de equilibrio que existe hoy: mucho acceso, ningún riesgo de arranque y la posibilidad de revocarlo apagando un interruptor.</p>
+<p><strong>Con root</strong> se puede ver todo: el sistema de archivos completo, los registros del núcleo, la memoria de otros procesos. También se puede romper todo con una línea mal escrita, y algunas apps dejan de abrir.</p>
+<p>La columna del medio es la que casi nadie aprovecha y la que resuelve más. Shizuku lleva más de un año sin empujón y sigue funcionando porque el permiso que usa es del sistema; AppManager empujó el 30 de octubre y muestra con eso lo que antes pedía root. Entre las dos cubren la auditoría de una casa sin tocar el arranque.</p>
+<p>La regla que se desprende: primero mira qué se puede saber sin modificar nada, después qué se puede saber prestando un permiso temporal, y solo al final considera root, con una razón concreta que valga el riesgo.</p>
+<p>───────────────────</p>
+<p><em>🧭 Cómo se elige entre tanta herramienta</em></p>
+<p>Diez nombres en una guía y la tentación de instalarlo todo. No hace falta: cada una resuelve una pregunta distinta y la mayoría de la gente necesita dos.</p>
+<p>Si la pregunta es «qué tengo instalado y con qué firma está», la respuesta es AppManager, y el permiso de depuración lo completa. Dos piezas, una tarde, y la casa queda auditada.</p>
+<p>Si la pregunta es «este teléfono es el que dice ser», la respuesta es Auditor, y solo tiene sentido en aparatos que soportan atestación. Si el aparato no la soporta, la herramienta no tiene nada que leer y la pregunta se queda sin respuesta.</p>
+<p>Si la pregunta es «por qué el sistema me avisa de todo lo que bajo», la respuesta es FreeDroidWarn, que no quita avisos ni los justifica: los pone en contexto.</p>
+<p>Si la pregunta es «qué hace Google en mi teléfono», degoog lo enseña sin prometer que se pueda quitar todo.</p>
+<p>Si la pregunta es «quiero usar el teléfono sin que me sigan», el navegador y la cámara endurecidos hacen más que cualquier lista de bloqueo. Y si la pregunta es «quiero actualizar sin la tienda», Gearslip está en alfa y se prueba con respaldo.</p>
+<p>Lo que ninguna de las diez hace es decidir por uno. Cada una entrega un dato y el juicio queda del lado de la persona, que es exactamente donde tiene que estar.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me hacen</em></p>
+<p><strong>¿Por qué la app del banco no abre si mi teléfono funciona perfecto?</strong> Porque el banco no evalúa el funcionamiento, evalúa el estado: si el arranque está abierto, si el sistema está modificado, si el aparato responde como uno sin cambios. Se puede discutir si es justo; no se puede evitar mirando la app.</p>
+<p><strong>¿Qué es exactamente la atestación?</strong> Una prueba que el aparato genera con claves de hardware sobre el sistema que ejecuta. Sirve para saber si el teléfono es el que dice ser. No dice nada sobre las apps que tiene instaladas.</p>
+<p><strong>Vi un aviso de app dañina en algo que bajé del repositorio del autor, ¿me asusto?</strong> No por reflejo. Los avisos salen de listas y las listas castigan a veces el origen, no el comportamiento. Mira la firma, mira los permisos, y decide con eso.</p>
+<p><strong>¿Cambiar la firma de un APK sirve para algo?</strong> Sirve para instalarlo cuando la firma original estorba, y rompe la actualización: el paquete queda huérfano y no recibe nada del autor. Es un recurso de taller, no una costumbre.</p>
+<p><strong>¿Puedo saber si mi teléfono usado está como salió de fábrica?</strong> En parte, sí: la atestación lo dice en los aparatos que la soportan, y Auditor lo lee. Lo que no dice es si alguien instaló algo después. Para eso hace falta mirar la lista de paquetes con AppManager.</p>
+<p><strong>¿Shizuku sirve para verificar firmas?</strong> No directamente: sirve para dar a otras apps el permiso de depuración, y con eso algunas herramientas de auditoría acceden a más información sin root. Es una llave que se presta, no una herramienta de análisis.</p>
+<p><strong>¿Qué pasa si desinstalo la app de la que dudo?</strong> Se van los datos que tuviera. Si la duda es de firma y no de comportamiento, a veces basta con congelarla —AppManager puede, con permisos— y ver si algo se rompe. Es más reversible que borrar.</p>
+<p><strong>¿degoog quita los servicios de Google?</strong> Ayuda a auditarlos y a retirarlos paso a paso. Quitarlos del todo puede dejar sin funcionar apps que dependen de ellos, así que el orden importa: primero mirar qué depende de qué, después retirar.</p>
+<p><strong>¿Gearslip reemplaza a la tienda del fabricante?</strong> Es un proyecto joven y en alfa, con versión v0.3.12-alpha del 25 de octubre. Sirve para actualizar el sistema sin la tienda, y como todo lo que está en alfa, se prueba con respaldo y sin prisa.</p>
+<p><strong>¿Por qué hay herramientas que llevan un año sin empujón y siguen recomendándose?</strong> Porque el permiso que usan no cambia. Shizuku empujó por última vez en junio de 2025 y sigue funcionando; lo que hace depende del sistema, no de sus novedades. Distinto es un navegador, que envejece cada semana.</p>
+<p><strong>¿Una firma fuerte garantiza que la app es buena?</strong> No. Garantiza que es la misma app que firmó esa llave. Lo que hace la app se juzga leyendo lo que pide y lo que trae, no la huella del certificado.</p>
+<p><strong>¿Vale la pena todo esto para un teléfono de uso normal?</strong> Vale la pena saber lo mínimo: de dónde vienen los paquetes y con qué firma están. Lo demás —atestación, endurecimiento, auditoría profunda— es para quien administra, investiga o compró usado y quiere saber qué tiene en la mano.</p>
+<p>───────────────────</p>
+<p><em>💬 Lo que dice la gente que ya pasó por aquí</em></p>
+<p>Las frases se repiten tanto que ya son parte del paisaje, y cada una tiene su traducción.</p>
+<p>«Me salió que la app es peligrosa y la borré por miedo». Casi siempre era un aviso de lista por origen. La app se podía usar; lo que no se podía era saberlo sin mirar.</p>
+<p>«Instalé la nueva y perdí las conversaciones». Firmas distintas, datos perdidos. El respaldo se hace antes, no después.</p>
+<p>«No sé qué tengo instalado». La respuesta es la auditoría de media hora, y no hay atajo que valga.</p>
+<p>«Mi teléfono es viejo, no aguanta estas cosas». Las herramientas de esta lista pesan poco; lo que pesa es tener doscientas apps. Lo viejo aguanta más de lo que se cree cuando está ordenado.</p>
+<p>«¿Y si me equivoco?» Se equivoca uno, se desinstala y se vuelve. Lo único que no se recupera es lo que no se respaldó.</p>
+<p>───────────────────</p>
+<p><em>🔍 El caso del paquete que llega sin nombre</em></p>
+<p>Hay una situación que se repite cada semana y que resume todo lo anterior: llega un archivo «app.apk», sin nombre, sin captura, con un mensaje de tres palabras y un emoji de fuego. El archivo existe, pesa cuarenta megas y la persona que lo recibió quiere saber si puede instalarlo.</p>
+<p>La primera comprobación no necesita el archivo: necesita la conversación. Quién lo mandó, si la persona lo probó, si puede decir de dónde lo sacó. Si la respuesta es «me lo pasaron», la cadena se acaba ahí y la respuesta honesta es no.</p>
+<p>La segunda comprobación tampoco necesita instalar nada: se mira el contenido del paquete sin ejecutarlo. Un visor de paquetes muestra el nombre real, la versión, el identificador y los permisos declarados. Con eso ya se sabe si es lo que dice ser y si pide lo que debería.</p>
+<p>La tercera es la firma. Si el paquete declara ser la versión nueva de una app conocida, su firma tiene que coincidir con la de la app instalada. Cuando no coincide, hay dos posibilidades y las dos son malas: alguien reparte una copia modificada, o el autor cambió de llave. La segunda existe y es rara; la primera es lo habitual.</p>
+<p>La cuarta es la que casi nadie hace y la que más información da: buscar el mismo paquete en su origen. Si la app es libre, su repositorio publica la versión con un número y una fecha; si esa versión no coincide con el archivo, el archivo no es esa versión. Dos minutos de búsqueda y se acabó la duda.</p>
+<p>Con esas cuatro comprobaciones —la conversación, el contenido, la firma y el origen— se resuelve el caso entero sin instalar el archivo. Y si aun así se decide probarlo, se hace en un aparato que no tenga las cuentas de la casa, sabiendo que eso es una precaución, no una garantía.</p>
+<p>Lo que no sirve, y conviene decirlo porque se hace mucho: pasarlo por un servicio de análisis en línea y quedarse tranquilo con el resultado. Esos servicios comparan con lo que ya conocen; un paquete nuevo, hecho para una sola persona, no aparece en ninguna lista el primer día.</p>
+<p>───────────────────</p>
+<p><em>📌 Lo que hay que apuntar y dónde</em></p>
+<p>Una libreta, un archivo de texto o una nota en el teléfono: el formato da igual. Lo que importa es que exista, porque la memoria de estas cosas dura tres meses.</p>
+<p>Cuatro datos por app que se instala fuera de la tienda: de dónde salió, con qué fecha, con qué firma y qué se esperaba de ella. Con esos cuatro, dentro de un año se puede reconstruir la decisión y, si algo falla, se sabe qué cambiar.</p>
+<p>Un quinto dato, para las que se van a usar todos los días: dónde está guardado el APK que funciona. Una carpeta con cinco archivos y el número de versión en el nombre resuelve el día que el enlace desaparece, y ese día llega siempre.</p>
+<p>La nota sirve además para lo que nadie espera: contar la historia a otra persona. Cuando alguien hereda el teléfono, o cuando hay que pedir ayuda, tener el registro ahorra media hora de explicaciones y evita que el que ayuda tome decisiones a ciegas.</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla, mitos y glosario</em></p>
+<p><em>Las diez piezas, en una línea</em></p>
+<table>
+<tr><th>Pieza</th><th>Qué verifica</th><th>Licencia</th><th>Empujón</th><th>Estrellas</th></tr>
+<tr><td>Shizuku</td><td>presta el permiso de depuración</td><td>Apache-2.0</td><td>18-jun-2025</td><td>★32.590</td></tr>
+<tr><td>AppManager</td><td>firma, permisos y componentes</td><td>NOASSERTION (README GPL-3.0)</td><td>30-oct</td><td>★9.398</td></tr>
+<tr><td>FreeDroidWarn</td><td>pone en contexto los avisos</td><td>Apache-2.0</td><td>28-oct</td><td>★3.731</td></tr>
+<tr><td>degoog</td><td>audita los servicios de Google</td><td>AGPL-3.0</td><td>29-oct</td><td>★2.505</td></tr>
+<tr><td>Vanadium</td><td>navegador endurecido</td><td>sin licencia identificada</td><td>30-oct</td><td>★2.270</td></tr>
+<tr><td>hardened_malloc</td><td>asignador de memoria endurecido</td><td>MIT</td><td>hoy</td><td>★2.048</td></tr>
+<tr><td>Camera</td><td>cámara sin servicios externos</td><td>MIT</td><td>30-oct</td><td>★1.423</td></tr>
+<tr><td>Auditor</td><td>atestación del aparato</td><td>MIT</td><td>30-oct</td><td>★729</td></tr>
+<tr><td>ytzero</td><td>cliente de video sin rastreo</td><td>Unlicense (ficha) y AGPL-3.0 (README)</td><td>28-sep</td><td>★671</td></tr>
+<tr><td>Gearslip</td><td>actualizar sin la tienda</td><td>AGPL-3.0</td><td>27-oct</td><td>★232</td></tr>
+</table>
+<p><em>Cinco mitos de la cerradura</em></p>
+<p><strong>Mito uno: «candado verde, app segura».</strong> El candado habla de la conexión. La firma habla del paquete. La atestación habla del aparato. Ninguna de las tres habla de la intención de nadie.</p>
+<p><strong>Mito dos: «si es del autor, no hace falta comprobar nada».</strong> Ayuda, y no sustituye la comprobación. Las cuentas se roban y las llaves se filtran; la huella del certificado es lo único que se puede comparar sin confiar.</p>
+<p><strong>Mito tres: «el aviso del sistema es una condena».</strong> Es una lista consultada en un momento. Puede llegar tarde y puede equivocarse de motivo.</p>
+<p><strong>Mito cuatro: «la atestación demuestra que el teléfono está limpio».</strong> Demuestra que el sistema es el que dice ser. Un aparato impecable puede tener tres apps que no debería.</p>
+<p><strong>Mito cinco: «rootear es la única forma de auditar».</strong> Shizuku y el permiso de depuración dan buena parte de lo que hace falta, y se revocan apagando un interruptor.</p>
+<p><em>Glosario de bolsillo</em></p>
+<p><strong>Firma</strong> — certificado que acompaña al paquete y lo identifica ante el sistema.</p>
+<p><strong>Huella</strong> — resumen único del certificado. Es lo que se compara, no el nombre del autor.</p>
+<p><strong>Atestación</strong> — prueba criptográfica del estado del aparato, emitida con claves de hardware.</p>
+<p><strong>Arranque abierto</strong> — estado en el que el sistema permite cargar software no firmado por el fabricante.</p>
+<p><strong>Permiso de depuración</strong> — canal de administración que Android ofrece a los desarrolladores.</p>
+<p><strong>Endurecimiento</strong> — conjunto de defensas del sistema, como un asignador de memoria más estricto.</p>
+<p><strong>Alfa</strong> — versión temprana, con cambios frecuentes y fallos esperables.</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces y notas del corte</em></p>
+<p>Cada dirección se abrió hoy. Ninguna sale de una lista guardada.</p>
+<p><em>Atestación y auditoría</em></p>
+<ul>
+<li>Auditor: <a href="https://github.com/GrapheneOS/Auditor">https://github.com/GrapheneOS/Auditor</a></li>
+<li>AppManager: <a href="https://github.com/MuntashirAkon/AppManager">https://github.com/MuntashirAkon/AppManager</a></li>
+<li>Shizuku: <a href="https://github.com/RikkaApps/Shizuku">https://github.com/RikkaApps/Shizuku</a></li>
+</ul>
+<p><em>El aparato endurecido</em></p>
+<ul>
+<li>Vanadium: <a href="https://github.com/GrapheneOS/Vanadium">https://github.com/GrapheneOS/Vanadium</a></li>
+<li>Camera: <a href="https://github.com/GrapheneOS/Camera">https://github.com/GrapheneOS/Camera</a></li>
+<li>hardened_malloc: <a href="https://github.com/GrapheneOS/hardened_malloc">https://github.com/GrapheneOS/hardened_malloc</a></li>
+</ul>
+<p><em>Avisos, servicios y actualizaciones</em></p>
+<ul>
+<li>FreeDroidWarn: <a href="https://github.com/woheller69/FreeDroidWarn">https://github.com/woheller69/FreeDroidWarn</a></li>
+<li>degoog: <a href="https://github.com/degoog-org/degoog">https://github.com/degoog-org/degoog</a></li>
+<li>ytzero: <a href="https://github.com/Pelski/ytzero">https://github.com/Pelski/ytzero</a></li>
+<li>Gearslip: <a href="https://github.com/twinksoftware/Gearslip">https://github.com/twinksoftware/Gearslip</a></li>
+</ul>
+<p><em>Lo que no se pudo medir.</em> La herramienta que muchas listas citan para pasar la comprobación de integridad del sistema devuelve hoy 404 en la dirección que se conocía: no hay repositorio que leer, así que no hay ficha, ni número, ni enlace. Se anota el hueco y se sigue, que es la única forma de no publicar de memoria.</p>
+<p><em>Cómo se midió.</em> Diez proyectos, tres lecturas cada uno y por tres caminos distintos: el buscador de la forja, la página del repositorio y el archivo crudo del README con su licencia. El orden de las lecturas se rotó de un proyecto al siguiente. Donde las tres no coincidieron —dos casos de licencia— se publicaron las dos versiones en vez de elegir.</p>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — tres cerraduras y ninguna es la puerta</em></p>
+<p>Lo que deja esta guía, en plata: el teléfono decide con tres criterios distintos y la gente los vive como uno. La firma dice quién hizo el paquete, la atestación dice qué sistema corre y el aviso del sistema habla de una lista que consulta en ese momento. Separarlas resuelve la mayoría de los sustos.</p>
+<p>El hallazgo de hoy es que el aparato endurecido ya no es un experimento de laboratorio: hardened_malloc empujó esta mañana, el navegador sigue al motor casi al día y la cámara se actualiza. Y el hueco del día también cuenta: una herramienta que todas las listas citaban ya no está en su dirección, y la guía lo dice en vez de repetirla.</p>
+<blockquote>—¿Y si el banco me cierra la puerta?</blockquote>
+<blockquote>—Entonces decides qué quieres tener, y lo decides sabiendo por qué.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Una firma dice quién firmó; no dice quién responde.</p>
+<p><em>Medición del corte:</em> domingo 1 de noviembre de 2026, entre las 13:25 y las 13:40 de Santo Domingo · diez proyectos leídos tres veces con el orden rotado · dos fichas con licencia contradictoria o ausente se publican con lo que dicen sus fuentes · una herramienta sin repositorio legible queda fuera con su motivo.</p>
+<p><em>Licencia de esta entrega:</em> el texto va en CC BY-SA 4.0, los datos medidos en CC BY 4.0 y el código en MIT; la marca y el nombre de la casa quedan reservados para «Alexis (La Bandita)».</p>
+<h2>🗒️ Notas del corte</h2>
+<p><strong>Nota de corte (1-nov, 13:30):</strong> las diez fichas son de esta tarde y llevan hora. Donde el release público no acompaña al trabajo reciente —Auditor, Camera, hardened_malloc— se escriben las dos fechas para que se vea la diferencia.</p>
+<p><strong>Nota de hueco (1-nov):</strong> la herramienta de integridad que citaban las listas viejas ya no existe en su dirección: 404. Se nombra como hueco y no como ficha. Es la misma regla aplicada a Phocid, a los parches de ReVanced y a InstallerX-Revived.</p>
+<p><strong>Nota de alcance (1-nov):</strong> esta guía no enseña a saltarse verificaciones ni a falsificar firmas. Explica qué comprueba el sistema y cómo leerlo, y deja dicho que modificar un aparato tiene consecuencias con algunas apps.</p>
+<p><strong>Nota de corrección (1-nov):</strong> la versión anterior de esta pieza se apoyaba en las herramientas de verificación de hace cuatro meses, incluida una que hoy no tiene repositorio. Se reescribió con el censo de esta tarde y se quitó lo que no se pudo leer.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

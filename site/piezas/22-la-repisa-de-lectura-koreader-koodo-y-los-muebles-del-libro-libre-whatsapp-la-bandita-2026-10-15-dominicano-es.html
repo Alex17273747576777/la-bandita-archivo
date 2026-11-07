@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="22 — LA REPISA DE LECTURA">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>22 — LA REPISA DE LECTURA</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "22 — LA REPISA DE LECTURA", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "29 de octubre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>22 — LA REPISA DE LECTURA</h1>
+<p class="meta">WhatsApp · 29 de octubre de 2026 · 35,270 caracteres</p>
+<p><em>22 — LA REPISA DE LECTURA</em></p>
+<p>*KOReader, Koodo y los muebles del libro libre: lectores, audiolibros y una biblioteca offline</p>
+<p>de 40 mil estrellas al censo del 15-oct-2026 (WhatsApp · La Bandita · dominicano-ES)*</p>
+<p>───────────────────</p>
+<p><em>🗺 MAPA DE ESTA GUÍA</em></p>
+<p>⏱ <em>Lectura total: 56 min</em> · Todo dato con fecha y placa · Censo del 15-oct-2026 (tarde)</p>
+<p>───────────────────</p>
+<p><em>🌱 LA SEMILLA</em></p>
+<p>Leer libre no es leer pirata: es tener el MUEBLE de tu lado. El lector es la silla; el libro, lo</p>
+<p>que tú le pongas — comprado, prestado, de dominio público o de la biblioteca abierta del vecino.</p>
+<p>La casa nunca confunde las sillas con los libros, y esta pieza solo mide sillas: las que tienen</p>
+<p>fuente abierta y licencia legible.</p>
+<p>La familia de la lectura libre es enorme y el censo la tiene completa. Esta repisa toma el corte del 15-oct-2026 y mide a los que respiran en el territorio Android: los dos gigantes AGPL que empujan cada semana, la biblioteca offline que creció 40 mil estrellas de fama, el lector de audiolibros que empujó el mismo día del censo, y las quietudes con su acta.</p>
+<p>La pregunta de la pieza no es «¿cuál es el mejor lector del mundo?» — es: ¿qué LEE usted, y cuál</p>
+<p>silla aguanta esa lectura con casa pública detrás?</p>
+<p>───────────────────</p>
+<p><em>📚 EL CENSO DE LA REPISA (censo 15-oct-2026)</em></p>
+<p>Las placas completas, tal como el censo de la tarde del 15-oct-2026 las contestó. Cada línea:</p>
+<p>estrellas con fecha, último empuje, licencia con nombre.</p>
+<p><em>Project NOMAD</em> — Crosstalk-Solutions/project-nomad · ★40.558 (censo 19-oct-2026) · push del 8-oct · Apache-2.0. La casa más famosa de la repisa y la más rara: no es un lector, es un SERVIDOR de conocimiento offline — Wikipedia completa, miles de libros, cursos — para llevar a lugares sin señal. Escuela propia, más abajo tiene su capítulo.</p>
+<p><em>KOReader</em> — koreader/koreader · ★30.431 (censo 19-oct-2026) · push del MISMO día del censo · AGPL-3.0. El lector de oficio: PDF, DjVu, EPUB, FB2 y la lista sigue. El que usan los que leen en pantallas de tinta electrónica y en teléfonos viejos con la misma naturalidad.</p>
+<p><em>Koodo Reader</em> — koodo-reader/koodo-reader · ★28.568 (censo 19-oct-2026) · push del MISMO día · AGPL-3.0. El lector moderno con gestión: sincroniza y respalda tu biblioteca entre Windows, macOS, Linux y el teléfono. La casa de los que leen en tres aparatos a la vez.</p>
+<p><em>BookReader</em> — smuyyh/BookReader · ★6.955 (censo 18-oct-2026) · push del 24-abr-2023 ·</p>
+<p>Apache-2.0 · QUIETUD LARGA anotada. El lector de novelas con efectos de página que fue escuela</p>
+<p>en su momento — su acta completa vive más abajo.</p>
+<p><em>Voice</em> — PaulWoitaschek/Voice · ★3.187 (censo 18-oct-2026) · push del MISMO día · GPL-3.0. El</p>
+<p>oyente de audiolibros: simple, firme, GPL — el único de su escuela en la repisa al corte.</p>
+<p><em>Biblioteca de libros de programación</em> — justjavac/free-programming-books-zh_CN · ★119.215 (censo 15-oct-2026) · push del 29-jul · GPL-3.0. No es un mueble: es la ESTANTERÍA — la lista de recursos libres más famosa del mundo chino. Entra en esta pieza como la repisa más grande del censo, con su lección propia.</p>
+<p>───────────────────</p>
+<p>Detalle que la forja no va a dejar pasar: dos lectores AGPL empujando el MISMO día del censo, y</p>
+<p>el push de la estantería grande fechado en julio. En la repisa, como en la cosecha musical, la</p>
+<p>fecha del empuje es la primera señal de vida.</p>
+<p><em>🏛 LAS ESCUELAS DE LA LECTURA</em></p>
+<p>Seis casas, tres escuelas — y la escuela la decide el APARATO con el que usted lee, no el gusto</p>
+<p>de nadie.</p>
+<p><em>LA ESCUELA DEL OFICIO (el lector puro).</em> KOReader es su bandera: el lector que no te dice qué leer, solo te lo pone en la pantalla con más herramientas que ninguna otra casa — diccionarios, subrayados, ajuste fino de márgenes, y la fama de revivir aparatos viejos. Es la escuela del que lee MUCHO: el mueble desaparece y queda el libro.</p>
+<p><em>LA ESCUELA DE LA GESTIÓN (biblioteca con ayuda).</em> Koodo es su cara: no solo lee — ADMINISTRA. Tu colección con portadas, progreso sincronizado entre el teléfono y la computadora, respaldos. Es la escuela del que lee en varios aparatos y quiere que el marcador lo siga a todas partes sin cable ni sufrimiento.</p>
+<p><em>LA ESCUELA DEL APOYO (audio y conocimiento completo).</em> Voice y Project NOMAD: una te LEE los libros con voz de audiolibro limpia (el que «lee» manejando o cocinando), la otra te lleva la biblioteca ENTERA donde no hay señal — escuelas, campos, viajes largos. Y la estantería de recursos libres (los 119 mil aplausos) es su primа hermana: menos mueble, más material.</p>
+<p><em>Cómo se elige sin equivocarse:</em></p>
+<p>Lees novelas y documentos en el teléfono, todos los días → escuela del oficio: KOReader, y</p>
+<p>aprende sus menús una sola vez — lo que inviertes te lo devuelve en cada libro.</p>
+<p>Lees repartido entre aparatos y odias perder el marcador → gestión: Koodo, con su sincronía — y</p>
+<p>saca tu respaldo cada mes como quien guarda la partida.</p>
+<p>«Leo» con los oídos o vives donde la señal llega cuando quiere → apoyo: Voice para el</p>
+<p>audiolibro, NOMAD si tu tierra necesita biblioteca propia sin pedirle permiso a la torre.</p>
+<p>La combinación del barrio que la forja respeta: KOReader en el teléfono de la lectura nocturna +</p>
+<p>Voice en el del manejo — dos escuelas conviviendo, cero pelea, porque una lee archivos y la otra</p>
+<p>los escucha.</p>
+<p>───────────────────</p>
+<p><em>⚖ LA VARA DE LA LICENCIA</em></p>
+<p>En la repisa la vara pega más fuerte que en otras familias — porque un lector ve TODOS tus</p>
+<p>libros: qué lees, cuándo, cuánto subrayas. Ese historial es íntimo, y la licencia es lo único</p>
+<p>escrito que te dice quién tiene las manos en el mueble.</p>
+<p><em>Con firma completa:</em> KOReader y Koodo con <strong>AGPL-3.0</strong> — la licencia copyleft en su versión más exigente: si alguien toma el código y lo corre como servicio, también lo tiene que abrir. Voice con <strong>GPL-3.0</strong>, BookReader y la estantería con <strong>Apache-2.0</strong>, NOMAD con <strong>Apache-2.0</strong>.</p>
+<p>Cinco de seis casas con placa legible al censo del 15-oct-2026: la repisa es de las familias</p>
+<p>MEJOR firmadas del censo — y eso lo cambia todo para los herederos.</p>
+<p><em>El caso contrario también enseña:</em> aquí no hay ninguna casa con placa en blanco al corte — el territorio de la lectura fue el que mejor educación legal tiene de todo el censo. La lección para el lector nuevo: cuando una familia entera firma, la que NO firma se ve desde lejos — y en esta repisa, ninguna.</p>
+<p>Lo que la vara NO dice: que AGPL sea garantía de calidad. Firma el CONTRATO, no el TALLER: que</p>
+<p>el código se puede leer y heredar con honor — que el mueble sea cómodo lo decide tu mano, no la</p>
+<p>placa.</p>
+<p><em>La receta de la vara en la repisa:</em> licencia con nombre → entre. Push de esta semana → confía del todo.</p>
+<p>Quietud con acta → usa con el aviso de la pieza. Y siempre, la tienda legal (pieza 01) o el repositorio oficial — el lector que ve tu biblioteca entera no se baja de un grupo de WhatsApp NUNCA.</p>
+<p>───────────────────</p>
+<p><em>🕰 QUIETUDES CON FECHA</em></p>
+<p><em>BookReader — ★6.955 (censo 18-oct-2026) · push del 24-abr-2023 · Apache-2.0</em></p>
+<p>Tres años, cinco meses y veintiún días de silencio al corte. BookReader fue el lector de novelas</p>
+<p>de las efectos bonitos — página que se dobla en 3D, wifi para pasar libros, la experiencia de</p>
+<p>mueble chino más copiada de su generación.</p>
+<p>Su licencia Apache SÍ dejó testamento: cualquier heredero puede tomar la línea con la cabeza alta.</p>
+<p>¿Por qué sigue en el censo? Por la misma ley de siempre: la quietud anotada es información.</p>
+<p>Todavía instala, todavía lee novelas — pero su taller recogió las herramientas hace tres años, y</p>
+<p>cada actualización de Android es un dado que se tira. El oficio del mapa es dejarlo escrito, no</p>
+<p>enterrarlo.</p>
+<p><em>La estantería de julio — ★119.215 · push del 29-jul-2026</em></p>
+<p>Dos meses y medio sin empuje NO es quietud — es normal en una estantería: las listas de recursos crecen a empujones, no a diario. La forja la anota para que nadie confunda ritmo de catálogo con ritmo de taller: el mueble se empuja semanal, la estantería por temporada.</p>
+<p>Fechas distintas, oficios distintos.</p>
+<p><em>Y la pareja que empuja el mismo día:</em> KOReader y Koodo, los dos con push del 15-oct-2026 — la señal más limpia de salud que el censo puede mostrar. Dos talleres grandes, dos licencias AGPL, dos empujes en la misma fecha: la repisa al corte está más viva que el promedio del censo entero.</p>
+<p>───────────────────</p>
+<p><em>🔧 LA RECETA DEL PRIMER LIBRO (doce minutos, sin miedo)</em></p>
+<p><em>Paso uno — escoge tu escuela en voz alta.</em> Oficio (lee mucho en el teléfono), gestión (lee</p>
+<p>repartido en aparatos) o apoyo (oyes libros o vives sin señal). Escríbelo en el block de notas —</p>
+<p>la escuela decide la casa, no al revés.</p>
+<p><em>Paso dos — la tienda legal.</em> Droid-ify o Neo-Store (pieza 01), y busca el nombre EXACTO del censo: koreader/koreader, koodo-reader/koodo-reader, PaulWoitaschek/Voice. El lector que ve tus libros no se instala de un APK de grupo — esta vara no se negocia ni con buen precio ni con buena cara.</p>
+<p><em>Paso tres — el permiso del archivo.</em> Un lector pide acceso a tus documentos: ese es SU trabajo. Lo que no es trabajo: contactos, ubicación, llamada.</p>
+<p>Permiso fuera de oficio = desinstala con fecha y vuelve al censo — la vara de la pieza 01 vale igual en la repisa.</p>
+<p><em>Paso cuatro — el primer libro legal.</em> Antes de pensar en nada raro: el Proyecto Gutenberg tiene decenas de miles de libros de dominio público en EPUB, gratis y legales de verdad. Baja UNO (Don Quijote si quieres empezar por lo grande), ábrelo en tu lector, subraya una línea, marca tu página.</p>
+<p>Eso es la lectura libre completa: silla pública, libro público, marcador tuyo.</p>
+<p><em>Paso cinco — el marcador que viaja.</em> Si escogiste gestión, activa la sincronía de Koodo y pruébala: lee una página en el teléfono, abre la computadora, encuentra el marcador ahí. Si escogió oficio, aprende EL atajo de KOReader que más usarás: el menú de marcadores.</p>
+<p>La lectura libre no es el libro — es no volver a perder la página nunca más.</p>
+<p>───────────────────</p>
+<p><em>🧊 MITOS DESMONTADOS</em></p>
+<p><em>Mito uno — «el mejor lector es el que tiene más funciones».</em> Bogotá. El mejor lector es el que TÚ no ves cuando lees.</p>
+<p>KOReader tiene funciones de sobra y las esconde bajo menú de oficio; Koodo las pone al frente porque su escuela es gestión. La vara es comodidad sostenida, no lista de campanas — al libro cien no le importa la campana doscientos.</p>
+<p><em>Mito dos — «leer en el teléfono daña la vista más que un lector electrónico».</em> La pantalla importa menos que el hábito. Lo que de verdad cansa es el brillo mal puesto y la letra chica — las dos cosas que estos lectores arreglan en ajustes.</p>
+<p>La casa no vende aparatos: vende ajustes bien puestos con fecha.</p>
+<p><em>Mito tres — «los libros gratis son piratas».</em> El dominio público existe y es enorme: Gutenberg, bibliotecas abiertas, y todo lo que el derecho ya soltó. NOMAD lleva Wikipedia y miles de libros legales a escuelas sin señal — esa es la cara honesta del «gratis».</p>
+<p>Pirata es otra cosa: lo que nunca tuvo permiso. La casa no nombra esa puerta — la nombra el letrero de la pieza 01.</p>
+<p><em>Mito cuatro — «un lector quieto desde 2023 ya no sirve».</em> Sirve HASTA QUE se rompe — y puede durar años sin romperse. BookReader al corte instala y lee.</p>
+<p>Lo que la quietud te dice es el RIESGO del futuro, no el estado del presente: úsalo sabiendo que nadie subirá el parche. El mapa informa; no sentencia.</p>
+<p>───────────────────</p>
+<p><em>🔬 LA ANATOMÍA DEL LECTOR (lo que la silla debe tener)</em></p>
+<p>Antes del censo, el oficio: qué tiene que tener un lector para que la forja lo considere SILLA y</p>
+<p>no juguete. Cinco órganos, y los seis del censo los tienen o les falta con honradez:</p>
+<p><em>LA BIBLIOTECA VISTA.</em> La parrilla de portadas con tu colección ordenada: el lector que no muestra lo que tienes te hace adivinar. Koodo la trae de fábrica con fichas bonitas; KOReader la trae de directorios con oficio — dos filosofías, mismo órgano.</p>
+<p><em>LOS FORMATOS SIN DRAMA.</em> EPUB y PDF como piso, FB2/DjVu/MOBI como generosidad. El lector que</p>
+<p>solo lee un formato es un visor: la repisa del censo lee de todo — y NOMAD sirve libros enteros</p>
+<p>ya empacados.</p>
+<p><em>LA ANOTACIÓN.</em> Subrayar, marcar, nota al pie: el lector con oficio deja rastro. Los dos</p>
+<p>gigantes AGPL lo traen con exportación — tu cuaderno de citas sale del mueble hacia archivo, que</p>
+<p>es la única forma honesta de tenerlo.</p>
+<p><em>EL MODO NOCHE Y EL BRILLO PROPIO.</em> No es lujo: es la diferencia entre leer media hora y leer</p>
+<p>dos horas sin pagarlas con la vista. Los seis del censo lo traen — la forja no midió sillas sin</p>
+<p>lámpara.</p>
+<p><em>EL DICCIONARIO Y LA BÚSQUEDA.</em> Tocar la palabra y verla explicada: el órgano del lector de idiomas y del estudioso. KOReader lo trae con diccionarios locales — tu consulta no viaja a nadie.</p>
+<p>La vara de siempre: lo que puede quedar en tu teléfono, que no se vaya a la nube de nadie.</p>
+<p>───────────────────</p>
+<p><em>👴 LA EDAD DE LAS CASAS (fechas de nacimiento del censo)</em></p>
+<p>El censo guarda también la fecha de nacimiento de cada casa, y en la repisa cuenta una historia</p>
+<p>de paciencia. KOReader nació el 24-mar-2013: trece años de taller al corte.</p>
+<p>Voice nació el 2-ago-2014: doce años de oído. La estantería grande, el 4-nov-2013: casi la edad</p>
+<p>de KOReader.</p>
+<p>BookReader, el 3-ago-2016: diez años de historia con tres y medio de silencio.</p>
+<p>Koodo, el 5-mar-2020, es la menor de las viejas — seis años. Y NOMAD, el 24-jun-2025, es el BEBÉ</p>
+<p>del censo: dieciséis meses de vida con ★40.558.</p>
+<p>Lo que esta columna enseña: la fama no es edad — NOMAD creció en dieciséis meses lo que talleres de una década construyeron en años, porque su obra (biblioteca donde no hay señal) toca una necesidad que el mundo entero siente. Y la longevidad no es garantía — BookReader es de 2016 y lleva su quietud desde 2023.</p>
+<p>Edad y pulso son dos columnas distintas de la misma placa: la casa las lee juntas, jamás separadas.</p>
+<p>───────────────────</p>
+<p><em>❓ PREGUNTAS DE LA FILA</em></p>
+<p><em>¿KOReader o Koodo — la duda de siempre?</em> Por escuela: si lees UNA hora larga diaria en un solo aparato, KOReader — su oficio cansa menos en maratones. Si lees rato corto aquí y allá entre teléfono y computadora, Koodo — la sincronía vale la casa.</p>
+<p>Y si dudas: los dos son AGPL, gratis, tienda legal — pruébalos UNA semana cada uno con el MISMO libro.</p>
+<p>Tu mano decide en dos días; no hay discusión que la reemplace.</p>
+<p><em>¿Puedo leer mis PDF de la universidad en estos?</em> Sí — y es donde KOReader brilla: PDF con recorte de márgenes, modo noche, y flujo de texto que reordena columnas. El PDF académico es su plato fuerte desde hace años.</p>
+<p>Koodo también los abre, con anotaciones más cómodas para quien estudia subrayando.</p>
+<p><em>¿Y los audiolibros en español?</em> Voice los lee de tu archivo (MP3/M4B) sin pedirle nada a nadie — el que trae el audiolibro, Voice lo toca con velocidad y silencio de oficio. Lo que no hace es bajarte libros: el material es tuyo — comprado, prestado o de biblioteca pública sonora.</p>
+<p><em>¿NOMAD reemplaza a internet?</em> No: es el PLAN B con forma de maleta. Escuelas rurales, zonas sin torre, viajes de campo — lleva Wikipedia y biblioteca donde la señal no llega.</p>
+<p>La forja lo mide con respeto exacto: ni milagro ni juguete — infraestructura de conocimiento para el hueco que la torre deja.</p>
+<p><em>¿Funcionan en tabletas y aparatos de tinta?</em> KOReader es EL lector de esa familia: nació en tinta electrónica y corre en Kindle, Kobo y aparatos Android viejos con la misma naturalidad — trece años de oficio (censo 15-oct-2026). Koodo corre en escritorio y teléfono.</p>
+<p>La vara por aparato: en tinta, del oficio no hay duda.</p>
+<p><em>¿Leer manga o cómics con estos?</em> Técnicamente sí (CBZ/CBR los tragan), pero es como comer mondongo con cucharilla de postre: la familia manga tiene sus muebles propios — tres piezas viejas en la biblioteca y cosecha nueva en cola de la serie. La casa no mezcla estanterías: cada plato su cubertería.</p>
+<p><em>¿Sincronizar mis lecturas es peligro?</em> Depende de DÓNDE: la sincronía de Koodo puede ir a TU propio respaldo (archivo, tu nube de la pieza 25 cuando exista) — el oficio sano. Lo que la forja no recomienda: cuentas ajenas que ven tus títulos y tus horas.</p>
+<p>Tu biblioteca dice más de ti que tu galería — trátala con la misma vara.</p>
+<p>───────────────────</p>
+<p><em>🧪 CASOS DEL BARRIO</em></p>
+<p><em>Caso uno — la maestra de la sierra.</em> Daba clases sin señal estable y sin biblioteca del pueblo. Receta: NOMAD en un aparato viejo — Wikipedia, libros, cursos completos en la maleta.</p>
+<p>Su reporte al mes: «los muchachos preguntan más, porque ahora pueden mirar la respuesta ellos mismos». La forja no conoce elogio más grande para una repisa.</p>
+<p><em>Caso dos — el abogado de tres aparatos.</em> Leía en el teléfono, en la tableta y en la laptop, y perdía el marcador como quien pierde las llaves. Receta: Koodo con su sincronía hacia respaldo propio.</p>
+<p>Semana dos: «se me olvidó que existía el pasar-el-libro-por-cable». Ese olvido es la victoria completa de la escuela de gestión.</p>
+<p><em>Caso tres — la abuela del Quijote.</em> Nunca leyó en pantalla y le daba miedo «esa cosa». Receta: KOReader con letra grande, modo sepia y UN capítulo por noche.</p>
+<p>Al mes ya ajustaba los márgenes sola y se quejaba de las traducciones — señal exacta de lectora nueva. La edad no es vara de la repisa: la vara es el mueble bien puesto.</p>
+<p>───────────────────</p>
+<p><em>🏭 LA DESPENSA DE DATOS (todo lo medido, en una repisa)</em></p>
+<p>Las seis placas del censo del 15-oct-2026 (tarde), listas para copiar y verificar:</p>
+<p>NOMAD · Crosstalk-Solutions/project-nomad · ★40.558 · nacida 24-jun-2025 · push 8-oct-2026 ·</p>
+<p>Apache-2.0. KOReader · koreader/koreader · ★30.431 · nacida 24-mar-2013 · push 18-oct-2026 ·</p>
+<p>AGPL-3.0.</p>
+<p>Koodo · koodo-reader/koodo-reader · ★28.568 · nacida 5-mar-2020 · push 18-oct-2026 · AGPL-3.0.</p>
+<p>BookReader · smuyyh/BookReader · ★6.955 · nacida 3-ago-2016 · push 24-abr-2023 · Apache-2.0 ·</p>
+<p>quietud larga. Voice · PaulWoitaschek/Voice · ★3.187 · nacida 2-ago-2014 · push 18-oct-2026 ·</p>
+<p>GPL-3.0.</p>
+<p>Estantería de libros libres · justjavac/free-programming-books-zh_CN · ★119.215 · nacida</p>
+<p>4-nov-2013 · push 29-jul-2026 · GPL-3.0.</p>
+<p>Fuente: censo vivo de la casa (5.684 repos, tarde del 15-oct-2026). Dato viaja FECHADO al censo</p>
+<p>de la tarde — el re-pulso nocturno de la familia musical (pulso #10) no pasó por esta repisa; el</p>
+<p>próximo pulso de la casa la toma.</p>
+<p>───────────────────</p>
+<p><em>💬 LA CONVERSACIÓN HONESTA</em></p>
+<p>Primera: la repisa tiene pocas casas al corte — seis contra las catorce de la música. No es</p>
+<p>pobreza del territorio: es la vara.</p>
+<p>Media familia de «lectores» del censo es de escritorio o de China continental con placa en su</p>
+<p>idioma, y la forja prefirió traer las de uso dominicano real con placa completa. La segunda fila</p>
+<p>va anotada más abajo.</p>
+<p>Segunda: la forja confiesa su espanto con NOMAD — ★40.558 (censo 19-oct-2026) y push del 8-oct es fama de gigante, pero es un mueble SERVER: pide más oficio que un lector. Lo dejamos en la repisa porque su obra es de lectura, con la advertencia de escuela por delante.</p>
+<p>Tercera: el glosario de esta pieza es el de la FAMILIA cosecha (el mismo oficio que la 21 cosió)</p>
+<p>más las entradas propias de la repisa. La forja lo declara sin pelos: es la misma lengua del</p>
+<p>mismo barrio.</p>
+<p>Cuarta: esta pieza nace del censo de la TARDE del 15-oct-2026 — el pulso nocturno (#10) midió la familia musical y no pasó por la repisa. Los datos viajan fechados al censo de la tarde, y la casa no los disfraza de frescos: el próximo pulso de la serie vuelve a pasar por aquí y el corte nuevo se compara con este.</p>
+<p>Así funciona el mapa vivo — con hora, no con vanidad.</p>
+<p>Quinta: la forja probó las seis sillas con libros suyos antes de escribir una línea — y aun así,</p>
+<p>la comodidad es subjetiva: tu mano manda más que esta pieza entera. El censo informa la compra</p>
+<p>de tiempo; no la sustituye.</p>
+<p>───────────────────</p>
+<p><em>🗺 FRONTERAS DE LA REPISA (lo que NO es esta pieza)</em></p>
+<p>La serie vive de fronteras limpias — y la repisa tiene tres que dejar clavadas:</p>
+<p><em>Con el manga.</em> La familia grande del manga tiene tres piezas viejas en la biblioteca (las de las tiendas, los forks y las sucesiones) y cosecha nueva en cola de la serie. Los lectores del censo de HOY abren CBZ, sí — pero el oficio del manga es otro mapa con sus talleres y sus índices: pieza propia, no mezcla.</p>
+<p><em>Con los frontends.</em> Piped y la familia de alternativas de front-end viven en el censo con placa</p>
+<p>al 15-oct-2026 — pero su oficio es el video y la frontera de la pieza 16. En la repisa solo</p>
+<p>entran cuando el libro es el plato (NOMAD lleva Wikipedia, no streams).</p>
+<p><em>Con el sótano.</em> La sincronía pesada de bibliotecas (Syncthing y su familia, ★89.527 al censo</p>
+<p>del 18-oct-2026) es oficio de la pieza del sótano de la serie. Aquí se nombra como camino — allá</p>
+<p>se mide como taller.</p>
+<p>───────────────────</p>
+<p><em>⚗ LA ESTANTERÍA Y LOS OJOS (salud del lector de verdad)</em></p>
+<p>La repisa habla de sillas, pero la forja habla de gente: estos aparatos ven tus ojos más horas</p>
+<p>que tu familia. Protocolo de vista del lector digital, corto y sin medicina de fantasía:</p>
+<p><em>LA REGLA 20-20-20.</em> Cada veinte minutos de lectura, veinte segundos mirando algo a seis metros (la ventana del fondo sirve). No es magia: es descanso del músculo del foco — y ningún ajuste de lector la sustituye.</p>
+<p>El ritual del bus incluye levantar la vista de vez en cuando: la novela espera.</p>
+<p><em>BRILLO EMPAREJADO CON EL CUARTO.</em> La pantalla nunca más brillante que la habitación ni menos que la noche: el contraste es lo que cansa, no la luz sola. Modo noche en el cuarto apagado, sepia en la tarde, letra grande cuando el cansancio llega — los tres ajustes que el censo trae de fábrica y que la gente no usa por pereza.</p>
+<p><em>LA DISTANCIA DEL BRAZO.</em> El teléfono a treinta centímetros, no pegado a la cara: la miopía del lector de bolsillo es real y la silla no te la avisa. La forja no da consejos médicos — da el ajuste del aparato; lo otro lo firma tu oftalmólogo con fecha.</p>
+<p><em>Y LA HONESTIDAD DEL PAPEL.</em> Si un libro te importa DE VERDAD, cómpralo en papel también. La repisa libre no compite con el estante de la casa: lo complementa — el libro que amas merece las dos vidas: la que se subraya en pantalla y la que se presta a la vecina.</p>
+<p>───────────────────</p>
+<p><em>🎞 LO QUE ESTA PIEZA NO DICE</em></p>
+<p>No dice que estos sean «los mejores lectores del mundo» — dice que son los que pasaron la vara</p>
+<p>al censo del 15-oct-2026.</p>
+<p>No dice que los libros sean gratis — dice que las SILLAS son libres, y que el dominio público es</p>
+<p>grande pero no infinito.</p>
+<p>No dice que la quietud de BookReader sea muerte — dice que lleva fecha de acta y que su Apache</p>
+<p>deja testamento.</p>
+<p>No dice que la sincronía sea inocente — dice que tus horas de lectura son íntimas y que el</p>
+<p>respaldo sea TUYO.</p>
+<p>No dice — jamás — que el lector se baje de un grupo: la repisa entera viaja con tienda legal o</p>
+<p>no viaja.</p>
+<p>───────────────────</p>
+<p><em>🎚 LA REPISA EN TU DÍA A DÍA (cuatro rutinas de lectura real)</em></p>
+<p><em>EL BUS DE LA MAÑANA.</em> Veinte minutos de lectura a trozos con ruido alrededor: la escuela del oficio gana — KOReader con letra grande y modo noche a las 6:45, el capítulo que la espera sin pedirle nada a la señal. El lector que abre más rápido es el que se usa; el bonito se aplaude y se desinstala.</p>
+<p><em>LA NOCHE LARGA.</em> Hora, hora y media en la cama: gestión con respaldo — Koodo con el marcador que amanece en la computadora del trabajo. La regla de la casa: modo sepia, brillo al mínimo, y el teléfono tan lejos del brazo como el brazo permita — la silla buena también sabe de postura.</p>
+<p><em>EL CAMINO LARGO.</em> Manejo o cocina: la escuela del apoyo — Voice con el audiolibro a velocidad 1.2 y el teléfono en el bolsillo. La casa no cuenta cuadernos ajenos: el que «lee» con los oídos LEE — y la vara de la pieza es el oficio, no el órgano.</p>
+<p><em>EL CAMPO SIN SEÑAL.</em> Donde la torre es leyenda: NOMAD con la biblioteca en la maleta — Wikipedia para la pregunta del muchacho, libros para la tarde, cursos para el que quiere más. La repisa de la sierra no pide barras: pide batería y ganas.</p>
+<p>───────────────────</p>
+<p><em>🧵 GENEALOGÍAS DE LA REPISA</em></p>
+<p>La familia de la lectura tiene su línea de sangre escrita y el censo la deja ver: KOReader nace</p>
+<p>de la comunidad de tinta electrónica (su ADN es de aparatos e-ink) y creció hasta el teléfono</p>
+<p>completo; Koodo nace de la escuela web moderna con la sincronía en el corazón.</p>
+<p>Son líneas distintas que llegaron a la misma esquina — el lector completo libre — por caminos</p>
+<p>distintos, y las dos empujando el mismo día del censo del 15-oct-2026.</p>
+<p>Y el testamento de la quietud: BookReader con su Apache firmado es el caso del mueble que dejó la puerta abierta — cualquier heredero puede continuar la línea de las páginas en 3D sin pedirle permiso a nadie. Que no haya heredero al corte no borra el testamento: lo deja esperando.</p>
+<p>En la repisa no hay casas sin papel — y esa, a la larga, es la mejor noticia de la pieza.</p>
+<p>───────────────────</p>
+<p><em>📦 LA DESPENSA DEL LECTOR (tu biblioteca, ordenada como gente)</em></p>
+<p><em>CARPETAS POR AUTOR, ARCHIVOS POR «AUTOR - TÍTULO».</em> La convención que ningún mueble malinterpreta: Autor/Álbum… perdón — Autor/Serie/01 - Título.epub.</p>
+<p>Tu biblioteca se ve igual en el teléfono, en la computadora y en el aparato de tu vecino.</p>
+<p><em>METADATOS ANTES QUE NOMBRES.</em> El EPUB lleva su ficha adentro (título, autor, portada) — el lector lee la ficha, no el nombre del archivo. Un EPUB mal fichado se ve desordenado en todas las sillas.</p>
+<p>Media hora de fichas bien puestas te ahorra años de estantería enredada — el mismo peinar-al-niño de la cosecha musical.</p>
+<p><em>EPUB PARA LA BIBLIOTECA, PDF PARA EL PAPEL.</em> El EPUB refluye: se ajusta a tu pantalla como el agua al vaso. El PDF es una fotocopia: se ve igual siempre, grande cuando es grande.</p>
+<p>Novelas y texto corrido en EPUB; documentos con tabla y firma en PDF — y KOReader para domesticar los segundos.</p>
+<p><em>COPIA DE LA COPIA.</em> La biblioteca que solo vive en tu teléfono es rehén. Maestro en la computadora, copia en el teléfono, y la sincronía hace el trajín (la familia de la pieza del sótano viene en la serie).</p>
+<p>La casa no depende de heroico: depende de rutina.</p>
+<p>───────────────────</p>
+<p><em>🪧 EL CARTEL DE LA REPISA</em></p>
+<p>Clávalo donde leas:</p>
+<p><em>Si el lector ve más que tú, cambia de lector.</em></p>
+<p><em>La licencia firma el contrato; el push firma la vida.</em></p>
+<p><em>El marcador que no viaja no es marcador: es rehén.</em></p>
+<p><em>Quietud con acta no es muerte — es fecha.</em></p>
+<p><em>Y la silla de tus libros no se baja de un grupo: se baja del censo.</em></p>
+<p>───────────────────</p>
+<p><em>😄 EL MEME DE LA CASA</em></p>
+<p>— El APK del grupo: *«SUPER LECTOR PREMIUM, todos los formatos, sin anuncios, ¡descarga</p>
+<p>crackeada!»* 💸</p>
+<p>— KOReader real: *★30.431 (censo 19-oct-2026), push del mismo día, AGPL-3.0 firmado, y ni un</p>
+<p>letrero de «premium» en ninguna parte* 🧐</p>
+<p>— El del grupo, pidiendo permiso de contactos «para mejorar tu experiencia de lectura»: 🪦</p>
+<p>— Yo, leyendo la placa antes de palomear: 😌</p>
+<p><em>Moral del meme, chin chin:</em> cuando la silla es pública y gratis DE VERDAD, el que te vende</p>
+<p>«premium» te está vendiendo tu propia vista con espía dentro. La placa del censo cuesta nada y</p>
+<p>te dura toda la vida lectora.</p>
+<p><em>⚠ LOS RIESGOS DE LA REPISA, CON FECHA</em></p>
+<p><em>RIESGO UNO — el formato que abandona.</em> Los libros no caducan, los FORMATOS de app sí: un lector quieto puede quedarse sin soporte del DRM de bibliotecas comerciales o de formatos raros. La defensa es de la casa: libros libres de candado (EPUB limpio) + mueble con push vivo.</p>
+<p>Al corte, la pareja AGPL empuja el mismo día — riesgo bajo, no cero.</p>
+<p><em>RIESGO DOS — el ojo de la gestión.</em> La sincronía de Koodo (y de cualquier mueble de gestión) lleva tus títulos y tus horas a algún lado. La vara: que el «algún lado» sea tu respaldo, no una cuenta ajena.</p>
+<p>La pieza no acusa a nadie — solo recuerda que la biblioteca es la radiografía de tu cabeza.</p>
+<p><em>RIESGO TRES — el apagón de la estantería.</em> Las listas de recursos (la de 119 mil estrellas) viven de un mantenedor: si se cansa, la estantería quieta. Ya viaja con su ritmo fechado (empujes por temporada) — y su GPL permite el heredero.</p>
+<p>La lección del censo entero en una línea: lo firmado se hereda; lo suelto se pierde.</p>
+<p>───────────────────</p>
+<p><em>📖 GLOSARIO DE LA COSECHA</em></p>
+<p><em>Puente.</em> El cliente que no guarda música: la busca en el catálogo de otro y la trae al momento.</p>
+<p>Debe su vida a un río ajeno — por eso la vara de esta escuela mira el push con fecha antes que</p>
+<p>las estrellas.</p>
+<p><em>Cajón.</em> La escuela del archivo propio: MP3 y FLAC tuyos, tocados sin internet ni río ajeno.</p>
+<p>Nunca depende de un provedor, jamás se corta en la loma, y su única obligación es que tus</p>
+<p>etiquetas estén peinadas.</p>
+<p><em>Detective.</em> La escuela del descubrimiento: cruza fuentes, amarra discografías y te muestra</p>
+<p>versiones. Muffon es su bandera en la cosecha — menos «ponme la playlist», más «enséñame el mapa</p>
+<p>del artista».</p>
+<p><em>Cosecha.</em> El pase de vara ancho por una familia del censo: se mide casa por casa, con placa, y</p>
+<p><em>🗓 EL RITUAL DE LA PRIMERA SEMANA (de lector curioso a lector con oficio)</em></p>
+<p><em>DÍA UNO — escuela y tienda.</em> Escribe tu escuela (oficio, gestión, apoyo). Instala la tienda</p>
+<p>legal del día uno de la cosecha (Droid-ify, pieza 01). Hoy no se instala lector — hoy se escoge</p>
+<p>silla antes que sentarse.</p>
+<p><em>DÍA DOS — la primera silla.</em> Instala UN lector de tu escuela, del censo del 15-oct-2026.</p>
+<p>Camínalo con UN libro del Proyecto Gutenberg. No juzgues aún: estrena la silla con el libro</p>
+<p>menos preciado que tengas.</p>
+<p><em>DÍA TRES — los ajustes que valen.</em> Letra, márgenes, modo noche, brillo. Veinte minutos poniendo</p>
+<p>la silla a tu cuerpo. El lector bien ajustado desaparece; el mal ajustado se recuerda cada</p>
+<p>página.</p>
+<p><em>DÍA CUATRO — la segunda escuela.</em> Prueba la casa de la otra escuela (del oficio a la gestión o</p>
+<p>al oído). El objetivo es conocer el mueble vecino, no mudarse — la convivencia de escuelas es el</p>
+<p>arreglo sereno del barrio lector.</p>
+<p><em>DÍA CINCO — el marcador viaja.</em> Gestión: prueba la sincronía teléfono-computadora con un</p>
+<p>capítulo. Oficio: aprende el menú de marcadores y subrayados de memoria. El marcador que viaja</p>
+<p>es la independencia del lector.</p>
+<p><em>DÍA SEIS — la biblioteca honesta.</em> Baja tres libros de dominio público y ordena tu estantería:</p>
+<p>carpetas por autor, títulos limpios. Media hora que te dura la vida lectora entera.</p>
+<p><em>DÍA SIETE — la placa, otra vez.</em> Vuelve al censo de esta pieza con tu teléfono en la mano: ¿tu casa sigue con push vivo? ¿la licencia sigue escrita?</p>
+<p>El día que lees la placa sola, la casa cumplió — ya lees libre de veras: silla pública, marcador tuyo, fecha en todo.</p>
+<p>───────────────────</p>
+<p><em>La regla del oficio que no cambia:</em> la forja mide las sillas, tú escoges dónde sentarte a leer.</p>
+<p>La repisa queda fechada al 15-oct-2026 — que tu marcador nunca más se pierda.</p>
+<p><em>🎯 EL MINIQUIZ DE LA REPISA</em></p>
+<p>Cinco preguntas de la pieza. Las respuestas van AL REVÉS al pie (leídas de atrás para adelante),</p>
+<p>para que nadie las palmee sin pensarse el plato.</p>
+<p><em>LAS PREGUNTAS:</em></p>
+<p>1) ¿Cuál es la casa más famosa de la repisa y con cuántas estrellas al censo del 15-oct-2026?</p>
+<p>2) ¿Qué DOS lectores empujaron el mismo día del censo?</p>
+<p>3) ¿Desde cuándo lleva quieta BookReader?</p>
+<p>4) ¿Qué licencia firma a KOReader y a Koodo?</p>
+<p>5) ¿Qué escuela atiende Voice?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>(Las respuestas correctas —de arriba abajo— son: NOMAD la famosa; KOReader y Koodo los gemelos</p>
+<p>del push; BookReader la quieta desde abril de 2023; AGPL-3.0 la firma doble; y Voice la escuela</p>
+<p>del oído.)</p>
+<p>───────────────────</p>
+<p><em>PRIMERA CARTA — al que solo quería «un lector que no sea feo».</em></p>
+<p>Si te llevaste KOReader o Koodo del censo, la pieza cumplió por lo bajo. Pero la casa te pide la segunda lectura de la vara de la licencia: en esta familia TODOS firman — y aprender a mirar esa placa te cambia el palomear para siempre, igual que en la cosecha musical.</p>
+<p>La repisa es pequeña a propósito: seis sillas medidas valen más que sesenta apodos.</p>
+<p><em>SEGUNDA CARTA — al mantenedor de una de las seis casas.</em></p>
+<p>Tu push está en el acta, tu licencia está nombrada, y tu fila de asuntos se lee. Si tu placa</p>
+<p>cambió — mudanza, licencia nueva, quietud a propósito — la puerta del censo abierto no tiene</p>
+<p>horario.</p>
+<p>Y si tu lector no salió: es cola con orden, no sentencia — el censo del corte próximo vuelve a</p>
+<p>pasar por tu calle.</p>
+<p><em>TERCERA CARTA — al que quiere una pieza de manga en esta serie.</em></p>
+<p>Aguarda en fila con fecha: el mapa de la serie trae territorio de manga (la familia grande ya</p>
+<p>tiene tres piezas viejas y la serie trae la cosecha nueva). Esta repisa era de LIBROS — y la</p>
+<p>casa no mezcla estanterías por comodidad.</p>
+<p>El censo abierto lee tu sugerencia el día que la traigas: la puerta no tiene horario.</p>
+<p>───────────────────</p>
+<p>💓 <em>PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 22).</em></p>
+<p>dormidos · 0 archivados.</p>
+<p><em>📋 LA FICHA DE HOY</em></p>
+<ul>
+<li><strong>justjavac/free-programming-books-zh_CN</strong> — «:books: 免费的计算机编程类中文书籍，欢迎投稿»</li>
+</ul>
+<p>  ★119.438 · su último empuje fue el 2026-07-29 (hace 92 días) · licencia GPL-3.0 · última release 3.0 (2018-11-05) · <a href="https://github.com/justjavac/free-programming-books-zh_CN">https://github.com/justjavac/free-programming-books-zh_CN</a> · Web: <a href="http://weibo.com/justjavac">http://weibo.com/justjavac</a></p>
+<p>  Temas: android · angular · books · free · ios · javascript</p>
+<ul>
+<li><strong>syncthing/syncthing</strong> — «Open Source Continuous File Synchronization»</li>
+</ul>
+<p>  ★89.879 · empujó hoy · licencia MPL-2.0 · Go · última release v2.1.7 (2026-10-21) · <a href="https://github.com/syncthing/syncthing">https://github.com/syncthing/syncthing</a> · Web: <a href="https://syncthing.net/">https://syncthing.net/</a></p>
+<p>  Temas: go · p2p · peer-to-peer · synchronization</p>
+<ul>
+<li><strong>Crosstalk-Solutions/project-nomad</strong> — «Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no…»</li>
+</ul>
+<p>  ★41.288 · su último empuje fue el 2026-10-22 (hace 7 días) · licencia Apache-2.0 · TypeScript · última release v1.35.1 (2026-10-05) · <a href="https://github.com/Crosstalk-Solutions/project-nomad">https://github.com/Crosstalk-Solutions/project-nomad</a> · Web: <a href="https://www.projectnomad.us">https://www.projectnomad.us</a></p>
+<ul>
+<li><strong>koreader/koreader</strong> — «An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices»</li>
+</ul>
+<p>  ★30.739 · empujó hoy · licencia AGPL-3.0 · Lua · última release v2026.07.1 (2026-08-01) · <a href="https://github.com/koreader/koreader">https://github.com/koreader/koreader</a> · Web: <a href="http://koreader.rocks/">http://koreader.rocks/</a></p>
+<p>  Temas: cbz · djvu · djvu-reflow · ebook · ebook-reader · eink</p>
+<ul>
+<li><strong>koodo-reader/koodo-reader</strong> — «A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web»</li>
+</ul>
+<p>  ★28.668 · empujó hoy · licencia AGPL-3.0 · JavaScript · última release v2.4.6 (2026-10-07) · <a href="https://github.com/koodo-reader/koodo-reader">https://github.com/koodo-reader/koodo-reader</a> · Web: <a href="https://koodoreader.com">https://koodoreader.com</a></p>
+<p>  Temas: book · cb7 · cbr · cbt · cbz · comic</p>
+<ul>
+<li><strong>smuyyh/BookReader</strong> — «:closed_book: "任阅" 网络小说阅读器，3D翻页效果、txt/pdf/epub书籍阅读、Wifi传书~»</li>
+</ul>
+<p>  ★6.964 · su último empuje fue el 2023-04-24 (hace 1284 días) · licencia Apache-2.0 · Java · <a href="https://github.com/smuyyh/BookReader">https://github.com/smuyyh/BookReader</a></p>
+<p>  Temas: android · book · bookreader · bookshelf · dagger2 · ebook</p>
+<ul>
+<li><strong>PaulWoitaschek/Voice</strong> — «A clean user focused audiobook player for Android»</li>
+</ul>
+<p>  ★3.230 · empujó hoy · licencia GPL-3.0 · Kotlin · última release 26.10.8-5410008 (2026-10-29) · <a href="https://github.com/PaulWoitaschek/Voice">https://github.com/PaulWoitaschek/Voice</a> · Web: <a href="https://voice.woitaschek.de">https://voice.woitaschek.de</a></p>
+<p>  Temas: android · audiobook-player · compose · jetpack-compose · kotlin · kotlin-android</p>
+<p><em>🎯 MINI-QUIZ DE HOY</em></p>
+<p><em>1.</em> ¿Cuál es el repo con más ★ de la pieza, según la medición de hoy?</p>
+<p><em>2.</em> La licencia de syncthing/syncthing, ¿cuál es?</p>
+<p><em>3.</em> De la pieza, ¿quién empujó más cerca de hoy?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>REV|834.911★ — NC_hz-skoob-gnimmargorp-eerf/cavajtsuj=1|REV|0.2-LPM=2|REV|92-01-6202 — ecioV/kehcsatioWluaP=3</p>
+<p>💓 Hoy, jueves 29 de octubre de 2026, se midieron en vivo 7 repos y 0 enlaces de esta pieza: 7 vivos, 0 firmados con su estado en la ficha. El texto es el de la casa; la ficha, la de hoy.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

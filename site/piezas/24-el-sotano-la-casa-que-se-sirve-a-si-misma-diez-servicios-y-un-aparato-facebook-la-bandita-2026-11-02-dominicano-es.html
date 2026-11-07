@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="El sótano: la casa que se sirve a sí misma">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>El sótano: la casa que se sirve a sí misma</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "El sótano: la casa que se sirve a sí misma", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "2 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>El sótano: la casa que se sirve a sí misma</h1>
+<p class="meta">Facebook · 2 de noviembre de 2026 · 40,302 caracteres</p>
+<p><em>El sótano: la casa que se sirve a sí misma</em></p>
+<p><em>La Bandita · lunes 2 de noviembre de 2026 · edición dominicano-español · pieza 24 de Facebook</em></p>
+<p><em>🗺️ Mapa de esta guía</em></p>
+<pre>
+├── ⚡ En una página
+├── 🏠 Diez servicios y diez nubes que se apagan
+├── 🎬 Cuatro escenas de esta mañana
+├── 🧾 Los diez, uno por uno, con su fecha
+├── 🧱 Un aparato, diez servicios
+├── 🔐 La puerta, el candado y el puerto abierto
+├── 💾 La copia o nada
+├── 🛠️ Levantar el sótano en ocho pasos
+├── 🧮 Las cuentas del sótano
+├── ❓ Preguntas que me hacen
+└── 📊 Tabla, mitos, glosario y enlaces
+</pre>
+<p><em>⚡ En una página</em></p>
+<p>Hay una categoría de software que resuelve un problema sencillo y enorme a la vez: guardar tus cosas en un aparato que está en tu casa en lugar de en el aparato de una empresa. Se llama autoalojamiento y esta mañana se midieron diez proyectos que lo hacen, con un resultado que no esperaba: los diez empujaron código entre el 1 y el 2 de noviembre. No ocho, no siete: los diez. Juntos suman ★535.838, y cinco de los diez llevan licencia AGPL-3.0.</p>
+<p>El reparto es el de una casa completa. Immich (★117.960) guarda las fotos; Syncthing (★90.007) mantiene las carpetas iguales en varios aparatos; Home Assistant (★91.912) gobierna la casa misma; Vaultwarden (★70.101) guarda las contraseñas; Gitea (★58.825) guarda el código; Nextcloud (★37.395) guarda los archivos y el calendario; Navidrome (★24.484) pone la música; Audiobookshelf (★14.890) los audiolibros; FreshRSS (★16.488) las noticias; y Mealie (★13.776) las recetas. Diez servicios, diez cosas que normalmente viven en la nube de otro.</p>
+<p>Lo que hace distinta esta mañana de las anteriores es la velocidad: tres de los diez publicaron versión entre el 31 de octubre y el 1 de noviembre (Mealie, Vaultwarden y Gitea), y el resto tiene versiones de las últimas dos semanas salvo Navidrome, que empuja hoy y publicó el 24 de septiembre. Es el barrio más activo de la serie, y no por casualidad: son proyectos con usuarios que los usan todos los días y que reportan rápido.</p>
+<p>Y el precio, que hay que decir antes de la mitad de la guía: esto exige un aparato encendido, una copia que se hace, un puerto que no se abre a la ligera y media hora al mes. Quien no quiera esas cuatro cosas no necesita esta pieza; quien las acepte, tendrá una casa que no depende de que nadie mantenga un servidor ajeno encendido.</p>
+<p>───────────────────</p>
+<p><em>🏠 Diez servicios y diez nubes que se apagan</em></p>
+<p>Cada uno de los diez sustituye algo concreto. Ponerlo así, en pares, aclara más que cualquier descripción técnica.</p>
+<p><em>Immich apaga la nube de fotos.</em> Copia de seguridad automática del teléfono, álbumes compartidos, búsqueda por rostro y por lugar, y todo en un disco que está en tu casa. ★117.960, AGPL-3.0, versión v3.3.5 del 21 de octubre.</p>
+<p><em>Syncthing apaga la nube de archivos sincronizados.</em> No hay servidor central: los aparatos se hablan entre ellos y mantienen las carpetas iguales. ★90.007, MPL-2.0, versión v2.1.7 del 21 de octubre.</p>
+<p><em>Home Assistant apaga la nube de la casa inteligente.</em> Luces, enchufes, sensores, cámaras y rutinas, con el control en la casa y no en el teléfono de una empresa. ★91.912, Apache-2.0, versión 2026.10.4 del 24 de octubre.</p>
+<p><em>Vaultwarden apaga la nube de contraseñas.</em> El servidor compatible con el gestor más conocido, en miniatura y en Rust: ★70.101, AGPL-3.0, versión 1.37.5 del 1 de noviembre. Es el que más fácil resulta de montar y el que más cambia la vida diaria.</p>
+<p><em>Gitea apaga la nube de repositorios.</em> Tu código, tus incidencias y tus archivos, con interfaz web y sin depender de una cuenta ajena. ★58.825, MIT, versión v28.3.0 del 1 de noviembre.</p>
+<p><em>Nextcloud apaga la nube de documentos y calendario.</em> Archivos, contactos, calendario, notas y oficina en el navegador. ★37.395, AGPL-3.0, versión v33.0.10 del 15 de octubre. Es el más grande en ambición y el más pesado en recursos.</p>
+<p><em>Navidrome apaga la nube de música.</em> Sirve tu biblioteca de audio a cualquier cliente, incluido cualquiera de los que se midieron en la pieza de la música. ★24.484, GPL-3.0, versión v0.64.2 del 24 de septiembre.</p>
+<p><em>Audiobookshelf apaga la nube de audiolibros y podcasts.</em> Guarda, marca el avance y sirve a varios aparatos. ★14.890, GPL-3.0, versión v2.37.2 del 23 de octubre.</p>
+<p><em>FreshRSS apaga la nube de noticias.</em> Un lector de fuentes que junta los sitios que te interesan sin algoritmo de nadie. ★16.488, AGPL-3.0, versión 1.30.4 del 21 de octubre.</p>
+<p><em>Mealie apaga la nube de recetas.</em> Recetario propio, con importación desde una dirección, lista de compras y menú semanal. ★13.776, AGPL-3.0, versión v3.30.0 del 31 de octubre.</p>
+<p>Diez servicios, diez suscripciones que no se pagan y diez conjuntos de datos que se quedan en la casa. Lo que se paga es el aparato, la luz y el tiempo, y esa cuenta se hace al final de la guía.</p>
+<p>───────────────────</p>
+<p><em>🎬 Cuatro escenas de esta mañana</em></p>
+<p><em>Escena uno: las fotos del teléfono.</em> Un teléfono con sesenta y cuatro gigas llenos de fotos y un aviso de almacenamiento. La solución de siempre es pagar espacio. La de esta mañana es instalar Immich en una cajita, dejar que el teléfono suba las fotos cuando esté en la casa y borrar del aparato con calma. La primera sincronización de doce mil fotos tarda una noche; después es transparente.</p>
+<p><em>Escena dos: la contraseña del banco.</em> Alguien guarda sus contraseñas en una libreta y tiene la misma en seis sitios. Vaultwarden con los clientes oficiales resuelve el asunto en una tarde, y su versión del 1 de noviembre se instala en un aparato pequeño sin drama. Lo que hay que hacer bien es la copia de la base, porque un servidor de contraseñas sin respaldo es un servidor de contraseñas perdido.</p>
+<p><em>Escena tres: el enchufe de la sala.</em> Una casa con tres bombillas inteligentes que dejaron de responder cuando el fabricante cambió su nube. Con Home Assistant y un adaptador local, las mismas bombillas vuelven a funcionar sin salir a internet. Es la escena que más convence a la gente que no es técnica, porque el ahorro se ve en el interruptor.</p>
+<p><em>Escena cuatro: el código del trabajo.</em> Un programador que usa la nube de repositorios de siempre y quiere una copia propia. Gitea en la cajita, con espejo automático del repositorio principal. Si el servicio de siempre cae o cambia sus condiciones, el trabajo sigue estando en la casa, con sus incidencias y todo.</p>
+<p>───────────────────</p>
+<p><em>🧾 Los diez, uno por uno, con su fecha</em></p>
+<p><em>Immich · immich-app/immich · ★117.960 · AGPL-3.0 · TypeScript · empujón 2 de noviembre de 2026 · versión v3.3.5 del 21 de octubre de 2026.</em> El más grande de la mañana y el que más ha cambiado la conversación sobre fotos. Sincroniza desde el teléfono, reconoce rostros y lugares, y guarda todo en tu disco. La AGPL-3.0 importa: si alguien ofrece el servicio a terceros, tiene que compartir el código.</p>
+<p><em>Home Assistant · home-assistant/core · ★91.912 · Apache-2.0 · Python · empujón 2 de noviembre de 2026 · versión 2026.10.4 del 24 de octubre de 2026.</em> Gobierna la casa: luces, enchufes, sensores, rutinas. Apache-2.0, la licencia más amable de las diez para quien quiera integrarlo en un producto. Sus versiones se numeran por mes, y la de octubre salió hace una semana.</p>
+<p><em>Syncthing · syncthing/syncthing · ★90.007 · MPL-2.0 · Go · empujón 2 de noviembre de 2026 · versión v2.1.7 del 21 de octubre de 2026.</em> Sincroniza carpetas entre aparatos sin servidor central: cada equipo habla con los demás y todos quedan iguales. Es la pieza que sostiene a muchas de las otras, porque copia archivos sin que nadie tenga que acordarse.</p>
+<p><em>Vaultwarden · dani-garcia/vaultwarden · ★70.101 · AGPL-3.0 · Rust · empujón 1 de noviembre de 2026 · versión 1.37.5 del 1 de noviembre de 2026.</em> Servidor de contraseñas compatible con los clientes del gestor más conocido, en versión minúscula y ligera. Paquete del mismo día del empujón: el proyecto más ordenado en entregas de toda la mañana.</p>
+<p><em>Gitea · go-gitea/gitea · ★58.825 · MIT · Go · empujón 2 de noviembre de 2026 · versión v28.3.0 del 1 de noviembre de 2026.</em> Repositorios, incidencias y archivos con interfaz web, corriendo en la casa. MIT, la licencia más permisiva del grupo, y paquete de ayer mismo.</p>
+<p><em>Nextcloud · nextcloud/server · ★37.395 · AGPL-3.0 · PHP · empujón 2 de noviembre de 2026 · versión v33.0.10 del 15 de octubre de 2026.</em> Archivos, calendario, contactos, notas y oficina en el navegador. El más completo y el más pesado: pide más memoria y más mantenimiento que los demás juntos. Se instala cuando de verdad hace falta todo eso.</p>
+<p><em>Navidrome · navidrome/navidrome · ★24.484 · GPL-3.0 · Go · empujón 2 de noviembre de 2026 · versión v0.64.2 del 24 de septiembre de 2026.</em> Sirve tu música a cualquier cliente, incluidos los de la pieza anterior. Empuja hoy y publica desde septiembre: cinco semanas de brecha, normal en un proyecto con un solo mantenedor activo.</p>
+<p><em>FreshRSS · FreshRSS/FreshRSS · ★16.488 · AGPL-3.0 · PHP · empujón 1 de noviembre de 2026 · versión 1.30.4 del 21 de octubre de 2026.</em> Lector de fuentes y noticias, sin algoritmo y sin publicidad. Se monta en cinco minutos y cambia la manera de leer la prensa: una lista, un orden y nada más.</p>
+<p><em>Audiobookshelf · advplyr/audiobookshelf · ★14.890 · GPL-3.0 · JavaScript · empujón 1 de noviembre de 2026 · versión v2.37.2 del 23 de octubre de 2026.</em> Audiolibros y podcasts con avance guardado por persona. Es el servicio que más se agradece en familia, porque cada quien va por su libro sin pisarse.</p>
+<p><em>Mealie · mealie-recipes/mealie · ★13.776 · AGPL-3.0 · Python · empujón 2 de noviembre de 2026 · versión v3.30.0 del 31 de octubre de 2026.</em> Recetario propio con importación desde una dirección, lista de compras y menú semanal. El más pequeño de los diez y el que más se usa en una casa con cocina de verdad.</p>
+<p>───────────────────</p>
+<p><em>🧱 Un aparato, diez servicios</em></p>
+<p>Todo esto cabe en un solo aparato y esa es la parte que sorprende a quien nunca lo ha hecho. Las tres formas domésticas, con lo que hay que saber de cada una.</p>
+<p><em>La cajita de placa única.</em> Consume como una bombilla, no hace ruido y corre diez servicios sin despeinarse si no se le pide transcodificar video. Es la opción de la mayoría, y la que exige aprender un poco de terminal al principio.</p>
+<p><em>La computadora vieja.</em> Más potencia y más disco por menos dinero, a cambio de consumo y ruido. Sirve de sobra para Immich con doce mil fotos y para Home Assistant con treinta dispositivos.</p>
+<p><em>El equipo pequeño de segunda mano.</em> Un aparato de oficina retirado, con su disco y su memoria, cuesta menos que muchos teléfonos y hace este trabajo con los ojos cerrados. La única precaución es el consumo y el ruido del ventilador.</p>
+<p>La regla práctica: dos servicios por cada gigabyte de memoria, sin contar Immich ni Nextcloud, que piden más. Con ocho gigas se corre cómodo casi todo; con cuatro, se corre lo esencial.</p>
+<p>───────────────────</p>
+<p><em>🔐 La puerta, el candado y el puerto abierto</em></p>
+<p>El sótano tiene un riesgo propio y no es el software: es la puerta. Un aparato que sirve cosas dentro de la casa está bien; uno que sirve cosas a internet sin protección es un problema esperando.</p>
+<p><em>Lo primero: no abrir puertos.</em> La manera segura de entrar desde fuera es una red privada virtual que ya venga resuelta por el propio proyecto o una herramienta de túnel con autenticación. Abrir un puerto del router «para probar» es la práctica que llena de cámaras ajenas los foros.</p>
+<p><em>Lo segundo: contraseñas distintas y largas.</em> Una por servicio, guardadas en Vaultwarden, que es justo uno de los diez. Suena circular y es lo correcto: el servidor de contraseñas es la primera cosa que se monta y la última que se expone.</p>
+<p><em>Lo tercero: actualizar.</em> Estas diez piezas publican versiones con frecuencia precisamente porque se encuentran fallos. Un servidor sin actualizar dos años es un servidor con dos años de agujeros conocidos y publicados.</p>
+<p><em>Lo cuarto: usuarios separados.</em> Cada servicio con su usuario del sistema y, cuando se pueda, cada persona de la casa con su cuenta. Si un servicio se compromete, no se lleva los demás por delante.</p>
+<p><em>Lo quinto: saber qué tienes expuesto.</em> Una lista en un papel con los servicios que corren, en qué aparato y con qué acceso. Cuando algo falla o algo huele raro, esa lista es lo que permite apagar lo que hay que apagar sin apagar todo.</p>
+<p>───────────────────</p>
+<p><em>💾 La copia o nada</em></p>
+<p>El autoalojamiento tiene una trampa elegante: te da la sensación de tener las cosas y, si no hay copia, te las quita de golpe el primer disco que falle. Tres reglas y ninguna negociable.</p>
+<p><em>La copia va fuera del aparato.</em> Una copia en el mismo disco que el original no es copia: es una ilusión. Disco externo, otra máquina o un servicio que cifre antes de subir.</p>
+<p><em>La copia se prueba.</em> Cada cierto tiempo, recuperar un archivo al azar y abrirlo. La copia que nunca se ha restaurado es una esperanza con nombre de archivo.</p>
+<p><em>La copia incluye las bases de datos.</em> Immich, Vaultwarden, Gitea y Nextcloud guardan parte de su información en bases que no se copian bien con las carpetas abiertas. Los proyectos explican cómo hacer la copia en caliente; seguir esa receta no es opcional.</p>
+<p>Y una costumbre que ahorra sustos: antes de actualizar cualquier servicio, copia su carpeta y su base. Las actualizaciones de esta familia casi siempre van bien; cuando no van bien, la diferencia entre un mal rato y una pérdida es esa copia de diez minutos.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Levantar el sótano en ocho pasos</em></p>
+<p><em>Paso uno: un servicio, no diez.</em> Vaultwarden o Syncthing, el que resuelva tu problema más molesto. Montar diez de golpe es la forma más rápida de abandonar en la tercera semana.</p>
+<p><em>Paso dos: el aparato primero.</em> Decide dónde va a vivir antes de instalar. Cambiar de aparato después obliga a mover datos, bases y configuraciones.</p>
+<p><em>Paso tres: nombre fijo en la red.</em> Que el aparato tenga siempre la misma dirección interna; si cambia, todos los clientes se pierden y hay que reconfigurarlos uno por uno.</p>
+<p><em>Paso cuatro: contraseñas y usuarios.</em> Antes de abrir el servicio a la familia, no después. Con la casa entera dentro, cambiar contraseñas es una tarde perdida.</p>
+<p><em>Paso cinco: la copia desde el primer día.</em> No cuando haya datos importantes: desde el primer día, porque el primer día es cuando se olvida.</p>
+<p><em>Paso seis: un servicio de reserva para probar.</em> El que quieras conocer, en un puerto distinto, sin usuarios. Si rompe algo, no rompe nada.</p>
+<p><em>Paso siete: la lista de lo que corre.</em> En papel o en un archivo, con nombre, aparato, puerto y quién puede entrar.</p>
+<p><em>Paso ocho: media hora al mes.</em> Actualizar, mirar el disco, probar una copia. La constancia es el único mantenimiento que estos diez proyectos necesitan y el único que nadie puede automatizar del todo.</p>
+<p>───────────────────</p>
+<p><em>🧮 Las cuentas del sótano</em></p>
+<p><em>Primera cuenta: el peso por servicio.</em> Las diez suman ★535.838. Immich, Home Assistant y Syncthing se llevan ★299.879, el 56 %. Los cinco más pequeños —Navidrome, FreshRSS, Audiobookshelf, Mealie y Nextcloud— suman ★106.913, el 20 %. El sótano está dominado por tres proyectos enormes y sostiene la vida diaria con cinco pequeños.</p>
+<p><em>Segunda cuenta: las licencias.</em> Cinco AGPL-3.0 (Immich, Vaultwarden, Nextcloud, FreshRSS, Mealie), dos GPL-3.0 (Navidrome, Audiobookshelf), una MPL-2.0 (Syncthing), una Apache-2.0 (Home Assistant) y una MIT (Gitea). Es el reparto más copyleft de toda la serie, y tiene una explicación: los proyectos que guardan datos personales eligen licencias que impiden cerrarlos.</p>
+<p><em>Tercera cuenta: quién se movió.</em> Los diez empujaron entre el 1 y el 2 de noviembre. Tres publicaron versión en esos mismos dos días: Mealie (31 de octubre), Vaultwarden (1 de noviembre) y Gitea (1 de noviembre). Ese ritmo no se ha visto en ninguna otra pieza de la serie.</p>
+<p>───────────────────</p>
+<p><em>🎯 El caso de la nube que se apagó sola</em></p>
+<p>Una familia pagaba tres servicios: fotos, archivos y contraseñas. Un mes, el de fotos cambió sus condiciones y subió el precio; otro, el de archivos limitó el espacio compartido. Nada se rompió de golpe: simplemente, cada año costaba más y cada año había menos control.</p>
+<p>Empezaron por lo más molesto, que era el gestor de contraseñas. Montaron Vaultwarden en una cajita que ya tenían, importaron, y en una tarde dejaron de pagar. Un mes después, Immich con las fotos; al siguiente, Syncthing para las carpetas compartidas. Nueve meses después seguían pagando un solo servicio, el de respaldo externo, y ese lo mantienen a propósito.</p>
+<p>Lo que este caso enseña no es una receta: es el orden. Se empieza por lo que más duele y por lo más fácil, no por lo más vistoso. Y se mantiene una copia fuera de casa, porque el objetivo nunca fue dejar de pagar: fue dejar de depender.</p>
+<p>───────────────────</p>
+<p><em>🧷 El detalle de los datos que no se ven</em></p>
+<p>Cada servicio guarda tres cosas distintas y solo una está a la vista: los archivos, la configuración y la base de datos. La gente copia los archivos y pierde etiquetas, usuarios y avances.</p>
+<p><em>En Immich,</em> las fotos están en carpetas, y los rostros, álbumes y favoritos viven en una base. Sin la base, las fotos vuelven a ser un montón de imágenes con fecha.</p>
+<p><em>En Vaultwarden,</em> todo está en la base: no hay archivos que copiar. Sin copia de la base no hay contraseñas, y esta es la pieza donde el error es más caro.</p>
+<p><em>En Home Assistant,</em> las automatizaciones viven en archivos de configuración y el historial en una base. Copiar solo la base da un historial sin reglas; copiar solo los archivos, reglas sin historial.</p>
+<p><em>En Gitea,</em> los repositorios están en disco y las incidencias, usuarios y permisos en la base. Una copia sin base devuelve un servidor vacío lleno de código.</p>
+<p>La regla que sirve para los diez: leer la página de copia de seguridad del proyecto, una vez, y seguirla al pie de la letra. Es la única parte de esta guía donde la letra pequeña importa de verdad.</p>
+<p>───────────────────</p>
+<p><em>🏷️ Qué montar primero, según lo que te molesta</em></p>
+<p><em>Si lo que te molesta es pagar almacenamiento de fotos:</em> Immich. Es el que más trabajo da al principio y el que más alivio produce después.</p>
+<p><em>Si lo que te molesta son las contraseñas:</em> Vaultwarden. Es el más rápido de montar y el que más cambia el día a día.</p>
+<p><em>Si lo que te molesta es que las carpetas no estén iguales en los aparatos:</em> Syncthing. Sin servidor, sin cuenta y sin dramas.</p>
+<p><em>Si lo que te molesta es que las luces dependan de una nube:</em> Home Assistant. Es el más exigente al principio porque cada aparato tiene su maña.</p>
+<p><em>Si lo que te molesta es no encontrar tus notas y tu calendario:</em> Nextcloud, y solo si de verdad necesitas todo lo que trae.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me hacen</em></p>
+<p><strong>¿Necesito saber programar para esto?</strong></p>
+<p>No, y sí. Copiar y pegar las instrucciones del proyecto basta para la mayoría de los diez. Lo que hace falta es paciencia para leer una guía y costumbre de mirar los registros cuando algo no arranca.</p>
+<p><strong>¿Cuánto cuesta el aparato?</strong></p>
+<p>Menos que un teléfono de gama media. Una cajita de placa única, su fuente, una tarjeta y un disco por USB resuelven una casa completa. La computadora vieja cuesta cero y consume más.</p>
+<p><strong>¿Es seguro abrirlo a internet?</strong></p>
+<p>Con red privada y autenticación, razonablemente. Abriendo puertos a la ligera, no. Si no estás seguro de lo que haces, deja los servicios dentro de la casa y usa la red privada para entrar; es lo que hace la mayoría.</p>
+<p><strong>¿Qué pasa si el aparato se daña?</strong></p>
+<p>Con copia, se reinstala en una tarde. Sin copia, se pierde lo que había dentro. Esa es toda la diferencia, y por eso la copia va antes que el tercer servicio.</p>
+<p><strong>¿Immich reemplaza la nube de fotos del todo?</strong></p>
+<p>Para una casa, casi siempre sí: sube desde el teléfono, ordena por fecha, reconoce rostros y comparte álbumes. Lo que no hace es guardar las fotos fuera de casa, y eso hay que resolverlo con copia externa.</p>
+<p><strong>¿Home Assistant necesita comprar aparatos especiales?</strong></p>
+<p>No necesariamente: hay enchufes y bombillas baratas que funcionan en local y se integran bien. Lo que hay que evitar es comprar aparatos que solo funcionan con la nube del fabricante.</p>
+<p><strong>¿Puedo tener los diez en el mismo aparato?</strong></p>
+<p>Sí, y no es recomendable el primer mes. Se montan de a uno, se comprueba que cada uno sobrevive a un reinicio y se pasa al siguiente. El orden importa más que la prisa.</p>
+<p><strong>¿Las versiones AGPL me obligan a algo si solo las uso en casa?</strong></p>
+<p>No. La obligación aparece cuando se ofrece el servicio modificado a terceros. Para uso doméstico, las cinco AGPL-3.0 de hoy funcionan como cualquier otro programa.</p>
+<p><strong>¿Cómo accedo desde fuera de casa sin abrir puertos?</strong></p>
+<p>Con una red privada que ya venga integrada en el proyecto o con una herramienta de túnel autenticada. Las dos formas evitan exponer el aparato directamente a internet, que es lo que hay que evitar.</p>
+<p><strong>¿Vale la pena si vivo solo?</strong></p>
+<p>Depende de lo que uses. Con un teléfono lleno de fotos y contraseñas repetidas, sí: dos servicios bastan y sobran. Con tres dispositivos y poca cosa guardada, quizá no valga la molestia.</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla, mitos y glosario</em></p>
+<p><em>Los diez medidos, en una línea</em></p>
+<table>
+<tr><th>Servicio</th><th>Estrellas</th><th>Licencia</th><th>Empujón</th><th>Última versión</th></tr>
+<tr><td>Immich</td><td>★117.960</td><td>AGPL-3.0</td><td>2-nov-2026</td><td>v3.3.5 · 21-oct-2026</td></tr>
+<tr><td>Home Assistant</td><td>★91.912</td><td>Apache-2.0</td><td>2-nov-2026</td><td>2026.10.4 · 24-oct-2026</td></tr>
+<tr><td>Syncthing</td><td>★90.007</td><td>MPL-2.0</td><td>2-nov-2026</td><td>v2.1.7 · 21-oct-2026</td></tr>
+<tr><td>Vaultwarden</td><td>★70.101</td><td>AGPL-3.0</td><td>1-nov-2026</td><td>1.37.5 · 1-nov-2026</td></tr>
+<tr><td>Gitea</td><td>★58.825</td><td>MIT</td><td>2-nov-2026</td><td>v28.3.0 · 1-nov-2026</td></tr>
+<tr><td>Nextcloud</td><td>★37.395</td><td>AGPL-3.0</td><td>2-nov-2026</td><td>v33.0.10 · 15-oct-2026</td></tr>
+<tr><td>Navidrome</td><td>★24.484</td><td>GPL-3.0</td><td>2-nov-2026</td><td>v0.64.2 · 24-sep-2026</td></tr>
+<tr><td>FreshRSS</td><td>★16.488</td><td>AGPL-3.0</td><td>1-nov-2026</td><td>1.30.4 · 21-oct-2026</td></tr>
+<tr><td>Audiobookshelf</td><td>★14.890</td><td>GPL-3.0</td><td>1-nov-2026</td><td>v2.37.2 · 23-oct-2026</td></tr>
+<tr><td>Mealie</td><td>★13.776</td><td>AGPL-3.0</td><td>2-nov-2026</td><td>v3.30.0 · 31-oct-2026</td></tr>
+</table>
+<p><em>Cinco mitos del sótano</em></p>
+<p><em>Mito uno: «autoalojar es para expertos».</em> Es leer una guía, copiar un comando y mirar los registros cuando falla. Lo que hace falta es constancia, no un título.</p>
+<p><em>Mito dos: «si está en mi casa, está seguro».</em> Está más controlado, no más seguro. Sin copia, sin contraseñas distintas y sin actualizaciones, un aparato casero es tan frágil como cualquier otro.</p>
+<p><em>Mito tres: «con una copia en el mismo disco estoy cubierto».</em> No: cuando ese disco falla, se van el original y la copia a la vez. La copia tiene que estar en otro sitio.</p>
+<p><em>Mito cuatro: «AGPL es peligrosa para uso doméstico».</em> La obligación de compartir aparece al ofrecer el servicio modificado a terceros. En casa, no cambia nada.</p>
+<p><em>Mito cinco: «más servicios es más útil».</em> Cada servicio es una cosa más que actualizar, copiar y vigilar. La casa que funciona es la de tres o cuatro servicios bien mantenidos, no la de doce abandonados.</p>
+<p><em>Glosario</em></p>
+<p><em>Autoalojar:</em> correr un servicio en un aparato propio en lugar de contratarlo.</p>
+<p><em>Contenedor:</em> forma de empaquetar un servicio con todo lo que necesita para correr igual en cualquier aparato.</p>
+<p><em>Red privada:</em> conexión cifrada que permite entrar a la casa desde fuera sin abrir puertos.</p>
+<p><em>Base de datos:</em> archivo donde el servicio guarda usuarios, etiquetas y metadatos; va en la copia.</p>
+<p><em>Puerto:</em> número que identifica un servicio dentro de la red; abrirlo al exterior es la decisión de riesgo.</p>
+<p><em>Placa única:</em> aparato pequeño de bajo consumo que corre un sistema completo.</p>
+<p>───────────────────</p>
+<p><em>🧭 Cuatro perfiles y su sótano</em></p>
+<p><em>El que quiere dejar de pagar fotos.</em> Immich y Syncthing, con copia externa. Dos servicios, una tarde de montaje y una noche de primera sincronización.</p>
+<p><em>El que quiere la casa bajo control.</em> Home Assistant y, si acaso, un servicio de notificaciones propio. Es el perfil que más aparatos toca y el que más tiempo pide al principio.</p>
+<p><em>El que trabaja con datos.</em> Gitea, Nextcloud y Vaultwarden. Código, archivos y contraseñas: las tres cosas que más duele perder y las tres que peor se reconstruyen.</p>
+<p><em>El que quiere su media en casa.</em> Navidrome o Audiobookshelf, según sea música o audiolibros, y un cliente de los que se midieron en la pieza de la música o en la de la capa de inmersión.</p>
+<p>───────────────────</p>
+<p><em>🔌 La casa inteligente, en local</em></p>
+<p>Home Assistant merece su propio apartado porque es el que más cambia de forma según lo que haya en la casa.</p>
+<p><em>Lo que funciona bien en local.</em> Enchufes y bombillas que hablan un protocolo abierto, sensores de puerta y movimiento, termostatos con integración local. Se configuran una vez y responden aunque no haya internet.</p>
+<p><em>Lo que funciona mal.</em> Todo aparato que solo obedece a la nube de su fabricante. Se integra, sí, pero el día que el fabricante cambie algo, se cae la mitad de la casa. La regla: antes de comprar un aparato inteligente, preguntar si funciona sin internet.</p>
+<p><em>La automatización que vale la pena.</em> No es la que enciende luces de colores: es la que apaga lo que se quedó encendido, avisa cuando falta algo o cierra la puerta que quedó abierta. Las rutinas útiles son aburridas, y son las que se usan todos los días.</p>
+<p><em>El costo escondido.</em> Cada integración es una cosa más que mantener y cada actualización puede romper una. Una casa con treinta dispositivos y una instalación descuidada da más trabajo que beneficios; una con ocho dispositivos bien elegidos se olvida y funciona.</p>
+<p>───────────────────</p>
+<p><em>📸 Las fotos: el servicio que más pesa</em></p>
+<p>Immich es el proyecto más grande de la mañana y también el que más recursos pide. Tres cosas que conviene saber antes de instalarlo.</p>
+<p><em>La primera sincronización es la prueba.</em> Doce mil fotos pueden tardar una noche entera, y durante ese rato el aparato va cargado. Conviene hacerlo de noche, por cable y sin otros servicios peleando por el disco.</p>
+<p><em>El reconocimiento de rostros y lugares es local.</em> No se manda nada a ningún servicio externo: se procesa en el aparato de la casa. Eso explica por qué pide procesador y por qué la primera pasada tarda.</p>
+<p><em>La organización por carpetas es secundaria.</em> Immich guarda por fecha y organiza por álbumes; si vienes de una carpeta ordenada a mano, ese orden no se conserva igual. Se puede exportar y mantener una estructura propia, a costa de espacio.</p>
+<p>Y la advertencia de siempre, que en fotos duele más que en nada: sin copia fuera del aparato, la nube que acabas de montar tiene el mismo riesgo que la que apagaste.</p>
+<p>───────────────────</p>
+<p><em>🎧 La música y los audiolibros en el sótano</em></p>
+<p>Navidrome y Audiobookshelf son primos y se montan parecido, con una diferencia que decide la elección: la música se escucha seguida y los audiolibros se escuchan por partes durante semanas.</p>
+<p><em>Navidrome</em> indexa la carpeta, lee las etiquetas y sirve la biblioteca a cualquier cliente compatible con el protocolo de siempre. Su virtud es ser invisible: una vez montado, los reproductores que ya tienes lo ven y no hay nada más que configurar.</p>
+<p><em>Audiobookshelf</em> añade lo que un audiolibro necesita: avance por persona, velocidad de lectura, temporizadores para dormirse y una biblioteca de podcasts con descargas. Es el servicio que más se agradece cuando hay dos personas escuchando el mismo libro a ritmos distintos.</p>
+<p>Los dos viven bien en la misma cajita y los dos dependen de lo mismo: la carpeta bien ordenada. Un audiolibro con los capítulos numerados a medias y un disco con las pistas sin etiqueta son problemas de orden, no de programa.</p>
+<p>───────────────────</p>
+<p><em>📰 Las noticias y las recetas</em></p>
+<p>Dos servicios pequeños que parecen de adorno y cambian rutinas completas.</p>
+<p><em>FreshRSS</em> junta los sitios que te interesan en una sola lista, sin algoritmo y sin publicidad. Lo que devuelve es tiempo: se lee lo que uno eligió y no lo que alguien decidió mostrar. Se monta en cinco minutos y se lee desde cualquier navegador.</p>
+<p><em>Mealie</em> guarda las recetas de la casa, importa desde una dirección y arma la lista de compras. Su utilidad real no es cocinar distinto: es dejar de buscar la receta de la abuela en una foto de mensajería de hace tres años.</p>
+<p>Los dos comparten una ventaja que se agradece con el tiempo: son pequeños, no piden casi recursos y su copia de seguridad es un archivo que se puede guardar en un pendrive.</p>
+<p>───────────────────</p>
+<p><em>🕰️ Cómo cambió el sótano en tres años</em></p>
+<p>En 2023 autoalojar era un pasatiempo de gente con servidores en el cuarto y cables por todas partes. La instalación se hacía a mano, cada servicio tenía su receta y la mitad de las guías estaban desactualizadas.</p>
+<p>En 2026 el paisaje es otro: los diez proyectos de hoy empujaron en dos días, casi todos se instalan con un archivo de configuración y varios se actualizan solos. Lo que antes era un fin de semana ahora es una tarde, y lo que antes era un experto ahora es alguien con paciencia y una guía buena.</p>
+<p>Lo que no cambió: la copia sigue siendo manual o semi-manual, el riesgo de abrir puertos sigue siendo el mismo y el mantenimiento sigue pidiendo media hora al mes. La técnica mejoró; la responsabilidad no se automatiza.</p>
+<p>───────────────────</p>
+<p><em>🧪 Cuatro pruebas antes de confiar en el sótano</em></p>
+<p><em>Prueba uno: apágalo y enciéndelo.</em> Reinicia el aparato y comprueba que todos los servicios vuelven solos. El que no vuelve, necesita un ajuste antes de que haya datos importantes dentro.</p>
+<p><em>Prueba dos: entra desde el teléfono.</em> Con el wifi de la casa y luego con datos móviles, si tienes la red privada configurada. Lo que no funciona desde el teléfono no funciona en la vida real.</p>
+<p><em>Prueba tres: recupera un archivo de la copia.</em> Uno solo, al azar, de un servicio cualquiera. Es la única prueba que de verdad dice si el sótano está protegido.</p>
+<p><em>Prueba cuatro: deja pasar una semana sin tocarlo.</em> Si a la semana todo sigue funcionando y nadie se quejó, la instalación está terminada. Si algo se cayó, ya sabes cuál es el servicio que pide atención.</p>
+<p>───────────────────</p>
+<p><em>🧾 Lo que costó medir este sótano</em></p>
+<p>La mañana se fue en tres cosas. La primera, confirmar que los diez empujaron de verdad entre el 1 y el 2 de noviembre, porque un resultado así de limpio invita a sospechar de la herramienta: se abrió la página de cada proyecto y se leyó la fecha del último empujón una por una, tres lecturas con el orden rotado.</p>
+<p>La segunda, separar empujón de versión, que en este barrio es especialmente engañoso porque varios proyectos publican con nombres largos y fechas que no coinciden con la última escritura. Navidrome, por ejemplo, empuja hoy y publicó el 24 de septiembre; Vaultwarden empujó y publicó el mismo 1 de noviembre.</p>
+<p>La tercera, revisar los candidatos que se quedaron fuera. Se midieron también PhotoPrism (★40.390, con la ficha de licencia en NOASSERTION y sin conclusión clara, así que no entra en la tabla), Linkwarden (★20.295, AGPL-3.0, versión v2.16.3 del 9 de septiembre, empujón del 26 de octubre) y un par de servidores de notas. Los tres se nombran aquí para que la selección no parezca capricho: la regla fue quedarse con los que cubren una función distinta y tienen licencia concluyente.</p>
+<p>───────────────────</p>
+<p><em>🧷 Lo que no resuelve el sótano</em></p>
+<p>Ninguno de los diez evita el trabajo de elegir qué guardar. Ninguno arregla la conexión de la casa. Ninguno sustituye la copia externa ni la decisión de qué hacer si el aparato se quema. Y ninguno convierte a nadie en administrador de sistemas: lo que hace es darle a una persona común las riendas de sus propios datos.</p>
+<p>───────────────────</p>
+<p><em>📶 El sótano sin internet</em></p>
+<p>Cuando la conexión de la casa se cae, el sótano sigue vivo y esa es una de sus mejores virtudes. Los servicios corren en la red interna; lo único que se pierde es lo que consulta afuera: carátulas nuevas, actualizaciones y metadatos que aún no se habían descargado.</p>
+<p>Dos ajustes dejan el sótano listo para el apagón. El primero: descargar de una vez los metadatos de lo que ya está en la biblioteca, en todos los servicios que los usen. El segundo: tener los clientes configurados con la dirección interna del aparato y no con un nombre que dependa de un servicio externo.</p>
+<p>Con eso, un apagón de internet significa una noche con las fotos, la música, los libros y las recetas funcionando. Es una sensación rara la primera vez y muy tranquilizadora la segunda.</p>
+<p>───────────────────</p>
+<p><em>🧷 El ahorro real, con números</em></p>
+<p>La cuenta honesta de una casa pequeña: tres suscripciones típicas —fotos, archivos y contraseñas— cuestan más al año que una cajita de placa única con su disco. La diferencia no es enorme el primer año, y se vuelve clara al tercero, cuando el aparato ya está pagado y las suscripciones han subido.</p>
+<p>Lo que no se ahorra es tiempo. El montaje inicial son unas horas; el mantenimiento, media hora al mes; y las horas de aprendizaje, las que cada quien necesite. Quien cuente solo el dinero va a creer que ahorra; quien cuente el tiempo va a entender por qué mucha gente prefiere seguir pagando. Las dos cuentas son legítimas y conviene hacerlas antes de empezar, no a mitad de camino.</p>
+<p>───────────────────</p>
+<p><em>🏷️ Las carpetas del sótano</em></p>
+<p>Un esquema de carpetas que sirve para casi todos los servicios de hoy, sin pelear con ninguno:</p>
+<p><em>Fotos:</em> una carpeta por año y, dentro, por mes. Immich organiza por su cuenta, y esta estructura sirve para cuando haya que salir de él con los archivos a mano.</p>
+<p><em>Música:</em> artista, álbum y pistas numeradas. Navidrome lee las etiquetas, y la carpeta ordenada es el respaldo cuando las etiquetas fallan.</p>
+<p><em>Libros y audiolibros:</em> autor, título y, en los audiolibros, una carpeta por libro con los capítulos numerados con dos cifras.</p>
+<p><em>Papeles:</em> tipo, año y nombre del archivo con la fecha delante, como se explicó en la pieza del papeleo.</p>
+<p><em>Código:</em> en Gitea, con un repositorio por proyecto y una copia espejo de lo que viva fuera.</p>
+<p>Cinco carpetas, cinco reglas y una costumbre: lo que entra se ordena el mismo día. El sótano no ordena por ti; solo hace que el desorden esté disponible en todas partes.</p>
+<p>───────────────────</p>
+<p><em>🧰 Tres herramientas que hacen falta antes de empezar</em></p>
+<p>No son programas de la tabla y sin ellas el resto se complica.</p>
+<p><em>Un cliente para entrar al aparato.</em> Una terminal por red, que hoy viene con cualquier sistema para placa única. Sin ella no se ve qué pasa cuando un servicio no arranca.</p>
+<p><em>Una forma de ver los servicios.</em> Un panel que muestre qué está corriendo y qué se cayó. Cualquiera de los que existen sirve; lo importante es no descubrir que el servidor de fotos lleva tres días caído cuando alguien pregunta por las fotos del cumpleaños.</p>
+<p><em>Una rutina de actualización.</em> Un recordatorio mensual, en el teléfono, con día y hora. Los diez proyectos publican seguido; quien no actualiza no solo pierde mejoras: acumula fallos conocidos y publicados.</p>
+<p>Con esas tres cosas y un aparato, el sótano se levanta en una tarde. Sin ellas, se levanta igual y se abandona en un mes.</p>
+<p>───────────────────</p>
+<p><em>🎚️ Los ajustes que evitan sustos</em></p>
+<p>Cinco ajustes, uno por servicio grande, que ahorran disgustos concretos.</p>
+<p><em>En Immich:</em> limitar el tamaño de las miniaturas y la calidad de la copia de seguridad del teléfono. Un teléfono subiendo originales de doce megas llena cualquier disco en un año.</p>
+<p><em>En Home Assistant:</em> hacer copia antes de cada actualización y no actualizar el mismo día que se estrena un aparato nuevo. Cuando algo falla, hay dos cambios y no se sabe cuál fue.</p>
+<p><em>En Syncthing:</em> versionar los archivos eliminados. La sincronización es implacable: lo que se borra en un aparato desaparece en todos, salvo que se le diga que guarde versiones.</p>
+<p><em>En Vaultwarden:</em> activar el segundo factor y guardar el código de recuperación en papel, fuera del aparato. Un servidor de contraseñas sin segundo factor es una caja fuerte con la llave puesta.</p>
+<p><em>En Gitea:</em> copia del repositorio además de la copia de la base. Las dos cosas juntas son el proyecto completo; una sola es media verdad.</p>
+<p>───────────────────</p>
+<p><em>📎 Lo que deja el sótano</em></p>
+<p>Diez servicios medidos, diez empujones en dos días y una idea que se sostiene sola: la casa puede guardar lo suyo si alguien le dedica una tarde y media hora al mes. Lo demás —precio, comodidad, riesgo— se decide en cada cocina y en cada cuarto, con la información delante.</p>
+<p>───────────────────</p>
+<p><em>🧭 Si solo tienes una tarde</em></p>
+<p>Elige un servicio, el que más te moleste hoy. Monta ese, prueba que sobrevive a un reinicio y deja la copia funcionando. Con eso terminas la tarde con algo real en la casa y con una idea clara de cuánto trabajo da el siguiente. Los diez juntos no se montan en una tarde; el primero, sí.</p>
+<p>───────────────────</p>
+<p><em>🎯 El caso del disco que falló un martes</em></p>
+<p>Un sótano de dos años con fotos, música y contraseñas perdió el disco un martes por la mañana. La copia existía: un disco externo conectado al mismo aparato, actualizado cada mes. El disco externo también estaba conectado cuando el otro falló, y se llevó por delante la mitad de la copia.</p>
+<p>Lo que salvó el caso fue una segunda copia, la que hacían al pendrive cada tres meses y que nadie recordaba. Se recuperó casi todo y se perdió el último mes de fotos. La lección quedó escrita en la pared del cuarto: la copia no puede estar siempre conectada al mismo aparato que el original.</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces</em></p>
+<ul>
+<li>Immich: <a href="https://github.com/immich-app/immich">https://github.com/immich-app/immich</a></li>
+<li>Home Assistant: <a href="https://github.com/home-assistant/core">https://github.com/home-assistant/core</a></li>
+<li>Syncthing: <a href="https://github.com/syncthing/syncthing">https://github.com/syncthing/syncthing</a></li>
+<li>Vaultwarden: <a href="https://github.com/dani-garcia/vaultwarden">https://github.com/dani-garcia/vaultwarden</a></li>
+<li>Gitea: <a href="https://github.com/go-gitea/gitea">https://github.com/go-gitea/gitea</a></li>
+<li>Nextcloud: <a href="https://github.com/nextcloud/server">https://github.com/nextcloud/server</a></li>
+<li>Navidrome: <a href="https://github.com/navidrome/navidrome">https://github.com/navidrome/navidrome</a></li>
+<li>FreshRSS: <a href="https://github.com/FreshRSS/FreshRSS">https://github.com/FreshRSS/FreshRSS</a></li>
+<li>Audiobookshelf: <a href="https://github.com/advplyr/audiobookshelf">https://github.com/advplyr/audiobookshelf</a></li>
+<li>Mealie: <a href="https://github.com/mealie-recipes/mealie">https://github.com/mealie-recipes/mealie</a></li>
+<li>Linkwarden (medido y no incluido): <a href="https://github.com/linkwarden/linkwarden">https://github.com/linkwarden/linkwarden</a></li>
+<li>PhotoPrism (medido y no incluido): <a href="https://github.com/photoprism/photoprism">https://github.com/photoprism/photoprism</a></li>
+</ul>
+<p><em>Cómo se midió:</em> diez repositorios con las tres lecturas completas y el orden rotado —API de búsqueda, página del repositorio y contenido crudo del README y la licencia—, más una comprobación a mano de la fecha del último empujón en cada proyecto porque el resultado de la mañana —diez de diez empujando en dos días— pedía confirmación. Las versiones se tomaron de la lista de publicaciones de cada repositorio, una por una. Corte entre las 12:00 y las 13:10 de Santo Domingo.</p>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — un aparato y diez servicios</em></p>
+<p>El sótano de esta mañana es el barrio más activo de la serie: diez proyectos, diez empujones en dos días y tres versiones publicadas entre el 31 de octubre y el 1 de noviembre. Y es también el que más claro deja el reparto de fuerzas: Immich, Home Assistant y Syncthing se llevan el 56 % de las ★535.838 medidas, mientras los cinco pequeños sostienen la vida diaria con el 20 %.</p>
+<p>Lo que se compra con esto no es ahorro: es control. Un aparato encendido en la casa, diez servicios que se actualizan, una copia que se prueba y una lista de lo que corre. A cambio, se deja de depender de que alguien en otro país mantenga su servidor encendido y sus precios quietos.</p>
+<p><em>Medición del corte:</em> lunes 2 de noviembre de 2026, entre las 12:00 y las 13:10 de Santo Domingo · diez repositorios con las tres lecturas completas y el orden rotado · diez fechas de empujón confirmadas a mano · diez publicaciones consultadas una por una.</p>
+<p><em>Licencia de esta entrega:</em> prosa bajo CC BY-SA 4.0, cifras bajo CC BY 4.0 y ejemplos de código bajo MIT. La marca «Alexis (La Bandita)» y el nombre de la casa no entran en ninguna de las tres y siguen siendo de quien son.</p>
+<blockquote>—¿Y si se daña la cajita?</blockquote>
+<blockquote>—Se cambia la cajita; lo que no se cambia es la copia que hiciste fuera de ella.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Autoalojar no es tener un servidor: es tener una copia fuera, una contraseña larga y media hora al mes.</p>
+<p>───────────────────</p>
+<h2>🗒️ Notas al pie</h2>
+<p>(2-nov) Las diez fechas de empujón se confirmaron a mano tras la lectura automática, porque diez de diez empujando en cuarenta y ocho horas es un resultado que conviene verificar antes de publicar.</p>
+<p>(2-nov) PhotoPrism se midió (★40.390, empujón 29 de octubre, versión del 29 de octubre) y no entra en la tabla porque su ficha de licencia devuelve NOASSERTION y el archivo no permitió concluir; se nombra en los enlaces y en el cuerpo, y se dice por qué queda fuera.</p>
+<p>(2-nov) Linkwarden se midió (★20.295, AGPL-3.0, empujón 26 de octubre, versión v2.16.3 del 9 de septiembre) y se quedó fuera por cubrir una función que ninguno de los diez perfiles de esta guía pedía.</p>
+<p>(2-nov) Cinco de los diez llevan AGPL-3.0; la nota sobre qué obliga esa licencia en uso doméstico se apoya en el texto de la propia licencia y no en resúmenes de terceros.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

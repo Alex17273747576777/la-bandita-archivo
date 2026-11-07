@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-07-11T17:31:18Z",
+   "oid": "f9af0c0d51db61d49120f1c31b8204f597ea8fda"
+  }
+ },
+ "diskUsage": 69908,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "alzhahirdev/mihonsync",
+ "pushedAt": "2026-07-11T17:32:39Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2024-04-09T08:48:32Z",
+    "tagName": "0.16.4"
+   }
+  ]
+ },
+ "stargazerCount": 1
+}

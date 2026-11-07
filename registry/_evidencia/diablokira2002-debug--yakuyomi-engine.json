@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-07T09:26:01Z",
+   "oid": "ad2811dce66a5b9aa4f3c920af831ed732b1012b"
+  }
+ },
+ "diskUsage": 54243,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "diablokira2002-debug/yakuyomi-engine",
+ "pushedAt": "2026-10-08T00:57:42Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

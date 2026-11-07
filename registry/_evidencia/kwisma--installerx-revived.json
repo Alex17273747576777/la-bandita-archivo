@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-04-06T10:06:18Z",
+   "oid": "10a5310d5067e217befffce993af8239dbcd3243"
+  }
+ },
+ "diskUsage": 17614,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "Kwisma/InstallerX-Revived",
+ "pushedAt": "2026-04-06T10:37:15Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": true,
+    "publishedAt": "2026-04-06T10:37:15Z",
+    "tagName": "26.04.10a5310"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

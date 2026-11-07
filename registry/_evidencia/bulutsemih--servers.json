@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2025-03-17T04:57:02Z",
+   "oid": "20a1ac1d8da8b85fb8d39ba2da4006ce0c706953"
+  }
+ },
+ "diskUsage": 1868,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "bulutsemih/servers",
+ "pushedAt": "2025-03-17T04:57:03Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 1
+}

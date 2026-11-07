@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-25T15:00:26Z",
+   "oid": "42f1258adb9cb390f593bf83a8a5af3bb33de393"
+  }
+ },
+ "diskUsage": 21975,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "benefit77/InstallerX-Revived",
+ "pushedAt": "2026-08-25T15:09:39Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": true,
+    "publishedAt": "2026-08-25T15:09:39Z",
+    "tagName": "26.08.42f1258"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-25T01:49:53Z",
+   "oid": "dd0236d60f911a2b175c6ecea2c704dd80749e40"
+  }
+ },
+ "diskUsage": 1101840,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "tencentmalos/WinNative",
+ "pushedAt": "2026-09-25T01:49:53Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

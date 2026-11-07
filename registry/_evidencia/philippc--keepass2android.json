@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-27T09:39:02Z",
+   "oid": "8b60a72fc8eb23e8580df053a49ca813a686c838"
+  }
+ },
+ "diskUsage": 94455,
+ "forkCount": 484,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 1163
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "PhilippC/keepass2android",
+ "pushedAt": "2026-10-29T01:52:30Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2017-12-08T18:48:30Z",
+    "tagName": "v1.02"
+   }
+  ]
+ },
+ "stargazerCount": 6365
+}

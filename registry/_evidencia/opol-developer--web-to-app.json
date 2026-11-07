@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-07-27T10:49:57Z",
+   "oid": "9ea2bda0dea7fb876c27a075632314f71e1c7f76"
+  }
+ },
+ "diskUsage": 81232,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "opol-developer/web-to-app",
+ "pushedAt": "2026-07-27T13:22:08Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

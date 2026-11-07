@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2025-04-09T04:34:31Z",
+   "oid": "aca014934a24dd03def1a0e2e0b9868fdcbd78b6"
+  }
+ },
+ "diskUsage": 1197,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "AndyManastorm/smithery-reference-servers",
+ "pushedAt": "2025-04-09T04:34:31Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 1
+}

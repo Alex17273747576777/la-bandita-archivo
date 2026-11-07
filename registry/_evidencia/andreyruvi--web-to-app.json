@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-06T17:05:23Z",
+   "oid": "56629926fac416c17f3cf237a1729c29922fba44"
+  }
+ },
+ "diskUsage": 88567,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "andreyruvi/web-to-app",
+ "pushedAt": "2026-09-06T17:05:40Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 1
+}

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-03T05:12:33Z",
+   "oid": "3c64e2511b5358e76a1f8c67f95e6c599d2934e2"
+  }
+ },
+ "diskUsage": 79383,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "danillogical/playtranslate",
+ "pushedAt": "2026-09-06T20:02:07Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

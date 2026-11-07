@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2025-12-30T18:23:25Z",
+   "oid": "65384c22b5914c1910458ecc4e0d4e0b9a74805a"
+  }
+ },
+ "diskUsage": 3456,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "zunyuange/web-to-app",
+ "pushedAt": "2025-12-30T18:31:32Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2024-12-05T07:40:45Z",
+   "oid": "0ae9d7fabe872ce4f9646bd362764389eee5d952"
+  }
+ },
+ "diskUsage": 6,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "SkyShores/yokai-nightly",
+ "pushedAt": "2026-04-12T02:49:14Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

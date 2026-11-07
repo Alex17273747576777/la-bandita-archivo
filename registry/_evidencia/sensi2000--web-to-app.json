@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-07-05T10:10:24Z",
+   "oid": "858b24c9177644e3f4e143fdab2a84f819d1b2cd"
+  }
+ },
+ "diskUsage": 78051,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "sensi2000/web-to-app",
+ "pushedAt": "2026-07-05T14:52:03Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

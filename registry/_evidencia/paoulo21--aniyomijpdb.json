@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2025-12-30T22:22:42Z",
+   "oid": "d204946684735cca25cfbe1517904d4f425cfa82"
+  }
+ },
+ "diskUsage": 81963,
+ "forkCount": 1,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "paoulo21/AniyomiJPDB",
+ "pushedAt": "2026-01-03T00:08:25Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2025-12-30T22:31:04Z",
+    "tagName": "1.0"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

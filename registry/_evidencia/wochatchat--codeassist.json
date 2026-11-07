@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-07-07T01:09:33Z",
+   "oid": "56987dc4dee9757e56a97366610c24536a87d9a2"
+  }
+ },
+ "diskUsage": 769856,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "wochatchat/CodeAssist",
+ "pushedAt": "2026-07-07T01:09:34Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

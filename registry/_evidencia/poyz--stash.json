@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-16T19:08:25Z",
+   "oid": "c8f919c1341245d30b166d47e3264f2022afc579"
+  }
+ },
+ "diskUsage": 23619,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "poyz/Stash",
+ "pushedAt": "2026-08-17T11:19:40Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

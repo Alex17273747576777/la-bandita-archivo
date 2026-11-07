@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="29 — LOS MAYORDOMOS">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>29 — LOS MAYORDOMOS</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "29 — LOS MAYORDOMOS", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "29 de octubre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>29 — LOS MAYORDOMOS</h1>
+<p class="meta">WhatsApp · 29 de octubre de 2026 · 37,627 caracteres</p>
+<p><em>29 — LOS MAYORDOMOS</em></p>
+<p>*KDE Connect une el teléfono con la PC a los once años, Home Assistant toma la casa entera: los</p>
+<p>que trabajan mientras tú vives (WhatsApp · La Bandita · dominicano-ES)*</p>
+<p>───────────────────</p>
+<p><em>🗺 MAPA DE ESTA GUÍA</em></p>
+<p>⏱ <em>Lectura total: 55 min</em> · Todo dato con fecha y placa · Censo del 15-oct-2026 (tarde)</p>
+<p>───────────────────</p>
+<p><em>🌱 LA SEMILLA</em></p>
+<p>El trabajo repetido es el impuesto invisible del diario: pasar las fotos por cable pa mandarlas a la PC, levantarse pa apagar el bombillo del patio, palomear el mismo permiso diez veces al mes (el taller ya le puso autómata en el 25). Los mayordomos existen pa cancelar ese impuesto: el que une tus máquinas (KDE Connect) y el que atiende tu casa (Home Assistant).</p>
+<p>La serie preparó el terreno: el cajón (25) firmó el autómata de toques (Touch Helper, MIT), el sótano (26) dejó el espejo trabajando de noche, el correo (28) dejó las reglas trabajando solas. Esta pieza completa el personal de la casa: el mayordomo de MESA (teléfono↔PC) y el mayordomo de CASA (la domótica del tablero).</p>
+<p>Y su vara es la más dominicana de la serie: el mayordomo bueno es el que se nota menos. El que</p>
+<p>suena, el que sorprende, el que «hace cosas raras a las 3 AM» no es mayordomo — es riesgo con</p>
+<p>logo.</p>
+<p>La pieza mide oficio: lo que se automatiza se entiende ANTES de instalar — la receta de la casa</p>
+<p>es la misma desde el cajón.</p>
+<p>───────────────────</p>
+<p><em>🎩 EL CENSO DE LOS MAYORDOMOS (censo 15-oct-2026)</em></p>
+<p>Las placas completas, tal como el censo de la tarde y el pulso nocturno del 15-oct-2026 las</p>
+<p>contestaron:</p>
+<p><em>KDE Connect (Android)</em> — KDE/kdeconnect-android · ★1.480 (pulso 15-oct-2026) · push del 15-oct</p>
+<p>· GPL-2.0 · repo nacido el 18-sep-2015.</p>
+<p>El mayordomo de mesa: une el teléfono Android con la PC (Windows, Mac, Linux) por la red de la</p>
+<p>casa — archivos sin cable, notificaciones en la pantalla grande, el teléfono como control remoto</p>
+<p>del escritorio, y el mensajero contestado desde la PC. Once años y un mes de taller de la</p>
+<p>comunidad KDE.</p>
+<p><em>Home Assistant Companion</em> — home-assistant/android · ★3.968 (pulso del 16-oct-2026) · push del</p>
+<p>MISMO día · Apache-2.0 · nacida el 2-abr-2019. El mayordomo de casa: la app oficial de Android</p>
+<p>del proyecto Home Assistant — el tablero que controla y automatiza la casa conectada (luces,</p>
+<p>enchufes, cámaras, sensores, persianas) desde un servidor propio.</p>
+<p>Siete años y seis meses de taller — y el push más fresco de la noche: trabajando después de</p>
+<p>medianoche.</p>
+<p><em>Frontera anotada:</em> Touch Helper (25) es el PRIMO del cajón — automatiza toques dentro del teléfono. Los mayordomos de hoy automatizan ENTRE máquinas y ENTRE aparatos: la misma escuela, tres pisos de alcance.</p>
+<p>Y la escuela cerrada (Tasker, MacroDroid y familia de pago ajeno) queda declarada en la sección de honestidad: existen, se pagan, y su vara no la mide este censo.</p>
+<p>───────────────────</p>
+<p>Detalle que la forja firma con vara al 15-oct-2026: las estrellas de los mayordomos son MODESTAS</p>
+<p>(★1.480 y ★3.968 al pulso) — y es la medida más engañosa del censo.</p>
+<p>El dato completo al pulso del 15-oct-2026: KDE Connect es la app MÁS INSTALADA del ecosistema KDE entero (su gente vive en cada distribución de Linux del mundo). Home Assistant es uno de los proyectos de casa conectada más grandes del planeta (su proyecto madre pasa de las ★80.000 al pulso — la app es solo su mano en el bolsillo).</p>
+<p>La lección de la noche: la estrella mide el repo de la app — el oficio se mide en el ecosistema</p>
+<p>entero. La placa del mayordomo es su casa madre.</p>
+<p><em>🏫 LAS DOS ESCUELAS DEL OFICIO</em></p>
+<p>Dos casas, dos escuelas — y la escuela la marca el ALCANCE del mayordomo: tu escritorio o tu</p>
+<p>casa entera.</p>
+<p><em>LA ESCUELA DE MESA (KDE Connect).</em> El oficio de unir tus dos pantallas: el teléfono y la PC.</p>
+<p>Sus faenas del diario: el archivo que pasa sin cable (la foto del cliente, el PDF del banco),</p>
+<p>las notificaciones del teléfono en la esquina de la PC, el teléfono como mouse y teclado de</p>
+<p>emergencia, el portapapeles compartido (copias en el teléfono, pegas en la PC), y el control de</p>
+<p>multimedia desde el bolsillo.</p>
+<p>El mensajero contestado sin levantarte de la silla — la faena favorita del barrio oficioso. Su</p>
+<p>vara: funciona en la RED DE LA CASA — cifrada entre tus máquinas, sin nube de por medio: tus</p>
+<p>cosas viajan de tu teléfono a tu PC, punto.</p>
+<p><em>LA ESCUELA DE CASA (Home Assistant).</em> El oficio del tablero completo: la app es la mano del</p>
+<p>servidor casero que atiende la casa conectada — luces que se apagan solas a la hora, el enchufe</p>
+<p>del calentador con horario, la cámara del patio en el bolsillo, la temperatura del cuarto en el</p>
+<p>tablero.</p>
+<p>Su vara: pide SERVIDOR (la pieza del selfhosted, 51-60, es su terreno completo) — la app sola no hace nada sin la casa madre. La forja la firma como el mayordomo más capaz del censo y el que más oficio pide: primero el servidor, después la mano.</p>
+<p><em>Cómo se arma el personal sin equivocarse:</em></p>
+<p>El que quiere pasar archivos y contestar el mensajero desde la PC → escuela de mesa: KDE Connect</p>
+<p>en las dos máquinas — una tarde, cero servidores, la comodidad inmediata.</p>
+<p>El que ya tiene o quiere casa conectada (y el taller del servidor no lo asusta) → escuela de</p>
+<p>casa: el servidor Home Assistant primero (bloques 51-60), la app después — el tablero de tu vida</p>
+<p>en el bolsillo.</p>
+<p>Y el orden de la forja: mesa PRIMERO, casa DESPUÉS — igual que el cajón (25): el mayordomo fácil</p>
+<p>enseña el oficio, el mayordomo completo lo ejerce. Nadie empieza la casa por el tablero de</p>
+<p>domótica.</p>
+<p>───────────────────</p>
+<p><em>⚖ LA VARA DE LA LICENCIA</em></p>
+<p>El personal al corte del 15-oct-2026: DOS FIRMAS COMPLETAS — cero placas en blanco. Segundo</p>
+<p>barrio limpio consecutivo (el correo (28) firmó primero): los mayordomos de la casa libre se</p>
+<p>firman todos.</p>
+<p><em>KDE Connect</em> con <strong>GPL-2.0</strong>: la ley histórica de la comunidad KDE — el copyleft de 1991 que protege las bibliotecas y el trabajo de la comunidad desde antes que muchos de sus usuarios nacieran. Once años de taller bajo la misma firma: la constancia como licencia.</p>
+<p><em>Home Assistant Companion</em> con <strong>Apache-2.0</strong>: el testamento de la escuela de la llave — el mismo que Shizuku (25), Kopia (26) y Thunderbird (28). La lectura de la forja: la fundación/proyecto grande elige Apache pa garantizar herederos; el taller comunitario elige GPL pa garantizar obra libre.</p>
+<p>Las dos firmas del personal son EXACTAMENTE las que la doctrina de la serie predice — el</p>
+<p>ecosistema libre es predecible cuando se lee con vara.</p>
+<p><em>La vara, casa por casa:</em> repo público con años ✓ (once y siete), push vivo ✓ (el 15-oct y el</p>
+<p>16-oct — el mayordomo de casa empujó después de medianoche), fila de asuntos viva ✓ (las dos</p>
+<p>comunidades de las más activas del ecosistema), instalación del repo o tienda legal ✓.</p>
+<p>El detalle fino: KDE Connect está en las tiendas oficiales Y en los repos de cada distribución</p>
+<p>Linux — la distribución más ancha de la serie: un mueble que vive en todas las tiendas del mundo</p>
+<p>libre a la vez.</p>
+<p><em>Y la vara de la escuela cerrada, firmada sin miedo:</em> Tasker y MacroDroid no pasan el censo — son de pago ajeno, taller cerrado, permisos totales sin código público. La forja no los prohíbe: los DECLARA — la vara de la casa mide lo abierto; lo cerrado se usa sabiendo que nadie puede auditarlo.</p>
+<p>En el personal de tu casa, la forja firma lo que se puede leer.</p>
+<p>───────────────────</p>
+<p><em>🧵 LA AUTOMATIZACIÓN CON VARA (la doctrina del oficio callado)</em></p>
+<p>La sección doctrinal de la pieza: cómo se automatiza como gente — con vara, no con magia.</p>
+<p><em>REGLA UNO — automatiza lo que YA haces bien tres veces.</em> La única receta de entrada que la casa firma: el flujo que hiciste a mano tres veces y sabes de memoria. El archivo de las fotos a la PC (lo hacías por cable), el bombillo del patio a las 8 (lo apagabas levantándote), el silencio del teléfono en la reunión del martes.</p>
+<p>La automatización del flujo DESCONOCIDO es la receta del desastre: no se puede automatizar lo</p>
+<p>que no se entiende — y el que instala mayordomos pa descubrir qué quiere, descubre llamadas</p>
+<p>perdidas y luces locas.</p>
+<p><em>REGLA DOS — cada automatismo lleva su botón de pánico.</em> La casa no automatiza nada sin salida</p>
+<p>manual: el mayordomo que apaga las luces a las 8 lleva el interruptor de siempre; la sincronía</p>
+<p>de noche lleva la pausa; el silencio del martes lleva la excepción.</p>
+<p>La regla técnica: si no puedes apagarlo en dos toques, no lo instales — el automatismo sin</p>
+<p>pánico es el que convierte una utilidad en una visita al taller.</p>
+<p><em>REGLA TRES — el mayordomo no tiene llaves que no le diste.</em> La conexión con el tronco (27): el mayordomo ve lo que le diste ver — la red de la casa, los archivos que compartiste, los aparatos que registraste. La auditoría mensual del personal: qué permisos tiene, qué ve, qué hace — el mismo ritual del inspector (25).</p>
+<p>El de la casa libre muestra TODO lo que hace: el que no muestra, no entra.</p>
+<p><em>REGLA CUATRO — la nube del mayordomo es la tuya.</em> La doctrina fina de la noche: KDE Connect no necesita nube (red de la casa, cifrada); Home Assistant corre en TU servidor. El mayordomo ajeno (la app de la bombilla que pide cuenta en la nube del fabricante) trabaja pa su dueño — el de la casa trabaja pa ti.</p>
+<p>La diferencia no es filosófica: es de latencia, privacidad y de qué pasa cuando el fabricante</p>
+<p>cierra el servicio. La serie lo firmó en el sótano: la nube ajena es conveniencia — el sótano es</p>
+<p>propiedad. Lo mismo, aplicado al personal.</p>
+<p>───────────────────</p>
+<p><em>🔧 LA RECETA DE LOS MAYORDOMOS (una tarde, por pisos)</em></p>
+<p><em>Piso uno — el puente de mesa.</em> KDE Connect en el teléfono (tienda legal o repo, placa: ★1.480, GPL-2.0, censo 15-oct-2026) y en la PC (el paquete de siempre de tu sistema). El emparejamiento: la PC pide, el teléfono acepta, los permisos se dan UNO POR UNO leyendo qué conceden — la pedagogía del mueble: cada permiso es una faena (notificaciones, archivos, control multimedia).</p>
+<p>El bautismo: la primera foto que pasa al escritorio sin cable — la sonrisa de la casa.</p>
+<p><em>Piso dos — las faenas del diario.</em> Configura solo lo que USARÁS esta semana: las notificaciones del mensajero en la PC, el portapapeles compartido, el control de multimedia. Las demás faenas quedan apagadas — el mayordomo de KDE Connect se enciende por faena: el tablero se llena solo con lo que usas, y la batería lo agradece.</p>
+<p><em>Piso tres — el primer automatismo de verdad.</em> El flujo que repetías tres veces: el más dominicano del censo es el archivo del diario — «las fotos de la cámara pasan a la PC». Con KDE Connect es un toque en la faena; pa el flujo horario, el mayordomo de casa lo programa.</p>
+<p>El primer automatismo se OBSERVA una semana: si falla o molesta, se apaga sin drama — el oficio</p>
+<p>se aprende con automatismos pequeños, no con la casa entera de golpe.</p>
+<p><em>Piso cuatro — la casa entera (cuando la casa esté).</em> Home Assistant Companion es la MANO — el SERVIDOR es la casa madre: se monta en la computadora vieja o la mini-PC (receta completa en los bloques 51-60 de la serie). La app se conecta a tu servidor, no a la nube del vecino — y desde ahí: el tablero de la casa en el bolsillo, los horarios del bombillo, la cámara del patio.</p>
+<p>El piso del mayordomo grande se arma UNA vez y se mantiene con la vara del sótano: respaldo y acta.</p>
+<p><em>Piso cinco — la auditoría y la fecha.</em> La nota-placa del personal: qué mayordomos, qué faenas encendidas, qué permisos, qué censo (15-oct-2026). Y la auditoría mensual: los permisos se leen otra vez, los automatismos se prueban (¿el horario del bombillo sigue ok?), y lo que no se usa en un mes, se apaga.</p>
+<p>El personal de la casa se mantiene como todo en la serie: con fecha y sin fe.</p>
+<p>───────────────────</p>
+<p><em>🧊 MITOS DESMONTADOS</em></p>
+<p><em>Mito uno — «la domótica es pa casas de película».</em> El tablero de Home Assistant corre en una</p>
+<p>computadora vieja con un enchufe inteligente de los baratos: la puerta de entrada a la domótica</p>
+<p>libre cuesta menos que un mes del servicio ajeno.</p>
+<p>La casa conectada no empieza con el apartamento del comercial: empieza con UN bombillo y UN</p>
+<p>horario — el primer «se apagó solo» convierte al escéptico.</p>
+<p><em>Mito dos — «KDE Connect no funciona con Windows».</em> Funciona: la app tiene cliente oficial pa</p>
+<p>Windows, Mac y Linux — el mito viene de la época en que era solo del jardín de Linux.</p>
+<p>La nota honesta de la forja: en Windows algunas faenas (el control del escritorio) son más</p>
+<p>limitadas que en Linux — la placa mide lo que hay, y lo que hay es el 90% del oficio diario:</p>
+<p>archivos, notificaciones, portapapeles, multimedia.</p>
+<p><em>Mito tres — «automatizar es peligroso».</em> La generalización del miedo: lo peligroso es</p>
+<p>automatizar SIN VARA — sin entender el flujo, sin botón de pánico, sin auditoría.</p>
+<p>La automatización con las cuatro reglas de la doctrina es más SEGURA que la mano humana: el mayordomo no se distrae, no olvida, y hace exactamente lo que se le dijo — el problema es solo cuando nadie le dijo bien qué era. La vara entera de la pieza está en las reglas, no en el miedo.</p>
+<p><em>Mito cuatro — «para pasar archivos está el cable/mensajero».</em> El cable se olvida, el mensajero comprime y sube tus fotos a la nube ajena. KDE Connect pasa el archivo ORIGINAL por tu red de casa, cifrado, sin nube: la foto del cliente llega entera y no sale del jardín.</p>
+<p>La vara del oficio: el archivo propio viaja por el camino propio — el mensajero es pa lo social;</p>
+<p>el mayordomo, pa lo tuyo.</p>
+<p>───────────────────</p>
+<p><em>❓ PREGUNTAS DE LA FILA</em></p>
+<p><em>¿KDE Connect gasta mucha batería?</em> Vive dormido hasta que hay trabajo en la red de la casa: su consumo es de los más cuidados del censo (once años puliendo eso). La prueba práctica: una semana con las faenas que usas y mira la batería — y si molesta, apaga la faena que no uses: el tablero por faena es la gracia del mueble.</p>
+<p><em>¿Home Assistant sin casa conectada sirve de algo?</em> Con un enchufe inteligente y una bombilla ya</p>
+<p>hay tablero: horarios del calentador, la luz del patio, el «todo apagado» de la noche.</p>
+<p>La forja firma el orden honesto: UN aparato primero (el enchufe del aparato que más electricidad</p>
+<p>desperdicia), el tablero después, la casa entera nunca de golpe — la domótica se compra de a</p>
+<p>uno, como el mobiliario.</p>
+<p><em>¿Qué pasa si se cae el wifi de la casa?</em> El mayordomo de mesa (KDE Connect) espera a que vuelva — trabaja SOLO en tu red: sin wifi no hay puente, y tus cosas no se van a ninguna parte. El mayordomo de casa (con el servidor local) sigue trabajando los horarios aunque el internet de afuera muera: la domótica propia no depende de la calle — la ajena, sí.</p>
+<p>La vara del sótano otra vez: lo tuyo funciona en tu casa, con o sin la calle.</p>
+<p><em>¿Los mayordomos se espían entre ellos?</em> Cada uno ve lo que le diste: KDE Connect la red y las faenas encendidas; Home Assistant los aparatos registrados. La auditoría mensual del piso cinco es la defensa: permisos se leen, faenas se prueban, lo raro se apaga.</p>
+<p>Y el dato del censo: las dos son de las comunidades más escrutadas del mundo libre — ojos no les faltan.</p>
+<p><em>¿Puedo automatizar el teléfono viejo de la mamá?</em> Con vara: los automatismos pa terceros se</p>
+<p>configuran CON el tercero sentado al lado — el volumen alto a las 8, el mensajero de la familia</p>
+<p>a la vista, la batería que avisa.</p>
+<p>La regla dominicana del mayordomo filial: se le instala lo que a ella le sirve, se le explica en media hora, y se le anota en el papel de la casa (27) pa cuando se le olvide. El mayordomo del mayor es la mejor obra de la domótica — y la que más paciencia pide.</p>
+<p>───────────────────</p>
+<p><em>🧪 CASOS DEL BARRIO</em></p>
+<p><em>Caso uno — el fotógrafo de carnet del mercado.</em> Pasaba las fotos del día a la PC por cable, una por una, con la memoria que se peleaba. Receta: KDE Connect con la faena de archivos — la foto del carnet pasa al escritorio en el segundo que se toma.</p>
+<p>Su frase de la semana dos: «el cable se jubiló con honores». El impuesto del cable, cancelado en una tarde.</p>
+<p><em>Caso dos — la señora del calentador eléctrico.</em> La factura de la luz llegaba con el susto del mes: el calentador encendido de más por olvidos. Receta: el primer enchufe inteligente + Home Assistant en la computadora vieja + el horario del calentador (6 a 6:45, duchas de la casa).</p>
+<p>El susto de la factura bajó al segundo mes — y el tablero de la app le dice cuánto lleva gastado</p>
+<p>la casa HOY: el mayordomo que cobra su sueldo solo.</p>
+<p><em>Caso tres — el profesor de la academia.</em> Dictaba clase con el teléfono en la mano pa pasar los ejercicios a la PC del proyector. Receta: KDE Connect con el control de multimedia y el portapapeles compartido — la clase pasa desde el bolsillo, el link del ejercicio se copia en el teléfono y pega en la proyección.</p>
+<p>La clase del profesor quedó más fluida y el teléfono no vuelve a ser el midiendo entre las</p>
+<p>manos: el mayordomo de mesa pa el que enseña.</p>
+<p><em>Caso cuatro — la bodega del esquina con la cámara.</em> Querían ver la puerta de la bodega desde arriba (el dueño vive encima). Receta: la cámara conectada al tablero de Home Assistant — la vista de la puerta en el bolsillo, sin la nube del fabricante de la cámara (que pedía cuenta ajena pa guardarte el video «gratis»).</p>
+<p>La bodega que mira su puerta con su propio tablero: la seguridad del negocio que no pasa por el</p>
+<p>servidor de nadie.</p>
+<p>───────────────────</p>
+<p><em>Caso cinco — el duo musical de la iglesia del barrio.</em> Pasaban las pistas y las letras del teléfono a la laptop del templo por cable, en pleno servicio, con la congregación esperando. Receta: KDE Connect con control de multimedia y archivos — la pista cambia desde el teléfono, la letra pasa en un segundo, el servicio no se detiene.</p>
+<p>La música de la iglesia que ya no hace fila de cable: el mayordomo también va a misa.</p>
+<p><em>Caso seis — el abuelo del teléfono grande.</em> La familia le compró teléfono «pa las videollamadas» y el volumen, las llamadas y el brillo lo tenían confundido. Receta: el mayordomo filial completo — el volumen alto de la mañana, las videollamadas de la familia a un toque, la batería que avisa al hijo por el puente de mesa.</p>
+<p>El abuelo que peleaba con el teléfono, hoy espera la llamada de las 7: y el teléfono ya no le</p>
+<p>pelea de vuelta. La casa entera firma: esta es la obra maestra del personal.</p>
+<p><em>🏭 LA DESPENSA DE DATOS (todo lo medido, en una repisa)</em></p>
+<p>Las dos placas del personal al 15-oct-2026, listas pa copiar y verificar:</p>
+<p>KDE Connect Android · KDE/kdeconnect-android · ★1.480 · repo nacido 18-sep-2015 · push 15-oct-2026 · GPL-2.0 · taller de la comunidad KDE (once años y un mes). Home Assistant Companion · home-assistant/android · ★3.968 · nacida 2-abr-2019 · push 16-oct-2026 (después de medianoche) · Apache-2.0 · la mano Android del proyecto Home Assistant.</p>
+<p>Frontera declarada: Touch Helper (25) el primo del cajón · proyecto madre Home Assistant: el</p>
+<p>terreno completo en 51-60 · escuela cerrada (Tasker/MacroDroid): fuera del censo, declarada con</p>
+<p>vara.</p>
+<p>Fuente: censo vivo de la casa (5.684 repos, tarde del 15-oct-2026) + pulso nocturno con la API</p>
+<p>oficial del mismo 15-oct-2026. Dato viaja FECHADO a esa noche.</p>
+<p>───────────────────</p>
+<p><em>🕰 LA EDAD DEL PERSONAL</em></p>
+<p>KDE Connect nació el 18-sep-2015: once años y un mes al corte — la casa del puente, once años uniendo pantallas sin pedirle nada a la nube. Home Assistant Companion nació el 2-abr-2019: siete años y seis meses — la mano del proyecto grande, empujando después de medianoche del censo.</p>
+<p>Promedio del personal: nueve años y tres meses. La ley de la serie se cumple en el personal</p>
+<p>también: el oficio de cuidar lo ajeno (archivos, llaves, correos, casas) lo ejercen talleres</p>
+<p>viejos.</p>
+<p>Tres años menos que el promedio del correo (28) — el mayordomo es oficio más joven: la casa</p>
+<p>conectada es territorio nuevo — pero con la misma barba de oficio que el resto de la casa libre.</p>
+<p>───────────────────</p>
+<p><em>💬 LA CONVERSACIÓN HONESTA</em></p>
+<p>Primera: las estrellas del personal son las más chicas de la serie (★1.480 y ★3.968 al pulso del</p>
+<p>15-oct-2026) — y la forja lo firma CON la explicación: el oficio del mayordomo se mide en la</p>
+<p>casa madre (KDE es un ecosistema entero; Home Assistant madre pasa de ★80.000).</p>
+<p>La pieza es la advertencia más importante de la noche contra la vara de las estrellas leída</p>
+<p>sola: el número mide el repo — la placa completa se lee en el ecosistema.</p>
+<p>Segunda: la app de Home Assistant SIN servidor no hace nada — y la pieza lo repite tres veces pa</p>
+<p>que nadie compre la manzana sin el árbol. La forja la firma igual: el censo mide la mano, el</p>
+<p>terreno (el servidor) tiene sus bloques (51-60).</p>
+<p>El que quiere el tablero completo, arma el servidor primero — con la receta de la casa, no con</p>
+<p>la del comercial.</p>
+<p>Tercera: el glosario es el de la familia cosecha más las entradas del personal — novena pieza de la noche, misma aguja. Y la nota de la casa: esta es la pieza más «de mañana» de la cosecha — el mayordomo trabaja cuando tú duermes, y la pieza se escribió entre las 1 y las 2 AM, cuando los mayordomos de la forja (los scripts de la serie) también estaban solos trabajando.</p>
+<p>───────────────────</p>
+<p><em>🎞 LO QUE ESTA PIEZA NO DICE</em></p>
+<p>No dice que la domótica sea cara — dice que la puerta de entrada es un enchufe y una computadora</p>
+<p>vieja: el tablero más barato del barrio.</p>
+<p>No dice que los mayordomos sean seguros de fábrica — dice que son seguros con auditoría:</p>
+<p>permisos se leen, faenas se prueban, lo raro se apaga.</p>
+<p>No dice que Tasker no exista — dice que la escuela cerrada queda declarada: se usa sabiendo que</p>
+<p>nadie la puede auditar.</p>
+<p>No dice que el mayordomo reemplace el oficio — dice que cancela el impuesto del trabajo</p>
+<p>repetido: lo que ya haces bien tres veces, se automatiza con vara.</p>
+<p>No dice — jamás — que un mayordomo se instale sin botón de pánico: lo que no puedes apagar en</p>
+<p>dos toques, no lo instales.</p>
+<p>───────────────────</p>
+<p><em>🎚 EL PERSONAL EN TU DÍA A DÍA (cuatro rutinas del oficio callado)</em></p>
+<p><em>LA MAÑANA DEL REPORTE.</em> El tablero amanece con el parte de la casa: cuánta luz gastó anoche, la</p>
+<p>batería del teléfono, las notificaciones que quedaron en la PC. Un vistazo de veinte segundos</p>
+<p>con el café — el mayordomo trabaja de noche y reporta al desayuno: el hábito del patrón que sabe</p>
+<p>lo que hace su personal.</p>
+<p><em>LA SEMANA DE LA AUDITORÍA LIGERA.</em> Los permisos del personal se leen de pasada (¿sigue solo lo que contraté?), las faenas sin uso se apagan, y lo que molesta se ajusta. Cinco minutos semanales — el personal que se supervisa en caliente nunca sorprende.</p>
+<p><em>EL MES DEL APRENDIZ NUEVO.</em> Un automatismo nuevo por mes, máximo: el que ya trabaja se ajusta primero, el nuevo entra en pruebas. La casa que contrata de a uno nunca amanece con el personal rebelde — la domótica de la forja se construye como el mobiliario: de a un mueble por visita.</p>
+<p><em>EL AÑO DEL PERSONAL COMPLETO.</em> Una vez al año: la auditoría completa (todos los permisos, todos los automatismos, la nota-placa contra el censo nuevo de la serie). Y el registro del sueldo: cuánto ahorró el calentador, cuántos cables se jubilaron, cuántos toques se cancelaron.</p>
+<p>El personal que rinde cuentas una vez al año — la casa que sabe cuánto vale su oficio.</p>
+<p>───────────────────</p>
+<p><em>🧵 GENEALOGÍAS DEL PERSONAL</em></p>
+<p>La línea de sangre del personal es la de las comunidades grandes: KDE Connect (2015) nace del</p>
+<p>jardín de KDE — la comunidad de escritorio libre más vieja del mundo (1996), que quiso su puente</p>
+<p>con el teléfono nuevo de la época y lo construyó pa todas las plataformas: once años después, es</p>
+<p>de las apps más instaladas del ecosistema entero.</p>
+<p>Home Assistant (la madre, 2013; la mano Android, 2019) nace de la escuela de los tableros</p>
+<p>caseros — el proyecto que convirtió la domótica del rico en oficio de la comunidad: hoy es EL</p>
+<p>ecosistema de la casa conectada libre, con la app como su mano en el bolsillo.</p>
+<p>La cadena del personal en una línea: la comunidad de escritorio quiso su puente y lo hizo (2015); la comunidad de la casa quiso su tablero y lo hizo (2013/2019) — el personal de la casa libre no lo contrata nadie: lo CRÍA la comunidad, y por eso nunca le roba al patrón. La genealogía más comunitaria de la serie: los mayordomos de esta casa son de la familia.</p>
+<p>───────────────────</p>
+<p><em>📦 LA DESPENSA DEL PERSONAL (tu equipo, ordenado como gente)</em></p>
+<p><em>EL CONTRATO DEL MAYORDOMO.</em> Escrito en la nota-placa: qué faenas tiene, qué permisos necesita pa ellas, qué botón de pánico, cuándo se le audita. El personal sin contrato es el que «hace cosas raras a las 3 AM» — el contrato es media hora que compra años de paz.</p>
+<p><em>LA JERARQUÍA DEL PERSONAL.</em> El puente (KDE Connect) reporta al patrón directo. El mayordomo de casa (HA) reporta al tablero.</p>
+<p>El primo del cajón (Touch Helper) trabaja pa el pulgar. Ninguno supervisa a otro sin permiso: la jerarquía del personal de la casa libre es plana y documentada — cada uno con su faena y su vara.</p>
+<p><em>EL EXPEDIENTE DEL PERSONAL.</em> La carpeta de la casa con las notas-placa de todo el personal (sótano, tronco, cajón, correo, mayordomos): la casa digital con expediente completo se hereda en una tarde — el día feo, la familia abre el expediente y encuentra a todo el personal con su contrato y su fecha. La serie completa es, en el fondo, el expediente del personal de tu casa.</p>
+<p><em>Y LA REGLA APRENDIDA.</em> El personal se administra con la vara de la casa: muebles verificados, contratos escritos, auditoría mensual, nube propia. Nueve piezas de la noche y la misma vara — y esta es la pieza donde la vara se vuelve el nombre: el oficio de la forja ES ser el mayordomo que documenta.</p>
+<p>La casa que se escribe, se hereda.</p>
+<p>───────────────────</p>
+<p><em>🪧 EL CARTEL DEL PERSONAL</em></p>
+<p>Clávalo en la puerta del personal:</p>
+<p><em>Se automatiza lo que ya se hace bien tres veces — lo demás es desastre con horario.</em></p>
+<p><em>Cada mayordomo con su contrato y su pánico — lo que no apagas en dos toques, no lo instalas.</em></p>
+<p><em>Permisos mínimos por faena — el permiso que no recuerdas, se quita.</em></p>
+<p><em>La nube del mayordomo es la tuya — la del fabricante es su suscripción.</em></p>
+<p>*Y el mayordomo del familiar se le explica al familiar — el que se instala «por su bien» a</p>
+<p>escondidas, trabaja pa nadie.*</p>
+<p>───────────────────</p>
+<p><em>😄 EL MEME DE LA CASA</em></p>
+<p>— El del grupo de siempre: *«descarga mi HOUSE SMART PRO y tu casa se controla sola, solo acepta</p>
+<p>los 47 permisos»* 🧠</p>
+<p>— La app, leyendo la red, el micrófono, los archivos y la agenda: *«necesito todo pa que tu casa</p>
+<p>sea inteligente»* 🕳</p>
+<p>— Home Assistant, en la computadora vieja del garaje, Apache al frente: *yo solo apago tu</p>
+<p>calentador a las 6:45 — todo lo demás lo ves tú en TU tablero* 🔌</p>
+<p>— Yo, con la foto pasando a la PC sin cable y el bombillo obedeciendo el horario: 😌</p>
+<p><em>Moral del meme, chin chin:</em> la casa «inteligente» del grupo te hace de tonto: tú le das las llaves y ella las manda pa la nube del que la publicó. El mayordomo de la casa libre vive EN TU CASA, ve LO QUE LE DISTE, y su contrato está en tu nota — la inteligencia verdadera es saber quién trabaja pa quién, chin chin.</p>
+<p><em>⚠ LOS RIESGOS DEL PERSONAL, CON FECHA</em></p>
+<p><em>RIESGO UNO — el mayordomo sobre-permisionado.</em> El personal vivo pide: red, notificaciones, archivos, accesibilidad según la faena. El riesgo no es el mueble verificado — es dar TODOS los permisos pa «que funcione mejor»: cada faena con su permiso y no uno más.</p>
+<p>La defensa: la pedagogía del tablero de KDE Connect (faena por faena) y la auditoría mensual del</p>
+<p>piso cinco — el permiso que no recuerdas para qué es, se quita.</p>
+<p><em>RIESGO DOS — la nube del fabricante.</em> El mayor riesgo real de la domótica moderna: la bombilla</p>
+<p>«inteligente» barata que solo funciona con la nube de su fabricante — la casa ajena adentro de</p>
+<p>tu casa.</p>
+<p>La defensa de la forja: aparatos que trabajen local (estándar abierto: el ecosistema Home</p>
+<p>Assistant los lista), el tablero propio, y la regla del sótano: si depende de la nube del</p>
+<p>vecino, no es tu automatismo — es su suscripción.</p>
+<p><em>RIESGO TRES — la automatización de terceros sin el tercero.</em> El teléfono del familiar automatizado «por su bien» sin sentarlo al lado: la app que silencia llamadas que él quería, la carpeta que se mueve donde no la busca. La defensa: la regla del mayordomo filial del censo — CON el tercero, en media hora, con papel.</p>
+<p>El que se le instala a alguien se le explica — o no se instala.</p>
+<p><em>Y el riesgo que la forja se auto-impone:</em> escribir la pieza de la magia sin vender magia. La forja firma el tono: el mayordomo bueno es el que se nota menos — la pieza no vende el tablero de las películas: vende el bombillo que se apaga a las 8 y el archivo que pasa sin cable.</p>
+<p>El prodigio de la casa libre es que funciona sin ser noticia — y esa es exactamente la vara con</p>
+<p>la que se escribió esta pieza a las 2 AM: sin mayordomos que nos interrumpieran.</p>
+<p>───────────────────</p>
+<p><em>📖 GLOSARIO DE LA COSECHA</em></p>
+<p><em>Puente.</em> El cliente que no guarda música: la busca en el catálogo de otro y la trae al momento.</p>
+<p>Debe su vida a un río ajeno — por eso la vara de esta escuela mira el push con fecha antes que</p>
+<p>las estrellas.</p>
+<p><em>Cajón.</em> La escuela del archivo propio: MP3 y FLAC tuyos, tocados sin internet ni río ajeno.</p>
+<p>Nunca depende de un provedor, jamás se corta en la loma, y su única obligación es que tus</p>
+<p>etiquetas estén peinadas.</p>
+<p><em>Detective.</em> La escuela del descubrimiento: cruza fuentes, amarra discografías y te muestra</p>
+<p>versiones. Muffon es su bandera en la cosecha — menos «ponme la playlist», más «enséñame el mapa</p>
+<p>del artista».</p>
+<p><em>Cosecha.</em> El pase de vara ancho por una familia del censo: se mide casa por casa, con placa, y</p>
+<p><em>🗓 EL RITUAL DE LA PRIMERA SEMANA (del impuesto repetido al personal en varas)</em></p>
+<p><em>DÍA UNO — el inventario del impuesto.</em> La lista honesta de lo que repites: ¿cuántas veces pasaste fotos por cable esta semana? ¿cuántas te levantaste pa el bombillo?</p>
+<p>¿cuántas palomeaste el mismo permiso? Cada renglón con su frecuencia — el impuesto repetido se pesa ANTES de contratar personal.</p>
+<p><em>DÍA DOS — el puente de mesa.</em> KDE Connect en teléfono y PC (placa: ★1.480, GPL-2.0, censo 15-oct-2026): emparejamiento, permisos uno por uno, y la primera foto pasando sin cable. El bautismo del personal — la sonrisa garantizada de la casa.</p>
+<p><em>DÍA TRES — las faenas del diario.</em> Notificaciones en la PC, portapapeles compartido, control de multimedia: solo las tres faenas que usarás esta semana. El tablero queda chico a propósito — el mayordomo se contrata por faena, no por catálogo.</p>
+<p><em>DÍA CUATRO — el primer automatismo con vara.</em> Del inventario del día uno: el flujo más repetido, automatizado con las cuatro reglas (entendido, con pánico, con permisos mínimos, local). Y se OBSERVA: una semana de vigilancia pa el primer mayordomo — el que aprende a supervisar uno, sabe supervisar la casa entera.</p>
+<p><em>DÍA CINCO — la prueba de fuego de la red.</em> Se apaga el wifi de la casa a propósito: ¿el puente espera en paz? ¿tus cosas no se van a ninguna parte?</p>
+<p>La prueba del mayordomo local: lo tuyo funciona en tu jardín — y cuando la calle se corta, el personal ni se entera.</p>
+<p><em>DÍA SEIS — la nota-placa del personal.</em> Qué mayordomos, qué faenas, qué permisos, qué automatismos con su botón de pánico, qué censo (15-oct-2026). La nota del personal se guarda junto a las del sótano y el tronco: la casa digital con su personal documentado — la herencia completa en un cajón de notas.</p>
+<p><em>DÍA SIETE — la placa, otra vez.</em> Vuelve al censo: ¿KDE Connect respira? ¿El tablero sigue chico y útil?</p>
+<p>¿El primer automatismo trabajó la semana sin sorpresas? El día que respondes sin ayuda, la casa cumplió: el impuesto del trabajo repetido quedó cancelado — y tu personal trabaja mientras tú vives, que es exactamente para lo que se contrata.</p>
+<p>───────────────────</p>
+<p><em>Y la regla del personal que la serie pide clavar en la puerta:</em> se automatiza lo que ya se hace</p>
+<p>bien tres veces, con pánico a dos toques, permisos mínimos y la nube propia — el mayordomo bueno</p>
+<p>es el que se nota menos.</p>
+<p>───────────────────</p>
+<p><em>🩺 LA SALUD DEL PERSONAL AL CORTE (el parte médico de las dos casas)</em></p>
+<p>El parte del 15-oct-2026: el personal trabaja — literal, a toda hora.</p>
+<p>KDE Connect, push del 15-oct: aire del mismo día en el puente de once años. Home Assistant</p>
+<p>Companion, push del 16-oct: el único push DESPUÉS de medianoche de toda la serie — el mayordomo</p>
+<p>de casa empujó mientras la forja escribía su censo.</p>
+<p>La frase del parte la firma el dato: hay talleres que duermen y talleres que trabajan de</p>
+<p>madrugada — el personal de la casa libre pertenece a los segundos.</p>
+<p>El balance del parte: dos casas, dos respirando al máximo, cero quietudes — el SEGUNDO</p>
+<p>territorio consecutivo con respiración perfecta (el correo (28) firmó primero).</p>
+<p>Tres piezas seguidas sin un solo parte grave: la cosecha del final del bloque (26-29: sótano, tronco, correo, personal) es la más sana de toda la serie — la lección de la forja: los territorios del oficio serio (guardar, llaves, correspondencia, personal) son los que mejor se mantienen. El aplauso es volátil; el oficio, constante.</p>
+<p><em>📐 LA MEDIDA DEL PERSONAL (lo que el censo deja leer y no se ve)</em></p>
+<p>Tres medidas finas de la forja.</p>
+<p>La primera: la brecha de edad. Once años contra siete y medio — la pareja más asimétrica del</p>
+<p>censo, y las dos vivas al máximo.</p>
+<p>La lectura: el personal no envejece como otros muebles — el puente que funciona se sigue usando</p>
+<p>igual el año diez (el archivo siempre pasa), y por eso no se jubila nunca: el oficio del</p>
+<p>mayordomo es el oficio más eterno del ecosistema — la comodidad que no cambia de moda.</p>
+<p>La segunda: la distribución de la confianza.</p>
+<p>Las dos casas de la noche vienen de comunidades MADRE (KDE, Home Assistant) — la lectura fina:</p>
+<p>el personal es el territorio donde el usuario entrega más confianza (permisos, casa entera) y</p>
+<p>por eso es el territorio donde más importa la comunidad madre: no hay mayordomo huérfano en el</p>
+<p>mundo libre — hay comunidades que crían sus muebles durante décadas.</p>
+<p>La tercera: la frontera técnica del censo. Las dos casas trabajan LOCAL (red de casa / servidor propio) — la medida que separa al personal libre del mayordomo ajeno de las tiendas: el de las tiendas sube tu casa a una nube; el del censo la queda en tu jardín.</p>
+<p>La frontera técnica es la frontera ética: la misma vara del sótano (26), del tronco (27) y del</p>
+<p>correo (28) — la casa entera se gobierna con una sola vara, y esta pieza la clava en la puerta</p>
+<p>del personal.</p>
+<p><em>🎯 EL MINIQUIZ DEL PERSONAL</em></p>
+<p>Cinco preguntas de la pieza. Las respuestas van AL REVÉS al pie (leídas de atrás para adelante),</p>
+<p>para que nadie las palmee sin pensarse el plato.</p>
+<p><em>LAS PREGUNTAS:</em></p>
+<p>1) ¿Qué mayordomo une el teléfono con la PC, qué edad lleva y qué licencia firma?</p>
+<p>2) ¿Qué app es la «mano» del tablero casero y qué le hace falta pa trabajar?</p>
+<p>3) ¿Cuáles son las cuatro reglas de la automatización con vara?</p>
+<p>4) ¿Por qué las estrellas de los mayordomos engañan en el censo?</p>
+<p>5) ¿Qué dice la regla del mayordomo filial?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>(Las respuestas correctas —de arriba abajo— son: KDE Connect el puente de once años; Home</p>
+<p>Companion la mano que pide servidor; las cuatro reglas de la vara; la casa madre la que pesa en</p>
+<p>el censo; y el mayordomo filial que se explica con el tercero al lado.)</p>
+<p>───────────────────</p>
+<p><em>PRIMERA CARTA — al que pasa fotos por cable desde 2015.</em></p>
+<p>Esta pieza te lo firma con cariño: el cable se jubila HOY. Una tarde: KDE Connect en las dos</p>
+<p>máquinas, la faena de archivos encendida, y la foto del diario cruzando por tu propia red sin</p>
+<p>nube ni compresión.</p>
+<p>El resto del personal (notificaciones, portapapeles, multimedia) entra solo si lo vas a usar —</p>
+<p>el tablero chico es la gracia.</p>
+<p>La comodidad del mayordomo verificado: la primera semana se pregunta uno por qué pagó el</p>
+<p>impuesto del cable tantos años.</p>
+<p><em>SEGUNDA CARTA — a la comunidad KDE y a la de Home Assistant.</em></p>
+<p>El censo de esta noche los firma como el personal más noble de la serie: once y siete años de oficio, dos firmas completas, y el mayordomo de casa empujando después de medianoche del censo. La pieza usó sus placas pa enseñar la lección más importante de la noche: la estrella mide el repo — el oficio se mide en el ecosistema.</p>
+<p>La forja los deja anotados: cuando la serie llegue al terreno del servidor (51-60), la casa</p>
+<p>madre de Home Assistant tiene su censo esperando.</p>
+<p><em>TERCERA CARTA — al que esperaba que esta pieza automatizara su vida entera.</em></p>
+<p>La casa te pide disculpas por decepcionarte con oficio: la automatización entera de tu vida es EXACTAMENTE lo que esta pieza no firma. El personal con vara trabaja lo que tú entiendes — y lo que tú entiendes se construye de a un automatismo por mes, con pánico y contrato.</p>
+<p>La casa que se automatiza de golpe es la que amanece con luces locas a las 3 AM.</p>
+<p>Lo que esta pieza sí firma: la tarde del puente, el primer automatismo observado, y la auditoría</p>
+<p>que lo mantiene. Eso es la casa libre: menos magia, más oficio — y el oficio amanece</p>
+<p>funcionando.</p>
+<p>───────────────────</p>
+<p>💓 <em>PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 29).</em></p>
+<p>dormidos · 0 archivados.</p>
+<p><em>📋 LA FICHA DE HOY</em></p>
+<ul>
+<li><strong>home-assistant/android</strong> — «Home Assistant Companion for Android»</li>
+</ul>
+<p>  ★4.012 · empujó hoy · licencia Apache-2.0 · Kotlin · última release 2026.10.1 (2026-10-06) · <a href="https://github.com/home-assistant/android">https://github.com/home-assistant/android</a> · Web: <a href="https://companion.home-assistant.io/">https://companion.home-assistant.io/</a></p>
+<p>  Temas: android · automotive · compose · hacktoberfest · home-assistant · home-automation</p>
+<ul>
+<li><strong>KDE/kdeconnect-android</strong> — «Native Android port of the KDE Connect Qt app»</li>
+</ul>
+<p>  ★1.491 · su último empuje fue el 2026-10-30 (hace -1 días) · licencia GPL-2.0 · Kotlin · <a href="https://github.com/KDE/kdeconnect-android">https://github.com/KDE/kdeconnect-android</a> · Web: <a href="https://invent.kde.org/network/kdeconnect-android">https://invent.kde.org/network/kdeconnect-android</a></p>
+<p><em>🎯 MINI-QUIZ DE HOY</em></p>
+<p><em>1.</em> ¿Cuál es el repo con más ★ de la pieza, según la medición de hoy?</p>
+<p><em>2.</em> ¿Qué licencia firma KDE/kdeconnect-android?</p>
+<p><em>3.</em> ¿Qué repo empujó más recientemente?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>REV|210.4★ — diordna/tnatsissa-emoh=1|REV|0.2-LPG=2|REV|03-01-6202 — diordna-tcennocedk/EDK=3</p>
+<p>💓 Hoy, jueves 29 de octubre de 2026, se midieron en vivo 2 repos y 0 enlaces de esta pieza: 2 vivos, 0 firmados con su estado en la ficha. El texto es el de la casa; la ficha, la de hoy.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-02-14T14:58:36Z",
+   "oid": "ba8ec46d2e90779c52615ef09e0d80911bb128a6"
+  }
+ },
+ "diskUsage": 46842,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "RazoorMods/MicroG-RE",
+ "pushedAt": "2026-02-20T12:56:23Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

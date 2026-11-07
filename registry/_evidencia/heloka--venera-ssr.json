@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-08T16:45:34Z",
+   "oid": "c2762d5702098de6fecbb8491fb28c523ee6c029"
+  }
+ },
+ "diskUsage": 14449,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "heloka/Venera-SSR",
+ "pushedAt": "2026-10-08T17:01:35Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-10-08T17:01:36Z",
+    "tagName": "2.1.7"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-07-31T13:12:48Z",
+   "oid": "8046417ac3094196ec3fcc8f681f3b0406cf81b9"
+  }
+ },
+ "diskUsage": 141040,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "jyotidwi/ProPDA",
+ "pushedAt": "2026-10-02T13:33:54Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

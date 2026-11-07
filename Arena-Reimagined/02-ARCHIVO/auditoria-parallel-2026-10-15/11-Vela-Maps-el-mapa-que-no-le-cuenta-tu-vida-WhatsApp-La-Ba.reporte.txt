@@ -1,0 +1,49 @@
+ALERTAS: 43
+  [C recta] L902
+  [C triple blank] x21
+  [H Σ≠header] Σ=0 header=55
+  [J hoy rancio] L1140: hoy en su release del 16 de agosto. Todo el ruteo del v
+  [L eco] hornea datos con nombre y apellido para… en L104,424
+  [L eco] por eso la expedición se detuvo en… en L169,238
+  [L eco] eso la expedición se detuvo en esta… en L169,238
+  [L eco] la expedición se detuvo en esta puerta… en L169,238
+  [L eco] vela la estrena cada semana por defecto… en L526,1546
+  [L eco] empuje de hoy a las 10 13… en L676,1063
+  [L eco] que verifica su propia defensa con el… en L846,871
+  [L eco] the website s copy when github does… en L906,1065
+  [L eco] app instalada a mano el doc oficial… en L1283,1443
+  [M cadencia] L283 dron de 4 frases (cv=0.10)
+  [M cadencia] L1159 dron de 4 frases (cv=0.13)
+  [M cadencia] L1497 dron de 4 frases (cv=0.07)
+  [M cadencia] L1577 dron de 4 frases (cv=0.09)
+  [N aster] L305: ⚠️ *No es 100% libre de preguntarle a Google 
+  [N aster] L306: pública.* El mapa que recorres con el dedo es
+  [N aster] L515: *Google pasa de saber quién eres y a dónde ir
+  [N aster] L516: anónimas de vez en cuando.*
+  [N aster] L573: *Tres preguntas que siempre llegan de privaci
+  [N aster] L574: declarado:*
+  [N aster] L624: En compu: apksigner verify --print-certs vela
+  [N aster] L676: el empuje de HOY a las 10:13 no significa ver
+  [N aster] L677: es release.* El taller barre a diario; la vit
+  [N aster] L757: ¿cómo reparte el mapa entero? Respuesta del t
+  [N aster] L758: dentro de releases del mismo repo.* Cada cana
+  [N aster] L814: *«Un teléfono sin Google Play Services no pue
+  [N aster] L822: YouTube.»*
+  [N aster] L921: El miedo grande de todo el que quiere salir: 
+  [N aster] L922: lugares guardados»*. Tranquilo: la puerta de 
+  [O tag] L1506 (no es final): #LaBandita #Guia #Mapas #VelaMaps #Navegacion
+  [O tag] L1507 (no es final): #RepublicaDominicana #FuenteFechada #LecturaV
+  [P separador] L432 len=53 (canon=16)
+  [P separador] L549 len=48 (canon=16)
+  [P separador] L763 len=45 (canon=16)
+  [P separador] L828 len=49 (canon=16)
+  [P separador] L965 len=47 (canon=16)
+  [P separador] L1407 len=48 (canon=16)
+  [P separador] L1422 len=48 (canon=16)
+  [R referencia] «sección (esta» sin encabezado
+  [T monotonía] bloque desde L1: 5 párrafos seguidos de ~70c
+INFORME hoy: 3
+  · L5: 📅 15 de octubre de 2026 · 🔍 verificado hoy por API, con hora
+  · L1074: Las cinco pasan hoy. Fecha: 15 de octubre de 2026, censo de 
+  · L1140: hoy en su release del 16 de agosto. Todo el ruteo del viaje 
+TOTAL: 62230 c · banda: DENTRO ✓ · sello: 25caefba9dbe9acb

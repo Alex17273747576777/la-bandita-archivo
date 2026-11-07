@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-06-03T15:22:52Z",
+   "oid": "5d0f675ff295cbbede29a0363bb9b9fb7c4efaf2"
+  }
+ },
+ "diskUsage": 70605,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "Shiho-Patch/web-to-app",
+ "pushedAt": "2026-06-03T15:24:36Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

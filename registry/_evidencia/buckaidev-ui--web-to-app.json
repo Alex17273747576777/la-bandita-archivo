@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-06-28T15:27:13Z",
+   "oid": "e90c37ef7b476ce2d6f12bcdb7a1826d7be24bf3"
+  }
+ },
+ "diskUsage": 74003,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "buckaidev-ui/web-to-app",
+ "pushedAt": "2026-06-28T15:27:28Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

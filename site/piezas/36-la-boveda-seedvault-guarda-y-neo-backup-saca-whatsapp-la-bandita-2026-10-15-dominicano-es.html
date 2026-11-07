@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Seedvault ★1.868 (censo 15-oct-2026) guarda la casa entera y Neo-Backup ★3.873 (censo">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>Seedvault ★1.868 (censo 15-oct-2026) guarda la casa entera y Neo-Backup ★3.873 (censo</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Seedvault ★1.868 (censo 15-oct-2026) guarda la casa entera y Neo-Backup ★3.873 (censo", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "29 de octubre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>Seedvault ★1.868 (censo 15-oct-2026) guarda la casa entera y Neo-Backup ★3.873 (censo</h1>
+<p class="meta">WhatsApp · 29 de octubre de 2026 · 36,555 caracteres</p>
+<p><em>36 — LA BÓVEDA</em></p>
+<p>*Seedvault ★1.868 (censo 15-oct-2026) guarda la casa entera y Neo-Backup ★3.873 (censo</p>
+<p>15-oct-2026) saca pieza por pieza: las copias de seguridad que el barrio nunca hizo (WhatsApp ·</p>
+<p>La Bandita · dominicano-ES)*</p>
+<p>───────────────────</p>
+<p><em>🗺 MAPA DE ESTA GUÍA</em></p>
+<p>⏱ <em>Lectura total: 55 min</em> · Todo dato con fecha y placa · Censo del 15-oct-2026 (tarde)</p>
+<p>───────────────────</p>
+<p><em>🌱 LA SEMILLA</em></p>
+<p>La vara de la serie firmó el almacén (32): el mueble que cura el DESORDEN de archivos. La bóveda</p>
+<p>es otra vara: el mueble que responde al DESASTRE — el teléfono que muere, el que se pierde, el</p>
+<p>que se cae al mar de la ribera.</p>
+<p>La diferencia fina: el almacén ordena lo que vives; la bóveda preserva lo que NO quieres volver</p>
+<p>a perder.</p>
+<p>La pieza arma la bóveda en dos llaves: la primera (Seedvault) respalda la casa EN BLOQUE — periódica, silenciosa, sin root; la segunda (Neo-Backup) respalda por PIEZA — con control fino, pa mudanzas y experimentos (la mudanza del fork (26), la prueba de módulos (20)). Las dos juntas son la póliza completa de la casa — y la receta de la noche las arma en una tarde.</p>
+<p>El marco del bloque, además: esta pieza completa la fila del sistema que protege (portero 31,</p>
+<p>apoderado 33, consultorio 34, puertas 35) con la que lo recuerda: el oficio entero cabe en una</p>
+<p>frase — lo que entras, lo que cuidas y lo que guardas.</p>
+<p>───────────────────</p>
+<p><em>🗄 EL CENSO DE LAS BÓVEDAS (censo 15-oct-2026)</em></p>
+<p>Las placas completas, tal como el censo de la tarde y el pulso nocturno del 15-oct-2026 las</p>
+<p>contestaron:</p>
+<p><em>Seedvault</em> — seedvault-app/seedvault · ★1.868 (pulso 15-oct-2026) · push del 14-oct · nacida el</p>
+<p>21-sep-2017. La bóveda del sistema: diseñada pa integrarse al Android libre (la descripción del</p>
+<p>taller: «a backup application for the Android Open Source Project» — la bóveda que las ROMs</p>
+<p>libres traen de fábrica o se le montan).</p>
+<p>Respalda apps, datos y ajustes a tu destino (nube propia vía WebDAV/Nextcloud, USB, carpeta de red) — sin root, con calendario, con aviso. La placa de licencia honesta: la API del censo NO la sella con SPDX (frontera anotada, como Orbot en la 31) — el código es público y auditable desde 2017.</p>
+<p><em>Neo-Backup</em> — NeoApplications/Neo-Backup · ★3.873 (censo 15-oct-2026) · push del 3-may-2026 · AGPL-3.0 · nacida el 7-dic-2019. La bóveda del taller: respaldo pieza por pieza — la app y SUS DATOS en un archivo que se muda, se restaura y se archiva. Requiere root (la vara de la 20: toca dentro del sistema).</p>
+<p>Nacida como Neo-Backup en el colectivo NeoApplications — la placa del censo firma la mudanza: el</p>
+<p>taller original (machiav3xx) ya no responde al censo; el colectivo heredó el oficio (patrón de</p>
+<p>la 32: el oficio sobrevive al taller).</p>
+<p><em>La fila de la casa (frontera anotada):</em> el par de SYNC (Syncthing y familia) NO es bóveda — es sincronización: copia viva entre aparatos, no respaldo histórico. La forja la anota pa la fila de redes (41-50): la bóveda de esta noche guarda; el sync replica.</p>
+<p>La vara fina: el sync te da la última versión; la bóveda te da TODAS las versiones — y en un</p>
+<p>desastre, la segunda es la que devuelve la casa.</p>
+<p>───────────────────</p>
+<p>Detalle que la forja firma con vara: la respiración de la noche — Seedvault empujando el 14-oct</p>
+<p>(aire de un día, la bóveda más viva del censo), Neo-Backup el 3-may (cinco meses de quietud</p>
+<p>productiva: talleres que afilan, no talleres muertos — la vara del push).</p>
+<p>Las edades, además: la bóveda del sistema nació en 2017 (nueve años de taller), la del taller en</p>
+<p>2019 (seis años y diez meses) — la sección del sistema tiene los talleres más viejos de la</p>
+<p>serie: la memoria no se le confía a recién llegados.</p>
+<p><em>🏛 LAS DOS LLAVES DE LA BÓVEDA</em></p>
+<p>La arquitectura completa del respaldo, en dos estaciones:</p>
+<p><em>ESTACIÓN UNO — la bóveda del sistema (Seedvault).</em> La póliza del bloque: una vez configurada,</p>
+<p>respalda SOLA — calendario (diario/semanal), destino (tu nube, tu USB, tu red casera), alcance</p>
+<p>(apps y datos, ajustes del sistema, llamadas, contactos del aparato).</p>
+<p>Su don: el AUTOMATISMO — la casa se copia mientras duermes, y el aviso de «hace X días que no se respalda» despierta al que se olvida. Su vara honesta: la restauración ES del bloque (el teléfono nuevo con la ROM libre pregunta por el respaldo y la casa vuelve completa) — pero pieza a pieza es menos quirúrgica: su oficio es el TODO.</p>
+<p><em>ESTACIÓN DOS — la bóveda del taller (Neo-Backup).</em> La póliza quirúrgica: eliges LA pieza (el</p>
+<p>cuaderno del negocio, el mueble de facturas, la configuración del portero (31)) y sacas su</p>
+<p>archivo — APK + datos + permisos.</p>
+<p>Sus faenas: la mudanza (el respaldo restaurado en el otro teléfono, con la app en el mismo</p>
+<p>punto), el experimento seguro (módulo nuevo (20) → respaldo de la pieza primero → si el módulo</p>
+<p>muerde, restaura y fuera), y el archivo histórico (la versión que funcionaba, guardada pa cuando</p>
+<p>la actualización (35) cambia algo).</p>
+<p>Su vara honesta: pide root — la bóveda quirúrgica toca dentro del sistema, y ese turno es del</p>
+<p>taller.</p>
+<p><em>Cómo se arma la arquitectura sin equivocarse:</em></p>
+<p>Seedvault pa el bloque diario (todo, automático, sin pensar). Neo-Backup pa las faenas finas</p>
+<p>(mudanzas, experimentos, archivos de versiones).</p>
+<p>Las dos NO se estorban: la primera duerme copiando el conjunto; la segunda despierta solo cuando</p>
+<p>el taller la llama.</p>
+<p>La regla de oro de la casa: LA CÓPIA QUE VIVE SOLO EN EL TELÉFONO NO ES CÓPIA — el destino de la</p>
+<p>bóveda SIEMPRE fuera del aparato (la nube propia, el USB, el disco de la casa).</p>
+<p>───────────────────</p>
+<p><em>⚖ LA VARA DE LA LICENCIA</em></p>
+<p>Las bóvedas al corte del 15-oct-2026: una firma AGPL-3.0 (Neo-Backup) y una placa sin sello SPDX</p>
+<p>en la API (Seedvault — código público desde 2017, la frontera de Orbot (31) repetida: la vara</p>
+<p>mide lo que hay y anota lo que no se dejó medir).</p>
+<p>La lectura de la forja: la bóveda es el mueble donde la ley AGPL tiene su mejor sentido — el código que custodia TU MEMORIA debe ser auditable por diseño: no puedes auditar una copia hecha por caja negra. Neo-Backup lo firma con la ley más estricta de la familia GPL (la «L» de la AGPL: hasta el servicio modificado se abre).</p>
+<p>La placa sin sello de Seedvault, además, se firma con la vara de la casa: el censo dice lo que</p>
+<p>dice — frontera fechada, no licencia inventada.</p>
+<p><em>El detalle de la mudanza del taller:</em> Neo-Backup vive ahora en el colectivo NeoApplications — el taller original (machiav3xx) dejó de responder al censo y el colectivo heredó el oficio. La forja firma el patrón (el de la 32): el oficio sobrevive al taller cuando la ley lo deja heredar — y la AGPL lo dejó: la copia del oficio es legítima por diseño.</p>
+<p>La casa mide el colectivo vivo (push del 3-may) — y re-mide en el censo próximo.</p>
+<p>───────────────────</p>
+<p><em>🎯 LA DOCTRINA DEL RESPALDO (las tres reglas que el barrio nunca aprendió)</em></p>
+<p><em>REGLA UNO — 3-2-1: la única doctrina que la bóveda pide.</em> Tres copias de lo que importa, en dos medios distintos, una FUERA DE CASA (la nube propia cuenta; el USB en el trabajo cuenta). El barrio hace cero copias — la casa hace tres sin pensarla: la del aparato (instantánea), la del disco (semanal), la de la nube propia (automática).</p>
+<p>La doctrina no es del mundo tech: es del mundo de la mercería — la mercancía que solo existe en</p>
+<p>la vitrina se quema con la vitrina.</p>
+<p><em>REGLA DOS — la cópia se PRUEBA o no existe.</em> El desmontaje del heroísmo barato: el respaldo que nunca se restauró en un aparato de prueba es una fe, no una cópia. La casa lo firma: UNA vez al año (o cuando la bóveda cambie de destino), restaurar la casa en el aparato viejo que ya no se usa — y ver si la vida vuelve.</p>
+<p>La prueba del respaldo es la única medición que importa: el día del desastre NO es el día de</p>
+<p>experimentar.</p>
+<p><em>REGLA TRES — el respaldo también tiene llave.</em> La cópia de la casa entera en una nube sin</p>
+<p>cifrar es la casa con la puerta abierta de par en par — pa el ladrón que nunca entraría al</p>
+<p>barrio.</p>
+<p>La vara: destino con cifrado (la bóveda cifra o el destino cifra), y la frase clave de la bóveda</p>
+<p>GUARDADA aparte (en papel en el tronco, como los papeles de la casa) — el respaldo cifrado cuya</p>
+<p>clave murió con el teléfono es un arcón sin llave: la bóveda se convirtió en tumba.</p>
+<p>───────────────────</p>
+<p><em>🔧 LA RECETA DE LA BÓVEDA ORDENADA (una tarde, por pisos)</em></p>
+<p><em>Piso uno — el destino.</em> Antes de abrir la bóveda: el destino de las copias. La nube propia (el Nextcloud de la casa o el de la serie de selfhosted (51-60)), el USB del cajón, el disco de la casa — el destino que NO sea «el mismo teléfono».</p>
+<p>La vara del oficio: primero el destino, después la bóveda — la cópia sin destino es un deseo.</p>
+<p><em>Piso dos — la bóveda del sistema.</em> Seedvault (placa: ★1.868 (censo 15-oct-2026), push del 14-oct-2026): del repo o de la ROM libre que la trae. Configuración de la tarde: destino → calendario (diario en la noche, con el teléfono cargando y en wifi) → alcance (todo) → la frase de cifrado → LA PRIMERA CÓPIA COMPLETA (la que prueba que el destino funciona).</p>
+<p>Y el aviso del taller activado: la bóveda despierta al que se olvida.</p>
+<p><em>Piso tres — la bóveda del taller.</em> Neo-Backup del estante (placa: ★3.873 (censo 15-oct-2026),</p>
+<p>AGPL-3.0, push del 3-may-2026; pide root (20)): y las tres primeras faenas — el respaldo del</p>
+<p>portero (31) con sus reglas (la configuración que tardaste la noche entera), el del cuaderno del</p>
+<p>negocio, y el del mueble que vas a experimentar.</p>
+<p>La regla de la casa: ningún módulo (20), ninguna mudanza (26), ninguna actualización arriesgada</p>
+<p>SIN respaldo de pieza antes — la vara del experimento seguro.</p>
+<p><em>Piso cuatro — la cópia fuera de casa.</em> La verificación 3-2-1 completa: ¿la bóveda vive en el teléfono (uno), en el disco (dos) y en la nube propia (tres, fuera de casa)? La cópia semanal del disco al USB del trabajo o del familiar de confianza: la regla de la mercería cumplida — y el acto del piso cinco lo certifica.</p>
+<p><em>Piso cinco — la prueba de fuego.</em> La restauración ANUAL en el aparato viejo: la casa completa volviendo de la bóveda — apps, datos, ajustes. El aparato de prueba que confirma que la póliza existe.</p>
+<p>Y el acta de la bóveda en la nota del taller: destino, calendario, frase guardada, fecha de la última prueba — el documento que el familiar de confianza sabe dónde está.</p>
+<p>───────────────────</p>
+<p><em>🧊 MITOS DESMONTADOS</em></p>
+<p><em>Mito uno — «el WhatsApp ya respalda todo».</em> El desmontaje del barrio: el respaldo del mensajero cubre EL MENSAJERO — ni las fotos de la cámara, ni las notas del negocio, ni la configuración del portero, ni los contactos del aparato. La bóveda de la casa no es una app: es el CONJUNTO — y la pieza de la casa (esta) lo arma entero.</p>
+<p>El que confía en el respaldo de una app tiene un aparato de una habitación con la casa entera</p>
+<p>sin póliza.</p>
+<p><em>Mito dos — «la nube del taller ajeno es respaldo».</em> La confusión del perfilamiento: la cópia automática de fotos a la nube ajena ES una cópia — a la vitrina del taller ajeno, con tus fotos de muestra y tu vida indexada. La vara de la casa: la cópia a la nube PROPIA (o al disco) es bóveda; la cópia a la ajena es vitrina — y la vitrina se paga con la intimidad.</p>
+<p>El que quiera ambas, que sepa qué firma.</p>
+<p><em>Mito tres — «respaldar consume la batería y el plan».</em> El desmontaje del miedo: la bóveda del sistema trabaja en la noche, cargando, en wifi — el calendario lo firma. El gasto del plan: CERO (el respaldo en la nube propia por wifi del hogar).</p>
+<p>Y el costo del desastre sin bóveda: los contactos, las conversaciones, los años de notas — la</p>
+<p>cópia nocturna pesa menos que un funeral de datos.</p>
+<p><em>Mito cuatro — «esto es pa empresas».</em> El desmontaje de la escala: la bóveda de esta noche se</p>
+<p>arma en UNA tarde con dos apps libres — sin tarjeta, sin técnico, sin contrato.</p>
+<p>La colmada del barrio tiene más datos valiosos (las facturas, la libreta de fiados, las fotos de</p>
+<p>la familia) que la mitad de las oficinas — y la póliza de la oficina se la regala esta pieza:</p>
+<p>dos talleres con ley, una tarde de configuración.</p>
+<p>───────────────────</p>
+<p><em>❓ PREGUNTAS DE LA FILA</em></p>
+<p><em>¿Seedvault restaura TODO de verdad?</em> La vara honesta del taller: restaura apps y datos de las que cooperan (las que usan el respaldo del Android — la mayoría del ecosistema libre coopera: la serie casi entera), ajustes, llamadas, contactos del aparato. Lo que NO coopera: apps que atan sus datos a la cuenta ajena (los juegos con nube ajena, algunas apps de bancos).</p>
+<p>La firma del oficio: la primera restauración de prueba te dice EXACTAMENTE qué volvió y qué no —</p>
+<p>la bóveda no promete milagros: promete lo auditable.</p>
+<p><em>¿Neo-Backup sin root?</em> No — la bóveda quirúrgica toca dentro del sistema (los datos privados de cada app viven tras la pared del Android). Sin root, la casa usa la llave del sistema (Seedvault) — y la quirúrgica espera al día del taller (20).</p>
+<p>La forja firma el orden: primero la bóveda que todos pueden; el taller se suma cuando el aparato lo permita.</p>
+<p><em>¿Cada cuánto se respalda?</em> El calendario de la casa: el bloque diario (Seedvault, en la noche,</p>
+<p>automático); las faenas finas (Neo-Backup) al momento — antes de cada experimento, y cada vez</p>
+<p>que el taller de una pieza importante saque versión nueva (la copia de la versión que funciona,</p>
+<p>pa volver si la nueva muerde).</p>
+<p>Y la cópia del disco al USB: semanal (el domingo, con la compra del mercado).</p>
+<p><em>¿El respaldo incluye las conversaciones del mensajero?</em> El bloque copia los datos de la app</p>
+<p>(con la app cooperando); y el mensajero tiene SU respaldo propio (al taller ajeno por defecto —</p>
+<p>la pieza de la vitrina).</p>
+<p>La capa fina de la casa: el respaldo del mensajero queda como está (es del taller ajeno), y la</p>
+<p>bóveda duerme encima como póliza segunda — dos capas: la del taller y la tuya. La que manda al</p>
+<p>final es la tuya.</p>
+<p><em>¿Las cóplicas de la nube propia son lentas?</em> Depende del destino: la nube propia de la casa (el</p>
+<p>disco de la red del bloque selfhosted (51-60)) corre al ritmo de tu wifi — una casa cóplica en</p>
+<p>minutos; la nube ajena contratada, al ritmo del plan de subida.</p>
+<p>La nota del barrio: la cóplica nocturna no tiene prisa — trabaja mientras el barrio duerme, y la</p>
+<p>mañana amanece copiada sin que nadie esperara nada.</p>
+<p><em>¿Qué hago si cambié de ROM o de teléfono y la bóveda no pregunta?</em> La bóveda del sistema se INSTALA y se apunta al destino: la casa restaurada a mano — mismo destino, misma frase, restauración desde la app. La vara del oficio: el destino y la frase son la llave de la bóveda, no el aparato — lo que cambia de teléfono es la cerradura, no el arcón.</p>
+<p>Y si la frase se perdió: la cicatriz del riesgo dos (la tumba con candado) — por eso el tronco.</p>
+<p><em>¿Puedo usar las dos bóvedas a la vez sin enredo?</em> Sí — y es la recomendación de la casa: las</p>
+<p>dos se estorban CERO (la del sistema duerme de noche copiando el bloque; la del taller despierta</p>
+<p>solo cuando la llamas).</p>
+<p>El único cuidado: las cóplicas de pieza de Neo-Backup van al MISMO destino (la carpeta de la</p>
+<p>bóveda) — un solo lugar pa toda la memoria de la casa, y el acta con las dos fechas.</p>
+<p><em>¿La bóveda roba velocidad al teléfono?</em> No: la cóplica nocturna trabaja cargando y en wifi — el día del teléfono ni se entera. El único costo: la primera cóplica completa (la del día dos del ritual) pide el teléfono enchufado UNA noche entera — después, las cóplicas incrementales pesan minutos.</p>
+<p>La póliza que trabaja de noche cobra de día: nada.</p>
+<p><em>¿Dónde guardo la frase de cifrado?</em> En papel, en el tronco de la casa — junto a los papeles de la propiedad. La vara del arcaísmo útil: la clave digital que solo vive en aparatos digitales muere con ellos; la del papel sobrevive al incendio de la electrónica (la bóveda en el tronco también es 3-2-1: la regla de la mercería no conoce de épocas).</p>
+<p><em>¿Y las fotos de la abuela?</em> La vara de la casa: las fotos entran al bloque (la bóveda del sistema las copia con el resto) Y al archivo del almacén (32) — doble póliza pa la mercancía irremplazable. Y la cópia del USB de la familia: la regla 3-2-1 cumplida con los dominicales.</p>
+<p>La foto del bautizo no se recupera con deseo: se recupera con la bóveda que se armó UNA tarde de 2026.</p>
+<p>───────────────────</p>
+<p><em>🧪 CASOS DEL BARRIO</em></p>
+<p><em>Caso uno — la colmada del mar.</em> El mar de la ribera se llevó el teléfono del mostrador en un</p>
+<p>chapuzón de octubre — con la libreta de fiados en la nota del teléfono y SIN respaldo.</p>
+<p>Receta (tardía, con cicatriz): la bóveda armada esa misma semana — Seedvault con destino al disco de la casa y la nube propia, Neo-Backup pa el cuaderno del negocio, y la libreta nueva respaldada cada noche. La regla que quedó clavada en el mostrador: lo que se escribe en el aparato del mostrador, amanece copiado — el mar ya no cobra dos veces.</p>
+<p><em>Caso dos — el muchacho del teléfono nuevo.</em> Se compró el teléfono nuevo y la mudanza del taller</p>
+<p>ajeno le trajo «las apps» — pero ni las conversaciones del mensajero del negocio, ni las notas,</p>
+<p>ni la configuración del portero (31) que armó en la noche de la 31.</p>
+<p>Receta: Seedvault en el viejo (la última cópia completa), restauración del bloque en el nuevo (la casa volviendo en una hora de café), y Neo-Backup pa las dos piezas finas que el bloque no trajo (el cuaderno y el portero). La mudanza de la casa entera, hecha en la mañana — la póliza pagándose sola.</p>
+<p><em>Caso tres — el técnico de las flotas.</em> El negocio del caso tres de la 33 (la flota de quioscos) perdió un teléfono de la flota — y el negocio descubrió que cada aparato era una casa sin póliza. Receta: la bóveda por aparato (Seedvault, destino propio del negocio — su Nextcloud), y el acta de la flota: cada aparato con su cópia fechada en el tablero del taller.</p>
+<p>El robo de un aparato ya no es el robo de la casa: es el costo del aparato — la póliza de la</p>
+<p>flota vale más que la flota.</p>
+<p><em>Caso cuatro — la abuela del bautizo.</em> Sus fotos de 2019 a 2026 vivían en el teléfono y en la nube ajena del mensajero — y el nieto del caso uno de la 34 (el de los juegos) le borró la galería «jugando limpiando». Receta: la bóveda del sistema restaurada (las fotos volviendo del bloque), el archivo del almacén (32) con la galería completa, y el USB dominical de la familia.</p>
+<p>La foto del bautizo volvió de la bóveda — y la póliza de la familia empezó ese domingo con el</p>
+<p>mercadito.</p>
+<p>───────────────────</p>
+<p><em>Caso cinco — el fotógrafo de los quinceañeros.</em> Su teléfono de trabajo con cuatro años de</p>
+<p>sesiones — y el taller ajeno de la vitrina le «optimizó» la galería un día (las fotos completas,</p>
+<p>«en calidad optimizada», pa siempre).</p>
+<p>Receta: Seedvault con destino propio (el disco de la casa + la nube propia), el archivo del almacén (32) con las sesiones por año, y el USB dominical de la póliza. La sesión de quinceañeros ya no vive en la vitrina de nadie: vive en tres lugares — y el fotógrafo duerme.</p>
+<p><em>Caso seis — el comité de la iglesia del barrio.</em> Cinco celulares del comité (la caja, la</p>
+<p>libreta de miembros, las fotos de las actividades) — cada uno con su cuenta ajena y su desastre</p>
+<p>potencial.</p>
+<p>Receta: la bóveda del sistema en cada aparato con destino al disco de la casa parroquial (la regla de la flota del caso tres), el acta del comité con las cinco fechas, y la prueba anual el día del aniversario. La casa del comité entera, copiada en un solo lugar — el desastre de un aparato ya no toca la caja.</p>
+<p><em>🏭 LA DESPENSA DE DATOS (todo lo medido, en una repisa)</em></p>
+<p>Las dos placas de las bóvedas al 15-oct-2026, listas pa copiar y verificar:</p>
+<p>Seedvault · seedvault-app/seedvault · ★1.868 (censo 15-oct-2026) · nacida 21-sep-2017 · push</p>
+<p>14-oct-2026 · la bóveda del sistema (integrada al Android libre; licencia sin sello SPDX en la</p>
+<p>API del censo — frontera anotada).</p>
+<p>Neo-Backup · NeoApplications/Neo-Backup · ★3.873 (censo 15-oct-2026) · nacida 7-dic-2019 · push 3-may-2026 · AGPL-3.0 · la bóveda del taller (pieza por pieza; pide root). Mudanza anotada: machiav3xx → NeoApplications (el colectivo heredó el oficio).</p>
+<p>Fuente: censo vivo de la casa (5.684 repos, tarde del 15-oct-2026) + pulso nocturno con la API</p>
+<p>oficial del mismo 15-oct-2026. Dato viaja FECHADO a esa noche.</p>
+<p>───────────────────</p>
+<p><em>🕰 LA EDAD DE LAS BÓVEDAS</em></p>
+<p>Seedvault nació el 21-sep-2017: nueve años y casi un mes. Neo-Backup nació el 7-dic-2019: seis</p>
+<p>años y diez meses.</p>
+<p>Promedio de las bóvedas: siete años y once meses — la sección más madura del bloque del sistema</p>
+<p>(las puertas (35) promediaban tres años y siete meses).</p>
+<p>La lectura del dato: la memoria es el territorio de los talleres viejos — nadie le confía la</p>
+<p>casa entera a una app de temporada, y el ecosistema tampoco: las bóvedas con más de seis años de</p>
+<p>taller son las que las ROMs libres montan de fábrica y los técnicos del barrio recomiendan.</p>
+<p>La quietud del colectivo Neo-Backup, además, (push del 3-may) se lee con la vara de la 32:</p>
+<p>taller que afila en lo profundo — la AGPL le deja heredar el oficio a la casa entera.</p>
+<p>───────────────────</p>
+<p><em>💬 LA CONVERSACIÓN HONESTA</em></p>
+<p>Primera: la pieza llegó tarde y la forja lo firma — la serie ordenó la entrada (35), la custodia (31), la salud (34) y el almacén (32) ANTES de la póliza. El orden del oficio real: primero se cuida, después se guarda — pero la forja firma la corrección: la bóveda es la pieza que las familias leen PRIMERA cuando el teléfono ya murió.</p>
+<p>Esta noche la casa la pone en su sitio: la póliza antes del incendio, no después.</p>
+<p>Segunda: el par de SYNC quedó afuera con motivo — la sincronización (copia viva entre aparatos) no es respaldo (copia histórica): la pieza lo deja anotado pa la fila de redes (41-50). La vara fina: el sync replica el presente; la bóveda preserva el pasado — el desastre se paga con el pasado.</p>
+<p>Tercera: el glosario sigue en la familia sistema — decimosexta pieza, misma aguja. Y la nota de</p>
+<p>la casa: esta pieza y la 32 (el almacén) son las dos mitades del archivo de la casa — el orden y</p>
+<p>la póliza.</p>
+<p>El que las tiene, no pierde nada dos veces.</p>
+<p>───────────────────</p>
+<p><em>🎞 LO QUE ESTA PIEZA NO DICE</em></p>
+<p>No dice que la nube ajena sea prohibida — dice que es vitrina: la cópia propia es bóveda; la</p>
+<p>ajena se paga con la intimidad.</p>
+<p>No dice que Seedvault lo restaure todo — dice lo auditable: la primera restauración de prueba te</p>
+<p>dice exactamente qué volvió.</p>
+<p>No dice que Neo-Backup sea pa todos — dice que es la llave del taller: sin root, la casa duerme</p>
+<p>con la llave del sistema.</p>
+<p>No dice que respaldar sea gratis en tiempo — dice que cuesta UNA tarde y cobra años: la póliza</p>
+<p>más barata que la casa firmará.</p>
+<p>No dice — jamás — que la cópia que vive solo en el teléfono sea cópia: la que no salió del</p>
+<p>aparato no existe.</p>
+<p>───────────────────</p>
+<p><em>🎚 LA BÓVEDA EN TU DÍA A DÍA (cuatro rutinas del oficio callado)</em></p>
+<p><em>LA NOCHE DE LA CÓPIA.</em> El teléfono en el cargador, el wifi del hogar, la bóveda trabajando sola: la rutina que NO se hace — el don de la póliza automática. El único gesto humano: ver la fecha de la última cópia cuando se cargue la batería (el ritual del cargador de la 34, con un vistazo más).</p>
+<p><em>EL DOMINGO DEL MERCADITO.</em> La cópia del disco al USB semanal: dos minutos con la compra — la</p>
+<p>regla de la mercería cumplida sin ceremonia. El USB que viaja (al trabajo, al familiar) es la</p>
+<p>cópia que sobrevive al cajón.</p>
+<p><em>EL MES DE LA REVISIÓN.</em> El acta de la bóveda al día: ¿la cópia nocturna corre? ¿el destino tiene espacio?</p>
+<p>¿alguna pieza nueva (la app que instalaste esta semana (35)) entró al bloque? Quince minutos — la póliza se poda como el escritorio (30).</p>
+<p><em>EL AÑO DE LA PRUEBA.</em> La restauración anual en el aparato viejo: la prueba de fuego que convierte el año de cópias en la certeza de la póliza. El día del aparato viejo volviendo a la vida es el día más tranquilizador del oficio — y el que la casa firma como obligatorio: la póliza se prueba o no existe.</p>
+<p>───────────────────</p>
+<p><em>🧵 GENEALOGÍAS DE LA BÓVEDA</em></p>
+<p>La línea de sangre de las bóvedas: el Android nació con el respaldo atado a la cuenta ajena del taller grande — la póliza de fábrica era la vitrina. En 2017, el taller del Android libre (la comunidad AOSP) decidió que la casa libre merecía SU bóveda: Seedvault nació pa ser de fábrica en las ROMs libres — la póliza integrada al sistema, sin cuenta y sin vitrina.</p>
+<p>En 2019, la llave quirúrgica: la línea de los respaldos por pieza (del oandbackup viejo al</p>
+<p>Neo-Backup de hoy) trajo el control fino — la mudanza exacta, el experimento seguro, el archivo</p>
+<p>de versiones.</p>
+<p>La cadena de las bóvedas en una línea: la fábrica ató la póliza a su vitrina (2008), la comunidad libre la soltó (2017), y el barrio de esta noche hereda las dos llaves con placa y ley. La genealogía más tranquila de la serie: la que duerme trabajando.</p>
+<p>───────────────────</p>
+<p><em>📦 LA DESPENSA DE LA BÓVEDA (tu póliza, ordenada como gente)</em></p>
+<p><em>EL ACTA DE LA BÓVEDA.</em> El documento del taller: destino, calendario, referencia de la frase,</p>
+<p>última cópia, última prueba — junto al expediente de la casa. La póliza documentada es la que se</p>
+<p>cobra.</p>
+<p><em>LA FRASE EN EL TRONCO.</em> El papel con la frase de cifrado, junto a los papeles de la propiedad —</p>
+<p>y la referencia en el acta de dónde está. El arcaísmo útil: la llave que sobrevive a la</p>
+<p>electrónica.</p>
+<p><em>EL USB DEL MERCADITO.</em> Rotulado con la fecha, viajando los domingos al trabajo o al familiar de</p>
+<p>confianza — la cóplica fuera de casa que sobrevive al cajón. La regla 3-2-1 hecha costumbre de</p>
+<p>barrio.</p>
+<p><em>Y LA REGLA APRENDIDA.</em> La bóveda se administra con la vara de la casa: destino propio, cópia nocturna, prueba anual, frase en papel — y la vitrina ajena solo con vara plena. Dieciséis piezas de la serie y la misma vara: la bóveda la aplica a la memoria — la casa entera, copiada y probada, con acta.</p>
+<p>───────────────────</p>
+<p><em>🪧 EL CARTEL DE LA BÓVEDA</em></p>
+<p>Clávalo en la puerta de la casa:</p>
+<p><em>La cópia que no salió del teléfono no existe.</em></p>
+<p><em>La póliza que no se probó no es póliza — una restauración al año.</em></p>
+<p><em>La llave va al tronco: el respaldo cifrado sin papeles es una tumba con candado.</em></p>
+<p><em>Tres copias, dos medios, una fuera de casa — la regla de la mercería.</em></p>
+<p><em>Y la vitrina ajena no es bóveda: la póliza de tu memoria se firma en tu nombre.</em></p>
+<p>───────────────────</p>
+<p><em>😄 EL MEME DE LA CASA</em></p>
+<p>— El barrio, con el teléfono muerto en la mano: <em>«mi vida entera estaba ahí…»</em> 😭</p>
+<p>— La funeraria del teléfono: <em>«¿respaldo? ¿qué es eso, un groupito nuevo?»</em> 🪦</p>
+<p>— Seedvault, con ★1.868 (censo 15-oct-2026) y nueve años de taller: *cópia nocturna completa,</p>
+<p>sola, mientras nadie mira* 🗄</p>
+<p>— La colmada del caso uno, mostrando el acta de la bóveda: <em>«el mar ya no cobra dos veces»</em> 😌</p>
+<p><em>Moral del meme, chin chin:</em> la casa sin bóveda no es una casa: es una apuesta — y el mar, el robo y la caída siempre juegan. La póliza cuesta una tarde, cobra nada, y amanece trabajando: el desastre es de los que apuestan; la anécdota, de los que guardan, chin chin.</p>
+<p><em>⚠ LOS RIESGOS DE LA BÓVEDA, CON FECHA</em></p>
+<p><em>RIESGO UNO — la bóveda fantasma.</em> La app configurada que NUNCA completó una cópia (el destino cayó, la frase se perdió, el wifi nunca coincidió): la bóveda que parece y no es. La defensa: la primera cópia completa VERIFICADA (el archivo visto en el destino) + el aviso del taller activado + la revisión mensual del acta.</p>
+<p>La fantasma se desmonta al mes uno — no al desastre.</p>
+<p><em>RIESGO DOS — la llave enterrada con el muerto.</em> El respaldo cifrado cuya frase vive SOLO en el teléfono que murió: el arcón sin llave — la bóveda convertida en tumba (la forja lo firma con cicatriz del barrio: ha pasado). La defensa: la frase en papel en el tronco + la copia de la frase con el familiar de confianza.</p>
+<p>El cifrado sin papeles es la tumba con candado.</p>
+<p><em>RIESGO TRES — la cópia única.</em> El disco externo que vive en el mismo cajón que el teléfono: el incendio, el robo del cajón, la crecida — se llevan las dos cópias juntas. La defensa: la regla 3-2-1 completa — una cópia FUERA de casa (la nube propia, el USB del trabajo, el familiar de confianza).</p>
+<p>La cópia que comparte destino con el original no es póliza: es la misma casa esperando el mismo</p>
+<p>incendio.</p>
+<p><em>Y el riesgo que la forja se auto-impone:</em> escribir la pieza de la póliza sin vender el miedo. La forja firma el tono: la bóveda se arma UNA tarde, se prueba UNA vez al año, y duerme sola el resto — el oficio del respaldo es el más aburrido de la serie, y ese es su don: la póliza que trabaja mientras nadie la mira.</p>
+<p>El oficio de la bóveda es de los que olvidan bien — porque la bóveda no olvida.</p>
+<p>───────────────────</p>
+<p><em>📖 GLOSARIO DE LA COSECHA</em></p>
+<p><em>Puente.</em> El cliente que no guarda música: la busca en el catálogo de otro y la trae al momento.</p>
+<p>Debe su vida a un río ajeno — por eso la vara de esta escuela mira el push con fecha antes que</p>
+<p>las estrellas.</p>
+<p><em>Cajón.</em> La escuela del archivo propio: MP3 y FLAC tuyos, tocados sin internet ni río ajeno.</p>
+<p>Nunca depende de un provedor, jamás se corta en la loma, y su única obligación es que tus</p>
+<p>etiquetas estén peinadas.</p>
+<p><em>Detective.</em> La escuela del descubrimiento: cruza fuentes, amarra discografías y te muestra</p>
+<p>versiones. Muffon es su bandera en la cosecha — menos «ponme la playlist», más «enséñame el mapa</p>
+<p>del artista».</p>
+<p><em>Cosecha.</em> El pase de vara ancho por una familia del censo: se mide casa por casa, con placa, y</p>
+<p><em>🗓 EL RITUAL DE LA PRIMERA SEMANA (de la casa sin póliza a la bóveda armada)</em></p>
+<p><em>DÍA UNO — el destino.</em> La tarde del destino: la nube propia (o el disco) con su carpeta de la bóveda, y el USB del cajón rotulado. La vara del oficio: sin destino verificado, no se abre la bóveda — la cópia sin adónde ir es un deseo con app.</p>
+<p><em>DÍA DOS — la bóveda del sistema.</em> Seedvault (placa: ★1.868 (censo 15-oct-2026), push del 14-oct-2026): destino, calendario nocturno, frase de cifrado (a papel y al tronco), y LA PRIMERA CÓPIA COMPLETA — verificada con el archivo visto en el destino. La póliza del bloque, armada.</p>
+<p><em>DÍA TRES — la prueba de la restauración.</em> La casa restaurada en el aparato viejo (o al menos: tres piezas clave — el mensajero del negocio, el cuaderno, el portero (31)). La prueba que convierte la cópia en póliza: lo que volvió y lo que no, ANOTADO en el acta — la vara honesta de la bóveda desde el día tres.</p>
+<p><em>DÍA CUATRO — la bóveda del taller (si hay root).</em> Neo-Backup (placa: ★3.873 (censo 15-oct-2026), AGPL-3.0, push del 3-may-2026): las tres primeras faenas — portero, cuaderno, y la pieza que experimenta. La regla clavada: ningún experimento (20/26) sin respaldo de pieza antes — la vara del taller seguro.</p>
+<p><em>DÍA CINCO — el 3-2-1 completo.</em> La cópia fuera de casa: la nube propia actualizada, el USB semanal al trabajo o al familiar de confianza. La regla de la mercería firmada: tres copias, dos medios, una fuera — y el calendario dominical del mercadito.</p>
+<p><em>DÍA SEIS — el acta de la bóveda.</em> La nota del taller: destino, calendario, frase (la referencia — no la frase: esa va al tronco), fecha de la última cópia completa, fecha de la última prueba. El documento que el familiar sabe dónde está — la bóveda documentada es la que se hereda.</p>
+<p><em>DÍA SIETE — la placa, otra vez.</em> Vuelve al censo con la bóveda armada: ¿la cópia de anoche llegó? ¿el aviso del taller está activo?</p>
+<p>¿la frase está en el tronco? El día que respondes sin ayuda, la casa cumplió: tu teléfono tiene póliza — lo que entre (35), lo que cuides (31/33/34) y lo que guardes (36), con acta.</p>
+<p>El desastre del barrio, además, se queda en anécdota: tu casa ya no apuesta al mar.</p>
+<p>───────────────────</p>
+<p><em>La regla de la bóveda que la serie pide clavar en la puerta de la casa:</em> la cópia que no salió</p>
+<p>del teléfono no existe, la póliza que no se probó no es póliza, y la llave que no está en el</p>
+<p>tronco es una tumba con candado.</p>
+<p>───────────────────</p>
+<p><em>🩺 LA SALUD DE LA BÓVEDA AL CORTE (el parte de la memoria)</em></p>
+<p>El parte del 15-oct-2026: la bóveda más viva del bloque — Seedvault empujando el 14-oct (aire de</p>
+<p>un día, la firma más fresca de la noche junto a la de Obtainium) y el colectivo Neo-Backup en</p>
+<p>quietud productiva desde el 3-may.</p>
+<p>El balance del parte: el sistema llega a su sexta pieza con el taller más viejo de la sección</p>
+<p>(nueve años de Seedvault) y el censo más maduro — la memoria del barrio está en manos de</p>
+<p>talleres que vieron morir tres generaciones de teléfonos y siguen empujando.</p>
+<p>La lectura fina: el territorio de la bóveda es el de las ideas que no caducan — el respaldo</p>
+<p>correcto de 2017 sigue siendo el respaldo correcto de 2026: destino propio, cópia periódica,</p>
+<p>prueba anual. La idea no envejece: se hereda.</p>
+<p><em>📐 LA MEDIDA DE LA BÓVEDA (lo que el censo deja leer y no se ve)</em></p>
+<p>Tres medidas finas de la noche.</p>
+<p>La primera: la madurez del bloque. Las bóvedas promedian siete años y once meses — contra tres y</p>
+<p>siete de las puertas (35), tres y cinco del apoderado (33): el gradiente es nítido — cuanto más</p>
+<p>cerca del sistema vital, más viejo el taller.</p>
+<p>El ecosistema lo resolvió sin decirlo: la entrada se innova, la memoria se hereda.</p>
+<p>La segunda: la asimetría de estrellas. Neo-Backup ★3.873 (censo 15-oct-2026) DUPLICA a Seedvault</p>
+<p>★1.868 — y sin embargo es Seedvault la que las ROMs libres montan de fábrica.</p>
+<p>La lectura honesta: la estrella mide el cariño del usuario de taller; la integración mide la</p>
+<p>confianza de la comunidad constructora — las dos varas se cruzan en la bóveda: el colectivo la</p>
+<p>lleva en el bolsillo, la comunidad la pone en la fábrica.</p>
+<p>La tercera: la ley heredable. La AGPL de Neo-Backup es la primera AGPL del bloque del sistema — y no es casualidad: la bóveda es el mueble que más se hereda (el taller muere, la cóplica queda), y la AGPL es la ley de las herencias honestas: hasta el servicio modificado se abre.</p>
+<p>La forja firma el patrón: donde el oficio sobrevive al taller, la ley es más larga.</p>
+<p><em>🎯 EL MINIQUIZ DE LA BÓVEDA</em></p>
+<p>Cinco preguntas de la pieza. Las respuestas van AL REVÉS al pie (leídas de atrás para adelante),</p>
+<p>para que nadie las palmee sin pensarse el plato.</p>
+<p><em>LAS PREGUNTAS:</em></p>
+<p>1) ¿Qué bóveda es la del sistema y qué placa trae?</p>
+<p>2) ¿Qué bóveda es la del taller y qué pide?</p>
+<p>3) ¿Cuál es la regla 3-2-1?</p>
+<p>4) ¿Dónde va la frase de cifrado?</p>
+<p>5) ¿Por qué el sync no es bóveda?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>(Las respuestas correctas —de arriba abajo— son: Seedvault la del sistema; Neo-Backup la</p>
+<p>quirúrgica con root; tres-dos-uno la doctrina; el tronco la llave; y presente-versus-pasado la</p>
+<p>diferencia.)</p>
+<p>───────────────────</p>
+<p><em>PRIMERA CARTA — al que acaba de perder el teléfono.</em></p>
+<p>Esta pieza llega tarde pa tu pérdida y la forja lo firma — pero la cicatriz es la maestra de la</p>
+<p>serie: la bóveda de esta noche se arma en una tarde y la PRÓXIMA caída cobra anécdota, no</p>
+<p>historia.</p>
+<p>El detalle del consuelo técnico, eso sí: si tus fotos y conversaciones vivían en la nube del</p>
+<p>mensajero, MONTA LA BÓVEDA PROPIA HOY — la vitrina ajena borra con los años lo que la bóveda</p>
+<p>guarda para siempre.</p>
+<p><em>SEGUNDA CARTA — a los talleres de las dos bóvedas.</em></p>
+<p>El censo de esta noche los firma como los talleres más maduros del bloque: nueve y seis años — Seedvault empujando el 14-oct (la bóveda más viva del censo) y el colectivo NeoApplications heredando el oficio con la ley AGPL que lo deja heredar. La forja firma la mudanza con el patrón de la 32 (el oficio sobrevive al taller) y re-mide en el censo próximo.</p>
+<p>La memoria de la casa libre: en las mejores manos desde 2017.</p>
+<p><em>TERCERA CARTA — al que nota que esta pieza cierra el círculo del sistema.</em></p>
+<p>Exacto — el bloque del sistema ya protege (31/33), ordena (32), mide (34) y entra (35): esta noche aprendió a recordar. La serie sigue su fila (el mapa manda) — y la casa ya tiene el ciclo completo: lo que entra por la puerta firmada, vive bajo vara, se administra con lupa, se guarda en el almacén y amanece copiado en la bóveda.</p>
+<p>El teléfono que antes era una apuesta, amaneció institución.</p>
+<p>───────────────────</p>
+<p>💓 <em>PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 36).</em></p>
+<p>dormidos · 0 archivados.</p>
+<p><em>📋 LA FICHA DE HOY</em></p>
+<ul>
+<li><strong>NeoApplications/Neo-Backup</strong> — «backup manager for android»</li>
+</ul>
+<p>  ★3.882 · su último empuje fue el 2026-10-17 (hace 12 días) · licencia AGPL-3.0 · Kotlin · última release 8.3.18 (2026-05-03) · <a href="https://github.com/NeoApplications/Neo-Backup">https://github.com/NeoApplications/Neo-Backup</a></p>
+<p>  Temas: android · backup-tool · hacktoberfest · kotlin · root</p>
+<ul>
+<li><strong>seedvault-app/seedvault</strong> — «A backup application for the Android Open Source Project.»</li>
+</ul>
+<p>  ★1.877 · su último empuje fue el 2026-10-16 (hace 13 días) · licencia sin SPDX de GitHub: no se inventa · Kotlin · <a href="https://github.com/seedvault-app/seedvault">https://github.com/seedvault-app/seedvault</a></p>
+<p>  Temas: android · backup</p>
+<p><em>🎯 MINI-QUIZ DE HOY</em></p>
+<p><em>1.</em> La licencia de seedvault-app/seedvault, ¿cuál es?</p>
+<p><em>2.</em> ¿Cuál es el repo con más ★ de la pieza, según la medición de hoy?</p>
+<p><em>3.</em> De la pieza, ¿quién empujó más cerca de hoy?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>REV|atnevni es on :buHtiG ed XDPS nis=1|REV|288.3★ — pukcaB-oeN/snoitacilppAoeN=2|REV|71-01-6202 — pukcaB-oeN/snoitacilppAoeN=3</p>
+<p>💓 Hoy, jueves 29 de octubre de 2026, se midieron en vivo 2 repos y 0 enlaces de esta pieza: 2 vivos, 0 firmados con su estado en la ficha. El texto es el de la casa; la ficha, la de hoy.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-04-15T17:23:53Z",
+   "oid": "ce5c6ddc92978eabbeebf2e7926356cc0a41a1f5"
+  }
+ },
+ "diskUsage": 21069,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "Xalista/web-to-app",
+ "pushedAt": "2026-04-15T17:34:33Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

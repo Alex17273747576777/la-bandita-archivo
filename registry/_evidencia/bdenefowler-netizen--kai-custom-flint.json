@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-12T16:08:31Z",
+   "oid": "6f46ff7e6036b098dfcaf0afa1733c41efd85c5f"
+  }
+ },
+ "diskUsage": 1799642,
+ "forkCount": 1,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "bdenefowler-netizen/Kai-custom-Flint",
+ "pushedAt": "2026-09-12T16:08:32Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

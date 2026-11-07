@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-05-24T08:53:25Z",
+   "oid": "08c33222e4df39452d6e047253b6d1ebc4aa7638"
+  }
+ },
+ "diskUsage": 2175151,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "quantum-evm/Kai",
+ "pushedAt": "2026-05-24T09:00:23Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

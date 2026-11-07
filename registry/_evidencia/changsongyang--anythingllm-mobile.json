@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-06-02T17:33:30Z",
+   "oid": "1282a8c70f338cc33b070a5a51b3cfb89bbdf2d0"
+  }
+ },
+ "diskUsage": 35758,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "changsongyang/anythingllm-mobile",
+ "pushedAt": "2026-06-02T17:33:32Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

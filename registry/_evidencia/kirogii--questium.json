@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-11-01T20:55:38Z",
+   "oid": "62c096b800ddccbc2808c40ef2e2561656ab15eb"
+  }
+ },
+ "diskUsage": 126271,
+ "forkCount": 1,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "Kirogii/Questium",
+ "pushedAt": "2026-11-01T22:11:36Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": true,
+    "publishedAt": "2026-10-09T10:20:08Z",
+    "tagName": "v1.0.0-testing"
+   }
+  ]
+ },
+ "stargazerCount": 1
+}
