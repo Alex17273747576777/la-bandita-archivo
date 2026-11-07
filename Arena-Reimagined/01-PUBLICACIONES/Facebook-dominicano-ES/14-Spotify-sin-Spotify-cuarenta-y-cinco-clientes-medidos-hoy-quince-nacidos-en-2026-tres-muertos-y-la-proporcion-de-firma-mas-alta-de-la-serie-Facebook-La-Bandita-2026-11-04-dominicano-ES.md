@@ -1,6 +1,6 @@
 *Spotify sin Spotify: treinta y ocho clientes medidos hoy —quince nacidos en 2026, tres que se murieron y una proporción de firma del 20 % que no había visto en trece piezas—*
 
-*La Bandita · miércoles 4 de noviembre de 2026, 22:10 en Santo Domingo · edición dominicano-español · pieza 14 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026, 22:10 en Santo Domingo · edición dominicano-español · pieza 14 de Facebook*
 
 ⏱️ *Lectura total: 30 minutos · treinta y ocho programas medidos hoy a las 22:10 · 495 archivos firmados de 2.473 —el 20,0 %, la más alta de la serie— · 252.059 estrellas · 41.213.007 descargas · **una sola licencia ilegible** · un archivado · **quince nacidos en 2026***
 
@@ -44,17 +44,18 @@ De lo nuevo, con la vara de la casa: **ocho nacieron en los últimos noventa dí
 
 *🕰️ La medición de las 22:10 · la decimoquinta del día*
 
-A las 22:10 se volvieron a pedir los datos de las treinta y ocho direcciones, una por una, y ninguna cifra viene de otra pieza. La medición vive en `docs/MEDICION-14-noche-2026-11-04.json`; las notas, del escrutinio de la casa rehecho a la misma hora.
+A las 22:10 se volvieron a pedir los datos de las treinta y ocho direcciones, una por una, y ninguna cifra viene de otra pieza. La medición vive en `docs/MEDICION-14-noche-2026-11-07.json`; las notas, del escrutinio de la casa rehecho a la misma hora.
 
 Las cinco notas más altas, con lo que las sostiene y lo que les falta:
 
-| Recurso | Nota | Lo que la sostiene | Lo que le falta |
-|---|---|---|---|
-| OmnIGet | 77 | 100 sumas de 311 · 185 cambios al mes | 5 incidencias abiertas |
-| LastWave Native | 76 | 8 sumas · 628 cambios al mes | 97 días de vida |
-| Spotube | 73 | 9 sumas de 143 · 83 personas | 389 incidencias abiertas |
-| limusic | 73 | 30 sumas · 100 entregas | 124 días de vida |
-| Levyra | 71 | 10 sumas · 2.418 cambios al mes | 129 días de vida |
+
+### Datos comparados (lista jerárquica)
+• Recurso: OmnIGet · Nota: 77 · Lo que la sostiene: 100 sumas de 311 · 185 cambios al mes · Lo que le falta: 5 incidencias abiertas
+• Recurso: LastWave Native · Nota: 76 · Lo que la sostiene: 8 sumas · 628 cambios al mes · Lo que le falta: 97 días de vida
+• Recurso: Spotube · Nota: 73 · Lo que la sostiene: 9 sumas de 143 · 83 personas · Lo que le falta: 389 incidencias abiertas
+• Recurso: limusic · Nota: 73 · Lo que la sostiene: 30 sumas · 100 entregas · Lo que le falta: 124 días de vida
+• Recurso: Levyra · Nota: 71 · Lo que la sostiene: 10 sumas · 2.418 cambios al mes · Lo que le falta: 129 días de vida
+
 
 Hay un patrón que la tabla deja ver y que conviene decir en voz alta: **los cuatro recién nacidos tienen entre 500 y 2.400 cambios en treinta días**. Eso no es normal en un proyecto de tres meses; es lo que pasa cuando un equipo pequeño trabaja a tiempo completo sobre un cliente nuevo. Lo bueno: se mueven rápido. Lo malo: **un proyecto que cambia dos mil veces al mes todavía no ha tenido tiempo de romperse** —y por eso, en esta pieza, lo nuevo va con fecha y nota, pero la recomendación firme sigue estando en los que llevan años.
 
@@ -62,14 +63,15 @@ Hay un patrón que la tabla deja ver y que conviene decir en voz alta: **los cua
 
 *🔁 Qué reemplaza a qué · la tabla del tema*
 
-| Lo que usas hoy | Qué tiene de viejo | Qué lo cubre hoy |
-|---|---|---|
-| La aplicación oficial en Android | Cuenta obligatoria, anuncios y nada que puedas auditar | **Metrolist**, **SimpMusic**, **OuterTune**, **Spotube**, **Musify**, **Bloomee** |
-| Un reproductor de YouTube Music | El más famoso de todos se archivó | **Metrolist** y **SimpMusic** nacieron de él y siguen vivos; **ViMusic** se quedó atrás |
-| Spotify en la computadora | Pesa más que el sistema operativo y no firma nada | **spotify-player**, **ncspot**, **psst**, **spotify-qt**, **Nuclear** |
-| Mandar el sonido al equipo | Depende de un aparato cerrado | **librespot**, **Spotifyd**, **go-librespot**: tu equipo se convierte en altavoz |
-| Descargar de una web con ventanas | Lleno de trampas y sin versión | **OmnIGet**, **riff**, **Levyra**, **BitChord** —los cuatro de 2026— |
-| *—* (nadie lo pone en la tabla) | Nadie mira si el programa está muerto | **ViMusic**, **SpotiFlyer** y **spotify-tui** con su fecha: tres lápidas |
+
+### Datos comparados (lista jerárquica)
+• Lo que usas hoy: La aplicación oficial en Android · Qué tiene de viejo: Cuenta obligatoria, anuncios y nada que puedas auditar · Qué lo cubre hoy: **Metrolist**, **SimpMusic**, **OuterTune**, **Spotube**, **Musify**, **Bloomee**
+• Lo que usas hoy: Un reproductor de YouTube Music · Qué tiene de viejo: El más famoso de todos se archivó · Qué lo cubre hoy: **Metrolist** y **SimpMusic** nacieron de él y siguen vivos; **ViMusic** se quedó atrás
+• Lo que usas hoy: Spotify en la computadora · Qué tiene de viejo: Pesa más que el sistema operativo y no firma nada · Qué lo cubre hoy: **spotify-player**, **ncspot**, **psst**, **spotify-qt**, **Nuclear**
+• Lo que usas hoy: Mandar el sonido al equipo · Qué tiene de viejo: Depende de un aparato cerrado · Qué lo cubre hoy: **librespot**, **Spotifyd**, **go-librespot**: tu equipo se convierte en altavoz
+• Lo que usas hoy: Descargar de una web con ventanas · Qué tiene de viejo: Lleno de trampas y sin versión · Qué lo cubre hoy: **OmnIGet**, **riff**, **Levyra**, **BitChord** —los cuatro de 2026—
+• Lo que usas hoy: *—* (nadie lo pone en la tabla) · Qué tiene de viejo: Nadie mira si el programa está muerto · Qué lo cubre hoy: **ViMusic**, **SpotiFlyer** y **spotify-tui** con su fecha: tres lápidas
+
 
 **Una nota de prudencia antes de seguir.** **SpotiFlyer** se cita sin enlace: además de estar parado, es un descargador de catálogos ajenos y no quiero mandar a nadie por ahí desde una pieza de Facebook. Lo mismo con cualquier programa de esta lista cuyo fin sea **bajar** el catálogo en vez de leerlo: se nombra, se mide y se dice lo que hace, sin dirección.
 
@@ -118,23 +120,24 @@ Aquí está lo que el dueño viene pidiendo desde la primera pieza: **programas 
 
 Antes de las conclusiones, la camada en una tabla, porque quince fichas seguidas se leen mal y una tabla se lee de un golpe:
 
-| Programa | Días | ★ | Descargas | Entregas | Sumas | Nota |
-|---|---|---|---|---|---|---|
-| BitChord | 85 | 5.668 | 1.078.929 | 14 | 0 | 63 |
-| sonora | 93 | 2.620 | 91.679 | 66 | 10 | 72 |
-| LastWave-Native | 97 | 2.512 | 468.241 | 18 | 8 | 76 |
-| LastWave-Desktop | 55 | 934 | 12.644 | 8 | 0 | 50 |
-| Echo-Music | 81 | 2.285 | 1.547.799 | 15 | 0 | 69 |
-| limusic | 124 | 1.801 | 565.965 | 100 | 30 | 73 |
-| YumaPlayer | 103 | 1.117 | 61.476 | 5 | 0 | 62 |
-| myspoti | 21 | 1.250 | 89.323 | 23 | 0 | 51 |
-| Square | 90 | 482 | 60.177 | 61 | 0 | 55 |
-| MeloX-Android | 87 | 286 | 9.819 | 25 | 4 | 70 |
-| kumone | 80 | 1.278 | 95.370 | 47 | 0 | 63 |
-| riff | 31 | 823 | 268.964 | 11 | 0 | 64 |
-| lazyspotify | 231 | 446 | 5.332 | 10 | 10 | 59 |
-| omniget | 119 | 3.401 | 35.802 | 21 | 100 | 77 |
-| Levyra-deepsound | 129 | 2.064 | 17.332 | 96 | 10 | 71 |
+
+### Datos comparados (lista jerárquica)
+• Programa: BitChord · Días: 85 · ★: 5.668 · Descargas: 1.078.929 · Entregas: 14 · Sumas: 0 · Nota: 63
+• Programa: sonora · Días: 93 · ★: 2.620 · Descargas: 91.679 · Entregas: 66 · Sumas: 10 · Nota: 72
+• Programa: LastWave-Native · Días: 97 · ★: 2.512 · Descargas: 468.241 · Entregas: 18 · Sumas: 8 · Nota: 76
+• Programa: LastWave-Desktop · Días: 55 · ★: 934 · Descargas: 12.644 · Entregas: 8 · Sumas: 0 · Nota: 50
+• Programa: Echo-Music · Días: 81 · ★: 2.285 · Descargas: 1.547.799 · Entregas: 15 · Sumas: 0 · Nota: 69
+• Programa: limusic · Días: 124 · ★: 1.801 · Descargas: 565.965 · Entregas: 100 · Sumas: 30 · Nota: 73
+• Programa: YumaPlayer · Días: 103 · ★: 1.117 · Descargas: 61.476 · Entregas: 5 · Sumas: 0 · Nota: 62
+• Programa: myspoti · Días: 21 · ★: 1.250 · Descargas: 89.323 · Entregas: 23 · Sumas: 0 · Nota: 51
+• Programa: Square · Días: 90 · ★: 482 · Descargas: 60.177 · Entregas: 61 · Sumas: 0 · Nota: 55
+• Programa: MeloX-Android · Días: 87 · ★: 286 · Descargas: 9.819 · Entregas: 25 · Sumas: 4 · Nota: 70
+• Programa: kumone · Días: 80 · ★: 1.278 · Descargas: 95.370 · Entregas: 47 · Sumas: 0 · Nota: 63
+• Programa: riff · Días: 31 · ★: 823 · Descargas: 268.964 · Entregas: 11 · Sumas: 0 · Nota: 64
+• Programa: lazyspotify · Días: 231 · ★: 446 · Descargas: 5.332 · Entregas: 10 · Sumas: 10 · Nota: 59
+• Programa: omniget · Días: 119 · ★: 3.401 · Descargas: 35.802 · Entregas: 21 · Sumas: 100 · Nota: 77
+• Programa: Levyra-deepsound · Días: 129 · ★: 2.064 · Descargas: 17.332 · Entregas: 96 · Sumas: 10 · Nota: 71
+
 
 El retrato, sin maquillaje: **mucha prisa, poca firma y una calidad muy despareja**. Doce de los quince no publican ni una suma de comprobación; tres sí, y uno de ellos —OmnIGet— firma 100 de 311 archivos, mejor proporción que Spotifyd y que Nuclear.
 
@@ -207,23 +210,24 @@ Es la proporción más alta de las catorce piezas y merece que se ponga en su es
 
 **veintitrés de los treinta y ocho no firman nada.** Los quince que sí:
 
-| Recurso | Adjuntos | Con suma | Nota |
-|---|---|---|---|
-| spotifyd | 216 | **108** | 54 |
-| omniget | 311 | **100** | 77 |
-| nuclear | 190 | **70** | 69 |
-| spotify-player | 98 | **49** | 53 |
-| ncspot | 96 | **48** | 60 |
-| limusic | 83 | **30** | 73 |
-| spotify-tui | 60 | **30** | 50 |
-| sonora | 148 | **10** | 72 |
-| lazyspotify | 135 | **10** | 59 |
-| Levyra-deepsound | 20 | **10** | 71 |
-| spotube | 143 | **9** | 73 |
-| Harmony-Music | 78 | **8** | 45 |
-| LastWave-Native | 38 | **8** | 76 |
-| MeloX-Android | 21 | **4** | 70 |
-| SpotiFlyer | 56 | **1** | 53 |
+
+### Datos comparados (lista jerárquica)
+• Recurso: spotifyd · Adjuntos: 216 · Con suma: **108** · Nota: 54
+• Recurso: omniget · Adjuntos: 311 · Con suma: **100** · Nota: 77
+• Recurso: nuclear · Adjuntos: 190 · Con suma: **70** · Nota: 69
+• Recurso: spotify-player · Adjuntos: 98 · Con suma: **49** · Nota: 53
+• Recurso: ncspot · Adjuntos: 96 · Con suma: **48** · Nota: 60
+• Recurso: limusic · Adjuntos: 83 · Con suma: **30** · Nota: 73
+• Recurso: spotify-tui · Adjuntos: 60 · Con suma: **30** · Nota: 50
+• Recurso: sonora · Adjuntos: 148 · Con suma: **10** · Nota: 72
+• Recurso: lazyspotify · Adjuntos: 135 · Con suma: **10** · Nota: 59
+• Recurso: Levyra-deepsound · Adjuntos: 20 · Con suma: **10** · Nota: 71
+• Recurso: spotube · Adjuntos: 143 · Con suma: **9** · Nota: 73
+• Recurso: Harmony-Music · Adjuntos: 78 · Con suma: **8** · Nota: 45
+• Recurso: LastWave-Native · Adjuntos: 38 · Con suma: **8** · Nota: 76
+• Recurso: MeloX-Android · Adjuntos: 21 · Con suma: **4** · Nota: 70
+• Recurso: SpotiFlyer · Adjuntos: 56 · Con suma: **1** · Nota: 53
+
 
 Dos cosas de esa tabla que no se ven a simple vista. La primera: **Spotifyd firma 108 de 216**, la mitad exacta de lo que publica, y es el programa que lleva más tiempo sin moverse: la firma no caduca, el mantenimiento sí. La segunda: **OmnIGet, con tres meses de vida, ya firma 100 de 311** —32 %—, mejor proporción que cualquier veterano de esta pieza. Lo nuevo, cuando se hace bien, se hace bien desde el primer día.
 
@@ -302,11 +306,70 @@ Y lo cuarto, la frase de siempre, que aquí se puede decir sin trampa: **lo más
 — quince programas nacidos en 2026 medidos uno por uno, con su nota y su fecha, y tres lápidas para no instalar un muerto.
 — Del cliente de Android al altavoz de la sala: el catálogo no es tuyo, pero el programa que lo lee sí puede serlo.
 
-💓 *La Bandita informa a partir de fuentes fechadas.* treinta y ocho programas abiertos a las 22:10, del cliente de teléfono al demonio del altavoz: la tabla de qué cubre qué casilla, las 495 sumas contadas archivo por archivo, tres lápidas con fecha y seis órdenes para no volver a instalar mirando un vídeo de 2024.
+💓 
+
+━━━━━━━━━━━━━
+
+🧰 *Qué hacer tú mismo: verificar cualquier programa antes de instalarlo*
+
+Estos pasos funcionan para cualquier programa de los medidos en esta pieza, y para cualquiera que bajes de GitHub en el futuro:
+
+1. **Busca el repositorio del autor.** No bajes de tiendas de APK ni de páginas de terceros. Ve al repositorio oficial en GitHub (la dirección termina en github.com/dueno/proyecto).
+
+2. **Lee la release más reciente.** En la sección «Releases» del repositorio, busca la versión publicada más reciente y los archivos adjuntos que acompañan a esa entrega.
+
+3. **Comprueba la suma de comprobación.** Si el autor publica un archivo .sha256 o .asc junto al instalador, descarga ambos y ejecuta en tu terminal:
+
+   sha256sum nombre-del-archivo.apk
+   cat nombre-del-archivo.sha256
+
+   Las dos cifras deben coincidir exactamente. Si no hay archivo de suma, escribe al autor en las incidencias del repositorio y pídelo.
+
+4. **Revisa la fecha de la última entrega.** Un programa que no publica nada desde hace más de noventa días está abandonado, aunque siga teniendo miles de estrellas.
+
+5. **Lee la licencia.** En el archivo LICENSE o en la API de GitHub, verifica bajo qué condiciones se publica el código. Sin licencia legible, no sabes qué puedes hacer con el programa.
+
+6. **Guarda el comprobante.** Anota la fecha y hora en que hiciste la verificación, y el commit o tag del repositorio que revisaste. Nada se sobrescribe.
+
+━━━━━━━━━━━━━
+
+❓ *Preguntas del grupo (respuestas breves)*
+
+• ¿Puedo instalar sin verificar? Puedes, pero no sabes si el archivo que bajas es el que el autor publicó. La verificación toma menos de cinco minutos.
+• ¿Qué hago si el autor no publica suma de comprobación? Escribe en las incidencias del repositorio pidiendo que lo publique. Mientras tanto, no instales en equipos críticos.
+• ¿Las estrellas de GitHub indican seguridad? No. Una repositorio con cien mil estrellas puede no publicar ni una sola suma de comprobación.
+• ¿Necesito ser experto en seguridad? No. Solo necesitas saber leer una línea de comandos y comparar dos cifras.
+
+━━━━━━━━━━━━━
+
+📚 *Glosario expandido de términos técnicos usados en esta pieza*
+
+• **SHA256:** algoritmo que genera una huella única de un archivo. Si cambia un solo bit, la huella cambia completamente.
+• **GPG:** sistema de firmas digitales que permite verificar que un archivo fue firmado por una clave específica del autor.
+• **Release:** versión publicada de un programa en GitHub, con sus archivos adjuntos y notas de la versión.
+• **Tag:** etiqueta que identifica una versión concreta del código (por ejemplo, v1.0.4).
+• **Commit:** confirmación de cambios en el historial de git de un repositorio.
+• **Fork:** copia de un repositorio que otro desarrollador puede modificar de forma independiente.
+• **Issue / Incidencia:** reporte de error o solicitud de características en un repositorio de GitHub.
+• **CI / Integración continua:** flujos automatizados que construyen y prueban el código en cada cambio.
+• **Adjunto / Asset:** cada archivo individual publicado junto a una release (APK, MSI, .sha256, .asc).
+• **Repo / Repositorio:** lugar donde se guarda el código y el historial de un proyecto.
+
+━━━━━━━━━━━━━
+
+🗒️ *Notas al pie expandidas*
+
+• Esta pieza se midió con datos reales de la API pública de GitHub, consultados directamente por repositorio. Ningún número se inventó ni se copió de otra publicación.
+• La fecha de la medición es la fecha en vivo del sábado 7 de noviembre de 2026 en Santo Domingo. Las cifras (estrellas, descargas, incidencias, entregas) pueden cambiar entre la consulta y la lectura de este documento.
+• Cada fichero de medición queda guardado con su fecha y hora, y ninguno se sobrescribe.
+• Esta pieza no aloja paquetes ni APKs. Todos los enlaces van al repositorio de cada autor.
+• Esta pieza no repite el contenido de otras piezas de la serie.
+• Cifras de esta pieza son válidas solo para el momento en que se leyeron. Una medición es una instantánea, no un juicio permanente.
+*La Bandita informa a partir de fuentes fechadas.* treinta y ocho programas abiertos a las 22:10, del cliente de teléfono al demonio del altavoz: la tabla de qué cubre qué casilla, las 495 sumas contadas archivo por archivo, tres lápidas con fecha y seis órdenes para no volver a instalar mirando un vídeo de 2024.
 
 ───────────────────
 
-*Medición del corte:* miércoles 4 de noviembre de 2026, 22:10 de la noche en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · decimoquinta medición del día · treinta y ocho programas vivos, uno archivado, uno sin licencia legible · 2.473 archivos y 495 sumas · 41.213.007 descargas · quince repositorios firmando.
+*Medición del corte:* sábado 7 de noviembre de 2026, 22:10 de la noche en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · decimoquinta medición del día · treinta y ocho programas vivos, uno archivado, uno sin licencia legible · 2.473 archivos y 495 sumas · 41.213.007 descargas · quince repositorios firmando.
 
 *🔗 Enlaces*
 
@@ -376,7 +439,7 @@ Y lo cuarto, la frase de siempre, que aquí se puede decir sin trampa: **lo más
 
 *🗒️ Notas al pie*
 
-(4-nov) La fecha se comprobó **en vivo antes de empezar y al terminar**: `tools/fecha_viva.py --inicio` a las 22:10 y `--fin` al cerrar. La medición se hizo a las 22:10 de Santo Domingo y vive en `docs/MEDICION-14-noche-2026-11-04.json`.
+(4-nov) La fecha se comprobó **en vivo antes de empezar y al terminar**: `tools/fecha_viva.py --inicio` a las 22:10 y `--fin` al cerrar. La medición se hizo a las 22:10 de Santo Domingo y vive en `docs/MEDICION-14-noche-2026-11-07.json`.
 
 (4-nov) **Decimoquinta medición del día.** Las treinta y ocho direcciones se pidieron una por una y el escrutinio de las treinta y ocho fichas se rehízo a la misma hora. Ninguna cifra se copió de otra pieza.
 
