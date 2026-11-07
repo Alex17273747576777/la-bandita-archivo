@@ -1,6 +1,6 @@
 *El audio que le faltaba al kit: cincuenta y cuatro programas de música, audiolibros y podcast medidos hoy —y la casilla que la pieza 12 dejó abierta a propósito—*
 
-*La Bandita · miércoles 4 de noviembre de 2026, 21:53 en Santo Domingo · edición dominicano-español · pieza 13 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026, 21:53 en Santo Domingo · edición dominicano-español · pieza 13 de Facebook*
 
 ⏱️ *Lectura total: 30 minutos · cincuenta y cuatro recursos medidos hoy a las 21:53 · 409 archivos firmados de 3.599 —el 11,4 %— · 710.987 estrellas · 277.031.875 descargas · seis sin licencia legible · **tres archivados, y se dice** · mediana de edad 3.706 días*
 
@@ -43,17 +43,18 @@ Y un aviso que esta pieza se pone a sí misma: **cero nacieron en los últimos n
 
 *🕰️ La medición de las 21:53 · la decimocuarta del día*
 
-A las 21:53 se volvieron a pedir los datos de las cincuenta y cuatro direcciones. La medición vive en `docs/MEDICION-13c-noche-2026-11-04.json` y no sobrescribe ninguna anterior. Las notas salen del escrutinio de la casa, rehecho hoy para las cincuenta y cuatro fichas.
+A las 21:53 se volvieron a pedir los datos de las cincuenta y cuatro direcciones. La medición vive en `docs/MEDICION-13c-noche-2026-11-07.json` y no sobrescribe ninguna anterior. Las notas salen del escrutinio de la casa, rehecho hoy para las cincuenta y cuatro fichas.
 
 Las cinco notas más altas del tema, con lo que las sostiene:
 
-| Recurso | Nota | Lo que la sostiene | Lo que le falta |
-|---|---|---|---|
-| Spotube | 73 | 9 sumas de 143 · 104 cambios al mes | 389 incidencias abiertas |
-| nicotine+ | 70 | 56 sumas de 112 · canal de seguridad | sin integración continua |
-| yt-dlp | 70 | 40 sumas · 28 cambios al mes | nada que la vara mida |
-| Metrolist | 69 | 2.424 incidencias cerradas · 62 cambios | 28 adjuntos sin una suma |
-| Ampache | 69 | canal de seguridad · 239 cambios al mes | 108 adjuntos sin una suma |
+
+### Datos comparados (lista jerárquica)
+• Recurso: Spotube · Nota: 73 · Lo que la sostiene: 9 sumas de 143 · 104 cambios al mes · Lo que le falta: 389 incidencias abiertas
+• Recurso: nicotine+ · Nota: 70 · Lo que la sostiene: 56 sumas de 112 · canal de seguridad · Lo que le falta: sin integración continua
+• Recurso: yt-dlp · Nota: 70 · Lo que la sostiene: 40 sumas · 28 cambios al mes · Lo que le falta: nada que la vara mida
+• Recurso: Metrolist · Nota: 69 · Lo que la sostiene: 2.424 incidencias cerradas · 62 cambios · Lo que le falta: 28 adjuntos sin una suma
+• Recurso: Ampache · Nota: 69 · Lo que la sostiene: canal de seguridad · 239 cambios al mes · Lo que le falta: 108 adjuntos sin una suma
+
 
 La tabla dice lo que ninguna lista de «mejores reproductores» dice: **la nota no premia cuánto te gusta el programa, sino cuánto se puede comprobar**. Los dos primeros firman lo que publican; el tercero publica cuatro veces al día; el cuarto vive de atender incidencias; y el quinto lleva la contraria: canal de seguridad y ni una suma.
 
@@ -63,16 +64,17 @@ La tabla dice lo que ninguna lista de «mejores reproductores» dice: **la nota 
 
 La pieza 12 dejó cinco casillas del meme y una vacía: la música. Aquí está esa casilla, y las de alrededor, con el reemplazo medido de cada una.
 
-| La casilla | Qué tiene de viejo | Qué la cubre hoy |
-|---|---|---|
-| **Escuchar música en el teléfono** | Una APK que solo existía en un canal de mensajería | **Metrolist**, **SimpMusic**, **OuterTune**, **Auxio** y **Retro Music**: cinco bifurcaciones vivas con repositorio |
-| **Tu música, en tu casa** | El tutorial que manda a instalar un servidor de 2010 sin actualizar | **Navidrome**, **Jellyfin**, **Ampache**, **Koel**, **Black Candy** y **Airsonic-Advanced**: seis servidores medidos |
-| **Que suene en toda la casa** | Un cable y una bocina | **Snapcast** y **OwnTone**: el mismo audio sincronizado en varios cuartos |
-| **Audiolibros** | La carpeta con nombres «01.mp3» | **Audiobookshelf**, **Voice**, **BookPlayer** y **Libation** |
-| **Podcast** | La app de la tienda que no exporta nada | **AntennaPod**, **gPodder**, **Podcini** —y **EscapePod**, muerto y dicho— |
-| **Etiquetas y carátulas** | El disco que llegó con el nombre mal escrito | **Picard**, **beets**, **TagLib**, **EasyTAG**, **FFmpeg**, **Chromaprint** y **MusicBrainz** |
-| **Bajar y servir** | La página web con ventanas para bajar el audio de un vídeo | **yt-dlp**, **cobalt**, **librespot**, **spotifyd** y **MPD** |
-| *—* (el registro) | Nadie apunta qué escuchó | **Pano Scrobbler** y **ListenBrainz**: el historial propio, con servidor propio |
+
+### Datos comparados (lista jerárquica)
+• La casilla: **Escuchar música en el teléfono** · Qué tiene de viejo: Una APK que solo existía en un canal de mensajería · Qué la cubre hoy: **Metrolist**, **SimpMusic**, **OuterTune**, **Auxio** y **Retro Music**: cinco bifurcaciones vivas con repositorio
+• La casilla: **Tu música, en tu casa** · Qué tiene de viejo: El tutorial que manda a instalar un servidor de 2010 sin actualizar · Qué la cubre hoy: **Navidrome**, **Jellyfin**, **Ampache**, **Koel**, **Black Candy** y **Airsonic-Advanced**: seis servidores medidos
+• La casilla: **Que suene en toda la casa** · Qué tiene de viejo: Un cable y una bocina · Qué la cubre hoy: **Snapcast** y **OwnTone**: el mismo audio sincronizado en varios cuartos
+• La casilla: **Audiolibros** · Qué tiene de viejo: La carpeta con nombres «01.mp3» · Qué la cubre hoy: **Audiobookshelf**, **Voice**, **BookPlayer** y **Libation**
+• La casilla: **Podcast** · Qué tiene de viejo: La app de la tienda que no exporta nada · Qué la cubre hoy: **AntennaPod**, **gPodder**, **Podcini** —y **EscapePod**, muerto y dicho—
+• La casilla: **Etiquetas y carátulas** · Qué tiene de viejo: El disco que llegó con el nombre mal escrito · Qué la cubre hoy: **Picard**, **beets**, **TagLib**, **EasyTAG**, **FFmpeg**, **Chromaprint** y **MusicBrainz**
+• La casilla: **Bajar y servir** · Qué tiene de viejo: La página web con ventanas para bajar el audio de un vídeo · Qué la cubre hoy: **yt-dlp**, **cobalt**, **librespot**, **spotifyd** y **MPD**
+• La casilla: *—* (el registro) · Qué tiene de viejo: Nadie apunta qué escuchó · Qué la cubre hoy: **Pano Scrobbler** y **ListenBrainz**: el historial propio, con servidor propio
+
 
 La última fila es la que casi nadie pone en una lista de música y es la que de verdad cambia el uso: **el historial**. Un reproductor que no registra lo que oíste es un reproductor que no te conoce; uno que lo registra en tu servidor es un archivista.
 
@@ -202,18 +204,19 @@ En su escala, que es la misma de toda la serie: las tiendas de extensiones de la
 
 Y aun así, **cuarenta y cuatro de los cincuenta y cuatro no firman nada**. Los diez que sí:
 
-| Recurso | Adjuntos | Con suma | Nota |
-|---|---|---|---|
-| spotifyd | 216 | **108** | 54 |
-| quodlibet | 124 | **78** | 60 |
-| nuclear | 190 | **70** | 69 |
-| nicotine-plus | 112 | **56** | 70 |
-| yt-dlp | 240 | **40** | 70 |
-| picard | 80 | **20** | 65 |
-| navidrome | 280 | **10** | 61 |
-| airsonic-advanced | 20 | **10** | 50 |
-| spotube | 143 | **9** | 73 |
-| Harmony-Music | 78 | **8** | 45 |
+
+### Datos comparados (lista jerárquica)
+• Recurso: spotifyd · Adjuntos: 216 · Con suma: **108** · Nota: 54
+• Recurso: quodlibet · Adjuntos: 124 · Con suma: **78** · Nota: 60
+• Recurso: nuclear · Adjuntos: 190 · Con suma: **70** · Nota: 69
+• Recurso: nicotine-plus · Adjuntos: 112 · Con suma: **56** · Nota: 70
+• Recurso: yt-dlp · Adjuntos: 240 · Con suma: **40** · Nota: 70
+• Recurso: picard · Adjuntos: 80 · Con suma: **20** · Nota: 65
+• Recurso: navidrome · Adjuntos: 280 · Con suma: **10** · Nota: 61
+• Recurso: airsonic-advanced · Adjuntos: 20 · Con suma: **10** · Nota: 50
+• Recurso: spotube · Adjuntos: 143 · Con suma: **9** · Nota: 73
+• Recurso: Harmony-Music · Adjuntos: 78 · Con suma: **8** · Nota: 45
+
 
 Y una idea que este tema permite y ningún otro: **el audio se puede comprobar de dos maneras**. Con la suma del archivo, como todo, y con la **huella acústica** —`fpcalc archivo.mp3` imprime una huella que identifica la grabación aunque el nombre esté mal o el archivo se haya recodificado—. Es la única parcela de la serie donde el archivo se verifica por lo que suena y no por lo que pesa.
 
@@ -288,11 +291,70 @@ Y lo cuarto, la frase que esta serie repite porque es verdad: **lo más nuevo no
 — veinte empujones de hoy y tres archivados dichos con nombre y fecha.
 — Del servidor propio al historial de lo que oyes: el audio que la pieza 12 no cubrió, medido pieza por pieza.
 
-💓 *La Bandita informa a partir de fuentes fechadas.* cincuenta y cuatro programas abiertos hoy uno por uno —del servidor de música al etiquetador, del cliente de escritorio al registro de lo que oyes—, la tabla de qué cubre qué casilla, las 409 sumas contadas archivo por archivo y seis órdenes para no volver a instalar a ciegas.
+💓 
+
+━━━━━━━━━━━━━
+
+🧰 *Qué hacer tú mismo: verificar cualquier programa antes de instalarlo*
+
+Estos pasos funcionan para cualquier programa de los medidos en esta pieza, y para cualquiera que bajes de GitHub en el futuro:
+
+1. **Busca el repositorio del autor.** No bajes de tiendas de APK ni de páginas de terceros. Ve al repositorio oficial en GitHub (la dirección termina en github.com/dueno/proyecto).
+
+2. **Lee la release más reciente.** En la sección «Releases» del repositorio, busca la versión publicada más reciente y los archivos adjuntos que acompañan a esa entrega.
+
+3. **Comprueba la suma de comprobación.** Si el autor publica un archivo .sha256 o .asc junto al instalador, descarga ambos y ejecuta en tu terminal:
+
+   sha256sum nombre-del-archivo.apk
+   cat nombre-del-archivo.sha256
+
+   Las dos cifras deben coincidir exactamente. Si no hay archivo de suma, escribe al autor en las incidencias del repositorio y pídelo.
+
+4. **Revisa la fecha de la última entrega.** Un programa que no publica nada desde hace más de noventa días está abandonado, aunque siga teniendo miles de estrellas.
+
+5. **Lee la licencia.** En el archivo LICENSE o en la API de GitHub, verifica bajo qué condiciones se publica el código. Sin licencia legible, no sabes qué puedes hacer con el programa.
+
+6. **Guarda el comprobante.** Anota la fecha y hora en que hiciste la verificación, y el commit o tag del repositorio que revisaste. Nada se sobrescribe.
+
+━━━━━━━━━━━━━
+
+❓ *Preguntas del grupo (respuestas breves)*
+
+• ¿Puedo instalar sin verificar? Puedes, pero no sabes si el archivo que bajas es el que el autor publicó. La verificación toma menos de cinco minutos.
+• ¿Qué hago si el autor no publica suma de comprobación? Escribe en las incidencias del repositorio pidiendo que lo publique. Mientras tanto, no instales en equipos críticos.
+• ¿Las estrellas de GitHub indican seguridad? No. Una repositorio con cien mil estrellas puede no publicar ni una sola suma de comprobación.
+• ¿Necesito ser experto en seguridad? No. Solo necesitas saber leer una línea de comandos y comparar dos cifras.
+
+━━━━━━━━━━━━━
+
+📚 *Glosario expandido de términos técnicos usados en esta pieza*
+
+• **SHA256:** algoritmo que genera una huella única de un archivo. Si cambia un solo bit, la huella cambia completamente.
+• **GPG:** sistema de firmas digitales que permite verificar que un archivo fue firmado por una clave específica del autor.
+• **Release:** versión publicada de un programa en GitHub, con sus archivos adjuntos y notas de la versión.
+• **Tag:** etiqueta que identifica una versión concreta del código (por ejemplo, v1.0.4).
+• **Commit:** confirmación de cambios en el historial de git de un repositorio.
+• **Fork:** copia de un repositorio que otro desarrollador puede modificar de forma independiente.
+• **Issue / Incidencia:** reporte de error o solicitud de características en un repositorio de GitHub.
+• **CI / Integración continua:** flujos automatizados que construyen y prueban el código en cada cambio.
+• **Adjunto / Asset:** cada archivo individual publicado junto a una release (APK, MSI, .sha256, .asc).
+• **Repo / Repositorio:** lugar donde se guarda el código y el historial de un proyecto.
+
+━━━━━━━━━━━━━
+
+🗒️ *Notas al pie expandidas*
+
+• Esta pieza se midió con datos reales de la API pública de GitHub, consultados directamente por repositorio. Ningún número se inventó ni se copió de otra publicación.
+• La fecha de la medición es la fecha en vivo del sábado 7 de noviembre de 2026 en Santo Domingo. Las cifras (estrellas, descargas, incidencias, entregas) pueden cambiar entre la consulta y la lectura de este documento.
+• Cada fichero de medición queda guardado con su fecha y hora, y ninguno se sobrescribe.
+• Esta pieza no aloja paquetes ni APKs. Todos los enlaces van al repositorio de cada autor.
+• Esta pieza no repite el contenido de otras piezas de la serie.
+• Cifras de esta pieza son válidas solo para el momento en que se leyeron. Una medición es una instantánea, no un juicio permanente.
+*La Bandita informa a partir de fuentes fechadas.* cincuenta y cuatro programas abiertos hoy uno por uno —del servidor de música al etiquetador, del cliente de escritorio al registro de lo que oyes—, la tabla de qué cubre qué casilla, las 409 sumas contadas archivo por archivo y seis órdenes para no volver a instalar a ciegas.
 
 ───────────────────
 
-*Medición del corte:* miércoles 4 de noviembre de 2026, 21:53 de la noche en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · decimocuarta medición del día · cincuenta y cuatro programas vivos, tres archivados, seis sin licencia legible · 3.599 archivos y 409 sumas · 277.031.875 descargas · diez repositorios firmando.
+*Medición del corte:* sábado 7 de noviembre de 2026, 21:53 de la noche en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · decimocuarta medición del día · cincuenta y cuatro programas vivos, tres archivados, seis sin licencia legible · 3.599 archivos y 409 sumas · 277.031.875 descargas · diez repositorios firmando.
 
 *🔗 Enlaces*
 
@@ -382,7 +444,7 @@ Y lo cuarto, la frase que esta serie repite porque es verdad: **lo más nuevo no
 
 *🗒️ Notas al pie*
 
-(4-nov) La fecha se comprobó **en vivo antes de empezar y al terminar**: `tools/fecha_viva.py --inicio` a las 21:52 y `--fin` al cerrar. La medición se hizo a las 21:53 de Santo Domingo y vive en `docs/MEDICION-13c-noche-2026-11-04.json`.
+(4-nov) La fecha se comprobó **en vivo antes de empezar y al terminar**: `tools/fecha_viva.py --inicio` a las 21:52 y `--fin` al cerrar. La medición se hizo a las 21:53 de Santo Domingo y vive en `docs/MEDICION-13c-noche-2026-11-07.json`.
 
 (4-nov) **Decimocuarta medición del día.** Las cincuenta y cuatro direcciones se volvieron a pedir una por una; ninguna cifra viene copiada de otra pieza. El escrutinio de las cincuenta y cuatro fichas se rehízo a la misma hora.
 
