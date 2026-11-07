@@ -18,3 +18,4 @@ Seis comprobaciones antes de instalar: ficha, licencia, permisos, nube, firma, h
 Ambas procesan en el equipo sin enviar imágenes a servidores externos. Ninguna exige cuenta ni suscripción.
 
 ━━━━━━━━━━━━━
+*La Bandita informa a partir de fuentes fechadas.*

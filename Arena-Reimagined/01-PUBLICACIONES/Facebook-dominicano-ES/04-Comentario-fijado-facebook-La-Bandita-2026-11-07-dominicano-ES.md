@@ -40,3 +40,5 @@ Ningún APK se aloja aquí. La huella se calcula en el teléfono con Termux o en
 Con huella, comparas sesenta y cuatro caracteres y lo sabes con certeza.
 
 **Hashtags:** #Shizuku #GhostMode #Dhizuku #InstallerXRevived #UniversalInstaller #Shevery #Hail #GuangLab #ShizukuNext #Nightzuku #ShizukuPlus #Canta
+
+*La Bandita informa a partir de fuentes fechadas.*

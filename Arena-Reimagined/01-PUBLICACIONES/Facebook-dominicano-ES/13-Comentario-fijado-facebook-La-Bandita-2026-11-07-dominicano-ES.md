@@ -20,3 +20,4 @@ Cómo usar: cada programa está en su repositorio de GitHub. Clona, lee la relea
 Tres de los cincuenta y cuatro programas están archivados. Seis no declaran licencia legible. Verifica antes de instalar.
 
 ━━━━━━━━━━━━━
+*La Bandita informa a partir de fuentes fechadas.*

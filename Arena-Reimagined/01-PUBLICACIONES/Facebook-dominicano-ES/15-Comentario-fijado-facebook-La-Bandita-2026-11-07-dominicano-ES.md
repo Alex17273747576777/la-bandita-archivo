@@ -22,3 +22,4 @@ Cómo usar: cada programa está en su repositorio de GitHub. Clona, lee la relea
 274 de 2.596 archivos con suma (10.6 %). Veintiuno de los treinta y uno no publican ni una sola suma.
 
 ━━━━━━━━━━━━━
+*La Bandita informa a partir de fuentes fechadas.*

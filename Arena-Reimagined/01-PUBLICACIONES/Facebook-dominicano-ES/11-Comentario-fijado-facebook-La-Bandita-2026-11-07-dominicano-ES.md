@@ -20,3 +20,4 @@ Cómo usar: añade el repositorio de extensiones en la aplicación, verifica que
 Cinco aplicaciones más instaladas (Mihon, Aniyomi, Seanime, Cloudstream, TachiyomiJ2K) suman 49 millones de descargas y ninguna publica una suma de comprobación en sus últimas entregas.
 
 ━━━━━━━━━━━━━
+*La Bandita informa a partir de fuentes fechadas.*

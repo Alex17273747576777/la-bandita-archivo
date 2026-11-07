@@ -24,3 +24,4 @@ Cómo usar: cada programa está en su repositorio de GitHub. Clona, lee la relea
 La proporción de firma llega al 20,0 %, la más alta de la serie: 495 de 2.473 archivos con suma de comprobación.
 
 ━━━━━━━━━━━━━
+*La Bandita informa a partir de fuentes fechadas.*

@@ -39,3 +39,5 @@ Ningún APK se aloja aquí. La huella se calcula en el teléfono con Termux o en
 Con huella, comparas sesenta y cuatro caracteres y lo sabes con certeza.
 
 **Hashtags:** #ReVanced #Morphe #PatchManager #UniversalPatchManager #RevancedManager #MorpheManager #Shizuku #AndroidPatching #RevancedCli #RevancedApi
+
+*La Bandita informa a partir de fuentes fechadas.*

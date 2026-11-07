@@ -23,3 +23,4 @@ Cómo usar: cada herramienta está en su propio repositorio de GitHub. Clona, le
 Esta pieza no enlaza APKs de tiendas no oficiales. Todos los enlaces van al repositorio de cada autor.
 
 ━━━━━━━━━━━━━
+*La Bandita informa a partir de fuentes fechadas.*

@@ -21,3 +21,4 @@ Cómo usar: clona el repositorio de la herramienta, lee la release más reciente
 Esta pieza no enlaza tiendas de APK ni alojamiento de paquetes. Todos los enlaces van al repositorio de cada autor.
 
 ━━━━━━━━━━━━━
+*La Bandita informa a partir de fuentes fechadas.*

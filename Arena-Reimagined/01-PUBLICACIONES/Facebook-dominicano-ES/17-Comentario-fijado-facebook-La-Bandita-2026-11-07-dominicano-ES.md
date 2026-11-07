@@ -21,3 +21,4 @@ Un teclado que dicta y corrige puede ver todo lo que escribes. Verifica antes de
 Esta pieza no enlaza APKs de tiendas no oficiales. Todos los enlaces van al repositorio de cada autor.
 
 ━━━━━━━━━━━━━
+*La Bandita informa a partir de fuentes fechadas.*

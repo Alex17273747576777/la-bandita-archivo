@@ -21,3 +21,4 @@ Cómo usar: añade la dirección del repositorio en tu aplicación lectora (Miho
 Keiyoushi, la tienda más famosa con 15.432 estrellas, publica 2.928 archivos y ninguna suma de comprobación.
 
 ━━━━━━━━━━━━━
+*La Bandita informa a partir de fuentes fechadas.*

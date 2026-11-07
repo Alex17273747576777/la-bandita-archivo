@@ -19,3 +19,4 @@ OmniShizuku publicó solo compilación de depuración a partir del 5 de noviembr
 Esta pieza no enlaza APKs de tiendas no oficiales. Todos los enlaces van al repositorio del autor.
 
 ━━━━━━━━━━━━━
+*La Bandita informa a partir de fuentes fechadas.*

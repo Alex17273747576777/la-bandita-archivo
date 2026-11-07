@@ -23,3 +23,4 @@ Cómo usar: cada herramienta está en su repositorio de GitHub. Clona, lee la re
 Los dos más instalados (hiddify y sing-box) no publican ni una sola suma de comprobación entre los dos. Verifica antes de confiar.
 
 ━━━━━━━━━━━━━
+*La Bandita informa a partir de fuentes fechadas.*

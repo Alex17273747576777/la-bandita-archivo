@@ -22,3 +22,4 @@ Un enlace de radio por internet no es un archivo: es una dirección que puede de
 Esta pieza no enlaza flujos de contenido con derechos de autor. Todos los enlaces van al repositorio de cada autor.
 
 ━━━━━━━━━━━━━
+*La Bandita informa a partir de fuentes fechadas.*
