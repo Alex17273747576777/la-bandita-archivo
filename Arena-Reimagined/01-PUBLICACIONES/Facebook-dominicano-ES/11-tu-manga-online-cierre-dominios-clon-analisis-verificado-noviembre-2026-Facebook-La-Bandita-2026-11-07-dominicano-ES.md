@@ -14,7 +14,16 @@
 ├── 🔐 .net vs .org: ¿puedes confiar en ninguno para credenciales?
 ├── ⚠️ Riesgos legales y de seguridad
 ├── 🔗 Fuentes verificadas
-└── 🌅 Cierre
+└── 
+
+───────────────────
+
+📌 *Comentario fijado*
+
+Este comentario está fijado por la Bandita. Aquí encontrarás los avisos más importantes, enlaces de referencia y notas del autor que deben mantenerse visibles al inicio de los comentarios. Si tienes preguntas sobre esta publicación, déjalas abajo y responderemos en orden.
+
+
+🌅 Cierre
 ```
 
 ───────────────────

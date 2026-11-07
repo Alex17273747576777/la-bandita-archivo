@@ -13,7 +13,16 @@
 ├── 🌐 Alternativas web · MangaDex, Lectormanga, InManga y otras
 ├── ⚠️ Riesgos legales y de seguridad · lo que el usuario debe saber
 ├── 🔗 Fuentes verificadas · dónde comprobar cada dato
-└── 🌅 Cierre · recomendación práctica
+└── 
+
+───────────────────
+
+📌 *Comentario fijado*
+
+Este comentario está fijado por la Bandita. Aquí encontrarás los avisos más importantes, enlaces de referencia y notas del autor que deben mantenerse visibles al inicio de los comentarios. Si tienes preguntas sobre esta publicación, déjalas abajo y responderemos en orden.
+
+
+🌅 Cierre · recomendación práctica
 ```
 
 ───────────────────

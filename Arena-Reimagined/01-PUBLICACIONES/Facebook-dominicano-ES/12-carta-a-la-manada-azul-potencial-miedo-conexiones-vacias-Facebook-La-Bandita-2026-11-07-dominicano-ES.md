@@ -15,7 +15,16 @@
 ├── 💙 Un abrazo de la Bandita para quien se siente perdido este sábado
 ├── 🌟 Cierre: que el hombre vuelva a ser un niño
 ├── 🏷️ Tags
-└── 🌅 Cierre final
+└── 
+
+───────────────────
+
+📌 *Comentario fijado*
+
+Este comentario está fijado por la Bandita. Aquí encontrarás los avisos más importantes, enlaces de referencia y notas del autor que deben mantenerse visibles al inicio de los comentarios. Si tienes preguntas sobre esta publicación, déjalas abajo y responderemos en orden.
+
+
+🌅 Cierre final
 ```
 
 ───────────────────

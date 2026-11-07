@@ -14,7 +14,16 @@
 ├── 🚀 Lo que viene · regreso a la rutina y contenido
 ├── 🔗 Mi nuevo perfil · enlace directo para reconectar
 ├── 🏷️ Tags
-└── 🌅 Cierre
+└── 
+
+───────────────────
+
+📌 *Comentario fijado*
+
+Este comentario está fijado por la Bandita. Aquí encontrarás los avisos más importantes, enlaces de referencia y notas del autor que deben mantenerse visibles al inicio de los comentarios. Si tienes preguntas sobre esta publicación, déjalas abajo y responderemos en orden.
+
+
+🌅 Cierre
 ```
 
 ───────────────────

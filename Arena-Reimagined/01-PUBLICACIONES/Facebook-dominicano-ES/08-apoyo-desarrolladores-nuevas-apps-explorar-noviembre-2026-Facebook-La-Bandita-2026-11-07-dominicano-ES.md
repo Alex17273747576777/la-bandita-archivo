@@ -15,7 +15,16 @@
 ├── 🤖 Otaku Reader · enfoque AI-first y privacidad
 ├── 🔧 Proyectos que necesitan de toda la Bandita
 ├── 🔗 Enlaces verificados · repositorios y releases
-└── 🌅 Cierre · cómo contribuir sin ser desarrollador
+└── 
+
+───────────────────
+
+📌 *Comentario fijado*
+
+Este comentario está fijado por la Bandita. Aquí encontrarás los avisos más importantes, enlaces de referencia y notas del autor que deben mantenerse visibles al inicio de los comentarios. Si tienes preguntas sobre esta publicación, déjalas abajo y responderemos en orden.
+
+
+🌅 Cierre · cómo contribuir sin ser desarrollador
 ```
 
 ───────────────────

@@ -12,7 +12,16 @@
 ├── 🐢 Oogway — la fe en el destino y el árbol del durazno
 ├── 🌊 Control, confianza y el presente
 ├── 🏷️ Tags
-└── 🌅 Cierre
+└── 
+
+───────────────────
+
+📌 *Comentario fijado*
+
+Este comentario está fijado por la Bandita. Aquí encontrarás los avisos más importantes, enlaces de referencia y notas del autor que deben mantenerse visibles al inicio de los comentarios. Si tienes preguntas sobre esta publicación, déjalas abajo y responderemos en orden.
+
+
+🌅 Cierre
 ```
 
 ───────────────────
