@@ -44,7 +44,9 @@ Este tutorial no es una traducción del manual oficial. Está escrito desde cero
 Antes de hacer cualquier cambio, abre Kototoro y ve a Ajustes > Acerca de. Anota:
 
 1. La versión actual instalada (por ejemplo, v1.4.3, v2.3.5, v2.3.10).
-2. La versión que quieres instalar (recomendada: v2.3.12, release del 7 de noviembre de 2026).
+2. La versión que quieres instalar (recomendada: v2.3.12, release estable del 7 de noviembre de 2026).
+
+> **Nota sobre nightly builds:** Kototoro también publica compilaciones nocturnas automáticas (nightly-20261101, nightly-20261103, nightly-20261104, nightly-20261105, nightly-20261106) desde la rama de desarrollo. Estas contienen cambios pendientes no aún en una release estable; se recomiendan solo para usuarios avanzados. Para recuperar una biblioteca, usa siempre la versión estable v2.3.12.
 
 Si ya tienes v2.3.12 instalada y tu biblioteca está vacía, salta al Paso 4 (importar copia de seguridad). Si estás en una versión anterior a v2.3.0, lee todo el tutorial antes de actualizar.
 
@@ -159,6 +161,7 @@ Además, cada vez que actualices la aplicación, repite el Paso 2 (exportar copi
 
 - **Kototoro v2.3.12 release**: https://github.com/Kototoro-app/Kototoro/releases/tag/v2.3.12
 - **Kototoro repositorio oficial**: https://github.com/Kototoro-app/Kototoro
+- **Kototoro nightly builds**: https://github.com/Kototoro-app/Kototoro-Nightly/releases
 - **Documentación Kototoro**: https://kototoro-app.github.io/Kototoro/
 - **FelipeGFA extensiones**: https://raw.githubusercontent.com/FelipeFGA/anime-extensoes/repo/index.min.json
 - **Keiyoushi Extensions**: repositorio de extensiones para manga (más de 1500)

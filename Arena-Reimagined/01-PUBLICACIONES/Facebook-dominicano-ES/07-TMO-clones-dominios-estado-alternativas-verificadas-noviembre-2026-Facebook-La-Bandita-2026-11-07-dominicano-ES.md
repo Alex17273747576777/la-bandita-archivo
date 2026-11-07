@@ -29,11 +29,15 @@ Este comentario está fijado por la Bandita. Aquí encontrarás los avisos más 
 
 ## 🎭 El cierre oficial de TuMangaOnline
 
-TuMangaOnline (TMO) fue durante años uno de los portales de referencia para leer manga en español. A diferencia de una aplicación de código abierto, TMO era un sitio web centralizado que alojaba enlaces y capítulos traducidos por grupos de fans.
+TuMangaOnline (TMO), también conocido como ZonaTMO, fue durante años uno de los portales más grandes de lectura de manga en español. A diferencia de una aplicación de código abierto, TMO era un sitio web centralizado que alojaba enlaces y capítulos traducidos por grupos de fans.
 
-La información disponible en foros y comunidades de lectores indica que el sitio original dejó de funcionar y que sus dominios oficiales ya no responden. No se ha encontrado un anuncio oficial de cierre firmado por los operadores de TMO; el sitio simplemente dejó de estar accesible desde sus URLs principales.
+El cierre fue confirmado como definitivo tras una operación internacional coordinada liderada por la **Copyright Overseas Promotion Association (COA)** de Corea del Sur, que representa a gigantes como **Kakao Entertainment y WEBTOON**. La COA colaboró con la agencia de investigación IP-House y el bufete español Santiago Mediano Abogados. La evidencia fue presentada a las autoridades españolas, lo que resultó en acción contra los operadores de la plataforma con sede en Almería.
 
-Esto es importante porque distingue el cierre de TMO de un aviso legal tipo DMCA o una orden judicial. No hay evidencia pública de que el cierre respondiera a una reclamación de derechos de autor. Lo que sí hay es una comunidad de usuarios buscando dónde leer ahora, y una proliferación de dominios clon que intentan ocupar ese espacio.
+- **Fecha clave:** El 18 de marzo de 2026, el dominio principal `zonatmo.com` dejó de estar disponible, mostrando inicialmente un mensaje de "mantenimiento". Días después, el dominio pasó a estado `clientHold`. El 22 de abril de 2026 se confirmó su cierre definitivo.
+- **Impacto:** Más de 50 millones de visitas en marzo de 2026 según SimilarWeb; más de 86 millones de visitas en marzo de 2025 según los titulares de derechos; más de mil millones de visualizaciones en noviembre de 2024.
+- **Dominios asociados de la red original:** `visortmo.com`, `lectormanga.com`, `lectortmo.com`, `visormanga.com`.
+
+2026 se ha consolidado como un año de cierre masivo de sitios de piratería de manga y anime: Bato.to cerró en enero de 2026, HiAnime y AnimeKai confirmaron su cierre definitivo, y AnimeFLV (más de 15 años de actividad) dejó de funcionar en junio de 2026. Los clones que aparecen tras estos cierres no son el "regreso" de los originales, sino intentos de ocupar un vacío con todos los riesgos que ello conlleva.
 
 ───────────────────
 
@@ -43,11 +47,23 @@ Tras el desaparecimiento de TMO, aparecieron varios dominios que intentan replic
 
 | Dominio | Estado observado | Notas |
 |---------|-----------------|-------|
+| zonatmo.to | Reportado como alternativa por usuarios de Reddit | Uno de los clones más citados como posible sucesor |
+| zonatmo.org | Mencionado como clon de TMO | Contenido para adultos reportado; usar con extrema precaución |
+| zonatmo.net | Puntuación de confianza muy baja (14/100 según Gridinsoft) | Clasificado como "sospechoso"; evitar completamente |
 | zonatmo.com | Reportado como operativo por varios usuarios | Uno de los clones más citados en comunidades hispanas |
-| lectortmo.vip | Mencionado como alternativa | Menos reportes de uso activo |
-| lectortmoo.com | Mencionado como posible alternativa | No verificado independientemente |
+| lectortmo.vip | Mencionado como alternativa | Uno de los clones identificados por la COA como aún activos |
+| lectortmoo.com | Mencionado como posible alternativa | Se recomienda usar bloqueador de anuncios |
+| lectormangaa.com | Clone identificado | Menos información disponible |
+| lectormangass.com | Clone identificado | Se recomienda usar bloqueador de anuncios |
+| manga-oni.com | Alternativa citada en comunidades | Menos información disponible |
+| leercapitulo.co | Alternativa citada | Suben capítulos al día según usuarios |
+| heavenmanga.com | Alternativa citada | Menos información disponible |
+| inmanga | Alternativa citada | Catálogo en español |
+| kumanga | Alternativa citada | Similar a TMO con menos publicidad |
+| mangatv.net | Alternativa citada | Menos información disponible |
+| bokugents.com | Alternativa citada | Menos información disponible |
 
-**Advertencia:** ninguno de estos dominios es el sitio original de TuMangaOnline. Son proyectos de terceros sin relación verificable con los operadores originales de TMO. Pueden cambiar de URL sin previo aviso, dejar de funcionar en cualquier momento, o contener publicidad intrusiva y scripts de terceros.
+**Advertencia:** ninguno de estos dominios es el sitio original de TuMangaOnline. Son proyectos de terceros, clones o oportunistas sin relación verificable con los operadores originales de TMO. Pueden cambiar de URL sin previo aviso, dejar de funcionar en cualquier momento, o contener publicidad intrusiva, scripts de terceros y riesgos de robo de datos. Varios usuarios han advertido que algunas páginas clones existen para que la gente se registre y le roben los datos.
 
 Además, cambiar de dominio es una práctica común en sitios que alojan enlaces a contenido sin licencia. Un dominio que funciona hoy puede estar bloqueado mañana por proveedores de internet o por reclamaciones de terceros.
 
@@ -126,7 +142,10 @@ Usar aplicaciones de código abierto (Mihon, Aniyomi, Kototoro, etc.) con extens
 
 ## 🔗 Fuentes verificadas
 
+- **CBR.com** — "TuMangaOnline Shuts Down for Good as Major Manga Piracy Site Goes Offline": https://www.cbr.com/tumangaonline-zonatmo-shut-down-confirm/
+- **Reddit r/mangaES** — zonatmo.org y alternativas a TMO: https://www.reddit.com/r/mangaES/comments/1sqd82l/zonatmoorg_alternativas_a_tmo/
 - **Reddit r/Argnime** — Alternativas para TMO/TuMangaOnline: https://www.reddit.com/r/Argnime/comments/1kx36rz/alternativas_para_tmotumangaonline/
+- **Reddit r/Anime_En_General** — "Tmo oficialmente no regresará": https://www.reddit.com/r/Anime_En_General/comments/1smpn24/tmo_oficialmente_no_regresar%C3%A1/
 - **Monty.es** — Alternativas a TMO: https://monty.es/alternativas-a-tmo-tumangaonline/
 - **GameShop.es** — Alternativas a TMO: https://gameshop.es/alternativas-a-tmo/
 - **Mihon**: https://github.com/mihonapp/mihon

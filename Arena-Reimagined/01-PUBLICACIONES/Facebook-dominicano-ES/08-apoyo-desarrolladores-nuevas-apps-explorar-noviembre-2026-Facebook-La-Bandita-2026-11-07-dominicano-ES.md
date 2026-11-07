@@ -44,7 +44,7 @@ Esta pieza recopila proyectos nuevos o en desarrollo que merecen atención, con 
 Estas aplicaciones han aparecido o recibido actualizaciones significativas en 2026. Cada una incluye su versión confirmada, fecha de corte y origen.
 
 ### Zangetsu · anime, películas, series, manga y novelas ligeras
-**Versión:** Beta (5 de noviembre de 2026)  
+**Versión:** v2.3.2 (24 de octubre de 2026)  
 **Licencia:** GPL-3.0  
 **Plataformas:** Android, Android TV, iOS (beta), Windows (en progreso)  
 **Autor:** Krishna Vishwakarma (Spyou)
@@ -52,18 +52,18 @@ Estas aplicaciones han aparecido o recibido actualizaciones significativas en 20
 Zangetsu es una aplicación moderna y abierta que unifica tres modos —Streaming, Manga y Novela— cada uno con sus propias fuentes y lector o reproductor. Incluye una interfaz completa para Android TV diseñada para control remoto, no solo pantalla táctil. Es una de las pocas aplicaciones del ecosistema que ofrece soporte para Android TV de forma nativa.
 
 ### Mihon · el lector de referencia
-**Versión:** Última estable (7 de noviembre de 2026)  
-**Licencia:** Apache-2.0 / MIT  
+**Versión:** v0.21.3 (26 de octubre de 2026)  
+**Licencia:** Apache-2.0  
 **Estrellas en GitHub:** 25.100+
 
 Mihon es el estándar de facto para lectores de manga de código abierto en Android. Soporta extensiones de Tachiyomi y Keiyoushi, tiene más de 1200 fuentes integradas y recibe actualizaciones constantes. Cualquier persona que busque una aplicación de manga libre debería empezar por aquí.
 
 ### Komikku · experiencia pulida
-**Versión:** Última estable (4 de noviembre de 2026)  
-**Licencia:** Código abierto  
+**Versión:** v1.14.1 (17 de julio de 2026)  
+**Licencia:** Apache-2.0  
 **Plataformas:** Android
 
-Komikku es un lector de manga para Android con interfaz moderna y soporte para múltiples fuentes. Su desarrollo activo y su experiencia de usuario pulida lo hacen destacar entre las nuevas opciones.
+Komikku es un lector de manga para Android basado en TachiyomiSY y Mihon. Interfaz moderna, sincronización automática de progreso con trackers, temas configurables y experiencia pulita. Su desarrollo activo lo hace destacar entre las nuevas opciones.
 
 ### Neko · lector no oficial de MangaDex
 **Versión:** Última estable (7 de noviembre de 2026)  
@@ -103,7 +103,7 @@ Shosetsu ofrece una interfaz familiar para usuarios de Tachiyomi, con catálogo 
 
 ## 🧩 Mihon · el estándar con 25.100 estrellas
 
-Si solo se pudiera elegir una aplicación de manga de código abierto para Android, Mihon sería la recomendación principal. Con 25.100 estrellas en GitHub y una actualización confirmada el 7 de noviembre de 2026, es el proyecto más maduro y activo del ecosistema.
+Si solo se pudiera elegir una aplicación de manga de código abierto para Android, Mihon sería la recomendación principal. Con 25.100 estrellas en GitHub y su versión estable v0.21.3 publicada el 26 de octubre de 2026, es el proyecto más maduro y activo del ecosistema.
 
 Mihon no viene con fuentes preinstaladas; el usuario añade las que desea. Esto lo hace más ligero, más privado y totalmente personalizable. Es compatible con extensiones de Tachiyomi y Keiyoushi, lo que significa que puede acceder a prácticamente cualquier fuente de manga disponible en el ecosistema.
 
@@ -138,14 +138,14 @@ Apoyar no siempre significa escribir código. Reportar un bug con pasos claros p
 
 ## 🔗 Enlaces verificados
 
-- **Mihon**: https://github.com/mihonapp/mihon
-- **Komikku**: https://github.com/komikku-app/komikku
+- **Mihon**: https://github.com/mihonapp/mihon (v0.21.3, 26 oct 2026)
+- **Komikku**: https://github.com/komikku-app/komikku (v1.14.1, 17 jul 2026)
 - **Neko**: https://github.com/nekomangaorg/Neko
 - **Futon**: https://github.com/AppFuton/Futon
 - **Tsundoku**: https://github.com/tsundoku-otaku/tsundoku
 - **LNReader**: https://github.com/Palloxin/lnreader-clone
 - **Shosetsu**: app.shosetsu.android
-- **Zangetsu**: https://github.com/Spyou/Zangetsu
+- **Zangetsu**: https://github.com/Spyou/Zangetsu (v2.3.2, 24 oct 2026)
 - **Otaku Reader**: https://github.com/Heartless-Veteran/Otaku-Reader
 - **Taison**: https://github.com/Gent8/Taison
 

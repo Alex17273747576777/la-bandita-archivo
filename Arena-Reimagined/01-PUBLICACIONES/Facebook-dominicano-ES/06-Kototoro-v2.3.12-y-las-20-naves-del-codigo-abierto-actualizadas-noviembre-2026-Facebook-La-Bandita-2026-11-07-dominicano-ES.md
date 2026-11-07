@@ -79,7 +79,10 @@ Desde la v1.4.3 de junio de 2026, el proyecto ha publicado siete versiones nueva
 - El límite de caché de miniaturas de capítulos es ahora ajustable (16 MB a 1 GB, predeterminado 64 MB).
 - Las fuentes de novelas Tsundoku, IReader y LNReader ahora ofrecen "Abrir en el navegador" y "Borrar cookies" para superar validaciones de Cloudflare.
 
-Cada versión está firmada en su release de GitHub y sus cambios pueden verificarse commit a commit en github.com/Kototoro-app/Kototoro.
+#### Nightly builds · construcción diaria
+Además de las versiones estables, Kototoro publica compilaciones nocturnas (nightly) automáticamente desde la rama de desarrollo. Entre el 1 y el 6 de noviembre de 2026 se liberaron nightly-20261101, nightly-20261103, nightly-20261104, nightly-20261105 y nightly-20261106, cada una firmada con verificación de GitHub. Estas compilaciones contienen cambios pendientes que aún no han llegado a una release estable; se recomiendan solo para usuarios avanzados que quieran probar funcionalidades nuevas antes de tiempo.
+
+Cada versión estable está firmada en su release de GitHub y sus cambios pueden verificarse commit a commit en github.com/Kototoro-app/Kototoro.
 
 ───────────────────
 
@@ -123,15 +126,15 @@ Naves nuevas detectadas desde la publicación original de junio:
 
 Además de Kototoro, estas aplicaciones mantienen desarrollo activo y versiones estables verificadas en noviembre de 2026:
 
-**Mihon** — Lector de manga de referencia con 25.100 estrellas en GitHub, actualizado el 7 de noviembre de 2026. Soporta extensiones de Tachiyomi/Keiyoushi, tiene más de 1200 fuentes integradas y es el estándar de facto para lectores de manga de código abierto en Android.
+**Mihon** — Lector de manga de referencia con 25.100 estrellas en GitHub. Versión estable v0.21.3 publicada el 26 de octubre de 2026. Soporta extensiones de Tachiyomi/Keiyoushi, tiene más de 1200 fuentes integradas y es el estándar de facto para lectores de manga de código abierto en Android.
 
-**Komikku** — Lector de manga para Android, actualizado el 4 de noviembre de 2026. Interfaz moderna, soporte para múltiples fuentes y experiencia pulita.
+**Komikku** — Lector de manga para Android basado en TachiyomiSY y Mihon. Versión estable v1.14.1 publicada el 17 de julio de 2026. Interfaz moderna, sincronización automática de progreso con trackers, temas configurables y experiencia pulita. Licencia Apache-2.0.
 
 **Neko** — Lector no oficial de MangaDex para Android 8+, actualizado el 7 de noviembre de 2026. 2.800 estrellas, enfocado exclusivamente en MangaDex con experiencia de lectura optimizada.
 
 **Futon** — Fork de Kotatsu con más de 1100 fuentes integradas, disponible en F-Droid e IzzyOnDroid. Actualizado el 23 de marzo de 2026, enfocado en estabilidad y dispositivos antiguos.
 
-**Zangetsu** — Aplicación moderna y abierta para anime, películas, series, manga y novelas ligeras en Android, Android TV e iOS. Licencia GPL-3.0, actualizada el 5 de noviembre de 2026. Tiene tres modos (Streaming, Manga, Novela) con fuentes propias para cada uno.
+**Zangetsu** — Aplicación moderna y abierta para anime, películas, series, manga y novelas ligeras en Android, Android TV e iOS. Versión estable v2.3.2 publicada el 24 de octubre de 2026, con builds para arm64-v8a, armeabi-v7a, universal y Android TV. Licencia GPL-3.0. Tiene tres modos (Streaming, Manga, Novela) con fuentes propias para cada uno y una interfaz dedicada para Android TV diseñada para control remoto.
 
 ───────────────────
 
@@ -175,12 +178,13 @@ Kototoro se configura desde Más > Ajustes > Explorar > Repositorio de extension
 
 - **Kototoro oficial**: https://github.com/Kototoro-app/Kototoro
 - **Kototoro releases**: https://github.com/Kototoro-app/Kototoro/releases (v2.3.12, 7 nov 2026)
+- **Kototoro nightly**: https://github.com/Kototoro-app/Kototoro-Nightly/releases (builds diarias hasta nightly-20261106)
 - **Documentación Kototoro**: https://kototoro-app.github.io/Kototoro/
-- **Mihon**: https://github.com/mihonapp/mihon
-- **Komikku**: https://github.com/komikku-app/komikku
+- **Mihon**: https://github.com/mihonapp/mihon (v0.21.3, 26 oct 2026)
+- **Komikku**: https://github.com/komikku-app/komikku (v1.14.1, 17 jul 2026)
 - **Neko**: https://github.com/nekomangaorg/Neko
 - **Futon**: https://github.com/AppFuton/Futon
-- **Zangetsu**: https://github.com/Spyou/Zangetsu
+- **Zangetsu**: https://github.com/Spyou/Zangetsu (v2.3.2, 24 oct 2026)
 - **Miyomi (hub comunitario)**: https://miyomi.app
 - **FelipeGFA extensiones**: https://raw.githubusercontent.com/FelipeFGA/anime-extensoes/repo/index.min.json
 
