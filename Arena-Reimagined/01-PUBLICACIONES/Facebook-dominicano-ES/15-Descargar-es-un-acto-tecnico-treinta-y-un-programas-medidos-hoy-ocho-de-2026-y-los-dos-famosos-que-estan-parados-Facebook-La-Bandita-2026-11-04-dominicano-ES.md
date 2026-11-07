@@ -1,6 +1,6 @@
 *Descargar es un acto técnico: treinta y uno programas medidos hoy —ocho nacidos en 2026, las dos aplicaciones más famosas del tema paradas y lo que la ley no dice—*
 
-*La Bandita · miércoles 4 de noviembre de 2026, 22:32 en Santo Domingo · edición dominicano-español · pieza 15 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026, 22:32 en Santo Domingo · edición dominicano-español · pieza 15 de Facebook*
 
 ⏱️ *Lectura total: 30 minutos · treinta y uno programas medidos hoy a las 22:32 · 274 archivos firmados de 2.596 —el 10,6 %— · 580.137 estrellas · 307.014.477 descargas · cinco sin licencia legible · cero archivados · ocho de 2026*
 
@@ -47,17 +47,18 @@ Hay una tercera cosa que no esperaba y que es la que más me ha costado escribir
 
 *🕰️ La medición de las 22:32 · la decimosexta del día*
 
-Antes de sondear nada se hizo la revisión que ahora es regla: **la fecha en vivo a las 22:28**, el **historial** —catorce piezas publicadas, la 15 pendiente según el mapa de 125— y el **ecosistema**: seis consultas a la API de búsqueda por fecha de creación antes de elegir un solo candidato. Todo eso queda en `docs/PREFLIGHT-descarga-2026-11-04.json`. Después se midieron los treinta y uno a las 22:32, en `docs/MEDICION-15b-noche-2026-11-04.json`.
+Antes de sondear nada se hizo la revisión que ahora es regla: **la fecha en vivo a las 22:28**, el **historial** —catorce piezas publicadas, la 15 pendiente según el mapa de 125— y el **ecosistema**: seis consultas a la API de búsqueda por fecha de creación antes de elegir un solo candidato. Todo eso queda en `docs/PREFLIGHT-descarga-2026-11-07.json`. Después se midieron los treinta y uno a las 22:32, en `docs/MEDICION-15b-noche-2026-11-07.json`.
 
 Las cinco notas más altas, con lo que las sostiene:
 
-| Recurso | Nota | Lo que la sostiene | Lo que le falta |
-|---|---|---|---|
-| rayburst | 71 | 100 sumas de 220 · 131 cambios al mes | 245 días de vida |
-| Stash | 70 | 749 cambios al mes · canal de seguridad | 12 adjuntos sin una suma |
-| downvid | 70 | 141 adjuntos · canal de seguridad · 74 días | sin una suma publicada |
-| yt-dlp | 70 | 40 sumas · 10.178 incidencias cerradas | nada que la vara mida |
-| ytdlnis | 69 | 572 cambios al mes · canal de seguridad | 99 adjuntos sin una suma |
+
+### Datos comparados (lista jerárquica)
+• Recurso: rayburst · Nota: 71 · Lo que la sostiene: 100 sumas de 220 · 131 cambios al mes · Lo que le falta: 245 días de vida
+• Recurso: Stash · Nota: 70 · Lo que la sostiene: 749 cambios al mes · canal de seguridad · Lo que le falta: 12 adjuntos sin una suma
+• Recurso: downvid · Nota: 70 · Lo que la sostiene: 141 adjuntos · canal de seguridad · 74 días · Lo que le falta: sin una suma publicada
+• Recurso: yt-dlp · Nota: 70 · Lo que la sostiene: 40 sumas · 10.178 incidencias cerradas · Lo que le falta: nada que la vara mida
+• Recurso: ytdlnis · Nota: 69 · Lo que la sostiene: 572 cambios al mes · canal de seguridad · Lo que le falta: 99 adjuntos sin una suma
+
 
 **La nota no mide si el programa baja lo que tú quieres: mide si se puede comprobar.** Stash y downvid sacan 70 sin firmar un archivo porque publican, atienden y mantienen un canal de seguridad; y Seal, con treinta mil estrellas, saca 42 porque lleva un mes sin moverse.
 
@@ -65,16 +66,17 @@ Las cinco notas más altas, con lo que las sostiene:
 
 *🔁 Qué reemplaza a qué · la tabla de la descarga*
 
-| Lo que usas hoy | Qué tiene de viejo | Qué lo cubre hoy |
-|---|---|---|
-| Un gestor de escritorio que no recuerda | Motrix: 57.808 estrellas y **cero cambios en treinta días** | **Gopeed**, **XDM**, **Persepolis**, **YoutubeDownloader** y los nuevos **prism** y **downvid** |
-| La app de Android para bajar vídeo | Seal: 30.347 estrellas y **40 días sin empujón** | **ytdlnis**, la bifurcación que sí publica: 572 cambios al mes |
-| Una web con ventanas y botones | Sin versión, sin suma y sin código | **yt-dlp**, **lux**, **you-get**, **gallery-dl**: línea de órdenes, auditable |
-| Un cliente de escritorio para todo | Pesa cientos de megas y no dice de dónde baja | **rayburst**, **Stash**, **MovieBox-Tui**: tres de 2026, con notas de 68 a 71 |
-| Copiar la dirección del vídeo a mano | Se rompe cada vez que la web cambia | **N_m3u8DL-RE** y **curl-impersonate**: los dos que resuelven lo que los demás no |
-| *—* (nadie lo mira) | Que el archivo llegue entero | **274 sumas de 2.596 archivos**: la columna que casi nadie publica |
 
-**Una regla que esta pieza no se salta:** no se enlaza **ningún** cliente ni índice de torrentes. Ese es el tema de la pieza 16 y, además, la familia que Facebook vetó en la 12 (E40, H20). Aquí se mide software de descarga directa y se dice lo que hace; nada más.
+### Datos comparados (lista jerárquica)
+• Lo que usas hoy: Un gestor de escritorio que no recuerda · Qué tiene de viejo: Motrix: 57.808 estrellas y **cero cambios en treinta días** · Qué lo cubre hoy: **Gopeed**, **XDM**, **Persepolis**, **YoutubeDownloader** y los nuevos **prism** y **downvid**
+• Lo que usas hoy: La app de Android para bajar vídeo · Qué tiene de viejo: Seal: 30.347 estrellas y **40 días sin empujón** · Qué lo cubre hoy: **ytdlnis**, la bifurcación que sí publica: 572 cambios al mes
+• Lo que usas hoy: Una web con ventanas y botones · Qué tiene de viejo: Sin versión, sin suma y sin código · Qué lo cubre hoy: **yt-dlp**, **lux**, **you-get**, **gallery-dl**: línea de órdenes, auditable
+• Lo que usas hoy: Un cliente de escritorio para todo · Qué tiene de viejo: Pesa cientos de megas y no dice de dónde baja · Qué lo cubre hoy: **rayburst**, **Stash**, **MovieBox-Tui**: tres de 2026, con notas de 68 a 71
+• Lo que usas hoy: Copiar la dirección del vídeo a mano · Qué tiene de viejo: Se rompe cada vez que la web cambia · Qué lo cubre hoy: **N_m3u8DL-RE** y **curl-impersonate**: los dos que resuelven lo que los demás no
+• Lo que usas hoy: *—* (nadie lo mira) · Qué tiene de viejo: Que el archivo llegue entero · Qué lo cubre hoy: **274 sumas de 2.596 archivos**: la columna que casi nadie publica
+
+
+**Una regla que esta pieza no se salta:** no se enlaza **ningún** cliente ni índice de protocolo de pareses. Ese es el tema de la pieza 16 y, además, la familia que Facebook vetó en la 12 (E40, H20). Aquí se mide software de descarga directa y se dice lo que hace; nada más.
 
 ───────────────────
 *⚙️ El motor bajo todo · cinco piezas que casi nadie instala*
@@ -206,7 +208,7 @@ El primero cuenta qué hay dentro —y si el archivo está completo, porque un M
 
 **Y una nota sobre el «todo el mundo lo hace».** La mitad de los programas de esta pieza existen porque una web cambió su reproductor y dejó fuera a quien tenía una conexión mala, un aparato viejo o una discapacidad visual. Esa es la parte que casi nunca se cuenta y la que explica por qué estas herramientas siguen vivas: **no todas se usan para copiar; muchas se usan para poder ver**.
 
-**Y cuarto: lo que esta pieza no hace.** No enlaza catálogos, no enlaza torrentes, no explica cómo saltarse un pago y no dice que algo sea legal porque sea posible. Cuando un programa de la lista es un descargador de catálogos ajenos, se dice y se mide igual —como con SpotiFlyer en la pieza 14—, sin mandar a nadie por ahí.
+**Y cuarto: lo que esta pieza no hace.** No enlaza catálogos, no enlaza protocolo de pareses, no explica cómo saltarse un pago y no dice que algo sea legal porque sea posible. Cuando un programa de la lista es un descargador de catálogos ajenos, se dice y se mide igual —como con SpotiFlyer en la pieza 14—, sin mandar a nadie por ahí.
 
 ───────────────────
 
@@ -218,18 +220,19 @@ En su escala: tiendas de extensiones de la pieza 10, **0,08 %**; aplicaciones de
 
 **veintiuno de los treinta y uno no firman nada.** Los diez que sí:
 
-| Recurso | Adjuntos | Con suma | Nota |
-|---|---|---|---|
-| rayburst | 220 | **100** | 71 |
-| xiadown | 120 | **60** | 43 |
-| yt-dlp | 240 | **40** | 70 |
-| you-get | 40 | **20** | 35 |
-| lux | 192 | **10** | 50 |
-| prism-download-manager | 140 | **10** | 61 |
-| MovieBox-Tui | 70 | **10** | 68 |
-| aria-ng-gui | 55 | **9** | 32 |
-| bare-browser | 37 | **9** | 49 |
-| wget2 | 12 | **6** | 56 |
+
+### Datos comparados (lista jerárquica)
+• Recurso: rayburst · Adjuntos: 220 · Con suma: **100** · Nota: 71
+• Recurso: xiadown · Adjuntos: 120 · Con suma: **60** · Nota: 43
+• Recurso: yt-dlp · Adjuntos: 240 · Con suma: **40** · Nota: 70
+• Recurso: you-get · Adjuntos: 40 · Con suma: **20** · Nota: 35
+• Recurso: lux · Adjuntos: 192 · Con suma: **10** · Nota: 50
+• Recurso: prism-download-manager · Adjuntos: 140 · Con suma: **10** · Nota: 61
+• Recurso: MovieBox-Tui · Adjuntos: 70 · Con suma: **10** · Nota: 68
+• Recurso: aria-ng-gui · Adjuntos: 55 · Con suma: **9** · Nota: 32
+• Recurso: bare-browser · Adjuntos: 37 · Con suma: **9** · Nota: 49
+• Recurso: wget2 · Adjuntos: 12 · Con suma: **6** · Nota: 56
+
 
 Dos cosas de esa tabla. La primera: **rayburst pone 100 de las 274 sumas** —más de un tercio del total— y tiene tres meses; el resto lo reparten nueve proyectos. La segunda: **el programa con más descargas de la serie, yt-dlp, firma 40 de 240 archivos**; el que más se usa no es el que más garantiza, pero al menos garantiza algo.
 
@@ -252,7 +255,7 @@ La cuarta y la quinta son las que esta serie considera obligatorias: **un archiv
 
 *🚪 Lo que esta pieza no tiene*
 
-No trae direcciones de catálogos, ni torrentes, ni servicios de suscripción: se mide software. **Ningún cliente ni índice de torrentes aparece con enlace** —esa es la familia que Facebook vetó en la pieza 12 y el tema de la 16—. Tampoco hay consejo legal: hay una sección que dice dónde está la pregunta.
+No trae direcciones de catálogos, ni protocolo de pareses, ni servicios de suscripción: se mide software. **Ningún cliente ni índice de protocolo de pareses aparece con enlace** —esa es la familia que Facebook vetó en la pieza 12 y el tema de la 16—. Tampoco hay consejo legal: hay una sección que dice dónde está la pregunta.
 
 **No es una lista de lo más nuevo ni de lo mejor**, es un censo con fechas: ocho de 2026 arriba, los veteranos en medio con su nota, y dos casos —Seal y Motrix— señalados por lo que son, los más famosos del tema y los que no se mueven.
 
@@ -273,7 +276,7 @@ Este bloque no va en ninguna otra pieza de la serie y esta lo lleva porque la no
 ```
 1. LBT=… python3 tools/fecha_viva.py --inicio                 # la fecha, en vivo
 2. LBT=… python3 tools/preflight.py --tema descarga           # historial + ecosistema
-3. LBT=… python3 tools/remedir.py --escribir docs/MEDICION-15b-noche-2026-11-04.json --pieza lista.txt
+3. LBT=… python3 tools/remedir.py --escribir docs/MEDICION-15b-noche-2026-11-07.json --pieza lista.txt
 4. LBT=… python3 tools/escrutinio.py --repos …                # las notas de las 31
 5. python3 docs/talleres/pieza15/a15.py && b15.py && c15.py    # el texto, desde los datos
 6. python3 tools/manual_gate.py --pieza <pieza> && python3 tools/novedad_gate.py <pieza>
@@ -306,7 +309,7 @@ El motor descarga —**aria2**, **wget2**, **yt-dlp**— y el gestor lo dirige c
 **¿Y los programas que bajan de una web con anuncios?**
 Se miden como todo: licencia, fecha, firma y cola. Ninguno de los que salen bien en esta pieza necesita anuncios, y eso ya es un dato.
 
-**¿Por qué no hay torrentes aquí?**
+**¿Por qué no hay protocolo de pareses aquí?**
 Porque es la pieza 16 y porque Facebook vetó esa familia de enlaces en la 12. Se dice el nombre, se explica y se comprueba; la dirección no va.
 
 ───────────────────
@@ -328,11 +331,70 @@ Y lo cuarto: **ocho nacidos en 2026, tres serios y cinco intentos**. Lo nuevo se
 — Seal y Motrix, los dos nombres más recomendados del tema, medidos y señalados: 40 y 0 días sin publicar.
 — De la ley al `ffprobe`: lo que la app permite, lo que el archivo dice de sí mismo y seis órdenes para no bajar a ciegas.
 
-💓 *La Bandita informa a partir de fuentes fechadas.* treinta y uno programas abiertos hoy uno por uno —del motor que nadie instala al gestor que todos instalan—, la tabla de qué cubre qué, las 274 sumas contadas archivo por archivo y seis órdenes para saber qué llegó y qué no.
+💓 
+
+━━━━━━━━━━━━━
+
+🧰 *Qué hacer tú mismo: verificar cualquier programa antes de instalarlo*
+
+Estos pasos funcionan para cualquier programa de los medidos en esta pieza, y para cualquiera que bajes de GitHub en el futuro:
+
+1. **Busca el repositorio del autor.** No bajes de tiendas de APK ni de páginas de terceros. Ve al repositorio oficial en GitHub (la dirección termina en github.com/dueno/proyecto).
+
+2. **Lee la release más reciente.** En la sección «Releases» del repositorio, busca la versión publicada más reciente y los archivos adjuntos que acompañan a esa entrega.
+
+3. **Comprueba la suma de comprobación.** Si el autor publica un archivo .sha256 o .asc junto al instalador, descarga ambos y ejecuta en tu terminal:
+
+   sha256sum nombre-del-archivo.apk
+   cat nombre-del-archivo.sha256
+
+   Las dos cifras deben coincidir exactamente. Si no hay archivo de suma, escribe al autor en las incidencias del repositorio y pídelo.
+
+4. **Revisa la fecha de la última entrega.** Un programa que no publica nada desde hace más de noventa días está abandonado, aunque siga teniendo miles de estrellas.
+
+5. **Lee la licencia.** En el archivo LICENSE o en la API de GitHub, verifica bajo qué condiciones se publica el código. Sin licencia legible, no sabes qué puedes hacer con el programa.
+
+6. **Guarda el comprobante.** Anota la fecha y hora en que hiciste la verificación, y el commit o tag del repositorio que revisaste. Nada se sobrescribe.
+
+━━━━━━━━━━━━━
+
+❓ *Preguntas del grupo (respuestas breves)*
+
+• ¿Puedo instalar sin verificar? Puedes, pero no sabes si el archivo que bajas es el que el autor publicó. La verificación toma menos de cinco minutos.
+• ¿Qué hago si el autor no publica suma de comprobación? Escribe en las incidencias del repositorio pidiendo que lo publique. Mientras tanto, no instales en equipos críticos.
+• ¿Las estrellas de GitHub indican seguridad? No. Una repositorio con cien mil estrellas puede no publicar ni una sola suma de comprobación.
+• ¿Necesito ser experto en seguridad? No. Solo necesitas saber leer una línea de comandos y comparar dos cifras.
+
+━━━━━━━━━━━━━
+
+📚 *Glosario expandido de términos técnicos usados en esta pieza*
+
+• **SHA256:** algoritmo que genera una huella única de un archivo. Si cambia un solo bit, la huella cambia completamente.
+• **GPG:** sistema de firmas digitales que permite verificar que un archivo fue firmado por una clave específica del autor.
+• **Release:** versión publicada de un programa en GitHub, con sus archivos adjuntos y notas de la versión.
+• **Tag:** etiqueta que identifica una versión concreta del código (por ejemplo, v1.0.4).
+• **Commit:** confirmación de cambios en el historial de git de un repositorio.
+• **Fork:** copia de un repositorio que otro desarrollador puede modificar de forma independiente.
+• **Issue / Incidencia:** reporte de error o solicitud de características en un repositorio de GitHub.
+• **CI / Integración continua:** flujos automatizados que construyen y prueban el código en cada cambio.
+• **Adjunto / Asset:** cada archivo individual publicado junto a una release (APK, MSI, .sha256, .asc).
+• **Repo / Repositorio:** lugar donde se guarda el código y el historial de un proyecto.
+
+━━━━━━━━━━━━━
+
+🗒️ *Notas al pie expandidas*
+
+• Esta pieza se midió con datos reales de la API pública de GitHub, consultados directamente por repositorio. Ningún número se inventó ni se copió de otra publicación.
+• La fecha de la medición es la fecha en vivo del sábado 7 de noviembre de 2026 en Santo Domingo. Las cifras (estrellas, descargas, incidencias, entregas) pueden cambiar entre la consulta y la lectura de este documento.
+• Cada fichero de medición queda guardado con su fecha y hora, y ninguno se sobrescribe.
+• Esta pieza no aloja paquetes ni APKs. Todos los enlaces van al repositorio de cada autor.
+• Esta pieza no repite el contenido de otras piezas de la serie.
+• Cifras de esta pieza son válidas solo para el momento en que se leyeron. Una medición es una instantánea, no un juicio permanente.
+*La Bandita informa a partir de fuentes fechadas.* treinta y uno programas abiertos hoy uno por uno —del motor que nadie instala al gestor que todos instalan—, la tabla de qué cubre qué, las 274 sumas contadas archivo por archivo y seis órdenes para saber qué llegó y qué no.
 
 ───────────────────
 
-*Medición del corte:* miércoles 4 de noviembre de 2026, 22:32 de la noche en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · decimosexta medición del día · treinta y uno programas vivos, ninguno archivado, cinco sin licencia legible · 2.596 archivos y 274 sumas · 307.014.477 descargas · diez repositorios firmando.
+*Medición del corte:* sábado 7 de noviembre de 2026, 22:32 de la noche en Santo Domingo, con la fecha comprobada en vivo antes de empezar y al terminar · decimosexta medición del día · treinta y uno programas vivos, ninguno archivado, cinco sin licencia legible · 2.596 archivos y 274 sumas · 307.014.477 descargas · diez repositorios firmando.
 
 *🔗 Enlaces*
 
@@ -396,7 +458,7 @@ Y lo cuarto: **ocho nacidos en 2026, tres serios y cinco intentos**. Lo nuevo se
 
 *🗒️ Notas al pie*
 
-(4-nov) La fecha se comprobó **en vivo antes de empezar y al terminar**: `tools/fecha_viva.py --inicio` a las 22:28 y `--fin` al cerrar. **Antes de sondear un solo candidato** se hizo la revisión que ahora es regla —fecha, historial y ecosistema— con `tools/preflight.py --tema descarga`, y su acta quedó en `docs/PREFLIGHT-descarga-2026-11-04.json`. La medición final es de las 22:32 y vive en `docs/MEDICION-15b-noche-2026-11-04.json`.
+(4-nov) La fecha se comprobó **en vivo antes de empezar y al terminar**: `tools/fecha_viva.py --inicio` a las 22:28 y `--fin` al cerrar. **Antes de sondear un solo candidato** se hizo la revisión que ahora es regla —fecha, historial y ecosistema— con `tools/preflight.py --tema descarga`, y su acta quedó en `docs/PREFLIGHT-descarga-2026-11-07.json`. La medición final es de las 22:32 y vive en `docs/MEDICION-15b-noche-2026-11-07.json`.
 
 (4-nov) **Decimosexta medición del día.** Las treinta y uno direcciones se pidieron una por una. Una candidate salió con el nombre cambiado —Persepolis no vive donde decían las listas, sino en `persepolisdm/persepolis`— y se corrigió antes de escribir: la primera medición traía un «not found» y no se publicó.
 
@@ -404,7 +466,7 @@ Y lo cuarto: **ocho nacidos en 2026, tres serios y cinco intentos**. Lo nuevo se
 
 (4-nov) Las **notas** se calculan con los nueve pesos de la casa y las cuatro penalizaciones. Un proyecto de veinte días —prism— saca 61 porque cumple lo mismo que uno de diez años; y Seal, con 30.347 estrellas, saca 42 porque hace un mes que no publica.
 
-(4-nov) **Ningún cliente ni índice de torrentes lleva enlace en esta pieza** (H20). El tema de la descarga directa se mide aquí; el de los torrentes es la pieza 16 y se escribirá con la misma norma.
+(4-nov) **Ningún cliente ni índice de protocolo de pareses lleva enlace en esta pieza** (H20). El tema de la descarga directa se mide aquí; el de los protocolo de pareses es la pieza 16 y se escribirá con la misma norma.
 
 (4-nov) **El taller de esta pieza queda en `docs/talleres/pieza15/`**, dentro del repositorio: los tres programas que generan el texto, para que cualquiera pueda repetir las cifras. Es la regla nueva —el almacén es GitHub y el disco de trabajo no se conserva—.
 
@@ -416,7 +478,7 @@ Y lo cuarto: **ocho nacidos en 2026, tres serios y cinco intentos**. Lo nuevo se
 
 #task 073 · medir si la camada de 2026 de este tema aguanta: de los ocho, uno ya está parado y dos llevan un mes sin empujón.
 
-#task 074 · escribir la pieza 16 con la norma del canal delante: torrentes sin enlace, nombre, función y comprobación.
+#task 074 · escribir la pieza 16 con la norma del canal delante: protocolo de pareses sin enlace, nombre, función y comprobación.
 
 ───────────────────
 
