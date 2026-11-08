@@ -25,6 +25,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import sys
 from datetime import date
 from pathlib import Path
@@ -34,6 +35,17 @@ from sello_reglas import archivos as archivos_para_sellar  # noqa: E402
 
 RAIZ: Path = Path(__file__).resolve().parents[1]
 ATTESTATIONS: Path = RAIZ / "attestations"
+
+
+def _fecha_hoy() -> date:
+    """Fecha de hoy, permitiendo sobrescritura vía variable de entorno LOTE_FECHA (YYYY-MM-DD)."""
+    fecha_env = os.environ.get("LOTE_FECHA")
+    if fecha_env:
+        try:
+            return date.fromisoformat(fecha_env)
+        except ValueError:
+            pass
+    return date.today()
 
 
 def _huella_archivo(p: Path) -> str:
@@ -46,7 +58,7 @@ def _huella_archivo(p: Path) -> str:
 
 def _cargar_lote_anterior() -> dict | None:
     """Busca el lote de atestación más reciente previo a hoy."""
-    hoy = date.today().isoformat()
+    hoy = _fecha_hoy().isoformat()
     lotes: list[Path] = sorted(ATTESTATIONS.glob("lote-*.json"))
     previos = [l for l in lotes if l.stem != f"lote-{hoy}"]
     if not previos:
@@ -59,7 +71,7 @@ def _cargar_lote_anterior() -> dict | None:
 
 def sellar() -> dict:
     """Sella el árbol completo y devuelve el manifiesto del lote."""
-    sello_path_hoy = ATTESTATIONS / f"lote-{date.today().isoformat()}.json"
+    sello_path_hoy = ATTESTATIONS / f"lote-{_fecha_hoy().isoformat()}.json"
     lista = archivos_para_sellar(RAIZ, manifiesto=sello_path_hoy)
     huellas: dict[str, str] = {}
     for p in lista:
@@ -70,7 +82,7 @@ def sellar() -> dict:
     huella_anterior = anterior.get("huella") if anterior else None
 
     lote = {
-        "fecha": date.today().isoformat(),
+        "fecha": _fecha_hoy().isoformat(),
         "archivos": len(lista),
         "huella": hashlib.sha256(json.dumps(huellas, sort_keys=True).encode()).hexdigest(),
         "anterior": huella_anterior,
@@ -78,7 +90,7 @@ def sellar() -> dict:
     }
 
     ATTESTATIONS.mkdir(parents=True, exist_ok=True)
-    hoy_iso = date.today().isoformat()
+    hoy_iso = _fecha_hoy().isoformat()
     (ATTESTATIONS / f"lote-{hoy_iso}.json").write_text(
         json.dumps(lote, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
     )
@@ -96,7 +108,7 @@ def sellar() -> dict:
 
 def verificar() -> int:
     """Verifica que el sello del lote actual coincida con el árbol. Devuelve 0 si OK."""
-    sello_path = ATTESTATIONS / f"lote-{date.today().isoformat()}.json"
+    sello_path = ATTESTATIONS / f"lote-{_fecha_hoy().isoformat()}.json"
     if not sello_path.exists():
         print(f"no existe el lote de hoy: {sello_path}")
         return 1

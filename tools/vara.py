@@ -19,6 +19,7 @@ Qué NO hace:
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 from dataclasses import dataclass, field
@@ -33,7 +34,19 @@ ATTESTATIONS: Path = RAIZ / "attestations"
 GUIA_DATOS: Path = RAIZ / "guia-maestra" / "datos" / "apps"
 BANDAS: Path = DOCS / "bandas.json"
 
-Hoy = date.today().isoformat()
+
+def _fecha_hoy() -> date:
+    """Fecha de hoy, permitiendo sobrescritura vía variable de entorno LOTE_FECHA (YYYY-MM-DD)."""
+    fecha_env = os.environ.get("LOTE_FECHA")
+    if fecha_env:
+        try:
+            return date.fromisoformat(fecha_env)
+        except ValueError:
+            pass
+    return date.today()
+
+
+Hoy = _fecha_hoy().isoformat()
 
 
 @dataclass

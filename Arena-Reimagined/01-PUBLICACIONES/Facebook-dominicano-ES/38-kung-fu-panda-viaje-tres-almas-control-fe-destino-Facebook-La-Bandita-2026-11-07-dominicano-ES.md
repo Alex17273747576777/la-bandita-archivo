@@ -97,3 +97,6 @@ No necesitas ser el Guerrero Dragón para ser valioso. Ya lo eres. Solo tienes q
 A veces la sabiduría no viene en un templo de montaña. Viene en una película de animación, en una frase de una tortuga, en la risa de un panda que ama los fideos.
 
 Vuele bajo. Vuele bajo. Y recuerde: abajo está la verdad.
+
+
+*La Bandita informa a partir de fuentes fechadas.*

@@ -162,3 +162,6 @@ No hace falta saber programar para apoyar el código abierto. Algunas formas de 
 5. **Configura tus propias extensiones** y compártelas con la comunidad si las desarrollas.
 
 Cada aplicación citada en esta pieza fue verificada contra su repositorio oficial antes del 7 de noviembre de 2026. Las versiones y fechas pueden cambiar; consulte siempre el repositorio oficial para la información más reciente.
+
+
+*La Bandita informa a partir de fuentes fechadas.*

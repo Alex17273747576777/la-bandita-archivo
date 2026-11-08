@@ -31,3 +31,6 @@ Ningún APK se aloja aquí. La huella se calcula en el teléfono con Termux o en
 Con huella, comparas sesenta y cuatro caracteres y lo sabes con certeza.
 
 **Hashtags:** #KeePassDX #Keepass2Android #Keyguard #Vaultwarden #AuthPass #BwWebBuilds #BitwardenAndroid #MonicaPass #Aegis
+
+
+*La Bandita informa a partir de fuentes fechadas.*

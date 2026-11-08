@@ -19,12 +19,25 @@ Qué NO hace:
 from __future__ import annotations
 
 import importlib
+import os
 import subprocess
 import sys
 from dataclasses import dataclass
+from datetime import date
 from pathlib import Path
 
 RAIZ: Path = Path(__file__).resolve().parents[1]
+
+
+def _fecha_hoy() -> date:
+    """Fecha de hoy, permitiendo sobrescritura vía variable de entorno LOTE_FECHA (YYYY-MM-DD)."""
+    fecha_env = os.environ.get("LOTE_FECHA")
+    if fecha_env:
+        try:
+            return date.fromisoformat(fecha_env)
+        except ValueError:
+            pass
+    return date.today()
 
 
 @dataclass
@@ -106,14 +119,16 @@ def _bloque_estado() -> Bloque:
 
 def _bloque_integridad() -> Bloque:
     detalles: list[str] = []
-    from atestar import _archivos_del_arbol, _cargar_gitignore, _huella_archivo
-    ignorar = _cargar_gitignore()
-    archivos = _archivos_del_arbol(ignorar)
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from sello_reglas import archivos as archivos_para_sellar  # noqa: E402
+    from atestar import _huella_archivo  # noqa: E402
+
+    archivos = archivos_para_sellar(RAIZ)
     total = len(archivos)
     alterados = 0
     ausentes = 0
     sin_sellar = 0
-    sello_path = RAIZ / "attestations" / f"lote-{__import__('datetime').date.today().isoformat()}.json"
+    sello_path = RAIZ / "attestations" / f"lote-{_fecha_hoy().isoformat()}.json"
     if sello_path.exists():
         import json as _json
         try:

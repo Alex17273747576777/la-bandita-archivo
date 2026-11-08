@@ -117,3 +117,6 @@ Alexaindruews Santos Inocencio Plasencia Encarnación de la Altagracia, Hernánd
 (Alexis, la Ballenita Azuleja Blanca Celestial)
 
 — Cartógrafo de Océanos Textuales · Navegante de Tormentas Digitales —
+
+
+*La Bandita informa a partir de fuentes fechadas.*

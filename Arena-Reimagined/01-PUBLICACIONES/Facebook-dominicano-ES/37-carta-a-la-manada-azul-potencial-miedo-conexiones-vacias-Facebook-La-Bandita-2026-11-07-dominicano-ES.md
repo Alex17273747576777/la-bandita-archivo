@@ -140,3 +140,6 @@ Y recuerde siempre, siempre, que la felicidad no es un derecho: es un deber. Por
 Facundo Cabral nos mostró el camino de salida. No con grandes discursos, sino con la sencillez de quien ha vivido y ha sufrido y ha decidido, a pesar de todo, ser feliz.
 
 "Que el hombre vuelva a ser un niño, para recibirlo en su seno". Vuele bajo. Vuele bajo. Y recuerde siempre, siempre, que la felicidad no es un derecho: es un deber.
+
+
+*La Bandita informa a partir de fuentes fechadas.*

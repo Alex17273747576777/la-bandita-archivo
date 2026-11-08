@@ -164,3 +164,6 @@ TuMangaOnline como sitio centralizado ya no es una fuente confiable. Sus dominio
 La alternativa más duradera es una aplicación de código abierto donde el usuario controle las fuentes: Mihon, Aniyomi, Kototoro o cualquiera de sus forks. Estas aplicaciones no desaparecen si un sitio web cierra; simplemente se configuran con nuevas extensiones y se sigue leyendo.
 
 Cada dominio y aplicación citado en esta pieza fue observado o verificado contra fuentes públicas antes del 7 de noviembre de 2026. Los estados pueden haber cambiado desde entonces.
+
+
+*La Bandita informa a partir de fuentes fechadas.*

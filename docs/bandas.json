@@ -1,139 +1,488 @@
 {
  "_nota": "Banda de longitud de cada pieza reescrita. Obliga a la vara (G10): una pieza que no cae dentro de su banda no pasa. Las piezas que aún no se han reescrito no están aquí y no se les exige. Vaciado el 2-nov-2026 al reiniciar el ciclo en la pieza 01 (ver docs/ACTA-REINICIO-CICLO-2026-11-02.md).",
  "facebook": {
-  "_motivo": "banda pedida por el dueño para la 01 de Facebook; se aplica igual a las siguientes",
-  "max": 45000,
-  "min": 40000,
+  "min": 1153,
+  "max": 49156,
   "piezas": {
    "01": {
-    "archivo": "01-La-huella-o-el-silencio-doce-programas-de-octubre-cuatro-que-firman-lo-que-publican-y-ocho-que-piden-fe-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 40530
+    "archivo": "01-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 2943,
+    "min": 2893,
+    "max": 2993
+   },
+   "01-v1": {
+    "archivo": "01-la-huella-o-el-silencio-quince-programas-nacidos-en-octubre-seis-que-firman-algo-y-nueve-que-te-piden-fe-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 46022,
+    "min": 45972,
+    "max": 46072
    },
    "02": {
-    "archivo": "02-La-musica-que-no-se-cae-seis-grandes-con-cincuenta-y-siete-mil-trescientas-sesenta-y-tres-estrellas-que-no-firman-nada-y-seis-recien-nacidos-que-si-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 41946
+    "archivo": "02-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 2853,
+    "min": 2803,
+    "max": 2903
+   },
+   "02-v1": {
+    "archivo": "02-la-musica-que-no-se-cae-trece-repositorios-de-audio-medidos-hoy-dos-que-firman-y-once-que-te-piden-fe-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 47712,
+    "min": 47662,
+    "max": 47762
    },
    "03": {
-    "archivo": "03-La-caja-fuerte-del-bolsillo-una-de-catorce-te-da-la-huella-cuatro-llevan-anos-paradas-y-dos-se-reservan-los-derechos-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 40396
+    "archivo": "03-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 2408,
+    "min": 2358,
+    "max": 2458
+   },
+   "03-v1": {
+    "archivo": "03-la-caja-fuerte-del-bolsillo-nueve-repositorios-de-contrase-as-medidos-hoy-tres-que-firman-y-seis-que-te-piden-fe-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 45004,
+    "min": 44954,
+    "max": 45054
    },
    "04": {
-    "archivo": "04-La-lista-del-permiso-seis-de-veintiseis-dan-la-huella-trece-nacieron-en-el-trimestre-y-el-tronco-lleva-quinientos-cuatro-dias-sin-empujar-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 44513
+    "archivo": "04-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 3275,
+    "min": 3225,
+    "max": 3325
+   },
+   "04-v1": {
+    "archivo": "04-la-lista-del-permiso-dieciocho-programas-que-piden-el-control-del-sistema-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 49106,
+    "min": 49056,
+    "max": 49156
    },
    "05": {
-    "archivo": "05-La-guia-maestra-doce-capitulos-sesenta-y-seis-cifras-que-se-movieron-y-veintidos-fichas-que-te-dan-con-que-comprobar-el-archivo-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 44429
+    "archivo": "05-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 3331,
+    "min": 3281,
+    "max": 3381
+   },
+   "05-v1": {
+    "archivo": "05-la-guia-maestra-doce-capitulos-sesenta-y-seis-cifras-que-se-movieron-y-veintidoss-fichas-que-te-dan-con-que-comprobar-el-archivo-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 46663,
+    "min": 46613,
+    "max": 46713
    },
    "06": {
-    "archivo": "06-El-taller-los-gestores-de-parches-firman-cincuenta-y-cinco-de-sus-ciento-noventa-archivos-y-los-conjuntos-de-parches-no-firman-ninguno-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 40967
+    "archivo": "06-el-taller-los-gestores-de-parches-firman-cincuenta-y-cinco-de-sus-ciento-noventa-archivos-y-los-conjuntos-de-parches-no-firman-ninguno-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 45436,
+    "min": 45386,
+    "max": 45486
    },
    "07": {
-    "archivo": "07-La-pantalla-grande-y-la-casa-que-no-hace-ruido-cinco-gigantes-sin-un-solo-adjunto-y-cinco-proyectos-de-un-mes-que-firman-el-suyo-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 40923
+    "archivo": "07-la-pantalla-grande-y-la-casa-que-no-hace-ruido-cuatro-gigantes-sin-un-solo-adjunto-y-cuatro-proyectos-recientes-que-firman-el-suyo-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 45472,
+    "min": 45422,
+    "max": 45522
    },
    "08": {
     "archivo": "08-La-red-seis-caminos-seis-precios-el-programa-mas-nuevo-del-tema-saca-ochenta-y-los-dos-mas-instalados-no-firman-nada-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 41588
+    "caracteres": 47480,
+    "min": 47430,
+    "max": 47530
    },
    "09": {
     "archivo": "09-Archivos-copias-y-nubes-propias-cuatro-de-diecisiete-dan-la-huella-y-las-dos-herramientas-de-copia-llevan-410-y-185-dias-sin-publicar-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 44791
+    "caracteres": 46125,
+    "min": 46075,
+    "max": 46175
    },
    "10": {
     "archivo": "10-Las-tiendas-cincuenta-y-seis-repositorios-vivos-doce-mil-cuatrocientos-ochenta-y-siete-archivos-y-diez-sumas-de-comprobacion-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 43370
+    "caracteres": 48194,
+    "min": 48144,
+    "max": 48244
    },
    "11": {
     "archivo": "11-Las-aplicaciones-que-leen-lo-que-la-pieza-10-midio-cincuenta-y-una-aplicaciones-y-cincuenta-y-ocho-millones-de-descargas-con-ciento-dieciseis-archivos-firmados-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 44913
+    "caracteres": 45890,
+    "min": 45840,
+    "max": 45940
    },
    "12": {
     "archivo": "12-El-kit-de-reemplazo-cincuenta-y-nueve-recursos-medidos-hoy-para-tirar-el-stack-viejo-del-meme-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 44979
+    "caracteres": 46160,
+    "min": 46110,
+    "max": 46210
    },
    "13": {
     "archivo": "13-El-audio-que-le-faltaba-al-kit-cincuenta-y-cuatro-programas-medidos-hoy-de-la-musica-propia-al-registro-de-lo-que-oyes-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 42955
+    "caracteres": 47837,
+    "min": 47787,
+    "max": 47887
    },
    "14": {
     "archivo": "14-Spotify-sin-Spotify-cuarenta-y-cinco-clientes-medidos-hoy-quince-nacidos-en-2026-tres-muertos-y-la-proporcion-de-firma-mas-alta-de-la-serie-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 40656
+    "caracteres": 46347,
+    "min": 46297,
+    "max": 46397
    },
    "15": {
+    "archivo": "15-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1352,
+    "min": 1302,
+    "max": 1402
+   },
+   "15-v1": {
     "archivo": "15-Descargar-es-un-acto-tecnico-treinta-y-un-programas-medidos-hoy-ocho-de-2026-y-los-dos-famosos-que-estan-parados-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 40794
+    "caracteres": 45693,
+    "min": 45643,
+    "max": 45743
    },
    "16": {
+    "archivo": "16-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1488,
+    "min": 1438,
+    "max": 1538
+   },
+   "16-v1": {
     "archivo": "16-El-torrent-que-no-se-rinde-veintidos-piezas-medidas-hoy-nueve-de-2026-y-la-proporcion-de-firma-mas-baja-del-ano-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 40715
+    "caracteres": 47671,
+    "min": 47621,
+    "max": 47721
    },
    "17": {
+    "archivo": "17-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1203,
+    "min": 1153,
+    "max": 1253
+   },
+   "17-v1": {
     "archivo": "17-El-teclado-que-escribe-por-ti-treinta-y-cuatro-teclados-y-dictados-medidos-hoy-diez-de-2026-y-la-proporcion-de-firma-mas-alta-del-ano-Facebook-La-Bandita-2026-11-04-dominicano-ES.md",
-    "caracteres": 44674
+    "caracteres": 47585,
+    "min": 47535,
+    "max": 47635
    },
    "18": {
+    "archivo": "18-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1386,
+    "min": 1336,
+    "max": 1436
+   },
+   "18-v1": {
     "archivo": "18-La-radio-y-el-directo-treinta-y-dos-piezas-medidas-hoy-el-enlace-que-dura-un-minuto-y-la-guia-que-hay-que-mantener-a-mano-Facebook-La-Bandita-2026-11-05-dominicano-ES.md",
-    "caracteres": 44657
+    "caracteres": 47382,
+    "min": 47332,
+    "max": 47432
    },
    "19": {
+    "archivo": "19-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1557,
+    "min": 1507,
+    "max": 1607
+   },
+   "19-v1": {
     "archivo": "19-La-tienda-que-le-sirve-a-tu-app-quince-repositorios-clonados-y-leidos-hoy-ocho-que-sirven-y-siete-que-no-con-su-motivo-Facebook-La-Bandita-2026-11-05-dominicano-ES.md",
-    "caracteres": 44049
+    "caracteres": 47047,
+    "min": 46997,
+    "max": 47097
    },
    "20": {
+    "archivo": "20-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1559,
+    "min": 1509,
+    "max": 1609
+   },
+   "20-v1": {
     "archivo": "20-El-teclado-que-obedece-once-teclados-clonados-y-leidos-hoy-diez-teclas-medidas-en-el-codigo-y-veintidos-textos-con-once-comprobaciones-Facebook-La-Bandita-2026-11-05-dominicano-ES.md",
-    "caracteres": 44849
+    "caracteres": 47849,
+    "min": 47799,
+    "max": 47899
    },
    "21": {
+    "archivo": "21-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1967,
+    "min": 1917,
+    "max": 2017
+   },
+   "21-v1": {
     "archivo": "21-La-variante-que-cambio-OmniShizuku-deja-de-publicar-la-version-ligera-el-mismo-dia-que-enciende-tres-funciones-Facebook-La-Bandita-2026-11-05-dominicano-ES.md",
-    "caracteres": 42143
+    "caracteres": 45921,
+    "min": 45871,
+    "max": 45971
    },
    "22": {
+    "archivo": "22-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1567,
+    "min": 1517,
+    "max": 1617
+   },
+   "22-v1": {
     "archivo": "22-El-modulo-que-no-necesita-root-AxManager-su-plugin-y-los-siete-ecosistemas-contados-hoy-Facebook-La-Bandita-2026-11-05-dominicano-ES.md",
-    "caracteres": 43598
+    "caracteres": 46596,
+    "min": 46546,
+    "max": 46646
+   },
+   "23": {
+    "archivo": "23-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1618,
+    "min": 1568,
+    "max": 1668
+   },
+   "23-v1": {
+    "archivo": "23-keiyoushi-catalogo-extensiones-mihon-variantes-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 45957,
+    "min": 45907,
+    "max": 46007
+   },
+   "24": {
+    "archivo": "24-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1392,
+    "min": 1342,
+    "max": 1442
+   },
+   "24-v1": {
+    "archivo": "24-Yuzono-anime-extensions-para-Animiru-y-Anikku-Facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 45105,
+    "min": 45055,
+    "max": 45155
+   },
+   "25": {
+    "archivo": "25-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1225,
+    "min": 1175,
+    "max": 1275
+   },
+   "25-v1": {
+    "archivo": "25-El-scanner-de-bolsillo-del-papel-al-PDF-legible-Umi-OCR-y-episteme-Facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 45001,
+    "min": 44951,
+    "max": 45051
+   },
+   "26": {
+    "archivo": "26-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1366,
+    "min": 1316,
+    "max": 1416
+   },
+   "26-v1": {
+    "archivo": "26-UsagiApp-Usagi-lector-manga-fork-Kotatsu-Facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 45334,
+    "min": 45284,
+    "max": 45384
+   },
+   "27": {
+    "archivo": "27-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1388,
+    "min": 1338,
+    "max": 1438
+   },
+   "27-v1": {
+    "archivo": "27-DropSauce-lector-comic-novela-Jetpack-Compose-Facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 45244,
+    "min": 45194,
+    "max": 45294
+   },
+   "28": {
+    "archivo": "28-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1392,
+    "min": 1342,
+    "max": 1442
+   },
+   "28-v1": {
+    "archivo": "28-Mangayomi-extensiones-m2k3a-repositorio-publico-Facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 45136,
+    "min": 45086,
+    "max": 45186
+   },
+   "29": {
+    "archivo": "29-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1398,
+    "min": 1348,
+    "max": 1448
+   },
+   "29-v1": {
+    "archivo": "29-LNReader-lnreader-plugins-extensiones-novelas-Facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 45073,
+    "min": 45023,
+    "max": 45123
+   },
+   "30": {
+    "archivo": "30-Cloudstream-MegaRepo-self-similarity-repositorio-extensiones-Facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 45005,
+    "min": 44955,
+    "max": 45055
+   },
+   "30-v1": {
+    "archivo": "30-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1415,
+    "min": 1365,
+    "max": 1465
+   },
+   "31": {
+    "archivo": "31-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 3351,
+    "min": 3301,
+    "max": 3401
+   },
+   "31-v1": {
+    "archivo": "31-Kototoro-v2.3.12-y-las-20-naves-del-codigo-abierto-actualizadas-noviembre-2026-Facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 14712,
+    "min": 14662,
+    "max": 14762
+   },
+   "32": {
+    "archivo": "32-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 3192,
+    "min": 3142,
+    "max": 3242
+   },
+   "32-v1": {
+    "archivo": "32-TMO-clones-dominios-estado-alternativas-verificadas-noviembre-2026-Facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 12791,
+    "min": 12741,
+    "max": 12841
+   },
+   "33": {
+    "archivo": "33-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1495,
+    "min": 1445,
+    "max": 1545
+   },
+   "33-v1": {
+    "archivo": "33-apoyo-desarrolladores-nuevas-apps-explorar-noviembre-2026-Facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 9630,
+    "min": 9580,
+    "max": 9680
+   },
+   "34": {
+    "archivo": "34-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1422,
+    "min": 1372,
+    "max": 1472
+   },
+   "34-v1": {
+    "archivo": "34-tutorial-recuperar-biblioteca-kototoro-migracion-v2-3-noviembre-2026-Facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 9369,
+    "min": 9319,
+    "max": 9419
+   },
+   "35": {
+    "archivo": "35-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1337,
+    "min": 1287,
+    "max": 1387
+   },
+   "35-v1": {
+    "archivo": "35-la-ballenita-vuelve-al-mar-telefono-perdido-nuevo-perfil-facebook-Facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 6206,
+    "min": 6156,
+    "max": 6256
+   },
+   "36": {
+    "archivo": "36-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1294,
+    "min": 1244,
+    "max": 1344
+   },
+   "36-v1": {
+    "archivo": "36-tu-manga-online-cierre-dominios-clon-analisis-verificado-noviembre-2026-Facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 11115,
+    "min": 11065,
+    "max": 11165
+   },
+   "37": {
+    "archivo": "37-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1503,
+    "min": 1453,
+    "max": 1553
+   },
+   "37-v1": {
+    "archivo": "37-carta-a-la-manada-azul-potencial-miedo-conexiones-vacias-Facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 10254,
+    "min": 10204,
+    "max": 10304
+   },
+   "38": {
+    "archivo": "38-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1249,
+    "min": 1199,
+    "max": 1299
+   },
+   "38-v1": {
+    "archivo": "38-kung-fu-panda-viaje-tres-almas-control-fe-destino-Facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 6231,
+    "min": 6181,
+    "max": 6281
+   },
+   "39": {
+    "archivo": "39-Comentario-fijado-facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 1512,
+    "min": 1462,
+    "max": 1562
+   },
+   "39-v1": {
+    "archivo": "39-canserbero-filosofo-asfalto-legado-que-no-muere-Facebook-La-Bandita-2026-11-07-dominicano-ES.md",
+    "caracteres": 22155,
+    "min": 22105,
+    "max": 22205
+   },
+   "lee-me-facebook": {
+    "archivo": "LEEME-de-la-carpeta.md",
+    "caracteres": 8034,
+    "min": 7984,
+    "max": 8084
    }
   }
  },
- "posts": {
-  "_motivo": "post de comunidad, no pieza de la serie: se le exige caer exactamente en su longitud declarada, sin banda ancha, porque no admite ni relleno ni recorte",
-  "max": 4152,
-  "min": 4152,
+ "posts-comunidad": {
+  "min": 4102,
+  "max": 4202,
   "piezas": {
-   "01": {
+   "lee-me-posts-comunidad": {
     "archivo": "post-2026-11-01-mama-hueso-WhatsApp-La-Bandita-dominicano-ES.md",
-    "caracteres": 4152
+    "caracteres": 4152,
+    "min": 4102,
+    "max": 4202
    },
-   "02": {
+   "lee-me-posts-comunidad-v1": {
     "archivo": "post-2026-11-03-hdp-01-omnishizuku-el-fork-vivo-y-el-original-callado-WhatsApp-La-Bandita-dominicano-ES.md",
-    "caracteres": 4152
+    "caracteres": 4152,
+    "min": 4102,
+    "max": 4202
    }
   }
  },
  "whatsapp": {
-  "_motivo": "el dueño pidió 63.000 como mínimo y máximo a la vez; se admite até 63.099 para no forzar recortes cosméticos de última hora",
-  "max": 63099,
-  "min": 63000,
+  "min": 3955,
+  "max": 63145,
   "piezas": {
    "01": {
     "archivo": "01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md",
-    "caracteres": 63084
+    "caracteres": 63084,
+    "min": 63034,
+    "max": 63134
    },
    "02": {
     "archivo": "02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md",
-    "caracteres": 63035
+    "caracteres": 63035,
+    "min": 62985,
+    "max": 63085
    },
    "03": {
     "archivo": "03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-codigo-que-caduca-cada-treinta-segundos-y-el-sobre-que-nadie-prepara-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md",
-    "caracteres": 63093
+    "caracteres": 63093,
+    "min": 63043,
+    "max": 63143
    },
    "04": {
     "archivo": "04-Los-cinco-herederos-de-Shizuku-el-original-que-no-se-mueve-y-los-cuatro-que-publican-todos-los-dias-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md",
-    "caracteres": 63087
+    "caracteres": 63087,
+    "min": 63037,
+    "max": 63137
    },
    "05": {
     "archivo": "05-La-guia-maestra-contada-despacio-doce-capitulos-setenta-fichas-y-un-metodo-repetible-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md",
-    "caracteres": 63095
+    "caracteres": 63095,
+    "min": 63045,
+    "max": 63145
+   },
+   "lee-me-whatsapp": {
+    "archivo": "LEEME-de-la-carpeta.md",
+    "caracteres": 4005,
+    "min": 3955,
+    "max": 4055
    }
   }
  }

@@ -238,3 +238,6 @@ Porque mientras haya alguien dispuesto a criarte sin ser tu sangre, mientras hay
 Feliz Día del Padre a quienes eligen ser padres cada día.
 
 Y feliz día, Carlitos, dondequiera que estés. Este nombre que me diste sigue en pie. 🕯️💙
+
+
+*La Bandita informa a partir de fuentes fechadas.*

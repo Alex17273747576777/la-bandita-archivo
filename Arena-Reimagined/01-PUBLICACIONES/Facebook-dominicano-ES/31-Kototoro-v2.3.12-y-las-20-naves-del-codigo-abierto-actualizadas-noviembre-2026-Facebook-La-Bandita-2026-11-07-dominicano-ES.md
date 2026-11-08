@@ -197,3 +197,6 @@ Si buscas una sola aplicación que lo haga todo —manga, novelas, vídeo, OCR l
 Ninguna de estas aplicaciones aloja ni distribuye contenido protegido por derechos de autor. Son clientes genéricos que se conectan a extensiones instaladas por el usuario o permiten importar archivos locales. La Bandita recomienda usar estas herramientas solo con contenido que se posea legalmente o que sea de dominio público.
 
 *Cada versión citada en esta pieza fue confirmada contra su repositorio oficial o su release de GitHub antes del 7 de noviembre de 2026. Las fechas de corte y los números de versión pueden consultarse en los enlaces de la sección anterior.*
+
+
+*La Bandita informa a partir de fuentes fechadas.*

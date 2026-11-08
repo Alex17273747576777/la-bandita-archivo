@@ -173,3 +173,6 @@ Además, cada vez que actualices la aplicación, repite el Paso 2 (exportar copi
 La regla de oro de cualquier migración es simple: **nunca actualices sin una copia de seguridad reciente.** Con Kototoro v2.3.12, el proceso de exportar, actualizar e importar es sencillo, pero solo funciona si tomas la copia de seguridad antes de tocar nada.
 
 Cada paso de este tutorial fue probado contra Kototoro v2.3.12, release del 7 de noviembre de 2026. Si encuentras un comportamiento distinto, verifica que estás usando exactamente esa versión.
+
+
+*La Bandita informa a partir de fuentes fechadas.*
