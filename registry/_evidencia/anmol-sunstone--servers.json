@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-11T05:10:42Z",
+   "oid": "bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c"
+  }
+ },
+ "diskUsage": 30747,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Other",
+  "spdxId": "NOASSERTION"
+ },
+ "nameWithOwner": "anmol-sunstone/servers",
+ "pushedAt": "2026-10-14T18:43:50Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 1
+}

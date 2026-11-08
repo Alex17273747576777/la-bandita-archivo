@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-06-12T02:02:14Z",
+   "oid": "3be0b8bfccdf07c505881302fa363d78b92ac720"
+  }
+ },
+ "diskUsage": 675517,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "Amarthya-sg/MPVG",
+ "pushedAt": "2026-06-12T02:02:15Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-05-28T11:09:37Z",
+    "tagName": "v1.0"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

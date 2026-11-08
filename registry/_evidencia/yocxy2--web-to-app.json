@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-07-29T16:49:55Z",
+   "oid": "8986fe3a5c86a80a4a70ac4b2a98e07bf027bc10"
+  }
+ },
+ "diskUsage": 80263,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "yocxy2/web-to-app",
+ "pushedAt": "2026-07-29T16:49:59Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

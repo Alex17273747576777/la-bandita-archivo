@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-02-17T21:27:24Z",
+   "oid": "d76a5b4f2aa892c38592f73f648806f37d8bae7f"
+  }
+ },
+ "diskUsage": 412763,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "yuronir/airi",
+ "pushedAt": "2026-02-18T03:18:35Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

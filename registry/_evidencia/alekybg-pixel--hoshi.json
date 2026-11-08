@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-07-22T18:56:39Z",
+   "oid": "af3f07b161fcd7c34348e085221bd4b2f6c21c82"
+  }
+ },
+ "diskUsage": 16266,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU Affero General Public License v3.0",
+  "spdxId": "AGPL-3.0"
+ },
+ "nameWithOwner": "alekybg-pixel/hoshi",
+ "pushedAt": "2026-07-22T18:56:58Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

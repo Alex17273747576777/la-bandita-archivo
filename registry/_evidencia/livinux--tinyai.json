@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-11T15:05:50Z",
+   "oid": "f2049c6d58b89f02b1911d0ac87804e751cf6e69"
+  }
+ },
+ "diskUsage": 3064,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "LIVINUX/TinyAI",
+ "pushedAt": "2026-08-11T15:06:06Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

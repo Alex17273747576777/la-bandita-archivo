@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-24T18:39:58Z",
+   "oid": "a3e090a040c20ef083d00c37fc519cd31649c866"
+  }
+ },
+ "diskUsage": 4492,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "Cwbsmoke/apkupdater",
+ "pushedAt": "2026-08-24T18:40:26Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

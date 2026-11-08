@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-07-06T00:27:00Z",
+   "oid": "e1e107e162ce3f50f6870abbe058d47e1ccc47ff"
+  }
+ },
+ "diskUsage": 94888,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "aws0aa0-lgtm/Kotatsu-Next",
+ "pushedAt": "2026-07-07T23:00:45Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

@@ -1,0 +1,246 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Capítulo 1 · Antes de tocar nada · Guía Maestra</title><style>
+:root{--papel:#f5f7fa;--tinta:#1f2933;--suave:#5b6673;--linea:#e0e5ec;--acento:#2b6cb0;--alerta:#8a2b2b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papel);color:var(--tinta);font:16px/1.68 Georgia,'Times New Roman',serif}
+.hoja{max-width:1080px;margin:0 auto;padding:34px 22px 70px}
+.rejilla{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+.col-12{grid-column:span 12}.col-8{grid-column:span 8}.col-4{grid-column:span 4}
+header{border-bottom:3px double var(--linea);padding-bottom:16px;margin-bottom:26px}
+h1{font-size:2.15rem;line-height:1.18;margin:.2em 0 .3em;letter-spacing:-.01em}
+h2{font-size:1.42rem;margin:2.1em 0 .5em;border-left:5px solid var(--acento);padding-left:12px}
+h3{font-size:1.12rem;margin:1.7em 0 .35em}
+p{margin:.65em 0}
+.ficha{background:#fff;border:1px solid var(--linea);border-radius:10px;padding:20px 22px;margin:22px 0;box-shadow:0 1px 0 #fff inset}
+.sello{display:inline-block;background:var(--tinta);color:#fff;border-radius:999px;padding:2px 11px;font:600 12px/1.9 system-ui,sans-serif;letter-spacing:.03em}
+.n0{background:#2f6b4f}.n1{background:#8a6d1f}.n2{background:#8a2b2b}
+.meta{color:var(--suave);font:13px/1.6 system-ui,sans-serif}
+.capa{border-top:1px dashed var(--linea);margin-top:16px;padding-top:12px}
+.capa h4{margin:.2em 0 .4em;font:700 13px/1.4 system-ui,sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--acento)}
+ol,ul{padding-left:22px}li{margin:.35em 0}
+code,pre{font-family:'DejaVu Sans Mono',ui-monospace,monospace;font-size:.9em}
+code{background:#eef1f5;padding:1px 5px;border-radius:4px}
+pre{background:#1f2933;color:#f5f7fa;padding:12px 14px;border-radius:8px;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font:14px/1.5 system-ui,sans-serif;margin:12px 0}
+th,td{border-bottom:1px solid var(--linea);padding:7px 8px;text-align:left;vertical-align:top}
+th{background:#eef1f5}
+.aviso{background:#fff;border-left:5px solid var(--alerta);padding:12px 16px;margin:16px 0}
+footer{margin-top:44px;border-top:3px double var(--linea);padding-top:14px;color:var(--suave);font:13px/1.6 system-ui,sans-serif}
+a{color:var(--acento)}
+@media(max-width:760px){.col-8,.col-4{grid-column:span 12}}
+</style></head>
+<body><div class="hoja"><p class="meta"><a href="index.html">← Guía Maestra</a> · capítulo 1</p>
+<h1>Capítulo 1 · Antes de tocar nada</h1><h2>Qué vas a poder hacer al terminar</h2><p>Guardar todo lo que hay en tu teléfono de forma que puedas volver atrás, saber qué se pierde y qué no, y tener por escrito la lista de lo que tenías instalado. Suena a trámite. Es el capítulo que decide si los otros once te cuestan una tarde o te cuestan el teléfono.</p><h2>La regla que ordena todo lo demás</h2><p><strong>Ninguna operación de esta guía es irreversible si antes se hizo una copia.</strong> Y ninguna copia sirve si vive dentro del aparato que se va a tocar. Esa segunda mitad es la que se olvida: una copia en la memoria interna del teléfono que vas a formatear no es una copia, es una foto pegada en la pared de la casa que se está quemando.</p><h2>Qué se pierde y qué no, en orden de importancia</h2><p><strong>Lo que no se recupera de ninguna manera.</strong> Las conversaciones de WhatsApp sin copia en su nube, las fotos que solo existen en el carrete, las notas del teléfono, los códigos de verificación en dos pasos que viven en una aplicación de autenticación y no tienen copia de seguridad, las claves de las redes wifi guardadas. Nada de esto se vuelve a generar solo.</p><p><strong>Lo que se recupera con trabajo.</strong> Las aplicaciones que se bajaron de una tienda se vuelven a bajar; lo que se pierde es la sesión y la configuración, y volver a iniciar sesión en treinta aplicaciones es una tarde.</p><p><strong>Lo que se recupera fácil.</strong> La lista de contactos si estaba sincronizada, las fotos si estaban en una nube, los archivos que también están en la computadora.</p><p><strong>Lo que no se pierde nunca y la gente cree que sí.</strong> Las licencias de las aplicaciones de pago compradas con una cuenta, las suscripciones, los historiales de compra. Eso vive en la cuenta, no en el aparato.</p><h2>La copia mínima, en cuatro pasos y sin instalar nada</h2><p>Antes de hablar de aplicaciones, hay una copia que no necesita ninguna y que casi nadie hace.</p><p><strong>Paso uno: la lista de paquetes.</strong> Con la depuración activada y el teléfono conectado, una sola orden guarda el nombre exacto de todo lo que tienes instalado, incluidas las aplicaciones que el menú no muestra:</p><pre><code>adb shell pm list packages -u &gt; lista-de-paquetes.txt</code></pre><p>Ese archivo pesa unos kilobytes y sirve para reconstruir la memoria de lo que había. Es la copia más pequeña y la más útil que existe.</p><p><strong>Paso dos: las fotos y los archivos.</strong> Copiarlos a la computadora por cable. Es el método más aburrido y el único que no depende de que un servicio siga existiendo.</p><p><strong>Paso tres: los códigos de verificación en dos pasos.</strong> Si el teléfono es el segundo factor de tus cuentas, una copia mal hecha te deja fuera de tu propio correo. Antes de formatear, exporta las semillas de tu aplicación de autenticación, o comprueba que tienes los códigos de recuperación de cada servicio importante.</p><p><strong>Paso cuatro: la frase de recuperación de cualquier copia cifrada.</strong> Si vas a usar una copia con contraseña, esa frase se escribe en un papel y el papel se guarda fuera del teléfono. Es el único paso que no se puede repetir después.</p><h2>La decisión: qué herramienta, según lo que tengas</h2><p><strong>Si tu teléfono no tiene root y no quieres ponerlo:</strong> la lista de paquetes más una copia de archivos a la computadora. Para los datos de las aplicaciones, las herramientas de este capítulo funcionan con el permiso prestado del capítulo 3, pero solo para las aplicaciones que permiten copia. Las que no la permiten se quedan fuera y hay que decirlo: el sistema las protege a propósito.</p><p><strong>Si tu teléfono tiene root:</strong> las copias son completas y las tres primeras fichas de este capítulo hacen el trabajo. Con root también puedes copiar lo que el sistema protege.</p><p><strong>Si tu sistema trae copia integrada:</strong> empieza por ahí. Está probada por el fabricante, se cifra sola y no hay que instalar nada. Su límite es que solo funciona en los teléfonos que la traen.</p><h2>Cómo se sabe que una copia sirve</h2><p>No por el tamaño del archivo ni por el mensaje de «completado». Por tres comprobaciones que se hacen en este orden:</p><p><strong>Primera: el destino sobrevive.</strong> Abre la carpeta de la copia desde otro aparato. Si no puedes verla desde fuera del teléfono, no tienes copia.</p><p><strong>Segunda: el recuento coincide.</strong> Cuenta las aplicaciones del teléfono y cuenta las que hay en la copia. Si los números no coinciden, mira cuáles faltan antes de formatear, no después.</p><p><strong>Tercera: la restauración de prueba.</strong> Restaura una sola aplicación en el teléfono nuevo y comprueba que vuelve con sus datos. Una copia que nunca se restauró es una hipótesis, no una copia.</p><h2>Los tres errores que se cometen siempre</h2><p><strong>Guardar la copia dentro del teléfono.</strong> El más común y el más caro. La copia tiene que estar en una tarjeta que se saca, en la computadora o en un servidor de tu casa.</p><p><strong>Copiar los datos y no el paquete.</strong> Si la aplicación desaparece de la tienda, los datos no valen nada. Y si reinstalas el paquete desde otro sitio, la firma no coincide y la restauración se niega.</p><p><strong>Confundir «he hecho copia» con «he hecho copia comprobada».</strong> El mensaje de terminado no prueba nada; la restauración de prueba sí.</p><h2>Lo que este capítulo no resuelve</h2><p>No enseña a hacer una copia completa del sistema, que es otra cosa y necesita otro tipo de herramientas. No reemplaza a la copia en la nube para las fotos si ya la usas y te funciona. Y no evita que un teléfono se rompa: evita que, cuando se rompa, se lleve tus cosas con él.</p><h2>Las cinco fichas</h2><p>Van de la más simple a la más exigente, y están pensadas para usarse en ese orden si es la primera vez. La primera no necesita root ni permiso y sirve para cualquier teléfono; la última solo funciona en los aparatos que ya la traen de fábrica. Todas declaran para quién son y para quién no, y todas traen un dato de oficio con su comando para comprobarlo sin creerle nada a esta guía.</p>
+<h2>Las 5 fichas del capítulo</h2>
+
+<article class="ficha">
+  <h3>AppListBackup <span class="meta">· AndroidLabs-org/AppListBackup</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>47/100</strong> ·
+    ★196 · 853 días · última entrega 2026-10-09 ·
+    4,070 descargas en 10 entregas · 1 personas ·
+    1 flujos de compilación · incidencias 7 abiertas.
+  </p>
+  <p>Guardar la lista exacta de aplicaciones instaladas antes de formatear el teléfono, para saber qué volver a poner después.</p>
+  <p class="meta"><strong>Para quién es:</strong> para cualquiera, antes de un formateo o de un cambio de teléfono: es el primer paso y el más barato.
+     <br><strong>Para quién no es:</strong> para quien quiera copiar los datos de sus aplicaciones: esto guarda los nombres, no el contenido.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instala la aplicación desde su repositorio y ábrela. No pide permisos especiales ni root.</li>
+<li>Toca el botón de exportar y elige el formato de tabla, que es el único que se puede abrir con cualquier programa después.</li>
+<li>Guarda el archivo fuera del teléfono: mándalo a tu correo o cópialo a la computadora. Una lista que vive en el aparato que vas a formatear no es una lista.</li>
+<li>Abre el archivo en la computadora y comprueba que tiene una fila por aplicación y que aparecen las de fábrica, no solo las que instalaste tú.</li>
+<li>Repite la exportación inmediatamente antes de formatear: la lista de marzo no sirve para el teléfono de noviembre.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Un archivo de texto con una fila por aplicación, con su nombre visible y su nombre de paquete, que se abre en cualquier hoja de cálculo.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si el archivo sale vacío, comprueba que le diste permiso de almacenamiento la primera vez.</li>
+<li>Si solo aparecen tus aplicaciones, activa la opción de incluir las del sistema: son las que más cuesta recordar después.</li></ul>
+    <p><strong>Cómo se deshace:</strong> No hay nada que deshacer: la aplicación solo lee la lista y escribe un archivo.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>El nombre visible de una aplicación y su nombre de paquete son dos cosas distintas: «Galería» es una etiqueta, <code>com.fabricante.gallery</code> es la identidad. Cuando dentro de un año quieras volver a poner esa aplicación, el nombre visible no te sirve de nada: solo el paquete te dice cuál era.</p>
+<p>Por eso esta ficha va primero en el capítulo aunque parezca poca cosa: es la única que convierte una decisión irreversible en una reversible.</p>
+    <p><strong>Límites:</strong></p><ul><li>No copia datos ni archivos: solo la lista.</li>
+<li>No sirve para restaurar nada por sí sola.</li>
+<li>Un solo autor y un solo flujo de compilación.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>La lista de paquetes se puede sacar sin instalar ninguna aplicación, con una orden, y esa lista incluye las aplicaciones del sistema que no aparecen en ningún menú: <code>pm list packages -s</code> muestra solo las del sistema y <code>pm list packages -u</code> incluye las que ya desinstalaste para tu usuario. Guardar esa salida en un archivo de texto es la copia de seguridad más pequeña y más útil que existe: unos pocos kilobytes que caben en un correo y que permiten reconstruir el teléfono semanas después.</p>
+    <p><strong>Cómo se comprueba:</strong> Con el permiso de depuración activo, ejecuta la orden de abajo y guarda la salida en un archivo. Compara el número de líneas con las aplicaciones que ves en el menú: la diferencia son las del sistema, y esas son las que se olvidan.</p>
+    <pre><code>adb shell pm list packages -u &gt; lista-de-paquetes.txt &amp;&amp; wc -l lista-de-paquetes.txt</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Creer que una lista de nombres es una copia de seguridad: no lo es, y confundirlas se paga al restaurar.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/NeoApplications/Neo-Backup">NeoApplications/Neo-Backup</a>, <a href="https://github.com/XayahSuSuSu/Android-DataBackup">XayahSuSuSu/Android-DataBackup</a></p></div>
+
+  <p class="meta">Programa de AndroidLabs-org · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/AndroidLabs-org/AppListBackup/blob/main/LICENSE">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Neo Backup <span class="meta">· NeoApplications/Neo-Backup</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>57/100</strong> ·
+    ★3,894 · 2524 días · última entrega 2026-05-03 ·
+    84,255 descargas en 10 entregas · 100 personas ·
+    2 flujos de compilación · incidencias 239 abiertas.
+  </p>
+  <p>Copiar las aplicaciones y sus datos antes de formatear o de cambiar de teléfono, con root o con el permiso prestado.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien vaya a cambiar de teléfono y quiera llevarse las aplicaciones con sus datos, no solo la lista.
+     <br><strong>Para quién no es:</strong> para quien espere una copia completa del sistema: eso es otra cosa y necesita otro tipo de herramienta.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instala la aplicación y dale acceso: con root funciona completa; sin root, con el permiso prestado, funciona para las aplicaciones que permiten copia.</li>
+<li>Elige la carpeta de destino. Que sea una carpeta que sobreviva al formateo: tarjeta externa o almacenamiento compartido, nunca la memoria interna a secas.</li>
+<li>Selecciona las aplicaciones y elige copiar aplicación y datos. Empieza por dos o tres para probar antes de lanzar las doscientas.</li>
+<li>Espera a que termine y anota el número de aplicaciones copiadas: es el dato que después te dirá si la copia sirvió.</li>
+<li>Restaura primero una aplicación de prueba en el teléfono nuevo. Si esa vuelve con sus datos, el resto también.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Una carpeta con una subcarpeta por aplicación, y al restaurar en el teléfono nuevo las aplicaciones vuelven con su configuración.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si una aplicación falla al restaurar, casi siempre es porque el paquete instalado tiene otra firma: reinstala el mismo paquete que tenías, no uno de otra tienda.</li>
+<li>Si la copia se corta a medias, revisa el espacio libre: la aplicación avisa, pero después de haber copiado media lista.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Restaurar no borra lo que hay: sobrescribe los datos de la aplicación elegida. Para volver atrás de una restauración, se restaura la copia anterior, y por eso conviene no borrar la primera.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Una copia de aplicación tiene dos mitades que se pueden perder por separado: el paquete instalable y los datos. La mayoría de la gente copia los datos y olvida el paquete, y después descubre que la aplicación ya no existe en la tienda.</p>
+<p>La otra mitad del problema es la firma: Android comprueba que el paquete instalado esté firmado por el mismo autor que el que generó los datos. Si reinstalas desde otro sitio, la restauración se niega aunque el archivo esté intacto.</p>
+    <p><strong>Límites:</strong></p><ul><li>Sin root, las aplicaciones que declaran no permitir copia no se copian: solo se listan.</li>
+<li>No copia los archivos de la tarjeta ni las fotos.</li>
+<li>Su última entrega es de mayo de 2026 y su cola tiene más de la mitad abierta.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>El tamaño de una copia no dice si está completa: estas herramientas comprimen y no guardan dos veces el mismo archivo, así que doscientas aplicaciones pueden pesar menos que una sola aplicación grande. Lo que hay que comparar no es el tamaño, es el recuento: cuántas aplicaciones hay en la copia frente a cuántas hay en el teléfono. Si los dos números coinciden y la fecha es de hoy, la copia está entera; si el tamaño te parece pequeño, es que comprime bien.</p>
+    <p><strong>Cómo se comprueba:</strong> Cuenta las aplicaciones del teléfono con la orden de abajo y compara con el número que te dio la copia al terminar. Si difieren, mira cuáles faltan antes de formatear, no después.</p>
+    <pre><code>adb shell pm list packages -3 | wc -l</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Guardar la copia en la memoria interna y formatear el teléfono: la copia se va con lo demás.</li>
+<li>Restaurar datos de una versión más nueva de la aplicación en una más vieja puede corromper su base de datos.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/XayahSuSuSu/Android-DataBackup">XayahSuSuSu/Android-DataBackup</a>, <a href="https://github.com/hddq/restoid">hddq/restoid</a></p></div>
+
+  <p class="meta">Programa de NeoApplications · AGPL-3.0 · medido el 3 de noviembre de 2026 · licencia AGPL-3.0
+     (<a href="https://github.com/NeoApplications/Neo-Backup/blob/main/LICENSE">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>DataBackup <span class="meta">· XayahSuSuSu/Android-DataBackup</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>48/100</strong> ·
+    ★7,559 · 1808 días · última entrega 2025-09-20 ·
+    234,247 descargas en 10 entregas · 100 personas ·
+    4 flujos de compilación · incidencias 190 abiertas.
+  </p>
+  <p>Copiar y restaurar aplicaciones con sus datos en un teléfono con root o con el permiso prestado, con una interfaz más simple.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien quiera una copia con pocas decisiones y muchos valores por defecto sensatos.
+     <br><strong>Para quién no es:</strong> para quien necesite copias programadas automáticas: aquí se hacen a mano.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instala, concede root o el permiso prestado y abre la pestaña de copia.</li>
+<li>Elige la carpeta de destino fuera de la memoria interna: tarjeta o carpeta compartida que sobreviva al formateo.</li>
+<li>Marca las aplicaciones con el filtro de «con datos» y desmarca las del sistema que no quieras tocar.</li>
+<li>Lanza la copia y espera: el primer respaldo es el lento; los siguientes solo añaden lo que cambió.</li>
+<li>Prueba la restauración de una sola aplicación antes de hacerlo con todas.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Una carpeta con las copias, y una restauración de prueba que devuelve la aplicación tal como estaba.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si la copia se detiene en una aplicación concreta, exclúyela y sigue: una aplicación que falla no debe impedir las demás.</li>
+<li>Si al restaurar dice que la firma no coincide, reinstala el mismo paquete original y vuelve a intentarlo.</li></ul>
+    <p><strong>Cómo se deshace:</strong> La restauración sobrescribe los datos de esa aplicación. La copia anterior sigue en la carpeta: no hay que borrarla hasta comprobar que la nueva funciona.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Su valor frente a otras es la comodidad: ocho archivos por entrega y doscientas treinta y tres mil novecientas ochenta y tres descargas en las diez últimas indican que hay mucha gente usándola para lo mismo, y eso se traduce en que los fallos raros están encontrados.</p>
+<p>Lo que no cambia por usar una u otra herramienta es la regla de fondo: sin root, el sistema decide qué aplicaciones permiten copia; con root, la copia es completa pero el aparato tiene que estar desbloqueado.</p>
+    <p><strong>Límites:</strong></p><ul><li>Su última entrega es de septiembre de 2025, aunque el repositorio se mueve.</li>
+<li>Casi doscientos noventa megabytes de repositorio: es de las herramientas más pesadas de esta guía.</li>
+<li>Sin huellas en sus adjuntos: no se puede verificar la descarga.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Al restaurar, el sistema compara la firma del paquete instalado con la que se usó al copiar; si no coincide, se niega aunque los datos estén perfectos. Y hay un caso que sorprende a mucha gente: si la aplicación se actualizó desde una tienda que re-firma los paquetes, la copia de los datos de la versión anterior deja de poder restaurarse hasta que vuelvas a instalar el paquete original. Por eso una copia completa incluye el APK, no solo los datos.</p>
+    <p><strong>Cómo se comprueba:</strong> Antes de restaurar, mira la firma del paquete instalado y compárala con la del original: si el resumen no coincide, no es el mismo firmante.</p>
+    <pre><code>adb shell dumpsys package &lt;paquete&gt; | grep -A3 signatures</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Restaurar datos de una aplicación actualizada dentro de una copia vieja puede dejarla en un estado inconsistente.</li>
+<li>Sin copia del paquete, los datos no valen nada si la aplicación desaparece de la tienda.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/NeoApplications/Neo-Backup">NeoApplications/Neo-Backup</a>, <a href="https://github.com/hddq/restoid">hddq/restoid</a></p></div>
+
+  <p class="meta">Programa de XayahSuSuSu · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/XayahSuSuSu/Android-DataBackup/blob/main/LICENSE">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>restoid <span class="meta">· hddq/restoid</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>68/100</strong> ·
+    ★187 · 419 días · última entrega 2026-11-04 ·
+    2,743 descargas en 10 entregas · 10 personas ·
+    2 flujos de compilación · incidencias 19 abiertas.
+  </p>
+  <p>Copiar datos de aplicaciones con root usando restic, con cifrado y deduplicación de verdad.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien ya use restic en la computadora y quiera las copias del teléfono con el mismo formato y la misma disciplina.
+     <br><strong>Para quién no es:</strong> para quien empiece: sin root no funciona y sin entender restic no se aprovecha.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Comprueba que tienes root y un repositorio restic preparado, en la tarjeta o en un servidor de tu red.</li>
+<li>Instala la aplicación y configura la ruta del repositorio y la contraseña del mismo. Guárdala fuera del teléfono.</li>
+<li>Ejecuta una primera copia de una sola aplicación para comprobar que el repositorio se abre y escribe.</li>
+<li>Verifica el repositorio con una comprobación de integridad desde la computadora o desde la propia aplicación.</li>
+<li>Programa una copia periódica y prueba una restauración en un directorio temporal antes de necesitarla de verdad.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Un repositorio restic con las copias dentro, verificable con <code>restic check</code>, y una restauración de prueba que devuelve los archivos.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si la contraseña del repositorio se pierde, las copias son irrecuperables: no hay puerta trasera y eso es una virtud, no un fallo.</li>
+<li>Si la copia falla por espacio, el repositorio deduplica, pero necesita sitio libre para el índice.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Las copias quedan en el repositorio y se borran con <code>restic forget</code> y <code>restic prune</code>. Lo restaurado se puede volver a restaurar de la copia anterior.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>restic no guarda archivos: guarda bloques. Dos copias de la misma aplicación solo almacenan lo que cambió entre una y otra, y cada bloque va cifrado con la clave del repositorio.</p>
+<p>Esa es la diferencia entre esta ficha y las dos anteriores: aquí la copia no vive en una carpeta que cualquiera puede abrir, vive en un repositorio que solo se abre con la contraseña, y que se puede comprobar y podar sin miedo.</p>
+    <p><strong>Límites:</strong></p><ul><li>Sin root no copia datos de aplicaciones.</li>
+<li>Ocho personas y una comunidad pequeña: menos ojos sobre el código.</li>
+<li>La contraseña del repositorio es una llave que no se puede recuperar.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>La comprobación de integridad es lo que separa una copia de una carpeta con archivos. <code>restic check</code> lee el índice y verifica que cada bloque referenciado exista y coincida con su resumen; una copia que nunca se comprobó puede estar rota desde el mes pasado y nadie lo sabría hasta el día de restaurar. Y hay un detalle práctico: la comprobación sin <code>--read-data</code> no lee los bloques, solo el índice, así que es rápida y sirve para el día a día, mientras que la lectura completa se reserva para una vez al mes.</p>
+    <p><strong>Cómo se comprueba:</strong> Ejecuta la comprobación contra el repositorio del teléfono desde la computadora: si termina sin errores, la copia se puede restaurar. Si dice que faltan bloques, hay que volver a copiar esa aplicación.</p>
+    <pre><code>restic -r &lt;repositorio&gt; check</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Perder la contraseña del repositorio: sin ella no hay restauración posible.</li>
+<li>Guardar el repositorio en el mismo aparato que se va a formatear.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/NeoApplications/Neo-Backup">NeoApplications/Neo-Backup</a>, <a href="https://github.com/XayahSuSuSu/Android-DataBackup">XayahSuSuSu/Android-DataBackup</a></p></div>
+
+  <p class="meta">Programa de hddq · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/hddq/restoid/blob/main/LICENSE">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Seedvault <span class="meta">· seedvault-app/seedvault</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>26/100</strong> ·
+    ★1,876 · 3331 días · última entrega sin entregas en el repositorio ·
+    0 descargas en 10 entregas · 82 personas ·
+    4 flujos de compilación · incidencias 146 abiertas.
+  </p>
+  <p>Usar la copia de seguridad que viene dentro de la ROM, cifrada, sin instalar nada.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien tenga una ROM o un sistema que ya la incluye: se configura y funciona desde los ajustes.
+     <br><strong>Para quién no es:</strong> para quien tenga un teléfono de fábrica sin ella: no se instala como una aplicación normal.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Busca en Ajustes la entrada de copia de seguridad del sistema y comprueba si el proveedor es Seedvault o el servicio del fabricante.</li>
+<li>Si está, entra y elige el destino: almacenamiento externo o una unidad conectada, nunca solo la memoria interna.</li>
+<li>Anota la frase de recuperación de doce palabras que genera. Sin ella, la copia cifrada no se abre.</li>
+<li>Lanza una copia manual y espera a que termine; comprueba la fecha en la pantalla de estado.</li>
+<li>Guarda la frase en un papel fuera del teléfono y prueba a leerla: una frase que no se puede leer no sirve de nada.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> La pantalla de copia dice la fecha de hoy y el destino elegido, y la frase de recuperación está guardada fuera del aparato.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si no aparece en los ajustes, tu ROM no la incluye: no hay manera limpia de añadirla sin cambiar de sistema.</li>
+<li>Si perdiste la frase, la copia existente ya no se puede abrir: hay que generar una nueva y volver a copiar.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Desactivar la copia de seguridad del sistema deja de hacer copias nuevas; las anteriores siguen en el destino hasta que se borren a mano.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Esta aplicación no se instala: se integra en el sistema. Eso explica su número, que parece malo y no lo es: cero descargas contadas y ninguna entrega en su repositorio, porque su canal de distribución es la propia ROM de quien la incluye.</p>
+<p>Su ventaja es la posición: al vivir dentro del sistema puede copiar datos que una aplicación normal no alcanza, y lo hace cifrado por defecto.</p>
+    <p><strong>Límites:</strong></p><ul><li>No se puede instalar en un teléfono que no la traiga.</li>
+<li>Cero entregas descargables en su repositorio: el canal es el sistema.</li>
+<li>Sin una frase de recuperación guardada, la copia es ilegible para siempre.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Una copia cifrada no es más segura si la llave vive en el mismo teléfono: si el aparato se pierde o se formatea, la llave se va con él y la copia queda inservible. Por eso estas herramientas generan una frase de doce palabras y por eso el paso más importante de esta ficha no es configurar la copia, es guardar esa frase en un papel que esté fuera del teléfono. Es el único paso que no se puede repetir después.</p>
+    <p><strong>Cómo se comprueba:</strong> Consulta qué proveedor tiene activo el sistema: si aparece el nombre de esta herramienta, tienes copia cifrada disponible. Si aparece un servicio del fabricante, la copia está en su nube y no en tu destino.</p>
+    <pre><code>adb shell dumpsys backup | head -30</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Guardar la frase de recuperación dentro del teléfono que se va a formatear.</li>
+<li>Creer que una copia reciente existe sin mirar la fecha en la pantalla de estado.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/NeoApplications/Neo-Backup">NeoApplications/Neo-Backup</a>, <a href="https://github.com/XayahSuSuSu/Android-DataBackup">XayahSuSuSu/Android-DataBackup</a></p></div>
+
+  <p class="meta">Programa de Seedvault · licencia declarada Apache-2.0 · medido el 3 de noviembre de 2026 · licencia Apache-2.0 (declarada en el proyecto; GitHub no la detecta)
+     (<a href="https://github.com/seedvault-app/seedvault/blob/main/LICENSE">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+<footer><p>Texto CC BY-SA 4.0 · datos CC BY 4.0 · La Bandita. Mediciones del 4 de noviembre de 2026.</p></footer>
+</div></body></html>

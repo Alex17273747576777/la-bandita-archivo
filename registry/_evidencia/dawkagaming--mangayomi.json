@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-03-05T16:10:48Z",
+   "oid": "861390a4a56b8f3ba8e340c0ba07a48580c522c3"
+  }
+ },
+ "diskUsage": 362255,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "dawkagaming/mangayomi",
+ "pushedAt": "2026-03-05T16:23:51Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

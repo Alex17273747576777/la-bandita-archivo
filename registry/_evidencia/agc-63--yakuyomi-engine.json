@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-04T00:23:42Z",
+   "oid": "25cfe95bf94d66e545eab363b9abceff42cf845f"
+  }
+ },
+ "diskUsage": 51886,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "agc-63/yakuyomi-engine",
+ "pushedAt": "2026-10-04T18:00:33Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

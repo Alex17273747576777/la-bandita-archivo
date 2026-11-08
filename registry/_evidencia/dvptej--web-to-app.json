@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-06-08T17:14:46Z",
+   "oid": "e1f9451569cdfdb5696ffd7d03f68230e2a6b321"
+  }
+ },
+ "diskUsage": 71146,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "dvptej/web-to-app",
+ "pushedAt": "2026-06-08T17:15:10Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

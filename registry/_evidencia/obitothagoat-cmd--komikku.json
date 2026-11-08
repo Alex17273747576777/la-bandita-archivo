@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-02-13T06:53:11Z",
+   "oid": "36c1c642caa0350d499c5129831e055422dd4831"
+  }
+ },
+ "diskUsage": 123722,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "obitothagoat-cmd/komikku",
+ "pushedAt": "2026-02-15T14:26:09Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

@@ -1,0 +1,116 @@
+# LA VARA EN INTEGRACIÓN CONTINUA
+# Doctrina de la casa: ninguna compuerta se aprueba por salida en cero.
+# Se aprueba cuando el informe dice "fallos: NINGUNO" y ese texto queda en el registro del job.
+name: vara
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write      # necesario para firmar sin llave con Sigstore (OIDC efímero)
+
+concurrency:
+  group: vara-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  compuertas:
+    name: ocho compuertas + integridad + autoprueba
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dependencias
+        run: pip install --quiet jsonschema "mcp>=2,<3"
+
+      - name: Registro al día
+        run: python3 tools/registro_construir.py --verificar
+
+      - name: Integridad del sello SHA-256
+        run: python3 tools/atestar.py --verificar
+
+      - name: La vara (informe)
+        run: python3 tools/vara.py | tee /tmp/vara.txt
+
+      - name: La vara (veredicto explícito)
+        run: |
+          if ! grep -q '^fallos: NINGUNO$' /tmp/vara.txt; then
+            echo "::error::la vara no dice 'fallos: NINGUNO' — la línea se detiene"
+            exit 1
+          fi
+          echo "vara aprobada: fallos NINGUNO verificado en el texto del informe"
+
+      - name: Cada fecha, respaldada por su evidencia
+        run: python3 tools/vencimiento.py --peor
+
+      - name: Ninguna ruta movida citada por su nombre viejo
+        run: python3 tools/referencias.py --peor
+
+      - name: Tablero de tareas al día
+        run: python3 tools/tareas.py --revisar
+
+      - name: Índice de documentos generado
+        run: |
+          python3 tools/indice_docs.py
+          git diff --exit-code -- docs/INDICE.md docs/TAREAS.md \
+            || { echo "::error::docs/INDICE.md o docs/TAREAS.md no están regenerados; corré 'make libro'"; exit 1; }
+
+      - name: Autoprueba de compuertas
+        run: python3 tools/autoprueba.py | tee /tmp/autoprueba.txt
+
+      - name: Autoprueba (veredicto explícito)
+        run: |
+          grep -q 'fallos: NINGUNO$' /tmp/autoprueba.txt
+
+      - name: Servidor MCP responde
+        run: python3 mcp-labandita-registro/probar.py | tee /tmp/mcp.txt
+
+      - name: Atestación firmada (Sigstore, sin llave)
+        if: github.event_name != 'pull_request'
+        run: |
+          python3 tools/atestar.py
+          PISTA=$(python3 -c "import sys;sys.path.insert(0,'tools');from fecha_casa import hoy;print(hoy())")
+          cp registry/_manifiesto-sha256.tsv "attestations/lote-${PISTA}.tsv"
+          curl -sSfL -o cosign https://github.com/sigstore/cosign/releases/latest/download/cosign-linux-amd64
+          chmod +x cosign
+          ./cosign sign-blob --yes \
+            --bundle "attestations/lote-${PISTA}.sigstore.json" \
+            registry/_manifiesto-sha256.tsv
+          echo "firmado: attestations/lote-${PISTA}.sigstore.json"
+          echo "-Firma verificable en attestations/ (certificado efímero de esta corrida)-" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: La firma se comprueba (G14, sin llave y en frío)
+        if: github.event_name != 'pull_request'
+        run: |
+          PISTA=$(python3 -c "import sys;sys.path.insert(0,'tools');from fecha_casa import hoy;print(hoy())")
+          python3 tools/atestacion_verificar.py "attestations/lote-${PISTA}.sigstore.json" \
+                  "attestations/lote-${PISTA}.tsv" | tee /tmp/firma.txt
+          grep -q 'fallos: 0$' /tmp/firma.txt
+
+      - name: Guardar la atestación firmada
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: atestacion-firmada
+          path: attestations/*.sigstore.json
+          if-no-files-found: warn
+
+      - name: Resumen
+        run: |
+          {
+            echo "### La Bandita · vara"
+            echo '```'
+            tail -14 /tmp/vara.txt
+            echo '```'
+            echo "Sello: $(wc -l < registry/_manifiesto-sha256.tsv) archivos · commit ${GITHUB_SHA:0:8}"
+          } >> "$GITHUB_STEP_SUMMARY"

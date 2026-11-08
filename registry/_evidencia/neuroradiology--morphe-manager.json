@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-06T13:24:39Z",
+   "oid": "219fc50df892fc9bf8de16ca324412094d595d27"
+  }
+ },
+ "diskUsage": 109203,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "neuroradiology/morphe-manager",
+ "pushedAt": "2026-08-13T12:18:28Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2025-06-18T04:19:30Z",
+   "oid": "b844bc491f1790c72328e1a8e5b2349f8978f0ea"
+  }
+ },
+ "diskUsage": 39013,
+ "forkCount": 3530,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 607
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "RikkaApps/Shizuku",
+ "pushedAt": "2025-06-18T04:21:02Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": true,
+    "publishedAt": "2017-10-28T18:27:11Z",
+    "tagName": "v2.0.0-dev"
+   }
+  ]
+ },
+ "stargazerCount": 32726
+}

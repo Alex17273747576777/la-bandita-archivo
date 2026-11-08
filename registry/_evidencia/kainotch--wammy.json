@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-25T21:45:13Z",
+   "oid": "8f2c76f13f4b7e8017f637699f352027d668c8fc"
+  }
+ },
+ "diskUsage": 87380,
+ "forkCount": 2,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "Wammy-app/Wammy",
+ "pushedAt": "2026-10-25T21:51:21Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-09-29T16:33:40Z",
+    "tagName": "v0.0.9"
+   }
+  ]
+ },
+ "stargazerCount": 13
+}

@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-31T20:56:50Z",
+   "oid": "77ecfa8654a5bd0d79d512f8fa71c0af8a29b554"
+  }
+ },
+ "diskUsage": 72251,
+ "forkCount": 424,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 555
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "Kunzisoft/KeePassDX",
+ "pushedAt": "2026-11-01T09:37:49Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2017-11-17T14:53:40Z",
+    "tagName": "2.5.0.0beta1"
+   }
+  ]
+ },
+ "stargazerCount": 7612
+}

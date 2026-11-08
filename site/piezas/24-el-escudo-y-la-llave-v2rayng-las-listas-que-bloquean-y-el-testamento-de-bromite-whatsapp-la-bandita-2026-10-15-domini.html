@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="24 — EL ESCUDO Y LA LLAVE">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>24 — EL ESCUDO Y LA LLAVE</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "24 — EL ESCUDO Y LA LLAVE", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "29 de octubre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>24 — EL ESCUDO Y LA LLAVE</h1>
+<p class="meta">WhatsApp · 29 de octubre de 2026 · 35,815 caracteres</p>
+<p><em>24 — EL ESCUDO Y LA LLAVE</em></p>
+<p>*v2rayNG, las listas que bloquean y el navegador que dejó testamento: la privacidad del bolsillo</p>
+<p>al censo del 15-oct-2026 (WhatsApp · La Bandita · dominicano-ES)*</p>
+<p>───────────────────</p>
+<p><em>🗺 MAPA DE ESTA GUÍA</em></p>
+<p>⏱ <em>Lectura total: 55 min</em> · Todo dato con fecha y placa · Censo del 15-oct-2026 (tarde)</p>
+<p>───────────────────</p>
+<p><em>🌱 LA SEMILLA</em></p>
+<p>Este territorio guarda la ironía favorita del ecosistema libre: las herramientas más usadas son</p>
+<p>las que NADIE ve funcionar. El bloqueador que te ahorra el anuncio no aplaude; el que cifra tu</p>
+<p>camino no firma autógrafos.</p>
+<p>Media familia del escudo trabaja años sin que su dueño sepa su nombre — y esa es exactamente la</p>
+<p>ventana por donde entra el impostor: si tú no sabes quién te protege, otro te puede vender la</p>
+<p>protección falsa.</p>
+<p>La casa mide al escudo con la vara de siempre: repo abierto, licencia escrita, push con fecha. Y esta cosecha trae la sección más noble de la serie: la genealogía del testamento — Bromite quieto desde el 24-ene-2024 con GPL firmada, y su línea viva en herederos: la prueba de que el copyleft es un seguro de vida del software.</p>
+<p>Lo que esta pieza NO es: un manual de lo que no se nombra. El letrero de la pieza 01 sigue de</p>
+<p>pie — los mods se nombran, no se recetan — y el escudo de la casa solo se baja de talleres</p>
+<p>públicos.</p>
+<p>───────────────────</p>
+<p><em>🛡 EL CENSO DEL ESCUDO (censo 15-oct-2026)</em></p>
+<p>Las placas completas, tal como el censo de la tarde del 15-oct-2026 las contestó:</p>
+<p><em>v2rayNG</em> — 2dust/v2rayNG · ★64.031 (censo 15-oct-2026) · push del 11-oct · GPL-3.0 · nacida el 15-may-2019. El gigante de la cosecha: siete años de taller y sesenta y cuatro mil aplausos. Cliente Android de la familia de protocolos V2Ray — la llave de la escuela del camino cifrado, y la casa más grande que la serie ha medido hasta hoy junto al MCP de la pieza 19.</p>
+<p><em>Lanterna de papel — lantern</em> — getlantern/lantern · ★16.419 (censo 19-oct-2026) · push del MISMO día del censo · GPL-3.0 · nacida el 17-feb-2011. QUINCE AÑOS de taller: la casa más vieja que esta serie ha censado jamás. Nació cuando el teléfono inteligente apenas balbuceaba — y su push del 18-oct-2026 dice lo que mil discursos no pueden: sigue viva.</p>
+<p><em>Lista-escudo Shadowrocket</em> — Johnshall/Shadowrocket-ADBlock-Rules-Forever · ★31.332 (censo</p>
+<p>19-oct-2026) · push del 14-oct · sin licencia declarada en el censo · nacida el 6-dic-2021. La</p>
+<p>forja la mide como lo que es: una ESTANTERÍA de reglas de bloqueo — no un mueble.</p>
+<p>Su placa sin firma es exactamente el tipo de detalle que esta pieza te enseña a mirar: útil y</p>
+<p>famosa, sí; con testamento, no.</p>
+<p><em>Bromite</em> — bromite/bromite · ★6.322 (censo 18-oct-2026) · push del 24-ene-2024 · GPL-3.0 · nacida el 11-oct-2017. EL ACTIVO DE ESTA PIEZA: el navegador anti-anuncios que quedó quieto hace dos años y nueve meses — y cuya quietud es la lección más noble del censo. Su acta completa y su heredero viven más abajo.</p>
+<p><em>LibRedirect</em> — libredirect/browser_extension · ★4.081 (censo 18-oct-2026) · push del 12-oct ·</p>
+<p>GPL-3.0 · nacida el 3-dic-2021. La extensión que redirige tus enlaces de plataformas hacia sus</p>
+<p>frontends amables (casa de la pieza 16): el escudo del NAVEGADOR — donde el link tóxico se</p>
+<p>convierte en puerta limpia antes de abrir.</p>
+<p><em>Piped</em> — TeamPiped/Piped · ★10.284 (censo 19-oct-2026) · push del MISMO día · AGPL-3.0. El proxy de YouTube que mira por ti — ya censado en la pieza 16 como frontend; aquí entra por la puerta del escudo: tu IP descansa mientras el proxy hace la fila. Frontera nombrada, censo no repetido.</p>
+<p>───────────────────</p>
+<p>Detalle que la forja firma: las TRES casas grandes de esta cosecha empujaron dentro de la misma semana del censo — v2rayNG el 11-oct, la lista-escudo el 14-oct, lantern el MISMO 15-oct. El escudo del ecosistema respira por donde más importa.</p>
+<p><em>🏛 LAS ESCUELAS DEL ESCUDO</em></p>
+<p>Seis casas, tres escuelas — y la escuela la decide QUÉ bloquea tu escudo, porque no todos los</p>
+<p>enemigos son del mismo tamaño.</p>
+<p><em>LA ESCUELA DEL CAMINO CIFRADO (la llave).</em> v2rayNG y lantern: casas que cifran y encaminan tu</p>
+<p>tráfico para que el camino sea tuyo — el escudo grande, el que protege contra la mirada de la</p>
+<p>red entera, no solo contra el anuncio de la esquina.</p>
+<p>Es la escuela del oficio serio: pide configuración, entiende protocolos, y su vara es la del</p>
+<p>taller vivo — un mueble de caminos que no se actualiza es una llave que se oxida.</p>
+<p><em>LA ESCUELA DE LA LISTA (el bloqueo por catálogo).</em> La estantería Shadowrocket y su familia: REGLAS que le dicen al aparato qué puertas no abrir — anuncios, rastreadores, basura de medida. Es la escuela del set-it-and-forget-it: importas la lista una vez y tu teléfono entero respira limpio.</p>
+<p>Su vara es doble: que la lista se actualice (la del censo empujó el 14-oct-2026) y que sepas DE</p>
+<p>DÓNDE comes las reglas — una lista es poder sobre tu tráfico: de talleres públicos, sí; de</p>
+<p>grupos anónimos, la vara en alto.</p>
+<p><em>LA ESCUELA DEL REDIRECT (el cambio de puerta).</em> LibRedirect y Piped: casas que no bloquean — REDIRIGEN. El enlace de la plataforma grande se convierte en enlace del frontend amable antes de abrir, y la mirada del rastreador se queda con las ganas. Es la escuela del escudo fino: no pelea con la plataforma — la rodea.</p>
+<p>Su frontera ya la nombró la pieza 16 y aquí la respetamos: son escudo y son frontend, las dos</p>
+<p>varas a la vez.</p>
+<p><em>Cómo se elige sin equivocarse:</em></p>
+<p>Tu queja es el anuncio y el rastreador → escuela de la lista: estantería actualizada + navegador</p>
+<p>con bloqueo de fábrica (el heredero de Bromite, más abajo) — y tu teléfono cambia de aire el</p>
+<p>mismo jueves.</p>
+<p>Tu queja es la mirada sobre TU conexión → escuela del camino cifrado: v2rayNG con su</p>
+<p>configuración de taller — pide oficio, dálo por bien invertido.</p>
+<p>Tu queja es el link tóxico de siempre → escuela del redirect: LibRedirect en el navegador y</p>
+<p>Piped como puerta del video — el escudo fino que no se nota.</p>
+<p>Y el escudo completo del barrio, por capas: lista-escudo en el aparato + redirect en el</p>
+<p>navegador + llave cifrada para la ruta larga. Tres capas que no se pelean — cada una un enemigo</p>
+<p>distinto.</p>
+<p>───────────────────</p>
+<p><em>⚖ LA VARA DE LA LICENCIA</em></p>
+<p>En el escudo, la licencia no es letra chica: es LA PREGUNTA — porque un escudo ve TODO tu</p>
+<p>tráfico, y la placa legal es lo único escrito que responde quién tiene las manos en el camino.</p>
+<p><em>Con firma completa:</em> v2rayNG, lantern, LibRedirect y Bromite con <strong>GPL-3.0</strong>; Piped con</p>
+<p><strong>AGPL-3.0</strong>. Cinco de seis al censo del 15-oct-2026.</p>
+<p>Y la excepción que educa: la estantería Shadowrocket viaja <strong>sin licencia declarada</strong> — la forja</p>
+<p>la mide igual (¡31.221 aplausos y push del 14-oct!), pero tu vara queda marcada: usas reglas sin</p>
+<p>testamento — y si mañana la lista mete una regla rara, nadie firmó nada.</p>
+<p><em>La GPL firma en el escudo una sola cosa:</em> que el camino cifrado es AUDITABLE — cualquier ojo del planeta puede leer el código que lleva tu tráfico. Esa es la diferencia entre un escudo público y una caja negra con nombre bonito: la caja negra del grupo de siempre no deja auditar NADA — y un escudo no auditable es un sombrero, no un escudo.</p>
+<p><em>La vara en cuatro pasos, versión escudo:</em> uno — licencia con nombre, sigue; sin ella, cuidado con lo que le confías. Dos — push vivo (el escudo caduca más rápido que cualquier mueble: las puertas se mueven).</p>
+<p>Tres — fila de asuntos contestada (los fallos del escudo se reportan al público).</p>
+<p>Cuatro — instalación del repo o tienda legal, jamás del grupo que te vende «protección total».</p>
+<p>La línea que pesa doble aquí: el escudo que instalas hoy ve tu banca, tu mensajería y tus horas.</p>
+<p>La vara de la pieza 01 (origen, firma, permisos, triple vía, sin prisa) no era un poema — era</p>
+<p>ESTO.</p>
+<p>───────────────────</p>
+<p><em>🕰 QUIETUDES CON FECHA (y el testamento más noble de la serie)</em></p>
+<p><em>Bromite — ★6.322 (censo 18-oct-2026) · push del 24-ene-2024 · GPL-3.0 · nacida el 11-oct-2017</em></p>
+<p>Dos años, ocho meses y veintiún días de silencio al corte. Bromite fue el navegador que puso los</p>
+<p>anuncios FUERA de Android antes de que fuera moda: bloqueo de fábrica, sin teatro.</p>
+<p>Y su quietud no es un chisme de censo — es la lección completa del copyleft en un solo caso.</p>
+<p>Porque Bromite firmó GPL-3.0, su código no murió con ella: <strong>el proyecto Cromite continúa su línea como fork público</strong> — mismo oficio, mismo escudo, testamento firmado. El mapa de la casa lo anota con la cadena completa: Bromite (2017-2024) → heredero vivo.</p>
+<p>Quien hoy quiera el escudo del navegador, NO instala el Bromite viejo: instala la línea viva.</p>
+<p>Esa es la diferencia entre leer fechas y entender genealogía — la misma lección de</p>
+<p>InnerTune→OuterTune en la cosecha musical (pieza 21), ahora en tu navegador.</p>
+<p><em>Y la edad noble: lantern — quince años al corte.</em></p>
+<p>Nacida el 17-feb-2011: la casa más vieja de TODA la serie censada hasta hoy — más vieja que la mitad de las piezas de esta biblioteca. Su push del MISMO 15-oct-2026 es la respuesta a la pregunta que los grupos no se cansan de hacer: «¿y eso todavía sirve?».</p>
+<p>Quince años de taller no se sostienen con fe — se sostienen con GPL, fila pública y oficio.</p>
+<p>La forja se descubre: el escudo más noble es el que no se jubila.</p>
+<p><em>La estantería sin testamento — el caso opuesto.</em></p>
+<p>La lista-escudo Shadowrocket: ★31.332, push del 14-oct-2026, y SIN licencia. Toda la vida del</p>
+<p>censo, ninguna firma.</p>
+<p>La lectura de la forja: úsala sabiendo que comes reglas de una mesa sin contrato — el día que la</p>
+<p>mesa cambie el plato, nadie firmó que no. La forja no la borra: la marca.</p>
+<p>La vara existe para mirar dos veces, no para escupir a la fama.</p>
+<p>───────────────────</p>
+<p><em>🔧 LA RECETA DEL PRIMER ESCUDO (quince minutos, capas por día)</em></p>
+<p><em>Paso uno — escoge tu capa en voz alta.</em> ¿Anuncios y rastreadores (lista), mirada sobre tu</p>
+<p>conexión (llave), o links tóxicos (redirect)? Escribe UNA capa — el escudo se arma por capas en</p>
+<p>días distintos, no en una tarde de palomeas.</p>
+<p><em>Paso dos — la capa lista (la del jueves).</em> Del censo del 15-oct-2026: estantería Shadowrocket actualizada el 14-oct — y la vara sin testamento arriba anotada. Importa la lista desde TU app de bloqueo legal, y revisa en dos días: los anuncios del juego de la cría desaparecen primero, los de la video-llamada después.</p>
+<p>El teléfono entero respira.</p>
+<p><em>Paso tres — la capa redirect (la del fin de semana).</em> LibRedirect del repo o tienda legal: elige tus frontends (los de la pieza 16 ya censados) y prueba con el link de siempre. El video abre limpio, sin la fila de basura — el escudo fino que ni se nota.</p>
+<p><em>Paso cuatro — la llave, SOLO si la necesitas.</em> v2rayNG es escuela mayor: pide configuración (los perfiles los da tu taller de confianza o los construyes tú). La vara de la casa: perfiles de fuentes PÚBLICAS y audibles — la llave de un extraño es un escudo al revés.</p>
+<p>Si no tienes necesidad real de capa cifrada, esta capa espera: el resto del escudo ya trabaja.</p>
+<p><em>Paso cinco — la vara del mantenimiento.</em> Mensual, cinco minutos: ¿mi lista sigue actualizándose? ¿mi mueble tiene push del trimestre?</p>
+<p>¿mi navegador de la línea de Bromite sigue vivo? El escudo sin mantenimiento es decoración — y la decoración no bloquea nada.</p>
+<p>───────────────────</p>
+<p><em>🧊 MITOS DESMONTADOS</em></p>
+<p><em>Mito uno — «con VPN me volví invisible».</em> No, señor. La llave cifra tu camino y mueve tu salida: el que mira la red pierde tu pista LOCAL — pero el destino del otro extremo te ve igual, y la salida del túnel también tiene dueño.</p>
+<p>Invisible solo el fantasma; el escudo honesto promete menos y cumple más: menos miradas, no cero miradas.</p>
+<p><em>Mito dos — «los bloqueadores rompen las páginas».</em> A veces rompen lo que NO era la página: el rastreador disfrazado de botón. La lista buena (actualizada, del taller público) rompe menos que el anuncio molesta — y toda lista tiene su botón de pausa para la página que de verdad lo pide.</p>
+<p>El escudo se doma, no se teme.</p>
+<p><em>Mito tres — «Bromite murió, hay que desinstalarlo».</em> Mal aprendida la lección: Bromite no murió — PASÓ LA LLAMA. Su GPL garantizó que el código siguiera vivo en su heredero. Desinstalar el escudo viejo para no instalar nada es tirar el paraguas porque cerró la marca — la línea viva está ahí, con la misma vara.</p>
+<p><em>Mito cuatro — «la privacidad es pa los que tienen algo que esconder».</em> La cerradura no es pa los ladrones: es pa que el que pasa no entre. Tu banca, tus mensajes y tus horas no necesitan culpabilidad para merecer puerta — necesitan oficio.</p>
+<p>La casa no vende paranoia: vende varas con fecha.</p>
+<p>───────────────────</p>
+<p><em>🔬 LA ANATOMÍA DE LA MIRADA (qué ve el que te sigue)</em></p>
+<p>Antes del escudo, el oficio de saber QUÉ te sigue: la mirada ajena tiene tres pisos, y cada capa</p>
+<p>del escudo tapa uno:</p>
+<p><em>PISO UNO — el anuncio.</em> El que ves: la publicidad de la página, el intersticial del juego. La</p>
+<p>capa lista lo tapa primero — es el piso más ruidoso y el más fácil.</p>
+<p><em>PISO DOS — el rastreador.</em> El que no ves: la entrada que le dice a TRES empresas que abriste la página del colmado a las 8:41 desde tu barrio. Viaja dentro de la página como parásito — y la lista buena lo corta antes de que cargue.</p>
+<p>Es el 80% del negocio silencioso del internet.</p>
+<p><em>PISO TRES — la mirada del camino.</em> El que todo lo ve si lo dejas: el dueño del wifi ajeno, el operador de la red, el que anota a qué hora entra a qué servicio. Solo la llave lo tapa — por eso la escuela del camino cifrado cuesta más oficio: tapa el piso que los otros no alcanzan.</p>
+<p>Y la prueba del escudo puesto: abre cualquier página de noticias de siempre después del día dos</p>
+<p>del ritual. Lo que YA no carga debajo es el piso dos — y la página no solo se ve igual: se ve</p>
+<p>ANTES.</p>
+<p>La velocidad de carga es el recibo silencioso del bloqueo.</p>
+<p>───────────────────</p>
+<p><em>👴 LA EDAD DE LAS CASAS (fechas de nacimiento del censo)</em></p>
+<p>La columna de nacimientos del escudo es la más vieja de la serie. Lantern nació el 17-feb-2011:</p>
+<p>QUINCE años, la abuela del censo entero.</p>
+<p>Bromite, el 11-oct-2017: nueve años de historia con su quietud al final. v2rayNG, el</p>
+<p>15-may-2019: siete años y el gigante de la cosecha con ★64.031 (censo 15-oct-2026).</p>
+<p>La estantería Shadowrocket llegó el 6-dic-2021 y LibRedirect el 3-dic-2021: gemelas de diciembre</p>
+<p>con oficios distintos. Y Piped es la menor del censo con su ★10.284 (censo 19-oct-2026).</p>
+<p>Lo que la columna enseña: el escudo es el territorio de la PACIENCIA — cinco de seis casas superan los cuatro años, y las dos más viejas son las que más enseñan: la de quince años que sigue empujando (lantern, 15-oct-2026) y la de nueve que dejó testamento (Bromite). En ninguna otra familia la longevidad y la lección se dieron la mano así.</p>
+<p>───────────────────</p>
+<p><em>🌡 SALUD DEL ESCUDO (batería, datos y el día que falla)</em></p>
+<p><em>LA BATERÍA.</em> La capa lista y el redirect: nada medible. La llave: el cifrado cuesta su migaja — la vara práctica manda una tarde de prueba y el dato del TU teléfono.</p>
+<p>En aparato humilde, la llave de perfil pesado se nota; el perfil liviano existe — el taller que no ofrece variantes es taller con una sola cuerda.</p>
+<p><em>LOS DATOS.</em> Sorpresa de la casa: el escudo AHORRA datos — el anuncio que no carga es megabyte que no baja. La familia del caso uno del barrio facturó la prueba: media cuota del juego de la cría era publicidad.</p>
+<p>El escudo bien puesto se paga solo en la factura del mes.</p>
+<p><em>EL DÍA QUE FALLA.</em> La página que no abre, el video que se traba, la app que se enreda: la vara del diagnóstico es de orden — primero pausa la lista (¿era ella?), después el redirect (¿era el cambio de puerta?), al final la llave. En ese orden se pesca el culpable en dos minutos — y el que desinstala TODO por una página terca tira el paraguas por una gotera.</p>
+<p><em>Y LA SEÑAL DE ORO:</em> el escudo sano se olvida. Si tu capa te exige atención semanal, está mal</p>
+<p>puesta o mal elegida — la defensa buena es como la cerradura buena: se usa diario y se recuerda</p>
+<p>cuando cambia la puerta.</p>
+<p>───────────────────</p>
+<p><em>🏠 EL ESCUDO DE LA CASA ENTERA (la frontera del router — teaser de la serie)</em></p>
+<p>El escudo del bolsillo protege UN teléfono. El escudo de la CASA protege los quince aparatos que</p>
+<p>comparten el wifi — y vive en el ROUTER: la pieza de red de la serie (cola 41-50) que la forja</p>
+<p>anuncia con fecha.</p>
+<p>La frontera deja dicho hoy: el DNS de la casa con filtrado (la escuela del bloqueo por dominio, a nivel de router) tapa el piso uno y parte del dos PARA TODOS — la tele de la sala, la consola del muchacho, el aparato de la abuela — sin instalar NADA en ellos. Es el escudo más rentable del hogar: se configura una vez y defiende mientras duermes.</p>
+<p>No tapa el piso tres (la llave sigue siendo personal) ni sustituir la capa del teléfono fuera de casa. Por eso la forja lo deja en teaser: su censo, su placa y su vara vienen en la pieza de red de la serie — con la misma vara de siempre: repo abierto, push con fecha, licencia con nombre.</p>
+<p>───────────────────</p>
+<p><em>🎛 EL DIAGNÓSTICO EN DOS MINUTOS (el orden que pesca al culpable)</em></p>
+<p>El día que algo falla, el barrio desinstala TODO — y la forja firma el orden contrario:</p>
+<p>UNO: pausa la capa lista y recarga la página. Abrió → era la lista (una regla celosa). Aprende</p>
+<p>la excepción de esa página y listo.</p>
+<p>DOS: desactiva el redirect y prueba el link. Abrió → era el cambio de puerta. El frontend de ese</p>
+<p>sitio entra a tu lista de excepciones.</p>
+<p>TRES: apaga la llave y prueba. Abrió → era el camino (perfil vencido o nodo caído). El taller</p>
+<p>del perfil se repasa — y el push del mueble se re-mira.</p>
+<p>Y si con las TRES capas pausadas sigue fallando: el problema nunca fue el escudo — es la red o</p>
+<p>el sitio. Dos minutos de orden ahorran la desinstalación de la semana: la vara del diagnóstico</p>
+<p>es la vara más barata de toda la pieza.</p>
+<p>───────────────────</p>
+<p><em>❓ PREGUNTAS DE LA FILA</em></p>
+<p><em>¿Las capas se pelean entre sí?</em> No — cada capa un enemigo: la lista bloquea en el aparato, el redirect cambia la puerta del link, la llave cifra el camino. Se apilan como ropa: interior, camisa, abrigo.</p>
+<p>Lo que SÍ se pelea: dos apps del mismo oficio (dos bloqueadores pelean sus listas) — una por capa, como manda la casa.</p>
+<p><em>¿v2rayNG solo sirve pa lo que hacen los que la censuran?</em> La llave sirve para TODO lo que viaja</p>
+<p>por tu teléfono — de la red del trabajo a la banca del café — y su fame de ★64.031 (censo</p>
+<p>15-oct-2026) no la ata a ningún bando: la red del trabajo, la banca en el wifi público, la casa</p>
+<p>detrás de la mirada del hotel.</p>
+<p>El uso político es uno más — y la pieza lo mide con la vara neutra: herramienta pública GPL de</p>
+<p>★64.031 (censo 15-oct-2026) con siete años de taller. La vara del uso la firmas tú.</p>
+<p><em>¿La estantería Shadowrocket sirve en Android directo?</em> La lista es texto: sirve en cualquier mueble que coma reglas (las apps de bloqueo de la familia la importan). Su nombre viene de la casa de iOS — la forja la mide como ESTANTERÍA multiplataforma, y con la vara sin testamento siempre arriba.</p>
+<p><em>¿Piped me quita las suscripciones de YouTube?</em> Si las usas sin cuenta, guarda tus suscripciones</p>
+<p>LOCALES — la vara de la pieza 16 aplica: frontend sin sesión. El escudo del proxy cuesta el</p>
+<p>login: cada quien firma su cambio.</p>
+<p><em>¿Cuánto come el escudo de batería?</em> La lista: nada medible. El redirect: nada.</p>
+<p>La llave: el cifrado cuesta su migaja — en aparato humilde se nota, en moderno no. La vara práctica de la casa: una tarde con la llave activa y mira tu batería — el dato del TU teléfono vale más que mil foros.</p>
+<p>───────────────────</p>
+<p><em>🧪 CASOS DEL BARRIO</em></p>
+<p><em>Caso uno — la cuenta de la familia del juego.</em> La cría consumía datos en anuncios de juegos infantiles: media cuota se iba en basura que ella nunca pidió. Receta: capa lista importada + navegador de la línea de Bromite.</p>
+<p>El mes siguiente la factura bajó y la cría jugaba IGUAL — el escudo más barato que la forja ha contado: cero pesos, un jueves.</p>
+<p><em>Caso dos — la contadora del wifi prestado.</em> Trabajaba contabilidad desde cafecolmos con wifi abierto: «todo mi estudio va por la mesa del vecino». Receta: llave de v2rayNG con perfil de taller público auditable para el trabajo, escudo de lista para el resto.</p>
+<p>Su frase de la semana dos: «ahora el wifi abierto es del bar — no de mis libros». La llave en su oficio exacto.</p>
+<p><em>Caso tres — el nieto de la genealogía.</em> Tenía Bromite viejo «porque era el bueno» — con dos años de quietud y brechas que nadie parchea. Receta de la forja: despedida con honores y mudanza a la línea viva del heredero (el acta de la pieza).</p>
+<p>La semana siguiente reportó lo que la forja esperaba: «es el mismo — pero respira».</p>
+<p>La genealogía no es nostalgia: es mantenimiento con memoria.</p>
+<p>───────────────────</p>
+<p><em>🏭 LA DESPENSA DE DATOS (todo lo medido, en una repisa)</em></p>
+<p>Las seis placas del censo de la tarde del 15-oct-2026, listas para copiar y verificar:</p>
+<p>v2rayNG · 2dust/v2rayNG · ★64.031 · nacida 15-may-2019 · push 11-oct-2026 · GPL-3.0. Lantern ·</p>
+<p>getlantern/lantern · ★16.419 · nacida 17-feb-2011 · push 18-oct-2026 · GPL-3.0.</p>
+<p>Lista-escudo Shadowrocket · Johnshall/Shadowrocket-ADBlock-Rules-Forever · ★31.332 · nacida</p>
+<p>6-dic-2021 · push 14-oct-2026 · sin licencia declarada.</p>
+<p>Bromite · bromite/bromite · ★6.322 · nacida 11-oct-2017 · push 24-ene-2024 · GPL-3.0 · quietud</p>
+<p>con heredero. LibRedirect · libredirect/browser_extension · ★4.081 · nacida 3-dic-2021 · push</p>
+<p>12-oct-2026 · GPL-3.0.</p>
+<p>Piped · TeamPiped/Piped · ★10.284 · push 18-oct-2026 · AGPL-3.0 · casa de la pieza 16.</p>
+<p>Fuente: censo vivo de la casa (5.684 repos, tarde del 15-oct-2026). Dato viaja FECHADO a esa</p>
+<p>tarde — el pulso nocturno #10 midió la familia musical; el escudo queda para el pulso próximo de</p>
+<p>la serie. El mapa vivo no disfraza horas.</p>
+<p>───────────────────</p>
+<p><em>💬 LA CONVERSACIÓN HONESTA</em></p>
+<p>Primera: esta pieza se escribió con la vara más recta de la serie hasta hoy — porque el escudo ve TODO, y el margen de humor en esta familia es cero. La forja nombró sin licencia a una casa de ★31.332 (censo 19-oct-2026) y recomendó a su heredero a una de ★6.322: las estrellas no compran misión — la placa la firma el oficio.</p>
+<p>Segunda: la llave (v2rayNG, lantern) se mide aquí como herramienta pública de camino cifrado —</p>
+<p>la misma vara neutral con la que el censo mide cualquier mueble. Su uso legal, su firma: tuya.</p>
+<p>La casa no acompaña a nadie a la cuerda floja — ni a este lado ni al otro.</p>
+<p>Tercera: el glosario es el de la FAMILIA cosecha más las entradas del escudo. Misma lengua,</p>
+<p>cuarto territorio — la serie va cosiendo un dialecto entero con la misma aguja.</p>
+<p>───────────────────</p>
+<p><em>🎞 LO QUE ESTA PIEZA NO DICE</em></p>
+<p>No dice que el escudo te vuelva invisible — dice que las capas bajan la mirada ajena, con fechas</p>
+<p>y sin magia.</p>
+<p>No dice que la estantería Shadowrocket sea basura — dice que la fame de ★31.332 (censo</p>
+<p>19-oct-2026) y el testamento son dos columnas, y la suya está en blanco al corte.</p>
+<p>No dice que la llave sea delito — dice que es herramienta pública GPL, y que su uso lo firma</p>
+<p>cada quien con la ley de su tierra.</p>
+<p>No dice que Bromite deba desinstalarse — dice que su línea vive en el heredero: genealogía, no</p>
+<p>funeral.</p>
+<p>No dice — jamás — que el escudo se baja de un grupo: el que ve todo tu teléfono no se instala</p>
+<p>con letra rara.</p>
+<p>───────────────────</p>
+<p><em>🎚 EL ESCUDO EN TU DÍA A DÍA (cuatro rutinas de la guerra callada)</em></p>
+<p><em>EL DESAYUNO.</em> El teléfono despierta con 40 notificaciones de apps que «te extrañaron»: la capa</p>
+<p>lista ya les cerró la puerta a la mitad — y la mañana empieza en silencio. El escudo no se nota</p>
+<p>en lo que hace: se nota en lo que DEJA de pasar.</p>
+<p><em>EL WIFI DEL CAFÉ.</em> La rutina del trabajador nómada: llave activa ANTES de abrir el banco — la</p>
+<p>regla del escudo es de orden: primero el túnel, después el dato. La llave que se activa después</p>
+<p>es sombrero puesto tarde.</p>
+<p><em>LA FIESTA DE LOS LINKS.</em> El grupo de la familia con su cadena diaria de links: el redirect los</p>
+<p>abre limpios — sin la fila de rastreadores del «toca aquí pa verlo». La forja no limpia cadenas:</p>
+<p>limpia el camino de las cadenas.</p>
+<p><em>LA NOCHE DE FACTURA.</em> Fin de mes: revisa el consumo de datos — la capa lista le debe a la</p>
+<p>familia el ahorro del anuncio de la cría (caso uno del barrio). El escudo que se mide en factura</p>
+<p>es el único poema que la forja firma en números.</p>
+<p>───────────────────</p>
+<p><em>🧵 GENEALOGÍAS DEL ESCUDO</em></p>
+<p>La familia del escudo tiene la genealogía más noble de la serie: Bromite (2017) nace de la</p>
+<p>escuela del Chromium blindado, queda quieto el 24-ene-2024, y su GPL garantiza la línea:</p>
+<p>heredero vivo que continúa el mismo oficio — el caso completo del testamento funcionando, de la</p>
+<p>firma al fork.</p>
+<p>Lantern (2011) es el abuelo vivo: quince años, push del mismo día del censo, y la vara de la casa descubierta. Y la estantería Shadowrocket (2021) queda como el caso del apellido sin firma: la fama más grande del territorio con la placa legal en blanco — el contraste que la forja deja marcado para que el lector aprenda a mirar DOS columnas: la del aplauso y la del contrato.</p>
+<p>La cadena enseñable para el barrio: aplauso sin contrato = aplauso; contrato con push = escudo.</p>
+<p>La serie entera cabe en esa línea.</p>
+<p>───────────────────</p>
+<p><em>📦 LA DESPENSA DEL ESCUDO (tu defensa, ordenada como gente)</em></p>
+<p><em>UNA CAPA, UNA APP.</em> El error del principiante escudado: instalar tres bloqueadores «por si acaso» — y pelearse las listas entre sí. La despensa del oficio: una lista en una app, un redirect en el navegador, una llave en el bolsillo.</p>
+<p>Cada capa su mueble — el escudo sereno no apila.</p>
+<p><em>LA NOTA DE LA FECHA.</em> Cada vez que importes lista o perfiles: nota con fecha en el block del</p>
+<p>teléfono. La fecha de tu escudo es su carta de ciudadanía — el ritual mensual la compara con el</p>
+<p>push del censo y el desencaje se pesca solo.</p>
+<p><em>EL BOTÓN DE PAUSA APRENDIDO.</em> Toda lista tiene excepciones: la página del banco que no abre, el trámite del gobierno que se enreda. Aprende EL botón de pausa de tu mueble — el escudo que no sabe pausar termina desinstalado por una sola página terca.</p>
+<p><em>COPIA DE TU ARMERÍA.</em> Perfiles de la llave, listas importadas, configuración del redirect: respaldo en tu nube de la pieza 25 (cuando la serie la coseche) o archivo exportado. El teléfono que se pierde no se lleva tu armería si ella vive también en el archivo — la ley de la copia de la copa, versión escudo.</p>
+<p>───────────────────</p>
+<p><em>🪧 EL CARTEL DEL ESCUDO</em></p>
+<p>Clávalo donde no lo vea la mirada ajena:</p>
+<p><em>El escudo sin licencia es un sombrero: tapa, no defiende.</em></p>
+<p><em>Primero el túnel, después el dato — el orden ES la defensa.</em></p>
+<p><em>Aplauso sin contrato es aplauso; contrato con push es escudo.</em></p>
+<p><em>La línea no muere: pasa la llama — Bromite lo firmó.</em></p>
+<p><em>Y el que ve todo tu teléfono no se baja de un grupo — jamás.</em></p>
+<p>───────────────────</p>
+<p><em>😄 EL MEME DE LA CASA</em></p>
+<p>— El grupo de siempre: <em>«VPN SUPER PREMIUM GRATIS ilimitada, tu IP queda invisible para SIEMPRE»</em> 💸</p>
+<p>— v2rayNG real: *★64.031 (censo 15-oct-2026), GPL-3.0 auditable, siete años de taller — y sin</p>
+<p>prometer invisibilidad a nadie* 🧐</p>
+<p>— El del grupo, vendiendo tu tráfico «anónimo» a tres brokers a la vez: 🪦</p>
+<p>— Yo, leyendo la placa antes de confiarle mi banca: 😌</p>
+<p><em>Moral del meme, chin chin:</em> el escudo que no se puede leer no se puede creer — la GPL del censo es la única promesa escrita que la forja firma. Lo gratis-que-te-espía es el negocio más viejo del internet: tú no eres el cliente, eres la mercancía — y la placa del censo cuesta nada comparada con lo que cuesta descubrirlo tarde.</p>
+<p><em>⚠ LOS RIESGOS DEL ESCUDO, CON FECHA</em></p>
+<p><em>RIESGO UNO — el falso escudo.</em> El impostor de esta familia es el peor del censo: «VPN gratis ilimitado» que no bloquea miradas — las COBRA. El escudo que no audita no es escudo: es sombrero con tu tráfico dentro. La vara completa de la pieza 01 aplica doble: repo, firma, permisos, sin prisa.</p>
+<p><em>RIESGO DOS — la lista vencida.</em> Una estantería de reglas sin actualización acumula falso-negativos: el anuncio nuevo pasa, el rastreador nuevo cobra. La lista del censo empujó el 14-oct-2026 — y la vara mensual del ritual la re-mira.</p>
+<p>Lista sin push es tapia de adorno.</p>
+<p><em>RIESGO TRES — la dependencia del taller.</em> La llave depende de que su protocolo siga vivo frente a las puertas que se mueven: por eso push de esta semana vale ORO en esta escuela — lantern empujó el mismo día del censo, v2rayNG el 11-oct. El escudo de taller quieto se oxida en silencio: el ritual mensual lo pesca.</p>
+<p><em>Y el riesgo que la casa se auto-impone:</em> esta pieza habla de herramientas que algunos gobiernos miran feo. La forja las mide con vara neutral y datos fechados — y le recuerda al lector de una sola línea: informarse la vara de TU tierra es parte del oficio.</p>
+<p>El mapa guía; el mapa no manda.</p>
+<p>───────────────────</p>
+<p><em>📖 GLOSARIO DE LA COSECHA</em></p>
+<p><em>Puente.</em> El cliente que no guarda música: la busca en el catálogo de otro y la trae al momento.</p>
+<p>Debe su vida a un río ajeno — por eso la vara de esta escuela mira el push con fecha antes que</p>
+<p>las estrellas.</p>
+<p><em>Cajón.</em> La escuela del archivo propio: MP3 y FLAC tuyos, tocados sin internet ni río ajeno.</p>
+<p>Nunca depende de un provedor, jamás se corta en la loma, y su única obligación es que tus</p>
+<p>etiquetas estén peinadas.</p>
+<p><em>Detective.</em> La escuela del descubrimiento: cruza fuentes, amarra discografías y te muestra</p>
+<p>versiones. Muffon es su bandera en la cosecha — menos «ponme la playlist», más «enséñame el mapa</p>
+<p>del artista».</p>
+<p><em>Cosecha.</em> El pase de vara ancho por una familia del censo: se mide casa por casa, con placa, y</p>
+<p><em>🗓 EL RITUAL DE LA PRIMERA SEMANA (de teléfono desnudo a escudo puesto)</em></p>
+<p><em>DÍA UNO — el inventario de la mirada.</em> Escribe qué te molesta de tu teléfono hoy: ¿anuncios?,</p>
+<p>¿el wifi ajeno?, ¿los links de siempre? UNA queja por día de ritual — el escudo se arma por</p>
+<p>capas y el capricho por capas se doma.</p>
+<p><em>DÍA DOS — la capa lista.</em> Importa la estantería del censo desde tu app de bloqueo legal. Prueba con el juego de la cría y la página del colmado: los anuncios que desaparecen son tu primera acta.</p>
+<p>Anota la fecha de la lista que importaste — esa fecha ES tu vara.</p>
+<p><em>DÍA TRES — la capa redirect.</em> LibRedirect del repo o tienda legal, frontends de la pieza 16. El</p>
+<p>link de siempre debe abrir limpio — si algo no abre, el botón de pausa existe: el escudo se</p>
+<p>doma, no se aguanta.</p>
+<p><em>DÍA CUATRO — la vara sin testamento.</em> Vuelve a la placa de la lista-escudo: ¿sigue sin licencia? ¿sigue empujando?</p>
+<p>Aprende a mirar esa columna sin miedo — la forja te enseñó a marcar, no a escupir. El día que miras placas con calma, el oficio ya es tuyo.</p>
+<p><em>DÍA CINCO — la genealogía.</em> Si traías el Bromite viejo o el muerto de turno: mudanza con</p>
+<p>honores a la línea viva. Compara: mismo escudo, push del trimestre. La lección del copyleft,</p>
+<p>sentida en tu propio aparato.</p>
+<p><em>DÍA SEIS — la llave, si tu vida la pide.</em> Solo si el wifi ajeno o la ruta larga son TU semana: v2rayNG con perfil de taller público. Y la cuenta de prueba de la pieza 01 si vas a meterte en serio — el casco de la obra no se quita en el escudo.</p>
+<p><em>DÍA SIETE — la placa, otra vez.</em> Vuelve al censo: ¿tu casa sigue empujando? ¿la estantería sigue viva?</p>
+<p>¿el heredero de Bromite sigue respirando? El día que el ritual te sale de memoria, ya no eres usuario protegido: eres gente de escudo — y la mirada ajena perdió una mesa.</p>
+<p>───────────────────</p>
+<p><em>Y la regla del oficio que no cambia con el tamaño del enemigo:</em> la forja mide escudos públicos,</p>
+<p>tú firmas tus capas, y el que ve todo tu teléfono se instala del censo o no se instala. Que tu</p>
+<p>escudo tenga placa — y que tu placa tenga fecha.</p>
+<p>───────────────────</p>
+<p><em>🎯 EL MINIQUIZ DEL ESCUDO</em></p>
+<p>Cinco preguntas de la pieza. Las respuestas van AL REVÉS al pie (leídas de atrás para adelante),</p>
+<p>para que nadie las palmee sin pensarse el plato.</p>
+<p><em>LAS PREGUNTAS:</em></p>
+<p>1) ¿Cuál es el gigante del escudo y con cuántas estrellas al censo del 15-oct-2026?</p>
+<p>2) ¿Qué casa del escudo tiene QUINCE años de taller y push del mismo día del censo?</p>
+<p>3) ¿Qué le pasó a Bromite y quién vive su línea?</p>
+<p>4) ¿Qué placa legal le falta a la estantería Shadowrocket?</p>
+<p>5) ¿Cuál es el orden correcto del escudo en el wifi ajeno?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>(Las respuestas correctas —de arriba abajo— son: v2rayNG el gigante; lantern la quinceañera;</p>
+<p>Bromite la llama pasada al heredero; la licencia la placa en blanco; y túnel-primero la regla</p>
+<p>del wifi ajeno.)</p>
+<p>───────────────────</p>
+<p><em>PRIMERA CARTA — al que instaló «la VPN del grupo».</em></p>
+<p>Esta pieza no te acusa — te da la vara para mirar ese escudo de frente: ¿tiene repo?,</p>
+<p>¿licencia?, ¿quién contesta cuando falla? Si el escudo no se puede leer, ya sabes lo que es: un</p>
+<p>sombrero con tu tráfico adentro.</p>
+<p>La mudanza al censo cuesta una tarde y te dura los años — y la despedida del sombrero se hace</p>
+<p>con desinstalación fechada, como manda la pieza 01.</p>
+<p><em>SEGUNDA CARTA — al mantenedor de una de las seis casas.</em></p>
+<p>Tu push está en el acta del escudo — y en esta familia, el push es MÁS que vida: es la prueba de</p>
+<p>que las puertas movidas se contestan. Si tu placa cambió, la puerta del censo abierto no tiene</p>
+<p>horario.</p>
+<p>Y si tu casa quedó en la segunda fila (DNS, firewall sin root): es frontera de serie con fecha —</p>
+<p>tu pieza de red viene en cola.</p>
+<p><em>TERCERA CARTA — al que aprendió genealogía con esta pieza.</em></p>
+<p>Si entendiste que Bromite no murió — que la GPL es un seguro de vida y los herederos son la continuación del oficio — entonces la serie ya te cambió el palomear: nunca más vas a ver un proyecto quieto igual. La casa no pide más: el mapa que enseña a leer fechas es el único que no caduca.</p>
+<p>───────────────────</p>
+<p>💓 <em>PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 24).</em></p>
+<p>dormidos · 0 archivados.</p>
+<p><em>📋 LA FICHA DE HOY</em></p>
+<ul>
+<li><strong>2dust/v2rayNG</strong> — «A V2Ray client for Android, support Xray core and v2fly core»</li>
+</ul>
+<p>  ★64.941 · empujó ayer · licencia GPL-3.0 · Kotlin · última release 2.3.11 (2026-10-11) · <a href="https://github.com/2dust/v2rayNG">https://github.com/2dust/v2rayNG</a> · Web: <a href="https://v2rayng.2dust.link">https://v2rayng.2dust.link</a></p>
+<p>  Temas: android · proxy · shadowsocks · socks5 · trojan · v2fly</p>
+<ul>
+<li><strong>Johnshall/Shadowrocket-ADBlock-Rules-Forever</strong> — «提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。»</li>
+</ul>
+<p>  ★31.664 · empujó hoy · licencia CC · <a href="https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever">https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever</a> · Web: <a href="https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/">https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/</a></p>
+<p>  Temas: adblock · gfw · proxy · shadowrocket · v2ray</p>
+<ul>
+<li><strong>getlantern/lantern</strong> — «Open-source VPN for speed, privacy, and censorship circumvention. Free to download on Android, iOS, Windows, macOS, and Linux.»</li>
+</ul>
+<p>  ★16.559 · su último empuje fue el 2026-10-30 (hace -1 días) · licencia GPL-3.0 · Dart · última release v10.0.4 (2026-10-27) · <a href="https://github.com/getlantern/lantern">https://github.com/getlantern/lantern</a></p>
+<p>  Temas: accelerator · censorship · circumvention · gfw · lantern · router</p>
+<ul>
+<li><strong>TeamPiped/Piped</strong> — «An alternative privacy-friendly YouTube frontend which is efficient by design.»</li>
+</ul>
+<p>  ★10.296 · empujó hoy · licencia AGPL-3.0 · Vue · <a href="https://github.com/TeamPiped/Piped">https://github.com/TeamPiped/Piped</a> · Web: <a href="https://piped.video">https://piped.video</a></p>
+<p>  Temas: activej · dearrow · hacktoberfest · ipfs · java · newpipe</p>
+<ul>
+<li><strong>bromite/bromite</strong> — «Bromite is a Chromium fork with ad blocking and privacy enhancements; take back your browser!»</li>
+</ul>
+<p>  ★6.321 · su último empuje fue el 2024-01-24 (hace 1009 días) · licencia GPL-3.0 · última release 108.0.5359.156 (2022-12-19) · <a href="https://github.com/bromite/bromite">https://github.com/bromite/bromite</a> · Web: <a href="https://www.bromite.org/">https://www.bromite.org/</a></p>
+<p>  Temas: adblock · adblocking · android · bromite · browser · chromium</p>
+<ul>
+<li><strong>libredirect/browser_extension</strong> — «A browser extension that redirects popular sites to alternative privacy friendly frontends»</li>
+</ul>
+<p>  ★4.097 · su último empuje fue el 2026-10-12 (hace 17 días) · licencia GPL-3.0 · JSON · última release v3.4.0 (2026-07-24) · <a href="https://github.com/libredirect/browser_extension">https://github.com/libredirect/browser_extension</a> · Web: <a href="https://libredirect.manerakai.com">https://libredirect.manerakai.com</a></p>
+<p>  Temas: bibliogram · chrome-extension · firefox-extension · invidious · libre · nitter</p>
+<p><em>🎯 MINI-QUIZ DE HOY</em></p>
+<p><em>1.</em> ¿Cuál es el repo con más ★ de la pieza, según la medición de hoy?</p>
+<p><em>2.</em> La licencia de Johnshall/Shadowrocket-ADBlock-Rules-Forever, ¿cuál es?</p>
+<p><em>3.</em> De la pieza, ¿quién empujó más cerca de hoy?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>REV|149.46★ — GNyar2v/tsud2=1|REV|CC=2|REV|03-01-6202 — nretnal/nretnalteg=3</p>
+<p>💓 Hoy, jueves 29 de octubre de 2026, se midieron en vivo 6 repos y 0 enlaces de esta pieza: 6 vivos, 0 firmados con su estado en la ficha. El texto es el de la casa; la ficha, la de hoy.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

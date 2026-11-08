@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-01T01:48:49Z",
+   "oid": "098227e8aea3544210347321ab3a2535bd4c00c4"
+  }
+ },
+ "diskUsage": 1104577,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "hellopwecious-sudo/WinNative",
+ "pushedAt": "2026-10-01T01:48:50Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

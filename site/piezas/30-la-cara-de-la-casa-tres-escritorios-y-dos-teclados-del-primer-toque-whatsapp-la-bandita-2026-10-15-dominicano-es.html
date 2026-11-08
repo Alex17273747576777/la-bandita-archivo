@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="30 — LA CARA DE LA CASA">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>30 — LA CARA DE LA CASA</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "30 — LA CARA DE LA CASA", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "29 de octubre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>30 — LA CARA DE LA CASA</h1>
+<p class="meta">WhatsApp · 29 de octubre de 2026 · 38,028 caracteres</p>
+<p><em>30 — LA CARA DE LA CASA</em></p>
+<p>*Lanzadores y teclados del censo: lo primero que tocas al amanecer, con FlorisBoard empujando el</p>
+<p>mismo día (WhatsApp · La Bandita · dominicano-ES)*</p>
+<p>───────────────────</p>
+<p><em>🗺 MAPA DE ESTA GUÍA</em></p>
+<p>⏱ <em>Lectura total: 55 min</em> · Todo dato con fecha y placa · Censo del 15-oct-2026 (tarde)</p>
+<p>───────────────────</p>
+<p><em>🌱 LA SEMILLA</em></p>
+<p>Hay un detalle que toda la serie calló hasta hoy: el mueble que más veces usas NO es el del</p>
+<p>oficio — es la CARA. El teclado se toca cientos de veces al día.</p>
+<p>El escritorio se mira cada vez que el teléfono se enciende. La casa libre que no habla de la</p>
+<p>cara está incompleta: la libertad que no se siente en el primer toque no se siente nunca.</p>
+<p>La serie preparó el terreno sin decirlo: el cajón (25) ordenó las herramientas, el tronco (27) las llaves, el correo (28) la puerta, el personal (29) el trabajo. Esta pieza viste la casa: el escritorio que se ve y el teclado que se escribe — los dos muebles de la identificación.</p>
+<p>Y su vara es la del detalle: la cara del teléfono no falla ruidoso — falla en el lag del tecleo, en la predicción torpe, en el widget que se mueve solo. Por eso el censo de esta noche es fino: cinco casas de oficio largo, donde la calidad se mide en semanas de uso y no en funciones de escaparate.</p>
+<p>───────────────────</p>
+<p><em>🪞 EL CENSO DE LA CARA (censo 15-oct-2026)</em></p>
+<p>Las placas completas, tal como el censo de la tarde del 15-oct-2026 las contestó:</p>
+<p><em>Lawnchair</em> — LawnchairLauncher/lawnchair · ★13.736 (censo 19-oct-2026) · push del 13-oct · SIN</p>
+<p>LICENCIA DECLARADA en el censo · nacida el 3-mar-2017. El escritorio libre más querido de</p>
+<p>Android: la cara estilo Pixel — el buscador, las paletas de iconos, los widgets bien puestos.</p>
+<p>Nueve años y siete meses de taller — y su placa en blanco anotada con vara: la casa más famosa</p>
+<p>con testamento pendiente de la noche.</p>
+<p><em>Kvaesitso</em> — MM2-0/Kvaesitso · ★5.270 (censo 18-oct-2026) · push del 13-oct · GPL-3.0 · nacida el 18-sep-2021. El lanzador-buscador: el escritorio que busca PRIMERO — en tus apps, tus archivos, tus contactos, tu calendario y la web — antes de preguntar qué icono tocaste. Cinco años y un mes: la cara más joven y más pensada del censo.</p>
+<p><em>FlorisBoard</em> — florisboard/florisboard · ★8.705 (censo 15-oct-2026) · push del MISMO día del censo · Apache-2.0 · nacida el 8-abr-2020. El teclado de la comunidad: completo, con predicción local y diseño propio — el teclado libre de referencia del ecosistema. Seis años y seis meses, empujando el mismo día en que la forja lo midió.</p>
+<p><em>fcitx5 (Android)</em> — fcitx5-android/fcitx5-android · ★5.773 (censo 19-oct-2026) · push del 13-oct · LGPL-2.1 · nacida el 10-jun-2021. El teclado multilingüe de la escuela seria: heredero del ecosistema fcitx de Linux, trae idiomas que los teclados grandes ni saben que existen. Cinco años y cuatro meses.</p>
+<p><em>FUTO Keyboard</em> — futo-org/android-keyboard · ★3.357 (censo 15-oct-2026) · push del 23-sep · SIN</p>
+<p>LICENCIA DECLARADA en el censo (el repo se declara espejo del código oficial del taller FUTO) ·</p>
+<p>nacida el 7-may-2024. El teclado del dictado local: voz a texto SIN nube — la escuela de los</p>
+<p>modelos on-device en tu bolsillo.</p>
+<p>Dos años y cinco meses: la cara más nueva del censo, con su placa espejo anotada.</p>
+<p>───────────────────</p>
+<p>Detalle que la forja firma con vara: tres lanzadores y dos teclados — el censo de la cara se divide EXACTO en los dos muebles del primer toque. Y la respiración del censo: FlorisBoard empujando el 15-oct, Lawnchair y Kvaesitso y fcitx5 el 13-oct, FUTO el 23-sep — la cara del ecosistema respira entera.</p>
+<p><em>🏫 DOS MUEBLES, UNA MISMA CARA</em></p>
+<p>Cinco casas, dos muebles — y la elección de cada uno responde a preguntas distintas.</p>
+<p><em>EL ESCRITORIO (los tres lanzadores).</em> La pregunta del escritorio es «¿cómo se ve mi casa al encender?». Lawnchair responde «como el Pixel, pero tuyo»: la cara limpia del teléfono de Google, sin Google — el buscador universal, las cuadrículas, el look que la gente reconoce a metros de distancia.</p>
+<p>Kvaesitso responde «como un buscador con paredes»: el escritorio que se desliza en búsqueda de TODO — la app, el contacto, la nota, la letra de la canción — la cara pa los que viven del buscar y encontrar. Y el tercero del territorio (los clones de la familia Nova y compañía de código cerrado) queda declarado en la sección de honestidad: la cara cerrada no entra al censo.</p>
+<p><em>EL TECLADO (los dos teclados).</em> La pregunta del teclado es «¿con quién hablo y cómo?».</p>
+<p>FlorisBoard responde «con todos, bien»: predicción local, soporte amplio, y la pedagogía de la</p>
+<p>comunidad — el teclado que la casa recomienda pa empezar.</p>
+<p>fcitx5 responde «en todos los idiomas, en serio»: la escuela china del tecleo — chinos, japonés, coreano y las distribuciones raras que el dominicano de familia china o el estudiante de idiomas agradecen. FUTO responde «hablando»: el dictado por voz que corre en el teléfono sin mandar tu voz a la nube — el teclado pa los que dictan el mensaje mientras cocinan.</p>
+<p><em>Cómo se arma la cara sin equivocarse:</em></p>
+<p>Empiezas por el escritorio: es el cambio que se ve y no se rompe nada — Lawnchair pa el look</p>
+<p>clásico, Kvaesitso pa el oficio de buscar. El teclado entra DESPUÉS: FlorisBoard pa el diario, y</p>
+<p>FUTO o fcitx5 según tu forma de hablar.</p>
+<p>Y la regla de la casa: la cara se cambia UNA pieza a la vez. El que cambia escritorio y teclado</p>
+<p>el mismo día amanece desorientado — cada mueble de la cara se adapta en dos días de uso: uno por</p>
+<p>vez.</p>
+<p>───────────────────</p>
+<p><em>⚖ LA VARA DE LA LICENCIA</em></p>
+<p>El corte de la cara al 15-oct-2026: tres firmas completas, dos placas en blanco — el territorio</p>
+<p>de la noche con más testamentos pendientes.</p>
+<p><em>Con firma completa:</em> Kvaesitso con <strong>GPL-3.0</strong>, FlorisBoard con <strong>Apache-2.0</strong>, fcitx5 con <strong>LGPL-2.1</strong> — la firma de biblioteca: el ecosistema fcitx protege su núcleo sin cerrar la puerta a las mezclas. Tres leyes distintas, tres escuelas, cero huecos.</p>
+<p><em>En blanco:</em> <strong>Lawnchair</strong> (★13.736 al censo del 18-oct-2026 — la casa más famosa del censo) y</p>
+<p><strong>FUTO</strong> (★3.357 — con el agravante del repo espejo: el código oficial vive fuera de GitHub, en</p>
+<p>el git del taller).</p>
+<p>La lectura completa de la forja: Lawnchair es históricamente GPLv3 y su código es público y</p>
+<p>auditado por años — pero el censo del 15-oct-2026 le marca la placa y la vara es la vara: SE</p>
+<p>ESPERA LA FIRMA, como con KeePassXC (27) y las otras de la noche.</p>
+<p>FUTO lleva el detalle doble: placa en blanco Y espejo — el taller se declara abierto de buena</p>
+<p>fe, pero el censo firma lo que ve: espejo sin testamento.</p>
+<p><em>La vara, aplicada:</em> push vivo ✓ (el 13-oct y el 15-oct en cuatro de cinco), filas vivas ✓ (las cinco comunidades contestan), instalación del repo o tienda legal ✓. Y la lectura fina de la noche: la cara es el territorio donde la placa en blanco pesa MENOS que en el tronco — porque el escritorio y el teclado no guardan secretos: muestran la pantalla y escriben lo que tú dictas.</p>
+<p>La vara de la noche se matiza: no baja — se lee con contexto del oficio. La placa sigue</p>
+<p>pendiente; el riesgo, acotado.</p>
+<p>───────────────────</p>
+<p><em>🎨 EL ESCRITORIO COMO TERRITORIO (lo que el lanzador decide sin que lo notes)</em></p>
+<p>La sección donde la pieza se vuelve doctrina: el escritorio no es decoración — es la geografía</p>
+<p>de tu día.</p>
+<p><em>Lo que el escritorio decide:</em> qué ves al encender (las apps de la mañana: el mensajero, el</p>
+<p>banco, el calendario), qué te distrae (el ícono del juego que mira desde la esquina), qué</p>
+<p>encuentras sin buscar (el widget del clima que te viste pa salir).</p>
+<p>El escritorio es un mapa de costumbres — y el lanzador ajeno (el de fábrica con su inteligencia artificial de sugerencias) dibuja ese mapa pa SU negocio: la app que te sugiere es la que le pagó por sugerirte. El escritorio libre dibuja el mapa SIN agenda: tus apps, tu orden, tu cara.</p>
+<p><em>El detalle del buscador:</em> la barra de búsqueda del escritorio es el objeto más tocado del teléfono después del teclado — y Lawnchair y Kvaesitso la convierten en buscador LOCAL: busca en TU teléfono primero (apps, contactos, archivos, notas del cuaderno (25)) y en la web después. El buscador ajeno busca primero en la web pa mostrarte anuncio.</p>
+<p>La diferencia se nota a la semana: el teléfono que encuentra lo TUYO primero es otro teléfono.</p>
+<p><em>Y la vara del orden:</em> el escritorio libre deja el orden EN ARCHIVOS: los respaldos del escritorio se guardan y se restauran — el teléfono nuevo recupera TU cara en minutos (con el espejo del sótano (26)). La cara prestada no se respalda: se re-acomoda llorando.</p>
+<p>La serie lo firma: lo que vive en formato abierto se hereda — hasta la cara.</p>
+<p>───────────────────</p>
+<p><em>🔧 LA RECETA DE LA CARA ORDENADA (una tarde, por pisos)</em></p>
+<p><em>Piso uno — el escritorio entra.</em> Lawnchair del censo (placa marcada: ★13.736 al 18-oct-2026, push del 13-oct) o Kvaesitso (GPL-3.0) de la tienda legal o repo. El primer toque: se pone como predeterminado (Ajustes → Apps → App predeterminada → Inicio) — el teléfono pregunta una vez y la cara queda.</p>
+<p>Los iconos se acomodan CON calma: primero las cinco de la mañana, después el resto.</p>
+<p><em>Piso dos — el buscador se entrena.</em> La barra del escritorio busca lo TUYO: prueba buscar «luz» — y mira si encuentra la app del banco, el contacto de la luz, la nota del cuaderno. Kvaesitso lo hace de fábrica; Lawnchair con su buscador de apps y la búsqueda de Google desactivable.</p>
+<p>El entrenamiento del buscador es el detalle que convierte la cara nueva en cara TUYA.</p>
+<p><em>Piso tres — el teclado entra.</em> FlorisBoard del censo (Apache-2.0, push del mismo día): idioma español dominicano, predicción local encendida, tema oscuro pa la noche. El bautismo: escribirle un mensaje a la familia — la primera semana teclea raro y al séptimo día ya es TU teclado.</p>
+<p>La paciencia del tecleo: la vara honesta de la pieza — el teclado nuevo pide dos días, no dos horas.</p>
+<p><em>Piso cuatro — la voz (pa quien dicta).</em> FUTO Keyboard de la tienda legal (placa espejo anotada): el dictado por voz SIN nube — el modelo corre en el teléfono. La prueba: dicta el mensaje de la compra «la libra de café y una libra de arroz» y mira la precisión.</p>
+<p>Y fcitx5 pa quien escribe en otro alfabeto: la escuela seria del multilingüe.</p>
+<p><em>Piso cinco — el respaldo de la cara.</em> La configuración del escritorio se exporta (Lawnchair y Kvaesitso guardan respaldo del orden) — el archivo va al sótano (26). Y la nota-placa de la casa anota: qué cara, qué censo (15-oct-2026), qué fecha de mudanza.</p>
+<p>El teléfono nuevo recupera tu cara en minutos: la cara documentada se hereda — como todo en la casa.</p>
+<p>───────────────────</p>
+<p><em>🧊 MITOS DESMONTADOS</em></p>
+<p><em>Mito uno — «el lanzador libre gasta batería».</em> El lanzador es la app menos dormida del teléfono — y precisamente por eso su eficiencia pesa: Lawnchair y Kvaesitso llevan años de optimización fina. El teclado de fábrica con «inteligencia» en la nube hace MÁS trabajo de fondo (sincroniza, aprende en servidores) que el libre local.</p>
+<p>La prueba práctica: una semana de batería real — y el dato de TU teléfono manda, como siempre.</p>
+<p><em>Mito dos — «sin los servicios de Google, el teclado no predice bien».</em> La predicción de FlorisBoard corre LOCAL (el modelo vive en el teléfono): predice sin mandar nada a nadie. La predicción de los teclados grandes también aprende — DE TI, EN SUS SERVIDORES.</p>
+<p>El balance de la casa: la predicción local es un poco menos mágica y cero veces espiada — el</p>
+<p>oficio de la serie entera en una frase.</p>
+<p><em>Mito tres — «el dictado sin nube es pa clientes enterprise».</em> FUTO lo bajó al bolsillo: el modelo del dictado corre en el teléfono y el dato queda en el teléfono. La prueba de la pieza: dicta el mensaje de la compra en la cocina — si te entiende con el ruido de la freidora, el mito muere solo.</p>
+<p>Y la vara honesta: en un teléfono muy viejo, el modelo local puede ser lento — la placa de tu</p>
+<p>hardware también se lee.</p>
+<p><em>Mito cuatro — «cambiar la cara es pa muchachos».</em> El dueño del negocio que pierde diez minutos</p>
+<p>diarios buscando la app de las facturas es el primero que agradece el buscador local.</p>
+<p>El orden de la cara es oficio, no decoración: el escritorio que encuentra lo tuyo primero y el</p>
+<p>teclado que no te espía son la cara del que trabaja con su teléfono — la edad promedio del censo</p>
+<p>de esta noche (seis años de taller) firma que sus usuarios no son los del escaparate.</p>
+<p>───────────────────</p>
+<p><em>❓ PREGUNTAS DE LA FILA</em></p>
+<p><em>¿Lawnchair o Kvaesitso pa empezar?</em> Del censo del 15-oct-2026: Lawnchair pa el que quiere la</p>
+<p>cara clásica limpia y el look que todo el mundo reconoce; Kvaesitso pa el que vive del buscar y</p>
+<p>quiere el teléfono que responde antes de que termines de escribir.</p>
+<p>La placa en blanco de Lawnchair está anotada: su historia es larga y pública, pero la firma al</p>
+<p>corte no está — la forja lo firma igual, con la vara marcada, como con las otras de la noche.</p>
+<p><em>¿Puedo volver atrás si no me gusta?</em> En un toque: la cara se cambia de launcher como se cambia de camisa — el botón de inicio predeterminado devuelve el de fábrica en diez segundos. NADA se pierde: los iconos del escritorio viejo quedan donde estaban.</p>
+<p>El único mueble que pide paciencia pa adaptarse es el teclado — por eso la casa muda uno por vez.</p>
+<p><em>¿El dictado de FUTO entiende dominicano?</em> El modelo base entiende el español general — y el acento dominicano de la calle se le entiende razonablemente bien al dictado lento. La prueba honesta: dicta pausado la primera semana, corrige con el teclado, y el modelo local mejora con el uso del idioma.</p>
+<p>El que dicta a la velocidad del chisme pa un amigo todavía necesita dedos — la placa mide lo que</p>
+<p>hay, y lo que hay es útil sin nube.</p>
+<p><em>¿La predicción local aprende menos que la de la nube?</em> Aprende distinto: guarda las palabras en TU teléfono (diccionario local), sin subir nada — la curva es de una semana de uso y después es tuya pa siempre. La predicción de la nube aprende más rápido porque aprende de MILLONES — pero tu diccionario vive en su servidor.</p>
+<p>El balance de la casa: predicción propia que se queda en casa — la memoria del teclado es cosa</p>
+<p>privada.</p>
+<p><em>¿fcitx5 me sirve si solo escribo español?</em> El teclado multilingüe brilla con los idiomas</p>
+<p>complicados (chino, japonés, árabe, las distribuciones raras) — pa español puro, FlorisBoard es</p>
+<p>la recomendación de la casa.</p>
+<p>fcitx5 entra al censo por su oficio y por el barrio que escribe dos lenguas: el dominicano de</p>
+<p>familia china, el estudiante de japonés, el que habla con la suegra en otro alfabeto. Cada</p>
+<p>mueble pa su gente.</p>
+<p><em>¿Los widgets del escritorio se pueden perder al actualizar?</em> Las actualizaciones del lanzador conservan el orden (su oficio de años) — el riesgo real es la MUDANZA de teléfono. La defensa ya está en la receta: la exportación al sótano (26) + la nota-placa — el orden restaurado en minutos.</p>
+<p>El widget que se pierde sin respaldo se re-acomoda a mano una vez y se exporta: la segunda vez</p>
+<p>ya no duele.</p>
+<p><em>¿El orden del escritorio se respalda completo?</em> El escritorio sí: Lawnchair y Kvaesitso exportan el orden y los widgets — el archivo vive en el sótano (26). El teclado no pide respaldo: su configuración es de dos toques.</p>
+<p>El escritorio documentado (nota-placa con fecha) reconstruye el teléfono nuevo en quince minutos — la cara ajena se re-acomoda a dedo y de mal humor.</p>
+<p>Esa es la diferencia entera.</p>
+<p>───────────────────</p>
+<p><em>🧪 CASOS DEL BARRIO</em></p>
+<p><em>Caso uno — la peluquera del salón.</em> Su teléfono de citas vivía con la pantalla llena de íconos en tres páginas y la app de las citas perdida entre las del juego de la hija. Receta: Lawnchair con UNA página — citas, banco, mensajero, cámara, galería — y el buscador pa todo lo demás.</p>
+<p>«Encuentro la app sin mirar»: la cita del cliente se agenda en el segundo que camina al sillón.</p>
+<p>El salón ordenado es la fila que anda rápido.</p>
+<p><em>Caso dos — el ejecutivo del seguro que dictaba mal.</em> Sus notas de clientes las escribía en la esquina del autobús con un dedo y la paciencia de un santo agotado. Receta: FUTO con el dictado local — la nota del cliente se DICTA en el autobús y queda escrita.</p>
+<p>Su frase de la semana dos: «ahora las notas del autobús valen».</p>
+<p>El dictado sin nube: la comodidad que parecía cara y resultó ser de la esquina.</p>
+<p><em>Caso tres — el estudiante de japonés de la UASD.</em> El teclado de fábrica no sabía ni que el japonés existía. Receta: fcitx5 con la distribución japonesa — el kana saliendo natural, el kanji por predicción local.</p>
+<p>El muchacho que peleaba con la app de terceros pagada, hoy escribe su tarea en el teclado libre del censo: la escuela china del tecleo pa los idiomas serios.</p>
+<p><em>Caso cuatro — la señora de las ventas por catálogo.</em> El teléfono de fábrica le cambiaba los iconos de lugar «solo» (el launcher de fábrica con sus sugerencias). Receta: Kvaesitso con el escritorio FUEGO — las cinco apps de la venta fijas, el buscador pa el resto, y el orden que ya no se mueve.</p>
+<p>La clienta que encontraba el WhatsApp de la proveedora «de memoria y de rabia», hoy lo encuentra</p>
+<p>en el mismo sitio de siempre: la cara que obedece es la que trabaja.</p>
+<p>───────────────────</p>
+<p><em>Caso cinco — el chofer del guagua turístico.</em> Su teléfono de rutas vivía con el escritorio lleno de apps del pasaje y la cámara enterrada pa la documentación de los daños. Receta: Lawnchair con el widget de la cámara al frente y la página única de rutas.</p>
+<p>El daño del pasaje se documenta en el segundo que pasa — y la empresa del guagua dejó de pelear con los reportes.</p>
+<p>La cámara al servicio del oficio: el caso que la forja firma con sonrisa.</p>
+<p><em>Caso seis — las gemelas de la boutique.</em> Dos teléfonos, un negocio, y cada hermana con su orden mental: la mayor pa las compras, la menor pa las redes. Receta: la MISMA cara en los dos (Lawnchair, mismo orden, mismos widgets) + el respaldo de la exportación compartido por el espejo (26).</p>
+<p>El teléfono de cualquiera de las dos sirve pa cualquiera de las dos — la cara documentada</p>
+<p>convierte dos teléfonos en un negocio con repuesto.</p>
+<p><em>🏭 LA DESPENSA DE DATOS (todo lo medido, en una repisa)</em></p>
+<p>Las cinco placas de la cara al 15-oct-2026, listas pa copiar y verificar:</p>
+<p>Lawnchair · LawnchairLauncher/lawnchair · ★13.736 · nacida 3-mar-2017 · push 13-oct-2026 · sin</p>
+<p>licencia declarada al censo. Kvaesitso · MM2-0/Kvaesitso · ★5.270 · nacida 18-sep-2021 · push</p>
+<p>13-oct-2026 · GPL-3.0.</p>
+<p>FlorisBoard · florisboard/florisboard · ★8.705 · nacida 8-abr-2020 · push 18-oct-2026 (mismo día</p>
+<p>del censo) · Apache-2.0.</p>
+<p>fcitx5-android · fcitx5-android/fcitx5-android · ★5.773 · nacida 10-jun-2021 · push 13-oct-2026</p>
+<p>· LGPL-2.1. FUTO Keyboard · futo-org/android-keyboard · ★3.357 · nacida 7-may-2024 · push</p>
+<p>23-sep-2026 · sin licencia declarada en el censo (repo espejo del git oficial del taller).</p>
+<p>Fuente: censo vivo de la casa (5.684 repos, tarde del 15-oct-2026). Dato viaja FECHADO a esa tarde.</p>
+<p>───────────────────</p>
+<p><em>🕰 LA EDAD DE LA CARA</em></p>
+<p>Lawnchair nació el 3-mar-2017: nueve años y siete meses. FlorisBoard nació el 8-abr-2020: seis</p>
+<p>años y seis meses.</p>
+<p>Kvaesitso nació el 18-sep-2021: cinco años y un mes. fcitx5 nació el 10-jun-2021: cinco años y</p>
+<p>cuatro meses. FUTO nació el 7-may-2024: dos años y cinco meses — la casa más nueva de todo el</p>
+<p>censo de la noche.</p>
+<p>Promedio de la cara: cinco años y ocho meses — el censo MÁS JOVEN de la serie. La lectura de la forja: la cara es el territorio donde el ecosistema se renueva — no porque los muebles viejos mueran, sino porque el gusto cambia: cada generación de teléfonos trae su generación de caras.</p>
+<p>La vara del censo se ajusta sin romperse: en la cara se perdona la juventud — se pide oficio y</p>
+<p>se pide comunidad viva, que las cinco traen.</p>
+<p>───────────────────</p>
+<p><em>💬 LA CONVERSACIÓN HONESTA</em></p>
+<p>Primera: el censo de la cara trae DOS placas en blanco (Lawnchair y FUTO) — y la forja las firma</p>
+<p>con el matiz completo: Lawnchair por historia y comunidad es de las casas más auditadas del</p>
+<p>ecosistema, pero la vara no lee historia: lee la placa del censo.</p>
+<p>FUTO lleva el detalle del espejo: código oficial en el git del taller, espejo en GitHub — la</p>
+<p>buena fe declarada no es la firma. Dos varas marcadas en la pieza que cierra el bloque: el censo</p>
+<p>termina honesto.</p>
+<p>Segunda: la pieza recomienda FlorisBoard pa empezar y Lawnchair pa el escritorio clásico — y la forja firma la recomendación con las placas delante: FlorisBoard empujó el mismo día del censo; Lawnchair lleva la fama. La recomendación de la casa nunca es por fama — es por respiración, oficio y vara.</p>
+<p>Que la fama no te elija el teclado.</p>
+<p>Tercera: el glosario es el de la familia cosecha más las entradas de la cara — décima pieza, cierre del primer bloque de la serie (21-30). La forja firma el balance del bloque al pie de esta pieza: diez territorios, veintiuna casas medidas, tres placas en blanco marcadas, dos barrios limpios, una casa de quince años y una de nueve cumplidos mañana.</p>
+<p>───────────────────</p>
+<p><em>🎞 LO QUE ESTA PIEZA NO DICE</em></p>
+<p>No dice que la cara libre sea pa muchachos — dice que el buscador local y el dictado sin nube</p>
+<p>son oficio: los usan los que trabajan con el teléfono.</p>
+<p>No dice que Lawnchair sea insegura — dice que su placa está en blanco al corte del 15-oct-2026 y</p>
+<p>que la vara de la casa marca sin favoritos.</p>
+<p>No dice que el dictado local no entienda el acento — dice que entiende al dictado pausado y</p>
+<p>mejora con el uso: la placa mide lo que hay.</p>
+<p>No dice que el escritorio libre sea decoración — dice que es la geografía del día: el mapa que</p>
+<p>el ajeno dibuja pa su negocio.</p>
+<p>No dice — jamás — que la cara se cambie todo en un día: un mueble por vez, dos días de</p>
+<p>adaptación — la cara se muda como se muda una casa.</p>
+<p>───────────────────</p>
+<p><em>🎚 LA CARA EN TU DÍA A DÍA (cuatro rutinas del oficio callado)</em></p>
+<p><em>EL AMANECER DE LA PANTALLA.</em> Enciendes el teléfono y la cara te muestra LO PRIMERO: las cinco apps de la mañana, el widget del clima, la fecha. Sin feed que te agarre, sin sugerencia ajena — el amanecer del teléfono propio dura diez segundos y te suelta al día.</p>
+<p>El detalle que la serie firma: la cara libre no te retiene — te entrega.</p>
+<p><em>LA SEMANA DEL AJUSTE FINO.</em> Cada semana, un ajuste: el icono que sobra, el widget nuevo del</p>
+<p>sótano (26), el atajo del negocio. El escritorio se poda como el patio: un poco por visita — el</p>
+<p>orden perfecto no se instala: se poda.</p>
+<p><em>EL MES DEL TECLADO.</em> La revisión mensual del teclado: diccionario limpio (borra las palabras que aprendió de la cadena del grupo), idiomas que ya no usas desactivados, y la prueba del dictado. Cinco minutos que mantienen la escritura propia — el teclado aprende de ti: cuida qué le enseñas.</p>
+<p><em>EL AÑO DE LA CARA NUEVA.</em> Una vez al año: la cara se compara con el censo nuevo de la serie — ¿el lanzador empuja? ¿el teclado respira?</p>
+<p>¿sale una casa nueva que merece prueba? La mudanza de cara es barata cuando se hace con vara — y la serie estará ahí con las placas del año que viene, como siempre.</p>
+<p>───────────────────</p>
+<p><em>🧵 GENEALOGÍAS DE LA CARA</em></p>
+<p>La línea de sangre del escritorio: Lawnchair (2017) hereda la escuela de los clones de launcher</p>
+<p>— la comunidad quiso la cara del Pixel sin el Pixel y la construyó: tres generaciones de</p>
+<p>Lawnchair (1, 2 y la actual) con años de adopción comunitaria.</p>
+<p>Kvaesitso (2021) viene de la otra escuela: el lanzador-buscador alemán de taller individual — la cara pensada como buscador con paredes. Del lado del teclado: FlorisBoard (2020) nace de la escuela de los teclados comunitarios de Android — el proyecto que heredó el oficio cuando los grandes se cerraron.</p>
+<p>fcitx5 (2021) trae la sangre más vieja: el ecosistema fcitx de Linux lleva desde 2002 — veinticuatro años de oficio del tecleo multilingüe, portados al bolsillo. Y FUTO (2024) es la generación nueva: el taller de los modelos on-device — la escuela de la voz que no viaja.</p>
+<p>La cadena de la cara en una línea: el escritorio se lo robó la comunidad al Pixel, el buscador se lo enseñó al launcher el oficio del encontrar, y el teclado lleva veinticuatro años de escuela tras él. La cara del teléfono libre es joven de censo y vieja de oficio — la combinación que la serie más respeta.</p>
+<p>───────────────────</p>
+<p><em>📦 LA DESPENSA DE LA CARA (tu primer toque, ordenado como gente)</em></p>
+<p><em>LA PÁGINA ÚNICA.</em> El escritorio de la casa firma una regla: las apps del diario en UNA página — el resto vive en el cajón del buscador. La pantalla de tres páginas con iconos perdidos es la soga del escritorio: la página única encuentra todo en un gesto y nunca se pierde nada.</p>
+<p><em>EL WIDGET ÚTIL.</em> Uno o dos, de oficio: el clima pa la salida, el buscador del sótano (26), la nota rápida del taller (25). El widget decorativo es el adorno que estorba — la cara libre se decora con utilidad, que es la única decoración que no envejece.</p>
+<p><em>EL DICCIONARIO DEL TECLADO.</em> La lista personal de palabras que el teclado debe saber: los nombres de la familia, el negocio, el barrio — se enseñan una vez y el teclado deja de corregirlas. Y el barrido mensual: las palabras de la cadena del grupo se borran — el teclado aprende lo que le enseñas: enséñale lo tuyo, no el ruido.</p>
+<p><em>Y LA REGLA APRENDIDA.</em> La cara se administra con la vara de la casa: muebles del censo, una pieza por vez, respaldo del orden, y el teclado que no viaja. Diez piezas del bloque y la misma vara — la cara la cierra con la lección más simple de todas: la libertad que no se siente en el primer toque, no se siente.</p>
+<p>Y esta se siente.</p>
+<p>───────────────────</p>
+<p><em>🪧 EL CARTEL DE LA CARA</em></p>
+<p>Clávalo en el escritorio:</p>
+<p><em>El escritorio es la geografía del día — que lo dibuje tu mapa, no el negocio ajeno.</em></p>
+<p><em>Lo tuyo primero en el buscador: apps y contactos antes que anuncios.</em></p>
+<p><em>El teclado que prefiere local — tu escritura no viaja.</em></p>
+<p><em>Un mueble por vez: la cara se muda como se muda una casa.</em></p>
+<p><em>Y el orden del escritorio se respalda — la cara que se exporta se hereda.</em></p>
+<p>───────────────────</p>
+<p><em>😄 EL MEME DE LA CASA</em></p>
+<p>— El teléfono de fábrica: <em>«te sugiero descargar la app del banco que mencionaste en el mensaje»</em> 🤖</p>
+<p>— La cara de fábrica, moviendo el icono de las citas «pa mejorar tu experiencia»: *¿y mi app de</p>
+<p>las citas dónde quedó?* 🤡</p>
+<p>— FlorisBoard, con su Apache y su push del mismo día del censo: *yo predigo en tu teléfono, con</p>
+<p>tu idioma, y no le cuento a nadie* ⌨</p>
+<p>— Yo, con mi página única, mi buscador local y mi dictado sin nube: 😌</p>
+<p><em>Moral del meme, chin chin:</em> la cara de fábrica te mira dormir y le cuenta al dueño lo que soñaste. La cara del censo te abre la casa, encuentra lo tuyo y se calla la boca — la libertad que se siente en el primer toque es la que no vuelve atrás, chin chin.</p>
+<p><em>⚠ LOS RIESGOS DE LA CARA, CON FECHA</em></p>
+<p><em>RIESGO UNO — el teclado que espía.</em> El teclado ve TODO lo que escribes: claves, mensajes, notas del negocio. El riesgo del censo no es FlorisBoard (local y auditado) — es el teclado «gratis» de la tienda con permisos de red y taller anónimo: la llave de tu vida escrita viajando a quién sabe.</p>
+<p>La defensa: teclados del censo con placa leída — y la revisión de permisos: el teclado no</p>
+<p>necesita internet pa predecir en local.</p>
+<p><em>RIESGO DOS — la cara que se arma de golpe.</em> El riesgo no técnico: es el desengaño. El que cambia escritorio, teclado, iconos y temas el mismo día amanece perdido y vuelve a la soga de fábrica con rabia.</p>
+<p>La defensa es la receta: un mueble por vez, dos días de adaptación, y la cara se construye como la casa: de a un piso.</p>
+<p><em>RIESGO TRES — el respaldo de la cara olvidado.</em> El orden del escritorio lleva meses de ajuste fino — y el teléfono se pierde, se cambia, se formatea: la cara nueva empieza de cero y el dueño no recuerda ni la mitad. La defensa: la exportación del orden al sótano (26) + la nota-placa — quince minutos de mudanza en vez de una tarde de rabia.</p>
+<p><em>Y el riesgo que la forja se auto-impone:</em> cerrar el bloque de las diez cosechas con las placas en blanco al frente. La forja firma el balance completo en la pieza de cierre — y repite la doctrina: la vara no tiene favoritos ni festivos: marca a la famosa igual que a la nueva.</p>
+<p>La noche termina con dos varas pendientes — y con las cinco casas empujando, que es la otra</p>
+<p>mitad de la vara: la placa mide la ley; el push, la vida.</p>
+<p>───────────────────</p>
+<p><em>📖 GLOSARIO DE LA COSECHA</em></p>
+<p><em>Puente.</em> El cliente que no guarda música: la busca en el catálogo de otro y la trae al momento.</p>
+<p>Debe su vida a un río ajeno — por eso la vara de esta escuela mira el push con fecha antes que</p>
+<p>las estrellas.</p>
+<p><em>Cajón.</em> La escuela del archivo propio: MP3 y FLAC tuyos, tocados sin internet ni río ajeno.</p>
+<p>Nunca depende de un provedor, jamás se corta en la loma, y su única obligación es que tus</p>
+<p>etiquetas estén peinadas.</p>
+<p><em>Detective.</em> La escuela del descubrimiento: cruza fuentes, amarra discografías y te muestra</p>
+<p>versiones. Muffon es su bandera en la cosecha — menos «ponme la playlist», más «enséñame el mapa</p>
+<p>del artista».</p>
+<p><em>Cosecha.</em> El pase de vara ancho por una familia del censo: se mide casa por casa, con placa, y</p>
+<p><em>🗓 EL RITUAL DE LA PRIMERA SEMANA (de la cara prestada a la cara propia)</em></p>
+<p><em>DÍA UNO — el escritorio entra solo.</em> Lawnchair (o Kvaesitso) del censo, predeterminado en diez segundos, y el orden de las cinco apps de la mañana. Sin teclado, sin temas — el escritorio solo, dos días de uso.</p>
+<p>La primera lección de la cara: menos es más.</p>
+<p><em>DÍA DOS — el buscador se entrena.</em> Busca tres cosas que buscabas a mano: la app del banco, el contacto del proveedor, la nota del cuaderno. El buscador local las encuentra antes de terminar de escribir — el detalle que hace tuya la cara nueva.</p>
+<p><em>DÍA TRES — el teclado entra.</em> FlorisBoard del censo (Apache-2.0, push del 15-oct): idioma, tema oscuro, predicción local. La primera tarde teclea raro — es normal: el teclado nuevo se aprende en dos días, no en dos horas.</p>
+<p>La paciencia es parte de la receta.</p>
+<p><em>DÍA CUATRO — la prueba del dictado (pa quien dicta).</em> FUTO del censo (placa espejo anotada): el mensaje de la compra dictado en la cocina. Si el modelo local te entiende, tienes la voz sin nube — si tu teléfono es viejo y va lento, la placa de tu hardware también se lee y FlorisBoard a dedo sigue siendo oficio.</p>
+<p><em>DÍA CINCO — el tema y los iconos (pa el que quiera).</em> El color del escritorio, el paquete de iconos de la tienda libre — el último piso de la cara, el que se hace DESPUÉS de que la casa funciona. La cara se decora cuando se siente: primero el orden, después la pintura.</p>
+<p><em>DÍA SEIS — el respaldo de la cara.</em> La exportación del orden del escritorio al sótano (26) y la</p>
+<p>nota-placa: qué cara, qué censo, qué fecha de mudanza. La cara documentada — quince minutos en</p>
+<p>cualquier teléfono nuevo.</p>
+<p><em>DÍA SIETE — la placa, otra vez, y el balance del bloque.</em> Vuelve al censo con la cara montada: ¿el buscador encuentra lo tuyo primero? ¿El teclado ya es tuyo?</p>
+<p>¿El orden del escritorio está respaldado? Y lee el balance del bloque al pie de esta pieza: diez piezas, veintiuna casas, la vara entera.</p>
+<p>El día que montas tu cara sin ayuda, la casa cumplió: tu teléfono ya no tiene cara prestada —</p>
+<p>tiene la tuya, con acta.</p>
+<p>───────────────────</p>
+<p><em>Y la regla de la cara que la serie pide clavar en el escritorio:</em> un mueble por vez, lo tuyo</p>
+<p>primero en el buscador, el teclado sin nube, y la cara respaldada — la libertad que se siente en</p>
+<p>el primer toque.</p>
+<p>───────────────────</p>
+<p><em>🩺 LA SALUD DE LA CARA AL CORTE (el parte médico de las cinco casas)</em></p>
+<p>El parte del 15-oct-2026: la cara respira entera.</p>
+<p>FlorisBoard, push del 15-oct: el pulso perfecto — el teclado comunitario empujando el mismo día de su medición. Lawnchair, Kvaesitso y fcitx5, push del 13-oct: dos días de aire en las tres — el escritorio y sus dos escuelas respirando juntos.</p>
+<p>FUTO, push del 23-sep: tres semanas — la casa más nueva con el aire más viejo del censo: su git</p>
+<p>principal corre fuera de GitHub y el espejo refléja a su ritmo.</p>
+<p>El balance del parte: cinco casas, cinco respirando, cero quietudes — el TERCER territorio consecutivo sin parte grave (correo (28), personal (29), cara (30)). El bloque de las cosechas cierra con su mejor racha de salud: las últimas cuatro piezas del bloque (27-30) suman doce casas medidas y DOCE respirando.</p>
+<p>La forja lo firma: el final del bloque es su mejor tramo — la forja avanza y el ecosistema</p>
+<p>empuja con ella.</p>
+<p><em>📐 LA MEDIDA DE LA CARA (lo que el censo deja leer y no se ve)</em></p>
+<p>Tres medidas finas de la forja.</p>
+<p>La primera: el censo más joven. Cinco años y ocho meses de promedio — contra los once del correo</p>
+<p>y los nueve del personal.</p>
+<p>La lectura: la cara es el territorio del gusto — se renueva con cada generación de teléfonos. La</p>
+<p>vara se lee distinto aquí: la juventud no es riesgo (las comunidades responden), la ausencia de</p>
+<p>comunidad sí.</p>
+<p>Las cinco traen comunidad: el censo lo firmó.</p>
+<p>La segunda: la paridad de los dos muebles. Tres escritorios contra dos teclados — y los dos muebles con la misma estructura de oficio: una casa famosa (Lawnchair, FlorisBoard), una casa de escuela distinta (Kvaesitso, fcitx5), y una casa nueva de escuela nueva (FUTO).</p>
+<p>La lectura fina: la cara es el territorio más SIMÉTRICO de la serie — los dos muebles del primer</p>
+<p>toque se desarrollaron en espejo: la cara entera se construyó dos veces, con la misma vara.</p>
+<p>La tercera: la geografía de los talleres. Comunidad internacional (Lawnchair), taller alemán</p>
+<p>(Kvaesitso), comunidad internacional (FlorisBoard), escuela china (fcitx5), taller</p>
+<p>estadounidense (FUTO) — cinco orígenes, un estándar de calidad.</p>
+<p>La medida honesta: la cara es la demostración de que el ecosistema libre no tiene centro — tiene</p>
+<p>oficio distribuido.</p>
+<p>El escritorio del dominicano lleva la firma de tres continentes — y funciona igual de limpio en</p>
+<p>la calle Duarte que en Berlín.</p>
+<p><em>🎯 EL MINIQUIZ DE LA CARA</em></p>
+<p>Cinco preguntas de la pieza. Las respuestas van AL REVÉS al pie (leídas de atrás para adelante),</p>
+<p>para que nadie las palmee sin pensarse el plato.</p>
+<p><em>LAS PREGUNTAS:</em></p>
+<p>1) ¿Qué casa de la cara empujó el mismo día del censo y qué placa trae?</p>
+<p>2) ¿Qué dos casas del censo viajan sin testamento y qué detalle tiene la de FUTO?</p>
+<p>3) ¿Qué casa busca lo tuyo antes que la web y qué licencia firma?</p>
+<p>4) ¿Qué escuela trae fcitx5 y para quién brilla?</p>
+<p>5) ¿Cuál es la regla de la mudanza de la cara?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>(Las respuestas correctas —de arriba abajo— son: FlorisBoard el push del mismo día; Lawnchair y</p>
+<p>FUTO las placas en blanco; Kvaesitso el buscador con paredes; fcitx5 la escuela del multilingüe;</p>
+<p>y un-mueble-por-vez la regla de la mudanza.)</p>
+<p>───────────────────</p>
+<p><em>PRIMERA CARTA — al que lleva la cara de fábrica desde que compró el teléfono.</em></p>
+<p>Esta pieza te propone la mudanza más barata de la serie: el escritorio entra en diez segundos, el teclado en dos días, y la cara nueva se siente desde el primer toque. La casa pide paciencia y un mueble por vez — y a la semana te preguntas por qué esperaste años.</p>
+<p>La cara de fábrica no molesta por dolor — molesta porque nunca te preguntó — esa es la</p>
+<p>diferencia que el primer toque firma.</p>
+<p><em>SEGUNDA CARTA — a los talleres de Lawnchair y FUTO.</em></p>
+<p>Las dos placas de la noche están marcadas con el matiz completo: historia pública y comunidad fuerte en una; espejo declarado en la otra. La vara de la casa no lee intenciones: lee el censo — y espera la firma con la puerta abierta, como con las otras de la noche (KeePassXC, AppManager, Markor).</p>
+<p>Una línea de licencia cambia el acta del próximo censo — la forja lo celebra el día que ocurra,</p>
+<p>con fecha.</p>
+<p><em>TERCERA CARTA — al que llegó a esta pieza sin leer las nueve anteriores.</em></p>
+<p>Bienvenido: esta pieza cierra el bloque de las cosechas (21-30) y está escrita pa leerse sola —</p>
+<p>pero la vara que usó se aprendió en las otras nueve: música, repisa, sala, escudo, taller,</p>
+<p>sótano, tronco, correo y personal.</p>
+<p>La serie entera es UNA vara midiendo VEINTE casas de esta noche — y la vara se aprende en una</p>
+<p>pieza cualquiera: empieza por la que necesites, sigue por la que te llame. La casa no tiene</p>
+<p>puerta de entrada: tiene diez.</p>
+<p>───────────────────</p>
+<p>💓 <em>PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 30).</em></p>
+<p>dormidos · 0 archivados.</p>
+<p><em>📋 LA FICHA DE HOY</em></p>
+<ul>
+<li><strong>LawnchairLauncher/lawnchair</strong> — «No clever tagline needed.»</li>
+</ul>
+<p>  ★13.817 · empujó hoy · licencia Apache-2.0 · Java · última release 1.2.0.1884 (2018-07-23) · <a href="https://github.com/LawnchairLauncher/lawnchair">https://github.com/LawnchairLauncher/lawnchair</a> · Web: <a href="https://lawnchair.app">https://lawnchair.app</a></p>
+<p>  Temas: android · app · hacktoberfest · java · kotlin · launcher</p>
+<ul>
+<li><strong>florisboard/florisboard</strong> — «An open-source keyboard for Android which respects your privacy. Currently in beta.»</li>
+</ul>
+<p>  ★8.733 · su último empuje fue el 2026-10-25 (hace 4 días) · licencia Apache-2.0 · Kotlin · última release v0.5.2 (2025-11-28) · <a href="https://github.com/florisboard/florisboard">https://github.com/florisboard/florisboard</a> · Web: <a href="https://florisboard.org">https://florisboard.org</a></p>
+<p>  Temas: android · input-method · keyboard · kotlin · kotlin-android</p>
+<ul>
+<li><strong>fcitx5-android/fcitx5-android</strong> — «Fcitx5 input method framework and engines ported to Android»</li>
+</ul>
+<p>  ★5.810 · su último empuje fue el 2026-10-13 (hace 16 días) · licencia LGPL-2.1 · Kotlin · última release 0.1.3 (2026-07-26) · <a href="https://github.com/fcitx5-android/fcitx5-android">https://github.com/fcitx5-android/fcitx5-android</a> · Web: <a href="https://fcitx5-android.github.io/">https://fcitx5-android.github.io/</a></p>
+<p>  Temas: android · android-ime · android-keyboard · fcitx · fcitx5 · ime</p>
+<ul>
+<li><strong>MM2-0/Kvaesitso</strong> — «A search-focused Android launcher»</li>
+</ul>
+<p>  ★5.328 · empujó ayer · licencia GPL-3.0 · Kotlin · última release v1.41.0 (2026-09-15) · <a href="https://github.com/MM2-0/Kvaesitso">https://github.com/MM2-0/Kvaesitso</a> · Web: <a href="https://kvaesitso.mm20.de/">https://kvaesitso.mm20.de/</a></p>
+<p>  Temas: android · jetpack-compose · kotlin · launcher</p>
+<ul>
+<li><strong>futo-org/android-keyboard</strong> — «Official FUTO Keyboard Issue Tracker and Source Mirror of <a href="https://gitlab.futo.org/keyboard/latinime»">https://gitlab.futo.org/keyboard/latinime»</a></li>
+</ul>
+<p>  ★3.407 · su último empuje fue el 2026-10-27 (hace 2 días) · licencia licencia presente en su repo, no clasificada como SPDX (texto leído el 29-oct-2026) · C++ · última release 0.1.30 (2026-08-04) · <a href="https://github.com/futo-org/android-keyboard">https://github.com/futo-org/android-keyboard</a> · Web: <a href="https://keyboard.futo.org/">https://keyboard.futo.org/</a></p>
+<p>  Temas: android · futo · keyboard · offline · privacy · voice-input</p>
+<p><em>🎯 MINI-QUIZ DE HOY</em></p>
+<p><em>1.</em> ¿Qué repo empujó más recientemente?</p>
+<p><em>2.</em> ¿Qué licencia firma florisboard/florisboard?</p>
+<p><em>3.</em> ¿Qué repo de esta pieza tiene más estrellas medidas hoy?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>REV|92-01-6202 — riahcnwal/rehcnuaLriahcnwaL=1|REV|0.2-ehcapA=2|REV|718.31★ — riahcnwal/rehcnuaLriahcnwaL=3</p>
+<p>💓 Hoy, jueves 29 de octubre de 2026, se midieron en vivo 5 repos y 0 enlaces de esta pieza: 5 vivos, 0 firmados con su estado en la ficha. El texto es el de la casa; la ficha, la de hoy.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

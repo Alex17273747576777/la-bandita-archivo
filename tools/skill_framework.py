@@ -1,46 +1,35 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""HIPER HABILIDAD v3.0 · framework de skills ejecutables con estado persistente,
-contratos, dependencias, reintentos, métricas, rollback, orquestación de flujos
-y skills específicas por plataforma de publicación (Facebook, Telegram, WhatsApp,
-Instagram, X/Twitter, Discord, foros de desarrolladores).
+"""HIPER HABILIDAD · framework de skills ejecutables con estado persistente, contratos,
+dependencias, reintentos, métricas, rollback y orquestación de flujos.
 
 Cada skill es una clase con `ejecutar()`, `verificar()`, `entradas`, `salidas` y un
-contexto de ejecución que guarda estado entre skills. El estado se guarda en
-`docs/.estado-lote.json` para permitir interrumpir y reanudar sin repetir pasos.
+contexto de ejecución que guarda estado entre skills (medir → censar → escribir →
+gatear → enviar → sellar → publicar). El estado se guarda en `.estado-lote.json` para
+permitir interrumpir y reanudar sin repetir pasos.
 
-Novedades v3.0:
-  * Base de datos de límites de caracteres 2026 por plataforma y nivel
-    (gratis / premium / nitro / business), extraída de documentación oficial
-    y observada en producto en noviembre de 2026.
-  * Skills específicas por plataforma (no métodos huecos ni generalizados):
-    facebook, telegram, whatsapp, instagram, twitter_x, discord, foro_dev.
-  * Adaptación al contexto y a la preferencia de usuarios de cada plataforma:
-    aprendizaje de preferencias, selección automática de plataforma óptima,
-    ajuste de longitud, formato y tono según el canal destino.
-  * Mínimos obligatorios de La Bandita: Facebook ≥ 45.000 caracteres por pieza;
-    comentarios ≥ 100 líneas; infraestructura 20/10 en cada publicación.
-  * Verificación triple bit a bit en paralelo extremo: hash SHA-256, conteo
-    de caracteres y comparación byte a byte ejecutados concurrentemente.
-  * Orquestación con `ejecutar_flujo()`: dependencias, orden topológico,
-    reintentos, rollback, ejecución en paralelo de skills independientes.
-  * CLI completa: `--listar`, `--documentar`, `--ejecutar`, `--verificar`,
-    `--flujo`.
+Qué hace (hiper habilidad):
+  * Define la clase base `Skill` con contrato de entrada/salida validable.
+  * Proporciona `ContextoLote` con estado persistente, métricas, timestamps y hashes.
+  * Orquesta flujos con `ejecutar_flujo()`: dependencias, orden, reintentos, rollback.
+  * Sistema de registro de skills (`registro_de_skills`) para descubrimiento automático.
+  * Métricas de performance por skill (tiempo, éxito, fallos, hash de resultado).
+  * Circuit breaker para skills que fallan repetidamente.
+  * Ejecución en paralelo de skills sin dependencias entre sí.
+  * Validación opcional de contratos con JSON Schema.
+  * Interfaz de línea de comandos completa (`--listar`, `--ejecutar`, `--flujo`, `--verificar`).
+  * Integración con herramientas existentes de La Bandita (vara, atestar, sellar, etc.).
 
 Qué NO hace:
-  * No inventa límites: usa la base de datos empírica de LIMITES_PLATAFORMA_2026.
-  * No rellena con texto hueco: cada publicación se construye a partir de
-    evidencia real medida (catálogo, fichas, registros).
-  * No publica sin verificación: la verificación triple bit a bit es obligatoria
-    antes de considerar una pieza lista.
+  * No implementa las habilidades concretas: esas viven en SKILLS/<slug>/.
+  * No escribe texto de piezas: eso lo hace la skill escribir-pieza.
+  * No sella ni publica: eso lo hacen las skills sellar-y-publicar.
 """
 
 from __future__ import annotations
 
 import hashlib
 import json
-import os
-import subprocess
 import sys
 import time
 import traceback
@@ -61,177 +50,10 @@ except Exception:  # pragma: no cover - jsonschema es opcional
 RAIZ: Path = Path(__file__).resolve().parents[1]
 ESTADO_LOTE: Path = RAIZ / "docs" / ".estado-lote.json"
 METRICAS_LOTE: Path = RAIZ / "docs" / ".metricas-lote.json"
-PREFERENCIAS_USUARIO: Path = RAIZ / "docs" / ".preferencias-usuario.json"
-PUBLICACIONES: Path = RAIZ / "Arena-Reimagined" / "01-PUBLICACIONES"
 
-# ══════════════════════════════════════════════════════════════════════════════════
-# BASE DE DATOS DE LÍMITES DE CARACTERES 2026 (empírica, verificada en producto)
-# Fuente: help centers, developer docs y observación in-app, noviembre de 2026.
-# Estructura: { plataforma: { nivel: { tipo_contenido: {limite, visible, notas} } } }
-# ══════════════════════════════════════════════════════════════════════════════════
-
-LIMITES_PLATAFORMA_2026: dict[str, dict[str, dict[str, dict[str, Any]]]] = {
-    "facebook": {
-        "gratis": {
-            "post": {"limite": 63_206, "visible_antes_truncar": 477, "unidad": "caracteres"},
-            "comentario": {"limite": 8_000, "visible_antes_truncar": 125, "unidad": "caracteres"},
-            "bio": {"limite": 101, "visible_antes_truncar": 101, "unidad": "caracteres"},
-            "descripcion_pagina": {"limite": 255, "visible_antes_truncar": 255, "unidad": "caracteres"},
-            "nombre_evento": {"limite": 75, "visible_antes_truncar": 75, "unidad": "caracteres"},
-        },
-        "premium": {
-            "post": {"limite": 63_206, "visible_antes_truncar": 477, "unidad": "caracteres"},
-            "comentario": {"limite": 8_000, "visible_antes_truncar": 125, "unidad": "caracteres"},
-            "bio": {"limite": 101, "visible_antes_truncar": 101, "unidad": "caracteres"},
-            "descripcion_pagina": {"limite": 255, "visible_antes_truncar": 255, "unidad": "caracteres"},
-        },
-    },
-    "telegram": {
-        "gratis": {
-            "mensaje": {"limite": 4_096, "visible_antes_truncar": 4_096, "unidad": "caracteres"},
-            "caption_medio": {"limite": 1_024, "visible_antes_truncar": 1_024, "unidad": "caracteres"},
-            "bio": {"limite": 70, "visible_antes_truncar": 70, "unidad": "caracteres"},
-            "historia": {"limite": 200, "visible_antes_truncar": 200, "unidad": "caracteres"},
-            "nombre_canal": {"limite": 128, "visible_antes_truncar": 128, "unidad": "caracteres"},
-            "descripcion_canal": {"limite": 255, "visible_antes_truncar": 255, "unidad": "caracteres"},
-        },
-        "premium": {
-            "mensaje": {"limite": 8_192, "visible_antes_truncar": 8_192, "unidad": "caracteres"},
-            "rich_text_editor": {"limite": 32_768, "visible_antes_truncar": 32_768, "unidad": "caracteres"},
-            "caption_medio": {"limite": 4_096, "visible_antes_truncar": 4_096, "unidad": "caracteres"},
-            "bio": {"limite": 140, "visible_antes_truncar": 140, "unidad": "caracteres"},
-            "historia": {"limite": 2_048, "visible_antes_truncar": 2_048, "unidad": "caracteres"},
-            "nombre_canal": {"limite": 128, "visible_antes_truncar": 128, "unidad": "caracteres"},
-            "descripcion_canal": {"limite": 255, "visible_antes_truncar": 255, "unidad": "caracteres"},
-        },
-    },
-    "whatsapp": {
-        "gratis": {
-            "mensaje_consumidor": {"limite": 65_536, "visible_antes_truncar": 65_536, "unidad": "caracteres"},
-            "estado_texto": {"limite": 700, "visible_antes_truncar": 700, "unidad": "caracteres"},
-            "bio_about": {"limite": 139, "visible_antes_truncar": 139, "unidad": "caracteres"},
-            "nombre_grupo": {"limite": 100, "visible_antes_truncar": 100, "unidad": "caracteres"},
-            "descripcion_grupo": {"limite": 2_048, "visible_antes_truncar": 2_048, "unidad": "caracteres"},
-        },
-        "business": {
-            "mensaje_api": {"limite": 4_096, "visible_antes_truncar": 4_096, "unidad": "caracteres"},
-            "template_cuerpo": {"limite": 1_024, "visible_antes_truncar": 1_024, "unidad": "caracteres"},
-            "template_header": {"limite": 60, "visible_antes_truncar": 60, "unidad": "caracteres"},
-            "template_footer": {"limite": 60, "visible_antes_truncar": 60, "unidad": "caracteres"},
-            "estado_texto": {"limite": 700, "visible_antes_truncar": 700, "unidad": "caracteres"},
-            "bio_about": {"limite": 139, "visible_antes_truncar": 139, "unidad": "caracteres"},
-            "descripcion_negocio": {"limite": 512, "visible_antes_truncar": 512, "unidad": "caracteres"},
-        },
-    },
-    "instagram": {
-        "gratis": {
-            "caption": {"limite": 2_200, "visible_antes_truncar": 125, "unidad": "caracteres"},
-            "comentario": {"limite": 2_200, "visible_antes_truncar": 125, "unidad": "caracteres"},
-            "bio": {"limite": 150, "visible_antes_truncar": 150, "unidad": "caracteres"},
-            "nombre_usuario": {"limite": 30, "visible_antes_truncar": 30, "unidad": "caracteres"},
-            "nombre_pantalla": {"limite": 30, "visible_antes_truncar": 30, "unidad": "caracteres"},
-            "dm": {"limite": 1_000, "visible_antes_truncar": 1_000, "unidad": "caracteres"},
-            "nota": {"limite": 60, "visible_antes_truncar": 60, "unidad": "caracteres"},
-            "hashtags_maximo": {"limite": 30, "visible_antes_truncar": 30, "unidad": "hashtags"},
-        },
-        "premium": {
-            "caption": {"limite": 2_200, "visible_antes_truncar": 125, "unidad": "caracteres"},
-            "comentario": {"limite": 2_200, "visible_antes_truncar": 125, "unidad": "caracteres"},
-            "bio": {"limite": 150, "visible_antes_truncar": 150, "unidad": "caracteres"},
-            "nombre_usuario": {"limite": 30, "visible_antes_truncar": 30, "unidad": "caracteres"},
-            "nombre_pantalla": {"limite": 30, "visible_antes_truncar": 30, "unidad": "caracteres"},
-            "dm": {"limite": 1_000, "visible_antes_truncar": 1_000, "unidad": "caracteres"},
-            "nota": {"limite": 60, "visible_antes_truncar": 60, "unidad": "caracteres"},
-            "hashtags_maximo": {"limite": 30, "visible_antes_truncar": 30, "unidad": "hashtags"},
-        },
-    },
-    "twitter_x": {
-        "gratis": {
-            "post": {"limite": 280, "visible_antes_truncar": 280, "unidad": "caracteres"},
-            "respuesta": {"limite": 280, "visible_antes_truncar": 280, "unidad": "caracteres"},
-            "dm": {"limite": 10_000, "visible_antes_truncar": 10_000, "unidad": "caracteres"},
-            "bio": {"limite": 160, "visible_antes_truncar": 160, "unidad": "caracteres"},
-            "nombre_pantalla": {"limite": 50, "visible_antes_truncar": 50, "unidad": "caracteres"},
-            "nombre_usuario": {"limite": 15, "visible_antes_truncar": 15, "unidad": "caracteres"},
-            "alt_text": {"limite": 1_000, "visible_antes_truncar": 1_000, "unidad": "caracteres"},
-        },
-        "premium": {
-            "post": {"limite": 25_000, "visible_antes_truncar": 280, "unidad": "caracteres"},
-            "respuesta": {"limite": 25_000, "visible_antes_truncar": 280, "unidad": "caracteres"},
-            "dm": {"limite": 10_000, "visible_antes_truncar": 10_000, "unidad": "caracteres"},
-            "bio": {"limite": 160, "visible_antes_truncar": 160, "unidad": "caracteres"},
-            "nombre_pantalla": {"limite": 50, "visible_antes_truncar": 50, "unidad": "caracteres"},
-            "nombre_usuario": {"limite": 15, "visible_antes_truncar": 15, "unidad": "caracteres"},
-            "alt_text": {"limite": 1_000, "visible_antes_truncar": 1_000, "unidad": "caracteres"},
-        },
-    },
-    "discord": {
-        "gratis": {
-            "mensaje": {"limite": 2_000, "visible_antes_truncar": 2_000, "unidad": "caracteres"},
-            "embed_descripcion": {"limite": 4_096, "visible_antes_truncar": 4_096, "unidad": "caracteres"},
-            "embed_total": {"limite": 6_000, "visible_antes_truncar": 6_000, "unidad": "caracteres"},
-            "bio_about_me": {"limite": 190, "visible_antes_truncar": 190, "unidad": "caracteres"},
-            "nombre_usuario": {"limite": 32, "visible_antes_truncar": 32, "unidad": "caracteres"},
-            "nombre_canal": {"limite": 100, "visible_antes_truncar": 100, "unidad": "caracteres"},
-            "estado_personalizado": {"limite": 128, "visible_antes_truncar": 128, "unidad": "caracteres"},
-        },
-        "nitro": {
-            "mensaje": {"limite": 4_000, "visible_antes_truncar": 4_000, "unidad": "caracteres"},
-            "embed_descripcion": {"limite": 4_096, "visible_antes_truncar": 4_096, "unidad": "caracteres"},
-            "embed_total": {"limite": 6_000, "visible_antes_truncar": 6_000, "unidad": "caracteres"},
-            "bio_about_me": {"limite": 190, "visible_antes_truncar": 190, "unidad": "caracteres"},
-            "nombre_usuario": {"limite": 32, "visible_antes_truncar": 32, "unidad": "caracteres"},
-            "nombre_canal": {"limite": 100, "visible_antes_truncar": 100, "unidad": "caracteres"},
-            "estado_personalizado": {"limite": 128, "visible_antes_truncar": 128, "unidad": "caracteres"},
-        },
-    },
-    "foro_desarrolladores": {
-        "gratis": {
-            "titulo_publicacion": {"limite": 300, "visible_antes_truncar": 100, "unidad": "caracteres"},
-            "cuerpo_publicacion": {"limite": 40_000, "visible_antes_truncar": 200, "unidad": "caracteres"},
-            "comentario": {"limite": 10_000, "visible_antes_truncar": 150, "unidad": "caracteres"},
-            "bio_perfil": {"limite": 200, "visible_antes_truncar": 200, "unidad": "caracteres"},
-            "nombre_usuario": {"limite": 20, "visible_antes_truncar": 20, "unidad": "caracteres"},
-        },
-        "premium": {
-            "titulo_publicacion": {"limite": 300, "visible_antes_truncar": 100, "unidad": "caracteres"},
-            "cuerpo_publicacion": {"limite": 80_000, "visible_antes_truncar": 200, "unidad": "caracteres"},
-            "comentario": {"limite": 10_000, "visible_antes_truncar": 150, "unidad": "caracteres"},
-            "bio_perfil": {"limite": 200, "visible_antes_truncar": 200, "unidad": "caracteres"},
-            "nombre_usuario": {"limite": 20, "visible_antes_truncar": 20, "unidad": "caracteres"},
-        },
-    },
-}
-
-# ══════════════════════════════════════════════════════════════════════════════════
-# CONSTANTES DE LA BANDITA (mínimos obligatorios)
-# ══════════════════════════════════════════════════════════════════════════════════
-
-MINIMO_CARACTERES_PIEZA_FACEBOOK = 45_000
-MINIMO_LINEAS_COMENTARIO = 100
-INFRAESTRUCTURA_OBJETIVO = 20  # sobre 10 (exige excelencia)
-
-
-def obtener_limite_plataforma(
-    plataforma: str,
-    nivel: str = "gratis",
-    tipo_contenido: str = "post",
-) -> dict[str, Any]:
-    """Devuelve el límite de caracteres para una plataforma/nivel/tipo dados."""
-    niveles = LIMITES_PLATAFORMA_2026.get(plataforma, {})
-    if nivel not in niveles:
-        # Fallback al primer nivel disponible
-        nivel = next(iter(niveles), "gratis")
-        niveles = LIMITES_PLATAFORMA_2026.get(plataforma, {})
-    tipos = niveles.get(nivel, {})
-    if tipo_contenido not in tipos:
-        tipo_contenido = next(iter(tipos), "post")
-    return tipos.get(tipo_contenido, {"limite": 0, "visible_antes_truncar": 0, "unidad": "caracteres"})
-
-
-# ══════════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════════
 # REGISTRO DE SKILLS (descubrimiento automático)
-# ══════════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════════
 
 _registro_de_skills: dict[str, type["Skill"]] = {}
 
@@ -252,72 +74,9 @@ def obtener_skill(nombre: str) -> Optional[type["Skill"]]:
     return _registro_de_skills.get(nombre)
 
 
-# ══════════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════════
 # MODELOS DE DATOS
-# ══════════════════════════════════════════════════════════════════════════════════
-
-
-@dataclass
-class PreferenciaUsuario:
-    """Preferencia de un usuario para una plataforma específica."""
-
-    plataforma: str
-    nivel: str  # gratis | premium | nitro | business
-    tipo_contenido_favorito: str
-    longitud_preferida_min: int
-    longitud_preferida_max: int
-    tono_preferido: str  # 'tecnico', 'narrativo', 'directo', 'educativo'
-    formato_preferido: str  # 'texto', 'embed', 'lista', 'hilos'
-    ultima_actualizacion: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
-    interacciones: int = 0
-    puntuacion_media: float = 0.0
-
-    def a_diccionario(self) -> dict[str, Any]:
-        return {
-            "plataforma": self.plataforma,
-            "nivel": self.nivel,
-            "tipo_contenido_favorito": self.tipo_contenido_favorito,
-            "longitud_preferida_min": self.longitud_preferida_min,
-            "longitud_preferida_max": self.longitud_preferida_max,
-            "tono_preferido": self.tono_preferido,
-            "formato_preferido": self.formato_preferido,
-            "ultima_actualizacion": self.ultima_actualizacion,
-            "interacciones": self.interacciones,
-            "puntuacion_media": self.puntuacion_media,
-        }
-
-    @classmethod
-    def desde_diccionario(cls, datos: dict[str, Any]) -> "PreferenciaUsuario":
-        return cls(**datos)
-
-
-@dataclass
-class ResultadoVerificacionTriple:
-    """Resultado de la verificación triple bit a bit."""
-
-    archivo: str
-    hash_sha256: str
-    conteo_caracteres: int
-    bytes_totales: int
-    bit_a_bit_ok: bool
-    tamano_coherente: bool
-    hash_coherente: bool
-    paralelo: bool = True
-    timestamp: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
-
-    def a_diccionario(self) -> dict[str, Any]:
-        return {
-            "archivo": self.archivo,
-            "hash_sha256": self.hash_sha256,
-            "conteo_caracteres": self.conteo_caracteres,
-            "bytes_totales": self.bytes_totales,
-            "bit_a_bit_ok": self.bit_a_bit_ok,
-            "tamano_coherente": self.tamano_coherente,
-            "hash_coherente": self.hash_coherente,
-            "paralelo": self.paralelo,
-            "timestamp": self.timestamp,
-            "aprobado": self.bit_a_bit_ok and self.tamano_coherente and self.hash_coherente,
-        }
+# ═════════════════════════════════════════════════════════════════════════════════
 
 
 @dataclass
@@ -368,7 +127,6 @@ class ContextoLote:
     def __post_init__(self) -> None:
         self._datos: dict[str, Any] = self._cargar()
         self._metricas: dict[str, Any] = self._cargar_metricas()
-        self._preferencias: dict[str, Any] = self._cargar_preferencias()
 
     def _cargar(self) -> dict[str, Any]:
         if self.ruta.exists():
@@ -380,7 +138,7 @@ class ContextoLote:
             "skills": {},
             "lote": None,
             "fecha": None,
-            "version": "3.0.0",
+            "version": "2.0.0",
         }
 
     def _cargar_metricas(self) -> dict[str, Any]:
@@ -389,15 +147,7 @@ class ContextoLote:
                 return json.loads(METRICAS_LOTE.read_text(encoding="utf-8"))
             except (json.JSONDecodeError, OSError):
                 pass
-        return {"skills": {}, "flujos": {}, "verificaciones_triple": []}
-
-    def _cargar_preferencias(self) -> dict[str, Any]:
-        if PREFERENCIAS_USUARIO.exists():
-            try:
-                return json.loads(PREFERENCIAS_USUARIO.read_text(encoding="utf-8"))
-            except (json.JSONDecodeError, OSError):
-                pass
-        return {"usuarios": {}}
+        return {"skills": {}, "flujos": {}}
 
     def guardar(self) -> None:
         self.ruta.parent.mkdir(parents=True, exist_ok=True)
@@ -408,11 +158,6 @@ class ContextoLote:
         METRICAS_LOTE.parent.mkdir(parents=True, exist_ok=True)
         METRICAS_LOTE.write_text(
             json.dumps(self._metricas, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
-        PREFERENCIAS_USUARIO.parent.mkdir(parents=True, exist_ok=True)
-        PREFERENCIAS_USUARIO.write_text(
-            json.dumps(self._preferencias, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
 
@@ -447,32 +192,13 @@ class ContextoLote:
                 "errores": metrica.errores,
             }
         )
+        # Mantener solo las últimas 50 ejecuciones por skill
         if len(historial) > 50:
             del historial[: len(historial) - 50]
         self.guardar()
 
     def obtener_historial(self, nombre_skill: str) -> list[dict[str, Any]]:
         return self._metricas.get("skills", {}).get(nombre_skill, [])
-
-    def registrar_verificacion_triple(self, resultado: ResultadoVerificacionTriple) -> None:
-        historial = self._metricas.setdefault("verificaciones_triple", [])
-        historial.append(resultado.a_diccionario())
-        if len(historial) > 100:
-            del historial[: len(historial) - 100]
-        self.guardar()
-
-    def obtener_verificaciones_triple(self) -> list[dict[str, Any]]:
-        return self._metricas.get("verificaciones_triple", [])
-
-    def obtener_preferencia_usuario(self, usuario_id: str) -> Optional[PreferenciaUsuario]:
-        datos = self._preferencias.get("usuarios", {}).get(usuario_id)
-        if datos:
-            return PreferenciaUsuario.desde_diccionario(datos)
-        return None
-
-    def guardar_preferencia_usuario(self, usuario_id: str, preferencia: PreferenciaUsuario) -> None:
-        self._preferencias.setdefault("usuarios", {})[usuario_id] = preferencia.a_diccionario()
-        self.guardar()
 
     def establecer_lote(self, nombre_lote: str) -> None:
         self._datos["lote"] = nombre_lote
@@ -483,9 +209,9 @@ class ContextoLote:
         return self._datos.get("lote")
 
 
-# ══════════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════════
 # CIRCUIT BREAKER
-# ══════════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════════
 
 
 class CircuitBreaker:
@@ -499,6 +225,7 @@ class CircuitBreaker:
 
     def puede_ejecutar(self, nombre_skill: str) -> tuple[bool, Optional[str]]:
         ahora = time.time()
+        # Verificar si el circuito está abierto
         if nombre_skill in self._abierto:
             if ahora - self._abierto[nombre_skill] < self.ventana_segundos:
                 return False, f"circuito abierto (fallos recientes)"
@@ -515,6 +242,7 @@ class CircuitBreaker:
         ahora = time.time()
         fallos = self._fallos.setdefault(nombre_skill, [])
         fallos.append(ahora)
+        # Mantener solo fallos dentro de la ventana
         self._fallos[nombre_skill] = [
             t for t in fallos if ahora - t < self.ventana_segundos
         ]
@@ -522,37 +250,33 @@ class CircuitBreaker:
             self._abierto[nombre_skill] = ahora
 
 
-# ══════════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════════
 # CLASE BASE SKILL
-# ══════════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════════
 
 
 class Skill:
-    """Clase base para todas las habilidades de La Bandita (hiper habilidad v3.0).
+    """Clase base para todas las habilidades de La Bandita (hiper habilidad).
 
     Atributos de clase:
         nombre: identificador único de la skill (obligatorio).
         version: versión semántica de la skill.
-        dominio: área temática (ej. 'catalogo', 'publicacion', 'verificacion', 'plataforma').
+        dominio: área temática (ej. 'catalogo', 'publicacion', 'verificacion').
         dependencias: nombres de skills que deben ejecutarse antes.
         schema_entrada: dict JSON Schema para validar kwargs de ejecutar().
         schema_salida: dict JSON Schema para validar el dict de datos devuelto.
         reintentos: número de reintentos ante fallo (default 0).
         tiempo_espera_segundos: segundos entre reintentos (default 1).
-        plataforma: nombre de la plataforma destino (si aplica).
-        nivel_requerido: 'gratis' | 'premium' | 'nitro' | 'business' | None.
     """
 
     nombre: str = "skill-base"
-    version: str = "3.0.0"
+    version: str = "2.0.0"
     dominio: str = "general"
     dependencias: list[str] = field(default_factory=list)
     schema_entrada: Optional[dict[str, Any]] = None
     schema_salida: Optional[dict[str, Any]] = None
     reintentos: int = 0
     tiempo_espera_segundos: float = 1.0
-    plataforma: Optional[str] = None
-    nivel_requerido: Optional[str] = None
 
     def __init__(self, contexto: Optional[ContextoLote] = None):
         self.contexto = contexto or ContextoLote()
@@ -561,6 +285,7 @@ class Skill:
     # ── Contrato de entrada/salida ──────────────────────────────────────────
 
     def _validar_entrada(self, kwargs: dict[str, Any]) -> list[str]:
+        """Valida kwargs contra schema_entrada si jsonschema está disponible."""
         if not self.schema_entrada:
             return []
         if not _HAS_JSONSCHEMA:
@@ -572,6 +297,7 @@ class Skill:
             return [f"entrada inválida: {exc.message}"]
 
     def _validar_salida(self, datos: dict[str, Any]) -> list[str]:
+        """Valida datos de salida contra schema_salida."""
         if not self.schema_salida:
             return []
         if not _HAS_JSONSCHEMA:
@@ -589,20 +315,14 @@ class Skill:
         contenido = json.dumps(datos, sort_keys=True, ensure_ascii=False)
         return hashlib.sha256(contenido.encode("utf-8")).hexdigest()[:16]
 
-    @staticmethod
-    def _hash_archivo(path: Path) -> str:
-        h = hashlib.sha256()
-        with path.open("rb") as f:
-            for bloque in iter(lambda: f.read(65536), b""):
-                h.update(bloque)
-        return h.hexdigest()
-
     # ── API principal ───────────────────────────────────────────────────────
 
     def ejecutar(self, **kwargs) -> ResultadoSkill:
+        """Ejecuta la skill con validación, métricas, reintentos y circuit breaker."""
         inicio = time.time()
         inicio_iso = datetime.now(timezone.utc).isoformat()
 
+        # Validar entrada
         errores_entrada = self._validar_entrada(kwargs)
         if errores_entrada:
             metrica = MetricaSkill(
@@ -623,6 +343,7 @@ class Skill:
                 metrica={"duracion_segundos": metrica.duracion_segundos},
             )
 
+        # Circuit breaker
         puede, motivo = self._circuit_breaker.puede_ejecutar(self.nombre)
         if not puede:
             return ResultadoSkill(
@@ -632,6 +353,7 @@ class Skill:
                 metrica={"circuit_breaker": True},
             )
 
+        # Ejecutar con reintentos
         ultimo_error: Optional[str] = None
         datos: dict[str, Any] = {}
         advertencias: list[str] = []
@@ -643,6 +365,7 @@ class Skill:
                 resultado_raw = self._ejecutar_interno(**kwargs)
 
                 if isinstance(resultado_raw, ResultadoSkill):
+                    # La skill devolvió un ResultadoSkill directamente
                     datos = resultado_raw.datos
                     advertencias = resultado_raw.advertencias
                     exitoso = resultado_raw.exitoso
@@ -662,17 +385,19 @@ class Skill:
                     datos = {"valor": resultado_raw}
                     break
 
-            except Exception as exc:
+            except Exception as exc:  # pragma: no cover - errores de ejecución
                 ultimo_error = f"{type(exc).__name__}: {exc}"
                 if intento < self.reintentos + 1:
                     time.sleep(self.tiempo_espera_segundos * intento)
                 else:
-                    advertencias.append(traceback.format_exc())
+                    traceback_str = traceback.format_exc()
+                    advertencias.append(traceback_str)
 
         fin = time.time()
         duracion = fin - inicio
         exitoso_final = ultimo_error is None
 
+        # Validar salida
         if exitoso_final:
             errores_salida = self._validar_salida(datos)
             if errores_salida:
@@ -717,9 +442,11 @@ class Skill:
         )
 
     def _ejecutar_interno(self, **kwargs) -> Any:
+        """Implementación real de la skill. Sobrescribir en subclases."""
         raise NotImplementedError(f"{self.nombre} no implementa _ejecutar_interno()")
 
     def verificar(self) -> ResultadoSkill:
+        """Verifica que la skill se ejecutó correctamente en el lote actual."""
         datos = self.contexto.obtener_skill(self.nombre)
         historial = self.contexto.obtener_historial(self.nombre)
 
@@ -754,17 +481,14 @@ class Skill:
 
     def resumir(self) -> str:
         deps = f" (deps: {', '.join(self.dependencias)})" if self.dependencias else ""
-        plat = f" [plataforma: {self.plataforma}]" if self.plataforma else ""
-        nivel = f" [nivel: {self.nivel_requerido}]" if self.nivel_requerido else ""
-        return f"{self.nombre} v{self.version} [{self.dominio}]{plat}{nivel}{deps}"
+        return f"{self.nombre} v{self.version} [{self.dominio}]{deps}"
 
     def documento(self) -> str:
+        """Devuelve documentación automática de la skill."""
         lineas = [
             f"# Skill: {self.nombre}",
             f"Versión: {self.version}",
             f"Dominio: {self.dominio}",
-            f"Plataforma: {self.plataforma or 'ninguna'}",
-            f"Nivel requerido: {self.nivel_requerido or 'cualquiera'}",
             f"Dependencias: {', '.join(self.dependencias) or 'ninguna'}",
             f"Reintentos: {self.reintentos}",
             f"Schema de entrada: {'sí' if self.schema_entrada else 'no'}",
@@ -787,920 +511,14 @@ class Skill:
         return "\n".join(lineas)
 
 
-# ══════════════════════════════════════════════════════════════════════════════════
-# SKILLS ESPECÍFICAS POR PLATAFORMA (no métodos huecos ni generalizados)
-# ══════════════════════════════════════════════════════════════════════════════════
-
-
-class SkillPlataformaBase(Skill):
-    """Clase base para skills específicas de plataforma de publicación.
-
-    Proporciona:
-    - Consulta de límites reales 2026 por plataforma y nivel.
-    - Validación de longitud contra el mínimo obligatorio de La Bandita.
-    - Cálculo de infraestructura 20/10 (densidad de evidencia, enlaces verificados,
-      secciones estructuradas, citas de fuente primaria).
-    - Adaptación de tono y formato según preferencias de usuario.
-    """
-
-    def __init__(self, contexto: Optional[ContextoLote] = None):
-        super().__init__(contexto=contexto)
-        self.plataforma = self.plataforma or "general"
-        self.nivel_requerido = self.nivel_requerido or "gratis"
-
-    def limite_para(self, tipo_contenido: str, nivel: Optional[str] = None) -> dict[str, Any]:
-        """Devuelve el límite real de la plataforma para un tipo de contenido."""
-        return obtener_limite_plataforma(
-            self.plataforma,
-            nivel or self.nivel_requerido,
-            tipo_contenido,
-        )
-
-    def validar_longitud_pieza(
-        self,
-        texto: str,
-        tipo_contenido: str = "post",
-        nivel: Optional[str] = None,
-        minimo_obligatorio: Optional[int] = None,
-    ) -> dict[str, Any]:
-        """Valida que un texto cumple el límite de plataforma y el mínimo obligatorio."""
-        limite = self.limite_para(tipo_contenido, nivel)
-        largo = len(texto)
-        minimo = minimo_obligatorio or MINIMO_CARACTERES_PIEZA_FACEBOOK
-        dentro_limite = largo <= limite["limite"]
-        cumple_minimo = largo >= minimo
-        return {
-            "plataforma": self.plataforma,
-            "nivel": nivel or self.nivel_requerido,
-            "tipo_contenido": tipo_contenido,
-            "limite_plataforma": limite["limite"],
-            "visible_antes_truncar": limite["visible_antes_truncar"],
-            "largo_actual": largo,
-            "dentro_limite_plataforma": dentro_limite,
-            "cumple_minimo_obligatorio": cumple_minimo,
-            "minimo_obligatorio": minimo,
-            "sobrante_hasta_limite": max(0, limite["limite"] - largo),
-            "infraestructura_20_10": self._evaluar_infraestructura(texto),
-        }
-
-    def _evaluar_infraestructura(self, texto: str) -> dict[str, Any]:
-        """Evalúa la infraestructura de una publicación (objetivo 20/10)."""
-        secciones = texto.count("\n## ") + texto.count("\n### ")
-        enlaces = texto.count("http://") + texto.count("https://")
-        citas_fuente = texto.count("fuente primaria") + texto.count("repositorio oficial")
-        lineas = texto.count("\n") + 1
-        densidad_evidencia = min(10, (enlaces + citas_fuente) / max(1, lineas) * 50)
-        estructura = min(10, secciones / 5 * 10)
-        puntuacion = round((densidad_evidencia + estructura) / 2, 1)
-        return {
-            "secciones_estructuradas": secciones,
-            "enlaces_verificados": enlaces,
-            "citas_fuente_primaria": citas_fuente,
-            "lineas_totales": lineas,
-            "densidad_evidencia_sobre_10": round(densidad_evidencia, 1),
-            "estructura_sobre_10": round(estructura, 1),
-            "infraestructura_sobre_20": puntuacion,
-            "objetivo_20_10": puntuacion >= 18.0,
-        }
-
-    def adaptar_a_preferencias(
-        self,
-        texto: str,
-        preferencia: Optional[PreferenciaUsuario],
-    ) -> dict[str, Any]:
-        """Adapta tono, formato y longitud según preferencias de usuario."""
-        if not preferencia:
-            return {"texto": texto, "adaptado": False, "motivo": "sin preferencias registradas"}
-        adaptado = texto
-        notas = []
-        if preferencia.tono_preferido == "tecnico":
-            notas.append("tono ajustado a técnico (especificaciones, versiones, hashes)")
-        elif preferencia.tono_preferido == "narrativo":
-            notas.append("tono ajustado a narrativo (historia, contexto, evolución)")
-        elif preferencia.tono_preferido == "directo":
-            notas.append("tono ajustado a directo (hechos primeros, sin rodeos)")
-        elif preferencia.tono_preferido == "educativo":
-            notas.append("tono ajustado a educativo (tutorial, paso a paso, conceptos)")
-        if preferencia.formato_preferido == "lista":
-            notas.append("formato ajustado a lista viñeteada")
-        elif preferencia.formato_preferido == "hilos":
-            notas.append("formato ajustado a hilo numerado")
-        elif preferencia.formato_preferido == "embed":
-            notas.append("formato ajustado a bloque tipo embed")
-        return {
-            "texto": adaptado,
-            "adaptado": True,
-            "plataforma": preferencia.plataforma,
-            "nivel": preferencia.nivel,
-            "tono_aplicado": preferencia.tono_preferido,
-            "formato_aplicado": preferencia.formato_preferido,
-            "notas": notas,
-        }
-
-
-@registrar_skill
-class SkillFacebook(SkillPlataformaBase):
-    """Publicación para Facebook (dominicano-ES). Mínimo 45.000 caracteres por pieza."""
-
-    nombre = "facebook"
-    version = "3.0.0"
-    dominio = "plataforma"
-    plataforma = "facebook"
-    nivel_requerido = "gratis"
-    dependencias: list[str] = []
-
-    schema_entrada = {
-        "type": "object",
-        "properties": {
-            "pieza": {"type": "string"},
-            "texto": {"type": "string"},
-            "usuario_id": {"type": "string"},
-        },
-        "required": ["pieza", "texto"],
-    }
-
-    def _ejecutar_interno(self, **kwargs) -> dict[str, Any]:
-        pieza = kwargs["pieza"]
-        texto = kwargs["texto"]
-        usuario_id = kwargs.get("usuario_id")
-        preferencia = None
-        if usuario_id:
-            preferencia = self.contexto.obtener_preferencia_usuario(usuario_id)
-
-        validacion = self.validar_longitud_pieza(
-            texto, tipo_contenido="post", minimo_obligatorio=MINIMO_CARACTERES_PIEZA_FACEBOOK
-        )
-        adaptacion = self.adaptar_a_preferencias(texto, preferencia)
-
-        exitoso = (
-            validacion["dentro_limite_plataforma"]
-            and validacion["cumple_minimo_obligatorio"]
-            and validacion["infraestructura_20_10"]["objetivo_20_10"]
-        )
-
-        return {
-            "pieza": pieza,
-            "plataforma": "facebook",
-            "texto": adaptacion["texto"],
-            "validacion": validacion,
-            "adaptacion": adaptacion,
-            "exitoso": exitoso,
-            "listo_para_publicar": exitoso,
-        }
-
-
-@registrar_skill
-class SkillTelegram(SkillPlataformaBase):
-    """Publicación para Telegram (canal/mensaje). Límite 4.096 (gratis) / 8.192 (Premium) / 32.768 (Rich Text)."""
-
-    nombre = "telegram"
-    version = "3.0.0"
-    dominio = "plataforma"
-    plataforma = "telegram"
-    nivel_requerido = "gratis"
-    dependencias: list[str] = []
-
-    schema_entrada = {
-        "type": "object",
-        "properties": {
-            "pieza": {"type": "string"},
-            "texto": {"type": "string"},
-            "usuario_id": {"type": "string"},
-            "usar_rich_text": {"type": "boolean"},
-        },
-        "required": ["pieza", "texto"],
-    }
-
-    def _ejecutar_interno(self, **kwargs) -> dict[str, Any]:
-        pieza = kwargs["pieza"]
-        texto = kwargs["texto"]
-        usuario_id = kwargs.get("usuario_id")
-        usar_rich_text = kwargs.get("usar_rich_text", False)
-        preferencia = None
-        if usuario_id:
-            preferencia = self.contexto.obtener_preferencia_usuario(usuario_id)
-
-        nivel = "premium" if usar_rich_text else "gratis"
-        tipo = "rich_text_editor" if usar_rich_text else "mensaje"
-        validacion = self.validar_longitud_pieza(texto, tipo_contenido=tipo, nivel=nivel)
-        adaptacion = self.adaptar_a_preferencias(texto, preferencia)
-
-        exitoso = validacion["dentro_limite_plataforma"] and validacion["cumple_minimo_obligatorio"]
-
-        return {
-            "pieza": pieza,
-            "plataforma": "telegram",
-            "nivel_usado": nivel,
-            "tipo_contenido": tipo,
-            "texto": adaptacion["texto"],
-            "validacion": validacion,
-            "adaptacion": adaptacion,
-            "exitoso": exitoso,
-            "listo_para_publicar": exitoso,
-        }
-
-
-@registrar_skill
-class SkillWhatsApp(SkillPlataformaBase):
-    """Publicación para WhatsApp (consumidor 65.536 / Business API 4.096 / template 1.024)."""
-
-    nombre = "whatsapp"
-    version = "3.0.0"
-    dominio = "plataforma"
-    plataforma = "whatsapp"
-    nivel_requerido = "gratis"
-    dependencias: list[str] = []
-
-    schema_entrada = {
-        "type": "object",
-        "properties": {
-            "pieza": {"type": "string"},
-            "texto": {"type": "string"},
-            "usuario_id": {"type": "string"},
-            "modo": {"type": "string", "enum": ["consumidor", "business_api", "template"]},
-        },
-        "required": ["pieza", "texto"],
-    }
-
-    def _ejecutar_interno(self, **kwargs) -> dict[str, Any]:
-        pieza = kwargs["pieza"]
-        texto = kwargs["texto"]
-        usuario_id = kwargs.get("usuario_id")
-        modo = kwargs.get("modo", "consumidor")
-        preferencia = None
-        if usuario_id:
-            preferencia = self.contexto.obtener_preferencia_usuario(usuario_id)
-
-        nivel = "gratis" if modo == "consumidor" else "business"
-        tipo = {
-            "consumidor": "mensaje_consumidor",
-            "business_api": "mensaje_api",
-            "template": "template_cuerpo",
-        }.get(modo, "mensaje_consumidor")
-
-        validacion = self.validar_longitud_pieza(texto, tipo_contenido=tipo, nivel=nivel)
-        adaptacion = self.adaptar_a_preferencias(texto, preferencia)
-
-        exitoso = validacion["dentro_limite_plataforma"] and validacion["cumple_minimo_obligatorio"]
-
-        return {
-            "pieza": pieza,
-            "plataforma": "whatsapp",
-            "modo": modo,
-            "texto": adaptacion["texto"],
-            "validacion": validacion,
-            "adaptacion": adaptacion,
-            "exitoso": exitoso,
-            "listo_para_publicar": exitoso,
-        }
-
-
-@registrar_skill
-class SkillInstagram(SkillPlataformaBase):
-    """Publicación para Instagram (caption 2.200, comentario 2.200, bio 150, DM 1.000)."""
-
-    nombre = "instagram"
-    version = "3.0.0"
-    dominio = "plataforma"
-    plataforma = "instagram"
-    nivel_requerido = "gratis"
-    dependencias: list[str] = []
-
-    schema_entrada = {
-        "type": "object",
-        "properties": {
-            "pieza": {"type": "string"},
-            "texto": {"type": "string"},
-            "usuario_id": {"type": "string"},
-            "tipo_contenido": {"type": "string", "enum": ["caption", "comentario", "bio", "dm"]},
-        },
-        "required": ["pieza", "texto"],
-    }
-
-    def _ejecutar_interno(self, **kwargs) -> dict[str, Any]:
-        pieza = kwargs["pieza"]
-        texto = kwargs["texto"]
-        usuario_id = kwargs.get("usuario_id")
-        tipo_contenido = kwargs.get("tipo_contenido", "caption")
-        preferencia = None
-        if usuario_id:
-            preferencia = self.contexto.obtener_preferencia_usuario(usuario_id)
-
-        validacion = self.validar_longitud_pieza(texto, tipo_contenido=tipo_contenido)
-        adaptacion = self.adaptar_a_preferencias(texto, preferencia)
-
-        exitoso = validacion["dentro_limite_plataforma"] and validacion["cumple_minimo_obligatorio"]
-
-        return {
-            "pieza": pieza,
-            "plataforma": "instagram",
-            "tipo_contenido": tipo_contenido,
-            "texto": adaptacion["texto"],
-            "validacion": validacion,
-            "adaptacion": adaptacion,
-            "exitoso": exitoso,
-            "listo_para_publicar": exitoso,
-        }
-
-
-@registrar_skill
-class SkillTwitterX(SkillPlataformaBase):
-    """Publicación para X/Twitter (280 gratis / 25.000 Premium por post)."""
-
-    nombre = "twitter_x"
-    version = "3.0.0"
-    dominio = "plataforma"
-    plataforma = "twitter_x"
-    nivel_requerido = "gratis"
-    dependencias: list[str] = []
-
-    schema_entrada = {
-        "type": "object",
-        "properties": {
-            "pieza": {"type": "string"},
-            "texto": {"type": "string"},
-            "usuario_id": {"type": "string"},
-            "es_hilo": {"type": "boolean"},
-        },
-        "required": ["pieza", "texto"],
-    }
-
-    def _ejecutar_interno(self, **kwargs) -> dict[str, Any]:
-        pieza = kwargs["pieza"]
-        texto = kwargs["texto"]
-        usuario_id = kwargs.get("usuario_id")
-        es_hilo = kwargs.get("es_hilo", False)
-        preferencia = None
-        if usuario_id:
-            preferencia = self.contexto.obtener_preferencia_usuario(usuario_id)
-
-        nivel = "premium" if len(texto) > 280 else "gratis"
-        validacion = self.validar_longitud_pieza(texto, tipo_contenido="post", nivel=nivel)
-        adaptacion = self.adaptar_a_preferencias(texto, preferencia)
-
-        exitoso = validacion["dentro_limite_plataforma"] and validacion["cumple_minimo_obligatorio"]
-
-        return {
-            "pieza": pieza,
-            "plataforma": "twitter_x",
-            "nivel_usado": nivel,
-            "es_hilo": es_hilo,
-            "texto": adaptacion["texto"],
-            "validacion": validacion,
-            "adaptacion": adaptacion,
-            "exitoso": exitoso,
-            "listo_para_publicar": exitoso,
-        }
-
-
-@registrar_skill
-class SkillDiscord(SkillPlataformaBase):
-    """Publicación para Discord (2.000 gratis / 4.000 Nitro por mensaje; embeds hasta 6.000)."""
-
-    nombre = "discord"
-    version = "3.0.0"
-    dominio = "plataforma"
-    plataforma = "discord"
-    nivel_requerido = "gratis"
-    dependencias: list[str] = []
-
-    schema_entrada = {
-        "type": "object",
-        "properties": {
-            "pieza": {"type": "string"},
-            "texto": {"type": "string"},
-            "usuario_id": {"type": "string"},
-            "usar_embed": {"type": "boolean"},
-            "nitro": {"type": "boolean"},
-        },
-        "required": ["pieza", "texto"],
-    }
-
-    def _ejecutar_interno(self, **kwargs) -> dict[str, Any]:
-        pieza = kwargs["pieza"]
-        texto = kwargs["texto"]
-        usuario_id = kwargs.get("usuario_id")
-        usar_embed = kwargs.get("usar_embed", False)
-        nitro = kwargs.get("nitro", False)
-        preferencia = None
-        if usuario_id:
-            preferencia = self.contexto.obtener_preferencia_usuario(usuario_id)
-
-        nivel = "nitro" if nitro else "gratis"
-        tipo = "embed_descripcion" if usar_embed else "mensaje"
-        validacion = self.validar_longitud_pieza(texto, tipo_contenido=tipo, nivel=nivel)
-        adaptacion = self.adaptar_a_preferencias(texto, preferencia)
-
-        exitoso = validacion["dentro_limite_plataforma"] and validacion["cumple_minimo_obligatorio"]
-
-        return {
-            "pieza": pieza,
-            "plataforma": "discord",
-            "nivel_usado": nivel,
-            "usar_embed": usar_embed,
-            "texto": adaptacion["texto"],
-            "validacion": validacion,
-            "adaptacion": adaptacion,
-            "exitoso": exitoso,
-            "listo_para_publicar": exitoso,
-        }
-
-
-@registrar_skill
-class SkillForoDesarrolladores(SkillPlataformaBase):
-    """Publicación para foros de desarrolladores (Reddit 40.000/80.000 Premium, comentarios 10.000)."""
-
-    nombre = "foro_desarrolladores"
-    version = "3.0.0"
-    dominio = "plataforma"
-    plataforma = "foro_desarrolladores"
-    nivel_requerido = "gratis"
-    dependencias: list[str] = []
-
-    schema_entrada = {
-        "type": "object",
-        "properties": {
-            "pieza": {"type": "string"},
-            "texto": {"type": "string"},
-            "usuario_id": {"type": "string"},
-            "tipo_contenido": {"type": "string", "enum": ["titulo", "cuerpo", "comentario"]},
-        },
-        "required": ["pieza", "texto"],
-    }
-
-    def _ejecutar_interno(self, **kwargs) -> dict[str, Any]:
-        pieza = kwargs["pieza"]
-        texto = kwargs["texto"]
-        usuario_id = kwargs.get("usuario_id")
-        tipo_contenido = kwargs.get("tipo_contenido", "cuerpo")
-        preferencia = None
-        if usuario_id:
-            preferencia = self.contexto.obtener_preferencia_usuario(usuario_id)
-
-        nivel = self.nivel_requerido
-        validacion = self.validar_longitud_pieza(texto, tipo_contenido=tipo_contenido, nivel=nivel)
-        adaptacion = self.adaptar_a_preferencias(texto, preferencia)
-
-        exitoso = validacion["dentro_limite_plataforma"] and validacion["cumple_minimo_obligatorio"]
-
-        return {
-            "pieza": pieza,
-            "plataforma": "foro_desarrolladores",
-            "tipo_contenido": tipo_contenido,
-            "texto": adaptacion["texto"],
-            "validacion": validacion,
-            "adaptacion": adaptacion,
-            "exitoso": exitoso,
-            "listo_para_publicar": exitoso,
-        }
-
-
-# ══════════════════════════════════════════════════════════════════════════════════
-# SKILL ADAPTATIVA (selecciona plataforma óptima según contexto y preferencias)
-# ══════════════════════════════════════════════════════════════════════════════════
-
-
-@registrar_skill
-class SkillPublicacionAdaptativa(Skill):
-    """Selecciona la plataforma óptima para una pieza según contexto y preferencias de usuario.
-
-    Evalúa todos los límites de plataforma, el mínimo obligatorio de La Bandita
-    (45.000 caracteres Facebook) y la preferencia histórica del usuario para
-    decidir dónde publicar y con qué formato.
-    """
-
-    nombre = "publicacion-adaptativa"
-    version = "3.0.0"
-    dominio = "plataforma"
-    dependencias: list[str] = []
-
-    schema_entrada = {
-        "type": "object",
-        "properties": {
-            "pieza": {"type": "string"},
-            "texto": {"type": "string"},
-            "usuario_id": {"type": "string"},
-            "plataformas_candidatas": {
-                "type": "array",
-                "items": {"type": "string"},
-                "default": ["facebook", "telegram", "whatsapp", "instagram", "twitter_x", "discord", "foro_desarrolladores"],
-            },
-        },
-        "required": ["pieza", "texto"],
-    }
-
-    def _ejecutar_interno(self, **kwargs) -> dict[str, Any]:
-        pieza = kwargs["pieza"]
-        texto = kwargs["texto"]
-        usuario_id = kwargs.get("usuario_id")
-        candidatas = kwargs.get(
-            "plataformas_candidatas",
-            ["facebook", "telegram", "whatsapp", "instagram", "twitter_x", "discord", "foro_desarrolladores"],
-        )
-
-        preferencia = None
-        if usuario_id:
-            preferencia = self.contexto.obtener_preferencia_usuario(usuario_id)
-
-        evaluaciones: list[dict[str, Any]] = []
-        for nombre_plataforma in candidatas:
-            cls = obtener_skill(nombre_plataforma)
-            if not cls:
-                continue
-            instancia = cls(contexto=self.contexto)
-            if usuario_id and preferencia and preferencia.plataforma == nombre_plataforma:
-                nivel = preferencia.nivel
-            else:
-                nivel = instancia.nivel_requerido
-
-            validacion = instancia.validar_longitud_pieza(
-                texto,
-                tipo_contenido="post" if nombre_plataforma != "foro_desarrolladores" else "cuerpo",
-                nivel=nivel,
-            )
-            evaluaciones.append(
-                {
-                    "plataforma": nombre_plataforma,
-                    "nivel": nivel,
-                    "dentro_limite": validacion["dentro_limite_plataforma"],
-                    "cumple_minimo_obligatorio": validacion["cumple_minimo_obligatorio"],
-                    "infraestructura": validacion["infraestructura_20_10"],
-                    "limite": validacion["limite_plataforma"],
-                    "largo": validacion["largo_actual"],
-                    "sobrante": validacion["sobrante_hasta_limite"],
-                }
-            )
-
-        # Seleccionar la mejor: prioridad Facebook (mínimo 45.000), luego la que cumpla todo
-        facebook_ok = [e for e in evaluaciones if e["plataforma"] == "facebook" and e["dentro_limite"] and e["cumple_minimo_obligatorio"]]
-        cualquier_ok = [e for e in evaluaciones if e["dentro_limite"] and e["cumple_minimo_obligatorio"]]
-
-        seleccionada = None
-        if facebook_ok:
-            seleccionada = facebook_ok[0]
-        elif cualquier_ok:
-            # Elegir la con mejor infraestructura
-            seleccionada = max(cualquier_ok, key=lambda e: e["infraestructura"]["infraestructura_sobre_20"])
-        else:
-            # Ninguna cumple: elegir la que más se acerque
-            seleccionada = max(evaluaciones, key=lambda e: e["infraestructura"]["infraestructura_sobre_20"]) if evaluaciones else None
-
-        adaptacion = {}
-        if preferencia:
-            adaptacion = {
-                "tono_aplicado": preferencia.tono_preferido,
-                "formato_aplicado": preferencia.formato_preferido,
-                "plataforma_preferida_usuario": preferencia.plataforma,
-            }
-
-        return {
-            "pieza": pieza,
-            "evaluaciones": evaluaciones,
-            "seleccionada": seleccionada,
-            "adaptacion": adaptacion,
-            "minimo_facebook": MINIMO_CARACTERES_PIEZA_FACEBOOK,
-            "exitoso": seleccionada is not None and seleccionada["dentro_limite"] and seleccionada["cumple_minimo_obligatorio"],
-        }
-
-
-# ══════════════════════════════════════════════════════════════════════════════════
-# SKILL DE VERIFICACIÓN TRIPLE BIT A BIT EN PARALELO EXTREMO
-# ══════════════════════════════════════════════════════════════════════════════════
-
-
-@registrar_skill
-class SkillVerificacionTripleBit(Skill):
-    """Verificación triple bit a bit en paralelo extremo.
-
-    Ejecuta concurrentemente (en hilos separados):
-    1. Hash SHA-256 del archivo.
-    2. Conteo exacto de caracteres.
-    3. Comparación byte a byte contra una referencia (si se proporciona).
-    """
-
-    nombre = "verificacion-triple-bit"
-    version = "3.0.0"
-    dominio = "verificacion"
-    dependencias: list[str] = []
-    reintentos = 1
-    tiempo_espera_segundos = 0.5
-
-    schema_entrada = {
-        "type": "object",
-        "properties": {
-            "archivo": {"type": "string"},
-            "referencia": {"type": "string"},
-            "exigir_minimo_caracteres": {"type": "integer", "default": MINIMO_CARACTERES_PIEZA_FACEBOOK},
-        },
-        "required": ["archivo"],
-    }
-
-    def _hash_sha256(self, path: Path) -> str:
-        return Skill._hash_archivo(path)
-
-    def _conteo_caracteres(self, path: Path) -> int:
-        return len(path.read_text(encoding="utf-8"))
-
-    def _bytes_totales(self, path: Path) -> int:
-        return path.stat().st_size
-
-    def _comparar_bit_a_bit(self, path: Path, referencia: Optional[str]) -> bool:
-        if not referencia:
-            return True  # sin referencia, se asume coherente
-        ref_path = Path(referencia)
-        if not ref_path.exists():
-            return False
-        with path.open("rb") as a, ref_path.open("rb") as b:
-            return a.read() == b.read()
-
-    def _ejecutar_interno(self, **kwargs) -> dict[str, Any]:
-        archivo = Path(kwargs["archivo"])
-        referencia = kwargs.get("referencia")
-        minimo = kwargs.get("exigir_minimo_caracteres", MINIMO_CARACTERES_PIEZA_FACEBOOK)
-
-        if not archivo.exists():
-            return {
-                "archivo": str(archivo),
-                "exitoso": False,
-                "error": f"archivo no encontrado: {archivo}",
-            }
-
-        resultados: dict[str, Any] = {}
-        con_error = False
-
-        with ThreadPoolExecutor(max_workers=3) as executor:
-            futuro_hash = executor.submit(self._hash_sha256, archivo)
-            futuro_conteo = executor.submit(self._conteo_caracteres, archivo)
-            futuro_bytes = executor.submit(self._bytes_totales, archivo)
-            futuro_bit = executor.submit(self._comparar_bit_a_bit, archivo, referencia)
-
-            for futuro in as_completed([futuro_hash, futuro_conteo, futuro_bytes, futuro_bit]):
-                try:
-                    resultado = futuro.result()
-                except Exception as exc:
-                    con_error = True
-                    resultados[type(futuro).__name__] = {"error": str(exc)}
-                    continue
-
-            # Recolectar en orden determinista
-            hash_sha256 = futuro_hash.result()
-            conteo = futuro_conteo.result()
-            bytes_tot = futuro_bytes.result()
-            bit_ok = futuro_bit.result()
-
-        tamano_coherente = bytes_tot > 0
-        hash_coherente = len(hash_sha256) == 64
-        bit_a_bit_ok = bit_ok
-
-        verificacion = ResultadoVerificacionTriple(
-            archivo=str(archivo),
-            hash_sha256=hash_sha256,
-            conteo_caracteres=conteo,
-            bytes_totales=bytes_tot,
-            bit_a_bit_ok=bit_a_bit_ok,
-            tamano_coherente=tamano_coherente,
-            hash_coherente=hash_coherente,
-            paralelo=True,
-        )
-        self.contexto.registrar_verificacion_triple(verificacion)
-
-        aprobado = (
-            verificacion.aprobado
-            and conteo >= minimo
-            and not con_error
-        )
-
-        return {
-            "archivo": str(archivo),
-            "verificacion": verificacion.a_diccionario(),
-            "conteo_caracteres": conteo,
-            "bytes_totales": bytes_tot,
-            "hash_sha256": hash_sha256,
-            "bit_a_bit_ok": bit_a_bit_ok,
-            "tamano_coherente": tamano_coherente,
-            "hash_coherente": hash_coherente,
-            "cumple_minimo_facebook": conteo >= minimo,
-            "paralelo_extremo": True,
-            "exitoso": aprobado,
-            "aprobado": aprobado,
-        }
-
-
-# ══════════════════════════════════════════════════════════════════════════════════
-# SKILL DE GENERACIÓN DE PIEZAS LARGAS (infraestructura 20/10)
-# ══════════════════════════════════════════════════════════════════════════════════
-
-
-@registrar_skill
-class SkillGenerarPiezaLarga(Skill):
-    """Genera una pieza de publicación larga (≥45.000 caracteres Facebook) con
-    infraestructura 20/10: secciones estructuradas, enlaces verificados, citas de
-    fuente primaria, tono adaptable y formato por plataforma."""
-
-    nombre = "generar-pieza-larga"
-    version = "3.0.0"
-    dominio = "publicacion"
-    dependencias: list[str] = []
-
-    schema_entrada = {
-        "type": "object",
-        "properties": {
-            "numero_pieza": {"type": "string"},
-            "titulo": {"type": "string"},
-            "tema": {"type": "string"},
-            "canal": {"type": "string", "default": "facebook"},
-            "usuario_id": {"type": "string"},
-            "tono": {"type": "string", "default": "educativo"},
-        },
-        "required": ["numero_pieza", "titulo", "tema"],
-    }
-
-    def _ejecutar_interno(self, **kwargs) -> dict[str, Any]:
-        numero = kwargs["numero_pieza"]
-        titulo = kwargs["titulo"]
-        tema = kwargs["tema"]
-        canal = kwargs.get("canal", "facebook")
-        usuario_id = kwargs.get("usuario_id")
-        tono = kwargs.get("tono", "educativo")
-
-        preferencia = None
-        if usuario_id:
-            preferencia = self.contexto.obtener_preferencia_usuario(usuario_id)
-            if preferencia:
-                tono = preferencia.tono_preferido
-
-        texto = self._construir_pieza(
-            numero=numero,
-            titulo=titulo,
-            tema=tema,
-            canal=canal,
-            tono=tono,
-        )
-
-        # Verificar longitud mínima
-        largo = len(texto)
-        cumple = largo >= MINIMO_CARACTERES_PIEZA_FACEBOOK
-
-        return {
-            "numero_pieza": numero,
-            "titulo": titulo,
-            "tema": tema,
-            "canal": canal,
-            "tono": tono,
-            "texto": texto,
-            "largo_caracteres": largo,
-            "cumple_minimo_facebook": cumple,
-            "lineas": texto.count("\n") + 1,
-            "exitoso": cumple,
-        }
-
-    def _construir_pieza(
-        self,
-        numero: str,
-        titulo: str,
-        tema: str,
-        canal: str,
-        tono: str,
-    ) -> str:
-        """Construye el cuerpo completo de una pieza con infraestructura 20/10."""
-        lineas: list[str] = []
-        lineas.append(f"*{titulo} · La Bandita · {datetime.now(timezone.utc).strftime('%d de %B de %Y')} · {canal}*")
-        lineas.append("")
-        lineas.append("=" * 70)
-        lineas.append("")
-
-        # Sección 1: Resumen ejecutivo
-        lineas.append("## 1 · Resumen ejecutivo")
-        lineas.append("")
-        lineas.append(
-            f"Esta pieza número {numero} de La Bandita aborda el tema '{tema}' desde la perspectiva "
-            f"de las aplicaciones de código abierto para Android, con enfoque en manga, anime y novelas "
-            f"ligeras. Cada dato citado se ha medido contra su repositorio oficial de GitHub, su API de "
-            f"releases y su documentación de fuente primaria. Ningún paquete se aloja aquí; solo se "
-            f"enlaza a repositorios verificados."
-        )
-        lineas.append("")
-        lineas.append("-" * 70)
-        lineas.append("")
-
-        # Sección 2: Contexto y por qué importa
-        lineas.append("## 2 · Contexto: por qué este tema importa hoy")
-        lineas.append("")
-        lineas.append(
-            f"El ecosistema de lectores de manga, anime y novelas ligeras en Android ha cambiado "
-            f"drásticamente en 2026. Cierres permanentes, dominios clon y migraciones de usuarios han "
-            f"hecho que la comunidad busque alternativas estables, de código abierto y sin dependencias "
-            f"de root. Esta pieza documenta el estado actual a fecha de hoy, con versiones, hashes y "
-            f"fechas de corte verificadas."
-        )
-        lineas.append("")
-        lineas.append("-" * 70)
-        lineas.append("")
-
-        # Sección 3: Métricas medidas (tabla de recursos)
-        lineas.append("## 3 · Recursos medidos (fuente primaria: GitHub API)")
-        lineas.append("")
-        lineas.append("| Recurso | Repositorio | Licencia | Último push | Estrellas | Huella | Estado |")
-        lineas.append("|---------|-------------|----------|-------------|-----------|--------|--------|")
-        # Tabla simulada con datos realistas (el usuario debe rellenar con datos reales del catálogo)
-        for i in range(1, 11):
-            lineas.append(
-                f"| Recurso {i:02d} | dueno--repo-{i:02d} | MIT/Apache-2.0/GPL-3.0 | 2026-11-0{i} | ★{i*100} | sha256:... | vivo |"
-            )
-        lineas.append("")
-        lineas.append("*Total de recursos medidos: 10 (ejemplo; reemplazar con datos reales del catálogo).*")
-        lineas.append("")
-        lineas.append("-" * 70)
-        lineas.append("")
-
-        # Sección 4: Análisis profundo por tono
-        lineas.append(f"## 4 · Análisis profundo ({tono})")
-        lineas.append("")
-        if tono == "tecnico":
-            lineas.append(
-                "Desde el punto de vista técnico, cada aplicación se evalúa por: arquitectura de "
-                "extensiones, sistema de caché, parsers de sitios fuente, firma de releases, verificación "
-                "de checksums SHA-256, y compatibilidad con Android 8+ sin root."
-            )
-        elif tono == "narrativo":
-            lineas.append(
-                "Detrás de cada aplicación hay una historia de desarrolladores que eligen el código "
-                "abierto frente al control corporativo. Esta pieza cuenta cómo esas decisiones afectan "
-                "directamente a quien lee manga en su teléfono cada noche."
-            )
-        elif tono == "directo":
-            lineas.append(
-                "Hechos: las versiones citadas están confirmadas contra repositorios oficiales. "
-                "Sin especulaciones. Sin enlaces a espejos. Sin paquetes alojados."
-            )
-        elif tono == "educativo":
-            lineas.append(
-                "Si eres nuevo en este ecosistema, esta sección te guía paso a paso: cómo instalar una "
-                "extensión, cómo verificar la firma de una release, cómo migrar tu biblioteca de un lector "
-                "a otro sin perder tu historial."
-            )
-        lineas.append("")
-        lineas.append("-" * 70)
-        lineas.append("")
-
-        # Sección 5: Comparativa de plataformas de publicación
-        lineas.append("## 5 · Infraestructura de publicación (20/10)")
-        lineas.append("")
-        lineas.append("Esta pieza está diseñada para superar el mínimo obligatorio de 45.000 caracteres "
-                      "en Facebook y las 100 líneas de comentario, manteniendo infraestructura 20/10: "
-                      "secciones estructuradas, enlaces a fuente primaria, citas verificadas y densidad "
-                      "de evidencia alta.")
-        lineas.append("")
-        lineas.append("-" * 70)
-        lineas.append("")
-
-        # Sección 6: Recomendaciones prácticas
-        lineas.append("## 6 · Recomendaciones prácticas para el lector")
-        lineas.append("")
-        lineas.append("1. Verifica siempre la huella SHA-256 antes de instalar cualquier APK.")
-        lineas.append("2. Usa solo extensiones instaladas por ti; no importes fuentes desconocidas.")
-        lineas.append("3. Mantén una copia de seguridad de tu biblioteca en formato local.")
-        lineas.append("4. Consulta el repositorio oficial antes de confiar en dominios clon.")
-        lineas.append("5. Reporta cualquier anomalía en el issue tracker del proyecto original.")
-        lineas.append("")
-        lineas.append("-" * 70)
-        lineas.append("")
-
-        # Sección 7: Cierre y fuentes
-        lineas.append("## 7 · Cierre y fuentes verificadas")
-        lineas.append("")
-        lineas.append("Cada versión, fecha y hash citado en esta pieza fue confirmado contra el repositorio "
-                      "oficial o la release de GitHub antes de la fecha de corte de esta publicación. "
-                      "Las fechas de corte y los números de versión pueden consultarse en los enlaces de "
-                      "la sección anterior.")
-        lineas.append("")
-        lineas.append("Fuentes:")
-        lineas.append("- https://github.com/mihonapp/mihon (Mihon v0.21.3, 26 oct 2026)")
-        lineas.append("- https://github.com/komikku-app/komikku (Komikku v1.14.1, 17 jul 2026)")
-        lineas.append("- https://github.com/nekomangaorg/Neko (Neko, actualizado 7 nov 2026)")
-        lineas.append("- https://github.com/AppFuton/Futon (Futon, fork de Kotatsu)")
-        lineas.append("- https://github.com/Spyou/Zangetsu (Zangetsu v2.3.2, GPL-3.0)")
-        lineas.append("- https://github.com/Kototoro-app/Kototoro (v2.3.12, 7 nov 2026)")
-        lineas.append("- https://github.com/Kototoro-app/Kototoro-Nightly (nightly-20261106)")
-        lineas.append("")
-        lineas.append("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-        lineas.append("*La Bandita informa a partir de fuentes fechadas.*")
-        lineas.append("")
-        lineas.append("─" * 70)
-        lineas.append("")
-        lineas.append("*Nota de La Bandita: esta pieza cumple el mínimo obligatorio de 45.000 caracteres "
-                      "para publicaciones de Facebook y las 100 líneas de comentario, con infraestructura "
-                      "20/10. Ningún paquete se aloja aquí; solo enlaces a repositorios de código abierto.*")
-
-        return "\n".join(lineas)
-
-
-# ══════════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════════
 # ORQUESTADOR DE FLUJOS
-# ══════════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════════
 
 
-def _resolver_orden(skills: list[type[Skill]]) -> list[type[Skill]]:
+def _resolver_orden(
+    skills: list[type[Skill]],
+) -> list[type[Skill]]:
     """Resuelve el orden de ejecución respetando dependencias (topological sort)."""
     nombres = {s.nombre for s in skills}
     visitado: set[str] = set()
@@ -1711,12 +529,16 @@ def _resolver_orden(skills: list[type[Skill]]) -> list[type[Skill]]:
         if cls.nombre in visitado:
             return
         if cls.nombre in temp:
-            raise ValueError(f"dependencia circular detectada en {cls.nombre}")
+            raise ValueError(
+                f"dependencia circular detectada en {cls.nombre}"
+            )
         temp.add(cls.nombre)
         for dep_nombre in cls.dependencias:
             dep_cls = obtener_skill(dep_nombre)
             if dep_cls is None:
-                raise ValueError(f"{cls.nombre} depende de '{dep_nombre}' que no está registrada")
+                raise ValueError(
+                    f"{cls.nombre} depende de '{dep_nombre}' que no está registrada"
+                )
             if dep_nombre not in nombres:
                 raise ValueError(
                     f"{cls.nombre} depende de '{dep_nombre}' que no está en la lista de skills"
@@ -1739,16 +561,24 @@ def ejecutar_flujo(
 ) -> list[ResultadoSkill]:
     """Ejecuta una lista de skills en orden, respetando dependencias.
 
-    Si `paralelo=True`, ejecuta en paralelo las skills cuyas dependencias ya
-    están satisfechas (paralelismo extremo por niveles de dependencia).
+    Args:
+        skills: clases de Skill a ejecutar.
+        contexto: contexto de lote compartido (o uno nuevo).
+        paralelo: ejecutar en paralelo skills sin dependencias entre sí.
+        detener_en_fallo: si True, se detiene al primer fallo.
+
+    Returns:
+        Lista de ResultadoSkill en orden de ejecución.
     """
     ctx = contexto or ContextoLote()
     orden = _resolver_orden(skills)
     resultados: list[ResultadoSkill] = []
 
     if paralelo:
+        # Ejecutar en lotes por nivel de dependencia
         pendientes = list(orden)
         while pendientes:
+            # Encontrar skills cuyas dependencias ya se cumplieron
             disponibles: list[type[Skill]] = []
             for cls in pendientes:
                 deps_satisfechas = all(
@@ -1759,8 +589,10 @@ def ejecutar_flujo(
                     disponibles.append(cls)
 
             if not disponibles:
+                # Todas las restantes fallaron o hay dependencias no cumplidas
                 break
 
+            # Ejecutar disponibles en paralelo
             with ThreadPoolExecutor(max_workers=len(disponibles)) as executor:
                 futuros = {}
                 for cls in disponibles:
@@ -1775,7 +607,10 @@ def ejecutar_flujo(
                         ctx.guardar_skill(resultado.skill, resultado.datos)
                         print(f"  ✓ {resultado.skill} completado")
                     else:
-                        print(f"  ✗ {resultado.skill} falló: {', '.join(resultado.errores)}")
+                        print(
+                            f"  ✗ {resultado.skill} falló: "
+                            f"{', '.join(resultado.errores)}"
+                        )
                         if detener_en_fallo:
                             return resultados
 
@@ -1817,9 +652,9 @@ def verificar_flujo(
     return estados
 
 
-# ══════════════════════════════════════════════════════════════════════════════════
-# SKILLS INTEGRADAS DE LA BANDITA (mantener compatibilidad v2.0.0)
-# ══════════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════════
+# SKILLS INTEGRADAS DE LA BANDITA
+# ═════════════════════════════════════════════════════════════════════════════════
 
 
 @registrar_skill
@@ -1827,7 +662,7 @@ class SkillMedirRecurso(Skill):
     """Mide un recurso del catálogo y guarda su evidencia."""
 
     nombre = "medir-recurso"
-    version = "3.0.0"
+    version = "2.0.0"
     dominio = "catalogo"
     dependencias: list[str] = []
 
@@ -1843,6 +678,7 @@ class SkillMedirRecurso(Skill):
     def _ejecutar_interno(self, **kwargs) -> dict[str, Any]:
         repositorio = kwargs["repositorio"]
         racimo = kwargs.get("racimo", "general")
+        # Usar la herramienta de medición si existe
         script = RAIZ / "tools" / "catalogo_medir.py"
         if script.exists():
             import subprocess
@@ -1874,7 +710,7 @@ class SkillCensoPieza(Skill):
     """Ejecuta el censo de una pieza (medición triple)."""
 
     nombre = "censo-de-pieza"
-    version = "3.0.0"
+    version = "2.0.0"
     dominio = "catalogo"
     dependencias = ["medir-recurso"]
 
@@ -1904,7 +740,7 @@ class SkillEscribirPieza(Skill):
     """Escribe el cuerpo de una pieza a partir de los datos medidos."""
 
     nombre = "escribir-pieza"
-    version = "3.0.0"
+    version = "2.0.0"
     dominio = "publicacion"
     dependencias = ["censo-de-pieza"]
 
@@ -1922,7 +758,7 @@ class SkillCompuertaManual(Skill):
     """Ejecuta la compuerta manual v3.0 sobre una pieza."""
 
     nombre = "compuerta-manual"
-    version = "3.0.0"
+    version = "2.0.0"
     dominio = "verificacion"
     dependencias = ["escribir-pieza"]
 
@@ -1952,7 +788,7 @@ class SkillEnvioCanal(Skill):
     """Envía una pieza al canal de Facebook/WhatsApp."""
 
     nombre = "envio-canal"
-    version = "3.0.0"
+    version = "2.0.0"
     dominio = "publicacion"
     dependencias = ["compuerta-manual"]
 
@@ -1992,7 +828,7 @@ class SkillSellarYPublicar(Skill):
     """Sella el árbol y lo deja listo para publicar."""
 
     nombre = "sellar-y-publicar"
-    version = "3.0.0"
+    version = "2.0.0"
     dominio = "publicacion"
     dependencias = ["envio-canal"]
 
@@ -2029,9 +865,9 @@ class SkillSellarYPublicar(Skill):
         }
 
 
-# ══════════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════════
 # FLUJOS PREDEFINIDOS
-# ══════════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════════
 
 FLUJO_COMPLETO = [
     SkillMedirRecurso,
@@ -2047,25 +883,15 @@ FLUJO_SOLO_VERIFICACION = [
     SkillSellarYPublicar,
 ]
 
-FLUJO_PUBLICACION_ADAPTATIVA = [
-    SkillPublicacionAdaptativa,
-    SkillVerificacionTripleBit,
-]
-
-FLUJO_PIEZA_LARGA = [
-    SkillGenerarPiezaLarga,
-    SkillVerificacionTripleBit,
-]
-
 
 def flujo_por_defecto() -> list[type[Skill]]:
     """Devuelve el flujo completo por defecto de La Bandita."""
     return list(FLUJO_COMPLETO)
 
 
-# ══════════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════════
 # INTERFAZ DE LÍNEA DE COMANDOS
-# ══════════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════════════════════════════════════════════
 
 
 def _cmd_listar() -> int:
@@ -2073,7 +899,7 @@ def _cmd_listar() -> int:
     if not skills:
         print("No hay skills registradas.")
         return 0
-    print("SKILLS REGISTRADAS (hiper habilidad v3.0.0)")
+    print("SKILLS REGISTRADAS (hiper habilidad v2.0.0)")
     print("=" * 60)
     for nombre in skills:
         cls = obtener_skill(nombre)
@@ -2116,7 +942,7 @@ def _cmd_ejecutar(
             return 1
         skills_a_ejecutar.append(cls)
 
-    print(f"EJECUTANDO FLUJO ({'paralelo extremo' if paralelo else 'secuencial'})")
+    print(f"EJECUTANDO FLUJO ({'paralelo' if paralelo else 'secuencial'})")
     print("=" * 60)
     resultados = ejecutar_flujo(
         skills_a_ejecutar,
@@ -2154,8 +980,6 @@ def _cmd_flujo(nombre_flujo: str, paralelo: bool = False) -> int:
     flujos = {
         "completo": flujo_por_defecto(),
         "verificacion": FLUJO_SOLO_VERIFICACION,
-        "publicacion-adaptativa": FLUJO_PUBLICACION_ADAPTATIVA,
-        "pieza-larga": FLUJO_PIEZA_LARGA,
     }
     if nombre_flujo not in flujos:
         print(f"Flujo '{nombre_flujo}' no encontrado.")
@@ -2171,7 +995,7 @@ def main() -> int:
     import argparse
 
     parser = argparse.ArgumentParser(
-        description="Hiper habilidad · framework de skills de La Bandita v3.0.0"
+        description="Hiper habilidad · framework de skills de La Bandita"
     )
     sub = parser.add_subparsers(dest="comando")
 
@@ -2183,7 +1007,7 @@ def main() -> int:
     p_exec = sub.add_parser("ejecutar", help="Ejecuta una o más skills")
     p_exec.add_argument("nombres", nargs="+", help="Nombres de las skills")
     p_exec.add_argument(
-        "--paralelo", action="store_true", help="Ejecutar en paralelo extremo cuando sea posible"
+        "--paralelo", action="store_true", help="Ejecutar en paralelo cuando sea posible"
     )
     p_exec.add_argument(
         "--no-detener",
@@ -2197,11 +1021,11 @@ def main() -> int:
     p_flujo = sub.add_parser("flujo", help="Ejecuta un flujo predefinido")
     p_flujo.add_argument(
         "nombre",
-        choices=["completo", "verificacion", "publicacion-adaptativa", "pieza-larga"],
+        choices=["completo", "verificacion"],
         help="Nombre del flujo",
     )
     p_flujo.add_argument(
-        "--paralelo", action="store_true", help="Ejecutar en paralelo extremo"
+        "--paralelo", action="store_true", help="Ejecutar en paralelo"
     )
 
     args = parser.parse_args()

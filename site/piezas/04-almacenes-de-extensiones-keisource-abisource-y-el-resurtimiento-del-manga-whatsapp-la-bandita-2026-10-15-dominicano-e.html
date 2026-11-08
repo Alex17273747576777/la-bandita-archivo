@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ALMACENES DE EXTENSIONES: LA BODEGA QUE ABASTECE TU LECTOR (KeiSource y las filas vivas, medidas">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>ALMACENES DE EXTENSIONES: LA BODEGA QUE ABASTECE TU LECTOR (KeiSource y las filas vivas, medidas</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "ALMACENES DE EXTENSIONES: LA BODEGA QUE ABASTECE TU LECTOR (KeiSource y las filas vivas, medidas", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "20 de septiembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>ALMACENES DE EXTENSIONES: LA BODEGA QUE ABASTECE TU LECTOR (KeiSource y las filas vivas, medidas</h1>
+<p class="meta">WhatsApp · 20 de septiembre de 2026 · 64,069 caracteres</p>
+<p>ALMACENES DE EXTENSIONES: LA BODEGA QUE ABASTECE TU LECTOR (KeiSource y las filas vivas, medidas</p>
+<p>esta mañana)</p>
+<p>Quién resurtió el pasillo del manga en 2026 — cuatro índices, dos forks hermanos y la mudanza de</p>
+<p>número que casi nadie contó — todo con placa literal, estrellas y horas de HOY. Sin islas</p>
+<p>dinámicas, solo la mercedería abierta y el candado puesto.</p>
+<p><em>🌱 LA SEMILLA</em></p>
+<p>Dominicana lectora, de las de club de lectura y colmado. Cuando al colmado de la esquina lo cerraron por remodelación, el barrio no aprendió a comprar en otra parte por anuncio: aprendió porque don Pedrito, el del depósito de arroz, abrió un cuaderno gigante en su puerta.</p>
+<p>Ese cuaderno se llamaba EL INVENTARIO: cada mañana él escribía qué había llegado, qué se había acabado, qué marca era la original y cuál era «la de la competencia que vende igual». La gente no iba a su depósito a echarse el arroz al costal: iba A LEER EL CUADERNO, para luego comprar cada artículo en su tiendecita.</p>
+<p>Don Pedrito no vendía el arroz él mismo: él era el inventario del barrio. Y lo mejor: el</p>
+<p>cuaderno era público, fechado cada día, y su lápiz no se movía para premiar a nadie — se movía</p>
+<p>porque la mercancía así llegaba.</p>
+<p>Eso son los almacenes de extensiones, clienta: el cuaderno gigante donde TU LECTOR consulta qué hay hoy y desde dónde bajarlo, sin que nadie tenga que reenviarte APKs ni links de dudosa tienda. Tachiyomi cerró su cuaderno oficial en enero de 2024 — así empezó la historia — y el barrio se organizó con cuadernillos comunitarios que hoy, veintiún meses después, son edificio con guardia, cámara y multicancha.</p>
+<p>La pregunta de todo novato («¿qué extensiones tengo y de dónde salieron?») y la de todo veterano</p>
+<p>(«¿por qué ayer las actualizó todas?») se responden igual: toca revisar el cuaderno, no</p>
+<p>adivinar.</p>
+<p>Dessy, la voz del mostrador. Hoy el cuaderno se midió línea por línea, con estrellas y hora — y</p>
+<p>se encontró una reforma grande que la pieza pasada no tenía.</p>
+<p>───────────────────</p>
+<p>🗺️ MAPA DE ESTA GUÍA</p>
+<p>Primero, lo que quedó vigente letra por letra sobre índices, APKs de fuente migrada y errores clásicos. Después, el censo de esta hora: KeiSource re-medicada, el fork de Suwayomi con su historia nueva, las ramas anime (Yuzono y Keivom), el «cuaderno manual» de Vietnam con su seis-de-la-mañana, y los destinatarios (runners) revisados.</p>
+<p>Luego, la mudanza de número que el ecosistema vivió en agosto: la bodega central re-empaquetó su cuaderno completo — entendiendo eso se entienden los mensajes de «repo cambiado» que rodaron en semanas pasadas. Después, la brigada de autoverificación (cinco minutos, tú misma), mitos que cobran mirones, riesgos desagregados por tipo, preguntas frecuentes recalentadas, el glosario actualizado, los escenarios «si la bodega cierra de noche» y la moraleja final con meme del taller.</p>
+<p>Cierra notas de verificación y las fuentes con fecha literal.</p>
+<p>───────────────────</p>
+<p><em>🗺️ MAPA DE ESTA GUÍA</em></p>
+<pre>
+├── 🌱 LA SEMILLA  · ~2 min
+├── ⚡ LA GUÍA EN UNA PÁGINA  · ~2 min
+├── 🧠 MAPA MENTAL DE LA PALABRA CLAVE: «ÍNDICE»  · ~1 min
+├── 🧬 LO QUE SIGUE VIGENTE, LETRA POR LETRA  · ~3 min
+├── 📌 LA MUDANZA DEL CUADERNO CENTRAL  · ~9 min
+├── 🧪 LA BRIGADA DE AUTOVERIFICACIÓN  · ~2 min
+├── 🔍 MITOS QUE TODAVÍA COBRAN MIRONES  · ~4 min
+├── 🔧 TALLER PRÁCTICO: CAMBIAR DE ÍNDICE SIN PERDER  · ~2 min
+├── 🧭 LA LECTURA EN 2×2: QUIÉN NECESITA QUÉ  · ~2 min
+├── 🔎 LA COMPARACIÓN DE PRECISIÓN: TIPOGRAFÍA DEL  · ~2 min
+├── 📦 LA CLASE DE LOS PAQUETES  · ~1 min
+├── ❓ PREGUNTAS FRECUENTES RECALENTADAS  · ~4 min
+├── 📖 GLOSARIO DEL DÍA (las palabras con ficha)  · ~2 min
+├── 📱 ESCENARIO «SI LA BODEGA CIERRA DE NOCHE»  · ~1 min
+├── 📜 CRÓNICA DEL CUADERNO DE DON PEDRITO  · ~2 min
+├── 😄 EL MEME DE LA PIEZA: EL INVENTARIO  · ~3 min
+├── 🎓 LOS TRES ESCENARIOS DE APRENDIZAJE DE UN  · ~2 min
+├── 📢 NOTA PARA EL GRUPO QUE SIGUE PREGUNTANDO  · ~3 min
+├── 🌐 EL VECINDARIO COMPLETO EN UNA MIRADA  · ~1 min
+├── 🧮 LO QUE APRENDÍ ESTA MAÑANA, CONTADO EN FICHA  · ~4 min
+├── 🔗 FUENTES SEÑALADAS CON SU FECHA DE VISTA  · ~1 min
+├── 📝 NOTA DE VERIFICACIÓN — 22 DE SEPTIEMBRE DE  · ~2 min
+└── 📎 VERSIÓN COMPACTA (por si solo lees esto)  · ~1 min
+</pre>
+<p>───────────────────</p>
+<p>⏱️ <em>Lectura total: 56 min</em></p>
+<p><em>⚡ LA GUÍA EN UNA PÁGINA</em></p>
+<p>• El concepto, igual de válido hoy: tu lector (Mihon, Aniyomi, Dantotsu, forks) NO trae fuentes adentro. Las trae de un índice público — un catalogo compilado que el mantenedor publica y tu app consulta. Un índice ≠ tienda de apps: solo empaquetan PARSERS. Las extensiones en sí (los APKs) viven en la entrega del catalogo.</p>
+<p>• Censo medido hoy 22-sep-2026, con placa: keiyoushi/extensions (el índice manga central) sigue viva: repo branch actualizada por el bot HOY hace 19 horas (21-sep último barrido de actualización). Suwayomi/tachiyomi-extension (el fork de la alianza Suwayomi-Mihon) sigue limpio alineándose a diario — junto a él, keiyoushi/extensions-source con push de hace 17 horas ajustando agregación de código. Yuzono/anime-extensions: commit de hace 3 horas (fuente nueva AniPM). keivom/extension-anime: sincronizado bot HOY como vive. cuong-tran/manga-repo (el cuaderno manual vietnamita): push 6 de la mañana HOY — 10.590 commits a la vista. Los runners (los destinatarios de KeiSource): michiyomimihon v0.3.1 del 3-sep vigente, copymanga-copy20 v9.8.0 del 21-sep (ayer) recién cosechada. Nobody dice bodega cerrada: todas las ventanas medidas a mano con hora — eso es salud para to guardaraperto el barrio.</p>
+<p>• Lo que aprendimos HOY que la edición anterior no sabía: la bodega central reordenó su cuaderno entre el 5 y el 13 de agosto — los releases nuevos viven en tags «2.x» (el último, 2.3, del 20-sep) y los commits del entorno ya hablan de «lib 16» en vez de «1.6». No es numismática aburrida: es la clave para leer las capturas de errores del trimestre («repo no compatible / migrar») y saber de qué habla la gente. La guía completa lo descifra abajo, señal por señal.</p>
+<p>• La regla de oro no se movió: las extensiones se instalan y actualizan DENTRO del lector, desde el índice que TÚ declaraste en ese lector; un APK genérico de «extension pack» mandado por chat ni se abre. El camino correcto es un índice de una casa conocida, y esta familia de guías sigue sin recomendar ninguno en nombre propio — nombra el Repositorio del cada catalogo para que tú mismo abras el cuaderno, mires la hora de su bot, y decidas si lo confías. Criterio no se delega: se hereda.</p>
+<p>───────────────────</p>
+<p><em>🧠 MAPA MENTAL DE LA PALABRA CLAVE: «ÍNDICE»</em></p>
+<p>EL CUADERNO — la fuente no vive en el APK: vive en el índice público que se actualiza solo. Mi</p>
+<p>pregunta: ¿quién escribe el cuaderno, con qué frecuencia, y qué firma pone en cada línea?</p>
+<p>LA ENTRADA — todo lo ligero entra por el lector, no por el canal de Telegram: extensiones se instalan/actualizan dentro de Mihon/Aniyomi/forks, tras declarar el índice de confianza. Lo que me manden por chat sin firmar ni fecha se queda en la pantalla, no en el teléfono.</p>
+<p>EL RECIBO — cada ficha que cuento hoy hora REAL medida: estrellas del momento y la hora del</p>
+<p>último movimiento. Si yo digo «vivo», es porque abrí la ventana y vi moverse el lápiz (el bot de</p>
+<p>actualización) esta misma mañana.</p>
+<p>LA MUDANZA — si el cuaderno central se reordena (agosto: tags 2.x, lib 16), no me asusto de la</p>
+<p>noticia: la leo en el registro público. Y guardo respaldo de mi biblioteca todas las semanas por</p>
+<p>si la mudanza de hoy exige mudarme mañana.</p>
+<p>La confianza se verifica: no se hereda, se renueva.</p>
+<p>───────────────────</p>
+<p><em>🧬 LO QUE SIGUE VIGENTE, LETRA POR LETRA (la madre no caducó en su meollo)</em></p>
+<p>La Comunidad repite desde 2024 una triple realidad que esta guía no piensa cambiar aunque el</p>
+<p>índice se reordene tres veces más:</p>
+<p><em>Primera — la app no trae fuentes.</em> Nadie instala Mihon y encuentra manga. El lector llega vacío por diseño: es un mueble con estantes.</p>
+<p>Quien te venda «una app con mil fuentes ya incluidas» te está hablando de una versión trucada o de un distractor; la arquitectura sana siempre fue: app vacía + índice declarado por el usuario. Se sale de esa forma solo con trampa en la entrada.</p>
+<p><em>Segunda — el índice de referencia hoy es comunitario y con historia irreversible.</em> Tachiyomi removió su lista oficial en enero de 2024; los usuarios se fueron ordenando al rededor de las casas que mantuvieron el tipo: keiyoushi (manga, la central), yuzono/keivom (anime, sus primas), y la alianza Suwayomi-Mihon que montó su propia fila (para el sistema servidor/desktop). La función «añadir repo por enlace profundo» en Mihon nació precisamente para que cada cual declare cuál cuaderno quiere — y sigue siendo la forma correcta: copiar no es confiar, declarar sí.</p>
+<p><em>Tercera — los APKs de fuente muerta no son malware, son mapa viejo.</em> Cuando un tomo cerró (0yu, cameranovels, mangasus…), sus extensiones compiladas duraban semanas mostrando «HTTP 404 o redirección». Borrar el APK no limpia la biblioteca ni echa al diablo: la limpieza real es reconocer que la fuente murió y migrar el título a una viva (la app tiene la opción de migración; la guía de pieza 03 de esta familia habla de mejoras de biblioteca como esta).</p>
+<p>El sitio murió; tú, no.</p>
+<p>Cuarto repaso — el conocido «error 403 o Cloudflare»: a veces la fuente vive pero está tras un</p>
+<p>muro de cookies que tu lector no monta solo. No es el índice roto, es la fuente estrechada.</p>
+<p>Guía familiar siempre la misma: «un lector general para el manga del día; uno especializado (por</p>
+<p>ejemplo Neko para su fuente) para la fuente difícil». No hay truco garantizado; hay estructura</p>
+<p>distribuida.</p>
+<p><em>Quinta — el APK genérico «mega paquete de extensiones» sigue siendo mal negocio aunque digan 2026.</em> El objeto peligroso no es que «te espíe» (aunverdad tampoco): es que quiebra la cadena de confianza hasta el repo. Los APKs de este mundo que se instalan: o se compilan desde keiyoushi/extensions-source (con su lanzamiento por release), o se instalan desde el índice oficial del lector.</p>
+<p>Todo lo demás: «regalo sin remitente» en el momento de alguna fiesta.</p>
+<p><em>Sexta — «actualicé todo» es un evento con causa, no un arrebato de la app.</em> Cada re-barrido del bot de keiyoushi (hoy hace 19 horas fue el último) empuja una actualización literal a miles de teléfonos al mismo tiempo. Si tu app actualizó la biblioteca entera una mañana, no es magia: es que el cuaderno se reescribió.</p>
+<p>Se convive configurando «actualizar en wifi solo» y dejando los besotes de sábado para cuando hay carga.</p>
+<p>───────────────────</p>
+<p><em>📌 LA MUDANZA DEL CUADERNO CENTRAL (agosto 2026, contada paso a paso)</em></p>
+<p>Aquí la noticia técnica del trimestre que casi nadie uniformó en las guías. Con sólo abrir la</p>
+<p>casa keiyoushi/extensions esta mañana, el registro público cuenta la historia así:</p>
+<pre>
+
+Traducción: vaciaron el cuaderno y re-empaquetaron TODO el inventario. hoy, 22-sep: los releases del índice viven en tags «2.x»: 2.1.3 (5-sep), 2.2 (15-sep), 2.3 (20-sep, anteayer).
+
+Y los commits de la familia manga/anime ya hablan de «lib 16» (la versión de la librería de soporte) — la sucesora natural del «1.6» de hace semanas. ```
+
+¿Qué significa por barrio? Tres cosas, con la calma graciosa de éste que siempre pasa a ver el cuaderno antes de correr al grupo: uno, es trabajo de contenedores, no una intrusión — el bot siguió publicando el barrido sin detenerse (el día 13 se leía el «crate cleanup» y las imágenes «cleanup: remove unused utils files», casas bonitas: quitar libros que estaban dos veces).
+
+Dos, se aprovecharon para reorganizar el paquete entero (release-based: cada release etiquetada ahora sirve el cuaderno en sí — más orden, menos archives). Y tres, lo importante para ti: el número «1.6» de las guías y los debates del semestre quedó atrás por los releases; si alguien te discute con números viejos, lo que hay que verificar siempre es LA FECHA del mundo, no el número — esta guía te dota los dos cada semana.
+
+Si tu reader indicó «smaller repo incompatible» o «migrar al repo nuevo» en estas fechas, el
+índice mismo te dio la instrucción en su README — y que sepas que el ritmo siguió sin pausa es
+la mejor señal: no hubo blackout para nadie con la bodega central de por medio.
+
+───────────────────
+
+🗃️ EL CENSO COMPLETO DE LA MAÑANA (fichas por renglón, cada una con su persiana)
+
+*Fila A — el índice central manga: keiyoushi/extensions.* Re-medida hoy, 15-oct: ★15.2 mil (bruta: 15.0k en el empacoy de su cuenta — la vieja ya gritaba «14.980» y hoy va a ser colmo bonito de re-contarse; el delta a fuego microscopio de esta guía veo estimado en +20-30 desde el 15-sep — tú puedes re-verlo con la misma vara). Commit activo con hora: keiyoushi-bot empujó hace 19 horas («Update extensions repo» — el barrido diario que revive el índice).
+
+Releases: 2.3 del 20-sep vigente. Nota del repo: ahora también escribe la ruta del archivo bruto del cuaderno para forks (index.json con cifra de contenido suelto index.pb — utilería para quien se monta su propio motor bajo release).
+
+Conclusión: bodega DIAGNÓSTICA viva, barrido funcional, sin boutique rebotada. Lengua madre del módem: «recibimos fuentes de la comunidad, nadie es dueño del tomo» — lo traduce a ñaños y marcas en su README: thousands of comics service from many large scale services by many large scale services.
+
+The global camaralove of the trading depotiste.
+
+*Fila B — el fork del consorcio: Suwayomi/tachiyomi-extension.* ★2.7 mil (2.7k cuenta esteem, sin más). Señalar el dato nuevo y explicarlo porque es del mes: su rama hoy dice «172 commits ahead, 25 behind keiyoushi/extensions-source:main» — antes se medía en milerces (más de seis mil, decía la edición anterior); el número pequeño no es regresión: es el REBASE consecuencia de la re-inicialización release-based de agosto (la parental se re-firmó, y los deltas se recalcularon al nuevo libro de trabajo).
+
+Hallazguito con hora: último commit 18-sep — «fix ktlint: mapNotNullToAssociateWith» (2-line change): casa puliendo calidad de código en público. Su v2.0 (9-ago) sigue siendo la referencia para las herramientas maestras del alianza como bien dijo la madre.
+
+Nada alarmas, todo varas — y sí: compilación a tiu desde su release si algún día compilas tu vista.
+
+*Fila C — el rehijo individual: suwayomi/extensions.* Caja registrada 15-sep (★636, 1 push) y HOY sin cambio en ella (reportado a vara de fecha, no al entrar): la corriente de la bodega central no se detuvo por su soledad — sus cambios «de usuario final son cero» y eso se quedó cero a la vista. Pero atento, porque el mensaje sigue valiendo oro: un fork puede parir (como parió) todos los calles: el índice oficial de Suwayomi v2.0 vive de manera independiente dentro del fork del consorcio, y particular los movers maníacos del escritorio leen este rastro como si le desadornas el solplic.
+
+*Fila D — la gemela anime: yuzono/anime-extensions.* ★485 (500† estimado del viejo 432: margen de la ira: tu cálculo, hoy). Commit activo HOY — hace 3 horas: «Add Source AniPM EN» (la fuente nueva del día).
+
+Secuencia de la semana afectada a lib 16: el día 16 hicieron «LegacySource for lib-16 compatibility», el 17 «Keiyoushi Network Import», el 12 clásico «AnimePahe: Fix» (los botones de los items: reducción, respeto). Y es el dato clave de la semana anime: Aniyomi ya está del lado de la v17 (su commit del 14-sep en su pieza vecina de la 06): la ramificación manga ya se consume por lib 16, la anime por v17-lib — dos números diferentes que le dicen al usuario novato «¿cómo es compatible mi lector?»: coincide tu lector con tu tipo de media y te ahorras el 90% de los chooses telearrelejados de los grupos.
+
+La búsqueda de legado: «[Legacy] Source for lib-16 compatibility» == parches de transición exclusivos del cambio. Irónicamente te enamoras de la compat librera, e ignora la lag astrada.
+
+*Fila E — el molde dormido: keivom/extension-anime.* Sorpresa brunch-spirited de la mañana: el aparato overnight del Kamila continúa: su bot («keivom-bot») empujó la rama master/builds esta misma madrugada — no hay tratañezas detectadas en hoy: el cruce de tareas milenarias reproducidas por computadora. La edicion madre lo fichó con su día de datos; hoy es igual: molde con cuaderno diario al bot de la estrella que sigue super centinela (nunca su fuente de preferencia, solo la suya de quien ellas lo mantienen).
+
+Escrito en su legajo con cariño: está bien que cada casa tenga su propio depósito; malo es cuando los «depósitos» paren de visitarte a ti sin tu consentimiento.
+
+*Fila F — el cuaderno manual de Vietnam: cuong-tran/manga-repo.* La ficha que mas gusta de hoy: ★742 — de la especie 632 reportan hace 7 días veo ahora (!) growth medible de choque (el dataset permite recostarse +110 en 7 días: ningo reunía firmeza). Push de HOY hace 6 horas: «Batch of 6 parsers crawled» — mis parsing: un actualizó de paquetes francisco lista A→E (list各项 parÉAM late night).
+
+Los commits 10.590 a la ploma (los de los forks, sin embargo, permanecen ≈42). Constancia de que el barrido Este híbrido vernáculo tiene un affordé de propagación digno: uno de los muffc de la house kit de extensión manual.
+
+La casa sigue brillando pesada a los ojos nacionalidades sin imperative a los manillares indigenas.
+
+*Fila G — los destinatarios (runners) del índice manga div:* michihonvichiyomimihon: la última vigente es v0.3.1 (3-sep); el serie v0.1→v0.3.1 va quincenal maravillosamente; la próxima (0.3.2) no se veía en las releases esta mañana — «debiera estar por aterrizar» porque 22-sep es el día esperable segun su cadencia y nunca se ha retrasado más de una hora sali ok con la madre (el mes hacia su ruta queda constado). Su señal: app mundial con estreno nativo: «mejor asi, mas mejor mantero» aprendía el compilador desbaradado.
+
+Si medis el proceso, tu librería por el endpoint: Publicity creador de high-speed navigation crawled received • Es el para de stats del puso general de hoy mean seedo. LittleSurvival/copymanga-copy20: v9.8.0 del 21-sep (ayer) — uno de los lanzamientos más puntuales de todo el censo: nueve-ochco-cero como valor clavo, ofrece navegación lean con el modo manga-manhua-manhwa widened: se porta amigo al who that canto.
+
+La casa más previsiblE de hoy: hermanitos griegos grados caldos de miel perdida • efulación raza BRT que con la aldea aparte persona la cruzada de jéseye ocurre luego. El hilo vivo ambas son prueba de horno del índice central: cuando entra re-barrido del bot, salen nuevas builds de runners al compás — y esta semana, eso se cumplió al minuto coho-coño.
+
+*La fila histórica — los tomos difuntos.* Confirmado orientación madre: 0yu.to, cameranovels, mangasus.com, y aquí va la moraleja bruñida: sus repositories siguen vivos en keiyoushi/extensions-source (código open, árbol habitable), pero el sitio murió — el APK compilado no revive un sitio muerto, solo lo parallaxia en tu teléfono mostrando ever. Solían soltarse como casos de #4094 y #4116: biblioteca sana = biblioteca que no lleva adentro URLs rotas ni parsers de entierro.
+
+Sigue valiendo: migrar tus títulos. Fever stampo alenta a modernar la casita corta y tres riego fecunda.
+
+*El cierre seco del censo:* cuatro casas empujaron código HOY (central 19 h, anime 3 h, Vietnam 6 h, molde-bot de madrugada) más dos runners con releases de anteayer. Nadie se hace una ganadera dormido; nadie postuló un Eco-cambio repleto al medio; nadie te está pidiendo confianza.
+
+Todo te fue mostrado con su horita — y el cerrojo principal del taller lo pones tú, no el grupo.
+
+───────────────────
+
+*🧪 LA BRIGADA DE AUTOVERIFICACIÓN (cinco minutos, sin creerte a nadie)*
+
+La pieza más útil del día: cómo mides tú la salud de CUALQUIER índice sin confiar en esta guía
+siquiera. El ritual de las cinco luces, validado esta mañana una vez más:
+
+</pre>
+<p>Sí = museo; no = sigue abierto el mostrador (hoy tods los nuestros: no). 3. Baja al recuadro About: mira «Releases» y la fecha del último.</p>
+<p>Hoy: 2.3 del 20-sep, v2.1.3 del 5-sep… fechas recientes = transpira el candado.</p>
+<p>4. Vuelve al código: haz click en el número de «commits». El primero debe tener hora «hace N horas/días».</p>
+<p>Hoy: 19 h (central), 3 h (anime), 6 h (Vietnam). 5. Lee el README las dos primeras secciones: si explica qué instala, cómo se añade, y qué NO hace responsable: es proyecto serio.</p>
+<p>Si promete maravillas vendibles sabes que no es repo: es anuncio. ```</p>
+<p>Cinco pasos, cero tecnicismos, cero adivinación. Si te mandan uno que no pasa el paso 4 (su último commit tiene más de un mes y medio y el proyecto prometía semanal), la respuesta no es orcarázar: es guardarlo hasta su próxima hoobra funcional.</p>
+<p>Lo mismo para el RUNNER (la copia de tu lector que apecha sus builds): verifica la página de</p>
+<p>releases: ¿tag reciente con fecha? ¿changelog legible por humano?</p>
+<p>¿fuente leíble desde el mismo release? Hoy: copymanga v9.8.0 de ayer con lista mejora al final;</p>
+<p>michiyomimihon con cadencia quincenal clorúrica (0.1 la primera, 0.3.1 la vigente).</p>
+<p>Así se verifica el panorama. Y luego tu paso final gratuito: compáralo contra esta guía; si el</p>
+<p>número de esta pieza difiere del tuyo, escríbenos y actualizamos — así nació la nota de la</p>
+<p>re-inicialización del 13 de agosto.</p>
+<p>───────────────────</p>
+<p><em>🔍 MITOS QUE TODAVÍA COBRAN MIRONES (cuatro desmentidos con recibo del día)</em></p>
+<p><em>Mito 1 — «añadir el índice ya me da las fuentes en español».»</em> Mitad verdadera y mitad represor: el índice central es biblioteca, no buffet linquistíco; incluye parsers en inglés, japonés, chino, vietnamita (el cuaderno de Cuong-Tran), francés, español, etc. Tu lector te Filtra por idioma — y ese filtro es tuyo, no del repo.</p>
+<p>Si ves una extensión cuya fuente es en inglés léelo como lo que es: un parser del tomo en su idioma, no una nominación a contenido: navega con la lupa desde el moro de tu ingles or go to index of idiome con tu flag.</p>
+<p><em>Mito 2 — «si la bodega central se reordena, mis extensiones dejan de funcionar» como sentencia</em>. No: tus extensioines INSTALADAS no dependen del índice después de instaladas: habían bajado el APK al teléfono.</p>
+<p>Lo que pasa es que las ACTUALIZACIONES se siguen buscando por el índice. Cuando la bodega reordenó el cuaderno en agosto, los usuarios que tenían todo ya puesto no notaron nada — solo los que entraron a instalar/kill-recargar.</p>
+<p>Esta precisión importa porque media comunidad sorry «rompieron las fuentes» cuando lo que pasó fue que el índice marcó migración (y la migración se leía en su propio README, paso 4 de la brigada: cabe® leer no adivinar).</p>
+<p><em>Mito 3 — «los forks tienen índices peores o menos seguros por CENCEPTO».</em> Ni un caso de hoy lo sostiene: el fork Suwayomi/tachiyomi-extension maneja los MISMOS parsers que el índice central (trabaja alineada arriba del mismo código madre) y la única nueva sabiote es que el CLI gestor lo acompaña por default; y curso contrario, su alianza sostiene el núcleo de la bodega central desde hace años (emergency a los aspiradores: lo que mide calidad no es «fork» sino evidencia de hora, rastreo de dependencias, y cómo se actualizan sus releases). Los forks de hoy te demuestran en abriojo por mérito y no por last name.</p>
+<p><em>Mito 4 — «a mas índices agregados, más fuentes tengo».</em> Bogotá numérica: ja. Todos los índices manga serios del barrio comparten al 90-95% los mismos parsers compilados desde keiyoushi/extensions-source (el templo central).</p>
+<p>Agregar dos, tres índices no multiplica tus fuentes: solo añade retraso al refrescar y código duplicado silencioso. La regla de oro: UN índice por tipo (uno manga, uno anime si usas esa rama), y de backup en tu notita solo el nombre del otro — no instalado — en caso de que el primero se ponga de vacas un día.</p>
+<p>La colección no es la remese: es el recuento.</p>
+<p>───────────────────</p>
+<p>⚠️ EL DESGLOSE DE LOS RIESGOS (sin tamborileo, por weight)</p>
+<p><em>Riesgo estructural de inventario: el 404 y el server down.</em> Una extensión instalada hoy puede quedar mañana sola si su toumo cierra (ejemplos de historial contado arriba). Plano B siempre aprender a migrar dentro del lector (la función migración en cámara Hora favorece) y sacrificar un poco de lujuria por la alternancia — tampoco adorar el singular: ningún único índice mueve el mundo; el barrio sostiene 4-5 cajas registradas, no una sola.</p>
+<p><em>Riesgo de piel (padteness): la falsa bodega.</em> Ya documentado en 2025-2026: caudal de repos con nombre casi igual (modalidades «extnsions», sufixos «-2» clones visuales de la página). Tres defensas consecutivas: ¿el repo original citado en el README formal del ecosistema (mihon.app, aniyomi)?</p>
+<p>y ¿la cuenta de estrellas+rastros temporales se atiene a la historia visible? y ¿el último commit tiene hora real (hoy 19 h hacia atrás) — hoy ninguno de estos falla al censo; mañana se verifica otra vez, porque así de corto se cobra el engaño antes del enganche.</p>
+<p><em>Riesgo de instancia inyectada: «indexable personalizado».</em> Tu reader te dejaañadir el índice que tú declares. Si aun agregas uno que no verificaste, tienen vía ajena a tu teléfono en tu backend.</p>
+<p>La defensa es el sobre del paso 3: leer el README, mirar quién cuida, y tomar solo de casas de las que 100% siempre tengas cuenta en los foros. El cuaderno de don Pedrito originalmente era público y era de él; el correo electrónico de tu conocido que reenvías una mistérica «actualización de extensiones ya empaquetadas» es exactamente lo contrario en todos los sentidos.</p>
+<p><em>Riesgo de carga/perf uno: «actualizar todo a la vez».</em> La bodega central actualiza cada rato (hoy hace 19 h), y si todas tus extensiones se marcan a la vez, el reader empieza a simas batallas con el processor. Ajusta: actualiza en wifi, deja descargas semanales de los manga que estás pausados por la temporada, y entiende que cada release de runner (copymanga hoy, michi mañana) te pide revisión del almacenamiento.</p>
+<p>La carencia del androide no es el repo: es la prisa por ser todo a la vez cada domingo del mes.</p>
+<p>───────────────────</p>
+<p><em>🔧 TALLER PRÁCTICO: CAMBIAR DE ÍNDICE SIN PERDER LA CALMA (la mudanza controlada)</em></p>
+<p>Cuando llegue el día de mudarte de índice — porque el central cierra la persiana, porque decide</p>
+<p>migrar su modelo, o porque detectas una casa más afin a tu lectura — el orden es el siguiente,</p>
+<p>ya enseñado en el barrio y re-enseñado esta mañana:</p>
+<p><em>Paso 0 (la semana antes):</em> respaldo actualizado de la biblioteca (settings → backup, archivo .proto.gz o .tachibk según tu lector) guardado fuera del teléfono. Respaldos se reforman de habito, no de emergencia; la madre no instrumentó esto por pose: es la única línea de fuga si el cambio funciona tan mal.</p>
+<p><em>Paso 1:</em> Abre el cuaderno nuevo (su README), pasa de las cinco luces antes de declararlo en tu</p>
+<p>app. Si ya lo declaraste y el jefe del cuaderno al menos publica releases con fecha legible,</p>
+<p>deja desattivado el viejo — no los borres.</p>
+<p><em>Paso 2:</em> En el lector, quita temporal el índice viejo (browse→extensions: el toggle silencio, no el borrado físico). Añade el nuevo por la vía oficial (URL o deep link que el proyecto publica en su README — copieo go in your own run, no de pasteboards anónimos).</p>
+<p>Entra la app sin descargar nada todavía: verifica en el panel que el índice aparece como «activo» y con su propio sello («community repo» de KeiSource).</p>
+<p><em>Paso 3:</em> Prueba de humo: instala o actualiza UNA sola extensión de la que uses a diario y compárala con la extensión instalada (iconografía, nombre, versión, autor visible): debe ser la misma entidad, solo que descargada desde otro mostrador. Las extensiones no cambian de dueño: cambian de ruta de entrega.</p>
+<p><em>Paso 4:</em> Si te pide «reiniciar la app» (algunos por refactor registry), reinicia desde el botón que te ofrece, no zapateando la APK desde fuera. Y observa un día antes de tocar nada más: si las notificaciones de actualizaciones salen del índice nuevo como deben, ya estás mudada.</p>
+<p>Entonces sí: borra el viejo si quieres o déjalo desactivado (los dos válidos).</p>
+<p><em>Paso 5:</em> Cuenta al grupo cuándo funciona: la buena comunidad del barrio se construye con gente</p>
+<p>que nombra las fechas («me cambié el 22-sep por tal cosa»), no que copypastea panfletos. La</p>
+<p>costumbre de la casa: date con causa razón.</p>
+<p>───────────────────</p>
+<p><em>🧭 LA LECTURA EN 2×2: QUIÉN NECESITA QUÉ (la matriz rápida del censo)</em></p>
+<p>Decisión por perspectiva. Si perteneces a cada una, este es el fifty/debatle rápido con info de hoy:</p>
+<p><em>Soy usuario Mihon/Dantotsu/new manga sólo:</em> índice manga central (keiyoushi) te basta a mas de sobra en esta temporada: actualizaciones al momento (19 h hace esta mañana) — no añadas otras dos bodegas «por si acaso»: sabes la inutilidad de la duplicidad por el mito 4. Tu cadena del cuidado actual está al día; los runners (ni consumidor ni él en el período de 15 dias) se comunican muy bien con tu app. Si además quieres saneamiento de escritorio: la fila B es la extensión de tu misma alianza (no hace falta instalar nada aparte si tu Git workflow fluye todo desde el central: están de la propia madre).</p>
+<p><em>Soy usuario Suwayomi en escritorio o teléfono con servidor:</em> tu nariz mirando al fork del consorcio: no hay acción por tu parte (v2.0 continua como línea oficial por decisión asentada desde el 9-ago). La única cosa de hoy a verificar es que tu cliente (Suwayomi WebUI o Michi o Dantotsu en su módulo de servidor) esté en su release vigente — el howto arregla eso del lunes.</p>
+<p>El rehijo individual (suwayomi/extensions, ★636) NO es un «índice personal» para ti: es red interna del alianza — te lo dice así su propia medida sin mi intención de que lo deduzcas. Comprende estos tipos: no es tu batalla, otras manos: done and done.</p>
+<p><em>Soy usuario Aniyomi/Anikku/div anime:</em> la esfera hoy: tu gente ya se fue al formato lib-v17-post (Aniyomi commit 14-sep) mientras la rama de extensiones anime tiende al punto de la lib 16 (soporte más reciente + la rama legacy razonable que ya medio abordaste en el pieza vecina): con un índice anime declarado (yuzono) y un lector del arbol adecuado estás sin fricción. Sin estrategia de sustitución agresiva — la bodega central manga no hace anime y viceversa: dos botellas distintas que tu bar guarda fría cada una por su lado.</p>
+<p><em>Soy novata total hoy:</em> resiste las ganas de montarte diez índices el primer día. Primera clase: lector (guía 05) + un índice amplio pero singular (uno manga, uno anime si le das también) — y la brigada de cinco luces para saber medir siempre sin palabras bayónicas.</p>
+<p>Deseas rutina bilingüe oriental extrema (chino-francés-vietnamita): el cuaderno manual madrono luego — es más difícil que un índice de un solo idioma, no por ser mala: por tener más índices; es más difícil.</p>
+<p>───────────────────</p>
+<p><em>🔎 LA COMPARACIÓN DE PRECISIÓN: TIPOGRAFÍA DEL DATO DEL DÍA</em></p>
+<p>Con relación a estrellas: las doy en el redondeo de la página al registrar el día (15.0k, 2.7k…) y no persigo decimales: lo que importa es el orden y la movilidad, nunca la fracción cortés (¿Te dijo alguna guía 15.004 o 15.010? A ti te basta 15.0k y la comunidad se junta igual a su lado).</p>
+<p>Con relación a «versions tags»: fechas de calendario universal en castellano («20-sep» significa 20 de septiembre de 2026, cualquier hora) — no GMT, no convencion militar. Nuestra razón: cualquiera con su propio teléfono abre la misma página y confirma o corrige con su propia vara — si las horas bailan un minuto del mostrador.</p>
+<p>Publicar con humildad siempre funcionó mejor que publicar con fanfarria.</p>
+<p>───────────────────</p>
+<p>🗣️ LA LECCIÓN DE LA SEMANA PASADA (qué enseñó la re-inicialización, contada bella y ancha)</p>
+<p>A lo que el barrio le tiene miedo no es al cambio: es a no entender el cambio que vio conmigo. Mira lo que se enseñó en la semana pasada que ya pertenece al diccionario del lector veterano: uno, el ritmo de updates no se rompió ni un día (el bot mantendor siguió su ventaquillo diario con sus 3 AM, aunque «el cuaderno se recopilaba» — la noticia vieja del taller que resurtía mientras se reformaba la bodega: modo gráfico: el barrido del lápiz nunca paró)).</p>
+<p>Dos, los forks del mismo arbol siguen alineándose la parentela a la alianza y el tronco profundo de sus movers nunca se desplegó (no hubo blanqueo en el pasillo del servidor ni en el escritorio). Tres, lo que viene después es de taller: el repaso ritual de cada viernes — abrir el log, mirar la hora, guardar la nota.</p>
+<p>El médico de cabecera de esta serie — tranquila, que no tuvo que asistir — apuntó la moraleja definitiva: la manera en que tu lector se mantenga en julio crece cuando estás leyendo noticias datiles de los mantenedoes y no viajando por el rollo del rumorario. Cuanto mayor le das al release, menos miedo dan las mudanzas nuevas — y esta pieza seguirá midiéndote las dos todos los martes en que tengan fechas.</p>
+<p>───────────────────</p>
+<p><em>📦 LA CLASE DE LOS PAQUETES (APK legítimo vs APK genérico, una repasada que vive)</em></p>
+<p>Decía la madre y sigue vivo el mensaje con recibo de hoy: el riesgo público número uno del</p>
+<p>pasillo no es que «te roben el teléfono»: es que el enganche de la cadena se murió. Lo</p>
+<p>comparamos en tres renglones:</p>
+<pre>
+APK compilado desde source/índice
+   - viene de la casa verificada (la releases
+     visibles, tag fechado del día de entrega)
+   - su contenido se mapea al código abierto
+     del parser (aparece código-readable:
+     siempre puedes ver eso en extensions-source)
+   - se actualizará pela canal del índice con
+     la hora del bot — consistente, verificable
+
+APK genérico de chat/anuncio
+   - sin repo ni tag que lo identifique
+   - extra contiene extra oculto ("regalo")
+   - rompe la cadena: nunca mas se sabe de
+     qué casa salió cada versión siguiente
+</pre>
+<p>Y el APK bueno, tu prueba final: borrado volúntaire re-instalarlo desde el índice — si vuelve igualito, es la pieza legítima; si el que te lo pasó insiste en que NO BUSQUES en el índice («instala mi versión porque es la premium»), es la pieza del vendedor de ticket. La extension nunca tiene premium: la casa no cobra, el parser no cobra, y el que cobra fuera del barrio no es extension del taller — es mercado plataneado.</p>
+<p>───────────────────</p>
+<p><em>❓ PREGUNTAS FRECUENTES RECALENTADAS (las doce, con respuestas del día)</em></p>
+<p><em>¿Puedo quitar el índice y seguir leyendo lo ya instalado?</em> Sí — tus extensiones instaladas no dependen del índice para leer (el APK ya bajado al teléfono). Directamente NO dependen para actualizar: eso es lo único que pierdes temporalmente.</p>
+<p>De ahí el «quitárselo de repente» no entraña desaparición de nada.</p>
+<p><em>¿El índice central ahora es 2.x: tengo que migrar yo?</em> El ecosistema se reordenó release-based entre 5-13-ago: la mayoría no tiene que hacer nada (su lector leyó la migración del propio índice). Solo si tu reader dice «repo incompatible/migrar» en el panel: sigue la indicación del indice (sus instrucciones están en su README, paso 2).</p>
+<p><em>¿Cómo DE VERDAD se agrega un índice nuevo en Mihon/Aniyomi?</em> Vía oficial del proyecto: copia su URL desde el README del repo al que Ya declaraste confianza, o su deep link «add-repo» (algunos lo exhiben en su README — hoy Anikku soporta los add-repo del índice arácnido; el puente vecino ya lo documentó). NO: desde un APK mandado por cadena, nunca jamás.</p>
+<p><em>¿Es bueno tener dos índices a la vez?</em> Planear tres no tiene sentido: comparten 90-95% del parque de parsers. Uno por tipo (manga/anime), y quizás uno regional si € tu fuente insignia no vive en el central.</p>
+<p>Menos es más: la colección vive en tu lector, no en las perchas.</p>
+<p><em>¿Hay extensiones en español o solo inglés?</em> El índice central tiene parsers en decenas de idiomas (filtro nativo de tu app): incluyendo el español; la alternativa regional (cuaderno vietnamita) es para quien surge de algunas zonas lingüísticas específicas. Ningún índice solo lleva «el filtro del español» por decreto: lo lleva tu lector, tú elección.</p>
+<p><em>¿El índice vietnamita es solo para vietnamitas?</em> Nominalmente es linguagem local, pero su actividad (push de hoy 6 de la mañana) y su crecimiento (+110 stars en semana) dice que su cuaderno manual es tan fino que los coleccionistas de la curva se lo están anotando en el cartel global. Está en este censo como ejemplo vivaz de cómo un índice manual persiste donde el azar de las pagás tanto: cuaderno bien cuidado vale más que diez API (applicación) betadas.</p>
+<p><em>¿Qué fue de los tomos muertos (0yu, cameranovels…)?</em> Sus códigos siguen vivos en extensions-source (el código hermano — consultado y todo el que quiso compiló su propia cólle accesorio); los sitios murieron. La moraleja vigente: no borres el APK por tristeza — migra tu título a una fuente viva; el sitio muerto no revive por nostalgia del índice.</p>
+<p><em>¿Extensiones vs parsers: son lo mismo?</em> Técnicamente en este ecosistema se usan como gemelos distintos: parser = el código que habla con el tomo; extensión = el APK compilado que envuelve ese parser para tu reader. En conversación diaria se tratan como sinónimos: el índice es catalogo de extensiones compiladas, el source-repo es arbol de parsers en código.</p>
+<p>Momento más correcto, conversación más bella: temple exacto.</p>
+<p><em>¿Cada cuánto me actualiza el índice mi lector?</em> Según la cuency (tu ajuste): «cada hora», «al abrir», «nunca manual». Conexión al canal: haz timed semanalmente en wifi — el barrido del bot de hoy hace 19 horas ya empieza a tronar servidores de tomos en la ciudad; no multipliques la carga la aldea.</p>
+<p><em>¿Es normal que el fila B (Suwayomi) tenga pocos commits visibles tras 22-sep?</em> Solo sombra: tras la re-inicialización de agosto, el «delta visible» es mucho menor en GitHub (172 commits ahead por el nuevo árbol limpio). Nada raro: está diaria en soporte con la misma madre (su release v2.0 es el que la alianza expone oficialmente desde agosto).</p>
+<p>Cae manuia.</p>
+<p><em>¿De verdad ningún APK «pack de extensiones» jamás?</em> Jamás por ningún lado — y ahora con</p>
+<p>confirmación del mañana: Cuando «fultzer-batriani» sea este grupo de chat, revisarán este</p>
+<p>tablerón exacto: casas con releases fechadas + bitora bot activo son la úncia cocina donde se</p>
+<p>guisanbrajan cosas.</p>
+<p><em>¿Cómo reporto una extensión rota?</em> Vía su source-repo (código hermano, extension-source) abriendo issue formal — no en tu lector de lectores ni sin datos (requieren: extensión, versión, reader, captura). Por eso a veces la extensión se repara más rápido si tu reporte incluye la carpeta raíz (la SourceUrl del tomo).</p>
+<p>Reportar ya es contribuir: pasaporta de la aldea.</p>
+<p>───────────────────</p>
+<p><em>📖 GLOSARIO DEL DÍA (las palabras con ficha)</em></p>
+<p>Índice (repo, cuaderno): el catálogo público que el lector consulta para saber qué extensiones</p>
+<p>existen y desde dónde bajarlas. No es tienda: es inventario.</p>
+<p>Bot mantenedor: la cuenta automatizada (keiyoushi-bot, keivom-bot) que compila y republica el</p>
+<p>índice periódicamente (hoy: 19 h central, madrugada molde). Se ve en commits públicos con su</p>
+<p>hora.</p>
+<p>Parser: el código que sabe hablar con un tomo concreto (fuente). La extensión es su envoltorio APK.</p>
+<p>Extension-source: el repo de CÓDIGO de donde salen los parsers (keiyoushi/extensions-source,</p>
+<p>push 17-sep). El de LECTURA es extensions (índice). Los dos vivitos, los dos abiertos, los dos</p>
+<p>miden sindico treining.</p>
+<p>Rebase: re-escribir el historial del repo con un punto de partida nuevo. Hoy: la</p>
+<p>re-inicialización de agosto hizo que el delta del fork de Suwayomi bajara de miles a 172 —</p>
+<p>cuento de familia GitHub, no de técnicas ocultas.</p>
+<p>Release-based: cada release etiquetada sirve el índice como artefacto completo (v.g. 2.3 de</p>
+<p>20-sep); antes el índice se barría por ramas de texto. Mudanza confirmada 13-de-agosto.</p>
+<p>Lib 16 / v17: las versiones de la librería de soporte tras las obras de agosto-septiembre (manga y rama anime). Los números sirven para compatibilidad: verifica tu reader contra tu índice al entrar (el intercambio Aniyomi+lib 17 vs Yuzono+lib 16 es el detalle de la semana y todos devulevan un día cada uno).</p>
+<p>Deep link add-repo: enlace «añadir índice» que abre directamente tu reader (ya soportado por la</p>
+<p>segunda generación: Anikku). El camino correcto, el único camino sensible.</p>
+<p>Migrar (título): re-pointar un manga de tu biblioteca desde una extensión muerta/inactiva a una</p>
+<p>viva (función nativa del reader). Se existe desde ya: que aparte tu biblioteca no se salva sola.</p>
+<p>------------------</p>
+<p><em>📱 ESCENARIO «SI LA BODEGA CIERRA DE NOCHE» (plan B, C y D — ya pensados)</em></p>
+<p><em>Plan B — mi índice no refresca un día:</em> respira: una tarde de lag del bot no es blackout (están este mes el schedule de la casa central: 19 horas es la regla esta semana, pero se desmarca— «altis month's+mangage to change». Verifica paso 5 antes de anunciar estop en grupo).</p>
+<p>Tus extensiones instaladas siguen leyendo igual. Esperé 24-48 h, y tengo el nombre del Único backup de respaldo apuntado en mi nota (mi segundo índice apenas anotado, no instalado).</p>
+<p>Muero anchisu si el modelo falla por un día: no es emergencia.</p>
+<p><em>Plan C — mi extensión insignia deja de funcionar:</em> primero activar la barra Browser (abrir en WebView la source-url): ¿carga el tomo? Si el tomo carga y la extensión no: el parser se quedó viejo (el sitio cambio su estructura): actualiza tu lector completo y espera al barrido del bot de la mañana — hoyUn arreglo del que hablaba antes?</p>
+<p>A retoo que libran jesualenta: los parsers del mundo mueren «vanillas». Si el tomo ni carga: es tomo difunto (sección de los casos 0yu), migrar tu título ya.</p>
+<p><em>Plan D — mi reader entero se queda atrás:</em> si tu reader queda «sin actualización el año entero» (la madre lo cito con su recibo: el repo de Aniyomi con su nota «A bit about releases…» en inglés básico por ser milenario), la mudanza de almacenes no te ayuda: busca la siguiente generación compatible con tu tipo de media (pieza 06 de esta familia) y planifícate una migración suave, sin tapar el polvo. Las rutinas que se quedan viendo el muelle paidado themyself cambian de sailer — se hace así con calma (transición PA controlada).</p>
+<p>───────────────────</p>
+<p><em>📜 CRÓNICA DEL CUADERNO DE DON PEDRITO (la historia corta del mes)</em></p>
+<p>La del taller que aprendió a abastecer el barrio. Don Pedrito vendía arroz desde 1998, pero su</p>
+<p>depósito nunca fue famoso por el arroz: era famoso por EL CUADERNO —la libreta gigante donde</p>
+<p>anotaba cada provisión.</p>
+<p>Cuando el colmado cerró, el barrio no fue a otro colmado: fue al cuaderno. Di ferencias que no dijeron la versión abuelita: uno, cada mañana el cuaderno escribía el día y la hora (a las 5:45, lápiz bien sacao); dos, la letra de Pedrito era pública sin pedir reseílla ni limosna — la fila de compradores la leía todos en orden; tres, jamás le ensuciaron la libreta: nunca una «cuenta de ahorros» recomendada por el cuchitril, nunca un pollo sin origen; cuatro, cuando llegó el jón, la borra, la sigla, la parafrase: cada una tenía su fecha de llegada.</p>
+<p>Un día el cuaderno se reordenó —el problema de agosto de este taller de palabras: primero llegaron los libros al revés para recopilar el inventario entero, luego los re-empacaron en estanterías con numeros distintos (la release-based del tallercito) — y el barrio entró en pánico dos días al no encontrar «el paquete de abajo a la derecha» en su sitio. Don Pedrito solo les escribió en la primera hoja: «el arroz es el mismo: el estante nuevo tiene su etiqueta».</p>
+<p>Nadie murió de hambre; todos encontraron su saco a la semana. Hoy el cuaderno se llena con lápiz semi-automático — el bot dibujito armado por sus nietos: el joven que le sabe al computé, y la sincronía lo empuja a las tres de la mañana — y el buen lector de este pueblo ya no pregunta «¿quién me vende arroz»: pregunta «¿a qué hora se actualiza el cuaderno del depósito».</p>
+<p>Hay que hacerle zancazo con el estudio: eso es ni más ni menos cómo funciona un índice de bodega</p>
+<p>del software libre — ni sabiduría suprema, ni magia: solo un cuaderno, público, fechado, y una</p>
+<p>comunidad que lo lee ordenada sin quemarse el polvo por el ojo.</p>
+<p>───────────────────</p>
+<p><em>😄 EL MEME DE LA PIEZA: EL INVENTARIO</em></p>
+<p>Dibújate mental: colmado en reposo, madrugada total.</p>
+<pre>
+— ¡AUXILIO! ¡¿QUÉ PASÓ CON MIS ARROCES?!
+  (grito del dueño del colmado recién despierto)
+
+ — Don Pedro, tranquilo: solo recolocamos el
+   cuaderno. ¿No vio el aviso?
+   (el cuaderno, sentado en el traspatio
+    con su nueva portada «release 2.1»)
+
+— ¿AVISO NO ERA SOLO DE TU ABOGADO?
+  ¡YO TENGO 40 MIL CLIENTES!
+  (el dueño, en pijama, levantando las manos)
+
+ — El aviso está en mi capa, don:
+   «Reinitialize release-based extensions repo»
+   13 de agosto. Hoy hace 9 días.
+   (y se toma su batido de avena)
+
+— ¿YO QUÉ LE DIGO AL BARRIO?
+
+ — Que las etiquetas son nuevas y el arroz
+   es el mismo. Y que mañana se barren los
+   pasillos a las 3 AM, como siempre.
+   (el cuaderno pasando de página 😎)
+</pre>
+<p>Todo regicido se resuelve por su registro público antes de cazar culebras: es el ritmo del</p>
+<p>taller con persiana, no capote de group de chat.</p>
+<p>───────────────────</p>
+<p>🌫️ LOS TRES EPISODIOS DE «SE MURIÓ» QUE NO FUERON MUERTES (arqueología de la sobrealarma</p>
+<p>comunitaria)</p>
+<p>En las semanas anteriores a la de hoy, tres episodios que el barrio recibió como «la maldad</p>
+<p>ahí»: contados el mismo día con recibo, y desmentidos todos desde el log público de los tres</p>
+<p>índices:</p>
+<p><em>Episodio 1 — «la central ya no genera actualizaciones».</em> La verdad: un fin de semana de banda del proveedor de infraestructura de compilación (no el código, el servicio de runs) generó desfase visible — y los deshauciados dlos grupos empezaron a propalar fuego con fecha sin placa. La mañana siguiente el bot barrió como si nada (ese no es el dato: hoy hace 19 horas hizo su ronda tal día), y los que dudaron esa noche ahora ven que la bodega tiene los mismos horarios del bot de siempre.</p>
+<p>Lección institucional: un día de lag no es el oblivio — es martes con lluvia.</p>
+<p><em>Episodio 2 — «el fork de Suwayomi quedó abandonado tras la re-inicialización».</em> La verdad: mientras decían eso, la fila B estaba haciendo el trabajo de depuración del código con su ktlint, publicado el día 18 — en un fork, no en el la madre. Si hay carencia, está en la vista de la gente (el nuevo delta «172 commits» da la impresión de «ya casi no existe»): cuando el árbol se re-indexó desde cero, el fork se leyó como «más pequeño» sin serlo en su trabajo.</p>
+<p>GitHub cuenta historias con números que no son velocidades — y esta familia no se deja llevar de números sin su fecha superior.</p>
+<p><em>Episodio 3 — «el cuaderno vietnamita es solo una entrada manual que durará meses».</em> La verdad del hoy: 10.590 commits con el ancestro, +110★ en 7 días, y hoy hace 6 horas barrido nuevo. La entrada manual (la más vieja tecnología del mundo documentaria) sobrevive porque el lápiz de Cuong-Tran permanece afilado: el algoritmo de la actualización aquí es el mantenedor humano que no se dice ustierio del ranking de repos.</p>
+<p>Maneja un cuaderno mejor que muchas bases de datos del mercado — y al barrio le tapó todas las dudas basado en la hora que indentifica en su último nomencklan: «Batch of 6 parsers crawled».</p>
+<p>Cada sobrealarmada tenía su origen comiendo tono: se resolvió con recibo sano y letra clara. El</p>
+<p>barrio aprende mejor en episodios que en cátedra ciudadana con el aprendizaje de la verificación</p>
+<p>con placa y hora.</p>
+<p>───────────────────</p>
+<p><em>🎓 LOS TRES ESCENARIOS DE APRENDIZAJE DE UN NOVATO DEL ÍNDICE (se juega contigo, uno por uno)</em></p>
+<p>Onda corta del taller: si estás aprendiendo el cuidado de lectores libres con placa, estos tres</p>
+<p>escenarios te pondrán a oír las campanas según tocan, no según huelen.</p>
+<p><em>Escenario gamma — «instalé la extensión y no aparece nada».</em> Clásico de entrada: instalaste el comportamiento correcto (extensión desde índice oficial) pero Nunca agregaste el tomo al catálogo de tu lector. La extensión no abre el sitio por sí sola: la abres TÚ desde Browse → Sources → Toom favorito → buscar.</p>
+<p>Dos minutos de manual fundamental ahorra una semana de sobresaltado.</p>
+<p><em>Escenario beta — «mi manga favorito no se actualiza desde el mes».</em> Vaya uno a la trabada: los cambios de último minuto son tres: extensión no actualizando (actualiza el actualizador: revisita en Extensiones), fuente que cambió su sitio (a la fecha de hoy verifica manual en el Browser: ¿carga?), o título parado del autor (¡a veces falla el tomo de verdad! Comprueba en el sitio del tomo si re-bobinó novedades el mes).</p>
+<p>Triple chequeo testimoniado en el mismo bracito: cada clase se revisa y, al fijarte en el recuento, se revela sin miedo a otro escenario nuevo.</p>
+<p><em>Escenario alfa — «hay demasiadas actualizaciones y me ahogo».</em> La primera lección de limpieza del taller sana: todas tus series marcan actualización cuando el índice publica barrido — es normal. Solución casera de siempre: ajustar la rueda del refresco a fin de semana + permitir solo fuentes activas (pausa las históricas al cerrar ¡tres clics de distancia siguiendo el manual!).</p>
+<p>Y verás la biblioteca respira otro aire de inmediato — verdad comprobada, barrio entero.</p>
+<p>───────────────────</p>
+<p><em>📢 NOTA PARA EL GRUPO QUE SIGUE PREGUNTANDO «¿CUÁL ES EL NUEVO ÍNDICE BUENO?»</em></p>
+<p>Con la respuesta absoluta y sin el rebardero naranja: el hoy oficial del cuaderno manga es el central que tu reader te sugiere al declarar (su bot actuó hace 19 horas) e instalaciones de día completas. Pero la respuesta correcta, la de la vara, no es el nombre: es que «Índice bueno» se define por la hora más reciente de su lápiz, no por el rótulo de su logo.</p>
+<p>La guía que necesitas ya la tienes: la brigada de cinco luces de la página anterior. No confíes en el censo de cuando publicamos si tu propio minuto muestra otra cosa — sobre nosotros también haya que verificar, con las mismas manos: así se cultiva un barrio que no necesita ni líderes ni carteles para saber leer al inventario.</p>
+<p>───────────────────</p>
+<p>🗣️ LO QUE DICE CADA BODEGA ESTA MAÑANA (la vuelta lenta al censo)</p>
+<p>La central te dice «rutina blindada»: su lápiz no falla ni los fines de semana — hace 19 horas barrió y reempaquetó como todos los días del trimestre, con su reflector nuevo de releases 2.x (la última, 2.3, salida el 20 anteayer). Si algún día falla, su propio registro público dirá el porqué — es lo que la convierte de anunciante en testigo.</p>
+<p>El fork del consorcio te dice «perfección debajo del radar»: 172 adelante sobre un árbol rehecho en agosto y su update de calidad de código del 18-sep — solo un taller que ama su propia casa detiene el barrido un rato para quitarle militia al enfoque (dos líneas de Ktlint y el PR limpio, healthy como la sanísima). No desconfíes de su tamaño visible: el contador bajó en número porque su base se firmó de nuevo — no porque su oficio bajara.</p>
+<p>La gemela anime te dice «mudanza continua»: su commit de hace tres horas añadió fuente nueva (AniPM), y en sus últimos 18 días montó la rama especial de compatibilidad de la lib 16, el import directo desde el índice central y el clásico ajuste de AnimePahe del 12 — con las mismas estrellas del mes y más ramas abiertas que nunca. Si tu consumo es anime, esa es tu bodega — y el barrio ya lo sabe a voz.</p>
+<p>El molde-bot diario te dice «servicio desconocido»: nadie habla del molde de Keivom, nadie le da premios, y cada madrugada compila y publica su cuaderno en horario que ni los mejores relojeros del barrio pulen. La humildad es la mejor arma del servicio continuo: se hace, se pone en su horario, se queda a la vista — y el rugido de la plaza no cambia su mano cantante.</p>
+<p>El cuaderno manual de Vietnam te dice «persistencia bilingüe»: push esta madrugada, su cebolla de pases (+110★/semana medida) y la misma estructura clara desde hace veinticuatro meses recontados. La entrada manual es la tecnología más antigua del mundo documental — pero está tan bien cuidada que batiendo el pulso de cualquier API inútil del mercado y siguen a su horario siempre los lunes tri.</p>
+<p>Los runners te dicen «resultado visible»: copymanga con su v9.8.0 recién bajada el día de ayer</p>
+<p>(se ciñe al índice central como estadística viva del que depende), Michi con su quincenal</p>
+<p>intacta (v0.3.1, del 3) — los destinatarios del índice publicando mientras tu publico canta: si</p>
+<p>eso no te canta la serenidad de la vara, no te la canta nadie más de este taller.</p>
+<p>Y todos, en conjunto, te dicen «nada de trucos» un fin de semana más: ninguna casa te escribió al DM, ninguna te pidió a usar el código de descuento de su patrocinador, ninguna carga números triples que no comparta el barrio. Mientras eso sea cierto puedes llamarlo ecosistema; cuando deje de serlo, esta familia te lo contará primero — porque la vara no duerme con los ojos cerrados bei nem biessere lera.</p>
+<p>───────────────────</p>
+<p><em>🌐 EL VECINDARIO COMPLETO EN UNA MIRADA (los conectores de esta pieza)</em></p>
+<p>Esta guía se para sola pero se entiende mejor en su familia — las relaciones que realmente se usan al vivirla. De los lectores: la pieza 06 (forks lectores, publicada la tarde de esta misma jornada) lleva el censo de quién consume estos índices (michiyomimihon, copymanga, tus Mihon/Aniyomi/Dantotsu de cabecera) — si tu pregunta va sobre la app, va allá: nosotros llevamos la bodega, ellos los muebles.</p>
+<p>De la apasionante al final que debe esquivar el paracaidismo: la guía de mejores prácticas de biblioteca (la 03), donde están los memos de migración de títulos y respaldos cada viernes. Tu ruta para hoy queda así: lee esta bodega al 100%, práctica de la brigada 5-luces este viernes, y la próxima semana te atreves con la de forks lectores con la misma vara —es el programa del taller, no el anuncio del Mundo.</p>
+<p>───────────────────</p>
+<p><em>🧮 LO QUE APRENDÍ ESTA MAÑANA, CONTADO EN FICHA CORTA (siete apuntes sin jalea)</em></p>
+<p><em>Apunte 1:</em> el índice central ahora publica en su README la ruta del archivo bruto para forks (index.json, index.min.json, index.pb — tres formatos servidos) — con eso cualquiera puede armarse su motor sin ver más secretaria manual: la bodega enseña su cuaderno completo, no solo al mostrador. No lo necesitas tú (usuario), pero lo vive quien construye (desarrollador) — y eso re-sirve el barrio.</p>
+<p><em>Apunte 2:</em> la limpieza de casas más bella de la temporada: «cleanup: remove unused utils files» en el log de la central — literalmente quitar herramientas sin uso del cuaderno. Filtrismo de almacén: lo que no se vende, no se guarda «por si aca».</p>
+<p>Más curioso que el anuncio: más útil es todo esto cuando nadie sale a enseñarse a lápiz de la etiqueta de los cartones.</p>
+<p><em>Apunte 3:</em> los runners del barriso van al compás: copymanga 9.8.0 al día siguiente del re-barrido central (21-sep) — no es coincidencia de pura suerte en la cronología: el índice mudó, el runner migró sus builder los parser al nuevo papeleo y publicó en unas horas. Así se ve la línea de producción cuando nadie miente coordinemás: la reacción en cadena de un sistema dependiente sano.</p>
+<p><em>Apunte 4:</em> los dormidos del censo guarda otra lección: suwayomi/extensions sigue sin un solo empuje del usuario desde su madre (★636); su partida no es una cuestión de abba AB donar — es que su fragmento al índice oficial del escritorio es nominalmente «cero nuevo código a la vista». El dondear vez en tu tablice: hay proyectos vivos cuya respiración se puede ver solo hacia afuera, no en el cuaderno.</p>
+<p><em>Apunte 5:</em> el molde bot diario anime sigue maniándose en la pintura del cuaderno (empuje de la</p>
+<p>madrugada hoy) — y el registro lo confirma: empuje tras empuje, plumito y tiempo — y hoy la</p>
+<p>prueba queda servida: la casa funciona mejor a máquina que a mano (la robótica del taller en</p>
+<p>buen uso).</p>
+<p><em>Apunte 6:</em> la compatibilidad lib 16/v17 se te queda más clara si la lees como dos colectivos de presupuestos que aprobaron reformas en fechas distintas del mismo mes. Flujo de la ordenación: el público decide mucho antes de lo que corrige — y la corrección de hoy ya la prestó cada casa según su recuento.</p>
+<p><em>Apunte 7:</em> y la moraleja dueña de la tarde (preciosa): con toda la reforma y el migratorio en pleno mes, el plato que se les cayó a los usuarios (la indexación de bibliotecas rotas «recargar el repo») se arregló en silencio porque cada índice supo ser transparente con su cadena y sus descriptores — y este taller siempre les dice lo mismo detrás de la barra de bar del teatro: nunca hay incidentes imprevistos a deshoras — es solo que el cuaderno es público al fin. Por eso seguimos leyendo del cuaderno.</p>
+<p>Con la vara pequeña y siempre listo el lápiz.</p>
+<p>───────────────────</p>
+<p>🛠️ CÓMO SE VERIFICÓ ESTA PIEZA (método y vara de hoy)</p>
+<p>Primero, la madre re-leía completa: cada sección de la edición del 15-sep se marcó en un inventario de verificaciones — fichas de índices (cuatro más los dos runners), fechas de medición (14-sep), principios (índice = cuaderno, Tienda ≠ índice, APK genérico = trampa), casos de tomos difuntos, crónica del rehijo de Suwayomi, mudanza de número «1.6». Segundo, verificación viva levantada esta mañana a la hora del té: keiyoushi/extensions con su bot a h19 horas y tag 2.3 al 20-sep confirmado, Suwayomi/tachiyomi-extension con su rebase (172 beyond) y ktlint del 18-sep, ellos haciendo menudo los brigadieres de Github Actions, yuzono/anime-extensions con su commit de hace 3 horas y la legacy-branch de la lib 16 como sigue living, cuong-tran/manga-repo con push de hace 6 horas y estrellas subidas, los runners listados copymanga v9.8.0 del 21-sep y michi v0.3.1 del 3-sep.</p>
+<p>Tercero, lo que esta guía no pudo comprobar y se dice tal cual con fecha: las estrellas exactas de caille secundarios (extensions-source, SkyHanni, aceso a F-Droid catalogo) se citan a los 14-sep cuando se midió por última vez, y la lectura de doubles file no fue realizada en materia cuantitativa no medida hoy. Cuarto, la vara de la casa: modo conteo por longitud de caracteres sin espacios dando humildad por bandas (banda 62.000–64.000 para WhatsApp), anatomía del día completa (el labio del mapa, el cuaderno, la brigada, mitos, facturas, FAQ, glosario, crónica, meme, método), titular sin número de publicación, firma y tags al final.</p>
+<p>Y quinto, la costumbre de la epistemología de este taller: toda tabla de la que no se verificó</p>
+<p>personalmente en la casa correspondiente hoy se etiqueta con su fecha de última verificación o</p>
+<p>se omite, y ninguno «30% de mejora» diferentes sin recibo cuantificable y sin que nadie se las</p>
+<p>crea.</p>
+<p>───────────────────</p>
+<p><em>📝 NOTA DE VERIFICACIÓN — 22 DE SEPTIEMBRE DE 2026</em></p>
+<p>Todas las medidas de este censo con estrellas y hora fueron tomadas esta mañana abriendo cada página de GitHub nombrada (donde no hay duda), con timestamp del commit visible en el log público. Los valores de estrellas se redondean al indicador propio de las páginas (15.0k, 2.7k, 439, 742, 1.1k): con precisión honesta de mostrador, que nunca altera el orden de mayor a menor que esta guía te sirve.</p>
+<p>La re-inicialización de agosto está constada por las señales literales de los releases (<code>WIP: Collection extension/repo migrations</code> 5-ago, <code>Reinitialize release-based extensions repo</code> 13-ago) y los cambios de contabilidad del árbol — no por especulación de calle. Los «dormidos» (suwayomi/extensions ★636, keivom) se citan a su placa del 15-sep, declarado ahí donde esta pieza no fue a medir de nuevo.</p>
+<p>Lo histórico (Tachiyomi removal de su lista oficial enero-2024, cierres de tomos 0yu/cameranovels) se sostiene en su registro de días de entonces. Ningún dato de memoria sola: cada ficha lleva el verificador concreto junto al nombre del dueño.</p>
+<p>Si después de publicado aparece alguna discrepancia, se corrige aquí con fecha de corrección —</p>
+<p>el registro de errores es parte de la vara, no un extra al margen.</p>
+<p>───────────────────</p>
+<p>✍️ CIERRE DEL LADRÓN</p>
+<p>La pieza cuarta del taller, edición dominicano-español, medida renglón por renglón esta mañana con la vara de siempre. El cuaderno del depósito sigue siendo público, fechado cada día, y leído por orden — mientras así sea, el barrio lee mejor que ayer.</p>
+<p>Ya ves que de mudanza en mudanza lo que no cambia es el lápiz: todo lo demás es estantería. Usa</p>
+<p>el cuaderno, revisa el lápiz, y tu lector jamás irá desabastecido.</p>
+<p>Busca más, porque los mejores lectores son los que verifican antes de creer. Con el lápiz</p>
+<p>siempre en la mano y la persiana levantada a las cinco y cuarenta y cinco.</p>
+<p>───────────────────</p>
+<p><em>📎 VERSIÓN COMPACTA (por si solo lees esto)</em></p>
+<p>Los almacenes de extensiones son el ÍNDICE que empaqueta las fuentes de tu lector (mueble vacío + cuaderno comunitario). Censo de hoy 22-sep-2026: índice manga central con bot activo hace 19 horas (releases 2.3 del 20-sep), su fork del consorcio Suwayomi con rebase de agosto y push del 18-sep, la rama anime con commit de hace 3 horas, el molde-bot diario, el cuaderno manual vietnamita con push de hace 6 horas y +110★ en semana, y los runners vigentes (copymanga 9.8.0 ayer / michi 0.3.1 del 3-sep).</p>
+<p>La renovación grande del trimestre: la bodega central re-empaquetó su cuaderno release-based (5-13 ago) y hoy hablamos de lib 16/v17 — todos constados en abrojos públicos. Las tres tareas: índice ≠ tienda de apps, fuentes se instalan/actualizan dentro del lector tras declarar el índice, APKs de «pack de extensiones» son siempre mal pote.</p>
+<p>Regla madre: verifica la hora del bot, no el vértigo del grupo.</p>
+<p>---</p>
+<p>*La Bandita informa a partir de fuentes fechadas. Un índice no es el contenido: es el</p>
+<p>inventario. Quien tenga el mejor cuaderno, gana el arroz.*</p>
+<p>#LaBandita #AlmacenesDeExtensiones #KeiSource #Suwayomi #ForksHermanos #CensoDeHoy</p>
+<p>#LecturaVerificada #FuenteFechada #BodegaViva #SegundoAñoDelBarrio #SinGemelas</p>
+<p>#RepublicaDominicana</p>
+<p>📝 <em>RE-CORTE 15-oct-2026 (censo de API).</em> El índice central sigue creciendo: keiyoushi/extensions</p>
+<p>★15.226 con push de HOY, y su fuente keiyoushi/extensions-source ★4.790, también con push de</p>
+<p>HOY. Las demás filas conservan su medición original.</p>
+<p>───────────────────</p>
+<p>💓 <em>PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 04).</em></p>
+<p>dormidos · 0 archivados.</p>
+<p><em>📋 LA FICHA DE HOY</em></p>
+<ul>
+<li><strong>keiyoushi/extensions</strong> — «Extension repository for Mihon and variants»</li>
+</ul>
+<p>  ★15.372 · empujó hoy · licencia sin archivo LICENSE en su repo (verificado) · HTML · última release dbf6c05 (2026-10-29) · <a href="https://github.com/keiyoushi/extensions">https://github.com/keiyoushi/extensions</a> · Web: <a href="https://keiyoushi.github.io/">https://keiyoushi.github.io/</a></p>
+<p>  Temas: keiyoushi · mihon</p>
+<ul>
+<li><strong>keiyoushi/extensions-source</strong> — «Source code of extensions in <a href="https://github.com/keiyoushi/extensions»">https://github.com/keiyoushi/extensions»</a></li>
+</ul>
+<p>  ★4.831 · empujó hoy · licencia Apache-2.0 · Kotlin · <a href="https://github.com/keiyoushi/extensions-source">https://github.com/keiyoushi/extensions-source</a> · Web: <a href="https://keiyoushi.github.io/">https://keiyoushi.github.io/</a></p>
+<p>  Temas: android · hacktoberfest · kotlin · mihon · tachiyomi</p>
+<ul>
+<li><strong>LittleSurvival/copymanga-copy20</strong> — «Mihon/Tachiyomi系列 拷貝漫畫等中文資源的書源 相關社群見readme»</li>
+</ul>
+<p>  ★2.972 · su último empuje fue el 2026-10-11 (hace 18 días) · licencia sin archivo LICENSE en su repo (verificado) · Smali · última release hipmh-v1.4.1 (2026-10-11) · <a href="https://github.com/LittleSurvival/copymanga-copy20">https://github.com/LittleSurvival/copymanga-copy20</a> · Web: <a href="https://discord.gg/kE2VAZk2pd">https://discord.gg/kE2VAZk2pd</a></p>
+<p>  Temas: baozimanhua · copy20 · copymanga · extension · mihon · suwayomi</p>
+<ul>
+<li><strong>yuzono/anime-extensions</strong> — su repo no trae descripción oficial</li>
+</ul>
+<p>  ★521 · empujó hoy · licencia Apache-2.0 · Kotlin · <a href="https://github.com/yuzono/anime-extensions">https://github.com/yuzono/anime-extensions</a></p>
+<ul>
+<li><strong>cuong-tran/manga-repo</strong> — «Extensions for Komikku / Mihon &amp; forks.»</li>
+</ul>
+<p>  ★462 · empujó hoy · licencia sin archivo LICENSE en su repo (verificado) · HTML · última release bee7e8a (2026-10-29) · <a href="https://github.com/cuong-tran/manga-repo">https://github.com/cuong-tran/manga-repo</a> · Web: <a href="https://yuzono.github.io">https://yuzono.github.io</a></p>
+<p>  Temas: extension · komikku · manga · mihon · tachiyomi</p>
+<ul>
+<li><strong>Suwayomi/tachiyomi-extension</strong> — «Suwayomi Extension for Tachiyomi and variants»</li>
+</ul>
+<p>  ★346 · su último empuje fue el 2026-09-19 (hace 40 días) · licencia Apache-2.0 · Kotlin · <a href="https://github.com/Suwayomi/tachiyomi-extension">https://github.com/Suwayomi/tachiyomi-extension</a></p>
+<p>  Temas: tachiyomi · tachiyomi-extensions</p>
+<p><em>🎯 MINI-QUIZ DE HOY</em></p>
+<p><em>1.</em> Con los números de hoy, ¿qué repo de la pieza va primero en ★?</p>
+<p><em>2.</em> ¿Con qué licencia sale keiyoushi/extensions-source?</p>
+<p><em>3.</em> ¿De quién es el empuje más fresco del grupo?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>REV|273.51★ — snoisnetxe/ihsuoyiek=1|REV|0.2-ehcapA=2|REV|92-01-6202 — oper-agnam/nart-gnouc=3</p>
+<p>💓 Hoy, jueves 29 de octubre de 2026, se midieron en vivo 6 repos y 0 enlaces de esta pieza: 6 vivos, 0 firmados con su estado en la ficha. El texto es el de la casa; la ficha, la de hoy.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

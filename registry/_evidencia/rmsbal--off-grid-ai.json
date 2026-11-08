@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-06-19T13:43:04Z",
+   "oid": "23ee0e9d9a3f972783ed00f5bddbc8f023f0c98d"
+  }
+ },
+ "diskUsage": 143358,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "rmsbal/off-grid-ai",
+ "pushedAt": "2026-06-20T08:17:41Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

@@ -1,0 +1,307 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Capítulo 8 · La red · Guía Maestra</title><style>
+:root{--papel:#f5f7fa;--tinta:#1f2933;--suave:#5b6673;--linea:#e0e5ec;--acento:#2b6cb0;--alerta:#8a2b2b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papel);color:var(--tinta);font:16px/1.68 Georgia,'Times New Roman',serif}
+.hoja{max-width:1080px;margin:0 auto;padding:34px 22px 70px}
+.rejilla{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+.col-12{grid-column:span 12}.col-8{grid-column:span 8}.col-4{grid-column:span 4}
+header{border-bottom:3px double var(--linea);padding-bottom:16px;margin-bottom:26px}
+h1{font-size:2.15rem;line-height:1.18;margin:.2em 0 .3em;letter-spacing:-.01em}
+h2{font-size:1.42rem;margin:2.1em 0 .5em;border-left:5px solid var(--acento);padding-left:12px}
+h3{font-size:1.12rem;margin:1.7em 0 .35em}
+p{margin:.65em 0}
+.ficha{background:#fff;border:1px solid var(--linea);border-radius:10px;padding:20px 22px;margin:22px 0;box-shadow:0 1px 0 #fff inset}
+.sello{display:inline-block;background:var(--tinta);color:#fff;border-radius:999px;padding:2px 11px;font:600 12px/1.9 system-ui,sans-serif;letter-spacing:.03em}
+.n0{background:#2f6b4f}.n1{background:#8a6d1f}.n2{background:#8a2b2b}
+.meta{color:var(--suave);font:13px/1.6 system-ui,sans-serif}
+.capa{border-top:1px dashed var(--linea);margin-top:16px;padding-top:12px}
+.capa h4{margin:.2em 0 .4em;font:700 13px/1.4 system-ui,sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--acento)}
+ol,ul{padding-left:22px}li{margin:.35em 0}
+code,pre{font-family:'DejaVu Sans Mono',ui-monospace,monospace;font-size:.9em}
+code{background:#eef1f5;padding:1px 5px;border-radius:4px}
+pre{background:#1f2933;color:#f5f7fa;padding:12px 14px;border-radius:8px;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font:14px/1.5 system-ui,sans-serif;margin:12px 0}
+th,td{border-bottom:1px solid var(--linea);padding:7px 8px;text-align:left;vertical-align:top}
+th{background:#eef1f5}
+.aviso{background:#fff;border-left:5px solid var(--alerta);padding:12px 16px;margin:16px 0}
+footer{margin-top:44px;border-top:3px double var(--linea);padding-top:14px;color:var(--suave);font:13px/1.6 system-ui,sans-serif}
+a{color:var(--acento)}
+@media(max-width:760px){.col-8,.col-4{grid-column:span 12}}
+</style></head>
+<body><div class="hoja"><p class="meta"><a href="index.html">← Guía Maestra</a> · capítulo 8</p>
+<h1>Capítulo 8 · La red</h1><h2>Qué vas a poder hacer al terminar</h2><p>Entrar a los servidores de tu casa desde la calle como si estuvieras sentado en el living, salir a internet desde otro lugar sin que tu proveedor sepa a qué sitios vas, y entender —sin humo— qué te da y qué no te da cada una de esas cosas.</p><p>Y vas a poder descartar lo que no hace falta. La mitad de este capítulo es una lista de cosas que la gente configura sin necesidad, paga sin necesidad o teme sin necesidad. Saber qué sobra vale tanto como saber qué poner.</p><h2>La regla que ordena el capítulo: una VPN es un túnel, no un escudo</h2><p>Una red privada virtual hace una sola cosa: <strong>mover tu tráfico dentro de un túnel cifrado entre dos extremos que vos elegís</strong>. En un extremo estás vos; en el otro, alguien. Todo lo demás —privacidad, anonimato, saltarse un bloqueo, acceder a la casa— es una consecuencia de quién está en ese otro extremo, y no una propiedad del túnel.</p><p>De ahí salen las tres preguntas que resuelven cualquier caso, y que conviene hacerse antes de instalar nada:</p><ul><li><strong>¿Quién está en el otro extremo?</strong> Si es tu casa, te estás dando acceso a tus cosas. Si es una empresa, le estás entregando tu tráfico a ella en lugar de a tu proveedor.</li><li><strong>¿Qué querés proteger?</strong> Lo que va por el túnel, o el hecho de que estás conectado. No es lo mismo.</li><li><strong>¿De quién te protegés?</strong> Del wifi del café, de tu proveedor, de un bloqueo, o de un sitio que quiere saber dónde estás. Cada respuesta pide una configuración distinta.</li></ul><p>Un túnel bien puesto contesta las tres con claridad. Un túnel mal puesto deja la sensación de estar protegido y el problema intacto.</p><h2>La ruta de decisión, en cuatro preguntas</h2><p><strong>Si querés entrar a tu casa desde afuera</strong> —el servidor de fotos, la biblioteca, el equipo de escritorio— → <strong>wg-easy</strong> para empezar: es WireGuard con una pantalla web para generar los accesos. Si querés además que todos tus aparatos se vean entre sí estén donde estén, <strong>Headscale</strong>, que coordina los clientes oficiales de Tailscale desde tu propio servidor.</p><p><strong>Si lo que querés es salir a internet desde otro sitio</strong> → un servicio de pago con cliente libre, como <strong>Mullvad</strong>. Y acá va la advertencia del capítulo: las redes privadas virtuales gratuitas no son gratis; alguien paga el servidor, y si no pagás vos, el producto sos vos.</p><p><strong>Si lo que querés es esquivar un bloqueo en tu país o en tu red</strong> → <strong>Hiddify</strong> si querés algo que funcione sin entenderlo, <strong>sing-box</strong> si querés configurar cada detalle y saber exactamente qué regla manda cada conexión.</p><p><strong>Si tenés un equipo con varios aparatos y querés administrarlos como una sola red</strong> → <strong>NetBird</strong>, que hace la red privada entre máquinas y además controla quién entra.</p><h2>Los tres túneles que la gente confunde</h2><p><strong>La red privada comercial.</strong> Te conecta a un servidor de una empresa. Te protege del wifi del café y de tu proveedor; no te protege de la empresa, que ahora ve lo que antes veía tu proveedor. No te hace anónimo, y su publicidad lo insinúa todos los días.</p><p><strong>La red privada hacia tu casa.</strong> Te conecta a tu propio servidor. Ahí no hay nadie mirando: el extremo es tuyo. Es lo que sirve para entrar a tus archivos desde la calle, y es la única de las tres que mejora tu privacidad sin empeorarla en otro lado.</p><p><strong>El proxy.</strong> No crea un túnel para todo el aparato: desvía conexiones concretas por otro camino, con reglas. Es más fino y más frágil, y es lo que se usa cuando lo que hay que resolver es un bloqueo y no una red entera.</p><p>Las tres ocupan el mismo recurso del teléfono: <strong>un solo túnel de red privada por usuario</strong>, como quedó explicado en el capítulo 5. Y eso tiene una consecuencia práctica que se sufre a diario: activar la red privada comercial <strong>apaga</strong> el bloqueo de anuncios, y al revés. Quien quiera las dos cosas a la vez necesita una aplicación que haga las dos —Rethink, o un proxy con reglas—, o root.</p><h2>Lo que no hace falta</h2><p>Esta lista vale más que muchas recomendaciones.</p><p><strong>No hace falta una red privada para navegar por wifi en tu casa.</strong> El tráfico ya va cifrado por el sitio al que entrás, salvo el nombre del sitio. Lo que se gana con un túnel casero es poco y lo que se paga en complejidad es mucho.</p><p><strong>No hace falta un túnel para cada objetivo.</strong> Tres aplicaciones instaladas, una activa, dos peleándose por el mismo recurso: es el error más común que se ve en los teléfonos de la gente que se interesa por esto.</p><p><strong>No hace falta abrir nada a internet si el túnel alcanza.</strong> Un servidor de casa con puerto abierto es una puerta; un túnel es una puerta que sólo se abre desde adentro. Casi todo lo que la gente abre al mundo se puede resolver con un túnel, y eso reduce el riesgo a la mitad.</p><p><strong>No hace falta creer que el túnel arregla el sitio que visitás.</strong> Si entrás a un sitio con tu cuenta, ese sitio sabe quién sos, tengas túnel o no.</p><h2>Cómo se comprueba que un túnel funciona</h2><p>No hay que creerle a la aplicación: hay que preguntarle al sistema y a la red.</p><p><strong>El túnel está arriba.</strong> En el teléfono, el icono de llave en la barra; en la computadora, la interfaz de red que aparece. Si no está, no hay túnel, por más que la aplicación diga «conectado».</p><p><strong>La dirección de salida cambió.</strong> Antes de activar, anotá la dirección con la que te ve internet; después de activar, mirala otra vez. Si es la misma, el túnel no está pasando tu tráfico.</p><p><strong>El otro extremo contesta.</strong> Si el túnel va a tu casa, pedile algo a un equipo de tu casa. Si contesta, el túnel sirve para lo que lo pusiste; si no, tenés una conexión que existe y no lleva a ninguna parte.</p><p><strong>La prueba del corte.</strong> Desconectá el túnel y comprobá que el acceso a tu casa se corta. Un túnel que no se nota al apagarlo es un túnel que no estaba haciendo nada.</p><h2>Los cuatro errores que se pagan</h2><p><strong>Abrir puertos por comodidad.</strong> El servidor de fotos con el puerto abierto a internet es la forma más común de perder una biblioteca entera: los escaneos automáticos encuentran esos puertos en horas, no en meses. El túnel existe para no tener que hacerlo.</p><p><strong>Dejar el túnel abierto en redes ajenas sin límites.</strong> Un túnel hacia tu casa desde el wifi de un hotel es un camino abierto en las dos direcciones: mientras está activo, también se puede entrar a tu casa por ahí si las reglas están mal puestas.</p><p><strong>Guardar las llaves en el chat.</strong> Las configuraciones de estos programas son llaves: quien la tiene, entra. Se comparten por un canal que se pueda borrar y se revocan cuando alguien deja de necesitarlas.</p><p><strong>Confiar en el «no registra nada».</strong> Un servicio puede no guardar registros y aun así verte en tiempo real. La afirmación que vale es la que se puede auditar, y por eso el capítulo 5 existe.</p><h2>Una nota sobre las licencias, que acá importa</h2><p>Tres de las seis fichas de este capítulo declaran licencias que no son un simple nombre, y conviene leerlas antes de adoptar el programa en serio.</p><p><strong>Hiddify</strong> se publica bajo la licencia pública general de GNU <strong>con condiciones adicionales</strong> al amparo de su sección 7: no es exactamente GPL a secas, y el proyecto lo dice en la primera línea de su archivo de licencia. <strong>sing-box</strong> es GPL, pero su rama principal se llama <code>testing</code> y sus entregas son versiones de prueba: quien instala la última está usando software en movimiento. Y <strong>NetBird</strong> aplica una licencia permisiva a la mayor parte del repositorio <strong>excepto</strong> a las carpetas del servidor de administración, la señalización y el relé, que van bajo una licencia copyleft fuerte.</p><p>Ninguna de las tres es una trampa: son formas legítimas de publicar. Lo que no es legítimo es un catálogo que escriba «open source» y no diga cuál de las tres es. Esta guía la escribe, y el dato está en cada ficha con su enlace al archivo.</p><h2>Antes de irte: la prueba de las dos personas</h2><p>Dale este capítulo a alguien que nunca configuró una red privada: si consigue entrar a una carpeta de su computadora desde el teléfono con los datos móviles, y sabe explicar por qué eso no es lo mismo que contratar una red privada comercial, el capítulo sirve.</p><p>Y dalo a alguien que administra redes: si no encuentra al menos un dato que no supiera —que Tailscale se puede usar con un servidor propio porque su protocolo está reimplementado en Headscale, que Hiddify publica una GPL con condiciones adicionales, que la rama principal de sing-box es la de pruebas, que NetBird separa la licencia por carpetas, que sólo hay un túnel por usuario y por eso todo se pelea con todo—, el capítulo no sirve y hay que reescribirlo.</p><h2>Las seis fichas</h2><p>Van de lo más simple a lo más fino: primero entrar a tu casa, después salir de la tuya, después esquivar un bloqueo, y al final administrar una red entera. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando. Todas se midieron el 3 de noviembre de 2026 abriendo sus entregas, sus licencias y sus repositorios.</p>
+<h2>Las 6 fichas del capítulo</h2>
+
+<article class="ficha">
+  <h3>wg-easy <span class="meta">· wg-easy/wg-easy</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>55/100</strong> ·
+    ★27,392 · 1992 días · última entrega 2026-10-24 ·
+    0 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 37 abiertas.
+  </p>
+  <p>Entrar a los servidores y carpetas de tu casa desde la calle con una red privada propia, con una pantalla web para crear y revocar los accesos.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien ya tiene algo en casa al que quiere llegar desde afuera —fotos, archivos, un equipo encendido— y no quiere abrir puertos a internet.
+     <br><strong>Para quién no es:</strong> para quien quiere salir a internet desde otro país: esto conecta tus aparatos con tu casa, no te cambia la dirección de salida hacia el mundo.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Consigue un equipo en casa que pueda quedarse encendido —el mismo del capítulo 7 sirve— y anota su dirección en la red local.</li>
+<li>Instálalo siguiendo la guía del proyecto, que lo levanta en un contenedor y publica el puerto de administración y el del túnel.</li>
+<li>Entrá a la pantalla de administración desde la red de casa, creá el primer perfil y descargá su configuración o su código para el teléfono.</li>
+<li>Con el wifi apagado y los datos móviles encendidos, activá el perfil en el teléfono y abrí la dirección interna del equipo de casa: si aparece, el túnel está haciendo su trabajo.</li>
+<li>Creá un perfil aparte para cada aparato y para cada persona, y revocá el de cualquier aparato que dejes de usar: un perfil es una llave.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Desde cualquier red del mundo entrás a tu casa con una llave propia, y cuando revocás un perfil ese aparato deja de entrar en el acto.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si no conecta desde los datos móviles, revisá la dirección del extremo en el perfil: tiene que ser una dirección pública o un nombre que resuelva a tu casa.</li>
+<li>Si el túnel levanta pero no llegás a las carpetas, el problema es el reenvío dentro de casa: el túnel entrega el paquete y falta decirle a qué equipo va.</li>
+<li>Si la conexión se corta cada tanto, es normal en redes móviles: el túnel se reconecta solo, y por eso se comprueba por el intercambio de llaves y no por el estado del icono.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Borrar un perfil lo invalida al instante: ese aparato deja de entrar aunque conserve el archivo. Detener el contenedor cierra todos los accesos sin borrar las llaves, y desinstalarlo no toca tus archivos, que están en otra parte.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>wg-easy no es una red privada: es un envoltorio. Debajo está WireGuard, el protocolo de túneles que hoy está dentro del núcleo de Linux y que se caracteriza por ser pequeño, rápido y silencioso: no responde a quien llama sin la llave correcta. Un escaneo de puertos no ve nada, y eso es la mitad de su valor.</p>
+<p>Lo que agrega el envoltorio es lo que falta en el mundo de WireGuard: una pantalla. Crear un par de llaves, descargar la configuración, mostrar el código para escanear desde el teléfono y revocar un acceso son operaciones de una consola; acá son botones. Para quien empieza, esa diferencia decide si la red privada casera existe o no.</p>
+<p>Y hay una decisión de arquitectura que hay que entender: cada aparato que entra es un <strong>par de llaves</strong> distinto. Por eso se crea un perfil por aparato y no se comparte uno entre todos: revocar es borrar un par, y si todos comparten el mismo, revocar a uno es revocar a todos.</p>
+    <p><strong>Límites:</strong></p><ul><li>Requiere que tu casa tenga una dirección alcanzable desde afuera, o un nombre que apunte a ella: sin eso, el túnel no tiene por dónde empezar.</li>
+<li>No cambia tu dirección de salida a internet: sirve para entrar a tu casa, no para ocultarte.</li>
+<li>Ocupa el único túnel disponible del teléfono, igual que cualquier otra red privada.</li>
+<li>Es una pieza de administración: si el equipo que lo corre se apaga, no hay accesos hasta que vuelva.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>WireGuard no tiene sesiones: tiene <strong>intercambios de llaves</strong>, y cada uno deja una marca de tiempo. Eso da una forma de comprobar la salud del túnel que no depende de ninguna interfaz ni de ningún color: si la fecha del último intercambio de un aparato es de hace un minuto, ese aparato está conectado; si es de hace tres días, ese perfil está ahí pero nadie lo usa, y probablemente se pueda revocar. Los programas de administración muestran ese dato si se lo pides. Y sirve para lo que ninguna pantalla contesta: saber cuál de los perfiles que creaste está vivo de verdad y cuál quedó olvidado en un teléfono que ya no existe.</p>
+    <p><strong>Cómo se comprueba:</strong> Conectá un aparato, usá el túnel y después pedile al servidor la lista de pares conectados. Cada uno aparece con su último intercambio de llaves y cuánto subió y bajó. Repetilo con el aparato desconectado y mirá cómo el dato deja de moverse.</p>
+    <pre><code>docker exec wg-easy wg show</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Compartir un mismo perfil entre varios aparatos y después no poder revocar a uno sin cortar a todos.</li>
+<li>Dejar el puerto de administración de la pantalla web expuesto a internet, que es abrir la puerta que el túnel venía a evitar.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/juanfont/headscale">juanfont/headscale</a>, <a href="https://github.com/netbirdio/netbird">netbirdio/netbird</a></p></div>
+
+  <p class="meta">Programa de wg-easy y sus colaboradores · AGPL-3.0 · medido el 3 de noviembre de 2026 · licencia AGPL-3.0
+     (<a href="https://github.com/wg-easy/wg-easy/blob/master/LICENSE">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Mullvad VPN <span class="meta">· mullvad/mullvadvpn-app</span></h3>
+  <p class="meta">
+    <span class="sello n0">principiante</span>
+    &nbsp;nota <strong>69/100</strong> ·
+    ★7,743 · 3242 días · última entrega 2026-09-30 ·
+    184,525 descargas en 10 entregas · 91 personas ·
+    5 flujos de compilación · incidencias 114 abiertas.
+  </p>
+  <p>Salir a internet desde otro lugar con un cliente auditable, una cuenta que no pide correo y la posibilidad de comprobar cada archivo que se instala.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien quiere una red privada comercial que se pueda examinar: cliente libre, cuentas sin identidad y archivos con firma separada.
+     <br><strong>Para quién no es:</strong> para quien busca anonimato: una red privada comercial cambia quién te ve, no te vuelve invisible, y este servicio tampoco lo promete.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Bajá la aplicación desde su repositorio —no desde un enlace de un grupo— y comprobá la firma separada que acompaña al archivo antes de instalar.</li>
+<li>Al abrirla, generá una cuenta: el servicio entrega un número en lugar de un correo, y ese número es la única llave de la cuenta.</li>
+<li>Anotá ese número en dos lugares físicos distintos: sin él no hay recuperación posible, y esa incomodidad es precisamente la que evita que tu identidad quede atada al servicio.</li>
+<li>Activá el interruptor de corte, que corta internet si el túnel se cae, y elegí la ubicación por país o por servidor concreto.</li>
+<li>Comprobá lo que de verdad importa: antes y después de conectar, mirá desde qué dirección te ve internet, y verificá que haya cambiado.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Tu tráfico sale desde otro lugar, el túnel corta la conexión si se cae, y el archivo que instalaste coincide con la firma que el proyecto publica.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si te quedás sin internet al activar, es el interruptor de corte haciendo su trabajo y el túnel sin establecerse: probá otro servidor o protocolo.</li>
+<li>Si perdés el número de cuenta, no hay recuperación: el servicio no pide correo y por eso no puede devolverte nada.</li>
+<li>Si un sitio te bloquea estando conectado, cambialo de servidor: muchas plataformas bloquean rangos enteros de direcciones conocidas.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Desconectar el túnel devuelve tu conexión normal en un segundo. La cuenta se puede cerrar sin dejar rastro, y el servicio no conserva datos de navegación; lo que sí queda es el pago, que conviene hacer con un método que no diga más de lo necesario.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Mullvad es la excepción del mercado: cobra lo mismo a todos, no tiene plan gratuito, no pide correo y publica el cliente completo con licencia libre para que cualquiera pueda leer qué hace con tus datos. Esa combinación es la que permite discutirla con argumentos y no con simpatía.</p>
+<p>Su cliente publica cada archivo junto a su firma separada, y eso convierte la instalación en un acto verificable: se comprueba la firma antes de ejecutar, igual que se comprueba una APK con su <code>.asc</code> en el capítulo 4. Cuarenta y seis adjuntos con huella en sus diez últimas entregas y ciento ochenta y tres mil quinientas veinte descargas: no es el cliente más popular del mundo, y sí uno de los pocos que documenta cómo comprobarlo.</p>
+<p>Y su límite es el de toda red privada comercial, sin adornos: el extremo del túnel es una empresa. Cambia quién te ve —tu proveedor deja de verlo, ella empieza—. Eso protege del wifi del café y de la red del trabajo; no protege de la empresa, y no te vuelve anónimo frente al sitio que visitás con tu cuenta abierta.</p>
+    <p><strong>Límites:</strong></p><ul><li>Es un servicio de pago: no hay plan gratuito, y eso es parte de su modelo, no un defecto.</li>
+<li>El extremo del túnel es una empresa: cambia a quién le entregás tu tráfico, no lo elimina.</li>
+<li>Ocupa el único túnel del teléfono: con un bloqueador de anuncios activo, uno de los dos se apaga.</li>
+<li>Perder el número de cuenta es perder la cuenta: no hay correo de recuperación.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Una cuenta sin correo cambia el cálculo de lo que se puede perder. El servicio entrega un número de dieciséis dígitos y no guarda nada que lo relacione con una persona: ni nombre, ni correo, ni teléfono. La ventaja es evidente; la contrapartida también, y casi nadie la piensa antes de pagar: si ese número se pierde, no existe un «recuperar contraseña». Es la misma lección del capítulo 7 con las copias cifradas —la llave es tuya y también es tu responsabilidad— aplicada a una suscripción. Y tiene una consecuencia práctica que se puede comprobar en la aplicación: las cuentas no se pueden buscar por correo porque no hay correo, y el servicio no puede avisarte de nada.</p>
+    <p><strong>Cómo se comprueba:</strong> Abrí los datos de tu cuenta en la aplicación y mirá qué información existe sobre vos. Después pedile al sistema el listado de aparatos vinculados a la cuenta: es corto, es tuyo y se puede vaciar de un toque, sin pasar por ninguna persona.</p>
+    <pre><code>mullvad account get &amp;&amp; mullvad relay list | head -20</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Bajar el instalador de un enlace de mensajería en lugar del repositorio, y quedarse con un binario que nadie firmó.</li>
+<li>Creer que estar conectado a un servicio extranjero te hace anónimo frente a un sitio donde tenés sesión abierta.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/hiddify/hiddify-app">hiddify/hiddify-app</a>, <a href="https://github.com/SagerNet/sing-box">SagerNet/sing-box</a></p></div>
+
+  <p class="meta">Programa de Mullvad VPN AB · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/mullvad/mullvadvpn-app/blob/main/LICENSE.md">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Hiddify <span class="meta">· hiddify/hiddify-app</span></h3>
+  <p class="meta">
+    <span class="sello n1">intermedio</span>
+    &nbsp;nota <strong>50/100</strong> ·
+    ★33,634 · 1263 días · última entrega 2026-11-03 ·
+    9,709,781 descargas en 10 entregas · 79 personas ·
+    5 flujos de compilación · incidencias 40 abiertas.
+  </p>
+  <p>Salir adelante cuando la red está bloqueada, con un cliente que elige y combina configuraciones sin pedirte que entiendas el protocolo.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien vive o viaja donde la red filtra y necesita un cliente que pruebe configuraciones y funcione sin conocimientos técnicos.
+     <br><strong>Para quién no es:</strong> para quien sólo quiere privacidad en el wifi del café: para eso sirve una red privada normal, y esta aplicación es más complicada de lo necesario.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Bajá la aplicación del repositorio del proyecto, eligiendo el archivo que corresponde a tu aparato, y comprobá la descarga.</li>
+<li>Al abrirla, importá una configuración —un enlace o un archivo que te haya pasado quien administra el servicio—; sin configuración, esta aplicación no tiene a dónde conectarse.</li>
+<li>Activá el modo automático y dejá que pruebe: el programa elige entre las configuraciones disponibles y muestra cuál está usando.</li>
+<li>Comprobá que el túnel funciona por fuera de la aplicación: mirada la dirección desde la que te ve internet antes y después.</li>
+<li>Revisá las reglas de qué aplicaciones pasan por el túnel y cuáles van directo, para no mandar por el camino lento lo que no lo necesita.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> La red bloqueada deja de ser un problema: el cliente elige una configuración que funciona, la mantiene y te avisa cuando cambia.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si nada conecta, el problema no es la aplicación: la configuración está vencida o el servidor no responde. Pedí una nueva.</li>
+<li>Si funciona una aplicación y otra no, mirá las reglas por aplicación: el modo automático puede estar mandando todo por el túnel, incluido lo que no debe.</li>
+<li>Si el teléfono calienta y la batería se va, es el coste real de estos protocolos: conviene activarlo cuando hace falta y no dejarlo siempre.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Desactivar el túnel devuelve la conexión normal al instante. Las configuraciones importadas quedan guardadas en el teléfono y conviene borrarlas cuando ya no se usen: son llaves de acceso a un servidor ajeno.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Hiddify es una envoltura amable sobre motores más duros: por dentro usa sing-box y otras familias de protocolos, y por fuera ofrece un botón que dice conectar. Su trabajo real es la <strong>selección</strong>: probar las configuraciones que le diste, medir cuál responde y mantener la mejor, sin que el usuario vea un archivo de configuración.</p>
+<p>Sus cifras son las de una herramienta que se usa donde hace falta: treinta y tres mil seiscientas dieciocho estrellas y <strong>nueve millones seiscientas noventa y seis mil setenta y siete descargas</strong> en sus diez últimas entregas, con una entrega el mismo día de esta medición. Cuando una aplicación de esta categoría publica todos los días, casi siempre es porque hay gente que depende de ella para trabajar.</p>
+<p>Y su licencia merece leerse: se publica como <strong>licencia pública general de GNU con condiciones adicionales</strong> al amparo de su sección 7, y el proyecto lo dice en la primera línea de su archivo. No es GPL a secas ni es propietaria: es una tercera cosa, legítima y con efectos concretos sobre cómo se puede redistribuir. Un catálogo que la llame simplemente «open source» está ahorrándose la parte que importa.</p>
+    <p><strong>Límites:</strong></p><ul><li>No funciona sin una configuración que alguien te dé: no es un servicio, es un cliente.</li>
+<li>Consume batería de forma notoria: mantener un túnel con protocolos de camuflaje cuesta.</li>
+<li>Su licencia es GPL con condiciones adicionales, no GPL a secas.</li>
+<li>Ocupa el único túnel del teléfono, y su modo automático puede ocultar qué regla está actuando.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>Estas aplicaciones no prometen «conectar»: eligen. Debajo hay una lista de configuraciones —cada una con su servidor, su protocolo y su forma de camuflarse— y el programa prueba, mide y se queda con la que responde. Por eso el dato que hay que mirar no es si el botón está verde, sino <strong>cuál</strong> de las configuraciones está en uso y cuánto tarda en responder: si cambia cada pocos minutos, tu acceso está en problemas, y si se queda quieta durante días, el camino está estable. Ese dato existe en la pantalla de la aplicación y casi nadie lo lee, aunque es el que explica por qué a veces va rápido y a veces no.</p>
+    <p><strong>Cómo se comprueba:</strong> Abrí el detalle de la conexión activa y anotá qué configuración y qué protocolo está usando. Repetí la lectura a distintas horas del día: el cambio de configuración es la señal de que la red del otro lado está filtrando.</p>
+    <pre><code>adb shell dumpsys connectivity | grep -i -A3 &#x27;VPN&#x27; | head -20</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Usar configuraciones de origen desconocido: quien las entrega puede ver todo lo que pasa por su servidor.</li>
+<li>Dejar la aplicación conectada todo el día y quedarse sin batería justo cuando hace falta.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/SagerNet/sing-box">SagerNet/sing-box</a>, <a href="https://github.com/mullvad/mullvadvpn-app">mullvad/mullvadvpn-app</a></p></div>
+
+  <p class="meta">Programa de Hiddify y sus colaboradores · GPL-3.0 con condiciones adicionales (sección 7) · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/hiddify/hiddify-app/blob/main/LICENSE.md">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>sing-box <span class="meta">· SagerNet/sing-box</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>49/100</strong> ·
+    ★39,625 · 1588 días · última entrega 2026-10-24 ·
+    1,955,267 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 364 abiertas.
+  </p>
+  <p>Dirigir cada conexión del aparato por el camino que corresponde, con reglas escritas en un archivo y con la posibilidad de comprobarlo antes de aplicarlo.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien quiere reglas finas —qué aplicación, qué dominio, qué red— y prefiere leer un archivo de configuración a confiar en un botón automático.
+     <br><strong>Para quién no es:</strong> para quien empieza: un archivo de configuración mal escrito deja el aparato sin internet y sin pistas.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Instalá el cliente de Android desde su entrega, o el programa de escritorio desde el gestor de paquetes de tu sistema.</li>
+<li>Escribí una configuración mínima con una entrada y una salida, y antes de aplicarla pedile al programa que la revise.</li>
+<li>Corregí lo que la revisión marque y sólo entonces activá: la revisión existe para que un error no te deje sin red.</li>
+<li>Añadí reglas por aplicación o por dominio, una por vez, comprobando después de cada una que lo que tenía que pasar por el túnel pasa y lo demás no.</li>
+<li>Guardá el archivo de configuración fuera del teléfono: es el programa entero, y sirve para reproducir la misma red en cualquier aparato.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Cada conexión va por donde tu archivo dice, las reglas se aplican sin sorpresas y la configuración se puede copiar, revisar y volver a usar en otro aparato.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si te quedás sin internet después de activar, desactivá el túnel y pedile la revisión al archivo: ahí está el error, con número de línea.</li>
+<li>Si una aplicación concreta deja de funcionar, agregá una regla para su dominio en lugar de abrir todo el aparato.</li>
+<li>Si actualizás y la configuración que funcionaba deja de hacerlo, mirá las notas de la entrega: el proyecto avisa cuándo una opción cambió de forma.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Desactivar el túnel devuelve el aparato al estado anterior sin tocar la configuración. El archivo se puede borrar o guardar; el programa no modifica nada del sistema fuera de su propio funcionamiento.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>sing-box es un solo programa que entiende casi todos los protocolos de túnel y proxy que existen, y que en lugar de decidir por vos ejecuta lo que dice un archivo de configuración. Esa sencillez aparente esconde la verdad del oficio: el programa es el archivo, y todo lo que hace tu red está escrito en un texto que podés leer, versionar y comparar.</p>
+<p>Su decisión más importante está en el repositorio, no en el manual: <strong>la rama principal se llama <code>testing</code></strong> y las entregas que publica son versiones de prueba —la última medida es la 1.15.0, en su tercera prueba alfa—. Quien lo instala desde ahí está usando software en movimiento, y conviene saberlo antes y no después.</p>
+<p>Y el dato que lo vuelve una herramienta de administración y no de consumo: cuarenta mil estrellas, un millón novecientas veintiuna mil seiscientas setenta y una descargas en diez entregas y ciento treinta y seis cambios en treinta días. Se mueve rápido, y por eso el archivo de configuración —que es tuyo— vale más que la versión instalada.</p>
+    <p><strong>Límites:</strong></p><ul><li>La curva de entrada es alta: sin un archivo válido no hace nada.</li>
+<li>Sus entregas son versiones de prueba: la rama principal del repositorio se llama <code>testing</code>.</li>
+<li>Una configuración mal escrita puede dejar el aparato sin internet, y el mensaje no siempre explica por qué.</li>
+<li>Ocupa el único túnel disponible del teléfono, como toda la categoría.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>El programa trae una orden que revisa la configuración sin aplicarla: lee el archivo, valida la forma de cada opción y avisa con el número de línea antes de que nada se rompa. Eso convierte el trabajo de configurar una red en algo que se puede hacer con red, sin miedo a quedarse a oscuras: se escribe, se revisa, se corrige y sólo entonces se activa. Es la misma lógica que la restauración de prueba del capítulo 7 y la verificación de sumas del capítulo 4, aplicada a un archivo de texto. Y tiene un premio extra: el archivo revisado se puede guardar junto a la fecha, de modo que cuando algo deje de funcionar dentro de seis meses, haya una versión anterior a la que volver.</p>
+    <p><strong>Cómo se comprueba:</strong> Escribí una configuración con una opción inventada y pedile la revisión: el programa la rechaza y señala dónde. Corregila, volvé a revisar y recién entonces activá. La diferencia entre las dos salidas es todo el método.</p>
+    <pre><code>sing-box check -c config.json</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Usar la versión de prueba en el único aparato que necesitás para trabajar.</li>
+<li>Copiar configuraciones de internet sin leerlas: son instrucciones que tu aparato va a obedecer, incluido hacia dónde manda tu tráfico.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/hiddify/hiddify-app">hiddify/hiddify-app</a>, <a href="https://github.com/mullvad/mullvadvpn-app">mullvad/mullvadvpn-app</a></p></div>
+
+  <p class="meta">Programa de SagerNet · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
+     (<a href="https://github.com/SagerNet/sing-box/blob/testing/LICENSE">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>Headscale <span class="meta">· juanfont/headscale</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>64/100</strong> ·
+    ★45,361 · 2327 días · última entrega 2026-10-30 ·
+    201,091 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 71 abiertas.
+  </p>
+  <p>Coordinar tu propia red privada entre aparatos usando los clientes oficiales de Tailscale, pero con el servidor de coordinación en tu casa y no en una empresa.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien quiere la comodidad de una red entre aparatos que se encuentran solos, sin que el servidor que los presenta sea de otra persona.
+     <br><strong>Para quién no es:</strong> para quien sólo necesita entrar a un equipo de casa: wg-easy hace eso con menos piezas y menos mantenimiento.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Consigue un equipo con una dirección alcanzable desde internet —el mismo que ya usás para otras cosas— y un nombre que apunte a ella.</li>
+<li>Instalá el servidor siguiendo su guía, con una base de datos propia y una clave de cifrado guardada fuera del equipo.</li>
+<li>Creá un usuario para vos y generá la orden de registro que va a usar cada aparato para entrar a tu red.</li>
+<li>Instalá en cada aparato el cliente oficial de Tailscale —no hace falta nada especial— y registralo apuntándolo a la dirección de tu servidor.</li>
+<li>Comprobá lo que importa: que los aparatos se vean entre sí aunque estén en redes distintas, y que el listado del servidor los muestre a todos con su última conexión.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Todos tus aparatos forman una red privada que se encuentra sola, coordinada por un servidor tuyo, y podés listarlos, renombrarlos y expulsarlos desde tu propia consola.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si un aparato no registra, revisá que esté apuntando a tu servidor y no al de la empresa: es el primer error y el más común.</li>
+<li>Si los aparatos no se ven, mirá el listado del servidor y el estado del cliente: casi siempre falta aceptar una ruta o el aparato quedó expulsado.</li>
+<li>Si perdés la clave de cifrado del servidor, las sesiones dejan de valer y hay que volver a registrar los aparatos.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Expulsar un aparato del listado lo saca de la red al instante, aunque conserve el cliente instalado. Borrar el servidor deja los aparatos como estaban, con su cliente sin red a la que conectarse.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>Tailscale es una red privada que se configura sola: los aparatos se encuentran, se identifican y arman el túnel entre ellos, y el tráfico va directo o por relevo. Lo único que necesita de la empresa es la <strong>coordinación</strong>: alguien que les diga a los aparatos quién es quién. Headscale es ese alguien, hecho por la comunidad, con licencia permisiva y corriendo en tu casa.</p>
+<p>Su valor es de soberanía más que de velocidad: no cambia cómo se hablan los aparatos, cambia quién lleva la lista. En la práctica eso significa que el servidor que conoce todos tus aparatos —el mapa completo de tu vida digital— deja de estar en manos de una empresa y pasa a estar en tu equipo, con tus copias y tus reglas de acceso.</p>
+<p>Cuarenta y cinco mil trescientas treinta y siete estrellas y ciento noventa y ocho mil trescientas ochenta y siete descargas en diez entregas para un programa que casi nadie instala por gusto: se instala porque la alternativa es entregar ese mapa. Y se mantiene: cuatrocientos veintiocho cambios en treinta días y una entrega cada pocas semanas.</p>
+    <p><strong>Límites:</strong></p><ul><li>Necesita un servidor con dirección alcanzable desde internet y un nombre: es infraestructura, no una aplicación.</li>
+<li>Reimplementa un protocolo ajeno: cuando el otro lado cambia algo, hay que esperar a que Headscale lo siga.</li>
+<li>Perder la clave de cifrado del servidor obliga a registrar de nuevo cada aparato.</li>
+<li>Sin cifrado de disco y sin copias, el equipo que lo corre pasa a ser el punto más débil de tu red.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>La coordinación es la parte que casi nadie mira de una red privada moderna. Los aparatos no necesitan un servidor que lleve su tráfico: necesitan que alguien les diga dónde está cada uno y quién puede hablar con quién. Ese servidor ve el mapa completo —qué aparatos tenés, cómo se llaman y cuándo se conectan— aunque no vea el contenido. Cambiarlo de manos no mejora la velocidad de tu red ni su cifrado: cambia quién conoce ese mapa. Es la pregunta correcta que hay que hacerse antes de adoptar cualquier red que se configura sola, y es la que este capítulo deja planteada.</p>
+    <p><strong>Cómo se comprueba:</strong> Pedile al servidor la lista de aparatos registrados: cada uno aparece con su nombre, su usuario y su última vez visto. Después expulsá uno y mirá cómo desaparece. Esa lista es el mapa, y ahora está en tu equipo.</p>
+    <pre><code>headscale nodes list</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Dejar la consola de administración accesible desde internet sin protección suficiente.</li>
+<li>Correr el servidor en un equipo sin copias ni cifrado, y perder el mapa y las llaves a la vez.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/netbirdio/netbird">netbirdio/netbird</a>, <a href="https://github.com/wg-easy/wg-easy">wg-easy/wg-easy</a></p></div>
+
+  <p class="meta">Programa de Juan Font y la comunidad Headscale · BSD-3-Clause · medido el 3 de noviembre de 2026 · licencia BSD-3-Clause
+     (<a href="https://github.com/juanfont/headscale/blob/main/LICENSE">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+
+<article class="ficha">
+  <h3>NetBird <span class="meta">· netbirdio/netbird</span></h3>
+  <p class="meta">
+    <span class="sello n2">experto</span>
+    &nbsp;nota <strong>53/100</strong> ·
+    ★30,657 · 2030 días · última entrega 2026-10-29 ·
+    780,142 descargas en 10 entregas · 100 personas ·
+    5 flujos de compilación · incidencias 470 abiertas.
+  </p>
+  <p>Administrar una red privada entre equipos y personas, con reglas de quién entra a qué, y con la posibilidad de correr el control entero en tu propio servidor.</p>
+  <p class="meta"><strong>Para quién es:</strong> para quien administra varios equipos y varias personas —una casa grande, una oficina chica, un grupo de trabajo— y necesita reglas de acceso, no sólo un túnel.
+     <br><strong>Para quién no es:</strong> para quien tiene dos aparatos y quiere verse entre ellos: hay opciones más chicas y con menos piezas, y están arriba en este capítulo.</p>
+
+  <div class="capa"><h4>Manos · los pasos</h4><ol><li>Decidí primero dónde va a vivir el control de la red: en tu servidor o fuera; la respuesta cambia todo lo demás.</li>
+<li>Instalá el control y el panel siguiendo la guía del proyecto, o usá su servicio gestionado si aceptás que ese control no sea tuyo.</li>
+<li>Instalá el cliente en un equipo y vinculalo con una llave de configuración del panel; comprobá que aparece en la lista de equipos.</li>
+<li>Creá un grupo de acceso y una regla que permita un puerto concreto entre dos equipos, y verificá que el resto del tráfico no pasa.</li>
+<li>Repetí con un segundo equipo en otra red y comprobá que la regla se cumple igual: la red no depende de dónde esté cada uno.</li></ol>
+    <p><strong>Qué debe verse al terminar:</strong> Los equipos se ven entre sí según reglas explícitas, cada persona entra con su propia identidad y podés quitar el acceso a uno sin tocar a los demás.</p>
+    <p><strong>Si sale mal:</strong></p><ul><li>Si un equipo no aparece en el panel, revisá la llave de configuración y la hora del sistema: una diferencia de reloj rompe la vinculación.</li>
+<li>Si la regla no se cumple, mirá el orden de las reglas y los grupos: la primera que coincide gana, y un grupo mal escrito deja la red abierta o cerrada.</li>
+<li>Si el túnel conecta pero no hay tráfico, comprobá que el otro lado tenga el servicio escuchando en ese puerto y no en otro.</li></ul>
+    <p><strong>Cómo se deshace:</strong> Quitar un equipo del panel lo expulsa al instante; el cliente queda instalado y sin red. Desinstalar el control deja los equipos como estaban, y las reglas viven sólo en el panel, así que se van con él.</p></div>
+
+  <div class="capa"><h4>Cabeza · por qué funciona</h4><p>NetBird hace lo mismo que una red privada moderna —equipos que se encuentran y hablan cifrado entre ellos— y le agrega lo que una casa grande o una oficina necesitan: <strong>personas</strong>. Cada equipo se vincula con una identidad, y el acceso se da por grupos y reglas, no por direcciones. Eso es administración de red, y es una categoría distinta de la de las cinco fichas anteriores.</p>
+<p>Su licencia es la más interesante para leer de todo el capítulo, y es un buen ejemplo de por qué conviene abrir el archivo: la mayor parte del repositorio va con licencia permisiva, <strong>excepto</strong> las carpetas del servidor de administración, la señalización y el relé, que van con copyleft fuerte. Es una separación deliberada —el cliente libre, el control con más obligaciones— y está escrita en las primeras líneas del archivo.</p>
+<p>Treinta mil seiscientas treinta estrellas y setecientas cincuenta y siete mil ochocientas cuarenta y seis descargas en diez entregas. Sus paquetes de instalación del servidor se publican como guiones de arranque —uno de ellos, con su propio sistema de identidades—, lo que dice mucho de a quién está dirigido: alguien que ya tiene un servidor y sabe lo que hace.</p>
+    <p><strong>Límites:</strong></p><ul><li>Es infraestructura: pide un servidor, un nombre, certificados y mantenimiento.</li>
+<li>Su licencia cambia por carpetas: permisiva en el cliente, copyleft en el control, el relé y la señalización.</li>
+<li>El panel de administración concentra todo el poder sobre la red: si cae o se compromete, cae la red.</li>
+<li>Para dos aparatos es demasiada pieza; para veinte empieza a valer la pena.</li></ul></div>
+
+  <div class="capa"><h4>Oficio · el dato que casi nadie sabe</h4>
+    <p>En una red administrada, el dato que hay que vigilar no es el estado de los túneles: es la lista de reglas. Un túnel arriba con una regla demasiado ancha es una red abierta que se ve ordenada. La comprobación honesta es la inversa de la que hace todo el mundo: en lugar de probar que lo que debe pasar pasa, probar que lo que no debe pasar <strong>no pasa</strong>, desde el equipo equivocado y contra el puerto equivocado. Esa prueba se hace una vez al montar la red y cada vez que alguien toca una regla, y es la diferencia entre administrar y suponer.</p>
+    <p><strong>Cómo se comprueba:</strong> Desde un equipo que no debería tener acceso, intentá llegar al puerto de un servicio de otro grupo. Si contesta, la regla no está haciendo nada. Guardá el resultado de la prueba con la fecha junto a la configuración.</p>
+    <pre><code>netbird status -d &amp;&amp; nc -zv 100.64.0.5 8080</code></pre></div>
+
+  <div class="capa"><h4>Riesgos y alternativas</h4><ul><li>Creer que la red está cerrada porque los túneles están arriba, sin haber probado nunca desde el lado equivocado.</li>
+<li>Concentrar el control en un panel sin copias ni protección, y perder con él la administración de toda la red.</li></ul>
+    <p class="meta">Alternativas medidas: <a href="https://github.com/juanfont/headscale">juanfont/headscale</a>, <a href="https://github.com/wg-easy/wg-easy">wg-easy/wg-easy</a></p></div>
+
+  <p class="meta">Programa de NetBird y sus colaboradores · BSD-3-Clause con el control, la señalización y el relé en AGPL-3.0 · medido el 3 de noviembre de 2026 · licencia BSD-3-Clause
+     (<a href="https://github.com/netbirdio/netbird/blob/main/LICENSE">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
+</article>
+<footer><p>Texto CC BY-SA 4.0 · datos CC BY 4.0 · La Bandita. Mediciones del 4 de noviembre de 2026.</p></footer>
+</div></body></html>

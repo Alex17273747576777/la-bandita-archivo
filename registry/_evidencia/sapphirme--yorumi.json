@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-07-18T13:36:36Z",
+   "oid": "e22411ea7e4c48b7f44327961a17153848e50e23"
+  }
+ },
+ "diskUsage": 83059,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "sapphirme/Yorumi",
+ "pushedAt": "2026-07-20T00:27:00Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

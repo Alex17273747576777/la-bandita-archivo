@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-15T10:42:19Z",
+   "oid": "b32253569f3e70ce250980566cb41ce30ac6c1c7"
+  }
+ },
+ "diskUsage": 211585,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "maniacs-oss/OGAM",
+ "pushedAt": "2026-10-15T10:42:19Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

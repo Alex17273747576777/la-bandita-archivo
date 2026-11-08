@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Android dentro de un iPhone: Husk, la cadena de firmas y el huésped pesado">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>Android dentro de un iPhone: Husk, la cadena de firmas y el huésped pesado</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Android dentro de un iPhone: Husk, la cadena de firmas y el huésped pesado", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "1 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>Android dentro de un iPhone: Husk, la cadena de firmas y el huésped pesado</h1>
+<p class="meta">Facebook · 1 de noviembre de 2026 · 40,069 caracteres</p>
+<p><em>Android dentro de un iPhone: Husk, la cadena de firmas y el huésped pesado</em></p>
+<p><em>La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 13 de Facebook</em></p>
+<p><em>🗺️ Mapa de esta guía</em></p>
+<pre>
+├── ⚡ En una página
+├── 🍎 Qué significa «Android en un iPhone»
+├── 🧰 La cadena: del APK al icono
+├── 🎬 Cuatro escenas y el censo de esta tarde
+├── 🍏 Las tres puertas del iPhone
+├── ⚙️ La capa de traducción y el huésped pesado
+├── 🧱 Lo que no va a funcionar bien nunca
+├── 🔍 El caso del juego que no pasa del logo
+├── ⚖️ La ley, la manzana y las firmas
+├── ❓ Preguntas que me hacen
+├── 📊 Tabla, mitos y glosario
+└── 🔗 Enlaces y notas al pie
+</pre>
+<p><em>⚡ En una página</em></p>
+<p>Hay un proyecto que se llama Husk, que se describe en una línea como «Android en iOS, nativo o emulado», que tiene ★2.937, licencia GPL-2.0-or-later, está escrito en Java y sacó su versión 3.3 hoy mismo, 1 de noviembre. Pide iOS 15.5 o superior y se instala por las vías de siempre del teléfono de la manzana: SideStore, AltStore o TrollStore. Con eso ya se puede decir lo esencial, y lo esencial es que esto no es magia ni es un Android completo: es una capa que hace de Android alrededor de un programa que corre en el iPhone.</p>
+<p>Lo interesante no es Husk solo, es la cadena que hace falta para que un APK termine con icono en la pantalla de un iPhone. Hay una pieza que firma, una que instala, una que mantiene el permiso vivo y una que emula cuando la traducción no alcanza. Este censo mide ocho de esas piezas, y la más grande no es Husk: es UTM, con ★36.633 y empujón de hoy.</p>
+<p>Lo que casi nadie dice y conviene decir el primero: el iPhone no permite instalar programas que no vengan de su tienda, y todo lo que hay aquí existe para rodear ese límite con firmas, perfiles y trucos que caducan. La cadena funciona, y funciona con fecha de vencimiento. Quien no quiera renovar cada semana, no es su camino.</p>
+<p>Si te llevas una idea: pasar de Android a iPhone es posible, es más frágil de lo que parece en los videos y exige entender tres cosas —firma, instalación y traducción— antes de bajar el primer archivo. Lo demás es paciencia.</p>
+<p>───────────────────</p>
+<p><em>🍎 Qué significa «Android en un iPhone»</em></p>
+<p>Significa cuatro cosas distintas y la gente las mete en la misma frase. Conviene separarlas porque cada una promete algo diferente.</p>
+<p>La primera es <em>traducir</em>: el programa de Android viene compilado para un procesador y unas bibliotecas que el iPhone no tiene, así que alguien escribe las piezas que faltan —la biblioteca de C, el entorno de Java, los gráficos, el audio y la entrada— y deja que el código original corra encima. No hay Android arrancado en ninguna parte; hay un programa de Android que cree estar en un Android.</p>
+<p>La segunda es <em>emular</em>: se levanta un sistema Android completo dentro de un programa que simula el teléfono, con su arranque, su memoria y sus servicios. Es lo que hace UTM cuando hospeda un sistema invitado. Es más compatible y mucho más lento.</p>
+<p>La tercera es <em>firmar y instalar</em>: el iPhone solo abre programas con una firma que acepta, así que alguien tiene que firmar el paquete con una cuenta de desarrollador y renovar ese permiso cada cierto tiempo. SideStore, AltStore y SignTools viven de esto.</p>
+<p>La cuarta es <em>mantener vivo el permiso</em>: la firma de desarrollador caduca, y con ella el icono deja de abrir. Los programas se conectan a un servicio del teléfono para renovar, y cuando ese servicio no está, hay que volver a la computadora.</p>
+<p>Cuando alguien dice «tengo Android en mi iPhone», hay que preguntar cuál de las cuatro tiene. La respuesta cambia todo: traducir es rápido y limitado, emular es lento y compatible, firmar es la puerta, y renovar es la cuota mensual de paciencia.</p>
+<p>───────────────────</p>
+<p><em>🧰 La cadena: del APK al icono</em></p>
+<p>El recorrido completo tiene cinco estaciones y cada una puede fallar por su cuenta.</p>
+<p><em>Estación uno: el archivo.</em> Un APK que se quiere abrir. Aquí ya hay un filtro: los paquetes con código nativo de 32 bits, los que dependen de servicios del sistema y los que usan protección anticopia no van a funcionar, y no hay cadena que lo arregle.</p>
+<p><em>Estación dos: la firma.</em> El paquete iOS que envuelve todo necesita una firma aceptada por el teléfono. Ahí entran SignTools para firmar en un servidor propio, Dadoum/Sideloader para hacerlo desde cualquier sistema, y las cuentas de desarrollador con sus límites de aplicaciones y de días.</p>
+<p><em>Estación tres: la instalación.</em> SideStore y AltStore son las dos puertas clásicas, con la diferencia de que SideStore busca no depender de una computadora cada semana. AltStore tiene ★14.821 y SideStore ★7.188: la segunda es más joven y más cómoda; la primera, más vieja y más conocida.</p>
+<p><em>Estación cuatro: el contenedor.</em> LiveContainer, ★13.674, resuelve un problema aparte: instalar una vez el contenedor y abrir dentro varias apps, para no gastar los cupos de la firma en cada una. Es la pieza que hace manejable el límite de aplicaciones del teléfono.</p>
+<p><em>Estación cinco: la traducción o la emulación.</em> Ahí está Husk, y ahí está UTM cuando lo que se quiere es un sistema completo y no una app suelta. Husk intenta lo rápido; UTM hace lo pesado; y ninguno de los dos convierte tu iPhone en un Android de verdad.</p>
+<p>Cinco estaciones, cinco proyectos distintos y cinco fechas que se pueden mirar antes de empezar. Quien las tiene claras no se pasa la tarde instalando un archivo que su cadena no iba a aceptar nunca.</p>
+<p>───────────────────</p>
+<p><em>🎬 Cuatro escenas y el censo de esta tarde</em></p>
+<p><em>El que quería un juego de Android en su iPhone.</em> Leyó que era posible, bajó un APK, lo abrió con Husk y el juego arrancó en segundos con un mando bluetooth. Su sorpresa fue que funcionara tan bien y su segunda sorpresa, que la mitad de las opciones del juego no respondieran porque dependían de servicios que el iPhone no tiene. Con lo que sí funcionaba, jugó tres horas seguidas.</p>
+<p><em>La que se cansó de renovar.</em> Instaló una app por SideStore, la usó dos semanas y un día el icono dejó de abrir. Le explicaron que la firma había caducado y que había que renovarla con el servicio del teléfono encendido. Lo hizo una vez, dos veces, y a la tercera decidió que no valía la pena para lo que era. La app era un juego de espera.</p>
+<p><em>El que quiso el sistema completo.</em> Probó UTM con un sistema invitado para usar una app de trabajo que necesitaba servicios de Android. Funcionó, con dos avisos: la batería se iba en dos horas y el teléfono se calentaba como una plancha. Lo dejó instalado para emergencias y no para el día a día.</p>
+<p><em>La que administra el teléfono de la casa.</em> Su hijo quería una app que solo existe para Android. Su solución no fue técnica: buscar la versión web, que existía y hacía lo mismo. Se ahorró la cadena entera, y esa es la respuesta correcta más veces de las que parece.</p>
+<p>───────────────────</p>
+<p><em>🧾 El censo de esta tarde</em></p>
+<p><em>Husk</em>, el que da título: ★2.937, GPL-2.0-or-later, Java, empujón y versión del 1 de noviembre —la 3.3—. Se instala desde las tiendas de siempre del iPhone y pide iOS 15.5 o superior. Su promesa escrita es concreta: una capa de traducción para el código de 64 bits, un huésped completo bajo emulación cuando hace falta y un añadido curioso para paquetes de consola.</p>
+<p><em>UTM</em>, el grande: ★36.633, Apache-2.0 en la ficha y MIT en su README, Swift, empujón de hoy y versión v5.0.8 del 17 de octubre. Es el emulador de referencia en el teléfono de la manzana y la razón por la que las cifras de Husk no deben leerse como comparación de popularidad, sino de propósito.</p>
+<p><em>AltStore</em>, la puerta vieja: ★14.821, AGPL-3.0, Swift, empujón del 21 de octubre y versión v2.3 del 30 de septiembre. Sigue siendo el nombre que todo el mundo conoce y el que más tutoriales arrastra.</p>
+<p><em>SideStore</em>, la puerta sin computadora: ★7.188, AGPL-3.0, Swift, empujón del 27 de octubre y versión 0.7.0-alpha del 15 de septiembre. Su contador en cero punto siete dice lo que es: una apuesta joven que intenta quitar de la ecuación el cable y la computadora.</p>
+<p><em>LiveContainer</em>, el contenedor: ★13.674, AGPL-3.0 en la ficha y MIT en su README, Swift, empujón del 17 de octubre y versión 3.8.0 del 17 de julio. Resuelve el cupo de instalaciones envolviendo varias apps dentro de una sola firma.</p>
+<p><em>SignTools</em>, la firma de servidor: ★2.242, AGPL-3.0, Go, empujón del 12 de octubre y versión v3.0.12 del 16 de julio. Para quien quiere firmar sus propios paquetes en una máquina propia sin depender de nadie.</p>
+<p><em>Dadoum/Sideloader</em>, la firma desde cualquier sitio: ★1.063, GPL-3.0, escrito en D, empujón del 18 de septiembre y sin versión pública anotada. Es la alternativa multiplataforma menos conocida y la más interesante para quien no tiene Windows ni Mac.</p>
+<p><em>ipaverse</em>, el paquete completo: ★689, MIT, Swift, empujón del 22 de septiembre y versión v2.5.3 del mismo día. Descarga, refirma e instala, que es la cadena entera en un solo programa.</p>
+<p>───────────────────</p>
+<p><em>🍏 Las tres puertas del iPhone</em></p>
+<p>El teléfono de la manzana no deja abrir programas que no vengan firmados por quien él acepta, y ese es el hecho del que salen todas las demás reglas. Hay tres formas conocidas de rodearlo y cada una tiene un precio distinto.</p>
+<p><em>La primera puerta es la cuenta de desarrollador gratuita.</em> Permite firmar unas pocas aplicaciones, con un permiso que caduca a los siete días y hay que renovar. Es la puerta que usan AltStore y SideStore, y su ventaja es que funciona en cualquier iPhone sin nada especial. Su precio es la renovación: quien instala diez cosas para probar, vive firmando.</p>
+<p><em>La segunda puerta es el permiso de empresa.</em> Permite instalar sin caducidad semanal y es la vía que usan las empresas para repartir sus programas internos. Su precio es que depende de un certificado ajeno, y cuando ese certificado se revoca, todos los iconos dejan de abrir a la vez. Es la puerta que más disgustos ha dado a la gente que instala por ahí.</p>
+<p><em>La tercera puerta es el aparato con el arranque abierto.</em> En algunos iPhone antiguos y en modelos con versiones concretas del sistema existe un estado que permite instalar sin firma. Es la puerta más cómoda y la más cerrada: se limita a aparatos viejos o a versiones que ya no se actualizan. En ella se apoya la instalación llamada TrollStore, que Husk menciona entre sus formas de instalarse.</p>
+<p>Con las tres puertas claras, se entiende por qué el ecosistema de esta guía es tan pequeño y tan activo: es un ecosistema de mantenimiento. SignTools existe para firmar en casa, Dadoum/Sideloader para firmar desde cualquier sistema, SideStore para renovar sin cable e ipaverse para hacer las tres cosas en un solo programa. Ninguna de ellas crea una cuarta puerta: todas administran mejor las que ya hay.</p>
+<p>───────────────────</p>
+<p><em>⚙️ La capa de traducción y el huésped pesado</em></p>
+<p>La traducción es la parte que suena a ciencia ficción y es la más sencilla de explicar. Un juego de Android viene compilado para un procesador ARM de 64 bits, y el chip del iPhone también es ARM de 64 bits. Ahí se acaba la coincidencia: todo lo demás —las bibliotecas del sistema, el entorno de ejecución de Java, los gráficos, el sonido, la entrada táctil— es distinto.</p>
+<p>La capa de traducción escribe esas piezas para el iPhone y deja que el código original corra encima. El programa cree que habla con Android; habla con alguien que imita a Android. No hay arranque, no hay escritorio, no hay servicios del sistema: hay un juego que empieza en segundos, que es exactamente lo que Husk promete con su frase de «sin arranque de Android».</p>
+<p>El límite de la traducción es lo que no imita. Un juego que pide la tienda de aplicaciones, el servicio de notificaciones o una biblioteca concreta de realidad aumentada encontrará una pared. Y como la capa es nueva y está en construcción, cada versión arregla un grupo de programas y deja otro igual.</p>
+<p>El huésped pesado es la otra mitad. Cuando la traducción no alcanza, Husk levanta un sistema Android completo bajo emulación —su propia descripción menciona un sistema LineageOS invitado sobre QEMU—, y entonces la compatibilidad sube y la velocidad baja. Es el mismo compromiso que en el escritorio: emular es compatible y lento, traducir es rápido y limitado.</p>
+<p>La consecuencia práctica es que Husk no es una app: es un programa con dos motores y una decisión que se toma por aplicación. El juego ligero va por traducción; la app que necesita servicios va por emulación; y hay cosas que no van por ninguno de los dos.</p>
+<p>───────────────────</p>
+<p><em>🧱 Lo que no va a funcionar bien nunca</em></p>
+<p>Hay cuatro familias de programas que conviene descartar antes de probar, para no gastar la tarde en una cadena que no podía funcionar.</p>
+<p><em>Las que dependen de servicios de Google.</em> Un programa que pide notificaciones por el servicio de la casa de Google, o que verifica la compra dentro de la aplicación, encontrará una pared. El servicio no está y no hay capa que lo supla sin modificarlo, y modificarlo es otra historia con otro nombre.</p>
+<p><em>Las que usan protección anticopia o comprobación de integridad.</em> Esas comprueban si el aparato es el que dice ser, y un aparato emulado o traducido no lo es. Fallan por diseño, con un mensaje que casi nunca explica la razón.</p>
+<p><em>Las de 32 bits.</em> La traducción se apoya en código de 64 bits; un paquete antiguo compilado para 32 tiene que ir por emulación, y la emulación en un teléfono es lenta incluso para lo simple.</p>
+<p><em>Las que son solo un lanzador de otra cosa.</em> Un programa que abre un servicio en la nube y no hace nada por sí mismo puede funcionar y aun así no servir de nada, porque lo que se quería estaba en el servidor y no en el paquete.</p>
+<p>A esas cuatro se suma una quinta, la más común y la menos técnica: el programa existe, pero su versión web hace lo mismo. Antes de montar la cadena, vale la pena comprobarlo.</p>
+<p>───────────────────</p>
+<p><em>🔍 El caso del juego que no pasa del logo</em></p>
+<p>Un juego bajado de un APK, abierto con Husk en un iPhone de 2021, se queda en la pantalla del logo y se cierra a los cuatro segundos. El usuario concluyó que el proyecto era humo. No lo era: era el caso más previsible de todos.</p>
+<p>Primero se comprobó la versión: la 3.3, publicada ese mismo día. Segundo, el tipo de paquete: el juego incluía una biblioteca de comprobación de licencia. Tercero, la alternativa: el mismo juego, por emulación, arrancó y llegó al menú en dos minutos, con una temperatura de teléfono incómoda y una batería en caída libre.</p>
+<p>La conclusión del caso es útil: cuando un programa se cierra sin mensaje en la capa de traducción, casi siempre es una comprobación de integridad o una biblioteca que la capa no imita. Probar por emulación separa el diagnóstico en un minuto: si ahí funciona, el paquete está bien y el problema es la capa; si ahí tampoco, el problema es el paquete o el aparato.</p>
+<p>Y hay un tercer resultado posible, que es el que más gente encuentra: funciona por emulación, va lento y no vale la pena. Ahí la respuesta honesta no es una app mejor, es que ese juego no es para ese teléfono.</p>
+<p>───────────────────</p>
+<p><em>⚖️ La ley, la manzana y las firmas</em></p>
+<p>Hay tres capas de reglas y conviene no mezclarlas, porque la gente las discute como si fueran una sola.</p>
+<p>La primera es la licencia del software libre que se usa. Husk es GPL-2.0-or-later, UTM es Apache-2.0 en su ficha y MIT en su README, LiveContainer es AGPL-3.0 en su ficha y MIT en su README. Esas licencias dicen qué se puede hacer con el código: usarlo, modificarlo y redistribuirlo bajo condiciones. No dicen nada sobre el teléfono.</p>
+<p>La segunda son las condiciones del sistema. El iPhone no permite instalar programas de fuera de su tienda, y rodearlo con firmas de desarrollador, certificados de empresa o aparatos con el arranque abierto es una decisión del dueño del aparato con consecuencias técnicas: caducidades, revocaciones y, en algunos casos, pérdida de garantía o de soporte.</p>
+<p>La tercera son los derechos de lo que se instala. Un APK de un juego de pago obtenido fuera de su tienda no se convierte en legal por correr dentro de una capa de traducción; y una app de trabajo instalada por vías alternativas puede violar el acuerdo con el empleador aunque el programa sea libre.</p>
+<p>Las tres capas se pueden resumir en una frase que no es consejo legal: el código libre te da permiso sobre el código, no sobre el teléfono ni sobre el contenido. Y cada capa se paga en un sitio distinto.</p>
+<p>───────────────────</p>
+<p><em>🧭 Cuándo vale la pena y cuándo no</em></p>
+<p>Vale la pena cuando hay un programa concreto, de los que no dependen de servicios ajenos, y el iPhone es el único aparato disponible. Un juego de un jugador, una herramienta de cálculo, un lector de archivos: cosas que no piden permiso a nadie y que se agradecen en el bolsillo.</p>
+<p>No vale la pena cuando el objetivo es tener «Android en el iPhone» como concepto. Eso no existe: existe un programa suelto que corre con una capa encima, y la ilusión se cae en la primera app que pide notificaciones.</p>
+<p>Vale la pena cuando la persona tolera renovar. Si le molesta que un icono deje de abrir cada semana, este ecosistema no es para ella, porque la renovación no es un fallo: es la forma en que la puerta se mantiene abierta.</p>
+<p>No vale la pena cuando el teléfono es el aparato de trabajo y de las cuentas. Modificar el estado de un aparato con datos sensibles para jugar a algo es una mala ecuación, y la ecuación se puede escribir en una línea antes de empezar.</p>
+<p>Y hay un caso intermedio que mucha gente descubre tarde: vale la pena tener la cadena montada y no usarla. Firmar, instalar y renovar una sola app de pruebas enseña cómo funciona todo, y después la decisión de cada programa nuevo se toma en dos minutos.</p>
+<p>───────────────────</p>
+<p><em>🕰️ La cronología de las puertas</em></p>
+<p>Este ecosistema se entiende mejor por lo que se fue cerrando que por lo que se fue inventando.</p>
+<p>Al principio el teléfono de la manzana instalaba programas con un cable y una computadora, y el permiso duraba mientras durara la confianza en el certificado. Fue la época en que «sideload» significaba una tarde y un tutorial.</p>
+<p>Después llegaron las tiendas alternativas, que pusieron interfaz y menú a lo que antes era un comando. AltStore tiene hoy ★14.821 y una versión v2.3 del 30 de septiembre; su papel fue convertir la ceremonia en un botón.</p>
+<p>Luego llegó la idea de renovar sin cable. SideStore, con ★7.188 y su versión 0.7.0-alpha del 15 de septiembre, intenta que el teléfono se renueve a sí mismo aprovechando la depuración inalámbrica, y esa idea —que ya vimos funcionar en Android con Shizuku— es la misma en los dos mundos: prestar un permiso del sistema para no depender de la computadora.</p>
+<p>En paralelo, la firma se volvió un servicio. SignTools, ★2.242 y AGPL-3.0, permite montar un firmador propio; Dadoum/Sideloader, ★1.063, lo hace desde cualquier sistema operativo; ipaverse, ★689, junta descarga, refirma e instalación en un programa.</p>
+<p>Y en los últimos años apareció lo que nadie esperaba: capas que hacen correr programas de un sistema en el otro. Husk, con ★2.937 y versión 3.3 de hoy, es el ejemplo del lado del iPhone; en el lado de Android, el camino inverso se hace con sistemas invitados, como VegaBobo/DSU-Sideloader, ★2.353 y Apache-2.0, cuya última versión es de 2023 y que sigue sirviendo para probar un sistema sin tocar el que se usa a diario.</p>
+<p>El patrón es el mismo en los dos mundos: cuando el sistema cierra una puerta, la comunidad abre una puerta más pequeña, y las puertas pequeñas se mantienen con proyectos de dos mil estrellas y una persona.</p>
+<p>───────────────────</p>
+<p><em>🧮 Los cupos de la firma, en números</em></p>
+<p>La firma gratuita de desarrollador tiene tres límites que conviene tener escritos: un número pequeño de aplicaciones activas a la vez, un número de días antes de caducar y un número de aparatos por cuenta. Los tres cambian con el tiempo y con la región, y los tres son la razón por la que existen los contenedores.</p>
+<p>De ahí sale la aritmética del ecosistema. Si cada app gasta un cupo y la caducidad llega en una semana, entonces la única forma de tener diez cosas instaladas es tenerlas dentro de una o dos firmas. Eso es exactamente lo que hace LiveContainer, ★13.674, y por eso su cifra es alta para un programa que casi nadie menciona: resuelve el problema más aburrido y más real.</p>
+<p>También de ahí sale la costumbre de rotar. Mucha gente tiene dos juegos instalados que se turnan: instala uno, juega dos semanas, lo borra e instala el otro. No es una limitación técnica del teléfono, es la contabilidad de la firma metida en la vida diaria.</p>
+<p>Y de ahí sale el último dato, el que decide a mucha gente: la renovación no es opcional ni es un fallo del programa. Un icono que deja de abrir el día nueve no está roto; está esperando que alguien vuelva a firmar.</p>
+<p>───────────────────</p>
+<p><em>💬 Las frases que se repiten</em></p>
+<p>«¿Esto es legal?» Es una pregunta de tres capas: la licencia del programa, las condiciones del teléfono y los derechos del contenido. Casi siempre la persona pregunta por la segunda y la respuesta está en la primera.</p>
+<p>«A mí me funcionó, así que sirve». Sirve para ese programa, en ese aparato, con esa versión. Es el tipo de prueba más común y el que menos se puede generalizar.</p>
+<p>«Se me borró todo al actualizar». Con la cadena del iPhone, actualizar a veces significa volver a firmar y reinstalar, y ahí se va el estado de la app. Respaldar antes no es opcional.</p>
+<p>«Ya no abre ninguna app». Un certificado revocado hace exactamente eso, a la vez y sin mensaje. No es una app rota: es la puerta cerrada para todas.</p>
+<p>«Es que el iPhone no deja». El iPhone no deja, y por eso existe todo este ecosistema. Decirlo así ahorra la discusión sobre si el proyecto es bueno.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Montar la cadena en una tarde</em></p>
+<p>La primera hora se va en preparar el teléfono y no en instalar nada. Hace falta la versión del sistema —Husk pide 15.5 o superior—, una cuenta que sirva para firmar y una decisión sobre la puerta: cuenta gratuita, certificado ajeno o aparato con el arranque abierto.</p>
+<p>La segunda hora es la puerta. Se instala la tienda alternativa que se haya elegido, se conecta el teléfono una vez y se firma el primer programa de prueba, que conviene que sea pequeño y conocido: si el programa de prueba no abre, no tiene sentido seguir con el que importa.</p>
+<p>La tercera hora es el contenedor. Si se van a instalar varias cosas, LiveContainer se monta antes y ahorra tres renovaciones futuras. Si solo es una app, se puede saltar y hacerlo a mano.</p>
+<p>La cuarta hora es Husk y su paquete. Se abre el APK, se elige motor —traducción para lo ligero, emulación para lo que necesita servicios— y se acepta que la primera vez tarda más de lo que tardará después.</p>
+<p>Al final de la tarde hay un icono que abre y una lista de cosas pendientes: qué programas funcionaron, cuáles no y por qué. Esa lista vale más que la instalación, porque es lo que evita repetir la tarde la semana que viene.</p>
+<p>───────────────────</p>
+<p><em>🗂️ Qué hacer cuando caduca</em></p>
+<p>La caducidad no avisa con un mensaje claro: el icono se queda en la pantalla, se toca y no pasa nada, o se cierra al instante. Cuando pasa en todas las apps a la vez, la causa es la firma; cuando pasa en una sola, es la app o el paquete.</p>
+<p>Si la firma era gratuita y caducó, la solución es renovar con el servicio del teléfono encendido y la app de la tienda alternativa abierta. Tarda un minuto y no borra los datos.</p>
+<p>Si la firma era de un certificado ajeno y fue revocada, no hay renovación posible: hay que esperar a que su dueño publique otro o cambiar de puerta. Es el escenario donde la gente pierde las partidas guardadas, y por eso el respaldo dentro de cada app importa antes de instalar.</p>
+<p>Si el aparato tenía el arranque abierto y una actualización del sistema lo cerró, la respuesta honesta es que esa puerta ya no está. Algunas instalaciones sobreviven a la actualización y otras no, y no hay manera de saberlo antes de actualizar.</p>
+<p>En los tres casos la lección es la misma: la cadena tiene fecha, y esa fecha se escribe en el calendario el día que se instala, no el día que falla.</p>
+<p>───────────────────</p>
+<p><em>🧪 Probar sin romper el teléfono</em></p>
+<p>El teléfono de las pruebas no tiene que ser el teléfono de la vida. Un aparato viejo, con la sesión de la tienda cerrada y sin cuentas dentro, es el banco de pruebas ideal, y en esta cadena la recomendación no es un lujo: es la única forma de probar sin arriesgar los datos de las cuentas.</p>
+<p>Con un aparato así se puede hacer lo que en el bueno sería imprudente: instalar tres paquetes de origen dudoso, romper la cadena y volver a montarla, cambiar de puerta y comparar. Ese aprendizaje no se paga con nada, y después se aplica una sola vez en el aparato importante.</p>
+<p>Si no hay aparato viejo, el orden cambia: primero el programa de prueba inocuo, después el que importa, y nunca al revés. Y antes de cada paso, un respaldo de lo que haya dentro de la app que se va a tocar.</p>
+<p>La tercera opción es no probar. Suena a derrota y a veces es la respuesta correcta: para una app que se usa una vez al mes, la cadena entera cuesta más que la app.</p>
+<p>───────────────────</p>
+<p><em>📶 La depuración inalámbrica, esa gran olvidada</em></p>
+<p>En los dos mundos —Android con Shizuku y iPhone con SideStore— la pieza que hace posible no depender de una computadora es la misma: el permiso de depuración inalámbrica. Es la función menos glamorosa del sistema y la que sostiene la mitad de este ecosistema.</p>
+<p>En el iPhone, SideStore la usa para renovar la firma desde el propio teléfono, con un aparato auxiliar o un servicio local que hace de puente. En Android, Shizuku la usa para arrancar su servicio tras cada reinicio. En los dos casos, el permiso se activa en un menú escondido, se empareja una vez y se mantiene vivo mientras el sistema quiera.</p>
+<p>Cuando falla, falla en silencio: el emparejamiento caduca, el servicio no arranca, la renovación se queda a medias. Y como no da un mensaje claro, la gente concluye que el proyecto está roto cuando lo que está roto es el emparejamiento.</p>
+<p>La costumbre que sirve es revisarlo el mismo día que se revisa el respaldo: abrir el menú, ver si el emparejamiento sigue ahí, y si no, volver a hacerlo. Dos minutos al mes que ahorran una tarde al trimestre.</p>
+<p>───────────────────</p>
+<p><em>🧭 Cinco cosas que se pueden probar hoy</em></p>
+<p>Para quien quiera empezar sin teoría, cinco programas que históricamente han funcionado bien en capas de traducción, por ser de un jugador y no pedir servicios a nadie: un juego de plataformas antiguo, un emulador de consola de ocho bits, una calculadora científica, un lector de archivos comprimidos y un reproductor de música local.</p>
+<p>Los cinco comparten la misma virtud: no preguntan nada al sistema fuera de lo que la capa ya imita. Y los cinco sirven para medir la salud de una versión nueva de la capa: si dejan de funcionar los cinco, el problema es la capa; si falla uno, es ese programa.</p>
+<p>La lista no es una recomendación de contenido: es un banco de pruebas. Y como banco de pruebas, lo que importa no es que funcionen, sino que sirvan para comparar la versión de ayer con la de hoy.</p>
+<p>───────────────────</p>
+<p><em>🔋 Batería, calor y las tres horas que nadie cuenta</em></p>
+<p>Una capa de traducción consume como un juego: el procesador del iPhone es rápido y el programa original no fue escrito para ahorrar en un aparato de bolsillo. Media hora de juego deja el teléfono tibio; una hora lo deja caliente y con un veinte por ciento menos de batería.</p>
+<p>El huésped emulado es otra liga. Levantar un sistema completo dentro de otro significa simular instrucciones, y eso se paga en calor y en batería antes que en fluidez. Es la razón por la que la emulación sirve para una app que se necesita una vez y no para el uso diario.</p>
+<p>Hay tres costumbres que alargan la sesión. La primera, jugar con el teléfono enchufado y sin funda, porque la funda es un abrigo. La segunda, bajar el brillo y desactivar el modo de alta frecuencia de pantalla si el aparato lo tiene. La tercera, cerrar lo que no se está usando: en un teléfono pequeño, cada cosa abierta compite por la misma memoria.</p>
+<p>Ninguna de las tres arregla el problema de fondo, que es que se está pidiendo a un aparato de bolsillo el trabajo de otro. Las tres, juntas, sí convierten una sesión de veinte minutos en una de cuarenta.</p>
+<p>───────────────────</p>
+<p><em>🕹️ El añadido de consola</em></p>
+<p>La descripción de Husk incluye una tercera función que no tiene nada que ver con Android: paquetes y carpetas de juego de consola en versiones recientes del sistema. Es un detalle curioso y explica una parte del público del proyecto.</p>
+<p>Lo que enseña ese detalle es que estos programas crecen por donde su comunidad los empuja y no por donde su descripción original apuntaba. Un proyecto que empieza llevando apps de Android a un iPhone acaba con una función de consola porque alguien la pidió y alguien la escribió.</p>
+<p>Para quien lee estas guías, la consecuencia es práctica: la descripción de un repositorio no es su frontera. Antes de descartar un proyecto por su nombre, se lee su lista de versiones, que es donde aparece lo que de verdad hace hoy.</p>
+<p>Y para quien escribe, la lección contraria: un proyecto con una función extra y bien mantenida atrae público que no venía por la función principal. Eso no lo hace mejor ni peor; lo hace más difícil de describir en una línea, que es el problema de casi todo lo que crece.</p>
+<p>───────────────────</p>
+<p><em>🧑🔧 El que ayuda a otros</em></p>
+<p>Hay un personaje que aparece en todos los grupos: el que ya montó la cadena y la explica a los demás. Su utilidad no está en instalar el paquete ajeno, está en decir tres cosas antes de que el otro pierda la tarde: qué versión del sistema tiene, qué puerta le toca y qué esperar del programa que quiere.</p>
+<p>Las tres respuestas se pueden dar sin tocar el teléfono de nadie. La primera se lee en los ajustes; la segunda depende de si tiene cuenta de desarrollador, certificado ajeno o un aparato con el arranque abierto; la tercera se contesta mirando el programa y su lista de dependencias.</p>
+<p>El error del que ayuda es ponerse a instalar. Cuando la persona se lleva el teléfono con un icono que abre, no aprendió nada, y la semana que viene vuelve con el mismo problema y el icono cerrado. Cuando se lleva las tres respuestas, la próxima vez no vuelve.</p>
+<p>Esa es la regla que esta casa aplica también a sus guías: antes de tocar, entender qué se está tocando y quién paga cuando falla.</p>
+<p>───────────────────</p>
+<p><em>📚 Lo que se aprende en el camino</em></p>
+<p>Después de montar esta cadena una vez, tres ideas quedan claras y sirven para cualquier otro ecosistema.</p>
+<p>La primera es que el sistema operativo no es el aparato: es una política. Lo que se puede instalar lo decide una firma, y la firma se administra. Entender eso cambia la relación con el teléfono, sea de la manzana o del robot.</p>
+<p>La segunda es que las puertas pequeñas se mantienen con proyectos pequeños. UTM tiene ★36.633 y Husk ★2.937; las dos cifras conviven porque las dos puertas son distintas. Buscar el proyecto grande que resuelva todo es no haber entendido la forma del ecosistema.</p>
+<p>La tercera es que la fecha manda. Un repositorio con versión de hoy es una promesa de esta semana; un repositorio con versión de hace tres años es una pieza que funciona hoy y que nadie va a arreglar mañana. Con esas tres ideas, la mitad de las preguntas de esta guía se contestan solas.</p>
+<p>───────────────────</p>
+<p><em>📝 Los apuntes de la tarde, tal como quedaron</em></p>
+<p>Tres líneas de libreta que resumen la cadena y que sirven de plantilla para la próxima vez. La primera: qué aparato, qué versión del sistema y qué puerta. La segunda: qué programa, qué motor y qué funcionó. La tercera: qué caduca y cuándo.</p>
+<p>Con esas tres líneas escritas, la próxima instalación no empieza de cero. Y si alguien pregunta en un grupo cómo se hace, la respuesta se copia de la libreta en lugar de reconstruirse de memoria, que es como se propagan los errores.</p>
+<p><em>🔎 Cuatro preguntas que se hacen antes de bajar el archivo</em></p>
+<p>¿Qué programa es y qué pide? Un programa que pide acceso a la red para nada es el primer aviso.</p>
+<p>¿Qué versión del sistema tengo? Husk pide iOS 15.5 o superior, y por debajo de eso la conversación termina.</p>
+<p>¿Qué puerta me toca? Sin cuenta de desarrollador ni aparato con el arranque abierto, no hay cadena posible.</p>
+<p>¿Cuánto voy a renovar? Si la respuesta a esa pregunta ya cansa, la cadena no es para esa persona y es mejor saberlo antes de empezar.</p>
+<p>Cuatro preguntas, dos minutos, y la tarde se salva o se gasta con conocimiento de causa.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas que me hacen</em></p>
+<p><strong>¿Husk es un emulador de Android?</strong> Es un programa con dos motores: una capa de traducción que hace correr el código de 64 bits del paquete sin arrancar Android, y un huésped completo bajo emulación para lo que la capa no alcanza. Decir que es solo un emulador es impreciso, y decir que no emula nada, también.</p>
+<p><strong>¿Necesito jailbreak para usar Husk?</strong> No. Se instala por las puertas de siempre del iPhone —SideStore, AltStore o un aparato con TrollStore— y pide iOS 15.5 o superior.</p>
+<p><strong>¿Puedo usar las apps de Google dentro de Husk?</strong> No de forma fiable. Lo que depende de servicios de la casa de Google encuentra una pared que la capa no suple.</p>
+<p><strong>¿Por qué se cierra un juego al arrancar?</strong> Casi siempre por una comprobación de integridad o una biblioteca que la capa no imita. Probarlo por emulación separa el diagnóstico en un minuto.</p>
+<p><strong>¿SideStore o AltStore?</strong> AltStore es más viejo y más documentado; SideStore intenta renovar sin computadora y su versión 0.7.0-alpha del 15 de septiembre dice que está en construcción. Con las dos se firma; la diferencia es cuántas veces hay que buscar el cable.</p>
+<p><strong>¿Para qué sirve LiveContainer si ya tengo SideStore?</strong> Para gastar menos cupos de firma: metes varias apps dentro de un contenedor y renuevas una sola vez. Es la pieza que hace manejable el límite de aplicaciones.</p>
+<p><strong>¿Por qué se firma con cupos si el programa es libre?</strong> Porque el cupo no lo pone la licencia del programa, lo pone el sistema del teléfono. El código te da permiso sobre el código y no sobre la puerta.</p>
+<p><strong>¿Sirve para el teléfono de trabajo?</strong> Solo con autorización de quien administra ese teléfono, y casi nunca vale la pena. Las políticas de empresa y las garantías tienen más peso que la comodidad de una app.</p>
+<p><strong>¿Cuánto pesa todo esto?</strong> El emulador con su sistema invitado ocupa varios gigas y la batería se resiente. La capa de traducción pesa mucho menos y va a la velocidad del aparato, que es su ventaja real.</p>
+<p><strong>¿Y al revés: Android con un sistema de iPhone?</strong> No existe en ningún sentido práctico. El camino inverso que sí funciona es el sistema invitado dentro de Android, con DSU-Sideloader, y sirve para probar un sistema sin tocar el de todos los días.</p>
+<p>───────────────────</p>
+<p><em>📊 Tabla, mitos y glosario</em></p>
+<p><em>Los ocho medidos, en una línea</em></p>
+<table>
+<tr><th>Proyecto</th><th>Papel en la cadena</th><th>Licencia</th><th>Empujón</th><th>Estrellas</th></tr>
+<tr><td>Husk</td><td>traducir y emular Android en iOS</td><td>GPL-2.0-or-later</td><td>01-nov</td><td>★2.937</td></tr>
+<tr><td>UTM</td><td>emulador de sistemas en iOS</td><td>Apache-2.0 (README MIT)</td><td>01-nov</td><td>★36.633</td></tr>
+<tr><td>AltStore</td><td>instalar y renovar</td><td>AGPL-3.0</td><td>21-oct</td><td>★14.821</td></tr>
+<tr><td>SideStore</td><td>instalar y renovar sin cable</td><td>AGPL-3.0</td><td>27-oct</td><td>★7.188</td></tr>
+<tr><td>LiveContainer</td><td>contenedor de apps</td><td>AGPL-3.0 (README MIT)</td><td>17-oct</td><td>★13.674</td></tr>
+<tr><td>SignTools</td><td>firmar en servidor propio</td><td>AGPL-3.0</td><td>12-oct</td><td>★2.242</td></tr>
+<tr><td>Dadoum/Sideloader</td><td>firmar desde cualquier sistema</td><td>GPL-3.0</td><td>18-sep</td><td>★1.063</td></tr>
+<tr><td>ipaverse</td><td>descargar, refirmar e instalar</td><td>MIT</td><td>22-sep</td><td>★689</td></tr>
+</table>
+<p><em>Cinco mitos del teléfono ajeno</em></p>
+<p><strong>Mito uno: «con esto tienes Android en el iPhone».</strong> Tienes un programa de Android corriendo sobre una capa, o un sistema lento dentro de un emulador. Ni escritorio, ni servicios, ni notificaciones.</p>
+<p><strong>Mito dos: «una vez instalado, ya está».</strong> La firma caduca. Instalar es la mitad del trabajo y renovar es la otra.</p>
+<p><strong>Mito tres: «es igual que en Android».</strong> En Android se instala un APK y punto; aquí hay una cadena de cinco estaciones y tres puertas. La diferencia de esfuerzo es de una tarde contra cinco minutos.</p>
+<p><strong>Mito cuatro: «más estrellas, mejor». </strong> UTM tiene ★36.633 y sirve para otra cosa: emular sistemas. Husk tiene ★2.937 y es el que traduce paquetes de Android. La cifra sin propósito no dice nada.</p>
+<p><strong>Mito cinco: «si es libre, es legal en todas partes».</strong> La licencia cubre el código. El teléfono tiene sus reglas y el contenido tiene sus dueños.</p>
+<p><em>Glosario</em></p>
+<p><strong>Sideload</strong> — instalar un programa por fuera de la tienda del sistema.</p>
+<p><strong>Firma de desarrollador</strong> — permiso temporal que el teléfono acepta para abrir programas no oficiales.</p>
+<p><strong>Contenedor</strong> — programa que envuelve varias apps para gastar una sola firma.</p>
+<p><strong>Capa de traducción</strong> — conjunto de piezas que imitan el sistema que el programa espera.</p>
+<p><strong>Huésped</strong> — sistema completo que corre dentro de un emulador.</p>
+<p><strong>Revocación</strong> — cierre de un certificado que deja sin abrir todos los programas firmados con él.</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces</em></p>
+<p>Todas las direcciones se abrieron esta tarde.</p>
+<ul>
+<li>Husk, Android en el iPhone: <a href="https://github.com/Leviidev/Husk">https://github.com/Leviidev/Husk</a></li>
+<li>UTM, el emulador: <a href="https://github.com/utmapp/UTM">https://github.com/utmapp/UTM</a></li>
+<li>AltStore: <a href="https://github.com/altstoreio/AltStore">https://github.com/altstoreio/AltStore</a></li>
+<li>SideStore: <a href="https://github.com/SideStore/SideStore">https://github.com/SideStore/SideStore</a></li>
+<li>LiveContainer: <a href="https://github.com/LiveContainer/LiveContainer">https://github.com/LiveContainer/LiveContainer</a></li>
+<li>SignTools: <a href="https://github.com/SignTools/SignTools">https://github.com/SignTools/SignTools</a></li>
+<li>Dadoum/Sideloader: <a href="https://github.com/Dadoum/Sideloader">https://github.com/Dadoum/Sideloader</a></li>
+<li>ipaverse: <a href="https://github.com/bahattinkoc/ipaverse">https://github.com/bahattinkoc/ipaverse</a></li>
+<li>DSU-Sideloader, el camino inverso en Android: <a href="https://github.com/VegaBobo/DSU-Sideloader">https://github.com/VegaBobo/DSU-Sideloader</a></li>
+</ul>
+<p><em>Lo que quedó fuera.</em> Dos direcciones se probaron y no dieron ficha: una devolvió 404 y otra no tenía README legible. Se nombran como huecos en las notas del corte.</p>
+<p><em>Cómo se midió.</em> Ocho proyectos con las tres lecturas completas —búsqueda de la forja, página del repositorio y README crudo— y el orden rotado; las versiones se pidieron una por una. Dos fichas declaran una licencia y su README otra, y las dos versiones van publicadas.</p>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — la puerta pequeña</em></p>
+<p>Lo que deja esta guía es una cadena, no una app. El iPhone no deja instalar; alguien firma, alguien instala, alguien renueva y alguien traduce. Husk pone la última pieza con ★2.937 y una versión de hoy; las demás llevan su propia fecha y su propio papel.</p>
+<p>El hallazgo del corte es simple: la pieza más famosa de esta cadena no es la que hace funcionar Android, es la que emula sistemas, y la que hace manejable todo el resto es un contenedor de ★13.674 que casi nadie menciona en los videos. Esa es la forma que tiene este ecosistema de esconder lo importante en el sitio menos vistoso.</p>
+<p>Y el aviso que hay que dejar escrito: aquí todo caduca. Un icono que deja de abrir no es una traición del proyecto, es la puerta cerrándose donde siempre se cierra.</p>
+<blockquote>—¿Y si dentro de un año ya no funciona nada de esto?</blockquote>
+<blockquote>—Entonces alguien habrá abierto otra puerta más pequeña. Y tú ya sabrás leer su fecha.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> Un sistema no se mete en otro teléfono sin pagar peaje: el peaje se llama firma.</p>
+<p><em>Medición del corte:</em> domingo 1 de noviembre de 2026, entre las 17:41 y las 17:52 de Santo Domingo · ocho proyectos medidos tres veces con el orden rotado · cinco releases consultadas aparte con su fecha · dos direcciones sin ficha, anotadas como huecos.</p>
+<p><em>Licencia de esta entrega:</em> texto en CC BY-SA 4.0, datos en CC BY 4.0, código de ejemplo en MIT; la marca y el nombre de la casa quedan reservados a «Alexis (La Bandita)».</p>
+<h2>🗒️ Notas al pie</h2>
+<p><strong>Nota de corte (1-nov):</strong> Husk publicó la 3.3 el mismo día del corte y UTM empujó ese día; las dos fechas van escritas y no se redondearon.</p>
+<p><strong>Nota de licencia (1-nov):</strong> UTM, LiveContainer y Husk tienen ficha y README que no coinciden del todo. Se publican las dos versiones, como en el resto de la serie.</p>
+<p><strong>Nota de hueco (1-nov):</strong> dos direcciones probadas no dieron ficha: una respondió 404 y otra no tenía README legible en ninguna rama. Quedan como hueco y no como ficha incompleta.</p>
+<p><strong>Nota de alcance (1-nov):</strong> la guía no explica cómo saltarse las firmas ni cómo obtener programas de pago fuera de su tienda; cuenta qué piezas existen, con qué licencia y con qué fecha.</p>
+<p><strong>Nota de corrección (1-nov):</strong> la versión anterior describía Husk con datos del 15 de octubre y sin la cadena de firma alrededor, que es la mitad del asunto. Se reescribió con el censo de esta tarde.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

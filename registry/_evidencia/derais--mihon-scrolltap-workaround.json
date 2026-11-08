@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2024-09-24T09:58:16Z",
+   "oid": "1b064c709a03b53074c5ffa38d36952c25d1a0c5"
+  }
+ },
+ "diskUsage": 61089,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "derais/mihon-scrolltap-workaround",
+ "pushedAt": "2024-09-24T09:58:17Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

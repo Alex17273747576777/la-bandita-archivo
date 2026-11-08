@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-18T20:02:48Z",
+   "oid": "3a362172d8fb1e23eb819261e1b5d9143a162cba"
+  }
+ },
+ "diskUsage": 98066,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "kuyeol/AndroidOS_IDE",
+ "pushedAt": "2026-10-21T02:42:17Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

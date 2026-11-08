@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="27 — EL TRONCO DE LAS LLAVES">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>27 — EL TRONCO DE LAS LLAVES</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "27 — EL TRONCO DE LAS LLAVES", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "29 de octubre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>27 — EL TRONCO DE LAS LLAVES</h1>
+<p class="meta">WhatsApp · 29 de octubre de 2026 · 36,702 caracteres</p>
+<p><em>27 — EL TRONCO DE LAS LLAVES</em></p>
+<p>*KeePassDX cumple nueve años, la bóveda de escritorio sin testamento y el servidor de 69 mil:</p>
+<p>donde cuelgan todas las contraseñas de la casa (WhatsApp · La Bandita · dominicano-ES)*</p>
+<p>───────────────────</p>
+<p><em>🗺 MAPA DE ESTA GUÍA</em></p>
+<p>⏱ <em>Lectura total: 55 min</em> · Todo dato con fecha y placa · Censo del 15-oct-2026 (tarde)</p>
+<p>───────────────────</p>
+<p><em>🌱 LA SEMILLA</em></p>
+<p>De todas las piezas de la serie, esta toca el nervio más dominicano: la libreta con las claves del banco, el papelito en la cartera, la misma contraseña desde 2015 en todo. El tronco no juzga la costumbre — le construye mueble: UNA bóveda, UNA contraseña maestra, TODAS las llaves colgando adentro, cifradas con el candado más serio del mundo abierto.</p>
+<p>La serie preparó el terreno calladamente: el sótano (26) enseña a respaldar el archivo de la bóveda, el taller (25) da el cuaderno donde vive la nota, el escudo (24) cuida el viaje de los datos. El tronco completa el anillo: la pieza que guarda las llaves de TODAS las demás.</p>
+<p>Y su vara es la más simple de la serie: el tronco no se apuesta. La bóveda equivocada pierde lo</p>
+<p>único que no se recupera del respaldo: la llave maestra.</p>
+<p>Por eso la pieza mide formatos abiertos (que la bóveda no sea una jaula), licencias firmadas</p>
+<p>(que el taller no sea un rumor), y el ritual del papel (la contraseña maestra vive escrita en</p>
+<p>dos lugares, como manda el sótano).</p>
+<p>───────────────────</p>
+<p><em>🔐 EL CENSO DEL TRONCO (censo 15-oct-2026)</em></p>
+<p>Las placas completas, tal como el censo de la tarde y el pulso nocturno del 15-oct-2026 las</p>
+<p>contestaron:</p>
+<p><em>KeePassDX</em> — Kunzisoft/KeePassDX · ★7.482 (censo 15-oct-2026) · push del 10-oct · GPL-3.0 · nacida el 17-oct-2017. La bóveda del bolsillo: lee y escribe KDBX en Android, con la huella digital pa abrir y la contraseña maestra pa el fondo. CUMPLE NUEVE AÑOS el 17-oct — en dos días exactos: la forja le adelanta el aplauso con fecha.</p>
+<p><em>KeePassXC</em> — keepassxreboot/keepassxc · ★29.250 (pulso 15-oct-2026) · push del MISMO día del</p>
+<p>censo · SIN LICENCIA DECLARADA en el censo · nacida el 28-feb-2016. La bóveda de la PC: la</p>
+<p>hermana mayor del estándar KeePass en el escritorio, diez años y siete meses de taller — y la</p>
+<p>sorpresa del censo: su placa legal aparece EN BLANCO al corte.</p>
+<p>La forja la marca: el proyecto es histórico y público, pero la vara es la vara — placa sin</p>
+<p>testamento, leída con vara.</p>
+<p><em>Vaultwarden</em> — dani-garcia/vaultwarden · ★69.114 (pulso 15-oct-2026) · push del 10-oct · AGPL-3.0 · nacida el 17-feb-2018. La frontera del barrio: el servidor casero compatible con Bitwarden — el que monta el taller avanzado pa que SU familia tenga su propio «Bitwarden» sin depender del ajeno. Ocho años y ocho meses.</p>
+<p>La forja lo firma como frontera (piezas del selfhosted, bloques 51-60): aquí se mide como el</p>
+<p>faro que ilumina la escuela.</p>
+<p>───────────────────</p>
+<p>Detalle que la forja firma con vara: el censo del tronco es CHICO a propósito — tres casas, ninguna más. En el territorio de las contraseñas, la cantidad es sospecha: los «gestores» que brotan como hongos en la tienda son el negocio más peligroso del ecosistema — le piden la llave a tu vida entera.</p>
+<p>El tronco de la casa solo mide lo que tiene raíz pública y años de oficio.</p>
+<p><em>🗝 LA ESCUELA DE LA BÓVEDA ÚNICA</em></p>
+<p>Tres casas, una escuela: LA BÓVEDA ÚNICA — un archivo cifrado con todas las contraseñas, abierto</p>
+<p>por una sola llave maestra. La escuela entera en cuatro principios:</p>
+<p><em>PRINCIPIO UNO — UNA llave maestra, fuerte y escrita en papel.</em> La bóveda vale lo que vale su contraseña maestra: es la ÚNICA que memorizas. Fuerte (frase larga, no clave corta), única (jamás usada en otro lugar), y escrita en papel en dos lugares de la casa — la ley del sótano (26) aplicada a la llave de las llaves.</p>
+<p>El papel no se pierde por hacker: se pierde por mudanza — por eso son dos lugares.</p>
+<p><em>PRINCIPIO DOS — TODAS las demás contraseñas, ÚNICAS y generadas.</em> Dentro de la bóveda, cada servicio lleva su contraseña propia, generada al azar por la bóveda misma. La libreta con la misma clave en todo deja de ser necesaria: recuerdas UNA frase y el mueble recuerda las ciento que no puedes recordar.</p>
+<p>El hackeo de un servicio deja de abrir la puerta de los demás — el principio que mata la</p>
+<p>costumbre del 2015.</p>
+<p><em>PRINCIPIO TRES — el archivo es TUYO y viaja donde tú digas.</em> La bóveda es UN ARCHIVO (KDBX): lo pones en tu teléfono (KeePassDX), en tu PC (KeePassXC), lo respaldas con el sótano (26), lo sincronizas con el espejo. Nadie la retiene: si una app desaparece mañana, el archivo vive — y otra app del estándar lo abre igual.</p>
+<p>La diferencia entera entre bóveda libre y bóveda de suscripción ajena.</p>
+<p><em>PRINCIPIO CUATRO — la segunda cerradura pa las puertas críticas.</em> Pa el banco y el correo, la bóveda es el primer piso — el segundo es la verificación en dos pasos (2FA). El tronco mide la escuela, no repite el manual: la regla práctica de la casa — banco y correo SIEMPRE con segundo paso, y los códigos de respaldo del 2FA, impresos y en el mismo papel de la llave maestra.</p>
+<p>Dos cerraduras y las llaves de repuesto en papel: el tronco completo.</p>
+<p>───────────────────</p>
+<p><em>⚖ LA VARA DE LA LICENCIA</em></p>
+<p>El tronco al corte del 15-oct-2026: dos firmas completas y una placa en blanco — y la que está</p>
+<p>en blanco es, precisamente, la más famosa del censo.</p>
+<p><em>KeePassDX</em> con <strong>GPL-3.0</strong>: el testamento de la escuela copyleft — el taller tiene que seguir abierto pase lo que pase. <em>Vaultwarden</em> con <strong>AGPL-3.0</strong>: la firma más estricta de la serie hasta ahora — hasta los SERVIDORES modificados tienen que publicar su código.</p>
+<p>La lectura de la forja: en el territorio donde se guardan las llaves del mundo, los talleres se</p>
+<p>firman con la ley más fuerte disponible. No es casualidad: es doctrina.</p>
+<p><em>KeePassXC — la fama sin testamento.</em> ★29.250 (pulso 15-oct-2026), push del mismo día del censo,</p>
+<p>diez años de oficio — y su placa legal EN BLANCO al corte del pulso.</p>
+<p>La lectura completa, como la casa la debe: el proyecto no es un impostor (es la continuación comunitaria y pública de una línea de 2005, todo su código es legible en el repo), PERO la vara de la serie no mide fama — mide firmas. La forja la firma: úsala leyendo su placa con vara — y espera la corrección del censo con la puerta abierta, como con AppManager y Markor (25).</p>
+<p>Tres placas en blanco en tres piezas seguidas: la noche del censo está llena de talleres</p>
+<p>ocupados trabajando más que firmando.</p>
+<p><em>El detalle que la forja subraya:</em> en ninguna de las tres casas la placa afecta EL FORMATO. KDBX es un estándar abierto documentado — tu archivo de bóveda NO pertenece a ninguna de las tres apps: le pertenece a ti. La licencia pesa en el mueble; el archivo es tuyo de siempre.</p>
+<p>Esa es la gracia del estándar abierto que la pieza cincuenta de la serie firmará otra vez con</p>
+<p>otras palabras.</p>
+<p>───────────────────</p>
+<p><em>🏛 EL FORMATO MANDA (por qué KDBX cambia todo)</em></p>
+<p>La sección donde la pieza deja de ser un «review» y se vuelve doctrina — porque el formato de la</p>
+<p>bóveda decide quién manda en tus llaves.</p>
+<p><em>Qué es KDBX:</em> el formato de archivo de la familia KeePass — un contenedor cifrado (AES o ChaCha20, con llaves derivadas con Argon2) donde vive tu bóveda entera: contraseñas, notas seguras, adjuntos. Un ARCHIVO — no una cuenta.</p>
+<p>No se «inicia sesión»: se ABRE con tu llave.</p>
+<p>La diferencia técnica es la diferencia legal: el archivo que se abre con llave no depende de</p>
+<p>ningún servidor.</p>
+<p><em>Qué cambia en la práctica:</em> tu bóveda puede vivir en tu teléfono (KeePassDX la abre), en tu PC (KeePassXC la abre), en el disco del sótano (el respaldo de la 26 la respalda), y en el servidor casero (Vaultwarden la sincroniza) — TODO con el mismo archivo. La app que cierre, la empresa que muera, el taller que se canse: tu archivo sigue siendo un archivo.</p>
+<p>El estándar convierte la bóveda en propiedad — igual que el texto plano de la pieza 22 convirtió</p>
+<p>las notas.</p>
+<p><em>El contraste que la forja firma con vara:</em> la bóveda de suscripción ajena guarda tus llaves en el formato INTERNO del servicio: si mañana sube el precio o cierra, tu mudanza es una exportación torcida. La bóveda del estándar abierto no conoce ese miedo: el formato ES la propiedad.</p>
+<p>En la casa de la serie esta es la ley del territorio: lo que se guarda en formatos abiertos no</p>
+<p>se pierde — se hereda.</p>
+<p><em>Y el detalle fino:</em> KeePassDX y KeePassXC pueden abrir la MISMA bóveda a la vez (una en el teléfono, otra en la PC) — la sincronía del espejo (26) la mantiene igual en los dos lados. La bóveda única vive en todas partes sin dejar de ser UNA: ese es el truco de magia del formato abierto, sin humo y con receta.</p>
+<p>───────────────────</p>
+<p><em>🔧 LA RECETA DEL TRONCO ORDENADO (una tarde, por pisos)</em></p>
+<p><em>Piso uno — el papel antes que la app.</em> La frase maestra se INVENTA primero: tres o cuatro palabras que solo tú podás juntar, largas (15+ caracteres), sin fecha de cumpleaños ni nombre de hijo. Se escribe en papel dos veces, dos lugares.</p>
+<p>El papel de la casa: la primera instalación del tronco no es digital — es de libreta.</p>
+<p>Después de escrita, se memoriza en una semana de uso natural (se abre varias veces al día).</p>
+<p><em>Piso dos — la bóveda nace.</em> KeePassDX del repo o tienda legal (placa: ★7.482 al censo del 15-oct-2026, GPL-3.0): crear base de datos nueva, formato KDBX. La app genera el archivo, pide la frase maestra, y ofrece la huella pa el día a día — la huella ABRRE la bóveda ya desbloqueada, la frase la ABRE de verdad. Ambas capas, bien distintas: la forja firma la diferencia.</p>
+<p><em>Piso tres — las primeras diez llaves.</em> El trasiego honesto: abre la libreta vieja (el papelito de la cartera, la nota del teléfono) y cuelga las diez contraseñas más importantes EN la bóveda — y por cada una, cámbiala a una generada única. Empieza por el banco y el correo (los dos con 2FA activado el mismo día).</p>
+<p>Diez llaves por noche: en una semana la libreta vieja se jubila.</p>
+<p><em>Piso cuatro — la PC y el espejo.</em> KeePassXC en la computadora (con su placa en blanco leída con vara): abre EL MISMO archivo — que llega por el espejo de Syncthing (26). Bóveda única, dos muebles, cero nubes: el tronco completo cuesta NADA y no depende de nadie.</p>
+<p>La primera vez que guardas una contraseña en la PC y la ves aparecer en el teléfono en segundos,</p>
+<p>el tronco se entiende para siempre.</p>
+<p><em>Piso cinco — el respaldo y la fecha.</em> El archivo de la bóveda entra al respaldo cifrado del sótano (26) — el domingo lo respalda, el primer sábado lo prueba. Y la nota-placa del taller anota: qué bóveda, qué censo, qué fecha nace, dónde viven los papeles.</p>
+<p>El tronco documentado se hereda — igual que el sótano: si algo te pasa, tu familia abre la nota</p>
+<p>y encuentra la puerta, no un misterio.</p>
+<p>───────────────────</p>
+<p><em>🧊 MITOS DESMONTADOS</em></p>
+<p><em>Mito uno — «una bóveda es un peligro: todas las claves en un solo lugar».</em> La confusión</p>
+<p>clásica: el «solo lugar» de la bóveda es un ARCHIVO CIFRADO con Argon2 — romperlo es la tarea</p>
+<p>más cara del mundo, y el que quiere tus claves va por la puerta del servicio débil (la página</p>
+<p>del cine donde usabas la misma clave), no por la bóveda.</p>
+<p>La bóveda única no crea el riesgo: lo CONCENTRA defendido. El campamento sin muros es el peligro</p>
+<p>— el castillo con una puerta gruesa, no.</p>
+<p><em>Mito dos — «la bóveda puede ser hackeada y pierdo TODO».</em> El escenario real de pérdida no es el hackeo: es la frase maestra olvidada. El cifrado no tiene puerta trasera — ni pa ti.</p>
+<p>Por eso la pieza pone el papel ANTES que la app: la frase escrita en dos lugares elimina el único desastre probable.</p>
+<p>El hackeo masivo de bóvedas KDBX locales no existe como caso práctico: existe como argumento de</p>
+<p>marketing del miedo.</p>
+<p><em>Mito tres — «el gestor del navegador ya sirve».</em> El que trae el navegador guarda en la nube del servicio ajeno, con la llave atada a TU CUENTA de ese servicio — el correo hackeado puede arrastrar la bóveda entera. Sirve pa el nivel «no uso la misma clave en todo», no pa el tronco de un oficio.</p>
+<p>La serie no lo prohíbe: lo subordina — es el piso cero, no la casa.</p>
+<p><em>Mito cuatro — «apuntar en la libreta era más seguro».</em> La libreta de papel es buena pa la FRASE</p>
+<p>maestra (la pieza la ordena) y terrible pa las cien contraseñas del diario: se pierde, se moja,</p>
+<p>no se respalda, y buscar la clave del banco en la fila del mercado es un espectáculo público.</p>
+<p>La bóveda es la libreta PERFECTA: se respalda, se cifra, se busca en un toque — y cabe en el</p>
+<p>bolsillo sin miedo al viento.</p>
+<p>───────────────────</p>
+<p><em>❓ PREGUNTAS DE LA FILA</em></p>
+<p><em>¿KeePassDX o Vaultwarden pa empezar?</em> Del censo del 15-oct-2026: empieza con KeePassDX — la bóveda de archivo es una tarde sin servidores. Vaultwarden es el piso del taller avanzado: pide un lugar donde correr el servicio (pieza del selfhosted, bloques 51-60).</p>
+<p>La forja no compara: son pisos distintos del mismo edificio — el archivo primero, el servidor cuando la casa crece.</p>
+<p><em>¿Y si pierdo el teléfono con la bóveda adentro?</em> Nada: el archivo vive también en la PC y en el respaldo del sótano (26). La bóveda del estándar no vive DENTRO del teléfono — pasa por él.</p>
+<p>El teléfono perdido es un trámite; la bóveda perdida era del que la dejaba SOLO en el teléfono — y esa casa ya está corregida por esta pieza.</p>
+<p><em>¿La huella digital abre mi bóveda?</em> La abre YA desbloqueada (el desbloqueo rápido del diario) — pero la FRASE maestra es la que abre de verdad: si el teléfono se apaga mucho tiempo o la app se reinstala, la frase manda. La regla de la casa: la huella es comodidad; la frase es propiedad.</p>
+<p>Las dos funcionan juntas — y la frase se queda en papel, como siempre.</p>
+<p><em>¿La bóveda cuenta los intentos? ¿puedo bloquearla por error?</em> El formato no bloquea por intentos — pero la frase LARGA es la defensa real: cada intento equivocado cuesta años de computación (Argon2), no una pantallita de «espera 30 segundos».</p>
+<p>La lectura práctica: con la frase bien inventada, la fuerza bruta no es una amenaza — es una afición cara.</p>
+<p>Y con la frase en el papel, ni el olvido es amenaza.</p>
+<p><em>¿Cómo comparto una contraseña con mi socio del negocio?</em> Sin mensajero: la bóveda de KeePassDX permite EXPORTAR la entrada (o el grupo de entradas) a un archivo protegido con una frase que le dices POR VOZ (la llamada, no el chat). El socio la importa a su bóveda y borra el archivo del tránsito.</p>
+<p>La contraseña viaja cifrada, la frase viaja por voz: dos canales, como manda el oficio.</p>
+<p><em>¿Qué pasa si KeePassDX desaparece mañana?</em> Nada: tu archivo KDBX lo abre KeePassXC en la PC, o cualquier app del estándar — hay herederos DE FÁBRICA porque el formato es abierto. La bóveda del estándar es la única que no puede quedarte huérfana: el estándar es el testamento ya firmado, antes de que haga falta.</p>
+<p>───────────────────</p>
+<p><em>🧪 CASOS DEL BARRIO</em></p>
+<p><em>Caso uno — la cajera del colmado con el banco hackeado.</em> Le sacaron compras a la tarjeta dos veces en un mes — su clave del banco era la misma del correo, y el correo la misma de una página de películas. Receta: la tarde del tronco completa — frase maestra en papel, bóveda nacida, las veinte claves de la casa cambiadas a únicas en cinco noches.</p>
+<p>El banco ya no comparte llave con nadie: el caso del mes dos es cero sorpresas de tarjeta. La</p>
+<p>casa que tiene llaves únicas duerme distinto.</p>
+<p><em>Caso dos — el socio del taller de motos.</em> Dos dueños, una cuenta del banco del negocio, y el password que se pasaban por WhatsApp (con el nombre del hijo, obvio). Receta: la exportación protegida por voz de la pieza — la clave del negocio cambió a una generada, viajó cifrada, y hoy vive en las DOS bóvedas con la frase de tránsito ya muerta.</p>
+<p>El negocio que comparte llaves como gente, no como rumor: el caso firma que discutir el método</p>
+<p>les tomó menos que discutir la pelota.</p>
+<p><em>Caso tres — la hija que heredó las claves.</em> El señor de la casa tenía TODO en su cabeza: el banco, el seguro, las cuentas del negocio. La familia lo pasó una angustia cuando hospitalizan a alguien y nadie sabe ni el PIN. Receta: la nota-placa del piso cinco — la bóveda documentada, los papeles en el lugar dicho, la frase maestra en el sobre de la caja fuerte de la casa.</p>
+<p>La herencia de las llaves es el capítulo que nadie quiere pensar y toda familia agradece: el</p>
+<p>tronco se construye también pa el día que el tronco no puede hablar.</p>
+<p><em>Caso cuatro — la estudiante del grupo de tesis.</em> El grupo compartía el usuario de la biblioteca digital con la clave en el chat del grupo (con 40 personas). Receta: bóveda compartida por el espejo (26) en los tres que coordinan, entrada única, frase de tránsito por voz.</p>
+<p>El grupo del chat ya no sabe la clave — y eso es exactamente el punto.</p>
+<p>La casa que protege, protege hasta del propio grupo.</p>
+<p>───────────────────</p>
+<p><em>Caso cinco — el taxista de la app nueva.</em> Cada servicio de transporte con su cuenta y su clave — y el reseteo semanal de la que se olvidaba, con el SMS que nunca llegaba en la fila. Receta: la bóveda con las seis apps de transporte, claves generadas, autorrelleno con la huella.</p>
+<p>El que manejaba por memoria y perdía carreras por reseteo, hoy abre cualquier app en dos toques.</p>
+<p>La comodidad del mueble verificado: la propaganda de las tiendas, hecha real por el FOSS del barrio.</p>
+<p><em>Caso seis — la directora del colegio del sector.</em> Cuarenta claves institucionales (ministerio,</p>
+<p>seguro, plataforma de notas, banco escolar) repartidas en tres cuadernos y la memoria de la</p>
+<p>secretaria — que se fue de vacaciones y el colegio paró.</p>
+<p>Receta: la bóveda institucional con grupos por área, la frase maestra en el sobre de la caja fuerte con la directora Y la vicedirectora (dos lugares de la ley del sótano), y el barrido mensual en el calendario. El colegio que dependía de una memoria ahora depende de un tronco con acta: la semana dos, la secretaria volvió — y ya no era imprescindible.</p>
+<p><em>🏭 LA DESPENSA DE DATOS (todo lo medido, en una repisa)</em></p>
+<p>Las tres placas del tronco al 15-oct-2026, listas pa copiar y verificar:</p>
+<p>KeePassDX · Kunzisoft/KeePassDX · ★7.482 · nacida 17-oct-2017 · push 10-oct-2026 · GPL-3.0 ·</p>
+<p>cumple nueve años el 17-oct. KeePassXC · keepassxreboot/keepassxc · ★29.250 · nacida 28-feb-2016</p>
+<p>· push 15-oct-2026 (mismo día del censo) · sin licencia declarada al corte.</p>
+<p>Vaultwarden · dani-garcia/vaultwarden · ★69.114 · nacida 17-feb-2018 · push 10-oct-2026 · AGPL-3.0.</p>
+<p>Fuente: censo vivo de la casa (5.684 repos, tarde del 15-oct-2026) + pulso nocturno con la API</p>
+<p>oficial del mismo 15-oct-2026. Dato viaja FECHADO a esa noche.</p>
+<p>───────────────────</p>
+<p><em>🕰 LA EDAD DE LAS CASAS DEL TRONCO</em></p>
+<p>KeePassDX nació el 17-oct-2017: nueve años MENOS DOS DÍAS al corte — el cumpleaños más puntual</p>
+<p>de la serie: la forja firma este acta dos días antes de la fiesta. KeePassXC nació el</p>
+<p>28-feb-2016: diez años y siete meses.</p>
+<p>Vaultwarden nació el 17-feb-2018: ocho años y ocho meses.</p>
+<p>Y detrás de las tres, la línea madre: la familia KeePass original nació en 2003 — el abuelo de</p>
+<p>todas las bóvedas abiertas tiene VEINTITRÉS AÑOS de estándar vivo.</p>
+<p>Promedio de las tres: nueve años y medio. El tronco es territorio de madurez — igual que el</p>
+<p>sótano: donde se guardan las cosas que no se pueden perder, los talleres son viejos o no son.</p>
+<p>Y la línea de 2003 a 2026 es la prueba escrita de que el estándar abierto sobrevive a todos sus</p>
+<p>muebles: el formato pasa, las apps van y vienen, la bóveda queda.</p>
+<p>───────────────────</p>
+<p><em>💬 LA CONVERSACIÓN HONESTA</em></p>
+<p>Primera: la placa en blanco de KeePassXC se leyó con el estómago apretado — es la casa más querida del censo y la forja la marcó igual que a las otras dos de la noche (AppManager, Markor). La vara no tiene favoritos: placa sin testamento al corte, anotada con nombre y fecha.</p>
+<p>Si el censo próximo la trae corregida, el acta lo celebra el mismo día.</p>
+<p>Segunda: Vaultwarden se midió como FARO, no como receta — montar un servidor no es la tarde del tronco, es el piso del selfhosted (bloques 51-60 de la serie). La pieza lo trae porque es LA prueba de que la escuela maduró: 69 mil estrellas guardando las bóvedas de talleres del mundo entero en servidores propios.</p>
+<p>Tercera: el glosario es el de la familia cosecha más las entradas del tronco — séptima pieza de la noche, misma aguja. Y el marco de la casa: esta pieza no vende paranoia — vende mueble: la bóveda es la libreta del barrio con candado, respaldo y acta.</p>
+<p>───────────────────</p>
+<p><em>🎞 LO QUE ESTA PIEZA NO DICE</em></p>
+<p>No dice que la bóveda única sea un riesgo nuevo — dice que concentra lo que ya estaba disperso y</p>
+<p>sin defensa: el campamento se vuelve castillo.</p>
+<p>No dice que KeePassXC sea un impostor — dice que su placa está en blanco al corte del</p>
+<p>15-oct-2026 y que la vara de la casa no tiene favoritos.</p>
+<p>No dice que montes un servidor esta tarde — dice que Vaultwarden existe, respira y es la</p>
+<p>frontera del barrio (51-60).</p>
+<p>No dice que la huella digital sustituya la frase — dice que la huella es comodidad y la frase es</p>
+<p>propiedad: las dos capas, bien distintas.</p>
+<p>No dice — jamás — que la frase maestra se guarde en el teléfono que la bóveda habita: la llave</p>
+<p>de las llaves vive en papel, en dos lugares, como manda el sótano.</p>
+<p>───────────────────</p>
+<p><em>🎚 EL TRONCO EN TU DÍA A DÍA (cuatro rutinas del oficio callado)</em></p>
+<p><em>LA MAÑANA DEL AUTORRELLENO.</em> La bóveda abre con la huella y rellena sin teclear: la clave del banco en la fila del colmado, sin espectáculo y sin error de dedo. El autorrelleno del mueble verificado es la primera comodidad que no se negocia — el que la prueba en una semana, borra la libreta sin nostalgia.</p>
+<p><em>LA NOCHE DEL GUARDA.</em> Cada cuenta nueva que nace en la semana (el servicio nuevo, la membresía nueva) nace DENTRO de la bóveda: la app genera la clave única, la guarda, y ya está. La regla de la noche: ninguna clave nueva fuera del tronco — el desorden no vuelve por la puerta nueva.</p>
+<p><em>EL MES DEL BARRIDO.</em> Una vez al mes, la revisión de la bóveda: ¿alguna clave vieja de la libreta quedó fuera? ¿alguna repetida que se escapó?</p>
+<p>¿el 2FA del correo sigue encendido? Quince minutos de barrido y el tronco queda limpio — el mantenimiento más barato de la casa entera.</p>
+<p><em>EL AÑO DEL PAPEL.</em> Una vez al año: el papel de la frase se revisa (¿legible? ¿en su lugar?), y la nota-placa se compara con el censo nuevo de la serie.</p>
+<p>El papel que se revisa no sorprende — y el tronco que se compara con placas fechadas, se defiende solo. Así funciona la casa: la llave más importante del oficio es la que se revisa sin que haga falta.</p>
+<p>───────────────────</p>
+<p><em>🧵 GENEALOGÍAS DEL TRONCO</em></p>
+<p>La línea de sangre más larga de la serie hasta ahora: la familia KeePass nace en 2003 con la</p>
+<p>bóveda original de Windows. Su formato abierto (KDBX) se convierte en el ESTÁNDAR que las</p>
+<p>comunidades portan a todas las plataformas.</p>
+<p>Los trasplantes, por orden de llegada: KeePassDroid en los primeros Android. KeePassXC en el</p>
+<p>escritorio cruzado (nacida el 28-feb-2016, la continuación comunitaria de la línea KeePassX).</p>
+<p>KeePassDX en el Android moderno (nacida el 17-oct-2017). Tres continentes, un formato,</p>
+<p>veintitrés años: la genealogía del estándar abierto en estado puro.</p>
+<p>Y Vaultwarden (nacida el 17-feb-2018, ★69.114 al pulso del 15-oct-2026) viene de la otra escuela</p>
+<p>— la del servidor casero compatible: tomó el protocolo de Bitwarden y lo volvió mueble propio,</p>
+<p>hasta que se volvió EL servidor de referencia del barrio (★69.114).</p>
+<p>La cadena del tronco en una línea: el formato nace libre, las comunidades lo siembran en todas las plataformas, y el estándar sobrevive a todos sus muebles. El tronco es la pieza donde la genealogía de la casa dice su lección más vieja: lo abierto se hereda — lo cerrado se funera.</p>
+<p>───────────────────</p>
+<p><em>📦 LA DESPENSA DEL TRONCO (tus llaves, ordenadas como gente)</em></p>
+<p><em>LA ESTRUCTURA DE LA BÓVEDA.</em> Grupos con nombre claro: Banco, Correo, Trabajo, Casa, Negocio, Familia. La bóveda ordenada se busca en un toque — y la entrada del banco lleva notas seguras con lo que el banco pide (las preguntas de seguridad, el número de la tarjeta).</p>
+<p>El orden de la bóveda es el orden de la vida: la misma regla del cajón (25), aplicada a las llaves.</p>
+<p><em>LAS ENTRADAS QUE NADIE ACUERDA.</em> La bóveda también guarda: el número de póliza, el contrato del negocio, el serial de la licencia de la PC, el número del NFC de la tarjeta de transporte. Las entradas seguras (notas cifradas dentro de la bóveda) son el cajón de los documentos que se pierden cuando se necesitan: el tronco guarda llaves — y los papeles que abren puertas.</p>
+<p><em>EL RESPALDO DEL TRONCO.</em> Ya firmado: el archivo en el espejo (PC), en el respaldo cifrado (disco), y la frase en el papel (dos lugares). Tres copias del archivo, dos copias de la llave — el tronco es la aplicación más literal de la ley de la copia de la copia de toda la serie.</p>
+<p><em>Y LA REGLA APRENDIDA.</em> La bóveda se administra con la vara de la casa: muebles verificados, formato abierto, respaldo probado, papel en su lugar. El tronco no se colecciona: se MANTIENE — como el sótano, como el cajón: tres rutinas y una nota con fecha.</p>
+<p>La casa entera es esa: pocas reglas, cumplidas de verdad.</p>
+<p>───────────────────</p>
+<p><em>🪧 EL CARTEL DEL TRONCO</em></p>
+<p>Clávalo en la puerta del tronco:</p>
+<p><em>Una frase, un archivo, todas las llaves únicas — el castillo tiene una puerta gruesa.</em></p>
+<p>*El papel antes que la app — la llave de las llaves vive en dos lugares, jamás en el teléfono</p>
+<p>que la bóveda habita.*</p>
+<p><em>Formato abierto: la bóveda que se exporta es propiedad — la que no, es jaula con candado bonito.</em></p>
+<p><em>El banco y el correo con dos cerraduras, siempre.</em></p>
+<p><em>Y la clave que viaja por chat, viaja por la acera — el oficio comparte con cifrado y voz.</em></p>
+<p>───────────────────</p>
+<p><em>😄 EL MEME DE LA CASA</em></p>
+<p>— El grupo de siempre: <em>«HERMANO ¿cuál es la clave del banco? la mando por aquí mismo»</em> 📱</p>
+<p>— La clave, viajando por la acera del chat: *saliendo del teléfono del socio, entrando al</p>
+<p>teléfono de la suegra, quedándose en el respaldo de la nube ajena* 🚶</p>
+<p>— KeePassDX, con su bóveda cifrada y su GPL-3.0: *yo la genero, la guardo y la relleno — la</p>
+<p>palabra "clave" y "chat" ya no se juntan en esta casa* 🔐</p>
+<p>— Yo, con la frase maestra en el papel de la caja fuerte y cero claves repetidas desde octubre: 😌</p>
+<p><em>Moral del meme, chin chin:</em> la clave del banco viajando por chat es la bicicleta del vecino: todo el barrio la usa y nadie la devuelve. La bóveda del estándar abierto cuesta una tarde, no cobra cuota, y la clave viaja SOLO cuando tú mandas — cifrada, por dos canales, chin chin.</p>
+<p><em>⚠ LOS RIESGOS DEL TRONCO, CON FECHA</em></p>
+<p><em>RIESGO UNO — la frase maestra débil u olvidada.</em> El único desastre probable del tronco: la frase que es nombre y cumpleaños (se adivina) o la frase que no se anotó (se olvida). La defensa es doble y ya está en la receta: frase LARGA inventada por ti + papel en dos lugares.</p>
+<p>El cifrado no perdone: ni el mejor taller del mundo abre la bóveda sin su llave — y esa es</p>
+<p>exactamente la gracia.</p>
+<p><em>RIESGO DOS — el gestor impostor de la tienda.</em> El territorio donde más impostores brotan: apps de «gestor de contraseñas» con 50 mil descargas, taller anónimo y permisos de todo. La defensa de la casa entera: repo público con años, licencia firmada, censo fechado — las tres placas de esta pieza pasan; el resto, ni pa probar.</p>
+<p>En el tronco, la prueba con datos reales no se hace: la bóveda se puebla SOLO de muebles</p>
+<p>verificados.</p>
+<p><em>RIESGO TRES — el tránsito del chat.</em> La costumbre que esta pieza mata: claves del negocio compartidas por mensajero en texto plano. El mensajero no es bóveda — es la acera.</p>
+<p>La defensa: la exportación cifrada con frase por voz (caso dos) — dos canales, jamás uno. Y después del tránsito, la clave se cambia si viajó mal alguna vez: el pasado del chat no se borra, se corrige.</p>
+<p><em>El riesgo que la forja se auto-impone:</em> escribir la pieza de las contraseñas sin vender el miedo. La forja firma el marco: esta pieza no vende paranoia — vende mueble.</p>
+<p>El que instala la bóveda por terror, la abandona; el que la monta como libreta con candado, la usa toda la vida. El tono de la casa es el del vecino que arma el mueble contigo — no el del vendedor de alarmas.</p>
+<p>───────────────────</p>
+<p><em>📖 GLOSARIO DE LA COSECHA</em></p>
+<p><em>Puente.</em> El cliente que no guarda música: la busca en el catálogo de otro y la trae al momento.</p>
+<p>Debe su vida a un río ajeno — por eso la vara de esta escuela mira el push con fecha antes que</p>
+<p>las estrellas.</p>
+<p><em>Cajón.</em> La escuela del archivo propio: MP3 y FLAC tuyos, tocados sin internet ni río ajeno.</p>
+<p>Nunca depende de un provedor, jamás se corta en la loma, y su única obligación es que tus</p>
+<p>etiquetas estén peinadas.</p>
+<p><em>Detective.</em> La escuela del descubrimiento: cruza fuentes, amarra discografías y te muestra</p>
+<p>versiones. Muffon es su bandera en la cosecha — menos «ponme la playlist», más «enséñame el mapa</p>
+<p>del artista».</p>
+<p><em>Cosecha.</em> El pase de vara ancho por una familia del censo: se mide casa por casa, con placa, y</p>
+<p><em>🗓 EL RITUAL DE LA PRIMERA SEMANA (de la libreta al tronco firmado)</em></p>
+<p><em>DÍA UNO — el papel de la casa.</em> La frase maestra: inventada, larga, escrita dos veces, dos lugares. La primera tarea del tronco no se toca con el teléfono — se escribe en la libreta.</p>
+<p>El sobre de la caja fuerte (o el lugar dicho de la casa) queda listo desde hoy.</p>
+<p><em>DÍA DOS — la bóveda nace.</em> KeePassDX instalado del repo verificado (placa: ★7.482, GPL-3.0, censo 15-oct-2026): base de datos KDBX nueva, frase maestra, huella pa el diario. El bautismo: guarda la PRIMERA entrada — puede ser la clave del wifi de la casa, pa aprender el mueble sin miedo.</p>
+<p><em>DÍA TRES — el banco y el correo.</em> Las dos puertas críticas: claves cambiadas a generadas únicas, 2FA activado en las dos, y los códigos de respaldo del 2FA impresos junto al papel de la frase. El día más importante de la semana: el resto es mejora — esto es el muro.</p>
+<p><em>DÍA CUATRO — la segunda tanda.</em> Las diez claves del diario (tienda, mensajero, trabajo, redes): cambiadas y colgadas en la bóveda, cinco por noche. El truco del tránsito: se cambia DESDE el servicio, la nueva se guarda EN la bóveda — y la vieja se borra de la libreta.</p>
+<p>Una por una, sin prisa: el desorden de años se corrige en noches, no en horas.</p>
+<p><em>DÍA CINCO — la PC y el espejo.</em> KeePassXC en la computadora (placa en blanco leída con vara): abre el mismo archivo que llega por Syncthing (26). La primera contraseña guardada en la PC y vista en el teléfono: el tronco se vuelve UNO de verdad.</p>
+<p><em>DÍA SEIS — el respaldo y la nota-placa.</em> El archivo de la bóveda entra al respaldo del sótano, y la nota del taller anota: bóveda nacida (fecha), muebles y placas (censo 15-oct-2026), papeles (lugares). La nota-placa del tronco, como la del sótano: el documento que convierte el trámite en herencia.</p>
+<p><em>DÍA SIETE — la placa, otra vez.</em> Vuelve al censo con el tronco montado: ¿KeePassDX sigue empujando? ¿La bóveda abre en los dos muebles?</p>
+<p>¿El papel de la frase está en su lugar? El día que respondes las tres sin ayuda, la casa cumplió: tus llaves ya no viven en la cartera, ni en el chat, ni en la cabeza de nadie — viven en un tronco con candado, respaldo y acta.</p>
+<p>───────────────────</p>
+<p><em>Y la regla del tronco que la serie pide clavar en la puerta:</em> una frase, un archivo, todas las</p>
+<p>llaves únicas — el papel primero, la app después, el respaldo siempre. Lo que se guarda en</p>
+<p>estándar abierto no se pierde: se hereda.</p>
+<p>───────────────────</p>
+<p><em>🩺 LA SALUD DEL TRONCO AL CORTE (el parte médico de las tres casas)</em></p>
+<p>El parte del 15-oct-2026: el tronco respira con el ritmo del territorio más conservador de la serie.</p>
+<p>KeePassDX, push del 10-oct: cinco días de aire en la casa que cumple años el sábado — el taller</p>
+<p>está de fiesta anticipada. KeePassXC, push del MISMO día del censo: el pulso perfecto otra vez</p>
+<p>(la casa que empuja la mañana de su medición).</p>
+<p>Vaultwarden, push del 10-oct también: cinco días, ritmo de faro estable.</p>
+<p>El balance del parte: tres casas, tres respirando, cero quietudes — el segundo territorio de la serie sin un solo parte grave (el primero fue el sótano, la noche anterior). Y la lectura fina de la forja: en el tronco no hay ni una casa en espera — el territorio donde se guardan las llaves del mundo no se permite ni una siesta.</p>
+<p>La regla no escrita del ecosistema: el que guarda llaves, empuja.</p>
+<p><em>📐 LA MEDIDA DEL TRONCO (lo que el censo deja leer y no se ve)</em></p>
+<p>Tres medidas finas de la forja.</p>
+<p>La primera: el tamaño de las casas. KeePassDX ★7.482 al censo del 15-oct-2026 es la MÁS CHICA de</p>
+<p>su censo — y es la que la pieza recomienda pa empezar.</p>
+<p>La lectura: en el tronco el tamaño no es vara — la vara es el formato y la firma. La bóveda del</p>
+<p>bolsillo no necesita ser faro: necesita leer KDBX y firmar GPL.</p>
+<p>El censo del tronco premia el oficio, no el aplauso — la exacta inversión de la lógica de las</p>
+<p>tiendas.</p>
+<p>La segunda: la honestidad de las placas. Dos firmas completas y una en blanco — pero las tres</p>
+<p>casas comparten algo que ninguna tienda firma: el FORMATO es ajeno a la placa.</p>
+<p>La medida fina: en el tronco la propiedad del usuario (el archivo) está DESACOPLADA del destino</p>
+<p>del mueble (la app).</p>
+<p>Ningún otro territorio de la serie tiene ese blindaje tan puro: ni la música ni la lectura — el</p>
+<p>tronco es el único donde el archivo mismo es el estándar.</p>
+<p>La tercera: la geografía de los talleres. Tres casas, tres escuelas distintas (móvil nativa,</p>
+<p>escritorio cruzado, servidor Rust) — y todas hablan el mismo formato.</p>
+<p>La lectura honesta: el tronco es la demostración viva de la tesis de la serie: el estándar</p>
+<p>abierto no reduce la variedad — la ORGANIZA. Cada taller construye su mueble para su gente, y</p>
+<p>todos heredan juntos.</p>
+<p><em>🎯 EL MINIQUIZ DEL TRONCO</em></p>
+<p>Cinco preguntas de la pieza. Las respuestas van AL REVÉS al pie (leídas de atrás para adelante),</p>
+<p>para que nadie las palmee sin pensarse el plato.</p>
+<p><em>LAS PREGUNTAS:</em></p>
+<p>1) ¿Qué casa del tronco cumple nueve años el 17-oct y qué placa trae?</p>
+<p>2) ¿Cuál fue la sorpresa del censo en el tronco y qué casa es?</p>
+<p>3) ¿Qué es KDBX y por qué cambia todo?</p>
+<p>4) ¿Cuántas contraseñas memorizas con la bóveda única y cuál es?</p>
+<p>5) ¿Cómo se comparte una clave con el socio del negocio según la casa?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>(Las respuestas correctas —de arriba abajo— son: KeePassDX la cumpleañera del 17-oct; KeePassXC</p>
+<p>la famosa sin testamento; KDBX el archivo que hace la bóveda propiedad; la frase maestra la</p>
+<p>única que se memoriza; y cifrado-más-voz el modo de compartir de la casa.)</p>
+<p>───────────────────</p>
+<p><em>PRIMERA CARTA — al que lleva la misma clave desde 2015.</em></p>
+<p>Esta pieza no te juzga: te arma. La tarde del tronco es REAL (el ritual de siete días, un paso</p>
+<p>por día) y la primera semana termina con el banco y el correo con dos cerraduras y cero claves</p>
+<p>repetidas.</p>
+<p>El que arma la bóveda nunca vuelve atrás — no por disciplina: por comodidad. El mueble</p>
+<p>verificado es más fácil que la libreta: ese es el secreto que nadie cuenta de las bóvedas.</p>
+<p><em>TERCERA CARTA — al que nota que esta pieza no le enseña a «protegerse».</em></p>
+<p>Exacto: la pieza te enseña a ARMAR — el tronco es construcción, no defensa. La casa entera</p>
+<p>funciona igual: el sótano no te enseña a temerle a los discos, te enseña a montarlos; el escudo</p>
+<p>no te enseña a desconfiar, te enseña a cerrar.</p>
+<p>El oficio libre se aprende construyendo muebles con placa — y la paranoia se queda en la tienda</p>
+<p>de alarmas, donde le toca.</p>
+<p>───────────────────</p>
+<p>💓 <em>PULSO 29-OCT-2026 — verificación profunda de La Bandita (pieza 27).</em></p>
+<p>dormidos · 0 archivados.</p>
+<p><em>📋 LA FICHA DE HOY</em></p>
+<ul>
+<li><strong>dani-garcia/vaultwarden</strong> — «Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs»</li>
+</ul>
+<p>  ★69.908 · empujó hoy · licencia AGPL-3.0 · Rust · última release 1.37.4 (2026-10-05) · <a href="https://github.com/dani-garcia/vaultwarden">https://github.com/dani-garcia/vaultwarden</a></p>
+<p>  Temas: bitwarden · bitwarden-rs · docker · rocket · rust · vaultwarden</p>
+<ul>
+<li><strong>keepassxreboot/keepassxc</strong> — «KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.»</li>
+</ul>
+<p>  ★29.604 · empujó ayer · licencia GPL-3.0 · C++ · última release 2.8.0 (2026-10-21) · <a href="https://github.com/keepassxreboot/keepassxc">https://github.com/keepassxreboot/keepassxc</a> · Web: <a href="https://keepassxc.org/">https://keepassxc.org/</a></p>
+<p>  Temas: cross-platform · hacktoberfest · keepass · keepassxc · linux · macos</p>
+<ul>
+<li><strong>Kunzisoft/KeePassDX</strong> — «Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.»</li>
+</ul>
+<p>  ★7.565 · su último empuje fue el 2026-10-27 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release 4.5.6 (2026-10-17) · <a href="https://github.com/Kunzisoft/KeePassDX">https://github.com/Kunzisoft/KeePassDX</a> · Web: <a href="https://www.keepassdx.com/">https://www.keepassdx.com/</a></p>
+<p>  Temas: android · android-application · autofill · credential-manager · fingerprint · keepass</p>
+<p><em>🎯 MINI-QUIZ DE HOY</em></p>
+<p><em>1.</em> ¿Qué repo de esta pieza tiene más estrellas medidas hoy?</p>
+<p><em>2.</em> ¿Qué repo empujó más recientemente?</p>
+<p><em>3.</em> ¿Qué licencia firma keepassxreboot/keepassxc?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>REV|809.96★ — nedrawtluav/aicrag-inad=1|REV|92-01-6202 — nedrawtluav/aicrag-inad=2|REV|0.3-LPG=3</p>
+<p>💓 Hoy, jueves 29 de octubre de 2026, se midieron en vivo 3 repos y 0 enlaces de esta pieza: 3 vivos, 0 firmados con su estado en la ficha. El texto es el de la casa; la ficha, la de hoy.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

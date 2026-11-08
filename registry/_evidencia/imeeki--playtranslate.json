@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-07-27T18:32:06Z",
+   "oid": "ae4a0f49d88f0e0fb2ec55d9e86b86b04ea52327"
+  }
+ },
+ "diskUsage": 76944,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "iMeeki/playtranslate",
+ "pushedAt": "2026-07-27T18:32:10Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

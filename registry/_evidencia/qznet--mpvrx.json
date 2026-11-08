@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-01T13:13:28Z",
+   "oid": "b1ef15e103f79ae67f32f43e6263e3fe60db8ecb"
+  }
+ },
+ "diskUsage": 77135,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU Affero General Public License v3.0",
+  "spdxId": "AGPL-3.0"
+ },
+ "nameWithOwner": "qznet/mpvRx",
+ "pushedAt": "2026-10-26T11:27:04Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

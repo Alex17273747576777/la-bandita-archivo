@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-04-25T21:32:13Z",
+   "oid": "37df32f289628ea90902fdd4f75db371e01ae19b"
+  }
+ },
+ "diskUsage": 489927,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "Noop-Developer/mangayomi-ExtraBuilds",
+ "pushedAt": "2026-04-25T21:32:13Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-04-25T20:43:35Z",
+    "tagName": "v0.7.60"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

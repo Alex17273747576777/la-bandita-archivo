@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-05-30T21:52:01Z",
+   "oid": "369bc7e0e70809bfeac241224fead54aa97c3859"
+  }
+ },
+ "diskUsage": 28928,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Other",
+  "spdxId": "NOASSERTION"
+ },
+ "nameWithOwner": "8bnns/servers",
+ "pushedAt": "2026-05-30T21:52:01Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 1
+}

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2024-12-23T00:45:31Z",
+   "oid": "3cf43608f39700b12b96eca5cb7c5f266ea17553"
+  }
+ },
+ "diskUsage": 35727,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "MoniMatrixx/MicroG-RE",
+ "pushedAt": "2024-12-23T00:45:37Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

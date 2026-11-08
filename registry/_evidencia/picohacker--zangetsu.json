@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-14T05:24:57Z",
+   "oid": "35181405c1383b0854950a4471b1896897a51efc"
+  }
+ },
+ "diskUsage": 23888,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "picohacker/Zangetsu",
+ "pushedAt": "2026-09-14T05:24:57Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

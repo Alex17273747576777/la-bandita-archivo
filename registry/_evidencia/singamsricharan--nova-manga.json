@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2025-10-16T17:47:55Z",
+   "oid": "ba5db65aa3e262b6f3b904835a458f8d31e0f812"
+  }
+ },
+ "diskUsage": 82333,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "singamsricharan/nova-manga",
+ "pushedAt": "2025-10-16T17:51:45Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

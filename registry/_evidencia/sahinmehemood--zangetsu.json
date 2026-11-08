@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-12T13:58:38Z",
+   "oid": "f30d6893ec3a888dbc030f177b99f68c7847d11a"
+  }
+ },
+ "diskUsage": 23097,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "sahinmehemood/Zangetsu",
+ "pushedAt": "2026-09-12T13:58:43Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

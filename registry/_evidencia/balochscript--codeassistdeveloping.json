@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2025-08-30T09:44:48Z",
+   "oid": "7fee0eba6d3cb8b6c261bfdd409438725842c0ec"
+  }
+ },
+ "diskUsage": 730212,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "balochscript/CodeAssistDeveloping",
+ "pushedAt": "2025-08-30T09:44:48Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

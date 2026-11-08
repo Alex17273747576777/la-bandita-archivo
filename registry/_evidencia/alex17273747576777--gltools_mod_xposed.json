@@ -1,0 +1,29 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-08-06T04:48:06Z",
+   "oid": "08885599718ebeea548dea04e8a5b696cbab4d5a"
+  }
+ },
+ "diskUsage": 213,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": null,
+ "nameWithOwner": "Alex17273747576777/GLTools_mod_Xposed",
+ "pushedAt": "2026-08-06T04:48:06Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-07-31T00:44:38Z",
+    "tagName": "Tools"
+   }
+  ]
+ },
+ "stargazerCount": 1
+}

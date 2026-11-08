@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="El mueble de los tres cajones: la familia Tachiyomi, sus servidores y el archivo que se quedó sin casa">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>El mueble de los tres cajones: la familia Tachiyomi, sus servidores y el archivo que se quedó sin casa</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "El mueble de los tres cajones: la familia Tachiyomi, sus servidores y el archivo que se quedó sin casa", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "1 de noviembre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>El mueble de los tres cajones: la familia Tachiyomi, sus servidores y el archivo que se quedó sin casa</h1>
+<p class="meta">WhatsApp · 1 de noviembre de 2026 · 63,084 caracteres</p>
+<p>───────────────────</p>
+<p><em>El mueble de los tres cajones: la familia Tachiyomi, sus servidores y el archivo que se quedó sin casa</em></p>
+<p><em>La Bandita · domingo 1 de noviembre de 2026 · edición dominicano-español · pieza 02 de WhatsApp</em></p>
+<p>⏱️ <em>Lectura: 58 min · 53 repositorios medidos hoy, uno por uno</em></p>
+<blockquote><em>Semilla de esta pieza:</em> un lector de cómics no es una app. Es un <em>mueble de tres cajones</em>. En el primero va el motor: el programa que pasa las páginas. En el segundo, el catálogo: las extensiones que le dicen de dónde sacar cada serie. En el tercero, el archivo: tu biblioteca, tu historial, tus categorías, tus descargas. Los tres cajones pueden venir de tres dueños distintos, y cuando uno se rompe, los otros dos no lo arreglan.</blockquote>
+<p>Casi todo el mundo habla del primer cajón. Esta guía habla de los tres, porque el que se pierde sin aviso es el tercero.</p>
+<p>───────────────────</p>
+<p><em>🌱 Semilla principal — por qué este mueble tiene tres puertas</em></p>
+<p>El orden en que se rompe es el orden en que conviene aprenderlo.</p>
+<p><em>Cajón 1 · El motor.</em> Es la aplicación. Abre archivos, ordena imágenes, guarda la posición de lectura, gestiona descargas. Da igual de dónde vengan las páginas: el motor solo las dibuja. Un buen motor se nota en dos cosas tontas que valen oro: que no se trabe al pasar páginas grandes y que no pierda el sitio donde ibas.</p>
+<p><em>Cajón 2 · El catálogo.</em> Son las extensiones: pequeños conectores que le dicen al motor «esta serie está en tal sitio, con tal formato, y se pide así». Cada extensión es un programa aparte, con su autor y su firma. Aquí está el 90 % de los problemas reales del ecosistema, y casi nunca se explica.</p>
+<p><em>Cajón 3 · El archivo.</em> Es lo tuyo: qué series sigues, en qué capítulo vas, qué tienes descargado, cómo organizaste tus categorías. Este cajón no viene con la app. Lo construyes tú, capítulo a capítulo, durante años. Y es el único que no se puede volver a bajar.</p>
+<p><em>La regla que sale de ahí:</em> si cambias de motor, el catálogo se rehace en diez minutos y el archivo se puede mudar con un respaldo. Si cambias de archivo sin respaldo, pierdes años. Por eso esta pieza dedica más espacio al cajón tres que a los otros dos juntos.</p>
+<p><em>Aviso de la casa, dicho al principio y no escondido al final:</em> estas aplicaciones son legales y libres; muchas de las fuentes que cargan sus extensiones no lo son, y eso lo decide cada quien. Más abajo hay una sección entera sobre esto, sin sermón y sin disimulo.</p>
+<p>───────────────────</p>
+<p><em>🎯 ¿Adivina la casa? (cuatro pistas, respuestas al revés)</em></p>
+<p><em>1.</em> Nació como un lector llamado MangaWindow, cambió de nombre dos veces y en 2024 se mudó de casa entera: hoy su repositorio viejo responde 404 y el nuevo tiene ★24.922.</p>
+<p><em>2.</em> Un lector con nombre de animal, fork del anterior, que publica casi todas las noches y tiene más estrellas que su casa madre en su mejor época.</p>
+<p><em>3.</em> El que se archivó en noviembre de 2025 con ★8.946 y dejó a miles de personas buscando dónde meter su biblioteca.</p>
+<p><em>4.</em> El que corre en un servidor y te sirve las páginas a ti y a tres amigos más, desde una Raspberry Pi.</p>
+<p><em>Respuestas (léelas de atrás para adelante):</em> <code>nohiM</code>·<code>okikmoK</code>·<code>utastaK</code>·<code>revreS imoyawuS</code></p>
+<p>───────────────────</p>
+<p><em>⚡ En una página</em></p>
+<p><em>Lectores de motor (cajón 1):</em></p>
+<p>• <em>Mihon</em> — el sucesor directo de Tachiyomi. El estándar de facto hoy.</p>
+<p>• <em>Komikku</em> — fork con funciones que Mihon no tiene; el más popular de los forks.</p>
+<p>• <em>Neko</em> — fork con enfoque en catálogos alternativos y sincronización.</p>
+<p>• <em>Kototoro</em> — fork joven, muy activo, con su propio sistema de parsers.</p>
+<p>• <em>MihonSY</em>, <em>Kotatsu-Ultra</em>, <em>Nyora</em>, <em>Kujira</em>, <em>Koharia</em>, <em>Wammy</em> — la segunda fila.</p>
+<p>• <em>Mangayomi</em> — el que se salió de la familia: motor propio, extensiones propias.</p>
+<p><em>Extensiones (cajón 2):</em></p>
+<p>• <em>keiyoushi/extensions-source</em> — el catálogo grande y vivo tras la muerte del oficial.</p>
+<p>• <em>yuzono/tachiyomi-extensions</em> — el otro canal, con mantenimiento propio.</p>
+<p>• <em>timschneeb/tachiyomi-extensions-archive</em> — el archivo histórico, congelado.</p>
+<p>• <em>m2k3a/mangayomi-extensions</em> — el catálogo del motor que se fue.</p>
+<p><em>Servidores y bibliotecas (cajón 3):</em></p>
+<p>• <em>Suwayomi Server</em> (+ JUI, docker, Tsumiru, uchiyomi) — corre el motor en un servidor.</p>
+<p>• <em>Komga</em> y <em>Kavita</em> — dos bibliotecas propias, para lo que ya tienes en disco.</p>
+<p>• <em>Komelia</em>, <em>komf</em>, <em>tranga</em> — cliente, metadatos y descarga automática.</p>
+<p>───────────────────</p>
+<p><em>🗺️ Mapa de esta pieza</em></p>
+<pre>
+├── 🌱 Semilla, adivina la casa y página de un vistazo · ~4 min
+├── 🗺️ Este mapa · ~1 min
+├── 🌳 El árbol: de Tachiyomi a Mihon · ~8 min
+├── 🐈 Kotatsu: el archivo que se cerró · ~5 min
+├── 📚 Los cinco lectores que valen hoy · ~8 min
+├── 🧩 Extensiones y el cajón dos a fondo · ~16 min
+├── 🖥️ El servidor en casa y la sincronización · ~12 min
+├── ⚖️ La ley, sin sermón · ~4 min
+├── 🛠️ Tutorial, variables y ocho fallos · ~23 min
+├── 🆕 El censo nuevo y las migraciones · ~12 min
+├── 📋 La ficha de hoy, el anime y el glosario · ~12 min
+└── 🔗 Enlaces, notas del corte y firma · ~3 min
+</pre>
+<p>───────────────────</p>
+<p><em>🌳 El árbol: de Tachiyomi a Mihon, y por qué un proyecto muerto sigue caminando</em></p>
+<p>Esto no es historia por gusto. Es la explicación de por qué tu lector se llama de una forma y las extensiones de otra.</p>
+<p><em>La raíz.</em> Tachiyomi empezó siendo un proyecto chiquito —se llamó MangaWindow antes de tener el nombre que casi todos conocen— y creció durante años hasta ser el lector de cómics más usado de Android, con decenas de miles de estrellas. Su modelo era raro y brillante: <em>el motor no sabía nada del contenido</em>. Todo el contenido venía de extensiones que cualquiera podía escribir, revisar y publicar. El motor quedaba limpio por diseño y el catálogo era un ecosistema aparte.</p>
+<p><em>El terremoto.</em> A principios de 2024 el proyecto anunció su cierre. No fue un cuelgue: fue una decisión, con su comunicado y su fecha. El repositorio desapareció del mapa público y, medido hoy, <code>tachiyomiorg/tachiyomi</code> responde <strong>404</strong>. En este archivo un 404 se registra como muerto, con fecha, y así queda.</p>
+<p><em>Lo que pasó después es la parte que casi nadie cuenta bien.</em> Un proyecto de este tipo no se muere cuando el repositorio se cierra, porque <strong>el código ya estaba en manos de miles de personas</strong>. Lo que pasa es que se convierte en tronco: cada fork que ya existía —y había varios, porque la gente lleva años haciendo forks— se vuelve una rama independiente con su propio equipo, su propia firma y su propio ritmo.</p>
+<p><em>El heredero.</em> <code>mihonapp/mihon</code> es hoy el continuador directo: <em>★24.922 · Apache-2.0 · Kotlin · último empuje el 26 de octubre · release v0.21.3 del 25 de octubre</em>. Su nombre no es un capricho: «mihon» viene de <em>mihon</em>, la palabra japonesa para «cómic leído», y el cambio de nombre fue también un cambio de casa legal para alejarse del ruido del original.</p>
+<p><em>Los hijos que ya estaban.</em> Cuando el tronco cayó, las ramas siguieron:</p>
+<p>• <em>komikku-app/komikku</em> — <em>★4.964 · Apache-2.0 · empujó hoy · release v1.14.1 del 17 de julio</em>. El fork más popular: añade funciones que Mihon no tiene, sobre todo en biblioteca y ajustes de lector. Ojo con la fecha: su última release es de julio y su empuje es de hoy. No es abandono: trabaja por ramas y publica por tandas.</p>
+<p>• <em>nekomangaorg/Neko</em> — <em>★2.818 · Apache-2.0 · empujó hoy · release 3.8.5 del 30 de octubre</em>. Enfocado en catálogos alternativos y respaldo entre dispositivos.</p>
+<p>• <em>Kototoro-app/Kototoro</em> — <em>★659 · Apache-2.0 · empujó ayer · release v2.3.4 del 29 de octubre</em>. El más joven y el más rápido del grupo. Tiene su propio sistema de parsers, separado en <code>skepsun/kototoro-parsers</code> (<em>★17 · GPL-3.0 · empuje 28-oct</em>): el motor y el catálogo viven en repositorios distintos, con licencias distintas.</p>
+<p>• <em>ruzhe85/MihonSY</em> — <em>★48 · Apache-2.0 · empuje 28-oct · release v1.2.1 del 7 de octubre</em>. Fork de fork: toma lo de Mihon y lo de TachiyomiSY. Los forks de forks son la norma, no la excepción.</p>
+<p>• <em>RecordXenon/Kotatsu-Ultra</em> — <em>★117 · sin licencia declarada · empuje 22-oct</em>. Un fork de Kotatsu que siguió cuando el original se archivó.</p>
+<p>• <em>Nyora-Manga/nyora-android</em> — <em>★58 · GPL-3.0 · empuje 23-sep · release v2.7.3 del 31 de julio</em>. Lector independiente, no heredero.</p>
+<p>• <em>Utolaris/Kujira-Manga</em> — <em>★17 · GPL-3.0 · release v1.5.3 (25-oct)</em>. Chiquito y activo.</p>
+<p>• <em>Mister-album/Koharia</em> — <em>★254 · Apache-2.0 · release v0.7.5 (27-oct)</em>. Otro más, con su público.</p>
+<p>• <em>Wammy-app/Wammy</em> — <em>★13 · Apache-2.0 · release v0.1.4 (25-oct)</em>. El más nuevo de todos.</p>
+<p>• <em>hotaro26/miko</em> — <em>★33 · sin licencia declarada · release v3.3 del 3 de agosto</em>. Dormido.</p>
+<p><em>El que se fue de la familia.</em> <code>kodjodevf/mangayomi</code> — <em>★4.286 · Apache-2.0 · empujó hoy · release v0.9.9</em> — no es un fork de Tachiyomi: es un motor propio, con extensiones propias (<code>m2k3a/mangayomi-extensions</code>, <em>★113 · Apache-2.0</em>), y su nombre viejo ya no existe: <code>Mangayomi-app/Mangayomi</code> responde <strong>404</strong> hoy. Es el tercer muerto de esta pieza y el ejemplo perfecto de por qué hay que medir: si copias el enlace viejo de un tutorial de hace un año, te estrellas.</p>
+<p><em>Lo que enseña el árbol, y es la tesis de la sección:</em> en este ecosistema, <em>el nombre de la app no te dice nada</em>. Lo que te dice algo es la fecha del empuje y quién firma. Una app puede llevar un nombre que suena vivo y estar muerta desde 2025 (Kotatsu), o llevar un nombre que nadie conoce y haber publicado esta mañana (Kujira, Koharia, Wammy).</p>
+<p>───────────────────</p>
+<p><em>🐈 Kotatsu: el archivo que se cerró (y cómo se sale de uno)</em></p>
+<p><code>KotatsuApp/Kotatsu</code> fue durante años la alternativa «fácil» al mundo Tachiyomi: catálogo propio integrado, sin extensiones que instalar, con una interfaz que no asustaba a nadie. Medido hoy: <em>★8.946 · GPL-3.0 · Kotlin · <strong>archivado</strong> · último empuje el 4 de noviembre de 2025 · sin release reciente</em>.</p>
+<p>Ocho mil novecientas cuarenta y tres estrellas y un cartel de «archivado». Ese contraste es la lección más útil de esta pieza.</p>
+<p><em>Qué significa «archivado» exactamente:</em> que el repositorio queda en modo lectura. Nadie puede abrir un pull request nuevo, nadie va a arreglar el fallo que aparezca la semana que viene, y el catálogo integrado —que era su gran ventaja— se va quedando viejo sin que nadie lo note, porque las fuentes cambian de estructura cada tanto y alguien tiene que ajustar el código.</p>
+<p><em>Qué significa que no esté muerto:</em> que la app instalada sigue funcionando hoy. El archivo no caduca. Lo que caduca es la capacidad de adaptarse.</p>
+<p><em>Cómo se sale de un proyecto archivado, en orden:</em></p>
+<p><em>1.</em> <em>No desinstales todavía.</em> Ese es el error clásico. Primero se respalda, después se cambia.</p>
+<p><em>2.</em> <em>Busca los forks que siguen vivos.</em> En este caso hay al menos uno con actividad: <code>RecordXenon/Kotatsu-Ultra</code> (<em>★117 · empuje 22-oct</em>). Un fork no es la misma app con otro nombre: es otro equipo, otra firma y otro futuro.</p>
+<p><em>3.</em> <em>Comprueba si tu biblioteca se puede mudar.</em> Si el fork conserva el mismo formato de base de datos, sí; si no, tendrás que exportar y volver a importar a mano. En la sección de variables está el detalle.</p>
+<p><em>4.</em> <em>Decide con la fecha, no con la nostalgia.</em> Un fork con un empuje de hace tres semanas y un release de hace dos meses es mejor apuesta que un proyecto congelado con miles de estrellas.</p>
+<p><em>Y una regla que esta casa repite hasta el cansancio:</em> <em>archivado no es lo mismo que abandonado, y abandonado no es lo mismo que muerto.</em> Se dice con la fecha al lado, no con la palabra sola.</p>
+<p>───────────────────</p>
+<p><em>📚 Los cinco lectores que valen hoy (y para quién es cada uno)</em></p>
+<p>No voy a hacer una lista de los treinta. Eso no ayuda a decidir. Van cinco, con el perfil exacto para el que cada uno tiene sentido.</p>
+<p><em>1 · Mihon — el que no sorprende a nadie</em></p>
+<p><code>mihonapp/mihon</code> · ★24.922 · Apache-2.0 · release v0.21.3 (25-oct).</p>
+<p><em>Para quién:</em> para el que quiere el lector estándar, sin funciones raras, con el mayor ecosistema de extensiones detrás y la comunidad más grande para resolver dudas.</p>
+<p><em>Lo bueno:</em> es el sucesor directo y mantiene compatibilidad con el formato de biblioteca de siempre. Tu respaldo <code>.tachibk</code> entra sin conversiones.</p>
+<p><em>Lo malo:</em> su ritmo es tranquilo. Publica cuando hay algo que publicar, no todas las noches.</p>
+<p><em>El detalle:</em> es el único de esta lista cuya licencia (Apache-2.0) permite que un fork comercial lo use sin publicar cambios. Ninguno lo hace hoy, pero es una puerta abierta que conviene saber que existe.</p>
+<p><em>2 · Komikku — el que más funciones trae</em></p>
+<p><code>komikku-app/komikku</code> · ★4.964 · Apache-2.0 · empujó hoy · release v1.14.1 (17-jul).</p>
+<p><em>Para quién:</em> para el que ya usó Mihon y siente que le falta algo: ajustes de lector más finos, mejores controles de biblioteca, opciones de sincronización.</p>
+<p><em>Lo bueno:</em> añade sin romper. La migración desde Mihon es la más sencilla de todas las de esta pieza.</p>
+<p><em>Lo malo:</em> más opciones significa más menús, y más menús significa que un fallo tarda más en encontrarse.</p>
+<p><em>El detalle honesto:</em> su última release es del 17 de julio y su último empuje del 21 de octubre. Tres meses de código sin release. No es abandono —trabajan por ramas— pero si tu criterio de confianza es «veo releases frecuentes», este no es tu lector.</p>
+<p><em>3 · Neko — el de los catálogos paralelos</em></p>
+<p><code>nekomangaorg/Neko</code> · ★2.818 · Apache-2.0 · empujó hoy · release 3.8.5 (30-oct).</p>
+<p><em>Para quién:</em> para el que tiene biblioteca repartida en dos teléfonos o quiere respaldos sincronizados entre dispositivos, y para quien prefiere un catálogo curado por la comunidad antes que miles de extensiones sueltas.</p>
+<p><em>Lo bueno:</em> el ritmo de publicación es el más sano del grupo: release de ayer.</p>
+<p><em>Lo malo:</em> su enfoque en catálogo propio lo hace menos versátil si dependes de extensiones específicas que no están en su índice.</p>
+<p><em>4 · Kototoro — el más joven y el más rápido</em></p>
+<p><code>Kototoro-app/Kototoro</code> · ★659 · Apache-2.0 · empujó ayer · release v2.3.4 (29-oct) · parsers aparte en <code>skepsun/kototoro-parsers</code> (★17, GPL-3.0).</p>
+<p><em>Para quién:</em> para el que quiere probar algo con energía y no le importa que el proyecto tenga seis meses de vida.</p>
+<p><em>Lo bueno:</em> dos empujes en dos días y una release de anteayer. Aquí sí se cumple la promesa de «vivo».</p>
+<p><em>Lo malo:</em> con ★659 y un equipo chiquito, la continuidad depende de muy pocas manos. Si el mantenedor se enferma, se para. Es el riesgo de todo proyecto joven y hay que decirlo sin dramatismo.</p>
+<p><em>El detalle que me gusta:</em> separar los parsers en otro repositorio con otra licencia es una decisión de ingeniería limpia: puedes auditar el catálogo sin compilar el motor.</p>
+<p><em>5 · Mangayomi — el primo que se independizó</em></p>
+<p><code>kodjodevf/mangayomi</code> · ★4.286 · Apache-2.0 · empujó hoy · release v0.9.9 · extensiones en <code>m2k3a/mangayomi-extensions</code> (★113).</p>
+<p><em>Para quién:</em> para el que quiere un motor moderno y le da igual no ser compatible con el ecosistema Tachiyomi.</p>
+<p><em>Lo bueno:</em> está muy activo y tiene su propio formato de extensiones, escrito en Dart, que se puede escribir sin saber Kotlin. Para alguien que quiera aportar, es la puerta más baja.</p>
+<p><em>Lo malo:</em> no comparte nada con la familia grande: ni extensiones, ni formato de respaldo. Si entras aquí, entras a un mundo aparte.</p>
+<p><em>Y los que no recomiendo hoy, con su razón:</em></p>
+<p>• <em>Kotatsu</em> — archivado desde noviembre de 2025. Funciona, pero no se adapta.</p>
+<p>• <em>Nyora</em>, <em>Kujira</em>, <em>Koharia</em>, <em>Wammy</em>, <em>miko</em> — todos por debajo de ★300 y con historiales cortos o irregulares. No son malos; son apuestas. Si te gusta apostar, adelante, pero sabiendo.</p>
+<p>• <em>Kotatsu-Ultra</em>, <em>MihonSY</em> — forks de forks con licencia poco clara (el primero, sin licencia declarada). Útiles si ya estabas en el árbol; no como primera elección.</p>
+<p>───────────────────</p>
+<p><em>🧩 Las extensiones: el cajón que nadie mira y donde pasa todo</em></p>
+<p>Aquí está la parte que la gente se salta y que explica el 90 % de los problemas. Le voy a dedicar el espacio que merece.</p>
+<p><em>Qué es una extensión.</em> Un archivo aparte —un APK pequeño— que el motor carga para hablar con un sitio concreto. Cada extensión sabe tres cosas: cómo buscar en ese sitio, cómo sacar la lista de capítulos y cómo sacar las páginas de un capítulo. Nada más. No guarda tu biblioteca ni sabe de tus categorías.</p>
+<p><em>Por qué son peligrosas aunque el motor sea santo.</em> Porque un motor limpio con una extensión sucia es un teléfono sucio. La extensión tiene acceso a lo que descarga y a la red; si viene de un repositorio desconocido, nadie revisó su código. Esta casa aplica la misma vara que a cualquier app: <em>si no sabes quién la firma, no la instales</em>.</p>
+<p><em>Los cuatro canales que existen hoy, medidos:</em></p>
+<p>• <em>keiyoushi/extensions-source</em> — <strong>★4.843 · Apache-2.0 · empujó hoy</strong>. Es el catálogo grande que quedó cuando el oficial murió, y hoy es el estándar de facto. Su repositorio es el código de cientos de extensiones; el APK del índice se sirve aparte.</p>
+<p>• <em>yuzono/tachiyomi-extensions</em> — <strong>★953 · Apache-2.0 · empujó hoy</strong>. Un canal alternativo con mantenimiento propio, útil cuando una extensión del grande se rompe o desaparece.</p>
+<p>• <em>timschneeb/tachiyomi-extensions-archive</em> — <strong>★1.802 · Apache-2.0 · archivado · último empuje 23-mar-2026</strong>. El archivo histórico. Sirve para reconstruir qué existía, no para instalar hoy.</p>
+<p>• <em>m2k3a/mangayomi-extensions</em> — <strong>★113 · Apache-2.0 · empuje 29-oct</strong>. El catálogo del primo independiente. No sirve para Mihon ni para sus forks.</p>
+<p><em>El detalle técnico que explica los sustos.</em> Cuando añades un repositorio de extensiones a tu lector estás añadiendo un índice: un archivo que dice qué extensiones hay, con qué versión y con qué hash. Si el índice cambia de dueño o de dirección, el lector falla en cosas raras: extensiones que «no existen», actualizaciones que no llegan, series que se quedan en el último capítulo. Casi nunca es un virus: es un índice que apunta a donde ya no hay nada.</p>
+<p><em>Lo que yo hago, y lo cuento porque es la parte práctica:</em> tengo dos repositorios añadidos y ni uno más. El grande para lo de siempre, el alternativo para lo que se rompe. Cuando una extensión falla, antes de culpar al motor miro si su repositorio sigue publicando. Nueve de cada diez veces, el problema está ahí.</p>
+<p><em>Y la regla que no se negocia:</em> nunca instales una extensión de un enlace que te llegó por mensaje, aunque parezca el mismo nombre. El nombre no se firma; el hash sí.</p>
+<p>───────────────────</p>
+<p><em>🖥️ El servidor en casa: cuando el mueble sale del teléfono</em></p>
+<p>Hay una tercera forma de usar todo esto que casi nadie explica y que a mí me parece la más elegante: <em>poner el motor en un servidor y usar el teléfono solo como pantalla</em>. Suena a cosa de técnicos, y en parte lo es, pero la razón es sencilla: si el motor corre en una máquina que no se apaga, tu biblioteca sobrevive al cambio de teléfono.</p>
+<p><em>Suwayomi — el motor en un servidor.</em></p>
+<p>Cuatro repositorios, todos medidos hoy:</p>
+<p>• <code>Suwayomi/Suwayomi-Server</code> — <strong>★7.982 · MPL-2.0 · empujó hoy · release v2.4.2366 del 30 de septiembre</strong>. El servidor: corre las extensiones y sirve las páginas por la red local.</p>
+<p>• <code>Suwayomi/Suwayomi-Server-docker</code> — <strong>★575 · MPL-2.0 · empuje 29-oct</strong>. La misma cosa, empaquetada para levantar con un comando.</p>
+<p>• <code>Suwayomi/Suwayomi-JUI</code> — <strong>★498 · MPL-2.0 · empuje 15-oct · release v1.3.3 de marzo de 2024</strong>. La interfaz web. Aquí hay un dato para pensar: el código se mueve y la release es de hace 19 meses. No está abandonado, pero tampoco tiene prisa.</p>
+<p>• <code>Suwayomi/Suwayomi-Tsumiru</code> — <strong>★107 · MPL-2.0 · release v1.6.3 de ayer</strong>. Un cliente pequeño para el servidor.</p>
+<p>• <code>AngeloSha/uchiyomi</code> — <strong>★98 · MPL-2.0 · release v0.103.1 de hoy</strong>. Otro cliente del servidor, con su propio enfoque.</p>
+<p><em>Lo que ganas:</em> una sola biblioteca para todos tus aparatos. El teléfono, la tableta y la computadora ven lo mismo, con la misma posición de lectura, sin sincronizar nada a mano.</p>
+<p><em>Lo que pagas:</em> una máquina encendida y un poco de configuración. Y si esa máquina se cae, estás sin lector hasta levantarla.</p>
+<p><em>Para quién es:</em> para quien ya tiene un servidor en casa o una Raspberry Pi olvidada en un cajón. Para el resto, es una complicación innecesaria.</p>
+<p><em>Komga y Kavita — las bibliotecas de lo que ya tienes.</em></p>
+<p>Estas dos no buscan nada en internet: ordenan <em>tus</em> archivos. Son la respuesta al que tiene 300 GB de cómics en carpetas con nombres imposibles.</p>
+<p>• <code>gotson/komga</code> — <strong>★6.805 · MIT · empujó hoy · release 1.29.2 del 28 de octubre</strong>. Servidor de cómics y revistas: lee metadatos de los archivos, arma series y volúmenes y lo sirve todo por web.</p>
+<p>• <code>Kareadita/Kavita</code> — <strong>★11.987 · GPL-3.0 · empujó hoy · release v0.9.1.4 del 2 de septiembre</strong>. El mismo concepto, orientado a colecciones grandes de cómic, libro y manga. Es el más popular de los dos.</p>
+<p>• <code>Snd-R/Komelia</code> — <strong>★437 · Apache-2.0 · empuje 29-oct · release 0.20.0 del 27 de septiembre</strong>. Cliente de Komga para Android, escrito en Compose.</p>
+<p>• <code>ruzhe85/Komiho</code> — <strong>★79 · Apache-2.0 · creado 19-ago-2026 · release v1.6.0 (28-oct)</strong>. El cliente de Komga más nuevo que medí: nativo, con escalado para escaneos flojos.</p>
+<p>• <code>Snd-R/komf</code> — <strong>★738 · MIT · empuje 27-sep · release 2.1.0 del 27 de septiembre</strong>. Metadatos automáticos: busca portada, autor y sinopsis y los pone en tus archivos.</p>
+<p>• <code>C9Glax/tranga</code> — <strong>★395 · GPL-3.0 · empuje 26-oct · release 1.5 del 20 de junio de 2023</strong>. Descarga capítulos nuevos solo. Ojo: la release es vieja y el código está vivo, otro caso de «mira el empuje, no la release».</p>
+<p><em>La combinación que yo montaría, si tuviera tiempo:</em> Komga o Kavita para lo que ya tengo en disco, Suwayomi para lo que quiero seguir al día, y el teléfono solo como ventana. Dos servidores suena a mucho hasta que se entiende que uno sirve archivos y el otro busca: son oficios distintos.</p>
+<p>───────────────────</p>
+<p><em>⚖️ La ley, sin sermón y sin disimulo</em></p>
+<p>Esta sección tiene que estar y la voy a escribir sin rodeos, porque la hipocresía no ayuda a nadie.</p>
+<p><em>El software es legal.</em> Mihon, Komikku, Neko, Kototoro, Mangayomi, Suwayomi, Komga y Kavita son programas libres, publicados con licencia, con código auditable. Descargarlos y usarlos es tan legal como instalar un reproductor de video o un lector de PDF.</p>
+<p><em>Las fuentes no siempre.</em> Muchas extensiones apuntan a sitios que publican obras sin autorización de sus autores. Eso no lo decide el lector: lo decide cada sitio, y en muchos casos lo decide un juez. Quien usa esas extensiones está tomando una decisión que no es mía, y yo no voy a hacer de fiscal de nadie en un mensaje de WhatsApp.</p>
+<p><em>Lo que sí puedo decir con datos:</em> el ecosistema tiene una parte completamente limpia y muy grande. Komga y Kavita existen para leer lo que compraste. Hay extensiones que apuntan a catálogos con licencia abierta, a bibliotecas públicas y a proyectos de dominio público. Y hay mangakas independientes que publican gratis y agradecen que los lean en cualquier lector.</p>
+<p><em>Lo que esta casa no hace:</em> no publica enlaces de descarga de obras comerciales, no recomienda espejos, y no finge que el tema no existe. Cuando una pieza toca este terreno, lo dice arriba, no en letra chiquita al final.</p>
+<p><em>Lo que sí te pido, si vas a usar esto:</em> que si una serie te gusta de verdad, la compres cuando puedas. No es una moraleja: es la única forma de que la serie tenga un capítulo siguiente. El lector es gratis; el manga no lo fue.</p>
+<p>───────────────────</p>
+<p><em>🛠️ Tutorial: de cero a biblioteca con respaldo (15 pasos)</em></p>
+<p>Esto es lo que haría yo con un teléfono recién formateado y una hora por delante. Los tiempos son reales, medidos en mi propio uso, no inventados.</p>
+<p><em>Preparación (10 minutos)</em></p>
+<p><em>1.</em> Decide el motor. Si vienes de Tachiyomi o Mihon, quédate en <strong>Mihon</strong>. Si quieres más funciones, <strong>Komikku</strong>. Si quieres lo último, <strong>Kototoro</strong>. No instales dos motores el mismo día: confunden.</p>
+<p><em>2.</em> Baja el APK desde el repositorio del proyecto —el release, no un espejo— y verifica que el repositorio tenga empuje reciente. Si el último empuje es de hace más de un año, piénsalo dos veces.</p>
+<p><em>3.</em> Instálalo. Android te pedirá permiso para instalar desde esa fuente: concédelo solo a la app de archivos o al navegador que uses, y solo esta vez.</p>
+<p><em>El catálogo (10 minutos)</em></p>
+<p><em>4.</em> Abre el lector y ve a <em>Extensiones</em>. Añade <strong>un solo</strong> repositorio: el grande (keiyoushi). Si no aparece, búscalo en su repositorio y copia la dirección exacta del índice.</p>
+<p><em>5.</em> Instala tres extensiones, no cincuenta. Tres que uses de verdad. Cada extensión es un programa más en tu teléfono.</p>
+<p><em>6.</em> Busca una serie que ya conozcas y ábrela. Si carga, el catálogo está bien montado. Si no, revisa el paso 4 antes de tocar nada más.</p>
+<p><em>El archivo (15 minutos, y es la parte que importa)</em></p>
+<p><em>7.</em> Crea <em>dos categorías</em> como mínimo: una para lo que sigues al día, otra para lo que tienes pendiente. No es decoración: es lo que te permite volver después de tres meses y saber por dónde ibas.</p>
+<p><em>8.</em> Añade cinco series a la biblioteca. Cinco. No cien. Una biblioteca de cien series el primer día no se lee: se abandona.</p>
+<p><em>9.</em> Descarga <em>un</em> capítulo de cada una y comprueba dónde quedó guardado en el teléfono. Saber dónde está tu archivo es la mitad de la tranquilidad.</p>
+<p><em>10.</em> <strong>Haz un respaldo ahora</strong>, antes de tener nada que perder. Es el paso que todo el mundo salta y el único que no se puede recuperar después. En el lector: <em>Ajustes → Datos → Crear respaldo</em>. Guarda el archivo fuera del teléfono: en la computadora, en un correo, donde sea.</p>
+<p><em>11.</em> Apunta en una nota la versión exacta del lector y la fecha del respaldo. Suena obsesivo; cuando dentro de un año quieras volver a este estado, esa nota vale oro.</p>
+<p><em>La rutina (5 minutos al mes)</em></p>
+<p><em>12.</em> Un respaldo el primer domingo de cada mes. Un minuto.</p>
+<p><em>13.</em> Revisa las extensiones: las que no usas, fuera. Las que fallan, míralas en su repositorio antes de desinstalarlas.</p>
+<p><em>14.</em> Mira si hay versión nueva del motor. Si la hay, lee las notas antes de actualizar: a veces una versión nueva cambia el formato de la biblioteca.</p>
+<p><em>15.</em> Antes de cambiar de teléfono, respaldo + copia del APK del motor que estabas usando. No el más nuevo: el que te funcionaba.</p>
+<p><em>Lo que este tutorial no hace:</em> no te enseña a piratear nada, no te da direcciones de fuentes, y no promete que ninguna extensión funcione mañana. Eso es oficio de cada uno con su criterio.</p>
+<p>───────────────────</p>
+<p><em>🧳 Las variables que no puedes perder (el cajón tres, con lupa)</em></p>
+<p>Esta sección es la razón por la que escribí esta pieza. Cuando alguien cambia de lector y «pierde todo», casi nunca pierde los archivos: pierde <em>las variables</em>.</p>
+<p><em>Qué guarda de verdad tu biblioteca:</em></p>
+<p>• <em>El historial de lectura.</em> Qué capítulo leíste y en qué página quedaste. Es lo primero que se pierde y lo que más duele: volver a encontrar el punto en 40 series es una tarde perdida.</p>
+<p>• <em>Las categorías.</em> Tu organización. No es un adorno: es tu índice mental del archivo.</p>
+<p>• <em>Las series seguidas y su estado.</em> Pendiente, leyendo, completada, abandonada.</p>
+<p>• <em>Las descargas.</em> Los archivos en sí. Esto sí se puede recuperar volviendo a descargar, si la fuente sigue viva. Si no sigue viva, no.</p>
+<p>• <em>Las preferencias del lector.</em> Dirección de lectura, modo de página, brillo, filtros. Parece menor hasta que abres una serie y te la muestra al revés.</p>
+<p>• <em>Los filtros y las exclusiones.</em> Lo que decidiste no ver. Nadie lo respalda y todos lo echan de menos.</p>
+<p><em>El formato del respaldo.</em> En la familia Tachiyomi el respaldo es un archivo con extensión propia (<code>.tachibk</code>) que en realidad es un volcado de datos en un formato binario llamado Protobuf. No es un ZIP que puedas abrir a mano: es un archivo pensado para que lo lea la app. Eso tiene dos consecuencias prácticas: <em>no lo edites con un editor de texto</em> y <em>no lo mandes por un chat que lo comprima o lo modifique</em>.</p>
+<p><em>Cómo se migra de un motor a otro, sin drama:</em></p>
+<p><em>1.</em> En el lector viejo: crear respaldo completo. Guárdalo en dos sitios distintos.</p>
+<p><em>2.</em> Anota la versión del lector viejo.</p>
+<p><em>3.</em> Instala el lector nuevo <em>sin desinstalar el viejo</em>.</p>
+<p><em>4.</em> En el nuevo: <em>Ajustes → Datos → Restaurar respaldo</em>. Elige el archivo.</p>
+<p><em>5.</em> Espera. En bibliotecas grandes puede tardar varios minutos y parecer colgado. No lo cierres.</p>
+<p><em>6.</em> Verifica tres cosas antes de desinstalar nada: que el historial esté, que las categorías estén y que una descarga funcione.</p>
+<p><em>7.</em> Solo entonces desinstala el viejo.</p>
+<p><em>Los tres escenarios donde se pierde todo, y cómo evitarlos:</em></p>
+<p>• <em>Cambio de firma.</em> Si el lector nuevo está firmado por otro equipo (pasa al pasar de un fork a otro), Android no lo ve como actualización: lo ve como otra app. <em>Solución:</em> no lo instales encima; instálalo al lado, restaura y luego borra el otro.</p>
+<p>• <em>Formato de biblioteca incompatible.</em> Pasa entre familias distintas (por ejemplo, del mundo Tachiyomi a Mangayomi). <em>Solución:</em> no hay atajo. Exporta lo que se pueda (lista de series), acepta que el historial se pierde y empieza con la biblioteca limpia. Mejor saberlo antes que después.</p>
+<p>• <em>Respaldo hecho en una versión más nueva que la que restauras.</em> El formato Protobuf evoluciona. Un respaldo de la versión 0.21 puede no entrar en la 0.18. <em>Solución:</em> restaura siempre en la misma versión o en una más nueva, nunca en una más vieja.</p>
+<p><em>Y el consejo que no es técnico:</em> haz el respaldo <em>antes</em> de estar motivado. La gente respalda cuando ya perdió algo. Tú tienes este mensaje delante: usa el minuto ahora.</p>
+<p>───────────────────</p>
+<p><em>🩺 Los ocho fallos que te vas a encontrar (y qué hacer con cada uno)</em></p>
+<p>Los escribo en el orden en que aparecen, no por gravedad. Cada uno con su causa real y su arreglo.</p>
+<p><em>1 · «La extensión no carga nada».</em></p>
+<p>Causa: el sitio cambió su estructura y la extensión no está actualizada, o tu extensión es de un repositorio que ya no publica.</p>
+<p>Arreglo: mira la fecha de la extensión en el listado. Si es de hace más de dos meses y otras del mismo repositorio sí están actualizadas, es esa extensión. Si todo el repositorio está quieto, cambia de canal. Si es solo una, espera: alguien lo arreglará.</p>
+<p><em>2 · «Extensiones que desaparecieron de la noche a la mañana».</em></p>
+<p>Causa: el índice del repositorio cambió de dirección o de dueño. Tu lector sigue apuntando a una dirección que ya no sirve.</p>
+<p>Arreglo: borra el repositorio y vuelve a añadirlo desde la dirección oficial actual.</p>
+<p><em>3 · «Se queda en la pantalla de carga al abrir un capítulo».</em></p>
+<p>Causa: casi siempre red, no app. O el sitio bloquea, o tu conexión está lenta, o el capítulo tiene imágenes muy pesadas y el motor viejo no las maneja.</p>
+<p>Arreglo: prueba otro capítulo de la misma serie. Si ese carga, es el servidor de la fuente. Si ninguno carga, reinicia el motor y vuelve a intentarlo antes de reinstalar nada.</p>
+<p><em>4 · «El respaldo no restaura».</em></p>
+<p>Causa: versión. El archivo se hizo en una versión más nueva que la que estás usando, o es de otra familia de lector.</p>
+<p>Arreglo: actualiza el lector a la misma versión o más nueva y vuelve a probar. Nunca edites el archivo.</p>
+<p><em>5 · «Perdí la posición de lectura de todo».</em></p>
+<p>Causa: restauración parcial, o cambio de formato de capítulo en la fuente (el sitio reformateó y los números de página ya no coinciden).</p>
+<p>Arreglo: no se arregla del todo. Se recupera a mano: abre cada serie y busca el capítulo por el título, no por el número.</p>
+<p><em>6 · «La app se cierra al abrir una serie con muchas imágenes».</em></p>
+<p>Causa: memoria. Un capítulo de 80 imágenes a resolución completa puede agotar el teléfono, sobre todo en equipos con 3 GB o menos.</p>
+<p>Arreglo: en ajustes del lector, baja la calidad de imagen o activa el modo de ahorro de memoria. Si tu teléfono es viejo, prefiere Mihon antes que un fork con más funciones.</p>
+<p><em>7 · «Las descargas se quedaron a medias y ocupan espacio».</em></p>
+<p>Causa: descargas interrumpidas que el motor no limpió.</p>
+<p>Arreglo: desde ajustes de descargas, revisa la cola y borra lo incompleto. Si ocupa mucho y no lo encuentras, la carpeta de descargas del lector está en el almacenamiento interno: se puede borrar sin miedo (pierdes las descargas, no la biblioteca).</p>
+<p><em>8 · «Cambié de teléfono y el lector nuevo dice que la app no está instalada».</em></p>
+<p>Causa: firma. El APK que instalaste no es del mismo firmante que el anterior, o el sistema tiene restos del paquete viejo.</p>
+<p>Arreglo: desinstala el viejo del todo, reinicia y vuelve a instalar. Y la próxima vez: respaldo antes de mudarse.</p>
+<p><em>Nota:</em> no hay «reinicia y ya». Cada fallo tiene su causa y, si no la tiene, lo digo.</p>
+<p>───────────────────</p>
+<p><em>🧊 Mitos de este ecosistema</em></p>
+<p><em>«Si Tachiyomi murió, todo esto está muerto».</em></p>
+<p>Al contrario: el tronco cayó y las ramas crecieron. Hoy hay un sucesor con ★24.922 y al menos seis forks activos. La muerte del repositorio original no mató el software, porque el software ya estaba en miles de teléfonos.</p>
+<p><em>«Los forks son copias con el nombre cambiado».</em></p>
+<p>No. Komikku añade funciones, Neko sincronización, Kototoro reescribió los parsers, MihonSY mezcla dos linajes. Un fork es otro equipo, y su ritmo de publicación lo demuestra.</p>
+<p><em>«Más estrellas significa mejor».</em></p>
+<p>Kotatsu tiene ★8.946 y está archivado. Kujira tiene ★17 y publicó una release hoy. Las estrellas miden cuánta gente pasó por ahí, no quién sigue barriendo.</p>
+<p><em>«Las extensiones son parte de la app».</em></p>
+<p>No. Son programas aparte, con su autor y su firma. Tu motor puede ser impecable y tu catálogo un desastre. Los dos cajones se juzgan por separado.</p>
+<p><em>«Con el servidor en casa no necesito respaldos».</em></p>
+<p>El servidor te salva del cambio de teléfono, no de que se te queme el disco. Un servidor sin respaldo es un teléfono más grande con las mismas ganas de fallar.</p>
+<p><em>«Los respaldos son para técnicos».</em></p>
+<p>Los respaldos son para gente que no quiere perder tres años de historial. Es un botón. El botón está en ajustes, en la sección de datos.</p>
+<p>───────────────────</p>
+<p><em>🎯 Mini-quiz</em></p>
+<p><em>1.</em> ¿Qué le pasó al repositorio original de Tachiyomi y qué respondió al medirlo hoy?</p>
+<p><em>2.</em> ¿Cuál es el lector con más estrellas de esta pieza, y cuál es el que está archivado?</p>
+<p><em>3.</em> ¿Qué tres cosas guarda el cajón del archivo que no se pueden volver a descargar?</p>
+<p><em>4.</em> ¿En qué formato va el respaldo de la familia Tachiyomi y qué pasa si lo editas a mano?</p>
+<p><em>5.</em> ¿Cuántos repositorios de Suwayomi medí hoy y cuál de ellos tiene la release más vieja?</p>
+<p><em>Respuestas al revés (léelas de atrás para adelante):</em></p>
+<p>.on ogidóc le ,órrec es oirotisoper le :yoh edsed 404 ad lanigiro asac aL</p>
+<p>.349.8 noc ,ustatoK se odavihcra le ;sallertse 319.42 noc ,nohiM</p>
+<p>.acetoilbib al ed saírogetac sal y arutcel ed lairotsih le ,sadacram seires saL</p>
+<p>.allaf nóicaruatser al ,onam a satide ol is ;aiporp nóisnetxe noc fubotorP</p>
+<p>.4202 ed ozram ed ,IUJ se ajeiv sám esaeler ed le ;imoyawuS ed soirotisoper ortauC</p>
+<p>───────────────────</p>
+<p><em>🔬 El cajón dos a fondo: cómo se escribe (y por qué se rompe) una extensión</em></p>
+<p>Esto explica por qué tu extensión favorita deja de funcionar un martes cualquiera sin que nadie haya tocado tu teléfono.</p>
+<p><em>La anatomía mínima.</em> Una extensión es un APK pequeño con tres o cuatro piezas: un <em>parser</em> que lee el HTML del sitio, un catálogo que dice qué series hay, un lector que extrae las imágenes y un manifiesto con el nombre, la versión y los sitios que cubre.</p>
+<p><em>Por qué se rompe.</em> Porque el sitio cambia: otra ruta para las imágenes, una protección contra descargas, una clase renombrada en el HTML. La extensión pide lo de antes y recibe un error. <em>El lector no se rompió: el mundo cambió debajo de él.</em></p>
+<p><em>Por qué hay tantas y tan pocas a la vez.</em> Hay cientos de extensiones escritas y solo unas decenas mantenidas de verdad. La diferencia no es la calidad del código inicial: es <em>quién sigue ahí seis meses después</em>. Mantener una extensión es un trabajo de jardinería: hay que volver cada vez que el sitio se mueve. Por eso la comunidad se organiza en repositorios compartidos: muchas manos reparten el peso.</p>
+<p><em>Lo que puedes mirar tú sin saber programar:</em></p>
+<p>• <em>La fecha de la extensión.</em> Si es de hace dos meses y la serie que quieres está viva, probablemente el sitio se movió.</p>
+<p>• <em>El tamaño.</em> Una extensión decente pesa entre 30 y 200 KB. Si pesa 5 KB, es un conector mínimo que depende de que el sitio no cambie nunca.</p>
+<p>• <em>El autor.</em> Los repositorios grandes firman todas sus extensiones con la misma llave. Si una aparece firmada distinto, pregunta antes de instalar.</p>
+<p>• <em>La lista de sitios.</em> Una extensión que cubre tres sitios es más frágil que tres extensiones de un sitio cada una: si uno se rompe, se lleva a los otros dos.</p>
+<p><em>La lección de ingeniería que hay detrás, y que vale fuera de los cómics:</em> el diseño de «motor limpio + conectores aparte» es lo que permitió que el ecosistema sobreviviera a la muerte del proyecto original. Cuando el tronco cayó, los conectores siguieron funcionando en los forks porque no dependían de la marca: dependían de una interfaz.</p>
+<p>───────────────────</p>
+<p><em>🔄 Sincronización: qué existe hoy de verdad y qué es cuento</em></p>
+<p>«Que se sincronice entre el teléfono y la tableta» es la petición más común y la que peor se contesta. Vamos por partes.</p>
+<p><em>Lo que no existe:</em> un servicio oficial, en la nube, del ecosistema. Nadie tiene un «Tachiyomi Cloud». Cualquiera que te ofrezca eso está vendiendo algo distinto: una cuenta en un servicio privado que guarda tu biblioteca, con los riesgos que eso implica.</p>
+<p><em>Lo que sí existe, medido hoy:</em></p>
+<p>• <em>Un servidor propio.</em> <code>Suwayomi-Server</code> resuelve el problema de raíz: la biblioteca vive en el servidor y todos los aparatos leen de ahí. Es la única solución que de verdad sincroniza sin intermediarios. Cuesta: una máquina encendida.</p>
+<p>• <em>Respaldo y restauración manual.</em> El método tonto y el que nunca falla: respaldo en el teléfono A, lo copias al teléfono B, restauras. Sirve, pero es de un solo sentido: si lees en los dos, el último que restaure gana.</p>
+<p>• <em>Neko</em> tiene opciones propias de respaldo entre dispositivos, pero siguen siendo respaldo, no sincronización en vivo.</p>
+<p>• <em>Servicios de sincronización de archivos</em> (los de siempre) aplicados a la carpeta de respaldos. Funciona igual de bien que el método manual, automatizado. Ojo: sincronizar el <em>respaldo</em> no es sincronizar la <em>biblioteca</em>; el respaldo es una foto, no un espejo.</p>
+<p><em>Lo que hay que entender antes de intentarlo:</em> dos aparatos leyendo la misma serie y ninguno avisando al otro produce lo que los técnicos llaman «conflicto» y lo que tú vas a llamar «un desastre». El historial se pisa. Si vas a leer en dos aparatos, o usas servidor, o aceptas que uno de los dos es el principal y el otro es de consulta.</p>
+<p>───────────────────</p>
+<p><em>💾 Almacenamiento: cuánto ocupa cada cosa y cómo limpiar sin perder nada</em></p>
+<p>En un teléfono de 64 GB esto no es un detalle: es la diferencia entre tener lector y no tenerlo.</p>
+<p><em>Qué ocupa qué, en orden de peso:</em></p>
+<p>• <em>Las descargas.</em> Es lo que más pesa, con diferencia. Un capítulo de manga en buena calidad puede ir de 15 a 60 MB; un tomo completo, de 200 MB a 1 GB. Cien capítulos descargados son, sin exagerar, varios gigas.</p>
+<p>• <em>La caché de imágenes.</em> El motor guarda páginas vistas para que al volver atrás no tenga que bajarlas otra vez. Suele ir de unos cientos de MB a más de un giga si lees mucho.</p>
+<p>• <em>La base de datos de la biblioteca.</em> Es pequeña: unos pocos MB aunque tengas mil series. Esto es importante: <em>borrar la biblioteca no te ahorra espacio y sí te cuesta años.</em></p>
+<p>• <em>Los respaldos.</em> Unos pocos MB cada uno. Es lo más barato que vas a guardar en tu vida.</p>
+<p><em>Cómo limpiar sin perder nada, en orden:</em></p>
+<p><em>1.</em> Borra la caché antes que las descargas. Se recupera sola la próxima vez que abras un capítulo.</p>
+<p><em>2.</em> Borra las descargas de las series que ya terminaste o abandonaste. Deja las que estás leyendo ahora.</p>
+<p><em>3.</em> Nunca borres la carpeta de datos del lector con el teléfono, salvo que tengas respaldo y sepas lo que haces: ahí vive tu biblioteca.</p>
+<p><em>4.</em> Guarda los respaldos <em>fuera</em> del teléfono. Un respaldo en el mismo aparato que se va a romper no es un respaldo.</p>
+<p><em>El cálculo que casi nadie hace:</em> si lees 10 capítulos a la semana y descargas todo, en un año son unos 500 capítulos. A 30 MB de media, 15 GB. Tu teléfono no tiene 15 GB para esto. La descarga selectiva no es tacañería: es la única forma de que el mueble quepa en la casa.</p>
+<p>───────────────────</p>
+<p><em>🆕 Lo que no existía hace nueve meses (el censo nuevo del mueble)</em></p>
+<p>La lista de hace cuatro meses tenía a Tachiyomi, sus forks y tres servidores. Hoy medí uno por uno: <strong>catorce repositorios de este censo nacieron en 2026</strong>, y hay cebos que se hacen pasar por lectores reales. Este es el censo nuevo, con fecha de nacimiento al lado —el dato que casi nadie pone.</p>
+<p><em>Forks y lectores que nacieron en 2025 y 2026:</em></p>
+<p>• <em><code>null2264/yokai</code> — ★1.914 · Apache-2.0 · Kotlin · creado el 6 de enero de 2024 · release v1.10.2 del 23 de septiembre.</em> El fork más activo de la familia después de Mihon, con ★1.914 que no son prestadas. Empujó el 13 de octubre.</p>
+<p>• <em><code>jakepurple13/OtakuWorld</code> — ★637 · Apache-2.0 · creado el 30 de marzo de 2021 · release v32.1.2 del 29 de junio · empujó ayer.</em> Tres apps separadas: anime, manga y novelas. El que quiere todo el mueble en un solo ecosistema.</p>
+<p>• <em><code>UsagiApp/Usagi</code> — ★288 · GPL-3.0 · <strong>creado el 20 de marzo de 2026</strong> · release v1.2 del 3 de octubre.</em> Lector simple para Android 5.0 en adelante. Simple de verdad: eso es lo que promete y lo que cumple.</p>
+<p>• <em><code>Chimahon/chimahon</code> — ★240 · GPL-3.0 · <strong>creado el 27 de marzo de 2026</strong> · release v2.4.8 del 19 de octubre.</em> Fork de inmersión sobre Mihon, con diccionario nativo y OCR para leer en el idioma original. El nicho más específico de esta lista y el mejor hecho.</p>
+<p>• <em><code>yomihon/yomihon</code> — ★142 · Apache-2.0 · creado el 14 de septiembre de 2025 · release v0.4.3 del 18 de octubre.</em> Lector con reconocimiento de texto: saca el texto de la imagen para traducirlo o buscarlo.</p>
+<p>• <em><code>roxycon-dev/Ciallo-Reader</code> — ★265 · MIT · <strong>creado el 29 de julio de 2026</strong> · release v1.5.10 del 29 de octubre.</em> Tres meses de vida y ya lee novela, cómic y libro: TXT, EPUB y CBZ en el mismo estante.</p>
+<p>• <em><code>kmworks/kmreader</code> — ★116 · MIT · Swift · creado el 15 de noviembre de 2025 · release v7.3 del 22 de octubre.</em> Cliente nativo de Komga para iPhone, Mac y Apple TV. Existe porque en iOS el mueble se arma distinto.</p>
+<p><em>Los que no son apps, y también cuentan:</em></p>
+<p>• <em><code>josueBarretogit/manga-tui</code> — ★954 · MIT · Rust · release v0.10.1 <strong>de hoy</strong>.</em> Lector en terminal, con imágenes en la consola. Suena a broma y es de las cosas mejor mantenidas de esta lista.</p>
+<p>• <em><code>elboletaire/manga-downloader</code> — ★289 · AGPL-3.0 · Go · release v24.1.0 del 30 de octubre.</em> Descarga de más de quinientos sitios, sin interfaz gráfica. Para el que ya tiene el archivo y solo quiere llenarlo.</p>
+<p>• <em><code>MapoMagpie/comic-looms</code> — ★812 · MIT · TypeScript · release 4.16.1 del 9 de octubre.</em> Lector y descargador pensado para no cargar el servidor del sitio. Eso, hoy, es una decisión ética además de técnica.</p>
+<p>• <em><code>KamiYomu/KamiYomu</code> — ★150 · AGPL-3.0 · C# · creado el 6 de noviembre de 2025 · release 1.4.0 del 1 de septiembre.</em> Autoalojado y con complementos: tú eliges las fuentes.</p>
+<p>• <em><code>Yui007/weebcentral_downloader</code> — ★175 · MIT · Python · sin release publicada.</em> Descargador de un solo sitio, con interfaz y línea de comandos. Sin release: se instala con Python. Dicho queda.</p>
+<p><em>Bibliotecas y servidores nuevos:</em></p>
+<p>• <em><code>BookHeaven/BookHeaven.Server</code> — ★197 · GPL-3.0 · creado el 23 de septiembre de 2024 · release v1.0.4 del 30 de octubre.</em> Servidor web para tu biblioteca de libros electrónicos, compatible con los lectores que hablan OPDS.</p>
+<p>• <em><code>chmouel/liseur</code> — ★170 · MIT · <strong>creado el 28 de julio de 2026</strong> · release v0.26.0 del 28 de octubre.</em> Lector de EPUB con biblioteca remota para Android. Tres meses y ya en la versión 0.26: publica más que muchos veteranos.</p>
+<p>• <em><code>zmz125000/LocalViewer</code> — ★200 · GPL-3.0 · <strong>creado el 18 de julio de 2026</strong> · release 1.13.22 del 31 de octubre.</em> Lee CBZ y fotos por SMB y WebDAV: el mueble montado sobre la carpeta que ya tienes en la computadora, sin servidor de por medio.</p>
+<p>• <em><code>readium/kotlin-toolkit</code> — ★395 · BSD-3-Clause · release 3.4.0 del 11 de septiembre.</em> El motor de lectura que hay detrás de media docena de apps que no sabes que lo usan. Si programas, esto te ahorra el trabajo de dibujar un libro.</p>
+<p>• <em><code>koodo-reader/koodo-reader</code> — ★28.679 · AGPL-3.0 · release v2.4.6 del 7 de octubre.</em> Gestor y lector de libros con sincronización y respaldo, para computadora. No es manga: es el vecino grande que resolvió el cajón tres antes que nadie.</p>
+<p>• <em><code>Suwayomi/Suwayomi-VUI</code> — ★54 · MPL-2.0 · empuje del 12 de octubre · release r1417 del 12 de octubre.</em> Otra interfaz web para el servidor de Suwayomi. Cincuenta y cuatro estrellas y una versión de este mes: chiquita y viva.</p>
+<p><em>Y los dos cebos, que también hay que medir:</em></p>
+<p>• <em><code>sri-sivaram/Neko-Manga-Pearl</code> — ★116 · HTML · sin licencia · creado el 28 de junio de 2026.</em></p>
+<p>• <em><code>khaledmahmud5286-cmd/manga-zen-reader</code> — ★113 · HTML · sin licencia · creado el 28 de junio de 2026.</em></p>
+<p>Los dos se describen como «la mejor alternativa open source 2026» de apps que ya existen, usan el nombre de otro proyecto en el título para salir en la búsqueda y <strong>no declaran licencia</strong>. Un lector de cómics no se escribe en HTML.</p>
+<p><em>Y al cerrar la revisión apareció un quinto del mismo molde:</em> <code>Boomckman/usagi-nightly</code> — ★114 · HTML · sin licencia · creado el 28 de junio de 2026 y empujado hoy. Misma página, mismo truco: la fábrica sigue abierta.</p>
+<p><em>Lo que este censo no dice:</em> cuánta gente usa cada uno. Las estrellas miden curiosidad: ★116 puede tener más usuarios reales que ★1.900 que todos miraron y nadie instaló.</p>
+<p>───────────────────</p>
+<p><em>🏘️ Cuatro migraciones del barrio (con lo que costó cada una)</em></p>
+<p><em>La del que tenía 400 series en Tachiyomi.</em> Cuando se anunció el cierre, no hizo nada durante dos semanas. Cuando quiso reaccionar, su versión ya no tenía forma de exportar a los repositorios nuevos. Lo que hizo: exportó el respaldo que tenía de hacía ocho meses, perdió los dos meses de historial más reciente y reconstruyó a mano lo que faltaba. <em>Coste: una tarde.</em> <em>Lección: el respaldo era viejo y aun así lo salvó casi todo.</em></p>
+<p><em>La de la que cambió de teléfono sin respaldo.</em> Perdió el historial de tres años. Lo que hizo después: abrió cada serie que recordaba y volvió a marcar hasta donde iba, guiándose por el título del capítulo. <em>Coste: dos semanas de ratos libres, y nunca recuperó del todo las categorías.</em> <em>Lección: el paso 10 del tutorial existe por ella.</em></p>
+<p><em>La del que se mudó de Mihon a Komikku.</em> Respaldo, instalar al lado, restaurar, verificar tres cosas, desinstalar el viejo. <em>Coste: veinte minutos.</em> <em>Lección: cuando el formato es el mismo, mudarse es trivial.</em></p>
+<p><em>La del que se fue a Mangayomi.</em> Otro motor, otro formato de extensiones, otro formato de respaldo. Exportó la lista de series en texto, las volvió a añadir una por una y perdió el historial completo. <em>Coste: un fin de semana.</em> <em>Lección: cambiar de familia se paga; cambiar de casa, no.</em></p>
+<p><em>La suma de las cuatro:</em> tres de cada cuatro pérdidas se habrían evitado con un botón que estaba en ajustes y nadie pulsó.</p>
+<p>───────────────────</p>
+<p><em>❓ Preguntas frecuentes (las que de verdad llegan)</em></p>
+<p><em>«¿Cuál instalo: Mihon o Komikku?»</em></p>
+<p>Si vienes de Tachiyomi y quieres continuidad sin sorpresas: Mihon. Si ya lo usaste y quieres más control: Komikku. No instales los dos el mismo día; elige uno, haz respaldo y vive con él un mes.</p>
+<p><em>«¿Y Kototoro, que todo el mundo menciona?»</em></p>
+<p>Es el que más se mueve ahora mismo (dos empujes en dos días y release de anteayer). Con ★659 y un equipo pequeño, es una apuesta razonable pero es una apuesta: si el mantenedor para, para. Si te gusta probar, adelante; si necesitas estabilidad para tu biblioteca, quédate en Mihon.</p>
+<p><em>«¿Puedo tener dos lectores a la vez con la misma biblioteca?»</em></p>
+<p>Sí, pero no leyendo en los dos. Instala el segundo, restaura el respaldo y úsalo para lo que el primero hace mal. En cuanto leas en los dos sin servidor, el historial se pisa.</p>
+<p><em>«¿Se pueden pasar las series de un lector a otro sin perder nada?»</em></p>
+<p>Dentro de la misma familia (Mihon, Komikku, Neko, Kototoro, MihonSY), sí: mismo formato de respaldo. Entre familias distintas (por ejemplo a Mangayomi), no: se pasa la lista y se pierde el historial. Esto no es un defecto de nadie: son bases de datos distintas.</p>
+<p><em>«¿Las extensiones vienen con la app?»</em></p>
+<p>No, en la familia Tachiyomi no. Se añaden desde repositorios aparte. Eso es una ventaja y un riesgo a la vez: la app queda limpia, pero el catálogo lo eliges tú y lo eliges bajo tu responsabilidad.</p>
+<p><em>«¿Por qué las extensiones se rompen cada tanto?»</em></p>
+<p>Porque el sitio cambió. No es un fallo del motor ni una conspiración: es el mantenimiento normal de un conector que depende de una página que no controla.</p>
+<p><em>«¿Necesito root?»</em></p>
+<p>No. Ninguna de estas apps lo pide. Si alguna vez una versión te lo pide, desconfía: no es la oficial.</p>
+<p><em>«¿Funciona sin internet?»</em></p>
+<p>Solo con lo que tengas descargado. El catálogo necesita red para buscar y para traer capítulos nuevos. Las descargas se leen sin conexión, siempre que no hayas borrado la caché de más.</p>
+<p><em>«¿Qué pasa si el proyecto se muere como Tachiyomi?»</em></p>
+<p>Que tu lector instalado sigue funcionando y que el respaldo se puede restaurar en un fork. Por eso el respaldo mensual no es una manía mía: es la diferencia entre una molestia y una pérdida.</p>
+<p><em>«¿Y si el teléfono se rompe?»</em></p>
+<p>El respaldo restaura la biblioteca, el historial y las categorías; no restaura las descargas (se vuelven a bajar). Un respaldo hecho en el mismo teléfono que se rompe no sirve: guárdalo fuera.</p>
+<p><em>«¿Los servidores son seguros?»</em></p>
+<p>Un servidor en tu casa, en tu red, es tan seguro como tu red. Expuesto a internet sin protección, es un problema que te estás buscando. Si no sabes qué significa «expuesto a internet», no lo expongas.</p>
+<p>───────────────────</p>
+<p>───────────────────</p>
+<p><em>📺 Anime: el hermano que va por otro camino</em></p>
+<p>Si el manga tiene su familia, el anime tiene la suya, y comparte abuelo. <code>aniyomiorg/aniyomi</code> — <strong>★7.864 · Apache-2.0 · Kotlin · empuje 14-sep · release v0.18.2.1 del 14 de septiembre</strong> — nació como fork de Tachiyomi para video: mismos cajones, otros archivos. Donde el manga carga imágenes, el anime carga flujos de video, y eso cambia todo el oficio.</p>
+<p><em>Por qué es más difícil que el manga:</em></p>
+<p>• <em>El reproductor.</em> Un lector de cómics dibuja imágenes; un reproductor de video tiene que decodificar formatos, manejar subtítulos y pelear con códecs que tu teléfono quizá no soporta en hardware.</p>
+<p>• <em>Los enlaces caducan.</em> Las imágenes de un manga duran; un enlace de video tiene fecha de vencimiento y a veces requiere cabeceras especiales. La extensión tiene que resolverlo en el momento de reproducir.</p>
+<p>• <em>El peso.</em> Un capítulo de manga son 30 MB; un episodio, entre 200 MB y 1,5 GB. Las descargas se vuelven un problema de logística, no de almacenamiento.</p>
+<p>• <em>La sincronización de progreso.</em> En video interesa más que en manga: ver media serie y cambiar de aparato es habitual. Aquí el servidor propio gana por goleada.</p>
+<p><em>El detalle del catálogo, medido:</em> <code>aniyomiorg/aniyomi-extensions</code> — <strong>★849 · Apache-2.0 · ARCHIVADO · último empuje 19 de agosto de 2024</strong>. El catálogo oficial de extensiones de anime está congelado desde hace más de dos años. Eso significa que, si usas Aniyomi, tus extensiones son de archivo o de un tercero, y ambas opciones tienen el mismo problema: nadie las está adaptando cuando el sitio cambia.</p>
+<p><em>Lo que yo haría con esto, dicho sin adornos:</em> Aniyomi es un buen motor con un catálogo que ya no se mantiene en su casa. Si lo usas, cuenta con que el cajón dos está envejeciendo y el cajón tres —tu historial de series— es lo único que de verdad te importa conservar. Respaldo, como siempre.</p>
+<p>───────────────────</p>
+<p><em>🕰️ La edad de este censo, y por qué se mide dos veces</em></p>
+<p>Esta es la segunda vez que mido el mueble en el mismo día. El censo vale lo que vale su fecha: si lo abres en marzo, la mitad de los números serán viejos. Lo que no envejece es lo que aprendiste a mirar: <em>fecha de creación, licencia declarada, lenguaje, release con archivo y quién responde.</em></p>
+<p><em>Qué envejece rápido:</em> las estrellas (a diario), los empujes (a horas), las releases (a semanas), los enlaces de descarga.</p>
+<p><em>Qué envejece lento:</em> las licencias, la arquitectura de tres cajones, los nombres canónicos, el formato del respaldo.</p>
+<p><em>Qué no envejece:</em> que Tachiyomi cerró y el ecosistema siguió; que Kotatsu se archivó con su aviso; que el único cajón que no se puede volver a descargar es el tuyo.</p>
+<p>───────────────────</p>
+<p><em>📋 LA FICHA DE HOY — 53 repositorios del mueble, medidos uno por uno</em></p>
+<p>Medido hoy con la API de GitHub: estrellas, licencia que el repositorio declara, último empuje y última release con su fecha. Lo que dice <strong>archivado</strong> o <strong>404</strong> va marcado, no disimulado.</p>
+<p><em>Los motores y sus forks:</em></p>
+<p>• <code>mihonapp/mihon</code> — ★24.922 · Apache-2.0 · push 26-oct · rel v0.21.3 (25-oct)</p>
+<p>• <code>komikku-app/komikku</code> — ★4.964 · Apache-2.0 · push 1-nov · rel v1.14.1 (17-jul)</p>
+<p>• <code>null2264/yokai</code> — ★1.914 · Apache-2.0 · push 13-oct · rel v1.10.2 (23-sep)</p>
+<p>• <code>nekomangaorg/Neko</code> — ★2.818 · Apache-2.0 · push 1-nov · rel 3.8.5 (30-oct)</p>
+<p>• <code>Kototoro-app/Kototoro</code> — ★659 · Apache-2.0 · push 31-oct · rel v2.3.4 (29-oct)</p>
+<p>• <code>kodjodevf/mangayomi</code> — ★4.286 · Apache-2.0 · push 1-nov · rel v0.9.9 (12-oct)</p>
+<p>• <code>aniyomiorg/aniyomi</code> — ★7.864 · Apache-2.0 · push 14-sep · rel v0.18.2.1 (14-sep)</p>
+<p>• <code>jakepurple13/OtakuWorld</code> — ★637 · Apache-2.0 · push 31-oct · rel v32.1.2 (29-jun)</p>
+<p>• <code>UsagiApp/Usagi</code> — ★288 · GPL-3.0 · push 30-oct · rel v1.2 (3-oct)</p>
+<p>• <code>Chimahon/chimahon</code> — ★240 · GPL-3.0 · push 28-oct · rel v2.4.8 (19-oct)</p>
+<p>• <code>yomihon/yomihon</code> — ★142 · Apache-2.0 · push 18-oct · rel v0.4.3 (18-oct)</p>
+<p>• <code>roxycon-dev/Ciallo-Reader</code> — ★265 · MIT · push 29-oct · rel v1.5.10 (29-oct)</p>
+<p>• <code>kmworks/kmreader</code> — ★116 · MIT · push 31-oct · rel v7.3 (22-oct)</p>
+<p>• <code>Mister-album/Koharia</code> — ★254 · Apache-2.0 · push 27-oct · rel v0.7.5 (27-oct)</p>
+<p>• <code>Nyora-Manga/nyora-android</code> — ★58 · GPL-3.0 · push 23-sep · rel v2.7.3 (31-jul)</p>
+<p>• <code>Utolaris/Kujira-Manga</code> — ★17 · GPL-3.0 · push 25-oct · rel v1.5.3 (25-oct)</p>
+<p>• <code>Wammy-app/Wammy</code> — ★13 · Apache-2.0 · push 25-oct · rel v0.1.4 (25-oct)</p>
+<p>• <code>ruzhe85/MihonSY</code> — ★48 · Apache-2.0 · push 28-oct · rel v1.2.1 (7-oct)</p>
+<p>• <code>RecordXenon/Kotatsu-Ultra</code> — ★117 · sin licencia declarada · push 22-oct · sin release</p>
+<p>• <code>hotaro26/miko</code> — ★33 · sin licencia declarada · push 11-sep · rel v3.3 (3-ago)</p>
+<p>• <code>AngeloSha/uchiyomi</code> — ★98 · MPL-2.0 · push 31-oct · rel v0.103.1 (31-oct)</p>
+<p><em>Los catálogos de extensiones:</em></p>
+<p>• <code>keiyoushi/extensions-source</code> — ★4.843 · Apache-2.0 · push 1-nov · sin release</p>
+<p>• <code>yuzono/tachiyomi-extensions</code> — ★953 · Apache-2.0 · push 1-nov · sin release</p>
+<p>• <code>m2k3a/mangayomi-extensions</code> — ★113 · Apache-2.0 · push 29-oct · sin release</p>
+<p>• <code>skepsun/kototoro-parsers</code> — ★17 · GPL-3.0 · push 28-oct · sin release</p>
+<p>• <code>aidoku-community/sources</code> — ★614 · Apache-2.0 · push 30-oct · sin release</p>
+<p>• <code>timschneeb/tachiyomi-extensions-archive</code> — ★1.802 · Apache-2.0 · <strong>archivado</strong> · push 23-mar · sin release</p>
+<p>• <code>aniyomiorg/aniyomi-extensions</code> — ★849 · Apache-2.0 · <strong>archivado</strong> · push 19-ago · sin release</p>
+<p><em>Servidores y bibliotecas:</em></p>
+<p>• <code>Suwayomi/Suwayomi-Server</code> — ★7.982 · MPL-2.0 · push 1-nov · rel v2.4.2366 (30-sep)</p>
+<p>• <code>Suwayomi/Suwayomi-JUI</code> — ★498 · MPL-2.0 · push 15-oct · rel v1.3.3 (31-mar)</p>
+<p>• <code>Suwayomi/Suwayomi-Tsumiru</code> — ★107 · MPL-2.0 · push 1-nov · rel v1.6.3 (30-oct)</p>
+<p>• <code>Suwayomi/Suwayomi-VUI</code> — ★54 · MPL-2.0 · push 12-oct · rel r1417 (12-oct)</p>
+<p>• <code>Suwayomi/Suwayomi-Server-docker</code> — ★575 · MPL-2.0 · push 29-oct · sin release</p>
+<p>• <code>Kareadita/Kavita</code> — ★11.987 · GPL-3.0 · push 1-nov · rel v0.9.1.4 (2-sep)</p>
+<p>• <code>gotson/komga</code> — ★6.805 · MIT · push 1-nov · rel 1.29.2 (28-oct)</p>
+<p>• <code>BookHeaven/BookHeaven.Server</code> — ★197 · GPL-3.0 · push 30-oct · rel v1.0.4 (30-oct)</p>
+<p>• <code>Snd-R/Komelia</code> — ★437 · Apache-2.0 · push 29-oct · rel 0.20.0 (27-sep)</p>
+<p>• <code>ruzhe85/Komiho</code> — ★79 · Apache-2.0 · push 28-oct · rel v1.6.0 (28-oct)</p>
+<p>• <code>Snd-R/komf</code> — ★738 · MIT · push 27-sep · rel 2.1.0 (27-sep)</p>
+<p>• <code>C9Glax/tranga</code> — ★395 · GPL-3.0 · push 26-oct · rel 1.5 (20-jun)</p>
+<p>• <code>chmouel/liseur</code> — ★170 · MIT · push 1-nov · rel v0.26.0 (28-oct)</p>
+<p>• <code>zmz125000/LocalViewer</code> — ★200 · GPL-3.0 · push 1-nov · rel 1.13.22 (31-oct)</p>
+<p>• <code>readium/kotlin-toolkit</code> — ★395 · BSD-3-Clause · push 16-oct · rel 3.4.0 (11-sep)</p>
+<p>• <code>koodo-reader/koodo-reader</code> — ★28.679 · AGPL-3.0 · push 1-nov · rel v2.4.6 (7-oct)</p>
+<p><em>Descargadores y lectores de terminal:</em></p>
+<p>• <code>josueBarretogit/manga-tui</code> — ★954 · MIT · push 1-nov · rel v0.10.1 (1-nov)</p>
+<p>• <code>elboletaire/manga-downloader</code> — ★289 · AGPL-3.0 · push 31-oct · rel v24.1.0 (30-oct)</p>
+<p>• <code>MapoMagpie/comic-looms</code> — ★812 · MIT · push 22-oct · rel 4.16.1 (9-oct)</p>
+<p>• <code>KamiYomu/KamiYomu</code> — ★150 · AGPL-3.0 · push 20-sep · rel 1.4.0 (1-sep)</p>
+<p>• <code>Yui007/weebcentral_downloader</code> — ★175 · MIT · push 23-ago · sin release</p>
+<p><em>Archivados y muertos, para que se sepa:</em></p>
+<p>• <code>KotatsuApp/Kotatsu</code> — ★8.946 · GPL-3.0 · <strong>archivado</strong> · push 4-nov · sin release</p>
+<p>• <code>Koitharu/OpenManga</code> — ★182 · NOASSERTION · <strong>archivado</strong> · push 2-feb · rel v4.7.1 (20-jul)</p>
+<p>• <code>tachiyomiorg/tachiyomi</code> — <strong>404 hoy</strong></p>
+<p>• <code>Mangayomi-app/Mangayomi</code> — <strong>404 hoy</strong></p>
+<p>• <code>Paperback-Community/Paperback</code> — <strong>404 hoy</strong></p>
+<p>───────────────────</p>
+<p><em>📖 Glosario del mueble</em></p>
+<p>• <em>Motor</em> — la app que dibuja las páginas. No sabe de dónde vienen.</p>
+<p>• <em>Extensión</em> — conector que le dice al motor dónde buscar. Programa aparte, con su firma.</p>
+<p>• <em>Índice</em> — archivo que lista las extensiones de un repositorio. Si cambia, tu lector se pierde.</p>
+<p>• <em>Fork</em> — copia de un proyecto que sigue su propio camino. Otro equipo, otra firma.</p>
+<p>• <em>Tronco</em> — el proyecto original. Puede morir sin llevarse las ramas.</p>
+<p>• <em>Respaldo</em> — volcado de tu biblioteca. En esta familia, un archivo Protobuf con extensión propia.</p>
+<p>• <em>Archivado</em> — el repositorio queda en lectura. Funciona, no se adapta.</p>
+<p>• <em>Dormido</em> — sin empujes recientes pero vivo.</p>
+<p>• <em>Muerto</em> — el repositorio responde 404. Se dice con fecha o no se dice.</p>
+<p>• <em>Parser</em> — la parte de la extensión que entiende el HTML del sitio.</p>
+<p>• <em>Servidor</em> — el motor corriendo fuera del teléfono.</p>
+<p>• <em>Biblioteca</em> — el cajón tres. Lo único que no se puede volver a descargar.</p>
+<p>───────────────────</p>
+<p><em>🔗 Enlaces de esta pieza (canónicos, sin espejos)</em></p>
+<p><em>Los motores y sus forks:</em></p>
+<ul>
+<li>Mihon (el motor): <a href="https://github.com/mihonapp/mihon">https://github.com/mihonapp/mihon</a></li>
+<li>Komikku: <a href="https://github.com/komikku-app/komikku">https://github.com/komikku-app/komikku</a></li>
+<li>Yokai: <a href="https://github.com/null2264/yokai">https://github.com/null2264/yokai</a></li>
+<li>Neko: <a href="https://github.com/nekomangaorg/Neko">https://github.com/nekomangaorg/Neko</a></li>
+<li>Kototoro: <a href="https://github.com/Kototoro-app/Kototoro">https://github.com/Kototoro-app/Kototoro</a></li>
+<li>Mangayomi: <a href="https://github.com/kodjodevf/mangayomi">https://github.com/kodjodevf/mangayomi</a></li>
+<li>Aniyomi (anime): <a href="https://github.com/aniyomiorg/aniyomi">https://github.com/aniyomiorg/aniyomi</a></li>
+<li>OtakuWorld: <a href="https://github.com/jakepurple13/OtakuWorld">https://github.com/jakepurple13/OtakuWorld</a></li>
+<li>Usagi: <a href="https://github.com/UsagiApp/Usagi">https://github.com/UsagiApp/Usagi</a></li>
+<li>Chimahon: <a href="https://github.com/Chimahon/chimahon">https://github.com/Chimahon/chimahon</a></li>
+<li>Yomihon: <a href="https://github.com/yomihon/yomihon">https://github.com/yomihon/yomihon</a></li>
+<li>Ciallo Reader: <a href="https://github.com/roxycon-dev/Ciallo-Reader">https://github.com/roxycon-dev/Ciallo-Reader</a></li>
+<li>KMReader: <a href="https://github.com/kmworks/kmreader">https://github.com/kmworks/kmreader</a></li>
+<li>Koharia: <a href="https://github.com/Mister-album/Koharia">https://github.com/Mister-album/Koharia</a></li>
+<li>Nyora: <a href="https://github.com/Nyora-Manga/nyora-android">https://github.com/Nyora-Manga/nyora-android</a></li>
+<li>Kujira: <a href="https://github.com/Utolaris/Kujira-Manga">https://github.com/Utolaris/Kujira-Manga</a></li>
+<li>Wammy: <a href="https://github.com/Wammy-app/Wammy">https://github.com/Wammy-app/Wammy</a></li>
+<li>MihonSY: <a href="https://github.com/ruzhe85/MihonSY">https://github.com/ruzhe85/MihonSY</a></li>
+<li>Kotatsu Ultra: <a href="https://github.com/RecordXenon/Kotatsu-Ultra">https://github.com/RecordXenon/Kotatsu-Ultra</a></li>
+<li>miko: <a href="https://github.com/hotaro26/miko">https://github.com/hotaro26/miko</a></li>
+<li>uchiyomi: <a href="https://github.com/AngeloSha/uchiyomi">https://github.com/AngeloSha/uchiyomi</a></li>
+</ul>
+<p><em>Los catálogos de extensiones:</em></p>
+<ul>
+<li>Keiyoushi (extensiones): <a href="https://github.com/keiyoushi/extensions-source">https://github.com/keiyoushi/extensions-source</a></li>
+<li>Yuzono (extensiones Tachiyomi): <a href="https://github.com/yuzono/tachiyomi-extensions">https://github.com/yuzono/tachiyomi-extensions</a></li>
+<li>extensiones de Mangayomi: <a href="https://github.com/m2k3a/mangayomi-extensions">https://github.com/m2k3a/mangayomi-extensions</a></li>
+<li>parsers de Kototoro: <a href="https://github.com/skepsun/kototoro-parsers">https://github.com/skepsun/kototoro-parsers</a></li>
+<li>fuentes de Aidoku: <a href="https://github.com/aidoku-community/sources">https://github.com/aidoku-community/sources</a></li>
+<li>archivo de extensiones de Tachiyomi: <a href="https://github.com/timschneeb/tachiyomi-extensions-archive">https://github.com/timschneeb/tachiyomi-extensions-archive</a></li>
+<li>extensiones de Aniyomi: <a href="https://github.com/aniyomiorg/aniyomi-extensions">https://github.com/aniyomiorg/aniyomi-extensions</a></li>
+</ul>
+<p><em>Servidores y bibliotecas:</em></p>
+<ul>
+<li>Suwayomi Server: <a href="https://github.com/Suwayomi/Suwayomi-Server">https://github.com/Suwayomi/Suwayomi-Server</a></li>
+<li>Suwayomi JUI: <a href="https://github.com/Suwayomi/Suwayomi-JUI">https://github.com/Suwayomi/Suwayomi-JUI</a></li>
+<li>Suwayomi Tsumiru: <a href="https://github.com/Suwayomi/Suwayomi-Tsumiru">https://github.com/Suwayomi/Suwayomi-Tsumiru</a></li>
+<li>Suwayomi VUI: <a href="https://github.com/Suwayomi/Suwayomi-VUI">https://github.com/Suwayomi/Suwayomi-VUI</a></li>
+<li>Suwayomi en Docker: <a href="https://github.com/Suwayomi/Suwayomi-Server-docker">https://github.com/Suwayomi/Suwayomi-Server-docker</a></li>
+<li>Kavita: <a href="https://github.com/Kareadita/Kavita">https://github.com/Kareadita/Kavita</a></li>
+<li>Komga: <a href="https://github.com/gotson/komga">https://github.com/gotson/komga</a></li>
+<li>BookHeaven Server: <a href="https://github.com/BookHeaven/BookHeaven.Server">https://github.com/BookHeaven/BookHeaven.Server</a></li>
+<li>Komelia: <a href="https://github.com/Snd-R/Komelia">https://github.com/Snd-R/Komelia</a></li>
+<li>komf (metadatos): <a href="https://github.com/Snd-R/komf">https://github.com/Snd-R/komf</a></li>
+<li>Komiho: <a href="https://github.com/ruzhe85/Komiho">https://github.com/ruzhe85/Komiho</a></li>
+<li>Tranga (descarga en servidor): <a href="https://github.com/C9Glax/tranga">https://github.com/C9Glax/tranga</a></li>
+<li>Liseur: <a href="https://github.com/chmouel/liseur">https://github.com/chmouel/liseur</a></li>
+<li>LocalViewer: <a href="https://github.com/zmz125000/LocalViewer">https://github.com/zmz125000/LocalViewer</a></li>
+<li>Readium Kotlin Toolkit: <a href="https://github.com/readium/kotlin-toolkit">https://github.com/readium/kotlin-toolkit</a></li>
+<li>Koodo Reader: <a href="https://github.com/koodo-reader/koodo-reader">https://github.com/koodo-reader/koodo-reader</a></li>
+</ul>
+<p><em>Descargadores y lectores de terminal:</em></p>
+<ul>
+<li>manga-tui: <a href="https://github.com/josueBarretogit/manga-tui">https://github.com/josueBarretogit/manga-tui</a></li>
+<li>manga-downloader: <a href="https://github.com/elboletaire/manga-downloader">https://github.com/elboletaire/manga-downloader</a></li>
+<li>Comic Looms: <a href="https://github.com/MapoMagpie/comic-looms">https://github.com/MapoMagpie/comic-looms</a></li>
+<li>KamiYomu: <a href="https://github.com/KamiYomu/KamiYomu">https://github.com/KamiYomu/KamiYomu</a></li>
+<li>weebcentral_downloader: <a href="https://github.com/Yui007/weebcentral_downloader">https://github.com/Yui007/weebcentral_downloader</a></li>
+</ul>
+<p><em>Archivados y muertos, para que se sepa:</em></p>
+<ul>
+<li>Kotatsu (archivado): <a href="https://github.com/KotatsuApp/Kotatsu">https://github.com/KotatsuApp/Kotatsu</a></li>
+<li>OpenManga (archivado): <a href="https://github.com/Koitharu/OpenManga">https://github.com/Koitharu/OpenManga</a></li>
+<li>tachiyomi (muerto, 404): <a href="https://github.com/tachiyomiorg/tachiyomi">https://github.com/tachiyomiorg/tachiyomi</a></li>
+<li>Mangayomi-app (muerto, 404): <a href="https://github.com/Mangayomi-app/Mangayomi">https://github.com/Mangayomi-app/Mangayomi</a></li>
+<li>Paperback-Community (muerto, 404): <a href="https://github.com/Paperback-Community/Paperback">https://github.com/Paperback-Community/Paperback</a></li>
+</ul>
+<p><em>El vecino grande que no es de la familia:</em></p>
+<ul>
+<li>KOReader (el vecino): <a href="https://github.com/koreader/koReader">https://github.com/koreader/koReader</a></li>
+<li>Calibre-Web (el vecino): <a href="https://github.com/janeczku/calibre-web">https://github.com/janeczku/calibre-web</a></li>
+</ul>
+<p>───────────────────</p>
+<p><em>🌅 Cierre — el mueble que se puede mudar</em></p>
+<p>Todo lo que hay en esta pieza se resume en una idea que vale para mucho más que los cómics: <em>lo que se puede respaldar, se puede mudar; lo que se puede mudar, no depende de que un proyecto siga vivo.</em></p>
+<p>Tachiyomi murió y su ecosistema floreció porque el código estaba en miles de manos. Kotatsu se archivó y sus usuarios están migrando porque alguien pensó en el respaldo. Los servidores existen porque alguien se cansó de perder la biblioteca cada vez que cambiaba de teléfono.</p>
+<p>La app que uses mañana puede no ser la de hoy. Tu archivo sí puede ser el mismo, si lo cuidas. Ese es el cajón que importa, y es el único que no cuesta nada: ni cuenta, ni nube, ni suscripción.</p>
+<p>───────────────────</p>
+<blockquote>—¿Y si el proyecto cierra el mes que viene?</blockquote>
+<blockquote>—Cierras la app, no la biblioteca. Eso es todo el truco.</blockquote>
+<p>💓 <em>La Bandita informa a partir de fuentes fechadas.</em> El mueble se muda con cajas, no con promesas: si el archivo está en tu carpeta, el proyecto puede cerrar tranquilo.</p>
+<p><em>Medición del corte:</em> domingo 1 de noviembre de 2026, 06:15 de Santo Domingo · 53 repositorios medidos uno por uno: 46 vivos, 4 archivados y 3 muertos con su 404 a la vista · 53 enlaces abiertos uno por uno, todos con respuesta.</p>
+<h2>🗒️ Notas al pie</h2>
+<p><strong>Nota de corrección (1-nov):</strong> el cierre se rehízo con la firma textual de la casa y su remate propio; la lista de enlaces pasó al formato <code>- Nombre: URL</code>, y se retiró el apartado que contaba el trabajo de escribir en vez del de medir.</p>
+<p><strong>Errata del censo (1-nov):</strong> di por hecho que <code>tachiyomiorg/tachiyomi</code> conservaría su histórico (da 404) y escribí <code>Paperback-Community/Paperback</code> de memoria (también 404); además casi di por abandonado a Suwayomi-JUI por su release de marzo de 2024, cuando su código se empujó 17 días antes del corte.</p>
+<p><strong>Nota de verificación final (1-nov):</strong> los 53 enlaces se abrieron uno por uno y devolvieron respuesta; estrellas, licencias, archivos y fechas de empuje son de las 06:15.</p>
+<p><strong>Nota del corte (1-nov):</strong> corte real de la pieza. Lo no medido no se afirma: cuánta gente usa cada app, qué sitio de cómics responde en tu red hoy y si tal versión corre en tu teléfono.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

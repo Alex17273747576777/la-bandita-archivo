@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-27T15:35:45Z",
+   "oid": "b17b9b4792ec9034277d2c85def56c2c156cfe4d"
+  }
+ },
+ "diskUsage": 76586,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU Affero General Public License v3.0",
+  "spdxId": "AGPL-3.0"
+ },
+ "nameWithOwner": "ThisisWyatt/reelpaper",
+ "pushedAt": "2026-10-29T15:53:13Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

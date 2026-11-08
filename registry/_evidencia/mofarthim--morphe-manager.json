@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-25T12:56:56Z",
+   "oid": "fc07b496fd18df502e00507972c4828df245b727"
+  }
+ },
+ "diskUsage": 115382,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "Mofarthim/morphe-manager",
+ "pushedAt": "2026-10-29T13:27:47Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

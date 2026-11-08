@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-30T07:42:19Z",
+   "oid": "914ac6d2f25ed77320a4c4538d461122ada14849"
+  }
+ },
+ "diskUsage": 143537,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "lemmesleep247/Tadami",
+ "pushedAt": "2026-10-30T07:44:50Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-08-21T06:44:47Z",
+    "tagName": "v0.60.0"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

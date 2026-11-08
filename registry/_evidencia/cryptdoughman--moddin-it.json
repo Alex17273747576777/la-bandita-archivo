@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-05-22T16:39:28Z",
+   "oid": "54aa1914c04e26bc1e3b14c22d162b70e54aaa75"
+  }
+ },
+ "diskUsage": 24388,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "CryptDoughMan/Moddin-It",
+ "pushedAt": "2026-05-22T16:39:29Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 1
+}

@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="es-DO" data-tema="brisa"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Las puertas del anime y los servidores — censo de la mina III">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f9ff">
+<title>Las puertas del anime y los servidores — censo de la mina III</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Las puertas del anime y los servidores — censo de la mina III", "inLanguage": "es-DO", "author": {"@type": "Organization", "name": "La Bandita"}, "datePublished": "29 de octubre de 2026", "publisher": {"@type": "Organization", "name": "La Bandita"}}</script><script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("lb-tema");if(t==="noche")document.documentElement.setAttribute("data-tema","noche");}catch(e){}</script>
+<style>
+/* ══ base ══════════════════════════════════════════════════════════════ */
+:root{
+  --r1:10px; --r2:14px; --r3:20px; --r4:28px; --r5:38px;
+  --tinta:#1b2230; --tinta2:#414b5e; --apagado:#6f7a8c;
+  --papel:#f7f9ff; --papel2:#eef3ff; --papel3:#fff;
+  --vidrio:rgba(255,255,255,.74); --vidrio2:rgba(255,255,255,.55);
+  --borde:rgba(27,34,48,.09); --borde2:rgba(27,34,48,.14);
+  --azul:#5a7cff; --menta:#12b58c; --rosa:#ef9bb0; --miel:#eea63f; --lila:#a08cf0;
+  --azul-rgb:90,124,255; --menta-rgb:18,181,140; --rosa-rgb:239,155,176;
+  --s1:0 1px 2px rgba(16,24,40,.05);
+  --s2:0 2px 6px -1px rgba(16,24,40,.06), 0 12px 28px -14px rgba(16,24,40,.18);
+  --s3:0 4px 10px -2px rgba(16,24,40,.08), 0 26px 50px -22px rgba(16,24,40,.26);
+  --fuente:-apple-system,BlinkMacSystemFont,"Segoe UI Variable Display","Segoe UI",Inter,Roboto,
+           "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --curva:cubic-bezier(.22,.61,.36,1);
+  --rebote:cubic-bezier(.34,1.56,.64,1);
+}
+html[data-tema="noche"]{
+  --tinta:#eef2ff; --tinta2:#c3cbe0; --apagado:#93a0b8;
+  --papel:#0d1220; --papel2:#131b2c; --papel3:#182136;
+  --vidrio:rgba(24,33,54,.72); --vidrio2:rgba(24,33,54,.5);
+  --borde:rgba(255,255,255,.10); --borde2:rgba(255,255,255,.18);
+  --azul:#8ea4ff; --menta:#3ed3ab; --rosa:#f5b3c4; --miel:#f6bd5f; --lila:#b9a8ff;
+  --azul-rgb:142,164,255; --menta-rgb:62,211,171; --rosa-rgb:245,179,196;
+  --s1:0 1px 2px rgba(0,0,0,.3);
+  --s2:0 2px 8px -2px rgba(0,0,0,.4), 0 16px 34px -18px rgba(0,0,0,.7);
+  --s3:0 6px 14px -4px rgba(0,0,0,.45), 0 30px 60px -26px rgba(0,0,0,.8);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; min-height:100vh; color:var(--tinta);
+  font-family:var(--fuente); font-size:17px; line-height:1.68; font-weight:400;
+  letter-spacing:.001em; text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(70ch 46ch at 88% -6%, rgba(var(--azul-rgb),.16), transparent 62%),
+    radial-gradient(60ch 40ch at 6% 4%, rgba(239,155,176,.16), transparent 60%),
+    radial-gradient(70ch 50ch at 50% 112%, rgba(var(--menta-rgb),.14), transparent 62%),
+    linear-gradient(180deg,var(--papel2),var(--papel) 46%,var(--papel) 100%);
+  background-attachment:fixed;
+}
+::selection{background:rgba(var(--azul-rgb),.22); color:var(--tinta)}
+a{color:var(--azul); text-decoration:none; transition:color .18s var(--curva)}
+a:hover{color:var(--tinta)}
+:focus-visible{outline:2px solid rgba(var(--azul-rgb),.75); outline-offset:3px; border-radius:6px}
+
+/* ══ barra superior ═════════════════════════════════════════════════════ */
+.barra{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  justify-content:space-between; padding:11px clamp(14px,3vw,30px);
+  background:var(--vidrio); -webkit-backdrop-filter:saturate(150%) blur(18px);
+  backdrop-filter:saturate(150%) blur(18px);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--curva), box-shadow .3s var(--curva), padding .3s var(--curva);
+}
+.barra.pegada{border-bottom-color:var(--borde); box-shadow:var(--s2); padding-top:8px; padding-bottom:8px}
+.marca{display:inline-flex; align-items:center; gap:11px; color:var(--tinta); font-weight:600;
+  letter-spacing:.11em; font-size:13.5px; text-transform:uppercase}
+.marca:hover{color:var(--tinta)}
+.marca .logo{width:30px; height:30px; filter:drop-shadow(0 4px 10px rgba(var(--azul-rgb),.35));
+  transition:transform .5s var(--rebote)}
+.marca:hover .logo{transform:rotate(-8deg) scale(1.06)}
+.marca small{display:block; font-weight:500; letter-spacing:.16em; font-size:9.5px;
+  color:var(--apagado); text-transform:uppercase; margin-top:1px}
+.barra .der{display:flex; align-items:center; gap:9px}
+.sello{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; color:var(--apagado);
+  padding:6px 11px; border-radius:99px; border:1px solid var(--borde); background:var(--vidrio2)}
+
+/* botón táctil genérico */
+.boton{
+  display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  font:inherit; font-size:13.5px; font-weight:600; letter-spacing:.01em;
+  padding:9px 15px; border-radius:99px; color:var(--tinta);
+  border:1px solid var(--borde2); background:var(--papel3);
+  box-shadow:var(--s1);
+  transition:transform .16s var(--curva), box-shadow .22s var(--curva),
+             border-color .22s var(--curva), background .22s var(--curva);
+}
+.boton:hover{transform:translateY(-1.5px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.45)}
+.boton:active{transform:translateY(0) scale(.985); box-shadow:var(--s1)}
+.boton .ic{width:16px; height:16px}
+.boton.icono{padding:9px; border-radius:50%}
+
+/* ══ estructura ════════════════════════════════════════════════════════ */
+main{max-width:1060px; margin:0 auto; padding:clamp(22px,4vw,52px) clamp(15px,3vw,30px) 96px}
+h1,h2,h3{font-weight:600; letter-spacing:-.022em; line-height:1.16; margin:0 0 .5em}
+h1{font-size:clamp(30px,5.2vw,50px); letter-spacing:-.03em}
+h2{font-size:clamp(21px,2.7vw,29px); margin-top:1.5em}
+h3{font-size:17.5px; letter-spacing:-.012em; margin-top:1.6em; color:var(--tinta)}
+p,li{color:var(--tinta2)}
+p{margin:0 0 1.05em; max-width:68ch}
+strong,b{color:var(--tinta); font-weight:600}
+code{font-family:var(--mono); font-size:.86em; padding:.12em .42em; border-radius:6px;
+  background:rgba(var(--azul-rgb),.11); color:var(--tinta); border:1px solid rgba(var(--azul-rgb),.14)}
+pre{background:var(--papel3); border:1px solid var(--borde); border-radius:var(--r2);
+  padding:16px 18px; overflow-x:auto; font-size:12.8px; line-height:1.6; box-shadow:var(--s1)}
+pre code{background:none; border:0; padding:0; font-size:1em}
+
+/* ══ héroe ═════════════════════════════════════════════════════════════ */
+.hero{position:relative; padding:clamp(8px,2vw,26px) 0 10px}
+.eyebrow{display:inline-flex; align-items:center; gap:9px; font-size:11px; font-weight:600;
+  letter-spacing:.15em; text-transform:uppercase; color:var(--menta); margin:0 0 16px}
+.eyebrow::before{content:""; width:26px; height:2px; border-radius:2px;
+  background:linear-gradient(90deg,var(--menta),var(--azul))}
+.hero h1{max-width:22ch; background:linear-gradient(96deg,var(--tinta) 30%,var(--azul) 78%,var(--lila));
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:var(--tinta)}
+.hero p{font-size:clamp(16.5px,1.5vw,18.5px); color:var(--tinta2); max-width:64ch}
+
+/* ══ cifras ════════════════════════════════════════════════════════════ */
+.kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:12px; margin:26px 0 8px}
+.kpi{position:relative; overflow:hidden; background:var(--vidrio); border:1px solid var(--borde);
+  border-radius:var(--r3); padding:15px 17px 14px; box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .26s var(--curva), border-color .26s var(--curva)}
+.kpi::after{content:""; position:absolute; inset:0 0 auto; height:3px; opacity:.9;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva)}
+.kpi:hover{transform:translateY(-2px); box-shadow:var(--s2); border-color:rgba(var(--azul-rgb),.3)}
+.kpi:hover::after{transform:scaleX(1)}
+.kpi b{display:block; font-family:var(--mono); font-size:clamp(21px,2.6vw,26px); font-weight:600;
+  letter-spacing:-.03em; color:var(--tinta); line-height:1.12}
+.kpi span{display:block; margin-top:5px; font-size:11.6px; letter-spacing:.04em; color:var(--apagado)}
+
+/* ══ controles ═════════════════════════════════════════════════════════ */
+.controles{position:sticky; top:56px; z-index:30; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; margin:26px 0 18px; padding:10px; border-radius:var(--r4);
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px)}
+.buscador{position:relative; flex:1 1 260px; display:flex; align-items:center}
+.buscador .ic{position:absolute; left:13px; width:17px; height:17px; color:var(--apagado);
+  pointer-events:none; transition:color .2s var(--curva), transform .2s var(--curva)}
+input[type=search]{
+  width:100%; font:inherit; font-size:15px; color:var(--tinta); padding:11px 15px 11px 39px;
+  border-radius:99px; border:1px solid var(--borde2); background:var(--papel3);
+  transition:border-color .2s var(--curva), box-shadow .24s var(--curva), background .2s var(--curva);
+  appearance:none; -webkit-appearance:none}
+input[type=search]::placeholder{color:var(--apagado)}
+input[type=search]:focus{outline:none; border-color:rgba(var(--azul-rgb),.6);
+  box-shadow:0 0 0 4px rgba(var(--azul-rgb),.15)}
+.buscador:focus-within .ic{color:var(--azul); transform:scale(1.08)}
+.chips{display:flex; gap:7px; flex-wrap:wrap}
+.chip{
+  cursor:pointer; font:inherit; font-size:13px; font-weight:600; letter-spacing:.01em;
+  padding:8px 14px; border-radius:99px; color:var(--tinta2);
+  border:1px solid var(--borde2); background:var(--vidrio2);
+  transition:transform .16s var(--curva), background .22s var(--curva), color .22s var(--curva),
+             box-shadow .22s var(--curva), border-color .22s var(--curva)}
+.chip:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.4); color:var(--tinta)}
+.chip[aria-pressed="true"]{color:#fff; border-color:transparent;
+  background:linear-gradient(135deg,var(--azul),var(--menta)); box-shadow:var(--s2)}
+html[data-tema="noche"] .chip[aria-pressed="true"]{color:#0b1020}
+.cuenta{font-family:var(--mono); font-size:12px; color:var(--apagado); min-width:78px;
+  text-align:right; margin-left:auto; padding-right:6px}
+
+/* ══ tarjetas de resultado ═════════════════════════════════════════════ */
+.rejilla{display:grid; gap:13px; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  margin:0 0 10px; padding:0; list-style:none}
+.tarjeta{
+  position:relative; display:flex; flex-direction:column; gap:9px; height:100%;
+  padding:17px 18px 16px; border-radius:var(--r3); color:inherit;
+  background:var(--vidrio); border:1px solid var(--borde); box-shadow:var(--s1);
+  transition:transform .26s var(--curva), box-shadow .3s var(--curva), border-color .26s var(--curva);
+  will-change:transform}
+.tarjeta::before{content:""; position:absolute; inset:0; border-radius:inherit; opacity:0;
+  background:linear-gradient(135deg,rgba(var(--azul-rgb),.10),rgba(var(--menta-rgb),.08) 55%,transparent);
+  transition:opacity .3s var(--curva); pointer-events:none}
+.tarjeta:hover{transform:translateY(-3px); box-shadow:var(--s3); border-color:rgba(var(--azul-rgb),.34);
+  color:inherit}
+.tarjeta:hover::before{opacity:1}
+.tarjeta .num{font-family:var(--mono); font-size:11.5px; font-weight:600; letter-spacing:.14em;
+  color:var(--azul); text-transform:uppercase}
+.tarjeta h3{margin:0; font-size:16.5px; line-height:1.34; letter-spacing:-.014em; color:var(--tinta)}
+.tarjeta .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto}
+.tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:2px}
+.tag{font-size:10.8px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  padding:3.5px 9px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2)}
+.tag.fb{color:#2f6df6; border-color:rgba(90,124,255,.32); background:rgba(90,124,255,.10)}
+.tag.wa{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.ok{color:#0f9d76; border-color:rgba(18,181,140,.32); background:rgba(18,181,140,.10)}
+.tag.fuera{color:#b4652a; border-color:rgba(238,166,63,.4); background:rgba(238,166,63,.12)}
+
+/* medidor de longitud dentro de la tarjeta */
+.medidor{margin-top:10px}
+.medidor .cifra{display:flex; justify-content:space-between; font-family:var(--mono);
+  font-size:11px; color:var(--apagado); letter-spacing:.03em; margin-bottom:5px}
+.pista{height:6px; border-radius:99px; background:rgba(27,34,48,.08); overflow:hidden}
+html[data-tema="noche"] .pista{background:rgba(255,255,255,.10)}
+.pista i{display:block; height:100%; width:0; border-radius:99px;
+  background:linear-gradient(90deg,var(--menta),var(--azul));
+  transition:width .9s var(--curva)}
+
+/* ══ fichas y tablas ═══════════════════════════════════════════════════ */
+.ficha{background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r3);
+  padding:16px 19px; margin:14px 0; box-shadow:var(--s1)}
+.ficha dl{display:grid; grid-template-columns:auto 1fr; gap:6px 18px; margin:10px 0 0; font-size:14.6px}
+.ficha dt{color:var(--apagado); font-size:11.4px; text-transform:uppercase; letter-spacing:.11em;
+  padding-top:3px}
+.ficha dd{margin:0; color:var(--tinta)}
+.pill{display:inline-flex; align-items:center; gap:6px; font-size:11.6px; font-weight:600;
+  padding:5px 11px; border-radius:99px; border:1px solid var(--borde2); color:var(--apagado);
+  background:var(--vidrio2); margin:3px 5px 3px 0;
+  transition:transform .16s var(--curva), border-color .2s var(--curva), color .2s var(--curva)}
+a.pill:hover{transform:translateY(-1px); border-color:rgba(var(--azul-rgb),.45); color:var(--tinta)}
+.pill.vivo{color:#0f9d76; border-color:rgba(18,181,140,.38); background:rgba(18,181,140,.10)}
+.pill.rancio{color:#b4652a; border-color:rgba(238,166,63,.42); background:rgba(238,166,63,.12)}
+table{width:100%; border-collapse:separate; border-spacing:0; font-size:14.2px; margin:16px 0;
+  background:var(--vidrio); border:1px solid var(--borde); border-radius:var(--r2); overflow:hidden;
+  box-shadow:var(--s1)}
+th{text-align:left; font-size:10.8px; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--azul); background:rgba(var(--azul-rgb),.06); padding:11px 14px;
+  border-bottom:1px solid var(--borde)}
+td{padding:11px 14px; border-bottom:1px solid var(--borde); color:var(--tinta2); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr{transition:background .18s var(--curva)}
+tbody tr:hover{background:rgba(var(--azul-rgb),.05)}
+
+/* ══ piezas largas ═════════════════════════════════════════════════════ */
+.pieza{font-size:17.2px}
+.pieza h1{max-width:24ch; margin-bottom:.35em}
+.pieza .meta{font-size:12.6px; color:var(--apagado); letter-spacing:.04em; margin-bottom:26px}
+.pieza h2{font-size:clamp(19px,2.3vw,24px); padding-top:20px; border-top:1px solid var(--borde);
+  margin-top:2.1em}
+.pieza p{max-width:70ch}
+.pieza blockquote{margin:18px 0; padding:2px 0 2px 18px; border-left:3px solid rgba(var(--azul-rgb),.4);
+  color:var(--tinta2); font-style:italic}
+.volver{display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:600;
+  color:var(--apagado); margin-bottom:18px; padding:7px 13px; border-radius:99px;
+  border:1px solid var(--borde); background:var(--vidrio2);
+  transition:transform .18s var(--curva), color .18s var(--curva), border-color .18s var(--curva)}
+.volver:hover{transform:translateX(-2px); color:var(--tinta); border-color:rgba(var(--azul-rgb),.4)}
+
+/* ══ pie y utilidades ══════════════════════════════════════════════════ */
+footer{max-width:1060px; margin:0 auto; padding:24px clamp(15px,3vw,30px) 56px;
+  border-top:1px solid var(--borde); font-size:12.8px; color:var(--apagado); line-height:1.75}
+footer b{color:var(--tinta2); font-weight:600}
+.vacio{padding:30px 18px; text-align:center; color:var(--apagado); font-size:14.5px}
+.oculto{display:none !important}
+
+/* barra de progreso de carga (se retira sola) */
+#carga{position:fixed; inset:0 0 auto; height:2.5px; z-index:99; pointer-events:none;
+  background:linear-gradient(90deg,var(--azul),var(--menta),var(--rosa));
+  transform:scaleX(0); transform-origin:left; transition:transform .5s var(--curva), opacity .4s}
+#carga.fin{opacity:0}
+
+/* ══ nada desborda por un identificador largo ═══════════════════════════ */
+.rejilla > li{min-width:0}
+.tarjeta{min-width:0; overflow:hidden}
+.tarjeta .num, .tarjeta h3, .tarjeta .cifra span, .tarjeta a{overflow-wrap:anywhere; word-break:break-word}
+.tarjeta .tags{min-width:0; flex-wrap:wrap}
+
+/* ══ entrada y micro-animaciones ═══════════════════════════════════════ */
+@keyframes subir{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none}}
+@keyframes brotar{from{opacity:0; transform:scale(.985)} to{opacity:1; transform:none}}
+.aparece{animation:subir .62s var(--curva) both}
+.aparece-b{animation:brotar .5s var(--curva) both}
+.retardo-1{animation-delay:.06s}.retardo-2{animation-delay:.12s}.retardo-3{animation-delay:.18s}
+.retardo-4{animation-delay:.24s}.retardo-5{animation-delay:.3s}
+.revela{transition:opacity .6s var(--curva), transform .6s var(--curva)}
+html.js .revela{opacity:0; transform:translateY(16px)}
+html.js .revela.dentro{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important; scroll-behavior:auto !important}
+  .revela{opacity:1 !important; transform:none !important}
+}
+@media (max-width:640px){
+  .barra{padding-left:14px; padding-right:14px}
+  .barra .der{gap:6px; min-width:0}
+  .barra .der .sello{display:none}
+  .barra .der a[href$="feed.xml"]{display:none}
+  .chip{font-size:12.5px; padding:6px 9px}
+  .controles{top:52px; padding:9px}
+  .cuenta{display:none}
+  .rejilla{grid-template-columns:1fr}
+  .hero h1{max-width:none}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:400px){
+  .barra{padding-left:12px; padding-right:12px; gap:8px}
+  .barra .der a[href$="redes/index.html"]{display:none}
+  .barra .der{gap:5px}
+  .marca{min-width:0; flex:0 1 auto}
+  .marca span{display:none}
+  .chip{padding:6px 8px; font-size:12px}
+}
+@media print{
+  .barra,.controles,footer #carga{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<div id="carga" aria-hidden="true"></div>
+<header class="barra"><a class="marca" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6c8cff"/><stop offset=".55" stop-color="#19b894"/><stop offset="1" stop-color="#f2a3b3"/></linearGradient></defs><path d="M6 24c4-9 10-13 15-13s10 4 13 10c-5-3-9-4-13-4s-9 2-15 7Z" fill="url(#lg)"/><circle cx="20" cy="29" r="3.2" fill="url(#lg)"/></svg><span>LA BANDITA<small>archivo verificado</small></span></a><nav class="der" aria-label="secciones"><a class="chip" href="../index.html">Archivo</a><a class="chip" href="../redes/index.html">Redes</a><a class="chip" href="../registro/index.html">Registro</a><a class="chip" href="../feed.xml">RSS</a><span class="sello">2026-11-02</span><button class="boton icono" id="tema" type="button" aria-label="Cambiar de tema"></button></nav></header>
+<main><a class="volver" href="../index.html">← volver al archivo</a>
+<div class="pieza"><h1>Las puertas del anime y los servidores — censo de la mina III</h1>
+<p class="meta">Facebook · 29 de octubre de 2026 · 20,886 caracteres</p>
+<h2>Publicación 56 — Las puertas del anime y los servidores — censo de la mina III</h2>
+<p>_jueves 29 de octubre de 2026 · La Bandita_</p>
+<p>Medición del jueves 29 de octubre de 2026: esta pieza reúne 62 repos, 59 vivos. El mayor es <strong>immich-app/immich</strong> (★117.612): «High performance self-hosted photo and video management solution.». Le sigue <strong>yuliskov/SmartTube</strong> (★35.709): «Browse media content with your own rules on Android TV». Con actividad en los últimos 30 días: 45 de 59. Temas que se repiten en el grupo: abs, amp, andorid, android.</p>
+<h2>Los repos de esta pieza, medidos hoy</h2>
+<ul>
+<li><strong>immich-app/immich</strong> — «High performance self-hosted photo and video management solution.»</li>
+</ul>
+<p>  ★117.612 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · TypeScript · última release v3.3.5 (2026-10-21) · <a href="https://github.com/immich-app/immich">https://github.com/immich-app/immich</a> · Web: <a href="https://immich.app">https://immich.app</a></p>
+<p>  Temas: backup-tool · flutter · google-photos · google-photos-alternative · javascript · mobile-app</p>
+<ul>
+<li><strong>yuliskov/SmartTube</strong> — «Browse media content with your own rules on Android TV»</li>
+</ul>
+<p>  ★35.709 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia MIT · Java · última release 32.68s (2026-10-20) · <a href="https://github.com/yuliskov/SmartTube">https://github.com/yuliskov/SmartTube</a> · Web: <a href="https://smarttubeapp.github.io">https://smarttubeapp.github.io</a></p>
+<p>  Temas: android · android-tv · android-tv-box · java · kotlin · retrofit2</p>
+<ul>
+<li><strong>xbmc/xbmc</strong> — «Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning…»</li>
+</ul>
+<p>  ★21.399 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL (según texto de su repo, 29-oct-2026) · C++ · última release 21.3-Omega (2025-10-31) · <a href="https://github.com/xbmc/xbmc">https://github.com/xbmc/xbmc</a> · Web: <a href="https://kodi.tv/">https://kodi.tv/</a></p>
+<p>  Temas: android · c-plus-plus · entertainment-hub · hacktoberfest · home-theater · ios</p>
+<ul>
+<li><strong>lollipopkit/flutter_server_box</strong> — «ServerBox - server status &amp; toolbox»</li>
+</ul>
+<p>  ★8.897 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · Dart · última release v1.0.1844 (2026-10-29) · <a href="https://github.com/lollipopkit/flutter_server_box">https://github.com/lollipopkit/flutter_server_box</a> · Web: <a href="https://serverbox.lollipopkit.com">https://serverbox.lollipopkit.com</a></p>
+<p>  Temas: android · dart · flutter · ios · server · ssh</p>
+<ul>
+<li><strong>standardnotes/app</strong> — «Think fearlessly with end-to-end encrypted notes and files. For issues, visit <a href="https://standardnotes.com/forum">https://standardnotes.com/forum</a> or <a href="https://standardnotes.com/help.»">https://standardnotes.com/help.»</a></li>
+</ul>
+<p>  ★6.688 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 · TypeScript · última release @standardnotes/desktop@3.202.11 (2026-10-23) · <a href="https://github.com/standardnotes/app">https://github.com/standardnotes/app</a> · Web: <a href="https://standardnotes.com">https://standardnotes.com</a></p>
+<p>  Temas: encrypted · evernote · markdown · note-taking · notes · privacy</p>
+<ul>
+<li><strong>nextcloud/android</strong> — «📱 Nextcloud Android app»</li>
+</ul>
+<p>  ★5.656 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · Kotlin · última release stable-35.0.2 (2026-10-28) · <a href="https://github.com/nextcloud/android">https://github.com/nextcloud/android</a> · Web: <a href="https://github.com/nextcloud/android?tab=readme-ov-file#nextcloud-android-app-iphone">https://github.com/nextcloud/android?tab=readme-ov-file#nextcloud-android-app-iphone</a></p>
+<p>  Temas: android · hacktoberfest · java · kotlin · mobile · mobile-app</p>
+<ul>
+<li><strong>muzei/muzei</strong> — «Muzei Live Wallpaper for Android»</li>
+</ul>
+<p>  ★4.954 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia Apache-2.0 · Kotlin · última release api3.4.2 (2024-06-16) · <a href="https://github.com/muzei/muzei">https://github.com/muzei/muzei</a> · Web: <a href="http://muzei.co">http://muzei.co</a></p>
+<ul>
+<li><strong>anilbeesetti/nextplayer</strong> — «An Android native video player»</li>
+</ul>
+<p>  ★4.635 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v0.19.0 (2026-10-09) · <a href="https://github.com/anilbeesetti/nextplayer">https://github.com/anilbeesetti/nextplayer</a></p>
+<p>  Temas: android · exoplayer · ffmpeg · ffmpeg-android · jetpack-compose · jni-android</p>
+<ul>
+<li><strong>5rahim/seanime</strong> — «Open-source media server with a web interface and desktop app for anime and manga.»</li>
+</ul>
+<p>  ★4.285 · su último empuje fue el 2026-10-14 (hace 17 días) · licencia GPL-3.0 · Go · última release v3.10.4 (2026-10-14) · <a href="https://github.com/5rahim/seanime">https://github.com/5rahim/seanime</a> · Web: <a href="https://seanime.app">https://seanime.app</a></p>
+<p>  Temas: anilist · anime · anime-library · bittorrent · debrid · go</p>
+<ul>
+<li><strong>jarnedemeulemeester/findroid</strong> — «Third-party native Jellyfin Android app»</li>
+</ul>
+<p>  ★4.280 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v1.2.0 (2026-10-25) · <a href="https://github.com/jarnedemeulemeester/findroid">https://github.com/jarnedemeulemeester/findroid</a></p>
+<p>  Temas: android · jellyfin · kotlin</p>
+<ul>
+<li><strong>owncloud/android</strong> — «:phone: The ownCloud Android App»</li>
+</ul>
+<p>  ★4.175 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · Kotlin · última release v4.8.4 (2026-08-31) · <a href="https://github.com/owncloud/android">https://github.com/owncloud/android</a></p>
+<p>  Temas: android · kotlin · mobile · owncloud · owncloud-android</p>
+<ul>
+<li><strong>videolan/vlc-android</strong> — «VLC for Android, Android TV and ChromeOS»</li>
+</ul>
+<p>  ★4.120 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · Kotlin · <a href="https://github.com/videolan/vlc-android">https://github.com/videolan/vlc-android</a></p>
+<p>  Temas: android · libvlc · multimedia · player · videolan · vlc</p>
+<ul>
+<li><strong>NuvioMedia/NuvioTV</strong> — «Official Nuvio Android TV Repository»</li>
+</ul>
+<p>  ★3.271 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release 1.0.0 (2026-09-19) · <a href="https://github.com/NuvioMedia/NuvioTV">https://github.com/NuvioMedia/NuvioTV</a> · Web: <a href="https://nuvio.tv">https://nuvio.tv</a></p>
+<ul>
+<li><strong>researchxxl/syncthing-android</strong> — «Syncthing-Fork - A Syncthing Wrapper for Android.»</li>
+</ul>
+<p>  ★3.192 · su último empuje fue el 2026-10-22 (hace 9 días) · licencia MPL-2.0 · Java · última release v2.1.7.0 (2026-10-21) · <a href="https://github.com/researchxxl/syncthing-android">https://github.com/researchxxl/syncthing-android</a></p>
+<p>  Temas: file-synchronization</p>
+<ul>
+<li><strong>mahlernim/google-timeline-visualizer</strong> — «Visualize your year in travel using your Google Location History (Timeline) data»</li>
+</ul>
+<p>  ★3.057 · su último empuje fue el 2026-10-22 (hace 9 días) · licencia MIT · Kotlin · última release v3.1.0 (2026-10-05) · <a href="https://github.com/mahlernim/google-timeline-visualizer">https://github.com/mahlernim/google-timeline-visualizer</a></p>
+<ul>
+<li><strong>10miaomiao/bilimiao2</strong> — «bilimiao 2.x»</li>
+</ul>
+<p>  ★2.965 · su último empuje fue el 2026-10-26 (hace 5 días) · licencia GPL-3.0 · Kotlin · última release 2.4.8.1 (2025-11-16) · <a href="https://github.com/10miaomiao/bilimiao2">https://github.com/10miaomiao/bilimiao2</a> · Web: <a href="https://10miaomiao.cn/project/bilimiao">https://10miaomiao.cn/project/bilimiao</a></p>
+<p>  Temas: android · bilibili · compose · kotlin · kotlin-android</p>
+<ul>
+<li><strong>moneytoo/Player</strong> — «▶ Simple and lightweight, yet polished and powerful Android video player based on ExoPlayer»</li>
+</ul>
+<p>  ★2.759 · su último empuje fue el 2026-10-22 (hace 9 días) · licencia Unlicense · Java · última release v0.217 (2026-09-11) · <a href="https://github.com/moneytoo/Player">https://github.com/moneytoo/Player</a> · Web: <a href="https://play.google.com/store/apps/details?id=com.brouken.player">https://play.google.com/store/apps/details?id=com.brouken.player</a></p>
+<p>  Temas: android · android-video-player · androidx-media · exoplayer · exoplayer2 · media</p>
+<ul>
+<li><strong>dkrivoruchko/ScreenStream</strong> — «ScreenStream Android App»</li>
+</ul>
+<p>  ★2.569 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia MIT · Kotlin · última release 4.4.2 (2026-07-15) · <a href="https://github.com/dkrivoruchko/ScreenStream">https://github.com/dkrivoruchko/ScreenStream</a> · Web: <a href="https://screenstream.io">https://screenstream.io</a></p>
+<ul>
+<li><strong>markusfisch/BinaryEye</strong> — «Yet another barcode scanner for Android»</li>
+</ul>
+<p>  ★2.460 · su último empuje fue el 2026-10-27 (hace 4 días) · licencia MIT · Kotlin · última release 1.75.6 (2026-10-27) · <a href="https://github.com/markusfisch/BinaryEye">https://github.com/markusfisch/BinaryEye</a> · Web: <a href="https://play.google.com/store/apps/details?id=de.markusfisch.android.binaryeye">https://play.google.com/store/apps/details?id=de.markusfisch.android.binaryeye</a></p>
+<p>  Temas: android · android-camera · hacktoberfest · kotlin-android · renderscript · zxing</p>
+<ul>
+<li><strong>bk138/droidVNC-NG</strong> — «Android VNC remote desktop server for local networks»</li>
+</ul>
+<p>  ★2.419 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-2.0 · Java · última release v2.22.2 (2026-10-29) · <a href="https://github.com/bk138/droidVNC-NG">https://github.com/bk138/droidVNC-NG</a></p>
+<p>  Temas: android · mediaprojection · remote-desktop · rfb · server · vnc</p>
+<ul>
+<li><strong>newhinton/Round-Sync</strong> — «An android cloud file manager, powered by rclone. Visit <a href="https://roundsync.com">https://roundsync.com</a> for more information!»</li>
+</ul>
+<p>  ★2.413 · su último empuje fue el 2025-11-16 (hace 349 días) · licencia GPL-3.0 · Java · última release v2.5.6 (2024-09-10) · <a href="https://github.com/newhinton/Round-Sync">https://github.com/newhinton/Round-Sync</a> · Web: <a href="https://roundsync.com">https://roundsync.com</a></p>
+<p>  Temas: android · app · backup · cloud · file-upload · rclone</p>
+<ul>
+<li><strong>Myzel394/Alibi</strong> — «Use your phone as a dashcam and save the last 30 minutes when you need them.»</li>
+</ul>
+<p>  ★1.723 · su último empuje fue el 2026-02-11 (hace 262 días) · licencia GPL-3.0 · Kotlin · última release v0.5.3 (2024-09-07) · <a href="https://github.com/Myzel394/Alibi">https://github.com/Myzel394/Alibi</a></p>
+<p>  Temas: android · dashcam · jetpack-compose · material-you · material-you-3 · privacy</p>
+<ul>
+<li><strong>cosmictaserdev-creator/Convx</strong> — «A free, open-source Android music player for YouTube Music with an iOS-style Liquid Glass interface, synced lyrics, Automix and Listen Together.»</li>
+</ul>
+<p>  ★1.064 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release v1.5.2 (2026-08-15) · <a href="https://github.com/cosmictaserdev-creator/Convx">https://github.com/cosmictaserdev-creator/Convx</a> · Web: <a href="https://cosmictaser.de5.net">https://cosmictaser.de5.net</a></p>
+<p>  Temas: android · android-app · automix · exoplayer · ios-design · jetpack-compose</p>
+<ul>
+<li><strong>chenxiaolong/RSAF</strong> — «An Android Storage Access Framework document provider for rclone»</li>
+</ul>
+<p>  ★1.037 · su último empuje fue el 2026-10-24 (hace 7 días) · licencia GPL-3.0 · Kotlin · última release v4.16 (2026-10-24) · <a href="https://github.com/chenxiaolong/RSAF">https://github.com/chenxiaolong/RSAF</a></p>
+<ul>
+<li><strong>chenxiaolong/BasicSync</strong> — «A simple app for running Syncthing on Android»</li>
+</ul>
+<p>  ★730 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia GPL-3.0 · Kotlin · última release v3.27 (2026-10-25) · <a href="https://github.com/chenxiaolong/BasicSync">https://github.com/chenxiaolong/BasicSync</a></p>
+<ul>
+<li><strong>dn0ne/lotus</strong> — «Music player for Android»</li>
+</ul>
+<p>  ★717 · su último empuje fue el 2025-01-25 (hace 644 días) · licencia GPL-3.0 · Kotlin · última release v1.2.0 (2025-01-25) · <a href="https://github.com/dn0ne/lotus">https://github.com/dn0ne/lotus</a></p>
+<ul>
+<li><strong>KNKPA/KNKPAnime</strong> — «KNKPAnime：支持多番剧源与弹幕的看番软件。»</li>
+</ul>
+<p>  ★650 · su último empuje fue el 2025-02-01 (hace 637 días) · licencia GPL-3.0 · Dart · última release 1.1.7 (2025-02-01) · <a href="https://github.com/KNKPA/KNKPAnime">https://github.com/KNKPA/KNKPAnime</a></p>
+<ul>
+<li><strong>haiwen/seadroid</strong> — «Android client for Seafile»</li>
+</ul>
+<p>  ★637 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia AGPL-3.0 (según texto de su repo, 29-oct-2026) · Java · última release v4.0.14 (2026-09-28) · <a href="https://github.com/haiwen/seadroid">https://github.com/haiwen/seadroid</a></p>
+<ul>
+<li><strong>iodn/android-ir-blaster</strong> — «Create custom infrared (IR) remotes using hex codes, raw signals, or import Flipper Zero, LIRC, and IRPLUS files»</li>
+</ul>
+<p>  ★602 · su último empuje fue el 2026-10-15 (hace 16 días) · licencia GPL-3.0 · Dart · última release v3.4.6 (2026-10-15) · <a href="https://github.com/iodn/android-ir-blaster">https://github.com/iodn/android-ir-blaster</a> · Web: <a href="https://play.google.com/store/apps/details?id=org.nslabs.ir_blaster">https://play.google.com/store/apps/details?id=org.nslabs.ir_blaster</a></p>
+<p>  Temas: android · apk · f-droid · fdroid · flipper-zero · flipperzero</p>
+<ul>
+<li><strong>pass-with-high-score/ANeko</strong> — «ANeko Reborn is a modern version of the classic ANeko app. It features a cute cat animation that follows your finger on the Android screen, inspired by apps like nekoDA, xneko,…»</li>
+</ul>
+<p>  ★591 · su último empuje fue el 2026-08-28 (hace 64 días) · licencia LGPL-2.1 · Kotlin · última release v2.4.4 (2026-08-28) · <a href="https://github.com/pass-with-high-score/ANeko">https://github.com/pass-with-high-score/ANeko</a> · Web: <a href="https://aneko.pwhs.app">https://aneko.pwhs.app</a></p>
+<p>  Temas: android · aneko · cat · java · jetpack-compose · kotlin</p>
+<ul>
+<li><strong>recloudstream/cs-repos</strong> — «Cloudstream plugin repositories»</li>
+</ul>
+<p>  ★543 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia sin archivo LICENSE en su repo (verificado) · Python · <a href="https://github.com/recloudstream/cs-repos">https://github.com/recloudstream/cs-repos</a> · Web: <a href="https://rentry.org/cs3-repos">https://rentry.org/cs3-repos</a></p>
+<ul>
+<li><strong>phisher98/cloudstream-extensions-phisher</strong> — «Cloudstream Extensions by Phisher»</li>
+</ul>
+<p>  ★526 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia sin archivo LICENSE en su repo (verificado) · <a href="https://github.com/phisher98/cloudstream-extensions-phisher">https://github.com/phisher98/cloudstream-extensions-phisher</a></p>
+<ul>
+<li><strong>cvzi/ScreenshotTile</strong> — «📲 Screenshot Tile for Android without Root»</li>
+</ul>
+<p>  ★398 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release v2.21.4 (2026-09-26) · <a href="https://github.com/cvzi/ScreenshotTile">https://github.com/cvzi/ScreenshotTile</a> · Web: <a href="https://f-droid.org/packages/com.github.cvzi.screenshottile/">https://f-droid.org/packages/com.github.cvzi.screenshottile/</a></p>
+<p>  Temas: android · android-app · android-application · quicksetting-tiles · quicksettings · screenshot</p>
+<ul>
+<li><strong>RenzoBeux/Dashboarr</strong> — «A mobile app to manage your self-hosted media stack from a single interface. Built with Expo &amp; React Native»</li>
+</ul>
+<p>  ★377 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · TypeScript · última release v1.22.0 (2026-10-29) · <a href="https://github.com/RenzoBeux/Dashboarr">https://github.com/RenzoBeux/Dashboarr</a> · Web: <a href="https://renzobeux.github.io/Dashboarr/">https://renzobeux.github.io/Dashboarr/</a></p>
+<p>  Temas: qbittorent · radarr · sonarr</p>
+<ul>
+<li><strong>WirelessAlien/MovieDB</strong> — «ShowCase is a fully open-source android application for exploring and organizing your personal collection of films and television series.»</li>
+</ul>
+<p>  ★366 · su último empuje fue el 2026-10-20 (hace 11 días) · licencia GPL-3.0 · Kotlin · última release v4.8.1 (2026-09-01) · <a href="https://github.com/WirelessAlien/MovieDB">https://github.com/WirelessAlien/MovieDB</a> · Web: <a href="https://wirelessalien.pages.dev/project/showcase">https://wirelessalien.pages.dev/project/showcase</a></p>
+<p>  Temas: android-app · android-application · episode-finder · episode-guide · episode-tracker · java</p>
+<ul>
+<li><strong>bikram-agarwal/FilePipe</strong> — «Turn messy Android storage into a rule-driven library: choose sources, filters, destinations, and schedules, then let the app manage it for you.»</li>
+</ul>
+<p>  ★314 · su último empuje fue el 2026-10-02 (hace 29 días) · licencia GPL-3.0 · Kotlin · última release v3.11.3 (2026-09-26) · <a href="https://github.com/bikram-agarwal/FilePipe">https://github.com/bikram-agarwal/FilePipe</a> · Web: <a href="https://bikram-agarwal.github.io/">https://bikram-agarwal.github.io/</a></p>
+<p>  Temas: android · app · filesystem · organization</p>
+<ul>
+<li><strong>retransmit/Atrium</strong> — «A mobile app to manage your self-hosted media stack, ARR suite, torrent clients, and trackers from a single interface.»</li>
+</ul>
+<p>  ★285 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Dart · última release v1.9.1 (2026-10-19) · <a href="https://github.com/retransmit/Atrium">https://github.com/retransmit/Atrium</a> · Web: <a href="https://retransmit.github.io/Atrium/">https://retransmit.github.io/Atrium/</a></p>
+<ul>
+<li><strong>tuntorius/mightier_amp</strong> — «An alternative app for controlling NUX Mighty amps.»</li>
+</ul>
+<p>  ★236 · su último empuje fue el 2025-01-21 (hace 648 días) · licencia MIT · Dart · última release v1.0.16 (2024-07-23) · <a href="https://github.com/tuntorius/mightier_amp">https://github.com/tuntorius/mightier_amp</a></p>
+<p>  Temas: amp · audio · effects · guitar · nux</p>
+<ul>
+<li><strong>koofr/vault</strong> — «Koofr Vault is an open-source, client-side encrypted folder for your Koofr cloud storage offering an extra layer of security for your most sensitive files.»</li>
+</ul>
+<p>  ★207 · su último empuje fue el 2026-08-13 (hace 79 días) · licencia MIT · Rust · última release v0.1.26 (2026-08-13) · <a href="https://github.com/koofr/vault">https://github.com/koofr/vault</a></p>
+<ul>
+<li><strong>roozbehzarei/filester</strong> — «Temporary cloud storage for fast, private file sharing»</li>
+</ul>
+<p>  ★197 · su último empuje fue el 2026-10-28 (hace 3 días) · licencia GPL-3.0 · Kotlin · última release v3.4.0 (2026-10-28) · <a href="https://github.com/roozbehzarei/filester">https://github.com/roozbehzarei/filester</a> · Web: <a href="https://filester.roozbehzarei.com">https://filester.roozbehzarei.com</a></p>
+<p>  Temas: android · cloud-storage · file-sharing · kotlin · uploader</p>
+<ul>
+<li><strong>tobexyz/yaacc-code</strong> — «YAACC - UPNP Client and Server»</li>
+</ul>
+<p>  ★188 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 (según texto de su repo, 29-oct-2026) · Java · última release 5.4.0 (2026-10-23) · <a href="https://github.com/tobexyz/yaacc-code">https://github.com/tobexyz/yaacc-code</a></p>
+<p>  Temas: android-app · dlna · dlna-mediarenderer · dlna-player · dlna-server · dlna-upnp</p>
+<ul>
+<li><strong>Infomaniak/android-kDrive</strong> — «kDrive application for Android»</li>
+</ul>
+<p>  ★178 · su último empuje fue el 2026-10-29 (hace 2 días) · licencia GPL-3.0 · Kotlin · última release 5.22.1 (2026-10-05) · <a href="https://github.com/Infomaniak/android-kDrive">https://github.com/Infomaniak/android-kDrive</a> · Web: <a href="https://play.google.com/store/apps/details?id=com.infomaniak.drive">https://play.google.com/store/apps/details?id=com.infomaniak.drive</a></p>
+<ul>
+<li><strong>mkulesh/onpc</strong> — «Enhanced Music Controller»</li>
+</ul>
+<p>  ★168 · su último empuje fue el 2026-09-11 (hace 50 días) · licencia GPL-3.0 · Java · última release v1.37 (2025-08-26) · <a href="https://github.com/mkulesh/onpc">https://github.com/mkulesh/onpc</a></p>
+<p>  Temas: andorid · eiscp · flutter-app · integra · iscp · java</p>
+<ul>
+<li><strong>HQAnime/AnimeOne</strong> — «anime1的非官方APP»</li>
+</ul>
+<p>  ★168 · su último empuje fue el 2026-10-05 (hace 26 días) · licencia MIT · Dart · última release 1.1.8 (2022-07-02) · <a href="https://github.com/HQAnime/AnimeOne">https://github.com/HQAnime/AnimeOne</a></p>
+<p>  Temas: android · anime · anime1 · flutter · ios</p>
+<ul>
+<li><strong>bobrofon/easysshfs</strong> — «SSHFS for Android»</li>
+</ul>
+<p>  ★154 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia MIT · Kotlin · última release 0.5.19 (2026-10-08) · <a href="https://github.com/bobrofon/easysshfs">https://github.com/bobrofon/easysshfs</a></p>
+<ul>
+<li><strong>SaurabhKaperwan/CSX</strong> — su repo no trae descripción oficial</li>
+</ul>
+<p>  ★147 · su último empuje fue el 2026-10-02 (hace 29 días) · licencia sin archivo LICENSE en su repo (verificado) · Kotlin · <a href="https://github.com/SaurabhKaperwan/CSX">https://github.com/SaurabhKaperwan/CSX</a></p>
+<ul>
+<li><strong>kivy-garden/zbarcam</strong> — «Real time Barcode and QR Code scanner»</li>
+</ul>
+<p>  ★141 · su último empuje fue el 2025-02-27 (hace 611 días) · licencia MIT · Python · última release 2020.0524 (2020-05-24) · <a href="https://github.com/kivy-garden/zbarcam">https://github.com/kivy-garden/zbarcam</a></p>
+<ul>
+<li><strong>self-similarity/MegaRepo</strong> — su repo no trae descripción oficial</li>
+</ul>
+<p>  ★140 · su último empuje fue el 2025-10-03 (hace 393 días) · licencia sin archivo LICENSE en su repo (verificado) · Kotlin · <a href="https://github.com/self-similarity/MegaRepo">https://github.com/self-similarity/MegaRepo</a></p>
+<ul>
+<li><strong>zimly/zimly-backup</strong> — «Zimly is an eye-catching, open-source app designed for synchronizing your local media and documents with any S3-compatible storage solution — whether self-hosted using…»</li>
+</ul>
+<p>  ★105 · su último empuje fue el 2026-02-28 (hace 245 días) · licencia GPL-3.0 · Kotlin · última release v3.4.1 (2026-02-06) · <a href="https://github.com/zimly/zimly-backup">https://github.com/zimly/zimly-backup</a> · Web: <a href="https://www.zimly.app">https://www.zimly.app</a></p>
+<p>  Temas: android · backup · f-droid · fdroid · s3</p>
+<ul>
+<li><strong>doGior/doGiorsHadEnough</strong> — «Italian Repository for Cloudstream 3»</li>
+</ul>
+<p>  ★88 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia sin archivo LICENSE en su repo (verificado) · Kotlin · <a href="https://github.com/doGior/doGiorsHadEnough">https://github.com/doGior/doGiorsHadEnough</a></p>
+<ul>
+<li><strong>likhithpraveenk/storii</strong> — «An Audiobookshelf Client»</li>
+</ul>
+<p>  ★85 · su último empuje fue el 2026-10-23 (hace 8 días) · licencia GPL-3.0 · Dart · última release v0.13.0 (2026-10-23) · <a href="https://github.com/likhithpraveenk/storii">https://github.com/likhithpraveenk/storii</a> · Web: <a href="https://discord.gg/WkmffZQZrU">https://discord.gg/WkmffZQZrU</a></p>
+<p>  Temas: abs · audiobooks · audiobookshelf · flutter</p>
+<ul>
+<li><strong>CDrummond/lms-material-app</strong> — «Android WebView wrapper for LMS Material Skin»</li>
+</ul>
+<p>  ★76 · su último empuje fue el 2026-10-07 (hace 24 días) · licencia MIT · Java · última release 0.10.1 (2026-08-31) · <a href="https://github.com/CDrummond/lms-material-app">https://github.com/CDrummond/lms-material-app</a></p>
+<ul>
+<li><strong>ptrLx/OneShot</strong> — «Remember the happy days!»</li>
+</ul>
+<p>  ★52 · su último empuje fue el 2026-10-25 (hace 6 días) · licencia GPL-3.0 · Kotlin · última release v1.1.1 (2023-04-07) · <a href="https://github.com/ptrLx/OneShot">https://github.com/ptrLx/OneShot</a></p>
+<ul>
+<li><strong>rumca-js/OfflineWebSearch</strong> — «Open-Source, privacy-first bookmarking search engine. No cloud. No server.»</li>
+</ul>
+<p>  ★37 · su último empuje fue el 2026-10-14 (hace 17 días) · licencia GPL-3.0 · Kotlin · última release 1.0.38 (2026-10-13) · <a href="https://github.com/rumca-js/OfflineWebSearch">https://github.com/rumca-js/OfflineWebSearch</a> · Web: <a href="https://f-droid.org/en/packages/io.github.rumcajs.offlinewebsearch">https://f-droid.org/en/packages/io.github.rumcajs.offlinewebsearch</a></p>
+<p>  Temas: bookmark-manager · link-collection · link-collector · link-management · link-manager · mobile-app</p>
+<ul>
+<li><strong>blackcandy-org/app</strong> — «Black Candy mobile apps»</li>
+</ul>
+<p>  ★33 · su último empuje fue el 2026-10-13 (hace 18 días) · licencia MIT · Kotlin · última release android/v2.0.2 (2026-05-12) · <a href="https://github.com/blackcandy-org/app">https://github.com/blackcandy-org/app</a></p>
+<ul>
+<li><strong>Reflex755/ReflexRepo</strong> — «#1 Best English Repo For Cloudstream!»</li>
+</ul>
+<p>  ★10 · su último empuje fue el 2026-07-18 (hace 105 días) · licencia sin archivo LICENSE en su repo (verificado) · Kotlin · <a href="https://github.com/Reflex755/ReflexRepo">https://github.com/Reflex755/ReflexRepo</a></p>
+<ul>
+<li><strong>jpdoshi/dragon-store</strong> — caído (404) al medir hoy: queda firmado, no recomendado. <a href="https://github.com/jpdoshi/dragon-store">https://github.com/jpdoshi/dragon-store</a></li>
+</ul>
+<ul>
+<li><strong>ycngmn/CuxPlug</strong> — caído (404) al medir hoy: queda firmado, no recomendado. <a href="https://github.com/ycngmn/CuxPlug">https://github.com/ycngmn/CuxPlug</a></li>
+</ul>
+<ul>
+<li><strong>helios57/muplay</strong> — «Android music and audiobook player for Navidrome and other Subsonic/OpenSubsonic servers. Kotlin, Compose and Media3, with library-scoped shuffle, per-book resume, Sonos and…»</li>
+</ul>
+<p>  ★0 · su último empuje fue el 2026-10-14 (hace 17 días) · licencia MIT · Kotlin · última release v0.3.0 (2026-10-11) · <a href="https://github.com/helios57/muplay">https://github.com/helios57/muplay</a></p>
+<ul>
+<li><strong>hexadigitall/makaw</strong> — «Full-featured hybrid browser and creative studio for Android — ad blocking, stealth mode, video/music player, PDF viewer, code editor, and more.»</li>
+</ul>
+<p>  ★0 · su último empuje fue el 2026-09-07 (hace 54 días) · licencia sin archivo LICENSE en su repo (verificado) · Dart · última release v1.0.47 (2026-08-31) · <a href="https://github.com/hexadigitall/makaw">https://github.com/hexadigitall/makaw</a></p>
+<ul>
+<li><strong>inaccurate-hotelplan289/HomeLabSetup</strong> — caído (404) al medir hoy: queda firmado, no recomendado. <a href="https://github.com/inaccurate-hotelplan289/HomeLabSetup">https://github.com/inaccurate-hotelplan289/HomeLabSetup</a></li>
+</ul>
+<ul>
+<li><strong>thiagooo0/EHHelper</strong> — su repo no trae descripción oficial</li>
+</ul>
+<p>  ★0 · su último empuje fue el 2024-01-13 (hace 1022 días) · licencia Apache-2.0 · Kotlin · última release v1.2.0 (2023-06-27) · <a href="https://github.com/thiagooo0/EHHelper">https://github.com/thiagooo0/EHHelper</a></p>
+<h2>Lectura de la medición</h2>
+<p>La noticia amarga: <strong>jpdoshi/dragon-store</strong> (caído (404)), <strong>ycngmn/CuxPlug</strong> (caído (404)), <strong>inaccurate-hotelplan289/HomeLabSetup</strong> (caído (404)) ya no respondieron. En licencias: GPL-3.0 ×25, MIT ×12, sin archivo LICENSE en su repo (verificado) ×7; ojo, «sin archivo LICENSE» es mirar sí, reutilizar no; del resto, el que más cerca empujó es <strong>xbmc/xbmc</strong> (hace 2 días); <strong>thiagooo0/EHHelper</strong> duerme desde el 2024-01-13; 52 repos tienen release y la más reciente es la de <strong>lollipopkit/flutter_server_box</strong> (v1.0.1844 (2026-10-29)).</p>
+<p>💓 62 repos y 0 enlaces medidos el 29-oct-2026 (API oficial de GitHub y web); 59 vivos, 3 firmados arriba con su estado.</p></div></main>
+<footer><b>La Bandita</b> verifica antes de recomendar: cada dato lleva su fecha y su método. Lo que no se pudo medir se firma como ausencia, no se rellena. Generado el 2026-11-02 · sin recursos externos (cero CDN, cero fuentes remotas, cero rastreadores).</footer>
+
+<script>
+(function(){
+  "use strict";
+  var html = document.documentElement;
+
+  /* tema: se aplica antes del primer pintado desde el <head>; aquí solo el botón */
+  var botonTema = document.getElementById('tema');
+  function pintarBoton(){
+    if(!botonTema) return;
+    var noche = html.getAttribute('data-tema') === 'noche';
+    botonTema.setAttribute('aria-label', noche ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    botonTema.title = botonTema.getAttribute('aria-label');
+    botonTema.innerHTML = noche
+      ? '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></g></svg>'
+      : '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.5a8.5 8.5 0 1 0 5 12.4A7 7 0 0 1 15.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+  }
+  if(botonTema){
+    pintarBoton();
+    botonTema.addEventListener('click', function(){
+      var noche = html.getAttribute('data-tema') === 'noche';
+      html.setAttribute('data-tema', noche ? 'brisa' : 'noche');
+      try{ localStorage.setItem('lb-tema', noche ? 'brisa' : 'noche'); }catch(e){}
+      pintarBoton();
+    });
+  }
+
+  /* barra superior: sombra al despegarse */
+  var barra = document.querySelector('.barra');
+  var ultimo = 0;
+  function alScroll(){
+    if(!barra) return;
+    var y = window.scrollY || 0;
+    if((y > 8) !== (ultimo > 8)) barra.classList.toggle('pegada', y > 8);
+    ultimo = y;
+  }
+  window.addEventListener('scroll', alScroll, {passive:true}); alScroll();
+
+  /* progreso de carga */
+  var carga = document.getElementById('carga');
+  if(carga){
+    requestAnimationFrame(function(){ carga.style.transform = 'scaleX(.7)'; });
+    window.addEventListener('load', function(){
+      carga.style.transform = 'scaleX(1)';
+      setTimeout(function(){ carga.classList.add('fin'); }, 260);
+    });
+  }
+
+  /* aparición al entrar en pantalla + medidores */
+  var revela = [].slice.call(document.querySelectorAll('.revela'));
+  function llenarMedidores(raiz){
+    [].slice.call(raiz.querySelectorAll('.pista i')).forEach(function(el){
+      if(el.dataset.hecho) return;
+      el.dataset.hecho = '1';
+      requestAnimationFrame(function(){ el.style.width = (el.dataset.pct || 0) + '%'; });
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entradas){
+      entradas.forEach(function(e){
+        if(!e.isIntersecting) return;
+        e.target.classList.add('dentro');
+        llenarMedidores(e.target);
+        io.unobserve(e.target);
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    revela.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ revela.forEach(llenarMedidores); }, 900);
+  } else {
+    revela.forEach(function(el){ el.classList.add('dentro'); });
+    revela.forEach(llenarMedidores);
+  }
+
+  /* cifras que cuentan hasta su valor */
+  var kpis = [].slice.call(document.querySelectorAll('.kpi b[data-n]'));
+  function contar(el){
+    var destino = parseFloat(el.dataset.n), inicio = performance.now(), dur = 900;
+    var miles = el.dataset.miles === '1';
+    function paso(t){
+      var p = Math.min(1, (t - inicio) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      var v = Math.round(destino * e);
+      el.textContent = miles ? v.toLocaleString('es-DO') : String(v);
+      if(p < 1) requestAnimationFrame(paso);
+    }
+    requestAnimationFrame(paso);
+  }
+  if(!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    kpis.forEach(function(el){
+      if('IntersectionObserver' in window){
+        var o = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ contar(el); o.disconnect(); } }, {threshold:.4});
+        o.observe(el);
+      } else { contar(el); }
+    });
+  }
+
+  /* atajo: / enfoca el buscador */
+  document.addEventListener('keydown', function(e){
+    if(e.key === '/' && document.activeElement.tagName !== 'INPUT'){
+      var q = document.getElementById('q');
+      if(q){ e.preventDefault(); q.focus(); }
+    }
+  });
+})();
+</script>
+</body></html>

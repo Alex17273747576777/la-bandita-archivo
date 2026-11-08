@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-24T19:48:27Z",
+   "oid": "3a96c2dd42d2890f6f4710453729c364e3cc7cae"
+  }
+ },
+ "diskUsage": 57788,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Other",
+  "spdxId": "NOASSERTION"
+ },
+ "nameWithOwner": "yuncko/hikari",
+ "pushedAt": "2026-09-24T20:00:08Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

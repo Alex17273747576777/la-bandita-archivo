@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-04-11T01:37:10Z",
+   "oid": "ba15c1a6e1df6e62a7115ee2ea4b328b1e266984"
+  }
+ },
+ "diskUsage": 19052,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "The Unlicense",
+  "spdxId": "Unlicense"
+ },
+ "nameWithOwner": "Alamgir-Office/web-to-app",
+ "pushedAt": "2026-04-11T01:37:10Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

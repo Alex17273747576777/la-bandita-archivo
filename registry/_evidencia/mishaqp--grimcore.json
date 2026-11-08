@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-11T17:25:05Z",
+   "oid": "54aeae8046a4f3bcf0fccc1ca30713722a81d863"
+  }
+ },
+ "diskUsage": 516457,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Other",
+  "spdxId": "NOASSERTION"
+ },
+ "nameWithOwner": "mishaqp/GrimCore",
+ "pushedAt": "2026-09-14T11:42:53Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": true,
+    "publishedAt": "2026-09-13T10:38:34Z",
+    "tagName": "v0.1.0-grim.2"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

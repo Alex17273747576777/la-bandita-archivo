@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-04-07T17:22:04Z",
+   "oid": "ae2d9d20b0fec5c685e55e6116d06d6d96d5c404"
+  }
+ },
+ "diskUsage": 69184,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "BokuNoAkku/tsundoku",
+ "pushedAt": "2026-04-07T17:22:04Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

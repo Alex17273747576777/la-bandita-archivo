@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-03",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-10T22:14:07Z",
+   "oid": "bc4c3045f994b098bc397f0d803003af796e6178"
+  }
+ },
+ "diskUsage": 22476,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "Bortus-AI/Zangetsu",
+ "pushedAt": "2026-09-11T00:13:27Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

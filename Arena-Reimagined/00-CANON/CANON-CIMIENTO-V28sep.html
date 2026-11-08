@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canon-Cimiento · La Bandita</title>
+<style>
+  :root{
+    --tinta:#20262e; --papel:#f7f3ea; --kara:#7a4f1d; --hoja:#2e7d5b;
+    --cielo:#33558a; --caja:#fffdf7; --borde:#ddd4c3; --rojo:#a33a2a; --oro:#b08517;
+    --tinta-suave:#5c5140;
+  }
+  *{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  body{ margin:0; background:var(--papel); color:var(--tinta);
+        font-family:Georgia,'Times New Roman',serif; line-height:1.62; }
+  header{ background:#191410; color:#f3ead8; padding:42px 22px 30px;
+          border-bottom:6px solid var(--oro); }
+  header .cont, main, .foot-inner{ max-width:900px; margin:0 auto; }
+  h1{ margin:0 0 10px; font-size:2em; letter-spacing:.01em; }
+  header p.sub{ margin:0; opacity:.82; font-style:italic; font-size:1.02em; }
+  .meta{ margin-top:16px; }
+  .chip{ display:inline-block; background:var(--cielo); color:#fff; padding:3px 11px;
+         border-radius:3px; font-size:.76em; letter-spacing:.03em; margin:4px 6px 0 0; }
+  .chip.gold{ background:var(--oro); } .chip.leaf{ background:var(--hoja); }
+  .vered{ background:#fdf8ea; border:1.5px solid var(--oro); border-radius:10px;
+          padding:18px 22px; margin:26px 0 8px; }
+  .vered strong{ color:var(--kara); }
+  h2{ margin:48px 0 16px; padding-left:14px; font-size:1.3em;
+      border-left:5px solid var(--oro); }
+  h3{ color:var(--kara); margin:20px 0 6px; font-size:1.04em; }
+  /* Mapa de navegación */
+  nav.mapa{ display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+            gap:8px; margin:16px 0 4px; }
+  nav.mapa a{ display:block; background:var(--caja); border:1px solid var(--borde);
+              border-radius:8px; padding:9px 12px; text-decoration:none;
+              color:var(--tinta); font-size:.9em; }
+  nav.mapa a:hover{ border-color:var(--oro); background:#fdf8ea; }
+  nav.mapa a b{ color:var(--kara); display:block; font-size:.78em; letter-spacing:.06em; }
+  /* Pilares */
+  .pil{ background:var(--caja); border:1px solid var(--borde); border-radius:12px;
+        padding:16px 20px 14px; margin:18px 0; box-shadow:0 1px 2px rgba(50,40,20,.06); }
+  .pil .num{ display:inline-block; background:var(--kara); color:#fff; font-weight:bold;
+        border-radius:8px; padding:3px 12px; font-size:.9em; margin-right:8px; }
+  .pil h3{ display:inline; }
+  .verb{ background:#f5efe0; border-left:3px solid var(--oro); padding:9px 14px;
+         font-style:italic; margin:10px 0; font-size:.95em; border-radius:0 6px 6px 0; }
+  .verb em{ font-style:normal; color:var(--tinta-suave); font-size:.86em; letter-spacing:.03em; }
+  dl{ margin:8px 0 0; }
+  dt{ font-weight:bold; color:var(--hoja); font-size:.76em; letter-spacing:.1em; margin-top:8px; }
+  dd{ margin:2px 0 0; }
+  .med{ background:#f1f7f3; border-left:3px solid var(--hoja); padding:8px 14px;
+        margin:10px 0 4px; font-size:.92em; border-radius:0 6px 6px 0; }
+  /* Operaciones */
+  table{ width:100%; border-collapse:collapse; margin:16px 0; font-size:.92em; }
+  th,td{ border:1px solid var(--borde); padding:8px 11px; vertical-align:top; text-align:left; }
+  th{ background:#efe6d2; color:#3d3427; }
+  tbody tr:nth-child(even){ background:#fbf6ea; }
+  code{ background:#efe7d6; padding:1px 6px; border-radius:4px;
+        font-family:'Courier New',monospace; font-size:.87em; }
+  .puerta{ background:#eef2fa; border:1.5px solid var(--cielo); border-radius:10px; padding:14px 20px; }
+  .puerta h3{ color:var(--cielo); margin-top:4px; }
+  .roja{ background:#fbf0ee; border-left:3px solid var(--rojo); padding:9px 14px; border-radius:0 6px 6px 0; }
+  .erratas{ margin-top:40px; font-size:.86em; color:var(--tinta-suave);
+            border-top:1px dashed var(--borde); padding-top:14px; }
+  .nota{ display:block; margin-top:6px; font-size:.84em; color:var(--hoja); }
+  .actu{ margin:14px 0 6px; padding:9px 14px; background:#eaf4ef;
+         border:1px solid #cfe3d8; border-left:4px solid var(--hoja);
+         border-radius:0 8px 8px 0; font-size:.93em; }
+  h2{ scroll-margin-top:14px; }
+  tbody tr:hover{ background:#f3ead5; }
+  a:focus-visible{ outline:2px solid var(--cielo); outline-offset:2px; border-radius:4px; }
+  footer{ border-top:2px solid var(--borde); margin-top:34px; padding:18px 20px 30px; }
+  footer p{ text-align:center; font-size:.84em; color:var(--tinta-suave); margin:4px 0; }
+  @media (max-width:640px){
+    h1{ font-size:1.4em; }
+    main{ padding:18px 14px 40px; }
+    nav.mapa{ grid-template-columns:1fr 1fr; }
+  }
+  @media print{
+    body{ background:#fff; } .pil{ break-inside:avoid; box-shadow:none; }
+    header{ background:#fff; color:#000; border-bottom:2px solid #000; }
+    nav.mapa{ display:none; }
+    table{ font-size:.82em; }
+    .verb,.med,.roja,.actu{ background:#fff; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="cont">
+    <h1>CANON-CIMIENTO</h1>
+    <p class="sub">El canon de las Lecciones y el Manual, fundidos para la acción · La Bandita · 28 de septiembre de 2026</p>
+    <div class="meta">
+      <span class="chip gold">LA BASE PRIMERO · publicaciones en pausa hasta la palabra del dueño</span>
+      <span class="chip leaf">Append-only · los originales sellados no se tocan</span>
+      <span class="chip">0 créditos · 0 red · abre idéntico con internet apagada</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<div class="vered"><strong>ESTADO (28-sep-2026, con errata C-01 del 29-sep).</strong> Por orden del dueño: <em>«absténganse de publicar; primero la base sólida; cuando el material alcance el nivel de aceptación, se arranca desde la 01 de WhatsApp»</em>. Este documento es esa base: funde las Lecciones de Alexis (verbatim fechado, intacto) y el Manual de Campo V2.1 (565.539 B, estructura censada el 28-sep) en un marco de <strong>12 pilares + 8 operaciones + 1 puerta de aceptación cuantificada</strong>. Cada pilar trae su origen datado, su operación reproducible, su vara y un caso real ya medido por el taller.</div>
+
+<div class="actu"><b>↳ Actualizaciones posteriores (errata C-02, 30-sep-2026):</b> conflictos de banda RESUELTOS por palabra del dueño — <b>FB 40.000–45.000 c · WA piso 63.000 c</b> · régimen de examen activo (pares 01 y 02 ya cerrados en ambas plataformas, acta trenes 28/28-bis) · canon en reconstrucción por <b>cuatro archivos soberanos</b> con doctrina del agua (trenes 30-33).</div>
+
+<nav class="mapa" aria-label="Mapa de este canon">
+  <a href="#pillars"><b>PARTE I</b>Los doce pilares de acción</a>
+  <a href="#ops"><b>PARTE II</b>Las ocho operaciones del oficio</a>
+  <a href="#puerta"><b>PARTE III</b>Puerta de aceptación y reinicio</a>
+  <a href="#erratas"><b>REGISTRO</b>Fe de erratas del cimiento</a>
+</nav>
+
+<h2 id="pillars">PARTE I — LOS DOCE PILARES</h2>
+
+<div class="pil"><h3><span class="num">P01</span> El enlace cierra el caso</h3>
+<div class="verb">«Un nombre sin enlace no se verifica ni se descarta. El enlace es el que cierra el caso — y quien lo trae tiene la última palabra sobre lo que existe.» <em>Lecciones 09-14 III</em></div>
+<dl>
+  <dt>OPERACIÓN</dt><dd>Antes de afirmar existencia o inexistencia: abrir el enlace, constatar el código de respuesta, fichar fecha. Un «no hay nada» del buscador es resultado de la herramienta, no veredicto sobre el mundo (Manual §64).</dd>
+  <dt>VARA</dt><dd>Toda afirmación de existencia en una pieza lleva enlace + fecha de apertura. Cero enlaces abiertos = la afirmación no se publica como hecho.</dd>
+</dl>
+<div class="med">Casos reales medidos: «ShinKu no existe» era falso (el dueño trajo el enlace: v2.6.9 con cadencia semanal). El «casi 1000» de AniZen era real como <strong>981 releases</strong> — el enlace no solo confirmó: corrigió el nombre del dato (Lecciones 09-14 V).</div>
+</div>
+
+<div class="pil"><h3><span class="num">P02</span> La interpretación máxima por defecto</h3>
+<div class="verb">«Repasa cada orden y saca una interpretación más completa y extensa de cada una hasta ahora.» <em>Alexis, Lecciones 09-15 VIII</em></div>
+<dl>
+  <dt>OPERACIÓN</dt><dd>Toda orden con «todas/cada/completo/masivo» se cuenta en números <em>antes</em> de ejecutar; lo parcial se presenta con su lista de pendientes visible; cada repaso interpreta más que el anterior.</dd>
+  <dt>VARA</dt><dd>En toda entrega figura la línea: total esperado / total hecho / pendiente listado. Si falta esa línea, la entrega está incompleta por diseño.</dd>
+</dl>
+</div>
+
+<div class="pil"><h3><span class="num">P03</span> Vuela bajo: la verdad vive abajo</h3>
+<div class="verb">«Vuela bajo, porque abajo está la verdad.» <em>Alexis, 09-15</em> · «Las estrellas adornan; las fechas mandan.»</div>
+<dl>
+  <dt>OPERACIÓN</dt><dd>Prioridad de señal: push fechado &gt; release fechado &gt; actividad de issues &gt; estrellas &gt; titulares. Dos fuentes por ficha; la métrica bella nunca sustituye la frescura.</dd>
+  <dt>VARA</dt><dd>Ninguna recomendación se apoya en una sola métrica decorativa. En la nota de verificación consta qué se abrió y cuándo.</dd>
+</dl>
+<div class="med">Caso real medido: GLTools — una cadena viva citando una casa muerta (push de 2020) y un enlace 404, todo constatado el mismo 22-sep (pieza 10).</div>
+</div>
+
+<div class="pil"><h3><span class="num">P04</span> Cada contexto, su vara (el pez sin árbol)</h3>
+<div class="verb">«No se le puede medir con una vara que no corresponde a sus capacidades.» <em>Lecciones 09-15 IV</em> · «Cada plataforma, su cuerpo.» <em>09-22 II</em></div>
+<dl>
+  <dt>OPERACIÓN</dt><dd>Elegir la vara según el objeto: API para repos activos, web para demos, catálogo (F-Droid/Play) para distribución, grep/len() para texto local. Prohibida la sincronización byte por byte entre plataformas (orden 09-22 II).</dd>
+  <dt>VARA</dt><dd>La ficha declara con qué vara se midió. Banda activa: la fichada en el acta del día (WA 62-64k · FB 26-34k en la tercera ola; la doctrina del 22-sep —63k mín. WA / 40k FB— se revalida con el dueño el 8-dic). <small class="nota">↳ 30-sep: la palabra del dueño fijó <b>FB 40.000–45.000 / WA ≥63.000</b>; las bandas de la tercera ola quedan como medida histórica (C-02).</small></dd>
+</dl>
+<div class="med">Caso real medido: cuatro piezas ambiguas que el buscador no supo medir se resolvieron en una pasada cada una con la vara correcta de su objeto (Lecciones 09-15 IV).</div>
+</div>
+
+<div class="pil"><h3><span class="num">P05</span> Paso que dure, no trote que canse</h3>
+<div class="verb">«Más vale paso que dure y perdure, que trote que canse y desgaste.» <em>Alexis, 09-15 III</em></div>
+<dl>
+  <dt>OPERACIÓN</dt><dd>Preferir el cierre de lo caminado a la apertura de frontera nueva. Un paso verificado que se sostiene solo vale más que diez lotes apurados que se corrigen mañana.</dd>
+  <dt>VARA</dt><dd>Cada tren cierra con acta antes de abrir el siguiente. El re-trabajo consecuente es señal de prisa, no de productividad.</dd>
+</dl>
+</div>
+
+<div class="pil"><h3><span class="num">P06</span> Si hay uno, hay dos: a cada casa, su gemela</h3>
+<div class="verb">«No toda la vida se encuentra en el espacio… es sorprendente lo increíblemente solos que nunca estamos.» <em>Lecciones 09-15 VI</em></div>
+<dl>
+  <dt>OPERACIÓN</dt><dd>El buceo es en paralelo; a cada hallazgo se le busca su gemela (fork de fork, alias, espejo) antes de cerrar la ficha. Confundir gemela con original es la ficha A14 del Manual — familia documentada.</dd>
+  <dt>VARA</dt><dd>Toda ficha de hallazgo declara si se buscó gemela y qué se halló (o «buscada: ninguna»). Sin sorpresas tardías.</dd>
+</dl>
+<div class="med">Caso real medido: Houri = fork de Komikku, confirmado por API con padre explícito; 4 releases en 3 días (Lecciones 09-17).</div>
+</div>
+
+<div class="pil"><h3><span class="num">P07</span> Mejor que lo precedido, jamás perfecto</h3>
+<div class="verb">«El perfeccionismo no es lo mismo que la evolución… siempre esfuérzate por ser mejor que cualquier cosa que te precedió, pero no perfecto.» <em>Alexis 09-15 VII, cotejo: Mayuri/Bleach</em></div>
+<dl>
+  <dt>OPERACIÓN</dt><dd>Cada versión puede mejorar a su precedente; la inmadura publicable se sella con su pendiente visible. Se cierra al 100 % sabiendo que reabrirá.</dd>
+  <dt>VARA</dt><dd>Toda mejora queda fechada y sin tesis de perfección; la pieza mejorada cita a la anterior, jamás la niega en silencio.</dd>
+</dl>
+</div>
+
+<div class="pil"><h3><span class="num">P08</span> Hazlo o no lo hagas; el fracaso se ficha con fecha</h3>
+<div class="verb">«Hazlo o no lo hagas. Pero no lo intentes… El mejor profesor, el fracaso es.» <em>Alexis 09-16 I, cotejo: Yoda</em></div>
+<dl>
+  <dt>OPERACIÓN</dt><dd>Nada se «intenta»: se escribe completa y se verifica en verde, o se declara abierta con pendiente visible. El tropiezo se registra en el acta con causa de raíz, no se barre.</dd>
+  <dt>VARA</dt><dd>La sección de errores del acta diario contiene errores reales o la línea explícita «sin errores hoy». Ya fichados: dict con comillas ambiguas que abortó un script entero (re-corregido); test de requisitos con literal mal copiado (falso rojo); un 429 confundido con muerte (tasa ≠ 404).</dd>
+</dl>
+</div>
+
+<div class="pil"><h3><span class="num">P09</span> Frente a la crítica: la casa corrige su casa</h3>
+<div class="verb">«Donde entra darle la espalda a los elogios y el frente a la crítica.» <em>Lecciones 09-15 II, Reigen</em> · «Lo que se corrige se anota, no se disimula.» <em>09-22 IV</em></div>
+<dl>
+  <dt>OPERACIÓN</dt><dd>Revisar los documentos de casa con la misma vara que el mundo: lectura completa + censo programático + cotejo. Errata al Tratado, §7 al Manual, entrada nueva a las Lecciones — nunca reescritura silenciosa.</dd>
+  <dt>VARA</dt><dd>Lo verificado verde no se «mejora»: queda (75/75 fichas, C1-C8, 38/38 Almendra). Fallos fichados: E-M1 (secciones «1–5» que siempre fueron 1–4) y E-L1 (la cita «§5.4.8» sin definición vigente — se marca, no se inventa).</dd>
+</dl>
+</div>
+
+<div class="pil"><h3><span class="num">P10</span> Por camino no recorrido no se guía</h3>
+<div class="verb">«No se puede guiar a otros por un camino que uno mismo no ha recorrido.» <em>Lecciones 09-13 III</em></div>
+<dl>
+  <dt>OPERACIÓN</dt><dd>Recetar sólo de lo habitado (uso real, Manual Art. 245; Tratado G-002): la pieza que recomienda una app declara si fue instalada y usada — o declara que no lo fue. Sin bluf de uso.</dd>
+  <dt>VARA</dt><dd>Cada recomendación lleva su clase de verificación visible: usada / abierta / censada con hora.</dd>
+</dl>
+</div>
+
+<div class="pil"><h3><span class="num">P11</span> Cuidar la cabeza: el ritmo es parte del método</h3>
+<div class="verb">«Evitar el sobreestímulo y el estrés es parte del oficio.» <em>Alexis, 09-14</em> · «Parar a tiempo es cumplir el protocolo, no fallarlo.»</div>
+<dl>
+  <dt>OPERACIÓN</dt><dd>Carril (verificar, auditar, crear) y freno (una decisión por día; descanso a tiempo — Manual §5.3). El dueño también cuida la máquina que trabaja: «para no saturarte» (09-22 II).</dd>
+  <dt>VARA</dt><dd>Un tren cerrado con acta limpia pesa más que tres abiertos a la madrugada. Sin operador entero no hay catálogo honesto.</dd>
+</dl>
+</div>
+
+<div class="pil"><h3><span class="num">P12</span> Borrar con respaldo y fecha; el foco antes que la amplitud</h3>
+<div class="verb">«Elimina todo lo demás. No reactives lo eliminado sin autorización.» <em>Alexis, 09-22 I</em></div>
+<dl>
+  <dt>OPERACIÓN</dt><dd>Borrar no es traicionar la historia: se borra con respaldo completo + SHA-256 fechado (P06 del Tratado hecha carne), y lo borrado no resucita sin la voz del dueño. Foco del taller: un idioma, dos plataformas, completa/compacta por plataforma.</dd>
+  <dt>VARA</dt><dd>Toda eliminación figura en el acta con día, nombre y ruta del respaldo. El respaldo maestro solo se actualiza en hitos cerrados (siguiente: la publicación 100).</dd>
+</dl>
+</div>
+
+<h2 id="ops">PARTE II — LAS OCHO OPERACIONES</h2>
+<table>
+  <thead><tr><th style="width:38px">#</th><th>Operación</th><th>Gesto mínimo verificable</th><th>Origen</th></tr></thead>
+  <tbody>
+    <tr><td><strong>O1</strong></td><td><strong>Verificación por ítem con fecha</strong></td><td>Un enlace abierto, un código de respuesta, una hora: anotados.</td><td>Manual Arts. 191/192/205 · Lecciones 09-14 III</td></tr>
+    <tr><td><strong>O2</strong></td><td><strong>Búsqueda de la gemela</strong></td><td>Todo hallazgo: buscar fork-de-fork, alias o espejo antes de cerrar ficha.</td><td>Manual Art. 246 · Lecciones 09-15 VI</td></tr>
+    <tr><td><strong>O3</strong></td><td><strong>Anclas con assert</strong></td><td><code>assert t.count(ancla)==1</code> antes de insertar; jamás edición ciega.</td><td>Práctica 22-sep (trenes 16-19) · Galería, OBRA 04</td></tr>
+    <tr><td><strong>O4</strong></td><td><strong>len() canónico y umbrales pre-declarados</strong></td><td>Medir caracteres (no bytes), con la banda escrita antes de medir.</td><td>Tratado Libro D · Galería, OBRA 08</td></tr>
+    <tr><td><strong>O5</strong></td><td><strong>Planillas de erradicación</strong></td><td>Evidencia → causa → reversible → heredero → acta. Las 5, o no hay escoba.</td><td>Plano Maestro §3 (26-sep)</td></tr>
+    <tr><td><strong>O6</strong></td><td><strong>Acta por tren</strong></td><td>Todo hecho relevante queda con fecha; lo no actado no ocurrió.</td><td>Lecciones (Almendra #2) · práctica continua</td></tr>
+    <tr><td><strong>O7</strong></td><td><strong>Espectro de voces</strong></td><td>Cada entrega se lee en voz experta, usuario final y mente literal; sin las tres, queda «coro incompleto».</td><td>Libro E (26-sep) · Lecciones 09-22 III</td></tr>
+    <tr><td><strong>O8</strong></td><td><strong>Barrido de cierre del día</strong></td><td>Verificar el trabajo del día antes de abrir frontera nueva; el paso que dure, primero.</td><td>Lecciones 09-15 III · Manual §5.3</td></tr>
+  </tbody>
+</table>
+
+<h2 id="puerta">PARTE III — PUERTA DE ACEPTACIÓN Y RUTA DE REINICIO</h2>
+
+<div class="puerta"><h3>3.1 · Nivel de aceptación adecuado — cuantificado</h3>
+<ol>
+  <li><strong>Integridad navegable:</strong> el cimiento y sus anexos abren sin red y sin recursos externos (verificado 28/29-sep: cero <code>src</code> o <code>href</code> cargables).</li>
+  <li><strong>Cobertura de pilares:</strong> fuente datada + operación + vara + caso real medido = 12/12 presentes en este documento.</li>
+  <li><strong>Cero cifras huérfanas:</strong> toda medida del cimiento trae fecha y método (Manual: 565.539 B / 2.996 líneas; Sección 1 con Arts. 63-64 y 191-205; Parte XXVI con Arts. 243-247; checklists C1-C8; Libro 2 con 75 fichas).</li>
+  <li><strong>Conflictos abiertos y visibles:</strong> bandas 63k/40k (doctrina 22-sep) vs 62-64k/26-34k (producción sellada) fichadas para revalidación con el dueño el 8-dic-2026. Ningún conflicto se disuelve en silencio (P09). <small class="nota">↳ Resuelto antes de lo previsto: palabra del dueño del 30-sep-2026 — el 8-dic ya no revalida, registra (C-02).</small></li>
+  <li><strong>Aprobación expresa:</strong> la palabra del dueño. Sin ella, la puerta no se abre — aunque todo lo demás esté verde.</li>
+</ol>
+</div>
+
+<h3>3.2 · Ruta actual (para el cuaderno)</h3>
+<p>Piezas 01-10 y 81 selladas en ambas plataformas (tercera ola, 22-sep) y una segunda pasada de FB 15 (27-sep). <strong>A partir del 28-sep: pausa total por orden del dueño.</strong> El reinicio, con la puerta de 3.1 abierta y la orden expresa, arranca desde la <strong>01 de WhatsApp</strong>. Mientras tanto, el único trabajo que corre es: cimiento, erratas, acta. Nada toca la carpeta de publicaciones. <small class="nota">↳ Desde el 27-sep, el trabajo bajo hielo también incluye: segundas pasadas del régimen de examen con acta y el proyecto de los cuatro archivos (C-02).</small></p>
+
+<h3>3.3 · Cómo entran los cambios</h3>
+<p>Append-only: fe de erratas C-01, C-02… al final, fechadas, sin reescrituras. Cualquier voz puede proponer (objeto · regla tocada · defecto · ejemplo · beneficio medible); decide el dueño. Revisión de este cimiento: 8-dic-2026, con cuenta pública.</p>
+
+<div class="erratas" id="erratas">
+  <strong>Fe de erratas del cimiento (append-only, fechada):</strong>
+  <p><strong>C-01 (29-sep-2026) — Pulitura editorial (D-9, excelencia del producto final).</strong> Edición de depuración y diseño sobre la V28-sep, sin variación de contenido: TOC navegable añadido; insignias numeradas en los 12 pilares; corrección de grafías («latejas»→«tardías», «N/aeros»→«a la madrugada», «varias frases asonantes truncadas»); reordenamiento fino de títulos de sección; CSS reconstruido (paleta única, escala tipográfica, estilos de impresión, móvil). Cuantificación: 12/12 pilares intactos · 8/8 operaciones intactas · 5/5 requisitos de la puerta intactos · 0 frases del verbatim de Alexis tocadas · 2 grafías corregidas · 1 tabla re-estructurada · queda fichada en el acta, tren 27.</p>
+  <p><strong>C-02 (30-sep-2026) — Corrección de discrepancias de estado y pulitura de diseño (directiva de perfección del dueño, 28-sep).</strong> Sin alterar el contenido sellado, quedan marcadas en el sitio exacto con notas datadas las 4 discrepancias temporales: banda «activa» de la tercera ola (P04) y conflicto «abierto» (3.1-4) — ambos resueltos por palabra del dueño el 30-sep (FB 40-45k / WA ≥63k, refinada a dos líneas) — y la ruta de trabajo frozen bajo la palabra (3.2, evolución 27-sep). Diseño: notas de actualización en bloque único tras el estado; CSS refinado (impresión sin navegación, anclas con margen, filas al hover, foco visible de teclado); cero cambios de contenido doctrinal o verbatim. Cuantificación: 12/12 pilares · 8/8 operaciones · 5/5 requisitos de puerta · 0 alternaciones del verbatim. Fichado en el acta, tren 34.</p>
+</div>
+
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <p>La Bandita informa a partir de fuentes fechadas. Canon-Cimiento V28-sep · erratas C-01 (29-sep) y C-02 (30-sep) · trenes 26-34 · 0 créditos · 0 red.</p>
+    <p>Materia fundida: Lecciones de Alexis V.22-sep (verbatim intacto) · Manual de Campo V2.1 · Tratado V.0.05 (referencia) · práctica de los trenes 16-26.</p>
+  </div>
+</footer>
+
+</body>
+</html>
