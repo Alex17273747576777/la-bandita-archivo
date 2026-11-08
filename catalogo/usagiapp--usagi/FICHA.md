@@ -44,29 +44,26 @@ Que funcione. Se mide el repositorio; no se ha instalado ni usado.
 
 ### Para qué sirve
 
-Lector de manga para Android que corre desde la versión 5.0 del sistema —lo que ya es raro y dice mucho de
-cuántos teléfonos viejos siguen vivos—. Trae lector propio, descargas para leer sin conexión, soporte de CBZ
-ajenos y un sistema de plugins compatible con Tsuki.
+Usagi es un fork de Kotatsu que viene completamente vacío: sin fuentes integradas. Esta decisión de diseño, que podría parecer una limitación, es en realidad su mayor fortaleza. El usuario tiene control total sobre qué fuentes instalar, lo que resulta en una aplicación más ligera, más privada y totalmente personalizable. Con 19.000 descargas, ha encontrado su nicho entre los usuarios que valoran la autonomía por encima de la conveniencia.
+
+Es compatible con manga-repo, Mochi Plugins y UMA Plugin.
 
 ### Cómo se usa
 
-1. Se instala la APK de la entrega `v1.2`, del 3 de octubre de 2026.
-2. Se añade el repositorio de plugins que corresponda y se instalan las fuentes.
-3. Se organiza la biblioteca por categorías y se descargan los capítulos que se quieran tener a mano.
-4. La copia de seguridad local permite mover la biblioteca entre teléfonos.
+1. Se instala la APK o se compila desde el repositorio.
+2. NO trae fuentes preinstaladas: el usuario debe añadir las que quiera desde repositorios de extensiones.
+3. Se instalan extensiones compatibles (manga-repo, Mochi Plugins, UMA Plugin) y aparecen como fuentes.
+4. Se lee y se organiza la biblioteca personal.
 
 ### Lo que conviene saber antes
 
-289 estrellas, GPL-3.0, Kotlin, creado el 20 de marzo de 2026, con 65 bifurcaciones, 18 incidencias abiertas y
-movimiento de hoy. Su texto menciona túneles dentro de la aplicación para saltar bloqueos de red: útil en redes
-cerradas, y también la clase de función que conviene entender antes de activarla.
-
-El medidor le puso la bandera de abandono declarado por una mención en su propio texto. **El repositorio está
-vivo**; la mención viene de la historia del proyecto, no de su estado de hoy.
+- Viene vacío: no hay nada que leer hasta que tú añadas fuentes.
+- 19.000 descargas indican que hay usuarios que prefieren este enfoque de control total.
+- Más ligero y privado que lectores con fuentes preinstaladas.
+- Última versión v0.0.31 del 9 de junio de 2026.
 
 ### Cuándo no vale la pena
 
-Si tu teléfono es reciente y ya tienes un lector que funciona, cambiar solo por el soporte de Android antiguo
-no tiene sentido. Su motivo de existir es otro: seguir leyendo en aparatos que otros ya no admiten.
+Si no quieres configurar fuentes manualmente y prefieres que la app "funcione de salida", Usagi no es para ti: necesitarás buscar e instalar extensiones tú mismo. En ese caso, Kotatsu Redo o Futon con fuentes integradas son mejores opciones. Y como siempre: no trae contenido, tú pones las fuentes.
 
 <!-- GUIA:FIN -->

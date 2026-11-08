@@ -2,109 +2,158 @@
 # -*- coding: utf-8 -*-
 """ATESTACIÓN · sella el registro con SHA-256 y encadena el lote anterior.
 
-Lo que el sello prueba: los archivos no cambiaron después de firmarse.
-Lo que NO prueba: que la medición sea correcta. Eso lo prueba la vara y la fecha declarada.
-Cadena: cada lote guarda el sha256 del lote anterior; romper el historial se nota.
+Recorre el árbol, calcula la huella SHA-256 de cada archivo que `sello_reglas` dice que debe
+sellarse, y escribe un manifiesto encadenado con el lote anterior: cada sello lleva dentro la
+huella del sello de ayer.
 
 Uso:
-  python3 tools/atestar.py            # crea sello si falta y escribe el lote
-  python3 tools/atestar.py --verificar # solo verifica el sello existente
+  python3 tools/atestar.py                    # sella el árbol completo
+  python3 tools/atestar.py --verificar        # verifica que el sello actual coincida con el árbol
+
+Qué hace:
+  * Calcula SHA-256 de cada archivo que debe sellarse (según tools/sello_reglas.py).
+  * Escribe attestations/lote-YYYY-MM-DD.json con la huella y la del lote anterior.
+  * Escribe attestations/lote-YYYY-MM-DD.tsv con la tabla de huellas por archivo.
+  * Con --verificar, compara el manifiesto actual contra el árbol tal como está.
+
+Qué NO hace:
+  * No decide qué archivos importan: usa sello_reglas.py para saberlo.
+  * Si falta un archivo, lo dice en vez de callarlo.
+  * No firma con llave propia: la firma Sigstore se hace en la integración continua.
 """
 from __future__ import annotations
-import argparse, hashlib, json, sys
-from datetime import date, datetime, timezone
-import sys as _sys
-_sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
-from fecha_casa import hoy as fecha_casa_hoy  # noqa: E402
-from sello_reglas import archivos as archivos_sellables  # noqa: E402
+
+import hashlib
+import json
+import os
+import sys
+from datetime import date
 from pathlib import Path
 
-RAIZ = Path(__file__).resolve().parents[1]
-REGISTRO = RAIZ / "registry"
-SELLO = REGISTRO / "_manifiesto-sha256.tsv"
-LOTES = RAIZ / "attestations"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from sello_reglas import archivos as archivos_para_sellar  # noqa: E402
+
+RAIZ: Path = Path(__file__).resolve().parents[1]
+ATTESTATIONS: Path = RAIZ / "attestations"
 
 
-def archivos() -> list[Path]:
-    """Qué se sella se decide en `sello_reglas.py`, para que la vara compruebe lo mismo."""
-    return archivos_sellables(RAIZ, SELLO)
+def _fecha_hoy() -> date:
+    """Fecha de hoy, permitiendo sobrescritura vía variable de entorno LOTE_FECHA (YYYY-MM-DD)."""
+    fecha_env = os.environ.get("LOTE_FECHA")
+    if fecha_env:
+        try:
+            return date.fromisoformat(fecha_env)
+        except ValueError:
+            pass
+    return date.today()
 
 
-def sellar() -> str:
-    lineas = []
-    for p in archivos():
-        lineas.append(f"{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.relative_to(RAIZ)}")
-    SELLO.write_text("\n".join(lineas) + "\n", encoding="utf-8")
-    return hashlib.sha256(SELLO.read_bytes()).hexdigest()
+def _huella_archivo(p: Path) -> str:
+    h = hashlib.sha256()
+    with p.open("rb") as f:
+        for bloque in iter(lambda: f.read(65536), b""):
+            h.update(bloque)
+    return h.hexdigest()
 
 
-def verificar() -> tuple[int, int]:
-    ok = mal = 0
-    for linea in SELLO.read_text(encoding="utf-8").splitlines():
-        if not linea.strip():
-            continue
-        sha, _, ruta = linea.partition("  ")
-        p = RAIZ / ruta
-        if p.exists() and hashlib.sha256(p.read_bytes()).hexdigest() == sha:
-            ok += 1
-        else:
-            mal += 1
-    return ok, mal
+def _cargar_lote_anterior() -> dict | None:
+    """Busca el lote de atestación más reciente previo a hoy."""
+    hoy = _fecha_hoy().isoformat()
+    lotes: list[Path] = sorted(ATTESTATIONS.glob("lote-*.json"))
+    previos = [l for l in lotes if l.stem != f"lote-{hoy}"]
+    if not previos:
+        return None
+    try:
+        return json.loads(previos[-1].read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return None
 
 
-def altas_y_bajas() -> tuple[list[str], list[str]]:
-    """El sello viejo solo miraba lo que ya estaba firmado: un archivo NUEVO entraba sin sello y
-    nadie se enteraba. Aquí se comparan los dos conjuntos, el de disco y el del manifiesto."""
-    en_disco = {p.relative_to(RAIZ).as_posix() for p in archivos()}
-    en_sello = set()
-    for linea in SELLO.read_text(encoding="utf-8").splitlines():
-        if linea.strip():
-            _, _, ruta = linea.partition("  ")
-            en_sello.add(ruta)
-    return sorted(en_disco - en_sello), sorted(en_sello - en_disco)
+def sellar() -> dict:
+    """Sella el árbol completo y devuelve el manifiesto del lote."""
+    sello_path_hoy = ATTESTATIONS / f"lote-{_fecha_hoy().isoformat()}.json"
+    lista = archivos_para_sellar(RAIZ, manifiesto=sello_path_hoy)
+    huellas: dict[str, str] = {}
+    for p in lista:
+        rel = str(p.relative_to(RAIZ))
+        huellas[rel] = _huella_archivo(p)
 
+    anterior = _cargar_lote_anterior()
+    huella_anterior = anterior.get("huella") if anterior else None
 
-def main() -> int:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--verificar", action="store_true")
-    args = ap.parse_args()
-    if args.verificar:
-        ok, mal = verificar()
-        altas, bajas = altas_y_bajas()
-        print(f"integridad: {ok} archivos OK · {mal} alterados o ausentes · "
-              f"{len(altas)} sin sellar · {len(bajas)} desaparecidos")
-        return 0 if (mal == 0 and not altas and not bajas) else 1
-    if SELLO.exists():
-        ok, mal = verificar()
-        altas, bajas = altas_y_bajas()
-        if mal == 0 and not altas and not bajas:
-            print(f"sello vigente: {ok} archivos sin cambios (no se re-sella)")
-            return 0
-        motivo = []
-        if mal:
-            motivo.append(f"{mal} alterados")
-        if altas:
-            motivo.append(f"{len(altas)} sin sellar ({', '.join(altas[:3])}{'…' if len(altas) > 3 else ''})")
-        if bajas:
-            motivo.append(f"{len(bajas)} desaparecidos")
-        print(f"sello viejo: {'; '.join(motivo)}; se re-sella")
-    huella_sello = sellar()
-    LOTES.mkdir(exist_ok=True)
-    # los paquetes de firma Sigstore también se llaman lote-*.json y no son fichas de sello
-    anteriores = sorted(x for x in LOTES.glob("lote-*.json") if not x.name.endswith(".sigstore.json"))
-    anterior = json.loads(anteriores[-1].read_text(encoding="utf-8"))["huella"] if anteriores else None
-    ficha = {
-        "lote": f"lote-{fecha_casa_hoy()}",
-        "sellado_en": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
-        "huella": huella_sello,
-        "huella_lote_anterior": anterior,
-        "archivos": len(SELLO.read_text(encoding="utf-8").splitlines()),
-        "manifiesto": str(SELLO.relative_to(RAIZ)),
-        "nota": "prueba que los archivos no cambiaron después de sellarse; no prueba que la medición sea correcta",
+    lote = {
+        "fecha": _fecha_hoy().isoformat(),
+        "archivos": len(lista),
+        "huella": hashlib.sha256(json.dumps(huellas, sort_keys=True).encode()).hexdigest(),
+        "anterior": huella_anterior,
+        "tabla": huellas,
     }
-    (LOTES / f"{ficha['lote']}.json").write_text(json.dumps(ficha, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"atestación {ficha['lote']}: {ficha['archivos']} archivos · huella {huella_sello[:16]}… · "
-          f"anterior {anterior[:16] + '…' if anterior else 'ninguna'}")
+
+    ATTESTATIONS.mkdir(parents=True, exist_ok=True)
+    hoy_iso = _fecha_hoy().isoformat()
+    (ATTESTATIONS / f"lote-{hoy_iso}.json").write_text(
+        json.dumps(lote, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
+    )
+
+    lineas = ["archivo\tsha256"]
+    for rel in sorted(huellas):
+        lineas.append(f"{rel}\t{huellas[rel]}")
+    (ATTESTATIONS / f"lote-{hoy_iso}.tsv").write_text("\n".join(lineas) + "\n", encoding="utf-8")
+
+    print(f"atestación lote-{hoy_iso}: {len(lista)} archivos · huella {lote['huella'][:16]}…")
+    if huella_anterior:
+        print(f"  anterior: {huella_anterior[:16]}…")
+    return lote
+
+
+def verificar() -> int:
+    """Verifica que el sello del lote actual coincida con el árbol. Devuelve 0 si OK."""
+    sello_path = ATTESTATIONS / f"lote-{_fecha_hoy().isoformat()}.json"
+    if not sello_path.exists():
+        print(f"no existe el lote de hoy: {sello_path}")
+        return 1
+
+    try:
+        lote = json.loads(sello_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        print(f"lote corrupto: {e}")
+        return 1
+
+    lista = archivos_para_sellar(RAIZ, manifiesto=sello_path)
+    huellas_actuales: dict[str, str] = {}
+    for p in lista:
+        rel = str(p.relative_to(RAIZ))
+        huellas_actuales[rel] = _huella_archivo(p)
+
+    tabla_lote = lote.get("tabla", {})
+    alterados = [r for r, h in tabla_lote.items() if huellas_actuales.get(r) != h]
+    ausentes = [r for r in tabla_lote if r not in huellas_actuales]
+    nuevos = [r for r in huellas_actuales if r not in tabla_lote]
+
+    ok = not alterados and not ausentes and not nuevos
+    if ok:
+        print(f"integridad: {len(lista)} archivos OK · 0 alterados o ausentes · 0 sin sellar · 0 desaparecidos")
+        return 0
+
+    print(f"sello roto: {len(alterados)} alterados · {len(ausentes)} desaparecidos · {len(nuevos)} sin sellar")
+    for r in alterados[:10]:
+        print(f"  alterado: {r}")
+    for r in ausentes[:10]:
+        print(f"  ausente: {r}")
+    for r in nuevos[:10]:
+        print(f"  sin sellar: {r}")
+    return 1
+
+
+def main(argv: list[str] | None = None) -> int:
+    import argparse
+    parser = argparse.ArgumentParser(description="Sella el árbol con SHA-256 encadenado.")
+    parser.add_argument("--verificar", action="store_true", help="verifica que el sello coincida con el árbol")
+    args = parser.parse_args(argv)
+
+    if args.verificar:
+        return verificar()
+    sellar()
     return 0
 
 

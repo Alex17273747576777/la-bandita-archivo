@@ -27,11 +27,21 @@ Uso:
   LBT=<token> python3 tools/censo_medir.py --vencidas          # solo las que hay que remedir
   LBT=<token> python3 tools/censo_medir.py --solo ids.txt      # una lista explícita
   python3 tools/censo_medir.py --estado                         # qué hay hecho
+
+Qué hace:
+  * Re-mide fichas del registro contra la API GraphQL de GitHub.
+  * Guarda el payload crudo con fecha dentro del archivo (_medido_en) y SHA-256 en la ficha.
+  * Marca repositorios 404 como muertos (no borra la ficha: declara la ausencia).
+  * Usa lote de 50 por consulta GraphQL para no agotar el cupo.
+
+Qué NO hace:
+  * No borra una ficha porque el proyecto se murió: la marca como muerto.
+  * No decide el estado de frescura (vencida/vigente): eso lo hace tools/vencimiento.py.
+  * No mide repositorios uno a uno por REST: usa GraphQL por lotes.
 """
 from __future__ import annotations
 
 import argparse
-import glob
 import hashlib
 import json
 import os
@@ -48,54 +58,49 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from fecha_casa import hoy as fecha_casa_hoy  # noqa: E402
 
-RAIZ = Path(__file__).resolve().parents[1]
-REGISTRO = RAIZ / "registry"
-EVIDENCIA = REGISTRO / "_evidencia"
-API = "https://api.github.com/graphql"
-ESTADO = RAIZ / "docs" / "_remedicion.json"
-UMBRAL_DORMIDO = 180
+RAIZ: Path = Path(__file__).resolve().parents[1]
+REGISTRO: Path = RAIZ / "registry"
+EVIDENCIA: Path = REGISTRO / "_evidencia"
+API: str = "https://api.github.com/graphql"
+ESTADO: Path = RAIZ / "docs" / "_remedicion.json"
+UMBRAL_DORMIDO: int = 180
 
-CONSULTA = """
-query {
-  rateLimit { remaining }
-  %s
-}
-"""
+CONSULTA: str = """query { rateLimit { remaining } %s }"""
 
-FRAGMENTO = """
-  a%s: repository(owner: "%s", name: "%s") {
+FRAGMENTO: str = """  a{i}: repository(owner: "{ow}", name: "{nom}") {{
     nameWithOwner
     stargazerCount
     forkCount
     isArchived
     pushedAt
-    licenseInfo { spdxId name }
+    licenseInfo {{ spdxId name }}
     diskUsage
-    defaultBranchRef { target { ... on Commit { oid committedDate } } }
-    releases(last: 1, orderBy: {field: CREATED_AT, direction: DESC}) { nodes { tagName publishedAt isPrerelease } }
-    issues(states: OPEN) { totalCount }
-  }
-"""
+    defaultBranchRef {{ target {{ ... on Commit {{ oid committedDate }} }} }}
+    releases(last: 1, orderBy: {{field: CREATED_AT, direction: DESC}}) {{ nodes {{ tagName publishedAt isPrerelease }} }}
+    issues(states: OPEN) {{ totalCount }}
+  }}"""
 
 
 def fichas() -> list[Path]:
     return sorted(p for p in REGISTRO.glob("*.json") if not p.name.startswith("_"))
 
 
-def pedir(tok: str, repos: list[str]) -> dict:
+def pedir(tok: str, repos: list[str]) -> dict[str, dict]:
     """Una consulta GraphQL con N alias. Devuelve {repo: datos}."""
-    trozos = []
+    trozos: list[str] = []
     for i, repo in enumerate(repos):
         if "/" not in repo:
             continue
         ow, nom = repo.split("/", 1)
-        trozos.append(FRAGMENTO % (i, ow.replace('"', ""), nom.replace('"', "")))
+        trozos.append(FRAGMENTO.format(i=i, ow=ow.replace('"', ""), nom=nom.replace('"', "")))
     if not trozos:
         return {}
     cuerpo = json.dumps({"query": CONSULTA % "".join(trozos)}).encode()
     req = urllib.request.Request(API, data=cuerpo, headers={
-        "Authorization": f"Bearer {tok}", "Content-Type": "application/json",
-        "User-Agent": "la-bandita-censo"})
+        "Authorization": f"Bearer {tok}",
+        "Content-Type": "application/json",
+        "User-Agent": "la-bandita-censo",
+    })
     try:
         with urllib.request.urlopen(req, timeout=120) as r:
             d = json.loads(r.read().decode())
@@ -105,13 +110,26 @@ def pedir(tok: str, repos: list[str]) -> dict:
         return {}
     except Exception:
         return {}
-    datos = (d.get("data") or {})
-    salida = {}
+    datos = d.get("data") or {}
+    salida: dict[str, dict] = {}
     for i, repo in enumerate(repos):
         v = datos.get(f"a{i}")
         if v:
             salida[repo] = v
     return salida
+
+
+async def pedir_async(tok: str, repos: list[str]) -> dict[str, dict]:
+    """Versión asíncrona de pedir: ejecuta la petición GraphQL en un hilo separado."""
+    return await asyncio_espera(tok, repos)
+
+
+async def asyncio_espera(tok: str, repos: list[str]) -> dict[str, dict]:
+    loop = asyncio.get_event_loop()
+    return await loop.run_in_executor(None, pedir, tok, repos)
+
+
+import asyncio  # noqa: E402
 
 
 def guardar_evidencia(ficha: dict, v: dict, hoy: str) -> None:
@@ -153,9 +171,11 @@ def marcar_inexistente(ficha: dict, hoy: str) -> bool:
     act["semantica_http"] = 404
     mer = ficha.setdefault("merito", {})
     mer["stars"] = None
-    ficha["frescura"] = {"estado": "vencida", "dias": 0, "evidencia_en": hoy,
-                         "proxima_remedicion": None, "ventana_dias": None,
-                         "motivo": "el repositorio no existe: la API devolvió 404"}
+    ficha["frescura"] = {
+        "estado": "vencida", "dias": 0, "evidencia_en": hoy,
+        "proxima_remedicion": None, "ventana_dias": None,
+        "motivo": "el repositorio no existe: la API devolvió 404",
+    }
     despues = json.dumps({k: ficha.get(k) for k in ("medido_en", "actividad", "merito")},
                          sort_keys=True, ensure_ascii=False)
     return antes != despues
@@ -169,8 +189,6 @@ def aplicar(ficha: dict, v: dict, hoy: str) -> bool:
     guardar_evidencia(ficha, v, hoy)
     ficha["medido_en"] = hoy
     ficha["frescura_dias"] = 0
-    # Una ficha remedida deja de estar vencida: el bloque lo vuelve a escribir
-    # `tools/vencimiento.py --aplicar`, que es el único que decide el estado.
     ficha.pop("frescura", None)
     mer = ficha.setdefault("merito", {})
     mer["stars"] = v.get("stargazerCount")
@@ -199,27 +217,55 @@ def aplicar(ficha: dict, v: dict, hoy: str) -> bool:
     return antes != despues
 
 
-def main() -> int:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--lote", type=int, default=50)
-    ap.add_argument("--limite", type=int, default=0)
-    ap.add_argument("--estado", action="store_true")
-    ap.add_argument("--seco", action="store_true")
-    ap.add_argument("--vencidas", action="store_true",
-                    help="solo las fichas sin respaldo o vencidas, según tools/vencimiento.py")
-    ap.add_argument("--solo", metavar="ARCHIVO", help="un archivo con ids, uno por línea")
-    a = ap.parse_args()
+async def _remedir_grupo(tok: str, grupo: list[tuple[Path, str]], hoy: str, seco: bool) -> tuple[int, int, int]:
+    """Re-mide un grupo de fichas con una consulta GraphQL. Devuelve (hechas, cambiadas, inexistentes)."""
+    repos = [r for _, r in grupo]
+    try:
+        datos = await asyncio_espera(tok, repos)
+    except SystemExit:
+        raise
+    except Exception:
+        datos = {}
+
+    hechas = 0
+    cambiadas = 0
+    inexistentes = 0
+    for p, repo in grupo:
+        v = datos.get(repo)
+        d = json.loads(p.read_text(encoding="utf-8"))
+        if v:
+            cambio = aplicar(d, v, hoy)
+        else:
+            cambio = marcar_inexistente(d, hoy)
+            inexistentes += 1
+        if cambio and not seco:
+            p.write_text(json.dumps(d, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+            cambiadas += 1
+        hechas += 1
+    return hechas, cambiadas, inexistentes
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="Re-mide fichas del registro contra la API GraphQL de GitHub.")
+    parser.add_argument("--lote", type=int, default=50)
+    parser.add_argument("--limite", type=int, default=0)
+    parser.add_argument("--estado", action="store_true")
+    parser.add_argument("--seco", action="store_true")
+    parser.add_argument("--vencidas", action="store_true", help="solo las fichas sin respaldo o vencidas")
+    parser.add_argument("--solo", metavar="ARCHIVO", help="un archivo con ids, uno por línea")
+    a = parser.parse_args(argv)
+
     fs = fichas()
     if a.estado:
         hechas = sum(1 for p in fs if json.loads(p.read_text(encoding="utf-8")).get("medido_en") == fecha_casa_hoy())
         print(f"fichas: {len(fs)} · medidas hoy ({fecha_casa_hoy()}): {hechas}")
         return 0
+
     tok = os.environ.get("LBT") or ""
     if not tok:
         print("falta LBT")
         return 1
-    # La fecha es la de la casa (Santo Domingo), no la del servidor: el entorno corre en UTC
-    # y a las 20:30 del 3 de noviembre ya dice 4. Fechar con UTC puso un día de más una vez.
+
     hoy = fecha_casa_hoy()
     solo: set[str] | None = None
     if a.solo:
@@ -228,14 +274,16 @@ def main() -> int:
     if a.vencidas:
         solo = set()
         for estado in ("sin_respaldo", "vencida"):
-            salida = subprocess.run([sys.executable, str(Path(__file__).with_name("vencimiento.py")),
-                                     "--lista", estado], capture_output=True, text=True)
+            salida = subprocess.run(
+                [sys.executable, str(Path(__file__).with_name("vencimiento.py")), "--lista", estado],
+                capture_output=True, text=True,
+            )
             solo.update(l.strip() for l in salida.stdout.splitlines() if l.strip())
         print(f"a remedir por vencimiento: {len(solo)} fichas")
-    pendientes = []
+
+    pendientes: list[tuple[Path, str]] = []
     for p in fs:
         d = json.loads(p.read_text(encoding="utf-8"))
-        # ya medida hoy: no se vuelve a pedir (el 404 también es una medida del día)
         if solo is not None and d.get("id") not in solo:
             continue
         if solo is None and d.get("medido_en") == hoy:
@@ -243,34 +291,29 @@ def main() -> int:
         repo = d.get("repo") or d.get("id", "").replace("--", "/", 1)
         if repo:
             pendientes.append((p, repo))
+
     if a.limite:
         pendientes = pendientes[: a.limite]
+
     print(f"a re-medir: {len(pendientes)} fichas · lote {a.lote}")
     hechas, cambiadas, inexistentes, t0 = 0, 0, 0, time.time()
+
     for inicio in range(0, len(pendientes), a.lote):
         grupo = pendientes[inicio:inicio + a.lote]
-        datos = pedir(tok, [r for _, r in grupo])
-        for p, repo in grupo:
-            v = datos.get(repo)
-            d = json.loads(p.read_text(encoding="utf-8"))
-            if v:
-                cambio = aplicar(d, v, hoy)
-            else:
-                cambio = marcar_inexistente(d, hoy)
-                inexistentes += 1
-            if cambio and not a.seco:
-                p.write_text(json.dumps(d, ensure_ascii=False, indent=1, sort_keys=True) + "\n",
-                             encoding="utf-8")
-                cambiadas += 1
-            hechas += 1
+        h, c, i = asyncio.run(_remedir_grupo(tok, grupo, hoy, a.seco))
+        hechas += h
+        cambiadas += c
+        inexistentes += i
         if hechas and hechas % 500 < a.lote:
             vel = hechas / max(1, time.time() - t0)
-            print(f"  … {hechas}/{len(pendientes)} · {cambiadas} fichas actualizadas · "
-                  f"{vel:.0f} fichas/s", flush=True)
+            print(f"  … {hechas}/{len(pendientes)} · {cambiadas} fichas actualizadas · {vel:.0f} fichas/s", flush=True)
         ESTADO.parent.mkdir(exist_ok=True)
-        ESTADO.write_text(json.dumps({"fecha": hoy, "hechas": hechas, "total": len(pendientes),
-                                      "cambiadas": cambiadas, "inexistentes": inexistentes},
-                                     ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        ESTADO.write_text(
+            json.dumps({"fecha": hoy, "hechas": hechas, "total": len(pendientes),
+                        "cambiadas": cambiadas, "inexistentes": inexistentes},
+                       ensure_ascii=False, indent=1) + "\n", encoding="utf-8",
+        )
+
     print(f"\nre-medición: {hechas} fichas leídas · {cambiadas} actualizadas · "
           f"{inexistentes} con 404 (repositorio que no existe) · {len(pendientes) - hechas} sin respuesta")
     return 0

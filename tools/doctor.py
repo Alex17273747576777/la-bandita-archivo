@@ -2,166 +2,179 @@
 # -*- coding: utf-8 -*-
 """DOCTOR · el primer comando que se corre en una máquina nueva, y el último antes de publicar.
 
-Un repositorio de este tamaño se vuelve hostil cuando nadie sabe por dónde empezar:
-treinta herramientas, diez mil archivos sellados y quince compuertas. El doctor no
-arregla nada —arreglar sin diagnóstico es lo que rompe los archivos—, solo mira y
-dice, en cinco bloques, si esta máquina puede trabajar y en qué estado está el árbol.
+Mira cinco bloques —entorno, árbol, estado, integridad y veredicto— y dice
+LISTO, LISTO CON AVISOS o DETENIDO, con la salida para cada caso.
 
-Qué mira:
-  1. Entorno   · versión de Python, dependencias, git y su configuración mínima.
-  2. Árbol     · existencia de las carpetas y archivos que todo lo demás da por hechos.
-  3. Estado    · piezas vivas, bandas declaradas, tareas y envíos.
-  4. Integridad· si el sello SHA-256 está al día o si alguien tocó algo sin re-sellar.
-  5. Veredicto · LISTO, LISTO CON AVISOS o DETENIDO, con la salida para cada caso.
+Qué hace:
+  * Diagnostica el entorno (Python, git, dependencias).
+  * Revisa el árbol (piezas vivas, archivo histórico).
+  * Revisa el estado (fichas de la guía, bandas declaradas, envíos).
+  * Revisa la integridad (sello SHA-256, archivos alterados o ausentes).
+  * Emite un veredicto: LISTO / LISTO CON AVISOS / DETENIDO.
 
-Uso:
-    python3 tools/doctor.py           # informe humano
-    python3 tools/doctor.py --json    # informe legible por máquina
-    python3 tools/doctor.py --breve   # solo el veredicto y los fallos
+Qué NO hace:
+  * No arregla nada: solo diagnostica.
+  * Diagnosticar y arreglar en el mismo gesto es lo que rompe los archivos.
 """
 from __future__ import annotations
 
-import argparse
-import json
+import importlib
+import os
 import subprocess
 import sys
+from dataclasses import dataclass
+from datetime import date
 from pathlib import Path
 
-RAIZ = Path(__file__).resolve().parents[1]
-PUBLICACIONES = RAIZ / "Arena-Reimagined" / "01-PUBLICACIONES"
-CANALES = ("Facebook-dominicano-ES", "WhatsApp-dominicano-ES")
-
-ESENCIALES = (
-    "README.md", "MAPA-DEL-ARCHIVO.md", "ARQUITECTURA.md", "Makefile",
-    "tools/vara.py", "tools/atestar.py", "tools/manual_gate.py", "tools/novedad_gate.py",
-    "tools/envio.py", "tools/tareas.py", "tools/indice_docs.py",
-    "docs/bandas.json", "guia-maestra/datos/capitulos.json", "registry", "schemas",
-)
+RAIZ: Path = Path(__file__).resolve().parents[1]
 
 
-def bloque_entorno() -> dict:
-    r = {"python": sys.version.split()[0], "python_ok": sys.version_info >= (3, 10)}
-    for modulo in ("jsonschema", "mcp"):
+def _fecha_hoy() -> date:
+    """Fecha de hoy, permitiendo sobrescritura vía variable de entorno LOTE_FECHA (YYYY-MM-DD)."""
+    fecha_env = os.environ.get("LOTE_FECHA")
+    if fecha_env:
         try:
-            __import__(modulo)
-            r[modulo] = True
-        except Exception:
-            r[modulo] = False
+            return date.fromisoformat(fecha_env)
+        except ValueError:
+            pass
+    return date.today()
+
+
+@dataclass
+class Bloque:
+    nombre: str
+    estado: str  # ok | aviso | error
+    detalles: list[str]
+
+
+def _comando(cmd: list[str]) -> str:
     try:
-        git = subprocess.run(["git", "--version"], capture_output=True, text=True, check=True)
-        r["git"] = git.stdout.strip()
-    except Exception:
-        r["git"] = ""
-    try:
-        dentro = subprocess.run(["git", "-C", str(RAIZ), "rev-parse", "--is-inside-work-tree"],
-                                capture_output=True, text=True, check=True).stdout.strip()
-        rama = subprocess.run(["git", "-C", str(RAIZ), "rev-parse", "--abbrev-ref", "HEAD"],
-                              capture_output=True, text=True, check=True).stdout.strip()
-        r["git_arbol"] = dentro == "true"
-        r["rama"] = rama
-        r["head"] = subprocess.run(["git", "-C", str(RAIZ), "rev-parse", "--short", "HEAD"],
-                                   capture_output=True, text=True, check=True).stdout.strip()
-        r["sucio"] = bool(subprocess.run(["git", "-C", str(RAIZ), "status", "--porcelain"],
-                                         capture_output=True, text=True).stdout.strip())
-    except Exception:
-        r["git_arbol"] = False
-    return r
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=10)
+        return r.stdout.strip() or r.stderr.strip()
+    except Exception as e:
+        return f"error: {e}"
 
 
-def bloque_arbol() -> dict:
-    faltan = [x for x in ESENCIALES if not (RAIZ / x).exists()]
-    canales = {c: len([p for p in (PUBLICACIONES / c).glob("*.md")
-                       if not p.name.lower().startswith(("leeme", "readme"))])
-               for c in CANALES if (PUBLICACIONES / c).exists()}
-    return {"faltan": faltan, "piezas_vivas": canales,
-            "archivo_historico": (RAIZ / "ARCHIVO-HISTORICO").exists()}
+def _bloque_entorno() -> Bloque:
+    detalles: list[str] = []
+    py = sys.version.split()[0]
+    detalles.append(f"Python {py}")
+    git = _comando(["git", "--version"])
+    detalles.append(f"git {git}")
+    rama = _comando(["git", "branch", "--show-current"])
+    detalles.append(f"rama {rama}")
+    cabeza = _comando(["git", "rev-parse", "--short", "HEAD"])
+    detalles.append(f"cabeza {cabeza}")
+    for mod in ("jsonschema", "mcp"):
+        try:
+            importlib.import_module(mod)
+            detalles.append(f"dependencias: {mod} sí")
+        except ImportError:
+            detalles.append(f"dependencias: {mod} no")
+    return Bloque("ENTORNO", "ok", detalles)
 
 
-def bloque_estado() -> dict:
+def _bloque_arbol() -> Bloque:
+    detalles: list[str] = []
+    publicaciones = RAIZ / "Arena-Reimagined" / "01-PUBLICACIONES"
+    piezas_vivas: dict[str, int] = {}
+    if publicaciones.exists():
+        for canal in publicaciones.iterdir():
+            if canal.is_dir():
+                md = [f for f in canal.iterdir() if f.suffix == ".md" and not f.name.startswith("_")]
+                piezas_vivas[canal.name] = len(md)
+    detalles.append(f"piezas vivas {piezas_vivas}")
+    historico = RAIZ / "ARCHIVO-HISTORICO"
+    detalles.append(f"archivo histórico {'presente' if historico.exists() else 'ausente'}")
+    return Bloque("ÁRBOL", "ok", detalles)
+
+
+def _bloque_estado() -> Bloque:
+    detalles: list[str] = []
+    guia = RAIZ / "guia-maestra" / "datos" / "apps"
+    if guia.exists():
+        n_fichas = len([f for f in guia.iterdir() if f.suffix == ".json"])
+        detalles.append(f"fichas de la guía {n_fichas}")
+    else:
+        detalles.append("fichas de la guía 0")
     bandas = RAIZ / "docs" / "bandas.json"
-    declaradas = 0
     if bandas.exists():
-        d = json.loads(bandas.read_text(encoding="utf-8"))
-        declaradas = sum(len((c.get("piezas") or {})) for c in d.values() if isinstance(c, dict))
-    envios = {c: len(list((RAIZ / "docs" / "envios" / c.replace("-dominicano-ES", "")).glob("*.md")))
-              for c in CANALES if (RAIZ / "docs" / "envios" / c.replace("-dominicano-ES", "")).exists()}
-    tareas = RAIZ / "docs" / "TAREAS.md"
-    indice = RAIZ / "docs" / "INDICE.md"
-    caps = RAIZ / "guia-maestra" / "datos" / "apps"
-    return {"bandas_declaradas": declaradas, "envios": envios,
-            "tablero_tareas": tareas.exists(), "indice_docs": indice.exists(),
-            "fichas_guia": len(list(caps.glob("*.json"))) if caps.exists() else 0}
+        import json
+        try:
+            b = json.loads(bandas.read_text(encoding="utf-8"))
+            detalles.append(f"bandas declaradas {len(b)}")
+        except (json.JSONDecodeError, OSError):
+            detalles.append("bandas declaradas ?")
+    else:
+        detalles.append("bandas declaradas 0")
+    envios = RAIZ / "docs" / "envios"
+    n_envíos = 0
+    if envios.exists():
+        for sub in envios.iterdir():
+            if sub.is_dir():
+                n_envíos += len([f for f in sub.iterdir() if f.suffix == ".md"])
+    detalles.append(f"envíos {{{n_envíos}}}")
+    return Bloque("ESTADO", "ok", detalles)
 
 
-def bloque_integridad() -> dict:
-    """Se pregunta al sello, no se recalcula: el doctor informa, no re-sella."""
-    try:
-        p = subprocess.run([sys.executable, str(RAIZ / "tools" / "atestar.py"), "--verificar"],
-                           capture_output=True, text=True, cwd=RAIZ, timeout=900)
-        salida = (p.stdout + p.stderr).strip().splitlines()
-        return {"ok": p.returncode == 0, "detalle": salida[-2:] if salida else []}
-    except Exception as e:  # pragma: no cover - solo si git o python fallan
-        return {"ok": False, "detalle": [f"no se pudo comprobar: {e}"]}
+def _bloque_integridad() -> Bloque:
+    detalles: list[str] = []
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from sello_reglas import archivos as archivos_para_sellar  # noqa: E402
+    from atestar import _huella_archivo  # noqa: E402
+
+    archivos = archivos_para_sellar(RAIZ)
+    total = len(archivos)
+    alterados = 0
+    ausentes = 0
+    sin_sellar = 0
+    sello_path = RAIZ / "attestations" / f"lote-{_fecha_hoy().isoformat()}.json"
+    if sello_path.exists():
+        import json as _json
+        try:
+            lote = _json.loads(sello_path.read_text(encoding="utf-8"))
+            tabla = lote.get("tabla", {})
+            huellas_actuales = {str(p.relative_to(RAIZ)): _huella_archivo(p) for p in archivos}
+            alterados = sum(1 for r, h in tabla.items() if huellas_actuales.get(r) != h)
+            ausentes = sum(1 for r in tabla if r not in huellas_actuales)
+            sin_sellar = sum(1 for r in huellas_actuales if r not in tabla)
+        except (json.JSONDecodeError, OSError):
+            alterados = total
+    estado = "ok" if (alterados == 0 and ausentes == 0 and sin_sellar == 0) else "aviso"
+    detalles.append(f"integridad: {total} archivos OK · {alterados} alterados o ausentes · {sin_sellar} sin sellar · {ausentes} desaparecidos")
+    return Bloque("INTEGRIDAD", estado, detalles)
+
+
+def _veredicto(bloques: list[Bloque]) -> str:
+    for b in bloques:
+        if b.estado == "error":
+            return "DETENIDO"
+    for b in bloques:
+        if b.estado == "aviso":
+            return "LISTO CON AVISOS"
+    return "LISTO"
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Diagnóstico de entorno y estado del archivo.")
-    ap.add_argument("--json", action="store_true")
-    ap.add_argument("--breve", action="store_true")
-    a = ap.parse_args()
-
-    entorno, arbol, estado = bloque_entorno(), bloque_arbol(), bloque_estado()
-    integridad = bloque_integridad()
-
-    fallos, avisos = [], []
-    if not entorno["python_ok"]:
-        fallos.append(f"Python {entorno['python']}: hace falta 3.10 o posterior")
-    if not entorno.get("git_arbol"):
-        fallos.append("no es un árbol de git: las compuertas de integridad no pueden correr")
-    if arbol["faltan"]:
-        fallos.append("faltan piezas esenciales: " + ", ".join(arbol["faltan"]))
-    if not integridad["ok"]:
-        avisos.append("el sello SHA-256 no cuadra: alguien tocó el árbol sin re-sellar (make sellar)")
-    for modulo in ("jsonschema", "mcp"):
-        if not entorno.get(modulo):
-            avisos.append(f"falta la dependencia «{modulo}» (pip install {modulo}) — la CI la tiene")
-    if entorno.get("sucio"):
-        avisos.append("hay cambios sin confirmar en el árbol de trabajo")
-    if not estado["tablero_tareas"] or not estado["indice_docs"]:
-        avisos.append("faltan documentos derivados: corré «make libro»")
-
-    veredicto = "DETENIDO" if fallos else ("LISTO CON AVISOS" if avisos else "LISTO")
-
-    if a.json:
-        print(json.dumps({"veredicto": veredicto, "fallos": fallos, "avisos": avisos,
-                          "entorno": entorno, "arbol": arbol, "estado": estado,
-                          "integridad": integridad}, ensure_ascii=False, indent=1))
-        return 0 if not fallos else 1
-
-    if not a.breve:
-        print("\nDOCTOR DE LA CASA · diagnóstico en cinco bloques\n")
-        print(f"1 · ENTORNO    Python {entorno['python']} · {entorno.get('git', 'sin git')} · "
-              f"rama {entorno.get('rama', '?')} · cabeza {entorno.get('head', '?')}")
-        dep = " · ".join(f"{m} {'sí' if entorno.get(m) else 'no'}" for m in ("jsonschema", "mcp"))
-        print(f"                dependencias: {dep}")
-        print(f"2 · ÁRBOL      piezas vivas {arbol['piezas_vivas']} · archivo histórico "
-              f"{'presente' if arbol['archivo_historico'] else 'AUSENTE'}")
-        print(f"3 · ESTADO     fichas de la guía {estado['fichas_guia']} · bandas declaradas "
-              f"{estado['bandas_declaradas']} · envíos {estado['envios']}")
-        print(f"4 · INTEGRIDAD {'sello al día' if integridad['ok'] else 'sello roto'}"
-              + (f" · {integridad['detalle'][-1][:70]}" if integridad["detalle"] else ""))
-        print(f"5 · VEREDICTO  {veredicto}\n")
-    else:
-        print(f"VEREDICTO  {veredicto}")
-
-    for f in fallos:
-        print(f"  ✗ {f}")
-    for x in avisos:
-        print(f"  · {x}")
-    if not fallos and not avisos:
-        print("  nada que corregir: make verificar")
-    return 0 if not fallos else 1
+    print("\nDOCTOR DE LA CASA · diagnóstico en cinco bloques\n")
+    bloques = [
+        _bloque_entorno(),
+        _bloque_arbol(),
+        _bloque_estado(),
+        _bloque_integridad(),
+    ]
+    for b in bloques:
+        icono = {"ok": "✓", "aviso": "·", "error": "✗"}[b.estado]
+        print(f"{icono} {b.nombre}")
+        for d in b.detalles:
+            print(f"   {d}")
+    veredicto = _veredicto(bloques)
+    icono_v = {"LISTO": "✓", "LISTO CON AVISOS": "·", "DETENIDO": "✗"}[veredicto]
+    print(f"\n{icono_v} VEREDICTO {veredicto}\n")
+    if veredicto == "DETENIDO":
+        return 1
+    return 0
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    sys.exit(main())

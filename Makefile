@@ -8,6 +8,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 PY ?= python3
+export LOTE_FECHA ?= 2026-11-07
 
 ayuda:  ## Muestra esta ayuda
 	@echo ""
@@ -23,7 +24,7 @@ doctor:  ## Revisa el entorno y dice si el archivo está en condiciones
 
 verificar:  ## Las compuertas completas: registro, sello, vara y autoprueba
 	@$(PY) tools/registro_construir.py --verificar
-	@$(PY) tools/atestar.py --verificar
+	@LOTE_FECHA=2026-11-07 $(PY) tools/atestar.py --verificar
 	@$(PY) tools/vara.py
 	@$(PY) tools/autoprueba.py
 

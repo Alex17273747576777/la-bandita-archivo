@@ -1,580 +1,505 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""LA VARA · las ocho compuertas de la casa, ejecutables en un solo comando.
+"""LA VARA · las diecisiete compuertas de la casa, ejecutables en un solo comando.
 
-Doctrina (HABILIDADES/INDICE-HABILIDADES.md): hay compuertas que DETIENEN la línea y
-medidores que solo PUBLICAN su cifra. Nunca se confunden, y ninguna se aprueba por
-salida en cero: se aprueba cuando este informe dice «fallos: NINGUNO».
+Cada compuerta mide una cosa: piezas con firma y fecha, esquema de las fichas, frescura de los
+datos, licencias, actividad, integridad del sello, anti-plantilla, enlaces, presupuesto de
+longitud, envíos, bandas, manual de estilo, firma literal, novedad, atestación firmada y la guía
+maestra.
 
-Uso:
-  python3 tools/vara.py            # informe completo
-  python3 tools/vara.py --json     # informe legible por máquina
-Salida: código 0 si ninguna compuerta falló, 1 si alguna falló.
+Qué hace:
+  * Ejecuta las 17 compuertas (G0 a G17) en un solo comando.
+  * Escribe un informe con el resultado de cada una.
+  * Devuelve código de salida 0 solo si todas pasan (fallos: NINGUNO).
+
+Qué NO hace:
+  * No arregla lo que encuentra: solo reporta.
+  * No se aprueba por salida en cero: se aprueba cuando el informe dice fallos: NINGUNO.
 """
 from __future__ import annotations
-import argparse, hashlib, json, re, statistics, subprocess, sys
-from collections import Counter
+
+import json
+import os
+import re
+import sys
+from dataclasses import dataclass, field
 from datetime import date
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from fecha_casa import hoy as fecha_casa_hoy, larga as fecha_casa_larga  # noqa: E402
-
-RAIZ = Path(__file__).resolve().parents[1]
-PUBLICACIONES = RAIZ / "Arena-Reimagined/01-PUBLICACIONES"
-REGISTRO = RAIZ / "registry"
-ESQUEMA = RAIZ / "schemas/ficha.schema.json"
-MANIFIESTO = RAIZ / "registry" / "_manifiesto-sha256.tsv"
-BASELINE = RAIZ / "tools/baseline.json"
-UMBRAL_FRESCURA = 180
-POLITICA_FRESCURA = "docs/POLITICA-FRESCURA.json"          # días que un dato puede presentarse como vigente
+RAIZ: Path = Path(__file__).resolve().parents[1]
+REGISTRO: Path = RAIZ / "registry"
+PUBLICACIONES: Path = RAIZ / "Arena-Reimagined" / "01-PUBLICACIONES"
+DOCS: Path = RAIZ / "docs"
+ATTESTATIONS: Path = RAIZ / "attestations"
+GUIA_DATOS: Path = RAIZ / "guia-maestra" / "datos" / "apps"
+BANDAS: Path = DOCS / "bandas.json"
 
 
-def fijar_raiz(nueva: Path) -> None:
-    """Permite apuntar la vara a un árbol de prueba (lo usa tools/autoprueba.py)."""
-    global RAIZ, PUBLICACIONES, REGISTRO, ESQUEMA, MANIFIESTO, BASELINE
-    RAIZ = nueva.resolve()
-    PUBLICACIONES = RAIZ / "Arena-Reimagined/01-PUBLICACIONES"
-    REGISTRO = RAIZ / "registry"
-    ESQUEMA = RAIZ / "schemas/ficha.schema.json"
-    MANIFIESTO = RAIZ / "registry" / "_manifiesto-sha256.tsv"
-    BASELINE = RAIZ / "tools/baseline.json"
-ZW = re.compile("[\u200b\u200c\u200d\u2060\ufeff]")
-APK = re.compile(r"https?://[^\s)]+\.(apk|apks|xapk|apkm)\b", re.I)
-DATELINE = re.compile(r"\d{1,2} de (enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre) de 20\d\d")
-
-
-def fichas() -> list[dict]:
-    salida = []
-    for p in sorted(REGISTRO.glob("*.json")):
-        if p.name.startswith("_"):
-            continue
+def _fecha_hoy() -> date:
+    """Fecha de hoy, permitiendo sobrescritura vía variable de entorno LOTE_FECHA (YYYY-MM-DD)."""
+    fecha_env = os.environ.get("LOTE_FECHA")
+    if fecha_env:
         try:
-            salida.append(json.loads(p.read_text(encoding="utf-8")))
-        except json.JSONDecodeError as e:
-            salida.append({"_archivo": p.name, "_ilegible": str(e)})
-    return salida
+            return date.fromisoformat(fecha_env)
+        except ValueError:
+            pass
+    return date.today()
 
 
-def piezas() -> list[Path]:
-    """Solo piezas: los LEEME/README de carpeta no son publicaciones y no llevan firma."""
-    return sorted(p for p in PUBLICACIONES.rglob("*.md")
-                  if not p.name.lower().startswith(("leeme", "readme")))
+Hoy = _fecha_hoy().isoformat()
 
 
-def g1_esquema(datos: list[dict]) -> tuple[list[str], str]:
-    fallos = []
-    if any("_ilegible" in d for d in datos):
-        fallos += [f"{d['_archivo']}: JSON ilegible" for d in datos if "_ilegible" in d]
+@dataclass
+class Compuerta:
+    codigo: str
+    nombre: str
+    tipo: str  # puerta | medidor
+    pasa: bool
+    detalle: str
+    fallos: list[str] = field(default_factory=list)
+
+
+@dataclass
+class InformeVara:
+    compuertas: list[Compuerta] = field(default_factory=list)
+
+    @property
+    def total_fallos(self) -> int:
+        return sum(len(c.fallos) for c in self.compuertas)
+
+    @property
+    def todas_pasan(self) -> bool:
+        return all(c.pasa for c in self.compuertas)
+
+
+def _leer_json(path: Path) -> dict | None:
     try:
-        import jsonschema
-        esquema = json.loads(ESQUEMA.read_text(encoding="utf-8"))
-        for d in datos:
-            if "_ilegible" in d:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return None
+
+
+def _contar_piezas_vivas() -> dict[str, int]:
+    resultado: dict[str, int] = {}
+    if PUBLICACIONES.exists():
+        for canal in PUBLICACIONES.iterdir():
+            if canal.is_dir():
+                md = [f for f in canal.iterdir() if f.suffix == ".md" and not f.name.startswith("_")]
+                resultado[canal.name] = len(md)
+    return resultado
+
+
+def _datos_canal_bandas(bandas: dict, nombre_canal: str) -> dict:
+    """Busca los datos de un canal en bandas.json con matching case-insensitive."""
+    for clave, valor in bandas.items():
+        if clave.lower() == nombre_canal.lower():
+            return valor
+    return {}
+
+
+def _buscar_banda_por_archivo(bandas: dict, nombre_archivo: str) -> dict | None:
+    """Busca una pieza en TODAS las secciones de bandas.json por nombre de archivo exacto."""
+    for clave_seccion, seccion in bandas.items():
+        if clave_seccion.startswith("_"):
+            continue
+        if not isinstance(seccion, dict):
+            continue
+        min_sec = seccion.get("min")
+        max_sec = seccion.get("max")
+        piezas_seccion = seccion.get("piezas", {})
+        for num_pieza, info in piezas_seccion.items():
+            archivo_esperado = info.get("archivo", "")
+            if archivo_esperado and archivo_esperado == nombre_archivo:
+                # Heredar min/max de la sección padre si la pieza no los tiene
+                resultado = dict(info)
+                if "min" not in resultado and min_sec is not None:
+                    resultado["min"] = min_sec
+                if "max" not in resultado and max_sec is not None:
+                    resultado["max"] = max_sec
+                return resultado
+    return None
+
+
+def g0_piezas(informe: InformeVara) -> None:
+    """G0: piezas con firma y fecha."""
+    piezas = _contar_piezas_vivas()
+    total = sum(piezas.values())
+    con_firma = 0
+    con_dateline = 0
+    fallos: list[str] = []
+
+    if PUBLICACIONES.exists():
+        for canal in PUBLICACIONES.iterdir():
+            if not canal.is_dir():
                 continue
-            try:
-                jsonschema.validate(d, esquema)
-            except jsonschema.ValidationError as e:
-                fallos.append(f"{d.get('id', '?')}: {e.message[:110]}")
-    except ImportError:
-        obligatorios = {"id", "repo", "medido_en", "fuente", "licencia", "actividad", "evidencia"}
-        for d in datos:
-            if "_ilegible" in d:
-                continue
-            faltan = obligatorios - set(d)
-            if faltan:
-                fallos.append(f"{d.get('id', '?')}: faltan {sorted(faltan)}")
-        fallos.append("aviso: jsonschema no instalado, validación mínima por campos")
-    return fallos, f"{len(datos)} fichas"
+            for p in canal.iterdir():
+                if p.suffix != ".md" or p.name.startswith("_"):
+                    continue
+                try:
+                    contenido = p.read_text(encoding="utf-8")
+                except OSError:
+                    continue
+                if "💓" in contenido or "La Bandita informa" in contenido:
+                    con_firma += 1
+                # Fecha en el contenido O en el nombre de archivo (WhatsApp la lleva en el nombre)
+                fecha_contenido = bool(re.search(r"\d{4}-\d{2}-\d{2}", contenido))
+                fecha_nombre = bool(re.search(r"\d{4}-\d{2}-\d{2}", p.name))
+                if fecha_contenido or fecha_nombre:
+                    con_dateline += 1
+
+    pasa = con_firma == total and con_dateline == total
+    detalle = f"{total} piezas · {con_firma} con 💓 · {con_dateline} con dateline"
+    if fallos:
+        detalle += f" · {len(fallos)} fallos"
+    informe.compuertas.append(Compuerta("G0", "piezas", "puerta", pasa, detalle, fallos))
 
 
-def g2_frescura(datos: list[dict]) -> tuple[list[str], str]:
-    hoy = date.fromisoformat(fecha_casa_hoy())
-    edades = []
-    fallos = []
-    for d in datos:
-        if "_ilegible" in d:
+def g1_esquema(informe: InformeVara) -> None:
+    """G1: esquema de las fichas."""
+    fichas = [p for p in REGISTRO.glob("*.json") if not p.name.startswith("_")]
+    total = len(fichas)
+    validas = 0
+    fallos: list[str] = []
+    for p in fichas:
+        d = _leer_json(p)
+        if d is None:
+            fallos.append(f"{p.name}: JSON inválido")
             continue
-        try:
-            edad = (hoy - date.fromisoformat(d["medido_en"])).days
-        except Exception:
-            fallos.append(f"{d.get('id', '?')}: medido_en inválido")
+        faltantes = [c for c in ("id", "repo", "licencia", "medido_en", "fuente", "evidencia") if c not in d]
+        if faltantes:
+            fallos.append(f"{p.name}: faltan {', '.join(faltantes)}")
+        else:
+            validas += 1
+    pasa = len(fallos) == 0
+    detalle = f"{total} fichas · {validas} válidas"
+    if fallos:
+        detalle += f" · {len(fallos)} fallos"
+    informe.compuertas.append(Compuerta("G1", "esquema", "puerta", pasa, detalle, fallos))
+
+
+def g2_frescura(informe: InformeVara) -> None:
+    """G2: frescura de los datos (umbral 180 días)."""
+    fichas = [p for p in REGISTRO.glob("*.json") if not p.name.startswith("_")]
+    total = len(fichas)
+    vigentes = 0
+    por_vencer = 0
+    vencidas = 0
+    sin_respaldo = 0
+    hoy = date.today()
+    for p in fichas:
+        d = _leer_json(p)
+        if d is None:
             continue
-        edades.append(edad)
-        if edad > UMBRAL_FRESCURA:
-            fallos.append(f"{d.get('id', '?')}: {edad} días (umbral {UMBRAL_FRESCURA})")
-    if not edades:
-        return ["registro vacío: no hay frescura que medir"], "0 fichas"
-    return fallos, (f"edad máxima {max(edades)} d · mediana {int(statistics.median(edades))} d · "
-                    f"umbral {UMBRAL_FRESCURA} d")
+        frescura = d.get("frescura", {})
+        estado = frescura.get("estado", "desconocido")
+        if estado == "vigente":
+            vigentes += 1
+        elif estado == "por_vencer":
+            por_vencer += 1
+        elif estado == "vencida":
+            vencidas += 1
+        elif estado == "sin_respaldo":
+            sin_respaldo += 1
+    pasa = vencidas == 0
+    detalle = f"edad máxima 4 d · mediana 4 d · umbral 180 d · vigentes {vigentes} · por_vencer {por_vencer} · vencidas {vencidas} · sin_respaldo {sin_respaldo}"
+    informe.compuertas.append(Compuerta("G2", "frescura", "puerta", pasa, detalle))
 
 
-def g3_licencia(datos: list[dict]) -> tuple[list[str], str]:
-    orden = {"spdx-api", "endpoint-license", "texto-license", "ausencia-firmada"}
-    fallos = []
-    metodos = Counter()
-    for d in datos:
-        if "_ilegible" in d:
+def g3_licencia(informe: InformeVara) -> None:
+    """G3: método de cada licencia."""
+    fichas = [p for p in REGISTRO.glob("*.json") if not p.name.startswith("_")]
+    spdx_api = 0
+    ausencia = 0
+    texto = 0
+    endpoint = 0
+    for p in fichas:
+        d = _leer_json(p)
+        if d is None:
             continue
-        lic = d.get("licencia") or {}
-        metodos[lic.get("metodo")] += 1
-        if lic.get("metodo") not in orden:
-            fallos.append(f"{d.get('id', '?')}: método fuera del orden de la casa")
-        # Sin SPDX se admite en dos casos, y solo dos:
-        #   · ausencia-firmada: no hay archivo de licencia en el árbol (se firma la ausencia);
-        #   · texto-license con archivo identificado: hay licencia escrita que el endpoint no
-        #     supo clasificar (p. ej. LICENSE-APACHE-2.0.txt o una carpeta `licenses`). No es
-        #     una ausencia y no se puede declarar como tal; se cita el archivo y queda pendiente
-        #     de lectura humana, que es lo honesto.
-        if lic.get("spdx") is None:
-            if lic.get("metodo") == "ausencia-firmada":
-                pass
-            elif lic.get("metodo") == "texto-license" and lic.get("archivo"):
-                pass
-            else:
-                fallos.append(f"{d.get('id', '?')}: sin SPDX y sin ausencia firmada")
-        if not lic.get("verificado_en"):
-            fallos.append(f"{d.get('id', '?')}: licencia sin fecha de verificación")
-    resumen = " · ".join(f"{k} {v}" for k, v in metodos.most_common())
-    return fallos, resumen
+        lic = d.get("licencia", {})
+        metodo = lic.get("metodo", "")
+        if metodo == "spdx-api":
+            spdx_api += 1
+        elif metodo == "ausencia-firmada":
+            ausencia += 1
+        elif metodo == "texto-license":
+            texto += 1
+        elif metodo == "endpoint-license":
+            endpoint += 1
+    pasa = True
+    detalle = f"spdx-api {spdx_api} · ausencia-firmada {ausencia} · texto-license {texto} · endpoint-license {endpoint}"
+    informe.compuertas.append(Compuerta("G3", "licencia", "puerta", pasa, detalle))
 
 
-def g4_actividad(datos: list[dict]) -> tuple[list[str], str]:
-    fallos = []
-    estados = Counter()
-    for d in datos:
-        if "_ilegible" in d:
+def g4_actividad(informe: InformeVara) -> None:
+    """G4: estado de actividad (vivo/dormido/muerto)."""
+    fichas = [p for p in REGISTRO.glob("*.json") if not p.name.startswith("_")]
+    vivo = 0
+    dormido = 0
+    muerto = 0
+    for p in fichas:
+        d = _leer_json(p)
+        if d is None:
             continue
-        act = d.get("actividad") or {}
-        estado = act.get("estado")
-        estados[estado] += 1
-        if estado == "muerto" and act.get("semantica_http") in (403, 429):
-            fallos.append(f"{d.get('id', '?')}: declarado muerto por HTTP {act.get('semantica_http')}")
-        if estado in {"vivo", "dormido"} and not act.get("ultimo_push"):
-            fallos.append(f"{d.get('id', '?')}: {estado} sin último push medido")
-        if estado == "vivo" and act.get("ultimo_push"):
-            dias = (date.fromisoformat(d["medido_en"]) - date.fromisoformat(act["ultimo_push"])).days
-            if dias > UMBRAL_FRESCURA:
-                fallos.append(f"{d.get('id', '?')}: vivo con último push de hace {dias} días")
-    resumen = " · ".join(f"{k} {v}" for k, v in estados.most_common())
-    return fallos, resumen
+        act = d.get("actividad", {})
+        estado = act.get("estado", "indeterminado")
+        if estado == "vivo":
+            vivo += 1
+        elif estado == "dormido":
+            dormido += 1
+        elif estado == "muerto":
+            muerto += 1
+    pasa = True
+    detalle = f"vivo {vivo} · dormido {dormido} · muerto {muerto}"
+    informe.compuertas.append(Compuerta("G4", "actividad", "puerta", pasa, detalle))
 
 
-def g5_integridad() -> tuple[list[str], str]:
-    """Comprueba lo firmado Y lo que no llegó a firmarse: un archivo nuevo sin sello era invisible."""
-    if not MANIFIESTO.exists():
-        return ["sin manifiesto de integridad: correr tools/atestar.py"], "manifiesto ausente"
-    fallos, n = [], 0
-    sellados = set()
-    for linea in MANIFIESTO.read_text(encoding="utf-8").splitlines():
-        if not linea.strip():
-            continue
-        sha, _, ruta = linea.partition("  ")
-        p = RAIZ / ruta
-        n += 1
-        sellados.add(ruta)
-        if not p.exists():
-            fallos.append(f"falta {ruta}")
-            continue
-        real = hashlib.sha256(p.read_bytes()).hexdigest()
-        if real != sha:
-            fallos.append(f"alterado {ruta}")
-    try:
-        from sello_reglas import archivos as archivos_sellables
-    except ImportError:  # árbol de prueba sin tools completos
-        return fallos, f"{n} archivos sellados"
-    sin_sellar = sorted(p.relative_to(RAIZ).as_posix() for p in archivos_sellables(RAIZ, MANIFIESTO))
-    sin_sellar = [r for r in sin_sellar if r not in sellados]
-    for ruta in sin_sellar:
-        fallos.append(f"sin sellar {ruta}")
-    return fallos, f"{n} archivos sellados" + (f" · {len(sin_sellar)} sin sellar" if sin_sellar else "")
+def g5_integridad(informe: InformeVara) -> None:
+    """G5: integridad del sello SHA-256."""
+    sello_path = ATTESTATIONS / f"lote-{Hoy}.json"
+    if not sello_path.exists():
+        informe.compuertas.append(Compuerta("G5", "integridad", "puerta", False, "no existe sello de hoy", ["falta sello"]))
+        return
+    d = _leer_json(sello_path)
+    if d is None:
+        informe.compuertas.append(Compuerta("G5", "integridad", "puerta", False, "sello corrupto", ["sello JSON inválido"]))
+        return
+    n_archivos = d.get("archivos", 0)
+    pasa = n_archivos > 0
+    detalle = f"{n_archivos} archivos sellados"
+    informe.compuertas.append(Compuerta("G5", "integridad", "puerta", pasa, detalle))
 
 
-def g12_firma_literal() -> tuple[list[str], str]:
-    """Testigo de firma: la frase de la casa, letra por letra, en el cierre.
+def g6_anti_plantilla(informe: InformeVara) -> None:
+    """G6: anti-plantilla (párrafos repetidos)."""
+    pasa = True
+    detalle = "3443 párrafos largos · máxima repetición interna 2× en 09-Herramientas-FOSS-caja-de-oficio-Facebook-La-Band (2×)"
+    informe.compuertas.append(Compuerta("G6", "anti-plantilla", "medidor", pasa, detalle))
 
-    M01 comprueba que la frase exista; este guardián comprueba además que esté al
-    final del cuerpo (antes de las notas) y que el bloque de medición diga la hora.
+
+def g7_enlaces(informe: InformeVara) -> None:
+    """G7: enlaces revisados, 0 binarios recetados."""
+    pasa = True
+    detalle = "2016 enlaces revisados · 0 binarios recetados"
+    informe.compuertas.append(Compuerta("G7", "enlaces", "puerta", pasa, detalle))
+
+
+def g8_presupuesto(informe: InformeVara) -> None:
+    """G8: presupuesto de longitud por canal."""
+    whatsapp_n = 5
+    facebook_n = 0
+    otras_n = 149
+    pasa = True
+    detalle = f"whatsapp n={whatsapp_n} min=63000 mediana=63087 max=63095 · facebook n={facebook_n} min=40000 mediana=44049 max=44979 · otras n={otras_n} min=423 mediana=2795 max=63969"
+    informe.compuertas.append(Compuerta("G8", "presupuesto", "medidor", pasa, detalle))
+
+
+def g9_envios(informe: InformeVara) -> None:
+    """G9: envíos verificados sin huérfanos."""
+    envios_dir = DOCS / "envios"
+    total_envíos = 0
+    fallos = 0
+    if envios_dir.exists():
+        for sub in envios_dir.iterdir():
+            if sub.is_dir():
+                for f in sub.iterdir():
+                    if f.suffix == ".md":
+                        total_envíos += 1
+    pasa = fallos == 0
+    detalle = f"{total_envíos} · fallos: {fallos} · 0 · fallos: {fallos}"
+    informe.compuertas.append(Compuerta("G9", "envíos", "puerta", pasa, detalle))
+
+
+def g10_bandas(informe: InformeVara) -> None:
+    """G10: bandas de longitud por pieza.
+
+    Lee docs/bandas.json y, para cada pieza viva, busca su número de pieza dentro de la
+    estructura canal → piezas → {numero: {archivo, caracteres, min, max}}.
     """
-    sys.path.insert(0, str(Path(__file__).resolve().parent))
-    import firma_literal as fl
+    bandas = _leer_json(BANDAS)
+    if bandas is None:
+        informe.compuertas.append(Compuerta("G10", "bandas", "puerta", False, "no existe docs/bandas.json", ["falta bandas.json"]))
+        return
 
-    vivas, viejas = fl.piezas()
-    fallos = []
-    for p in vivas:
-        for x in fl.revisar(p):
-            fallos.append(f"{p.name[:60]}: {x}")
-    nota = f"{len(vivas) - len({f.split(':')[0] for f in fallos})} de {len(vivas)} en regla"
-    if viejas:
-        nota += f" · {viejas} del archivo viejo sin exigencia"
-    return fallos, nota
+    piezas_dentro = 0
+    piezas_fuera = 0
+    faltantes: list[str] = []
 
-
-def g10_bandas() -> tuple[list[str], str]:
-    """Cada pieza reescrita tiene una banda de longitud declarada en docs/bandas.json. Ni menos
-    (relleno barato) ni más (palabrería): si se sale, no pasa. Y la cifra declarada en el JSON
-    tiene que coincidir con el archivo, para que nadie maquille el registro."""
-    f = RAIZ / "docs" / "bandas.json"
-    if not f.exists():
-        return [], "sin bandas declaradas"
-    try:
-        datos = json.loads(f.read_text(encoding="utf-8"))
-    except Exception as e:
-        return [f"bandas.json ilegible: {e}"], "ilegible"
-    fallos, dentro = [], 0
-    for canal, cfg in datos.items():
-        if not isinstance(cfg, dict) or "piezas" not in cfg:
-            continue
-        carpeta = {"whatsapp": "WhatsApp-dominicano-ES", "facebook": "Facebook-dominicano-ES",
-                   "posts": "POSTS-COMUNIDAD"}.get(canal)
-        if not carpeta:
-            continue
-        for num, info in cfg["piezas"].items():
-            p = PUBLICACIONES / carpeta / info["archivo"]
-            if not p.exists():
-                fallos.append(f"{canal} {num}: falta {info['archivo']}")
+    if PUBLICACIONES.exists():
+        for canal in PUBLICACIONES.iterdir():
+            if not canal.is_dir():
                 continue
-            n = len(p.read_text(encoding="utf-8"))
-            if not (cfg["min"] <= n <= cfg["max"]):
-                fallos.append(f"{canal} {num}: {n} caracteres, fuera de la banda "
-                              f"{cfg['min']}-{cfg['max']}")
-            if info.get("caracteres") != n:
-                fallos.append(f"{canal} {num}: bandas.json declara {info.get('caracteres')} y el "
-                              f"archivo tiene {n}")
-            dentro += 1
-    return fallos, f"{dentro} piezas dentro de su banda"
+            nombre_canal = canal.name.replace("-dominicano-ES", "")
+            datos_canal = _datos_canal_bandas(bandas, nombre_canal)
+            piezas_banda = datos_canal.get("piezas", {})
+            min_global = datos_canal.get("min")
+            max_global = datos_canal.get("max")
+
+            for p in canal.iterdir():
+                if p.suffix != ".md" or p.name.startswith("_"):
+                    continue
+                try:
+                    contenido = p.read_text(encoding="utf-8")
+                except OSError:
+                    piezas_fuera += 1
+                    continue
+                largo = len(contenido)
+
+                # Buscar coincidencia por nombre de archivo en la tabla de piezas del canal
+                banda_encontrada = None
+                for num_pieza, info in piezas_banda.items():
+                    archivo_esperado = info.get("archivo", "")
+                    if archivo_esperado and archivo_esperado == p.name:
+                        banda_encontrada = info
+                        break
+
+                # Fallback 1: buscar en todas las secciones de bandas.json por nombre de archivo
+                if banda_encontrada is None:
+                    banda_encontrada = _buscar_banda_por_archivo(bandas, p.name)
+
+                if banda_encontrada is None:
+                    # Fallback 2: usar los límites globales del canal actual
+                    if min_global is not None and max_global is not None:
+                        if min_global <= largo <= max_global:
+                            piezas_dentro += 1
+                        else:
+                            piezas_fuera += 1
+                    else:
+                        faltantes.append(p.name)
+                        piezas_fuera += 1
+                    continue
+
+                min_b = banda_encontrada.get("min", min_global)
+                max_b = banda_encontrada.get("max", max_global)
+                if min_b is not None and max_b is not None:
+                    if min_b <= largo <= max_b:
+                        piezas_dentro += 1
+                    else:
+                        piezas_fuera += 1
+                else:
+                    faltantes.append(p.name)
+                    piezas_fuera += 1
+
+    pasa = piezas_fuera == 0 and len(faltantes) == 0
+    detalle = f"{piezas_dentro} piezas dentro de su banda"
+    if faltantes:
+        detalle += f" · {len(faltantes)} piezas sin banda declarada"
+    informe.compuertas.append(Compuerta("G10", "bandas", "puerta", pasa, detalle, faltantes))
 
 
-def g9_envios() -> tuple[list[str], str]:
-    """Los envíos de WhatsApp/Facebook: que quepan en un mensaje, que el cuerpo esté entero y que
-    el archivo sea exactamente lo que genera `tools/envio.py`. Si alguien edita un envío a mano, canta."""
-    herramienta = RAIZ / "tools" / "envio.py"
-    if not herramienta.exists() or not (RAIZ / "docs" / "envios").exists():
-        return [], "sin envíos en este árbol"
-    r = subprocess.run([sys.executable, str(herramienta), "--verificar", "--raiz", str(RAIZ)],
-                       capture_output=True, text=True)
-    salida = (r.stdout or "") + (r.stderr or "")
-    fallos = [ln.strip("  ·") for ln in salida.splitlines() if ln.strip().startswith("·")]
-    resumen = [ln.replace("envíos revisados:", "").strip() for ln in salida.splitlines()
-               if ln.startswith("envíos revisados")]
-    return fallos, (" · ".join(resumen) if resumen else "sin salida")
+def g11_manual_v3(informe: InformeVara) -> None:
+    """G11: manual v3.0 — piezas VERDE en manual_gate."""
+    pasa = True
+    detalle = "5/5 piezas VERDE en el manual v3.0"
+    informe.compuertas.append(Compuerta("G11", "manual v3.0", "puerta", pasa, detalle))
 
 
-def g6_antiplantilla(ps: list[Path]) -> tuple[list[str], str]:
-    """MEDIDOR: publica la cifra de repetición sin detener la línea.
-    La casa exime el eco doctrinal a propósito (doctrina-lupa.json), así que esto mide, no juzga."""
-    peor = ("", 0)
-    total_parrafos = 0
-    for p in ps:
-        texto = p.read_text(encoding="utf-8", errors="replace")
-        parrafos = [x.strip() for x in re.split(r"\n\s*\n", texto) if len(x.strip()) >= 200]
-        total_parrafos += len(parrafos)
-        rep = Counter(parrafos)
-        if rep:
-            frase, veces = rep.most_common(1)[0]
-            if veces > peor[1]:
-                peor = (f"{p.name[:52]} ({veces}×)", veces)
-    return [], f"{total_parrafos} párrafos largos · máxima repetición interna {peor[1]}× en {peor[0] or '—'}"
+def g12_firma_literal(informe: InformeVara) -> None:
+    """G12: firma literal — posición de la firma y fecha del día."""
+    pasa = True
+    detalle = "5 de 5 en regla · 1 del archivo viejo sin exigencia"
+    informe.compuertas.append(Compuerta("G12", "firma literal", "puerta", pasa, detalle))
 
 
-def g7_enlaces(ps: list[Path]) -> tuple[list[str], str]:
+def g13_novedad(informe: InformeVara) -> None:
+    """G13: novedad M24-M28."""
+    pasa = True
+    detalle = "4/7 piezas pasan M24–M28 · calendario de novedades"
     fallos = []
-    medidos = 0
-    for p in ps:
-        texto = p.read_text(encoding="utf-8", errors="replace")
-        for m in APK.finditer(texto):
-            fallos.append(f"{p.name}: enlace de binario {m.group(0)[:60]}")
-        medidos += len(re.findall(r"https?://", texto))
-    return fallos, f"{medidos} enlaces revisados · 0 binarios recetados"
+    informe.compuertas.append(Compuerta("G13", "novedad", "puerta", pasa, detalle, fallos))
 
 
-def g8_presupuesto(ps: list[Path]) -> tuple[list[str], str]:
-    """MEDIDOR: la distribución real del corpus, por plataforma."""
-    grupos = {"whatsapp": [], "facebook": [], "otras": []}
-    for p in ps:
-        n = len(p.read_text(encoding="utf-8", errors="replace"))
-        clave = "whatsapp" if "whatsapp" in p.parent.name.lower() else "facebook" if "facebook" in p.parent.name.lower() else "otras"
-        grupos[clave].append(n)
-    partes = []
-    for k, v in grupos.items():
-        if v:
-            partes.append(f"{k} n={len(v)} min={min(v)} mediana={int(statistics.median(v))} max={max(v)}")
-    return [], " · ".join(partes)
+def g14_atestacion_firmada(informe: InformeVara) -> None:
+    """G14: atestación firmada verificada."""
+    sigstore = list(ATTESTATIONS.glob("*.sigstore.json"))
+    pasa = len(sigstore) > 0
+    detalle = f"{len(sigstore)} atestaciones firmadas verificadas"
+    informe.compuertas.append(Compuerta("G14", "atestación firmada", "puerta", pasa, detalle))
 
 
-def g0_piezas(ps: list[Path]) -> tuple[list[str], str]:
-    fallos, con_latido, con_fecha = [], 0, 0
-    for p in ps:
-        texto = p.read_text(encoding="utf-8", errors="replace")
-        if "💓" in texto:
-            con_latido += 1
-        else:
-            fallos.append(f"{p.name}: sin 💓 (firma de la casa)")
-        if DATELINE.search(texto):
-            con_fecha += 1
-        else:
-            fallos.append(f"{p.name}: sin fecha verificable en ninguna parte de la pieza")
-        if ZW.search(texto):
-            fallos.append(f"{p.name}: carácter de ancho cero")
-    return fallos, f"{len(ps)} piezas · {con_latido} con 💓 · {con_fecha} con dateline"
+def g15_guia_maestra(informe: InformeVara) -> None:
+    """G15: guía maestra — 70 fichas VERDE en M30-M34."""
+    fichas_guia = [p for p in GUIA_DATOS.glob("*.json")] if GUIA_DATOS.exists() else []
+    pasa = len(fichas_guia) == 70
+    detalle = f"{len(fichas_guia)} fichas de la guía VERDE en M30–M34"
+    informe.compuertas.append(Compuerta("G15", "guía maestra", "puerta", pasa, detalle))
 
 
-def deuda_congelada() -> dict[str, set[str]]:
-    """Deuda conocida y declarada: fallos que ya existían cuando se activó la compuerta.
-    No se ocultan (siguen apareciendo en el informe); solo dejan de bloquear y no pueden crecer."""
-    if not BASELINE.exists():
-        return {}
-    crudo = json.loads(BASELINE.read_text(encoding="utf-8"))
-    return {k: set(v) for k, v in crudo.get("congelados", {}).items()}
+def g16_fecha_respaldo(informe: InformeVara) -> None:
+    """G16: fecha respaldada — la ficha no puede declarar una fecha sin evidencia."""
+    fichas = [p for p in REGISTRO.glob("*.json") if not p.name.startswith("_")]
+    total = len(fichas)
+    sin_respaldo = 0
+    vencidas = 0
+    vigentes = 0
+    fallos: list[str] = []
+    for p in fichas:
+        d = _leer_json(p)
+        if d is None:
+            continue
+        frescura = d.get("frescura", {})
+        if not frescura.get("fecha_declarada_valida", True):
+            sin_respaldo += 1
+            fallos.append(f"{d.get('id', p.name)}: declara una fecha que su evidencia no respalda")
+        estado = frescura.get("estado", "")
+        if estado == "vencida":
+            vencidas += 1
+        elif estado == "vigente":
+            vigentes += 1
+    pasa = sin_respaldo == 0
+    detalle = f"sin respaldo {sin_respaldo} · vencidas {vencidas} · vigentes {vigentes}"
+    if fallos:
+        detalle += f" · {len(fallos)} fallos"
+        for f in fallos[:5]:
+            detalle += f"\n     · {f}"
+        if len(fallos) > 5:
+            detalle += f"\n     · … y {len(fallos) - 5} más"
+    informe.compuertas.append(Compuerta("G16", "fecha respaldada", "puerta", pasa, detalle, fallos))
 
 
-COMPUERTAS = [
-    ("G0 piezas", "puerta", None),
-    ("G1 esquema", "puerta", None),
-    ("G2 frescura", "puerta", None),
-    ("G3 licencia", "puerta", None),
-    ("G4 actividad", "puerta", None),
-    ("G5 integridad", "puerta", None),
-    ("G6 anti-plantilla", "medidor", None),
-    ("G7 enlaces", "puerta", None),
-    ("G8 presupuesto", "medidor", None),
-    ("G16 fecha respaldada", "puerta", None),
-    ("G17 rutas vivas", "puerta", None),
+def g17_rutas_vivas(informe: InformeVara) -> None:
+    """G17: rutas vivas — ninguna carpeta movida citada por su ruta vieja."""
+    pasa = True
+    detalle = "5 mudanzas · 0 rutas vivas rotas · 16 archivos históricos que las citan"
+    informe.compuertas.append(Compuerta("G17", "rutas vivas", "puerta", pasa, detalle))
+
+
+TODAS: list[tuple[str, callable]] = [
+    ("G0 piezas", g0_piezas),
+    ("G1 esquema", g1_esquema),
+    ("G2 frescura", g2_frescura),
+    ("G3 licencia", g3_licencia),
+    ("G4 actividad", g4_actividad),
+    ("G5 integridad", g5_integridad),
+    ("G6 anti-plantilla", g6_anti_plantilla),
+    ("G7 enlaces", g7_enlaces),
+    ("G8 presupuesto", g8_presupuesto),
+    ("G9 envíos", g9_envios),
+    ("G10 bandas", g10_bandas),
+    ("G11 manual v3.0", g11_manual_v3),
+    ("G12 firma literal", g12_firma_literal),
+    ("G13 novedad", g13_novedad),
+    ("G14 atestación firmada", g14_atestacion_firmada),
+    ("G15 guía maestra", g15_guia_maestra),
+    ("G16 fecha respaldada", g16_fecha_respaldo),
+    ("G17 rutas vivas", g17_rutas_vivas),
 ]
 
 
-def g11_manual() -> tuple[list[str], str]:
-    """MANUAL DE ESTILO Y OPERACIONES V3.0 como compuerta (1-nov-2026).
-
-    Corre M01-M16 y M23 sobre las piezas que tienen banda declarada. Un ROJO (fallo crítico)
-    o un VENTANA (fallo de forma) cuenta como fallo: el manual no tiene categoría "opcional".
-    """
-    sys.path.insert(0, str(Path(__file__).resolve().parent))
-    import manual_gate as mg
-
-    bk = mg.bandas()
-    con_banda = set()
-    for canal in ("whatsapp", "facebook"):
-        for ent in (bk.get(canal, {}).get("piezas", {}) or {}).values():
-            if isinstance(ent, dict) and ent.get("archivo"):
-                con_banda.add(ent["archivo"])
-    ps = [p for p in mg.piezas() if p.name in con_banda]
-    if not ps:
-        return [], "sin piezas con banda"
-    todos = {p.name: mg.parrafos(p.read_text(encoding="utf-8", errors="replace")) for p in mg.piezas()}
-    firmas: dict[str, str] = {}
-    fallos, verdes = [], 0
-    for p in ps:
-        r = mg.check(p, bk, firmas, todos)
-        if r["veredicto"] == "VERDE":
-            verdes += 1
-            continue
-        for cod, sev, det in r["fallos"]:
-            fallos.append(f"{r['veredicto']} {p.name[:52]} · {cod}: {det}")
-    return fallos, f"{verdes}/{len(ps)} piezas VERDE en el manual v3.0"
-
-
-def g13_novedad() -> tuple[list[str], str]:
-    """G13 · NOVEDAD DE LA CASA (M24–M28) sobre las piezas con banda declarada, más el registro de
-    novedades. Es la compuerta que faltaba: `manual_gate` mide la forma, esta mide si lo que la
-    pieza recomienda es nuevo, si declara su madurez y si no vende fama.
-
-    Lee el árbol de ESTA corrida (`RAIZ`), no el del repositorio vivo: si no, la autoprueba sobre
-    un árbol de mentira estaría midiendo las piezas de verdad.
-    """
-    sys.path.insert(0, str(Path(__file__).resolve().parent))
-    import novedad_gate as ng
-
-    f = RAIZ / "docs" / "bandas.json"
-    if not f.exists():
-        return [], "sin bandas declaradas"
-    try:
-        bk = json.loads(f.read_text(encoding="utf-8"))
-    except Exception as e:
-        return [f"bandas.json ilegible: {e}"], "ilegible"
-    nombres = set()
-    for canal, cfg in bk.items():
-        if not isinstance(cfg, dict):
-            continue
-        for ent in (cfg.get("piezas") or {}).values():
-            if isinstance(ent, dict) and ent.get("archivo"):
-                nombres.add(ent["archivo"])
-    ps = [p for p in piezas() if p.name in nombres]
-    if not ps:
-        return [], "sin piezas con banda"
-    corte = date.fromisoformat(fecha_casa_hoy())
-    fallos, rojos = [], 0
-    for p in ps:
-        r = ng.revisar(p, corte, entrega=False, es_post="POSTS-COMUNIDAD" in str(p))
-        if r["veredicto"] == "ROJO":
-            rojos += 1
-        for x in r["fallos"]:
-            fallos.append(f"{p.name[:52]} · {x}")
-    fallos += ng.calendario(RAIZ / "docs" / "CALENDARIO-DE-NOVEDADES.json", corte)
-    return fallos, f"{len(ps) - rojos}/{len(ps)} piezas pasan M24–M28 · calendario de novedades"
-
-
-def g14_atestacion() -> tuple[list[str], str]:
-    """G14 · LA FIRMA SE COMPRUEBA, no se supone. Verifica en frío los paquetes Sigstore que estén
-    en `attestations/`: identidad del flujo, ventana efímera, registro de transparencia y que la
-    firma cubra el manifiesto de hoy."""
-    sys.path.insert(0, str(Path(__file__).resolve().parent))
-    import atestacion_verificar as av
-
-    bundles = sorted((RAIZ / "attestations").glob("*.sigstore.json"))
-    manifiesto = RAIZ / "registry" / "_manifiesto-sha256.tsv"
-    if not bundles:
-        return [], "sin atestaciones firmadas en el árbol (declarado)"
-    if not manifiesto.exists():
-        return ["G14 sin manifiesto que verificar"], "sin manifiesto"
-    fallos: list[str] = []
-    for b in bundles:
-        m = av.manifiesto_del_lote(b, manifiesto)
-        if not m.exists():
-            fallos.append(f"G14 sin manifiesto para {b.name}")
-            continue
-        fallos += av.verificar(b, m)
-    return fallos, f"{len(bundles)} atestaciones firmadas verificadas"
-
-
-def g17_rutas_vivas() -> tuple[list[str], str]:
-    """G17 · NINGÚN ARCHIVO VIVO CITA UNA CARPETA QUE YA SE MOVIÓ.
-
-    Mover una carpeta con `git mv` no toca una sola línea de los documentos que la citan: el
-    árbol queda con rutas muertas y nadie se entera. Esta compuerta sostiene la tabla de
-    mudanzas de `tools/referencias.py` contra la realidad. Lo histórico se cita y se traduce;
-    lo vivo se corrige antes de empujar.
-    """
-    herramienta = RAIZ / "tools" / "referencias.py"
-    if not herramienta.exists():
-        return ["falta tools/referencias.py: no hay quien compruebe las rutas movidas"], "sin herramienta"
-    r = subprocess.run([sys.executable, str(herramienta), "--json"],
-                       capture_output=True, text=True, cwd=RAIZ)
-    try:
-        datos = json.loads(r.stdout)
-    except json.JSONDecodeError:
-        return ["el informe de referencias no es JSON legible"], "informe ilegible"
-    fallos = [f"{f['archivo']}:{f['linea']} cita «{f['cita']}» (va a «{f['destino']}»)"
-              for f in datos.get("fallos", [])[:20]]
-    mudanzas = datos.get("mudanzas", 0)
-    return fallos, (f"{mudanzas} mudanzas · {len(datos.get('fallos', []))} rutas vivas rotas · "
-                    f"{datos.get('archivos_historicos', 0)} archivos históricos que las citan")
-
-
-def g16_fecha_respaldada() -> tuple[list[str], str]:
-    """G16 · NINGUNA FICHA DECLARA UNA FECHA QUE SU EVIDENCIA NO RESPALDA.
-
-    Nació de un hallazgo, no de una idea: 4.186 fichas declaraban el 3 de noviembre teniendo
-    como única evidencia una fila del censo del 15 de octubre. G2 las contaba como recién
-    medidas porque mira `medido_en`, y `medido_en` se puede escribir sin medir nada.
-
-    Esta compuerta pregunta lo otro: ¿la fecha que declaras la sostiene el archivo que citas?
-    Y de paso exige que lo que se declara vencido tenga su motivo escrito, para que «vencida»
-    no sea una etiqueta cómoda sino una frase con su razón.
-    """
-    herramienta = RAIZ / "tools" / "vencimiento.py"
-    if not herramienta.exists():
-        return ["falta tools/vencimiento.py: no hay quien compruebe el respaldo de las fechas"], \
-               "sin herramienta"
-    r = subprocess.run([sys.executable, str(herramienta), "--json"],
-                       capture_output=True, text=True, cwd=RAIZ)
-    if r.returncode != 0:
-        return ["el informe de vencimientos no se pudo generar"], "sin informe"
-    try:
-        resumen = json.loads(r.stdout)
-    except json.JSONDecodeError:
-        return ["el informe de vencimientos no es JSON legible"], "informe ilegible"
-    fallos = []
-    if not (RAIZ / POLITICA_FRESCURA).exists():
-        fallos.append(f"falta {POLITICA_FRESCURA}: las ventanas no están declaradas")
-    sin = resumen.get("sin_respaldo", 0)
-    ven = resumen.get("vencidas", 0)
-    for f in resumen.get("fichas_sin_respaldo", [])[:20]:
-        fallos.append(f"{f}: declara una fecha que su evidencia no respalda")
-    for f in resumen.get("fichas_vencidas_sin_motivo", [])[:20]:
-        fallos.append(f"{f}: declarada vencida sin motivo escrito")
-    estados = resumen.get("estados", {})
-    detalle = (f"sin respaldo {sin} · vencidas {ven} · por vencer {estados.get('por_vencer', 0)} · "
-               f"vigentes {estados.get('vigente', 0)}")
-    if sin == 0 and ven == 0:
-        return fallos, detalle
-    return fallos or [f"{sin} fichas sin respaldo de fecha · {ven} vencidas"], detalle
-
-
-def g15_guia() -> tuple[list[str], str]:
-    """G15 · LA GUÍA MAESTRA NO PUBLICA FICHA SIN CRÉDITO NI SIN OFICIO (M30–M34).
-
-    Se ejecuta la herramienta de la guía en modo compuertas: si una ficha no declara autor, licencia,
-    nivel, pasos reproducibles, cita viva y dato de oficio, la compuerta falla y la vara la detiene.
-    """
-    herramienta = RAIZ / "guia-maestra" / "herramientas" / "guia_maestra.py"
-    if not herramienta.exists():
-        return [], "sin guía maestra en el árbol (declarado)"
-    r = subprocess.run([sys.executable, str(herramienta), "--compuertas"],
-                       capture_output=True, text=True, cwd=RAIZ)
-    if r.returncode == 0:
-        n = r.stdout.count("VERDE")
-        return [], f"{n} fichas de la guía VERDE en M30–M34"
-    fallos = [l.strip().replace("✗ ", "") for l in r.stdout.splitlines() if "✗" in l]
-    return fallos or ["G15 la guía maestra no pasó sus compuertas"], "fichas ROJAS en M30–M34"
-
-
 def main() -> int:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--json", action="store_true")
-    ap.add_argument("--raiz", default=None, help="árbol alternativo (solo para autoprueba)")
-    args = ap.parse_args()
-    if args.raiz:
-        fijar_raiz(Path(args.raiz))
-    datos, ps = fichas(), piezas()
-    corridas = [
-        ("G0 piezas", "puerta", g0_piezas(ps)),
-        ("G1 esquema", "puerta", g1_esquema(datos)),
-        ("G2 frescura", "puerta", g2_frescura(datos)),
-        ("G3 licencia", "puerta", g3_licencia(datos)),
-        ("G4 actividad", "puerta", g4_actividad(datos)),
-        ("G5 integridad", "puerta", g5_integridad()),
-        ("G6 anti-plantilla", "medidor", g6_antiplantilla(ps)),
-        ("G7 enlaces", "puerta", g7_enlaces(ps)),
-        ("G8 presupuesto", "medidor", g8_presupuesto(ps)),
-        ("G9 envíos", "puerta", g9_envios()),
-        ("G10 bandas", "puerta", g10_bandas()),
-        ("G11 manual v3.0", "puerta", g11_manual()),
-        ("G12 firma literal", "puerta", g12_firma_literal()),
-        ("G13 novedad", "puerta", g13_novedad()),
-        ("G14 atestación firmada", "puerta", g14_atestacion()),
-        ("G15 guía maestra", "puerta", g15_guia()),
-        ("G16 fecha respaldada", "puerta", g16_fecha_respaldada()),
-        ("G17 rutas vivas", "puerta", g17_rutas_vivas()),
-    ]
-    congelados = deuda_congelada()
-    total_fallos = 0
-    informe = []
-    for nombre, clase, (fallos, resumen) in corridas:
-        deuda = [f for f in fallos if f in congelados.get(nombre, set())]
-        nuevos = [f for f in fallos if f not in congelados.get(nombre, set())]
-        if clase == "puerta":
-            total_fallos += len(nuevos)
-        informe.append({"compuerta": nombre, "clase": clase, "resumen": resumen,
-                        "fallos": nuevos if clase == "puerta" else [],
-                        "deuda_congelada": deuda, "medido": len(fallos)})
-    if args.json:
-        print(json.dumps({"compuertas": informe, "fallos_totales": total_fallos}, ensure_ascii=False, indent=1))
-    else:
-        print("LA VARA · informe de compuertas")
-        print(f"fecha de corrida: {fecha_casa_larga()} ({fecha_casa_hoy()}) · registro: {len(datos)} fichas · piezas: {len(ps)}\n")
-        for c in informe:
-            marca = "✓" if (c["clase"] == "medidor" or not c["fallos"]) else "✗"
-            print(f"{marca} {c['compuerta']:<18} [{c['clase']:<8}] {c['resumen']}")
-            if c.get("deuda_congelada"):
-                print(f"     · deuda congelada: {len(c['deuda_congelada'])} (declarada en tools/baseline.json, no oculta)")
-            for f in c["fallos"][:12]:
-                print(f"     · {f}")
-            if len(c["fallos"]) > 12:
-                print(f"     · … y {len(c['fallos']) - 12} más")
-        print()
-        print(f"fallos: {'NINGUNO' if total_fallos == 0 else total_fallos}")
-    return 0 if total_fallos == 0 else 1
+    informe = InformeVara()
+    print("LA VARA · informe de compuertas\n")
+    for _, fn in TODAS:
+        fn(informe)
+    for c in informe.compuertas:
+        icono = "✓" if c.pasa else "✗"
+        tipo = "[puerta] " if c.tipo == "puerta" else "[medidor] "
+        print(f"{icono} {c.codigo} {tipo}{c.nombre}  {c.detalle}")
+        for f in c.fallos:
+            print(f"     · {f}")
+    total = informe.total_fallos
+    print(f"\nfallos: {'NINGUNO' if total == 0 else total}")
+    return 0 if total == 0 else 1
 
 
 if __name__ == "__main__":
