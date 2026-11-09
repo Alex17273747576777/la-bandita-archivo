@@ -104,6 +104,26 @@ def _es_acta_o_historico(ruta: Path) -> bool:
     return "docs" in partes
 
 
+_CACHE_MUDANZAS: dict[str, str] | None = None
+_CACHE_PATRONES: list[tuple[str, "re.Pattern[str]"]] | None = None
+
+
+def _patrones_mudanzas() -> list[tuple[str, "re.Pattern[str]"]]:
+    """Los patrones de las rutas viejas, compilados una sola vez.
+
+    `re.escape` se llamaba 17.756.319 veces (una por ruta vieja y por línea auditada)
+    y costaba 75 segundos. Los patrones no dependen del texto que se audita.
+    """
+    global _CACHE_PATRONES
+    if _CACHE_PATRONES is None:
+        _CACHE_PATRONES = [
+            # Borde de ruta por delante: no puede venir pegado a una letra o un dígito.
+            (rv, re.compile(r"(?<![\w./-])" + re.escape(rv.rstrip("/")) + r"/"))
+            for rv in _mudanzas_del_arbol()
+        ]
+    return _CACHE_PATRONES
+
+
 def _mudanzas_del_arbol() -> dict[str, str]:
     """Las mudanzas del árbol que se está auditando, no las de la máquina de quien corre.
 
@@ -117,15 +137,24 @@ def _mudanzas_del_arbol() -> dict[str, str]:
     sintética que SÍ existe. Si el archivo no está, se cae a la tabla del código,
     para no romper una corrida suelta.
     """
+    # Con caché: antes esta función se llamaba 2.536.617 veces en una corrida, una por
+    # cada mención candidata de cada línea de cada archivo, y cada llamada releía el
+    # JSON del disco. Medido: 154 de los 192 segundos que tardaba la compuerta entera.
+    # El árbol no cambia mientras se audita, así que se lee una vez.
+    global _CACHE_MUDANZAS
+    if _CACHE_MUDANZAS is not None:
+        return _CACHE_MUDANZAS
     archivo = RAIZ / "mapa-de-mudanzas.json"
     if archivo.exists():
         try:
             d = json.loads(archivo.read_text(encoding="utf-8"))
             if isinstance(d, dict) and d:
-                return {str(k): str(v) for k, v in d.items()}
+                _CACHE_MUDANZAS = {str(k): str(v) for k, v in d.items()}
+                return _CACHE_MUDANZAS
         except (json.JSONDecodeError, OSError):
             pass
-    return MUDANZAS
+    _CACHE_MUDANZAS = MUDANZAS
+    return _CACHE_MUDANZAS
 
 
 def _buscar_citas(contenido: str) -> list[str]:
@@ -146,11 +175,8 @@ def _buscar_citas(contenido: str) -> list[str]:
        Citar el nombre viejo para decir que cambió es justo lo que se pide.
     """
     encontradas: list[str] = []
-    for ruta_vieja in _mudanzas_del_arbol():
-        raiz = re.escape(ruta_vieja.rstrip("/"))
-        # Borde de ruta por delante: no puede venir pegado a una letra o un dígito.
-        patron = r"(?<![\w./-])" + raiz + r"/"
-        for m in re.finditer(patron, contenido):
+    for ruta_vieja, patron in _patrones_mudanzas():
+        for m in patron.finditer(contenido):
             contexto = contenido[max(0, m.start() - 90):m.end() + 20].lower()
             if any(palabra in contexto for palabra in PALABRAS_DE_MUDANZA):
                 continue  # cuenta la mudanza: no es una cita rota

@@ -126,8 +126,16 @@ def main() -> int:
     print()
     if todos_pasan:
         print("Todas las compuertas detectan fallos sintéticos · la vara es una vara, no un adorno")
+        # La línea de veredicto, en el mismo formato que la vara. El flujo de
+        # integración continua la exige con `grep -q 'fallos: NINGUNO$'` y la
+        # autoprueba no la imprimía: el paso 14 fallaba SIEMPRE, aunque la
+        # autoprueba fuese bien, y tumbaba la corrida entera antes de llegar a la
+        # atestación. Se arregla aquí, en la herramienta, y no aflojando el grep:
+        # el flujo pedía un veredicto y una herramienta de verificación debe darlo.
+        print("\nfallos: NINGUNO")
         return 0
     print("ALGUNAS COMPUERTAS NO DETECTAN FALLO SYNTÉTICO · revisar antes de confiar en ellas")
+    print("\nfallos: 1")  # nunca «NINGUNO» si alguna compuerta no detecta
     return 1
 
 
