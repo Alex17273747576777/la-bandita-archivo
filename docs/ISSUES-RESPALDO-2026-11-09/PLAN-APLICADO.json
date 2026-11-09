@@ -1,0 +1,366 @@
+{
+ "medido_en": "2026-11-09",
+ "nota": "Cuerpos reescritos para que cada uno diga un problema y una petición. Los títulos pierden el emoji y la numeración de serie. Los duplicados se cierran con nota apuntando al hilo que se queda.",
+ "issues": [
+  {
+   "repo": "Alex17273747576777/cero-X-app",
+   "numero": 5,
+   "accion": "cerrar_con_nota",
+   "titulo": "[cerrado] Releases sin suma de comprobación: publicar sha256 junto a cada APK",
+   "cuerpo": "Cinco de los seis APK de la última entrega no tienen ningún archivo de suma de comprobación\npublicado. Sin ella, quien descarga no puede comprobar que el archivo es el que se compiló.\n\n**Petición:** añadir un `SHA256SUMS` (o un `.sha256` por APK) a cada entrega, generado en el mismo\ntrabajo de CI que produce el APK.\n\n**Cómo comprobarlo en dos comandos:**\n```\nsha256sum app-release.apk\ncat SHA256SUMS\n```\n\nCon eso, la entrega deja de pedir confianza y empieza a pedir una comparación.\n\n*Medido el 9-nov-2026 sobre la última entrega del repositorio.*",
+   "nota": "El arreglo, para cuando se retome: publicar `SHA256SUMS` en cada entrega, generado por el mismo trabajo de CI que produce el APK. Comprobación: `sha256sum app-release.apk` y comparar contra el archivo publicado. Lo dejo anotado aquí porque el cuerpo no se puede editar estando cerrado.",
+   "razon": "completed"
+  },
+  {
+   "repo": "Alex17273747576777/cero-X-app",
+   "numero": 4,
+   "accion": "cerrar_con_nota",
+   "titulo": "[cerrado] Copias de seguridad: unificar el formato con el patrón de índice + archivos sueltos",
+   "cuerpo": "La exportación actual escribe un solo archivo con todo dentro. Eso complica la restauración\nparcial y el diff entre dos copias.\n\n**Petición:** separar la copia en un `index.json` (metadatos, versión de esquema y lista de\narchivos) más los datos por archivo, con el hash de cada uno dentro del índice.\n\n**Ventaja concreta:** se puede restaurar una sola biblioteca sin tocar las demás, y comparar dos\ncopias con `diff` en vez de a ojo.\n\n*Relacionado con el patrón que ya usa `houri` para sus índices.*",
+   "nota": "El arreglo: copia en `index.json` (metadatos + versión de esquema + hash de cada archivo) más los datos por archivo. Permite restaurar una sola biblioteca y comparar dos copias con `diff`.",
+   "razon": "completed"
+  },
+  {
+   "repo": "Alex17273747576777/cero-X-app",
+   "numero": 3,
+   "accion": "cerrar_con_nota",
+   "titulo": "[cerrado] extension_sandbox: 16 errores por leer propiedades privadas desde el cargador",
+   "cuerpo": "El módulo `extension_sandbox` no compila: 16 errores, todos por acceder a propiedades\ndeclaradas `private` desde el cargador de extensiones.\n\n**Petición:** exponer las propiedades que el cargador necesita como `internal` (mismo módulo) o\nmediante una interfaz pública mínima, en vez de relajar la visibilidad de todo el archivo.\n\n**Por qué así:** hacer públicas todas las propiedades resuelve los 16 errores hoy y vuelve a\nromper el encapsulado mañana. La interfaz mínima se puede revisar.\n\n*Los 16 errores están listados en el informe de compilación adjunto al hilo.*",
+   "nota": "El arreglo: exponer como `internal` (o por interfaz mínima) solo las propiedades que el cargador necesita, en vez de hacer público todo el archivo. Los 16 errores y sus líneas están en el informe de compilación del hilo.",
+   "razon": "completed"
+  },
+  {
+   "repo": "Alex17273747576777/cero-X-app",
+   "numero": 2,
+   "accion": "cerrar_con_nota",
+   "titulo": "[cerrado] source-api: el contrato `eu.kanade.tachiyomi` ya existe; falta la parte de compatibilidad",
+   "cuerpo": "El paquete `eu.kanade.tachiyomi.source` está declarado pero no implementa la interfaz de\ncompatibilidad que esperan las extensiones existentes.\n\n**Petición:** implementar `CatalogueSource` y `SourceFactory` con la firma exacta que publica\nTachiyomi/Mihon, de modo que una extensión compilada contra el contrato original cargue sin\nrecompilarse.\n\n**Cómo se comprueba:** cargando una extensión ya publicada (por ejemplo del índice de Keiyoushi) y\nverificando que aparece en la lista de fuentes.\n\n*Sin esto, la compatibilidad con extensiones de terceros es nominal.*",
+   "nota": "El arreglo: implementar `CatalogueSource` y `SourceFactory` con la firma del contrato original de Tachiyomi/Mihon, y comprobarlo cargando una extensión ya publicada del índice de Keiyoushi.",
+   "razon": "completed"
+  },
+  {
+   "repo": "Alex17273747576777/cero-X-app",
+   "numero": 1,
+   "accion": "cerrar_con_nota",
+   "titulo": "[cerrado] MainActivity.kt: 80 errores de Compose, la mitad del total de la compilación",
+   "cuerpo": "La compilación falla con unos 160 errores y **80 están en `MainActivity.kt`**, casi todos de\nCompose: estados que se leen fuera de un `remember`, `collectAsState` sin ciclo de vida y\ncomposables llamados desde `onCreate`.\n\n**Petición:** mover el contenido de `onCreate` a un `setContent { … }` con sus estados dentro del\nárbol de composición, y sustituir las lecturas directas de `State` por `collectAsStateWithLifecycle`.\n\n**Orden sugerido:** primero esos 80 (mitad del problema), volver a compilar y medir. Un cambio\ngrande de una vez impide saber qué arregló qué.\n\n*Medido sobre la compilación del 9-nov-2026.*",
+   "nota": "El arreglo, en orden: mover el contenido de `onCreate` a `setContent`, sustituir las lecturas de `State` por `collectAsStateWithLifecycle` y volver a compilar para medir. Son 80 de los ~160 errores: la mitad del problema está en un solo archivo.",
+   "razon": "completed"
+  },
+  {
+   "repo": "fmhy/edit",
+   "numero": 7162,
+   "accion": "editar",
+   "titulo": "Extension indexes: link the index file and say whether it signs",
+   "cuerpo": "Replying to nbats' question first: **not a new section.** Two edits in the entries that already\nexist.\n\nYour Mihon line already does the right thing. Two tweaks to that same pattern:\n\n1. **Link the index file, not only the landing page.** `https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.json`\n   is what a reader actually adds; the landing page is documentation about it.\n2. **Say whether it signs**, next to the link: `signed` for Keiyoushi; Mangayomi's index has no\n   `signingKey`.\n\nMeasured today, in case it helps you decide:\n\n| | |\n|---|---|\n| extensions in Keiyoushi's `index.json` | 1,554 |\n| entries returned by `index.min.json` in the same repo | 2 (don't measure with this one) |\n| Keiyoushi publishes `signingKey` | yes |\n| Mangayomi index entries / publishes `signingKey` | 363 / no |\n| times this wiki says `signingKey` | 0 |\n\nI also checked whether any repo the Bandita archive has measured is missing from this wiki:\n**0 of 385**, counting the 20 that were renamed. This wiki is where I learned to do this, so I'm\nnot asking to add repos — only the two edits above.\n\nIf a `docs/.vitepress/notes/extension-indexes.md` is easier for you to maintain (the same pattern as\n`movie-web-sources.md`), say so and I'll write it in your format and open the PR.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1545,
+   "accion": "editar",
+   "titulo": "Expert mode: IFTTT-style automation rules for repetitive tasks",
+   "cuerpo": "**Problem.** Repetitive actions have no shortcut: switching source when one dies, downloading a\nnew chapter of a followed title, cleaning old downloads.\n\n**Request.** A rule list where each rule is *when X, do Y*, with a fixed set of triggers and\nactions rather than a scripting language:\n- trigger: new chapter of a title in a category · source marked unavailable · scheduled time\n- action: download · notify · move to category\n\n**Scope.** If a scripting language is out of scope, a trigger/action picker still covers most of\nthe use case and does not need a sandbox.\n\n**Rejected already, so not asking again:** a full scripting engine and an app-wide automation\nframework. This is the narrow version of that idea.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1544,
+   "accion": "editar",
+   "titulo": "Library statistics: reading time per title, with an export",
+   "cuerpo": "**Problem.** The app tracks progress but not time. There is no way to know how long a title takes\nor how much was read in a month.\n\n**Request.** Count time while the reader is open, per title, and expose two numbers: total by title\nand total by month. Export as CSV.\n\n**Why it is cheap.** The reader already knows when it opens and closes; the missing part is\naccumulating the interval and storing it next to the existing progress data.\n\n**Not asking for** a dashboard with charts. Two numbers and a CSV can be built on later.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1543,
+   "accion": "editar",
+   "titulo": "Offline: 'prepare for travel' downloads a category in one action",
+   "cuerpo": "**Problem.** Preparing for a trip means opening each title and downloading chapter by chapter.\n\n**Request.** One action that downloads, for a chosen category, the next *N* unread chapters of every\ntitle, with a single progress indicator and the option to stop.\n\n**Constraints to respect:** respect the existing download queue instead of launching parallel\ndownloads; cap the total size; delete nothing automatically.\n\n**Rejected already:** predictive prefetching based on reading habits. This is the manual version,\nwhich does not need prediction.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1541,
+   "accion": "editar",
+   "titulo": "Reading mode: per-source override of image quality and page fit",
+   "cuerpo": "**Problem.** Settings are global. A source that serves large scans needs different handling than\none that serves compressed pages, and changing settings per read is manual.\n\n**Request.** Allow a source (or a title) to override two settings only: image quality and page fit.\n\n**Scope.** Two settings, per source, stored where the source is already stored. No automatic\ndetection of device capacity.\n\n**Rejected already:** adaptive behaviour based on device performance and connection type.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1540,
+   "accion": "editar",
+   "titulo": "Auto-categorise new titles by source, with a rule the user can see",
+   "cuerpo": "**Problem.** New titles land in the default category and have to be moved by hand.\n\n**Request.** A rule list evaluated when a title is added: *if source is X, put in category Y*. Rules\nare visible and editable in one screen.\n\n**Scope.** Only source-based rules. Manual override always wins.\n\n**Rejected already:** intelligent/automatic classification based on content.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1538,
+   "accion": "editar",
+   "titulo": "Cloud sync: the existing Drive sync only converges a device with itself",
+   "cuerpo": "A maintainer already pointed out that Google Drive sync syncs a device with its own backup, not\nbetween devices. That changes what this issue is about.\n\n**Request.** Either\n(a) document that limitation in the Drive sync screen, in one sentence, or\n(b) sync a real manifest (an index of the last modified records) so two devices converge.\n\nOption (a) fixes the misunderstanding for free. Option (b) is the actual feature. This issue is\nasking which of the two is acceptable before anything is built.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1537,
+   "accion": "cerrar_con_nota",
+   "titulo": "Duplicate of the library statistics request (#1544)",
+   "cuerpo": "This issue and #1544 ask for the same thing: statistics over the library. This one is the longer\nversion and was filed in the same batch.\n\n**Closing it in favour of #1544**, which asks for two numbers and a CSV instead of a dashboard. If\nthe dashboard is what is wanted, #1544 can be reopened or extended there.",
+   "nota": "Closing as a duplicate of #1544, which asks for the same thing in a form that can be built incrementally (two numbers first). Everything useful from this issue is quoted there. Thanks.",
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1536,
+   "accion": "cerrar_con_nota",
+   "titulo": "Duplicate of the per-source reading settings request (#1541)",
+   "cuerpo": "Same request as #1541: settings that change per source instead of globally. This version asks for\nit as automatic adaptation, which is the part that was already rejected.\n\n**Closing in favour of #1541**, which narrows it to two settings with a manual override.",
+   "nota": "Duplicate of #1541, which asks for the same thing without the automatic detection part. Closing this one so the discussion stays in one place. Thanks.",
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1535,
+   "accion": "cerrar_con_nota",
+   "titulo": "Duplicate of the offline 'prepare for travel' request (#1543)",
+   "cuerpo": "Same ground as #1543: downloading ahead of time for offline reading. This one adds predictive\nprefetching, which was already turned down in that thread.\n\n**Closing in favour of #1543.**",
+   "nota": "Duplicate of #1543, which covers offline bulk download without the predictive part. Closing to keep one thread. Thanks.",
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1534,
+   "accion": "editar",
+   "titulo": "Two-way tracker sync: conflicts need a rule before code",
+   "cuerpo": "**Problem.** Tracker sync is one-way enough that reading progress can be overwritten.\n\n**Request, in the cheapest order:**\n1. When both sides changed since the last sync, do not write anything: show the two values and ask.\n2. Only then, decide a merge rule per tracker.\n\nStep 1 alone prevents data loss and needs no conflict-resolution algorithm.\n\n**Rejected already:** an 'intelligent' merge engine. This asks for the opposite: stop and ask.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1533,
+   "accion": "editar",
+   "titulo": "Dead sources: show which titles depend on them before anything is migrated",
+   "cuerpo": "**Problem.** When a source stops working, affected titles are found one by one.\n\n**Request.** A list: source → titles that use it → alternative sources that have the same title.\n\n**Scope, deliberately small:** this is a *report*, no migration. No automatic switching.\n\n**Rejected already:** automatic migration to alternatives. The report is what makes a manual\ndecision possible.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1532,
+   "accion": "editar",
+   "titulo": "Hardware profiles: drop the idea, keep one measurable setting",
+   "cuerpo": "The original request was automatic per-device optimisation. That is not measurable for the user\nand was turned down in spirit.\n\n**Narrow version:** expose one existing setting that already affects performance (page preloading\nor image decoding) with a plain label, and leave the rest alone.\n\nIf nothing like that exists, closing this is the right outcome.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1531,
+   "accion": "editar",
+   "titulo": "Crowdsourced source health: this needs a server, so it is a policy decision first",
+   "cuerpo": "**Problem stated plainly.** Sharing source health between users requires a service to collect it.\nThis project has no such service, and adding one is a policy decision, not a feature.\n\n**Request:** answer whether a minimal endpoint is acceptable at all. If it is not, this issue can be\nclosed and the local alternative is #1533 (a local report of dead sources).\n\nAnonymity claims are not worth making before that decision exists.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1529,
+   "accion": "editar",
+   "titulo": "AI diagnostics: withdraw this in favour of a plain error report",
+   "cuerpo": "A maintainer already asked whether this should be closed, and the answer is yes.\n\n**Withdrawing the AI part.** What remains useful is narrow: when something fails, show which source,\nwhich request and which error, in one screen the user can copy. No model, no recommendations.\n\nIf that already exists, this can be closed with a link to it.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1477,
+   "accion": "editar",
+   "titulo": "Two-page view: automatic detection for Western comics",
+   "cuerpo": "**Problem.** Two-page view needs a manual toggle per title, and Western comics are almost always\ndouble-page spreads.\n\n**Request.** A per-title setting that forces two-page view, remembered for that title.\n\n**Not asking for** automatic detection from the image itself. A remembered manual setting solves the\nsame problem without heuristics.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1476,
+   "accion": "cerrar_con_nota",
+   "titulo": "Offline batch: same request as #1543, keep one thread",
+   "cuerpo": "This is the Spanish version of the batch offline download request that also appears as #1543.\n\n**Keep one thread.** If #1543 is the one that survives, everything needed is there: which category,\nhow many unread chapters, and the download queue respected.\n\nClosing this in favour of #1543.",
+   "nota": "Misma petición que #1543 (descarga por lotes para leer sin conexión). Cierro esta para que la discusión quede en un solo hilo; el contenido útil está citado allí. Gracias.",
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1475,
+   "accion": "editar",
+   "titulo": "WebDAV setup: reduce the form to three fields",
+   "cuerpo": "**Problem.** Configuring WebDAV asks for several fields whose meaning is not obvious, and a wrong\nvalue fails silently.\n\n**Request.** Three fields (URL, user, password) plus a **test connection** button that reports the\nactual error. Advanced fields (path, port) stay available but collapsed.\n\n**Why the test button matters more than the wizard:** a wizard that still fails silently leaves the\nuser in the same place.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1473,
+   "accion": "editar",
+   "titulo": "Zen mode: hide the interface while reading, restore on tap",
+   "cuerpo": "**Problem.** Reading full screen still shows bars and page indicators.\n\n**Request.** One toggle: hide everything except the page, and restore the bars with a single tap in\nthe centre. Remember the state per reading session.\n\n**Scope.** No new gesture system, no changes to page turning.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1321,
+   "accion": "editar",
+   "titulo": "Google Drive sync between devices: clarify or fix",
+   "cuerpo": "A maintainer noted that Drive sync is meant to sync a device with its own backup, not between\ndevices. If that is the intent, the request here is different from what the title says.\n\n**Ask:** confirm which one it is.\n- If it is device ↔ backup only, please say so in the sync screen (one sentence) and this issue can\n  be closed.\n- If devices are supposed to converge, the missing piece is a manifest of last-modified records.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1314,
+   "accion": "editar",
+   "titulo": "Multi-feed profiles: one feed, several sources",
+   "cuerpo": "**Problem.** Following the same title across several sources means several entries.\n\n**Request.** A *profile* that groups feeds: one entry in the library, backed by an ordered list of\nsources. If the first source fails, the next one serves the chapters.\n\n**Scope.** One level of grouping, chosen by the user, no automatic matching by title.\n\nTitles in this issue were auto-translated earlier; this is the rewritten version.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1311,
+   "accion": "editar",
+   "titulo": "Separate 'sync with cloud' from 'update library' in the interface",
+   "cuerpo": "**Problem.** Two different actions look alike: updating the library from sources, and syncing\nwith the cloud. Confusing them costs a wrong tap and a slow operation.\n\n**Request.** Different labels and different icons, and do not put them next to each other. The words\nshould say what happens: *Update from sources* and *Sync backup*.\n\nThis is a wording and placement change; no behaviour changes.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1033,
+   "accion": "editar",
+   "titulo": "Feed classifier: a maintainer already answered; narrowing to what is possible",
+   "cuerpo": "A maintainer answered this: source category already has a request, and library size, flow or\ntitle counts per source are not available, so a classifier built on them cannot exist.\n\n**Narrowed request, built only on data the app actually has:** sort the updates feed by source name,\nand group entries by source. Nothing computed, nothing estimated.\n\nIf that is also already covered, closing this is correct.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "Animetailapp/Animetail",
+   "numero": 306,
+   "accion": "editar",
+   "titulo": "Extension feed: group and sort by source, using only local data",
+   "cuerpo": "**Problem.** The extension feed mixes updates from every source in one list.\n\n**Request.** Two controls: group by source, and sort by source name or by update date. Both operate\non data the app already has locally.\n\n**Not asking for** ranking, scoring or any measure of source quality — those need data this app\ndoes not have, which is the reason a similar request was turned down elsewhere.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "salmanbappi/AniZen",
+   "numero": 12,
+   "accion": "editar",
+   "titulo": "Tracker updater: make the update manual-first, with a visible diff",
+   "cuerpo": "**Problem.** Tracker updates can overwrite progress without showing what changed.\n\n**Request.** Before writing to a tracker, show the pending changes (title, old value, new value) and\nrequire confirmation. A setting can turn confirmation off.\n\n**Why manual-first:** a wrong automatic write loses reading history, which is the one thing this app\ncannot rebuild.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "salmanbappi/AniZen",
+   "numero": 69,
+   "accion": "editar",
+   "titulo": "Replacing the 42k roadmap with one request: the tracker diff above",
+   "cuerpo": "This issue was a 42,000-character roadmap covering most of the app. That is not reviewable and it\nduplicates the individual requests.\n\n**Replaced by two concrete issues:** #12 (show the tracker diff before writing) and, if wanted, one\nmore per area.\n\nEverything else in the old body stays available in the edit history. Nothing is lost by shrinking\nthis.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "hacan359/tonkatsu_box",
+   "numero": 395,
+   "accion": "editar",
+   "titulo": "Tonkatsu Box: replacing the 38k analysis with the three things worth doing",
+   "cuerpo": "The previous body was a 38,000-character analysis of the whole app. Of everything in it, three\nthings were concrete and checkable:\n\n1. **Extension health screen** — list sources that failed their last request, with the error.\n2. **Backup format** — index + per-file data, so a restore can be partial.\n3. **Translation gaps** — a test that fails when a locale is missing keys (you already handle the\n   translations, so this is only the check).\n\n**Request:** say which of the three, if any, is worth an issue of its own, and I'll open it short.\n\nThe rest of the old analysis was either already done or not checkable, and is better deleted than\nkept.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "hacan359/tonkatsu_box",
+   "numero": 354,
+   "accion": "cerrar_con_nota",
+   "titulo": "Translation of app_es.arb: done — closing with the outcome",
+   "cuerpo": "You asked for help translating `app_es.arb` and the result shipped in 0.39. Keeping this open\nserves no purpose.\n\n**Closing.** If more strings appear later, a new issue with the exact file and the count of missing\nkeys is easier to act on than this thread.\n\nThanks for the review — this is the only one of these that ended with something merged.",
+   "nota": "Traducción entregada y publicada en 0.39. Cierro el hilo. Si aparecen cadenas nuevas, abro otro con el archivo exacto y el número de claves que faltan. Gracias por la revisión.",
+   "razon": "completed"
+  },
+  {
+   "repo": "ifritraen/kisara",
+   "numero": 1,
+   "accion": "editar",
+   "titulo": "README: list the options that actually exist in the app",
+   "cuerpo": "The README does not describe the options the app has. The request is only that: a list.\n\n**Request:** one section, *Options*, with the name of each setting and what it changes, copied from\nthe app itself. No roadmap, no proposals.\n\nYou said a better version is coming before publishing to Miyomi or the Orion store. This can be\ndone at the same time, and it is the cheapest thing on the list.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "Awerkori/project-nox-requests",
+   "numero": 121,
+   "accion": "editar",
+   "titulo": "[Nova extensão]: ECHO SCANS/MANGA",
+   "cuerpo": "**Nome:** ECHO SCANS / ECHO MANGA\n**Idioma:** português (BR)\n**Site:** _(a confirmar pelo mantenedor — não vou inventar a URL)_\n\nPedido de extensão para o repositório. Se a fonte não estiver disponível ou sair do ar com\nfrequência, fecho sem problema.\n\nAntes de abrir: confirmei que não há pedido igual neste repositório para esta fonte.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "KhanhNguyen9872/GLTools_mod_Xposed",
+   "numero": 2,
+   "accion": "editar",
+   "titulo": "GLTools offline revival: scope it to what can be verified",
+   "cuerpo": "The previous body was an architecture plan. Reduced to what can be checked:\n\n**Problem.** GLTools no longer receives support and its licensing check requires a network call, so\nthe app does not work offline.\n\n**Request.** Document where that check happens and whether an offline mode is legally possible for\nthis app. That is a question about the project's intent, not a feature request.\n\nIf the answer is no, this can be closed — and that is a perfectly good outcome.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "PineappleTwilight/houri",
+   "numero": 62,
+   "accion": "editar",
+   "titulo": "Shizuku-compatible extension install: capability-aware, no root",
+   "cuerpo": "**Problem.** Installing an extension requires the system installer, which some devices restrict.\n\n**Request.** When Shizuku is running, use it to perform the install; when it is not, fall back to the\ncurrent behaviour. No root, no adb from a computer.\n\n**Scope.** One capability check (`Shizuku` availability) and one install path. Nothing else changes.\n\nThe earlier version of this issue attached two HTML mock-ups; the request above is the part that can\nbe built.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "PineappleTwilight/houri",
+   "numero": 61,
+   "accion": "editar",
+   "titulo": "Work-aware discovery for already-merged manga",
+   "cuerpo": "**Problem.** Discovery re-downloads metadata for titles that are already merged, so an update run\ntakes longer than it should.\n\n**Request.** Before fetching a title, check whether it was merged since the last run and skip the\nmetadata call for those, unless the user asks for a full refresh.\n\n**Scope.** A check and a skip. No change to how merging works.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "bluecxt/manga-extensions-repo-french",
+   "numero": 14,
+   "accion": "editar",
+   "titulo": "Proposition : une seule demande concrète au lieu d'un plan de 10 issues",
+   "cuerpo": "Le corps précédent proposait d'ouvrir dix issues « High » d'un coup. Une seule à la fois est plus\nfacile à discuter.\n\n**Demande :** un test qui vérifie que chaque extension du dépôt répond à une requête simple (page\nd'accueil + une page de manga) et qui échoue en nommant celles qui ne répondent pas.\n\nC'est vérifiable, ça ne demande aucune décision d'architecture, et ça donne une liste de travail\nréelle au lieu d'une liste de souhaits.\n\nSi vous préférez une autre des dix, dites laquelle et j'ouvre celle-là.",
+   "nota": null,
+   "razon": "not_planned"
+  },
+  {
+   "repo": "bluecxt/anime-extensions-french",
+   "numero": 50,
+   "accion": "editar",
+   "titulo": "Proposition : le même test de santé des extensions, en une issue",
+   "cuerpo": "Même demande que dans l'autre dépôt : un test qui touche chaque extension et nomme celles qui ne\nrépondent pas.\n\n**Pourquoi celle-là plutôt que les dix du plan précédent :** elle produit une information dont vous\navez besoin chaque semaine, et elle ne présuppose aucune décision de conception.",
+   "nota": null,
+   "razon": "not_planned"
+  }
+ ]
+}

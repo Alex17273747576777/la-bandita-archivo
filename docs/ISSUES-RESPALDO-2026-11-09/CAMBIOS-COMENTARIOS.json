@@ -1,0 +1,162 @@
+[
+ {
+  "repo": "namidaco/namida",
+  "numero": 1105,
+  "id": 5125255299,
+  "accion": "aclarar",
+  "antes": "'> what is this? thanks for the analysis but what do u as a user suffer from exactly among all of these?\n\nMainly, mine is the renewal of serious download issues, whether it's massive or a few files, and the cache problem, which prevents videos or audio from playing. The truth is that the original post was over 100k and 1000 lines, but I spent two days reviewing many suggestions, problem reports, and other project repositories. I was doing it but in the end, I had to summarize everything with AI.'",
+  "http": 200
+ },
+ {
+  "repo": "Kototoro-app/Kototoro",
+  "numero": 448,
+  "id": 5130508560,
+  "accion": "eliminar",
+  "antes": "> Please describe your issue/feature request shortly. Too long content is hard to read.\n\n```markdown\n# Kototoro #448 — Unified Analysis: Source Ecosystem, Library Management, and Batch Operations\n\n## 1. Problem Description\n\nThe growth of the Kototoro content source ecosystem has exceeded the current capacity of the library management tools. Three interdependent functionalities describe facets of the same operational scalability problem:\n\n| Issue | Layer | Description |\n|---|---|---|\n| #392 | Acquisition | Integrate external parser repositories (JARs) as a dynamic plugin source. |\n| #384 | Filtering/deduplication | Smartly hide already owned content and detect duplicates. |\n| #420 | Operations | Multi-selection in library and sources catalog, with batch actions. |\n\n**Interdependence:** Implementing any of the three in isolation creates a bottleneck in the other layers. Value is realized only when all three operate in coordination.\n\n---\n\n## 2. Critical Errors Identified in Original Proposals\n\n| Error | Impact |\n|---|---|\n| Use of `api.github.com` without authentication for release metadata | 60 req/hr limit per IP; exhaustion in minutes on mobile networks with NAT |\n| Android 14+ restrictions on dynamic code loading not addressed | Potential `SecurityException` when loading JARs from external storage |\n| Duplicate detection based solely on title similarity | High rates of false negatives (multilingual titles) and false positives (homonymous works) |\n| Visibility state synchronization marked as \"optional\" | Inconsistency across devices; no defined conflict resolution |\n| No impact analysis on filtering query performance | 10,000 works × 1,000 in library = 10,000,000 operations without proper indexing |\n\n---\n\n## 3. Verified Status of the Parser Ecosystem (2026-07-29)\n\n| Repository | Status | Observation |\n|---|---|---|\n| `Shebyyy/kotatsu-multi-parsers` | Active | Daily CI/CD; latest build: 2026.07.29-0153 |\n| `Kotatsu-Redo` | Active | Ongoing development; v9.8.0 |\n| `YakaTeam` | Abandoned | README states \"ABANDONED PROJECT\"; still included in Shebyyy builds |\n| `glitch-228/kaisoku-parsers` | Active | Recent commits fixing broken sources |\n| `hany18h` | Active | Daily commits; fixes for Arabic sources |\n| `skepsun/kototoro-parsers` | Active | Official Kototoro parser |\n| `KotatsuApp/kotatsu-parsers` (upstream) | Archived | Read-only since November 2025 |\n\n---\n\n## 4. Summary of Implementation Options\n\n| Option | Description | Complexity | Regression Risk | Scalability |\n|---|---|---|---|---|\n| A. Sequential pipeline | Implement in order #392→#384→#420 with metadata normalization layer | High | High | Medium |\n| B. Event-driven architecture | Asynchronous communication between modules via event bus | Very high | High | High |\n| C. Progressive integration | Incremental phases with backward compatibility; opt-in by user | Medium | Low | Medium |\n| D. Curated index with CDN | Avoid GitHub API using static JSON on CDN with risk metadata | Medium | Low | High |\n\n---\n\n## 5. Main Cross-cutting Risks\n\n| Risk | Estimated Probability | Impact | Observable Mitigation |\n|---|---|---|---|\n| Malicious JAR in compromised repository | Low | High | Curated index (Option D); signature verification |\n| Broken sources due to changes on websites | High (2-5 fixes/week in 200 sources) | Medium | Automatic marking as \"broken\"; user notification |\n| Excessive mobile data consumption | Medium | Medium | Limit of 50 MB for initial setup |\n| UI blocking due to unindexed queries | High if not indexed | High | Index on `identity_key` or `tracker_ids[]` |\n\n---\n\n## 6. Quantifiable Success Criteria\n\n| Criterion | Success Threshold | Measurement Method |\n|---|---|---|\n| Plugin installation success rate | ≥ 95% in 30 days | Network error telemetry |\n| Parser installation time | ≤ 10 seconds | Time instrumentation |\n| Duplicate detection accuracy | ≥ 90% | Manual audit of random sample |\n| False positive rate in duplicates | ≤ 5% | Interaction telemetry with dialog |\n| Batch operation time (50 works) | ≤ 3 seconds | Time instrumentation |\n| Noise reduction in catalog | ≥ 30% of works filtered | Active filter telemetry |\n```",
+  "http": 204
+ },
+ {
+  "repo": "keiyoushi/extensions-source",
+  "numero": 17590,
+  "id": 4959922711,
+  "accion": "eliminar",
+  "antes": "It seems that I put the idea in the wrong repository, since FelipeGFa takes ideas from here, but this is the manga session and the original anime session of Kohi-den. It’s closed. I hope they don’t reject the idea.. Show ",
+  "http": 403
+ },
+ {
+  "repo": "Kototoro-app/Kototoro",
+  "numero": 384,
+  "id": 4992003953,
+  "accion": "eliminar",
+  "antes": "> This is a whole ass hydra lol. The most that can be done is hiding/deleting exact duplicates. But adding fuzzy search is prone to cause a plethora of data loss. How many manga are called \"Tensei\" something. How many more are called \"I reincarnated as\" something. No, this is calling for catastrophe lol \n> I just realized this request was done using AI, no wonder it thinks it's easy to do using what it supperficially gathered. But I think there could be some salvageable stuff so I'll cherry pick what seems doable\n\n🌊 Analysis and Response to Maintainer's Feedback\n\n---\n\nDear MrDfour,\n\nThank you for taking the time to review both proposals. Your feedback is valuable and helps us refine our suggestions. I've analyzed each of your points and want to respond with the transparency and respect that your work as a maintainer deserves.\n\n---\n\n🐋 About \"The heck is a Little Whale?\"\n\nLittle Whale is the name we use to refer to this space for reflection and proposals. It's not an official organization or project; it's simply the identity we've adopted for our contributions to the open-source community. Our goal is to propose ideas that could benefit users, always with respect for the developers' work.\n\nI apologize if the name was confusing. In future interactions, I'll be clearer about who we are.\n\n---\n\n📚 About \"wasn't Yaka dead?\"\n\nYou're absolutely right to point this out. My initial research was superficial and I didn't verify the actual status of the repositories I mentioned.\n\nWhat I've now verified:\n\n· YakaTeam/kotatsu-parsers appears in Shebyyy's repository list, but its current status is uncertain.\n· Some parser repositories are inactive or abandoned.\n· Including dead sources in an integration proposal was a mistake I should have avoided.\n\nLesson learned: I can't blindly trust third-party listings without verifying each source individually. In future proposals, I'll make sure to research the status of each repository before mentioning it.\n\n---\n\n🐲 About \"This is a whole ass hydra lol\"\n\nYou're absolutely right. The proposal for intelligent duplicate detection with fuzzy search is, effectively, a multi-headed hydra.\n\nYour concerns are valid:\n\n· Fuzzy matching can cause data loss if not implemented with extreme care.\n· Titles like \"Tensei\" or \"I reincarnated as...\" generate constant false positives.\n· The implementation complexity is much greater than I suggested.\n\nMy mistake: I underestimated the technical difficulty and presented the solution as simpler than it really is. The AI I used to structure the proposal gathered information superficially and didn't capture the nuances of the problem.\n\n---\n\n✅ What We Can Salvage (Cherry-pick)\n\nI appreciate that you saw salvageable elements in the proposals. Here's a revised, realistic version:\n\nFor Issue #384 (Duplicates and hiding content)\n\nOriginal proposal Viability Realistic alternative\nHide content already in library ✅ High A toggle \"Hide already added\" in the extensions view is feasible and useful.\n\"In library\" badge ✅ High If the filter isn't viable, an icon or label in search results is a good alternative.\nDuplicate detection by similarity ❌ Very low Fuzzy matching is too risky.\nExact duplicate detection ✅ High Comparing exact titles (case-insensitive) is safe and useful.\n\nRevised proposal for #384:\n\n1. Add a toggle \"Hide already added\" in the extensions view.\n2. Show a badge \"In library\" in search results.\n3. Detect exact duplicates (not fuzzy) when adding content.\n4. If users want a more advanced solution, it could be investigated in the future, but not as part of this implementation.\n\nFor Issue #392 (Parser integration)\n\nOriginal proposal Viability Realistic alternative\nAdd Shebyyy's repository as an official source ✅ High The infrastructure already exists. Just need to add the URL.\nInclude inactive sources ❌ Low Verify each source before including it.\nOne-tap install ✅ High The plugin system already supports this functionality.\n\nRevised proposal for #392:\n\n1. Add Shebyyy's repository as an optional (not official) source in the plugins section.\n2. Verify the status of each parser before including it in the documentation.\n3. Let users decide which sources to add, following the same pattern as Mihon and Aniyomi.\n\n---\n\n🤝 A New Approach\n\nI appreciate your honesty and your willingness to \"cherry-pick\" what's viable. In the future:\n\n1. I will verify each source before mentioning it in a proposal.\n2. I won't underestimate the technical complexity of implementations.\n3. I'll be clearer about who I am (Little Whale) and the purpose of my contributions.\n4. I'll prioritize simple, safe solutions over ambitious but risky ideas.\n\n---\n\n📝 Executive Summary\n\nIssue Maintainer's criticism Corrective action\n#392 \"What is Little Whale? Isn't Yaka dead?\" Explain who we are and verify the status of sources.\n#384 \"Hydra... fuzzy search causes data loss... AI request\" Reduce scope: only exact duplicates and simple filters.\n\n---\n\nThank you again for your time and for maintaining Kototoro. The open-source community is strengthened when contributors and maintainers engage in honest, respectful dialogue.\n\n🐋✨🌊💙\n\n— The Little Whale",
+  "http": 204
+ },
+ {
+  "repo": "Kototoro-app/Kototoro",
+  "numero": 205,
+  "id": 4362120144,
+  "accion": "aclarar",
+  "antes": "I simply suggested this because personally, I am tired of having more than 5 or 10 applications for each type of anime, manga, movie, and novels, etc.",
+  "http": 200
+ },
+ {
+  "repo": "Kototoro-app/Kototoro",
+  "numero": 205,
+  "id": 4362122463,
+  "accion": "eliminar",
+  "antes": "@claude  what do you think of this suggestion and can you summarize it?",
+  "http": 204
+ },
+ {
+  "repo": "RyanYuuki/AnymeX",
+  "numero": 427,
+  "id": 4354327154,
+  "accion": "eliminar",
+  "antes": "Sorry for compiling the requests that I thought into one too large text. I hope at least one idea serves you. Blessings, have a happy Thursday and weekend. Thank you for reading the whole text and not dismissing the idea as soon as you saw the pile.",
+  "http": 204
+ },
+ {
+  "repo": "Harrys-HQ/ShinKu",
+  "numero": 6,
+  "id": 4344133474,
+  "accion": "eliminar",
+  "antes": "I'm sincerely sorry for the tag, but I hope in God that I can do this. @Harrys-HQ :D ",
+  "http": 204
+ },
+ {
+  "repo": "Harrys-HQ/ShinKu",
+  "numero": 5,
+  "id": 4343946389,
+  "accion": "eliminar",
+  "antes": "✨ Excuse me, I always do the same thing: make a lot of suggestions and organize it with AI. But I hope some of them help you. 😊",
+  "http": 204
+ },
+ {
+  "repo": "Harrys-HQ/ShinKu",
+  "numero": 5,
+  "id": 4343977757,
+  "accion": "aclarar",
+  "antes": "@Harrys-HQ ",
+  "http": 200
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 1472,
+  "id": 3853705939,
+  "accion": "aclarar",
+  "antes": "🎯 Veredicto Final\n\nEstas 5 sugerencias representan una evolución natural de Komikku—pequeños pasos que profundizan en lo que ya hace excepcionalmente bien, sin traicionar su alma minimalista. No son una revolución; son el siguiente capítulo lógico en la historia de una aplicación que ha demostrado que menos, cuando está bien diseñado, es infinitamente más.\n\nKomikku gana precisamente porque NO tiene 47 opciones de gestos, 12 temas locos ni un reproductor de anime integrado. Su grandeza está en lo que calla, en lo que elige no ser. Estas sugerencias honran ese principio.\n\n---\n\n✨ Gracias por considerar estas ideas. Cada una, por pequeña que sea, acerca a Komikku a su destino final: ser la aplicación que se desvanece por completo, dejando solo la magia de la historia.",
+  "http": 200
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 1472,
+  "id": 3856731634,
+  "accion": "eliminar",
+  "antes": "Sorry, I submitted them one by one correctly even though it's evident that I used AI for organization.",
+  "http": 204
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 840,
+  "id": 2796712610,
+  "accion": "aclarar",
+  "antes": "> [@Alex17273747576777](https://github.com/Alex17273747576777) uses `Copy` instead of `Replace`. 📋 In the bulk migration interface, use the button representing the overlay of two rectangles to perform the copy. \n\nI apologize for being blunt, but the current procedure is ineffective, as transferring information through copies without removing obsolete duplicates does not solve the problem. 😕 A clear example is Olympus, where every time the extension's URL undergoes changes, the mangas appear as new ports, thus accumulating those that are no longer accessible, leading to a superfluous increase in the library. 📚",
+  "http": 200
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 840,
+  "id": 2798014407,
+  "accion": "aclarar",
+  "antes": "If the URL for the source modification is valid, it is possible to carry out a mass migration of entries from one source to another. If you wish to consolidate the same manga from different sources, you can use the merge function. There is a new feature designed to identify all duplicate items in the library, in case that is what you are looking for. For more support or clarification, we encourage you to join Discord to discuss it.\n\nCould you please indicate where these options are located?",
+  "http": 200
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 840,
+  "id": 2798016021,
+  "accion": "eliminar",
+  "antes": "I have no intention of installing Discord at any time, as it is filled with peculiarities. :3",
+  "http": 204
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 840,
+  "id": 2798078723,
+  "accion": "aclarar",
+  "antes": "🔗 If the source URL is altered, a bulk migration of all entries associated with that source to an alternative can be carried out. 📚 In case you want to consolidate identical mangas from various sources, the merge function can be utilized. ⚙️ Additionally, a new feature will be implemented to detect all duplicates in the library, should that be the goal. 💬 For further assistance or clarifications, Discord can be used for discussions. \n\n🔍 Allow me to point out that, although I do not share your opinion, the merge option presents challenges when attempting to combine different mangas. 😕 The functionality does not even automatically eliminate duplicates, and the manual option does not seem to operate effectively. 🛠️ What I was requesting was a merge option that would allow selecting all items in the library, so that those that matched would be automatically deleted if they were obsolete, transferring the information while retaining only the one from the active source that had more chapters and recent updates. 📖 Essentially, it would be a process comparable to a migration within our own library. 📦\n\n![Image](https://github.com/user-attachments/assets/bc74b8ab-0b8b-40a9-8245-b54a3a2b8d9d)",
+  "http": 200
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 840,
+  "id": 2798259404,
+  "accion": "aclarar",
+  "antes": "🌐 If the source URL is modified, a mass migration of all entries associated with that source to an alternative will be possible. 📚 If you wish to consolidate identical mangas from various sources, the merge function can be used. ✨ Additionally, a new feature will be implemented to identify all duplicates in the library, should that be the goal. ❓ For further assistance or clarifications, you can turn to Discord for discussions.\n\n🔍 Allow me to emphasize that, although I do not share your perspective, the merge option presents complications when trying to combine different mangas. ⚠️ This functionality does not even automatically delete duplicates, and the manual option seems ineffective. 🛠️ My request was for a merge alternative that would allow selecting all items in the library so that those which matched would be automatically deleted if they were obsolete, transferring the information and retaining only that from the active source with the most chapters and recent updates. 🔄 Essentially, it would be a process comparable to a migration within our own library.\n\n✅ Let me confirm if I have understood correctly. What you want is a feature that automatically checks for the existence of duplicate entries. 🤔 Do you want this function to also check if the URL returns a 404 error? 🚫 And if so, would you prefer this function to automatically delete the entry that shows such an error?\n\n🔁 Or do you prefer a function that automatically deletes duplicate chapters within the merged entries? I'm unclear on that aspect. 💬 Would you suggest that Discord has \"particularities\"? 🤨 That's surprising.\n\n👍 Exactly that, esteemed colleague. 💡 Regarding those particularities, I advise against venturing into Discord if you are underage. 🛑 And considering that I have autism (medicated), some people have even come to believe I was a \"weab,\" and they even nicknamed me “femboy” solely based on the nature of my condition, which causes me considerable volatility. 💔 My emotions, whether love, happiness, anger, or sadness, tend to be intense, although I am now 19 years old and in the process of learning to program. 🌱",
+  "http": 200
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 840,
+  "id": 2798261872,
+  "accion": "aclarar",
+  "antes": "> 🌐 Si se modifica la URL de origen, será posible una migración masiva de todas las entradas asociadas con esa fuente a una alternativa. 📚 Si desea consolidar mangas idénticos de varias fuentes, se puede usar la función de fusión. ✨ Además, se implementará una nueva característica para identificar todos los duplicados en la biblioteca, si ese es el objetivo. ❓ Para obtener más ayuda o aclaraciones, puede recurrir a Discord para discusiones.\n> \n> 🔍 Permítame enfatizar que, aunque no comparto su perspectiva, la opción de fusión presenta complicaciones al tratar de combinar diferentes mangas. ⁇ Esta funcionalidad ni siquiera elimina automáticamente los duplicados, y la opción manual parece ineficaz. ⁇ Mi solicitud era una alternativa de fusión que permitiera seleccionar todos los elementos de la biblioteca para que los que coincidían se eliminaran automáticamente si estaban obsoletos, transfiriendo la información y conservando solo eso de la fuente activa con la mayoría de los capítulos y actualizaciones recientes. 🔄 Esencialmente, sería un proceso comparable a una migración dentro de nuestra propia biblioteca.\n> \n> ✅ Déjame confirmar si lo he entendido correctamente. Lo que desea es una función que verifique automáticamente la existencia de entradas duplicadas. 🤔 ¿Desea que esta función también verifique si la URL devuelve un error 404? 🚫 Y si es así, ¿preferiría que esta función eliminara automáticamente la entrada que muestra tal error?\n> \n> 🔁 ¿O prefiere una función que elimine automáticamente los capítulos duplicados dentro de las entradas fusionadas? No estoy claro en ese aspecto. 💬 ¿Sugerirías que Discord tiene \"particularidades\"? 🤨 Eso es sorprendente.\n> \n> 👍 Exactamente eso, estimado colega. 💡 Con respecto a esas particularidades, aconsejo no aventurarse en Discord si eres menor de edad. 🛑 Y teniendo en cuenta que tengo autismo (medicado), algunas personas incluso han llegado a creer que era un femboy, e incluso me apodaron “🏳️‍🌈😔” únicamente en función de la naturaleza de mi condición, lo que me causa una volatilidad considerable. 💔 Mis emociones, ya sean amor, felicidad, ira o tristeza, tienden a ser intensas, aunque ahora tengo 19 años y estoy en proceso de aprender a programar. 🌱\n\n",
+  "http": 200
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 840,
+  "id": 2798829286,
+  "accion": "aclarar",
+  "antes": "It is not necessary to debate on Discord; I didn't use it either until I needed a place to help users.\n\nRegarding your suggestion, I would like you to describe it clearly step by step. Avoid using artificial intelligence, as it may complicate understanding. I encourage you to write your needs in your own language and then use Google Translate.\n\nI would like an integrated feature in the merge option that automatically checks for duplicate entries and also checks if the URL returns a 404 error. If a 404 error is found, the function should automatically delete those entries. We should group the entries to select all from the library and keep only those with the most chapters without 404 errors, ensuring there is only one of each manga, not two. Furthermore, if I had one or even 10 entries with 404 errors and chapters had been read, these would be migrated to the best entry.",
+  "http": 200
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 840,
+  "id": 2799049117,
+  "accion": "aclarar",
+  "antes": "It is not necessary to debate on Discord; I didn't use it either until I needed a space to support users.\n\nThat said, please present your suggestions clearly and step by step. Avoid using artificial intelligence, as it complicates understanding. Just write your needs in your own language and then use Google Translate.\n\nI also request that only the option to remove duplicates be included and that you check for 404 errors. It is also important that you review the content of your union, as it does not match what I proposed at all. First, the removal of entries is not working correctly, and second, the chapters are excessively duplicated, instead of presenting, for example, one entry from chapter 0 to 80 and another from 80 to 200. There should not be a mess where more than ten chapters of the same thing accumulate. Therefore, if what I requested was to remove duplicate chapters and entries that contain errors or less content in the selections, stop creating confusion and migrate everything into the entries as you mentioned; it only generates more wasted time and results in the same problem.",
+  "http": 200
+ }
+]

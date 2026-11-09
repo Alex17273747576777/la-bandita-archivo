@@ -1,0 +1,122 @@
+[
+ {
+  "repo": "ifritraen/kisara",
+  "numero": 1,
+  "id": 6723792593,
+  "car": 3021,
+  "http": 204,
+  "antes": "Hecho: bloque listo para pegar en el README, con el formato que miyomi.app usa de verdad.\n\nEl formato lo verifiqué contra fichas reales del sitio (Reikai, Mihon, Kototoro, Futon): **nombre**, **tipo** (Manga / Anime / Light Novel), **«Fork de X»** y un párrafo de presentación. Los campos para el formulario:\n\n| campo | valor |\n|---|---|\n| Nombre | Kisara |\n| Plataforma | Android |\n| Tipo | Manga (+ Anime si los visores de vídeo están conectados) |\n| Fork de | Mihon |\n| Repositorio | https://github.com/ifritraen/kisara |\n| Licencia | Apache-2.0 |\n\nY el texto del README, aquí:\n\n```markdown\n## Kisara\n\n**Manga · Anime** — Fork de Mihon\n\nLector de manga y anime para Android con IA que corre dentro del teléfono:\ncolorización, reescalado y recomendaciones sin enviar nada a un servidor.\n\n### Qué tiene de distinto\n\nModelos ONNX empaquetados en el propio APK, no descargados a demanda. Funcionan\nsin conexión y sin cuenta:\n\n- **Colorización** con `colorize.onnx` (117,26 MiB), ~1 490 ms por página en un\n  x86 de 2 núcleos.\n- **Reescalado ×4** con dos modelos según la página: `anime4x.onnx` (4,92 MiB,\n  2 673 ms) para línea clara y `esrgan_x4.onnx` (63,95 MiB, 24 587 ms) para el\n  resto. La diferencia es de 9×, así que elegir bien importa.\n- **OCR de manga** con manga-ocr (`encoder_fp16.onnx` 163,89 MiB +\n  `decoder_model_quantized.onnx` 28,26 MiB).\n- **Sugerencias en el teléfono** con TF-IDF sobre autores y etiquetas, con el\n  motivo de cada una («Porque lees naoki urasawa»).\n\n### Qué NO tiene todavía\n\n- La **traducción** del texto reconocido no está conectada: el OCR lee, no traduce.\n- El **inpainting** de bocadillos no está: el modelo LaMa no se empaqueta.\n- La IA está conectada a un pipeline de páginas, pero la **pantalla del lector**\n  que lo invoca no está terminada.\n\n### Verificar una descarga\n\nCada release publica `SHA256SUMS.txt` con la huella de **cada** APK:\n\n    sha256sum -c SHA256SUMS.txt\n```\n\n**Por qué así**: no dice «revolucionario» ni «potenciado por IA». Dice pesos, milisegundos y qué falta. Un README que promete y no cumple consigue que la gente pruebe la app una vez y la desinstale.\n\n---\n\n**Dos avisos, por si sirven:**\n\n1. **El enlace de Discord parece incompleto.** `discord.gg/miyomi-1239848981836595281` tiene el nombre del servidor pegado al identificador; las invitaciones de Discord son de 8–10 caracteres. Si el alta se hace por el formulario de miyomi.app, el Discord no hace falta; si se hace por invitación, habría que comprobarlo.\n\n2. **«Cada release publica SHA256SUMS.txt» solo es cierto si se añade al flujo de compilación.** En el ecosistema se publican cientos de MiB sin una sola huella — medí 6 APK de una release de houri, 693,47 MiB, cero archivos de verificación. Cinco líneas en el workflow y deja de ser un problema:\n\n```yaml\n- name: Huellas\n  run: |\n    cd app/build/outputs/apk/release\n    sha256sum *.apk > SHA256SUMS.txt\n```\n\nSi no se añade, esa sección del README habría que quitarla antes de publicarlo, porque estaría prometiendo algo que no ocurre."
+ },
+ {
+  "repo": "salmanbappi/AniZen",
+  "numero": 69,
+  "id": 5116508862,
+  "car": 219,
+  "http": 204,
+  "antes": "'> Wth.\n\nCalm down, it's just a list of suggestions based on data from other projects and ecosystems to improve Anizen without breaking the flow of the app. I doubt you can implement everything, so take what helps you.'"
+ },
+ {
+  "repo": "hacan359/tonkatsu_box",
+  "numero": 354,
+  "id": 4953099839,
+  "car": 359,
+  "http": 204,
+  "antes": "Thank you so much for considering my idea and not dismissing it at first glance. After seeing the amount of text, I will do my best to help in any way I can, starting with comments. Your app is fantastic; it's the most comprehensive tool for tracking different sources that I've seen. The challenge is adding multilingual support to reach a broader audience. "
+ },
+ {
+  "repo": "hacan359/tonkatsu_box",
+  "numero": 354,
+  "id": 5002668542,
+  "car": 5769,
+  "http": 204,
+  "antes": "@Alex17273747576777 Hola, puedes consultar la traducción del archivo [app_es.arb](https://github.com/hacan359/tonkatsu_box/blob/0a7fd3a531567a325fe90f932e5054119b0d9ca2/lib/l10n/app_es.arb). No dudes en dejar cualquier comentario.\n\nLa traducción se encuentra en muy buen nivel; sin embargo, propongo algunas modificaciones en el uso de las palabras para facilitar la comprensión. A continuación, te presento la lista de sugerencias.\n\n---\n\n🐋 ANÁLISIS DE LA TRADUCCIÓN DE TONKATSU BOX\n\n🌟 Fortalezas\n\nLa traducción es coherente y utiliza un vocabulario ampliamente aceptado en el ámbito del entretenimiento digital, lo que facilita su comprensión por parte del usuario. La estructura del archivo es adecuada y los placeholders para plurales y variables están correctamente implementados, lo que refleja un sólido conocimiento en la localización en Flutter.\n\n🔍 Áreas de Mejora y Sugerencias\n\nA continuación, se presentan las sugerencias organizadas por categoría.\n\n---\n\n🧭 Navegación y Términos Generales\n\n· navMain: Actual: \"Inicio\" → Sugerencia: \"Principal\"  \n  · Razón: \"Inicio\" es correcto, pero en el contexto de una aplicación de gestión de colecciones, \"Principal\" puede resultar más descriptivo para la vista general.  \n· navWishlist: Actual: \"Deseos\" → Sugerencia: \"Lista de deseos\"  \n  · Razón: \"Deseos\" es una traducción literal de \"Wishlist\", pero \"Lista de deseos\" suena más natural y habitual en español. Para un formato más breve, podría usarse \"Deseados\" (ej. \"navWishlist\": \"Deseados\").  \n· navReleases: Actual: \"Estrenos\" → Sugerencia: \"Lanzamientos\"  \n  · Razón: \"Estrenos\" se ajusta bien a películas y series, pero en el contexto de videojuegos, música o libros, \"Lanzamientos\" es un término más amplio y apropiado. \"Novedades\" también podría ser una opción válida.  \n· searchSortRelevanceShort: Actual: \"Rel\" → Sugerencia: \"Rel.\"  \n  · Razón: Añadir un punto al final (\"Rel.\") es una convención común en español para las abreviaturas y ayuda a aclarar que se trata de una abreviatura.  \n\n---\n\n🎮 Tipos de Medios\n\n· mediaTypeGame: Actual: \"Juego\" → Sugerencia: \"Videojuego\"  \n  · Razón: \"Videojuego\" es un término más específico y preciso en comparación con \"Juego\", que puede referirse a actividades como juegos de mesa o deportes.  \n· mediaTypeVisualNovel: Actual: \"Novela visual\" → Sugerencia: \"Novela Visual\"  \n  · Razón: Mantener mayúsculas iniciales en los nombres de tipos de medios (\"Novela Visual\", \"Serie\", \"Película\") les otorga un aspecto más limpio y formal.  \n\n---\n\n⚙️ Acciones y Estados\n\n· statusDropped: Actual: \"Abandonado\" → Sugerencia: \"Abandonado\"  \n  · Razón: Correcto.  \n· addToFavorites: Actual: \"Añadir a favoritos\" → Sugerencia: \"Agregar a favoritos\"  \n  · Razón: \"Agregar\" es un verbo más comúnmente utilizado en el español de América Latina, mientras que \"Añadir\" se emplea más en España. Dado que la aplicación puede tener una audiencia global, \"Agregar\" podría ser una opción más neutral. Sin embargo, ambas son válidas.  \n· bulkMove: Actual: \"Mover selección a una colección\" → Sugerencia: \"Mover seleccionados a colección\"  \n  · Razón: Es una expresión más directa y concisa. También se podría emplear \"Mover a colección\".  \n\n---\n\n📊 Interfaz y Configuración\n\n· settingsProfile: Actual: \"Autor de las colecciones\" → Sugerencia: \"Perfil de autor\"  \n  · Razón: Es una etiqueta más breve y directa que describe mejor la sección.  \n· settingsCredentialsSubtitle: Actual: \"Claves API de IGDB, SteamGridDB, TMDB\" → Sugerencia: \"Claves de API (IGDB, SteamGridDB, TMDB)\"  \n  · Razón: Esta redacción es más estándar en español y aclara que se trata de claves de API.  \n· settingsCacheSubtitle: Actual: \"Modo sin conexión y\" → Sugerencia: \"Modo sin conexión\"  \n  · Razón: La frase está incompleta. Podría ser \"Modo sin conexión y gestión de caché\" o simplemente \"Modo sin conexión\" si la descripción completa está en otro lugar.  \n\n---\n\n📋 Tabla Resumen de Cambios Sugeridos\n\n| Clave                       | Traducción Actual                              | Traducción Sugerida                          |\n|-----------------------------|------------------------------------------------|----------------------------------------------|\n| navMain                     | Inicio                                        | Principal                                    |\n| navWishlist                 | Deseos                                        | Lista de deseos / Deseados                  |\n| navReleases                 | Estrenos                                      | Lanzamientos / Novedades                     |\n| searchSortRelevanceShort    | Rel                                           | Rel.                                        |\n| mediaTypeGame               | Juego                                         | Videojuego                                   |\n| mediaTypeVisualNovel        | Novela visual                                 | Novela Visual                                |\n| addToFavorites              | Añadir a favoritos                            | Agregar a favoritos                          |\n| bulkMove                    | Mover selección a una colección                | Mover seleccionados a colección              |\n| settingsProfile             | Autor de las colecciones                      | Perfil de autor                              |\n| settingsCredentialsSubtitle  | Claves API de IGDB, SteamGridDB, TMDB        | Claves de API (IGDB, SteamGridDB, TMDB)     |\n\n---\n\n💎 Reflexión Final\n\nLa traducción al español ha sido muy bien realizada. Las sugerencias tienen como objetivo afinar detalles, no corregir errores significativos. Si el equipo de Tonkatsu Box toma en cuenta estas mejoras, la experiencia para los usuarios hispanohablantes será aún más fluida y natural.\n\n¡La Bandita Nunca Falla! 🌊💙"
+ },
+ {
+  "repo": "hacan359/tonkatsu_box",
+  "numero": 354,
+  "id": 5002677696,
+  "car": 88,
+  "http": 204,
+  "antes": "I put it in Spanish so that the words wouldn't get mixed up when translating to English."
+ },
+ {
+  "repo": "hacan359/tonkatsu_box",
+  "numero": 354,
+  "id": 5008606941,
+  "car": 126,
+  "http": 204,
+  "antes": "I will wait for it eagerly and I thank you very much for all your honest work. My apologies for my communication shortcomings."
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 1541,
+  "id": 5130521775,
+  "car": 590,
+  "http": 204,
+  "antes": "> Just an AI slop post, absurdly in-depth feature for little realistic gain. The complexity and potential breakage introduced by such a feature would far outweigh the very small benefit (and it is arguable if there is a benefit at all). There's literally already the option to pre-download chapters for this reason, and there is no need to baby the user. The user is fully capable of lowering the brightness or choosing to pre-download.\n\nAnd you are absolutely right, that's why I apologize. Next time I will make real suggestions, although if you know that this was a long time ago, right?"
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 1535,
+  "id": 6723786861,
+  "car": 1162,
+  "http": 204,
+  "antes": "Tu sugerencia #8 (biblioteca offline con prefetch inteligente) tiene una parte que se puede medir y otra que no. Implementé la parte medible en cero-X y estos son los números reales, por si sirven:\n\n**Prefetch adaptado a la red**, no fijo: 3 páginas por delante en wifi, **1** con datos medidos, **0** sin red. Descargar un capítulo entero por delante gasta la tarifa del usuario sin pedirle permiso.\n\n**El fallo que encontré probándolo con 20 cambios de capítulo seguidos**: la cancelación de un prefetch no detiene la carga en vuelo, solo la marca. Llegaron a haber **7 descargas simultáneas** de capítulos ya cerrados compitiendo con la que el usuario estaba mirando. Con un turno explícito y una espera acotada, el pico bajó a **1**.\n\n**Caché con tope en bytes, no en páginas.** Un caché «de 20 páginas» no significa nada: 20 páginas de webtoon a 1080 px son 8 MB, y 20 de manga a doble página en un tablet de 2560 px son 160 MB.\n\nY el número que sí importa: con un patrón de lectura real (avanzar y rebobinar cada 20 páginas), el hit rate fue **94,4 %**. Sin rebobinado baja mucho — el prefetch solo ayuda si el usuario relee, y eso no es cierto para todos."
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 1533,
+  "id": 6723787100,
+  "car": 1000,
+  "http": 204,
+  "antes": "Tu sugerencia #6 (sistema de respaldo para fuentes muertas). Implementé la parte de detección en cero-X y hay un dato que cambia el planteamiento.\n\n**Medido hoy con la API de GitHub**: el repositorio que el ecosistema recomienda como número uno para fuentes, `gedoor/legado` (47.217 ★), **está vaciado**. Dos archivos, un README que es un aviso legal, cero releases. Cuatro webs del ecosistema lo siguen recomendando.\n\nO sea: la primera fuente muerta que hay que detectar es la que todo el mundo cita como viva.\n\nPara el respaldo automático, lo que sí se puede hacer sin adivinar:\n1. Comprobar la URL de la fuente con una petición real antes de marcarla muerta (un 503 no es muerte, es caída).\n2. Guardar el último capítulo conocido para que el usuario no pierda la posición.\n3. **No migrar solo**: proponer tres alternativas con su motivo y que el usuario elija. Una migración automática a la fuente equivocada es peor que una fuente muerta, porque el usuario no sabe que le cambiaron la biblioteca."
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 1529,
+  "id": 6723786974,
+  "car": 1131,
+  "http": 204,
+  "antes": "Tu sugerencia #2 (diagnóstico de la app con IA) — la implementé en cero-X, pero **no con IA**, y creo que es lo importante del comentario.\n\nLo hice con **comprobaciones deterministas** que fallan en `gradle test`:\n\n- Un guardián que lee el manifiesto de modelos y los assets reales del APK y cruza eso contra lo que declaran los módulos. Encontró 3 módulos anunciando modelos que no existían en el APK.\n- Un cazador de placeholders que busca la combinación «comentario de relleno + devolución de éxito». Encontró **14 métodos** que decían haber hecho algo sin hacerlo — incluido un `translate()` que devolvía el texto original como si fuera la traducción.\n\n**Lo que aprendí**: el diagnóstico con IA habría sido más lento, más caro y menos fiable que siete líneas de regex bien puestas. La mayoría de los fallos de una app no son sutiles, son **mentiras escritas a mano** que nadie volvió a mirar. Para eso no hace falta un modelo: hace falta una prueba que las busque en cada compilación.\n\nDonde sí haría falta IA es en lo que no se puede enumerar: «esta fuente se rompió y su HTML cambió de forma» no se detecta con regex. Eso sí."
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 1321,
+  "id": 3702681535,
+  "car": 411,
+  "http": 204,
+  "antes": "'So, could you tell me in more detail why you think it failed? I understand that right now it doesn't affect much because I managed to restore almost the entire library, which is a relief. However, I would like to know what specifically caused that error. I hope this synchronization issue between the library doesn't happen again in the future, as it would be very frustrating to have to deal with that again.'"
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 1314,
+  "id": 6723786619,
+  "car": 1091,
+  "http": 204,
+  "antes": "Implementado en cero-X (proyecto propio), no aquí — pero la idea de tu issue está construida y probada, y dejo el diseño por si a komikku le sirve.\n\n**`FeedProfile`**: perfiles con sus entradas, su ranking y su rotación.\n\nTres decisiones que salieron de implementarlo:\n\n1. **La rotación va por días desde una fecha fija**, no desde la instalación. Si dependiera de la instalación, dos móviles del mismo usuario rotarían a días distintos y la sincronización de perfiles sería un caos.\n\n2. **Si dos perfiles tocan el mismo día, gana el de periodo más largo.** Un perfil de 4 días y otro de 2 coinciden cada 4; el de 4 es el más específico y el que menos oportunidades tiene, así que manda.\n\n3. **Un perfil con `cadaDias = 0` nunca salta solo**: solo cuando el usuario lo elige. Hay quien quiere perfiles manuales y no una app que decida por él.\n\nSobre el punto de tu issue de los perfiles temáticos (manhua de acción, seinen, +18): encajan perfecto con esto, porque un perfil no es un filtro de contenido sino una lista de entradas. El filtro se aplica al construir el perfil, no al mostrarlo."
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 1033,
+  "id": 3146589809,
+  "car": 410,
+  "http": 204,
+  "antes": "Here is the translation:\n\n\"I don't know what 'functionality similar to Animetail' you are referring to.  \n> The source category already has a request.  \n> * Source information, such as library size, flow, and the number of titles, will not be available; it is impossible to do so.\n\nI wasn't referring to organizing the library; I apologize if I was not clear, but rather to organizing the extensions feed.  \n. "
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 1033,
+  "id": 3146592144,
+  "car": 45,
+  "http": 204,
+  "antes": "I already clarified it in the request, lol. 😄"
+ },
+ {
+  "repo": "komikku-app/komikku",
+  "numero": 1033,
+  "id": 6723786758,
+  "car": 1065,
+  "http": 204,
+  "antes": "Tu issue pide un ranking configurable para las fuentes del feed. Implementado en cero-X con cinco modos, y el resultado de probarlos:\n\n| ranking | para qué sirve de verdad |\n|---|---|\n| **Prioridad** | el orden que puso el usuario. Manda él, y es el defecto |\n| **Uso** | las que más abres primero |\n| **Novedades** | las que más publican. Evita perfiles que salen vacíos |\n| **Recientes** | las últimas añadidas. Útil la primera semana |\n| **Alfabético** | predecible y fácil de recorrer con la vista |\n\nDos cosas que aprendí al probarlo:\n\n**El alfabético tiene una trampa**: una fuente sin título desaparece si no se maneja el caso nulo. Perder entradas al ordenar es peor que ordenarlas mal, así que las que no tienen título van al final, no a la basura.\n\n**«Por uso» y «por novedades» se pelean.** Si priorizas novedades, el feed se llena de la fuente que más publica y acabas leyendo lo que menos te interesa. Por eso el ranking tiene que ser POR PERFIL y no global: el perfil «novedades» puede ordenar por novedades mientras el perfil «lo mío» ordena por uso."
+ }
+]
