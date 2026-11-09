@@ -20,7 +20,11 @@ El 3 de noviembre se dio el segundo paso, que era el que faltaba: **quitar lo in
 
 Del 7 al 8 de noviembre la serie de Facebook creyó que Facebook exigía **45.000 caracteres por publicación**. No los exige: era una vara interna de la casa que se convirtió en relleno, y produjo nueve cuerpos hechos con un generador que repetía cinco secciones con el título de la pieza metido a la fuerza en medio. Se detectó, se retiró el relleno a `_reemplazadas-2026-11-08/` y se corrigió la doctrina: la banda es **6.000 a 45.000 caracteres** y **ninguna pieza tiene que acercarse al máximo** —la 40 se publica con 13.532 y es la más corta a propósito—. La pieza 40 se reescribió entera, y se arreglaron además la voz rota que se había publicado a la vista en la 06, la afirmación de la 07 sobre los cinco gigantes —medida otra vez el 8-nov— y el número de pieza equivocado que llevaban las ocho cortas. El detalle, en [`CHANGELOG.md`](CHANGELOG.md) y en el `LEEME-de-la-carpeta.md` del canal.
 
-Lo que **no** se ha hecho y no se va a fingir: nueve piezas cortas (24 a 29 y 32, 33, 34, 36) siguen sin medición propia. Su texto es corto y honesto, pero no tiene cifras medidas para su tema, y el LEEME las marca una por una en vez de contarlas como terminadas.
+**Y el 8 de noviembre, más tarde, se pagó la deuda**: las nueve piezas que estaban declaradas «sin medición propia» se midieron de verdad. Cada una tiene su `docs/MEDICION-NN-2026-11-08.json` con los repositorios de su tema, sus entregas, sus adjuntos y **cuántos de esos adjuntos llevan suma de comprobación**; y su comentario fijado se genera desde ese JSON, sin una cifra escrita a mano. Herramienta: `tools/medir_piezas_24_34.py --todas`.
+
+Lo que salió al medir —y que ninguna de esas piezas podía decir antes—: 0 huellas de 173 archivos en las extensiones de anime, 0 de 727 en los lectores de manga, 0 de 3.788 en Mangayomi, 3 de 262 en DropSauce (las pone el proyecto de 235 estrellas), 102 de 1.385 en Kototoro (el récord), `tachiyomiorg/tachiyomi` devuelve **404**, el fork de 294 estrellas se mueve mientras su original de 8.958 lleva 370 días parado, y Kototoro publicó la **v2.4.1 el mismo día de la medición**.
+
+Lo único que sigue corto y sin medición propia es la **36**, y se declara: el cierre de un sitio no se mide con una API pública de repositorios.
 
 ---
 

@@ -6,6 +6,49 @@ Criterio de numeración, para que no sea arbitraria: **menor** cuando cambia una
 
 ---
 
+## [2.2.0] — 2026-11-08
+
+La deuda de las nueve piezas. Del bloque anterior quedaron nueve piezas cortas declaradas «sin
+medición propia»: 24 a 29, 32, 33, 34 y —en parte— 40. En esta pasada se midieron los temas de
+verdad y se reescribieron los nueve cuerpos con sus cifras.
+
+### Añadido
+
+- **`tools/medir_piezas_24_34.py`**: mide los repositorios de cada pieza contra la API pública de
+  GitHub y escribe `docs/MEDICION-NN-2026-11-08.json` con estrellas, forks, licencia, archivado,
+  fechas, última entrega, número de entregas, adjuntos totales, **adjuntos con suma** y descargas.
+  Cachea cada respuesta y permite volver a medir con `--todas`. Salida medida: nueve JSON,
+  **34 repositorios distintos** y **11.897 archivos** contados, de los cuales **111 llevan suma de
+  comprobación** —y 102 de esos 111 son de un solo proyecto: Kototoro.
+- **Nueve cuerpos reescritos** con medición propia: 24 (extensiones de anime), 25 (OCR), 26 (Usagi),
+  27 (DropSauce), 28 (Mangayomi), 29 (LNReader), 32 (Tu Manga Online), 33 (apoyo a desarrolladores)
+  y 34 (biblioteca de Kototoro). Entre 9.984 y 13.856 caracteres cada uno, todos dentro de banda.
+- **Nueve comentarios fijados generados desde el JSON de medición**: ninguna cifra va escrita a mano;
+  el generador sustituye la cifra vieja si la medición cambia.
+
+### Cambiado
+
+- **Las piezas cortas anteriores se retiran a `_reemplazadas-2026-11-08/`** con `git mv`, no se borran.
+- **`LEEME-de-la-carpeta.md`**: la tabla dice en cada fila si la pieza está medida y qué salió; se
+  añade la sección «La medición del 8 de noviembre» con las órdenes para volver a medir.
+- **`README.md`**: la deuda declarada pasa a contarse como pagada, con lo que salió al medir.
+- **`docs/bandas.json`**: 80 entradas recalculadas con los caracteres reales.
+
+### Corregido
+
+- **Un fallo del medidor**: `dias_push = 0` se interpretaba como «desconocido», así que los
+  repositorios que empujaron código **hoy** no contaban como actividad de la semana. Detectado al
+  comparar la prosa con los totales; corregido y regeneradas las nueve mediciones.
+
+### Lo que sigue sin hacerse, y se declara
+
+- La **pieza 36** sigue corta y sin medición propia: cuenta el cierre de un sitio, y eso no se mide
+  con la API de repositorios. Se queda declarada.
+- **No hay prueba en dispositivo**: ninguna de las nueve piezas se probó ejecutando las aplicaciones.
+  Lo que se midió son repositorios, no el comportamiento de los programas en un teléfono.
+
+---
+
 ## [2.1.0] — 2026-11-08
 
 La pasada del cierre de la serie de Facebook: cuarenta piezas con cuerpo y comentario fijado, y la

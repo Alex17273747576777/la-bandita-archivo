@@ -21,7 +21,7 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 
 ## El ciclo vivo, pieza por pieza
 
-Las piezas 01 a 22 y la 31 están escritas a mano y medidas contra la API pública de GitHub, cada una con su hora y su propio corte. Las piezas 32 a 39 son textos cortos de otra serie —TuMangaOnline, apoyo a desarrolladores, la Ballenita, Kung Fu Panda, Canserbero— que llegaron con un número de pieza equivocado y fueron renumerados el 8 de noviembre; su cuerpo está pendiente de medición propia y **el LEEME no va a fingir que ya la tienen**. La 40 se reescribió entera el 8 de noviembre.
+**Las cuarenta piezas están medidas o declaradas.** Las 01 a 22 y la 31 se midieron contra la API pública de GitHub, cada una con su hora y su corte. Las **24 a 29, 32, 33, 34 y 40** se reescribieron enteras el 8 de noviembre con medición propia nueva —cada una tiene su `docs/MEDICION-NN-2026-11-08.json`, y su comentario fijado se genera desde ese JSON—. Las **35, 37, 38 y 39** son textos personales (la Ballenita, la carta a la manada, Kung Fu Panda, Canserbero): no son piezas de medición y el LEEME no les exige lo que no son. La 36 sigue corta y **sin medición propia**: su tema es el cierre de un sitio, no un ecosistema de repositorios, y no hay API que medir.
 
 | # | Pieza | Cuerpo | Fijado | Estado |
 |---|---|---|---|---|
@@ -48,23 +48,40 @@ Las piezas 01 a 22 y la 31 están escritas a mano y medidas contra la API públi
 | 21 | La variante que cambió | 45.921 | 1.967 | Medida · OmniShizuku |
 | 22 | El módulo que no necesita root | 46.596 | 1.567 | Medida · AxManager |
 | 23 | Keiyoushi, catálogo de extensiones | 45.957 | 1.618 | Una ficha medida |
-| 24 | Yuzono anime-extensions | 45.111 | 1.392 | Una ficha · **sin medición propia** |
-| 25 | Umi-OCR y episteme | 45.001 | 1.225 | Una ficha · **sin medición propia** |
-| 26 | Usagi | 45.340 | 1.366 | Una ficha · **sin medición propia** |
-| 27 | DropSauce | 45.250 | 1.388 | Una ficha · **sin medición propia** |
-| 28 | Mangayomi | 45.142 | 1.392 | Una ficha · **sin medición propia** |
-| 29 | LNReader | 45.079 | 1.398 | Una ficha · **sin medición propia** |
+| 24 | Repositorios de extensiones de anime | 12.966 | 2.077 | **Medida el 8-nov** · 5 vivos, 173 archivos, 0 huellas, un abuelo de 812 días |
+| 25 | OCR de bolsillo | 12.326 | 1.983 | **Medida el 8-nov** · 7 programas, 334 archivos, 1 suma (episteme) |
+| 26 | Usagi y su familia | 12.114 | 2.073 | **Medida el 8-nov** · 6 vivos, 727 archivos, 0 huellas, el original 370 días parado |
+| 27 | DropSauce y su tema | 9.984 | 1.988 | **Medida el 8-nov** · 4 vivos, 262 archivos, 3 sumas (las pone el más pequeño) |
+| 28 | Mangayomi y sus extensiones | 12.066 | 2.077 | **Medida el 8-nov** · 5 vivos, 3.788 archivos, 0 huellas: el peor del día |
+| 29 | LNReader y sus plugins | 10.518 | 1.962 | **Medida el 8-nov** · 2 vivos, 69 archivos, 5 sumas, 963 días sin etiqueta |
 | 30 | Cloudstream MegaRepo | 45.011 | 1.415 | Una ficha medida |
-| 31 | El peso no es el problema | 50.302 | 3.351 | Medida de nuevo el 8-nov |
-| 32 | TMO: clones y dominios | 12.791 | 3.192 | Corta · **sin medición propia** |
-| 33 | Apoyo a desarrolladores | 9.630 | 1.495 | Corta · **sin medición propia** |
-| 34 | Recuperar la biblioteca de Kototoro | 9.369 | 1.422 | Corta · **sin medición propia** |
+| 31 | El peso no es el problema | 50.628 | 3.351 | Medida de nuevo el 8-nov |
+| 32 | Tu Manga Online, sin lista de dominios | 11.129 | 2.090 | **Medida el 8-nov** · 9 lectores, 4.182 archivos, 0 huellas, uno que devuelve 404 |
+| 33 | Apoyo a desarrolladores | 11.244 | 2.042 | **Medida el 8-nov** · 9 proyectos, 977 archivos, 0 huellas, uno de 0 estrellas |
+| 34 | Biblioteca de Kototoro y v2.4 | 12.781 | 2.026 | **Medida el 8-nov** · 4 repos, 1.385 archivos, **102 sumas**: récord del día |
 | 35 | La Ballenita vuelve al mar | 6.206 | 1.337 | Corta · personal |
-| 36 | TMO: cierre y análisis | 11.115 | 1.294 | Corta · **sin medición propia** |
+| 36 | TMO: cierre y análisis | 11.115 | 1.294 | Corta · **sin medición propia**: el cierre de un sitio no se mide con una API |
 | 37 | Carta a la manada azul | 10.254 | 1.503 | Corta · personal |
 | 38 | Kung Fu Panda | 6.231 | 1.249 | Corta · personal |
 | 39 | Canserbero | 22.155 | 1.512 | Corta · personal |
-| 40 | La lección del hash SHA-256 | 12.678 | 2.363 | **Reescrita entera el 8-nov** |
+| 40 | La lección del hash SHA-256 | 12.678 | 2.363 | **Reescrita entera el 8-nov** · el método probado en esta máquina |
+
+## La medición del 8 de noviembre
+
+Las nueve piezas que estaban declaradas «sin medición propia» se midieron de verdad, y las cifras quedaron guardadas:
+
+```
+docs/MEDICION-24-2026-11-08.json   …   docs/MEDICION-34-2026-11-08.json
+python3 tools/medir_piezas_24_34.py --todas     # vuelve a medir las nueve
+```
+
+Cada JSON guarda, por repositorio: estrellas, forks, licencia, archivado, fecha de nacimiento, último empujón, última entrega con etiqueta y su fecha, número de entregas, adjuntos totales, **cuántos adjuntos llevan suma de comprobación** y descargas acumuladas. Los totales de cada pieza se cuentan en el propio archivo, y el comentario fijado se genera desde ahí: **no hay una cifra escrita a mano en los nueve fijados**.
+
+Lo que salió al medir, en una línea por tema: 0 huellas de 173 en las extensiones de anime; 1 de 334 en OCR; 0 de 727 en lectores de manga; **3 de 262** en DropSauce, del más pequeño; 0 de 3.788 en Mangayomi, el peor del día; 5 de 69 en LNReader; 0 de 4.182 en Tu Manga Online; 0 de 977 en apoyo a desarrolladores; y **102 de 1.385** en Kototoro, el récord.
+
+Y tres cosas que la pieza vieja no podía decir porque no había medido: que `tachiyomiorg/tachiyomi` devuelve **404**, que el **fork de 294 estrellas se mueve y su original de 8.958 lleva 370 días parado**, y que **Kototoro publicó la v2.4.1 el mismo día de la medición**.
+
+---
 
 ## La banda de longitud, corregida
 
