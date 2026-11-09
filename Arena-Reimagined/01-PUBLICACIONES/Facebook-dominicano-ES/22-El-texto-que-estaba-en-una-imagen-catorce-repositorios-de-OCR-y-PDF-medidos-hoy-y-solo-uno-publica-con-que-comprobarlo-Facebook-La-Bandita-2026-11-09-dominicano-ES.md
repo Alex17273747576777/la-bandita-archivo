@@ -59,7 +59,7 @@ El que más estrellas tiene es **Stirling-Tools/Stirling-PDF**, con ★96.115 y 
 
 11. **rfjakob/gocryptfs** · ★4.760 · MIT · nació el 6 de septiembre de 2015 (4.082 días) · última entrega del 10 de agosto de 2025 · 8 adjuntos y **4 con suma** · 78.469 descargas en esa entrega · último empujón hace 1 días · 63 incidencias abiertas.
 
-12. **Akylas/OSS-DocumentScanner** · ★2.646 · MIT · nació el 29 de julio de 2020 (2.294 días) · última entrega del 22 de octubre de 2026 · 2 adjuntos y **0 con suma** · 17.269 descargas en esa entrega · último empujón hace 0 días · 94 incidencias abiertas.
+12. **ossappscollective/OSS-DocumentScanner** · ★2.646 · MIT · nació el 29 de julio de 2020 (2.294 días) · última entrega del 22 de octubre de 2026 · 2 adjuntos y **0 con suma** · 17.269 descargas en esa entrega · último empujón hace 0 días · 94 incidencias abiertas.
 
 13. **aristocratos/btop4win** · ★2.076 · Apache-2.0 · nació el 27 de marzo de 2022 (1.688 días) · última entrega del 12 de octubre de 2025 · 2 adjuntos y **0 con suma** · 96.665 descargas en esa entrega · último empujón hace 393 días · 35 incidencias abiertas.
 
@@ -92,7 +92,7 @@ Los que sí son del tema, no firman: **Stirling-Tools/Stirling-PDF**, noventa y 
 | `pdfarranger/pdfarranger` | 6.029 | 4.037 | 1 | 2 | 0 | 82.414 | GPL-3.0 | 2026-05-23 |
 | `kaifcodec/user-scanner` | 5.592 | 386 | 0 | 0 | 0 | 0 | MIT | 2026-09-17 |
 | `rfjakob/gocryptfs` | 4.760 | 4.082 | 1 | 8 | 4 | 78.469 | MIT | 2025-08-10 |
-| `Akylas/OSS-DocumentScanner` | 2.646 | 2.294 | 0 | 2 | 0 | 17.269 | MIT | 2026-10-22 |
+| `ossappscollective/OSS-DocumentScanner` | 2.646 | 2.294 | 0 | 2 | 0 | 17.269 | MIT | 2026-10-22 |
 | `aristocratos/btop4win` | 2.076 | 1.688 | 393 | 2 | 0 | 96.665 | Apache-2.0 | 2025-10-12 |
 | `scanmem/scanmem` | 1.938 | 4.258 | 8 | 0 | 0 | 0 | GPL-3.0 | 2017-10-14 |
 
@@ -145,3 +145,19 @@ Cada cifra sale de `docs/MEDICION-P22-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. Fijar la imagen de un contenedor por resumen es la verificación mínima en un servidor.
 3. Las estrellas miden atención, no calidad.
 4. Los tres programas que no son del tema están en la tabla porque la búsqueda los trajo: se dice cuáles.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió de dueño o de nombre el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `Akylas/OSS-DocumentScanner` hoy responde como **`ossappscollective/OSS-DocumentScanner`**.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `Akylas/OSS-DocumentScanner` hoy responde como **`ossappscollective/OSS-DocumentScanner`**.

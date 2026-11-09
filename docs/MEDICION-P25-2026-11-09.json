@@ -49,7 +49,7 @@
    "lenguaje": null
   },
   {
-   "repo": "facebook/docusaurus",
+   "repo": "meta/docusaurus",
    "stars": 66683,
    "forks": 10127,
    "licencia": "MIT",
@@ -65,7 +65,8 @@
    "descargas_ultima": 0,
    "abiertas": 270,
    "archivado": false,
-   "lenguaje": "TypeScript"
+   "lenguaje": "TypeScript",
+   "repo_viejo_2026-11-09": "facebook/docusaurus"
   },
   {
    "repo": "jakevdp/PythonDataScienceHandbook",
@@ -220,7 +221,7 @@
    "lenguaje": null
   },
   {
-   "repo": "learn-anything/books",
+   "repo": "gendotnew/books",
    "stars": 7766,
    "forks": 830,
    "licencia": null,
@@ -236,7 +237,8 @@
    "descargas_ultima": 0,
    "abiertas": 4,
    "archivado": false,
-   "lenguaje": null
+   "lenguaje": null,
+   "repo_viejo_2026-11-09": "learn-anything/books"
   },
   {
    "repo": "internetarchive/openlibrary",

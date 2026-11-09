@@ -59,7 +59,7 @@ El que más estrellas tiene es **DigitalPlatDev/FreeDomain**, con ★207.640 y *
 
 12. **K0p1-Git/cloudflare-ddns-updater** · ★1.844 · MIT · nació el 9 de noviembre de 2020 (2.191 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 511 días · 2 incidencias abiertas.
 
-13. **iampedii/WhiteDNS** · ★1.514 · NOASSERTION · nació el 10 de mayo de 2026 (183 días) · última entrega del 4 de noviembre de 2026 · 12 adjuntos y **1 con suma** · 2.316 descargas en esa entrega · último empujón hace 5 días · 30 incidencias abiertas.
+13. **WhiteDNS/WhiteDNS-Android** · ★1.514 · NOASSERTION · nació el 10 de mayo de 2026 (183 días) · última entrega del 4 de noviembre de 2026 · 12 adjuntos y **1 con suma** · 2.316 descargas en esa entrega · último empujón hace 5 días · 30 incidencias abiertas.
 
 14. **AdguardTeam/AdguardSDNSFilter** · ★1.425 · GPL-3.0 · nació el 30 de agosto de 2018 (2.993 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 0 días · 5 incidencias abiertas.
 
@@ -68,9 +68,9 @@ El que más estrellas tiene es **DigitalPlatDev/FreeDomain**, con ★207.640 y *
 *🔏 La huella · dos que dicen, doce que callan*
 
 • **nextdns/nextdns** — 1 sumas de 80 adjuntos, en una entrega del 29 de octubre de 2026.
-• **iampedii/WhiteDNS** — 1 sumas de 12 adjuntos, en una entrega del 4 de noviembre de 2026.
+• **WhiteDNS/WhiteDNS-Android** — 1 sumas de 12 adjuntos, en una entrega del 4 de noviembre de 2026.
 
-**nextdns/nextdns** publica una suma de ochenta adjuntos. **iampedii/WhiteDNS** publica una de doce, en una entrega del 4 de noviembre, y es el más nuevo de los dos con ciento ochenta y tres días.
+**nextdns/nextdns** publica una suma de ochenta adjuntos. **WhiteDNS/WhiteDNS-Android** publica una de doce, en una entrega del 4 de noviembre, y es el más nuevo de los dos con ciento ochenta y tres días.
 
 ───────────────────
 
@@ -90,7 +90,7 @@ El que más estrellas tiene es **DigitalPlatDev/FreeDomain**, con ★207.640 y *
 | `yokoffing/NextDNS-Config` | 3.253 | 1.590 | 1 | aquí no hay | 0 | 0 | GPL-3.0 | nunca |
 | `nsonaniya2010/SubDomainizer` | 1.909 | 2.912 | 56 | 0 | 0 | 0 | MIT | 2020-10-06 |
 | `K0p1-Git/cloudflare-ddns-updater` | 1.844 | 2.191 | 511 | aquí no hay | 0 | 0 | MIT | nunca |
-| `iampedii/WhiteDNS` | 1.514 | 183 | 5 | 12 | 1 | 2.316 | NOASSERTION | 2026-11-04 |
+| `WhiteDNS/WhiteDNS-Android` | 1.514 | 183 | 5 | 12 | 1 | 2.316 | NOASSERTION | 2026-11-04 |
 | `AdguardTeam/AdguardSDNSFilter` | 1.425 | 2.993 | 0 | aquí no hay | 0 | 0 | GPL-3.0 | nunca |
 
 ───────────────────
@@ -165,3 +165,19 @@ Cada cifra sale de `docs/MEDICION-P32-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. `clientHold` y `client transfer prohibited` no son lo mismo, y confundirlos cambia la conclusión.
 3. Las estrellas miden atención, no calidad.
 4. Las tres consultas del método no piden cuenta y no dejan rastro en ningún servicio de esta casa.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió de dueño o de nombre el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `iampedii/WhiteDNS` hoy responde como **`WhiteDNS/WhiteDNS-Android`**.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `iampedii/WhiteDNS` hoy responde como **`WhiteDNS/WhiteDNS-Android`**.

@@ -76,7 +76,7 @@ Esto importa porque cambia lo que la pieza prueba. No son «los programas más p
 
 10. **ly05010419/MacNativeGames** · ★7.364 · MIT · nació el 17 de octubre de 2026 (23 días) · última entrega del 25 de octubre de 2026 · 0 adjuntos y **0 con suma** · último empujón hace 3 días · 269 incidencias abiertas.
 
-11. **Fei2411/DeepSeek-Bot** · ★6.542 · Apache-2.0 · nació el 7 de octubre de 2026 (33 días) · última entrega del 9 de noviembre de 2026 · 18 adjuntos y **1 con suma** · 1.905 descargas en esa entrega · último empujón hace 0 días · 243 incidencias abiertas.
+11. **Fei2411/DS-Bot** · ★6.542 · Apache-2.0 · nació el 7 de octubre de 2026 (33 días) · última entrega del 9 de noviembre de 2026 · 18 adjuntos y **1 con suma** · 1.905 descargas en esa entrega · último empujón hace 0 días · 243 incidencias abiertas.
 
 12. **omlahore/RemoveMacAI** · ★5.971 · MIT · nació el 29 de septiembre de 2026 (41 días) · última entrega del 18 de octubre de 2026 · 4 adjuntos y **2 con suma** · 184.146 descargas en esa entrega · último empujón hace 0 días · 11 incidencias abiertas.
 
@@ -84,9 +84,9 @@ Esto importa porque cambia lo que la pieza prueba. No son «los programas más p
 
 14. **guillermolg00/morphicons** · ★3.165 · MIT · nació el 1 de agosto de 2026 (100 días) · última entrega del 24 de octubre de 2026 · 0 adjuntos y **0 con suma** · último empujón hace 2 días · 2 incidencias abiertas.
 
-15. **rohit267/net-merge** · ★2.995 · MIT · nació el 12 de octubre de 2026 (28 días) · última entrega del 9 de noviembre de 2026 · 59 adjuntos y **0 con suma** · 423 descargas en esa entrega · último empujón hace 0 días · 3 incidencias abiertas.
+15. **net-merge/net-merge** · ★2.995 · MIT · nació el 12 de octubre de 2026 (28 días) · última entrega del 9 de noviembre de 2026 · 59 adjuntos y **0 con suma** · 423 descargas en esa entrega · último empujón hace 0 días · 3 incidencias abiertas.
 
-16. **nolight132/sonora** · ★2.736 · GPL-3.0 · nació el 3 de agosto de 2026 (98 días) · última entrega del 26 de octubre de 2026 · 15 adjuntos y **1 con suma** · 3.259 descargas en esa entrega · último empujón hace 0 días · 126 incidencias abiertas.
+16. **sonorahq/sonora** · ★2.736 · GPL-3.0 · nació el 3 de agosto de 2026 (98 días) · última entrega del 26 de octubre de 2026 · 15 adjuntos y **1 con suma** · 3.259 descargas en esa entrega · último empujón hace 0 días · 126 incidencias abiertas.
 
 17. **xevrion/hatchzip** · ★2.715 · Apache-2.0 · nació el 21 de octubre de 2026 (19 días) · última entrega del 5 de noviembre de 2026 · 27 adjuntos y **13 con suma** · 3.451 descargas en esa entrega · último empujón hace 0 días · 5 incidencias abiertas.
 
@@ -108,8 +108,8 @@ Estos son los ocho, con lo que publicaron y cuándo:
 • **Droid-Deck/DroidDeck** — 1 sumas de 5 adjuntos, en una entrega del 8 de noviembre de 2026.
 • **tangency-labs/solidcraft** — 1 sumas de 49 adjuntos, en una entrega del 7 de noviembre de 2026.
 • **zai-org/ZCode** — 1 sumas de 7 adjuntos, en una entrega del 4 de noviembre de 2026.
-• **Fei2411/DeepSeek-Bot** — 1 sumas de 18 adjuntos, en una entrega del 9 de noviembre de 2026.
-• **nolight132/sonora** — 1 sumas de 15 adjuntos, en una entrega del 26 de octubre de 2026.
+• **Fei2411/DS-Bot** — 1 sumas de 18 adjuntos, en una entrega del 9 de noviembre de 2026.
+• **sonorahq/sonora** — 1 sumas de 15 adjuntos, en una entrega del 26 de octubre de 2026.
 
 Ahora mira la proporción: **239 adjuntos y ocho proyectos que firman**, con trece sumas el que más y una el que menos. Los otros doce publican cientos de archivos y ninguno de ellos trae con qué compararlos.
 
@@ -139,12 +139,12 @@ No es una crítica al proyecto: es la diferencia entre un programa que se usa co
 | `miqdadbadjuber/anti-slop` | 8.730 | 94 | 0 | 0 | 0 | 0 | MIT | 2026-11-09 |
 | `zai-org/ZCode` | 8.577 | 50 | 5 | 7 | 1 | 1.168 | Apache-2.0 | 2026-11-04 |
 | `ly05010419/MacNativeGames` | 7.364 | 23 | 3 | 0 | 0 | 0 | MIT | 2026-10-25 |
-| `Fei2411/DeepSeek-Bot` | 6.542 | 33 | 0 | 18 | 1 | 1.905 | Apache-2.0 | 2026-11-09 |
+| `Fei2411/DS-Bot` | 6.542 | 33 | 0 | 18 | 1 | 1.905 | Apache-2.0 | 2026-11-09 |
 | `omlahore/RemoveMacAI` | 5.971 | 41 | 0 | 4 | 2 | 184.146 | MIT | 2026-10-18 |
 | `anmolkapil/plexo` | 5.638 | 55 | 3 | 20 | 0 | 235.508 | MIT | 2026-10-11 |
 | `guillermolg00/morphicons` | 3.165 | 100 | 2 | 0 | 0 | 0 | MIT | 2026-10-24 |
-| `rohit267/net-merge` | 2.995 | 28 | 0 | 59 | 0 | 423 | MIT | 2026-11-09 |
-| `nolight132/sonora` | 2.736 | 98 | 0 | 15 | 1 | 3.259 | GPL-3.0 | 2026-10-26 |
+| `net-merge/net-merge` | 2.995 | 28 | 0 | 59 | 0 | 423 | MIT | 2026-11-09 |
+| `sonorahq/sonora` | 2.736 | 98 | 0 | 15 | 1 | 3.259 | GPL-3.0 | 2026-10-26 |
 | `xevrion/hatchzip` | 2.715 | 19 | 0 | 27 | 13 | 3.451 | Apache-2.0 | 2026-11-05 |
 | `shaongitbd/doory` | 2.585 | 30 | 3 | 0 | 0 | 0 | NOASSERTION | 2026-11-04 |
 | `gauthierpiarrette/highball` | 2.210 | 78 | 2 | 2 | 0 | 2.920 | GPL-3.0 | 2026-11-05 |
@@ -213,3 +213,23 @@ Cada cifra de esta pieza sale de `docs/MEDICION-P01-2026-11-09.json`, sacado de 
 2. «Sin adjuntos» no es lo mismo que «sin entrega»: un repositorio puede publicar una entrega sin archivos adjuntos.
 3. Las estrellas se midieron hoy y pueden cambiar mañana. Esta serie ya documentó un caso en el que bajaron.
 4. Los cuatro filtros están escritos en la pieza para que cualquiera pueda repetir la medición y llegar a los mismos veinte.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió de dueño o de nombre el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `Fei2411/DeepSeek-Bot` hoy responde como **`Fei2411/DS-Bot`**.
+- `rohit267/net-merge` hoy responde como **`net-merge/net-merge`**.
+- `nolight132/sonora` hoy responde como **`sonorahq/sonora`**.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `Fei2411/DeepSeek-Bot` hoy responde como **`Fei2411/DS-Bot`**.
+- `rohit267/net-merge` hoy responde como **`net-merge/net-merge`**.
+- `nolight132/sonora` hoy responde como **`sonorahq/sonora`**.

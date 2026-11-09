@@ -44,7 +44,7 @@ El que más estrellas tiene es **EbookFoundation/free-programming-books**, con �
 
 2. **trimstray/the-book-of-secret-knowledge** · ★257.080 · MIT · nació el 23 de junio de 2018 (3.061 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 720 días · 0 incidencias abiertas.
 
-3. **facebook/docusaurus** · ★66.683 · MIT · nació el 20 de junio de 2017 (3.429 días) · última entrega del 10 de julio de 2026 · 0 adjuntos y **0 con suma** · último empujón hace 3 días · 270 incidencias abiertas.
+3. **meta/docusaurus** · ★66.683 · MIT · nació el 20 de junio de 2017 (3.429 días) · última entrega del 10 de julio de 2026 · 0 adjuntos y **0 con suma** · último empujón hace 3 días · 270 incidencias abiertas.
 
 4. **jakevdp/PythonDataScienceHandbook** · ★50.407 · MIT · nació el 10 de agosto de 2016 (3.743 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 866 días · 125 incidencias abiertas.
 
@@ -62,7 +62,7 @@ El que más estrellas tiene es **EbookFoundation/free-programming-books**, con �
 
 11. **joeycastillo/The-Open-Book** · ★8.096 · CC-BY-SA-4.0 · nació el 13 de agosto de 2019 (2.645 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 1.070 días · 21 incidencias abiertas.
 
-12. **learn-anything/books** · ★7.766 · sin licencia declarada · nació el 5 de junio de 2017 (3.444 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 250 días · 4 incidencias abiertas.
+12. **gendotnew/books** · ★7.766 · sin licencia declarada · nació el 5 de junio de 2017 (3.444 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 250 días · 4 incidencias abiertas.
 
 13. **internetarchive/openlibrary** · ★6.817 · AGPL-3.0 · nació el 30 de octubre de 2008 (6.584 días) · última entrega del 5 de noviembre de 2026 · 0 adjuntos y **0 con suma** · último empujón hace 0 días · 790 incidencias abiertas.
 
@@ -84,7 +84,7 @@ No hay ninguna suma que contar. Y el detalle que lo explica todo: **cero adjunto
 |---|---|---|---|---|---|---|---|---|
 | `EbookFoundation/free-programming-books` | 401.349 | 4.777 | 2 | aquí no hay | 0 | 0 | CC-BY-4.0 | nunca |
 | `trimstray/the-book-of-secret-knowledge` | 257.080 | 3.061 | 720 | aquí no hay | 0 | 0 | MIT | nunca |
-| `facebook/docusaurus` | 66.683 | 3.429 | 3 | 0 | 0 | 0 | MIT | 2026-07-10 |
+| `meta/docusaurus` | 66.683 | 3.429 | 3 | 0 | 0 | 0 | MIT | 2026-07-10 |
 | `jakevdp/PythonDataScienceHandbook` | 50.407 | 3.743 | 866 | aquí no hay | 0 | 0 | MIT | nunca |
 | `virgiliojr94/book-to-skill` | 37.448 | 192 | 1 | 0 | 0 | 0 | MIT | 2026-08-10 |
 | `dariubs/GoBooks` | 19.780 | 4.206 | 26 | aquí no hay | 0 | 0 | sin declarar | nunca |
@@ -93,7 +93,7 @@ No hay ninguna suma que contar. Y el detalle que lo explica todo: **cero adjunto
 | `trimstray/nginx-admins-handbook` | 14.340 | 2.842 | 720 | aquí no hay | 0 | 0 | MIT | nunca |
 | `klaudiosinani/taskbook` | 9.346 | 3.192 | 371 | 0 | 0 | 0 | MIT | 2019-02-13 |
 | `joeycastillo/The-Open-Book` | 8.096 | 2.645 | 1.070 | aquí no hay | 0 | 0 | CC-BY-SA-4.0 | nunca |
-| `learn-anything/books` | 7.766 | 3.444 | 250 | aquí no hay | 0 | 0 | sin declarar | nunca |
+| `gendotnew/books` | 7.766 | 3.444 | 250 | aquí no hay | 0 | 0 | sin declarar | nunca |
 | `internetarchive/openlibrary` | 6.817 | 6.584 | 0 | 0 | 0 | 0 | AGPL-3.0 | 2026-11-05 |
 | `bookorbit/bookorbit` | 6.244 | 184 | 1 | 0 | 0 | 0 | AGPL-3.0 | 2026-11-08 |
 
@@ -108,7 +108,7 @@ No hay ninguna suma que contar. Y el detalle que lo explica todo: **cero adjunto
 • **hackerkid/Mind-Expanding-Books** — ★14.525, nacido el 30 de mayo de 2015.
 • **trimstray/nginx-admins-handbook** — ★14.340, nacido el 28 de enero de 2019.
 • **joeycastillo/The-Open-Book** — ★8.096, nacido el 13 de agosto de 2019.
-• **learn-anything/books** — ★7.766, nacido el 5 de junio de 2017.
+• **gendotnew/books** — ★7.766, nacido el 5 de junio de 2017.
 
 Ocho de catorce. Entre ellos, los tres más grandes de toda la serie: dos listas de recursos con más de cien mil estrellas cada una, y un manual técnico con doscientas cincuenta y siete mil.
 
@@ -161,3 +161,21 @@ Cada cifra sale de `docs/MEDICION-P25-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. Una lista de enlaces no se instala; se lee. Su verificación es otra.
 3. Las estrellas miden atención, no calidad.
 4. Este es el tema de la serie donde la palabra «programa» hay que usarla con más cuidado.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió de dueño o de nombre el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `facebook/docusaurus` hoy responde como **`meta/docusaurus`**.
+- `learn-anything/books` hoy responde como **`gendotnew/books`**.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `facebook/docusaurus` hoy responde como **`meta/docusaurus`**.
+- `learn-anything/books` hoy responde como **`gendotnew/books`**.

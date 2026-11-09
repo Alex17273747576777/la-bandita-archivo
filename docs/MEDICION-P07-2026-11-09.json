@@ -68,7 +68,7 @@
    "lenguaje": null
   },
   {
-   "repo": "badaix/snapcast",
+   "repo": "snapcast/snapcast",
    "stars": 8055,
    "forks": 559,
    "licencia": "GPL-3.0",
@@ -84,7 +84,8 @@
    "descargas_ultima": 21927,
    "abiertas": 109,
    "archivado": false,
-   "lenguaje": "C++"
+   "lenguaje": "C++",
+   "repo_viejo_2026-11-09": "badaix/snapcast"
   },
   {
    "repo": "4gray/iptvnator",
@@ -258,7 +259,7 @@
    "lenguaje": "Shell"
   },
   {
-   "repo": "mongoosemonke504/NebuloIPTV",
+   "repo": "mongoosemonke504/OnsideTV",
    "stars": 113,
    "forks": 5,
    "licencia": "MIT",
@@ -274,7 +275,8 @@
    "descargas_ultima": 1263,
    "abiertas": 0,
    "archivado": false,
-   "lenguaje": "Swift"
+   "lenguaje": "Swift",
+   "repo_viejo_2026-11-09": "mongoosemonke504/NebuloIPTV"
   }
  ]
 }

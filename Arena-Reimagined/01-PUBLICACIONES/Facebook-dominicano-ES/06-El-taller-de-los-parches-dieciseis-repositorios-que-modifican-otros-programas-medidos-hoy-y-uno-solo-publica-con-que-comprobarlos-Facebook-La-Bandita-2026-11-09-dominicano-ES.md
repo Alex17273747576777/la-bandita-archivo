@@ -53,7 +53,7 @@ El que más estrellas tiene es **valinet/ExplorerPatcher**, con ★34.259 y **0 
 
 7. **roothide/Bootstrap** · ★1.717 · MIT · nació el 21 de diciembre de 2023 (1.054 días) · última entrega del 25 de octubre de 2026 · 0 adjuntos y **0 con suma** · último empujón hace 15 días · 47 incidencias abiertas.
 
-8. **matsuzaka-yuki/FolkPatch** · ★1.287 · GPL-3.0 · nació el 29 de noviembre de 2025 (345 días) · última entrega del 30 de octubre de 2026 · 1 adjuntos y **0 con suma** · 8.443 descargas en esa entrega · último empujón hace 10 días · 40 incidencias abiertas.
+8. **LyraVoid/FolkPatch** · ★1.287 · GPL-3.0 · nació el 29 de noviembre de 2025 (345 días) · última entrega del 30 de octubre de 2026 · 1 adjuntos y **0 con suma** · 8.443 descargas en esa entrega · último empujón hace 10 días · 40 incidencias abiertas.
 
 9. **jasonwu1994/Gboard-patches** · ★1.075 · GPL-3.0 · nació el 7 de abril de 2026 (216 días) · última entrega del 7 de noviembre de 2026 · 1 adjuntos y **0 con suma** · 25.464 descargas en esa entrega · último empujón hace 2 días · 23 incidencias abiertas.
 
@@ -61,7 +61,7 @@ El que más estrellas tiene es **valinet/ExplorerPatcher**, con ★34.259 y **0 
 
 11. **wchill/patcheddit** · ★859 · GPL-3.0 · nació el 3 de enero de 2026 (310 días) · última entrega del 7 de noviembre de 2026 · 1 adjuntos y **0 con suma** · 11.190 descargas en esa entrega · último empujón hace 2 días · 50 incidencias abiertas.
 
-12. **Jman-Github/ReVanced-Patch-Bundles** · ★727 · Unlicense · nació el 26 de abril de 2024 (927 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 1 días · 0 incidencias abiertas.
+12. **Jman-Github/Patch-Bundle-Registry** · ★727 · Unlicense · nació el 26 de abril de 2024 (927 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 1 días · 0 incidencias abiertas.
 
 13. **MindPatch/awesome-linux-minimalism** · ★315 · sin licencia declarada · nació el 24 de junio de 2021 (1.964 días) · última entrega del 13 de marzo de 2024 · 0 adjuntos y **0 con suma** · último empujón hace 615 días · 0 incidencias abiertas.
 
@@ -94,9 +94,9 @@ Entre los dos hay ochocientas quince veces más estrellas y exactamente la misma
 *🌫️ Los dos que no publican entrega*
 
 • **spion/adbfs-rootless** — ★1.069, nacido el 2 de agosto de 2012.
-• **Jman-Github/ReVanced-Patch-Bundles** — ★727, nacido el 26 de abril de 2024.
+• **Jman-Github/Patch-Bundle-Registry** — ★727, nacido el 26 de abril de 2024.
 
-Dos de dieciséis: **spion/adbfs-rootless**, con cinco mil doscientos doce días de vida y mil sesenta y nueve estrellas, y **Jman-Github/ReVanced-Patch-Bundles**, con novecientas veintisiete estrellas. El primero monta el sistema de archivos de un Android por el cable sin root y no ha publicado nunca un archivo; el segundo reparte parches y tampoco.
+Dos de dieciséis: **spion/adbfs-rootless**, con cinco mil doscientos doce días de vida y mil sesenta y nueve estrellas, y **Jman-Github/Patch-Bundle-Registry**, con novecientas veintisiete estrellas. El primero monta el sistema de archivos de un Android por el cable sin root y no ha publicado nunca un archivo; el segundo reparte parches y tampoco.
 
 ───────────────────
 
@@ -157,3 +157,21 @@ Cada cifra sale de `docs/MEDICION-P06-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. Las descargas de una entrega vieja siguen contando como descargas, aunque el archivo ya no sea el actual.
 3. Un proyecto puede caer en una búsqueda por su descripción sin tener que ver con el tema; aquí se dice cuál.
 4. Las estrellas miden atención, no calidad.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió de dueño o de nombre el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `matsuzaka-yuki/FolkPatch` hoy responde como **`LyraVoid/FolkPatch`**.
+- `Jman-Github/ReVanced-Patch-Bundles` hoy responde como **`Jman-Github/Patch-Bundle-Registry`**.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `matsuzaka-yuki/FolkPatch` hoy responde como **`LyraVoid/FolkPatch`**.
+- `Jman-Github/ReVanced-Patch-Bundles` hoy responde como **`Jman-Github/Patch-Bundle-Registry`**.

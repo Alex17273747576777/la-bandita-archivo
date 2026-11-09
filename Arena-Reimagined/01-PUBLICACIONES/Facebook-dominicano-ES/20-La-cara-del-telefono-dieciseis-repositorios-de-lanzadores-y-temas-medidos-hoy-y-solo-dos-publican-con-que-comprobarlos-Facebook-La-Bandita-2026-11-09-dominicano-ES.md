@@ -60,11 +60,11 @@ El que más estrellas tiene es **Wox-launcher/Wox**, con ★27.615 y **0 sumas**
 
 11. **LawnchairLauncher/lawnicons** · ★2.147 · Apache-2.0 · nació el 1 de noviembre de 2021 (1.834 días) · última entrega del 7 de noviembre de 2026 · 1 adjuntos y **0 con suma** · 11.468 descargas en esa entrega · último empujón hace 0 días · 39 incidencias abiertas.
 
-12. **butzist/ActivityLauncher** · ★2.062 · ISC · nació el 17 de febrero de 2014 (4.648 días) · última entrega del 26 de octubre de 2026 · 1 adjuntos y **0 con suma** · 5.564 descargas en esa entrega · último empujón hace 14 días · 0 incidencias abiertas.
+12. **ActivityLauncher/ActivityLauncher** · ★2.062 · ISC · nació el 17 de febrero de 2014 (4.648 días) · última entrega del 26 de octubre de 2026 · 1 adjuntos y **0 con suma** · 5.564 descargas en esa entrega · último empujón hace 14 días · 0 incidencias abiertas.
 
 13. **KieronQuinn/PixelLauncherMods** · ★1.306 · GPL-3.0 · nació el 21 de marzo de 2022 (1.694 días) · última entrega del 30 de octubre de 2025 · 1 adjuntos y **0 con suma** · 18.957 descargas en esa entrega · último empujón hace 375 días · 7 incidencias abiertas.
 
-14. **WackyIdeas/aerothemeplasma** · ★1.011 · AGPL-3.0 · nació el 26 de julio de 2025 (471 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 1 días · 50 incidencias abiertas.
+14. **aeroshell-desktop/aerothemeplasma** · ★1.011 · AGPL-3.0 · nació el 26 de julio de 2025 (471 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 1 días · 50 incidencias abiertas.
 
 15. **jnsh/arc-theme** · ★967 · GPL-3.0 · nació el 25 de marzo de 2019 (2.786 días) · última entrega del 18 de diciembre de 2022 · 3 adjuntos y **2 con suma** · 76.326 descargas en esa entrega · último empujón hace 387 días · 15 incidencias abiertas.
 
@@ -98,9 +98,9 @@ En el móvil, nada: **LawnchairLauncher/lawnicons** entregó el 7 de noviembre c
 | `namazso/SecureUxTheme` | 3.139 | 2.659 | 497 | 3 | 0 | 159.126 | LGPL-2.1 | 2025-06-24 |
 | `NeoApplications/Neo-Launcher` | 2.162 | 2.323 | 0 | 1 | 0 | 92.897 | GPL-3.0 | 2023-12-18 |
 | `LawnchairLauncher/lawnicons` | 2.147 | 1.834 | 0 | 1 | 0 | 11.468 | Apache-2.0 | 2026-11-07 |
-| `butzist/ActivityLauncher` | 2.062 | 4.648 | 14 | 1 | 0 | 5.564 | ISC | 2026-10-26 |
+| `ActivityLauncher/ActivityLauncher` | 2.062 | 4.648 | 14 | 1 | 0 | 5.564 | ISC | 2026-10-26 |
 | `KieronQuinn/PixelLauncherMods` | 1.306 | 1.694 | 375 | 1 | 0 | 18.957 | GPL-3.0 | 2025-10-30 |
-| `WackyIdeas/aerothemeplasma` | 1.011 | 471 | 1 | aquí no hay | 0 | 0 | AGPL-3.0 | nunca |
+| `aeroshell-desktop/aerothemeplasma` | 1.011 | 471 | 1 | aquí no hay | 0 | 0 | AGPL-3.0 | nunca |
 | `jnsh/arc-theme` | 967 | 2.786 | 387 | 3 | 2 | 76.326 | GPL-3.0 | 2022-12-18 |
 | `lemnos/theme.sh` | 962 | 2.134 | 973 | 0 | 0 | 0 | NOASSERTION | 2021-12-02 |
 
@@ -110,7 +110,7 @@ En el móvil, nada: **LawnchairLauncher/lawnicons** entregó el 7 de noviembre c
 
 • **adi1090x/polybar-themes** — ★6.263, nacido el 3 de enero de 2019.
 • **D3Ext/aesthetic-wallpapers** — ★3.647, nacido el 9 de septiembre de 2022.
-• **WackyIdeas/aerothemeplasma** — ★1.011, nacido el 26 de julio de 2025.
+• **aeroshell-desktop/aerothemeplasma** — ★1.011, nacido el 26 de julio de 2025.
 
 ───────────────────
 
@@ -161,3 +161,21 @@ Cada cifra sale de `docs/MEDICION-P20-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. Un cambio de firma entre versiones es más grave que no tener suma: significa que la actualización no la hizo el mismo.
 3. Las estrellas miden atención, no calidad.
 4. Las descargas declaradas cuentan todas las versiones, no solo la última.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió de dueño o de nombre el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `butzist/ActivityLauncher` hoy responde como **`ActivityLauncher/ActivityLauncher`**.
+- `WackyIdeas/aerothemeplasma` hoy responde como **`aeroshell-desktop/aerothemeplasma`**.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `butzist/ActivityLauncher` hoy responde como **`ActivityLauncher/ActivityLauncher`**.
+- `WackyIdeas/aerothemeplasma` hoy responde como **`aeroshell-desktop/aerothemeplasma`**.

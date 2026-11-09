@@ -239,7 +239,7 @@
    "lenguaje": "Shell"
   },
   {
-   "repo": "iampedii/WhiteDNS",
+   "repo": "WhiteDNS/WhiteDNS-Android",
    "stars": 1514,
    "forks": 105,
    "licencia": "NOASSERTION",
@@ -255,7 +255,8 @@
    "descargas_ultima": 2316,
    "abiertas": 30,
    "archivado": false,
-   "lenguaje": "Kotlin"
+   "lenguaje": "Kotlin",
+   "repo_viejo_2026-11-09": "iampedii/WhiteDNS"
   },
   {
    "repo": "AdguardTeam/AdguardSDNSFilter",

@@ -53,7 +53,7 @@ El que más estrellas tiene es **iptv-org/awesome-iptv**, con ★12.850 y **0 su
 
 7. **armanmaurya/InternetRadio** · ★185 · GPL-3.0 · nació el 12 de junio de 2026 (150 días) · última entrega del 29 de octubre de 2026 · 1 adjuntos y **0 con suma** · 1.905 descargas en esa entrega · último empujón hace 0 días · 18 incidencias abiertas.
 
-8. **mongoosemonke504/NebuloIPTV** · ★113 · MIT · nació el 12 de diciembre de 2025 (332 días) · última entrega del 28 de septiembre de 2026 · 1 adjuntos y **0 con suma** · 1.263 descargas en esa entrega · último empujón hace 42 días · 0 incidencias abiertas.
+8. **mongoosemonke504/OnsideTV** · ★113 · MIT · nació el 12 de diciembre de 2025 (332 días) · última entrega del 28 de septiembre de 2026 · 1 adjuntos y **0 con suma** · 1.263 descargas en esa entrega · último empujón hace 42 días · 0 incidencias abiertas.
 
 9. **warren-bank/node-hls-downloader-tubitv** · ★107 · GPL-2.0 · nació el 10 de febrero de 2020 (2.464 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 343 días · 7 incidencias abiertas.
 
@@ -80,7 +80,7 @@ Ninguno de los medidos publica una sola suma de comprobación. Aquí no hay.
 | `radiolamp/mangojuice` | 395 | 792 | 57 | 3 | 0 | 1.513 | GPL-3.0 | 2026-08-08 |
 | `peterpt/IPTV-CHECK` | 218 | 3.203 | 43 | 0 | 0 | 0 | MIT | 2025-10-30 |
 | `armanmaurya/InternetRadio` | 185 | 150 | 0 | 1 | 0 | 1.905 | GPL-3.0 | 2026-10-29 |
-| `mongoosemonke504/NebuloIPTV` | 113 | 332 | 42 | 1 | 0 | 1.263 | MIT | 2026-09-28 |
+| `mongoosemonke504/OnsideTV` | 113 | 332 | 42 | 1 | 0 | 1.263 | MIT | 2026-09-28 |
 | `warren-bank/node-hls-downloader-tubitv` | 107 | 2.464 | 343 | aquí no hay | 0 | 0 | GPL-2.0 | nunca |
 | `deutsia/deutsia-radio` | 78 | 352 | 168 | 3 | 0 | 2.391 | Apache-2.0 | 2026-05-25 |
 
@@ -147,3 +147,19 @@ Cada cifra sale de `docs/MEDICION-P17-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. La lista de canales es un segundo eslabón que la suma del programa no cubre.
 3. Las estrellas miden atención, no calidad.
 4. La corrección de esta pieza es parte de la pieza.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió de dueño o de nombre el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `mongoosemonke504/NebuloIPTV` hoy responde como **`mongoosemonke504/OnsideTV`**.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `mongoosemonke504/NebuloIPTV` hoy responde como **`mongoosemonke504/OnsideTV`**.

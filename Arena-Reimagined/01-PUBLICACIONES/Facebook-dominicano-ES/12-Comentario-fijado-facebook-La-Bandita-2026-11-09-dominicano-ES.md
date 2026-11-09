@@ -11,7 +11,7 @@ Enlaces rápidos:
 Lo que dicen los números medidos:
 • **18** repositorios vivos: **116.202 estrellas** (mediana 2.899) y **386.433 descargas** declaradas en la última entrega.
 • **2 de 18 publican huella**: **3 sumas** repartidas entre **221 adjuntos**.
-• Los que firman: **surge-downloader/surge** (2 de 14) · **trizen/youtube-viewer** (1 de 1).
+• Los que firman: **SurgeDM/Surge** (2 de 14) · **trizen/youtube-viewer** (1 de 1).
 • El de más estrellas: **fastfetch-cli/fastfetch**, ★25.315, 0 sumas de 69 adjuntos.
 • 5 empujaron código en los últimos siete días; 2 no han publicado nunca una entrega.
 

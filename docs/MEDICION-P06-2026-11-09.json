@@ -144,7 +144,7 @@
    "lenguaje": "Objective-C"
   },
   {
-   "repo": "matsuzaka-yuki/FolkPatch",
+   "repo": "LyraVoid/FolkPatch",
    "stars": 1287,
    "forks": 125,
    "licencia": "GPL-3.0",
@@ -160,7 +160,8 @@
    "descargas_ultima": 8443,
    "abiertas": 40,
    "archivado": false,
-   "lenguaje": "Kotlin"
+   "lenguaje": "Kotlin",
+   "repo_viejo_2026-11-09": "matsuzaka-yuki/FolkPatch"
   },
   {
    "repo": "jasonwu1994/Gboard-patches",
@@ -220,7 +221,7 @@
    "lenguaje": "Java"
   },
   {
-   "repo": "Jman-Github/ReVanced-Patch-Bundles",
+   "repo": "Jman-Github/Patch-Bundle-Registry",
    "stars": 727,
    "forks": 46,
    "licencia": "Unlicense",
@@ -236,7 +237,8 @@
    "descargas_ultima": 0,
    "abiertas": 0,
    "archivado": false,
-   "lenguaje": "Python"
+   "lenguaje": "Python",
+   "repo_viejo_2026-11-09": "Jman-Github/ReVanced-Patch-Bundles"
   },
   {
    "repo": "MindPatch/awesome-linux-minimalism",

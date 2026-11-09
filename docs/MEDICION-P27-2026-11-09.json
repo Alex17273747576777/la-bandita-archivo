@@ -11,7 +11,7 @@
  "total_candidatos": 7,
  "fichas": [
   {
-   "repo": "dipu-bd/lightnovel-crawler",
+   "repo": "lncrawl/lightnovel-crawler",
    "stars": 2696,
    "forks": 524,
    "licencia": "GPL-3.0",
@@ -27,7 +27,8 @@
    "descargas_ultima": 7636,
    "abiertas": 232,
    "archivado": false,
-   "lenguaje": "Python"
+   "lenguaje": "Python",
+   "repo_viejo_2026-11-09": "dipu-bd/lightnovel-crawler"
   },
   {
    "repo": "Storyyeller/Krakatau",

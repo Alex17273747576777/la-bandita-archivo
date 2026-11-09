@@ -275,7 +275,7 @@
    "lenguaje": "Rust"
   },
   {
-   "repo": "facebook/docusaurus",
+   "repo": "meta/docusaurus",
    "stars": 66683,
    "forks": 10127,
    "licencia": "MIT",
@@ -291,7 +291,8 @@
    "descargas_ultima": 0,
    "abiertas": 270,
    "archivado": false,
-   "lenguaje": "TypeScript"
+   "lenguaje": "TypeScript",
+   "repo_viejo_2026-11-09": "facebook/docusaurus"
   },
   {
    "repo": "ngosang/trackerslist",
@@ -408,7 +409,7 @@
    "lenguaje": null
   },
   {
-   "repo": "sickn33/antigravity-awesome-skills",
+   "repo": "sickn33/agentic-awesome-skills",
    "stars": 49394,
    "forks": 7167,
    "licencia": "MIT",
@@ -424,7 +425,8 @@
    "descargas_ultima": 0,
    "abiertas": 0,
    "archivado": false,
-   "lenguaje": "Python"
+   "lenguaje": "Python",
+   "repo_viejo_2026-11-09": "sickn33/antigravity-awesome-skills"
   },
   {
    "repo": "siyuan-note/siyuan",
@@ -2707,7 +2709,7 @@
    "lenguaje": "Shell"
   },
   {
-   "repo": "badaix/snapcast",
+   "repo": "snapcast/snapcast",
    "stars": 8055,
    "forks": 559,
    "licencia": "GPL-3.0",
@@ -2723,7 +2725,8 @@
    "descargas_ultima": 21927,
    "abiertas": 109,
    "archivado": false,
-   "lenguaje": "C++"
+   "lenguaje": "C++",
+   "repo_viejo_2026-11-09": "badaix/snapcast"
   },
   {
    "repo": "iamcco/markdown-preview.nvim",
@@ -2783,7 +2786,7 @@
    "lenguaje": "Python"
   },
   {
-   "repo": "learn-anything/books",
+   "repo": "gendotnew/books",
    "stars": 7766,
    "forks": 830,
    "licencia": null,
@@ -2799,7 +2802,8 @@
    "descargas_ultima": 0,
    "abiertas": 4,
    "archivado": false,
-   "lenguaje": null
+   "lenguaje": null,
+   "repo_viejo_2026-11-09": "learn-anything/books"
   },
   {
    "repo": "4gray/iptvnator",
@@ -3182,7 +3186,7 @@
    "lenguaje": "Kotlin"
   },
   {
-   "repo": "Fei2411/DeepSeek-Bot",
+   "repo": "Fei2411/DS-Bot",
    "stars": 6542,
    "forks": 611,
    "licencia": "Apache-2.0",
@@ -3198,7 +3202,8 @@
    "descargas_ultima": 1905,
    "abiertas": 243,
    "archivado": false,
-   "lenguaje": "JavaScript"
+   "lenguaje": "JavaScript",
+   "repo_viejo_2026-11-09": "Fei2411/DeepSeek-Bot"
   },
   {
    "repo": "Lymphatus/caesium-image-compressor",
@@ -3353,7 +3358,7 @@
    "lenguaje": "C++"
   },
   {
-   "repo": "whyvl/wireproxy",
+   "repo": "windtf/wireproxy",
    "stars": 5886,
    "forks": 416,
    "licencia": "ISC",
@@ -3369,7 +3374,8 @@
    "descargas_ultima": 166368,
    "abiertas": 81,
    "archivado": false,
-   "lenguaje": "Go"
+   "lenguaje": "Go",
+   "repo_viejo_2026-11-09": "whyvl/wireproxy"
   },
   {
    "repo": "jedisct1/dsvpn",
@@ -4455,7 +4461,7 @@
    "lenguaje": "Swift"
   },
   {
-   "repo": "surge-downloader/surge",
+   "repo": "SurgeDM/Surge",
    "stars": 3632,
    "forks": 161,
    "licencia": "MIT",
@@ -4471,7 +4477,8 @@
    "descargas_ultima": 2283,
    "abiertas": 40,
    "archivado": false,
-   "lenguaje": "Go"
+   "lenguaje": "Go",
+   "repo_viejo_2026-11-09": "surge-downloader/surge"
   },
   {
    "repo": "LSPosed/CorePatch",
@@ -4816,7 +4823,7 @@
    "lenguaje": "Python"
   },
   {
-   "repo": "rohit267/net-merge",
+   "repo": "net-merge/net-merge",
    "stars": 2995,
    "forks": 171,
    "licencia": "MIT",
@@ -4832,7 +4839,8 @@
    "descargas_ultima": 423,
    "abiertas": 3,
    "archivado": false,
-   "lenguaje": "Go"
+   "lenguaje": "Go",
+   "repo_viejo_2026-11-09": "rohit267/net-merge"
   },
   {
    "repo": "edrlab/thorium-reader",
@@ -4949,7 +4957,7 @@
    "lenguaje": "TypeScript"
   },
   {
-   "repo": "nolight132/sonora",
+   "repo": "sonorahq/sonora",
    "stars": 2736,
    "forks": 235,
    "licencia": "GPL-3.0",
@@ -4965,7 +4973,8 @@
    "descargas_ultima": 3259,
    "abiertas": 126,
    "archivado": false,
-   "lenguaje": "Rust"
+   "lenguaje": "Rust",
+   "repo_viejo_2026-11-09": "nolight132/sonora"
   },
   {
    "repo": "TrackerControl/tracker-control-android",
@@ -5063,7 +5072,7 @@
    "lenguaje": "Rust"
   },
   {
-   "repo": "dipu-bd/lightnovel-crawler",
+   "repo": "lncrawl/lightnovel-crawler",
    "stars": 2696,
    "forks": 524,
    "licencia": "GPL-3.0",
@@ -5079,10 +5088,11 @@
    "descargas_ultima": 7636,
    "abiertas": 232,
    "archivado": false,
-   "lenguaje": "Python"
+   "lenguaje": "Python",
+   "repo_viejo_2026-11-09": "dipu-bd/lightnovel-crawler"
   },
   {
-   "repo": "Akylas/OSS-DocumentScanner",
+   "repo": "ossappscollective/OSS-DocumentScanner",
    "stars": 2646,
    "forks": 149,
    "licencia": "MIT",
@@ -5098,7 +5108,8 @@
    "descargas_ultima": 17269,
    "abiertas": 94,
    "archivado": false,
-   "lenguaje": "C++"
+   "lenguaje": "C++",
+   "repo_viejo_2026-11-09": "Akylas/OSS-DocumentScanner"
   },
   {
    "repo": "shaongitbd/doory",
@@ -5804,7 +5815,7 @@
    "lenguaje": "C++"
   },
   {
-   "repo": "butzist/ActivityLauncher",
+   "repo": "ActivityLauncher/ActivityLauncher",
    "stars": 2062,
    "forks": 561,
    "licencia": "ISC",
@@ -5820,7 +5831,8 @@
    "descargas_ultima": 5564,
    "abiertas": 0,
    "archivado": false,
-   "lenguaje": "Kotlin"
+   "lenguaje": "Kotlin",
+   "repo_viejo_2026-11-09": "butzist/ActivityLauncher"
   },
   {
    "repo": "ollm/OpenComic",
@@ -6754,7 +6766,7 @@
    "lenguaje": "JavaScript"
   },
   {
-   "repo": "iampedii/WhiteDNS",
+   "repo": "WhiteDNS/WhiteDNS-Android",
    "stars": 1514,
    "forks": 105,
    "licencia": "NOASSERTION",
@@ -6770,7 +6782,8 @@
    "descargas_ultima": 2316,
    "abiertas": 30,
    "archivado": false,
-   "lenguaje": "Kotlin"
+   "lenguaje": "Kotlin",
+   "repo_viejo_2026-11-09": "iampedii/WhiteDNS"
   },
   {
    "repo": "strongbox-password-safe/strongbox",
@@ -6868,7 +6881,7 @@
    "lenguaje": null
   },
   {
-   "repo": "leinelissen/jellyfin-audio-player",
+   "repo": "leinelissen/fintunes",
    "stars": 1425,
    "forks": 63,
    "licencia": "MIT",
@@ -6884,7 +6897,8 @@
    "descargas_ultima": 4769,
    "abiertas": 101,
    "archivado": false,
-   "lenguaje": "TypeScript"
+   "lenguaje": "TypeScript",
+   "repo_viejo_2026-11-09": "leinelissen/jellyfin-audio-player"
   },
   {
    "repo": "AdguardTeam/AdguardSDNSFilter",
@@ -6944,7 +6958,7 @@
    "lenguaje": "Kotlin"
   },
   {
-   "repo": "aleksey-saenko/MusicRecognizer",
+   "repo": "AudileTeam/Audile",
    "stars": 1396,
    "forks": 49,
    "licencia": "GPL-3.0",
@@ -6960,7 +6974,8 @@
    "descargas_ultima": 7908,
    "abiertas": 13,
    "archivado": false,
-   "lenguaje": "Kotlin"
+   "lenguaje": "Kotlin",
+   "repo_viejo_2026-11-09": "aleksey-saenko/MusicRecognizer"
   },
   {
    "repo": "Leseratte10/acsm-calibre-plugin",
@@ -7096,7 +7111,7 @@
    "lenguaje": "TypeScript"
   },
   {
-   "repo": "matsuzaka-yuki/FolkPatch",
+   "repo": "LyraVoid/FolkPatch",
    "stars": 1287,
    "forks": 125,
    "licencia": "GPL-3.0",
@@ -7112,7 +7127,8 @@
    "descargas_ultima": 8443,
    "abiertas": 40,
    "archivado": false,
-   "lenguaje": "Kotlin"
+   "lenguaje": "Kotlin",
+   "repo_viejo_2026-11-09": "matsuzaka-yuki/FolkPatch"
   },
   {
    "repo": "ImAiiR/QobuzDownloaderX",
@@ -7476,7 +7492,7 @@
    "lenguaje": "C#"
   },
   {
-   "repo": "WackyIdeas/aerothemeplasma",
+   "repo": "aeroshell-desktop/aerothemeplasma",
    "stars": 1011,
    "forks": 24,
    "licencia": "AGPL-3.0",
@@ -7492,7 +7508,8 @@
    "descargas_ultima": 0,
    "abiertas": 50,
    "archivado": false,
-   "lenguaje": "QML"
+   "lenguaje": "QML",
+   "repo_viejo_2026-11-09": "WackyIdeas/aerothemeplasma"
   },
   {
    "repo": "FULU-Foundation/CRW-Extension",
@@ -7875,7 +7892,7 @@
    "lenguaje": "Kotlin"
   },
   {
-   "repo": "Jman-Github/ReVanced-Patch-Bundles",
+   "repo": "Jman-Github/Patch-Bundle-Registry",
    "stars": 727,
    "forks": 46,
    "licencia": "Unlicense",
@@ -7891,7 +7908,8 @@
    "descargas_ultima": 0,
    "abiertas": 0,
    "archivado": false,
-   "lenguaje": "Python"
+   "lenguaje": "Python",
+   "repo_viejo_2026-11-09": "Jman-Github/ReVanced-Patch-Bundles"
   },
   {
    "repo": "Girbons/comics-downloader",
@@ -8464,7 +8482,7 @@
    "lenguaje": "JavaScript"
   },
   {
-   "repo": "allaboutduncan/comic-utils",
+   "repo": "allaboutduncan/clu-comics",
    "stars": 293,
    "forks": 15,
    "licencia": "GPL-3.0",
@@ -8480,7 +8498,8 @@
    "descargas_ultima": 0,
    "abiertas": 7,
    "archivado": false,
-   "lenguaje": "Python"
+   "lenguaje": "Python",
+   "repo_viejo_2026-11-09": "allaboutduncan/comic-utils"
   },
   {
    "repo": "ofalvai/HabitBuilder",
@@ -8768,7 +8787,7 @@
    "lenguaje": "JavaScript"
   },
   {
-   "repo": "mongoosemonke504/NebuloIPTV",
+   "repo": "mongoosemonke504/OnsideTV",
    "stars": 113,
    "forks": 5,
    "licencia": "MIT",
@@ -8784,10 +8803,11 @@
    "descargas_ultima": 1263,
    "abiertas": 0,
    "archivado": false,
-   "lenguaje": "Swift"
+   "lenguaje": "Swift",
+   "repo_viejo_2026-11-09": "mongoosemonke504/NebuloIPTV"
   },
   {
-   "repo": "mongoosemonke504/NebuloIPTV",
+   "repo": "mongoosemonke504/OnsideTV",
    "stars": 113,
    "forks": 5,
    "licencia": "MIT",
@@ -8803,7 +8823,8 @@
    "descargas_ultima": 1263,
    "abiertas": 0,
    "archivado": false,
-   "lenguaje": "Swift"
+   "lenguaje": "Swift",
+   "repo_viejo_2026-11-09": "mongoosemonke504/NebuloIPTV"
   },
   {
    "repo": "xenos1337/httptoolkit-patcher",

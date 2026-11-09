@@ -53,7 +53,7 @@ El que más estrellas tiene es **ogkalu2/comic-translate**, con ★3.004 y **0 s
 
 7. **MangaManagerORG/Manga-Manager** · ★299 · GPL-3.0 · nació el 4 de enero de 2022 (1.770 días) · última entrega del 27 de febrero de 2024 · 1 adjuntos y **0 con suma** · 6.116 descargas en esa entrega · último empujón hace 591 días · 33 incidencias abiertas.
 
-8. **allaboutduncan/comic-utils** · ★293 · GPL-3.0 · nació el 31 de diciembre de 2024 (678 días) · última entrega del 7 de noviembre de 2026 · 0 adjuntos y **0 con suma** · último empujón hace 0 días · 7 incidencias abiertas.
+8. **allaboutduncan/clu-comics** · ★293 · GPL-3.0 · nació el 31 de diciembre de 2024 (678 días) · última entrega del 7 de noviembre de 2026 · 0 adjuntos y **0 con suma** · último empujón hace 0 días · 7 incidencias abiertas.
 
 9. **kanjieater/ComicEater** · ★70 · sin licencia declarada · nació el 18 de agosto de 2021 (1.909 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 811 días · 0 incidencias abiertas.
 
@@ -86,7 +86,7 @@ Ninguno de los medidos publica una sola suma de comprobación. Aquí no hay.
 | `TagoDR/MangaOnlineViewer` | 514 | 4.342 | 23 | aquí no hay | 0 | 0 | sin declarar | nunca |
 | `binarynonsense/comic-book-reader` | 434 | 2.356 | 25 | 6 | 0 | 1.129 | NOASSERTION | 2026-10-13 |
 | `MangaManagerORG/Manga-Manager` | 299 | 1.770 | 591 | 1 | 0 | 6.116 | GPL-3.0 | 2024-02-27 |
-| `allaboutduncan/comic-utils` | 293 | 678 | 0 | 0 | 0 | 0 | GPL-3.0 | 2026-11-07 |
+| `allaboutduncan/clu-comics` | 293 | 678 | 0 | 0 | 0 | 0 | GPL-3.0 | 2026-11-07 |
 | `kanjieater/ComicEater` | 70 | 1.909 | 811 | aquí no hay | 0 | 0 | sin declarar | nunca |
 | `moistfella/comic-book-downloader` | 30 | 244 | 19 | aquí no hay | 0 | 0 | MIT | nunca |
 | `Nyora-Manga/nyora-mihon` | 14 | 128 | 113 | aquí no hay | 0 | 0 | sin declarar | nunca |
@@ -161,3 +161,19 @@ Cada cifra sale de `docs/MEDICION-P18-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. Una clave de firma en el índice es más fuerte que una suma suelta: firma el conjunto.
 3. Las estrellas miden atención, no calidad.
 4. La corrección de esta pieza es parte de la pieza, y cierra la de las once anteriores.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió de dueño o de nombre el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `allaboutduncan/comic-utils` hoy responde como **`allaboutduncan/clu-comics`**.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `allaboutduncan/comic-utils` hoy responde como **`allaboutduncan/clu-comics`**.

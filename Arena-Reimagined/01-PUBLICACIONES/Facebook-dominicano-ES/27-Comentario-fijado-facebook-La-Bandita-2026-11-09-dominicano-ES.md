@@ -12,7 +12,7 @@ Lo que dicen los números medidos:
 • **7** repositorios vivos: **7.873 estrellas** (mediana 494) y **15.109 descargas** declaradas en la última entrega.
 • **cero de 7 publican huella** — el cero absoluto de la serie: **0 sumas** repartidas entre **35 adjuntos**.
 • Los que firman: **ninguno**.
-• El de más estrellas: **dipu-bd/lightnovel-crawler**, ★2.696, 0 sumas de 4 adjuntos.
+• El de más estrellas: **lncrawl/lightnovel-crawler**, ★2.696, 0 sumas de 4 adjuntos.
 • 2 empujaron código en los últimos siete días; 2 no han publicado nunca una entrega.
 
 **Seis órdenes para comprobarlo tú mismo:**

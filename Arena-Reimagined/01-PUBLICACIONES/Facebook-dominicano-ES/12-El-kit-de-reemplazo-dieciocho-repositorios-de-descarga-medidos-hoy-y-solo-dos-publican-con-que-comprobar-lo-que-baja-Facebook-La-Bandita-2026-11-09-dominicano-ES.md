@@ -25,7 +25,7 @@
 
 Dieciocho repositorios vivos, medidos el 9 de noviembre de 2026 contra la API pública de GitHub. Suman **116.202 estrellas** y **386.433 descargas** declaradas en su última entrega. La mediana de estrellas es **2.899**. **Dos de dieciocho** publican la huella de lo que entregan: **3 sumas** repartidas entre **221 adjuntos**. **Una** no declaran licencia, **cinco** empujaron código en los últimos siete días y **dos** no han publicado nunca una entrega.
 
-**surge-downloader/surge** nació hace trescientos setenta y seis días, tiene tres mil seiscientas treinta y dos estrellas y publicó el 31 de octubre una entrega con **catorce adjuntos y dos sumas**. Es el más nuevo de la lista y es uno de los dos que firman.
+**SurgeDM/Surge** nació hace trescientos setenta y seis días, tiene tres mil seiscientas treinta y dos estrellas y publicó el 31 de octubre una entrega con **catorce adjuntos y dos sumas**. Es el más nuevo de la lista y es uno de los dos que firman.
 
 ───────────────────
 
@@ -55,7 +55,7 @@ El que más estrellas tiene es **fastfetch-cli/fastfetch**, con ★25.315 y **0 
 
 8. **X1a0He/Adobe-Downloader** · ★3.646 · GPL-3.0 · nació el 31 de octubre de 2024 (739 días) · última entrega del 16 de octubre de 2026 · 1 adjuntos y **0 con suma** · 4.787 descargas en esa entrega · último empujón hace 24 días · 9 incidencias abiertas.
 
-9. **surge-downloader/surge** · ★3.632 · MIT · nació el 29 de octubre de 2025 (376 días) · última entrega del 31 de octubre de 2026 · 14 adjuntos y **2 con suma** · 2.283 descargas en esa entrega · último empujón hace 1 días · 40 incidencias abiertas.
+9. **SurgeDM/Surge** · ★3.632 · MIT · nació el 29 de octubre de 2025 (376 días) · última entrega del 31 de octubre de 2026 · 14 adjuntos y **2 con suma** · 2.283 descargas en esa entrega · último empujón hace 1 días · 40 incidencias abiertas.
 
 10. **Dr-Noob/cpufetch** · ★2.166 · GPL-2.0 · nació el 23 de marzo de 2018 (3.153 días) · última entrega del 1 de noviembre de 2025 · 5 adjuntos y **0 con suma** · 4.993 descargas en esa entrega · último empujón hace 373 días · 137 incidencias abiertas.
 
@@ -79,10 +79,10 @@ El que más estrellas tiene es **fastfetch-cli/fastfetch**, con ★25.315 y **0 
 
 *🔏 La huella · dos que dicen, dieciséis que callan*
 
-• **surge-downloader/surge** — 2 sumas de 14 adjuntos, en una entrega del 31 de octubre de 2026.
+• **SurgeDM/Surge** — 2 sumas de 14 adjuntos, en una entrega del 31 de octubre de 2026.
 • **trizen/youtube-viewer** — 1 sumas de 1 adjuntos, en una entrega del 22 de abril de 2025.
 
-**surge-downloader/surge** publica dos sumas de catorce adjuntos. **trizen/youtube-viewer** publica una de un adjunto, en una entrega de abril de 2025.
+**SurgeDM/Surge** publica dos sumas de catorce adjuntos. **trizen/youtube-viewer** publica una de un adjunto, en una entrega de abril de 2025.
 
 Y los grandes no: **fastfetch-cli/fastfetch** entregó el 6 de noviembre con **sesenta y nueve adjuntos** —la mayor de la pieza— y ninguna suma. **amir1376/ab-download-manager**, diecinueve mil ciento veinticinco estrellas, entrega del 3 de noviembre con veintidós adjuntos y ninguna suma. **Waujito/youtubeUnblock** publica **setenta adjuntos** en su entrega de abril y ninguna suma.
 
@@ -156,3 +156,19 @@ Cada cifra sale de `docs/MEDICION-P12-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. «Sin adjuntos» no es lo mismo que «sin entrega».
 3. Las estrellas miden atención, no calidad.
 4. La corrección de esta pieza es parte de la pieza.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió de dueño o de nombre el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `surge-downloader/surge` hoy responde como **`SurgeDM/Surge`**.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `surge-downloader/surge` hoy responde como **`SurgeDM/Surge`**.

@@ -11,7 +11,7 @@ Enlaces rápidos:
 Lo que dicen los números medidos:
 • **20** repositorios vivos: **247.560 estrellas** (mediana 7.368) y **465.780 descargas** declaradas en la última entrega.
 • **2 de 20 publican huella**: **2 sumas** repartidas entre **237 adjuntos**.
-• Los que firman: **whyvl/wireproxy** (1 de 14) · **nextdns/nextdns** (1 de 80).
+• Los que firman: **windtf/wireproxy** (1 de 14) · **nextdns/nextdns** (1 de 80).
 • El de más estrellas: **mitmproxy/mitmproxy**, ★46.751, 0 sumas de 0 adjuntos.
 • 11 empujaron código en los últimos siete días; 3 no han publicado nunca una entrega.
 

@@ -163,7 +163,7 @@
    "lenguaje": "Swift"
   },
   {
-   "repo": "surge-downloader/surge",
+   "repo": "SurgeDM/Surge",
    "stars": 3632,
    "forks": 161,
    "licencia": "MIT",
@@ -179,7 +179,8 @@
    "descargas_ultima": 2283,
    "abiertas": 40,
    "archivado": false,
-   "lenguaje": "Go"
+   "lenguaje": "Go",
+   "repo_viejo_2026-11-09": "surge-downloader/surge"
   },
   {
    "repo": "Dr-Noob/cpufetch",

@@ -32,13 +32,13 @@ Siete repositorios vivos, medidos el 9 de noviembre de 2026 contra la API públi
 
 siete repositorios del tema, medidos el 9 de noviembre de 2026 contra la API pública de GitHub: descargadores de novelas, un lector para Android, un lector de escritorio, una herramienta de historia del portapapeles que cae por su nombre, y un compilador de Java que no tiene nada que ver con novelas y que la búsqueda trajo por la palabra «story».
 
-El que más estrellas tiene es **dipu-bd/lightnovel-crawler**, con ★2.696 y **0 sumas** de 4 adjuntos. El que menos es **HongYue1/LightNovel-Crawler-Colab**, ★13, **0 sumas** de aquí no hay. El más viejo de la lista es **Storyyeller/Krakatau**: ★2.261, 5.133 días, desde 20 de octubre de 2012, 0 sumas de aquí no hay adjuntos.
+El que más estrellas tiene es **lncrawl/lightnovel-crawler**, con ★2.696 y **0 sumas** de 4 adjuntos. El que menos es **HongYue1/LightNovel-Crawler-Colab**, ★13, **0 sumas** de aquí no hay. El más viejo de la lista es **Storyyeller/Krakatau**: ★2.261, 5.133 días, desde 20 de octubre de 2012, 0 sumas de aquí no hay adjuntos.
 
 ───────────────────
 
 *📖 Los siete, uno por uno*
 
-1. **dipu-bd/lightnovel-crawler** · ★2.696 · GPL-3.0 · nació el 17 de enero de 2018 (3.218 días) · última entrega del 3 de agosto de 2026 · 4 adjuntos y **0 con suma** · 7.636 descargas en esa entrega · último empujón hace 14 días · 232 incidencias abiertas.
+1. **lncrawl/lightnovel-crawler** · ★2.696 · GPL-3.0 · nació el 17 de enero de 2018 (3.218 días) · última entrega del 3 de agosto de 2026 · 4 adjuntos y **0 con suma** · 7.636 descargas en esa entrega · último empujón hace 14 días · 232 incidencias abiertas.
 
 2. **Storyyeller/Krakatau** · ★2.261 · Apache-2.0 · nació el 20 de octubre de 2012 (5.133 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 11 días · 22 incidencias abiertas.
 
@@ -60,7 +60,7 @@ Dos de los siete no son del tema: **Storyyeller/Krakatau** es un compilador de b
 
 Ninguno de los medidos publica una sola suma de comprobación. Aquí no hay.
 
-**LagradOst/QuickNovel** entregó ayer con un adjunto y ninguna suma. **dipu-bd/lightnovel-crawler** entregó en agosto con cuatro adjuntos y ninguna. **ranobe-org/ranobe** entregó el 26 de octubre con un adjunto y ninguna.
+**LagradOst/QuickNovel** entregó ayer con un adjunto y ninguna suma. **lncrawl/lightnovel-crawler** entregó en agosto con cuatro adjuntos y ninguna. **ranobe-org/ranobe** entregó el 26 de octubre con un adjunto y ninguna.
 
 ───────────────────
 
@@ -68,7 +68,7 @@ Ninguno de los medidos publica una sola suma de comprobación. Aquí no hay.
 
 | Repositorio | Estrellas | Días de vida | Días sin empujar | Adjuntos | Sumas | Descargas | Licencia | Última entrega |
 |---|---|---|---|---|---|---|---|---|
-| `dipu-bd/lightnovel-crawler` | 2.696 | 3.218 | 14 | 4 | 0 | 7.636 | GPL-3.0 | 2026-08-03 |
+| `lncrawl/lightnovel-crawler` | 2.696 | 3.218 | 14 | 4 | 0 | 7.636 | GPL-3.0 | 2026-08-03 |
 | `Storyyeller/Krakatau` | 2.261 | 5.133 | 11 | aquí no hay | 0 | 0 | Apache-2.0 | nunca |
 | `LagradOst/QuickNovel` | 1.889 | 2.056 | 1 | 1 | 0 | 2.645 | GPL-3.0 | 2026-11-08 |
 | `SUPERCILEX/clipboard-history` | 494 | 1.032 | 36 | 28 | 0 | 629 | Apache-2.0 | 2026-06-22 |
@@ -132,3 +132,19 @@ Cada cifra sale de `docs/MEDICION-P27-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. Un proyecto sin entregas recientes puede seguir sirviendo; lo que no hace es actualizarse.
 3. Las estrellas miden atención, no calidad.
 4. Dos de los siete proyectos de la tabla no son del tema, y se dice cuáles.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió de dueño o de nombre el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `dipu-bd/lightnovel-crawler` hoy responde como **`lncrawl/lightnovel-crawler`**.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `dipu-bd/lightnovel-crawler` hoy responde como **`lncrawl/lightnovel-crawler`**.

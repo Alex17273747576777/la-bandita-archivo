@@ -42,7 +42,7 @@ El que más estrellas tiene es **mitmproxy/mitmproxy**, con ★46.751 y **0 suma
 
 Como hay seis maneras de resolver el mismo problema —salir a internet sin que te miren—, la pieza se ordena por caminos y no por programas:
 
-1. **Túnel y proxy**: un programa que manda tu tráfico por otro sitio. `klzgrad/naiveproxy` (★9.624, 46 adjuntos, ninguna suma), `whyvl/wireproxy` (★5.886, 14 adjuntos, **una suma de catorce adjuntos**).
+1. **Túnel y proxy**: un programa que manda tu tráfico por otro sitio. `klzgrad/naiveproxy` (★9.624, 46 adjuntos, ninguna suma), `windtf/wireproxy` (★5.886, 14 adjuntos, **una suma de catorce adjuntos**).
 2. **VPN propia por el cable**: `hwdsl2/setup-ipsec-vpn` (★28.988, **sin ninguna entrega publicada**), `pivpn/pivpn` (★8.069, entrega de septiembre de 2025 sin adjuntos).
 3. **Cortafuegos y DNS privado**: `DNSCrypt/dnscrypt-proxy` (★13.832, 60 adjuntos, ninguna suma), `TechnitiumSoftware/DnsServer` (★10.324, entrega de octubre sin adjuntos), `hagezi/dns-blocklists` (★28.574, **entregó hoy** con cero adjuntos).
 4. **Inspección y depuración**: `mitmproxy/mitmproxy` (★46.751, entrega del 25 de octubre sin adjuntos), `dnSpyEx/dnSpy` (★11.455, 4 adjuntos, ninguna suma).
@@ -75,7 +75,7 @@ Como hay seis maneras de resolver el mismo problema —salir a internet sin que 
 
 11. **Mygod/VPNHotspot** · ★6.667 · Apache-2.0 · nació el 3 de enero de 2018 (3.232 días) · última entrega del 2 de agosto de 2026 · 8 adjuntos y **0 con suma** · 36.038 descargas en esa entrega · último empujón hace 66 días · 13 incidencias abiertas.
 
-12. **whyvl/wireproxy** · ★5.886 · ISC · nació el 11 de marzo de 2022 (1.704 días) · última entrega del 16 de julio de 2026 · 14 adjuntos y **1 con suma** · 166.368 descargas en esa entrega · último empujón hace 28 días · 81 incidencias abiertas.
+12. **windtf/wireproxy** · ★5.886 · ISC · nació el 11 de marzo de 2022 (1.704 días) · última entrega del 16 de julio de 2026 · 14 adjuntos y **1 con suma** · 166.368 descargas en esa entrega · último empujón hace 28 días · 81 incidencias abiertas.
 
 13. **jedisct1/dsvpn** · ★5.825 · MIT · nació el 17 de julio de 2019 (2.672 días) · última entrega del 19 de diciembre de 2025 · 0 adjuntos y **0 con suma** · último empujón hace 49 días · 1 incidencias abiertas.
 
@@ -97,10 +97,10 @@ Como hay seis maneras de resolver el mismo problema —salir a internet sin que 
 
 *🔏 La huella · dos que dicen, dieciocho que callan*
 
-• **whyvl/wireproxy** — 1 sumas de 14 adjuntos, en una entrega del 16 de julio de 2026.
+• **windtf/wireproxy** — 1 sumas de 14 adjuntos, en una entrega del 16 de julio de 2026.
 • **nextdns/nextdns** — 1 sumas de 80 adjuntos, en una entrega del 29 de octubre de 2026.
 
-**nextdns/nextdns** publica **una suma de ochenta adjuntos**. **whyvl/wireproxy** publica una de catorce. Son los dos únicos, y ninguno de los dos está entre los cinco más grandes del tema.
+**nextdns/nextdns** publica **una suma de ochenta adjuntos**. **windtf/wireproxy** publica una de catorce. Son los dos únicos, y ninguno de los dos está entre los cinco más grandes del tema.
 
 Al otro lado, el más grande: **mitmproxy/mitmproxy**, con cuarenta y seis mil setecientas cincuenta y una estrellas, entrega del 25 de octubre de 2026 y **ningún adjunto**; y **NginxProxyManager/nginx-proxy-manager**, con treinta y cuatro mil seiscientas sesenta y una estrellas, entrega de septiembre sin adjuntos tampoco.
 
@@ -177,3 +177,19 @@ Cada cifra sale de `docs/MEDICION-P08-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. «Sin adjuntos» no es lo mismo que «sin entrega».
 3. La corrección de esta pieza es parte de la pieza, no una nota escondida.
 4. Las estrellas miden atención, no calidad.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió de dueño o de nombre el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `whyvl/wireproxy` hoy responde como **`windtf/wireproxy`**.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `whyvl/wireproxy` hoy responde como **`windtf/wireproxy`**.

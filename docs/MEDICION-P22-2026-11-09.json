@@ -220,7 +220,7 @@
    "lenguaje": "Go"
   },
   {
-   "repo": "Akylas/OSS-DocumentScanner",
+   "repo": "ossappscollective/OSS-DocumentScanner",
    "stars": 2646,
    "forks": 149,
    "licencia": "MIT",
@@ -236,7 +236,8 @@
    "descargas_ultima": 17269,
    "abiertas": 94,
    "archivado": false,
-   "lenguaje": "C++"
+   "lenguaje": "C++",
+   "repo_viejo_2026-11-09": "Akylas/OSS-DocumentScanner"
   },
   {
    "repo": "aristocratos/btop4win",

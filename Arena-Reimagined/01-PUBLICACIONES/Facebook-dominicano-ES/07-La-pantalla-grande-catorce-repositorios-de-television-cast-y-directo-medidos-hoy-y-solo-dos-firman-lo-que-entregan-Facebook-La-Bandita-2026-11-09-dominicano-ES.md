@@ -33,7 +33,7 @@ Esa mediana de estrellas —**651**— dice mucho del tema: son proyectos peque�
 
 catorce repositorios del tema de pantalla grande: reproductores de IPTV, servidores para mandar sonido a varios aparatos a la vez, saltadores de patrocinios en televisión, descargadores de pódcast y, de propina, un libro abierto de hardware y un programa de teclado que cayeron por su descripción. Se quedan y se dicen: la tabla es lo que la API devolvió.
 
-El que más estrellas tiene es **keycastr/keycastr**, con ★15.201 y **0 sumas** de 1 adjuntos. El que menos es **mongoosemonke504/NebuloIPTV**, ★113, **0 sumas** de 1. El más viejo de la lista es **keycastr/keycastr**: 6.472 días, desde 19 de febrero de 2009.
+El que más estrellas tiene es **keycastr/keycastr**, con ★15.201 y **0 sumas** de 1 adjuntos. El que menos es **mongoosemonke504/OnsideTV**, ★113, **0 sumas** de 1. El más viejo de la lista es **keycastr/keycastr**: 6.472 días, desde 19 de febrero de 2009.
 
 ───────────────────
 
@@ -45,7 +45,7 @@ El que más estrellas tiene es **keycastr/keycastr**, con ★15.201 y **0 sumas*
 
 3. **joeycastillo/The-Open-Book** · ★8.096 · CC-BY-SA-4.0 · nació el 13 de agosto de 2019 (2.645 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 1.070 días · 21 incidencias abiertas.
 
-4. **badaix/snapcast** · ★8.055 · GPL-3.0 · nació el 2 de enero de 2015 (4.329 días) · última entrega del 10 de marzo de 2026 · 46 adjuntos y **0 con suma** · 21.927 descargas en esa entrega · último empujón hace 6 días · 109 incidencias abiertas.
+4. **snapcast/snapcast** · ★8.055 · GPL-3.0 · nació el 2 de enero de 2015 (4.329 días) · última entrega del 10 de marzo de 2026 · 46 adjuntos y **0 con suma** · 21.927 descargas en esa entrega · último empujón hace 6 días · 109 incidencias abiertas.
 
 5. **4gray/iptvnator** · ★7.650 · MIT · nació el 6 de octubre de 2019 (2.591 días) · última entrega del 8 de noviembre de 2026 · 30 adjuntos y **0 con suma** · 26.923 descargas en esa entrega · último empujón hace 0 días · 105 incidencias abiertas.
 
@@ -65,7 +65,7 @@ El que más estrellas tiene es **keycastr/keycastr**, con ★15.201 y **0 sumas*
 
 13. **overcast07/wayback-machine-spn-scripts** · ★151 · MIT · nació el 18 de marzo de 2021 (2.062 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 585 días · 15 incidencias abiertas.
 
-14. **mongoosemonke504/NebuloIPTV** · ★113 · MIT · nació el 12 de diciembre de 2025 (332 días) · última entrega del 28 de septiembre de 2026 · 1 adjuntos y **0 con suma** · 1.263 descargas en esa entrega · último empujón hace 42 días · 0 incidencias abiertas.
+14. **mongoosemonke504/OnsideTV** · ★113 · MIT · nació el 12 de diciembre de 2025 (332 días) · última entrega del 28 de septiembre de 2026 · 1 adjuntos y **0 con suma** · 1.263 descargas en esa entrega · último empujón hace 42 días · 0 incidencias abiertas.
 
 ───────────────────
 
@@ -82,7 +82,7 @@ Y los grandes del tema no: **keycastr/keycastr**, quince mil doscientas una estr
 
 *🧾 Los extremos · quince mil contra ciento trece*
 
-**keycastr/keycastr** es el más grande: quince mil doscientas una estrellas, seis mil cuatrocientos setenta y dos días de vida. **mongoosemonke504/NebuloIPTV** es el más chiquito y el más nuevo: ciento trece estrellas, trescientos treinta y dos días, una entrega de septiembre con un adjunto y ninguna suma.
+**keycastr/keycastr** es el más grande: quince mil doscientas una estrellas, seis mil cuatrocientos setenta y dos días de vida. **mongoosemonke504/OnsideTV** es el más chiquito y el más nuevo: ciento trece estrellas, trescientos treinta y dos días, una entrega de septiembre con un adjunto y ninguna suma.
 
 ───────────────────
 
@@ -151,3 +151,21 @@ Cada cifra sale de `docs/MEDICION-P07-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. «Sin entrega» no es «muerto»: puede haber código actualizándose sin publicar adjuntos.
 3. Los proyectos pequeños también publican sumas; no es una costumbre de los grandes.
 4. Las estrellas miden atención, no calidad.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió de dueño o de nombre el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `badaix/snapcast` hoy responde como **`snapcast/snapcast`**.
+- `mongoosemonke504/NebuloIPTV` hoy responde como **`mongoosemonke504/OnsideTV`**.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `badaix/snapcast` hoy responde como **`snapcast/snapcast`**.
+- `mongoosemonke504/NebuloIPTV` hoy responde como **`mongoosemonke504/OnsideTV`**.

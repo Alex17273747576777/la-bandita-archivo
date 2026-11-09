@@ -11,7 +11,7 @@ Enlaces rápidos:
 Lo que dicen los números medidos:
 • **14** repositorios vivos: **339.471 estrellas** (mediana 5.346) y **227.894 descargas** declaradas en la última entrega.
 • **2 de 14 publican huella**: **2 sumas** repartidas entre **220 adjuntos**.
-• Los que firman: **nextdns/nextdns** (1 de 80) · **iampedii/WhiteDNS** (1 de 12).
+• Los que firman: **nextdns/nextdns** (1 de 80) · **WhiteDNS/WhiteDNS-Android** (1 de 12).
 • El de más estrellas: **DigitalPlatDev/FreeDomain**, ★207.640, 0 sumas de aquí no hay adjuntos.
 • 9 empujaron código en los últimos siete días; 5 no han publicado nunca una entrega.
 

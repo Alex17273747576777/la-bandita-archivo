@@ -25,38 +25,38 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 
 | # | Pieza | Cuerpo | Fijado | Estado |
 |---|---|---|---|---|
-| 01 | La huella o el silencio | 16.606 | 1.712 | Medida · 12 programas, 6 con huella |
-| 02 | La música que no se cae | 18.114 | 1.711 | Medida · 21 repos, 6 con huella |
+| 01 | La huella o el silencio | 17.803 | 1.712 | Medida · 12 programas, 6 con huella |
+| 02 | La música que no se cae | 19.239 | 1.711 | Medida · 21 repos, 6 con huella |
 | 03 | La caja fuerte del bolsillo | 11.411 | 1.714 | Medida · 16 repos, 1 con huella |
 | 04 | La lista del permiso | 13.405 | 1.728 | Medida · 26 repos, 6 con huella |
-| 05 | La guía maestra | 10.158 | 1.767 | Medida · 70 fichas, 22 con huella |
-| 06 | El taller de los parches | 12.170 | 1.682 | Medida · 17 repos, 5 con huella (55 de 190 archivos) |
-| 07 | La pantalla grande | 11.140 | 1.699 | Medida · 17 repos, 4 con huella · gigantes re-verificados el 8-nov |
-| 08 | La red: seis caminos | 13.583 | 1.695 | Medida · 20 repos, 5 con huella |
+| 05 | La guía maestra | 12.249 | 1.767 | Medida · 70 fichas, 22 con huella |
+| 06 | El taller de los parches | 13.330 | 1.682 | Medida · 17 repos, 5 con huella (55 de 190 archivos) |
+| 07 | La pantalla grande | 12.255 | 1.699 | Medida · 17 repos, 4 con huella · gigantes re-verificados el 8-nov |
+| 08 | La red: seis caminos | 14.538 | 1.696 | Medida · 20 repos, 5 con huella |
 | 09 | Archivos, copias y nubes | 13.726 | 1.730 | Medida · 17 repos, 4 con huella |
 | 10 | Las tiendas | 12.792 | 1.684 | Medida · 56 repos, 1 firma |
 | 11 | Las aplicaciones que leen | 11.078 | 1.681 | Medida · 51 apps, 116 archivos firmados |
-| 12 | El kit de reemplazo | 11.364 | 1.710 | Medida · 59 recursos, 501 de 3.022 |
+| 12 | El kit de reemplazo | 12.287 | 1.701 | Medida · 59 recursos, 501 de 3.022 |
 | 13 | El audio que faltaba | 12.281 | 1.695 | Medida · 54 proyectos, 409 de 3.599 |
 | 14 | Spotify sin Spotify | 12.075 | 1.702 | Medida · 38 clientes, 495 de 2.473 |
 | 15 | Descargar es un acto técnico | 12.346 | 1.723 | Medida · 31 programas |
 | 16 | El torrent que no se rinde | 9.072 | 1.662 | Medida · 22 piezas |
-| 17 | El teclado que escribe por ti | 9.467 | 1.673 | Medida · 34 teclados |
-| 18 | La radio y el directo | 11.337 | 1.664 | Medida · 32 piezas |
+| 17 | El teclado que escribe por ti | 10.456 | 1.673 | Medida · 34 teclados |
+| 18 | La radio y el directo | 12.326 | 1.664 | Medida · 32 piezas |
 | 19 | La tienda que le sirve a tu app | 12.244 | 1.713 | Medida · 15 repos |
-| 20 | El teclado que obedece | 11.403 | 1.682 | Medida · 11 teclados |
+| 20 | El teclado que obedece | 12.625 | 1.682 | Medida · 11 teclados |
 | 21 | La variante que cambió | 9.844 | 1.676 | Medida · OmniShizuku |
-| 22 | El módulo que no necesita root | 10.405 | 1.661 | Medida · AxManager |
+| 22 | El módulo que no necesita root | 11.442 | 1.661 | Medida · AxManager |
 | 23 | Keiyoushi, catálogo de extensiones | 11.018 | 1.666 | Una ficha medida |
 | 24 | Repositorios de extensiones de anime | 9.881 | 1.669 | **Medida el 8-nov** · 5 vivos, 173 archivos, 0 huellas, un abuelo de 812 días |
-| 25 | OCR de bolsillo | 11.137 | 1.689 | **Medida el 8-nov** · 7 programas, 334 archivos, 1 suma (episteme) |
+| 25 | OCR de bolsillo | 12.203 | 1.689 | **Medida el 8-nov** · 7 programas, 334 archivos, 1 suma (episteme) |
 | 26 | Usagi y su familia | 10.915 | 1.706 | **Medida el 8-nov** · 6 vivos, 727 archivos, 0 huellas, el original 370 días parado |
-| 27 | DropSauce y su tema | 8.165 | 1.663 | **Medida el 8-nov** · 4 vivos, 262 archivos, 3 sumas (las pone el más pequeño) |
+| 27 | DropSauce y su tema | 9.158 | 1.663 | **Medida el 8-nov** · 4 vivos, 262 archivos, 3 sumas (las pone el más pequeño) |
 | 28 | Mangayomi y sus extensiones | 10.096 | 1.665 | **Medida el 8-nov** · 5 vivos, 3.788 archivos, 0 huellas: el peor del día |
 | 29 | LNReader y sus plugins | 10.281 | 1.662 | **Medida el 8-nov** · 2 vivos, 69 archivos, 5 sumas, 963 días sin etiqueta |
-| 30 | Cloudstream MegaRepo | 12.135 | 1.681 | Una ficha medida |
+| 30 | Cloudstream MegaRepo | 13.144 | 1.681 | Una ficha medida |
 | 31 | El peso no es el problema | 8.828 | 1.648 | Medida de nuevo el 8-nov |
-| 32 | Tu Manga Online, sin lista de dominios | 11.025 | 1.701 | **Medida el 8-nov** · 9 lectores, 4.182 archivos, 0 huellas, uno que devuelve 404 |
+| 32 | Tu Manga Online, sin lista de dominios | 12.030 | 1.709 | **Medida el 8-nov** · 9 lectores, 4.182 archivos, 0 huellas, uno que devuelve 404 |
 | 33 | Apoyo a desarrolladores | 8.681 | 1.650 | **Medida el 8-nov** · 9 proyectos, 977 archivos, 0 huellas, uno de 0 estrellas |
 | 34 | Biblioteca de Kototoro y v2.4 | 9.614 | 1.645 | **Medida el 8-nov** · 4 repos, 1.385 archivos, **102 sumas**: récord del día |
 | 35 | La Ballenita vuelve al mar | 6.206 | 1.337 | Corta · personal |

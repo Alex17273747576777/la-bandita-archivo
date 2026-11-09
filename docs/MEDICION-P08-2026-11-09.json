@@ -220,7 +220,7 @@
    "lenguaje": "Kotlin"
   },
   {
-   "repo": "whyvl/wireproxy",
+   "repo": "windtf/wireproxy",
    "stars": 5886,
    "forks": 416,
    "licencia": "ISC",
@@ -236,7 +236,8 @@
    "descargas_ultima": 166368,
    "abiertas": 81,
    "archivado": false,
-   "lenguaje": "Go"
+   "lenguaje": "Go",
+   "repo_viejo_2026-11-09": "whyvl/wireproxy"
   },
   {
    "repo": "jedisct1/dsvpn",

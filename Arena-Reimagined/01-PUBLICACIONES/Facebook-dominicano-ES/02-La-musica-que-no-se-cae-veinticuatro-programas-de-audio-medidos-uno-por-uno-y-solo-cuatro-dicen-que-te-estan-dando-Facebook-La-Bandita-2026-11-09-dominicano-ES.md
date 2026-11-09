@@ -86,9 +86,9 @@ Así quedaron, ordenados por estrellas y con todo lo que la API dijo de cada uno
 
 20. **sigma67/spotify_to_ytmusic** · ★1.538 · MIT · nació el 9 de marzo de 2018 (3.167 días) · última entrega del 27 de abril de 2025 · 0 adjuntos y **0 con suma** · último empujón hace 24 días · 9 incidencias abiertas.
 
-21. **leinelissen/jellyfin-audio-player** · ★1.425 · MIT · nació el 23 de junio de 2020 (2.330 días) · última entrega del 7 de febrero de 2026 · 2 adjuntos y **0 con suma** · 4.769 descargas en esa entrega · último empujón hace 115 días · 101 incidencias abiertas.
+21. **leinelissen/fintunes** · ★1.425 · MIT · nació el 23 de junio de 2020 (2.330 días) · última entrega del 7 de febrero de 2026 · 2 adjuntos y **0 con suma** · 4.769 descargas en esa entrega · último empujón hace 115 días · 101 incidencias abiertas.
 
-22. **aleksey-saenko/MusicRecognizer** · ★1.396 · GPL-3.0 · nació el 1 de febrero de 2023 (1.377 días) · última entrega del 5 de octubre de 2026 · 1 adjuntos y **0 con suma** · 7.908 descargas en esa entrega · último empujón hace 1 días · 13 incidencias abiertas.
+22. **AudileTeam/Audile** · ★1.396 · GPL-3.0 · nació el 1 de febrero de 2023 (1.377 días) · última entrega del 5 de octubre de 2026 · 1 adjuntos y **0 con suma** · 7.908 descargas en esa entrega · último empujón hace 1 días · 13 incidencias abiertas.
 
 23. **JMPerez/spotify-dedup** · ★1.168 · MIT · nació el 14 de agosto de 2014 (4.470 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 150 días · 22 incidencias abiertas.
 
@@ -204,3 +204,21 @@ Los datos en bruto están en el repositorio público, junto a la pieza. Ninguno 
 2. «Sin ninguna entrega publicada» no es lo mismo que «muerto»: el repositorio puede tener empujones recientes y no haber publicado nunca un archivo.
 3. Las estrellas se midieron el mismo día y **pueden bajar**: esta serie ya documentó un caso. No es un error de medición.
 4. La fecha de esta pieza es la del día en que se midió, no la del día en que se publica.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió de dueño o de nombre el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `leinelissen/jellyfin-audio-player` hoy responde como **`leinelissen/fintunes`**.
+- `aleksey-saenko/MusicRecognizer` hoy responde como **`AudileTeam/Audile`**.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `leinelissen/jellyfin-audio-player` hoy responde como **`leinelissen/fintunes`**.
+- `aleksey-saenko/MusicRecognizer` hoy responde como **`AudileTeam/Audile`**.

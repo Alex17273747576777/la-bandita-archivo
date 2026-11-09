@@ -391,7 +391,7 @@
    "lenguaje": "Python"
   },
   {
-   "repo": "leinelissen/jellyfin-audio-player",
+   "repo": "leinelissen/fintunes",
    "stars": 1425,
    "forks": 63,
    "licencia": "MIT",
@@ -407,10 +407,11 @@
    "descargas_ultima": 4769,
    "abiertas": 101,
    "archivado": false,
-   "lenguaje": "TypeScript"
+   "lenguaje": "TypeScript",
+   "repo_viejo_2026-11-09": "leinelissen/jellyfin-audio-player"
   },
   {
-   "repo": "aleksey-saenko/MusicRecognizer",
+   "repo": "AudileTeam/Audile",
    "stars": 1396,
    "forks": 49,
    "licencia": "GPL-3.0",
@@ -426,7 +427,8 @@
    "descargas_ultima": 7908,
    "abiertas": 13,
    "archivado": false,
-   "lenguaje": "Kotlin"
+   "lenguaje": "Kotlin",
+   "repo_viejo_2026-11-09": "aleksey-saenko/MusicRecognizer"
   },
   {
    "repo": "JMPerez/spotify-dedup",

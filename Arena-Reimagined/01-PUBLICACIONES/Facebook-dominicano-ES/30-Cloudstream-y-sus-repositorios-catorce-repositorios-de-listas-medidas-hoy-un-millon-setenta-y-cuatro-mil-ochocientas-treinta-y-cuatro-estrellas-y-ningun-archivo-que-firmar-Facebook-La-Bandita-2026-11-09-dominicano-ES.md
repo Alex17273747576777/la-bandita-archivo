@@ -55,7 +55,7 @@ El que más estrellas tiene es **awesome-selfhosted/awesome-selfhosted**, con �
 
 8. **akullpp/awesome-java** · ★49.477 · CC-BY-SA-4.0 · nació el 9 de julio de 2014 (4.506 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 47 días · 0 incidencias abiertas.
 
-9. **sickn33/antigravity-awesome-skills** · ★49.394 · MIT · nació el 14 de enero de 2026 (299 días) · última entrega del 5 de noviembre de 2026 · 0 adjuntos y **0 con suma** · último empujón hace 0 días · 0 incidencias abiertas.
+9. **sickn33/agentic-awesome-skills** · ★49.394 · MIT · nació el 14 de enero de 2026 (299 días) · última entrega del 5 de noviembre de 2026 · 0 adjuntos y **0 con suma** · último empujón hace 0 días · 0 incidencias abiertas.
 
 10. **alebcay/awesome-shell** · ★37.931 · CC0-1.0 · nació el 7 de julio de 2014 (4.508 días) · sin ninguna entrega publicada · aquí no hay adjuntos y **0 con suma** · último empujón hace 438 días · 43 incidencias abiertas.
 
@@ -91,7 +91,7 @@ Una lista de enlaces publicada como repositorio no necesita una suma: su conteni
 | `vsouza/awesome-ios` | 53.914 | 4.505 | 74 | aquí no hay | 0 | 0 | MIT | nunca |
 | `DovAmir/awesome-design-patterns` | 49.675 | 3.080 | 745 | aquí no hay | 0 | 0 | sin declarar | nunca |
 | `akullpp/awesome-java` | 49.477 | 4.506 | 47 | aquí no hay | 0 | 0 | CC-BY-SA-4.0 | nunca |
-| `sickn33/antigravity-awesome-skills` | 49.394 | 299 | 0 | 0 | 0 | 0 | MIT | 2026-11-05 |
+| `sickn33/agentic-awesome-skills` | 49.394 | 299 | 0 | 0 | 0 | 0 | MIT | 2026-11-05 |
 | `alebcay/awesome-shell` | 37.931 | 4.508 | 438 | aquí no hay | 0 | 0 | CC0-1.0 | nunca |
 | `veggiemonk/awesome-docker` | 37.198 | 4.432 | 5 | 0 | 0 | 0 | Apache-2.0 | 2015-08-07 |
 | `awesome-foss/awesome-sysadmin` | 35.650 | 4.339 | 18 | aquí no hay | 0 | 0 | NOASSERTION | nunca |
@@ -170,3 +170,19 @@ Cada cifra sale de `docs/MEDICION-P30-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. El historial de cambios de un repositorio es una forma débil de verificación, y es la única que hay para una lista.
 3. Las estrellas miden atención, no calidad: este tema lo demuestra con un millón.
 4. Esta pieza tenía un párrafo repetido tres veces y se dice aquí, no se borra en silencio.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió de dueño o de nombre el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `sickn33/antigravity-awesome-skills` hoy responde como **`sickn33/agentic-awesome-skills`**.
+
+───────────────────
+
+*📌 Corrección de esta pieza, anotada y no escondida*
+
+Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
+
+- `sickn33/antigravity-awesome-skills` hoy responde como **`sickn33/agentic-awesome-skills`**.

@@ -220,7 +220,7 @@
    "lenguaje": "Kotlin"
   },
   {
-   "repo": "butzist/ActivityLauncher",
+   "repo": "ActivityLauncher/ActivityLauncher",
    "stars": 2062,
    "forks": 561,
    "licencia": "ISC",
@@ -236,7 +236,8 @@
    "descargas_ultima": 5564,
    "abiertas": 0,
    "archivado": false,
-   "lenguaje": "Kotlin"
+   "lenguaje": "Kotlin",
+   "repo_viejo_2026-11-09": "butzist/ActivityLauncher"
   },
   {
    "repo": "KieronQuinn/PixelLauncherMods",
@@ -258,7 +259,7 @@
    "lenguaje": "Kotlin"
   },
   {
-   "repo": "WackyIdeas/aerothemeplasma",
+   "repo": "aeroshell-desktop/aerothemeplasma",
    "stars": 1011,
    "forks": 24,
    "licencia": "AGPL-3.0",
@@ -274,7 +275,8 @@
    "descargas_ultima": 0,
    "abiertas": 50,
    "archivado": false,
-   "lenguaje": "QML"
+   "lenguaje": "QML",
+   "repo_viejo_2026-11-09": "WackyIdeas/aerothemeplasma"
   },
   {
    "repo": "jnsh/arc-theme",
