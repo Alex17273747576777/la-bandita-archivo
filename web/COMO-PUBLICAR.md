@@ -93,6 +93,29 @@ cambia lo que la página hace: cambia cómo se ve el enlace. No es el paso urgen
 
 ---
 
+## El atajo: `publicar.sh`
+
+En vez de hacer los pasos a mano, el paquete trae el script. Comprueba la página, crea el repositorio
+con la API del proveedor y empuja:
+
+```bash
+cd web
+TOKEN=tu-token ./publicar.sh gitverse  tu-usuario  archivo-abierto
+TOKEN=tu-token ./publicar.sh codeberg  tu-usuario  archivo-abierto
+TOKEN=tu-token ./publicar.sh gitflic   tu-usuario  archivo-abierto
+```
+
+Antes de tocar nada verifica dos cosas: que estén los cuatro archivos y que la página **no descargue
+nada de fuera** (cuenta `src`, `<link>`, `@import` y `url()` externos, y se detiene si hay alguno).
+Después del `push` queda un paso que solo puedes dar tú: activar Pages en los ajustes del repositorio,
+porque ninguno de los tres deja activarlo por token.
+
+**Los tres puntos de la API se comprobaron hoy con un token falso**, para no escribir un nombre
+inventado: `api.gitverse.ru/v1/user/repos` contesta **400 VALIDATION_ERROR** (y enlaza su
+documentación), `api.gitflic.ru/project` contesta **403 AccessDenied**, y
+`codeberg.org/api/v1/user/repos` contesta **401 «token is malformed»** —el comportamiento correcto de
+Gitea—. Los tres existen; los tres piden tu token bueno.
+
 ## Lo que ya está hecho, para que no se repita
 
 | Archivo | Qué es |
