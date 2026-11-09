@@ -66,6 +66,7 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 | 39 | Canserbero | 7.076 | 911 | Corta · personal |
 | 40 | La lección del hash SHA-256 | 6.254 | 947 | **Reescrita entera el 8-nov** · el método probado en esta máquina |
 | 41 | Pieza 41 · segunda vuelta | 7.444 | 1.027 | **Añadida el 9-nov** · segunda vuelta, fuera del ciclo 01–40 |
+| 42 | Pieza 42 · segunda vuelta | 13.393 | 1.665 | **Añadida el 9-nov** · segunda vuelta, fuera del ciclo 01–40 |
 
 ## La medición del 8 de noviembre
 
