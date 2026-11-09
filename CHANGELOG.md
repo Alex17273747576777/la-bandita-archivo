@@ -6,6 +6,63 @@ Criterio de numeración, para que no sea arbitraria: **menor** cuando cambia una
 
 ---
 
+## [2.1.0] — 2026-11-08
+
+La pasada del cierre de la serie de Facebook: cuarenta piezas con cuerpo y comentario fijado, y la
+corrección de la mentira que las estaba inflando. Es **menor** y no mediano porque no cambia la
+estructura del árbol —solo se mueven ocho archivos a `_reemplazadas-2026-11-08/` y se añade una
+herramienta—, pero toca piezas publicadas y por eso lleva versión propia.
+
+### Corregido
+
+- **El «mínimo obligatorio de 45.000 caracteres para Facebook» no existe.** Era una vara interna de la
+  casa que se convirtió en relleno: `generar_piezas.py` produjo nueve cuerpos repitiendo cinco
+  secciones fijas —«Resumen ejecutivo», «Contexto general», «Análisis técnico profundo», «Comparativa
+  con alternativas»— con el título de cada pieza metido a la fuerza en medio, frases como «Los fichas»
+  y una conclusión idéntica en las nueve. Se retiraron las ocho versiones de relleno de las piezas 32 a
+  39 a `_reemplazadas-2026-11-08/` —no se borra nada— y quedó viva la original de cada número. La
+  doctrina nueva está en `docs/bandas.json`: banda de **6.000 a 45.000** caracteres, sin obligación de
+  acercarse al máximo.
+- **Pieza 06**: se retira la voz rota que se publicó a la vista —«Eso son cinco de diecisiete, no
+  cuatro: me corrijo, son cinco. Espera, contemos: …»— y queda el conteo limpio.
+- **Pieza 07**: la semilla afirmaba que los cinco gigantes «no publican huella». Medido otra vez el
+  8-nov contra la API de GitHub: tres no publican ningún adjunto en su última entrega, SmartTube
+  publica cuatro y **ninguno de los cinco adjunta una suma**. La frase ahora dice eso, con fecha.
+- **Piezas 08 a 18**: se retiran las cajas «### Datos comparados (lista jerárquica)» que metió el
+  generador dentro del texto publicado.
+- **Ocho piezas cortas** (32 a 39) declaraban un número de pieza que no era el suyo —la 37 decía
+  «pieza 12»—; renumeradas.
+- **Once comentarios fijados**: «Los fichas» → «Las fichas».
+
+### Añadido
+
+- **Diez comentarios fijados** que faltaban: 06, 07, 08, 09, 10, 11, 12, 13, 14 y 40, con las cifras que
+  ya estaban medidas en el cuerpo de cada pieza y las seis órdenes de comprobación.
+- **Pieza 40 reescrita entera**: «La lección del hash SHA-256: cómo comprobar un archivo sin root»,
+  13.532 caracteres, dentro de banda. Su título anterior decía «premio de La Bandita» y no había ningún
+  premio: era una etiqueta del generador. Las tres órdenes que enseña se ejecutaron en esta máquina
+  antes de publicarla (`sha256sum`, `sha256sum -c` → `OK`, `apksigner`).
+- **`tools/leeme_carpeta.py`**: cuadra el LEEME de la carpeta con el disco. Verifica que cada número
+  01–40 tenga un cuerpo y un comentario fijado, que los caracteres de la tabla sean los reales y que no
+  haya piezas sin número en la raíz. Salida medida: **40 piezas comprobadas · fallos: 0**.
+
+### Cambiado
+
+- **`LEEME-de-la-carpeta.md`** del canal de Facebook: reescrito con las cuarenta filas medidas, la
+  doctrina de longitud corregida, las nueve cortas declaradas como *sin medición propia* y la ruta de
+  las reemplazadas.
+- **`README.md`**: estado al 8 de noviembre, serie de Facebook hasta la 40, y una sección nueva —«La
+  corrección del 8 de noviembre»— que dice lo que se corrigió y lo que sigue sin hacerse.
+- **`docs/bandas.json`**: banda rehecha pieza por pieza y fijado por fijado, 81 entradas, ninguna fuera
+  de su propia banda.
+
+### Lo que sigue sin hacerse, y se declara
+
+- Nueve piezas cortas —24 a 29, 32, 33, 34 y 36— **no tienen medición propia**: su tema no se ha medido
+  todavía contra la API. El LEEME las marca una por una en vez de contarlas como terminadas.
+
+---
+
 ## [2.0.0] — 2026-11-03
 
 La pasada de la poda y de la pieza 06. Se quitaron los residuos que el árbol podía reconstruir

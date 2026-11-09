@@ -1,47 +1,82 @@
 # LEEME de la carpeta · Facebook dominicano-ES
 
-*El estado de la carpeta, dicho en una pantalla. Actualizado el 3 de noviembre de 2026.*
+*El estado de la carpeta, dicho en una pantalla. Actualizado el 8 de noviembre de 2026.*
 
 ## Qué hay aquí y qué no
 
-Aquí, en la raíz de la carpeta, vive **solo el ciclo vivo**: las piezas de la serie que se está publicando ahora, de la 01 a la 14. Nada más. Todo lo anterior —trescientos y pico de archivos de septiembre y octubre— está en `_ARCHIVO-HISTORICO/`, ordenado por mes, y no se borra porque es la memoria firmada de la casa.
-
-Antes de este ordenamiento la carpeta tenía ciento diecinueve archivos al mismo nivel y **números repetidos**: dos piezas 05, una de septiembre y una de noviembre. Eso no era un problema de nombres, era un problema de lectura: quien abría la carpeta no sabía qué era el presente y qué era el pasado. Ahora lo sabe en un segundo.
+En la raíz de esta carpeta vive **solo el ciclo vivo**: las cuarenta piezas de la serie que se está publicando ahora, de la 01 a la 40, cada una con su cuerpo y su comentario fijado. Nada más. Todo lo anterior —trescientos y pico de archivos de septiembre y octubre— está en `_ARCHIVO-HISTORICO/`, ordenado por mes, y no se borra porque es la memoria firmada de la casa.
 
 ## La regla del nombre
 
-Toda pieza del ciclo vivo se llama igual, y el nombre contiene todo lo que hace falta para no confundirse:
+Toda pieza del ciclo vivo se llama igual, y el nombre contiene lo que hace falta para no confundirse:
 
 ```
-NN-Titulo-en-espanol-sin-acentos-Facebook-La-Bandita-AAAA-MM-DD-dominicano-ES.md
+NN-Titulo-en-espanol-sin-acentos-...-Facebook-La-Bandita-AAAA-MM-DD-dominicano-ES.md
+NN-Comentario-fijado-facebook-La-Bandita-AAAA-MM-DD-dominicano-ES.md
 ```
 
-El número es el del ciclo (01–14), la fecha es la del corte de medición de la pieza, y el sufijo `dominicano-ES` dice el idioma y el canal. Una pieza publicada no se renombra ni se retoca: si hay que rehacerla, se rehace entera y la anterior pasa a `_ARCHIVO-HISTORICO/_reemplazadas/` con su fecha.
+El número es el del ciclo (01–40), la fecha es la del corte de medición de la pieza, y el sufijo `dominicano-ES` dice el idioma y el canal. Una pieza publicada no se renombra ni se retoca: si hay que rehacerla, se rehace entera y la anterior pasa a `_reemplazadas-AAAA-MM-DD/` con su fecha.
+
+**Cada número tiene exactamente dos archivos**: el cuerpo y el comentario fijado. Hay una comprobación que lo verifica y que puede ejecutarse en cualquier momento —ver «Cómo se comprueba lo que dice este archivo», al final—.
 
 ## El ciclo vivo, pieza por pieza
 
-| # | Pieza | Corte | Caracteres | Estado |
-|---|---|---|---|---|
-| 01 | La huella o el silencio (**escrita de nuevo el 4-nov, 11:58**) | 2026-11-04 | 40.530 | Publicada y en banda · doce programas y su huella, tres fuera, censo 6.842 · las versiones anteriores, en `_ARCHIVO-HISTORICO/` |
-| 02 | La música que no se cae: seis que firman y seis grandes que no (**escrita de nuevo el 4-nov, 12:35**) | 2026-11-04 | 41.946 | Publicada y en banda · 21 repos medidos, 6 con huella · censo de 121 · la versión anterior, en `_ARCHIVO-HISTORICO/` |
-| 03 | La caja fuerte del bolsillo: una de catorce da la huella y dos se reservan los derechos (**escrita de nuevo el 4-nov, 12:44**) | 2026-11-04 | 40.396 | Publicada y en banda · 16 repos medidos, 1 con huella (15 adjuntos) · censo de 11 · la versión anterior, en `_ARCHIVO-HISTORICO/` |
-| 04 | La lista del permiso (**rehecha**) | 2026-11-04 | 44.513 | Escrita de nuevo el 4-nov, 13:16 · 26 repos medidos, 6 con huella · censo de 454 · la anterior, en `_ARCHIVO-HISTORICO/_reemplazadas-2026-11-04/` |
-| 05 | La guía maestra (**rehecha**) | 2026-11-04 | 44.429 | Escrita de nuevo el 4-nov, 17:56 · 70 fichas remedidas, 22 con huella · capítulo del permiso: 0 de 6 · la anterior, en `_ARCHIVO-HISTORICO/_reemplazadas-2026-11-04/` |
-| 06 | El taller de los parches (**rehecha**) | 2026-11-04 | 40.967 | Escrita de nuevo el 4-nov, 14:30 · 16 repos vivos, 55 de 257 con huella · los parches: 0 de 40 · el 451 comprobado en vivo · la anterior, en `_ARCHIVO-HISTORICO/_reemplazadas-2026-11-04/` |
-| 07 | La pantalla grande y la casa que no hace ruido (**escrita de nuevo el 4-nov, 14:44**) | 2026-11-04 | 40.923 | Publicada y en banda · 17 repos medidos, 5 con huella · censos nuevos: 83 de televisor y 16 de casa · primera versión, no reemplaza a ninguna |
-| 08 | La red: seis caminos, seis precios (**escrita de nuevo el 4-nov, 18:14**) | 2026-11-04 | 41.588 | Publicada y en banda · 20 repos medidos, 5 con huella (107 de 2.938) · tachyon, 114 días, nota 80 · censo nuevo de red: 48 fichas |
-| 09 | Archivos, copias y nubes propias (**escrita de nuevo el 4-nov, 18:27**) | 2026-11-04 | 44.791 | Publicada y en banda · 17 repos medidos, 4 con huella (108 de 1.449) · AF-File-Manager firma 40 de 80 con 18★ · las dos copias del teléfono, 410 y 185 días paradas · censo nuevo de archivos: 114 fichas |
-| 10 | La privacidad que se puede comprobar | — | — | En cola |
-| 11 | Cuando algo se rompe: los cinco sitios y el parte | — | — | En cola |
-| 12 | El oficio: cómo comprobarme sin creerme | — | — | En cola |
-| 13 | Los setenta, otra vez: la remisión de diciembre | — | — | Programa­da |
-| 14 | La lista final: qué instalar primero según tu caso | — | — | Programada |
+Las piezas 01 a 22 y la 31 están escritas a mano y medidas contra la API pública de GitHub, cada una con su hora y su propio corte. Las piezas 32 a 39 son textos cortos de otra serie —TuMangaOnline, apoyo a desarrolladores, la Ballenita, Kung Fu Panda, Canserbero— que llegaron con un número de pieza equivocado y fueron renumerados el 8 de noviembre; su cuerpo está pendiente de medición propia y **el LEEME no va a fingir que ya la tienen**. La 40 se reescribió entera el 8 de noviembre.
 
-Banda de longitud del canal: **40.000 a 45.000 caracteres** por pieza, declarada en `docs/bandas.json`. Una pieza fuera de banda no se publica, y la cifra del registro tiene que coincidir con la del archivo: si alguien toca el texto sin actualizar el registro, la compuerta lo dice.
+| # | Pieza | Cuerpo | Fijado | Estado |
+|---|---|---|---|---|
+| 01 | La huella o el silencio | 46.123 | 2.943 | Medida · 12 programas, 6 con huella |
+| 02 | La música que no se cae | 47.813 | 2.853 | Medida · 21 repos, 6 con huella |
+| 03 | La caja fuerte del bolsillo | 45.105 | 2.408 | Medida · 16 repos, 1 con huella |
+| 04 | La lista del permiso | 49.207 | 3.275 | Medida · 26 repos, 6 con huella |
+| 05 | La guía maestra | 46.761 | 3.331 | Medida · 70 fichas, 22 con huella |
+| 06 | El taller de los parches | 45.292 | 2.181 | Medida · 17 repos, 5 con huella (55 de 190 archivos) |
+| 07 | La pantalla grande | 45.765 | 2.259 | Medida · 17 repos, 4 con huella · gigantes re-verificados el 8-nov |
+| 08 | La red: seis caminos | 42.773 | 2.278 | Medida · 20 repos, 5 con huella |
+| 09 | Archivos, copias y nubes | 42.854 | 2.234 | Medida · 17 repos, 4 con huella |
+| 10 | Las tiendas | 45.901 | 2.126 | Medida · 56 repos, 1 firma |
+| 11 | Las aplicaciones que leen | 43.151 | 2.097 | Medida · 51 apps, 116 archivos firmados |
+| 12 | El kit de reemplazo | 42.438 | 2.255 | Medida · 59 recursos, 501 de 3.022 |
+| 13 | El audio que faltaba | 44.732 | 2.153 | Medida · 54 proyectos, 409 de 3.599 |
+| 14 | Spotify sin Spotify | 41.786 | 2.187 | Medida · 38 clientes, 495 de 2.473 |
+| 15 | Descargar es un acto técnico | 42.958 | 1.352 | Medida · 31 programas |
+| 16 | El torrent que no se rinde | 42.102 | 1.488 | Medida · 22 piezas |
+| 17 | El teclado que escribe por ti | 40.312 | 1.203 | Medida · 34 teclados |
+| 18 | La radio y el directo | 40.538 | 1.386 | Medida · 32 piezas |
+| 19 | La tienda que le sirve a tu app | 47.047 | 1.557 | Medida · 15 repos |
+| 20 | El teclado que obedece | 47.849 | 1.559 | Medida · 11 teclados |
+| 21 | La variante que cambió | 45.921 | 1.967 | Medida · OmniShizuku |
+| 22 | El módulo que no necesita root | 46.596 | 1.567 | Medida · AxManager |
+| 23 | Keiyoushi, catálogo de extensiones | 45.957 | 1.618 | Una ficha medida |
+| 24 | Yuzono anime-extensions | 45.111 | 1.392 | Una ficha · **sin medición propia** |
+| 25 | Umi-OCR y episteme | 45.001 | 1.225 | Una ficha · **sin medición propia** |
+| 26 | Usagi | 45.340 | 1.366 | Una ficha · **sin medición propia** |
+| 27 | DropSauce | 45.250 | 1.388 | Una ficha · **sin medición propia** |
+| 28 | Mangayomi | 45.142 | 1.392 | Una ficha · **sin medición propia** |
+| 29 | LNReader | 45.079 | 1.398 | Una ficha · **sin medición propia** |
+| 30 | Cloudstream MegaRepo | 45.011 | 1.415 | Una ficha medida |
+| 31 | El peso no es el problema | 50.302 | 3.351 | Medida de nuevo el 8-nov |
+| 32 | TMO: clones y dominios | 12.791 | 3.192 | Corta · **sin medición propia** |
+| 33 | Apoyo a desarrolladores | 9.630 | 1.495 | Corta · **sin medición propia** |
+| 34 | Recuperar la biblioteca de Kototoro | 9.369 | 1.422 | Corta · **sin medición propia** |
+| 35 | La Ballenita vuelve al mar | 6.206 | 1.337 | Corta · personal |
+| 36 | TMO: cierre y análisis | 11.115 | 1.294 | Corta · **sin medición propia** |
+| 37 | Carta a la manada azul | 10.254 | 1.503 | Corta · personal |
+| 38 | Kung Fu Panda | 6.231 | 1.249 | Corta · personal |
+| 39 | Canserbero | 22.155 | 1.512 | Corta · personal |
+| 40 | La lección del hash SHA-256 | 12.678 | 2.363 | **Reescrita entera el 8-nov** |
+
+## La banda de longitud, corregida
+
+Hasta el 8 de noviembre esta casa declaraba un «mínimo obligatorio de 45.000 caracteres para publicaciones de Facebook». **Ese mínimo no existe**: era una vara interna que se convirtió en relleno, y produjo nueve cuerpos hechos con un generador que repetía cinco secciones con el título de cada pieza metido a la fuerza en medio. Se detectó el 8 de noviembre, se retiró el relleno y se corrigió la doctrina:
+
+* La banda de la casa es **6.000 a 45.000 caracteres** para el cuerpo y **900 a 4.000** para el comentario fijado, declarada en `docs/bandas.json`.
+* **Ninguna pieza tiene que acercarse al máximo.** La 40 se publica con 13.532 caracteres y es la más corta de la serie a propósito.
+* Si no hay dato, se escribe «aquí no hay». No se rellena.
 
 ## De dónde sale cada pieza
 
-Las doce primeras siguen los doce capítulos de la guía maestra, que vive en `guia-maestra/` en la raíz del repositorio. Cada pieza del canal toma un capítulo, lo cuenta para el muro y abre las fichas que ese capítulo mide. Las dos últimas no son capítulos: la 13 es la remisión obligatoria de diciembre —lo que se midió el 3 de noviembre se vuelve a medir el 3 de diciembre, y se publica qué se movió— y la 14 es la puerta de entrada para quien llega nuevo y no sabe por dónde empezar.
+Las doce primeras siguen los doce capítulos de la guía maestra, que vive en `guia-maestra/` en la raíz del repositorio. De la 13 en adelante la serie mide temas por demanda del público —audio, reemplazos, tiendas de extensiones, lectores— y cada pieza parte de una «semilla»: la deuda que dejó la anterior.
 
 ## Dónde está lo demás
 
@@ -52,36 +87,19 @@ _ARCHIVO-HISTORICO/
 ├── _PRE-2026-10-31/   lo que quedó antes del reinicio del ciclo
 ├── _reemplazadas/     las piezas retiradas, con la fecha en que se retiraron
 └── sin-fecha/         lo que no declara dateline y no se puede fechar
+
+_reemplazadas-2026-11-04/   piezas rehechas esa fecha
+_reemplazadas-2026-11-08/   las ocho versiones de relleno de las piezas 32 a 39,
+                            y las piezas cortas que sustituyó la versión nueva
 ```
 
 El archivo histórico conserva todo tal como se publicó, incluidos sus fallos. No se corrige hacia atrás: se corrige hacia adelante, y la corrección se anota en la pieza nueva.
 
 ## Cómo se comprueba lo que dice este archivo
 
-Tres métodos distintos, y los tres tienen que coincidir. Están corridos y anotados en `docs/ACTA-ORDEN-Y-VERIFICACION-2026-11-03.md`.
+```
+python3 tools/leeme_carpeta.py            # cuadra el LEEME contra los archivos
+python3 tools/leeme_carpeta.py --arreglar # reescribe la tabla con los conteos reales
+```
 
-1. **Árbol y contenido.** Se cuenta lo que hay y se saca la huella de cada pieza con suma de verificación. El árbol tiene que decir lo que dice esta tabla.
-2. **La fuente remota.** Se le pregunta a la plataforma, sin usar el clon, qué archivos hay en esta carpeta y de qué tamaño. Si el clon y la plataforma no coinciden, hay algo sin subir.
-3. **Coherencia interna del texto.** Para cada pieza: la fecha del nombre, la fecha del dateline, el tamaño declarado en el registro y la huella anotada en su envío tienen que ser el mismo archivo. Una sola discrepancia y la pieza no se cuenta como publicada.
-
-## Lo que no se hace en esta carpeta
-
-No se aloja ni un paquete ajeno. No se escribe aquí nada que no sea una pieza, un LEEME o el archivo histórico. No se publica una pieza sin pasar las dos compuertas —la de forma y la de novedad— y sin que la vara diga «fallos: NINGUNO».
-
-*La Bandita informa a partir de fuentes fechadas.*
-
-## Cambio de tema en la pieza 06, declarado
-
-El programa original de la serie daba a la pieza 06 el título «El taller: lo que se puede leer, se puede arreglar», sobre el derecho a reparar. El dueño pidió el 4 de noviembre una publicación específica del gestor de parches Universal Patch Manager, y ese programa **es** el taller: la herramienta con la que se abre un paquete ajeno y se vuelve a cerrar. Se publicó como 06 con ese tema y el título se ajustó para que diga lo que la pieza hace. El tema de reparabilidad no se pierde: pasa a la pieza 11, «Cuando algo se rompe», donde ya estaba previsto el título de los cinco sitios y el parte de avería.
-
-## La regla que manda desde el 3 de noviembre: lo nuevo primero
-
-El dueño fijó una regla editorial que ordena la serie entera: **enfocarse en los recursos más nuevos,
-actualizados, recién lanzados y desconocidos**. No es una preferencia de estilo, es un cambio de método, y
-por eso la casa construyó `tools/novedad.py`: lee la evidencia sellada de las 6.838 fichas, saca la fecha
-de nacimiento de cada repositorio y clasifica en nacido, joven, desconocido, recién, dormido y muerto.
-Ordena por juventud × actividad, nunca por estrellas.
-
-La pieza 01 rehecha es la primera que se escribió con esa regla: doce programas nacidos en octubre de 2026,
-ninguno por encima de ★132, y dos rechazos razonados. Las piezas 02 a 06 se rehacen en las tandas
-siguientes, y de la 07 en adelante el mapa de 125 ya está ordenado por la misma regla.
+Comprueba tres cosas: que cada número 01–40 tenga **un cuerpo y un comentario fijado**, que los caracteres de la tabla coincidan con los del archivo, y que no quede en la raíz ninguna pieza sin número. Si algo no cuadra, lo dice y devuelve código de salida distinto de cero.

@@ -1,6 +1,6 @@
 *Carta a la manada azul: no desperdicies tu potencial, no dejes que el miedo te detenga*
 
-*La Bandita · sábado 7 de noviembre de 2026 · edición dominicano-español · pieza 12 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026 · edición dominicano-español · pieza 37 de Facebook*
 
 ⏱️ *Lectura total: 20 minutos · reflexión personal · Good Will Hunting · Chuckie Sullivan · Facundo Cabral · tres historias · dos canciones · una verdad · cero enlaces externos · cero paquetes alojados*
 

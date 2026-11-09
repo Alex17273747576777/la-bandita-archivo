@@ -2,7 +2,7 @@
 
 *Una casa que verifica antes de recomendar. Todo dato que aparece aquí tiene fecha, método y evidencia; lo que no se pudo medir se publica como hueco declarado, nunca rellenado.*
 
-**TL;DR —** este repositorio es un **archivo de divulgación técnica en español** sobre aplicaciones y recursos de código abierto para Android, con **una guía maestra de 70 fichas en 12 capítulos** y **dos series de canal** (Facebook y WhatsApp) que van por la pieza 6 de 14 en Facebook y la 5 en WhatsApp. Todo lo que declara se puede comprobar con un comando: `make verificar` (diecisiete compuertas, G0 a G17). Si venís con prisa, empezá por `make doctor` y por la tabla de estado de abajo. Si venís a leer, la puerta es `guia-maestra/`. Si venís a auditar, la puerta es `ARQUITECTURA.md`.
+**TL;DR —** este repositorio es un **archivo de divulgación técnica en español** sobre aplicaciones y recursos de código abierto para Android, con **una guía maestra de 70 fichas en 12 capítulos** y **dos series de canal**: Facebook va por la **pieza 40** y WhatsApp por la **6**. Todo lo que declara se puede comprobar con un comando: `make verificar` (diecisiete compuertas, G0 a G17). Si venís con prisa, empezá por `make doctor` y por la tabla de estado de abajo. Si venís a leer, la puerta es `guia-maestra/`. Si venís a auditar, la puerta es `ARQUITECTURA.md`.
 
 ---
 
@@ -16,15 +16,23 @@ El 3 de noviembre se dio el segundo paso, que era el que faltaba: **quitar lo in
 
 ---
 
-## Estado del archivo, hoy (3 de noviembre de 2026)
+## La corrección del 8 de noviembre
+
+Del 7 al 8 de noviembre la serie de Facebook creyó que Facebook exigía **45.000 caracteres por publicación**. No los exige: era una vara interna de la casa que se convirtió en relleno, y produjo nueve cuerpos hechos con un generador que repetía cinco secciones con el título de la pieza metido a la fuerza en medio. Se detectó, se retiró el relleno a `_reemplazadas-2026-11-08/` y se corrigió la doctrina: la banda es **6.000 a 45.000 caracteres** y **ninguna pieza tiene que acercarse al máximo** —la 40 se publica con 13.532 y es la más corta a propósito—. La pieza 40 se reescribió entera, y se arreglaron además la voz rota que se había publicado a la vista en la 06, la afirmación de la 07 sobre los cinco gigantes —medida otra vez el 8-nov— y el número de pieza equivocado que llevaban las ocho cortas. El detalle, en [`CHANGELOG.md`](CHANGELOG.md) y en el `LEEME-de-la-carpeta.md` del canal.
+
+Lo que **no** se ha hecho y no se va a fingir: nueve piezas cortas (24 a 29 y 32, 33, 34, 36) siguen sin medición propia. Su texto es corto y honesto, pero no tiene cifras medidas para su tema, y el LEEME las marca una por una en vez de contarlas como terminadas.
+
+---
+
+## Estado del archivo, hoy (8 de noviembre de 2026)
 
 | Qué | Dónde | Estado |
 |---|---|---|
 | **Guía maestra** | `guia-maestra/` | 12 capítulos · **70 fichas** medidas · compuertas en cero fallos |
-| **Serie de Facebook** | `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/` | piezas **01 a 06** publicadas, en banda · siguiente: **07 · La pantalla grande** |
-| **Serie de WhatsApp** | `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/` | piezas **01 a 05** publicadas, en banda · siguiente: **06 · El taller en el bolsillo** (la de Facebook ya está escrita y sirve de base) |
+| **Serie de Facebook** | `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/` | piezas **01 a 40** con cuerpo y comentario fijado · 40 de 40 cuadradas por `tools/leeme_carpeta.py` · 9 cortas declaradas sin medición propia |
+| **Serie de WhatsApp** | `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/` | piezas **01 a 06** con cuerpo escrito · siguiente: **07 · La pantalla grande** (la de Facebook ya está escrita y sirve de base) |
 | **Todo lo anterior** | `_ARCHIVO-HISTORICO/` de cada canal · `ARCHIVO-HISTORICO/` en la raíz | archivado por mes, con su fecha; no se borra, no se retoca |
-| **Registro medido** | `registry/` | **6.838 fichas**: 6.560 vigentes medidas hoy · 278 sin objeto (el repositorio no existe) · 0 vencidas |
+| **Registro medido** | `registry/` | **6.737 fichas** en el registro (conteo de archivos al 8-nov) · las cifras de vigencia, en `make verificar` |
 | **Sello** | `registry/_manifiesto-sha256.tsv` · `attestations/` | SHA-256 encadenado + firma sin llave de Sigstore |
 | **Poda del 3-nov** | `ARCHIVO-HISTORICO/_podado-2026-11-03/` | 11 archivos retirados (16,6 MB) y 53 reubicados, con hash y motivo de cada uno |
 

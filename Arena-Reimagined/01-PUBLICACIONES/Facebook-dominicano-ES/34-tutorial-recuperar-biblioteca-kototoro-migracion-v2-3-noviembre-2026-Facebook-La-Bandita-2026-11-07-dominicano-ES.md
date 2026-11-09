@@ -1,6 +1,6 @@
 *Tutorial completo: recuperar la biblioteca de Kototoro tras la migración a v2.3.x*
 
-*La Bandita · sábado 7 de noviembre de 2026 · edición dominicano-español · pieza 09 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026 · edición dominicano-español · pieza 34 de Facebook*
 
 ⏱️ *Lectura total: 38 minutos · pasos verificados contra Kototoro v2.3.12 · migración de biblioteca y extensiones · cómo evitar que vuelva a pasar · cero paquetes alojados · cero enlaces a espejos*
 

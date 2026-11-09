@@ -1,6 +1,6 @@
 *Apoyo a desarrolladores y nuevas apps para explorar: cartografía verificada al 7 de noviembre de 2026*
 
-*La Bandita · sábado 7 de noviembre de 2026 · edición dominicano-español · pieza 08 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026 · edición dominicano-español · pieza 33 de Facebook*
 
 ⏱️ *Lectura total: 44 minutos · proyectos nuevos o en desarrollo · información contrastada con repositorios oficiales · cada ficha incluye autor, licencia, versión y fecha de corte · cero paquetes alojados · cero enlaces a espejos*
 

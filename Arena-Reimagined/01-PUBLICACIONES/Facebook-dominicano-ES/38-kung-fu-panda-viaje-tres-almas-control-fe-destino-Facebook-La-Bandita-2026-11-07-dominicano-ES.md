@@ -1,6 +1,6 @@
 *Kung Fu Panda: el viaje de tres almas — control, fe y destino*
 
-*La Bandita · sábado 7 de noviembre de 2026 · edición dominicano-español · pieza 13 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026 · edición dominicano-español · pieza 38 de Facebook*
 
 ⏱️ *Lectura total: 10 minutos · reflexión personal sobre la trilogía de Kung Fu Panda · Po, Shifu, Oogway · control, confianza y el presente · cero enlaces externos · cero paquetes alojados*
 

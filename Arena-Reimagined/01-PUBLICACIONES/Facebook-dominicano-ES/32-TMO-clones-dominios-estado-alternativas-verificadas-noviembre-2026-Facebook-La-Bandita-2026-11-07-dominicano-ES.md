@@ -1,6 +1,6 @@
 *TuMangaOnline, sus clones y alternativas: estado verificado al 7 de noviembre de 2026*
 
-*La Bandita · sábado 7 de noviembre de 2026 · edición dominicano-español · pieza 07 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026 · edición dominicano-español · pieza 32 de Facebook*
 
 ⏱️ *Lectura total: 40 minutos · dominios TMO comprobados · clones listados · alternativas técnicas para Android · advertencias de seguridad declaradas · cero enlaces a espejos · cero alojamiento de contenido protegido*
 

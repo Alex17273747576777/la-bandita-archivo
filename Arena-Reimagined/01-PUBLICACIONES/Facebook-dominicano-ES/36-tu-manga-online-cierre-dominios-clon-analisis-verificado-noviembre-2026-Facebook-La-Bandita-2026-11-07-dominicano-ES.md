@@ -1,6 +1,6 @@
 *TuMangaOnline, cierre, dominios clon y alternativas: análisis verificado al 7 de noviembre de 2026*
 
-*La Bandita · sábado 7 de noviembre de 2026 · edición dominicano-español · pieza 11 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026 · edición dominicano-español · pieza 36 de Facebook*
 
 ⏱️ *Lectura total: 25 minutos · hechos verificados con fuentes de prensa y policiales · dominios clon analizados con puntuaciones de confianza · advertencias de seguridad al inicio de cada sección · cero enlaces a espejos · cero recomendación de uso*
 

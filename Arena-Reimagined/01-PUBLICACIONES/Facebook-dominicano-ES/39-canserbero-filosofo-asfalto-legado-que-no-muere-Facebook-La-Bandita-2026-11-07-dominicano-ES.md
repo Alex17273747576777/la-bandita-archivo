@@ -1,6 +1,6 @@
 *Canserbero: el filósofo del asfalto, un legado que no muere*
 
-*La Bandita · sábado 7 de noviembre de 2026 · edición dominicano-español · pieza 14 de Facebook*
+*La Bandita · sábado 7 de noviembre de 2026 · edición dominicano-español · pieza 39 de Facebook*
 
 ⏱️ *Lectura total: 45 minutos · Canserbero · Tirone José González Orama · filosofía callejera · Mañana Será Otro Día · Es Épico · De la Vida Como Película · enseñanzas para la Bandita · playlist · cero enlaces externos · cero paquetes alojados*
 
