@@ -180,7 +180,8 @@ def atribucion(pieza: str, d: dict) -> list[str]:
                 cortes = [c for c in (ventana.find(". "), ventana.find("**")) if c >= 0]
                 corte = min(cortes) if cortes else -1
                 trozo = ventana if corte < 0 else ventana[:corte]
-                if crudo not in trozo:
+                # Coincidencia por palabra completa: «1.665» no puede colarse dentro de «11.665».
+                if not re.search(rf"(?<![\d.]){re.escape(crudo)}(?![\d.])", trozo):
                     continue
                 fallos.append(f"{repo}: «{crudo}» = {valor:,} no es un campo suyo".replace(",", "."))
     return fallos

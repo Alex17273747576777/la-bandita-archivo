@@ -45,9 +45,9 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 | 18 | La radio y el directo | 11.337 | 1.664 | Medida · 32 piezas |
 | 19 | La tienda que le sirve a tu app | 12.244 | 1.713 | Medida · 15 repos |
 | 20 | El teclado que obedece | 11.403 | 1.682 | Medida · 11 teclados |
-| 21 | La variante que cambió | 45.921 | 1.967 | Medida · OmniShizuku |
-| 22 | El módulo que no necesita root | 46.596 | 1.567 | Medida · AxManager |
-| 23 | Keiyoushi, catálogo de extensiones | 45.957 | 1.618 | Una ficha medida |
+| 21 | La variante que cambió | 9.844 | 1.676 | Medida · OmniShizuku |
+| 22 | El módulo que no necesita root | 10.405 | 1.661 | Medida · AxManager |
+| 23 | Keiyoushi, catálogo de extensiones | 11.018 | 1.666 | Una ficha medida |
 | 24 | Repositorios de extensiones de anime | 12.966 | 2.077 | **Medida el 8-nov** · 5 vivos, 173 archivos, 0 huellas, un abuelo de 812 días |
 | 25 | OCR de bolsillo | 12.326 | 1.983 | **Medida el 8-nov** · 7 programas, 334 archivos, 1 suma (episteme) |
 | 26 | Usagi y su familia | 12.114 | 2.073 | **Medida el 8-nov** · 6 vivos, 727 archivos, 0 huellas, el original 370 días parado |
