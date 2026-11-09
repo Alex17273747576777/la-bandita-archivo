@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **primera parte · fecha declarada**: 1605
+• **dos libros y un impostor en medio** — tres fechas para dos tomos, y una de ellas no la escribió Cervantes.
 • **segunda parte · fecha declarada**: 1615
 • **años entre las dos partes**: 10
 • **el falso de Avellaneda · fecha declarada**: 1614

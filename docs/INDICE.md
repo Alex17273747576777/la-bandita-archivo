@@ -303,7 +303,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`leeme_carpeta.py`](../tools/leeme_carpeta.py) | LEEME DE LA CARPETA · cuadra lo que el LEEME dice con lo que hay en el disco. | 173 |
 | [`licencias_resolver.py`](../tools/licencias_resolver.py) | RESUELVE LAS LICENCIAS QUE NO CONCLUYEN · cierra la deuda de las fichas NOASSERTION. | 222 |
 | [`lint_teclado.py`](../tools/lint_teclado.py) | lint_teclado.py · comprueba la biblioteca de instrucciones y la exporta. | 203 |
-| [`manual_gate.py`](../tools/manual_gate.py) | Compuerta del MANUAL DE ESTILO Y OPERACIONES V3.0 (1-nov-2026). | 464 |
+| [`manual_gate.py`](../tools/manual_gate.py) | Compuerta del MANUAL DE ESTILO Y OPERACIONES V3.0 (1-nov-2026). | 524 |
 | [`mcp_conectar.py`](../tools/mcp_conectar.py) | CONEXIÓN REAL A SERVIDORES MCP · handshake, listado de herramientas y llamada de prueba. | 195 |
 | [`medir_censo.py`](../tools/medir_censo.py) | MEDIR EL CENSO · la API REST cobra una petición por repositorio; GraphQL cobra por nodos. | 244 |
 | [`medir_guia.py`](../tools/medir_guia.py) | MEDIR LA GUÍA MAESTRA · la pieza 05 no se escribe a mano, se mide. | 190 |

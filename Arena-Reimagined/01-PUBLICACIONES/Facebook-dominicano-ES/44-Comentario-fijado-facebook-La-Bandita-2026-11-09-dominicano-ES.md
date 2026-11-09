@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **la serie · episodios declarados**: 61
+• **veintiún años de espera y tres estrenos anunciados** — la película no llega tarde: llega cuatro veces.
 • **temporadas, y episodios de cada una**: 3 · 20 + 20 + 21
 • **la suma cuadra con la serie**: sí, 61
 • **la serie · primera y última emisión**: 2005-02-21 y 2008-07-19

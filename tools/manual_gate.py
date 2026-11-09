@@ -116,9 +116,69 @@ def _tiene_meme_corte(contenido: str) -> bool:
     """
     corte = contenido.find("💓")
     tramo = contenido[:corte] if corte > 0 else contenido[:4000]
+    # La cabecera del fijado («📎 *Comentario fijado · Pieza 01 — La huella…*») también
+    # lleva guion largo y casaba el patrón: daba por buenos diez fijados que no tienen
+    # meme. No es el meme, es el rótulo. Se descarta antes de mirar.
+    tramo = "\n".join(l for l in tramo.splitlines() if not l.strip().startswith("📎"))
     # Dos líneas seguidas, no vacías, con guion largo, y con algo de gracia: no se
     # exige ingenio medible, se exige la forma que el manual describe.
     return bool(re.search(r"[^\n]{15,}\s+—\s+[^\n]{15,}", tramo))
+
+
+def _tiene_firma(contenido: str) -> bool:
+    return "💓" in contenido and "La Bandita informa" in contenido
+
+
+LICENCIAS = re.compile(
+    r"\b(MIT|GPL|AGPL|LGPL|Apache|BSD|MPL|ISC|Unlicense|CC0|CC-BY[A-Z0-9.-]*|Zlib|WTFPL"
+    r"|Artistic|OFL|BSL|EPL|CDDL|PostgreSQL|Python|Ruby|X11|NCSA|EUPL|NOASSERTION)\b",
+    re.IGNORECASE,
+)
+# «Sin licencia» también es un dato medido: GitHub devuelve NOASSERTION y las piezas
+# escriben «sin licencia declarada» o «sin declarar» cuando no la hay. Eso no es una
+# falta de la pieza: es la pieza diciendo la verdad. Lo que se persigue es la ficha
+# que ni declara licencia ni dice que no la tiene.
+SIN_LICENCIA = re.compile(r"sin licencia declarada|sin declarar|NOASSERTION", re.IGNORECASE)
+
+# Ficha en viñeta: la línea EMPIEZA por el repo y lleva estrellas.
+# «El que más estrellas tiene es **x/y**, con ★277.160» también casa el patrón de repo
+# y estrellas, pero es prosa, no ficha: por eso se exige que el repo abra la línea y
+# que las estrellas vengan tras el separador «·».
+FICHA_VINETA = re.compile(r"^\s*(?:[-•*]|\d+\.)?\s*\*\*[A-Za-z0-9._-]+/[A-Za-z0-9._-]+\*\*\s*·[^\n]*★")
+# Ficha en tabla: la fila empieza por el repo entre comillas invertidas y lleva fecha.
+FICHA_TABLA = re.compile(r"^\s*\|\s*`[A-Za-z0-9._-]+/[A-Za-z0-9._-]+`")
+FECHA = re.compile(r"\b(19|20)\d\d")
+
+
+def _fichas_con_licencia(contenido: str) -> tuple[bool, str]:
+    """M08 — toda ficha de repositorio dice su licencia o dice que no la tiene.
+
+    Tres correcciones sobre la versión anterior, que pedía «★ en algún lado y MIT en
+    algún lado»:
+
+    1. Una pieza que no mide repositorios (una novela, una película) no tiene fichas
+       que licenciar: M08 no le aplica. Antes salía en rojo por no inventarse fichas
+       que su tema no tiene.
+    2. «Sin declarar» y NOASSERTION son valores medidos, no huecos. Antes se contaban
+       como falta, y arreglar el rojo habría significado borrar la medición.
+    3. La licencia se busca en la MISMA línea de la ficha, no en cualquier parte del
+       documento: antes bastaba un «MIT» en prosa para dar por buenas 39 fichas.
+    """
+    fichas = 0
+    faltas: list[str] = []
+    for linea in contenido.splitlines():
+        es_vineta = bool(FICHA_VINETA.match(linea)) and "★" in linea
+        es_tabla = bool(FICHA_TABLA.match(linea)) and bool(FECHA.search(linea))
+        if not (es_vineta or es_tabla):
+            continue
+        fichas += 1
+        if not (LICENCIAS.search(linea) or SIN_LICENCIA.search(linea)):
+            faltas.append(linea.strip()[:70])
+    if not fichas:
+        return True, "sin fichas de repositorio (no aplica)"
+    if faltas:
+        return False, f"{len(faltas)} de {fichas} fichas sin licencia ni declaración"
+    return True, f"{fichas} fichas, todas con licencia o declaración de ausencia"
 
 
 def _tiene_firma(contenido: str) -> bool:
@@ -281,8 +341,8 @@ def _evaluar_pieza(ruta: Path, bandas: dict) -> ResultadoPieza:
         ventana = True
 
     # M08: Fichas con licencia
-    m08 = "★" in contenido and ("GPL" in contenido or "MIT" in contenido or "Apache" in contenido or "AGPL" in contenido or "BSD" in contenido or "MPL" in contenido)
-    criterios.append(Criterio("M08", "fichas con licencia", m08, "presente" if m08 else "ausente"))
+    m08, detalle_m08 = _fichas_con_licencia(contenido)
+    criterios.append(Criterio("M08", "fichas con licencia", m08, detalle_m08))
     if not m08:
         rojo = True
 
