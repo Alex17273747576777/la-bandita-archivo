@@ -1,0 +1,1534 @@
+{
+ "medido_en": "2026-11-09",
+ "fuente": "API pública de miyomi.app (/api/extensions y /api/stats)",
+ "visitantes_mes": 728769,
+ "totales": {
+  "indices": 47,
+  "con_repo_github": 39,
+  "en_registry": 8,
+  "en_censo_fmhy_nuevos": 2,
+  "con_nota_de_moderador": 1,
+  "con_descargas": 1,
+  "descargas_suma": 2,
+  "idiomas_distintos": 9,
+  "categorias": {
+   "null": 27,
+   "Manga": 8,
+   "Anime": 6,
+   "Novel": 2,
+   "Mangayomi": 2,
+   "Kavita": 1,
+   "Suwayomi": 1
+  }
+ },
+ "indices": [
+  {
+   "nombre": "Novel Sourcery",
+   "slug": "novel-sourcery",
+   "categoria": null,
+   "plataformas": [
+    "Android"
+   ],
+   "tipos": [
+    "Light Novel"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": "NovelSourcery/extensions",
+   "descargas": 2,
+   "me_gusta": 26,
+   "actualizado": "2026-10-15",
+   "creado": "2026-04-21",
+   "compatible": [
+    "Tadami",
+    "tsundoku",
+    "Kototoro",
+    "Zangetsu",
+    "Kitsu-X",
+    "OtakuWorld",
+    "Nekoyomi",
+    "Tsundoku",
+    "DropSauce",
+    "AnymeX"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/novel-sourcery"
+  },
+  {
+   "nombre": "50/50's Modules",
+   "slug": "5050s-modules",
+   "categoria": null,
+   "plataformas": null,
+   "tipos": [
+    "Anime"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": null,
+   "descargas": 0,
+   "me_gusta": 87,
+   "actualizado": "2026-10-16",
+   "creado": "2026-04-11",
+   "compatible": [
+    "Sora",
+    "Tsumi",
+    "Dartotsu"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/5050s-modules"
+  },
+  {
+   "nombre": "AIOStreams",
+   "slug": "aiostreams",
+   "categoria": null,
+   "plataformas": null,
+   "tipos": [
+    "Anime"
+   ],
+   "idioma": null,
+   "region": null,
+   "estado": "approved",
+   "repo": "Viren070/AIOStreams",
+   "descargas": 0,
+   "me_gusta": 15,
+   "actualizado": "2026-10-16",
+   "creado": "2026-08-16",
+   "compatible": [
+    "harbor",
+    "Nuvio App",
+    "Stremio"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/aiostreams"
+  },
+  {
+   "nombre": "Aidoku Community Sources",
+   "slug": "aidoku-community-sources",
+   "categoria": "Manga",
+   "plataformas": null,
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "all",
+   "region": "ALL",
+   "estado": "approved",
+   "repo": "Aidoku-Community/sources",
+   "descargas": 0,
+   "me_gusta": 60,
+   "actualizado": "2026-08-30",
+   "creado": "2026-02-10",
+   "compatible": [
+    "Aidoku"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/aidoku-community-sources"
+  },
+  {
+   "nombre": "Aniyomi Compat",
+   "slug": "aniyomi-compat-extension",
+   "categoria": "Anime",
+   "plataformas": null,
+   "tipos": [
+    "Anime"
+   ],
+   "idioma": "all",
+   "region": "ALL",
+   "estado": "approved",
+   "repo": "CranberrySoup/AniyomiCompatExtension",
+   "descargas": 0,
+   "me_gusta": 59,
+   "actualizado": "2025-08-18",
+   "creado": "2026-02-10",
+   "compatible": [
+    "cloudstream",
+    "Kototoro",
+    "AnymeX",
+    "Zangetsu",
+    "Sozo"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/aniyomi-compat-extension"
+  },
+  {
+   "nombre": "Bluecxt's Repo",
+   "slug": "bcxt-fr",
+   "categoria": null,
+   "plataformas": null,
+   "tipos": [
+    "Anime"
+   ],
+   "idioma": "FR",
+   "region": null,
+   "estado": "approved",
+   "repo": "bluecxt/anime-extensions-french",
+   "descargas": 0,
+   "me_gusta": 8,
+   "actualizado": "2026-09-08",
+   "creado": "2026-05-22",
+   "compatible": [],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/bcxt-fr"
+  },
+  {
+   "nombre": "Bunori Extension",
+   "slug": "bunori-extension",
+   "categoria": null,
+   "plataformas": [
+    "Android"
+   ],
+   "tipos": [
+    "Light Novel"
+   ],
+   "idioma": null,
+   "region": null,
+   "estado": "approved",
+   "repo": "bunoriapp/extensions",
+   "descargas": 0,
+   "me_gusta": 26,
+   "actualizado": "2026-10-12",
+   "creado": "2026-09-22",
+   "compatible": [
+    "Bunori"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/bunori-extension"
+  },
+  {
+   "nombre": "CakesTwix",
+   "slug": "cakestwix",
+   "categoria": null,
+   "plataformas": [
+    "Android"
+   ],
+   "tipos": [
+    "Anime"
+   ],
+   "idioma": "ua",
+   "region": null,
+   "estado": "approved",
+   "repo": null,
+   "descargas": 0,
+   "me_gusta": 10,
+   "actualizado": "2026-10-14",
+   "creado": "2026-04-04",
+   "compatible": [
+    "Cloudstream",
+    "Kototoro",
+    "AnymeX",
+    "Zangetsu",
+    "Sozo"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/cakestwix"
+  },
+  {
+   "nombre": "Comet | ElfHosted",
+   "slug": "comet-elfhosted",
+   "categoria": null,
+   "plataformas": [
+    "Android",
+    "iOS",
+    "Windows",
+    "macOS",
+    "Linux",
+    "Web"
+   ],
+   "tipos": [
+    "Anime",
+    "Movies",
+    "Tv Shows "
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": null,
+   "descargas": 0,
+   "me_gusta": 2,
+   "actualizado": "2026-10-04",
+   "creado": "2026-06-01",
+   "compatible": [
+    "DodoStream",
+    "NuvioMobile",
+    "harbor",
+    "Nuvio App"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/comet-elfhosted"
+  },
+  {
+   "nombre": "Dantotsu Novel Extensions",
+   "slug": "dantotsu-novel-extensions",
+   "categoria": "Novel",
+   "plataformas": [
+    "Android"
+   ],
+   "tipos": [
+    "Novel"
+   ],
+   "idioma": "all",
+   "region": "ALL",
+   "estado": "approved",
+   "repo": "dannovels/novel-extensions",
+   "descargas": 0,
+   "me_gusta": 15,
+   "actualizado": "2025-07-22",
+   "creado": "2026-02-10",
+   "compatible": [],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/dantotsu-novel-extensions"
+  },
+  {
+   "nombre": "Extensões FelipeGFA",
+   "slug": "extenses-felipegfa",
+   "categoria": null,
+   "plataformas": [
+    "Android"
+   ],
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "pt-br",
+   "region": null,
+   "estado": "approved",
+   "repo": "FelipeGFA/extensoes",
+   "descargas": 0,
+   "me_gusta": 75,
+   "actualizado": "2026-10-12",
+   "creado": "2026-02-22",
+   "compatible": [],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/extenses-felipegfa"
+  },
+  {
+   "nombre": "Gekkoushi",
+   "slug": "gekkoushi",
+   "categoria": null,
+   "plataformas": null,
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": "Gekkoushi/plugin",
+   "descargas": 0,
+   "me_gusta": 20,
+   "actualizado": "2026-10-10",
+   "creado": "2026-06-17",
+   "compatible": [
+    "Usagi",
+    "MIYO"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/gekkoushi"
+  },
+  {
+   "nombre": "Hayase Extensions",
+   "slug": "hayase-extensions",
+   "categoria": null,
+   "plataformas": [
+    "Android",
+    "iOS",
+    "Windows",
+    "macOS",
+    "Linux"
+   ],
+   "tipos": [
+    "Anime"
+   ],
+   "idioma": "All",
+   "region": null,
+   "estado": "approved",
+   "repo": null,
+   "descargas": 0,
+   "me_gusta": 21,
+   "actualizado": "2026-10-04",
+   "creado": "2026-03-30",
+   "compatible": [
+    "Hayase"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/hayase-extensions"
+  },
+  {
+   "nombre": "Hollow",
+   "slug": "hollow",
+   "categoria": "Anime",
+   "plataformas": [
+    "Android"
+   ],
+   "tipos": [
+    "Anime"
+   ],
+   "idioma": "fr",
+   "region": "FR",
+   "estado": "approved",
+   "repo": null,
+   "descargas": 0,
+   "me_gusta": 36,
+   "actualizado": "2025-11-15",
+   "creado": "2026-02-10",
+   "compatible": [
+    "Aniyomi",
+    "Anikku",
+    "Animetail",
+    "Animiru",
+    "Tadami",
+    "Kototoro",
+    "AnymeX",
+    "Zangetsu",
+    "Kitsu-X",
+    "bchan",
+    "OtakuWorld",
+    "Nekoyomi",
+    "chimahon",
+    "NyanTV",
+    "Sozo",
+    "AniZen",
+    "Foxlations",
+    "Moku",
+    "Kiroku"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/hollow"
+  },
+  {
+   "nombre": "IReader-extensions",
+   "slug": "ireader-extensions",
+   "categoria": null,
+   "plataformas": [
+    "Android"
+   ],
+   "tipos": [
+    "Light Novel"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": "IReaderorg/IReader-extensions",
+   "descargas": 0,
+   "me_gusta": 13,
+   "actualizado": "2026-10-13",
+   "creado": "2026-04-11",
+   "compatible": [
+    "IReader"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/ireader-extensions"
+  },
+  {
+   "nombre": "Inkdex Extensions",
+   "slug": "inkdex-extensions",
+   "categoria": "Manga",
+   "plataformas": [
+    "iOS"
+   ],
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "all",
+   "region": "ALL",
+   "estado": "approved",
+   "repo": "inkdex/extensions",
+   "descargas": 0,
+   "me_gusta": 12,
+   "actualizado": "2025-10-15",
+   "creado": "2026-02-10",
+   "compatible": [
+    "paperback"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/inkdex-extensions"
+  },
+  {
+   "nombre": "Kavita",
+   "slug": "kavita",
+   "categoria": "Kavita",
+   "plataformas": [
+    "Android",
+    "iOS",
+    "Windows"
+   ],
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": "Kareadita/Kavita",
+   "descargas": 0,
+   "me_gusta": 147,
+   "actualizado": "2025-07-30",
+   "creado": "2026-02-10",
+   "compatible": [
+    "mihon",
+    "paperback",
+    "panels",
+    "Aniyomi",
+    "Komikku",
+    "Mihon",
+    "Tachiyomi AT",
+    "Tachiyomi AZ",
+    "Tachiyomi J2K",
+    "Tachiyomi SY",
+    "Tadami",
+    "Taison",
+    "Yokai",
+    "Reikai",
+    "Kototoro",
+    "chimahon",
+    "AnymeX",
+    "DropSauce",
+    "Kitsu-X",
+    "rokku",
+    "bchan",
+    "taihon",
+    "OtakuWorld",
+    "Rokku",
+    "Futon",
+    "ShinKu",
+    "Atahon",
+    "houri",
+    "Foxlations",
+    "Moku",
+    "DeepSync",
+    "Suwayomi-Tsumiru",
+    "Kiroku"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/kavita"
+  },
+  {
+   "nombre": "Kegareta Sauces",
+   "slug": "kegareta-sauces",
+   "categoria": "Manga",
+   "plataformas": null,
+   "tipos": [
+    "Manga",
+    "Anime"
+   ],
+   "idioma": "all",
+   "region": "ALL",
+   "estado": "approved",
+   "repo": "gato404/kegareta-sauces",
+   "descargas": 0,
+   "me_gusta": 25,
+   "actualizado": "2025-08-30",
+   "creado": "2026-02-10",
+   "compatible": [
+    "mangayomi",
+    "AnymeX",
+    "Dartotsu"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/kegareta-sauces"
+  },
+  {
+   "nombre": "Keiyoushi",
+   "slug": "keiyoushi",
+   "categoria": "Manga",
+   "plataformas": [
+    "Android"
+   ],
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "all",
+   "region": "ALL",
+   "estado": "approved",
+   "repo": "keiyoushi/extensions",
+   "descargas": 0,
+   "me_gusta": 485,
+   "actualizado": "2026-10-08",
+   "creado": "2026-02-10",
+   "compatible": [
+    "Tachiyomi AT",
+    "Tachiyomi AZ",
+    "Tachiyomi J2K",
+    "Tachiyomi SY",
+    "Taison",
+    "Yomihon",
+    "Yokai",
+    "Komikku",
+    "Kumo",
+    "Aniyomi",
+    "Animetail",
+    "Mihon",
+    "tsundoku",
+    "hayai",
+    "Tadami",
+    "Manatan",
+    "DropSauce",
+    "Reikai",
+    "Kototoro",
+    "chimahon",
+    "AnymeX",
+    "Zangetsu",
+    "Kitsu-X",
+    "taihon",
+    "OtakuWorld",
+    "Nekoyomi",
+    "Futon",
+    "ShinKu",
+    "bchan",
+    "Atahon",
+    "Rokku",
+    "Moku",
+    "houri",
+    "Nyora",
+    "Tsundoku",
+    "Suwayomi",
+    "Foxlations",
+    "DeepSync",
+    "Suwayomi-Tsumiru",
+    "Kiroku"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/keiyoushi"
+  },
+  {
+   "nombre": "LNCrawlerSources",
+   "slug": "lncrawlersources",
+   "categoria": null,
+   "plataformas": null,
+   "tipos": [
+    "Light Novel"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": "bunoriapp/LNCrawlerSources",
+   "descargas": 0,
+   "me_gusta": 11,
+   "actualizado": "2026-11-07",
+   "creado": "2026-09-14",
+   "compatible": [
+    "LN"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/lncrawlersources"
+  },
+  {
+   "nombre": "LNReader Plugins",
+   "slug": "lnreader-plugins",
+   "categoria": "Novel",
+   "plataformas": null,
+   "tipos": [
+    "Light Novel"
+   ],
+   "idioma": "all",
+   "region": "ALL",
+   "estado": "approved",
+   "repo": "LNReader/lnreader-plugins",
+   "descargas": 0,
+   "me_gusta": 61,
+   "actualizado": "2025-09-28",
+   "creado": "2026-02-10",
+   "compatible": [
+    "IReader",
+    "Tadami",
+    "LN Reader",
+    "tsundoku",
+    "hayai",
+    "AnymeX",
+    "Zangetsu",
+    "Kitsu-X",
+    "OtakuWorld",
+    "Nekoyomi",
+    "LNReader",
+    "Nekori",
+    "Bunori",
+    "DeepSync"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/lnreader-plugins"
+  },
+  {
+   "nombre": "MHRepo",
+   "slug": "mhrepo",
+   "categoria": null,
+   "plataformas": [
+    "Android",
+    "Windows",
+    "iOS"
+   ],
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "all, en",
+   "region": null,
+   "estado": "approved",
+   "repo": "marbou92/MHRepo",
+   "descargas": 0,
+   "me_gusta": 30,
+   "actualizado": "2026-10-15",
+   "creado": "2026-09-22",
+   "compatible": [
+    "Mihon",
+    "Komikku",
+    "Kumo",
+    "Reikai",
+    "Tachiyomi AT",
+    "Tachiyomi AZ",
+    "Tachiyomi J2K",
+    "Tachiyomi SY",
+    "Taison",
+    "Tsundoku",
+    "Yokai",
+    "Yomihon",
+    "Nekoyomi",
+    "Kototoro",
+    "Kitsu-X",
+    "Sozo",
+    "Anikku",
+    "chimahon",
+    "OtakuWorld",
+    "AniZen",
+    "houri",
+    "Zangetsu",
+    "taihon",
+    "Animetail",
+    "Tadami",
+    "Aniyomi",
+    "Rokku",
+    "Animiru",
+    "AnymeX",
+    "Atahon",
+    "NyanTV",
+    "ShinKu",
+    "Foxlations",
+    "Moku",
+    "DeepSync",
+    "Suwayomi-Tsumiru",
+    "Kiroku"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/mhrepo"
+  },
+  {
+   "nombre": "Mally",
+   "slug": "mally",
+   "categoria": null,
+   "plataformas": [
+    "Android",
+    "iOS",
+    "Windows",
+    "macOS",
+    "Linux"
+   ],
+   "tipos": [
+    "Anime",
+    "Manga",
+    "Light Novel"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": "Mallyd11/mangayomi-anime-extensions",
+   "descargas": 0,
+   "me_gusta": 8,
+   "actualizado": "2026-07-30",
+   "creado": "2026-07-30",
+   "compatible": [
+    "AnymeX",
+    "Mangayomi",
+    "Zenbu",
+    "Foxlations"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/mally"
+  },
+  {
+   "nombre": "Mangayomi ApkBridge",
+   "slug": "mangayomi-apkbridge",
+   "categoria": "Mangayomi",
+   "plataformas": null,
+   "tipos": [
+    "Mangayomi"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": "Schnitzel5/ApkBridge",
+   "descargas": 0,
+   "me_gusta": 127,
+   "actualizado": "2026-10-08",
+   "creado": "2026-02-10",
+   "compatible": [
+    "mangayomi"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/mangayomi-apkbridge"
+  },
+  {
+   "nombre": "Manyayomi Custom Buttons",
+   "slug": "mangayomi-custom",
+   "categoria": "Mangayomi",
+   "plataformas": null,
+   "tipos": [
+    "Mangayomi"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": "Schnitzel5/mangayomi-custom-buttons",
+   "descargas": 0,
+   "me_gusta": 28,
+   "actualizado": "2026-11-07",
+   "creado": "2026-02-10",
+   "compatible": [
+    "mangayomi"
+   ],
+   "nota_moderador": true,
+   "url": "https://miyomi.app/mangayomi-custom"
+  },
+  {
+   "nombre": "Mochi Plugins",
+   "slug": "mochi-plugins",
+   "categoria": null,
+   "plataformas": [
+    "Android"
+   ],
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": "mochi-plugins/repository",
+   "descargas": 0,
+   "me_gusta": 67,
+   "actualizado": "2026-10-15",
+   "creado": "2026-03-31",
+   "compatible": [
+    "Usagi",
+    "MIYO"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/mochi-plugins"
+  },
+  {
+   "nombre": "Moomooo95",
+   "slug": "moomooo95",
+   "categoria": "Manga",
+   "plataformas": [
+    "iOS"
+   ],
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "fr",
+   "region": "FR",
+   "estado": "approved",
+   "repo": "Moomooo95/moomooo95-extensions",
+   "descargas": 0,
+   "me_gusta": 7,
+   "actualizado": "2025-11-15",
+   "creado": "2026-02-10",
+   "compatible": [
+    "Paperback"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/moomooo95"
+  },
+  {
+   "nombre": "Netsky's Repo",
+   "slug": "netskys-repo",
+   "categoria": "Manga",
+   "plataformas": [
+    "iOS"
+   ],
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "all",
+   "region": "ALL",
+   "estado": "approved",
+   "repo": "TheNetsky/netskys-extensions",
+   "descargas": 0,
+   "me_gusta": 15,
+   "actualizado": "2025-09-10",
+   "creado": "2026-02-10",
+   "compatible": [
+    "paperback"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/netskys-repo"
+  },
+  {
+   "nombre": "Nuvio Plugins",
+   "slug": "nuvio-plugins",
+   "categoria": null,
+   "plataformas": [
+    "Android"
+   ],
+   "tipos": [
+    "Anime"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": null,
+   "descargas": 0,
+   "me_gusta": 12,
+   "actualizado": "2026-10-11",
+   "creado": "2026-05-28",
+   "compatible": [
+    "NuvioMobile",
+    "PlayTorrio",
+    "Stremio",
+    "harbor",
+    "Nuvio App"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/nuvio-plugins"
+  },
+  {
+   "nombre": "Nyora Mihon Extension Store",
+   "slug": "nyora-mihon-extension-store",
+   "categoria": null,
+   "plataformas": null,
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": "Nyora-Manga/nyora-mihon",
+   "descargas": 0,
+   "me_gusta": 36,
+   "actualizado": "2026-10-15",
+   "creado": "2026-08-06",
+   "compatible": [
+    "Kototoro",
+    "Tadami",
+    "DropSauce",
+    "Tachiyomi SY",
+    "Tachiyomi AZ",
+    "Mihon",
+    "chimahon",
+    "Komikku",
+    "Taison",
+    "Tachiyomi J2K",
+    "AnymeX",
+    "Reikai",
+    "Yokai",
+    "Tachiyomi AT",
+    "Aniyomi",
+    "Animetail",
+    "Nekoyomi",
+    "Kitsu-X",
+    "rokku",
+    "bchan",
+    "taihon",
+    "OtakuWorld",
+    "Rokku",
+    "Futon",
+    "ShinKu",
+    "Atahon",
+    "houri",
+    "Foxlations",
+    "Moku",
+    "DeepSync",
+    "Suwayomi-Tsumiru",
+    "Kiroku"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/nyora-mihon-extension-store"
+  },
+  {
+   "nombre": "Project Nox",
+   "slug": "project-nox",
+   "categoria": null,
+   "plataformas": [
+    "Android"
+   ],
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "pt-BR",
+   "region": null,
+   "estado": "approved",
+   "repo": "Awerkori/fonte-extensoes",
+   "descargas": 0,
+   "me_gusta": 30,
+   "actualizado": "2026-10-15",
+   "creado": "2026-08-27",
+   "compatible": [
+    "Tachiyomi AZ",
+    "bchan",
+    "Aniyomi",
+    "OtakuWorld",
+    "Kototoro",
+    "Komikku",
+    "Tachiyomi SY",
+    "Animetail",
+    "Tadami",
+    "Mihon",
+    "Taison",
+    "taihon",
+    "Tachiyomi J2K",
+    "chimahon",
+    "AnymeX",
+    "Reikai",
+    "Atahon",
+    "ShinKu",
+    "Yokai",
+    "Tachiyomi AT",
+    "Kitsu-X",
+    "Rokku",
+    "houri",
+    "Foxlations",
+    "Moku",
+    "DeepSync",
+    "Suwayomi-Tsumiru",
+    "Kiroku"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/project-nox"
+  },
+  {
+   "nombre": "SalmanBappi's Aniyomi Repo",
+   "slug": "salmanbappis-aniyomi-repo",
+   "categoria": null,
+   "plataformas": [
+    "Android"
+   ],
+   "tipos": [
+    "Anime"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": "salmanbappi/extensions-repo",
+   "descargas": 0,
+   "me_gusta": 51,
+   "actualizado": "2026-10-15",
+   "creado": "2026-05-22",
+   "compatible": [
+    "Aniyomi",
+    "Anikku",
+    "Animetail",
+    "Animiru",
+    "Tadami",
+    "Kototoro",
+    "AnymeX",
+    "Zangetsu",
+    "Kitsu-X",
+    "bchan",
+    "OtakuWorld",
+    "Nekoyomi",
+    "chimahon",
+    "NyanTV",
+    "Sozo",
+    "AniZen",
+    "Foxlations",
+    "Moku",
+    "Kiroku"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/salmanbappis-aniyomi-repo"
+  },
+  {
+   "nombre": "Seanime Marketplace",
+   "slug": "seanime-marketplace",
+   "categoria": null,
+   "plataformas": null,
+   "tipos": [
+    "Manga",
+    "Anime"
+   ],
+   "idioma": null,
+   "region": null,
+   "estado": "approved",
+   "repo": "Bas1874/Seanime-Marketplace",
+   "descargas": 0,
+   "me_gusta": 2,
+   "actualizado": "2026-10-07",
+   "creado": "2026-10-02",
+   "compatible": [
+    "Seanime"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/seanime-marketplace"
+  },
+  {
+   "nombre": "Secozzi's Aniyomi Extension Repo",
+   "slug": "secozzi",
+   "categoria": "Anime",
+   "plataformas": null,
+   "tipos": [
+    "Anime"
+   ],
+   "idioma": "all",
+   "region": "ALL",
+   "estado": "approved",
+   "repo": "Secozzi/aniyomi-extensions",
+   "descargas": 0,
+   "me_gusta": 49,
+   "actualizado": "2025-11-15",
+   "creado": "2026-02-10",
+   "compatible": [
+    "Aniyomi",
+    "Anikku",
+    "Animetail",
+    "Animiru",
+    "Tadami",
+    "AniZen",
+    "Kototoro",
+    "AnymeX",
+    "Zangetsu",
+    "Kitsu-X",
+    "bchan",
+    "OtakuWorld",
+    "Nekoyomi",
+    "chimahon",
+    "NyanTV",
+    "Sozo",
+    "Foxlations",
+    "Moku",
+    "Kiroku"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/secozzi"
+  },
+  {
+   "nombre": "Spithskia's Shiru Extensions",
+   "slug": "spithskia-shiru-ext",
+   "categoria": null,
+   "plataformas": null,
+   "tipos": [
+    "Anime"
+   ],
+   "idioma": "All",
+   "region": null,
+   "estado": "approved",
+   "repo": "Spithskia/Shiru-Extensions",
+   "descargas": 0,
+   "me_gusta": 13,
+   "actualizado": "2026-10-03",
+   "creado": "2026-03-30",
+   "compatible": [
+    "Shiru"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/spithskia-shiru-ext"
+  },
+  {
+   "nombre": "Stremio Addons",
+   "slug": "stremio-addons",
+   "categoria": "Anime",
+   "plataformas": null,
+   "tipos": null,
+   "idioma": null,
+   "region": "ALL",
+   "estado": "approved",
+   "repo": null,
+   "descargas": 0,
+   "me_gusta": 30,
+   "actualizado": "2026-10-13",
+   "creado": "2026-02-10",
+   "compatible": [
+    "stremio",
+    "NuvioMobile",
+    "DodoStream",
+    "PlayTorrio",
+    "Stremio",
+    "harbor",
+    "Nuvio App"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/stremio-addons"
+  },
+  {
+   "nombre": "Suwatte Sources",
+   "slug": "suwatte-sources",
+   "categoria": "Manga",
+   "plataformas": [
+    "iOS"
+   ],
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "all",
+   "region": "GB",
+   "estado": "approved",
+   "repo": null,
+   "descargas": 0,
+   "me_gusta": 9,
+   "actualizado": "2025-01-09",
+   "creado": "2026-02-10",
+   "compatible": [
+    "suwatte"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/suwatte-sources"
+  },
+  {
+   "nombre": "Suwayomi Extension",
+   "slug": "suwayomi-extension",
+   "categoria": "Suwayomi",
+   "plataformas": [
+    "Android",
+    "Windows"
+   ],
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": "Suwayomi/tachiyomi-extension",
+   "descargas": 0,
+   "me_gusta": 62,
+   "actualizado": "2025-08-15",
+   "creado": "2026-02-10",
+   "compatible": [
+    "Mihon",
+    "Komikku",
+    "Kumo",
+    "Tachiyomi AT",
+    "Tachiyomi AZ",
+    "Tachiyomi SY",
+    "Taison",
+    "Tsundoku",
+    "Yokai",
+    "Aniyomi",
+    "Tachiyomi J2K",
+    "Tadami",
+    "Reikai",
+    "Kototoro",
+    "chimahon",
+    "AnymeX",
+    "DropSauce",
+    "Kitsu-X",
+    "rokku",
+    "bchan",
+    "taihon",
+    "OtakuWorld",
+    "Rokku",
+    "Futon",
+    "ShinKu",
+    "Atahon",
+    "Animetail",
+    "houri",
+    "Foxlations",
+    "Moku",
+    "DeepSync",
+    "Suwayomi-Tsumiru",
+    "Kiroku"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/suwayomi-extension"
+  },
+  {
+   "nombre": "Swakshan",
+   "slug": "swakshans-repo",
+   "categoria": "Anime",
+   "plataformas": null,
+   "tipos": [
+    "Anime",
+    "Manga",
+    "Light Novel"
+   ],
+   "idioma": "all",
+   "region": "ALL",
+   "estado": "approved",
+   "repo": "Swakshan/mangayomi-swak-extensions",
+   "descargas": 0,
+   "me_gusta": 20,
+   "actualizado": "2026-07-30",
+   "creado": "2026-02-10",
+   "compatible": [
+    "mangayomi",
+    "AnymeX",
+    "Dartotsu",
+    "Mangayomi",
+    "Zenbu",
+    "Foxlations"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/swakshans-repo"
+  },
+  {
+   "nombre": "TheNano",
+   "slug": "thenano",
+   "categoria": null,
+   "plataformas": null,
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "zh",
+   "region": null,
+   "estado": "approved",
+   "repo": "LittleSurvival/copymanga-copy20",
+   "descargas": 0,
+   "me_gusta": 14,
+   "actualizado": "2026-10-15",
+   "creado": "2026-08-18",
+   "compatible": [
+    "Mihon",
+    "Aniyomi",
+    "chimahon",
+    "Komikku",
+    "Kumo",
+    "Reikai",
+    "Tachiyomi AT",
+    "Tachiyomi AZ",
+    "Tachiyomi J2K",
+    "Tachiyomi SY",
+    "Taison",
+    "Tsundoku",
+    "Yokai",
+    "Yomihon",
+    "Kototoro",
+    "DropSauce",
+    "Kitsu-X",
+    "rokku",
+    "bchan",
+    "Tadami",
+    "taihon",
+    "OtakuWorld",
+    "AnymeX",
+    "Rokku",
+    "Futon",
+    "ShinKu",
+    "Animetail",
+    "Atahon",
+    "houri",
+    "Foxlations",
+    "Moku",
+    "DeepSync",
+    "Suwayomi-Tsumiru",
+    "Kiroku"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/thenano"
+  },
+  {
+   "nombre": "UMA Plugin",
+   "slug": "uma-plugin",
+   "categoria": null,
+   "plataformas": null,
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": "InvalidDavid/UMA",
+   "descargas": 0,
+   "me_gusta": 35,
+   "actualizado": "2026-10-11",
+   "creado": "2026-06-17",
+   "compatible": [
+    "Usagi",
+    "MIYO"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/uma-plugin"
+  },
+  {
+   "nombre": "Yuzono Anime",
+   "slug": "yuzono-anime",
+   "categoria": "Anime",
+   "plataformas": [
+    "Android"
+   ],
+   "tipos": [
+    "Anime"
+   ],
+   "idioma": "all",
+   "region": "ALL",
+   "estado": "approved",
+   "repo": "yuzono/anime-extensions",
+   "descargas": 0,
+   "me_gusta": 283,
+   "actualizado": "2025-11-15",
+   "creado": "2026-02-10",
+   "compatible": [
+    "anikku",
+    "aniyomi",
+    "animiru",
+    "Animetail",
+    "Komikku",
+    "Anikku",
+    "Animiru",
+    "AniZen",
+    "Aniyomi",
+    "Tadami",
+    "Kototoro",
+    "Nekoyomi",
+    "AnymeX",
+    "Kitsu-X",
+    "Zangetsu",
+    "bchan",
+    "OtakuWorld",
+    "chimahon",
+    "NyanTV",
+    "Sozo",
+    "Moku",
+    "Sozo TV",
+    "Foxlations",
+    "Kiroku"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/yuzono-anime"
+  },
+  {
+   "nombre": "Yuzono Cursed",
+   "slug": "yuzono-cursed",
+   "categoria": null,
+   "plataformas": [
+    "Android"
+   ],
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": "yuzono/cursed-manga-extensions",
+   "descargas": 0,
+   "me_gusta": 132,
+   "actualizado": "2026-10-15",
+   "creado": "2026-08-18",
+   "compatible": [
+    "Kitsu-X",
+    "DropSauce",
+    "rokku",
+    "Tachiyomi AZ",
+    "bchan",
+    "Mihon",
+    "Aniyomi",
+    "Tadami",
+    "Kototoro",
+    "Tachiyomi SY",
+    "Taison",
+    "Komikku",
+    "OtakuWorld",
+    "Tachiyomi J2K",
+    "taihon",
+    "chimahon",
+    "AnymeX",
+    "Reikai",
+    "Yokai",
+    "Tachiyomi AT",
+    "Rokku",
+    "Futon",
+    "Yomihon",
+    "ShinKu",
+    "Atahon",
+    "Animetail",
+    "Moku",
+    "houri",
+    "Foxlations",
+    "DeepSync",
+    "Suwayomi-Tsumiru",
+    "Kiroku"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/yuzono-cursed"
+  },
+  {
+   "nombre": "Zangetsu Extension",
+   "slug": "zangetsu-extension",
+   "categoria": null,
+   "plataformas": null,
+   "tipos": [
+    "Anime"
+   ],
+   "idioma": null,
+   "region": null,
+   "estado": "approved",
+   "repo": "Spyou/zangetsu-providers",
+   "descargas": 0,
+   "me_gusta": 13,
+   "actualizado": "2026-10-13",
+   "creado": "2026-08-09",
+   "compatible": [
+    "Zangetsu"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/zangetsu-extension"
+  },
+  {
+   "nombre": "kotatsu multi parsers",
+   "slug": "kotatsu-multi-parsers",
+   "categoria": null,
+   "plataformas": null,
+   "tipos": [
+    "Manga"
+   ],
+   "idioma": "all",
+   "region": null,
+   "estado": "approved",
+   "repo": "Shebyyy/kotatsu-multi-parsers",
+   "descargas": 0,
+   "me_gusta": 25,
+   "actualizado": "2026-10-18",
+   "creado": "2026-08-16",
+   "compatible": [
+    "Kotatsu Redo",
+    "Usagi",
+    "DropSauce",
+    "Yomira"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/kotatsu-multi-parsers"
+  },
+  {
+   "nombre": "m2k3a",
+   "slug": "m2k3a",
+   "categoria": "Manga",
+   "plataformas": null,
+   "tipos": [
+    "Manga",
+    "Anime",
+    "Light Novel"
+   ],
+   "idioma": "all",
+   "region": "ALL",
+   "estado": "approved",
+   "repo": "m2k3a/mangayomi-extensions",
+   "descargas": 0,
+   "me_gusta": 26,
+   "actualizado": "2026-07-30",
+   "creado": "2026-02-10",
+   "compatible": [
+    "mangayomi",
+    "AnymeX",
+    "Dartotsu",
+    "Mangayomi",
+    "Zenbu",
+    "Foxlations"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/m2k3a"
+  },
+  {
+   "nombre": "rurin1x's Shiru Extension",
+   "slug": "rurin1xs-shiru-ext",
+   "categoria": null,
+   "plataformas": null,
+   "tipos": [
+    "Anime"
+   ],
+   "idioma": null,
+   "region": null,
+   "estado": "approved",
+   "repo": "rurin1x/animetosho-shiru-extension",
+   "descargas": 0,
+   "me_gusta": 1,
+   "actualizado": "2026-08-21",
+   "creado": "2026-06-08",
+   "compatible": [
+    "Shiru"
+   ],
+   "nota_moderador": false,
+   "url": "https://miyomi.app/rurin1xs-shiru-ext"
+  }
+ ]
+}

@@ -5,30 +5,30 @@
   {
    "id": "P01",
    "descripcion": "leer fmhy.net y anotar su estructura real: qué páginas hay, cómo se navega, si tiene API o índice.",
-   "hecho": false,
-   "evidencia": null,
-   "cerrado_en": null
+   "hecho": true,
+   "evidencia": "fmhy.net leído: 2.073 enlaces externos en /mobile (752 a GitHub, 1.321 a otros sitios), 74 secciones (Android APKs, FOSS APKs, App Patchers…), sin API (/api/search → 404), sitemap.xml → 200",
+   "cerrado_en": "2026-11-09T12:52:54Z"
   },
   {
    "id": "P02",
    "descripcion": "leer fmhy.net/other/ y las páginas de índices: qué catálogos de índices lista y cuáles son medibles.",
-   "hecho": false,
-   "evidencia": null,
-   "cerrado_en": null
+   "hecho": true,
+   "evidencia": "docs/CENSO-FMHY-2026-11-09.json · 16 páginas de fmhy.net leídas · 3.284 repositorios GitHub distintos enlazados · 3.125 nuevos para la casa · 159 ya en registry/",
+   "cerrado_en": "2026-11-09T12:53:20Z"
   },
   {
    "id": "P03",
    "descripcion": "medir miyomi.app: qué ofrece, si su API sirve, qué repositorios de extensiones/publicaciones acepta.",
-   "hecho": false,
-   "evidencia": null,
-   "cerrado_en": null
+   "hecho": true,
+   "evidencia": "docs/CENSO-MIYOMI-2026-11-09.json · /api/extensions devuelve 47 índices (39 con repo GitHub, 42 repos citados) · 8 ya en registry, 2 en el censo fmhy · downloadCount casi todo 0 y language/region inconsistentes, como ya avisó la nota de la casa · /api/stats: 728.769 visitantes/mes",
+   "cerrado_en": "2026-11-09T12:53:38Z"
   },
   {
    "id": "P04",
    "descripcion": "buscar y anotar índices de extensiones y catálogos adicionales (mihon, keiyoushi, aniyomi, cloudstream, novelas).",
-   "hecho": false,
-   "evidencia": null,
-   "cerrado_en": null
+   "hecho": true,
+   "evidencia": "docs/INDICES-2026-11-09.md · 6 índices medidos: keiyoushi 1.554 ext con signingKey, mangayomi 363 en 9 idiomas, tachiyomi 4, aniyomi 3, e inkdex y aidoku devuelven 404",
+   "cerrado_en": "2026-11-09T12:54:16Z"
   },
   {
    "id": "P05",
