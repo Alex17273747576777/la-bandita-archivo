@@ -103,6 +103,30 @@ def _es_acta_o_historico(ruta: Path) -> bool:
     return "docs" in partes
 
 
+def _mudanzas_del_arbol() -> dict[str, str]:
+    """Las mudanzas del árbol que se está auditando, no las de la máquina de quien corre.
+
+    ANTES: `MUDANZAS` era una tabla fija en el código, copiada a todas partes. En la
+    autoprueba, el árbol falso se audita con las mudanzas de la casa: busca rutas
+    viejas que ese árbol nunca tuvo, no encuentra ninguna y declara «G17 en verde».
+    La compuerta probaba el código equivocado y se aprobaba a sí misma.
+
+    AHORA: se leen de `mapa-de-mudanzas.json` en la raíz del árbol auditado. La casa
+    tiene el suyo; el árbol falso de la autoprueba, el suyo, con una mudanza
+    sintética que SÍ existe. Si el archivo no está, se cae a la tabla del código,
+    para no romper una corrida suelta.
+    """
+    archivo = RAIZ / "mapa-de-mudanzas.json"
+    if archivo.exists():
+        try:
+            d = json.loads(archivo.read_text(encoding="utf-8"))
+            if isinstance(d, dict) and d:
+                return {str(k): str(v) for k, v in d.items()}
+        except (json.JSONDecodeError, OSError):
+            pass
+    return MUDANZAS
+
+
 def _buscar_citas(contenido: str) -> list[str]:
     """Busca menciones a rutas viejas, entendiendo «ruta» como ruta.
 
@@ -121,7 +145,7 @@ def _buscar_citas(contenido: str) -> list[str]:
        Citar el nombre viejo para decir que cambió es justo lo que se pide.
     """
     encontradas: list[str] = []
-    for ruta_vieja in MUDANZAS:
+    for ruta_vieja in _mudanzas_del_arbol():
         raiz = re.escape(ruta_vieja.rstrip("/"))
         # Borde de ruta por delante: no puede venir pegado a una letra o un dígito.
         patron = r"(?<![\w./-])" + raiz + r"/"

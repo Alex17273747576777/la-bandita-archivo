@@ -48,6 +48,29 @@ def _crear_arbol_falso(tmp: Path) -> None:
         encoding="utf-8",
     )
 
+    # Mapa de mudanzas SINTÉTICO del árbol falso.
+    #
+    # Sin esto, la compuerta de rutas se probaba con las mudanzas de la casa: buscaba
+    # rutas que este árbol nunca tuvo, no encontraba ninguna y se declaraba en verde.
+    # Un árbol de prueba tiene que traer sus propias reglas, o la prueba no prueba.
+    (tmp / "mapa-de-mudanzas.json").write_text(
+        json.dumps({"carpeta-vieja/": "carpeta-nueva/"}, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+    # Documento vivo que cita la ruta vieja: esto SÍ es un fallo, y la compuerta tiene
+    # que verlo. (En el árbol real esto pasó con README.md y MANIFIESTO-ARQUITECTURA.md.)
+    (tmp / "README.md").write_text(
+        "El contenido está en `carpeta-vieja/` tal como llegó.\n",
+        encoding="utf-8",
+    )
+    # Y un acta que la cita a propósito: esa NO es un fallo, es historia.
+    (tmp / "docs").mkdir(parents=True, exist_ok=True)
+    (tmp / "docs" / "ACTA.md").write_text(
+        "Se mudó `carpeta-vieja/` a `carpeta-nueva/`.\n",
+        encoding="utf-8",
+    )
+
     # Ficha válida
     (tmp / "registry" / "ficha-bueno.json").write_text(
         json.dumps({

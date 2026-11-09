@@ -262,7 +262,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`atestar.py`](../tools/atestar.py) | ATESTACIÓN · sella el registro con SHA-256 y encadena el lote anterior. | 162 |
 | [`auditar_issues.py`](../tools/auditar_issues.py) | AUDITORÍA DE ISSUES · escanea los issues y comentarios propios antes de tocar nada. | 121 |
 | [`auditar_tienda.py`](../tools/auditar_tienda.py) | auditar_tienda.py · clonar una tienda de extensiones y leerla como la lee la app. | 450 |
-| [`autoprueba.py`](../tools/autoprueba.py) | AUTOPRUEBA DE LA VARA · una compuerta que no falla ante un fallo sintético no es una compuerta. | 113 |
+| [`autoprueba.py`](../tools/autoprueba.py) | AUTOPRUEBA DE LA VARA · una compuerta que no falla ante un fallo sintético no es una compuerta. | 136 |
 | [`bandas.py`](../tools/bandas.py) | Cuadra docs/bandas.json contra los archivos que existen de verdad. | 124 |
 | [`catalogo_ficha.py`](../tools/catalogo_ficha.py) | catalogo_ficha.py · escribe o actualiza la ficha de cada recurso medido. | 244 |
 | [`catalogo_lint.py`](../tools/catalogo_lint.py) | catalogo_lint.py · revisa las fichas del catálogo y dice cuáles se sostienen. | 171 |
@@ -303,7 +303,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`leeme_carpeta.py`](../tools/leeme_carpeta.py) | LEEME DE LA CARPETA · cuadra lo que el LEEME dice con lo que hay en el disco. | 173 |
 | [`licencias_resolver.py`](../tools/licencias_resolver.py) | RESUELVE LAS LICENCIAS QUE NO CONCLUYEN · cierra la deuda de las fichas NOASSERTION. | 222 |
 | [`lint_teclado.py`](../tools/lint_teclado.py) | lint_teclado.py · comprueba la biblioteca de instrucciones y la exporta. | 203 |
-| [`manual_gate.py`](../tools/manual_gate.py) | Compuerta del MANUAL DE ESTILO Y OPERACIONES V3.0 (1-nov-2026). | 318 |
+| [`manual_gate.py`](../tools/manual_gate.py) | Compuerta del MANUAL DE ESTILO Y OPERACIONES V3.0 (1-nov-2026). | 441 |
 | [`mcp_conectar.py`](../tools/mcp_conectar.py) | CONEXIÓN REAL A SERVIDORES MCP · handshake, listado de herramientas y llamada de prueba. | 195 |
 | [`medir_censo.py`](../tools/medir_censo.py) | MEDIR EL CENSO · la API REST cobra una petición por repositorio; GraphQL cobra por nodos. | 244 |
 | [`medir_guia.py`](../tools/medir_guia.py) | MEDIR LA GUÍA MAESTRA · la pieza 05 no se escribe a mano, se mide. | 190 |
@@ -318,7 +318,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`pulso.py`](../tools/pulso.py) | PULSO · mide repositorios en fuente primaria y escribe fichas con evidencia cruda. | 553 |
 | [`redacta.py`](../tools/redacta.py) | REDACTOR · arma una pieza de Facebook con los números puestos por código. | 324 |
 | [`reescribir_issues.py`](../tools/reescribir_issues.py) | REESCRIBIR ISSUES · aplica un plan de reescritura sobre issues propios. | 118 |
-| [`referencias.py`](../tools/referencias.py) | REFERENCIAS · comprueba que ninguna carpeta movida siga citada por su ruta vieja. | 190 |
+| [`referencias.py`](../tools/referencias.py) | REFERENCIAS · comprueba que ninguna carpeta movida siga citada por su ruta vieja. | 214 |
 | [`registro_construir.py`](../tools/registro_construir.py) | REGISTRO · construye las fichas JSON del activo vendible desde el censo medido. | 133 |
 | [`registro_sqlite.py`](../tools/registro_sqlite.py) | REGISTRO SQLITE · motor de registro basado en SQLite con exportación a JSON. | 317 |
 | [`remedir.py`](../tools/remedir.py) | REMEDIR · la habilidad que nace del error E01–E05 (docs/ERRORES.md). | 282 |

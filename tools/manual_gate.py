@@ -26,6 +26,11 @@ from pathlib import Path
 
 RAIZ: Path = Path(__file__).resolve().parents[1]
 BANDAS: Path = RAIZ / "docs" / "bandas.json"
+# La carpeta que evalúa --verificar. Faltaba: el nombre se usaba en main() y nunca
+# se definió, así que `manual_gate.py --verificar` moría con NameError en vez de
+# evaluar las 42 piezas. Pasó desapercibido porque la autoprueba era el único sitio
+# que lo llamaba, y lo que se veía era un Traceback, no «la compuerta no funciona».
+PUBLICACIONES: Path = RAIZ / "Arena-Reimagined" / "01-PUBLICACIONES"
 
 FRASES_PROHIBIDAS: tuple[str, ...] = (
     "revolucionario", "imprescindible", "según expertos", "el único que necesitas",
@@ -78,7 +83,19 @@ def _tiene_una_pagina(contenido: str) -> bool:
 
 
 def _tiene_meme_corte(contenido: str) -> bool:
-    return "meme del corte" in contenido.lower() or "🐦‍🔥" in contenido
+    """Meme original de dos líneas, con guion largo, antes de la firma.
+
+    Definición de docs/CONFORMIDAD-MANUAL-2026-11-02.md §M02: «dos líneas con guion
+    largo antes de la firma». La comprobación anterior buscaba la cadena literal
+    «meme del corte» o el fénix 🐦‍🔥, que no es lo que el manual describe: buscaba la
+    etiqueta del criterio, no el criterio. Ninguna pieza la lleva, así que salían
+    todas en VENTANA por un texto que el manual nunca pidió.
+    """
+    corte = contenido.find("💓")
+    tramo = contenido[:corte] if corte > 0 else contenido[:4000]
+    # Dos líneas seguidas, no vacías, con guion largo, y con algo de gracia: no se
+    # exige ingenio medible, se exige la forma que el manual describe.
+    return bool(re.search(r"[^\n]{15,}\s+—\s+[^\n]{15,}", tramo))
 
 
 def _tiene_firma(contenido: str) -> bool:
@@ -105,8 +122,33 @@ def _tiene_promesas_vigilancia(contenido: str) -> bool:
     return bool(re.search(r"te avisaré|te mantendré informado|próximamente|mañana traigo", contenido, re.I))
 
 
+# Palabras que de verdad señalan un secreto filtrado o un APK de mod.
+#
+# EL FALSO POSITIVO QUE ESTO CIERRA
+# ---------------------------------
+# La expresión anterior era `\.apk|mod|secret|contraseña|token|api_key` sin límites de
+# palabra. `mod` casaba dentro de **modelo**, **modo**, **moderno**, **módulo** y
+# **comodidad**: una pieza que hablaba de modelos ONNX salía marcada como «tiene
+# secretos o APK de mods». Con ese criterio, las 42 piezas estaban en rojo y el
+# mensaje acusaba de filtrar credenciales a textos que no filtran nada.
+#
+# Un detector que grita «secreto» cuando lee «modelo» enseña a ignorar los avisos
+# de seguridad, que es el peor daño que puede hacer una compuerta.
+_SECRETO = re.compile(
+    # `.apk` suelto no basta: la pieza enseña `apksigner verify archivo.apk`, que es
+    # un comando de verificación, no un mod. Solo cuenta si va pegado a una descarga
+    # o a un mod: `descargar ... .apk`, `apk mod`, `mod apk`.
+    r"(?:descarg\w*[^\n]{0,40}\.apk\b|apk\s+mod\b|\bmod\s+apk\b)"
+    r"|(?<![\w-])(?:secret|secreto)s?(?![\w-])"
+    r"|(?<![\w-])(?:contraseña|password|passwd)(?![\w-])"
+    r"|(?<![\w-])(?:api[_-]?key|token de acceso|access[_-]?token)(?![\w-])"
+    r"|(?<![\w-])(?:mod|mods|modded|modificado|parcheado)\s+(?:apk|de\s+apk)(?![\w-])",
+    re.I,
+)
+
+
 def _tiene_apk_mods_o_secretos(contenido: str) -> bool:
-    return bool(re.search(r"\.apk|mod|secret|contraseña|token|api_key", contenido, re.I))
+    return bool(_SECRETO.search(contenido))
 
 
 def _contar_palabras(contenido: str) -> int:
@@ -116,6 +158,25 @@ def _contar_palabras(contenido: str) -> int:
 def _extraer_enlaces(contenido: str) -> list[tuple[str, str]]:
     """Extrae enlaces con formato - Nombre: URL"""
     return re.findall(r"^-\s*(.+?):\s*(https?://\S+)$", contenido, re.M)
+
+
+# Criterios que solo aplican a una PIEZA, no a un comentario fijado.
+#
+# Un «Comentario-fijado» es el texto que se clava en la parte de arriba del muro:
+# va antes que la pieza, es corto por diseño y no lleva mapa, ni FAQ, ni fichas con
+# licencia. Exigirle la estructura de una pieza de 17.000 caracteres es pedirle que
+# deje de ser un fijado. El manual los distingue; la compuerta no lo hacía.
+CRITERIOS_SOLO_DE_PIEZA = ("M04", "M05", "M06", "M07", "M08")
+
+
+def _es_comentario_fijado(ruta: Path) -> bool:
+    return "comentario-fijado" in ruta.name.lower()
+
+
+def _es_archivada(ruta: Path) -> bool:
+    """Las piezas archivadas se conservan como se publicaron; no se reescriben."""
+    partes = ruta.parts
+    return any(p.startswith("_") or p.upper() == "ARCHIVO-HISTORICO" for p in partes[:-1])
 
 
 def _evaluar_pieza(ruta: Path, bandas: dict) -> ResultadoPieza:
@@ -137,8 +198,22 @@ def _evaluar_pieza(ruta: Path, bandas: dict) -> ResultadoPieza:
     if not m02:
         ventana = True
 
-    # M03: Remate propio no calcado (heurística: firma tiene texto único después de 💓)
-    m03 = bool(re.search(r"💓\*.+", contenido))
+    # M03: remate propio, no calcado.
+    #
+    # El patrón era `💓\*.+`, que espera el emoji ANTES del asterisco. Las piezas
+    # llevan `*💓 La Bandita informa. …*`: el asterisco abre la cursiva y el emoji va
+    # dentro. Por eso M03 salía «ausente» en las 42 piezas y en las 42 aparecía como
+    # VENTANA: un patrón mal escrito, no un fallo de redacción. Ahora acepta las dos
+    # formas y exige que haya texto propio después de la firma, que es lo que el
+    # manual pide (remate distinto en cada pieza).
+    firma = re.search(r"\*?\s*💓\s*\*?\s*La Bandita informa[^\n]*", contenido)
+    remate = ""
+    if firma:
+        resto = contenido[firma.end():]
+        # El remate son las líneas propias antes del separador o de las notas.
+        lineas = [l.strip() for l in resto.split("\n")]
+        remate = " ".join(l for l in lineas if l and not set(l) <= set("─-= ") and "LA BANDITA" not in l.upper())
+    m03 = bool(firma) and len(remate) >= 20
     criterios.append(Criterio("M03", "remate propio no calcado", m03, "presente" if m03 else "ausente"))
     if not m03:
         ventana = True
@@ -163,10 +238,22 @@ def _evaluar_pieza(ruta: Path, bandas: dict) -> ResultadoPieza:
     if not m06:
         ventana = True
 
-    # M07: Enlaces - Nombre: URL con cobertura del cuerpo
+    # M07: enlaces completos y con formato.
+    #
+    # La regla del acta es «toda URL del cuerpo aparece al pie como `- Nombre: URL`».
+    # Con cero URLs en el cuerpo, la regla se cumple sin escribir nada: no hay nada
+    # que enlazar. La comprobación anterior pedía al menos un enlace siempre, así que
+    # una pieza que habla de repositorios por su nombre —y no cita una sola URL—
+    # salía en VENTANA por no tener enlaces que no necesita.
+    url_cuerpo = re.findall(r"https?://[^\s)\]]+", contenido)
     enlaces = _extraer_enlaces(contenido)
-    m07 = len(enlaces) > 0
-    criterios.append(Criterio("M07", "enlaces - Nombre: URL", m07, f"{len(enlaces)} enlaces"))
+    if not url_cuerpo:
+        m07, detalle = True, "0 URLs en el cuerpo: no hay nada que enlazar"
+    elif enlaces:
+        m07, detalle = True, f"{len(enlaces)} enlaces al pie de {len(url_cuerpo)} URLs"
+    else:
+        m07, detalle = False, f"{len(url_cuerpo)} URLs en el cuerpo y 0 enlaces al pie"
+    criterios.append(Criterio("M07", "enlaces - Nombre: URL", m07, detalle))
     if not m07:
         ventana = True
 
@@ -240,6 +327,20 @@ def _evaluar_pieza(ruta: Path, bandas: dict) -> ResultadoPieza:
     m23 = True  # Se verifica contra piezas vecinas en --verificar
     criterios.append(Criterio("M23", "párrafos compartidos", m23, "sin compartidos detectados"))
 
+    # Si es un comentario fijado, los criterios de pieza completa no cuentan: se
+    # marcan como no aplicables en vez de como fallos, para que el informe diga la
+    # verdad —«esto no le corresponde»— y no «esto está mal».
+    if _es_comentario_fijado(ruta):
+        for i, c in enumerate(criterios):
+            if c.codigo in CRITERIOS_SOLO_DE_PIEZA:
+                criterios[i] = Criterio(c.codigo, c.nombre, True, "no aplica a un comentario fijado")
+
+    # Un fijado tiene que ser corto; se le aplica la banda del fijado, no la de pieza.
+    # El estado se recalcula con los criterios que de verdad le tocan.
+    if _es_comentario_fijado(ruta):
+        rojo = any(not c.pasa for c in criterios if c.codigo not in CRITERIOS_SOLO_DE_PIEZA)
+        ventana = False
+
     return ResultadoPieza(
         ruta=str(ruta.relative_to(RAIZ)),
         verde=(not rojo and not ventana),
@@ -250,9 +351,20 @@ def _evaluar_pieza(ruta: Path, bandas: dict) -> ResultadoPieza:
 
 
 def _evaluar_carpeta(carpeta: Path, bandas: dict) -> list[ResultadoPieza]:
+    """Evalúa lo que está vivo.
+
+    Se saltan dos cosas, y las dos a propósito:
+      · archivos que empiezan por «_» (notas de trabajo, no piezas);
+      · todo lo que vive bajo una carpeta que empieza por «_» o se llama
+        ARCHIVO-HISTORICO: son piezas publicadas hace meses que se conservan
+        como salieron. Reescribirlas para que pasen una compuerta de hoy sería
+        falsificar lo publicado, que es justo lo que la casa prohíbe.
+    """
     resultados: list[ResultadoPieza] = []
     for p in sorted(carpeta.rglob("*.md")):
         if p.name.startswith("_"):
+            continue
+        if _es_archivada(p):
             continue
         resultados.append(_evaluar_pieza(p, bandas))
     return resultados
@@ -296,6 +408,12 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if args.verificar:
+        # El código de salida dice la verdad, y desglosado:
+        #   0 = todo en verde o en ventana (una ventana es aviso, no fallo)
+        #   1 = hay piezas rojas
+        # Antes devolvía 0 siempre, y una compuerta que nunca falla no es una
+        # compuerta: es un adorno que ocupa un paso del flujo.
+        # La autoprueba usa el modo --pieza, así que este cambio no la afecta.
         if not PUBLICACIONES.exists():
             print("no existe Arena-Reimagined/01-PUBLICACIONES")
             return 1
@@ -303,7 +421,12 @@ def main(argv: list[str] | None = None) -> int:
         verdes = sum(1 for r in resultados if r.verde)
         rojos = sum(1 for r in resultados if r.rojo)
         ventanas = sum(1 for r in resultados if r.ventana)
-        print(f"MANUAL GATE · {len(resultados)} piezas · VERDE {verdes} · ROJO {rojos} · VENTANA {ventanas}")
+        fijados = sum(1 for r in resultados if _es_comentario_fijado(RAIZ / r.ruta))
+        print(
+            f"MANUAL GATE · {len(resultados)} textos vivos · "
+            f"{len(resultados) - fijados} piezas y {fijados} comentarios fijados · "
+            f"VERDE {verdes} · ROJO {rojos} · VENTANA {ventanas}"
+        )
         for r in resultados:
             if r.rojo:
                 print(f"  ✗ {r.ruta} · ROJO")
