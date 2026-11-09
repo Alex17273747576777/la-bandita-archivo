@@ -576,7 +576,10 @@ def g17_rutas_vivas(informe: InformeVara) -> None:
     fallos: list[str] = []
     citadas = 0
     prefijos = ("Arena-Reimagined/", "registry/", "docs/", "tools/", "guia-maestra/")
+    # Una pieza que narra una corrección tiene que poder citar el archivo que faltaba:
+    # esa cita es la prueba de la corrección, no una ruta rota. Se marca con ‹› y se acepta.
     for nombre, texto in candidatos:
+        texto = re.sub(r"‹([^›]+)›", "", texto)
         for m in re.finditer(r"`([A-Za-z0-9_./-]{6,120})`", texto):
             ruta = m.group(1)
             if not ruta.startswith(prefijos):

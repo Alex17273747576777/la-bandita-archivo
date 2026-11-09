@@ -31,9 +31,9 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 | 04 | La lista del permiso | 13.405 | 3.275 | Medida · 26 repos, 6 con huella |
 | 05 | La guía maestra | 46.761 | 3.331 | Medida · 70 fichas, 22 con huella |
 | 06 | El taller de los parches | 12.170 | 2.181 | Medida · 17 repos, 5 con huella (55 de 190 archivos) |
-| 07 | La pantalla grande | 45.765 | 2.259 | Medida · 17 repos, 4 con huella · gigantes re-verificados el 8-nov |
-| 08 | La red: seis caminos | 42.773 | 2.278 | Medida · 20 repos, 5 con huella |
-| 09 | Archivos, copias y nubes | 42.854 | 2.234 | Medida · 17 repos, 4 con huella |
+| 07 | La pantalla grande | 11.140 | 2.259 | Medida · 17 repos, 4 con huella · gigantes re-verificados el 8-nov |
+| 08 | La red: seis caminos | 13.583 | 2.278 | Medida · 20 repos, 5 con huella |
+| 09 | Archivos, copias y nubes | 13.726 | 2.234 | Medida · 17 repos, 4 con huella |
 | 10 | Las tiendas | 45.901 | 2.126 | Medida · 56 repos, 1 firma |
 | 11 | Las aplicaciones que leen | 43.151 | 2.097 | Medida · 51 apps, 116 archivos firmados |
 | 12 | El kit de reemplazo | 42.438 | 2.255 | Medida · 59 recursos, 501 de 3.022 |
