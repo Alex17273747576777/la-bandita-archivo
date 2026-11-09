@@ -254,6 +254,14 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Calcula el estado de frescura de cada ficha del registro.")
     parser.add_argument("--aplicar", action="store_true", help="recalcula y escribe el estado de frescura de todas las fichas")
     parser.add_argument("--lista", metavar="ESTADO", help="lista los ids de fichas en un estado dado")
+    parser.add_argument(
+        "--peor",
+        action="store_true",
+        help=("modo compuerta: sale con código 1 si hay alguna ficha vencida o sin respaldo. "
+              "Es el que usa .github/workflows/vara.yml, que lo llamaba desde antes de que el "
+              "argumento existiera: el paso fallaba con «unrecognized arguments» y el flujo se "
+              "ponía rojo sin decir nada del registro."),
+    )
     args = parser.parse_args(argv)
 
     if args.lista:
@@ -263,6 +271,20 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     resumen = aplicar(escribir=args.aplicar)
+
+    if args.peor:
+        # Peor caso, no media: una sola ficha vencida o sin respaldo detiene la línea.
+        graves = resumen.get("vencida", 0) + resumen.get("sin_respaldo", 0)
+        if graves:
+            print(
+                f"::error::peor caso: {resumen.get('vencida', 0)} vencidas y "
+                f"{resumen.get('sin_respaldo', 0)} sin respaldo — hay que remedir antes de publicar",
+            )
+            return 1
+        print(
+            f"peor caso: 0 vencidas · 0 sin respaldo · {resumen.get('por_vencer', 0)} por vencer "
+            f"(aviso, no fallo)",
+        )
     return 0
 
 
