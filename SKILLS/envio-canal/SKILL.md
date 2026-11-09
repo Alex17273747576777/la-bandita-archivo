@@ -1,38 +1,43 @@
 ---
 name: envio-canal
-version: 1.0.1
+version: 1.2.0
 dominio: publicación
-cuando: al cerrar un lote, antes de sellar
-entradas: [piezas publicadas, medición guardada, canal]
-salidas: [envíos por canal en docs/envios/, verificación sin fallos]
-herramientas: [tools/envio.py, docs/envios/_medicion-*.json]
-verificacion: [envios revisados N · fallos: 0 en ambos canales]
+nivel: medidor
+cuando: cuando hay piezas verdes y hay que dejarlas listas para su canal
+entradas: [piezas verdes, canal (facebook | whatsapp)]
+salidas: [cuerpo + comentario fijado por pieza, numerados y con nombre de la casa]
+herramientas: [tools/fijados.py, tools/leeme_carpeta.py, tools/bandas.py]
+verificacion: [40 de 40 con cuerpo y fijado, longitudes dentro de banda, LEEME al día]
+depende_de: [compuerta-manual]
 ---
 
-# Skill · generar los envíos del canal
+# Habilidad · envío al canal
 
 ## Propósito
-Convertir cada pieza en los mensajes que se publican (WhatsApp partido en trozos, Facebook con su
-texto), siempre desde la pieza: **el envío es salida, nunca fuente**.
+Dejar cada pieza en su forma de publicación: **un cuerpo y un comentario fijado**, con el mismo
+número que el cuerpo, y el registro (bandas y LEEME) cuadrando con el disco.
 
-## Uso
-```bash
-LBT="$PAT_FINO" python3 tools/envio.py --medir              # mide repos y enlaces (una vez por lote)
-python3 tools/envio.py --generar --canal ambos              # regenera todos los envíos
-python3 tools/envio.py --verificar                          # comprueba que el archivo = lo generado
-```
+## Cuándo se usa
+- Al cerrar un tramo de piezas.
+- Cuando se añaden piezas nuevas a la carpeta.
 
 ## Pasos
-1. Medir con la llave en el entorno (`LBT`), nunca escrita en un archivo.
-2. Generar ambos canales.
-3. Verificar: si alguien editó un envío a mano, aquí canta.
-4. Comprobar que **no hay envíos huérfanos**: cada `.md`/`.json` de `docs/envios/*/` debe tener su
-   pieza y cada pieza su envío.
+1. `python3 tools/fijados.py NN` — el fijado se genera **desde la medición**, no se escribe aparte.
+2. `python3 tools/bandas.py --cuadrar` — el registro se rehace leyendo los archivos, no al revés.
+   Añade las piezas nuevas que aún no tienen entrada.
+3. `python3 tools/leeme_carpeta.py --arreglar` — recuenta las columnas y añade filas que falten.
+4. `python3 tools/leeme_carpeta.py` — comprobar: 0 fallos.
 
 ## Reglas duras
-- **Nunca editar un envío a mano.** Se corrige la pieza y se regenera.
-- Al borrar o renombrar una pieza, **borrar su envío en el mismo commit** (G9).
-- Un envío no puede llevar datos que la pieza no tenga: si el envío dice una cifra, la pieza la dice.
+- **El fijado y el cuerpo no pueden decir cosas distintas**: los dos salen del mismo JSON.
+- **El registro no es una lista cerrada.** Si hay 41 piezas, el LEEME dice 41.
+- **Una pieza vieja no se borra**: se mueve a `_reemplazadas-<fecha>/`.
+- **El ciclo cerrado no se reescribe.** Las piezas nuevas entran numeradas aparte (segunda vuelta).
 
 ## Verificación
-`envíos revisados: N · fallos: 0` en los dos canales y `vara.py` G9 en verde.
+- `piezas comprobadas: N · fallos: 0`.
+- Cada fijado entre 900 y 4.000 caracteres; cada cuerpo dentro de la banda de su canal.
+
+## Errores conocidos
+- Reescribir `bandas.json` a mano: nadie lo cuadraba y 18 piezas quedaron fuera de banda sin que se
+  supiera por qué. Ahora es herramienta.

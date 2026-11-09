@@ -657,6 +657,123 @@ def verificar_flujo(
 # ═════════════════════════════════════════════════════════════════════════════════
 
 
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# SKILLS DEL DISCO · el catálogo no se clava en el código
+# ═══════════════════════════════════════════════════════════════════════════════
+
+def _frontmatter(texto: str) -> dict[str, Any]:
+    """Lee el bloque --- ... --- de un SKILL.md sin dependencias externas."""
+    if not texto.startswith("---"):
+        return {}
+    fin = texto.find("\n---", 3)
+    if fin < 0:
+        return {}
+    datos: dict[str, Any] = {}
+    for linea in texto[3:fin].splitlines():
+        if ":" not in linea:
+            continue
+        k, v = linea.split(":", 1)
+        datos[k.strip()] = v.strip().strip("[]")
+    return datos
+
+
+def _leer_skill_de_disco(carpeta: Path) -> dict[str, Any]:
+    md = carpeta / "SKILL.md"
+    if not md.exists():
+        return {}
+    fm = _frontmatter(md.read_text(encoding="utf-8"))
+    return {
+        "slug": carpeta.name,
+        "name": fm.get("name", carpeta.name),
+        "version": fm.get("version", "0.0.0"),
+        "dominio": fm.get("dominio", "general"),
+        "nivel": fm.get("nivel", "medidor"),
+        "cuando": fm.get("cuando", ""),
+        "entradas": fm.get("entradas", ""),
+        "salidas": fm.get("salidas", ""),
+        "herramientas": fm.get("herramientas", ""),
+        "verificacion": fm.get("verificacion", ""),
+        "depende_de": [d.strip() for d in fm.get("depende_de", "").split(",") if d.strip()],
+        "ruta": str(md),
+    }
+
+
+def catalogo_de_disco(raiz: Path | None = None) -> list[dict[str, Any]]:
+    """Todas las habilidades que existen como carpeta con SKILL.md, leídas del disco."""
+    base = (raiz or RAIZ) / "SKILLS"
+    if not base.exists():
+        return []
+    return [s for s in (_leer_skill_de_disco(d) for d in sorted(base.iterdir()) if d.is_dir()) if s]
+
+
+class SkillDeDisco:
+    """Ejecuta una habilidad documentada, llamando a la herramienta que ella declara.
+
+    No reimplementa la lógica: la habilidad dice en su frontmatter qué herramienta la ejecuta
+    y este objeto la llama. Si la habilidad no declara herramienta ejecutable, se ejecuta como
+    **procedimiento**: devuelve sus pasos y sus reglas, que es lo que se puede automatizar de un
+    documento sin inventarse un comportamiento que nadie escribió.
+    """
+
+    def __init__(self, ficha: dict[str, Any], contexto: "ContextoLote | None" = None):
+        self.ficha = ficha
+        self.nombre = ficha["name"]
+        self.version = ficha["version"]
+        self.dominio = ficha["dominio"]
+        self.dependencias = ficha.get("depende_de") or []
+        self.contexto = contexto or ContextoLote()
+
+    def herramienta(self) -> Path | None:
+        for trozo in str(self.ficha.get("herramientas", "")).split(","):
+            ruta = trozo.strip()
+            if ruta.startswith("tools/") and ruta.endswith(".py"):
+                p = RAIZ / ruta
+                if p.exists():
+                    return p
+        return None
+
+    def ejecutar(self, **kwargs) -> "ResultadoSkill":
+        import subprocess
+
+        inicio = time.time()
+        h = self.herramienta()
+        if h is None:
+            cuerpo = Path(self.ficha["ruta"]).read_text(encoding="utf-8")
+            pasos = [l for l in cuerpo.splitlines() if l[:2] in ("1.", "2.", "3.", "4.", "5.")]
+            return ResultadoSkill(
+                skill=self.nombre, exitoso=True,
+                datos={"modo": "procedimiento", "pasos": pasos[:10]},
+                errores=[], metrica={"duracion_s": round(time.time() - inicio, 3)},
+                hash_resultado=self._hash(pasos),
+            )
+        cmd = [sys.executable, str(h)]
+        if kwargs.get("piezas"):
+            cmd += [str(p) for p in kwargs["piezas"]]
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=kwargs.get("timeout", 900))
+        return ResultadoSkill(
+            skill=self.nombre, exitoso=r.returncode == 0,
+            datos={"modo": "herramienta", "herramienta": str(h.relative_to(RAIZ)),
+                   "salida": (r.stdout or "")[-4000:]},
+            errores=[] if r.returncode == 0 else [(r.stderr or "")[-1000:]],
+            metrica={"duracion_s": round(time.time() - inicio, 3)},
+            hash_resultado=self._hash([r.stdout or ""]),
+        )
+
+    @staticmethod
+    def _hash(partes: list[str]) -> str:
+        return hashlib.sha256("\n".join(partes).encode("utf-8")).hexdigest()[:16]
+
+    def verificar(self) -> list[str]:
+        fallos = []
+        if not Path(self.ficha["ruta"]).exists():
+            fallos.append("el SKILL.md no existe")
+        if not self.ficha.get("cuando"):
+            fallos.append("no declara cuándo se usa")
+        if not self.ficha.get("verificacion"):
+            fallos.append("no declara verificación")
+        return fallos
+
 @registrar_skill
 class SkillMedirRecurso(Skill):
     """Mide un recurso del catálogo y guarda su evidencia."""
@@ -896,8 +1013,13 @@ def flujo_por_defecto() -> list[type[Skill]]:
 
 def _cmd_listar() -> int:
     skills = listar_skills()
-    if not skills:
-        print("No hay skills registradas.")
+    disco = {s["name"]: s for s in catalogo_de_disco()}
+    pedidas = [n for n in skills if n in _registro_de_skills or n in disco]
+    desconocidas = [n for n in skills if n not in _registro_de_skills and n not in disco]
+    if desconocidas:
+        print(f"  ignoradas (no existen): {', '.join(desconocidas)}")
+    if not pedidas:
+        print("No hay skills que ejecutar.")
         return 0
     print("SKILLS REGISTRADAS (hiper habilidad v2.0.0)")
     print("=" * 60)
@@ -910,13 +1032,36 @@ def _cmd_listar() -> int:
             primera_linea = doc.strip().split("\n")[0] if doc else ""
             if primera_linea:
                 print(f"      {primera_linea}")
-    print(f"\nTotal: {len(skills)} skills registradas.")
+    print(f"\nTotal en código: {len(skills)} skills registradas.")
+    disco = catalogo_de_disco()
+    if disco:
+        print("\nSKILLS DEL DISCO (fuente de verdad: SKILLS/<slug>/SKILL.md)")
+        print("=" * 60)
+        for s in disco:
+            deps = f" (deps: {', '.join(s['depende_de'])})" if s.get("depende_de") else ""
+            tiene_h = any(x.strip().startswith("tools/")
+                          for x in str(s.get("herramientas", "")).split(","))
+            print(f"  • {s['name']} v{s['version']} [{s['dominio']}/{s['nivel']}]{deps}"
+                  f"{' · herramienta' if tiene_h else ' · procedimiento'}")
+            if s.get("cuando"):
+                print(f"      {s['cuando'][:98]}")
+        print(f"\nTotal en disco: {len(disco)}")
     return 0
 
 
 def _cmd_documentar(nombre: str) -> int:
     cls = obtener_skill(nombre)
     if not cls:
+        del_disco = {s["name"]: s for s in catalogo_de_disco()}
+        if nombre in del_disco:
+            s = del_disco[nombre]
+            cuerpo = Path(s["ruta"]).read_text(encoding="utf-8")
+            print(f"📘 {s['name']} v{s['version']} · {s['dominio']} · nivel {s['nivel']}")
+            print(f"   cuándo: {s['cuando']}")
+            print(f"   archivo: {s['ruta']}")
+            print("-" * 60)
+            print(cuerpo[cuerpo.find("---", 3) + 4:].strip())
+            return 0
         print(f"Skill '{nombre}' no encontrada.")
         print(f"Skills disponibles: {', '.join(listar_skills())}")
         return 1
@@ -933,12 +1078,38 @@ def _cmd_ejecutar(
 ) -> int:
     ctx = ContextoLote()
     kwargs_extra = kwargs_extra or {}
-    skills_a_ejecutar: list[type[Skill]] = []
+    skills_a_ejecutar: list[Any] = []
+    del_disco = {s["name"]: s for s in catalogo_de_disco()}
     for nombre in nombres:
         cls = obtener_skill(nombre)
+        if cls is None and nombre in del_disco:
+            # No está en el código pero sí en el disco: se ejecuta llamando a la herramienta
+            # que ella misma declara, o se devuelve como procedimiento. Una sola fuente de verdad.
+            sd = SkillDeDisco(del_disco[nombre], ctx)
+            r = sd.ejecutar(**kwargs_extra)
+            print(f"▶ {sd.nombre} v{sd.version} · modo {r.datos.get('modo')}")
+            if r.datos.get("herramienta"):
+                print(f"   herramienta: {r.datos['herramienta']}")
+                print((r.datos.get("salida") or "").strip()[:1200])
+            elif r.datos.get("pasos"):
+                for paso in r.datos["pasos"]:
+                    print("   " + paso[:110])
+            dur = (r.metrica or {}).get("duracion_s", 0)
+            print(f"   {'✓' if r.exitoso else '✗'} en {dur:.2f}s · hash {r.hash_resultado}")
+            continue
         if cls is None:
             print(f"Skill '{nombre}' no encontrada.")
-            print(f"Disponibles: {', '.join(listar_skills())}")
+            del_disco = {s["name"]: s for s in catalogo_de_disco()}
+            if nombre in del_disco:
+                s = del_disco[nombre]
+                cuerpo = Path(s["ruta"]).read_text(encoding="utf-8")
+                print(f"📘 {s['name']} v{s['version']} · {s['dominio']} · nivel {s['nivel']}")
+                print(f"   cuándo: {s['cuando']}")
+                print(f"   archivo: {s['ruta']}")
+                print("-" * 60)
+                print(cuerpo[cuerpo.find("\n---", 3) + 4:].strip())
+                return 0
+            print(f"Disponibles: {', '.join(sorted(set(listar_skills()) | set(del_disco)))}")
             return 1
         skills_a_ejecutar.append(cls)
 
