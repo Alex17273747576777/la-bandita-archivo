@@ -21,7 +21,7 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 
 ## El ciclo vivo, pieza por pieza
 
-**Las cuarenta piezas están medidas o declaradas.** Las 01 a 22 y la 31 se midieron contra la API pública de GitHub, cada una con su hora y su corte. Las **24 a 29, 32, 33, 34 y 40** se reescribieron enteras el 8 de noviembre con medición propia nueva —cada una tiene su `docs/MEDICION-NN-2026-11-08.json`, y su comentario fijado se genera desde ese JSON—. Las **35, 37, 38 y 39** son textos personales (la Ballenita, la carta a la manada, Kung Fu Panda, Canserbero): no son piezas de medición y el LEEME no les exige lo que no son. La 36 sigue corta y **sin medición propia**: su tema es el cierre de un sitio, no un ecosistema de repositorios, y no hay API que medir.
+**Las cuarenta piezas están medidas o declaradas.** Las 01 a 22 y la 31 se midieron contra la API pública de GitHub, cada una con su hora y su corte. Las **24 a 29, 32, 33, 34 y 40** se reescribieron enteras el 8 de noviembre con medición propia nueva —cada una tiene su `docs/MEDICION-NN-2026-11-08.json`, y su comentario fijado se genera desde ese JSON—. Las **35, 37, 38 y 39** son textos personales (la Ballenita, la carta a la manada, Kung Fu Panda, Canserbero): no son piezas de medición y el LEEME no les exige lo que no son. La **36** también se midió el 8 de noviembre: el cierre de un sitio no se mide con la API de GitHub, pero sí con el registro del dominio (RDAP), el DNS y una cabecera HTTPS — y eso es lo que hace, ocho dominios sondeados.
 
 | # | Pieza | Cuerpo | Fijado | Estado |
 |---|---|---|---|---|
@@ -60,7 +60,7 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 | 33 | Apoyo a desarrolladores | 11.244 | 2.042 | **Medida el 8-nov** · 9 proyectos, 977 archivos, 0 huellas, uno de 0 estrellas |
 | 34 | Biblioteca de Kototoro y v2.4 | 12.781 | 2.026 | **Medida el 8-nov** · 4 repos, 1.385 archivos, **102 sumas**: récord del día |
 | 35 | La Ballenita vuelve al mar | 6.206 | 1.337 | Corta · personal |
-| 36 | TMO: cierre y análisis | 11.115 | 1.294 | Corta · **sin medición propia**: el cierre de un sitio no se mide con una API |
+| 36 | Tu Manga Online, medido | 12.936 | 2.572 | **Medida el 8-nov** · 8 dominios sondeados: 3 registrados, 0 resolviendo |
 | 37 | Carta a la manada azul | 10.254 | 1.503 | Corta · personal |
 | 38 | Kung Fu Panda | 6.231 | 1.249 | Corta · personal |
 | 39 | Canserbero | 22.155 | 1.512 | Corta · personal |

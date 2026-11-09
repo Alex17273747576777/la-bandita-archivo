@@ -1,0 +1,114 @@
+{
+ "medido_en": "2026-11-09",
+ "medido_a_las": "08:52",
+ "medido_utc": "2026-11-09T12:51:14Z",
+ "pieza": "36",
+ "tema": "Registro y resolución de los dominios del caso Tu Manga Online, y lectores medidos",
+ "fuente": "RDAP de Verisign para .com (registro) + resolución DNS + cabecera HTTPS, y la API pública de GitHub para los lectores (docs/MEDICION-32-2026-11-08.json)",
+ "dominios": {
+  "zonatmo.com": {
+   "dominio": "zonatmo.com",
+   "dns": null,
+   "dns_error": "gaierror",
+   "http_head": "000 0"
+  },
+  "tumangaonline.com": {
+   "dominio": "tumangaonline.com",
+   "dns": null,
+   "dns_error": "gaierror",
+   "http_head": "000 0"
+  },
+  "lectormanga.com": {
+   "dominio": "lectormanga.com",
+   "dns": null,
+   "dns_error": "gaierror",
+   "http_head": "000 0"
+  },
+  "inmanga.com": {
+   "dominio": "inmanga.com",
+   "dns": [
+    "104.21.26.51",
+    "172.67.135.102",
+    "2606:4700:3032::6815:1a33"
+   ],
+   "http_head": "200 0"
+  },
+  "mangadex.org": {
+   "dominio": "mangadex.org",
+   "dns": [
+    "45.129.229.1",
+    "45.129.229.2"
+   ],
+   "http_head": "405 0"
+  },
+  "mangaplus.shueisha.co.jp": {
+   "dominio": "mangaplus.shueisha.co.jp",
+   "dns": [
+    "202.229.192.3"
+   ],
+   "http_head": "200 0"
+  },
+  "tmo.tumangaonline.com": {
+   "dominio": "tmo.tumangaonline.com",
+   "dns": null,
+   "dns_error": "gaierror",
+   "http_head": "000 0"
+  },
+  "visormanga.com": {
+   "dominio": "visormanga.com",
+   "dns": [
+    "104.21.3.175",
+    "172.67.130.252",
+    "2606:4700:3031::6815:3af"
+   ],
+   "http_head": "200 0"
+  }
+ },
+ "rdap": {
+  "zonatmo.com": {
+   "status": [
+    "client transfer prohibited"
+   ],
+   "eventos": {
+    "registration": "2024-09-13",
+    "expiration": "2027-09-13",
+    "last changed": "2026-08-17",
+    "last update of RDAP database": "2026-11-09"
+   },
+   "nameservers": [
+    "ARA.NS.CLOUDFLARE.COM",
+    "CLAY.NS.CLOUDFLARE.COM"
+   ]
+  },
+  "tumangaonline.com": {
+   "status": [
+    "client transfer prohibited"
+   ],
+   "eventos": {
+    "registration": "2014-05-29",
+    "expiration": "2027-05-29",
+    "last changed": "2026-05-12",
+    "last update of RDAP database": "2026-11-09"
+   },
+   "nameservers": [
+    "ARA.NS.CLOUDFLARE.COM",
+    "CLAY.NS.CLOUDFLARE.COM"
+   ]
+  },
+  "lectormanga.com": {
+   "status": [
+    "client transfer prohibited"
+   ],
+   "eventos": {
+    "registration": "2017-11-22",
+    "expiration": "2027-11-22",
+    "last changed": "2026-10-27",
+    "last update of RDAP database": "2026-11-09"
+   },
+   "nameservers": [
+    "GREG.NS.CLOUDFLARE.COM",
+    "MARY.NS.CLOUDFLARE.COM"
+   ]
+  }
+ }
+}
