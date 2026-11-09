@@ -1,0 +1,48 @@
+name: servir-la-pagina
+
+# Sirve web/ como página pública en https://alex17273747576777.github.io/la-bandita-archivo/
+#
+# Por qué existe: el despliegue clásico de Pages se quedó encallado en «building» durante más de
+# media hora sin producir un solo byte. Este flujo hace lo mismo en 20 segundos y deja registro.
+#
+# Dispara solo cuando cambia web/ o este archivo: no se gasta un minuto de Actions en cada commit
+# de contenido. También se puede lanzar a mano desde la pestaña Actions.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "web/**"
+      - ".github/workflows/pagina.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pagina
+  cancel-in-progress: false
+
+jobs:
+  desplegar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - name: Traer el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Pages
+        uses: actions/configure-pages@v5
+
+      - name: Empaquetar web/
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+      - name: Desplegar
+        id: despliegue
+        uses: actions/deploy-pages@v4
