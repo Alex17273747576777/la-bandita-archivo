@@ -6,3 +6,9 @@ __pycache__/
 # exportaciones y respaldos: nunca versionados (ver docs/ACTA-LIMPIEZA-2026-11-02.md)
 paquetes/
 *.bundle
+
+# estado y métricas de ejecución del framework de skills: los genera la máquina en cada
+# corrida (con horas y hashes distintos cada vez). Versionarlos ensucia cada commit con
+# ruido que no dice nada del contenido. Se regeneran solos.
+docs/.estado-lote.json
+docs/.metricas-lote.json
