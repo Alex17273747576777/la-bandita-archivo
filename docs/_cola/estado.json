@@ -54,9 +54,9 @@
   {
    "id": "P08",
    "descripcion": "abrir issue en el repositorio de fmhy proponiendo los índices buenos que no estén ya listados.",
-   "hecho": false,
-   "evidencia": null,
-   "cerrado_en": null
+   "hecho": true,
+   "evidencia": "https://github.com/fmhy/edit/issues/7162 (HTTP 201) · texto guardado en docs/ISSUE-FMHY-7162.md · 28 índices propuestos con ★, último push y licencia medidos el 8-9-nov",
+   "cerrado_en": "2026-11-09T13:01:51Z"
   },
   {
    "id": "P09",
