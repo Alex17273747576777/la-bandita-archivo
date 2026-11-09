@@ -28,9 +28,9 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 | 01 | La huella o el silencio | 15.229 | 2.943 | Medida · 12 programas, 6 con huella |
 | 02 | La música que no se cae | 18.114 | 2.853 | Medida · 21 repos, 6 con huella |
 | 03 | La caja fuerte del bolsillo | 11.411 | 2.408 | Medida · 16 repos, 1 con huella |
-| 04 | La lista del permiso | 49.207 | 3.275 | Medida · 26 repos, 6 con huella |
+| 04 | La lista del permiso | 13.405 | 3.275 | Medida · 26 repos, 6 con huella |
 | 05 | La guía maestra | 46.761 | 3.331 | Medida · 70 fichas, 22 con huella |
-| 06 | El taller de los parches | 45.292 | 2.181 | Medida · 17 repos, 5 con huella (55 de 190 archivos) |
+| 06 | El taller de los parches | 12.170 | 2.181 | Medida · 17 repos, 5 con huella (55 de 190 archivos) |
 | 07 | La pantalla grande | 45.765 | 2.259 | Medida · 17 repos, 4 con huella · gigantes re-verificados el 8-nov |
 | 08 | La red: seis caminos | 42.773 | 2.278 | Medida · 20 repos, 5 con huella |
 | 09 | Archivos, copias y nubes | 42.854 | 2.234 | Medida · 17 repos, 4 con huella |
