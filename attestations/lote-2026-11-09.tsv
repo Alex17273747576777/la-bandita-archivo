@@ -92,6 +92,10 @@ Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/41-Comentario-fijado-fa
 Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/41-Los-indices-de-extensiones-1-554-extensiones-un-solo-indice-que-firma-y-una-wiki-que-no-lo-dice-Facebook-La-Bandita-2026-11-09-dominicano-ES.md	a12c36addd1154600c59edbc58a98d53306b54fb147e1c8c794fec8f76d89352
 Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/42-Comentario-fijado-facebook-La-Bandita-2026-11-09-dominicano-ES.md	060b73307bc176ed8ff276cada9cd347a064d12217c80974be2175e6c903bc17
 Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/42-Los-38-indices-de-extension-que-nadie-habia-medido-37-188-estrellas-148-adjuntos-y-ni-una-sola-suma-Facebook-La-Bandita-2026-11-09-dominicano-ES.md	2ee192ba398de918c8fdb136142191d61925bbacf17d2bb65098834195075bc6
+Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/43-Comentario-fijado-facebook-La-Bandita-2026-11-09-dominicano-ES.md	da1a29c5df9fc61e72df3666489c64b17d5fe58d4ad7ff90145c790e33bb67e3
+Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/43-El-Quijote-tiene-dos-partes-y-cinco-fechas-y-una-es-de-un-libro-que-Cervantes-no-escribio-Facebook-La-Bandita-2026-11-09-dominicano-ES.md	51dd45ee3ab560b7b9336f6eb57d73bf0c87ecc1904897435e33c6883892793c
+Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/44-Avatar-la-leyenda-de-Aang-tardo-veintiun-anos-en-volver-al-cine-y-la-pelicula-tiene-tres-fechas-distintas-Facebook-La-Bandita-2026-11-09-dominicano-ES.md	061116d6702ef5037061cabd5767aa87a4d94fa35084a45967c20dea5c8bc0fd
+Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/44-Comentario-fijado-facebook-La-Bandita-2026-11-09-dominicano-ES.md	492584c3a93267700694583312def037dfda877fa60aaab78fc4f9d843afe6e3
 Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/LEEME-de-la-carpeta.md	2970da17ff82d42564938ee0ffe6e329deb86ce28887431ba2957789609feb2e
 Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/_ARCHIVO-HISTORICO/2026-09/00-LA-LISTA-ecosistema-libre-en-16-guias-Facebook-La-Bandita-2026-09-15-dominicano-ES.md	0926bf43e36d95de98c30655b12dba12738b4c34d05eabbdfce73bd841e71350
 Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/_ARCHIVO-HISTORICO/2026-09/05-TMO-caida-clones-no-iniciar-sesion-Facebook-La-Bandita-2026-09-22-dominicano-ES.md	a2a921024642c0b10c442cf1ce71ba08b6bbe9b37d04c7b5d051a183a5f37ded
@@ -619,7 +623,7 @@ docs/FRESCO-2026-11-03-movers.json	7cb85c619a2e2562d282516a589cc5db6780dc9c493c8
 docs/FRESCO-2026-11-03-nuevos.json	81408789afb7ffcb59e696aeafe46c64ee6b80d7220860687b06df3b632fac38
 docs/HABILIDADES.md	f243c6ad3a8e19b6bde42f36434fb7c4a9a5491d7b104ef1c440cc1429eb2796
 docs/HUECOS-FMHY-2026-11-09.json	4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-docs/INDICE.md	323deabc944b370e06efbaf11a7c05d0b51e342faf23ae9e0f641581e5af45a0
+docs/INDICE.md	5b238e7761764bbcaf2209c472a8a81bb12b648d76d03e0056a08dd0714528f7
 docs/INDICES-2026-11-09.md	3b75057d318c95ddb03e8ee12a5bc2b64eb1298e55a14f2a2d967184b3eaa877
 docs/INFORME-DE-CIERRE-2026-10-31.md	8334e0fd2645d2c83313492c5b3ba721aa04784adcf881553a1f0a953de049b9
 docs/INTELIGENCIA.md	4fd6b25b1092e4dd32ffcec30c3fb7aa32189de951273ea18a66d09d1a36db19
@@ -727,6 +731,7 @@ docs/MEDICION-P39-2026-11-09.json	c9551088aace95466580621b8f0988a48219de92d40537
 docs/MEDICION-P40-2026-11-09.json	a89b2690e0bc52a3f12c2dc8fba5390405e212a4ed113dca5a46100af08e3888
 docs/MEDICION-P41-2026-11-09.json	468fb4484ff0d337d12acc8579e6b3e4223dfdd8373be55ce804c56c5198a20f
 docs/MEDICION-P42-2026-11-09.json	e636d9c8c90847c5732e83463ed7ad518d102467b6abc18e3350c979d7386a72
+docs/MEDICION-P43-44-2026-11-09.json	bae68ae0c4d1b77504d22b3d9ee3b0ddcc8a2f64f32b8bf3666894689d1c86c6
 docs/MUDANZAS-2026-11-09.json	af27c78917024a90a271161c06e364e15841787eba7432807c106c585acfd86e
 docs/NLNET-BORRADOR.md	e26b7349fd7ffb47244ea52cf96d8ff720f69043042568cff8ea1c3d6e6672fc
 docs/NLNET-REGISTRO-PROMPTS.md	d0b738669d2943532fac072d70289c8a5f899730dc6e4d65865fac57765ab30a

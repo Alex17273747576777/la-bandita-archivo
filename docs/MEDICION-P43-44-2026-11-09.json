@@ -1,0 +1,161 @@
+{
+ "medido_en": "2026-11-09",
+ "piezas": [
+  "43",
+  "44"
+ ],
+ "fuente": "Wikidata (Special:EntityData) y Wikisource (acción raw), sin caché",
+ "quijote": {
+  "Q480": {
+   "etiqueta": "Don Quijote de la Mancha",
+   "P31": "Q7725634",
+   "P577": [
+    "1605-00-00",
+    "1615-00-00"
+   ],
+   "P50": "Q5682"
+  },
+  "Q100989077": {
+   "etiqueta": "El ingenioso hidalgo don Quijote de la Mancha",
+   "P577": "1605-00-00",
+   "parte": "primera"
+  },
+  "Q100989084": {
+   "etiqueta": "Segunda parte del ingenioso caballero don Quijote de la Mancha",
+   "P577": "1615-00-00",
+   "parte": "segunda"
+  },
+  "Q5823027": {
+   "etiqueta": "Segundo tomo del ingenioso hidalgo don Quixote de La Mancha",
+   "P577": "1614-00-00",
+   "P50": "Q2738791",
+   "nota": "el Quijote de Avellaneda"
+  },
+  "Q2738791": {
+   "etiqueta": "Alonso Fernández de Avellaneda",
+   "P31": [
+    "Q127843",
+    "Q5"
+   ],
+   "nota": "P31 incluye seudónimo: la ficha se contradice a sí misma, que es lo que se sabe del personaje"
+  },
+  "Q5682": {
+   "etiqueta": "Miguel de Cervantes",
+   "P569": [
+    "1547-09-29",
+    "1547-01-01"
+   ],
+   "P570": [
+    "1616-04-22",
+    "1616-04-23",
+    "1616-01-01"
+   ],
+   "P27": "Q217196"
+  },
+  "capitulos_primera_parte": {
+   "valor": 52,
+   "metodo": "contados en el índice de la edición de 1608 en Wikisource",
+   "url": "https://es.wikisource.org/wiki/El_ingenioso_hidalgo_Don_Quijote_de_la_Mancha_(1608)",
+   "aviso": "el índice da 104 menciones porque cada capítulo aparece dos veces"
+  },
+  "segunda_parte_wikisource": {
+   "titulo": "Segunda parte del ingenioso cavallero Don Quixote de la Mancha",
+   "subpaginas_por_capitulo": 0,
+   "nota": "aquí no hay: las subpáginas por capítulo no existen con ese nombre"
+  }
+ },
+ "aang": {
+  "Q11572": {
+   "etiqueta": "Avatar: la leyenda de Aang",
+   "P31": "Q117467246",
+   "P1113": "61",
+   "P580": "2005-02-21",
+   "P582": "2008-07-19",
+   "P364": "Q1860"
+  },
+  "Q1411542": {
+   "etiqueta": "Prisioneros",
+   "P1113": "20",
+   "libro": "agua"
+  },
+  "Q3234651": {
+   "etiqueta": "El Día del Avatar",
+   "P1113": "20",
+   "libro": "tierra"
+  },
+  "Q13517027": {
+   "etiqueta": "Avatar: The Last Airbender, season 3",
+   "P1113": "21",
+   "libro": "fuego"
+  },
+  "suma_episodios": {
+   "valor": 61,
+   "comprobacion": "20+20+21 = 61 = P1113 de la serie"
+  },
+  "Q125447555": {
+   "etiqueta": "Avatar Aang: El último maestro del aire",
+   "P31": "Q202866",
+   "P577": [
+    "2026-01-30",
+    "2026-10-09",
+    "2026-07-25"
+   ],
+   "P57": "Q6500314",
+   "P364": "Q1860",
+   "nota": "tres fechas de estreno declaradas para la misma película"
+  },
+  "Q141285082": {
+   "etiqueta": "Avatar Aang: The Last Airbender",
+   "P31": "banda sonora",
+   "nota": "es el PRIMER resultado al buscar; la película es el segundo"
+  }
+ },
+ "aritmetica": {
+  "dias_emision_serie": {
+   "valor": 1244,
+   "de": "2005-02-21",
+   "a": "2008-07-19"
+  },
+  "dias_ultima_emision_a_estreno": {
+   "valor": 6580,
+   "de": "2008-07-19",
+   "a": "2026-07-25"
+  },
+  "dias_primera_emision_a_estreno": {
+   "valor": 7824,
+   "de": "2005-02-21",
+   "a": "2026-07-25"
+  },
+  "anos_primera_parte_a_hoy": {
+   "valor": 421,
+   "de": 1605,
+   "a": 2026
+  },
+  "anos_entre_partes_quijote": {
+   "valor": 10,
+   "de": 1605,
+   "a": 1615
+  },
+  "anos_avellaneda_a_segunda_parte": {
+   "valor": 1,
+   "de": 1614,
+   "a": 1615
+  }
+ },
+ "correcciones": [
+  {
+   "que": "la pieza 44 decía «seis mil quinientos ochenta y un días»",
+   "correcto": "seis mil quinientos ochenta (6.580)",
+   "cuando": "2026-11-09, antes de publicar",
+   "como": "resta con datetime, no a ojo"
+  }
+ ],
+ "no_medido": [
+  "taquilla de la película",
+  "presupuesto",
+  "duración (otras fuentes dicen 99 min, sin fuente primaria)",
+  "si hubo pases en salas fuera de la proyección limitada",
+  "páginas de cualquier edición del Quijote",
+  "identidad real de Avellaneda"
+ ]
+}

@@ -74,8 +74,31 @@ def _tiene_mapa(contenido: str) -> bool:
 
 
 def _contar_secciones_mapa(contenido: str) -> int:
-    # Contar entradas del mapa (líneas con emoji o secciones después de 🗺️)
-    return len(re.findall(r"^\s*[-*]\s+.+", contenido, re.M))
+    """Cuenta las ramas del mapa, no las viñetas del documento.
+
+    EL FALSO POSITIVO QUE ESTO CIERRA
+    ---------------------------------
+    La versión anterior contaba TODA línea que empezara por guion o asterisco, en
+    todo el documento. Una pieza con un mapa de doce entradas y tres listas más en
+    el cuerpo salía con «16 entradas» y en rojo por pasarse del máximo de doce, sin
+    tener nada mal: el mapa estaba bien y lo que se contaba era la bibliografía.
+
+    Ahora se mira dentro del bloque del mapa: las líneas del diagrama (las que
+    llevan ├── o └──) y, si no hay diagrama, las viñetas que van entre «Mapa de esta
+    pieza» y el primer separador.
+    """
+    ramas = re.findall(r"^\s*[├└│]──", contenido, re.M)
+    if ramas:
+        return len(ramas)
+
+    m = re.search(r"Mapa de esta pieza", contenido)
+    if not m:
+        return 0
+    tramo = contenido[m.end():]
+    corte = re.search(r"\n\s*(?:─{3,}|\*🔗|\*🧾|## )", tramo)
+    if corte:
+        tramo = tramo[:corte.start()]
+    return len(re.findall(r"^\s*[-*]\s+\S", tramo, re.M))
 
 
 def _tiene_una_pagina(contenido: str) -> bool:
