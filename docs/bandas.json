@@ -493,5 +493,60 @@
     "max": 8084
    }
   }
+ },
+ "whatsapp": {
+  "piezas": {
+   "01": {
+    "archivo": "01-La-puerta-y-el-recibo-que-se-reenvia-que-se-pierde-y-que-se-comprueba-hoy-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md",
+    "caracteres": 63084,
+    "min": 63034,
+    "max": 63134
+   },
+   "02": {
+    "archivo": "02-La-musica-que-no-se-cae-el-inventario-que-nadie-hace-y-el-disco-prestado-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md",
+    "caracteres": 63035,
+    "min": 62985,
+    "max": 63085
+   },
+   "03": {
+    "archivo": "03-La-caja-del-bolsillo-la-libreta-que-se-moja-el-codigo-que-caduca-cada-treinta-segundos-y-el-sobre-que-nadie-prepara-WhatsApp-La-Bandita-2026-11-02-dominicano-ES.md",
+    "caracteres": 63093,
+    "min": 63043,
+    "max": 63143
+   },
+   "04": {
+    "archivo": "04-Los-cinco-herederos-de-Shizuku-el-original-que-no-se-mueve-y-los-cuatro-que-publican-todos-los-dias-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md",
+    "caracteres": 63087,
+    "min": 63037,
+    "max": 63137
+   },
+   "05": {
+    "archivo": "05-La-guia-maestra-contada-despacio-doce-capitulos-setenta-fichas-y-un-metodo-repetible-WhatsApp-La-Bandita-2026-11-03-dominicano-ES.md",
+    "caracteres": 63095,
+    "min": 63045,
+    "max": 63145
+   }
+  },
+  "min": 900,
+  "max": 70000
+ },
+ "posts-comunidad": {
+  "min": 900,
+  "max": 70000,
+  "_nota": "Posteos sueltos de comunidad, publicados fuera de las dos series. Se declaran aquí para que la compuerta G10 pueda exigirles banda: antes no estaban declarados y G10 los listaba como «sin banda» sin decir por qué.",
+  "piezas": {
+   "post-2026-11-01-mama-hueso-WhatsApp-La-Bandita-dominicano-ES.md": {
+    "archivo": "post-2026-11-01-mama-hueso-WhatsApp-La-Bandita-dominicano-ES.md",
+    "caracteres": 4152,
+    "min": 4102,
+    "max": 4202
+   },
+   "post-2026-11-03-hdp-01-omnishizuku-el-fork-vivo-y-el-original-callado-WhatsApp-La-Bandita-dominicano-ES.md": {
+    "archivo": "post-2026-11-03-hdp-01-omnishizuku-el-fork-vivo-y-el-original-callado-WhatsApp-La-Bandita-dominicano-ES.md",
+    "caracteres": 4152,
+    "min": 4102,
+    "max": 4202
+   }
+  }
  }
 }

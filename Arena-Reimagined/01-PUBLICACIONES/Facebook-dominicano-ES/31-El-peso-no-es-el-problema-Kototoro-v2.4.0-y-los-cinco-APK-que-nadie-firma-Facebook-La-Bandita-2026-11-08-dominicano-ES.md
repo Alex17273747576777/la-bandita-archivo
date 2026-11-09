@@ -577,3 +577,7 @@ Baja el de tu arquitectura. Guarda el número. Y si el autor publica el hash ma�
 **8.** Esta pieza se escribió el domingo 8 de noviembre de 2026 entre las 06:25 y el cierre. Todos los números son de esa ventana. Ninguno se actualizó después.
 
 **9.** El defecto de las piezas 31 a 40 anteriores era medir bytes de archivo y llamarlos contenido. Esta pieza mide lo contrario: cuenta lo que se puede comprobar desde fuera, y declara lo que no midió. Si algo aquí está mal, el método de la última sección permite encontrarlo.
+
+───────────────────
+
+*La Bandita informa a partir de fuentes fechadas. · domingo 8 de noviembre de 2026 · pieza 31 de Facebook · los cinco APK se comprobaron contra la API pública de GitHub entre las 06:25 y el cierre; ninguna cifra se actualizó después. Ningún paquete se aloja aquí; solo enlaces al repositorio del autor.*

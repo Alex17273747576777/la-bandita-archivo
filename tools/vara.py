@@ -84,7 +84,9 @@ def _contar_piezas_vivas() -> dict[str, int]:
     if PUBLICACIONES.exists():
         for canal in PUBLICACIONES.iterdir():
             if canal.is_dir():
-                md = [f for f in canal.iterdir() if f.suffix == ".md" and not f.name.startswith("_")]
+                md = [f for f in canal.iterdir()
+                      if f.suffix == ".md" and not f.name.startswith("_")
+                      and not f.name.upper().startswith("LEEME")]
                 resultado[canal.name] = len(md)
     return resultado
 
@@ -134,6 +136,9 @@ def g0_piezas(informe: InformeVara) -> None:
                 continue
             for p in canal.iterdir():
                 if p.suffix != ".md" or p.name.startswith("_"):
+                    continue
+                # Un LEEME de carpeta no es una pieza: es el índice de las piezas.
+                if p.name.upper().startswith("LEEME"):
                     continue
                 try:
                     contenido = p.read_text(encoding="utf-8")
