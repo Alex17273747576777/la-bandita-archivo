@@ -11,7 +11,6 @@ Enlaces rápidos:
 Lo que dicen los números medidos:
 • **14** repositorios vivos: **46.817 estrellas** (mediana 1.816) y **124.792 descargas** declaradas en la última entrega.
 • **cero de catorce firman, y el archivo mueve millones de imágenes** — Millones de imágenes servidas y cero firmas: el volumen no es una garantía.
-• **cero de 14 publican huella** — el cero absoluto de la serie: **0 sumas** repartidas entre **35 adjuntos**.
 • Los que firman: **ninguno**.
 • El de más estrellas: **Huanshere/VideoLingo**, ★19.125, 0 sumas de 0 adjuntos.
 • 6 empujaron código en los últimos siete días; 2 no han publicado nunca una entrega.

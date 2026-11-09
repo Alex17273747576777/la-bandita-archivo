@@ -11,7 +11,6 @@ Enlaces rápidos:
 Lo que dicen los números medidos:
 • **14** repositorios vivos: **919.016 estrellas** (mediana 16.830) y **0 descargas** declaradas en la última entrega.
 • **cero de catorce firman, con 919.016 estrellas y ningún archivo que bajar** — Novecientas diecinueve mil estrellas y cero firmas: no hay archivo, no hay recibo.
-• **cero de 14 publican huella** — el cero absoluto de la serie: **0 sumas** repartidas entre **0 adjuntos**.
 • Los que firman: **ninguno**.
 • El de más estrellas: **EbookFoundation/free-programming-books**, ★401.349, 0 sumas de aquí no hay adjuntos.
 • 6 empujaron código en los últimos siete días; 8 no han publicado nunca una entrega.

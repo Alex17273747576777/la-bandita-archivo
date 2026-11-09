@@ -11,7 +11,6 @@ Enlaces rápidos:
 Lo que dicen los números medidos:
 • **14** repositorios vivos: **1.074.834 estrellas** (mediana 49.576) y **0 descargas** declaradas en la última entrega.
 • **cero de catorce firman, porque en este tema no hay archivo que firmar** — Cero de catorce y 1.074.834 estrellas: aquí no hay archivo que bajar, y por eso no hay nada que firmar.
-• **cero de 14 publican huella** — el cero absoluto de la serie: **0 sumas** repartidas entre **0 adjuntos**.
 • Los que firman: **ninguno**.
 • El de más estrellas: **awesome-selfhosted/awesome-selfhosted**, ★335.328, 0 sumas de 0 adjuntos.
 • 5 empujaron código en los últimos siete días; 10 no han publicado nunca una entrega.

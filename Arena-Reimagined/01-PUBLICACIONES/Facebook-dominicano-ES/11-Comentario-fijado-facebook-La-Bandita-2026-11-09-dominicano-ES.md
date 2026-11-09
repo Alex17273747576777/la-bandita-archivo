@@ -11,7 +11,6 @@ Enlaces rápidos:
 Lo que dicen los números medidos:
 • **18** repositorios vivos: **141.612 estrellas** (mediana 2.830) y **469.721 descargas** declaradas en la última entrega.
 • **cero de dieciocho firman, y el archivo que bajas abre lo que tú le señales** — Un lector sin firma abre cualquier cosa: eso es lo que un lector sin firma es.
-• **cero de 18 publican huella** — el cero absoluto de la serie: **0 sumas** repartidas entre **46 adjuntos**.
 • Los que firman: **ninguno**.
 • El de más estrellas: **kovidgoyal/calibre**, ★26.392, 0 sumas de 6 adjuntos.
 • 9 empujaron código en los últimos siete días; 2 no han publicado nunca una entrega.
