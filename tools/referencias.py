@@ -75,7 +75,8 @@ ARCHIVOS_DE_REGISTRO = {
     "INDICE.md",
     "LECCIONES.md",
     "DEPRECADOS.md",
-    "referencias.py",   # contiene la tabla MUDANZAS: los nombres viejos están a propósito
+    "referencias.py",          # contiene la tabla MUDANZAS: los nombres viejos están a propósito
+    "mapa-de-mudanzas.json",   # ES la tabla: traduce los nombres viejos a los nuevos
 }
 
 # Carpetas cuyo contenido es acta, no documento vivo.
