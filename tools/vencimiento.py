@@ -172,7 +172,7 @@ def _estado_ficha(ficha: dict, ventanas: dict[str, int], hoy: date) -> dict:
     }
 
 
-def aplicar() -> dict:
+def aplicar(*, escribir: bool = False) -> dict:
     """Recalcula el estado de frescura de cada ficha y escribe los archivos de salida."""
     ventanas = _cargar_politica()
     hoy = date.today()
@@ -190,8 +190,16 @@ def aplicar() -> dict:
         frescura = _estado_ficha(d, ventanas, hoy)
         resumen[frescura["estado"]] = resumen.get(frescura["estado"], 0) + 1
 
-        d["frescura"] = frescura
-        p.write_text(json.dumps(d, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+        # NO se escribe salvo que se pida. Antes esta línea estaba fuera de todo
+        # condicional: llamar a `python3 tools/vencimiento.py` sin --aplicar
+        # reescribía las 6.838 fichas igual, cambia el registro entero y sin avisar.
+        # Un instrumento de medida no puede modificar lo que mide.
+        if escribir:
+            d["frescura"] = frescura
+            p.write_text(
+                json.dumps(d, ensure_ascii=False, indent=1, sort_keys=True) + "\n",
+                encoding="utf-8",
+            )
 
         vencimientos.append({
             "id": d.get("id", ""),
@@ -221,6 +229,10 @@ def aplicar() -> dict:
         encoding="utf-8",
     )
 
+    if escribir:
+        print(f"  registro reescrito: {len(vencimientos)} fichas")
+    else:
+        print("  (solo lectura: el registro no se ha tocado; usa --aplicar para reescribirlo)")
     print(f"vencimientos: {resumen['vigente']} vigentes · {resumen['por_vencer']} por vencer · "
           f"{resumen['vencida']} vencidas · {resumen['sin_respaldo']} sin respaldo · {resumen['sin_objeto']} sin objeto")
     return resumen
@@ -250,7 +262,7 @@ def main(argv: list[str] | None = None) -> int:
             print(id_ficha)
         return 0
 
-    resumen = aplicar()
+    resumen = aplicar(escribir=args.aplicar)
     return 0
 
 
