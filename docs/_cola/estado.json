@@ -33,16 +33,16 @@
   {
    "id": "P05",
    "descripcion": "construir el censo de recursos nuevos: repositorios no medidos todavía, con dueño/repo, para las 40 piezas.",
-   "hecho": false,
-   "evidencia": null,
-   "cerrado_en": null
+   "hecho": true,
+   "evidencia": "docs/CENSO-MEDIDO-2026-11-09.json: 3.125 repositorios del censo medidos uno por uno contra la API pública (GraphQL, 60 campos por consulta) · 3.116 vivos · 10 archivados · 9 sin objeto · 0 errores · ★26.847.594 · 15.350 adjuntos en las últimas entregas · 375 con huella · 1.390 con push en 7 días · 87 nacidos hace ≤120 días · 604 sin licencia",
+   "cerrado_en": "2026-11-09T13:31:25Z"
   },
   {
    "id": "P06",
    "descripcion": "medir el censo contra la API de GitHub y guardar docs/MEDICION-CENSO-2026-11-08.json.",
-   "hecho": false,
-   "evidencia": null,
-   "cerrado_en": null
+   "hecho": true,
+   "evidencia": "medido en 3 lotes con parciales en docs/_censo/ (3 ficheros) y consolidado en docs/CENSO-MEDIDO-2026-11-09.json (1,4 MB) · 41 minutos de medición · cupo GraphQL 5.000/h respetado sin un solo error",
+   "cerrado_en": "2026-11-09T13:31:25Z"
   },
   {
    "id": "P07",
