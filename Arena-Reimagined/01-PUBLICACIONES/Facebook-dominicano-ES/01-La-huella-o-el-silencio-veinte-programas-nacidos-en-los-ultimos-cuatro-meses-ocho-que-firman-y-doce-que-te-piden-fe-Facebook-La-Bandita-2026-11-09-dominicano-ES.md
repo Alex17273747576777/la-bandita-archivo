@@ -37,7 +37,7 @@ Y el que mejor lo hace es el más chiquito en edad: **xevrion/hatchzip**, diecin
 
 Estos veinte no salieron de una lista de recomendaciones: salieron de un censo. Se leyeron dieciséis páginas de fmhy.net, se sacaron **3.284 repositorios de GitHub distintos**, se descartaron los 159 que este archivo ya tenía medidos y se midieron los **3.125 restantes** uno por uno contra la API pública. De esos 3.125, **ochenta y siete nacieron hace ciento veinte días o menos**. De esos ochenta y siete, estos veinte son los que más estrellas tienen.
 
-El que más estrellas tiene es **deepseek-ai/deepseek-harness**, con ★277.160 y **0 sumas** de 0 adjuntos. El que menos es **kota-zo/myspoti**, ★1.736, **0 sumas** de 4. El más viejo de la lista es **guillermolg00/morphicons**: 100 días, desde 1 de agosto de 2026.
+El que más estrellas tiene es **deepseek-ai/deepseek-harness**, con ★277.160 y **0 sumas** de 0 adjuntos. El que menos es **kota-zo/myspoti**, ★1.736, **0 sumas** de 4. El más viejo de la lista es **guillermolg00/morphicons**: ★3.165, 100 días, desde 1 de agosto de 2026, 0 sumas de 0 adjuntos.
 
 ───────────────────
 
@@ -127,15 +127,28 @@ No es una crítica al proyecto: es la diferencia entre un programa que se usa co
 
 *🧾 Los extremos · doscientos setenta y siete mil contra mil setecientos*
 
-| | El más grande | El más chiquito |
-|---|---|---|
-| Repositorio | **deepseek-ai/deepseek-harness** | **kota-zo/myspoti** |
-| Estrellas | 277.160 | 1.736 |
-| Días de vida | 88 | 26 |
-| Última entrega | 4 de noviembre de 2026 | sin adjuntos medidos |
-| Sumas publicadas | 0 adjuntos | 0 |
-
-Los dos son nuevos, los dos son de 2026 y los dos están en la misma lista. Lo que los separa no es la edad ni la fama: es lo que cada uno decide publicar.
+| Repositorio | Estrellas | Días de vida | Días sin empujar | Adjuntos | Sumas | Descargas | Licencia | Última entrega |
+|---|---|---|---|---|---|---|---|---|
+| `deepseek-ai/deepseek-harness` | 277.160 | 88 | 5 | 0 | 0 | 0 | MIT | 2026-11-04 |
+| `KnifeLemon/Filee` | 24.502 | 41 | 0 | 13 | 5 | 123.194 | MIT | 2026-11-03 |
+| `firecrawl/anydoc` | 23.451 | 98 | 17 | 15 | 0 | 2.303 | MIT | 2026-08-27 |
+| `Droid-Deck/DroidDeck` | 18.898 | 46 | 0 | 5 | 1 | 36.376 | GPL-3.0 | 2026-11-08 |
+| `robbietilton/Compositor` | 18.545 | 54 | 1 | 1 | 0 | 1.897 | MIT | 2026-11-08 |
+| `tangency-labs/solidcraft` | 15.178 | 33 | 0 | 49 | 1 | 275.951 | Apache-2.0 | 2026-11-07 |
+| `seedds/nxnative` | 13.961 | 27 | 0 | aquí no hay | 0 | 0 | MIT | nunca |
+| `miqdadbadjuber/anti-slop` | 8.730 | 94 | 0 | 0 | 0 | 0 | MIT | 2026-11-09 |
+| `zai-org/ZCode` | 8.577 | 50 | 5 | 7 | 1 | 1.168 | Apache-2.0 | 2026-11-04 |
+| `ly05010419/MacNativeGames` | 7.364 | 23 | 3 | 0 | 0 | 0 | MIT | 2026-10-25 |
+| `Fei2411/DeepSeek-Bot` | 6.542 | 33 | 0 | 18 | 1 | 1.905 | Apache-2.0 | 2026-11-09 |
+| `omlahore/RemoveMacAI` | 5.971 | 41 | 0 | 4 | 2 | 184.146 | MIT | 2026-10-18 |
+| `anmolkapil/plexo` | 5.638 | 55 | 3 | 20 | 0 | 235.508 | MIT | 2026-10-11 |
+| `guillermolg00/morphicons` | 3.165 | 100 | 2 | 0 | 0 | 0 | MIT | 2026-10-24 |
+| `rohit267/net-merge` | 2.995 | 28 | 0 | 59 | 0 | 423 | MIT | 2026-11-09 |
+| `nolight132/sonora` | 2.736 | 98 | 0 | 15 | 1 | 3.259 | GPL-3.0 | 2026-10-26 |
+| `xevrion/hatchzip` | 2.715 | 19 | 0 | 27 | 13 | 3.451 | Apache-2.0 | 2026-11-05 |
+| `shaongitbd/doory` | 2.585 | 30 | 3 | 0 | 0 | 0 | NOASSERTION | 2026-11-04 |
+| `gauthierpiarrette/highball` | 2.210 | 78 | 2 | 2 | 0 | 2.920 | GPL-3.0 | 2026-11-05 |
+| `kota-zo/myspoti` | 1.736 | 26 | 0 | 4 | 0 | 37.264 | GPL-3.0 | 2026-11-05 |
 
 ───────────────────
 

@@ -163,14 +163,18 @@ def extremos(d: dict) -> str:
     f = d["fichas"]
     top = max(f, key=lambda x: x.get("stars") or 0)
     bajo = min(f, key=lambda x: x.get("stars") or 0)
+    # «El más viejo» es el que nació hace MÁS días, y se nombra con SUS cifras, no con las de
+    # otro: aquí estaba el error que dejaba una cifra ajena pegada a su nombre.
     mas_viejo = max((x for x in f if x.get("dias_nace") is not None), key=lambda x: x["dias_nace"])
     return (
         f"El que más estrellas tiene es **{top['repo']}**, con ★{miles(top.get('stars'))} y "
         f"**{miles(top.get('huellas_ultima'))} sumas** de {miles(top.get('adjuntos_ultima'))} adjuntos. "
         f"El que menos es **{bajo['repo']}**, ★{miles(bajo.get('stars'))}, "
         f"**{miles(bajo.get('huellas_ultima'))} sumas** de {miles(bajo.get('adjuntos_ultima'))}. "
-        f"El más viejo de la lista es **{mas_viejo['repo']}**: {miles(mas_viejo['dias_nace'])} días, "
-        f"desde {fecha_larga(mas_viejo.get('nace'))}."
+        f"El más viejo de la lista es **{mas_viejo['repo']}**: "
+        f"★{miles(mas_viejo.get('stars'))}, {miles(mas_viejo['dias_nace'])} días, "
+        f"desde {fecha_larga(mas_viejo.get('nace'))}, "
+        f"{miles(mas_viejo.get('huellas_ultima'))} sumas de {miles(mas_viejo.get('adjuntos_ultima'))} adjuntos."
     )
 
 
@@ -201,6 +205,34 @@ def nombre_archivo(alma: str, pieza: str) -> str:
     return f"{pieza}-{slug}-Facebook-La-Bandita-{HOY}-dominicano-ES.md"
 
 
+def cifras_por_repo(d: dict) -> str:
+    """Una tabla de verdad: cada repositorio con sus propias cifras, sin prosa alrededor.
+    Así ninguna cifra puede quedar pegada al nombre de otro: la columna es la fila."""
+    claves = [("repo", "Repositorio"), ("stars", "Estrellas"), ("dias_nace", "Días de vida"),
+              ("dias_push", "Días sin empujar"), ("adjuntos_ultima", "Adjuntos"),
+              ("huellas_ultima", "Sumas"), ("descargas_ultima", "Descargas"),
+              ("licencia", "Licencia"), ("ultima_entrega", "Última entrega")]
+    cabecera = "| " + " | ".join(t for _, t in claves) + " |"
+    raya = "|" + "|".join("---" for _ in claves) + "|"
+    filas = []
+    for x in d["fichas"]:
+        celdas = []
+        for k, _ in claves:
+            v = x.get(k)
+            if k == "repo":
+                celdas.append(f"`{v}`")
+            elif k == "licencia":
+                celdas.append(str(v) if v else "sin declarar")
+            elif k == "ultima_entrega":
+                celdas.append(str(v) if v else "nunca")
+            elif isinstance(v, int):
+                celdas.append(miles(v))
+            else:
+                celdas.append("aquí no hay")
+        filas.append("| " + " | ".join(celdas) + " |")
+    return "\n".join([cabecera, raya] + filas)
+
+
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(description="Arma las piezas desde el alma y la medición.")
     ap.add_argument("piezas", nargs="+", help="NN de cada pieza")
@@ -225,6 +257,7 @@ def main(argv: list[str]) -> int:
             "{{NUEVOS}}": nuevos(d),
             "{{EXTREMOS}}": extremos(d),
             "{{SIN_ENTREGA}}": sin_entrega(d),
+            "{{TABLA_CIFRAS}}": cifras_por_repo(d),
             "{{N}}": letras(len(d["fichas"])),
             "{{TOTAL_ESTRELLAS}}": miles(sum(x.get("stars") or 0 for x in d["fichas"])),
         }
