@@ -34,9 +34,9 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 | 07 | La pantalla grande | 11.140 | 2.259 | Medida · 17 repos, 4 con huella · gigantes re-verificados el 8-nov |
 | 08 | La red: seis caminos | 13.583 | 2.278 | Medida · 20 repos, 5 con huella |
 | 09 | Archivos, copias y nubes | 13.726 | 2.234 | Medida · 17 repos, 4 con huella |
-| 10 | Las tiendas | 45.901 | 2.126 | Medida · 56 repos, 1 firma |
-| 11 | Las aplicaciones que leen | 43.151 | 2.097 | Medida · 51 apps, 116 archivos firmados |
-| 12 | El kit de reemplazo | 42.438 | 2.255 | Medida · 59 recursos, 501 de 3.022 |
+| 10 | Las tiendas | 12.792 | 2.126 | Medida · 56 repos, 1 firma |
+| 11 | Las aplicaciones que leen | 11.078 | 2.097 | Medida · 51 apps, 116 archivos firmados |
+| 12 | El kit de reemplazo | 11.364 | 2.255 | Medida · 59 recursos, 501 de 3.022 |
 | 13 | El audio que faltaba | 44.732 | 2.153 | Medida · 54 proyectos, 409 de 3.599 |
 | 14 | Spotify sin Spotify | 41.786 | 2.187 | Medida · 38 clientes, 495 de 2.473 |
 | 15 | Descargar es un acto técnico | 42.958 | 1.352 | Medida · 31 programas |
