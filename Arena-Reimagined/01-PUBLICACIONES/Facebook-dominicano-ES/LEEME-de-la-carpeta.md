@@ -48,9 +48,9 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 | 21 | La variante que cambió | 9.844 | 1.676 | Medida · OmniShizuku |
 | 22 | El módulo que no necesita root | 10.405 | 1.661 | Medida · AxManager |
 | 23 | Keiyoushi, catálogo de extensiones | 11.018 | 1.666 | Una ficha medida |
-| 24 | Repositorios de extensiones de anime | 12.966 | 2.077 | **Medida el 8-nov** · 5 vivos, 173 archivos, 0 huellas, un abuelo de 812 días |
-| 25 | OCR de bolsillo | 12.326 | 1.983 | **Medida el 8-nov** · 7 programas, 334 archivos, 1 suma (episteme) |
-| 26 | Usagi y su familia | 12.114 | 2.073 | **Medida el 8-nov** · 6 vivos, 727 archivos, 0 huellas, el original 370 días parado |
+| 24 | Repositorios de extensiones de anime | 9.881 | 1.669 | **Medida el 8-nov** · 5 vivos, 173 archivos, 0 huellas, un abuelo de 812 días |
+| 25 | OCR de bolsillo | 11.137 | 1.689 | **Medida el 8-nov** · 7 programas, 334 archivos, 1 suma (episteme) |
+| 26 | Usagi y su familia | 10.915 | 1.706 | **Medida el 8-nov** · 6 vivos, 727 archivos, 0 huellas, el original 370 días parado |
 | 27 | DropSauce y su tema | 9.984 | 1.988 | **Medida el 8-nov** · 4 vivos, 262 archivos, 3 sumas (las pone el más pequeño) |
 | 28 | Mangayomi y sus extensiones | 12.066 | 2.077 | **Medida el 8-nov** · 5 vivos, 3.788 archivos, 0 huellas: el peor del día |
 | 29 | LNReader y sus plugins | 10.518 | 1.962 | **Medida el 8-nov** · 2 vivos, 69 archivos, 5 sumas, 963 días sin etiqueta |
