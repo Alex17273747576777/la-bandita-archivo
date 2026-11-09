@@ -29,6 +29,20 @@ CARPETA = RAIZ / "Arena-Reimagined" / "01-PUBLICACIONES" / "Facebook-dominicano-
 LEEME = CARPETA / "LEEME-de-la-carpeta.md"
 PIEZAS = [f"{n:02d}" for n in range(1, 41)]
 
+
+def piezas_extra() -> list[str]:
+    """Piezas de la segunda vuelta: las que existen en la carpeta y no son del ciclo 01–40.
+
+    El ciclo 01–40 está cerrado y no se reescribe. Lo que venga después se cuenta aparte,
+    con su propio número, para que el LEEME no diga «cuarenta» cuando hay más.
+    """
+    vistas = []
+    for f in CARPETA.glob("*.md"):
+        m = re.match(r"(\d\d)-", f.name)
+        if m and m.group(1) not in PIEZAS and m.group(1) not in vistas:
+            vistas.append(m.group(1))
+    return sorted(vistas)
+
 FILA = re.compile(r"^\|\s*(\d{2})\s*\|(?P<resto>.*)\|\s*$")
 
 
@@ -37,8 +51,8 @@ def medir() -> dict[str, dict[str, int]]:
     datos: dict[str, dict[str, int]] = {}
     for f in CARPETA.glob("*.md"):
         n = f.name[:2]
-        if n not in PIEZAS:
-            continue
+        if not n.isdigit():
+            continue  # el LEEME y cualquier archivo suelto no son piezas
         datos.setdefault(n, {})
         clave = "fijado" if "Comentario-fijado" in f.name else "cuerpo"
         datos[n][clave] = len(f.read_text(encoding="utf-8"))
@@ -51,7 +65,7 @@ def huerfanos() -> list[str]:
     for f in sorted(CARPETA.glob("*.md")):
         if f.name == LEEME.name:
             continue
-        if f.name[:2] not in PIEZAS:
+        if f.name[:2] not in PIEZAS and f.name[:2] not in piezas_extra():
             fuera.append(f.name)
     return fuera
 
@@ -73,11 +87,33 @@ def miles(n: int) -> str:
     return f"{n:,}".replace(",", ".")
 
 
+def _anadir_filas_que_faltan(datos: dict) -> None:
+    """Si hay piezas en el disco que no están en la tabla, se añaden al final.
+
+    El LEEME no es una lista cerrada: es el estado de la carpeta. Si la carpeta creció,
+    el LEEME crece con ella; lo que no hace es reescribir las filas que ya estaban.
+    """
+    tabla = columnas_del_leeme()
+    faltan = [n for n in PIEZAS + piezas_extra()
+              if n in datos and "cuerpo" in datos[n] and "fijado" in datos[n] and n not in tabla]
+    if not faltan:
+        return
+    lineas = LEEME.read_text(encoding="utf-8").splitlines()
+    ultima = max((i for i, l in enumerate(lineas) if FILA.match(l)), default=len(lineas) - 1)
+    nuevas = []
+    for n in sorted(faltan):
+        d = datos[n]
+        nuevas.append(f"| {n} | Pieza {n} · segunda vuelta | {miles(d['cuerpo'])} | {miles(d['fijado'])} | **Añadida el 9-nov** · segunda vuelta, fuera del ciclo 01–40 |")
+    lineas[ultima + 1:ultima + 1] = nuevas
+    LEEME.write_text("\n".join(lineas) + "\n", encoding="utf-8")
+    print(f"filas añadidas al LEEME: {len(nuevas)} → {' '.join(faltan)}")
+
+
 def comprobar() -> int:
     datos, tabla = medir(), columnas_del_leeme()
     fallos: list[str] = []
 
-    for n in PIEZAS:
+    for n in PIEZAS + piezas_extra():
         d = datos.get(n, {})
         if "cuerpo" not in d:
             fallos.append(f"pieza {n}: falta el cuerpo")
@@ -97,12 +133,14 @@ def comprobar() -> int:
 
     for f in fallos:
         print("  FALLO ·", f)
-    print(f"\npiezas comprobadas: {len(PIEZAS)} · fallos: {len(fallos)}")
+    total = len(PIEZAS) + len(piezas_extra())
+    print(f"\npiezas comprobadas: {total} · fallos: {len(fallos)}")
     return 0 if not fallos else 1
 
 
 def arreglar() -> int:
     datos = medir()
+    _anadir_filas_que_faltan(datos)
     lineas = LEEME.read_text(encoding="utf-8").splitlines()
     salida, tocadas = [], 0
     for linea in lineas:

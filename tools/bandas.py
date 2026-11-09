@@ -13,6 +13,7 @@ Uso:
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -74,6 +75,35 @@ def main() -> int:
                 info["caracteres"] = real
                 info["min"] = real - MARGEN
                 info["max"] = real + MARGEN
+
+    # Piezas nuevas: las que están en la carpeta y no tienen entrada en el registro.
+    # El registro no es una lista cerrada de 40: si mañana hay 41, se añade.
+    for canal in sorted(p for p in PUBLICACIONES.iterdir() if p.is_dir()):
+        clave = canal.name.replace("-dominicano-ES", "")
+        seccion = None
+        for k, v in datos.items():
+            if k.lower() == clave.lower() and isinstance(v, dict):
+                seccion = v
+                break
+        if not seccion:
+            continue
+        seccion.setdefault("piezas", {})
+        conocidos = {v.get("archivo") for v in seccion["piezas"].values()}
+        for f in sorted(canal.glob("*.md")):
+            if f.name.startswith("_") or f.name.upper().startswith("LEEME") or f.name in conocidos:
+                continue
+            m = re.match(r"(\d\d)-", f.name)
+            if not m:
+                continue
+            n = m.group(1)
+            clave_pieza = f"{n}-fijado" if "Comentario-fijado" in f.name else n
+            real = len(f.read_text(encoding="utf-8"))
+            cambios.append(f"{clave}/{clave_pieza}: pieza nueva → {real} car")
+            if cuadrar:
+                seccion["piezas"][clave_pieza] = {
+                    "archivo": f.name, "caracteres": real,
+                    "min": real - MARGEN, "max": real + MARGEN,
+                }
 
     if cuadrar and cambios:
         BANDAS.write_text(json.dumps(datos, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

@@ -1,0 +1,598 @@
+{
+ "medido_en": "2026-11-09",
+ "medido_a_las": "14:24",
+ "pieza": "41",
+ "tema": "Los índices de extensiones: 1.554 extensiones, un solo índice que firma y una wiki que no lo dice",
+ "fuente": "miyomi.app/api/extensions · index.json real de keiyoushi/extensions (y su index.min.json como contraejemplo) · index.json de mangayomi-extensions · clon de fmhy/edit del 9-nov",
+ "fichas": [
+  {
+   "hecho": "índices listados por Miyomi",
+   "valor": 47
+  },
+  {
+   "hecho": "índices con repositorio de GitHub declarado",
+   "valor": 42
+  },
+  {
+   "hecho": "índices aprobados por el moderador",
+   "valor": 47
+  },
+  {
+   "hecho": "índices con nota de moderador",
+   "valor": 1
+  },
+  {
+   "hecho": "idiomas distintos entre los índices",
+   "valor": 9
+  },
+  {
+   "hecho": "descargas declaradas en total",
+   "valor": 2
+  },
+  {
+   "hecho": "categorías distintas (contando los sin categoría)",
+   "valor": 7
+  },
+  {
+   "hecho": "lectores distintos que un índice puede declarar compatibles",
+   "valor": 84
+  },
+  {
+   "hecho": "extensiones en el índice real de Keiyoushi",
+   "valor": 1554
+  },
+  {
+   "hecho": "paquetes distintos en ese índice",
+   "valor": 1554
+  },
+  {
+   "hecho": "extensiones con enlace de descarga",
+   "valor": 1554
+  },
+  {
+   "hecho": "el índice de Keiyoushi publica llave de firma (signingKey)",
+   "valor": 1
+  },
+  {
+   "hecho": "entradas que devuelve index.min.json del mismo repositorio",
+   "valor": 2
+  },
+  {
+   "hecho": "entradas en el índice de Mangayomi",
+   "valor": 363
+  },
+  {
+   "hecho": "fuentes distintas en ese índice",
+   "valor": 361
+  },
+  {
+   "hecho": "entradas con enlace al código de la fuente",
+   "valor": 363
+  },
+  {
+   "hecho": "entradas marcadas como NSFW",
+   "valor": 2
+  },
+  {
+   "hecho": "entradas que declaran tener Cloudflare",
+   "valor": 0
+  },
+  {
+   "hecho": "el índice de Mangayomi publica llave de firma",
+   "valor": 0
+  },
+  {
+   "hecho": "veces que FMHY nombra a Keiyoushi",
+   "valor": 2
+  },
+  {
+   "hecho": "veces que FMHY nombra a Miyomi",
+   "valor": 0
+  },
+  {
+   "hecho": "veces que FMHY nombra a Mangayomi",
+   "valor": 7
+  },
+  {
+   "hecho": "veces que FMHY nombra la palabra signingKey",
+   "valor": 0
+  },
+  {
+   "hecho": "veces que FMHY nombra la palabra extension",
+   "valor": 313
+  },
+  {
+   "hecho": "repositorios medidos por la casa que FMHY no lista",
+   "valor": 0
+  }
+ ],
+ "crudo": {
+  "miyomi": [
+   {
+    "nombre": "50/50's Modules",
+    "repo": "https://git.luna-app.eu/50n50/sources",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 87,
+    "creado": "2026-04-11"
+   },
+   {
+    "nombre": "AIOStreams",
+    "repo": "https://github.com/Viren070/AIOStreams/commit/134156ae",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": null,
+    "descargas": 0,
+    "likes": 15,
+    "creado": "2026-08-16"
+   },
+   {
+    "nombre": "Aidoku Community Sources",
+    "repo": "https://github.com/Aidoku-Community/sources",
+    "estado": "approved",
+    "categoria": "Manga",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 60,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "Aniyomi Compat",
+    "repo": "https://github.com/CranberrySoup/AniyomiCompatExtension",
+    "estado": "approved",
+    "categoria": "Anime",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 59,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "Bluecxt's Repo",
+    "repo": "https://github.com/bluecxt/anime-extensions-french",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "FR",
+    "descargas": 0,
+    "likes": 8,
+    "creado": "2026-05-22"
+   },
+   {
+    "nombre": "Bunori Extension",
+    "repo": "https://github.com/bunoriapp/extensions",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": null,
+    "descargas": 0,
+    "likes": 26,
+    "creado": "2026-09-22"
+   },
+   {
+    "nombre": "CakesTwix",
+    "repo": "https://codeberg.org/CakesTwix/cloudstream-extensions-uk/",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "ua",
+    "descargas": 0,
+    "likes": 10,
+    "creado": "2026-04-04"
+   },
+   {
+    "nombre": "Comet | ElfHosted",
+    "repo": null,
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 2,
+    "creado": "2026-06-01"
+   },
+   {
+    "nombre": "Dantotsu Novel Extensions",
+    "repo": "https://github.com/dannovels/novel-extensions",
+    "estado": "approved",
+    "categoria": "Novel",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 15,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "Extensões FelipeGFA",
+    "repo": "https://github.com/FelipeGFA/extensoes",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "pt-br",
+    "descargas": 0,
+    "likes": 75,
+    "creado": "2026-02-22"
+   },
+   {
+    "nombre": "Gekkoushi",
+    "repo": "https://github.com/Gekkoushi/plugin",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 20,
+    "creado": "2026-06-17"
+   },
+   {
+    "nombre": "Hayase Extensions",
+    "repo": null,
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "All",
+    "descargas": 0,
+    "likes": 21,
+    "creado": "2026-03-30"
+   },
+   {
+    "nombre": "Hollow",
+    "repo": "https://codeberg.org/hollow/aniyomi-extensions-fr",
+    "estado": "approved",
+    "categoria": "Anime",
+    "idioma": "fr",
+    "descargas": 0,
+    "likes": 36,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "IReader-extensions",
+    "repo": "https://github.com/IReaderorg/IReader-extensions",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 13,
+    "creado": "2026-04-11"
+   },
+   {
+    "nombre": "Inkdex Extensions",
+    "repo": "https://github.com/inkdex/extensions",
+    "estado": "approved",
+    "categoria": "Manga",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 12,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "Kavita",
+    "repo": "https://github.com/Kareadita/Kavita",
+    "estado": "approved",
+    "categoria": "Kavita",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 147,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "Kegareta Sauces",
+    "repo": "https://github.com/gato404/kegareta-sauces",
+    "estado": "approved",
+    "categoria": "Manga",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 25,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "Keiyoushi",
+    "repo": "https://github.com/keiyoushi/extensions",
+    "estado": "approved",
+    "categoria": "Manga",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 486,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "LNCrawlerSources",
+    "repo": "https://github.com/bunoriapp/LNCrawlerSources",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 11,
+    "creado": "2026-09-14"
+   },
+   {
+    "nombre": "LNReader Plugins",
+    "repo": "https://github.com/LNReader/lnreader-plugins",
+    "estado": "approved",
+    "categoria": "Novel",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 61,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "MHRepo",
+    "repo": "https://github.com/marbou92/MHRepo",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "all, en",
+    "descargas": 0,
+    "likes": 30,
+    "creado": "2026-09-22"
+   },
+   {
+    "nombre": "Mally",
+    "repo": "https://github.com/Mallyd11/mangayomi-anime-extensions",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 8,
+    "creado": "2026-07-30"
+   },
+   {
+    "nombre": "Mangayomi ApkBridge",
+    "repo": "https://github.com/Schnitzel5/ApkBridge",
+    "estado": "approved",
+    "categoria": "Mangayomi",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 127,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "Manyayomi Custom Buttons",
+    "repo": "https://github.com/Schnitzel5/mangayomi-custom-buttons",
+    "estado": "approved",
+    "categoria": "Mangayomi",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 28,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "Mochi Plugins",
+    "repo": "https://github.com/mochi-plugins/repository",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 67,
+    "creado": "2026-03-31"
+   },
+   {
+    "nombre": "Moomooo95",
+    "repo": "https://github.com/Moomooo95/moomooo95-extensions",
+    "estado": "approved",
+    "categoria": "Manga",
+    "idioma": "fr",
+    "descargas": 0,
+    "likes": 7,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "Netsky's Repo",
+    "repo": "https://github.com/TheNetsky/netskys-extensions",
+    "estado": "approved",
+    "categoria": "Manga",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 15,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "Novel Sourcery",
+    "repo": "https://github.com/NovelSourcery/extensions",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "all",
+    "descargas": 2,
+    "likes": 26,
+    "creado": "2026-04-21"
+   },
+   {
+    "nombre": "Nuvio Plugins",
+    "repo": null,
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 12,
+    "creado": "2026-05-28"
+   },
+   {
+    "nombre": "Nyora Mihon Extension Store",
+    "repo": "https://github.com/Nyora-Manga/nyora-mihon",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 36,
+    "creado": "2026-08-06"
+   },
+   {
+    "nombre": "Project Nox",
+    "repo": "https://github.com/Awerkori/fonte-extensoes",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "pt-BR",
+    "descargas": 0,
+    "likes": 30,
+    "creado": "2026-08-27"
+   },
+   {
+    "nombre": "SalmanBappi's Aniyomi Repo",
+    "repo": "https://github.com/salmanbappi/extensions-repo",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 51,
+    "creado": "2026-05-22"
+   },
+   {
+    "nombre": "Seanime Marketplace",
+    "repo": "https://github.com/Bas1874/Seanime-Marketplace",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": null,
+    "descargas": 0,
+    "likes": 2,
+    "creado": "2026-10-02"
+   },
+   {
+    "nombre": "Secozzi's Aniyomi Extension Repo",
+    "repo": "https://github.com/Secozzi/aniyomi-extensions",
+    "estado": "approved",
+    "categoria": "Anime",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 49,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "Spithskia's Shiru Extensions",
+    "repo": "https://github.com/Spithskia/Shiru-Extensions",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "All",
+    "descargas": 0,
+    "likes": 13,
+    "creado": "2026-03-30"
+   },
+   {
+    "nombre": "Stremio Addons",
+    "repo": null,
+    "estado": "approved",
+    "categoria": "Anime",
+    "idioma": null,
+    "descargas": 0,
+    "likes": 30,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "Suwatte Sources",
+    "repo": null,
+    "estado": "approved",
+    "categoria": "Manga",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 9,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "Suwayomi Extension",
+    "repo": "https://github.com/Suwayomi/tachiyomi-extension",
+    "estado": "approved",
+    "categoria": "Suwayomi",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 62,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "Swakshan",
+    "repo": "https://github.com/Swakshan/mangayomi-swak-extensions",
+    "estado": "approved",
+    "categoria": "Anime",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 20,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "TheNano",
+    "repo": "https://github.com/LittleSurvival/copymanga-copy20",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "zh",
+    "descargas": 0,
+    "likes": 14,
+    "creado": "2026-08-18"
+   },
+   {
+    "nombre": "UMA Plugin",
+    "repo": "https://github.com/InvalidDavid/UMA",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 35,
+    "creado": "2026-06-17"
+   },
+   {
+    "nombre": "Yuzono Anime",
+    "repo": "https://github.com/yuzono/anime-extensions",
+    "estado": "approved",
+    "categoria": "Anime",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 283,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "Yuzono Cursed",
+    "repo": "https://github.com/yuzono/cursed-manga-extensions",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 132,
+    "creado": "2026-08-18"
+   },
+   {
+    "nombre": "Zangetsu Extension",
+    "repo": "https://github.com/Spyou/zangetsu-providers",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": null,
+    "descargas": 0,
+    "likes": 13,
+    "creado": "2026-08-09"
+   },
+   {
+    "nombre": "kotatsu multi parsers",
+    "repo": "https://github.com/Shebyyy/kotatsu-multi-parsers/releases",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 25,
+    "creado": "2026-08-16"
+   },
+   {
+    "nombre": "m2k3a",
+    "repo": "https://github.com/m2k3a/mangayomi-extensions",
+    "estado": "approved",
+    "categoria": "Manga",
+    "idioma": "all",
+    "descargas": 0,
+    "likes": 26,
+    "creado": "2026-02-10"
+   },
+   {
+    "nombre": "rurin1x's Shiru Extension",
+    "repo": "https://github.com/rurin1x/animetosho-shiru-extension",
+    "estado": "approved",
+    "categoria": null,
+    "idioma": null,
+    "descargas": 0,
+    "likes": 1,
+    "creado": "2026-06-08"
+   }
+  ],
+  "keiyoushi": {
+   "extensiones": 1554,
+   "signingKey": true,
+   "badge": "KEI"
+  },
+  "mangayomi": {
+   "entradas": 363
+  },
+  "fmhy": {
+   "keiyoushi": 2,
+   "miyomi": 0,
+   "mangayomi": 7,
+   "signingkey": 0
+  }
+ },
+ "nota": "Cada ficha es un hecho medido hoy contra la fuente primaria. Lo que no se midió va en null."
+}

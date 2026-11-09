@@ -1,0 +1,110 @@
+
+*La Bandita · lunes 9 de noviembre de 2026 · edición dominicano-español · pieza 41 de Facebook*
+
+⏱️ *Lectura total: unos quince minutos · tres índices medidos contra su fuente primaria · 1.554 extensiones en uno solo · un signingKey y dos archivos que dicen lo mismo con cifras distintas · cero paquetes alojados*
+
+*🗺️ Mapa de esta pieza*
+
+```
+├── 🧱 La semilla · el índice es el que decide
+├── ⚡ En una página · los números juntos
+├── 🧾 La tabla · un índice por fila
+├── 🔑 La llave de firma · uno de tres
+├── 🪤 El archivo trampa · index.min.json
+├── 🕳️ El hueco de verdad · lo que FMHY no dice
+├── 🛠️ Cuatro órdenes para revisar un índice
+├── 🚪 Lo que esta pieza no tiene
+├── ❓ Las preguntas del grupo
+└── 🌅 cierre · 🔗 cómo se comprobó · 🗒️ notas al pie
+```
+
+> *Semilla de esta pieza:* un lector de manga no trae las páginas; las trae una extensión. Y las extensiones no vienen con el lector: vienen de un **índice**, que es un archivo con una lista. Cuando añades un repositorio a tu lector, lo que estás añadiendo es la confianza en quien escribió ese archivo.
+
+La pregunta de siempre, aplicada al eslabón que casi nadie mira: **¿puedo comprobar que la extensión que instalo es la que su autor publicó?** En un índice se puede, y solo si el índice publica una llave de firma. De los tres que se miden aquí, **uno** la publica.
+
+## ⚡ En una página · los números juntos
+
+Medido el 9 de noviembre de 2026 contra la fuente primaria de cada uno:
+
+- **47** índices lista Miyomi; **42** declaran repositorio de GitHub; los **47** están aprobados por su moderador y solo **1** lleva nota de moderador.
+- **1.554** extensiones en el índice real de Keiyoushi, con **1.554** paquetes distintos y **1.554** con enlace de descarga. Y **sí** publica `signingKey`.
+- **363** entradas en el índice de Mangayomi, **361** fuentes distintas, **363** con enlace al código. Y **no** publica llave de firma.
+- FMHY nombra la palabra «extension» **313** veces. La palabra «signingKey», **cero**.
+
+## 🧾 La tabla · un índice por fila
+
+| Índice | Entradas | Paquetes o fuentes distintas | Llave de firma | Enlace al código |
+|---|---|---|---|---|
+| Keiyoushi (Mihon) | 1.554 | 1.554 | **sí** | 1.554 de 1.554 |
+| Mangayomi | 363 | 361 | no | 363 de 363 |
+| Miyomi (47 índices) | 47 | — | — | 42 con repositorio declarado |
+
+Los 47 de Miyomi no son uno: son cuarenta y siete índices distintos, con **9** idiomas entre todos y **7** categorías contando los que no tienen categoría. Declaran compatibilidad con **84** lectores distintos, que es lo que hace que un índice sirva o no te sirva.
+
+## 🔑 La llave de firma · uno de tres
+
+Un índice de extensiones puede llevar un campo `signingKey`: una huella de la llave con la que el autor firma cada extensión. Si tu lector la conoce, comprueba la firma antes de instalar. Si no la conoce, no comprueba nada.
+
+Keiyoushi la publica. Mangayomi no. Y eso no convierte a Mangayomi en un proyecto malo: lo convierte en un índice donde la comprobación depende de otra cosa —en este caso, de que el código de cada fuente está enlazado y se puede leer—. Son dos niveles de garantía distintos y quien no los distingue se cree protegido por algo que no lo protege.
+
+## 🪤 El archivo trampa · index.min.json
+
+En el mismo repositorio de Keiyoushi hay dos archivos que parecen el mismo: `index.json` e `index.min.json`. El primero devuelve **1.554** extensiones. El segundo devuelve **2**.
+
+Si alguien mide el índice con el archivo minificado saca una cifra falsa y la publica. Aquí se midieron los dos para poder decirlo con el número delante: **1.554 contra 2**. El bueno es el que trae la lista completa; el otro es un resto.
+
+───────────────────
+
+## 🕳️ El hueco de verdad · lo que FMHY no dice
+
+Antes de escribir esta pieza se hizo la comprobación incómoda: de los **385** repositorios que estas 40 piezas han medido, uno por uno, **cuántos le faltan a FMHY**. La respuesta es **0**. Todos están, contando incluso los **20** que se mudaron de nombre hoy —FMHY los tiene con el nombre viejo, y eso también es un dato—.
+
+Es decir: pedirle a FMHY que añada repositorios sueltos no tiene sentido, porque la casa aprendió este oficio leyendo FMHY. El hueco es otro y es de forma:
+
+- FMHY manda a la **página web** de Keiyoushi y de Mangayomi, y nombra a Keiyoushi **2** veces y a Mangayomi **7**.
+- FMHY **no nombra a Miyomi ni una vez**, y Miyomi es un directorio de **47** índices con **84** lectores declarados compatibles.
+- FMHY dice «extension» **313** veces y **no dice `signingKey` ninguna vez**.
+
+Eso es lo que se puede aportar y es lo que se propone en el issue: no una sección nueva, sino dos cosas al lado de los lectores que ya están listados —el enlace al índice real y la palabra «firma» o «sin firma» al lado—. Es la misma clase de dato que esa wiki ya pone en otras páginas.
+
+## 🛠️ Cuatro órdenes para revisar un índice
+
+1. `curl -sL https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.json | head -c 400` y busca `signingKey`. Si está, el índice firma.
+2. Cuenta las extensiones: `... | python3 -c "import json,sys; print(len(json.load(sys.stdin)['extensionList']['extensions']))"`. Da **1.554**.
+3. Haz lo mismo con `index.min.json` y compara. Si te da **2**, has cogido el archivo trampa.
+4. Repite con Mangayomi y busca `signingKey`. No está, y esa es la respuesta.
+
+───────────────────
+
+*🚪 Lo que esta pieza no tiene*
+
+- **No recomienda un lector.** Mide índices; el lector lo eliges tú.
+- **No dice que las 1.554 extensiones funcionen.** Dice que están en el índice y que tienen enlace de descarga. Probarlas una por una no es lo que se midió.
+- **No hay capturas ni enlaces a contenido.** Ninguno: esta pieza habla de archivos de índice.
+
+*❓ Las preguntas del grupo*
+
+**«¿Entonces Miyomi es mejor que FMHY?»** No. Son cosas distintas: FMHY es una wiki de recursos; Miyomi es un directorio de índices de extensión. Esta pieza dice que FMHY no nombra a Miyomi, no que una sea mejor.
+
+**«¿Por qué importa el signingKey?»** Porque es la diferencia entre «instalo lo que me dan» y «instalo lo que me dan y compruebo que lo firmó quien dice». En un índice que no lo publica, la confianza está puesta en el camino, no en el archivo.
+
+**«¿Y si el índice firma pero la extensión es mala?»** Una firma dice quién la hizo. No dice que sea buena. Eso va en la nota al pie y no es un detalle.
+
+───────────────────
+
+*🔗 Cómo se comprobó*
+
+`miyomi.app/api/extensions` (47 entradas, campo `repoUrl`), `index.json` real de `keiyoushi/extensions` (1.554) frente a su `index.min.json` (2), `index.json` de `mangayomi-extensions` (363), y el clon completo de `fmhy/edit` del 9 de noviembre para contar nombres y cruzar los 385 repositorios medidos por la casa.
+
+───────────────────
+
+*🗒️ Notas al pie*
+
+1. Una llave de firma dice quién publicó. No dice que el programa sea bueno.
+2. «Sin firma» no es «sin control»: puede haber revisión del código enlazado. Es otra garantía, no la misma.
+3. Las cifras de un índice cambian cuando su autor publica. Estas son del 9 de noviembre de 2026 y la pieza lo dice en su cabecera.
+4. Los 385 repositorios de las 40 piezas anteriores están todos en FMHY. Se comprobó también con el nombre viejo de los 20 que se mudaron.
+
+Cada cifra de esta pieza sale de `docs/MEDICION-P41-2026-11-09.json`: los tres índices consultados por HTTPS y el clon de FMHY para los recuentos. Ningún dato se copió de un artículo ni se estimó.
+
+*💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
