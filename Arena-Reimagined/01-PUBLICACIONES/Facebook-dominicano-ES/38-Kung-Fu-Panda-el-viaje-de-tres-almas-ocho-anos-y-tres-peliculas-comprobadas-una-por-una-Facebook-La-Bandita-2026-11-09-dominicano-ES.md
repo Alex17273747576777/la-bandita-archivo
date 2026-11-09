@@ -3,6 +3,25 @@
 
 ⏱️ *Lectura total: unos quince minutos · tres películas comprobadas una por una · ocho años entre la primera y la última · cero paquetes alojados*
 
+*tres películas, ocho años y una franquicia con identificador — Cada película con su QID y su fecha: la memoria no entra en esta pieza.*
+
+*🗺️ Mapa de esta pieza*
+
+```
+├── 🧱 La semilla · tres películas y un viaje de tres almas
+├── ⚡ En una página · ocho años, tres películas
+├── 🐼 Kung Fu Panda · una por una, con su fecha
+├── 🧱 La estructura que se repite
+├── 📅 El hueco que no se mide
+├── 🎭 Por qué esto no es una reseña
+├── 🧾 La tabla · lo único que se midió
+├── 📌 La corrección de esta pieza
+├── 🚪 Lo que esta pieza no tiene
+├── ❓ Las preguntas del grupo
+└── 🌅 cierre · 🔗 cómo se comprobó · 🗒️ notas al pie
+```
+
+
 La franquicia Kung Fu Panda empieza en 2008. Las tres películas se estrenaron el 15 de mayo de 2008, el 22 de mayo de 2011 y el 29 de enero de 2016: ocho años entre la primera y la última. Las tres están declaradas como película por su propia ficha, una por una, y las tres tienen fecha de estreno en su registro.
 
 No hay una cuarta. Y ese hueco de diez años es, de todo lo que se puede decir de la trilogía, lo que más me interesa.
@@ -93,3 +112,16 @@ Si algo de esto te sirve, haz una sola cosa: hoy, cuando algo te salga bien, no 
 Cada cifra de esta pieza sale de `docs/MEDICION-P38-2026-11-09.json`: Wikidata, franquicia y las tres películas comprobadas una por una por su identificador. Ningún dato se copió de un artículo.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Tres películas, tres fechas y ocho años: aquí la memoria no hace falta, y por eso se midió.*
+*Enlaces completos, uno por línea:*
+
+- La franquicia medida, en Wikidata: https://www.wikidata.org/wiki/Special:EntityData/Q129193.json
+
+───────────────────
+
+*🗒️ Notas al pie*
+
+1. *Las tres películas se comprobaron por su QID, una por una: la franquicia declarada no basta.* (9-nov)
+2. *Los ocho años salen de restar la primera fecha de estreno a la última, con datetime, no a ojo.* (9-nov)
+3. *Las fechas que la ficha no da se quedan sin dar: no se rellenan con lo que uno recuerda.* (9-nov)

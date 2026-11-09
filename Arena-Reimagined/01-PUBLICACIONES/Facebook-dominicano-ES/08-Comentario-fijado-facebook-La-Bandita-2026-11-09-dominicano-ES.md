@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **20** repositorios vivos: **247.560 estrellas** (mediana 7.368) y **465.780 descargas** declaradas en la última entrega.
+• **dos de veinte firman, en el tema donde todo pasa por seis caminos** — Seis caminos para salir y dos firmas en la puerta: lo demás es fe.
 • **2 de 20 publican huella**: **2 sumas** repartidas entre **237 adjuntos**.
 • Los que firman: **windtf/wireproxy** (1 de 14) · **nextdns/nextdns** (1 de 80).
 • El de más estrellas: **mitmproxy/mitmproxy**, ★46.751, 0 sumas de 0 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P08-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Seis caminos y dos firmas: el resto es costumbre.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 08. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

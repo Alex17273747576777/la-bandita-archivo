@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **14** repositorios vivos: **98.580 estrellas** (mediana 2.016) y **885.683 descargas** declaradas en la última entrega.
+• **una de catorce firma, y la que firma lo hace mejor que nadie en la serie** — Veintiocho... perdón, veintitrés: una de catorce, y la que firma supera a las 45 piezas anteriores.
 • **1 de 14 publican huella**: **9 sumas** repartidas entre **33 adjuntos**.
 • Los que firman: **EFForg/apkeep** (9 de 18).
 • El de más estrellas: **awesome-foss/awesome-sysadmin**, ★35.650, 0 sumas de aquí no hay adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P23-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Una de catorce, y esa una firma mejor que las 45 piezas anteriores: no es consuelo, es un dato.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 23. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **18** repositorios vivos: **141.612 estrellas** (mediana 2.830) y **469.721 descargas** declaradas en la última entrega.
+• **cero de dieciocho firman, y el archivo que bajas abre lo que tú le señales** — Un lector sin firma abre cualquier cosa: eso es lo que un lector sin firma es.
 • **cero de 18 publican huella** — el cero absoluto de la serie: **0 sumas** repartidas entre **46 adjuntos**.
 • Los que firman: **ninguno**.
 • El de más estrellas: **kovidgoyal/calibre**, ★26.392, 0 sumas de 6 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P11-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Un lector que abre cualquier cosa es exactamente eso, y no hay que adornarlo.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 11. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

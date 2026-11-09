@@ -42,3 +42,16 @@ LQM infinitamente :3
 ───────────────────
 
 💓 *La Bandita · domingo 1 de noviembre de 2026 · Santo Domingo.* Los cuatro enlaces recomendados se volvieron a medir a las 06:15 y respondieron 200. Las páginas de mods, ROMs y APKs modificados se nombran sin enlace por regla de esta casa: se informan, no se reparten. Lo que no medí está dicho como no medido.
+
+*El que lleva cinco años bajando APKs de la primera página no necesita otra app: necesita mirar la suma del archivo una vez.*
+
+🗒️ *Notas al pie*
+
+- *Los enlaces de este post se midieron el 1 de noviembre de 2026 y respondieron; si alguno cae, el post queda viejo y se corrige con la fecha nueva al lado.* (9-nov)
+- *Ningún enlace de esta publicación lleva a un espejo ni a un mod: lo que no se pudo comprobar, aquí no se enlaza.* (9-nov)
+*Enlaces completos, uno por línea:*
+
+- fmhy.net: https://fmhy.net/
+- virgil.samidy.com: https://virgil.samidy.com/
+- komistore.app: https://komistore.app/
+- appteka.store: https://appteka.store/

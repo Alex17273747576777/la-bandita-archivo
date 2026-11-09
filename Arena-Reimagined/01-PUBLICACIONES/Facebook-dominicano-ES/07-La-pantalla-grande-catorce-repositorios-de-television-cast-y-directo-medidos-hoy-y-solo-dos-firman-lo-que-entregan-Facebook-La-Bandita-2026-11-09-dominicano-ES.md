@@ -151,6 +151,7 @@ Cada cifra sale de `docs/MEDICION-P07-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. «Sin entrega» no es «muerto»: puede haber código actualizándose sin publicar adjuntos.
 3. Los proyectos pequeños también publican sumas; no es una costumbre de los grandes.
 4. Las estrellas miden atención, no calidad.
+5. *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)
 
 ───────────────────
 

@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **18** repositorios vivos: **116.202 estrellas** (mediana 2.899) y **386.433 descargas** declaradas en la última entrega.
+• **dos de dieciocho firman, y el que nació hace un año es uno de ellos** — Reemplazar es fácil; responder por el reemplazo, no tanto: dos de dieciocho.
 • **2 de 18 publican huella**: **3 sumas** repartidas entre **221 adjuntos**.
 • Los que firman: **SurgeDM/Surge** (2 de 14) · **trizen/youtube-viewer** (1 de 1).
 • El de más estrellas: **fastfetch-cli/fastfetch**, ★25.315, 0 sumas de 69 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P12-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Reemplazar un programa no es el problema; es el reemplazo el que tiene que dar la cara.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 12. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

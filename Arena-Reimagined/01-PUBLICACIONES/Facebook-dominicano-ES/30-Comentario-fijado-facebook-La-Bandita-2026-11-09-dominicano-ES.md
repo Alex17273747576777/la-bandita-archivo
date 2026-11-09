@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **14** repositorios vivos: **1.074.834 estrellas** (mediana 49.576) y **0 descargas** declaradas en la última entrega.
+• **cero de catorce firman, porque en este tema no hay archivo que firmar** — Cero de catorce y 1.074.834 estrellas: aquí no hay archivo que bajar, y por eso no hay nada que firmar.
 • **cero de 14 publican huella** — el cero absoluto de la serie: **0 sumas** repartidas entre **0 adjuntos**.
 • Los que firman: **ninguno**.
 • El de más estrellas: **awesome-selfhosted/awesome-selfhosted**, ★335.328, 0 sumas de 0 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P30-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Aquí el cero tiene motivo: no hay archivo. El motivo se publica igual que el cero.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 30. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

@@ -250,6 +250,7 @@ Solución: el proyecto es nuevo. Considera esperar a que tenga más historial an
 • Las cifras son válidas solo para el momento en que se leyeron. Una medición es una instantánea, no un juicio permanente.
 • OmniShizuku tiene catorce días de vida y publicó una entrega hoy mismo. Ambas situaciones son reales y verificables en su repositorio.
 • Los cinco contribuidores incluyen cuatro bots automatizados; el desarrollo humano activo puede ser menor de lo que sugieren las cifras de commits.
+- *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)
 
 ─────────────────────────────────────
 

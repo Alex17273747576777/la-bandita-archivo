@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **commits en el historial del archivo**: 320
+• **320 commits en el historial y una sola cosa que no se puede deshacer** — El archivo sí registra: el día que la Ballenita vuelve, queda la fecha en el historial.
 • **días distintos con al menos un commit**: 11
 • **primer día con commit**: 2026-10-29
 • **último día con commit**: 2026-11-09
@@ -21,4 +22,11 @@ Lo que dicen los números medidos:
 **7 hechos con valor medido, 1 sin valor.** Los mismos del cuerpo:
 ninguno se escribe aquí si no está allá.
 
-💓 La Bandita informa. Lo que no se midió, aquí no se escribe.
+*💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*El archivo registra; la salud no. La fecha sí, y con eso se trabaja.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 35. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

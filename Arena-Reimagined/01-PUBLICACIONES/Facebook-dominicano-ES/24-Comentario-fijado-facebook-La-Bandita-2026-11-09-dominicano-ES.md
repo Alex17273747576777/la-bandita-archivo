@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **14** repositorios vivos: **28.053 estrellas** (mediana 408) y **617.049 descargas** declaradas en la última entrega.
+• **cero de catorce firman, y el archivo trae el texto que lees** — El texto que lees llega por un archivo que nadie firma: cero de catorce.
 • **cero de 14 publican huella** — el cero absoluto de la serie: **0 sumas** repartidas entre **70 adjuntos**.
 • Los que firman: **ninguno**.
 • El de más estrellas: **SubtitleEdit/subtitleedit**, ★14.936, 0 sumas de 14 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P24-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*El texto que lees viene de un archivo que nadie firma. Ahí no hay metáfora.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 24. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

@@ -13,9 +13,7 @@
 ├── 🧪 De dónde salieron estos veinte
 ├── 🎧 Los veinte, uno por uno
 ├── 🔏 La huella · ocho que dicen, doce que callan
-├── 🏆 El de diecinueve días que da cátedra
-├── 🧾 Los extremos · doscientos setenta y siete mil contra mil setecientos
-├── 🌫️ El que no ha publicado nunca
+├── 🏆 El de diecinueve días · los extremos y el que no ha publicado nunca
 ├── 🛠️ Seis órdenes para comprobar cualquier archivo
 ├── ⚖️ Lo que cuesta, en tiempo y en confianza
 ├── 🚪 Lo que esta pieza no tiene
@@ -213,6 +211,7 @@ Cada cifra de esta pieza sale de `docs/MEDICION-P01-2026-11-09.json`, sacado de 
 2. «Sin adjuntos» no es lo mismo que «sin entrega»: un repositorio puede publicar una entrega sin archivos adjuntos.
 3. Las estrellas se midieron hoy y pueden cambiar mañana. Esta serie ya documentó un caso en el que bajaron.
 4. Los cuatro filtros están escritos en la pieza para que cualquiera pueda repetir la medición y llegar a los mismos veinte.
+5. *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)
 
 ───────────────────
 

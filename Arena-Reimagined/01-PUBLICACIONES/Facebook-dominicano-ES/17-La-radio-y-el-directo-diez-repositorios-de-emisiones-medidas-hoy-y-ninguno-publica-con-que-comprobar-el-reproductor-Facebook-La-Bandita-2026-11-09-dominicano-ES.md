@@ -147,6 +147,7 @@ Cada cifra sale de `docs/MEDICION-P17-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. La lista de canales es un segundo eslabón que la suma del programa no cubre.
 3. Las estrellas miden atención, no calidad.
 4. La corrección de esta pieza es parte de la pieza.
+5. *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)
 
 ───────────────────
 

@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **14** repositorios vivos: **183.958 estrellas** (mediana 9.183) y **3.454.770 descargas** declaradas en la última entrega.
+• **cinco de catorce firman: el mejor reparto de toda la serie** — Cinco de catorce: el mejor reparto de la serie está en el bloc de notas, que es donde menos se espera.
 • **5 de 14 publican huella**: **27 sumas** repartidas entre **157 adjuntos**.
 • Los que firman: **notepad-plus-plus/notepad-plus-plus** (15 de 28) · **pbek/QOwnNotes** (9 de 17).
 • El de más estrellas: **siyuan-note/siyuan**, ★47.143, 1 sumas de 14 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P26-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Cinco de catorce en el bloc de notas: el mejor reparto de la serie está donde nadie mira.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 26. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

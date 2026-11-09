@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **16** repositorios vivos: **224.487 estrellas** (mediana 4.119) y **406.351 descargas** declaradas en la última entrega.
+• **dos de dieciséis firman, y el que sí lo hace es el que más gente usa** — Descargar es un acto técnico: comparar la suma es el acto siguiente, y lo hace el que más usuarios tiene.
 • **2 de 16 publican huella**: **6 sumas** repartidas entre **76 adjuntos**.
 • Los que firman: **qbittorrent/qBittorrent** (5 de 10) · **TrackerControl/tracker-control-android** (1 de 3).
 • El de más estrellas: **ngosang/trackerslist**, ★55.634, 0 sumas de aquí no hay adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P15-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Descargar es un acto técnico; comparar la suma, el acto siguiente. Casi nadie da el segundo paso.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 15. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

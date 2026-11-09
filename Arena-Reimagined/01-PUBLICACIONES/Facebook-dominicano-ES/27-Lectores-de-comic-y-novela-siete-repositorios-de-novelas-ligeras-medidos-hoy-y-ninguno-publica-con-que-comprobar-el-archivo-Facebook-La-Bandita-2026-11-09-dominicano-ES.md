@@ -132,6 +132,7 @@ Cada cifra sale de `docs/MEDICION-P27-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. Un proyecto sin entregas recientes puede seguir sirviendo; lo que no hace es actualizarse.
 3. Las estrellas miden atención, no calidad.
 4. Dos de los siete proyectos de la tabla no son del tema, y se dice cuáles.
+5. *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)
 
 ───────────────────
 

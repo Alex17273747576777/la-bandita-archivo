@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **14** repositorios vivos: **46.817 estrellas** (mediana 1.816) y **124.792 descargas** declaradas en la última entrega.
+• **cero de catorce firman, y el archivo mueve millones de imágenes** — Millones de imágenes servidas y cero firmas: el volumen no es una garantía.
 • **cero de 14 publican huella** — el cero absoluto de la serie: **0 sumas** repartidas entre **35 adjuntos**.
 • Los que firman: **ninguno**.
 • El de más estrellas: **Huanshere/VideoLingo**, ★19.125, 0 sumas de 0 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P28-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Millones de imágenes y cero firmas: el volumen nunca fue una garantía.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 28. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

@@ -3,6 +3,23 @@
 
 ⏱️ *Lectura total: unos quince minutos · dos obras, una carta · Wikidata y MusicBrainz como fuentes fechadas · cero paquetes alojados*
 
+*🗺️ Mapa de esta pieza*
+
+```
+├── 🧱 La semilla · una película de 1997 y una carta de 2026
+├── ⚡ En una página · dos obras y una fecha
+├── 🎬 Good Will Hunting · la fecha que sostiene todo
+├── 🎵 Chuckie, Facundo y el potencial que no se gasta
+├── ⚠️ Las cadenas invisibles
+├── 🕯️ Lo que las dos tienen en común
+├── 🧾 La tabla · lo único que se midió
+├── 📌 La corrección de esta pieza
+├── 🚪 Lo que esta pieza no tiene
+├── ❓ Las preguntas del grupo
+└── 🌅 cierre · 🔗 cómo se comprobó · 🗒️ notas al pie
+```
+
+
 Good Will Hunting se estrenó el 5 de diciembre de 1997 según Wikidata, que declara tres estrenos distintos. Facundo Cabral nació el 22 de mayo de 1937 y murió el 9 de julio de 2011: 74 años. Y su discografía declarada en MusicBrainz son 31 discos, de los cuales 27 son álbumes, con el más antiguo fechado en 1971.
 
 Esos son los datos. Lo demás es una carta, y una carta no se mide.
@@ -100,3 +117,18 @@ Si algo de esto te sirve, haz una sola cosa: piensa en quién te está pidiendo 
 Cada fecha de esta pieza sale de `docs/MEDICION-P37-2026-11-09.json`: Wikidata para las fechas y MusicBrainz para los discos. Ningún dato se copió de un artículo ni se escribió de memoria.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Una fecha de 1997 sostiene una carta de 2026. Sin fecha, esta carta sería una opinión con música de fondo.*
+*Enlaces completos, uno por línea:*
+
+- Good Will Hunting en Wikidata: https://www.wikidata.org/wiki/Special:EntityData/Q193835.json
+- El otro identificador medido: https://www.wikidata.org/wiki/Special:EntityData/Q332035.json
+- MusicBrainz, los lanzamientos del artista: https://musicbrainz.org/ws/2/release-group?artist=d78185b7-a45e-4df5-ade0-9bae97f90d7e&fmt=json
+
+───────────────────
+
+*🗒️ Notas al pie*
+
+1. *La fecha de estreno (1997-12-05) es la que declara Wikidata en P577; no se contrastó con taquilla ni con cartelera.* (9-nov)
+2. *Los lanzamientos salen de MusicBrainz por identificador de artista, no de una búsqueda por nombre.* (9-nov)
+3. *Lo que la carta tiene de opinión va dicho como opinión; lo que tiene de fecha, con su fuente al lado.* (9-nov)

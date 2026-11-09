@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **7** repositorios vivos: **7.873 estrellas** (mediana 494) y **15.109 descargas** declaradas en la última entrega.
+• **cero de siete firman, y solo dos empujaron código esta semana** — Siete repositorios, dos con trabajo reciente y ninguno que firme: el silencio se sostiene solo.
 • **cero de 7 publican huella** — el cero absoluto de la serie: **0 sumas** repartidas entre **35 adjuntos**.
 • Los que firman: **ninguno**.
 • El de más estrellas: **lncrawl/lightnovel-crawler**, ★2.696, 0 sumas de 4 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P27-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Siete repositorios, dos activos y ningún recibo: el silencio no necesita mantenimiento.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 27. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

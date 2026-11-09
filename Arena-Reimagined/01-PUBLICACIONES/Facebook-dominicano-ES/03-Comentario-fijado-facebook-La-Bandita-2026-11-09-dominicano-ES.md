@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **13** repositorios vivos: **130.175 estrellas** (mediana 3.467) y **754.178 descargas** declaradas en la última entrega.
+• **dos de trece firman, y el de setenta mil estrellas no es uno de ellos** — La caja fuerte la abre cualquiera: el que más brilla no es el que más enseña.
 • **2 de 13 publican huella**: **21 sumas** repartidas entre **65 adjuntos**.
 • Los que firman: **keepassxreboot/keepassxc** (17 de 51) · **evpo/EncryptPad** (4 de 8).
 • El de más estrellas: **dani-garcia/vaultwarden**, ★70.471, 0 sumas de 0 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P03-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Una caja fuerte sin recibo es una caja fuerte que solo abre por confianza.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 03. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

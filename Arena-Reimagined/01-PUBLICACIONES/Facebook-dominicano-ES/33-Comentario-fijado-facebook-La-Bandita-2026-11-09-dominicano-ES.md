@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **9** repositorios vivos: **29.364 estrellas** (mediana 617) y **28.730 descargas** declaradas en la última entrega.
+• **una de nueve firma, y el ecosistema entero depende de una sola persona** — Nueve proyectos y una firma, sostenidos por gente que en varios casos es una sola persona.
 • **1 de 9 publican huella**: **1 sumas** repartidas entre **50 adjuntos**.
 • Los que firman: **gabe565/CastSponsorSkip** (1 de 17).
 • El de más estrellas: **ajayyy/SponsorBlock**, ★14.055, 0 sumas de 7 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P33-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Nueve proyectos, una firma y varias personas solas detrás: el ecosistema se sostiene en muy poco.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 33. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **16** repositorios vivos: **71.978 estrellas** (mediana 2.850) y **948.045 descargas** declaradas en la última entrega.
+• **dos de dieciséis firman, y el archivo se conecta a tu cuenta con una contraseña** — Cuando el programa usa tu contraseña, la suma del archivo deja de ser un detalle fino: es el recibo.
 • **2 de 16 publican huella**: **4 sumas** repartidas entre **90 adjuntos**.
 • Los que firman: **SimoHypers/limusic** (3 de 11) · **kyleneideck/BackgroundMusic** (1 de 3).
 • El de más estrellas: **kyleneideck/BackgroundMusic**, ★19.380, 1 sumas de 3 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P14-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Cuando el programa guarda tu contraseña, el recibo del archivo es lo que te queda.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 14. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

@@ -163,3 +163,4 @@ Cada cifra sale de `docs/MEDICION-P19-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. El permiso prestado se puede revocar; el root, a veces no. Eso no sustituye la verificación del archivo.
 3. Las estrellas miden atención, no calidad.
 4. Un proyecto puede aparecer en varias piezas si su descripción toca varios temas: se dice, no se esconde.
+5. *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)

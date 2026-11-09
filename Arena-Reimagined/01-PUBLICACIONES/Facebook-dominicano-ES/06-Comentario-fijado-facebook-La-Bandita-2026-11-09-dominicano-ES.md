@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **16** repositorios vivos: **87.510 estrellas** (mediana 1.181) y **4.445.272 descargas** declaradas en la última entrega.
+• **una de dieciséis firma, con más de cuatro millones de descargas en juego** — Un parche se firma o no se firma; aquí, quince talleres de dieciséis no dicen nada.
 • **1 de 16 publican huella**: **1 sumas** repartidas entre **309 adjuntos**.
 • Los que firman: **BornToBeRoot/NETworkManager** (1 de 4).
 • El de más estrellas: **valinet/ExplorerPatcher**, ★34.259, 0 sumas de 2 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P06-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Un parche sin firma es un parche que confías porque alguien lo dijo en un foro.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 06. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

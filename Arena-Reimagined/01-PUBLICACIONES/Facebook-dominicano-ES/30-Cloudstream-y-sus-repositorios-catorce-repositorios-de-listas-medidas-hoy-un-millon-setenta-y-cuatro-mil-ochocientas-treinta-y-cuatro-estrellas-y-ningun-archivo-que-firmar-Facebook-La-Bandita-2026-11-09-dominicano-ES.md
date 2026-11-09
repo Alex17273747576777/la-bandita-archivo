@@ -170,6 +170,7 @@ Cada cifra sale de `docs/MEDICION-P30-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. El historial de cambios de un repositorio es una forma débil de verificación, y es la única que hay para una lista.
 3. Las estrellas miden atención, no calidad: este tema lo demuestra con un millón.
 4. Esta pieza tenía un párrafo repetido tres veces y se dice aquí, no se borra en silencio.
+5. *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)
 
 ───────────────────
 

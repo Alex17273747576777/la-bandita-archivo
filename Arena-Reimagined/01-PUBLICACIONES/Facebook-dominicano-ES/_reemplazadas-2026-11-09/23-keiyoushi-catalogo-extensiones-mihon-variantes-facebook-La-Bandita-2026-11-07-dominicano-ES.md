@@ -241,6 +241,7 @@ Antes de agregar cualquier repositorio de extensiones, el usuario verifica la fe
 • Keiyoushi tiene 15.447 estrellas y 1.363 forks, lo que lo convierte en uno de los repositorios de extensiones más grandes para Mihon.
 • El repositorio no declara una licencia SPDX, lo que crea incertidumbre sobre las condiciones de distribución del índice público.
 • Cada ficha de medición queda guardada con su fecha y hora, y ninguna se sobrescribe.
+- *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)
 
 ───────────────────
 

@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **16** repositorios vivos: **88.001 estrellas** (mediana 3.393) y **2.303.102 descargas** declaradas en la última entrega.
+• **dos de dieciséis firman, y es lo que más se instala y menos se revisa** — El lanzador es lo primero que ves y lo último que compruebas: dos de dieciséis lo firman.
 • **2 de 16 publican huella**: **4 sumas** repartidas entre **77 adjuntos**.
 • Los que firman: **albertlauncher/albert** (2 de 6) · **jnsh/arc-theme** (2 de 3).
 • El de más estrellas: **Wox-launcher/Wox**, ★27.615, 0 sumas de 7 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P20-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Lo primero que ves es lo último que revisas; ahí está el dos de dieciséis.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 20. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

@@ -161,6 +161,7 @@ Cada cifra sale de `docs/MEDICION-P20-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. Un cambio de firma entre versiones es más grave que no tener suma: significa que la actualización no la hizo el mismo.
 3. Las estrellas miden atención, no calidad.
 4. Las descargas declaradas cuentan todas las versiones, no solo la última.
+5. *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)
 
 ───────────────────
 

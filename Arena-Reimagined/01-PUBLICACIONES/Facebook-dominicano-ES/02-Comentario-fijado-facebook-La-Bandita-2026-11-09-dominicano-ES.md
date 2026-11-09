@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **24** repositorios vivos: **111.021 estrellas** (mediana 2.143) y **1.223.313 descargas** declaradas en la última entrega.
+• **cuatro de veinticuatro firman, y el más nuevo de la lista es uno de ellos** — En audio, el que acaba de llegar firma; los veteranos, no.
 • **4 de 24 publican huella**: **9 sumas** repartidas entre **125 adjuntos**.
 • Los que firman: **mkckr0/audio-share** (4 de 8) · **SimoHypers/limusic** (3 de 11).
 • El de más estrellas: **ExistentialAudio/BlackHole**, ★20.028, 0 sumas de 0 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P02-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*En audio no se oye la firma: se comprueba con el archivo en la mano.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 02. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

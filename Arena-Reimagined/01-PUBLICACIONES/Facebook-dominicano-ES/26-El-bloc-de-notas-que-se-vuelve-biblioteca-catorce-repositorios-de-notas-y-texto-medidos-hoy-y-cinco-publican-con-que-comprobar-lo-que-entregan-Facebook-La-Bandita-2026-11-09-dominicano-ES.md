@@ -149,3 +149,4 @@ Cada cifra sale de `docs/MEDICION-P26-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. Un programa que no exporta tus notas te retiene. Eso no se mide con una suma.
 3. Las estrellas miden atención, no calidad.
 4. Quince sumas de veintiocho adjuntos es la cifra más alta de una sola pieza en toda la serie.
+5. *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)

@@ -145,3 +145,4 @@ Cada cifra sale de `docs/MEDICION-P29-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. Ninguna herramienta de imágenes debe trabajar sobre el original sin copia.
 3. Las estrellas miden atención, no calidad.
 4. Una biblioteca de fotos es un archivo que no se puede reconstruir: la copia importa más que la suma.
+5. *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)

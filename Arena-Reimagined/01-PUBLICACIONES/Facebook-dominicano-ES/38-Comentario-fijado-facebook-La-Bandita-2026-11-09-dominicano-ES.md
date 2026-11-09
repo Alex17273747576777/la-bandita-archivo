@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **franquicia · identificador Wikidata**: Q2081372
+• **tres películas comprobadas una por una y una franquicia con identificador** — Kung Fu Panda: tres películas y ocho años, cada una con su fecha. La franquicia tiene QID; la memoria no.
 • **franquicia · año de inicio declarado**: 2008
 • **películas comprobadas una por una**: 3
 • **películas con fecha de estreno declarada**: 3
@@ -20,4 +21,11 @@ Lo que dicen los números medidos:
 **6 hechos con valor medido, 1 sin valor.** Los mismos del cuerpo:
 ninguno se escribe aquí si no está allá.
 
-💓 La Bandita informa. Lo que no se midió, aquí no se escribe.
+*💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Tres películas, tres fechas y una franquicia con identificador: la memoria no hace falta aquí.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 38. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

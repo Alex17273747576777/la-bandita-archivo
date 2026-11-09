@@ -332,6 +332,7 @@ Umi-OCR lleva doce meses sin publicar una entrega nueva. No está abandonada del
 • Los límites del OCR actual son limitaciones generales de la tecnología, no defectos específicos de Umi-OCR o episteme.
 • Los casos de uso prácticos son ejemplos ilustrativos de cómo se podrían usar las herramientas; no son pruebas de funcionamiento en equipos específicos.
 • Las alternativas y categorías describen tipos generales de software de OCR; no son recomendaciones de productos específicos.
+- *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)
 
 ───────────────────
 

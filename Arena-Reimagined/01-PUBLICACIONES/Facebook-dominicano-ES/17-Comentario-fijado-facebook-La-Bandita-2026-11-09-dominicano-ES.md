@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **10** repositorios vivos: **23.100 estrellas** (mediana 306) y **68.229 descargas** declaradas en la última entrega.
+• **cero de diez firman, y el enlace del directo dura un minuto** — Un enlace que caduca en un minuto y diez repositorios que no firman: dos formas de no dejar rastro.
 • **cero de 10 publican huella** — el cero absoluto de la serie: **0 sumas** repartidas entre **40 adjuntos**.
 • Los que firman: **ninguno**.
 • El de más estrellas: **iptv-org/awesome-iptv**, ★12.850, 0 sumas de aquí no hay adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P17-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Un enlace de un minuto y diez repositorios sin firma: dos maneras de que nada quede.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 17. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

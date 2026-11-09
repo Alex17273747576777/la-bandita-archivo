@@ -3,6 +3,23 @@
 
 ⏱️ *Lectura total: unos quince minutos · ocho dominios medidos con RDAP, DNS y HTTPS · lo que el acta dice y lo que ya no dice · cero paquetes alojados*
 
+*cuatro dominios de ocho que ni resuelven — Tres responden 200 y cinco no: el acta dice lo que hay, no lo que uno quisiera.*
+
+*🗺️ Mapa de esta pieza*
+
+```
+├── 🧱 La semilla · tres dominios y ninguno responde
+├── ⚡ En una página · los ocho, en una tabla
+├── 🔎 El RDAP · lo que no se puede falsificar
+├── 🌐 DNS y HTTPS · lo que responde y lo que no
+├── 📌 La corrección de esta pieza
+├── 🛠️ Cuatro órdenes para comprobar esta pieza
+├── 🚪 Lo que esta pieza no tiene
+├── ❓ Las preguntas del grupo
+└── 🌅 cierre · 🔗 cómo se comprobó · 🗒️ notas al pie
+```
+
+
 Tu Manga Online, medido hoy: de ocho dominios del caso, cuatro resuelven por DNS y cuatro no existen para el resolvedor. De los cuatro que resuelven, tres responden 200 por HTTPS. Y solo tres de los ocho tienen un registro RDAP legible, que es el único documento que no se puede falsificar sobre quién es dueño de un nombre.
 
 Esta pieza ya existía, del 8 de noviembre, y su cifra estrella —«tres dominios registrados, ninguno responde»— aguantó. Lo que faltaba era el método completo.
@@ -96,3 +113,17 @@ Si algo de esto te sirve, haz una sola cosa: la próxima vez que un sitio «desa
 Cada cifra de esta pieza sale de `docs/MEDICION-P36-2026-11-09.json`, medido hoy: RDAP de Verisign para `.com`, `dig` para la resolución y cabecera HTTPS para ver si atiende. Ningún dato se copió de un artículo.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Cuatro de ocho dominios no resuelven. Publicarlo no es el fracaso de la pieza: es la pieza.*
+*Enlaces completos, uno por línea:*
+
+- El sitio medido, Zona TMO: https://zonatmo.com
+- RDAP de Verisign, el registro de ese dominio: https://rdap.verisign.com/com/v1/domain/zonatmo.com
+
+───────────────────
+
+*🗒️ Notas al pie*
+
+1. *Los ocho dominios se consultaron por RDAP de Verisign y por DNS el mismo día; el resultado de hoy no promete el de mañana.* (9-nov)
+2. *«No resuelve» significa que la consulta DNS no devolvió dirección, no que el sitio esté muerto para siempre.* (9-nov)
+3. *Una cabecera HTTPS 200 se leyó sin descargar el contenido: se midió la respuesta, no la página.* (9-nov)

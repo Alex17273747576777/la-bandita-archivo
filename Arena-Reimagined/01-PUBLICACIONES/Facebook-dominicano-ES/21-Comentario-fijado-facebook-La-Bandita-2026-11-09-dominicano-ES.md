@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **11** repositorios vivos: **17.092 estrellas** (mediana 1.229) y **24.071 descargas** declaradas en la última entrega.
+• **cero de once firman, y el programa ya no es el original** — Una bifurcación sin firma es una bifurcación: cero de once.
 • **cero de 11 publican huella** — el cero absoluto de la serie: **0 sumas** repartidas entre **10 adjuntos**.
 • Los que firman: **ninguno**.
 • El de más estrellas: **fork-maintainers/iceraven-browser**, ★6.567, 0 sumas de 3 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P21-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Bifurcar no es el problema; no firmar la bifurcación, tampoco: es simplemente lo que hay.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 21. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

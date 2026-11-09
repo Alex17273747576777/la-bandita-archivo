@@ -31,3 +31,8 @@ LQM infinitamente :3
 ───────────────────
 
 💓 *La Bandita · martes 3 de noviembre de 2026 · Santo Domingo.* Todo lo de arriba se midió hoy con la API de GitHub a las 08:20: estrellas, fechas de creación y de último empujón, licencia, versiones y adjuntos. El Scorecard del original es del 24 de agosto de 2026, y esa fecha se declara porque es la de la medición, no la de hoy. Lo que no medí no lo escribí. Y lo que cambie mañana lo dirá la próxima entrega, con su fecha.
+
+🗒️ *Notas al pie*
+
+- *Los enlaces de este post se midieron el 3 de noviembre de 2026 y respondieron; si alguno cae, el post queda viejo y se corrige con la fecha nueva al lado.* (9-nov)
+- *Ningún enlace de esta publicación lleva a un espejo ni a un mod: lo que no se pudo comprobar, aquí no se enlaza.* (9-nov)

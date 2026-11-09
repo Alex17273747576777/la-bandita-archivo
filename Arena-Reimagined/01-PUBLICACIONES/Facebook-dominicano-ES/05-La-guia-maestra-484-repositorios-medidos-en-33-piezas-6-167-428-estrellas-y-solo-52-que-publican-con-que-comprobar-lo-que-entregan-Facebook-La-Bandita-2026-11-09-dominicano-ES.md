@@ -5,6 +5,8 @@
 
 ⏱️ *Lectura total: unos veinticinco minutos · cuatrocientas ochenta y cuatro repositorios medidos uno por uno en 33 piezas · 6.167.428 estrellas entre todos · cuatrocientos ochenta y cuatro fichas · ciento cuarenta y cuatro sumas · cincuenta y dos proyectos que firman · cero archivos alojados aquí*
 
+*de 484 repositorios medidos, 52 dicen con qué comprobarlos — Uno de cada nueve deja el recibo; los otros 432, no.*
+
 *🗺️ Mapa de esta pieza*
 
 ```
@@ -25,6 +27,16 @@
 Cuatrocientas ochenta y cuatro repositorios vivos, medidos el 9 de noviembre de 2026 contra la API pública de GitHub. Suman **6.167.428 estrellas** y **28.197.220 descargas** declaradas en su última entrega. La mediana de estrellas es **3.253**. **Cincuenta y dos de cuatrocientas ochenta y cuatro** publican la huella de lo que entregan: **144 sumas** repartidas entre **3.337 adjuntos**. **Cuarenta** no declaran licencia, **doscientas treinta y ocho** empujaron código en los últimos siete días y **ciento siete** no han publicado nunca una entrega.
 
 **Cuatrocientos ochenta y cuatro repositorios. Ciento cuarenta y cuatro archivos de comprobación. Cincuenta y dos proyectos que firman.** Eso es un **10,7 por ciento**. Nueve de cada diez proyectos de este archivo entregan archivos sin decirte cómo comprobarlos.
+
+───────────────────
+
+*⚡ En una página*
+
+Cuatrocientas ochenta y cuatro fichas medidas una por una, y una sola pregunta detrás de todas: quién deja con qué comprobar el archivo que entrega. La respuesta es **52 de 484**. Uno de cada nueve.
+
+Ese uno de cada nueve no se reparte parejo: se concentra. Hay temas enteros donde no firma nadie —las tiendas de extensiones, los lectores, los teclados— y hay tres o cuatro proyectos que firman casi todo lo que publican y arrastran la cifra del conjunto hacia arriba. Quitar uno de esos proyectos cambia el total de la serie, y por eso esta guía publica las dos cuentas.
+
+Lo tercero que hay que decir es lo que esta guía no es: no es una recomendación. Mide lo que se puede medir —estrellas, adjuntos, sumas, licencias, fechas— y no dice cuál programa es mejor. Un programa con cero sumas puede ser excelente y un programa firmado puede ser malo; lo que la firma te da no es calidad, es un recibo.
 
 ───────────────────
 
@@ -192,3 +204,4 @@ Cada cifra de las 33 piezas se cotejó con `tools/coteja.py` contra su propio JS
 2. «Sin entrega» no es «muerto»: el repositorio puede actualizarse y no publicar adjuntos.
 3. Las piezas 35 a 40 no son de medición: son personales, y esta guía no las suma.
 4. Los datos están en el repositorio público, junto a la página `web/index.html` con las 3.116 fichas buscables.
+5. *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)

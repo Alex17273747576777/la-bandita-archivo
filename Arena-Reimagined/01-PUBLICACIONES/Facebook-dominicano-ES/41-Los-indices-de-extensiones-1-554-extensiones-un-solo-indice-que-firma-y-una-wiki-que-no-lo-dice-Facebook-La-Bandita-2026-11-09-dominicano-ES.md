@@ -108,3 +108,9 @@ Eso es lo que se puede aportar y es lo que se propone en el issue: no una secci�
 Cada cifra de esta pieza sale de `docs/MEDICION-P41-2026-11-09.json`: los tres índices consultados por HTTPS y el clon de FMHY para los recuentos. Ningún dato se copió de un artículo ni se estimó.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Un índice firmado que la wiki no menciona: la firma existe y nadie la usa como argumento. Ahí está el hueco.*
+*Enlaces completos, uno por línea:*
+
+- El índice real de keiyoushi/extensions: https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.json
+5. *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)

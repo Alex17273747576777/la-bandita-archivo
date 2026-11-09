@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **38** repositorios vivos: **37.188 estrellas** (mediana 47) y **89.546 descargas** declaradas en la última entrega.
+• **cero de 38 publican huella: el cero absoluto de la serie** — 38 índices, 148 adjuntos y ninguna suma: el cero más grande de las 45 piezas.
 • **cero de 38 publican huella** — el cero absoluto de la serie: **0 sumas** repartidas entre **148 adjuntos**.
 • Los que firman: **ninguno**.
 • El de más estrellas: **keiyoushi/extensions**, ★15.472, 0 sumas de 48 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P42-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Cero de treinta y ocho. El cero más grande de la serie, y no hay forma de contarlo mejor.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 42. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

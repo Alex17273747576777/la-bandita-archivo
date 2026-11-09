@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **14** repositorios vivos: **919.016 estrellas** (mediana 16.830) y **0 descargas** declaradas en la última entrega.
+• **cero de catorce firman, con 919.016 estrellas y ningún archivo que bajar** — Novecientas diecinueve mil estrellas y cero firmas: no hay archivo, no hay recibo.
 • **cero de 14 publican huella** — el cero absoluto de la serie: **0 sumas** repartidas entre **0 adjuntos**.
 • Los que firman: **ninguno**.
 • El de más estrellas: **EbookFoundation/free-programming-books**, ★401.349, 0 sumas de aquí no hay adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P25-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Novecientas mil estrellas no son un archivo; sin archivo, no hay recibo que pedir.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 25. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

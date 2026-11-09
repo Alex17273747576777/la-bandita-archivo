@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **20** repositorios vivos: **452.659 estrellas** (mediana 6.953) y **909.765 descargas** declaradas en la última entrega.
+• **ocho de veinte firman, y el firmante más joven tiene diecinueve días** — El que mejor firma nació hace diecinueve días, mientras el de 277.160 estrellas entrega sin decir con qué.
 • **8 de 20 publican huella**: **25 sumas** repartidas entre **239 adjuntos**.
 • Los que firman: **xevrion/hatchzip** (13 de 27) · **KnifeLemon/Filee** (5 de 13).
 • El de más estrellas: **deepseek-ai/deepseek-harness**, ★277.160, 0 sumas de 0 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P01-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*El silencio de doce de veinte no es un delito: es un hueco, y un hueco se mide.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 01. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

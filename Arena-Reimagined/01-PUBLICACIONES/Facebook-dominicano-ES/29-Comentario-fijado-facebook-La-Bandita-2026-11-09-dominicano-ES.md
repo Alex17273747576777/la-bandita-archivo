@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **14** repositorios vivos: **195.595 estrellas** (mediana 11.676) y **1.814.981 descargas** declaradas en la última entrega.
+• **una de catorce firma, y el proyecto de 63 adjuntos no es el que lo hace** — 63 adjuntos sin firma y una firma en otro sitio: el tamaño no firma.
 • **1 de 14 publican huella**: **1 sumas** repartidas entre **116 adjuntos**.
 • Los que firman: **LibrePhotos/librephotos** (1 de 3).
 • El de más estrellas: **photoprism/photoprism**, ★40.422, 0 sumas de 2 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P29-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Sesenta y tres adjuntos sin firma y una firma en otra parte: el tamaño no firma.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 29. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

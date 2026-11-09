@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **14** repositorios vivos: **339.471 estrellas** (mediana 5.346) y **227.894 descargas** declaradas en la última entrega.
+• **dos de catorce firman el archivo, pero un dominio se mide sin pedir permiso** — Un dominio se mide sin permiso y sin firma: por eso el RDAP vale más que la palabra del dueño.
 • **2 de 14 publican huella**: **2 sumas** repartidas entre **220 adjuntos**.
 • Los que firman: **nextdns/nextdns** (1 de 80) · **WhiteDNS/WhiteDNS-Android** (1 de 12).
 • El de más estrellas: **DigitalPlatDev/FreeDomain**, ★207.640, 0 sumas de aquí no hay adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P32-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Un dominio se mide sin pedir permiso; el registro no se puede falsificar. Por eso vale.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 32. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

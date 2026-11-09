@@ -3,6 +3,22 @@
 
 ⏱️ *Lectura total: unos veinte minutos · una vida de 26 años y 24 agrupaciones declaradas · Wikidata y MusicBrainz · cero paquetes alojados*
 
+*🗺️ Mapa de esta pieza*
+
+```
+├── 🧱 La semilla · veintiséis años que caben en una ficha
+├── ⚡ En una página · los números de una vida
+├── 🎤 Canserbero · las fechas que sí están
+├── 💿 Las veinticuatro agrupaciones
+├── 🧾 La tabla · lo único que se midió
+├── 🛠️ Cuatro órdenes para comprobar esta pieza
+├── 📌 La corrección de esta pieza
+├── 🚪 Lo que esta pieza no tiene
+├── ❓ Las preguntas del grupo
+└── 🌅 cierre · 🔗 cómo se comprobó · 🗒️ notas al pie
+```
+
+
 Canserbero nació el 11 de marzo de 1988 y murió el 19 de enero de 2015, según el primer valor que declara Wikidata: **26 años**. Su ficha declara **dos fechas de muerte distintas**, que es lo que pasa cuando un hecho es tan discutido que ni una base de datos abierta se pone de acuerdo. Su obra declarada en MusicBrainz son **24** agrupaciones: **8** álbumes y **1** EP.
 
 Esos son los datos, y son pocos para lo que fue. Lo que sigue es lo que se puede escribir sin rellenar.
@@ -109,3 +125,17 @@ Si algo de esto te sirve, haz una sola cosa: hoy, escucha una canción completa 
 Cada cifra de esta pieza sale de `docs/MEDICION-P39-2026-11-09.json`: Wikidata para la vida y MusicBrainz para la obra. Ningún dato se copió de un artículo ni se escribió de memoria.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Veintiséis años con fecha de nacimiento y de muerte, y veinticuatro agrupaciones que siguieron saliendo.*
+*Enlaces completos, uno por línea:*
+
+- Canserbero en Wikidata: https://www.wikidata.org/wiki/Special:EntityData/Q18821745.json
+- MusicBrainz, los lanzamientos de Canserbero: https://musicbrainz.org/ws/2/release-group?artist=70a3344d-3f48-4843-ac93-e9e031d86b01&fmt=json
+
+───────────────────
+
+*🗒️ Notas al pie*
+
+1. *La fecha de nacimiento y la de muerte son las que declara su ficha; la diferencia se restó con datetime.* (9-nov)
+2. *Las 24 agrupaciones salen de los lanzamientos declarados en MusicBrainz, no de una lista de memoria.* (9-nov)
+3. *Aquí no hay ninguna cifra de ventas ni de reproducciones: no se midieron.* (9-nov)

@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **484** repositorios vivos: **6.167.428 estrellas** (mediana 3.253) y **28.197.220 descargas** declaradas en la última entrega.
+• **de 484 repositorios, 52 dicen con qué comprobarlos: uno de cada nueve** — La guía más grande de la serie es también la que más calla: 432 de 484 no publican cómo comprobar.
 • **52 de 484 publican huella**: **144 sumas** repartidas entre **3.337 adjuntos**.
 • Los que firman: **keepassxreboot/keepassxc** (17 de 51) · **notepad-plus-plus/notepad-plus-plus** (15 de 28).
 • El de más estrellas: **EbookFoundation/free-programming-books**, ★401.349, 0 sumas de aquí no hay adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P05-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Cuatrocientos ochenta y cuatro repositorios caben en una guía; cincuenta y dos firmas no llenan una página.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 05. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

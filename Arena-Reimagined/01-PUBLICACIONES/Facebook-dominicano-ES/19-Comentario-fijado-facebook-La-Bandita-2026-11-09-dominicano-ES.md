@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **16** repositorios vivos: **62.047 estrellas** (mediana 1.393) y **3.627.437 descargas** declaradas en la última entrega.
+• **dos de dieciséis firman, y aquí se toca el sistema por el cable** — Por el cable y sin root: dos de dieciséis firman lo que mandan por ADB.
 • **2 de 16 publican huella**: **2 sumas** repartidas entre **326 adjuntos**.
 • Los que firman: **BornToBeRoot/NETworkManager** (1 de 4) · **gaowanliang/DownloadBot** (1 de 15).
 • El de más estrellas: **NVIDIA/open-gpu-kernel-modules**, ★17.567, 0 sumas de 0 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P19-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Por el cable, sin root y con dos firmas: el sistema se toca igual de fácil.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 19. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

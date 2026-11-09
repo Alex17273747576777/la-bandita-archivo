@@ -3,6 +3,23 @@
 
 ⏱️ *Lectura total: unos quince minutos · el sha256 medido con hashlib sobre un archivo real · seis órdenes sin root · cero paquetes alojados*
 
+*64 dígitos, un byte cambiado y 62 que se mueven — Un byte distinto mueve sesenta y dos de los sesenta y cuatro: eso es una suma.*
+
+*🗺️ Mapa de esta pieza*
+
+```
+├── 🧱 La semilla · un byte cambiado y sesenta y dos dígitos que se mueven
+├── ⚡ En una página · los tres tamaños
+├── 🧩 Las tres cosas que un hash no te dice
+├── ⚖️ Los tres tamaños, en una línea cada uno
+├── 📌 La corrección de esta pieza
+├── 🛠️ Cuatro órdenes para comprobar esta pieza
+├── 🚪 Lo que esta pieza no tiene
+├── ❓ Las preguntas del grupo
+└── 🌅 cierre · 🔗 cómo se comprobó · 🗒️ notas al pie
+```
+
+
 Para esta pieza no cito a nadie: medí el hash yo mismo, aquí, con `hashlib`. Tomé un archivo de **3.461 bytes**, calculé su sha256 y me dio una huella de **64** dígitos hexadecimales. Después cambié **un solo byte** en el medio y volví a calcularlo: cambiaron **62 de los 64 dígitos**. Esa es toda la lección de esta pieza, y por eso vale la pena.
 
 ## 🔐 La semilla · comprobar sin confiar
@@ -95,3 +112,13 @@ Se publicó el 8 de noviembre explicando la lección sin haberla medido: decía 
 Si algo de esto te sirve, haz una sola cosa: la próxima descarga, antes de abrirla, corre `sha256sum`. Tarda menos que leer este párrafo.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Un byte cambiado movió sesenta y dos dígitos. No hay metáfora mejor de lo que un archivo es.*
+
+───────────────────
+
+*🗒️ Notas al pie*
+
+1. *El hash se calculó con hashlib sobre un archivo real del archivo, y otra vez sobre el mismo archivo con un byte cambiado.* (9-nov)
+2. *Los 62 dígitos que se mueven se contaron comparando las dos cadenas, posición por posición.* (9-nov)
+3. *Un hash dice que el archivo no cambió; no dice que el contenido sea verdad. Eso está en el cuerpo y se repite aquí.* (9-nov)

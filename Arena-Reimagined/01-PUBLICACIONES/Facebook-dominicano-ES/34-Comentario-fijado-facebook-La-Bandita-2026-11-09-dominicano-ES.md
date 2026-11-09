@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **12** repositorios vivos: **34.125 estrellas** (mediana 1.201) y **407.808 descargas** declaradas en la última entrega.
+• **una de doce firma, y es la que vuelve a armarlo todo** — Recuperar tu biblioteca lo hace una de doce, y es justo la que firma.
 • **1 de 12 publican huella**: **3 sumas** repartidas entre **35 adjuntos**.
 • Los que firman: **borgbackup/borg** (3 de 17).
 • El de más estrellas: **borgbackup/borg**, ★13.916, 3 sumas de 17 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P34-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Recuperar la biblioteca y firmarlo lo hace una de doce, y es la que vuelve a armarlo todo.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 34. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

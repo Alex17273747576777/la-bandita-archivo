@@ -187,3 +187,6 @@ Si algo de esto te sirve, haz una sola cosa: cuando añadas un repositorio a tu 
 Cada cifra de esta pieza sale de `docs/MEDICION-P42-2026-11-09.json`, medido hoy contra la API pública de GitHub.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Cero de treinta y ocho. El cero más grande de la serie, y no hay manera de contarlo mejor que con el cero.*
+5. *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)

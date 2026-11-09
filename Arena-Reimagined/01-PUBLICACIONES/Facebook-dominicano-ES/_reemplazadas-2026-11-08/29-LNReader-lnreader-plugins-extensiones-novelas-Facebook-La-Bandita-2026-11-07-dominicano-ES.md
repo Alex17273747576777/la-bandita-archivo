@@ -222,6 +222,7 @@ Antes de agregar cualquier repositorio de extensiones, el usuario verifica la fe
 • Esta pieza no repite el contenido de otras piezas de la serie La Bandita. Cada pieza tiene su propio tema, su propia fecha y su propia verificación independiente.
 • Los datos son válidos solo para el momento en que se leyeron. Una medición es una instantánea, no un juicio permanente.
 • Cada ficha de medición queda guardada con su fecha y hora, y ninguna se sobrescribe.
+- *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)
 
 ───────────────────
 

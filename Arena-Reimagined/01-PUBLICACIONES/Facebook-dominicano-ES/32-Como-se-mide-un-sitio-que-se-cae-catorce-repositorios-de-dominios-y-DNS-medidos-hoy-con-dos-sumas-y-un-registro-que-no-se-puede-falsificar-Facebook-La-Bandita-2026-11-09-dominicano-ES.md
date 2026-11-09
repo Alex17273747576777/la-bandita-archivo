@@ -165,6 +165,7 @@ Cada cifra sale de `docs/MEDICION-P32-2026-11-09.json`, sacado de `docs/CENSO-ME
 2. `clientHold` y `client transfer prohibited` no son lo mismo, y confundirlos cambia la conclusión.
 3. Las estrellas miden atención, no calidad.
 4. Las tres consultas del método no piden cuenta y no dejan rastro en ningún servicio de esta casa.
+5. *Estas notas se cerraron el lunes 9 de noviembre de 2026, el día en que la pieza se publicó; si alguna cifra cambia después, se corrige con la fecha nueva al lado.* (9-nov)
 
 ───────────────────
 
@@ -181,3 +182,7 @@ Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por
 Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
 
 - `iampedii/WhiteDNS` hoy responde como **`WhiteDNS/WhiteDNS-Android`**.
+*Enlaces completos, uno por línea:*
+
+- RDAP de Verisign, la consulta del registro: https://rdap.verisign.com/com/v1/domain/ejemplo.com
+- El dominio del ejemplo: https://ejemplo.com

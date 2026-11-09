@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **8** repositorios vivos: **104.543 estrellas** (mediana 1.563) y **63.295 descargas** declaradas en la última entrega.
+• **cero de ocho firman, y el teclado es lo que más sabe de ti** — Cero de ocho en el aparato que te oye escribir: no hace falta comentarlo más.
 • **cero de 8 publican huella** — el cero absoluto de la serie: **0 sumas** repartidas entre **86 adjuntos**.
 • Los que firman: **ninguno**.
 • El de más estrellas: **louislam/uptime-kuma**, ★93.406, 0 sumas de 1 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P16-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*El teclado te lee las manos: cero de ocho firmando es la frase entera.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 16. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

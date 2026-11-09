@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **18** repositorios vivos: **85.502 estrellas** (mediana 2.374) y **812.641 descargas** declaradas en la última entrega.
+• **cero de dieciocho firman: el primer cero absoluto de la serie** — Una tienda de extensiones que no firma su índice no es una tienda: es un buzón.
 • **cero de 18 publican huella** — el cero absoluto de la serie: **0 sumas** repartidas entre **57 adjuntos**.
 • Los que firman: **ninguno**.
 • El de más estrellas: **darkreader/darkreader**, ★22.577, 0 sumas de 5 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P10-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Una tienda sin firma en el índice no te tima: te deja sin con qué reclamar.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 10. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

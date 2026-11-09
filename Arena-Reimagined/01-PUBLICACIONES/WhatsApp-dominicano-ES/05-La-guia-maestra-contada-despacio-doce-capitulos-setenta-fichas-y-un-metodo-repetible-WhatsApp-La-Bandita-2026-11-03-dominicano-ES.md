@@ -4,6 +4,8 @@
 
 ⏱️ *Lectura total: 48 minutos · doce capítulos recorridos uno por uno · setenta fichas · doce de ellas contadas aquí con su licencia y su nota · la tabla completa al final · cero paquetes alojados · cero enlaces a espejos*
 
+*doce capítulos y setenta fichas — un método que se repite sin que nadie lo haya firmado*
+
 *🗺️ Mapa de esta guía*
 
 ```

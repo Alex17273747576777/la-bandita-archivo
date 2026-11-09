@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **20** repositorios vivos: **462.339 estrellas** (mediana 3.704) y **1.782.303 descargas** declaradas en la última entrega.
+• **cuatro de veinte firman, y el de 335.328 estrellas no es uno de ellos** — Guardar tus archivos es el tema que menos excusa tiene para no firmar, y cuatro de veinte lo hacen.
 • **4 de 20 publican huella**: **6 sumas** repartidas entre **94 adjuntos**.
 • Los que firman: **borgbackup/borg** (3 de 17) · **cloudreve/Cloudreve** (1 de 13).
 • El de más estrellas: **awesome-selfhosted/awesome-selfhosted**, ★335.328, 0 sumas de 0 adjuntos.
@@ -26,3 +27,10 @@ Lo que dicen los números medidos:
 Los datos en bruto, con los nombres de los 3.125 repositorios medidos, están en el repositorio público: `docs/CENSO-MEDIDO-2026-11-09.json` y `docs/MEDICION-P09-2026-11-09.json`.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Tus archivos no se van a ningún lado que no elijas; la suma te dice si llegaron enteros.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 09. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

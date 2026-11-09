@@ -10,6 +10,7 @@ Enlaces rápidos:
 
 Lo que dicen los números medidos:
 • **índices listados por Miyomi**: 47
+• **1.554 extensiones, un índice que firma y una wiki que no lo dice** — 1.554 extensiones en un índice firmado, y la wiki que lo promociona no lo menciona.
 • **índices con repositorio de GitHub declarado**: 42
 • **índices aprobados por el moderador**: 47
 • **índices con nota de moderador**: 1
@@ -21,4 +22,11 @@ Lo que dicen los números medidos:
 **25 hechos con valor medido, 0 sin valor.** Los mismos del cuerpo:
 ninguno se escribe aquí si no está allá.
 
-💓 La Bandita informa. Lo que no se midió, aquí no se escribe.
+*💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*Un índice firmado que la wiki no menciona: la firma existe y nadie la usa como argumento.*
+
+🗒️ *Notas al pie*
+
+- *Los números de este fijado son los mismos del cuerpo de la pieza 41. Si cambian allá, este queda mintiendo y se corrige el mismo día.* (9-nov)
+- *Lo que no se midió no se escribe aquí: la lista está en el cuerpo, en «Lo que esta pieza no tiene».* (9-nov)

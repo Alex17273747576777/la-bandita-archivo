@@ -3,6 +3,23 @@
 
 ⏱️ *Lectura total: unos quince minutos · testimonio personal · cronología medida del propio archivo · cero enlaces externos · cero paquetes alojados*
 
+*320 commits de historial y una sola cosa que no se puede deshacer — El archivo registra la fecha; la salud no se registra en ninguna parte.*
+
+*🗺️ Mapa de esta pieza*
+
+```
+├── 🧱 La semilla · lo que el archivo sí registra
+├── ⚡ En una página · el teléfono, contado sin adornos
+├── 📊 La tabla de los días · lo único que se midió
+├── 🧭 Lo que este silencio enseñó sobre la manada
+├── 📌 La corrección de esta pieza
+├── 🛠️ Cuatro órdenes para comprobar esta pieza
+├── 🚪 Lo que esta pieza no tiene
+├── ❓ Las preguntas del grupo
+└── 🌅 cierre · 🔗 cómo se comprobó · 🗒️ notas al pie
+```
+
+
 El archivo tiene 320 commits a lo largo de 11 días con al menos un commit cada uno: del 29 de octubre al 9 de noviembre de 2026. Hubo un solo hueco de un día entero sin ningún commit, entre el 30 de octubre y el 1 de noviembre. Esos son los números de este silencio y no otros: un día. Lo cuento porque en su momento pareció más.
 
 La Ballenita vuelve al mar, y esta vez con la cuenta hecha.
@@ -93,3 +110,13 @@ Un día de silencio, 320 commits, 40 piezas. No fue abandono: fue un chip, y un 
 Si algo de esto te sirve, haz una sola cosa: cuando pierdas el acceso a tu número, no empieces por la aplicación. Empieza por el número. La aplicación espera; el número, no.
 
 *💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*
+
+*El archivo registra cada día que la Ballenita no estuvo. Eso no es una disculpa: es lo único que no se puede reescribir.*
+
+───────────────────
+
+*🗒️ Notas al pie*
+
+1. *Los 320 commits se contaron sobre el historial del propio repositorio, con `git log --oneline | wc -l`. No es una estimación.* (9-nov)
+2. *La fecha del hueco se comprobó día por día con `git log --since` y `--until`; un día sin commits es un día sin commits.* (9-nov)
+3. *La salud no se mide aquí porque no hay fuente fechada que la mida: lo que no está, no se escribe.* (9-nov)
