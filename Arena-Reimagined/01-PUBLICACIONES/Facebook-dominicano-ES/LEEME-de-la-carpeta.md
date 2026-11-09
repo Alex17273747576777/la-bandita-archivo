@@ -29,7 +29,7 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 | 02 | La música que no se cae | 18.114 | 1.711 | Medida · 21 repos, 6 con huella |
 | 03 | La caja fuerte del bolsillo | 11.411 | 1.714 | Medida · 16 repos, 1 con huella |
 | 04 | La lista del permiso | 13.405 | 1.728 | Medida · 26 repos, 6 con huella |
-| 05 | La guía maestra | 46.761 | 3.331 | Medida · 70 fichas, 22 con huella |
+| 05 | La guía maestra | 10.158 | 1.767 | Medida · 70 fichas, 22 con huella |
 | 06 | El taller de los parches | 12.170 | 1.682 | Medida · 17 repos, 5 con huella (55 de 190 archivos) |
 | 07 | La pantalla grande | 11.140 | 1.699 | Medida · 17 repos, 4 con huella · gigantes re-verificados el 8-nov |
 | 08 | La red: seis caminos | 13.583 | 1.695 | Medida · 20 repos, 5 con huella |
@@ -57,8 +57,8 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 | 30 | Cloudstream MegaRepo | 12.135 | 1.681 | Una ficha medida |
 | 31 | El peso no es el problema | 8.828 | 1.648 | Medida de nuevo el 8-nov |
 | 32 | Tu Manga Online, sin lista de dominios | 11.025 | 1.701 | **Medida el 8-nov** · 9 lectores, 4.182 archivos, 0 huellas, uno que devuelve 404 |
-| 33 | Apoyo a desarrolladores | 11.244 | 2.042 | **Medida el 8-nov** · 9 proyectos, 977 archivos, 0 huellas, uno de 0 estrellas |
-| 34 | Biblioteca de Kototoro y v2.4 | 12.781 | 2.026 | **Medida el 8-nov** · 4 repos, 1.385 archivos, **102 sumas**: récord del día |
+| 33 | Apoyo a desarrolladores | 8.681 | 1.650 | **Medida el 8-nov** · 9 proyectos, 977 archivos, 0 huellas, uno de 0 estrellas |
+| 34 | Biblioteca de Kototoro y v2.4 | 9.614 | 1.645 | **Medida el 8-nov** · 4 repos, 1.385 archivos, **102 sumas**: récord del día |
 | 35 | La Ballenita vuelve al mar | 6.206 | 1.337 | Corta · personal |
 | 36 | Tu Manga Online, medido | 12.936 | 2.572 | **Medida el 8-nov** · 8 dominios sondeados: 3 registrados, 0 resolviendo |
 | 37 | Carta a la manada azul | 10.254 | 1.503 | Corta · personal |

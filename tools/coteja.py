@@ -104,7 +104,9 @@ def universo(d: dict) -> set[int]:
 
 # Números que no salen de la medición de la pieza pero son legítimos: el tamaño del censo,
 # los umbrales de los filtros y los años. Un año no es una cifra medida.
-CONSTANTES = {3125, 3284, 120, 60, 365, 180, 900, 4000, 45000, 6000, 0}
+# 3.116 son los repositorios vivos del censo (3.125 medidos menos 10 archivados y 9 sin
+# objeto) y son la cifra que publica la página web: sale del mismo JSON del censo.
+CONSTANTES = {3125, 3116, 3284, 120, 60, 365, 180, 900, 4000, 45000, 6000, 0}
 
 
 def es_anio(v: int) -> bool:
@@ -208,6 +210,13 @@ def main(argv: list[str]) -> int:
             continue
         d = json.loads(med.read_text(encoding="utf-8"))
         validos = universo(d)
+        # La 05 es la guía maestra: su tabla trae los totales de cada una de las otras 33
+        # piezas, así que su universo es la unión de los 33 archivos, no solo el agregado.
+        if pieza == "05":
+            for otro in sorted(RAIZ.glob("docs/MEDICION-P*-2026-11-09.json")):
+                if otro.name == med.name:
+                    continue
+                validos |= universo(json.loads(otro.read_text(encoding="utf-8")))
         cue = [p for p in PUBLIC.glob(f"{pieza}-*Facebook*.md")
                if not p.name.startswith("_") and "Comentario-fijado" not in p.name]
         fij = [p for p in PUBLIC.glob(f"{pieza}-Comentario-fijado-*.md") if not p.name.startswith("_")]
