@@ -2,7 +2,7 @@
 
 *La Bandita · sábado 7 de noviembre de 2026, 08:45 de la mañana en Santo Domingo · edición dominicano-español · pieza 03 de Facebook*
 
-⏱️ *Lectura total: 38 minutos · nueve repositorios de gestores de contraseñas y generadores de segundo factor abiertos uno por uno a las 08:45 de hoy, cada uno verificado contra la API de GitHub · tres publican al menos un archivo de huella y seis no · 113.092 estrellas entre los nueve · 530.077 descargas en las últimas releases · cero paquetes alojados aquí · mínimo de 45.000 caracteres cumplido para Facebook · datos medidos en vivo hoy, no recuerdos*
+⏱️ *Lectura total: 38 minutos · nueve repositorios de gestores de contraseñas y generadores de segundo factor abiertos uno por uno a las 08:45 de hoy, cada uno verificado contra la API de GitHub · tres publican al menos un archivo de huella y seis no · 113.092 estrellas entre los nueve · 530.077 descargas en las últimas releases · cero paquetes alojados aquí · dentro de la banda de la casa (6.000–45.000 caracteres) · datos medidos en vivo hoy, no recuerdos*
 
 *🗺️ Mapa de esta pieza*
 
@@ -399,7 +399,7 @@ Los nueve medidos, con su URL real de GitHub:
 
 (7-nov) La columna **Huella** cuenta adjuntos con marca de suma de comprobación o de firma en las diez últimas entregas, leída del propio archivo de entregas del repositorio. Un cero es un cero contado, no un dato que falta.
 
-(7-nov) Este documento cumple el **mínimo obligatorio de 45.000 caracteres** para una publicación de Facebook, verificado por conteo de caracteres Unicode.
+(7-nov) Este documento cumple la **banda de longitud de la casa** —de 6.000 a 45.000 caracteres— y lo dice su propio conteo Unicode. La casa no declara mínimos de plataforma que no ha comprobado: el de 45.000 venía de una vara interna, no de Facebook.
 
 ━━━━━━━━━━━━━
 

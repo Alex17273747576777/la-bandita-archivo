@@ -5,7 +5,7 @@ Resumen rápido para enlaces y contexto:
 **De qué trata esta publicación:** programas medidos uno por uno contra la API de GitHub.
 **Datos reales, no estimaciones.** Ningún paquete se aloja aquí.
 
-**Los fichas, con datos reales de hoy:**
+**Las fichas, con datos reales de hoy:**
 
 **Seis órdenes para comprobar por tu cuenta:**
 1. Abre la página de entregas del repositorio y busca archivos .sha256, .sha512, .asc o .sig.

@@ -48,12 +48,6 @@ A las 21:53 se volvieron a pedir los datos de las cincuenta y cuatro direcciones
 Las cinco notas más altas del tema, con lo que las sostiene:
 
 
-### Datos comparados (lista jerárquica)
-• Recurso: Spotube · Nota: 73 · Lo que la sostiene: 9 sumas de 143 · 104 cambios al mes · Lo que le falta: 389 incidencias abiertas
-• Recurso: nicotine+ · Nota: 70 · Lo que la sostiene: 56 sumas de 112 · canal de seguridad · Lo que le falta: sin integración continua
-• Recurso: yt-dlp · Nota: 70 · Lo que la sostiene: 40 sumas · 28 cambios al mes · Lo que le falta: nada que la vara mida
-• Recurso: Metrolist · Nota: 69 · Lo que la sostiene: 2.424 incidencias cerradas · 62 cambios · Lo que le falta: 28 adjuntos sin una suma
-• Recurso: Ampache · Nota: 69 · Lo que la sostiene: canal de seguridad · 239 cambios al mes · Lo que le falta: 108 adjuntos sin una suma
 
 
 La tabla dice lo que ninguna lista de «mejores reproductores» dice: **la nota no premia cuánto te gusta el programa, sino cuánto se puede comprobar**. Los dos primeros firman lo que publican; el tercero publica cuatro veces al día; el cuarto vive de atender incidencias; y el quinto lleva la contraria: canal de seguridad y ni una suma.
@@ -65,15 +59,6 @@ La tabla dice lo que ninguna lista de «mejores reproductores» dice: **la nota 
 La pieza 12 dejó cinco casillas del meme y una vacía: la música. Aquí está esa casilla, y las de alrededor, con el reemplazo medido de cada una.
 
 
-### Datos comparados (lista jerárquica)
-• La casilla: **Escuchar música en el teléfono** · Qué tiene de viejo: Una APK que solo existía en un canal de mensajería · Qué la cubre hoy: **Metrolist**, **SimpMusic**, **OuterTune**, **Auxio** y **Retro Music**: cinco bifurcaciones vivas con repositorio
-• La casilla: **Tu música, en tu casa** · Qué tiene de viejo: El tutorial que manda a instalar un servidor de 2010 sin actualizar · Qué la cubre hoy: **Navidrome**, **Jellyfin**, **Ampache**, **Koel**, **Black Candy** y **Airsonic-Advanced**: seis servidores medidos
-• La casilla: **Que suene en toda la casa** · Qué tiene de viejo: Un cable y una bocina · Qué la cubre hoy: **Snapcast** y **OwnTone**: el mismo audio sincronizado en varios cuartos
-• La casilla: **Audiolibros** · Qué tiene de viejo: La carpeta con nombres «01.mp3» · Qué la cubre hoy: **Audiobookshelf**, **Voice**, **BookPlayer** y **Libation**
-• La casilla: **Podcast** · Qué tiene de viejo: La app de la tienda que no exporta nada · Qué la cubre hoy: **AntennaPod**, **gPodder**, **Podcini** —y **EscapePod**, muerto y dicho—
-• La casilla: **Etiquetas y carátulas** · Qué tiene de viejo: El disco que llegó con el nombre mal escrito · Qué la cubre hoy: **Picard**, **beets**, **TagLib**, **EasyTAG**, **FFmpeg**, **Chromaprint** y **MusicBrainz**
-• La casilla: **Bajar y servir** · Qué tiene de viejo: La página web con ventanas para bajar el audio de un vídeo · Qué la cubre hoy: **yt-dlp**, **cobalt**, **librespot**, **spotifyd** y **MPD**
-• La casilla: *—* (el registro) · Qué tiene de viejo: Nadie apunta qué escuchó · Qué la cubre hoy: **Pano Scrobbler** y **ListenBrainz**: el historial propio, con servidor propio
 
 
 La última fila es la que casi nadie pone en una lista de música y es la que de verdad cambia el uso: **el historial**. Un reproductor que no registra lo que oíste es un reproductor que no te conoce; uno que lo registra en tu servidor es un archivista.
@@ -205,17 +190,6 @@ En su escala, que es la misma de toda la serie: las tiendas de extensiones de la
 Y aun así, **cuarenta y cuatro de los cincuenta y cuatro no firman nada**. Los diez que sí:
 
 
-### Datos comparados (lista jerárquica)
-• Recurso: spotifyd · Adjuntos: 216 · Con suma: **108** · Nota: 54
-• Recurso: quodlibet · Adjuntos: 124 · Con suma: **78** · Nota: 60
-• Recurso: nuclear · Adjuntos: 190 · Con suma: **70** · Nota: 69
-• Recurso: nicotine-plus · Adjuntos: 112 · Con suma: **56** · Nota: 70
-• Recurso: yt-dlp · Adjuntos: 240 · Con suma: **40** · Nota: 70
-• Recurso: picard · Adjuntos: 80 · Con suma: **20** · Nota: 65
-• Recurso: navidrome · Adjuntos: 280 · Con suma: **10** · Nota: 61
-• Recurso: airsonic-advanced · Adjuntos: 20 · Con suma: **10** · Nota: 50
-• Recurso: spotube · Adjuntos: 143 · Con suma: **9** · Nota: 73
-• Recurso: Harmony-Music · Adjuntos: 78 · Con suma: **8** · Nota: 45
 
 
 Y una idea que este tema permite y ningún otro: **el audio se puede comprobar de dos maneras**. Con la suma del archivo, como todo, y con la **huella acústica** —`fpcalc archivo.mp3` imprime una huella que identifica la grabación aunque el nombre esté mal o el archivo se haya recodificado—. Es la única parcela de la serie donde el archivo se verifica por lo que suena y no por lo que pesa.

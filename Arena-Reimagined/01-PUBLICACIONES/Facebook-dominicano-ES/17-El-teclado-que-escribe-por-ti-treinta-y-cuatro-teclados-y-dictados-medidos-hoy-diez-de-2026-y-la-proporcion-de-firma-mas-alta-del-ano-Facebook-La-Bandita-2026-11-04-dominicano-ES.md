@@ -50,12 +50,6 @@ Antes de elegir nada se hizo la revisión que ya es regla: **fecha en vivo** (03
 Las cinco notas más altas, con lo que las sostiene:
 
 
-### Datos comparados (lista jerárquica)
-• Recurso: vocalinux · Nota: 80 · Lo que la sostiene: 6 sumas · 90 cambios al mes · Lo que le falta: 13 incidencias abiertas
-• Recurso: wmkeyboard · Nota: 77 · Lo que la sostiene: 430 adjuntos · 1.956 cambios al mes · Lo que le falta: 86 días de vida
-• Recurso: Handy · Nota: 74 · Lo que la sostiene: 120 sumas de 270 · Lo que le falta: sin canal de seguridad
-• Recurso: openless · Nota: 74 · Lo que la sostiene: 89 sumas · 100 entregas · Lo que le falta: 73 abiertas
-• Recurso: harper · Nota: 71 · Lo que la sostiene: corrector en Rust · empujón de hoy · Lo que le falta: 853 incidencias abiertas
 
 
 **La nota premia que se pueda comprobar, no que sea famoso.** `openai/whisper` tiene **111.973 estrellas** —el triple que todo el resto de la tabla junta— y saca **25**: 65 días sin un empujón, sin adjuntos y sin una sola incidencia en su cola. En el otro extremo, **vocalinux**, con 994 estrellas, saca **80** porque publica, firma y atiende.
@@ -83,13 +77,6 @@ Esta sección sustituye a la receta de «prompts» que se suele publicar con est
 *🔁 Qué reemplaza a qué · la tabla del teclado*
 
 
-### Datos comparados (lista jerárquica)
-• Lo que usas hoy: El teclado que vino con el teléfono · Qué tiene de viejo: Manda lo que escribes según su política, que no eliges · Qué lo cubre hoy: **HeliBoard**, **florisboard** y **Unexpected-Keyboard**: código abierto, sin salida a la red
-• Lo que usas hoy: Dictar con el micrófono del sistema · Qué tiene de viejo: Sube el audio a un servidor y depende de la cobertura del momento · Qué lo cubre hoy: **DictateKeyboard**, **Transcribro**, **wmkeyboard**: transcriben en el aparato
-• Lo que usas hoy: Un teclado «con IA» de la tienda · Qué tiene de viejo: No sabes qué modelo, ni dónde, ni qué guarda · Qué lo cubre hoy: **CyIME**, **BiBi-Keyboard**, **PixelBoard**: el modelo y el repositorio a la vista
-• Lo que usas hoy: Dictar en la computadora · Qué tiene de viejo: Pagar suscripción por minuto · Qué lo cubre hoy: **Handy**, **hex**, **openless**, **vocalinux**, **voxtype**: gratis y local
-• Lo que usas hoy: Corregir a mano cada frase dictada · Qué tiene de viejo: Se pierde más tiempo del que ahorra el dictado · Qué lo cubre hoy: **Harper** y **LanguageTool** para las reglas; **espanso** para lo que repites
-• Lo que usas hoy: El motor que hay debajo · Qué tiene de viejo: Un servicio cerrado que puede cambiar de precio · Qué lo cubre hoy: **whisper.cpp** y **faster-whisper**: se ejecutan en tu equipo
 
 
 **Una advertencia sobre esa tabla.** Ninguna de estas piezas «escribe mejor que tú»: quitan el tecleo de en medio. Un dictado sin revisar tiene el ritmo de quien habla, no de quien escribe —frases largas, muletillas y puntuación de quien no te oyó—. La revisión sigue siendo tuya, y la corrección por reglas es la que menos te cambia el texto mientras revisas.
@@ -184,41 +171,6 @@ Ninguna es un teclado y sin ellas no existiría ninguna de las anteriores. Van a
 El registro entero, ordenado por nota. La columna de firmas se repite en toda la pieza: **618 de 3.255**.
 
 
-### Datos comparados (lista jerárquica)
-• #: 1 · Recurso: VocaHQ/vocalinux · Nota: **80** · ★: 994 · Último empujón: hoy · Entregas: 36 · Sumas / adjuntos: 6 / 84
-• #: 2 · Recurso: wasi-master/wmkeyboard · Nota: **77** · ★: 726 · Último empujón: hoy · Entregas: 26 · Sumas / adjuntos: 7 / 430
-• #: 3 · Recurso: Open-Less/openless · Nota: **74** · ★: 4.048 · Último empujón: hace 2 días · Entregas: 100 · Sumas / adjuntos: 89 / 341
-• #: 4 · Recurso: cjpais/Handy · Nota: **74** · ★: 37.554 · Último empujón: hace 2 días · Entregas: 67 · Sumas / adjuntos: 120 / 270
-• #: 5 · Recurso: Automattic/harper · Nota: **71** · ★: 17.411 · Último empujón: hoy · Entregas: 100 · Sumas / adjuntos: 10 / 296
-• #: 6 · Recurso: peteonrails/voxtype · Nota: **69** · ★: 1.743 · Último empujón: hoy · Entregas: 80 · Sumas / adjuntos: 320 / 620
-• #: 7 · Recurso: anomalyco/hex · Nota: **68** · ★: 5.078 · Último empujón: hoy · Entregas: 24 · Sumas / adjuntos: 0 / 82
-• #: 8 · Recurso: DevEmperor/DictateKeyboard · Nota: **67** · ★: 315 · Último empujón: hoy · Entregas: 54 · Sumas / adjuntos: 0 / 342
-• #: 9 · Recurso: scholay-xsime/xsime · Nota: **65** · ★: 1.177 · Último empujón: hoy · Entregas: 30 · Sumas / adjuntos: 32 / 122
-• #: 10 · Recurso: LeanBitLab/LeanType · Nota: **64** · ★: 1.142 · Último empujón: hoy · Entregas: 88 · Sumas / adjuntos: 0 / 20
-• #: 11 · Recurso: altic-dev/FluidVoice · Nota: **64** · ★: 12.808 · Último empujón: hace 2 días · Entregas: 65 · Sumas / adjuntos: 0 / 20
-• #: 12 · Recurso: ggml-org/whisper.cpp · Nota: **64** · ★: 54.932 · Último empujón: hoy · Entregas: 45 · Sumas / adjuntos: 0 / 72
-• #: 13 · Recurso: osfans/trime · Nota: **64** · ★: 4.771 · Último empujón: hoy · Entregas: 37 · Sumas / adjuntos: 0 / 40
-• #: 14 · Recurso: Cyletix/CyIME · Nota: **63** · ★: 632 · Último empujón: hoy · Entregas: 29 · Sumas / adjuntos: 0 / 16
-• #: 15 · Recurso: florisboard/florisboard · Nota: **63** · ★: 8.755 · Último empujón: hace 2 días · Entregas: 100 · Sumas / adjuntos: 13 / 26
-• #: 16 · Recurso: zoolapp/aime · Nota: **63** · ★: 254 · Último empujón: hace 15 días · Entregas: 10 · Sumas / adjuntos: 10 / 40
-• #: 17 · Recurso: BryceWG/BiBi-Keyboard · Nota: **61** · ★: 861 · Último empujón: ayer · Entregas: 100 · Sumas / adjuntos: 0 / 19
-• #: 18 · Recurso: espanso/espanso · Nota: **61** · ★: 14.717 · Último empujón: hace 3 días · Entregas: 56 · Sumas / adjuntos: 11 / 62
-• #: 19 · Recurso: HeliBorg/HeliBoard · Nota: **60** · ★: 6.498 · Último empujón: hoy · Entregas: 73 · Sumas / adjuntos: 0 / 30
-• #: 20 · Recurso: Julow/Unexpected-Keyboard · Nota: **59** · ★: 3.337 · Último empujón: hoy · Entregas: 44 · Sumas / adjuntos: 0 / 11
-• #: 21 · Recurso: amicalhq/amical · Nota: **58** · ★: 1.597 · Último empujón: hace 8 días · Entregas: 100 · Sumas / adjuntos: 0 / 130
-• #: 22 · Recurso: Akshayykadam/PixelBoard · Nota: **57** · ★: 1.420 · Último empujón: hace 7 días · Entregas: 15 · Sumas / adjuntos: 0 / 20
-• #: 23 · Recurso: Batmancpu/Dictator- · Nota: **57** · ★: 3 · Último empujón: hace 9 días · Entregas: 20 · Sumas / adjuntos: 0 / 10
-• #: 24 · Recurso: notune/android_transcribe_app · Nota: **55** · ★: 338 · Último empujón: hace 18 días · Entregas: 20 · Sumas / adjuntos: 0 / 22
-• #: 25 · Recurso: AnySoftKeyboard/AnySoftKeyboard · Nota: **51** · ★: 3.393 · Último empujón: hoy · Entregas: 47 · Sumas / adjuntos: 0 / 31
-• #: 26 · Recurso: rkkr/simple-keyboard · Nota: **48** · ★: 1.607 · Último empujón: hace 13 días · Entregas: 98 · Sumas / adjuntos: 0 / 10
-• #: 27 · Recurso: opennookorg/betterwispr · Nota: **46** · ★: 504 · Último empujón: hace 11 días · Entregas: 6 · Sumas / adjuntos: 0 / 18
-• #: 28 · Recurso: languagetool-org/languagetool · Nota: **42** · ★: 15.235 · Último empujón: hoy · Entregas: 0 · Sumas / adjuntos: 0 / 0
-• #: 29 · Recurso: SYSTRAN/faster-whisper · Nota: **39** · ★: 26.487 · Último empujón: hace 2 días · Entregas: 21 · Sumas / adjuntos: 0 / 0
-• #: 30 · Recurso: karansinghgit/speaktype · Nota: **35** · ★: 573 · Último empujón: hace 6 días · Entregas: 27 · Sumas / adjuntos: 0 / 26
-• #: 31 · Recurso: ElishaAz/Sayboard · Nota: **30** · ★: 586 · Último empujón: hace 491 días · Entregas: 12 · Sumas / adjuntos: 0 / 38
-• #: 32 · Recurso: openai/whisper · Nota: **25** · ★: 111.973 · Último empujón: hace 65 días · Entregas: 13 · Sumas / adjuntos: 0 / 0
-• #: 33 · Recurso: soupslurpr/Transcribro · Nota: **21** · ★: 761 · Último empujón: hace 36 días · Entregas: 7 · Sumas / adjuntos: 0 / 7
-• #: 34 · Recurso: futo-org/voice-input · Nota: **4** · ★: 350 · Último empujón: hace 2 días · Entregas: 0 · Sumas / adjuntos: 0 / 0
 
 
 Leída en vertical dice tres cosas que ninguna lista de recomendaciones dice: **diez de treinta y cuatro firman algún archivo**, **cinco no tienen integración continua** y **dos no han etiquetado una sola versión**. **Lo que no mide**, y hay que decirlo: si el dictado acierta con tu acento o si el modelo cabe en tu teléfono. Eso no se ve desde la API; para eso está la semana de prueba.
@@ -262,17 +214,6 @@ La segunda más alta del año. En su escala: tiendas de la 10, **0,08 %**; aplic
 **veinticuatro de los treinta y cuatro no publican ni una suma.** Los que sí:
 
 
-### Datos comparados (lista jerárquica)
-• Recurso: voxtype · Adjuntos: 620 · Con suma: **320** · Nota: 69
-• Recurso: Handy · Adjuntos: 270 · Con suma: **120** · Nota: 74
-• Recurso: openless · Adjuntos: 341 · Con suma: **89** · Nota: 74
-• Recurso: xsime · Adjuntos: 122 · Con suma: **32** · Nota: 65
-• Recurso: florisboard · Adjuntos: 26 · Con suma: **13** · Nota: 63
-• Recurso: espanso · Adjuntos: 62 · Con suma: **11** · Nota: 61
-• Recurso: harper · Adjuntos: 296 · Con suma: **10** · Nota: 71
-• Recurso: aime · Adjuntos: 40 · Con suma: **10** · Nota: 63
-• Recurso: wmkeyboard · Adjuntos: 430 · Con suma: **7** · Nota: 77
-• Recurso: vocalinux · Adjuntos: 84 · Con suma: **6** · Nota: 80
 
 
 Dos lecturas. La primera: **Handy firma 120 archivos y voxtype 320**, y entre los dos ponen **dos tercios de las 618 sumas** del tema: la cultura de firmar existe donde se publican binarios, no en la tienda. La segunda: **los ocho teclados de dictado de Android no firman ni uno**.

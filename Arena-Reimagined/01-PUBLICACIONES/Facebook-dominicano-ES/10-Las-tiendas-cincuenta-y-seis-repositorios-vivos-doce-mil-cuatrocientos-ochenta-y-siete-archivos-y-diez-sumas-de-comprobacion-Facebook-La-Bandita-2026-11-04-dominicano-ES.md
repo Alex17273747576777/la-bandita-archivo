@@ -53,12 +53,6 @@ Diez mediciones lleva este corte: 8:45, 9:15, 12:35, 12:44, 13:16, 17:56, 18:14,
 Y un movimiento que solo se descubre midiendo dos veces el mismo día: **`yuzono/anime-repo` cambió de dueño y hoy se llama `mojuru/anime-repo`**. La dirección vieja redirige, así que la aplicación sigue cargando; pero dentro lleva apuntada una dirección que ya no es la canónica, y eso rompe una tienda un martes cualquiera sin que nadie toque nada. A las 18:45 tenía ★72 y a las 19:33, ★72; nueve meses de madurez y ni una suma publicada.
 
 
-### Datos comparados (lista jerárquica)
-• Programa: Keiyoushi (compilación) · A las 18:45: ★15.432 · A las 19:33: ★15.432 · Qué se movió: nada; su última entrega es de hoy
-• Programa: Yūzōnō (manga) · A las 18:45: ★957 · A las 19:33: ★957 · Qué se movió: nada; empujón de hace dos días
-• Programa: CopyManga · A las 18:45: ★2.992 · A las 19:33: ★2.992 · Qué se movió: nada; entrega de hace 24 días
-• Programa: Aidoku Community · A las 18:45: ★620 · A las 19:33: ★620 · Qué se movió: nada; empujón de hoy
-• Programa: Phisher (Cloudstream) · A las 18:45: ★533 · A las 19:33: ★533 · Qué se movió: nada; empujón de hace dos días
 
 
 La conclusión, sin adornos: **en cuarenta y ocho minutos este ecosistema no se mueve en estrellas**, y doce repositorios recibieron código hoy. Las estrellas miden atención; el empujón mide trabajo, y esta pieza ordena por lo segundo.
@@ -70,13 +64,6 @@ La conclusión, sin adornos: **en cuarenta y ocho minutos este ecosistema no se 
 Un repositorio de extensiones no es un formato: son seis, y cada uno lo lee una familia distinta. De ahí que la mitad de la gente que añade una tienda no vea nada después.
 
 
-### Datos comparados (lista jerárquica)
-• Formato: **Tachiyomi / Mihon** · Cómo se reconoce mirando el repo: carpeta `repo/` con `index.pb` o `index.min.json`; decenas de `.apk` en las entregas · Qué archivo se pega en la aplicación: la dirección del índice, nunca la página del repositorio
-• Formato: **Aniyomi** · Cómo se reconoce mirando el repo: igual, pero el índice lleva fuentes de vídeo; enlace `aniyomi://add-repo?url=…` · Qué archivo se pega en la aplicación: el índice de anime
-• Formato: **Cloudstream** · Cómo se reconoce mirando el repo: `repo.json` y archivos `.cs` · Qué archivo se pega en la aplicación: el `repo.json`
-• Formato: **Mangayomi** · Cómo se reconoce mirando el repo: `index.json` (manga), `anime_index.json`, `novel_index.json`; fuentes en JavaScript · Qué archivo se pega en la aplicación: cualquiera de los tres, o los tres
-• Formato: **Kotatsu / Tsuki** · Cómo se reconoce mirando el repo: parsers en Kotlin compilados a `.jar`, o una lista de parsers · Qué archivo se pega en la aplicación: el paquete de parsers, no un `.apk`
-• Formato: **Plugin propio** · Cómo se reconoce mirando el repo: `plugins.min.json`, `.eapk`, `.wasm`, `.js` con nombre de la aplicación · Qué archivo se pega en la aplicación: el `plugins.json` de esa aplicación
 
 
 **La regla, en una línea:** si el archivo no termina en `.json` o `.pb`, no es una tienda de la familia Mihon. Y si el repositorio tiene código pero no tiene carpeta `repo/`, entonces lo que publica está en otra parte, y esa otra parte es la que hay que añadir. La mitad de los repositorios de esta pieza son **de código**, no de compilación: se miden igual, pero no se instalan.
@@ -191,11 +178,6 @@ Este es el hallazgo de la pieza y es el número más bajo de los diez capítulos
 Las diez sumas están en un solo sitio: **Zenbu**, diez de veinte. Las otras diecisiete tiendas con archivos publican **12.467 sin una suma**. Los cuatro mayores:
 
 
-### Datos comparados (lista jerárquica)
-• Tienda: Keiyoushi (compilación) · Archivos publicados: 2.928 · Con suma: 0 · Estrellas: 15.432
-• Tienda: Cuong-tran (Vietnam) · Archivos publicados: 3.759 · Con suma: 0 · Estrellas: 467
-• Tienda: amrkmn/x · Archivos publicados: 3.188 · Con suma: 0 · Estrellas: 41
-• Tienda: FelipeGFA (Brasil) · Archivos publicados: 2.158 · Con suma: 0 · Estrellas: 43
 
 
 Cuatro repositorios, **12.033 archivos**, cero sumas. No es descuido de aficionados: el primero es el más estrellado de la pieza.

@@ -5,7 +5,7 @@ Resumen rápido para enlaces y contexto:
 **De qué trata esta publicación:** programas medidos uno por uno contra la API de GitHub.
 **Datos reales, no estimaciones.** Ningún paquete se aloja aquí.
 
-**Los fichas, con datos reales de hoy:**
+**Las fichas, con datos reales de hoy:**
 • capitan0n/droynis ★20 · GPL-3.0 · último push 2026-11-05 · huella 1 archivo(s) · nota 44/80
 • Bingblop/ADB-Root-Toolbox ★129 · GPL-3.0 · último push 2026-10-31 · huella 1 archivo(s) · nota 47/80
 • krishna3163/OmniShizuku ★19 · Apache-2.0 · último push 2026-11-07 · huella 0 archivo(s) · nota 37/80

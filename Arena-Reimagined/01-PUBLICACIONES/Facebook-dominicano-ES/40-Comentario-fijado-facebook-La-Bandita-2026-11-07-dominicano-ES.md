@@ -1,12 +1,12 @@
 ━━━━━━━━━━━━━
 
-📎 *Comentario fijado · Pieza 40 — La lección del hash SHA-256 · premio de La Bandita*
+📎 *Comentario fijado · Pieza 40 — La lección del hash SHA-256: cómo comprobar un archivo sin root*
 
 Enlaces rápidos:
 • Cuerpo de la publicación: pieza 40 de Facebook
-• Fecha en vivo: sábado 7 de noviembre de 2026
-• Medido con: los recursos citados en la publicación · API pública de GitHub
-• Hora declarada de la medición: noche del sábado en Santo Domingo
+• Fecha en vivo: domingo 8 de noviembre de 2026
+• Medido con: API pública de GitHub · cifras de la serie, con la fecha que declara cada pieza
+• Fecha de esta versión del cuerpo: domingo 8 de noviembre de 2026, 12:40 en Santo Domingo
 
 Lo que dicen los números medidos:
 • Un hash SHA-256 son **sesenta y cuatro caracteres** que resumen un archivo entero.
@@ -14,7 +14,7 @@ Lo que dicen los números medidos:
 • Se calcula en el teléfono con Termux (`sha256sum`) o en la computadora, sin instalar nada raro.
 • Comprobar una suma cuesta **menos de un minuto**; no comprobarla cuesta el archivo entero.
 • Una suma publicada en la misma descarga que el archivo no vale gran cosa: sirve la que se publica **aparte** —en la pieza, en las notas de la entrega o en un archivo `.sha256` suelto—.
-• El premio de esta casa es para el que publica la huella **antes** de que se la pidan.
+• De los cinco gigantes de la pantalla grande, medidos otra vez el **8 de noviembre de 2026**: ninguno de los cinco adjunta una suma a su última entrega.
 
 **Seis órdenes para comprobarlo tú mismo:**
 1. Abre la página de entregas del repositorio y busca archivos `.sha256`, `.sha512`, `.asc`, `.sig` o `sums`.

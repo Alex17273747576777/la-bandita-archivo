@@ -49,12 +49,6 @@ A las 22:10 se volvieron a pedir los datos de las treinta y ocho direcciones, un
 Las cinco notas más altas, con lo que las sostiene y lo que les falta:
 
 
-### Datos comparados (lista jerárquica)
-• Recurso: OmnIGet · Nota: 77 · Lo que la sostiene: 100 sumas de 311 · 185 cambios al mes · Lo que le falta: 5 incidencias abiertas
-• Recurso: LastWave Native · Nota: 76 · Lo que la sostiene: 8 sumas · 628 cambios al mes · Lo que le falta: 97 días de vida
-• Recurso: Spotube · Nota: 73 · Lo que la sostiene: 9 sumas de 143 · 83 personas · Lo que le falta: 389 incidencias abiertas
-• Recurso: limusic · Nota: 73 · Lo que la sostiene: 30 sumas · 100 entregas · Lo que le falta: 124 días de vida
-• Recurso: Levyra · Nota: 71 · Lo que la sostiene: 10 sumas · 2.418 cambios al mes · Lo que le falta: 129 días de vida
 
 
 Hay un patrón que la tabla deja ver y que conviene decir en voz alta: **los cuatro recién nacidos tienen entre 500 y 2.400 cambios en treinta días**. Eso no es normal en un proyecto de tres meses; es lo que pasa cuando un equipo pequeño trabaja a tiempo completo sobre un cliente nuevo. Lo bueno: se mueven rápido. Lo malo: **un proyecto que cambia dos mil veces al mes todavía no ha tenido tiempo de romperse** —y por eso, en esta pieza, lo nuevo va con fecha y nota, pero la recomendación firme sigue estando en los que llevan años.
@@ -64,13 +58,6 @@ Hay un patrón que la tabla deja ver y que conviene decir en voz alta: **los cua
 *🔁 Qué reemplaza a qué · la tabla del tema*
 
 
-### Datos comparados (lista jerárquica)
-• Lo que usas hoy: La aplicación oficial en Android · Qué tiene de viejo: Cuenta obligatoria, anuncios y nada que puedas auditar · Qué lo cubre hoy: **Metrolist**, **SimpMusic**, **OuterTune**, **Spotube**, **Musify**, **Bloomee**
-• Lo que usas hoy: Un reproductor de YouTube Music · Qué tiene de viejo: El más famoso de todos se archivó · Qué lo cubre hoy: **Metrolist** y **SimpMusic** nacieron de él y siguen vivos; **ViMusic** se quedó atrás
-• Lo que usas hoy: Spotify en la computadora · Qué tiene de viejo: Pesa más que el sistema operativo y no firma nada · Qué lo cubre hoy: **spotify-player**, **ncspot**, **psst**, **spotify-qt**, **Nuclear**
-• Lo que usas hoy: Mandar el sonido al equipo · Qué tiene de viejo: Depende de un aparato cerrado · Qué lo cubre hoy: **librespot**, **Spotifyd**, **go-librespot**: tu equipo se convierte en altavoz
-• Lo que usas hoy: Descargar de una web con ventanas · Qué tiene de viejo: Lleno de trampas y sin versión · Qué lo cubre hoy: **OmnIGet**, **riff**, **Levyra**, **BitChord** —los cuatro de 2026—
-• Lo que usas hoy: *—* (nadie lo pone en la tabla) · Qué tiene de viejo: Nadie mira si el programa está muerto · Qué lo cubre hoy: **ViMusic**, **SpotiFlyer** y **spotify-tui** con su fecha: tres lápidas
 
 
 **Una nota de prudencia antes de seguir.** **SpotiFlyer** se cita sin enlace: además de estar parado, es un descargador de catálogos ajenos y no quiero mandar a nadie por ahí desde una pieza de Facebook. Lo mismo con cualquier programa de esta lista cuyo fin sea **bajar** el catálogo en vez de leerlo: se nombra, se mide y se dice lo que hace, sin dirección.
@@ -121,22 +108,6 @@ Aquí está lo que el dueño viene pidiendo desde la primera pieza: **programas 
 Antes de las conclusiones, la camada en una tabla, porque quince fichas seguidas se leen mal y una tabla se lee de un golpe:
 
 
-### Datos comparados (lista jerárquica)
-• Programa: BitChord · Días: 85 · ★: 5.668 · Descargas: 1.078.929 · Entregas: 14 · Sumas: 0 · Nota: 63
-• Programa: sonora · Días: 93 · ★: 2.620 · Descargas: 91.679 · Entregas: 66 · Sumas: 10 · Nota: 72
-• Programa: LastWave-Native · Días: 97 · ★: 2.512 · Descargas: 468.241 · Entregas: 18 · Sumas: 8 · Nota: 76
-• Programa: LastWave-Desktop · Días: 55 · ★: 934 · Descargas: 12.644 · Entregas: 8 · Sumas: 0 · Nota: 50
-• Programa: Echo-Music · Días: 81 · ★: 2.285 · Descargas: 1.547.799 · Entregas: 15 · Sumas: 0 · Nota: 69
-• Programa: limusic · Días: 124 · ★: 1.801 · Descargas: 565.965 · Entregas: 100 · Sumas: 30 · Nota: 73
-• Programa: YumaPlayer · Días: 103 · ★: 1.117 · Descargas: 61.476 · Entregas: 5 · Sumas: 0 · Nota: 62
-• Programa: myspoti · Días: 21 · ★: 1.250 · Descargas: 89.323 · Entregas: 23 · Sumas: 0 · Nota: 51
-• Programa: Square · Días: 90 · ★: 482 · Descargas: 60.177 · Entregas: 61 · Sumas: 0 · Nota: 55
-• Programa: MeloX-Android · Días: 87 · ★: 286 · Descargas: 9.819 · Entregas: 25 · Sumas: 4 · Nota: 70
-• Programa: kumone · Días: 80 · ★: 1.278 · Descargas: 95.370 · Entregas: 47 · Sumas: 0 · Nota: 63
-• Programa: riff · Días: 31 · ★: 823 · Descargas: 268.964 · Entregas: 11 · Sumas: 0 · Nota: 64
-• Programa: lazyspotify · Días: 231 · ★: 446 · Descargas: 5.332 · Entregas: 10 · Sumas: 10 · Nota: 59
-• Programa: omniget · Días: 119 · ★: 3.401 · Descargas: 35.802 · Entregas: 21 · Sumas: 100 · Nota: 77
-• Programa: Levyra-deepsound · Días: 129 · ★: 2.064 · Descargas: 17.332 · Entregas: 96 · Sumas: 10 · Nota: 71
 
 
 El retrato, sin maquillaje: **mucha prisa, poca firma y una calidad muy despareja**. Doce de los quince no publican ni una suma de comprobación; tres sí, y uno de ellos —OmnIGet— firma 100 de 311 archivos, mejor proporción que Spotifyd y que Nuclear.
@@ -211,22 +182,6 @@ Es la proporción más alta de las catorce piezas y merece que se ponga en su es
 **veintitrés de los treinta y ocho no firman nada.** Los quince que sí:
 
 
-### Datos comparados (lista jerárquica)
-• Recurso: spotifyd · Adjuntos: 216 · Con suma: **108** · Nota: 54
-• Recurso: omniget · Adjuntos: 311 · Con suma: **100** · Nota: 77
-• Recurso: nuclear · Adjuntos: 190 · Con suma: **70** · Nota: 69
-• Recurso: spotify-player · Adjuntos: 98 · Con suma: **49** · Nota: 53
-• Recurso: ncspot · Adjuntos: 96 · Con suma: **48** · Nota: 60
-• Recurso: limusic · Adjuntos: 83 · Con suma: **30** · Nota: 73
-• Recurso: spotify-tui · Adjuntos: 60 · Con suma: **30** · Nota: 50
-• Recurso: sonora · Adjuntos: 148 · Con suma: **10** · Nota: 72
-• Recurso: lazyspotify · Adjuntos: 135 · Con suma: **10** · Nota: 59
-• Recurso: Levyra-deepsound · Adjuntos: 20 · Con suma: **10** · Nota: 71
-• Recurso: spotube · Adjuntos: 143 · Con suma: **9** · Nota: 73
-• Recurso: Harmony-Music · Adjuntos: 78 · Con suma: **8** · Nota: 45
-• Recurso: LastWave-Native · Adjuntos: 38 · Con suma: **8** · Nota: 76
-• Recurso: MeloX-Android · Adjuntos: 21 · Con suma: **4** · Nota: 70
-• Recurso: SpotiFlyer · Adjuntos: 56 · Con suma: **1** · Nota: 53
 
 
 Dos cosas de esa tabla que no se ven a simple vista. La primera: **Spotifyd firma 108 de 216**, la mitad exacta de lo que publica, y es el programa que lleva más tiempo sin moverse: la firma no caduca, el mantenimiento sí. La segunda: **OmnIGet, con tres meses de vida, ya firma 100 de 311** —32 %—, mejor proporción que cualquier veterano de esta pieza. Lo nuevo, cuando se hace bien, se hace bien desde el primer día.

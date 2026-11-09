@@ -49,12 +49,6 @@ Nueve mediciones lleva este corte: las 8:45, 9:15, 12:35, 12:44, 13:16, 17:56, 1
 Cuatro de estos diecisiete ya se midieron más temprano —rclone, restic, Nextcloud e Immich están en la guía maestra de las 17:56, y LocalSend y el Syncthing bifurcado también—, así que la comparación se puede hacer línea por línea:
 
 
-### Datos comparados (lista jerárquica)
-• Programa: rclone · Guía, 17:56: ★60.798 · Aquí, 18:27: ★60.800 · Qué se movió: dos estrellas y la misma entrega de hace veintiséis días
-• Programa: restic · Guía, 17:56: ★36.996 · Aquí, 18:27: ★37.002 · Qué se movió: seis estrellas; su última entrega sigue en ciento veintidós días
-• Programa: Immich · Guía, 17:56: ★118.233 · Aquí, 18:27: ★118.252 · Qué se movió: diecinueve estrellas y **una candidata nueva publicada hoy**: v3.4.0-rc.2
-• Programa: LocalSend · Guía, 17:56: ★97.317 · Aquí, 18:27: ★97.324 · Qué se movió: siete estrellas; entrega de hace setenta y cinco días
-• Programa: Nextcloud · Guía, 17:56: ★37.412 · Aquí, 18:27: ★37.417 · Qué se movió: cinco estrellas y la misma v35.0.2 de hace veinte días
 
 
 La línea que importa es la de **Immich**: diecinueve estrellas en media hora no dicen nada, pero **una candidata publicada hoy** sí. Y la de **restic**, con **ciento veintidós días** entre su última entrega y hoy: es el programa de copias más citado del software libre y su paquete no se renueva desde julio.
@@ -149,24 +143,6 @@ De ahí la frase que ordena esta pieza: **una copia que no se ha restaurado nunc
 Los diecisiete vivos, ordenados por la nota de hoy. «Madurez» son los días desde que nació el repositorio; «Huella» cuenta los adjuntos con suma o firma sobre el total de sus últimas entregas.
 
 
-### Datos comparados (lista jerárquica)
-• Programa: rclone · ★: ★60.800 · Madurez (días): 4616 · Licencia: MIT · Entrega (días): v1.75.2 (26) · Huella: 30/510 · CI: 5 · Nota: **73**
-• Programa: Immich · ★: ★118.252 · Madurez (días): 1735 · Licencia: AGPL-3.0 · Entrega (días): v3.4.0-rc.2 (0) · Huella: 0/100 · CI: 5 · Nota: **64**
-• Programa: Syncthing (bifurcación) · ★: ★3.250 · Madurez (días): 371 · Licencia: MPL-2.0 · Entrega (días): v2.1.7.0 (14) · Huella: 0/60 · CI: 5 · Nota: **61**
-• Programa: restic · ★: ★37.002 · Madurez (días): 4574 · Licencia: BSD-2-Clause · Entrega (días): v0.19.1 (122) · Huella: 30/284 · CI: 4 · Nota: **60**
-• Programa: TeleDrive · ★: ★436 · Madurez (días): 75 · Licencia: Apache-2.0 · Entrega (días): v1.5.0 (16) · Huella: 0/59 · CI: 3 · Nota: **60**
-• Programa: Nextcloud · ★: ★37.417 · Madurez (días): 3807 · Licencia: AGPL-3.0 · Entrega (días): v35.0.2 (20) · Huella: 0/0 · CI: 5 · Nota: **59**
-• Programa: Neo Backup · ★: ★3.895 · Madurez (días): 2524 · Licencia: AGPL-3.0 · Entrega (días): 8.3.18 (185) · Huella: 0/9 · CI: 2 · Nota: **57**
-• Programa: Buge-Files · ★: ★41 · Madurez (días): 74 · Licencia: GPL-3.0 · Entrega (días): 1.16.19 (0) · Huella: 0/10 · CI: 2 · Nota: **55**
-• Programa: AF-File-Manager · ★: ★18 · Madurez (días): 82 · Licencia: NOASSERTION · Entrega (días): v0.47.0 (5) · Huella: 40/80 · CI: 2 · Nota: **52**
-• Programa: DataBackup · ★: ★7.559 · Madurez (días): 1808 · Licencia: GPL-3.0 · Entrega (días): 2.0.12 (410) · Huella: 0/80 · CI: 4 · Nota: **48**
-• Programa: LocalSend · ★: ★97.324 · Madurez (días): 1419 · Licencia: Apache-2.0 · Entrega (días): v1.18.2 (75) · Huella: 0/133 · CI: 5 · Nota: **47**
-• Programa: twig · ★: ★102 · Madurez (días): 58 · Licencia: GPL-3.0 · Entrega (días): v1.17.0 (3) · Huella: 0/30 · CI: 0 · Nota: **46**
-• Programa: MCPBox · ★: ★7 · Madurez (días): 53 · Licencia: GPL-3.0 · Entrega (días): v1.4.0 (10) · Huella: 0/24 · CI: 1 · Nota: **45**
-• Programa: ghost-files · ★: ★14 · Madurez (días): 25 · Licencia: MIT · Entrega (días): v0.7.2 (8) · Huella: 0/11 · CI: 0 · Nota: **44**
-• Programa: Material Files · ★: ★9.390 · Madurez (días): 3083 · Licencia: GPL-3.0 · Entrega (días): v1.7.5 (45) · Huella: 0/26 · CI: 1 · Nota: **44**
-• Programa: Hexora · ★: ★29 · Madurez (días): 26 · Licencia: GPL-3.0 · Entrega (días): v0.1.4 (18) · Huella: 8/28 · CI: 0 · Nota: **39**
-• Programa: KArchiver · ★: ★23 · Madurez (días): 54 · Licencia: NOASSERTION · Entrega (días): v1.5-beta (4) · Huella: 0/5 · CI: 2 · Nota: **37**
 
 
 Leídas en columna: **mil cuatrocientas cuarenta y nueve casillas de adjuntos, ciento ocho con suma** · **once con dos o menos flujos de compilación** · **cuatro con canal de seguridad** · notas de **37 a 73**, mediana 48 · **ninguna archivada**, y las dos de copia de seguridad llevan cuatrocientos diez y ciento ochenta y cinco días sin publicar.

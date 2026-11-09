@@ -50,12 +50,6 @@ Once mediciones lleva este corte: 8:45, 9:15, 12:35, 12:44, 13:16, 17:56, 18:14,
 Las cinco aplicaciones con más descargas del tema, con lo que cada una firma:
 
 
-### Datos comparados (lista jerárquica)
-• Aplicación: Mihon · Descargas: 23.392.013 · Entregas: 27 · Archivos firmados: 0 de 60 · Licencia: Apache-2.0
-• Aplicación: Aniyomi · Descargas: 7.521.591 · Entregas: 54 · Archivos firmados: 0 de 50 · Licencia: Apache-2.0
-• Aplicación: Seanime · Descargas: 6.868.400 · Entregas: 100 · Archivos firmados: 0 de 150 · Licencia: GPL-3.0
-• Aplicación: Cloudstream · Descargas: 6.850.539 · Entregas: 15 · Archivos firmados: 0 de 12 · Licencia: GPL-3.0
-• Aplicación: TachiyomiJ2K · Descargas: 4.404.570 · Entregas: 80 · Archivos firmados: 0 de 50 · Licencia: Apache-2.0
 
 
 Cinco programas, **49.037.113 descargas** y **ninguno** publica una suma de comprobación en sus últimas entregas. La tabla entera de la pieza se puede resumir así: las aplicaciones más instaladas del tema son las que menos firman.
@@ -67,15 +61,6 @@ Cinco programas, **49.037.113 descargas** y **ninguno** publica una suma de comp
 La pieza 10 dejó seis formatos. Aquí está, sin adjetivos, qué programa carga cada uno y cuántos de los cincuenta y uno lo hacen.
 
 
-### Datos comparados (lista jerárquica)
-• Formato de la pieza 10: Tachiyomi / Mihon (APK + `index.min.json`) · Quién lo lee: Mihon, J2K, Komikku, SY, Neko, Yokai, yomihon, Reikai, Hayai, Nekoyomi, MihonSY, Nyora, Weeber · Dónde se prueba: `mihonapp/mihon`
-• Formato de la pieza 10: Aniyomi (APK con fuentes de vídeo) · Quién lo lee: Aniyomi, Anikku, Dantotsu, Sozo, Nekomo, yomotsu, etsume, ZenYomi · Dónde se prueba: `komikku-app/anikku`
-• Formato de la pieza 10: Cloudstream (`repo.json` + `.cs`) · Quién lo lee: Cloudstream y tres puertos de escritorio · Dónde se prueba: `recloudstream/cloudstream`
-• Formato de la pieza 10: Mangayomi (`index.json` + fuentes JS) · Quién lo lee: Mangayomi, Mangatan, Yuri-Reader · Dónde se prueba: `kodjodevf/mangayomi`
-• Formato de la pieza 10: Kotatsu (parsers `.jar`) · Quién lo lee: Usagi, Kotatsu-Next, Kotatsu-Ultra, Weeber, Nyora, Kototoro · Dónde se prueba: `UsagiApp/usagi`
-• Formato de la pieza 10: Plugins de novela (LNReader, IReader, Hayai) · Quién lo lee: LNReader, IReader, Asabunko, Reikai, Hayai · Dónde se prueba: `LNReader/lnreader`
-• Formato de la pieza 10: Aidoku (fuentes WASM) · Quién lo lee: Aidoku, Ito y Nyora para iOS · Dónde se prueba: `Aidoku/Aidoku`
-• Formato de la pieza 10: Servidores propios (Komga, Kavita, Suwayomi) · Quién lo lee: Suwayomi-Server, JUI, Tsumiru, Vaadin, miwayomi, Sumidoku · Dónde se prueba: `Suwayomi/Suwayomi-Server`
 
 
 Cada aplicación de esta lista aparece con su ficha en la sección de su familia, y ninguna se cuenta dos veces: las cincuenta y uno fichas son cincuenta y uno programas. Lo que sí se repite es el formato: **una aplicación puede leer varios**, y esa es la tendencia del año: Kototoro carga Mihon, Aniyomi, IReader, Legado, TVBox y Cloudstream; Nekomo carga Mihon, Aniyomi, Cloudstream, Mangayomi y Kotatsu. La aplicación de un solo formato es hoy la excepción, no la regla.
@@ -200,17 +185,6 @@ Este es el capítulo que la pieza 10 dejó abierto y que aquí se cierra con una
 **2.104 archivos publicados por las cincuenta y una aplicaciones vivas. 116 con suma de comprobación.** Un **5,5 %**. En la pieza 10, el mismo cálculo entre las tiendas de extensiones daba 10 de 12.487, un **0,08 %**. La diferencia es de **sesenta y nueve veces**: por cada archivo firmado que publica una tienda, las aplicaciones publican sesenta y nueve.
 
 
-### Datos comparados (lista jerárquica)
-• Aplicación: Kototoro · Adjuntos: 118 · Con suma: **27** · Nota: 75
-• Aplicación: Mangatan · Adjuntos: 70 · Con suma: **20** · Nota: 75
-• Aplicación: Ito · Adjuntos: 40 · Con suma: **20** · Nota: 69
-• Aplicación: seanime-tenji · Adjuntos: 28 · Con suma: **14** · Nota: 48
-• Aplicación: IReader · Adjuntos: 110 · Con suma: **10** · Nota: 58
-• Aplicación: Suwayomi-Server · Adjuntos: 100 · Con suma: **10** · Nota: 63
-• Aplicación: Nekomo · Adjuntos: 56 · Con suma: **8** · Nota: 31
-• Aplicación: lnreader · Adjuntos: 37 · Con suma: **5** · Nota: 57
-• Aplicación: sozo · Adjuntos: 10 · Con suma: **1** · Nota: 49
-• Aplicación: cloudstream-macos · Adjuntos: 2 · Con suma: **1** · Nota: 64
 
 
 Los diez que firman tienen algo en común que no es el tamaño: **seis tienen menos de quinientas estrellas** y tres nacieron este año. Kototoro, que encabeza la lista con veintisiete, tiene ★668; Mangatan, segundo con veinte, ★97. Y las cinco más descargadas —Mihon, Aniyomi, Seanime, Cloudstream y J2K, 49.037.113 descargas entre todas— publican **cero sumas**.

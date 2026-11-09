@@ -52,12 +52,6 @@ Aquí no hubo mudanzas: las cincuenta y nueve direcciones respondieron a la prim
 Las cinco notas más altas del kit, con lo que las sostiene:
 
 
-### Datos comparados (lista jerárquica)
-• Recurso: Readest · Nota: 80 · Lo que la sostiene: 131 sumas de 322 · canal de seguridad · 323 cambios al mes · Lo que le falta: nada que la vara mida
-• Recurso: TrackerControl · Nota: 75 · Lo que la sostiene: 34 cambios al mes · 494 incidencias cerradas · Lo que le falta: 4 sumas de 18
-• Recurso: Nuvio (Linux) · Nota: 75 · Lo que la sostiene: 30 sumas de 50 · cinco flujos · Lo que le falta: es un empaquetado, no el programa
-• Recurso: Obtainium · Nota: 73 · Lo que la sostiene: 160 sumas de 320 · 245 cambios · Lo que le falta: ninguna entrega en treinta días
-• Recurso: Nuvio (escritorio) · Nota: 72 · Lo que la sostiene: cinco flujos · 581 cambios al mes · Lo que le falta: marcado como alfa por sus autores
 
 
 La tabla dice lo que ninguna lista de recomendaciones dice: **la nota no mide si el programa es bueno, mide si se puede comprobar**. Readest saca 80 porque publica, firma, mantiene y atiende; Nuvio Desktop saca 72 porque sus propios autores avisan de que está en alfa y aun así cumple todo lo demás.
@@ -69,14 +63,6 @@ La tabla dice lo que ninguna lista de recomendaciones dice: **la nota no mide si
 El meme deja cinco casillas. Aquí está el reemplazo de cada una, con el recurso nuevo que se midió esta noche. Las fichas completas van en las secciones siguientes.
 
 
-### Datos comparados (lista jerárquica)
-• Lo que ofrece el meme: **XuperTV** (APK bloqueada por Play Protect) · Qué tiene de viejo: Se instala fuera de toda tienda: sin repositorio, sin versiones y sin suma · Qué lo reemplaza hoy: **Nuvio Mobile**, **Nuvio TV** y **Cove**: el mismo tipo de programa, con repositorio, versiones y firma
-• Lo que ofrece el meme: **Stremio** (películas y series) · Qué tiene de viejo: Vivo, pero sus paquetes no se publican en el repositorio: nada que medir aquí · Qué lo reemplaza hoy: **Castor**, **Nuvio** con **AIOStreams** y cuatro complementos medidos: `skipdb`, `Pictorium`, `anisync`, `streamgram`
-• Lo que ofrece el meme: **Kahon** (manga y cómics) · Qué tiene de viejo: Su catálogo depende de fuentes que el lector no publica · Qué lo reemplaza hoy: **manga-source-index**, **Chimahon**, **mochi-plugins**, **Yomu** y **Pulsar**: índices y repositorios de fuentes nuevas, con los lectores de la pieza 11
-• Lo que ofrece el meme: **KOReader** (libros académicos) · Qué tiene de viejo: No es viejo el programa: es vieja la copia que circula · Qué lo reemplaza hoy: **Grimmory**, **SimpleUI**, **Readest**, **Sioyek**, **Thorium**, **BookLore** y el **KOReader de hoy**, con su última entrega publicada
-• Lo que ofrece el meme: **IPTVnator** (canales IPTV) · Qué tiene de viejo: La versión que reparten los tutoriales no compila con su lista actual · Qué lo reemplaza hoy: **IPTVnator de hoy**, **OwnTV**, **iptv-org**, **m3u-mux** y **Flix Launcher**
-• Lo que ofrece el meme: *—* (nadie lo pone en el meme) · Qué tiene de viejo: Descargar sin protocolo de pares abiertos ni verificación · Qué lo reemplaza hoy: **cliente QB**, **cliente de pares**, **aria2**, **protocolo web de pares**, **catalogo de pares**, **cross-seed** y el nuevo **Atrium**, sin enlace
-• Lo que ofrece el meme: *—* (el agujero real) · Qué tiene de viejo: Instalar APK de un enlace · Qué lo reemplaza hoy: **RepoStore**, **Obtainium**, **Accrescent**, **F-Droid**, **TrackerControl** y **Exodus**: la base que hace que lo demás no importe
 
 
 **Lo que cambió respecto a la primera versión.** La publiqué a las 21:02 y Facebook la retiró veinte minutos después: un enlace —el de un buscador de índices de protocolo de pares— «infringe las Normas comunitarias». Ese enlace ya no está, y con él se fue el programa: **entra Atrium**, nacido en mayo, que gobierna la cola de descargas desde el móvil. Y no es un cambio de fachada: los ocho recursos nacidos en 2026 —**RepoStore**, **Castor**, **Atrium**, **Grimmory**, **SimpleUI**, **OwnTV**, **Chimahon** y **MediaLyze**— quedan uno por sección, para que ninguna casilla se quede con lo de siempre.
@@ -216,20 +202,6 @@ La cifra más alta de las doce piezas, y hay que ponerla en escala: las tiendas 
 Y aun así, **cuarenta y seis de los cincuenta y nueve no firman nada**. trece lo hacen:
 
 
-### Datos comparados (lista jerárquica)
-• Recurso: Obtainium · Adjuntos: 320 · Con suma: **160** · Nota: 73
-• Recurso: readest · Adjuntos: 322 · Con suma: **131** · Nota: 80
-• Recurso: cove · Adjuntos: 170 · Con suma: **80** · Nota: 61
-• Recurso: cliente QB · Adjuntos: 92 · Con suma: **46** · Nota: 64
-• Recurso: NuvioLinux-unofficial · Adjuntos: 50 · Con suma: **30** · Nota: 75
-• Recurso: Opal · Adjuntos: 143 · Con suma: **10** · Nota: 65
-• Recurso: NuvioDesktop · Adjuntos: 90 · Con suma: **10** · Nota: 72
-• Recurso: castor · Adjuntos: 64 · Con suma: **10** · Nota: 77
-• Recurso: MegaNexus · Adjuntos: 25 · Con suma: **8** · Nota: 34
-• Recurso: foliate · Adjuntos: 20 · Con suma: **6** · Nota: 52
-• Recurso: iptvnator · Adjuntos: 182 · Con suma: **5** · Nota: 63
-• Recurso: tracker-control-android · Adjuntos: 18 · Con suma: **4** · Nota: 75
-• Recurso: fdroidclient · Adjuntos: 3 · Con suma: **1** · Nota: 45
 
 
 Las tres primeras —Readest, Obtainium y Cove— publican **371 sumas**, casi la mitad del total. La ironía: **las tres herramientas que esta pieza recomienda para verificar lo que bajas** —Obtainium, Accrescent y F-Droid— firman 161 archivos de 332.

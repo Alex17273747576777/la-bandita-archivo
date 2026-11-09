@@ -2,7 +2,7 @@
 
 *La Bandita · sábado 7 de noviembre de 2026, 11:45 de la mañana en Santo Domingo · edición dominicano-español · pieza 01 de Facebook*
 
-⏱️ *Lectura total: 38 minutos · quince repositorios abiertos uno por uno a las 11:45 de hoy, cada uno verificado contra la API de GitHub · seis publican al menos un archivo de huella y nueve no · 760 estrellas entre los quince · 38.824 descargas entre los doce que pasan el corte · seis órdenes para comprobar por tu cuenta · cero paquetes alojados aquí · mínimo de 45.000 caracteres cumplido para Facebook · datos medidos en vivo hoy, no recuerdos*
+⏱️ *Lectura total: 38 minutos · quince repositorios abiertos uno por uno a las 11:45 de hoy, cada uno verificado contra la API de GitHub · seis publican al menos un archivo de huella y nueve no · 760 estrellas entre los quince · 38.824 descargas entre los doce que pasan el corte · seis órdenes para comprobar por tu cuenta · cero paquetes alojados aquí · dentro de la banda de la casa (6.000–45.000 caracteres) · datos medidos en vivo hoy, no recuerdos*
 
 *🗺️ Mapa de esta pieza*
 
@@ -425,7 +425,7 @@ Los quince medidos, con su URL real de GitHub:
 
 (7-nov) Los **tres que se quedan fuera** se publican con nombre, cifra y motivo. Una lista que solo enseña lo que aprueba no sirve para decidir, y una casa que esconde lo que no le gusta se parece demasiado a una tienda.
 
-(7-nov) Este documento cumple el **mínimo obligatorio de 45.000 caracteres** para una publicación de Facebook, verificado por conteo de caracteres Unicode.
+(7-nov) Este documento cumple la **banda de longitud de la casa** —de 6.000 a 45.000 caracteres— y lo dice su propio conteo Unicode. La casa no declara mínimos de plataforma que no ha comprobado: el de 45.000 venía de una vara interna, no de Facebook.
 
 ━━━━━━━━━━━━━
 

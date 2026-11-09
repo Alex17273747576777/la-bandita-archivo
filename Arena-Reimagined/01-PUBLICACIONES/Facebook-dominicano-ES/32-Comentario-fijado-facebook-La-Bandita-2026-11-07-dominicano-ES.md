@@ -5,7 +5,7 @@ Resumen rápido para enlaces y contexto:
 **De qué trata esta publicación:** programas medidos uno por uno contra la API de GitHub.
 **Datos reales, no estimaciones.** Ningún paquete se aloja aquí.
 
-**Los fichas, con datos reales de hoy:**
+**Las fichas, con datos reales de hoy:**
 • Gingerbreadfork/lounge ★4 · MIT · último push 2026-11-06 · huella 1 archivo(s) · nota 35/80
 • JoaoAntunesss/tv-debloat ★0 · None · último push 2026-10-30 · huella 0 archivo(s) · nota 0/80
 • Sygix/Tsuyu ★1 · AGPL-3.0 · último push 2026-11-04 · huella 0 archivo(s) · nota 39/80

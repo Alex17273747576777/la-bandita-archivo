@@ -5,7 +5,7 @@ Resumen rápido para enlaces y contexto:
 **De qué trata esta publicación:** programas medidos uno por uno contra la API de GitHub.
 **Datos reales, no estimaciones.** Ningún paquete se aloja aquí.
 
-**Los fichas, con datos reales de hoy:**
+**Las fichas, con datos reales de hoy:**
 • Kunzisoft/KeePassDX ★7633 · GPL-3.0 · último push 2026-11-01 · huella 0 archivo(s) · nota 40/80
 • PhilippC/keepass2android ★6372 · GPL-3.0 · último push 2026-11-06 · huella 0 archivo(s) · nota 40/80
 • AChep/keyguard-app ★3609 · NOASSERTION · último push 2026-11-07 · huella 0 archivo(s) · nota 25/80

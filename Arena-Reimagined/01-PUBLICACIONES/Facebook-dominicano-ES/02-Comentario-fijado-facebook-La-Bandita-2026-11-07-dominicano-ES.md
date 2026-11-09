@@ -5,7 +5,7 @@ Resumen rápido para enlaces y contexto:
 **De qué trata esta publicación:** programas medidos uno por uno contra la API de GitHub.
 **Datos reales, no estimaciones.** Ningún paquete se aloja aquí.
 
-**Los fichas, con datos reales de hoy:**
+**Las fichas, con datos reales de hoy:**
 • MetrolistGroup/Metrolist ★14063 · GPL-3.0 · último push 2026-11-02 · huella 0 archivo(s) · nota 40/80
 • maxrave-dev/SimpMusic ★12943 · GPL-3.0 · último push 2026-11-06 · huella 0 archivo(s) · nota 40/80
 • rukamori/ArchiveTune ★8044 · GPL-3.0 · último push 2026-11-07 · huella 0 archivo(s) · nota 40/80

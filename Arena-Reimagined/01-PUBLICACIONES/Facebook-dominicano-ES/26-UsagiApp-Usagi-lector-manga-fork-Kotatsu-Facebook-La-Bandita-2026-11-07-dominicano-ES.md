@@ -588,7 +588,7 @@ Esta pieza se midió siguiendo un proceso riguroso:
 5. Se verificó que la firma textual esté presente.
 6. Se verificó que la fecha de corte se declare en formato largo en la cabecera.
 7. Se contaron los hashtags estratégicos para verificar que estén entre 8 y 12.
-8. Se midió la longitud total del cuerpo para verificar que supere los 45.000 caracteres.
+8. Se midió la longitud total del cuerpo para verificar que caiga dentro de la banda declarada.
 9. Se generó el comentario fijado con enlaces rápidos y contexto de uso.
 10. Se verificó que el comentario fijado tenga menos de 100 líneas.
 

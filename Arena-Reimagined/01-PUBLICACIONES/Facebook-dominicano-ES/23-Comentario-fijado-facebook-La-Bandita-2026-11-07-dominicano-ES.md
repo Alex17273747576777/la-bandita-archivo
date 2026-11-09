@@ -5,7 +5,7 @@ Resumen rápido para enlaces y contexto:
 **De qué trata esta publicación:** programas medidos uno por uno contra la API de GitHub.
 **Datos reales, no estimaciones.** Ningún paquete se aloja aquí.
 
-**Los fichas, con datos reales de hoy:**
+**Las fichas, con datos reales de hoy:**
 • keiyoushi/extensions ★15447 · None · último push 2026-11-07 · huella 0 archivo(s) · nota 24/80
 
 **Seis órdenes para comprobar por tu cuenta:**

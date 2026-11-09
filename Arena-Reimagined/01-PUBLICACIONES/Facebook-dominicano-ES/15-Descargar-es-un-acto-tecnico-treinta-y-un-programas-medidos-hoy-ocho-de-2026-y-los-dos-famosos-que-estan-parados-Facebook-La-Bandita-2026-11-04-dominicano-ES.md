@@ -52,12 +52,6 @@ Antes de sondear nada se hizo la revisión que ahora es regla: **la fecha en viv
 Las cinco notas más altas, con lo que las sostiene:
 
 
-### Datos comparados (lista jerárquica)
-• Recurso: rayburst · Nota: 71 · Lo que la sostiene: 100 sumas de 220 · 131 cambios al mes · Lo que le falta: 245 días de vida
-• Recurso: Stash · Nota: 70 · Lo que la sostiene: 749 cambios al mes · canal de seguridad · Lo que le falta: 12 adjuntos sin una suma
-• Recurso: downvid · Nota: 70 · Lo que la sostiene: 141 adjuntos · canal de seguridad · 74 días · Lo que le falta: sin una suma publicada
-• Recurso: yt-dlp · Nota: 70 · Lo que la sostiene: 40 sumas · 10.178 incidencias cerradas · Lo que le falta: nada que la vara mida
-• Recurso: ytdlnis · Nota: 69 · Lo que la sostiene: 572 cambios al mes · canal de seguridad · Lo que le falta: 99 adjuntos sin una suma
 
 
 **La nota no mide si el programa baja lo que tú quieres: mide si se puede comprobar.** Stash y downvid sacan 70 sin firmar un archivo porque publican, atienden y mantienen un canal de seguridad; y Seal, con treinta mil estrellas, saca 42 porque lleva un mes sin moverse.
@@ -67,13 +61,6 @@ Las cinco notas más altas, con lo que las sostiene:
 *🔁 Qué reemplaza a qué · la tabla de la descarga*
 
 
-### Datos comparados (lista jerárquica)
-• Lo que usas hoy: Un gestor de escritorio que no recuerda · Qué tiene de viejo: Motrix: 57.808 estrellas y **cero cambios en treinta días** · Qué lo cubre hoy: **Gopeed**, **XDM**, **Persepolis**, **YoutubeDownloader** y los nuevos **prism** y **downvid**
-• Lo que usas hoy: La app de Android para bajar vídeo · Qué tiene de viejo: Seal: 30.347 estrellas y **40 días sin empujón** · Qué lo cubre hoy: **ytdlnis**, la bifurcación que sí publica: 572 cambios al mes
-• Lo que usas hoy: Una web con ventanas y botones · Qué tiene de viejo: Sin versión, sin suma y sin código · Qué lo cubre hoy: **yt-dlp**, **lux**, **you-get**, **gallery-dl**: línea de órdenes, auditable
-• Lo que usas hoy: Un cliente de escritorio para todo · Qué tiene de viejo: Pesa cientos de megas y no dice de dónde baja · Qué lo cubre hoy: **rayburst**, **Stash**, **MovieBox-Tui**: tres de 2026, con notas de 68 a 71
-• Lo que usas hoy: Copiar la dirección del vídeo a mano · Qué tiene de viejo: Se rompe cada vez que la web cambia · Qué lo cubre hoy: **N_m3u8DL-RE** y **curl-impersonate**: los dos que resuelven lo que los demás no
-• Lo que usas hoy: *—* (nadie lo mira) · Qué tiene de viejo: Que el archivo llegue entero · Qué lo cubre hoy: **274 sumas de 2.596 archivos**: la columna que casi nadie publica
 
 
 **Una regla que esta pieza no se salta:** no se enlaza **ningún** cliente ni índice de protocolo de pareses. Ese es el tema de la pieza 16 y, además, la familia que Facebook vetó en la 12 (E40, H20). Aquí se mide software de descarga directa y se dice lo que hace; nada más.
@@ -221,17 +208,6 @@ En su escala: tiendas de extensiones de la pieza 10, **0,08 %**; aplicaciones de
 **veintiuno de los treinta y uno no firman nada.** Los diez que sí:
 
 
-### Datos comparados (lista jerárquica)
-• Recurso: rayburst · Adjuntos: 220 · Con suma: **100** · Nota: 71
-• Recurso: xiadown · Adjuntos: 120 · Con suma: **60** · Nota: 43
-• Recurso: yt-dlp · Adjuntos: 240 · Con suma: **40** · Nota: 70
-• Recurso: you-get · Adjuntos: 40 · Con suma: **20** · Nota: 35
-• Recurso: lux · Adjuntos: 192 · Con suma: **10** · Nota: 50
-• Recurso: prism-download-manager · Adjuntos: 140 · Con suma: **10** · Nota: 61
-• Recurso: MovieBox-Tui · Adjuntos: 70 · Con suma: **10** · Nota: 68
-• Recurso: aria-ng-gui · Adjuntos: 55 · Con suma: **9** · Nota: 32
-• Recurso: bare-browser · Adjuntos: 37 · Con suma: **9** · Nota: 49
-• Recurso: wget2 · Adjuntos: 12 · Con suma: **6** · Nota: 56
 
 
 Dos cosas de esa tabla. La primera: **rayburst pone 100 de las 274 sumas** —más de un tercio del total— y tiene tres meses; el resto lo reparten nueve proyectos. La segunda: **el programa con más descargas de la serie, yt-dlp, firma 40 de 240 archivos**; el que más se usa no es el que más garantiza, pero al menos garantiza algo.

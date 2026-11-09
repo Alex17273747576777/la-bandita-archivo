@@ -5,7 +5,7 @@ Resumen rápido para enlaces y contexto:
 **De qué trata esta publicación:** programas medidos uno por uno contra la API de GitHub.
 **Datos reales, no estimaciones.** Ningún paquete se aloja aquí.
 
-**Los fichas, con datos reales de hoy:**
+**Las fichas, con datos reales de hoy:**
 • RikkaApps/Shizuku ★33034 · Apache-2.0 · último push 2025-06-18 · huella 0 archivo(s) · nota 30/80
 • RikkaApps/Shizuku-API ★2752 · MIT · último push 2025-05-29 · huella 0 archivo(s) · nota 17/80
 • Foxlape/GhostMode ★134 · Apache-2.0 · último push 2026-11-04 · huella 1 archivo(s) · nota 40/80

@@ -49,12 +49,6 @@ Antes de elegir nada, la revisión que ya es regla: **fecha en vivo**, **histori
 Las cinco notas más altas, con lo que las sostiene:
 
 
-### Datos comparados (lista jerárquica)
-• Recurso: streamlink · Nota: 80 · Lo que la sostiene: 10 sumas · 3.065 cerradas · Lo que le falta: 61 abiertas
-• Recurso: OKVideoMac · Nota: 74 · Lo que la sostiene: 20 sumas de 160 · sin incidencias abiertas · Lo que le falta: 82 días de vida
-• Recurso: aerial · Nota: 71 · Lo que la sostiene: 10 sumas · empujón de hoy · Lo que le falta: sin canal de seguridad
-• Recurso: libretime · Nota: 66 · Lo que la sostiene: plataforma completa · 17 cambios · Lo que le falta: 139 abiertas
-• Recurso: OwnTV · Nota: 65 · Lo que la sostiene: 39 entregas · 234 cambios · Lo que le falta: 30 adjuntos sin suma
 
 
 **La nota premia que se pueda comprobar, no que sea famoso.** **AntennaPod**, con 8.266 estrellas y 5.210 días de historia, saca **51** porque no publica un solo adjunto: 71 entregas sin archivo que comprobar. Y **OKVideoMac**, con 119 estrellas, saca **74** porque firma 20 de sus 160 archivos.
@@ -80,13 +74,6 @@ Antes de las fichas, el mecanismo. Un reproductor de radio o de televisión por 
 *🔁 Qué reemplaza a qué · la tabla de la radio*
 
 
-### Datos comparados (lista jerárquica)
-• Lo que usas hoy: La app de radio que instalaste hace años · Qué tiene de viejo: RadioDroid: **862 días sin publicar** · Qué lo cubre hoy: **aerial**, **InternetRadio**, **omnibeat**, **tune-roam**: cuatro de 2026
-• Lo que usas hoy: La aplicación del fabricante para ver la tele · Qué tiene de viejo: Pide cuenta y manda tu lista a un servidor · Qué lo cubre hoy: **OwnTV**, **opentv**, **mytv-android**: lista propia, sin cuenta
-• Lo que usas hoy: Un reproductor de escritorio con la lista pegada a mano · Qué tiene de viejo: thirty días de prueba y un aviso cada vez que cambia un canal · Qué lo cubre hoy: **Traydio**, **receiver**, **AetherTune**; y **streamlink** para lo que no tiene reproductor
-• Lo que usas hoy: La guía de programación que nunca coincide · Qué tiene de viejo: Los nombres de la lista y los de la guía no son los mismos · Qué lo cubre hoy: **iptv-doctor**, **epg-tools**, **xmltv-splitter**
-• Lo que usas hoy: Un servicio de streaming para tu emisora · Qué tiene de viejo: Se paga por oyente y se cae con el pico · Qué lo cubre hoy: **AzuraCast**, **LibreTime** e **Icecast**: en tu casa o en un servidor de cinco dólares
-• Lo que usas hoy: Bajar el audio de un directo · Qué tiene de viejo: Se graba con el altavoz y suena a eso · Qué lo cubre hoy: **streamlink**: saca el flujo sin recodificar
 
 
 **Una advertencia sobre esa tabla, y es la de siempre en este tema.** Ninguna de estas piezas trae contenido. Un reproductor es un reproductor: lo que se ve depende de la lista que le pongas. Las listas gratuitas que circulan por ahí suelen ser **redifusiones sin permiso**, y de eso va la sección de responsabilidad, que en esta pieza no es un apéndice.
@@ -184,39 +171,6 @@ El tema tiene una mitad que casi nunca se cuenta: **poner tu propia señal**. Cu
 El registro entero, ordenado por nota. La columna de firmas se repite en toda la pieza: **143 de 1.012**.
 
 
-### Datos comparados (lista jerárquica)
-• #: 1 · Recurso: streamlink/streamlink · Nota: **80** · ★: 11.896 · Último empujón: hace 2 días · Entregas: 100 · Sumas / adjuntos: 10 / 20
-• #: 2 · Recurso: yaolin-dev/OKVideoMac · Nota: **74** · ★: 119 · Último empujón: hoy · Entregas: 19 · Sumas / adjuntos: 20 / 160
-• #: 3 · Recurso: shapeshed/aerial · Nota: **71** · ★: 165 · Último empujón: hoy · Entregas: 18 · Sumas / adjuntos: 10 / 26
-• #: 4 · Recurso: libretime/libretime · Nota: **66** · ★: 938 · Último empujón: hace 2 días · Entregas: 29 · Sumas / adjuntos: 9 / 19
-• #: 5 · Recurso: ahXN00/OwnTV · Nota: **65** · ★: 729 · Último empujón: ayer · Entregas: 39 · Sumas / adjuntos: 0 / 30
-• #: 6 · Recurso: armanmaurya/InternetRadio · Nota: **64** · ★: 180 · Último empujón: ayer · Entregas: 17 · Sumas / adjuntos: 0 / 10
-• #: 7 · Recurso: infinitel8p/Extreme-InfiniTV · Nota: **64** · ★: 208 · Último empujón: hace 3 días · Entregas: 92 · Sumas / adjuntos: 80 / 188
-• #: 8 · Recurso: renyijiu/tune-roam · Nota: **64** · ★: 10 · Último empujón: ayer · Entregas: 4 · Sumas / adjuntos: 4 / 8
-• #: 9 · Recurso: bilipp/Lume · Nota: **63** · ★: 176 · Último empujón: hace 2 días · Entregas: 27 · Sumas / adjuntos: 0 / 30
-• #: 10 · Recurso: mewset/better-iptv · Nota: **63** · ★: 71 · Último empujón: hace 9 días · Entregas: 21 · Sumas / adjuntos: 0 / 80
-• #: 11 · Recurso: TheJoeFin/Traydio · Nota: **62** · ★: 204 · Último empujón: ayer · Entregas: 13 · Sumas / adjuntos: 0 / 22
-• #: 12 · Recurso: lennylxx/webos-iptv-player · Nota: **60** · ★: 145 · Último empujón: hace 2 días · Entregas: 20 · Sumas / adjuntos: 0 / 20
-• #: 13 · Recurso: mytv-android/mytv-android · Nota: **53** · ★: 3.006 · Último empujón: hace 3 días · Entregas: 100 · Sumas / adjuntos: 0 / 80
-• #: 14 · Recurso: AntennaPod/AntennaPod · Nota: **51** · ★: 8.266 · Último empujón: hace 3 días · Entregas: 71 · Sumas / adjuntos: 0 / 0
-• #: 15 · Recurso: AzuraCast/AzuraCast · Nota: **50** · ★: 4.085 · Último empujón: hoy · Entregas: 48 · Sumas / adjuntos: 0 / 0
-• #: 16 · Recurso: dereferencex/prysm · Nota: **49** · ★: 50 · Último empujón: hace 20 días · Entregas: 12 · Sumas / adjuntos: 0 / 32
-• #: 17 · Recurso: deutsia/deutsia-radio · Nota: **49** · ★: 78 · Último empujón: hace 164 días · Entregas: 23 · Sumas / adjuntos: 10 / 30
-• #: 18 · Recurso: Davidona/StreamVault-IPTV · Nota: **47** · ★: 1.000 · Último empujón: hace 3 días · Entregas: 100 · Sumas / adjuntos: 0 / 20
-• #: 19 · Recurso: z0rats/freqcast · Nota: **46** · ★: 14 · Último empujón: hace 3 días · Entregas: 33 · Sumas / adjuntos: 0 / 10
-• #: 20 · Recurso: bsogulcan/another-iptv-player · Nota: **44** · ★: 157 · Último empujón: hace 5 días · Entregas: 31 · Sumas / adjuntos: 0 / 32
-• #: 21 · Recurso: hyliankid14/British-Radio-Player · Nota: **44** · ★: 23 · Último empujón: hace 3 días · Entregas: 52 · Sumas / adjuntos: 0 / 20
-• #: 22 · Recurso: opentvproject/opentv · Nota: **44** · ★: 145 · Último empujón: hace 8 días · Entregas: 19 · Sumas / adjuntos: 0 / 20
-• #: 23 · Recurso: nevermore23274/AetherTune · Nota: **42** · ★: 129 · Último empujón: hace 10 días · Entregas: 33 · Sumas / adjuntos: 0 / 40
-• #: 24 · Recurso: segler-alex/RadioDroid · Nota: **40** · ★: 1.081 · Último empujón: hace 862 días · Entregas: 49 · Sumas / adjuntos: 0 / 14
-• #: 25 · Recurso: Ruby184/epg-tools · Nota: **39** · ★: 1 · Último empujón: hace 6 días · Entregas: 8 · Sumas / adjuntos: 0 / 0
-• #: 26 · Recurso: xyzs996/iptv-doctor · Nota: **39** · ★: 6 · Último empujón: hoy · Entregas: 1 · Sumas / adjuntos: 0 / 10
-• #: 27 · Recurso: vikindor/omnibeat · Nota: **38** · ★: 13 · Último empujón: ayer · Entregas: 11 · Sumas / adjuntos: 0 / 10
-• #: 28 · Recurso: meehow/receiver · Nota: **36** · ★: 51 · Último empujón: hace 88 días · Entregas: 15 · Sumas / adjuntos: 0 / 20
-• #: 29 · Recurso: clubanderson/clubTivi · Nota: **35** · ★: 108 · Último empujón: hace 4 días · Entregas: 16 · Sumas / adjuntos: 0 / 60
-• #: 30 · Recurso: xiph/Icecast-Server · Nota: **22** · ★: 557 · Último empujón: hace 78 días · Entregas: 0 · Sumas / adjuntos: 0 / 0
-• #: 31 · Recurso: suuhm/xmltv-splitter · Nota: **9** · ★: 1 · Último empujón: hace 121 días · Entregas: 0 · Sumas / adjuntos: 0 / 0
-• #: 32 · Recurso: Woodic-Way/WoodicIPTV · Nota: **0** · ★: 5 · Último empujón: hace 98 días · Entregas: 1 · Sumas / adjuntos: 0 / 1
 
 
 Leída en vertical dice tres cosas: **siete de treinta y dos firman algún archivo**, **cuatro no tienen integración continua** y **dos no han etiquetado una sola versión**. Leída en horizontal deja ver el hueco de la pieza: entre **streamlink (80)** y **WoodicIPTV (0)** no hay una diferencia de público, hay una de **10 archivos firmados** frente a ninguno. **Lo que no mide:** si el canal se ve, si la emisora sigue emitiendo o si la guía coincide. Eso depende de la lista, no del programa.
@@ -263,14 +217,6 @@ En su escala, donde ya está todo el año: tiendas de la 10, **0,08 %**; aplicac
 **veinticinco de los treinta y dos no publican ni una suma.** Los que sí:
 
 
-### Datos comparados (lista jerárquica)
-• Recurso: Extreme-InfiniTV · Adjuntos: 188 · Con suma: **80** · Nota: 64
-• Recurso: OKVideoMac · Adjuntos: 160 · Con suma: **20** · Nota: 74
-• Recurso: deutsia-radio · Adjuntos: 30 · Con suma: **10** · Nota: 49
-• Recurso: aerial · Adjuntos: 26 · Con suma: **10** · Nota: 71
-• Recurso: streamlink · Adjuntos: 20 · Con suma: **10** · Nota: 80
-• Recurso: libretime · Adjuntos: 19 · Con suma: **9** · Nota: 66
-• Recurso: tune-roam · Adjuntos: 8 · Con suma: **4** · Nota: 64
 
 
 Dos lecturas. **Extreme-InfiniTV firma 80 archivos** y **OKVideoMac 20**, y entre los dos ponen **más de dos tercios** de las 143 sumas del tema; el primero lleva un mes sin cambiar y el segundo tiene 82 días. Y **AntennaPod, AzuraCast e Icecast —las tres más conocidas— no firman nada aquí**: las dos primeras no publican adjuntos y la tercera es un espejo.

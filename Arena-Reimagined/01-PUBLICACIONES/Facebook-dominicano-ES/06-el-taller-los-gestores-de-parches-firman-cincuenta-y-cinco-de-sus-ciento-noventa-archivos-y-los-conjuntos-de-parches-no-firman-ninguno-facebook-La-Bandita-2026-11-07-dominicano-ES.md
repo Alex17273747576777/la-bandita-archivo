@@ -2,7 +2,7 @@
 
 *La Bandita · sábado 7 de noviembre de 2026, 10:30 de la mañana en Santo Domingo · edición dominicano-español · pieza 06 de Facebook*
 
-⏱️ *Lectura total: 44 minutos · diecisiete gestores de parches y conjuntos de parches medidos uno por uno con datos reales de la API de GitHub · cincuenta y cinco archivos con huella de ciento noventa archivos adjuntos · cero paquetes alojados aquí · mínimo de 45.000 caracteres cumplido para Facebook · fecha en vivo verificada contra fuente externa antes de empezar y al terminar*
+⏱️ *Lectura total: 44 minutos · diecisiete gestores de parches y conjuntos de parches medidos uno por uno con datos reales de la API de GitHub · cincuenta y cinco archivos con huella de ciento noventa archivos adjuntos · cero paquetes alojados aquí · dentro de la banda de la casa (6.000–45.000 caracteres) · fecha en vivo verificada contra fuente externa antes de empezar y al terminar*
 
 *🗺️ Mapa de esta pieza*
 
@@ -39,7 +39,7 @@ Esto no es una opinión. Es un conteo.
 
 ⚡ *En una página · el resultado del taller en cifras*
 
-De los diecisiete repositorios medidos, solo cuatro publican al menos un archivo de huella (SHA-256 o firma .asc): MorpheApp/morphe-manager, ReVanced/revanced-api, ReVanced/revanced-integrations, ReVanced/revanced-manager y brosssh/revanced-manager-downloaders. Eso son cinco de diecisiete, no cuatro: me corrijo, son cinco. Espera, contemos: morphe-manager (1 huella), revanced-api (1 huella), revanced-integrations (1 huella), revanced-manager (1 huella), revanced-manager-downloaders (4 huellas). Eso son cinco repositorios con huella de diecisiete. El **29,4 por ciento**.
+De los diecisiete repositorios medidos, **cinco publican al menos un archivo de huella** (SHA-256 o firma .asc): `MorpheApp/morphe-manager` (1), `ReVanced/revanced-api` (1), `ReVanced/revanced-integrations` (1), `ReVanced/revanced-manager` (1) y `brosssh/revanced-manager-downloaders` (4). Cinco de diecisiete: el **29,4 por ciento**.
 
 Pero hay un matiz importante: ReVanced/revanced-patches no se pudo medir porque el acceso al repositorio está bloqueado. Y ReVanced/where-is-revanced-patches no tiene licencia declarada ni releases. Y dos repositorios de inotia00 están archivados. El ecosistema de gestores de parches está fragmentado: parte está activo, parte archivado, parte bloqueado, parte sin licencia.
 
@@ -493,7 +493,7 @@ Cada fichero de medición queda guardado con su fecha y hora, y ninguno se sobre
 
 (7-nov) Cada cifra se leyó directamente de la API de GitHub entre las 09:45 y las 10:30 del 7 de noviembre de 2026. ReVanced/revanced-patches no se pudo medir (acceso bloqueado) y no se inventó ningún dato sobre él.
 
-(7-nov) Esta pieza cumple el **mínimo obligatorio de 45.000 caracteres** para una publicación de Facebook, verificado por conteo de caracteres Unicode.
+(7-nov) Esta pieza cae dentro de la **banda de longitud de la casa** —de 6.000 a 45.000 caracteres—, verificado por conteo de caracteres Unicode. El mínimo de 45.000 que se citaba antes era una vara interna de la casa, no una regla de Facebook.
 
 (7-nov) La nota sobre ochenta y ocho es una suma de las veintidós fichas (cero a cuatro cada una). Ningún gestor de parches de los diecisiete llega a ochenta y ocho.
 

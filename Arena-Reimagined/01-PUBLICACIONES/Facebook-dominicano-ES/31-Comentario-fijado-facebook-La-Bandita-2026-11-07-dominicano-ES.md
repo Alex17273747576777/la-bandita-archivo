@@ -5,7 +5,7 @@ Resumen rápido para enlaces y contexto:
 **De qué trata esta publicación:** programas medidos uno por uno contra la API de GitHub.
 **Datos reales, no estimaciones.** Ningún paquete se aloja aquí.
 
-**Los fichas, con datos reales de hoy:**
+**Las fichas, con datos reales de hoy:**
 • Jman-Github/Patch-Bundle-Registry ★725 · Unlicense · último push 2026-11-07 · huella 0 archivo(s) · nota 32/80
 • Jman-Github/Universal-Patch-Manager ★1416 · GPL-3.0 · último push 2026-11-07 · huella 0 archivo(s) · nota 40/80
 • MorpheApp/morphe-manager ★10076 · GPL-3.0 · último push 2026-11-07 · huella 1 archivo(s) · nota 50/80

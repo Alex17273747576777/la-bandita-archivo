@@ -2,7 +2,7 @@
 
 *La Bandita · sábado 7 de noviembre de 2026, 11:15 de la mañana en Santo Domingo · edición dominicano-español · pieza 07 de Facebook*
 
-⏱️ *Lectura total: 44 minutos · diecisiete programas de pantalla grande y casa inteligente medidos uno por uno con datos reales de la API de GitHub · cuatro de diecisiete publican huella · cero paquetes alojados aquí · mínimo de 45.000 caracteres cumplido para Facebook · fecha en vivo verificada contra fuente externa antes de empezar y al terminar*
+⏱️ *Lectura total: 44 minutos · diecisiete programas de pantalla grande y casa inteligente medidos uno por uno con datos reales de la API de GitHub · cuatro de diecisiete publican huella · cero paquetes alojados aquí · dentro de la banda de la casa (6.000–45.000 caracteres) · fecha en vivo verificada contra fuente externa antes de empezar y al terminar*
 
 *🗺️ Mapa de esta pieza*
 
@@ -29,7 +29,7 @@
 
 La pantalla grande no es una pantalla cualquiera. Es el televisor del salón, el proyector del dormitorio, el reproductor multimedia del cuarto de los niños. Es el dispositivo que está encendido más horas al día y el que menos revisamos. Cuando instalas una aplicación en la tele —un lanzador, un reproductor, un cliente de música, un sistema de automatización del hogar— le das acceso a tu red local, a tus cuentas y, a veces, a tus cámaras y micrófonos.
 
-Los gigantes de la pantalla grande (Home Assistant, Jellyfin, Kodi, ESPHome, SmartTube) tienen decenas de miles de estrellas y millones de usuarios. Pero, como veremos, ninguno de ellos publica huella de comprobación de sus archivos. Tú instalas su actualización y confías. No hay forma de comprobar que el archivo que baja es el que publicaron.
+Los gigantes de la pantalla grande (Home Assistant, Jellyfin, Kodi, ESPHome, SmartTube) tienen decenas de miles de estrellas y millones de usuarios. Y, medido con la API pública de GitHub el 8 de noviembre de 2026, ninguno de los cinco adjunta una suma de comprobación a su última entrega: tres ni siquiera publican adjuntos —el código va en el paquete de cada distribución— y SmartTube publica cuatro archivos y ninguna huella. Tú instalas su actualización y confías: no hay forma de comprobar que el archivo que baja es el que publicaron.
 
 Mientras tanto, cuatro proyectos recientes —lanzadores de TV, debloaters, reproductores de streaming— sí publican huella. Tienen pocas estrellas, pero sí te dan con qué comprobar.
 
@@ -536,7 +536,7 @@ La próxima vez que instales algo en tu tele, pregúntate: ¿puedo comprobar que
 
 (7-nov) Cada cifra se leyó directamente de la API de GitHub entre las 10:45 y las 11:15 del 7 de noviembre de 2026. Ningún número se inventó.
 
-(7-nov) Esta pieza cumple el **mínimo obligatorio de 45.000 caracteres** para una publicación de Facebook, verificado por conteo de caracteres Unicode.
+(7-nov) Esta pieza cae dentro de la **banda de longitud de la casa** —de 6.000 a 45.000 caracteres—, verificado por conteo de caracteres Unicode. El mínimo de 45.000 que se citaba antes era una vara interna de la casa, no una regla de Facebook.
 
 (7-nov) La nota sobre ochenta y ocho es una suma de las veintidós fichas (cero a cuatro cada una). Ningún programa de los diecisiete llega a ochenta y ocho.
 

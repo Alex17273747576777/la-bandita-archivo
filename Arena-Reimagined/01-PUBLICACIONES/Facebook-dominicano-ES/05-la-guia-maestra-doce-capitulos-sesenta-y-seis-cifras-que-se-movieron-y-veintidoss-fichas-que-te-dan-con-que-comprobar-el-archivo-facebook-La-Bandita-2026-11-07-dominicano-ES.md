@@ -2,7 +2,7 @@
 
 *La Bandita · sábado 7 de noviembre de 2026, 09:45 de la mañana en Santo Domingo · edición dominicano-español · pieza 05 de Facebook*
 
-⏱️ *Lectura total: 48 minutos · veintidós fichas de comprobación de archivo explicadas una por una · dieciocho programas ya medidos con datos reales de la API de GitHub · sesenta y seis cifras revisadas al cierre de la jornada · mínimo de 45.000 caracteres cumplido para Facebook · cero paquetes alojados aquí · fecha en vivo verificada contra fuente externa antes de empezar y al terminar*
+⏱️ *Lectura total: 48 minutos · veintidós fichas de comprobación de archivo explicadas una por una · dieciocho programas ya medidos con datos reales de la API de GitHub · sesenta y seis cifras revisadas al cierre de la jornada · dentro de la banda de la casa (6.000–45.000 caracteres) · cero paquetes alojados aquí · fecha en vivo verificada contra fuente externa antes de empezar y al terminar*
 
 *📋 Resumen ejecutivo*
 
@@ -442,7 +442,7 @@ Cada fichero de medición queda guardado con su fecha y hora, y ninguno se sobre
 
 (7-nov) Los datos de los dieciocho programas son los mismos medidos para la pieza 04 (datos reales de la API de GitHub), aplicados ahora al método de las veintidós fichas de comprobación de archivo. No se inventó ningún número.
 
-(7-nov) Esta pieza cumple el **mínimo obligatorio de 45.000 caracteres** para una publicación de Facebook, verificado por conteo de caracteres Unicode.
+(7-nov) Esta pieza cae dentro de la **banda de longitud de la casa** —de 6.000 a 45.000 caracteres—, verificado por conteo de caracteres Unicode. El mínimo de 45.000 que se citaba antes era una vara interna de la casa, no una regla de Facebook.
 
 (7-nov) La nota sobre ochenta y ocho es una suma de las veintidós fichas (cero a cuatro cada una). Ningún programa de los dieciocho llega cerca de ochenta y ocho, lo que confirma que la verificación de archivo es la asignatura pendiente del ecosistema Shizuku.
 

@@ -47,12 +47,6 @@ Antes de elegir nada se hizo la revisión que ya es regla: **fecha en vivo**, **
 Las cinco notas más altas, con lo que las sostiene:
 
 
-### Datos comparados (lista jerárquica)
-• Recurso: autobrr · Nota: 75 · Lo que la sostiene: 10 sumas de 200 · 688 incidencias cerradas · Lo que le falta: nada que la vara mida
-• Recurso: piko · Nota: 65 · Lo que la sostiene: 10 sumas · 241 cambios al mes · Lo que le falta: 47 días de vida
-• Recurso: Atrium · Nota: 65 · Lo que la sostiene: canal de seguridad · 156 cambios al mes · Lo que le falta: 30 adjuntos sin suma
-• Recurso: cliente QB · Nota: 64 · Lo que la sostiene: 46 sumas de 92 · canal de seguridad · Lo que le falta: solo 8 entregas etiquetadas
-• Recurso: emule-qt · Nota: 64 · Lo que la sostiene: 301 cambios al mes · 10 sumas · Lo que le falta: 57 estrellas
 
 
 **La nota mide si se puede comprobar, no si el programa es popular.** autobrr saca 75 con 3.192 estrellas y emule-qt saca 64 con 57: la diferencia de fama es de doce a uno y la de nota es de once puntos. Y al revés: **cliente QB, con 41.362 estrellas —el más famoso de todos—, saca 64** porque publica pocas entregas etiquetadas.
@@ -84,29 +78,6 @@ Esta sección no la pide la lista, la pide el tema. Si no se entiende el mecanis
 Las secciones anteriores cuentan lo que importa; esta deja el registro entero. Se ordena por nota, y la columna de sumas es la que más se repite en toda la pieza.
 
 
-### Datos comparados (lista jerárquica)
-• #: 1 · Recurso: autobrr/autobrr · Nota: **75** · ★: 3.192 · Último empujón: hoy · Entregas: 100 · Sumas / adjuntos: 10 / 200
-• #: 2 · Recurso: NihilDigit/piko · Nota: **65** · ★: 660 · Último empujón: ayer · Entregas: 21 · Sumas / adjuntos: 10 / 176
-• #: 3 · Recurso: retransmit/Atrium · Nota: **65** · ★: 301 · Último empujón: hace 2 días · Entregas: 28 · Sumas / adjuntos: 0 / 30
-• #: 4 · Recurso: ModderMule/emule-qt · Nota: **64** · ★: 57 · Último empujón: hoy · Entregas: 49 · Sumas / adjuntos: 10 / 70
-• #: 5 · Recurso: autobrr/upbrr · Nota: **64** · ★: 258 · Último empujón: hoy · Entregas: 18 · Sumas / adjuntos: 0 / 76
-• #: 6 · Recurso: cliente QB/cliente QB · Nota: **64** · ★: 41.362 · Último empujón: hoy · Entregas: 8 · Sumas / adjuntos: 46 / 92
-• #: 7 · Recurso: BAprotocolo de pares-app/BAprotocolo de pares · Nota: **63** · ★: 163 · Último empujón: hace 13 días · Entregas: 48 · Sumas / adjuntos: 0 / 80
-• #: 8 · Recurso: stabldev/torrra · Nota: **62** · ★: 1.240 · Último empujón: ayer · Entregas: 57 · Sumas / adjuntos: 0 / 30
-• #: 9 · Recurso: smartmontools/smartmontools · Nota: **60** · ★: 1.460 · Último empujón: ayer · Entregas: 10 · Sumas / adjuntos: 15 / 58
-• #: 10 · Recurso: uutils/coreutils · Nota: **58** · ★: 24.332 · Último empujón: hoy · Entregas: 43 · Sumas / adjuntos: 0 / 163
-• #: 11 · Recurso: rhash/RHash · Nota: **57** · ★: 735 · Último empujón: hace 7 días · Entregas: 22 · Sumas / adjuntos: 20 / 20
-• #: 12 · Recurso: antonyshakirov/hop · Nota: **54** · ★: 166 · Último empujón: ayer · Entregas: 37 · Sumas / adjuntos: 20 / 60
-• #: 13 · Recurso: Langegen/protocolo de paresShopNX · Nota: **49** · ★: 50 · Último empujón: hoy · Entregas: 24 · Sumas / adjuntos: 0 / 10
-• #: 14 · Recurso: anacrolix/protocolo de pares · Nota: **46** · ★: 6.132 · Último empujón: hoy · Entregas: 0 · Sumas / adjuntos: 0 / 0
-• #: 15 · Recurso: cliente de pares/cliente de pares · Nota: **45** · ★: 15.383 · Último empujón: hace 2 días · Entregas: 84 · Sumas / adjuntos: 0 / 109
-• #: 16 · Recurso: arvidn/libprotocolo de pares · Nota: **39** · ★: 6.124 · Último empujón: hoy · Entregas: 69 · Sumas / adjuntos: 0 / 270
-• #: 17 · Recurso: webprotocolo de pares/webprotocolo de pares · Nota: **39** · ★: 31.471 · Último empujón: ayer · Entregas: 100 · Sumas / adjuntos: 0 / 0
-• #: 18 · Recurso: KyokoMiki/nemorosa · Nota: **33** · ★: 125 · Último empujón: ayer · Entregas: 10 · Sumas / adjuntos: 0 / 0
-• #: 19 · Recurso: proninyaroslav/libreprotocolo de pares · Nota: **25** · ★: 4.034 · Último empujón: hace 103 días · Entregas: 17 · Sumas / adjuntos: 0 / 50
-• #: 20 · Recurso: ArrCee76/magnetar · Nota: **24** · ★: 91 · Último empujón: hace 11 días · Entregas: 20 · Sumas / adjuntos: 0 / 15
-• #: 21 · Recurso: deluge-protocolo de pares/deluge · Nota: **10** · ★: 1.798 · Último empujón: hace 242 días · Entregas: 0 · Sumas / adjuntos: 0 / 0
-• #: 22 · Recurso: ryadios/protocolo de pares-tui · Nota: **0** · ★: 115 · Último empujón: hace 19 días · Entregas: 6 · Sumas / adjuntos: 0 / 0
 
 
 Leída en vertical, la columna de sumas dice lo que ninguna lista de recomendaciones dice: **siete de veintidós publican alguna**, y la mitad de las sumas del tema las pone un solo programa. Leída en horizontal, la tabla deja ver los extremos: **autobrr** arriba con **75** y **protocolo de pares-tui** abajo con **0**, y entre ellos todo lo demás.
@@ -151,13 +122,6 @@ No hace falta elegir un cliente para siempre. Hay tres escenarios que cubren cas
 *🔁 Qué reemplaza a qué · la tabla del protocolo de pares*
 
 
-### Datos comparados (lista jerárquica)
-• Lo que usas hoy: El cliente que instalaste en 2019 · Qué tiene de viejo: Depende de que su proyecto siga con vida · Qué lo cubre hoy: **cliente QB** si quieres ventana, **cliente de pares** si quieres un demonio, **torrra** y **piko** si quieres algo que no existía en 2019
-• Lo que usas hoy: La aplicación de Android que ya no se actualiza · Qué tiene de viejo: libreprotocolo de pares: **103 días sin un empujón** · Qué lo cubre hoy: **BAprotocolo de pares**, **hop** y **Atrium**: tres de 2026, con repositorio y fecha
-• Lo que usas hoy: La consola web de tu servidor · Qué tiene de viejo: Depende de un complemento que ya nadie mantiene · Qué lo cubre hoy: **Atrium** en el móvil, **protocolo de pares-tui** en la terminal
-• Lo que usas hoy: Un gestor de protocolo de paress para escritorio · Qué tiene de viejo: Deluge: **242 días sin publicar** y 0 entregas · Qué lo cubre hoy: **cliente QB**, **cliente de pares** y las piezas nuevas de 2026
-• Lo que usas hoy: Automatizar lo que se baja · Qué tiene de viejo: Se hace a mano, de noche, con suerte · Qué lo cubre hoy: **autobrr** y **upbrr**, las dos de la misma casa
-• Lo que usas hoy: *—* (nadie lo mira) · Qué tiene de viejo: Que el archivo llegue entero y el disco aguante · Qué lo cubre hoy: **RHash**, **coreutils** y **smartmontools**, las tres con enlace
 
 
 **Lo que esta tabla no dice, y hay que decirlo aparte:** un cliente de protocolo de pareses no decide qué es legal. Un cliente solo mueve trozos entre pares. Lo que decide son **la obra que compartes, el derecho que tienes sobre ella y la ley de tu país** —y de eso va la sección de responsabilidad, más abajo.
@@ -253,14 +217,6 @@ Es la proporción más baja desde la pieza 11, y en este tema duele más que en 
 **quince de los veintidós no publican ni una suma.** Los siete que sí:
 
 
-### Datos comparados (lista jerárquica)
-• Recurso: cliente QB · Adjuntos: 92 · Con suma: **46** · Nota: 64
-• Recurso: hop · Adjuntos: 60 · Con suma: **20** · Nota: 54
-• Recurso: RHash · Adjuntos: 20 · Con suma: **20** · Nota: 57
-• Recurso: smartmontools · Adjuntos: 58 · Con suma: **15** · Nota: 60
-• Recurso: autobrr · Adjuntos: 200 · Con suma: **10** · Nota: 75
-• Recurso: piko · Adjuntos: 176 · Con suma: **10** · Nota: 65
-• Recurso: emule-qt · Adjuntos: 70 · Con suma: **10** · Nota: 64
 
 
 Dos cosas de esa tabla. La primera: **cliente QB pone 46 de las 131 sumas** —más de un tercio del total— y lo hace con **solo 8 entregas etiquetadas**: firma mucho por entrega, publica pocas. La segunda: **RHash, con 735 estrellas, tiene la mejor proporción del tema** —20 de 20—, y es justamente el programa que sirve para comprobar los demás.
