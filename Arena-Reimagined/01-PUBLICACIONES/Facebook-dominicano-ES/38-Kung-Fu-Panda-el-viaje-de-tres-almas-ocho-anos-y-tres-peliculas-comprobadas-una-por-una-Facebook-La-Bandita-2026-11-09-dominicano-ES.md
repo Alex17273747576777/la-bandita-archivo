@@ -1,0 +1,95 @@
+
+*La Bandita · lunes 9 de noviembre de 2026 · edición dominicano-español · pieza 38 de Facebook*
+
+⏱️ *Lectura total: unos quince minutos · tres películas comprobadas una por una · ocho años entre la primera y la última · cero paquetes alojados*
+
+La franquicia Kung Fu Panda empieza en 2008. Las tres películas se estrenaron el 15 de mayo de 2008, el 22 de mayo de 2011 y el 29 de enero de 2016: ocho años entre la primera y la última. Las tres están declaradas como película por su propia ficha, una por una, y las tres tienen fecha de estreno en su registro.
+
+No hay una cuarta. Y ese hueco de diez años es, de todo lo que se puede decir de la trilogía, lo que más me interesa.
+
+## 🐼 Po — el alumno que no sabía que ya era el maestro
+
+Po no aprende a pelear: aprende que ya sabía. La película se estrenó el **15 de mayo de 2008**. Cuando la vi no entendí que el mensaje era tan simple y tan poco rentable: el secreto no está en un pergamino, está en que no hay secreto.
+
+Es la lección más incómoda de las tres, porque no te pide esfuerzo. Te pide que dejes de buscar el atajo que te permita empezar mañana.
+
+## 🦁 Shifu — el control que se vuelve prisión
+
+Shifu controla todo y por eso pierde todo. La segunda película llegó el **22 de mayo de 2011**, tres años después, y el maestro de la primera tiene que aprender lo que le enseñó a su alumno.
+
+Aquí está lo que casi nadie dice: Shifu no es el villano. Es la persona que hizo todo bien y aun así el mundo se le cayó encima. Su problema no fue el error: fue creer que un error era el final.
+
+## 🐢 Oogway — la fe en el destino y el árbol del durazno
+
+Oogway ya no está en la segunda. Su lección —«el ayer es historia, el mañana es un misterio»— sobrevive porque es la única que no necesita profesor.
+
+Y aquí hay un dato que me sirve más que la frase: entre la primera y la última película pasaron **ocho años**. Oogway no vio ninguna de las dos últimas. Enseñó algo que se tardó ocho años en terminar de entenderse, y no estuvo para verlo.
+
+Eso es lo que hace un maestro de verdad: deja una idea que trabaja sin él.
+
+## 🌊 Control, confianza y el presente
+
+Las tres películas son la misma discusión contada tres veces. Po: deja de controlar y confía. Shifu: deja de controlar y respira. Oogway: nunca controló nada y por eso funcionó.
+
+───────────────────
+
+*🧾 La tabla · lo único de esta pieza que se midió*
+
+| Película | Fecha de estreno | Identificador |
+|---|---|---|
+| Kung Fu Panda | 2008-05-15 | Q129193 |
+| Kung Fu Panda 2 | 2011-05-22 | Q487447 |
+| Kung Fu Panda 3 | 2016-01-29 | Q15055043 |
+
+Tres películas comprobadas una por una: **tres** con fecha de estreno declarada, **tres** confirmadas como película por lo que su propia ficha dice de sí misma. Y **ocho años** entre la primera y la última. El año de inicio de la franquicia, **2008**.
+
+───────────────────
+
+*🛠️ Cuatro órdenes para comprobar esta pieza*
+
+1. `curl -s "https://www.wikidata.org/wiki/Special:EntityData/Q129193.json"` y busca `P577`. Sale 2008-05-15.
+2. Lo mismo con `Q487447` (2011-05-22) y `Q15055043` (2016-01-29).
+3. Resta los años: 2016 menos 2008 son **ocho**.
+4. Si buscas «Kung Fu Panda» en Wikidata te saldrán el videojuego, la banda sonora y la serie de televisión antes que las películas. Por eso esta pieza comprueba cada identificador en vez de fiarse del primero que aparece.
+
+───────────────────
+
+*📌 La corrección de esta pieza*
+
+Se publicó el 7 de noviembre sin medición. En la primera pasada de hoy escribí a mano los identificadores de la segunda y la tercera película: **los dos estaban mal**, uno era de un videojuego y el otro de una banda sonora. Está prohibido inventar identificadores y los inventé. Corregido: ahora el medidor las busca por título, comprueba que cada ficha diga de sí misma que es una película y que su fecha caiga en el año esperado, y solo entonces la acepta. Los dos identificadores de la tabla salen de esa búsqueda, no de mi memoria.
+
+───────────────────
+
+*❓ Las preguntas del grupo*
+
+**«¿Por qué no hay una cuarta?»** Porque solo hay tres con fecha de estreno declarada. Si mañana hay otra, esta pieza estará corta y la corrección se escribirá igual que esta.
+
+**«¿Esto es una reseña?»** No. Es una lectura personal con cuatro datos comprobables. No recomiendo verlas: cuento lo que me hicieron.
+
+**«¿Sirve de algo medir una película?»** Sirve para que la pieza no diga «hace unos años» donde hay una fecha exacta.
+
+───────────────────
+
+*📅 El hueco que no se mide*
+
+La tercera película es del **29 de enero de 2016**. Desde entonces, diez años sin una cuarta con fecha de estreno declarada. Eso no es un dato de la franquicia: es un dato de la fuente, que no tiene ninguna otra película con fecha. Lo digo así porque decir «no habrá una cuarta» sería una predicción, y esta serie no predice.
+
+Lo que sí se puede decir es que la trilogía se sostiene sola. Tres películas, tres maestros, tres lecciones, y la última cierra el círculo que la primera abrió: Po empieza sin saber que ya era el maestro y termina enseñando. Shifu empieza controlando y termina soltando. Oogway ya había soltado todo antes de la primera escena.
+
+*🎭 Por qué esto no es una reseña*
+
+Una reseña dice si vale la pena verla. Esta pieza no lo dice, porque no es lo que mide. Lo que hace es tomar tres películas, comprobar que existen, cuándo salieron y cuántos años las separan, y sobre esa base escribir lo que le dejaron. Si alguien quiere saber si son buenas, cualquier sitio de cine se lo dirá mejor y con más criterio. Aquí se cuenta otra cosa: qué hace una idea cuando el que la enseñó ya no está para verla terminar.
+
+*🧱 La estructura que se repite*
+
+Las tres van de lo mismo y por eso funcionan juntas: alguien poderoso se equivoca, alguien humilde no sabe que ya sabe, y el que enseña aprende. La primera lo cuenta con un pergamino en blanco. La segunda, con un cañón. La tercera, con un reino de espíritus. Cambia el decorado; no cambia la pregunta.
+
+*🌅 Cierre*
+
+Un alumno que ya sabía, un maestro que no podía soltar y una tortuga que dejó la lección trabajando sola. Ocho años entre la primera y la última.
+
+Si algo de esto te sirve, haz una sola cosa: hoy, cuando algo te salga bien, no busques el pergamino. Ya lo tenías.
+
+Cada cifra de esta pieza sale de `docs/MEDICION-P38-2026-11-09.json`: Wikidata, franquicia y las tres películas comprobadas una por una por su identificador. Ningún dato se copió de un artículo.
+
+*💓 La Bandita informa. Lo que no se midió, aquí no se escribe.*

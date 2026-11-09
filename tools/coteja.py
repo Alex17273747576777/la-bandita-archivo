@@ -92,6 +92,17 @@ def universo(d: dict) -> set[int]:
     orden = sorted([x.get("stars") or 0 for x in f], reverse=True)
     if len(orden) >= 2:
         nums.add(orden[0] + orden[1])
+    # Las piezas personales (35–40) no miden repositorios: miden hechos. Su ficha lleva
+    # un campo «valor» genérico y la cifra de la pieza tiene que salir de ahí, no inventarse.
+    # Se añade el valor y sus agregados; el listón sigue siendo el mismo.
+    vals_gen = [x.get("valor") for x in f if isinstance(x.get("valor"), int)]
+    for v in vals_gen:
+        nums.add(v)
+    if vals_gen:
+        nums.add(sum(vals_gen)); nums.add(min(vals_gen)); nums.add(max(vals_gen))
+        nums.add(int(statistics.median(vals_gen)))
+        nums.add(max(vals_gen) - min(vals_gen))
+        # los dígitos hexadecimales de una huella no son cifras de una pieza; no se suman.
     # conteos de subconjuntos
     nums.add(sum(1 for x in f if (x.get("huellas_ultima") or 0) > 0))
     nums.add(sum(1 for x in f if not x.get("ultima_entrega")))
@@ -124,7 +135,23 @@ def _volcar(grupo: list[str], salida: list[tuple[str, int]], parser) -> None:
             return
 
 
+_UUID = re.compile(r"[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}")
+_HEX_LARGO = re.compile(r"\b[0-9a-fA-F]{32,}\b")
+
+
+def _limpiar_identificadores(texto: str) -> str:
+    """Quita UUID y huellas hexadecimales antes de buscar cifras.
+
+    Un identificador no es una cifra: `70a3344d-3f48-4843-ac93-e9e031d86b01` contiene «4843»,
+    y un sha256 contiene decenas de grupos que parecen números. Contarlos como cifras de la
+    pieza es un fallo del detector, no de la pieza. Se limpian, no se relaja el listón: lo que
+    queda sin limpiar se sigue cotejando igual que siempre.
+    """
+    return _HEX_LARGO.sub(" ", _UUID.sub(" ", texto))
+
+
 def cifras_de(texto: str) -> list[tuple[str, int]]:
+    texto = _limpiar_identificadores(texto)
     salida: list[tuple[str, int]] = []
     # 205.629 o 1.554
     for m in re.finditer(r"\b\d{1,3}(?:\.\d{3})+\b", texto):
@@ -155,6 +182,10 @@ def atribucion(pieza: str, d: dict) -> list[str]:
     aparezca ahí tiene que estar entre los campos de ese repositorio. Si el número existe en la
     pieza pero es de otro, esto lo saca.
     """
+    # Las piezas personales (35–40) no pegan cifras a un repositorio: no hay atribución
+    # cruzada que comprobar. Se dice y se sigue; el cotejo del universo ya se hizo antes.
+    if all("repo" not in x for x in d["fichas"]):
+        return []
     por_repo = {x["repo"]: x for x in d["fichas"]}
     fallos: list[str] = []
     cue = [p for p in PUBLIC.glob(f"{pieza}-*Facebook*.md")

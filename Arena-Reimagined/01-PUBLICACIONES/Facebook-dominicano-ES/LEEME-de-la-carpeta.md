@@ -29,7 +29,7 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 | 02 | La música que no se cae | 19.239 | 1.711 | Medida · 21 repos, 6 con huella |
 | 03 | La caja fuerte del bolsillo | 11.411 | 1.714 | Medida · 16 repos, 1 con huella |
 | 04 | La lista del permiso | 13.405 | 1.728 | Medida · 26 repos, 6 con huella |
-| 05 | La guía maestra | 12.249 | 1.767 | Medida · 70 fichas, 22 con huella |
+| 05 | La guía maestra | 11.779 | 1.767 | Medida · 70 fichas, 22 con huella |
 | 06 | El taller de los parches | 13.330 | 1.682 | Medida · 17 repos, 5 con huella (55 de 190 archivos) |
 | 07 | La pantalla grande | 12.255 | 1.699 | Medida · 17 repos, 4 con huella · gigantes re-verificados el 8-nov |
 | 08 | La red: seis caminos | 14.538 | 1.696 | Medida · 20 repos, 5 con huella |
@@ -59,12 +59,12 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 | 32 | Tu Manga Online, sin lista de dominios | 12.030 | 1.709 | **Medida el 8-nov** · 9 lectores, 4.182 archivos, 0 huellas, uno que devuelve 404 |
 | 33 | Apoyo a desarrolladores | 8.681 | 1.650 | **Medida el 8-nov** · 9 proyectos, 977 archivos, 0 huellas, uno de 0 estrellas |
 | 34 | Biblioteca de Kototoro y v2.4 | 9.614 | 1.645 | **Medida el 8-nov** · 4 repos, 1.385 archivos, **102 sumas**: récord del día |
-| 35 | La Ballenita vuelve al mar | 6.206 | 1.337 | Corta · personal |
-| 36 | Tu Manga Online, medido | 12.936 | 2.572 | **Medida el 8-nov** · 8 dominios sondeados: 3 registrados, 0 resolviendo |
-| 37 | Carta a la manada azul | 10.254 | 1.503 | Corta · personal |
-| 38 | Kung Fu Panda | 6.231 | 1.249 | Corta · personal |
-| 39 | Canserbero | 22.155 | 1.512 | Corta · personal |
-| 40 | La lección del hash SHA-256 | 12.678 | 2.363 | **Reescrita entera el 8-nov** · el método probado en esta máquina |
+| 35 | La Ballenita vuelve al mar | 6.260 | 925 | Corta · personal |
+| 36 | Tu Manga Online, medido | 6.772 | 929 | **Medida el 8-nov** · 8 dominios sondeados: 3 registrados, 0 resolviendo |
+| 37 | Carta a la manada azul | 6.442 | 1.009 | Corta · personal |
+| 38 | Kung Fu Panda | 6.446 | 921 | Corta · personal |
+| 39 | Canserbero | 7.076 | 911 | Corta · personal |
+| 40 | La lección del hash SHA-256 | 6.254 | 947 | **Reescrita entera el 8-nov** · el método probado en esta máquina |
 
 ## La medición del 8 de noviembre
 

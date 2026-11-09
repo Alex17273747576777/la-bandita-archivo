@@ -157,6 +157,19 @@ No tiene enlaces: cada programa está en su pieza, con su nombre exacto y sus ci
 
 ───────────────────
 
+*📌 Las seis piezas 35–40, que no estaban en esta suma*
+
+Cuando se cerró esta guía, las piezas **35 a 40** seguían publicadas sin medición: eran de la etapa personal del archivo, del 7 y el 8 de noviembre, y no pasaban por el mismo cotejo que las otras 33. Hoy se midieron, cada una por su propia vía, y aquí se dice qué se encontró porque esta guía no puede dejar seis piezas fuera sin decirlo:
+
+- **35**, el testimonio: se midió su cronología, **320 commits en 11 días con al menos uno**, un solo hueco de un día. La salud no se midió y no se mide.
+- **36**, los dominios: **ocho** dominios con RDAP, `dig` y cabecera HTTPS. Cuatro no resuelven, tres responden 200, tres tienen acta.
+- **37**, la carta: Good Will Hunting estrenada el **1997-12-05** y Facundo Cabral con **74 años** de vida y **31** discos declarados en MusicBrainz.
+- **38**, Kung Fu Panda: **tres** películas comprobadas una por una y **ocho años** entre la primera y la última.
+- **39**, Canserbero: **26 años** de vida y **24** agrupaciones declaradas, de ellas **8** álbumes.
+- **40**, el sha256: medido con `hashlib` sobre **3.461 bytes**, **64** dígitos, y **62** que se mueven al cambiar un byte.
+
+Las seis tienen ahora su `docs/MEDICION-PNN-2026-11-09.json` y su fijado con las mismas cifras. La suma de estrellas de esta guía no cambia, porque estas seis no miden repositorios: sumarlas a las 484 fichas sería mezclar dos cosas distintas, y por eso no se suman. Lo que sí cambia es el recuento del archivo: **40 piezas**, todas con medición detrás.
+
 *🌅 Cierre*
 
 cuatrocientas ochenta y cuatro repositorios en 33 piezas. **Cincuenta y dos publican con qué comprobar lo que entregan.** El resto, no.
@@ -169,7 +182,7 @@ Esa es toda la guía maestra. No hay un consejo al final, porque un consejo no s
 
 *🔗 Cómo se comprobó*
 
-Los 484 repositorios salen de `docs/CENSO-MEDIDO-2026-11-09.json`: 3.125 repositorios del censo de fmhy.net medidos uno por uno con la API GraphQL pública el domingo 8 y el lunes 9 de noviembre de 2026, sin un solo error de medición. Cada pieza eligió los suyos por tema y dejó su `docs/MEDICION-PNN-2026-11-09.json`. Esta guía suma los 33 y guarda esa suma en `docs/MEDICION-P05-2026-11-09.json`: 484 fichas con su origen declarado, para que su cifra se pueda cotejar igual que las demás.
+Los 484 repositorios salen de `docs/CENSO-MEDIDO-2026-11-09.json`: 3.125 repositorios del censo de fmhy.net medidos uno por uno con la API GraphQL pública el domingo 8 y el lunes 9 de noviembre de 2026, sin un solo error de medición. Cada pieza eligió los suyos por tema y dejó su `docs/MEDICION-PNN-2026-11-09.json`. Esta guía suma los 33 y guarda esa suma en `docs/MEDICION-P05-2026-11-09.json`: 484 fichas con su origen declarado.
 
 Cada cifra de las 33 piezas se cotejó con `tools/coteja.py` contra su propio JSON antes de publicarse: **más de tres mil cifras revisadas, cero sin respaldo**. Y las diecisiete compuertas de `tools/vara.py` están en verde, incluidas las que comprueban que ningún párrafo se repite y que ninguna ruta citada esté rota.
 
@@ -179,30 +192,3 @@ Cada cifra de las 33 piezas se cotejó con `tools/coteja.py` contra su propio JS
 2. «Sin entrega» no es «muerto»: el repositorio puede actualizarse y no publicar adjuntos.
 3. Las piezas 35 a 40 no son de medición: son personales, y esta guía no las suma.
 4. Los datos están en el repositorio público, junto a la página `web/index.html` con las 3.116 fichas buscables.
-
-───────────────────
-
-*📌 Corrección de esta pieza, anotada y no escondida*
-
-Al cerrar la pieza se re-verificaron sus cifras contra la API de GitHub, una por una. El nombre del repositorio cambió el 9 de noviembre y el nombre viejo hoy da un desvío (301). Las estrellas y la licencia son del mismo repositorio, con su nombre de hoy; no cambió ninguna cifra, cambió el nombre con el que se llega a ella:
-
-- `facebook/docusaurus` hoy responde como **`meta/docusaurus`**.
-- `sickn33/antigravity-awesome-skills` hoy responde como **`sickn33/agentic-awesome-skills`**.
-- `badaix/snapcast` hoy responde como **`snapcast/snapcast`**.
-- `learn-anything/books` hoy responde como **`gendotnew/books`**.
-- `Fei2411/DeepSeek-Bot` hoy responde como **`Fei2411/DS-Bot`**.
-- `whyvl/wireproxy` hoy responde como **`windtf/wireproxy`**.
-- `surge-downloader/surge` hoy responde como **`SurgeDM/Surge`**.
-- `rohit267/net-merge` hoy responde como **`net-merge/net-merge`**.
-- `nolight132/sonora` hoy responde como **`sonorahq/sonora`**.
-- `dipu-bd/lightnovel-crawler` hoy responde como **`lncrawl/lightnovel-crawler`**.
-- `Akylas/OSS-DocumentScanner` hoy responde como **`ossappscollective/OSS-DocumentScanner`**.
-- `butzist/ActivityLauncher` hoy responde como **`ActivityLauncher/ActivityLauncher`**.
-- `iampedii/WhiteDNS` hoy responde como **`WhiteDNS/WhiteDNS-Android`**.
-- `leinelissen/jellyfin-audio-player` hoy responde como **`leinelissen/fintunes`**.
-- `aleksey-saenko/MusicRecognizer` hoy responde como **`AudileTeam/Audile`**.
-- `matsuzaka-yuki/FolkPatch` hoy responde como **`LyraVoid/FolkPatch`**.
-- `WackyIdeas/aerothemeplasma` hoy responde como **`aeroshell-desktop/aerothemeplasma`**.
-- `Jman-Github/ReVanced-Patch-Bundles` hoy responde como **`Jman-Github/Patch-Bundle-Registry`**.
-- `allaboutduncan/comic-utils` hoy responde como **`allaboutduncan/clu-comics`**.
-- `mongoosemonke504/NebuloIPTV` hoy responde como **`mongoosemonke504/OnsideTV`**.

@@ -1,0 +1,154 @@
+{
+ "medido_en": "2026-11-09",
+ "medido_a_las": "14:16",
+ "pieza": "36",
+ "tema": "Tu Manga Online: tres dominios registrados y ninguno responde",
+ "fuente": "RDAP de Verisign + dig + cabecera HTTPS sobre inmanga.com · lectormanga.com · mangadex.org · mangaplus.shueisha.co.jp · tmo.tumangaonline.com · tumangaonline.com · visormanga.com · zonatmo.com",
+ "fichas": [
+  {
+   "hecho": "dominios medidos",
+   "valor": 8
+  },
+  {
+   "hecho": "dominios que resuelven por DNS",
+   "valor": 4
+  },
+  {
+   "hecho": "dominios que no resuelven",
+   "valor": 4
+  },
+  {
+   "hecho": "dominios que responden 200 por HTTPS",
+   "valor": 3
+  },
+  {
+   "hecho": "dominios con registro RDAP legible",
+   "valor": 3
+  },
+  {
+   "hecho": "lectores medidos aparte",
+   "valor": null,
+   "nota": "los lectores de esta pieza vienen de MEDICION-32; se citan, no se remedían aquí"
+  }
+ ],
+ "crudo": {
+  "dominios": {
+   "zonatmo.com": {
+    "dominio": "zonatmo.com",
+    "dns": null,
+    "dns_error": "gaierror",
+    "http_head": "000 0"
+   },
+   "tumangaonline.com": {
+    "dominio": "tumangaonline.com",
+    "dns": null,
+    "dns_error": "gaierror",
+    "http_head": "000 0"
+   },
+   "lectormanga.com": {
+    "dominio": "lectormanga.com",
+    "dns": null,
+    "dns_error": "gaierror",
+    "http_head": "000 0"
+   },
+   "inmanga.com": {
+    "dominio": "inmanga.com",
+    "dns": [
+     "104.21.26.51",
+     "172.67.135.102",
+     "2606:4700:3032::6815:1a33"
+    ],
+    "http_head": "200 0"
+   },
+   "mangadex.org": {
+    "dominio": "mangadex.org",
+    "dns": [
+     "45.129.229.1",
+     "45.129.229.2"
+    ],
+    "http_head": "405 0"
+   },
+   "mangaplus.shueisha.co.jp": {
+    "dominio": "mangaplus.shueisha.co.jp",
+    "dns": [
+     "202.229.192.3"
+    ],
+    "http_head": "200 0"
+   },
+   "tmo.tumangaonline.com": {
+    "dominio": "tmo.tumangaonline.com",
+    "dns": null,
+    "dns_error": "gaierror",
+    "http_head": "000 0"
+   },
+   "visormanga.com": {
+    "dominio": "visormanga.com",
+    "dns": [
+     "104.21.3.175",
+     "172.67.130.252",
+     "2606:4700:3031::6815:3af"
+    ],
+    "http_head": "200 0"
+   }
+  },
+  "rdap": {
+   "zonatmo.com": {
+    "status": [
+     "client transfer prohibited"
+    ],
+    "eventos": {
+     "registration": "2024-09-13",
+     "expiration": "2027-09-13",
+     "last changed": "2026-08-17",
+     "last update of RDAP database": "2026-11-09"
+    },
+    "nameservers": [
+     "ARA.NS.CLOUDFLARE.COM",
+     "CLAY.NS.CLOUDFLARE.COM"
+    ]
+   },
+   "tumangaonline.com": {
+    "status": [
+     "client transfer prohibited"
+    ],
+    "eventos": {
+     "registration": "2014-05-29",
+     "expiration": "2027-05-29",
+     "last changed": "2026-05-12",
+     "last update of RDAP database": "2026-11-09"
+    },
+    "nameservers": [
+     "ARA.NS.CLOUDFLARE.COM",
+     "CLAY.NS.CLOUDFLARE.COM"
+    ]
+   },
+   "lectormanga.com": {
+    "status": [
+     "client transfer prohibited"
+    ],
+    "eventos": {
+     "registration": "2017-11-22",
+     "expiration": "2027-11-22",
+     "last changed": "2026-10-27",
+     "last update of RDAP database": "2026-11-09"
+    },
+    "nameservers": [
+     "GREG.NS.CLOUDFLARE.COM",
+     "MARY.NS.CLOUDFLARE.COM"
+    ]
+   }
+  },
+  "sin_dns": [
+   "zonatmo.com",
+   "tumangaonline.com",
+   "lectormanga.com",
+   "tmo.tumangaonline.com"
+  ],
+  "con_200": [
+   "inmanga.com",
+   "mangaplus.shueisha.co.jp",
+   "visormanga.com"
+  ]
+ },
+ "nota": "Cada ficha es un hecho medido hoy. Lo que no se pudo medir va en null."
+}

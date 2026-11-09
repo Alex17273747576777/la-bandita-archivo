@@ -1,0 +1,225 @@
+{
+ "medido_en": "2026-11-09",
+ "medido_a_las": "14:16",
+ "pieza": "37",
+ "tema": "Carta a la manada azul: Chuckie, Facundo Cabral y el potencial",
+ "fuente": "Wikidata (Q193835, Q332035) + MusicBrainz (release-groups del artista)",
+ "fichas": [
+  {
+   "hecho": "Good Will Hunting · fecha de estreno (Wikidata P577)",
+   "valor": "1997-12-05"
+  },
+  {
+   "hecho": "Good Will Hunting · estrenos distintos declarados",
+   "valor": 3
+  },
+  {
+   "hecho": "Facundo Cabral · fecha de nacimiento",
+   "valor": "1937-05-22"
+  },
+  {
+   "hecho": "Facundo Cabral · fecha de muerte",
+   "valor": "2011-07-09"
+  },
+  {
+   "hecho": "Facundo Cabral · años de vida cumplidos",
+   "valor": 74
+  },
+  {
+   "hecho": "Facundo Cabral · identificador MusicBrainz",
+   "valor": "d78185b7-a45e-4df5-ade0-9bae97f90d7e"
+  },
+  {
+   "hecho": "Facundo Cabral · discos declarados en MusicBrainz",
+   "valor": 31
+  },
+  {
+   "hecho": "Facundo Cabral · de esos, álbumes",
+   "valor": 27
+  },
+  {
+   "hecho": "Facundo Cabral · fecha del álbum más antiguo declarado",
+   "valor": "1971"
+  }
+ ],
+ "crudo": {
+  "good_will_hunting": {
+   "estrenos": [
+    "+1997-12-05T00:00:00Z",
+    "+1998-02-19T00:00:00Z",
+    "+1998-01-09T00:00:00Z"
+   ],
+   "pais": [
+    "Q30"
+   ]
+  },
+  "facundo_cabral": {
+   "nacimiento": [
+    "+1937-05-22T00:00:00Z"
+   ],
+   "muerte": [
+    "+2011-07-09T00:00:00Z"
+   ],
+   "mbid": "d78185b7-a45e-4df5-ade0-9bae97f90d7e",
+   "discos": 31
+  },
+  "discos": [
+   {
+    "titulo": "Grandes Exitos",
+    "fecha": "2008",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Clásicos (En Vivo)",
+    "fecha": "2022-05-29",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "(En vivo) Palacio de Bellas Artes Vol. II",
+    "fecha": "1973-07-07",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Pateando Tachos",
+    "fecha": "1984",
+    "tipo": null
+   },
+   {
+    "titulo": "Secreto",
+    "fecha": "1987",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Personalidad",
+    "fecha": "2004-12-06",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "RCA Club: Facundo Cabral",
+    "fecha": "2000",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Este es un nuevo día",
+    "fecha": "1996",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "En medio de los hombres",
+    "fecha": "2012",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Recuerdos De Oro",
+    "fecha": "2012",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Época de oro",
+    "fecha": "1998-09-29",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Un canto al pueblo, vol. 1",
+    "fecha": "1997",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Facundo Cabral acompañamiento Waldo de los Ríos",
+    "fecha": "1972",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Facundo Cabral",
+    "fecha": "1971-06-05",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "El oficio de cantor",
+    "fecha": "1993-07-24",
+    "tipo": null
+   },
+   {
+    "titulo": "No soy de aquí",
+    "fecha": "1971",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Cortezías y Cabralidades",
+    "fecha": "",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "El mundo estaba bastante tranquilo cuando yo nací",
+    "fecha": "1989",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Le canta al pueblo, vol. 2",
+    "fecha": "1997-01-01",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Inolvidables - 20 grandes éxitos",
+    "fecha": "2003",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "El profeta de Gibrán",
+    "fecha": "2023-03-08",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "(En vivo) Palacio de Bellas Artes Vol. I",
+    "fecha": "1973",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Entre Dios Y El Diablo",
+    "fecha": "1986",
+    "tipo": null
+   },
+   {
+    "titulo": "Ferrocabral",
+    "fecha": "1984",
+    "tipo": null
+   },
+   {
+    "titulo": "Lo Cortez no quita lo Cabral, volumen 2",
+    "fecha": "1998",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "El trovador",
+    "fecha": "2011-07-24",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Antologia 2 1960-2007 (Grabado en vivo en Buenos Aires - agosto 2006)",
+    "fecha": "2021-11-05",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Antologia 1 1960-2007 (Grabado en vivo en buenos aires - agosto 2006))",
+    "fecha": "2021",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Grabado en vivo el 20 de marzo de 1972 en el Teatro Embassy de Buenos Aires",
+    "fecha": "1972",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Una tarde en Melopea (Grabación realizada en 2002)",
+    "fecha": "2019-10-04",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Lo Cortez no quita lo Cabral",
+    "fecha": "1994",
+    "tipo": "Album"
+   }
+  ]
+ },
+ "nota": "Cada ficha es un hecho medido hoy. Lo que no se pudo medir va en null."
+}

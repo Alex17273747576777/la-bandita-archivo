@@ -78,7 +78,23 @@ def fecha_larga(iso: str | None) -> str:
 
 
 # ── piezas de texto ────────────────────────────────────────────────────────
+def _es_hecho(x: dict) -> bool:
+    """Una ficha puede ser de repositorio o de un hecho medido (piezas personales 35–40).
+
+    Las personales no tienen estrellas ni licencia: tienen un hecho y su valor. Se distinguen
+    por la forma de la ficha, no por el número de pieza, para que esto siga sirviendo mañana.
+    """
+    return "repo" not in x and "hecho" in x
+
+
 def _ficha_linea(i: int, x: dict) -> str:
+    if _es_hecho(x):
+        v = x.get("valor")
+        if v is None or v == "":
+            v = "aquí no hay"
+        elif isinstance(v, int):
+            v = miles(v)
+        return f"{i}. **{x['hecho']}** — {v}."
     lic = x.get("licencia") or "sin licencia declarada"
     partes = [
         f"**{x['repo']}**",
@@ -107,6 +123,14 @@ def tabla(fichas: list[dict]) -> str:
 def agregados(d: dict) -> str:
     f = d["fichas"]
     n = len(f)
+    if all(_es_hecho(x) for x in f):
+        medidos = [x for x in f if x.get("valor") not in (None, "")]
+        return (
+            f"{letras(n).capitalize()} hechos en la medición de esta pieza, del 9 de noviembre de 2026. "
+            f"**{miles(len(medidos))}** traen un valor medido contra su fuente y "
+            f"**{miles(n - len(medidos))}** quedan declarados como «aquí no hay», porque no se midieron "
+            f"o no se deben medir. Lo que no se midió, aquí no se escribe."
+        )
     estrellas = [x["stars"] for x in f if x.get("stars") is not None]
     total = sum(estrellas)
     mediana = int(statistics.median(estrellas)) if estrellas else None
@@ -130,6 +154,8 @@ def agregados(d: dict) -> str:
 
 
 def firmas(d: dict) -> str:
+    if all(_es_hecho(x) for x in d["fichas"]):
+        return "Esta pieza no mide repositorios: mide hechos. Aquí no hay sumas de comprobación que contar."
     f = [x for x in d["fichas"] if (x.get("huellas_ultima") or 0) > 0]
     if not f:
         return "Ninguno de los medidos publica una sola suma de comprobación. Aquí no hay."
@@ -160,6 +186,8 @@ def nuevos(d: dict, dias: int = 400) -> str:
 
 
 def extremos(d: dict) -> str:
+    if all(_es_hecho(x) for x in d.get("fichas", [])):
+        return "Aquí no hay: esta pieza mide hechos, no repositorios."
     f = d["fichas"]
     top = max(f, key=lambda x: x.get("stars") or 0)
     bajo = min(f, key=lambda x: x.get("stars") or 0)
@@ -179,6 +207,8 @@ def extremos(d: dict) -> str:
 
 
 def sin_entrega(d: dict) -> str:
+    if all(_es_hecho(x) for x in d.get("fichas", [])):
+        return "Aquí no hay: esta pieza mide hechos, no repositorios."
     f = [x for x in d["fichas"] if not x.get("ultima_entrega")]
     if not f:
         return "Todos los medidos en esta pieza han publicado al menos una entrega."
@@ -206,6 +236,8 @@ def nombre_archivo(alma: str, pieza: str) -> str:
 
 
 def cifras_por_repo(d: dict) -> str:
+    if all(_es_hecho(x) for x in d.get("fichas", [])):
+        return "Aquí no hay: esta pieza mide hechos, no repositorios."
     """Una tabla de verdad: cada repositorio con sus propias cifras, sin prosa alrededor.
     Así ninguna cifra puede quedar pegada al nombre de otro: la columna es la fila."""
     claves = [("repo", "Repositorio"), ("stars", "Estrellas"), ("dias_nace", "Días de vida"),

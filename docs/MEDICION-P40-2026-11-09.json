@@ -1,0 +1,57 @@
+{
+ "medido_en": "2026-11-09",
+ "medido_a_las": "14:16",
+ "pieza": "40",
+ "tema": "La lección del sha256: comprobar un archivo sin root",
+ "fuente": "hashlib sobre un archivo real del archivo, más la misma medición con un byte alterado",
+ "fichas": [
+  {
+   "hecho": "archivo medido",
+   "valor": "MEDICION-P36-2026-11-09.json"
+  },
+  {
+   "hecho": "tamaño del archivo en bytes",
+   "valor": 3461
+  },
+  {
+   "hecho": "longitud del sha256 en dígitos hexadecimales",
+   "valor": 64
+  },
+  {
+   "hecho": "longitud del sha1 en dígitos hexadecimales",
+   "valor": 40
+  },
+  {
+   "hecho": "longitud del md5 en dígitos hexadecimales",
+   "valor": 32
+  },
+  {
+   "hecho": "dígitos que cambian al alterar un solo byte",
+   "valor": 62
+  },
+  {
+   "hecho": "posibilidades distintas del sha256, en bits",
+   "valor": 256
+  },
+  {
+   "hecho": "bytes que se cambiaron a mano",
+   "valor": 1
+  },
+  {
+   "hecho": "el sha256 completo del archivo medido",
+   "valor": "efb29f2a85601554b45f1e75f403897f345938384636cab474fbd6e3e7caa0f0"
+  },
+  {
+   "hecho": "el sha256 del mismo archivo con un byte cambiado",
+   "valor": "05ddbdbee8d459a5c5900f9977f184e6cc1a15a52e8ed33500d8607cb4c5be8e"
+  }
+ ],
+ "crudo": {
+  "archivo": "MEDICION-P36-2026-11-09.json",
+  "sha256": "efb29f2a85601554b45f1e75f403897f345938384636cab474fbd6e3e7caa0f0",
+  "sha256_un_byte_mas": "05ddbdbee8d459a5c5900f9977f184e6cc1a15a52e8ed33500d8607cb4c5be8e",
+  "digitos_distintos": 62,
+  "byte_alterado_en": 1730
+ },
+ "nota": "Cada ficha es un hecho medido hoy. Lo que no se pudo medir va en null."
+}

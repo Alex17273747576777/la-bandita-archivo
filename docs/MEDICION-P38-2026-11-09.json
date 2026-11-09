@@ -1,0 +1,86 @@
+{
+ "medido_en": "2026-11-09",
+ "medido_a_las": "14:16",
+ "pieza": "38",
+ "tema": "Kung Fu Panda: el viaje de tres almas",
+ "fuente": "Wikidata: franquicia Q2081372 y cada película por su QID",
+ "fichas": [
+  {
+   "hecho": "franquicia · identificador Wikidata",
+   "valor": "Q2081372"
+  },
+  {
+   "hecho": "franquicia · año de inicio declarado",
+   "valor": "2008"
+  },
+  {
+   "hecho": "películas comprobadas una por una",
+   "valor": 3
+  },
+  {
+   "hecho": "películas con fecha de estreno declarada",
+   "valor": 3
+  },
+  {
+   "hecho": "películas confirmadas por lo que su P31 dice de sí misma",
+   "valor": 3
+  },
+  {
+   "hecho": "años entre la primera y la última, según Wikidata",
+   "valor": 8
+  },
+  {
+   "hecho": "lecciones de vida contadas en la pieza",
+   "valor": null,
+   "nota": "aquí no hay: una lectura personal no se mide, se escribe"
+  }
+ ],
+ "crudo": {
+  "franquicia": {
+   "qid": "Q2081372",
+   "estrenos": [
+    "+2008-00-00T00:00:00Z"
+   ]
+  },
+  "peliculas": [
+   {
+    "qid": "Q129193",
+    "etiqueta": null,
+    "estrenos": [
+     "+2008-05-15T00:00:00Z",
+     "+2008-07-03T00:00:00Z",
+     "+2008-06-06T00:00:00Z"
+    ],
+    "instancia_de": [
+     "Q202866"
+    ]
+   },
+   {
+    "qid": "Q487447",
+    "etiqueta": null,
+    "estrenos": [
+     "+2011-05-22T00:00:00Z",
+     "+2011-06-08T00:00:00Z",
+     "+2011-06-16T00:00:00Z",
+     "+2011-06-15T00:00:00Z",
+     "+2011-05-26T00:00:00Z"
+    ],
+    "instancia_de": [
+     "Q202866"
+    ]
+   },
+   {
+    "qid": "Q15055043",
+    "etiqueta": null,
+    "estrenos": [
+     "+2016-01-29T00:00:00Z",
+     "+2016-03-17T00:00:00Z"
+    ],
+    "instancia_de": [
+     "Q202866"
+    ]
+   }
+  ]
+ },
+ "nota": "Cada ficha es un hecho medido hoy. Lo que no se pudo medir va en null."
+}

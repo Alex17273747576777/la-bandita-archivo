@@ -1,0 +1,66 @@
+{
+ "medido_en": "2026-11-09",
+ "medido_a_las": "14:16",
+ "pieza": "35",
+ "tema": "La Ballenita vuelve al mar: teléfono, silencio y regreso",
+ "fuente": "git log del propio archivo (fechas de commit) · 0 fuentes externas para la salud",
+ "fichas": [
+  {
+   "hecho": "commits en el historial del archivo",
+   "valor": 320
+  },
+  {
+   "hecho": "días distintos con al menos un commit",
+   "valor": 11
+  },
+  {
+   "hecho": "primer día con commit",
+   "valor": "2026-10-29"
+  },
+  {
+   "hecho": "último día con commit",
+   "valor": "2026-11-09"
+  },
+  {
+   "hecho": "piezas en la carpeta de Facebook",
+   "valor": 40
+  },
+  {
+   "hecho": "huecos de más de un día sin commit",
+   "valor": 1
+  },
+  {
+   "hecho": "el hueco más largo, en días",
+   "valor": 1
+  },
+  {
+   "hecho": "medicamentos, dosis o diagnóstico",
+   "valor": null,
+   "nota": "aquí no hay: no se mide la salud de una persona en un archivo de programas"
+  }
+ ],
+ "crudo": {
+  "commits_por_dia": {
+   "2026-10-29": 74,
+   "2026-10-30": 4,
+   "2026-11-01": 43,
+   "2026-11-02": 11,
+   "2026-11-03": 39,
+   "2026-11-04": 28,
+   "2026-11-05": 30,
+   "2026-11-06": 5,
+   "2026-11-07": 49,
+   "2026-11-08": 5,
+   "2026-11-09": 32
+  },
+  "huecos": [
+   {
+    "desde": "2026-10-30",
+    "hasta": "2026-11-01",
+    "dias": 1
+   }
+  ],
+  "piezas": 40
+ },
+ "nota": "Cada ficha es un hecho medido hoy. Lo que no se pudo medir va en null."
+}

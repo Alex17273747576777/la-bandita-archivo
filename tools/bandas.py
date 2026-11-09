@@ -49,8 +49,21 @@ def main() -> int:
             nombre = info.get("archivo", "")
             ruta = archivo_en(canal, nombre)
             if ruta is None:
-                faltan.append(f"{clave}/{num}: {nombre}")
-                continue
+                # La pieza se reescribió: el nombre viejo ya no existe, pero la pieza sí.
+                # Se busca por número y por tipo (cuerpo o fijado) y se corrige el registro,
+                # que para eso está. No se borra la entrada sin decir qué pasó.
+                base = num.split("-")[0]
+                es_fijado = num.endswith("-fijado")
+                cand = [q for q in canal.glob(f"{base}-*.md")
+                        if ("Comentario-fijado" in q.name) == es_fijado]
+                if len(cand) == 1:
+                    cambios.append(f"{clave}/{num}: nombre viejo → {cand[0].name[:44]}…")
+                    if cuadrar:
+                        info["archivo"] = cand[0].name
+                    ruta = cand[0]
+                else:
+                    faltan.append(f"{clave}/{num}: {nombre}")
+                    continue
             real = len(ruta.read_text(encoding="utf-8"))
             if (info.get("caracteres") == real and info.get("min") == real - MARGEN
                     and info.get("max") == real + MARGEN):

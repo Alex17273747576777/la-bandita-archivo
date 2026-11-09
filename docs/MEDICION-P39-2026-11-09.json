@@ -1,0 +1,184 @@
+{
+ "medido_en": "2026-11-09",
+ "medido_a_las": "14:16",
+ "pieza": "39",
+ "tema": "Canserbero: el filósofo del asfalto",
+ "fuente": "Wikidata (Q18821745) + MusicBrainz (release-groups del artista)",
+ "fichas": [
+  {
+   "hecho": "Canserbero · identificador Wikidata",
+   "valor": "Q18821745"
+  },
+  {
+   "hecho": "nacimiento declarado",
+   "valor": "1988-03-11"
+  },
+  {
+   "hecho": "muerte declarada (primer valor)",
+   "valor": "2015-01-19"
+  },
+  {
+   "hecho": "fechas de muerte distintas declaradas en Wikidata",
+   "valor": 2
+  },
+  {
+   "hecho": "años de vida cumplidos",
+   "valor": 26
+  },
+  {
+   "hecho": "país declarado",
+   "valor": "Venezuela"
+  },
+  {
+   "hecho": "identificador MusicBrainz",
+   "valor": "70a3344d-3f48-4843-ac93-e9e031d86b01"
+  },
+  {
+   "hecho": "agrupaciones publicadas en MusicBrainz",
+   "valor": 24
+  },
+  {
+   "hecho": "de esas, álbumes",
+   "valor": 8
+  },
+  {
+   "hecho": "de esas, EP",
+   "valor": 1
+  }
+ ],
+ "crudo": {
+  "vida": {
+   "nacimiento": [
+    "+1988-03-11T00:00:00Z"
+   ],
+   "muerte": [
+    "+2015-01-19T00:00:00Z",
+    "+2015-01-20T00:00:00Z"
+   ]
+  },
+  "mbid": "70a3344d-3f48-4843-ac93-e9e031d86b01",
+  "discos": [
+   {
+    "titulo": "Siempre",
+    "fecha": "2015-08-01",
+    "tipo": "Single"
+   },
+   {
+    "titulo": "Apa y Can",
+    "fecha": "2013-03",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "All You Need Is Hate Live",
+    "fecha": "2012-09-01",
+    "tipo": "Single"
+   },
+   {
+    "titulo": "Sigo Siendo el Rey",
+    "fecha": "2018-06-26",
+    "tipo": "Single"
+   },
+   {
+    "titulo": "Resurrección",
+    "fecha": "2015",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Mi Pobre Gente Pobre",
+    "fecha": "2010-03-15",
+    "tipo": "Single"
+   },
+   {
+    "titulo": "Querer Querernos",
+    "fecha": "2011-09-16",
+    "tipo": "Single"
+   },
+   {
+    "titulo": "El Mundito del Rap",
+    "fecha": "",
+    "tipo": null
+   },
+   {
+    "titulo": "De la Vida Como Pelicula, Tragedia, Comedia y Ficcion",
+    "fecha": "2011-09-11",
+    "tipo": "Single"
+   },
+   {
+    "titulo": "Las Ánimas",
+    "fecha": "2014-07-07",
+    "tipo": "Single"
+   },
+   {
+    "titulo": "Corre",
+    "fecha": "2010-10-17",
+    "tipo": "Single"
+   },
+   {
+    "titulo": "Hipocritas",
+    "fecha": "2013-09-07",
+    "tipo": "Single"
+   },
+   {
+    "titulo": "Tripolar",
+    "fecha": "2011-04-12",
+    "tipo": "Single"
+   },
+   {
+    "titulo": "Give Me 5",
+    "fecha": "2014-06-03",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Give Me 5",
+    "fecha": "2015-03-01",
+    "tipo": "EP"
+   },
+   {
+    "titulo": "Quisiera",
+    "fecha": "2010-12-01",
+    "tipo": "Single"
+   },
+   {
+    "titulo": "Can + Zoo Índigo",
+    "fecha": "2016",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Na",
+    "fecha": "",
+    "tipo": "Single"
+   },
+   {
+    "titulo": "Can Vive",
+    "fecha": "2015-08-14",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "En Directo Desde la Cabina",
+    "fecha": "2016-08-26",
+    "tipo": "Single"
+   },
+   {
+    "titulo": "Muerte",
+    "fecha": "2012",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Vida",
+    "fecha": "2010",
+    "tipo": "Album"
+   },
+   {
+    "titulo": "Jamming Sin Fronteras",
+    "fecha": "2015-10-26",
+    "tipo": "Single"
+   },
+   {
+    "titulo": "Guía para la acción",
+    "fecha": "2009",
+    "tipo": "Album"
+   }
+  ]
+ },
+ "nota": "Cada ficha es un hecho medido hoy. Lo que no se pudo medir va en null."
+}

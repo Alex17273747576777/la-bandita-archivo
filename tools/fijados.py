@@ -57,6 +57,8 @@ def cargar(pieza: str) -> dict | None:
 
 def cuerpo_fijado(pieza: str, d: dict) -> str:
     f = d["fichas"]
+    if all("repo" not in x for x in f):
+        return _fijado_de_hechos(pieza, d)
     estrellas = [x["stars"] for x in f if x.get("stars") is not None]
     con_h = [x for x in f if (x.get("huellas_ultima") or 0) > 0]
     adj = sum(x.get("adjuntos_ultima") or 0 for x in f)
@@ -114,6 +116,47 @@ def cuerpo_fijado(pieza: str, d: dict) -> str:
         "",
     ]
     return "\n".join(lineas)
+
+
+def _fijado_de_hechos(pieza: str, d: dict) -> str:
+    """Fijado de una pieza que mide hechos (35–40): los mismos números que el cuerpo.
+
+    No finge estrellas ni sumas que esa pieza no tiene: pone los hechos medidos, tal cual,
+    y deja dicho cuántos quedaron como «aquí no hay».
+    """
+    f = d["fichas"]
+    medidos = [x for x in f if x.get("valor") not in (None, "")]
+    lineas = []
+    for x in medidos[:8]:
+        v = x["valor"]
+        if isinstance(v, str) and len(v) > 60:
+            v = v[:60] + "…"
+        lineas.append(f"• **{x['hecho']}**: {v}")
+    sin = [x for x in f if x.get("valor") in (None, "")]
+    cuerpo = [
+        "━━━━━━━━━━━━━",
+        "",
+        f"📎 *Comentario fijado · Pieza {pieza} — la serie*",
+        "",
+        "Enlaces rápidos:",
+        f"• Cuerpo de la publicación: pieza {pieza} de Facebook",
+        "• Fecha de la medición: lunes 9 de noviembre de 2026",
+        f"• Medido con: {d.get('fuente', 'la fuente que declara la pieza')}",
+        f"• Archivo de la medición: `docs/MEDICION-P{pieza}-2026-11-09.json`",
+        "",
+        "Lo que dicen los números medidos:",
+        *lineas,
+    ]
+    if sin:
+        cuerpo.append(f"• Quedan **{len(sin)}** hechos declarados «aquí no hay»: no se midieron o no se deben medir.")
+    cuerpo += [
+        "",
+        f"**{len(medidos)} hechos con valor medido, {len(sin)} sin valor.** Los mismos del cuerpo:",
+        "ninguno se escribe aquí si no está allá.",
+        "",
+        "💓 La Bandita informa. Lo que no se midió, aquí no se escribe.",
+    ]
+    return "\n".join(cuerpo)
 
 
 def main(argv: list[str]) -> int:
