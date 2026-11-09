@@ -25,18 +25,18 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 
 | # | Pieza | Cuerpo | Fijado | Estado |
 |---|---|---|---|---|
-| 01 | La huella o el silencio | 15.229 | 2.943 | Medida · 12 programas, 6 con huella |
-| 02 | La música que no se cae | 18.114 | 2.853 | Medida · 21 repos, 6 con huella |
-| 03 | La caja fuerte del bolsillo | 11.411 | 2.408 | Medida · 16 repos, 1 con huella |
-| 04 | La lista del permiso | 13.405 | 3.275 | Medida · 26 repos, 6 con huella |
+| 01 | La huella o el silencio | 15.229 | 1.712 | Medida · 12 programas, 6 con huella |
+| 02 | La música que no se cae | 18.114 | 1.711 | Medida · 21 repos, 6 con huella |
+| 03 | La caja fuerte del bolsillo | 11.411 | 1.714 | Medida · 16 repos, 1 con huella |
+| 04 | La lista del permiso | 13.405 | 1.728 | Medida · 26 repos, 6 con huella |
 | 05 | La guía maestra | 46.761 | 3.331 | Medida · 70 fichas, 22 con huella |
-| 06 | El taller de los parches | 12.170 | 2.181 | Medida · 17 repos, 5 con huella (55 de 190 archivos) |
-| 07 | La pantalla grande | 11.140 | 2.259 | Medida · 17 repos, 4 con huella · gigantes re-verificados el 8-nov |
-| 08 | La red: seis caminos | 13.583 | 2.278 | Medida · 20 repos, 5 con huella |
-| 09 | Archivos, copias y nubes | 13.726 | 2.234 | Medida · 17 repos, 4 con huella |
-| 10 | Las tiendas | 12.792 | 2.126 | Medida · 56 repos, 1 firma |
-| 11 | Las aplicaciones que leen | 11.078 | 2.097 | Medida · 51 apps, 116 archivos firmados |
-| 12 | El kit de reemplazo | 11.364 | 2.255 | Medida · 59 recursos, 501 de 3.022 |
+| 06 | El taller de los parches | 12.170 | 1.682 | Medida · 17 repos, 5 con huella (55 de 190 archivos) |
+| 07 | La pantalla grande | 11.140 | 1.699 | Medida · 17 repos, 4 con huella · gigantes re-verificados el 8-nov |
+| 08 | La red: seis caminos | 13.583 | 1.695 | Medida · 20 repos, 5 con huella |
+| 09 | Archivos, copias y nubes | 13.726 | 1.730 | Medida · 17 repos, 4 con huella |
+| 10 | Las tiendas | 12.792 | 1.684 | Medida · 56 repos, 1 firma |
+| 11 | Las aplicaciones que leen | 11.078 | 1.681 | Medida · 51 apps, 116 archivos firmados |
+| 12 | El kit de reemplazo | 11.364 | 1.710 | Medida · 59 recursos, 501 de 3.022 |
 | 13 | El audio que faltaba | 44.732 | 2.153 | Medida · 54 proyectos, 409 de 3.599 |
 | 14 | Spotify sin Spotify | 41.786 | 2.187 | Medida · 38 clientes, 495 de 2.473 |
 | 15 | Descargar es un acto técnico | 42.958 | 1.352 | Medida · 31 programas |
