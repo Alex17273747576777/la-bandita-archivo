@@ -47,9 +47,9 @@
   {
    "id": "P07",
    "descripcion": "decidir el reparto: qué recursos van a cada una de las 40 piezas y con qué tema.",
-   "hecho": false,
-   "evidencia": null,
-   "cerrado_en": null
+   "hecho": true,
+   "evidencia": "docs/REPARTO-40-PIEZAS-2026-11-09.md: 40 filas, cada una con tema propio y las secciones reales de fmhy.net de donde salen los recursos (253 nuevos en lectores, 247 en archivos, 227 en audio, 219 en red, 218 en descargas, 187 en OCR, 131 en parcheo, 105 en contraseñas, 93 en torrent, 89 en radio, 81 en teclados, 79 en TV); las 4 personales sin recursos a propósito",
+   "cerrado_en": "2026-11-09T13:14:16Z"
   },
   {
    "id": "P08",
