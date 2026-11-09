@@ -1,5 +1,8 @@
 # Cómo publicar esta página (Rusia · Brasil · dominio gratis)
 
+> **Ya está publicada en GitHub Pages:** https://alex17273747576777.github.io/la-bandita-archivo/
+> Este documento queda como plan B (Rusia · Brasil · dominio propio), no como el único camino.
+
 La página ya está armada y **funciona sin red**: `web/index.html` lleva los 3.116 repositorios medidos
 dentro del propio archivo, sin CDN, sin fuentes externas, sin rastreadores y sin una sola llamada a un
 servidor. 599 KB. Se abre con doble clic y se ve igual.

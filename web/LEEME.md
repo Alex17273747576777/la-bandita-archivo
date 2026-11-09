@@ -1,38 +1,34 @@
-# El archivo abierto de La Bandita
+# La página pública del archivo
 
-Una página, un solo archivo, **3.116 repositorios medidos** uno por uno contra la API pública de GitHub
-el 9 de noviembre de 2026. Sin CDN, sin fuentes externas, sin rastreadores, sin cuentas y sin cookies:
-los datos van dentro del propio `index.html`, así que funciona igual con red y sin ella.
+**Está publicada:** https://alex17273747576777.github.io/la-bandita-archivo/
 
-## Qué se puede hacer
+Salida del despliegue: `completed success` en 5 pasos. Respuesta medida desde fuera:
+`HTTP 200 · 613.314 bytes`, idéntica byte a byte al `index.html` construido.
 
-* Buscar por nombre de repositorio.
-* Ordenar por estrellas, por sumas publicadas, por más nuevo, por actividad reciente o por adjuntos.
-* Filtrar para ver **solo los que publican suma de comprobación** (375 de 3.116).
-* Todo lo demás se lee como una tabla: licencia, última entrega, días de vida, días sin empujar.
+## Qué es
 
-## Qué significa cada columna
+3.116 repositorios medidos contra la API pública de GitHub, dentro de un solo archivo: sin CDN, sin
+fuentes externas, sin rastreadores y sin una sola llamada a un servidor al abrirlo. 613 KB.
 
-| Columna | Qué mide | Cómo se midió |
-|---|---|---|
-| Estrellas | cuánta gente lo marcó | campo `stargazers` de la API |
-| Sumas | archivos de comprobación en la última entrega | nombres de los adjuntos que terminan en `.sha256`, `.sha512`, `.asc`, `.sig`, `sums`… |
-| Adjuntos | archivos que trae la última entrega | campo `assets` de la última entrega |
-| Días de vida | desde que se creó el repositorio | `createdAt` contra el 9-nov-2026 |
-| Días sin empujar | desde el último envío de código | `pushedAt` contra el 9-nov-2026 |
-| Licencia | la que declara el repositorio | campo `license.spdxId`; si no declara, dice «sin declarar» |
+## Lo que hay que decir sin adornos
 
-Cuando un dato no se pudo medir, la página escribe **«aquí no hay»**. No hay estimaciones.
+- **Los datos van dentro del HTML** (607.200 caracteres de JSON en línea), pero se pintan con
+  JavaScript. Se abre sin red y funciona; con JavaScript desactivado se ve el encabezado y una tabla
+  vacía. Es una página que depende de su propio script, no de nada de fuera.
+- **Los buscadores ven poco:** el contenido no está en el HTML, así que el índice de Google no lo
+  lee. Si eso importa, hay que añadir una versión estática de la tabla.
+- **El dominio propio no está:** `la-bandita-archivo.eu.org` no tiene DNS todavía. El archivo se
+  guarda en `CNAME.eu-org-en-espera.txt`; en cuanto haya registros, se repone y Pages lo sirve.
 
-## Licencias
+## Cómo se publica
 
-* **Datos:** CC0 (dominio público). Se pueden copiar, mezclar y republicar sin pedir permiso.
-* **Código de la página:** también CC0.
-* **Los programas enlazados:** la licencia que declara cada autor, en su propio repositorio. Aquí no se
-  afirma la licencia de nadie más allá de lo que devolvió la API.
+`.github/workflows/pagina.yml` empaqueta `web/` y lo publica con `actions/deploy-pages`. Se dispara
+solo cuando cambia algo de `web/`, y a mano desde la pestaña Actions.
 
-## De dónde salen los datos
+El despliegue clásico de Pages **no sirvió**: se quedó más de media hora en «building», con
+`duration 0`, y al final cayó con `failure`. No era la página: era el despliegue.
 
-De `docs/CENSO-MEDIDO-2026-11-09.json` en el repositorio del archivo: 16 páginas de fmhy.net leídas,
-3.284 repositorios distintos encontrados, 3.125 que esta casa no había medido nunca, cruzados con su
-propio registro de 6.842 fichas. Para publicar, copia `index.html` y `datos.json`: no hace falta nada más.
+## Los otros alojamientos
+
+`COMO-PUBLICAR.md` sigue teniendo los pasos de GitVerse (Rusia) y Brasil. Ya no son la única vía:
+GitHub Pages está funcionando.
