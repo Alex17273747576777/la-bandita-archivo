@@ -40,8 +40,8 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 | 13 | El audio que faltaba | 12.281 | 1.695 | Medida · 54 proyectos, 409 de 3.599 |
 | 14 | Spotify sin Spotify | 12.075 | 1.702 | Medida · 38 clientes, 495 de 2.473 |
 | 15 | Descargar es un acto técnico | 12.346 | 1.723 | Medida · 31 programas |
-| 16 | El torrent que no se rinde | 42.102 | 1.488 | Medida · 22 piezas |
-| 17 | El teclado que escribe por ti | 40.312 | 1.203 | Medida · 34 teclados |
+| 16 | El torrent que no se rinde | 9.072 | 1.662 | Medida · 22 piezas |
+| 17 | El teclado que escribe por ti | 9.467 | 1.673 | Medida · 34 teclados |
 | 18 | La radio y el directo | 40.538 | 1.386 | Medida · 32 piezas |
 | 19 | La tienda que le sirve a tu app | 47.047 | 1.557 | Medida · 15 repos |
 | 20 | El teclado que obedece | 47.849 | 1.559 | Medida · 11 teclados |
