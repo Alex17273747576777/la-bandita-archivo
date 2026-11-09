@@ -51,9 +51,9 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 | 24 | Repositorios de extensiones de anime | 9.881 | 1.669 | **Medida el 8-nov** · 5 vivos, 173 archivos, 0 huellas, un abuelo de 812 días |
 | 25 | OCR de bolsillo | 11.137 | 1.689 | **Medida el 8-nov** · 7 programas, 334 archivos, 1 suma (episteme) |
 | 26 | Usagi y su familia | 10.915 | 1.706 | **Medida el 8-nov** · 6 vivos, 727 archivos, 0 huellas, el original 370 días parado |
-| 27 | DropSauce y su tema | 9.984 | 1.988 | **Medida el 8-nov** · 4 vivos, 262 archivos, 3 sumas (las pone el más pequeño) |
-| 28 | Mangayomi y sus extensiones | 12.066 | 2.077 | **Medida el 8-nov** · 5 vivos, 3.788 archivos, 0 huellas: el peor del día |
-| 29 | LNReader y sus plugins | 10.518 | 1.962 | **Medida el 8-nov** · 2 vivos, 69 archivos, 5 sumas, 963 días sin etiqueta |
+| 27 | DropSauce y su tema | 8.165 | 1.663 | **Medida el 8-nov** · 4 vivos, 262 archivos, 3 sumas (las pone el más pequeño) |
+| 28 | Mangayomi y sus extensiones | 10.096 | 1.665 | **Medida el 8-nov** · 5 vivos, 3.788 archivos, 0 huellas: el peor del día |
+| 29 | LNReader y sus plugins | 10.281 | 1.662 | **Medida el 8-nov** · 2 vivos, 69 archivos, 5 sumas, 963 días sin etiqueta |
 | 30 | Cloudstream MegaRepo | 45.011 | 1.415 | Una ficha medida |
 | 31 | El peso no es el problema | 50.628 | 3.351 | Medida de nuevo el 8-nov |
 | 32 | Tu Manga Online, sin lista de dominios | 11.129 | 2.090 | **Medida el 8-nov** · 9 lectores, 4.182 archivos, 0 huellas, uno que devuelve 404 |
