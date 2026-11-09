@@ -54,9 +54,9 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 | 27 | DropSauce y su tema | 8.165 | 1.663 | **Medida el 8-nov** · 4 vivos, 262 archivos, 3 sumas (las pone el más pequeño) |
 | 28 | Mangayomi y sus extensiones | 10.096 | 1.665 | **Medida el 8-nov** · 5 vivos, 3.788 archivos, 0 huellas: el peor del día |
 | 29 | LNReader y sus plugins | 10.281 | 1.662 | **Medida el 8-nov** · 2 vivos, 69 archivos, 5 sumas, 963 días sin etiqueta |
-| 30 | Cloudstream MegaRepo | 45.011 | 1.415 | Una ficha medida |
-| 31 | El peso no es el problema | 50.628 | 3.351 | Medida de nuevo el 8-nov |
-| 32 | Tu Manga Online, sin lista de dominios | 11.129 | 2.090 | **Medida el 8-nov** · 9 lectores, 4.182 archivos, 0 huellas, uno que devuelve 404 |
+| 30 | Cloudstream MegaRepo | 12.135 | 1.681 | Una ficha medida |
+| 31 | El peso no es el problema | 8.828 | 1.648 | Medida de nuevo el 8-nov |
+| 32 | Tu Manga Online, sin lista de dominios | 11.025 | 1.701 | **Medida el 8-nov** · 9 lectores, 4.182 archivos, 0 huellas, uno que devuelve 404 |
 | 33 | Apoyo a desarrolladores | 11.244 | 2.042 | **Medida el 8-nov** · 9 proyectos, 977 archivos, 0 huellas, uno de 0 estrellas |
 | 34 | Biblioteca de Kototoro y v2.4 | 12.781 | 2.026 | **Medida el 8-nov** · 4 repos, 1.385 archivos, **102 sumas**: récord del día |
 | 35 | La Ballenita vuelve al mar | 6.206 | 1.337 | Corta · personal |
