@@ -25,9 +25,9 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 
 | # | Pieza | Cuerpo | Fijado | Estado |
 |---|---|---|---|---|
-| 01 | La huella o el silencio | 46.123 | 2.943 | Medida · 12 programas, 6 con huella |
-| 02 | La música que no se cae | 47.813 | 2.853 | Medida · 21 repos, 6 con huella |
-| 03 | La caja fuerte del bolsillo | 45.105 | 2.408 | Medida · 16 repos, 1 con huella |
+| 01 | La huella o el silencio | 15.229 | 2.943 | Medida · 12 programas, 6 con huella |
+| 02 | La música que no se cae | 18.114 | 2.853 | Medida · 21 repos, 6 con huella |
+| 03 | La caja fuerte del bolsillo | 11.411 | 2.408 | Medida · 16 repos, 1 con huella |
 | 04 | La lista del permiso | 49.207 | 3.275 | Medida · 26 repos, 6 con huella |
 | 05 | La guía maestra | 46.761 | 3.331 | Medida · 70 fichas, 22 con huella |
 | 06 | El taller de los parches | 45.292 | 2.181 | Medida · 17 repos, 5 con huella (55 de 190 archivos) |
