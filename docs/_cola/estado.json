@@ -1,0 +1,111 @@
+{
+ "encargo": "rehacer las 40 piezas de Facebook con recursos nuevos, catálogos revisados (fmhy.net, miyomi.app e índices encontrados) y issues al repositorio de fmhy",
+ "creada": "2026-11-09T12:52:26Z",
+ "pasos": [
+  {
+   "id": "P01",
+   "descripcion": "leer fmhy.net y anotar su estructura real: qué páginas hay, cómo se navega, si tiene API o índice.",
+   "hecho": false,
+   "evidencia": null,
+   "cerrado_en": null
+  },
+  {
+   "id": "P02",
+   "descripcion": "leer fmhy.net/other/ y las páginas de índices: qué catálogos de índices lista y cuáles son medibles.",
+   "hecho": false,
+   "evidencia": null,
+   "cerrado_en": null
+  },
+  {
+   "id": "P03",
+   "descripcion": "medir miyomi.app: qué ofrece, si su API sirve, qué repositorios de extensiones/publicaciones acepta.",
+   "hecho": false,
+   "evidencia": null,
+   "cerrado_en": null
+  },
+  {
+   "id": "P04",
+   "descripcion": "buscar y anotar índices de extensiones y catálogos adicionales (mihon, keiyoushi, aniyomi, cloudstream, novelas).",
+   "hecho": false,
+   "evidencia": null,
+   "cerrado_en": null
+  },
+  {
+   "id": "P05",
+   "descripcion": "construir el censo de recursos nuevos: repositorios no medidos todavía, con dueño/repo, para las 40 piezas.",
+   "hecho": false,
+   "evidencia": null,
+   "cerrado_en": null
+  },
+  {
+   "id": "P06",
+   "descripcion": "medir el censo contra la API de GitHub y guardar docs/MEDICION-CENSO-2026-11-08.json.",
+   "hecho": false,
+   "evidencia": null,
+   "cerrado_en": null
+  },
+  {
+   "id": "P07",
+   "descripcion": "decidir el reparto: qué recursos van a cada una de las 40 piezas y con qué tema.",
+   "hecho": false,
+   "evidencia": null,
+   "cerrado_en": null
+  },
+  {
+   "id": "P08",
+   "descripcion": "abrir issue en el repositorio de fmhy proponiendo los índices buenos que no estén ya listados.",
+   "hecho": false,
+   "evidencia": null,
+   "cerrado_en": null
+  },
+  {
+   "id": "P09",
+   "descripcion": "escribir las piezas 01-10 con sus fichas medidas.",
+   "hecho": false,
+   "evidencia": null,
+   "cerrado_en": null
+  },
+  {
+   "id": "P10",
+   "descripcion": "escribir las piezas 11-20 con sus fichas medidas.",
+   "hecho": false,
+   "evidencia": null,
+   "cerrado_en": null
+  },
+  {
+   "id": "P11",
+   "descripcion": "escribir las piezas 21-30 con sus fichas medidas.",
+   "hecho": false,
+   "evidencia": null,
+   "cerrado_en": null
+  },
+  {
+   "id": "P12",
+   "descripcion": "escribir las piezas 31-40 con sus fichas medidas.",
+   "hecho": false,
+   "evidencia": null,
+   "cerrado_en": null
+  },
+  {
+   "id": "P13",
+   "descripcion": "generar los 40 comentarios fijados desde los JSON de medición.",
+   "hecho": false,
+   "evidencia": null,
+   "cerrado_en": null
+  },
+  {
+   "id": "P14",
+   "descripcion": "cuadrar registro: bandas.json, LEEME, README, CHANGELOG y leeme_carpeta.py.",
+   "hecho": false,
+   "evidencia": null,
+   "cerrado_en": null
+  },
+  {
+   "id": "P15",
+   "descripcion": "sellar y pasar la vara hasta fallos: NINGUNO; commit y push.",
+   "hecho": false,
+   "evidencia": null,
+   "cerrado_en": null
+  }
+ ]
+}
