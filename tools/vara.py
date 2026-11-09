@@ -231,9 +231,21 @@ def g3_licencia(informe: InformeVara) -> None:
             texto += 1
         elif metodo == "endpoint-license":
             endpoint += 1
-    pasa = True
+    # Un método vacío o inventado no es un método: se cuenta como fallo.
+    conocidos = {"spdx-api", "ausencia-firmada", "texto-license", "endpoint-license"}
+    fallos: list[str] = []
+    for p in fichas:
+        d = _leer_json(p)
+        if d is None:
+            continue
+        metodo = (d.get("licencia") or {}).get("metodo", "")
+        if metodo not in conocidos:
+            fallos.append(f"{d.get('id', p.name)}: método de licencia «{metodo or 'vacío'}» no verificable")
+    pasa = len(fallos) == 0
     detalle = f"spdx-api {spdx_api} · ausencia-firmada {ausencia} · texto-license {texto} · endpoint-license {endpoint}"
-    informe.compuertas.append(Compuerta("G3", "licencia", "puerta", pasa, detalle))
+    if fallos:
+        detalle += f" · {len(fallos)} sin método verificable"
+    informe.compuertas.append(Compuerta("G3", "licencia", "puerta", pasa, detalle, fallos))
 
 
 def g4_actividad(informe: InformeVara) -> None:
@@ -254,9 +266,25 @@ def g4_actividad(informe: InformeVara) -> None:
             dormido += 1
         elif estado == "muerto":
             muerto += 1
-    pasa = True
-    detalle = f"vivo {vivo} · dormido {dormido} · muerto {muerto}"
-    informe.compuertas.append(Compuerta("G4", "actividad", "puerta", pasa, detalle))
+    # Un estado de actividad sin fecha de entrega ni fecha de medición es una suposición.
+    fallos = []
+    indeterminados = 0
+    for p in fichas:
+        d = _leer_json(p)
+        if d is None:
+            continue
+        act = d.get("actividad") or {}
+        estado = act.get("estado", "indeterminado")
+        if estado not in {"vivo", "dormido", "muerto"}:
+            indeterminados += 1
+            fallos.append(f"{d.get('id', p.name)}: actividad «{estado}»")
+        elif not (act.get("release_en") or d.get("medido_en")):
+            fallos.append(f"{d.get('id', p.name)}: actividad sin entrega ni fecha de medición")
+    pasa = len(fallos) == 0
+    detalle = f"vivo {vivo} · dormido {dormido} · muerto {muerto} · indeterminado {indeterminados}"
+    if fallos:
+        detalle += f" · {len(fallos)} sin evidencia de actividad"
+    informe.compuertas.append(Compuerta("G4", "actividad", "puerta", pasa, detalle, fallos))
 
 
 def g5_integridad(informe: InformeVara) -> None:
@@ -275,28 +303,96 @@ def g5_integridad(informe: InformeVara) -> None:
     informe.compuertas.append(Compuerta("G5", "integridad", "puerta", pasa, detalle))
 
 
+def _piezas_texto() -> list[tuple[str, str]]:
+    """Devuelve (nombre, contenido) de cada pieza viva, sin LEEME ni la carpeta de reemplazadas."""
+    salida: list[tuple[str, str]] = []
+    if not PUBLICACIONES.exists():
+        return salida
+    for canal in PUBLICACIONES.iterdir():
+        if not canal.is_dir():
+            continue
+        for f in canal.iterdir():
+            if f.suffix != ".md" or f.name.startswith("_") or f.name.upper().startswith("LEEME"):
+                continue
+            try:
+                salida.append((f.name, f.read_text(encoding="utf-8")))
+            except OSError:
+                continue
+    return salida
+
+
 def g6_anti_plantilla(informe: InformeVara) -> None:
-    """G6: anti-plantilla (párrafos repetidos)."""
-    pasa = True
-    detalle = "3443 párrafos largos · máxima repetición interna 2× en 09-Herramientas-FOSS-caja-de-oficio-Facebook-La-Band (2×)"
-    informe.compuertas.append(Compuerta("G6", "anti-plantilla", "medidor", pasa, detalle))
+    """G6: anti-plantilla — ningún párrafo largo se repite exacto dentro de la misma pieza."""
+    piezas = _piezas_texto()
+    parrafos_total = 0
+    fallos: list[str] = []
+    peor = ("—", 0)
+    for nombre, contenido in piezas:
+        vistos: dict[str, int] = {}
+        for parrafo in contenido.split("\n\n"):
+            limpio = " ".join(parrafo.split())
+            if len(limpio) < 200:  # solo párrafos largos: los cortos se repiten por diseño
+                continue
+            parrafos_total += 1
+            vistos[limpio] = vistos.get(limpio, 0) + 1
+        for limpio, veces in vistos.items():
+            if veces > 1:
+                fallos.append(f"{nombre}: un párrafo de {len(limpio)} caracteres aparece {veces}×")
+                if veces > peor[1]:
+                    peor = (nombre, veces)
+    pasa = len(fallos) == 0
+    detalle = f"{parrafos_total} párrafos largos en {len(piezas)} piezas · máxima repetición interna {peor[1]}× en {peor[0][:60]}"
+    if fallos:
+        detalle += f" · {len(fallos)} fallos"
+    informe.compuertas.append(Compuerta("G6", "anti-plantilla", "medidor", pasa, detalle, fallos))
 
 
 def g7_enlaces(informe: InformeVara) -> None:
-    """G7: enlaces revisados, 0 binarios recetados."""
-    pasa = True
-    detalle = "2016 enlaces revisados · 0 binarios recetados"
-    informe.compuertas.append(Compuerta("G7", "enlaces", "puerta", pasa, detalle))
+    """G7: enlaces revisados y ningún binario recetado."""
+    piezas = _piezas_texto()
+    enlaces = 0
+    binarios: list[str] = []
+    for nombre, contenido in piezas:
+        for m in re.finditer(r"https?://[^\s)\]>\"']+", contenido):
+            enlaces += 1
+            url = m.group(0)
+            # Recetar la descarga directa de un binario es lo que esta casa no hace.
+            if re.search(r"\.(apk|exe|msi|dmg|iso|zip|rar|7z|bin)(\?|$)", url, re.IGNORECASE):
+                binarios.append(f"{nombre}: {url[:70]}")
+    pasa = len(binarios) == 0
+    detalle = f"{enlaces} enlaces revisados · {len(binarios)} binarios recetados"
+    informe.compuertas.append(Compuerta("G7", "enlaces", "puerta", pasa, detalle, binarios))
 
 
 def g8_presupuesto(informe: InformeVara) -> None:
-    """G8: presupuesto de longitud por canal."""
-    whatsapp_n = 5
-    facebook_n = 0
-    otras_n = 149
-    pasa = True
-    detalle = f"whatsapp n={whatsapp_n} min=63000 mediana=63087 max=63095 · facebook n={facebook_n} min=40000 mediana=44049 max=44979 · otras n={otras_n} min=423 mediana=2795 max=63969"
-    informe.compuertas.append(Compuerta("G8", "presupuesto", "medidor", pasa, detalle))
+    """G8: presupuesto de longitud por canal, medido sobre los archivos reales."""
+    bandas = _leer_json(BANDAS) or {}
+    fallos: list[str] = []
+    resumen: list[str] = []
+    for canal in sorted(PUBLICACIONES.iterdir()) if PUBLICACIONES.exists() else []:
+        if not canal.is_dir():
+            continue
+        datos = _datos_canal_bandas(bandas, canal.name)
+        minimo, maximo = datos.get("min"), datos.get("max")
+        if minimo is None or maximo is None:
+            continue
+        largos: list[int] = []
+        for nombre, contenido in _piezas_texto():
+            if not nombre.startswith(tuple(f"{n:02d}" for n in range(1, 41))):
+                continue
+            largos.append(len(contenido))
+        if not largos:
+            continue
+        fuera = [n for n in largos if n < minimo or n > maximo]
+        largos.sort()
+        resumen.append(f"{canal.name} n={len(largos)} min={largos[0]} mediana={largos[len(largos)//2]} max={largos[-1]}")
+        if fuera:
+            fallos.append(f"{canal.name}: {len(fuera)} piezas fuera de la banda {minimo}–{maximo}")
+    pasa = len(fallos) == 0
+    detalle = " · ".join(resumen) if resumen else "sin canales con banda declarada"
+    if fallos:
+        detalle += f" · {len(fallos)} fallos"
+    informe.compuertas.append(Compuerta("G8", "presupuesto", "medidor", pasa, detalle, fallos))
 
 
 def g9_envios(informe: InformeVara) -> None:
@@ -400,10 +496,20 @@ def g11_manual_v3(informe: InformeVara) -> None:
 
 
 def g12_firma_literal(informe: InformeVara) -> None:
-    """G12: firma literal — posición de la firma y fecha del día."""
-    pasa = True
-    detalle = "5 de 5 en regla · 1 del archivo viejo sin exigencia"
-    informe.compuertas.append(Compuerta("G12", "firma literal", "puerta", pasa, detalle))
+    """G12: firma literal — el 💓 aparece en las piezas que lo declaran y la fecha del día cuadra."""
+    piezas = _piezas_texto()
+    fallos: list[str] = []
+    con_firma = 0
+    for nombre, contenido in piezas:
+        tiene = "💓" in contenido or "La Bandita informa" in contenido
+        if tiene:
+            con_firma += 1
+        # Toda pieza tiene que declarar su fecha en el cuerpo o en el nombre.
+        if not (re.search(r"\d{4}-\d{2}-\d{2}", contenido) or re.search(r"\d{4}-\d{2}-\d{2}", nombre)):
+            fallos.append(f"{nombre}: sin fecha declarada")
+    pasa = len(fallos) == 0
+    detalle = f"{con_firma} de {len(piezas)} con firma literal · {len(fallos)} sin fecha"
+    informe.compuertas.append(Compuerta("G12", "firma literal", "puerta", pasa, detalle, fallos))
 
 
 def g13_novedad(informe: InformeVara) -> None:
@@ -463,10 +569,32 @@ def g16_fecha_respaldo(informe: InformeVara) -> None:
 
 
 def g17_rutas_vivas(informe: InformeVara) -> None:
-    """G17: rutas vivas — ninguna carpeta movida citada por su ruta vieja."""
-    pasa = True
-    detalle = "5 mudanzas · 0 rutas vivas rotas · 16 archivos históricos que las citan"
-    informe.compuertas.append(Compuerta("G17", "rutas vivas", "puerta", pasa, detalle))
+    """G17: rutas vivas — ningún documento cita una ruta del repositorio que ya no exista."""
+    # Solo material vivo: las piezas. Las actas de docs/ son registro histórico de mudanzas
+    # y correcciones: reescribirlas borraría la prueba de lo que pasó.
+    candidatos = _piezas_texto()
+    fallos: list[str] = []
+    citadas = 0
+    prefijos = ("Arena-Reimagined/", "registry/", "docs/", "tools/", "guia-maestra/")
+    for nombre, texto in candidatos:
+        for m in re.finditer(r"`([A-Za-z0-9_./-]{6,120})`", texto):
+            ruta = m.group(1)
+            if not ruta.startswith(prefijos):
+                continue
+            # Un nombre con NN / 0X es una plantilla, no una ruta; y sin extensión ni barra
+            # final no es una ruta de archivo (p. ej. nombres de método de un protocolo).
+            if re.search(r"NN|0X|XX|\{\{", ruta) or not (ruta.endswith("/") or re.search(r"\.[a-z0-9]{2,5}$", ruta)):
+                continue
+            citadas += 1
+            if not (RAIZ / ruta).exists():
+                fallos.append(f"{nombre[:40]}: cita «{ruta}», que ya no existe")
+    # Deduplicar: la misma ruta rota citada diez veces es un fallo, no diez.
+    fallos = sorted(set(fallos))
+    pasa = len(fallos) == 0
+    detalle = f"{citadas} rutas del repositorio citadas · {len(fallos)} rotas"
+    if fallos:
+        detalle += f" · p. ej. {fallos[0][:90]}"
+    informe.compuertas.append(Compuerta("G17", "rutas vivas", "puerta", pasa, detalle, fallos))
 
 
 TODAS: list[tuple[str, callable]] = [
