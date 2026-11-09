@@ -37,9 +37,9 @@ El número es el del ciclo (01–40), la fecha es la del corte de medición de l
 | 10 | Las tiendas | 12.792 | 1.684 | Medida · 56 repos, 1 firma |
 | 11 | Las aplicaciones que leen | 11.078 | 1.681 | Medida · 51 apps, 116 archivos firmados |
 | 12 | El kit de reemplazo | 11.364 | 1.710 | Medida · 59 recursos, 501 de 3.022 |
-| 13 | El audio que faltaba | 44.732 | 2.153 | Medida · 54 proyectos, 409 de 3.599 |
-| 14 | Spotify sin Spotify | 41.786 | 2.187 | Medida · 38 clientes, 495 de 2.473 |
-| 15 | Descargar es un acto técnico | 42.958 | 1.352 | Medida · 31 programas |
+| 13 | El audio que faltaba | 12.281 | 1.695 | Medida · 54 proyectos, 409 de 3.599 |
+| 14 | Spotify sin Spotify | 12.075 | 1.702 | Medida · 38 clientes, 495 de 2.473 |
+| 15 | Descargar es un acto técnico | 12.346 | 1.723 | Medida · 31 programas |
 | 16 | El torrent que no se rinde | 42.102 | 1.488 | Medida · 22 piezas |
 | 17 | El teclado que escribe por ti | 40.312 | 1.203 | Medida · 34 teclados |
 | 18 | La radio y el directo | 40.538 | 1.386 | Medida · 32 piezas |
