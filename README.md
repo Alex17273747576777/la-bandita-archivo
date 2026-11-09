@@ -12,7 +12,7 @@ Este archivo llegó a tener la raíz con veintinueve entradas, las dos carpetas 
 
 Se corrigió: el presente quedó en la puerta, el pasado en `ARCHIVO-HISTORICO/` con su fecha y un mapa que traduce las rutas viejas. **Lo ya publicado no se reescribió**: se conserva con sus fallos y se corrige hacia adelante, porque un archivo que se retoca solo es un archivo que no se puede citar. Lo que sigue abierto se declara en [`docs/TAREAS.md`](docs/TAREAS.md), no se esconde.
 
-El 3 de noviembre se dio el segundo paso, que era el que faltaba: **quitar lo inútil**. Salieron once archivos —envases comprimidos cuya copia ya estaba abierta, vistas HTML generadas y dos copias byte por byte— y `uploads/` dejó de estar en la raíz. No se borró ni un documento: los cincuenta y tres que había se mudaron a `ARCHIVO-HISTORICO/subidas-2026-09/`, y cada retirada lleva su hash y su motivo en `ARCHIVO-HISTORICO/_podado-2026-11-03/README.md`.
+El 3 de noviembre se dio el segundo paso, que era el que faltaba: **quitar lo inútil**. Salieron once archivos —envases comprimidos cuya copia ya estaba abierta, vistas HTML generadas y dos copias byte por byte— y la carpeta que se llamaba `uploads/` dejó de estar en la raíz. No se borró ni un documento: los cincuenta y tres que había se mudaron a `ARCHIVO-HISTORICO/subidas-2026-09/`, y cada retirada lleva su hash y su motivo en `ARCHIVO-HISTORICO/_podado-2026-11-03/README.md`.
 
 ---
 

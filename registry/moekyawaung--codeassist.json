@@ -13,11 +13,12 @@
   "sha256": "5edf3684da83923c664ca51de7e0c319f22158f3eab0235f3ffb0859a036b00a"
  },
  "frescura": {
-  "dias": 3,
+  "dias": 6,
   "estado": "sin_objeto",
   "evidencia_en": "2026-11-03",
-  "motivo": "el repositorio ya no existe: la API devuelve 404, no hay nada que volver a medir",
-  "proxima_remedicion": "2026-12-03",
+  "fecha_declarada_valida": true,
+  "motivo": "el repositorio no existe: la API devolvió 404",
+  "proxima_remedicion": null,
   "ventana_dias": 180
  },
  "frescura_dias": 0,

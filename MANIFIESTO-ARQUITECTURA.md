@@ -31,7 +31,7 @@ sugerencias: son el criterio con el que se acepta o se rechaza un cambio.
 | Un acta o política fechada | `docs/` | MAYÚSCULAS y `-AAAA-MM-DD` |
 | Un dato medido | `registry/` o `docs/envios/` | según lo genere la herramienta |
 | Un script | `tools/` | verbo en minúsculas (`medir_`, `atestar`, `sitio`) |
-| Legado que no se edita | `_archivo-historico/` | tal como llegó, con manifiesto |
+| Legado que no se edita | `ARCHIVO-HISTORICO/` | tal como llegó, con manifiesto |
 
 ## 3 · Convenciones de nombre
 

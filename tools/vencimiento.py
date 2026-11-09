@@ -42,11 +42,44 @@ VENTANAS_DEFAULT: dict[str, int] = {
 
 
 def _cargar_politica() -> dict[str, int]:
+    """Las ventanas de frescura, con la razón al lado de cada una.
+
+    EL FALLO QUE ESTO ARREGLA
+    -------------------------
+    `docs/POLITICA-FRESCURA.json` pasó de `ventanas` como diccionario a `ventanas`
+    como **lista de fichas** (`{campo, ventana_dias, por_que}`), que es mejor: cada
+    ventana lleva escrita su razón. El código siguió llamando `.items()` sobre una
+    lista y moría con `AttributeError: 'list' object has no attribute 'items'`.
+
+    Pasaba desapercibido porque `vencimiento.py` no está entre los pasos que el
+    flujo de integración ejecuta con el veredicto explícito, así que el error solo
+    aparecía al llamarlo a mano.
+
+    Se aceptan las dos formas. De la lista se toma la primera ficha de cada campo
+    de primer nivel (`actividad.ultimo_push` → `actividad`), y lo que no aparezca
+    se queda con el valor por defecto.
+    """
     if POLITICA.exists():
         try:
             d = json.loads(POLITICA.read_text(encoding="utf-8"))
-            return {k: int(v) for k, v in d.get("ventanas", VENTANAS_DEFAULT).items()}
-        except (json.JSONDecodeError, OSError):
+            bruto = d.get("ventanas")
+            if isinstance(bruto, dict):
+                return {k: int(v) for k, v in bruto.items()}
+            if isinstance(bruto, list):
+                ventanas = dict(VENTANAS_DEFAULT)
+                for ficha in bruto:
+                    if not isinstance(ficha, dict):
+                        continue
+                    campo = str(ficha.get("campo", ""))
+                    dias = ficha.get("ventana_dias")
+                    if not campo or dias is None:
+                        continue
+                    # `actividad.ultimo_push` → `actividad`; `licencia` → `licencia`.
+                    clave = campo.split(".")[0]
+                    if clave not in ventanas or clave == campo:
+                        ventanas[clave] = int(dias)
+                return ventanas
+        except (json.JSONDecodeError, OSError, TypeError, ValueError):
             pass
     return VENTANAS_DEFAULT
 

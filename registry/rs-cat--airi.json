@@ -13,10 +13,12 @@
   "sha256": "e050bf53acda03d5a98ec7c661eb7a11bdd89dbc4b0ea6d2d90abc5f1639da3b"
  },
  "frescura": {
-  "dias": 0,
+  "dias": 6,
   "estado": "vigente",
   "evidencia_en": "2026-11-03",
-  "proxima_remedicion": "2026-12-03",
+  "fecha_declarada_valida": true,
+  "motivo": "evidencia de hace 6 días",
+  "proxima_remedicion": null,
   "ventana_dias": 180
  },
  "frescura_dias": 0,

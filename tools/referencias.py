@@ -53,19 +53,94 @@ class Cita:
     ruta_vieja: str
 
 
+# Archivos que son registro por naturaleza, estén donde estén.
+#
+# POR QUÉ ESTA LISTA EXISTE
+# -------------------------
+# El criterio anterior era «si vive bajo docs/ o bajo ARCHIVO-HISTORICO, es
+# histórico», y eso fallaba en los dos sentidos:
+#
+#   · declaraba VIVO un CHANGELOG que cuenta lo que pasó — y un registro de
+#     cambios que cita ``uploads/`` no está roto: está contando que en su día
+#     estuvo ahí;
+#   · declaraba VIVO el MAPA-DEL-ARCHIVO, que es exactamente la tabla que
+#     traduce los nombres viejos a los nuevos. Acusar al traductor de citar el
+#     nombre viejo es absurdo: para eso está.
+#
+# Marcar 67 rutas como rotas cuando ninguna lo estaba es peor que no comprobar:
+# un rojo que se sabe falso enseña a ignorar los rojos.
+ARCHIVOS_DE_REGISTRO = {
+    "CHANGELOG.md",          # cuenta lo que pasó, fechado
+    "MAPA-DEL-ARCHIVO.md",   # es la tabla de mudanzas
+    "INDICE.md",
+    "LECCIONES.md",
+    "DEPRECADOS.md",
+    "referencias.py",   # contiene la tabla MUDANZAS: los nombres viejos están a propósito
+}
+
+# Carpetas cuyo contenido es acta, no documento vivo.
+# `corpus-la-bandita/` son manuales de campo y traspasos de sesión, fechados: cuentan
+# lo que se hizo en su día y sus rutas son las de entonces. Se conservan como actas.
+# `00-CANON` es el canon congelado: ediciones fechadas que dicen de qué original
+# se derivaron y dónde estaba ese original ese día. Retocar esa frase para que
+# apunte a la carpeta de hoy sería falsificar el canon, que es justo lo que el
+# canon prohíbe. La traducción de nombres vive en MAPA-DEL-ARCHIVO.md, que sí se
+# actualiza.
+CARPETAS_DE_REGISTRO = (
+    "ARCHIVO-HISTORICO", "02-ARCHIVO", "_ARCHIVO-HISTORICO", "attestations",
+    "corpus-la-bandita", "00-CANON",
+)
+
+
 def _es_acta_o_historico(ruta: Path) -> bool:
     partes = ruta.parts
-    return any(p in ("ARCHIVO-HISTORICO", "02-ARCHIVO", "_ARCHIVO-HISTORICO") for p in partes) or "docs/" in str(ruta.parent)
+    if any(p in CARPETAS_DE_REGISTRO for p in partes):
+        return True
+    if ruta.name in ARCHIVOS_DE_REGISTRO:
+        return True
+    # Bajo docs/ hay actas, cierres e informes con fecha en el nombre: se conservan.
+    # Lo que NO se perdona es un documento vivo en la raíz citando una ruta muerta.
+    return "docs" in partes
 
 
 def _buscar_citas(contenido: str) -> list[str]:
-    """Busca menciones a rutas viejas en el contenido de un archivo."""
+    """Busca menciones a rutas viejas, entendiendo «ruta» como ruta.
+
+    TRES FALSOS POSITIVOS QUE ESTA FUNCIÓN TENÍA, Y CÓMO SE CIERRAN
+    --------------------------------------------------------------
+    1. **La palabra inglesa.** `uploads/` casaba con la descripción de una app
+       («This is an Android Spyware App, which uploads user data…») porque
+       `re.escape` protege el texto pero nadie pedía que fuera una ruta. Una
+       ruta empieza en un borde: principio de línea, espacio, comilla, paréntesis,
+       barra o backtick. «which uploads» no empieza así.
+    2. **La tabla de mudanzas.** `tools/referencias.py` contiene `MUDANZAS`, con
+       los nombres viejos escritos a propósito. Se acusaba a sí misma; ahora está
+       en la lista de excluidos.
+    3. **La frase que explica la mudanza.** «la carpeta que se llamaba
+       ``uploads/`` dejó de estar en la raíz» es la corrección, no el error.
+       Citar el nombre viejo para decir que cambió es justo lo que se pide.
+    """
     encontradas: list[str] = []
     for ruta_vieja in MUDANZAS:
-        patron = re.escape(ruta_vieja.rstrip("/"))
-        if re.search(patron, contenido):
+        raiz = re.escape(ruta_vieja.rstrip("/"))
+        # Borde de ruta por delante: no puede venir pegado a una letra o un dígito.
+        patron = r"(?<![\w./-])" + raiz + r"/"
+        for m in re.finditer(patron, contenido):
+            contexto = contenido[max(0, m.start() - 90):m.end() + 20].lower()
+            if any(palabra in contexto for palabra in PALABRAS_DE_MUDANZA):
+                continue  # cuenta la mudanza: no es una cita rota
             encontradas.append(ruta_vieja)
+            break
     return encontradas
+
+
+# Si el contexto de la cita dice que la ruta cambió, la cita es la explicación del
+# cambio y no un enlace muerto.
+PALABRAS_DE_MUDANZA = (
+    "se llamaba", "se mudó", "se mudaron", "se movió", "se movieron", "dejó de estar",
+    "antes era", "ya no existe", "renombr", "se traslad", "pasó a llamarse",
+    "antiguo", "otrora", "histórico", "histórica",
+)
 
 
 def _auditar_archivo(ruta: Path) -> list[Cita]:
