@@ -13,6 +13,7 @@ Requiere: pip install "mcp>=2,<3"   (o mcp<2, que usa FastMCP)
 """
 from __future__ import annotations
 import json
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -166,16 +167,27 @@ def verificar_licencia(repo: str) -> dict:
 def atestacion_lote(lote: str = "") -> dict:
     if not LOTES.exists():
         return {"error": "no hay atestaciones", "nota": "correr tools/atestar.py"}
-    lotes = sorted(LOTES.glob("lote-*.json"))
+    # Sólo `lote-AAAA-MM-DD.json`: los paquetes `.sigstore.json` casan con el comodín y no son lotes.
+    lotes = sorted(p for p in LOTES.glob("lote-*.json") if re.fullmatch(r"lote-\d{4}-\d{2}-\d{2}\.json", p.name))
     if not lotes:
         return {"error": "no hay atestaciones"}
     buscado = (lote or "").strip()
     elegido = next((p for p in lotes if buscado and buscado in p.name), lotes[-1])
     datos = json.loads(elegido.read_text(encoding="utf-8"))
+    # La tabla (una huella por archivo, más de un megabyte) no cabe en una respuesta: se da su
+    # tamaño y dónde está. Quien quiera comprobar un archivo tiene el `.tsv` al lado.
+    if isinstance(datos.get("tabla"), dict):
+        datos["tabla"] = {"entradas": len(datos["tabla"]),
+                          "archivo": f"attestations/{elegido.stem}.tsv"}
+    # Hay lotes con dos formas: hasta el 7 de noviembre (`lote`, `huella_lote_anterior`) y desde
+    # el 9 (`fecha`, `anterior`). Esta herramienta sólo leía la vieja y reventaba con KeyError en
+    # cuanto existió un lote nuevo; la integración continua no lo veía (`| tee` sin pipefail).
     cadena = []
     for p in lotes:
         d = json.loads(p.read_text(encoding="utf-8"))
-        cadena.append({"lote": d["lote"], "huella": d["huella"], "anterior": d["huella_lote_anterior"]})
+        cadena.append({"lote": d.get("lote") or d.get("fecha") or p.stem.removeprefix("lote-"),
+                       "huella": d.get("huella"),
+                       "anterior": d.get("huella_lote_anterior", d.get("anterior"))})
     return {"atestacion": datos, "cadena": cadena,
             "advertencia": "el sello prueba que los archivos no cambiaron después de firmarse; "
                            "no prueba que la medición sea correcta — eso lo prueba la vara"}

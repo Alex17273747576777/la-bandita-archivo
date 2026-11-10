@@ -32,6 +32,9 @@ async def main():
                 res = await s.call_tool(nombre, args)
                 txt = res.content[0].text if res.content else '{}'
                 datos = json.loads(txt)
+                roto = getattr(res, 'is_error', False) or getattr(res, 'isError', False)
+                if roto or (nombre == 'atestacion_lote' and 'cadena' not in datos):
+                    raise SystemExit(f'  {nombre}: FALLA · {txt[:200]}')
                 print(f'  {nombre}: ok · claves {list(datos)[:6]}')
     print('PRUEBA MCP: OK')
 asyncio.run(main())

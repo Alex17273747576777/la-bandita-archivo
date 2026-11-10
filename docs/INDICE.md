@@ -276,7 +276,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`cuadre.py`](../tools/cuadre.py) | CUADRE · convierte un JSON de medición en prosa con los números escritos por código. | 115 |
 | [`descubrir.py`](../tools/descubrir.py) | DESCUBRIR · extrae repositorios de una fuente y los cruza contra el registro. | 105 |
 | [`diseno.py`](../tools/diseno.py) | DISEÑO · el sistema visual de la casa, en un solo sitio. | 477 |
-| [`doctor.py`](../tools/doctor.py) | DOCTOR · el primer comando que se corre en una máquina nueva, y el último antes de publicar. | 181 |
+| [`doctor.py`](../tools/doctor.py) | DOCTOR · el primer comando que se corre en una máquina nueva, y el último antes de publicar. | 184 |
 | [`duplicados.py`](../tools/duplicados.py) | DUPLICADOS · censo de copias por contenido, para gobernar sin borrar a ciegas. | 86 |
 | [`elige.py`](../tools/elige.py) | ELIGE · saca de la medición ya hecha las fichas de una pieza, sin medir nada nuevo. | 134 |
 | [`envio.py`](../tools/envio.py) | ENVÍO · convierte una pieza del archivo en mensajes que un canal no corta. | 260 |
@@ -329,7 +329,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`sync_fuentes.py`](../tools/sync_fuentes.py) | sync_fuentes.py · pone al día los créditos y las versiones de lo que la biblioteca cita. | 104 |
 | [`tareas.py`](../tools/tareas.py) | TAREAS · el extractor del archivo: de las piezas al tablero, sin copiar a mano. | 163 |
 | [`tres_lecturas.py`](../tools/tres_lecturas.py) | TRES LECTURAS · la misma medición, tres veces y por tres caminos distintos. | 303 |
-| [`vara.py`](../tools/vara.py) | LA VARA · las diecisiete compuertas de la casa, ejecutables en un solo comando. | 643 |
+| [`vara.py`](../tools/vara.py) | LA VARA · las diecisiete compuertas de la casa, ejecutables en un solo comando. | 647 |
 | [`vencimiento.py`](../tools/vencimiento.py) | VENCIMIENTO · qué ficha sigue vigente, cuál está por vencer y cuál hay que volver a medir. | 299 |
 | [`web.py`](../tools/web.py) | WEB · arma la página pública del archivo, en un solo archivo, sin nada externo. | 273 |
 

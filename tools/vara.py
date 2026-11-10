@@ -36,14 +36,11 @@ BANDAS: Path = DOCS / "bandas.json"
 
 
 def _fecha_hoy() -> date:
-    """Fecha de hoy, permitiendo sobrescritura vía variable de entorno LOTE_FECHA (YYYY-MM-DD)."""
-    fecha_env = os.environ.get("LOTE_FECHA")
-    if fecha_env:
-        try:
-            return date.fromisoformat(fecha_env)
-        except ValueError:
-            pass
-    return date.today()
+    """Hoy en la casa (Santo Domingo), o LOTE_FECHA. Misma regla que `atestar.py`: con
+    `date.today()` la integración continua (UTC) vivía en mañana desde las 8 de la noche."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import atestar
+    return atestar._fecha_hoy()
 
 
 Hoy = _fecha_hoy().isoformat()
@@ -190,7 +187,7 @@ def g2_frescura(informe: InformeVara) -> None:
     por_vencer = 0
     vencidas = 0
     sin_respaldo = 0
-    hoy = date.today()
+    hoy = _fecha_hoy()
     for p in fichas:
         d = _leer_json(p)
         if d is None:
@@ -289,9 +286,16 @@ def g4_actividad(informe: InformeVara) -> None:
 
 def g5_integridad(informe: InformeVara) -> None:
     """G5: integridad del sello SHA-256."""
-    sello_path = ATTESTATIONS / f"lote-{Hoy}.json"
-    if not sello_path.exists():
-        informe.compuertas.append(Compuerta("G5", "integridad", "puerta", False, "no existe sello de hoy", ["falta sello"]))
+    # El sello que manda es el que usa `atestar.py --verificar` (el lote más reciente), no «el de
+    # hoy». Mientras G5 pedía el lote del día, la vara salía roja cada mañana con el árbol intacto
+    # aunque la verificación de integridad pasara.
+    import atestar
+    try:
+        sello_path = atestar.lote_actual()
+    except FileNotFoundError:
+        sello_path = None
+    if sello_path is None or not sello_path.exists():
+        informe.compuertas.append(Compuerta("G5", "integridad", "puerta", False, "no hay sello vigente", ["falta sello"]))
         return
     d = _leer_json(sello_path)
     if d is None:
@@ -299,7 +303,7 @@ def g5_integridad(informe: InformeVara) -> None:
         return
     n_archivos = d.get("archivos", 0)
     pasa = n_archivos > 0
-    detalle = f"{n_archivos} archivos sellados"
+    detalle = f"{n_archivos} archivos sellados · {sello_path.stem}"
     informe.compuertas.append(Compuerta("G5", "integridad", "puerta", pasa, detalle))
 
 

@@ -13,6 +13,12 @@ permissions:
   contents: read
   id-token: write      # necesario para firmar sin llave con Sigstore (OIDC efímero)
 
+# `shell: bash` hace que cada paso corra con `-eo pipefail`. Sin esto, un `herramienta | tee`
+# devolvía la salida de `tee`: la prueba del servidor MCP llevaba días rota y el paso salía verde.
+defaults:
+  run:
+    shell: bash
+
 concurrency:
   group: vara-${{ github.ref }}
   cancel-in-progress: true

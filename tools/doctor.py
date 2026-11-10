@@ -30,14 +30,10 @@ RAIZ: Path = Path(__file__).resolve().parents[1]
 
 
 def _fecha_hoy() -> date:
-    """Fecha de hoy, permitiendo sobrescritura vía variable de entorno LOTE_FECHA (YYYY-MM-DD)."""
-    fecha_env = os.environ.get("LOTE_FECHA")
-    if fecha_env:
-        try:
-            return date.fromisoformat(fecha_env)
-        except ValueError:
-            pass
-    return date.today()
+    """Hoy en la casa (o LOTE_FECHA). Misma regla que `atestar.py`."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import atestar
+    return atestar._fecha_hoy()
 
 
 @dataclass
@@ -128,7 +124,14 @@ def _bloque_integridad() -> Bloque:
     alterados = 0
     ausentes = 0
     sin_sellar = 0
-    sello_path = RAIZ / "attestations" / f"lote-{_fecha_hoy().isoformat()}.json"
+    import atestar  # noqa: E402
+    try:
+        sello_path = atestar.lote_actual()
+    except FileNotFoundError:
+        sello_path = None
+    if sello_path is None or not sello_path.exists():
+        # Sin sello no hay nada que comparar: antes esto salía «0 alterados» con cara de sano.
+        return Bloque("INTEGRIDAD", "aviso", [f"integridad: no hay sello vigente · {total} archivos sin comprobar"])
     if sello_path.exists():
         import json as _json
         try:
