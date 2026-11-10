@@ -24,6 +24,7 @@ from __future__ import annotations
 import json
 import sys
 from datetime import date, datetime
+from fecha_casa import hoy as hoy_casa
 from pathlib import Path
 
 RAIZ: Path = Path(__file__).resolve().parents[1]
@@ -172,10 +173,10 @@ def _estado_ficha(ficha: dict, ventanas: dict[str, int], hoy: date) -> dict:
     }
 
 
-def aplicar(*, escribir: bool = False) -> dict:
+def aplicar(*, escribir: bool = False, generar_informes: bool = True) -> dict:
     """Recalcula el estado de frescura de cada ficha y escribe los archivos de salida."""
     ventanas = _cargar_politica()
-    hoy = date.today()
+    hoy = date.fromisoformat(hoy_casa())
     fichas: list[Path] = sorted(p for p in REGISTRO.glob("*.json") if not p.name.startswith("_"))
 
     resumen = {"vigente": 0, "por_vencer": 0, "vencida": 0, "sin_respaldo": 0, "sin_objeto": 0}
@@ -221,13 +222,15 @@ def aplicar(*, escribir: bool = False) -> dict:
     lineas.append("")
     for v in vencimientos:
         lineas.append(f"- {v['id']} · {v['repo']} · {v['estado']} · {v['motivo']}")
-    VENCIMIENTOS_MD.write_text("\n".join(lineas) + "\n", encoding="utf-8")
+    if generar_informes:
+        VENCIMIENTOS_MD.write_text("\n".join(lineas) + "\n", encoding="utf-8")
 
     # Escribir registry/_vencimientos.json
-    VENCIMIENTOS_JSON.write_text(
-        json.dumps({"fecha": hoy.isoformat(), "resumen": resumen, "fichas": vencimientos}, ensure_ascii=False, indent=1) + "\n",
-        encoding="utf-8",
-    )
+    if generar_informes:
+        VENCIMIENTOS_JSON.write_text(
+            json.dumps({"fecha": hoy.isoformat(), "resumen": resumen, "fichas": vencimientos}, ensure_ascii=False, indent=1) + "\n",
+            encoding="utf-8",
+        )
 
     if escribir:
         print(f"  registro reescrito: {len(vencimientos)} fichas")
@@ -270,7 +273,10 @@ def main(argv: list[str] | None = None) -> int:
             print(id_ficha)
         return 0
 
-    resumen = aplicar(escribir=args.aplicar)
+    if args.peor and args.aplicar:
+        parser.error("--peor es sólo lectura; no se combina con --aplicar")
+    # Una compuerta no reescribe el árbol que acaba de verificar.
+    resumen = aplicar(escribir=args.aplicar, generar_informes=not args.peor)
 
     if args.peor:
         # Peor caso, no media: una sola ficha vencida o sin respaldo detiene la línea.

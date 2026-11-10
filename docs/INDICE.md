@@ -330,7 +330,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`tareas.py`](../tools/tareas.py) | TAREAS · el extractor del archivo: de las piezas al tablero, sin copiar a mano. | 163 |
 | [`tres_lecturas.py`](../tools/tres_lecturas.py) | TRES LECTURAS · la misma medición, tres veces y por tres caminos distintos. | 303 |
 | [`vara.py`](../tools/vara.py) | LA VARA · las diecisiete compuertas de la casa, ejecutables en un solo comando. | 643 |
-| [`vencimiento.py`](../tools/vencimiento.py) | VENCIMIENTO · qué ficha sigue vigente, cuál está por vencer y cuál hay que volver a medir. | 293 |
+| [`vencimiento.py`](../tools/vencimiento.py) | VENCIMIENTO · qué ficha sigue vigente, cuál está por vencer y cuál hay que volver a medir. | 299 |
 | [`web.py`](../tools/web.py) | WEB · arma la página pública del archivo, en un solo archivo, sin nada externo. | 273 |
 
 ## Cómo se mantiene

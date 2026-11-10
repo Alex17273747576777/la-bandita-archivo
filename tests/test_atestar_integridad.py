@@ -34,3 +34,25 @@ class IntegridadTest(unittest.TestCase):
     def test_fecha_invalida_no_se_ignora(self):
         with patch.dict("os.environ", {"LOTE_FECHA": "ayer"}):
             with self.assertRaises(ValueError): atestar._fecha_hoy()
+
+
+class VencimientoReadOnlyTest(unittest.TestCase):
+    def test_compuerta_no_altera_registro_ni_informes(self):
+        import vencimiento
+        with tempfile.TemporaryDirectory() as tmp:
+            root = pathlib.Path(tmp)
+            registry = root / "registry"; registry.mkdir()
+            evidence = registry / "_evidencia"; evidence.mkdir()
+            docs = root / "docs"; docs.mkdir()
+            (evidence / "x.json").write_text('{"fecha":"2026-11-10"}')
+            (registry / "x.json").write_text(json.dumps({"id":"x", "repo":"owner/repo", "medido_en":"2026-11-10", "evidencia":{"payload_ref":"registry/_evidencia/x.json"}}))
+            (docs / "VENCIMIENTOS.md").write_text("informe conservado")
+            (registry / "_vencimientos.json").write_text("{}")
+            paths = dict(RAIZ=root, REGISTRO=registry, EVIDENCIA=evidence, DOCS=docs,
+                         VENCIMIENTOS_MD=docs/"VENCIMIENTOS.md", VENCIMIENTOS_JSON=registry/"_vencimientos.json", POLITICA=docs/"ausente.json")
+            before = {str(p):p.read_bytes() for p in root.rglob("*") if p.is_file()}
+            with patch.multiple(vencimiento, **paths), patch.object(vencimiento, "hoy_casa", return_value="2026-11-10"):
+                self.assertEqual(vencimiento.main(["--peor"]), 0)
+                with self.assertRaises(SystemExit): vencimiento.main(["--peor", "--aplicar"])
+            after = {str(p):p.read_bytes() for p in root.rglob("*") if p.is_file()}
+            self.assertEqual(before, after)
