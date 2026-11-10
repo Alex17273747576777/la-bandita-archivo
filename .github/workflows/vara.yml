@@ -25,6 +25,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Sólo preparación en una rama: en main la compuerta nunca se auto-repara.
+      - name: Preparar sello para revisión remota
+        id: preparar_sello
+        if: github.event_name == 'workflow_dispatch' && github.ref != 'refs/heads/main'
+        run: |
+          python3 tools/atestar.py
+          echo "fecha=$(python3 tools/fecha_casa.py)" >> "$GITHUB_OUTPUT"
+
+      - name: Entregar sello preparado
+        if: github.event_name == 'workflow_dispatch' && github.ref != 'refs/heads/main'
+        uses: actions/upload-artifact@v4
+        with:
+          name: seal-repair
+          path: |
+            registry/_manifiesto-sha256.tsv
+            attestations/lote-${{ steps.preparar_sello.outputs.fecha }}.json
+            attestations/lote-${{ steps.preparar_sello.outputs.fecha }}.tsv
+          if-no-files-found: error
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -32,6 +51,9 @@ jobs:
 
       - name: Dependencias
         run: pip install --quiet jsonschema "mcp>=2,<3"
+
+      - name: Regresiones de integridad
+        run: python3 -m unittest discover -s tests -p test_atestar_integridad.py -v
 
       - name: Registro al día
         run: python3 tools/registro_construir.py --verificar
@@ -75,35 +97,46 @@ jobs:
       - name: Servidor MCP responde
         run: python3 mcp-labandita-registro/probar.py | tee /tmp/mcp.txt
 
+      - name: Instalar cosign con versión y código fijados
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: sigstore/cosign-installer@756fe2d284c7292c4e9b62c8a28f1e5629c59532 # v4.1.3
+        with:
+          cosign-release: v3.1.4
+
       - name: Atestación firmada (Sigstore, sin llave)
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         run: |
-          python3 tools/atestar.py
-          PISTA=$(python3 -c "import sys;sys.path.insert(0,'tools');from fecha_casa import hoy;print(hoy())")
-          cp registry/_manifiesto-sha256.tsv "attestations/lote-${PISTA}.tsv"
-          curl -sSfL -o cosign https://github.com/sigstore/cosign/releases/latest/download/cosign-linux-amd64
-          chmod +x cosign
-          ./cosign sign-blob --yes \
+          python3 tools/atestar.py --verificar
+          PISTA=$(python3 -c "import sys;sys.path.insert(0,'tools');import atestar;print(atestar.lote_actual().stem.removeprefix('lote-'))")
+          cosign sign-blob --yes \
             --bundle "attestations/lote-${PISTA}.sigstore.json" \
             registry/_manifiesto-sha256.tsv
           echo "firmado: attestations/lote-${PISTA}.sigstore.json"
           echo "-Firma verificable en attestations/ (certificado efímero de esta corrida)-" >> "$GITHUB_STEP_SUMMARY"
 
       - name: La firma se comprueba (G14, sin llave y en frío)
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         run: |
-          PISTA=$(python3 -c "import sys;sys.path.insert(0,'tools');from fecha_casa import hoy;print(hoy())")
+          PISTA=$(python3 -c "import sys;sys.path.insert(0,'tools');import atestar;print(atestar.lote_actual().stem.removeprefix('lote-'))")
+          cosign verify-blob \
+            --bundle "attestations/lote-${PISTA}.sigstore.json" \
+            --certificate-identity "https://github.com/Alex17273747576777/la-bandita-archivo/.github/workflows/vara.yml@refs/heads/main" \
+            --certificate-oidc-issuer "https://token.actions.githubusercontent.com" \
+            "attestations/lote-${PISTA}.tsv"
           python3 tools/atestacion_verificar.py "attestations/lote-${PISTA}.sigstore.json" \
                   "attestations/lote-${PISTA}.tsv" | tee /tmp/firma.txt
           grep -q 'fallos: 0$' /tmp/firma.txt
 
       - name: Guardar la atestación firmada
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         uses: actions/upload-artifact@v4
         with:
           name: atestacion-firmada
-          path: attestations/*.sigstore.json
-          if-no-files-found: warn
+          path: |
+            attestations/*.sigstore.json
+            attestations/*.tsv
+            attestations/lote-*.json
+          if-no-files-found: error
 
       - name: Resumen
         run: |

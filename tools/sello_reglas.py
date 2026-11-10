@@ -56,6 +56,9 @@ def archivos(raiz: Path, manifiesto: Path | None = None) -> list[Path]:
         if ".git" in partes or "attestations" in partes or "site" in partes:
             continue
         rel = p.relative_to(raiz).as_posix()
+        # La tabla generada no puede contener su propia huella.
+        if rel == "registry/_manifiesto-sha256.tsv":
+            continue
         if not _esta_cubierto(rel):
             continue
         if p.suffix not in SUFIJOS and rel not in EXACTOS:

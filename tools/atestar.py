@@ -26,12 +26,14 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import re
 import sys
 from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from sello_reglas import archivos as archivos_para_sellar  # noqa: E402
+from fecha_casa import hoy as hoy_casa
 
 RAIZ: Path = Path(__file__).resolve().parents[1]
 ATTESTATIONS: Path = RAIZ / "attestations"
@@ -40,12 +42,23 @@ ATTESTATIONS: Path = RAIZ / "attestations"
 def _fecha_hoy() -> date:
     """Fecha de hoy, permitiendo sobrescritura vía variable de entorno LOTE_FECHA (YYYY-MM-DD)."""
     fecha_env = os.environ.get("LOTE_FECHA")
-    if fecha_env:
-        try:
-            return date.fromisoformat(fecha_env)
-        except ValueError:
-            pass
-    return date.today()
+    return date.fromisoformat(fecha_env or hoy_casa())
+
+
+def lotes_disponibles() -> list[Path]:
+    return sorted(p for p in ATTESTATIONS.glob("lote-*.json")
+                  if re.fullmatch(r"lote-\d{4}-\d{2}-\d{2}\.json", p.name))
+
+
+def lote_actual() -> Path:
+    # La integridad depende del contenido, no de que el calendario cambie.
+    if os.environ.get("LOTE_FECHA"):
+        return ATTESTATIONS / f"lote-{_fecha_hoy().isoformat()}.json"
+    lotes = lotes_disponibles()
+    if not lotes:
+        raise FileNotFoundError("no existe ningún lote de atestación")
+    return lotes[-1]
+
 
 
 def _huella_archivo(p: Path) -> str:
@@ -59,14 +72,14 @@ def _huella_archivo(p: Path) -> str:
 def _cargar_lote_anterior() -> dict | None:
     """Busca el lote de atestación más reciente previo a hoy."""
     hoy = _fecha_hoy().isoformat()
-    lotes: list[Path] = sorted(ATTESTATIONS.glob("lote-*.json"))
-    previos = [l for l in lotes if l.stem != f"lote-{hoy}"]
+    lotes: list[Path] = lotes_disponibles()
+    previos = [l for l in lotes if l.stem < f"lote-{hoy}"]
     if not previos:
         return None
     try:
         return json.loads(previos[-1].read_text(encoding="utf-8"))
-    except (json.JSONDecodeError, OSError):
-        return None
+    except (json.JSONDecodeError, OSError) as exc:
+        raise ValueError("lote anterior corrupto: no se rompe la cadena en silencio") from exc
 
 
 def sellar() -> dict:
@@ -98,7 +111,10 @@ def sellar() -> dict:
     lineas = ["archivo\tsha256"]
     for rel in sorted(huellas):
         lineas.append(f"{rel}\t{huellas[rel]}")
-    (ATTESTATIONS / f"lote-{hoy_iso}.tsv").write_text("\n".join(lineas) + "\n", encoding="utf-8")
+    tabla_tsv = "\n".join(lineas) + "\n"
+    (ATTESTATIONS / f"lote-{hoy_iso}.tsv").write_text(tabla_tsv, encoding="utf-8")
+    (RAIZ / "registry").mkdir(exist_ok=True)
+    (RAIZ / "registry/_manifiesto-sha256.tsv").write_text(tabla_tsv, encoding="utf-8")
 
     print(f"atestación lote-{hoy_iso}: {len(lista)} archivos · huella {lote['huella'][:16]}…")
     if huella_anterior:
@@ -108,9 +124,13 @@ def sellar() -> dict:
 
 def verificar() -> int:
     """Verifica que el sello del lote actual coincida con el árbol. Devuelve 0 si OK."""
-    sello_path = ATTESTATIONS / f"lote-{_fecha_hoy().isoformat()}.json"
+    try:
+        sello_path = lote_actual()
+    except (FileNotFoundError, ValueError) as exc:
+        print(str(exc))
+        return 1
     if not sello_path.exists():
-        print(f"no existe el lote de hoy: {sello_path}")
+        print(f"no existe el lote solicitado: {sello_path}")
         return 1
 
     try:
@@ -126,6 +146,18 @@ def verificar() -> int:
         huellas_actuales[rel] = _huella_archivo(p)
 
     tabla_lote = lote.get("tabla", {})
+    if not isinstance(tabla_lote, dict) or not tabla_lote:
+        print("lote sin tabla válida")
+        return 1
+    huella = hashlib.sha256(json.dumps(tabla_lote, sort_keys=True).encode()).hexdigest()
+    if lote.get("huella") != huella or lote.get("archivos") != len(tabla_lote):
+        print("huella global o cuenta del lote inválida")
+        return 1
+    tsv = "archivo\tsha256\n" + "".join(f"{r}\t{tabla_lote[r]}\n" for r in sorted(tabla_lote))
+    for tabla_path in (sello_path.with_suffix(".tsv"), RAIZ / "registry/_manifiesto-sha256.tsv"):
+        if not tabla_path.is_file() or tabla_path.read_text(encoding="utf-8") != tsv:
+            print(f"tabla TSV no corresponde al lote: {tabla_path}")
+            return 1
     alterados = [r for r, h in tabla_lote.items() if huellas_actuales.get(r) != h]
     ausentes = [r for r in tabla_lote if r not in huellas_actuales]
     nuevos = [r for r in huellas_actuales if r not in tabla_lote]
