@@ -259,7 +259,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`acta_conformidad.py`](../tools/acta_conformidad.py) | ACTA DE CONFORMIDAD · genera docs/CONFORMIDAD-MANUAL-<fecha>.md a partir de una corrida real. | 125 |
 | [`alinear.py`](../tools/alinear.py) | ALINEAR · poner en el texto la cifra que la fuente acaba de dar (error E26). | 67 |
 | [`atestacion_verificar.py`](../tools/atestacion_verificar.py) | VERIFICADOR DE LA ATESTACIÓN FIRMADA SIN LLAVE (Sigstore keyless). | 174 |
-| [`atestar.py`](../tools/atestar.py) | ATESTACIÓN · sella el registro con SHA-256 y encadena el lote anterior. | 162 |
+| [`atestar.py`](../tools/atestar.py) | ATESTACIÓN · sella el registro con SHA-256 y encadena el lote anterior. | 194 |
 | [`auditar_issues.py`](../tools/auditar_issues.py) | AUDITORÍA DE ISSUES · escanea los issues y comentarios propios antes de tocar nada. | 121 |
 | [`auditar_tienda.py`](../tools/auditar_tienda.py) | auditar_tienda.py · clonar una tienda de extensiones y leerla como la lee la app. | 450 |
 | [`autoprueba.py`](../tools/autoprueba.py) | AUTOPRUEBA DE LA VARA · una compuerta que no falla ante un fallo sintético no es una compuerta. | 144 |
@@ -322,7 +322,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`registro_construir.py`](../tools/registro_construir.py) | REGISTRO · construye las fichas JSON del activo vendible desde el censo medido. | 133 |
 | [`registro_sqlite.py`](../tools/registro_sqlite.py) | REGISTRO SQLITE · motor de registro basado en SQLite con exportación a JSON. | 317 |
 | [`remedir.py`](../tools/remedir.py) | REMEDIR · la habilidad que nace del error E01–E05 (docs/ERRORES.md). | 282 |
-| [`sello_reglas.py`](../tools/sello_reglas.py) | REGLAS DEL SELLO · en un solo sitio, para que la vara y la atestación no se contradigan. | 78 |
+| [`sello_reglas.py`](../tools/sello_reglas.py) | REGLAS DEL SELLO · en un solo sitio, para que la vara y la atestación no se contradigan. | 81 |
 | [`sitio.py`](../tools/sitio.py) | SITIO · genera el sitio estático de La Bandita desde las piezas y el registro. | 324 |
 | [`skill_framework.py`](../tools/skill_framework.py) | HIPER HABILIDAD · framework de skills ejecutables con estado persistente, contratos, | 1224 |
 | [`swhid.py`](../tools/swhid.py) | SWHID POR REVISIÓN MEDIDA · el código que se midió, citado de forma que no se pueda perder. | 155 |
