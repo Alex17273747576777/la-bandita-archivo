@@ -1,112 +1,56 @@
-# La Bandita — archivo, ley y frontend
+# La Bandita — casa de reglas y archivo medido
 
-*Una casa que verifica antes de recomendar. Todo dato que aparece aquí tiene fecha, método y evidencia; lo que no se pudo medir se publica como hueco declarado, nunca rellenado.*
+*Una casa que verifica antes de recomendar. Todo dato que aparece aquí tiene fecha, método y evidencia; lo que no se pudo medir se declara hueco, nunca se rellena.*
 
-**TL;DR —** este repositorio es un **archivo de divulgación técnica en español** sobre aplicaciones y recursos de código abierto para Android, con **una guía maestra de 70 fichas en 12 capítulos** y **dos series de canal**: Facebook va por la **pieza 40** y WhatsApp por la **6**. Todo lo que declara se puede comprobar con un comando: `make verificar` (diecisiete compuertas, G0 a G17). Si venís con prisa, empezá por `make doctor` y por la tabla de estado de abajo. Si venís a leer, la puerta es `guia-maestra/`. Si venís a auditar, la puerta es `ARQUITECTURA.md`.
-
----
-
-## Antes de nada: una disculpa
-
-Este archivo llegó a tener la raíz con veintinueve entradas, las dos carpetas de canal con **números repetidos** —dos piezas 04 y dos piezas 05 en la misma carpeta— y actas que citaban rutas que ya no existían. Quien abría el repositorio no podía saber qué era presente y qué era memoria, y eso es un fallo de quien lo ordenó, no de quien lo lee.
-
-Se corrigió: el presente quedó en la puerta, el pasado en `ARCHIVO-HISTORICO/` con su fecha y un mapa que traduce las rutas viejas. **Lo ya publicado no se reescribió**: se conserva con sus fallos y se corrige hacia adelante, porque un archivo que se retoca solo es un archivo que no se puede citar. Lo que sigue abierto se declara en [`docs/TAREAS.md`](docs/TAREAS.md), no se esconde.
-
-El 3 de noviembre se dio el segundo paso, que era el que faltaba: **quitar lo inútil**. Salieron once archivos —envases comprimidos cuya copia ya estaba abierta, vistas HTML generadas y dos copias byte por byte— y la carpeta que se llamaba `uploads/` dejó de estar en la raíz. No se borró ni un documento: los cincuenta y tres que había se mudaron a `ARCHIVO-HISTORICO/subidas-2026-09/`, y cada retirada lleva su hash y su motivo en `ARCHIVO-HISTORICO/_podado-2026-11-03/README.md`.
+**TL;DR —** desde el **15 de noviembre de 2026** este repositorio es una **casa de reglas y un entorno de trabajo**: la ley, la medida operativa y las habilidades, más un **archivo medido** (la guía maestra de 70 fichas y un registro de 6.838 fichas con su evidencia cruda). Las series de canal fueron **retiradas** ese mismo día por orden del dueño: la carpeta `Arena-Reimagined/01-PUBLICACIONES/` ya no existe (458 ficheros borrados; el historial git y las actas los conservan). Todo lo que se declara aquí se comprueba con un comando: `make verificar` (registro + sello + compuertas G0 a G17 + autoprueba sintética). Con prisa: `make doctor`. A leer: `guia-maestra/`. A auditar: `ARQUITECTURA.md` y `REGLAS/INDICE-DE-REGLAS.md`.
 
 ---
 
-## La corrección del 8 de noviembre
+## El retiro del 15 de noviembre de 2026
 
-Del 7 al 8 de noviembre la serie de Facebook creyó que Facebook exigía **45.000 caracteres por publicación**. No los exige: era una vara interna de la casa que se convirtió en relleno, y produjo nueve cuerpos hechos con un generador que repetía cinco secciones con el título de la pieza metido a la fuerza en medio. Se detectó, se retiró el relleno a `_reemplazadas-2026-11-08/` y se corrigió la doctrina: la banda es **6.000 a 45.000 caracteres** y **ninguna pieza tiene que acercarse al máximo** —la 40 se publica con 13.532 y es la más corta a propósito—. La pieza 40 se reescribió entera, y se arreglaron además la voz rota que se había publicado a la vista en la 06, la afirmación de la 07 sobre los cinco gigantes —medida otra vez el 8-nov— y el número de pieza equivocado que llevaban las ocho cortas. El detalle, en [`CHANGELOG.md`](CHANGELOG.md) y en el `LEEME-de-la-carpeta.md` del canal.
+Por orden del dueño se **borraron todas las publicaciones**: 458 ficheros rastreables de `Arena-Reimagined/01-PUBLICACIONES/`, carpeta que ya no existe. La constancia vive en el **ADDENDUM DE RETIRO** de `CORAZON-LA-BANDITA.md` y en el **Addendum 3** de `docs/ACTA-RESELLADO-2026-11-14.md`. No se reescribió nada para disimular: lo retirado permanece en el historial git de este repositorio y en las actas históricas. La regla de la casa sigue siendo la misma —lo que se publicó una vez no se retoca— y lo que se retira, se retira con acta fechada.
 
-**Y el 8 de noviembre, más tarde, se pagó la deuda**: las nueve piezas que estaban declaradas «sin medición propia» se midieron de verdad. Cada una tiene su `docs/MEDICION-NN-2026-11-08.json` con los repositorios de su tema, sus entregas, sus adjuntos y **cuántos de esos adjuntos llevan suma de comprobación**; y su comentario fijado se genera desde ese JSON, sin una cifra escrita a mano. Herramienta: `tools/medir_piezas_24_34.py --todas`.
+El sitio generado (`site/`) quedó congelado tal como estaba antes del retiro: es un artefacto histórico, no un producto vivo.
 
-Lo que salió al medir —y que ninguna de esas piezas podía decir antes—: 0 huellas de 173 archivos en las extensiones de anime, 0 de 727 en los lectores de manga, 0 de 3.788 en Mangayomi, 3 de 262 en DropSauce (las pone el proyecto de 235 estrellas), 102 de 1.385 en Kototoro (el récord), `tachiyomiorg/tachiyomi` devuelve **404**, el fork de 294 estrellas se mueve mientras su original de 8.958 lleva 370 días parado, y Kototoro publicó la **v2.4.1 el mismo día de la medición**.
+La casa quedó en **tres capas vivas y un archivo**:
 
-Lo único que sigue corto y sin medición propia es la **36**, y se declara: el cierre de un sitio no se mide con una API pública de repositorios.
-
----
-
-## Estado del archivo, hoy (8 de noviembre de 2026)
-
-| Qué | Dónde | Estado |
+| Capa | Dónde | Qué contiene |
 |---|---|---|
-| **Guía maestra** | `guia-maestra/` | 12 capítulos · **70 fichas** medidas · compuertas en cero fallos |
-| **Serie de Facebook** | `Arena-Reimagined/01-PUBLICACIONES/Facebook-dominicano-ES/` | piezas **01 a 40** con cuerpo y comentario fijado · 40 de 40 cuadradas por `tools/leeme_carpeta.py` · 9 cortas declaradas sin medición propia |
-| **Serie de WhatsApp** | `Arena-Reimagined/01-PUBLICACIONES/WhatsApp-dominicano-ES/` | piezas **01 a 06** con cuerpo escrito · siguiente: **07 · La pantalla grande** (la de Facebook ya está escrita y sirve de base) |
-| **Todo lo anterior** | `_ARCHIVO-HISTORICO/` de cada canal · `ARCHIVO-HISTORICO/` en la raíz | archivado por mes, con su fecha; no se borra, no se retoca |
-| **Registro medido** | `registry/` | **6.737 fichas** en el registro (conteo de archivos al 8-nov) · las cifras de vigencia, en `make verificar` |
-| **Sello** | `registry/_manifiesto-sha256.tsv` · `attestations/` | SHA-256 encadenado + firma sin llave de Sigstore |
-| **Poda del 3-nov** | `ARCHIVO-HISTORICO/_podado-2026-11-03/` | 11 archivos retirados (16,6 MB) y 53 reubicados, con hash y motivo de cada uno |
+| **1 · Ley** | `CORAZON-LA-BANDITA.md` · `CIMIENTOS/` · `PROCESOS/` | Principios, precedencia, criterios obligatorios, manual de estilo; §14 sincronizado con las bandas |
+| **2 · Medida operativa** | `REGLAS/INDICE-DE-REGLAS.md` · `docs/bandas.json` · `Makefile` · `tools/vara.py` · `tools/vara_idiomas.py` | Índice de reglas fechado, presupuesto por canal, compuertas **G0 a G17** y **G20 a G23**, ritual de sellado |
+| **3 · Habilidades** | `SKILLS/` · `Arena-Reimagined/HABILIDADES/` · `ENTORNO-DE-TRABAJO/` | Habilidades ejecutables, entorno con su LEEME de supervivencia, registro de fallas y contraparches, moldes por idioma |
+| **Archivo** | `guia-maestra/` · `registry/` · `ARCHIVO-HISTORICO/` · `attestations/` | 70 fichas medidas en 12 capítulos, 6.838 fichas con payload crudo, la memoria por meses, sellos SHA-256 encadenados |
 
-El mapa completo, con la traducción de rutas antiguas, está en **[`MAPA-DEL-ARCHIVO.md`](MAPA-DEL-ARCHIVO.md)**. El estado pieza por pieza está en el `LEEME-de-la-carpeta.md` de cada canal; la comprobación de todo eso, en `docs/ACTA-ORDEN-Y-VERIFICACION-2026-11-03.md`; el porqué de cada decisión de estructura, en **[`ARQUITECTURA.md`](ARQUITECTURA.md)**.
+**Cambiar una regla cuesta cuatro pasos** (consta en `REGLAS/INDICE-DE-REGLAS.md`): nota fechada en CORAZON, `docs/bandas.json` sincronizado el mismo día, acta y resello si se toca material sellado, y entrada en el índice. No hay atajo.
+
+---
+
+## Estado hoy (15 de noviembre de 2026)
+
+| Qué | Valor del corte | Cómo se comprueba |
+|---|---|---|
+| Compuertas de la casa | `fallos: NINGUNO` | `make verificar` |
+| Banditas por idioma | G20 a G23 sobre los moldes | `python3 tools/vara_idiomas.py` |
+| Fichas del registro | 6.838 válidas | `python3 tools/registro_construir.py --verificar` |
+| Sello | lote del día, huella encadenada a la anterior | `python3 tools/atestar.py --verificar` |
+| Guía maestra | `guia-maestra/` · 12 capítulos · 70 fichas | `make medir-guia` |
+| Publicaciones | **retiradas** el 2026-11-15 | Addendum 3 del acta |
+
+Las cifras del lote vigente (fecha, archivos, huella y huella anterior) se leen de su JSON en `attestations/`: ningún número se escribe a mano donde un archivo puede decirlo.
 
 ---
 
 ## Arranque en tres comandos
 
 ```bash
-make doctor      # ¿está todo en su sitio? cinco bloques y un veredicto
-make verificar   # registro + sello + 17 compuertas + autoprueba → «fallos: NINGUNO»
-make ayuda       # los diecisiete destinos del Makefile, con una línea cada uno
+make doctor      # ¿está todo en su sitio?
+make verificar   # registro + sello + vara (G0-G17) + autoprueba → «fallos: NINGUNO»
+make ayuda       # los destinos del Makefile, con una línea cada uno
 ```
 
-No hace falta instalar nada más que Python 3.11 o superior. El sitio que se genera no usa CDN, ni fuentes externas, ni una sola dependencia de terceros: sale HTML y CSS propios.
+No hace falta nada más que Python 3.11 o superior. Quien abre un turno de trabajo tiene seis reglas de supervivencia en `ENTORNO-DE-TRABAJO/LEEME-DEL-ENTORNO.md` —leer el checkpoint antes de empezar, `/var/tmp` no es persistencia, espejar ediciones el mismo turno, invocar los guiones con `bash`, overlay de sellos con glob completo, y sello local sólo con acta—. Las fallas y sus contraparches tienen registro propio y fechado: `ENTORNO-DE-TRABAJO/FALLAS-Y-CONTRAPARCHES.md`.
 
-**Si querés ver lo que hay antes de leer código:**
-
-```bash
-python3 tools/sitio.py            # escribe site/ — índice, piezas, fichas, RSS
-python3 tools/tareas.py           # escribe docs/TAREAS.md — el tablero de tareas abiertas
-python3 tools/indice_docs.py      # escribe docs/INDICE.md — 51 documentos con su resumen
-python3 tools/vencimiento.py      # escribe docs/VENCIMIENTOS.md — qué ficha está vigente y cuál no
-python3 tools/referencias.py      # ¿alguna carpeta movida sigue citada por su ruta vieja?
-```
-
-**Si sos de los que desconfían de una fecha escrita a mano** —y hacés bien—, ésta es la parte que importa: cada ficha guarda el payload crudo que la mide en `registry/_evidencia/`, con la fecha **dentro del archivo** y su SHA-256 en la ficha. Una ficha no puede declarar un día que su evidencia no respalde: lo comprueba la compuerta **G16**. Se añadió porque pasó lo contrario: 4.186 fichas declaraban estar medidas el 3 de noviembre con una fila del censo del 15 de octubre como única prueba. Está contado en `docs/ACTA-REMEDICION-2026-11-03.md`.
-
-**Si vas a publicar una pieza:**
-
-```bash
-python3 tools/manual_gate.py --pieza "…/06-…md"     # manual v3.0, M01–M23
-python3 tools/novedad_gate.py --corte               # M24–M28, lo que ya se dijo
-make sellar && make verificar                       # sello nuevo y vara completa
-```
-
-Las llaves (`GHP_A`, `PAT_FINO`) viven **fuera del repositorio**, en `~/.boveda/tokens.env` con permisos `600`. Ninguna herramienta las imprime ni las escribe en el árbol, y `make push` rechaza cualquier llave que no empiece por `github_pat_`.
-
----
-
-## Cómo está organizado
-
-Tres capas, y cada una se cambia a distinto ritmo a propósito. El detalle y el coste de cada decisión están en `ARQUITECTURA.md`.
-
-| Capa | Dónde | Qué contiene |
-|---|---|---|
-| **Ley** | `CIMIENTOS/` · `corpus-la-bandita/` · `PROCESOS/` | Principios, precedencia, criterios obligatorios C-01 a C-24, Manual de Estilo y Operaciones V3.0, contrato de datos, raya legal |
-| **Oficio** | `tools/` · `SKILLS/` · `registry/` · `schemas/` | Las **31 herramientas** que miden, comprueban y sellan, las habilidades ejecutables y las fichas medidas con su esquema |
-| **Producto** | `guia-maestra/` · `Arena-Reimagined/01-PUBLICACIONES/` · `site/` | La guía de doce capítulos, las piezas de los dos canales y el sitio generado |
-
-```
-CIMIENTOS/  corpus-la-bandita/  PROCESOS/  SKILLS/  LEGAL/     la ley y el oficio
-tools/                     las 31 herramientas (explicadas en docs/CODIGO.md)
-registry/  schemas/        6.838 fichas medidas y el contrato que las valida
-guia-maestra/              datos · textos · sitio · CREDITOS.md
-Arena-Reimagined/
-  01-PUBLICACIONES/
-    Facebook-dominicano-ES/   5 piezas vivas + LEEME + hash de 135 archivos
-    WhatsApp-dominicano-ES/   5 piezas vivas + LEEME + hash de 112 archivos
-    POSTS-COMUNIDAD/          las historias del muro, que no son piezas de la serie
-docs/                      actas, políticas, bandas, envíos, tableros y este índice
-site/                      el frontend generado, sin CDN ni dependencias
-attestations/              sellos SHA-256 encadenados y firmas de Sigstore
-ARCHIVO-HISTORICO/         la memoria: ocho carpetas de etapas anteriores, con su manifiesto
-```
-
-**Regla de oro del árbol:** el Markdown es la fuente y el HTML es la salida. Nada se corrige en `site/`; se corrige en la pieza y se regenera. Y la regla que decide qué es código y qué es texto: **lo que es dato se genera, lo que es enseñanza se escribe.**
-
-*La memoria del proyecto, en su sitio:* las cinco carpetas de etapas anteriores que vivían al mismo nivel que el presente (`_versiones/`, `packs/`, `_herramientas/`, `_herramientas-casa/`, `_referencia/`) se movieron a `Arena-Reimagined/02-ARCHIVO/_etapas-anteriores/` el 3 de noviembre, con **cero referencias vivas rotas** y una compuerta nueva (G17) que lo sostiene. Lo que se queda donde estaba —las entregas en ZIP y el HTML completo— se queda porque tiene su propio manifiesto de SHA-256 y moverlo rompería los hashes que lo acreditan.
+Las llaves viven **fuera del repositorio**, con permisos `600`. Ninguna herramienta las imprime ni las escribe en el árbol.
 
 ---
 
@@ -115,47 +59,18 @@ ARCHIVO-HISTORICO/         la memoria: ocho carpetas de etapas anteriores, con s
 | Quiero… | Voy a |
 |---|---|
 | Entender cómo está hecho y por qué | [`ARQUITECTURA.md`](ARQUITECTURA.md) |
-| Saber qué hace cada herramienta | [`docs/CODIGO.md`](docs/CODIGO.md) — 31 programas, con «qué no hace» cada uno |
-| Ver qué falta y qué está declarado | [`docs/TAREAS.md`](docs/TAREAS.md) — tablero generado, 12 tareas |
-| Encontrar un documento entre 47 | [`docs/INDICE.md`](docs/INDICE.md) |
+| Ver el índice de reglas y cómo se cambian | [`REGLAS/INDICE-DE-REGLAS.md`](REGLAS/INDICE-DE-REGLAS.md) |
+| Saber qué hace cada herramienta | [`docs/CODIGO.md`](docs/CODIGO.md) |
+| Encontrar la traducción de rutas antiguas | [`MAPA-DEL-ARCHIVO.md`](MAPA-DEL-ARCHIVO.md) |
+| Ver qué falta y qué está declarado | [`docs/TAREAS.md`](docs/TAREAS.md) |
+| Encontrar un documento | [`docs/INDICE.md`](docs/INDICE.md) |
 | Aportar algo | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 | Reportar un fallo de seguridad | [`SECURITY.md`](SECURITY.md) — en privado, 48 h |
 | Saber qué cambió y cuándo | [`CHANGELOG.md`](CHANGELOG.md) |
 | Convivir sin fricción | [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) |
 | Pedir ayuda sin perder tiempo | [`SUPPORT.md`](SUPPORT.md) |
 
-Los archivos de salud comunitaria siguen la práctica estándar de GitHub, las confirmaciones siguen [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/), el registro de cambios sigue [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/) y la licencia por archivo sigue las prácticas de [REUSE](https://reuse.software/) de la FSFE: `reuse lint` sale conforme sobre **13.811 archivos**. Adoptar la convención no es moda: es que otro pueda auditar sin preguntarnos nada.
-
----
-
-## Cómo se trabaja aquí
-
-1. **Medir** con `SKILLS/medir-recurso`: tres lecturas, orden rotado, ventana horaria de Santo Domingo.
-2. **Escribir** con `SKILLS/escribir-pieza`: tandas de contenido real hasta la banda declarada.
-3. **Compuerta** con `SKILLS/compuerta-manual`: M01–M23; rojo no se publica, y una pieza no se «arregla» bajando el umbral.
-4. **Enviar** con `SKILLS/envio-canal`: los envíos se generan y se verifican, no se escriben a mano.
-5. **Sellar y publicar** con `SKILLS/sellar-y-publicar`: acta, atestación, `vara.py`, integración continua y push.
-6. **Reportar** con `SKILLS/informe-al-dueño`: cifras con hora, sin relleno.
-
-El orden no es opcional: cada paso produce la evidencia que el siguiente comprueba. Y ninguna compuerta se aprueba por salir en cero: se aprueba cuando el informe **dice** `fallos: NINGUNO` y ese texto queda en el registro.
-
----
-
-## Los números, y lo que no dicen
-
-| Indicador | Valor del corte | Cómo se comprueba |
-|---|---|---|
-| Archivos sellados | ver el corte del sello | `tools/atestar.py --verificar` |
-| Fichas del registro | 6.838 · 6.560 vigentes · 278 sin objeto · 0 vencidas | `tools/vencimiento.py --json` |
-| Compuertas | **G0 a G17**, ninguna en rojo | `tools/vara.py` |
-| Piezas del archivo | 258 (5 + 5 vivas, el resto en histórico) | G0 |
-| Envíos verificados | 5 + 5, cero fallos | `tools/envio.py --verificar` |
-| Tareas abiertas | 12 | `tools/tareas.py` |
-| Referencias vivas rotas tras la mudanza | 0 de 5 carpetas movidas | `tools/referencias.py` |
-| Dependencias externas del sitio | 0 | `tools/sitio.py` |
-| Paquetes de terceros alojados | 0 | política de la raya legal |
-
-Lo que estos números **no** dicen: que el archivo esté terminado (el ciclo va por la pieza 5 de 14), que la guía no pueda mejorar (sí puede), ni que el método sea el único (es el que se puede repetir, que es lo único exigible). Hay dos deudas congeladas y declaradas en `tools/baseline.json`: una pieza del histórico sin latido y cinco sin novedad medida. Están a la vista porque esconderlas habría sido más caro que decirlas.
+Los archivos de salud comunitaria siguen la práctica estándar de GitHub, las confirmaciones siguen [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/), el registro de cambios sigue [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/) y la licencia por archivo sigue las prácticas de [REUSE](https://reuse.software/) de la FSFE. Adoptar la convención no es moda: es que otro pueda auditar sin preguntarnos nada.
 
 ---
 
@@ -169,8 +84,8 @@ El historial git de una etapa anterior se perdió truncado por límites del ento
 
 | Qué | Licencia | Archivo |
 |---|---|---|
-| Código (`tools/`, servidor MCP, flujos) | MIT | [`LICENSE`](LICENSE) |
-| Contenido editorial (piezas, guía, docs) | CC BY-SA 4.0 | [`LICENSE-CONTENIDO`](LICENSE-CONTENIDO) |
+| Código (`tools/`, flujos) | MIT | [`LICENSE`](LICENSE) |
+| Contenido editorial (guía, docs) | CC BY-SA 4.0 | [`LICENSE-CONTENIDO`](LICENSE-CONTENIDO) |
 | Datos y registro (fichas, censos) | CC BY 4.0 | [`LICENSE-DATOS`](LICENSE-DATOS) |
 | Marca, nombre y sello de verificación | Reservados | [`NOTICE`](NOTICE) |
 

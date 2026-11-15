@@ -120,8 +120,14 @@ def main() -> int:
                 todos_pasan = False
             print(f"  {nombre}: {estado}")
             if salida:
+                # FALLA-007: estas líneas vienen del ÁRBOL FALSO, no de la casa. Sin
+                # etiqueta se leían como un aviso real («README.md:1 · cita a
+                # carpeta-vieja/» costó un turno de cacería de un fallo inexistente
+                # y una nota de «aviso abierto» falsa). La autoprueba sigue igual:
+                # sólo dice de dónde sale lo que muestra.
+                print("    (salida del árbol sintético — no es la casa:)")
                 for linea in salida.splitlines()[:3]:
-                    print(f"    {linea[:100]}")
+                    print(f"    | {linea[:100]}")
 
     print()
     if todos_pasan:

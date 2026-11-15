@@ -66,3 +66,25 @@ sea correcta** (nota vigente de los lotes). La corrección de las mediciones se 
 - `CORAZON-LA-BANDITA.md`: tabla §14 sincronizada con bandas.json + ADDENDUM DE RETIRO.
 - Compuertas de pieza: se retiran hasta nuevo aviso (editarán vara.py tras diagnosticar).
 - Sin push: falta GHP_A. Todo queda local + espejo edt.
+
+### Addendum 4 · README al día, autoprueba etiquetada y empuje
+
+- `README.md` (material sellado): reescrito completo. Describía la casa del 8 de
+  noviembre —series vivas, tabla citando `Arena-Reimagined/01-PUBLICACIONES/`— y
+  contradecía al Addendum 3. Ahora cuenta el presente: casa de reglas y entorno,
+  retiro fechado, capas, compuertas vigentes (G0-G17 en `tools/vara.py`, G20-G23 en
+  `tools/vara_idiomas.py`) y puertas de entrada. Las rutas citadas se verificaron
+  vivas una por una antes de escribirse; la ruta retirada se cita con la fórmula
+  «ya no existe» (cita histórica para `tools/referencias.py`).
+- `CHANGELOG.md`: entrada [3.0.0] — 2026-11-15. Por el criterio de numeración de la
+  casa, romper una ruta publicada sin traducción en el mapa es cambio mayor.
+- `tools/autoprueba.py` (FALLA-007): el eco de la salida sintética queda etiquetado;
+  una línea del árbol falso ya no suplanta un aviso de la casa real.
+- `ENTORNO-DE-TRABAJO/FALLAS-Y-CONTRAPARCHES.md`: sincronizado con las entradas
+  005-008 (005 present_file, 006 llaves, 007 eco sintético, 008 awk END).
+- Segundo resello del 2026-11-15 (`make sellar`): el lote cubre el árbol corregido,
+  con su huella encadenada a la anterior; `make verificar` tras el sello, en el mismo
+  turno: EXIT=0, `fallos: NINGUNO`.
+- **Push ejecutado** (autorización del dueño, 2026-11-15): lo que el Addendum 3 dejó
+  pendiente («Sin push: falta GHP_A») queda hecho; se empujan el retiro, la
+  reestructura y este ajuste, y se verifica la cabeza remota contra la local.

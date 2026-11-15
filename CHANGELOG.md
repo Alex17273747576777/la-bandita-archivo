@@ -6,6 +6,32 @@ Criterio de numeración, para que no sea arbitraria: **menor** cuando cambia una
 
 ---
 
+## [3.0.0] — 2026-11-15
+
+El retiro y la casa de reglas. Por orden del dueño se borraron todas las publicaciones:
+458 ficheros de `Arena-Reimagined/01-PUBLICACIONES/`, carpeta que ya no existe. Por el
+criterio de numeración de este mismo archivo, romper una ruta publicada sin traducción
+en el mapa es cambio **mayor**. El contenido no se reescribió para disimular: vive en el
+historial git y en las actas (Addendum 3 de `docs/ACTA-RESELLADO-2026-11-14.md` y
+ADDENDUM DE RETIRO de `CORAZON-LA-BANDITA.md`).
+
+La casa quedó en tres capas vivas —ley (CORAZON, `CIMIENTOS/`, `PROCESOS/`), medida
+operativa (`REGLAS/INDICE-DE-REGLAS.md`, `docs/bandas.json`, vara G0-G17 y vara_idiomas
+G20-G23) y habilidades (`SKILLS/`, `Arena-Reimagined/HABILIDADES/`,
+`ENTORNO-DE-TRABAJO/`)— más el archivo medido: 70 fichas de la guía maestra, 6.838
+fichas de registro y sellos encadenados.
+
+Del mismo corte:
+
+- `README.md` reescrito: describía la casa del 8 de noviembre y contradecía el retiro.
+- `tools/autoprueba.py`: la salida de la autoprueba sintética queda etiquetada
+  (FALLA-007); se leía como aviso real sobre el README vivo y no lo era.
+- Registro de fallas al día con las entradas 005 a 008
+  (`ENTORNO-DE-TRABAJO/FALLAS-Y-CONTRAPARCHES.md`).
+- Segundo resello del día y empuje del conjunto con autorización del dueño.
+
+---
+
 ## [2.2.0] — 2026-11-08
 
 La deuda de las nueve piezas. Del bloque anterior quedaron nueve piezas cortas declaradas «sin

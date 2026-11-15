@@ -57,6 +57,53 @@ Formato: síntoma → causa → contraparche/habilidad → estado.
 
 ---
 
+## FALLA-005 · present_file entrega el entregable roto al dueño
+
+- **Síntoma:** el visor de entregables llega disfuncional al dueño (iframe aislado, sin
+  red: sin estilos, sin imágenes, sin nada que cargue de fuera).
+- **Causa:** limitación de la plataforma, no del archivo; presentar ahí es entregar roto.
+- **Contraparche / habilidad solucionadora:** prohibido `present_file` para entregables;
+  la ruta se da en el chat y el archivo vive en el espejo persistente.
+- **Estado:** CONTRAPARCHADA (2026-11-15).
+
+## FALLA-006 · Llaves pegadas en el chat y llavero relajado tras reinicio
+
+- **Síntoma:** cuatro llaves de GitHub viajaron en texto plano por el chat; tras un
+  reinicio el llavero `tokens.txt` amaneció en 0644.
+- **Causa:** el chat no es una bóveda y los reinicios relajan permisos (pariente de
+  FALLA-003).
+- **Contraparche / habilidad solucionadora:** llavero en 0600 con las llaves nombradas;
+  nunca imprimirlas ni citarlas. La ROTACIÓN sigue pendiente: sólo el dueño puede crear
+  llaves nuevas (GitHub no expone API para crear PATs).
+- **Estado:** CONTRAPARCHADA A MEDIAS (la rotación depende del dueño).
+
+## FALLA-007 · La salida sintética de la autoprueba se leía como aviso real
+
+- **Síntoma:** `make verificar` imprimía «⚠ rutas vivas rotas: README.md:1 · cita a
+  carpeta-vieja/» y no había tal cita en el README real; de ahí nació una nota de
+  «aviso abierto» falsa que costó un turno de diagnóstico.
+- **Causa:** `tools/autoprueba.py` hace eco de las primeras tres líneas de cada compuerta
+  corriendo contra el ÁRBOL FALSO sin decir de dónde salen; el README del árbol falso
+  cita `carpeta-vieja/` en su línea 1 a propósito.
+- **Contraparche / habilidad solucionadora:** eco etiquetado («salida del árbol
+  sintético — no es la casa») y cada línea prefijada con `|`. La autoprueba sigue
+  detectando el fallo sintético; ya no suplanta a la casa.
+- **Estado:** CONTRAPARCHADA (2026-11-15).
+
+## FALLA-008 · `exit 0` dentro de una regla awk cae al END y voltea el veredicto
+
+- **Síntoma:** una comprobación por lotes («¿está este archivo sellado?») declaró NO
+  sellados a todos, incluido `README.md`, que el grep directo sí encontraba en el
+  manifiesto.
+- **Causa:** `awk '$1==p{exit 0} END{exit 1}'` — en awk, `exit` salta al bloque END, y
+  el `exit 1` del END pisa al 0 de la regla.
+- **Contraparche / habilidad solucionadora:** comprobación con bandera
+  (`$1==p{f=1} END{exit !f}`) o `grep -q "^ruta<TAB>"`; desconfiar de todo `exit` dentro
+  de regla si hay bloque END.
+- **Estado:** CONTRAPARCHADA (2026-11-15).
+
+---
+
 ## Plantilla de entrada nueva
 
 ```
