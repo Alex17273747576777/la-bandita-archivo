@@ -602,5 +602,43 @@
     "max": 4515
    }
   }
+ },
+ "es-dominicano": {
+  "min": 900,
+  "max": 45000,
+  "cuerpo": {
+   "min": 6000,
+   "max": 45000
+  },
+  "derivados": {
+   "nota": "los recortes por plataforma no se bandean: son cortes del maestro; el generador anota su longitud al pie"
+  },
+  "piezas": {
+   "01": {
+    "maestro": "01-La-huella-o-el-silencio-veinte-programas-nacidos-en-los-ultimos-cuatro-meses-ocho-que-firman-y-doce-que-te-piden-fe-es-dominicano-MAESTRO-2026-11-14.md",
+    "cuerpo": 12488,
+    "banda": "OK"
+   }
+  },
+  "_nota": "bandita por idioma creada el 2026-11-14; sustituye la division por red (facebook/whatsapp). Ambas se comparten en Telegram."
+ },
+ "en-ingles": {
+  "min": 900,
+  "max": 45000,
+  "cuerpo": {
+   "min": 6000,
+   "max": 45000
+  },
+  "derivados": {
+   "nota": "los recortes por plataforma no se bandean: son cortes del maestro; el generador anota su longitud al pie"
+  },
+  "piezas": {
+   "01": {
+    "maestro": "01-The-Footprint-or-the-Silence-twenty-programs-born-in-the-last-four-months-eight-that-sign-and-twelve-that-ask-for-faith-en-ingles-MASTER-2026-11-14.md",
+    "cuerpo": 12168,
+    "banda": "OK"
+   }
+  },
+  "_nota": "bandita por idioma creada el 2026-11-14; sustituye la division por red (facebook/whatsapp). Ambas se comparten en Telegram."
  }
 }

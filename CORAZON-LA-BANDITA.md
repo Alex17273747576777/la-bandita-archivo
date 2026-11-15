@@ -516,13 +516,14 @@ Si la firma queda después de las notas, G12 la marca como fallo de posición au
 
 Fechadas, tipadas y en formato `(3-nov) …`. Tipos: **mudanza** (la pieza cambió de corte), **verificación final** (comprobación al cierre del día), **corrección** (qué estaba mal y qué se cambió), **hueco** (qué no se pudo leer y por qué), **pendiente** (qué se hará y cuándo), **método** (por qué una cifra es lo que es). NO DEBEN ser meta-comentarios del proceso de escritura.
 
-## 14. BANDAS DE LONGITUD (operativas, al corte)
+## 14. BANDAS DE LONGITUD (operativas, al corte 2026-11-14, sincronizadas con `docs/bandas.json`)
 
 | Canal | Banda | Comprobación |
 |---|---|---|
-| Facebook | **40.000 – 45.000** caracteres | `docs/bandas.json` + M11 |
-| WhatsApp | **63.000 – 63.099** caracteres | `docs/bandas.json` + M11 |
-| HdP (serie corta) | **1.800 – 3.200** (propuesta) · si HdP vive en `POSTS-COMUNIDAD` manda la banda ya declarada en `bandas.json` —**4.152 exactos** al corte— | M11 con la banda del canal que se declare |
+| es-dominicano (cuerpo maestro) | **6.000 – 45.000** caracteres | `docs/bandas.json` + M11 |
+| en-ingles (cuerpo maestro) | **6.000 – 45.000** caracteres | `docs/bandas.json` + M11 |
+| Derivados por plataforma | no se bandean: son cortes del maestro; el generador anota su longitud al pie | `tools/derivar_plataformas.py` |
+| Facebook / WhatsApp / HdP | **retiradas el 2026-11-15 con las publicaciones**; las bandas 40.000–45.000, 63.000–63.099 y 1.800–3.200 quedan como historial | addendum de retiro (al final de esta ley) |
 
 `bandas.json` DEBE declarar los caracteres **exactos** del archivo copiado, y se actualiza tras cada edición. Una pieza que se sale de banda por tres caracteres no está «casi»: está fuera.
 
@@ -1600,3 +1601,32 @@ La Bandita informa a partir de fuentes fechadas. **Las estrellas adornan; las fe
 ---
 
 *Documento de traspaso compilado el 3 de noviembre de 2026, 08:14 AST; fusionado y cerrado como **documento único** a las 09:20 AST (v4.1). No es pieza del corpus: no se numera, no se publica, no entra al ZIP. Se revisa cuando el corpus cambia o cuando una falla lo exige. Y se lee tres veces antes de tocar nada.*
+
+## NOTA DE REESTRUCTURA — sábado 14 de noviembre de 2026
+
+Las publicaciones se reorganizan **por idioma, no por red**: `01-PUBLICACIONES/es-dominicano/`
+(un maestro adaptable que combina lo mejor de Facebook, WhatsApp e Instagram) y
+`01-PUBLICACIONES/en-ingles/` (Reddit, X y Discord). **Ambas banditas se comparten en Telegram.**
+Los recortes por plataforma los deriva `tools/derivar_plataformas.py` desde el maestro; si un
+canal rompe formato se ajusta el generador, no el texto publicado (l.810). Bandas nuevas en
+`docs/bandas.json` (claves `es-dominicano` y `en-ingles`). Las carpetas por red quedan
+congeladas como historial hasta decisión del dueño sobre su archivo en
+`_ARCHIVO-HISTORICO/_reemplazadas/`. Esta nota **no deroga** el molde (l.1061) ni las bandas:
+las completa. Piezas rehechas desde la 01: las anteriores quedaron horribles por cortas,
+mal formato y sin novedad (G18/G19 medidas en la auditoría del 2026-11-14).
+
+
+
+## ADDENDUM DE RETIRO — noche del sábado 14 de noviembre de 2026 (UTC-4)
+
+Decisión del dueño: **todas las publicaciones se borran** («olvidate de las publicaciones, las
+borraras todas, son basura»). Ejecutado en este corte: `Arena-Reimagined/01-PUBLICACIONES/`
+eliminado (458 ficheros rastreables más los no rastreables de la reestructura por idioma).
+El repositorio pasa a ser **casa de reglas y entorno de trabajo**: `REGLAS/INDICE-DE-REGLAS.md`
+indexa la ley viva; `ENTORNO-DE-TRABAJO/` guarda el registro de fallas, el checkpoint, la
+reaplicación del clon y los moldes medidos. Las compuertas que miden piezas quedan retiradas
+hasta nuevo aviso (informan «SIN PIEZAS» y pasan, no miden aire); `PROCESOS/03-PUBLICACION.md`
+queda como historia. Los moldes (maestra 01 es-dominicano y master 01 en-ingles, medidos en
+vivo contra la API de GitHub y con firma 💓) se conservan en `ENTORNO-DE-TRABAJO/moldes/` como
+ejemplo de pieza buena. Este addendum no deroga el molde ni el método de medición: los
+conserva intactos para cuando las publicaciones renazcan.
