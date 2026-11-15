@@ -75,7 +75,7 @@ Formato: síntoma → causa → contraparche/habilidad → estado.
 - **Contraparche / habilidad solucionadora:** llavero en 0600 con las llaves nombradas;
   nunca imprimirlas ni citarlas. La ROTACIÓN sigue pendiente: sólo el dueño puede crear
   llaves nuevas (GitHub no expone API para crear PATs).
-- **Estado:** CONTRAPARCHADA A MEDIAS (la rotación depende del dueño).
+- **Estado:** CERRADA POR DECISIÓN DEL DUEÑO (2026-11-15): las llaves NO se revocan; siguen vivas a largo plazo y el riesgo de exposición en el historial del chat queda aceptado por el dueño. Siguen las reglas de manejo: llavero 0600, URL de un solo uso, nunca imprimir ni citar las llaves.
 
 ## FALLA-007 · La salida sintética de la autoprueba se leía como aviso real
 
