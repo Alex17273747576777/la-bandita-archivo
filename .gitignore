@@ -12,3 +12,6 @@ paquetes/
 # ruido que no dice nada del contenido. Se regeneran solos.
 docs/.estado-lote.json
 docs/.metricas-lote.json
+
+# temporales de ejecución: nunca versionados (ver docs/POLITICA-DUPLICADOS-Y-DATOS.md §3)
+.tmp/

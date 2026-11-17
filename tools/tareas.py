@@ -90,7 +90,29 @@ def revisar(tareas: list[dict]) -> tuple[list[str], list[str]]:
     return fallos, avisos
 
 
+def tareas_publicadas() -> int:
+    """Cuántas tareas hay en el tablero que ya está escrito. Cero si no existe."""
+    if not SALIDA.exists():
+        return 0
+    return sum(1 for l in SALIDA.read_text(encoding="utf-8").splitlines()
+               if l.startswith("| ") and l[2:5].isdigit())
+
+
 def escribir(tareas: list[dict], fallos: list[str], avisos: list[str]) -> None:
+    # Guarda contra el vaciado. Pasó de verdad el 2026-11-17: en un clon que no tiene las piezas
+    # vivas, esta función escribió un tablero de 0 tareas —borrando las 90 que había— y el aviso
+    # «no hay ninguna tarea declarada» llegó DESPUÉS de escribir, con el fichero ya destruido.
+    # Un generador que no encuentra su materia prima no publica un resultado vacío: se niega.
+    if not tareas:
+        anteriores = tareas_publicadas()
+        if anteriores:
+            raise SystemExit(
+                f"NO se escribe el tablero: {SALIDA.relative_to(RAIZ)} tiene {anteriores} tareas y no "
+                f"apareció ninguna pieza viva en {PUBLICACIONES.relative_to(RAIZ)}. O el clon está "
+                "incompleto o los canales se movieron. Vaciarlo no es cosechar: es perderlo. "
+                "Para regenerarlo de verdad hacen falta las piezas; para dejarlo como está, no "
+                "tocar nada."
+            )
     ids = sorted({t["id"] for t in tareas})
     filas = "\n".join(
         f"| {t['id']:03d} | {t['texto']} | {t['canal']} · {t['pieza'][:2]} | {t['corte']} |"
