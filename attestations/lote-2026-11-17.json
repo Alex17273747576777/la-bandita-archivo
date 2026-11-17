@@ -1,7 +1,7 @@
 {
  "fecha": "2026-11-17",
  "archivos": 14363,
- "huella": "1a50771abaea2f186c5ca754bf52b0d0e1b147f93d6cec579fa75115c3640f2c",
+ "huella": "1e8f8f815128b31b9c745da7e4f1ce872507a4e7e48990b59adf91a43793e1a2",
  "anterior": "af2c5cfb0833f9127762ec36b9a839f751cb8bc4a7224eba966047c09385cea3",
  "tabla": {
   ".github/ISSUE_TEMPLATE/config.yml": "dcf920ae3992f211fdd9f6178d7510821127490416b00d55d7598ed22abdbae9",
@@ -10,7 +10,7 @@
   ".github/ISSUE_TEMPLATE/fallo.md": "b826e8875fe3d98e3d86754649cb6d30ea347612341e5bf9b2c5c1febdb92118",
   ".github/PULL_REQUEST_TEMPLATE.md": "cd6d4e097b58ee840b6406f3612c834393a0b3e994f35576d13218c1463ba634",
   ".github/workflows/pagina.yml": "a20cc4ed703361ed7a1175f4e1110b92953c2808c45cd6aaff93104aa80145d9",
-  ".github/workflows/vara.yml": "15710e3ad6f1910d3cb9dce05f126f26044a8b6d6f90d091e1dbaf7d774875e5",
+  ".github/workflows/vara.yml": "bfb7480866a463d666e2383bc33a10b0286a0e23b873fcd09dcffabd3ee6406d",
   ".reuse/dep5": "55cd54a1292d313c72a67876e8d235e7fbf5246f992993d29723d03749b368c4",
   "ARQUITECTURA.md": "303fa20ad8146d9f061c9fe69c60ecff6d79738fc6815ade45439b132ae70c57",
   "Arena-Reimagined/PROPUESTA-2026-10-31/PROPUESTA-LA-BANDITA-EMPRESA.md": "aad2c31d204b6e69353d4a57b05529932e2ee5d1608a04cc4fe3ff8f9f74ff36",
@@ -167,7 +167,7 @@
   "docs/ESCRUTINIO-2026-11-03.json": "47fe1a7e3a48b42e29771ce05377d7602bbe5caa80a0ed056f95b4ae10997d32",
   "docs/ESCRUTINIO-2026-11-04.json": "bea57de5982e5964d51ec884ee5f1324d0db998a78a6a87ac57772d58db785df",
   "docs/ESCRUTINIO-2026-11-05.json": "f4e81c0b1918ad1538c80d7bd770ec57d9ef2f34657821f456b3b74108af00b0",
-  "docs/FECHA-VIVA.json": "03c5954d0219bd07e3b5d7d96bfaaf2a66fd11217fa7a373ab56a972e5dc5f94",
+  "docs/FECHA-VIVA.json": "1030b2d6c3754770c17f4c6276b9eab63a28a6d7cfce291491e3c04e021e0fb1",
   "docs/FICHA-PROFUNDA-2026-11-03.json": "85aafeca1ef5dc55762bf95e44a79421e1af3e13645bbe8b4a3890d22c0a566d",
   "docs/FRESCO-2026-11-03-movers.json": "7cb85c619a2e2562d282516a589cc5db6780dc9c493c80ba01b56296bc106114",
   "docs/FRESCO-2026-11-03-nuevos.json": "81408789afb7ffcb59e696aeafe46c64ee6b80d7220860687b06df3b632fac38",
