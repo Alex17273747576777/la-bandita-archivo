@@ -84,8 +84,19 @@ jobs:
       - name: Ninguna ruta movida citada por su nombre viejo
         run: python3 tools/referencias.py --peor
 
-      - name: Tablero de tareas al día
-        run: python3 tools/tareas.py --revisar
+      - name: Tablero íntegro (y al día cuando hay piezas)
+        # Las piezas del ciclo vivo (Arena-Reimagined/01-PUBLICACIONES) NO están versionadas, así
+        # que en la CI no se puede comprobar que el tablero les corresponda: se comprueba el
+        # tablero contra sí mismo y el informe declara lo que faltó. tareas.py --revisar lo dice.
+        run: |
+          python3 tools/tareas.py --revisar | tee /tmp/tareas.txt
+          if ! grep -q '^fallos: NINGUNO$' /tmp/tareas.txt; then
+            echo "::error::el tablero no dice 'fallos: NINGUNO' — la línea se detiene"
+            exit 1
+          fi
+          if grep -q 'NO comprobable aquí' /tmp/tareas.txt; then
+            echo "declarado: sin piezas vivas en este clon, la correspondencia tablero-piezas no se comprueba aquí"
+          fi
 
       - name: Índice de documentos generado
         run: |
