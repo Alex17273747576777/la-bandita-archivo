@@ -85,7 +85,17 @@ censo:  ## Cuenta un tema del registro con palabras declaradas (H10). Uso: make 
 alinear:  ## Pone en la pieza ★N de la medición, línea por línea (H09). Uso: make alinear PIEZA=... MEDICION=...
 	@$(PY) tools/alinear.py --pieza "$(PIEZA)" --medicion "$(MEDICION)" --aplicar
 
-libro:  tareas indice  ## Los documentos derivados: tareas e índice
+# Los dos derivados, uno detrás del otro, y el primero NO bloquea al segundo.
+# Antes era `libro: tareas indice`, o sea prerrequisitos en cadena: cuando `tareas` se negaba a
+# escribir el tablero —que es lo correcto si no hay piezas vivas—, make abortaba el objetivo y
+# `indice_docs.py` no llegaba a correr nunca. docs/INDICE.md se quedó desfasado en 163 documentos
+# y 76 herramientas contra los 165 y 78 de verdad, y el paso de la CI que lo vigila llevaba rojo
+# desde entonces sin que nadie lo viera: la corrida se detenía un paso antes. La instrucción que
+# da ese paso («corré 'make libro'») no arreglaba nada, porque make libro era justo lo que no
+# llegaba al índice.
+libro:  ## Los documentos derivados: tablero e índice
+	-@$(MAKE) --no-print-directory tareas
+	@$(MAKE) --no-print-directory indice
 
 novedad:  ## Encuentra lo nuevo, lo recién publicado y lo desconocido del registro
 	@$(PY) tools/novedad.py --joyas 25 --min-calidad 0.6

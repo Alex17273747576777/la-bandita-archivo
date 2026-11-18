@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 163 documentos en `docs/`, agrupados en 19 familias, y 76 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 165 documentos en `docs/`, agrupados en 19 familias, y 78 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -50,6 +50,7 @@
 | [`ACTA-REINICIO-CICLO-2026-11-02.md`](ACTA-REINICIO-CICLO-2026-11-02.md) | Acta de reinicio del ciclo de publicaciones · 2 de noviembre de 2026 | Una pieza publicada es evidencia: se midió, se gateó y salió a la calle. | 87 |
 | [`ACTA-REMEDICION-2026-11-03.md`](ACTA-REMEDICION-2026-11-03.md) | ACTA · la memoria a su sitio y el registro remedido | La regla que decide el destino es la misma que ya ordenaba la raíz: **el presente en la puerta, la memoria con su fecha.** `02-ARCHIVO/` ya era la… | 113 |
 | [`ACTA-REMEDICION-ECOSISTEMA-2026-11-04.md`](ACTA-REMEDICION-ECOSISTEMA-2026-11-04.md) | Acta de la remedición del ecosistema · 4 de noviembre de 2026 | Cada pieza tiene su archivo de medición con fecha **y hora**: `docs/MEDICION-0X-2026-11-04.json`. | 73 |
+| [`ACTA-RESELLADO-2026-11-14.md`](ACTA-RESELLADO-2026-11-14.md) | ACTA DE RESELLADO — 2026-11-14 | Reestructura por idioma de las publicaciones (decisión del dueño, 2026-11-14) y rehacer la pieza 01 desde cero como modelo. | 91 |
 ### Barridos · barridos de error
 
 | Documento | Título | De qué va | Líneas |
@@ -225,6 +226,7 @@
 
 | Documento | Título | De qué va | Líneas |
 |---|---|---|---|
+| [`POLITICA-DUPLICADOS-Y-DATOS.md`](POLITICA-DUPLICADOS-Y-DATOS.md) | Política de duplicados, cachés y datos versionados | La incidencia hablaba de **742 copias adicionales y 12.691.251 bytes** sobre el snapshot `8bef36307d6c19661a6b4cbf0db8cf3b50702b08`. | 131 |
 | [`POLITICA-DUPLICADOS.md`](POLITICA-DUPLICADOS.md) | POLÍTICA DE DUPLICADOS · medida, no borrada | La duplicación es el mayor pasivo técnico del archivo y el más fácil de detener: basta con no crear el siguiente. | 47 |
 | [`POLITICA-ETIQUETAS.md`](POLITICA-ETIQUETAS.md) | Política de etiquetas estratégicas · «#pings» | Esta política convierte esa decisión en una regla medible. | 65 |
 | [`POLITICA-MCP.md`](POLITICA-MCP.md) | POLÍTICA MCP · lista blanca, permisos mínimos, solo lectura | Decidido el 31 de octubre de 2026, antes de conectar nada. | 32 |
@@ -262,7 +264,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`atestar.py`](../tools/atestar.py) | ATESTACIÓN · sella el registro con SHA-256 y encadena el lote anterior. | 194 |
 | [`auditar_issues.py`](../tools/auditar_issues.py) | AUDITORÍA DE ISSUES · escanea los issues y comentarios propios antes de tocar nada. | 121 |
 | [`auditar_tienda.py`](../tools/auditar_tienda.py) | auditar_tienda.py · clonar una tienda de extensiones y leerla como la lee la app. | 450 |
-| [`autoprueba.py`](../tools/autoprueba.py) | AUTOPRUEBA DE LA VARA · una compuerta que no falla ante un fallo sintético no es una compuerta. | 144 |
+| [`autoprueba.py`](../tools/autoprueba.py) | AUTOPRUEBA DE LA VARA · una compuerta que no falla ante un fallo sintético no es una compuerta. | 150 |
 | [`bandas.py`](../tools/bandas.py) | Cuadra docs/bandas.json contra los archivos que existen de verdad. | 124 |
 | [`catalogo_ficha.py`](../tools/catalogo_ficha.py) | catalogo_ficha.py · escribe o actualiza la ficha de cada recurso medido. | 244 |
 | [`catalogo_lint.py`](../tools/catalogo_lint.py) | catalogo_lint.py · revisa las fichas del catálogo y dice cuáles se sostienen. | 171 |
@@ -274,6 +276,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`cola.py`](../tools/cola.py) | COLA · el trabajo largo se hace en tramos cortos y se reanuda solo. | 202 |
 | [`coteja.py`](../tools/coteja.py) | COTEJO · comprueba que cada cifra de una pieza exista de verdad en su medición. | 287 |
 | [`cuadre.py`](../tools/cuadre.py) | CUADRE · convierte un JSON de medición en prosa con los números escritos por código. | 115 |
+| [`derivar_plataformas.py`](../tools/derivar_plataformas.py) | (sin docstring) | 128 |
 | [`descubrir.py`](../tools/descubrir.py) | DESCUBRIR · extrae repositorios de una fuente y los cruza contra el registro. | 105 |
 | [`diseno.py`](../tools/diseno.py) | DISEÑO · el sistema visual de la casa, en un solo sitio. | 477 |
 | [`doctor.py`](../tools/doctor.py) | DOCTOR · el primer comando que se corre en una máquina nueva, y el último antes de publicar. | 184 |
@@ -327,9 +330,10 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`skill_framework.py`](../tools/skill_framework.py) | HIPER HABILIDAD · framework de skills ejecutables con estado persistente, contratos, | 1224 |
 | [`swhid.py`](../tools/swhid.py) | SWHID POR REVISIÓN MEDIDA · el código que se midió, citado de forma que no se pueda perder. | 155 |
 | [`sync_fuentes.py`](../tools/sync_fuentes.py) | sync_fuentes.py · pone al día los créditos y las versiones de lo que la biblioteca cita. | 104 |
-| [`tareas.py`](../tools/tareas.py) | TAREAS · el extractor del archivo: de las piezas al tablero, sin copiar a mano. | 163 |
+| [`tareas.py`](../tools/tareas.py) | TAREAS · el extractor del archivo: de las piezas al tablero, sin copiar a mano. | 326 |
 | [`tres_lecturas.py`](../tools/tres_lecturas.py) | TRES LECTURAS · la misma medición, tres veces y por tres caminos distintos. | 303 |
 | [`vara.py`](../tools/vara.py) | LA VARA · las diecisiete compuertas de la casa, ejecutables en un solo comando. | 647 |
+| [`vara_idiomas.py`](../tools/vara_idiomas.py) | (sin docstring) | 81 |
 | [`vencimiento.py`](../tools/vencimiento.py) | VENCIMIENTO · qué ficha sigue vigente, cuál está por vencer y cuál hay que volver a medir. | 299 |
 | [`web.py`](../tools/web.py) | WEB · arma la página pública del archivo, en un solo archivo, sin nada externo. | 273 |
 
