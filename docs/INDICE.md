@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 165 documentos en `docs/`, agrupados en 19 familias, y 78 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 167 documentos en `docs/`, agrupados en 19 familias, y 79 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -18,6 +18,7 @@
 | [`ACTA-DUPLICADOS-Y-RECURSOS-2026-11-01.md`](ACTA-DUPLICADOS-Y-RECURSOS-2026-11-01.md) | Acta — duplicados retirados y recursos nuevos | Regla aplicada: **la serie nueva (2026-10-31 en adelante) es la canónica** para cada número. | 45 |
 | [`ACTA-ESCRUTINIO-2026-11-03.md`](ACTA-ESCRUTINIO-2026-11-03.md) | Acta del escrutinio · 3 de noviembre de 2026 | La primera corrida pedía las entregas dentro de una consulta agrupada de veinte repositorios por llamada. | 43 |
 | [`ACTA-ETIQUETAS-2026-11-04.md`](ACTA-ETIQUETAS-2026-11-04.md) | Acta de etiquetas estratégicas · 4 de noviembre de 2026 | Regla 7 aplicada: 01 y 04 comparten dos (#OmniShizuku, #Droynis), que es el máximo permitido y está justificado porque la 04 vuelve a medirlos. 02 y… | 49 |
+| [`ACTA-FEYNMAN-2026-11-21.md`](ACTA-FEYNMAN-2026-11-21.md) | Acta de incorporación del Método de Richard Feynman — 21 de noviembre de 2026 | Por instrucción directa del dueño, el **método de enseñanza de Richard Feynman** en sus **cuatro pasos completos** (selección y estudio en fuente… | 17 |
 | [`ACTA-INTEGRACION-LOCAL-2026-11-02.md`](ACTA-INTEGRACION-LOCAL-2026-11-02.md) | Acta de integración de documentos locales · 2 de noviembre de 2026 | El contenido **no se editó**: entran byte por byte como se escribieron. | 53 |
 | [`ACTA-LIMPIEZA-2026-11-02.md`](ACTA-LIMPIEZA-2026-11-02.md) | Acta de limpieza · 2 de noviembre de 2026 | Si hace falta otra vez el paquete de septiembre, se **regenera** desde el árbol en lugar de recuperar el ZIP: es más honesto y no arrastra el riesgo… | 81 |
 | [`ACTA-LIMPIEZA-2026-11-09.md`](ACTA-LIMPIEZA-2026-11-09.md) | ACTA DE LIMPIEZA · 9 de noviembre de 2026 | Ese archivo está **ignorado hoy** (`.gitignore` ya excluye `paquetes/` y `*.bundle`) pero vive en la historia. | 55 |
@@ -126,6 +127,7 @@
 | [`LOTE-18-recursos-2026-11-04.md`](LOTE-18-recursos-2026-11-04.md) | LOTE 18 recursos 2026 11 04 | — sin primera oración con cuerpo — | 49 |
 | [`LOTE-19-recursos-2026-11-05.md`](LOTE-19-recursos-2026-11-05.md) | LOTE 19 recursos 2026 11 05 | — sin primera oración con cuerpo — | 33 |
 | [`MAPA-125-FACEBOOK.md`](MAPA-125-FACEBOOK.md) | MAPA DE LAS 125 PIEZAS DE FACEBOOK · propuesta para aprobación | Cada línea es una pieza: **número · título · el gancho** —la tensión medida que la justifica, no un adjetivo— y **la materia prima**, que son… | 317 |
+| [`METODO-FEYNMAN-OBLIGATORIO.md`](METODO-FEYNMAN-OBLIGATORIO.md) | Método de Richard Feynman obligatorio en La Bandita | Para cada tarea, lista de textos, análisis de datos o recurso recomendado, se aplica el **ciclo completo de cuatro pasos** desarrollado por **Richard… | 53 |
 | [`REGLA-DE-ALMACENAMIENTO-2026-11-04.md`](REGLA-DE-ALMACENAMIENTO-2026-11-04.md) | Regla del dueño · el almacén es GitHub y la revisión va antes | LBT=… python3 tools/preflight.py --tema descarga      # fecha + historial + ecosistema, en ese orden | 47 |
 | [`REPARTO-40-PIEZAS-2026-11-09.md`](REPARTO-40-PIEZAS-2026-11-09.md) | Reparto de las 40 piezas · recursos nuevos (P07) | Los temas **no se inventan**: salen de las secciones reales de fmhy.net (74 secciones en `/mobile`, y las de `/system-tools`, `/file-tools`,… | 68 |
 | [`RESPUESTA-ISSUE-7162-nbats.md`](RESPUESTA-ISSUE-7162-nbats.md) | RESPUESTA ISSUE 7162 nbats | Fair question — I should have been clearer. **Not a new section.** Here's what I'd actually suggest, based on how you already do it: | 82 |
@@ -287,6 +289,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`extraer_fresco.py`](../tools/extraer_fresco.py) | EXTRACCIÓN FRESCA · lo que existe hoy, medido hoy, con el reloj puesto. | 218 |
 | [`fecha_casa.py`](../tools/fecha_casa.py) | FECHA DE LA CASA · una sola fuente de verdad para el día. | 117 |
 | [`fecha_viva.py`](../tools/fecha_viva.py) | FECHA VIVA · la fecha se lee en vivo al empezar y al terminar, no se recuerda. | 209 |
+| [`feynman_verificar.py`](../tools/feynman_verificar.py) | FEYNMAN · comprueba que las reglas, textos guía y los 12 capítulos cumplen los 4 pasos. | 79 |
 | [`ficha_profunda.py`](../tools/ficha_profunda.py) | FICHA PROFUNDA · lo que hay que abrir antes de recomendar algo. | 195 |
 | [`fijados.py`](../tools/fijados.py) | FIJADOS · genera el comentario fijado de cada pieza desde su medición. | 199 |
 | [`firma_literal.py`](../tools/firma_literal.py) | TESTIGO DE FIRMA · comprueba lo que M01 no puede comprobar con una regex. | 114 |

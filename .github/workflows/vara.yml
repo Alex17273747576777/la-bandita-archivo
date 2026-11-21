@@ -61,6 +61,11 @@ jobs:
       - name: Regresiones de integridad
         run: python3 -m unittest discover -s tests -p test_atestar_integridad.py -v
 
+      - name: Norma obligatoria Richard Feynman (4 pasos completos)
+        run: |
+          python3 -m unittest discover -s tests -p test_feynman.py -v
+          python3 tools/feynman_verificar.py
+
       - name: Registro al día
         run: python3 tools/registro_construir.py --verificar
 

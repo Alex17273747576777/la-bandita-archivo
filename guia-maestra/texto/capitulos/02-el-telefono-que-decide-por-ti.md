@@ -71,3 +71,10 @@ No desinstalar con root lo que se puede quitar para el usuario: se pierde la vue
 ## Las cinco fichas
 
 Cuatro funcionan desde el teléfono y una desde la computadora. La primera es la que recomiendo a cualquiera que empiece; la segunda es la que recomiendo a quien tenga miedo de romper algo, porque congela en lugar de borrar; la tercera es la que enseña más aunque exija cable; la cuarta es un taller de bolsillo para quien ya sabe; y la quinta explica, más que limpia, y por eso su nota es baja y su utilidad es alta.
+
+## Método Richard Feynman (4 pasos obligatorios)
+
+1. **Seleccionar y estudiar el concepto:** desinstalación para el usuario actual frente a congelación (*disable*) de aplicaciones preinstaladas del sistema, estudiado en las cinco fichas (`Canta`, `Hail`, `Universal Android Debloater NG`, `Uraam`, `App Manager NG`).
+2. **Enseñarlo con palabras simples:** en Android casi ninguna app de fábrica se borra del disco duro si no tienes permiso total (*root*); cuando «la quitas» con estas herramientas, en realidad le dices al teléfono «escóndela y no la arranques para mi usuario». Si congelas una pieza importante y el teléfono falla, puedes volver a encenderla sin reinstalar todo el sistema.
+3. **Identificar lagunas y volver a la fuente original:** la laguna habitual es creer que desactivar una aplicación libera espacio real en la partición del sistema o que borrar sin leer qué hace el paquete no rompe llamadas ni notificaciones. Vuelve al dato de oficio y al campo `deshacer` de `UAD-NG` y `Hail` para comprobar el comando exacto de reactivación (`pm install-existing` / `enable`).
+4. **Simplificar y revisar con analogías:** *analogía del interruptor y la pared:* congelar una aplicación es bajar el interruptor de un cuarto para que no gaste luz ni haga ruido; desinstalarla para tu usuario es tapar la puerta con un armario, pero la habitación sigue detrás de la pared lista para volver a abrirse si te equivocaste. (*Límite:* si desactivas servicios esenciales como el teclado o el gestor de paquetes sin alternativa, necesitarás ADB por cable para revertirlo).

@@ -35,7 +35,10 @@ a{color:var(--acento)}
 2. <strong>El registro crece.</strong> Abrí la aplicación que configuraste y mirá si hay consultas nuevas con la hora de ahora.
 3. <strong>La prueba del sitio de anuncios.</strong> Abrí una página con anuncios conocidos: si carga igual que antes, el bloqueo no está pasando por ahí.
 4. <strong>La prueba de la aplicación propia.</strong> Abrí una aplicación que sepas que se conecta a un servicio legítimo y comprobá que sigue funcionando: si se rompió, bloqueaste de más.
-5. <strong>La prueba del reinicio.</strong> Reiniciá el teléfono y repetí las cuatro anteriores. Media docena de configuraciones de privacidad fallan justo acá, porque la aplicación no vuelve a levantar el túnel sola.</p><h2>Tres errores que se pagan</h2><p><strong>Bloquear todo de entrada.</strong> El teléfono deja de recibir notificaciones, las compras dentro de aplicaciones fallan, los mapas no cargan. La regla es la inversa: primero dejar pasar todo y observar una semana; después bloquear por categoría; al final, por aplicación.</p><p><strong>Bloquear el sistema.</strong> Los servicios del sistema —actualizaciones, respaldo, mensajería del fabricante— también hacen conexiones. Algunos son prescindibles; otros sostienen el aparato. La lista de lo que se puede cortar sin consecuencias cambia por fabricante y por versión, así que ninguna guía seria, incluida esta, puede darte una lista fija.</p><p><strong>Confundir el bloqueo con el anonimato.</strong> Cortar la telemetría de una aplicación no cambia lo que esa aplicación ya sabe de ti por dentro: tu cuenta, tu número, tu lista de contactos. Eso se resuelve con permisos y con decisiones, no con un túnel.</p><h2>Cuatro cosas que se dicen y no son verdad</h2><p><strong>«Un bloqueador de anuncios te hace anónimo».</strong> Bloquea nombres conocidos. No cambia tu dirección de red, no te esconde del servidor con el que hablás y no borra lo que las aplicaciones ya guardaron en el teléfono.</p><p><strong>«Más listas, mejor bloqueo».</strong> Las listas se pisan entre sí y una lista agresiva rompe funciones. Cinco listas bien elegidas superan a treinta acumuladas.</p><p><strong>«Con root es mejor».</strong> Root permite cortar por debajo, sin túnel y sin que las aplicaciones lo noten, y eso es una ventaja real. Pero también rompe la garantía, expone el aparato y hace que un error sea mucho más caro. Para el uso normal, el túnel alcanza.</p><p><strong>«Si es de código abierto, no envía datos».</strong> Lo que garantiza el código abierto es que <strong>se puede comprobar</strong>, no que no ocurra. Esta guía tiene una ficha entera —TrackerControl— dedicada justamente a comprobarlo, y una —PCAPdroid— dedicada a demostrarlo.</p><h2>Las dos cifras que muestran cómo se mide esta categoría</h2><p>Un ejemplo de lo que se aprende midiendo en vez de repitiendo.</p><p>Rethink, en su propio archivo de presentación, publica <strong>tres huellas de certificado distintas</strong>: una para el sabor que distribuye en la tienda de Google y en su sitio, otra para el sabor que distribuye IzzyOnDroid y otra para el sabor alfa que compila GitHub. Es la misma aplicación, con tres firmantes legítimos, según el canal. Es exactamente el dato del capítulo 4 visto desde dentro de un proyecto que lo hace bien: no hay una firma «verdadera», hay canales, y saber cuál tenés instalado es parte de usar el aparato con criterio.</p><p>El otro ejemplo es AdAway. Tiene nueve mil quinientas noventa y dos estrellas, la cifra más alta de las seis fichas de este capítulo, y su última entrega publicada es de octubre de 2024, mientras el código se sigue moviendo en septiembre de 2026. La aplicación funciona y el modo de bloqueo por lista no caduca; lo que caduca es la lista. Un proyecto puede estar vivo en el código y quieto en las entregas, y las dos cosas dicen algo distinto.</p><h2>Antes de irte: la prueba de las dos personas</h2><p>Dale este capítulo a alguien que nunca instaló un bloqueador: si consigue que TrackerControl le muestre, en un día, al menos una empresa de seguimiento en una aplicación que usa todos los días, y sabe explicar qué significa lo que vio, el capítulo sirve.</p><p>Y dalo a alguien que lleva años con esto: si no encuentra al menos un dato que no supiera —que sólo puede haber un túnel activo y por eso los bloqueadores se pelean con la VPN, que el encubrimiento de DNS es una técnica y una señal a la vez, que <code>private_dns_mode</code> dice en una línea si el cifrado está puesto, que la misma aplicación tiene tres certificados según el canal—, el capítulo no sirve y hay que reescribirlo.</p><h2>Las seis fichas</h2><p>Las que siguen están ordenadas como el capítulo: primero ver, después cortar, después cifrar, después registrar, después demostrar. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando. Todas se midieron el 3 de noviembre de 2026 abriendo sus entregas y su código, no repitiendo lo que dice un catálogo.</p>
+5. <strong>La prueba del reinicio.</strong> Reiniciá el teléfono y repetí las cuatro anteriores. Media docena de configuraciones de privacidad fallan justo acá, porque la aplicación no vuelve a levantar el túnel sola.</p><h2>Tres errores que se pagan</h2><p><strong>Bloquear todo de entrada.</strong> El teléfono deja de recibir notificaciones, las compras dentro de aplicaciones fallan, los mapas no cargan. La regla es la inversa: primero dejar pasar todo y observar una semana; después bloquear por categoría; al final, por aplicación.</p><p><strong>Bloquear el sistema.</strong> Los servicios del sistema —actualizaciones, respaldo, mensajería del fabricante— también hacen conexiones. Algunos son prescindibles; otros sostienen el aparato. La lista de lo que se puede cortar sin consecuencias cambia por fabricante y por versión, así que ninguna guía seria, incluida esta, puede darte una lista fija.</p><p><strong>Confundir el bloqueo con el anonimato.</strong> Cortar la telemetría de una aplicación no cambia lo que esa aplicación ya sabe de ti por dentro: tu cuenta, tu número, tu lista de contactos. Eso se resuelve con permisos y con decisiones, no con un túnel.</p><h2>Cuatro cosas que se dicen y no son verdad</h2><p><strong>«Un bloqueador de anuncios te hace anónimo».</strong> Bloquea nombres conocidos. No cambia tu dirección de red, no te esconde del servidor con el que hablás y no borra lo que las aplicaciones ya guardaron en el teléfono.</p><p><strong>«Más listas, mejor bloqueo».</strong> Las listas se pisan entre sí y una lista agresiva rompe funciones. Cinco listas bien elegidas superan a treinta acumuladas.</p><p><strong>«Con root es mejor».</strong> Root permite cortar por debajo, sin túnel y sin que las aplicaciones lo noten, y eso es una ventaja real. Pero también rompe la garantía, expone el aparato y hace que un error sea mucho más caro. Para el uso normal, el túnel alcanza.</p><p><strong>«Si es de código abierto, no envía datos».</strong> Lo que garantiza el código abierto es que <strong>se puede comprobar</strong>, no que no ocurra. Esta guía tiene una ficha entera —TrackerControl— dedicada justamente a comprobarlo, y una —PCAPdroid— dedicada a demostrarlo.</p><h2>Las dos cifras que muestran cómo se mide esta categoría</h2><p>Un ejemplo de lo que se aprende midiendo en vez de repitiendo.</p><p>Rethink, en su propio archivo de presentación, publica <strong>tres huellas de certificado distintas</strong>: una para el sabor que distribuye en la tienda de Google y en su sitio, otra para el sabor que distribuye IzzyOnDroid y otra para el sabor alfa que compila GitHub. Es la misma aplicación, con tres firmantes legítimos, según el canal. Es exactamente el dato del capítulo 4 visto desde dentro de un proyecto que lo hace bien: no hay una firma «verdadera», hay canales, y saber cuál tenés instalado es parte de usar el aparato con criterio.</p><p>El otro ejemplo es AdAway. Tiene nueve mil quinientas noventa y dos estrellas, la cifra más alta de las seis fichas de este capítulo, y su última entrega publicada es de octubre de 2024, mientras el código se sigue moviendo en septiembre de 2026. La aplicación funciona y el modo de bloqueo por lista no caduca; lo que caduca es la lista. Un proyecto puede estar vivo en el código y quieto en las entregas, y las dos cosas dicen algo distinto.</p><h2>Antes de irte: la prueba de las dos personas</h2><p>Dale este capítulo a alguien que nunca instaló un bloqueador: si consigue que TrackerControl le muestre, en un día, al menos una empresa de seguimiento en una aplicación que usa todos los días, y sabe explicar qué significa lo que vio, el capítulo sirve.</p><p>Y dalo a alguien que lleva años con esto: si no encuentra al menos un dato que no supiera —que sólo puede haber un túnel activo y por eso los bloqueadores se pelean con la VPN, que el encubrimiento de DNS es una técnica y una señal a la vez, que <code>private_dns_mode</code> dice en una línea si el cifrado está puesto, que la misma aplicación tiene tres certificados según el canal—, el capítulo no sirve y hay que reescribirlo.</p><h2>Las seis fichas</h2><p>Las que siguen están ordenadas como el capítulo: primero ver, después cortar, después cifrar, después registrar, después demostrar. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando. Todas se midieron el 3 de noviembre de 2026 abriendo sus entregas y su código, no repitiendo lo que dice un catálogo.</p><h2>Método Richard Feynman (4 pasos obligatorios)</h2><p>1. <strong>Seleccionar y estudiar el concepto:</strong> observación y bloqueo local de conexiones salientes mediante el servicio VPN local de Android, frente a inspección pasiva de paquetes (<code>TrackerControl</code>, <code>AdAway</code>, <code>Rethink</code>, <code>personalDNSfilter</code>, <code>NetGuard</code>, <code>PCAPdroid</code>).
+2. <strong>Enseñarlo con palabras simples:</strong> las aplicaciones suelen mandar avisos a servidores externos sin preguntarte. Sin necesidad de root, estas herramientas crean una garita de control dentro del propio teléfono: todo el tráfico pasa por esa puerta local y puedes mirar quién llama hacia fuera y cerrar el paso a los rastreadores que no necesites.
+3. <strong>Identificar lagunas y volver a la fuente original:</strong> la laguna clásica es pensar que puedes usar a la vez un cortafuegos VPN local y una VPN comercial externa (Android solo permite una interfaz <code>VpnService</code> activa por usuario), o creer que bloquear DNS oculta tu dirección IP al servidor al que sí te conectas. Regresa a las fichas de <code>Rethink</code>, <code>NetGuard</code> y <code>PCAPdroid</code> para distinguir bloqueo por dominio, bloqueo por socket y captura de paquetes.
+4. <strong>Simplificar y revisar con analogías:</strong> *analogía de la centralita telefónica privada:* un cortafuegos por <code>VpnService</code> funciona como una recepcionista en tu propia oficina que revisa a qué números llaman tus empleados antes de sacar la llamada; corta las llamadas a anunciantes, pero solo hay una silla de recepcionista por oficina y no cambia el remitente cuando decides dejar pasar una llamada hacia fuera. (*Límite:* las conexiones cifradas con TLS muestran a qué servidor hablan, no siempre el contenido interno sin inspección explícita).</p>
 <h2>Las 6 fichas del capítulo</h2>
 
 <article class="ficha">
@@ -43,8 +46,8 @@ a{color:var(--acento)}
   <p class="meta">
     <span class="sello n0">principiante</span>
     &nbsp;nota <strong>75/100</strong> ·
-    ★2,720 · 2551 días · última entrega 2026-11-01 ·
-    103,439 descargas en 10 entregas · 15 personas ·
+    ★2,721 · 2551 días · última entrega 2026-11-01 ·
+    103,534 descargas en 10 entregas · 15 personas ·
     5 flujos de compilación · incidencias 3 abiertas.
   </p>
   <p>Ver con tus ojos con qué empresas habla cada aplicación del teléfono, saber para qué dice hacerlo y cortarle el paso a las que no te convienen.</p>
@@ -89,7 +92,7 @@ a{color:var(--acento)}
     <span class="sello n0">principiante</span>
     &nbsp;nota <strong>42/100</strong> ·
     ★9,593 · 5225 días · última entrega 2024-10-27 ·
-    1,646,434 descargas en 10 entregas · 50 personas ·
+    1,646,610 descargas en 10 entregas · 50 personas ·
     5 flujos de compilación · incidencias 662 abiertas.
   </p>
   <p>Quitar los anuncios y buena parte del seguimiento de todo el teléfono con una lista de nombres, sin configurar reglas y sin tocar ninguna aplicación.</p>
@@ -133,8 +136,8 @@ a{color:var(--acento)}
   <p class="meta">
     <span class="sello n1">intermedio</span>
     &nbsp;nota <strong>62/100</strong> ·
-    ★5,844 · 2340 días · última entrega 2026-10-13 ·
-    147,262 descargas en 10 entregas · 100 personas ·
+    ★5,845 · 2340 días · última entrega 2026-10-13 ·
+    147,318 descargas en 10 entregas · 100 personas ·
     5 flujos de compilación · incidencias 649 abiertas.
   </p>
   <p>Tener en una sola aplicación el resolutor de nombres cifrado, las listas de bloqueo y las reglas por aplicación que deciden qué puede salir a internet y cuándo.</p>
@@ -179,7 +182,7 @@ a{color:var(--acento)}
     <span class="sello n1">intermedio</span>
     &nbsp;nota <strong>47/100</strong> ·
     ★952 · 3149 días · última entrega 2026-10-18 ·
-    13,237 descargas en 10 entregas · 16 personas ·
+    13,246 descargas en 10 entregas · 16 personas ·
     0 flujos de compilación · incidencias 66 abiertas.
   </p>
   <p>Filtrar consultas de nombres en el teléfono y, si querés, en toda la casa, con registro de cada consulta y con la posibilidad de usar el propio teléfono como servidor de nombres.</p>
@@ -224,7 +227,7 @@ a{color:var(--acento)}
     <span class="sello n2">experto</span>
     &nbsp;nota <strong>25/100</strong> ·
     ★3,963 · 4029 días · última entrega 2026-08-01 ·
-    34,792 descargas en 10 entregas · 32 personas ·
+    34,881 descargas en 10 entregas · 32 personas ·
     0 flujos de compilación · incidencias 0 abiertas.
   </p>
   <p>Decidir aplicación por aplicación, y dirección por dirección, qué puede salir a internet y por qué red, sin root y sin que el programa llame a casa.</p>
@@ -268,8 +271,8 @@ a{color:var(--acento)}
   <p class="meta">
     <span class="sello n2">experto</span>
     &nbsp;nota <strong>48/100</strong> ·
-    ★5,079 · 2494 días · última entrega 2026-09-20 ·
-    139,256 descargas en 10 entregas · 64 personas ·
+    ★5,083 · 2494 días · última entrega 2026-09-20 ·
+    139,409 descargas en 10 entregas · 64 personas ·
     4 flujos de compilación · incidencias 43 abiertas.
   </p>
   <p>Capturar el tráfico del teléfono y guardarlo en un archivo que se pueda abrir en una computadora, para demostrar —no suponer— qué mandó cada aplicación.</p>
@@ -307,5 +310,5 @@ a{color:var(--acento)}
   <p class="meta">Programa de Emanuele Faranda · GPL-3.0 · medido el 3 de noviembre de 2026 · licencia GPL-3.0
      (<a href="https://github.com/emanuele-f/PCAPdroid/blob/master/COPYING">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
 </article>
-<footer><p>Texto CC BY-SA 4.0 · datos CC BY 4.0 · La Bandita. Mediciones del 4 de noviembre de 2026.</p></footer>
+<footer><p>Texto CC BY-SA 4.0 · datos CC BY 4.0 · La Bandita. Mediciones del 21 de noviembre de 2026.</p></footer>
 </div></body></html>

@@ -44,6 +44,10 @@ toca, con nota fechada.*
   El repositorio pasa a ser casa de reglas y entorno de trabajo. Compuertas de pieza retiradas
   hasta nuevo aviso; `PROCESOS/03-PUBLICACION.md` queda como historia; los moldes medidos se
   conservan en `ENTORNO-DE-TRABAJO/moldes/`.
+- **(21-nov-2026)** norma obligatoria del **Método de Richard Feynman completo (4 pasos)** para
+  toda tarea, lista de textos, análisis y recurso (`CORAZON-LA-BANDITA.md`, `CIMIENTOS/04-VOZ-Y-CIERRE.md`,
+  `PROCESOS/01-PIEZA.md`, `docs/METODO-FEYNMAN-OBLIGATORIO.md`, los 12 capítulos de `guia-maestra/` y
+  `tools/feynman_verificar.py`). Ver `docs/ACTA-FEYNMAN-2026-11-21.md`.
 
 ## Cómo se cambia una regla
 

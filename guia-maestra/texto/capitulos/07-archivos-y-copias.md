@@ -93,3 +93,10 @@ Y dalo a alguien que administra servidores desde hace años: si no encuentra al 
 ## Las seis fichas
 
 Las que siguen van en el orden en que se necesita: pasar, sincronizar, tener fotos, tener nube, respaldar de verdad y conectar con lo ajeno. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando. Todas se midieron el 3 de noviembre de 2026 abriendo sus entregas y leyendo lo que publican, no repitiendo lo que dice un catálogo.
+
+## Método Richard Feynman (4 pasos obligatorios)
+
+1. **Seleccionar y estudiar el concepto:** diferencia entre envío directo, sincronización entre equipos y copia de seguridad con historial inmutable (`LocalSend`, `Syncthing (bifurcación)`, `Immich`, `Nextcloud`, `restic`, `rclone`).
+2. **Enseñarlo con palabras simples:** sincronizar dos carpetas no es hacer una copia de seguridad: si borras un documento por error en tu computadora mientras sincronizas, el borrado también se copia al teléfono. Una copia real guarda fotos congeladas en el tiempo para que puedas volver al martes pasado aunque hoy hayas borrado todo.
+3. **Identificar lagunas y volver a la fuente original:** la laguna frecuente es pensar que `restic check` por defecto lee los bloques de datos del disco, o usar el `Syncthing` oficial archivado desde 2024 en lugar de su bifurcación activa. Vuelve al dato de oficio de `restic` (`--read-data`), `Immich` y `Nextcloud` (`files:scan`) para confirmar qué comprueba cada orden.
+4. **Simplificar y revisar con analogías:** *analogía del espejo frente al álbum de fotos:* la sincronización es un espejo: si manchas la mesa delante del espejo, la mancha aparece en ambos lados al instante; el respaldo versionado es un álbum guardado bajo llave donde cada día añades páginas sin poder borrar las de ayer. (*Límite:* una copia cifrada en disco ajeno no sirve si pierdes la contraseña maestra).

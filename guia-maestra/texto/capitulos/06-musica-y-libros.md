@@ -84,3 +84,10 @@ Y dalo a alguien que lleva años con esto: si no encuentra al menos un dato que 
 ## Las seis fichas
 
 Las que siguen están ordenadas como el capítulo: primero lo local, después lo que se lee, y al final los dos servidores. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando. Todas se midieron el 3 de noviembre de 2026, abriendo sus entregas y leyendo lo que publican, no repitiendo lo que dice un catálogo.
+
+## Método Richard Feynman (4 pasos obligatorios)
+
+1. **Seleccionar y estudiar el concepto:** separación entre el archivo multimedia en tu disco, el reproductor o lector local, y el servidor propio opcional (`Auxio`, `AntennaPod`, `Readest`, `KOReader`, `Navidrome`, `Audiobookshelf`).
+2. **Enseñarlo con palabras simples:** si tus libros, canciones y podcasts viven en carpetas normales dentro de tu teléfono o de tu computadora, ninguna empresa puede borrarlos ni cambiar las reglas de cómo los escuchas. El reproductor es solo el cristal con el que miras tus archivos; si mañana cierran una aplicación, cambias de aplicación y tu biblioteca sigue intacta.
+3. **Identificar lagunas y volver a la fuente original:** la laguna común es confundir un lector local (que lee archivos sin conexión) con un servidor doméstico (que exige mantener un equipo encendido y saber cómo exponer o proteger la red). Revisa en las fichas de `Navidrome`, `Audiobookshelf` y `KOReader` los formatos estándar soportados (MP3/FLAC/EPUB/OPDS) y cómo exportar tu progreso o suscripciones OPML antes de migrar.
+4. **Simplificar y revisar con analogías:** *analogía de los discos de vinilo y el tocadiscos:* tus archivos en carpetas son los discos guardados en tu estantería; `Auxio` o `KOReader` son el tocadiscos o la lámpara de lectura; `Navidrome` es un tocadiscos que transmite por radio dentro de tu propia casa para no cargar la caja de discos en el bolsillo. (*Límite:* usar un servidor propio fuera de casa exige configurar túneles seguros como los del capítulo 8).

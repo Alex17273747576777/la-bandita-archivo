@@ -87,3 +87,10 @@ Y dalo a alguien que lleva años con esto: si no encuentra al menos un dato que 
 ## Las seis fichas
 
 Van del aparato a la casa: primero el televisor, después lo que se ve en él, y al final el cerebro y los aparatos del hogar. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando. Todas se midieron el 3 de noviembre de 2026 abriendo sus entregas, sus licencias y sus repositorios.
+
+## Método Richard Feynman (4 pasos obligatorios)
+
+1. **Seleccionar y estudiar el concepto:** separación entre interfaz del televisor, biblioteca multimedia, transcodificación en servidor y automatización local del hogar (`TVSlim`, `SmartTube`, `Kodi`, `Jellyfin`, `Home Assistant`, `ESPHome`).
+2. **Enseñarlo con palabras simples:** cuando reproduces un vídeo desde tu servidor doméstico, si el televisor no entiende el formato del archivo, tu servidor tiene que convertirlo en vivo mientras lo ves (transcodificar), y eso exige músculo del procesador del servidor, no de la velocidad de internet.
+3. **Identificar lagunas y volver a la fuente original:** la laguna clásica es creer que renunciar a la nube automática significa perder estabilidad, o ignorar avisos de seguridad y licencias duales (`ESPHome` Python vs C++, avisos históricos de compilaciones en `SmartTube`). Vuelve a las fichas de `Jellyfin`, `Kodi` y `Home Assistant` para comprobar cómo mantener estables los identificadores de entidades y dónde verificar la firma del APK.
+4. **Simplificar y revisar con analogías:** *analogía del traductor simultáneo en el teatro:* si la película está en un idioma que tu televisor ya habla, pasa directo sin esfuerzo (*direct play*); si no lo entiende, el servidor actúa como un traductor simultáneo en tiempo real, y si hay tres espectadores pidiendo traducción distinta a la vez, la cabina se satura aunque la puerta del teatro sea ancha. (*Límite:* los dispositivos inteligentes sin soporte local siguen dependiendo del fabricante si cortas el acceso a internet).

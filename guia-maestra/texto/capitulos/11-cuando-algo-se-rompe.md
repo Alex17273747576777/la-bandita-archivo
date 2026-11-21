@@ -133,3 +133,10 @@ Y dalo a alguien que lleva años manteniendo aparatos: si no encuentra al menos 
 ## Las seis fichas
 
 Van del registro al parte de avería: el lector del registro del sistema, el medidor de espacio, el inspector de permisos, el analizador de la red inalámbrica, el medidor de batería y, al final, el programa de escritorio que junta todo cuando el aparato ya no ayuda. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando. Todas se midieron el 3 de noviembre de 2026 abriendo sus entregas y sus licencias.
+
+## Método Richard Feynman (4 pasos obligatorios)
+
+1. **Seleccionar y estudiar el concepto:** diagnóstico basado en registros y mediciones reales (fallos `logcat`, espacio en almacenamiento, doble capa de permisos `appops`, canales wifi y consumo energético) en `LogFox`, `disky`, `Permission Manager X`, `WiFi Analyzer`, `Battery Monitor` y `QADB`.
+2. **Enseñarlo con palabras simples:** cuando una aplicación se cierra sola o el teléfono dice «conectado sin internet», reiniciar a ciegas no explica la causa. Mirar el registro del sistema (`logcat`) es abrir el libro de bitácora del avión para leer qué pieza gritó justo antes del fallo y actuar sobre ese dato, no sobre suposiciones.
+3. **Identificar lagunas y volver a la fuente original:** la laguna más común es culpar a la señal wifi cuando falla la traducción de nombres (DNS), o creer que quitar un permiso en el menú visible desactiva todas las operaciones ocultas (`AppOps`). Regresa a los comandos de oficio de `LogFox`, `Permission Manager X` y `QADB` para verificar cómo leer la línea exacta de denegación o error.
+4. **Simplificar y revisar con analogías:** *analogía del médico que pide análisis antes de recetar:* borrar la memoria caché o reinstalar todo sin mirar `LogFox` es cambiar piezas del motor con los ojos vendados; leer la traza del fallo, comprobar el espacio libre real con `disky` y aislar en modo seguro equivale a tomar fiebre, pulso y radiografía antes de operar. (*Límite:* sin permisos ADB o root, las aplicaciones de diagnóstico no pueden leer registros de otros procesos en versiones recientes de Android).

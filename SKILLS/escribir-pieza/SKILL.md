@@ -38,6 +38,7 @@ Que la voz la ponga una persona y las cifras las ponga el JSON. La pieza se escr
 - **Un párrafo no se repite.** Si aparece tres veces, es plantilla, no voz.
 - **Español dominicano solo en las publicaciones.** Las apps son multilingües: no se mezcla la regla.
 - **La fecha del día va en la cabecera**, no «hoy».
+- **Método Richard Feynman completo (4 pasos):** (1) estudiar la fuente medida, (2) explicar en palabras simples sin jerga, (3) identificar lagunas y volver al JSON/fuente primaria para corregirlas, (4) simplificar con analogías claras antes del cierre.
 
 ## Verificación
 - `len(cuerpo)` dentro de la banda del canal.

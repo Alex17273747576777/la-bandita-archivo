@@ -69,3 +69,10 @@ No enseña a hacer una copia completa del sistema, que es otra cosa y necesita o
 ## Las cinco fichas
 
 Van de la más simple a la más exigente, y están pensadas para usarse en ese orden si es la primera vez. La primera no necesita root ni permiso y sirve para cualquier teléfono; la última solo funciona en los aparatos que ya la traen de fábrica. Todas declaran para quién son y para quién no, y todas traen un dato de oficio con su comando para comprobarlo sin creerle nada a esta guía.
+
+## Método Richard Feynman (4 pasos obligatorios)
+
+1. **Seleccionar y estudiar el concepto:** respaldo completo fuera del dispositivo (lista de paquetes, datos permitidos, copia cifrada y recuperación de segundo factor) a partir de las cinco fichas medidas de este capítulo (`AppListBackup`, `Neo Backup`, `DataBackup`, `restoid`, `Seedvault`).
+2. **Enseñarlo con palabras simples:** hacer una copia de seguridad no es pulsar «guardar» y olvidarte; es asegurarte de que si mañana pierdes el teléfono en el autobús, puedes abrir esa copia en otro teléfono y recuperar tus cosas sin quedarte fuera de tus cuentas.
+3. **Identificar lagunas y volver a la fuente original:** cuando alguien cree que copiar la carpeta en la memoria interna del mismo teléfono basta, o olvida exportar los códigos de verificación en dos pasos, aparece la laguna. Vuelve a las secciones «para quién no es» y «deshacer» de cada ficha del capítulo para ver qué datos protege el sistema sin root y qué debes sacar primero por cable.
+4. **Simplificar y revisar con analogías:** *analogía de la foto en la pared:* guardar tu copia de seguridad dentro del mismo teléfono que vas a formatear es como sacar una foto de tus llaves y colgarla dentro de la casa antes de cerrar la puerta por fuera; solo sirve la copia que vive fuera del aparato y que ya probaste abrir una vez. (*Límite:* las fichas sin root no copian datos privados de aplicaciones que marcan `allowBackup=false`).

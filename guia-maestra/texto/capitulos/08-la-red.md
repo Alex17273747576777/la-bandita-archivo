@@ -89,3 +89,10 @@ Y dalo a alguien que administra redes: si no encuentra al menos un dato que no s
 ## Las seis fichas
 
 Van de lo más simple a lo más fino: primero entrar a tu casa, después salir de la tuya, después esquivar un bloqueo, y al final administrar una red entera. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando. Todas se midieron el 3 de noviembre de 2026 abriendo sus entregas, sus licencias y sus repositorios.
+
+## Método Richard Feynman (4 pasos obligatorios)
+
+1. **Seleccionar y estudiar el concepto:** túneles cifrados de red privada propia frente a salida comercial a internet, y control del servidor de coordinación (`wg-easy`, `Mullvad VPN`, `Hiddify`, `sing-box`, `Headscale`, `NetBird`).
+2. **Enseñarlo con palabras simples:** una VPN no es un manto mágico de invisibilidad; es un tubo cifrado entre dos puntos. Puedes usar un tubo hacia tu propia casa para abrir tus carpetas desde la calle con seguridad, o un tubo hacia un proveedor para ocultar tus datos en el wifi de una cafetería.
+3. **Identificar lagunas y volver a la fuente original:** la laguna típica es mezclar la privacidad frente al wifi local con anonimato absoluto en internet, o ignorar las licencias mixtas (`Hiddify`, `NetBird`) y ramas activas (`sing-box`). Regresa a las fichas de `Headscale`, `Mullvad VPN` y `wg-easy` para distinguir quién guarda las llaves de coordinación y cómo verificar tu IP de salida real.
+4. **Simplificar y revisar con analogías:** *analogía del pasadizo privado y la máscara:* un túnel propio hacia tu casa es un pasadizo subterráneo con cerradura entre tu oficina y tu hogar: nadie en la calle ve qué llevas dentro, pero al salir por tu puerta sigues en tu casa; una VPN comercial cambia la puerta por la que sales a la calle, pero el dueño de esa puerta sí ve cuándo entras y sales. (*Límite:* el navegador y las cuentas con sesión iniciada siguen identificándote aunque cambies de IP).

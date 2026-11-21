@@ -11,7 +11,7 @@
 | 2 | Medir los repos | `tres_lecturas.py` | N medidos, 0 sin leer |
 | 3 | Censar | `_medicion-{canal}.json` | cifra madre elegida |
 | 4 | Escribir el mapa | — | 5–12 secciones reales |
-| 5 | Escribir el cuerpo en tandas | — | cada tanda ≥ 1.500 caracteres |
+| 5 | Escribir el cuerpo en tandas | Método Feynman (4 pasos) | cada tanda ≥ 1.500 caracteres, sin jerga y con analogía fiel |
 | 6 | Secciones fijas | — | ⚡ En una página · ❓ 6–12 · 📊 tabla+mitos+glosario · 🔗 enlaces |
 | 7 | Cierre | — | diálogo → firma+remate → medición con hora → licencia → notas |
 | 8 | Compuerta | `manual_gate.py --pieza` | VERDE |

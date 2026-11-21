@@ -2,7 +2,7 @@
 
 **Aplicaciones y recursos de código abierto, en español, con el oficio explicado.**
 
-_Estado: 12 capítulos publicados de 12 · 70 fichas verificadas · última medición 4 de noviembre de 2026_
+_Estado: 12 capítulos publicados de 12 · 70 fichas verificadas · última medición 21 de noviembre de 2026_
 
 Cada ficha tiene tres capas: **Manos** (los pasos, para quien empieza), **Cabeza** (cómo funciona y
 dónde se rompe) y **Oficio** (un dato que casi nadie sabe y que se puede comprobar). Sin la tercera,
@@ -36,7 +36,7 @@ la aplicación no entra.
 | [Seedvault](https://github.com/seedvault-app/seedvault) | intermedio | **26** | Apache-2.0 (declarada en el proyecto; GitHub no la detecta) | Seedvault | 4 de noviembre de 2026 |
 | [Canta](https://github.com/samolego/Canta) | principiante | **71** | LGPL-3.0 | samolego | 4 de noviembre de 2026 |
 | [Hail](https://github.com/aistra0528/Hail) | principiante | **47** | GPL-3.0 | aistra0528 | 4 de noviembre de 2026 |
-| [Universal Android Debloater NG](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation) | intermedio | **59** | GPL-3.0 | Universal-Debloater-Alliance | 4 de noviembre de 2026 |
+| [Universal Android Debloater NG](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation) | intermedio | **69** | GPL-3.0 | Universal-Debloater-Alliance | 4 de noviembre de 2026 |
 | [Uraam](https://github.com/Ruraam/Uraam) | experto | **59** | GPL-3.0 | Ruraam | 4 de noviembre de 2026 |
 | [App Manager NG](https://github.com/SysAdminDoc/AppManagerNG) | experto | **33** | GPL-3.0 | SysAdminDoc | 4 de noviembre de 2026 |
 | [Shizuku](https://github.com/RikkaApps/Shizuku) | principiante | **40** | Apache-2.0 | RikkaApps (RikkaW) | 4 de noviembre de 2026 |
@@ -61,7 +61,7 @@ la aplicación no entra.
 | [AntennaPod](https://github.com/AntennaPod/AntennaPod) | principiante | **51** | GPL-3.0 | AntennaPod y su comunidad | 4 de noviembre de 2026 |
 | [Readest](https://github.com/readest/readest) | intermedio | **80** | AGPL-3.0 | Readest y sus colaboradores | 4 de noviembre de 2026 |
 | [KOReader](https://github.com/koreader/koreader) | experto | **53** | AGPL-3.0 | KOReader y su comunidad de voluntarios | 4 de noviembre de 2026 |
-| [Navidrome](https://github.com/navidrome/navidrome) | experto | **51** | GPL-3.0 | Navidrome y su comunidad | 4 de noviembre de 2026 |
+| [Navidrome](https://github.com/navidrome/navidrome) | experto | **61** | GPL-3.0 | Navidrome y su comunidad | 4 de noviembre de 2026 |
 | [Audiobookshelf](https://github.com/advplyr/audiobookshelf) | experto | **49** | GPL-3.0 | advplyr y colaboradores | 4 de noviembre de 2026 |
 | [LocalSend](https://github.com/localsend/localsend) | principiante | **47** | Apache-2.0 | LocalSend y sus colaboradores | 4 de noviembre de 2026 |
 | [Syncthing (bifurcación)](https://github.com/researchxxl/syncthing-android) | intermedio | **61** | MPL-2.0 | researchxxl y la comunidad de Syncthing | 4 de noviembre de 2026 |
@@ -73,8 +73,8 @@ la aplicación no entra.
 | [Mullvad VPN](https://github.com/mullvad/mullvadvpn-app) | principiante | **69** | GPL-3.0 | Mullvad VPN AB | 4 de noviembre de 2026 |
 | [Hiddify](https://github.com/hiddify/hiddify-app) | intermedio | **50** | GPL-3.0 | Hiddify y sus colaboradores | 4 de noviembre de 2026 |
 | [sing-box](https://github.com/SagerNet/sing-box) | experto | **49** | GPL-3.0 | SagerNet | 4 de noviembre de 2026 |
-| [Headscale](https://github.com/juanfont/headscale) | experto | **64** | BSD-3-Clause | Juan Font y la comunidad Headscale | 4 de noviembre de 2026 |
-| [NetBird](https://github.com/netbirdio/netbird) | experto | **53** | BSD-3-Clause | NetBird y sus colaboradores | 4 de noviembre de 2026 |
+| [Headscale](https://github.com/juanfont/headscale) | experto | **74** | BSD-3-Clause | Juan Font y la comunidad Headscale | 4 de noviembre de 2026 |
+| [NetBird](https://github.com/netbirdio/netbird) | experto | **63** | BSD-3-Clause | NetBird y sus colaboradores | 4 de noviembre de 2026 |
 | [TVSlim](https://github.com/jolabs40/TVSlim) | principiante | **55** | Apache-2.0 | jolabs40 | 4 de noviembre de 2026 |
 | [SmartTube](https://github.com/yuliskov/SmartTube) | intermedio | **63** | MIT | yuliskov | 4 de noviembre de 2026 |
 | [Kodi](https://github.com/xbmc/xbmc) | intermedio | **29** | GPL-2.0-or-later | XBMC Foundation y la comunidad de Kodi | 4 de noviembre de 2026 |
@@ -94,11 +94,11 @@ la aplicación no entra.
 | [Battery Monitor](https://github.com/tswistak/Battery-Monitor) | principiante | **36** | GPL-3.0-or-later | Tomasz Świstak (bifurcación actual), Darshan Computing (origen, 2009-2020) | 4 de noviembre de 2026 |
 | [QADB](https://github.com/ludoven/QADB) | experto | **33** | MIT | ludoven | 4 de noviembre de 2026 |
 | [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort) | experto | **73** | Apache-2.0 | OSS Review Toolkit y sus contribuyentes | 4 de noviembre de 2026 |
-| [Scorecard](https://github.com/ossf/scorecard) | intermedio | **67** | Apache-2.0 | Open Source Security Foundation | 4 de noviembre de 2026 |
+| [Scorecard](https://github.com/ossf/scorecard) | intermedio | **77** | Apache-2.0 | Open Source Security Foundation | 4 de noviembre de 2026 |
 | [cosign](https://github.com/sigstore/cosign) | experto | **71** | Apache-2.0 | Sigstore y sus contribuyentes | 4 de noviembre de 2026 |
-| [GitHub CLI](https://github.com/cli/cli) | intermedio | **63** | MIT | GitHub y sus contribuyentes | 4 de noviembre de 2026 |
+| [GitHub CLI](https://github.com/cli/cli) | intermedio | **73** | MIT | GitHub y sus contribuyentes | 4 de noviembre de 2026 |
 | [APKiD](https://github.com/rednaga/APKiD) | experto | **31** | GPL-3.0-only | Red Naga (Caleb Fenton y colaboradores) | 4 de noviembre de 2026 |
-| [testssl.sh](https://github.com/testssl/testssl.sh) | experto | **48** | GPL-2.0 | Dirk Wetter y colaboradores | 4 de noviembre de 2026 |
+| [testssl.sh](https://github.com/testssl/testssl.sh) | experto | **58** | GPL-2.0 | Dirk Wetter y colaboradores | 4 de noviembre de 2026 |
 
 ## Cómo se mide la nota
 

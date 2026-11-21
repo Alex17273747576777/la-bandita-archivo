@@ -117,3 +117,10 @@ Y dalo a alguien que administra servidores: si no encuentra al menos un dato que
 ## Las seis fichas
 
 Van de la más simple a la más honda: el teléfono en la pantalla grande, la terminal, el cliente de servidores, el gestor de archivos remoto, y al final las dos que abren binarios. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando. Todas se midieron el 3 de noviembre de 2026 abriendo sus entregas y sus licencias.
+
+## Método Richard Feynman (4 pasos obligatorios)
+
+1. **Seleccionar y estudiar el concepto:** control remoto desde escritorio sin agente permanente, terminal en prefijo propio, acceso remoto SSH y desensamblado/inspección de paquetes Android (`scrcpy`, `Termux`, `ConnectBot`, `Material Files`, `jadx`, `Apktool`).
+2. **Enseñarlo con palabras simples:** abrir un paquete APK con `jadx` o `Apktool` es como desmontar un reloj con lupa: puedes mirar sus piezas por dentro para comprobar qué permisos pide o qué servidores contacta, pero si vuelves a cerrar el reloj con otra tapa (tu propia firma), el fabricante original ya no lo reconoce como suyo para darte actualizaciones.
+3. **Identificar lagunas y volver a la fuente original:** las lagunas habituales son no entender por qué `Termux` no usa `/usr/bin`, por qué Android 12 mata procesos en segundo plano (`phantom processes`) o por qué `jadx` no garantiza código fuente 100% recompilable. Revisa el dato de oficio y los límites en las fichas de `Termux`, `jadx` y `Apktool`.
+4. **Simplificar y revisar con analogías:** *analogía del taller con ventana temporal y lupa de relojero:* `scrcpy` es conectar un monitor y un teclado prestados sin dejar muebles dentro de la habitación; `jadx` es abrir la carcasa para leer el circuito sin tocarlo; `Apktool` es volver a soldarlo con tu propia firma sabiendo que desde ese momento tú eres quien responde por las actualizaciones. (*Límite:* las herramientas de inspección no ejecutan el programa en tiempo real: muestran su estructura estática).

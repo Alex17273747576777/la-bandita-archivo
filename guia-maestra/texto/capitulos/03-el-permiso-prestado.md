@@ -87,3 +87,10 @@ Este capítulo está escrito para que lo entiendan dos personas distintas, y se 
 ## Las seis fichas
 
 Las que siguen están ordenadas por dificultad, no por fama. Cada una declara para quién es y para quién no es, y cada una trae el dato de oficio con su comando para comprobarlo. Ninguna se ha copiado de un catálogo: todas salieron de abrir sus entregas una por una, el 3 de noviembre de 2026.
+
+## Método Richard Feynman (4 pasos obligatorios)
+
+1. **Seleccionar y estudiar el concepto:** delegación controlada de permisos de depuración (ADB/Shizuku/Dhizuku) sin modificar el sistema ni abrir acceso root permanente, estudiado en `Shizuku`, `Shevery`, `Shizuku-Next`, `aShellYou`, `Dhizuku` y `OmniShizuku`.
+2. **Enseñarlo con palabras simples:** normalmente, una aplicación solo puede tocar sus propios archivos. Cuando activas la depuración inalámbrica y arrancas Shizuku, le prestas a una aplicación elegida una llave temporal de técnico para que haga una tarea concreta (como congelar una app o leer registros) sin darle control total sobre todo el teléfono para siempre.
+3. **Identificar lagunas y volver a la fuente original:** la laguna común es confundir el permiso prestado (`shell`, UID 2000) con el permiso total (`root`, UID 0), o no saber por qué el permiso desaparece al reiniciar el teléfono. Regresa al dato de oficio de `Shizuku` y `Dhizuku` para revisar qué puede hacer un proceso `shell` y cómo revocarlo al instante apagando la depuración.
+4. **Simplificar y revisar con analogías:** *analogía de la tarjeta de visitante del técnico:* entregar `root` es dar la llave maestra de todo el edificio; prestar permiso vía Shizuku es darle al técnico una tarjeta temporal que abre solo el cuarto de mantenimiento hasta que apagas la luz por la noche (al reiniciar el teléfono, el permiso se cierra solo). (*Límite:* cualquier app a la que autorices Shizuku sigue teniendo capacidad real sobre los comandos de usuario `shell`; autoriza solo aplicaciones revisadas).

@@ -39,7 +39,10 @@ a{color:var(--acento)}
 3. <strong>Qué hiciste</strong>, paso por paso, en el orden en que lo hiciste.
 4. <strong>Qué esperabas</strong> que pasara.
 5. <strong>Qué pasó</strong>, con el texto exacto del mensaje.
-6. <strong>El registro</strong>, recortado al momento del fallo y sin datos personales.</p><p>Con eso, un mantenedor puede reproducirlo. Sin eso, tiene que adivinar, y adivinar es lo que hace que un proyecto libre se canse de sus usuarios.</p><p>Y una regla de conducta: <strong>antes de reportar, se comprueba si ya está reportado.</strong> Casi todos los proyectos que aparecen en esta guía tienen su lista de incidencias abierta y buscable, y el sesenta por ciento de los reportes repetidos ya tienen respuesta. Buscar primero es respeto, y además es más rápido.</p><h2>Lo que dejé fuera, y por qué</h2><p>En la búsqueda de este capítulo apareció un inspector de sistema con <strong>novecientas una estrellas</strong> y una lista de funciones que daba envidia: ver aplicaciones, leer bases de datos, observar los avisos internos del sistema. No entró, y el motivo es el criterio de toda la guía: <strong>no publica una sola entrega</strong>. Sin una entrega con archivo no hay forma de instalarlo sin compilar, y esta guía no recomienda lo que no se puede bajar y comprobar. No es un mal programa: es un programa que hoy no cumple la condición de entrada, y queda anotado por si la cumple mañana.</p><p>También quedaron fuera dos que sí existen y funcionan, por no repetir: el lector de registros de escritorio, que hace lo mismo que LogFox con un cable, y el inspector de interfaces, que sirve a quien programa y no a quien repara.</p><h2>Los cuatro errores que se pagan</h2><p><strong>Reinstalar como primer movimiento.</strong> Se pierde la escena del crimen: el registro, la caché, la versión anterior. Y en la mitad de los casos el fallo vuelve porque la causa estaba fuera del teléfono.</p><p><strong>Mandar el registro entero.</strong> Además de exponer datos personales, un archivo de cien mil líneas no se lee. Se recorta al momento y se explica qué buscar.</p><p><strong>Confundir el síntoma con la causa.</strong> «Se cierra al abrir la cámara» no dice nada; «se cierra al abrir la cámara desde la pantalla de bloqueo, con la versión tal, en un aparato tal» dice todo.</p><p><strong>Tocar cinco cosas a la vez.</strong> Si cambiás el canal del wifi, el DNS, la aplicación y el ajuste de batería en la misma tarde y algo se arregla, no vas a saber qué fue, y la próxima vez empezás de cero.</p><h2>Tres cosas que se dicen y no son verdad</h2><p><strong>«El teléfono ya no da, hay que cambiarlo».</strong> Un aparato de tres años con batería cambiada y sin aplicaciones de más rinde como nuevo. Lo que se gasta no es el aparato: es la batería y el espacio.</p><p><strong>«El antivirus lo arregla».</strong> Los programas de «limpieza y velocidad» de las tiendas hacen exactamente lo que el sistema ya hace, con publicidad encima. El diagnóstico de este capítulo es gratis y se puede leer.</p><p><strong>«Si el wifi falla, es el proveedor».</strong> La mitad de las veces es el canal, el router o un DNS que alguien configuró y olvidó. Hay tres pasos para saberlo y ninguno requiere llamar a nadie.</p><h2>Antes de irte: la prueba de las dos personas</h2><p>Dale este capítulo a alguien que nunca miró un registro: si logra encontrar por qué se le cierra una aplicación y lo puede contar en seis líneas, el capítulo sirve.</p><p>Y dalo a alguien que lleva años manteniendo aparatos: si no encuentra al menos un dato que no supiera —que el modo seguro se entra con la tecla de bajar volumen y separa el culpable, que «conectado sin internet» es un fallo de resolución de nombres y no de enlace, que hay dos capas de permisos y la segunda está escondida, que el panel de batería reparte culpas por tiempo y no por consumo, que el permiso denegado se ve en el registro con su paquete—, el capítulo no sirve y hay que reescribirlo.</p><h2>Las seis fichas</h2><p>Van del registro al parte de avería: el lector del registro del sistema, el medidor de espacio, el inspector de permisos, el analizador de la red inalámbrica, el medidor de batería y, al final, el programa de escritorio que junta todo cuando el aparato ya no ayuda. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando. Todas se midieron el 3 de noviembre de 2026 abriendo sus entregas y sus licencias.</p>
+6. <strong>El registro</strong>, recortado al momento del fallo y sin datos personales.</p><p>Con eso, un mantenedor puede reproducirlo. Sin eso, tiene que adivinar, y adivinar es lo que hace que un proyecto libre se canse de sus usuarios.</p><p>Y una regla de conducta: <strong>antes de reportar, se comprueba si ya está reportado.</strong> Casi todos los proyectos que aparecen en esta guía tienen su lista de incidencias abierta y buscable, y el sesenta por ciento de los reportes repetidos ya tienen respuesta. Buscar primero es respeto, y además es más rápido.</p><h2>Lo que dejé fuera, y por qué</h2><p>En la búsqueda de este capítulo apareció un inspector de sistema con <strong>novecientas una estrellas</strong> y una lista de funciones que daba envidia: ver aplicaciones, leer bases de datos, observar los avisos internos del sistema. No entró, y el motivo es el criterio de toda la guía: <strong>no publica una sola entrega</strong>. Sin una entrega con archivo no hay forma de instalarlo sin compilar, y esta guía no recomienda lo que no se puede bajar y comprobar. No es un mal programa: es un programa que hoy no cumple la condición de entrada, y queda anotado por si la cumple mañana.</p><p>También quedaron fuera dos que sí existen y funcionan, por no repetir: el lector de registros de escritorio, que hace lo mismo que LogFox con un cable, y el inspector de interfaces, que sirve a quien programa y no a quien repara.</p><h2>Los cuatro errores que se pagan</h2><p><strong>Reinstalar como primer movimiento.</strong> Se pierde la escena del crimen: el registro, la caché, la versión anterior. Y en la mitad de los casos el fallo vuelve porque la causa estaba fuera del teléfono.</p><p><strong>Mandar el registro entero.</strong> Además de exponer datos personales, un archivo de cien mil líneas no se lee. Se recorta al momento y se explica qué buscar.</p><p><strong>Confundir el síntoma con la causa.</strong> «Se cierra al abrir la cámara» no dice nada; «se cierra al abrir la cámara desde la pantalla de bloqueo, con la versión tal, en un aparato tal» dice todo.</p><p><strong>Tocar cinco cosas a la vez.</strong> Si cambiás el canal del wifi, el DNS, la aplicación y el ajuste de batería en la misma tarde y algo se arregla, no vas a saber qué fue, y la próxima vez empezás de cero.</p><h2>Tres cosas que se dicen y no son verdad</h2><p><strong>«El teléfono ya no da, hay que cambiarlo».</strong> Un aparato de tres años con batería cambiada y sin aplicaciones de más rinde como nuevo. Lo que se gasta no es el aparato: es la batería y el espacio.</p><p><strong>«El antivirus lo arregla».</strong> Los programas de «limpieza y velocidad» de las tiendas hacen exactamente lo que el sistema ya hace, con publicidad encima. El diagnóstico de este capítulo es gratis y se puede leer.</p><p><strong>«Si el wifi falla, es el proveedor».</strong> La mitad de las veces es el canal, el router o un DNS que alguien configuró y olvidó. Hay tres pasos para saberlo y ninguno requiere llamar a nadie.</p><h2>Antes de irte: la prueba de las dos personas</h2><p>Dale este capítulo a alguien que nunca miró un registro: si logra encontrar por qué se le cierra una aplicación y lo puede contar en seis líneas, el capítulo sirve.</p><p>Y dalo a alguien que lleva años manteniendo aparatos: si no encuentra al menos un dato que no supiera —que el modo seguro se entra con la tecla de bajar volumen y separa el culpable, que «conectado sin internet» es un fallo de resolución de nombres y no de enlace, que hay dos capas de permisos y la segunda está escondida, que el panel de batería reparte culpas por tiempo y no por consumo, que el permiso denegado se ve en el registro con su paquete—, el capítulo no sirve y hay que reescribirlo.</p><h2>Las seis fichas</h2><p>Van del registro al parte de avería: el lector del registro del sistema, el medidor de espacio, el inspector de permisos, el analizador de la red inalámbrica, el medidor de batería y, al final, el programa de escritorio que junta todo cuando el aparato ya no ayuda. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando. Todas se midieron el 3 de noviembre de 2026 abriendo sus entregas y sus licencias.</p><h2>Método Richard Feynman (4 pasos obligatorios)</h2><p>1. <strong>Seleccionar y estudiar el concepto:</strong> diagnóstico basado en registros y mediciones reales (fallos <code>logcat</code>, espacio en almacenamiento, doble capa de permisos <code>appops</code>, canales wifi y consumo energético) en <code>LogFox</code>, <code>disky</code>, <code>Permission Manager X</code>, <code>WiFi Analyzer</code>, <code>Battery Monitor</code> y <code>QADB</code>.
+2. <strong>Enseñarlo con palabras simples:</strong> cuando una aplicación se cierra sola o el teléfono dice «conectado sin internet», reiniciar a ciegas no explica la causa. Mirar el registro del sistema (<code>logcat</code>) es abrir el libro de bitácora del avión para leer qué pieza gritó justo antes del fallo y actuar sobre ese dato, no sobre suposiciones.
+3. <strong>Identificar lagunas y volver a la fuente original:</strong> la laguna más común es culpar a la señal wifi cuando falla la traducción de nombres (DNS), o creer que quitar un permiso en el menú visible desactiva todas las operaciones ocultas (<code>AppOps</code>). Regresa a los comandos de oficio de <code>LogFox</code>, <code>Permission Manager X</code> y <code>QADB</code> para verificar cómo leer la línea exacta de denegación o error.
+4. <strong>Simplificar y revisar con analogías:</strong> *analogía del médico que pide análisis antes de recetar:* borrar la memoria caché o reinstalar todo sin mirar <code>LogFox</code> es cambiar piezas del motor con los ojos vendados; leer la traza del fallo, comprobar el espacio libre real con <code>disky</code> y aislar en modo seguro equivale a tomar fiebre, pulso y radiografía antes de operar. (*Límite:* sin permisos ADB o root, las aplicaciones de diagnóstico no pueden leer registros de otros procesos en versiones recientes de Android).</p>
 <h2>Las 6 fichas del capítulo</h2>
 
 <article class="ficha">
@@ -47,8 +50,8 @@ a{color:var(--acento)}
   <p class="meta">
     <span class="sello n0">principiante</span>
     &nbsp;nota <strong>47/100</strong> ·
-    ★1,380 · 1609 días · última entrega 2026-03-01 ·
-    24,323 descargas en 10 entregas · 14 personas ·
+    ★1,381 · 1609 días · última entrega 2026-03-01 ·
+    24,335 descargas en 10 entregas · 14 personas ·
     4 flujos de compilación · incidencias 26 abiertas.
   </p>
   <p>Leer el registro del sistema Android en el propio teléfono, con aviso de cierres y bloqueos, y exportarlo para pedir ayuda sin depender de una computadora.</p>
@@ -93,7 +96,7 @@ a{color:var(--acento)}
     <span class="sello n0">principiante</span>
     &nbsp;nota <strong>42/100</strong> ·
     ★971 · 941 días · última entrega 2026-05-31 ·
-    29,245 descargas en 10 entregas · 10 personas ·
+    29,256 descargas en 10 entregas · 10 personas ·
     2 flujos de compilación · incidencias 10 abiertas.
   </p>
   <p>Ver qué ocupa de verdad el almacenamiento del teléfono, carpeta por carpeta, cuando el sistema avisa que está lleno y el administrador de archivos no muestra al culpable.</p>
@@ -138,7 +141,7 @@ a{color:var(--acento)}
     <span class="sello n2">experto</span>
     &nbsp;nota <strong>28/100</strong> ·
     ★812 · 2195 días · última entrega 2026-09-29 ·
-    28,691 descargas en 10 entregas · 2 personas ·
+    28,704 descargas en 10 entregas · 2 personas ·
     0 flujos de compilación · incidencias 6 abiertas.
   </p>
   <p>Ver y cambiar los permisos del manifiesto y las operaciones internas del sistema que el panel de Android esconde, por aplicación y por permiso.</p>
@@ -183,7 +186,7 @@ a{color:var(--acento)}
     <span class="sello n0">principiante</span>
     &nbsp;nota <strong>50/100</strong> ·
     ★5,067 · 3983 días · última entrega 2026-07-01 ·
-    86,545 descargas en 10 entregas · 51 personas ·
+    86,554 descargas en 10 entregas · 51 personas ·
     5 flujos de compilación · incidencias 8 abiertas.
   </p>
   <p>Ver la ocupación de los canales inalámbricos, la potencia de cada red vecina y la calidad del enlace propio, para saber si la lentitud viene del canal y no del proveedor.</p>
@@ -227,8 +230,8 @@ a{color:var(--acento)}
   <p class="meta">
     <span class="sello n0">principiante</span>
     &nbsp;nota <strong>36/100</strong> ·
-    ★108 · 187 días · última entrega 2026-10-04 ·
-    4,737 descargas en 10 entregas · 8 personas ·
+    ★109 · 187 días · última entrega 2026-10-04 ·
+    4,745 descargas en 10 entregas · 8 personas ·
     5 flujos de compilación · incidencias 44 abiertas.
   </p>
   <p>Ver la carga, la temperatura, el voltaje y la salud de la batería con el número real, y seguir cómo cambia a lo largo del día en lugar de mirar el icono.</p>
@@ -273,7 +276,7 @@ a{color:var(--acento)}
     <span class="sello n2">experto</span>
     &nbsp;nota <strong>33/100</strong> ·
     ★176 · 516 días · última entrega 2026-07-29 ·
-    5,276 descargas en 10 entregas · 1 personas ·
+    5,277 descargas en 10 entregas · 1 personas ·
     2 flujos de compilación · incidencias 2 abiertas.
   </p>
   <p>Manejar la depuración de Android desde una computadora con una interfaz: orden directa, registro en vivo y el informe completo del sistema cuando hay que mandar un parte de avería.</p>
@@ -311,5 +314,5 @@ a{color:var(--acento)}
   <p class="meta">Programa de ludoven · MIT · medido el 3 de noviembre de 2026 · licencia MIT
      (<a href="https://github.com/ludoven/QADB/blob/master/LICENSE">archivo</a>) · ficha medida el 4 de noviembre de 2026</p>
 </article>
-<footer><p>Texto CC BY-SA 4.0 · datos CC BY 4.0 · La Bandita. Mediciones del 4 de noviembre de 2026.</p></footer>
+<footer><p>Texto CC BY-SA 4.0 · datos CC BY 4.0 · La Bandita. Mediciones del 21 de noviembre de 2026.</p></footer>
 </div></body></html>

@@ -111,3 +111,10 @@ Y dalo a alguien que lleva años haciéndolo: si no encuentra al menos un dato q
 ## Las seis fichas
 
 Las que siguen están ordenadas por dificultad, no por fama. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando para comprobarlo. Todas se midieron abriendo sus entregas una por una el 3 de noviembre de 2026, y en las dos que viven en GitLab se midió la casa, no el espejo.
+
+## Método Richard Feynman (4 pasos obligatorios)
+
+1. **Seleccionar y estudiar el concepto:** instalación verificada fuera de la tienda oficial mediante fuentes primarias, firmas criptográficas y huella de certificado (`Obtainium`, `F-Droid`, `Accrescent`, `Universal Installer`, `AppVerifier`, `Aurora Store`).
+2. **Enseñarlo con palabras simples:** bajar un archivo de internet a ciegas es confiar en un desconocido. Instalar con seguridad significa comprobar dos cosas antes de abrir la aplicación: primero, que viene del sitio real del autor; segundo, que lleva el mismo sello matemático de firma que las versiones anteriores, para que nadie haya metido código ajeno en el camino.
+3. **Identificar lagunas y volver a la fuente original:** la laguna habitual es creer que F-Droid compila todo de forma idéntica bit a bit siempre, o que «anónimo» en Aurora equivale a invisibilidad total en la red. Vuelve al dato de oficio de `AppVerifier`, `F-Droid` y `Obtainium` para comprobar qué firma verifica cada herramienta (`apksigner` / huella SHA-256) y cuándo una instalación silenciosa depende de permisos del sistema.
+4. **Simplificar y revisar con analogías:** *analogía del lacre de cera en una carta:* el nombre de la aplicación en la portada es fácil de falsificar; la huella del certificado de firma en `AppVerifier` es el sello único de cera del autor: si un impostor abre la carta para cambiar una línea, el sello se rompe y el teléfono rechaza pegarla sobre la versión auténtica. (*Límite:* la firma demuestra que dos entregas vienen de la misma llave, no que el código original esté libre de errores).

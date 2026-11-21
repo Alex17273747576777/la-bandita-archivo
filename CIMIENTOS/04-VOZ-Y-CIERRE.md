@@ -17,11 +17,17 @@ de escribir y se comprueba después con `tools/manual_gate.py`.
 9. **Notas al pie** `## 🗒️` fechadas `(2-nov)`, al final, después del cierre.
 10. **Banda de longitud** declarada en `docs/bandas.json` (Facebook 40.000–45.000; WhatsApp 4.000–7.000).
 
-## Voz
+## Voz y Método Richard Feynman (obligatorio, 4 pasos)
 
 Cuatro atributos que no se negocian: **clara, concreta, sin humo, con la fecha delante**. Se escribe
 como se le explica a un vecino que tiene el teléfono en la mano y prisa. Nada de «revolucionario»,
 «imprescindible», «según expertos», «el único que necesitas».
+
+Toda explicación, lista de textos, análisis y recurso aplica de manera completa el **método Feynman**:
+1. **Seleccionar y estudiar el concepto** en su fuente primaria fechada.
+2. **Enseñarlo con palabras simples**, sin jerga técnica sin traducir, como si se explicara desde cero.
+3. **Identificar lagunas** al redactar y volver al dato medido o código fuente para resolverlas (o declarar el hueco).
+4. **Simplificar y revisar con analogías** claras y fieles a los hechos antes de cerrar.
 
 ## Prohibiciones que hacen sangrar la compuerta
 

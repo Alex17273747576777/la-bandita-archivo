@@ -60,6 +60,7 @@ Las llaves viven **fuera del repositorio**, con permisos `600`. Ninguna herramie
 |---|---|
 | Entender cómo está hecho y por qué | [`ARQUITECTURA.md`](ARQUITECTURA.md) |
 | Ver el índice de reglas y cómo se cambian | [`REGLAS/INDICE-DE-REGLAS.md`](REGLAS/INDICE-DE-REGLAS.md) |
+| Aplicar el método Feynman (norma obligatoria) | [`docs/METODO-FEYNMAN-OBLIGATORIO.md`](docs/METODO-FEYNMAN-OBLIGATORIO.md) |
 | Saber qué hace cada herramienta | [`docs/CODIGO.md`](docs/CODIGO.md) |
 | Encontrar la traducción de rutas antiguas | [`MAPA-DEL-ARCHIVO.md`](MAPA-DEL-ARCHIVO.md) |
 | Ver qué falta y qué está declarado | [`docs/TAREAS.md`](docs/TAREAS.md) |

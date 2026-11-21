@@ -1630,3 +1630,19 @@ queda como historia. Los moldes (maestra 01 es-dominicano y master 01 en-ingles,
 vivo contra la API de GitHub y con firma 💓) se conservan en `ENTORNO-DE-TRABAJO/moldes/` como
 ejemplo de pieza buena. Este addendum no deroga el molde ni el método de medición: los
 conserva intactos para cuando las publicaciones renazcan.
+
+## NOTA DE NORMA OBLIGATORIA (MÉTODO RICHARD FEYNMAN) — sábado 21 de noviembre de 2026
+
+Por mandato del dueño, el **método de enseñanza de Richard Feynman** pasa a ser **norma
+obligatoria e íntegra** (no parcial) en toda tarea, lista de textos, análisis y recurso de
+esta casa, como complemento directo a la voz operativa. Ningún análisis, ficha ni texto de
+enseñanza se da por completo sin cubrir los **cuatro pasos**:
+1. **Seleccionar y estudiar el concepto** desde fuentes primarias verificables y fechadas.
+2. **Enseñarlo por escrito en palabras simples**, sin jerga innecesaria, como a alguien que empieza de cero.
+3. **Identificar lagunas** (donde falte evidencia o claridad) y volver a la fuente original para cerrarlas o declarar el hueco.
+4. **Simplificar y revisar con analogías claras** (marcando dónde termina la analogía) hasta lograr una explicación fluida y comprobable.
+
+La norma y su aplicación viva a listas, análisis y recursos constan en
+`docs/METODO-FEYNMAN-OBLIGATORIO.md`, en los doce capítulos de `guia-maestra/texto/capitulos/`
+y en el verificador `tools/feynman_verificar.py`.
+

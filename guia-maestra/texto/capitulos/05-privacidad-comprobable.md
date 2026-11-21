@@ -111,3 +111,10 @@ Y dalo a alguien que lleva años con esto: si no encuentra al menos un dato que 
 ## Las seis fichas
 
 Las que siguen están ordenadas como el capítulo: primero ver, después cortar, después cifrar, después registrar, después demostrar. Cada una declara para quién es y para quién no, y cada una trae el dato de oficio con su comando. Todas se midieron el 3 de noviembre de 2026 abriendo sus entregas y su código, no repitiendo lo que dice un catálogo.
+
+## Método Richard Feynman (4 pasos obligatorios)
+
+1. **Seleccionar y estudiar el concepto:** observación y bloqueo local de conexiones salientes mediante el servicio VPN local de Android, frente a inspección pasiva de paquetes (`TrackerControl`, `AdAway`, `Rethink`, `personalDNSfilter`, `NetGuard`, `PCAPdroid`).
+2. **Enseñarlo con palabras simples:** las aplicaciones suelen mandar avisos a servidores externos sin preguntarte. Sin necesidad de root, estas herramientas crean una garita de control dentro del propio teléfono: todo el tráfico pasa por esa puerta local y puedes mirar quién llama hacia fuera y cerrar el paso a los rastreadores que no necesites.
+3. **Identificar lagunas y volver a la fuente original:** la laguna clásica es pensar que puedes usar a la vez un cortafuegos VPN local y una VPN comercial externa (Android solo permite una interfaz `VpnService` activa por usuario), o creer que bloquear DNS oculta tu dirección IP al servidor al que sí te conectas. Regresa a las fichas de `Rethink`, `NetGuard` y `PCAPdroid` para distinguir bloqueo por dominio, bloqueo por socket y captura de paquetes.
+4. **Simplificar y revisar con analogías:** *analogía de la centralita telefónica privada:* un cortafuegos por `VpnService` funciona como una recepcionista en tu propia oficina que revisa a qué números llaman tus empleados antes de sacar la llamada; corta las llamadas a anunciantes, pero solo hay una silla de recepcionista por oficina y no cambia el remitente cuando decides dejar pasar una llamada hacia fuera. (*Límite:* las conexiones cifradas con TLS muestran a qué servidor hablan, no siempre el contenido interno sin inspección explícita).
