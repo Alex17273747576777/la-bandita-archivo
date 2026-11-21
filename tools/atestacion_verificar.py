@@ -63,6 +63,21 @@ def manifiesto_del_lote(bundle: Path, vivo: Path | None = None) -> Path:
     return vivo or (RAIZ / "registry" / "_manifiesto-sha256.tsv")
 
 
+def verificar_registro_db_lote(lote_json: Path, db_path: Path | None = None) -> list[str]:
+    """Comprueba la huella lógica (`tablas` + `sql_sha256`) de `registro.db` declarada en un lote."""
+    if not lote_json.is_file():
+        return []
+    try:
+        lote = json.loads(lote_json.read_text(encoding="utf-8"))
+    except Exception as e:
+        return [f"{lote_json.name}: no se pudo leer el JSON del lote ({e})"]
+    if "registro_db" not in lote:
+        return []
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import atestar
+    return atestar.verificar_registro_db(lote, db_path=db_path)
+
+
 def verificar(bundle: Path, manifiesto: Path) -> list[str]:
     fallos: list[str] = []
     try:
@@ -141,6 +156,18 @@ def verificar(bundle: Path, manifiesto: Path) -> list[str]:
                                    capture_output=True, text=True)
                 if "Verified OK" not in (v.stdout or "") + (v.stderr or ""):
                     fallos.append(f"{bundle.name}: la firma no verifica con la clave del certificado")
+
+    # 6 · huella lógica de registry/registro.db en el lote vigente
+    lote_json = bundle.with_suffix("").with_suffix(".json")
+    if lote_json.is_file():
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import atestar
+        try:
+            actual = atestar.lote_actual().resolve()
+        except FileNotFoundError:
+            actual = None
+        if actual is not None and lote_json.resolve() == actual:
+            fallos.extend(verificar_registro_db_lote(lote_json))
     return fallos
 
 

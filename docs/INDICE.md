@@ -260,8 +260,8 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 |---|---|---|
 | [`acta_conformidad.py`](../tools/acta_conformidad.py) | ACTA DE CONFORMIDAD · genera docs/CONFORMIDAD-MANUAL-<fecha>.md a partir de una corrida real. | 125 |
 | [`alinear.py`](../tools/alinear.py) | ALINEAR · poner en el texto la cifra que la fuente acaba de dar (error E26). | 67 |
-| [`atestacion_verificar.py`](../tools/atestacion_verificar.py) | VERIFICADOR DE LA ATESTACIÓN FIRMADA SIN LLAVE (Sigstore keyless). | 174 |
-| [`atestar.py`](../tools/atestar.py) | ATESTACIÓN · sella el registro con SHA-256 y encadena el lote anterior. | 194 |
+| [`atestacion_verificar.py`](../tools/atestacion_verificar.py) | VERIFICADOR DE LA ATESTACIÓN FIRMADA SIN LLAVE (Sigstore keyless). | 201 |
+| [`atestar.py`](../tools/atestar.py) | ATESTACIÓN · sella el registro con SHA-256 y encadena el lote anterior. | 262 |
 | [`auditar_issues.py`](../tools/auditar_issues.py) | AUDITORÍA DE ISSUES · escanea los issues y comentarios propios antes de tocar nada. | 121 |
 | [`auditar_tienda.py`](../tools/auditar_tienda.py) | auditar_tienda.py · clonar una tienda de extensiones y leerla como la lee la app. | 450 |
 | [`autoprueba.py`](../tools/autoprueba.py) | AUTOPRUEBA DE LA VARA · una compuerta que no falla ante un fallo sintético no es una compuerta. | 150 |
@@ -313,7 +313,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`medir_indices.py`](../tools/medir_indices.py) | MIDE LA PIEZA 41 · los índices de extensiones que FMHY no tiene. | 150 |
 | [`medir_indices_42.py`](../tools/medir_indices_42.py) | MIDE LA PIEZA 42 · los 41 índices de Miyomi que nadie había medido. | 154 |
 | [`medir_personales.py`](../tools/medir_personales.py) | MIDE LAS PIEZAS PERSONALES 35–40 · cada tema por su propia vía. | 361 |
-| [`medir_piezas_24_34.py`](../tools/medir_piezas_24_34.py) | MEDICIÓN DE LAS PIEZAS 24–29 Y 32–34 · lo que nunca se había medido. | 337 |
+| [`medir_piezas_24_34.py`](../tools/medir_piezas_24_34.py) | MEDICIÓN DE LAS PIEZAS 24–29 Y 32–34 · lo que nunca se había medido. | 348 |
 | [`merito.py`](../tools/merito.py) | MÉRITO MEDIDO · el Scorecard de OpenSSF sustituye a ★ como señal de mérito. | 150 |
 | [`novedad.py`](../tools/novedad.py) | SELECTOR DE NOVEDAD — encuentra lo nuevo, lo recién publicado y lo desconocido. | 263 |
 | [`novedad_gate.py`](../tools/novedad_gate.py) | TESTIGO DE NOVEDAD Y DE SERIE CORTA — N01–N08, M24–M28, M00. | 248 |

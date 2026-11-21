@@ -36,6 +36,69 @@ class IntegridadTest(unittest.TestCase):
             with self.assertRaises(ValueError): atestar._fecha_hoy()
 
 
+class RegistroDbHuellaTest(unittest.TestCase):
+    def setUp(self):
+        import sqlite3
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = pathlib.Path(self.tmp.name)
+        (self.root / "registry").mkdir()
+        (self.root / "registry/dato.json").write_text('{"valor": 1}')
+        self.db = self.root / "registry/registro.db"
+        con = sqlite3.connect(self.db)
+        con.execute("CREATE TABLE fichas (id TEXT PRIMARY KEY, repo TEXT)")
+        con.execute("INSERT INTO fichas VALUES ('1', 'owner/repo')")
+        con.commit()
+        con.close()
+        self.patches = [patch.object(atestar, "RAIZ", self.root), patch.object(atestar, "ATTESTATIONS", self.root / "attestations")]
+        for p in self.patches: p.start()
+        with patch.object(atestar, "_fecha_hoy", return_value=datetime.date(2020, 1, 1)):
+            self.lote = atestar.sellar()
+
+    def tearDown(self):
+        for p in reversed(self.patches): p.stop()
+        self.tmp.cleanup()
+
+    def test_registro_db_vacuum_no_rompe_sello(self):
+        import sqlite3
+        import atestacion_verificar
+        self.assertIn("registro_db", self.lote)
+        self.assertEqual(self.lote["registro_db"]["tablas"], {"fichas": 1})
+        con = sqlite3.connect(self.db)
+        con.execute("VACUUM")
+        con.close()
+        self.assertEqual(atestar.verificar(), 0)
+        lote_json = self.root / "attestations/lote-2020-01-01.json"
+        self.assertEqual(atestacion_verificar.verificar_registro_db_lote(lote_json, db_path=self.db), [])
+
+    def test_cambio_en_registro_db_rompe_sello(self):
+        import sqlite3
+        import atestacion_verificar
+        con = sqlite3.connect(self.db)
+        con.execute("INSERT INTO fichas VALUES ('2', 'owner/otro')")
+        con.commit()
+        con.close()
+        self.assertEqual(atestar.verificar(), 1)
+        lote_json = self.root / "attestations/lote-2020-01-01.json"
+        fallos = atestacion_verificar.verificar_registro_db_lote(lote_json, db_path=self.db)
+        self.assertTrue(any("registro.db" in f for f in fallos))
+
+    def test_medir_piezas_registra_payloads_sha256_de_cache(self):
+        import hashlib
+        import medir_piezas_24_34
+        cache_dir = self.root / "docs/_medicion-cache"
+        cache_dir.mkdir(parents=True)
+        url = "https://api.github.com/repos/owner/repo"
+        clave = hashlib.sha256(url.encode()).hexdigest()[:24]
+        raw = b'{"url": "https://api.github.com/repos/owner/repo", "codigo": 200, "cuerpo": {"stargazers_count": 5}}'
+        (cache_dir / f"{clave}.json").write_bytes(raw)
+        reg = {}
+        with patch.object(medir_piezas_24_34, "RAIZ", self.root), patch.object(medir_piezas_24_34, "CACHE", cache_dir):
+            code, body = medir_piezas_24_34.pedir(url, registro=reg)
+        self.assertEqual(code, 200)
+        self.assertEqual(body["stargazers_count"], 5)
+        self.assertEqual(reg[f"docs/_medicion-cache/{clave}.json"], hashlib.sha256(raw).hexdigest())
+
+
 class VencimientoReadOnlyTest(unittest.TestCase):
     def test_compuerta_no_altera_registro_ni_informes(self):
         import vencimiento

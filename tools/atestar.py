@@ -27,6 +27,7 @@ import hashlib
 import json
 import os
 import re
+import sqlite3
 import sys
 from datetime import date
 from pathlib import Path
@@ -69,6 +70,67 @@ def _huella_archivo(p: Path) -> str:
     return h.hexdigest()
 
 
+def huella_registro_db(db_path: Path | None = None) -> dict | None:
+    """Calcula una huella del contenido lógico de `registry/registro.db`:
+    recuento de filas por tabla + SHA-256 del volcado SQL determinista.
+    Un VACUUM sin cambio de filas conserva la misma huella; cualquier cambio
+    en los datos la modifica sin depender de los bytes del archivo SQLite."""
+    ruta = db_path or (RAIZ / "registry" / "registro.db")
+    if not ruta.is_file():
+        return None
+    wal = ruta.with_name(ruta.name + "-wal")
+    uri = f"file:{ruta.resolve()}?mode=ro"
+    if not wal.exists() or wal.stat().st_size == 0:
+        uri += "&immutable=1"
+    con = sqlite3.connect(uri, uri=True)
+    try:
+        tablas = [
+            r[0]
+            for r in con.execute(
+                "SELECT name FROM sqlite_master WHERE type='table' "
+                "AND name NOT LIKE 'sqlite_%' ORDER BY name"
+            )
+        ]
+        conteos = {
+            t: con.execute(f'SELECT COUNT(*) FROM "{t}"').fetchone()[0]
+            for t in tablas
+        }
+        h = hashlib.sha256()
+        for linea in con.iterdump():
+            h.update((linea + "\n").encode("utf-8"))
+        sql_sha256 = h.hexdigest()
+    finally:
+        con.close()
+    return {
+        "archivo": "registry/registro.db",
+        "tablas": conteos,
+        "sql_sha256": sql_sha256,
+    }
+
+
+def verificar_registro_db(lote: dict, db_path: Path | None = None) -> list[str]:
+    """Comprueba que la huella lógica de `registro.db` coincida con la del lote."""
+    esperada = lote.get("registro_db")
+    if not isinstance(esperada, dict):
+        return []
+    actual = huella_registro_db(db_path)
+    if actual is None:
+        return ["registro.db: falta registry/registro.db para comprobar la huella del lote"]
+    fallos: list[str] = []
+    if actual.get("tablas") != esperada.get("tablas"):
+        fallos.append(
+            f"registro.db: recuento de tablas distinto "
+            f"(esperado {esperada.get('tablas')}, actual {actual.get('tablas')})"
+        )
+    if actual.get("sql_sha256") != esperada.get("sql_sha256"):
+        fallos.append(
+            f"registro.db: contenido SQL distinto "
+            f"(esperado {str(esperada.get('sql_sha256'))[:16]}…, "
+            f"actual {actual['sql_sha256'][:16]}…)"
+        )
+    return fallos
+
+
 def _cargar_lote_anterior() -> dict | None:
     """Busca el lote de atestación más reciente previo a hoy."""
     hoy = _fecha_hoy().isoformat()
@@ -101,6 +163,9 @@ def sellar() -> dict:
         "anterior": huella_anterior,
         "tabla": huellas,
     }
+    reg_db = huella_registro_db()
+    if reg_db is not None:
+        lote["registro_db"] = reg_db
 
     ATTESTATIONS.mkdir(parents=True, exist_ok=True)
     hoy_iso = _fecha_hoy().isoformat()
@@ -162,7 +227,8 @@ def verificar() -> int:
     ausentes = [r for r in tabla_lote if r not in huellas_actuales]
     nuevos = [r for r in huellas_actuales if r not in tabla_lote]
 
-    ok = not alterados and not ausentes and not nuevos
+    fallos_db = verificar_registro_db(lote)
+    ok = not alterados and not ausentes and not nuevos and not fallos_db
     if ok:
         print(f"integridad: {len(lista)} archivos OK · 0 alterados o ausentes · 0 sin sellar · 0 desaparecidos")
         return 0
@@ -174,6 +240,8 @@ def verificar() -> int:
         print(f"  ausente: {r}")
     for r in nuevos[:10]:
         print(f"  sin sellar: {r}")
+    for f in fallos_db:
+        print(f"  {f}")
     return 1
 
 

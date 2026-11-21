@@ -19,7 +19,10 @@ Qué mide por repositorio, y de dónde lo saca:
 
 Reglas de la casa que respeta:
   * No inventa: si un dato no se puede leer, se guarda como null y se cuenta aparte.
-  * Cachea cada payload y deja el SHA-256 en el JSON de medición (evidencia).
+  * Cachea cada payload en docs/_medicion-cache/ y guarda sus SHA-256 en el campo
+    `payloads_sha256` de los JSON nuevos. Los JSON ya publicados y sellados
+    (`docs/MEDICION-*-2026-11-08.json`) se dejan intactos —su evidencia pasa por el
+    manifiesto sellado; ver `docs/POLITICA-DUPLICADOS-Y-DATOS.md` §2—.
   * No toca el registro ni el sello: solo escribe docs/MEDICION-*.json.
 
 Uso:
@@ -165,13 +168,16 @@ def token() -> str:
 TOKEN = ""
 
 
-def pedir(url: str, intentos: int = 3) -> tuple[int, object]:
-    """GET a la API. Devuelve (código, cuerpo). Cachea el cuerpo y su sha256."""
+def pedir(url: str, intentos: int = 3, registro: dict[str, str] | None = None) -> tuple[int, object]:
+    """GET a la API. Devuelve (código, cuerpo). Cachea el cuerpo y registra su sha256."""
     CACHE.mkdir(parents=True, exist_ok=True)
     clave = hashlib.sha256(url.encode()).hexdigest()[:24]
     cacheado = CACHE / f"{clave}.json"
     if cacheado.exists():
-        d = json.loads(cacheado.read_text(encoding="utf-8"))
+        raw = cacheado.read_bytes()
+        if registro is not None:
+            registro[cacheado.relative_to(RAIZ).as_posix()] = hashlib.sha256(raw).hexdigest()
+        d = json.loads(raw.decode("utf-8"))
         return d["codigo"], d["cuerpo"]
 
     req = urllib.request.Request(url, headers={
@@ -199,14 +205,17 @@ def pedir(url: str, intentos: int = 3) -> tuple[int, object]:
                 time.sleep(5)
                 continue
             break
-    cacheado.write_text(json.dumps({"url": url, "codigo": codigo, "cuerpo": cuerpo},
-                                   ensure_ascii=False), encoding="utf-8")
+    payload_bytes = json.dumps({"url": url, "codigo": codigo, "cuerpo": cuerpo},
+                               ensure_ascii=False).encode("utf-8")
+    cacheado.write_bytes(payload_bytes)
+    if registro is not None:
+        registro[cacheado.relative_to(RAIZ).as_posix()] = hashlib.sha256(payload_bytes).hexdigest()
     return codigo, cuerpo
 
 
-def medir_repo(repo: str) -> dict:
+def medir_repo(repo: str, registro: dict[str, str] | None = None) -> dict:
     ficha: dict = {"repo": repo}
-    c, d = pedir(f"https://api.github.com/repos/{repo}")
+    c, d = pedir(f"https://api.github.com/repos/{repo}", registro=registro)
     if c != 200 or not isinstance(d, dict):
         ficha.update({"estado": "sin_objeto" if c == 404 else f"error_{c}", "http": c})
         return ficha
@@ -231,7 +240,7 @@ def medir_repo(repo: str) -> dict:
             ficha[clave] = None
 
     # Última entrega y todas las entregas
-    c, rel = pedir(f"https://api.github.com/repos/{repo}/releases/latest")
+    c, rel = pedir(f"https://api.github.com/repos/{repo}/releases/latest", registro=registro)
     if c == 200 and isinstance(rel, dict):
         adjuntos = rel.get("assets") or []
         nombres = [a.get("name", "") for a in adjuntos]
@@ -252,7 +261,7 @@ def medir_repo(repo: str) -> dict:
         ficha.update({"rel": None, "rel_fecha": None, "rel_dias": None,
                       "adjuntos_ultima": 0, "huellas_ultima": 0, "descargas_ultima": 0})
 
-    c, rels = pedir(f"https://api.github.com/repos/{repo}/releases?per_page=100")
+    c, rels = pedir(f"https://api.github.com/repos/{repo}/releases?per_page=100", registro=registro)
     if c == 200 and isinstance(rels, list):
         adj = sum(len(r.get("assets") or []) for r in rels)
         hue = sum(1 for r in rels for a in (r.get("assets") or [])
@@ -273,8 +282,9 @@ def medir_pieza(numero: str) -> Path:
     datos = TEMAS[numero]
     ahora = datetime.now(timezone.utc)
     fichas = {}
+    payloads_sha256: dict[str, str] = {}
     for i, repo in enumerate(datos["repos"], 1):
-        fichas[repo] = medir_repo(repo)
+        fichas[repo] = medir_repo(repo, registro=payloads_sha256)
         print(f"  {i:>2}/{len(datos['repos'])}  {repo:45} "
               f"★{fichas[repo].get('stars')}  {fichas[repo].get('estado')}")
         time.sleep(0.4)
@@ -307,6 +317,7 @@ def medir_pieza(numero: str) -> Path:
         "fuente": "API pública de GitHub (REST v2022-11-28)",
         "repos": fichas,
         "totales": totales,
+        "payloads_sha256": dict(sorted(payloads_sha256.items())),
     }
     salida = DOCS / f"MEDICION-{numero}-2026-11-08.json"
     salida.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
