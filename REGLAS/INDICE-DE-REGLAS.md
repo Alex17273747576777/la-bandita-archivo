@@ -24,7 +24,13 @@ toca, con nota fechada.*
   local y espejado.
 - **`tools/vara.py`** (G0-G17) y **`tools/vara_idiomas.py`** (G20-G23) — las compuertas.
   Las compuertas que miden piezas (G0, G6, G8, G10, G12, G13-piezas) quedan **retiradas hasta
-  nuevo aviso** desde el 2026-11-15: informan «SIN PIEZAS» y pasan; no miden aire.
+  nuevo aviso** desde el 2026-11-15: informan «SIN PIEZAS» y pasan; no miden aire. Desde el
+  2026-11-21 `tools/vara_idiomas.py` sigue el mismo criterio en ausencia de `01-PUBLICACIONES`
+  comprobando los moldes canónicos de `ENTORNO-DE-TRABAJO/moldes/`, y aplica G20-G23 estrictas en
+  cuanto exista la carpeta o se indique una ruta explícita.
+- **`docs/REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`** — síntesis operativa de publicaciones vigentes,
+  envíos congelados (`docs/envios/`), guía maestra (`guia-maestra/`), web pública (`web/`) y
+  criterios de reapertura.
 
 ## Capa 3 · Habilidades y parches
 
@@ -48,6 +54,11 @@ toca, con nota fechada.*
   toda tarea, lista de textos, análisis y recurso (`CORAZON-LA-BANDITA.md`, `CIMIENTOS/04-VOZ-Y-CIERRE.md`,
   `PROCESOS/01-PIEZA.md`, `docs/METODO-FEYNMAN-OBLIGATORIO.md`, los 12 capítulos de `guia-maestra/` y
   `tools/feynman_verificar.py`). Ver `docs/ACTA-FEYNMAN-2026-11-21.md`.
+- **(21-nov-2026 — reglas de publicación y retiro en `vara_idiomas`):** consolidadas las reglas de
+  publicaciones vigentes vs. retiradas en `CORAZON-LA-BANDITA.md` y
+  `docs/REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`; `tools/vara_idiomas.py` verifica los moldes canónicos
+  cuando `01-PUBLICACIONES/` está retirada y exige G20–G23 si hay publicaciones o ruta explícita
+  (`tests/test_vara_idiomas.py`). Ver `docs/ACTA-REGLAS-Y-PUBLICACIONES-2026-11-21.md`.
 
 ## Cómo se cambia una regla
 

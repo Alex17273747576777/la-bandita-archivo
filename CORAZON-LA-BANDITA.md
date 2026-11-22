@@ -1646,3 +1646,22 @@ La norma y su aplicación viva a listas, análisis y recursos constan en
 `docs/METODO-FEYNMAN-OBLIGATORIO.md`, en los doce capítulos de `guia-maestra/texto/capitulos/`
 y en el verificador `tools/feynman_verificar.py`.
 
+## NOTA DE PUBLICACIONES VIGENTES Y RETIRO EN VARA DE IDIOMAS — sábado 21 de noviembre de 2026
+
+En continuidad con el addendum de retiro del 15 de noviembre y la norma Feynman del 21 de noviembre,
+se fija la regla explícita de inventario para las publicaciones del archivo:
+
+1. **Serie activa retirada:** `Arena-Reimagined/01-PUBLICACIONES/` permanece retirada hasta orden
+   expresa del dueño; `tools/vara_idiomas.py` reconoce este estado cuando la ruta por defecto no
+   existe, comprueba los moldes canónicos en `ENTORNO-DE-TRABAJO/moldes/` e informa `SIN PUBLICACIONES`
+   sin dar falso rojo (si se reactiva la carpeta o se pasa una ruta por argumento, exige G20–G23
+   en verde).
+2. **Publicaciones y archivos preservados vigentes:** la Guía Maestra (`guia-maestra/`, 12 capítulos,
+   70 fichas con 4/4 pasos Feynman), el catálogo medido (`registry/`, 6.838 fichas), el paquete
+   congelado de envíos (`docs/envios/facebook/` y `docs/envios/whatsapp/` + `_historico/`) y el sitio
+   público congelado en `web/` (`https://alex17273747576777.github.io/la-bandita-archivo/`).
+3. **Reapertura futura:** cualquier nueva serie de publicaciones deberá cumplir `docs/bandas.json`
+   (6.000–45.000 caracteres para maestro), el método Richard Feynman completo (4 pasos), G20–G23 y
+   firma `💓` fechada, documentado en `docs/REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`.
+
+

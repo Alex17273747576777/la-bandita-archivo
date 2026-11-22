@@ -25,16 +25,17 @@ La casa quedó en **tres capas vivas y un archivo**:
 
 ---
 
-## Estado hoy (15 de noviembre de 2026)
+## Estado hoy (21 de noviembre de 2026)
 
 | Qué | Valor del corte | Cómo se comprueba |
 |---|---|---|
 | Compuertas de la casa | `fallos: NINGUNO` | `make verificar` |
-| Banditas por idioma | G20 a G23 sobre los moldes | `python3 tools/vara_idiomas.py` |
-| Fichas del registro | 6.838 válidas | `python3 tools/registro_construir.py --verificar` |
+| Banditas por idioma | Moldes verificados (retiro vigente) · G20–G23 listas | `python3 tools/vara_idiomas.py` |
+| Norma Richard Feynman | 12 capítulos + 6 documentos normativos (4/4 pasos) | `python3 tools/feynman_verificar.py` |
+| Fichas del registro | 6.838 válidas (con huella lógica SQL) | `python3 tools/registro_construir.py --verificar` |
 | Sello | lote del día, huella encadenada a la anterior | `python3 tools/atestar.py --verificar` |
 | Guía maestra | `guia-maestra/` · 12 capítulos · 70 fichas | `make medir-guia` |
-| Publicaciones | **retiradas** el 2026-11-15 | Addendum 3 del acta |
+| Reglas de publicación | `docs/REGLAS-DE-PUBLICACION-Y-ARCHIVO.md` (envíos congelados en `docs/envios/`, serie canal retirada) | Addendum 3 + nota 2026-11-21 |
 
 Las cifras del lote vigente (fecha, archivos, huella y huella anterior) se leen de su JSON en `attestations/`: ningún número se escribe a mano donde un archivo puede decirlo.
 
@@ -60,6 +61,7 @@ Las llaves viven **fuera del repositorio**, con permisos `600`. Ninguna herramie
 |---|---|
 | Entender cómo está hecho y por qué | [`ARQUITECTURA.md`](ARQUITECTURA.md) |
 | Ver el índice de reglas y cómo se cambian | [`REGLAS/INDICE-DE-REGLAS.md`](REGLAS/INDICE-DE-REGLAS.md) |
+| Ver las reglas vigentes de publicación y archivo | [`docs/REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`](docs/REGLAS-DE-PUBLICACION-Y-ARCHIVO.md) |
 | Aplicar el método Feynman (norma obligatoria) | [`docs/METODO-FEYNMAN-OBLIGATORIO.md`](docs/METODO-FEYNMAN-OBLIGATORIO.md) |
 | Saber qué hace cada herramienta | [`docs/CODIGO.md`](docs/CODIGO.md) |
 | Encontrar la traducción de rutas antiguas | [`MAPA-DEL-ARCHIVO.md`](MAPA-DEL-ARCHIVO.md) |

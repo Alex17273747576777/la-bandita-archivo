@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 167 documentos en `docs/`, agrupados en 19 familias, y 79 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 169 documentos en `docs/`, agrupados en 19 familias, y 79 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -48,6 +48,7 @@
 | [`ACTA-PODA-2026-11-03.md`](ACTA-PODA-2026-11-03.md) | Acta de la poda de residuos · 3 de noviembre de 2026 | Un archivo es residuo cuando **se puede reconstruir** desde otro que se queda, o cuando **es idéntico** a otro que ya está en el árbol. | 45 |
 | [`ACTA-REEMPLAZO-19-2026-11-05.md`](ACTA-REEMPLAZO-19-2026-11-05.md) | Acta · reemplazo de raíz de la pieza 19 (5-nov-2026) | — sin primera oración con cuerpo — | 41 |
 | [`ACTA-REFINADO-Y-VERIFICACION-2026-11-03-B.md`](ACTA-REFINADO-Y-VERIFICACION-2026-11-03-B.md) | ACTA · refinado del repositorio y verificación triple (segunda pasada) | Quince archivos de gobierno descargados con la API sobre el commit publicado y comparados por SHA-256 contra el manifiesto local. **13 iguales en la… | 83 |
+| [`ACTA-REGLAS-Y-PUBLICACIONES-2026-11-21.md`](ACTA-REGLAS-Y-PUBLICACIONES-2026-11-21.md) | Acta de reglas vigentes de publicación y archivo — 21 de noviembre de 2026 | Consolidar las reglas de publicaciones vigentes vs. retiradas en el archivo (`la-bandita-archivo`), corregir el falso rojo de `tools/vara_idiomas.py`… | 25 |
 | [`ACTA-REINICIO-CICLO-2026-11-02.md`](ACTA-REINICIO-CICLO-2026-11-02.md) | Acta de reinicio del ciclo de publicaciones · 2 de noviembre de 2026 | Una pieza publicada es evidencia: se midió, se gateó y salió a la calle. | 87 |
 | [`ACTA-REMEDICION-2026-11-03.md`](ACTA-REMEDICION-2026-11-03.md) | ACTA · la memoria a su sitio y el registro remedido | La regla que decide el destino es la misma que ya ordenaba la raíz: **el presente en la puerta, la memoria con su fecha.** `02-ARCHIVO/` ya era la… | 113 |
 | [`ACTA-REMEDICION-ECOSISTEMA-2026-11-04.md`](ACTA-REMEDICION-ECOSISTEMA-2026-11-04.md) | Acta de la remedición del ecosistema · 4 de noviembre de 2026 | Cada pieza tiene su archivo de medición con fecha **y hora**: `docs/MEDICION-0X-2026-11-04.json`. | 73 |
@@ -129,6 +130,7 @@
 | [`MAPA-125-FACEBOOK.md`](MAPA-125-FACEBOOK.md) | MAPA DE LAS 125 PIEZAS DE FACEBOOK · propuesta para aprobación | Cada línea es una pieza: **número · título · el gancho** —la tensión medida que la justifica, no un adjetivo— y **la materia prima**, que son… | 317 |
 | [`METODO-FEYNMAN-OBLIGATORIO.md`](METODO-FEYNMAN-OBLIGATORIO.md) | Método de Richard Feynman obligatorio en La Bandita | Para cada tarea, lista de textos, análisis de datos o recurso recomendado, se aplica el **ciclo completo de cuatro pasos** desarrollado por **Richard… | 53 |
 | [`REGLA-DE-ALMACENAMIENTO-2026-11-04.md`](REGLA-DE-ALMACENAMIENTO-2026-11-04.md) | Regla del dueño · el almacén es GitHub y la revisión va antes | LBT=… python3 tools/preflight.py --tema descarga      # fecha + historial + ecosistema, en ese orden | 47 |
+| [`REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`](REGLAS-DE-PUBLICACION-Y-ARCHIVO.md) | Reglas vigentes de publicación y archivo de La Bandita | — sin primera oración con cuerpo — | 33 |
 | [`REPARTO-40-PIEZAS-2026-11-09.md`](REPARTO-40-PIEZAS-2026-11-09.md) | Reparto de las 40 piezas · recursos nuevos (P07) | Los temas **no se inventan**: salen de las secciones reales de fmhy.net (74 secciones en `/mobile`, y las de `/system-tools`, `/file-tools`,… | 68 |
 | [`RESPUESTA-ISSUE-7162-nbats.md`](RESPUESTA-ISSUE-7162-nbats.md) | RESPUESTA ISSUE 7162 nbats | Fair question — I should have been clearer. **Not a new section.** Here's what I'd actually suggest, based on how you already do it: | 82 |
 | [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 145 |
@@ -336,7 +338,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`tareas.py`](../tools/tareas.py) | TAREAS · el extractor del archivo: de las piezas al tablero, sin copiar a mano. | 326 |
 | [`tres_lecturas.py`](../tools/tres_lecturas.py) | TRES LECTURAS · la misma medición, tres veces y por tres caminos distintos. | 303 |
 | [`vara.py`](../tools/vara.py) | LA VARA · las diecisiete compuertas de la casa, ejecutables en un solo comando. | 647 |
-| [`vara_idiomas.py`](../tools/vara_idiomas.py) | (sin docstring) | 81 |
+| [`vara_idiomas.py`](../tools/vara_idiomas.py) | (sin docstring) | 125 |
 | [`vencimiento.py`](../tools/vencimiento.py) | VENCIMIENTO · qué ficha sigue vigente, cuál está por vencer y cuál hay que volver a medir. | 299 |
 | [`web.py`](../tools/web.py) | WEB · arma la página pública del archivo, en un solo archivo, sin nada externo. | 273 |
 

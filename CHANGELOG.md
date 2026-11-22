@@ -6,6 +6,25 @@ Criterio de numeración, para que no sea arbitraria: **menor** cuando cambia una
 
 ---
 
+## [3.1.0] — 2026-11-21
+
+Norma Feynman completa, integridad lógica SQL y reglas consolidadas de publicación y archivo.
+
+- Incorporado el Método Richard Feynman completo (4 pasos obligatorios) en `CORAZON-LA-BANDITA.md`,
+  `REGLAS/INDICE-DE-REGLAS.md`, `CIMIENTOS/04-VOZ-Y-CIERRE.md`, `PROCESOS/01-PIEZA.md`,
+  `SKILLS/escribir-pieza/SKILL.md`, `docs/METODO-FEYNMAN-OBLIGATORIO.md`, los 12 capítulos de
+  `guia-maestra/texto/capitulos/*.md`, `tools/feynman_verificar.py` y `tests/test_feynman.py`.
+- Añadidas huellas lógicas SQL de `registry/registro.db` en `tools/atestar.py` /
+  `tools/atestacion_verificar.py` (`tests/test_atestar_integridad.py`) y `payloads_sha256` en
+  `tools/medir_piezas_24_34.py`.
+- Consolidadas las reglas vigentes de publicación y archivo en `CORAZON-LA-BANDITA.md`,
+  `REGLAS/INDICE-DE-REGLAS.md`, `docs/REGLAS-DE-PUBLICACION-Y-ARCHIVO.md` y
+  `docs/ACTA-REGLAS-Y-PUBLICACIONES-2026-11-21.md`; `tools/vara_idiomas.py` verifica los moldes
+  canónicos en modo retiro vigente (`tests/test_vara_idiomas.py`) y `README.md` se alinea al corte
+  del 2026-11-21.
+
+---
+
 ## [3.0.0] — 2026-11-15
 
 El retiro y la casa de reglas. Por orden del dueño se borraron todas las publicaciones:
