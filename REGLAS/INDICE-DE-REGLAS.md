@@ -1,6 +1,6 @@
 # INDICE DE REGLAS — La Bandita
 
-*Corte: noche del sábado 14 de noviembre de 2026 (UTC-4). Este índice **señala** la ley viva;
+*Corte: sábado 21 de noviembre de 2026 (UTC-4). Este índice **señala** la ley viva;
 no la sustituye. En conflicto de reglas manda la precedencia de `CIMIENTOS/01-PRECEDENCIA.md`.
 Ninguna regla se cambia de pasada: primero se mide, luego se escribe aquí y en el fichero que
 toca, con nota fechada.*
@@ -59,6 +59,11 @@ toca, con nota fechada.*
   `docs/REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`; `tools/vara_idiomas.py` verifica los moldes canónicos
   cuando `01-PUBLICACIONES/` está retirada y exige G20–G23 si hay publicaciones o ruta explícita
   (`tests/test_vara_idiomas.py`). Ver `docs/ACTA-REGLAS-Y-PUBLICACIONES-2026-11-21.md`.
+- **(21-nov-2026 — eliminación de cifra fija en `G13` y registro de estado Pieza 01):** `tools/vara.py`
+  (`g13_novedad`) deja de reportar `"4/7 piezas pasan M24–M28"` cuando no existen piezas activas y pasa
+  a declarar `"SIN PIEZAS · serie retirada (M24–M28 inactivo)"` o a medir piezas reales presentes
+  (`tests/test_vara_retiro.py`); además se consolida en `docs/REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`
+  el bloqueo factual de Pieza 01 (`F01`–`F04`) hasta verificación integral.
 
 ## Cómo se cambia una regla
 

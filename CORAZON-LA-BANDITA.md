@@ -1664,4 +1664,13 @@ se fija la regla explícita de inventario para las publicaciones del archivo:
    (6.000–45.000 caracteres para maestro), el método Richard Feynman completo (4 pasos), G20–G23 y
    firma `💓` fechada, documentado en `docs/REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`.
 
+## NOTA DE MEDICIÓN REAL EN G13 Y BLOQUEO FACTUAL PIEZA 01 — sábado 21 de noviembre de 2026
+
+En cumplimiento de la regla de no reportar métricas inventadas sobre carpetas ausentes, `tools/vara.py`
+(`g13_novedad`) deja de emitir la cifra histórica fija `"4/7"` cuando `Arena-Reimagined/01-PUBLICACIONES/`
+está retirada: declara explícitamente `"SIN PIEZAS · serie retirada (M24–M28 inactivo)"` y solo
+contabiliza piezas con marcas `M24–M28` cuando existan ficheros reales (`tests/test_vara_retiro.py`).
+Asimismo, Pieza 01 permanece bloqueada para publicación hasta cerrar las cuatro familias de fuentes
+primarias (`F01`–`F04`) registradas en `docs/REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`.
+
 

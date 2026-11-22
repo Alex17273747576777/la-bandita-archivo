@@ -130,7 +130,7 @@
 | [`MAPA-125-FACEBOOK.md`](MAPA-125-FACEBOOK.md) | MAPA DE LAS 125 PIEZAS DE FACEBOOK · propuesta para aprobación | Cada línea es una pieza: **número · título · el gancho** —la tensión medida que la justifica, no un adjetivo— y **la materia prima**, que son… | 317 |
 | [`METODO-FEYNMAN-OBLIGATORIO.md`](METODO-FEYNMAN-OBLIGATORIO.md) | Método de Richard Feynman obligatorio en La Bandita | Para cada tarea, lista de textos, análisis de datos o recurso recomendado, se aplica el **ciclo completo de cuatro pasos** desarrollado por **Richard… | 53 |
 | [`REGLA-DE-ALMACENAMIENTO-2026-11-04.md`](REGLA-DE-ALMACENAMIENTO-2026-11-04.md) | Regla del dueño · el almacén es GitHub y la revisión va antes | LBT=… python3 tools/preflight.py --tema descarga      # fecha + historial + ecosistema, en ese orden | 47 |
-| [`REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`](REGLAS-DE-PUBLICACION-Y-ARCHIVO.md) | Reglas vigentes de publicación y archivo de La Bandita | — sin primera oración con cuerpo — | 33 |
+| [`REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`](REGLAS-DE-PUBLICACION-Y-ARCHIVO.md) | Reglas vigentes de publicación y archivo de La Bandita | — sin primera oración con cuerpo — | 41 |
 | [`REPARTO-40-PIEZAS-2026-11-09.md`](REPARTO-40-PIEZAS-2026-11-09.md) | Reparto de las 40 piezas · recursos nuevos (P07) | Los temas **no se inventan**: salen de las secciones reales de fmhy.net (74 secciones en `/mobile`, y las de `/system-tools`, `/file-tools`,… | 68 |
 | [`RESPUESTA-ISSUE-7162-nbats.md`](RESPUESTA-ISSUE-7162-nbats.md) | RESPUESTA ISSUE 7162 nbats | Fair question — I should have been clearer. **Not a new section.** Here's what I'd actually suggest, based on how you already do it: | 82 |
 | [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 145 |
@@ -337,7 +337,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`sync_fuentes.py`](../tools/sync_fuentes.py) | sync_fuentes.py · pone al día los créditos y las versiones de lo que la biblioteca cita. | 104 |
 | [`tareas.py`](../tools/tareas.py) | TAREAS · el extractor del archivo: de las piezas al tablero, sin copiar a mano. | 326 |
 | [`tres_lecturas.py`](../tools/tres_lecturas.py) | TRES LECTURAS · la misma medición, tres veces y por tres caminos distintos. | 303 |
-| [`vara.py`](../tools/vara.py) | LA VARA · las diecisiete compuertas de la casa, ejecutables en un solo comando. | 647 |
+| [`vara.py`](../tools/vara.py) | LA VARA · las diecisiete compuertas de la casa, ejecutables en un solo comando. | 664 |
 | [`vara_idiomas.py`](../tools/vara_idiomas.py) | (sin docstring) | 125 |
 | [`vencimiento.py`](../tools/vencimiento.py) | VENCIMIENTO · qué ficha sigue vigente, cuál está por vencer y cuál hay que volver a medir. | 299 |
 | [`web.py`](../tools/web.py) | WEB · arma la página pública del archivo, en un solo archivo, sin nada externo. | 273 |

@@ -29,4 +29,12 @@
 
 1. Cumplir la banda del maestro (`6.000`–`45.000` car. en `docs/bandas.json`) y la norma completa de 4 pasos de Richard Feynman.
 2. Derivar por idioma/plataforma (`es-dominicano`: FB/WA/IG/TG; `en-ingles`: Reddit/X/Discord/TG) pasando **`tools/vara_idiomas.py`** sin rojos (`G20`–`G23`).
-3. Verificar **`make verificar`** (`fallos: NINGUNO`), actualizar **`make libro`** y resellar con **`make sellar`** (`attestations/lote-AAAA-MM-DD.{json,tsv}`).
+3. Verificar **`make verificar`** (`fallos: NINGUNO`, con `G13` midiendo piezas reales o declarando `SIN PIEZAS` si la serie sigue retirada), actualizar **`make libro`** y resellar con **`make sellar`** (`attestations/lote-AAAA-MM-DD.{json,tsv}`).
+
+## Estado de revisión factual de piezas históricas (Pieza 01)
+
+- **Pieza 01 ES (no publicable en estado actual):** las comprobaciones documentadas en `entorno-de-herramientas-de-trabajo/docs/LA-BANDITA-PIEZA-01-FUENTES-PRIORITARIAS.md` registran cuatro bloqueos que deben resolverse antes de cualquier reapertura:
+  - `F01` (F-Droid compilación reproducible): no generalizar que todas las apps en F-Droid son obligatoriamente reproducibles.
+  - `F02` (firmas APK): distinguir integridad respecto a clave confiable frente a identidad real y advertir respaldo antes de desinstalar.
+  - `F03` (Exodus Privacy): análisis estático de firmas de SDK; la presencia no prueba ejecución activa ni extrapola a otras tiendas/versiones.
+  - `F04` (cronología de verificación Android): fijar fuentes primarias fechadas previas al corte aplicable y validar cada candidato antes de aceptar cierre.

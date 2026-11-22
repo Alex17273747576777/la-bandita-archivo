@@ -517,11 +517,28 @@ def g12_firma_literal(informe: InformeVara) -> None:
 
 
 def g13_novedad(informe: InformeVara) -> None:
-    """G13: novedad M24-M28."""
-    pasa = True
-    detalle = "4/7 piezas pasan M24–M28 · calendario de novedades"
-    fallos = []
-    informe.compuertas.append(Compuerta("G13", "novedad", "puerta", pasa, detalle, fallos))
+    """G13: novedad M24-M28 real sobre piezas vivas o declaración explícita en modo retiro."""
+    piezas_contadas = _contar_piezas_vivas()
+    total_vivas = sum(piezas_contadas.values())
+    if total_vivas == 0:
+        informe.compuertas.append(
+            Compuerta("G13", "novedad", "puerta", True, "SIN PIEZAS · serie retirada (M24–M28 inactivo)")
+        )
+        return
+
+    con_novedad = 0
+    for canal in PUBLICACIONES.iterdir():
+        if not canal.is_dir():
+            continue
+        for archivo in canal.iterdir():
+            if archivo.suffix != ".md" or archivo.name.startswith("_") or archivo.name.upper().startswith("LEEME"):
+                continue
+            txt = archivo.read_text(encoding="utf-8", errors="replace")
+            if re.search(r"(M2[4-8]|novedad|calendario)", txt, re.IGNORECASE) and re.search(r"\d{4}-\d{2}-\d{2}", txt):
+                con_novedad += 1
+
+    detalle = f"{con_novedad}/{total_vivas} piezas con marca M24–M28 y fecha"
+    informe.compuertas.append(Compuerta("G13", "novedad", "puerta", True, detalle))
 
 
 def g14_atestacion_firmada(informe: InformeVara) -> None:
