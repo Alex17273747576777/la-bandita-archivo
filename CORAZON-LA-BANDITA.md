@@ -1673,4 +1673,12 @@ contabiliza piezas con marcas `M24–M28` cuando existan ficheros reales (`tests
 Asimismo, Pieza 01 permanece bloqueada para publicación hasta cerrar las cuatro familias de fuentes
 primarias (`F01`–`F04`) registradas en `docs/REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`.
 
+## ERRATA DE G13: VALIDACIÓN EFECTIVA — sábado 21 de noviembre de 2026
+
+La medición anterior de G13 contaba marcas de texto, pero no ejecutaba M24–M28 y aprobaba siempre
+cuando había piezas. Se corrige para ejecutar `tools/novedad_gate.py` sobre cada pieza activa y validar
+el calendario con sus campos, fechas y límite de 90 días. Cualquier pieza roja o calendario inválido
+hace fallar G13. La serie sigue retirada; el resultado «SIN PIEZAS» permanece válido en ese modo.
+La regresión queda cubierta en `tests/test_vara_retiro.py` y `tools/autoprueba.py`.
+
 

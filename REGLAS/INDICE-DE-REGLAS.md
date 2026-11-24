@@ -64,6 +64,10 @@ toca, con nota fechada.*
   a declarar `"SIN PIEZAS · serie retirada (M24–M28 inactivo)"` o a medir piezas reales presentes
   (`tests/test_vara_retiro.py`); además se consolida en `docs/REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`
   el bloqueo factual de Pieza 01 (`F01`–`F04`) hasta verificación integral.
+- **(21-nov-2026 — G13 ejecuta M24–M28):** la compuerta reutiliza `tools/novedad_gate.py` para validar
+  cada pieza activa y el calendario de novedades; cualquier pieza ROJA o calendario inválido falla.
+  Sin piezas activas conserva la declaración explícita de retiro. Casos positivos y negativos en
+  `tests/test_vara_retiro.py`; el árbol sintético de `tools/autoprueba.py` ahora ejercita una serie activa.
 
 ## Cómo se cambia una regla
 

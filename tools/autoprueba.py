@@ -41,6 +41,11 @@ def _crear_arbol_falso(tmp: Path) -> None:
     (tmp / "registry").mkdir(parents=True)
     (tmp / "attestations").mkdir(parents=True)
     (tmp / "docs").mkdir(parents=True)
+    # Serie activa sintética con una pieza que G13 debe rechazar. Sin esto,
+    # G13 quedaría en modo retirada y la autoprueba no ejercitaría la puerta real.
+    pieza_activa = tmp / "Arena-Reimagined" / "01-PUBLICACIONES" / "es-dominicano"
+    pieza_activa.mkdir(parents=True)
+    (pieza_activa / "pieza-rota.md").write_text("sin fichas ni novedad", encoding="utf-8")
 
     # Ficha con esquema roto (falta campo obligatorio)
     (tmp / "registry" / "ficha-rota.json").write_text(
@@ -98,7 +103,7 @@ def main() -> int:
         _crear_arbol_falso(tmp)
 
         # Copiar las herramientas al árbol falso
-        for t in ["vara.py", "manual_gate.py", "referencias.py", "fecha_casa.py"]:
+        for t in ["vara.py", "novedad_gate.py", "atestar.py", "sello_reglas.py", "manual_gate.py", "referencias.py", "fecha_casa.py"]:
             src = TOOLS / t
             dst = tmp / "tools" / t
             if src.exists():
@@ -115,7 +120,12 @@ def main() -> int:
             # Una compuerta que funciona debe detectar algo malo en el árbol falso
             # y por tanto salir con código no cero, O al menos reportar fallos
             detecto_fallo = rc != 0 or "FALLO" in salida.upper() or "ROTO" in salida.upper() or "error" in salida.lower()
-            estado = "DETECTA FALLO" if detecto_fallo else "NO DETECTA FALLO ⚠"
+            # Para vara.py no basta que cualquier otra compuerta (por ejemplo G0) falle:
+            # el árbol falso activa G13 y esta debe rechazar la pieza rota explícitamente.
+            if nombre == "vara.py":
+                detecto_fallo = "✗ G13" in salida
+            estado = ("DETECTA FALLO EN G13" if detecto_fallo and nombre == "vara.py"
+                      else "DETECTA FALLO" if detecto_fallo else "NO DETECTA FALLO ⚠")
             if not detecto_fallo:
                 todos_pasan = False
             print(f"  {nombre}: {estado}")
@@ -126,7 +136,11 @@ def main() -> int:
                 # y una nota de «aviso abierto» falsa). La autoprueba sigue igual:
                 # sólo dice de dónde sale lo que muestra.
                 print("    (salida del árbol sintético — no es la casa:)")
-                for linea in salida.splitlines()[:3]:
+                lineas = salida.splitlines()
+                visibles = lineas[:3]
+                if nombre == "vara.py":
+                    visibles += [linea for linea in lineas if "✗ G13" in linea]
+                for linea in dict.fromkeys(visibles):
                     print(f"    | {linea[:100]}")
 
     print()

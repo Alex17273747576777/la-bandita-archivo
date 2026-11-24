@@ -33,6 +33,10 @@ DOCS: Path = RAIZ / "docs"
 ATTESTATIONS: Path = RAIZ / "attestations"
 GUIA_DATOS: Path = RAIZ / "guia-maestra" / "datos" / "apps"
 BANDAS: Path = DOCS / "bandas.json"
+CALENDARIO_NOVEDADES: Path = DOCS / "CALENDARIO-DE-NOVEDADES.json"
+
+# G13 reutiliza el mismo testigo que aplica las reglas M24–M28 a una pieza.
+from novedad_gate import revisar as revisar_novedad, calendario as revisar_calendario
 
 
 def _fecha_hoy() -> date:
@@ -517,28 +521,32 @@ def g12_firma_literal(informe: InformeVara) -> None:
 
 
 def g13_novedad(informe: InformeVara) -> None:
-    """G13: novedad M24-M28 real sobre piezas vivas o declaración explícita en modo retiro."""
-    piezas_contadas = _contar_piezas_vivas()
-    total_vivas = sum(piezas_contadas.values())
-    if total_vivas == 0:
+    """G13: ejecuta M24–M28 para cada pieza activa y valida el calendario de novedades."""
+    piezas = sorted(
+        p for canal in PUBLICACIONES.iterdir() if canal.is_dir()
+        for p in canal.iterdir()
+        if p.suffix == ".md" and not p.name.startswith("_")
+        and not p.name.upper().startswith("LEEME")
+    ) if PUBLICACIONES.exists() else []
+    if not piezas:
         informe.compuertas.append(
             Compuerta("G13", "novedad", "puerta", True, "SIN PIEZAS · serie retirada (M24–M28 inactivo)")
         )
         return
 
-    con_novedad = 0
-    for canal in PUBLICACIONES.iterdir():
-        if not canal.is_dir():
-            continue
-        for archivo in canal.iterdir():
-            if archivo.suffix != ".md" or archivo.name.startswith("_") or archivo.name.upper().startswith("LEEME"):
-                continue
-            txt = archivo.read_text(encoding="utf-8", errors="replace")
-            if re.search(r"(M2[4-8]|novedad|calendario)", txt, re.IGNORECASE) and re.search(r"\d{4}-\d{2}-\d{2}", txt):
-                con_novedad += 1
+    fallos: list[str] = []
+    verdes = 0
+    for pieza in piezas:
+        resultado = revisar_novedad(pieza, _fecha_hoy(), entrega=False)
+        if resultado["veredicto"] == "ROJO":
+            fallos.extend(f"{pieza.name}: {motivo}" for motivo in resultado["fallos"])
+        else:
+            verdes += 1
 
-    detalle = f"{con_novedad}/{total_vivas} piezas con marca M24–M28 y fecha"
-    informe.compuertas.append(Compuerta("G13", "novedad", "puerta", True, detalle))
+    fallos.extend(revisar_calendario(CALENDARIO_NOVEDADES, _fecha_hoy()))
+    pasa = not fallos
+    detalle = f"{verdes}/{len(piezas)} piezas pasan M24–M28 · calendario: " + ("OK" if pasa else "con fallos")
+    informe.compuertas.append(Compuerta("G13", "novedad", "puerta", pasa, detalle, fallos))
 
 
 def g14_atestacion_firmada(informe: InformeVara) -> None:
