@@ -7,8 +7,8 @@ No se genera: se copia. Lo que hay aquí es el corte del **2026-11-27 08:38 AST*
 
 | Archivo | Qué es |
 |---|---|
-| `index.html` | El tablero entero, **64.375 B**, con los datos embebidos dentro. Se abre sin red y funciona: sin CDN, sin fuentes externas, sin una sola petición al cargar. |
-| `datos.json` | Los mismos datos en JSON (**32.567 B**): 37 repositorios, 32 hallazgos verificados, 6 nichos con recomendación y el estado de los conectores. Para que otra herramienta los lea sin abrir el HTML. |
+| `index.html` | El tablero entero, **64.864 B**, con los datos embebidos dentro. Se abre sin red y funciona: sin CDN, sin fuentes externas, sin una sola petición al cargar. |
+| `datos.json` | Los mismos datos en JSON (**33.006 B**): 37 repositorios, 32 hallazgos verificados, 6 nichos con recomendación y el estado de los conectores. Para que otra herramienta los lea sin abrir el HTML. |
 | `medidos-37-repos-2026-11-27.json` | La evidencia cruda de la medición (**17.940 B**): fecha AST y UTC, modo de autenticación y los 37 repositorios campo a campo. |
 
 ## Qué mide, y qué no
@@ -35,3 +35,19 @@ entra como subcarpeta, así que **la página histórica de `web/index.html` sigu
 Los **datos** de este corte van como **CC BY 4.0** y el HTML como **MIT**, igual que el resto del
 archivo. Los proyectos de terceros citados conservan la licencia que declara su repositorio; aquí no
 se licencia nada ajeno.
+
+
+## Corrección del 2026-11-27 (noche)
+
+El tablero decía **«Referentes maduros (5 de 5) · 100 %»**. Medido contra la API y contra los
+archivos de cada release, **solo 2 de esos 5 publican un checksum comprobable por quien descarga**
+—`Suwayomi` con su `Checksums.sha256` y `yokai` con la tabla de sus notas, cuyas 5 variantes
+coinciden una por una con el `digest` de la API—. Los otros tres (`mihon`, `Kazumi`, `Kavita`) solo
+tienen el `digest` que GitHub calcula al servir el archivo: sirve para comprobar la descarga, pero
+no es un checksum publicado por el proyecto y no sobrevive a que la release se edite.
+
+Ahora el tablero dice **«Referentes con checksum publicado (2 de 5) · 40 %»** y el JSON lleva
+`candidate_sha256_publicado: "2/5"` junto a `candidate_sha256_ratio: "5/5"` y una nota que explica
+la diferencia. Los límites honestos pasaron de 4 a 6.
+
+Detalle completo y método: `docs/REFERENTES-AUDITORIA-2026-11-27.md` del repositorio.

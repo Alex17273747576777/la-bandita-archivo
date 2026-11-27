@@ -22,7 +22,11 @@
   "audited_sha256_ratio": "4/30",
   "candidate_sha256_ratio": "5/5",
   "verified_issues_count": 32,
-  "no_license_count": 2
+  "no_license_count": 2,
+  "candidate_sha256_publicado": "2/5",
+  "candidate_sha256_publicado_pct": 40.0,
+  "candidate_digest_api": "5/5",
+  "nota_sha256": "El 5/5 de los referentes NO es un checksum publicado: solo Suwayomi (Checksums.sha256) y yokai (tabla en las notas) lo publican y se puede comprobar; mihon, Kazumi y Kavita solo tienen el digest que calcula la API. Medido el 2026-11-27 en docs/REFERENTES-AUDITORIA-2026-11-27.md."
  },
  "repos": [
   {
