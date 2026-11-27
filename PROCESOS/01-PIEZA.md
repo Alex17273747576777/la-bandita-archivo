@@ -1,7 +1,13 @@
 # 01 · Fabricar una pieza
 
 **Entrada:** un tema con repos candidatos y la banda del canal.
-**Salida:** un `.md` en `Arena-Reimagined/01-PUBLICACIONES/<canal>/` que pasa `manual_gate.py`.
+**Salida:** un `.md` en `docs/envios/<canal>/` que pasa `manual_gate.py`.
+
+> **Nota del 2026-11-27.** La serie de canal `Arena-Reimagined/01-PUBLICACIONES/` fue **retirada**
+> el 2026-11-15 por orden del dueño (458 ficheros, Addendum de retiro del CORAZON). Este proceso
+> apuntaba a esa carpeta y por eso describía una salida que ya no existe. Donde decía
+> `Arena-Reimagined/01-PUBLICACIONES/<canal>/` se lee **`docs/envios/<canal>/`**, que es la ruta
+> viva que gobierna `docs/REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`.
 
 ## Secuencia
 
@@ -27,5 +33,5 @@
 
 ## Salidas que deben quedar en el árbol
 
-`Arena-Reimagined/01-PUBLICACIONES/<canal>/<pieza>.md` · `docs/envios/_medicion-<canal>.json`
+`docs/envios/<canal>/<pieza>.md` · `docs/envios/_medicion-<canal>.json`
 actualizado · longitud anotada.

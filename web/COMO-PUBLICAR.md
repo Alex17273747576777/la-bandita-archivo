@@ -1,3 +1,7 @@
+<!-- Estado 2026-11-27: GitHub Pages ya está sirviendo el sitio (ver LEEME.md).
+     Las vías de GitVerse, GitFlic y Codeberg de este documento son alternativas, no el camino
+     principal. El archivo CNAME.eu-org-en-espera.txt NO se llama CNAME a propósito: el dominio
+     la-bandita-archivo.eu.org todavía no tiene DNS, y renombrarlo antes de tiempo rompería Pages. -->
 # Cómo publicar esta página (Rusia · Brasil · dominio gratis)
 
 > **Ya está publicada en GitHub Pages:** https://alex17273747576777.github.io/la-bandita-archivo/
@@ -108,7 +112,8 @@ TOKEN=tu-token ./publicar.sh codeberg  tu-usuario  archivo-abierto
 TOKEN=tu-token ./publicar.sh gitflic   tu-usuario  archivo-abierto
 ```
 
-Antes de tocar nada verifica dos cosas: que estén los cuatro archivos y que la página **no descargue
+Antes de tocar nada verifica dos cosas: que estén **los cinco archivos del despliegue** —`index.html`,
+`datos.json`, `robots.txt`, `.nojekyll` y `LEEME.md`— y que la página **no descargue
 nada de fuera** (cuenta `src`, `<link>`, `@import` y `url()` externos, y se detiene si hay alguno).
 Después del `push` queda un paso que solo puedes dar tú: activar Pages en los ajustes del repositorio,
 porque ninguno de los tres deja activarlo por token.

@@ -2,11 +2,16 @@
 
 El HTML es la cara del archivo: **visualiza lo publicado y lo medido**, no inventa datos.
 
+> **Nota del 2026-11-27.** El diagrama de abajo leía `Arena-Reimagined/01-PUBLICACIONES/`, carpeta
+> retirada el 2026-11-15. La fuente viva son los envíos congelados de `docs/envios/`. El
+> `site/` que ya existe queda **congelado** como artefacto histórico (lo dice el README), así que
+> este proceso describe la próxima generación, no la que está publicada.
+
 ## De dónde salen los datos
 
 ```
 registry/*.json ──────────────────────► registro_construir.py ─► site/datos/registro.json
-Arena-Reimagined/01-PUBLICACIONES/ ───► sitio.py ─► site/index.html · site/piezas/ · site/redes/
+docs/envios/ ─────────────────────────► sitio.py ─► site/index.html · site/piezas/ · site/redes/
 04-VERSIONES-MULTIIDIOMA/<red>/<idioma> ─► sitio.py ─► site/redes/index.html · site/datos/redes.json
 docs/interacciones.json (opcional) ───► sitio.py ─► tarjetas de red (interacción medida)
 ```
