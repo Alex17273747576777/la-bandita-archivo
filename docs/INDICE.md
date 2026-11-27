@@ -134,7 +134,7 @@
 | [`REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`](REGLAS-DE-PUBLICACION-Y-ARCHIVO.md) | Reglas vigentes de publicación y archivo de La Bandita | — sin primera oración con cuerpo — | 41 |
 | [`REPARTO-40-PIEZAS-2026-11-09.md`](REPARTO-40-PIEZAS-2026-11-09.md) | Reparto de las 40 piezas · recursos nuevos (P07) | Los temas **no se inventan**: salen de las secciones reales de fmhy.net (74 secciones en `/mobile`, y las de `/system-tools`, `/file-tools`,… | 68 |
 | [`RESPUESTA-ISSUE-7162-nbats.md`](RESPUESTA-ISSUE-7162-nbats.md) | RESPUESTA ISSUE 7162 nbats | Fair question — I should have been clearer. **Not a new section.** Here's what I'd actually suggest, based on how you already do it: | 82 |
-| [`RETIRADA-ISSUES-2026-11-27.md`](RETIRADA-ISSUES-2026-11-27.md) | Retirada de issues propios sin respuesta · 2026-11-27 | La cuenta tiene **89 issues abiertos** en repositorios de terceros. **76 no han recibido una sola respuesta de nadie.** Algunos llevan más de año y… | 105 |
+| [`RETIRADA-ISSUES-2026-11-27.md`](RETIRADA-ISSUES-2026-11-27.md) | Retirada de issues propios sin respuesta · 2026-11-27 | La cuenta tiene **89 issues abiertos** en repositorios de terceros. **76 no han recibido una sola respuesta de nadie.** Algunos llevan más de año y… | 121 |
 | [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 145 |
 | [`VENCIMIENTOS.md`](VENCIMIENTOS.md) | VENCIMIENTOS DEL REGISTRO | — sin primera oración con cuerpo — | 6851 |
 | [`01.md`](almas/01.md) | 01 | TITULO: La huella o el silencio: veinte programas nacidos en los últimos cuatro meses, ocho que firman y doce que te piden fe RESUMEN: De los 87… | 160 |
