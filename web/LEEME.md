@@ -32,3 +32,12 @@ El despliegue clásico de Pages **no sirvió**: se quedó más de media hora en 
 
 `COMO-PUBLICAR.md` sigue teniendo los pasos de GitVerse (Rusia) y Brasil. Ya no son la única vía:
 GitHub Pages está funcionando.
+
+## El tablero del 27 de noviembre de 2026
+
+En [`observatorio/`](observatorio/) está el tablero medido del corte **2026-11-27 08:38 AST**:
+37 repositorios, 132.582 estrellas, 32 hallazgos verificados y 6 nichos con recomendación. Son
+tres archivos y un `LEEME.md` propio. **No sustituye a esta página**: la de aquí sigue congelada
+como estaba, y el tablero vive al lado, en su carpeta.
+
+Dirección medida hoy: `HTTP 200 · 64.375 bytes`, idéntica byte a byte al archivo del repositorio.

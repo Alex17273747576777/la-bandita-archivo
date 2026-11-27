@@ -1035,12 +1035,12 @@
   {
    "name": "GitHub (Lectura pública)",
    "status": "Medido en vivo",
-   "detail": "37 repositorios medidos el 2026-11-27 08:38 AST (132,582 estrellas totales). Push git bloqueado en sandbox sin token."
+   "detail": "37 repositorios medidos el 2026-11-27 08:38 AST (132,582 estrellas totales). Push git resuelto: el tablero se sirve desde este repositorio en /observatorio/."
   },
   {
    "name": "Vercel (team proyect)",
    "status": "Proyecto creado · despliegue no completado",
-   "detail": "Proyecto la-bandita-observatorio-oss (prj_NxVDLOrHvfU8yVI3tyG8O1CpYtkb) creado en el team proyect. La API de despliegue rechazó el envío de archivos por validación de esquema (files[].data / projectSettings); el tablero queda publicado en el espacio de trabajo y no se afirma que esté en línea en Vercel."
+   "detail": "Proyecto la-bandita-observatorio-oss (prj_NxVDLOrHvfU8yVI3tyG8O1CpYtkb) creado en el team proyect. La API de despliegue rechazó el envío de archivos por validación de esquema (files[].data / projectSettings); el tablero se publicó finalmente en GitHub Pages (/observatorio/), no en Vercel."
   },
   {
    "name": "Google Sheets & Docs",
