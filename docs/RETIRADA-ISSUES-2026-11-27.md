@@ -99,6 +99,22 @@ python3 tools/retirar_issues.py             # cierra los 11
 ```
 
 **Requisito medido:** el token *fine-grained* de la cuenta **no puede** cerrar issues en repositorios
-de terceros — lo comprobé hoy sobre `komikku#1311` y devuelve `HTTP 403 · Resource not accessible by
-personal access token`. Para ejecutar la retirada hace falta un token **clásico con `public_repo`**.
-Sin él, la lista queda preparada y el pendiente sigue abierto, dicho como lo que es.
+de terceros — lo comprobé el 2026-11-27 sobre `komikku#1311` y devuelve `HTTP 403 · Resource not
+accessible by personal access token`. La retirada se ejecutó con un token **clásico** (`repo` y
+`public_repo`), que sí puede.
+
+## 8 · Ejecutado: 2026-11-27, 23:2x UTC
+
+```
+cerrados: 11 · ya cerrados: 0 · fallos: 0
+```
+
+Los 11 se cerraron con `state_reason=not_planned` y **cero comentarios escritos**. Comprobado después,
+uno por uno contra la API, no contra el registro del script: **11 de 11 en `closed` con
+`state_reason=not_planned` y 0 comentarios**. El issue de cada hilo queda en `0` porque el cierre no
+añadió ninguno; los que ya traían respuestas del mantenedor están en la lista de los 12 que se quedan,
+no en esta.
+
+El token usado durante la ejecución **no se guardó** en el repositorio, ni en `.git/config`, ni en
+ningún archivo de este árbol: se pasó en la variable de entorno de un solo comando. Si se repite la
+operación, hace falta volver a aportarlo.
