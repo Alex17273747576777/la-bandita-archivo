@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 170 documentos en `docs/`, agrupados en 19 familias, y 79 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 171 documentos en `docs/`, agrupados en 19 familias, y 80 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -134,6 +134,7 @@
 | [`REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`](REGLAS-DE-PUBLICACION-Y-ARCHIVO.md) | Reglas vigentes de publicación y archivo de La Bandita | — sin primera oración con cuerpo — | 41 |
 | [`REPARTO-40-PIEZAS-2026-11-09.md`](REPARTO-40-PIEZAS-2026-11-09.md) | Reparto de las 40 piezas · recursos nuevos (P07) | Los temas **no se inventan**: salen de las secciones reales de fmhy.net (74 secciones en `/mobile`, y las de `/system-tools`, `/file-tools`,… | 68 |
 | [`RESPUESTA-ISSUE-7162-nbats.md`](RESPUESTA-ISSUE-7162-nbats.md) | RESPUESTA ISSUE 7162 nbats | Fair question — I should have been clearer. **Not a new section.** Here's what I'd actually suggest, based on how you already do it: | 82 |
+| [`RETIRADA-ISSUES-2026-11-27.md`](RETIRADA-ISSUES-2026-11-27.md) | Retirada de issues propios sin respuesta · 2026-11-27 | La cuenta tiene **89 issues abiertos** en repositorios de terceros. **76 no han recibido una sola respuesta de nadie.** Algunos llevan más de año y… | 105 |
 | [`TAREAS.md`](TAREAS.md) | TABLERO DE TAREAS | Cada tarea vive en la pieza que la engendra, como una línea `#task NNN · texto`. | 145 |
 | [`VENCIMIENTOS.md`](VENCIMIENTOS.md) | VENCIMIENTOS DEL REGISTRO | — sin primera oración con cuerpo — | 6851 |
 | [`01.md`](almas/01.md) | 01 | TITULO: La huella o el silencio: veinte programas nacidos en los últimos cuatro meses, ocho que firman y doce que te piden fe RESUMEN: De los 87… | 160 |
@@ -331,6 +332,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`registro_construir.py`](../tools/registro_construir.py) | REGISTRO · construye las fichas JSON del activo vendible desde el censo medido. | 133 |
 | [`registro_sqlite.py`](../tools/registro_sqlite.py) | REGISTRO SQLITE · motor de registro basado en SQLite con exportación a JSON. | 317 |
 | [`remedir.py`](../tools/remedir.py) | REMEDIR · la habilidad que nace del error E01–E05 (docs/ERRORES.md). | 282 |
+| [`retirar_issues.py`](../tools/retirar_issues.py) | RETIRADA DE ISSUES · cierra los propios que nadie va a leer, sin escribir en el hilo. | 122 |
 | [`sello_reglas.py`](../tools/sello_reglas.py) | REGLAS DEL SELLO · en un solo sitio, para que la vara y la atestación no se contradigan. | 81 |
 | [`sitio.py`](../tools/sitio.py) | SITIO · genera el sitio estático de La Bandita desde las piezas y el registro. | 324 |
 | [`skill_framework.py`](../tools/skill_framework.py) | HIPER HABILIDAD · framework de skills ejecutables con estado persistente, contratos, | 1224 |
