@@ -1,0 +1,677 @@
+{
+ "medido_en": "2026-11-27",
+ "login": "Alex17273747576777",
+ "criterio": "abierto + propio + sin respuesta de nadie más + 180 días o más desde su apertura",
+ "metodo": "cerrar con state_reason=not_planned y SIN comentario: kana-shii (komikku) pidió el 2026-11-12 no recibir más comentarios en issues viejos no planeados; el registro es este archivo",
+ "cerrar": [
+  {
+   "repo": "salmanbappi/AniZen",
+   "numero": 12,
+   "titulo": "Tracker updater: make the update manual-first, with a visible diff",
+   "abierto": "2026-03-16",
+   "dias": 256,
+   "comentarios_en_el_hilo": 0,
+   "url": "https://github.com/salmanbappi/AniZen/issues/12",
+   "estado_actual": "open"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1544,
+   "titulo": "Library statistics: reading time per title, with an export",
+   "abierto": "2026-02-27",
+   "dias": 273,
+   "comentarios_en_el_hilo": 0,
+   "url": "https://github.com/komikku-app/komikku/issues/1544",
+   "estado_actual": "open"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1540,
+   "titulo": "Auto-categorise new titles by source, with a rule the user can see",
+   "abierto": "2026-02-27",
+   "dias": 273,
+   "comentarios_en_el_hilo": 0,
+   "url": "https://github.com/komikku-app/komikku/issues/1540",
+   "estado_actual": "open"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1534,
+   "titulo": "Two-way tracker sync: conflicts need a rule before code",
+   "abierto": "2026-02-27",
+   "dias": 273,
+   "comentarios_en_el_hilo": 0,
+   "url": "https://github.com/komikku-app/komikku/issues/1534",
+   "estado_actual": "open"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1532,
+   "titulo": "Hardware profiles: drop the idea, keep one measurable setting",
+   "abierto": "2026-02-27",
+   "dias": 273,
+   "comentarios_en_el_hilo": 0,
+   "url": "https://github.com/komikku-app/komikku/issues/1532",
+   "estado_actual": "open"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1531,
+   "titulo": "Crowdsourced source health: this needs a server, so it is a policy decision first",
+   "abierto": "2026-02-27",
+   "dias": 273,
+   "comentarios_en_el_hilo": 0,
+   "url": "https://github.com/komikku-app/komikku/issues/1531",
+   "estado_actual": "open"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1477,
+   "titulo": "Two-page view: automatic detection for Western comics",
+   "abierto": "2026-02-05",
+   "dias": 295,
+   "comentarios_en_el_hilo": 0,
+   "url": "https://github.com/komikku-app/komikku/issues/1477",
+   "estado_actual": "open"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1475,
+   "titulo": "WebDAV setup: reduce the form to three fields",
+   "abierto": "2026-02-05",
+   "dias": 295,
+   "comentarios_en_el_hilo": 0,
+   "url": "https://github.com/komikku-app/komikku/issues/1475",
+   "estado_actual": "open"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1314,
+   "titulo": "Multi-feed profiles: one feed, several sources",
+   "abierto": "2025-12-06",
+   "dias": 356,
+   "comentarios_en_el_hilo": 0,
+   "url": "https://github.com/komikku-app/komikku/issues/1314",
+   "estado_actual": "open"
+  },
+  {
+   "repo": "komikku-app/komikku",
+   "numero": 1311,
+   "titulo": "Separate 'sync with cloud' from 'update library' in the interface",
+   "abierto": "2025-12-02",
+   "dias": 360,
+   "comentarios_en_el_hilo": 0,
+   "url": "https://github.com/komikku-app/komikku/issues/1311",
+   "estado_actual": "open"
+  },
+  {
+   "repo": "Animetailapp/Animetail",
+   "numero": 220,
+   "titulo": "I thought I no longer had to transfer copies and save them manually from one phone to another or to the cloud. :'(",
+   "abierto": "2025-02-05",
+   "dias": 660,
+   "comentarios_en_el_hilo": 0,
+   "url": "https://github.com/Animetailapp/Animetail/issues/220",
+   "estado_actual": "open"
+  }
+ ],
+ "conservar": [
+  {
+   "repo": "Paduu29/KomaStream",
+   "numero": 2,
+   "titulo": "BatchDownloadWorker.ensureStopped() throws outside runCatching, leaking batchFile and skipping cancel notification",
+   "abierto": "2026-11-27",
+   "dias": 0,
+   "ultima_respuesta_ajena": "2026-11-27",
+   "respondido_por": [
+    "Paduu29"
+   ],
+   "por_que_se_queda": "el mantenedor ya contestó: cerrarlo sin decir nada tiraría información que se dio en el hilo",
+   "url": "https://github.com/Paduu29/KomaStream/issues/2"
+  },
+  {
+   "repo": "Noirero/Miyorare",
+   "numero": 1058,
+   "titulo": "feat(feed,suggestions): add ShinKu-style source Feed, AniZen-style personalized Suggestions, and Feed duplicate-order protection",
+   "abierto": "2026-11-27",
+   "dias": 0,
+   "ultima_respuesta_ajena": "2026-11-27",
+   "respondido_por": [
+    "Noirero"
+   ],
+   "por_que_se_queda": "el mantenedor ya contestó: cerrarlo sin decir nada tiraría información que se dio en el hilo",
+   "url": "https://github.com/Noirero/Miyorare/issues/1058"
+  },
+  {
+   "repo": "Noirero/Miyorare",
+   "numero": 1057,
+   "titulo": "feat(backup): add Kototoro, Usagi & Aniyomi backup import/export and dedicated direct export buttons",
+   "abierto": "2026-11-27",
+   "dias": 0,
+   "ultima_respuesta_ajena": "2026-11-27",
+   "respondido_por": [
+    "Noirero"
+   ],
+   "por_que_se_queda": "el mantenedor ya contestó: cerrarlo sin decir nada tiraría información que se dio en el hilo",
+   "url": "https://github.com/Noirero/Miyorare/issues/1057"
+  },
+  {
+   "repo": "PineappleTwilight/hyoukan",
+   "numero": 104,
+   "titulo": "feat(novels): add QuickJS-isolated Light Novel plugin host & FB2/TXT local ebook import (TODO.md)",
+   "abierto": "2026-11-26",
+   "dias": 1,
+   "ultima_respuesta_ajena": "2026-11-27",
+   "respondido_por": [
+    "PineappleTwilight"
+   ],
+   "por_que_se_queda": "el mantenedor ya contestó: cerrarlo sin decir nada tiraría información que se dio en el hilo",
+   "url": "https://github.com/PineappleTwilight/hyoukan/issues/104"
+  },
+  {
+   "repo": "Harrys-HQ/ShinKu",
+   "numero": 49,
+   "titulo": "feat(ai): require per-request consent before sending reader context",
+   "abierto": "2026-11-22",
+   "dias": 5,
+   "ultima_respuesta_ajena": "2026-11-23",
+   "respondido_por": [
+    "Harrys-HQ"
+   ],
+   "por_que_se_queda": "el mantenedor ya contestó: cerrarlo sin decir nada tiraría información que se dio en el hilo",
+   "url": "https://github.com/Harrys-HQ/ShinKu/issues/49"
+  },
+  {
+   "repo": "Harrys-HQ/ShinKu",
+   "numero": 48,
+   "titulo": "perf(ai): make library clustering deterministic and incremental",
+   "abierto": "2026-11-22",
+   "dias": 5,
+   "ultima_respuesta_ajena": "2026-11-23",
+   "respondido_por": [
+    "Harrys-HQ"
+   ],
+   "por_que_se_queda": "el mantenedor ya contestó: cerrarlo sin decir nada tiraría información que se dio en el hilo",
+   "url": "https://github.com/Harrys-HQ/ShinKu/issues/48"
+  },
+  {
+   "repo": "Harrys-HQ/ShinKu",
+   "numero": 46,
+   "titulo": "bug: restore stalls or is killed on large libraries on Tecno Spark 20 Pro+",
+   "abierto": "2026-11-22",
+   "dias": 5,
+   "ultima_respuesta_ajena": "2026-11-25",
+   "respondido_por": [
+    "Harrys-HQ"
+   ],
+   "por_que_se_queda": "el mantenedor ya contestó: cerrarlo sin decir nada tiraría información que se dio en el hilo",
+   "url": "https://github.com/Harrys-HQ/ShinKu/issues/46"
+  },
+  {
+   "repo": "Harrys-HQ/ShinKu",
+   "numero": 44,
+   "titulo": "docs(comparison): feature gap comparison across Hyoukan, Reikai, ShinKu (and Suwayomi-Tsumiru)",
+   "abierto": "2026-11-21",
+   "dias": 6,
+   "ultima_respuesta_ajena": "2026-11-23",
+   "respondido_por": [
+    "Harrys-HQ"
+   ],
+   "por_que_se_queda": "el mantenedor ya contestó: cerrarlo sin decir nada tiraría información que se dio en el hilo",
+   "url": "https://github.com/Harrys-HQ/ShinKu/issues/44"
+  },
+  {
+   "repo": "Harrys-HQ/ShinKu",
+   "numero": 43,
+   "titulo": "feat(browse,library,extensions): multi-select bulk add, tab ordering, library management screen & batch extensions",
+   "abierto": "2026-11-21",
+   "dias": 6,
+   "ultima_respuesta_ajena": "2026-11-23",
+   "respondido_por": [
+    "Harrys-HQ"
+   ],
+   "por_que_se_queda": "el mantenedor ya contestó: cerrarlo sin decir nada tiraría información que se dio en el hilo",
+   "url": "https://github.com/Harrys-HQ/ShinKu/issues/43"
+  },
+  {
+   "repo": "ifritraen/kisara",
+   "numero": 1,
+   "titulo": "README: list the options that actually exist in the app",
+   "abierto": "2026-09-05",
+   "dias": 83,
+   "ultima_respuesta_ajena": "2026-11-02",
+   "respondido_por": [
+    "ifritraen"
+   ],
+   "por_que_se_queda": "el mantenedor ya contestó: cerrarlo sin decir nada tiraría información que se dio en el hilo",
+   "url": "https://github.com/ifritraen/kisara/issues/1"
+  },
+  {
+   "repo": "Animetailapp/Animetail",
+   "numero": 306,
+   "titulo": "Extension feed: group and sort by source, using only local data",
+   "abierto": "2025-08-02",
+   "dias": 482,
+   "ultima_respuesta_ajena": "2025-08-02",
+   "respondido_por": [
+    "gitauto-ai[bot]"
+   ],
+   "por_que_se_queda": "el mantenedor ya contestó: cerrarlo sin decir nada tiraría información que se dio en el hilo",
+   "url": "https://github.com/Animetailapp/Animetail/issues/306"
+  },
+  {
+   "repo": "Animetailapp/Animetail",
+   "numero": 262,
+   "titulo": "Since the initial launch of the app, I have been present and have made exceptional customizations. However, despite the constant updates, annoying bugs persist, resulting in a far from exemplary image.",
+   "abierto": "2025-03-31",
+   "dias": 606,
+   "ultima_respuesta_ajena": "2026-04-09",
+   "respondido_por": [
+    "Dark25",
+    "karkimishan00-ai",
+    "lalalasupa0"
+   ],
+   "por_que_se_queda": "el mantenedor ya contestó: cerrarlo sin decir nada tiraría información que se dio en el hilo",
+   "url": "https://github.com/Animetailapp/Animetail/issues/262"
+  }
+ ],
+ "recientes": [
+  {
+   "repo": "Chimahon/chimahon",
+   "numero": 157,
+   "dias": 0,
+   "url": "https://github.com/Chimahon/chimahon/issues/157"
+  },
+  {
+   "repo": "kodjodevf/mangayomi",
+   "numero": 1202,
+   "dias": 0,
+   "url": "https://github.com/kodjodevf/mangayomi/issues/1202"
+  },
+  {
+   "repo": "ollm/OpenComic",
+   "numero": 683,
+   "dias": 0,
+   "url": "https://github.com/ollm/OpenComic/issues/683"
+  },
+  {
+   "repo": "stumpapp/stump",
+   "numero": 1553,
+   "dias": 0,
+   "url": "https://github.com/stumpapp/stump/issues/1553"
+  },
+  {
+   "repo": "reyyuuki/Azyx",
+   "numero": 24,
+   "dias": 0,
+   "url": "https://github.com/reyyuuki/Azyx/issues/24"
+  },
+  {
+   "repo": "HuzaifaKhalid1311/DropSauce",
+   "numero": 209,
+   "dias": 0,
+   "url": "https://github.com/HuzaifaKhalid1311/DropSauce/issues/209"
+  },
+  {
+   "repo": "Nabeelshar/WebnovelReader",
+   "numero": 7,
+   "dias": 0,
+   "url": "https://github.com/Nabeelshar/WebnovelReader/issues/7"
+  },
+  {
+   "repo": "Nabeelshar/WebnovelReader",
+   "numero": 8,
+   "dias": 0,
+   "url": "https://github.com/Nabeelshar/WebnovelReader/issues/8"
+  },
+  {
+   "repo": "ReitanSora/koeyomi",
+   "numero": 28,
+   "dias": 0,
+   "url": "https://github.com/ReitanSora/koeyomi/issues/28"
+  },
+  {
+   "repo": "ReitanSora/koeyomi",
+   "numero": 27,
+   "dias": 0,
+   "url": "https://github.com/ReitanSora/koeyomi/issues/27"
+  },
+  {
+   "repo": "loeuf237/animelab",
+   "numero": 84,
+   "dias": 0,
+   "url": "https://github.com/loeuf237/animelab/issues/84"
+  },
+  {
+   "repo": "diogorainhalopes/atahon",
+   "numero": 24,
+   "dias": 0,
+   "url": "https://github.com/diogorainhalopes/atahon/issues/24"
+  },
+  {
+   "repo": "ProjectNox-org/project-nox-importer",
+   "numero": 995,
+   "dias": 0,
+   "url": "https://github.com/ProjectNox-org/project-nox-importer/issues/995"
+  },
+  {
+   "repo": "ProjectNox-org/nox-extension-developer",
+   "numero": 16,
+   "dias": 0,
+   "url": "https://github.com/ProjectNox-org/nox-extension-developer/issues/16"
+  },
+  {
+   "repo": "Arthurpendragon9876/DeepSync",
+   "numero": 43,
+   "dias": 0,
+   "url": "https://github.com/Arthurpendragon9876/DeepSync/issues/43"
+  },
+  {
+   "repo": "RyanYuuki/AnymeX",
+   "numero": 670,
+   "dias": 0,
+   "url": "https://github.com/RyanYuuki/AnymeX/issues/670"
+  },
+  {
+   "repo": "RyanYuuki/AnymeX",
+   "numero": 669,
+   "dias": 0,
+   "url": "https://github.com/RyanYuuki/AnymeX/issues/669"
+  },
+  {
+   "repo": "Anxcye/anx-reader",
+   "numero": 1024,
+   "dias": 0,
+   "url": "https://github.com/Anxcye/anx-reader/issues/1024"
+  },
+  {
+   "repo": "5rahim/seanime",
+   "numero": 1010,
+   "dias": 0,
+   "url": "https://github.com/5rahim/seanime/issues/1010"
+  },
+  {
+   "repo": "yomihon/yomihon",
+   "numero": 41,
+   "dias": 0,
+   "url": "https://github.com/yomihon/yomihon/issues/41"
+  },
+  {
+   "repo": "dmzz-yyhyy/LightNovelReader",
+   "numero": 544,
+   "dias": 0,
+   "url": "https://github.com/dmzz-yyhyy/LightNovelReader/issues/544"
+  },
+  {
+   "repo": "yomihon/yomihon",
+   "numero": 40,
+   "dias": 0,
+   "url": "https://github.com/yomihon/yomihon/issues/40"
+  },
+  {
+   "repo": "RockinChaos/Shiru",
+   "numero": 186,
+   "dias": 0,
+   "url": "https://github.com/RockinChaos/Shiru/issues/186"
+  },
+  {
+   "repo": "salmanbappi/AniZen",
+   "numero": 107,
+   "dias": 0,
+   "url": "https://github.com/salmanbappi/AniZen/issues/107"
+  },
+  {
+   "repo": "salmanbappi/AniZen",
+   "numero": 106,
+   "dias": 0,
+   "url": "https://github.com/salmanbappi/AniZen/issues/106"
+  },
+  {
+   "repo": "Arthurpendragon9876/DeepSync",
+   "numero": 41,
+   "dias": 0,
+   "url": "https://github.com/Arthurpendragon9876/DeepSync/issues/41"
+  },
+  {
+   "repo": "Foxlations/Foxlations",
+   "numero": 11,
+   "dias": 0,
+   "url": "https://github.com/Foxlations/Foxlations/issues/11"
+  },
+  {
+   "repo": "Foxlations/Foxlations",
+   "numero": 10,
+   "dias": 0,
+   "url": "https://github.com/Foxlations/Foxlations/issues/10"
+  },
+  {
+   "repo": "PineappleTwilight/hyoukan",
+   "numero": 106,
+   "dias": 0,
+   "url": "https://github.com/PineappleTwilight/hyoukan/issues/106"
+  },
+  {
+   "repo": "PineappleTwilight/hyoukan",
+   "numero": 107,
+   "dias": 0,
+   "url": "https://github.com/PineappleTwilight/hyoukan/issues/107"
+  },
+  {
+   "repo": "Harrys-HQ/ShinKu",
+   "numero": 62,
+   "dias": 0,
+   "url": "https://github.com/Harrys-HQ/ShinKu/issues/62"
+  },
+  {
+   "repo": "Harrys-HQ/ShinKu",
+   "numero": 61,
+   "dias": 0,
+   "url": "https://github.com/Harrys-HQ/ShinKu/issues/61"
+  },
+  {
+   "repo": "PineappleTwilight/hyoukan",
+   "numero": 105,
+   "dias": 1,
+   "url": "https://github.com/PineappleTwilight/hyoukan/issues/105"
+  },
+  {
+   "repo": "salmanbappi/AniZen",
+   "numero": 105,
+   "dias": 1,
+   "url": "https://github.com/salmanbappi/AniZen/issues/105"
+  },
+  {
+   "repo": "salmanbappi/AniZen",
+   "numero": 104,
+   "dias": 1,
+   "url": "https://github.com/salmanbappi/AniZen/issues/104"
+  },
+  {
+   "repo": "salmanbappi/AniZen",
+   "numero": 103,
+   "dias": 1,
+   "url": "https://github.com/salmanbappi/AniZen/issues/103"
+  },
+  {
+   "repo": "salmanbappi/AniZen",
+   "numero": 102,
+   "dias": 1,
+   "url": "https://github.com/salmanbappi/AniZen/issues/102"
+  },
+  {
+   "repo": "salmanbappi/AniZen",
+   "numero": 101,
+   "dias": 1,
+   "url": "https://github.com/salmanbappi/AniZen/issues/101"
+  },
+  {
+   "repo": "salmanbappi/AniZen",
+   "numero": 100,
+   "dias": 1,
+   "url": "https://github.com/salmanbappi/AniZen/issues/100"
+  },
+  {
+   "repo": "salmanbappi/AniZen",
+   "numero": 99,
+   "dias": 1,
+   "url": "https://github.com/salmanbappi/AniZen/issues/99"
+  },
+  {
+   "repo": "Arthurpendragon9876/DeepSync",
+   "numero": 39,
+   "dias": 1,
+   "url": "https://github.com/Arthurpendragon9876/DeepSync/issues/39"
+  },
+  {
+   "repo": "Arthurpendragon9876/DeepSync",
+   "numero": 37,
+   "dias": 1,
+   "url": "https://github.com/Arthurpendragon9876/DeepSync/issues/37"
+  },
+  {
+   "repo": "Foxlations/Foxlations",
+   "numero": 9,
+   "dias": 1,
+   "url": "https://github.com/Foxlations/Foxlations/issues/9"
+  },
+  {
+   "repo": "Foxlations/Foxlations",
+   "numero": 8,
+   "dias": 1,
+   "url": "https://github.com/Foxlations/Foxlations/issues/8"
+  },
+  {
+   "repo": "Foxlations/Foxlations",
+   "numero": 7,
+   "dias": 1,
+   "url": "https://github.com/Foxlations/Foxlations/issues/7"
+  },
+  {
+   "repo": "Foxlations/Foxlations",
+   "numero": 6,
+   "dias": 1,
+   "url": "https://github.com/Foxlations/Foxlations/issues/6"
+  },
+  {
+   "repo": "Foxlations/Foxlations",
+   "numero": 5,
+   "dias": 1,
+   "url": "https://github.com/Foxlations/Foxlations/issues/5"
+  },
+  {
+   "repo": "Foxlations/Foxlations",
+   "numero": 4,
+   "dias": 1,
+   "url": "https://github.com/Foxlations/Foxlations/issues/4"
+  },
+  {
+   "repo": "Harrys-HQ/ShinKu",
+   "numero": 59,
+   "dias": 1,
+   "url": "https://github.com/Harrys-HQ/ShinKu/issues/59"
+  },
+  {
+   "repo": "Harrys-HQ/ShinKu",
+   "numero": 58,
+   "dias": 1,
+   "url": "https://github.com/Harrys-HQ/ShinKu/issues/58"
+  },
+  {
+   "repo": "salmanbappi/AniZen",
+   "numero": 98,
+   "dias": 1,
+   "url": "https://github.com/salmanbappi/AniZen/issues/98"
+  },
+  {
+   "repo": "salmanbappi/AniZen",
+   "numero": 97,
+   "dias": 1,
+   "url": "https://github.com/salmanbappi/AniZen/issues/97"
+  },
+  {
+   "repo": "Foxlations/Foxlations",
+   "numero": 3,
+   "dias": 1,
+   "url": "https://github.com/Foxlations/Foxlations/issues/3"
+  },
+  {
+   "repo": "Foxlations/Foxlations",
+   "numero": 2,
+   "dias": 1,
+   "url": "https://github.com/Foxlations/Foxlations/issues/2"
+  },
+  {
+   "repo": "Harrys-HQ/ShinKu",
+   "numero": 52,
+   "dias": 1,
+   "url": "https://github.com/Harrys-HQ/ShinKu/issues/52"
+  },
+  {
+   "repo": "miyomiorg/Miyomi",
+   "numero": 66,
+   "dias": 6,
+   "url": "https://github.com/miyomiorg/Miyomi/issues/66"
+  },
+  {
+   "repo": "miyomiorg/Miyomi",
+   "numero": 65,
+   "dias": 6,
+   "url": "https://github.com/miyomiorg/Miyomi/issues/65"
+  },
+  {
+   "repo": "miyomiorg/Miyomi",
+   "numero": 63,
+   "dias": 6,
+   "url": "https://github.com/miyomiorg/Miyomi/issues/63"
+  },
+  {
+   "repo": "miyomiorg/Miyomi",
+   "numero": 64,
+   "dias": 6,
+   "url": "https://github.com/miyomiorg/Miyomi/issues/64"
+  },
+  {
+   "repo": "salmanbappi/AniZen",
+   "numero": 95,
+   "dias": 12,
+   "url": "https://github.com/salmanbappi/AniZen/issues/95"
+  },
+  {
+   "repo": "salmanbappi/AniZen",
+   "numero": 94,
+   "dias": 12,
+   "url": "https://github.com/salmanbappi/AniZen/issues/94"
+  },
+  {
+   "repo": "Shebyyy/kotatsu-multi-parsers",
+   "numero": 1,
+   "dias": 16,
+   "url": "https://github.com/Shebyyy/kotatsu-multi-parsers/issues/1"
+  },
+  {
+   "repo": "salmanbappi/extensions-repo",
+   "numero": 34,
+   "dias": 16,
+   "url": "https://github.com/salmanbappi/extensions-repo/issues/34"
+  },
+  {
+   "repo": "bluecxt/manga-extensions-repo-french",
+   "numero": 14,
+   "dias": 116,
+   "url": "https://github.com/bluecxt/manga-extensions-repo-french/issues/14"
+  },
+  {
+   "repo": "KhanhNguyen9872/GLTools_mod_Xposed",
+   "numero": 2,
+   "dias": 119,
+   "url": "https://github.com/KhanhNguyen9872/GLTools_mod_Xposed/issues/2"
+  },
+  {
+   "repo": "hacan359/tonkatsu_box",
+   "numero": 395,
+   "dias": 121,
+   "url": "https://github.com/hacan359/tonkatsu_box/issues/395"
+  }
+ ],
+ "generado_en": "2026-11-27"
+}
