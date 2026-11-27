@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 171 documentos en `docs/`, agrupados en 19 familias, y 80 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 172 documentos en `docs/`, agrupados en 19 familias, y 80 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -130,6 +130,7 @@
 | [`LOTE-19-recursos-2026-11-05.md`](LOTE-19-recursos-2026-11-05.md) | LOTE 19 recursos 2026 11 05 | — sin primera oración con cuerpo — | 33 |
 | [`MAPA-125-FACEBOOK.md`](MAPA-125-FACEBOOK.md) | MAPA DE LAS 125 PIEZAS DE FACEBOOK · propuesta para aprobación | Cada línea es una pieza: **número · título · el gancho** —la tensión medida que la justifica, no un adjetivo— y **la materia prima**, que son… | 317 |
 | [`METODO-FEYNMAN-OBLIGATORIO.md`](METODO-FEYNMAN-OBLIGATORIO.md) | Método de Richard Feynman obligatorio en La Bandita | Para cada tarea, lista de textos, análisis de datos o recurso recomendado, se aplica el **ciclo completo de cuatro pasos** desarrollado por **Richard… | 53 |
+| [`REFERENTES-AUDITORIA-2026-11-27.md`](REFERENTES-AUDITORIA-2026-11-27.md) | Auditoría de los 6 referentes candidatos · 2026-11-27 | El tablero dice **«Referentes maduros (5 de 5) · 100 %»** y **«Total con entregas (9 de 35) · 25,7 %»**. | 109 |
 | [`REGLA-DE-ALMACENAMIENTO-2026-11-04.md`](REGLA-DE-ALMACENAMIENTO-2026-11-04.md) | Regla del dueño · el almacén es GitHub y la revisión va antes | LBT=… python3 tools/preflight.py --tema descarga      # fecha + historial + ecosistema, en ese orden | 47 |
 | [`REGLAS-DE-PUBLICACION-Y-ARCHIVO.md`](REGLAS-DE-PUBLICACION-Y-ARCHIVO.md) | Reglas vigentes de publicación y archivo de La Bandita | — sin primera oración con cuerpo — | 41 |
 | [`REPARTO-40-PIEZAS-2026-11-09.md`](REPARTO-40-PIEZAS-2026-11-09.md) | Reparto de las 40 piezas · recursos nuevos (P07) | Los temas **no se inventan**: salen de las secciones reales de fmhy.net (74 secciones en `/mobile`, y las de `/system-tools`, `/file-tools`,… | 68 |

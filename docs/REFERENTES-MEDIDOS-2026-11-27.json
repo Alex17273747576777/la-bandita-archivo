@@ -1,0 +1,244 @@
+{
+ "mihonapp/mihon": {
+  "repo": "mihonapp/mihon",
+  "tag": "v0.21.3",
+  "publicado": "2026-10-25",
+  "assets": 6,
+  "checksum_archivo": [],
+  "checksum_en_notas": false,
+  "digest_api": "sha256:0026bd25ce5b1",
+  "rama": "main",
+  "estrellas": 25708,
+  "licencia": "Apache-2.0",
+  "ci_reparto": {
+   "action_required": 5,
+   "success": 7,
+   "cancelled": 3
+  },
+  "ci_ultimos": [
+   [
+    "Build & Test",
+    "action_required",
+    "2026-11-27"
+   ],
+   [
+    "Build & Test",
+    "action_required",
+    "2026-11-27"
+   ],
+   [
+    "Build & Test",
+    "action_required",
+    "2026-11-27"
+   ]
+  ],
+  "ci_push": {
+   "success": 21,
+   "cancelled": 11
+  },
+  "ci_pr": {
+   "action_required": 8
+  },
+  "ci_ultimo_push_ok": "2026-11-22"
+ },
+ "predidit/Kazumi": {
+  "repo": "predidit/Kazumi",
+  "tag": "2.4.7",
+  "publicado": "2026-11-26",
+  "assets": 9,
+  "checksum_archivo": [],
+  "checksum_en_notas": false,
+  "digest_api": "sha256:2016c78a63b5a",
+  "rama": "main",
+  "estrellas": 44310,
+  "licencia": "GPL-3.0",
+  "ci_reparto": {
+   "success": 13,
+   "failure": 2
+  },
+  "ci_ultimos": [
+   [
+    "PR workflow",
+    "success",
+    "2026-11-26"
+   ],
+   [
+    "PR workflow",
+    "success",
+    "2026-11-25"
+   ],
+   [
+    "PR workflow",
+    "success",
+    "2026-11-21"
+   ]
+  ],
+  "ci_push": {},
+  "ci_pr": {
+   "failure": 2,
+   "success": 4
+  },
+  "ci_ultimo_push_ok": null
+ },
+ "Kareadita/Kavita": {
+  "repo": "Kareadita/Kavita",
+  "tag": "v0.9.1.4",
+  "publicado": "2026-09-02",
+  "assets": 8,
+  "checksum_archivo": [],
+  "checksum_en_notas": false,
+  "digest_api": "sha256:4e1854a18bea8",
+  "rama": "develop",
+  "estrellas": 12192,
+  "licencia": "GPL-3.0",
+  "ci_reparto": {
+   "success": 15
+  },
+  "ci_ultimos": [
+   [
+    "CodeQL",
+    "success",
+    "2026-11-27"
+   ],
+   [
+    "Release Workflow",
+    "success",
+    "2026-11-20"
+   ],
+   [
+    "CodeQL",
+    "success",
+    "2026-11-20"
+   ]
+  ],
+  "ci_push": {
+   "success": 32,
+   "failure": 2
+  },
+  "ci_pr": {},
+  "ci_ultimo_push_ok": "2026-11-20"
+ },
+ "Suwayomi/Suwayomi-Server": {
+  "repo": "Suwayomi/Suwayomi-Server",
+  "tag": "v2.4.2373",
+  "publicado": "2026-11-21",
+  "assets": 10,
+  "checksum_archivo": [
+   "Checksums.sha256"
+  ],
+  "checksum_en_notas": false,
+  "digest_api": "sha256:60eee1b0d1c8c",
+  "rama": "master",
+  "estrellas": 8117,
+  "licencia": "MPL-2.0",
+  "ci_reparto": {
+   "success": 2,
+   "cancelled": 13
+  },
+  "ci_ultimos": [
+   [
+    "CI build",
+    "success",
+    "2026-11-22"
+   ],
+   [
+    "CI build",
+    "success",
+    "2026-11-21"
+   ],
+   [
+    "CI build",
+    "cancelled",
+    "2026-11-21"
+   ]
+  ],
+  "ci_push": {
+   "success": 6,
+   "cancelled": 34
+  },
+  "ci_pr": {},
+  "ci_ultimo_push_ok": "2026-11-22"
+ },
+ "null2264/yokai": {
+  "repo": "null2264/yokai",
+  "tag": "v1.10.2",
+  "publicado": "2026-09-23",
+  "assets": 5,
+  "checksum_archivo": [],
+  "checksum_en_notas": true,
+  "digest_api": "sha256:1f755850fe419",
+  "rama": "master",
+  "estrellas": 1923,
+  "licencia": "Apache-2.0",
+  "ci_reparto": {
+   "success": 14,
+   "cancelled": 1
+  },
+  "ci_ultimos": [
+   [
+    "Mirror Repository",
+    "success",
+    "2026-09-28"
+   ],
+   [
+    "fix(Manga): Async update chapt",
+    "success",
+    "2026-09-28"
+   ],
+   [
+    "Mirror Repository",
+    "success",
+    "2026-09-25"
+   ]
+  ],
+  "ci_push": {
+   "success": 31,
+   "cancelled": 7,
+   "failure": 1
+  },
+  "ci_pr": {},
+  "ci_ultimo_push_ok": "2026-09-28"
+ },
+ "keiyoushi/extensions-source": {
+  "repo": "keiyoushi/extensions-source",
+  "tag": null,
+  "nota": "sin release propia (404)",
+  "rama": "main",
+  "estrellas": 4939,
+  "licencia": "Apache-2.0",
+  "ci_reparto": {
+   "success": 10,
+   "cancelled": 5
+  },
+  "ci_ultimos": [
+   [
+    "CI",
+    "success",
+    "2026-11-27"
+   ],
+   [
+    "Issue moderator",
+    "success",
+    "2026-11-27"
+   ],
+   [
+    "Issue moderator",
+    "success",
+    "2026-11-27"
+   ]
+  ],
+  "apks_en": {
+   "repo": "keiyoushi/extensions",
+   "tag": "e8c7f53",
+   "assets": 2
+  },
+  "ci_push": {
+   "success": 4,
+   "cancelled": 9
+  },
+  "ci_pr": {
+   "success": 2
+  },
+  "ci_ultimo_push_ok": "2026-11-27"
+ }
+}
