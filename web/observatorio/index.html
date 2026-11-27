@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Observatorio Abierto de Ecosistemas OSS · La Bandita (2026-11-27)</title>
+  <style>
+    :root {
+      --bg: #F5F7FA;
+      --surface: #FFFFFF;
+      --surface-muted: #EEF2F7;
+      --border: #D8E1EC;
+      --ink: #0F172A;
+      --ink-secondary: #475569;
+      --ink-muted: #64748B;
+      --accent: #0E7490;
+      --accent-hover: #0C5F76;
+      --accent-soft: #E0F2FE;
+      --ok: #0F766E;
+      --ok-soft: #CCFBF1;
+      --warn: #B45309;
+      --warn-soft: #FEF3C7;
+      --risk: #BE123C;
+      --risk-soft: #FFE4E6;
+      --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05);
+      --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.07);
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, "Helvetica Neue", Arial, sans-serif;
+      --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font-sans);
+      font-size: 1rem;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Sticky Glass Navigation (ONLY floating surface uses blur) */
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      background: rgba(245, 247, 250, 0.86);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .topbar-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 12px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 0.9375rem;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .brand-mark {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: var(--accent);
+      color: #FFFFFF;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .nav-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .nav-tab {
+      appearance: none;
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--ink-secondary);
+      font: inherit;
+      font-size: 0.875rem;
+      font-weight: 600;
+      padding: 7px 14px;
+      border-radius: 9999px;
+      cursor: pointer;
+      transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
+    }
+    .nav-tab:hover {
+      background: var(--surface);
+      color: var(--ink);
+      border-color: var(--border);
+    }
+    .nav-tab.active {
+      background: var(--ink);
+      color: #FFFFFF;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 28px 20px 64px;
+    }
+
+    /* Typography Hierarchy (7 steps) */
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 4px 10px;
+      border-radius: 9999px;
+    }
+    h1 {
+      margin: 14px 0 10px;
+      font-size: clamp(1.85rem, 3.4vw, 2.75rem);
+      line-height: 1.15;
+      letter-spacing: -0.025em;
+      font-weight: 800;
+      color: var(--ink);
+    }
+    .lead {
+      margin: 0;
+      max-width: 74ch;
+      font-size: 1.0625rem;
+      color: var(--ink-secondary);
+    }
+    h2 {
+      margin: 0 0 8px;
+      font-size: 1.5rem;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      font-weight: 700;
+    }
+    h3 {
+      margin: 0 0 6px;
+      font-size: 1.125rem;
+      line-height: 1.3;
+      font-weight: 700;
+    }
+
+    /* 12-Column Responsive Grid */
+    .grid-12 {
+      display: grid;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .col-12 { grid-column: span 12; }
+    .col-8 { grid-column: span 8; }
+    .col-6 { grid-column: span 6; }
+    .col-4 { grid-column: span 4; }
+    .col-3 { grid-column: span 3; }
+
+    @media (max-width: 960px) {
+      .col-8, .col-6, .col-4 { grid-column: span 12; }
+      .col-3 { grid-column: span 6; }
+    }
+    @media (max-width: 560px) {
+      .col-3 { grid-column: span 12; }
+      .container { padding: 20px 14px 48px; }
+    }
+
+    /* Hero & Cards */
+    .hero-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: var(--shadow-md);
+      margin-bottom: 24px;
+    }
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 0.8125rem;
+      color: var(--ink-secondary);
+    }
+    .meta-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--surface-muted);
+      padding: 5px 10px;
+      border-radius: 8px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .kpi-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: transform 160ms ease, box-shadow 160ms ease;
+    }
+    .kpi-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+    .kpi-label {
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--ink-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .kpi-value {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      font-variant-numeric: tabular-nums;
+      color: var(--ink);
+      line-height: 1.1;
+    }
+    .kpi-sub {
+      font-size: 0.8125rem;
+      color: var(--ink-muted);
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    /* Badges */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+      font-variant-numeric: tabular-nums;
+    }
+    .badge-ok { background: var(--ok-soft); color: var(--ok); }
+    .badge-warn { background: var(--warn-soft); color: var(--warn); }
+    .badge-risk { background: var(--risk-soft); color: var(--risk); }
+    .badge-info { background: var(--accent-soft); color: var(--accent); }
+    .badge-neutral { background: var(--surface-muted); color: var(--ink-secondary); }
+
+    /* Buttons */
+    .btn {
+      appearance: none;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--ink);
+      font: inherit;
+      font-size: 0.875rem;
+      font-weight: 600;
+      padding: 8px 14px;
+      border-radius: 10px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 140ms ease, border-color 140ms ease, transform 100ms ease;
+    }
+    .btn:hover { background: var(--surface-muted); border-color: #B8C4D4; }
+    .btn:active { transform: scale(0.98); }
+    .btn-primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #FFFFFF;
+    }
+    .btn-primary:hover {
+      background: var(--accent-hover);
+      border-color: var(--accent-hover);
+    }
+
+    /* Controls & Tables */
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 16px;
+      align-items: center;
+    }
+    .input, .select {
+      font: inherit;
+      font-size: 0.875rem;
+      color: var(--ink);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 8px 12px;
+      min-height: 38px;
+    }
+    .input { flex: 1 1 220px; }
+    .input:focus, .select:focus {
+      outline: 2px solid var(--accent);
+      outline-offset: 1px;
+    }
+
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--surface);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+      text-align: left;
+    }
+    th {
+      background: var(--surface-muted);
+      color: var(--ink-secondary);
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+    th.sortable { cursor: pointer; user-select: none; }
+    th.sortable:hover { color: var(--ink); }
+    td {
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #F8FAFC; }
+    .mono { font-family: var(--font-mono); font-size: 0.8125rem; }
+    .num { font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+
+    a.repo-link {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    a.repo-link:hover { text-decoration: underline; }
+
+    /* Empty & Notice States */
+    .empty-state {
+      text-align: center;
+      padding: 40px 20px;
+      background: var(--surface);
+      border: 1px dashed var(--border);
+      border-radius: 14px;
+      color: var(--ink-secondary);
+    }
+    .notice-banner {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      background: var(--warn-soft);
+      border: 1px solid #FDE68A;
+      color: #78350F;
+      border-radius: 12px;
+      padding: 14px 16px;
+      font-size: 0.875rem;
+      margin-top: 20px;
+    }
+
+    .section-view { display: none; animation: fadeSlide 180ms ease; }
+    .section-view.active { display: block; }
+    @keyframes fadeSlide {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .feynman-step {
+      border-left: 3px solid var(--accent);
+      padding-left: 14px;
+      margin: 14px 0;
+    }
+    .niche-meta {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+      font-size: 0.875rem;
+      display: grid;
+      gap: 8px;
+    }
+    .chart-box {
+      width: 100%;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="#resumen" class="brand" onclick="switchTab('resumen');return false;">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+            <path d="M2 17l10 5 10-5"/>
+            <path d="M2 12l10 5 10-5"/>
+          </svg>
+        </span>
+        <span>La Bandita · Observatorio OSS</span>
+      </a>
+      <nav class="nav-tabs" aria-label="Vistas del observatorio">
+        <button class="nav-tab active" data-tab="resumen">Resumen</button>
+        <button class="nav-tab" data-tab="ecosistemas">Recomendaciones (6)</button>
+        <button class="nav-tab" data-tab="repos">Repositorios (37)</button>
+        <button class="nav-tab" data-tab="issues">Incidencias (32)</button>
+        <button class="nav-tab" data-tab="feynman">Método Feynman y Límites</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero -->
+    <section class="hero-panel">
+      <span class="eyebrow">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+        </svg>
+        Corte medido en vivo · 2026-11-27 08:38 AST
+      </span>
+      <h1>La huella que falta en 37 ecosistemas abiertos de lectura y multimedia</h1>
+      <p class="lead">
+        Análisis comparativo medido directamente sobre GitHub, archivos <code>LICENSE</code>, entregas publicadas y suites de prueba ejecutadas en seis oleadas de auditoría. Cero cifras inventadas, cero rastreadores y cero dependencias externas.
+      </p>
+      <div class="hero-meta">
+        <span class="meta-pill"><strong>37</strong> repositorios medidos</span>
+        <span class="meta-pill"><strong>132.582</strong> estrellas combinadas</span>
+        <span class="meta-pill"><strong>9 / 35</strong> entregas con SHA-256 (25,7%)</span>
+        <span class="meta-pill"><strong>32</strong> incidencias técnicas verificadas</span>
+        <button class="btn" id="btn-export-json" type="button">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          Descargar JSON medido
+        </button>
+      </div>
+    </section>
+
+    <!-- TAB 1: RESUMEN -->
+    <section id="tab-resumen" class="section-view active">
+      <div class="grid-12" id="kpi-grid"></div>
+
+      <div class="grid-12" style="margin-top:20px;">
+        <div class="card col-6">
+          <h3>Brecha de verificación SHA-256: Auditados vs. Referentes</h3>
+          <p class="kpi-sub" style="margin-bottom:14px;">
+            De los 30 repositorios auditados que publican entregas, solo 4 adjuntan suma SHA-256 (13,3%). En los 5 referentes maduros con entrega, el cumplimiento es del 100% (5/5).
+          </p>
+          <div class="chart-box" id="chart-sha"></div>
+        </div>
+        <div class="card col-6">
+          <h3>Distribución de licencias reales verificadas (37 repos)</h3>
+          <p class="kpi-sub" style="margin-bottom:14px;">
+            Se leyeron los archivos reales cuando la API devolvió <code>NOASSERTION</code>: <em>Dartotsu</em> usa UPL y <em>koeyomi</em> usa MIT; <em>atahon</em> y <em>Azyx</em> carecen de licencia (<code>NONE</code>).
+          </p>
+          <div class="chart-box" id="chart-lic"></div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:20px;">
+        <h3>Estado real de canales y herramientas conectadas</h3>
+        <p class="kpi-sub" style="margin-bottom:12px;">Transparencia operativa del corte 2026-11-27 (sin maquillar errores ni simular despliegues).</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Plataforma / Servicio</th><th>Estado verificado</th><th>Detalle exacto medido</th></tr>
+            </thead>
+            <tbody id="connectors-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: ECOSISTEMAS Y RECOMENDACIONES -->
+    <section id="tab-ecosistemas" class="section-view">
+      <div class="card" style="margin-bottom:16px;">
+        <h2>Recomendaciones cruzadas por nicho (fortalecer sin clonar)</h2>
+        <p class="lead">Cada familia de aplicaciones aporta una arquitectura distinta. Estas recomendaciones consolidan los patrones probados en código y evitan antipatrones repetidos en nuestras seis oleadas.</p>
+      </div>
+      <div class="grid-12" id="recs-grid"></div>
+    </section>
+
+    <!-- TAB 3: REPOSITORIOS (37) -->
+    <section id="tab-repos" class="section-view">
+      <div class="card">
+        <h2>Explorador de los 37 repositorios medidos</h2>
+        <p class="kpi-sub" style="margin-bottom:14px;">Haz clic en los encabezados con flecha para ordenar. Todos los campos provienen de GitHub REST, flujos Atom y lectura directa de archivos <code>LICENSE</code>.</p>
+        <div class="toolbar">
+          <input class="input" type="search" id="repo-search" placeholder="Buscar por nombre, rol o lenguaje..." aria-label="Buscar repositorio" />
+          <select class="select" id="filter-wave" aria-label="Filtrar por oleada">
+            <option value="">Todas las oleadas</option>
+          </select>
+          <select class="select" id="filter-sha" aria-label="Filtrar por SHA-256">
+            <option value="">SHA-256 (Todos)</option>
+            <option value="yes">Con SHA-256</option>
+            <option value="no">Sin SHA-256</option>
+          </select>
+          <select class="select" id="filter-lic" aria-label="Filtrar por licencia">
+            <option value="">Todas las licencias</option>
+          </select>
+          <button class="btn" id="btn-reset-repos" type="button">Restablecer</button>
+        </div>
+        <div id="repo-count-label" class="kpi-sub" style="margin-bottom:10px;"></div>
+        <div id="repos-container"></div>
+      </div>
+    </section>
+
+    <!-- TAB 4: INCIDENCIAS (32) -->
+    <section id="tab-issues" class="section-view">
+      <div class="card">
+        <h2>Registro de 32 incidencias y hallazgos auditados</h2>
+        <p class="kpi-sub" style="margin-bottom:14px;">Incidencias reproducidas en clones locales, suites de prueba (<code>pytest</code>, <code>go test</code>, Gradle, Node.js) y revisión de código fuente.</p>
+        <div class="toolbar">
+          <input class="input" type="search" id="issue-search" placeholder="Filtrar por repo, archivo o descripción..." aria-label="Buscar incidencia" />
+          <select class="select" id="filter-severity" aria-label="Filtrar por severidad">
+            <option value="">Todas las severidades</option>
+            <option value="Crítica">Crítica</option>
+            <option value="Alta">Alta</option>
+            <option value="Media">Media</option>
+            <option value="Baja">Baja</option>
+          </select>
+          <button class="btn" id="btn-reset-issues" type="button">Restablecer</button>
+        </div>
+        <div id="issues-container"></div>
+      </div>
+    </section>
+
+    <!-- TAB 5: MÉTODO FEYNMAN Y LÍMITES -->
+    <section id="tab-feynman" class="section-view">
+      <div class="grid-12">
+        <div class="card col-8">
+          <h2>Método Richard Feynman aplicado (4 pasos obligatorios)</h2>
+          <div class="feynman-step">
+            <h3>1. Seleccionar y estudiar el concepto en fuentes primarias</h3>
+            <p>Se midieron en vivo los 37 repositorios y se inspeccionaron los archivos <code>LICENSE</code>, flujos <code>releases.atom</code>, commits y código fuente real (como <code>rar.rs</code> en Stump, <code>epub.js</code> en OpenComic o <code>animeresolver.js</code> en Shiru).</p>
+          </div>
+          <div class="feynman-step">
+            <h3>2. Enseñarlo con palabras simples sin jerga</h3>
+            <p>Elegir una aplicación abierta segura no consiste en mirar quién tiene más estrellas. Consiste en comprobar tres cosas llanas: qué permiso te da la licencia, si hay un sello numérico (SHA-256) para validar la descarga y si el programa revisa dónde descomprime tus archivos.</p>
+          </div>
+          <div class="feynman-step">
+            <h3>3. Identificar lagunas y volver a la fuente original</h3>
+            <p>Al encontrar <code>NOASSERTION</code> en <em>Dartotsu</em> y <em>koeyomi</em>, no se asumió «sin licencia»: se leyeron sus archivos y se confirmó <code>UPL</code> y <code>MIT</code>. Al agotarse la cuota REST anónima de 60 req/h en los últimos 7 repos, se verificó directamente en <code>releases.atom</code> y <code>expanded_assets</code>.</p>
+          </div>
+          <div class="feynman-step">
+            <h3>4. Simplificar y revisar con analogías (y sus límites)</h3>
+            <p><em>Analogía del precinto y el tope de gaveta:</em> las estrellas son la fila afuera de la tienda; la huella SHA-256 es el precinto de aluminio bajo la tapa; y la validación anti Zip Slip es el tope de la gaveta que impide que un archivo salga de su carpeta. <strong>Límite de la analogía:</strong> el precinto verifica integridad de transporte, no garantiza ausencia de fallos lógicos en un teléfono concreto.</p>
+          </div>
+        </div>
+        <div class="card col-4">
+          <h3>Límites honestos declarados</h3>
+          <ul id="limits-list" style="padding-left:18px; margin:10px 0 0; display:grid; gap:10px; font-size:0.9rem; color:var(--ink-secondary);"></ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="notice-banner" role="note">
+      <svg width="20" height="20" style="flex-shrink:0; margin-top:2px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+      </svg>
+      <div>
+        <strong>Nota de rigor:</strong> Este tablero solo visualiza datos medidos en el corte <code>2026-11-27 08:38 AST</code>. No realiza llamadas externas al abrirse y no oculta brechas ni servicios inactivos (WordPress 404, Supabase pausado, ausencia de prueba física Android en este corte).
+      </div>
+    </div>
+  </main>
+
+  <script>
+    const EMBEDDED_DATA = {"meta": {"title": "Observatorio Abierto de Ecosistemas Manga, Anime y Novelas Ligeras", "measured_at_ast": "2026-11-27T08:38:46-04:00", "measured_at_utc": "2026-11-27T12:38:46+00:00", "methodology": "Método Richard Feynman (4 pasos) + verificación primaria en GitHub y suites de prueba ejecutadas", "honest_limits": ["No se ejecutaron pruebas en dispositivo físico Android en este corte (Tecno Spark 20 Pro+ fuera de alcance en el sandbox).", "WordPress respondió HTTP 404 ('No input file specified') en validate_credential; no se publicó allí.", "Supabase (xgvmwykyrxpcjsgwwoyu) está en estado INACTIVE.", "El sandbox no cuenta con credencial GitHub de escritura persistente; los entregables se sincronizaron en Vercel, Google Workspace, Notion y Linear."]}, "summary": {"total_repos": 37, "audited_repos": 31, "candidate_repos": 6, "total_stars": 132582, "repos_with_releases": 35, "repos_with_sha256": 9, "sha256_pct_releases": 25.7, "audited_sha256_ratio": "4/30", "candidate_sha256_ratio": "5/5", "verified_issues_count": 32, "no_license_count": 2}, "repos": [{"repo": "Noirero/Miyorare", "wave": "Base-8", "role": "Lector Manga Híbrido", "status": "ACTIVE", "stars": 24, "forks": 2, "open_issues": 8, "language": "Kotlin", "license": "GPL-3.0", "pushed_at": "2026-11-27", "default_branch": "main", "latest_release": "v1.4.29", "release_date": "2026-11-24", "has_sha256_asset": false, "html_url": "https://github.com/Noirero/Miyorare"}, {"repo": "Harrys-HQ/ShinKu", "wave": "Base-8", "role": "Lector Manga + IA", "status": "ACTIVE", "stars": 52, "forks": 4, "open_issues": 10, "language": "Kotlin", "license": "Apache-2.0", "pushed_at": "2026-11-27", "default_branch": "main", "latest_release": "v2.8.5", "release_date": "2026-11-21", "has_sha256_asset": false, "html_url": "https://github.com/Harrys-HQ/ShinKu"}, {"repo": "unseensnick/Reikai", "wave": "Base-8", "role": "Biblioteca Manga + LN", "status": "ACTIVE", "stars": 49, "forks": 8, "open_issues": 3, "language": "Kotlin", "license": "Apache-2.0", "pushed_at": "2026-11-27", "default_branch": "main", "latest_release": "v0.5.1", "release_date": "2026-10-26", "has_sha256_asset": false, "html_url": "https://github.com/unseensnick/Reikai"}, {"repo": "PineappleTwilight/hyoukan", "wave": "Base-8", "role": "Motor WebGPU + OCR", "status": "ACTIVE", "stars": 56, "forks": 6, "open_issues": 7, "language": "Kotlin", "license": "Apache-2.0", "pushed_at": "2026-11-27", "default_branch": "master", "latest_release": "v1.25.3", "release_date": "2026-11-04", "has_sha256_asset": false, "html_url": "https://github.com/PineappleTwilight/hyoukan"}, {"repo": "Foxlations/Foxlations", "wave": "Base-8", "role": "Lector Flutter Multi-formato", "status": "ACTIVE", "stars": 6, "forks": 0, "open_issues": 11, "language": "Dart", "license": "Apache-2.0", "pushed_at": "2026-10-29", "default_branch": "main", "latest_release": "v1.2.2+188", "release_date": "2026-10-15", "has_sha256_asset": false, "html_url": "https://github.com/Foxlations/Foxlations"}, {"repo": "Kototoro-app/Kototoro", "wave": "Base-8", "role": "Puente KMP Multi-ecosistema", "status": "ACTIVE", "stars": 709, "forks": 63, "open_issues": 3, "language": "Kotlin", "license": "Apache-2.0", "pushed_at": "2026-11-27", "default_branch": "devel", "latest_release": "v2.5.3", "release_date": "2026-11-26", "has_sha256_asset": true, "html_url": "https://github.com/Kototoro-app/Kototoro"}, {"repo": "Arthurpendragon9876/DeepSync", "wave": "Base-8", "role": "Sync Multiplataforma", "status": "ACTIVE", "stars": 14, "forks": 0, "open_issues": 4, "language": "Kotlin", "license": "GPL-3.0", "pushed_at": "2026-11-27", "default_branch": "main", "latest_release": "android-v0.1.4", "release_date": "2026-11-26", "has_sha256_asset": false, "html_url": "https://github.com/Arthurpendragon9876/DeepSync"}, {"repo": "salmanbappi/AniZen", "wave": "Base-8", "role": "Reproductor Anime Compose", "status": "ACTIVE", "stars": 205, "forks": 19, "open_issues": 33, "language": "Kotlin", "license": "Apache-2.0", "pushed_at": "2026-11-26", "default_branch": "master", "latest_release": "v0.5.222", "release_date": "2026-11-26", "has_sha256_asset": false, "html_url": "https://github.com/salmanbappi/AniZen"}, {"repo": "akitaonrails/FrankYomik", "wave": "Oleada-2", "role": "Traducción Visual Manga", "status": "ACTIVE", "stars": 217, "forks": 27, "open_issues": 2, "language": "Python", "license": "AGPL-3.0", "pushed_at": "2026-11-26", "default_branch": "master", "latest_release": "v2.0.7", "release_date": "2026-11-26", "has_sha256_asset": false, "html_url": "https://github.com/akitaonrails/FrankYomik"}, {"repo": "RockinChaos/Shiru", "wave": "Oleada-2", "role": "Gestor Anime/Torrents", "status": "ACTIVE", "stars": 665, "forks": 46, "open_issues": 45, "language": "JavaScript", "license": "GPL-3.0", "pushed_at": "2026-11-26", "default_branch": "master", "latest_release": "v6.10.1", "release_date": "2026-11-18", "has_sha256_asset": false, "html_url": "https://github.com/RockinChaos/Shiru"}, {"repo": "dmzz-yyhyy/LightNovelReader", "wave": "Oleada-2", "role": "Lector Novelas Ligeras", "status": "ACTIVE", "stars": 2379, "forks": 78, "open_issues": 54, "language": "Kotlin", "license": "Apache-2.0", "pushed_at": "2026-11-26", "default_branch": "dev/1.3", "latest_release": "1.2.4", "release_date": "2026-10-16", "has_sha256_asset": false, "html_url": "https://github.com/dmzz-yyhyy/LightNovelReader"}, {"repo": "yomihon/yomihon", "wave": "Oleada-2", "role": "Lector Manga + OCR Diccionario", "status": "ACTIVE", "stars": 148, "forks": 15, "open_issues": 17, "language": "Kotlin", "license": "Apache-2.0", "pushed_at": "2026-10-18", "default_branch": "main", "latest_release": "v0.4.3", "release_date": "2026-10-18", "has_sha256_asset": false, "html_url": "https://github.com/yomihon/yomihon"}, {"repo": "5rahim/seanime", "wave": "Oleada-2", "role": "Servidor Autoalojado Anime/Manga", "status": "ACTIVE", "stars": 4352, "forks": 325, "open_issues": 101, "language": "Go", "license": "GPL-3.0", "pushed_at": "2026-11-21", "default_branch": "main", "latest_release": "v3.10.5", "release_date": "2026-11-21", "has_sha256_asset": false, "html_url": "https://github.com/5rahim/seanime"}, {"repo": "Anxcye/anx-reader", "wave": "Oleada-3", "role": "Lector EPUB/Libros IA", "status": "ACTIVE", "stars": 9309, "forks": 686, "open_issues": 101, "language": "Dart", "license": "MIT", "pushed_at": "2026-10-17", "default_branch": "develop", "latest_release": "v1.14.0", "release_date": "2026-03-19", "has_sha256_asset": false, "html_url": "https://github.com/Anxcye/anx-reader"}, {"repo": "RyanYuuki/AnymeX", "wave": "Oleada-3", "role": "Cliente Flutter Multi-tracker", "status": "ACTIVE", "stars": 1302, "forks": 115, "open_issues": 80, "language": "Dart", "license": "MIT", "pushed_at": "2026-11-26", "default_branch": "main", "latest_release": "v3.2.1", "release_date": "2026-11-25", "has_sha256_asset": false, "html_url": "https://github.com/RyanYuuki/AnymeX"}, {"repo": "ProjectNox-org/nox-extension-developer", "wave": "Oleada-4", "role": "Tooling Extensiones", "status": "ACTIVE", "stars": 6, "forks": 1, "open_issues": 1, "language": "Python", "license": "AGPL-3.0", "pushed_at": "2026-11-23", "default_branch": "main", "latest_release": "v2.1.1", "release_date": "2026-11-21", "has_sha256_asset": true, "html_url": "https://github.com/ProjectNox-org/nox-extension-developer"}, {"repo": "ProjectNox-org/project-nox-importer", "wave": "Oleada-4", "role": "Importador/Pipeline", "status": "ACTIVE", "stars": 2, "forks": 1, "open_issues": 6, "language": "TypeScript", "license": "AGPL-3.0", "pushed_at": "2026-11-21", "default_branch": "main", "latest_release": "Sin release", "release_date": "—", "has_sha256_asset": false, "html_url": "https://github.com/ProjectNox-org/project-nox-importer"}, {"repo": "diogorainhalopes/atahon", "wave": "Oleada-4", "role": "Lector/Extensiones", "status": "ACTIVE", "stars": 19, "forks": 0, "open_issues": 6, "language": "TypeScript", "license": "NONE", "pushed_at": "2026-05-24", "default_branch": "main", "latest_release": "v0.6.0", "release_date": "2026-05-24", "has_sha256_asset": false, "html_url": "https://github.com/diogorainhalopes/atahon"}, {"repo": "loeuf237/animelab", "wave": "Oleada-4", "role": "Plataforma/Utilidades Anime", "status": "ACTIVE", "stars": 3, "forks": 3, "open_issues": 46, "language": "Python", "license": "GPL-3.0", "pushed_at": "2026-11-26", "default_branch": "main", "latest_release": "v0.3.2", "release_date": "2026-11-26", "has_sha256_asset": true, "html_url": "https://github.com/loeuf237/animelab"}, {"repo": "ReitanSora/koeyomi", "wave": "Oleada-5", "role": "Lector Manga Móvil", "status": "ACTIVE", "stars": 12, "forks": 0, "open_issues": 2, "language": "TypeScript", "license": "MIT (archivo LICENSE)", "pushed_at": "2026-08-11", "default_branch": "master", "latest_release": "v1.1.3", "release_date": "2026-08-11", "has_sha256_asset": true, "html_url": "https://github.com/ReitanSora/koeyomi"}, {"repo": "Nabeelshar/WebnovelReader", "wave": "Oleada-5", "role": "Lector Novelas Web/EPUB", "status": "ACTIVE", "stars": 30, "forks": 6, "open_issues": 2, "language": "Python", "license": "GPL-3.0", "pushed_at": "2026-11-23", "default_branch": "master", "latest_release": "v2.5.0", "release_date": "2026-11-23", "has_sha256_asset": false, "html_url": "https://github.com/Nabeelshar/WebnovelReader"}, {"repo": "Paduu29/KomaStream", "wave": "Oleada-5", "role": "Streaming/Descarga Manga", "status": "ACTIVE", "stars": 16, "forks": 0, "open_issues": 1, "language": "Kotlin", "license": "GPL-3.0", "pushed_at": "2026-10-26", "default_branch": "main", "latest_release": "v3.17", "release_date": "2026-10-26", "has_sha256_asset": false, "html_url": "https://github.com/Paduu29/KomaStream"}, {"repo": "HuzaifaKhalid1311/DropSauce", "wave": "Oleada-5", "role": "Migración/Backups Mihon", "status": "ACTIVE", "stars": 259, "forks": 31, "open_issues": 5, "language": "Kotlin", "license": "GPL-3.0", "pushed_at": "2026-11-27", "default_branch": "main", "latest_release": "v1.2.0", "release_date": "2026-11-27", "has_sha256_asset": false, "html_url": "https://github.com/HuzaifaKhalid1311/DropSauce"}, {"repo": "reyyuuki/Azyx", "wave": "Oleada-6", "role": "Cliente Flutter Multi-tracker", "status": "ACTIVE", "stars": 251, "forks": 10, "open_issues": 7, "language": "Dart", "license": "NONE", "pushed_at": "2026-11-27", "default_branch": "main", "latest_release": "v2.6.4-beta", "release_date": "2025-08-24", "has_sha256_asset": false, "html_url": "https://github.com/reyyuuki/Azyx"}, {"repo": "stumpapp/stump", "wave": "Oleada-6", "role": "Servidor Cómic/EPUB OPDS", "status": "ACTIVE", "stars": 2800, "forks": 183, "open_issues": 126, "language": "TypeScript", "license": "MIT", "pushed_at": "2026-11-26", "default_branch": "main", "latest_release": "v0.1.14", "release_date": "2026-11-18", "has_sha256_asset": false, "html_url": "https://github.com/stumpapp/stump"}, {"repo": "ollm/OpenComic", "wave": "Oleada-6", "role": "Lector Escritorio Cómic/EPUB", "status": "ACTIVE", "stars": 2055, "forks": 141, "open_issues": 76, "language": "JavaScript", "license": "GPL-3.0", "pushed_at": "2026-11-26", "default_branch": "master", "latest_release": "v2.0.0", "release_date": "2026-11-14", "has_sha256_asset": false, "html_url": "https://github.com/ollm/OpenComic"}, {"repo": "kodjodevf/mangayomi", "wave": "Oleada-6", "role": "Lector Flutter Anime/Manga/LN", "status": "ACTIVE", "stars": 4569, "forks": 220, "open_issues": 93, "language": "Dart", "license": "Apache-2.0", "pushed_at": "2026-11-20", "default_branch": "main", "latest_release": "v0.9.97", "release_date": "2026-11-20", "has_sha256_asset": false, "html_url": "https://github.com/kodjodevf/mangayomi"}, {"repo": "Chimahon/chimahon", "wave": "Oleada-6", "role": "Lector Manga/LN Fork", "status": "ACTIVE", "stars": 266, "forks": 37, "open_issues": 24, "language": "Kotlin", "license": "GPL-3.0", "pushed_at": "2026-11-26", "default_branch": "main", "latest_release": "v2.5.5", "release_date": "2026-11-27", "has_sha256_asset": false, "html_url": "https://github.com/Chimahon/chimahon"}, {"repo": "Yuneko-dev/Nekori", "wave": "Oleada-6-Auditado", "role": "Lector Manga/EPUB", "status": "ACTIVE", "stars": 39, "forks": 4, "open_issues": 3, "language": "Kotlin", "license": "Apache-2.0", "pushed_at": "2026-11-24", "default_branch": "main", "latest_release": "v0.1.3", "release_date": "2026-10-23", "has_sha256_asset": false, "html_url": "https://github.com/Yuneko-dev/Nekori"}, {"repo": "aayush2622/Dartotsu", "wave": "Oleada-6-Auditado", "role": "Cliente Flutter Multi-tracker", "status": "ACTIVE", "stars": 574, "forks": 41, "open_issues": 5, "language": "Dart", "license": "UPL (LICENSE.md)", "pushed_at": "2026-11-25", "default_branch": "main", "latest_release": "v1.2.2", "release_date": "2026-11-24", "has_sha256_asset": false, "html_url": "https://github.com/aayush2622/Dartotsu"}, {"repo": "komikku-app/komikku", "wave": "Oleada-6-Auditado", "role": "Lector Manga GNOME", "status": "ACTIVE", "stars": 5071, "language": "Kotlin", "license": "Apache-2.0", "pushed_at": "2026-11-27", "latest_release": "r10755", "release_date": "2026-11-27", "has_sha256_asset": false, "html_url": "https://github.com/komikku-app/komikku"}, {"repo": "mihonapp/mihon", "wave": "Candidato", "role": "Referencia Mihon Android", "status": "ACTIVE", "stars": 25694, "language": "Kotlin", "license": "Apache-2.0", "pushed_at": "2026-11-22", "latest_release": "v0.21.3", "release_date": "2026-10-26", "has_sha256_asset": true, "html_url": "https://github.com/mihonapp/mihon"}, {"repo": "Suwayomi/Suwayomi-Server", "wave": "Candidato", "role": "Servidor Autoalojado Mihon", "status": "ACTIVE", "stars": 8114, "language": "Kotlin", "license": "MPL-2.0", "pushed_at": "2026-11-22", "latest_release": "v2.4.2373", "release_date": "2026-11-21", "has_sha256_asset": true, "html_url": "https://github.com/Suwayomi/Suwayomi-Server"}, {"repo": "Kareadita/Kavita", "wave": "Candidato", "role": "Servidor Digital Cómics/EPUB", "status": "ACTIVE", "stars": 12194, "language": "C#", "license": "GPL-3.0", "pushed_at": "2026-11-22", "latest_release": "v0.9.1.4", "release_date": "2026-09-02", "has_sha256_asset": true, "html_url": "https://github.com/Kareadita/Kavita"}, {"repo": "null2264/yokai", "wave": "Candidato", "role": "Fork Mihon UI/Librería", "status": "ACTIVE", "stars": 1922, "language": "Kotlin", "license": "Apache-2.0", "pushed_at": "2026-09-28", "latest_release": "v1.10.2", "release_date": "2026-09-23", "has_sha256_asset": true, "html_url": "https://github.com/null2264/yokai"}, {"repo": "predidit/Kazumi", "wave": "Candidato", "role": "Reproductor Anime Flutter", "status": "ACTIVE", "stars": 44261, "language": "Dart", "license": "GPL-3.0", "pushed_at": "2026-11-26", "latest_release": "2.4.7", "release_date": "2026-11-26", "has_sha256_asset": true, "html_url": "https://github.com/predidit/Kazumi"}, {"repo": "keiyoushi/extensions-source", "wave": "Candidato", "role": "Fuente Extensiones Manga", "status": "ACTIVE", "stars": 4938, "language": "Kotlin", "license": "Apache-2.0", "pushed_at": "2026-11-26", "latest_release": "Sin release", "release_date": "—", "has_sha256_asset": false, "html_url": "https://github.com/keiyoushi/extensions-source"}], "issues": [{"id": "Miyorare#1057", "repo": "Noirero/Miyorare", "wave": "Base-8", "category": "Migración / Backups", "severity": "Alta", "sha": "d55c6cb", "status": "Respondido", "summary": "Import/export bidireccional Mihon/Aniyomi (.tachibk) ↔ Kototoro/Usagi V1/V3 con esquemas anonimizados."}, {"id": "Miyorare#1058", "repo": "Noirero/Miyorare", "wave": "Base-8", "category": "UX / Descubrimiento", "severity": "Media", "sha": "d55c6cb", "status": "Respondido", "summary": "Separar descubrimiento en Explore, agrupación visual no destructiva en Feed y SuggestionsWorker diferido."}, {"id": "ShinKu#61", "repo": "Harrys-HQ/ShinKu", "wave": "Base-8", "category": "IA / Offline", "severity": "Media", "sha": "4b02e73", "status": "Abierto", "summary": "Memoria contextual offline/opt-in por serie a partir de caché de glosarios sin diluir foco en manga."}, {"id": "Reikai#120", "repo": "unseensnick/Reikai", "wave": "Base-8", "category": "LN / EPUB", "severity": "Media", "sha": "r5341", "status": "Discussion", "summary": "Empaquetado local de volúmenes/arcos a EPUB/CBZ y detección de ómnibus dentro de LnPluginHost."}, {"id": "hyoukan#106", "repo": "PineappleTwilight/hyoukan", "wave": "Base-8", "category": "OCR / GPU", "severity": "Media", "sha": "5ef8464", "status": "Abierto", "summary": "Lookup léxico al tocar globos OCR y rotulado no destructivo en capas sobre yakuyomi-engine/WebGPU."}, {"id": "Kototoro#743", "repo": "Kototoro-app/Kototoro", "wave": "Base-8", "category": "Ecosistema KMP", "severity": "Alta", "sha": "2ec347e", "status": "Implementado", "summary": "Importador Usagi + Discovery Feed 1/3–3/3 verificados en 5 commits (54e3450..2ec347e)."}, {"id": "DeepSync#35", "repo": "Arthurpendragon9876/DeepSync", "wave": "Base-8", "category": "Concurrencia", "severity": "Alta", "sha": "1039fbe", "status": "Cerrado", "summary": "Verificados todos los llamadores de ensureChapterLoaded en Dispatchers.IO/Default; cerrado limpiamente."}, {"id": "DeepSync#43", "repo": "Arthurpendragon9876/DeepSync", "wave": "Base-8", "category": "UI / Crash", "severity": "Alta", "sha": "74ae76e", "status": "Abierto", "summary": "ClassCastException en CloudstreamDomainDialog.kt:55-58 por ViewGroup.LayoutParams en lugar de LinearLayout.LayoutParams."}, {"id": "FrankYomik#7", "repo": "akitaonrails/FrankYomik", "wave": "Oleada-2", "category": "Dependencias / CLI", "severity": "Alta", "sha": "555be90", "status": "Abierto", "summary": "Importación temprana de fugashi en kindle/processor.py:35 rompe el flujo puro TRANSLATE; 7 fallos en test_bytes_io.py."}, {"id": "FrankYomik#8", "repo": "akitaonrails/FrankYomik", "wave": "Oleada-2", "category": "Traducción / UX", "severity": "Media", "sha": "555be90", "status": "Abierto", "summary": "Glosario y lecturas por serie para Hold-to-Peek Lens."}, {"id": "Shiru#186", "repo": "RockinChaos/Shiru", "wave": "Oleada-2", "category": "Parser / Regex", "severity": "Alta", "sha": "a5ac501", "status": "Abierto", "summary": "alternativeTitles() en animeresolver.js elimina ona/ova/oav/movie sin límites de palabra, corrompiendo Akatsuki no Yona y Persona 5."}, {"id": "LightNovelReader#544", "repo": "dmzz-yyhyy/LightNovelReader", "wave": "Oleada-2", "category": "Pruebas / Gradle", "severity": "Media", "sha": "fa98bf5", "status": "Abierto", "summary": ":epub:test falla en Gradle 9.5.1 porque GenerateSimpleBookTest.kt y XmlBuilderTest.kt solo declaran fun main() sin @Test."}, {"id": "yomihon#40", "repo": "yomihon/yomihon", "wave": "Oleada-2", "category": "Caché / OCR", "severity": "Media", "sha": "c743d91", "status": "Abierto", "summary": "Caché de diccionario conserva existingTermExpressions obsoleto en DictionarySearchScreenModel.kt."}, {"id": "yomihon#41", "repo": "yomihon/yomihon", "wave": "Oleada-2", "category": "Exportación Anki", "severity": "Baja", "sha": "c743d91", "status": "Abierto", "summary": "Etiquetas contextuales de manga y capítulo en exportaciones AnkiDroid."}, {"id": "seanime#1010", "repo": "5rahim/seanime", "wave": "Oleada-2", "category": "Continuidad / OPDS", "severity": "Media", "sha": "main", "status": "Abierto", "summary": "Extender internal/continuity al progreso manga página/capítulo + feed OPDS LAN opt-in de solo lectura."}, {"id": "anx-reader#1024", "repo": "Anxcye/anx-reader", "wave": "Oleada-3", "category": "IA / Claves", "severity": "Alta", "sha": "0c7fc1a", "status": "Abierto", "summary": "AiKeyRotator.getNextKey() puede devolver clave vacía cuando coexiste un campo habilitado en blanco con otra válida."}, {"id": "AnymeX#669", "repo": "RyanYuuki/AnymeX", "wave": "Oleada-3", "category": "Caché / IA", "severity": "Media", "sha": "9274a66", "status": "Abierto", "summary": "getAiRecommendations() omite AnimeSproutOptions en cacheKey y sirve recomendaciones obsoletas al cambiar filtros."}, {"id": "AnymeX#670", "repo": "RyanYuuki/AnymeX", "wave": "Oleada-3", "category": "Pruebas / Trackers", "severity": "Media", "sha": "9274a66", "status": "Abierto", "summary": "Suite inicial flutter_test pura para GistSyncService y mapeo multi-tracker (AniList/MAL/Simkl)."}, {"id": "nox-ext-dev#16", "repo": "ProjectNox-org/nox-extension-developer", "wave": "Oleada-4", "category": "Pruebas / Sandbox", "severity": "Media", "sha": "main", "status": "Abierto", "summary": "test_nox_scaffold.py falla en 2 pruebas LNReader ('BLOCKED' != 'PASS') cuando falta bwrap en el host."}, {"id": "atahon#24", "repo": "diogorainhalopes/atahon", "wave": "Oleada-4", "category": "Resiliencia / Red", "severity": "Alta", "sha": "main", "status": "Abierto", "summary": "En src/queries/extensions.ts un único repo con error oculta toda la lista de extensiones (useMergedExtensions)."}, {"id": "animelab#84", "repo": "loeuf237/animelab", "wave": "Oleada-4", "category": "Pruebas / CI", "severity": "Media", "sha": "main", "status": "Abierto", "summary": "1,133 pytest pasadas; faltan guardas skipif cuando ffmpeg no está instalado en test_verification.py y test_nm3u8dl_p10_p13.py."}, {"id": "koeyomi#27", "repo": "ReitanSora/koeyomi", "wave": "Oleada-5", "category": "Pérdida de datos / FS", "severity": "Alta", "sha": "18d555b", "status": "Abierto", "summary": "handleCoverDelete falla sin guard cuando falta la carpeta, carece de await y borra coverImageUrl usado en history.tsx."}, {"id": "koeyomi#28", "repo": "ReitanSora/koeyomi", "wave": "Oleada-5", "category": "Descargas / Estado", "severity": "Alta", "sha": "18d555b", "status": "Abierto", "summary": "ChapterItem.handleDownload usa Promise.allSettled y marca descargas parciales/fallidas como 'downloaded'."}, {"id": "WebnovelReader#7", "repo": "Nabeelshar/WebnovelReader", "wave": "Oleada-5", "category": "Seguridad / Zip Slip", "severity": "Crítica", "sha": "e7477f9", "status": "Abierto", "summary": "RestoreDataService permite Zip Slip en entradas books/, carga todo el ZIP en RAM y filtra temp_restore_database.db."}, {"id": "WebnovelReader#8", "repo": "Nabeelshar/WebnovelReader", "wave": "Oleada-5", "category": "Parser EPUB", "severity": "Alta", "sha": "e7477f9", "status": "Abierto", "summary": "EpubParser antepone '/' en OPF raíz, resuelve rutas contra CWD con canonicalFile y rechaza EPUB 3 sin ID 'ncx'."}, {"id": "KomaStream#2", "repo": "Paduu29/KomaStream", "wave": "Oleada-5", "category": "Concurrencia / Workers", "severity": "Alta", "sha": "60ade93", "status": "Abierto", "summary": "BatchDownloadWorker.ensureStopped() lanza fuera de runCatching, filtrando batchFile y omitiendo cancelación."}, {"id": "DropSauce#209", "repo": "HuzaifaKhalid1311/DropSauce", "wave": "Oleada-5", "category": "Backups / NPE", "severity": "Alta", "sha": "411387b", "status": "Abierto", "summary": "MihonBackupManager.decode hace readByteArray() sin cota y RestoreService pasa InputStream nullable a ZipInputStream."}, {"id": "Azyx#24", "repo": "reyyuuki/Azyx", "wave": "Oleada-6", "category": "Backups / Esquema", "severity": "Alta", "sha": "78f1580", "status": "Abierto", "summary": "restoreBackup(merge=true) deduplica offlineItems por número sin distinguir isManga; LocalHistoryItem sin mediaType en índice."}, {"id": "stump#1553", "repo": "stumpapp/stump", "wave": "Oleada-6", "category": "Seguridad / Path Traversal", "severity": "Crítica", "sha": "79ead35", "status": "Abierto", "summary": "convert_to_zip en core/src/media/processor/rar.rs une entry.filename sin validar path traversal y filtra unpacked_path."}, {"id": "OpenComic#683", "repo": "ollm/OpenComic", "wave": "Oleada-6", "category": "Seguridad / Zip Slip", "severity": "Crítica", "sha": "64f01da", "status": "Abierto", "summary": "Confirmado en Node.js escape resourcePath('../../../etc/passwd') fuera de realPathZip y división Infinity en download.mts."}, {"id": "mangayomi#1202", "repo": "kodjodevf/mangayomi", "wave": "Oleada-6", "category": "Pérdida de datos / Backup", "severity": "Alta", "sha": "0ad144b", "status": "Abierto", "summary": "_mergeMangayomiBackup descarta historial existente; KotatsuRestoreService limpia trackers; writeMangayomiBackupZip filtra .backup.db."}, {"id": "chimahon#157", "repo": "Chimahon/chimahon", "wave": "Oleada-6", "category": "Seguridad / Streams", "severity": "Alta", "sha": "bb0ed9c", "status": "Abierto", "summary": "EpubParser filtra FileOutputStream; DirectoryExtractor sin canonicalFile; TtuDriveClient sin escape de '\\' en Drive."}], "recommendations": [{"niche": "Lectores de Manga con IA y Notas", "apps": ["Harrys-HQ/ShinKu", "Noirero/Miyorare", "yomihon/yomihon"], "pattern_to_adopt": "Memoria contextual offline/opt-in de serie + glosario en caché + verificación de confianza en Source Packs.", "anti_pattern_avoid": "No añadir reproductores de video/torrents ni meter modelos de IA para validaciones deterministas que resuelve un regex.", "next_action": "Validar glosarios locales y restore en dispositivo físico Android (pendiente en Tecno Spark 20 Pro+)."}, {"niche": "Novelas Ligeras, EPUB y Bibliotecas Locales", "apps": ["unseensnick/Reikai", "dmzz-yyhyy/LightNovelReader", "Anxcye/anx-reader", "Nabeelshar/WebnovelReader"], "pattern_to_adopt": "Empaquetado EPUB/CBZ local con validación estricta de rutas canónicas (anti Zip Slip) y rotación segura de claves IA.", "anti_pattern_avoid": "Evitar cargar backups ZIP completos en RAM, depender de CWD relativo o aceptar claves habilitadas en blanco.", "next_action": "Migrar pruebas `:epub:test` a `@Test` JUnit (LightNovelReader#544) y endurecer RestoreDataService (WebnovelReader#7)."}, {"niche": "Motores Gráficos, OCR y Traducción Visual", "apps": ["PineappleTwilight/hyoukan", "akitaonrails/FrankYomik"], "pattern_to_adopt": "Lookup léxico al tocar globos OCR + limpieza por capas no destructiva sobre GPU/OCR local.", "anti_pattern_avoid": "Importaciones globales tempranas de tokenizadores pesados (fugashi) cuando el usuario solo pide flujo de traducción puro.", "next_action": "Aislar carga de dependencias en FrankYomik#7 y evaluar capas de lectura en hyoukan#106."}, {"niche": "Servidores Autoalojados y Puentes OPDS/LAN", "apps": ["Kototoro-app/Kototoro", "5rahim/seanime", "stumpapp/stump", "Suwayomi/Suwayomi-Server", "Kareadita/Kavita"], "pattern_to_adopt": "Continuidad LAN + feed OPDS de solo lectura + checksums SHA-256 en cada binario publicado.", "anti_pattern_avoid": "Desempaquetar archivos RAR/ZIP sin verificar contención de ruta ni limpiar directorios temporales tras error.", "next_action": "Parchear convert_to_zip en stump#1553 y auditar Suwayomi-Server y Kavita (candidatos)."}, {"niche": "Clientes Multi-tracker Flutter y Anime", "apps": ["RyanYuuki/AnymeX", "aayush2622/Dartotsu", "reyyuuki/Azyx", "kodjodevf/mangayomi", "salmanbappi/AniZen", "predidit/Kazumi"], "pattern_to_adopt": "Suites `flutter_test` puras sobre parsers de backup y mapeo AniList/MAL/Simkl con claves compuestas (`mediaId + mediaType`).", "anti_pattern_avoid": "Fusionar backups descartando historial existente, omitir filtros en claves de caché o publicar sin archivo LICENSE.", "next_action": "Agregar licencia explícita en Azyx y atahon, y pruebas unitarias en AnymeX#670."}, {"niche": "Sincronización, Backups e Infraestructura de Extensiones", "apps": ["Arthurpendragon9876/DeepSync", "HuzaifaKhalid1311/DropSauce", "Foxlations/Foxlations", "ProjectNox-org/nox-extension-developer", "diogorainhalopes/atahon"], "pattern_to_adopt": "Aislamiento por repositorio (un repo caído no oculta los sanos), backups acotados en streaming y checksums SHA-256 automatizados.", "anti_pattern_avoid": "Leer backups ilimitados con `readByteArray()` ni acoplar pruebas unitarias a binarios del host (`bwrap`/`ffmpeg`) sin `skipif`.", "next_action": "Corregir LayoutParams en DeepSync#43 y aislamiento de errores en atahon#24."}], "connectors": [{"name": "GitHub (Lectura pública)", "status": "Medido en vivo", "detail": "37 repositorios medidos el 2026-11-27 08:38 AST (132,582 estrellas totales). Push git bloqueado en sandbox sin token."}, {"name": "Vercel (team proyect)", "status": "Proyecto creado · despliegue no completado", "detail": "Proyecto la-bandita-observatorio-oss (prj_NxVDLOrHvfU8yVI3tyG8O1CpYtkb) creado en el team proyect. La API de despliegue rechazó el envío de archivos por validación de esquema (files[].data / projectSettings); el tablero queda publicado en el espacio de trabajo y no se afirma que esté en línea en Vercel."}, {"name": "Google Sheets & Docs", "status": "Activo / Sincronizado", "detail": "Libro multi-pestaña (4 hojas) y piezas Feynman ES/EN guardadas en Drive."}, {"name": "Notion (Alexaindruews)", "status": "Activo / Sincronizado", "detail": "Página maestra de análisis y recomendaciones bajo 'Primeros pasos en el móvil'."}, {"name": "Linear (Equipo ALE)", "status": "Activo / Sincronizado", "detail": "Proyecto y tareas accionables para los 6 candidatos y remediación de hallazgos."}, {"name": "WordPress", "status": "Error 404 (No disponible)", "detail": "wordpress:validate_credential falló con 'WordPress API error (404): No input file specified'."}, {"name": "Supabase", "status": "Inactivo (Pausado)", "detail": "Proyecto xgvmwykyrxpcjsgwwoyu en estado INACTIVE."}]}
+    let DATA = EMBEDDED_DATA;
+    let sortKey = 'stars';
+    let sortDir = -1;
+
+    function esc(v) {
+      return String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+
+    function switchTab(id) {
+      document.querySelectorAll('.nav-tab').forEach(b => b.classList.toggle('active', b.dataset.tab === id));
+      document.querySelectorAll('.section-view').forEach(s => s.classList.toggle('active', s.id === 'tab-' + id));
+    }
+
+    document.querySelectorAll('.nav-tab').forEach(btn => {
+      btn.addEventListener('click', () => switchTab(btn.dataset.tab));
+    });
+
+    function renderSummary() {
+      const s = DATA.summary;
+      const kpis = [
+        { label: 'Repositorios medidos', val: s.total_repos, sub: `${s.audited_repos} auditados · ${s.candidate_repos} referentes` },
+        { label: 'Estrellas acumuladas', val: s.total_stars.toLocaleString('es-ES'), sub: 'Medición directa al 2026-11-27' },
+        { label: 'Entregas con SHA-256', val: `${s.repos_with_sha256}/${s.repos_with_releases}`, sub: `${s.sha256_pct_releases}% global · ${s.audited_sha256_ratio} en auditados` },
+        { label: 'Incidencias verificadas', val: s.verified_issues_count, sub: `${s.no_license_count} repos sin archivo LICENSE` }
+      ];
+      document.getElementById('kpi-grid').innerHTML = kpis.map(k => `
+        <div class="kpi-card col-3">
+          <div class="kpi-label">${esc(k.label)}</div>
+          <div class="kpi-value">${esc(k.val)}</div>
+          <div class="kpi-sub">${esc(k.sub)}</div>
+        </div>
+      `).join('');
+
+      // SVG Bar Chart 1: SHA-256 Gap
+      const shaBars = [
+        { label: 'Repos auditados (4 de 30)', pct: 13.3, color: '#B45309' },
+        { label: 'Total con entregas (9 de 35)', pct: 25.7, color: '#0E7490' },
+        { label: 'Referentes maduros (5 de 5)', pct: 100.0, color: '#0F766E' }
+      ];
+      document.getElementById('chart-sha').innerHTML = `
+        <svg viewBox="0 0 520 155" width="100%" height="155" role="img" aria-label="Comparativa de adopción SHA-256">
+          ${shaBars.map((b, i) => {
+            const y = 14 + i * 48;
+            const w = Math.max(8, (b.pct / 100) * 320);
+            return `
+              <text x="0" y="${y + 12}" fill="#0F172A" font-size="12" font-weight="600">${esc(b.label)}</text>
+              <rect x="0" y="${y + 18}" width="320" height="14" rx="7" fill="#EEF2F7"></rect>
+              <rect x="0" y="${y + 18}" width="${w}" height="14" rx="7" fill="${b.color}"></rect>
+              <text x="332" y="${y + 30}" fill="#0F172A" font-size="12" font-weight="700">${b.pct}%</text>
+            `;
+          }).join('')}
+        </svg>
+      `;
+
+      // SVG Bar Chart 2: Licenses count
+      const licMap = {};
+      DATA.repos.forEach(r => {
+        const k = r.license.startsWith('MIT') ? 'MIT' : r.license.startsWith('UPL') ? 'UPL' : r.license;
+        licMap[k] = (licMap[k] || 0) + 1;
+      });
+      const licEntries = Object.entries(licMap).sort((a,b) => b[1] - a[1]);
+      const maxLic = Math.max(...licEntries.map(e => e[1]), 1);
+      document.getElementById('chart-lic').innerHTML = `
+        <svg viewBox="0 0 520 ${licEntries.length * 26 + 10}" width="100%" height="${licEntries.length * 26 + 10}" role="img" aria-label="Licencias verificadas">
+          ${licEntries.map(([name, cnt], i) => {
+            const y = 6 + i * 26;
+            const w = Math.max(10, (cnt / maxLic) * 280);
+            const col = name === 'NONE' ? '#BE123C' : '#0E7490';
+            return `
+              <text x="0" y="${y + 14}" fill="#0F172A" font-size="12" font-weight="600">${esc(name)}</text>
+              <rect x="115" y="${y + 3}" width="280" height="13" rx="6" fill="#EEF2F7"></rect>
+              <rect x="115" y="${y + 3}" width="${w}" height="13" rx="6" fill="${col}"></rect>
+              <text x="405" y="${y + 14}" fill="#0F172A" font-size="12" font-weight="700">${cnt}</text>
+            `;
+          }).join('')}
+        </svg>
+      `;
+
+      document.getElementById('connectors-tbody').innerHTML = DATA.connectors.map(c => {
+        const cls = c.status.includes('Error') || c.status.includes('Inactivo') ? 'badge-risk' : 'badge-ok';
+        return `<tr>
+          <td><strong>${esc(c.name)}</strong></td>
+          <td><span class="badge ${cls}">${esc(c.status)}</span></td>
+          <td>${esc(c.detail)}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    function renderRecommendations() {
+      document.getElementById('recs-grid').innerHTML = DATA.recommendations.map(rec => `
+        <article class="card col-6">
+          <h3>${esc(rec.niche)}</h3>
+          <div style="display:flex; flex-wrap:wrap; gap:6px; margin:8px 0 12px;">
+            ${rec.apps.map(a => `<span class="badge badge-info">${esc(a)}</span>`).join('')}
+          </div>
+          <div class="niche-meta">
+            <div><strong style="color:var(--ok);">Patrón a adoptar:</strong> ${esc(rec.pattern_to_adopt)}</div>
+            <div><strong style="color:var(--risk);">Antipatrón a evitar:</strong> ${esc(rec.anti_pattern_avoid)}</div>
+            <div><strong>Siguiente paso:</strong> ${esc(rec.next_action)}</div>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    function populateRepoFilters() {
+      const waves = [...new Set(DATA.repos.map(r => r.wave))];
+      const wSel = document.getElementById('filter-wave');
+      waves.forEach(w => { const o = document.createElement('option'); o.value = w; o.textContent = w; wSel.appendChild(o); });
+
+      const lics = [...new Set(DATA.repos.map(r => r.license))].sort();
+      const lSel = document.getElementById('filter-lic');
+      lics.forEach(l => { const o = document.createElement('option'); o.value = l; o.textContent = l; lSel.appendChild(o); });
+    }
+
+    function renderRepos() {
+      const q = document.getElementById('repo-search').value.trim().toLowerCase();
+      const fw = document.getElementById('filter-wave').value;
+      const fs = document.getElementById('filter-sha').value;
+      const fl = document.getElementById('filter-lic').value;
+
+      let list = DATA.repos.filter(r => {
+        if (fw && r.wave !== fw) return false;
+        if (fs === 'yes' && !r.has_sha256_asset) return false;
+        if (fs === 'no' && r.has_sha256_asset) return false;
+        if (fl && r.license !== fl) return false;
+        if (q) {
+          const hay = `${r.repo} ${r.role} ${r.language} ${r.wave}`.toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+
+      list.sort((a, b) => {
+        const va = a[sortKey] ?? '';
+        const vb = b[sortKey] ?? '';
+        if (typeof va === 'number' && typeof vb === 'number') return (va - vb) * sortDir;
+        return String(va).localeCompare(String(vb)) * sortDir;
+      });
+
+      document.getElementById('repo-count-label').textContent = `Mostrando ${list.length} de ${DATA.repos.length} repositorios medidos.`;
+
+      if (!list.length) {
+        document.getElementById('repos-container').innerHTML = `
+          <div class="empty-state">
+            <p><strong>Ningún repositorio coincide con esos filtros.</strong></p>
+            <button class="btn btn-primary" type="button" onclick="resetRepoFilters()">Restablecer filtros</button>
+          </div>
+        `;
+        return;
+      }
+
+      document.getElementById('repos-container').innerHTML = `
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="sortable" data-sort="repo">Repositorio</th>
+                <th>Oleada / Rol</th>
+                <th class="sortable num" data-sort="stars">Estrellas</th>
+                <th>Licencia</th>
+                <th>Lenguaje</th>
+                <th class="sortable" data-sort="pushed_at">Último push</th>
+                <th>Última entrega</th>
+                <th>SHA-256</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${list.map(r => {
+                const licBadge = r.license === 'NONE' ? 'badge-risk' : 'badge-neutral';
+                const shaBadge = r.has_sha256_asset
+                  ? '<span class="badge badge-ok">Sí</span>'
+                  : (r.latest_release === 'Sin release' ? '<span class="badge badge-neutral">N/A</span>' : '<span class="badge badge-warn">No</span>');
+                return `<tr>
+                  <td><a class="repo-link" href="${esc(r.html_url)}" target="_blank" rel="noopener noreferrer">${esc(r.repo)}</a></td>
+                  <td><span class="badge badge-info">${esc(r.wave)}</span><div class="kpi-sub">${esc(r.role)}</div></td>
+                  <td class="num"><strong>${(r.stars ?? 0).toLocaleString('es-ES')}</strong></td>
+                  <td><span class="badge ${licBadge}">${esc(r.license)}</span></td>
+                  <td>${esc(r.language)}</td>
+                  <td class="mono">${esc(r.pushed_at)}</td>
+                  <td class="mono">${esc(r.latest_release)}<div class="kpi-sub">${esc(r.release_date)}</div></td>
+                  <td>${shaBadge}</td>
+                </tr>`;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+      `;
+
+      document.querySelectorAll('th.sortable').forEach(th => {
+        th.addEventListener('click', () => {
+          const k = th.dataset.sort;
+          if (sortKey === k) sortDir *= -1;
+          else { sortKey = k; sortDir = (k === 'stars' || k === 'pushed_at') ? -1 : 1; }
+          renderRepos();
+        });
+      });
+    }
+
+    function resetRepoFilters() {
+      document.getElementById('repo-search').value = '';
+      document.getElementById('filter-wave').value = '';
+      document.getElementById('filter-sha').value = '';
+      document.getElementById('filter-lic').value = '';
+      renderRepos();
+    }
+
+    function renderIssues() {
+      const q = document.getElementById('issue-search').value.trim().toLowerCase();
+      const sev = document.getElementById('filter-severity').value;
+      const list = DATA.issues.filter(it => {
+        if (sev && it.severity !== sev) return false;
+        if (q) {
+          const hay = `${it.id} ${it.repo} ${it.category} ${it.summary}`.toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+
+      if (!list.length) {
+        document.getElementById('issues-container').innerHTML = `
+          <div class="empty-state">
+            <p><strong>No hay incidencias que coincidan con ese filtro.</strong></p>
+            <button class="btn btn-primary" type="button" onclick="resetIssueFilters()">Ver todas las incidencias</button>
+          </div>
+        `;
+        return;
+      }
+
+      document.getElementById('issues-container').innerHTML = `
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Issue</th><th>Categoría</th><th>Severidad</th><th>SHA</th><th>Estado</th><th>Hallazgo técnico verificado</th></tr>
+            </thead>
+            <tbody>
+              ${list.map(it => {
+                const sCls = it.severity === 'Crítica' ? 'badge-risk' : (it.severity === 'Alta' ? 'badge-warn' : 'badge-info');
+                const stCls = (it.status === 'Implementado' || it.status === 'Cerrado') ? 'badge-ok' : 'badge-neutral';
+                return `<tr>
+                  <td class="mono"><strong>${esc(it.id)}</strong><div class="kpi-sub">${esc(it.repo)}</div></td>
+                  <td>${esc(it.category)}</td>
+                  <td><span class="badge ${sCls}">${esc(it.severity)}</span></td>
+                  <td class="mono">${esc(it.sha)}</td>
+                  <td><span class="badge ${stCls}">${esc(it.status)}</span></td>
+                  <td>${esc(it.summary)}</td>
+                </tr>`;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    function resetIssueFilters() {
+      document.getElementById('issue-search').value = '';
+      document.getElementById('filter-severity').value = '';
+      renderIssues();
+    }
+
+    function renderLimits() {
+      document.getElementById('limits-list').innerHTML = DATA.meta.honest_limits.map(l => `<li>${esc(l)}</li>`).join('');
+    }
+
+    document.getElementById('btn-export-json').addEventListener('click', () => {
+      const blob = new Blob([JSON.stringify(DATA, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'ecosistemas-medidos-2026-11-27.json';
+      a.click();
+      URL.revokeObjectURL(url);
+    });
+
+    ['repo-search', 'filter-wave', 'filter-sha', 'filter-lic'].forEach(id => {
+      document.getElementById(id).addEventListener('input', renderRepos);
+      document.getElementById(id).addEventListener('change', renderRepos);
+    });
+    document.getElementById('btn-reset-repos').addEventListener('click', resetRepoFilters);
+
+    ['issue-search', 'filter-severity'].forEach(id => {
+      document.getElementById(id).addEventListener('input', renderIssues);
+      document.getElementById(id).addEventListener('change', renderIssues);
+    });
+    document.getElementById('btn-reset-issues').addEventListener('click', resetIssueFilters);
+
+    async function boot() {
+      try {
+        const res = await fetch('./datos.json', { cache: 'no-store' });
+        if (res.ok) DATA = await res.json();
+      } catch (_) {}
+      renderSummary();
+      renderRecommendations();
+      populateRepoFilters();
+      renderRepos();
+      renderIssues();
+      renderLimits();
+    }
+    boot();
+  </script>
+</body>
+</html>
