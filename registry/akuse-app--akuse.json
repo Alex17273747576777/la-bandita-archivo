@@ -1,0 +1,55 @@
+{
+ "id": "akuse-app--akuse",
+ "repo": "akuse-app/akuse",
+ "nombre": "akuse",
+ "descripcion": "Repositorio del cruce EverythingMoe (akuse-app/akuse).",
+ "web": "https://github.com/akuse-app/akuse",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "LICENSE",
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-02-02",
+  "estado": "muerto",
+  "semantica_http": 200,
+  "ultima_release": "1.10.1",
+  "release_en": "2025-02-14"
+ },
+ "merito": {
+  "stars": 1137,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "82e06e5b5fecced6f702c96f88668f90233d5d9e414ab55ae25c00e392fb7320",
+  "payload_ref": "registry/_evidencia/akuse-app--akuse.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

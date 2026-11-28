@@ -1,0 +1,55 @@
+{
+ "id": "lagradost--quicknovel",
+ "repo": "lagradost/quicknovel",
+ "nombre": "QuickNovel",
+ "descripcion": "Repositorio del cruce EverythingMoe (lagradost/quicknovel).",
+ "web": "https://github.com/LagradOst/QuickNovel",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "LICENSE",
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-11-21",
+  "estado": "vivo",
+  "semantica_http": 200,
+  "ultima_release": "v3.9.1",
+  "release_en": "2026-11-13"
+ },
+ "merito": {
+  "stars": 1907,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "12530d2a755d7a18d646fb744b3a36ea4ecb2e63654fb9aee657cbb821870c5a",
+  "payload_ref": "registry/_evidencia/lagradost--quicknovel.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

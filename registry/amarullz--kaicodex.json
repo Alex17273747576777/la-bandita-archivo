@@ -1,0 +1,55 @@
+{
+ "id": "amarullz--kaicodex",
+ "repo": "amarullz/kaicodex",
+ "nombre": "kaicodex",
+ "descripcion": "Repositorio del cruce EverythingMoe (amarullz/kaicodex).",
+ "web": "https://github.com/amarullz/kaicodex",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": null,
+  "archivo": null,
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-05-04",
+  "estado": "dormido",
+  "semantica_http": 200,
+  "ultima_release": "666",
+  "release_en": "2026-04-01"
+ },
+ "merito": {
+  "stars": 36,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "ff802393bcc36cc07be7b625e4c27e4fb7a38d11655d0c3d49e58eb8a4f6ec97",
+  "payload_ref": "registry/_evidencia/amarullz--kaicodex.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": "abdullahkhfb--pahebatcher",
+ "repo": "abdullahkhfb/pahebatcher",
+ "nombre": "pahebatcher",
+ "descripcion": "Repositorio del cruce EverythingMoe (abdullahkhfb/pahebatcher).",
+ "web": "https://github.com/abdullahkhfb/pahebatcher",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": "MIT",
+  "archivo": "LICENSE",
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-11-27",
+  "estado": "vivo",
+  "semantica_http": 200,
+  "ultima_release": "v3.9.2",
+  "release_en": "2026-11-27"
+ },
+ "merito": {
+  "stars": 1,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "e87c41b3b30f27ff7bb529ffda921be837fcdf007fbd421b3c2554fbe7f04487",
+  "payload_ref": "registry/_evidencia/abdullahkhfb--pahebatcher.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

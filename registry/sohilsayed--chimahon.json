@@ -1,0 +1,55 @@
+{
+ "id": "sohilsayed--chimahon",
+ "repo": "sohilsayed/chimahon",
+ "nombre": "chimahon",
+ "descripcion": "Repositorio del cruce EverythingMoe (sohilsayed/chimahon).",
+ "web": "https://github.com/Chimahon/chimahon",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "LICENSE",
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-11-27",
+  "estado": "vivo",
+  "semantica_http": 200,
+  "ultima_release": "v2.5.5",
+  "release_en": "2026-11-27"
+ },
+ "merito": {
+  "stars": 268,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "f156de766c099fbad8216c0ea1c0d5f2c3e4cdca71c0835ae3070e064a2e7a03",
+  "payload_ref": "registry/_evidencia/sohilsayed--chimahon.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

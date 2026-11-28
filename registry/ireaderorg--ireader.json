@@ -1,0 +1,55 @@
+{
+ "id": "ireaderorg--ireader",
+ "repo": "ireaderorg/ireader",
+ "nombre": "IReader",
+ "descripcion": "Repositorio del cruce EverythingMoe (ireaderorg/ireader).",
+ "web": "https://github.com/IReaderorg/IReader",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": "Apache-2.0",
+  "archivo": "LICENSE",
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-11-22",
+  "estado": "vivo",
+  "semantica_http": 200,
+  "ultima_release": "v2.0.27",
+  "release_en": "2026-11-13"
+ },
+ "merito": {
+  "stars": 1007,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "ecc3f9dc85bd7f7d51b4ad2b2ca73c9c8da917f9cf8a8622f248fc6c242423ff",
+  "payload_ref": "registry/_evidencia/ireaderorg--ireader.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": "nanihadesuka--noveldokusha",
+ "repo": "nanihadesuka/noveldokusha",
+ "nombre": "NovelDokusha",
+ "descripcion": "Repositorio del cruce EverythingMoe (nanihadesuka/noveldokusha).",
+ "web": "https://github.com/nanihadesuka/NovelDokusha",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "LICENSE",
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-10-11",
+  "estado": "vivo",
+  "semantica_http": 200,
+  "ultima_release": "v2.2.0",
+  "release_en": "2024-08-06"
+ },
+ "merito": {
+  "stars": 367,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "5f3ec30539e36798282a01d97921c5a6a34ee014721db4924703fbe1d1a1176c",
+  "payload_ref": "registry/_evidencia/nanihadesuka--noveldokusha.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

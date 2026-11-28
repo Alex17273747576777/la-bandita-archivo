@@ -1,0 +1,55 @@
+{
+ "id": "kropatz--boorusphere",
+ "repo": "kropatz/boorusphere",
+ "nombre": "boorusphere",
+ "descripcion": "Repositorio del cruce EverythingMoe (kropatz/boorusphere).",
+ "web": "https://github.com/Kropatz/boorusphere",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": "BSD-3-Clause",
+  "archivo": "LICENSE.md",
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-11-22",
+  "estado": "vivo",
+  "semantica_http": 200,
+  "ultima_release": "1.5.5",
+  "release_en": "2026-11-22"
+ },
+ "merito": {
+  "stars": 90,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "4a7baef813aa9c16d968b6585d1b83b2def9984186a2d616955d2e417969e7bf",
+  "payload_ref": "registry/_evidencia/kropatz--boorusphere.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

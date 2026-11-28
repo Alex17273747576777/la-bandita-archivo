@@ -1,0 +1,55 @@
+{
+ "id": "lncrawl--lightnovel-crawler",
+ "repo": "lncrawl/lightnovel-crawler",
+ "nombre": "lightnovel-crawler",
+ "descripcion": "Repositorio del cruce EverythingMoe (lncrawl/lightnovel-crawler).",
+ "web": "https://github.com/lncrawl/lightnovel-crawler",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "LICENSE",
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-11-11",
+  "estado": "vivo",
+  "semantica_http": 200,
+  "ultima_release": "v4.14.0",
+  "release_en": "2026-08-03"
+ },
+ "merito": {
+  "stars": 2725,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "ada0f0100c7debb50b80185970a19d8a2096464199acf09020714637f6194452",
+  "payload_ref": "registry/_evidencia/lncrawl--lightnovel-crawler.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

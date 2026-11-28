@@ -1,0 +1,55 @@
+{
+ "id": "professordeveloper--kitsune-app",
+ "repo": "professordeveloper/kitsune-app",
+ "nombre": "Kitsune-App",
+ "descripcion": "Repositorio del cruce EverythingMoe (professordeveloper/kitsune-app).",
+ "web": "https://github.com/professorDeveloper/Kitsune-App",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": null,
+  "archivo": null,
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2025-09-19",
+  "estado": "dormido",
+  "semantica_http": 200,
+  "ultima_release": null,
+  "release_en": null
+ },
+ "merito": {
+  "stars": 169,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "77163420a9a585a52d4f1bfecc1523c7a2f648264bb6859b88ab9566c695a6a9",
+  "payload_ref": "registry/_evidencia/professordeveloper--kitsune-app.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

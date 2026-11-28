@@ -1,0 +1,55 @@
+{
+ "id": "cranci1--luna",
+ "repo": "cranci1/luna",
+ "nombre": "Luna",
+ "descripcion": "Repositorio del cruce EverythingMoe (cranci1/luna).",
+ "web": "https://github.com/cranci1/Luna",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "LICENSE",
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-10-11",
+  "estado": "muerto",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "release_en": "2026-02-22"
+ },
+ "merito": {
+  "stars": 305,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "6cfe4f5e94f72b685d0899a8df7c1e6df11dcc5c05d5ea6e4221f7459f55bb4e",
+  "payload_ref": "registry/_evidencia/cranci1--luna.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

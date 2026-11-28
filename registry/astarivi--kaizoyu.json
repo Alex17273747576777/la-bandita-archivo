@@ -8,18 +8,9 @@
  },
  "descripcion": "Free anime streaming platform for Android devices, powered by XDCC.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/astarivi--kaizoyu.json",
-  "sha256": "f40a565dd56c3d54b597f3f17640950256897344e19d5201259bfff52a86e691"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "87dec387160eb70022590b4d5c146e33ca8fc25f6506c0e542d17601ca8405bf"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 160,
+  "stars": 158,
   "stars_por_mes": null
  },
  "nombre": "Kaizoyu",

@@ -1,0 +1,55 @@
+{
+ "id": "frostnova721--animestream",
+ "repo": "frostnova721/animestream",
+ "nombre": "animestream",
+ "descripcion": "Repositorio del cruce EverythingMoe (frostnova721/animestream).",
+ "web": "https://github.com/frostnova721/animestream",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "LICENSE",
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-11-27",
+  "estado": "vivo",
+  "semantica_http": 200,
+  "ultima_release": "v1.4.7",
+  "release_en": "2026-09-14"
+ },
+ "merito": {
+  "stars": 455,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "e6f6a3e1892d8372dc523f5374cf92aa792ba2bb351470b8a0547ad28b6a6e96",
+  "payload_ref": "registry/_evidencia/frostnova721--animestream.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

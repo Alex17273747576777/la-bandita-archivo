@@ -1,0 +1,55 @@
+{
+ "id": "johankrs--tankobun",
+ "repo": "johankrs/tankobun",
+ "nombre": "Tankobun",
+ "descripcion": "Repositorio del cruce EverythingMoe (johankrs/tankobun).",
+ "web": "https://github.com/Tankobun/Tankobun",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": "MIT",
+  "archivo": "LICENCE.md",
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-11-22",
+  "estado": "vivo",
+  "semantica_http": 200,
+  "ultima_release": "v4.2.2",
+  "release_en": "2026-10-21"
+ },
+ "merito": {
+  "stars": 23,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "a722d69120a4ec128dd30286259a2d546cb196d5e10756168a31192a00aea2cc",
+  "payload_ref": "registry/_evidencia/johankrs--tankobun.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

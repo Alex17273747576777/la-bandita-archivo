@@ -1,0 +1,55 @@
+{
+ "id": "k3vinb5--unyo",
+ "repo": "k3vinb5/unyo",
+ "nombre": "unyo-app",
+ "descripcion": "Repositorio del cruce EverythingMoe (k3vinb5/unyo).",
+ "web": "https://github.com/K3vinb5/unyo-app",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": "BSD-3-Clause",
+  "archivo": "LICENSE",
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-11-10",
+  "estado": "vivo",
+  "semantica_http": 200,
+  "ultima_release": null,
+  "release_en": null
+ },
+ "merito": {
+  "stars": 674,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "121906106d3da6a5007ced69bd6aafd30a5b86fa2b87dea8fbb7dd2007b158f3",
+  "payload_ref": "registry/_evidencia/k3vinb5--unyo.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

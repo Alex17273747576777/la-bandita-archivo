@@ -1,0 +1,55 @@
+{
+ "id": "hitarth-gg--zenshin",
+ "repo": "hitarth-gg/zenshin",
+ "nombre": "zenshin",
+ "descripcion": "Repositorio del cruce EverythingMoe (hitarth-gg/zenshin).",
+ "web": "https://github.com/hitarth-gg/zenshin",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "LICENSE",
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-05-24",
+  "estado": "dormido",
+  "semantica_http": 200,
+  "ultima_release": "v3.0.0",
+  "release_en": "2026-05-24"
+ },
+ "merito": {
+  "stars": 784,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "d4df9cd7450653d3e26c08eff9b5920fce8bccbef3a3537ca80306797948e4d8",
+  "payload_ref": "registry/_evidencia/hitarth-gg--zenshin.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": "dazedcat19--fmd2",
+ "repo": "dazedcat19/fmd2",
+ "nombre": "FMD2",
+ "descripcion": "Repositorio del cruce EverythingMoe (dazedcat19/fmd2).",
+ "web": "https://github.com/dazedcat19/FMD2",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": "GPL-2.0",
+  "archivo": "license.txt",
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-11-27",
+  "estado": "vivo",
+  "semantica_http": 200,
+  "ultima_release": "2.0.34.5",
+  "release_en": "2025-03-17"
+ },
+ "merito": {
+  "stars": 1183,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "1cef208ce6113d4a6ceac6aa4d96dde5f84978a3f1b3a45fb7152d9a38850692",
+  "payload_ref": "registry/_evidencia/dazedcat19--fmd2.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

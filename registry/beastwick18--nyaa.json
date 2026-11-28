@@ -1,0 +1,55 @@
+{
+ "id": "beastwick18--nyaa",
+ "repo": "beastwick18/nyaa",
+ "nombre": "nyaa",
+ "descripcion": "Repositorio del cruce EverythingMoe (beastwick18/nyaa).",
+ "web": "https://github.com/Beastwick18/nyaa",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "LICENSE",
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-02-28",
+  "estado": "dormido",
+  "semantica_http": 200,
+  "ultima_release": "v0.9.1",
+  "release_en": "2024-06-30"
+ },
+ "merito": {
+  "stars": 716,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "eb66352f0e492146b5f1f78914ffbb29106014039b5ceb02c1210a3a2c759200",
+  "payload_ref": "registry/_evidencia/beastwick18--nyaa.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

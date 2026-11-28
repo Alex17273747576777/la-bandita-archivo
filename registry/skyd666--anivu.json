@@ -1,0 +1,55 @@
+{
+ "id": "skyd666--anivu",
+ "repo": "skyd666/anivu",
+ "nombre": "PodAura",
+ "descripcion": "Repositorio del cruce EverythingMoe (skyd666/anivu).",
+ "web": "https://github.com/SkyD666/PodAura",
+ "medido_en": "2026-11-28",
+ "fuente": {
+  "primaria": "github-api",
+  "secundarias": [],
+  "metodo": "GET /repos, /license y /releases/latest con token fine-grained; declaración de todo lo no medido en docs/CORTE-EMO-2026-11-28.md"
+ },
+ "licencia": {
+  "spdx": "GPL-3.0",
+  "archivo": "LICENSE",
+  "metodo": "endpoint-license",
+  "verificado_en": "2026-11-28"
+ },
+ "actividad": {
+  "ultimo_push": "2026-11-23",
+  "estado": "vivo",
+  "semantica_http": 200,
+  "ultima_release": "34",
+  "release_en": "2026-11-15"
+ },
+ "merito": {
+  "stars": 1278,
+  "stars_por_mes": null,
+  "scorecard": null,
+  "scorecard_en": null
+ },
+ "evidencia": {
+  "sha256": "e2c8eb53022aa11b21535f34785d10cff59aa6d7dc96c4736e431985b0dd8228",
+  "payload_ref": "registry/_evidencia/skyd666--anivu.json",
+  "nota": "hash del payload medido el 2026-11-28; incluye checksum_publicado, digest_api y estado"
+ },
+ "frescura_dias": 0,
+ "frescura": {
+  "dias": 0,
+  "estado": "vigente",
+  "evidencia_en": "2026-11-28",
+  "fecha_declarada_valida": true,
+  "motivo": "medido hoy contra la API",
+  "proxima_remedicion": null,
+  "ventana_dias": 180
+ },
+ "procedencia": {
+  "swhid": null,
+  "commit": null,
+  "atestacion": null,
+  "swh_estado": null,
+  "swh_solicitud": null
+ },
+ "piezas": []
+}

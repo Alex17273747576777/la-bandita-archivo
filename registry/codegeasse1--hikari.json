@@ -4,22 +4,13 @@
   "release_en": "2026-08-16",
   "semantica_http": 200,
   "ultima_release": "continuous",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Hikari — a universal streaming app: Stremio addons, universal scrapers, CloudStream .cs3 plugins and more. Modern Material 3 UI.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/codegeasse1--hikari.json",
-  "sha256": "7c3e83d6893b56e1c988606854e28887d73c086c86f3cab1155c5d16627797d1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "016ee58f0332e3626393aa3f20aac14cc62ebc309f82b46f11acad0efa4e94c3"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 179,
+  "stars": 220,
   "stars_por_mes": null
  },
  "nombre": "hikari",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9f14a88e2f03e96944be8c1d71de52ee1c7a940b",
+  "commit": "03bc2181e0202e12d26171d624a5c4db08027add",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9f14a88e2f03e96944be8c1d71de52ee1c7a940b"
+  "swhid": "swh:1:rev:03bc2181e0202e12d26171d624a5c4db08027add"
  },
  "repo": "codegeasse1/hikari"
 }
