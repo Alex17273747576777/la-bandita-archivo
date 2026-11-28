@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 174 documentos en `docs/`, agrupados en 19 familias, y 82 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 175 documentos en `docs/`, agrupados en 19 familias, y 82 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -116,6 +116,7 @@
 | [`CORTE-EMO-2026-11-28.md`](CORTE-EMO-2026-11-28.md) | Cruce EverythingMoe · corte 2026-11-28 | EverythingMoe tiene **397 entradas**, pero solo **44 son repositorios de GitHub**; las otras 353 son sitios web. | 78 |
 | [`DEFECTOS-2026-11-09.md`](DEFECTOS-2026-11-09.md) | Defectos encontrados al hacer medir la vara · 9 de noviembre de 2026 | Las que siguen siendo texto a mano —G11, G13— no se tocan en este paso porque dependen de documentos que hay que rehacer con las piezas; quedan… | 43 |
 | [`ERRORES.md`](ERRORES.md) | Registro de errores · lo que se rompió, cómo se cazó y qué habilidad salió de ahí | Cada error de esta casa, con su número, queda aquí **para siempre**. | 89 |
+| [`ESTADO-2026-11-28.md`](ESTADO-2026-11-28.md) | Estado del archivo · 2026-11-28 | El parte anterior, `docs/_remedicion.json`, decía **4.098 de 4.098** con fecha 2026-11-04; ahora dice **6.788 de 6.788 con 269 inexistentes**. | 72 |
 | [`HABILIDADES.md`](HABILIDADES.md) | Habilidades · lo que esta casa sabe hacer porque antes se equivocó | Una habilidad no es una intención: es un procedimiento con un comando que se puede correr y un veredicto que se puede perder. | 432 |
 | [`INDICES-2026-11-09.md`](INDICES-2026-11-09.md) | Los índices de extensiones, medidos | Este documento es el paso P04 de la cola: buscar y medir los índices de extensiones que existen —los que la casa ya conocía y los que aparecieron… | 81 |
 | [`INVESTIGACION-RECURSOS-2026-11-01.md`](INVESTIGACION-RECURSOS-2026-11-01.md) | INVESTIGACIÓN DE RECURSOS NUEVOS · domingo 1 de noviembre de 2026, 07:00 (Santo Domingo) | Cuatro consultas a la API de GitHub, ordenadas por estrellas, filtrando por fecha de creación: | 145 |
