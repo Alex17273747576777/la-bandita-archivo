@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 173 documentos en `docs/`, agrupados en 19 familias, y 82 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 174 documentos en `docs/`, agrupados en 19 familias, y 82 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -112,6 +112,7 @@
 | Documento | Título | De qué va | Líneas |
 |---|---|---|---|
 | [`CODIGO.md`](CODIGO.md) | EL CÓDIGO, EXPLICADO | Un programa es una receta: entra un ingrediente, se hace un paso, sale un plato. | 212 |
+| [`CORTE-37-CHECKSUM-2026-11-28.md`](CORTE-37-CHECKSUM-2026-11-28.md) | Checksum del corte de 37 · corrección medida el 2026-11-28 | El dato del 2026-11-27 traía un campo llamado `has_sha256_asset`. | 68 |
 | [`CORTE-EMO-2026-11-28.md`](CORTE-EMO-2026-11-28.md) | Cruce EverythingMoe · corte 2026-11-28 | EverythingMoe tiene **397 entradas**, pero solo **44 son repositorios de GitHub**; las otras 353 son sitios web. | 78 |
 | [`DEFECTOS-2026-11-09.md`](DEFECTOS-2026-11-09.md) | Defectos encontrados al hacer medir la vara · 9 de noviembre de 2026 | Las que siguen siendo texto a mano —G11, G13— no se tocan en este paso porque dependen de documentos que hay que rehacer con las piezas; quedan… | 43 |
 | [`ERRORES.md`](ERRORES.md) | Registro de errores · lo que se rompió, cómo se cazó y qué habilidad salió de ahí | Cada error de esta casa, con su número, queda aquí **para siempre**. | 89 |
