@@ -4,7 +4,7 @@
  "nombre": "FMD2",
  "descripcion": "Repositorio del cruce EverythingMoe (dazedcat19/fmd2).",
  "web": "https://github.com/dazedcat19/FMD2",
- "medido_en": "2026-11-28",
+ "medido_en": "2026-11-27",
  "fuente": {
   "primaria": "github-api",
   "secundarias": [],
@@ -14,7 +14,7 @@
   "spdx": "GPL-2.0",
   "archivo": "license.txt",
   "metodo": "endpoint-license",
-  "verificado_en": "2026-11-28"
+  "verificado_en": "2026-11-27"
  },
  "actividad": {
   "ultimo_push": "2026-11-27",
@@ -38,7 +38,7 @@
  "frescura": {
   "dias": 0,
   "estado": "vigente",
-  "evidencia_en": "2026-11-28",
+  "evidencia_en": "2026-11-27",
   "fecha_declarada_valida": true,
   "motivo": "medido hoy contra la API",
   "proxima_remedicion": null,

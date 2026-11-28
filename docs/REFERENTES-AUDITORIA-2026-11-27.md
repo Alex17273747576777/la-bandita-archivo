@@ -85,7 +85,7 @@ porcentaje agregado.
 | Hoja «Repos_Medidos_37» | `has_sha256_asset` = sí para `mihon`, `Kazumi`, `Kavita` | `checksum_publicado` = no · `digest_api` = sí |
 | ALE-67 | criterio de cierre: «6 de 6 con salida de pruebas registrada» | **no se puede cumplir en este entorno**: se cambia a «6 de 6 con cadena de integridad y CI medidos», y la salida de pruebas queda como tarea aparte con su propio entorno |
 
-**Estado de esta corrección (actualizado el 2026-11-28).** La corrección **ya se aplicó** en el
+**Estado de esta corrección (actualizado el 2026-11-27).** La corrección **ya se aplicó** en el
 commit `8c0ea1b6`, que lleva por título *«observatorio: separar 'checksum publicado' (2 de 5) del
 digest de la API (5 de 5)»*. La versión anterior de este párrafo decía que se estaba reteniendo a la
 espera de un visto bueno, y eso dejó de ser cierto en cuanto el commit salió: se deja escrito aquí
@@ -95,7 +95,7 @@ Lo que **sigue sin aplicarse** es lo que aquel commit no tocó:
 
 | Dónde | Qué falta |
 | :--- | :--- |
-| Hoja `Repos_Medidos_37` (Google Sheets) | sigue con `has_sha256_asset`; hay que cambiarla a `checksum_publicado` / `digest_api` |
+| ~~Hoja `Repos_Medidos_37`~~ | **hecho el 2026-11-27**: columnas J `checksum_publicado` (7 de 37) y L `digest_api` (35 de 37) |
 | ALE-67 en Linear | el criterio de cierre sigue diciendo «6 de 6 con salida de pruebas registrada» |
 
 La propagación del 2/5 · 40 % a las publicaciones ES/EN y a `datos.json` sí quedó hecha con el

@@ -10,7 +10,7 @@
    "Supabase (xgvmwykyrxpcjsgwwoyu) está en estado INACTIVE.",
    "El sandbox no cuenta con credencial GitHub de escritura persistente; los entregables se sincronizaron en Vercel, Google Workspace, Notion y Linear."
   ],
-  "checksum_remedido_en": "2026-11-28"
+  "checksum_remedido_en": "2026-11-27"
  },
  "summary": {
   "total_repos": 37,
@@ -32,7 +32,7 @@
   "repos_digest_api": 35,
   "repos_sin_checksum_ni_digest": 2,
   "checksum_publicado_pct": 18.9,
-  "nota_checksum": "Remedido el 2026-11-28, repo por repo, contra el endpoint de release. Publican checksum de verdad 7 de 37 (18.9 %): Kototoro-app/Kototoro, akitaonrails/FrankYomik, ProjectNox-org/nox-extension-developer, loeuf237/animelab, ReitanSora/koeyomi, Suwayomi/Suwayomi-Server, null2264/yokai. Los otros 35 solo tienen el digest que calcula la API al servir el archivo — sirve para detectar una descarga corrupta, no para sobrevivir a una release reemplazada. Sin nada: ProjectNox-org/project-nox-importer, keiyoushi/extensions-source. El campo anterior, has_sha256_asset, medía la presencia del digest y por eso daba 9; ver docs/CORTE-37-CHECKSUM-2026-11-28.md.",
+  "nota_checksum": "Remedido el 2026-11-27, repo por repo, contra el endpoint de release. Publican checksum de verdad 7 de 37 (18.9 %): Kototoro-app/Kototoro, akitaonrails/FrankYomik, ProjectNox-org/nox-extension-developer, loeuf237/animelab, ReitanSora/koeyomi, Suwayomi/Suwayomi-Server, null2264/yokai. Los otros 35 solo tienen el digest que calcula la API al servir el archivo — sirve para detectar una descarga corrupta, no para sobrevivir a una release reemplazada. Sin nada: ProjectNox-org/project-nox-importer, keiyoushi/extensions-source. El campo anterior, has_sha256_asset, medía la presencia del digest y por eso daba 9; ver docs/CORTE-37-CHECKSUM-2026-11-27.md.",
   "nota_sha256_historial": "El valor 9 de repos_with_sha256 es el conteo viejo de has_sha256_asset y se conserva solo como historial; el número vigente es repos_checksum_publicado."
  },
  "repos": [

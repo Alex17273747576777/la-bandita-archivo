@@ -1,4 +1,4 @@
-# Checksum del corte de 37 · corrección medida el 2026-11-28
+# Checksum del corte de 37 · corrección medida el 2026-11-27
 
 *Qué estaba mal, cómo se comprobó y qué dicen los números nuevos.*
 
@@ -49,7 +49,7 @@ una firma del proyecto.
 | Dónde | Antes | Ahora |
 | :--- | :--- | :--- |
 | `medidos-37-repos-2026-11-27.json` | `has_sha256_asset` | **intacto**: es el registro de lo que se midió aquel día, con su error |
-| `medidos-37-repos-2026-11-28-remedido.json` | — | campos nuevos: `checksum_publicado`, `digest_api`, `checksum_detalle`, `checksum_remedido_en` |
+| `medidos-37-repos-2026-11-27-remedido.json` | — | campos nuevos: `checksum_publicado`, `digest_api`, `checksum_detalle`, `checksum_remedido_en` |
 | Hoja `Repos_Medidos_37` | columna J «SHA-256/checksum» = Sí/No | J «Checksum publicado por el proyecto» · L «Digest de la API (no es checksum publicado)», 37 filas |
 | `web/observatorio/` y `datos.json` | «5 de 5 · 100 %» | «2 de 5 · 40 %» publicado, «5 de 5» digest (commit `8c0ea1b6`) |
 
