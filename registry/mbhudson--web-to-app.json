@@ -10,16 +10,7 @@
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mbhudson--web-to-app.json",
-  "sha256": "7011e2fba8c63774cbc47890ee7fb75d5dd3f9435571813fbc84452188bcb9ce"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "da8de8280079aae13597f656194068cc5d139eb190740598a294d31246c67825"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Unlicense",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

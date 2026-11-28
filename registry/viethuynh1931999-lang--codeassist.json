@@ -10,16 +10,7 @@
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/viethuynh1931999-lang--codeassist.json",
-  "sha256": "9a6de961a288c128c163cd1284f76fdd3306dfd4e1cd74193af225134c195c53"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5cc332b2147424b47337af6308f61dd97ee9fd2d8e832416520f885efb9237a6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

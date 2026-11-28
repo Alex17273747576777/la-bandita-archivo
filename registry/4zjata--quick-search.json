@@ -10,16 +10,7 @@
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/4zjata--quick-search.json",
-  "sha256": "5f78b1cc1793d683fcf4bdd27e8a45610bad7ccdcacae980d6697de830e56d04"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6f799147752c951e106010f151bdf1d133d84b2263bc8962a0ffa84a688e9d35"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

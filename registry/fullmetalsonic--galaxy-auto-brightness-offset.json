@@ -8,18 +8,9 @@
  },
  "descripcion": "Samsung Galaxy adaptive brightness offset for screens that feel too dark or bright, including privacy screen protectors | 갤럭시 자동 밝기 보정",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/fullmetalsonic--galaxy-auto-brightness-offset.json",
-  "sha256": "fe09ce214d04de329ee2796248fab0898600db2842722ba5092e8cf0770a433e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bdea6f7e27332c0dcb2b1926e9d66266065e16cdcf1c0ebe2727f54e28686677"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": "mIT",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "galaxy-auto-brightness-offset",

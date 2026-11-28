@@ -10,16 +10,7 @@
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/leandrogowes--zangetsu.json",
-  "sha256": "442dcf2c40accbed2f74245cee4b0c3259f60169f85307347236b9226aa1bf94"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f60cd8dd34291f687a24c873b0c70e41feb19fd8ee5f232598a3b3dcb40a1c21"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

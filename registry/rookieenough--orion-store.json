@@ -4,22 +4,13 @@
   "release_en": "2025-11-28",
   "semantica_http": 200,
   "ultima_release": "1.0.0",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "The ultimate home for Open Source and Cleaned apps. OrionStore offers instant access to YouTube Morphe, YT Music Morphe, and essential open-source tools without the clutter. No servers, no tracking, just a beautiful, modern gateway to the apps you love.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rookieenough--orion-store.json",
-  "sha256": "11a8f764ad0d22b90ede1d35c771eac1958a7721adc81a1d07540fba8a624407"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "af1ffcbf1f1959965eaf2f84b292352e414cc6caf54037a28935758eb49fd2ad"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3917,
+  "stars": 4423,
   "stars_por_mes": null
  },
  "nombre": "Orion-Store",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "cdd1a4f622e4903fd6897868866bad901c0cc52b",
+  "commit": "42abc7280d0f5391800fe75ae36b187a0c802d3e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:cdd1a4f622e4903fd6897868866bad901c0cc52b"
+  "swhid": "swh:1:rev:42abc7280d0f5391800fe75ae36b187a0c802d3e"
  },
  "repo": "RookieEnough/Orion-Store",
  "web": "https://orionstore.pages.dev"

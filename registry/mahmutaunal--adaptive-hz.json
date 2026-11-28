@@ -8,18 +8,9 @@
  },
  "descripcion": "Adaptive Hz automatically switches the display refresh rate based on user interaction. It is designed for devices that do not provide true adaptive refresh rate control natively.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mahmutaunal--adaptive-hz.json",
-  "sha256": "eb15d1b8c5e44f8e9e433eabfdd5321305f07d8db97efda280a917df132f3033"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f443bf196444a394e5db0f581c94b630d0e7f3a24d52b4b570585d76d9f1d121"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 98,
+  "stars": 108,
   "stars_por_mes": null
  },
  "nombre": "Adaptive-Hz",

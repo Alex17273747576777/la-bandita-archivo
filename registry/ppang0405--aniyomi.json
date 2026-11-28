@@ -10,16 +10,7 @@
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ppang0405--aniyomi.json",
-  "sha256": "c4b729dcff5fbf1379732e6cd7a99eace4bc56c074f5d9673c9ea4d18cd377df"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6029d1c31f3663fe3c6110bc899ca0629837020dc657bdd4a7a4dc999ab1695a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

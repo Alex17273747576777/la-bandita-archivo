@@ -8,18 +8,9 @@
  },
  "descripcion": "AI 辅助的电影拉片工具：AI 拆出剧情泳道时间轴、结构树、情绪曲线，边播边写拉片笔记，免费开源全本地 | AI-assisted film breakdown notebook: story-lane timeline, structure tree, emotion curve. Free, open source, fully local.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/bkingfilm--lapian-notes.json",
-  "sha256": "e977471a49e300bf44f896f9acf13a81441b1cdbf5ebcacab7852eae1a82b36e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8b2873c634fce8c1f9b74ac36cad50be52f361354845d29fe2593abd3ee09e12"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 740,
+  "stars": 819,
   "stars_por_mes": null
  },
  "nombre": "lapian-notes",

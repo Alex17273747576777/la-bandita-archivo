@@ -4,22 +4,13 @@
   "release_en": "2026-03-28",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga and anime support, Novel EPUB reader, and instant Anki card mining.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/chimahon--chimahon.json",
-  "sha256": "7231b88987f36729d3705c6ec0118ddc57d558347750cd9d49e95e3044599450"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "dc2efb4ed1464423635c76a3b9c02452f35cf707ea07dc3eaa0e7bfe6c724c09"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 245,
+  "stars": 268,
   "stars_por_mes": null
  },
  "nombre": "chimahon",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "aeb70902beb247c81c49672f49f5054b4ff2ee2d",
+  "commit": "48ccfac3675ff907fb42cc595b648014b949e9a6",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:aeb70902beb247c81c49672f49f5054b4ff2ee2d"
+  "swhid": "swh:1:rev:48ccfac3675ff907fb42cc595b648014b949e9a6"
  },
  "repo": "Chimahon/chimahon"
 }

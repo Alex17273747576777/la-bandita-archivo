@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-09-28T06:22:25Z",
-   "oid": "c00c26d364ff46922ee9b5a066c1745900f7b934"
+   "committedDate": "2026-11-10T06:08:31Z",
+   "oid": "439b195d20871023575c013be4e7d74e79f15ee7"
   }
  },
- "diskUsage": 323927,
+ "diskUsage": 332230,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -17,8 +17,8 @@
   "name": "GNU General Public License v3.0",
   "spdxId": "GPL-3.0"
  },
- "nameWithOwner": "Subbarao6338/ultimate-file-manager-pro",
- "pushedAt": "2026-09-29T02:32:29Z",
+ "nameWithOwner": "Subbarao6338/sark-files",
+ "pushedAt": "2026-11-10T06:17:30Z",
  "releases": {
   "nodes": []
  },

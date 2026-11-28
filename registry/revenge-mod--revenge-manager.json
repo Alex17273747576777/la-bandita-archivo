@@ -8,18 +8,9 @@
  },
  "descripcion": "🤖 Application to use Revenge on Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/revenge-mod--revenge-manager.json",
-  "sha256": "75d77731823e6952228223d710b2f10691c94c6d4e636764dadbacf0626a21b2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e837ab0452a04e5e3b90b203920ee26fe32e874ef35d58d4e38502ee0b6ffc1f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "OSL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 751,
+  "stars": 765,
   "stars_por_mes": null
  },
  "nombre": "revenge-manager",

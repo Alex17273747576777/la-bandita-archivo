@@ -8,18 +8,9 @@
  },
  "descripcion": "Custom Android notification shade replacement — OneUI & Pixel themes, Shizuku-powered",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/thejaustin--supershade.json",
-  "sha256": "0dc41cb2d1642ea7adc242ce1482217fb0cc2c500d5da154aeead22d1d216e13"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "289b2215abab80201a74f0d691ff22e569cefa0b26fc107857a0f99e60e44f2b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 33,
+  "stars": 40,
   "stars_por_mes": null
  },
  "nombre": "SuperShade",

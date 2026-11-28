@@ -8,18 +8,9 @@
  },
  "descripcion": "Launcher for developer and personal use, the perfection on launcher android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zoder-studio--devbay-launcher.json",
-  "sha256": "f96bf21225931360f2567b71c4baa7adb1d1e94d124ae2f4f17b60692083d021"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e55c6cc1145cf9fca05c6e2d79d8b06c2f6add7be55cfd56b2d2b12690a97bcb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 10,
+  "stars": 11,
   "stars_por_mes": null
  },
  "nombre": "DevBay-Launcher",

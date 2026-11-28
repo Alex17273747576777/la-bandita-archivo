@@ -8,18 +8,9 @@
  },
  "descripcion": "/r/FREEMEDIAHECKYEAH",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/incognito009--fmhy.json",
-  "sha256": "15a51d6b204a6d583c59817b3183755bcd1f3d7910151fac8fc07b26f5ad294d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e13ad6ade0541d9d54f522e26fac419d97d6dc5234472e428671010b8b474b30"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

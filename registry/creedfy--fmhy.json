@@ -10,16 +10,7 @@
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/creedfy--fmhy.json",
-  "sha256": "2feef0e668f4c2d6e1364703c269233f55c6c9bdf459e58a3fc8223dd9fe6b3b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d181826faab82f41a5d5af1668cd50f8a6a95cc6390ead018c61abc04d142bc2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

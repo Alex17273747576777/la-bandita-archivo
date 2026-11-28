@@ -8,18 +8,9 @@
  },
  "descripcion": "A native Android app that aggregates third-party app stores into one catalogue. Search across all of them at once, compare what each publishes for the same app, download and install APKs from the store you pick, and keep what you installed up to date.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/fedefluork--multistore.json",
-  "sha256": "a9276899fcc9ef474fa9b99bde945520221181264481cbbe2716e6d6afa7f75b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "48a0134cd7bf404593114f75c2eb7a77f816256ba2e7f7b00f70602cff0e94e5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 54,
+  "stars": 60,
   "stars_por_mes": null
  },
  "nombre": "multistore",

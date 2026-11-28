@@ -10,16 +10,7 @@
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/script-hunter--anime-manga-downloader.json",
-  "sha256": "07f2a5f3db5eb844b151af9daeeeea12f7558a8a9fc97a49c4a4be140044461a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e57807e775044b77c676151f5560cd1235e34c8f49ba3ab5de344762d4ab7cc2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

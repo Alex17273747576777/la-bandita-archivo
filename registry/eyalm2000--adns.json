@@ -4,22 +4,13 @@
   "release_en": "2026-04-10",
   "semantica_http": 200,
   "ultima_release": "v0.1.0-alpha",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-11"
  },
  "descripcion": "Android's Private DNS Supercharged",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/eyalm2000--adns.json",
-  "sha256": "f4cff095d26df5a9d3bea8b6115ba0da446ea36a93b2f0623c58a4939b49c1a1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b2d150e41370e123f75283c3373e8b84b11420b7dd8fa52295c30865a1327f9f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 743,
+  "stars": 789,
   "stars_por_mes": null
  },
  "nombre": "adns",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "677a88bc3d62c18d2dbe5341d3c772416a232a85",
+  "commit": "4e9138984faaf72e588d47356aee7549d3f2852e",
   "swh_estado": "archivada",
   "swh_solicitud": "677a88bc3d62c18d2dbe5341d3c772416a232a85",
-  "swhid": "swh:1:rev:677a88bc3d62c18d2dbe5341d3c772416a232a85"
+  "swhid": "swh:1:rev:4e9138984faaf72e588d47356aee7549d3f2852e"
  },
  "repo": "eyalm2000/adns",
  "web": "adns.eyalm.dev"

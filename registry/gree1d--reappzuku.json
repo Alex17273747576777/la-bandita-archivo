@@ -8,18 +8,9 @@
  },
  "descripcion": "Simple tool to improve your phone's performance by managing background and foreground apps. Make your phone great again 🚀",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/gree1d--reappzuku.json",
-  "sha256": "b0a60f558003e8f6704a9967ba1b95a648840e8ab32a06595985315344526d85"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2a615ef3f0f01d9fc222bedf98453f44091da352f8d36db4ca84f60473bea9db"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 222,
+  "stars": 236,
   "stars_por_mes": null
  },
  "nombre": "ReAppzuku",

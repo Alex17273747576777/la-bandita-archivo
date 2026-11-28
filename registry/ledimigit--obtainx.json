@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-07"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Get Android app updates straight from the source. And install it any way you wan",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ledimigit--obtainx.json",
-  "sha256": "7ff8a63298d41da8a0e597dbf57485d39825d2baf378417a9c3562394910d193"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5893e90296fa6ab2e20cd2126657c56c5eeb770c5267dac8a0866a5b561b0741"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "c89a4062b960f8d1004f2a1f3c2e6eabadd04d91",
+  "commit": "3b445a12ea397ba0766c2f5419f5a07ce3e7dd65",
   "swh_estado": null,
-  "swhid": "swh:1:rev:c89a4062b960f8d1004f2a1f3c2e6eabadd04d91"
+  "swhid": "swh:1:rev:3b445a12ea397ba0766c2f5419f5a07ce3e7dd65"
  },
  "repo": "LeDimigit/ObtainX"
 }

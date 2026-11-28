@@ -4,22 +4,13 @@
   "release_en": "2026-10-14",
   "semantica_http": 200,
   "ultima_release": "r10644",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/komi-kun--komi-kun.json",
-  "sha256": "1173438f13d6c2f9e843205731d8861ffa3afc1f123e275205c46cd4da1cea3a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "63f6b60d4e0c60b651094484135242db11a6d194b031a20d8d672837d398bfc2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2,
+  "stars": 3,
   "stars_por_mes": null
  },
  "nombre": "komi-kun",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "afe2b89f31f0e0b77b15d497ead5b1b3461f6567",
+  "commit": "74ab61d574a05459ca1757122dc49d50ae02cb3e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:afe2b89f31f0e0b77b15d497ead5b1b3461f6567"
+  "swhid": "swh:1:rev:74ab61d574a05459ca1757122dc49d50ae02cb3e"
  },
  "repo": "komi-kun/komi-kun"
 }

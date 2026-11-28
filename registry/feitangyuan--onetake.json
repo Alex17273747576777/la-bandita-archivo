@@ -4,22 +4,13 @@
   "release_en": "2026-10-08",
   "semantica_http": 200,
   "ultima_release": "v1.1.0-lite",
-  "ultimo_push": "2026-10-21"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. Product launch films and feature demos, made with a coding agent.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/feitangyuan--onetake.json",
-  "sha256": "e45557509041a74e7ba58a36109776b680cf0a4ef9c020ec6bdffb729359d0ea"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "137d5438bf1edcd166e6b41868d69d34c8853609f058789941bf46b0561f745d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,23 +24,23 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («noncommercial»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3668,
+  "stars": 4534,
   "stars_por_mes": null
  },
  "nombre": "onetake",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "013a61ac8d98883c73733f59c06e49e9ba444f14",
+  "commit": "4e024be4c6c696b260f39a35aee6bd56d303b679",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:013a61ac8d98883c73733f59c06e49e9ba444f14"
+  "swhid": "swh:1:rev:4e024be4c6c696b260f39a35aee6bd56d303b679"
  },
  "repo": "feitangyuan/onetake",
  "web": "https://onetakemotion.com"

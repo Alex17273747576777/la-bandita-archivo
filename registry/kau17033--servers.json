@@ -8,18 +8,9 @@
  },
  "descripcion": "Model Context Protocol Servers",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kau17033--servers.json",
-  "sha256": "dcb60e77bde963ccc62de63cfe87ecf31d5e3203e57f5b0dcd0f56fbac17dd6d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f11c2ddd02dab790dc1777d4319e03cd257e01102bb06d7ab68669ecc2bd3c39"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

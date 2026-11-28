@@ -8,18 +8,9 @@
  },
  "descripcion": "A simple app made to help users easily install GSIs via DSU's Android feature.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/vegabobo--dsu-sideloader.json",
-  "sha256": "397b47b31d54d0c2755992c73be5a10354a70a0d17f91da69252157ad2b1ebbb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "50cf053ba4134ee990920713b783ae11f863b2cba12e745864859ea43ba36b83"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2352,
+  "stars": 2391,
   "stars_por_mes": null
  },
  "nombre": "DSU-Sideloader",

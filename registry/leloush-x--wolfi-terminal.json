@@ -8,18 +8,9 @@
  },
  "descripcion": "Wolfi + Alpine + void arch + debian -  Android terminal (ReTerminal fork with rolling APK releases)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/leloush-x--wolfi-terminal.json",
-  "sha256": "1d37c6a9fdb7d15c9e15ef07a89b35f230b791499e2b05f3ba1fe1301948d320"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d5ce39efc83a4ed96aeaafcd10daf294ec87d995f4e51e29aed26f75ec96ad2e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 16,
+  "stars": 18,
   "stars_por_mes": null
  },
  "nombre": "wolfi-terminal",

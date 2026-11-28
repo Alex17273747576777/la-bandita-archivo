@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
+  "estado": "vivo",
+  "release_en": "2026-08-11",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-15"
  },
  "descripcion": "explore and download apk form any source",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/wsdx233--apkmesh.json",
-  "sha256": "0d4640ce17c7519be76fbf271ffafc900a69a246a6f7b4c9ca0d4dd0d1c68fb9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5038b190eb8ec45ade9cfdef2d500c5fd98cb8e5bd39a33bbc6a31671823dbbd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 152,
   "stars_por_mes": null
  },
  "nombre": "ApkMesh",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "f894138362ab032d16932e33fab2eee937bdc614",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:f894138362ab032d16932e33fab2eee937bdc614"
  },
  "repo": "wsdx233/ApkMesh"
 }

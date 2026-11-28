@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
+  "estado": "dormido",
   "release_en": null,
-  "semantica_http": 404,
+  "semantica_http": 200,
   "ultima_release": null,
   "ultimo_push": "2025-05-08"
  },
  "descripcion": "Model Context Protocol Servers",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ragieai--modelcontextprotocol-servers.json",
-  "sha256": "a834f090218b982b623df5290a7fc5c5f030b0754985cf8a1114bcfaf462952a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a74900fa5dea2821ae127bfd2b4870179922f1d1e6549c3b5911080df102db9b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "modelcontextprotocol-servers",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "0fa56f5e2c29b8263a7a149260896a8747135b6e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:0fa56f5e2c29b8263a7a149260896a8747135b6e"
  },
  "repo": "ragieai/modelcontextprotocol-servers",
  "web": "https://modelcontextprotocol.io"

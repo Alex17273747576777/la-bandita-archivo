@@ -4,22 +4,13 @@
   "release_en": "2025-10-25",
   "semantica_http": 200,
   "ultima_release": "V0.1",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "Lightweight light novel, pdf, manwha, manga and epub reader with offline AI summaries.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aatricks--emaki.json",
-  "sha256": "9a98025896a0401335d8d92ed5f65ef52dbe79b3df0b3de5862edbf76b8738e0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "64b707891c76ae4462f49c8829412c9fc6c9de93ecba363d9e7153e760d5f701"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 26,
+  "stars": 28,
   "stars_por_mes": null
  },
  "nombre": "Emaki",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5a199f5dffbcb9e5a8a7d4ee02a87c997ea3b6fe",
+  "commit": "3e97145d52a7298bb596423d36dfe4a46ead84d1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5a199f5dffbcb9e5a8a7d4ee02a87c997ea3b6fe"
+  "swhid": "swh:1:rev:3e97145d52a7298bb596423d36dfe4a46ead84d1"
  },
  "repo": "Aatricks/Emaki"
 }

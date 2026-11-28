@@ -4,22 +4,13 @@
   "release_en": "2026-10-19",
   "semantica_http": 200,
   "ultima_release": "v1.2.4",
-  "ultimo_push": "2026-10-28"
+  "ultimo_push": "2026-11-04"
  },
  "descripcion": "Rootless Android performance booster for gamers: one-tap Master Turbo, live FPS HUD, crosshair overlay and per-game profiles via Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/a-124--hyperboost-engine-pro.json",
-  "sha256": "93c2acc42ce9382d169e98f32f4854a906952b8537809f4403ac39b6dbc536c6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8523b746b63135db9f318377566d7c028dc9d32db6caafa4aa76662406ab5e5b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "hyperboost-engine-pro",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a02337f0e49df5fe60ab904fa0db10632106259b",
+  "commit": "0fd2de2e42b91665b731c9e25c68d3fabb456984",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a02337f0e49df5fe60ab904fa0db10632106259b"
+  "swhid": "swh:1:rev:0fd2de2e42b91665b731c9e25c68d3fabb456984"
  },
  "repo": "A-124/hyperboost-engine-pro",
  "web": "https://hyperboost-engine-pro.vercel.app"

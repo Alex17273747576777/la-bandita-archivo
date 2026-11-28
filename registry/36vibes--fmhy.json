@@ -10,16 +10,7 @@
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/36vibes--fmhy.json",
-  "sha256": "2c71199bf6e7324013acd3709f02230a4ba19ea93065d8e4964030ae4753863b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2aba4e919eb46f6cf6698f1ae57ef855fe1953a4a98bfc8f7e672d3bafc749d0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

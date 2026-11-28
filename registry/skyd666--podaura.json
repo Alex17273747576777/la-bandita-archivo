@@ -4,22 +4,13 @@
   "release_en": "2024-07-30",
   "semantica_http": 200,
   "ultima_release": "19",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "All-in-on podcast app for RSS, media dl & play. MVI arch, Material You style. ⭐️ Star to support!",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/skyd666--podaura.json",
-  "sha256": "2f6e98e03f3c70108c658b666138c8e964642382824f7ff7df0869fa9696bbfa"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "af7a62f37566cdbdbabe988ab6b892b10fe8c408316a9c62cd4dce12bef7591a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1275,
+  "stars": 1278,
   "stars_por_mes": null
  },
  "nombre": "PodAura",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "52f501efe486ce8dc07efb53eb080b189d7ca863",
+  "commit": "c920057d452ff997a69699278a29ddd84549f9e1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:52f501efe486ce8dc07efb53eb080b189d7ca863"
+  "swhid": "swh:1:rev:c920057d452ff997a69699278a29ddd84549f9e1"
  },
  "repo": "SkyD666/PodAura"
 }

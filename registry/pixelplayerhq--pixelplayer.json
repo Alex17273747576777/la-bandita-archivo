@@ -4,22 +4,13 @@
   "release_en": "2025-08-30",
   "semantica_http": 200,
   "ultima_release": "0.1.0-beta",
-  "ultimo_push": "2026-09-21"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "privacy-first Android music player built with Material 3 Expressive. Play offline, sync lyrics, fine-tune with equalizer presets, and cast to your devices.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pixelplayerhq--pixelplayer.json",
-  "sha256": "5345f62d11839ad405802e9c00e2f129c76b1e19700bc006a075156cfe3f44f7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fc2dd69067d563592fb4e75d2e6ce892edc23afc736b03966f3fadaa4ad8762d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6880,
+  "stars": 7064,
   "stars_por_mes": null
  },
  "nombre": "PixelPlayer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "63cb59b97aff1d60c5aa46afdf5ce489e632b267",
+  "commit": "515c7d35127d922e9e0d64211ef01dc97f08beac",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:63cb59b97aff1d60c5aa46afdf5ce489e632b267"
+  "swhid": "swh:1:rev:515c7d35127d922e9e0d64211ef01dc97f08beac"
  },
  "repo": "PixelPlayerHQ/PixelPlayer"
 }

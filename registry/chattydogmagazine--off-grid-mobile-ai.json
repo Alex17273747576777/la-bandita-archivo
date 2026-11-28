@@ -1,6 +1,6 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "dormido",
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
@@ -10,16 +10,7 @@
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/chattydogmagazine--off-grid-mobile-ai.json",
-  "sha256": "6f276453a19c7881578c4777681d4c65650331c1f4ade3cf297062b775b8e445"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "01dae03b2ab49fedc06dbba36ff4ad33ebb9df06fcb4db3aab051f392e8ddb90"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

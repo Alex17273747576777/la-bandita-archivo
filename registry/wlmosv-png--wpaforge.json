@@ -4,22 +4,13 @@
   "release_en": "2026-10-10",
   "semantica_http": 200,
   "ultima_release": "v0.5.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "智能字典破解 WiFi：按 SSID 与线索现场生成候选、逐条真实关联验证；含 WPS PIN、局域网侦察、.cap/.hc22000 离线校验、信道诊断；收尾自动写回目标原网络配置并回读确认。需 Root。 | Smart-dictionary WiFi cracking: candidates from SSID and hints, each really associated; WPS PIN and half-handshake attacks, LAN recon, offline .cap/.hc22000 checks; original network config written back and read-back verified. Root required.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/wlmosv-png--wpaforge.json",
-  "sha256": "a8bd7fc969824da98b6478a9c752864b10913b723e53f24e6b7acaac977f0cfa"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d34c6e44447413fa063e91eb5354c867f2b31445e5dc31be1f5d8352e159a680"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 150,
+  "stars": 196,
   "stars_por_mes": null
  },
  "nombre": "wpaforge",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b7716fdc6e73e32755f69d454d75113709b8c36e",
+  "commit": "5efbd0732c3a09bad592d8c5e204c223936341d9",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b7716fdc6e73e32755f69d454d75113709b8c36e"
+  "swhid": "swh:1:rev:5efbd0732c3a09bad592d8c5e204c223936341d9"
  },
  "repo": "wlmosv-png/wpaforge",
  "web": "https://wlmosv.dpdns.org/wpaforge/"

@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-08-03T08:01:41Z",
-   "oid": "286a547e4612be1543cfd8dc264488106c44d37a"
+   "committedDate": "2026-11-08T07:30:08Z",
+   "oid": "9f8fcb1facbea4cf83838b5acfaac673b563042f"
   }
  },
- "diskUsage": 63804,
+ "diskUsage": 63516,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Apache-2.0"
  },
  "nameWithOwner": "1007606740/JHenTai",
- "pushedAt": "2026-08-07T08:04:37Z",
+ "pushedAt": "2026-11-10T02:47:16Z",
  "releases": {
   "nodes": []
  },

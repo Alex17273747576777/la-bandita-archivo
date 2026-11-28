@@ -4,22 +4,13 @@
   "release_en": "2026-05-06",
   "semantica_http": 200,
   "ultima_release": "0.1",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "A desktop-class multimedia file manager for Android optimized for DeX, tablets, phones and mouse/keyboard productivity. Now with integrated Game Manager, PDF reader and text editor!",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/johakovi--continuum-explorer-memories.json",
-  "sha256": "32aac2425a0eabac012a5309801f82bc841a31229d98ca083839260bffa29a58"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "40317abba74d188e5e46449941256c9ce0cf99a148f149841d826f1a1c7c2f1f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 52,
+  "stars": 64,
   "stars_por_mes": null
  },
  "nombre": "Continuum-Explorer-Memories",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "4d7d6ca222d5680671f888aa4a5f86a83a3dd5a4",
+  "commit": "64eac4b3f71c06dc92ad4a5ae4b6bad48e2f852a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4d7d6ca222d5680671f888aa4a5f86a83a3dd5a4"
+  "swhid": "swh:1:rev:64eac4b3f71c06dc92ad4a5ae4b6bad48e2f852a"
  },
  "repo": "johakovi/Continuum-Explorer-Memories"
 }

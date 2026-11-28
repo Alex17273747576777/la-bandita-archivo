@@ -4,22 +4,13 @@
   "release_en": "2026-04-17",
   "semantica_http": 200,
   "ultima_release": "v1.1.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A modern Android app for installing and managing APK packages with split APK support, silent install via Shizuku, and VirusTotal malware scanning.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pass-with-high-score--universal-installer.json",
-  "sha256": "95d0d4e94cabc143b9c854f742d114d83a03a4b8fced787a9409cf3b6d303513"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "575ea20638154f609d50e6024cda41f26d86e3448188f7657b0a99ee4f5c39b0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1673,
+  "stars": 1859,
   "stars_por_mes": null
  },
  "nombre": "universal-installer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5bd00f84f6ebd16856e4747b43698269fb7445c8",
+  "commit": "28ff2ef7025b2c7c94f2156fd36bfd5b3b5ff68a",
   "swh_estado": "archivada",
   "swh_solicitud": "5bd00f84f6ebd16856e4747b43698269fb7445c8",
-  "swhid": "swh:1:rev:5bd00f84f6ebd16856e4747b43698269fb7445c8"
+  "swhid": "swh:1:rev:28ff2ef7025b2c7c94f2156fd36bfd5b3b5ff68a"
  },
  "repo": "pass-with-high-score/universal-installer",
  "web": "https://universal-installer.pwhs.app/"

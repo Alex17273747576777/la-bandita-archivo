@@ -4,22 +4,13 @@
   "release_en": "2026-10-08",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-17"
+  "ultimo_push": "2026-11-20"
  },
  "descripcion": "Jav — non-root Android control runtime over MCP: on-device UI automation, native telemetry APIs and dual-tier AI (Jev + director)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/k4wai1--jav.json",
-  "sha256": "87b7062ad315a5d0fb677ef63c73cae30ddb911097f8b8337e59fca0f16cdbaa"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d933b7d217e8e09b9c53a2e1f9b5f4e312a4c1fd3c2bd06cb1e18419942fc95e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f1662ecd3cf33a837d1f4b2ec2eb36081bb39c60",
+  "commit": "d8d28061333e1811ef6e698e5ea8d33994107125",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f1662ecd3cf33a837d1f4b2ec2eb36081bb39c60"
+  "swhid": "swh:1:rev:d8d28061333e1811ef6e698e5ea8d33994107125"
  },
  "repo": "k4wai1/jav"
 }

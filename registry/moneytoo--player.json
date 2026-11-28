@@ -4,22 +4,13 @@
   "release_en": "2020-11-16",
   "semantica_http": 200,
   "ultima_release": "v0.4",
-  "ultimo_push": "2026-10-22"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "▶ Simple and lightweight, yet polished and powerful Android video player based on ExoPlayer",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/moneytoo--player.json",
-  "sha256": "5f5dd23b37a43bcb4b980dec800e2290f0df07e678d2daf65d214f1ec39abf62"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f807f6c48d2fb69068e2a11d80ac3285921025f9962ce9a9ce790f53d917ba83"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Unlicense",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2787,
+  "stars": 2826,
   "stars_por_mes": null
  },
  "nombre": "Player",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b74285ca8a2fc6cf1ad604e34781a0a07b0384c0",
+  "commit": "439e2b89e1ee4bae663542e9e41cf01927455322",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b74285ca8a2fc6cf1ad604e34781a0a07b0384c0"
+  "swhid": "swh:1:rev:439e2b89e1ee4bae663542e9e41cf01927455322"
  },
  "repo": "moneytoo/Player",
  "web": "https://play.google.com/store/apps/details?id=com.brouken.player"

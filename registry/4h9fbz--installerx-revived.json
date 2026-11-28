@@ -1,8 +1,8 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "muerto",
   "release_en": null,
-  "semantica_http": 200,
+  "semantica_http": 404,
   "ultima_release": null,
   "ultimo_push": "2026-05-13"
  },
@@ -13,13 +13,12 @@
   "sha256": "037134a8ef7d227695f97c2291d91fa23117149322beff1033a2928e55287069"
  },
  "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
+  "dias": 0,
+  "estado": "vencida",
+  "evidencia_en": "2026-11-27",
+  "motivo": "el repositorio no existe: la API devolvió 404",
   "proxima_remedicion": null,
-  "ventana_dias": 180
+  "ventana_dias": null
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +33,11 @@
   "spdx": "GPL-3.0",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": null,
   "stars_por_mes": 0.0
  },
  "nombre": "InstallerX-Revived",

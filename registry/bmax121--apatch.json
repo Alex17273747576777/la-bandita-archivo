@@ -4,22 +4,13 @@
   "release_en": "2023-12-31",
   "semantica_http": 200,
   "ultima_release": "10253",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "The patching of Android kernel and Android system",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/bmax121--apatch.json",
-  "sha256": "6e9e174974f1c090766cf3678610bded96a21b6d18267fc9cd5a136d7ba1c68a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "60781b1f6cb3e25b0ffc8b79cac5b455ac15e4133b9e5223f4c84f2927cd0c3b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8121,
+  "stars": 8242,
   "stars_por_mes": null
  },
  "nombre": "APatch",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "e8e4651c16fb5075882a25813c8732285fdb3505",
+  "commit": "7d77b0b5e9c7b50ce025f8abbdc238940c01a7a8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e8e4651c16fb5075882a25813c8732285fdb3505"
+  "swhid": "swh:1:rev:7d77b0b5e9c7b50ce025f8abbdc238940c01a7a8"
  },
  "repo": "bmax121/APatch"
 }

@@ -4,22 +4,13 @@
   "release_en": "2026-08-28",
   "semantica_http": 200,
   "ultima_release": "latest-debug",
-  "ultimo_push": "2026-10-24"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/vaditim--vados-bubble.json",
-  "sha256": "c07fff211c382d74ae627feb70ef02cb3d67a6ab0b1d0365b9cb04b82f450c71"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d7d98cda1c56d1e7b1f9c7414aac0f28fa0a0faf33f44f844b050f9d4c7d3a5d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1d8c986a74c06d1da9d714b79ae103438cdbcffa",
+  "commit": "a2cc7b969be52e5573547822c53715c49850b89d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1d8c986a74c06d1da9d714b79ae103438cdbcffa"
+  "swhid": "swh:1:rev:a2cc7b969be52e5573547822c53715c49850b89d"
  },
  "repo": "VADITIM/VADOS-BUBBLE"
 }

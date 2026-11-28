@@ -8,18 +8,9 @@
  },
  "descripcion": "ETAW清理 (ETAW Cleaner) — 安卓第三方应用扫描、双重验证卸载、残留深度清理与 SHA-256 回收站记录工具",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/etqwfd--etaw-cleaner.json",
-  "sha256": "4d9decdbe2c89828758dc0a40d9afcec601cd06ac10d79e55a50ed6afdde9511"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8a45dc9c1c1209b414661ce542c98c0dfcbebe4158eec989fba8a09cc78d2223"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

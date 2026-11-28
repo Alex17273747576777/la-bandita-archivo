@@ -8,18 +8,9 @@
  },
  "descripcion": "Android image viewer and manga/comic reader. Reading without downloading from SMB, SFTP, OneDrive, and more.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/glanium--comichu.json",
-  "sha256": "0b9c55712534fcf1dfcf5cb1d35215d6205f759321eacdb3370324135efb7b77"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "af97b78e1ce18df4154035847d6c09e77344df7d04010bb6c4c50096efaa07ab"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 69,
+  "stars": 72,
   "stars_por_mes": null
  },
  "nombre": "ComiChu",

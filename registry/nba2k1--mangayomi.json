@@ -4,22 +4,13 @@
   "release_en": "2025-05-05",
   "semantica_http": 200,
   "ultima_release": "v0.6.1",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-15"
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes available on Android, iOS, macOS, Linux and Windows",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/nba2k1--mangayomi.json",
-  "sha256": "ddfccaa0bc2fb194598510722492018434b0f227e257469e04b57a1ffbd0094f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "38734238cbd22c6015b5a404f7aaf1dbc1263973b85a86ec34e487df1efc5a45"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ee8decc2993be72d41f195ffc23990e0e1b29892",
+  "commit": "37ba9e2def0ae88fd69fecafb0c43c9db049732e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ee8decc2993be72d41f195ffc23990e0e1b29892"
+  "swhid": "swh:1:rev:37ba9e2def0ae88fd69fecafb0c43c9db049732e"
  },
  "repo": "NBA2K1/mangayomi"
 }

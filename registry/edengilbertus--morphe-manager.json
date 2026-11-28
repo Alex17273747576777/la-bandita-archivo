@@ -1,6 +1,6 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "dormido",
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
@@ -10,16 +10,7 @@
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/edengilbertus--morphe-manager.json",
-  "sha256": "3a61b40d2e02416ae7a278ced2a13c32274c4bba813897022409dbbdd0816919"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "85e328f65cd4b0c16f013127e45b31bd785d0138b8cf93e8a5a31a0eb47e77a8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

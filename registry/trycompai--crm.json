@@ -8,18 +8,9 @@
  },
  "descripcion": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/trycompai--crm.json",
-  "sha256": "44f231ea53f88947216ce97d7344c0b67ea6e0a3048c08baabfc5be89fc1545d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9bc7f3775ac25d88fef3b7575f38ccdd021ddb0eb8a048b8e3e68729c2e8d2d3"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 11815,
+  "stars": 12303,
   "stars_por_mes": null
  },
  "nombre": "crm",

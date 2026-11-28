@@ -4,22 +4,13 @@
   "release_en": "2026-08-29",
   "semantica_http": 200,
   "ultima_release": "v0.1.1-beta.2",
-  "ultimo_push": "2026-09-13"
+  "ultimo_push": "2026-11-06"
  },
  "descripcion": "Free & Open Source Local Coding Agent for Android. ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/draxonv1--syntac.json",
-  "sha256": "ad7127bc4f8307b6894a7645b460a3ff2ef9de779639cf62727aae35ec09b9be"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "01d5fc30a081e8f6c2342b1ff63a191ec4942ca6dd032453a725f1a040ddefd9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

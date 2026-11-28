@@ -4,22 +4,13 @@
   "release_en": "2022-03-11",
   "semantica_http": 200,
   "ultima_release": "v0.12.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-18"
  },
  "descripcion": "video player and library manager",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/animiruorg--animiru.json",
-  "sha256": "285ec57b8443d544519614874c7abdd8feca45057523ca8c205d0046c3a20c61"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "21ea92538276625ee4112e71b7c662c93a35122d801420f03fccc7e30c3d53e9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 907,
+  "stars": 935,
   "stars_por_mes": null
  },
  "nombre": "Animiru",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "41dc28f70439e504e02afa0ab1334a4d996379a2",
+  "commit": "cf60ead905e87a275b71275fbdb7e70969f53c80",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:41dc28f70439e504e02afa0ab1334a4d996379a2"
+  "swhid": "swh:1:rev:cf60ead905e87a275b71275fbdb7e70969f53c80"
  },
  "repo": "animiruorg/Animiru",
  "web": "https://aniyomi.org/forks/Animiru/"

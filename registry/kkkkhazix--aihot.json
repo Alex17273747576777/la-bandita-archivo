@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kkkkhazix--aihot.json",
-  "sha256": "84606b9efd8db71372df10a9cd9cbec6a32f6066fae016e25768ec32c6baeb6c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2909f9b2b33eee8fa4692d757d74b1ab9f28331e18957881b37333360302610d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9358,
+  "stars": 11506,
   "stars_por_mes": null
  },
  "nombre": "AIHOT",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "cd424b0a513c7c8535b6f291b106a3086d6b75bf",
+  "commit": "91a1f497f6f6f4581f77de2a95e7e5b99eb4a15e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:cd424b0a513c7c8535b6f291b106a3086d6b75bf"
+  "swhid": "swh:1:rev:91a1f497f6f6f4581f77de2a95e7e5b99eb4a15e"
  },
  "repo": "KKKKhazix/AIHOT",
  "web": "https://aihot.news"

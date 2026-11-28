@@ -8,18 +8,9 @@
  },
  "descripcion": "Lucent 📝 — Notes, tasks & an AI assistant that respects your privacy 🔒 Encrypted & offline-first ✨",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lucent-project--lucent.json",
-  "sha256": "5649be3c657b0c2074b1d83b18512c001b63fdba90a63936d3fc5a650c655ca8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bb68a003ebc3c7032a3d3de3f2f73ed65e245739df8f82fee16e2d02ebc5b408"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 12,
+  "stars": 13,
   "stars_por_mes": null
  },
  "nombre": "Lucent",

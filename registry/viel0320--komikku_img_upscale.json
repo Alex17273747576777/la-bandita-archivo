@@ -4,22 +4,13 @@
   "release_en": "2026-09-13",
   "semantica_http": 200,
   "ultima_release": "r10647",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-16"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/viel0320--komikku_img_upscale.json",
-  "sha256": "dd4f67e3da8ca3bdb49bb4d09a8c48d0c339e82e31eba4e9140f8d9d4da3a87d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f77dd25a98aa999c2f6c46a98de3039bbae2ce89415aa18589e6c69eb6cfad8d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9,
+  "stars": 10,
   "stars_por_mes": null
  },
  "nombre": "komikku_img_upscale",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "503f53a1a60d0f7558f349e31ebb4ae19feaaea1",
+  "commit": "a5f99f498a0de2a39149b869e8b974caafd128df",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:503f53a1a60d0f7558f349e31ebb4ae19feaaea1"
+  "swhid": "swh:1:rev:a5f99f498a0de2a39149b869e8b974caafd128df"
  },
  "repo": "Viel0320/komikku_img_upscale"
 }

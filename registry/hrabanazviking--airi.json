@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-05-21"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hrabanazviking--airi.json",
-  "sha256": "6fbd01f11743ee136ee65ba8373c9542e6ad5315475554a7e6395b459893571d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e8ffa44c9f8829c4bf032de16e815b12c689d3248fb4d1105b4d5bdc473c54e6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ecf234c24617e3c3b6480a4955a7c06f7e23f7ee",
+  "commit": "b550d9b12d4da6694d7f6e5648bd04d5925ad230",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ecf234c24617e3c3b6480a4955a7c06f7e23f7ee"
+  "swhid": "swh:1:rev:b550d9b12d4da6694d7f6e5648bd04d5925ad230"
  },
  "repo": "hrabanazviking/airi",
  "web": "https://airi.moeru.ai/docs/"

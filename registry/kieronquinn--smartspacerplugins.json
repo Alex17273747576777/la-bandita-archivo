@@ -8,18 +8,9 @@
  },
  "descripcion": "A collection of plugins for Smartspacer",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kieronquinn--smartspacerplugins.json",
-  "sha256": "e077ab3e230d32cdd2531f764e3797624b4702bb1406e748e14059d916eabd1d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "610fe9f9b951f987a93659e9b9f9aa7f5c2aa67f7adf476674621fd63e47ac04"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 204,
+  "stars": 208,
   "stars_por_mes": null
  },
  "nombre": "SmartspacerPlugins",

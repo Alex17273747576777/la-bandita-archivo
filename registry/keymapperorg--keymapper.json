@@ -4,22 +4,13 @@
   "release_en": "2019-03-02",
   "semantica_http": 200,
   "ultima_release": "v1.0.0-beta.1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "An Android app to remap the buttons on your devices",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/keymapperorg--keymapper.json",
-  "sha256": "55126502c54d6a6dbf07d3db3fbe24fafa5d2e5edd597e5ba03c153fff65e058"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4f6c968a9bae36ef763dcee560a4a99f04965d48f5785ea9dd3110da0e27dad9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2790,
+  "stars": 2877,
   "stars_por_mes": null
  },
  "nombre": "KeyMapper",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "65c398a0a11510878ce3bd8c6745a186364388e3",
+  "commit": "6ebb9c63270de07bf3edd1661bd56f10823325d4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:65c398a0a11510878ce3bd8c6745a186364388e3"
+  "swhid": "swh:1:rev:6ebb9c63270de07bf3edd1661bd56f10823325d4"
  },
  "repo": "keymapperorg/KeyMapper",
  "web": "https://keymapper.app"

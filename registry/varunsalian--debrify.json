@@ -4,22 +4,13 @@
   "release_en": "2025-10-19",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "Your personal media hub — browse, stream, and organize media from your own services and servers, with a cinematic built-in player. Android, Android TV, iOS, Windows, macOS, and Linux.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/varunsalian--debrify.json",
-  "sha256": "2f1ffd3d45825c7e39a4bea2d93c6278a1626eb639c3cfae75b5cdd8ff610a88"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1f5063cca3fad33e66e39c74a2a4a6b8581b4b6f8403644e3f255d79fa4632e6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 637,
+  "stars": 666,
   "stars_por_mes": null
  },
  "nombre": "debrify",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "62067b4ef2347d7469641e597ae945306fcd5f40",
+  "commit": "a8dfae25fc1d5b45ed700baea7e0164ef99f127d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:62067b4ef2347d7469641e597ae945306fcd5f40"
+  "swhid": "swh:1:rev:a8dfae25fc1d5b45ed700baea7e0164ef99f127d"
  },
  "repo": "varunsalian/debrify",
  "web": "https://debrify.tv"

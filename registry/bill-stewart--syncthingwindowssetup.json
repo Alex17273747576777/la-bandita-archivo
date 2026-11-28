@@ -8,18 +8,9 @@
  },
  "descripcion": "Syncthing Windows Setup",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/bill-stewart--syncthingwindowssetup.json",
-  "sha256": "8e23bfbebdd87a597befc4acb9b79416dd5f424f21dd2bc6063da8fe11c5f047"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a36f80f9132fd71626e0304f762759ad5f500afc34a6d7df8a118c58f629fbe6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4534,
+  "stars": 4679,
   "stars_por_mes": null
  },
  "nombre": "SyncthingWindowsSetup",

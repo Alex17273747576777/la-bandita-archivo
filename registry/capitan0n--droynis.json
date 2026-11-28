@@ -4,22 +4,13 @@
   "release_en": "2026-10-08",
   "semantica_http": 200,
   "ultima_release": "v0.12.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Offline Android security audit tool. 68 read-only checks across multiple privilege levels (base, ADB, Shizuku, root), 0–100 score and saved reports. Privacy-oriented, no internet permission, zero telemetry, fully local.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/capitan0n--droynis.json",
-  "sha256": "325bf33caf48fd827bd910182b7184610cd3e13ffa546095c14a1ee30fa9a3d7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "362b02dfc0dc7b076de8d03be792b1922cfd565ae95a3f085a373fd397418a14"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15,
+  "stars": 50,
   "stars_por_mes": null
  },
  "nombre": "droynis",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "85f04555bc00bfc8506a715f9bc28f64e8b781f5",
+  "commit": "83976cbeff2281323c2c83ab2dd05c840c754b2c",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:85f04555bc00bfc8506a715f9bc28f64e8b781f5"
+  "swhid": "swh:1:rev:83976cbeff2281323c2c83ab2dd05c840c754b2c"
  },
  "repo": "capitan0n/droynis"
 }

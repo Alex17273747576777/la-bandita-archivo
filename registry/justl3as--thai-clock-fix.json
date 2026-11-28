@@ -8,18 +8,9 @@
  },
  "descripcion": "Android utility for configuring Thai SystemUI clock locale through Shizuku",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/justl3as--thai-clock-fix.json",
-  "sha256": "b7faa5f1be7385f7fc9857a2f5f6819d5b8812acd7e978fc8cb7b2f451781c14"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2e281954165566ae58006fe464cfad33ee2cc1ccdb314c9c9acc05d4a333d452"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

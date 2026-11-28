@@ -4,22 +4,13 @@
   "release_en": "2026-10-28",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Unofficial Android client for Alma Desktop — pair over Alma's end-to-end encrypted relay",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lazyeo--alma-android.json",
-  "sha256": "986c3b310416911d2b05753fe8cb3518722b12360459611ba714e247177158c1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "dfa3fdf13b793496a5c3e0bcf97826a6a8ad95507afb38a8a0e2cccf44a5c5b7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13,
+  "stars": 14,
   "stars_por_mes": null
  },
  "nombre": "alma-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5fe29fe8837b530f7988d760ca904929c5e42c4a",
+  "commit": "c5b373827a51ce08c141e28bfe72544be232cc41",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5fe29fe8837b530f7988d760ca904929c5e42c4a"
+  "swhid": "swh:1:rev:c5b373827a51ce08c141e28bfe72544be232cc41"
  },
  "repo": "lazyeo/alma-android",
  "web": "https://alma.now"

@@ -4,22 +4,13 @@
   "release_en": "2022-05-28",
   "semantica_http": 200,
   "ultima_release": "1.4.0@Alpha-2",
-  "ultimo_push": "2026-10-25"
+  "ultimo_push": "2026-11-12"
  },
  "descripcion": "A app for managing, sharing, and exploring Magisk modules across repositories",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mmrlapp--mmrl.json",
-  "sha256": "62c17c33ae0bd2e213fb04cbd994ab74cb6a93e7b5f1e5f1f1bf77f0dfcf934e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "68ac078ca20ba59db35047fe953b3632714b1c9998d6f700e8420c9532a68cb0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2227,
+  "stars": 2278,
   "stars_por_mes": null
  },
  "nombre": "MMRL",

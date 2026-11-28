@@ -4,22 +4,13 @@
   "release_en": "2026-07-02",
   "semantica_http": 200,
   "ultima_release": "v2.8.3",
-  "ultimo_push": "2026-09-28"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Get Android app updates straight from the source. And install it any way you wan",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/you236929--obtainx.json",
-  "sha256": "49c5289ea18ba01ac5d43cbe2f28c0f61d15af47bd85f7dcce8d233be006b0af"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a5e481a0db0f99ae1ceaeb1397b52eadcb0c7ddc1d2ba4498ee31ee2f07926ec"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

@@ -1,6 +1,6 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "dormido",
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
@@ -10,16 +10,7 @@
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mrparvezhossen--parmotv-app.json",
-  "sha256": "977c7b0861f57bb2e052b716bbb8154663053a9234a60ec70b80826ba31e29e6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "72d8170b07a76e0c659f977b675a42b98935756b89116ba1edbd02272b87b31b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

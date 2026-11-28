@@ -8,18 +8,9 @@
  },
  "descripcion": "개인 기기용 로컬 ADB 기반 Samsung Galaxy 강제 셔터음 제어 도구 · Local ADB-based Samsung Galaxy forced shutter-sound control for personal devices",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/whitecan--galaxy-shutter-control.json",
-  "sha256": "0d3bb3f7489185d1af394c5ec9db223a1bb3f0b054f5d013bcf9097fc81b335e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "678f0f692cba36cdc24acb39627803b343d820164309533acff12dcdea3667a3"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

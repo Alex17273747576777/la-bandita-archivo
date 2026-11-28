@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-10-04T08:20:03Z",
-   "oid": "39a68f176c150cfa51a66581f19247977e8da96d"
+   "committedDate": "2026-11-04T22:05:13Z",
+   "oid": "99c3305d163780de5ca39b493aefcde436acad5c"
   }
  },
- "diskUsage": 1102835,
+ "diskUsage": 1107005,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "GPL-3.0"
  },
  "nameWithOwner": "Snap888/WinNative",
- "pushedAt": "2026-11-03T23:59:46Z",
+ "pushedAt": "2026-11-27T22:18:00Z",
  "releases": {
   "nodes": []
  },

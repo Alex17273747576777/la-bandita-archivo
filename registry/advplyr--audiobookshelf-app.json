@@ -4,22 +4,13 @@
   "release_en": "2021-09-02",
   "semantica_http": 200,
   "ultima_release": "v0.2.1-beta",
-  "ultimo_push": "2026-10-11"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "Mobile application for Audiobookshelf",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/advplyr--audiobookshelf-app.json",
-  "sha256": "117602df339d936c1154978a6994f479b64c60497441bdc40ce7a6c7f2a95786"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e7a1f02bd9279829b6d913bbce5e31128e6b806d927fee1c81f11d9bc3389cca"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2816,
+  "stars": 2852,
   "stars_por_mes": null
  },
  "nombre": "audiobookshelf-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "609f9d644c8390fc662869e08ace18ce4a519b00",
+  "commit": "4fd4e4f2e16983fad7d21d9b8ed46a293d88c238",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:609f9d644c8390fc662869e08ace18ce4a519b00"
+  "swhid": "swh:1:rev:4fd4e4f2e16983fad7d21d9b8ed46a293d88c238"
  },
  "repo": "advplyr/audiobookshelf-app",
  "web": "https://audiobookshelf.org"

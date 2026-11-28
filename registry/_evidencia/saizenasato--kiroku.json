@@ -1,14 +1,14 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-10-13T02:06:13Z",
-   "oid": "896a064468aad7df8c28ddfce609ad841a0cfd1c"
+   "committedDate": "2026-11-23T07:28:52Z",
+   "oid": "dfc34344f1b6eab1155d304ec62ea856c00094e2"
   }
  },
- "diskUsage": 22039,
- "forkCount": 0,
+ "diskUsage": 27670,
+ "forkCount": 1,
  "isArchived": false,
  "issues": {
   "totalCount": 0
@@ -18,9 +18,15 @@
   "spdxId": "NOASSERTION"
  },
  "nameWithOwner": "saizenasato/Kiroku",
- "pushedAt": "2026-10-13T02:06:13Z",
+ "pushedAt": "2026-11-23T07:28:58Z",
  "releases": {
-  "nodes": []
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-11-22T02:56:43Z",
+    "tagName": "test-v1.1.99"
+   }
+  ]
  },
  "stargazerCount": 0
 }

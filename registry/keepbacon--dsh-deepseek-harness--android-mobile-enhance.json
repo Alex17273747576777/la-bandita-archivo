@@ -4,22 +4,13 @@
   "release_en": "2026-09-20",
   "semantica_http": 200,
   "ultima_release": "1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "对于DeepSeek Harness Mobile(把 DeepSeek Harness 完整装进安卓手机：内嵌 Node.js 运行时 + 官方 Web UI，开箱即用的独立 App) 的增强版：支持文件/文件夹导入、插件安装、UI 切换，并增强 Android/Termux 兼容性、稳定性与移动端体验。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/keepbacon--dsh-deepseek-harness--android-mobile-enhance.json",
-  "sha256": "321477d3970cd7cab487cffc41ee9e53b6029488cb4ba388b02fc01097d5fbdf"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "972649c8fd72fc6f05d40599cfda6bdec89ecd8b2d3ec7bb0dc7dd04ea3239a0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "27f13e28fe8c41698f6a82d2699170c5b197671e",
+  "commit": "f8a9e6a3731fd8253e8e2e712c5d9690a8ebf8d7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:27f13e28fe8c41698f6a82d2699170c5b197671e"
+  "swhid": "swh:1:rev:f8a9e6a3731fd8253e8e2e712c5d9690a8ebf8d7"
  },
  "repo": "keepBacon/dsh-DeepSeek-Harness--Android-Mobile-Enhance"
 }

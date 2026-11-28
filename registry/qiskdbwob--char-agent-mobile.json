@@ -10,16 +10,7 @@
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/qiskdbwob--char-agent-mobile.json",
-  "sha256": "7ae8d2d56fec74cbe8f02c24a68f4f7519c1134399edbcc66e7033db30e5e6c0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "92bb7de27513aaae1f5f6a3a15d16091a36403e4a7a4aed5c10ce6b8cbf2aeab"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": 0.0
  },
  "nombre": "char-agent-mobile",

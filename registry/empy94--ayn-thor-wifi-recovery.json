@@ -8,18 +8,9 @@
  },
  "descripcion": "Offline Wi-Fi recovery and saved network manager for AYN Thor. English/French Android app with targeted forget-restart-reconnect workflow.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/empy94--ayn-thor-wifi-recovery.json",
-  "sha256": "bb44ee022280a7dcafcacd0c1f396c3c13afbf0019b51d6cbf16a140cf735078"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c1c22ff95451ad93bd504846f2e6468ac3418af92bf80b38445810b0f17ef45e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

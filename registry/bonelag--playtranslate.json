@@ -4,22 +4,13 @@
   "release_en": "2026-05-14",
   "semantica_http": 200,
   "ultima_release": "v2.1.0",
-  "ultimo_push": "2026-08-03"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "Real-time game translation app for Android for both language learners and casual",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/bonelag--playtranslate.json",
-  "sha256": "f304420feeb08a44c5969982f9bef8000a14a4693c9ef6884701e3adc14eaa0a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b9b25efd15bc113aa05db36b06109e9264ab755eacfd9da5570790ff2bf3bad8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e422200369f92444f1eb2338f4d09decf96f18e4",
+  "commit": "343c74f1a9e6918e1b7382bd11bb193357656741",
   "swh_estado": null,
-  "swhid": "swh:1:rev:e422200369f92444f1eb2338f4d09decf96f18e4"
+  "swhid": "swh:1:rev:343c74f1a9e6918e1b7382bd11bb193357656741"
  },
  "repo": "bonelag/playtranslate"
 }

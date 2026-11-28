@@ -4,22 +4,13 @@
   "release_en": "2026-10-18",
   "semantica_http": 200,
   "ultima_release": "v2.0.0-alpha03",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-06"
  },
  "descripcion": "AI Photo Editor",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tri250--pixel-cake.json",
-  "sha256": "d40cb0352ecd0fe833b6edcb3866bc71d99ca3b84f785b1569fce3f68961cba2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2233a8810ed004c978dd5bc957b63fea82e01c65dc9e41f9b5f755bc4cb8dd89"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,11 +21,11 @@
  "id": "tri250--pixel-cake",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-31"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f2f6a30a9fde89fffdf4a92f444f126aee0daa66",
+  "commit": "af25c1ab0eef728bfa6002df30e6a03684f95d83",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f2f6a30a9fde89fffdf4a92f444f126aee0daa66"
+  "swhid": "swh:1:rev:af25c1ab0eef728bfa6002df30e6a03684f95d83"
  },
  "repo": "Tri250/pixel-cake"
 }

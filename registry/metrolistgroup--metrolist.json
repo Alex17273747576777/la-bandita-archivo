@@ -4,22 +4,13 @@
   "release_en": "2023-08-11",
   "semantica_http": 200,
   "ultima_release": "v1.05-Beta",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "YouTube Music client for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/metrolistgroup--metrolist.json",
-  "sha256": "8d180ffa7ab6899e847b0f9f41b9214205519417b893a34adefc54c83018eb30"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d018444984e342a46b18467a0312afe4b78d03a0e92acc2a236af170703b559c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13979,
+  "stars": 15329,
   "stars_por_mes": null
  },
  "nombre": "Metrolist",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "e6fea3b36c68841bad21daa6252e1d69ecd3afbe",
+  "commit": "d7b0eefa5533677f367743ea9f6e75d9fcad11f6",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e6fea3b36c68841bad21daa6252e1d69ecd3afbe"
+  "swhid": "swh:1:rev:d7b0eefa5533677f367743ea9f6e75d9fcad11f6"
  },
  "repo": "MetrolistGroup/Metrolist",
  "web": "https://metrolist.cc"

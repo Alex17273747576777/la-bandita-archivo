@@ -4,22 +4,13 @@
   "release_en": "2026-06-18",
   "semantica_http": 200,
   "ultima_release": "1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "Free Open Source App & Website Blocker ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/curbox-app--curbox-android.json",
-  "sha256": "5f512d8956d6e10fde8f6e2615f80fc13016cbfcce4c4b88194126dd8bb43143"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "73a6d8b2d6762ba975671d95c4495bbb54d1e8b4231bb087be3048af7d344773"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1491,
+  "stars": 1602,
   "stars_por_mes": null
  },
  "nombre": "curbox-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b06520f4dc35018c184b65341fbc4ffe31b2eb08",
+  "commit": "ab7b9b26f20eeb1d1db667aca623ab903e54a16c",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b06520f4dc35018c184b65341fbc4ffe31b2eb08"
+  "swhid": "swh:1:rev:ab7b9b26f20eeb1d1db667aca623ab903e54a16c"
  },
  "repo": "curbox-app/curbox-android",
  "web": "https://curbox.app"

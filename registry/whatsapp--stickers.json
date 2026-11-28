@@ -8,18 +8,9 @@
  },
  "descripcion": "This repository contains the iOS and Android sample apps and API for creating third party sticker packs for WhatsApp.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/whatsapp--stickers.json",
-  "sha256": "34ea69c0443f93b457ff15cec15f8204c2d1aef37f8779093e1ce14877e8a356"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c08872344b12cb0b01d291186ea06ed225c5bf0963c4be0a175e9b13699fcbfe"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2923,
+  "stars": 2937,
   "stars_por_mes": null
  },
  "nombre": "stickers",

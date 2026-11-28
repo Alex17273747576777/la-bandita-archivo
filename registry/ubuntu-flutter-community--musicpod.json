@@ -4,22 +4,13 @@
   "release_en": "2024-02-06",
   "semantica_http": 200,
   "ultima_release": "1.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "Music, radio, television and podcast player for Ubuntu, MacOs and maybe soon Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ubuntu-flutter-community--musicpod.json",
-  "sha256": "3dfa4201a55a952b00f4c750cc32280a2041c138647f53451e728d68ae01db85"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "21e14790d26f9036193157cb316287bcf54b045bf14d5c2f6584619a49f57349"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 674,
+  "stars": 673,
   "stars_por_mes": null
  },
  "nombre": "musicpod",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a746b724d6fb2f0aed5c9dd8d1b96e9982f10ffe",
+  "commit": "0aae5620e0faa88992cad3586c82c3d291af1d9d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a746b724d6fb2f0aed5c9dd8d1b96e9982f10ffe"
+  "swhid": "swh:1:rev:0aae5620e0faa88992cad3586c82c3d291af1d9d"
  },
  "repo": "ubuntu-flutter-community/musicpod"
 }

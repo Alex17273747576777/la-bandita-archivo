@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-11-03T03:32:40Z",
-   "oid": "6c5fe1bf2355036e5772984bb735fa9b31cb5d3f"
+   "committedDate": "2026-11-26T21:54:27Z",
+   "oid": "84e31a61fda3d7b44c0be5be78135be16f1b56e0"
   }
  },
- "diskUsage": 79234,
+ "diskUsage": 78789,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Apache-2.0"
  },
  "nameWithOwner": "meika99/AniZen",
- "pushedAt": "2026-11-03T03:32:41Z",
+ "pushedAt": "2026-11-26T21:54:29Z",
  "releases": {
   "nodes": []
  },

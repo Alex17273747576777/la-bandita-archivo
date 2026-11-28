@@ -8,18 +8,9 @@
  },
  "descripcion": "📸 雨晴截屏 — Silent Screenshot & Screen Recorder via Shizuku shell · Rainy Family",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/catmiaozhi--rainyscreenshot.json",
-  "sha256": "1ec34e595152899e80e1a68babd535341ff54c1256d2173ba9571c8da3d5364e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "04ff132b0c4eeebabca9713172634a5c0867f1afbdb7a6c6fb743a41f0777e95"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 11,
+  "stars": 13,
   "stars_por_mes": null
  },
  "nombre": "RainyScreenShot",

@@ -8,18 +8,9 @@
  },
  "descripcion": "An Android application blocker powered by Shizuku, featuring automatic blacklist enforcement and app management without requiring root.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yusif7595-afk--shizuku-app-blocker.json",
-  "sha256": "73567ebf0aac8d62f46bb74f036aef0b5c797c34163f8f39852dcfa4cb04c6bc"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3ca2ff1f5ccf6173660cd1122b02126aad13bf7ff1a1d64c4ff81134871724d4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

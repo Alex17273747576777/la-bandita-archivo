@@ -4,22 +4,13 @@
   "release_en": "2026-10-04",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/nyancat-labs--whisper_feed.json",
-  "sha256": "3db3c7b27e637534cad512ee18c7c4faa0171133ba74e72fcd7b52deb8f660cd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fdd062aaa7fe1e88465c6deb5a1fd9fffd6aa71f0fc380f3ea809c4101e69fe4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7,
+  "stars": 12,
   "stars_por_mes": null
  },
  "nombre": "whisper_feed",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "56c927df888187423ff6062fbb7426d2d00d993e",
+  "commit": "e418eda396556c7c729a63df60e7223d9e58f941",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:56c927df888187423ff6062fbb7426d2d00d993e"
+  "swhid": "swh:1:rev:e418eda396556c7c729a63df60e7223d9e58f941"
  },
  "repo": "Nyancat-Labs/whisper_feed",
  "web": "https://play.google.com/store/apps/details?id=com.nyancatlabs.whisper"

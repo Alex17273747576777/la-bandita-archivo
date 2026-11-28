@@ -8,18 +8,9 @@
  },
  "descripcion": "Port of Now Playing from Pixels to other Android devices",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kieronquinn--ambientmusicmod.json",
-  "sha256": "b6c2f54189903470501f5b6f9f0557609e09d87dc5c5e12b562ff66d6883e232"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "061b8992f0f5981c57f98481bc8078488f5f91cc59dd214ee1ca79dd8c422466"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2527,
+  "stars": 2539,
   "stars_por_mes": null
  },
  "nombre": "AmbientMusicMod",

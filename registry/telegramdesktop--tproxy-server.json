@@ -8,18 +8,9 @@
  },
  "descripcion": "Proof-of-concept WEB proxy server for Telegram",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/telegramdesktop--tproxy-server.json",
-  "sha256": "79e45c793f78501e4636bc268503e7762778ae6676f8a8b423c3428db7010d7f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "74368ca475949f13b0051cfd479a17edca5a0cb8744118caced1771cf8368518"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": "mit",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 442,
+  "stars": 480,
   "stars_por_mes": null
  },
  "nombre": "tproxy-server",

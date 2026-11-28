@@ -8,18 +8,9 @@
  },
  "descripcion": "Kotlin 编写的开源 Android 文件管理器",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/artzhu86--zhufiler.json",
-  "sha256": "9337b6c2934719d59ae1b5d210a94ae3007b8a12d433ca308a23d75b8e918049"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "10fa3f66a86754c47552dff293875d56aee87223c2546e08f9edfbf40e5619dd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 29,
+  "stars": 28,
   "stars_por_mes": null
  },
  "nombre": "ZhuFiler",

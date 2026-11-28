@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-06-17T01:40:51Z",
-   "oid": "7b1170d1da1e36bc9f553f51e76e64cbfd652b3e"
+   "committedDate": "2026-11-18T09:06:40Z",
+   "oid": "c799c8552b0f27b7a33a7b9233773da144dddcf5"
   }
  },
- "diskUsage": 28605,
+ "diskUsage": 34100,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "NOASSERTION"
  },
  "nameWithOwner": "Baozhi888/mcp-servers",
- "pushedAt": "2026-06-27T13:26:21Z",
+ "pushedAt": "2026-11-26T02:50:09Z",
  "releases": {
   "nodes": []
  },

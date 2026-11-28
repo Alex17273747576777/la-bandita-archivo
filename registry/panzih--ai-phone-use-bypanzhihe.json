@@ -4,22 +4,13 @@
   "release_en": "2026-09-14",
   "semantica_http": 200,
   "ultima_release": "Beta",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "AI操作手机by潘纸盒",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/panzih--ai-phone-use-bypanzhihe.json",
-  "sha256": "f93aa854ee6bc9b0cfbfb6fe33db13880daa01171743432f30e085c03dfa5420"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "66692f6c1c5e0fdf862487c0e4db5caf1b86f22786c5c5aa1fe9376864015e05"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 5,
   "stars_por_mes": null
  },
  "nombre": "AI-phone-use-bypanzhihe",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1250ba77171b5c8b74f8e6c78e466f89c4abe381",
+  "commit": "02681e65b4c2a25523a52242f69ccdb31f595ed2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1250ba77171b5c8b74f8e6c78e466f89c4abe381"
+  "swhid": "swh:1:rev:02681e65b4c2a25523a52242f69ccdb31f595ed2"
  },
  "repo": "panzih/AI-phone-use-bypanzhihe"
 }

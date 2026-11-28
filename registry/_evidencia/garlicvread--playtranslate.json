@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-05-14T15:28:52Z",
-   "oid": "277cc41de6c45d5b17dcafed385f8b0cbbdccdf2"
+   "committedDate": "2026-11-12T20:49:31Z",
+   "oid": "343c74f1a9e6918e1b7382bd11bb193357656741"
   }
  },
- "diskUsage": 53050,
+ "diskUsage": 86513,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "GPL-3.0"
  },
  "nameWithOwner": "garlicvread/playtranslate",
- "pushedAt": "2026-05-14T15:36:04Z",
+ "pushedAt": "2026-11-15T01:24:51Z",
  "releases": {
   "nodes": []
  },

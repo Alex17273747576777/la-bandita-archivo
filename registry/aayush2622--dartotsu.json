@@ -4,22 +4,13 @@
   "release_en": "2025-02-22",
   "semantica_http": 200,
   "ultima_release": "v0.0.1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A multiplatform tracking client based on Dantotsu",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aayush2622--dartotsu.json",
-  "sha256": "3e134fef87afb16122e80b74c37dd54bd74902b04baeae76c183ca6b2483db9f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "38cd99ac449a9348cc3688c4c8c951260ba9b70168fbe386a9c41b99f6e280c7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE.md",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 550,
+  "stars": 576,
   "stars_por_mes": null
  },
  "nombre": "Dartotsu",
@@ -49,10 +40,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "92df5660c7ac0d3f3fd0637d99fcbfd867c70ce4",
+  "commit": "9f2c95651fe9b851cc3ea21e47c82e847da6b3de",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:92df5660c7ac0d3f3fd0637d99fcbfd867c70ce4"
+  "swhid": "swh:1:rev:9f2c95651fe9b851cc3ea21e47c82e847da6b3de"
  },
  "repo": "aayush2622/Dartotsu"
 }

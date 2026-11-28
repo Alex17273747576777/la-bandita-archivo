@@ -8,18 +8,9 @@
  },
  "descripcion": "Grant MacroDroid adb permissions & install the official Helper on the phone via Wireless debugging - no PC. / 무선 디버깅으로 PC 없이 MacroDroid adb 권한 주기",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/chamr94--md-helper-adb.json",
-  "sha256": "c54d255a2314af07f1b84ac0fb1f60ee78d12a74a8503b26a85ea7c321df614e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c5a25bcdd8d9c4eabeb9fc1ff118ec294a6058a9d792402874d84f9453668d94"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

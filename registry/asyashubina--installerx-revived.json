@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-06",
+  "release_en": "2026-11-12",
   "semantica_http": 200,
-  "ultima_release": "26.10.0f13c2d",
-  "ultimo_push": "2026-10-20"
+  "ultima_release": "26.11.d00c6b6",
+  "ultimo_push": "2026-11-12"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/asyashubina--installerx-revived.json",
-  "sha256": "493407193e502c49bfc4e9b706335c2401d66b1065488d47feb2afe12d454283"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "afc788e56ec02c9ef01f906005a2166145bd76ae492d657f2fdcf5950b027338"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3fb235a16995c4ca546957c7e760355453b70b55",
+  "commit": "d00c6b62da0131dbbe997574374b953ec7669810",
   "swh_estado": null,
-  "swhid": "swh:1:rev:3fb235a16995c4ca546957c7e760355453b70b55"
+  "swhid": "swh:1:rev:d00c6b62da0131dbbe997574374b953ec7669810"
  },
  "repo": "AsyaShubina/InstallerX-Revived"
 }

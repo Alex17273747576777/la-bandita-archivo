@@ -8,18 +8,9 @@
  },
  "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/steven-ahfu--web-to-app.json",
-  "sha256": "0e13be79733f7e87ab9b9a46372ef07f68e2ffebd56ca40db2e5fea3e64c3f70"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4f302fbf42c37f66cfb8606a2afc4aa0a0ddda756316b2b7a6ed5bc7ca1f7e08"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Unlicense",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

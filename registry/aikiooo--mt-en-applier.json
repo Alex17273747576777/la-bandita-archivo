@@ -4,22 +4,13 @@
   "release_en": "2026-07-30",
   "semantica_http": 200,
   "ultima_release": "patch-latest",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "One-tap unofficial English patch installer for Mushoku Tensei mobile (Shizuku, no root)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aikiooo--mt-en-applier.json",
-  "sha256": "e664f7b91f610cf270fd7deeb525d68b6e466d407a4e49c1bf113d73e610fa4b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "12f32bdbbdc20c83d0c99b6a04a8b54809f1878c03abef9cd3d3bd0123095a32"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1086d12c4f537b682549eb7a873c2a51e0b098f9",
+  "commit": "20d6dd44c3c938e9e358df2c76efda6d4c3dafec",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1086d12c4f537b682549eb7a873c2a51e0b098f9"
+  "swhid": "swh:1:rev:20d6dd44c3c938e9e358df2c76efda6d4c3dafec"
  },
  "repo": "Aikiooo/mt-en-applier"
 }

@@ -4,22 +4,13 @@
   "release_en": "2023-07-02",
   "semantica_http": 200,
   "ultima_release": "1.1.5",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "An advanced, open-source client for WireGuard and AmneziaWG on Android.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/wgtunnel--android.json",
-  "sha256": "368b228605c99f53e4cd3751912cc59f1bf56817798417d736eab74a84cebe7a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3c4cb569c00f7763cc783a69d43b2ffe0939cbd42aad1492d7ada9be5d164d54"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3326,
+  "stars": 3400,
   "stars_por_mes": null
  },
  "nombre": "android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9daa19397c2c1e96bdbc6aac7e0551017237f0b8",
+  "commit": "9118fc5705312b4a79e28c9da0d98121c888c713",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9daa19397c2c1e96bdbc6aac7e0551017237f0b8"
+  "swhid": "swh:1:rev:9118fc5705312b4a79e28c9da0d98121c888c713"
  },
  "repo": "wgtunnel/android",
  "web": "https://wgtunnel.com"

@@ -4,22 +4,13 @@
   "release_en": "2026-07-25",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "A free, open-source Android music player for YouTube Music with an iOS-style Liquid Glass interface, synced lyrics, Automix and Listen Together.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/cosmictaserdev-creator--convx.json",
-  "sha256": "bbdf636871b827f3a63f39f034442683849b3a0be14caa18f8f01f549c0a5dcb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "26e2f3483c4a5dffd19ac7211e7e701517c0bed7fd97dcd240ae25efc5b2836d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1157,
+  "stars": 1516,
   "stars_por_mes": null
  },
  "nombre": "Convx",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "55b11a2cc6f31104a05bd684b0adc5accad90c37",
+  "commit": "f3dd4f71d603f8eb5828696fa7bab18c6172fb55",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:55b11a2cc6f31104a05bd684b0adc5accad90c37"
+  "swhid": "swh:1:rev:f3dd4f71d603f8eb5828696fa7bab18c6172fb55"
  },
  "repo": "cosmictaserdev-creator/Convx",
  "web": "https://cosmictaser.de5.net"

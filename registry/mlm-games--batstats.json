@@ -4,22 +4,13 @@
   "release_en": "2025-09-27",
   "semantica_http": 200,
   "ultima_release": "3.2.7",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Battery monitor with stats via Shizuku/root",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mlm-games--batstats.json",
-  "sha256": "4d80757d7fc3a05eafd2f58e52d0d2ffb97445244f06285ed9d08c58c510fef2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3eb5a76a60989c2ee279806f14b8c69f5850a459cbe8b3fd7bcb7ab803ac0d5d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 235,
+  "stars": 245,
   "stars_por_mes": null
  },
  "nombre": "BatStats",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "19a4d8782c109246f3d20d8c723454e884bab0b1",
+  "commit": "e3226679f72a1f0240c70b0c27f9b2409ab8d10c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:19a4d8782c109246f3d20d8c723454e884bab0b1"
+  "swhid": "swh:1:rev:e3226679f72a1f0240c70b0c27f9b2409ab8d10c"
  },
  "repo": "mlm-games/BatStats"
 }

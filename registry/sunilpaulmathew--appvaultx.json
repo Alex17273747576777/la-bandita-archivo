@@ -4,22 +4,13 @@
   "release_en": "2025-10-19",
   "semantica_http": 200,
   "ultima_release": "beta-v0.1",
-  "ultimo_push": "2026-05-19"
+  "ultimo_push": "2026-11-06"
  },
  "descripcion": "Source code of AppVaultX, a high-performance app management powered by Shizuku",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sunilpaulmathew--appvaultx.json",
-  "sha256": "cbc824cd949e10047430406c624aa60261af0bfe5afa461b7c7852fcc68d8fe4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7be479d734a23eaf8437e050ad09f4208c6af3c8e7a95d813b195850e49b2b6c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 156,
+  "stars": 164,
   "stars_por_mes": null
  },
  "nombre": "AppVaultX",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "99ce7ff583c96fa0d3034b9873538acace42d7ec",
+  "commit": "7aa8109af1a45da734f2bd7f56d371937af84d30",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:99ce7ff583c96fa0d3034b9873538acace42d7ec"
+  "swhid": "swh:1:rev:7aa8109af1a45da734f2bd7f56d371937af84d30"
  },
  "repo": "sunilpaulmathew/AppVaultX"
 }

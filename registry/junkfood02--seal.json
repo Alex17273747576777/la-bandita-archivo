@@ -4,22 +4,13 @@
   "release_en": "2022-04-22",
   "semantica_http": 200,
   "ultima_release": "v0.0.3",
-  "ultimo_push": "2026-09-25"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "🦭 Video/Audio Downloader for Android, based on yt-dlp",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/junkfood02--seal.json",
-  "sha256": "00cb4668864e06caf9628a26efa1a6ee0f4f752b15ff39621cb7b3eb928209be"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "958f989996136bdf63f6845260cb452089c4484cca8b3fcbd2bc1b440ae8104d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,23 +25,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 30298,
+  "stars": 31095,
   "stars_por_mes": null
  },
  "nombre": "Seal",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7677f61a20fda4210e84215fef9e9b51d25daa47",
+  "commit": "5a4f5fb920e668424b4ffffa321d36f269c2e019",
   "swh_estado": "archivada",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:7677f61a20fda4210e84215fef9e9b51d25daa47"
+  "swhid": "swh:1:rev:5a4f5fb920e668424b4ffffa321d36f269c2e019"
  },
  "repo": "JunkFood02/Seal"
 }

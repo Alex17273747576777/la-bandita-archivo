@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
+  "estado": "dormido",
   "release_en": null,
-  "semantica_http": 404,
+  "semantica_http": 200,
   "ultima_release": null,
   "ultimo_push": "2025-12-15"
  },
  "descripcion": "Use the bl_sbx exploit to hide the call-recording notification sound on iOS",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yangjiiii--disable-call-recording-bookrestore.json",
-  "sha256": "b79cc816bdd52bc510ef05c40923a5f72fd24308c44debc0776b290363c931b6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "706318e9e2a14bb49213c377d0d1c824f8ca36377ae14d4e2082e908e19d3354"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 322,
   "stars_por_mes": null
  },
  "nombre": "Disable-Call-Recording-BookRestore-",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "199236305cb5e31eab0a49f152c71601f3f72e00",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:199236305cb5e31eab0a49f152c71601f3f72e00"
  },
  "repo": "YangJiiii/Disable-Call-Recording-BookRestore-"
 }

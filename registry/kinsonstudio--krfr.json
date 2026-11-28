@@ -4,22 +4,13 @@
   "release_en": "2026-10-15",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-18"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kinsonstudio--krfr.json",
-  "sha256": "7cf4d00298b2f91376c354fcf2fe101ac38295159c0a351c28435eed89235384"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d95d93d16f42280a63daf165224674bfc290ad245d7d03a64d55dfc5266e4843"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 3,
   "stars_por_mes": null
  },
  "nombre": "krfr",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "15486efa03195df8908c92c8c1fce74fb22335a6",
+  "commit": "5fbfeeacbd6e5df28156cf623ad11b34c61d7f4f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:15486efa03195df8908c92c8c1fce74fb22335a6"
+  "swhid": "swh:1:rev:5fbfeeacbd6e5df28156cf623ad11b34c61d7f4f"
  },
  "repo": "kinsonstudio/krfr"
 }

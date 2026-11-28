@@ -4,22 +4,13 @@
   "release_en": "2026-07-29",
   "semantica_http": 200,
   "ultima_release": "0.7.14-1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "The Swiss Army knife of OpenWrt networking — sing-box proxy, DPI bypass, Telegram control, atomic self-healing, and per-device routing — all managed from a single Web UI",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dushnilin--tachyon.json",
-  "sha256": "ae88425c2decffa942b4168029ba9c7de7087ca61bfc6768b52d6ac27f4bd95b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "faaef6785eb3c8c2f7585ec5d62557a63abb4c75ad10f345fc19e5cb02ea0974"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 543,
+  "stars": 705,
   "stars_por_mes": null
  },
  "nombre": "tachyon",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "64c8e29ee7ba852e075095441a92bbeab3e35332",
+  "commit": "36ee6c9f4ecbe5b7e5c4549ee562eba59e7e3a62",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:64c8e29ee7ba852e075095441a92bbeab3e35332"
+  "swhid": "swh:1:rev:36ee6c9f4ecbe5b7e5c4549ee562eba59e7e3a62"
  },
  "repo": "Dushnilin/tachyon"
 }

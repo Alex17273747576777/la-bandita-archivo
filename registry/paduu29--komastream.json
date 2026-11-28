@@ -4,22 +4,13 @@
   "release_en": "2026-04-19",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-10-26"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Manga reader app",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/paduu29--komastream.json",
-  "sha256": "fae49e91afef07bdf00b6f22582dc2d55efb049ac4a257a0593ea10ce48d0760"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4f1bfa206b67f307b736ccad77aadccc93bffa68c26310f03f1d075a0c38032f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15,
+  "stars": 16,
   "stars_por_mes": null
  },
  "nombre": "KomaStream",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "60ade9348f869a6289ec7d9bba96b62a766f29f8",
+  "commit": "a1509bd839eb6382d6a5dc3451742428ee84c3bf",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:60ade9348f869a6289ec7d9bba96b62a766f29f8"
+  "swhid": "swh:1:rev:a1509bd839eb6382d6a5dc3451742428ee84c3bf"
  },
  "repo": "Paduu29/KomaStream"
 }

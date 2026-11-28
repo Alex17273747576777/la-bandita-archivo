@@ -4,22 +4,13 @@
   "release_en": "2026-10-29",
   "semantica_http": 200,
   "ultima_release": "apk-latest",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "Easy to download and play",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ivndrsttv--mobile-game.json",
-  "sha256": "fb7b599426a249aeda10114969def7cf5aa6991c3d6737bb4dc9674da81238d6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c1aec29cf1585db39aa91b769e8b10f13f58a18f2b5544bcbc7aa7a7a60062c0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5bc6b550d6153031446562f051d8f12285fa050d",
+  "commit": "ff164b1893a4713ce78bca02ef96f9a135d33207",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5bc6b550d6153031446562f051d8f12285fa050d"
+  "swhid": "swh:1:rev:ff164b1893a4713ce78bca02ef96f9a135d33207"
  },
  "repo": "ivndrsTTV/Mobile-game"
 }

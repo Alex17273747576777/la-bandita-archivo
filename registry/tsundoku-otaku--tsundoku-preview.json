@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-06-10",
+  "release_en": "2026-06-18",
   "semantica_http": 200,
-  "ultima_release": "r7866",
-  "ultimo_push": "2026-10-22"
+  "ultima_release": "r7914",
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Preview Release Hosting",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tsundoku-otaku--tsundoku-preview.json",
-  "sha256": "ad77d5aa857e250e7335db70a20da15638654359390514c9c30d006bc291addb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "953065c43701fa1dc19809b8bfcb008ac19b09eeae7e4c2281553a2550d618c7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15,
+  "stars": 16,
   "stars_por_mes": null
  },
  "nombre": "tsundoku-preview",

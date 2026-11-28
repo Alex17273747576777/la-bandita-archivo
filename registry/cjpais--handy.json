@@ -4,22 +4,13 @@
   "release_en": "2025-06-16",
   "semantica_http": 200,
   "ultima_release": "0.1.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A free, open source, and extensible speech-to-text application that works completely offline.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/cjpais--handy.json",
-  "sha256": "950697ac77681fcfb68cdd16e3237ed2d956a6f6ae44272ec5af79b3545d7b6d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0fbaf1af8a4363433af74848fbfb828b422a2d37074508519f908b4bf6a09b79"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 37267,
+  "stars": 40518,
   "stars_por_mes": null
  },
  "nombre": "Handy",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "82dfab9fda18c4bc24e1f6e56d36474d38eca0bc",
+  "commit": "e95d488805ed95268f5f0e7482b806c4d9851d51",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:82dfab9fda18c4bc24e1f6e56d36474d38eca0bc"
+  "swhid": "swh:1:rev:e95d488805ed95268f5f0e7482b806c4d9851d51"
  },
  "repo": "cjpais/Handy",
  "web": "https://handy.computer"

@@ -4,22 +4,13 @@
   "release_en": "2026-02-26",
   "semantica_http": 200,
   "ultima_release": "v13.6.0.r1343-shizukuplus",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Shizuku+ brings Root/ADB/Dhizuku unification, a Plus API suite, OneUI/Android 16+ support, M3E theming, TCP connectivity, improved customization, & more.",
  "evidencia": {
-  "nota": "ficha creada el 3-nov-2026 al medir los herederos de Shizuku para la pieza 04",
-  "payload_ref": "consulta GraphQL del 2026-11-03 sobre thejaustin/ShizukuPlus",
-  "sha256": "8663ee3368be1d190289d0e6694e134c2164782ee7bf4bd757e2fe1d30ca9b31"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/thejaustin--shizukuplus.json",
+  "sha256": "d0937dcc5adec631674729c7dabbfeb235ed69174d8aac9796ca53af4f343a3a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,13 +24,13 @@
   "metodo": "spdx-api",
   "nota": "certificada además contra el texto del archivo LICENSE en la medición de la pieza 04",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1678,
+  "stars": 1917,
   "stars_por_mes": null
  },
  "nombre": "ShizukuPlus",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "a2b0077733134fe84c262f4afed176a3d5024df5",
+  "commit": "bb7a0fb9fe51e91b36d6ca3f0710cf3f1b59402f",
   "swh_estado": "archivada",
   "swh_solicitud": "a2b0077733134fe84c262f4afed176a3d5024df5",
-  "swhid": "swh:1:rev:a2b0077733134fe84c262f4afed176a3d5024df5"
+  "swhid": "swh:1:rev:bb7a0fb9fe51e91b36d6ca3f0710cf3f1b59402f"
  },
  "repo": "thejaustin/ShizukuPlus"
 }

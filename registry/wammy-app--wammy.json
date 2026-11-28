@@ -4,22 +4,13 @@
   "release_en": "2026-09-29",
   "semantica_http": 200,
   "ultima_release": "v0.0.9",
-  "ultimo_push": "2026-10-25"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "Free open source manga and novel reader for android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/wammy-app--wammy.json",
-  "sha256": "8cf6f6cdb072289a549a11a07b745e8f25e591268c1f26e55b3f05c8b98e6ef5"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a1ee2942393092a6772649c2816d35ddbf3dc4aa276611e92fe5e1ca658db46b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13,
+  "stars": 19,
   "stars_por_mes": null
  },
  "nombre": "Wammy",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "8f2c76f13f4b7e8017f637699f352027d668c8fc",
+  "commit": "3f77a20d5c34aca6d1c5a4f4881f7dde3c1a195d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:8f2c76f13f4b7e8017f637699f352027d668c8fc"
+  "swhid": "swh:1:rev:3f77a20d5c34aca6d1c5a4f4881f7dde3c1a195d"
  },
  "repo": "Wammy-app/Wammy",
  "web": "https://kainotch.github.io/WammyWeb"

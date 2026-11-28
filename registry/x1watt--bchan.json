@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
+  "estado": "vivo",
+  "release_en": "2026-06-19",
+  "semantica_http": 200,
+  "ultima_release": "v1.12.1",
   "ultimo_push": "2026-10-05"
  },
  "descripcion": "Free and open-source manga & comic reader for Android — a streamlined fork of TachiyomiSY/Mihon",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/x1watt--bchan.json",
-  "sha256": "79116efe15705a961f5d4c9f26629487d1244980509884f93e3dd3817363df81"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "49abb49aad9a714d4d024cfe8a652776c0d6d4863c93560b2762f7a5c5e48a0d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 8,
   "stars_por_mes": null
  },
  "nombre": "bchan",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "47bd96558d3eeeec31cd22365ede905d570d5f7a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:47bd96558d3eeeec31cd22365ede905d570d5f7a"
  },
  "repo": "x1watt/bchan"
 }

@@ -8,18 +8,9 @@
  },
  "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zyssglobal-max--web-to-app.json",
-  "sha256": "fa03e67256e876774ff0f836fb39dbf54a1a7b3ad74c426de2f9a44639133fff"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0b2ce12fe0d54ba1407d0d0b56f5272bfb5e162d1fe89798cd1ae3f0e30945ce"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Unlicense",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

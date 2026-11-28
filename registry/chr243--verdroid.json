@@ -4,22 +4,13 @@
   "release_en": "2026-10-04",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-09"
  },
  "descripcion": "On-device AI agent for Android, tuned for free OpenRouter/Kilo models with automatic model/key fallback and rate-limit recovery. Tools: web search/fetch over HTTP, bash/Python in Termux (optional headless Chromium + Selenium), Shizuku/rish shell, Accessibility, ebook translation, Documents/Verdroid, Git, crypto market data. No backend.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/chr243--verdroid.json",
-  "sha256": "39d8bd2592ee309b65e62bf2c65f601f708dfbbb459dafaf7564eaa3edeb39dc"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3d0278b014c9819f5c205d8c453b9b67e22f167f13f3357ba464b3814299fca1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 30,
+  "stars": 44,
   "stars_por_mes": null
  },
  "nombre": "Verdroid",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6804968ea1af55c44113440bf3f1fd32161f6a78",
+  "commit": "441f7fc4865d00855874e8882c241b4f4bd7bd7f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:6804968ea1af55c44113440bf3f1fd32161f6a78"
+  "swhid": "swh:1:rev:441f7fc4865d00855874e8882c241b4f4bd7bd7f"
  },
  "repo": "chr243/Verdroid"
 }

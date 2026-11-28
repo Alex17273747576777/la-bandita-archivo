@@ -8,18 +8,9 @@
  },
  "descripcion": "Stream anime and synchronize with your MyAnimeList(MAL) + SIMKL + Anilist on iOS and Android devices",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/michael24884--taiyakianime.json",
-  "sha256": "9cef741f25dfb22959305169461c778ea18a51a1214c33e7d82683b57e20dcb9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e4f72307a6595902f81ffd783474a8075e534bda8064a7024b646188d7a45e73"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 592,
+  "stars": 591,
   "stars_por_mes": null
  },
  "nombre": "TaiYaKiAnime",

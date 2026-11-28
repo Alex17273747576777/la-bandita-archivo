@@ -8,18 +8,9 @@
  },
  "descripcion": "Unofficial DisplayLink dock-mode companion for the Retroid Pocket Classic. Widescreen profiles, frontend launch, and handheld recovery.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/gevky--classic-dockmode.json",
-  "sha256": "2faabf9175c9bc2ff2734644331036dd139362417f81bb23610ea3fe3ff66517"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6e777087995ed3d82304e95eb537fa4a792abfa63e7964e703b1eb3f81ba702e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

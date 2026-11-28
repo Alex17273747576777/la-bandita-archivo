@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-27",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-11-26T08:22:43Z",
+   "oid": "3a72cf4db339a034eb358baf2289112b742d698f"
+  }
+ },
+ "diskUsage": 20686,
+ "forkCount": 122,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 22
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "man15h/tellyscope",
+ "pushedAt": "2026-11-26T08:22:44Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": true,
+    "publishedAt": "2026-10-22T23:58:20Z",
+    "tagName": "alpha"
+   }
+  ]
+ },
+ "stargazerCount": 2308
+}

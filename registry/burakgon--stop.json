@@ -8,18 +8,9 @@
  },
  "descripcion": "Background app blocker for Android. The apps you pick run only while you use them: leave one and it's force-stopped, with no background sync, alarms or push wake-ups. No root, works through Shizuku. Asks about every new install, and Play Store updates keep working.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/burakgon--stop.json",
-  "sha256": "4a1516ea2bba809190b957b41073fd38ba3355b1808fd3b1a8c99db8dcb02471"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f69ec2d5ca176d9662a4a7bc9ec808f1e800eccf1a380347bb9e123d2f8f9487"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 10,
+  "stars": 33,
   "stars_por_mes": null
  },
  "nombre": "stop",

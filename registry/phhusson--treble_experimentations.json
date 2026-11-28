@@ -8,18 +8,9 @@
  },
  "descripcion": "Notes about tinkering with Android Project Treble",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/phhusson--treble_experimentations.json",
-  "sha256": "ed7574bbcf266f67e24e5a7a62833e46f8ca910e86cd736ac27c0c29b7c27154"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9c1821aa5d88bd786eeedeb6d54149bd811d8d8fc3aef17b195902900fb79499"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3553,
+  "stars": 3556,
   "stars_por_mes": null
  },
  "nombre": "treble_experimentations",

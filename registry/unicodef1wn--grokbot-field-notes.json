@@ -8,18 +8,9 @@
  },
  "descripcion": "Rules, playbooks, bot roles and a failure log from the xAI Grok Bot team's 72-hour live build. Drop AGENTS.md into your repo and go.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/unicodef1wn--grokbot-field-notes.json",
-  "sha256": "b87fb55b7e1ce3ddc3fc3d5e0cb6bcc18d34b0558ba96809420008703df71c2d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "313e47f3c58731cbe2036431f310f07172bcbf6fa4d178bacfec029491b3e11d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 662,
+  "stars": 730,
   "stars_por_mes": null
  },
  "nombre": "grokbot-field-notes",

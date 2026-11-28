@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "dormido",
+  "estado": "vivo",
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-02-14"
+  "ultimo_push": "2026-11-09"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jtayobong--mihon.json",
-  "sha256": "3903f02749417548d4839a38cc0a248c244d638e34517917c12b56f40c1f37ed"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "94b0aae68b4e288b3523c47004790f05852c9788f135d219db22f1857a1bc93b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d17976c91068944be1a5cba9a959c3763f589590",
+  "commit": "7eec566d9cb61ca80f7abb5c5f8f826b13123a9a",
   "swh_estado": null,
-  "swhid": "swh:1:rev:d17976c91068944be1a5cba9a959c3763f589590"
+  "swhid": "swh:1:rev:7eec566d9cb61ca80f7abb5c5f8f826b13123a9a"
  },
  "repo": "jtayobong/mihon"
 }

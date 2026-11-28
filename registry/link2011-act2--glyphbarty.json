@@ -4,22 +4,13 @@
   "release_en": "2026-05-12",
   "semantica_http": 200,
   "ultima_release": "v1.0.0-Release",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-10"
  },
  "descripcion": "A customizable Glyph visualizer with support for a wide range of Nothing Phone models",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/link2011-act2--glyphbarty.json",
-  "sha256": "d4bce2e7be2128807f581c138ad69054c1281549e77cf1a17b8aac30472db515"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b079b82e1fd083e67fc8b62bc7b2b5b3550cb7e975676deb6ad71aaedd2e6b8a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 36,
+  "stars": 39,
   "stars_por_mes": null
  },
  "nombre": "GlyphBarty",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "cc1b285b07374ec79ec78ed01f027e504416491f",
+  "commit": "84e806c24263b255ccc88ea4131495da8b382967",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:cc1b285b07374ec79ec78ed01f027e504416491f"
+  "swhid": "swh:1:rev:84e806c24263b255ccc88ea4131495da8b382967"
  },
  "repo": "Link2011-Act2/GlyphBarty"
 }

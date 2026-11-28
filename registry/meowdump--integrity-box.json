@@ -4,22 +4,13 @@
   "release_en": "2025-05-26",
   "semantica_http": 200,
   "ultima_release": "v3",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A toolkit for managing Play Integrity & System Environment",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/meowdump--integrity-box.json",
-  "sha256": "d3234ea70790a206ea86913d42c4fe97745f8e1a15dee335f6cd87d6e8848af2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4ac37d81484795ef08e739cf3c3e2c4de704a4efc4046339a2dd6e9df2ef98ec"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2815,
+  "stars": 2875,
   "stars_por_mes": null
  },
  "nombre": "Integrity-Box",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a5e3154cd1773065415b46cd2896647f4c0bf2ab",
+  "commit": "4280caccc405aa451b3b7005183d367d1071a709",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a5e3154cd1773065415b46cd2896647f4c0bf2ab"
+  "swhid": "swh:1:rev:4280caccc405aa451b3b7005183d367d1071a709"
  },
  "repo": "MeowDump/Integrity-Box",
  "web": "https://meowblog.github.io/Articles/#play-integrity"

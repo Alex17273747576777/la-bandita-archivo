@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-06-26",
+  "release_en": "2026-11-22",
   "semantica_http": 200,
-  "ultima_release": "26.06.461ba71",
-  "ultimo_push": "2026-10-26"
+  "ultima_release": "26.11",
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "More Expressive InstallerX ! With Personal Modify",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/srythm--installerx-revived.json",
-  "sha256": "1490049f69322ef1407b034225339e2a7447849304e7e2c79df75470668cf1b3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2f0f39830c482375ff7036dffcb1bcf1d9c98eefe980c8466d8b51ff23be0d51"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "52615aa73343e744611c358df1e904a01241fbd5",
+  "commit": "954941e8f6f9333b0b71d66918928c7de87211c4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:52615aa73343e744611c358df1e904a01241fbd5"
+  "swhid": "swh:1:rev:954941e8f6f9333b0b71d66918928c7de87211c4"
  },
  "repo": "Srythm/InstallerX-Revived",
  "web": "https://wxxsfxyzm.github.io/InstallerX-Revived-Website"

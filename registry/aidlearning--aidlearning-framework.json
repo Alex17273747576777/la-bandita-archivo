@@ -8,18 +8,9 @@
  },
  "descripcion": "🔥🔥🔥AidLearning is a powerful AIOT development platform, AidLearning builds a linux env supporting GUI, deep learning and visual IDE on Android...Now Aid supports CPU+GPU+NPU for inference with high performance acceleration...Linux on Android or HarmonyOS ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aidlearning--aidlearning-framework.json",
-  "sha256": "253716d4c2486e175e9c8309ac104d5890758a42713bfffe2e5d3816c0296f48"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a830202e07e37e480c0a86d39fbf57dc18f71955c4b4d81c09ac86ce8a8c9d85"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "license.md",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5822,
+  "stars": 5821,
   "stars_por_mes": null
  },
  "nombre": "AidLearning-FrameWork",

@@ -8,18 +8,9 @@
  },
  "descripcion": "Android 安全防护工具，基于 Shizuku ，提供进程监控、窗口拦截、主动与被动防护 恶意应用检测等防护能力，AGPL-3.0 开源，仅用于安全学习研究",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/z83208477-boop--secureguard-app.json",
-  "sha256": "854193763fd5841bbc4534bff853fdc870cd61c26807a7b31c3972424d6482cc"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "af118f63e7c49b8ef25c8b8c6de574fe507ca6c5bc5914339f973f092df96700"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

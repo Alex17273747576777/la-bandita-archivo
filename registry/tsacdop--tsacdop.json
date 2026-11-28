@@ -4,22 +4,13 @@
   "release_en": "2020-02-09",
   "semantica_http": 200,
   "ultima_release": "0.1.0",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-10"
  },
  "descripcion": "Enjoy podcasts with Tsacdop!  A podcast player built with flutter.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tsacdop--tsacdop.json",
-  "sha256": "147d541f172527e03b6a57bad0c96f3f268cffa130648eae2566ee73d7692a49"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2c0c0c829128762e989d10e6c9dc3ccf363f18c74cdd22d76a857dc6caed6179"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

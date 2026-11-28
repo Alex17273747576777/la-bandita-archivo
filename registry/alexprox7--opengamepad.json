@@ -4,22 +4,13 @@
   "release_en": "2026-10-22",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-22"
+  "ultimo_push": "2026-11-14"
  },
  "descripcion": "Turn your Android phone into a low-latency PC game controller: Wi-Fi, USB, Bluetooth, macros and radial menus, OLED power saving.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/alexprox7--opengamepad.json",
-  "sha256": "284d9ff576d653d8686267ac24d4ba0c055c3be212a1d976e0d3a7fa7ead8610"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a432de6857658e6cd79ab570dc4cdfa408abd2e3270248b71caf038d5b67036e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "OpenGamepad",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1c97b0fac124f66fcb7d4d499c4044006466366f",
+  "commit": "c8b2d549f4c4d6bc3a2f76c394532d024d8f9b86",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1c97b0fac124f66fcb7d4d499c4044006466366f"
+  "swhid": "swh:1:rev:c8b2d549f4c4d6bc3a2f76c394532d024d8f9b86"
  },
  "repo": "Alexprox7/OpenGamepad"
 }

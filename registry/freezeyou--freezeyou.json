@@ -4,22 +4,13 @@
   "release_en": "2017-09-22",
   "semantica_http": 200,
   "ultima_release": "V1.3",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "支持 ROOT、免 ROOT 与系统应用模式",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/freezeyou--freezeyou.json",
-  "sha256": "98fc5c03c89c58fb856e1e62ebefe638b30ead8a9b4cee6bdce00fdd6fd735f6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ac7b146bacf513589a85e145d2815ed496907bf91f835c84a1faa9388fea2666"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 273,
+  "stars": 275,
   "stars_por_mes": null
  },
  "nombre": "FreezeYou",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "72d31435c8fd337df8f4407afac191fe6ed21db7",
+  "commit": "a3678b70e10bd180091384415d36fc549a356af0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:72d31435c8fd337df8f4407afac191fe6ed21db7"
+  "swhid": "swh:1:rev:a3678b70e10bd180091384415d36fc549a356af0"
  },
  "repo": "FreezeYou/FreezeYou",
  "web": "https://www.zidon.net"

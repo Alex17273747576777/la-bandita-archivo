@@ -8,18 +8,9 @@
  },
  "descripcion": "First screen mirroring hub with support for sharing screen content over AirPlay, Moonlight/Sunshine, and DisplayLink",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jqssun--android-display-mirror.json",
-  "sha256": "49fbe1e9f3d5267b50b9f1a6da1e7115120bcdcd2cd0bbe3792b0f249459096a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "69227edd373732fd42f110b7b6cd5650f39427835a492ed73e3e08eeeaba2cc8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 230,
+  "stars": 249,
   "stars_por_mes": null
  },
  "nombre": "android-display-mirror",

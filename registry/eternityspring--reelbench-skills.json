@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-24"
+  "ultimo_push": "2026-11-09"
  },
  "descripcion": "Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/eternityspring--reelbench-skills.json",
-  "sha256": "a2a79901dfb1a289b7bc2a88df5239a9f49de3fa537d291eb5a17bbae7ea0f97"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3d11f90ec21150b2e82f1a1e1fa8291f16f19b43196caf781e115f39a99593cc"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1197,
+  "stars": 1261,
   "stars_por_mes": null
  },
  "nombre": "reelbench-skills",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "df39d5df9d7adc2f82acba5594579d60361a42c7",
+  "commit": "8d8444894524c9beedbf8815dab517afb3ce3cbe",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:df39d5df9d7adc2f82acba5594579d60361a42c7"
+  "swhid": "swh:1:rev:8d8444894524c9beedbf8815dab517afb3ce3cbe"
  },
  "repo": "eternityspring/reelbench-skills"
 }

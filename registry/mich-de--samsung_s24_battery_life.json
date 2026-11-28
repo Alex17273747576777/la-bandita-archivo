@@ -8,18 +8,9 @@
  },
  "descripcion": "Advanced power calibration and energy tuning utilities for the Samsung Galaxy S24 series",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mich-de--samsung_s24_battery_life.json",
-  "sha256": "72b02981893fe26e377018fc8b4b9e8e4c6ab556d1c188ad1a90d2aa2673de68"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "82e3ca60bf0c2d31be48d1b5c5ec7b1836238dadde8259d8dd7214ee6705f796"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

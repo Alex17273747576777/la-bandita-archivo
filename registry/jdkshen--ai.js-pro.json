@@ -4,22 +4,13 @@
   "release_en": "2026-10-03",
   "semantica_http": 200,
   "ultima_release": "dev-781",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jdkshen--ai.js-pro.json",
-  "sha256": "e550eef750e7047232c2c9fec0868c6aa890c10683dfe808d831223815db72b1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d7b552b2c09260b777c3d0b5bc97c93433d695edb6315379917251d42daaa084"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE.md",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4,
+  "stars": 7,
   "stars_por_mes": null
  },
  "nombre": "ai.js-pro",

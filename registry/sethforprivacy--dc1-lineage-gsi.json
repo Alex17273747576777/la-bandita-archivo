@@ -4,22 +4,13 @@
   "release_en": "2026-08-23",
   "semantica_http": 200,
   "ultima_release": "v2026.08.23-lineage23.2",
-  "ultimo_push": "2026-09-07"
+  "ultimo_push": "2026-11-13"
  },
  "descripcion": "Maintained, unrooted LineageOS GSI fork for the Daylight DC-1 (amber frontlight built in)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sethforprivacy--dc1-lineage-gsi.json",
-  "sha256": "2d50e41667f51bfafb130006feb9eb63a5c210460a1e6ec2c754df9293b215fc"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ffe9892fcf9aa1d0711c9afe337eccdeb75acaaa98bd347bd3a08d0e33a912d7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 28,
+  "stars": 26,
   "stars_por_mes": null
  },
  "nombre": "dc1-lineage-gsi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "fd4b5c51b454f8afc893215396433f3a8edc93a2",
+  "commit": "c5e825dc615d54ff33573dfdca0997d67b40071c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:fd4b5c51b454f8afc893215396433f3a8edc93a2"
+  "swhid": "swh:1:rev:c5e825dc615d54ff33573dfdca0997d67b40071c"
  },
  "repo": "sethforprivacy/dc1-lineage-gsi"
 }

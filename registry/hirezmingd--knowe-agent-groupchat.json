@@ -8,18 +8,9 @@
  },
  "descripcion": "友好易上手的轻办公AI智能体，采用类微信群组的交互与管理模式。 — An easy-to-use desktop office AI agent with a WhatsApp-groupchat-style conversational interface.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hirezmingd--knowe-agent-groupchat.json",
-  "sha256": "dfaa70df1a71345e215987a9f002750d1d90967fff3bdac3bad99c0a3d514e96"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8563bb42732a3052bb555c71d3bcdab42d61e60c7b12613ba0e56d82b12a155a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 195,
+  "stars": 193,
   "stars_por_mes": null
  },
  "nombre": "Knowe-agent-groupchat",

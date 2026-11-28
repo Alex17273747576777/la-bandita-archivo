@@ -4,22 +4,13 @@
   "release_en": "2026-06-03",
   "semantica_http": 200,
   "ultima_release": "v0.1.0-MVP",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "The panel app for Panel Assistant: runs your Home Assistant dashboards on Android wall panels and can act as an Assist voice satellite. Installed and kept up to date from Home Assistant by the Panel Assistant integration.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/panel-assistant--android.json",
-  "sha256": "2e713f8bd4fcce0332136093d8f189d652788e3aeea43fb868d4cbb38ec65da1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0ec038ae580c5f74576f6960135cf163d805534bb0152958b312ec5b0fb7a67f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 67,
+  "stars": 75,
   "stars_por_mes": null
  },
  "nombre": "android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e10d0e38c7a6d586cfbae8cfe7e7278371dffdce",
+  "commit": "3a466f7c3704ed180760272752d7e686b4f8f0d9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e10d0e38c7a6d586cfbae8cfe7e7278371dffdce"
+  "swhid": "swh:1:rev:3a466f7c3704ed180760272752d7e686b4f8f0d9"
  },
  "repo": "panel-assistant/android",
  "web": "https://panel-assistant.io"

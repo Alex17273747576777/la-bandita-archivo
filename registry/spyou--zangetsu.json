@@ -4,22 +4,13 @@
   "release_en": "2026-06-04",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Free, open-source app for anime, movies, series, manga and light novels — on Android, Android TV and iOS (beta).",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/spyou--zangetsu.json",
-  "sha256": "aeed036dacf711dc385b5a930887cb77310848193acf0437289cc7067402edc4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c34f6d526deaeaa429e3053a57f2fa6bf4681b15554b0424158ea34ff226d73f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 495,
+  "stars": 592,
   "stars_por_mes": null
  },
  "nombre": "Zangetsu",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "94970af75a85956d00e8d3b6d9ab00f9ae6e100e",
+  "commit": "de21f230df7e7ef373472689acad740dc905f21a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:94970af75a85956d00e8d3b6d9ab00f9ae6e100e"
+  "swhid": "swh:1:rev:de21f230df7e7ef373472689acad740dc905f21a"
  },
  "repo": "Spyou/Zangetsu",
  "web": "https://zangetsu.online"

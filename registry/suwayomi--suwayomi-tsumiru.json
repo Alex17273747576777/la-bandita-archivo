@@ -4,22 +4,13 @@
   "release_en": "2026-06-19",
   "semantica_http": 200,
   "ultima_release": "v0.4.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A manga and webtoon reader for your Suwayomi server",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/suwayomi--suwayomi-tsumiru.json",
-  "sha256": "c963640ca8ca71ea8063572e5dc22d5ce57d6a438657672a5924a8dd217d5cb1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a89cac02816cab8214b0c465d486190bb3c33db96929401b63a6c9c110048fb4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 112,
+  "stars": 147,
   "stars_por_mes": null
  },
  "nombre": "Suwayomi-Tsumiru",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d556523d162051d8882f647800110f02c4b5b826",
+  "commit": "f8ba2f5aad8cbccfd49651a941fc3a4a56ffcd8d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:d556523d162051d8882f647800110f02c4b5b826"
+  "swhid": "swh:1:rev:f8ba2f5aad8cbccfd49651a941fc3a4a56ffcd8d"
  },
  "repo": "Suwayomi/Suwayomi-Tsumiru",
  "web": "https://tsumiru.app"

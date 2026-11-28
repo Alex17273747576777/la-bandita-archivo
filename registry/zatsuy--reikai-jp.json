@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-09-28",
+  "release_en": "2026-10-29",
   "semantica_http": 200,
-  "ultima_release": "r2818",
-  "ultimo_push": "2026-10-29"
+  "ultima_release": "r2826",
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "Read Japanese manga and light novels on Android: tap any word for a Yomitan lookup, add it to Anki in one tap, and read novels in vertical text with furigana. A fork of Reikai.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zatsuy--reikai-jp.json",
-  "sha256": "2b66c00f60a7e5e124d5bcac09301eeb33643e2a0c4745531836e515e606b350"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "860962c3104e62bb2abb5c0fb7c3fc00f25bd19cd566622a32a38e14be64790c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f7e87c8bb679ce1aca4f8787cef84e2982fed1d9",
+  "commit": "80eddb94b49beb7097d7d00fd0a2ea221ad7c1cd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f7e87c8bb679ce1aca4f8787cef84e2982fed1d9"
+  "swhid": "swh:1:rev:80eddb94b49beb7097d7d00fd0a2ea221ad7c1cd"
  },
  "repo": "Zatsuy/Reikai-JP",
  "web": "https://github.com/Zatsuy/Reikai-JP/releases/latest"

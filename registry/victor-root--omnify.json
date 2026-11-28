@@ -4,22 +4,13 @@
   "release_en": "2026-08-02",
   "semantica_http": 200,
   "ultima_release": "1.0.0-beta.1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Beyond F-Droid: install and auto-update apps straight from GitHub, GitLab, Codeberg and self-hosted forges.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/victor-root--omnify.json",
-  "sha256": "e5ce7ab648078b91d87c76c86b452e92fa1749b958c0820d2d40b211442345f2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d796290b67c9b0224b667f8430406373df12998451739af20f0e39f4fdd13cae"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 98,
+  "stars": 118,
   "stars_por_mes": null
  },
  "nombre": "Omnify",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "b6bcfe4cb45ff89c17919adfbd1481694f04dfff",
+  "commit": "852a9de080ef9246188b363be626815d97c16e45",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b6bcfe4cb45ff89c17919adfbd1481694f04dfff"
+  "swhid": "swh:1:rev:852a9de080ef9246188b363be626815d97c16e45"
  },
  "repo": "Victor-root/Omnify",
  "web": "https://victor-root.github.io/Omnify/"

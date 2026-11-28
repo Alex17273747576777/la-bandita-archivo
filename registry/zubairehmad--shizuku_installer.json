@@ -8,18 +8,9 @@
  },
  "descripcion": "A package installer for Android that uses shizuku service to install apps through ADB without requiring a computer.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zubairehmad--shizuku_installer.json",
-  "sha256": "88b7fccf03c53ce0b929ac360a8b1f32819e3545843a56b902ae75adffd6bcc4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "93b604003600ff7e3accd1011d4a74c8dfc12a11ff4f2fa5f94934b6a5cd2f9e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 25,
+  "stars": 28,
   "stars_por_mes": null
  },
  "nombre": "shizuku_installer",

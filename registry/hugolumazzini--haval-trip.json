@@ -4,22 +4,13 @@
   "release_en": "2026-09-21",
   "semantica_http": 200,
   "ultima_release": "v0.9.17",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hugolumazzini--haval-trip.json",
-  "sha256": "1fe171be653dd36bf23e0e367c3d9588c4d5a800c59889eb4c57ee213a77197d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "862aca48d4c624a7fd81a99c4f5704b073b5a1c7249e585b8f1760cccc5141c1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e55d3ac692858d1c23ddfb3b99e5a070ac4769f9",
+  "commit": "4516aef825cfa534d421ca8dc1d62612bc5cec8e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e55d3ac692858d1c23ddfb3b99e5a070ac4769f9"
+  "swhid": "swh:1:rev:4516aef825cfa534d421ca8dc1d62612bc5cec8e"
  },
  "repo": "hugolumazzini/haval-trip"
 }

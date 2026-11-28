@@ -4,22 +4,13 @@
   "release_en": "2026-10-03",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "DSH for Android, built on LittleWhale (dsh ported to Android by Miuzarte)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yuloong07-star--luwi.json",
-  "sha256": "57fa0f8e114179fb875cce049e23ba1ed87292dbd749268889e135ecbdd57f73"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "61150d9d52be8790b7716657bee875d536b300c174195a88174536453ae5c3c6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9,
+  "stars": 14,
   "stars_por_mes": null
  },
  "nombre": "Luwi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a10cbe6df5e7f2595a873b875bf8fc8f1db41b32",
+  "commit": "e09552c34d2c37050cbcff4695e9e70929881571",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a10cbe6df5e7f2595a873b875bf8fc8f1db41b32"
+  "swhid": "swh:1:rev:e09552c34d2c37050cbcff4695e9e70929881571"
  },
  "repo": "yuloong07-star/Luwi",
  "web": "https://github.com/yuloong07-star/Luwi/releases"

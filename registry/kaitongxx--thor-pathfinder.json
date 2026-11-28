@@ -8,18 +8,9 @@
  },
  "descripcion": "Swap apps between the AYN Thor's two screens and put shortcuts on its buttons. Free and open source (GPL-3.0).",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kaitongxx--thor-pathfinder.json",
-  "sha256": "22c8f772be93085d8bb31c286c21b5a31f59f9308ae1304d78af3b1cc52723df"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "07f1420358577ca7df13c206bc0b342d8b728cab9680f09f9ab3cd5665a844d7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 29,
+  "stars": 31,
   "stars_por_mes": null
  },
  "nombre": "thor-pathfinder",

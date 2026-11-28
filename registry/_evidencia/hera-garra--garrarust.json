@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-09-28T20:14:50Z",
-   "oid": "b4c45343e2c0cc1fd82f885c533dc48a3f80d3ce"
+   "committedDate": "2026-11-21T18:11:45Z",
+   "oid": "86c43a7b9d02ed78dd5cec7c35b296459cf7fdbf"
   }
  },
- "diskUsage": 49928,
+ "diskUsage": 50885,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "MIT"
  },
  "nameWithOwner": "hera-garra/GarraRUST",
- "pushedAt": "2026-09-29T07:22:50Z",
+ "pushedAt": "2026-11-24T05:01:40Z",
  "releases": {
   "nodes": []
  },

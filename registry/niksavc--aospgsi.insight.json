@@ -4,22 +4,13 @@
   "release_en": "2026-10-15",
   "semantica_http": 200,
   "ultima_release": "ci-latest",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "The Apktool adapter, package installer, and privileged integrations are intentionally interfaces/stubs until their dependency versions, licenses, and platform behavior are validated.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/niksavc--aospgsi.insight.json",
-  "sha256": "586bb40c1ce96abc282d645ac64142b3c2a908024281e0651ffeda51816311c9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "24f85956c5e340b8d3f888e9d65a9b883d47f2f2db54b2ef70dc3b51a20ce1cd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

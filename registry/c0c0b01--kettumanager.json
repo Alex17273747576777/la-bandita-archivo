@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "dormido",
+  "estado": "vivo",
   "release_en": "2025-05-02",
   "semantica_http": 200,
   "ultima_release": "v0.0.1",
-  "ultimo_push": "2025-05-27"
+  "ultimo_push": "2026-11-07"
  },
  "descripcion": "A manager designed to install Kettu, a mod for Discord mobile apps, on non-rooted Android devices",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/c0c0b01--kettumanager.json",
-  "sha256": "59c4c1bbc7577551d6b7fb8df33fad557201972c5549bafa1351e61621f3ef00"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0b3469a158bb8c6ee5e2223fb4b639896f9d030865d67f4ad8693f1e8695b3d6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "OSL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 150,
+  "stars": 165,
   "stars_por_mes": null
  },
  "nombre": "KettuManager",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "cee6b9804c345b73b5e1dfa2b786f84320eb29e7",
+  "commit": "4cea2e600078718371723bcb0b29f0e23f7096c1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:cee6b9804c345b73b5e1dfa2b786f84320eb29e7"
+  "swhid": "swh:1:rev:4cea2e600078718371723bcb0b29f0e23f7096c1"
  },
  "repo": "C0C0B01/KettuManager"
 }

@@ -8,18 +8,9 @@
  },
  "descripcion": "豆糕 DouGao —— 安卓 AI 手机助手：VLM 看屏自动操作 + 文件直改；无障碍 / Shizuku / Root 三通道控屏，多任务房间可中途纠错",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hulubo2014--dougao.json",
-  "sha256": "c313593bbf71641c4d66419c806afc27dbd2e5013d433db2d8d5f90fb74495aa"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6d66c4e69d7f80b0a0c07e29ea0eaccb0bd27473cb8bb2fa8cfe0ff2ef96aee5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,9 +24,9 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

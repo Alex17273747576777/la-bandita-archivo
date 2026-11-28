@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
+  "estado": "vivo",
+  "release_en": "2026-07-18",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-08"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ycm50--tell-shell.json",
-  "sha256": "1576c5729f3bc94eaf8cf5241f53d61de068d8de8d07c668a9c7924ea03b5fc3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "11681c4ecd841b26cb0a6dce48e5fbb7727c6e88d06fb4392b652db9469a3225"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 0,
   "stars_por_mes": null
  },
  "nombre": "tell-shell",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "bf609a6a76931a7ed86a9943e064f8f8779e6054",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:bf609a6a76931a7ed86a9943e064f8f8779e6054"
  },
  "repo": "ycm50/tell-shell"
 }

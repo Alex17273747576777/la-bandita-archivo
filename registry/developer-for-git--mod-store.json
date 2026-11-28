@@ -8,18 +8,9 @@
  },
  "descripcion": "📱 Open-source Android app store — Discover, download, and manage free apps with a clean Material Design interface",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/developer-for-git--mod-store.json",
-  "sha256": "33244f8572d56c1b8f9415728cce66dc48409a00096a41b072ae4991d8b1ad27"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f2519c22f6edb0dce5ea2f67a480e08e52fa8da6ba84328d16dd50911b9c93e1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6,
+  "stars": 7,
   "stars_por_mes": null
  },
  "nombre": "MOD-STORE",

@@ -4,22 +4,13 @@
   "release_en": "2026-10-23",
   "semantica_http": 200,
   "ultima_release": "v0.2.0-selfhost4",
-  "ultimo_push": "2026-10-23"
+  "ultimo_push": "2026-11-10"
  },
  "descripcion": "A \"device-in-itself\" phone gateway (fork): incoming calls and SMS from a home SIM reach you over the internet. No root (Android 13+, Shizuku), built-in SIP registrar, password-protected.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hinduc0der--voice-sip-agent-selfhost.json",
-  "sha256": "d4dce25cdb3b5e6b5aa3f8e34dd234ab5a2fd047724809f290638f773eabbe0d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6a375db7263099e0b97156ba6d0d1adb486379f28e84b94b64b5040888109ef6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 3,
   "stars_por_mes": null
  },
  "nombre": "voice-sip-agent-selfhost",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b92c136d6b841f2cec28b3403dbf514613c2d4ce",
+  "commit": "a769c2088d0e5ef9a78dca90c5d748c46a80b38e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b92c136d6b841f2cec28b3403dbf514613c2d4ce"
+  "swhid": "swh:1:rev:a769c2088d0e5ef9a78dca90c5d748c46a80b38e"
  },
  "repo": "Hinduc0der/voice-sip-agent-selfhost"
 }

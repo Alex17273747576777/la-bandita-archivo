@@ -4,22 +4,13 @@
   "release_en": "2026-10-11",
   "semantica_http": 200,
   "ultima_release": "2.0",
-  "ultimo_push": "2026-10-24"
+  "ultimo_push": "2026-11-12"
  },
  "descripcion": "ryP0 is a modern iOS app library for discovering, downloading, and managing IPA files from GitHub and other sources, with automatic update tracking.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sami-wali--ryp0.json",
-  "sha256": "eb343079a32e26aac3fff5404f6e70458d34d3d9ef71ddf408beba8ca9c6c5f2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "90f63e89e77950ff160bf1c86cdcbd9b0d0d17f21495dd8a23c3803202bbf658"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 133,
+  "stars": 182,
   "stars_por_mes": null
  },
  "nombre": "ryP0",

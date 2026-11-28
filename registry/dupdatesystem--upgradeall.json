@@ -4,22 +4,13 @@
   "release_en": "2019-04-24",
   "semantica_http": 200,
   "ultima_release": "0.0.1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Check updates for Android apps, Magisk modules and more!",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dupdatesystem--upgradeall.json",
-  "sha256": "7fbed567f5a9fd93ccc0ba6abb5651f50bf595571a0ff83888ea14b02f4af0c0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ac6e8b3f0ef0e11b39efca43b21d2f8bde8500a3b5135206cdda25f81e8729b6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1357,
+  "stars": 1360,
   "stars_por_mes": null
  },
  "nombre": "UpgradeAll",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "4a1aae1d44a418989b0d3d28528cacff0cc066c0",
+  "commit": "371529784a72253c7cbe195bc391508316ea0791",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4a1aae1d44a418989b0d3d28528cacff0cc066c0"
+  "swhid": "swh:1:rev:371529784a72253c7cbe195bc391508316ea0791"
  },
  "repo": "DUpdateSystem/UpgradeAll",
  "web": "https://up-a.org"

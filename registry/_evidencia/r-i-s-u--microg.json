@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-09-01T12:08:46Z",
-   "oid": "7bbfee641e5f9f12c0ba4e4a701e22c8c12bac45"
+   "committedDate": "2026-11-26T16:34:11Z",
+   "oid": "50d84cb32a89dd2ecee2010d9e55aa43fb6ea3e2"
   }
  },
- "diskUsage": 57108,
+ "diskUsage": 60188,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Apache-2.0"
  },
  "nameWithOwner": "r-i-s-u/microG",
- "pushedAt": "2026-09-03T16:46:33Z",
+ "pushedAt": "2026-11-26T16:34:12Z",
  "releases": {
   "nodes": []
  },

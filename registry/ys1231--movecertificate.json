@@ -8,18 +8,9 @@
  },
  "descripcion": "支持Android7-16移动证书，兼容magiskv20.4+/kernelsu/APatch, Support Android7-16, compatible with magiskv20.4+/kernelsu/APatch",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ys1231--movecertificate.json",
-  "sha256": "ee0a079b5ad8fd51d48c15fad83f1967f0342568750a377cc358c0fa46daf671"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "384662f79ead36249f5b9dd57a50f45267765c930ff377c2c13b86339d3edccf"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2011,
+  "stars": 2040,
   "stars_por_mes": null
  },
  "nombre": "MoveCertificate",

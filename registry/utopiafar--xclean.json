@@ -8,18 +8,9 @@
  },
  "descripcion": "安卓文件清理工具，支持自定义规则清理文件",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/utopiafar--xclean.json",
-  "sha256": "91a76df31c7d2be5487a9052174fe4fa35234af34581eeee3281b813e973f7af"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fb2be29d16d2e78db8a9d225a1a598a5ebf195420529cc707414aa5cb1ec02cd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7,
+  "stars": 8,
   "stars_por_mes": null
  },
  "nombre": "XClean",

@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-10-02T14:30:24Z",
-   "oid": "a55ae2360179ee650e3826adb0a4aa9ab232ca31"
+   "committedDate": "2026-11-13T14:08:26Z",
+   "oid": "e4a0615de2111163a7207fffa5e5fa5c99e3b374"
   }
  },
- "diskUsage": 49720,
+ "diskUsage": 54144,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Apache-2.0"
  },
  "nameWithOwner": "Beat-All-Repo/OtakuWorld",
- "pushedAt": "2026-10-12T12:43:36Z",
+ "pushedAt": "2026-11-14T15:47:26Z",
  "releases": {
   "nodes": []
  },

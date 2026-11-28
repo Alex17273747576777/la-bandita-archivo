@@ -4,22 +4,13 @@
   "release_en": "2026-08-16",
   "semantica_http": 200,
   "ultima_release": "zako2.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "猫耳看板娘的系统权限助手：不 Root 也能用特权 API，兼容 Shizuku-API 生态（官方 SDK 应用零改动直连）| A catgirl-mascot privileged-API assistant for Android. Shizuku-API compatible — apps built on the official SDK connect unchanged. Apache-2.0",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/cr1437--shizako.json",
-  "sha256": "2082151578acd2cacd4de13b845b3563921b33fe7a8e864404cf68b8ace0ea8f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7a189914061158912c50d098290b34d9cbbac0d7afae10b243fb189b3a086a12"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 95,
+  "stars": 148,
   "stars_por_mes": null
  },
  "nombre": "Shizako",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2311ebbfd3def24b0c847de131422a8570cbf025",
+  "commit": "81fc9806b80e11f791d48a0649f70f0156657f2c",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:2311ebbfd3def24b0c847de131422a8570cbf025"
+  "swhid": "swh:1:rev:81fc9806b80e11f791d48a0649f70f0156657f2c"
  },
  "repo": "cr1437/Shizako",
  "web": "https://cr1437.github.io/Shizako/"

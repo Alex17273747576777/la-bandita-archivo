@@ -4,22 +4,13 @@
   "release_en": "2025-08-21",
   "semantica_http": 200,
   "ultima_release": "0.6",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "NPatch是一个复刻自LSPatch，以LSPosed为基础的免root的Xposed框架",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/7723mod--npatch.json",
-  "sha256": "7463cf8dc3fb85ebf0aa4b092dc8aa68fa7e0084c7f79db79aa3c9d7e68283f6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "06b74d3e4108bd998cd36877177b70c0e8663f53e0c20534bc1a943710c802ce"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2677,
+  "stars": 2877,
   "stars_por_mes": null
  },
  "nombre": "NPatch",

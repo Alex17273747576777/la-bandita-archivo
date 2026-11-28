@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
    "committedDate": "2026-10-02T20:44:57Z",
    "oid": "3818b2fccc0fb9bc977ab198b8bdb4a647dbab47"
   }
  },
- "diskUsage": 1598788,
+ "diskUsage": 1599015,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Apache-2.0"
  },
  "nameWithOwner": "slaxor/Kai",
- "pushedAt": "2026-10-07T14:00:37Z",
+ "pushedAt": "2026-11-08T08:37:39Z",
  "releases": {
   "nodes": []
  },

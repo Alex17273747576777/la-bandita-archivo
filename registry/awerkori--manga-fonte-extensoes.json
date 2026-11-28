@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Código-fonte em Kotlin e pipeline de compilação das extensões de mangá do Project Nox para Mihon e forks.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/awerkori--manga-fonte-extensoes.json",
-  "sha256": "ce31eb5d6e26767d16d6620911524a282b2fea0084b663f3e29b55a5ccb96bc2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7b7daf5224a3d4dff87c4e7eca4b3a54711cf9dbde26d0a376ecba61f246bc4e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -31,24 +22,24 @@
  "licencia": {
   "archivo": null,
   "metodo": "spdx-api",
-  "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "spdx": "AGPL-3.0",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9,
+  "stars": 12,
   "stars_por_mes": null
  },
  "nombre": "manga-fonte-extensoes",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "909f6bdae19d48071399c8b703da152893d5aaaf",
+  "commit": "c4ccec8a32446fcdc8ec53f8fcc4e7cc1f15791c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:909f6bdae19d48071399c8b703da152893d5aaaf"
+  "swhid": "swh:1:rev:c4ccec8a32446fcdc8ec53f8fcc4e7cc1f15791c"
  },
  "repo": "Awerkori/manga-fonte-extensoes",
  "web": "https://raw.githubusercontent.com/Awerkori/extensoes/repo/index.pb"

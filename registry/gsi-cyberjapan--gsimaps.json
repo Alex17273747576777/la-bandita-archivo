@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "The source of GSI Maps (https://maps.gsi.go.jp/) ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/gsi-cyberjapan--gsimaps.json",
-  "sha256": "bbc1441e79c44aaff897be7e2fc79711213be59689a211e939c79b8ccda85275"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "eefee123f9a2b4f6da49f417edbb1c66311565a90f67305897b735b88a69d2ba"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "BSD-2-Clause",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 722,
+  "stars": 721,
   "stars_por_mes": null
  },
  "nombre": "gsimaps",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "45bf3d3e5af4a92d4592f71e6d6d251b50f72014",
+  "commit": "ef59320492c73e95c6e62268b1c456880685d7f0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:45bf3d3e5af4a92d4592f71e6d6d251b50f72014"
+  "swhid": "swh:1:rev:ef59320492c73e95c6e62268b1c456880685d7f0"
  },
  "repo": "gsi-cyberjapan/gsimaps"
 }

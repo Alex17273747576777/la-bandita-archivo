@@ -4,22 +4,13 @@
   "release_en": "2026-10-03",
   "semantica_http": 200,
   "ultima_release": "latest",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Native Android AI agent: 抱朴 is a first-party, in-process harness that reads and writes your files, handles images and pages, plans and writes. 玄览 is the browser it sees through. The terminal is a separate app (zhengdao-term). No root, no Termux, no ADB. 安卓原生 AI agent：内置抱朴＋玄览浏览器；终端独立为 zhengdao-term。Android 16 (API 36) + arm64.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pisces19860207--zhengdao.json",
-  "sha256": "bec388e8214a745826c6e6f055a2b2b1f59f1c7585fba6a50f336bfb238b75f6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "51d459b682644e6765deb6c5adfb92ab4170a9443fc06d33418845660ee1678e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,9 +24,9 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -46,10 +37,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "486d018a2b8f264f7bd46adf63375dbe1430b744",
+  "commit": "825af08f8602b10767c274eb103874d6aad446ff",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:486d018a2b8f264f7bd46adf63375dbe1430b744"
+  "swhid": "swh:1:rev:825af08f8602b10767c274eb103874d6aad446ff"
  },
  "repo": "pisces19860207/zhengdao",
  "web": "https://github.com/pisces19860207/zhengdao/releases"

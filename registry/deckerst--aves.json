@@ -4,22 +4,13 @@
   "release_en": "2020-07-12",
   "semantica_http": 200,
   "ultima_release": "v1.0.9",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Aves is a gallery and metadata explorer app, built for Android with Flutter.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/deckerst--aves.json",
-  "sha256": "c631d3e8612c0f2bb49ba46b9aae498420582b5d22ea3b4e504b902611fb24ca"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bcb8a97f79676e783abb48254d29b8cbac739814b33edd3c3a26a62423f15bfb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "BSD-3-Clause",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5484,
+  "stars": 5572,
   "stars_por_mes": null
  },
  "nombre": "aves",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "43c31b83947da28a074848ee8f416cbccc9c555d",
+  "commit": "0eb616acd2e156f1179d33c8836e1fda01734784",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:43c31b83947da28a074848ee8f416cbccc9c555d"
+  "swhid": "swh:1:rev:0eb616acd2e156f1179d33c8836e1fda01734784"
  },
  "repo": "deckerst/aves"
 }

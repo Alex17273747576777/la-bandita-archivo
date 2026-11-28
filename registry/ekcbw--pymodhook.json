@@ -4,22 +4,13 @@
   "release_en": "2025-05-06",
   "semantica_http": 200,
   "ultima_release": "1.0",
-  "ultimo_push": "2026-10-09"
+  "ultimo_push": "2026-11-04"
  },
  "descripcion": "A library for recording arbitrary calls to Python modules, primarily intended for Python reverse engineering and analysis. ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ekcbw--pymodhook.json",
-  "sha256": "8fc602e709ac01ff7f7930b06b64907d5503f4091517609968047d26787e3382"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7eb97b4ce539904781da1e3679e548a883a705ca6764b6f0ae430e8047c6e2f1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 122,
+  "stars": 120,
   "stars_por_mes": null
  },
  "nombre": "pymodhook",

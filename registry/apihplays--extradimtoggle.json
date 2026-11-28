@@ -8,18 +8,9 @@
  },
  "descripcion": "Rooted-Android Extra Dim (Reduce bright colors) toggle: app, QS tile, widget + flashable KernelSU/Magisk module",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/apihplays--extradimtoggle.json",
-  "sha256": "c6d8ff66c8f74c8362f84006dcdcfe088378a0c01638abb7502dde319aea760d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f6e5652be9ae94b02a7658bdd996017926cb4e94e16c5c01fb7f46242ce8f21a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

@@ -4,22 +4,13 @@
   "release_en": "2026-02-07",
   "semantica_http": 200,
   "ultima_release": "v0.0.2",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "The Swiss Army Knife of Offline AI. Chat, see, speak, and generate images on your phone or Mac — GGUF LLMs, vision, Whisper speech-to-text, Stable Diffusion, tool calling, and local-network servers. Runs on your CPU, GPU, or NPU. No account, no API key, zero data leaves your device.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/off-grid-ai--ogam.json",
-  "sha256": "4361d8cac95fd18d466643994f993343ca3566be6040ec2a9d678dd87a41ddd2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a75617c82f7d6c96008603d56570c1acd5f8c762e02eaef3a07efd7b18ed07f8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3319,
+  "stars": 3643,
   "stars_por_mes": null
  },
  "nombre": "OGAM",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "bd528d21fa032b78ff7518675bc13748445bbec2",
+  "commit": "7297281b71eda39c2b88faf944976f97eb112331",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:bd528d21fa032b78ff7518675bc13748445bbec2"
+  "swhid": "swh:1:rev:7297281b71eda39c2b88faf944976f97eb112331"
  },
  "repo": "off-grid-ai/OGAM",
  "web": "getoffgridai.co/pro"

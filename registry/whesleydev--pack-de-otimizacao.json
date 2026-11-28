@@ -1,8 +1,8 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "muerto",
   "release_en": "2026-10-08",
-  "semantica_http": 200,
+  "semantica_http": 404,
   "ultima_release": "v1.2.0",
   "ultimo_push": "2026-10-31"
  },
@@ -13,13 +13,12 @@
   "sha256": "4d1f866e3606bcead95f978d90042ba4a3fa2b47fd45e1aba06b6b70b0deb698"
  },
  "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
+  "dias": 0,
+  "estado": "vencida",
+  "evidencia_en": "2026-11-27",
+  "motivo": "el repositorio no existe: la API devolvió 404",
   "proxima_remedicion": null,
-  "ventana_dias": 180
+  "ventana_dias": null
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +33,11 @@
   "spdx": "MIT",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": null,
   "stars_por_mes": null
  },
  "nombre": "Pack-de-otimizacao",

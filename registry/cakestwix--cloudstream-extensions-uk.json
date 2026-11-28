@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Це спеціальне розширення для перегляду фільмів, серіалів та аніме в якісному українському дубляжу від різних постачальників в стрімінговій програмі Cloudstream.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/cakestwix--cloudstream-extensions-uk.json",
-  "sha256": "a3089469fead03720d61853697f3c257840536044703632fd6440b2147f98880"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f84271446b1c65c1f65991c3765338ffbec87c5f06870a0cb99bc36ef3ca7f7a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 177,
+  "stars": 181,
   "stars_por_mes": null
  },
  "nombre": "cloudstream-extensions-uk",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "c62b54da6528533d16c4d67d0ea9d6279e926a7e",
+  "commit": "46856b249bd084c7ff510cb6e9878b1280faae9e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:c62b54da6528533d16c4d67d0ea9d6279e926a7e"
+  "swhid": "swh:1:rev:46856b249bd084c7ff510cb6e9878b1280faae9e"
  },
  "repo": "CakesTwix/cloudstream-extensions-uk"
 }

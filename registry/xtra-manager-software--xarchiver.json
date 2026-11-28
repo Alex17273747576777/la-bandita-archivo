@@ -4,22 +4,13 @@
   "release_en": "2025-09-30",
   "semantica_http": 200,
   "ultima_release": "alpha",
-  "ultimo_push": "2026-10-04"
+  "ultimo_push": "2026-11-13"
  },
  "descripcion": "Open Source File Manager on Android OS",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/xtra-manager-software--xarchiver.json",
-  "sha256": "a6be179d3005d2e286a021a81ecc504119d8073275aa47b6d643d4dec6a13596"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3b330cad413cf754bc97f79d69b1860165b1fad5cc6bc6d78d44d6564b3ed9a0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 18,
+  "stars": 20,
   "stars_por_mes": null
  },
  "nombre": "XArchiver",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "29acc581900e32696741bf08132cef031b9f06f6",
+  "commit": "8b415d4be776e4203374265959dda45c586eddc7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:29acc581900e32696741bf08132cef031b9f06f6"
+  "swhid": "swh:1:rev:8b415d4be776e4203374265959dda45c586eddc7"
  },
  "repo": "Xtra-Manager-Software/XArchiver"
 }

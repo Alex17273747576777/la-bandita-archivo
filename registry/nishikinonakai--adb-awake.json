@@ -8,18 +8,9 @@
  },
  "descripcion": "Android wireless ADB screen-awake app with Quick Settings tiles and a macOS helper",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/nishikinonakai--adb-awake.json",
-  "sha256": "645665364f0ad9038fab99cb1560e9942f2f0722c45c9c11e0bc71da022e9bcc"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "00fafe57edbe87bb2f490c61ce7e7fb8f8c9f16b7312d5948bb4ad620ce1a09a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

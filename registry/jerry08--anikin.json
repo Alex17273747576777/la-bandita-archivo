@@ -8,18 +8,9 @@
  },
  "descripcion": "A multi-platform app to stream/download videos.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jerry08--anikin.json",
-  "sha256": "34987c98c4bff45057ccfe8a3b2d965f6094c97637a8f07cacdb6189cca0b7a8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d4f5e988c8d246f278ed5230dbc18cab18bca691fafcb10ccc38ada519c21186"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE.txt",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 323,
+  "stars": 328,
   "stars_por_mes": null
  },
  "nombre": "Anikin",

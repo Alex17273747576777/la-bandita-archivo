@@ -4,22 +4,13 @@
   "release_en": "2024-01-14",
   "semantica_http": 200,
   "ultima_release": "1.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-18"
  },
  "descripcion": "使用安卓Device owner特权管理你的设备。Use Android Device owner privilege to manage your device.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/bintianqi--owndroid.json",
-  "sha256": "53ccaf0860fcd9e3ad052840b02066f61818ec8be425bb878594f3a6aa57e62e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "29e193bdc2c2bf9976d223c7b3892df0959a6aefc4dc56cc2e299d28f0c71afb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1448,
+  "stars": 1503,
   "stars_por_mes": null
  },
  "nombre": "OwnDroid",

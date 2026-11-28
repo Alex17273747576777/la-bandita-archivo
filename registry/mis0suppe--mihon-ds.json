@@ -8,18 +8,9 @@
  },
  "descripcion": "A specialized fork of Mihon optimized for devices with secondary physical displays (like the AYN Thor, AYANEO Flip DS, and external monitors). ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mis0suppe--mihon-ds.json",
-  "sha256": "c3a1c993f129c9b55c14f818169dd9a27ad7e1ca7504ffc0a27e11b9185648a1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e948795fe9ed195cd1a6ea7889f3eb5f948bad5a8d532671573a38986d4b2ec4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 21,
+  "stars": 24,
   "stars_por_mes": null
  },
  "nombre": "mihon-ds",

@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-09-14T21:40:05Z",
-   "oid": "b48903e5889ddd56c27f46fc0c322b0c55ca89e3"
+   "committedDate": "2026-11-07T23:26:02Z",
+   "oid": "c01ad2562fbc124d4f63a49664c6e3018c14616c"
   }
  },
- "diskUsage": 36724,
+ "diskUsage": 58970,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "MPL-2.0"
  },
  "nameWithOwner": "DattatreyaReddy/Suwayomi-Tsumiru",
- "pushedAt": "2026-09-17T18:56:02Z",
+ "pushedAt": "2026-11-24T05:02:08Z",
  "releases": {
   "nodes": []
  },

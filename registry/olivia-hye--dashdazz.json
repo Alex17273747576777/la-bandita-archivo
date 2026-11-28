@@ -8,18 +8,9 @@
  },
  "descripcion": "Hardware camera-ring light controller for Xiaomi HyperOS devices (POCO X8 Pro Max / Dash). Drives the RGB LED ring around the rear camera - smooth animations, music reaction, and notification alerts.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/olivia-hye--dashdazz.json",
-  "sha256": "086aef4493fb47706ebc7eca6805f8bdd0bead276089e64fb8c67dc7a6820e40"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "90c44ae3b00a0bd0d9f7099b03807e70d760f851b08f7ec08d13955833f83973"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4,
+  "stars": 6,
   "stars_por_mes": null
  },
  "nombre": "DashDazz",

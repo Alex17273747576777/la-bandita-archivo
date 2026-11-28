@@ -4,22 +4,13 @@
   "release_en": "2021-02-05",
   "semantica_http": 200,
   "ultima_release": "3.0",
-  "ultimo_push": "2026-07-24"
+  "ultimo_push": "2026-11-20"
  },
  "descripcion": "Free and Open Source, full-featured torrent client for Android. Mirrored from https://gitlab.com/proninyaroslav/libretorrent",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/proninyaroslav--libretorrent.json",
-  "sha256": "dc994f9ca4c65d38a2bdcdae38df5c7be5057c8705036e3958a4e3da7d0647c0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d24fa40f8401e386116b5926d8ce6ce41fcadcd592578a6c559baa8d7a6802e9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4028,
+  "stars": 4124,
   "stars_por_mes": null
  },
  "nombre": "libretorrent",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ae96f20b9852d2140fd704a3f2451ed7679e35a0",
+  "commit": "0dffe565ba94fff38e0eea4a326d01d38678d8fd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ae96f20b9852d2140fd704a3f2451ed7679e35a0"
+  "swhid": "swh:1:rev:0dffe565ba94fff38e0eea4a326d01d38678d8fd"
  },
  "repo": "proninyaroslav/libretorrent",
  "web": "https://gitlab.com/proninyaroslav/libretorrent"

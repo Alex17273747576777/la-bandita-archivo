@@ -4,22 +4,13 @@
   "release_en": "2026-10-21",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-22"
+  "ultimo_push": "2026-11-16"
  },
  "descripcion": "Force per-app languages on Android via Shizuku",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ernisn--applingo.json",
-  "sha256": "d2069aebb28199bc1e192aa307644b141981351b9a83f4e1ff6bdd21a03a1f37"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5ec9d79ce50ea342fa891263bf79b349bddb7bdbe7e671e5e7b6b9e7048275af"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4,
+  "stars": 8,
   "stars_por_mes": null
  },
  "nombre": "Applingo",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d23079822d10906c9c29110cc19ab0c17edc2ff6",
+  "commit": "0bd458201d44e36e99c92b58d35adc8e7d08d5fd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:d23079822d10906c9c29110cc19ab0c17edc2ff6"
+  "swhid": "swh:1:rev:0bd458201d44e36e99c92b58d35adc8e7d08d5fd"
  },
  "repo": "ernisn/Applingo"
 }

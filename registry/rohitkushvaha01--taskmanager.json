@@ -4,22 +4,13 @@
   "release_en": "2025-03-17",
   "semantica_http": 200,
   "ultima_release": "v1.0.4",
-  "ultimo_push": "2026-10-01"
+  "ultimo_push": "2026-11-20"
  },
  "descripcion": "A Task Manager for android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rohitkushvaha01--taskmanager.json",
-  "sha256": "25f1fffeb09906c3a6dc68dc1f5a76a4c5eb3cdd9ca6f8cb530d7966d9ffca74"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e231435a3b2f0cdceffb1a507ed70538fc0e620d9cc0d12f26234453d591d048"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 687,
+  "stars": 721,
   "stars_por_mes": null
  },
  "nombre": "TaskManager",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "365f9d1eaf6f769aebe1e6300ab84a12113b95e3",
+  "commit": "444e7ca71d4d8b7c1ec3bd414b5af79382297166",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:365f9d1eaf6f769aebe1e6300ab84a12113b95e3"
+  "swhid": "swh:1:rev:444e7ca71d4d8b7c1ec3bd414b5af79382297166"
  },
  "repo": "RohitKushvaha01/TaskManager"
 }

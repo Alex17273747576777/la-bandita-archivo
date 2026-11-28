@@ -8,18 +8,9 @@
  },
  "descripcion": "Google SafetyNet attestation workarounds for Magisk",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kdrag0n--safetynet-fix.json",
-  "sha256": "fee800ea1546d231a390a78c5ec7d35ed1812ae7a607fa725edbf360dd8ee30e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0f0711392873728f9f85efcc0327a706c9e6fae30d59c8bfa4ecac80e410e30c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6378,
+  "stars": 6365,
   "stars_por_mes": null
  },
  "nombre": "safetynet-fix",

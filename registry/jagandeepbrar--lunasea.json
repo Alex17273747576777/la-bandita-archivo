@@ -8,18 +8,9 @@
  },
  "descripcion": "Self-hosted software controller built using Flutter",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jagandeepbrar--lunasea.json",
-  "sha256": "c3d81cad2f3c9df2e98147c5ecabef6bf24e3b6e53e548068b90538121e0465b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a7e97765308b3e4af64639c6e7673a06be4ba2d434c07187b50c502bced0d3c6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1461,
+  "stars": 1458,
   "stars_por_mes": null
  },
  "nombre": "lunasea",

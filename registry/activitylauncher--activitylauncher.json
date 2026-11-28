@@ -4,22 +4,13 @@
   "release_en": "2019-11-01",
   "semantica_http": 200,
   "ultima_release": "1.7.0",
-  "ultimo_push": "2026-10-26"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Activity launcher creates shortcuts for any installed app and hidden activities to launch them with ease",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/activitylauncher--activitylauncher.json",
-  "sha256": "66513ca2a0869123fcb92e9b65bc412887e618f8882bc84ba93b0936c00e0b97"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d6024c19129f4bc87a5138129e8ca33e834ee69cc3cf60593aa3405ffba34ed7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,23 +25,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "ISC",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2051,
+  "stars": 2129,
   "stars_por_mes": null
  },
  "nombre": "ActivityLauncher",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "0337690f804e469ef0a8f9aea5af70d16bced539",
+  "commit": "7858a3b8f2af8107e8b4658ea3157c3bf13d128c",
   "swh_estado": "archivada",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:0337690f804e469ef0a8f9aea5af70d16bced539"
+  "swhid": "swh:1:rev:7858a3b8f2af8107e8b4658ea3157c3bf13d128c"
  },
  "repo": "ActivityLauncher/ActivityLauncher"
 }

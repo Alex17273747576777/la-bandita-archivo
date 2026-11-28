@@ -8,18 +8,9 @@
  },
  "descripcion": "Standalone Android apps and wireless ADB development tools for Rokid Glasses. C/NDK learning path.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kangchansoo--rokid-glasses-dev.json",
-  "sha256": "523b5a3ac95482a17e934263ad50029b656c3ba998f1893924ef64827fce050a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bf9c75bc5b951787312e047a02d7639d09f39fd8c6873cc42d95c16808532fc5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

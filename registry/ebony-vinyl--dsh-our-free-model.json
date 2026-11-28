@@ -4,22 +4,13 @@
   "release_en": "2026-10-22",
   "semantica_http": 200,
   "ultima_release": "v2.5.9-macos-unofficial",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ebony-vinyl--dsh-our-free-model.json",
-  "sha256": "67800787d61d66fa43676ea33537b6b71b4e538e08f84e0ea1e3d2594fa9694a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0291e8a8be72da5c0072b5b436561b9b53cf7de26d3771fabf0512e0aa38099c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -31,24 +22,24 @@
  "licencia": {
   "archivo": null,
   "metodo": "spdx-api",
-  "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 58558,
+  "stars": 89128,
   "stars_por_mes": null
  },
  "nombre": "dsh-our-free-model",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b52fa8696e05f80179ea775ccb65ca4e5423d003",
+  "commit": "e72860ed266851465516e761fa021cfbccb0be87",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b52fa8696e05f80179ea775ccb65ca4e5423d003"
+  "swhid": "swh:1:rev:e72860ed266851465516e761fa021cfbccb0be87"
  },
  "repo": "Ebony-Vinyl/dsh-our-free-model"
 }

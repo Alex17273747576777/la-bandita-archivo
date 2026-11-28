@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-14"
+  "ultimo_push": "2026-11-12"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/fanilonyaina--mihon.json",
-  "sha256": "8d15410e68ab9736323410ae24a2f3774b13a63c0fbe2ac7646683115b278cf1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ceb8c0dd7dc889b5b2747fd29f9058b840411e4a33a8ea967ce534ba1ecdc6aa"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "446f6df82c390ab760802c2fce3b677bce3f31c1",
+  "commit": "134e5de3d672968b91ac426fbea0020290972cff",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:446f6df82c390ab760802c2fce3b677bce3f31c1"
+  "swhid": "swh:1:rev:134e5de3d672968b91ac426fbea0020290972cff"
  },
  "repo": "FaniloNyAina/mihon"
 }

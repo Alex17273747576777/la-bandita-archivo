@@ -8,18 +8,9 @@
  },
  "descripcion": "An Android client for the microblogging server Mastodon",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tuskyapp--tusky.json",
-  "sha256": "c4a724f8c0da7710c2a7ee0a636a843cb329e9399fab28f8499161e572b47656"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "aeadb7c18900f94a3005ac73ca24bc6381239748f254bddbfa7c563a8e5b8e60"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2566,
+  "stars": 2559,
   "stars_por_mes": null
  },
  "nombre": "Tusky",

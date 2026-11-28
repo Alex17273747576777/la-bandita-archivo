@@ -8,18 +8,9 @@
  },
  "descripcion": "Peer-metadata capture for chat-app calls (WhatsApp, Signal, Telegram ..etc). Authorized/consent use only. and more..",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/0x6rss--chat-apps-osint.json",
-  "sha256": "645c082b8728e3b5575f7fedf7c626611cadcc5367e7020e3bd8c488f9d3b1cd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8e8aa980f819894ed01a41486858a11ad262bcd9bb5829849e4dcaf8bc3a3ccb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 252,
+  "stars": 254,
   "stars_por_mes": null
  },
  "nombre": "chat-apps-osint",

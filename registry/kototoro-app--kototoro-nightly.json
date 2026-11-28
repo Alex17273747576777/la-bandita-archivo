@@ -4,22 +4,13 @@
   "release_en": "2026-07-28",
   "semantica_http": 200,
   "ultima_release": "nightly-20260728",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kototoro-app--kototoro-nightly.json",
-  "sha256": "fb86b98f76b5fb1fd428c825d087b2df34d0a1f9cabbaa6b39fc26fb042e9311"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "01d6d93187daeb6804e70276076a9fa70e3d7c7b39f0709d6cf31ff1a495f498"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

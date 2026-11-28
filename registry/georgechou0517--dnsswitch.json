@@ -4,22 +4,13 @@
   "release_en": "2026-10-13",
   "semantica_http": 200,
   "ultima_release": "v26.10.1",
-  "ultimo_push": "2026-10-14"
+  "ultimo_push": "2026-11-05"
  },
  "descripcion": "一款免费无广告的 Android 加密 DNS 客户端。支持自定义 DNS（端口可选）、DoH、DoT，且三者可同时启用，而非二选一。基于 Kotlin VpnService + WebView 构建，专为绕过 DNS 污染与解析延迟设计。A free, ad-free Android DNS client with custom DNS (port configurable), DoH, and DoT — all three can run simultaneously, not either/or. Built with Kotlin VpnService + WebView. Designed to bypass DNS pollution and resolution lag.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/georgechou0517--dnsswitch.json",
-  "sha256": "bb4a7b8ba8117dc5887ce3bb4fb2cde15bf22f9fb838691e4f2eacd91dc1127f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8c9c0daeed1e9b20e07a975d7775a1872ab94f440bac5552113fb6e4ce9adc8c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT-0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "DNSSwitch",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d5dec253e09060eef7704653fc4c539f4e36f0f2",
+  "commit": "941b119b53181357442eb3fe7322e348f140255d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:d5dec253e09060eef7704653fc4c539f4e36f0f2"
+  "swhid": "swh:1:rev:941b119b53181357442eb3fe7322e348f140255d"
  },
  "repo": "georgechou0517/DNSSwitch"
 }

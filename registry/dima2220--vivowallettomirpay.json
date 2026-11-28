@@ -4,22 +4,13 @@
   "release_en": "2026-10-12",
   "semantica_http": 200,
   "ultima_release": "Release",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "DoublePowerKey allow using other apps for double tap power button",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dima2220--vivowallettomirpay.json",
-  "sha256": "8a1ef663533cb1cc86fad82bbc0d21c9a17d893968c5dfc37f3034fc27e17f0b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "517cc94cdabfd5c2fdaac854a59dee958d8c8557a0506339ea8b8c9c3d01d235"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5,
+  "stars": 7,
   "stars_por_mes": null
  },
  "nombre": "VivoWalletToMirPay",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "31f008e89197c3f0e31cc06ed2a721da8b6c59af",
+  "commit": "7425a2d3bac29df4623d932cd08b982147b8c2be",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:31f008e89197c3f0e31cc06ed2a721da8b6c59af"
+  "swhid": "swh:1:rev:7425a2d3bac29df4623d932cd08b982147b8c2be"
  },
  "repo": "dima2220/VivoWalletToMirPay"
 }

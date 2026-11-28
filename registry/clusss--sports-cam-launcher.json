@@ -8,18 +8,9 @@
  },
  "descripcion": "vivo X Flip 副屏运动相机风格启动器，可以在大屏缺失的vioxflip副屏上独立启动应用",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/clusss--sports-cam-launcher.json",
-  "sha256": "e0db6220ba95123b69a0d365e7becf46594b49051bb15c9a6c3c6fe8b5e040a0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ed460d8f5213143610a615c1025fdf0ebcbbdcf5b017d0ac449798148b67fbd1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

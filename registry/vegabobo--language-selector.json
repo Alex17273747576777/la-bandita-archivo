@@ -8,18 +8,9 @@
  },
  "descripcion": "Language Selector let users select individual app languages (Android 13+)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/vegabobo--language-selector.json",
-  "sha256": "95356dea5ce8019b38650558ec0d01bb7332ad6b9e686c562642f55112002b77"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1d7c0d65b9524eb6e65b58d20a22d86aad35932c1acccb00539055c98f3d5457"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 788,
+  "stars": 803,
   "stars_por_mes": null
  },
  "nombre": "Language-Selector",

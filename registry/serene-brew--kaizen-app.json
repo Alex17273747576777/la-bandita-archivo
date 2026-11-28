@@ -4,22 +4,13 @@
   "release_en": "2025-05-27",
   "semantica_http": 200,
   "ultima_release": "v1.0.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A modern manga + anime streaming mobile app built with React Native and Expo, continuing legacy of Kaizen-TUI",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/serene-brew--kaizen-app.json",
-  "sha256": "47ad2ba3c2678c66faf54de3fd9187bde7d655d04b658f30af4397ed1e910a76"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a6d65ef9ac246193245b6c6a134f26ff4be756e1a3267163ce14bc982ab20e45"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 61,
+  "stars": 62,
   "stars_por_mes": null
  },
  "nombre": "kaizen-app",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "9195f62f481f4936e244266a91a4d53c1a809edf",
+  "commit": "f5bce93b458d78018fa657ae4f51d234cf8f0b22",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9195f62f481f4936e244266a91a4d53c1a809edf"
+  "swhid": "swh:1:rev:f5bce93b458d78018fa657ae4f51d234cf8f0b22"
  },
  "repo": "serene-brew/kaizen-app"
 }

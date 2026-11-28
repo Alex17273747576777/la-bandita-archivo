@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-24"
+  "ultimo_push": "2026-11-08"
  },
  "descripcion": "Registro debloat POCO/MIUI via Shizuku + incidente BancoEstado UA599",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/juanpablofuentealba--android-debloat-log.json",
-  "sha256": "e3661bff86bc6553e82ae39b779270b24ca033212d375fbc02de1769b47c0775"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8d390235d8b88f8bc9487605c4d5ee4e96747a20c17143c9f45fbb720fda4046"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "android-debloat-log",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "19cd5f9d5bda45160b39fcaab03e06d6b169ace9",
+  "commit": "603e4c0c3b8be0f7aa0f5eb5a3b9fac13d00d6c8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:19cd5f9d5bda45160b39fcaab03e06d6b169ace9"
+  "swhid": "swh:1:rev:603e4c0c3b8be0f7aa0f5eb5a3b9fac13d00d6c8"
  },
  "repo": "juanpablofuentealba/android-debloat-log"
 }

@@ -4,22 +4,13 @@
   "release_en": "2017-05-05",
   "semantica_http": 200,
   "ultima_release": "v7",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "The Magic Mask for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/topjohnwu--magisk.json",
-  "sha256": "ac32f6c6467a82a2d0eb8c3f818be3ceab79e5877617883a514bfdb36cb84b8e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "666d773c3e48a365972a71c72f32bbdcf141dd65e6551e59014a18c37271e524"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 63726,
+  "stars": 64364,
   "stars_por_mes": null
  },
  "nombre": "Magisk",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "33bfff7ce750c27f157ddb4580e36bf842d6d95b",
+  "commit": "a212cd92b74174f87c720ff849461a90943b382f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:33bfff7ce750c27f157ddb4580e36bf842d6d95b"
+  "swhid": "swh:1:rev:a212cd92b74174f87c720ff849461a90943b382f"
  },
  "repo": "topjohnwu/Magisk"
 }

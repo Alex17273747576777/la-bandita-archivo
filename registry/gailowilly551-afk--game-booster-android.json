@@ -4,22 +4,13 @@
   "release_en": "2026-10-24",
   "semantica_http": 200,
   "ultima_release": "v20.6.0-PRO",
-  "ultimo_push": "2026-10-25"
+  "ultimo_push": "2026-11-13"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/gailowilly551-afk--game-booster-android.json",
-  "sha256": "d802cad7a3a14d67853eb748f831d17ddd2f8bbd26833872609633bba06f06c7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e9af9bffbca7301d6e4342666957fea68ed4e2fed2d693fce7e6228c8c935f89"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "game-booster-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "50d99695400c5061e270d7fde23d1cea02973336",
+  "commit": "a9a93d46c66c639950f20cb930adb8fd8e582297",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:50d99695400c5061e270d7fde23d1cea02973336"
+  "swhid": "swh:1:rev:a9a93d46c66c639950f20cb930adb8fd8e582297"
  },
  "repo": "gailowilly551-afk/game-booster-android"
 }

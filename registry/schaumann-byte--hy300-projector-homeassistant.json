@@ -8,18 +8,9 @@
  },
  "descripcion": "Local Home Assistant control of HY300 Pro+ / Magcubic Android projectors (Lumina Go API + IR power-on + ADB), plus a tiny app that keeps wireless ADB alive and fixes the boot launcher",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/schaumann-byte--hy300-projector-homeassistant.json",
-  "sha256": "b3453c4fabc59242bbe73346ce2739a899a48252ee6fe8051dbb827b92f3f09a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0e2be894c40f6ee9fcaa01d62f5a0ffb3ea27178e0be1055a36ce5ac0b46d7d4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

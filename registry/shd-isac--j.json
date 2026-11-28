@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-11-13",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-09-19"
+  "ultima_release": "hardened-v8.0.18+344",
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/shd-isac--j.json",
-  "sha256": "5ed4b18c870a13ceda3a294f1c9f897f1eedb1570c46c20ca0ed187a16530cd3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "253dff15a3d3b807b3ab4e585287f94b362223739d6c6c63399a46c2fc66b2b2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2edd99a0ec9ed23851fff84b700feeda317a11ec",
+  "commit": "5a38c8b5692a63d7cde006c340fa99383db6dcc3",
   "swh_estado": null,
-  "swhid": "swh:1:rev:2edd99a0ec9ed23851fff84b700feeda317a11ec"
+  "swhid": "swh:1:rev:5a38c8b5692a63d7cde006c340fa99383db6dcc3"
  },
  "repo": "SHD-ISAC/J"
 }

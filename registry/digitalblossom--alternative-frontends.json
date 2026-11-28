@@ -8,18 +8,9 @@
  },
  "descripcion": "🔐🌐 Privacy-respecting web frontends for popular services ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/digitalblossom--alternative-frontends.json",
-  "sha256": "eb99f2978a4112d0a3296fbf35ee890cff62486820cd29aec117a3baa8e1bc3b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0da607561478285ff0ebd487723ce4fc8fd0eb1e35c91ba7de1f7552e5e49d42"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2334,
+  "stars": 2338,
   "stars_por_mes": null
  },
  "nombre": "alternative-frontends",

@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
+  "estado": "vivo",
+  "release_en": "2026-08-18",
+  "semantica_http": 200,
+  "ultima_release": "0.5.1",
   "ultimo_push": "2026-08-25"
  },
  "descripcion": "通过修补 init_boot 加载 LKM 实现 DSU 系统下自动宽容 SELinux + 虚假 bootconfig 视图 + 虚假 vbmeta 标志绕过 AVB",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yangfentuozi--dsu-permissive.json",
-  "sha256": "aa10ca5cb0110f6a2cf3224467cb802893fede6ec4b8b1289eba6d3092e3a2e6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d4687cdc13199ad2643d06461a70c736ac62dfc4ba958e6a6eb633f528188418"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 30,
   "stars_por_mes": null
  },
  "nombre": "DSU-Permissive",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "853bd9badee38b998c3c0cf2c33336fc44aa1476",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:853bd9badee38b998c3c0cf2c33336fc44aa1476"
  },
  "repo": "yangFenTuoZi/DSU-Permissive"
 }

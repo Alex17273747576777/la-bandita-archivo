@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-28"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/renovate-bot--mihonapp-_-mihon-preview.json",
-  "sha256": "8504f820307211c1457e6ff57cc38a1b14fbcd73e3e89fa7960ce5803b94542f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4b601c1d89181c565d18faf755e3c404d4396486efe73d1754a0a985a89aceeb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3b79a2261bfe7b77b3f849a669077873ebdf3c60",
+  "commit": "9e692b4f5544f1492de95777137ad0bf0c78be66",
   "swh_estado": null,
-  "swhid": "swh:1:rev:3b79a2261bfe7b77b3f849a669077873ebdf3c60"
+  "swhid": "swh:1:rev:9e692b4f5544f1492de95777137ad0bf0c78be66"
  },
  "repo": "renovate-bot/mihonapp-_-mihon-preview"
 }

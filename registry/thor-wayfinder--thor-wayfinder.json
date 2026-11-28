@@ -4,22 +4,13 @@
   "release_en": "2026-09-26",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-10-21"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "Wayfinder — two screens, one controller. Moves apps between the AYN Thor's screens, per-game controls, quick panel. Source-available.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/thor-wayfinder--thor-wayfinder.json",
-  "sha256": "4fb91a8fb7c3d7b8dc0e7d2c303b0f04b2001125d18bb1855314fcf1f21593ab"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2c76d9d7c2f20506981402c55cd5f2f7d694f2717e252ed82165a2c643f66c11"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,23 +24,23 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («noncommercial»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 207,
+  "stars": 234,
   "stars_por_mes": null
  },
  "nombre": "thor-wayfinder",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "887b2457500aff1785f9bc09e0c5abb57c4e65c4",
+  "commit": "c2acda3bdce00400fe3124c6922bbf6833e3f5d9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:887b2457500aff1785f9bc09e0c5abb57c4e65c4"
+  "swhid": "swh:1:rev:c2acda3bdce00400fe3124c6922bbf6833e3f5d9"
  },
  "repo": "Thor-Wayfinder/thor-wayfinder",
  "web": "https://ko-fi.com/thorwayfinder"

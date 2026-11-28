@@ -8,18 +8,9 @@
  },
  "descripcion": "A simple Android app that can preview/edit /etc/hosts file in a GUI manner. Shizuku required.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/linzong--hostman.json",
-  "sha256": "f79ef97a3ee45465e05f58474989fefcba2bf650a00647c9af321819337dedd2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2ac89b404ddb9afd69c45b602ad5eb72a9d5e83f038ec8a6fac7ccabd18587d7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 58,
+  "stars": 59,
   "stars_por_mes": null
  },
  "nombre": "Hostman",

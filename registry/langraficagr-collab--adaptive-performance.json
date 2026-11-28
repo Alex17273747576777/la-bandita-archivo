@@ -8,18 +8,9 @@
  },
  "descripcion": "Adaptive Performance para Android: pré-carregamento inteligente dos apps usados recentemente, ajuste por RAM e temperatura, e economia automática abaixo de 50%.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/langraficagr-collab--adaptive-performance.json",
-  "sha256": "f0970cfde1789d134e0a65ae064737e38b943b84c6b71d79a31ab4eb2aac8755"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "42f6ad49d262bb99df89268cfd36ce0042c87804f5ee96379aac0575a7554a69"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

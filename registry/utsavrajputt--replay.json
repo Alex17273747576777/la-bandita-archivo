@@ -4,22 +4,13 @@
   "release_en": "2026-07-27",
   "semantica_http": 200,
   "ultima_release": "1.0",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anywhere.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/utsavrajputt--replay.json",
-  "sha256": "6ef6a3c07b17608cdd2702588ea7a51ec785adbee269b08495151e2691aab0c5"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e1936fbfed3a6db45bab15abda4589fdd2e82550ab64618d7fd519eac79ad417"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 29,
+  "stars": 34,
   "stars_por_mes": null
  },
  "nombre": "Replay",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1c49d4e0cf0983a074984b1b84a6284e802e8de3",
+  "commit": "1ee259e066dba22215a61d77360d137c5e8f77fd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1c49d4e0cf0983a074984b1b84a6284e802e8de3"
+  "swhid": "swh:1:rev:1ee259e066dba22215a61d77360d137c5e8f77fd"
  },
  "repo": "Utsavrajputt/Replay",
  "web": "https://utsavrajputt.github.io/Replay/"

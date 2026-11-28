@@ -4,22 +4,13 @@
   "release_en": "2026-10-26",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-08"
  },
  "descripcion": "An open-source Android tool that helps prevent unwanted ad redirects and deep links to external apps, with permission prompts and automatic return to the previous app.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rdevz-ph--redirectguard.json",
-  "sha256": "e8035c8a3e468730066f52b6766279a45a62e2b1b2e361ee0607f742a29cfa1e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "cce90614c560b49d1a5cd95d011f18c8d9b3e1b918af4e2548730b8178b797ad"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15,
+  "stars": 26,
   "stars_por_mes": null
  },
  "nombre": "RedirectGuard",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "4ad34f6d54e251ab5f4b833f3fc69a59e8961ea9",
+  "commit": "b1cd94101a0098254df8eea39d53861ab9c79eb5",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4ad34f6d54e251ab5f4b833f3fc69a59e8961ea9"
+  "swhid": "swh:1:rev:b1cd94101a0098254df8eea39d53861ab9c79eb5"
  },
  "repo": "rdevz-ph/RedirectGuard",
  "web": "https://rdevz-ph.github.io/RedirectGuard/"

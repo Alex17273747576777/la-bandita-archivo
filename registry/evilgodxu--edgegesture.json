@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-08-18",
+  "release_en": "2026-09-23",
   "semantica_http": 200,
-  "ultima_release": "5.0.5",
-  "ultimo_push": "2026-11-03"
+  "ultima_release": "5.2.0",
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "Edge Gestures – Alternatives to Android System Gestures",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/evilgodxu--edgegesture.json",
-  "sha256": "9433415a1248eed613b9cf6e30f7dcdfd820b7149656a8c1a47b0615b4336f84"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c49f5e1bb2eb9db1c6ba00eafbb4c77229236933c631d8591859872ad5bb2bd1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 24,
+  "stars": 34,
   "stars_por_mes": null
  },
  "nombre": "EdgeGesture",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9f76cd62840458c85a20888a4e8347f920aa808c",
+  "commit": "90e9fd00b945fdf521dcecaa9f45152adc2ce58d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9f76cd62840458c85a20888a4e8347f920aa808c"
+  "swhid": "swh:1:rev:90e9fd00b945fdf521dcecaa9f45152adc2ce58d"
  },
  "repo": "Evilgodxu/EdgeGesture"
 }

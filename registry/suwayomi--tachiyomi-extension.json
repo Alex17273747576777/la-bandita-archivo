@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-19"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Suwayomi Extension for Tachiyomi and variants",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/suwayomi--tachiyomi-extension.json",
-  "sha256": "1956e170903aec0d84dc4e1cc7756a994bef6fe1cf08612f4dee63d4e8def5bf"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "37003167a037a204a66d227d364bda7cf45a9cf9d0c489e5aa4fdf974dd1c262"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 346,
+  "stars": 353,
   "stars_por_mes": null
  },
  "nombre": "tachiyomi-extension",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "32edb3fa48028811e571467b70f13f927dcca4d0",
+  "commit": "8ab8a0b47531e2e9344764153b8d62e1245ad950",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:32edb3fa48028811e571467b70f13f927dcca4d0"
+  "swhid": "swh:1:rev:8ab8a0b47531e2e9344764153b8d62e1245ad950"
  },
  "repo": "Suwayomi/tachiyomi-extension"
 }

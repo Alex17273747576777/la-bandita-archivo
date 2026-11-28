@@ -4,22 +4,13 @@
   "release_en": "2026-08-13",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Open-source manga library manager, reader & downloader for Windows and Android. Supports PicACG/Pica, E-Hentai, WebDAV, shelves, recommendations, reading history and cross-device access.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/saber-alter-lily--pica-library.json",
-  "sha256": "f76791276dae4216ab2551e22487df1fb322875708eb008b1965ffb971525de1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e6c17d01ac1f479e75e1697ecbee6f80a14bc2c211a0eac84e9389410bf9641a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "095d6910c34e00824e03b08a30af0ce4e708137e",
+  "commit": "df6b8bdf2dc8e710e55eba3f2ac6f18224592a2c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:095d6910c34e00824e03b08a30af0ce4e708137e"
+  "swhid": "swh:1:rev:df6b8bdf2dc8e710e55eba3f2ac6f18224592a2c"
  },
  "repo": "Saber-Alter-Lily/pica-library"
 }

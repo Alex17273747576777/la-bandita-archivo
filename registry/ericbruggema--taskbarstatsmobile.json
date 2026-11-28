@@ -4,22 +4,13 @@
   "release_en": "2026-10-07",
   "semantica_http": 200,
   "ultima_release": "v0.4.1",
-  "ultimo_push": "2026-10-07"
+  "ultimo_push": "2026-11-15"
  },
  "descripcion": "Live system stats for Android: dashboard, cockpit, widgets, status bar icons, data use, processes and cache. Companion of TaskbarStats (Windows).",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ericbruggema--taskbarstatsmobile.json",
-  "sha256": "03bfc3c40cc8df04823e63a8a548129a02fcbffcbb3f1023b2fd2de1918ae862"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b24d909147ec8224061c0629be0656afad947660b1e6f84acf165e59954b8658"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "TaskBarStatsMobile",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "018e1ea6805c4b79baf5c1af03d7a7af9a275d18",
+  "commit": "ead741cefac43934d8b087f9a2af4043be105eaa",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:018e1ea6805c4b79baf5c1af03d7a7af9a275d18"
+  "swhid": "swh:1:rev:ead741cefac43934d8b087f9a2af4043be105eaa"
  },
  "repo": "ericbruggema/TaskBarStatsMobile"
 }

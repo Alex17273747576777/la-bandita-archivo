@@ -8,18 +8,9 @@
  },
  "descripcion": "一个只读、本地、不联网的安卓应用自查工具 | A read-only, offline Android app self-check tool",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/teapieyyds--device-check.json",
-  "sha256": "724e9ada7dea0ca16b1260cd0f98b735382fdfa495cac9562c7001c43b0c5f95"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f592c1f78355bf352f884ec96cc3ec9deb2ce51fc905bdc783390d031940d5e0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,9 +24,9 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («noncommercial»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

@@ -4,22 +4,13 @@
   "release_en": "2026-09-04",
   "semantica_http": 200,
   "ultima_release": "v0.3.1",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/l-k-m--copywraith.json",
-  "sha256": "4e5fe8bd71be19778039dfe640fd625f50afdcdc4f90a6cb5f9c98e6adc52f93"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "78f534115baba679bc50bbccc1fa0587fecf7fcab0fd1f4fd027066cacf0da00"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Unlicense",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f4b1858fb42fe7372b6bd5cab27ef332b49f6f9d",
+  "commit": "ad680a7132bb0d827fd59ece99e4dd8b61805f84",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f4b1858fb42fe7372b6bd5cab27ef332b49f6f9d"
+  "swhid": "swh:1:rev:ad680a7132bb0d827fd59ece99e4dd8b61805f84"
  },
  "repo": "L-K-M/Copywraith"
 }

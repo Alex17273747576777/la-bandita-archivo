@@ -4,22 +4,13 @@
   "release_en": "2026-09-25",
   "semantica_http": 200,
   "ultima_release": "build-3",
-  "ultimo_push": "2026-10-17"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/fdzaki-dev--lagfix.json",
-  "sha256": "38032067b7c996e8ca74ca70d6c1d53c09fc27a40a2e35345e4de7eb81d20b90"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7e5c0734ca2622af47f97c45d6d07e67f3751bc2254d048145a45e35febcdc82"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6923fbaf9e2242d47dc26f69b239f1c11f1295a0",
+  "commit": "af07a73e757469d2c9b590564e17e268c399103e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:6923fbaf9e2242d47dc26f69b239f1c11f1295a0"
+  "swhid": "swh:1:rev:af07a73e757469d2c9b590564e17e268c399103e"
  },
  "repo": "FDzaki-dev/LagFix"
 }

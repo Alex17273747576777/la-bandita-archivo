@@ -4,22 +4,13 @@
   "release_en": "2026-09-06",
   "semantica_http": 200,
   "ultima_release": "v0.5",
-  "ultimo_push": "2026-10-06"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Dexxicon Reader for audiobooks, eBooks, and Comics (including Manga)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dexxfm--dexxicon-reader.json",
-  "sha256": "2ea9e19e390e5e52c65798db5e8a4d5dbd716a036b39c781117636c6a92895e5"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2ca369874b0b43ba3d942cd3f2db893c46a2f4a7e350dfde2020b948ac456070"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15,
+  "stars": 16,
   "stars_por_mes": null
  },
  "nombre": "dexxicon-reader",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "93cbb4f1cdf85e69a2a1ea1d3cbb879f45ac1849",
+  "commit": "dd357daab8095915fe0fd3f69de2cbd967d8cb13",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:93cbb4f1cdf85e69a2a1ea1d3cbb879f45ac1849"
+  "swhid": "swh:1:rev:dd357daab8095915fe0fd3f69de2cbd967d8cb13"
  },
  "repo": "dexxfm/dexxicon-reader"
 }

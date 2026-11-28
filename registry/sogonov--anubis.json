@@ -8,18 +8,9 @@
  },
  "descripcion": "Android app manager with VPN integration. Manages groups of apps by freezing/unfreezing them based on VPN connection state.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sogonov--anubis.json",
-  "sha256": "1b1bbb5a2b6e9025b0d815bb938e0d0fd4119cc06d4b57cf17b845be8ac8b07b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "64864dc7edbf28ecbc90e4ad61f6af2aacbf7fc59f5fc46e114d187bce48aa61"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1248,
+  "stars": 1252,
   "stars_por_mes": null
  },
  "nombre": "anubis",

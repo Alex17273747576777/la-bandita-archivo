@@ -4,22 +4,13 @@
   "release_en": "2026-10-24",
   "semantica_http": 200,
   "ultima_release": "slipstream-v0.1.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Carplay screencasting for linux",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/cfraz89--carjack.json",
-  "sha256": "2acecf0d472f67840e631258c151531e5761297d5165b0ccc10f89d2ea177cb6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bd9261e6eeff8656bba3c1760cc2f3389e9ff42f965b1db59e2d607241bf39a5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 10,
   "stars_por_mes": null
  },
  "nombre": "carjack",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ab249ff861fbca577c08a10aab4bc30cbf6631b7",
+  "commit": "151e1616ce27855aea50dde1b0434617b6427b7d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ab249ff861fbca577c08a10aab4bc30cbf6631b7"
+  "swhid": "swh:1:rev:151e1616ce27855aea50dde1b0434617b6427b7d"
  },
  "repo": "cfraz89/carjack"
 }

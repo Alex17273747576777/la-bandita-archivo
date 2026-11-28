@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/majortanya--mihon.json",
-  "sha256": "6520dbc961b4ca942b4e23d8f58903959a121fe3d0f7cecc6d178090a85a3239"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "34be5509a097f81ccbdde9007b914c46bf247aaff44c9237d0255fcca439b249"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 12,
+  "stars": 13,
   "stars_por_mes": null
  },
  "nombre": "mihon",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e588e04359fe1058206a2cbac1b01018ad787359",
+  "commit": "f64d82b94218b42410c36e6c85da818574865a28",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e588e04359fe1058206a2cbac1b01018ad787359"
+  "swhid": "swh:1:rev:f64d82b94218b42410c36e6c85da818574865a28"
  },
  "repo": "MajorTanya/mihon"
 }

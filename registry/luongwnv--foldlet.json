@@ -4,22 +4,13 @@
   "release_en": "2026-10-29",
   "semantica_http": 200,
   "ultima_release": "v0.5.6",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/luongwnv--foldlet.json",
-  "sha256": "1e88d68f0ca92af5b78e2818ad392a1316dbd765677cb6efd7f8d0428b78ab9d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4c9c19ecc4d70beee58092321d50351da8ac4f7fcf13042c07fe5ed450c3f6b6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "372ec6df0ea2853b2047398710649186596c4fac",
+  "commit": "a202728e0356b81251c8cb699cd17f30dccc2ded",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:372ec6df0ea2853b2047398710649186596c4fac"
+  "swhid": "swh:1:rev:a202728e0356b81251c8cb699cd17f30dccc2ded"
  },
  "repo": "luongwnv/Foldlet"
 }

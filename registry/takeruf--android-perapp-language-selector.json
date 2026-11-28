@@ -4,22 +4,13 @@
   "release_en": "2026-08-23",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-12"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "An Android utility that uses Shizuku to force per-app language (locale) settings on Android 13+ devices without requiring root. It allows applying any language to an app, even if the app lacks built-in language options.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/takeruf--android-perapp-language-selector.json",
-  "sha256": "f7ed424504a1da293b85bf47a09145aabceba3b00bb5cda9b85f0e696f3f4aa1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "017170c05e62f483af8000b2a3655caad510c1a7d3b52312e3693182fd8bb081"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 48,
+  "stars": 53,
   "stars_por_mes": null
  },
  "nombre": "android-perapp-language-selector",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "58292f90ce81dc1c0b24096cb7dc418c66aa5379",
+  "commit": "e279b8b767862fbda2c9ae91dad84bc1e1e569b2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:58292f90ce81dc1c0b24096cb7dc418c66aa5379"
+  "swhid": "swh:1:rev:e279b8b767862fbda2c9ae91dad84bc1e1e569b2"
  },
  "repo": "TakeruF/android-perapp-language-selector",
  "web": "https://takeruf.com/projects/per-app-language"

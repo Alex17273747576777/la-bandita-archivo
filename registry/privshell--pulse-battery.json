@@ -8,18 +8,9 @@
  },
  "descripcion": "Battery & Wakelock Doctor, with an integrated Backup Vault",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/privshell--pulse-battery.json",
-  "sha256": "e5132a4d90ced1520aea5aec1f07ffa1ccdf6245b4834486b901202148221591"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "822f4baf4bae6e6934dd909ae928b77cbbde9b5ec46ffacbaba741d3fe07fac2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7,
+  "stars": 10,
   "stars_por_mes": null
  },
  "nombre": "pulse-battery",

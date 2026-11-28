@@ -8,18 +8,9 @@
  },
  "descripcion": "Catalog of open-source Android applications that use the Shizuku permission framework.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/carlelieser--yuki.json",
-  "sha256": "654357f770dccc3b20a5d76339d8584ca44df596117e7b0d9ff458b03ab5a618"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3a63b2e03fb95c16c8e6af1a9fea62235f0457e31f3e029349174e3db8672b37"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 157,
+  "stars": 168,
   "stars_por_mes": null
  },
  "nombre": "yuki",

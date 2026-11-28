@@ -8,18 +8,9 @@
  },
  "descripcion": "查看 Android 应用的实时内存占用，记录快照，并对比不同时间点的内存变化。 / Monitor Android app memory, capture snapshots, and compare memory usage across points in time.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ryensx--memorysnapshot.json",
-  "sha256": "9b2d03936bb4c4f0262262fc95471bf5cf96fca7c3fe43057a8b339d1b8c9fc8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3b8e069fa67a5ca9869d47199737cb2dabcefc20ee080842dd0d5deac6dcb25b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9,
+  "stars": 11,
   "stars_por_mes": null
  },
  "nombre": "MemorySnapshot",

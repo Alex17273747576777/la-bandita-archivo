@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-06-10"
+  "ultimo_push": "2026-11-14"
  },
  "descripcion": "Zangetsu is an anime and movie/series streaming app.",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/theunknownengima--zangetsu.json",
-  "sha256": "5d14ffda9f38f113089e579da347543efa4f3e86af4eb6033509b75a9fc978db"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5aca07650f1121e4a95341911a5323686618880e77a53cacd8e8a08bc835daa7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,11 +21,11 @@
  "id": "theunknownengima--zangetsu",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "eab2055b54df8298832193cc47f71d2d26c768a1",
+  "commit": "e6b17d26f4b85b789454aeb0be156132406ef1e6",
   "swh_estado": null,
-  "swhid": "swh:1:rev:eab2055b54df8298832193cc47f71d2d26c768a1"
+  "swhid": "swh:1:rev:e6b17d26f4b85b789454aeb0be156132406ef1e6"
  },
  "repo": "TheUnknownEngima/Zangetsu"
 }

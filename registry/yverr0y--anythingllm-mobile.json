@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-07"
+  "ultimo_push": "2026-11-12"
  },
  "descripcion": "Bring local AI intelligence to your device. No rate limits & local first.",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yverr0y--anythingllm-mobile.json",
-  "sha256": "03eddfbed3e6075fbb11e2e13ff46e1127240bfdbf7d9fff4a2fc3e2b5824342"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bd8544c83038306c304fe3fa9ab471cf7b6aebf3e3619b836ad843d3e6bc7cfd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e86368181230403eb8e669d3b25593ff8b1a7943",
+  "commit": "fef1fe7f9fdfba7895f68aa4b28d332ae510ddc3",
   "swh_estado": null,
-  "swhid": "swh:1:rev:e86368181230403eb8e669d3b25593ff8b1a7943"
+  "swhid": "swh:1:rev:fef1fe7f9fdfba7895f68aa4b28d332ae510ddc3"
  },
  "repo": "Yverr0y/anythingllm-mobile"
 }

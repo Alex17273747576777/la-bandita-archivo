@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-09-29T23:18:19Z",
-   "oid": "e807f2e34de59430e9118e3d11cff4f4b2b00865"
+   "committedDate": "2026-11-09T02:15:27Z",
+   "oid": "da2354fb44ce15bc86f2ff0e881d8b9dc96ba34c"
   }
  },
- "diskUsage": 34609,
+ "diskUsage": 38651,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,9 +18,15 @@
   "spdxId": "MIT"
  },
  "nameWithOwner": "tevriqorg/quick-search",
- "pushedAt": "2026-10-02T01:57:06Z",
+ "pushedAt": "2026-11-09T02:22:17Z",
  "releases": {
-  "nodes": []
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-11-08T12:12:16Z",
+    "tagName": "tevriq-v5.0-r8"
+   }
+  ]
  },
  "stargazerCount": 0
 }

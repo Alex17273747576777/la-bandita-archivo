@@ -4,22 +4,13 @@
   "release_en": "2019-03-18",
   "semantica_http": 200,
   "ultima_release": "v7.4.5-AZ",
-  "ultimo_push": "2026-10-25"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Free and open source EMAIL AND FREE DOUJIN reader for Android and iOS",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/az4521--tachiyomiaz.json",
-  "sha256": "5e46460003da09fa845579d86218765da9adc7118bed4af338033a2818db498e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c9cd6d53ea5f35a98e8b5468049b9374894dfd2152bd370c903df22029edb824"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 735,
+  "stars": 738,
   "stars_por_mes": null
  },
  "nombre": "TachiyomiAZ",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "8587d08ef966b5214a0c8b681d545ac7b7fd1668",
+  "commit": "6270e4d25d827427fe35411a3dcb2f66a352b20d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:8587d08ef966b5214a0c8b681d545ac7b7fd1668"
+  "swhid": "swh:1:rev:6270e4d25d827427fe35411a3dcb2f66a352b20d"
  },
  "repo": "az4521/TachiyomiAZ",
  "web": "https://crafty.moe/tachiAZ.htm"

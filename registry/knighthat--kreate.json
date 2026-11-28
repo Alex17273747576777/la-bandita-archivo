@@ -4,22 +4,13 @@
   "release_en": "2024-10-28",
   "semantica_http": 200,
   "ultima_release": "weekly-kbuild",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "A multilingual YouTube Music frontend for Android, prioritize performance",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/knighthat--kreate.json",
-  "sha256": "ae27fea598c889a2039298cc789263af65ddafb9effd45080859ed706dde6843"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "48892767daf546b6b2413afc33b1cc4677b0d959bc64c7c29fee963002c48bde"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1166,
+  "stars": 1169,
   "stars_por_mes": null
  },
  "nombre": "Kreate",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "0bf803a1e483d4be3d4b4d394f1d0e5710922df8",
+  "commit": "518400171a2217db9539679a022215f903975d08",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:0bf803a1e483d4be3d4b4d394f1d0e5710922df8"
+  "swhid": "swh:1:rev:518400171a2217db9539679a022215f903975d08"
  },
  "repo": "knighthat/Kreate",
  "web": "https://kreate.knighthat.me"

@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
+  "estado": "vivo",
+  "release_en": "2026-10-23",
+  "semantica_http": 200,
+  "ultima_release": "v3.3",
   "ultimo_push": "2026-10-23"
  },
  "descripcion": "Android app that enables microphone effects (echo cancellation, noise suppression, AGC) for apps that don't use them, through Shizuku. No root, no internet, no audio recording.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yaseen91479--echoroute.json",
-  "sha256": "af0101426eb1dadc062bfa5a862c124a775cbcdc328518123bef855091656bb4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "323493240a971361688fc5800af687a8bafaf2aefbd0a38ff5fc61cbf46d673d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,26 +21,26 @@
  "id": "yaseen91479--echoroute",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "EchoRoute",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "373d43c8335d4d78ca81617aa0841ca096f69c8e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:373d43c8335d4d78ca81617aa0841ca096f69c8e"
  },
  "repo": "Yaseen91479/EchoRoute"
 }

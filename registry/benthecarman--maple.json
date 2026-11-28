@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-25"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Maple - Private AI Chat",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/benthecarman--maple.json",
-  "sha256": "abdabfe38d3f6cb37a1ff75e3ccc534da00645cc3b3e35816995d03b72373e38"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d0e07e27b39f24c7072b1f08cbdf9b6d18511bb4c6bcf8a02726904285f925a9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "91e8ff5aceac477e37e75a800f1d6f63c1553e82",
+  "commit": "23e797254912cfc29cf7b18c66a5d047f3286a68",
   "swh_estado": null,
-  "swhid": "swh:1:rev:91e8ff5aceac477e37e75a800f1d6f63c1553e82"
+  "swhid": "swh:1:rev:23e797254912cfc29cf7b18c66a5d047f3286a68"
  },
  "repo": "benthecarman/Maple"
 }

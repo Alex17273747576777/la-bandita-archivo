@@ -8,18 +8,9 @@
  },
  "descripcion": "Elder phone takeover guard: accessibility-service guard + rescue button + encrypted relay. 長輩手機接管守門哨",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/monarchsofchaos004-gif--phoneguard.json",
-  "sha256": "0e2f52d2f7c3822cc1a2c78c568f2b7f81959817d8ce5d7eb17fd9f517c4358f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "545398abe0efe9ee26a78598536883b955733687fda4d7307d32fe3dc0053842"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

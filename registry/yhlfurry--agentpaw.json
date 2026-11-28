@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "estado": "vivo",
+  "release_en": "2026-10-05",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-11-09"
  },
  "descripcion": "AgentPaw, an agent on Android phones.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yhlfurry--agentpaw.json",
-  "sha256": "206e9917a0c9e19630a43d058c2e2b16715e69352e2cad117f19ff85291259cb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "711fc45bdb05eb94e040411d4dacbf9c671aeb889974fcfb211180f5a1c4a373"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 6,
   "stars_por_mes": null
  },
  "nombre": "AgentPaw",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7dab64093fa84d7e6de8e82b008703feccc3b64f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7dab64093fa84d7e6de8e82b008703feccc3b64f"
  },
  "repo": "YHLFurry/AgentPaw"
 }

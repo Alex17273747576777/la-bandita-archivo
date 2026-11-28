@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-23"
+  "ultimo_push": "2026-11-17"
  },
  "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anyw",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/znarfm--mpvrx.json",
-  "sha256": "2146bf1499e5bde85ff7ab42718a6f73a224a72af03f50af31fd92c1b02bd358"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "03c0210c464be62e69660e34f6efd366fe525deab440bc13c681d95527049324"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "231d0ad49d6bf9d5e8d7c61ed44bdbad76d9847a",
+  "commit": "8c2a4b5c8cd942891c1d1a7c282f2201c6d74d13",
   "swh_estado": null,
-  "swhid": "swh:1:rev:231d0ad49d6bf9d5e8d7c61ed44bdbad76d9847a"
+  "swhid": "swh:1:rev:8c2a4b5c8cd942891c1d1a7c282f2201c6d74d13"
  },
  "repo": "znarfm/mpvRx"
 }

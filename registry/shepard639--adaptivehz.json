@@ -4,22 +4,13 @@
   "release_en": "2026-10-10",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-14"
+  "ultimo_push": "2026-11-09"
  },
  "descripcion": "Adaptive refresh rate, 120Hz in power saving mode & battery optimizer for Samsung Galaxy",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/shepard639--adaptivehz.json",
-  "sha256": "ac51e41cf9eaa8e86c8065d72d6eefe402712be0b361e1552add0e780772dddd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f8b3dd371427c6b929b2f12ef98676c4c6af773fa3c5749f804064788fefa4a1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "AdaptiveHz",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f46030dfc48bf5dcfae6a655f735c074ec293a42",
+  "commit": "41a7a181dd6c2aa1df71b96f2536188b76b6f9c4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f46030dfc48bf5dcfae6a655f735c074ec293a42"
+  "swhid": "swh:1:rev:41a7a181dd6c2aa1df71b96f2536188b76b6f9c4"
  },
  "repo": "shepard639/AdaptiveHz",
  "web": "https://healthcraft.pro/?ref=adaptivehz"

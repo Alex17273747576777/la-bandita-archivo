@@ -8,18 +8,9 @@
  },
  "descripcion": "AppSlim Analyzer - Android 应用运行时分析与智能精简平台（一键检测启动行为 / UsageStats / LSPosed）",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/horizen5--appslim.json",
-  "sha256": "7328794aef2ce4464a7e21478c8fe88e437e1f31f4705ceb86cfd456d3112d78"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a165a5fe016e916d57fb698d40a827b51d023a162bf812682d0ea2ce11e1f792"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15,
+  "stars": 16,
   "stars_por_mes": null
  },
  "nombre": "Appslim",

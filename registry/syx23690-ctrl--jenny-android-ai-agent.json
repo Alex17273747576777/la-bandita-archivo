@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-22"
+  "ultimo_push": "2026-11-11"
  },
  "descripcion": "一款本地优先的个人AI助手，常驻于您的Android手机。它具备永久记忆、可定时执行的自主任务、可自我编写的小型应用，并可选作为主屏幕启动器。您的数据始终保留在",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/syx23690-ctrl--jenny-android-ai-agent.json",
-  "sha256": "5217f1babc289f68a145d7a3daad6e6d787ffbbdd3b97d99ac38b682a0845034"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4442b4a64c984e757e3db1df82dc695735b9ca0ab4c7dd6b74e19f7cd5876f18"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d378c0dac234f2ee53573ccd6602309abbc0c71a",
+  "commit": "e935c634cfcc117d447c68a5ab67e00fd1c6d7af",
   "swh_estado": null,
-  "swhid": "swh:1:rev:d378c0dac234f2ee53573ccd6602309abbc0c71a"
+  "swhid": "swh:1:rev:e935c634cfcc117d447c68a5ab67e00fd1c6d7af"
  },
  "repo": "syx23690-ctrl/jenny-android-ai-agent"
 }

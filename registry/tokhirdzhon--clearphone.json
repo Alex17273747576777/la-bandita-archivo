@@ -8,18 +8,9 @@
  },
  "descripcion": "Открытый Android-чистильщик: большие файлы, дубликаты, размер папок, приложения и кэш через Shizuku. Без рекламы и интернета.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tokhirdzhon--clearphone.json",
-  "sha256": "b15b69bdda9ad121d563fb36c2814c5d08738d2098ca6d8c2fb0b41dcc1bd0b6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fee82b8ba923678564172b5d8a1504449d2b83f2b811a49067d38d3b1f2d8068"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "ClearPhone",

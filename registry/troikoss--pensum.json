@@ -8,18 +8,9 @@
  },
  "descripcion": "Advanced system monitor and process killer for Android, optimized for desktop mode.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/troikoss--pensum.json",
-  "sha256": "197c77fa94a9b9ae17940c7ad47f1aa59e1f71f11a704e4648bc56ca89ce0057"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "75d8638e01880f73c8cf9ad53ae533ce209bb8df31395a072023fe94bf85d3a2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 234,
+  "stars": 244,
   "stars_por_mes": null
  },
  "nombre": "Pensum",

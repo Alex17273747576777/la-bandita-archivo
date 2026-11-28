@@ -4,22 +4,13 @@
   "release_en": "2026-10-07",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-20"
+  "ultimo_push": "2026-11-08"
  },
  "descripcion": "Battery optimization suite, performance profiles, and debloat scripts for Samsung Galaxy S25 Edge",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mich-de--s25edge_battery.json",
-  "sha256": "5e6b9b4e57e7d3e8a58abda3b0e7b80f25e93a04002ced45e713c4393ca6c1d6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b5427de501c95a2f119aad70561115261adfad31f5f105d4f44b1041b04a2699"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "s25edge_battery",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5ebb1dc3d7f2e53571abf3ee7d5ab97d22e38f73",
+  "commit": "a09ad429286887b6789e8742833cb077d5ccfa1f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5ebb1dc3d7f2e53571abf3ee7d5ab97d22e38f73"
+  "swhid": "swh:1:rev:a09ad429286887b6789e8742833cb077d5ccfa1f"
  },
  "repo": "mich-de/s25edge_battery"
 }

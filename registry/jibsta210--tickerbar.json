@@ -4,22 +4,13 @@
   "release_en": "2026-09-24",
   "semantica_http": 200,
   "ultima_release": "v1.2",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Status bar ticker, edge-swipe launcher and shade shortcuts for HyperOS/MIUI",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jibsta210--tickerbar.json",
-  "sha256": "5fe570488836fd441ec6014a3bf75dda241887af7b3b02492c5c5166647e00d9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4a527bb2d1f31312bbe6cff8fd9b9ab3cafca81297d48b23aedb6d5ca9a3bd60"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 3,
   "stars_por_mes": null
  },
  "nombre": "tickerbar",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "cd58cb1cfb0fad55d9a12451f9ad64ab547ba82c",
+  "commit": "41799a7dbe352dad1ac6cdfbeaebd9d8bfd6786a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:cd58cb1cfb0fad55d9a12451f9ad64ab547ba82c"
+  "swhid": "swh:1:rev:41799a7dbe352dad1ac6cdfbeaebd9d8bfd6786a"
  },
  "repo": "jibsta210/tickerbar"
 }

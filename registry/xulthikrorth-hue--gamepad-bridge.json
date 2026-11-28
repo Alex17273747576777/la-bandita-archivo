@@ -8,18 +8,9 @@
  },
  "descripcion": "Android app that creates a virtual Xbox One or DualShock 4 gamepad using Shizuku and uinput, so games that only accept those controllers can detect your pad. No root. Prototype.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/xulthikrorth-hue--gamepad-bridge.json",
-  "sha256": "dd52d19d67f9aea4949b3b424d2a7030668b31430a45cbee175028083a73a7dd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9dc934ac6577ab2553c7469969699e657a1a79d51ff11eca7775470bbfcb4f1f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 3,
   "stars_por_mes": null
  },
  "nombre": "gamepad-bridge",

@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2025-12-05",
+  "release_en": "2026-11-27",
   "semantica_http": 200,
-  "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultima_release": "v6.3.35",
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Seamless immersion language learning for anime, manga, novels on all platforms",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kolbyml--manatan.json",
-  "sha256": "b895c5417c37ecd005f9bb144b2a6fe22599d1beff80c303dae9406101d7217a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a82eaa01c9465c469d216ee45bdad842ff65198f41bb7fa635ae5c972857fb24"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 622,
+  "stars": 633,
   "stars_por_mes": null
  },
  "nombre": "Manatan",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "559d5fc6b8060ff5c1e1c3831ff466d5d255c61d",
+  "commit": "569e850c80f7e5c76a24fc914e1b5133925ef241",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:559d5fc6b8060ff5c1e1c3831ff466d5d255c61d"
+  "swhid": "swh:1:rev:569e850c80f7e5c76a24fc914e1b5133925ef241"
  },
  "repo": "KolbyML/Manatan",
  "web": "https://manatan.com/"

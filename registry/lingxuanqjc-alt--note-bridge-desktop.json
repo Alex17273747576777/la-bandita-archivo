@@ -8,18 +8,9 @@
  },
  "descripcion": "Windows 笔记导出与迁移工具：七平台适配、四格式导出、离线阅读，明确验证范围与失败状态。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lingxuanqjc-alt--note-bridge-desktop.json",
-  "sha256": "6babee98f5c2ec6f726fbd0f454fc2cd9ebdf93ca929ac2bf693a2f906bb06a1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8af892d787c480466ddf3b4722e2c78a0d5d475843be942485cedaf7478e224b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1026,
+  "stars": 1060,
   "stars_por_mes": null
  },
  "nombre": "note-bridge-desktop",

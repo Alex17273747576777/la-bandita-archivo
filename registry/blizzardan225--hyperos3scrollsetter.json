@@ -4,22 +4,13 @@
   "release_en": "2026-06-25",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-19"
+  "ultimo_push": "2026-11-10"
  },
  "descripcion": "让你的澎湃OS3设备设置随屏滚动的壁纸！Set scrolling wallpaper on your HyperOS 3 device!",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/blizzardan225--hyperos3scrollsetter.json",
-  "sha256": "3c401e6c94a504555494c410bac01310a2a013ee8e7caa50f5cbd91635f57605"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f523985ba8b2c052f9aefeaf1b72f501857e2db82768c5c059b2a7cf0bf1dfd9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 24,
+  "stars": 28,
   "stars_por_mes": null
  },
  "nombre": "HyperOS3ScrollSetter",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "0f530128d4ee66193d96cf1faeb1b5709dcad0ce",
+  "commit": "a2ac07937270f8f64403f341e1825575c734ff3a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:0f530128d4ee66193d96cf1faeb1b5709dcad0ce"
+  "swhid": "swh:1:rev:a2ac07937270f8f64403f341e1825575c734ff3a"
  },
  "repo": "BlizzardAn225/HyperOS3ScrollSetter"
 }

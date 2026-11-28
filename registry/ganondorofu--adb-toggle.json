@@ -8,18 +8,9 @@
  },
  "descripcion": "Toggle USB debugging, wireless debugging and developer options from a Quick Settings tile, widget or app (no root)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ganondorofu--adb-toggle.json",
-  "sha256": "0b98bd34ef67a36aa8b02a54a09b4c23a594e831b18aba2cb84835de15220917"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6ce01658c0b17835cb18b0de3b368b88c7b31355357d8e8f07383395c9a1ebf9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "adb-toggle",

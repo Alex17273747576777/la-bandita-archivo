@@ -8,18 +8,9 @@
  },
  "descripcion": "Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga support, Novel EPUB reader, and instant Anki card mining.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/bee-san--chimahon.json",
-  "sha256": "92c62a8bfec63b60b4e52970b0c7da1b21e56fed193a870d517521e934ce4d0c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f8c5fb264802c33c1b2487fb48a69fe338980eb4583fa91d0aea00cc3b44feb3"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

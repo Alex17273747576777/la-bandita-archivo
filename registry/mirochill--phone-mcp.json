@@ -8,18 +8,9 @@
  },
  "descripcion": "Android MCP for AI agents: 66 tools, independent app sessions, branching on-device plans, PNG/MP4 capture, files, notifications and bounded ad-control jobs. Self-hosted with Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mirochill--phone-mcp.json",
-  "sha256": "465b5739e6605a555fb67a169a6f5a6ddbcf99b4fbe0d6d927c90862cd3e2e2d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "46dacc75639084ea616d5d4ccc10a35cef87771b29d9b228b357685970f0cee4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4,
+  "stars": 9,
   "stars_por_mes": null
  },
  "nombre": "Phone-MCP",

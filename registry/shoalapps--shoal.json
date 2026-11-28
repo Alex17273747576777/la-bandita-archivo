@@ -4,22 +4,13 @@
   "release_en": "2026-10-25",
   "semantica_http": 200,
   "ultima_release": "build-1",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "Installs and updates the Tintloom apps, silently with Shizuku or root",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/shoalapps--shoal.json",
-  "sha256": "2734e60ace057b40d51b2dfb04d6febbf439f4481b51978d965d2048a685bb7f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f28065503bf3ced160bb9dd5437fec2809bb70a9a9a606da29085c9138ac92a6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5f9b0f89a336390b92cb182ba53b333858e6d5b3",
+  "commit": "915ca3cc501630ef47f8d5c72d47f0786153ba19",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5f9b0f89a336390b92cb182ba53b333858e6d5b3"
+  "swhid": "swh:1:rev:915ca3cc501630ef47f8d5c72d47f0786153ba19"
  },
  "repo": "ShoalApps/shoal",
  "web": "https://tintloom.github.io"

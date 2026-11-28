@@ -4,22 +4,13 @@
   "release_en": "2026-09-07",
   "semantica_http": 200,
   "ultima_release": "v1.1.1",
-  "ultimo_push": "2026-10-17"
+  "ultimo_push": "2026-11-18"
  },
  "descripcion": "WhatsApp Desk is a fast, ultra-lightweight, privacy-respecting desktop client for WhatsApp Web. Built with native operating system web engines — WebKit on macOS, WebView2 on Windows, and WebKitGTK on Linux. Zero Electron bloat • Zero telemetry • Zero message relay servers • Complete local privacy.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/vianziro--whatsapp-dekstop.json",
-  "sha256": "cd07ec8132d98e71ef3829ac562547d44b506686726cca72cf8af70e57edbd96"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "956434221d2432f6ab9ecf5bc019cb348838761c0e2ccd2bf464b121d602593e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 230,
+  "stars": 234,
   "stars_por_mes": null
  },
  "nombre": "Whatsapp-Dekstop",

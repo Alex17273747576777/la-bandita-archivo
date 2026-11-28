@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-08",
+  "release_en": "2026-11-12",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "Open-source wireless ADB bridge between a computer and an Android phone. macOS and Windows tray app, Android client, and the web service",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ferhatozcelik--pairspan.json",
-  "sha256": "0e90f11643d1582a796e57628f3d9b738592b47b363190f3a0d83f68dc8e90c0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a80baf0f5a7855309fba019c272bb8b0e2901e770ed8d5d6e1d00977fd0cfbec"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2f945943d4c02aaf4202d84b4bb58c28899edf13",
+  "commit": "52e5d5e5fda8c03758a55214015ee86b8091b751",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:2f945943d4c02aaf4202d84b4bb58c28899edf13"
+  "swhid": "swh:1:rev:52e5d5e5fda8c03758a55214015ee86b8091b751"
  },
  "repo": "ferhatozcelik/pairspan",
  "web": "https://pairspan.ferhatozcelik.com"

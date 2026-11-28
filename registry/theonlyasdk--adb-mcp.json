@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "MCP server that gives coding agents hands and eyes on a real Android device: screenshots, UI tree, taps, typing, app lifecycle, logcat, wireless adb.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/theonlyasdk--adb-mcp.json",
-  "sha256": "7252c8139a7ca0feebe1a1810ee12ea018cda8c567e61f5d6f231d46790250a7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1a240bdd6091eab469dddef000fbca002302b6dbfc2ca82be5273dd31c832e69"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "bab17a81ea60776515cbffcd1cb73364762a8960",
+  "commit": "b37cbec3dcf66ef9c2e3ffa1d0e1b44652f2e596",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:bab17a81ea60776515cbffcd1cb73364762a8960"
+  "swhid": "swh:1:rev:b37cbec3dcf66ef9c2e3ffa1d0e1b44652f2e596"
  },
  "repo": "theonlyasdk/adb-mcp"
 }

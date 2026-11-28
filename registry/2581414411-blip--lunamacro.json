@@ -4,22 +4,13 @@
   "release_en": "2026-10-24",
   "semantica_http": 200,
   "ultima_release": "models",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "LunaMacro — Local-first Android automation assistant: voice wake-up, offline ASR & vision (Qwen2-VL), Shizuku injection, game automation.    宏月 LunaMacro —— Android 全能自动化助手：本地语音唤醒 · 离线视觉识别 · Shizuku 注入 · 游戏托管",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/2581414411-blip--lunamacro.json",
-  "sha256": "af04f2000d4226b2aee0f64930298fd63a67bd2a4440b02f583ae874656aaf6d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1fa9284405c4e46df47c183e0067e7a38be0618c466ea056c8bb3106e961cb85"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 5,
   "stars_por_mes": null
  },
  "nombre": "LunaMacro",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "8fbb9ce354bb52dc6d0f51b5ff54b3f5ae64f421",
+  "commit": "b7b775469d2fa5a18b129bff160784cdcb8322b5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:8fbb9ce354bb52dc6d0f51b5ff54b3f5ae64f421"
+  "swhid": "swh:1:rev:b7b775469d2fa5a18b129bff160784cdcb8322b5"
  },
  "repo": "2581414411-blip/LunaMacro"
 }

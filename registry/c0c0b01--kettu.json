@@ -8,18 +8,9 @@
  },
  "descripcion": "A Discord mobile app client modification continuing Bunny's mission  NOTICE: this is a mirror of the codeberg repository, please make all PRs and Issues there",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/c0c0b01--kettu.json",
-  "sha256": "a045d5c4861c19a0f53b9df66aab7cec80693b6fd575ac1a36c7acf318b5fcdf"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "18fa7d105aa1aed9acb25053a91d9a614b21be2143dba402437bae440ca2abdf"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "BSD-3-Clause",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 657,
+  "stars": 676,
   "stars_por_mes": null
  },
  "nombre": "Kettu",

@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-09-16T18:53:32Z",
-   "oid": "20b42df1701d6fb01c1c7561373fda8d93571a0c"
+   "committedDate": "2026-10-05T18:16:21Z",
+   "oid": "6e35b41f0cc7e375d15527bd61375435f998685a"
   }
  },
- "diskUsage": 90248,
+ "diskUsage": 90216,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Apache-2.0"
  },
  "nameWithOwner": "Solovertical/anikku",
- "pushedAt": "2026-10-01T02:49:01Z",
+ "pushedAt": "2026-11-07T09:31:21Z",
  "releases": {
   "nodes": []
  },

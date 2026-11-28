@@ -4,22 +4,13 @@
   "release_en": "2026-04-27",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-09"
  },
  "descripcion": "Pixel call recorder for stock Android via Shizuku — no root, no unlocked bootloader. Dual-track VOICE_UPLINK+DOWNLINK with 5-step fallback ladder. Material 3 Expressive UI. Privacy-first: zero telemetry, opt-in cloud transcription with self-hosted endpoint support.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lyosu--cally.json",
-  "sha256": "057f64371ea395645f161f2522dba091aa1687e712ad9c1d0e97c38b68f8d05f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c60ae5f7faf3f23c246c0867f796efc750a7825ae7e230f4b76d37acb0f8c08c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 42,
+  "stars": 44,
   "stars_por_mes": null
  },
  "nombre": "cally",

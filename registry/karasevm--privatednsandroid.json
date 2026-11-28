@@ -8,18 +8,9 @@
  },
  "descripcion": "Quick settings tile to switch active private DNS server",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/karasevm--privatednsandroid.json",
-  "sha256": "03cfd80aeade569afed89f5c52afa84f7ae9c91591dcdb0df16329885c0c73ec"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "495f8cede4ab67bfa05cc32195c54326efc3769265d7ab13d995cd5867e35c11"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1064,
+  "stars": 1077,
   "stars_por_mes": null
  },
  "nombre": "PrivateDNSAndroid",

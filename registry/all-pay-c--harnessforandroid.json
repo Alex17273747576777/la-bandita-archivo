@@ -4,22 +4,13 @@
   "release_en": "2026-10-27",
   "semantica_http": 200,
   "ultima_release": "v0.01",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-06"
  },
  "descripcion": "Android client for DeepSeek Harness: on-device Node.js 22 runtime, plugin host, and Linux environment",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/all-pay-c--harnessforandroid.json",
-  "sha256": "a1dc87254178f63335867c4fb94912a1f6fa9de0797ebe4d31096146b0614083"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9ddf60009322703cebd831f5cb11b17b48443dbd88b12127f12eb9cb9dcc77f6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1849992f48140f0113f7a15ebfce576f8a2a5453",
+  "commit": "914fe58fa702e8ccb4238bfaf418554fc78e4534",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1849992f48140f0113f7a15ebfce576f8a2a5453"
+  "swhid": "swh:1:rev:914fe58fa702e8ccb4238bfaf418554fc78e4534"
  },
  "repo": "ALL-PAY-C/HarnessForAndroid"
 }

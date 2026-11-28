@@ -4,22 +4,13 @@
   "release_en": "2025-06-01",
   "semantica_http": 200,
   "ultima_release": "v.1.0.0-T820",
-  "ultimo_push": "2026-10-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "GammaOS Next. Android 14 GSI distribution tailored for handheld gaming consoles. ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/thegammasqueeze--gammaosnext.json",
-  "sha256": "86d83f5de136d05ebdd8f935b47879ee2e5e37a07ad3ea47f0ffe5b494c58508"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "40611b5f7f2cf27c434a7a24e391754b2bbfbc859a99687d2dc53409ae830e31"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 689,
+  "stars": 724,
   "stars_por_mes": null
  },
  "nombre": "GammaOSNext",

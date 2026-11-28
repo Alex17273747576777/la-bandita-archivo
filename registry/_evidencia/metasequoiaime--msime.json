@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-27",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-11-27T17:41:58Z",
+   "oid": "91fbcedd7a95d6290b2aad6b1cfaa5c916a82e54"
+  }
+ },
+ "diskUsage": 221630,
+ "forkCount": 119,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 87
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "metasequoiaime/msime",
+ "pushedAt": "2026-11-28T00:36:09Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-10-02T16:40:49Z",
+    "tagName": "linux-v0.9.1"
+   }
+  ]
+ },
+ "stargazerCount": 1493
+}

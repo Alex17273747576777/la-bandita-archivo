@@ -4,22 +4,13 @@
   "release_en": "2020-02-04",
   "semantica_http": 200,
   "ultima_release": "v5.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "💊 Appteka is an alternative store for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/solkin--appteka-android.json",
-  "sha256": "a1996f0a66f214caf7148eb8f732aa9396295a44881c30d00972a0cde74cd449"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ae35742dcee0fa5ae3b769c75d0305fefe968f5851968d9900e132c5b8d8dea2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1379,
+  "stars": 1468,
   "stars_por_mes": null
  },
  "nombre": "appteka-android",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "24724adb51955a20bfc1001969d9d098cc55a026",
+  "commit": "f32375069442044aeaaea3338dab739bf057a187",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:24724adb51955a20bfc1001969d9d098cc55a026"
+  "swhid": "swh:1:rev:f32375069442044aeaaea3338dab739bf057a187"
  },
  "repo": "solkin/appteka-android",
  "web": "https://appteka.store"

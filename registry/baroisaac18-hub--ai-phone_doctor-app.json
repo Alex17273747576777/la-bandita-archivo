@@ -8,18 +8,9 @@
  },
  "descripcion": "An Android Ai phone doctor app containing tools designed for the phone; it is under development and can be tried. ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/baroisaac18-hub--ai-phone_doctor-app.json",
-  "sha256": "3b2346327a6387391368186b5d7828dfe88cfd2e8dc1da6fc28f90320af3d51d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "55ad8bd360d23e883cdd732161f9cc4674da017aa3e41e04672021056dc1f67c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

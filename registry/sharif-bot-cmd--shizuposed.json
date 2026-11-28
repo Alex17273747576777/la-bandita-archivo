@@ -4,22 +4,13 @@
   "release_en": "2026-10-06",
   "semantica_http": 200,
   "ultima_release": "1.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "Rootless Xposed Framework",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sharif-bot-cmd--shizuposed.json",
-  "sha256": "be69e6dcc0f5709d919cbef168ead0ca4bd2ef021090cf887a55995683aa0e77"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7feff1ccea543b892d2343ba6167dae43c323c7ed0a76afa0af492c79bc062b9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 86,
+  "stars": 128,
   "stars_por_mes": null
  },
  "nombre": "ShizuPosed",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3cb8d12f47745764f7cf841159f37572addb7f1c",
+  "commit": "f592806c58e5dd426315a837f321fab1d33d198f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3cb8d12f47745764f7cf841159f37572addb7f1c"
+  "swhid": "swh:1:rev:f592806c58e5dd426315a837f321fab1d33d198f"
  },
  "repo": "Sharif-bot-cmd/ShizuPosed"
 }

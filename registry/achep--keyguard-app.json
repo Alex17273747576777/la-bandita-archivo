@@ -4,22 +4,13 @@
   "release_en": "2023-12-30",
   "semantica_http": 200,
   "ultima_release": "r20231230",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A password manager that supports Bitwarden platform and KeePass (KDBX) files. It autofills your logins, supports passkeys, works offline, and runs a Watchtower that finds leaked and reused passwords and other issues.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/achep--keyguard-app.json",
-  "sha256": "c110b9cbb0758950f91ba575e86a8c05ac8e090b94160813d911c8667e6beec0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3379fb0978cce7da161f71c3573b217f5e0f54e2f5297fce41664d88a170ecba"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,23 +24,23 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3601,
+  "stars": 3704,
   "stars_por_mes": null
  },
  "nombre": "keyguard-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ebb23ce047cb7e897a561bd46456f860887917d8",
+  "commit": "e01fffdc143d4fe7b7eb132ae38189e2022ffbdb",
   "swh_estado": "solicitud 200",
   "swh_solicitud": "accepted",
-  "swhid": "swh:1:rev:ebb23ce047cb7e897a561bd46456f860887917d8"
+  "swhid": "swh:1:rev:e01fffdc143d4fe7b7eb132ae38189e2022ffbdb"
  },
  "repo": "AChep/keyguard-app",
  "web": "https://keyguard.dev/"

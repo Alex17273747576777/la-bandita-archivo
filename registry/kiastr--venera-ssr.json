@@ -8,18 +8,9 @@
  },
  "descripcion": "A manga viewer.support realtime Coloring  and Anime4kSR and OCR translation.All running locally./ 一个支持不同漫画源,阅读实时,本地黑白漫画上色，anime4k超分辨率，本地ocr翻译的改版漫画阅读器",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kiastr--venera-ssr.json",
-  "sha256": "ed154f6c4c8d6eb00b43a9f547642ad85ac250e25978c753fed97511aa0fae5e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "479fbe16ce67316d046b8f828ca2b27071ccdadb8b742b8454979bbac0024d3f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 71,
+  "stars": 76,
   "stars_por_mes": null
  },
  "nombre": "Venera-SSR",

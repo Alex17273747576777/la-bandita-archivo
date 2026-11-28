@@ -4,22 +4,13 @@
   "release_en": "2026-08-22",
   "semantica_http": 200,
   "ultima_release": "magisk-v30.7",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Curated directory of Android root apps, Magisk, KernelSU, LSPosed modules, system tools, privacy utilities, and no-root Shizuku apps.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/krishna3163--best-root-apps-for-android.json",
-  "sha256": "0aff8c83b00958ccec35d07f0dbc44533ad56aa803cf803e9cfe4d62a1abc922"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9c0fa6cb68dd45de0b1c4b609747246b468ef6afc7e4105f339fa546c7337489"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 51,
+  "stars": 64,
   "stars_por_mes": null
  },
  "nombre": "best-root-apps-for-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "169ca7f1cfdd5ced3debef6472dd703a6f57ad35",
+  "commit": "30900a8eb65cdc37ee00215951d0787dff07e8be",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:169ca7f1cfdd5ced3debef6472dd703a6f57ad35"
+  "swhid": "swh:1:rev:30900a8eb65cdc37ee00215951d0787dff07e8be"
  },
  "repo": "krishna3163/best-root-apps-for-android",
  "web": "https://krishna3163.github.io/best-root-apps-for-android/"

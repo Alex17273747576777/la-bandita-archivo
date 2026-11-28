@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
    "committedDate": "2026-09-03T01:42:26Z",
    "oid": "d73f99efbfd40c3aa1b61e88728b3d49fb52608f"
   }
  },
- "diskUsage": 29654,
+ "diskUsage": 28912,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "NOASSERTION"
  },
  "nameWithOwner": "craigwu4-a11y/servers",
- "pushedAt": "2026-09-03T01:42:26Z",
+ "pushedAt": "2026-11-24T08:19:46Z",
  "releases": {
   "nodes": []
  },

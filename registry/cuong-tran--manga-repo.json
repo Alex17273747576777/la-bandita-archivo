@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-09-05",
+  "release_en": "2026-11-24",
   "semantica_http": 200,
-  "ultima_release": "04250b1-0",
-  "ultimo_push": "2026-11-02"
+  "ultima_release": "dc4572c-0",
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Extensions for Komikku / Mihon & forks.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/cuong-tran--manga-repo.json",
-  "sha256": "e8f8870c7de3256673b8c1eed1be85e971d783f59bdef22ca6735bde8035296a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6d9eb4bcd7df59cf5c86333ec673d59cca83aa3d2eb645f824396b72559887cf"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 466,
+  "stars": 475,
   "stars_por_mes": null
  },
  "nombre": "manga-repo",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "d29e20baf6e438403b59ba7f9116c1310f1e0bee",
+  "commit": "2f5b1f9eda6abe8f1dbc346a40ec4347ed594061",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:d29e20baf6e438403b59ba7f9116c1310f1e0bee"
+  "swhid": "swh:1:rev:2f5b1f9eda6abe8f1dbc346a40ec4347ed594061"
  },
  "repo": "cuong-tran/manga-repo",
  "web": "https://yuzono.github.io"

@@ -4,22 +4,13 @@
   "release_en": "2026-07-22",
   "semantica_http": 200,
   "ultima_release": "v0.1.0-beta2",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-16"
  },
  "descripcion": "Easy control of charging limits",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/d4rken-org--amply.json",
-  "sha256": "cf70fa92cb1030bdeb9d02529138e29cb13a0e37a1c5b4558ff45bee32ed805d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9cea37e57af384e2267411871f186c60c20425286db92eb561c44fa042595567"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 58,
+  "stars": 72,
   "stars_por_mes": null
  },
  "nombre": "amply",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "431549618bbcecf054d534680035a713f72d851a",
+  "commit": "b8c1f8f15f1264e0279bc30429c6132767bf7c89",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:431549618bbcecf054d534680035a713f72d851a"
+  "swhid": "swh:1:rev:b8c1f8f15f1264e0279bc30429c6132767bf7c89"
  },
  "repo": "d4rken-org/amply",
  "web": "https://amply.darken.eu/"

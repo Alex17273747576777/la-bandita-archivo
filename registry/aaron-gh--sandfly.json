@@ -4,22 +4,13 @@
   "release_en": "2026-10-19",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A screen reader for Android, forked from Backtalk",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aaron-gh--sandfly.json",
-  "sha256": "6bc30188dfd356f848b1ff48b3e973f886aae0a3662391dfe4ce2b1b5ce30c74"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6708ce84ad7446deac0c1116ba5298f7d6bc4444fe350ce58768056dd0ca1a2b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 19,
+  "stars": 51,
   "stars_por_mes": null
  },
  "nombre": "SandFly",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "915589f7adb422ef667ab478c56b875ea3c5f7d0",
+  "commit": "c544d2fad1acb60c348bb8782bef48df506cf530",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:915589f7adb422ef667ab478c56b875ea3c5f7d0"
+  "swhid": "swh:1:rev:c544d2fad1acb60c348bb8782bef48df506cf530"
  },
  "repo": "aaron-gh/SandFly"
 }

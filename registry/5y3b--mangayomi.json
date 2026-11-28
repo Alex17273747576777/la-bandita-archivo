@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "dormido",
+  "estado": "vivo",
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-05-01"
+  "ultimo_push": "2026-11-12"
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/5y3b--mangayomi.json",
-  "sha256": "f73042135570f7ac2ed953ced48421caf323da98dd7148770b1cd79f5ef6193e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "af9c22a26c94eafde3f419ff6d41c62427077b63a2a10294f2731317e6a2b444"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d8df3a361ebbf7d7b0a0854af78e00830bf5df2c",
+  "commit": "c18eeaf2e5179699bcd538497ae59d993847d75a",
   "swh_estado": null,
-  "swhid": "swh:1:rev:d8df3a361ebbf7d7b0a0854af78e00830bf5df2c"
+  "swhid": "swh:1:rev:c18eeaf2e5179699bcd538497ae59d993847d75a"
  },
  "repo": "5y3b/mangayomi"
 }

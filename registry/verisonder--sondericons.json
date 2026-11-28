@@ -8,18 +8,9 @@
  },
  "descripcion": "Every app on a HyperOS phone in one look. No root.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/verisonder--sondericons.json",
-  "sha256": "ed6179750dd464632ce70a6332ebc2c819ad3a59d0500c5f67d180f03a52b4e8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c7c0aee0d2d7d1c7d8bb0b620bedd37cab1d2e1e246efeca9c6c3f301e8449f1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4,
+  "stars": 6,
   "stars_por_mes": null
  },
  "nombre": "SonderIcons",

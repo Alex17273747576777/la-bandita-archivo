@@ -8,18 +8,9 @@
  },
  "descripcion": "An all-purpose Android display manager for any connected physical or virtual display",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jqssun--android-display-extend.json",
-  "sha256": "e8cb25d8d77b840c2f17235e194666872d5cdaa1361a2aaf75c0e02eefbba337"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "65c99f5834edeb52aac2a4657c6119d0138aa6860284d6be5986800ae050060b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 211,
+  "stars": 240,
   "stars_por_mes": null
  },
  "nombre": "android-display-extend",

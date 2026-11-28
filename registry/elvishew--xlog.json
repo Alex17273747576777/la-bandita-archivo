@@ -8,18 +8,9 @@
  },
  "descripcion": "Android logger, pretty, powerful and flexible, log to everywhere, save to file, all you want is here.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/elvishew--xlog.json",
-  "sha256": "8850b1f444ca606d8af983ee4fa47f7dd797b5ee41665e93acced6984c8b8fa7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a73d3900bdfd9ded3809b0fffd3e6f59bc8e5864677086a09aa07be3449eb636"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3348,
+  "stars": 3345,
   "stars_por_mes": null
  },
  "nombre": "xLog",

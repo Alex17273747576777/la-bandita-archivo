@@ -4,22 +4,13 @@
   "release_en": "2026-05-29",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Read and listen to your books on Android, from any of several supported sources.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pkmetski--riffle.json",
-  "sha256": "11ec790f0cad91d8f0d345e64d79083033cdf0d1ff890c4d423cc5a657725bec"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7148d52e78d65bbe1beb63647df6f4b21c0847eb5c33bc5405c84b73f9ca3d31"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 18,
+  "stars": 17,
   "stars_por_mes": null
  },
  "nombre": "riffle",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "3d60342867488e214d5ded61c6c6910993a962ae",
+  "commit": "8d856f9c0e440c62cc712e56da45e072829aeea6",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3d60342867488e214d5ded61c6c6910993a962ae"
+  "swhid": "swh:1:rev:8d856f9c0e440c62cc712e56da45e072829aeea6"
  },
  "repo": "pkmetski/riffle"
 }

@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-10-20T15:34:21Z",
-   "oid": "3fb235a16995c4ca546957c7e760355453b70b55"
+   "committedDate": "2026-11-12T15:56:20Z",
+   "oid": "d00c6b62da0131dbbe997574374b953ec7669810"
   }
  },
- "diskUsage": 22766,
+ "diskUsage": 22761,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,13 +18,13 @@
   "spdxId": "GPL-3.0"
  },
  "nameWithOwner": "AsyaShubina/InstallerX-Revived",
- "pushedAt": "2026-10-20T15:34:59Z",
+ "pushedAt": "2026-11-12T16:07:22Z",
  "releases": {
   "nodes": [
    {
     "isPrerelease": true,
-    "publishedAt": "2026-10-06T10:23:57Z",
-    "tagName": "26.10.0f13c2d"
+    "publishedAt": "2026-11-12T16:07:22Z",
+    "tagName": "26.11.d00c6b6"
    }
   ]
  },

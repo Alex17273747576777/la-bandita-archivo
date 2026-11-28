@@ -4,22 +4,13 @@
   "release_en": "2023-02-21",
   "semantica_http": 200,
   "ultima_release": "0.0.1",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Link handling for modern Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/linksheet--linksheet.json",
-  "sha256": "40082693e1ec50cdcc93735e75bcd62d295d3988045ee01b89cbb330d5bb17fc"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "84db75da5ddbb263871865f3b8d1084c7162d5417c0602e0a04dc3bdc4a12b4c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2166,
+  "stars": 2186,
   "stars_por_mes": null
  },
  "nombre": "LinkSheet",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "028cbee6b221df39e74bee9a9565d5d97c66a582",
+  "commit": "9a69ec15797ad6a5ccf53173965f0ab577d61b27",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:028cbee6b221df39e74bee9a9565d5d97c66a582"
+  "swhid": "swh:1:rev:9a69ec15797ad6a5ccf53173965f0ab577d61b27"
  },
  "repo": "LinkSheet/LinkSheet"
 }

@@ -4,22 +4,13 @@
   "release_en": "2026-10-02",
   "semantica_http": 200,
   "ultima_release": "v4.7",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Privacy-first full featured application and device control using ADB/Shizuku/Wireless Debugging/Root. A swiss army knife of ADB possible features.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/bingblop--adb-root-toolbox.json",
-  "sha256": "f03594d7e42c3f306bf2320eb83ccd52c6547cb248a1b5e66c29215b6374f417"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0b2a1aff34f95e55a79fe0b7c8f9e6c6394ae0f3c84269fc11fcddd23449586d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 121,
+  "stars": 154,
   "stars_por_mes": null
  },
  "nombre": "ADB-Root-Toolbox",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f3e109c98e2df0fdbf3a4b1e6c9aed8a82bb3536",
+  "commit": "48734d964b5126de21591a9766eda5df93ad72ce",
   "swh_estado": "solicitud 200",
   "swh_solicitud": "accepted",
-  "swhid": "swh:1:rev:f3e109c98e2df0fdbf3a4b1e6c9aed8a82bb3536"
+  "swhid": "swh:1:rev:48734d964b5126de21591a9766eda5df93ad72ce"
  },
  "repo": "Bingblop/ADB-Root-Toolbox"
 }

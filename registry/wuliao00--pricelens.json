@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-26"
+  "estado": "vivo",
+  "release_en": "2026-08-24",
+  "semantica_http": 200,
+  "ultima_release": "v2.3.0",
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "PriceLens — 极简全网比价助手 | Minimalist all-site price tracker. Android 无障碍增强版 + Windows Electron 便携版 | Free forever, local-first, MIT. 支持京东/淘宝/拼多多/B站/什么值得买/慢慢买/咕咚/Keep 等平台比价、盯价、找券",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/wuliao00--pricelens.json",
-  "sha256": "c7d33c29f1305b8779f0f3a26a16cd0d1990f1d0340c312572c157c53457ae79"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4c258bd91208548fea3651a3f6a21fc3b88f3b917a2f4dca942e38b61ceec34a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 27,
   "stars_por_mes": null
  },
  "nombre": "PriceLens",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "79e8bbc4c1a20a59c8da667cb8ba0cd2ab6c95a8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:79e8bbc4c1a20a59c8da667cb8ba0cd2ab6c95a8"
  },
  "repo": "wuliao00/PriceLens",
  "web": "https://wuliao00.github.io/PriceLens/"

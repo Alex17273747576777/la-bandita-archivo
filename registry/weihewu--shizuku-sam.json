@@ -4,22 +4,13 @@
   "release_en": "2026-10-11",
   "semantica_http": 200,
   "ultima_release": "v13.7.3",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "Samsung One UI 8.5 Enhanced Shizuku & System Tuning Suite",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/weihewu--shizuku-sam.json",
-  "sha256": "16ea36c60a387d23a0cac96dcea68ee3af37200b61b5e601906ea2659b7ccf7c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2262c0db7815fd2674dc6198ac9c88de6774a444fdea613be8da6a711979ad72"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 37,
+  "stars": 55,
   "stars_por_mes": null
  },
  "nombre": "shizuku-sam",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1c25b2f5b4162d10f1ccea8c49cc46cfd22096fb",
+  "commit": "2c4489e909d2ffdd668f7bd3f93352c267fd7f99",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1c25b2f5b4162d10f1ccea8c49cc46cfd22096fb"
+  "swhid": "swh:1:rev:2c4489e909d2ffdd668f7bd3f93352c267fd7f99"
  },
  "repo": "WEIHEWU/shizuku-sam"
 }

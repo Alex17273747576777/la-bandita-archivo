@@ -4,22 +4,13 @@
   "release_en": "2024-05-09",
   "semantica_http": 200,
   "ultima_release": "r8851",
-  "ultimo_push": "2026-10-28"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/komikku-app--komikku-preview.json",
-  "sha256": "9ebeaddd9ea96ce84ecd1c4517d25af4df16a4cf4f6c217a9561754569d71753"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7b5bb7c164d1aa4adb99da2990f663acfbbf5846e52073910449fdf1545df4dd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "719bd3bd20458df21825ed7c4f32427aff6cc8cc",
+  "commit": "c1749013476818e006a9190a8c8c8953afd8a211",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:719bd3bd20458df21825ed7c4f32427aff6cc8cc"
+  "swhid": "swh:1:rev:c1749013476818e006a9190a8c8c8953afd8a211"
  },
  "repo": "komikku-app/komikku-preview"
 }

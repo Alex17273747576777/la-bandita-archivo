@@ -8,18 +8,9 @@
  },
  "descripcion": "第三方轻小说文库app",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/15dd--wenku8reader.json",
-  "sha256": "dfcd67eb830e14de7ac1aba205a85f6c18775e98d8d405ab64bf118656256216"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "62692371cbfe66dd8041ecf69f5878dc74da6bd01af60ff60c5c8d8a7a525a22"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1718,
+  "stars": 1781,
   "stars_por_mes": null
  },
  "nombre": "wenku8reader",

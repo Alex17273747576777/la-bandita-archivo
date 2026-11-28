@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-21",
+  "release_en": "2026-11-06",
   "semantica_http": 200,
-  "ultima_release": "v2.3.1",
-  "ultimo_push": "2026-10-28"
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-06"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mthtamim--phoneforeward.json",
-  "sha256": "8ed5d2fbf5bb4c95ae279d030e5f4253963be1fbf8eb6fbd03edef0240f5214d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c31af9a258e403d2d4577e6a900d284227a27e00b5b7eb20444a6616922fc3bd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "8b0c344ab465712e9ad9aee9829ebc4e76591698",
+  "commit": "bf39f586aaf5f7f5446adf0df11a1f09236854a4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:8b0c344ab465712e9ad9aee9829ebc4e76591698"
+  "swhid": "swh:1:rev:bf39f586aaf5f7f5446adf0df11a1f09236854a4"
  },
  "repo": "mthtamim/PhoneForeward"
 }

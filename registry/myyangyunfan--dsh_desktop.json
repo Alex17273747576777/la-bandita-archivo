@@ -4,22 +4,13 @@
   "release_en": "2026-08-16",
   "semantica_http": 200,
   "ultima_release": "v0.3.9",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "DeepSeek Harness (dsh) Windows desktop client - bundled Node.js + dsh CLI, one-click launch",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/myyangyunfan--dsh_desktop.json",
-  "sha256": "2a05c69f647df7f38e234d460acea89f1d2882b60d92768ba4af83623c7d07e1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ecaeb42544779ba7e70d19d43019ba0dcda9d900c636d9fe0f302a13f4aeac98"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 742,
+  "stars": 768,
   "stars_por_mes": null
  },
  "nombre": "dsh_desktop",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f420a63c27fc39971b2484b61f3d39443dea9516",
+  "commit": "556597ebe36110d80a33670cc3718461ce14e755",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f420a63c27fc39971b2484b61f3d39443dea9516"
+  "swhid": "swh:1:rev:556597ebe36110d80a33670cc3718461ce14e755"
  },
  "repo": "myYangyunfan/dsh_desktop",
  "web": "https://github.com/myYangyunfan/dsh_desktop/releases"

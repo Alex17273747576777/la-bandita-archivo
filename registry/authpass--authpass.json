@@ -4,22 +4,13 @@
   "release_en": "2019-09-05",
   "semantica_http": 200,
   "ultima_release": "1.0.0",
-  "ultimo_push": "2026-09-15"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "AuthPass - Password Manager based on Flutter for all platforms. Keepass 2.x (KDBX 3 and KDBX 4) compatible.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/authpass--authpass.json",
-  "sha256": "d79f56c8bc0f18b02ea86aa88727b0f0c242bb50de195f8a6ce14671448818c4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3a56d30a81a2131295ed55c526f55535e9fd3421b8b7bb3111baf0acda68aa9b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2810,
+  "stars": 2818,
   "stars_por_mes": null
  },
  "nombre": "authpass",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ceb3b3ea22f64ead1eb93b31b1f0657b7844631a",
+  "commit": "de7422a9f0962e9f522692f0d4cbf1dda8a73f2d",
   "swh_estado": "archivada",
   "swh_solicitud": "ceb3b3ea22f64ead1eb93b31b1f0657b7844631a",
-  "swhid": "swh:1:rev:ceb3b3ea22f64ead1eb93b31b1f0657b7844631a"
+  "swhid": "swh:1:rev:de7422a9f0962e9f522692f0d4cbf1dda8a73f2d"
  },
  "repo": "authpass/authpass",
  "web": "https://authpass.app/"

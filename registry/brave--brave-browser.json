@@ -4,22 +4,13 @@
   "release_en": "2018-07-19",
   "semantica_http": 200,
   "ultima_release": "v0.50.14",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Brave browser for Android, iOS, Linux, macOS, Windows.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/brave--brave-browser.json",
-  "sha256": "5d85134853566e82415c18cff471b407d9a3e52945722512c84c246e8085e9c3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7c2242d582aa5125cb924766f9cbd03369508969ebcd9e2f1e45c25e29083145"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 24085,
+  "stars": 24330,
   "stars_por_mes": null
  },
  "nombre": "brave-browser",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7ccde5c69691140ec1c42032f018f53f1303f002",
+  "commit": "3a866a7ed435a0948c52a3cc40f34eaad94f2d2e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:7ccde5c69691140ec1c42032f018f53f1303f002"
+  "swhid": "swh:1:rev:3a866a7ed435a0948c52a3cc40f34eaad94f2d2e"
  },
  "repo": "brave/brave-browser",
  "web": "https://brave.com"

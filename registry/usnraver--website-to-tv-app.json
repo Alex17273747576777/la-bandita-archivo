@@ -8,18 +8,9 @@
  },
  "descripcion": "Turn any website into a fullscreen Chromecast / Android TV app tile. ~31 KB WebView app with a D-pad focus ring, working fullscreen video and sane Back handling. Built with Claude Code over wireless adb.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/usnraver--website-to-tv-app.json",
-  "sha256": "c199492097973e81a33af6537895e2fbf7d0e300c04ca29654dddc9336a81c01"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ce119525ec556094fc09dc222ff25af427de70e09055de885123dacc3af82b30"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

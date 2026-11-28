@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
+  "estado": "vivo",
   "release_en": null,
-  "semantica_http": 404,
+  "semantica_http": 200,
   "ultima_release": null,
   "ultimo_push": "2026-06-27"
  },
  "descripcion": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy F",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#Flink-JP/mobile",
-  "sha256": "a66a2ed01ef341b6b17056b77b84ea71d17f938ad5e3866e634502f4e7f93c48"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/flink-jp--mobile.json",
+  "sha256": "b34833ea7020f42ff47d925f0a8961be849f516e40814d59390d68fe8e8caa78"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 0,
   "stars_por_mes": 0.0
  },
  "nombre": "mobile",

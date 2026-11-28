@@ -4,22 +4,13 @@
   "release_en": "2019-11-09",
   "semantica_http": 200,
   "ultima_release": "1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Detect Treble, GSI, Mainline, APEX, system-as-root(SAR), A/B, etc.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/imknown--androidlowleveldetector.json",
-  "sha256": "03b32a520907d4ad163704d15726292e459065d92da5b22bda7bb775f3eb68f5"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4c78e42ffc63429034e99c6875280a4a6ffbb48ddb07324e55df4dabf30e872d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 476,
+  "stars": 484,
   "stars_por_mes": null
  },
  "nombre": "AndroidLowLevelDetector",

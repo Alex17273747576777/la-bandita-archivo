@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-11-02",
+  "release_en": "2026-10-25",
   "semantica_http": 200,
-  "ultima_release": "v0.1.9",
-  "ultimo_push": "2026-11-02"
+  "ultima_release": "v0.1.0",
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Private, fast, minimal Android app updater: GitHub, GitLab, Codeberg/Forgejo, F-Droid and IzzyOnDroid. No native code, works with GrapheneOS dynamic code loading restrictions.",
  "evidencia": {
-  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
-  "payload_ref": "ficha profunda del 2026-11-03",
-  "sha256": "d25617c34a518220f964d99a0b86342a86c3e5f855b84a097fda1cb3553f187c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/turtlecute33--fonte.json",
+  "sha256": "a63e873ac1d92cd9e1761fc0645a5f3060a22158ed26b6835ad79d335e555fbe"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,16 +21,16 @@
  "id": "turtlecute33--fonte",
  "licencia": {
   "archivo": "GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free",
-  "metodo": "endpoint-license",
+  "metodo": "spdx-api",
   "nota": "certificada contra el texto del archivo LICENSE",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 19,
+  "stars": 30,
   "stars_por_mes": null
  },
  "nombre": "Fonte",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "24149e8a94090bc5de9abefa388638ebde49286e",
+  "commit": "e0b6c857ff21e0bb7f9281c96f9b66b48fff03ff",
   "swh_estado": "solicitud 200",
   "swh_solicitud": "accepted",
-  "swhid": "swh:1:rev:24149e8a94090bc5de9abefa388638ebde49286e"
+  "swhid": "swh:1:rev:e0b6c857ff21e0bb7f9281c96f9b66b48fff03ff"
  },
  "repo": "Turtlecute33/Fonte"
 }

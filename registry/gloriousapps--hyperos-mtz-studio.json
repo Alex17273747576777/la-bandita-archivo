@@ -4,22 +4,13 @@
   "release_en": "2026-08-27",
   "semantica_http": 200,
   "ultima_release": "v1.1.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "Modern, powerful MTZ theme composer, component mixer, and DRM protection studio for Xiaomi HyperOS devices.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/gloriousapps--hyperos-mtz-studio.json",
-  "sha256": "e007a67fe8baa1c91e5d88cb3dcbcdafc0ce058fa2c1c4afa00d7c558797ad43"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c3f36a8bce83695b8113ac15ddc0196309dc76d12622d75fae55873e5df49c60"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 30,
+  "stars": 39,
   "stars_por_mes": null
  },
  "nombre": "HyperOS-MTZ-Studio",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5f3764130585146cad766f1d9dd064f7b9b881c1",
+  "commit": "0387460386eb0c2043aca64217b568f3743be043",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5f3764130585146cad766f1d9dd064f7b9b881c1"
+  "swhid": "swh:1:rev:0387460386eb0c2043aca64217b568f3743be043"
  },
  "repo": "GloriousApps/HyperOS-MTZ-Studio"
 }

@@ -8,18 +8,9 @@
  },
  "descripcion": "Yomitsu — independent manga & webtoon reader for Android with Read-Aloud TTS and OCR. Built on the Yomihon/Mihon ecosystem.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/nikhil0921--yomitsu.json",
-  "sha256": "d9f6dc5865b167ecdacd9454a1f7cb93b58abbf3f2697d98eb537a905e5cf4a6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "54535fcea7dff9b83cc3348cc0941a5564b3cea2fd2fde71dcf9285ca3665cbc"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

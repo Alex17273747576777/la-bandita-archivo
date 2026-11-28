@@ -8,18 +8,9 @@
  },
  "descripcion": "A status bar alert (e.g. in-call, recording, navigating) for React Native",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/gnestor--react-native-statusbar-alert.json",
-  "sha256": "496e602c97c865b82b3698846e7b940a95c78de365b8567f76abacd297d0a9ec"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9e749a17f3d8752a63ffcbf3c518c0374a023747f37d5519d248871902bb4232"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

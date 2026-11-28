@@ -4,22 +4,13 @@
   "release_en": "2026-10-02",
   "semantica_http": 200,
   "ultima_release": "v0.2.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-13"
  },
  "descripcion": "Android companion app for AstrBot phone control with Shizuku, structured commands, chat, reminders, and timeline sync",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tauru-t6--astrbot-phone-agent-app.json",
-  "sha256": "59e1ad04bbd68ecbbe9e5c004af56f127727aa5b12e4c09887bf302088c22f44"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "18d8dc9ee8919dc93cae7fb7f65897473288ebaf570c06e5c40eeeac29ebf0ed"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,11 +21,11 @@
  "id": "tauru-t6--astrbot-phone-agent-app",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-31"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "4f1ee50d78859ba2e659a1917b2f327feffce596",
+  "commit": "1087a0abfd57893b4dd20a50980316253723daec",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4f1ee50d78859ba2e659a1917b2f327feffce596"
+  "swhid": "swh:1:rev:1087a0abfd57893b4dd20a50980316253723daec"
  },
  "repo": "Tauru-t6/astrbot-phone-agent-app"
 }

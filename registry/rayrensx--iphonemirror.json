@@ -4,22 +4,13 @@
   "release_en": "2026-07-11",
   "semantica_http": 200,
   "ultima_release": "v0.3.0-preview.1",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Local Windows iPhone/iPad mirroring over USB and AirPlay with D3D11 preview, multi-device sessions, OBS output, and a standalone driver manager.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rayrensx--iphonemirror.json",
-  "sha256": "da82d95516067119a34ae520d9b62737f9f9845ed7befa4e4d3ab71cdae71041"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "194f5cadd815b8095c8c4718570797b575627696122b19c5b6eafb526b33aadf"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1678,
+  "stars": 2203,
   "stars_por_mes": null
  },
  "nombre": "iPhoneMirror",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b15f089b8e5a8b97900834959b581d20bf489bf9",
+  "commit": "6ad13174f6929eee828040ce3d5825bde5976780",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b15f089b8e5a8b97900834959b581d20bf489bf9"
+  "swhid": "swh:1:rev:6ad13174f6929eee828040ce3d5825bde5976780"
  },
  "repo": "RayrenSX/iPhoneMirror",
  "web": "https://github.com/RayrenSX/iPhoneMirror/releases"

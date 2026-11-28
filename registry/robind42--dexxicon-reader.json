@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-18"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Dexxicon Reader for audiobooks, eBooks, and Comics (including Manga)",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/robind42--dexxicon-reader.json",
-  "sha256": "fc704250de028503a18b77ca41c346a2f83de735c40af5a3a6354e9a82ea3636"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "36b52074ade68e4c26fe7b9c548dad6358756cbb575e0884e46053a0310d263e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "93cbb4f1cdf85e69a2a1ea1d3cbb879f45ac1849",
+  "commit": "dd357daab8095915fe0fd3f69de2cbd967d8cb13",
   "swh_estado": null,
-  "swhid": "swh:1:rev:93cbb4f1cdf85e69a2a1ea1d3cbb879f45ac1849"
+  "swhid": "swh:1:rev:dd357daab8095915fe0fd3f69de2cbd967d8cb13"
  },
  "repo": "RobinD42/dexxicon-reader"
 }

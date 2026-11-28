@@ -4,22 +4,13 @@
   "release_en": "2026-10-26",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "One-tap switch of the default NFC payment wallet on vivo phones (OriginOS): vivo Wallet, Google Pay and more, via app, Quick Settings tile, or Smart Button.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hiiamtrong--vivo-nfc-switch.json",
-  "sha256": "6aa0e7c2e50a40dc59de81c7ee576b1f6301fd05d6c9f9d0906feaf8462c9dd8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "51ca7aa0dbed82fd693dc493e75e2429d5aa9df450437ca0fd324fe32ca845a4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ff1f0626573ed21a7d24f429ef47d5e1ca2218fd",
+  "commit": "8cb81e2b3e31af5a9066a6a8239ae2f74d737e4a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ff1f0626573ed21a7d24f429ef47d5e1ca2218fd"
+  "swhid": "swh:1:rev:8cb81e2b3e31af5a9066a6a8239ae2f74d737e4a"
  },
  "repo": "hiiamtrong/vivo-nfc-switch"
 }

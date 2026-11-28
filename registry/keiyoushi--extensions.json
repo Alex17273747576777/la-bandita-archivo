@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-11-01",
+  "release_en": "2026-11-22",
   "semantica_http": 200,
-  "ultima_release": "fc7a827-0",
-  "ultimo_push": "2026-11-03"
+  "ultima_release": "b4f9106-0",
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Extension repository for Mihon and variants",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/keiyoushi--extensions.json",
-  "sha256": "3327f6109dcc6b0c24e9c8e4fabb000c80bbc72ea9dc3b30d422cf99f68f65d5"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6b2ca8732c8628988f7a84de246902b6dcc2e925530fc6ae378e15501a0f8f3d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15426,
+  "stars": 15682,
   "stars_por_mes": null
  },
  "nombre": "extensions",
@@ -54,10 +45,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "b01ad156965bf4e386bee18828c6f8f6f5846f7b",
+  "commit": "37749703dfa1ea3f715467dba1494dd57241f3ea",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b01ad156965bf4e386bee18828c6f8f6f5846f7b"
+  "swhid": "swh:1:rev:37749703dfa1ea3f715467dba1494dd57241f3ea"
  },
  "repo": "keiyoushi/extensions",
  "web": "https://keiyoushi.github.io/"

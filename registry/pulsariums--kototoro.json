@@ -4,22 +4,13 @@
   "release_en": "2026-10-12",
   "semantica_http": 200,
   "ultima_release": "v1.0.0-pulsar.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "Manga, Novel, and Video reader for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pulsariums--kototoro.json",
-  "sha256": "727c86ab96bece68d20f3f61e4c1e48aba8955525533ae01212425471c59343b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2e1a17a70838fdbfd47525c852e606eb365c6f913f9fde61211bbc0f08c62c4b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a3a9aefc1104e01a234e99d5d8109e0d6a6a2b1a",
+  "commit": "14dc2ade66f869a6cb9f6fe7d648d7210c0d33da",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a3a9aefc1104e01a234e99d5d8109e0d6a6a2b1a"
+  "swhid": "swh:1:rev:14dc2ade66f869a6cb9f6fe7d648d7210c0d33da"
  },
  "repo": "Pulsariums/Kototoro"
 }

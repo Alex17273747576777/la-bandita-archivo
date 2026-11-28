@@ -8,18 +8,9 @@
  },
  "descripcion": "RebootNya is a simple yet advanced reboot utility that supports both Root and Shizuku!",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/daisukikaffuchino--rebootnya.json",
-  "sha256": "126be232b3114180946d271b5cc12652d33cee10c76da551f60eea5c61a03bff"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b9d5204c5a0551c6797b025d4145cc4305bb03cb9386932955482fbff3d278b1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 293,
+  "stars": 303,
   "stars_por_mes": null
  },
  "nombre": "RebootNya",

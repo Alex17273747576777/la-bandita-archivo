@@ -4,22 +4,13 @@
   "release_en": "2026-04-24",
   "semantica_http": 200,
   "ultima_release": "v0.0.0-beta.main.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-17"
  },
  "descripcion": "akiHz - Lightweight Shizuku Refresh Rate Changer with Quick Settings Tile & Live FPS Monitor (No Root)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/anlaki-py--akihz.json",
-  "sha256": "874377529a9222b2c80e7fd5d61f073d5f9ae02fc12452fc8ccb0400b50b58dd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "881ec5e3a56d6580b4227734934839a1dbba157156fec32f462c3a8256fa85c3"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 29,
+  "stars": 37,
   "stars_por_mes": null
  },
  "nombre": "akihz",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2f8cbcb94da97bf3de0359d01444ae7f9c1da461",
+  "commit": "bba20c7569b2f73f38e6f2ced64d727a3122c21e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:2f8cbcb94da97bf3de0359d01444ae7f9c1da461"
+  "swhid": "swh:1:rev:bba20c7569b2f73f38e6f2ced64d727a3122c21e"
  },
  "repo": "anlaki-py/akihz",
  "web": "https://akihz.anlaki.dev"

@@ -1,6 +1,6 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "dormido",
   "release_en": "2026-03-06",
   "semantica_http": 200,
   "ultima_release": "1.0",
@@ -8,18 +8,9 @@
  },
  "descripcion": "fps counter realtime for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/binhmod--fpsviewer.json",
-  "sha256": "ce34d32bde7b03e681b039bf8c46b2b5b1e737aac701ba19efcee8deb2b86fdc"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "87fdcf8e672cb7bdd09e86499b647f37811e8aba2732706badfc4eebe47fb725"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 63,
+  "stars": 64,
   "stars_por_mes": null
  },
  "nombre": "FPSViewer",

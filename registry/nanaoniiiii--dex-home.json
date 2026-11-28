@@ -8,18 +8,9 @@
  },
  "descripcion": "Rootless full-screen Samsung DeX HOME launcher with Shizuku and a persistent local receiver.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/nanaoniiiii--dex-home.json",
-  "sha256": "69cdf53954db900d03dc2b0191580e2a8d0b77fd20878e8112a1a2912cf0a0b9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "984e3e81241b3211b50d2ca1b4e9a979cf0e101aea7060c6645919f9c0a561a1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "dex-home",

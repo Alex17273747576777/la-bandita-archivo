@@ -4,22 +4,13 @@
   "release_en": "2026-10-13",
   "semantica_http": 200,
   "ultima_release": "v0.3",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-10"
  },
  "descripcion": "Claude Code usage limits on the Xiaomi 17 Pro's rear display. · Mirror of https://gitlab.com/896kb/ai-usage-companion — issues and merge requests there.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/896kb--ai-usage-companion.json",
-  "sha256": "d3a2d448165042e7fcc45d94b5e5f2f95b41dc86334c5162c0fd96f469b9e530"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "cb92b0669cec23f39d994b5c39ea5bb4dcc356b561d22385f93df009ffae211e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "938f68267491eae34cae8d2df881125827a5b1b6",
+  "commit": "a5f6d9a577b913a6635be08ee02fce0ba9e76660",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:938f68267491eae34cae8d2df881125827a5b1b6"
+  "swhid": "swh:1:rev:a5f6d9a577b913a6635be08ee02fce0ba9e76660"
  },
  "repo": "896kb/ai-usage-companion",
  "web": "https://rear.896.ro"

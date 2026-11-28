@@ -4,22 +4,13 @@
   "release_en": "2020-05-10",
   "semantica_http": 200,
   "ultima_release": "4",
-  "ultimo_push": "2026-10-28"
+  "ultimo_push": "2026-11-13"
  },
  "descripcion": "A download host for TachiyomiSY Preview builds",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jobobby04--tachiyomisypreview.json",
-  "sha256": "a9ed0476850bb5ac9254ed958186376030e874f8e90e43a8abbf345c8c85973a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "03500852c9125e5f3c16f03a023c1a48f0b1e522c3c84861da3edd1be9555c39"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

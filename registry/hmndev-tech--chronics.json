@@ -4,22 +4,13 @@
   "release_en": "2026-10-29",
   "semantica_http": 200,
   "ultima_release": "v1.0.0-beta01",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Chronics — a local Android notification archive with full-text capture, filters, and Downloads export",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hmndev-tech--chronics.json",
-  "sha256": "09d55671da0bc9e15a452add6c5af406f6960d3f1943e30778339c22e805e454"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bcc5246e22fc9f6f8411aca98e1949f9419535d78a743c42e72e2c49684349e8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6a1517be4d8e66fed852f676f69859459ea0c605",
+  "commit": "3eeaa84cbb920eb27b396544fecd57c6a303b723",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:6a1517be4d8e66fed852f676f69859459ea0c605"
+  "swhid": "swh:1:rev:3eeaa84cbb920eb27b396544fecd57c6a303b723"
  },
  "repo": "HmnDev-Tech/chronics"
 }

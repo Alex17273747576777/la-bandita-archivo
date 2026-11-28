@@ -4,22 +4,13 @@
   "release_en": "2026-10-10",
   "semantica_http": 200,
   "ultima_release": "v1.1.4",
-  "ultimo_push": "2026-10-28"
+  "ultimo_push": "2026-11-18"
  },
  "descripcion": "Track, clone, install and merge Android apps right on the phone: updates straight from GitHub, F-Droid and other sources, second copies of apps, split APK installer, APKS export and split merging. No root.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/bl3xand--apk-toolbox.json",
-  "sha256": "da4c5fa8b24cf7e9dbef195b2532b2685fd1e0290f7600cc88e06d051e80979b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "109766498759a9f64a97331be00ab25cb766cd3e45456556a5926b97289a8e58"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 102,
+  "stars": 129,
   "stars_por_mes": null
  },
  "nombre": "APK-Toolbox",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2f799c2e4bb37a8ea1fcf58ddf44cab991876e6e",
+  "commit": "c0f7a723a3663fe8ab558b9ff66e1f5e14440797",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:2f799c2e4bb37a8ea1fcf58ddf44cab991876e6e"
+  "swhid": "swh:1:rev:c0f7a723a3663fe8ab558b9ff66e1f5e14440797"
  },
  "repo": "bl3xand/APK-Toolbox"
 }

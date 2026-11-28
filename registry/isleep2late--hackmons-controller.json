@@ -4,22 +4,13 @@
   "release_en": "2026-10-05",
   "semantica_http": 200,
   "ultima_release": "apps",
-  "ultimo_push": "2026-10-21"
+  "ultimo_push": "2026-11-16"
  },
  "descripcion": "Hackmons Controller: connect, log, display, replay and TAS-edit game controller input (GSE/BizHawk tools, Switch 2 GameCube over USB, GC Bridge Android app)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/isleep2late--hackmons-controller.json",
-  "sha256": "bdef144574f14b599746528bd431263b3296df64db2bdeb2b2954063a15d3fa3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2e4fd857360997abb869e3451feba2c9f7dc41d3e6f09ca7de9b015b651a4299"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3dceba782b855fc1c68613fb88cb52260efacb12",
+  "commit": "a4ac0eac5878cb61a5856dbbe397c24c606c26a4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3dceba782b855fc1c68613fb88cb52260efacb12"
+  "swhid": "swh:1:rev:a4ac0eac5878cb61a5856dbbe397c24c606c26a4"
  },
  "repo": "isleep2late/Hackmons-Controller"
 }

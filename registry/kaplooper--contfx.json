@@ -4,22 +4,13 @@
   "release_en": "2026-10-24",
   "semantica_http": 200,
   "ultima_release": "build-1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kaplooper--contfx.json",
-  "sha256": "466066e7ca1c2bba132ff9028f92903f7791c853e0e630892a1f1caa20e2e21f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "741de69933a30783a9c0130cde4dfc5f529a26ab4fd7003008e907bb4eea9729"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e9ea7c14e7ef5996862dbe26e95a650e703a38ce",
+  "commit": "a4125d214b8079dae4b1737bb38cc7de42d8ccf2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e9ea7c14e7ef5996862dbe26e95a650e703a38ce"
+  "swhid": "swh:1:rev:a4125d214b8079dae4b1737bb38cc7de42d8ccf2"
  },
  "repo": "KAPLOOPER/contfx"
 }

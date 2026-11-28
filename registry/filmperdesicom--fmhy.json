@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
+  "estado": "dormido",
   "release_en": null,
-  "semantica_http": 404,
+  "semantica_http": 200,
   "ultima_release": null,
   "ultimo_push": "2024-11-21"
  },
  "descripcion": "/r/FREEMEDIAHECKYEAH",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#filmperdesicom/FMHY",
-  "sha256": "fd1ba8dca81f24d1de9e4cb72eff8a404a588b8d5dba587c7c2fd6e90035e95d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/filmperdesicom--fmhy.json",
+  "sha256": "e96c22dadc9d1927d4425e2c45b2fdc695fc906f4bb3e169566f0719a6720a9e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 0,
   "stars_por_mes": 0.0
  },
  "nombre": "FMHY",

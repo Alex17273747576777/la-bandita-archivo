@@ -8,18 +8,9 @@
  },
  "descripcion": "Offline Android root toolkit for Samsung Galaxy (S23-S26 / Z Flip / Z Fold / Tab S9 Ultra). DF chain (DirtyFrag) first, auto-fallback to the SRK chain (CVE-2026-43499, firmware-matched payloads), then DFReroot persistence. KernelSU & KernelSU-Next. For security research only.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/shangu2003--samsungrootkit.json",
-  "sha256": "1932496a03a032530ec108dbb0f24c64e5ee8e7fe50e78cc6750028acab72d0f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f9985723726d0b10f55fb61c76897577cd559a1c1c5f284a1d31320a81489bf5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7,
+  "stars": 18,
   "stars_por_mes": null
  },
  "nombre": "SamsungRootKit",

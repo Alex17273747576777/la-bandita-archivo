@@ -1,8 +1,8 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "muerto",
   "release_en": "2026-10-27",
-  "semantica_http": 200,
+  "semantica_http": 404,
   "ultima_release": "v1.0.0",
   "ultimo_push": "2026-10-29"
  },
@@ -13,13 +13,12 @@
   "sha256": "0e5f7aa5d80f7e323775d048280becf29f7c37bcf5fd02a9acc500a6f977e085"
  },
  "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
+  "dias": 0,
+  "estado": "vencida",
+  "evidencia_en": "2026-11-27",
+  "motivo": "el repositorio no existe: la API devolvió 404",
   "proxima_remedicion": null,
-  "ventana_dias": 180
+  "ventana_dias": null
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +33,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": null,
   "stars_por_mes": null
  },
  "nombre": "kiraai-phone-assistant",

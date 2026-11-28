@@ -8,18 +8,9 @@
  },
  "descripcion": "Install any apk on the device you own. ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sam1am--anyapk.json",
-  "sha256": "7d663b5165fa8e9becf5fbe298dab1d737b5f8d561839396e99f2d3f134b386f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ee2447bcefafabb1503406c3d74f153d3a2effb054977ac73dbd3f908a184524"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": "Apache 2.0",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2943,
+  "stars": 3007,
   "stars_por_mes": null
  },
  "nombre": "anyapk",

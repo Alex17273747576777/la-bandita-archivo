@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-11-03",
+  "release_en": "2026-11-06",
   "semantica_http": 200,
-  "ultima_release": "latest",
-  "ultimo_push": "2026-11-03"
+  "ultima_release": "anteprima",
+  "ultimo_push": "2026-11-06"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/thamichele--antidroidvirus.json",
-  "sha256": "020aeb801713f4d711f443a19c17256f4d823019213f3e67539ad031b6b36009"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0a7914f7b995d2288a920389fa43a43adb089a9cc5f0f5498eb6b314df4961af"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "37fd2a58518c5239187b7fe5ab6bd51af4f3a4d8",
+  "commit": "7fcc555b5e785e572d012bbd52b5626267f29c75",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:37fd2a58518c5239187b7fe5ab6bd51af4f3a4d8"
+  "swhid": "swh:1:rev:7fcc555b5e785e572d012bbd52b5626267f29c75"
  },
  "repo": "thamichele/antidroidvirus"
 }

@@ -8,18 +8,9 @@
  },
  "descripcion": "Standalone Android Pi agent with direct phone tools and shared background subagents",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ru-aish--pocket-agent.json",
-  "sha256": "f9eefadc116e0fd914df9bcdf0844eb043362ddef84e346bdcac49b07d377087"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "92322ab301da9ba06a49f6db6c35b6c04e1c5ad742245a9385d665bb306eab07"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

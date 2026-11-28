@@ -4,22 +4,13 @@
   "release_en": "2026-09-28",
   "semantica_http": 200,
   "ultima_release": "v1.2.0",
-  "ultimo_push": "2026-10-23"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Natural-language Android automation through AutoJs6 host capabilities and AI providers",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/supermonster003--autojs6-plugin-three-stove-agent.json",
-  "sha256": "080caf8808acc32321a623133a1561efe062c8e07565715f7a38d0a72af352ca"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4303f9e1b97635ab53b9f8d98f9e1147ef81f93419b47ea082332a664214ec96"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "51b4ae666a0225a99ef3e592b37e32e4c1071e4a",
+  "commit": "efe641b5b0b8203b591c4fa1a982cf12679cbbac",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:51b4ae666a0225a99ef3e592b37e32e4c1071e4a"
+  "swhid": "swh:1:rev:efe641b5b0b8203b591c4fa1a982cf12679cbbac"
  },
  "repo": "SuperMonster003/AutoJs6-Plugin-Three-Stove-Agent"
 }

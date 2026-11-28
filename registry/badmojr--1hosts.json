@@ -8,18 +8,9 @@
  },
  "descripcion": "Advanced DNS filter/blocklists for privacy, security, and clean browsing.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/badmojr--1hosts.json",
-  "sha256": "57817ef65a9e4c01ea92162ca70b1ec66d73eed7459827ef8e64ece5f40b75d9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f6d93a9faeae2a19d7f029236c4be914dfd36cd479ff1a93dbd7832154141aa8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2261,
+  "stars": 2290,
   "stars_por_mes": null
  },
  "nombre": "1Hosts",

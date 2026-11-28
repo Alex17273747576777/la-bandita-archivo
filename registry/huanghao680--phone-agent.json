@@ -8,18 +8,9 @@
  },
  "descripcion": "Standalone Android port of Zcode (TUI) + DeepSeek Harness (web UI) with embedded Node runtime — no Termux dependency, optional root deep-integration",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/huanghao680--phone-agent.json",
-  "sha256": "8562c6d170ebbcde06eb7e3870a492e07eea59c90917c68bbc74d2a9b8741b4a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "52212a65605b595a2322ede1fa2a1f4540782ec9fbd8ffa9ac8f584f63e7ac33"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6,
+  "stars": 9,
   "stars_por_mes": null
  },
  "nombre": "phone-agent",

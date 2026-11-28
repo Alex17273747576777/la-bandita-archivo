@@ -4,22 +4,13 @@
   "release_en": "2026-09-28",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Open-source Android app for system-level Bluetooth blocking via Device Owner. Persistent protection, four discreet Cover Modes, no root required. ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/alcovaibe--bluetooth-disabler.json",
-  "sha256": "53b91134e02c58e9b9bc98d696edc7674e93337b015348563256af2d1fbf6cbd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2885101fc88367f6c5ac65b99cdd5726d33b5f460ec40ff1a885971c3ada6176"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a7f430c52cb908b98806087b04f6caecec124654",
+  "commit": "40866b9a3303a505a4a7757cfc6e36b678dbe1af",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a7f430c52cb908b98806087b04f6caecec124654"
+  "swhid": "swh:1:rev:40866b9a3303a505a4a7757cfc6e36b678dbe1af"
  },
  "repo": "alcovaibe/Bluetooth-disabler",
  "web": "https://bluetoothdisable.app"

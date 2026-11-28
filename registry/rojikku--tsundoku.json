@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-16"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rojikku--tsundoku.json",
-  "sha256": "272a6afc25fb6bd847020adf53c98820fa7e478d95572b6f5685ab25e7deb56a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "952a80666ddaf13faf4c28ac2884462f5f4e200daba505f8a7abb507f723e7dc"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ba8a15eddc9b4007663581f40429c0ec1c891d30",
+  "commit": "ddea65de2e574c853205c79113ff72b887c10805",
   "swh_estado": null,
-  "swhid": "swh:1:rev:ba8a15eddc9b4007663581f40429c0ec1c891d30"
+  "swhid": "swh:1:rev:ddea65de2e574c853205c79113ff72b887c10805"
  },
  "repo": "Rojikku/tsundoku"
 }

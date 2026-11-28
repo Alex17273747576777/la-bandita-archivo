@@ -4,22 +4,13 @@
   "release_en": "2026-04-29",
   "semantica_http": 200,
   "ultima_release": "v1.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Non-Root Android performance overlay featuring live FPS meter, thermal diagnostics, and privileged gaming optimization via Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/maheshsharan--framex-android.json",
-  "sha256": "3b1463b866f4992797052615f19ee90339ac200d66892df2a0b6632de9162ca0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0b8690af907812d1fa4059d29c2b4c582d4f7bdf7cbe6ccd13b96f2667c60112"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 199,
+  "stars": 226,
   "stars_por_mes": null
  },
  "nombre": "FrameX-Android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a069bbaed010915b5dabd7db3319477376f5a3bd",
+  "commit": "a5c692104c0bb11fb6057453d15f36de4dec81ef",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a069bbaed010915b5dabd7db3319477376f5a3bd"
+  "swhid": "swh:1:rev:a5c692104c0bb11fb6057453d15f36de4dec81ef"
  },
  "repo": "MaheshSharan/FrameX-Android"
 }

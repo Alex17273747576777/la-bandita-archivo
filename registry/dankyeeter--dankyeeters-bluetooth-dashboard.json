@@ -8,18 +8,9 @@
  },
  "descripcion": "Hearing-test-driven system EQ and Bluetooth link-quality monitor for Android. Fully offline, no INTERNET permission.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dankyeeter--dankyeeters-bluetooth-dashboard.json",
-  "sha256": "0d98fb71fbfca919d22da45c0150c25722739ed2a985a0cc5b8b5cc79682448b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ce2aa5a71831b2669a4e7307acc66a6f3fe80f81020ad05aceca71891cd52a1f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

@@ -8,18 +8,9 @@
  },
  "descripcion": "Android 17 patch for Shizuku: restore in-app Wireless Debugging start when ADB_ENABLED reads as fake 0",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pengyuw96--shizuku-android17-patch-notes.json",
-  "sha256": "2cd11e8936273b2e52f4a2a6e06dbd4e3f5967ddebce382984172bb5ba5c0ac8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8cf32d622f497722bba3be79bcd56b66f0b1873f06a2090c2104011fca3c884d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

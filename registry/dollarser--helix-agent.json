@@ -4,22 +4,13 @@
   "release_en": "2026-09-17",
   "semantica_http": 200,
   "ultima_release": "runtime-assets-20260917",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Open-source Android AI agent for app automation, web browsing and file workflows. Bring your own model; extend with plugins, skills and MCP.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dollarser--helix-agent.json",
-  "sha256": "a4b67d78c7ff4a97f60fa7bdfe84876751f405e2f6b0e3c45578735c4a2ec689"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b79208808536b2b0732ee68c9a58d644c75c71e09cb98ce0fe042a2bbae953b0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "helix-agent",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "c205aa6872dbf0deddbabfbb02b444549c80c767",
+  "commit": "de445970594d53eeedfaf1fc6e7ebfe641548f2b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:c205aa6872dbf0deddbabfbb02b444549c80c767"
+  "swhid": "swh:1:rev:de445970594d53eeedfaf1fc6e7ebfe641548f2b"
  },
  "repo": "dollarser/helix-agent"
 }

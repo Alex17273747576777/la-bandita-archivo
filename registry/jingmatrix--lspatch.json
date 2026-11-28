@@ -4,22 +4,13 @@
   "release_en": "2023-07-12",
   "semantica_http": 200,
   "ultima_release": "0.5.1",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-15"
  },
  "descripcion": "A rootless Xposed framework that embeds Vector into an app by patching its APK — no root, no Zygisk.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jingmatrix--lspatch.json",
-  "sha256": "0546d73db4ddf70a1072f26e03ad3c8097faf8fe632add076505349d49c13653"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7304008e435e5ab3aec9ab8f25d0573df35a9103fb3a04f1a4e640f79bec7da6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4304,
+  "stars": 4462,
   "stars_por_mes": null
  },
  "nombre": "LSPatch",

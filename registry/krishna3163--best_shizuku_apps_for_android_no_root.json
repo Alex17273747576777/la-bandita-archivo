@@ -4,22 +4,13 @@
   "release_en": "2026-08-22",
   "semantica_http": 200,
   "ultima_release": "shizuku-v13.6.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Curated Shizuku and no-root Android apps, wireless ADB tools, debloat utilities, privacy tools, and root alternatives.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/krishna3163--best_shizuku_apps_for_android_no_root.json",
-  "sha256": "733e95dfebfc047fdc275800179444a8aad635612f741c9f1c268acbd4cb8b42"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "99427f1e1bbdb09557405a7ab0d3588949ccf72a81c4da206e313e5e8f1b4b1a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,21 +26,21 @@
   "spdx": "CC BY-SA 3.0",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 159,
+  "stars": 183,
   "stars_por_mes": null
  },
  "nombre": "best_shizuku_apps_for_android_no_root",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1374f32354c23e2d9d492c64185d4a443ef1e553",
+  "commit": "4e1891dd7d97499f8324a8b9b1335325a60fca0c",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1374f32354c23e2d9d492c64185d4a443ef1e553"
+  "swhid": "swh:1:rev:4e1891dd7d97499f8324a8b9b1335325a60fca0c"
  },
  "repo": "krishna3163/best_shizuku_apps_for_android_no_root",
  "web": "https://krishna3163.github.io/best_shizuku_apps_for_android_no_root/"

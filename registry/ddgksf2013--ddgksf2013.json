@@ -8,18 +8,9 @@
  },
  "descripcion": "墨鱼去广告计划 | QuantumultX 去广告 | 去开屏广告 | 应用净化 | 会员解锁 | 墨鱼配置 | 应用增强 | 网页优化 | 网盘资源 | 模块去广告 | 圈 X 配置 | Shadowrocket配置 | 墨鱼规则 | Clash配置 | 小火箭去广告 | 资源库 | AdBlock | 网页广告 | 不完全指北",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ddgksf2013--ddgksf2013.json",
-  "sha256": "3cd4e48cdd183ee153c9ca8dbe03d75c7d9bcdf5d307d95f4f36c77f03f5a6c3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "617b4b5ef8d922170a2638e41c31c82aa940f2ce2ae8ac7ba08da46263781f25"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": "mit",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13845,
+  "stars": 14015,
   "stars_por_mes": null
  },
  "nombre": "ddgksf2013",

@@ -4,22 +4,13 @@
   "release_en": "2026-03-31",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "A programmable Voice AI platform: SIP and WebRTC call control, multi-party mixing, recording, TTS/STT, and pluggable AI agents (ElevenLabs, VAPI, Pipecat, Deepgram) — all driven through a REST API, webhooks, and a WebSocket event stream",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/voiceblender--voiceblender.json",
-  "sha256": "5ea2fdb86465ad4beeeea301b07fb480e74e61e6c2e61f22b47cc59f70bce2c8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fa2053e0ded62aa74516736d986eb97e4ebd7be26c9a741e89094fa42a3218cb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 137,
+  "stars": 144,
   "stars_por_mes": null
  },
  "nombre": "voiceblender",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d001dac46076a0073efc57909caeab50a49f5cc0",
+  "commit": "fb9d81e7df3448223c201e00c63dbdb5bfeddcc9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:d001dac46076a0073efc57909caeab50a49f5cc0"
+  "swhid": "swh:1:rev:fb9d81e7df3448223c201e00c63dbdb5bfeddcc9"
  },
  "repo": "VoiceBlender/voiceblender",
  "web": "https://voiceblender.org"

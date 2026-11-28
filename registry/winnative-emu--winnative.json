@@ -8,18 +8,9 @@
  },
  "descripcion": "An Android app for playing Windows games from Steam, Epic Games, GOG, and more on your device.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/winnative-emu--winnative.json",
-  "sha256": "0066333a8ddb11ebdfb53d1d715e5d4d60774fbd38b66416e45dbe9fa9e6b4d3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "99f233b438d4c464bb3baacb7d0ffc79a7cd0ae2983295bb11d7989b3ba6de43"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 738,
+  "stars": 781,
   "stars_por_mes": null
  },
  "nombre": "WinNative",

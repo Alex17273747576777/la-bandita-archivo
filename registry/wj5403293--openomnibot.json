@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-06-27"
+  "ultimo_push": "2026-11-10"
  },
  "descripcion": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and perfo",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/wj5403293--openomnibot.json",
-  "sha256": "ef869ac60b1df1c9074327921e952922d2909149d901c339e2a87c3c6c8aac26"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2e4dff03b46b4b2688efa8b06922d5dac9ec3431eb2493a81e8c20ecd0e8d38a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7e4299678a2fce19c4d4b49f64d482314bec5d1d",
+  "commit": "d9caf8b8c7f56f7b06641ece6715600014618866",
   "swh_estado": null,
-  "swhid": "swh:1:rev:7e4299678a2fce19c4d4b49f64d482314bec5d1d"
+  "swhid": "swh:1:rev:d9caf8b8c7f56f7b06641ece6715600014618866"
  },
  "repo": "wj5403293/OpenOmniBot"
 }

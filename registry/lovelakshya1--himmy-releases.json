@@ -4,22 +4,13 @@
   "release_en": "2026-08-25",
   "semantica_http": 200,
   "ultima_release": "v1.1",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "\"Sleek, ad-free Android anime streaming and manga reading client with AniList sync, built with Jetpack Compose.\"",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lovelakshya1--himmy-releases.json",
-  "sha256": "9c091b9d334b8b9877c4de78bc0a17397ae8beb49cd5371dcfdca664af4c7564"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "82af76fee8f13687b9bcd07741b7654efedda3c19cdfdc72b5aca8464e79c9d2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 47,
+  "stars": 59,
   "stars_por_mes": null
  },
  "nombre": "himmy-releases",

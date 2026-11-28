@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
+  "estado": "vivo",
+  "release_en": "2026-05-21",
+  "semantica_http": 200,
+  "ultima_release": "v1.9.7-yasin-final",
   "ultimo_push": "2026-07-09"
  },
  "descripcion": "A native Android application that converts any website URL into a standalone Android App.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yasinullah--web-to-app.json",
-  "sha256": "96995f73d93536a0512bce30518a6b28002259302f77bbedfbad617dfcdda807"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a0a085e26b1dc58e110737942966d47ecf3ebddd8c2444c2bcd1a9bacd135705"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Unlicense",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "web-to-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "1dc6d7b04a1d7698a8254baf219be3fc635a60d8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:1dc6d7b04a1d7698a8254baf219be3fc635a60d8"
  },
  "repo": "yasinULLAH/web-to-app"
 }

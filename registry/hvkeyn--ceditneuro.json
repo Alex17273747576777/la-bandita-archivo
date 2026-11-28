@@ -4,22 +4,13 @@
   "release_en": "2026-09-22",
   "semantica_http": 200,
   "ultima_release": "v0.2.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "Android code editor with an on-device agentic chat. DeepSeek reads and edits the open project through tools; the workspace stays on the device.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hvkeyn--ceditneuro.json",
-  "sha256": "257afb75d1acaf1459b70a62541c6d9905abebe242a217eb7c86fc6f3e952c9b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f42f472cc765bb522027c6807545f1bb8779614abf5ef7ba00d869cc4c508495"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "404ae62ae22635f381b1e0047bbb35a324646706",
+  "commit": "3804a9587d4b5e77ac81adff29a99f92f7dea19a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:404ae62ae22635f381b1e0047bbb35a324646706"
+  "swhid": "swh:1:rev:3804a9587d4b5e77ac81adff29a99f92f7dea19a"
  },
  "repo": "hvkeyn/CEditNeuro"
 }

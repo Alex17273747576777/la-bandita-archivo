@@ -8,18 +8,9 @@
  },
  "descripcion": "全平台将Bilibili缓存视频合并导出为mp4，支持android、windows(10以上)、linux、mac、harmony(仅2in1和PC)、ios，支持B站Android客户端缓存，支持B站Windows客户端缓存，支持B站Mac客户端缓存  Combine and export Bilibili cache files as MP4, support Android, Windows, Linux, Mac,Harmony,IOS, support Bilibili Android Windows Mac client cache",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/molihuan--hlbmerge_flutter.json",
-  "sha256": "c14df94a91a55e45d6190175c52fc1521a16947a13ab279be32f02cb7ebe0ede"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "37d7a4086ca95486cab2e48dfce0db2d070b33806ead8dbb462ed27f207f70b7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 425,
+  "stars": 462,
   "stars_por_mes": null
  },
  "nombre": "hlbmerge_flutter",

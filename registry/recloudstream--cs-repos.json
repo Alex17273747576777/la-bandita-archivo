@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-28"
+  "ultimo_push": "2026-11-20"
  },
  "descripcion": "Cloudstream plugin repositories",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/recloudstream--cs-repos.json",
-  "sha256": "081ad03df284e4068ec0409aa5fbc39d778a35a3538359966ed0b09091e816df"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "59d9af8ae308462307f5c6f1502cfb1c0ffff845a65e6a7170edcabc837ee374"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 545,
+  "stars": 556,
   "stars_por_mes": null
  },
  "nombre": "cs-repos",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "4ea18842537b95e1fb98cc871345369724ba7d5b",
+  "commit": "f1bebd238579a5caa966720c091dfab13e8bae9b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4ea18842537b95e1fb98cc871345369724ba7d5b"
+  "swhid": "swh:1:rev:f1bebd238579a5caa966720c091dfab13e8bae9b"
  },
  "repo": "recloudstream/cs-repos",
  "web": "https://rentry.org/cs3-repos"

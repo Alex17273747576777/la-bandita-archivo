@@ -8,18 +8,9 @@
  },
  "descripcion": "SetEdit Plus — Android settings database editor with no-root provider bridge (AnishtayiN build)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/anishtayin--seteditplus.json",
-  "sha256": "0bfb1cab440eb5be08fdb1f477018ce53545cbc1e7e2dccc086422ea0cd5cd54"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "cd21cad1a392aa27dee168e9e859f50460bc35b4e36867aaec6b2e3b3f0eaffd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

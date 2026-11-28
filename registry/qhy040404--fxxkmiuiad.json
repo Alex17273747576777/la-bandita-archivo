@@ -4,22 +4,13 @@
   "release_en": "2023-01-02",
   "semantica_http": 200,
   "ultima_release": "1.0.0",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Turn off MIUI/HyperOS ads with minimal cost",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/qhy040404--fxxkmiuiad.json",
-  "sha256": "fbb52e47fe838bca08e1f0cd940ba15503ba6d10b883395b13e35cdef6cbab6e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c31f5919fe2965414aa8975f7ab3501f4cfff8cef283c31fd9c579ef5031668e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 191,
+  "stars": 197,
   "stars_por_mes": null
  },
  "nombre": "FxxkMIUIAd",

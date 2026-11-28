@@ -8,18 +8,9 @@
  },
  "descripcion": "Can be privately deployed, focusing on providing Obsidian users with a seamless, distraction-free note synchronization plugin with real-time sync across multiple platforms, supporting Mac, Windows, Android, iOS, and offering multilingual support.可私有化部署，专注为 Obsidian 用户提供无打扰、丝般顺滑、多端实时同步的多平台笔记同步插件。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/haierkeys--obsidian-fast-note-sync.json",
-  "sha256": "a83f8df0cee610414f64d80a80f84024f977943caebd2fccb471c444bb63f5bb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1c73a36e1a3815a39f6be166d8474194bc4a38f19e7a6aad5f57df7c9d048904"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3136,
+  "stars": 3199,
   "stars_por_mes": null
  },
  "nombre": "obsidian-fast-note-sync",

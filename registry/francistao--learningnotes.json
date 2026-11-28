@@ -8,18 +8,9 @@
  },
  "descripcion": "Enjoy Learning.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/francistao--learningnotes.json",
-  "sha256": "bc92889545e8318bcc443b688b53c6a133e362a7d42411c3d9c761a39074d9c8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "031dd7eee9f2f97a01e468c80aebebadf016e1a1e08501d7fd1c18ae5beaca78"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13134,
+  "stars": 13133,
   "stars_por_mes": null
  },
  "nombre": "LearningNotes",

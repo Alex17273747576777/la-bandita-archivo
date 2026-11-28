@@ -8,18 +8,9 @@
  },
  "descripcion": "Backup Android SMS, MMS and call log to Gmail / Gcal / IMAP",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jberkel--sms-backup-plus.json",
-  "sha256": "4ea6ccdb3806311603c6079a38461026543b25f35d142eb3e9c9ea8e83a36743"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "440b47e0642ba97e4033c22a6caa2af1a5adbeefbffc1eab6222cdfc3246cc22"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1898,
+  "stars": 1897,
   "stars_por_mes": null
  },
  "nombre": "sms-backup-plus",

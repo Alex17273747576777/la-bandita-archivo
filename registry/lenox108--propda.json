@@ -4,22 +4,13 @@
   "release_en": "2026-06-20",
   "semantica_http": 200,
   "ultima_release": "v2.9.6",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lenox108--propda.json",
-  "sha256": "fc2c543787f701a4700b8b1e00ad19d991344eea8a6d53ad481a672c71a45f0b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "293a3f52f64c077b9784b1f17ecc7027efaf43c7f9787e2821a98af17a52b27d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 77,
+  "stars": 81,
   "stars_por_mes": null
  },
  "nombre": "ProPDA",

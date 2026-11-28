@@ -8,18 +8,9 @@
  },
  "descripcion": "Helper app for Tasker",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/joaomgcd--taskersettings.json",
-  "sha256": "aeb8f18c5e11c0a6d44ef0313a2a3d9522cca410d69e122c6f49aa80d64a0fac"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e1294225155e83ff9157e9d7a66d7d37cbd6459c9f04e577a9c7c4eaae7bb036"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 614,
+  "stars": 620,
   "stars_por_mes": null
  },
  "nombre": "TaskerSettings",

@@ -4,22 +4,13 @@
   "release_en": "2026-10-26",
   "semantica_http": 200,
   "ultima_release": "v0.2.2",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-11"
  },
  "descripcion": "Heracles 是一个装在手机里的开发智能体：一句话说清需求，它就在你的手机上读文件、改代码、跑命令，把 App 构建、解包、重打包成能直接安装的成品——从想法到装上手机，一台手机全搞定。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/theohowie--heracles.json",
-  "sha256": "00ec839162808eaa1e4afb3d128ec7ba9c3c595107f1e2b7ea012b8fce6a1deb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bfd477da02cfdf75607f76a4c8389606711e61cc1c93740981145edacd0f8923"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2,
+  "stars": 6,
   "stars_por_mes": null
  },
  "nombre": "Heracles",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "dae8f2a998299fa0bf77771b4cd0c42f0eef477f",
+  "commit": "03bf6d372092e5c3c29380b119cbf548c304818d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:dae8f2a998299fa0bf77771b4cd0c42f0eef477f"
+  "swhid": "swh:1:rev:03bf6d372092e5c3c29380b119cbf548c304818d"
  },
  "repo": "theohowie/Heracles"
 }

@@ -4,22 +4,13 @@
   "release_en": "2025-09-30",
   "semantica_http": 200,
   "ultima_release": "v12.4.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "🌸 The Cutest Music Player With Support Local File and Youtube Music for Android!",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rukamori--archivetune.json",
-  "sha256": "f4ac1a122efeac4cb4198d269e52670e41f5c47e1b9001b0e2310318e7397ec0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4673b7d99652c58af515e01d42705e54d1b71169a0c7de978e7e094168061caf"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7929,
+  "stars": 8909,
   "stars_por_mes": null
  },
  "nombre": "ArchiveTune",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "c7f0e243c637e039bce4b92fecdf7179804114fb",
+  "commit": "210a0f430f50981cde5dda262804e7cb3a2939f1",
   "swh_estado": "archivada",
   "swh_solicitud": "c7f0e243c637e039bce4b92fecdf7179804114fb",
-  "swhid": "swh:1:rev:c7f0e243c637e039bce4b92fecdf7179804114fb"
+  "swhid": "swh:1:rev:210a0f430f50981cde5dda262804e7cb3a2939f1"
  },
  "repo": "rukamori/ArchiveTune",
  "web": "https://archivetune.miuka.moe"

@@ -4,22 +4,13 @@
   "release_en": "2023-01-28",
   "semantica_http": 200,
   "ultima_release": "v0.3.4",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "A Kernel based root solution for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tiann--kernelsu.json",
-  "sha256": "d71974009d2c28998f8abea398dad1a7565f3ad5f664e2ce64e0e35928146b4c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "760b3e314368b18051fe49f70927d78b8893f01d3f27d90f67def5b716ad99c5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 20031,
+  "stars": 21118,
   "stars_por_mes": null
  },
  "nombre": "KernelSU",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "28db74f6f4692e97006ce9ebd8b19b9cc614b5b7",
+  "commit": "eeb3bbf8359434f5596b8a7875b54ac4e5fc5495",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:28db74f6f4692e97006ce9ebd8b19b9cc614b5b7"
+  "swhid": "swh:1:rev:eeb3bbf8359434f5596b8a7875b54ac4e5fc5495"
  },
  "repo": "tiann/KernelSU",
  "web": "https://kernelsu.org"

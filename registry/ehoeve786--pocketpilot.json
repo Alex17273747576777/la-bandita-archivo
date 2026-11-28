@@ -4,22 +4,13 @@
   "release_en": "2026-10-11",
   "semantica_http": 200,
   "ultima_release": "dev",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ehoeve786--pocketpilot.json",
-  "sha256": "be05f8a32c8ff3811e4a9b5a247117bf933274baece9ef2966af6f77ba00b096"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5e711d5363379b97865e4c52d9a84ffacf14cc085ad88b91882c805ab48ff1cd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 0,
   "stars_por_mes": null
  },
  "nombre": "pocketpilot",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f89efe55b9f696019e03fc7afe68fe500ba0be5a",
+  "commit": "f0a48d2a44d83a21b61d7567d8dc2fd08d64e9a8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f89efe55b9f696019e03fc7afe68fe500ba0be5a"
+  "swhid": "swh:1:rev:f0a48d2a44d83a21b61d7567d8dc2fd08d64e9a8"
  },
  "repo": "ehoeve786/pocketpilot"
 }

@@ -1,0 +1,26 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-27",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-09-29T10:12:11Z",
+   "oid": "e44e42a321fcaed865f9cf29aed26c4dabe22645"
+  }
+ },
+ "diskUsage": 61917,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "GNU Affero General Public License v3.0",
+  "spdxId": "AGPL-3.0"
+ },
+ "nameWithOwner": "firefly-sylestia/mpvRx",
+ "pushedAt": "2026-09-29T10:12:11Z",
+ "releases": {
+  "nodes": []
+ },
+ "stargazerCount": 0
+}

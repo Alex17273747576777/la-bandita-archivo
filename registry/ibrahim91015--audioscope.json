@@ -4,22 +4,13 @@
   "release_en": "2026-10-05",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-06"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Offline Android multitrack audio capture console with live sources and Material 3 controls",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ibrahim91015--audioscope.json",
-  "sha256": "9fdf4248f0f9ff1f9901b9a05be8aa3f9cb47769fb9b3479a3d5fedf191d0b6a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "96de96ac3284f9de495a39ee05b99a54d59955baa8980632142c979c61228503"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "449d386d8f445d99079c507fbaf527eb397f4b39",
+  "commit": "eecf77c74c07dbac8b0687736f0504d585593e31",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:449d386d8f445d99079c507fbaf527eb397f4b39"
+  "swhid": "swh:1:rev:eecf77c74c07dbac8b0687736f0504d585593e31"
  },
  "repo": "ibrahim91015/AudioScope"
 }

@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-27",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-11-26T17:10:26Z",
+   "oid": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
+  }
+ },
+ "diskUsage": 102336,
+ "forkCount": 8097,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 91
+ },
+ "licenseInfo": {
+  "name": "Other",
+  "spdxId": "NOASSERTION"
+ },
+ "nameWithOwner": "Gathin23/cleanyourtv",
+ "pushedAt": "2026-11-26T17:37:25Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-10-19T06:08:28Z",
+    "tagName": "v2.1.0"
+   }
+  ]
+ },
+ "stargazerCount": 61455
+}

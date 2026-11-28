@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-24"
+  "ultimo_push": "2026-11-08"
  },
  "descripcion": "Get Android app updates straight from the source. And install it any way you wan",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/karigane-cha--obtainx.json",
-  "sha256": "fe3eaa93eb41143ac28450fd80dc3579b1e91348c22a366af403a1cb1abc4b50"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "773a0276c9870de86f75ad54bd18a7389adde36930dfd987ae3a4939bfc0c57e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "acaeca0d137557af4c0777608eab21d9a9ee05e9",
+  "commit": "aea18592413de992e813bd063cb9ad453259582b",
   "swh_estado": null,
-  "swhid": "swh:1:rev:acaeca0d137557af4c0777608eab21d9a9ee05e9"
+  "swhid": "swh:1:rev:aea18592413de992e813bd063cb9ad453259582b"
  },
  "repo": "karigane-cha/ObtainX"
 }

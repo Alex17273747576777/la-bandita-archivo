@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-10-29T09:02:00Z",
-   "oid": "3fa4d98162631f64845cb642b7aa2b108b78c47c"
+   "committedDate": "2026-11-27T16:05:36Z",
+   "oid": "4996527aa57dbfb0a576a4362c0edefac77c8040"
   }
  },
- "diskUsage": 146930,
+ "diskUsage": 152474,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Unlicense"
  },
  "nameWithOwner": "Mutamento3/web-to-app",
- "pushedAt": "2026-10-29T12:15:08Z",
+ "pushedAt": "2026-11-28T01:02:18Z",
  "releases": {
   "nodes": []
  },

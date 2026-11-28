@@ -4,22 +4,13 @@
   "release_en": "2021-10-07",
   "semantica_http": 200,
   "ultima_release": "v1.1.1",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "A comic browser，support Android / iOS / MacOS / Windows / Linux.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/comicsparks--pikapika.json",
-  "sha256": "b1189a351662219392568953ff15821897310ad43ce5af896daa816aad7971bb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3400c459bb1f86c1d772a9d72d103fe56d859c5893a175289a7a7ac0144112dd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": "MIT",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8379,
+  "stars": 8463,
   "stars_por_mes": null
  },
  "nombre": "pikapika",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "28058005d30294fa8466491c845875703009d67d",
+  "commit": "fa3605e3128a32f8b7aade27b375a03b1da99fb7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:28058005d30294fa8466491c845875703009d67d"
+  "swhid": "swh:1:rev:fa3605e3128a32f8b7aade27b375a03b1da99fb7"
  },
  "repo": "ComicSparks/pikapika"
 }

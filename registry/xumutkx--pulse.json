@@ -4,22 +4,13 @@
   "release_en": "2026-10-08",
   "semantica_http": 200,
   "ultima_release": "v0.10",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "An all-in-one toolbox for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/xumutkx--pulse.json",
-  "sha256": "04e30161053c15b8569a89bbfb5ad5ed2ee3373134a42532dbb761518a6320bf"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1f91252e01ecc41ff8a312d9089dc52577f660cacc4796c2e3c1cb266135c4e5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 14,
+  "stars": 29,
   "stars_por_mes": null
  },
  "nombre": "Pulse",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "395e44497376dfdd1d4471adffe56b1b9a3114c2",
+  "commit": "fed6b28c0bb3f2787cf657a9ddd4d4db41550a42",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:395e44497376dfdd1d4471adffe56b1b9a3114c2"
+  "swhid": "swh:1:rev:fed6b28c0bb3f2787cf657a9ddd4d4db41550a42"
  },
  "repo": "xUmutKx/Pulse"
 }

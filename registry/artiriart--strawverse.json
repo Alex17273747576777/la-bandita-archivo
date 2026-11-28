@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-07-08"
+  "ultimo_push": "2026-11-15"
  },
  "descripcion": "A gui to download anime & manga in batches & its fast :3",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/artiriart--strawverse.json",
-  "sha256": "950c4c434ad5dd7cb836385f1714b36415fb1f0ece32f28dbadff6e33fa732f6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ea073e48b8396ff5d9fe33552a2f2102254940c5a49c5630f97a685cb1a4ed00"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,11 +21,11 @@
  "id": "artiriart--strawverse",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "169fb9a751f7358c05920073fca64f104cc76e75",
+  "commit": "6f9b5656357f5d4377724b56d110f33fa9ca63be",
   "swh_estado": null,
-  "swhid": "swh:1:rev:169fb9a751f7358c05920073fca64f104cc76e75"
+  "swhid": "swh:1:rev:6f9b5656357f5d4377724b56d110f33fa9ca63be"
  },
  "repo": "artiriart/StrawVerse"
 }

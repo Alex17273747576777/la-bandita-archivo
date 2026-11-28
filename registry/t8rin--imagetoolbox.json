@@ -4,22 +4,13 @@
   "release_en": "2022-04-07",
   "semantica_http": 200,
   "ultima_release": "vs1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "🖼️ Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image processing options",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/t8rin--imagetoolbox.json",
-  "sha256": "5209736aba66ea43c45ef2227b9148d2a44dbac139603c78829a869f993086f0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "dcfbfc962ee332dfb8e3e74ae690876ae3dda81553166371202a51cd57285fda"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,23 +25,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15310,
+  "stars": 15804,
   "stars_por_mes": null
  },
  "nombre": "ImageToolbox",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e561248b6020da5e47c43396afed020bd338aa1e",
+  "commit": "ec434476a3787b9c33162470560f2351f5f14d49",
   "swh_estado": "archivada",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e561248b6020da5e47c43396afed020bd338aa1e"
+  "swhid": "swh:1:rev:ec434476a3787b9c33162470560f2351f5f14d49"
  },
  "repo": "T8RIN/ImageToolbox"
 }

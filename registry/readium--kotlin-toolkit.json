@@ -8,18 +8,9 @@
  },
  "descripcion": "A toolkit for ebooks, audiobooks and comics written in Kotlin",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/readium--kotlin-toolkit.json",
-  "sha256": "7f09074c8e2abddafd97b8ef20d78dc38e3c29d3e73445e00e60ca316cfef3ae"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6a56404aefabebb676dd86d09faeab36c4ee3be5e9f0d3dfb51e139c02ac1fd9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "BSD-3-Clause",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 395,
+  "stars": 404,
   "stars_por_mes": null
  },
  "nombre": "kotlin-toolkit",

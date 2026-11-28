@@ -8,18 +8,9 @@
  },
  "descripcion": "Independent WiFi ADB Android app (minSdk 19) supporting wireless debugging, WiFi state monitoring, bilingual UI, and accessibility auto-authorization. Non-commercial open-source.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/xrsec--wifi-adb.json",
-  "sha256": "eab603d0fd996591b5f1a6b5426b58f8ac683ae70f126333c0f7f217e93bd298"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4feaf2b1d1f2d7e09db46416fa46eb339658c57c67721c92906e9bb4f91de662"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,13 +24,13 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6,
+  "stars": 10,
   "stars_por_mes": null
  },
  "nombre": "wifi-adb",

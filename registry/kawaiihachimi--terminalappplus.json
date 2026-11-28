@@ -8,18 +8,9 @@
  },
  "descripcion": "Standalone Android 17 AOSP Terminal Plus using rootless AVF with development permissions",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kawaiihachimi--terminalappplus.json",
-  "sha256": "787d0520b967bf48d68eb2d40e1a33add07d3c65ce10c16d94d7b3cd32161c27"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6c0fcb3b424707af86f65ad0108bdea9972eff820e6f029076905cd509cd3afe"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 18,
+  "stars": 29,
   "stars_por_mes": null
  },
  "nombre": "TerminalAppPlus",

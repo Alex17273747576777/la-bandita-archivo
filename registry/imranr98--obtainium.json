@@ -4,22 +4,13 @@
   "release_en": "2022-08-24",
   "semantica_http": 200,
   "ultima_release": "v0.1.0-beta",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "Get Android app updates straight from the source.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/imranr98--obtainium.json",
-  "sha256": "08322e4ecbf57cd7d29f149af2c88468ce318138b341151a8ff9707a156ebde8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4cc8e559f633a9a846ad4fd178bd7700347f7bb9d1740ea6f5472b001b75be22"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 21169,
+  "stars": 21989,
   "stars_por_mes": null
  },
  "nombre": "Obtainium",
@@ -49,10 +40,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "35c3e7fea4f341a716eca4bb3fc625319ce965ab",
+  "commit": "c570dccb097e7d5593234c369a359b730a128d5a",
   "swh_estado": "archivada",
   "swh_solicitud": "35c3e7fea4f341a716eca4bb3fc625319ce965ab",
-  "swhid": "swh:1:rev:35c3e7fea4f341a716eca4bb3fc625319ce965ab"
+  "swhid": "swh:1:rev:c570dccb097e7d5593234c369a359b730a128d5a"
  },
  "repo": "ImranR98/Obtainium",
  "web": "https://obtainium.imranr.dev"

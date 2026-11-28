@@ -4,22 +4,13 @@
   "release_en": "2026-10-28",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "Android's Ethernet tethering with a fixed IPv4 address or normal DHCP, for any USB-C Ethernet adapter, through Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/oytuncagil--ethertether.json",
-  "sha256": "5f3aed99b246ea3c3198e03be35b596df77056bae22ac331e9fb7d9491e63333"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "310faf0c81a21a4d75425ee7d519e8f0b24a0dde20844d595a83bf9e0d566760"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4,
+  "stars": 10,
   "stars_por_mes": null
  },
  "nombre": "ethertether",

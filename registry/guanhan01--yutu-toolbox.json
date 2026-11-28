@@ -8,18 +8,9 @@
  },
  "descripcion": "手机上的 AI Agent：自然语言驱动 103 个内置工具直接操作本机——文件、应用、抓包、APK 反编译、Linux 环境、界面自动化。内置 MCP 客户端与 MCP Server。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/guanhan01--yutu-toolbox.json",
-  "sha256": "3b7fd8cc163e6ee403f152bf816455fe4198668b786867d307d2815499919f27"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0d853c7f0b0e92b6530e0ce198d96f6d00dd2186f4dc7fa32190ce5a59c838da"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8,
+  "stars": 9,
   "stars_por_mes": null
  },
  "nombre": "Yutu-Toolbox",

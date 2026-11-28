@@ -1,6 +1,6 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
    "committedDate": "2025-06-18T04:19:30Z",
@@ -8,10 +8,10 @@
   }
  },
  "diskUsage": 39013,
- "forkCount": 3530,
+ "forkCount": 3811,
  "isArchived": false,
  "issues": {
-  "totalCount": 607
+  "totalCount": 518
  },
  "licenseInfo": {
   "name": "Apache License 2.0",
@@ -28,5 +28,5 @@
    }
   ]
  },
- "stargazerCount": 32726
+ "stargazerCount": 34880
 }

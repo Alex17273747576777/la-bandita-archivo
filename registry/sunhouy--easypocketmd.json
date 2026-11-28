@@ -8,18 +8,9 @@
  },
  "descripcion": "下一代Markdown编辑器。AI驱动，极速，跨平台。/快捷操作，无需记忆任何语法。AI格式/图表/公式/表情，文件云同步，协作文档，云打印，导入/导出pdf,doc,html，个性化界面和设置。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sunhouy--easypocketmd.json",
-  "sha256": "c7b6acb9deae44f03e492cb8e854fdb6ad100664e16f26e2f8b87a67ad8287e3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "cce20aeb44cd6f0cb1057fbebbc2e886237e47be3874b78f02dfd55503180577"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

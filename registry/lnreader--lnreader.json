@@ -4,22 +4,13 @@
   "release_en": "2021-03-10",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Light novel reader for Android.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lnreader--lnreader.json",
-  "sha256": "f3e34ba71feebeb3a6ec983cf7b0ee6a3bd92485c558ba8feee0a498d92f5494"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6ac91cb1eb71a1044fbf631871f897df5c548d1568819a5ddf083393f420bf24"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2953,
+  "stars": 3016,
   "stars_por_mes": null
  },
  "nombre": "lnreader",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "dc394e8540d44902efc17b5a35485bdb0724bb00",
+  "commit": "0a08d160df66abede87f0a2f81037f580f937d90",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:dc394e8540d44902efc17b5a35485bdb0724bb00"
+  "swhid": "swh:1:rev:0a08d160df66abede87f0a2f81037f580f937d90"
  },
  "repo": "lnreader/lnreader",
  "web": "https://www.lnreader.app"

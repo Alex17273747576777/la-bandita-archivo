@@ -4,22 +4,13 @@
   "release_en": "2022-01-16",
   "semantica_http": 200,
   "ultima_release": "1.11.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A lightweight keyboard for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/julow--unexpected-keyboard.json",
-  "sha256": "cdf5f323046734b6321badf1d4968d4e09fa94f0e814910fa6da835e2c63745b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "50a6f10d33914e3513235b02743c8ee5e8cce6d74d166c49d285b7e04a4ba64f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3331,
+  "stars": 3377,
   "stars_por_mes": null
  },
  "nombre": "Unexpected-Keyboard",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "0695efdc4abd46bd2ed81df4edc6ee61c623a6e1",
+  "commit": "ce1f6cf8f133cabea6ad91f63fe8d5a2b318bed2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:0695efdc4abd46bd2ed81df4edc6ee61c623a6e1"
+  "swhid": "swh:1:rev:ce1f6cf8f133cabea6ad91f63fe8d5a2b318bed2"
  },
  "repo": "Julow/Unexpected-Keyboard"
 }

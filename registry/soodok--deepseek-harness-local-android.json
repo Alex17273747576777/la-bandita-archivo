@@ -4,22 +4,13 @@
   "release_en": "2026-09-19",
   "semantica_http": 200,
   "ultima_release": "v1.2.27",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Run the DeepSeek Harness AI agent natively on Android — no root, no Termux, extension center included | 手机本地运行 DeepSeek Agent，免 Root 免 Termux",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/soodok--deepseek-harness-local-android.json",
-  "sha256": "0a3639e7594b8d8f7bba07c1561fd023e1c39596b300c6a7784aac1d3e69c7d6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "596af96cf0c7781649b0dedc322aab4727cbf9d6a7d4183fdae9e766b63626fc"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 458,
+  "stars": 595,
   "stars_por_mes": null
  },
  "nombre": "Deepseek-Harness-Local-Android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "618a4756e15b71629c333577a4a341fe1268bc9a",
+  "commit": "3eb2fa5c27cc96e5c4c98e2e3ff5aeef9074fc22",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:618a4756e15b71629c333577a4a341fe1268bc9a"
+  "swhid": "swh:1:rev:3eb2fa5c27cc96e5c4c98e2e3ff5aeef9074fc22"
  },
  "repo": "Soodok/Deepseek-Harness-Local-Android"
 }

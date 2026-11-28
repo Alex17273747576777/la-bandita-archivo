@@ -4,22 +4,13 @@
   "release_en": "2026-01-17",
   "semantica_http": 200,
   "ultima_release": "v2.0",
-  "ultimo_push": "2026-10-16"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "an anime/manga/ln cross-platform app",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/davenarchives--yorumi.json",
-  "sha256": "f3ba4bf7bf4ae43095f7e30b1e33f4236a83016031993de4b77b56ed61301735"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fb93133472c4ae6dec0e25e504386ac9c93edff0a80beca6e89bc6926dfc9a0f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 63,
+  "stars": 65,
   "stars_por_mes": null
  },
  "nombre": "Yorumi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "0bd0c304a9ffb42654989351bc4740a3ef45ccbb",
+  "commit": "e28b33b1cefe5714363d619e9ec5d047b66a534f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:0bd0c304a9ffb42654989351bc4740a3ef45ccbb"
+  "swhid": "swh:1:rev:e28b33b1cefe5714363d619e9ec5d047b66a534f"
  },
  "repo": "davenarchives/Yorumi",
  "web": "https://yorumi.vercel.app"

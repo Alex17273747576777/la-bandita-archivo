@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "estado": "vivo",
+  "release_en": "2026-08-28",
+  "semantica_http": 200,
+  "ultima_release": "v0.3.0",
+  "ultimo_push": "2026-11-17"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rabbitujiang--rabbit-sleep-guard.json",
-  "sha256": "21bb3a2fa2389c0d943eb2bf5af6b7a1091b0070ec72cc9a3dc2192ff06e8947"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "642bcd76c843b6e1c716c2e19ac46dfb115296e37e082629e18900d9d8e20fb8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 0,
   "stars_por_mes": null
  },
  "nombre": "rabbit-sleep-guard",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7c16ea3ccbefd73d28dfd2aaa4df0c2027400360",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7c16ea3ccbefd73d28dfd2aaa4df0c2027400360"
  },
  "repo": "rabbitujiang/rabbit-sleep-guard"
 }

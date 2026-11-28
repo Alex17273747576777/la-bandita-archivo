@@ -8,18 +8,9 @@
  },
  "descripcion": "Automated archive of TikTok Mod and Plugin APK files from TikTokModCloud. This repository includes a CLI tool for downloading the latest versions and automated workflows to maintain an up-to-date archive of all APK files.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/namecallfilter--tiktokmodcloud.json",
-  "sha256": "bf471ea6d33109371a74a6e15e854f9d3452ba2dc018528e4f51a5b4f25ab461"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b8e4e08e19da1ed6845af619f530052a8fdaefc680c8e44730ae2425dc371582"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": "MIT",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 473,
+  "stars": 518,
   "stars_por_mes": null
  },
  "nombre": "tiktokmodcloud",

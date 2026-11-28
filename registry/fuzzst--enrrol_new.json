@@ -4,22 +4,13 @@
   "release_en": "2026-08-28",
   "semantica_http": 200,
   "ultima_release": "dpc-aio-emergency-enrollment",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/fuzzst--enrrol_new.json",
-  "sha256": "e47f0de02f1f0e2e341716b7c617a122a900891648f8dd01081dcece4237ae19"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e7e2ca31e99cb78144be54fbf11a1d05ddafd31202a5f7f832c7a0453466359f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1ea062daadf917fcd7c90524032316b13d684719",
+  "commit": "8f04598bbc1e2af31c0e97494520e6485b0f1039",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1ea062daadf917fcd7c90524032316b13d684719"
+  "swhid": "swh:1:rev:8f04598bbc1e2af31c0e97494520e6485b0f1039"
  },
  "repo": "FuzzsT/ENRROL_NEW"
 }

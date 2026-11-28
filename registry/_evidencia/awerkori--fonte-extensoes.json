@@ -1,26 +1,26 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-11-01T10:45:25Z",
-   "oid": "909f6bdae19d48071399c8b703da152893d5aaaf"
+   "committedDate": "2026-11-27T23:33:42Z",
+   "oid": "c4ccec8a32446fcdc8ec53f8fcc4e7cc1f15791c"
   }
  },
- "diskUsage": 228945,
- "forkCount": 1,
+ "diskUsage": 251641,
+ "forkCount": 3,
  "isArchived": false,
  "issues": {
   "totalCount": 0
  },
  "licenseInfo": {
-  "name": "Apache License 2.0",
-  "spdxId": "Apache-2.0"
+  "name": "GNU Affero General Public License v3.0",
+  "spdxId": "AGPL-3.0"
  },
- "nameWithOwner": "Awerkori/manga-fonte-extensoes",
- "pushedAt": "2026-11-01T10:45:28Z",
+ "nameWithOwner": "ProjectNox-org/manga-fonte-extensoes",
+ "pushedAt": "2026-11-27T23:33:46Z",
  "releases": {
   "nodes": []
  },
- "stargazerCount": 9
+ "stargazerCount": 12
 }

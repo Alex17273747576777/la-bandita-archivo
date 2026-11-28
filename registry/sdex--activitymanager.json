@@ -4,22 +4,13 @@
   "release_en": "2021-08-12",
   "semantica_http": 200,
   "ultima_release": "4.0.0",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "Launch any application activity",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sdex--activitymanager.json",
-  "sha256": "bb5ae3d0a5cb0b85145e2886cd61fccbf0dca599518f064e5a4748d7a8e8007a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "45f039516b9c14780f9ec8b7370de52a30d5f69fa97886f7f9eadaace29835c5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1375,
+  "stars": 1426,
   "stars_por_mes": null
  },
  "nombre": "ActivityManager",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "78183e1eb542d8c6bb1c1cef9397a75c4a6550d4",
+  "commit": "eb05989861ea03afaa2457460f50a06fda98bf86",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:78183e1eb542d8c6bb1c1cef9397a75c4a6550d4"
+  "swhid": "swh:1:rev:eb05989861ea03afaa2457460f50a06fda98bf86"
  },
  "repo": "sdex/ActivityManager"
 }

@@ -4,22 +4,13 @@
   "release_en": "2026-07-20",
   "semantica_http": 200,
   "ultima_release": "v2.0",
-  "ultimo_push": "2026-09-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Pixel Camera turns Video Boost off every time you close it, so it never stays on. This app re-enables it automatically each time you open the camera in video mode. No root. Free and open source (MIT), no ads and no tracking. For Pixel 8 Pro, 9 Pro and 10 Pro.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/agusromerol--video-boost-ao.json",
-  "sha256": "31aa1ca5efe8da4aa918b71fd0c7c7eb20de9c6b7fd46c29013e894f3aeac076"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5f285eacb23474b70a1eb6e54b4ee77948c18bc26af1326a309824416a1487db"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 11,
+  "stars": 14,
   "stars_por_mes": null
  },
  "nombre": "video-boost-ao",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "0205b761dca8b033b755ac18421f25ad1ef2d426",
+  "commit": "c70d46009abc9d194419c490ba0d2c31d8577e09",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:0205b761dca8b033b755ac18421f25ad1ef2d426"
+  "swhid": "swh:1:rev:c70d46009abc9d194419c490ba0d2c31d8577e09"
  },
  "repo": "AgusRomeroL/video-boost-ao",
  "web": "https://github.com/AgusRomeroL/video-boost-ao/releases/latest"

@@ -8,18 +8,9 @@
  },
  "descripcion": "Bromite is a Chromium fork with ad blocking and privacy enhancements; take back your browser!",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/bromite--bromite.json",
-  "sha256": "4dbcbc350c76093bce2d37d505566d93b054a29e994d4fad9294eb0a0f836dbf"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8e7cb43f60c7548e8621e109cb0326096c0f09f7a570a9a65b33ba43dea3ae47"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6321,
+  "stars": 6324,
   "stars_por_mes": null
  },
  "nombre": "bromite",

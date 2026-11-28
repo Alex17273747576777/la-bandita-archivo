@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-08"
+  "ultimo_push": "2026-11-04"
  },
  "descripcion": "The Swiss Army Knife of Offline AI. Chat, see, speak, and generate images on you",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/skytitan888--ogam11.json",
-  "sha256": "7d644cc38d67f129df783ac2b611c131301e62603ba141121fb6fad162c80776"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "08912bc7b88a9e87708bb52450a7569e7fd6abe9bf981a5380c3e2a010db16e5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "fa5c0f1290f1fab66c30455c1e200389a8599900",
+  "commit": "5d9e98449960580d5b3e64cd36d73a1f741598e6",
   "swh_estado": null,
-  "swhid": "swh:1:rev:fa5c0f1290f1fab66c30455c1e200389a8599900"
+  "swhid": "swh:1:rev:5d9e98449960580d5b3e64cd36d73a1f741598e6"
  },
  "repo": "skytitan888/OGAM11"
 }

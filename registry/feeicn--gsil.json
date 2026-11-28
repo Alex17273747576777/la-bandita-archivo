@@ -8,18 +8,9 @@
  },
  "descripcion": "GitHub Sensitive Information Leakage（GitHub敏感信息泄露监控）",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/feeicn--gsil.json",
-  "sha256": "1f826e906b58e747fbdea89c25ea22b98ec306475cf56d35395556d61c3f0ab0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "01576780a14ef967e76c26c5806280651db2aff564a735ec66b666d03d943d89"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2141,
+  "stars": 2140,
   "stars_por_mes": null
  },
  "nombre": "GSIL",

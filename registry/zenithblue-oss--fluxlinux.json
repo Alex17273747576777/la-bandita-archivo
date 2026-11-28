@@ -8,18 +8,9 @@
  },
  "descripcion": "FluxLinux is Linux on Android, advanced orchestrator application that transforms your Android device into a versatile Linux workstation. ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zenithblue-oss--fluxlinux.json",
-  "sha256": "bda85caf6f57bf194ebcccc60491e82dfb0cbe0dff2d82ec85fca44a1295978d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ea910505fbb0dc3c4fe11bf87901a0391edb0892abc418cde0e042f5f5a94515"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 307,
+  "stars": 341,
   "stars_por_mes": null
  },
  "nombre": "fluxlinux",

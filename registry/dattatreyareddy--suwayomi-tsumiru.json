@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-17"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "A native manga & manhwa reader for Suwayomi-Server - enhanced fork of Tachidesk-",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dattatreyareddy--suwayomi-tsumiru.json",
-  "sha256": "0b45dedd339a9ddb3cbcebbed59a07715af7178fe69d3785842b37e63d059dee"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ee6dd21cce1fa3a869248f75d3b20d102c05af152c28c10cbfe9fcd890e02b2c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b48903e5889ddd56c27f46fc0c322b0c55ca89e3",
+  "commit": "c01ad2562fbc124d4f63a49664c6e3018c14616c",
   "swh_estado": null,
-  "swhid": "swh:1:rev:b48903e5889ddd56c27f46fc0c322b0c55ca89e3"
+  "swhid": "swh:1:rev:c01ad2562fbc124d4f63a49664c6e3018c14616c"
  },
  "repo": "DattatreyaReddy/Suwayomi-Tsumiru"
 }

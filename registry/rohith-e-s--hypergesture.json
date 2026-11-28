@@ -4,22 +4,13 @@
   "release_en": "2026-10-28",
   "semantica_http": 200,
   "ultima_release": "v2.1.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-12"
  },
  "descripcion": "Edge gestures for Xiaomi HyperOS, so you can keep the launcher you actually like.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rohith-e-s--hypergesture.json",
-  "sha256": "7df4ee51407a1822a36232e07f514d1b32d8226210baabaec8dff65ce3c22d7e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4c6b439bbe1b92d053de0a95dbd3cff2003cd3d39d8710618e2e8419990876a6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2,
+  "stars": 8,
   "stars_por_mes": null
  },
  "nombre": "HyperGesture",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f69eaba988d28b2e29d91d306f82e51a9956296b",
+  "commit": "f01419bda8de550c5e7203fe218fe69c409e99b0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f69eaba988d28b2e29d91d306f82e51a9956296b"
+  "swhid": "swh:1:rev:f01419bda8de550c5e7203fe218fe69c409e99b0"
  },
  "repo": "Rohith-E-S/HyperGesture"
 }

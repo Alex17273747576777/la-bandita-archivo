@@ -4,22 +4,13 @@
   "release_en": "2026-10-19",
   "semantica_http": 200,
   "ultima_release": "v0.3.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "DSH Android 客户端：内置 Termux 环境跑 Node，在 Node 上跑 DSH 引擎，WebView 加载官方 Web GUI",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pht88888888--dshapp.json",
-  "sha256": "624aa8d951ea613f97f235dd92c11ddc819124d6ea0660ba95544ddf22221d34"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "20b1748b3f41da0f6abe24f2f13188721703c3864f82467e03482f015be27310"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 69,
+  "stars": 86,
   "stars_por_mes": null
  },
  "nombre": "DSHAPP",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "8fc7a46e4ff3c950562c38c633d3bd36d7f023dd",
+  "commit": "d72735eb3800cdf4c22c83ee2faafa7688c8dc19",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:8fc7a46e4ff3c950562c38c633d3bd36d7f023dd"
+  "swhid": "swh:1:rev:d72735eb3800cdf4c22c83ee2faafa7688c8dc19"
  },
  "repo": "pht88888888/DSHAPP"
 }

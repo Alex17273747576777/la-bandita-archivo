@@ -4,22 +4,13 @@
   "release_en": "2025-12-17",
   "semantica_http": 200,
   "ultima_release": "v0.7.0-beta",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "💡 Auto dark mode based on ambient light sensor for Android.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/xlexip--adaptive-theme.json",
-  "sha256": "65729885995ea1b06ae14036766d2b6b37333883f9db111e0091088f26390464"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6e2f8d0b10dea7b23673eebfc3cc2627185f6ffe85d255a265fdb42b9591a416"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 309,
+  "stars": 335,
   "stars_por_mes": null
  },
  "nombre": "Adaptive-Theme",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3501158cfe2544cc7f049f1be6b785b74f67c8fe",
+  "commit": "17ffe67035632ee8bace21f639e1ab4b21e4ccd4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3501158cfe2544cc7f049f1be6b785b74f67c8fe"
+  "swhid": "swh:1:rev:17ffe67035632ee8bace21f639e1ab4b21e4ccd4"
  },
  "repo": "xLexip/Adaptive-Theme",
  "web": "https://play.google.com/store/apps/details?id=dev.lexip.hecate&referrer=utm_source%3Dgithub%26utm_medium%3Drepolink"

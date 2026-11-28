@@ -8,18 +8,9 @@
  },
  "descripcion": "Android app that turns a Bluetooth/USB HID button into one real tap at a fixed screen point. Shizuku, no root.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/gufarina--tapanchor.json",
-  "sha256": "22bcc7c44da7f714c9e4f082dfd1959894d22cfb1076abba6121ae632e74c3e6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ee383ccbdd45a66ea3c5307b3f5574b0cb1ec3f8cfbb5222774e85d0181521b4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

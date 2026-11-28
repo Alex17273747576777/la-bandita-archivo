@@ -4,22 +4,13 @@
   "release_en": "2025-10-05",
   "semantica_http": 200,
   "ultima_release": "V1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": " Monica Pass，Password Management, 2FA Generator",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/monica-pass--monica.json",
-  "sha256": "d29c85f05c0b4ce25d504a97646cda9685023d3fa712bf9378206a3f0a2f723a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d08a1a252c0200aaf7aa20e8f7277d19f54b63cab76cd79c5bd26c5952ae0ddb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1206,
+  "stars": 1282,
   "stars_por_mes": null
  },
  "nombre": "Monica",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2ef9f3d620e261dbb36bbfdc47ffa46af164ad87",
+  "commit": "33a3bda2e5509778df12265f21b66f7354f8fbc3",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:2ef9f3d620e261dbb36bbfdc47ffa46af164ad87"
+  "swhid": "swh:1:rev:33a3bda2e5509778df12265f21b66f7354f8fbc3"
  },
  "repo": "Monica-Pass/Monica",
  "web": "https://monica-pass.github.io/MonicaDocs/"

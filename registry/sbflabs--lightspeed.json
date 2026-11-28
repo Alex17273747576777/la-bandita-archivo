@@ -4,22 +4,13 @@
   "release_en": "2026-09-24",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "100% offline, zero-permission Android gesture workstation & Shizuku control layer: one-thumb app drawer, Cockpit Gear Sets, cursor trackpad with smart macros, per-app volume mixer & voice isolation, display override, and 1-tap banking stealth cloak.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sbflabs--lightspeed.json",
-  "sha256": "5a6b92404fcdab62cc39ebaa1af17a168b25f17b38b69522252d9bf0c83365ba"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "29e29baa6815626ff98f05c4d0ca045941fc8f75ccf4574856f28559518c45b8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,23 +24,23 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («source-available»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 22,
+  "stars": 31,
   "stars_por_mes": null
  },
  "nombre": "Lightspeed",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "32bdd7b110f6a4fce8aa1a5eec1d1631e9a76b79",
+  "commit": "a974ccba52d39ee1c5382fd81a30598161bc5655",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:32bdd7b110f6a4fce8aa1a5eec1d1631e9a76b79"
+  "swhid": "swh:1:rev:a974ccba52d39ee1c5382fd81a30598161bc5655"
  },
  "repo": "SBFlabs/Lightspeed"
 }

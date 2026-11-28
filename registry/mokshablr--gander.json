@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "dormido",
-  "release_en": "2026-10-31",
+  "estado": "vivo",
+  "release_en": "2026-07-19",
   "semantica_http": 200,
-  "ultima_release": "v2.8",
-  "ultimo_push": "2026-11-03"
+  "ultima_release": "v1.0",
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Take a gander at any file. Offline, zero-permission Android viewer for PDF, Word, Excel, PowerPoint, ODT, RTF, ZIP, STL, photos, video, audio, Markdown and code.",
  "evidencia": {
-  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
-  "payload_ref": "ficha profunda del 2026-11-03",
-  "sha256": "44cfaee63090a87e270485c721c07a203c33e25281779b183a3c1fd5321ad6ab"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/mokshablr--gander.json",
+  "sha256": "cb5fb1ac77e92b9296ef88a0146efaf6e8500a48a209863ce020d05246a225f6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,16 +21,16 @@
  "id": "mokshablr--gander",
  "licencia": {
   "archivo": "MIT License\n\nCopyright (c) 2026 Arjun Maniyani\n\nPermission is hereby granted, free of charge, to any person obtaining a",
-  "metodo": "endpoint-license",
+  "metodo": "spdx-api",
   "nota": "certificada contra el texto del archivo LICENSE",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1356,
+  "stars": 1446,
   "stars_por_mes": null
  },
  "nombre": "gander",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "89bf8106f581960d161baf73514ce41657a27177",
+  "commit": "c7563bcb82e77129680bc61894899fa493f3de9a",
   "swh_estado": "solicitud 200",
   "swh_solicitud": "accepted",
-  "swhid": "swh:1:rev:89bf8106f581960d161baf73514ce41657a27177"
+  "swhid": "swh:1:rev:c7563bcb82e77129680bc61894899fa493f3de9a"
  },
  "repo": "mokshablr/gander"
 }

@@ -4,22 +4,13 @@
   "release_en": "2026-08-30",
   "semantica_http": 200,
   "ultima_release": "v1.9.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-17"
  },
  "descripcion": "Dear ImGui runtime plugin for AutoJs6",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/supermonster003--autojs6-plugin-imgui.json",
-  "sha256": "f529a5891de1f890fdbec40a7989ca3bf29e53d025dbf385028da26806097c10"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fec317a238815872cdfa4692b4b52993ed5e43e776caad5332b7ff0dad0103a8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "65315bc26fc97130985a0377fd8fe61befc4ce28",
+  "commit": "c4d7496961186ecde6146be965b4bae13ffe6e87",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:65315bc26fc97130985a0377fd8fe61befc4ce28"
+  "swhid": "swh:1:rev:c4d7496961186ecde6146be965b4bae13ffe6e87"
  },
  "repo": "SuperMonster003/AutoJs6-Plugin-ImGui"
 }

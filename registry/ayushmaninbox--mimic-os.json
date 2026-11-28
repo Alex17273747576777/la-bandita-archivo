@@ -8,18 +8,9 @@
  },
  "descripcion": "A native macOS app built in SwiftUI to mirror, control, and manage files on your Android device wirelessly or via USB. No Android app or root required.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ayushmaninbox--mimic-os.json",
-  "sha256": "51787fbea6d665d90b0b4f25ab8ddbdd2ea53ae50e13f297d48b8a7113ec628a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "347dea2efbcfa71f98602a9a75e7a0a331e178e2c7a98445217efc11de60d5f5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

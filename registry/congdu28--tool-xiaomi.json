@@ -4,22 +4,13 @@
   "release_en": "2026-10-20",
   "semantica_http": 200,
   "ultima_release": "v1.0.5",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/congdu28--tool-xiaomi.json",
-  "sha256": "e245e4f55c969c59357a968661b1d2a7d355b2ca623224fccf4f23daf920a544"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "18781126be4ced7bf5c45342980121dbecad2bfdd2075d336c2083fe92a106a9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d9aa84c0dc12abefb76699c997b7008ddd54e852",
+  "commit": "b4ed55a8a140f4a07b9b1a251741aeb850f535f1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:d9aa84c0dc12abefb76699c997b7008ddd54e852"
+  "swhid": "swh:1:rev:b4ed55a8a140f4a07b9b1a251741aeb850f535f1"
  },
  "repo": "congdu28/Tool-Xiaomi"
 }

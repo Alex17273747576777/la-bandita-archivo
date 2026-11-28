@@ -4,22 +4,13 @@
   "release_en": "2026-08-17",
   "semantica_http": 200,
   "ultima_release": "v3.1.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "拥爱 AMBRACE｜可自行部署的 AI 陪伴应用：长期记忆、主动关心、日记与朋友圈。Android App + 自托管后端，支持自选模型与插件扩展。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/gi-tuu--ambrace.json",
-  "sha256": "09af51b9690d6df16be9372660f02771b1dafa78b6a92404c6d54a404159d252"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "19c82471e9040063bbdbc6d66fe867ad2f71d655bd6658dd52b0957c2199c41f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13,
+  "stars": 15,
   "stars_por_mes": null
  },
  "nombre": "AMBRACE",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "4298bf2b056e42b5fdb7f98ed8487e4dc33d9ceb",
+  "commit": "6a4f2255131fe0ec45ec0a072f06372381953ef3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4298bf2b056e42b5fdb7f98ed8487e4dc33d9ceb"
+  "swhid": "swh:1:rev:6a4f2255131fe0ec45ec0a072f06372381953ef3"
  },
  "repo": "Gi-Tuu/AMBRACE",
  "web": "https://gi-tuu.github.io/AMBRACE/"

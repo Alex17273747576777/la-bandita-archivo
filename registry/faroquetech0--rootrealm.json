@@ -8,18 +8,9 @@
  },
  "descripcion": "Advanced Android system tools for root, Shizuku, ADB, backup, debloating, and device management.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/faroquetech0--rootrealm.json",
-  "sha256": "18aff2fa76723bc5d9b23de921fd40bf720aaa755b38b5ec805c40455e70dbb2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8a067c0cc6b909dd5a0a32819ba77a270537283907fe2ff656fcd6d649a68bf9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,9 +24,9 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

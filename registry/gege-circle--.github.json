@@ -8,18 +8,9 @@
  },
  "descripcion": "这里是GitHub的草场，也是戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。This is GitHub grassland, and the community place for Gege circle lovers, mainly discusses anime, games, technology, lifing and other topics. You are welcome to share interest things here.  　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　缺氧修改器 捏脸 反光板 MySQL数据库 玉米杂草数据集 销售系统开发 疫情期间网民情绪识",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/gege-circle--.github.json",
-  "sha256": "9672569b1640081074196bc199d6aa8b6aaa81cbcf4ff5c4259af70f1c9e627f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "22bd740f3ac4e385cca6121955c8585249b3dad709611e6637f0f547969eec31"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": "CC BY-SA 3.0",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2080,
+  "stars": 2130,
   "stars_por_mes": null
  },
  "nombre": ".github",

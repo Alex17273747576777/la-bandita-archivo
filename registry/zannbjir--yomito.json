@@ -4,22 +4,13 @@
   "release_en": "2026-02-20",
   "semantica_http": 200,
   "ultima_release": "nightly-20022026",
-  "ultimo_push": "2026-10-12"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Manga reader for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zannbjir--yomito.json",
-  "sha256": "37c7f9df7e85b1abdcfdb279d3f4f980b585de5eaa47c8999d9fe680ad6ed1f1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "10a2e39e7aee6c68bd70edc5a560b4cc617d570b79d31231921a214069fc92be"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "96b40b4300e25a79659053dc85fdb9fec331bfcc",
+  "commit": "09e6da8a3d992dc6e59e78c505e7c57c7e3455e9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:96b40b4300e25a79659053dc85fdb9fec331bfcc"
+  "swhid": "swh:1:rev:09e6da8a3d992dc6e59e78c505e7c57c7e3455e9"
  },
  "repo": "zannbjir/yomito"
 }

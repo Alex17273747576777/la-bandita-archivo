@@ -4,22 +4,13 @@
   "release_en": "2026-01-05",
   "semantica_http": 200,
   "ultima_release": "v0.2",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-10"
  },
  "descripcion": "stream android system audio to airplay speakers.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/g8row--centuryplay.json",
-  "sha256": "c93f78da18eca7fbcd9376eded0018f9dd6430b769d13fa6df27742f5d4b74d3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7cacb878d61a6af2c3524905ab4eea301b87c3ff767d7e2e9920dc8ff04e48fe"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 66,
+  "stars": 79,
   "stars_por_mes": null
  },
  "nombre": "centuryplay",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e241344a61008936186718ee0b2feec40ab81e79",
+  "commit": "644fa31f77d2cfe09bb3b26779245ee9e8af8d6e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e241344a61008936186718ee0b2feec40ab81e79"
+  "swhid": "swh:1:rev:644fa31f77d2cfe09bb3b26779245ee9e8af8d6e"
  },
  "repo": "g8row/centuryplay"
 }

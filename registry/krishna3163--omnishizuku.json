@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-25",
+  "release_en": "2026-11-08",
   "semantica_http": 200,
-  "ultima_release": "v0.0.1-dev",
-  "ultimo_push": "2026-11-03"
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "An open-source Android utility for Shizuku, ADB, and Dhizuku workflows, with tools for Android phones, Android TV, and Wear OS.",
  "evidencia": {
-  "nota": "ficha creada el 3-nov-2026 al medir los herederos de Shizuku para la pieza 04",
-  "payload_ref": "consulta GraphQL del 2026-11-03 sobre krishna3163/OmniShizuku",
-  "sha256": "06f2769a80dca9b12eede6bd2122d5d82eb3c1713df81a4a021d941ea7765f27"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/krishna3163--omnishizuku.json",
+  "sha256": "99357aeff47d8852b47dd1bf4af3834d1514d63320af86c129f9772c03214e2f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,13 +24,13 @@
   "metodo": "spdx-api",
   "nota": "certificada además contra el texto del archivo LICENSE en la medición de la pieza 04",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 17,
+  "stars": 45,
   "stars_por_mes": null
  },
  "nombre": "OmniShizuku",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "153d6ecba28f7974b13a68542b9206197297616a",
+  "commit": "b971353b8a60bd954a3f47de3580eb200f98d64c",
   "swh_estado": "archivada",
   "swh_solicitud": "153d6ecba28f7974b13a68542b9206197297616a",
-  "swhid": "swh:1:rev:153d6ecba28f7974b13a68542b9206197297616a"
+  "swhid": "swh:1:rev:b971353b8a60bd954a3f47de3580eb200f98d64c"
  },
  "repo": "krishna3163/OmniShizuku"
 }

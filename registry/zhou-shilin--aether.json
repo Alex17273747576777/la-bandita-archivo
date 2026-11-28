@@ -4,22 +4,13 @@
   "release_en": "2026-04-25",
   "semantica_http": 200,
   "ultima_release": "1.0.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Codex for Android, iOS & Mac. | Aether 扶摇",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zhou-shilin--aether.json",
-  "sha256": "f59214e82a35accce1e671576cab3b9e04a31cf81c373bf0c2894ea440693ad7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7bb0cf3ef11997868610330737f6fe55eaa83030dc1d555c40241d2c793cbb3d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 761,
+  "stars": 783,
   "stars_por_mes": null
  },
  "nombre": "Aether",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "849696285d96657bb2f6e77229e795fa6822c2df",
+  "commit": "e38da3916e092ba97e6ecfe25f41a06496caf7b6",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:849696285d96657bb2f6e77229e795fa6822c2df"
+  "swhid": "swh:1:rev:e38da3916e092ba97e6ecfe25f41a06496caf7b6"
  },
  "repo": "Zhou-Shilin/Aether",
  "web": "https://aether.baimoqilin.com"

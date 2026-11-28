@@ -4,22 +4,13 @@
   "release_en": "2023-08-18",
   "semantica_http": 200,
   "ultima_release": "0.3.2",
-  "ultimo_push": "2026-10-25"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "一款基于Compose的多数据源轻小说阅读器。支持epub导出，自定义背景样式，本地书架和更新提醒等功能。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dmzz-yyhyy--lightnovelreader.json",
-  "sha256": "e1f066748edc0389db8c4f8490e9f1d72b08ef20609283636da827c020b39df8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "995fe95549f363cb3f5942ceaad45a97ce2dbc78853cd57f0204d245bd8693ed"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2317,
+  "stars": 2382,
   "stars_por_mes": null
  },
  "nombre": "LightNovelReader",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "49695ccfeab4207adf6ad476b1f48078f7bee2ac",
+  "commit": "fa98bf56797d3d09dcd5d6b791a0259de4e44ce2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:49695ccfeab4207adf6ad476b1f48078f7bee2ac"
+  "swhid": "swh:1:rev:fa98bf56797d3d09dcd5d6b791a0259de4e44ce2"
  },
  "repo": "dmzz-yyhyy/LightNovelReader",
  "web": "https://lnr.nariko.org"

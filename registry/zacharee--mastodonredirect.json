@@ -4,22 +4,13 @@
   "release_en": "2023-07-10",
   "semantica_http": 200,
   "ultima_release": "1.0",
-  "ultimo_push": "2026-07-10"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "Deep linking proxy for Mastodon and Lemmy on Android, allowing you to launch your selected client automatically.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zacharee--mastodonredirect.json",
-  "sha256": "954fd749610ca3197bc46cf791a090e5b26731b94965a299f84d8f54da0cdfc0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "cae19796acfa05de0c543e048b6414ece094931fe7de3b35f0de404ff816266c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 200,
+  "stars": 202,
   "stars_por_mes": null
  },
  "nombre": "MastodonRedirect",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6c9423b65c29e45fa51bb87dd54534dda444bd9b",
+  "commit": "377e9b75a9b562eb079a9c332b59f1cdb2b383ec",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:6c9423b65c29e45fa51bb87dd54534dda444bd9b"
+  "swhid": "swh:1:rev:377e9b75a9b562eb079a9c332b59f1cdb2b383ec"
  },
  "repo": "zacharee/MastodonRedirect"
 }

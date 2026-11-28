@@ -4,22 +4,13 @@
   "release_en": "2016-08-10",
   "semantica_http": 200,
   "ultima_release": "v0.0.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Bitwarden mobile apps (Password Manager and Authenticator) for Android.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/bitwarden--android.json",
-  "sha256": "527f48c9ee984622620f0c4cafc1d67caf85686b7fd48a137bcede07a489f040"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4da5774f13a0abd52a5c4114b2ede26f41097d0c0eb57538ceb75f97549fdd8d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9580,
+  "stars": 9704,
   "stars_por_mes": null
  },
  "nombre": "android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "4ecfcd31cf76477893fb81ced9e6a49e214b1ead",
+  "commit": "2461e3bc9b0f77778ff963bb011d83e59aff8f31",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4ecfcd31cf76477893fb81ced9e6a49e214b1ead"
+  "swhid": "swh:1:rev:2461e3bc9b0f77778ff963bb011d83e59aff8f31"
  },
  "repo": "bitwarden/android",
  "web": "https://bitwarden.com"

@@ -8,18 +8,9 @@
  },
  "descripcion": "一个漫画 APP📱，基于 react-native 构建，兼容 Android、Ios 平台",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/youniaogu--mangareader.json",
-  "sha256": "fb4a9eed9e569527a5ef3165c82af53e937f82d824635cf2c5e6c3cbf64c5405"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "baac7bf733c3ff800553917b7e6c6c0ee34cd68b1860a779374ccf2c79fd14c3"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2846,
+  "stars": 2865,
   "stars_por_mes": null
  },
  "nombre": "MangaReader",

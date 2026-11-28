@@ -4,22 +4,13 @@
   "release_en": "2025-02-24",
   "semantica_http": 200,
   "ultima_release": "v0.5.2",
-  "ultimo_push": "2026-10-12"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes available on Android, iOS, macOS, Linux and Windows",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yxxyun--mangayomi.json",
-  "sha256": "b0b3deca99bb43760a669d4e0b0db353d1628a07d1fbc78227a0fbb2145b4bc9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d92fd7a4d8e204c60b30fe327cf41cada8516cd9588d7626f0096b96d6b302c6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a1f87fbaf032361d1d6faead9c8b531c3cc4b10a",
+  "commit": "ded4c761f1fcd2bc75e7380e317685792c9507d5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a1f87fbaf032361d1d6faead9c8b531c3cc4b10a"
+  "swhid": "swh:1:rev:ded4c761f1fcd2bc75e7380e317685792c9507d5"
  },
  "repo": "yxxyun/mangayomi"
 }

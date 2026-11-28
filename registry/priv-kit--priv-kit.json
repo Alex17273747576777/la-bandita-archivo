@@ -4,22 +4,13 @@
   "release_en": "2026-07-26",
   "semantica_http": 200,
   "ultima_release": "v0.0.1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Self-managed privileged runtime for Android apps with Root/ADB/Delegate startup, Binder handoff, and UserService support",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/priv-kit--priv-kit.json",
-  "sha256": "1c4910ee562a4dbb2fe6790821b6d11491cc4c3140b2f50ef870b8548bd8267e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "39c8d8af65217e8204993f6fef86aa997b2cd283999191b1309945bcfc47352b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 17,
+  "stars": 30,
   "stars_por_mes": null
  },
  "nombre": "priv-kit",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "90e21e6245f83d8dc1b460915b5c982c5bb2b881",
+  "commit": "86dea8aef0fa39bb59fce2d008bd6197076ef5c9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:90e21e6245f83d8dc1b460915b5c982c5bb2b881"
+  "swhid": "swh:1:rev:86dea8aef0fa39bb59fce2d008bd6197076ef5c9"
  },
  "repo": "priv-kit/priv-kit",
  "web": "https://priv-kit.pages.dev"

@@ -4,22 +4,13 @@
   "release_en": "2026-10-13",
   "semantica_http": 200,
   "ultima_release": "v1.0.4",
-  "ultimo_push": "2026-10-23"
+  "ultimo_push": "2026-11-16"
  },
  "descripcion": "竖屏守护：强制指定应用竖屏显示的安卓工具",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tiger-git2022--portrait-guard.json",
-  "sha256": "1aadbe906a512fa49ac19eec52cb6b1e6dfe42e372a411948699337fbfa91ba1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "298c69a0f6ca421c4959235f6b2715d54f9cb111134f25b0cdc6fc60e747364e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "373f6aa465b41e984b07cd0cfcf929352ccfe083",
+  "commit": "fa417462f899da7fe2ce0892254c12bd9e04e0f8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:373f6aa465b41e984b07cd0cfcf929352ccfe083"
+  "swhid": "swh:1:rev:fa417462f899da7fe2ce0892254c12bd9e04e0f8"
  },
  "repo": "tiger-git2022/portrait-guard"
 }

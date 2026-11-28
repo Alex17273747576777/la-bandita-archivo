@@ -4,22 +4,13 @@
   "release_en": "2025-12-07",
   "semantica_http": 200,
   "ultima_release": "v1.0.0-dev.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Morphe Patches",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/morpheapp--morphe-patches.json",
-  "sha256": "7e6b4fd093b3fba58b51010a3bf793eb6f76184277559332303d3b0af3f44008"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "cff20cef04cfcc35781dacb668377a7472e252f19f689e976e360b332a78c817"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4524,
+  "stars": 5219,
   "stars_por_mes": null
  },
  "nombre": "morphe-patches",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "0bb704a9a4edb5324f6e607f3fc5a531713c607c",
+  "commit": "10b58e236a6ea07632a94eddf7e866a22336f5e2",
   "swh_estado": "archivada",
   "swh_solicitud": "0bb704a9a4edb5324f6e607f3fc5a531713c607c",
-  "swhid": "swh:1:rev:0bb704a9a4edb5324f6e607f3fc5a531713c607c"
+  "swhid": "swh:1:rev:10b58e236a6ea07632a94eddf7e866a22336f5e2"
  },
  "repo": "MorpheApp/morphe-patches",
  "web": "https://Morphe.software"

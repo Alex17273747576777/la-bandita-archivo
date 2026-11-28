@@ -4,22 +4,13 @@
   "release_en": "2026-08-16",
   "semantica_http": 200,
   "ultima_release": "catalog-v1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "Bangla-first on-device local AI and consent-driven Android automation runtime",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/soobujmiah--lai.json",
-  "sha256": "2e4b06aaea22ec2c9690da2bcea7bb9a5603ce78304cfd7e84c73b23d789b03a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6ed8d30a61dc76899cf3b76849851fee914de2c710156eff5c2e15f2901f841b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

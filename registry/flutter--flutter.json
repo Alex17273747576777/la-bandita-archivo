@@ -4,22 +4,13 @@
   "release_en": "2023-07-12",
   "semantica_http": 200,
   "ultima_release": "3.13.0-0.1.pre",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/flutter--flutter.json",
-  "sha256": "928102ea1be45afc432c774eafa147c2da10d938d6b6100fbbacf8c539b09a67"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4e401b8716547dd42a95a8b367988db39669928577b83c9a9e2a3068e9e5678e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "BSD-3-Clause",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 181022,
+  "stars": 181377,
   "stars_por_mes": null
  },
  "nombre": "flutter",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "934720261be051307da25be7911628d61ccb8b72",
+  "commit": "c02bb08098caf0a4c6092bf4fcb283e68d9ba509",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:934720261be051307da25be7911628d61ccb8b72"
+  "swhid": "swh:1:rev:c02bb08098caf0a4c6092bf4fcb283e68d9ba509"
  },
  "repo": "flutter/flutter",
  "web": "https://flutter.dev"

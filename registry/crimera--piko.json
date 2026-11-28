@@ -4,22 +4,13 @@
   "release_en": "2024-01-30",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "morphe patches for twitter and instagram",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/crimera--piko.json",
-  "sha256": "cd1496ae32b07deeaa5f122e288e034da6737aa8c27f46d8f3a54e1afe12fe4d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c781b869972d0500597545b36260e66bbfa6957461456bd88ffe04aa59d9f6fb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,23 +25,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5885,
+  "stars": 6136,
   "stars_por_mes": null
  },
  "nombre": "piko",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a0ed9a5ae782fe66e02294e5a49d235e2f139b24",
+  "commit": "297519632c897d19e9f0df0c39e5b315d1a7390b",
   "swh_estado": "archivada",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a0ed9a5ae782fe66e02294e5a49d235e2f139b24"
+  "swhid": "swh:1:rev:297519632c897d19e9f0df0c39e5b315d1a7390b"
  },
  "repo": "crimera/piko"
 }

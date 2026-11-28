@@ -8,18 +8,9 @@
  },
  "descripcion": "KArchiver - Android file manager and archiver built with Kotlin / Rust and Material 3 Expressive",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sysrv64--karchiver.json",
-  "sha256": "81862f8cd2b1e0731f03540dd93ca2ae45a0812b40e9db05cfe138a075517951"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "09467625b67a36fa2ef089c63d5bcc84daaecc3e08fbd0b1f6461d8abde98612"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 23,
+  "stars": 27,
   "stars_por_mes": null
  },
  "nombre": "KArchiver",

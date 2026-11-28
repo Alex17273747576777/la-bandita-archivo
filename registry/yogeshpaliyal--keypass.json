@@ -4,22 +4,13 @@
   "release_en": "2021-02-22",
   "semantica_http": 200,
   "ultima_release": "v1.1",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-20"
  },
  "descripcion": "KeyPass: Open Source Project & An Offline Password Manager. Store, manage, and take control securely.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yogeshpaliyal--keypass.json",
-  "sha256": "9f158d1860adc7e06a7ba9c31bf0923154de747b021a066d12d629401c1022d8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5f10cca316a4ffdabd94014d13f9775d9e7cdf4675e18f5c280336f174164561"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 787,
+  "stars": 788,
   "stars_por_mes": null
  },
  "nombre": "KeyPass",

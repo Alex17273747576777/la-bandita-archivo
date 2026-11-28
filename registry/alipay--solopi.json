@@ -4,22 +4,13 @@
   "release_en": "2019-07-01",
   "semantica_http": 200,
   "ultima_release": "v0.9.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-20"
  },
  "descripcion": "SoloPi 自动化测试工具",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/alipay--solopi.json",
-  "sha256": "a6fb681c48a7ec61b12f2bc9017f87fb21d7f9750be6ab566eff43d568cc3aab"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5df3865f03ec5bea8f70a5a57cbd0f4e9b839cb145e2f2b3419c7b2382a21f3f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6359,
+  "stars": 6674,
   "stars_por_mes": null
  },
  "nombre": "SoloPi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "47d12f4904488b9c4bab5db3b0d164a83df36519",
+  "commit": "19ac0249c40970c7af05704ca458389bd4b25ab5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:47d12f4904488b9c4bab5db3b0d164a83df36519"
+  "swhid": "swh:1:rev:19ac0249c40970c7af05704ca458389bd4b25ab5"
  },
  "repo": "alipay/SoloPi"
 }

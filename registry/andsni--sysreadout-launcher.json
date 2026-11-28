@@ -8,18 +8,9 @@
  },
  "descripcion": "Minimal Android launcher that turns your home screen into a live, terminal-style system monitor: status rows, processes, connections, DNS, battery drain, CRT effects. SRL for short.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/andsni--sysreadout-launcher.json",
-  "sha256": "acf5797d892ef6d83451f88811dc76227d4a2f3efc4c2513754e446d8d9a4469"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4c43f2a125793bd780b01a6b06422cb0bcc75a0f3d4fd4caf58d50c080a2fa2c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13,
+  "stars": 27,
   "stars_por_mes": null
  },
  "nombre": "SysReadout-Launcher",

@@ -4,22 +4,13 @@
   "release_en": "2026-10-28",
   "semantica_http": 200,
   "ultima_release": "v0.1",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Bidirectional sync, import, and export tool for Minecraft worlds between Windows and Android via OneDrive.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/luislorenzocalvo--windroid-minecraft-sync.json",
-  "sha256": "b7fc5cba3adc24e20b64ec3eb95e491bc36e5668b91591a6a58e591aff3352ba"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5b36c2e8c12bc2f128f80d837847932d3d20aef9928731b8a78e6fc9a45ec171"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b9e30e2e672a686b5dd5df4c140bd463ce903377",
+  "commit": "89f6307961b995bb2f36dcc0e9d0d2821798c881",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b9e30e2e672a686b5dd5df4c140bd463ce903377"
+  "swhid": "swh:1:rev:89f6307961b995bb2f36dcc0e9d0d2821798c881"
  },
  "repo": "luislorenzocalvo/Windroid-Minecraft-Sync"
 }

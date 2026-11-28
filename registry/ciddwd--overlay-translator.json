@@ -4,22 +4,13 @@
   "release_en": "2026-06-24",
   "semantica_http": 200,
   "ultima_release": "v0.2.0",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "无需 ROOT 的开源 Android 屏幕实时翻译工具，适合游戏、视觉小说和漫画。支持端侧与云端 OCR、离线 LLM、多种翻译服务和文字朗读（TTS），译文可直接显示在画面上。Open-source no-root Android real-time screen translator for games, visual novels, and manga. Supports on-device and cloud OCR, offline LLMs, multiple translation services, on-screen translations, and text-to-speech (TTS).",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ciddwd--overlay-translator.json",
-  "sha256": "6775e819400aa785364dd81d142ecafdb698946f903926525fc6f9e4b3733e33"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "cc9806bec1e0607fb57dfc7dc8c6107d1b0ce174a3d504fd84e80eedad37beb3"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1196,
+  "stars": 1426,
   "stars_por_mes": null
  },
  "nombre": "overlay-translator",

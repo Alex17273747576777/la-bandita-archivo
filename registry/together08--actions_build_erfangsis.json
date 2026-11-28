@@ -8,18 +8,9 @@
  },
  "descripcion": "2020-04-21 commit了好几次后，终于成功！现在可以按照readme.md使用了！",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/together08--actions_build_erfangsis.json",
-  "sha256": "71e76b40976dff79366f73118f254b455b25c7bc84943345b6f559973219a649"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a1ff88cfe7ace55b4c14b68492261252c9d9d915320e361bc1cc78ff643859ae"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Your Spotify + YouTube Music library & daily mixes. Stream or download in lossless FLAC. Free and open source forever. ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/paraliyzedevo--stash.json",
-  "sha256": "37bf671f6b712760757d5913fd53eeaa62af54d47bf817bff7118ab36189c5e3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9912e41848641c1c425bc9a2a984cad71e08f8d99412e7ee15e608fa8762a554"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5,
+  "stars": 6,
   "stars_por_mes": null
  },
  "nombre": "Stash",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a977b7675f5ecbdb0f221f73e3795d5474fe641a",
+  "commit": "10dba16abd338fddd2c0d435e85c53b48af80de7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a977b7675f5ecbdb0f221f73e3795d5474fe641a"
+  "swhid": "swh:1:rev:10dba16abd338fddd2c0d435e85c53b48af80de7"
  },
  "repo": "ParaliyzedEvo/Stash"
 }

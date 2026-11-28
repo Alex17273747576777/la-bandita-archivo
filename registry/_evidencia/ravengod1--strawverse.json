@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-10-29T05:25:03Z",
-   "oid": "d5621fecf044630632d163528d14a47a8d33f760"
+   "committedDate": "2026-11-17T06:25:27Z",
+   "oid": "bb0df871fe7d4f90c1b8d5179e5735caaa7e2405"
   }
  },
- "diskUsage": 7072,
+ "diskUsage": 13324,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,13 +18,13 @@
   "spdxId": "GPL-3.0"
  },
  "nameWithOwner": "RavenGod1/StrawVerse",
- "pushedAt": "2026-10-29T05:25:13Z",
+ "pushedAt": "2026-11-27T07:02:39Z",
  "releases": {
   "nodes": [
    {
     "isPrerelease": false,
-    "publishedAt": "2026-09-28T12:34:15Z",
-    "tagName": "v9.5.3_Fix"
+    "publishedAt": "2026-10-15T09:43:42Z",
+    "tagName": "StrawVerse-v11.0.1"
    }
   ]
  },

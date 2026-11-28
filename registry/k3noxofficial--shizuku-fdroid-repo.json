@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "All Shizuku-enabled Android apps in one place: catalog + F-Droid-compatible repository data",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/k3noxofficial--shizuku-fdroid-repo.json",
-  "sha256": "766194d2c86ad3cf55545b1f2724a0559ca052a4489454b9a6908033da7856a0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "23eb57ae9a8f482216425c7459328682b6d62ff5065b2f18d17e015e8854f811"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "550816c122edfc36ab565a9be9adb97d3eeda3b7",
+  "commit": "7ee88e874e491e7ca51ee11e70b7293717be9fb0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:550816c122edfc36ab565a9be9adb97d3eeda3b7"
+  "swhid": "swh:1:rev:7ee88e874e491e7ca51ee11e70b7293717be9fb0"
  },
  "repo": "K3NOXOFFICIAL/shizuku-fdroid-repo"
 }

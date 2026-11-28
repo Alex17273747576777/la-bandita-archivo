@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-16"
  },
  "descripcion": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber l",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/beandz--airi.json",
-  "sha256": "fe2e4464df985b8d77812c986ee224035e0c40e415fc89ade58ce4fc1217c6fa"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "177a5c7b7eb9ac6976b6f58dae8bc6607661bdfe03ee7b60e0d95224a615e5b6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ded3dd16ef3cbff34db246184f9fb1a92275cba3",
+  "commit": "c66da5bcb2710cdacdf4b2d43b3969ca6e7a3767",
   "swh_estado": null,
-  "swhid": "swh:1:rev:ded3dd16ef3cbff34db246184f9fb1a92275cba3"
+  "swhid": "swh:1:rev:c66da5bcb2710cdacdf4b2d43b3969ca6e7a3767"
  },
  "repo": "BeanDz/airi"
 }

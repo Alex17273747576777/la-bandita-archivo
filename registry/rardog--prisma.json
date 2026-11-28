@@ -4,22 +4,13 @@
   "release_en": "2026-09-04",
   "semantica_http": 200,
   "ultima_release": "v3.0.0",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Modern cross-platform client for Booru & Creator archives (Pawchive, Gelbooru, e621, Rule34, Realbooru)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rardog--prisma.json",
-  "sha256": "e978807d2cd7cbb684aabe5ea2933ca12fe9f9eda31d421ba5dcae99db32122c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "49bce0b1833a7a4b46ecafa92720c887955e3254af30344bd3d88b135723b968"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15,
+  "stars": 18,
   "stars_por_mes": null
  },
  "nombre": "Prisma",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "59db127419560b32a98cfbba54bf30892a3e2284",
+  "commit": "652d924d526ba9a525ce56b8b8e70cdead98ae2a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:59db127419560b32a98cfbba54bf30892a3e2284"
+  "swhid": "swh:1:rev:652d924d526ba9a525ce56b8b8e70cdead98ae2a"
  },
  "repo": "RarDog/Prisma"
 }

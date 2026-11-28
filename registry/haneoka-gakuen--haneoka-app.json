@@ -4,22 +4,13 @@
   "release_en": "2026-10-12",
   "semantica_http": 200,
   "ultima_release": "v0.0.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "The native Haneoka client for BanG Dream! Our Notes, on Android, iOS, Windows, macOS and Linux.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/haneoka-gakuen--haneoka-app.json",
-  "sha256": "590e128cd3e706d5250e0dd5b5f50314368b61ed9a45d18a1f4c4d45c79d4cd8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "50098052616298f3d5f3e1bc7aa342bcdbeaf743a37b628239ad967dd2d395b2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8,
+  "stars": 12,
   "stars_por_mes": null
  },
  "nombre": "haneoka-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3a492fb7b2cf1738c4c08e803f0a61223418c71e",
+  "commit": "1b4aba5da141475c1da6547f4a139aad5fac0342",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3a492fb7b2cf1738c4c08e803f0a61223418c71e"
+  "swhid": "swh:1:rev:1b4aba5da141475c1da6547f4a139aad5fac0342"
  },
  "repo": "haneoka-gakuen/haneoka-app",
  "web": "https://haneoka.org"

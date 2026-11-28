@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Usagi source code. Usagi is a manga reader for Android",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lemmesleep247--usagi.json",
-  "sha256": "8a2fd726c975ba1a0c83119beef15f35e9a5edcb3490daf67dd939c70375b384"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a99237dff468812772e1f03df68151f44f8a10aca4e7ecd58766666a7630f7a7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9c562263a127eda853e9c210c4aae008602414c1",
+  "commit": "3f2c7666a78edb075525322171d658bed5067333",
   "swh_estado": null,
-  "swhid": "swh:1:rev:9c562263a127eda853e9c210c4aae008602414c1"
+  "swhid": "swh:1:rev:3f2c7666a78edb075525322171d658bed5067333"
  },
  "repo": "lemmesleep247/Usagi"
 }

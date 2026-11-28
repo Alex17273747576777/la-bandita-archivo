@@ -4,22 +4,13 @@
   "release_en": "2026-10-25",
   "semantica_http": 200,
   "ultima_release": "v5",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-16"
  },
  "descripcion": "ClahBOT - Android macro recorder (educational)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mir-majid01--clahbot.json",
-  "sha256": "60adf83268ca22134d7e1f3a850782148d4ab76392bb1c220717a1e330c42585"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a062a53fc91e04d986e1668d3849188ddac4711b2b6fcfe8243aec642f0913df"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6145069afb26cebf6d362e3b41be62dec1443745",
+  "commit": "9a07eb15d0e1fb540a7b7d89fd0ef169c21a4c67",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:6145069afb26cebf6d362e3b41be62dec1443745"
+  "swhid": "swh:1:rev:9a07eb15d0e1fb540a7b7d89fd0ef169c21a4c67"
  },
  "repo": "mir-majid01/clahbot"
 }

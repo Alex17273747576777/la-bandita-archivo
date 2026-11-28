@@ -4,22 +4,13 @@
   "release_en": "2026-08-19",
   "semantica_http": 200,
   "ultima_release": "v0.3.11",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "Turn any android phone into Desktop class experience including full linux environment without root",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dotnetdreamer--open-android-dex.json",
-  "sha256": "5e8a0d15bf475ae921516fce59bc0c4b40d6c6df230e1e10a80344ccc8191eba"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fc4e8c50260640468778067477616253240b3edcc97c9443b971379f24698b4b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 263,
+  "stars": 399,
   "stars_por_mes": null
  },
  "nombre": "open-android-dex",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6fa6b0a2ba2d7bf49b2d817563ab91e52faecf20",
+  "commit": "a3cbf2361a4d647d3ff5f844e6aee21102ac12ab",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:6fa6b0a2ba2d7bf49b2d817563ab91e52faecf20"
+  "swhid": "swh:1:rev:a3cbf2361a4d647d3ff5f844e6aee21102ac12ab"
  },
  "repo": "dotnetdreamer/open-android-dex"
 }

@@ -4,22 +4,13 @@
   "release_en": "2025-10-30",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-19"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Share files nearby and beyond. ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tonyantony300--dashbeam.json",
-  "sha256": "2667ddbc0ef2bd7617426f365c7e125a0a8e37cac218f40ae66eadb512337c9e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "82753eca2a8266685be95c4f98e64bcae05b1d4e2f8b6d665e0e1fabc6b524e0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 10202,
+  "stars": 10412,
   "stars_por_mes": null
  },
  "nombre": "dashbeam",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b41eddb16b226667de6f8dd7f1326a0ce6bf5e7d",
+  "commit": "19c0d763462d0c14c6c785e6c9d89d5055aa7873",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b41eddb16b226667de6f8dd7f1326a0ce6bf5e7d"
+  "swhid": "swh:1:rev:19c0d763462d0c14c6c785e6c9d89d5055aa7873"
  },
  "repo": "tonyantony300/dashbeam",
  "web": "https://dashbeam.net"

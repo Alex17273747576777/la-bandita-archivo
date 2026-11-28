@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-11-03T05:34:39Z",
-   "oid": "63d5e236a196989cf7c919f25cbff208c9c645b3"
+   "committedDate": "2026-11-25T19:09:00Z",
+   "oid": "5e067658dff45a26a702db6a3e7bad97cc2cfaed"
   }
  },
- "diskUsage": 891954,
+ "diskUsage": 810771,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "GPL-3.0"
  },
  "nameWithOwner": "wj5403293/CodeAssist",
- "pushedAt": "2026-11-03T10:24:04Z",
+ "pushedAt": "2026-11-25T19:25:32Z",
  "releases": {
   "nodes": []
  },

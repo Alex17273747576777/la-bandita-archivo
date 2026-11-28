@@ -4,22 +4,13 @@
   "release_en": "2026-10-21",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-11"
  },
  "descripcion": "Sets up an Android handheld for emulation: emulators, frontends, folders, BIOS checks and health, driven by a controller.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ramizarif--ramrom-emu-manager.json",
-  "sha256": "ecdc0ff338753380e97c30e82669981253d8c40238231fc4e2bcbf3c72493c27"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "291234c03d942eece3d968168690ed924e609974a9c05ecbecc0c91380b64f96"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "ramrom-emu-manager",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e80eb9d7850d4d293d23b69748e3f504dcbc4db5",
+  "commit": "3f2119369d32033765f3c941b5e767efa72478a0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e80eb9d7850d4d293d23b69748e3f504dcbc4db5"
+  "swhid": "swh:1:rev:3f2119369d32033765f3c941b5e767efa72478a0"
  },
  "repo": "ramizarif/ramrom-emu-manager"
 }

@@ -8,18 +8,9 @@
  },
  "descripcion": "Monitor running services on your Android device. With a clean and intuitive interface, you can easily view system and user apps, check their status efficiently.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/biplobsd--running_services_monitor.json",
-  "sha256": "731e2206a2da2f1e73f82d9e47628f797b5591ae3f21f365f5569bac32f57f91"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "424f378afc577f9990e394a2a3ea7dd31494bfe3f1153ec4c5274a803c6de693"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 465,
+  "stars": 488,
   "stars_por_mes": null
  },
  "nombre": "running_services_monitor",

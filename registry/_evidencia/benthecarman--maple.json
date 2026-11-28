@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-10-25T18:08:27Z",
-   "oid": "91e8ff5aceac477e37e75a800f1d6f63c1553e82"
+   "committedDate": "2026-11-21T18:57:44Z",
+   "oid": "23e797254912cfc29cf7b18c66a5d047f3286a68"
   }
  },
- "diskUsage": 334959,
+ "diskUsage": 345517,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "MIT"
  },
  "nameWithOwner": "benthecarman/Maple",
- "pushedAt": "2026-10-25T18:34:34Z",
+ "pushedAt": "2026-11-21T22:38:23Z",
  "releases": {
   "nodes": []
  },

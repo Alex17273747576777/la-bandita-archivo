@@ -8,18 +8,9 @@
  },
  "descripcion": "💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/localstack--localstack.json",
-  "sha256": "0b7753a3b9869134db0554ebe031d69eaee24157fc201197313c6d691a19664c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7e8d1a69cca46ac6153dd6ebef4855c535da4656d6d9e0e9ae9c2742abdf3cbf"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE.txt",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 65128,
+  "stars": 65100,
   "stars_por_mes": null
  },
  "nombre": "localstack",

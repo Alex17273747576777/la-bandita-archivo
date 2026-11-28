@@ -4,22 +4,13 @@
   "release_en": "2026-09-02",
   "semantica_http": 200,
   "ultima_release": "v2.5.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anyw",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lemmesleep247--mpvrx.json",
-  "sha256": "9c95bc5045c763d4723f8d1acb6a7fe1aeb8be9747ebc4a52e343debfefd3e33"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6a28631d86a528f4daaa1fc3c48eafaa27085393087986bacc332fbcd8c8e458"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,22 +23,22 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": 0.0
  },
  "nombre": "mpvRx",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7232e82f2b5831ff2edbd854462d6863e0ed4fc0",
+  "commit": "1d8c3e8ed8fd08633f32045de80ceb95ee76c3e9",
   "swh_estado": null,
-  "swhid": "swh:1:rev:7232e82f2b5831ff2edbd854462d6863e0ed4fc0"
+  "swhid": "swh:1:rev:1d8c3e8ed8fd08633f32045de80ceb95ee76c3e9"
  },
  "repo": "lemmesleep247/mpvRx"
 }

@@ -8,18 +8,9 @@
  },
  "descripcion": "An Android app that allows you to turn on your hotspot remotely via Bluetooth - think Apple Continuity, but for everyone!",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/easyspotapp--easyspot.json",
-  "sha256": "1879760cf71bdb80d70d4d16ae7da6125365d714d661bc40d99a99bea7943f01"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7e2291c5bea4668eb62d41a7c3d39a43f8c710dbeffdf1d88c062d451b27c734"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 56,
+  "stars": 57,
   "stars_por_mes": null
  },
  "nombre": "EasySpot",

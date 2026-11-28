@@ -4,22 +4,13 @@
   "release_en": "2023-09-23",
   "semantica_http": 200,
   "ultima_release": "1.0.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Uninstall any Android app without root (with power of Shizuku). Debloat your device as you wish, with Android app or even from your browser!",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/samolego--canta.json",
-  "sha256": "fd4b9db15838ff93d0c320ca0a5c46532a97b861b3cdeb810230bc6cc702004b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9b0debb7f775bca612befa14a66db340c8a46714d6ef9b20f26abff4024ea13c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "LGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6439,
+  "stars": 7867,
   "stars_por_mes": null
  },
  "nombre": "Canta",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "e3ed0c9bf90ee6f8bfb7a92ba1e140327cda480f",
+  "commit": "d40f8b868b299372807de90adcc1632501acd70c",
   "swh_estado": "archivada",
   "swh_solicitud": "e3ed0c9bf90ee6f8bfb7a92ba1e140327cda480f",
-  "swhid": "swh:1:rev:e3ed0c9bf90ee6f8bfb7a92ba1e140327cda480f"
+  "swhid": "swh:1:rev:d40f8b868b299372807de90adcc1632501acd70c"
  },
  "repo": "samolego/Canta",
  "web": "https://samolego.github.io/Canta/"

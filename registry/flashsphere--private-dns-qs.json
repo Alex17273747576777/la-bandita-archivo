@@ -4,22 +4,13 @@
   "release_en": "2023-10-18",
   "semantica_http": 200,
   "ultima_release": "v1.6.1",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Android app that adds a quick setting tile to toggle the Private DNS setting on Android 9.0+",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/flashsphere--private-dns-qs.json",
-  "sha256": "5beb2f517e181db019a34f2293a572a1835a0b0226b6df93db25225b75f64a72"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "65085ec2d80591bf95d823cb81403c4524b780045f6b483c5e25d01c5be3cc34"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 148,
+  "stars": 158,
   "stars_por_mes": null
  },
  "nombre": "private-dns-qs",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "0bbcb7ff1920389d972e6e943be8a7e09ef895df",
+  "commit": "2745bf37f96301063e70375b20302b5ee4963e52",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:0bbcb7ff1920389d972e6e943be8a7e09ef895df"
+  "swhid": "swh:1:rev:2745bf37f96301063e70375b20302b5ee4963e52"
  },
  "repo": "flashsphere/private-dns-qs"
 }

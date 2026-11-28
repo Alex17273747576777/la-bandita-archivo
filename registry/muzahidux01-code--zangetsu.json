@@ -8,18 +8,9 @@
  },
  "descripcion": "Free, open-source app for anime, movies, series, manga and light novels — on Android, Android TV and iOS (beta).",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/muzahidux01-code--zangetsu.json",
-  "sha256": "9a3632fb6ffbb6e5f98c60e9161e6ee2af5dabbe62359851e88b0de729dc4482"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c951f97f516d999ebe6027eb961c1b901db18c30b172de4d9cc7cc2e1ce5d100"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

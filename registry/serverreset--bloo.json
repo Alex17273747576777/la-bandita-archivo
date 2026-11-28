@@ -4,22 +4,13 @@
   "release_en": "2026-07-20",
   "semantica_http": 200,
   "ultima_release": "build-759",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Unofficial Bluelink client for Hyundai, Genesis and Kia: lock, climate, charge and live status, for phone and Wear OS.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/serverreset--bloo.json",
-  "sha256": "2f802c2cf5bad6fd632436258872a1f96e28fde27b215787b86c5f078a6bec50"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a654bcf77d09b2825d962c493ab57e45d055ee9af58fe970ccc86c0a220c2b5e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15,
+  "stars": 18,
   "stars_por_mes": null
  },
  "nombre": "Bloo",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "63c02a44ad4fba50d1d92cb5cfa5e7a09412daac",
+  "commit": "db3cd4e826720b46e9697676723e346f814eda6a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:63c02a44ad4fba50d1d92cb5cfa5e7a09412daac"
+  "swhid": "swh:1:rev:db3cd4e826720b46e9697676723e346f814eda6a"
  },
  "repo": "ServerReset/Bloo",
  "web": "https://serverreset.github.io/Bloo/"

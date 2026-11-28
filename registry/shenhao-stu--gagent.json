@@ -4,22 +4,13 @@
   "release_en": "2026-10-25",
   "semantica_http": 200,
   "ultima_release": "v2.33.6",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "A self-evolving Android agent powered by GenericAgent: local vision, self-ADB, reusable memory, browser sessions, and optional cross-device workflows.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/shenhao-stu--gagent.json",
-  "sha256": "cdb908f8e29d50b0e5fda182e06848bbfe1a11633c21557b1e0d16ff7f82fb3e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "54dca7663789362513dfb46f13f82e76e99ad18b0fd73f8169be27c972428a48"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6,
+  "stars": 10,
   "stars_por_mes": null
  },
  "nombre": "GAgent",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ed5b3a1d252986822c3b2637ab4593e0fbf2eaa5",
+  "commit": "e9fb1ec18a83432fbc566602176f80b8fdd9ce48",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ed5b3a1d252986822c3b2637ab4593e0fbf2eaa5"
+  "swhid": "swh:1:rev:e9fb1ec18a83432fbc566602176f80b8fdd9ce48"
  },
  "repo": "shenhao-stu/GAgent",
  "web": "https://gaagent.ai/"

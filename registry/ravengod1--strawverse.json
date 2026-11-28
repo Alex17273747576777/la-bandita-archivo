@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-09-28",
+  "release_en": "2026-10-15",
   "semantica_http": 200,
-  "ultima_release": "v9.5.3_Fix",
-  "ultimo_push": "2026-10-29"
+  "ultima_release": "StrawVerse-v11.0.1",
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A fast, open-source anime and manga downloader for Windows, Linux, and Android w",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ravengod1--strawverse.json",
-  "sha256": "e8d88ee29440dca160dba96f78b013c93a1858ebadb1f32e2574097f000e6741"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f9254781374ed4426441c0c3f61d5f4ddd3eea55a951accacf4619a65b0961d0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d5621fecf044630632d163528d14a47a8d33f760",
+  "commit": "bb0df871fe7d4f90c1b8d5179e5735caaa7e2405",
   "swh_estado": null,
-  "swhid": "swh:1:rev:d5621fecf044630632d163528d14a47a8d33f760"
+  "swhid": "swh:1:rev:bb0df871fe7d4f90c1b8d5179e5735caaa7e2405"
  },
  "repo": "RavenGod1/StrawVerse"
 }

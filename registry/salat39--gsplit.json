@@ -4,22 +4,13 @@
   "release_en": "2026-02-12",
   "semantica_http": 200,
   "ultima_release": "b202",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-07"
  },
  "descripcion": "Freeform Split Screen",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/salat39--gsplit.json",
-  "sha256": "701b1348752938947543e47787226fbd00d9facd3421c61504a0aa9436d10bca"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9c059d292d4ba3d90e41f616739448769b4aae25473ae73a56826162c972839b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 28,
+  "stars": 29,
   "stars_por_mes": null
  },
  "nombre": "GSplit",

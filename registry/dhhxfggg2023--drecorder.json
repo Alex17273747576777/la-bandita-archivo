@@ -4,22 +4,13 @@
   "release_en": "2026-10-20",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-24"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "只录其他应用媒体音频的 Android App：不录麦克风、不录屏幕画面。代码由 AI 生成，请自行审查。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dhhxfggg2023--drecorder.json",
-  "sha256": "baf5dc465a9d17bb11b4474f92c964ab7953f65abb64037f87c05d5962dbde22"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d22bcd8d6e4ed741869be59a2a7c653c299268072de01908fb50a370a7b5bf46"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 5,
   "stars_por_mes": null
  },
  "nombre": "Drecorder",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6cbb6c5e8ab8a6940c35e9c536e2f2c4394c5f21",
+  "commit": "d72174de278772cbf3388f181d37428322ea6aac",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:6cbb6c5e8ab8a6940c35e9c536e2f2c4394c5f21"
+  "swhid": "swh:1:rev:d72174de278772cbf3388f181d37428322ea6aac"
  },
  "repo": "dhhxfggg2023/Drecorder"
 }

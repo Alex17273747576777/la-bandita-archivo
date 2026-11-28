@@ -4,22 +4,13 @@
   "release_en": "2024-11-07",
   "semantica_http": 200,
   "ultima_release": "v1.0.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "收集github 开源app",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/suno2--gstore.json",
-  "sha256": "c959987e2fe9e1a9b5e17e6b1f870f6e6edfa584c243b9dc4a06892e2b5f48b6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "873bb763f701d1da0c25743e778da8c9ca6460e536a5d92661e96a70c951ae15"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4,
+  "stars": 5,
   "stars_por_mes": null
  },
  "nombre": "GStore",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d88211fb835dad7e310ea7d763af4e0234ade460",
+  "commit": "1d652b14d4323ddaf6ec4bce658409a61f3c1d80",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:d88211fb835dad7e310ea7d763af4e0234ade460"
+  "swhid": "swh:1:rev:1d652b14d4323ddaf6ec4bce658409a61f3c1d80"
  },
  "repo": "sunO2/GStore"
 }

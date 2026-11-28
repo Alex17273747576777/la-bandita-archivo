@@ -4,22 +4,13 @@
   "release_en": "2026-03-07",
   "semantica_http": 200,
   "ultima_release": "v0.1.0-beta.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "All state — conversations, memory, config, credentials — is stored on your machine, and there is no telemetry or analytics phone-home. Your prompts go only to the LLM provider you configure; run Ollama for a fully offline, zero-egress setup.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/michelbr84--garrarust.json",
-  "sha256": "447d37fdc86ec85f8976e485053cf852b8c07b393f3c087525e9cc1abc15209a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "35e970b25b22f65c6338cfa99da42d4ade28b9374567062e04fe1e6ed4eed655"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 18,
+  "stars": 19,
   "stars_por_mes": null
  },
  "nombre": "GarraRUST",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1afbf05b0891d57ca942a15c2776eafd53f11a48",
+  "commit": "403bb0cc901c4c6bc1cabc8687d236eecf10e24c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1afbf05b0891d57ca942a15c2776eafd53f11a48"
+  "swhid": "swh:1:rev:403bb0cc901c4c6bc1cabc8687d236eecf10e24c"
  },
  "repo": "michelbr84/GarraRUST",
  "web": "https://garraia.org"

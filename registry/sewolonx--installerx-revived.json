@@ -4,22 +4,13 @@
   "release_en": "2026-02-09",
   "semantica_http": 200,
   "ultima_release": "v2.3.2.d608b49-alpha",
-  "ultimo_push": "2026-10-22"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "a fork",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sewolonx--installerx-revived.json",
-  "sha256": "ca6683bde708159a4a3bbcd119cae28bf6fd7aa54c2c0a0b755dd997229c8651"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9f314a38673ee4c1d5aa0341416fc3157243c3bbed5f944df4aab4a25a46e985"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "35d7c7a06e86b280789a171d8b213becac1a0fd7",
+  "commit": "caccb787c1a4189da3f917eb990fb949305e3899",
   "swh_estado": null,
-  "swhid": "swh:1:rev:35d7c7a06e86b280789a171d8b213becac1a0fd7"
+  "swhid": "swh:1:rev:caccb787c1a4189da3f917eb990fb949305e3899"
  },
  "repo": "sewolonX/InstallerX-Revived"
 }

@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-11-22",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-13"
+  "ultima_release": "test-v1.1.99",
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "ReDantotsu is a Remake version of the original Dantotsu app. Fork by Nahiro18 -",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/saizenasato--kiroku.json",
-  "sha256": "f7023427f2790e11673f207255022c31423d226901c47f5b1d8f210c96503f82"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "30cd4270cef421cfaf6463388f4bea231ccc534f5bc5eea98aafb2f3717fc098"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "896a064468aad7df8c28ddfce609ad841a0cfd1c",
+  "commit": "dfc34344f1b6eab1155d304ec62ea856c00094e2",
   "swh_estado": null,
-  "swhid": "swh:1:rev:896a064468aad7df8c28ddfce609ad841a0cfd1c"
+  "swhid": "swh:1:rev:dfc34344f1b6eab1155d304ec62ea856c00094e2"
  },
  "repo": "saizenasato/Kiroku"
 }

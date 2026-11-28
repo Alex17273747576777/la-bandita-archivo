@@ -8,18 +8,9 @@
  },
  "descripcion": "Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/alphacep--vosk-api.json",
-  "sha256": "4efc92aaf5ca0125c5186e2c94a12f99d1075dfbf1e46b813859b5c9e17fcf55"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7c57c27eb5606e310f362f163a272dbdc271995d1fdf83a33ffff2190c2291a5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15224,
+  "stars": 15294,
   "stars_por_mes": null
  },
  "nombre": "vosk-api",

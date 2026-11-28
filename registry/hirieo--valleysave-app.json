@@ -8,18 +8,9 @@
  },
  "descripcion": "Sync Stardew Valley saves across Windows, macOS, Linux & Android using your own Google Drive — transactional save protection, automatic backups, co-op host migration and farm sharing. No servers, no tracking.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hirieo--valleysave-app.json",
-  "sha256": "dd30b485248b14666b7de451ad21c2476bdada12df34f710cc708826973cb59c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5c4ba173cb5a1737aec78f78041c2c058618197c9af89866b0f8f4e9a4f5c862"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,9 +24,9 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («noncommercial»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

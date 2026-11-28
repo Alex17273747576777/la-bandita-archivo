@@ -4,22 +4,13 @@
   "release_en": "2014-02-27",
   "semantica_http": 200,
   "ultima_release": "0.9.8.1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A podcast manager for Android",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/antennapod--antennapod.json",
-  "sha256": "4206ccc23b8d51f1b63c1669bf65f6b0ac4ff8653e81c427f55dbcabd003992a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "92c5147fec68728699aa75831ad246dd71a738d4d35ecf4a71381d28d38dbfc4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": 4.5,
   "scorecard_en": "2026-08-24",
-  "stars": 8261,
+  "stars": 8369,
   "stars_por_mes": null
  },
  "nombre": "AntennaPod",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "08107984b83fa0def9f6a1d2c244b1d9d1161322",
+  "commit": "f5dabdafde2311949e7d61c863a20b0509f1af33",
   "swh_estado": "solicitud 200",
   "swh_solicitud": "accepted",
-  "swhid": "swh:1:rev:08107984b83fa0def9f6a1d2c244b1d9d1161322"
+  "swhid": "swh:1:rev:f5dabdafde2311949e7d61c863a20b0509f1af33"
  },
  "repo": "AntennaPod/AntennaPod",
  "web": "https://antennapod.org"

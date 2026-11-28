@@ -8,18 +8,9 @@
  },
  "descripcion": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
  "evidencia": {
-  "nota": "ficha creada el 3-nov-2026 al medir los herederos de Shizuku para la pieza 04",
-  "payload_ref": "consulta GraphQL del 2026-11-03 sobre thedjchi/Shizuku",
-  "sha256": "b5a94bbd0d39809d5f50fe472224b5831f29c42232df0a4276be7061a023ee2c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/thedjchi--shizuku.json",
+  "sha256": "97332cb1f359834d524d0c5c9f3b3a967db4fee20ef6ad67f20e5606119afb59"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,13 +24,13 @@
   "metodo": "spdx-api",
   "nota": "certificada además contra el texto del archivo LICENSE en la medición de la pieza 04",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6694,
+  "stars": 7123,
   "stars_por_mes": null
  },
  "nombre": "Shizuku",

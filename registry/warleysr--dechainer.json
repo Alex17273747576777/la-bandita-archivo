@@ -4,22 +4,13 @@
   "release_en": "2026-03-10",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Android app that use Device Owner privileges to effectively block pornography and permanently break the chain of addiction",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/warleysr--dechainer.json",
-  "sha256": "3d749dc762356d6117e241370a4c991622bf8382b39505a7080ad4c55ebfe5d5"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0f10e941e3b6ab2166cb15684e23037b769c64acdec9d5ade59087d35e07077b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 41,
+  "stars": 57,
   "stars_por_mes": null
  },
  "nombre": "dechainer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e78199831b9c1d31510f8cd14e454b734ad98fac",
+  "commit": "7ccf7bd68c5fed8338621cfd6b54b8ad4a4b247a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e78199831b9c1d31510f8cd14e454b734ad98fac"
+  "swhid": "swh:1:rev:7ccf7bd68c5fed8338621cfd6b54b8ad4a4b247a"
  },
  "repo": "warleysr/dechainer"
 }

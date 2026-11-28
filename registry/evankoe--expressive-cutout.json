@@ -4,22 +4,13 @@
   "release_en": "2026-07-29",
   "semantica_http": 200,
   "ultima_release": "0.1.0-beta",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "This app aims to recreate Apple's dynamic island for Android, but this time, following Google's Material Expressive design. ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/evankoe--expressive-cutout.json",
-  "sha256": "ba2800f9d136b20e569fb594db4928bf3c896010e0e2b24dba297261e7bcb51f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "089a5ceaeceb1f6015dcbf3ea85f1bb19079799ef7a4e0025991af51277d6ab0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 238,
+  "stars": 288,
   "stars_por_mes": null
  },
  "nombre": "expressive-cutout",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9ce0f1993eca46102b97ce61bfbf0006a7b8ace0",
+  "commit": "3ead7809363ea754ac4f4197df90395fc583aba5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9ce0f1993eca46102b97ce61bfbf0006a7b8ace0"
+  "swhid": "swh:1:rev:3ead7809363ea754ac4f4197df90395fc583aba5"
  },
  "repo": "EvanKoe/expressive-cutout"
 }

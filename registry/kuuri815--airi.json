@@ -8,18 +8,9 @@
  },
  "descripcion": "Project AIRIからフォークされたこのプロジェクトは、AIキャラクターを自律的に思考し行動する「エージェント」へと進化させることを目的としています。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kuuri815--airi.json",
-  "sha256": "6b4a1d25e1103f11d90147715e73abeb56a5f79b04742819251b6854b2400534"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a6c1494ac7db1de285dc7f113a205126c095aaed5f3191d0189d811f2d1910fd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

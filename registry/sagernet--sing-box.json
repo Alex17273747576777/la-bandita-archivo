@@ -4,22 +4,13 @@
   "release_en": "2022-08-26",
   "semantica_http": 200,
   "ultima_release": "v1.0-beta1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "The universal proxy platform",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sagernet--sing-box.json",
-  "sha256": "7070565149321868e750371fde120ec1f557f1fb4a0da97f6e1d807bf8875ca3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2455ef6de380edadbf671e444aee8909f27bc04be78a9ec1748fbceee928a87d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,23 +25,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 39577,
+  "stars": 40388,
   "stars_por_mes": null
  },
  "nombre": "sing-box",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9f1cd1ef75b7999bb118a9322a003f6edce2752d",
+  "commit": "64417bc8e802367a2fb25edaddf6dee06bbed29c",
   "swh_estado": "archivada",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9f1cd1ef75b7999bb118a9322a003f6edce2752d"
+  "swhid": "swh:1:rev:64417bc8e802367a2fb25edaddf6dee06bbed29c"
  },
  "repo": "SagerNet/sing-box",
  "web": "https://sing-box.sagernet.org/"

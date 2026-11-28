@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-11-03",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "ultima_release": "v0.1.0a1",
+  "ultimo_push": "2026-11-04"
  },
  "descripcion": "Headless, Playwright-style Android app testing on your real phone: AI agents test apps on a hidden virtual display while you keep using the phone. No root, wireless ADB.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/anand-s-kale--headroid.json",
-  "sha256": "c890c4b089b8ac752cd2a25453455a6f88bdf78d4b541775c5e97f6236c38642"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "281f895d3239c0dbaab4935248521cf53a0f888b735e9d0a11f422691e5f3554"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "0afce5bfd6fc2fa1ee9247213b653120fc2ae892",
+  "commit": "6f8a6e2e1fa05f31d9fdee3767a40775140cfdfe",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:0afce5bfd6fc2fa1ee9247213b653120fc2ae892"
+  "swhid": "swh:1:rev:6f8a6e2e1fa05f31d9fdee3767a40775140cfdfe"
  },
  "repo": "anand-s-kale/headroid"
 }

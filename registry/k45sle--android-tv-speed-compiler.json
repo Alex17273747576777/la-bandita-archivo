@@ -4,22 +4,13 @@
   "release_en": "2026-10-22",
   "semantica_http": 200,
   "ultima_release": "v0.9.0-test1",
-  "ultimo_push": "2026-10-26"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "Android TV app that compiles the apps you pick with Android's speed profile, and again after each update, over local wireless debugging.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/k45sle--android-tv-speed-compiler.json",
-  "sha256": "39647edfb942746cce46ca0894c43ce5bc09c2c4a2a7590d5f1ada4c815e139e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b922ee4087d3cd87dd608ca00081a9d5934e5fb14e5a742be4041ae944ca1658"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 9,
   "stars_por_mes": null
  },
  "nombre": "android-tv-speed-compiler",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "80418014cbc6b7664f35e5e109571ac89a26ee23",
+  "commit": "8a7165615824532ed40a6129a7ca331a9916ad6d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:80418014cbc6b7664f35e5e109571ac89a26ee23"
+  "swhid": "swh:1:rev:8a7165615824532ed40a6129a7ca331a9916ad6d"
  },
  "repo": "k45sle/android-tv-speed-compiler",
  "web": "https://github.com/k45sle/android-tv-speed-compiler/releases/latest"

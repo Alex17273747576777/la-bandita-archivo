@@ -4,22 +4,13 @@
   "release_en": "2026-09-29",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Angular apps, rendered as real native iOS and Android views, on React Native's Fabric renderer.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ng-native--ng-native.json",
-  "sha256": "e1d5116951cbc293fc683d268e1139f245c3678b89d7fa8654e080386ab157b3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "42b13c0b123727d9042fe811a58d6450c85645655f38f9f3a55be619122759a2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 606,
+  "stars": 654,
   "stars_por_mes": null
  },
  "nombre": "ng-native",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5376e2208c14d69f3c3c648fb213221c766fda9e",
+  "commit": "84e9c0a7a031132717d1000e4f816f387339f01a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5376e2208c14d69f3c3c648fb213221c766fda9e"
+  "swhid": "swh:1:rev:84e9c0a7a031132717d1000e4f816f387339f01a"
  },
  "repo": "ng-native/ng-native",
  "web": "https://ng-native.com"

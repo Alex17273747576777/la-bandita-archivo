@@ -4,22 +4,13 @@
   "release_en": "2026-10-25",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Non-root Android app-standby layer switchboard. Re-map packages into 7 tiers, apply only the diff. No root.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tittiesmyluv--layerctl.json",
-  "sha256": "070e03eb7e079fdfeb41ad42a202e85b0f23e88c87bfd33aa5c4edba1e408779"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "910ba1d40b7d98cf05d9b144c086eb8e230205afe88ceface970ddd0c37c8a53"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1b087d4efd4de33a99d07d50295cdcadee02d613",
+  "commit": "618d4c54bc4e8278acfb78f9c74cc165f80dda5f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1b087d4efd4de33a99d07d50295cdcadee02d613"
+  "swhid": "swh:1:rev:618d4c54bc4e8278acfb78f9c74cc165f80dda5f"
  },
  "repo": "tittiesmyluv/layerctl"
 }

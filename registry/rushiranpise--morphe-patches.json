@@ -4,22 +4,13 @@
   "release_en": "2026-06-01",
   "semantica_http": 200,
   "ultima_release": "v1.0.0-dev.1",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-16"
  },
  "descripcion": "New mask, same task.                                                                 All patches answer to Doom.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rushiranpise--morphe-patches.json",
-  "sha256": "913643587731d0e70a2b7a8cecf14cef6a84c6726042441107bcf9b96f5a2b06"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b12c6570f4ec86f1965c8f319291e554107cb029a0c4112f8515546ce3296a4f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1004,
+  "stars": 1110,
   "stars_por_mes": null
  },
  "nombre": "morphe-patches",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "92c0fca0ae103a419c7fc61f9c5b8b38b7d6b82a",
+  "commit": "13b8a3d714ab048101da69a358f42ac7932c34e9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:92c0fca0ae103a419c7fc61f9c5b8b38b7d6b82a"
+  "swhid": "swh:1:rev:13b8a3d714ab048101da69a358f42ac7932c34e9"
  },
  "repo": "rushiranpise/morphe-patches",
  "web": "https://buymeacoffee.com/rushiranpise"

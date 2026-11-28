@@ -8,18 +8,9 @@
  },
  "descripcion": "Use your phone rather than letting your phone use you.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/flxapps--detoxdroid.json",
-  "sha256": "b4e538a43f1ba91feb98c78ca4985598ce26bac02b4af03b6cdfd1d200f79aa5"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "90159b0d2691f79d11393b7421d033f5dca2a6420f8d8168d0a9d1a4ef5d7a35"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 551,
+  "stars": 573,
   "stars_por_mes": null
  },
  "nombre": "DetoxDroid",

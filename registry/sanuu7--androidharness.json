@@ -4,22 +4,13 @@
   "release_en": "2026-08-25",
   "semantica_http": 200,
   "ultima_release": "Alpha",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Android Harness AI Coding Agent Native app for mobile, No Root No PC",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sanuu7--androidharness.json",
-  "sha256": "e87ffaf2b71989e48c2631abf05d01b9eb89f433a9b1795279487616bb956e72"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5970a39066963e9c921711f3b70748d2ffe14ef719bc0460c1057286f6d9bc05"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 143,
+  "stars": 262,
   "stars_por_mes": null
  },
  "nombre": "AndroidHarness",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "97c01cadf6a28b3c29f78f5b4928771f69564ab7",
+  "commit": "ccf421f73518642acc8f2d454b7e8e53805c8a86",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:97c01cadf6a28b3c29f78f5b4928771f69564ab7"
+  "swhid": "swh:1:rev:ccf421f73518642acc8f2d454b7e8e53805c8a86"
  },
  "repo": "Sanuu7/AndroidHarness",
  "web": "https://androidharness.pages.dev/"

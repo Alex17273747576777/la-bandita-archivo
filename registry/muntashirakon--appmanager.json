@@ -10,16 +10,7 @@
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/muntashirakon--appmanager.json",
-  "sha256": "ba3ca100d15a8c47f375dc5e9284fa76305c7fea0a5ce01cfe2a034abdbfffff"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f9d90dd7e621e85034dcb94ebcb45181369169d9dd8652cbf7c4ce3c4ee9ab33"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "COPYING",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": 4.3,
   "scorecard_en": "2026-08-24",
-  "stars": 9427,
+  "stars": 9750,
   "stars_por_mes": null
  },
  "nombre": "AppManager",

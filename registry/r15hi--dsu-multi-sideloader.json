@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
+  "estado": "vivo",
+  "release_en": "2026-10-01",
+  "semantica_http": 200,
+  "ultima_release": "v2.03",
   "ultimo_push": "2026-10-15"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/r15hi--dsu-multi-sideloader.json",
-  "sha256": "fda36aa0586ea9534b3bbb59e0928168bdd7f8a14d5d2cbda610644b60b15e4e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "54f85e0d6f33513526f78b8af120643db83123291f9547d98b30d4cdce823f54"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 6,
   "stars_por_mes": null
  },
  "nombre": "Dsu-Multi-sideloader",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7e95c4c98f970374a40b839cb030e9bf237452db",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7e95c4c98f970374a40b839cb030e9bf237452db"
  },
  "repo": "R15Hi/Dsu-Multi-sideloader"
 }

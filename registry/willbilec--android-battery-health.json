@@ -1,6 +1,6 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "dormido",
   "release_en": "2026-05-14",
   "semantica_http": 200,
   "ultima_release": "v0.2.0",
@@ -8,18 +8,9 @@
  },
  "descripcion": "Android app that reads Samsung battery health and cycle data with Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/willbilec--android-battery-health.json",
-  "sha256": "3117179e85bb40ee2124de623d3ceb099b86925ff64fadbcb05dfefb6afa3386"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "98104fab0835189742ad2337a71ea743901347e1320ae43c1eb54bd5c91fd8a3"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13,
+  "stars": 18,
   "stars_por_mes": null
  },
  "nombre": "android-battery-health",

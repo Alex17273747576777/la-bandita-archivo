@@ -4,22 +4,13 @@
   "release_en": "2026-08-06",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-09-24"
+  "ultimo_push": "2026-11-20"
  },
  "descripcion": "ForgeSign for iOS — on-device IPA re-signer. Sign, install and manage IPAs entirely on the device: zsign engine, liquid-glass UI, remembered certificates with expiry countdown, signed-app library, loopback OTA install.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mesutcydev--forgesign-ios.json",
-  "sha256": "6b3c194819f59354fc13ef1b8d6fe5b2a3397161f62d9e9ccc51dbf8a5ef01b6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a78757beb3ef7e2ef6406816e03d0febfedc45390cf320a4f8c1d065ab23d16a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 87,
+  "stars": 101,
   "stars_por_mes": null
  },
  "nombre": "ForgeSign-iOS",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b4ac4d853115cb216904ba9a8df26062f11abb46",
+  "commit": "a2d3913d4a22e85051956dbbe1904436a42d3478",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b4ac4d853115cb216904ba9a8df26062f11abb46"
+  "swhid": "swh:1:rev:a2d3913d4a22e85051956dbbe1904436a42d3478"
  },
  "repo": "Mesutcydev/ForgeSign-iOS",
  "web": "https://mesut.uk/apps/forgesign"

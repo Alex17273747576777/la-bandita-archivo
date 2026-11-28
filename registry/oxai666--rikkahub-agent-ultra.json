@@ -4,22 +4,13 @@
   "release_en": "2026-10-30",
   "semantica_http": 200,
   "ultima_release": "ultra-20261030-1339-45",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-11"
  },
  "descripcion": "111",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/oxai666--rikkahub-agent-ultra.json",
-  "sha256": "8ab0677825c82d3ce9acbaec5c20ef2a2d2f65e13a00c4e909e453a495a3a26e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a27df6d9d604ba0c2ab6497a1d89da41fdc7694039064f97e1b3822289f9aba9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "RikkaHub-Agent-Ultra",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2ae78b04364d18c70f88995469818af19c6602d5",
+  "commit": "b6a51fc3f9923222b3b943c225ea2d704254c5e3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:2ae78b04364d18c70f88995469818af19c6602d5"
+  "swhid": "swh:1:rev:b6a51fc3f9923222b3b943c225ea2d704254c5e3"
  },
  "repo": "Oxai666/RikkaHub-Agent-Ultra"
 }

@@ -8,18 +8,9 @@
  },
  "descripcion": "Picture Selector Library for Android or 图片选择器",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lucksiege--pictureselector.json",
-  "sha256": "cad065002d54a3c7fc3cbe7df46d25659653241d3df120cb485a0d8281a82bc7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0f2f999f31a0dd9198f8b29de62f131dfbdae376a8c7552584ce40795aef6213"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13583,
+  "stars": 13572,
   "stars_por_mes": null
  },
  "nombre": "PictureSelector",

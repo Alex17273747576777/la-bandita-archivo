@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-01",
+  "release_en": "2026-11-14",
   "semantica_http": 200,
-  "ultima_release": "v2.1",
-  "ultimo_push": "2026-11-02"
+  "ultima_release": "v5.0",
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "An Android utility app that leverages Shizuku to apply advanced ADB performance tweaks, optimize refresh rates, and safely change screen resolution. all without requiring root access. ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/benimaru-x1k--benimaru.json",
-  "sha256": "7a3cf1baafd59514031611b4f29eafedcaffa99a643baae3b7d59b1058c1b2e2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ef7fb7f4e6cb45a684e7eef2cbfe1215dec0614e6a0a638c7fd746c032b9c930"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 40,
+  "stars": 55,
   "stars_por_mes": null
  },
  "nombre": "Benimaru",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2a341c863993c50e443614a7035512f74232e46a",
+  "commit": "f6991ce5d8fec61e40093d69b9f88b91d0d1327f",
   "swh_estado": "solicitud 200",
   "swh_solicitud": "accepted",
-  "swhid": "swh:1:rev:2a341c863993c50e443614a7035512f74232e46a"
+  "swhid": "swh:1:rev:f6991ce5d8fec61e40093d69b9f88b91d0d1327f"
  },
  "repo": "Benimaru-x1k/Benimaru"
 }

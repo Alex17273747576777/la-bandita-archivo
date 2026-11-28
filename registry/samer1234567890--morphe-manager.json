@@ -8,18 +8,9 @@
  },
  "descripcion": "From the developers that brought you the greatest modded YouTube apps, comes Morphe - the powerful app modification tool that puts you in control",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/samer1234567890--morphe-manager.json",
-  "sha256": "b7cc1b491553d1d83b891cbcf69bbb7505b78c6e7ea3124aa16e68ece8483934"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c9d3f9c33920711d0a39e2141b7c92b1c5f6a5594a1c4e8e948841aef051cb08"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

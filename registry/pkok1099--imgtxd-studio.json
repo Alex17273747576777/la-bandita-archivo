@@ -8,18 +8,9 @@
  },
  "descripcion": "⚡ Modern, high-performance SA/VC/III .IMG archive & .TXD texture tool for Android (Android 12-16) with Shizuku & Material 3",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pkok1099--imgtxd-studio.json",
-  "sha256": "df073fb2e4785b6a869594e2e0a454693ae55590e2bbc82f56f1822433d4c08a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1a4e3a296e5f1d71100b961b03b21c57b66ab9ccaa23429ab7303321e2c05d42"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "imgtxd-studio",

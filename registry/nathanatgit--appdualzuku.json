@@ -8,18 +8,9 @@
  },
  "descripcion": "Manage app multiple instances in workspaces with Shizuku privilege.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/nathanatgit--appdualzuku.json",
-  "sha256": "80bdbb5bd035be29d988e6e891deb47e2e98ef7f1155779298d251d1e4a25669"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ec06f67037e3b29d236d0291766b3705a7c20c2ecb118e32020f7e8b6813a991"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 43,
+  "stars": 44,
   "stars_por_mes": null
  },
  "nombre": "AppDualZuku",

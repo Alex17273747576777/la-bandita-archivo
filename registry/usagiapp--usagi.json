@@ -4,22 +4,13 @@
   "release_en": "2026-03-30",
   "semantica_http": 200,
   "ultima_release": "v0.0.1-b1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "Just a simple, free and open-source manga reader for Android 5.0+",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/usagiapp--usagi.json",
-  "sha256": "9816a05a54a181cfc03d04be3d7048ea317fd6e8002cc1adcc32ec623389f19d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4c87f7e65492b279bea07ce7c9259c0ab31e14e0e65be059df062f307fee643f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 290,
+  "stars": 305,
   "stars_por_mes": null
  },
  "nombre": "Usagi",
@@ -49,10 +40,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "9c562263a127eda853e9c210c4aae008602414c1",
+  "commit": "4287edf357dca1ec02d7bea2cf59a6d70bdfa08a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9c562263a127eda853e9c210c4aae008602414c1"
+  "swhid": "swh:1:rev:4287edf357dca1ec02d7bea2cf59a6d70bdfa08a"
  },
  "repo": "UsagiApp/Usagi",
  "web": "https://yumemi.moe/usagi"

@@ -4,22 +4,13 @@
   "release_en": "2026-02-28",
   "semantica_http": 200,
   "ultima_release": "v1.0.6",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Android app that opens music links in the app you use, names songs, and shows lyrics and chords.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/astrovm--crosstune.json",
-  "sha256": "dadf9d05f925af5f2d9f6c8e5813cb9db8c574640ec105686046054d5b00809a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a2024e5a8fcedb06cb725aa13a220ac4a6d70834cf5a4653756b42e2270bad65"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7,
+  "stars": 10,
   "stars_por_mes": null
  },
  "nombre": "crosstune",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "cd9ddc7e21328917d04e69e3505387a78e38420c",
+  "commit": "41d63adafaecacc2207aa964c59a3d9fab5d0cda",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:cd9ddc7e21328917d04e69e3505387a78e38420c"
+  "swhid": "swh:1:rev:41d63adafaecacc2207aa964c59a3d9fab5d0cda"
  },
  "repo": "astrovm/crosstune",
  "web": "https://crosstune.4st.li/"

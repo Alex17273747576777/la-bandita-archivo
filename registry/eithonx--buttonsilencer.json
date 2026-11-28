@@ -4,22 +4,13 @@
   "release_en": "2026-09-09",
   "semantica_http": 200,
   "ultima_release": "v3.2.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-10"
  },
  "descripcion": "Android app that blocks faulty headset and IEM remote buttons without disabling the phone's own buttons.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/eithonx--buttonsilencer.json",
-  "sha256": "4b03df4a8924a9d94981dc479988d0ea79710cfe8cc03624a5cad71bab740d49"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "aeb81e8c38046ebcaa16343d3c15310114b2d20295f529b5bf12ebb4913a2663"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "ButtonSilencer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "896ddc81936e2bb80056d4274e9c13f6e69a3563",
+  "commit": "29f383181968143a859a79830f93e501b73076eb",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:896ddc81936e2bb80056d4274e9c13f6e69a3563"
+  "swhid": "swh:1:rev:29f383181968143a859a79830f93e501b73076eb"
  },
  "repo": "EithonX/ButtonSilencer"
 }

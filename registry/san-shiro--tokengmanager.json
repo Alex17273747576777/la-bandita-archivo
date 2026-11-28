@@ -1,8 +1,8 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "muerto",
   "release_en": "2026-09-17",
-  "semantica_http": 200,
+  "semantica_http": 404,
   "ultima_release": "v6.1.0",
   "ultimo_push": "2026-09-19"
  },
@@ -13,13 +13,12 @@
   "sha256": "6c1ba3c27ee6a1e829a2cb2d27a3dce0de9ee963325cea6a03ae9b0770813adb"
  },
  "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
+  "dias": 0,
+  "estado": "vencida",
+  "evidencia_en": "2026-11-27",
+  "motivo": "el repositorio no existe: la API devolvió 404",
   "proxima_remedicion": null,
-  "ventana_dias": 180
+  "ventana_dias": null
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +33,11 @@
   "spdx": "Apache-2.0",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": null,
   "stars_por_mes": 0.0
  },
  "nombre": "TokenGManager",

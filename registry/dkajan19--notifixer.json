@@ -8,18 +8,9 @@
  },
  "descripcion": "Android utility to make notifications persistent/undismissable using Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dkajan19--notifixer.json",
-  "sha256": "448feeb3ab7e57acbcc1f504fcf26b0e0925f33b99e26c345afe80c54f429536"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9f74d97a27f1715280504c288b3beea2d8dd774ea5e49cb08bcbed96ac807b90"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 93,
+  "stars": 97,
   "stars_por_mes": null
  },
  "nombre": "NotiFixer",

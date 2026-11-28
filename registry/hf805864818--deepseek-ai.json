@@ -4,22 +4,13 @@
   "release_en": "2026-08-20",
   "semantica_http": 200,
   "ultima_release": "v1.0.2",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-05"
  },
  "descripcion": "deepseek智能体",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hf805864818--deepseek-ai.json",
-  "sha256": "856e933233e33f7b803678013dd6786c119cc6e39c6f24b05107131246ae9579"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3f5115668b4cf5e014622388e6f2d1069c94939a0af9c9bd166530360ff8e3af"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "346b4dfa63d20870274751d95cb19bb5d67449f6",
+  "commit": "0945fac0a60a934549c60e5b06c884b800d7ac00",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:346b4dfa63d20870274751d95cb19bb5d67449f6"
+  "swhid": "swh:1:rev:0945fac0a60a934549c60e5b06c884b800d7ac00"
  },
  "repo": "hf805864818/deepseek-ai"
 }

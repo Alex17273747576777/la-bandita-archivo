@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-13"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "(L10N) Multimedia browser for Android. Compatible with Legado, IReader, LNReader",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/usaywat--kototoro.json",
-  "sha256": "028dd0d027777b453177a1933fc54f1a6849f3813ac2c0d2b7ade2c84c3aaed7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "56b00c3ba81ae8e6004a75a0b01e0263d75c316af2187c4caba69a91b12d1607"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6410cdd1e1a92031f429c46cec39b5d2ea041fa2",
+  "commit": "fc2103ac538db89403a4360e840e4fa35b1ff152",
   "swh_estado": null,
-  "swhid": "swh:1:rev:6410cdd1e1a92031f429c46cec39b5d2ea041fa2"
+  "swhid": "swh:1:rev:fc2103ac538db89403a4360e840e4fa35b1ff152"
  },
  "repo": "usaywat/Kototoro"
 }

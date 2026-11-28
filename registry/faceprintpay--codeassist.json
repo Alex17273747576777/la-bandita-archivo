@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-28"
+  "ultimo_push": "2026-11-17"
  },
  "descripcion": "Experimental IDE for building Android applicatons on Android.",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/faceprintpay--codeassist.json",
-  "sha256": "e0e1f6ed94ab4dd69cc41900afb04eb31f2dfb03efd8396f2679113e4027de52"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3f1ed0f469bf0e4ce7aa853cc4097ec4e21b85904f0ff343b5b1ab319815ba58"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "07e3d01de745e968319ee1f27afff2949a4aa63e",
+  "commit": "ad96b1afcf66af1f690403adb3d75f51bb4d6260",
   "swh_estado": null,
-  "swhid": "swh:1:rev:07e3d01de745e968319ee1f27afff2949a4aa63e"
+  "swhid": "swh:1:rev:ad96b1afcf66af1f690403adb3d75f51bb4d6260"
  },
  "repo": "FacePrintPay/CodeAssist"
 }

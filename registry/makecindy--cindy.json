@@ -4,22 +4,13 @@
   "release_en": "2026-07-25",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/makecindy--cindy.json",
-  "sha256": "87eb99e55b9c62388a989477ac79bcdef9dbe3de359a60d0728cc638e95fc7fb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "463aa8600836c4c76dcb1f7967f7da40c0ce489c6b0f1f8f083b72439b6feb32"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9113,
+  "stars": 10736,
   "stars_por_mes": null
  },
  "nombre": "cindy",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f74a4f3c8244da3c21b2b158788ad9b8c590b265",
+  "commit": "9ec3a2997fa53d673916876d00a23ae0de6a8d0d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f74a4f3c8244da3c21b2b158788ad9b8c590b265"
+  "swhid": "swh:1:rev:9ec3a2997fa53d673916876d00a23ae0de6a8d0d"
  },
  "repo": "makecindy/cindy",
  "web": "https://cindy.app"

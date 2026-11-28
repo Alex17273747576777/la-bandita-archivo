@@ -4,22 +4,13 @@
   "release_en": "2026-10-25",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/victorious93--file-manager.json",
-  "sha256": "8238527a33e00dd6f485ba9058669fa57e8ccf99b27f77d2f1fc5035d3ef3c4b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "28b87d23fa83dfc4ece6b9b11571fb0886fe7766c15e6b6b24f4512b3d79baf8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "74bc8a1d4f4ce21e1d9d4d5b641848c45ce41944",
+  "commit": "1c63ac456d6efb1a71dd275628bde8ac9e7d1468",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:74bc8a1d4f4ce21e1d9d4d5b641848c45ce41944"
+  "swhid": "swh:1:rev:1c63ac456d6efb1a71dd275628bde8ac9e7d1468"
  },
  "repo": "Victorious93/File-Manager"
 }

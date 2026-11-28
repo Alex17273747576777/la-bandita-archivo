@@ -4,22 +4,13 @@
   "release_en": "2026-02-10",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-10-10"
+  "ultimo_push": "2026-11-18"
  },
  "descripcion": "Minimal Android kernel management and system monitoring application",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zenithblue-oss--mkm.json",
-  "sha256": "c573a7a709845a91606bfc39e268e3c4a05f846a7a6aff1ba3663179abfe9006"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3222535963c5ef3cd265f5ed9b79070c646cba732558188508f626c360d21646"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 177,
+  "stars": 202,
   "stars_por_mes": null
  },
  "nombre": "mkm",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "153dae86c804241a394512c88d00f4591378ca72",
+  "commit": "507f9031788cf2d4d0783ca8fa3bd1a5ef4431bc",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:153dae86c804241a394512c88d00f4591378ca72"
+  "swhid": "swh:1:rev:507f9031788cf2d4d0783ca8fa3bd1a5ef4431bc"
  },
  "repo": "zenithblue-oss/mkm"
 }

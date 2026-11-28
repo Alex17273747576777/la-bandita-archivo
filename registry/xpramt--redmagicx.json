@@ -4,22 +4,13 @@
   "release_en": "2026-07-16",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-09"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/xpramt--redmagicx.json",
-  "sha256": "13e03f3cafa1ced1c9ed6989ed6daccd2e1198126559f2eb0928b888cb3414ce"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8d27e392bc1f5b9d6b8de4acc0388a8506a0a5236e89691eea76bf9486a8a316"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "543cea94b0ab152dbcde6aaa51d5b49857cdf190",
+  "commit": "30d0b39c5ba8e6da174b36ca08c9320014b35779",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:543cea94b0ab152dbcde6aaa51d5b49857cdf190"
+  "swhid": "swh:1:rev:30d0b39c5ba8e6da174b36ca08c9320014b35779"
  },
  "repo": "XPRAMT/RedMagicX"
 }

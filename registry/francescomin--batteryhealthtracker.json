@@ -8,18 +8,9 @@
  },
  "descripcion": "A lightweight battery info and health estimation tool for Android.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/francescomin--batteryhealthtracker.json",
-  "sha256": "89f7d7a8148fb2858afa1be5fda3ba0d7d12e5d43ce714b742b1359dc459fa23"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "edc15e6627b2a5fb0f517c2cfa24a92abb297b9a2787795ed396e7fc089b7287"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,13 +24,13 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 27,
+  "stars": 32,
   "stars_por_mes": null
  },
  "nombre": "batteryhealthtracker",

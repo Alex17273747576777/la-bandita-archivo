@@ -4,22 +4,13 @@
   "release_en": "2026-07-12",
   "semantica_http": 200,
   "ultima_release": "v1.0.0-rc1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "在 Android 上运行的 AI 编程 Agent，内置 Linux 终端与代码编辑器，支持 MCP 协议扩展。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jieapi--aicode.json",
-  "sha256": "3e9bb797d73c9778d1b9e297ec69bc19b0e412720103fa7d1eebe8d3e31306c4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ded14265748adf284a11bcd2c3d5c24d61d1f944985a88de1c159b635d421912"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 365,
+  "stars": 448,
   "stars_por_mes": null
  },
  "nombre": "AiCode",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "fe912abdca04fe063608bd76c9b3f3c3e82da0c9",
+  "commit": "ee3397c9753dc1ebff9f7171c0e48bfa17ea9880",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:fe912abdca04fe063608bd76c9b3f3c3e82da0c9"
+  "swhid": "swh:1:rev:ee3397c9753dc1ebff9f7171c0e48bfa17ea9880"
  },
  "repo": "jieapi/AiCode",
  "web": "https://aicode.murk.top"

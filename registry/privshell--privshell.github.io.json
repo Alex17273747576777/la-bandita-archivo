@@ -8,18 +8,9 @@
  },
  "descripcion": "privshell: portfolio of open-source Android power tools (root, KernelSU, Shizuku, ADB).  Topics",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/privshell--privshell.github.io.json",
-  "sha256": "8ff2dcb89abc53da6d2ff45613663d74ef6054f5780893394bd4966806fb0446"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7a03adbc4b3baba84ec5f142c7f0000a905156d9106d033bff987b628f341ac0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

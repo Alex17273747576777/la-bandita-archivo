@@ -4,22 +4,13 @@
   "release_en": "2022-11-02",
   "semantica_http": 200,
   "ultima_release": "v3.2.1",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Android app for streaming and downloading media.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/recloudstream--cloudstream.json",
-  "sha256": "b70bf385d533e30f9425c55ab4000b0eae44e33c7603edf6f35329f5199151a7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7a12c2d2e663ba63862a35ba3dd522053937ebbdf4c0b03bb770ee036825a5d3"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 11145,
+  "stars": 11438,
   "stars_por_mes": null
  },
  "nombre": "cloudstream",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "5024ace2922a148d38df2a816b483b529789cf58",
+  "commit": "7b83aba1e651c3ce266f1727f469ef16a3e84f0e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5024ace2922a148d38df2a816b483b529789cf58"
+  "swhid": "swh:1:rev:7b83aba1e651c3ce266f1727f469ef16a3e84f0e"
  },
  "repo": "recloudstream/cloudstream"
 }

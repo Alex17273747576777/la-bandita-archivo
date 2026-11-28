@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-29"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "All state — conversations, memory, config, credentials — is stored on your machi",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hera-garra--garrarust.json",
-  "sha256": "b1768d4ac02e5fe33fc6e69e23caa8f9ba9f2464e505f60b4eff7b8f7a85d1cf"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2b5a6808d3c8e1153f8ee37060af8b5636cd18fb0f2cb2251a91529873dce58f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b4c45343e2c0cc1fd82f885c533dc48a3f80d3ce",
+  "commit": "86c43a7b9d02ed78dd5cec7c35b296459cf7fdbf",
   "swh_estado": null,
-  "swhid": "swh:1:rev:b4c45343e2c0cc1fd82f885c533dc48a3f80d3ce"
+  "swhid": "swh:1:rev:86c43a7b9d02ed78dd5cec7c35b296459cf7fdbf"
  },
  "repo": "hera-garra/GarraRUST"
 }

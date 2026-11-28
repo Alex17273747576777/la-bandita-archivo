@@ -4,22 +4,13 @@
   "release_en": "2026-10-25",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/velocity081--droidbubble.json",
-  "sha256": "e0ea7bd7774067e17bc819af319d3ef4a102738604f7b0a3c927ce4293a0f9ce"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8c4ca3f73c3d6f6368c9c15df88b5b367425b25b8d546ce0b536be1f88bb7c74"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 113,
+  "stars": 205,
   "stars_por_mes": null
  },
  "nombre": "droidbubble",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7152b90a1ed9c8ba04444d86ffb37c375008960c",
+  "commit": "35ccca548cb39d87d2f926fde407c3fe3bd6f900",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:7152b90a1ed9c8ba04444d86ffb37c375008960c"
+  "swhid": "swh:1:rev:35ccca548cb39d87d2f926fde407c3fe3bd6f900"
  },
  "repo": "Velocity081/droidbubble"
 }

@@ -8,18 +8,9 @@
  },
  "descripcion": "Agent skill for AI trip planning (Claude Code · Codex · Gemini CLI · Cursor · Copilot · any SKILL.md agent) — verified, bookable itineraries: hour-by-hour days, real flight prices, offline KML maps, eight themed page designs · 旅行规划 / 行程 / 机票比价",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/skywain--trip-planner-skill.json",
-  "sha256": "b854666d489f0070d168d65640bf513c013b123b06b06902427e73f7cc10520d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a78d5f7417fe9134102daac797a6f6b3e3d6a15cb4c80682b37000d4ce604db7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 48,
+  "stars": 52,
   "stars_por_mes": null
  },
  "nombre": "trip-planner-skill",

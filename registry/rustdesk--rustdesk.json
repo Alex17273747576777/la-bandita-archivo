@@ -4,22 +4,13 @@
   "release_en": "2021-03-27",
   "semantica_http": 200,
   "ultima_release": "1.1.2",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rustdesk--rustdesk.json",
-  "sha256": "a863af20dfc2eeb70620d384a3b5cd1cbf451c4fb9a77a7f6deafa698d111165"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3f87c5339b986a9bec17106a2dd4be49b4ffabb6d61961188cb84e2edce8fe50"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 128013,
+  "stars": 131835,
   "stars_por_mes": null
  },
  "nombre": "rustdesk",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "55786aaa5709ac0a450aabcf06f9d1fee3119908",
+  "commit": "104ef2a86505ba4988dd7dca040aa92de49ab139",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:55786aaa5709ac0a450aabcf06f9d1fee3119908"
+  "swhid": "swh:1:rev:104ef2a86505ba4988dd7dca040aa92de49ab139"
  },
  "repo": "rustdesk/rustdesk",
  "web": "https://rustdesk.com"

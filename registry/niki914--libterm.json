@@ -8,18 +8,9 @@
  },
  "descripcion": "Kotlin-first Android terminal library spanning Su, Shizuku, and SSH sessions.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/niki914--libterm.json",
-  "sha256": "075eea357f2627c2915bf3741ec8260f2d43ec791e2fcef31a8c8e11a73efd94"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3d126ee0cb462a8c655301a6963e7d6576a3bb02fc876cc91950827289646cff"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 24,
+  "stars": 25,
   "stars_por_mes": null
  },
  "nombre": "libterm",

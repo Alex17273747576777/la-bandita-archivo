@@ -8,18 +8,9 @@
  },
  "descripcion": "RyTuneX for Android is a stateless system tuning and debloat engine built with Kotlin and Jetpack Compose, powered by Shizuku (ADB UID 2000) with zero background daemons.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rayenghanmi--rytunex-android.json",
-  "sha256": "4bfbc1daadd5ab2e9f5a573463f5d402601ff225d5861ca5caeff3ab365f124c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "13b79eb81f39baa88938065159994891f561dbc43a4bd2bc613d57f520444fca"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 12,
+  "stars": 23,
   "stars_por_mes": null
  },
  "nombre": "RyTuneX-Android",

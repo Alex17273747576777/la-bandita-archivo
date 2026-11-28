@@ -4,22 +4,13 @@
   "release_en": "2023-07-19",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sxyazi--yazi.json",
-  "sha256": "5148c0c040261b6f403b13e10fb4b49341a9d8ef9cc66330201d2f2e7a7d748a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "51b2838a87952d8dfebfdc666c3c3c2c4b8dc3e9d6e194e6460059ad7e957267"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 43203,
+  "stars": 43707,
   "stars_por_mes": null
  },
  "nombre": "yazi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "606096f6af225d0d433d77fa77cff074bde63279",
+  "commit": "af6850648e34bb9276d08965e1886fe8497c0734",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:606096f6af225d0d433d77fa77cff074bde63279"
+  "swhid": "swh:1:rev:af6850648e34bb9276d08965e1886fe8497c0734"
  },
  "repo": "sxyazi/yazi",
  "web": "https://yazi-rs.github.io"

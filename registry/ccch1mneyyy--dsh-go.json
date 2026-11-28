@@ -4,22 +4,13 @@
   "release_en": "2026-10-30",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ccch1mneyyy--dsh-go.json",
-  "sha256": "9ae3711b34c9f9747da004e7cc313e8ca5a9ddf4b7282758fd29819a97eb7eb1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bb8503010cccdd3ef36479dfbb9b2b313169a220b57cda1e1ca06f05caad717c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6873,
+  "stars": 33337,
   "stars_por_mes": null
  },
  "nombre": "dsh-Go",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "8e36cdbf3b151ea819a53ecd88f7be91b497254a",
+  "commit": "3b9fbbbb5953ad1afc383ddec16bd63bc02c3442",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:8e36cdbf3b151ea819a53ecd88f7be91b497254a"
+  "swhid": "swh:1:rev:3b9fbbbb5953ad1afc383ddec16bd63bc02c3442"
  },
  "repo": "ccch1mneyyy/dsh-Go"
 }

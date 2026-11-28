@@ -4,22 +4,13 @@
   "release_en": "2026-09-28",
   "semantica_http": 200,
   "ultima_release": "cells-district-of-columbia",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Maps and turn-by-turn navigation for Android without Google Play Services: the best of open map data, with Google lookups by choice. Runs on degoogled phones and can avoid Flock cameras",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pimpinpumpkin--vela.json",
-  "sha256": "c9d881500246a4a6ed727b0f6fbc6d9c7d1b150fff8a27e372110774abc5cbf7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1555570370f378fe0b2be3020812e415da7f975ab2a740e84094f283ab364e9b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2346,
+  "stars": 2837,
   "stars_por_mes": null
  },
  "nombre": "Vela",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "aa0ff8cbb293dfb17ab3d20466e19e24cbae8a3f",
+  "commit": "3fae8fcc0e0ae4a15afad9023c4ad3d08412ba4c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:aa0ff8cbb293dfb17ab3d20466e19e24cbae8a3f"
+  "swhid": "swh:1:rev:3fae8fcc0e0ae4a15afad9023c4ad3d08412ba4c"
  },
  "repo": "PimpinPumpkin/Vela",
  "web": "https://velamaps.org"

@@ -4,22 +4,13 @@
   "release_en": "2026-06-15",
   "semantica_http": 200,
   "ultima_release": "0.2.60+35",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "白い熊 作業盤 — downstream fork of OpenTasker (FOSS Tasker alternative), renamed to install side-by-side, with custom intent actions to drive the sister apps.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/shiroikuma0--shiroikuma-jiyusagyoban.json",
-  "sha256": "648dfff630b96b3c1f5238eeae4d1af8df7be1913f8263a29776b6cee774015a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a6c45e0410a321955fcb366fb6034a1ac58ff9a43f104b31f8a895f4d7a66575"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "11525dca9ffc22a17345776e3ce2650c1a2e102b",
+  "commit": "f0d417008115ce3e17e79b457d3aee60913ab812",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:11525dca9ffc22a17345776e3ce2650c1a2e102b"
+  "swhid": "swh:1:rev:f0d417008115ce3e17e79b457d3aee60913ab812"
  },
  "repo": "ShiroiKuma0/shiroikuma-jiyusagyoban"
 }

@@ -4,22 +4,13 @@
   "release_en": "2026-08-14",
   "semantica_http": 200,
   "ultima_release": "v0.9.4",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "Privacy-first Android file manager with secure operations and signed self-updates",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sinegard--af-file-manager.json",
-  "sha256": "7f99647c09c9f9fec308daf1d8e1fc77423519ca79ae503542cee47ba7bfe14f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8a0d8af0fad34f8c3db12af5f22dd5cc1138dbc16522858b84a77184098d1107"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,23 +24,23 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («noncommercial»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 18,
+  "stars": 20,
   "stars_por_mes": null
  },
  "nombre": "AF-File-Manager",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "8022531a8603ba44d83a20904fc7514fa03ef6bb",
+  "commit": "e43da6e2c4fe71a807e180809fa1e2f66a9ce9fc",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:8022531a8603ba44d83a20904fc7514fa03ef6bb"
+  "swhid": "swh:1:rev:e43da6e2c4fe71a807e180809fa1e2f66a9ce9fc"
  },
  "repo": "sinegard/AF-File-Manager"
 }

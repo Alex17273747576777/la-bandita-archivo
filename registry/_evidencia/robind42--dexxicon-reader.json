@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-10-06T03:41:40Z",
-   "oid": "93cbb4f1cdf85e69a2a1ea1d3cbb879f45ac1849"
+   "committedDate": "2026-11-23T14:54:03Z",
+   "oid": "dd357daab8095915fe0fd3f69de2cbd967d8cb13"
   }
  },
- "diskUsage": 19643,
+ "diskUsage": 19993,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "MIT"
  },
  "nameWithOwner": "RobinD42/dexxicon-reader",
- "pushedAt": "2026-10-18T05:21:43Z",
+ "pushedAt": "2026-11-27T03:14:30Z",
  "releases": {
   "nodes": []
  },

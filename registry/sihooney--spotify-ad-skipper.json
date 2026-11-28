@@ -8,18 +8,9 @@
  },
  "descripcion": "Skip ads on Spotify for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sihooney--spotify-ad-skipper.json",
-  "sha256": "b35c975c5ba4ae47e36bf53cc904b7cfa952dc0266b6c11d8270b57937888ec1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "86e2a89ac93a775573ac98f8bde17866477c3dae5d4d0c492236aafea2212586"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 22,
+  "stars": 34,
   "stars_por_mes": null
  },
  "nombre": "spotify-ad-skipper",

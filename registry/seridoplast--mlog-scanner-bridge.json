@@ -4,22 +4,13 @@
   "release_en": "2026-10-26",
   "semantica_http": 200,
   "ultima_release": "v3.2.2",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/seridoplast--mlog-scanner-bridge.json",
-  "sha256": "4b094ceaf3a309a5c5188af9b51f56bf6f80af4aaf9a0392d286e9c6f44da689"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "858a95512b19ae10cb2081f8bb262578a0419407c154f851afbf4983534ed116"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3b416162cc02e9ba325e3e32bfe83d36f0e853e6",
+  "commit": "e61829883c08ec5267cb87f5b6ea07c4ef31d3a7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3b416162cc02e9ba325e3e32bfe83d36f0e853e6"
+  "swhid": "swh:1:rev:e61829883c08ec5267cb87f5b6ea07c4ef31d3a7"
  },
  "repo": "seridoplast/MLOG-Scanner-Bridge"
 }

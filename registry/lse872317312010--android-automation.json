@@ -4,22 +4,13 @@
   "release_en": "2026-10-24",
   "semantica_http": 200,
   "ultima_release": "milestone-570d443d94e26ff3a1ff2048867fb0ae71327d29",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "Standalone Android local visual automation: capture, OCR, Shizuku input and verified execution. Optional Personal OS integration.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lse872317312010--android-automation.json",
-  "sha256": "fa8eec7851a5ff1f45295367d878ac959d88bb6e81e75cbaa2c47db50fa636bd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "340567bc8a464cc06ae7e7219537e6cb2e118770a5a2218279a1d40e8f3c4bb1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

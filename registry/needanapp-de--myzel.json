@@ -4,22 +4,13 @@
   "release_en": "2026-10-30",
   "semantica_http": 200,
   "ultima_release": "myzel-0.22.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-04"
  },
  "descripcion": "App-Store für freie Software aus F-Droid-Paketquellen, mit Begleit-App für Wear OS · App store for free software from F-Droid repositories, with a Wear OS companion",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/needanapp-de--myzel.json",
-  "sha256": "1a5d7afdfb58b4679419a6501c48b4db975062f97eac1b648ac6f29f436d28c8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c3b889b48f7d81e00afea39d731231ae5ec3ac94737fe1b74137fc1e356a5370"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "61ec6024e4c0e184f0e3b9dc6a2ce58192688a30",
+  "commit": "af28ab898d8e6574b53774c374fb15b50b7594a0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:61ec6024e4c0e184f0e3b9dc6a2ce58192688a30"
+  "swhid": "swh:1:rev:af28ab898d8e6574b53774c374fb15b50b7594a0"
  },
  "repo": "needanapp-de/myzel",
  "web": "https://apps.needanapp.de/de.needanapp.myzel/"

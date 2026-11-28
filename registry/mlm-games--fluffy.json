@@ -4,22 +4,13 @@
   "release_en": "2025-08-25",
   "semantica_http": 200,
   "ultima_release": "2.2.14",
-  "ultimo_push": "2026-10-19"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "Archive viewer for TVs",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mlm-games--fluffy.json",
-  "sha256": "43ae08b63530e64cee3bb2f71a8b5684daf0230aa10151b4b0d072559b66cc54"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "adad531a61360c9f30bd14c0cfb39983194794e269c4e5f6a4b2bd385940520b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 215,
+  "stars": 224,
   "stars_por_mes": null
  },
  "nombre": "Fluffy",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3bc6532de963db32d8fb53dbe6fb2bfe9696fa7c",
+  "commit": "97c16ff73886f7c0940a629db02c6d685d2d79a4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3bc6532de963db32d8fb53dbe6fb2bfe9696fa7c"
+  "swhid": "swh:1:rev:97c16ff73886f7c0940a629db02c6d685d2d79a4"
  },
  "repo": "mlm-games/Fluffy"
 }

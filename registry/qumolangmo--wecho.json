@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-07"
+  "estado": "vivo",
+  "release_en": "2026-03-12",
+  "semantica_http": 200,
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-05"
  },
  "descripcion": "An android application for global audio effects processing",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/qumolangmo--wecho.json",
-  "sha256": "c7832461e730cd220fa0b534415ab6e64c14b07773250ff288d94fa71a4f551b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1e726969abe2fc15e3974990bf276fc2f57564424cdd82a5a30e85cf105b5380"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 136,
   "stars_por_mes": null
  },
  "nombre": "wecho",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "c3db3be02a1fcfaab66addcc7e98112d8b598087",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:c3db3be02a1fcfaab66addcc7e98112d8b598087"
  },
  "repo": "qumolangmo/wecho"
 }

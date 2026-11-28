@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
+  "estado": "vivo",
+  "release_en": "2026-10-15",
+  "semantica_http": 200,
+  "ultima_release": "v0.1.0",
   "ultimo_push": "2026-10-15"
  },
  "descripcion": "One tap to reset your Android mobile network without airplane mode, plus a 5G status notification per SIM. Kotlin, Shizuku/root.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/r-dilipkumar--one-tap-network-reset.json",
-  "sha256": "2930702b20f7d9c130f4934796180aa975f56dc4633a8597ff2021da4a2e80f3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "cee59a773ed676e475e7c8244347739f919f40abb15926d38e689e132d1d58e9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 3,
   "stars_por_mes": null
  },
  "nombre": "one-tap-network-reset",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "7613054738b25c56cb8f34fe3b480e477aa30b39",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:7613054738b25c56cb8f34fe3b480e477aa30b39"
  },
  "repo": "R-Dilipkumar/one-tap-network-reset",
  "web": "https://r-dilipkumar.github.io/one-tap-network-reset/"

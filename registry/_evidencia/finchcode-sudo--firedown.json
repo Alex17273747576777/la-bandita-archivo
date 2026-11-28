@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-27",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-10-10T12:28:08Z",
+   "oid": "fb72b09da9097d25d03d102b29ddb14b7350c7d9"
+  }
+ },
+ "diskUsage": 53756,
+ "forkCount": 0,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 0
+ },
+ "licenseInfo": {
+  "name": "MIT License",
+  "spdxId": "MIT"
+ },
+ "nameWithOwner": "finchcode-sudo/firedown",
+ "pushedAt": "2026-10-10T12:28:09Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-10-10T12:09:30Z",
+    "tagName": "deps-backup-geckoview-157.0.20261005135250"
+   }
+  ]
+ },
+ "stargazerCount": 0
+}

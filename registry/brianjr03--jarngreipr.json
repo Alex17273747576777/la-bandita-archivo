@@ -4,22 +4,13 @@
   "release_en": "2025-11-22",
   "semantica_http": 200,
   "ultima_release": "v0.1",
-  "ultimo_push": "2026-10-24"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "A modern, customizable Android launcher designed for the AYN Thor (and other dual screen devices).",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/brianjr03--jarngreipr.json",
-  "sha256": "3bd631d1b6f97d32340f93ba3ef72abc7788d67b694fd5da45d7ebd0039569d7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2473ba53856f98fce32d7ee4f0c17b5acac4cbfeccab9502f4e56c4b34f52da8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 119,
+  "stars": 121,
   "stars_por_mes": null
  },
  "nombre": "Jarngreipr",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ce30756f2296a18664bf5e8c0c93d43c3a5414e3",
+  "commit": "a49a02b827bbcaefdd27f80974752a352f9c5e81",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ce30756f2296a18664bf5e8c0c93d43c3a5414e3"
+  "swhid": "swh:1:rev:a49a02b827bbcaefdd27f80974752a352f9c5e81"
  },
  "repo": "BrianJr03/Jarngreipr"
 }

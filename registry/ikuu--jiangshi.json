@@ -4,22 +4,13 @@
   "release_en": "2026-10-25",
   "semantica_http": 200,
   "ultima_release": "jiangshi-v1.0.0",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ikuu--jiangshi.json",
-  "sha256": "ddd58db1ccefb1ebce9f8920783e7c877e7232da5d00ea0e2be6442958f6483f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "81387ba62b29abbfebb7de555b383ae4a26cd93437c576923208377bf5b48394"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6e76a47ffc56b52c021b458212895367434c5a34",
+  "commit": "4e268ca50f7abf61b748959b5258638ac69a1c9e",
   "swh_estado": null,
-  "swhid": "swh:1:rev:6e76a47ffc56b52c021b458212895367434c5a34"
+  "swhid": "swh:1:rev:4e268ca50f7abf61b748959b5258638ac69a1c9e"
  },
  "repo": "Ikuu/jiangshi"
 }

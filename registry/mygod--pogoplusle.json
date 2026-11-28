@@ -4,22 +4,13 @@
   "release_en": "2022-07-17",
   "semantica_http": 200,
   "ultima_release": "v0.0.1",
-  "ultimo_push": "2026-09-26"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Enhances your Pokémon GO Plus",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mygod--pogoplusle.json",
-  "sha256": "cd75ab7fd395b58766643ab0abc64f9602dcc185a2796a3da6fe1b155d4983d4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e4305a1c6bdaba0a0f0b011c31f2e56b035588d3c371cc87f8bc23b364e011b6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 69,
+  "stars": 68,
   "stars_por_mes": null
  },
  "nombre": "pogoplusle",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f21746cd2f239fb3f0e7740432b47cce0c5394fe",
+  "commit": "6dc40a40a87b83e8a7aecfb7bbf48671c592d81a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f21746cd2f239fb3f0e7740432b47cce0c5394fe"
+  "swhid": "swh:1:rev:6dc40a40a87b83e8a7aecfb7bbf48671c592d81a"
  },
  "repo": "Mygod/pogoplusle"
 }

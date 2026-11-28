@@ -8,18 +8,9 @@
  },
  "descripcion": "Instant Hotspot for Android: a Mac menu bar app turns on your phone's Wi-Fi hotspot over Bluetooth LE. No root, via Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/imostrovskiy--untether.json",
-  "sha256": "4d5db8c004709a599fd7389c16c16c1b55f0d939f570f8d30d18aa1d6d64232a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "da3fa5979bfa3b4872797447a818840d2f03d99c37f9c2d3559aadb429ad348b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "BSD-3-Clause",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6,
+  "stars": 8,
   "stars_por_mes": null
  },
  "nombre": "untether",

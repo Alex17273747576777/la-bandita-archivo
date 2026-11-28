@@ -4,22 +4,13 @@
   "release_en": "2026-10-07",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "随行 Suixing —— 手机端 AI Agent（Android · Kotlin + Compose）：读屏、点按、改文件、跑命令，纯本地、无云同步",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zeng6125-rgb--suixing.json",
-  "sha256": "00f5becf4762b86c379f4be5837ea4cd19aee13306f0923703b1dd5e52079adf"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ad8bf7dcc0a441ec59225b4c0e3b737ad871d6e449dcbb7d8ac6e619123eb321"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1932656560aead1d5df007737d87f1d8b1fe9dff",
+  "commit": "c1dfe292ba9b750d0c71b0a1148e8fe05a439b13",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1932656560aead1d5df007737d87f1d8b1fe9dff"
+  "swhid": "swh:1:rev:c1dfe292ba9b750d0c71b0a1148e8fe05a439b13"
  },
  "repo": "zeng6125-rgb/suixing"
 }

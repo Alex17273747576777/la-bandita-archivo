@@ -4,22 +4,13 @@
   "release_en": "2026-10-22",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-28"
+  "ultimo_push": "2026-11-08"
  },
  "descripcion": "Userspace TCP/UDP port forwarder for Android — no VpnService, no root. Kotlin/Compose UI over the portmux engine.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/xnet-ngo--switchboard.json",
-  "sha256": "ef65ab8fbf8c3c8d05d5ffa6ab57d05a34faa2822a05baf63e49c7cdac4992dc"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3f1d68afe47d1c262a14a8c532779ba658e7fe90ef360215057ddc99bc738c86"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "951a4d653e51a546ddebb2f341c11e6226317378",
+  "commit": "6d7d54b041fdd93434b1974d7f97e97bd5e0372b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:951a4d653e51a546ddebb2f341c11e6226317378"
+  "swhid": "swh:1:rev:6d7d54b041fdd93434b1974d7f97e97bd5e0372b"
  },
  "repo": "XNet-NGO/switchboard"
 }

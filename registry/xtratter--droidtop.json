@@ -8,18 +8,9 @@
  },
  "descripcion": "htop-like process & resource monitor for Android: CPU, GPU, memory, battery, process tree, root/Shizuku modes and a floating overlay",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/xtratter--droidtop.json",
-  "sha256": "6a21cd9044ba16811270f1607468bc5e54cd50171a4f5038475408be63498a93"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fff9845b0a7baf4e053133b85a736a81cb34ae9b378bc37d337e5b8bb44666a4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6,
+  "stars": 12,
   "stars_por_mes": null
  },
  "nombre": "droidtop",

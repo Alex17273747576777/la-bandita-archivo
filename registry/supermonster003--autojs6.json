@@ -8,18 +8,9 @@
  },
  "descripcion": "安卓平台 JavaScript 自动化工具 (Auto.js 二次开发项目)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/supermonster003--autojs6.json",
-  "sha256": "31279cd43e41df3a6af19216d0b8f0d6166008db1add1bed9ed8a2c04498cc72"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d36aa6c68fce82c05b8c5d08855280ad2fbe440be664f645a1e21a063ee174bb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6571,
+  "stars": 6708,
   "stars_por_mes": null
  },
  "nombre": "AutoJs6",

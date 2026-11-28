@@ -4,22 +4,13 @@
   "release_en": "2026-09-14",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Offline Material You system monitor for Android — CPU, RAM, battery, thermals, per-app stats via Shizuku/root. No ads, no tracking.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/wized2--fern.json",
-  "sha256": "3369705901256e19682d7116c58c48573b81ff250bd0a0b392291b183ed2f9c8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7cffe04e305dd44f9cab952fbc0918ce89ffe086dda60ff0de1993c70882cf87"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 18,
+  "stars": 35,
   "stars_por_mes": null
  },
  "nombre": "Fern",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3990e21f1c97107173938be98b68aea77820df7b",
+  "commit": "54ad172954c16628c7ef4683a41f6789a072d17a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3990e21f1c97107173938be98b68aea77820df7b"
+  "swhid": "swh:1:rev:54ad172954c16628c7ef4683a41f6789a072d17a"
  },
  "repo": "wized2/Fern",
  "web": "https://get-fern.vercel.app"

@@ -4,22 +4,13 @@
   "release_en": "2026-03-21",
   "semantica_http": 200,
   "ultima_release": "v0.9.0-stable.20260321",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-18"
  },
  "descripcion": "🌌✨ Self-hosted AI companion. World-first to direct your avatar how to move & first in-browser voice cloning. Tactile touch avatars, multi-character casts, docked Control Strip, local AI (2 LLMs, Pocket/MOSS TTS, stable Whisper), 8-layer character memory, sub-second live voice, magic wand suggestions & 1-click Cloudflare workers.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dasilva333--airi.json",
-  "sha256": "cbc9006b0d91488f2456674037be012c93bc40ddc75ed6b9f4357fd60d78afbb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b0293db3771e5f15ca378ac8914c4eeb8ddea2c591b680f324f70034a757ca2a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 76,
+  "stars": 78,
   "stars_por_mes": null
  },
  "nombre": "airi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ed7a38a71a409f8e1974dcb68dabd55094a778b9",
+  "commit": "3bd2022921a748ec953de230ba2ab8f1db7de3c4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ed7a38a71a409f8e1974dcb68dabd55094a778b9"
+  "swhid": "swh:1:rev:3bd2022921a748ec953de230ba2ab8f1db7de3c4"
  },
  "repo": "dasilva333/airi",
  "web": "https://dasilva333.github.io/airi/web-stage/"

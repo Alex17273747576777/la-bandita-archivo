@@ -4,22 +4,13 @@
   "release_en": "2026-09-12",
   "semantica_http": 200,
   "ultima_release": "v1.0.0-22",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "Turn an Android phone into an MCP file server — AI clients read & write files and run commands, with per-call approval popups. 手机端 MCP 文件服务器：逐权限审批 / 文件网关 / 终端 / UI 自动化/ssh工作区",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/xtt-xt--mcpbox.json",
-  "sha256": "73075ecf5f8663c04ecdce61a1bfa4b74ca6125d2c2c8ec26c91c2fa33924619"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "06fe2036cc02143fcae6cc955586fb03084166f030071a18b390b2112859a435"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3ce0df13cefb32f425ef5008b9a37bee3eefaa24",
+  "commit": "896bab2d4ce7b49594a1b4992115dd96b57f82a7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3ce0df13cefb32f425ef5008b9a37bee3eefaa24"
+  "swhid": "swh:1:rev:896bab2d4ce7b49594a1b4992115dd96b57f82a7"
  },
  "repo": "xtt-xt/MCPBox"
 }

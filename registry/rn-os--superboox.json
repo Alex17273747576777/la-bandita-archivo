@@ -4,22 +4,13 @@
   "release_en": "2026-10-10",
   "semantica_http": 200,
   "ultima_release": "build-5",
-  "ultimo_push": "2026-10-22"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "A Supernote-style Quick Access panel for ONYX BOOX e-ink tablets.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rn-os--superboox.json",
-  "sha256": "edc4f82b1a8b2b1f6461323bd88c189d0ffb01215bd8d10287034f48494a2f3b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "592ae98e165c1f8c29051c5a1d72c79c45bb807bdf8fbfdc166a5a0738dec8b0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15,
+  "stars": 17,
   "stars_por_mes": null
  },
  "nombre": "superboox",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "025ea302d275ce2b1156e37a3d1e13e706b25dc9",
+  "commit": "86527bd762449e6a1a225c55ddacfb0cf8b88c76",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:025ea302d275ce2b1156e37a3d1e13e706b25dc9"
+  "swhid": "swh:1:rev:86527bd762449e6a1a225c55ddacfb0cf8b88c76"
  },
  "repo": "rn-os/superboox"
 }

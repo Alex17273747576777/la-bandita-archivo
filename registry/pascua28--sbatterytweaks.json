@@ -8,18 +8,9 @@
  },
  "descripcion": "A simple app to enable or disable fast charging mode on Samsung device when battery temperature reaches a certain point",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pascua28--sbatterytweaks.json",
-  "sha256": "6cdd86c6cc770dfbe845816d2e113a3d87364d75ecb965a8b3388daf6e65230a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ca7c2a413a84ce6e67d82af7d28ace6ea67ff60fe91fe34c51374327932b7f9d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 158,
+  "stars": 163,
   "stars_por_mes": null
  },
  "nombre": "SBatteryTweaks",

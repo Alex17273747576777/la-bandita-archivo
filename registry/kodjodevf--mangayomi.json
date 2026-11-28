@@ -4,22 +4,13 @@
   "release_en": "2025-02-12",
   "semantica_http": 200,
   "ultima_release": "v0.5.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-20"
  },
  "descripcion": "Free and open source application for reading manga, novels, and watching animes available on Android, iOS, macOS, Linux and Windows",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kodjodevf--mangayomi.json",
-  "sha256": "9df6a906cc8797ed7930289a9c83bb7334ee4409da80de09d2aeb578b742598b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0d4188d04999a1da17c8aee8027c1247621c663945a176fbf1c8ef6324727558"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4328,
+  "stars": 4573,
   "stars_por_mes": null
  },
  "nombre": "mangayomi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5327b3c609971afb7785c01eb46a6afddc468c3c",
+  "commit": "0ad144b744b4bf8359f22207409f78335cf7e359",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5327b3c609971afb7785c01eb46a6afddc468c3c"
+  "swhid": "swh:1:rev:0ad144b744b4bf8359f22207409f78335cf7e359"
  },
  "repo": "kodjodevf/mangayomi"
 }

@@ -4,22 +4,13 @@
   "release_en": "2026-06-29",
   "semantica_http": 200,
   "ultima_release": "v1.0.2",
-  "ultimo_push": "2026-10-25"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "Android device monitor with a home-screen widget, per-app usage insights and a charging screensaver. Fully offline - no internet permission. GPL-3.0-or-later.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jrs8205--device-watch.json",
-  "sha256": "859b3146c621b7b8b9c762d31b159bc55e55752ee56c1a8f26c7f14e349bf892"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "90fc12ad9f9f0c91b58af7dc8ee67c1658e1a1a59e762952879b05320bbe32f8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 43,
+  "stars": 50,
   "stars_por_mes": null
  },
  "nombre": "Device-Watch",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1f9914c03f04c3e6dbf8adf86377f40dcf22aa65",
+  "commit": "0d565986fbcf3734b1c6ab83dedabe9879371e25",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1f9914c03f04c3e6dbf8adf86377f40dcf22aa65"
+  "swhid": "swh:1:rev:0d565986fbcf3734b1c6ab83dedabe9879371e25"
  },
  "repo": "jrs8205/Device-Watch"
 }

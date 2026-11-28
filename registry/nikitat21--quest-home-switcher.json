@@ -4,22 +4,13 @@
   "release_en": "2026-09-20",
   "semantica_http": 200,
   "ultima_release": "homes-v2-feed",
-  "ultimo_push": "2026-10-25"
+  "ultimo_push": "2026-11-13"
  },
  "descripcion": "Quest Home Switcher v2 - discover, download and switch Quest Homes with built-in Wireless ADB and Root support.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/nikitat21--quest-home-switcher.json",
-  "sha256": "5c5ddcaac9a6756e47d13ae733511f4f858972b7312e76b312f843f909fa2703"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6831006e8c676fbce21229d7a074042fcbee6738115e5ae2cf92fcc3bd938865"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,23 +24,23 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 32,
+  "stars": 33,
   "stars_por_mes": null
  },
  "nombre": "Quest-Home-Switcher",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6fce9ac3157169b8067b3e48998fbec6ff3b525d",
+  "commit": "0ad075294c4c75bfba53208f150a2b55a6f3d42f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:6fce9ac3157169b8067b3e48998fbec6ff3b525d"
+  "swhid": "swh:1:rev:0ad075294c4c75bfba53208f150a2b55a6f3d42f"
  },
  "repo": "nikitat21/Quest-Home-Switcher"
 }

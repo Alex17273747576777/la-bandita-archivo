@@ -4,22 +4,13 @@
   "release_en": "2026-09-15",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-09-27"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Open-source Android utility for background playback and system control, supporting Accessibility, Shizuku, Dhizuku, Root, LSPosed, and LSPatch.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/elhizazi1--castix.json",
-  "sha256": "ff070f26eb367f7b2751530f8ec9bd44422d5fdc73f97ea8d5850a77859725af"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f6dba3bdf7f84de13d3c705245987f0a67c4697b3319eb3f6dc83703d8807ae8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 14,
+  "stars": 17,
   "stars_por_mes": null
  },
  "nombre": "Castix",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "4a2dc1fa3d8340ca292836f211388de322ff5751",
+  "commit": "2c0aebbbe0255bcba4196972d63f41d47dfe7fd7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4a2dc1fa3d8340ca292836f211388de322ff5751"
+  "swhid": "swh:1:rev:2c0aebbbe0255bcba4196972d63f41d47dfe7fd7"
  },
  "repo": "elhizazi1/Castix",
  "web": "https://Castix.elhizazi.me"

@@ -4,22 +4,13 @@
   "release_en": "2025-07-07",
   "semantica_http": 200,
   "ultima_release": "1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-14"
  },
  "descripcion": "最好的 Pixiv 第三方小说阅读器——开源阅读 + Pixiv 书源 / Legado with Pixiv BookSource, the Best Third-Party Novel Reader for Pixiv",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/downeyrem--pixivsource.json",
-  "sha256": "8a0441dc46928d900e337fc90d232a22191c7882e380bfe6a2fe2a99f01e99d4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8b6a6a5c37acf93ce124a3d672bc92477835f296bcc231b623dd33647180f17c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1108,
+  "stars": 1156,
   "stars_por_mes": null
  },
  "nombre": "PixivSource",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e09232e222906774dbb9eacd08f38009d155dfc8",
+  "commit": "79251ad67dc986f7554f69cd153b927be40955ba",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e09232e222906774dbb9eacd08f38009d155dfc8"
+  "swhid": "swh:1:rev:79251ad67dc986f7554f69cd153b927be40955ba"
  },
  "repo": "DowneyRem/PixivSource",
  "web": "https://pixivsource.pages.dev"

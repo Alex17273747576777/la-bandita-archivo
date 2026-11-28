@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-10-27T15:17:18Z",
-   "oid": "b30fd13203abb3f8f5186c4b09ff85682e8e245c"
+   "committedDate": "2026-11-27T20:47:44Z",
+   "oid": "de21f230df7e7ef373472689acad740dc905f21a"
   }
  },
- "diskUsage": 61605,
+ "diskUsage": 71930,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "GPL-3.0"
  },
  "nameWithOwner": "Serenity-MIST/Zangetsu",
- "pushedAt": "2026-10-27T20:44:52Z",
+ "pushedAt": "2026-11-27T23:34:55Z",
  "releases": {
   "nodes": []
  },

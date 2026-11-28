@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Curated list of awesome Android apps making use of Shizuku",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/timschneeb--awesome-shizuku.json",
-  "sha256": "85aba57bb12059e2b50d72c0df89dbc6126c43a513c1dab1ebe45e1f1976cb41"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "820dfb10ab73bcb57a471c92a48ee14d6b842b1f8f19c11a15fbff0f0b745baf"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,23 +24,23 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: 21581 caracteres sin firma de licencia libre conocida ni cláusula de reserva de derechos. Queda citado el archivo y pendiente de lectura humana.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 10688,
+  "stars": 11034,
   "stars_por_mes": null
  },
  "nombre": "awesome-shizuku",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "597b70e4aa01bd6a89ab2e2b77b30716a3ceb0a4",
+  "commit": "20af2ee7d0a292b2a39656021ab06ff5ed3201a6",
   "swh_estado": "archivada",
   "swh_solicitud": "597b70e4aa01bd6a89ab2e2b77b30716a3ceb0a4",
-  "swhid": "swh:1:rev:597b70e4aa01bd6a89ab2e2b77b30716a3ceb0a4"
+  "swhid": "swh:1:rev:20af2ee7d0a292b2a39656021ab06ff5ed3201a6"
  },
  "repo": "timschneeb/awesome-shizuku"
 }

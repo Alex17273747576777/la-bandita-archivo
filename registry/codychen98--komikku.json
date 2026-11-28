@@ -4,22 +4,13 @@
   "release_en": "2026-03-25",
   "semantica_http": 200,
   "ultima_release": "v1.13.6",
-  "ultimo_push": "2026-10-25"
+  "ultimo_push": "2026-11-05"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/codychen98--komikku.json",
-  "sha256": "1222dfbf64f241733c986d8a95b94eb1ec70c9c07ba1a328379e45213ae523d9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "db68f049bd861838b2876ebef7e08da76fd310ed3635b3744e860a993c7c8c34"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9,
+  "stars": 10,
   "stars_por_mes": null
  },
  "nombre": "komikku",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "4920a50a114c41b7ba89fc9aac046ef36d749568",
+  "commit": "c1ec95611bf9041b1349e88c478f6b320a8ce55f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4920a50a114c41b7ba89fc9aac046ef36d749568"
+  "swhid": "swh:1:rev:c1ec95611bf9041b1349e88c478f6b320a8ce55f"
  },
  "repo": "codychen98/komikku"
 }

@@ -4,22 +4,13 @@
   "release_en": "2026-03-21",
   "semantica_http": 200,
   "ultima_release": "1.0.0",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Android client for Input Leap - share keyboard & mouse from your pc to your phone ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/anasvhora284--input-leaf.json",
-  "sha256": "496818e569ccd9b21a771815325baab9d3f3e926eaa18f1f53a4a5243e8d5955"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a54946096b25d6a06a1ede0dac8950738d4d0d3d22f5965fe7c8edffe4f544e7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 69,
+  "stars": 78,
   "stars_por_mes": null
  },
  "nombre": "input-leaf",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "54214b3253fc612d064e9fdaf2e208a52f0fea1a",
+  "commit": "3661e941e9a4c3d43b1a0d1e2a2040d683368e84",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:54214b3253fc612d064e9fdaf2e208a52f0fea1a"
+  "swhid": "swh:1:rev:3661e941e9a4c3d43b1a0d1e2a2040d683368e84"
  },
  "repo": "anasvhora284/input-leaf",
  "web": "https://inputleaf.anasvhora.tech/"

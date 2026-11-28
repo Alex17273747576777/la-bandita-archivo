@@ -8,18 +8,9 @@
  },
  "descripcion": "Free and open source manga reader for Android - now with OCR (text recognition)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yomihon--yomihon.json",
-  "sha256": "338cc95dd2ea4f91caae1ab2830caa9f4e1b73b80334463f8d76a2d0091c40c0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "96212a615ffb1e1fc3213110cd5bee320ba68f2164fc0493a067ccc2dc793821"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 143,
+  "stars": 148,
   "stars_por_mes": null
  },
  "nombre": "yomihon",

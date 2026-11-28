@@ -4,22 +4,13 @@
   "release_en": "2026-08-11",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lexmount--moli.json",
-  "sha256": "bbb6b0b2ff27ea1b13c909f925a25c81b96b686761d38d13063ad205d79c4877"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e3e3f29a0f7e2588c703a575c223b37313d5e51f2ae70c3c12af1a2767316960"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 22385,
+  "stars": 24565,
   "stars_por_mes": null
  },
  "nombre": "moli",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "77c415fe452f2611e4d8534c296808f7f8126dec",
+  "commit": "c0bcbdaa1ceb71e99a948b9418a73a9bbc052218",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:77c415fe452f2611e4d8534c296808f7f8126dec"
+  "swhid": "swh:1:rev:c0bcbdaa1ceb71e99a948b9418a73a9bbc052218"
  },
  "repo": "lexmount/moli",
  "web": "https://browser.lexmount.com"

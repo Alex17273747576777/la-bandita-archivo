@@ -8,18 +8,9 @@
  },
  "descripcion": "Source code of Package Manager, an Application to Manage your Apps.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/smartpack--packagemanager.json",
-  "sha256": "fb4f8161d4f5b31e9c068e4240ac7782065ca4ac1a4f411e60f11fc59c405de4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6e789021a980e3d3b2e73395135615403202ebae04c8bf5d75f277451fdeeec1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 856,
+  "stars": 876,
   "stars_por_mes": null
  },
  "nombre": "PackageManager",

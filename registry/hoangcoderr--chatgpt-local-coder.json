@@ -8,18 +8,9 @@
  },
  "descripcion": "Turn ChatGPT web into a local coding agent via MCP — read/write files, run shell, git, apply_patch. Works with Developer Mode + OpenAI Secure Tunnel.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hoangcoderr--chatgpt-local-coder.json",
-  "sha256": "67f5004186fdec953477148f1e1ed827deaa5e288a608a2391ba0495ed767937"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5a28d90b8cd1ee9b97cc9a96977f89cbf5374660aabcbfa79978f01b48e7023f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 109,
+  "stars": 110,
   "stars_por_mes": null
  },
  "nombre": "chatgpt-local-coder",

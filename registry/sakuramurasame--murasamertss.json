@@ -8,18 +8,9 @@
  },
  "descripcion": "Android 游戏性能监控浮窗与多指标曲线记录，支持 Shizuku、触摸穿透和监控时自动记录。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sakuramurasame--murasamertss.json",
-  "sha256": "50175c72c7ea7f55a40a9d5374375b4a85ca6449f147e277f18d6afafd1175a7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bf7ae74704c3da46aa3d58d2621b8fbc68416716f130835cbcb3dab4d279003c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

@@ -8,18 +8,9 @@
  },
  "descripcion": "[NOTE: Moved to aload0/AppLock]",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pranavpurwar--applock.json",
-  "sha256": "aff61dd1e8d1ddedd3a434118a70ad453975d21f6dbf1e97189379c8024e57d3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f31db202fb3ce02591baafbb4e857400f2edad9d93417ce1f48eec580fbd3cac"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 26,
+  "stars": 28,
   "stars_por_mes": null
  },
  "nombre": "AppLock",

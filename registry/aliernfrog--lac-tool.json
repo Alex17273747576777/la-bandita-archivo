@@ -4,22 +4,13 @@
   "release_en": "2021-03-04",
   "semantica_http": 200,
   "ultima_release": "7",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "🔧 Easily manage LAC maps, wallpapers and screenshots",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aliernfrog--lac-tool.json",
-  "sha256": "3ebe993190fae32e2712fed8a570b1f3362a8fd3e40613a7eaa75e3fbae7b79c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7df964b2aed4bce08e045ca9e5c4cb263f0240a795e6bd17906e4725435fc374"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 21,
+  "stars": 23,
   "stars_por_mes": null
  },
  "nombre": "lac-tool",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ea7beea294f6dfcf69e48781b8de95e7bd23155d",
+  "commit": "0c1a8ba9ae9abac0d99d00fe154b6e599fced9fd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ea7beea294f6dfcf69e48781b8de95e7bd23155d"
+  "swhid": "swh:1:rev:0c1a8ba9ae9abac0d99d00fe154b6e599fced9fd"
  },
  "repo": "aliernfrog/lac-tool",
  "web": "https://aliernfrog.github.io/lactool"

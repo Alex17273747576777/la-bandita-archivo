@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
    "committedDate": "2026-10-25T14:12:52Z",
    "oid": "72d145bccff348f71b1c8baf90a180ccaa474464"
   }
  },
- "diskUsage": 1256000,
+ "diskUsage": 1257260,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,12 +18,12 @@
   "spdxId": "GPL-3.0"
  },
  "nameWithOwner": "aaron-xue/WinNative",
- "pushedAt": "2026-11-03T10:53:29Z",
+ "pushedAt": "2026-11-27T10:04:46Z",
  "releases": {
   "nodes": [
    {
     "isPrerelease": false,
-    "publishedAt": "2026-10-22T05:59:59Z",
+    "publishedAt": "2026-11-04T02:03:26Z",
     "tagName": "复古游戏核心"
    }
   ]

@@ -4,22 +4,13 @@
   "release_en": "2025-01-11",
   "semantica_http": 200,
   "ultima_release": "v1.0.3",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "An advanced Kernel based root solution for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kernelsu-next--kernelsu-next.json",
-  "sha256": "849021a310ecd112c0c5235699a75b90ed9e018c223f63d2cbe554dc0e3a83a2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "65f4d6638921c66a56c38616063257f77e078411f9a3faef6b70f7fea0c6d309"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4705,
+  "stars": 5003,
   "stars_por_mes": null
  },
  "nombre": "KernelSU-Next",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a6c81fa4a8b7341d0bc5c3e4507531459df871ae",
+  "commit": "8c5fcb3a172b4a036e4bd891f316284a00516129",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a6c81fa4a8b7341d0bc5c3e4507531459df871ae"
+  "swhid": "swh:1:rev:8c5fcb3a172b4a036e4bd891f316284a00516129"
  },
  "repo": "KernelSU-Next/KernelSU-Next",
  "web": "https://kernelsu-next.github.io/webpage/"

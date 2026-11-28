@@ -4,22 +4,13 @@
   "release_en": "2025-07-11",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/crosstalk-solutions--project-nomad.json",
-  "sha256": "95f2a49e8d620f0d0feb2ed7bf13d9b43dd654289eee0e4535cdfb50f53a4464"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ad83f7ecb7f758821782db1580f6a746ba97fcaf6794b108522ea518006e2a43"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 41971,
+  "stars": 44504,
   "stars_por_mes": null
  },
  "nombre": "project-nomad",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "54ee30a44902e5c252b477f8685c26ec3064ab72",
+  "commit": "8dcb8ea2f05e7edda7292b15d565b77f6b9b14ad",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:54ee30a44902e5c252b477f8685c26ec3064ab72"
+  "swhid": "swh:1:rev:8dcb8ea2f05e7edda7292b15d565b77f6b9b14ad"
  },
  "repo": "Crosstalk-Solutions/project-nomad",
  "web": "https://www.projectnomad.us"

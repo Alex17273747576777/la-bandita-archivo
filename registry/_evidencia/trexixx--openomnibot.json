@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-10-30T05:22:26Z",
-   "oid": "c4728736964245509404670ee992d3b658efaecd"
+   "committedDate": "2026-11-18T01:39:59Z",
+   "oid": "5addd9be2078acdd92b468bf3270923a94bc3470"
   }
  },
- "diskUsage": 344070,
+ "diskUsage": 348200,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "NOASSERTION"
  },
  "nameWithOwner": "trexixx/OpenOmniBot",
- "pushedAt": "2026-10-31T04:30:43Z",
+ "pushedAt": "2026-11-18T03:48:47Z",
  "releases": {
   "nodes": []
  },

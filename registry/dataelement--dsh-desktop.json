@@ -4,22 +4,13 @@
   "release_en": "2026-08-13",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dataelement--dsh-desktop.json",
-  "sha256": "11fee7049a2a6ca2eabeb993fe4ebc8a638f2f7319080549f177ee4ac433064c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "711cc1aa9a0d0d628244eff29ae6aa6e8122435e42cacc4ea86e3b119a64eb22"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 17178,
+  "stars": 20305,
   "stars_por_mes": null
  },
  "nombre": "dsh-desktop",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "78310787e741d516cb3a42a8d77cafd5ae4e34de",
+  "commit": "947e92763f129529a17f836519487e3f024058be",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:78310787e741d516cb3a42a8d77cafd5ae4e34de"
+  "swhid": "swh:1:rev:947e92763f129529a17f836519487e3f024058be"
  },
  "repo": "dataelement/dsh-desktop",
  "web": "https://dshdesktop.com"

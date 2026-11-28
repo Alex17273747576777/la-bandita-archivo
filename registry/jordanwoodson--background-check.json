@@ -8,18 +8,9 @@
  },
  "descripcion": "Android process, resource and battery monitor with Shizuku background controls; signed updates through Obtainium.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jordanwoodson--background-check.json",
-  "sha256": "bd22d67db0fd8019d6921beb11ee7cd647116f212398edcadf6509b21297bf2a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "af9218f1770f6c1d63ae2a7f40490d7a2ba65480b37ff02a6a0aba7ab01153b8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

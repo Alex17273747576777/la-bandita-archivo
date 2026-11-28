@@ -4,22 +4,13 @@
   "release_en": "2026-03-02",
   "semantica_http": 200,
   "ultima_release": "AppManager1.0.6",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "Buge App Manager is a powerful Android tool for app and permission management, requiring Shizuku or ROOT.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/bugestudioteam--buge-app-manager.json",
-  "sha256": "51ca7a1cba1ac294a815fc7489f68f5d32657f891019591dcd1009244d9b5ee3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2373ffb75173c035f1de6d004f63acf70351a583546d709eead342f02ff4b175"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 323,
+  "stars": 366,
   "stars_por_mes": null
  },
  "nombre": "Buge-App-Manager",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d490501e9378cd457386e78870a0f4f80ae20c08",
+  "commit": "a17c36543b57bc4c6a3585bc97a49f721d0086f2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:d490501e9378cd457386e78870a0f4f80ae20c08"
+  "swhid": "swh:1:rev:a17c36543b57bc4c6a3585bc97a49f721d0086f2"
  },
  "repo": "BugeStudioTeam/Buge-App-Manager",
  "web": "https://bugestudio.website/appmanager/"

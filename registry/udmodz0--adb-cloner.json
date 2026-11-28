@@ -8,18 +8,9 @@
  },
  "descripcion": "Rootless Android app cloner & isolated multi-user workspace powered by Shizuku IPC and native package manager virtualization. Zero-APK duplication, no root or PC required.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/udmodz0--adb-cloner.json",
-  "sha256": "eee87578e7d3ce66fa67442d7285d6ba092cc257af7b169fcf1eacf103315e78"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9a6458bb71075c50daf6bbca553cfd21cf7972201b125d20da28a8a7170374e7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 23,
+  "stars": 39,
   "stars_por_mes": null
  },
  "nombre": "adb-cloner",

@@ -4,22 +4,13 @@
   "release_en": "2025-10-19",
   "semantica_http": 200,
   "ultima_release": "0.0.1_RC1",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A Material mobile network monitoring app built with ease-of-use and speed in mind.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dottoxd--netmanager.json",
-  "sha256": "c6bb2b5aa9678e0ebe47c0793cdf5b4922aeaa16a677ccb418f50d302c3d295d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d53fce355a9e8351b2d05708597f0a4dde5af6b72dc22aa73d948af0ba401724"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 41,
+  "stars": 56,
   "stars_por_mes": null
  },
  "nombre": "NetManager",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f355b55111b2d41b00a2ffe8952efee1a10376d5",
+  "commit": "58ff0104fc43857b8e4eeb75d72b25d36f437a90",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f355b55111b2d41b00a2ffe8952efee1a10376d5"
+  "swhid": "swh:1:rev:58ff0104fc43857b8e4eeb75d72b25d36f437a90"
  },
  "repo": "DottoXD/NetManager"
 }

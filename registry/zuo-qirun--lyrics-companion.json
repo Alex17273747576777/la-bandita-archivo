@@ -4,22 +4,13 @@
   "release_en": "2026-07-29",
   "semantica_http": 200,
   "ultima_release": "apk-1785325399-faff0fe",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Android lyrics companion with overlay, secondary-display rendering, multi-source lyrics, and customizable layouts",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zuo-qirun--lyrics-companion.json",
-  "sha256": "ff8751edbde9ae8f1f7445af46586730f4cdb7fb3efa3d70d26a2c8e6109e1b5"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c5c8e5c3a9e5a3c6706c276eac0590a81f7c21a6b0aec4c64663aab6fc145273"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15,
+  "stars": 20,
   "stars_por_mes": null
  },
  "nombre": "Lyrics-Companion",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7902e140ead55d624716cc25cb11ccabbbe8f7cd",
+  "commit": "54aed64661c2a2a24068256572a136860fdcc979",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:7902e140ead55d624716cc25cb11ccabbbe8f7cd"
+  "swhid": "swh:1:rev:54aed64661c2a2a24068256572a136860fdcc979"
  },
  "repo": "zuo-qirun/Lyrics-Companion",
  "web": "lyrics-companion.zuoqirun.top"

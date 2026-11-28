@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-11-01T13:20:34Z",
-   "oid": "32ef3548928782f79946084302c9def475e35f4e"
+   "committedDate": "2026-11-07T17:53:04Z",
+   "oid": "0957b72ecf3e197c08325b2ba7659ea2f1ffc3ff"
   }
  },
- "diskUsage": 295676,
+ "diskUsage": 390682,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "MIT"
  },
  "nameWithOwner": "Betakontext/off-grid-mobile-ai",
- "pushedAt": "2026-11-01T16:10:12Z",
+ "pushedAt": "2026-11-07T18:49:15Z",
  "releases": {
   "nodes": []
  },

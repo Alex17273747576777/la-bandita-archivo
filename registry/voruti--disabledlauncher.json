@@ -4,22 +4,13 @@
   "release_en": "2023-03-04",
   "semantica_http": 200,
   "ultima_release": "v1.2-alpha",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Android app that disables unused apps, while still allowing convenient access to them",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/voruti--disabledlauncher.json",
-  "sha256": "cbed1264083fa57ba45cca829ce50e4a3198f4105c7b8dd41c4cd689080628d1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "564e7e97833aecda491ac4d5079ed5a264dda902e4ac44f1913710e15350ec87"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 146,
+  "stars": 145,
   "stars_por_mes": null
  },
  "nombre": "DisabledLauncher",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6a61945912365d57e658b9d2ba011d8e992c467f",
+  "commit": "b215b54f1c2d86c078b6b23dba9aa9d7483e9c3a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:6a61945912365d57e658b9d2ba011d8e992c467f"
+  "swhid": "swh:1:rev:b215b54f1c2d86c078b6b23dba9aa9d7483e9c3a"
  },
  "repo": "voruti/DisabledLauncher"
 }

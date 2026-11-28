@@ -4,22 +4,13 @@
   "release_en": "2026-10-17",
   "semantica_http": 200,
   "ultima_release": "v0.10",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-14"
  },
  "descripcion": "Non-root Android external-monitor desktop and phone touchpad powered by Shizuku",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/philong-ho--dexdroid.json",
-  "sha256": "5cb65f03031de0d639b49fcc62f2130b51bf6686474a7ac5ebf9fca11a41f3b2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c0cd4694953eee0ef564cc6be870987f5d8b0d7c127930559a99be9e9edab79a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "DexDroid",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5fdd642001e04a663f58cc6e68d288080299b36b",
+  "commit": "e3abae6d5e38f483dc86ea34c82aac17f2e1c73f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5fdd642001e04a663f58cc6e68d288080299b36b"
+  "swhid": "swh:1:rev:e3abae6d5e38f483dc86ea34c82aac17f2e1c73f"
  },
  "repo": "PhiLong-Ho/DexDroid"
 }

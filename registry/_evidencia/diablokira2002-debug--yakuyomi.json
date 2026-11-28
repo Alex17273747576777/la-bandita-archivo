@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-11-02T10:36:17Z",
-   "oid": "271b1d2bf152382ef64c9c05193ee8bc897c9eae"
+   "committedDate": "2026-11-23T11:51:25Z",
+   "oid": "0f9cffb5cd8965075e792bf254afacbc187ebd05"
   }
  },
- "diskUsage": 183764,
+ "diskUsage": 183778,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Apache-2.0"
  },
  "nameWithOwner": "diablokira2002-debug/Yakuyomi",
- "pushedAt": "2026-11-02T10:36:18Z",
+ "pushedAt": "2026-11-23T11:51:26Z",
  "releases": {
   "nodes": []
  },

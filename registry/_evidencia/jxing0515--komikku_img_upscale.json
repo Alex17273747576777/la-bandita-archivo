@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-08-22T18:29:37Z",
-   "oid": "2ff80ac9e597be28f5cdccca5e7135752609da73"
+   "committedDate": "2026-11-18T07:17:50Z",
+   "oid": "815e1370eba51eb65cb781f41679e192389a3be0"
   }
  },
- "diskUsage": 208759,
+ "diskUsage": 205720,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Apache-2.0"
  },
  "nameWithOwner": "jxing0515/komikku_img_upscale",
- "pushedAt": "2026-08-22T18:32:10Z",
+ "pushedAt": "2026-11-18T07:17:57Z",
  "releases": {
   "nodes": [
    {

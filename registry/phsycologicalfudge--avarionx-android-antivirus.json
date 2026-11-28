@@ -4,22 +4,13 @@
   "release_en": "2025-11-25",
   "semantica_http": 200,
   "ultima_release": "1.0.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-07"
  },
  "descripcion": "A powerful antivirus for android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/phsycologicalfudge--avarionx-android-antivirus.json",
-  "sha256": "2c6c12e8d42d80e8b56a7b65e80f0ae779816803071816ab9aa909493c0e3c88"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6512c54b38760545864db8a451855090a22f3eff1ec56aa9db6d02555efcaefc"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 84,
+  "stars": 98,
   "stars_por_mes": null
  },
  "nombre": "AvarionX-Android-Antivirus",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f406407a90e18f62816487b3f0fae08d769ec29c",
+  "commit": "ce068805b69eb390384a7705a697e1014020a6ea",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f406407a90e18f62816487b3f0fae08d769ec29c"
+  "swhid": "swh:1:rev:ce068805b69eb390384a7705a697e1014020a6ea"
  },
  "repo": "phsycologicalFudge/AvarionX-Android-Antivirus",
  "web": "https://platform.colourswift.com"

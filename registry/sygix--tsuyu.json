@@ -4,22 +4,13 @@
   "release_en": "2026-10-13",
   "semantica_http": 200,
   "ultima_release": "v0.1.0-alpha.1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Shizuku-API-compatible privileged service for Android TV, driven with the remote",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sygix--tsuyu.json",
-  "sha256": "a30420549156c6b5f6c897aa5489baa77abdac6a7accaa9b83e94e5a6104f38c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "569b4e38ecbefa0e34b9daaf1032260a7a65455f31bd285d5902d3a24ed53ac3"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "Tsuyu",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "4182f0a9d73547c556f6a749081cedb320af466e",
+  "commit": "c8804cf99344a714faa1973ca620802af7f2d3f5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4182f0a9d73547c556f6a749081cedb320af466e"
+  "swhid": "swh:1:rev:c8804cf99344a714faa1973ca620802af7f2d3f5"
  },
  "repo": "Sygix/Tsuyu"
 }

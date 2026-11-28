@@ -4,22 +4,13 @@
   "release_en": "2023-07-28",
   "semantica_http": 200,
   "ultima_release": "1.0.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Fold Craft Launcher, an Android Minecraft : Java Edition launcher.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/fcl-team--foldcraftlauncher.json",
-  "sha256": "5d9ae5a848a5ab4266c942cbe3ec2f27e30b1f36ca3bad37b50e7affe217cd14"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c9242dc97e3577ca94f6a3dbe3bd818f22e3a05a3b78795909ceee54865f4845"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5129,
+  "stars": 5279,
   "stars_por_mes": null
  },
  "nombre": "FoldCraftLauncher",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "bf84aa71c84c9e863cdb6890866957c8497cb841",
+  "commit": "00c17f8404d35b224b2d3767697d8eb56deceb69",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:bf84aa71c84c9e863cdb6890866957c8497cb841"
+  "swhid": "swh:1:rev:00c17f8404d35b224b2d3767697d8eb56deceb69"
  },
  "repo": "FCL-Team/FoldCraftLauncher"
 }

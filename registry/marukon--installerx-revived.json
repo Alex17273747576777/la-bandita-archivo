@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-26"
+  "ultimo_push": "2026-11-12"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/marukon--installerx-revived.json",
-  "sha256": "794d21a7c14a0e178d76640e65817348008623e44572a8e43642eec13995f033"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "264a611657344524de0472dc28c1271c7b6ff286d0f2eb129a9d210e64810416"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "affc97d19de004d358500ce81b1ee7a98c061a48",
+  "commit": "868c484c91ca49d9b1613e15b9b6c6aafd9d77ac",
   "swh_estado": null,
-  "swhid": "swh:1:rev:affc97d19de004d358500ce81b1ee7a98c061a48"
+  "swhid": "swh:1:rev:868c484c91ca49d9b1613e15b9b6c6aafd9d77ac"
  },
  "repo": "Marukon/InstallerX-Revived"
 }

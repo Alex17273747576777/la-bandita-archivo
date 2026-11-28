@@ -4,22 +4,13 @@
   "release_en": "2026-10-26",
   "semantica_http": 200,
   "ultima_release": "v3.2.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "IINV — Android client for Xray: system VPN (TUN) or local SOCKS/HTTP proxy. APK releases, checksums and changelog.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/evgenyzh--iinv-xray-releases.json",
-  "sha256": "a343266847b22a7681780224040a270509a2dd1cb6c934d9db3101335f5c1fbd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "373ba603fdd2d08b23f40f75c6515e266c5c88fd9ab325035e49fb600e9ee2ae"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3eff182ea090ef8bd617b8941516e53402fd0fc4",
+  "commit": "772130b84b9923a0b47932d0a2f4c860ea6939c1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3eff182ea090ef8bd617b8941516e53402fd0fc4"
+  "swhid": "swh:1:rev:772130b84b9923a0b47932d0a2f4c860ea6939c1"
  },
  "repo": "evgenyzh/iinv-xray-releases",
  "web": "https://evgenyzh.github.io/iinv-xray-releases/"

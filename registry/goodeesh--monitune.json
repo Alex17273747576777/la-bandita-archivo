@@ -8,18 +8,9 @@
  },
  "descripcion": "Tune your Android display for external monitors. Resolution, UI scale and force landscape via Shizuku/root. Display only, no audio.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/goodeesh--monitune.json",
-  "sha256": "ddc93e3f4e6dca347415118e405f120fb6b37325f219f0f21b9ef028de3d76c0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "dc4d676eccf3e3844490a833e3735547d0ade3cb4d7f37fde0a97c647e71297c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9,
+  "stars": 12,
   "stars_por_mes": null
  },
  "nombre": "monitune",

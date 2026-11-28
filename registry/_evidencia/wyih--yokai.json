@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
    "committedDate": "2026-09-28T10:19:21Z",
    "oid": "843a59b20e4edd26c545dc48989a00162ac65937"
   }
  },
- "diskUsage": 73010,
+ "diskUsage": 73150,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Apache-2.0"
  },
  "nameWithOwner": "wyih/yokai",
- "pushedAt": "2026-11-02T05:46:25Z",
+ "pushedAt": "2026-11-18T15:26:16Z",
  "releases": {
   "nodes": []
  },

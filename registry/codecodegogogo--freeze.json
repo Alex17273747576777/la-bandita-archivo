@@ -4,22 +4,13 @@
   "release_en": "2026-08-15",
   "semantica_http": 200,
   "ultima_release": "1.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-10"
  },
  "descripcion": "一个在hail的基础上继续开发的APP停用/隐藏项目，支持root等模式",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/codecodegogogo--freeze.json",
-  "sha256": "b3ae62a8fe1cfee952e67ff853bf62cc06d103432e7557eb6839c98df6c6de2d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "25fbb105cd9f4c29d315141ac8dc430b299e08c0ed6bdd5717db9524f6f73777"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 14,
+  "stars": 20,
   "stars_por_mes": null
  },
  "nombre": "Freeze",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "51abe5df75088f27e50175391c891a894c13a16f",
+  "commit": "32cb800d77bb27f0cf224013602d594a452fbe40",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:51abe5df75088f27e50175391c891a894c13a16f"
+  "swhid": "swh:1:rev:32cb800d77bb27f0cf224013602d594a452fbe40"
  },
  "repo": "codecodegogogo/Freeze"
 }

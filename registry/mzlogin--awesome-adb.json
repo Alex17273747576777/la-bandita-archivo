@@ -8,18 +8,9 @@
  },
  "descripcion": "ADB Usage Complete / ADB 用法大全",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mzlogin--awesome-adb.json",
-  "sha256": "a590828b2108902cfd4db4a458d2837d1388700fd70fcddca90e82b2dc8ce387"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1f7aa7357d85ebddd0b93cffb4804d2da546a841254a03b9e73623a1fa5c795c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 12515,
+  "stars": 12563,
   "stars_por_mes": null
  },
  "nombre": "awesome-adb",

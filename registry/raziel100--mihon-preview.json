@@ -4,22 +4,13 @@
   "release_en": "2026-07-25",
   "semantica_http": 200,
   "ultima_release": "r7841",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/raziel100--mihon-preview.json",
-  "sha256": "50eebe677b3fb6ab7e63582e3edafcc37a0dfb5268e4a4d754c0a8ad864a015a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a7e3d4d4704368c3b34b54233650b6bbe382eaa100adfb5b184b5796529dba45"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d6215d7741c817a72c0b136b788be5c31d269b29",
+  "commit": "0d576c7a8d013ad21dd2db1fc05218a106e4b18f",
   "swh_estado": null,
-  "swhid": "swh:1:rev:d6215d7741c817a72c0b136b788be5c31d269b29"
+  "swhid": "swh:1:rev:0d576c7a8d013ad21dd2db1fc05218a106e4b18f"
  },
  "repo": "raziel100/mihon-preview"
 }

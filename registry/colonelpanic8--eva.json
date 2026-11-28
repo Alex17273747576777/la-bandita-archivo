@@ -4,22 +4,13 @@
   "release_en": "2026-09-12",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-23"
+  "ultimo_push": "2026-11-07"
  },
  "descripcion": "EVA — Extensible Voice Assistant for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/colonelpanic8--eva.json",
-  "sha256": "ecbf963fee39b4ff1ce216b2218e9095e8aa562fbc126addcf414dd7f6244bff"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "72db068d9703e8e8f74671ee93da98b68acb51de6ca27c74848d9e3e909e0b07"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a639d5484ae6d7657a8ba9b020087176b9d3b891",
+  "commit": "61c0b9fddb00c29b4246278534ca925749f282a7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a639d5484ae6d7657a8ba9b020087176b9d3b891"
+  "swhid": "swh:1:rev:61c0b9fddb00c29b4246278534ca925749f282a7"
  },
  "repo": "colonelpanic8/eva"
 }

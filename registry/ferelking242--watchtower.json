@@ -4,22 +4,13 @@
   "release_en": "2026-04-16",
   "semantica_http": 200,
   "ultima_release": "v0.7.45",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Free & open-source manga · anime · series · music · novels hub — cross-platform, self-hostable, extensible via JS plugins",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ferelking242--watchtower.json",
-  "sha256": "342870bf3d0f6203211d09be44b38963f8f0cf28b820c2cd1f35fa824e25c06d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "76a98b64a8b757dbe2aaaeb0ebdd08d7505a14129ff7b371fc0047c6df658929"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 5,
   "stars_por_mes": null
  },
  "nombre": "watchtower",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "76071f22eeabcdf7f34b94f34c17e2cdf42d969f",
+  "commit": "34c55747f7be30ec5fc34229bd51a83e746ffa67",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:76071f22eeabcdf7f34b94f34c17e2cdf42d969f"
+  "swhid": "swh:1:rev:34c55747f7be30ec5fc34229bd51a83e746ffa67"
  },
  "repo": "ferelking242/watchtower",
  "web": "https://watchtower-cyan.vercel.app"

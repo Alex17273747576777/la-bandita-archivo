@@ -4,22 +4,13 @@
   "release_en": "2026-09-02",
   "semantica_http": 200,
   "ultima_release": "v0.0.2",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Infrastructure for continually self‑improving agents",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/human-agent-society--reef.json",
-  "sha256": "f8234dec15663ea321ab623e57198e80462fb9d256530b93bc5006303f732d9b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "642c33c0c4ea93aae77f46ce668039a6469b7a715801d7cbaae8a8e1d281022a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7790,
+  "stars": 7611,
   "stars_por_mes": null
  },
  "nombre": "reef",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "8e9d17dad2381af77652f503eefb7ad666b9ddc2",
+  "commit": "ef7ad680446a844a98942a7cd9c178d47d519e48",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:8e9d17dad2381af77652f503eefb7ad666b9ddc2"
+  "swhid": "swh:1:rev:ef7ad680446a844a98942a7cd9c178d47d519e48"
  },
  "repo": "Human-Agent-Society/reef",
  "web": "https://reefinfra.ai"

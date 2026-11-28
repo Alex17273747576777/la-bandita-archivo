@@ -8,18 +8,9 @@
  },
  "descripcion": "A flutter Plugin that gives access to shizuku api",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/santhosh-d-subramani--shizuku-plugin.json",
-  "sha256": "cb4c9bec0f1f3455b943f9a3aec270d36898b69dc5a04b277fba90247d1c07da"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4c0f1722847280d1793a9ed6740b6a3e3b01f786a6537ef3a029b469bd75a219"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 43,
+  "stars": 44,
   "stars_por_mes": null
  },
  "nombre": "Shizuku-Plugin",

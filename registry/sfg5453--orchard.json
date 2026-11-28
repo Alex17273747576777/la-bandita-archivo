@@ -4,22 +4,13 @@
   "release_en": "2026-07-19",
   "semantica_http": 200,
   "ultima_release": "v3.0.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "The power-user desktop client for YouTube Music.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sfg5453--orchard.json",
-  "sha256": "3c8d011e9b5f4ae18b91d413baa7f0910cec388ea1391d9fe5f5e8d3bc967083"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a25f6cdec6ead43ad079d1a538f27ba7e15e1a615e740d6d955460873a86a43a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 291,
+  "stars": 356,
   "stars_por_mes": null
  },
  "nombre": "Orchard",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5bdef4a30b293af7bcdb1905e3707e1996ab63ce",
+  "commit": "5f97b55ee0fd1e529af56cbd0a8c5b74b891e71d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5bdef4a30b293af7bcdb1905e3707e1996ab63ce"
+  "swhid": "swh:1:rev:5f97b55ee0fd1e529af56cbd0a8c5b74b891e71d"
  },
  "repo": "SFG5453/Orchard",
  "web": "https://sfg545.dev/orchard"

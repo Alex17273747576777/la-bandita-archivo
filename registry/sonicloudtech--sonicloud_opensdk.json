@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-11-19",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-11-03"
+  "ultima_release": "V2.0.1",
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "SoniCloud Recorder SDK is an open-source reference project for integrating BLE recorder hardware across Android, iOS, HarmonyOS, Flutter, Windows, and macOS. It includes SDK examples, recording control, real-time audio, file transfer, offline transcription, protocol tools, and vendor adaptation support.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sonicloudtech--sonicloud_opensdk.json",
-  "sha256": "17923f1621a9041f5dd0532147438df9666271fe88cd6b416ff801c0d091980c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d60dc71a64192ed7277ac313dce2e8888ffc214620496e7a061c27dde0856ced"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2556,
+  "stars": 2566,
   "stars_por_mes": null
  },
  "nombre": "sonicloud_opensdk",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "478e54262e5e2a04f2ab397766065cacbb381e83",
+  "commit": "5419cd2f9bc99b1016a348b7f640cbab02b0b300",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:478e54262e5e2a04f2ab397766065cacbb381e83"
+  "swhid": "swh:1:rev:5419cd2f9bc99b1016a348b7f640cbab02b0b300"
  },
  "repo": "SonicloudTech/sonicloud_opensdk",
  "web": "https://www.sinicloud.com"

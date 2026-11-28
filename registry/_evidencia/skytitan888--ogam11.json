@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-09-08T03:39:46Z",
-   "oid": "fa5c0f1290f1fab66c30455c1e200389a8599900"
+   "committedDate": "2026-11-04T13:16:10Z",
+   "oid": "5d9e98449960580d5b3e64cd36d73a1f741598e6"
   }
  },
- "diskUsage": 199591,
+ "diskUsage": 330263,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "MIT"
  },
  "nameWithOwner": "skytitan888/OGAM11",
- "pushedAt": "2026-09-08T07:02:37Z",
+ "pushedAt": "2026-11-04T14:26:44Z",
  "releases": {
   "nodes": []
  },

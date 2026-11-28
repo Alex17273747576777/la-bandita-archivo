@@ -8,18 +8,9 @@
  },
  "descripcion": "NexusGameBooster — honest Android game companion (Kotlin + Jetpack Compose). Real device monitoring, performance profiles, safe boost orchestration, Persian RTL. Zero permissions.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pubbgggamerss00-bot--nexusgamebooster.json",
-  "sha256": "0de2257f6e341b1d234a124e98855b361134837f36ba7631a6541de795610776"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6db97c2ec354de186bece6c3b0f5164d1bc2a97f145efc866a5fc963d3b89883"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,7 +26,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

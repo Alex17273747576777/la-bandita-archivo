@@ -8,18 +8,9 @@
  },
  "descripcion": "Trackpad mouse for the Unihertz Titan 2",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sztupy--titanpad.json",
-  "sha256": "9e1a362e569c4df673f4f260885bf645ee9f14c22adac68a9922ac027ffa73fe"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "102b65b75f5215a10150b7c842e82d852364bdb2d391e1822a7e05652ff6ebe0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 29,
+  "stars": 28,
   "stars_por_mes": null
  },
  "nombre": "TitanPad",

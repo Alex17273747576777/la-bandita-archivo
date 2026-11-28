@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-07-26",
+  "release_en": "2026-10-30",
   "semantica_http": 200,
-  "ultima_release": "v1.0",
-  "ultimo_push": "2026-11-03"
+  "ultima_release": "v2.2.0.1",
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Open-source Android workstation: native multi-window desktops, X11/Wayland, Termux and MCP automation. Shroot runs Linux, systemd, Docker and Podman via Shizuku/Shevery without root. Android 14+; managed Desktop 15+.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mekhontsev--magicdesk.json",
-  "sha256": "89300bf7e4e231cccffa5452b30eeb00bc5db3d52901fa13479572474b13869d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b7c54443e066c893305108746f28fe9519a06f9622dab100029d2ed00b939f4f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 201,
+  "stars": 250,
   "stars_por_mes": null
  },
  "nombre": "magicdesk",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7ab99d6b17a5acf92e568fe1b30609d5399a35ec",
+  "commit": "4277e9fd76901e73d990d37b017315d4996bcbd1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:7ab99d6b17a5acf92e568fe1b30609d5399a35ec"
+  "swhid": "swh:1:rev:4277e9fd76901e73d990d37b017315d4996bcbd1"
  },
  "repo": "mekhontsev/magicdesk"
 }

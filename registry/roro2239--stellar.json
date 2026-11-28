@@ -8,18 +8,9 @@
  },
  "descripcion": "Another Shizuku impl",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/roro2239--stellar.json",
-  "sha256": "9fafe19b5e130e81f64286cc9363ed092e251592068ff3d9d4b544558214d2d1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b6746ccdcad5e4bf6f6203f90bf94fedeab5035bd60092d4b9d96f5a03158263"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1737,
+  "stars": 1970,
   "stars_por_mes": null
  },
  "nombre": "Stellar",

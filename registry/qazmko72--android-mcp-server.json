@@ -8,18 +8,9 @@
  },
  "descripcion": "A secure native Android MCP server: use phone capabilities through MCP without a computer, ADB, or cloud backend.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/qazmko72--android-mcp-server.json",
-  "sha256": "0d68347456f0fd37a3896befebdd025b36d9b395a444a16357536052d77d3cbb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fd5ab13301c12b2859dd015d544918dd43c13f273af635490a10feadf019ad50"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "android-mcp-server",

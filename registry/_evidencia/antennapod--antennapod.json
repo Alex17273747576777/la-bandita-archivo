@@ -1,24 +1,24 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-11-02T20:17:16Z",
-   "oid": "08107984b83fa0def9f6a1d2c244b1d9d1161322"
+   "committedDate": "2026-11-27T20:39:26Z",
+   "oid": "f5dabdafde2311949e7d61c863a20b0509f1af33"
   }
  },
- "diskUsage": 117673,
- "forkCount": 1849,
+ "diskUsage": 118499,
+ "forkCount": 1962,
  "isArchived": false,
  "issues": {
-  "totalCount": 357
+  "totalCount": 364
  },
  "licenseInfo": {
   "name": "GNU General Public License v3.0",
   "spdxId": "GPL-3.0"
  },
  "nameWithOwner": "AntennaPod/AntennaPod",
- "pushedAt": "2026-11-02T20:17:16Z",
+ "pushedAt": "2026-11-27T20:39:27Z",
  "releases": {
   "nodes": [
    {
@@ -28,5 +28,5 @@
    }
   ]
  },
- "stargazerCount": 8261
+ "stargazerCount": 8369
 }

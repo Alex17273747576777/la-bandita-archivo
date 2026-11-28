@@ -4,22 +4,13 @@
   "release_en": "2025-11-30",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Fast Gesture based android launcher",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/elnix90--dragon-launcher.json",
-  "sha256": "d2172f16f64ee268c211fa9f3d2925cd08d1f09eb7029dd911a5b37e306ae704"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a17aff34053974007e215ba605645e619a528a1fe5eb999e4e45ae29e2e10d69"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 341,
+  "stars": 354,
   "stars_por_mes": null
  },
  "nombre": "Dragon-Launcher",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9ce4632c86d7c1297ebdfd021d4a38d212971e17",
+  "commit": "78cc697c75b99723b34478f401f2824d1c1ff20b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9ce4632c86d7c1297ebdfd021d4a38d212971e17"
+  "swhid": "swh:1:rev:78cc697c75b99723b34478f401f2824d1c1ff20b"
  },
  "repo": "Elnix90/Dragon-Launcher",
  "web": "https://elnix90.github.io/Dragon-Launcher/"

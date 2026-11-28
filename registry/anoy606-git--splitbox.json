@@ -8,18 +8,9 @@
  },
  "descripcion": "Устанавливайте APK, APKS, XAPK и APKM на Android 14+. Удобный выбор частей, Root и Shizuku — без рекламы и аккаунтов.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/anoy606-git--splitbox.json",
-  "sha256": "50f53be07874c22b9389abb9b19cc9423b70407571bf5558b574ed4fb9f7b990"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "afc92fffbd80a75efa7947e46f9144cd82f6a3a913b07ffa1ddfdd4ac850d582"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

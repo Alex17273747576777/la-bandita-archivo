@@ -4,22 +4,13 @@
   "release_en": "2026-10-15",
   "semantica_http": 200,
   "ultima_release": "apk-38703839831",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-04"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/njs98-ui--haiou.json",
-  "sha256": "47d91b9454e6d8f0759c365f140a32e15d260f13e9ecc6df491a3da1beb63b5d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d556466f39413c70946932edc1e88d374dc08a1f8abe78b0bf495318aeb630fa"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "59c720321d77db345ef88e4cd73ec1bf79e0ddf3",
+  "commit": "ebafa23b84f9da8819ad2d86debcec4cfcb88e3c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:59c720321d77db345ef88e4cd73ec1bf79e0ddf3"
+  "swhid": "swh:1:rev:ebafa23b84f9da8819ad2d86debcec4cfcb88e3c"
  },
  "repo": "NJS98-UI/haiou"
 }

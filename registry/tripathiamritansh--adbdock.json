@@ -4,22 +4,13 @@
   "release_en": "2026-10-31",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-06"
  },
  "descripcion": "macOS menu bar app that keeps Android wireless-debugging devices connected over adb",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tripathiamritansh--adbdock.json",
-  "sha256": "5c69c5731c5e31b4652c96a89c72ca29fc0135165a6040d08fe7718497807fee"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fb3576b75a4fabe0aaca1e673e9d9091bff072310613c456879bbd4b4fd734e8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "adbdock",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "06bce42c605b72421da7e1b14dd77e47970b8d55",
+  "commit": "fbf21f2b8a9ecc038601d574eae8101f2cc1adbd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:06bce42c605b72421da7e1b14dd77e47970b8d55"
+  "swhid": "swh:1:rev:fbf21f2b8a9ecc038601d574eae8101f2cc1adbd"
  },
  "repo": "tripathiamritansh/adbdock"
 }

@@ -4,22 +4,13 @@
   "release_en": "2015-09-15",
   "semantica_http": 200,
   "ultima_release": "v0.3",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A libre lightweight streaming front-end for Android.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/teamnewpipe--newpipe.json",
-  "sha256": "7bd6743397bb7998e4bb218a43dc2a6833ca345927c12ddb0bc008d94a36b322"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2c179b4e3c9acb98af2a4da3de7190c30fa64f95df4dca059baa1d4646711e3c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 40410,
+  "stars": 40986,
   "stars_por_mes": null
  },
  "nombre": "NewPipe",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "b541f120fb069845030cea23c3b6c2b3a81b72ce",
+  "commit": "437228f9c9710c73fba411c2c7e193a31e8bcaa3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b541f120fb069845030cea23c3b6c2b3a81b72ce"
+  "swhid": "swh:1:rev:437228f9c9710c73fba411c2c7e193a31e8bcaa3"
  },
  "repo": "TeamNewPipe/NewPipe",
  "web": "https://newpipe.net"

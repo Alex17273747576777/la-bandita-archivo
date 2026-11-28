@@ -8,18 +8,9 @@
  },
  "descripcion": "ReDantotsu is a Remake version of the original Dantotsu app. It is built on a foundation that has been tested and works well. ReDantotsu features a new user interface, MyAnimeList rating integration, Liquid Glass theme, etc. This is the best way to keep track of your anime and your manga.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/asrofficialdev--redantotsu.json",
-  "sha256": "d1697ceb9c8f7b00bdae6b066b68f14d64b63ea06a9789e36f8cae394da686be"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5cf0896dcec338fb50c8324430d4b3464b4e4835bca372ea3371192b9155b0bb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE.md",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 153,
+  "stars": 156,
   "stars_por_mes": null
  },
  "nombre": "ReDantotsu",

@@ -8,18 +8,9 @@
  },
  "descripcion": "Just a tool to make GSI out of firmware from any phone",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/erfanoabdi--erfangsis.json",
-  "sha256": "67dc4499080a35d0a6b9f7a25c0afff9a982d45e885eafe6f89ce52a9c1cfd4f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b71cb62f5a3b2cb42689d99a5f4da40dedb92401ae95f699511a28fe908f49e2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 555,
+  "stars": 557,
   "stars_por_mes": null
  },
  "nombre": "ErfanGSIs",

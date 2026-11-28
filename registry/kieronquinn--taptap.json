@@ -8,18 +8,9 @@
  },
  "descripcion": "Port of the double tap on back of device feature from Android 12 to any Android 7.0+ device",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kieronquinn--taptap.json",
-  "sha256": "b215a57965fea3a76cff540569428700c1468c6df28b75303caf86f527fb32b9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b01bf20b3306db933cf4ba2812c5ada8bf528f8ec4045807b934c57ca3aeda3a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4060,
+  "stars": 4067,
   "stars_por_mes": null
  },
  "nombre": "TapTap",

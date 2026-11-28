@@ -4,22 +4,13 @@
   "release_en": "2026-10-10",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "The Craft App Launcher",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/storytold--craft-launcher.json",
-  "sha256": "9e2b408e7d9f3d7817ff734eed84e2ca639d940b53895896dc753cb3865bf1bc"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e470d1348c4ff059381d5b38f24defda031c1d671c45d4195d75245a570c8fbc"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4838,
+  "stars": 5733,
   "stars_por_mes": null
  },
  "nombre": "craft-launcher",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9a317f2a8a6282d1a7de436b834f9ed88fac5334",
+  "commit": "3c954f1c66ca79283942d5a6cd4656354afb07cd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9a317f2a8a6282d1a7de436b834f9ed88fac5334"
+  "swhid": "swh:1:rev:3c954f1c66ca79283942d5a6cd4656354afb07cd"
  },
  "repo": "storytold/craft-launcher"
 }

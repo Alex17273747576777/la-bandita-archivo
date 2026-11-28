@@ -8,18 +8,9 @@
  },
  "descripcion": "PUNK Companion - Automação Total, Visão Remota e Telemetria para Android via Hermes Agent & Shizuku",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/felipegatoloko10--punk-app.json",
-  "sha256": "4a095f487ab28338d57dbccbd7a3483e87642dfb1a91b964d0c945fd62c8b1a3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "405bf161c716ab0ea0b8bc313522489194e1d8dbd0826240d1225e2e8fb92e91"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

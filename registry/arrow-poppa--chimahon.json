@@ -4,22 +4,13 @@
   "release_en": "2026-10-20",
   "semantica_http": 200,
   "ultima_release": "ocr-models-v1",
-  "ultimo_push": "2026-10-20"
+  "ultimo_push": "2026-11-14"
  },
  "descripcion": "Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga and a",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/arrow-poppa--chimahon.json",
-  "sha256": "0ce93397d6204aa8cdc41fd3437275e9fb18c618252ecad1fdf0893110e7e987"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2284a556332eff6fc1941dcd6c0e002592427408eda894aa6cdf1eb8640c5fbf"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

@@ -8,18 +8,9 @@
  },
  "descripcion": "A terminal UI for your Obsidian vault: live-preview notes, backlinks, images, a force-directed graph and an assistant",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/iamrohithrnair--emeraldian.json",
-  "sha256": "5b7f1c41117e79dd9bf777918f4558baa811e61ea3de3d6cb3b9af8db71cd3b6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "528eaebb216538f0cd9d38a5d9fd166381d326358a26ced7167346523f023edf"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 547,
+  "stars": 593,
   "stars_por_mes": null
  },
  "nombre": "emeraldian",

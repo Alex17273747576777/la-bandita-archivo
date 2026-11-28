@@ -4,22 +4,13 @@
   "release_en": "2026-10-25",
   "semantica_http": 200,
   "ultima_release": "v1.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "Open-source Android LLM agent assistant: system assist gesture, chat and share modes, 55 on-device tools, Accessibility-first (TalkBack), Shizuku/Root, MCP. Kotlin + Compose, MIT.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/outsidepro-arts--oassist.json",
-  "sha256": "0ff7960f70283a5314e1d4a5969909d0c4f87c1257438a17ebf7aa180d2ae740"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "949db9a5a88f5f1225fc85959764e0ae3a9150cd5a80185873e55a214fee4442"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 3,
   "stars_por_mes": null
  },
  "nombre": "OAssist",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "cce966925a36147c3616baa5c785d63844d71ae3",
+  "commit": "61676533c88b6de11129ca50203588bc0b1c4c37",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:cce966925a36147c3616baa5c785d63844d71ae3"
+  "swhid": "swh:1:rev:61676533c88b6de11129ca50203588bc0b1c4c37"
  },
  "repo": "outsidepro-arts/OAssist"
 }

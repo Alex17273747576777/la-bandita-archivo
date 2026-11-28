@@ -4,22 +4,13 @@
   "release_en": "2024-05-26",
   "semantica_http": 200,
   "ultima_release": "v1.0.0-dev.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "📘开源的多平台自定义源资源聚合工具。支持小说、漫画阅读、视频播放、聚合搜索、分类排行等, 也支持本地资源TXT、EPUB",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aooiuu--any-reader.json",
-  "sha256": "17f0f2afb93ef0f07de4846bb46314fa94b2e84a802c6acac6d63fdd21668dc8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7dd3391f4555e4eca9513e0c8beb1a91fe62c0c9a9a7e1ec0774f94ea0395b0e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1196,
+  "stars": 1204,
   "stars_por_mes": null
  },
  "nombre": "any-reader",

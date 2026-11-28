@@ -4,22 +4,13 @@
   "release_en": "2026-05-07",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-20"
  },
  "descripcion": "Clean, lightweight cross-platform tracker for anime, manga and light novels.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hoshi-io--hoshi.json",
-  "sha256": "562f383f0282b49b11ca5c83657e4973a756e7c10802825b1fc5f0894ef4c853"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5e78af3ce632965958bda36b73e646856c8f0d0864c91e0d6d931a55f0241de0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 18,
+  "stars": 20,
   "stars_por_mes": null
  },
  "nombre": "hoshi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "83e4847330945be0d372649f4874a7a94c04408a",
+  "commit": "08637a2b77cdadb7bf56524d242abced537fc9ff",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:83e4847330945be0d372649f4874a7a94c04408a"
+  "swhid": "swh:1:rev:08637a2b77cdadb7bf56524d242abced537fc9ff"
  },
  "repo": "hoshi-io/hoshi",
  "web": "https://hoshi-io.github.io/docs/"

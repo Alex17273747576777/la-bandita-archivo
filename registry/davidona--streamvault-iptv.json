@@ -4,22 +4,13 @@
   "release_en": "2026-04-07",
   "semantica_http": 200,
   "ultima_release": "master-build-7",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "StreamVault is a TV-first free IPTV player for Android TV built with Kotlin, Jetpack Compose, Room, Hilt, and Media3.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/davidona--streamvault-iptv.json",
-  "sha256": "29a3737a09da5d69652fdc5170b68359759390a314094d5a02f30bcfc90312d3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ad3846fb423ff5298799cfc256f38cc690e0a44d1472a5b88effdb2efc24e0ae"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 970,
+  "stars": 1098,
   "stars_por_mes": null
  },
  "nombre": "StreamVault-IPTV",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "bacaae7972f4ebe322b12e38ea57cfc31ff48552",
+  "commit": "6279060d20c8d1305f05da2957a5605885e4ccbf",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:bacaae7972f4ebe322b12e38ea57cfc31ff48552"
+  "swhid": "swh:1:rev:6279060d20c8d1305f05da2957a5605885e4ccbf"
  },
  "repo": "Davidona/StreamVault-IPTV"
 }

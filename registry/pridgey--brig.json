@@ -4,22 +4,13 @@
   "release_en": "2026-10-31",
   "semantica_http": 200,
   "ultima_release": "v1.2",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-17"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pridgey--brig.json",
-  "sha256": "34a71dba03ab7cd0c93c1e4e8d4ccbce848be6e4ddef4f493da45fd2ccf64e39"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bf52d07dc09d5245e98d9fad4fa6b921fd74c307cbacebca397651dce560ffcd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1d2650e08637f435f54fec44860cfc9440ace037",
+  "commit": "6bc1ce7ec8f685031d130511623f840b2ec2306a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1d2650e08637f435f54fec44860cfc9440ace037"
+  "swhid": "swh:1:rev:6bc1ce7ec8f685031d130511623f840b2ec2306a"
  },
  "repo": "pridgey/Brig"
 }

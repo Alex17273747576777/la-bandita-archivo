@@ -4,22 +4,13 @@
   "release_en": "2025-05-18",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "A multilingual YouTube Music frontend for Android, focused on performance, UI/UX refinements, feature expansion, and long-term support.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/n-zik-group--n-zik.json",
-  "sha256": "dcbe5b7a2f7e8030c930a444d914b87efd55793fc978513e20b96417ba71abb1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "47907fd467f135c5579684feb7359d3a66bcd47c944397be70aff708a4d428dc"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 281,
+  "stars": 302,
   "stars_por_mes": null
  },
  "nombre": "N-Zik",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "07e25ae7f661f4661d7a56da5f9aeac7d8099a95",
+  "commit": "a119c9a77d4f54fbd0a345e569e78c2587849f69",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:07e25ae7f661f4661d7a56da5f9aeac7d8099a95"
+  "swhid": "swh:1:rev:a119c9a77d4f54fbd0a345e569e78c2587849f69"
  },
  "repo": "N-Zik-Group/N-Zik",
  "web": "https://n-zik.vercel.app"

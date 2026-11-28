@@ -8,18 +8,9 @@
  },
  "descripcion": "Utility toolbox for the Unihertz Titan 2 Elite (Display Fix, Unified Pull-Down, Volume Mode Switcher, and Flashlight Indicator)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/eqbirvin--t2etoolbox.json",
-  "sha256": "1c4517b8a8bbf2b9b6f8103ffe68e1aa94b9ee843594951dc193dc4de18d5220"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "656fc258426e0ae7aa9b56b8d0be9d520d4ef8c257cab785bac3102e0b709d97"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "T2EToolbox",

@@ -4,22 +4,13 @@
   "release_en": "2026-07-12",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Palleria is a free and open-source Android application that provides a modern, fast and comfortable Pixiv browsing experience.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yunfie-twitter--palleria.json",
-  "sha256": "16a96103df7c25f87d66a159a64f8bf378f9551119ce600ac36d3cc138641c03"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "afdb5fbfff95724ddb7e0476511ab7059e38ed6a68b3034587ae923631e3be79"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 16,
+  "stars": 18,
   "stars_por_mes": null
  },
  "nombre": "Palleria",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1e8689eac19eef780e07d624461448edc50ce7c5",
+  "commit": "6e6e3fd265654b25e3ff072c6ad5335d79d04591",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1e8689eac19eef780e07d624461448edc50ce7c5"
+  "swhid": "swh:1:rev:6e6e3fd265654b25e3ff072c6ad5335d79d04591"
  },
  "repo": "yunfie-twitter/Palleria",
  "web": "https://yunfi.f5.si/Palleria/"

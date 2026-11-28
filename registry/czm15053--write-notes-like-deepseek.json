@@ -8,18 +8,9 @@
  },
  "descripcion": "像 DeepSeek 团队一样沉淀 Agent Notes——决策、取舍与验证一处留痕，半年后仍可追溯。可叠加到任何仓库",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/czm15053--write-notes-like-deepseek.json",
-  "sha256": "3e54569138f9296e29249422855820937aca26bc60a4ee093c479b9e4e41f8b7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "560f64d9dfc798bb1010af491bd1f234652f2f2de9876da441bbf223c3d946ee"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": "MIT",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 726,
+  "stars": 842,
   "stars_por_mes": null
  },
  "nombre": "write-notes-like-deepseek",

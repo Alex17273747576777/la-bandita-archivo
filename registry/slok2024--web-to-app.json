@@ -4,22 +4,13 @@
   "release_en": "2026-10-24",
   "semantica_http": 200,
   "ultima_release": "20261024",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/slok2024--web-to-app.json",
-  "sha256": "6d0cdc5552a165579efe18dbde2854eb28676145e29c3cc8b645c596575b3afe"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ee2c29eac39253d8268c1e0fe4bfe3878415b35a81fd7d791bfd66a72b1e7dfb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Unlicense",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "fd84c2dfa4f3c2b1a0513315442ec6ef9d4737f7",
+  "commit": "52e6bce878cbe64ad884f1b0347351bb1a255b19",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:fd84c2dfa4f3c2b1a0513315442ec6ef9d4737f7"
+  "swhid": "swh:1:rev:52e6bce878cbe64ad884f1b0347351bb1a255b19"
  },
  "repo": "slok2024/web-to-app",
  "web": "https://shiaho777.github.io/web-to-app/"

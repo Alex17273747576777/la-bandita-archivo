@@ -4,22 +4,13 @@
   "release_en": "2026-10-10",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-08"
  },
  "descripcion": "Turn an unrooted Android 11+ phone into a single-line cellular <-> SIP gateway. The phone registers to your PBX (Asterisk / FreePBX / IssabelPBX) as a SIP trunk.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sparkcyf--android-voice-sip-agent.json",
-  "sha256": "cce842c012d79a8252ad0ff5d56e2172a956916553c1014880b335aea4de33d9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "02eb2b3e12038ad0b9060066ea262e9482765ffb1a8bf834188e9492946c3deb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 23,
+  "stars": 46,
   "stars_por_mes": null
  },
  "nombre": "android-voice-sip-agent",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "298d64b89b13e7737708972947390d2d84450200",
+  "commit": "5105a1f447ffa25ba32d0620dbeef44bbc1705ce",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:298d64b89b13e7737708972947390d2d84450200"
+  "swhid": "swh:1:rev:5105a1f447ffa25ba32d0620dbeef44bbc1705ce"
  },
  "repo": "sparkcyf/android-voice-sip-agent"
 }

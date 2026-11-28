@@ -4,22 +4,13 @@
   "release_en": "2026-08-31",
   "semantica_http": 200,
   "ultima_release": "v1.11.5",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-17"
  },
  "descripcion": "One code, and you're in the same room. Remote multiplayer between Android emulators: 3DS, Switch, PSP, PS2, DS and WII.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jojodogm-ctrl--emufii.json",
-  "sha256": "e93ff870f519723c71b647d99a7641235d36b975a481eaaaff77be1c175b4dce"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0818a5a2e2a1d6b98ea18cd7bc476b0318cabda399aa2c60b82b58db53cf42f6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 871,
+  "stars": 904,
   "stars_por_mes": null
  },
  "nombre": "emufii",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7da73bbd6366f33203a017867ea110bc9ee7fb64",
+  "commit": "ac4d31734dca7077a6a335e5e07b90a5733d65a7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:7da73bbd6366f33203a017867ea110bc9ee7fb64"
+  "swhid": "swh:1:rev:ac4d31734dca7077a6a335e5e07b90a5733d65a7"
  },
  "repo": "jojodogm-ctrl/emufii",
  "web": "https://discord.gg/tvWcb28vBZ"

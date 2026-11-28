@@ -4,22 +4,13 @@
   "release_en": "2026-09-17",
   "semantica_http": 200,
   "ultima_release": "v0.2.0-alpha",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A root-based Android SDK component auditor and manager, with rule subscriptions, IFW, and component disabling.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/deserthouse--prunoid.json",
-  "sha256": "274939f8d67f3945196c80fef0f82915f090ccfc0a0e9eec049e0b026db30ed3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "cd2eec2cc47805f946a267ed4e5f62da8213bfebf9987cbd24df89cc41ac0b11"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2,
+  "stars": 3,
   "stars_por_mes": null
  },
  "nombre": "Prunoid",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "283a5b62f2ec02d3b7ad8b39135c10b87dab6bbd",
+  "commit": "45e502e53ba38655160711efcc538c03950c8d75",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:283a5b62f2ec02d3b7ad8b39135c10b87dab6bbd"
+  "swhid": "swh:1:rev:45e502e53ba38655160711efcc538c03950c8d75"
  },
  "repo": "deserthouse/Prunoid"
 }

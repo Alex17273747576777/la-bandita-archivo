@@ -4,22 +4,13 @@
   "release_en": "2026-10-01",
   "semantica_http": 200,
   "ultima_release": "1.0.0",
-  "ultimo_push": "2026-10-10"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "让 Android 控制中心，在简洁和效率之间找到「平衡」的魔法。无需 Root。 / Let the Android Control Center find the magic of \"balance\" between simplicity and efficiency. NO ROOT NEEDED.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hrsthrt74--extile.json",
-  "sha256": "3ccb10b6c0e19a9e97106f4d401b895fab93266696719e1a2fd99d6cc18604e9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "10be630299073ad310c1c1a300ab739d842026f940b40ab80e84e5be6a86039d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 27,
+  "stars": 31,
   "stars_por_mes": null
  },
  "nombre": "exTile",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "daf6befd6c63a125c6ed3468a04febb66c0f4019",
+  "commit": "add0cff13657c4e5303dbe1be67d4b6cccad8877",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:daf6befd6c63a125c6ed3468a04febb66c0f4019"
+  "swhid": "swh:1:rev:add0cff13657c4e5303dbe1be67d4b6cccad8877"
  },
  "repo": "hrsthrt74/exTile"
 }

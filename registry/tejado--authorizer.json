@@ -8,18 +8,9 @@
  },
  "descripcion": "Authorizer is a Password Manager for Android. It emulates an HID keyboard over USB and enters your credentials on your target device. Additionally it supports OTP :key::mobile_phone_off:",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tejado--authorizer.json",
-  "sha256": "d5f2cf538907b831bccdc9790ca089b0d6a5801768a2bc55e64e096eb6a8c3ef"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7d71e74415e0baf91d3191c813db1911137a08b7c898519bf5e4e8cbd44dccb6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 572,
+  "stars": 575,
   "stars_por_mes": null
  },
  "nombre": "Authorizer",

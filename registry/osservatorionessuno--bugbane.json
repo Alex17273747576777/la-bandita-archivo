@@ -4,22 +4,13 @@
   "release_en": "2026-07-26",
   "semantica_http": 200,
   "ultima_release": "0.2.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-09"
  },
  "descripcion": "On-device Android forensics tookit",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/osservatorionessuno--bugbane.json",
-  "sha256": "036d2c254f8021ff35824bf922d6cfecb30794e15d385cd1cf1c5890ef2f32b4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bb8d21cc64d97d3838bf4840d1475e60e62aa81ec57face909bcf6f7f06a9eb8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f07fb24ce818e8d7394e9f9f98191d6ea6c294a9",
+  "commit": "eb42761a0ff755f8772f51aff747a185fd6148ae",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f07fb24ce818e8d7394e9f9f98191d6ea6c294a9"
+  "swhid": "swh:1:rev:eb42761a0ff755f8772f51aff747a185fd6148ae"
  },
  "repo": "osservatorionessuno/bugbane",
  "web": "https://bugbane.org"

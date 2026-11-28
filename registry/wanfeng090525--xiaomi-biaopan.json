@@ -8,18 +8,9 @@
  },
  "descripcion": "小米表盘工具（Xiaomi-BiaoPan）：接入微验原生 SDK 网络验证",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/wanfeng090525--xiaomi-biaopan.json",
-  "sha256": "1811bd265be1989bd8d880279c27eea6398c38af78ad33aebf35f3f4abedbc5b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c19e37daebe6b5474bfb6d71542ddf7dfab6e066503631be0aa097558585346e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "Xiaomi-BiaoPan",

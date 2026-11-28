@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Morphe app patcher for Android",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lovedolove-forked-projects--morphe-manager.json",
-  "sha256": "0576ca275e02e74c7845637c2b55b35b9969e61349aa3a6aeda649960239fab1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "560b2ebb68cdbe611fda9bc4421000dbf5d3c711d8982b370e86e2b6b5d07f86"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d9f78dfbee3f4e1db0cd30b76a57bd10dbaae3f7",
+  "commit": "e50e571ae84c38709a43b6ca114a43bdcc5206aa",
   "swh_estado": null,
-  "swhid": "swh:1:rev:d9f78dfbee3f4e1db0cd30b76a57bd10dbaae3f7"
+  "swhid": "swh:1:rev:e50e571ae84c38709a43b6ca114a43bdcc5206aa"
  },
  "repo": "LoveDoLove-Forked-Projects/morphe-manager"
 }

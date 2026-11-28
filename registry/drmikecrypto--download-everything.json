@@ -8,18 +8,9 @@
  },
  "descripcion": "Free ad-free video downloader for Windows/macOS/Linux/Android — Instagram Reels & Stories, TikTok, YouTube, X/Twitter, 1800+ sites via yt-dlp. Open source by drmikecrypto.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/drmikecrypto--download-everything.json",
-  "sha256": "22fd5c9669e132494f42d9294136bb489185a00e9df9c00702a1dae5c56755d9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1f22a736187ef7e3446cb3113c90198c29d86ca3d58a8a141688c35562e2a00d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

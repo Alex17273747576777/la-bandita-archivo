@@ -4,22 +4,13 @@
   "release_en": "2026-09-27",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-07"
+  "ultimo_push": "2026-11-15"
  },
  "descripcion": "Toggle your Android Work Profile using Samsung Modes and Routines.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ownik--work-profile-switch-android.json",
-  "sha256": "3e49b6672db132601abb8a534a2fc0a04884a70d5dcb341157641dd13d3d2d73"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "af6de1ad5c48ca96ad7a434cc3fd304188ab0ccf8464774a6772a4cc1a6bbeb7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "work-profile-switch-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "8dad3c8bdfff253263cc1b0fc55919757ee11ab2",
+  "commit": "afcb2cb6a601c58413a40a1001455b46b88eecbf",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:8dad3c8bdfff253263cc1b0fc55919757ee11ab2"
+  "swhid": "swh:1:rev:afcb2cb6a601c58413a40a1001455b46b88eecbf"
  },
  "repo": "ownik/work-profile-switch-android"
 }

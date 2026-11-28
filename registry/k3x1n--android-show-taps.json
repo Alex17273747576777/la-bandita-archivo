@@ -8,18 +8,9 @@
  },
  "descripcion": "Show customized taps upon touches. Shizuku required.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/k3x1n--android-show-taps.json",
-  "sha256": "96a4d075843cf0e1dd9cde632e5d7247ccf70e366eaaef720187bf06bd37009e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "38abca00ba55f5ee4f10202e530863ed0f5acfd70b84822c290501b8816ab843"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 47,
+  "stars": 45,
   "stars_por_mes": null
  },
  "nombre": "Android-Show-Taps",

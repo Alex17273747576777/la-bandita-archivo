@@ -4,22 +4,13 @@
   "release_en": "2015-04-24",
   "semantica_http": 200,
   "ultima_release": "0.0.18",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Open-source VPN for speed, privacy, and censorship circumvention. Free to download on Android, iOS, Windows, macOS, and Linux.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/getlantern--lantern.json",
-  "sha256": "a90e68f2c62ab1432d09d9259d466ff38d8a5d2071dd0ff0da58597fc3636140"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8bc7ed833c587128bf268d01a56af5b4b055bce044401da992adc8f85d9d1dad"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 16652,
+  "stars": 16956,
   "stars_por_mes": null
  },
  "nombre": "lantern",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9162c2468e7bafa7ee96de5132a95e43da75c341",
+  "commit": "49520c116abf95717681cfffdcaab35aea14d4c5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9162c2468e7bafa7ee96de5132a95e43da75c341"
+  "swhid": "swh:1:rev:49520c116abf95717681cfffdcaab35aea14d4c5"
  },
  "repo": "getlantern/lantern"
 }

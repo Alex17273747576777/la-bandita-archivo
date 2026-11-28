@@ -4,22 +4,13 @@
   "release_en": "2026-10-26",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-08"
  },
  "descripcion": "CarDroid: customizable Android launcher and wireless car display sharing",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pavunato--cardroid.json",
-  "sha256": "73eba7a65de60598501133a9d5af1c45e744077e8bd1926471165f4763674170"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d7bfdca689103bbde3968b85f7397281a11c6e3d36270a719b24007eb1d7daeb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5,
+  "stars": 6,
   "stars_por_mes": null
  },
  "nombre": "CarDroid",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2466f53fe91841ec4d60a9022236cd17dbb1bffd",
+  "commit": "60e7fb9b59c1e6faff58c60b1acbf4fa396b5f5f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:2466f53fe91841ec4d60a9022236cd17dbb1bffd"
+  "swhid": "swh:1:rev:60e7fb9b59c1e6faff58c60b1acbf4fa396b5f5f"
  },
  "repo": "pavunato/CarDroid",
  "web": "https://pavunato.github.io/CarDroid/"

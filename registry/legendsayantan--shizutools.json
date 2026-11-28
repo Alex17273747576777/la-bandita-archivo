@@ -8,18 +8,9 @@
  },
  "descripcion": "Contains many tools to control android system via shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/legendsayantan--shizutools.json",
-  "sha256": "341d4c43fb8214d6e8346e5158a19fed1b5529edaec64055cde5f897b9d47f5b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2b1c29aae401115fdded898a6234012286dd7672dc9e98d08cf73e6f7ba6282a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2647,
+  "stars": 2699,
   "stars_por_mes": null
  },
  "nombre": "ShizuTools",

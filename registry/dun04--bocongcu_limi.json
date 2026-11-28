@@ -3,23 +3,14 @@
   "estado": "vivo",
   "release_en": "2026-10-18",
   "semantica_http": 200,
-  "ultima_release": "v1.3.7.5.ntd",
-  "ultimo_push": "2026-10-26"
+  "ultima_release": "v1.3.9.2.ntd",
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dun04--bocongcu_limi.json",
-  "sha256": "39ec18b58f0a02d02bc7eb0ed4f1af908a5459a24542f8d14650c96c859cb2dd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "33b1767c199d417b0be25348174b762e4070b4d807bdbce0a529c18caf2ed565"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "cecf033536dd23f9bec3540f52926db84ce2b077",
+  "commit": "47883a6273a717a76c05d92f5ed3ece6eea3c771",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:cecf033536dd23f9bec3540f52926db84ce2b077"
+  "swhid": "swh:1:rev:47883a6273a717a76c05d92f5ed3ece6eea3c771"
  },
  "repo": "dun04/Bocongcu_Limi"
 }

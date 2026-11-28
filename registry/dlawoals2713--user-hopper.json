@@ -8,18 +8,9 @@
  },
  "descripcion": "Enable the Guest or Multi user feature, on Android devices that do not natively support Multi User feature. (known as Guest-Manager)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dlawoals2713--user-hopper.json",
-  "sha256": "44f5ac41601e6683701d9c5897b1c5c12e7da3c68e01c6ff8430a8a21f7250a4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "705be1ad8083c53d7553d76f769c443bb7a80348de0dc663e12ec92bae8db725"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6,
+  "stars": 7,
   "stars_por_mes": null
  },
  "nombre": "User-Hopper",

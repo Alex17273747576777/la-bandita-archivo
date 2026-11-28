@@ -8,18 +8,9 @@
  },
  "descripcion": "🎚️ Enable 3-button navigation in rhythm games for MIUI / HyperOS",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/chiyuki0325--navigationswitcher.json",
-  "sha256": "0829e9fe61f8744bce9140bebef2c3b7786b1d63b1267e19a1227bf8f9232a3e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bb287af3853939adf5f748d8ac6e27a1753747f8f77a39434d67db8beb4e2269"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

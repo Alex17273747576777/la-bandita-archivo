@@ -4,22 +4,13 @@
   "release_en": "2026-10-10",
   "semantica_http": 200,
   "ultima_release": "v0.4.58-rc1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "AutoBridge",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/guitar-dev-io--autobridge.json",
-  "sha256": "32134080187b59c40a72ebadd6fc0c3c1ff3eda7f5dd0d4aa7fdefb4923690eb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f3750b37a8389933c6b69a619ee564acd4c627351cb9e00299843fcd7f24287d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4,
+  "stars": 5,
   "stars_por_mes": null
  },
  "nombre": "autobridge",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "21578259d3ea2935938f75c1fdf22744cffa32a1",
+  "commit": "f36bdf201e6aa65ada6d3445cdeea513456da514",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:21578259d3ea2935938f75c1fdf22744cffa32a1"
+  "swhid": "swh:1:rev:f36bdf201e6aa65ada6d3445cdeea513456da514"
  },
  "repo": "guitar-dev-io/autobridge"
 }

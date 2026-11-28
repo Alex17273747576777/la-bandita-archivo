@@ -4,22 +4,13 @@
   "release_en": "2026-10-16",
   "semantica_http": 200,
   "ultima_release": "v0.4.0",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/garouthehumanmonster--apkrevive.json",
-  "sha256": "d986e21c7d22284fdc878584d45fa934dac399cbea17c2b325543093c76de9c3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d762f3294664144c8aeca3650781d3c3aa8d77d813167a66a3bd4acdda3129c5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

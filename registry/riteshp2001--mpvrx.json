@@ -4,22 +4,13 @@
   "release_en": "2026-04-29",
   "semantica_http": 200,
   "ultima_release": "v1.3.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "The most Powerful, Efficient + Feature-packed media player fork you’ll find anywhere.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/riteshp2001--mpvrx.json",
-  "sha256": "b640e82a0b2341550dc04667892338f85383cb8a99fdd83e6e9fb52505f8a18a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e4fb8715a86f0f2959dab8236382ff67f1162cda24b790918b96a6e1a06afae1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 883,
+  "stars": 989,
   "stars_por_mes": null
  },
  "nombre": "mpvRx",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "f090f932e0a9923448e0133a65a2ab7ebde496ca",
+  "commit": "a4707b786e07070a9dd320a1ac85dc7aad2b2ff7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f090f932e0a9923448e0133a65a2ab7ebde496ca"
+  "swhid": "swh:1:rev:a4707b786e07070a9dd320a1ac85dc7aad2b2ff7"
  },
  "repo": "Riteshp2001/mpvRx",
  "web": "https://mpvrx.vercel.app"

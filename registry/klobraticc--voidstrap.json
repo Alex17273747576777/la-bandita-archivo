@@ -4,22 +4,13 @@
   "release_en": "2026-07-28",
   "semantica_http": 200,
   "ultima_release": "v1.1.0.5",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Voidstrap is a simple yet advanced fork of Bloxstrap, advanced customization and improvements.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/klobraticc--voidstrap.json",
-  "sha256": "cd3df09a007009c8a903b777ddc51ef3ca9439bfd48b754816578bd5832bee9e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "077138d8b4b0cb0b4e27c6ad5c6aa0e49e80f117f99e7d40ec37b2964e5cbae9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -31,24 +22,24 @@
  "licencia": {
   "archivo": null,
   "metodo": "spdx-api",
-  "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 114,
+  "stars": 152,
   "stars_por_mes": null
  },
  "nombre": "Voidstrap",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "c6e3904646b457a601c07ce18b41b4010e732032",
+  "commit": "2e0b4b08be4b15193e00a204cf3a313fdf334c9b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:c6e3904646b457a601c07ce18b41b4010e732032"
+  "swhid": "swh:1:rev:2e0b4b08be4b15193e00a204cf3a313fdf334c9b"
  },
  "repo": "KloBraticc/Voidstrap",
  "web": "https://voidstrapp.pages.dev"

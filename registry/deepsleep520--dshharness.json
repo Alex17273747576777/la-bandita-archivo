@@ -8,18 +8,9 @@
  },
  "descripcion": "装一个 APK，安卓手机就多了一整台 Linux：PRoot + Alpine + Node.js 跑起 AI 编程助手 dsh 的 Web UI，无需 root / Termux / 电脑，装完点开即用（带确定性进度条）。真机存储三入口直通（/mnt/sdcard、/sdcard、/storage/emulated/0），DCIM/Pictures/Movies/Android 可只读保护；五种控制档位（自动/无障碍/Root/Shizuku/基础），授权后 AI 可直接点按、输入、截屏操作手机；支持局域网访问、会话导入导出、dsh 插件体系。零数据收集、不内置密钥。仅 arm64 · Android 8.0+ · Apache-2.0 开源。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/deepsleep520--dshharness.json",
-  "sha256": "1bb6339c7ea3d46e94646b82d1b7afe330fde055ee300af17f2ed697e682d0e2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7a1129cad44aa8e1c9afd1eb17cf03ba1f038c23c6204872253648e7b21cdaf4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,13 +24,13 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 18,
+  "stars": 20,
   "stars_por_mes": null
  },
  "nombre": "DSHHarness",

@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
    "committedDate": "2026-10-29T11:14:50Z",
    "oid": "cdd1a4f622e4903fd6897868866bad901c0cc52b"
   }
  },
- "diskUsage": 9111,
+ "diskUsage": 8859,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "GPL-3.0"
  },
  "nameWithOwner": "Zokii0/Orion-Store",
- "pushedAt": "2026-10-29T19:15:38Z",
+ "pushedAt": "2026-11-24T18:57:14Z",
  "releases": {
   "nodes": []
  },

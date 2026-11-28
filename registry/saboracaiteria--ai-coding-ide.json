@@ -4,22 +4,13 @@
   "release_en": "2026-10-23",
   "semantica_http": 200,
   "ultima_release": "v2.3.4-delux",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "⚡ AI Coding IDE — Compilador Nativo & IA Autônoma no Celular (Android)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/saboracaiteria--ai-coding-ide.json",
-  "sha256": "13a6568c1570b66e3ab283546a1d375939cb17a0dd09ed084b81eb76a6fbe4fa"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "028e224befe47ee599866485a3d676857be297c58a830e91abd2242e69bbc8c2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8,
+  "stars": 13,
   "stars_por_mes": null
  },
  "nombre": "AI-Coding-IDE",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "0932518325e0de8d3d2abf934972b158677f3201",
+  "commit": "bdc9d20f7e7badd5e03a80e4b81e376341b64c9d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:0932518325e0de8d3d2abf934972b158677f3201"
+  "swhid": "swh:1:rev:bdc9d20f7e7badd5e03a80e4b81e376341b64c9d"
  },
  "repo": "saboracaiteria/AI-Coding-IDE",
  "web": "https://saboracaiteria.github.io/AI-Coding-IDE/"

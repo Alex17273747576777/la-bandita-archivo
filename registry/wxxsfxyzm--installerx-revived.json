@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "estado": "vivo",
+  "release_en": "2025-01-26",
+  "semantica_http": 200,
+  "ultima_release": "v2.0",
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/wxxsfxyzm--installerx-revived.json",
-  "sha256": "a4083d1f4e99a53e3052ea986f8c316faef24c54f981978307a56189cc2eb62b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "60d05172e6bd8c3fe28a9f61b31cc38e04a6f4d11e7adafa3c7d000b45d47ef0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 7715,
   "stars_por_mes": null
  },
  "nombre": "InstallerX-Revived",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "caccb787c1a4189da3f917eb990fb949305e3899",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:caccb787c1a4189da3f917eb990fb949305e3899"
  },
  "repo": "wxxsfxyzm/InstallerX-Revived",
  "web": "https://wxxsfxyzm.github.io/InstallerX-Revived-Website"

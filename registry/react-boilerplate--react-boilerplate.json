@@ -8,18 +8,9 @@
  },
  "descripcion": "🔥 A highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/react-boilerplate--react-boilerplate.json",
-  "sha256": "df36a0bb34f2d7ce54984a5ba476fcda96642ecb9cfa995b00fefd02e3e479d3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "140deb448ed07b49f2c09e3eec538dcb1b3beb151a03dc3164de8eef5875c73a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 29447,
+  "stars": 29431,
   "stars_por_mes": null
  },
  "nombre": "react-boilerplate",

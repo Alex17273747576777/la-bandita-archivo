@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
    "committedDate": "2026-10-16T22:56:02Z",
    "oid": "daedf84461a814abce9d313c2f0e24af2e9353f1"
   }
  },
- "diskUsage": 106944,
+ "diskUsage": 105955,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -28,5 +28,5 @@
    }
   ]
  },
- "stargazerCount": 4
+ "stargazerCount": 5
 }

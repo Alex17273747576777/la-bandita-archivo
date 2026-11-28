@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-11-08",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-02"
+  "ultima_release": "tevriq-v5.0-r8",
+  "ultimo_push": "2026-11-09"
  },
  "descripcion": "Universal search app for Android which can search apps, shortcuts, contacts, fil",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tevriqorg--quick-search.json",
-  "sha256": "fbedd054324da62cdc298f8a949faefa3158c9d3e44b71993051697b4024f798"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "512d69deba365d754c8139beb2f0af9f28f8042b2539e95d7afcc9446f727b54"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e807f2e34de59430e9118e3d11cff4f4b2b00865",
+  "commit": "da2354fb44ce15bc86f2ff0e881d8b9dc96ba34c",
   "swh_estado": null,
-  "swhid": "swh:1:rev:e807f2e34de59430e9118e3d11cff4f4b2b00865"
+  "swhid": "swh:1:rev:da2354fb44ce15bc86f2ff0e881d8b9dc96ba34c"
  },
  "repo": "tevriqorg/quick-search"
 }

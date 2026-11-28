@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-04"
+  "ultimo_push": "2026-11-17"
  },
  "descripcion": "An AI Agent that lives in your pocket. Local-first and privacy focused.",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/c1x1x00xxpentium--anythingllm-mobile.json",
-  "sha256": "3497f69678ea3ef61e9a0c2bc92fafd33af0a572e75d69a7a74ceeb63bd8652d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7b3b93e9a61d063c37a5025f97b0fa8499560e892b28db2d4c7d0421f3ea227f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ee4efe28f2c6df816de103307c2155490ae9de9d",
+  "commit": "fef1fe7f9fdfba7895f68aa4b28d332ae510ddc3",
   "swh_estado": null,
-  "swhid": "swh:1:rev:ee4efe28f2c6df816de103307c2155490ae9de9d"
+  "swhid": "swh:1:rev:fef1fe7f9fdfba7895f68aa4b28d332ae510ddc3"
  },
  "repo": "c1x1x00xxPentium/anythingllm-mobile"
 }

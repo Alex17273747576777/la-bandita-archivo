@@ -8,18 +8,9 @@
  },
  "descripcion": "An open-source auto clicker on images for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/nain57--smart-autoclicker.json",
-  "sha256": "b40c8bd7ac285d474a251c1497eda93bb1765c1dbaed616ec48c3922b2501285"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "202f46f7d6f5f6db0c1959bf2dc2bdb141463767418acb7d088c8bf5fe7d0dbe"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3739,
+  "stars": 3810,
   "stars_por_mes": null
  },
  "nombre": "Smart-AutoClicker",

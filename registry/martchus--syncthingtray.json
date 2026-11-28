@@ -4,22 +4,13 @@
   "release_en": "2016-09-14",
   "semantica_http": 200,
   "ultima_release": "v0.0.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Tray application and Dolphin/Plasma integration for Syncthing",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/martchus--syncthingtray.json",
-  "sha256": "4c00f7f2336748ce17af85d58b6e6620c96781530b97bddc60b109cb57cafbe7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9c651866c4fd8b6d24354c0cf371227d25f22840bb1d84ac405b43c36b8f3fd0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2993,
+  "stars": 3016,
   "stars_por_mes": null
  },
  "nombre": "syncthingtray",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7a45de2cc1cdf38d7ffadb8b718061a371274cef",
+  "commit": "7cd8c44915cb6ecb8fdfe807af569a0b6dbb4ec3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:7a45de2cc1cdf38d7ffadb8b718061a371274cef"
+  "swhid": "swh:1:rev:7cd8c44915cb6ecb8fdfe807af569a0b6dbb4ec3"
  },
  "repo": "Martchus/syncthingtray",
  "web": "https://martchus.github.io/syncthingtray/"

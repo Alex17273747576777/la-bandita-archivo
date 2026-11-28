@@ -8,18 +8,9 @@
  },
  "descripcion": "DEPRECATED — merged into com.termux.agora (see marx161-cmd/agora). Archived karl-9000 Kai APK fork.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/marx161-cmd--karl-9000.json",
-  "sha256": "5277128579a8dfbc17a250b45b6d196a007164bb3f9b630147c232555f7ce7e6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1cf3ce38470da1cd3dd74aa42f14396476c3c47a2863f5242860e3020321fa28"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4,
+  "stars": 5,
   "stars_por_mes": null
  },
  "nombre": "karl-9000",

@@ -4,22 +4,13 @@
   "release_en": "2024-08-07",
   "semantica_http": 200,
   "ultima_release": "2-1.1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Catsmoker app - Game FPS Unlocker, Gaming Booster.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/catsmoker--catsmoker-app.json",
-  "sha256": "a3844f32549bcd8976071acf714d74472fc496620e48c6fc68d12fa59e398b6a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4b7c12f98659a78b38c9988f7df01baf318d76aeecc90e3ca6c76e69d81b2fe6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,23 +24,23 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («noncommercial»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 135,
+  "stars": 151,
   "stars_por_mes": null
  },
  "nombre": "catsmoker-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e449421b6ea84615c931a6bffefd1a6ab60788e4",
+  "commit": "312cd50fe040fc8b650dd8fd821efe3c6d4ec4c3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e449421b6ea84615c931a6bffefd1a6ab60788e4"
+  "swhid": "swh:1:rev:312cd50fe040fc8b650dd8fd821efe3c6d4ec4c3"
  },
  "repo": "catsmoker/catsmoker-app",
  "web": "https://catsmoker.github.io/"

@@ -4,22 +4,13 @@
   "release_en": "2026-04-23",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Immersion language-learning suite: EPUB reader, video subtitle lookup, audiobook sync, and one-tap Anki mining. Android / Windows / macOS / iOS.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hajisensai--fushi.json",
-  "sha256": "35e05648910a7b58bc2b10388af6b1e6f6c825271533d23d98899326c1f64096"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c39173f7d07ca11bf5ed2c89e3adff53f5d214e640825c56365ed4f14de96831"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 733,
+  "stars": 942,
   "stars_por_mes": null
  },
  "nombre": "Fushi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "4de654db2f58177646deedc692dbfeb8fe5e60b0",
+  "commit": "efce8c85a9068b88a8184b9abc8ad457a7f9618b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4de654db2f58177646deedc692dbfeb8fe5e60b0"
+  "swhid": "swh:1:rev:efce8c85a9068b88a8184b9abc8ad457a7f9618b"
  },
  "repo": "hajisensai/Fushi"
 }

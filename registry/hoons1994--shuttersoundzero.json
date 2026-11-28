@@ -4,22 +4,13 @@
   "release_en": "2026-09-18",
   "semantica_http": 200,
   "ultima_release": "v1.5.4",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "ShutterSoundZero App repository",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hoons1994--shuttersoundzero.json",
-  "sha256": "d5c1256fd5a9a4a115b9d02f1d27520d621908c892cd9db0aa40851c6af47761"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "60a2fb6fbfce266bd08d56537ca2d02e45be50fe7cd8d2c0b63403c795affb1d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 95,
+  "stars": 108,
   "stars_por_mes": null
  },
  "nombre": "ShutterSoundZero",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "8f4f741d7a5c41968ce828d56afc3afd095d4e19",
+  "commit": "c7c20455aad821db0a9682a595126b2738cd9232",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:8f4f741d7a5c41968ce828d56afc3afd095d4e19"
+  "swhid": "swh:1:rev:c7c20455aad821db0a9682a595126b2738cd9232"
  },
  "repo": "hoons1994/ShutterSoundZero"
 }

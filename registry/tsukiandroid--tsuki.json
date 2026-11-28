@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-24",
+  "release_en": "2026-11-26",
   "semantica_http": 200,
-  "ultima_release": "beta-latest",
-  "ultimo_push": "2026-11-02"
+  "ultima_release": "stable-latest",
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "🌙 Android Manga and Light Novel Reader with 1200+ sources, auto parser detection, Android 6+",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tsukiandroid--tsuki.json",
-  "sha256": "1c6efc8129836b265c7a18b6fd4050ad4861e64a9145cd6c0836903a9df152fc"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5e0f8dd2d9d04daf03676e9f98d4c91181e7837b7774a5fc1abc2b5efcf9aa7e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 38,
+  "stars": 46,
   "stars_por_mes": null
  },
  "nombre": "Tsuki",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "264d7d6eae1ca56abc47f2c07ba2c96ff64b016e",
+  "commit": "54b28b41961cddabf33c29422054f4e4107159cb",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:264d7d6eae1ca56abc47f2c07ba2c96ff64b016e"
+  "swhid": "swh:1:rev:54b28b41961cddabf33c29422054f4e4107159cb"
  },
  "repo": "TsukiAndroid/Tsuki",
  "web": "https://tsukiapp.vercel.app/"

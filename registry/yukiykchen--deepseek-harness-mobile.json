@@ -4,22 +4,13 @@
   "release_en": "2026-08-26",
   "semantica_http": 200,
   "ultima_release": "v0.0.1",
-  "ultimo_push": "2026-10-12"
+  "ultimo_push": "2026-11-12"
  },
  "descripcion": "deepseek harness 移动端app，可以远程连接电脑端的 dsh web，也可以在手机本地启动 dsh agent，随时随地使用你的 DSH agent",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yukiykchen--deepseek-harness-mobile.json",
-  "sha256": "9a45c6a9c585907e72d9041d1f11d6a634bd01560f9ccd5bb838ce71c9079d84"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "31bd6dede00ac57a1f7b38cfa15737bdf31177c272e26d69a7ef7d12b31278a1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 53,
+  "stars": 59,
   "stars_por_mes": null
  },
  "nombre": "deepseek-harness-mobile",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "30a92c00bc98f1bfbdbd0f9b1135c6f800850580",
+  "commit": "e2289cad65fc4306d1d9f1b3518cce7e1f01872b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:30a92c00bc98f1bfbdbd0f9b1135c6f800850580"
+  "swhid": "swh:1:rev:e2289cad65fc4306d1d9f1b3518cce7e1f01872b"
  },
  "repo": "yukiykchen/deepseek-harness-mobile"
 }

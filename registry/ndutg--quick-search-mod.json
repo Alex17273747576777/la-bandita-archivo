@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "An universal search app for Android which can search apps, shortcuts, contacts, files, calendar events, notes, settings and the internet.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ndutg--quick-search-mod.json",
-  "sha256": "e1e1daa7805e36d856fbdd98f393bf81b15b38a7e32ee8efefaa5d3580a842f8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3be7402d86c54f10218341838950085921eac668fbd4f1be69985ebe5dae479a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "4f52fb1d9ae5580e30fbff3089e65e76e76a9bbb",
+  "commit": "edfd92dec562f96f80d7f6f0dd6d262d391db836",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4f52fb1d9ae5580e30fbff3089e65e76e76a9bbb"
+  "swhid": "swh:1:rev:edfd92dec562f96f80d7f6f0dd6d262d391db836"
  },
  "repo": "ndutg/quick-search-mod"
 }

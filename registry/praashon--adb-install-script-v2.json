@@ -8,18 +8,9 @@
  },
  "descripcion": "Desktop app for managing Android devices from Windows. Install APKs via drag and drop, mirror and control your screen with built-in SCRCPY, pair devices wirelessly, review APK permissions before install, and monitor live logcat output.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/praashon--adb-install-script-v2.json",
-  "sha256": "a16717db77a61870f9dcca5120d92437a4faac3e44d811f56b4eeec595c8d5c1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c1e0dd8c427b587c2a3264c67491b3f6866da11ed286d12b3560fbfca0ecea2c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

@@ -4,22 +4,13 @@
   "release_en": "2025-03-22",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "🍅 番茄小说下载器 | 支持Windows/macOS/Linux/android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pof-l--fanqie-novel-downloader.json",
-  "sha256": "ae7546c9e3709da495f4e877145cfb30cc4b76a8019edd5ebd819a4dd55a564d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7ff062aa88895500b5b22f4941736d7c76efc328f9dd697d9f35a1ddd54f6da8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2801,
+  "stars": 3318,
   "stars_por_mes": null
  },
  "nombre": "Fanqie-novel-Downloader",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "c21dc7fbff72f7693cee22cc6efd49c0a7cf2222",
+  "commit": "fe649f19e4b6c61087b0aaaff292bdecae07d8e4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:c21dc7fbff72f7693cee22cc6efd49c0a7cf2222"
+  "swhid": "swh:1:rev:fe649f19e4b6c61087b0aaaff292bdecae07d8e4"
  },
  "repo": "POf-L/Fanqie-novel-Downloader"
 }

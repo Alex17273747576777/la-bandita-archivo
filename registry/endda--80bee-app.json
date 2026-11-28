@@ -4,22 +4,13 @@
   "release_en": "2026-06-07",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-07-10"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "Bringing the Power of ADB Directly to Your Device",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/endda--80bee-app.json",
-  "sha256": "3e5630cb16bc9a28e15230194292e2bc8573ef651ebb39fd14dc68d874978946"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a7666cc3f866db0221032472825d70e2b62ff43244b62027e1c96da10b55344d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -31,24 +22,24 @@
  "licencia": {
   "archivo": null,
   "metodo": "spdx-api",
-  "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 114,
+  "stars": 126,
   "stars_por_mes": null
  },
  "nombre": "80bee-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "26fd788cd0cc4305f2b66df0d8c93d7aa8bcf314",
+  "commit": "41529116e1a435841a0968b018016e4838d235a1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:26fd788cd0cc4305f2b66df0d8c93d7aa8bcf314"
+  "swhid": "swh:1:rev:41529116e1a435841a0968b018016e4838d235a1"
  },
  "repo": "Endda/80bee-app",
  "web": "https://80bee.com/"

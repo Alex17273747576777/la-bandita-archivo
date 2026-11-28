@@ -4,22 +4,13 @@
   "release_en": "2018-08-26",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "NOVA opeN sOurce Video plAyer: main repository to build them all",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/nova-video-player--aos-avp.json",
-  "sha256": "7eba2afe63c4dc714e86ebc91d9fd4f546e61fd590ce30f2c901c955db9a8668"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7d6531822f0966adc0f4bb31e1186a974baeb396debfbbdee3277e1d275d34f2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4778,
+  "stars": 4842,
   "stars_por_mes": null
  },
  "nombre": "aos-AVP",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5c5d4ec81b47ba59be8f91c9d877b49b0ab1c01e",
+  "commit": "1413fbfa1a201feaf880a19227448328e446a2ba",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5c5d4ec81b47ba59be8f91c9d877b49b0ab1c01e"
+  "swhid": "swh:1:rev:1413fbfa1a201feaf880a19227448328e446a2ba"
  },
  "repo": "nova-video-player/aos-AVP"
 }

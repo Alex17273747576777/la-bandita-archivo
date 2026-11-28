@@ -8,18 +8,9 @@
  },
  "descripcion": "AMOLED notification LED for Android 10+. A glowing ring around your camera cutout, a black always-on screen with app icons, 9 animations, per-app colours, very low battery use. Works on any brand (HyperOS, One UI, ColorOS…), with optional Shizuku/root one-tap setup.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ankitchanki--led.json",
-  "sha256": "df4babd66f1166b780ae13054d832c48aed0e570d5faaf07dceaab01b30853b1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "16a2207812441e8db658e73c5c722bbd7d8dc60228e263d12b48a15e89661533"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5,
+  "stars": 8,
   "stars_por_mes": null
  },
  "nombre": "LED",

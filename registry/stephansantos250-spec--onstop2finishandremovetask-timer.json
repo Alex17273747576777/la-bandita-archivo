@@ -4,22 +4,13 @@
   "release_en": "2026-10-27",
   "semantica_http": 200,
   "ultima_release": "v2.0.6-timer",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-18"
  },
  "descripcion": "Versão não oficial com temporizador de 1–5 minutos e filtros de apps instalados/sistema. Requer Shizuku. Baseado no projeto de takusan23, Apache-2.0.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/stephansantos250-spec--onstop2finishandremovetask-timer.json",
-  "sha256": "269c371002aa433e1994dc462113fad9f3e86ef6b5bb97b9f8763bc5173d6ec7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ae80f3dee44cb0c696dd61820a7553e03841216d9e4ea84220317caed016014b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "51020a56cee6efa0d40eaacfe92a1de8ecae4aca",
+  "commit": "e364d4076134952cf1e59c2681b25f1a686ed785",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:51020a56cee6efa0d40eaacfe92a1de8ecae4aca"
+  "swhid": "swh:1:rev:e364d4076134952cf1e59c2681b25f1a686ed785"
  },
  "repo": "stephansantos250-spec/OnStop2FinishAndRemoveTask-Timer"
 }

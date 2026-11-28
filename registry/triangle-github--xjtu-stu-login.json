@@ -8,18 +8,9 @@
  },
  "descripcion": "西交 XJTU-STU 校园网（深澜 Srun）自动登录 / 保活 Android App · GPL-3.0 · 纯 Kotlin 协议引擎",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/triangle-github--xjtu-stu-login.json",
-  "sha256": "c8f00aeaf8d1cc0b2a0ccaeadce753b8aa23a438da41b29efcfcc0e89d81d636"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "92091bf80cfbcc7a20b2445cd52c0ae7533b25f10132c08e59a79110364c215b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

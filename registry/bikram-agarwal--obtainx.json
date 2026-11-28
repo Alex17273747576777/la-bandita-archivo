@@ -4,22 +4,13 @@
   "release_en": "2026-03-06",
   "semantica_http": 200,
   "ultima_release": "v1.3.4",
-  "ultimo_push": "2026-10-05"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Get Android app updates straight from the source. And install it any way you want. ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/bikram-agarwal--obtainx.json",
-  "sha256": "75ca369e091b1c7ac6dfcfe354b6396277a80eb60e79c84223c5bab7d2998929"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "448891077757296a228ee997cc898d9aa1e65b3e445a6255c5b37844127b2f40"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1591,
+  "stars": 1711,
   "stars_por_mes": null
  },
  "nombre": "ObtainX",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "aea18592413de992e813bd063cb9ad453259582b",
+  "commit": "c40c9493c3d46a47347214a7d59aa51f8530905a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:aea18592413de992e813bd063cb9ad453259582b"
+  "swhid": "swh:1:rev:c40c9493c3d46a47347214a7d59aa51f8530905a"
  },
  "repo": "bikram-agarwal/ObtainX",
  "web": "https://bikram-agarwal.github.io/"

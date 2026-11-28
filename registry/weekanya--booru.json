@@ -4,22 +4,13 @@
   "release_en": "2026-08-29",
   "semantica_http": 200,
   "ultima_release": "1.0",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-10"
  },
  "descripcion": "Booru is your all-in-one app for viewing content from the most popular booru sites!",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/weekanya--booru.json",
-  "sha256": "c81a32b9435ac4201ee0db92310e8b2ca9790dd4c5f47def8eafae6948d4dbb4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5cb9d0d2d2cb9475117bb01eafea1233b8848a32ca242cfdcf2e0f23b9ed11b0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 20,
+  "stars": 22,
   "stars_por_mes": null
  },
  "nombre": "Booru",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "077ae27d1db4b6cc20715ed35a96beab65965ef0",
+  "commit": "8858b8bda0c838486dbfd8e1f1a61ab23021ffe1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:077ae27d1db4b6cc20715ed35a96beab65965ef0"
+  "swhid": "swh:1:rev:8858b8bda0c838486dbfd8e1f1a61ab23021ffe1"
  },
  "repo": "weekanya/Booru"
 }

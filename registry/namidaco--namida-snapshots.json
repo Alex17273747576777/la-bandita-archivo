@@ -4,22 +4,13 @@
   "release_en": "2024-05-19",
   "semantica_http": 200,
   "ultima_release": "2.5.1-beta+240519184",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-20"
  },
  "descripcion": "beta builds for namida",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/namidaco--namida-snapshots.json",
-  "sha256": "6eefa322027805afab600e07f4c9a27f2bc8894583211481b17d646ceb96b132"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a7ee6199703e52accbbbd1a7d28f7a1cbda7e6f7015899aba4c97ba91385cec9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 196,
+  "stars": 210,
   "stars_por_mes": null
  },
  "nombre": "namida-snapshots",

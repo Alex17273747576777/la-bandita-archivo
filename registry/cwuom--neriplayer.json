@@ -4,22 +4,13 @@
   "release_en": "2025-09-20",
   "semantica_http": 200,
   "ultima_release": "NeriPlayer-8486763.09200951",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A native Android audio player that combines multi-source streaming, local control, rich lyrics, and self-hosted sync. / ✨ 一个把多源在线播放、本地管理、歌词体验和自建同步做进原生 Android 的音频播放器 🎵",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/cwuom--neriplayer.json",
-  "sha256": "4c9bbe69ff08440679f28d3cab673a5f02b41bd17587b7c3b5d18dc4178250d8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "312486949775a90b149e89c75040e34ccc9c262369dfb974bd10292650c7cff9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4071,
+  "stars": 4558,
   "stars_por_mes": null
  },
  "nombre": "NeriPlayer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a7debf9a15043fb72073cf137fe5c6b7bab72a53",
+  "commit": "771b6b008b6330ccee691e4be42914200044be84",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a7debf9a15043fb72073cf137fe5c6b7bab72a53"
+  "swhid": "swh:1:rev:771b6b008b6330ccee691e4be42914200044be84"
  },
  "repo": "cwuom/NeriPlayer",
  "web": "https://neri.kano.kim"

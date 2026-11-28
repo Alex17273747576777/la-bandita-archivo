@@ -4,22 +4,13 @@
   "release_en": "2023-07-26",
   "semantica_http": 200,
   "ultima_release": "0.0.1",
-  "ultimo_push": "2026-10-17"
+  "ultimo_push": "2026-11-13"
  },
  "descripcion": "Android package installer toolkit",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/solrudev--ackpine.json",
-  "sha256": "bc10c8eb154bcf39d48e4282034046879c7e173b160c28e8e2cb3d5e956ce122"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9c005ccee55cc020f27113efaa783de4a98d59e0484ef09059ad02c9e1c671e2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 186,
+  "stars": 189,
   "stars_por_mes": null
  },
  "nombre": "Ackpine",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6fe77aa6814a95a907ec948e58ccc0287e4479b5",
+  "commit": "1f8de5e5571d4206ae1fcbcd5e3d62fd23a4258f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:6fe77aa6814a95a907ec948e58ccc0287e4479b5"
+  "swhid": "swh:1:rev:1f8de5e5571d4206ae1fcbcd5e3d62fd23a4258f"
  },
  "repo": "solrudev/Ackpine",
  "web": "https://ackpine.solrudev.ru/"

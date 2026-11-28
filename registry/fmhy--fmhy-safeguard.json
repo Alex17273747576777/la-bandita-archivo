@@ -4,22 +4,13 @@
   "release_en": "2024-10-18",
   "semantica_http": 200,
   "ultima_release": "v1.0.1",
-  "ultimo_push": "2026-10-02"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "An extension that detects starred, safe, unsafe or potentially unsafe sites using the FMHY Filterlist.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/fmhy--fmhy-safeguard.json",
-  "sha256": "06a95535f77e58fef0844d209e761a017b76a308df68bbb7f24a43e49c2bf0d5"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "04a3001feae7603f608f5282addd8cf2ad350e2917f7a6b7210a43489643dc2f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 629,
+  "stars": 643,
   "stars_por_mes": null
  },
  "nombre": "FMHY-SafeGuard",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e20dd209541f49f42192b6827748448b2e5d820b",
+  "commit": "801324e14525020244cb616d5ff455df01ff363a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e20dd209541f49f42192b6827748448b2e5d820b"
+  "swhid": "swh:1:rev:801324e14525020244cb616d5ff455df01ff363a"
  },
  "repo": "fmhy/FMHY-SafeGuard"
 }

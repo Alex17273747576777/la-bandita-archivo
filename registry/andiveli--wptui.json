@@ -4,22 +4,13 @@
   "release_en": "2026-08-03",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Keyboard-driven WhatsApp client for the terminal (Rust/Ratatui + Go/whatsmeow)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/andiveli--wptui.json",
-  "sha256": "358d0605bb0afa29cd70f772d862de916aa914cadf29e641f7f919a16d85b7eb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b2863e401096b11475715a4b4e4676ea131dcbf1f57bbc4e53bdb2d3c3002d8e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 200,
+  "stars": 204,
   "stars_por_mes": null
  },
  "nombre": "wptui",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d6c1a57d615b39cb3746e34bce43fd30290a20cf",
+  "commit": "aba746b395395c83e3571959110cc65153598f30",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:d6c1a57d615b39cb3746e34bce43fd30290a20cf"
+  "swhid": "swh:1:rev:aba746b395395c83e3571959110cc65153598f30"
  },
  "repo": "Andiveli/wptui"
 }

@@ -4,22 +4,13 @@
   "release_en": "2026-10-02",
   "semantica_http": 200,
   "ultima_release": "ignorethislol",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Terminal For Q1-Q3 + other devices",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/banban465-tech--quest-terminal.json",
-  "sha256": "8e9d62d1fbb96d53062753a719a9a6a2f3ac51e130bf5fc47749046374bc7d4c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5456231a9c9c7e6c940b0d361014cea9a46021df9d4b7419bf28a5c4f17386be"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "776afb1894ddaf46ea93ec2320e94a3ebe27ed4b",
+  "commit": "2250c9a5725ea67a83c8040f611d6aaa6b62e6a2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:776afb1894ddaf46ea93ec2320e94a3ebe27ed4b"
+  "swhid": "swh:1:rev:2250c9a5725ea67a83c8040f611d6aaa6b62e6a2"
  },
  "repo": "Banban465-tech/Quest-Terminal"
 }

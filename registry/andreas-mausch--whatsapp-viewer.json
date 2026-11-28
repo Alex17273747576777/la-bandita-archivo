@@ -8,18 +8,9 @@
  },
  "descripcion": "Small tool to display chats from the Android msgstore.db database (crypt12)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/andreas-mausch--whatsapp-viewer.json",
-  "sha256": "e9bc99f4e223ca298cafeee83cd974a6934f4ec5dd22fef22802c0744f852192"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "eaa47fe1c7b4d42a89ea42a21aceece9df54be5342b78b26423584f58e8debd8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1445,
+  "stars": 1444,
   "stars_por_mes": null
  },
  "nombre": "whatsapp-viewer",

@@ -8,18 +8,9 @@
  },
  "descripcion": "NOTICE This repository contains the public FTC SDK for the SKYSTONE (2019-2020) competition season. If you are looking for the current season's FTC SDK software, please visit the new and permanent home of the public FTC SDK:  FtcRobotController repository  Welcome! This GitHub repository contains the source code that is used to build an Android app to control a FIRST Tech Challenge competition rob",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/chrisneagu--ftc-skystone-dark-angels-romania-2020.json",
-  "sha256": "86ce8c9e2091c978edf4a33a61328bc504b2916fdef9b2b355d805395ab6387a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "961f4864de150cf5a6ecb6b0490741b3f288f2abc20b7e36e0e4cb0d19a34823"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 322,
+  "stars": 328,
   "stars_por_mes": null
  },
  "nombre": "FTC-Skystone-Dark-Angels-Romania-2020",

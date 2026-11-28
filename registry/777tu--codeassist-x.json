@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-11-06",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "ndk-toolchain-bc0e812e6d6c",
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "An IDE for building Android applicatons on Android.",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/777tu--codeassist-x.json",
-  "sha256": "5c760ba57262ed28a45157e5a3eab967ef89b145a1bc364429b9c5610696225e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "632309aca3ab075c3a5ff1238dffbacd169b7bf418268beb4fdb1494fd28e15a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f4bca84e137def3432a41919371f013b1f5b8f08",
+  "commit": "5f9d1ecb088111e9b08307feab45fbbaf8e93ed6",
   "swh_estado": null,
-  "swhid": "swh:1:rev:f4bca84e137def3432a41919371f013b1f5b8f08"
+  "swhid": "swh:1:rev:5f9d1ecb088111e9b08307feab45fbbaf8e93ed6"
  },
  "repo": "777Tu/CodeAssist-X"
 }

@@ -4,22 +4,13 @@
   "release_en": "2026-10-10",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-24"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "Open-source Android launcher where everything is liquid glass (Jetpack Compose + AndroidLiquidGlass)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/linuxkernel44--openliquidlauncher.json",
-  "sha256": "a672dc79aed85b13dea43a4d2b4886cdf588ff2189ea437ad2e0ba604c3ba2fe"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "33d6f3fb556e5a99513653adc638eb08cabda554320829be1744a16530d0a0f6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 7,
   "stars_por_mes": null
  },
  "nombre": "OpenLiquidLauncher",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "606f7d85e56bd718ce48df9e20187961c2efc79a",
+  "commit": "d54747080ed89a87649eb38ef6a7cdb15596a3e9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:606f7d85e56bd718ce48df9e20187961c2efc79a"
+  "swhid": "swh:1:rev:d54747080ed89a87649eb38ef6a7cdb15596a3e9"
  },
  "repo": "LinuxKernel44/OpenLiquidLauncher"
 }

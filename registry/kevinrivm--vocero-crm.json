@@ -4,22 +4,13 @@
   "release_en": "2026-10-07",
   "semantica_http": 200,
   "ultima_release": "v1.4.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "CRM de WhatsApp open source y self-hosted con agente de IA y Laboratorio de auto-evaluacion",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kevinrivm--vocero-crm.json",
-  "sha256": "d1b540c64beae29afd61847eac785b99c7b99c2f7c1f78109966697747ea5713"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6f9ce34226b3a048ceb2b76334591e57482aa85c4fc759a88ed1b143e6d3869e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 408,
+  "stars": 503,
   "stars_por_mes": null
  },
  "nombre": "vocero-crm",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b29900d34668533d7f22ee7ebb8c3eb099c36bef",
+  "commit": "aa90a8146f05c836d0e1e242cb7f137e07b06e32",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b29900d34668533d7f22ee7ebb8c3eb099c36bef"
+  "swhid": "swh:1:rev:aa90a8146f05c836d0e1e242cb7f137e07b06e32"
  },
  "repo": "kevinrivm/vocero-crm"
 }

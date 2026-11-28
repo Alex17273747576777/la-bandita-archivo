@@ -8,18 +8,9 @@
  },
  "descripcion": "亦搜，亦看，亦闻  manga&novel reader, audio&video player in one app developed by flutter",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mabdc--eso.json",
-  "sha256": "286a497f3b2171127320bcf0a1a024f8fe866747091cba64574b2c0bdc8d3708"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "57f27ea3c85ea33eefc757e06551754da1141b1775e181cdc554f7c7d375b3e8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1773,
+  "stars": 1766,
   "stars_por_mes": null
  },
  "nombre": "eso",

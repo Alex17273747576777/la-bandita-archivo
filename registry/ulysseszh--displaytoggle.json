@@ -8,18 +8,9 @@
  },
  "descripcion": "Android app to toggle on and off the physical display",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ulysseszh--displaytoggle.json",
-  "sha256": "6e6d6631f7ac293623559ad8cecc7b7b97b901e6eea5186abdb2466fed336c86"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "04ea79f862be49f9a1ff45f7abd350c37efdf3bff98d93476a5b1dce71ceaf68"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 22,
+  "stars": 23,
   "stars_por_mes": null
  },
  "nombre": "DisplayToggle",

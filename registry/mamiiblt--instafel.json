@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Instafel provides fast & up-to-date Instagram Alpha experience for everyone!",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mamiiblt--instafel.json",
-  "sha256": "d23a380fb2abe898740e8d6ced97b4ab6404ff64b313d61aa5a71994a34e36ff"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6f39b1768f02c7351c57ac2a70801f833b8cb3720751d40c09afc83dc8826477"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1283,
+  "stars": 1287,
   "stars_por_mes": null
  },
  "nombre": "instafel",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b7764c7c1ec725dae0c7fd848cbf25f791b5826f",
+  "commit": "1149fe233c21f77898b9b538c831f99395dcbff2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b7764c7c1ec725dae0c7fd848cbf25f791b5826f"
+  "swhid": "swh:1:rev:1149fe233c21f77898b9b538c831f99395dcbff2"
  },
  "repo": "mamiiblt/instafel",
  "web": "https://instafel.mamii.dev"

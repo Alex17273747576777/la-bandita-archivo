@@ -4,22 +4,13 @@
   "release_en": "2025-07-05",
   "semantica_http": 200,
   "ultima_release": "v1.2.1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "OpenClaw alternative in your pocket",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/simonschubert--kai.json",
-  "sha256": "a2f77d0003373a212dea87f4ed9c1dafe452932ef034ef7454bdc55d21f608ac"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "22f3d620c26ece141c325271eedd12367a80f38ab409f00190ca978b69a030f0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1329,
+  "stars": 1372,
   "stars_por_mes": null
  },
  "nombre": "Kai",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ed6a3e0c48e10de9e2852e939fa4531975352bff",
+  "commit": "dc4cc9b56f67bcdaac93c1fbb61ad8deb8b0a849",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ed6a3e0c48e10de9e2852e939fa4531975352bff"
+  "swhid": "swh:1:rev:dc4cc9b56f67bcdaac93c1fbb61ad8deb8b0a849"
  },
  "repo": "SimonSchubert/Kai",
  "web": "https://kai9000.com/"

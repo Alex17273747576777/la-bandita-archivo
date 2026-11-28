@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-16"
+  "ultimo_push": "2026-11-16"
  },
  "descripcion": "A backup application for the Android Open Source Project.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/seedvault-app--seedvault.json",
-  "sha256": "c84ad01268601cdbeab3595f8f72c6812547873d9426b9dd2bebb4f2d0f3aaeb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d53ed68e9e5451c65055297aad8da69ad9d2bd6989a1a5a5a642936976cf6aea"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1876,
+  "stars": 1888,
   "stars_por_mes": null
  },
  "nombre": "seedvault",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "fc98f366d696c3dbef20c1657f67f1c54fcd7aeb",
+  "commit": "9d450d2893aa66892b89e4b607a4a436e20071d8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:fc98f366d696c3dbef20c1657f67f1c54fcd7aeb"
+  "swhid": "swh:1:rev:9d450d2893aa66892b89e4b607a4a436e20071d8"
  },
  "repo": "seedvault-app/seedvault"
 }

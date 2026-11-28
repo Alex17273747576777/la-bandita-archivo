@@ -4,22 +4,13 @@
   "release_en": "2026-07-28",
   "semantica_http": 200,
   "ultima_release": "v0.20.1.0",
-  "ultimo_push": "2026-08-27"
+  "ultimo_push": "2026-11-17"
  },
  "descripcion": "Taihon is a fast, highly customizable Mihon fork and Tachiyomi alternative. It is a free and open-source manga reader for Android built for speed.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/saud-97--taihon.json",
-  "sha256": "3e4d1c4bbbd8fa9647f6205d6749328467d6fd1aff433ccb1a340fdf3f95aaa1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "93e01e0e11a01382033715045f0634c3864ddaf109ad3104884593f1cb448c9f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 16,
+  "stars": 18,
   "stars_por_mes": null
  },
  "nombre": "taihon",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "582e0270a9c5e707211309095e6278fa5cb26b5b",
+  "commit": "a917ea5ad1cf9968aec5d4241b3472c7a3ae55f4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:582e0270a9c5e707211309095e6278fa5cb26b5b"
+  "swhid": "swh:1:rev:a917ea5ad1cf9968aec5d4241b3472c7a3ae55f4"
  },
  "repo": "Saud-97/taihon"
 }

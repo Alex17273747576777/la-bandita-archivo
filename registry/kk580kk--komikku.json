@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "dormido",
+  "estado": "vivo",
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-03-13"
+  "ultimo_push": "2026-11-06"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kk580kk--komikku.json",
-  "sha256": "f1a5f1f04611da262e6226a44ab5dcdaef1da0dbd3dea2811b7404848b794e67"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5870e2d60498ff64cc712d698144aa7c9a5903c0d8a443a0de9e4f34e419952d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "c3a1edcc73fa3dc87a39b81b6e11317ef3c57205",
+  "commit": "383ffaa81667f45fc6c2975edb1760a7606531d3",
   "swh_estado": null,
-  "swhid": "swh:1:rev:c3a1edcc73fa3dc87a39b81b6e11317ef3c57205"
+  "swhid": "swh:1:rev:383ffaa81667f45fc6c2975edb1760a7606531d3"
  },
  "repo": "kk580kk/komikku"
 }

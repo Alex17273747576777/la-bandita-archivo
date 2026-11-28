@@ -4,22 +4,13 @@
   "release_en": "2026-08-22",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "KeepADB — keep Android Wireless Debugging active via app, widget, and Quick Settings tile",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/m00sfett--keepadb.json",
-  "sha256": "300754e5ed1463b9c83a9f625a77034cb8780f555ae853b7e35fb7cb1380e0b8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f32486f3e35e9cf02d5d2760614cd5ee6a07107c9c61a88ad7298fc5f3327649"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15,
+  "stars": 26,
   "stars_por_mes": null
  },
  "nombre": "KeepADB",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d67c27a956a256b2f3d12225fee746d1dd7a55c4",
+  "commit": "77a0aea2203c515dc2c5ac0ff769578e32ed82c5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:d67c27a956a256b2f3d12225fee746d1dd7a55c4"
+  "swhid": "swh:1:rev:77a0aea2203c515dc2c5ac0ff769578e32ed82c5"
  },
  "repo": "m00sfett/KeepADB",
  "web": "https://keepadb.roteson.de"

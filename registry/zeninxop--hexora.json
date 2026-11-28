@@ -8,18 +8,9 @@
  },
  "descripcion": "Hexora — an open-source Android dual-pane file manager with ZIP/APK tools, a built-in editor, and customizable light and dark themes.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zeninxop--hexora.json",
-  "sha256": "ff478b94436cec44ca7bc053fbb1ea10a362d310283d991a295c322f833cf8d7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8ad20aa431390dfca36eaf7638d7e91c627aaeb1c45ac788201c355e28663c3a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 28,
+  "stars": 32,
   "stars_por_mes": null
  },
  "nombre": "Hexora",

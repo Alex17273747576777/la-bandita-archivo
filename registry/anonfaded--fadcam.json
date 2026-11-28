@@ -4,22 +4,13 @@
   "release_en": "2024-07-10",
   "semantica_http": 200,
   "ultima_release": "1.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/anonfaded--fadcam.json",
-  "sha256": "2c71490d369aa64db34207d046bdc79870608e1dbe709adbd1918cfc49467d27"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "82020cae1602cce2c8801125f81d6d39e5efca93bbf0cc5c7e8a749cb67d121a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2872,
+  "stars": 2932,
   "stars_por_mes": null
  },
  "nombre": "FadCam",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "e59f58edefdf622079f79c340c72fb30244eea9f",
+  "commit": "90e68e699b7e926a03f45d1aa9392127794e6ad5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e59f58edefdf622079f79c340c72fb30244eea9f"
+  "swhid": "swh:1:rev:90e68e699b7e926a03f45d1aa9392127794e6ad5"
  },
  "repo": "anonfaded/FadCam",
  "web": "https://fadcam.fadseclab.com"

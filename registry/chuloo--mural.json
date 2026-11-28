@@ -4,22 +4,13 @@
   "release_en": "2026-09-14",
   "semantica_http": 200,
   "ultima_release": "v0.1.0-android-preview.5",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "The language app you eventually delete. A native iPhone companion for learning through conversation.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/chuloo--mural.json",
-  "sha256": "793ff14b03089c27d575355409cfbc503882ad6f89a74283a1567758d6de24ef"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "cc248a5f2aac526c613395b6839f8a6ffb6235c072b261e5960206a6e1141d39"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1756,
+  "stars": 1826,
   "stars_por_mes": null
  },
  "nombre": "mural",

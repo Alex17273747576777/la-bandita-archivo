@@ -4,22 +4,13 @@
   "release_en": "2020-03-05",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/koodo-reader--koodo-reader.json",
-  "sha256": "f88ae4f6089d02b37bdeee971c9ddfc406cf8b495f05b4b058f57d7b84cbac5d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "38992e85bf3c8bd2471ce9cb3e0730f26795b67b248289a547604f4936f3f941"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 28708,
+  "stars": 29009,
   "stars_por_mes": null
  },
  "nombre": "koodo-reader",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "dbcb7453f80daa3f1eaa0630df2b7a87cc2aae81",
+  "commit": "f037f2fc7b28dd8769cd667808de587b756ce04c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:dbcb7453f80daa3f1eaa0630df2b7a87cc2aae81"
+  "swhid": "swh:1:rev:f037f2fc7b28dd8769cd667808de587b756ce04c"
  },
  "repo": "koodo-reader/koodo-reader",
  "web": "https://koodoreader.com"

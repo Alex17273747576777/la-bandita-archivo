@@ -4,22 +4,13 @@
   "release_en": "2026-04-30",
   "semantica_http": 200,
   "ultima_release": "0.1-beta",
-  "ultimo_push": "2026-10-20"
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Modern Android system monitoring app using Jetpack Compose and Rust",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rve27--rvsystem-monitor.json",
-  "sha256": "e9a938ff78a7889cd8900d59756cb74832644c2acf4b0ed4dd90ae3171133c43"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b39385a7e08e0b196b8e5d135e7f75b500f6999ad1e74212cfe571d8b1cc7e55"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 179,
+  "stars": 188,
   "stars_por_mes": null
  },
  "nombre": "RvSystem-Monitor",

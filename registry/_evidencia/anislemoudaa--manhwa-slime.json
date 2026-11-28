@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-10-28T15:21:12Z",
-   "oid": "e07f9a79bc7b72951b42d4ad35cb089975d556d9"
+   "committedDate": "2026-11-05T01:21:51Z",
+   "oid": "a09c2567a2833991470b3dacd9df7aeef34297c5"
   }
  },
- "diskUsage": 92277,
+ "diskUsage": 95729,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Apache-2.0"
  },
  "nameWithOwner": "anisLemoudaa/manhwa-slime",
- "pushedAt": "2026-11-03T19:25:46Z",
+ "pushedAt": "2026-11-10T12:53:02Z",
  "releases": {
   "nodes": []
  },

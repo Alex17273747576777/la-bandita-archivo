@@ -4,22 +4,13 @@
   "release_en": "2026-08-21",
   "semantica_http": 200,
   "ultima_release": "v0.9",
-  "ultimo_push": "2026-10-08"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "A powerful settings/ services manager and settings/ services hider (automated disable-enable settings) for restrictive apps (banking, payments...etc).",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/soul-99--su_imd.json",
-  "sha256": "61465507bcf821ae2b932d89f7b11bf00749ad1929f9feb056c005c1c6eda536"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "554f805199689813a2026175ee66c2c4904ccb346f6b5474c79742e70332cb27"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 530,
+  "stars": 581,
   "stars_por_mes": null
  },
  "nombre": "SU_IMD",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "08436db1b9a6e220959fee761513965cd8f85f41",
+  "commit": "87a83b78572c836fea6b3a8dcbd5a3251371aa43",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:08436db1b9a6e220959fee761513965cd8f85f41"
+  "swhid": "swh:1:rev:87a83b78572c836fea6b3a8dcbd5a3251371aa43"
  },
  "repo": "soul-99/SU_IMD"
 }

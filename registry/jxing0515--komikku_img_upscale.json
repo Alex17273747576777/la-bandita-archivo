@@ -4,22 +4,13 @@
   "release_en": "2026-08-20",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-08-22"
+  "ultimo_push": "2026-11-18"
  },
  "descripcion": "komikku_img_upscale",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jxing0515--komikku_img_upscale.json",
-  "sha256": "baa6fd1abf71af053363fa4bdbaca93a770dead02433583a2349fa72a65ebc4e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1fc0baca44e9376057402942bb30ef5630298c8d8cc14ecf1fe0138aaf22d650"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2ff80ac9e597be28f5cdccca5e7135752609da73",
+  "commit": "815e1370eba51eb65cb781f41679e192389a3be0",
   "swh_estado": null,
-  "swhid": "swh:1:rev:2ff80ac9e597be28f5cdccca5e7135752609da73"
+  "swhid": "swh:1:rev:815e1370eba51eb65cb781f41679e192389a3be0"
  },
  "repo": "jxing0515/komikku_img_upscale"
 }

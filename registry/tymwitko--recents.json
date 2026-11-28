@@ -4,22 +4,13 @@
   "release_en": "2024-04-17",
   "semantica_http": 200,
   "ultima_release": "v0.1.0-alpha",
-  "ultimo_push": "2026-10-23"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "Launcher-agnostic \"Recents\" menu for Android.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tymwitko--recents.json",
-  "sha256": "4deedfae3b72b82d73f8d89c13beb0bb8fe146b50153c3660e5738a727116864"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5c5a974f65fcdebdff9ebf72cb6f9c27917d6047fb07c82151e05e1bf9113785"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 76,
+  "stars": 80,
   "stars_por_mes": null
  },
  "nombre": "Recents",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "88a03607ca05961c883876a839eca2bee27497f3",
+  "commit": "cf0a416a13645c20bc77d63e8aed10ecb9ddebdb",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:88a03607ca05961c883876a839eca2bee27497f3"
+  "swhid": "swh:1:rev:cf0a416a13645c20bc77d63e8aed10ecb9ddebdb"
  },
  "repo": "tymwitko/Recents"
 }

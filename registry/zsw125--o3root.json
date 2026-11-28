@@ -1,8 +1,8 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "muerto",
   "release_en": "2026-10-25",
-  "semantica_http": 200,
+  "semantica_http": 404,
   "ultima_release": "v2.1",
   "ultimo_push": "2026-11-02"
  },
@@ -13,13 +13,12 @@
   "sha256": "18cb8c2e31c8b441c27761005a8544d077fe40aa329976f069faf5dee3ddc7e7"
  },
  "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
+  "dias": 0,
+  "estado": "vencida",
+  "evidencia_en": "2026-11-27",
+  "motivo": "el repositorio no existe: la API devolvió 404",
   "proxima_remedicion": null,
-  "ventana_dias": 180
+  "ventana_dias": null
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +33,11 @@
   "spdx": "MIT",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 31,
+  "stars": null,
   "stars_por_mes": null
  },
  "nombre": "o3root",

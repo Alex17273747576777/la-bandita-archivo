@@ -8,18 +8,9 @@
  },
  "descripcion": "Android Multi-Tasking Manager with desktop-like multi window and remote access support.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/legendsayantan--extendroid.json",
-  "sha256": "c28302fc0a6c5e4339702f680a53874c7003c6aaa6bf3c878c3e5ebcda82eb43"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e9ce104fefbe809549ff9fd8f6b672827d97cc42ac2505a47b4dd1a7878f6bdc"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 729,
+  "stars": 740,
   "stars_por_mes": null
  },
  "nombre": "Extendroid",

@@ -4,22 +4,13 @@
   "release_en": "2026-10-04",
   "semantica_http": 200,
   "ultima_release": "v0.0.1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/morishima-yoru--mirax.json",
-  "sha256": "8935f7cb99a7c5f477a46851ce4c17554c7519d9dd3d1be6209213620855095e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6cc05df93fd030781adcf642b46cdef094e831cb31cb6ecd678f6e30cf8083b5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "Mirax",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "71d289c92857ed1118b58d11e226de16f357b2be",
+  "commit": "703a709ab0d106c825b6684646b3f48961e99f77",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:71d289c92857ed1118b58d11e226de16f357b2be"
+  "swhid": "swh:1:rev:703a709ab0d106c825b6684646b3f48961e99f77"
  },
  "repo": "Morishima-Yoru/Mirax"
 }

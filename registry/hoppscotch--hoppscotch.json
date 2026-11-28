@@ -4,22 +4,13 @@
   "release_en": "2019-08-22",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hoppscotch--hoppscotch.json",
-  "sha256": "2268d6e0cbe94560c39ee485dcabc2b7074c33d5baf6c58fc81eff3aa65a31f0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2235cc9065d3fa71b7a2f16c0a5a4a3ee0ac38b0b365e29efd790d058a2faf1e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 80730,
+  "stars": 80997,
   "stars_por_mes": null
  },
  "nombre": "hoppscotch",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "39d25650bdb4e86464b2cd69174c567b86f57892",
+  "commit": "6177eae1875ea4cc8fc46604d65bf85478912d85",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:39d25650bdb4e86464b2cd69174c567b86f57892"
+  "swhid": "swh:1:rev:6177eae1875ea4cc8fc46604d65bf85478912d85"
  },
  "repo": "hoppscotch/hoppscotch",
  "web": "https://hoppscotch.io"

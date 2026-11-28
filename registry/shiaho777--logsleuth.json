@@ -4,22 +4,13 @@
   "release_en": "2026-09-07",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Root-free Android logcat viewer & embeddable zero-permission logging SDK",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/shiaho777--logsleuth.json",
-  "sha256": "216f0d1cff9e444de23033bd06ab9d1b9406bf7ea340c662be388b21c0aebd81"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "55b276b65b8180ef7155a5d8fb2d5c7ae91ae9610c069d2a8f28673371057476"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 34,
+  "stars": 46,
   "stars_por_mes": null
  },
  "nombre": "LogSleuth",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "561ad0d1a3d80ebf3c85639f62982f669754e3b0",
+  "commit": "bcd8797ebd67f25c520c75c7292e6e1d61da91fa",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:561ad0d1a3d80ebf3c85639f62982f669754e3b0"
+  "swhid": "swh:1:rev:bcd8797ebd67f25c520c75c7292e6e1d61da91fa"
  },
  "repo": "shiaho777/LogSleuth",
  "web": "https://github.com/shiaho777/LogSleuth"

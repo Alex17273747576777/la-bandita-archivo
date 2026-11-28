@@ -4,22 +4,13 @@
   "release_en": "2026-05-28",
   "semantica_http": 200,
   "ultima_release": "v2.0.3",
-  "ultimo_push": "2026-08-28"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "Android-only fork of Kai — an open-source AI assistant with persistent memory.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kilvz--kai-custom.json",
-  "sha256": "59c45ce4357001a0da8841c5f411f49172b9a343d36f60c70480bc971ea3fb8b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3ad290a9060b53ea688046d836c0706bd23d09b83ef2f2b2b0827b606812c282"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 11,
+  "stars": 13,
   "stars_por_mes": null
  },
  "nombre": "Kai-custom",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2fc31251079954dfa490bd3481c9e0c719eefca2",
+  "commit": "9627d954d3d803665d6a5fd0c336ad24a2a1c71b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:2fc31251079954dfa490bd3481c9e0c719eefca2"
+  "swhid": "swh:1:rev:9627d954d3d803665d6a5fd0c336ad24a2a1c71b"
  },
  "repo": "kilvz/Kai-custom"
 }

@@ -4,22 +4,13 @@
   "release_en": "2026-08-21",
   "semantica_http": 200,
   "ultima_release": "v1.0.1",
-  "ultimo_push": "2026-10-21"
+  "ultimo_push": "2026-11-20"
  },
  "descripcion": "Instant-Hotspot clone for the Light Phone III: wakes the phone hotspot when a paired iPad is near.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/gi-os--brighthotspot.json",
-  "sha256": "096088487b134fe90526fd1b02509ad0cc0294428aa84d67bf247ee34694c9d0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c7d4ae76c63723d9e2c677781b9cfff4e4c4f2ff20bcd5d925cc8479595ba949"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5664bb44172ba7766ed96188043cb6256763607d",
+  "commit": "91603f30ce933c7d17971090430304a967738aa4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5664bb44172ba7766ed96188043cb6256763607d"
+  "swhid": "swh:1:rev:91603f30ce933c7d17971090430304a967738aa4"
  },
  "repo": "gi-os/BrightHotspot"
 }

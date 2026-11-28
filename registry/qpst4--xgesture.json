@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": "2026-10-31",
-  "semantica_http": 404,
-  "ultima_release": "v1.55.0",
-  "ultimo_push": "2026-10-31"
+  "estado": "vivo",
+  "release_en": "2026-07-28",
+  "semantica_http": 200,
+  "ultima_release": "v1.5.0",
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "The ultimate open-source Android gesture & one-hand navigation suite. An all-in-one OHO+ (One Hand Operation+), FooView & Quick Cursor alternative with offline OCR and Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/qpst4--xgesture.json",
-  "sha256": "7467c647a8464239d1050e2ec67d6f2e0f1de05629afaf1fabc3a4c749030305"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "dd4562b6360f566697c4d355011dbecb5eafcc97111f1d195d05bc369f2c9dcd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 390,
   "stars_por_mes": null
  },
  "nombre": "XGesture",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "234771d9195bc00480a426555ade1e73792982b0",
+  "commit": "ef712ad0a97e6b0119d15a938ebf25e7f531d7e5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:ef712ad0a97e6b0119d15a938ebf25e7f531d7e5"
  },
  "repo": "qpst4/XGesture",
  "web": "https://github.com/qpst4/XGesture/releases"

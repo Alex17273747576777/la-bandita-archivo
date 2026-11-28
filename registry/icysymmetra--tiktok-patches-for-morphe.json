@@ -4,22 +4,13 @@
   "release_en": "2026-05-28",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-14"
  },
  "descripcion": "This repository is a Morphe patch source for TikTok.  It continues the work from earlier community TikTok patch sets, including ReVanced, with the patches adapted for Morphe and tested against newer TikTok builds. The current target version is TikTok 46.2.3",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/icysymmetra--tiktok-patches-for-morphe.json",
-  "sha256": "02401ba114daf12e8629084d41593454c03be6c2df4f90d01a916ae84d6ea5c0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c3817cd9c1a8a0cd38c6a1d5cb056ba4717a8947ba465aba085deef134594bd8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 452,
+  "stars": 482,
   "stars_por_mes": null
  },
  "nombre": "tiktok-patches-for-morphe",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3c376babb94c1a1760ae4f51c3615ef5ed9debed",
+  "commit": "8759b348497f39f799baf1bc34015f4b51605b80",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3c376babb94c1a1760ae4f51c3615ef5ed9debed"
+  "swhid": "swh:1:rev:8759b348497f39f799baf1bc34015f4b51605b80"
  },
  "repo": "icysymmetra/tiktok-patches-for-morphe"
 }

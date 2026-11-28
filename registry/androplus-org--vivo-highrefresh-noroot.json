@@ -8,18 +8,9 @@
  },
  "descripcion": "Rootless 144Hz+ refresh rate for vivo / iQOO phones over adb",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/androplus-org--vivo-highrefresh-noroot.json",
-  "sha256": "83f13f4330245056b6f710bd52ffd3b9837f1ba780bc665f8c756dd6a7ec2b32"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5e22e856366d23b6ead7de6375077693a995f106a239dccd4093312fe39c697a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 10,
+  "stars": 23,
   "stars_por_mes": null
  },
  "nombre": "vivo-HighRefresh-NoRoot",

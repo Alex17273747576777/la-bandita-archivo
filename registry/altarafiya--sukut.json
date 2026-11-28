@@ -4,22 +4,13 @@
   "release_en": "2026-10-20",
   "semantica_http": 200,
   "ultima_release": "v0.2.33",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "Sukut · سُكوت — Enjoy the internet. Without the music. Windows and Android; Linux coming soon.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/altarafiya--sukut.json",
-  "sha256": "e4047728322d91cc2f697dab1aec8adb359461cfd341de47f59c3cb976bd08ac"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "935a2ff3c9a953dfccbab609524ba8e4072e2a1809852be7248a20f5597a6c13"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,9 +24,9 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -46,10 +37,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e730f3dee30fe2c2fddbd91e315cb765fa900c27",
+  "commit": "cecd2cb35f4cb2b5ffe880b4889ca36c9e828d43",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e730f3dee30fe2c2fddbd91e315cb765fa900c27"
+  "swhid": "swh:1:rev:cecd2cb35f4cb2b5ffe880b4889ca36c9e828d43"
  },
  "repo": "altarafiya/Sukut"
 }

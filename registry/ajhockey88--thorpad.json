@@ -4,22 +4,13 @@
   "release_en": "2026-10-10",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-10-28"
+  "ultimo_push": "2026-11-18"
  },
  "descripcion": "Turns the AYN Thor's bottom screen into a laptop-style trackpad for a mouse plus a smart keyboard for typing",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ajhockey88--thorpad.json",
-  "sha256": "b149cb660c7bb2ca2bbe7a5da29171bd3204f1045f157bdba8bc1efd37ac1384"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ffb3e12775ee7405b6877283253413abefb560f4418108627a03363592b674e8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4,
+  "stars": 7,
   "stars_por_mes": null
  },
  "nombre": "ThorPad",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "49867b08878e7acbfc8db03d2794440554f0c0bc",
+  "commit": "9e061971431769ac9c7d7115aa46141985191ec3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:49867b08878e7acbfc8db03d2794440554f0c0bc"
+  "swhid": "swh:1:rev:9e061971431769ac9c7d7115aa46141985191ec3"
  },
  "repo": "ajhockey88/ThorPad"
 }

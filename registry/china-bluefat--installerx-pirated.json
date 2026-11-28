@@ -4,22 +4,13 @@
   "release_en": "2026-04-16",
   "semantica_http": 200,
   "ultima_release": "26.04.d6123a1",
-  "ultimo_push": "2026-10-20"
+  "ultimo_push": "2026-11-17"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/china-bluefat--installerx-pirated.json",
-  "sha256": "224996ed70b9701e16a33661d9e8eb6a201575e51ea70e8e4995bb7fc9225528"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8c99c15a0142626d85879e3fbd4f7d25e7e3278ae51a45fc7acecd12992bd7ee"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6e630f03b59caa1d3d9f581c413418548ac619c9",
+  "commit": "e76614fcb071649ddd621fca8424044fdf598954",
   "swh_estado": null,
-  "swhid": "swh:1:rev:6e630f03b59caa1d3d9f581c413418548ac619c9"
+  "swhid": "swh:1:rev:e76614fcb071649ddd621fca8424044fdf598954"
  },
  "repo": "China-BlueFat/InstallerX-Pirated"
 }

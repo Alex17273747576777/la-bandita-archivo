@@ -4,22 +4,13 @@
   "release_en": "2017-12-03",
   "semantica_http": 200,
   "ultima_release": "v0.2.4",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-18"
  },
  "descripcion": "Text editor - Notes, ToDo & Filemanager (for Android) - Markdown, todo.txt, plaintext, math, ..",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/gsantner--markor.json",
-  "sha256": "50826d8106251dd1d952dc555df2ef2c77d345f430c012b0064884ab8af2c738"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9e2e3ab76ccfec0fb1bb6de6153639a145703b4d70e21d344c33990a282230df"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE.txt",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6375,
+  "stars": 6488,
   "stars_por_mes": null
  },
  "nombre": "markor",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7b15e66932f170c0b3f105c522111b0f32d6c73d",
+  "commit": "8bb06aa88a69adf3ace37d6a65be20073b1ceafd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:7b15e66932f170c0b3f105c522111b0f32d6c73d"
+  "swhid": "swh:1:rev:8bb06aa88a69adf3ace37d6a65be20073b1ceafd"
  },
  "repo": "gsantner/markor",
  "web": "https://github.com/gsantner/markor/discussions/2269"

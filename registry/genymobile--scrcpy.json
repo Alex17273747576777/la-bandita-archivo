@@ -4,22 +4,13 @@
   "release_en": "2018-03-08",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Display and control your Android device",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/genymobile--scrcpy.json",
-  "sha256": "50c7e0e0509be4799011d6cc8af6c7ca36d4fb9322cf5a7cec1caa951a39ef1b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "faa561f681d61c9abe55bf0d057fb245b38f874a2dac636deb067f5693494924"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 153909,
+  "stars": 155949,
   "stars_por_mes": null
  },
  "nombre": "scrcpy",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "a60891aea193d92e7e5c3942700eca63f9d19a5f",
+  "commit": "c939183a7cdca4599cee337e60bc0e147b6c9828",
   "swh_estado": "archivada",
   "swh_solicitud": "a60891aea193d92e7e5c3942700eca63f9d19a5f",
-  "swhid": "swh:1:rev:a60891aea193d92e7e5c3942700eca63f9d19a5f"
+  "swhid": "swh:1:rev:c939183a7cdca4599cee337e60bc0e147b6c9828"
  },
  "repo": "Genymobile/scrcpy"
 }

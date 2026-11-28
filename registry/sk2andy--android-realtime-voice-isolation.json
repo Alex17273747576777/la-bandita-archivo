@@ -8,18 +8,9 @@
  },
  "descripcion": "On-device real-time voice isolation for Android using Shizuku, GTCRN, and ONNX Runtime",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sk2andy--android-realtime-voice-isolation.json",
-  "sha256": "5b4ae570871cb55bb65981932d42deabd83cc625b956c1b04681dbf45638f442"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e7295202d0435f4d5ed6e4bfdafc84d82697bafbef2cadff3761ba6bd48fa34b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 24,
+  "stars": 30,
   "stars_por_mes": null
  },
  "nombre": "android-realtime-voice-isolation",

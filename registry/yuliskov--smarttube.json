@@ -4,22 +4,13 @@
   "release_en": "2020-09-26",
   "semantica_http": 200,
   "ultima_release": "beta",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Browse media content with your own rules on Android TV",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yuliskov--smarttube.json",
-  "sha256": "e1cc0f986a141a7b576887e1ecded9898a5c88816ff867c16bfe61e54743c030"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7565a4006246d48ac438559d4e113f110a92566e82a1598d3ae1c6b15e8a4313"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 35878,
+  "stars": 36707,
   "stars_por_mes": null
  },
  "nombre": "SmartTube",
@@ -49,10 +40,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "4557e4c3e76cf4a00f9c9359ffc73696050f6031",
+  "commit": "ccc6800f9ee3c62186f187012e2febb34fcc4888",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4557e4c3e76cf4a00f9c9359ffc73696050f6031"
+  "swhid": "swh:1:rev:ccc6800f9ee3c62186f187012e2febb34fcc4888"
  },
  "repo": "yuliskov/SmartTube",
  "web": "https://smarttubeapp.github.io"

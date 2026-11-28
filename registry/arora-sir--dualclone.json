@@ -4,22 +4,13 @@
   "release_en": "2026-10-28",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Clone any Android app into Samsung Dual Messenger or a Work Profile with Shizuku. Free, open source, GPL-3.0.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/arora-sir--dualclone.json",
-  "sha256": "51835f5433a3d2db997c912a620c26a8e66468d5a53515c6bca74aede1d3e254"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "349e7adf746d2078d03ea1c7847126fde95df2aa647ea34c07f1541b98baca24"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 7,
   "stars_por_mes": null
  },
  "nombre": "DualClone",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "523eb9002c7daff860e132ad9f23828fcb26d43d",
+  "commit": "43c84901dfe8f3744708e4f1274d0547d8f4b2d7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:523eb9002c7daff860e132ad9f23828fcb26d43d"
+  "swhid": "swh:1:rev:43c84901dfe8f3744708e4f1274d0547d8f4b2d7"
  },
  "repo": "Arora-Sir/DualClone"
 }

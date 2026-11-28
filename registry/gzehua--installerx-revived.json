@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-08"
+  "ultimo_push": "2026-11-13"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/gzehua--installerx-revived.json",
-  "sha256": "33ac922e9bc08aa995c096169aa2409256bde765bc5b0858ce236768686d9c97"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5d2ab49211032790e3a5a3e0048af069efd62e39ede250a4a96783324079c9da"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "cb9a24de14b79a29f47dd505b9ac845ef1077f78",
+  "commit": "caccb787c1a4189da3f917eb990fb949305e3899",
   "swh_estado": null,
-  "swhid": "swh:1:rev:cb9a24de14b79a29f47dd505b9ac845ef1077f78"
+  "swhid": "swh:1:rev:caccb787c1a4189da3f917eb990fb949305e3899"
  },
  "repo": "gzehua/InstallerX-Revived"
 }

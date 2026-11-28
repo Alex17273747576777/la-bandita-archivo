@@ -4,22 +4,13 @@
   "release_en": "2026-09-26",
   "semantica_http": 200,
   "ultima_release": "v0.1.1",
-  "ultimo_push": "2026-10-19"
+  "ultimo_push": "2026-11-09"
  },
  "descripcion": "Android 端 AI 聊天 + 本地工具 Agent",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kyrie66nb--mobile-agent.json",
-  "sha256": "369f0c02d4b07e49577753ad970ee8a107125fb47c2ab804f75af5a2490fe5ca"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f30b5226bd616b5c35fca0252632973099cd43c21553dea5e7286850931beb31"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 189,
+  "stars": 197,
   "stars_por_mes": null
  },
  "nombre": "mobile-agent",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "29c31bab373fadf7245fd26f1ae78c57733d7a17",
+  "commit": "76a0f6e467538309739fd536550730afc59e1194",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:29c31bab373fadf7245fd26f1ae78c57733d7a17"
+  "swhid": "swh:1:rev:76a0f6e467538309739fd536550730afc59e1194"
  },
  "repo": "KYRIE66nb/mobile-agent"
 }

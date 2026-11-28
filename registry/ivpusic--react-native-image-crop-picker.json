@@ -4,22 +4,13 @@
   "release_en": "2016-07-27",
   "semantica_http": 200,
   "ultima_release": "v0.5.0",
-  "ultimo_push": "2026-10-15"
+  "ultimo_push": "2026-11-13"
  },
  "descripcion": "iOS/Android image picker with support for camera, video, configurable compression, multiple images and cropping",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ivpusic--react-native-image-crop-picker.json",
-  "sha256": "21752a4bbaede8772da72bc791e3fc7991225be4936ed60aa7290bfbe20ba9c0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "93812b20f6323ff09a53bdd7bf620f09271492991e304d283c4d043f2b3a99c8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6351,
+  "stars": 6345,
   "stars_por_mes": null
  },
  "nombre": "react-native-image-crop-picker",

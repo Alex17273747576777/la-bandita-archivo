@@ -8,18 +8,9 @@
  },
  "descripcion": "一款安卓自动滑动APP，可以自动播放短视频、自动翻页阅读小说",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tianxing-ovo--autoslide.json",
-  "sha256": "d1d6013dda463f7bf186d58752a1ed0e65343e12a42ef18e267fa22f8918597d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0dd9bcf08dbdecc57ab30a0123fba63132f29e809fccaaaa874102bd57c881e5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 114,
+  "stars": 118,
   "stars_por_mes": null
  },
  "nombre": "AutoSlide",

@@ -8,18 +8,9 @@
  },
  "descripcion": "Android Root application to force Wi-Fi hotspot channels (2.4 GHz and 5 GHz) using ADB commands (cmd wifi force-softap-channel).",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lorax121--hotspot_channel_setter.json",
-  "sha256": "32c7b7fe6972fbfb2a9a2efd6f1d93e0f4495b7be6f188c0a2004c7c9b3b0423"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "75808ec64c542514058ad65a94cb3591b2e12ca9c5383e5de12c2cf103a8c5fa"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7,
+  "stars": 10,
   "stars_por_mes": null
  },
  "nombre": "hotspot_channel_setter",

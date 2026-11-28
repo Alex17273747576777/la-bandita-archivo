@@ -8,18 +8,9 @@
  },
  "descripcion": "RikkaHub Agent  Promax - on-device Android LLM agent (local fork/upload)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aaaelina--rikkahub-agent-promax.json",
-  "sha256": "e10f8142f6b81e758316f583c21f70856dc0dfbdb74f51fa49b1c3a31e0482fa"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2743fd8ab5bdf8165a134f45127995753f06fb865ab5d35244b2d7c0a63e34ed"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 46,
+  "stars": 51,
   "stars_por_mes": null
  },
  "nombre": "rikkahub-agent-ProMax",

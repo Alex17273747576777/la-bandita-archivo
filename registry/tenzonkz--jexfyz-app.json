@@ -4,22 +4,13 @@
   "release_en": "2026-10-12",
   "semantica_http": 200,
   "ultima_release": "firmware-qc-latest",
-  "ultimo_push": "2026-10-25"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tenzonkz--jexfyz-app.json",
-  "sha256": "c5561acfad688a11e0d5b3eb3657b0248f0fb7f485c99e80db033203756cdbfd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a643f597023c7f7479134d2e1b5f2da5cf13005c5d3af6d62721480fe27b1c21"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "df5490fae6932553eeb6a7bcfbe7abe2b5feadc1",
+  "commit": "cef5753797bcde7e7b56f55d79b7df4dde687061",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:df5490fae6932553eeb6a7bcfbe7abe2b5feadc1"
+  "swhid": "swh:1:rev:cef5753797bcde7e7b56f55d79b7df4dde687061"
  },
  "repo": "TenzoNkz/JEXFYZ-App"
 }

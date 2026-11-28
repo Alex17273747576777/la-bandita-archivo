@@ -4,22 +4,13 @@
   "release_en": "2025-12-04",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Essential tools and mods for Android nerds",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sameerasw--essentials.json",
-  "sha256": "5753d8fa4a7b41ca503447d6bcb76d6b353bd3d13b0e22ba746510d7c90478b2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9aeee906892638a978b37951e77c9a4da112c19282e55203c4be1e9aeb40521e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3680,
+  "stars": 4036,
   "stars_por_mes": null
  },
  "nombre": "essentials",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "472a33e35311ea0d93c1b1f77b0eff7770d5b8eb",
+  "commit": "06bbc7edb851fa1a2824a5d94e2258d585def708",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:472a33e35311ea0d93c1b1f77b0eff7770d5b8eb"
+  "swhid": "swh:1:rev:06bbc7edb851fa1a2824a5d94e2258d585def708"
  },
  "repo": "sameerasw/essentials",
  "web": "https://sameerasw.com/essentials"

@@ -4,22 +4,13 @@
   "release_en": "2025-03-31",
   "semantica_http": 200,
   "ultima_release": "V1.0.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Material 3 Expressive 风格的Android/Android TV IPTV播放器，内建Media3,IJKplayer和 VLC。A Material 3 Expressive style Android/Android TV IPTV player with built-in Media3, IJKplayer and VLC.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mytv-android--mytv-android.json",
-  "sha256": "f513a55e0e98a21a64f02a6ef83c959f983aaba6d9e5aa45df4b88c3798a635c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "11363d43cc7b9da14d0ba649c5b317544d56b6d166e587e4093eb71a937b6c60"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2997,
+  "stars": 3203,
   "stars_por_mes": null
  },
  "nombre": "mytv-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9c49d35fde041d8373802c98c2c30d2cfc39d05f",
+  "commit": "de64c8b3884be30f89637fa51105fdc388208e71",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9c49d35fde041d8373802c98c2c30d2cfc39d05f"
+  "swhid": "swh:1:rev:de64c8b3884be30f89637fa51105fdc388208e71"
  },
  "repo": "mytv-android/mytv-android"
 }

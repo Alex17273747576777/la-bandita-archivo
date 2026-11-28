@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
+  "estado": "vivo",
   "release_en": null,
-  "semantica_http": 404,
+  "semantica_http": 200,
   "ultima_release": null,
   "ultimo_push": "2026-09-23"
  },
  "descripcion": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and performing a wide range of tasks in the Android world || 你的手机 AI 代理，她可以操作终端，也可以完成 Android 世界的广泛任务 ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ybl0000003-cyber--omnibot.json",
-  "sha256": "7cb3e90829fd4e04076b416ef6edaf5a047af57d28520c0f7ff8c3c890b44572"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3aa410b70fecb0d646ba5b38afe03c066b3f645362db1a74fe42f1d84726a71f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,25 +21,25 @@
  "id": "ybl0000003-cyber--omnibot",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "AGPL-3.0-only",
-  "verificado_en": "2026-11-03"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "OmniBot",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "92af786b756a3fe4c805eceef1197f3cee6ad1ff",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:92af786b756a3fe4c805eceef1197f3cee6ad1ff"
  },
  "repo": "ybl0000003-cyber/OmniBot",
  "web": "https://omnibot.omnimind.com.cn"

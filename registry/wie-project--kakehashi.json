@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-17"
+  "ultimo_push": "2026-11-05"
  },
  "descripcion": "Userspace macOS translation layer for Linux ARM64",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/wie-project--kakehashi.json",
-  "sha256": "b0160ecc62c3b5fe4008a528e69bf016ff72681974d9be40b58ea5f63f13bbc9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bca761ebf62689b5b7f323c1ddc629b81a2d11895989aa5c89ef996296b7ba46"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 444,
+  "stars": 449,
   "stars_por_mes": null
  },
  "nombre": "kakehashi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "490c5fb9a10ead928ef590cef58a6da792616a82",
+  "commit": "568480053021b8d1823ee686dd6115dc4e693ef0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:490c5fb9a10ead928ef590cef58a6da792616a82"
+  "swhid": "swh:1:rev:568480053021b8d1823ee686dd6115dc4e693ef0"
  },
  "repo": "wie-project/kakehashi"
 }

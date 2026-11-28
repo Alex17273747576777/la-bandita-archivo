@@ -4,22 +4,13 @@
   "release_en": "2026-09-27",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/louis-cfm--coucou.json",
-  "sha256": "f4961f1ea4347e063eae2fc3e11d27ab3ad4f0cb5ffdd4c12f17988068434e53"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ee348847c93e21cba7b264ca20ed1df5c1093d12aaa98a7f1641df3193aa54e6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6920,
+  "stars": 7486,
   "stars_por_mes": null
  },
  "nombre": "coucou",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e9fc337f0fa1b31698474ef87d4ad0d458dbb5fa",
+  "commit": "202082ee0204bbc4fb78d8178cea3f0c6fcc34e4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e9fc337f0fa1b31698474ef87d4ad0d458dbb5fa"
+  "swhid": "swh:1:rev:202082ee0204bbc4fb78d8178cea3f0c6fcc34e4"
  },
  "repo": "Louis-CFM/coucou",
  "web": "https://louis-cfm.github.io/coucou/"

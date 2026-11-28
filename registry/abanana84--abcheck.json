@@ -8,18 +8,9 @@
  },
  "descripcion": "Open-source Android device and system diagnostics: hardware info, tests, live monitors and battery tools. No ads or analytics. Formerly ABattery.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/abanana84--abcheck.json",
-  "sha256": "9c046020c3912d89db1f0324deecb1f81de1f168c04451bb6050467175e39c70"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bcf28db2c3644e9452fd35a208a6ae0267d04fc3503b278a62a04ce0310a067b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 25,
+  "stars": 36,
   "stars_por_mes": null
  },
  "nombre": "abCheck",

@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-07"
  },
  "descripcion": "The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy F",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/betakontext--off-grid-mobile-ai.json",
-  "sha256": "4e8521e6535373b3f63706a4e06645a5a3e83fdb14b8caddec324bc16cce576b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "47463a11650cecf321393a8980193ad089c74ef865aa9bf06fc1ac021fab7890"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "32ef3548928782f79946084302c9def475e35f4e",
+  "commit": "0957b72ecf3e197c08325b2ba7659ea2f1ffc3ff",
   "swh_estado": null,
-  "swhid": "swh:1:rev:32ef3548928782f79946084302c9def475e35f4e"
+  "swhid": "swh:1:rev:0957b72ecf3e197c08325b2ba7659ea2f1ffc3ff"
  },
  "repo": "Betakontext/off-grid-mobile-ai"
 }

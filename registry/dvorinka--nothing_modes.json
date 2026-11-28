@@ -4,22 +4,13 @@
   "release_en": "2026-09-04",
   "semantica_http": 200,
   "ultima_release": "v0.9.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Open-source automation app for Nothing phones — Modes, Routines, Glyph integration",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dvorinka--nothing_modes.json",
-  "sha256": "a5a4f93cad2c0aac35fe1eb5db6e7e424332c1b286582d050b5bccf152649c27"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6707665bd9a18f15237c3f0a2a395162a96e41accc0efa9332086459cc9b4c28"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9,
+  "stars": 11,
   "stars_por_mes": null
  },
  "nombre": "Nothing_Modes",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "acf82cc9ac46a418ea7b20db0c116d808da0f3de",
+  "commit": "2ee2ba2f13f17bc6cc9b04dfdcff7691855ca128",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:acf82cc9ac46a418ea7b20db0c116d808da0f3de"
+  "swhid": "swh:1:rev:2ee2ba2f13f17bc6cc9b04dfdcff7691855ca128"
  },
  "repo": "Dvorinka/Nothing_Modes",
  "web": "https://nothing-modes.vercel.app"

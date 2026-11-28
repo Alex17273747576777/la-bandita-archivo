@@ -4,22 +4,13 @@
   "release_en": "2026-09-08",
   "semantica_http": 200,
   "ultima_release": "URAAM_v4",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-17"
  },
  "descripcion": "Universal Ruvomain ADB App Manager [URAAM]: An all-in-one shell toolkit for Android debloating. Uninstall/disable your apps, backup your debloat apps JSON file & revert/restore, install apk. Works with \"Termux  `WirelessADB, Shizuku, Root', Linux `Debian, Arch, Fedora, macOS & WSL '. Compatible with Canta/UAD JSON lists.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ruraam--uraam.json",
-  "sha256": "d74a696ae3a92f92e16c7e48af0bc5969426c91d0feaf7a4551a9fbd97ada93d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0b2fb1643e92af3f38d2aa10df45548170c4f5c25191929be23ea24e8819428f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 50,
+  "stars": 59,
   "stars_por_mes": null
  },
  "nombre": "Uraam",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "48e515667b551cf72d94ba88259d041acad5166b",
+  "commit": "eec3617dcfcd25dde0697588a117d6172f3e9ff7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:48e515667b551cf72d94ba88259d041acad5166b"
+  "swhid": "swh:1:rev:eec3617dcfcd25dde0697588a117d6172f3e9ff7"
  },
  "repo": "Ruraam/Uraam",
  "web": "https://t.me/ruvomain"

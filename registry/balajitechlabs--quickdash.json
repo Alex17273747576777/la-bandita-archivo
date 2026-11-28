@@ -4,22 +4,13 @@
   "release_en": "2026-07-12",
   "semantica_http": 200,
   "ultima_release": "v4.3.0-5",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Unified utility dashboard for Android. Fast UPI/PayPal collection, WhatsApp direct chat, and Instagram shortcuts under a Custom Open Source license.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/balajitechlabs--quickdash.json",
-  "sha256": "34919126584bd18865912adf525659247ec917dd308fbcc23a2271db62c825f2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fb55fd0fe762184ccef23a2a6e4fa0adbcd6eb544cc6d2f6376120fd019abfb1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 29,
+  "stars": 34,
   "stars_por_mes": null
  },
  "nombre": "quickdash",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e351a7529febe9967518a803a1004ab2fb4efbd1",
+  "commit": "be68b08e8094ae97b10499f5e25cd8237a433590",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e351a7529febe9967518a803a1004ab2fb4efbd1"
+  "swhid": "swh:1:rev:be68b08e8094ae97b10499f5e25cd8237a433590"
  },
  "repo": "Balajitechlabs/quickdash",
  "web": "https://quickdash.balajitechlab.com/"

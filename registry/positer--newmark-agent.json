@@ -4,22 +4,13 @@
   "release_en": "2026-07-05",
   "semantica_http": 200,
   "ultima_release": "dev-0.0.1",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "Local-first desktop AI coding agent with multi-model routing, skills, automation, Memory Lab, and controlled computer use.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/positer--newmark-agent.json",
-  "sha256": "d28dff2ca348ab6a40ab79c59428414c3990bca10325b33fe21153b508dc19cc"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1452fa3e815eec424c95354a04964d2358d3c07472f7ea1ddab728b22ee1419b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,9 +24,9 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -46,10 +37,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e3943e969399359312efd71492bd0b434ed16d6a",
+  "commit": "b61ffaac6ce48d2212d102b2d2a7f252ced28518",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e3943e969399359312efd71492bd0b434ed16d6a"
+  "swhid": "swh:1:rev:b61ffaac6ce48d2212d102b2d2a7f252ced28518"
  },
  "repo": "positer/Newmark-Agent",
  "web": "https://github.com/positer/Newmark-Agent/releases"

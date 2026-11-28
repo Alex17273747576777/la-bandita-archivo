@@ -4,22 +4,13 @@
   "release_en": "2026-03-07",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-16"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "Free and open source novel and manga reader for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tsundoku-otaku--tsundoku.json",
-  "sha256": "8b9680cfafc034c8d9a2efba0dedc5b78a5204cdaffd349445371175be649feb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "781ff60dd639fa67d66e8ce2531e101470aac6f01f6fc81abfdc4d3823ae0e4a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 118,
+  "stars": 129,
   "stars_por_mes": null
  },
  "nombre": "tsundoku",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "ba8a15eddc9b4007663581f40429c0ec1c891d30",
+  "commit": "246ec6d8a8ed72c4da302f1cdf8310b61b7ceb34",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ba8a15eddc9b4007663581f40429c0ec1c891d30"
+  "swhid": "swh:1:rev:246ec6d8a8ed72c4da302f1cdf8310b61b7ceb34"
  },
  "repo": "tsundoku-otaku/tsundoku",
  "web": "https://tsundoku-otaku.github.io/"

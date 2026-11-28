@@ -4,22 +4,13 @@
   "release_en": "2026-07-17",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-25"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "Windows manager for Samsung DeX (dex for pc, 삼성 덱스) virtual displays and scrcpy app windows over USB or wireless ADB.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/maze-mei--dx-manager.json",
-  "sha256": "7ccd4c514f33de869c09ed226b67100349dbeeaeb222b63e471d30964026fa37"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "11e7337d9db265c2b887c09ae23721c62fc92823f687085e7671b9d68cc802a2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 103,
+  "stars": 121,
   "stars_por_mes": null
  },
  "nombre": "DX-Manager",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f391baae391b5aca39d68905645af3982fb777cc",
+  "commit": "03fa6883ee2356e7f391097f0aeb8833289e2c35",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f391baae391b5aca39d68905645af3982fb777cc"
+  "swhid": "swh:1:rev:03fa6883ee2356e7f391097f0aeb8833289e2c35"
  },
  "repo": "maze-mei/DX-Manager"
 }

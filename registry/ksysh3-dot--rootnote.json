@@ -4,22 +4,13 @@
   "release_en": "2026-10-24",
   "semantica_http": 200,
   "ultima_release": "general-v0.9.0-beta.6",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ksysh3-dot--rootnote.json",
-  "sha256": "7370f4fe6c963dd93d4c5db24ad596a608bdf25d46db69806fb60c832b6205d9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4f6307be4dd4680d3732f8a1215b066323a4f435e53316ae3f01d6fce108d6f4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ea1328fa076cae1a0d684ad7b85e83c2d3e3c96c",
+  "commit": "fb5cb69d9c41376f5893c635fd6904bc659eb4d2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ea1328fa076cae1a0d684ad7b85e83c2d3e3c96c"
+  "swhid": "swh:1:rev:fb5cb69d9c41376f5893c635fd6904bc659eb4d2"
  },
  "repo": "ksysh3-dot/rootnote"
 }

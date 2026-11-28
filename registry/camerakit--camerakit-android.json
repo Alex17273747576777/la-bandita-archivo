@@ -8,18 +8,9 @@
  },
  "descripcion": "Library for Android Camera 1 and 2 APIs. Massively increase stability and reliability of photo and video capture on all Android devices.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/camerakit--camerakit-android.json",
-  "sha256": "f80c09f32d10eedab7129678e454726fe4b558afbd1e933495a02ea6668bcad6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "044b861a91ea917e00d189d46d71d8456fdd3ef7355b43b85bb097d1067250ee"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5392,
+  "stars": 5391,
   "stars_por_mes": null
  },
  "nombre": "camerakit-android",

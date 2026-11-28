@@ -4,22 +4,13 @@
   "release_en": "2026-04-19",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Emergency actions runner with one configurable profile, external emergency triggers, and a safe Dry Run mode.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yshalsager--mafza.json",
-  "sha256": "e8285a2fba55e28b261ef0fe8e454a838d31523202e27cd9e82065d4ba6f62ba"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a5267a95751241b5002f9306672c3cbc51ec6564680688c2807bf1dd5b32855f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2,
+  "stars": 3,
   "stars_por_mes": null
  },
  "nombre": "Mafza",

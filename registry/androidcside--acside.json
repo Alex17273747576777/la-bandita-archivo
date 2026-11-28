@@ -8,18 +8,9 @@
  },
  "descripcion": "AndroidCS IDE is a full-featured development environment designed for creating and managing all types of Android projects directly on-device or on lightweight systems. It provides a powerful yet efficient workflow for developers who want a complete Android development experience without the heavy requirements of traditional IDEs.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/androidcside--acside.json",
-  "sha256": "7c3e7af2e542380685b7d806d74e5d357cd2bd14dc18ca7ff2e57ca39a07d3a9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2db69becb257388a31dea3b5283f2fe6ef8ce472aece6b7b9a4bf21f4e54181f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": "mit",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 335,
+  "stars": 349,
   "stars_por_mes": null
  },
  "nombre": "ACSIDE",

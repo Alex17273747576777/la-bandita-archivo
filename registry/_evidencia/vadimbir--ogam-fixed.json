@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
    "committedDate": "2026-09-18T20:26:31Z",
    "oid": "57145dffb731027f98662b5c2e9e58457c754b54"
   }
  },
- "diskUsage": 1175296,
+ "diskUsage": 842200,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "MIT"
  },
  "nameWithOwner": "VadimBir/OGAM-Fixed",
- "pushedAt": "2026-09-25T18:23:08Z",
+ "pushedAt": "2026-11-22T05:54:39Z",
  "releases": {
   "nodes": []
  },

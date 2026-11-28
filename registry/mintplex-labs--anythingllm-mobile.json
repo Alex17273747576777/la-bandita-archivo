@@ -4,22 +4,13 @@
   "release_en": "2026-09-13",
   "semantica_http": 200,
   "ultima_release": "v1.1.0",
-  "ultimo_push": "2026-10-05"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "An AI Agent that lives in your pocket. Local-first and privacy focused.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mintplex-labs--anythingllm-mobile.json",
-  "sha256": "59e07036a9db1ab483fdf1d7a1be7c91a34a5d81418f8c3067518de032820e34"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c9864b33869888d1ae0386615927fcce39834c3f5808376d67f90cf05c824296"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 183,
+  "stars": 213,
   "stars_por_mes": null
  },
  "nombre": "anythingllm-mobile",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e86368181230403eb8e669d3b25593ff8b1a7943",
+  "commit": "d4663dfaf11f69c64ef7b57a5788c6d3719c18bd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e86368181230403eb8e669d3b25593ff8b1a7943"
+  "swhid": "swh:1:rev:d4663dfaf11f69c64ef7b57a5788c6d3719c18bd"
  },
  "repo": "Mintplex-Labs/anythingllm-mobile",
  "web": "https://anythingllm.com/mobile"

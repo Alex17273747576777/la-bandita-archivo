@@ -8,18 +8,9 @@
  },
  "descripcion": "Screenshot testing for Compose Multiplatform and Android previews. One annotation, no test code, no emulator",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/trazdev--mugshot.json",
-  "sha256": "e5e59a0563ffc59fdb595e4238a7f87aaf98983834268eacff25e3d364eba50f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "eb5f5ffbcd99e33cd86ea8e88136e455adac61228ecc690b1ec3b06f340e72e1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 359,
+  "stars": 225,
   "stars_por_mes": null
  },
  "nombre": "Mugshot",

@@ -8,18 +8,9 @@
  },
  "descripcion": "Fast Wi-Fi / LTE / Ethernet switching on Android: buttons in the app, a shortcut, a widget and a quick settings tile. Privileges via Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/nd4y--netswitcher.json",
-  "sha256": "259430665d4b6f1fef8069581543df85d94f70fefcbe6a47e8cc91ecaeffbc29"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b5a1c85c0bfe4e5506bc3a225d0ab00ba8532616f35100f774be3e8078d0703a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6,
+  "stars": 8,
   "stars_por_mes": null
  },
  "nombre": "netswitcher",

@@ -4,22 +4,13 @@
   "release_en": "2021-03-20",
   "semantica_http": 200,
   "ultima_release": "v1.5",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Collaborative cheatsheets for console commands 📚.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tldr-pages--tldr.json",
-  "sha256": "92eb1e8e345eea6d219d6ab52144f7759bfb6c462b400dee96e883d91c3bcb85"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5b8117fdcc4688d835b31246af21c030e05b18ad43c28afc6a8ad03b95cc2cea"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE.md",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 64113,
+  "stars": 64323,
   "stars_por_mes": null
  },
  "nombre": "tldr",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5a3089d4dc7ec5b0d2e7cfbbd7ac8b9cee1d373b",
+  "commit": "23ab69f80b7301652e8a9e616bbac5944b97cb2e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5a3089d4dc7ec5b0d2e7cfbbd7ac8b9cee1d373b"
+  "swhid": "swh:1:rev:23ab69f80b7301652e8a9e616bbac5944b97cb2e"
  },
  "repo": "tldr-pages/tldr",
  "web": "https://tldr.sh"

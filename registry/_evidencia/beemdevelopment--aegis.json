@@ -1,24 +1,24 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-09-06T10:18:35Z",
-   "oid": "d6f4e5925a97e4e91593f1542085eae03432a759"
+   "committedDate": "2026-11-27T12:25:54Z",
+   "oid": "d5b5246efee1fa2c0cf2466e3df87a4f8b33a2f8"
   }
  },
- "diskUsage": 23060,
- "forkCount": 613,
+ "diskUsage": 22840,
+ "forkCount": 626,
  "isArchived": false,
  "issues": {
-  "totalCount": 118
+  "totalCount": 115
  },
  "licenseInfo": {
   "name": "GNU General Public License v3.0",
   "spdxId": "GPL-3.0"
  },
  "nameWithOwner": "beemdevelopment/Aegis",
- "pushedAt": "2026-09-06T10:30:01Z",
+ "pushedAt": "2026-11-27T12:25:54Z",
  "releases": {
   "nodes": [
    {
@@ -28,5 +28,5 @@
    }
   ]
  },
- "stargazerCount": 13459
+ "stargazerCount": 13655
 }

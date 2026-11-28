@@ -8,18 +8,9 @@
  },
  "descripcion": "ClusterTune is an Android utility for tuning CPU frequency limits on supported handheld devices. It lets you adjust CPU clusters, save performance profiles, and access quick controls from an Android Quick Settings tile.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aureliob--clustertune.json",
-  "sha256": "02d247322ca8e69228c1d58a198698a87b9c174460fd49c8c26b9487cebd9df5"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "626225d82f166da9c0c88debc09f99c4d9cb83c506451ba003b4c291470bd0cf"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 373,
+  "stars": 430,
   "stars_por_mes": null
  },
  "nombre": "ClusterTune",

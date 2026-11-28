@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-10-17T19:57:15Z",
-   "oid": "d6215d7741c817a72c0b136b788be5c31d269b29"
+   "committedDate": "2026-11-22T12:17:43Z",
+   "oid": "0d576c7a8d013ad21dd2db1fc05218a106e4b18f"
   }
  },
- "diskUsage": 169,
+ "diskUsage": 178,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Apache-2.0"
  },
  "nameWithOwner": "raziel100/mihon-preview",
- "pushedAt": "2026-11-03T23:02:22Z",
+ "pushedAt": "2026-11-22T12:26:06Z",
  "releases": {
   "nodes": [
    {

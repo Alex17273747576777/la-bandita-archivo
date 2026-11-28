@@ -8,18 +8,9 @@
  },
  "descripcion": "Thor Volume Link is an open-source volume controller for the dual-screen AYN Thor handheld. It routes the hardware volume keys to the primary screen, the secondary screen, or both screens at a linked relative level.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pth2000--thorvolumelink.json",
-  "sha256": "1150c566a347d823f9e22328ab9fa14014fb9d782892b4b68f27e0a24c0a034a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a58a94f2e41241007af8c0bc7929434ac51520d4993289e6ac41f7292a723a56"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 48,
+  "stars": 52,
   "stars_por_mes": null
  },
  "nombre": "ThorVolumeLink",

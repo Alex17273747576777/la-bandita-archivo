@@ -4,22 +4,13 @@
   "release_en": "2025-07-04",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-17"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "An Android app for searching torrents across multiple providers with fast search speed, detailed results, and packed with complete torrent actions.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/prajwalch--torrentsearch.json",
-  "sha256": "518760f277d6170ccc2c36eaa20afcbe39ba329c2ee6b1e337eae134d4b30666"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6d24b66587c67fd61233516c0323d1eaf1ce0bb3cd9d62d10e985b9e3ea4c411"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2217,
+  "stars": 2264,
   "stars_por_mes": null
  },
  "nombre": "TorrentSearch",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "790055d545276b3bc137dc27ebaa40ed24bc5107",
+  "commit": "1f48c324e78a6b16164fc8fa67b0b0b7e65e9948",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:790055d545276b3bc137dc27ebaa40ed24bc5107"
+  "swhid": "swh:1:rev:1f48c324e78a6b16164fc8fa67b0b0b7e65e9948"
  },
  "repo": "prajwalch/TorrentSearch"
 }

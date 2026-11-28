@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-27",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-11-25T11:13:03Z",
+   "oid": "21c57d67fa1981a21e79d2e86bb0e8bbbddb3ee6"
+  }
+ },
+ "diskUsage": 3330,
+ "forkCount": 282,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 5
+ },
+ "licenseInfo": {
+  "name": "Other",
+  "spdxId": "NOASSERTION"
+ },
+ "nameWithOwner": "humblemuzzu/dumbtv",
+ "pushedAt": "2026-11-25T11:13:37Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-10-18T18:21:28Z",
+    "tagName": "launcher-v1.0"
+   }
+  ]
+ },
+ "stargazerCount": 2289
+}

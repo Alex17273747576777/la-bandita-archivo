@@ -8,18 +8,9 @@
  },
  "descripcion": "Source code for the Capstone Project of Udacity Android Developer Nanodegree",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aniruddha-tapas--document-scanner.json",
-  "sha256": "783a864d531e193ebd61db1ddc1869488c8f85c29d54460aaeaa3e5e66c79a93"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "868e7e858c20dac69185f60d89c83ac54c31d94f9527fabe672be44bb30f818f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 367,
+  "stars": 366,
   "stars_por_mes": null
  },
  "nombre": "Document-Scanner",

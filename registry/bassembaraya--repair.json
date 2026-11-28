@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-22",
+  "release_en": "2026-11-27",
   "semantica_http": 200,
-  "ultima_release": "v1.0.48",
-  "ultimo_push": "2026-10-28"
+  "ultima_release": "v1.0.68",
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "One-tap fix for wireless Android Auto when your phone's Wi-Fi country blocks the car's 5 GHz channel. Built for Samsung phones. No root, uses Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/bassembaraya--repair.json",
-  "sha256": "d8f1ad5946a29649c2b8bcace1b8545b7563e95ad86b63120efea97e9b5e3e06"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d1fbca26f75443648def4f22b11477e520088b2102e46fb29fc05b2fd2c01932"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,23 +24,23 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5,
+  "stars": 7,
   "stars_por_mes": null
  },
  "nombre": "RePair",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "cc2c320b8c048874a3c95d19cc1a9d52f8860831",
+  "commit": "44639a51509fcdddc600198b41c6969a65d17014",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:cc2c320b8c048874a3c95d19cc1a9d52f8860831"
+  "swhid": "swh:1:rev:44639a51509fcdddc600198b41c6969a65d17014"
  },
  "repo": "bassembaraya/RePair"
 }

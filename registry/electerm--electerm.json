@@ -4,22 +4,13 @@
   "release_en": "2017-11-29",
   "semantica_http": 200,
   "ultima_release": "v0.7.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "📻Free and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS, iOS)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/electerm--electerm.json",
-  "sha256": "b75a8803a36d7e8f08f02e8a38062c31b065f3426cfe8c38e22bd5aa860f731a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "645d2b2fa843852daf0a8e07148932a3472d447ab9176aa94f065aa1c9ccf5ef"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 15529,
+  "stars": 15732,
   "stars_por_mes": null
  },
  "nombre": "electerm",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3db5ec7d9a2d3833d89a7c24978e1c77526e145a",
+  "commit": "de1237ef2ebc9f18075dd05a121d4fe9c14e315d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3db5ec7d9a2d3833d89a7c24978e1c77526e145a"
+  "swhid": "swh:1:rev:de1237ef2ebc9f18075dd05a121d4fe9c14e315d"
  },
  "repo": "electerm/electerm",
  "web": "https://electerm.org"

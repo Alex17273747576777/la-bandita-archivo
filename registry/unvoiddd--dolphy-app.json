@@ -4,22 +4,13 @@
   "release_en": "2026-06-26",
   "semantica_http": 200,
   "ultima_release": "v2.1",
-  "ultimo_push": "2026-09-30"
+  "ultimo_push": "2026-11-07"
  },
  "descripcion": "Android multi-tool for wireless protocol research (NFC, BLE, IR) and mobile hardware emulation. No root required.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/unvoiddd--dolphy-app.json",
-  "sha256": "d124cc9d1376b04b33da5eb56391b19429287e629ef888bc9a1dfc0216ea9de8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5325d66ff846f1e1717778016a0badf65f39980be1ccc6fc59df888ec41a755e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 301,
+  "stars": 1052,
   "stars_por_mes": null
  },
  "nombre": "Dolphy-App",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3f6cbcc034454cd6a1dee395191572b641c96516",
+  "commit": "db41e0b72a0090823595462bafd65f35eb57598f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3f6cbcc034454cd6a1dee395191572b641c96516"
+  "swhid": "swh:1:rev:db41e0b72a0090823595462bafd65f35eb57598f"
  },
  "repo": "unvoiddd/Dolphy-App",
  "web": "https://unvoiddd.github.io/Dolphy-App/"

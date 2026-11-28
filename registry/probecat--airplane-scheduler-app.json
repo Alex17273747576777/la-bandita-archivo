@@ -4,22 +4,13 @@
   "release_en": "2026-10-11",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Android app to automatically switch airplane mode on a schedule",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/probecat--airplane-scheduler-app.json",
-  "sha256": "0e77cf2e953c31359fa74a2959e15a56baae3c8d5cab39c8b791a343bbbc1ff0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "87caff54ca19dcc139074804968c1e7a65e71cb8ac8b14831928614a687ffab1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13,
+  "stars": 17,
   "stars_por_mes": null
  },
  "nombre": "airplane-scheduler-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "040b5b1f4f64b206063cf0883d6c9160ba2741fd",
+  "commit": "e471f8a635bd524294f637751bd8dc3c097ef96a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:040b5b1f4f64b206063cf0883d6c9160ba2741fd"
+  "swhid": "swh:1:rev:e471f8a635bd524294f637751bd8dc3c097ef96a"
  },
  "repo": "probecat/airplane-scheduler-app"
 }

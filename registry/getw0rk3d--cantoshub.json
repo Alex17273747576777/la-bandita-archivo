@@ -4,22 +4,13 @@
   "release_en": "2026-06-27",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-04"
  },
  "descripcion": "Gaming Hub Booster",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/getw0rk3d--cantoshub.json",
-  "sha256": "39f56899b3d39206b76912909d1241eb6540344bafd3ba30418371135d50fe0f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7f4ef7c78e607c87f8349ba1ea354dbbf6e5febaacdce171c5353956fc8fec90"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2a8ac96c41678945c93eeb2021d06994849db02f",
+  "commit": "9a6b63685f4255f32631a566e306768030624872",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:2a8ac96c41678945c93eeb2021d06994849db02f"
+  "swhid": "swh:1:rev:9a6b63685f4255f32631a566e306768030624872"
  },
  "repo": "getw0rk3d/CantosHub"
 }

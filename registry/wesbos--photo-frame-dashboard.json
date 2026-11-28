@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-23"
+  "ultimo_push": "2026-11-16"
  },
  "descripcion": "Getting ADB, root, backups and custom apps onto locked-down Android photo frames (Skylight Calendar, BIUFRAME)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/wesbos--photo-frame-dashboard.json",
-  "sha256": "c89c7a26387ccdf1647a3524b86522616e173c11991379a4b44413d9cbb3563c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ad56667dd7cd985a3c31c557621ab5fe9fc4af2a7c4ceee424f6bf4f3eabaaad"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1637,
+  "stars": 1869,
   "stars_por_mes": null
  },
  "nombre": "photo-frame-dashboard",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "0bff55ef3fb2a3bfdab05bc8e3bd0c9d69f63189",
+  "commit": "346b712b8f3c42e7407baae3c620116ebae9c85e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:0bff55ef3fb2a3bfdab05bc8e3bd0c9d69f63189"
+  "swhid": "swh:1:rev:346b712b8f3c42e7407baae3c620116ebae9c85e"
  },
  "repo": "wesbos/photo-frame-dashboard"
 }

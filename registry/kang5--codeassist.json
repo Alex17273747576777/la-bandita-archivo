@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-08-05"
+  "ultimo_push": "2026-11-12"
  },
  "descripcion": "An IDE for building Android applicatons on Android.",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kang5--codeassist.json",
-  "sha256": "e43c904617cfe96f9a58fd5bf1dc7086e1f2ce25697a0f3c5c0753c4598e1e93"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "be9bf5bd6e76df11f517170b0ce15662688e21a767c94c27bf7420538e4184c8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "0c570f48e1ddd1d847224b6c9e1fe66b4f9199c9",
+  "commit": "d155772f361d331726bbad3f92008fa88a0249fc",
   "swh_estado": null,
-  "swhid": "swh:1:rev:0c570f48e1ddd1d847224b6c9e1fe66b4f9199c9"
+  "swhid": "swh:1:rev:d155772f361d331726bbad3f92008fa88a0249fc"
  },
  "repo": "Kang5/CodeAssist"
 }

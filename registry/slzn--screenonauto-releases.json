@@ -4,22 +4,13 @@
   "release_en": "2026-05-13",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Public APK downloads and release notes for ScreenOnAuto — mirror your phone's screen to an Android Auto head unit.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/slzn--screenonauto-releases.json",
-  "sha256": "65ae8b0779e69acfc5e5a957d0dcfe32a91a1276e4cd0b8632ad29974748e051"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2b083c5b2698dc7017ba24160b9dc20363a3e0be11ff46fff15ee7a4efc73b35"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,25 +21,25 @@
  "id": "slzn--screenonauto-releases",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-31"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 143,
+  "stars": 173,
   "stars_por_mes": null
  },
  "nombre": "ScreenOnAuto-releases",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "05d6a2dd1df6727f1631c190be1d856c76c82f94",
+  "commit": "faf7fa9e0b3e3c02683ba087f9fd810745ac51d0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:05d6a2dd1df6727f1631c190be1d856c76c82f94"
+  "swhid": "swh:1:rev:faf7fa9e0b3e3c02683ba087f9fd810745ac51d0"
  },
  "repo": "slzn/ScreenOnAuto-releases",
  "web": "https://screenonauto.lzn.idv.tw/"

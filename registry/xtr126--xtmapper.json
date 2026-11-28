@@ -4,22 +4,13 @@
   "release_en": "2022-10-21",
   "semantica_http": 200,
   "ultima_release": "v1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Keyboard and mouse input mapper",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/xtr126--xtmapper.json",
-  "sha256": "1d70e2c7d4ee08bb5d87fed53777764375353810df3185137dcd0502ddedb369"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f124a978f8eeb460d732b3fb896fb8264a3c48e20bd74a2c2bee81c4b91a5bdc"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 457,
+  "stars": 464,
   "stars_por_mes": null
  },
  "nombre": "XtMapper",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "4cb42205841d5329cf9907ce87d56a5ff0e2a1da",
+  "commit": "7dca420d870a9df1a35fbc5b482ccc402ebef51b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4cb42205841d5329cf9907ce87d56a5ff0e2a1da"
+  "swhid": "swh:1:rev:7dca420d870a9df1a35fbc5b482ccc402ebef51b"
  },
  "repo": "Xtr126/XtMapper",
  "web": "https://xtr126.github.io/XtMapper-docs"

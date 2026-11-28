@@ -8,18 +8,9 @@
  },
  "descripcion": "仿照\"任阅\"的追书、看书的小说阅读器。重写\"任阅\"的代码，优化代码逻辑和代码结构，降低内存使用率。重写小说阅读器，支持网络阅读、本地阅读(支持分章，虚拟分章)。支持仿真翻页、上下滚动翻页等翻页效果。支持小说断点续传功能。优化用户使用体验。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/newbiechen1024--novelreader.json",
-  "sha256": "b975d2ffa14f76f6548baefac8509e4e91292cfe4514c518e7e481478e546417"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "58b1f9202cd1a20281cb003d4ab0a576e44e836b8f6a8d5ad33f0cf09ffcb28f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

@@ -4,22 +4,13 @@
   "release_en": "2026-09-27",
   "semantica_http": 200,
   "ultima_release": "v3.20",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Minecraft world/save to OBJ exporter for Android (offline, three.js preview, GPL-3.0)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/151shi23--ashenflamefoundry.json",
-  "sha256": "1aa85191cbf15d4d592bc1b1e29a02a6ed7789e67275e3b2cbfdff1483045cee"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "921f5de032e4e478f5fb8e3d03306af8108827f3401b9d78f4e3a18768334a50"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5236b286a63aa7b0dcd90edbc422758a8c7e16f7",
+  "commit": "e9e7b4c07f4ef475036e96c4af34c8961a8c8922",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5236b286a63aa7b0dcd90edbc422758a8c7e16f7"
+  "swhid": "swh:1:rev:e9e7b4c07f4ef475036e96c4af34c8961a8c8922"
  },
  "repo": "151shi23/AshenFlameFoundry"
 }

@@ -4,22 +4,13 @@
   "release_en": "2025-10-21",
   "semantica_http": 200,
   "ultima_release": "v1.0.11",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A modern, feature-rich YouTube and YouTube  Music client with local recommendation for Android built with Jetpack Compose",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/flow-tube--flow.json",
-  "sha256": "abe919193c0788dd014ecda7dcf01600eb7e4cd0afe801e8d10f6243aa0eed52"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "de7cc54ab7e69b0c9895e22055a962c5d1a1b39e629d64ec2c91b9eb37c743b2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3280,
+  "stars": 3817,
   "stars_por_mes": null
  },
  "nombre": "Flow",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3130cf1c83fb05f614ca268a0550ca91299d78d9",
+  "commit": "765084b9ed2336f948582477707c3b189953c350",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3130cf1c83fb05f614ca268a0550ca91299d78d9"
+  "swhid": "swh:1:rev:765084b9ed2336f948582477707c3b189953c350"
  },
  "repo": "Flow-Tube/Flow",
  "web": "https://flow-tube.org"

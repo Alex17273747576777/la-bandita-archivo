@@ -8,18 +8,9 @@
  },
  "descripcion": "A fire-and-forget program to stop Android apps from running in the background.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/adil192--no_more_background.json",
-  "sha256": "fd8c98b4d8f4a94641363475e1bf69179c13109c6ae9af215d8cb809dd764b7a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e4f77542f185a5c88ee21a01aff70072c7c730558b109120911fd0573799ba42"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 386,
+  "stars": 397,
   "stars_por_mes": null
  },
  "nombre": "no_more_background",

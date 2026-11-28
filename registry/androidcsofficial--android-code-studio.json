@@ -4,22 +4,13 @@
   "release_en": "2025-09-27",
   "semantica_http": 200,
   "ultima_release": "v1.0.0+gh.r0",
-  "ultimo_push": "2026-07-09"
+  "ultimo_push": "2026-11-08"
  },
  "descripcion": "Android Code Studio is an IDE for Android to develop full featured Android apps.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/androidcsofficial--android-code-studio.json",
-  "sha256": "f0d51ea46bf559caa663b4e120467ffab8aac7ded26bb76f98aa7b1709b29072"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8c1e19a576544da2a2931c007e6b114877eed398f0af34d6eb778d94bbdf58f7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,23 +25,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1390,
+  "stars": 1483,
   "stars_por_mes": null
  },
  "nombre": "android-code-studio",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e93e7468e6482ea51ef8e1adad6b7c6de86ae7cd",
+  "commit": "24cf7fe1133c35ca3e18a8e30128435482e07709",
   "swh_estado": "archivada",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e93e7468e6482ea51ef8e1adad6b7c6de86ae7cd"
+  "swhid": "swh:1:rev:24cf7fe1133c35ca3e18a8e30128435482e07709"
  },
  "repo": "AndroidCSOfficial/android-code-studio"
 }

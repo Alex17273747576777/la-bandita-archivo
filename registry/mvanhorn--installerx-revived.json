@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mvanhorn--installerx-revived.json",
-  "sha256": "bf3780bff832d8b54a255365c5a09ab3a54f06615914ab754c7b17b577c50c3a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4c9cc76fabf337f0ef98d5e78ccb238d27b8e6c7ed0c475b183e6f03c112913d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "35d7c7a06e86b280789a171d8b213becac1a0fd7",
+  "commit": "2bdd19dc552a3742b7b563dd9fa9a74ce56bb644",
   "swh_estado": null,
-  "swhid": "swh:1:rev:35d7c7a06e86b280789a171d8b213becac1a0fd7"
+  "swhid": "swh:1:rev:2bdd19dc552a3742b7b563dd9fa9a74ce56bb644"
  },
  "repo": "mvanhorn/InstallerX-Revived"
 }

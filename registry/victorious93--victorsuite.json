@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-31",
+  "release_en": "2026-11-14",
   "semantica_http": 200,
-  "ultima_release": "v0.118.3.59",
-  "ultimo_push": "2026-10-31"
+  "ultima_release": "v0.118.3.64",
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Termux-based Android Linux suite: proot containers, backup/restore, plugins, X11, and automation tools.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/victorious93--victorsuite.json",
-  "sha256": "02aec07934a294cc9ac83224b1e247b1946ce0e29a49c9f6ca45f7bf1064b0b3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c9fca0bd8c1d7b7487601c465309cad02bc01c600f5608969935cd5a265c3d92"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": "LICENSE.md",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f5739723e360c689dde35d48bdaa3e312cfa205c",
+  "commit": "7c29589ab98b245e3a364a60624cf8e397a4bb9e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f5739723e360c689dde35d48bdaa3e312cfa205c"
+  "swhid": "swh:1:rev:7c29589ab98b245e3a364a60624cf8e397a4bb9e"
  },
  "repo": "Victorious93/VictorSuite"
 }

@@ -8,18 +8,9 @@
  },
  "descripcion": "Custom \"Jailbreak\" firmware for the Analogue Super NT",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/smokemonsterpacks--super-nt-jailbreak.json",
-  "sha256": "e61271d8722307ed1f7f638abe5ce0fc09d55cc3743625163e7e80adee6013dd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2cc7854195a5f801d525297d154b4172fd7cd137da415fabd034da3fc543e646"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

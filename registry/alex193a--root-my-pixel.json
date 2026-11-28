@@ -8,18 +8,9 @@
  },
  "descripcion": "Jailbreak supported Google Pixel phones with CVE-2026-43499",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/alex193a--root-my-pixel.json",
-  "sha256": "d3c8ba52fc7b606d0deb49f7e408253aab1d0ce5fe3aaa3cb0e350a9776a5865"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0c115ad17255bc1eb2ae32e95a85fa6824c9cd774409612a7c870c8a9a7ae00d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 486,
+  "stars": 528,
   "stars_por_mes": null
  },
  "nombre": "Root-My-Pixel",

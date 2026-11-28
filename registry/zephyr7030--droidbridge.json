@@ -4,22 +4,13 @@
   "release_en": "2026-09-17",
   "semantica_http": 200,
   "ultima_release": "v0.3.0",
-  "ultimo_push": "2026-10-20"
+  "ultimo_push": "2026-11-15"
  },
  "descripcion": "On-device MCP server for Android. Connect ChatGPT through OpenAI's official secure tunnel, let AI agents operate your phone and run scheduled automations on it — App edition (Accessibility/Shizuku) or root edition (Magisk/KernelSU/APatch). No PC, no ADB. 卓爱桥",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zephyr7030--droidbridge.json",
-  "sha256": "010f969941155343fc986cc407c44c2d9319347f0e94ddb2e199f5eae40fb197"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "33a800400ac3e02f5c5b2e2786bf7dbd52af42a4f18c1270844944fe776309f4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 19,
+  "stars": 27,
   "stars_por_mes": null
  },
  "nombre": "DroidBridge",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9855249e4fc1c112d2d93af8dc14f5855092b5a1",
+  "commit": "e070a70fa810bfbd7cf8eeba211aafe706844a53",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9855249e4fc1c112d2d93af8dc14f5855092b5a1"
+  "swhid": "swh:1:rev:e070a70fa810bfbd7cf8eeba211aafe706844a53"
  },
  "repo": "zephyr7030/DroidBridge"
 }

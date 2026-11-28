@@ -8,18 +8,9 @@
  },
  "descripcion": "Building a WhatsApp Clone in Flutter.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/iampawan--flutterwhatsappclone.json",
-  "sha256": "ddabcf6b52a172fcd9cf45f14083452c45ba38cc5588b824d712e3f4f098d09b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9d62d6ed1fcb6e838d23265d9882d5f9ef29857d3224bffb62bbffc43da81e4b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": "mit",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1762,
+  "stars": 1761,
   "stars_por_mes": null
  },
  "nombre": "FlutterWhatsAppClone",

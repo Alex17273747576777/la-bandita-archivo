@@ -4,22 +4,13 @@
   "release_en": "2024-10-24",
   "semantica_http": 200,
   "ultima_release": "v1.2.0",
-  "ultimo_push": "2026-10-23"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "An application designed to silently protect user data from powerful adversaries.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/bakad3v--android-antiforensic-tools.json",
-  "sha256": "507a03224370c22826447c0b5bab1843622e05fb6d71e40eeb55b4cec6c909b6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "516170cccde86e5a2c00f1eb3b513b98a2e7ef64556cb1c9bb64c3beed8504e9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 210,
+  "stars": 217,
   "stars_por_mes": null
  },
  "nombre": "Android-AntiForensic-Tools",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "63d129ee02b2ac5218df5546ee07eaf0292f26b4",
+  "commit": "cf47f122a3ea56881e3530ee5aad258f4cee6b12",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:63d129ee02b2ac5218df5546ee07eaf0292f26b4"
+  "swhid": "swh:1:rev:cf47f122a3ea56881e3530ee5aad258f4cee6b12"
  },
  "repo": "bakad3v/Android-AntiForensic-Tools"
 }

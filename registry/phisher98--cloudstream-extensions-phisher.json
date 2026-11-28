@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Cloudstream Extensions by Phisher",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/phisher98--cloudstream-extensions-phisher.json",
-  "sha256": "23c8a5d79eaa00aed62165125e94051ab963fe9d26f796c65f4cd7677e828751"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c51a24f27ee4b549f06098be4bc664dac66ae685d8bb0e1174ade8b525e63221"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 531,
+  "stars": 556,
   "stars_por_mes": null
  },
  "nombre": "cloudstream-extensions-phisher",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "90ffeda98e24b3144b573a72d4773f898af05c19",
+  "commit": "51f2ca1fe56f39baf9b02b8bdce7ad3c0206163a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:90ffeda98e24b3144b573a72d4773f898af05c19"
+  "swhid": "swh:1:rev:51f2ca1fe56f39baf9b02b8bdce7ad3c0206163a"
  },
  "repo": "phisher98/cloudstream-extensions-phisher"
 }

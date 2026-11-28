@@ -4,22 +4,13 @@
   "release_en": "2020-08-04",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-18"
  },
  "descripcion": "An open-source keyboard for Android which respects your privacy. Currently in beta.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/florisboard--florisboard.json",
-  "sha256": "23d67d9cfdcf54b2152340d8a0ea03764adb7759334ba88c1446f5c4d9d67ac3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c1b2608f7a8d9dcacdc58812e5b109b2c022d88a0901994702770e239c563cd9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8744,
+  "stars": 8807,
   "stars_por_mes": null
  },
  "nombre": "florisboard",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "bac346e8a5e7ee7104359cebdbce7d4105d3f0fa",
+  "commit": "5e84280e09eae7156f20bca74e5c7e84c5b34053",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:bac346e8a5e7ee7104359cebdbce7d4105d3f0fa"
+  "swhid": "swh:1:rev:5e84280e09eae7156f20bca74e5c7e84c5b34053"
  },
  "repo": "florisboard/florisboard",
  "web": "https://florisboard.org"

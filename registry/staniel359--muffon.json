@@ -4,22 +4,13 @@
   "release_en": "2021-05-11",
   "semantica_http": 200,
   "ultima_release": "v0.1.0-alpha",
-  "ultimo_push": "2026-10-26"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Advanced multi-source music streaming + discovery client for desktop. Free, clean, no login, no ads.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/staniel359--muffon.json",
-  "sha256": "5f60c71222af1b9111a727b704b8bc5a8b39908f04cb2474616c3e33ac225568"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1a9e9645951c0aba8fe2a2f7531bd52fb81b7def6894dd8f4c6b0c778e57cc23"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2258,
+  "stars": 2275,
   "stars_por_mes": null
  },
  "nombre": "muffon",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b443eb86e688381a8fdade9709847d6eee2440ec",
+  "commit": "f4eebf9af69bd802c5b418f7a41c4710991ad9a7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b443eb86e688381a8fdade9709847d6eee2440ec"
+  "swhid": "swh:1:rev:f4eebf9af69bd802c5b418f7a41c4710991ad9a7"
  },
  "repo": "staniel359/muffon",
  "web": "https://muffon.netlify.app"

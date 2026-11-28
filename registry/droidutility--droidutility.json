@@ -8,18 +8,9 @@
  },
  "descripcion": "An all-in-one non-root Android utility suite featuring a native Ghostty-powered interactive terminal, app debloater, and system tweaks. Powered by Shizuku and designed for mobile-only developers.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/droidutility--droidutility.json",
-  "sha256": "b58b45fe02f3dda6f6e80cf736d7c28196fdda44ac6f251783fb92930cc4456d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "35c597eb3b791bb213e19a193dec2c93bf04af911df04d17ee5847bb2fcc9cc8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

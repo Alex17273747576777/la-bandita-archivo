@@ -8,18 +8,9 @@
  },
  "descripcion": "1-Tap Status Bar & System Icon Hider for Android powered by Shizuku. Hide clock, battery, and icons with zero root.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sachinmandawi--cleanbar.json",
-  "sha256": "1a2e6e918f42981317904036ace35d406121ce5e57103215f279e0ff0e2f28e1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6fd6206e35c0d492919776b022b2960a0e654fa6223fe02d9f38f2343c27baf6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 30,
+  "stars": 39,
   "stars_por_mes": null
  },
  "nombre": "CleanBar",

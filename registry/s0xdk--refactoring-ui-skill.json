@@ -8,18 +8,9 @@
  },
  "descripcion": "A Claude Code skill that applies the concrete design rules from the book Refactoring UI (Wathan & Schoger) — constrained spacing/type/color/shadow scales, hierarchy through weight and color, and depth through emulated light — to building and fixing interfaces.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/s0xdk--refactoring-ui-skill.json",
-  "sha256": "2c9efa9a621d463342cc8d4af4409bc9d1ec83ec1191ddf2d53b1ec90e2f9d74"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b7d2c0cffcea6ffa1176d71941c33d160ab54f72a04eace71922c7655d7ad8fc"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 681,
+  "stars": 711,
   "stars_por_mes": null
  },
  "nombre": "refactoring-ui-skill",

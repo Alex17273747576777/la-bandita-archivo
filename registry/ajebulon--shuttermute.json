@@ -8,18 +8,9 @@
  },
  "descripcion": "A lightweight Android app that silences the camera shutter sound using Shizuku, without requiring root access.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ajebulon--shuttermute.json",
-  "sha256": "414c5f9eb9580f96ef76a37ec31df9bb11efc4eb923afe7dd35618f44d3473b2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5d71d7f2dcc10b1d0db608836fa5326f4460b7f021a1e454e9866772ed190e86"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 20,
+  "stars": 21,
   "stars_por_mes": null
  },
  "nombre": "ShutterMute",

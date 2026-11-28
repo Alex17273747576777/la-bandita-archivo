@@ -8,18 +8,9 @@
  },
  "descripcion": "A lightweight bubble notice tool for android phones, no \"Root/Shizuku\" required.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/gracethings--bubble-notice-android.json",
-  "sha256": "b8dcf7063811ad8b88f46579df594d7d76bd23ff9e29a6bf0b22462f068ad074"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c194fe0ec37392841afc4404af646ac567c2791a7c76d4a30c89a8d1cef1e6f2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 116,
+  "stars": 118,
   "stars_por_mes": null
  },
  "nombre": "bubble-notice-android",

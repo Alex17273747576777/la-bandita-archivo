@@ -4,22 +4,13 @@
   "release_en": "2026-06-11",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-09"
  },
  "descripcion": "Clean, fast, and current setedit implementation.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kerneldroid--seteditplus.json",
-  "sha256": "0cb4f7c94ecad948e5c3ff8fde4be992f048952763ea0b125091f7ff16de98be"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7f32b94b0aa8bd454a68a42c5a1235afb0ee24ab18af24a4d9924584bb5eeebf"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,25 +21,25 @@
  "id": "kerneldroid--seteditplus",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-31"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 56,
+  "stars": 74,
   "stars_por_mes": null
  },
  "nombre": "SetEditPlus",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "290417753055d505b36f6e2c2574346b6a15a53b",
+  "commit": "5fda3876c89bac52db1bd6f468a08ff3509f55a1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:290417753055d505b36f6e2c2574346b6a15a53b"
+  "swhid": "swh:1:rev:5fda3876c89bac52db1bd6f468a08ff3509f55a1"
  },
  "repo": "kerneldroid/SetEditPlus"
 }

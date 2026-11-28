@@ -4,22 +4,13 @@
   "release_en": "2026-07-21",
   "semantica_http": 200,
   "ultima_release": "1.2.1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "LocalViewer is a fast and full-featured Android SMB/WebDAV/CBZ photo/comic/ebook viewer and video player with folder and library support.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zmz125000--localviewer.json",
-  "sha256": "46b46ffffb246b19db77953e73f07bd2b2bec081810b391bd7108b82013b8031"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d0bbc5ceed3e03edc76f3a8b4c9a57e894eac760452f107f3910fb3358a70dc9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 205,
+  "stars": 247,
   "stars_por_mes": null
  },
  "nombre": "LocalViewer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "80e197c7388424d268f77f32b486e03bdb9c735e",
+  "commit": "5495e6d2218883f6b37000116792d5dfb7ba5202",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:80e197c7388424d268f77f32b486e03bdb9c735e"
+  "swhid": "swh:1:rev:5495e6d2218883f6b37000116792d5dfb7ba5202"
  },
  "repo": "zmz125000/LocalViewer"
 }

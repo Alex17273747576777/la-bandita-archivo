@@ -4,22 +4,13 @@
   "release_en": "2025-06-10",
   "semantica_http": 200,
   "ultima_release": "1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-05"
  },
  "descripcion": "PC GAME deals application.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rajkumarbhakta--gdealz.json",
-  "sha256": "320f8cdeae95cb521dbf01c63727fef6323bd694011d1025a20f9d2f011d97bd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7b32ee12bd81297ea33be66f49f7ed9c3be546ebca0c74dd57553a1acfd33014"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 56,
+  "stars": 60,
   "stars_por_mes": null
  },
  "nombre": "GDealz",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "dc0eed72be4eece3a7363f923caadd9a20986737",
+  "commit": "1d26e52cef447e4e014bc29722b3d905ac0f117e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:dc0eed72be4eece3a7363f923caadd9a20986737"
+  "swhid": "swh:1:rev:1d26e52cef447e4e014bc29722b3d905ac0f117e"
  },
  "repo": "Rajkumarbhakta/GDealz"
 }

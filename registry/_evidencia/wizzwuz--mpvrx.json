@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-10-30T09:21:24Z",
-   "oid": "dc6101c110a40f6def141094460fc257ca989820"
+   "committedDate": "2026-11-09T18:34:54Z",
+   "oid": "7832846dd6b6cbe41623a0d1136637bf0f6d89a6"
   }
  },
- "diskUsage": 81780,
+ "diskUsage": 87397,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "AGPL-3.0"
  },
  "nameWithOwner": "wizzwuz/mpvRx",
- "pushedAt": "2026-10-30T09:21:25Z",
+ "pushedAt": "2026-11-24T08:53:03Z",
  "releases": {
   "nodes": []
  },

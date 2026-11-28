@@ -8,18 +8,9 @@
  },
  "descripcion": "iPhone-Duo frosted-glass fold effect for Android foldables, driven by the real hinge angle. No root.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/marcoazeem--duo-open.json",
-  "sha256": "b8b66ab74ef94c2bf0b03ea97064984c7b176aabb3e16ed62f0912576dfd02f7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2b1460306057b6808187a34fec754c1f8940dbeacfd7979a1ec29d564af81d01"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 72,
+  "stars": 87,
   "stars_por_mes": null
  },
  "nombre": "duo-open",

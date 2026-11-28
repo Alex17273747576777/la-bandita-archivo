@@ -4,22 +4,13 @@
   "release_en": "2026-08-26",
   "semantica_http": 200,
   "ultima_release": "latest",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Android Parallel Space / Virtual Engine — data-ownership workspace built on the cloud/ declarative framework",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/diegonmarcos--cloudy-u-android.json",
-  "sha256": "4546cc80b8007a214fe9b4d53f6189683749713b8080e9434f21698c03d04aa7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1788d391d1ea07ed8b1568a1c413a94db93b8257b2e0a5b6edc5cfad26147324"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "45aba58996e5383fe63ad4bad8f2cdfcdd7d3663",
+  "commit": "f180695a35f8a8595ed2e6f89c19c5f1a021bd0d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:45aba58996e5383fe63ad4bad8f2cdfcdd7d3663"
+  "swhid": "swh:1:rev:f180695a35f8a8595ed2e6f89c19c5f1a021bd0d"
  },
  "repo": "diegonmarcos/cloudy-u-android"
 }

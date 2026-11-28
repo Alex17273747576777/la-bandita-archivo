@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "On-device manga-translation engine — detection and text removal on NCNN, OCR on",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pineappletwilight--houri-engine.json",
-  "sha256": "9d383d060402754c9c988a0374d43b1ccc2431b1fc5e5ad496b92b27c24ac15a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "39b018f1bb73534b3b75e06fdf87cc41630720c3eaa4bb47c5dc6923f7ef5214"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7d1d99917bf24eb20c321b7195813499327ad4e3",
+  "commit": "61a08441281389c47df43c64aa049a931339f51d",
   "swh_estado": null,
-  "swhid": "swh:1:rev:7d1d99917bf24eb20c321b7195813499327ad4e3"
+  "swhid": "swh:1:rev:61a08441281389c47df43c64aa049a931339f51d"
  },
  "repo": "PineappleTwilight/houri-engine"
 }

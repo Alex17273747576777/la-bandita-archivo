@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop th",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mutamento3--web-to-app.json",
-  "sha256": "ac93319f105d2f0c352c1a129c7c2c46fce5de95f0d0559ade62b671eaae4a5e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0c5f398c74adc7d0b9e907477238ccf7ee0b3579adc202a13caea71f95b14f80"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Unlicense",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3fa4d98162631f64845cb642b7aa2b108b78c47c",
+  "commit": "4996527aa57dbfb0a576a4362c0edefac77c8040",
   "swh_estado": null,
-  "swhid": "swh:1:rev:3fa4d98162631f64845cb642b7aa2b108b78c47c"
+  "swhid": "swh:1:rev:4996527aa57dbfb0a576a4362c0edefac77c8040"
  },
  "repo": "Mutamento3/web-to-app"
 }

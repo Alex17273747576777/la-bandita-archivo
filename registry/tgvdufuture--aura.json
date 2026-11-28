@@ -4,22 +4,13 @@
   "release_en": "2026-08-17",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-18"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Custom notification LED app for the POCO X8 Pro (HyperOS / Xiaomi) — per-app, per-contact and per-group RGB colors and animations on the back LED rings, no root required (Shizuku).",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tgvdufuture--aura.json",
-  "sha256": "07e041ea6097f6a21c22535a342e19644b9c56d67a44b212221df0881ebd6674"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ddc1066a0842096a51bc2af8d4cfc0c7c7bb43e9a3620c619189e6b5eb386f4d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 18,
+  "stars": 26,
   "stars_por_mes": null
  },
  "nombre": "Aura",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ba8ff489a1de9326f0827fe452a925ee27c9d2a0",
+  "commit": "70596f7710396599f2b7c47e5b77442f6dee38e6",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ba8ff489a1de9326f0827fe452a925ee27c9d2a0"
+  "swhid": "swh:1:rev:70596f7710396599f2b7c47e5b77442f6dee38e6"
  },
  "repo": "tgvdufuture/Aura",
  "web": "https://tgvdufuture.github.io/Aura/"

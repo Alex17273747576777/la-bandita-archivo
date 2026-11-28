@@ -4,22 +4,13 @@
   "release_en": "2025-10-12",
   "semantica_http": 200,
   "ultima_release": "2.23.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zacharee--lockscreenwidgets.json",
-  "sha256": "d9f547217a05530d3f174722eb1925674decf3a58273f91770ad2b73910f3f64"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1967fa728fa22bc5c35750c5496fddad2160eabc57a09786b7f4b25ca8bec11f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 589,
+  "stars": 592,
   "stars_por_mes": null
  },
  "nombre": "LockscreenWidgets",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "83ce0f0c1fa9127e49dd716e2d92d139801be26e",
+  "commit": "e377ce98abe1addd496c03b169a1ab6d419986d7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:83ce0f0c1fa9127e49dd716e2d92d139801be26e"
+  "swhid": "swh:1:rev:e377ce98abe1addd496c03b169a1ab6d419986d7"
  },
  "repo": "zacharee/LockscreenWidgets"
 }

@@ -4,22 +4,13 @@
   "release_en": "2026-09-20",
   "semantica_http": 200,
   "ultima_release": "pre",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "An Android Auto alternative built for everyone",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/twinksoftware--gearslip.json",
-  "sha256": "4fe3a5294700a0fa53e747c9b1ec557c117ace7a8dee161cd2698067030f6e2d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d72af1349b9d99a3c2d478cb5189af7ae6253efb1c4ba0c9698021543aa9824f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 257,
+  "stars": 418,
   "stars_por_mes": null
  },
  "nombre": "Gearslip",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a00f5c489611f4a3a2e2a07d355cb36b298542a6",
+  "commit": "ec062a7a65346441b005ee8cef16e7080e07cf03",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a00f5c489611f4a3a2e2a07d355cb36b298542a6"
+  "swhid": "swh:1:rev:ec062a7a65346441b005ee8cef16e7080e07cf03"
  },
  "repo": "twinksoftware/Gearslip"
 }

@@ -8,18 +8,9 @@
  },
  "descripcion": "Toggle the enforced camera shutter sound through Shizuku",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/soralis0912--shuttersoundtoggle.json",
-  "sha256": "3723456aa94fc60165b2d0213c12e09324ffc075de3de2f23eb1236b6931668a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8d83e5f3f48c060948ee029ec56735c5060c77048180a033d9e01db02041202e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,13 +24,13 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: 1296 caracteres sin firma de licencia libre conocida ni cláusula de reserva de derechos. Queda citado el archivo y pendiente de lectura humana.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 38,
+  "stars": 39,
   "stars_por_mes": null
  },
  "nombre": "ShutterSoundToggle",

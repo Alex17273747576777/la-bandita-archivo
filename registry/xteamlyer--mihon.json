@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/xteamlyer--mihon.json",
-  "sha256": "69df5c9fc9b2bc7294c8cc550f336679680c00c4b1c1f2776d18649d741d9c3e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c5c67cc400d782320d99a77d41b7e015763f9a7d932f33e55a46444d5805db46"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "11e698e14e82a7be569361e8d86f9ebb7b7af651",
+  "commit": "4c38fcec5dd4d2ac046f7b0f6618896be35ffc97",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:11e698e14e82a7be569361e8d86f9ebb7b7af651"
+  "swhid": "swh:1:rev:4c38fcec5dd4d2ac046f7b0f6618896be35ffc97"
  },
  "repo": "xteamlyer/mihon"
 }

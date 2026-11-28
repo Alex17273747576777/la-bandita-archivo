@@ -4,22 +4,13 @@
   "release_en": "2026-09-25",
   "semantica_http": 200,
   "ultima_release": "3.2.2-cana.1",
-  "ultimo_push": "2026-10-14"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Do more. Because you can. Debloat Android across personal, work, and other profiles without root via Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jordanwoodson--cana.json",
-  "sha256": "76f93224a6b24cbefd7f23c0d3d1c1fdcc9dbc1cd8bdc5c227cda3d660976694"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5d8cd2dd704832209788a4c8fc50398af05c41f45e76f914988198645bc116a7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "LGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "cana",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "8c0770c31a31e467f5dc4e521a4c35adcbe12be8",
+  "commit": "827926fbfe5d946477709a8e819c70c9f5e3b425",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:8c0770c31a31e467f5dc4e521a4c35adcbe12be8"
+  "swhid": "swh:1:rev:827926fbfe5d946477709a8e819c70c9f5e3b425"
  },
  "repo": "jordanwoodson/cana",
  "web": "https://samolego.github.io/Canta/"

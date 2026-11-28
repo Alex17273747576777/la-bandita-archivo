@@ -8,18 +8,9 @@
  },
  "descripcion": "OxygenOS 16 notification shade and control center rebuilt for Google Pixel, no root (Jetpack Compose, accessibility overlay, optional Shizuku)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tripolskiydigital--onepluscontrolcenter.json",
-  "sha256": "cfe1474dd86890ac609d7233cc27fb5102fe7791dc45e8a09d3abf700cd2f6ef"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0eb72f1bee0c7aff7357fc4cc0714f8b40857c705cd01f4b3fab62d7bf858c9b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6,
+  "stars": 8,
   "stars_por_mes": null
  },
  "nombre": "onepluscontrolcenter",

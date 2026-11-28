@@ -4,22 +4,13 @@
   "release_en": "2017-11-01",
   "semantica_http": 200,
   "ultima_release": "V1.2.0",
-  "ultimo_push": "2026-10-20"
+  "ultimo_push": "2026-11-17"
  },
  "descripcion": "Database for Android and JVM - first and fast, lightweight on-device vector database",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/objectbox--objectbox-java.json",
-  "sha256": "051692949e2f3d4a82a1a3404ef1abe2d131fbc8ffa2780bcb2fab545311511f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3fb4a5f2d82f0686d5777aa68801815ba4c02e345672e5d37b86a51f9a710c62"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4631,
+  "stars": 4632,
   "stars_por_mes": null
  },
  "nombre": "objectbox-java",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3cea3e7dd6cb725d19f529ca39dfb75ceae11838",
+  "commit": "c4955442243beea8dc9fe74c614df58638899c37",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3cea3e7dd6cb725d19f529ca39dfb75ceae11838"
+  "swhid": "swh:1:rev:c4955442243beea8dc9fe74c614df58638899c37"
  },
  "repo": "objectbox/objectbox-java",
  "web": "https://objectbox.io"

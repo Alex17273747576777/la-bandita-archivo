@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-11"
  },
  "descripcion": "Fastest and cheapest web agent",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/browser-use--jev-ultrafast.json",
-  "sha256": "b15284073e72f302912783fb621c15179ace9b468307c953f7eab923a608e591"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6ebce3f49fd6364dbbe1f5e79bbfd1fd18658054e6e080147812aea597ef6317"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 24121,
+  "stars": 24779,
   "stars_por_mes": null
  },
  "nombre": "jev-ultrafast",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "8251e272398011cdef648965204d1c20cd838333",
+  "commit": "cf3c406f0fc4becff8986ed4d4d37b7b9f102e45",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:8251e272398011cdef648965204d1c20cd838333"
+  "swhid": "swh:1:rev:cf3c406f0fc4becff8986ed4d4d37b7b9f102e45"
  },
  "repo": "browser-use/jev-ultrafast",
  "web": "https://browser-use.com"

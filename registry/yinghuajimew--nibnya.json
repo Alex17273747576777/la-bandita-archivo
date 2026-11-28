@@ -4,22 +4,13 @@
   "release_en": "2026-02-13",
   "semantica_http": 200,
   "ultima_release": "release",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "An Android NBT editor for Minecraft Bedrock, powered by Shizuku for /data access. | 一款基于 Shizuku 的安卓 Minecraft 基岩版 NBT 数据编辑器，支持 Android 6~13",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yinghuajimew--nibnya.json",
-  "sha256": "2e3766989722c82e1bc03e01d36e18d81d4538dcc5e42ddb13332d67fb417694"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d7990610f2f814eb39d2f8f80c5f67c4ad422dae30fd13b28aed9a16327a2db2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 26,
+  "stars": 29,
   "stars_por_mes": null
  },
  "nombre": "Nibnya",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "31e1c0f47409f950b3ee8841adbff22659987da2",
+  "commit": "50d0b49bcb1b2f257633439e79c53e7e1969b88e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:31e1c0f47409f950b3ee8841adbff22659987da2"
+  "swhid": "swh:1:rev:50d0b49bcb1b2f257633439e79c53e7e1969b88e"
  },
  "repo": "yinghuajimew/Nibnya"
 }

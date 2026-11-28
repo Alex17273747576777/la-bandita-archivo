@@ -4,22 +4,13 @@
   "release_en": "2026-10-01",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "把 pi coding agent 装进安卓手机：扩展生态和电脑上完全一样——直接用自然语言让 AI 自己搜、自己写、自己装扩展、技能和主题。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/heikeyangle-code--pi-android.json",
-  "sha256": "7c7a8e8c01633444471d049e3895164b625037c7a3fdaa7b87b4874f51594764"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c4ace47afc63a85e4b62cba2894eed24cde8f7baeff75d99165efdc301e548b9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,25 +21,25 @@
  "id": "heikeyangle-code--pi-android",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-31"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 16,
+  "stars": 24,
   "stars_por_mes": null
  },
  "nombre": "pi-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "18b45310eae145cfb83bf6e6ab6e4a32104b8946",
+  "commit": "7b2d98527e8b6eec3f043e302d273bfc23d68799",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:18b45310eae145cfb83bf6e6ab6e4a32104b8946"
+  "swhid": "swh:1:rev:7b2d98527e8b6eec3f043e302d273bfc23d68799"
  },
  "repo": "heikeyangle-code/pi-android"
 }

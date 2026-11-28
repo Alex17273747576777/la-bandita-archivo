@@ -8,18 +8,9 @@
  },
  "descripcion": "Profile manager for Android - event triggered",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/henrichg--phoneprofilesplus.json",
-  "sha256": "5489f6284144a1cdb11626e5ac13884e655f7f80cd005b0bf5b55feab7517047"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ece893b98614f9a46377451b806d9a739a1f4bd777566bbbb25be8088c9441f6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 666,
+  "stars": 669,
   "stars_por_mes": null
  },
  "nombre": "PhoneProfilesPlus",

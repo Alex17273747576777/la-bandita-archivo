@@ -8,18 +8,9 @@
  },
  "descripcion": "Fe（by Andy）：读取本机 E听说 已下载作业答案的 Android 阅读器 · Material 3 / Monet 动态取色 / Shizuku 直读 / 答案速览面板",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/andy-scy--fe-by-andy.json",
-  "sha256": "b61a6eeadc6b15ecafdbec6cf1ec3656d061b83961002cad337578019a164eec"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9be8dcb6d919cfe07aebed97bb100649044dafbc784846a49e293c95402f1537"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

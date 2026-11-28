@@ -8,18 +8,9 @@
  },
  "descripcion": "Android real-time display control software",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/barry-ran--qtscrcpy.json",
-  "sha256": "c7f97bf5292a773b15d6ef00aa99e503a5f4fcbfafce0137ee763cc41aeb690c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5e34982d0145940f961dde5d67608dd1b096ed428f30cc06728e939d17010d63"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 32711,
+  "stars": 33060,
   "stars_por_mes": null
  },
  "nombre": "QtScrcpy",

@@ -4,22 +4,13 @@
   "release_en": "2023-03-05",
   "semantica_http": 200,
   "ultima_release": "1.2",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-10"
  },
  "descripcion": "Porting of KingInstaller get from GitLab by annexhack",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/fcaronte--kinginstaller.json",
-  "sha256": "352108ac5c5b192b6030f7882c35bf98b48f65987b8cb254b7b6c4e18829ecea"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9f2dec06bbc22c338928c5d35906368d2d1c5c612083205e22d544dc5b42f379"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 626,
+  "stars": 679,
   "stars_por_mes": null
  },
  "nombre": "KingInstaller",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "87446cb529e12232980899f780bae0fe10952479",
+  "commit": "e1b843ac6bcc97f663dfbbe18e7b4884c3962752",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:87446cb529e12232980899f780bae0fe10952479"
+  "swhid": "swh:1:rev:e1b843ac6bcc97f663dfbbe18e7b4884c3962752"
  },
  "repo": "fcaronte/KingInstaller",
  "web": "http://buymeacoffee.com/fcaronte"

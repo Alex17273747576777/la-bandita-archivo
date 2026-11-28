@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-10"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Your Spotify + YouTube Music library & daily mixes. Free and open source forever",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mmnsrti--stash.json",
-  "sha256": "84ee3f6ee333f640436b6ce846f320519ed0a328c2060c7d53ef0277d3ce1367"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e4d159179e24b12503772bf14fb53a0dff4cdcb8508a51e18fea65072e47631b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f37d9efc74bf02e14df8ff865260cc8459687459",
+  "commit": "409724ff8ff3acbc12896aa563dbdd07cb582076",
   "swh_estado": null,
-  "swhid": "swh:1:rev:f37d9efc74bf02e14df8ff865260cc8459687459"
+  "swhid": "swh:1:rev:409724ff8ff3acbc12896aa563dbdd07cb582076"
  },
  "repo": "mmnsrti/Stash"
 }

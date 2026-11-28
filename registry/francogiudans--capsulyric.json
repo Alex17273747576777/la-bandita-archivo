@@ -4,22 +4,13 @@
   "release_en": "2026-01-28",
   "semantica_http": 200,
   "ultima_release": "v.1.0.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "提供基于Live Update和小米超级岛机制的状态栏歌词。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/francogiudans--capsulyric.json",
-  "sha256": "57d3176a73a5be2c444cb71845ef08e5d303114b194547345fe145d8957dab07"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b83ca3395c713b70e6459657dc1773d8000f894b933adec1d980cf98bc44cd6e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 215,
+  "stars": 226,
   "stars_por_mes": null
  },
  "nombre": "Capsulyric",

@@ -8,18 +8,9 @@
  },
  "descripcion": "Audiobook mobile application accomplished with React Native and React ecosystem, just a single code base.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/homielab--audiobookapp.json",
-  "sha256": "5f3ef6423fa32eae9709df26f9e684cbcd8e21d19ebc6d9c4d6bf4908998b936"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ab5a503fba9c869377aa5f2944be47593f8c378d54d7ffe46ffbfa9d9af0fffd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": "MIT",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 369,
+  "stars": 371,
   "stars_por_mes": null
  },
  "nombre": "audiobookapp",

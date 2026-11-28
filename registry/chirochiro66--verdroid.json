@@ -8,18 +8,9 @@
  },
  "descripcion": "On-device AI agent for Android, tuned for free OpenRouter/Kilo models with automatic model/key fallback and rate-limit recovery. Tools: web search/fetch over HTTP, bash/Python in Termux (optional headless Chromium + Selenium), Shizuku/rish shell, Accessibility, ebook translation, Documents/Verdroid, Git, crypto market data. No backend.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/chirochiro66--verdroid.json",
-  "sha256": "0dcf51373f07c9c0e9120d98986e5748d1920fe4a34cc6c1330d8fa398f04996"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "01612c5df06f78b28677f80531ba5c70557a8359550d4ec5eba2bd3daf031cbb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

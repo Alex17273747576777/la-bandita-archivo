@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-08-08",
+  "release_en": "2026-11-18",
   "semantica_http": 200,
-  "ultima_release": "bundle",
-  "ultimo_push": "2026-11-03"
+  "ultima_release": "v0.4.7",
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Codex AI 编码助手 - Jetpack Compose Material 3",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/moirania--devcodex.json",
-  "sha256": "d9181f3d7a82a33f3bc1c0becba8af39fa8220231856ea5bab46b66a6bb8647a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7e815df99423474838ef3b1585bf8b0dea97a6064282a230f845f208c0c752f7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2,
+  "stars": 14,
   "stars_por_mes": null
  },
  "nombre": "DevCodex",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1bf0797d191f840a71c4f8e936db72b8594d106c",
+  "commit": "d697a231b6ceb27cfed6b820ba517d1a17027652",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1bf0797d191f840a71c4f8e936db72b8594d106c"
+  "swhid": "swh:1:rev:d697a231b6ceb27cfed6b820ba517d1a17027652"
  },
  "repo": "Moirania/DevCodex"
 }

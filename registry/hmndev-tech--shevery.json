@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-05-22",
+  "release_en": "2026-08-29",
   "semantica_http": 200,
-  "ultima_release": "v13.7.0.r11",
-  "ultimo_push": "2026-11-02"
+  "ultima_release": "13.9.0.r32",
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Shevery - Modernized Android manager with Jetpack Compose, Material 3, and compatibility enhancements.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hmndev-tech--shevery.json",
-  "sha256": "b8378ce514a3e2f70945dc79a62a6bfe4bc0bee2331f9ea77bcbe83f973579ac"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "12a83dedb6b5e55fa0bc134a32a96b6649618c5e9fd34422505eaeca396c894a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1582,
+  "stars": 1788,
   "stars_por_mes": null
  },
  "nombre": "shevery",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "010a54527d46cf51e8a1f8d7bf82d1db1f0273f2",
+  "commit": "b9a2a1f6535c716841f289e13737a6b6f4ba9b61",
   "swh_estado": "archivada",
   "swh_solicitud": "010a54527d46cf51e8a1f8d7bf82d1db1f0273f2",
-  "swhid": "swh:1:rev:010a54527d46cf51e8a1f8d7bf82d1db1f0273f2"
+  "swhid": "swh:1:rev:b9a2a1f6535c716841f289e13737a6b6f4ba9b61"
  },
  "repo": "HmnDev-Tech/shevery",
  "web": "https://hmndev-tech.github.io/shevery"

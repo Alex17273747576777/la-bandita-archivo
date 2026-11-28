@@ -4,22 +4,13 @@
   "release_en": "2026-10-23",
   "semantica_http": 200,
   "ultima_release": "26.10.35d7c7a",
-  "ultimo_push": "2026-10-23"
+  "ultimo_push": "2026-11-13"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hcy917--installerx-revived.json",
-  "sha256": "9551081bbb302550267b07d3f6a38ca878dd5c29546bc2c3c3e6e6ee9aa3d502"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "584258733487a96a8f222a1759168e5f408ac3daa7628eae424be24734f5b1dd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

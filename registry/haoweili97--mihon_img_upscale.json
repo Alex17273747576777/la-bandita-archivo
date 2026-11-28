@@ -4,22 +4,13 @@
   "release_en": "2026-01-18",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "A high-performance Mihon fork featuring integrated AI upscaling (Real-CUGAN, Real-ESRGAN, Waifu2x) to enhance low-resolution manga in real-time.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/haoweili97--mihon_img_upscale.json",
-  "sha256": "0f87b56481271414c710338f122c01868ad132832c55e74a47b52bc892e49f0c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7f14385402770dca260fa3d5599b99a97de98fdbf3b9e211f7473f005e30b7eb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 246,
+  "stars": 259,
   "stars_por_mes": null
  },
  "nombre": "mihon_img_upscale",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "cffd4955c36e1e7ca50d89e0b9a39237e045c192",
+  "commit": "3015b3072451315112e34b0f166acae85be13110",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:cffd4955c36e1e7ca50d89e0b9a39237e045c192"
+  "swhid": "swh:1:rev:3015b3072451315112e34b0f166acae85be13110"
  },
  "repo": "HaoweiLi97/mihon_img_upscale"
 }

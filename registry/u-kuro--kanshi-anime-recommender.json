@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-20",
+  "release_en": "2026-11-24",
   "semantica_http": 200,
-  "ultima_release": "v9.5.8",
-  "ultimo_push": "2026-11-02"
+  "ultima_release": "v2026.11.24",
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "Anime, Manga, & Novel Recommender (Website and Android Application). Also includes Manhwa, Light Novel (LN), Manhua, & One Shot.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/u-kuro--kanshi-anime-recommender.json",
-  "sha256": "6539741ea59adeba859c56f23353bcba674ed76a163c66b5dbf03b8eb9e40eb5"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "61d0670801a0dac93b3f7c14315ab9310aee788f9a2ad0cad65de34caa0eeb70"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7cee75e75af7fada80778211546187a993026c8b",
+  "commit": "b9203ef887cd348c8370d58bc822c6b3b39da2e8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:7cee75e75af7fada80778211546187a993026c8b"
+  "swhid": "swh:1:rev:b9203ef887cd348c8370d58bc822c6b3b39da2e8"
  },
  "repo": "u-Kuro/Kanshi-Anime-Recommender",
  "web": "https://kanshi.vercel.app"

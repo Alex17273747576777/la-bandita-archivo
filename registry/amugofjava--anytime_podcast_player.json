@@ -8,18 +8,9 @@
  },
  "descripcion": "Simple, easy to use Podcast player app written in Flutter and Dart.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/amugofjava--anytime_podcast_player.json",
-  "sha256": "8ddf4986648c187597e5a38bb3282401205c12ed680558cfe484a718a063b6e1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0a725cb1784d750a57e7e03a3ce4d7cdff83db28b7c7f84a5866ef58771c21da"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "BSD-3-Clause",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 627,
+  "stars": 628,
   "stars_por_mes": null
  },
  "nombre": "anytime_podcast_player",

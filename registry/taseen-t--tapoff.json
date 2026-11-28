@@ -8,18 +8,9 @@
  },
  "descripcion": "Double-tap to turn your Android screen off, without leaving accessibility on. Plus wallpapers drawn around your camera hole.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/taseen-t--tapoff.json",
-  "sha256": "d36c59115d3a6df738bc00c7c2f7070323e873a6a664b63a8e06994208312e6c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bd8b9bec9f90a8bfed036f6c89880ee3989062789d9fa3ebab3c5ff8d8e5fd65"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

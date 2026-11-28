@@ -8,18 +8,9 @@
  },
  "descripcion": "Use your tablet as graphic tablet/touch screen on your computer.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/h-m-h--weylus.json",
-  "sha256": "a50f40fbaf060dea11f0887d8f9ba6f37073413cce623137bc1ee717d80ab99d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6cdf7e8a768c854858211835b7fff8ecf8394a904c2e4df9cf4d86ed7cb62ab7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9745,
+  "stars": 9817,
   "stars_por_mes": null
  },
  "nombre": "Weylus",

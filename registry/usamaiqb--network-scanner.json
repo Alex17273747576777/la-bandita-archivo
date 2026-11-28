@@ -4,22 +4,13 @@
   "release_en": "2026-02-16",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Fast, privacy-focused network scanner to discover devices on your local network",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/usamaiqb--network-scanner.json",
-  "sha256": "58d1ea4969bb517ebdb8ef9fa0a02a50e3dfa9ef29e51efc4e611e7cc47826a4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1799114db0a4bc29a5db936536bd5a809f6e7f62515c1739a29085d60c12c5fe"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 253,
+  "stars": 282,
   "stars_por_mes": null
  },
  "nombre": "network-scanner",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5ce7de6621faca9b8c1cd519eea1cc1a71b82f4f",
+  "commit": "5cb3aa659c42c981cac066d2193afe6110a9fe54",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5ce7de6621faca9b8c1cd519eea1cc1a71b82f4f"
+  "swhid": "swh:1:rev:5cb3aa659c42c981cac066d2193afe6110a9fe54"
  },
  "repo": "usamaiqb/network-scanner",
  "web": "https://usamaiqb.github.io/network-scanner/"

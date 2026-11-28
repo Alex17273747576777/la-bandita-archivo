@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mrissaoussama--tsundoku.json",
-  "sha256": "ec025d58c3a651d801d3d59d548f95f8c31cc44ec2f5fa4f00239a0c093523f3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a59de90cb2b0d5270460fdd8834f7a01bdc1fd14f11564212d6157c44013bbbc"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ba8a15eddc9b4007663581f40429c0ec1c891d30",
+  "commit": "f118703a2eb67f2282aa13f73fe750032adc6bbb",
   "swh_estado": null,
-  "swhid": "swh:1:rev:ba8a15eddc9b4007663581f40429c0ec1c891d30"
+  "swhid": "swh:1:rev:f118703a2eb67f2282aa13f73fe750032adc6bbb"
  },
  "repo": "mrissaoussama/tsundoku"
 }

@@ -4,22 +4,13 @@
   "release_en": "2026-10-11",
   "semantica_http": 200,
   "ultima_release": "v2026.10.11",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-18"
  },
  "descripcion": "本地 AI 工作站：用 Root/Shizuku 操作 Android，用 LinuxHub 连接本机 Linux 主机。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/xishanp--lotusai.json",
-  "sha256": "1201ef9c493bda2a32f80afe1de41aeadaeacc817e5705c6af3fd8a3be352858"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4747c0f802554633dcd72f77e5f07fd1282eeb2e85c3b2def47b7c1eaf36fe9b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "LotusAI",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ae40bbbca8c2b32843cc2211b9a3cbf991967663",
+  "commit": "71cb1e961e500aa5479004ef91883551c46b362e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ae40bbbca8c2b32843cc2211b9a3cbf991967663"
+  "swhid": "swh:1:rev:71cb1e961e500aa5479004ef91883551c46b362e"
  },
  "repo": "xishanp/LotusAI"
 }

@@ -8,18 +8,9 @@
  },
  "descripcion": "DNS-based Host Blocker (and lightweight ad blocker) for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/julian-klode--dns66.json",
-  "sha256": "65fa5867a57f42dc4c677d4e33255719c294e21b17920b823fe8bdaee30bc015"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "16973fe84b4926bae4afbfb9832104d9dce42f8df9f294e539617ad31ae3aaad"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2244,
+  "stars": 2245,
   "stars_por_mes": null
  },
  "nombre": "dns66",

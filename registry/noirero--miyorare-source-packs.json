@@ -4,22 +4,13 @@
   "release_en": "2026-09-12",
   "semantica_http": 200,
   "ultima_release": "miyorare-sources-v0.2.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/noirero--miyorare-source-packs.json",
-  "sha256": "1f8b3c44edceea69d6e31a202630240a3befdd96e686db4e5ec048f5016abe27"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a333709d7bdf58a47aaa5c1e29eb83993c79ad99c54794a94d0489cb11940171"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "d7e6b1f9acd10f31db33f9ea4d59f8f2b6e3508b",
+  "commit": "66aedaad2b63f65e46797466320e794130122264",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:d7e6b1f9acd10f31db33f9ea4d59f8f2b6e3508b"
+  "swhid": "swh:1:rev:66aedaad2b63f65e46797466320e794130122264"
  },
  "repo": "Noirero/Miyorare-Source-Packs"
 }

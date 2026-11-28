@@ -8,18 +8,9 @@
  },
  "descripcion": "DSH 状态条：把 DSH agent 的实时进展显示在 Android 状态栏的滚动条上（手机端用 DSHBox 时随时看到后台在做什么）。Android overlay + Shizuku + DSH 自动推送插件。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/0year--dsh-status-hud.json",
-  "sha256": "098b4d0602fba86d52a3110dace59cad148ee6035693b40eecfb46b226a7ab7c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d1aabe6c76e85ed3d8f0fc86c854582270ba5df8d18be19bbfaee0838d51439b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

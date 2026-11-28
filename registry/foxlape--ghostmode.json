@@ -4,22 +4,13 @@
   "release_en": "2026-08-17",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Turn your Android device 'unavailable' for incoming calls while keeping LTE/5G mobile data fully working. Supports Shizuku & Root.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/foxlape--ghostmode.json",
-  "sha256": "0dc36b20a836d7b5f62c2c5a32601981ca567033f7b9725e229652f29c5635f2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ec8a72fd9519ced0849e50270b2cefff9d45e101ae70166e28453051be8bd05b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 93,
+  "stars": 167,
   "stars_por_mes": null
  },
  "nombre": "GhostMode",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f63ca057e7283e93af33c094af253ec0ce766d50",
+  "commit": "966f75a5b4aa6062a8d34288a3ae9131d5f01784",
   "swh_estado": "solicitud 200",
   "swh_solicitud": "accepted",
-  "swhid": "swh:1:rev:f63ca057e7283e93af33c094af253ec0ce766d50"
+  "swhid": "swh:1:rev:966f75a5b4aa6062a8d34288a3ae9131d5f01784"
  },
  "repo": "Foxlape/GhostMode"
 }

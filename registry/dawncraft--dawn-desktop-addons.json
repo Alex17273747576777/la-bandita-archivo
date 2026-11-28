@@ -8,18 +8,9 @@
  },
  "descripcion": "Some Android app widgets and live wallpapers. 包括新冠肺炎和一言桌面微件, 勿扰模式锁屏快捷开关, live2d动态壁纸(WIP)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dawncraft--dawn-desktop-addons.json",
-  "sha256": "fd994c3cef21ec2b50b709b3ac1aa6e044fd3b6aaafe752958f1e99606e4151e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6b7327c9fa05075dea68d3922bf0d75b4a2249640b0c8b1fea04ae4b328702d4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

@@ -4,22 +4,13 @@
   "release_en": "2026-10-01",
   "semantica_http": 200,
   "ultima_release": "cnr-3.0.2",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Project V7 is an Android APK patcher for running older 32-bit ARMv7 apps and Unity games on modern 64-bit-only Android devices.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jacqueb-1337--project-v7.json",
-  "sha256": "8a463d85b808d27173de847959054874d9b108fd6be8a56710d9cc5dc679bda0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1bb659ff1610680f65c5cd7c05b1531ea04a9ea4f14700f7dde3a5b5c732d3e4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 11,
+  "stars": 23,
   "stars_por_mes": null
  },
  "nombre": "project-v7",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a5e0d47a46dd5b4ce4102bdc63b37423bf50542b",
+  "commit": "978ed2b62dc269071308324ce593faa36d9f52b1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a5e0d47a46dd5b4ce4102bdc63b37423bf50542b"
+  "swhid": "swh:1:rev:978ed2b62dc269071308324ce593faa36d9f52b1"
  },
  "repo": "Jacqueb-1337/project-v7",
  "web": "https://jacqueb-1337.github.io/project-v7/"

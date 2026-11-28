@@ -4,22 +4,13 @@
   "release_en": "2026-09-09",
   "semantica_http": 200,
   "ultima_release": "v1.4",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Two Android home-screen widgets: the nearest airborne aircraft, and the nearest airport's METAR. No API keys, no accounts.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/blueangelman36--nearestplane.json",
-  "sha256": "d3d6a6aaa576b155fb6275a8a109c9f8aaf10a7356b98805ac009d7bcf6bcdf4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "80a0e8cdd3852d2b15374d652c6d284e79d8005b06aaf374a7e375de445da601"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-09-19T14:18:05Z",
-   "oid": "2edd99a0ec9ed23851fff84b700feeda317a11ec"
+   "committedDate": "2026-11-14T07:46:51Z",
+   "oid": "5a38c8b5692a63d7cde006c340fa99383db6dcc3"
   }
  },
- "diskUsage": 63596,
+ "diskUsage": 63885,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,9 +18,15 @@
   "spdxId": "Apache-2.0"
  },
  "nameWithOwner": "SHD-ISAC/J",
- "pushedAt": "2026-09-19T14:18:09Z",
+ "pushedAt": "2026-11-27T10:27:55Z",
  "releases": {
-  "nodes": []
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-11-13T22:42:41Z",
+    "tagName": "hardened-v8.0.18+344"
+   }
+  ]
  },
  "stargazerCount": 0
 }

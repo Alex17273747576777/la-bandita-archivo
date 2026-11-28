@@ -4,22 +4,13 @@
   "release_en": "2024-11-19",
   "semantica_http": 200,
   "ultima_release": "0.1.0",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Model Context Protocol Servers",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/modelcontextprotocol--servers.json",
-  "sha256": "55b413ed7bf4e53b9c6f8e4f42224149164cb4a44266feeb936e44420c465e44"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2fc76f4e9a00592bbea6307b46da96defb08bb806401217f19cf003a0c35067e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 91768,
+  "stars": 92300,
   "stars_por_mes": null
  },
  "nombre": "servers",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "194cc86e3ae6400958555bd4116849d822d69263",
+  "commit": "b502fd9fc711de7285977396db3b8a732d1c9f64",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:194cc86e3ae6400958555bd4116849d822d69263"
+  "swhid": "swh:1:rev:b502fd9fc711de7285977396db3b8a732d1c9f64"
  },
  "repo": "modelcontextprotocol/servers",
  "web": "https://modelcontextprotocol.io"

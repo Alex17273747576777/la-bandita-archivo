@@ -8,18 +8,9 @@
  },
  "descripcion": "Control Android background app behavior via Shizuku: AppOps, Doze whitelist, standby buckets and force-stop. Keeps important apps and notifications alive on aggressive Chinese-market ROMs (ColorOS, HyperOS/MIUI).",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/vovaxa55--monik.json",
-  "sha256": "6544fab4c4240ccdb01b9d018c6c1a125635a0aa152529ad1d4179ec20b47581"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1c64eac86bf49a212880b0c301231c23e1f52efaada28712617edc714fbdd667"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 9,
   "stars_por_mes": null
  },
  "nombre": "Monik",

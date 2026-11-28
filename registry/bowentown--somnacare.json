@@ -4,22 +4,13 @@
   "release_en": "2026-09-28",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/bowentown--somnacare.json",
-  "sha256": "8a94edef5c45729e97d10dbed9d28a2911a2eb5351bc8e0c0acdf77197623a83"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e032bc84d41c99d5575d0fa874b8046b5fceb090839781962fa3aca4dd1842a3"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "af3d371bc4dd17233d8c789def1f69c776f58e1c",
+  "commit": "7d42d5907397e51fa864418e2d8c8a2d0b49a1f1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:af3d371bc4dd17233d8c789def1f69c776f58e1c"
+  "swhid": "swh:1:rev:7d42d5907397e51fa864418e2d8c8a2d0b49a1f1"
  },
  "repo": "bowentown/somnacare"
 }

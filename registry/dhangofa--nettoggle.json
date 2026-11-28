@@ -8,18 +8,9 @@
  },
  "descripcion": "NetToggle brings advanced cellular network controls to Android Quick Settings. Switch between 5G Only (SA/NR), 4G/LTE Only, Preferred 5G, Preferred 4G, Preferred 3G, and 2G Only. Build custom tile cycles, target one or both SIMs, create shortcuts, use secure broadcast automation, restore preferred modes, and diagnose failures using Root or Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dhangofa--nettoggle.json",
-  "sha256": "eca4830707440f0a4cdfa8fe8c8d8fad18b5032a2ed061e3f92243d75ea48335"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "16d7e341f8b3e524bd6a8e57ec9aaa9814f24dd18f1da762835571710aeb474e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 76,
+  "stars": 88,
   "stars_por_mes": null
  },
  "nombre": "NetToggle",

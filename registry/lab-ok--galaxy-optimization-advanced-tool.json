@@ -4,22 +4,13 @@
   "release_en": "2026-10-09",
   "semantica_http": 200,
   "ultima_release": "1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-15"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lab-ok--galaxy-optimization-advanced-tool.json",
-  "sha256": "ef6babc929fb9b4ae27b72a1e641f66dbfd07738f63d42a18e70995bd5f74b7a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7269a31a7da1e9d112c3ea04f1e9265809df8497a99de09493eb17259922ac2e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4,
+  "stars": 13,
   "stars_por_mes": null
  },
  "nombre": "galaxy-optimization-advanced-tool",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b1bcdf3ade80e1f5ac75ae00e788f9a1e235e0c9",
+  "commit": "712e9eda140795053b3a43215389bb44b3cbbb16",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b1bcdf3ade80e1f5ac75ae00e788f9a1e235e0c9"
+  "swhid": "swh:1:rev:712e9eda140795053b3a43215389bb44b3cbbb16"
  },
  "repo": "lab-ok/galaxy-optimization-advanced-tool"
 }

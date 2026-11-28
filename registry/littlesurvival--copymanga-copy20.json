@@ -4,22 +4,13 @@
   "release_en": "2025-05-14",
   "semantica_http": 200,
   "ultima_release": "v1.4.52",
-  "ultimo_push": "2026-10-11"
+  "ultimo_push": "2026-11-20"
  },
  "descripcion": "Mihon/Tachiyomi系列 拷貝漫畫等中文資源的書源 相關社群見readme",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/littlesurvival--copymanga-copy20.json",
-  "sha256": "20337c5b846898f739800d539721cdd5278d80c9d75e5d20a8c4817019f36ea6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "587cad3709b53b804ce0f733cb770d012b79c43a4c93308a65ff7429daf93fce"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2993,
+  "stars": 3101,
   "stars_por_mes": null
  },
  "nombre": "copymanga-copy20",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "201b5bf1e11f89befb0388953e86536c4808239e",
+  "commit": "7a1f0f4e3ad7ab59714d28d6cf6ce0883e53ff8f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:201b5bf1e11f89befb0388953e86536c4808239e"
+  "swhid": "swh:1:rev:7a1f0f4e3ad7ab59714d28d6cf6ce0883e53ff8f"
  },
  "repo": "LittleSurvival/copymanga-copy20",
  "web": "https://discord.gg/kE2VAZk2pd"

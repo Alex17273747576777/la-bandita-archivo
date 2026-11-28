@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
+  "estado": "vivo",
+  "release_en": "2026-10-07",
+  "semantica_http": 200,
+  "ultima_release": "v1.3",
   "ultimo_push": "2026-10-15"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/quangtrang1111--noti-keeper.json",
-  "sha256": "c0880d87b6f4754f644d96499f348b8cdb714af17601d6992fe97c5b5745683c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6903804979da95f4eb4b758cbcc449a5888a9e7e3ed5a40324129b1c4500f71d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,25 +21,25 @@
  "id": "quangtrang1111--noti-keeper",
  "licencia": {
   "archivo": "LICENSE",
-  "metodo": "texto-license",
-  "spdx": "AGPL-3.0-only",
-  "verificado_en": "2026-11-03"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 8,
   "stars_por_mes": null
  },
  "nombre": "noti-keeper",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "b0b45c89a13df00b7ad4a124b076e11b0e47d1dd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:b0b45c89a13df00b7ad4a124b076e11b0e47d1dd"
  },
  "repo": "quangtrang1111/noti-keeper"
 }

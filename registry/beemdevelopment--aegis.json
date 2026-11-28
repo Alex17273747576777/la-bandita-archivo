@@ -4,22 +4,13 @@
   "release_en": "2019-04-02",
   "semantica_http": 200,
   "ultima_release": "v0.1",
-  "ultimo_push": "2026-09-06"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A free, secure and open source app for Android to manage your 2-step verification tokens.",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/beemdevelopment--aegis.json",
-  "sha256": "b480e4958923703ca92441b0ac4a1169a081a4753bcac90de94d73924bbf79cb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "16bd6d024717b83c3ce67ebf0fef4c889e98acf8da44ce849021c98f88ac24e5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,23 +25,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": 5.1,
   "scorecard_en": "2026-08-24",
-  "stars": 13459,
+  "stars": 13655,
   "stars_por_mes": null
  },
  "nombre": "Aegis",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d6f4e5925a97e4e91593f1542085eae03432a759",
+  "commit": "d5b5246efee1fa2c0cf2466e3df87a4f8b33a2f8",
   "swh_estado": "archivada",
   "swh_solicitud": "d6f4e5925a97e4e91593f1542085eae03432a759",
-  "swhid": "swh:1:rev:d6f4e5925a97e4e91593f1542085eae03432a759"
+  "swhid": "swh:1:rev:d5b5246efee1fa2c0cf2466e3df87a4f8b33a2f8"
  },
  "repo": "beemdevelopment/Aegis",
  "web": "https://getaegis.app"

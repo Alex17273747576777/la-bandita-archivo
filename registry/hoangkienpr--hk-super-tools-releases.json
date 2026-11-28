@@ -4,22 +4,13 @@
   "release_en": "2026-10-15",
   "semantica_http": 200,
   "ultima_release": "v1.2.3",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Public releases + auto-update feed for HK Super Tools (APK only, no source)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hoangkienpr--hk-super-tools-releases.json",
-  "sha256": "7535ac53c4f8ffdd856b6fa71e65bf4d86c85e9f9d4eac26b3f047ddd692883f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "75bd6c24e66ca4611e380516d8fab2d7d9478e0fd628112ae960b9d78820c7dd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "44a823c8a3599ef36f5d6a4b1f8860c7b6f6c7ad",
+  "commit": "e6febd1742e00488cf9087508798470f486b63ca",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:44a823c8a3599ef36f5d6a4b1f8860c7b6f6c7ad"
+  "swhid": "swh:1:rev:e6febd1742e00488cf9087508798470f486b63ca"
  },
  "repo": "hoangkienpr/HK-Super-Tools-releases"
 }

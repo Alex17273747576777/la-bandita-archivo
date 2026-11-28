@@ -8,18 +8,9 @@
  },
  "descripcion": "Manga reader for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kotatsuapp--kotatsu.json",
-  "sha256": "671d3661d64f71978e91d7977bea6a5bf7cf48c33a6e9083f054051ab9ba2ee4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c6ceede4ec1fb1b99b344a7aafe80a9248202bbf16a5f56a2d1148a29deb50cc"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8951,
+  "stars": 8991,
   "stars_por_mes": null
  },
  "nombre": "Kotatsu",

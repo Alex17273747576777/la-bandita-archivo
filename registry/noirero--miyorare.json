@@ -4,22 +4,13 @@
   "release_en": "2026-09-09",
   "semantica_http": 200,
   "ultima_release": "v1.0.171",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A comic/novel reader forked DropSauce - based on Kotatsu, built to my own taste: fast downloads, non-flat UI, dual library, unified sources/extensions, local image files, and feature requests welcome.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/noirero--miyorare.json",
-  "sha256": "ee595844673911e12388a72d3d667a3a2556a30da0210fa10f8df3d71e37a42d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e439f9972342c83c9abbd698350e564a3b987753f23a9609f227bfb2c7cda706"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 21,
+  "stars": 24,
   "stars_por_mes": null
  },
  "nombre": "Miyorare",
@@ -49,10 +40,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "ceec2c0d5512428848d9e35745ae7fbe44a30dc1",
+  "commit": "b897be8218483c4c39ecf7c08afd5d64ac6b8c61",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ceec2c0d5512428848d9e35745ae7fbe44a30dc1"
+  "swhid": "swh:1:rev:b897be8218483c4c39ecf7c08afd5d64ac6b8c61"
  },
  "repo": "Noirero/Miyorare"
 }

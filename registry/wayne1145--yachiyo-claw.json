@@ -4,22 +4,13 @@
   "release_en": "2026-07-18",
   "semantica_http": 200,
   "ultima_release": "v0.0.4",
-  "ultimo_push": "2026-10-24"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Open-source Android AI chat, on-device agent, local models, Live2D, Skills, MCP, and Vibe Coding",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/wayne1145--yachiyo-claw.json",
-  "sha256": "96d02f2470251340b962f0e5a3039904047007abea154a6e0e86dc93556bb32c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "294e398c8adc24dd1020c41ab6f6bdcefb3f5245dc8dce36c7da565ccbe3f001"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13,
+  "stars": 14,
   "stars_por_mes": null
  },
  "nombre": "yachiyo-claw",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "31de70f3048914a0c68021617e2b1bdb5b6ddeea",
+  "commit": "b4db495afef7da4e67b82f2918229972c36987de",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:31de70f3048914a0c68021617e2b1bdb5b6ddeea"
+  "swhid": "swh:1:rev:b4db495afef7da4e67b82f2918229972c36987de"
  },
  "repo": "Wayne1145/yachiyo-claw"
 }

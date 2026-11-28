@@ -8,18 +8,9 @@
  },
  "descripcion": "Keep your phone mostly monochrome, but allow apps like camera to be in color.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/c10udburst--grayscaler.json",
-  "sha256": "d910c0186ae5b2b88d228c2a36153e352debcfd5d4b966dc5845014d81b26fbf"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "af964bb3ecd16fe7f1780b3d5d859b0a2a4f931cc922d8e79b9e3f06ec9cdbd6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 168,
+  "stars": 172,
   "stars_por_mes": null
  },
  "nombre": "Grayscaler",

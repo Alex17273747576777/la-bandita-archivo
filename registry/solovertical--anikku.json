@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-01"
+  "ultimo_push": "2026-11-07"
  },
  "descripcion": "Free and open source anime watcher for Android",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/solovertical--anikku.json",
-  "sha256": "54c79cb63d6cb5c677dc62aab246294a5ded7a54663c44a7d8cc2bdc8acd7344"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "feb4b36943762e85ae34ce0d89b2ce0444363483276bd55c85a7e28adef945b2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "20b42df1701d6fb01c1c7561373fda8d93571a0c",
+  "commit": "6e35b41f0cc7e375d15527bd61375435f998685a",
   "swh_estado": null,
-  "swhid": "swh:1:rev:20b42df1701d6fb01c1c7561373fda8d93571a0c"
+  "swhid": "swh:1:rev:6e35b41f0cc7e375d15527bd61375435f998685a"
  },
  "repo": "Solovertical/anikku"
 }

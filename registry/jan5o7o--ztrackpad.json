@@ -8,18 +8,9 @@
  },
  "descripcion": "So7o Z Trackpad: Floating trackpad + pointer, floating windows picker, an on-screen keys panel, and a virtual display you can see and drive - for Android, built on-device in Termux on a Galaxy Z Fold 4. Designed for Foldables. Needs Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jan5o7o--ztrackpad.json",
-  "sha256": "639e865d0750196ae3e282498cc10f70f919726e7599cdbdb6ec5a550706876b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "209a72aae39f2f152a0cc6f24798b8b205cd7c3a2e241325cbf1b8c17e7f075c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 3,
   "stars_por_mes": null
  },
  "nombre": "ztrackpad",

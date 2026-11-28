@@ -4,22 +4,13 @@
   "release_en": "2026-04-24",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Ever Dialer And SMS is the best replacement of Google dialer which can RECORD CALLS without announcements, without root and has Material You design with dynamic colours, aesthetic, open source, customizable, some extra features like taking notes of each contacts and it has a quick note taking window when you are on the call to take notes quickly. ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hari161008--ever-dialer.json",
-  "sha256": "081e675eb4338cdda11646c2b26e0cc2ce7918934584ee5b31e1e8bb5fb00604"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6ec0609c6db7f637b406cd493e5c21a2fbe5a821a8d8e227e77c21c674021206"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 93,
+  "stars": 125,
   "stars_por_mes": null
  },
  "nombre": "Ever-Dialer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "cfdc8040ec09c3e5e4159b58d974efcefe19811f",
+  "commit": "ba65d4aec553ea6d20c23711dcdf25127e6e232d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:cfdc8040ec09c3e5e4159b58d974efcefe19811f"
+  "swhid": "swh:1:rev:ba65d4aec553ea6d20c23711dcdf25127e6e232d"
  },
  "repo": "hari161008/Ever-Dialer"
 }

@@ -8,18 +8,9 @@
  },
  "descripcion": "Privacy-focused Android work-profile manager using standard DevicePolicyManager APIs, with optional Shizuku tools.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/stem0794--harbor.json",
-  "sha256": "6cddd6b0cc3e89bc6ba50aff91b9cbfcbebe3ddce50294c185b876cb0aa1f42e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "89e74424785a424cc212b18adef51804f3b8bf8c6c537a3365b076cacb274fab"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 69,
+  "stars": 77,
   "stars_por_mes": null
  },
  "nombre": "harbor",

@@ -4,22 +4,13 @@
   "release_en": "2026-10-02",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-09"
  },
  "descripcion": "AmbiAnalog gives you ambilight effect and per game led profile for analogs on android consoles like Ayn Thor.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mkaflowski--ambianalog.json",
-  "sha256": "5ab1ba5ae6db54be3134af9196ca19e9a9373d1c87488999467d0692becf1ac2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "81bfa9e4bb23e610fff41271ed41ddfa1b5e97770e7e4d6724f01cec826a3b48"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "AmbiAnalog",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6e03bf4b9f7d4e68e35bace56acfdb68753ded80",
+  "commit": "dca841aa96748676116289c0026aaea1e86005ba",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:6e03bf4b9f7d4e68e35bace56acfdb68753ded80"
+  "swhid": "swh:1:rev:dca841aa96748676116289c0026aaea1e86005ba"
  },
  "repo": "mkaflowski/AmbiAnalog"
 }

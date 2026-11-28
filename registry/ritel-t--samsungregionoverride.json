@@ -4,22 +4,13 @@
   "release_en": "2026-08-23",
   "semantica_http": 200,
   "ultima_release": "v3.8.0",
-  "ultimo_push": "2026-09-10"
+  "ultimo_push": "2026-11-06"
  },
  "descripcion": "Temporarily change the SIM region Android reports to Samsung and other region-locked apps. Shizuku, no root, one-tap restore.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ritel-t--samsungregionoverride.json",
-  "sha256": "9fdaa2a1ad9063e670eead95f69fa85217fd6ea764ca3ca5d87d46a4449f007f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "396842abf55b8065fe5ca628bf7235c51dd93d33ec25ab1d2847535333d785b6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 115,
+  "stars": 149,
   "stars_por_mes": null
  },
  "nombre": "SamsungRegionOverride",

@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-11-01",
+  "release_en": "2026-11-16",
   "semantica_http": 200,
-  "ultima_release": "android-v0.2.5-preview",
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "android-v0.2.14-preview",
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/longzhousz--ami-android.json",
-  "sha256": "b1549f673a569ac5517d18b27cced294abdab06862aa3562bbd3c01e0b74aef2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f8c2f985eec57a779519ac06c18c01913f65adb4833fea7ba18a25eca7875a09"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "AMI-Android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "769ec548b8824cf167039b2171a17e61dded0050",
+  "commit": "d421174d4de84fff2507bf79d2c0ad572191b7ca",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:769ec548b8824cf167039b2171a17e61dded0050"
+  "swhid": "swh:1:rev:d421174d4de84fff2507bf79d2c0ad572191b7ca"
  },
  "repo": "longzhousz/AMI-Android"
 }

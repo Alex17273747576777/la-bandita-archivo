@@ -4,22 +4,13 @@
   "release_en": "2026-09-14",
   "semantica_http": 200,
   "ultima_release": "v0.1.8",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hypit-ai--hypit.json",
-  "sha256": "fad5b42626b73fc6244c18f9e68ad7339f3ea33b4fcc258a9be93a4ea92cfe06"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "dc24d7655aa176a31b95e515da2599f0db092f44627c90c5bda036f2ec295672"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 27688,
+  "stars": 31679,
   "stars_por_mes": null
  },
  "nombre": "hypit",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "0762c6be56c0af43fff3cdbdb285e21414dd249b",
+  "commit": "e4abc8b246e72600fc186d881fa831074e1060f5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:0762c6be56c0af43fff3cdbdb285e21414dd249b"
+  "swhid": "swh:1:rev:e4abc8b246e72600fc186d881fa831074e1060f5"
  },
  "repo": "hypit-ai/hypit",
  "web": "https://hypit.ai"

@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-07-07"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/cuong-tran--mihon.json",
-  "sha256": "09554999a51550eeb3739b9ff4aa4f154a05ab2b157b01f571badcaddd4cf85c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ec01451b566994302314b1bc12a467d7b78c80a276dab71e473e905a75763f26"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5585388e2d22879ac62e7fceaf26ae7f40cb8bde",
+  "commit": "f64d82b94218b42410c36e6c85da818574865a28",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5585388e2d22879ac62e7fceaf26ae7f40cb8bde"
+  "swhid": "swh:1:rev:f64d82b94218b42410c36e6c85da818574865a28"
  },
  "repo": "cuong-tran/mihon"
 }

@@ -4,22 +4,13 @@
   "release_en": "2025-06-28",
   "semantica_http": 200,
   "ultima_release": "v1.3.0",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-10"
  },
  "descripcion": "Android URL cleaner: strips tracking, rewrites social links for better previews, no permissions, no network. GPL-3.0-or-later.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/neatcode-labs--fixupxer.json",
-  "sha256": "6e6eb2263f0836b2c37fa851ba2d09e31ea4784c1a611451fcd953fd01c65982"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4731eb6ac044fc79785802098c116baeac11f9da0fe66caf606bea28d4dafc47"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 67,
+  "stars": 71,
   "stars_por_mes": null
  },
  "nombre": "fixupxer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1c460d539fbac3d75c3eb25cf938249211e0c20f",
+  "commit": "d755039321969ef0f0930f66b741805032b41ece",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1c460d539fbac3d75c3eb25cf938249211e0c20f"
+  "swhid": "swh:1:rev:d755039321969ef0f0930f66b741805032b41ece"
  },
  "repo": "NeatCode-Labs/fixupxer",
  "web": "https://fixupxer.com"

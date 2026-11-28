@@ -4,22 +4,13 @@
   "release_en": "2026-03-19",
   "semantica_http": 200,
   "ultima_release": "v3.6.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "APKUpdater is an open source tool that simplifies the process of finding updates for your installed apps.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dmitryn71--apkupdater.json",
-  "sha256": "1596a2e93d0c842ed5bd29bd264f0f1278bbf3750b0c69db5ac1e435548ec867"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "59a1cce274cf31b32de7c7156699cde564c2cebb88185368ebe6a62bc1bbcf45"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 108,
+  "stars": 127,
   "stars_por_mes": null
  },
  "nombre": "apkupdater",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f9e26cacaeb043f9d420bb0cc36ccdff0fe93b34",
+  "commit": "9c3b811330e77afe0f21723ff11b0c4991cbd066",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f9e26cacaeb043f9d420bb0cc36ccdff0fe93b34"
+  "swhid": "swh:1:rev:9c3b811330e77afe0f21723ff11b0c4991cbd066"
  },
  "repo": "DmitryN71/apkupdater"
 }

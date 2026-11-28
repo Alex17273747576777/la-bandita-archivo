@@ -8,18 +8,9 @@
  },
  "descripcion": "Privacy-first FOSS hibernation manager for GrapheneOS — the Greenify successor with UnifiedPush wake-on-push",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lebiggg--volt.json",
-  "sha256": "e5175d72ffb635a977160b1df0048eafe37e2dd206530ef42bf1156108ff567e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5b2d1bf357fdb3e73ee6b83293e621eccc5324c077a7a449662bbf10116898ad"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 18,
+  "stars": 22,
   "stars_por_mes": null
  },
  "nombre": "volt",

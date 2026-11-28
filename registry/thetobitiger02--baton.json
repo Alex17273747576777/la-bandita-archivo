@@ -8,18 +8,9 @@
  },
  "descripcion": "Continue what you're watching, listening to or reading between your Windows PC and Android phone, right to the second.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/thetobitiger02--baton.json",
-  "sha256": "0c951a1d26771fc9343b72b4fa03243a1a69cdaaf91e497b2a1938af4ddb1ff7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "cf7facc807a4610944a636e9185ef896be393fd45f3787bc03d9d55fadba7031"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
+  "estado": "vivo",
   "release_en": null,
-  "semantica_http": 404,
+  "semantica_http": 200,
   "ultima_release": null,
   "ultimo_push": "2026-09-06"
  },
  "descripcion": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and perfo",
  "evidencia": {
-  "nota": "sello de la fila del censo tal como se midió; no se conservó payload de API aparte",
-  "payload_ref": "censo-ecosistema-2026-10-15.tsv#jilin0105/OmniBot",
-  "sha256": "44e366776d402a9198ed6f5f3937a562ddf9d380ad56ecad0a56110376e1ce29"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/jilin0105--omnibot.json",
+  "sha256": "60304083898b51109b66f849662218190b498343143ce8374c6273eddef92846"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,23 +21,24 @@
  "id": "jilin0105--omnibot",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-15"
+  "metodo": "spdx-api",
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 0,
   "stars_por_mes": 0.0
  },
  "nombre": "OmniBot",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
-  "swhid": null
+  "commit": "9a02db13ae88eaa589d0903805f809b11c770634",
+  "swh_estado": null,
+  "swhid": "swh:1:rev:9a02db13ae88eaa589d0903805f809b11c770634"
  },
  "repo": "jilin0105/OmniBot"
 }

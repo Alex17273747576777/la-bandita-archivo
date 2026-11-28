@@ -4,22 +4,13 @@
   "release_en": "2026-09-12",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Morphe Patches for Google Photos and Android Apps",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/akash-sriram--morphe-google-photos.json",
-  "sha256": "ae51329b8c2043e386a663e52cc94165d823106c8ed51496932864aa98c295e2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "607c4b829ef78db2dd46e7311974d32eb83266b79aebe94b6791038e1b4bea8b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 110,
+  "stars": 161,
   "stars_por_mes": null
  },
  "nombre": "morphe-google-photos",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "47a5268990d4bea48b3aba3f45c2cb492ff1f389",
+  "commit": "059419c675379a6a4e94f1592c66f4072aa881c2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:47a5268990d4bea48b3aba3f45c2cb492ff1f389"
+  "swhid": "swh:1:rev:059419c675379a6a4e94f1592c66f4072aa881c2"
  },
  "repo": "Akash-Sriram/morphe-google-photos"
 }

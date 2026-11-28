@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
+  "estado": "vivo",
+  "release_en": "2022-04-11",
+  "semantica_http": 200,
+  "ultima_release": "assets",
   "ultimo_push": "2026-09-30"
  },
  "descripcion": "自建拼音输入法词库，百万常用词汇量，适配 Fcitx5 (Linux / Android) 及 Gboard (Android + Magisk or KernelSU) 。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/wuhgit--custompinyindictionary.json",
-  "sha256": "638e2f86d1499e1dbeafe6e81f24d9ae514d16949aef711b689553b1044097a3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7668e9335bc590f9426b1cd7c20fd7bd6e3c8f256c7f4c305b17c0b4cedd2fb7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "CC-BY-SA-4.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 2873,
   "stars_por_mes": null
  },
  "nombre": "CustomPinyinDictionary",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "cf17f96af885cb818c2fad87184f383a52482351",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:cf17f96af885cb818c2fad87184f383a52482351"
  },
  "repo": "wuhgit/CustomPinyinDictionary"
 }

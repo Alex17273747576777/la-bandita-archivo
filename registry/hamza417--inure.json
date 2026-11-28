@@ -4,22 +4,13 @@
   "release_en": "2022-10-29",
   "semantica_http": 200,
   "ultima_release": "build44",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "An elegant and beautiful premium Android app manager with Root and Shizuku support, a built-in terminal, analytics, virustotal, debloat, stats and various other features with a custom theme engine, developed with purely custom UI design and reproducible build.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hamza417--inure.json",
-  "sha256": "6a184a03b600ebd0857b75a8d9054e8ebea8a2c5189c5083d14d42528d0b1ac8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c782a957860ecdab9b64e6a444cc9111d555bfaca263f847463b99dd033ab7bd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1984,
+  "stars": 2021,
   "stars_por_mes": null
  },
  "nombre": "Inure",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "717cd1a836d2ee65b242e436843a3acd5082d17a",
+  "commit": "eadbbb26c9edbc5287760d41e50e8946d2a81d80",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:717cd1a836d2ee65b242e436843a3acd5082d17a"
+  "swhid": "swh:1:rev:eadbbb26c9edbc5287760d41e50e8946d2a81d80"
  },
  "repo": "Hamza417/Inure"
 }

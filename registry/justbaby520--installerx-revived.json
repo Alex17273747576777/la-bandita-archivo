@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-11-03",
+  "release_en": "2026-11-19",
   "semantica_http": 200,
-  "ultima_release": "26.11.87317f8",
-  "ultimo_push": "2026-11-03"
+  "ultima_release": "26.11.e8ec37d",
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/justbaby520--installerx-revived.json",
-  "sha256": "34b8a9f1bfc17735c53325823847e2e2825758a30bc27a50b6f9bc7758fa243f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3d6c5d391bd14cfea9e014545242a43e55c97e59b98e3809454fda7b56959cf3"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "87317f8717f79b62d88cc8c4e158bd87160c84e8",
+  "commit": "e8ec37de3c8fb276fe2a0f5bb725485eb0951fa0",
   "swh_estado": null,
-  "swhid": "swh:1:rev:87317f8717f79b62d88cc8c4e158bd87160c84e8"
+  "swhid": "swh:1:rev:e8ec37de3c8fb276fe2a0f5bb725485eb0951fa0"
  },
  "repo": "Justbaby520/InstallerX-Revived"
 }

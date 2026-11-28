@@ -4,22 +4,13 @@
   "release_en": "2026-10-12",
   "semantica_http": 200,
   "ultima_release": "v0.8.30",
-  "ultimo_push": "2026-10-20"
+  "ultimo_push": "2026-11-14"
  },
  "descripcion": "Honda OEM audio and climate companion for FYT head units with a BSJ CAN adapter",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/xelaan--honda-box.json",
-  "sha256": "712f98121f1b7e7676990fcb9e1be4add98f59ad9a3764a9412119512e134927"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ab34b8ea47598d21a62b1856696518fc1ce0a72a8ecb051567bc74d7c20ab182"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "81cf3197e8d1501a6bd106c8e3c6b38d25c247a0",
+  "commit": "8671202863bcc6532e8185d755daf642a29fca3f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:81cf3197e8d1501a6bd106c8e3c6b38d25c247a0"
+  "swhid": "swh:1:rev:8671202863bcc6532e8185d755daf642a29fca3f"
  },
  "repo": "Xelaan/honda-box"
 }

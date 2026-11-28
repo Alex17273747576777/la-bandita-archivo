@@ -8,18 +8,9 @@
  },
  "descripcion": "拾图 Shitu —— 借 Shizuku 把 Android/data 里的图片自动搬到目标目录的安卓 App（设计阶段）",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/landslide3154--shitu-android.json",
-  "sha256": "ac0ac4bb6e2f5c58ffb5fd18bb195eea047106032a6c926f384035e8fe79b6af"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a0cda09ce34d4b85f1930d8cbc838600be167b84b78c06d3b6d4b9170764a9c7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

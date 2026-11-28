@@ -8,18 +8,9 @@
  },
  "descripcion": "折叠屏切换器 | Switch between various folding states on foldable devices",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/eiyooooo--fold_switcher.json",
-  "sha256": "149a8e6fa4210610fe395849e189dbede0f675e8b1d65bc31942867ea632be24"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6f29e86810860294d69856954bef6ab04e6bdb5e27c2bd8fd5fba57bb07bb52e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 122,
+  "stars": 126,
   "stars_por_mes": null
  },
  "nombre": "Fold_Switcher",

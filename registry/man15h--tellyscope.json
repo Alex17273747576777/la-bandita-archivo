@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "dormido",
-  "release_en": "2026-11-03",
+  "estado": "vivo",
+  "release_en": "2026-10-22",
   "semantica_http": 200,
-  "ultima_release": "v0.15.0-alpha.1",
-  "ultimo_push": "2026-11-03"
+  "ultima_release": "alpha",
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Debloat your Android TV, install apps, browse and transfer files on it, all from your phone. Just 3 MB, no tracking, no root, no PC.",
  "evidencia": {
-  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
-  "payload_ref": "ficha profunda del 2026-11-03",
-  "sha256": "a414abdb3a70fcc3ffe3520d93e4bfa98c9780a334646849b3971a3d0fada0b7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/man15h--tellyscope.json",
+  "sha256": "e8df3f8f7a1e449bf9c1b188a77df4689d0cb058f958e19b3d1ece4e9e620245"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,16 +21,16 @@
  "id": "man15h--tellyscope",
  "licencia": {
   "archivo": "GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free",
-  "metodo": "endpoint-license",
+  "metodo": "spdx-api",
   "nota": "certificada contra el texto del archivo LICENSE",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1322,
+  "stars": 2308,
   "stars_por_mes": null
  },
  "nombre": "tellyscope",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "442330d85a84d8bad0930883693e14a36fe6cd09",
+  "commit": "3a72cf4db339a034eb358baf2289112b742d698f",
   "swh_estado": "solicitud 200",
   "swh_solicitud": "accepted",
-  "swhid": "swh:1:rev:442330d85a84d8bad0930883693e14a36fe6cd09"
+  "swhid": "swh:1:rev:3a72cf4db339a034eb358baf2289112b742d698f"
  },
  "repo": "man15h/tellyscope"
 }

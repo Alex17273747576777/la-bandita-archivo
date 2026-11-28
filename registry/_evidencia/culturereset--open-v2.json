@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-09-18T16:26:25Z",
-   "oid": "55658e6646852c34b6f05dc46beb7a3e7d8e68cf"
+   "committedDate": "2026-11-11T23:28:17Z",
+   "oid": "243ddd80150aae3059c0bc4422cd1ac1ce3d3ad9"
   }
  },
- "diskUsage": 2388094,
+ "diskUsage": 1598461,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Apache-2.0"
  },
  "nameWithOwner": "CultureReset/Open-v2",
- "pushedAt": "2026-09-18T16:34:34Z",
+ "pushedAt": "2026-11-11T23:28:19Z",
  "releases": {
   "nodes": []
  },

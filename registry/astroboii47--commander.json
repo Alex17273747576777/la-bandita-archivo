@@ -4,22 +4,13 @@
   "release_en": "2026-08-16",
   "semantica_http": 200,
   "ultima_release": "v0.1.0-alpha.1",
-  "ultimo_push": "2026-09-09"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "A fast, keyboard-first command bar and notification hub for Android.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/astroboii47--commander.json",
-  "sha256": "eb3206b1da7dc3af17f48eb8d04fae9b2241ad8e2d5c845d43d3f87bca24d1dd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b0ad1d635359d9c154f3512f4e2593fdae0a017606a3b03bda814556a1bbc2e2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 28,
+  "stars": 31,
   "stars_por_mes": null
  },
  "nombre": "Commander",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9afe4722dfb4cbe833f982472ff7d43d881acf2a",
+  "commit": "30b78b33ba55e9a500b7bfa217cf20f7b8f249d1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9afe4722dfb4cbe833f982472ff7d43d881acf2a"
+  "swhid": "swh:1:rev:30b78b33ba55e9a500b7bfa217cf20f7b8f249d1"
  },
  "repo": "astroboii47/Commander"
 }

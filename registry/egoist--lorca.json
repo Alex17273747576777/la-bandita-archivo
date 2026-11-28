@@ -4,22 +4,13 @@
   "release_en": "2026-09-24",
   "semantica_http": 200,
   "ultima_release": "cli-v0.1.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Imagine Telegram but single person, with agents, and end-to-end encrypted. Alternative to Grok bot, Muse, Dots",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/egoist--lorca.json",
-  "sha256": "4292210efebac079803ed550bea6a71bf727ce68a61d792309862280f6727b9f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "63e10407976c87810f55fa4d95024ec2b89ede0fa820b4ad56c85f9aaba9a97d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 356,
+  "stars": 389,
   "stars_por_mes": null
  },
  "nombre": "lorca",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "bf1ab709bc8df470016522578d7ae2df7740cd22",
+  "commit": "beb84e01376c095f0199f39730f834ddf7e55180",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:bf1ab709bc8df470016522578d7ae2df7740cd22"
+  "swhid": "swh:1:rev:beb84e01376c095f0199f39730f834ddf7e55180"
  },
  "repo": "egoist/lorca",
  "web": "https://lorca.app"

@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "dormido",
-  "release_en": "2026-10-15",
+  "estado": "vivo",
+  "release_en": "2026-10-02",
   "semantica_http": 200,
-  "ultima_release": "nightly",
-  "ultimo_push": "2026-11-03"
+  "ultima_release": "linux-v0.9.1",
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
  "evidencia": {
-  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
-  "payload_ref": "ficha profunda del 2026-11-03",
-  "sha256": "6a45e0874fd726e933a8e5a28f0ed4865946c2b2fdb8986426069fa785d324ee"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/metasequoiaime--msime.json",
+  "sha256": "f5bedbecd73048c44d85bd5313826d47aad61d06efef5b833dc04e5264ae6544"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,16 +21,16 @@
  "id": "metasequoiaime--msime",
  "licencia": {
   "archivo": "GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free",
-  "metodo": "endpoint-license",
+  "metodo": "spdx-api",
   "nota": "certificada contra el texto del archivo LICENSE",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1138,
+  "stars": 1493,
   "stars_por_mes": null
  },
  "nombre": "msime",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "a5fb2c668bd509af45f11d7912a921dc70e54d98",
+  "commit": "91fbcedd7a95d6290b2aad6b1cfaa5c916a82e54",
   "swh_estado": "solicitud 200",
   "swh_solicitud": "accepted",
-  "swhid": "swh:1:rev:a5fb2c668bd509af45f11d7912a921dc70e54d98"
+  "swhid": "swh:1:rev:91fbcedd7a95d6290b2aad6b1cfaa5c916a82e54"
  },
  "repo": "metasequoiaime/msime"
 }

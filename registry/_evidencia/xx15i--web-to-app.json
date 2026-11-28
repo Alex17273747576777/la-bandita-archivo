@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
    "committedDate": "2026-09-14T14:52:16Z",
    "oid": "a74b0c0ef48d14c1cd138bba07c229dfd375b775"
   }
  },
- "diskUsage": 121113,
+ "diskUsage": 121139,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Unlicense"
  },
  "nameWithOwner": "xx15i/web-to-app",
- "pushedAt": "2026-11-03T19:38:47Z",
+ "pushedAt": "2026-11-27T21:27:59Z",
  "releases": {
   "nodes": []
  },

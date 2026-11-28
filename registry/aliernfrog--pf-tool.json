@@ -4,22 +4,13 @@
   "release_en": "2022-07-05",
   "semantica_http": 200,
   "ultima_release": "v1.1",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "⛰️ Easily import and share Polyfield maps",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aliernfrog--pf-tool.json",
-  "sha256": "47f81dd217eae1a648cb4fa87648f28cc9c1c7a95727605cfccbbba8f54212e1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9b99878401a1f4822adb3dd2fc3e912835bdb3df08a8763752962f2f1fdfeeea"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 20,
+  "stars": 21,
   "stars_por_mes": null
  },
  "nombre": "pf-tool",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "02cf466eaa400ba31786eabdb9906824e3750ff0",
+  "commit": "2be2e8b2ccfa024b118687c592435f62bda7b7a6",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:02cf466eaa400ba31786eabdb9906824e3750ff0"
+  "swhid": "swh:1:rev:2be2e8b2ccfa024b118687c592435f62bda7b7a6"
  },
  "repo": "aliernfrog/pf-tool"
 }

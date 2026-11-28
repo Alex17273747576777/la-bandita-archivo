@@ -4,22 +4,13 @@
   "release_en": "2026-08-13",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "Unlock the hidden Samsung DeX and desktop capabilities of Android, and run a desktop environment directly on your device.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/naryuki--dextop.json",
-  "sha256": "7402bb5e23f9d9dc9eddad15f429068622b5c50527ea366113876f8bd59c6a23"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "166e1eb69f812d56ffb7cb1ef97691ac9f0943ef68c744f22260de02fefce865"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1096,
+  "stars": 1252,
   "stars_por_mes": null
  },
  "nombre": "Dextop",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "4d25a58483d10659054953fa9f1f486d6813d142",
+  "commit": "33683639e4f36ae0b66cc335df0da9abb8783c04",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4d25a58483d10659054953fa9f1f486d6813d142"
+  "swhid": "swh:1:rev:33683639e4f36ae0b66cc335df0da9abb8783c04"
  },
  "repo": "NarYuki/Dextop",
  "web": "dextop.n4tsu.net"

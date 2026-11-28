@@ -4,22 +4,13 @@
   "release_en": "2026-02-03",
   "semantica_http": 200,
   "ultima_release": "Android-Dex-v.0.1",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-07"
  },
  "descripcion": "Universal Samsung DeX alternative for all Android devices. Run Android apps on Windows, Linux & macOS with resizable windows, advanced FPS gaming controls, and high-performance wireless ADB mirroring.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/shrey113--android-dex.json",
-  "sha256": "e8a9356c87c6e6504832d0d4561d6382ff6963920b341647d857d9f056a9cf59"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d4dc5d1c26edf9e5af6c080cd245a4ec27f88356b9ca677a09d585ce7d66ce98"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3679,
+  "stars": 4017,
   "stars_por_mes": null
  },
  "nombre": "Android-Dex",

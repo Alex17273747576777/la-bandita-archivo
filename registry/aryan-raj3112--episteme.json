@@ -4,22 +4,13 @@
   "release_en": "2026-02-25",
   "semantica_http": 200,
   "ultima_release": "v1.0.31-oss",
-  "ultimo_push": "2026-10-10"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "A multi-platform document and e-book reader.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aryan-raj3112--episteme.json",
-  "sha256": "62c5dffbc8daf81b7fc4a01669873930602c759baa60d5ca5067c58f9c9c82bf"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e4b669672875f4c6e2a1510c8e836acf730fa09d0dde968861e20a94cf00b4e6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1330,
+  "stars": 1401,
   "stars_por_mes": null
  },
  "nombre": "episteme",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "792f5bf55cc99e1bb4d44cd5ac24eb86e48fa297",
+  "commit": "c37341501baba1e15ae9e540781443db07ebd1af",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:792f5bf55cc99e1bb4d44cd5ac24eb86e48fa297"
+  "swhid": "swh:1:rev:c37341501baba1e15ae9e540781443db07ebd1af"
  },
  "repo": "Aryan-Raj3112/episteme"
 }

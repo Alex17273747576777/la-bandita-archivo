@@ -8,18 +8,9 @@
  },
  "descripcion": "Live Bluetooth HCI packet viewer for rooted Android: decodes HCI, L2CAP, ATT and SMP on-device via the snoop log and Shizuku, exports btsnoop for Wireshark.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kellyiscute--hciscope.json",
-  "sha256": "9a6f01e7b5900116aa93d26ed53a6d0272742858e6e6928302e2498a429cca54"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "57d25eb17949131f968fc71e052a5ef871b62225d1529038db0fb04852a1ab52"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "hciscope",

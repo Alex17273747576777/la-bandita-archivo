@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": "2026-10-17",
-  "semantica_http": 404,
-  "ultima_release": "4.2",
+  "estado": "vivo",
+  "release_en": "2024-02-03",
+  "semantica_http": 200,
+  "ultima_release": "1.0",
   "ultimo_push": "2026-10-17"
  },
  "descripcion": "Easily select, start, and manage your preferred AI digital assistants on Android.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/wstxda--switchai.json",
-  "sha256": "170b3f3d517650afb150f92a49872fbcd9596d175959a1ed12764b5255b8fd03"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a645770ce059574d3aaa965a6f15bc3795ec12a918b1ea678c54a0744913d2c3"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 1484,
   "stars_por_mes": null
  },
  "nombre": "SwitchAI",
@@ -48,7 +39,7 @@
   "commit": "56f48edf59924159e1c9be13119c8fb8b6ecb4d4",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:56f48edf59924159e1c9be13119c8fb8b6ecb4d4"
  },
  "repo": "WSTxda/SwitchAI"
 }

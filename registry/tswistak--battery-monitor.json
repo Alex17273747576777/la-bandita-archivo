@@ -4,22 +4,13 @@
   "release_en": "2026-05-30",
   "semantica_http": 200,
   "ultima_release": "1.0.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Battery Monitor for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tswistak--battery-monitor.json",
-  "sha256": "2d67a0a510148e9a2ed27384cfb904ac1bc92a73301b85aa4678faed9fb1e5b9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "78bcefaf52c0c06e9ca8f7982cccbe07df97d653cc6d22846e4a28612c30d4c8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 108,
+  "stars": 121,
   "stars_por_mes": null
  },
  "nombre": "Battery-Monitor",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ca4ec1084f42a737a82e98c89002704cd08d239a",
+  "commit": "25d7f59f65984bb31088f05951bce5cec6fb0221",
   "swh_estado": "archivada",
   "swh_solicitud": "ca4ec1084f42a737a82e98c89002704cd08d239a",
-  "swhid": "swh:1:rev:ca4ec1084f42a737a82e98c89002704cd08d239a"
+  "swhid": "swh:1:rev:25d7f59f65984bb31088f05951bce5cec6fb0221"
  },
  "repo": "tswistak/Battery-Monitor"
 }

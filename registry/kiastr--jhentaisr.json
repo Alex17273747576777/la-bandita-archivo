@@ -8,18 +8,9 @@
  },
  "descripcion": "An e-hentai app that can use Aicoloring＆anime4k SR \\ 一个可使用超分辨率和AI上色(anime4k＆ddcolor)的ehentai漫画阅读应用程序",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kiastr--jhentaisr.json",
-  "sha256": "028f70ab48e4229425d85077d44476397e4797cdcfab2401d2d701aa4abf40bb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b5e1c164291afbadf4cd237d40ebd16f255db1a87e79f1bd51be12d86af19c11"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8,
+  "stars": 9,
   "stars_por_mes": null
  },
  "nombre": "JhentaiSR",

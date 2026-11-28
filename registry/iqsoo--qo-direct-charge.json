@@ -8,18 +8,9 @@
  },
  "descripcion": "新好友开发 · iQSOO（iqsoo.com）发起并开源发布。面向 iQOO Neo11 / Android 16 的原生直驱自动化工具，支持横屏、应用与息屏规则，基于 Shizuku，无需 Root。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/iqsoo--qo-direct-charge.json",
-  "sha256": "47b6ab57e48e111db4c4ebda99780b9711a83045944dc8c6bbe77b5a40a22cb1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7db99659b79d34c13b2eac5bf85081486b6a7f59606a9e70557508086b467294"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "qo-direct-charge",

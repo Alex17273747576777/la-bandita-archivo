@@ -4,22 +4,13 @@
   "release_en": "2026-08-12",
   "semantica_http": 200,
   "ultima_release": "0.1.0-Dev",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "A third-party music client based on MeloX, styled after Apple Music and featuring unique functions.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lladlam--melox-android.json",
-  "sha256": "713f7d9f994178d4d788587a05eddbffc53e7e99eeae6ea22918a9e0be9be987"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0120fad08d3a649e7755b3d5ebb360e3ca4183b79e43ce075cb5fcd590ecef1c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": "GPL-3.0",
   "verificado_en": "2026-11-03"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 283,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "MeloX-Android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "912323e16fed5c89d47215ccc9b59c1331379929",
+  "commit": "eea407db480b8436ede6a1bb80801a1a1036add2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:912323e16fed5c89d47215ccc9b59c1331379929"
+  "swhid": "swh:1:rev:eea407db480b8436ede6a1bb80801a1a1036add2"
  },
  "repo": "lladlam/MeloX-Android"
 }

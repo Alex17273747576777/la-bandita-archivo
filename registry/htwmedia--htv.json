@@ -4,22 +4,13 @@
   "release_en": "2024-05-05",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "📺 免费无广告的电视直播 App｜央视/卫视/地方台｜手机与电视盒子通用｜Free IPTV live TV player for Android & Android TV",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/htwmedia--htv.json",
-  "sha256": "9285f9aa168c72a7edfcd0a22bd4c841f92e0c5f6b4be5290fab61c933a45cf6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6ce35d26ec9c4c6ad209bf34a2cff296caa55df25bcd939851370a8e9d9d9e68"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 814,
+  "stars": 867,
   "stars_por_mes": null
  },
  "nombre": "HTV",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9144d3b9096b2a037d11e63d589d09f223435f6c",
+  "commit": "ba60d211274cd56bb43a9f7c8c5710eff5577804",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9144d3b9096b2a037d11e63d589d09f223435f6c"
+  "swhid": "swh:1:rev:ba60d211274cd56bb43a9f7c8c5710eff5577804"
  },
  "repo": "HTWMedia/HTV",
  "web": "https://htwmedia.dpdns.org/Home/Download"

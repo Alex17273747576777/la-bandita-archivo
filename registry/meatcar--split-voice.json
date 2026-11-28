@@ -4,22 +4,13 @@
   "release_en": "2026-09-09",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Experimental Android Quick Settings routing: receiver microphone input and LE headphone output through Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/meatcar--split-voice.json",
-  "sha256": "5757c486eb531bf8597a543b9f75b9592ea1a1fadd8923e2ba0e645a98094720"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ac1efcb6c3060392b2cd4071869ed2e36f5599e79cae3eb6612ba1d78918b9c9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9d985230503ef1890b389de25e4306db11005e71",
+  "commit": "eaecd70fbe2fb5a7a72d75e541b5a65cf5f5c3c5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9d985230503ef1890b389de25e4306db11005e71"
+  "swhid": "swh:1:rev:eaecd70fbe2fb5a7a72d75e541b5a65cf5f5c3c5"
  },
  "repo": "meatcar/split-voice"
 }

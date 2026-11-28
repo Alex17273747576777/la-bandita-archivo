@@ -4,22 +4,13 @@
   "release_en": "2023-10-24",
   "semantica_http": 200,
   "ultima_release": "1.1",
-  "ultimo_push": "2026-10-23"
+  "ultimo_push": "2026-11-06"
  },
  "descripcion": "Smartspacer is a customisable widget for Android, but with a difference: It can upgrade the built in At a Glance on Pixels - without root!",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kieronquinn--smartspacer.json",
-  "sha256": "16bf3ebc5a6e2c93a492fce6f612bc4a9b385f05f67275d7cf908e5acd080b41"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e215625da2302733fe6b796fb6cb6ebda0c288638241565080a88edd7f354bd4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,23 +25,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3590,
+  "stars": 3618,
   "stars_por_mes": null
  },
  "nombre": "Smartspacer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "701ba4e5e6ec4b1bdf8bd8c88d9277571a32362a",
+  "commit": "f2fd19849e4ac625a1815b58a711da5cf9a38685",
   "swh_estado": "archivada",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:701ba4e5e6ec4b1bdf8bd8c88d9277571a32362a"
+  "swhid": "swh:1:rev:f2fd19849e4ac625a1815b58a711da5cf9a38685"
  },
  "repo": "KieronQuinn/Smartspacer"
 }

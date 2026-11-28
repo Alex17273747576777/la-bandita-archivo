@@ -13,13 +13,12 @@
   "sha256": "d77ba9de101b53a7617f489c230aa30edb7f70ea738f1892b5f56ca4a7cab7a9"
  },
  "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
+  "dias": 0,
+  "estado": "vencida",
+  "evidencia_en": "2026-11-27",
   "motivo": "el repositorio no existe: la API devolvió 404",
   "proxima_remedicion": null,
-  "ventana_dias": 180
+  "ventana_dias": null
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +33,7 @@
   "spdx": null,
   "verificado_en": "2026-10-15"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

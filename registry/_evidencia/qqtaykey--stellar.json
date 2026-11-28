@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-09-19T19:22:06Z",
-   "oid": "80b471d290e23c860ed29c731fe342392f8a3654"
+   "committedDate": "2026-10-18T11:38:07Z",
+   "oid": "bc03f6a2d7c95167d1853e24d3e52587634e7c58"
   }
  },
- "diskUsage": 1613,
+ "diskUsage": 1436,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "MPL-2.0"
  },
  "nameWithOwner": "qqtaykey/Stellar",
- "pushedAt": "2026-10-02T16:43:42Z",
+ "pushedAt": "2026-11-21T06:32:07Z",
  "releases": {
   "nodes": []
  },

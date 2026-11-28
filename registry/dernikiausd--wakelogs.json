@@ -8,18 +8,9 @@
  },
  "descripcion": "Android app for analyzing display wakeups, CPU activity, alarms, jobs and device rest using Shizuku",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dernikiausd--wakelogs.json",
-  "sha256": "dd49c0bb7b8aff2f958b959d1a07c95a685e20f1f9b6001187371fe57ce8cdd1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bac6bb40be00e882451bb6b49d33825ad42d34a9c0bc8553c00e98235b0da211"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "wakelogs",

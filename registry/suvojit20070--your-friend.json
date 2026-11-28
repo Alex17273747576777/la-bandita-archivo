@@ -4,22 +4,13 @@
   "release_en": "2026-11-02",
   "semantica_http": 200,
   "ultima_release": "v0.1.1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-16"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/suvojit20070--your-friend.json",
-  "sha256": "e51130bffa0670716de14cdc5a195e89940462f54f902604f82a83015538ac1f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0b46942600f48984976dcd5c0f64017c340ac2bf3d5b73f2640482b1fc3a0908"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "your-friend",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "68c316b149154e98eb9e445fcacef6d7ec67a73b",
+  "commit": "49eec413d55c2c17890e9f5b26fe9929b28c44b3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:68c316b149154e98eb9e445fcacef6d7ec67a73b"
+  "swhid": "swh:1:rev:49eec413d55c2c17890e9f5b26fe9929b28c44b3"
  },
  "repo": "suvojit20070/your-friend"
 }

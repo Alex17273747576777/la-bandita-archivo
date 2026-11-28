@@ -4,22 +4,13 @@
   "release_en": "2026-10-29",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-12"
  },
  "descripcion": "A native Android assistant that actually does things. Voice in, real actions out — calls, messages, camera, app control — on top of a hand-drawn HUD. No account, no JARVIS server, no telemetry. Every AI feature runs on a key you own, and every permission is requested at the moment it is needed.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rishu123-png--jarvis---android-version.json",
-  "sha256": "6f1531847352812e0f0f0381c07595334da29be924fd17abebdd6c96be7f5dfa"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "140976ef8bfcc66701bb251b29a8334204dce8cd77c8d35194fd5ba88ab6212e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 5,
   "stars_por_mes": null
  },
  "nombre": "Jarvis---Android-Version-",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6d688a2c8e2a4b5b082c6b279a764058a686e883",
+  "commit": "335e52fd9b63e541cbe9944b7f14acdde93f2b00",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:6d688a2c8e2a4b5b082c6b279a764058a686e883"
+  "swhid": "swh:1:rev:335e52fd9b63e541cbe9944b7f14acdde93f2b00"
  },
  "repo": "Rishu123-png/Jarvis---Android-Version-"
 }

@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": null,
+  "release_en": "2026-11-05",
   "semantica_http": 200,
-  "ultima_release": null,
-  "ultimo_push": "2026-11-03"
+  "ultima_release": "v.1.0.0",
+  "ultimo_push": "2026-11-18"
  },
  "descripcion": "Experimental IDE for building Android applicatons on Android.",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/palmace--codeassist.json",
-  "sha256": "f5407a749937d835ab2baca733ea058693bccd53d46c2e90f9e18421b8f546d8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6560c7b7d965278d11a999643971283568b763cc5e38b0547a5da93188962b08"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d6b035d4e764826251df74a1196f1bb825ea28b5",
+  "commit": "f8794c8edb109d647b60de97fab0941bfcd50c8e",
   "swh_estado": null,
-  "swhid": "swh:1:rev:d6b035d4e764826251df74a1196f1bb825ea28b5"
+  "swhid": "swh:1:rev:f8794c8edb109d647b60de97fab0941bfcd50c8e"
  },
  "repo": "palmace/CodeAssist"
 }

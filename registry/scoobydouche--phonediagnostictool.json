@@ -4,22 +4,13 @@
   "release_en": "2026-08-31",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-28"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Comprehensive phone diagnostic tool for CPU, GPU, battery, storage, RAM, sensors, display, network and more. Android-focused with Jetpack Compose.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/scoobydouche--phonediagnostictool.json",
-  "sha256": "36db30d2504c88f563822c727f7e96f48c3805beb8356d156d1fc5f79c0a4be7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e97beee18fcfce716d4422e2ae75acd1e2424b4c875c8bc3e9b36c0dc5006993"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7,
+  "stars": 10,
   "stars_por_mes": null
  },
  "nombre": "PhoneDiagnosticTool",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7962f67e205f8b166b7ef12dffa3f9cf58d9a8e3",
+  "commit": "70753e168da3d7dd29e3b8f5d58919f8e00a06c2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:7962f67e205f8b166b7ef12dffa3f9cf58d9a8e3"
+  "swhid": "swh:1:rev:70753e168da3d7dd29e3b8f5d58919f8e00a06c2"
  },
  "repo": "ScoobyDouche/PhoneDiagnosticTool"
 }

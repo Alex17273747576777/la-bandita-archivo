@@ -8,18 +8,9 @@
  },
  "descripcion": "第三方 Android Launcher 应用, iceDesk 桌面 支持配合 冰箱 / 小黑屋 / Shizuku 冻结&解冻应用, 集成了很多创意小功能(侧滑应用列表 / 短信转发邮箱 / 来电静音 / 自动接听电话等)。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lalakii--icedesk.json",
-  "sha256": "d35477973411a430e6c3f10201eb741b95e71794aeceb89ab89747d3b35aab59"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "efba29a9131c0f14cead7e47d84f077b9fd8bbcfcadbd7daef95adb2ae5a7d3a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 31,
+  "stars": 33,
   "stars_por_mes": null
  },
  "nombre": "iceDesk",

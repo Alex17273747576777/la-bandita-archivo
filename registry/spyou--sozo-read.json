@@ -1,6 +1,6 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "dormido",
   "release_en": "2026-05-18",
   "semantica_http": 200,
   "ultima_release": "v1.1",
@@ -8,18 +8,9 @@
  },
  "descripcion": "Sozo-Read Manga,Novel etc... Multiple sources, offline downloads, cloud sync.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/spyou--sozo-read.json",
-  "sha256": "d5e03e4f645110dc72b81b8a43b8c75294f70a61d91394220710e8249c338500"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "221cf27f7dd50736c9e252520ff70846e5b485a249351d246cb84f1fe09856a4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 30,
+  "stars": 31,
   "stars_por_mes": null
  },
  "nombre": "Sozo-Read",

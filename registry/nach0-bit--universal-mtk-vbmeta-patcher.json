@@ -8,18 +8,9 @@
  },
  "descripcion": "An open-source, automated script to disable Android Verified Boot (AVB) on modern MediaTek (MTK) devices for easy rooting and GSI flashing.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/nach0-bit--universal-mtk-vbmeta-patcher.json",
-  "sha256": "9bcb8b883c83ef7675f992c78b51020c4be5ea4330487148c2893c7ff7e64513"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2a50aa7cdd53e60064aa9c931f96feee1006a2292851a655a548c9b302b8a9b0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

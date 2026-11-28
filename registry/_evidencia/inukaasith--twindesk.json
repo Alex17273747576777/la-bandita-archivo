@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-27",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-11-18T14:59:32Z",
+   "oid": "1114cdfe2d8d8a6cc229036404dcb21a4cb79c0f"
+  }
+ },
+ "diskUsage": 28464,
+ "forkCount": 396,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 66
+ },
+ "licenseInfo": {
+  "name": "GNU General Public License v3.0",
+  "spdxId": "GPL-3.0"
+ },
+ "nameWithOwner": "InukaAsith/TwinDesk",
+ "pushedAt": "2026-11-18T14:59:39Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-10-14T12:10:57Z",
+    "tagName": "v0.1.0"
+   }
+  ]
+ },
+ "stargazerCount": 4858
+}

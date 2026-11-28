@@ -8,18 +8,9 @@
  },
  "descripcion": "A text-based kitchen for Android ROM customization.  Uses shell scripts and works with Cygwin/OS X/Linux.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dsixda--android-kitchen.json",
-  "sha256": "f5602d88e3f151c3f65de1e24fea33ec9d88fbbfe75c0ac8c2d558d74343c15c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "dcbc759ea9863f80d136d6eab6bf67d627cdd2885a9ef05ca69aa8068a5dc901"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

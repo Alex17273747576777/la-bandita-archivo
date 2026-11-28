@@ -8,18 +8,9 @@
  },
  "descripcion": "Remap the Nothing Phone Essential Key to your own actions — no root required.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/koukeneko--essentialkeytools.json",
-  "sha256": "8006d34c6c0b08ca19a8167a011561b05e34be54a058a68d0477b1c05eacf2fe"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "dc4a9cc0570cd88fb70e6767592bba55d53374f4698885a0aa6c50eb79f504c9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 27,
+  "stars": 29,
   "stars_por_mes": null
  },
  "nombre": "EssentialKeyTools",

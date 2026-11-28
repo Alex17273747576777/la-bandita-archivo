@@ -4,22 +4,13 @@
   "release_en": "2026-10-01",
   "semantica_http": 200,
   "ultima_release": "420-4.2.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-06"
  },
  "descripcion": "LockPerm 是一个 Xposed 模块，可为每个应用独立配置设备伪装与权限防护。🍰",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sunilxsk--lockperm.json",
-  "sha256": "8eddc234e167a6318bf6fb4fc865ccf0de1e8c2ec52e27f36f39edfe03db0066"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8da552cc8a18cc0214b27d1f50426b248204f247509d19abcf2629b40b29203c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 36,
+  "stars": 55,
   "stars_por_mes": null
  },
  "nombre": "lockperm",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "c1a73b17fdbb9202b42f3dcb1c1b8012582064f9",
+  "commit": "c61a541020dc93812e11a0c94d97acb346e61d1d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:c1a73b17fdbb9202b42f3dcb1c1b8012582064f9"
+  "swhid": "swh:1:rev:c61a541020dc93812e11a0c94d97acb346e61d1d"
  },
  "repo": "sunilxsk/lockperm"
 }

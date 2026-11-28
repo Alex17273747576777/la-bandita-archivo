@@ -4,22 +4,13 @@
   "release_en": "2021-03-20",
   "semantica_http": 200,
   "ultima_release": "v0.0.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "🎧 Open source music streaming app! Available for both desktop & mobile!",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/team-spotube--spotube.json",
-  "sha256": "c076cf9eeaa7715fd9078b10076702df696dcec6107aa28dc89dfc2a38ba02c0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4264a6d2838be786ced1d41b904c00e083ec66c9aa3a90be471bbeae85ff6f2f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 50564,
+  "stars": 50995,
   "stars_por_mes": null
  },
  "nombre": "spotube",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "08f8f65a2a7fcfb94c69882333fe0a9f7e56d0ec",
+  "commit": "533798a893ee6d6f42f1944869f831bc5292599b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:08f8f65a2a7fcfb94c69882333fe0a9f7e56d0ec"
+  "swhid": "swh:1:rev:533798a893ee6d6f42f1944869f831bc5292599b"
  },
  "repo": "team-spotube/spotube",
  "web": "https://spotube.cc/"

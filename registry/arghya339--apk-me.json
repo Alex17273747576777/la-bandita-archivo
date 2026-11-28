@@ -4,22 +4,13 @@
   "release_en": "2024-10-10",
   "semantica_http": 200,
   "ultima_release": "v14.11.0",
-  "ultimo_push": "2026-10-13"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Some Popular Android APK",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/arghya339--apk-me.json",
-  "sha256": "21082ad4be0fb30e9222844aad341c46258d0102d04d0d15610aa656af4e7575"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0dd5a3880ca422bba48554fa1143483f9f0b03b39012e46068da39c8d45424a0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "cd2d9806e70e3d4ef663c7aaaf24de8789d6026a",
+  "commit": "cc10b75619e43cb96cc90c42df96890ec2fe5600",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:cd2d9806e70e3d4ef663c7aaaf24de8789d6026a"
+  "swhid": "swh:1:rev:cc10b75619e43cb96cc90c42df96890ec2fe5600"
  },
  "repo": "arghya339/apk-me",
  "web": "https://revanced.app"

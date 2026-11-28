@@ -1,0 +1,32 @@
+{
+ "_fuente": "github-graphql",
+ "_medido_en": "2026-11-27",
+ "defaultBranchRef": {
+  "target": {
+   "committedDate": "2026-11-25T21:52:32Z",
+   "oid": "c25913762032dc6f20a2eb1dc4b8bb1f521e59eb"
+  }
+ },
+ "diskUsage": 1913,
+ "forkCount": 2,
+ "isArchived": false,
+ "issues": {
+  "totalCount": 4
+ },
+ "licenseInfo": {
+  "name": "Apache License 2.0",
+  "spdxId": "Apache-2.0"
+ },
+ "nameWithOwner": "norsehorse-dev/PassPonyAndroid",
+ "pushedAt": "2026-11-27T05:20:14Z",
+ "releases": {
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-08-10T21:48:38Z",
+    "tagName": "v1.0.0"
+   }
+  ]
+ },
+ "stargazerCount": 19
+}

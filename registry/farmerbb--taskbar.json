@@ -8,18 +8,9 @@
  },
  "descripcion": "PC-style productivity for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/farmerbb--taskbar.json",
-  "sha256": "e7f7309b045f17d33f1d96116eecf77f3eadd1434a22e1b8d543ac4e205775ca"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a0a92ad9a8becd45ece48faee49e00ad57800d4c00b33d2c3ad27c658204a2c9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1297,
+  "stars": 1314,
   "stars_por_mes": null
  },
  "nombre": "Taskbar",

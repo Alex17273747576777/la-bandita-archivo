@@ -4,22 +4,13 @@
   "release_en": "2026-07-26",
   "semantica_http": 200,
   "ultima_release": "v0.0.2",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-14"
  },
  "descripcion": "An application addon to run cloudstream extensions on nuvio, stremio and every other stremio supported platforms",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/nivincnc--cncverse-bridge.json",
-  "sha256": "14291acbe050641a7fcf1ad902038e8d2a12c9dcc61c5b3a29b52a311d9444b6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d1949d10f0f060dbccf9e6e1f0ec251772171713e37402277bb28bc0fed6ba65"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,23 +24,23 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («all rights reserved»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 184,
+  "stars": 221,
   "stars_por_mes": null
  },
  "nombre": "CNCVerse-Bridge",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "56149a77ee710a02792695b5caa36eafd398036a",
+  "commit": "95b71f85f2a4eca963bbd0e35b62c21411fc29d6",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:56149a77ee710a02792695b5caa36eafd398036a"
+  "swhid": "swh:1:rev:95b71f85f2a4eca963bbd0e35b62c21411fc29d6"
  },
  "repo": "NivinCNC/CNCVerse-Bridge"
 }

@@ -4,22 +4,13 @@
   "release_en": "2026-10-15",
   "semantica_http": 200,
   "ultima_release": "v2.1.0-lite",
-  "ultimo_push": "2026-10-17"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A lighter-weight fork of Cinder: Claude Code's own TUI on Android, in a Termux terminal over a proot + Alpine sandbox",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hahnfeld--cinder-lite.json",
-  "sha256": "efb05b06d785f2a0460fa5f01cbdc6aa860f591416a4b59ad2f84762edc755a2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7c3a46dbfeec3b148ae5e123eb698aafd9b4e47a88bf1a63ee5fd5c7d4db619b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b83668d458ddbb294297a6671d4290748b42de24",
+  "commit": "cf16f0609cec5ee662681f75de4ebf7bc9497eb5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b83668d458ddbb294297a6671d4290748b42de24"
+  "swhid": "swh:1:rev:cf16f0609cec5ee662681f75de4ebf7bc9497eb5"
  },
  "repo": "hahnfeld/cinder-lite"
 }

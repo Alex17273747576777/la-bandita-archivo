@@ -8,18 +8,9 @@
  },
  "descripcion": "android emoticonsKeyboard support emoji and user-defined emoticon. easy to integrated into your project ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/w446108264--xhsemoticonskeyboard.json",
-  "sha256": "9edddf4b7351c0f2523e3d0c1b7b10f36b2bf906418e4b0ebf2f17d0d2d3dfa0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b607673ce336c5bdf156680e75f788ad9f88f8a4499b9d186694bd29b596ea24"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2829,
+  "stars": 2827,
   "stars_por_mes": null
  },
  "nombre": "XhsEmoticonsKeyboard",

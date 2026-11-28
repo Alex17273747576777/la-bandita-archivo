@@ -4,22 +4,13 @@
   "release_en": "2022-08-20",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/open-ani--animeko.json",
-  "sha256": "33c42609df4f4697d08d78e77ead418627a4ecf96862786393e437dcac7a4cf1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0024c5c5f589008a83e302746815e6cfccb69b47c4f4c97eb084b439e6e6cb7c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 21458,
+  "stars": 22124,
   "stars_por_mes": null
  },
  "nombre": "animeko",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "bd7a42f3507606eb7ecadf8b1e71a3d8e18fda66",
+  "commit": "da675ddc5f5a0ac43138ad0439c8015590c32561",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:bd7a42f3507606eb7ecadf8b1e71a3d8e18fda66"
+  "swhid": "swh:1:rev:da675ddc5f5a0ac43138ad0439c8015590c32561"
  },
  "repo": "open-ani/animeko",
  "web": "https://animeko.org"

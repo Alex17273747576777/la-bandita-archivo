@@ -4,22 +4,13 @@
   "release_en": "2026-10-19",
   "semantica_http": 200,
   "ultima_release": "v1.1.0-Pre",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dp-holo--dsh-whale-pet-android.json",
-  "sha256": "31cc3b0e2bc55e217384ce19507e6d66f39286ef205bace364b1a2e2a1a8ace0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "57af7ee9e4ced1655c4b60b36262d888a5863681bdfc23285fbb32dc1f9732f9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "0feda5bbc764baa631ac22106199b8f2eaa3fefe",
+  "commit": "a1b1518f5f0eae9b78707857f5bb478397ec29de",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:0feda5bbc764baa631ac22106199b8f2eaa3fefe"
+  "swhid": "swh:1:rev:a1b1518f5f0eae9b78707857f5bb478397ec29de"
  },
  "repo": "Dp-Holo/DSH-whale-pet-android"
 }

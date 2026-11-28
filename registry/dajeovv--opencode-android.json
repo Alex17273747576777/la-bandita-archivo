@@ -4,22 +4,13 @@
   "release_en": "2026-10-21",
   "semantica_http": 200,
   "ultima_release": "v4.0.0-beta.1",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "OpenCode Android — unofficial client for opencode. The real coding agent runs natively on your phone: no Termux, no PC, no root. One arm64 APK for Android 8+, with file editing, shell commands, and wireless ADB app control.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dajeovv--opencode-android.json",
-  "sha256": "7c03875220cd9914e293719483c311fc78cfcfacfa6af5e8964a4b2ecab4a5de"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e92a29c7c14cc11c43dcd176eedba919cd8830050fc1d8c75809de71a36b81e2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 31,
+  "stars": 57,
   "stars_por_mes": null
  },
  "nombre": "opencode-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "052f1540bc7d173b434df79d3c3d611f85f8eb92",
+  "commit": "bd1c0403b56ebcde5e3f3dec45d1b7c660b96e83",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:052f1540bc7d173b434df79d3c3d611f85f8eb92"
+  "swhid": "swh:1:rev:bd1c0403b56ebcde5e3f3dec45d1b7c660b96e83"
  },
  "repo": "Dajeovv/opencode-android",
  "web": "https://github.com/Dajeovv/opencode-android/releases/latest"

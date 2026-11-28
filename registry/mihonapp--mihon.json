@@ -4,22 +4,13 @@
   "release_en": "2024-01-16",
   "semantica_http": 200,
   "ultima_release": "v0.16.0",
-  "ultimo_push": "2026-10-26"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mihonapp--mihon.json",
-  "sha256": "37e6740bc8fd9fb0c82e9281db2ba0d5c105fabd63edd50cbdd5a128da524f08"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9aca4afaa2bcc941dc93341909a71fa57a57a81f4d84a8d9997ccb20ac72aca1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 24998,
+  "stars": 25709,
   "stars_por_mes": null
  },
  "nombre": "mihon",
@@ -49,10 +40,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "e588e04359fe1058206a2cbac1b01018ad787359",
+  "commit": "f8e30a86086020aaee1e89a9d015373b1a4ff026",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e588e04359fe1058206a2cbac1b01018ad787359"
+  "swhid": "swh:1:rev:f8e30a86086020aaee1e89a9d015373b1a4ff026"
  },
  "repo": "mihonapp/mihon"
 }

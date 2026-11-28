@@ -8,18 +8,9 @@
  },
  "descripcion": "Quick Settings tile to switch the default mobile data SIM via Shizuku",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mygod--datasimtile.json",
-  "sha256": "3ff76f52bda485b9ce3eb99a477e10b98edf0620997e0caa45ab6173a25da046"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0282f18fd75b3c00f1466b6e48cd2686f80efc8fafabcf077b047dbf77702a21"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 59,
+  "stars": 65,
   "stars_por_mes": null
  },
  "nombre": "DataSimTile",

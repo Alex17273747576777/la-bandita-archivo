@@ -8,18 +8,9 @@
  },
  "descripcion": "FFUpdater: Updater for privacy friendly browser",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tobi823--ffupdater.json",
-  "sha256": "a7b4ba32425dcac8bc25b8ac3af18174d9e9975eef1de103cede67a9e9fcce96"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4774cfe1e7e9aa8bb5bd48ce3861ef6c84977f19fc2348e3e99664b824ef9b40"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1106,
+  "stars": 1113,
   "stars_por_mes": null
  },
  "nombre": "ffupdater",

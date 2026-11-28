@@ -8,18 +8,9 @@
  },
  "descripcion": "YoukiDEX  is a full Android desktop experience built on top of Smart Dock — no launcher swap needed. Runs as a system overlay with full UI customization, persistent dock, notification panel, icon pack support, and massive stability improvements.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mryouki--youkidex-android-desktop.json",
-  "sha256": "96d010449a80aa6b96d478dee807fdafc017af15c5844c9991acb17cf7a30d77"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a95b98260eaebc6f3acc5d2ac6a7763ce5b967c9da64af0d15f1b73b605cf41c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 606,
+  "stars": 613,
   "stars_por_mes": null
  },
  "nombre": "YoukiDex-Android-Desktop",

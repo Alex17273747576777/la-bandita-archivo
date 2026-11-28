@@ -8,18 +8,9 @@
  },
  "descripcion": "  Enhanced IMS Configuration Tool for Google Pixel Devices",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/turbo1123--turboims.json",
-  "sha256": "9e438fb29bd8fd4f38f5666ac2ca72beb3e54af65a35ac53ae41f6b0a13819ed"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3054f5c88f34fb0db11a8615fd548d9abd0ac0aadf8a4f53ddbec62818f50edc"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": "mit",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 381,
+  "stars": 385,
   "stars_por_mes": null
  },
  "nombre": "TurboIMS",

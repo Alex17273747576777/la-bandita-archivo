@@ -4,22 +4,13 @@
   "release_en": "2025-12-08",
   "semantica_http": 200,
   "ultima_release": "v9.5-beta",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Manga reader for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/appfuton--futon.json",
-  "sha256": "9d5450c021dbeb218e4177c689249da762a1a1f92e7dac21ad5727300145dfbb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f55560f8f872b5c5529f064273ca45cd8d480018b480d10d3cb843de668f1168"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 476,
+  "stars": 498,
   "stars_por_mes": null
  },
  "nombre": "Futon",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "fb96eb99bc2df6400864570bf067fc3ceb5ae084",
+  "commit": "9a588afcc4e7b33edd986962b7749971f9b279a2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:fb96eb99bc2df6400864570bf067fc3ceb5ae084"
+  "swhid": "swh:1:rev:9a588afcc4e7b33edd986962b7749971f9b279a2"
  },
  "repo": "AppFuton/Futon",
  "web": "https://futon.wtf"

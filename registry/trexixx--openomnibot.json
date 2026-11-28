@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-18"
  },
  "descripcion": "你的端侧 AI 助手，她可以操作终端，也可以完成 Android 世界的广泛任务 || Your on-device AI assistant, capable",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/trexixx--openomnibot.json",
-  "sha256": "4a86efc1cee64f441d58efa7ac406047751f7135c0b5b90458c1ee090f886d43"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1c69d074f6d198db0a7b5748b14a37a54cf62b85563e3a4e5728402cf9fe09df"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "c4728736964245509404670ee992d3b658efaecd",
+  "commit": "5addd9be2078acdd92b468bf3270923a94bc3470",
   "swh_estado": null,
-  "swhid": "swh:1:rev:c4728736964245509404670ee992d3b658efaecd"
+  "swhid": "swh:1:rev:5addd9be2078acdd92b468bf3270923a94bc3470"
  },
  "repo": "trexixx/OpenOmniBot"
 }

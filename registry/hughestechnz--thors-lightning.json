@@ -8,18 +8,9 @@
  },
  "descripcion": "Controller-driven dual-screen brightness control for the AYN Thor",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hughestechnz--thors-lightning.json",
-  "sha256": "912e8a5b79d01d5b12c8e1c6f16cca4e693697bee4bef982c4a8a9dec315f222"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "272e3955672eacd4bffecc99f8888210b4fbe6625adb9ebded6c8824c5eddf2d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "Thors-Lightning",

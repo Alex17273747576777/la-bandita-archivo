@@ -4,22 +4,13 @@
   "release_en": "2022-07-04",
   "semantica_http": 200,
   "ultima_release": "v0.4.4",
-  "ultimo_push": "2026-09-12"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "Clutterfree F-Droid client, [mirror] https://codeberg.org/droidify/client",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/droid-ify--client.json",
-  "sha256": "3139e594fc33438a4db1b2380ccdcc1141da483b4ddd3aeaca462ecd4af34480"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "37164a0d084d5b75e2311c3e2b16b710d77811fede816c789410b36491691b85"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7686,
+  "stars": 7820,
   "stars_por_mes": null
  },
  "nombre": "client",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "ff1453ed957f3b2382abce9a7eb9a9db8def3a3a",
+  "commit": "1e1550ba5b88a6be3025c732aada6434c5aff227",
   "swh_estado": "solicitud 200",
   "swh_solicitud": "accepted",
-  "swhid": "swh:1:rev:ff1453ed957f3b2382abce9a7eb9a9db8def3a3a"
+  "swhid": "swh:1:rev:1e1550ba5b88a6be3025c732aada6434c5aff227"
  },
  "repo": "Droid-ify/client",
  "web": "https://droidify.app/"

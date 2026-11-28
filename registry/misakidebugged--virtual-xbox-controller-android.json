@@ -8,18 +8,9 @@
  },
  "descripcion": "An app that lets you turn your HID/Xinput generic controller as well as steam controllers into a system-wide Xbox 360 controller using Shizuku",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/misakidebugged--virtual-xbox-controller-android.json",
-  "sha256": "e4d29163b0447adf71caa929a83c853f03a15bf633df102588332539adf55d4e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b6d3d170f3bddc2f52ecd2eec44cbbf2359974db073232fcf84e9a93bb7e32bd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

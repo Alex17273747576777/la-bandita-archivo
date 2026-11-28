@@ -8,18 +8,9 @@
  },
  "descripcion": "Manga and live screen translation for Samsung Galaxy S25 Ultra, with Google Lens, Samsung Interpreter, Shizuku and Qualcomm NPU support",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kirogii--s25ultra-mangaamtl.json",
-  "sha256": "f70da8c554a211837cc2f7a64e7d60e1519e80148642e8a579b377091cb320be"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "abd56eadf87667d03f8ced5fd4be5e79617913466c51161bab13401e8540eeed"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

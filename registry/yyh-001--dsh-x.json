@@ -4,22 +4,13 @@
   "release_en": "2026-09-03",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "DeepSeek Harness 桌面启动器：启动项与多实例，版本、插件、整合包、MCP 和技能管理。A desktop launcher for DeepSeek Harness: launch entries, multiple instances, versions, plugins, modpacks, MCP and skills.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yyh-001--dsh-x.json",
-  "sha256": "5f32e833945cfac665834fc10d4f1365a79a9a9d120930bf6f8f6504410f685d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0921875a3224f056d8677639772cc5d9cc94a93c49a7c3f1122a294af4bd51ff"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 766,
+  "stars": 790,
   "stars_por_mes": null
  },
  "nombre": "DSH-X",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "720f7c9c36debfece5a5d311dc2eedc646ad8789",
+  "commit": "83c0ee110d38abf43615ea17ab2ddb6f475eee44",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:720f7c9c36debfece5a5d311dc2eedc646ad8789"
+  "swhid": "swh:1:rev:83c0ee110d38abf43615ea17ab2ddb6f475eee44"
  },
  "repo": "yyh-001/DSH-X",
  "web": "https://yyh-001.github.io/DSH-X/"

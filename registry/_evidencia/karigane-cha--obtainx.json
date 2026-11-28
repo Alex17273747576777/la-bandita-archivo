@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-09-22T23:18:13Z",
-   "oid": "acaeca0d137557af4c0777608eab21d9a9ee05e9"
+   "committedDate": "2026-10-04T20:25:55Z",
+   "oid": "aea18592413de992e813bd063cb9ad453259582b"
   }
  },
- "diskUsage": 41440,
+ "diskUsage": 40498,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "GPL-3.0"
  },
  "nameWithOwner": "karigane-cha/ObtainX",
- "pushedAt": "2026-09-24T13:08:42Z",
+ "pushedAt": "2026-11-08T15:01:32Z",
  "releases": {
   "nodes": []
  },

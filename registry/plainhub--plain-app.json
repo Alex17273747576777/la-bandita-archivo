@@ -4,22 +4,13 @@
   "release_en": "2026-02-14",
   "semantica_http": 200,
   "ultima_release": "v2.1.29",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "🔥 PlainApp is an open-source app that lets you securely manage your phone from a web browser. Access files, media, contacts, SMS, calls, and more through a simple, easy-to-use interface on your desktop.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/plainhub--plain-app.json",
-  "sha256": "9adb3c39590b47979666b8fa28117ab18b2626e361ffaca987ebad709b4a0bec"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "35e5dbb7b469b4d898c698106c2ead107d02b472dcf8d1d5448a4293c41dc9c0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7125,
+  "stars": 7284,
   "stars_por_mes": null
  },
  "nombre": "plain-app",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "19fc05aedd0d90f6cb28fd24e771e1264225603e",
+  "commit": "8606bb5ff30ef521e0ad87a2665db1c148663779",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:19fc05aedd0d90f6cb28fd24e771e1264225603e"
+  "swhid": "swh:1:rev:8606bb5ff30ef521e0ad87a2665db1c148663779"
  },
  "repo": "plainhub/plain-app",
  "web": "https://plainapp.app"

@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-08-02T17:37:19Z",
-   "oid": "e422200369f92444f1eb2338f4d09decf96f18e4"
+   "committedDate": "2026-11-12T20:49:31Z",
+   "oid": "343c74f1a9e6918e1b7382bd11bb193357656741"
   }
  },
- "diskUsage": 79423,
+ "diskUsage": 87072,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "GPL-3.0"
  },
  "nameWithOwner": "bonelag/playtranslate",
- "pushedAt": "2026-08-03T11:36:15Z",
+ "pushedAt": "2026-11-19T18:45:05Z",
  "releases": {
   "nodes": [
    {

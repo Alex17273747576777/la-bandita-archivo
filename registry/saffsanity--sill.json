@@ -4,22 +4,13 @@
   "release_en": "2026-09-26",
   "semantica_http": 200,
   "ultima_release": "v0.3.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Any window from your Mac, live on your iPhone or iPad. Touch, Apple Pencil, trackpad and keys. Free, open source, no servers.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/saffsanity--sill.json",
-  "sha256": "c2fa7cf90fc6442e8cca5caa5c09c7bfda76fc50d3da6e181be58990e47200ce"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a77b62f948152408ae8209f73248412b442f937d8fe0aa89f76875699a0b0eeb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4436,
+  "stars": 5160,
   "stars_por_mes": null
  },
  "nombre": "sill",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "41e8cb8801f8e9d387e27a0d498dee193d17e9ec",
+  "commit": "22ab5a3e36ca59cf08dcdc1587010a735ac87a28",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:41e8cb8801f8e9d387e27a0d498dee193d17e9ec"
+  "swhid": "swh:1:rev:22ab5a3e36ca59cf08dcdc1587010a735ac87a28"
  },
  "repo": "Saffsanity/sill",
  "web": "https://getsill.app"

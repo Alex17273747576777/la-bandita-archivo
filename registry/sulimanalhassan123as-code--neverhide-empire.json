@@ -4,22 +4,13 @@
   "release_en": "2026-07-24",
   "semantica_http": 200,
   "ultima_release": "v1.3.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Neverhide Empire — 4-in-1 Android power suite (Screenshot, 3D Launcher, Live Wallpaper, APK Updater) + Adrenaline Lock Guardian",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sulimanalhassan123as-code--neverhide-empire.json",
-  "sha256": "430eceeac8a7a8ef3deca5508d33d1d65290831e88942f8eb284114f033b59cd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a6ec780d0c9fcba9cb3cb22778a263b7d8704e97195eba2d8bd86e6b5d777d2f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "8672f90faab9b531a61bfd2709739a50c6b4130c",
+  "commit": "0a73de4eecb106a77e0c779f610e18830f66d75e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:8672f90faab9b531a61bfd2709739a50c6b4130c"
+  "swhid": "swh:1:rev:0a73de4eecb106a77e0c779f610e18830f66d75e"
  },
  "repo": "sulimanalhassan123as-code/neverhide-empire"
 }

@@ -8,18 +8,9 @@
  },
  "descripcion": "A mobile app for watching Anime, Movies and TV series based on Dantotsu, which is based on Saikou.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mrboomdeveloper--awery.json",
-  "sha256": "413941b046497ed389e1ce953a05bdb0614982c50b125e7474b26d6ef1e0009e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c604eb5cfe734d72a0083f4abee01135f43d9b2d860fc458f760a1f114a7de52"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE.md",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 468,
+  "stars": 471,
   "stars_por_mes": null
  },
  "nombre": "Awery",

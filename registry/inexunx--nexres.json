@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-17",
+  "release_en": "2026-11-26",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-17"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Minimal display resolution & density changer for Android (Shizuku + root fallback)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/inexunx--nexres.json",
-  "sha256": "4f4601f501e099f31eab52f1dc29a1108bc07e93d8c2c8b9f3a3475354a263af"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fb159c13a1cb5cd23153119511128af22bf75493dc412231a9b6f39f3e881194"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 0,
   "stars_por_mes": null
  },
  "nombre": "NexRes",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "4de6d0df1d846daa9097cff31c75888084b78258",
+  "commit": "d11a3112a34e67e00a9e01ab46cd00e78be9c228",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4de6d0df1d846daa9097cff31c75888084b78258"
+  "swhid": "swh:1:rev:d11a3112a34e67e00a9e01ab46cd00e78be9c228"
  },
  "repo": "iNexunx/NexRes"
 }

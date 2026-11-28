@@ -8,18 +8,9 @@
  },
  "descripcion": "Native open-source ADB client for iOS: wireless debugging pairing, app manager, APK install, file transfer and shell",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lionlggnd--adbclient-ios.json",
-  "sha256": "fc6208ce176d2a71d04727534511526251b2d5e82c173e779c6737b5f7fb2f21"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e86b8df2395bf16f466fa75708b06b74614c45c7668671d869d1edf06b8430a8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "ADBClient-iOS",

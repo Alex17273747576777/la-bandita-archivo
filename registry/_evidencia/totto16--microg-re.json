@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
    "committedDate": "2026-04-28T16:30:35Z",
    "oid": "d8df10ab687a1c1ca05221634cfa46bad262023a"
   }
  },
- "diskUsage": 58906,
+ "diskUsage": 59076,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Apache-2.0"
  },
  "nameWithOwner": "Totto16/MicroG-RE",
- "pushedAt": "2026-10-31T18:50:52Z",
+ "pushedAt": "2026-11-25T18:11:04Z",
  "releases": {
   "nodes": []
  },

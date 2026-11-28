@@ -8,18 +8,9 @@
  },
  "descripcion": "Android split APKs installer",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aefyr--sai.json",
-  "sha256": "a41f1bc8dda30c80b14fd0e1ef6366ff896c2067e6f4f98280c605761774ace6"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8785f6eaae16c63e8c13ae7b9c45f801cdb298f715ac28b0ad32eb5e76e2de03"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3960,
+  "stars": 4007,
   "stars_por_mes": null
  },
  "nombre": "SAI",

@@ -4,22 +4,13 @@
   "release_en": "2026-09-01",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Android gaming overlay, performance monitor and per-game profile manager. Every number it shows is one the platform actually reported — where Android will not answer, it says so instead of guessing.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dreamucxe--gamecore.json",
-  "sha256": "8594e753e6b80800a61d3159ee17fa04afa94adfbb8757991980d49a75c2fcde"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "043caff84a598d3861142a32fbfbcaebebad8b80de001edb29873fa358e1dcd6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 27,
+  "stars": 31,
   "stars_por_mes": null
  },
  "nombre": "GameCore",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2a0dde06c7c6a76cbbf2a10858dd5d2440ed8060",
+  "commit": "3ff62a9a679b64e4e843089f5d72c47eb31b58a4",
   "swh_estado": "solicitud 200",
   "swh_solicitud": "accepted",
-  "swhid": "swh:1:rev:2a0dde06c7c6a76cbbf2a10858dd5d2440ed8060"
+  "swhid": "swh:1:rev:3ff62a9a679b64e4e843089f5d72c47eb31b58a4"
  },
  "repo": "Dreamucxe/GameCore"
 }

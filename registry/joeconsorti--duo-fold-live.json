@@ -4,22 +4,13 @@
   "release_en": "2026-09-21",
   "semantica_http": 200,
   "ultima_release": "v1.5.1",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-11"
  },
  "descripcion": "The first, live, hinge-driven opening animation for the Galaxy Z Fold8. Features smooth windowed glass, modular settings, and 120hz live preview (even iPhone doesn't have this) → 90% complete. Need to discover method of preventing display shut-off during changeover.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/joeconsorti--duo-fold-live.json",
-  "sha256": "c3cd7e9cc9dbfcd3a0a22d0fa9b10e9056daeb52a3f8a4ae54e707a128121d4a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "893011a0f3acb747ac6bf3c3ac843caec4006d0d79534a46f20d2aecbbf1e30d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 163,
+  "stars": 182,
   "stars_por_mes": null
  },
  "nombre": "duo-fold-live",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d9f836b4069a38feaf63b17a2a5ac31ea2880613",
+  "commit": "bcbc560ab8edd6b02c82535ec1865589378719f7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:d9f836b4069a38feaf63b17a2a5ac31ea2880613"
+  "swhid": "swh:1:rev:bcbc560ab8edd6b02c82535ec1865589378719f7"
  },
  "repo": "joeconsorti/duo-fold-live"
 }

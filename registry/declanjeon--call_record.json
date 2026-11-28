@@ -8,18 +8,9 @@
  },
  "descripcion": "Call_Record — 무료 오픈소스 안드로이드 자동 통화 녹음 앱 (양방향 녹음 · 고지음 · 통화 내용 전사 · Google Drive 백업). ShizuCallRecorder 기반.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/declanjeon--call_record.json",
-  "sha256": "7173dd8da0fa0470b2305359776b1d92a9b2c4d212bfcae2cd6131c7e3506f93"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "92f6e316826b7b866f4527f95b68daf3952a863e2cd6d655e9a72ed8729e81b4"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

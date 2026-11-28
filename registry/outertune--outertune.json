@@ -8,18 +8,9 @@
  },
  "descripcion": "A Material 3 Music Player for Android with local file & YouTube Music support. Forked from InnerTune",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/outertune--outertune.json",
-  "sha256": "f5cbc1b83e3d90c70f7159b9316e9c99a30368f0512c76fa44d91aca95c5c7b8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5395c9ac8adad1350b7eb2c369d9b0634cdf6ffaf58e16f0bb5f992572b712d6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5441,
+  "stars": 5469,
   "stars_por_mes": null
  },
  "nombre": "OuterTune",

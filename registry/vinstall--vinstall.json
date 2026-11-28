@@ -4,22 +4,13 @@
   "release_en": "2026-04-03",
   "semantica_http": 200,
   "ultima_release": "v0.4.0",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-03"
  },
  "descripcion": "Android package installer supporting APK, XAPK, APKS, APKM, and the custom APKV encrypted format — with built-in app manager, backup, and silent install via root or Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/vinstall--vinstall.json",
-  "sha256": "444e05d41f97c898737f62d5dcf09e300374447becc5ba41a8c7d1329a589603"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1577e787727029a2c6985db847ffd78306c5414c33c77dd3725d8f0c24fcfdd9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 106,
+  "stars": 119,
   "stars_por_mes": null
  },
  "nombre": "VInstall",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "51bb92c701d4d0aa8eb569909eedca640cf53047",
+  "commit": "66d930ab8ddb2022f6532d851a7d991e7ce21823",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:51bb92c701d4d0aa8eb569909eedca640cf53047"
+  "swhid": "swh:1:rev:66d930ab8ddb2022f6532d851a7d991e7ce21823"
  },
  "repo": "vinstall/VInstall"
 }

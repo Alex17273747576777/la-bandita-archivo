@@ -4,22 +4,13 @@
   "release_en": "2026-08-23",
   "semantica_http": 200,
   "ultima_release": "v0.1.0-beta0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "The Android file explorer I always wanted.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/d4rken-org--butler.json",
-  "sha256": "8dd36e3056a5bddadbffd4cc829ae938f1c97c548015ac64b36edf2ae89123d3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6bf5a1a53f52618da21180642d58669aedc36efadff4e80497f6293c9f916b73"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 130,
+  "stars": 157,
   "stars_por_mes": null
  },
  "nombre": "butler",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "38c044f6e0ff214c9e057c2c7272277f8a64f4c9",
+  "commit": "475b817149014ade1c2f0d1cf097ffcbd7adf08d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:38c044f6e0ff214c9e057c2c7272277f8a64f4c9"
+  "swhid": "swh:1:rev:475b817149014ade1c2f0d1cf097ffcbd7adf08d"
  },
  "repo": "d4rken-org/butler",
  "web": "https://play.google.com/store/apps/details?id=eu.darken.butler"

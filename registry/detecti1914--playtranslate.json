@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-23"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "Real-time game translation app for Android for both language learners and casual",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/detecti1914--playtranslate.json",
-  "sha256": "52314261d71fd909263d83ced51c805484cd2f737c8e163723e6922330e5b135"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3288abaa198b9f6359b43f334a2141b381cace9840ce60c5b97545fc25be5e0b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "f340d8d993ee6067e2e9d8700aae986fad833133",
+  "commit": "638af49a0bc1faee5d0f2391a8c7a5e9619e7627",
   "swh_estado": null,
-  "swhid": "swh:1:rev:f340d8d993ee6067e2e9d8700aae986fad833133"
+  "swhid": "swh:1:rev:638af49a0bc1faee5d0f2391a8c7a5e9619e7627"
  },
  "repo": "detecti1914/playtranslate"
 }

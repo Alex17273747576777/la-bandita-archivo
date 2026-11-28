@@ -4,22 +4,13 @@
   "release_en": "2020-12-27",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/simplex-chat--simplex-chat.json",
-  "sha256": "198aec7bd3e190da699bd380f1bd9aa6679d248f40fbc34795da60923772ff28"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a9576211e399b92ceb81a8f26d5bf797718543d973d7866abdd63e978e23f262"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 19640,
+  "stars": 19786,
   "stars_por_mes": null
  },
  "nombre": "simplex-chat",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "79d91e716dbb8aae80327f580aac9a6b42426466",
+  "commit": "8bf38c6c6407e8a83b0ece58c0fea947afefd6ac",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:79d91e716dbb8aae80327f580aac9a6b42426466"
+  "swhid": "swh:1:rev:8bf38c6c6407e8a83b0ece58c0fea947afefd6ac"
  },
  "repo": "simplex-chat/simplex-chat",
  "web": "https://simplex.chat"

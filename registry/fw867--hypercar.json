@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-11-02",
+  "release_en": "2026-11-20",
   "semantica_http": 200,
-  "ultima_release": "v0.1.0.493",
-  "ultimo_push": "2026-11-03"
+  "ultima_release": "v0.1.0.599",
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Android 自绘车机 UI，通过无线 CarPlay / AirPlay 投送高德地图与音乐卡片（Kotlin + Rust）",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/fw867--hypercar.json",
-  "sha256": "825ea136017fcc97e9b02b64875b724a4f2a5c9b566e5e8471d6109c5b42ab6d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b289335e42c49cf37d74f1343deb9a53a76d912ab37c11321749f298059760d2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 11,
+  "stars": 145,
   "stars_por_mes": null
  },
  "nombre": "hypercar",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "435eed3d43ca0046aa7d89828a2e14d7f95af7c6",
+  "commit": "d9783cacd7803eb3ec867ad59512abc567921cd1",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:435eed3d43ca0046aa7d89828a2e14d7f95af7c6"
+  "swhid": "swh:1:rev:d9783cacd7803eb3ec867ad59512abc567921cd1"
  },
  "repo": "fw867/hypercar"
 }

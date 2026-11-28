@@ -8,18 +8,9 @@
  },
  "descripcion": "基于 Cloudflare Workers 的 Telegram Web/MTProto WebSocket 代理中继，支持 bridge 鉴权、bootstrap/session 令牌、多 lane WS 复用、AES-CTR 加密、自定义帧、流控与严格 CSP。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/toicf--cf-workers-tgproxy.json",
-  "sha256": "6a92e976792cb56afdc014ad8435d28e359a150a2ffacaa2f7d03feba540c57e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ebfe29cf0bc21cacafae53251c6f2d2717ed8fcee9d08a17316f7a120f88e849"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1156,
+  "stars": 1396,
   "stars_por_mes": null
  },
  "nombre": "CF-Workers-TGProxy",

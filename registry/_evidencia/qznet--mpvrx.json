@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
    "committedDate": "2026-10-01T13:13:28Z",
    "oid": "b1ef15e103f79ae67f32f43e6263e3fe60db8ecb"
   }
  },
- "diskUsage": 77135,
+ "diskUsage": 86140,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,9 +18,15 @@
   "spdxId": "AGPL-3.0"
  },
  "nameWithOwner": "qznet/mpvRx",
- "pushedAt": "2026-10-26T11:27:04Z",
+ "pushedAt": "2026-11-26T06:52:09Z",
  "releases": {
-  "nodes": []
+  "nodes": [
+   {
+    "isPrerelease": false,
+    "publishedAt": "2026-11-07T11:27:39Z",
+    "tagName": "v3.0.2-embed-tv.1"
+   }
+  ]
  },
  "stargazerCount": 0
 }

@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-09-03"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "GmsCore fork for Morphe patched apps",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/r-i-s-u--microg.json",
-  "sha256": "918adb8f59d450c67bb5ebeb55ad268bd5e6fdea973c81cebae413c7a4b2b200"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b9e79817a75f9afc64d18799396c29599492421ddea6bba1dac9c041d336f435"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7bbfee641e5f9f12c0ba4e4a701e22c8c12bac45",
+  "commit": "50d84cb32a89dd2ecee2010d9e55aa43fb6ea3e2",
   "swh_estado": null,
-  "swhid": "swh:1:rev:7bbfee641e5f9f12c0ba4e4a701e22c8c12bac45"
+  "swhid": "swh:1:rev:50d84cb32a89dd2ecee2010d9e55aa43fb6ea3e2"
  },
  "repo": "r-i-s-u/microG"
 }

@@ -4,22 +4,13 @@
   "release_en": "2024-11-11",
   "semantica_http": 200,
   "ultima_release": "v1.0.0-rc.1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Transparent implementation of Zygisk.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/performanc--rezygisk.json",
-  "sha256": "486970ecde2674bee4388de993e2bc5102b4c5c6aded03e174ae303bd6126b9c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "282d4522c85073947bb21da9b25bd2ca40032ad92da1280fdd6d62982e3a69dd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4112,
+  "stars": 4185,
   "stars_por_mes": null
  },
  "nombre": "ReZygisk",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "2c1d0df3b0d6e40d064927523c4dd1116cb8e832",
+  "commit": "bfa54ef5bb55a3dfd43c6309db950ef1327a6553",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:2c1d0df3b0d6e40d064927523c4dd1116cb8e832"
+  "swhid": "swh:1:rev:bfa54ef5bb55a3dfd43c6309db950ef1327a6553"
  },
  "repo": "PerformanC/ReZygisk"
 }

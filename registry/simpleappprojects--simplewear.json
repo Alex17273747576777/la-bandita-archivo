@@ -8,18 +8,9 @@
  },
  "descripcion": "Control your Android phone from your WearOS watch",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/simpleappprojects--simplewear.json",
-  "sha256": "d49855542b22311afadac280f11ced79f0cb1d6778af7ed9cf55629fd5372c63"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "366c3dc896ee1315c9d7c31a574dcd0d1dc909c5c1850b059ff89148b47c2909"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 197,
+  "stars": 200,
   "stars_por_mes": null
  },
  "nombre": "SimpleWear",

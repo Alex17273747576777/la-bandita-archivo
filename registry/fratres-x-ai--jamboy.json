@@ -8,18 +8,9 @@
  },
  "descripcion": "GPS-denied drone navigation layer: optical flow + offline map geo-match + EKF → MAVLink (sim-validated).",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/fratres-x-ai--jamboy.json",
-  "sha256": "b36774883b3cd89adb71274809cec4d9095cfa52307341c69242f3dba3f88fe5"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6ac16fae63acdc81ef149ae5795025f5d8d93b0fca31937e7ec8b8aa75da95d8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 136,
+  "stars": 139,
   "stars_por_mes": null
  },
  "nombre": "JamBoy",

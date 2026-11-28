@@ -1,6 +1,6 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "dormido",
   "release_en": "2024-12-12",
   "semantica_http": 200,
   "ultima_release": "v2024.12.09",
@@ -8,18 +8,9 @@
  },
  "descripcion": "Script and patches for building Treble-Droid based LineageOS GSI ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/misterztr--lineageos_gsi.json",
-  "sha256": "a0f1de7a5281f57eeb85a30b37f22f2296020c2a1d9d243618ba53c2debf56d2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e440edcadb4366f62d93192965a7a1180ff1de97394a919eebdd7d803ab84d9d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 570,
+  "stars": 586,
   "stars_por_mes": null
  },
  "nombre": "LineageOS_gsi",

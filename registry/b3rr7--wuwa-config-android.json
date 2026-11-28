@@ -4,22 +4,13 @@
   "release_en": "2026-06-16",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-10-25"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Android WuWa Config app  for Wuthering Waves. Analyze Client.log and generate optimized Engine.ini, DeviceProfiles.ini, GameUserSettings.ini, Scalability.ini and Hardware.ini presets.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/b3rr7--wuwa-config-android.json",
-  "sha256": "dbfb773759bb12e7569c4bbc1f91b4c77782af8fda9861e92c13d71f29b97128"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f033914ad1968b2b60cb7f411048fb2ab120c4b8295bea5ad5c22b53cde65c7b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6,
+  "stars": 8,
   "stars_por_mes": null
  },
  "nombre": "WuWa-Config-Android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "c804b36194ea67fe8f4509ce5ce995c494e5da5a",
+  "commit": "afb335905c8a105a5380595871bd34f47edd04b4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:c804b36194ea67fe8f4509ce5ce995c494e5da5a"
+  "swhid": "swh:1:rev:afb335905c8a105a5380595871bd34f47edd04b4"
  },
  "repo": "B3rr7/WuWa-Config-Android",
  "web": "https://b3rr7.github.io/WuWa-Config-Android/"

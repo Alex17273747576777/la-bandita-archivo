@@ -8,18 +8,9 @@
  },
  "descripcion": "Unofficial per-app firewall for GrapheneOS that toggles the built-in Network permission via Shizuku. No VPN, no network access of its own.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/haintrainn--grapheneos-firewall-app.json",
-  "sha256": "4c52c17d4946b534760e43a7382583dfec3895174aeb3a0f7b2899bff70a0a01"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "73d19a46a7e25e00f5978374faf2301b5e96f74d0e2690d5e5f8262421da26a2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

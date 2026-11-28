@@ -4,22 +4,13 @@
   "release_en": "2026-10-08",
   "semantica_http": 200,
   "ultima_release": "APK",
-  "ultimo_push": "2026-10-08"
+  "ultimo_push": "2026-11-08"
  },
  "descripcion": "angel-android: Run AI agents on Android with Android shell access (Shizuku), a PRoot Linux terminal, and MCP tool support.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/currenlydying--angel-android.json",
-  "sha256": "bd9ab627e2f5c3d3fdff759d713348376970695e34520f5f04850436d3cde5a4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "063e79413f269473c671b71db3190c5f93b070cbffa947fbcf01eac3b56cdcf8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Unlicense",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "angel-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "8024a87dcfe91fdb3c11e3f1704258d51b31c965",
+  "commit": "de802225c6bfebf3ee9430222bf3871f5685a333",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:8024a87dcfe91fdb3c11e3f1704258d51b31c965"
+  "swhid": "swh:1:rev:de802225c6bfebf3ee9430222bf3871f5685a333"
  },
  "repo": "CurrenlyDying/angel-android"
 }

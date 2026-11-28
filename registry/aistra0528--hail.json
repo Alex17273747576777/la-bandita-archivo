@@ -4,22 +4,13 @@
   "release_en": "2021-08-12",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Disable / Hide / Suspend / Uninstall Android apps without root.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aistra0528--hail.json",
-  "sha256": "8984183ab6315e9313e5b4b30a3f979c11e0af4d6a74cb4c6aff3b421ef6ab90"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d0c7335a3d8dd3f35a92d16a64f1e58612c7d4b3099036b1f04a266e18d2e0c9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7093,
+  "stars": 7509,
   "stars_por_mes": null
  },
  "nombre": "Hail",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "67a43c8ea7d43eddf51d840f3615b97ce6079c9b",
+  "commit": "8a3b653cb37009c7348c593392b06e8fd4a322b5",
   "swh_estado": "archivada",
   "swh_solicitud": "67a43c8ea7d43eddf51d840f3615b97ce6079c9b",
-  "swhid": "swh:1:rev:67a43c8ea7d43eddf51d840f3615b97ce6079c9b"
+  "swhid": "swh:1:rev:8a3b653cb37009c7348c593392b06e8fd4a322b5"
  },
  "repo": "aistra0528/Hail"
 }

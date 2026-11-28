@@ -4,22 +4,13 @@
   "release_en": "2025-11-26",
   "semantica_http": 200,
   "ultima_release": "v2.0.3",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "The most full featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/shiaho777--web-to-app.json",
-  "sha256": "2d0eadc325ae2061621d0d9f27474699416383d6d54e74e3a060516ad2c62815"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e834533258b771faf518a13fee4a21f714e5f34c19f15fa37238268455290bcf"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Unlicense",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7172,
+  "stars": 7371,
   "stars_por_mes": null
  },
  "nombre": "web-to-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ae8e002681cbcb4fa870caa0337a85edb493ffa0",
+  "commit": "4996527aa57dbfb0a576a4362c0edefac77c8040",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ae8e002681cbcb4fa870caa0337a85edb493ffa0"
+  "swhid": "swh:1:rev:4996527aa57dbfb0a576a4362c0edefac77c8040"
  },
  "repo": "shiaho777/web-to-app",
  "web": "https://shiaho777.github.io/web-to-app/"

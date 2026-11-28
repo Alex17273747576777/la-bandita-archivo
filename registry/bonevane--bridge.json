@@ -4,22 +4,13 @@
   "release_en": "2026-09-17",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-21"
+  "ultimo_push": "2026-11-11"
  },
  "descripcion": "See and control your Android phone from your Mac (or Windows), over any network, even when it's locked.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/bonevane--bridge.json",
-  "sha256": "7de2c696a992f403c6c9bbb504e7dbbf01571f35649caeaabaa8405e74a7d2e1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c7eb178fd7547a54a012dc0078e816166ac813dee065f538d3260064b5f58525"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 22,
+  "stars": 24,
   "stars_por_mes": null
  },
  "nombre": "Bridge",

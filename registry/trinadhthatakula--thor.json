@@ -4,22 +4,13 @@
   "release_en": "2025-01-26",
   "semantica_http": 200,
   "ultima_release": "Thor",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Thor - Android App Manager and App Installer utility",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/trinadhthatakula--thor.json",
-  "sha256": "09959d74c6e53144e09db4f309589490f54ba8a177b2471d93373544b149b0b7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fcbb7039ca195cf0bd94cb17f5b181c905a47cfdc3979edfea8c47f681af1c54"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 637,
+  "stars": 675,
   "stars_por_mes": null
  },
  "nombre": "Thor",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b82977826f0ad744021b1d98652a8f4e98e045f5",
+  "commit": "bd2949f4b4c00001cc2e1c1e6bc4549d2e4efabd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b82977826f0ad744021b1d98652a8f4e98e045f5"
+  "swhid": "swh:1:rev:bd2949f4b4c00001cc2e1c1e6bc4549d2e4efabd"
  },
  "repo": "trinadhthatakula/Thor",
  "web": "https://thor.trinadhthatakula.com"

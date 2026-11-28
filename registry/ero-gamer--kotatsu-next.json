@@ -4,22 +4,13 @@
   "release_en": "2026-04-27",
   "semantica_http": 200,
   "ultima_release": "9.7.2.1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Full featured lightweight FOSS Manga/Manhua/Manhwa reader app for Android.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ero-gamer--kotatsu-next.json",
-  "sha256": "aa3cd63f1d6b2ae4a5f29ad2013cb0a23b421a4e4b74f7b73dd41bdd41426469"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "748fb0e6fd137000c3d3818e2cb1cb497da27e04ac1eda30e0d79c2b57bbeb9f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 33,
+  "stars": 39,
   "stars_por_mes": null
  },
  "nombre": "Kotatsu-Next",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2caa6d7cdce1462c1322841ede21626e1330387a",
+  "commit": "7f594e5101f122bd86fdbb204a341b5985f6b937",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:2caa6d7cdce1462c1322841ede21626e1330387a"
+  "swhid": "swh:1:rev:7f594e5101f122bd86fdbb204a341b5985f6b937"
  },
  "repo": "Ero-gamer/Kotatsu-Next"
 }

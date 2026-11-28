@@ -4,22 +4,13 @@
   "release_en": "2026-04-26",
   "semantica_http": 200,
   "ultima_release": "v3.3",
-  "ultimo_push": "2026-09-30"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "All in one media/image downloader app for android based on yt-dlp, gallery-dl python library and newpipe extractor along with cobalt api instance, following material 3 expressive  ui ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hotaro26--gabi.json",
-  "sha256": "56227bf92ddcfea1a8e2910a9c150b511b429b4671276d4828f80bc97429fd35"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9dff8ac7c5d11ad04c68d4971af87d2cc13656d5493f4802e961ec9624aab19b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 105,
+  "stars": 117,
   "stars_por_mes": null
  },
  "nombre": "gabi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9a797c030a2d88f0f8dea103b809d27430901f5d",
+  "commit": "3611b62f66d26086fc1d1ba0b634efa8643494ce",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9a797c030a2d88f0f8dea103b809d27430901f5d"
+  "swhid": "swh:1:rev:3611b62f66d26086fc1d1ba0b634efa8643494ce"
  },
  "repo": "Hotaro26/gabi",
  "web": "https://hotaro26.github.io/gabi/"

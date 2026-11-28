@@ -4,22 +4,13 @@
   "release_en": "2026-01-14",
   "semantica_http": 200,
   "ultima_release": "v2.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "NekokoLPA2",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/iebb--nekokolpa2.json",
-  "sha256": "20de9c3f02e505ab18063a1248c2cabcc3df8447e1c52bd9086e58dd63eb46f0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3f9563d6289cda8c929aa61c479aed6c9b71ee00950ec35aa1dd3ab3aa0dfa1a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 468,
+  "stars": 516,
   "stars_por_mes": null
  },
  "nombre": "NekokoLPA2",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1db8522c355fa1f92feaeada1a61bb23e1bfa1d4",
+  "commit": "abb0ef70f443778b0de2bf4a397e4303aa4457cf",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1db8522c355fa1f92feaeada1a61bb23e1bfa1d4"
+  "swhid": "swh:1:rev:abb0ef70f443778b0de2bf4a397e4303aa4457cf"
  },
  "repo": "iebb/NekokoLPA2"
 }

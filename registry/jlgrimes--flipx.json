@@ -1,6 +1,6 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "dormido",
   "release_en": "2026-05-26",
   "semantica_http": 200,
   "ultima_release": "v0.1",
@@ -8,18 +8,9 @@
  },
  "descripcion": "A tool for flippy android devices like Anbernic Rotate",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jlgrimes--flipx.json",
-  "sha256": "51dec2c29f0727610307b662c28eb1225d63b55ed7284d6a8a6c607bdc48f5e0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6b0606d84691afe382e076debb943f6c717b384c9d1945fb9df19761ff513ccb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 19,
+  "stars": 20,
   "stars_por_mes": null
  },
  "nombre": "flipx",

@@ -4,22 +4,13 @@
   "release_en": "2026-09-03",
   "semantica_http": 200,
   "ultima_release": "agent-v0.3.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Agent GoSosmed BYOD mobile agent: APK Android (AccessibilityService) connect outbound ke GoSosmed agenthub untuk kontrol HP real tanpa adb/PC",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dedy45--gososmed-mobile-agent.json",
-  "sha256": "a225edde9217eace120ce1ec5d9b6375b92f4f0f6cce3c7d8c557473ccc43662"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7d34e0bfc25b7a91ede95ff7ed9970d552ceec0961292b25a6014302c477af5c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "85e1ffc14b97a677fe48b64fe5303f5ce5f882e3",
+  "commit": "047cfa89f51595171843b392000a953c2ff5d033",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:85e1ffc14b97a677fe48b64fe5303f5ce5f882e3"
+  "swhid": "swh:1:rev:047cfa89f51595171843b392000a953c2ff5d033"
  },
  "repo": "dedy45/gososmed-mobile-agent",
  "web": "https://bamsbung.id"

@@ -8,18 +8,9 @@
  },
  "descripcion": "Bring back Wi-Fi and mobile data tiles on Android 12 or higher + a better unified internet tile",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/casperverswijvelt--better-internet-tiles.json",
-  "sha256": "f553cc22b8033ccb46d52819c57228c4560045047ab017c1c857826ba0fdee41"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "45e43c2a952a417988f96362437419a9622c63132f1404a42ee63824b415a9a0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 264,
+  "stars": 265,
   "stars_por_mes": null
  },
  "nombre": "Better-Internet-Tiles",

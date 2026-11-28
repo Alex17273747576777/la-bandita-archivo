@@ -8,18 +8,9 @@
  },
  "descripcion": "AdSkip — an Android assistant for automatically skipping app launch ads",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zfdang--android-touch-helper.json",
-  "sha256": "86e4c7832329eb664d16d74c90ee2130a18c854029495573c0f1df9f396def2a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b45342ad7d65596a7cf453eb2f8cf1e28e56a7a320df563dd9d51d1a49881a85"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5338,
+  "stars": 5343,
   "stars_por_mes": null
  },
  "nombre": "Android-Touch-Helper",

@@ -4,22 +4,13 @@
   "release_en": "2022-06-18",
   "semantica_http": 200,
   "ultima_release": "position_glitch",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "Browse your memories without any interruptions with this photo and video gallery",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/fossifyorg--gallery.json",
-  "sha256": "bff272b7d1d47e2d16f72531f96dee89b895d5399888cd5817a86d90e44ee021"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e22fc35dc80e0461878ef1d42c24bea08dfa16e4f3c9674d507c5b9464b53e4f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3880,
+  "stars": 3958,
   "stars_por_mes": null
  },
  "nombre": "Gallery",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "054228be2da275396eb03d2b9002807b5055afac",
+  "commit": "bde42f4a055205382bff299a5f06a399bc7da99d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:054228be2da275396eb03d2b9002807b5055afac"
+  "swhid": "swh:1:rev:bde42f4a055205382bff299a5f06a399bc7da99d"
  },
  "repo": "FossifyOrg/Gallery",
  "web": "https://www.fossify.org"

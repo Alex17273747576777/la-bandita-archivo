@@ -4,22 +4,13 @@
   "release_en": "2026-10-02",
   "semantica_http": 200,
   "ultima_release": "v8.0.16+337",
-  "ultimo_push": "2026-10-02"
+  "ultimo_push": "2026-11-05"
  },
  "descripcion": "A cross-platform manga app made for e-hentai & exhentai by Flutter",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sounfury--jhentai.json",
-  "sha256": "a4767d251357d68dc5b4d5037e5f9839b027333fb3eaffc652aed4411b38add9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6f16d649eb4533297b9f4e31961257b62c2774cb1f3c41cd7e96b6ebdc233319"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3dddc70a8db1074f567761bbc9fc286faba3572e",
+  "commit": "06131782ef59b0e092bab73a4fa4504ccc707e7b",
   "swh_estado": null,
-  "swhid": "swh:1:rev:3dddc70a8db1074f567761bbc9fc286faba3572e"
+  "swhid": "swh:1:rev:06131782ef59b0e092bab73a4fa4504ccc707e7b"
  },
  "repo": "sounfury/JHenTai"
 }

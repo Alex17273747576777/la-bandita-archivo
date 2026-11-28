@@ -8,18 +8,9 @@
  },
  "descripcion": "SANBAKA - BẠN GÁI AI DÀNH CHO SINH VIÊN BÁCH KHOA",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zennomi--sanbaka.json",
-  "sha256": "02f8b2bc24172468222698017fb006f0b7f4a33ce9b0b19310b3e142f4820a82"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "637dbfc5ff4e739d79cd1c1c4b03d28f6d801faba4dcde6bb1c2a3fae96f5ce1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

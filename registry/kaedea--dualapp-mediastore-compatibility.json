@@ -8,18 +8,9 @@
  },
  "descripcion": "安卓双开/分身 MediaStore 兼容性测试。Tuning of Android MediaStore & File IO compatibility issues between HostProfile App and WorkProfile/DualApp/MultiApp.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kaedea--dualapp-mediastore-compatibility.json",
-  "sha256": "b61747a842268e08398edc961cc5ab60e59363574e7d9db1ad652044f2738999"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fa252ccb1782eba8018a0e733c8e92d619d3e0ea621a7da9c4a353b7cf044b28"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 58,
+  "stars": 57,
   "stars_por_mes": null
  },
  "nombre": "dualapp-mediastore-compatibility",

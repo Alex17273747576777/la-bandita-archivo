@@ -4,22 +4,13 @@
   "release_en": "2026-05-21",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Your Open Autonomous Android Agent — A production-ready, self-planning AI assistant powered by local/remote LLMs and accessibility-driven screen automation.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jman730--opendroid.json",
-  "sha256": "4cde5a059e3f987ebd1994b640f3e382264b08ad2a60b13a611d3698b4ff2f49"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e13cf5c68e311a0e994a3ff347037ed83d3cc30fe54204b47818baecd8e618dc"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1240,
+  "stars": 1307,
   "stars_por_mes": null
  },
  "nombre": "opendroid",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7c5dcd40f465fd8affe6c227c332fba9af80a600",
+  "commit": "9b471bcab61eee7151942ac4420aeec00fb62614",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:7c5dcd40f465fd8affe6c227c332fba9af80a600"
+  "swhid": "swh:1:rev:9b471bcab61eee7151942ac4420aeec00fb62614"
  },
  "repo": "JMAN730/opendroid",
  "web": "https://jman730.github.io/opendroid/"

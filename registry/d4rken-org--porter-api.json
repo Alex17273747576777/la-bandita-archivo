@@ -4,22 +4,13 @@
   "release_en": "2026-09-07",
   "semantica_http": 200,
   "ultima_release": "0.1.0",
-  "ultimo_push": "2026-09-30"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Android SDK for Porter, with compatible Shizuku APIs and direct Porter support.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/d4rken-org--porter-api.json",
-  "sha256": "a951753d588d796b97e503cb3638d6fb86f4e8b84d2039e5e610acb56cb650ed"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d1762b7647058ec15566dd9b3db35ad0294689683852c2c5229ab6da6348b529"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 10,
+  "stars": 11,
   "stars_por_mes": null
  },
  "nombre": "porter-api",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2f2805226a33d6742c646a5efe022aa33d4c63ae",
+  "commit": "309e12a1fb0ed38a85c1e5204f3de8fb338fc583",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:2f2805226a33d6742c646a5efe022aa33d4c63ae"
+  "swhid": "swh:1:rev:309e12a1fb0ed38a85c1e5204f3de8fb338fc583"
  },
  "repo": "d4rken-org/porter-api"
 }

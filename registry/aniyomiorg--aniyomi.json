@@ -8,18 +8,9 @@
  },
  "descripcion": "An app for manga and anime",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aniyomiorg--aniyomi.json",
-  "sha256": "f25b7d4e4ce567fd817e14791cd384e4e0e44762893d7f396c8c72a05855761a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "02d9b9ed8bc482cd24142f621e429df076902d7f93c03cdcbf98e8e17cfd39f9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7863,
+  "stars": 7917,
   "stars_por_mes": null
  },
  "nombre": "aniyomi",

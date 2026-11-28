@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-08-15",
+  "release_en": "2026-11-16",
   "semantica_http": 200,
-  "ultima_release": "26.08.21fae85",
-  "ultimo_push": "2026-08-18"
+  "ultima_release": "26.11.caccb78",
+  "ultimo_push": "2026-11-16"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/chenxiaoming233--installerx-revived.json",
-  "sha256": "019865385712bb33463ea5e0a7a48caf59be9dec7a5ffd585eb58c2fc784fed4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f471441d7c4cdb07ff49c4bb7c87b5f2bd8f6f62158564c036864a2a3f5d0b10"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "21fae8531474cbc266ce3cd342b3a427a7c77fb8",
+  "commit": "caccb787c1a4189da3f917eb990fb949305e3899",
   "swh_estado": null,
-  "swhid": "swh:1:rev:21fae8531474cbc266ce3cd342b3a427a7c77fb8"
+  "swhid": "swh:1:rev:caccb787c1a4189da3f917eb990fb949305e3899"
  },
  "repo": "ChenXiaoming233/InstallerX-Revived"
 }

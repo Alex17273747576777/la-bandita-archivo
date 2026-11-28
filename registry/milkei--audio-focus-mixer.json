@@ -4,22 +4,13 @@
   "release_en": "2026-10-16",
   "semantica_http": 200,
   "ultima_release": "v0.2.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-12"
  },
  "descripcion": "A lightweight Shizuku-powered Android app for per-app audio focus control.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/milkei--audio-focus-mixer.json",
-  "sha256": "b0b20163693dc6fadd9e19d0ed7af88584b2c0bf6b201a2454c2c1fee66226c8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "cc20b20139ecd4cb07a569420abb943615eccb2be60ed326200708c05b054f19"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 4,
   "stars_por_mes": null
  },
  "nombre": "audio-focus-mixer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5ee3a15e7337d30bfca77a707e7cc35cf3384d55",
+  "commit": "d90315f75410dc921f49ef9c237192222018c880",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5ee3a15e7337d30bfca77a707e7cc35cf3384d55"
+  "swhid": "swh:1:rev:d90315f75410dc921f49ef9c237192222018c880"
  },
  "repo": "milkei/audio-focus-mixer"
 }

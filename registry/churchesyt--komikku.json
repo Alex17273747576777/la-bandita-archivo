@@ -4,22 +4,13 @@
   "release_en": "2026-03-20",
   "semantica_http": 200,
   "ultima_release": "0.2.0",
-  "ultimo_push": "2026-07-17"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Free and open source manga reader for Android, this is a fork where I add a new",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/churchesyt--komikku.json",
-  "sha256": "ee2d2af8c7a55ad2046ab26d70168293d52b1b2ef9608c8abe6f6a4e99080719"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2ae32a40d87daee4cb4b5cd3f56c09000caba6f3123da93b792c26eedc821df0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "52f06022b9b358707e6beaf48f427b29a4a7cb8b",
+  "commit": "e2b078493e0257e4be34af979fa7a156d9645731",
   "swh_estado": null,
-  "swhid": "swh:1:rev:52f06022b9b358707e6beaf48f427b29a4a7cb8b"
+  "swhid": "swh:1:rev:e2b078493e0257e4be34af979fa7a156d9645731"
  },
  "repo": "churchesyt/komikku"
 }

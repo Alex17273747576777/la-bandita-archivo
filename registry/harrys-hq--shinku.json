@@ -4,22 +4,13 @@
   "release_en": "2026-03-25",
   "semantica_http": 200,
   "ultima_release": "v2.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "a modern, rebranded, and enhanced fork of TachiyomiSY/Mihon, designed for a immersive and intelligent manga-reading experience.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/harrys-hq--shinku.json",
-  "sha256": "e3894126eb92bf70ced376564dfd2b24b50ab5e55e98d20d8d7fa66d7bd31ac9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d028d6ded849f05a955f0ce862d7c3739d5cb09a22c4e46fb94cafdd5b418122"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 45,
+  "stars": 52,
   "stars_por_mes": null
  },
  "nombre": "ShinKu",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "bd94670c1363012c3a300d2da468e8357e683d0c",
+  "commit": "27cf8a06329a24082289e7773a24511ee6e1bca4",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:bd94670c1363012c3a300d2da468e8357e683d0c"
+  "swhid": "swh:1:rev:27cf8a06329a24082289e7773a24511ee6e1bca4"
  },
  "repo": "Harrys-HQ/ShinKu"
 }

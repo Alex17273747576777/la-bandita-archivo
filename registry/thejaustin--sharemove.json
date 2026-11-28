@@ -8,18 +8,9 @@
  },
  "descripcion": "Hide apps from Android's intent chooser sheet (APK installer, browser, and more) — Shizuku or root",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/thejaustin--sharemove.json",
-  "sha256": "59cce9b2f1497133a362ff58d7df237881535ab41a6857f69ff8bf9db00a3a2d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7ae298f7fb5ad47551076ec6231788b4b6071f627264a6a8c943aa2e77b60d0a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 48,
+  "stars": 53,
   "stars_por_mes": null
  },
  "nombre": "sharemove",

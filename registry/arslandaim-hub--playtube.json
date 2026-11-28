@@ -4,22 +4,13 @@
   "release_en": "2026-07-03",
   "semantica_http": 200,
   "ultima_release": "v1.1.0",
-  "ultimo_push": "2026-09-23"
+  "ultimo_push": "2026-11-09"
  },
  "descripcion": "Stream and download YouTube videos without intrusive ads. Fast and lightweight at just ~8MB, with a clean, modern UI.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/arslandaim-hub--playtube.json",
-  "sha256": "03d0bbe0af6b6c8717fef2e4ca046cdcfc1fe0010b9a1e395f3b03471f5a8b08"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "832de7ed15ae7760ea886d005473edea830f4f723568ee937557f6d1844024ae"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 150,
+  "stars": 154,
   "stars_por_mes": null
  },
  "nombre": "PlayTube",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d2f9ec7bf82fab5f86e2829a0f5ca1f61ab4a8f8",
+  "commit": "41c8d4083525032f557f76083aaafa574d57b86f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:d2f9ec7bf82fab5f86e2829a0f5ca1f61ab4a8f8"
+  "swhid": "swh:1:rev:41c8d4083525032f557f76083aaafa574d57b86f"
  },
  "repo": "arslandaim-hub/PlayTube"
 }

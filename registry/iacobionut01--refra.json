@@ -4,22 +4,13 @@
   "release_en": "2023-04-10",
   "semantica_http": 200,
   "ultima_release": "v1.0-β",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Media Gallery app for Android made with Jetpack Compose",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/iacobionut01--refra.json",
-  "sha256": "c81cae79007a94cf4724a11181c8f1e57755b53f9289827defcd9925147135be"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "37bccfab18ce6f0fb47cea252616e4fb678a6f46caf7fac2c63faf51e4b3227e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2975,
+  "stars": 3062,
   "stars_por_mes": null
  },
  "nombre": "ReFra",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "ba329cb0b75547ab517ea789af4651a7e4aea7a2",
+  "commit": "e95cb7a63508d292ac1762a98289983ea67f548a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ba329cb0b75547ab517ea789af4651a7e4aea7a2"
+  "swhid": "swh:1:rev:e95cb7a63508d292ac1762a98289983ea67f548a"
  },
  "repo": "IacobIonut01/ReFra"
 }

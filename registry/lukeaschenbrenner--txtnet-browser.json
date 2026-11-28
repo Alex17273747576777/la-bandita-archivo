@@ -8,18 +8,9 @@
  },
  "descripcion": "An app that lets you browse the web over SMS",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lukeaschenbrenner--txtnet-browser.json",
-  "sha256": "bf2d665fe29c7df81d1d8c1b9e1597c643f3112ecf3cbcc64604a96feb45190d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0c55143737b0d365c222b4b82235b972f594760b330192db7a3e5a047f248b08"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,9 +25,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

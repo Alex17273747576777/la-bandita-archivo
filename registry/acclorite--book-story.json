@@ -4,22 +4,13 @@
   "release_en": "2024-04-26",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-05"
  },
  "descripcion": "Book's Story — Material You eBook reader built with Jetpack Compose. Free & Open source & Ad-free, with extensive customization options and support for multiple file formats.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/acclorite--book-story.json",
-  "sha256": "10be5a2c6761fa5ecf36864a6df830dd55a198d74114027c481cc5bd6963e748"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "06e2eff7100be7dc194977d1650f6f9428836539176b59a70fc143da2eaf9531"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1420,
+  "stars": 1434,
   "stars_por_mes": null
  },
  "nombre": "book-story",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "1293ae391c4e97da9d0cd352f8a68e13cb826ab9",
+  "commit": "6ffefb974ae8eac542e36eb659f77e4802735fd9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1293ae391c4e97da9d0cd352f8a68e13cb826ab9"
+  "swhid": "swh:1:rev:6ffefb974ae8eac542e36eb659f77e4802735fd9"
  },
  "repo": "Acclorite/book-story"
 }

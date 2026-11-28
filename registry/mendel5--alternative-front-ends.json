@@ -8,18 +8,9 @@
  },
  "descripcion": "Overview of alternative open source front-ends for popular internet platforms (e.g. YouTube, Twitter, etc.)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mendel5--alternative-front-ends.json",
-  "sha256": "47162c906efdd4e933c22c623bd4c8aacaa990dbf76ff30cd85ee58f2d97f813"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "00bb46e05fb7b4df9b8f4ba2e4ae86e8a6833f1b0bb0bc9dc325346114ad1696"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9238,
+  "stars": 9268,
   "stars_por_mes": null
  },
  "nombre": "alternative-front-ends",

@@ -8,18 +8,9 @@
  },
  "descripcion": "Android audio forwarding PoC (scrcpy, but for audio)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rom1v--sndcpy.json",
-  "sha256": "9c27a208bdddcca3132a4617fae663d0c377553a370d14dbcc29f7b75ad23e7e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "452cbcf4f1a6f378ce5ab58f54e70874d8e0cc01017d5dedf7a3daa0341b2220"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3572,
+  "stars": 3567,
   "stars_por_mes": null
  },
  "nombre": "sndcpy",

@@ -4,22 +4,13 @@
   "release_en": "2026-05-06",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Controle do AC automatico do Haval",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rocamoras--haval-climate-control.json",
-  "sha256": "0af2ce8ba19ad17e372491dabd1780ca8f87ea0d367ef0b1e6434184af2138a7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "363092b08312880e9d4e443f908df4990f6bbfb33872feb7a67eb6508108a8da"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "cb32d0ad03d8655a6d4a31956d5ddf8de79abac9",
+  "commit": "57cb157f2efa63d621a8bb7129616bd522811de0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:cb32d0ad03d8655a6d4a31956d5ddf8de79abac9"
+  "swhid": "swh:1:rev:57cb157f2efa63d621a8bb7129616bd522811de0"
  },
  "repo": "rocamoras/haval-climate-control"
 }

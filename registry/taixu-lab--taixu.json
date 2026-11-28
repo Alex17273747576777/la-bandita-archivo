@@ -4,22 +4,13 @@
   "release_en": "2026-08-25",
   "semantica_http": 200,
   "ultima_release": "v0.6.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Android No-Root Linux Runtime · Native Agent Harness · PTY Terminal · Workspace & Tool Ecosystem",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/taixu-lab--taixu.json",
-  "sha256": "94e1d72201fc70fddb14b9637e73c9359643d64ce1d0f37fc58421b0d8405325"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1a877a686073aa8516f373bec55b175351a4ba344b2a80a778048f20b7d3c37d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 173,
+  "stars": 195,
   "stars_por_mes": null
  },
  "nombre": "taixu",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "39753b643776bd22eeac7fa105336be47efa4ac6",
+  "commit": "a6b6554e50d9af2bf21c843c137ff33419484f4e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:39753b643776bd22eeac7fa105336be47efa4ac6"
+  "swhid": "swh:1:rev:a6b6554e50d9af2bf21c843c137ff33419484f4e"
  },
  "repo": "taixu-lab/taixu",
  "web": "https://taixu-lab.github.io/taixu/"

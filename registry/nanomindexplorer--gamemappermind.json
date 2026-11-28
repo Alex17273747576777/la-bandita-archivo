@@ -8,18 +8,9 @@
  },
  "descripcion": "Android gamepad-to-touchscreen mapper with overlay, anti-ban, and macro support. Supports Xbox, Switch, Playstation controllers. ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/nanomindexplorer--gamemappermind.json",
-  "sha256": "3ae09e285240b39c7094c07c6251e440571a8f8d6ca6fd08d91994a214d56154"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b20e5667d69342769e2d8c1766593678cee92058a6b82184de0fcd5bb280b32d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 5,
+  "stars": 7,
   "stars_por_mes": null
  },
  "nombre": "GameMapperMind",

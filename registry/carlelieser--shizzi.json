@@ -4,22 +4,13 @@
   "release_en": "2026-08-06",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Rootless wifi-tethering bypass for Android with Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/carlelieser--shizzi.json",
-  "sha256": "029f4e02bbd4a0b7e450e314bf61805808f7189a5253a4f5c91449a9cbdfd1d0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "89e7b00a1cfd3a5a6e56d15876eef8199f9c1be2d806ec19e8151349978f2d23"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,26 +21,26 @@
  "id": "carlelieser--shizzi",
  "licencia": {
   "archivo": "README (texto completo)",
-  "metodo": "texto-license",
+  "metodo": "spdx-api",
   "nota": "licencia declarada por el proyecto en su propio README; el endpoint de GitHub no la clasifica",
-  "spdx": "mit",
-  "verificado_en": "2026-10-31"
+  "spdx": "MIT",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 252,
+  "stars": 363,
   "stars_por_mes": null
  },
  "nombre": "shizzi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "44a31095572c17497a3e5ea9fdf2cae8e8f68401",
+  "commit": "c22f24f577755fb5dd0414d2b4adc3199d5ef84d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:44a31095572c17497a3e5ea9fdf2cae8e8f68401"
+  "swhid": "swh:1:rev:c22f24f577755fb5dd0414d2b4adc3199d5ef84d"
  },
  "repo": "carlelieser/shizzi"
 }

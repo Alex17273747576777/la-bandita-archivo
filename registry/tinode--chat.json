@@ -4,22 +4,13 @@
   "release_en": "2017-11-28",
   "semantica_http": 200,
   "ultima_release": "v0.13.1",
-  "ultimo_push": "2026-10-25"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "Instant messaging platform. Backend in Go. Clients: Swift iOS, Java Android, JS webapp, scriptable command line; chatbots",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tinode--chat.json",
-  "sha256": "60c4ae4b2f2dd3e7a0b526ea1f44d8880502063fc976cf71bb12a5d853261dc0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f62ad36d9535cc0789a93cea0ac40f617ca15e8a5e1e45e36de1f4e34249cfc8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 13548,
+  "stars": 13583,
   "stars_por_mes": null
  },
  "nombre": "chat",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "eb90ef83acae6542f52719377ee5a76d267a5618",
+  "commit": "fd8801cdea3f2984008b0cdf38a253060515ce04",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:eb90ef83acae6542f52719377ee5a76d267a5618"
+  "swhid": "swh:1:rev:fd8801cdea3f2984008b0cdf38a253060515ce04"
  },
  "repo": "tinode/chat"
 }

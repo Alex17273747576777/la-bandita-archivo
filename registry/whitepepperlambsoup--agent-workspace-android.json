@@ -4,22 +4,13 @@
   "release_en": "2026-10-04",
   "semantica_http": 200,
   "ultima_release": "v1.0.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-20"
  },
  "descripcion": "An AI agent that runs on your Android phone: cloud or on-device models, real tools, liquid-glass UI. 在安卓手机上运行的 AI Agent。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/whitepepperlambsoup--agent-workspace-android.json",
-  "sha256": "97a5af719779030db3a692a33d7c6fd27f1ffb9824d90b26a0919f06573d32fa"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e099da0d7d54e0225820882206821daa907b23e9709e62e8d7333d654d518370"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 28,
+  "stars": 30,
   "stars_por_mes": null
  },
  "nombre": "agent-workspace-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "fc41a519de0f42a3a288a6ba93d51b12ae6a8428",
+  "commit": "974af25b2175ef9294b880f243e74d06596eda38",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:fc41a519de0f42a3a288a6ba93d51b12ae6a8428"
+  "swhid": "swh:1:rev:974af25b2175ef9294b880f243e74d06596eda38"
  },
  "repo": "WhitePepperLambSoup/agent-workspace-android"
 }

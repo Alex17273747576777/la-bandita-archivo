@@ -8,18 +8,9 @@
  },
  "descripcion": "use appops and shizuku manage sensor",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/carry-rrk--managesensors.json",
-  "sha256": "4d32e324d556a6e5b37a392e3d0723e7ac8ee93ca8167c916e30094ea8183493"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "024f81847caf662ff860b96e0975d1a86f48b916d4f941395b0804673ace141e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 46,
+  "stars": 47,
   "stars_por_mes": null
  },
  "nombre": "ManageSensors",

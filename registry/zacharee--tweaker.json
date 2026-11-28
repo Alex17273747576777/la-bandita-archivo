@@ -4,22 +4,13 @@
   "release_en": "2022-06-20",
   "semantica_http": 200,
   "ultima_release": "341",
-  "ultimo_push": "2026-10-21"
+  "ultimo_push": "2026-11-04"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/zacharee--tweaker.json",
-  "sha256": "abdb14eee133c0130e5ef7a47b3934e143b9031a2bab42b95d8f76aeceada1cd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "13b18f1f7d9444ac608e3ec492237fc3c76612380cd70ed2edd0ddfe452aed9e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1762,
+  "stars": 1785,
   "stars_por_mes": null
  },
  "nombre": "Tweaker",

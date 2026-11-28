@@ -4,22 +4,13 @@
   "release_en": "2026-10-01",
   "semantica_http": 200,
   "ultima_release": "v3.2.0-lefty.1",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Fork of Kai 9000 - OpenClaw alternative in your pocket",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/shibmaster--lefty.json",
-  "sha256": "73797936e5ec694a4c3aa96b659505ef5817c28aa4d88cbb020c0b961b6f0000"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a53b1677672cd46cffdf47b8c8497aed80854b2534a2a9c44733283ab978508c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "69e416406d952c90d1654ff2ff2e94d23e7f2f03",
+  "commit": "fa299e9af2395a95ca15db4be3caadaacb07d768",
   "swh_estado": null,
-  "swhid": "swh:1:rev:69e416406d952c90d1654ff2ff2e94d23e7f2f03"
+  "swhid": "swh:1:rev:fa299e9af2395a95ca15db4be3caadaacb07d768"
  },
  "repo": "shibmaster/Lefty"
 }

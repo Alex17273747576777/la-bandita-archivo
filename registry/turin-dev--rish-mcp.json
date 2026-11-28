@@ -4,22 +4,13 @@
   "release_en": "2026-06-28",
   "semantica_http": 200,
   "ultima_release": "v0.2.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "Control an Android device's shell from AI clients through MCP - outbound-only, no root or Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/turin-dev--rish-mcp.json",
-  "sha256": "86f250205bba5e456a89a7db17d356bd366f4ff4ebb944113a784e7d947153a1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "de699ddd41cfd4b20162459cf6cb059a4e8e0b8ecd211df3f1359c40fd3fd621"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 28,
+  "stars": 32,
   "stars_por_mes": null
  },
  "nombre": "rish-mcp",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ffd1cf62fd7c19202a2b56000220508774727bde",
+  "commit": "5ee7134f6076338eb14cd64e3cafec2d3d104626",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ffd1cf62fd7c19202a2b56000220508774727bde"
+  "swhid": "swh:1:rev:5ee7134f6076338eb14cd64e3cafec2d3d104626"
  },
  "repo": "turin-dev/rish-mcp"
 }

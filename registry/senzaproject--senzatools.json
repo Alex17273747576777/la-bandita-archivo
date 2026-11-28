@@ -4,22 +4,13 @@
   "release_en": "2026-10-31",
   "semantica_http": 200,
   "ultima_release": "SenzaTools",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-24"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/senzaproject--senzatools.json",
-  "sha256": "7d04ac3a5f990220f2d325feac4a9a2d09a0a867e5bcaa504f8123eeffbf63ce"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a28a527ed03eefeafe843267758722d2ac502ba0b6aad6ec7fb418a2f2daf162"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a47880636aa5061746450a5847eb0ec28def0a76",
+  "commit": "5f52703a8b57aa8249957fb2b25758a17302a477",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a47880636aa5061746450a5847eb0ec28def0a76"
+  "swhid": "swh:1:rev:5f52703a8b57aa8249957fb2b25758a17302a477"
  },
  "repo": "SenzaProject/SenzaTools"
 }

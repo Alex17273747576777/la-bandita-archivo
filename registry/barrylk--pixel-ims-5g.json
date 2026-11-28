@@ -4,22 +4,13 @@
   "release_en": "2026-07-18",
   "semantica_http": 200,
   "ultima_release": "v0.8.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-13"
  },
  "descripcion": "Shizuku-powered 5G, VoLTE, VoNR and Tensor radio diagnostics for Google Pixel",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/barrylk--pixel-ims-5g.json",
-  "sha256": "7dedf5b1d79182324ef7683a81cde9394ff79c74ed23f6b8a04a01c42d8c625c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "59282db68c288c3f20d3ae78c47525d8a27ce653a8a08833bc0073f57b759637"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 76,
+  "stars": 92,
   "stars_por_mes": null
  },
  "nombre": "Pixel-IMS-5G",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5a1ca78dfe04b5aa4fbaf9958fe3cd4c3fa5fe3c",
+  "commit": "320583b610611eb5b8d5304d8cdc4360fe02b62a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5a1ca78dfe04b5aa4fbaf9958fe3cd4c3fa5fe3c"
+  "swhid": "swh:1:rev:320583b610611eb5b8d5304d8cdc4360fe02b62a"
  },
  "repo": "barrylk/Pixel-IMS-5G",
  "web": "https://github.com/barrylk/Pixel-IMS-5G/releases/latest"

@@ -4,22 +4,13 @@
   "release_en": "2026-09-18",
   "semantica_http": 200,
   "ultima_release": "v1.1.97",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Android browser and downloader.  Built on GeckoView, FFmpeg, uBlock Origin built in, off-store, FOSS.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/solarizeddev--firedown.json",
-  "sha256": "394fee29a240675a17f57f697a2e8273cd8a7c2a423f10380334813584eef437"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "18aedaf0c9115d8477d93100c1975fae092faecf0953f4bee93353e9cd7c6aad"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 43,
+  "stars": 49,
   "stars_por_mes": null
  },
  "nombre": "firedown",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "40177eb8cbbc90ad9facadefc815d34bbc59489e",
+  "commit": "e56fd37c6d7d609bef404fe477ee52b32b809233",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:40177eb8cbbc90ad9facadefc815d34bbc59489e"
+  "swhid": "swh:1:rev:e56fd37c6d7d609bef404fe477ee52b32b809233"
  },
  "repo": "solarizeddev/firedown"
 }

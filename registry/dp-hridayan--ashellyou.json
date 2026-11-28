@@ -4,22 +4,13 @@
   "release_en": "2024-01-23",
   "semantica_http": 200,
   "ultima_release": "v0.9",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A material you designed app for your ADB needs",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dp-hridayan--ashellyou.json",
-  "sha256": "dc5488c3204c33ba1eaa6fc48f3a09d61104a10e74b5a082e2c2a4abca67d009"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "720207cfb89e46f1ecba2a1118634bd9846766c3e2a67fe73b68e72eba5146a0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2546,
+  "stars": 2665,
   "stars_por_mes": null
  },
  "nombre": "aShellYou",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "8ec6c92d74aea44723d026e5f73a2f477d494a3c",
+  "commit": "7efc8112bc6b13878ca2449f2f60572167239d5b",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:8ec6c92d74aea44723d026e5f73a2f477d494a3c"
+  "swhid": "swh:1:rev:7efc8112bc6b13878ca2449f2f60572167239d5b"
  },
  "repo": "DP-Hridayan/aShellYou",
  "web": "http://ashellyou.github.io"

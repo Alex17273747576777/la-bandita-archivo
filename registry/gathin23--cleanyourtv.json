@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "dormido",
-  "release_en": "2026-11-01",
+  "estado": "vivo",
+  "release_en": "2026-10-19",
   "semantica_http": 200,
-  "ultima_release": "v3.3.0",
-  "ultimo_push": "2026-11-03"
+  "ultima_release": "v2.1.0",
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
  "evidencia": {
-  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
-  "payload_ref": "ficha profunda del 2026-11-03",
-  "sha256": "923807508561253b1805e0393a791a524c9e83404b6cfda39cc99ae598e61529"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/gathin23--cleanyourtv.json",
+  "sha256": "8eab202123a7a48925f46ca56c48167adecd3078771bf9ef6c1a1a1d64e898f6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,16 +21,16 @@
  "id": "gathin23--cleanyourtv",
  "licencia": {
   "archivo": "MIT License\n\nCopyright (c) 2026 Gathin\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof",
-  "metodo": "ausencia-firmada",
+  "metodo": "spdx-api",
   "nota": "la API no reconoce la licencia (NOASSERTION); el archivo del repositorio sí la declara y se transcribe",
-  "spdx": null,
-  "verificado_en": "2026-11-03"
+  "spdx": "NOASSERTION",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 50995,
+  "stars": 61455,
   "stars_por_mes": null
  },
  "nombre": "cleanyourtv",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "d7b0d4a5284d3934a1fce192bd4e2f43aa1fbf97",
+  "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27",
   "swh_estado": "solicitud 200",
   "swh_solicitud": "accepted",
-  "swhid": "swh:1:rev:d7b0d4a5284d3934a1fce192bd4e2f43aa1fbf97"
+  "swhid": "swh:1:rev:be6087056a1c7d4f08f3f1cc778d92374d86ef27"
  },
  "repo": "Gathin23/cleanyourtv"
 }

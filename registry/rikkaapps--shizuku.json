@@ -10,16 +10,7 @@
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rikkaapps--shizuku.json",
-  "sha256": "39786b28b1101f511b44ec66a8e9859afdc27f98d39748c9ed8b1c2e1b2dd0f0"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8aca22fcbb5b22e924f209559028da6aa6b5ff33130f76b7cb0635d1289beb55"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,13 +24,13 @@
   "metodo": "spdx-api",
   "nota": "certificada además contra el texto del archivo LICENSE en la medición de la pieza 04",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": 2.7,
   "scorecard_en": "2026-08-24",
-  "stars": 32726,
+  "stars": 34880,
   "stars_por_mes": null
  },
  "nombre": "Shizuku",

@@ -4,22 +4,13 @@
   "release_en": "2026-10-02",
   "semantica_http": 200,
   "ultima_release": "26.10.1001",
-  "ultimo_push": "2026-10-26"
+  "ultimo_push": "2026-11-16"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/darkaxt--installerx-revived.json",
-  "sha256": "257df0dd7aa45857636607b8b7e4c4fb808383c754b3b98d1e23f05fc9fe56ea"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4e0a5aad1107cf195f310a5a6aabe01f4665973cb285615eefaf40006c724d23"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9fc11d4b5f582386442afd80e862e0a32684b9c9",
+  "commit": "cea18b63e664b4d91632a1fd3d7abcbfd31add37",
   "swh_estado": null,
-  "swhid": "swh:1:rev:9fc11d4b5f582386442afd80e862e0a32684b9c9"
+  "swhid": "swh:1:rev:cea18b63e664b4d91632a1fd3d7abcbfd31add37"
  },
  "repo": "Darkaxt/InstallerX-Revived"
 }

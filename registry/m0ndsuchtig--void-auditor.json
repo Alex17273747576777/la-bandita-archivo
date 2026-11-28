@@ -4,22 +4,13 @@
   "release_en": "2026-05-19",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-10-02"
+  "ultimo_push": "2026-11-17"
  },
  "descripcion": "Zero Trust mobile forensics toolkit for Android — Shizuku · AI Governance · Network Scan · Cache Cleaner",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/m0ndsuchtig--void-auditor.json",
-  "sha256": "c346497e7ff3f7dd4fa01014703607c5938de15f7b11a4dc957b66d4638aea49"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7c0e3b6f9c826b0fa08babc766bf7dd23f39de42c7692331a240ad6d49fb3b7d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 8,
+  "stars": 9,
   "stars_por_mes": null
  },
  "nombre": "Void-Auditor",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "56381893f2e68c38b152f867fee5f519a1f6bc65",
+  "commit": "c2ca588a54de7355b239d17d98b759e97582e692",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:56381893f2e68c38b152f867fee5f519a1f6bc65"
+  "swhid": "swh:1:rev:c2ca588a54de7355b239d17d98b759e97582e692"
  },
  "repo": "M0NDsuChTiG/Void-Auditor",
  "web": "https://void-auditor.vercel.app"

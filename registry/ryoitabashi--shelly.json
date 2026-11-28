@@ -4,22 +4,13 @@
   "release_en": "2026-04-01",
   "semantica_http": 200,
   "ultima_release": "v4.2.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "AI-powered chat-first terminal IDE for Android. Built entirely on a phone, by someone who can't write code.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/ryoitabashi--shelly.json",
-  "sha256": "6a3fb25821d64ead6e6b5845db0d9c963bee4eb3f264ae3f4f237df0d97f5a10"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "79e33a159f46f85603ea1b799f5d8db71c7a9bc2a0529bffc9dc3a91c377ce05"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 68,
+  "stars": 77,
   "stars_por_mes": null
  },
  "nombre": "Shelly",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "48355bed6cb78183551c90f8c122e900c21346aa",
+  "commit": "4ff55b03fec09c8f241da4c4ecafe6dfe2583ebd",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:48355bed6cb78183551c90f8c122e900c21346aa"
+  "swhid": "swh:1:rev:4ff55b03fec09c8f241da4c4ecafe6dfe2583ebd"
  },
  "repo": "RYOITABASHI/Shelly"
 }

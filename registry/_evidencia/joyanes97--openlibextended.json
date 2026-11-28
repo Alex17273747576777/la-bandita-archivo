@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-11-02T08:46:52Z",
-   "oid": "cd72fefea50446f0f0ecd5a1243d83fe13463fbd"
+   "committedDate": "2026-11-20T15:13:16Z",
+   "oid": "22772d6083e07c9e7ee716d08f1f1b1ba70e058e"
   }
  },
- "diskUsage": 110530,
+ "diskUsage": 110582,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "AGPL-3.0"
  },
  "nameWithOwner": "joyanes97/OpenlibExtended",
- "pushedAt": "2026-11-03T05:02:42Z",
+ "pushedAt": "2026-11-21T05:01:50Z",
  "releases": {
   "nodes": []
  },

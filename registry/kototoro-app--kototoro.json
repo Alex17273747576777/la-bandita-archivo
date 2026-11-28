@@ -4,22 +4,13 @@
   "release_en": "2025-11-28",
   "semantica_http": 200,
   "ultima_release": "v0.0.2-test3",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Manga, Novel, and Video reader for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kototoro-app--kototoro.json",
-  "sha256": "78013892bd4186d22881cc87dd7afbc404cc53bbd85abf2f51a070126f0e3996"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a3f7b298624715a462b1bb0667f02eabf0dd04d1821dbc0d9bd9e3862738013e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 666,
+  "stars": 709,
   "stars_por_mes": null
  },
  "nombre": "Kototoro",
@@ -51,10 +42,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "9e8993e769906628de612a3f4160a7d7e7beef62",
+  "commit": "1c2ca1528d918f6e06e7b39d5b72f5ac29aed680",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9e8993e769906628de612a3f4160a7d7e7beef62"
+  "swhid": "swh:1:rev:1c2ca1528d918f6e06e7b39d5b72f5ac29aed680"
  },
  "repo": "Kototoro-app/Kototoro"
 }

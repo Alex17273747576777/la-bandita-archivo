@@ -4,22 +4,13 @@
   "release_en": "2026-10-22",
   "semantica_http": 200,
   "ultima_release": "v3.21",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "NetModeSwitch — переключатель режима сети Android (root/Shizuku): правила, сцены, раздача через VPN/Proxy",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lenox108--netmodeswitch.json",
-  "sha256": "c13cc7bd0b7393c10b2e7928d9e05c576492409ff9b12435b23ed7d3aa71f552"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "03016a362ca9ef7ca57c165908f1fa6427e8be85449bc7b35ee31f83d589b1dd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "NetModeSwitch",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "68e2eee11852ad288f5523a5b67dc43208ddf2a2",
+  "commit": "798a9b20959565861659f38a40b0b82dd76beec2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:68e2eee11852ad288f5523a5b67dc43208ddf2a2"
+  "swhid": "swh:1:rev:798a9b20959565861659f38a40b0b82dd76beec2"
  },
  "repo": "lenox108/NetModeSwitch"
 }

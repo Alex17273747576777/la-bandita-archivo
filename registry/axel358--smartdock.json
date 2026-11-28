@@ -1,6 +1,6 @@
 {
  "actividad": {
-  "estado": "vivo",
+  "estado": "dormido",
   "release_en": "2023-05-09",
   "semantica_http": 200,
   "ultima_release": "1.9.8",
@@ -8,18 +8,9 @@
  },
  "descripcion": "A user-friendly desktop mode launcher that offers a modern and customizable user interface",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/axel358--smartdock.json",
-  "sha256": "0be5e85d52ca3cddaf9fa10b9bd1e9d177a855ce8dcf287a7b389a5ea345f238"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8ea6e0ac6bf6af0093a74afc6e850a84a5dacbe523165f093b4ce7af709eba41"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,13 +25,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1463,
+  "stars": 1492,
   "stars_por_mes": null
  },
  "nombre": "smartdock",

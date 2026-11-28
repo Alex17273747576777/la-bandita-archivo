@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "Auto-patch and install Morphe Android TV apps over wireless ADB",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sloccy--morphe-tv-patcher.json",
-  "sha256": "eb5548d0c6f40975b5d77afe95108a6ea0998165bfc9254648c9e55b8e2b2560"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d132acab0c870f9b3b2869f38ebb17b0efe0f038b8926f29dad0549d67ef1b95"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "morphe-tv-patcher",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2dbd8838f80a5f6c941935aaee45e16b0cce8517",
+  "commit": "15225d52765538b2f438de20b69d1a5adac47b04",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:2dbd8838f80a5f6c941935aaee45e16b0cce8517"
+  "swhid": "swh:1:rev:15225d52765538b2f438de20b69d1a5adac47b04"
  },
  "repo": "sloccy/morphe-tv-patcher"
 }

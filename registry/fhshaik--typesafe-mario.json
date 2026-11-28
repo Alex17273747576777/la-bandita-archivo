@@ -8,18 +8,9 @@
  },
  "descripcion": "A TypeSafe/Jev agent that plays Super Mario Bros. from structured emulator state.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/fhshaik--typesafe-mario.json",
-  "sha256": "3fe2340f398d88920243faa79b407638535a47b581bcbf891767f68f45f0dd04"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "6b8e32045f03fe3de8c4477151d86938c06b73f5aae81982cf67a29ba6a70ee3"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": "mit",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 457,
+  "stars": 465,
   "stars_por_mes": null
  },
  "nombre": "typesafe-mario",

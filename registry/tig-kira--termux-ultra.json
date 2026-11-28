@@ -4,22 +4,13 @@
   "release_en": "2026-07-14",
   "semantica_http": 200,
   "ultima_release": "0.118.3.1.1",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Make Termux Great Again - A versatile Termux tool platform that embodies Xiaomi's HyperOS-like aesthetics. | 贯彻小米澎湃美学的全能 Termux 工具平台。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tig-kira--termux-ultra.json",
-  "sha256": "b3bc6d85950e1e6bb1ebbf68388892caf443b75c99c69653867d2ae6e598be9d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c0d643ec987574da27c2a10c9ab262e69ef191f6ee318d42b0031e899aef6206"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE.md",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 82,
+  "stars": 95,
   "stars_por_mes": null
  },
  "nombre": "Termux-Ultra",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b7fc21e46374864b79599486f07f7ffb379fa920",
+  "commit": "cab7ab9e37c6f230e8494fca29769a48691db37c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b7fc21e46374864b79599486f07f7ffb379fa920"
+  "swhid": "swh:1:rev:cab7ab9e37c6f230e8494fca29769a48691db37c"
  },
  "repo": "TiG-Kira/Termux-Ultra"
 }

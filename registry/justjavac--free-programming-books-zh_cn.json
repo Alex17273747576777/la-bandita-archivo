@@ -8,18 +8,9 @@
  },
  "descripcion": ":books: 免费的计算机编程类中文书籍，欢迎投稿",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/justjavac--free-programming-books-zh_cn.json",
-  "sha256": "eb513e722cf05143b8a256a2eb9f89c31f40950b782a99d996a0fd270441d398"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ed8b421e0c2cc89a456dc7a7591717e164d22541609a99200ee809c182526251"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 119497,
+  "stars": 119727,
   "stars_por_mes": null
  },
  "nombre": "free-programming-books-zh_CN",

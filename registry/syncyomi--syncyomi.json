@@ -4,22 +4,13 @@
   "release_en": "2023-04-14",
   "semantica_http": 200,
   "ultima_release": "v0.1.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "SyncYomi is an open-source project crafted to provide a seamless synchronization experience for your TachiyomiSY/Mihon (Mihon client is not implemented but it works the same probably will never be implemented)/manga reading progress and library across multiple devices.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/syncyomi--syncyomi.json",
-  "sha256": "50f83fde8e1ad36900a147cc1126eca80cba78436be478f61918ee21e9625d55"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "11d7e57da871b4d57376f2892618bed3134af3a4f23cc20dedc00eef4a23c9f3"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 742,
+  "stars": 758,
   "stars_por_mes": null
  },
  "nombre": "syncyomi",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3460c892cae09b59fdd3e01cdc7035ec4633088a",
+  "commit": "f75f155ddbc1e0f22adec028a57d573b9f74ca4d",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3460c892cae09b59fdd3e01cdc7035ec4633088a"
+  "swhid": "swh:1:rev:f75f155ddbc1e0f22adec028a57d573b9f74ca4d"
  },
  "repo": "syncyomi/syncyomi"
 }

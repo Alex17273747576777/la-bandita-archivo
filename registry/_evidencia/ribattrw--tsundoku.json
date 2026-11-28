@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
    "committedDate": "2026-09-13T18:40:56Z",
    "oid": "b04f9a4d39aa4e99a9ca14e4bb76f38d35566998"
   }
  },
- "diskUsage": 95404,
+ "diskUsage": 95752,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Apache-2.0"
  },
  "nameWithOwner": "RibatTRW/tsundoku",
- "pushedAt": "2026-10-03T01:17:45Z",
+ "pushedAt": "2026-11-22T07:29:21Z",
  "releases": {
   "nodes": []
  },

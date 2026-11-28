@@ -4,22 +4,13 @@
   "release_en": "2026-09-01",
   "semantica_http": 200,
   "ultima_release": "v0.7.0",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-16"
  },
  "descripcion": "Offline-first keyboard (IME) that doubles as a mobile IDE: built-in file manager, editor, clipboard and snippet tabs with on-device word prediction. No INTERNET permission, no data collection.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/piot5--keytab.json",
-  "sha256": "ae99f2d5f9c6470ae9002faa52dddb775a7141fedb1c9886b7be271bcd7bce5b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "8d9f6fba88c9e2db5efa06af57afc50a2740066377e729040dea8fbc81292aa0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 26,
+  "stars": 32,
   "stars_por_mes": null
  },
  "nombre": "keytab",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2642a277420bc96d259faf7afaf6dff3b16353ff",
+  "commit": "0f8241ec2490cae9484ed30359bc4d65fdbdef2f",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:2642a277420bc96d259faf7afaf6dff3b16353ff"
+  "swhid": "swh:1:rev:0f8241ec2490cae9484ed30359bc4d65fdbdef2f"
  },
  "repo": "piot5/keytab",
  "web": "https://github.com/piot5/keytab/releases/latest"

@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-11-01",
+  "release_en": "2026-11-06",
   "semantica_http": 200,
-  "ultima_release": "latest",
-  "ultimo_push": "2026-11-01"
+  "ultima_release": "build-62",
+  "ultimo_push": "2026-11-18"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/adonzin--dockpad.json",
-  "sha256": "cad14a275a9956cce24e41b56aca02b56572878c45e18e3c9340c94aa461d881"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "41c048e2f808e137cbb081a2a696eaea3db531fac2ce4ad9559c2d079b2cdfae"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "338d59a2ec3ccbbe292afa378b2b3921243dd547",
+  "commit": "6283e71570e1f869972dee8eb1418ddfc1c45c08",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:338d59a2ec3ccbbe292afa378b2b3921243dd547"
+  "swhid": "swh:1:rev:6283e71570e1f869972dee8eb1418ddfc1c45c08"
  },
  "repo": "Adonzin/DockPad"
 }

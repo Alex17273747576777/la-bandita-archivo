@@ -4,22 +4,13 @@
   "release_en": "2026-08-13",
   "semantica_http": 200,
   "ultima_release": "v4.2.0-rc1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "A KernelSU based root solution for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/baka-su--bakasu.json",
-  "sha256": "07955b8016ab1e9de060f5e5838019db66ddfceb4d26e756e24f2a9788f74175"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e914896ccda81f965b69b2a47b2383bd40fd1ce42f5135c16489bc47e808edef"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2084,
+  "stars": 2301,
   "stars_por_mes": null
  },
  "nombre": "BakaSU",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "516d3e87fbc986ccefdde2c2765f1700612441a9",
+  "commit": "4ca505a878d9a3d9584417ef6b7fa443f2e516d5",
   "swh_estado": "sin archivo (HTTP 429)",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:516d3e87fbc986ccefdde2c2765f1700612441a9"
+  "swhid": "swh:1:rev:4ca505a878d9a3d9584417ef6b7fa443f2e516d5"
  },
  "repo": "Baka-SU/BakaSU",
  "web": "https://bakasu.org"

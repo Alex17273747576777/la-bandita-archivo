@@ -4,22 +4,13 @@
   "release_en": "2019-08-26",
   "semantica_http": 200,
   "ultima_release": "1.0.0",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-11"
  },
  "descripcion": "👻 A simple & beautiful GUI application for scrcpy.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/simonaking--scrcpy-gui.json",
-  "sha256": "e54c62611dfbe8efb207e81d3b7099ee3d37d02cc3b2e7cd35d0b86284007faf"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4452e8e67d41e9a8421154cf595502f57e9cae8a491af38f08eef4a7d7ed239e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4162,
+  "stars": 4209,
   "stars_por_mes": null
  },
  "nombre": "scrcpy-gui",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "74eb280db2181b439633958934d111e9b4cfcb4a",
+  "commit": "01fd942f16e2230d90d0fffc4ec27d73e4da3b5c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:74eb280db2181b439633958934d111e9b4cfcb4a"
+  "swhid": "swh:1:rev:01fd942f16e2230d90d0fffc4ec27d73e4da3b5c"
  },
  "repo": "SimonAKing/scrcpy-gui",
  "web": "http://simonaking.com/scrcpy-gui/"

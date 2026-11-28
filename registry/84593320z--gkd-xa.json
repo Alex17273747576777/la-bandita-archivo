@@ -4,22 +4,13 @@
   "release_en": "2026-09-21",
   "semantica_http": 200,
   "ultima_release": "v1.2.5",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "GKD-X 融合版：界面全面适配 MIUIX 的 GKD-X与GKD-Plus的AI规则生成 App 开屏与弹窗广告（Android / Kotlin Compose）",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/84593320z--gkd-xa.json",
-  "sha256": "bff3993ba13581fb61c4a8344ff9b9b15b3859d1df81517607ff81aa4632a385"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "23b7f5cf7da412b5f1b5a6ef2894aeb6895ba4f134fd9ae3230fdf84fcd6f344"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 157,
+  "stars": 255,
   "stars_por_mes": null
  },
  "nombre": "GKD-XA",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e5bc1cfbfc00c1379666ed6aff363b1116961da5",
+  "commit": "b7690defd2793a32b549d62ec93f49cd01529060",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e5bc1cfbfc00c1379666ed6aff363b1116961da5"
+  "swhid": "swh:1:rev:b7690defd2793a32b549d62ec93f49cd01529060"
  },
  "repo": "84593320z/GKD-XA",
  "web": "https://github.com/84593320z/gkd-/releases/latest"

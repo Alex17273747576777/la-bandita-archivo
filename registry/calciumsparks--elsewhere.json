@@ -8,18 +8,9 @@
  },
  "descripcion": "一台跑在 Android 上的无 Root 位置仪。 用 Shizuku 的 shell 通道把坐标交给系统定位栈，用一张地图、一个准星和一只悬浮摇杆，替身去别处。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/calciumsparks--elsewhere.json",
-  "sha256": "be086db1dc880bb4db88066b7d2a65d2af6cfd9adc25546cffa8174d60148835"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "15b5495a7f6f7c57bc83a184503ff62155b9436bb2aebb039112d887b5dd6daa"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "ELSEWHERE",

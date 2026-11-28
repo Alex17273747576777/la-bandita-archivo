@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "estado": "vivo",
+  "release_en": "2026-09-27",
+  "semantica_http": 200,
+  "ultima_release": "26.09.0882685",
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Explore, craft, and launch Android intents.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/wxxsfxyzm--intentx.json",
-  "sha256": "62561e6c97b51960027aeeae7c78c122cdd6cda8d4c241264604b233f0504cfd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "2152fe98e9d013d75b39ab3fa29e8fece156ed95ab2c5f4234a66dc72a388989"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 84,
   "stars_por_mes": null
  },
  "nombre": "IntentX",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "43b3f9f2f617aa1321be822fb46a5eba072eca97",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:43b3f9f2f617aa1321be822fb46a5eba072eca97"
  },
  "repo": "wxxsfxyzm/IntentX"
 }

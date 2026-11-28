@@ -4,22 +4,13 @@
   "release_en": "2025-12-12",
   "semantica_http": 200,
   "ultima_release": "v1.0.0-dev.1",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Morphe app patcher for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/morpheapp--morphe-manager.json",
-  "sha256": "b43a127f57699375d241c391938c4691c042dbc2467486315903abbfd483d8b2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "37589cf6382ca2d059406006f6135e43741942bde97882de7fdb624132f93585"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9906,
+  "stars": 10933,
   "stars_por_mes": null
  },
  "nombre": "morphe-manager",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d9f78dfbee3f4e1db0cd30b76a57bd10dbaae3f7",
+  "commit": "05f7083f99cfc3dccec9ae05b95cad14e55bf6e8",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:d9f78dfbee3f4e1db0cd30b76a57bd10dbaae3f7"
+  "swhid": "swh:1:rev:05f7083f99cfc3dccec9ae05b95cad14e55bf6e8"
  },
  "repo": "MorpheApp/morphe-manager",
  "web": "https://Morphe.software"

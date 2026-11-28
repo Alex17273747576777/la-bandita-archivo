@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Config-driven CI pipeline that automates Android app builds daily. Educational purposes.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rookieenough--morphe-autobuilds.json",
-  "sha256": "4205726e781a2b719d58567f2c67d434e3889e205f257c0424542770963acb82"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "61a6d69cb0affd9334fea1900e2578ac21f2733a69f34dbf7b5dd5fbff81399e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1248,
+  "stars": 1260,
   "stars_por_mes": null
  },
  "nombre": "Morphe-AutoBuilds",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a6e3945a28e536a5860c03b90fbdc28ef884745e",
+  "commit": "8415598de9d507fa5e6687ed67e3efb8aa797351",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a6e3945a28e536a5860c03b90fbdc28ef884745e"
+  "swhid": "swh:1:rev:8415598de9d507fa5e6687ed67e3efb8aa797351"
  },
  "repo": "RookieEnough/Morphe-AutoBuilds"
 }

@@ -8,18 +8,9 @@
  },
  "descripcion": "Basic guide to build custom android ROM for smartphones",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/shantanu-sarkar--customrom.json",
-  "sha256": "af857292ece2e653d1ab282fb99ac247cab442310699afab4e65a8e741356f75"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0e7ca635c1485e9e399441aa0918b15c0495a1149a6a4683f08eaa7d3f172d6b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": "mit",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 347,
+  "stars": 349,
   "stars_por_mes": null
  },
  "nombre": "CustomROM",

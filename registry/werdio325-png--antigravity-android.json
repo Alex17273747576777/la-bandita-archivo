@@ -4,22 +4,13 @@
   "release_en": "2026-09-17",
   "semantica_http": 200,
   "ultima_release": "v2.14.0",
-  "ultimo_push": "2026-10-22"
+  "ultimo_push": "2026-11-09"
  },
  "descripcion": "Google Antigravity Standalone for Android - Autonomous ARM64 Client & Freeform Environment",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/werdio325-png--antigravity-android.json",
-  "sha256": "c3f6c1ee3e9e8063479d2ec36aded1e82fb21f09292a6f02f550848b2598d018"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "be29c30c0f630478cd0fb3612e466a45ab7fc6e3bdd6aba01c402c967a4b9643"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 124,
+  "stars": 352,
   "stars_por_mes": null
  },
  "nombre": "antigravity-android",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "cbf132ecdeeba3fa01376127f19f32964656d0ed",
+  "commit": "b315e3cf4627de66743ddb5d363a7d56b58d6ade",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:cbf132ecdeeba3fa01376127f19f32964656d0ed"
+  "swhid": "swh:1:rev:b315e3cf4627de66743ddb5d363a7d56b58d6ade"
  },
  "repo": "werdio325-png/antigravity-android",
  "web": "https://github.com/werdio325-png/antigravity-android/releases/latest"

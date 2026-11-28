@@ -4,22 +4,13 @@
   "release_en": "2026-09-20",
   "semantica_http": 200,
   "ultima_release": "v6.8.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-17"
  },
  "descripcion": "Offline Docs plugin for AutoJs6",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/supermonster003--autojs6-plugin-offline-docs.json",
-  "sha256": "e0165cc16abafc636aab576a00f8c68cf7ce9953d2b835f12ef605e09decfddb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "854d539ad96a845a765cd077d714e0d0e08ee4ed3696752e41de4769b54e80dd"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b5b4035f8dfa88c670557719024d6a34be75e50d",
+  "commit": "60b4e9da5674d100c122814369b093c60cfa2a48",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b5b4035f8dfa88c670557719024d6a34be75e50d"
+  "swhid": "swh:1:rev:60b4e9da5674d100c122814369b093c60cfa2a48"
  },
  "repo": "SuperMonster003/AutoJs6-Plugin-Offline-Docs"
 }

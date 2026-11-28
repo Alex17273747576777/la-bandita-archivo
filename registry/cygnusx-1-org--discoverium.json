@@ -4,22 +4,13 @@
   "release_en": "2025-05-31",
   "semantica_http": 200,
   "ultima_release": "1.1.55",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Android phone and TV app for discovering open source Android apps",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/cygnusx-1-org--discoverium.json",
-  "sha256": "c719d2f7b0d2a064880c8a4d336d720cf60826df23a277be4b418a05a52a7f4d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "eef5cdc85f5dfee6afa49bdead827a8e4c970b2fcc636cba11994450825351d6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 612,
+  "stars": 626,
   "stars_por_mes": null
  },
  "nombre": "Discoverium",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "3d7f67881d9db32f2d11a804e41824ce1eac4973",
+  "commit": "c2d5047eb9d5c6d11b99fd54a7badb9a0f54b075",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:3d7f67881d9db32f2d11a804e41824ce1eac4973"
+  "swhid": "swh:1:rev:c2d5047eb9d5c6d11b99fd54a7badb9a0f54b075"
  },
  "repo": "cygnusx-1-org/Discoverium"
 }

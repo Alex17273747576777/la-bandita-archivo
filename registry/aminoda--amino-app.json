@@ -4,22 +4,13 @@
   "release_en": "2026-09-29",
   "semantica_http": 200,
   "ultima_release": "v13.7.0.r1378-amino",
-  "ultimo_push": "2026-10-02"
+  "ultimo_push": "2026-11-10"
  },
  "descripcion": "aMiNo Android app - latest updated build (Shizuku manager + AI Agent, Cloudflare Workers AI brain). التطبيق المحدث الأخير",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aminoda--amino-app.json",
-  "sha256": "1bb6f23a6014f05b40d78acd1a7bdb1464ccf73230d0564c0d2531845d836009"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fe3fd8ab99b47656aa56a04e0873a31e8621f1dbcd8314d91a17488a33ee7e32"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "aMiNo-App",

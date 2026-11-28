@@ -4,22 +4,13 @@
   "release_en": "2026-09-18",
   "semantica_http": 200,
   "ultima_release": "1.0.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "App store for Shizuku apps. Based on my awesome-shizuku list and installs APKs straight from their upstream sources",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/timschneeb--shizustore.json",
-  "sha256": "2af22be273400954ab2e490906be478d4c809e80fa657d45d8dbf8a34133f81c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fc7259a66736499451c46ee9fab35f5371024cb0a2f97ae52b90539b14a7b1a6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 528,
+  "stars": 737,
   "stars_por_mes": null
  },
  "nombre": "ShizuStore",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "a51cbee07deabd8c38c982e810da1f4e0f8d9013",
+  "commit": "59fe80f9a3a3393aa29d9c69e14b87ceede7f4c0",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a51cbee07deabd8c38c982e810da1f4e0f8d9013"
+  "swhid": "swh:1:rev:59fe80f9a3a3393aa29d9c69e14b87ceede7f4c0"
  },
  "repo": "timschneeb/ShizuStore",
  "web": "shizustore.com"

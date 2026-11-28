@@ -4,22 +4,13 @@
   "release_en": "2017-11-09",
   "semantica_http": 200,
   "ultima_release": "v1.3.4",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/super-productivity--super-productivity.json",
-  "sha256": "f91017543cc5c8996ca12e55612e6a4cb4c09735da10f55e4f47b6ca0e8a21d2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "db2669601c54c62137d424ae52f3a8e354bdc5e46e0597f47b8f51b6f1e6cdf1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 23376,
+  "stars": 24142,
   "stars_por_mes": null
  },
  "nombre": "super-productivity",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ffc17266daf62754cb8124462de49e22c339d271",
+  "commit": "2d1937835dff74e724e6d454425002a5969b51e9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ffc17266daf62754cb8124462de49e22c339d271"
+  "swhid": "swh:1:rev:2d1937835dff74e724e6d454425002a5969b51e9"
  },
  "repo": "super-productivity/super-productivity",
  "web": "http://super-productivity.com?ref=github"

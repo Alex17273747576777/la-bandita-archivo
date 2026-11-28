@@ -8,18 +8,9 @@
  },
  "descripcion": "a clean, practical, ad-free IPTV app",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/oxyroid--m3uandroid.json",
-  "sha256": "fe952556aa48f253056362c92142b8cd59beff696c2bfc241c5b904e058a6c0f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "263640979fb9761db27709c59dff2632455a68c7634e3dbd77a9d47094414f0c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1285,
+  "stars": 1284,
   "stars_por_mes": null
  },
  "nombre": "M3UAndroid",

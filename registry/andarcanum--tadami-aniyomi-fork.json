@@ -4,22 +4,13 @@
   "release_en": "2026-01-13",
   "semantica_http": 200,
   "ultima_release": "0.19",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "An app for manga, anime and ranobe",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/andarcanum--tadami-aniyomi-fork.json",
-  "sha256": "1b044210c19586f8801e0d0c6cf213e028dc2796ce33985cd40ff944b012ea96"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ad5d77ce8dc8f7f8d72f3a5abb6444f673874493ab6f9761609118119f61740c"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 287,
+  "stars": 299,
   "stars_por_mes": null
  },
  "nombre": "Tadami-Aniyomi-fork",
@@ -50,10 +41,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "f3af9e7c6ec6dedf9934ef61d4ed37d3b8c067de",
+  "commit": "48842a6aea8fb70c00a27bbaca1c6d0b6a4be5b5",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f3af9e7c6ec6dedf9934ef61d4ed37d3b8c067de"
+  "swhid": "swh:1:rev:48842a6aea8fb70c00a27bbaca1c6d0b6a4be5b5"
  },
  "repo": "andarcanum/Tadami-Aniyomi-fork"
 }

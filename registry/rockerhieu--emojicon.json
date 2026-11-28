@@ -8,18 +8,9 @@
  },
  "descripcion": "A library to show emoji in TextView, EditText (like WhatsApp) for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/rockerhieu--emojicon.json",
-  "sha256": "56ed19a0774b7980ea6f51f510b27394a2e70f754811fb823f5cd468b8a2dc14"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e7c98fffdddcfab4fed69255614f2fb76146b08aa0e61523c1c0164aa225b4a2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3587,
+  "stars": 3582,
   "stars_por_mes": null
  },
  "nombre": "emojicon",

@@ -8,18 +8,9 @@
  },
  "descripcion": "Makes an 8BitDo Ultimate Wired Controller for Xbox work as a real system-wide gamepad on Android TV via reverse-engineered GIP protocol + Shizuku injection",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/borednewcoder--8bitdo-xbox-bridge.json",
-  "sha256": "6adb836731f4f9223decfff48360b6284ee31546449f42d6f98097a03708ce65"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7f0fda0c5f1905ac0fa7cfec2c53d5d154fd384e35b9d1aa3a6ab472b04bf49f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 4,
+  "stars": 6,
   "stars_por_mes": null
  },
  "nombre": "8bitdo-xbox-bridge",

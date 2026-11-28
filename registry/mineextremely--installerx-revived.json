@@ -4,22 +4,13 @@
   "release_en": "2026-10-05",
   "semantica_http": 200,
   "ultima_release": "26.10.d475176",
-  "ultimo_push": "2026-10-27"
+  "ultimo_push": "2026-11-19"
  },
  "descripcion": "More Expressive InstallerX !",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mineextremely--installerx-revived.json",
-  "sha256": "62904b318a1defcc29739e489a4128c78f9ee69eb457bdbf5d9e39d8e0c803ad"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e1a5d0a9f7926ab6e181b95b103a738f29fe8996a065a60c2a4557059ab299bc"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "2fa5944fc747527db1013fee5da64aee57e042c6",
+  "commit": "00284b7e1fc9a53186a945edc2f2a1bab96f9e96",
   "swh_estado": null,
-  "swhid": "swh:1:rev:2fa5944fc747527db1013fee5da64aee57e042c6"
+  "swhid": "swh:1:rev:00284b7e1fc9a53186a945edc2f2a1bab96f9e96"
  },
  "repo": "mineextremely/InstallerX-Revived"
 }

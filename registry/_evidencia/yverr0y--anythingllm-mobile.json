@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
-   "committedDate": "2026-10-05T03:10:47Z",
-   "oid": "e86368181230403eb8e669d3b25593ff8b1a7943"
+   "committedDate": "2026-11-11T18:05:44Z",
+   "oid": "fef1fe7f9fdfba7895f68aa4b28d332ae510ddc3"
   }
  },
- "diskUsage": 41770,
+ "diskUsage": 41839,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "GPL-3.0"
  },
  "nameWithOwner": "Yverr0y/anythingllm-mobile",
- "pushedAt": "2026-10-07T23:31:29Z",
+ "pushedAt": "2026-11-12T00:20:11Z",
  "releases": {
   "nodes": []
  },

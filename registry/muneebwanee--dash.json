@@ -8,18 +8,9 @@
  },
  "descripcion": "This is an Android Spyware App, Which uploads user data such as Contacts, Messages, Call log & recordings, Send messages, Photos, Videos, etc.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/muneebwanee--dash.json",
-  "sha256": "6be3fa179f0be57100c82a89f80745b6d810a0a9399f7bdd712b162bc1b119ac"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3af6ffd14ba531c7f4bee922fb30401adc662d48fc420ca734a73940d1466aa7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 626,
+  "stars": 634,
   "stars_por_mes": null
  },
  "nombre": "Dash",

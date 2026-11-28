@@ -8,18 +8,9 @@
  },
  "descripcion": "A local-first personal AI agent that lives on your Android phone. Permanent memory, scheduled autonomous work, self-written mini-apps, and an optional home-screen launcher. Your data stays on the device — bring your own API key, or run a local model and keep the whole loop offline.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/karthick-sk20--jenny-android-ai-agent.json",
-  "sha256": "6e65fc35ccd4213c3399f7de10e6427dba02c6fcc4381a47f9f5dfa83064e546"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ab0eb7a002715ab419591da5502c5a80fac20e5ec0b099c15c46f296547000f0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

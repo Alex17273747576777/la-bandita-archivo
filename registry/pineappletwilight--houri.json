@@ -4,22 +4,13 @@
   "release_en": "2026-08-15",
   "semantica_http": 200,
   "ultima_release": "v1.15.6",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pineappletwilight--houri.json",
-  "sha256": "4123eae2dc3d6d87678e024e97707474e917195e00830c0155754490e8834041"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "689c7ced18b0cbb26cb64743e3cf6492441b292ecad6465f843aeb860a68e749"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 41,
+  "stars": 56,
   "stars_por_mes": null
  },
  "nombre": "houri",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1144be12234d6a50c98177fc0402ca1468272446",
+  "commit": "322bc1f84e96506f9330a500f7d0af3e296ef39a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1144be12234d6a50c98177fc0402ca1468272446"
+  "swhid": "swh:1:rev:322bc1f84e96506f9330a500f7d0af3e296ef39a"
  },
  "repo": "PineappleTwilight/houri"
 }

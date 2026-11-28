@@ -4,22 +4,13 @@
   "release_en": "2026-07-18",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Whip is an agent-native SSH mobile client, designed specifically for the Herdr multiplexer from day one",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kosumic--whip.json",
-  "sha256": "d7101d1c0fe5ac6401e20996db74605a2de7160dd52b48f2753722bcd2da8ba9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a5787d65d937cfe567f5a4d55d865ad9c5a45810751e37d65f87bbff42ca7ae7"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 124,
+  "stars": 157,
   "stars_por_mes": null
  },
  "nombre": "whip",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "646eb8379bd74d5c8a6aaaf8d1678c2f14645822",
+  "commit": "367327d4bb700f084739fff7d9240978facecd89",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:646eb8379bd74d5c8a6aaaf8d1678c2f14645822"
+  "swhid": "swh:1:rev:367327d4bb700f084739fff7d9240978facecd89"
  },
  "repo": "kosumic/whip",
  "web": "https://kosumic.github.io/whip/"

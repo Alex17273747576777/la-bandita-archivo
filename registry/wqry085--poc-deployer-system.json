@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "muerto",
-  "release_en": null,
-  "semantica_http": 404,
-  "ultima_release": null,
+  "estado": "dormido",
+  "release_en": "2025-10-21",
+  "semantica_http": 200,
+  "ultima_release": "v1.5.6",
   "ultimo_push": "2026-02-16"
  },
  "descripcion": "Quick tool for utilizing CVE-2024-31317 on Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/wqry085--poc-deployer-system.json",
-  "sha256": "293b6836c293a52e61d3715194954fae7f965f0f3f0beb419c9867668235cf9a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "sin_objeto",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "el repositorio no existe: la API devolvió 404",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bdee9d5f3596d0111efde083e5969b73d0a11311a557602a05ba66a8eb478f63"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-10-31"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": null,
+  "stars": 98,
   "stars_por_mes": null
  },
  "nombre": "PoC-Deployer-System",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": null,
+  "commit": "c460e4c95405efee51e692818241829828732322",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": null
+  "swhid": "swh:1:rev:c460e4c95405efee51e692818241829828732322"
  },
  "repo": "wqry085/PoC-Deployer-System"
 }

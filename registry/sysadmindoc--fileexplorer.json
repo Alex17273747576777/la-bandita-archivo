@@ -8,18 +8,9 @@
  },
  "descripcion": "Android file manager for local storage, root, archives, network shares, and optional cloud accounts. Includes previews, transfers, vaults, and storage analysis.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/sysadmindoc--fileexplorer.json",
-  "sha256": "c9cf55490052e83b94aef198376d2c4480ee0908026c669456ed8f3bae6aef8b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f495993f188a90a2da81f540585f7ccd73e1d699e2b9b8e4571b0f690a6d7fc6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 57,
+  "stars": 61,
   "stars_por_mes": null
  },
  "nombre": "FileExplorer",

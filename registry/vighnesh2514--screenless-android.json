@@ -8,18 +8,9 @@
  },
  "descripcion": "Use an Android phone with a broken screen from any Windows or Mac laptop. scrcpy + adb launcher, wireless mode, speed tuning, AI phone agent. No root, no app on the phone.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/vighnesh2514--screenless-android.json",
-  "sha256": "72e8da8cbc74f44a5670fbeba4e15e32b31df8f1488659f28f7c4f5bff56953b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "545c367b72bcae048f9a459dbc12dc8aeb29d03e4ff0d184dae2ba408d6d4884"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 2,
   "stars_por_mes": null
  },
  "nombre": "screenless-android",

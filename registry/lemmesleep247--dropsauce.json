@@ -4,22 +4,13 @@
   "release_en": "2026-08-17",
   "semantica_http": 200,
   "ultima_release": "v0.9.3",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "A light, beautiful manga reading app designed with Jetpack Compose and M3 Expressive that works with mihon extensions.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lemmesleep247--dropsauce.json",
-  "sha256": "e48a56b92d34902986cccd5d6a5fed55a3e0b3bc0b7def2a623b6caa685096bd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5474cdefdd5a8f6c0fd8e05d150f3ec976eee33f4b0d46abeb098ff2fd1975cb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "33f642c2eb44624a154b2612c6f5d8e30641f802",
+  "commit": "70bfe851b046f17631b0ce98b10ac5c495de4dc7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:33f642c2eb44624a154b2612c6f5d8e30641f802"
+  "swhid": "swh:1:rev:70bfe851b046f17631b0ce98b10ac5c495de4dc7"
  },
  "repo": "lemmesleep247/DropSauce",
  "web": "https://drop-sauce.app/"

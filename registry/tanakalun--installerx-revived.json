@@ -4,22 +4,13 @@
   "release_en": "2026-02-16",
   "semantica_http": 200,
   "ultima_release": "v2.3.3.cee7e76-alpha",
-  "ultimo_push": "2026-10-24"
+  "ultimo_push": "2026-11-12"
  },
  "descripcion": "Ababa",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/tanakalun--installerx-revived.json",
-  "sha256": "d90d37afef881ecafcef27407de11bc9071ad2cc949a0b610f5c30a97bef538c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5af2a6552f4a2b6917d836863d02405359bce92947f76f724ab53e4d2d2afa34"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ee3e5acacd1820b76cfda88822059df3f61a73c3",
+  "commit": "70eebba05b7d9a570109d3d8abbb88f76aa20f91",
   "swh_estado": null,
-  "swhid": "swh:1:rev:ee3e5acacd1820b76cfda88822059df3f61a73c3"
+  "swhid": "swh:1:rev:70eebba05b7d9a570109d3d8abbb88f76aa20f91"
  },
  "repo": "TanakaLun/InstallerX-Revived"
 }

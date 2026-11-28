@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "dormido",
+  "estado": "vivo",
   "release_en": "2025-12-09",
   "semantica_http": 200,
   "ultima_release": "V1.0.0",
-  "ultimo_push": "2026-01-08"
+  "ultimo_push": "2026-11-09"
  },
  "descripcion": "Android Automation Tool Based on Vision-Language Models",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/turbo1123--roubao.json",
-  "sha256": "e7cc5b393f3c45a9e4a55cad1dc49090e85f9ff455def6839c93fefb222ab6eb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ae83810d7c195fbc7cdedfdd7abb168f739421d2c94e574157a69eb743e4eaad"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,23 +25,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2412,
+  "stars": 2428,
   "stars_por_mes": null
  },
  "nombre": "roubao",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "c8a6d7f03422eb01744b01f3ee77bf7757741f7e",
+  "commit": "fba7a07f6c183e4eac141303bb62dff370b60010",
   "swh_estado": "archivada",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:c8a6d7f03422eb01744b01f3ee77bf7757741f7e"
+  "swhid": "swh:1:rev:fba7a07f6c183e4eac141303bb62dff370b60010"
  },
  "repo": "Turbo1123/roubao"
 }

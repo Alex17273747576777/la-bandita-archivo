@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
    "committedDate": "2026-07-25T06:18:47Z",
    "oid": "3b2364cc362a12610f4a8d3155ecf7a195d37d35"
   }
  },
- "diskUsage": 36440,
+ "diskUsage": 60090,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "MPL-2.0"
  },
  "nameWithOwner": "zeedif/Suwayomi-Tsumiru",
- "pushedAt": "2026-07-28T02:45:20Z",
+ "pushedAt": "2026-11-07T22:30:17Z",
  "releases": {
   "nodes": []
  },

@@ -4,22 +4,13 @@
   "release_en": "2026-07-29",
   "semantica_http": 200,
   "ultima_release": "1",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "A serious terminal emulator with a stupid name",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/pg83--shitty.json",
-  "sha256": "48dc814852536e6d8990cd06fce34510d8a633213bf745589772c6d417797c15"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "72cca5665ca9fbcb38f22e5c6f4a20c8957ca140cd334bc1ed2b09afd3ee1b9a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 322,
+  "stars": 327,
   "stars_por_mes": null
  },
  "nombre": "shitty",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "509bd3f95778729d9890c68ab150d94bff372a0e",
+  "commit": "7507ba0d1fab5c4da4f30f03194d86c6fe0ae7ca",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:509bd3f95778729d9890c68ab150d94bff372a0e"
+  "swhid": "swh:1:rev:7507ba0d1fab5c4da4f30f03194d86c6fe0ae7ca"
  },
  "repo": "pg83/shitty"
 }

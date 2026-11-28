@@ -4,22 +4,13 @@
   "release_en": "2026-06-18",
   "semantica_http": 200,
   "ultima_release": "v1.3.0",
-  "ultimo_push": "2026-10-29"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Umamusume bot for Uma Musume: Pretty Derby (Global): hands-off career training on Android and MuMu Player. Run queues, trainee rotation, built-in presets for URA Finale, Unity Cup, Trackblazer and Grand Concert. Free and open source, based on steve1316's uma-android-automation.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lhceist41--uma-auto-plus.json",
-  "sha256": "53a857ac21d3a39a64028f6af7c5dafa9fca6e300bfb930ff82659a4de84d606"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c3eed5a6bf4f5cb6c18d6d1180de96c8248140bd84485e9b1e2f545e292f3a84"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b19fcf0c18154d8e5c3c4723a04fa6e75786fcc5",
+  "commit": "016ac473688323d9147623bc62a9f71c197ee4ed",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b19fcf0c18154d8e5c3c4723a04fa6e75786fcc5"
+  "swhid": "swh:1:rev:016ac473688323d9147623bc62a9f71c197ee4ed"
  },
  "repo": "lhceist41/uma-auto-plus",
  "web": "https://github.com/lhceist41/uma-auto-plus/releases/latest"

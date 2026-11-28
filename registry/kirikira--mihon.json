@@ -4,22 +4,13 @@
   "release_en": "2026-05-24",
   "semantica_http": 200,
   "ultima_release": "ci-2026.05.24-1-b9598c9",
-  "ultimo_push": "2026-10-26"
+  "ultimo_push": "2026-11-06"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kirikira--mihon.json",
-  "sha256": "b6fa938d8fbe5aeb504ba271c35eafe05475a7617bea183bc23f3e61d9b0af7a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fe60c7f008356d5d31963de945e0575fc18b3bd784a39b4e9db983d759b95db8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "4612d62ee3306d716caea094568c1cd6f7b349e2",
+  "commit": "042f8904b28fbef6f6e2f6934a01ea8da2a8fe4a",
   "swh_estado": null,
-  "swhid": "swh:1:rev:4612d62ee3306d716caea094568c1cd6f7b349e2"
+  "swhid": "swh:1:rev:042f8904b28fbef6f6e2f6934a01ea8da2a8fe4a"
  },
  "repo": "KiriKira/mihon"
 }

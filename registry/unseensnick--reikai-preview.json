@@ -4,22 +4,13 @@
   "release_en": "2026-06-27",
   "semantica_http": 200,
   "ultima_release": "r380",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Preview/nightly builds for Reikai, auto-published from unseensnick/Reikai. Reikai's in-app updater checks here for preview updates.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/unseensnick--reikai-preview.json",
-  "sha256": "7942717f9868c683a811c9b94a33af9239f293896b535df8d64fdbd392950705"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "48609b0235829538eb03652701d2e326ca4409d3d9b0cf916ff2115377a441b1"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 6,
+  "stars": 7,
   "stars_por_mes": null
  },
  "nombre": "Reikai-preview",

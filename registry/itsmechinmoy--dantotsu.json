@@ -4,22 +4,13 @@
   "release_en": "2026-03-26",
   "semantica_http": 200,
   "ultima_release": "v3.2.2+8b1c4a8",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Anilist client based on Saikou",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/itsmechinmoy--dantotsu.json",
-  "sha256": "041e1e2156c47cad8e5613302bae0b9af103f9261a8475b11fde42b18ff19cb3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d08f3a0fe43d133728f72b176557eea50d81724fdb3cf2097cd593c2f1d113a6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE.md",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 93,
+  "stars": 97,
   "stars_por_mes": null
  },
  "nombre": "Dantotsu",
@@ -49,10 +40,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "74ae756e85645ae279c2e1ce0e76e2dfaf10112a",
+  "commit": "aab37eb45fb55aedca8c2f69fdc2e0a1cd918a83",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:74ae756e85645ae279c2e1ce0e76e2dfaf10112a"
+  "swhid": "swh:1:rev:aab37eb45fb55aedca8c2f69fdc2e0a1cd918a83"
  },
  "repo": "itsmechinmoy/Dantotsu",
  "web": "https://git.rebelonion.dev/rebelonion/Dantotsu/src/branch/dev"

@@ -4,22 +4,13 @@
   "release_en": "2026-10-05",
   "semantica_http": 200,
   "ultima_release": "v0.8.0",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Your agent, on your phone. A native Android app for Hermes Agent, running entirely on-device (Termux).",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/omarqaterge--hermes-mobile-app.json",
-  "sha256": "85850c719fca7701ed81c142f153407584498abee9f8c092c7d7eb346485eca2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "eabba0d5b5859a59bf79303eb0e280a8448f869fc4a0f84b7af9f5439b6dc893"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 98,
+  "stars": 167,
   "stars_por_mes": null
  },
  "nombre": "hermes-mobile-app",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e33bd2511a1120db28d48363bfb30655decde21d",
+  "commit": "ce6916c049d82af444eeaad1c374169549967761",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e33bd2511a1120db28d48363bfb30655decde21d"
+  "swhid": "swh:1:rev:ce6916c049d82af444eeaad1c374169549967761"
  },
  "repo": "omarqaterge/hermes-mobile-app"
 }

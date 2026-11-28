@@ -8,18 +8,9 @@
  },
  "descripcion": "易能签 EnSIgn —— iPhone/iPad 上的一体化签名工具，支持一键自动更新、插件注入、软件源与文件管理，无需电脑与越狱 | All-in-one on-device iOS signing app with one-tap auto update",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/cc158999--ensign.json",
-  "sha256": "04b75572d9353e8b895fe008b7a15f0a104c2539e06305ff77c5ae315995d45a"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "11d3ff4b82f1ce2a580479d8587a285287e060b1d415e0b0f061bce14d1e987a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 98,
+  "stars": 106,
   "stars_por_mes": null
  },
  "nombre": "EnSign",

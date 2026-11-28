@@ -8,18 +8,9 @@
  },
  "descripcion": "Efficient grid cursor and customizable standard cursor with support for Android 7.0+ dumbphones and TVs.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/austinauyeung--c9.json",
-  "sha256": "53917e108d21e8f3c99e9980ba6425682b9d0bb80f023376a6400210f95c496e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b0982743c42a5efc8cf39eef9f4292fffaf5df9e27558311642f20e10cfc3039"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 96,
+  "stars": 95,
   "stars_por_mes": null
  },
  "nombre": "C9",

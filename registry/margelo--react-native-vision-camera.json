@@ -4,22 +4,13 @@
   "release_en": "2021-02-25",
   "semantica_http": 200,
   "ultima_release": "v1.0.0-alpha.1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "📸 A powerful, high-performance React Native Camera library.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/margelo--react-native-vision-camera.json",
-  "sha256": "a968c84798237af5854b594ea26411bbb70ae03c75edbf12949a6e4588cec20e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1784e272f1348b8a094963cb13f4f7921b2b61bd93241747bb071702a99c0a0b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9650,
+  "stars": 9668,
   "stars_por_mes": null
  },
  "nombre": "react-native-vision-camera",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e3084ac562742fb3cb8c825ef81310e94f830551",
+  "commit": "d54fc486c3a9dd6837f1b1429a381499ad400d89",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e3084ac562742fb3cb8c825ef81310e94f830551"
+  "swhid": "swh:1:rev:d54fc486c3a9dd6837f1b1429a381499ad400d89"
  },
  "repo": "margelo/react-native-vision-camera",
  "web": "https://visioncamera.margelo.com"

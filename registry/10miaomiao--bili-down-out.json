@@ -8,18 +8,9 @@
  },
  "descripcion": "哔哩哔哩缓存导出工具",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/10miaomiao--bili-down-out.json",
-  "sha256": "d76201918c03660b2350b6d3ba79f3c3543837b3cff1e08ec76246bb8bd914fb"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "304326380aed7724f1c58b1def7b4ce5ff9185191a65c53576d5694e76cd0e9e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 383,
+  "stars": 393,
   "stars_por_mes": null
  },
  "nombre": "bili-down-out",

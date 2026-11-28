@@ -4,22 +4,13 @@
   "release_en": "2026-07-20",
   "semantica_http": 200,
   "ultima_release": "v1.7.0",
-  "ultimo_push": "2026-10-20"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Encrypted, fully offline agentic memory. One click install, GUI w/ memory map, all OS and agents. Superior memory creation, storage and retrieval.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/maxfreedompollard--compartment.json",
-  "sha256": "1e2388eae42c714214492274a56c0a534e66d045a383f4df5afc979e2ca7f6b9"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c4fbafc9919bfe26b8d40093b0919bd27e218107c8b40c4483d340c5bd0f2752"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 580,
+  "stars": 473,
   "stars_por_mes": null
  },
  "nombre": "Compartment",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d51fe295f0a193fca4be49469d98368f85b0deff",
+  "commit": "b4c54fb4738842b83dabdb7c05c570046f65927c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:d51fe295f0a193fca4be49469d98368f85b0deff"
+  "swhid": "swh:1:rev:b4c54fb4738842b83dabdb7c05c570046f65927c"
  },
  "repo": "MaxFreedomPollard/Compartment",
  "web": "https://maxfreedompollard.github.io/Compartment/"

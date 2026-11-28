@@ -4,22 +4,13 @@
   "release_en": "2026-10-19",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "A home screen for Android TV and Google TV, laid out around what you actually watch. Quick on the remote, calm to look at, and nothing leaves the house.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/gingerbreadfork--lounge.json",
-  "sha256": "d1910f933ee9d15c83467f66e53f4011c9388feb8daf942ecbfc73c8975bf5d5"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "0c4040b7922f73032ba3220f33d9788984499f4009ccdc4d3dea29613b34e076"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 3,
+  "stars": 46,
   "stars_por_mes": null
  },
  "nombre": "lounge",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5d2c4dbec2749f3de6fc6c22a7dc71584d83ece7",
+  "commit": "455248b52102b5281dcffe7500b33629f31a2cfa",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5d2c4dbec2749f3de6fc6c22a7dc71584d83ece7"
+  "swhid": "swh:1:rev:455248b52102b5281dcffe7500b33629f31a2cfa"
  },
  "repo": "Gingerbreadfork/lounge"
 }

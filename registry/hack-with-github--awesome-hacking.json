@@ -8,18 +8,9 @@
  },
  "descripcion": "A collection of various awesome lists for hackers, pentesters and security researchers",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hack-with-github--awesome-hacking.json",
-  "sha256": "14ea71f016a72d650289716818885c051aac8a2fc800653c1607e96b53020b16"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "24c953e443539970c974a455538aa9ace5f28470d5fb55afbc2f636ea801e2ca"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "CC0-1.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 124475,
+  "stars": 126758,
   "stars_por_mes": null
  },
  "nombre": "Awesome-Hacking",

@@ -8,18 +8,9 @@
  },
  "descripcion": "Desktop app for reading translated mangá from any website (linux, windows, mac)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/akitaonrails--frank_scanlation.json",
-  "sha256": "965d559e9363563e1fc65f6a2806348ad1a5fc7feeb6dea788f3f97ac55b4276"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f1064da7bc358d610b43cb62d5299a30a405342a81414b4f45bab6da5808592d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

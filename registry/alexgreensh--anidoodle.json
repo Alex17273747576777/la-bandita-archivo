@@ -4,22 +4,13 @@
   "release_en": "2026-09-22",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-05"
  },
  "descripcion": "Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/alexgreensh--anidoodle.json",
-  "sha256": "179a10c804e1ed691fd6e5afe029f2ef295ec51ed1383159461336ee96532c21"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "4a67c3a7b8116de74d071a4594b79c0ecde24c09352bd6b73acc18483db3932f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1244,
+  "stars": 2098,
   "stars_por_mes": null
  },
  "nombre": "anidoodle",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "9c20e77467be393e54c7193611eeec2f7bfb8cc7",
+  "commit": "4ae27d2c281fcfd01bce87ab13dc5ad4df81a795",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:9c20e77467be393e54c7193611eeec2f7bfb8cc7"
+  "swhid": "swh:1:rev:4ae27d2c281fcfd01bce87ab13dc5ad4df81a795"
  },
  "repo": "alexgreensh/anidoodle",
  "web": "https://alexgreenshpun.com"

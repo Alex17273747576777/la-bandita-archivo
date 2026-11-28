@@ -8,18 +8,9 @@
  },
  "descripcion": "Per-app volume control for Android, designed with Nothing OS aesthetics.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/farizanjum--mixer-1.json",
-  "sha256": "e54136699225fca4ff5340960fe3e1e8b0bf5508dcd035656607eb892bf1a719"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "03621051bf4865003845c2f2ac2b2d9ffdca6b5fa1dc547112213288db0bfcc2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,11 +25,11 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 49,
+  "stars": 50,
   "stars_por_mes": null
  },
  "nombre": "mixer-1",

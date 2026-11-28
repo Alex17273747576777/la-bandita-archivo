@@ -4,22 +4,13 @@
   "release_en": "2026-10-13",
   "semantica_http": 200,
   "ultima_release": "devkit-2026.10.13",
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Run the official Claude Code natively on Android — no root, no proot. Chat GUI, terminal, toolchain and APK builds, all on your phone.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/greyoak111--cccodroid.json",
-  "sha256": "b20504d86d6af64a749b300d81499e24dc6d7aed493e2f0c3871162a06b3c8af"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "35f216b7b8914cef6425c340f3b6f6052e0d97f9a8588dc5a01a44a5f326caf9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 48,
+  "stars": 103,
   "stars_por_mes": null
  },
  "nombre": "cccodroid",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "76541d048db2f30f739c184a4fb2e3c45f07a223",
+  "commit": "f9a244971fbe98da5b584ce54b26f99ac1361689",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:76541d048db2f30f739c184a4fb2e3c45f07a223"
+  "swhid": "swh:1:rev:f9a244971fbe98da5b584ce54b26f99ac1361689"
  },
  "repo": "greyoak111/cccodroid",
  "web": "https://cccodroid.net"

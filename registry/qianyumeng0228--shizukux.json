@@ -4,22 +4,13 @@
   "release_en": "2026-09-03",
   "semantica_http": 200,
   "ultima_release": "v13.6.0.r2001",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "ShizukuX 是 Shizuku 的增强分支：让普通应用借助 ADB / Root 特权进程直接调用系统级 API，并内置 Dhizuku、Extra API、Root 兼容桥等高级能力。继承自 ShizukuPlus（Apache 2.0）。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/qianyumeng0228--shizukux.json",
-  "sha256": "ff2a6d3a556ba3b1ca55f51bec05a7f72a4a4cd9be0b498aa804c00f5f17ae97"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "179a728238ba45ead07b93d53b5fb232c2e4ea9294eeb7d2a7a40333b22c3759"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 183,
+  "stars": 241,
   "stars_por_mes": null
  },
  "nombre": "ShizukuX",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "1fa185ce5c8056cf5108bee2d9121524dd1fef01",
+  "commit": "d76d4a851b998cdca92b68eacafdbb51c4110c11",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:1fa185ce5c8056cf5108bee2d9121524dd1fef01"
+  "swhid": "swh:1:rev:d76d4a851b998cdca92b68eacafdbb51c4110c11"
  },
  "repo": "qianyumeng0228/ShizukuX",
  "web": "https://shizukux.xyz"

@@ -4,22 +4,13 @@
   "release_en": "2026-06-06",
   "semantica_http": 200,
   "ultima_release": "v1-0.0.1",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-22"
  },
  "descripcion": "Open-source BYOK AI agent for Android. Full phone control, native Shell & Python 3, with Skills and MCP support. Built with Material 3 Expressive. Works via Shizuku (root optional). Bring any provider: OpenRouter, Ollma, and more.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/niki914--zafiro.json",
-  "sha256": "b95675bc25a0f9b796b2d005abb2fba4920eb76074f3bf2b98cece1db5ec2532"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "22c73e4f89c10c452937cb71e4b6289c5c7fd69db767ff87c8f895635dc1e341"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 330,
+  "stars": 401,
   "stars_por_mes": null
  },
  "nombre": "zafiro",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "c9b5b6a0d7f6e629e3d5983b32def4aa3eca25c3",
+  "commit": "bd3767ef1849f12d7aa7e302d7f10342871a52d8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:c9b5b6a0d7f6e629e3d5983b32def4aa3eca25c3"
+  "swhid": "swh:1:rev:bd3767ef1849f12d7aa7e302d7f10342871a52d8"
  },
  "repo": "niki914/zafiro"
 }

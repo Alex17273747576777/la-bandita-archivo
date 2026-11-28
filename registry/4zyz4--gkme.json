@@ -4,22 +4,13 @@
   "release_en": "2026-06-28",
   "semantica_http": 200,
   "ultima_release": "1.2.0",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Turn your Android phone into a virtual gamepad — or a virtual keyboard and mouse! Supports WiFi LAN, direct USB, and direct Bluetooth connections.把你的 Android 手机变成一台虚拟游戏手柄！也可以是虚拟键盘、鼠标！支持 WiFi 局域网、USB 直连与蓝牙直连。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/4zyz4--gkme.json",
-  "sha256": "7ad3df16a36920f3c61a08affa7252592e78673e0697c1844f8c95b70fbfdc7f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "dd5530355acbc844c68440f1c5132e552c8d923a4c55a68b6bd63fc4cdf2fcfb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -31,24 +22,24 @@
  "licencia": {
   "archivo": "LICENSE",
   "metodo": "spdx-api",
-  "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "spdx": "GPL-3.0",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 44,
+  "stars": 68,
   "stars_por_mes": null
  },
  "nombre": "GKME",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6d71686ba10d57177a36c991a3c9c461320f0e22",
+  "commit": "93fb8ff540b8db19b2299d98b813fbfa8106b0f3",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:6d71686ba10d57177a36c991a3c9c461320f0e22"
+  "swhid": "swh:1:rev:93fb8ff540b8db19b2299d98b813fbfa8106b0f3"
  },
  "repo": "4zyz4/GKME"
 }

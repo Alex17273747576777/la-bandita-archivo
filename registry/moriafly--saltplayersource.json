@@ -4,22 +4,13 @@
   "release_en": "2021-08-04",
   "semantica_http": 200,
   "ultima_release": "3.3.0-release-2021080402",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-20"
  },
  "descripcion": "A multi-platform local music player in continuous development since 2020, serving over one million users. This repository is used for issue tracking and official Android package releases.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/moriafly--saltplayersource.json",
-  "sha256": "43a51702f1e40923b20d2984c9d635d4e563db8bbb363d9bba8945e2d4fae3d1"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fb80a72210bebc760d3eea98278fb32cfdb507365aed5b075cf19f292ef1f47d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 7594,
+  "stars": 7718,
   "stars_por_mes": null
  },
  "nombre": "SaltPlayerSource",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "48b2fde247d6b5529fee14ebf0d4198c9436cd3d",
+  "commit": "041a2fe212e9d113265f79542ff10382306c255c",
   "swh_estado": "archivada",
   "swh_solicitud": "48b2fde247d6b5529fee14ebf0d4198c9436cd3d",
-  "swhid": "swh:1:rev:48b2fde247d6b5529fee14ebf0d4198c9436cd3d"
+  "swhid": "swh:1:rev:041a2fe212e9d113265f79542ff10382306c255c"
  },
  "repo": "Moriafly/SaltPlayerSource",
  "web": "https://saltplayer.com"

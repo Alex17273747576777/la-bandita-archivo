@@ -4,22 +4,13 @@
   "release_en": "2026-10-02",
   "semantica_http": 200,
   "ultima_release": "v1.6",
-  "ultimo_push": "2026-10-04"
+  "ultimo_push": "2026-11-20"
  },
  "descripcion": "Block any app's internet, both WiFi and mobile data, on an unrooted Android phone. No VPN, no root, and nothing running in the background. Blocks are written straight into Android's own kernel firewall through Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/mimbasher--netcontrol.json",
-  "sha256": "18cd1c470229c0e1a221966f2d81527c28fd48708f4a71ad64b97aea74ffc25b"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "e10796e03b9e9e08b67b854fda4c92539dd9901a286f971af4f6b5b388628caf"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,11 +21,11 @@
  "id": "mimbasher--netcontrol",
  "licencia": {
   "archivo": null,
-  "metodo": "ausencia-firmada",
-  "spdx": null,
-  "verificado_en": "2026-10-31"
+  "metodo": "spdx-api",
+  "spdx": "MIT",
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "97397e0cb500885789868db9a29e070327ad1568",
+  "commit": "b7c7c5e9259985b1e9d9589fe49095caa1c64d1e",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:97397e0cb500885789868db9a29e070327ad1568"
+  "swhid": "swh:1:rev:b7c7c5e9259985b1e9d9589fe49095caa1c64d1e"
  },
  "repo": "mimbasher/NetControl"
 }

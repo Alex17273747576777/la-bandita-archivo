@@ -8,18 +8,9 @@
  },
  "descripcion": "Samsung Galaxy向け非公式Androidツール。Kotlin / Jetpack Compose製のソースコードと署名済みAPKを公開。",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/fun7772ei--onetools.json",
-  "sha256": "22f540ae3f2d2198046936d265076f72956ddc9465e04f77694f1006f56c85f8"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "86e4726280c8852b4c9b51f73510e8e9a0108e2f0fe2274da1a61d252d23d2b5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

@@ -4,22 +4,13 @@
   "release_en": "2026-08-20",
   "semantica_http": 200,
   "ultima_release": "build-toolchains",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "Turns an Android handheld into a shared desktop — Windows via Wine/Box64, Linux via containers, one merged compositor, dom0-style architecture",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/droidtop--droidtop.json",
-  "sha256": "4e4f9f9dc7b890da9c19b7b68e7775ffd39d536c48c05c0c86a52d08622b45ac"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ddbc8747c08e0c1f48d03772d290cef74fbd77144a7fae7419bf69878f3a8f32"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e528e190cfc07a0fbbd45656aaff83a4c5d5cc53",
+  "commit": "e04a90c43f34ef418eafda761d66d714aae21054",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:e528e190cfc07a0fbbd45656aaff83a4c5d5cc53"
+  "swhid": "swh:1:rev:e04a90c43f34ef418eafda761d66d714aae21054"
  },
  "repo": "Droidtop/droidtop"
 }

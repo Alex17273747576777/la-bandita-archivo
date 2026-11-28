@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-30"
+  "ultimo_push": "2026-11-28"
  },
  "descripcion": "An alternative privacy-friendly YouTube frontend which is efficient by design.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/teampiped--piped.json",
-  "sha256": "2aaa2f94d1c813279ece830af848b1c83be80fc8048baa4221e57687d76a65e3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d6f963f9f98373c51b32a96ae8e58b25fa31a4de2457da2ef52eb016aab2bf34"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 10304,
+  "stars": 10339,
   "stars_por_mes": null
  },
  "nombre": "Piped",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "35336c938badd2aec2be20c9290154ed61ad28e2",
+  "commit": "836b2a112a1826953dd8030ccfb7cb8a457a737a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:35336c938badd2aec2be20c9290154ed61ad28e2"
+  "swhid": "swh:1:rev:836b2a112a1826953dd8030ccfb7cb8a457a737a"
  },
  "repo": "TeamPiped/Piped",
  "web": "https://piped.video"

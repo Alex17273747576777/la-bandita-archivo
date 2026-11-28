@@ -4,22 +4,13 @@
   "release_en": "2024-06-15",
   "semantica_http": 200,
   "ultima_release": "pre-release-b57a44c41cfda3c26cfb12c114e837f8e1a66844",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "WhatsApp tools for Android",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dev4mod--waenhancer.json",
-  "sha256": "0b36e92040b6316ad3cad697711bc87ef0f37cf639bd79b5bca1899fcbd4e9c5"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "cb827ad5c9643242a3a5c2d00121a3e0ac1a70301d3cbaf6472a61ba689969d0"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1833,
+  "stars": 1916,
   "stars_por_mes": null
  },
  "nombre": "WaEnhancer",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "36c22aeda030327704b5ee0b099f060fd42c1120",
+  "commit": "1f581f4b76618a810a2ebfd0863c719a3cddaee7",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:36c22aeda030327704b5ee0b099f060fd42c1120"
+  "swhid": "swh:1:rev:1f581f4b76618a810a2ebfd0863c719a3cddaee7"
  },
  "repo": "Dev4Mod/WaEnhancer"
 }

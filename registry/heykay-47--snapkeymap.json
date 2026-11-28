@@ -4,22 +4,13 @@
   "release_en": "2026-10-19",
   "semantica_http": 200,
   "ultima_release": "v1.0.8",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-16"
  },
  "descripcion": "Map Oppo's Snap Key to any app or action",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/heykay-47--snapkeymap.json",
-  "sha256": "1ea71cca59c36bf945164bc2ca1cb02986ebd916759eff2adb9af6b2984ea915"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "410779fec17f277e5fc0604f221f249f4f3adf9e0dfd098ed015fe7779f02066"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 30,
+  "stars": 39,
   "stars_por_mes": null
  },
  "nombre": "SnapKeyMap",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "32233d5e5d35cf00572147f5b33069a1ec789d2c",
+  "commit": "f11857b2c6bb59597cfe8f98c5ce2d6155b3f24a",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:32233d5e5d35cf00572147f5b33069a1ec789d2c"
+  "swhid": "swh:1:rev:f11857b2c6bb59597cfe8f98c5ce2d6155b3f24a"
  },
  "repo": "heykay-47/SnapKeyMap",
  "web": "https://heykay-47.github.io/SnapKeyMap/"

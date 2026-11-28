@@ -4,22 +4,13 @@
   "release_en": "2026-08-16",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Native Android AI agent: use your own API keys (OpenAI/Anthropic/Gemini), opencode-style modes, device tools, Shizuku shell, screen analysis, web search, custom Skills, voice assistant",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/verlintas--betteraichat.json",
-  "sha256": "95d7f337cfcdd9067dc74d245c6cd3ffc34eb0ff9e1f0bca1d66568291059570"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "d5d4fa23d15b079949d8304843b8a44f39a34af66b79f19a3d5032fabbcc339f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 125,
+  "stars": 139,
   "stars_por_mes": null
  },
  "nombre": "BetterAIChat",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7b71a3cdf1f17bf5fef31fcef4a8b37a03b6720b",
+  "commit": "a6d5d25c16e813e3004440e97b5a1bb673533a52",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:7b71a3cdf1f17bf5fef31fcef4a8b37a03b6720b"
+  "swhid": "swh:1:rev:a6d5d25c16e813e3004440e97b5a1bb673533a52"
  },
  "repo": "Verlintas/BetterAIChat"
 }

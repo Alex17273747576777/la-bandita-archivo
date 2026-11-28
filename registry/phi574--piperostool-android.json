@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-09-26",
+  "release_en": "2026-10-16",
   "semantica_http": 200,
-  "ultima_release": "v3.4.0.beta",
-  "ultimo_push": "2026-10-22"
+  "ultima_release": "v3.7.8",
+  "ultimo_push": "2026-11-23"
  },
  "descripcion": "PiperOS Tool for Android: browser, media player, device utilities, notifications and an on-device terminal.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/phi574--piperostool-android.json",
-  "sha256": "7e491be050a8a4467ecae8e6e9361fca43b657d778d0cb39bdd6571cd96d822d"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f67c3e99dfa13f30b5e2dde470045dab25f682ec3e902d84c3e02504e1607825"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "da51281b2a703598f0d5f6c9856b38136f7ac045",
+  "commit": "1c1097ac660d245bad441099289461bae51680dc",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:da51281b2a703598f0d5f6c9856b38136f7ac045"
+  "swhid": "swh:1:rev:1c1097ac660d245bad441099289461bae51680dc"
  },
  "repo": "Phi574/PiperOSTool-Android",
  "web": "https://github.com/Phi574/Piperos_termux"

@@ -4,22 +4,13 @@
   "release_en": "2026-07-30",
   "semantica_http": 200,
   "ultima_release": "v1.0.1",
-  "ultimo_push": "2026-10-22"
+  "ultimo_push": "2026-11-20"
  },
  "descripcion": "The Light Phone III brightness wheel and camera button, working inside apps Light did not make",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/gi-os--brightcontrol.json",
-  "sha256": "aa04b0e7d8e4bbab75bbfc7777cd4dfd7c635fba603a1aa6b7a0c1895d8a1666"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "64ad754a94c9fe105b68833312d0295c5be59016d4c4f512f3bb4d9a5bf9ef52"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "b879a7395ba364bcc013e23665b449ef59ea1d84",
+  "commit": "0b254f54564671769b1860ad1226c9e22bb4d786",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:b879a7395ba364bcc013e23665b449ef59ea1d84"
+  "swhid": "swh:1:rev:0b254f54564671769b1860ad1226c9e22bb4d786"
  },
  "repo": "gi-os/BrightControl"
 }

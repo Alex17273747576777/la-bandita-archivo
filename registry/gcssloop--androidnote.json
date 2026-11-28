@@ -8,18 +8,9 @@
  },
  "descripcion": "安卓学习笔记",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/gcssloop--androidnote.json",
-  "sha256": "0876a6eae5cfbef1060cafcac8ec9971bae3e4242573b46496c9d79d1e09ef8e"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "1fb0da139e54530f19c9d73c0d5e5942d0f5cf3a824e6c320b8e41a2db7f00ad"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -35,11 +26,11 @@
   "spdx": "Creative Commons BY-NC-ND 4.0",
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 9348,
+  "stars": 9343,
   "stars_por_mes": null
  },
  "nombre": "AndroidNote",

@@ -4,22 +4,13 @@
   "release_en": "2026-09-02",
   "semantica_http": 200,
   "ultima_release": "v0.5.0-beta.1",
-  "ultimo_push": "2026-10-31"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Local-first translation studio for manga, manhwa, and manhua.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/arbenapura--xianscan-rust.json",
-  "sha256": "69ecedb36fc2c7df6b6b9bad50fca888f6771af1cb7e6bc5308da3f7ce9b1cd7"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "5342e6139bbd54f0fc73e697546c53fd083a55a61a9ad1c81bfdb3f69c56e600"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 86,
+  "stars": 92,
   "stars_por_mes": null
  },
  "nombre": "xianscan-rust",

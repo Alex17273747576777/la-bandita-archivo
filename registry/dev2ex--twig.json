@@ -4,22 +4,13 @@
   "release_en": "2026-09-07",
   "semantica_http": 200,
   "ultima_release": "v1.8.3",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Dual-pane Android file manager: local storage, archives, FTP, SFTP, SMB, WebDAV, S3, restic and Jellyfin/Emby in one tree. Plain Kotlin, compact APK.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dev2ex--twig.json",
-  "sha256": "68ec6c4081a8a926ebec2833dc9934bb1a96f407f7fb6637143572d623cc9682"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "9585d0f6daf72cfacce9517d4c7c6e57b1adfb15f6749ce42f17a4b3b01b95b5"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 99,
+  "stars": 180,
   "stars_por_mes": null
  },
  "nombre": "twig",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ca3b43649b9a9eabe51bf637fa828057b5a1916d",
+  "commit": "8efd772cdd72c6d14ec921d99768fcdb1c82caf2",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ca3b43649b9a9eabe51bf637fa828057b5a1916d"
+  "swhid": "swh:1:rev:8efd772cdd72c6d14ec921d99768fcdb1c82caf2"
  },
  "repo": "dev2ex/twig"
 }

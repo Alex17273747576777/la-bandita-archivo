@@ -4,22 +4,13 @@
   "release_en": "2026-04-11",
   "semantica_http": 200,
   "ultima_release": "v0.0.1-alpha",
-  "ultimo_push": "2026-10-25"
+  "ultimo_push": "2026-11-15"
  },
  "descripcion": "The agent that grows with you",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/adybag14-cyber--hermes-agent.json",
-  "sha256": "98fbc7df61ede371e66680da5f13ac691a1ca6c4fa7dc196e55caf817a676f38"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "67a6e427efda73bf98188f63b84e336589c0ad5dd5033475f60354f46c49b9a9"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 239,
+  "stars": 251,
   "stars_por_mes": null
  },
  "nombre": "hermes-agent",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "6637af74fa6e21b2fd7a0a092b7b29d75430e4ab",
+  "commit": "fb0473eca5851dd3ad840d79a3c5c67ef8dff16c",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:6637af74fa6e21b2fd7a0a092b7b29d75430e4ab"
+  "swhid": "swh:1:rev:fb0473eca5851dd3ad840d79a3c5c67ef8dff16c"
  },
  "repo": "adybag14-cyber/hermes-agent",
  "web": "https://hermes-agent.nousresearch.com"

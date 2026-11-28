@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "API Documentation Browser",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/freecodecamp--devdocs.json",
-  "sha256": "528ba9feab8d2a220db942cdacbf9740fbf6ceedb1d830308c0f247ed4fcee87"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7c5d8391a35dbd252f1d4f5b8752fef8caf2346e87c6297950855ebef4419285"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 39597,
+  "stars": 39666,
   "stars_por_mes": null
  },
  "nombre": "devdocs",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a378c1484626f65961648030d854e9be6c5c793b",
+  "commit": "ddc6187367ca34173d8b0ff9a88eec0608207419",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a378c1484626f65961648030d854e9be6c5c793b"
+  "swhid": "swh:1:rev:ddc6187367ca34173d8b0ff9a88eec0608207419"
  },
  "repo": "freeCodeCamp/devdocs",
  "web": "https://devdocs.io"

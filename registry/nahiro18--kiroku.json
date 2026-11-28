@@ -4,22 +4,13 @@
   "release_en": "2026-08-19",
   "semantica_http": 200,
   "ultima_release": "v1.0.8",
-  "ultimo_push": "2026-11-02"
+  "ultimo_push": "2026-11-09"
  },
  "descripcion": "Kiroku — fork of ReDantotsu: app anime/manga ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/nahiro18--kiroku.json",
-  "sha256": "05f3794a4cf4f09148b7fe75370b584a290c7d827d7ec55db737e6612fb18a09"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fbc6ba2ed0c8a28a06c8fefdff2df95f4cdf71449fccb8704d993c0f2836663d"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE.md",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 16,
+  "stars": 17,
   "stars_por_mes": null
  },
  "nombre": "Kiroku",
@@ -47,10 +38,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "f7cc77985b6181f9f8e8fd84fad57d9946222079",
+  "commit": "e2d54c434243b6c77a73f116110ac27f541ca412",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:f7cc77985b6181f9f8e8fd84fad57d9946222079"
+  "swhid": "swh:1:rev:e2d54c434243b6c77a73f116110ac27f541ca412"
  },
  "repo": "Nahiro18/Kiroku",
  "web": "https://nahiro18.github.io/Kiroku/"

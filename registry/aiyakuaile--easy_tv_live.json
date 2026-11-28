@@ -4,22 +4,13 @@
   "release_en": "2022-11-17",
   "semantica_http": 200,
   "ultima_release": "1.0.1",
-  "ultimo_push": "2026-10-09"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Easy TV Live App, a lightweight IPTV player, supports all platforms and Android TV big screens. Welcome to download and experience!  极简TV App，一款轻量级IPTV播放器，支持全平台以及安卓电视大屏欢迎下载体验!",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aiyakuaile--easy_tv_live.json",
-  "sha256": "569c96f2765d5756236bf14b1c634581b19e7586f010d598d45f65ddfa391162"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ca9d451e80d05d55b1515f534faa0010a425909ac411aa058b188d3538dd8bca"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -33,23 +24,23 @@
   "metodo": "spdx-api",
   "nota": "Texto leído el 2026-11-03: licencia propietaria o de código disponible («noncommercial»). No es licencia libre: no se recomienda para uso del lector, y si se cita es solo como referencia.",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1163,
+  "stars": 1164,
   "stars_por_mes": null
  },
  "nombre": "easy_tv_live",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "5adf2c8183cb6cf5c807e54bc690b3eb8b337558",
+  "commit": "125b386db71d47b2330a48407bd7de0e45e3e132",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:5adf2c8183cb6cf5c807e54bc690b3eb8b337558"
+  "swhid": "swh:1:rev:125b386db71d47b2330a48407bd7de0e45e3e132"
  },
  "repo": "aiyakuaile/easy_tv_live"
 }

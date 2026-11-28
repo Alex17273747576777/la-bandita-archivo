@@ -8,18 +8,9 @@
  },
  "descripcion": "KoeYomi is a mobile manga reader built with Expo, React Native, and SQLite. Designed for performance and user experience, it features fluid reading modes (Normal/Long Strip), offline chapter downloads, and advanced local data persistence.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/reitansora--koeyomi.json",
-  "sha256": "20ec5405848603c00b34a91c7e10fc3984e2d39301d157ccf15ff56662771101"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "f6fc7bf499a40f30505e502d87ceef8bc1941491e95badf9fb1b5ab6e2efc007"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": "LICENSE",
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 11,
+  "stars": 12,
   "stars_por_mes": null
  },
  "nombre": "koeyomi",

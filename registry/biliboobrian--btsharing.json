@@ -4,22 +4,13 @@
   "release_en": "2026-10-01",
   "semantica_http": 200,
   "ultima_release": "v1.0",
-  "ultimo_push": "2026-10-01"
+  "ultimo_push": "2026-11-08"
  },
  "descripcion": "Partage de connexion Bluetooth automatique (Android, Shizuku)",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/biliboobrian--btsharing.json",
-  "sha256": "35ec15138b0a06c1409394a864ca2f67b116c6db9b4e883ef9fa5f9eebb4786f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "bebe02fe5424ff0abfb0e72e533b4062e4eccd6de05710c8a14e905cdc508671"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "ae9adde0f7bd433a4b3ebc9dbf1586cff1a8ffbc",
+  "commit": "4eac6b43162d3475baea6fda68591c84d1419f62",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:ae9adde0f7bd433a4b3ebc9dbf1586cff1a8ffbc"
+  "swhid": "swh:1:rev:4eac6b43162d3475baea6fda68591c84d1419f62"
  },
  "repo": "biliboobrian/BTSharing"
 }

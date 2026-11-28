@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-06-27"
+  "ultimo_push": "2026-11-26"
  },
  "descripcion": "Model Context Protocol Servers",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/baozhi888--mcp-servers.json",
-  "sha256": "9e86f56947af8de2e13fe4c39c072d3b3c0516533cb09796269cd9b71f24ed57"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "a4f17e97384ee265ffda2280f44ac1e813375be1ec28f54edd0a3877457e351f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "NOASSERTION",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "7b1170d1da1e36bc9f553f51e76e64cbfd652b3e",
+  "commit": "c799c8552b0f27b7a33a7b9233773da144dddcf5",
   "swh_estado": null,
-  "swhid": "swh:1:rev:7b1170d1da1e36bc9f553f51e76e64cbfd652b3e"
+  "swhid": "swh:1:rev:c799c8552b0f27b7a33a7b9233773da144dddcf5"
  },
  "repo": "Baozhi888/mcp-servers"
 }

@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-10-02"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "Another Shizuku impl",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/qqtaykey--stellar.json",
-  "sha256": "bbebfccca48196ea449888dfdc6b3222adba2903403d6c2d22169271943c723c"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "24f754edc8b3d7b574f042697948377ef9d62953aeea38cc8f744415c8cb6606"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "80b471d290e23c860ed29c731fe342392f8a3654",
+  "commit": "bc03f6a2d7c95167d1853e24d3e52587634e7c58",
   "swh_estado": null,
-  "swhid": "swh:1:rev:80b471d290e23c860ed29c731fe342392f8a3654"
+  "swhid": "swh:1:rev:bc03f6a2d7c95167d1853e24d3e52587634e7c58"
  },
  "repo": "qqtaykey/Stellar"
 }

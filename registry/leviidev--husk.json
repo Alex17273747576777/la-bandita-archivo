@@ -1,25 +1,16 @@
 {
  "actividad": {
-  "estado": "dormido",
-  "release_en": "2026-11-01",
+  "estado": "vivo",
+  "release_en": "2026-09-13",
   "semantica_http": 200,
-  "ultima_release": "3.3",
-  "ultimo_push": "2026-11-03"
+  "ultima_release": "lineage-v2",
+  "ultimo_push": "2026-11-11"
  },
  "descripcion": "Run Android on iOS. Natively or Emulated.",
  "evidencia": {
-  "nota": "alta creada al reconstruir la pieza 01 de Facebook",
-  "payload_ref": "ficha profunda del 2026-11-03",
-  "sha256": "b2cf914f380ccb27a571a0aabf042a1d0db763ac999d21096de2d4552bc93263"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
+  "payload_ref": "registry/_evidencia/leviidev--husk.json",
+  "sha256": "e24d84ca8f081a639800e526af1b4e56d0898cdade2189eb5647a4753040b110"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -30,16 +21,16 @@
  "id": "leviidev--husk",
  "licencia": {
   "archivo": "GNU GENERAL PUBLIC LICENSE\n\t\t       Version 2, June 1991\n\n Copyright (C) 1989, 1991 Free Software Foundation, Inc.",
-  "metodo": "endpoint-license",
+  "metodo": "spdx-api",
   "nota": "certificada contra el texto del archivo LICENSE",
   "spdx": "GPL-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 2993,
+  "stars": 3602,
   "stars_por_mes": null
  },
  "nombre": "Husk",
@@ -48,10 +39,10 @@
  ],
  "procedencia": {
   "atestacion": null,
-  "commit": "32acdda2a58691b0f88c30f30ede0422e8671633",
+  "commit": "29abb512d81bf8cc08babcbe7f7007cb557208ef",
   "swh_estado": "solicitud 200",
   "swh_solicitud": "accepted",
-  "swhid": "swh:1:rev:32acdda2a58691b0f88c30f30ede0422e8671633"
+  "swhid": "swh:1:rev:29abb512d81bf8cc08babcbe7f7007cb557208ef"
  },
  "repo": "Leviidev/Husk"
 }

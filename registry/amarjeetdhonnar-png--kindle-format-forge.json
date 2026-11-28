@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Kindle Converter 2026: Ultimate Windows 11 Tool to Transform eBooks into Standard Formats",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/amarjeetdhonnar-png--kindle-format-forge.json",
-  "sha256": "2fdf04b35db903b62eaacca2e1d703ce23b6453448877bcd240f79281cdbebdc"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c74d1a2ffa530ae5e16e991836497f042896ab9ee8ee95c83e78280b260bf6c8"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,10 +36,10 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "bb00ecbfbe959f625f6e6b4b1c75814c0e2f86bf",
+  "commit": "d55ee38f42f4bb3bf77f06315edf40be0df8ab87",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:bb00ecbfbe959f625f6e6b4b1c75814c0e2f86bf"
+  "swhid": "swh:1:rev:d55ee38f42f4bb3bf77f06315edf40be0df8ab87"
  },
  "repo": "amarjeetdhonnar-png/Kindle-Format-Forge"
 }

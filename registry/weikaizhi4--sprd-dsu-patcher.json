@@ -8,18 +8,9 @@
  },
  "descripcion": "A web tool that can be used to patch the init of some Unisoc devices to remove DSU restrictions.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/weikaizhi4--sprd-dsu-patcher.json",
-  "sha256": "b54fbf76e8d4c8f8bc6141917d0b3754da05b51fc3751c507e195d77fabcacbe"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "fa376679be24a1180b953ab3c327e15e421f11ef29e402e05a9a6328f2d6dcd2"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

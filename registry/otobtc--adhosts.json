@@ -8,18 +8,9 @@
  },
  "descripcion": "手机电脑去广告 hosts&规则  PC&Android ",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/otobtc--adhosts.json",
-  "sha256": "4048875830a8fd0dbd2fde7431e51ade2d668e2934ea826223c3b549fbc66bcf"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "03d10f5f90bc25552b138f7876ba274144adfcac747a80b8ec9ceeaf15a25785"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 1601,
+  "stars": 1617,
   "stars_por_mes": null
  },
  "nombre": "ADhosts",

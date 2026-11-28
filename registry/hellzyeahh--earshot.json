@@ -4,22 +4,13 @@
   "release_en": "2026-10-17",
   "semantica_http": 200,
   "ultima_release": "v0.1.0",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-07"
  },
  "descripcion": "One Android app for any Bluetooth headset: Bose, Sony, Sennheiser, Soundcore, Skullcandy and more. No account, no internet permission.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/hellzyeahh--earshot.json",
-  "sha256": "0de46154444d5dbc9718c4c951bfc11e0a8113427e13d7596b0deaafda69f9a3"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "c60936ea28f8eeba1492415dc909453362e3cf376e9beeb172af486d417f3e87"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "MIT",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 34,
+  "stars": 51,
   "stars_por_mes": null
  },
  "nombre": "earshot",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a581f96efb5a91b0622a5be9600a02a72b4e1649",
+  "commit": "2da98aa09abc8e7ec567e91097d1ee654168202e",
   "swh_estado": "solicitud 429",
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a581f96efb5a91b0622a5be9600a02a72b4e1649"
+  "swhid": "swh:1:rev:2da98aa09abc8e7ec567e91097d1ee654168202e"
  },
  "repo": "HellzYeahh/earshot"
 }

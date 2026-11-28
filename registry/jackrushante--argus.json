@@ -4,22 +4,13 @@
   "release_en": "2026-07-17",
   "semantica_http": 200,
   "ultima_release": "v0.0.1",
-  "ultimo_push": "2026-10-28"
+  "ultimo_push": "2026-11-27"
  },
  "descripcion": "Natural-language automation for Android: the LLM compiles, a deterministic engine executes. Tasker-class, optional Shizuku.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/jackrushante--argus.json",
-  "sha256": "bf03d9eefe3d77c1d94323958c0841f65b1c2f793623cf5466e7799b966c44d4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "324c5e3216613f6bba5c179941f0f6d3d6f877a4646418c3728a3f676041a53f"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 43,
+  "stars": 50,
   "stars_por_mes": null
  },
  "nombre": "argus",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "a34f5a58cbedbae36b68d43a2a15abf1d8b18556",
+  "commit": "c3d4d1b96e3690a45735e9a5d8859744c9607f03",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:a34f5a58cbedbae36b68d43a2a15abf1d8b18556"
+  "swhid": "swh:1:rev:c3d4d1b96e3690a45735e9a5d8859744c9607f03"
  },
  "repo": "JackRushante/argus"
 }

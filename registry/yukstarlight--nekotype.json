@@ -4,22 +4,13 @@
   "release_en": "2026-08-24",
   "semantica_http": 200,
   "ultima_release": "NekoType",
-  "ultimo_push": "2026-11-01"
+  "ultimo_push": "2026-11-18"
  },
  "descripcion": "Android 系统级文本改写工具：悬浮球 / 篡改键盘 / 断句追加 / 摇一摇四种模式，前缀·后缀·随机尾缀·文本替换一键改写并发送；Shizuku / Root 通道，完全离线，无网络权限",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/yukstarlight--nekotype.json",
-  "sha256": "2dea60ddb563878633a5a91a6e0146325d7e5480ac2d2b790cfbf6db8413ac02"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "751b4322088276f0b485d1aea6d62fd80a02a671716a659ae28d44ddb431cedb"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 21,
+  "stars": 38,
   "stars_por_mes": null
  },
  "nombre": "NekoType",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "edd71790a1929adb7c7ee7db416ccd6ab0caf97a",
+  "commit": "1c89bb0b4f398bcd400820d73dc20315a8ec2b51",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:edd71790a1929adb7c7ee7db416ccd6ab0caf97a"
+  "swhid": "swh:1:rev:1c89bb0b4f398bcd400820d73dc20315a8ec2b51"
  },
  "repo": "Yukstarlight/NekoType",
  "web": "https://nekotype.top/"

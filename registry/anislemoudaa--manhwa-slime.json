@@ -4,22 +4,13 @@
   "release_en": null,
   "semantica_http": 200,
   "ultima_release": null,
-  "ultimo_push": "2026-11-03"
+  "ultimo_push": "2026-11-10"
  },
  "descripcion": "Free and open source manga reader for Android",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/anislemoudaa--manhwa-slime.json",
-  "sha256": "2cbc81540b6bcc95589c362e3a441b25597114b6cf37be0ddc4cb7fa8c42d68f"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7a87d54cfa68e99146491464488704b786759f693182cc00aa58612c2bdac22a"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "e07f9a79bc7b72951b42d4ad35cb089975d556d9",
+  "commit": "a09c2567a2833991470b3dacd9df7aeef34297c5",
   "swh_estado": null,
-  "swhid": "swh:1:rev:e07f9a79bc7b72951b42d4ad35cb089975d556d9"
+  "swhid": "swh:1:rev:a09c2567a2833991470b3dacd9df7aeef34297c5"
  },
  "repo": "anisLemoudaa/manhwa-slime"
 }

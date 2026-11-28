@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-24",
+  "release_en": "2026-11-07",
   "semantica_http": 200,
-  "ultima_release": "v0.1.14",
-  "ultimo_push": "2026-10-26"
+  "ultima_release": "v1.1.1",
+  "ultimo_push": "2026-11-07"
  },
  "descripcion": "ALAS 一体化 Android APK：proot rootfs 运行时 + Shizuku 虚拟屏后台挂机（开发中，路线图见 docs/roadmap-v3.md）",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/dreamry2c--alas-aos.json",
-  "sha256": "47be3542ca9b04f4fbd6dfc6f6ad2f245b3b3035ef3a017a218a9eadbc0f49d4"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "7c1e84128068e2236bd4859c251531c48ed2fd025ece21e5f9d0ece2e2d4129b"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "AGPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "ALAS-AOS",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "4880262313c316edb413b3e578669141dc40ec6b",
+  "commit": "77eaf153c863c4bdeafae7b02bdf49f27efd18f9",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:4880262313c316edb413b3e578669141dc40ec6b"
+  "swhid": "swh:1:rev:77eaf153c863c4bdeafae7b02bdf49f27efd18f9"
  },
  "repo": "Dreamry2C/ALAS-AOS"
 }

@@ -4,22 +4,13 @@
   "release_en": "2026-05-24",
   "semantica_http": 200,
   "ultima_release": "v1.0-alpha1061",
-  "ultimo_push": "2026-09-04"
+  "ultimo_push": "2026-11-21"
  },
  "descripcion": "A modern Android to-do app built with Kotlin and Jetpack Compose.",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/nevodev--cresto.json",
-  "sha256": "4041c472748bde0ae774d3f47dbbfa4c38186d9c59d256d1d9a2f18abbdca8cd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b1fe4ef5b9835d64f8c15b637fb4e8ef5fc35a5c72644838c04a65e528642930"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,23 +23,23 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 347,
+  "stars": 358,
   "stars_por_mes": null
  },
  "nombre": "Cresto",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "74564563a686106d76d7d9a403dd994a4fbcb6a7",
+  "commit": "9ae44d5abe314eed48eaf4d91e93ab359b6baaaf",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:74564563a686106d76d7d9a403dd994a4fbcb6a7"
+  "swhid": "swh:1:rev:9ae44d5abe314eed48eaf4d91e93ab359b6baaaf"
  },
  "repo": "Nevodev/Cresto"
 }

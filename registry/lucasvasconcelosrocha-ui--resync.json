@@ -1,25 +1,16 @@
 {
  "actividad": {
   "estado": "vivo",
-  "release_en": "2026-10-24",
+  "release_en": "2026-11-06",
   "semantica_http": 200,
-  "ultima_release": "v1.0.2",
-  "ultimo_push": "2026-10-29"
+  "ultima_release": "v1.0.0",
+  "ultimo_push": "2026-11-25"
  },
  "descripcion": "",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/lucasvasconcelosrocha-ui--resync.json",
-  "sha256": "54bf9a223bbf9a43b0ef0733479fa9b367015451b4c0f4585358ff3a85fd2fbd"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "b78c0947b7c11284ae2d3ccf86e4d20f11fc3e9d32a008c3d9a34a21304239d6"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,21 +25,21 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 0,
+  "stars": 1,
   "stars_por_mes": null
  },
  "nombre": "ReSync",
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "d3266c98cff2aa582032c55b0bce41fdb533f4e9",
+  "commit": "ed353469d4bbbcc697526ea47c578b74451a8fc8",
   "swh_estado": null,
   "swh_solicitud": null,
-  "swhid": "swh:1:rev:d3266c98cff2aa582032c55b0bce41fdb533f4e9"
+  "swhid": "swh:1:rev:ed353469d4bbbcc697526ea47c578b74451a8fc8"
  },
  "repo": "lucasvasconcelosrocha-ui/ReSync"
 }

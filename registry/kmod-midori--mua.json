@@ -8,18 +8,9 @@
  },
  "descripcion": "Mua lets an AI agent work for you in Android apps, even while you are sleeping or actively using the phone",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/kmod-midori--mua.json",
-  "sha256": "210c9e25d6b55e41bdbf63adb095a5edcf5e6df2ec8d77f460b6d8a642eab8bf"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "3e47206f29e2a079843136128b212096ad8c6b1e2a5efe99fcd1a86d06c24a8e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -34,7 +25,7 @@
   "spdx": null,
   "verificado_en": "2026-10-31"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,

@@ -4,22 +4,13 @@
   "release_en": "2026-07-13",
   "semantica_http": 200,
   "ultima_release": "v2.2.1",
-  "ultimo_push": "2026-10-06"
+  "ultimo_push": "2026-11-16"
  },
  "descripcion": "Mihon immersion fork with native dictionary lookup (Yomitan), Mokuro manga suppo",
  "evidencia": {
   "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/fraaerasmus--chimahon.json",
-  "sha256": "130f43213d42816c6a344aaff881544505358e2873b145bb5b15e31f406413a2"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "034e00321036768eda6ebd44ccd1c25e259a8329fef37595b895489180e7b94e"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,9 +23,9 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "GPL-3.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
@@ -45,9 +36,9 @@
  "piezas": [],
  "procedencia": {
   "atestacion": null,
-  "commit": "16bf9240fa4c4b77b18a4136db232e2ba6f67380",
+  "commit": "78ea188ee58a94b42efe494cbae58023c59dac10",
   "swh_estado": null,
-  "swhid": "swh:1:rev:16bf9240fa4c4b77b18a4136db232e2ba6f67380"
+  "swhid": "swh:1:rev:78ea188ee58a94b42efe494cbae58023c59dac10"
  },
  "repo": "fraaerasmus/chimahon"
 }

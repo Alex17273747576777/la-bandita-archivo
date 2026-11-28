@@ -8,18 +8,9 @@
  },
  "descripcion": "Play games using mouse and keyboard on Android device",
  "evidencia": {
-  "nota": "hash del JSON exacto devuelto por la API en la fecha declarada",
+  "nota": "respuesta cruda de la API GraphQL; la fecha va dentro del propio archivo",
   "payload_ref": "registry/_evidencia/aka-munan--keysync.json",
-  "sha256": "09bfb91b230e2c592c3f58384b1b7d80cb701add0f35354444c7553099bd0507"
- },
- "frescura": {
-  "dias": 6,
-  "estado": "vigente",
-  "evidencia_en": "2026-11-03",
-  "fecha_declarada_valida": true,
-  "motivo": "evidencia de hace 6 días",
-  "proxima_remedicion": null,
-  "ventana_dias": 180
+  "sha256": "ca0266bf7a2dd5342d2abe4a40d3c7d9bddc20296b5de0c050116c3c122b6b20"
  },
  "frescura_dias": 0,
  "fuente": {
@@ -32,13 +23,13 @@
   "archivo": null,
   "metodo": "spdx-api",
   "spdx": "Apache-2.0",
-  "verificado_en": "2026-11-03"
+  "verificado_en": "2026-11-27"
  },
- "medido_en": "2026-11-03",
+ "medido_en": "2026-11-27",
  "merito": {
   "scorecard": null,
   "scorecard_en": null,
-  "stars": 163,
+  "stars": 170,
   "stars_por_mes": null
  },
  "nombre": "keysync",

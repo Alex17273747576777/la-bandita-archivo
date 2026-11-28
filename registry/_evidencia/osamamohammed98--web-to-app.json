@@ -1,13 +1,13 @@
 {
  "_fuente": "github-graphql",
- "_medido_en": "2026-11-03",
+ "_medido_en": "2026-11-27",
  "defaultBranchRef": {
   "target": {
    "committedDate": "2026-04-13T03:52:32Z",
-   "oid": "f395b54b17c131e3a478890384f680cf5ada3f87"
+   "oid": "29a5d1635deb416d23db9fa42723db01dfc748d6"
   }
  },
- "diskUsage": 20037,
+ "diskUsage": 22430,
  "forkCount": 0,
  "isArchived": false,
  "issues": {
@@ -18,7 +18,7 @@
   "spdxId": "Unlicense"
  },
  "nameWithOwner": "osamamohammed98/web-to-app",
- "pushedAt": "2026-04-13T03:52:32Z",
+ "pushedAt": "2026-11-27T05:10:25Z",
  "releases": {
   "nodes": []
  },
