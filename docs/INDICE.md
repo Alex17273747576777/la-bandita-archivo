@@ -2,7 +2,7 @@
 
 *Generado por `tools/indice_docs.py`. No se edita a mano: se vuelve a correr.*
 
-**TL;DR —** 172 documentos en `docs/`, agrupados en 19 familias, y 80 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
+**TL;DR —** 173 documentos en `docs/`, agrupados en 19 familias, y 82 herramientas en `tools/`. Cada herramienta se presenta con la primera frase de su propio código, así que el índice no puede desactualizarse sin que el código cambie primero.
 
 ## Para qué sirve este índice
 
@@ -112,6 +112,7 @@
 | Documento | Título | De qué va | Líneas |
 |---|---|---|---|
 | [`CODIGO.md`](CODIGO.md) | EL CÓDIGO, EXPLICADO | Un programa es una receta: entra un ingrediente, se hace un paso, sale un plato. | 212 |
+| [`CORTE-EMO-2026-11-28.md`](CORTE-EMO-2026-11-28.md) | Cruce EverythingMoe · corte 2026-11-28 | EverythingMoe tiene **397 entradas**, pero solo **44 son repositorios de GitHub**; las otras 353 son sitios web. | 78 |
 | [`DEFECTOS-2026-11-09.md`](DEFECTOS-2026-11-09.md) | Defectos encontrados al hacer medir la vara · 9 de noviembre de 2026 | Las que siguen siendo texto a mano —G11, G13— no se tocan en este paso porque dependen de documentos que hay que rehacer con las piezas; quedan… | 43 |
 | [`ERRORES.md`](ERRORES.md) | Registro de errores · lo que se rompió, cómo se cazó y qué habilidad salió de ahí | Cada error de esta casa, con su número, queda aquí **para siempre**. | 89 |
 | [`HABILIDADES.md`](HABILIDADES.md) | Habilidades · lo que esta casa sabe hacer porque antes se equivocó | Una habilidad no es una intención: es un procedimiento con un comando que se puede correr y un veredicto que se puede perder. | 432 |
@@ -317,6 +318,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`manual_gate.py`](../tools/manual_gate.py) | Compuerta del MANUAL DE ESTILO Y OPERACIONES V3.0 (1-nov-2026). | 695 |
 | [`mcp_conectar.py`](../tools/mcp_conectar.py) | CONEXIÓN REAL A SERVIDORES MCP · handshake, listado de herramientas y llamada de prueba. | 195 |
 | [`medir_censo.py`](../tools/medir_censo.py) | MEDIR EL CENSO · la API REST cobra una petición por repositorio; GraphQL cobra por nodos. | 244 |
+| [`medir_cruce_emo.py`](../tools/medir_cruce_emo.py) | Mide los repositorios del cruce con EverythingMoe y clasifica el checksum de verdad. | 132 |
 | [`medir_guia.py`](../tools/medir_guia.py) | MEDIR LA GUÍA MAESTRA · la pieza 05 no se escribe a mano, se mide. | 190 |
 | [`medir_indices.py`](../tools/medir_indices.py) | MIDE LA PIEZA 41 · los índices de extensiones que FMHY no tiene. | 150 |
 | [`medir_indices_42.py`](../tools/medir_indices_42.py) | MIDE LA PIEZA 42 · los 41 índices de Miyomi que nadie había medido. | 154 |
@@ -325,6 +327,7 @@ Cada programa de `tools/` hace una cosa y la dice en la primera línea de su có
 | [`merito.py`](../tools/merito.py) | MÉRITO MEDIDO · el Scorecard de OpenSSF sustituye a ★ como señal de mérito. | 150 |
 | [`novedad.py`](../tools/novedad.py) | SELECTOR DE NOVEDAD — encuentra lo nuevo, lo recién publicado y lo desconocido. | 263 |
 | [`novedad_gate.py`](../tools/novedad_gate.py) | TESTIGO DE NOVEDAD Y DE SERIE CORTA — N01–N08, M24–M28, M00. | 248 |
+| [`parsear_everythingmoe.py`](../tools/parsear_everythingmoe.py) | Parser de EverythingMoe · lee las secciones guardadas y cuenta lo que hay de verdad. | 68 |
 | [`preflight.py`](../tools/preflight.py) | PREFLIGHT · la revisión obligatoria antes de sondear cualquier pieza. | 212 |
 | [`pulso.py`](../tools/pulso.py) | PULSO · mide repositorios en fuente primaria y escribe fichas con evidencia cruda. | 553 |
 | [`redacta.py`](../tools/redacta.py) | REDACTOR · arma una pieza de Facebook con los números puestos por código. | 324 |

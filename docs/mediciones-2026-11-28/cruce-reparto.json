@@ -1,0 +1,448 @@
+{
+ "conteo_secciones": {
+  "anime": 110,
+  "apps": 91,
+  "manga": 96,
+  "novel": 64,
+  "tools": 3,
+  "utils": 33
+ },
+ "total_entradas": 397,
+ "repos_github": 44,
+ "ya_medidos": [
+  "aayush2622/dartotsu",
+  "kodjodevf/mangayomi",
+  "komikku-app/komikku",
+  "null2264/yokai",
+  "ollm/opencomic",
+  "reyyuuki/azyx",
+  "rockinchaos/shiru",
+  "suwayomi/suwayomi-server"
+ ],
+ "por_medir": {
+  "abdullahkhfb/pahebatcher": {
+   "rank": 71,
+   "nombre": "pahebatcher",
+   "emo": "/s/pahebatcher",
+   "web": "https://github.com/abdullahkhfb/pahebatcher",
+   "filtros": [
+    "Anime",
+    "Windows",
+    "Linux"
+   ],
+   "seccion": "apps"
+  },
+  "akuse-app/akuse": {
+   "rank": 86,
+   "nombre": "akuse",
+   "emo": "/s/akuse",
+   "web": "https://github.com/akuse-app/akuse",
+   "filtros": [
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Anime"
+   ],
+   "seccion": "apps"
+  },
+  "amarullz/kaicodex": {
+   "rank": 41,
+   "nombre": "AnimeTV",
+   "emo": "/s/animetvapp",
+   "web": "https://github.com/amarullz/kaicodex/tree/main/generated/bin",
+   "filtros": [
+    "Android",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Anime"
+   ],
+   "seccion": "apps"
+  },
+  "astarivi/kaizoyu": {
+   "rank": 88,
+   "nombre": "Kaizoyu!",
+   "emo": "/s/kaizoyu",
+   "web": "https://github.com/astarivi/Kaizoyu",
+   "filtros": [
+    "Android",
+    "Anime"
+   ],
+   "seccion": "apps"
+  },
+  "beastwick18/nyaa": {
+   "rank": 26,
+   "nombre": "nyaa",
+   "emo": "/s/nyaatui",
+   "web": "https://github.com/Beastwick18/nyaa",
+   "filtros": [],
+   "seccion": "utils"
+  },
+  "codegeasse1/hikari": {
+   "rank": 31,
+   "nombre": "Hikari",
+   "emo": "/s/hikari",
+   "web": "https://github.com/codegeasse1/hikari",
+   "filtros": [
+    "Android",
+    "Anime",
+    "Manga"
+   ],
+   "seccion": "apps"
+  },
+  "cranci1/luna": {
+   "rank": 48,
+   "nombre": "Luna",
+   "emo": "/s/soraios",
+   "web": "https://github.com/cranci1/Luna",
+   "filtros": [
+    "iOS",
+    "Anime"
+   ],
+   "seccion": "apps"
+  },
+  "dazedcat19/fmd2": {
+   "rank": 24,
+   "nombre": "FMD2",
+   "emo": "/s/fmd2",
+   "web": "https://github.com/dazedcat19/FMD2",
+   "filtros": [
+    "Windows",
+    "Manga"
+   ],
+   "seccion": "apps"
+  },
+  "fooibar/ehviewer": {
+   "rank": 44,
+   "nombre": "Ehviewer",
+   "emo": "/s/ehviewer",
+   "web": "https://github.com/FooIbar/EhViewer",
+   "filtros": [
+    "Android",
+    "Manga"
+   ],
+   "seccion": "apps"
+  },
+  "frostnova721/animestream": {
+   "rank": 65,
+   "nombre": "animestream",
+   "emo": "/s/animestreamapp",
+   "web": "https://github.com/frostnova721/animestream",
+   "filtros": [
+    "Android",
+    "Windows",
+    "Anime"
+   ],
+   "seccion": "apps"
+  },
+  "hitarth-gg/zenshin": {
+   "rank": 60,
+   "nombre": "Zenshin",
+   "emo": "/s/zenshin",
+   "web": "https://github.com/hitarth-gg/zenshin",
+   "filtros": [
+    "Windows",
+    "Anime"
+   ],
+   "seccion": "apps"
+  },
+  "hoangvu12/kaguya-app": {
+   "rank": 81,
+   "nombre": "Kaguya App",
+   "emo": "/s/kaguyaapp",
+   "web": "https://github.com/hoangvu12/kaguya-app",
+   "filtros": [
+    "Android",
+    "Anime"
+   ],
+   "seccion": "apps"
+  },
+  "insomniachi/totoro": {
+   "rank": 59,
+   "nombre": "Totoro",
+   "emo": "/s/totoro",
+   "web": "https://github.com/insomniachi/Totoro",
+   "filtros": [
+    "Windows",
+    "Anime",
+    "Manga"
+   ],
+   "seccion": "apps"
+  },
+  "ireaderorg/ireader": {
+   "rank": 42,
+   "nombre": "IReader",
+   "emo": "/s/ireader",
+   "web": "https://github.com/IReaderorg/IReader",
+   "filtros": [
+    "Android",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Light Novel"
+   ],
+   "seccion": "apps"
+  },
+  "jakepurple13/otakuworld": {
+   "rank": 73,
+   "nombre": "OtakuWorld",
+   "emo": "/s/otakuworld",
+   "web": "https://github.com/jakepurple13/OtakuWorld",
+   "filtros": [
+    "Android",
+    "Anime",
+    "Manga",
+    "Light Novel"
+   ],
+   "seccion": "apps"
+  },
+  "jiangtian616/jhentai": {
+   "rank": 43,
+   "nombre": "JHenTai",
+   "emo": "/s/jhentai",
+   "web": "https://github.com/jiangtian616/JHenTai",
+   "filtros": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Manga"
+   ],
+   "seccion": "apps"
+  },
+  "johankrs/tankobun": {
+   "rank": 52,
+   "nombre": "Tankobun",
+   "emo": "/s/tankobun",
+   "web": "https://github.com/JohanKRS/Tankobun",
+   "filtros": [
+    "Andoid",
+    "Manga"
+   ],
+   "seccion": "apps"
+  },
+  "k3vinb5/unyo": {
+   "rank": 69,
+   "nombre": "Unyo",
+   "emo": "/s/unyo",
+   "web": "https://github.com/K3vinb5/Unyo",
+   "filtros": [
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Anime",
+    "Manga"
+   ],
+   "seccion": "apps"
+  },
+  "kotatsu-redo/kotatsu-redo": {
+   "rank": 2,
+   "nombre": "Kotatsu",
+   "emo": "/s/kotatsuapp",
+   "web": "https://github.com/Kotatsu-Redo/Kotatsu-Redo/",
+   "filtros": [
+    "Android",
+    "Manga"
+   ],
+   "seccion": "apps"
+  },
+  "kropatz/boorusphere": {
+   "rank": 80,
+   "nombre": "Boorusphere",
+   "emo": "/s/boorusphere",
+   "web": "https://github.com/Kropatz/boorusphere",
+   "filtros": [
+    "Android",
+    "Imageboard"
+   ],
+   "seccion": "apps"
+  },
+  "lagradost/quicknovel": {
+   "rank": 16,
+   "nombre": "QuickNovel",
+   "emo": "/s/quicknovel",
+   "web": "https://github.com/LagradOst/QuickNovel",
+   "filtros": [
+    "Android",
+    "Light Novel"
+   ],
+   "seccion": "apps"
+  },
+  "lncrawl/lightnovel-crawler": {
+   "rank": 28,
+   "nombre": "Lightnovel Crawler",
+   "emo": "/s/lncrawlerapp",
+   "web": "https://github.com/lncrawl/lightnovel-crawler",
+   "filtros": [
+    "Windows",
+    "Linux",
+    "Light Novel"
+   ],
+   "seccion": "apps"
+  },
+  "middlegear/saikou": {
+   "rank": 89,
+   "nombre": "Saikou",
+   "emo": "/s/saikou",
+   "web": "https://github.com/middlegear/Saikou",
+   "filtros": [
+    "Android",
+    "Anime",
+    "Manga",
+    "Light Novel"
+   ],
+   "seccion": "apps"
+  },
+  "mrboomdeveloper/awery": {
+   "rank": 78,
+   "nombre": "Awery",
+   "emo": "/s/awery",
+   "web": "https://github.com/MrBoomDeveloper/Awery",
+   "filtros": [
+    "Android",
+    "Anime"
+   ],
+   "seccion": "apps"
+  },
+  "nanihadesuka/noveldokusha": {
+   "rank": 56,
+   "nombre": "NovelDokusha",
+   "emo": "/s/noveldokusha",
+   "web": "https://github.com/nanihadesuka/NovelDokusha",
+   "filtros": [
+    "Android",
+    "Light Novel"
+   ],
+   "seccion": "apps"
+  },
+  "nekomangaorg/neko": {
+   "rank": 27,
+   "nombre": "Neko",
+   "emo": "/s/nekomangaorg",
+   "web": "https://github.com/nekomangaorg/Neko",
+   "filtros": [
+    "Android",
+    "Manga"
+   ],
+   "seccion": "apps"
+  },
+  "professordeveloper/kitsune-app": {
+   "rank": 79,
+   "nombre": "Kitsune App",
+   "emo": "/s/kitsuneapp",
+   "web": "https://github.com/professorDeveloper/Kitsune-App",
+   "filtros": [
+    "Android",
+    "Anime"
+   ],
+   "seccion": "apps"
+  },
+  "ranobe-org/ranobe": {
+   "rank": 87,
+   "nombre": "Ranobe",
+   "emo": "/s/ranobe",
+   "web": "https://github.com/ranobe-org/ranobe",
+   "filtros": [
+    "Android",
+    "Light Novel"
+   ],
+   "seccion": "apps"
+  },
+  "recloudstream/cloudstream": {
+   "rank": 12,
+   "nombre": "CloudStream",
+   "emo": "/s/cloudstream",
+   "web": "https://github.com/recloudstream/cloudstream",
+   "filtros": [
+    "Android",
+    "Anime"
+   ],
+   "seccion": "apps"
+  },
+  "restartq/anicour": {
+   "rank": 27,
+   "nombre": "AniCour",
+   "emo": "/s/anicour",
+   "web": "https://github.com/ReStartQ/anicour",
+   "filtros": [],
+   "seccion": "utils"
+  },
+  "schneehertz/exhentai-manga-manager": {
+   "rank": 75,
+   "nombre": "exhentai-manager",
+   "emo": "/s/exhentaimanager",
+   "web": "https://github.com/SchneeHertz/exhentai-manga-manager",
+   "filtros": [
+    "Windows",
+    "Manga"
+   ],
+   "seccion": "apps"
+  },
+  "senzmaki/senpwai": {
+   "rank": 45,
+   "nombre": "Senpwai",
+   "emo": "/s/senpwaiapp",
+   "web": "https://github.com/SenZmaKi/Senpwai",
+   "filtros": [
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Android",
+    "Anime"
+   ],
+   "seccion": "apps"
+  },
+  "skyd666/anivu": {
+   "rank": 85,
+   "nombre": "AniVu",
+   "emo": "/s/anivu",
+   "web": "https://github.com/SkyD666/AniVu",
+   "filtros": [
+    "Android",
+    "Anime"
+   ],
+   "seccion": "apps"
+  },
+  "sohilsayed/chimahon": {
+   "rank": 17,
+   "nombre": "Chimahon",
+   "emo": "/s/chimahon",
+   "web": "https://github.com/sohilsayed/chimahon",
+   "filtros": [
+    "Android",
+    "Anime",
+    "Manga",
+    "Light Novel"
+   ],
+   "seccion": "apps"
+  },
+  "venera-app/venera": {
+   "rank": 37,
+   "nombre": "venera",
+   "emo": "/s/venera",
+   "web": "https://github.com/venera-app/venera",
+   "filtros": [
+    "Android",
+    "iOS",
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Manga"
+   ],
+   "seccion": "apps"
+  },
+  "yakateam/kotatsu-dl": {
+   "rank": 77,
+   "nombre": "Kotatsu-dl",
+   "emo": "/s/kotatsudesktop",
+   "web": "https://github.com/YakaTeam/kotatsu-dl",
+   "filtros": [
+    "Windows",
+    "Linux",
+    "Manga"
+   ],
+   "seccion": "apps"
+  }
+ }
+}
