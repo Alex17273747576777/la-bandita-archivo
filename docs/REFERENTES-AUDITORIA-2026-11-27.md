@@ -85,8 +85,28 @@ porcentaje agregado.
 | Hoja «Repos_Medidos_37» | `has_sha256_asset` = sí para `mihon`, `Kazumi`, `Kavita` | `checksum_publicado` = no · `digest_api` = sí |
 | ALE-67 | criterio de cierre: «6 de 6 con salida de pruebas registrada» | **no se puede cumplir en este entorno**: se cambia a «6 de 6 con cadena de integridad y CI medidos», y la salida de pruebas queda como tarea aparte con su propio entorno |
 
-La corrección **no se aplica sin tu visto bueno**: toca un número que ya está publicado en tres
-sitios. Está lista para ejecutarse en cuanto digas que sí.
+**Estado de esta corrección (actualizado el 2026-11-28).** La corrección **ya se aplicó** en el
+commit `8c0ea1b6`, que lleva por título *«observatorio: separar 'checksum publicado' (2 de 5) del
+digest de la API (5 de 5)»*. La versión anterior de este párrafo decía que se estaba reteniendo a la
+espera de un visto bueno, y eso dejó de ser cierto en cuanto el commit salió: se deja escrito aquí
+porque un documento que se contradice con su propio repositorio es peor que un número equivocado.
+
+Lo que **sigue sin aplicarse** es lo que aquel commit no tocó:
+
+| Dónde | Qué falta |
+| :--- | :--- |
+| Hoja `Repos_Medidos_37` (Google Sheets) | sigue con `has_sha256_asset`; hay que cambiarla a `checksum_publicado` / `digest_api` |
+| ALE-67 en Linear | el criterio de cierre sigue diciendo «6 de 6 con salida de pruebas registrada» |
+
+La propagación del 2/5 · 40 % a las publicaciones ES/EN y a `datos.json` sí quedó hecha con el
+commit; lo que queda pendiente es la hoja y el criterio.
+
+**Sobre el criterio de cierre de ALE-67.** Los seis referentes son Kotlin/Android, C# y Dart. Este
+entorno tiene ahora JDK 21, Go 1.24 y el SDK de Android sin plataformas, y **sigue sin** .NET, sin
+Flutter/Dart y sin plataformas Android: dos de los seis no se pueden compilar aquí de ninguna
+manera, y los otros cuatro necesitan bajar el SDK de su wrapper. Cambiar el criterio a «6 de 6 con
+cadena de integridad y CI medidos» es lo honesto; **no se cambia sin tu visto bueno**, porque un
+criterio de cierre no lo mueve quien mide.
 
 ## 5 · Qué queda pendiente de verdad
 
