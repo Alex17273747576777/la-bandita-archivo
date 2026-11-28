@@ -9,7 +9,8 @@
    "WordPress respondió HTTP 404 ('No input file specified') en validate_credential; no se publicó allí.",
    "Supabase (xgvmwykyrxpcjsgwwoyu) está en estado INACTIVE.",
    "El sandbox no cuenta con credencial GitHub de escritura persistente; los entregables se sincronizaron en Vercel, Google Workspace, Notion y Linear."
-  ]
+  ],
+  "checksum_remedido_en": "2026-11-28"
  },
  "summary": {
   "total_repos": 37,
@@ -26,7 +27,13 @@
   "candidate_sha256_publicado": "2/5",
   "candidate_sha256_publicado_pct": 40.0,
   "candidate_digest_api": "5/5",
-  "nota_sha256": "El 5/5 de los referentes NO es un checksum publicado: solo Suwayomi (Checksums.sha256) y yokai (tabla en las notas) lo publican y se puede comprobar; mihon, Kazumi y Kavita solo tienen el digest que calcula la API. Medido el 2026-11-27 en docs/REFERENTES-AUDITORIA-2026-11-27.md."
+  "nota_sha256": "El 5/5 de los referentes NO es un checksum publicado: solo Suwayomi (Checksums.sha256) y yokai (tabla en las notas) lo publican y se puede comprobar; mihon, Kazumi y Kavita solo tienen el digest que calcula la API. Medido el 2026-11-27 en docs/REFERENTES-AUDITORIA-2026-11-27.md.",
+  "repos_checksum_publicado": 7,
+  "repos_digest_api": 35,
+  "repos_sin_checksum_ni_digest": 2,
+  "checksum_publicado_pct": 18.9,
+  "nota_checksum": "Remedido el 2026-11-28, repo por repo, contra el endpoint de release. Publican checksum de verdad 7 de 37 (18.9 %): Kototoro-app/Kototoro, akitaonrails/FrankYomik, ProjectNox-org/nox-extension-developer, loeuf237/animelab, ReitanSora/koeyomi, Suwayomi/Suwayomi-Server, null2264/yokai. Los otros 35 solo tienen el digest que calcula la API al servir el archivo — sirve para detectar una descarga corrupta, no para sobrevivir a una release reemplazada. Sin nada: ProjectNox-org/project-nox-importer, keiyoushi/extensions-source. El campo anterior, has_sha256_asset, medía la presencia del digest y por eso daba 9; ver docs/CORTE-37-CHECKSUM-2026-11-28.md.",
+  "nota_sha256_historial": "El valor 9 de repos_with_sha256 es el conteo viejo de has_sha256_asset y se conserva solo como historial; el número vigente es repos_checksum_publicado."
  },
  "repos": [
   {
@@ -43,8 +50,10 @@
    "default_branch": "main",
    "latest_release": "v1.4.29",
    "release_date": "2026-11-24",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/Noirero/Miyorare"
+   "html_url": "https://github.com/Noirero/Miyorare",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "Harrys-HQ/ShinKu",
@@ -60,8 +69,10 @@
    "default_branch": "main",
    "latest_release": "v2.8.5",
    "release_date": "2026-11-21",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/Harrys-HQ/ShinKu"
+   "html_url": "https://github.com/Harrys-HQ/ShinKu",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "unseensnick/Reikai",
@@ -77,8 +88,10 @@
    "default_branch": "main",
    "latest_release": "v0.5.1",
    "release_date": "2026-10-26",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/unseensnick/Reikai"
+   "html_url": "https://github.com/unseensnick/Reikai",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "PineappleTwilight/hyoukan",
@@ -94,8 +107,10 @@
    "default_branch": "master",
    "latest_release": "v1.25.3",
    "release_date": "2026-11-04",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/PineappleTwilight/hyoukan"
+   "html_url": "https://github.com/PineappleTwilight/hyoukan",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "Foxlations/Foxlations",
@@ -111,8 +126,10 @@
    "default_branch": "main",
    "latest_release": "v1.2.2+188",
    "release_date": "2026-10-15",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/Foxlations/Foxlations"
+   "html_url": "https://github.com/Foxlations/Foxlations",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "Kototoro-app/Kototoro",
@@ -128,8 +145,10 @@
    "default_branch": "devel",
    "latest_release": "v2.5.3",
    "release_date": "2026-11-26",
-   "has_sha256_asset": true,
-   "html_url": "https://github.com/Kototoro-app/Kototoro"
+   "html_url": "https://github.com/Kototoro-app/Kototoro",
+   "checksum_publicado": true,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "Arthurpendragon9876/DeepSync",
@@ -145,8 +164,10 @@
    "default_branch": "main",
    "latest_release": "android-v0.1.4",
    "release_date": "2026-11-26",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/Arthurpendragon9876/DeepSync"
+   "html_url": "https://github.com/Arthurpendragon9876/DeepSync",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "salmanbappi/AniZen",
@@ -162,8 +183,10 @@
    "default_branch": "master",
    "latest_release": "v0.5.222",
    "release_date": "2026-11-26",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/salmanbappi/AniZen"
+   "html_url": "https://github.com/salmanbappi/AniZen",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "akitaonrails/FrankYomik",
@@ -179,8 +202,10 @@
    "default_branch": "master",
    "latest_release": "v2.0.7",
    "release_date": "2026-11-26",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/akitaonrails/FrankYomik"
+   "html_url": "https://github.com/akitaonrails/FrankYomik",
+   "checksum_publicado": true,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "RockinChaos/Shiru",
@@ -196,8 +221,10 @@
    "default_branch": "master",
    "latest_release": "v6.10.1",
    "release_date": "2026-11-18",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/RockinChaos/Shiru"
+   "html_url": "https://github.com/RockinChaos/Shiru",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "dmzz-yyhyy/LightNovelReader",
@@ -213,8 +240,10 @@
    "default_branch": "dev/1.3",
    "latest_release": "1.2.4",
    "release_date": "2026-10-16",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/dmzz-yyhyy/LightNovelReader"
+   "html_url": "https://github.com/dmzz-yyhyy/LightNovelReader",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "yomihon/yomihon",
@@ -230,8 +259,10 @@
    "default_branch": "main",
    "latest_release": "v0.4.3",
    "release_date": "2026-10-18",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/yomihon/yomihon"
+   "html_url": "https://github.com/yomihon/yomihon",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "5rahim/seanime",
@@ -247,8 +278,10 @@
    "default_branch": "main",
    "latest_release": "v3.10.5",
    "release_date": "2026-11-21",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/5rahim/seanime"
+   "html_url": "https://github.com/5rahim/seanime",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "Anxcye/anx-reader",
@@ -264,8 +297,10 @@
    "default_branch": "develop",
    "latest_release": "v1.14.0",
    "release_date": "2026-03-19",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/Anxcye/anx-reader"
+   "html_url": "https://github.com/Anxcye/anx-reader",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "RyanYuuki/AnymeX",
@@ -281,8 +316,10 @@
    "default_branch": "main",
    "latest_release": "v3.2.1",
    "release_date": "2026-11-25",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/RyanYuuki/AnymeX"
+   "html_url": "https://github.com/RyanYuuki/AnymeX",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "ProjectNox-org/nox-extension-developer",
@@ -298,8 +335,10 @@
    "default_branch": "main",
    "latest_release": "v2.1.1",
    "release_date": "2026-11-21",
-   "has_sha256_asset": true,
-   "html_url": "https://github.com/ProjectNox-org/nox-extension-developer"
+   "html_url": "https://github.com/ProjectNox-org/nox-extension-developer",
+   "checksum_publicado": true,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "ProjectNox-org/project-nox-importer",
@@ -315,8 +354,10 @@
    "default_branch": "main",
    "latest_release": "Sin release",
    "release_date": "—",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/ProjectNox-org/project-nox-importer"
+   "html_url": "https://github.com/ProjectNox-org/project-nox-importer",
+   "checksum_publicado": false,
+   "digest_api": false,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "diogorainhalopes/atahon",
@@ -332,8 +373,10 @@
    "default_branch": "main",
    "latest_release": "v0.6.0",
    "release_date": "2026-05-24",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/diogorainhalopes/atahon"
+   "html_url": "https://github.com/diogorainhalopes/atahon",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "loeuf237/animelab",
@@ -349,8 +392,10 @@
    "default_branch": "main",
    "latest_release": "v0.3.2",
    "release_date": "2026-11-26",
-   "has_sha256_asset": true,
-   "html_url": "https://github.com/loeuf237/animelab"
+   "html_url": "https://github.com/loeuf237/animelab",
+   "checksum_publicado": true,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "ReitanSora/koeyomi",
@@ -366,8 +411,10 @@
    "default_branch": "master",
    "latest_release": "v1.1.3",
    "release_date": "2026-08-11",
-   "has_sha256_asset": true,
-   "html_url": "https://github.com/ReitanSora/koeyomi"
+   "html_url": "https://github.com/ReitanSora/koeyomi",
+   "checksum_publicado": true,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "Nabeelshar/WebnovelReader",
@@ -383,8 +430,10 @@
    "default_branch": "master",
    "latest_release": "v2.5.0",
    "release_date": "2026-11-23",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/Nabeelshar/WebnovelReader"
+   "html_url": "https://github.com/Nabeelshar/WebnovelReader",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "Paduu29/KomaStream",
@@ -400,8 +449,10 @@
    "default_branch": "main",
    "latest_release": "v3.17",
    "release_date": "2026-10-26",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/Paduu29/KomaStream"
+   "html_url": "https://github.com/Paduu29/KomaStream",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "HuzaifaKhalid1311/DropSauce",
@@ -417,8 +468,10 @@
    "default_branch": "main",
    "latest_release": "v1.2.0",
    "release_date": "2026-11-27",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/HuzaifaKhalid1311/DropSauce"
+   "html_url": "https://github.com/HuzaifaKhalid1311/DropSauce",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "reyyuuki/Azyx",
@@ -434,8 +487,10 @@
    "default_branch": "main",
    "latest_release": "v2.6.4-beta",
    "release_date": "2025-08-24",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/reyyuuki/Azyx"
+   "html_url": "https://github.com/reyyuuki/Azyx",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "stumpapp/stump",
@@ -451,8 +506,10 @@
    "default_branch": "main",
    "latest_release": "v0.1.14",
    "release_date": "2026-11-18",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/stumpapp/stump"
+   "html_url": "https://github.com/stumpapp/stump",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "ollm/OpenComic",
@@ -468,8 +525,10 @@
    "default_branch": "master",
    "latest_release": "v2.0.0",
    "release_date": "2026-11-14",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/ollm/OpenComic"
+   "html_url": "https://github.com/ollm/OpenComic",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "kodjodevf/mangayomi",
@@ -485,8 +544,10 @@
    "default_branch": "main",
    "latest_release": "v0.9.97",
    "release_date": "2026-11-20",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/kodjodevf/mangayomi"
+   "html_url": "https://github.com/kodjodevf/mangayomi",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "Chimahon/chimahon",
@@ -502,8 +563,10 @@
    "default_branch": "main",
    "latest_release": "v2.5.5",
    "release_date": "2026-11-27",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/Chimahon/chimahon"
+   "html_url": "https://github.com/Chimahon/chimahon",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "Yuneko-dev/Nekori",
@@ -519,8 +582,10 @@
    "default_branch": "main",
    "latest_release": "v0.1.3",
    "release_date": "2026-10-23",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/Yuneko-dev/Nekori"
+   "html_url": "https://github.com/Yuneko-dev/Nekori",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "aayush2622/Dartotsu",
@@ -536,8 +601,10 @@
    "default_branch": "main",
    "latest_release": "v1.2.2",
    "release_date": "2026-11-24",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/aayush2622/Dartotsu"
+   "html_url": "https://github.com/aayush2622/Dartotsu",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "komikku-app/komikku",
@@ -550,8 +617,10 @@
    "pushed_at": "2026-11-27",
    "latest_release": "r10755",
    "release_date": "2026-11-27",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/komikku-app/komikku"
+   "html_url": "https://github.com/komikku-app/komikku",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "mihonapp/mihon",
@@ -564,8 +633,10 @@
    "pushed_at": "2026-11-22",
    "latest_release": "v0.21.3",
    "release_date": "2026-10-26",
-   "has_sha256_asset": true,
-   "html_url": "https://github.com/mihonapp/mihon"
+   "html_url": "https://github.com/mihonapp/mihon",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "Suwayomi/Suwayomi-Server",
@@ -578,8 +649,10 @@
    "pushed_at": "2026-11-22",
    "latest_release": "v2.4.2373",
    "release_date": "2026-11-21",
-   "has_sha256_asset": true,
-   "html_url": "https://github.com/Suwayomi/Suwayomi-Server"
+   "html_url": "https://github.com/Suwayomi/Suwayomi-Server",
+   "checksum_publicado": true,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "Kareadita/Kavita",
@@ -592,8 +665,10 @@
    "pushed_at": "2026-11-22",
    "latest_release": "v0.9.1.4",
    "release_date": "2026-09-02",
-   "has_sha256_asset": true,
-   "html_url": "https://github.com/Kareadita/Kavita"
+   "html_url": "https://github.com/Kareadita/Kavita",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "null2264/yokai",
@@ -606,8 +681,10 @@
    "pushed_at": "2026-09-28",
    "latest_release": "v1.10.2",
    "release_date": "2026-09-23",
-   "has_sha256_asset": true,
-   "html_url": "https://github.com/null2264/yokai"
+   "html_url": "https://github.com/null2264/yokai",
+   "checksum_publicado": true,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "predidit/Kazumi",
@@ -620,8 +697,10 @@
    "pushed_at": "2026-11-26",
    "latest_release": "2.4.7",
    "release_date": "2026-11-26",
-   "has_sha256_asset": true,
-   "html_url": "https://github.com/predidit/Kazumi"
+   "html_url": "https://github.com/predidit/Kazumi",
+   "checksum_publicado": false,
+   "digest_api": true,
+   "checksum_publicado_detalle": null
   },
   {
    "repo": "keiyoushi/extensions-source",
@@ -634,8 +713,10 @@
    "pushed_at": "2026-11-26",
    "latest_release": "Sin release",
    "release_date": "—",
-   "has_sha256_asset": false,
-   "html_url": "https://github.com/keiyoushi/extensions-source"
+   "html_url": "https://github.com/keiyoushi/extensions-source",
+   "checksum_publicado": false,
+   "digest_api": false,
+   "checksum_publicado_detalle": null
   }
  ],
  "issues": [
